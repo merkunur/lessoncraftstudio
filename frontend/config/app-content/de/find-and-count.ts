@@ -5,16 +5,16 @@ const content: AppContent = {
     primaryKeyword: 'suchbild-generator',
     secondaryKeywords: [
       `druckbarer Ich-sehe-was-Generator für Etsy-Verkäufer`,
-      'Suchbild-Aktivität-Ersteller für KDP-Verleger',
+      `Suchbild-Aktivität-Ersteller für KDP-Verleger`,
       `Suchen-und-Zählen-Arbeitsblatt-Generator kommerzielle Lizenz`,
       `Suchbild-Arbeitsblätter auf Etsy.de und Amazon verkaufen`,
     ],
     lsiKeywords: [
       `digitale Suchbild-Druckvorlagen skalierbares Einkommen`,
       `kommerzieller Ich-sehe-was-Generator mit Lösungsschlüssel`,
-      'Druckvorlagen-Geschäft Zählaktivitäten Werkzeuge',
+      `Druckvorlagen-Geschäft Zählaktivitäten Werkzeuge`,
     ],
-    titleTag: 'Suchbild-Generator | Ich-sehe-was-Übungen',
+    titleTag: `Suchbild-Generator | Ich-sehe-was-Übungen`,
     metaDescription: `Suchbild-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 4 Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Themen. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -26,10 +26,10 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Suchbild-Arbeitsblätter erstellen in 5 Schritten',
+    title: `Suchbild-Arbeitsblätter erstellen in 5 Schritten`,
     steps: [
       {
-        title: 'Seitenlayout und Rasterdichte festlegen',
+        title: `Seitenlayout und Rasterdichte festlegen`,
         description:
           `Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Standard (800×1000), Letter, A4, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Dimension. Konfigurieren Sie die Rasterdichte mit Zeilen (5–10) und Spalten (5–10) — der Standard ist 6×6 mit 36 Zellen. Ein 5×5-Raster eignet sich für einfachere Suchbilder, ein 10×10-Raster für anspruchsvolle dichte Szenen. Wählen Sie eine Seitenfarbe mit dem Farbwähler, wählen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an, dann wählen Sie ein Rahmenthema mit eigenem unabhängigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihr Suchbild-Arbeitsblatt, bevor Sie Inhalte hinzufügen.`,
       },
@@ -39,17 +39,17 @@ const content: AppContent = {
           `Wählen Sie zwischen zwei Modi. Der Suchbild-Modus (Standard) erstellt klassische Ich-sehe-was-Szenen — verteilte Bilder über ein Raster, in dem bestimmte Objekte gesucht und verschiedene Aufgaben durchgeführt werden. Der Buchstabenerkennung-Modus aktiviert ein sprachspezifisches Alphabet-Raster mit Sonderbuchstaben — auf Deutsch einschließlich Ä, Ö und Ü als eigenständige Buchstaben — und generiert Szenen mit Bildern, die mit dem ausgewählten Buchstaben in der ausgewählten Sprache beginnen. Der Header wechselt automatisch zwischen „Ich sehe was" und „Buchstabenerkennung" (lokalisiert in allen 11 Sprachen) basierend auf Ihrer Auswahl.`,
       },
       {
-        title: 'Bilder auswählen und Aufgabentypen zuweisen',
+        title: `Bilder auswählen und Aufgabentypen zuweisen`,
         description:
           `Im Suchbild-Modus wählen Sie bis zu 4 Zielobjekte aus den 104 thematischen Bildsammlungen der Bildbibliothek. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie nach bestimmten Bildern per Stichwort. Für jedes ausgewählte Bild weisen Sie einen Aufgabentyp über das Dropdown-Menü zu: Einkreisen (einen Kreis darum zeichnen), Umrahmen (ein Quadrat darum zeichnen), Durchstreichen (das Objekt durchstreichen) oder Zählen (zählen, wie oft es vorkommt, und die Zahl aufschreiben). Das Raster füllt verbleibende Zellen mit zufälligen Ablenkungsbildern aus dem ausgewählten Thema. Im Buchstabenerkennung-Modus klicken Sie auf einen Buchstaben aus dem sprachspezifischen Alphabet-Raster — einschließlich der deutschen Umlaute Ä, Ö und Ü — um Zielbilder und Ablenkungsbilder automatisch zu generieren.`,
       },
       {
-        title: 'Suchbild-Arbeitsblatt generieren',
+        title: `Suchbild-Arbeitsblatt generieren`,
         description:
           `Die App generiert automatisch beim Öffnen der Seite ein vollständiges Suchbild-Arbeitsblatt — mit dem Thema Tiere, 4 zufälligen Bildern und zufälligen Aufgabentypen. Klicken Sie auf Generieren, um mit Ihren benutzerdefinierten Einstellungen neu zu erstellen. Die verteilte Bilderszene füllt das Raster mit Zielobjekten, die zufällig verteilt werden (1–5 Instanzen pro Objekt), zwischen Ablenkungsbildern. Ein gestalteter Header erscheint oben mit blauem Rahmen (#2196F3), gelbem innerem Akzent und lokalisiertem Titel und Anweisungen in Fredoka- und Quicksand-Schriften.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um die automatisch generierten Markierungen zu sehen: rote Kreise um eingekreiste Objekte, rote Rahmen um umrahmte Objekte, rote Kreuze über durchgestrichenen Objekten und Anzahl-Anzeigen für gezählte Objekte. Der Lösungsschlüssel reproduziert das identische Arbeitsblatt-Layout und überlagert die visuellen Markierungen, sodass korrekte Antworten sofort erkennbar sind. Laden Sie über die vier dedizierten Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI (6× Canvas-Multiplikator) für gestochen scharfe Druckqualität. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -103,10 +103,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Suchbild-Arbeitsblätter online verkaufen',
+    title: `Suchbild-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Suchbild-Aktivitätspakete auf Etsy',
+        title: `Thematische Suchbild-Aktivitätspakete auf Etsy`,
         description:
           `Erstellen Sie thematische Suchbild-Pakete mithilfe der 104 Bildsammlungen — Tier-Suchbilder, Feiertags-Suchbilder, Lebensmittel-Suchbilder, Fahrzeug-Suchbilder und Dutzende mehr. Mischen Sie alle vier Aufgabentypen innerhalb jedes Pakets für Abwechslung: Einkreisen-Aufgaben für Feinmotorik, Zählen-Aufgaben für Zahlenverständnis, Durchstreichen-Aufgaben für visuelle Unterscheidung und Umrahmen-Aufgaben für das Befolgen von Anweisungen. Variieren Sie den Schwierigkeitsgrad durch Anpassung der Rasterdichte — einfache 5×5-Raster für Einsteiger-Pakete, anspruchsvolle 10×10-Raster für Premium-Pakete. Verpacken Sie 10–20 Suchbild-Arbeitsblätter pro Thema mit beigelegten Lösungsschlüsseln und verkaufen Sie zu 3–7 € pro Paket. Der automatisch generierte Lösungsschlüssel eliminiert den größten Zeitfresser in der Suchbild-Produktion und ermöglicht die schnelle Erstellung umfangreicher Produktpakete für Etsy.de.`,
         platform: 'Etsy (etsy.de)',
@@ -118,7 +118,7 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Such- und Zählaktivitäten auf Gumroad',
+        title: `Such- und Zählaktivitäten auf Gumroad`,
         description:
           `Erstellen Sie sofort einsetzbare Suchbild-Zähl-Arbeitsblätter, bei denen in einer verteilten Szene Objekte gesucht, gefunden und gezählt werden. Auf dem Gumroad werden Zählaktivitäten geschätzt, die visuelle Suche mit Zahlenverständnis verbinden. Der Zählen-Aufgabentyp fordert dazu auf, die Anzahl der Instanzen jedes Objekts zu ermitteln und aufzuschreiben — eine natürliche Verbindung von Suchbild und Mathe. Kombinieren Sie den Zählen-Aufgabentyp mit Einkreisen oder Durchstreichen auf demselben Arbeitsblatt für mehrschichtige Lernaktivitäten. Erstellen Sie thematische Sets: Bauernhof-Tiere zählen, Berufe zählen, Meerestiere zählen und saisonale Objekte zählen. Der Lösungsschlüssel zeigt die korrekten Anzahlen automatisch an, sodass Verkäufer die Ergebnisse schnell überprüfen können. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten für flexiblen Geschäftseinsatz.`,
         platform: 'Gumroad',
@@ -127,13 +127,13 @@ const content: AppContent = {
         title: `Buchstabenerkennung- und Phonik-Pakete für Anfangsbuchstaben-Übungen`,
         description:
           `Nutzen Sie den Buchstabenerkennung-Modus, um Suchbild-Arbeitsblätter für Anfangsbuchstaben-Erkennung zu erstellen. Jedes Arbeitsblatt zielt auf einen bestimmten Buchstaben ab — alle Objekte, die mit diesem Buchstaben beginnen, werden in einer verteilten Bilderszene gesucht. Erstellen Sie ein vollständiges A–Z-Buchstabenerkennung-Paket mit 26 Arbeitsblättern (eins pro Buchstabe) plus Lösungsschlüssel. Für den deutschen Markt erweitern Sie das Paket auf 29 Arbeitsblätter mit den zusätzlichen Umlauten Ä, Ö und Ü. Die sprachspezifischen Alphabete ermöglichen deutsche Phonik-Pakete, die Wettbewerber mit englischsprachigen Werkzeugen nicht bieten können — kein anderer Generator unterstützt deutsche Umlaute als eigenständige Buchstaben im Alphabet-Raster. Ein einzigartiges Alleinstellungsmerkmal für den deutschsprachigen Markt auf Etsy.de und dem Gumroad, das Premium-Preise rechtfertigt.`,
-        platform: 'Etsy / Gumroad (Lese-Förderung)',
+        platform: `Etsy / Gumroad (Lese-Förderung)`,
       },
       {
         title: `Mehrsprachige Suchbild-Sammlungen für globale Märkte`,
         description:
           `Nutzen Sie die sprachabhängigen Bildbezeichnungen, um Suchbild-Arbeitsblätter in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen unterschiedliche Beschriftungen, wenn Sie die Sprache wechseln — Bildnamen, Anfangsbuchstaben im Buchstabenerkennung-Modus und Header-Text aktualisieren sich automatisch. Erstellen Sie mehrsprachige Suchbild-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder mit lokalisierten Bezeichnungen verwendet. Ein Tier-Suchbild-Paket mit deutschen Bildbezeichnungen für Etsy.de, französischen Bezeichnungen für Etsy.fr und spanischen Bezeichnungen für den lateinamerikanischen Markt — aus denselben Quelldateien generiert. Dies ist wertvoll für DaF/DaZ-Produkterstellung, zweisprachige Lernumgebungen und internationale Homeschool-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen auf internationalen Etsy-Shops und dem Gumroad.`,
-        platform: 'Etsy / Gumroad (mehrsprachiger Markt)',
+        platform: `Etsy / Gumroad (mehrsprachiger Markt)`,
       },
     ],
   },
@@ -180,7 +180,7 @@ const content: AppContent = {
         `Ja. Die App generiert automatisch ein vollständiges Suchbild-Arbeitsblatt, wenn Sie die Seite öffnen — mit dem Thema Tiere, 4 zufällig ausgewählten Bildern und zufällig zugewiesenen Aufgabentypen auf einem 6×6-Raster. Dies gibt Ihnen eine sofortige Vorschau dessen, was das Werkzeug produziert. Von dort aus können Sie Thema, Rasterdimensionen, Zielobjekte, Aufgabentypen und Aktivitätsmodus anpassen und dann auf Generieren klicken, um mit Ihren Einstellungen neu zu erstellen.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — beide Aktivitätsmodi, alle vier Aufgabentypen, Buchstabenerkennung mit sprachspezifischen Alphabeten einschließlich der deutschen Umlaute ÄÖÜ, konfigurierbare Rasterdimensionen von 5×5 bis 10×10, den automatisch generierten Lösungsschlüssel mit roten Markierungen, die vollständige Bildbibliothek mit 104 Themen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern und alle Download-Formate in 300 DPI — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle erstellten Suchbild-Arbeitsblätter.`,
     },
@@ -205,32 +205,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'suchbilder-arbeitsblaetter',
-      anchorText: 'Versteckte-Objekte-Arbeitsblatt-Generator',
+      anchorText: `Versteckte-Objekte-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
-      anchorText: 'Kreuzworträtsel-Arbeitsblatt-Generator',
+      slug: `bilderkreuzwortraetsel-arbeitsblaetter`,
+      anchorText: `Kreuzworträtsel-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'schatzsuche-arbeitsblaetter',
-      anchorText: 'Schatzsuche-Arbeitsblatt-Generator',
+      anchorText: `Schatzsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'bilddiagramm-arbeitsblaetter',
-      anchorText: 'Bilddiagramm-Arbeitsblatt-Generator',
+      anchorText: `Bilddiagramm-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'bilderpfad-arbeitsblaetter',
-      anchorText: 'Bilderpfad-Labyrinth-Generator',
+      anchorText: `Bilderpfad-Labyrinth-Generator`,
     },
     {
       pageType: 'app',
       slug: 'wortsuche-arbeitsblaetter',
-      anchorText: 'Wortsuche-Arbeitsblatt-Generator',
+      anchorText: `Wortsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,26 +240,26 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'haustiere-druckvorlagen-ideen',
-      anchorText: 'Haustiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      anchorText: `Haustiere-Druckvorlagen-Ideen für Arbeitsblätter`,
     },
     {
       pageType: 'idea',
       slug: 'camping-druckvorlagen-ideen',
-      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+      anchorText: `Camping-Druckvorlagen-Ideen für Outdoor-Lernen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
       anchorText: `Meerestiere-Druckvorlagen-Ideen für maritime Themen`,
     },
     {
       pageType: 'start',
-      slug: 'marketing-druckvorlagen-geschaeft',
-      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+      slug: `marketing-druckvorlagen-geschaeft`,
+      anchorText: `Marketing für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'guide',
-      slug: 'zaehl-arbeitsblaetter-erstellen',
+      slug: `zaehl-arbeitsblaetter-erstellen`,
       anchorText: 'Zähl-Arbeitsblätter erstellen',
     },
   ],

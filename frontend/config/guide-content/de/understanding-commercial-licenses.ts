@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Kommerzielle Lizenz Druckvorlagen',
+    primaryKeyword: `Kommerzielle Lizenz Druckvorlagen`,
     secondaryKeywords: [
-      'kommerzielle Nutzungsrechte Arbeitsblätter',
-      'Arbeitsblätter legal verkaufen',
-      'gewerbliche Rechte digitale Produkte',
-      'Lizenzierung für Druckvorlagen-Verkäufer',
+      `kommerzielle Nutzungsrechte Arbeitsblätter`,
+      `Arbeitsblätter legal verkaufen`,
+      `gewerbliche Rechte digitale Produkte`,
+      `Lizenzierung für Druckvorlagen-Verkäufer`,
     ],
     lsiKeywords: [
       `geistiges Eigentum Nutzungsrechte persönliche vs kommerzielle Nutzung Lizenzstufen`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Kommerzielle Lizenzen verstehen',
+    title: `Kommerzielle Lizenzen verstehen`,
     tagline: `Ein vollständiger Leitfaden zur kommerziellen Lizenzierung für Druckvorlagen-Verkäufer — einschließlich des Unterschieds zwischen persönlicher und kommerzieller Nutzung, was eine kommerzielle Lizenz erfordert, wie man Lizenzbedingungen bewertet, gängige Lizenzmodelle in der Druckvorlagen-Branche, zu vermeidende Lizenzierungsfehler, Aufbau eines Konformitätssystems, plattformübergreifende Lizenzierung und Lizenzwissen als Wettbewerbsvorteil`,
     description: `Jede Ressource, die Sie zur Erstellung von Druckvorlagen verwenden — Arbeitsblatt-Generatoren, Clipart, Schriftarten, Vorlagen und Bildbibliotheken — hat Lizenzbedingungen, die bestimmen, ob Sie die Ergebnisse legal verkaufen dürfen. Die meisten Druckvorlagen-Verkäufer überspringen diesen Schritt komplett und gehen davon aus, dass der Kauf eines Tools automatisch kommerzielle Rechte gewährt. Diese Annahme führt zu Produktentfernungen, Kontosperrungen und Umsatzverlusten. Dieser Leitfaden erklärt, wie kommerzielle Lizenzierung in der Druckvorlagen-Branche funktioniert, worauf man in Lizenzvereinbarungen achten sollte und wie man ein Konformitätssystem aufbaut, das Ihr Geschäft beim Wachstum schützt.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Jedes Element in Ihrer Produkterstellungs-Pipeline benötigt verifizierte kommerzielle Rechte. Verkäufer konzentrieren sich oft auf das Haupttool, das sie zur Erstellung von Arbeitsblättern verwenden, und übersehen dabei die unterstützenden Ressourcen, die ebenfalls eine Lizenzierung erfordern. Ein vollständiges Lizenz-Audit deckt jede Ressource ab, die zu Ihrem fertigen Produkt beiträgt.\n\nArbeitsblatt-Generatoren sind das primäre Erstellungstool für die meisten Druckvorlagen-Verkäufer, und ihre Lizenzierung bestimmt, ob Sie die damit erstellten Arbeitsblätter verkaufen dürfen. Einige Generatoren gewähren kommerzielle Rechte mit einem Basiskauf, während andere die kommerzielle Nutzung auf Premium-Stufen beschränken. Die LessonCraft Studio Generatoren bieten zwei klare Stufen: eine Commercial-Lizenz für 27 $ zum Verkauf auf Ihrer Hauptplattform und eine Full-Access-Lizenz für 47 $ zum Verkauf über alle Plattformen mit zusätzlichen Funktionen. Sie können jeden Generator als kostenlose Testversion mit Wasserzeichen ausprobieren, um die Ergebnisse vor dem Kauf einer kommerziellen Lizenz zu bewerten.\n\nClipart- und Bildbibliotheken erfordern separate Lizenzbeachtung, da sie oft die am stärksten durchgesetzte Kategorie digitaler Ressourcen sind. Professionelle Illustratoren und Bildanbieter überwachen Marktplätze aktiv auf unbefugte kommerzielle Nutzung ihrer Kunstwerke. Jede Clipart-Sammlung, jedes Icon-Set oder Illustrationspaket, das Sie in Ihren Produkten verwenden, muss kommerzielle Nutzungsrechte besitzen. Dies schließt Bilder ein, die in Arbeitsblatt-Generatoren eingebettet sind — überprüfen Sie, dass die Lizenz des Generators die enthaltenen Bilder für kommerzielle Ausgabe abdeckt.\n\nSchriftarten sind eine häufig übersehene Lizenzierungsanforderung. Viele beliebte Schriftarten sind nur für persönliche Nutzung lizenziert, und ihre Verwendung in kommerziellen Produkten ohne kommerzielle Schriftartenlizenz stellt eine Verletzung dar. Dies gilt für Schriftarten in Arbeitsblatt-Vorlagen, Titelseiten, Produkt-Thumbnails und jeder anderen kommerziellen Ausgabe. Schriftenhersteller überwachen die kommerzielle Nutzung ihrer Schriften zunehmend und stellen Entfernungsaufforderungen für Produkte aus, die unlizenzierte Schriftarten kommerziell verwenden.\n\nVorlagendateien, Rahmendesigns, Hintergrundmuster und dekorative Elemente haben jeweils eigene Lizenzbedingungen. Ein wunderschön gestalteter Arbeitsblattrahmen, der von einer Designressourcen-Seite heruntergeladen wurde, kann auf persönliche Nutzung beschränkt sein. Ein Hintergrundmuster aus einer Texturbibliothek kann eine Pro-Produkt-Gebühr für die kommerzielle Nutzung haben. Jedes visuelle Element in Ihrem fertigen Produkt stellt eine Lizenzentscheidung dar, und jede Entscheidung muss bewusst getroffen werden, anstatt angenommen zu werden.\n\nDas Prinzip ist einfach: Wenn es in einem Produkt erscheint, das Sie verkaufen, braucht es kommerzielle Rechte. Keine Ausnahmen. Ein unlizenziertes Element in einem ansonsten ordnungsgemäß lizenzierten Produkt schafft Haftung für das gesamte Produkt. Gewöhnen Sie sich an, Lizenzbedingungen zu prüfen, bevor Sie eine Ressource in Ihren Workflow integrieren, nicht nachdem Sie bereits Produkte darauf aufgebaut haben.`,
     },
     {
-      heading: 'Lizenzbedingungen vor dem Kauf lesen und bewerten',
+      heading: `Lizenzbedingungen vor dem Kauf lesen und bewerten`,
       content: `Lizenzvereinbarungen sind rechtliche Dokumente, die genau definieren, was Sie mit einer Ressource tun dürfen und was nicht. Sie vor dem Kauf zu lesen, erspart Ihnen, Einschränkungen erst zu entdecken, nachdem Sie bereits Zeit investiert haben, Produkte um eine Ressource herum aufzubauen. Die meisten Lizenzvereinbarungen für Druckvorlagen-bezogene Tools und Ressourcen sind relativ kurz und in verständlicher Sprache geschrieben.\n\nDas Eigentum an der Ausgabe ist die wichtigste Bedingung zur Überprüfung. Einige Lizenzen gewähren Ihnen das volle Eigentum an allem, was Sie mit dem Tool erstellen. Andere behalten teilweises Eigentum oder schränken ein, wie Sie die Ausgabe verwenden können. Die klarsten und verkäuferfreundlichsten Lizenzen besagen, dass die von Ihnen generierte Ausgabe Ihnen gehört und ohne Einschränkung kommerziell genutzt werden kann. Seien Sie vorsichtig bei Lizenzen, die geteiltes Eigentum an Ihrer Ausgabe beanspruchen oder laufende Lizenzgebühren basierend auf Ihren Verkäufen erfordern.\n\nPlattformbeschränkungen bestimmen, wo Sie Ihre Produkte verkaufen dürfen. Einige Lizenzen beschränken die kommerzielle Nutzung auf eine einzelne Plattform, was bedeutet, dass ein für den Etsy-Verkauf erstelltes Produkt nicht legal auf Amazon oder Gumroad gelistet werden kann, ohne einen zusätzlichen Lizenzkauf. Andere Lizenzen sind plattformunabhängig und erlauben den Verkauf auf jeder Plattform ohne Einschränkung. Plattformunabhängige Lizenzen sind deutlich wertvoller für Verkäufer, die über mehrere Marktplätze verteilen, was eine Kernstrategie für den Aufbau substanzieller Einnahmen ist.\n\nProduktlimits geben an, wie viele Produkte Sie unter der Lizenz erstellen oder verkaufen dürfen. Einige Lizenzen erlauben unbegrenzte Ausgabe — Sie können so viele Produkte erstellen und verkaufen, wie Sie möchten, ohne Obergrenze. Andere legen Pro-Produkt-Gebühren, monatliche Ausgabelimits oder Gesamteinheitsbeschränkungen fest. Für ein Druckvorlagen-Geschäft, das plant, einen großen Katalog aufzubauen, eliminieren unbegrenzte Ausgabelizenzen die Notwendigkeit, Produktionszahlen zu verfolgen, und vermeiden unerwartete Lizenzkosten, wenn Ihr Katalog wächst.\n\nQuellenangabepflichten geben an, ob Sie den Ressourcenanbieter in Ihren Produkten oder Listings nennen müssen. Einige Lizenzen erfordern sichtbare Quellenangabe (z. B. „Bilder von [Anbietername]" auf jedem Produkt), während andere keine Quellenangabe erfordern. Quellenangabepflichten sind keine Ausschlusskriterien, aber sie fügen Komplexität zu Ihrem Produkterstellungsprozess hinzu und können das professionelle Erscheinungsbild Ihrer fertigen Produkte beeinflussen.\n\nWarnzeichen in Lizenzbedingungen umfassen vage Formulierungen zu kommerziellen Rechten (Phrasen wie „darf nach unserem Ermessen kommerziell genutzt werden"), rückwirkende Lizenzänderungen (der Anbieter kann Bedingungen ändern und die neuen Bedingungen gelten für bestehende Käufe) und Exklusivitätsklauseln (Sie dürfen keine konkurrierenden Produkte oder Tools verwenden). Wenn eine Lizenz Formulierungen enthält, die Sie nicht verstehen, oder Bedingungen, die ungewöhnlich restriktiv erscheinen, suchen Sie vor dem Kauf eine Klärung beim Anbieter.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `Ein Lizenzkonformitätssystem verwandelt Lizenzierung von einer gelegentlichen Sorge in eine systematische Geschäftspraxis. Wenn Ihr Produktkatalog wächst, wird die Verfolgung, welche Ressourcen Sie in welchen Produkten verwendet haben, zunehmend wichtiger — und zunehmend schwieriger, allein aus dem Gedächtnis zu bewältigen.\n\nErstellen Sie ein Lizenzverfolgungsdokument, das jede Ressource und jedes Tool aufzeichnet, das Sie kommerziell nutzen. Für jeden Eintrag notieren Sie den Anbieternamen, die Ressourcenbeschreibung, den Lizenztyp (lizenzgebührenfrei, Abonnement usw.), was die Lizenz erlaubt (Plattformen, Ausgabelimits, Quellenangabepflichten), das Kaufdatum, den Kaufpreis und wo die Lizenzvereinbarung gespeichert ist. Eine einfache Tabellenkalkulation funktioniert gut für diesen Zweck. Das Ziel ist ein einzelnes Referenzdokument, in dem Sie schnell Ihre kommerziellen Rechte für jede Ressource in Ihrem Workflow überprüfen können.\n\nSpeichern Sie Kopien jeder Lizenzvereinbarung und jedes Kaufnachweises in einem organisierten digitalen Ordner. Wenn ein Marktplatz Sie auffordert, kommerzielle Rechte für ein bestimmtes Produkt zu verifizieren, müssen Sie die Dokumentation schnell vorlegen können. Eine Ordnerstruktur, die nach Anbieternamen organisiert ist, mit Unterordnern, die die Lizenzvereinbarungs-PDF und den Kaufbeleg für jede Ressource enthalten, macht das Auffinden unkompliziert. Cloud-Speicher stellt sicher, dass diese Unterlagen lokale Hardware-Ausfälle überleben.\n\nDokumentieren Sie, welche Ressourcen in welche Produkte eingeflossen sind. Wenn Ihr Katalog über 20 oder 30 Produkte hinauswächst, wird es schwierig, sich zu erinnern, welche Clipart-Sammlung Sie in einem bestimmten Arbeitsblattpaket verwendet haben. Ein einfaches Protokoll, das jedes Produkt mit seinen Komponentenressourcen verknüpft, ermöglicht Ihnen die schnelle Überprüfung der Lizenzkonformität für jedes Produkt in Ihrem Katalog. Diese Dokumentation hilft auch, wenn ein Ressourcenanbieter seine Lizenzbedingungen ändert — Sie können sofort feststellen, welche Ihrer Produkte betroffen sind.\n\nErstellen Sie eine Lizenzierungs-Checkliste zur Bewertung neuer Tools und Ressourcen vor dem Kauf. Die Checkliste sollte überprüfen: Gewährt die Lizenz ausdrücklich kommerzielle Nutzung? Gibt es Plattformbeschränkungen? Gibt es Ausgabelimits? Überlebt die Lizenz eine Kündigung (bei Abonnements)? Gibt es Quellenangabepflichten? Können Sie die Ausgabe in gebündelten Produkten verwenden? Ist die Lizenz übertragbar, wenn Sie Ihr Geschäft verkaufen? Diese Checkliste vor jedem Kauf durchzugehen verhindert die Lizenzüberraschungen, die unvorbereitete Verkäufer treffen.\n\nPlanen Sie eine vierteljährliche Lizenzüberprüfung, um Ihr Konformitätssystem zu auditieren. Prüfen Sie auf Lizenzbedingungs-Updates von Ihren Ressourcenanbietern, überprüfen Sie, ob Ihr Verfolgungsdokument aktuell ist, und stellen Sie sicher, dass die Dokumentation für alle seit der letzten Überprüfung hinzugefügten Ressourcen vollständig ist. Eine 30-minütige vierteljährliche Überprüfung fängt potenzielle Probleme ab, bevor sie zu echten Problemen werden, und erhält das Konformitätssystem als zuverlässige Grundlage für Ihr Geschäft.\n\nDie Mühe, ein Konformitätssystem aufzubauen, zahlt sich beim ersten Mal aus, wenn ein Marktplatz eine Lizenzverifizierung anfordert. Verkäufer mit organisierter Dokumentation reagieren schnell und behalten ihre Listings. Verkäufer ohne Dokumentation stehen vor verlängerten Überprüfungszeiträumen, vorübergehenden Listing-Entfernungen und dem Stress, Kaufhistorie unter Druck zu rekonstruieren.`,
     },
     {
-      heading: 'Lizenzierung über mehrere Plattformen verwalten',
+      heading: `Lizenzierung über mehrere Plattformen verwalten`,
       content: `Plattformübergreifender Verkauf vervielfacht Ihr Umsatzpotenzial, aber er vervielfacht auch die Wichtigkeit, plattformspezifische Lizenzregeln zu verstehen. Jeder Marktplatz hat seine eigenen Richtlinien bezüglich geistigem Eigentum, kommerzieller Rechte und Verkäuferverantwortlichkeiten. Ihre Ressourcenlizenzen müssen mit jeder Plattform übereinstimmen, auf der Sie Produkte listen.\n\nÜberprüfen Sie, dass Ihre kommerziellen Lizenzen den plattformübergreifenden Vertrieb erlauben. Einige Lizenzen beschränken die kommerzielle Nutzung auf eine bestimmte Plattform oder eine begrenzte Anzahl von Plattformen. Wenn Sie eine Lizenz kaufen, die den Verkauf nur auf Etsy erlaubt, verletzt das Listing derselben Produkte auf Amazon KDP Ihre Lizenzbedingungen — auch wenn Sie für eine kommerzielle Lizenz bezahlt haben. Bevor Sie auf einer neuen Plattform listen, überprüfen Sie jede Ressourcenlizenz, um zu bestätigen, dass die Plattform abgedeckt ist. Plattformunabhängige Lizenzen (wie die LessonCraft Studio Full-Access-Stufe für 47 $) eliminieren dieses Problem vollständig, indem sie die kommerzielle Nutzung auf jeder Plattform erlauben.\n\nVerstehen Sie die Richtlinien zum geistigen Eigentum jeder Plattform. Etsy hat ein robustes IP-Verletzungsmeldesystem, das es Rechteinhabern ermöglicht, unbefugte Nutzung ihres geistigen Eigentums zu melden. Amazon KDP hat Inhaltsrichtlinien, die den Verkauf von Produkten verbieten, die unlizenzierten Drittanbieter-Content enthalten. Gumroad verlangt von Verkäufern die Bestätigung, dass sie kommerzielle Rechte an jedem Element ihrer Produkte haben. Jede Plattform kann Ihre Listings entfernen, Ihr Konto sperren oder Ihre Verkaufsprivilegien beenden, wenn sie feststellt, dass Sie Produkte mit unlizenziertem Content verkaufen.\n\nPlattformspezifische Formatierungsanforderungen ändern keine Lizenzierungsanforderungen. Die Anpassung eines Arbeitsblatts an die Druckformatierungsanforderungen von Amazon KDP erstellt kein neues Produkt mit unabhängigen Lizenzierungsanforderungen — es ist dasselbe Produkt in einem anderen Format, und dieselbe kommerzielle Lizenz gilt. Wenn Sie jedoch neue Ressourcen (andere Bilder, neue Schriftarten, zusätzliche dekorative Elemente) zur plattformspezifischen Version hinzufügen, benötigen diese neuen Ressourcen ihre eigene kommerzielle Lizenzverifizierung.\n\nPrint-on-Demand-Plattformen fügen eine weitere Lizenzierungsüberlegung hinzu. Wenn Sie physische gedruckte Versionen Ihrer Arbeitsblätter über Print-on-Demand-Dienste verkaufen, überprüfen Sie, dass Ihre kommerzielle Lizenz den Verkauf physischer Produkte zusätzlich zu digitalen Downloads abdeckt. Die meisten modernen kommerziellen Lizenzen für Druckvorlagen-Erstellungstools decken sowohl digitale als auch physische Ausgabe ab, aber ältere oder restriktivere Lizenzen können die kommerzielle Nutzung auf digitale Lieferung beschränken.\n\nBei der internationalen Expansion überprüfen Sie, ob Ihre Lizenz geografische Beschränkungen hat. Einige Lizenzen beschränken die kommerzielle Nutzung auf bestimmte Länder oder Regionen. Wenn Sie Produkte auf Amazon.de (Deutschland), Amazon.fr (Frankreich) oder Etsys europäischen Märkten listen, muss Ihre Lizenz kommerzielle Aktivität in diesen Regionen abdecken. Auch hier vermeiden plattformunabhängige, geografisch neutrale Lizenzen dieses Problem, indem sie kommerzielle Rechte ohne geografische Einschränkung gewähren.`,
     },
     {
-      heading: 'Lizenzwissen als Wettbewerbsvorteil nutzen',
+      heading: `Lizenzwissen als Wettbewerbsvorteil nutzen`,
       content: `Die meisten Druckvorlagen-Verkäufer behandeln Lizenzierung als administrative Last, die es minimal zu bewältigen und schnell hinter sich zu bringen gilt. Dies schafft einen echten Wettbewerbsvorteil für Verkäufer, die Lizenzierung strategisch angehen. Wenn Sie Lizenzierung gründlich verstehen, treffen Sie schnellere Entscheidungen, vermeiden kostspielige Fehler und arbeiten mit einer Sicherheit, die sich direkt in Geschäftsleistung übersetzt.\n\nSelbstbewusste Verkäufer expandieren schneller. Wenn Sie genau wissen, was Ihre Lizenzen erlauben, können Sie Produkte sofort auf neuen Plattformen listen, ohne das Zögern, das Verkäufer verlangsamt, die sich ihrer Rechte unsicher sind. Sie können Pakete erstellen, Produkte in neue Sprachen übersetzen und Formate für verschiedene Marktplätze anpassen, ohne innezuhalten und sich zu fragen, ob Ihre Lizenz jedes Szenario abdeckt. Dieser Geschwindigkeitsvorteil verstärkt sich über die Zeit: Während unsichere Verkäufer überlegen, handeln selbstbewusste Verkäufer.\n\nOrdnungsgemäße Lizenzierung eliminiert Geschäftsunterbrechungen. Eine einzige Entfernungsaufforderung kann ein Produkt entfernen, das konsistenten monatlichen Umsatz generiert und gesammelte Bewertungen trägt. Wenn die Entfernung eine Plattformuntersuchung auslöst, können auch andere Listings überprüft werden, was möglicherweise zu mehreren Entfernungen oder Konsequenzen auf Kontoebene führt. Verkäufer mit verifizierten kommerziellen Lizenzen für jede Ressource erleben diese Unterbrechung nie. Ihre Listings bleiben aktiv, ihre Bewertungen sammeln sich weiter an, und ihr Umsatz fließt weiter ohne Unterbrechung.\n\nLizenzwissen verbessert Kaufentscheidungen. Wenn Sie die verschiedenen Lizenzmodelle und ihre Auswirkungen verstehen, bewerten Sie Tools nach Gesamtwert statt nur nach Aufkleberpreis. Eine Einmallizenz für 47 $ mit unbegrenzter Ausgabe über alle Plattformen ist nachweislich wertvoller als ein 9-$-pro-Monat-Abonnement mit Plattformbeschränkungen und Ausgabeobergrenzen — aber nur, wenn Sie die Lizenzdetails gut genug verstehen, um sie genau zu vergleichen. Informierte Kaufentscheidungen reduzieren sowohl Kosten als auch Konformitätsrisiken.\n\nDokumentierte Lizenzkonformität baut Marktplatz-Glaubwürdigkeit auf. Wenn ein Wettbewerber eine unbegründete IP-Beschwerde gegen Ihre Produkte einreicht, können Sie sofort mit vollständiger Lizenzdokumentation antworten. Marktplätze lösen diese Streitigkeiten schneller, wenn der beschuldigte Verkäufer klare, organisierte Nachweise kommerzieller Rechte vorlegt. Einige Verkäufer fügen proaktiv Lizenzinformationen in ihre Shop-Richtlinien oder Produktbeschreibungen ein und signalisieren damit Käufern und Wettbewerbern gleichermaßen, dass ihre Produkte professionell lizenziert und rechtlich solide sind.\n\nMit dem Wachstum Ihres Geschäfts wird Lizenzwissen zunehmend wertvoller. Ein 10-Produkt-Katalog hat 10 Lizenzentscheidungen zu verwalten. Ein 200-Produkt-Katalog über mehrere Plattformen und Sprachen hat Hunderte. Die Systeme und das Wissen, die Sie jetzt aufbauen, skalieren mit Ihrem Geschäft und schützen ein zunehmend wertvolles Gut. Verkäufer, die die Lizenzbildung aufschieben, bis ihr Geschäft groß genug ist, um Durchsetzungsaufmerksamkeit auf sich zu ziehen, verwalten zu diesem Zeitpunkt ein Konformitätsproblem, anstatt es zu verhindern.\n\nDie Druckvorlagen-Branche belohnt Verkäufer, die nachhaltige Geschäfte auf soliden Grundlagen aufbauen. Kreative Qualität, Marketingfähigkeit und Katalogstrategie sind alle enorm wichtig — aber nichts davon zählt, wenn ein Lizenzierungsproblem Sie zwingt, Ihre Produkte zu entfernen und von vorne zu beginnen. Das Verständnis kommerzieller Lizenzierung ist die Grundlage, die jede andere Geschäftsstrategie tragfähig und dauerhaft macht.`,
     },
   ],
@@ -137,18 +137,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'guide', slug: 'passives-einkommen-arbeitsblaetter', anchorText: `Wiederkehrende Einnahmen mit Arbeitsblättern erzielen` },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lernmaterial-Druckvorlagen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'So skalieren Sie Ihr Druckvorlagen-Geschäft' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: 'Additions-Arbeitsblätter erstellen' },
-    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'Wortsuche-Rätsel mit Bildern erstellen' },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'guide', slug: `passives-einkommen-arbeitsblaetter`, anchorText: `Wiederkehrende Einnahmen mit Arbeitsblättern erzielen` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lernmaterial-Druckvorlagen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `So skalieren Sie Ihr Druckvorlagen-Geschäft` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `Additions-Arbeitsblätter erstellen` },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: `Wortsuche-Rätsel mit Bildern erstellen` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischen-Auswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
   ],
 
   toolsRecommended: [
@@ -159,7 +159,7 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Generieren Sie unbegrenzte Additions-Arbeitsblätter unter einer einzigen kommerziellen Lizenz ohne Pro-Produkt-Gebühren. Additions-Arbeitsblätter veranschaulichen, wie lizenzgebührenfreie Einmallizenzierung die Rendite Ihrer Lizenzinvestition über Hunderte von Produkten maximiert.`,
     },
     {
@@ -169,29 +169,29 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Erstellen Sie Zuordnungsaktivitäten über alle verfügbaren Themen unter einer einzigen kommerziellen Lizenz. Zuordnungs-Arbeitsblätter demonstrieren, wie kommerzielle Rechte sich über jedes Thema und jede Variation erstrecken, ohne zusätzliche Lizenzkosten.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: `/samples/german/wordsearch/Worter suchen 1.webp`,
       alt: `Professionelles Wortsuche-Arbeitsblatt als Beispiel für kommerziell lizenzierte Druckvorlagen-Ausgabe`,
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuche-Rätsel erstellt mit kommerzieller Lizenz für plattformübergreifenden Verkauf`,
         caption: `Unter kommerzieller Lizenz erstellte Wortsuchrätsel können auf jeder Plattform verkauft werden`,
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: `/samples/german/addition/Additionsspa 1.webp`,
         alt: `Additions-Arbeitsblatt generiert mit lizenzgebührenfreier kommerzieller Lizenzierung`,
         caption: `Eine kommerzielle Lizenz deckt unbegrenzte Additions-Arbeitsblattgenerierung ohne Pro-Produkt-Gebühren ab`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Ausmalseite mit ordnungsgemäß lizenziertem Themenbild für den kommerziellen Verkauf`,
         caption: `Kommerzielle Lizenzen, die eingebettete Bilder enthalten, vereinfachen die Konformität für visuelle Produkte`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/weather/cloud.webp', alt: 'Wolke — thematisches Lernbild', caption: 'Wolke' },
-    { src: '/image-library/weather/cloudy.webp', alt: 'Bewölkt — thematisches Lernbild', caption: 'Bewölkt' },
-    { src: '/image-library/weather/cold.webp', alt: 'Kalt — thematisches Lernbild', caption: 'Kalt' },
-    { src: '/image-library/weather/hot.webp', alt: 'Heiß — thematisches Lernbild', caption: 'Heiß' },
-    { src: '/image-library/weather/mittens.webp', alt: 'Fäustlinge — thematisches Lernbild', caption: 'Fäustlinge' },
+    { src: `/image-library/weather/cloud.webp`, alt: 'Wolke — thematisches Lernbild', caption: 'Wolke' },
+    { src: `/image-library/weather/cloudy.webp`, alt: `Bewölkt — thematisches Lernbild`, caption: 'Bewölkt' },
+    { src: `/image-library/weather/cold.webp`, alt: 'Kalt — thematisches Lernbild', caption: 'Kalt' },
+    { src: `/image-library/weather/hot.webp`, alt: 'Heiß — thematisches Lernbild', caption: 'Heiß' },
+    { src: `/image-library/weather/mittens.webp`, alt: `Fäustlinge — thematisches Lernbild`, caption: 'Fäustlinge' },
   ],
 };
 

@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles Primer Grado — Guía de Nicho',
+    titleTag: `Ideas Imprimibles Primer Grado — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de primer grado para vender en Etsy, Amazon KDP y Gumroad. Productos nivel primero de primaria y estrategias de nicho para.`,
-    primaryKeyword: 'ideas imprimibles primer grado',
+    primaryKeyword: `ideas imprimibles primer grado`,
     secondaryKeywords: [
-      'fichas primer grado para vender',
+      `fichas primer grado para vender`,
       'negocio imprimibles grado 1',
-      'fichas actividades primer grado para vendedores',
-      'vender imprimibles primer grado en Gumroad',
+      `fichas actividades primer grado para vendedores`,
+      `vender imprimibles primer grado en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas primaria temprana',
-      'imprimibles catálogo de productos grado 1',
-      'páginas actividades aprendizaje edades 6-7',
+      `fichas educativas primaria temprana`,
+      `imprimibles catálogo de productos grado 1`,
+      `páginas actividades aprendizaje edades 6-7`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ El panorama competitivo en imprimibles de primer grado recompensa a los vendedor
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Primer Grado en Etsy',
+      title: `Vender Imprimibles de Primer Grado en Etsy`,
       description: `Etsy captura el segmento grande y motivado de compradores padres que buscan materiales de práctica en casa de primer grado con términos de alta intención como «fichas primer grado», «práctica matemáticas primero de primaria», «actividades palabras de uso frecuente grado 1» y «comprensión lectora primer grado» durante todo el año académico. Utiliza las trece etiquetas con variaciones que combinen objetivos de habilidades específicas, identificadores de grado y formatos de actividad para captar compradores motivados que saben exactamente qué habilidad necesita practicar su hijo. Agrupa productos por área de contenido para aumentar el valor promedio del pedido: un paquete de datos matemáticos de primer grado cubriendo suma y resta hasta veinte, un paquete de fluidez lectora con palabras de uso frecuente, sopas de letras y actividades de comprensión, y un paquete de habilidades de escritura con construcción de oraciones y ejercicios de vocabulario sirven cada uno necesidades distintas de los padres mientras fomentan múltiples compras de la misma tienda. La temporada de regreso a clases en agosto y septiembre crea el mayor pico de demanda, pero los picos de compra de mitad de año son particularmente fuertes en enero y febrero cuando los padres reciben las boletas de calificaciones del primer semestre mostrando vacíos específicos de habilidades, creando una ola secundaria de compras de materiales de práctica dirigidos que los vendedores con títulos de productos específicos por habilidad capturan efectivamente.`,
     },
     {
@@ -139,18 +139,18 @@ El panorama competitivo en imprimibles de primer grado recompensa a los vendedor
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -159,12 +159,12 @@ El panorama competitivo en imprimibles de primer grado recompensa a los vendedor
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -180,12 +180,12 @@ El panorama competitivo en imprimibles de primer grado recompensa a los vendedor
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — imagen educativa temática`, caption: 'Calendario' },
   ],
 
 

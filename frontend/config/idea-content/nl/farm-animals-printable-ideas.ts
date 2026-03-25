@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Boerderijdieren Printables Verkopen — Nichegids',
+    titleTag: `Boerderijdieren Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende boerderijdieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, prijsstrategieën en tips voor verkopers.`,
 
-    primaryKeyword: 'boerderijdieren printable ideeën',
+    primaryKeyword: `boerderijdieren printable ideeën`,
     secondaryKeywords: [
-      'boerderijdieren werkbladen verkopen',
-      'printable business boerderijthema',
-      'boerderij activiteiten voor verkopers',
-      'boerderij printables verkopen op Etsy',
+      `boerderijdieren werkbladen verkopen`,
+      `printable business boerderijthema`,
+      `boerderij activiteiten voor verkopers`,
+      `boerderij printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'educatieve werkbladen boerderijthema',
-      'landbouw activiteiten voor kinderen',
-      'veeteelt thema printbare producten',
+      `educatieve werkbladen boerderijthema`,
+      `landbouw activiteiten voor kinderen`,
+      `veeteelt thema printbare producten`,
     ],
   },
   hero: {
@@ -42,12 +42,12 @@ Seizoensgebonden marketingkansen in de boerderijniche reiken verder dan de voor 
 
   productIdeas: [
     {
-      title: 'Boerderijdieren Telwerkbladen voor Verkopers',
+      title: `Boerderijdieren Telwerkbladen voor Verkopers`,
       description: `Telwerkbladen met koeien, varkens, kippen en paarden behoren tot de meest gevraagde boerderij-printables. Maak sets gericht op verschillende vaardigheidsniveaus: voorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met boerderijdieren voor kinderen in groep 3. Gebruik de Zoek en Tel-generator om visueel rijke scènes te produceren waarin kinderen specifieke dieren lokaliseren en tellen. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid telpakket dat verkopers kunnen gebruiken in productlijnen met gemengde vaardigheidsniveaus. Met de gratis proefversie met watermerk kun je de kwaliteit direct beoordelen voordat je een commerciële licentie aanschaft.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Boerderij Woordzoekpuzzels Verkopen Online',
+      title: `Boerderij Woordzoekpuzzels Verkopen Online`,
       description: `Woordzoekers met boerderijvocabulaire spreken zowel ouders als verkopers aan die taalvaardigheden opbouwen rond het boerderijthema. Maak puzzels met diernamen, landbouwgereedschapstermen, gewasvocabulaire en woorden over het boerderijleven. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen, waardoor het eenvoudig is om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer woorden voor oudere gebruikers. Seizoensvariaties zoals jonge dieren in de lente of oogsttema woordzoekers verlengen je productcatalogus gedurende het hele jaar.`,
       appId: 'wordsearch',
     },
@@ -72,8 +72,8 @@ Seizoensgebonden marketingkansen in de boerderijniche reiken verder dan de voor 
       appId: 'bingo',
     },
     {
-      title: 'Boerderijdieren Schaduwkoppelwerkbladen Verkopen',
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die cruciaal zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen boerderijdieren koppelen aan hun silhouetten. Varieer de moeilijkheidsgraad door dieren met vergelijkbare lichaamsvormen te gebruiken in geavanceerde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent in de prijsklasse van drie tot vijf euro.`,
+      title: `Boerderijdieren Schaduwkoppelwerkbladen Verkopen`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die cruciaal zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen boerderijdieren koppelen aan hun silhouetten. Varieer de moeilijkheidsgraad door dieren met vergelijkbare lichaamsvormen te gebruiken in geavanceerde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent in de prijsklasse van drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -96,13 +96,13 @@ Seizoensgebonden marketingkansen in de boerderijniche reiken verder dan de voor 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Boerderijdieren Printables Verkopen op Etsy',
+      title: `Boerderijdieren Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in boerderijdieren printable-vermeldingen. In plaats van generieke titels zoals "Boerderij Werkbladen" richt je je op long-tail zoekwoorden zoals "boerderijdieren telwerkblad kleuters" of "boerderij woordzoeker printable kleuterschool." Gebruik alle dertien tags met variaties die het thema, de vaardigheid en de leeftijdsgroep combineren. Mockup-afbeeldingen die geprinte werkbladen tonen in een productlijn- of thuissetting presteren aanzienlijk beter dan platte digitale voorbeelden. Plan nieuwe vermeldingen om samen te vallen met seizoensgebonden vraagpieken van maart tot april voor lenteboerderijlessen en september tot oktober voor oogstthema's. Bied zowel individuele werkbladen als bundels aan, aangezien Etsy-kopers vaak beginnen met een enkele goedkope aankoop voordat ze terugkomen voor grotere pakketten zodra ze je kwaliteit vertrouwen. De Nederlandse markt via Etsy.nl biedt extra kansen omdat er relatief weinig Nederlandstalige boerderijwerkbladen beschikbaar zijn vergeleken met het Engelstalige aanbod.`,
     },
     {
       platform: 'Amazon KDP',
       title: `Boerderijdieren Activiteitenboeken Publiceren op KDP`,
-      description: `Amazon KDP werkt het beste voor boerderijthema printables wanneer je individuele werkbladen compileert tot samenhangende activiteitenboeken. Een activiteitenboek met boerderijdieren van veertig tot zestig pagina's dat tel-, kleur-, koppel- en overtrekactiviteiten combineert, presteert goed in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch: voeg "boerderijdieren activiteitenboek," "boerderij werkbladen voor kinderen" en leeftijdsspecifieke termen toe zoals "kleuter boerderijboek." Prijs tussen vier en zeven euro voor optimale royaltytarieven. Interieurkwaliteit is belangrijk op KDP omdat negatieve beoordelingen over printkwaliteit of doordrukken van pagina's je vermelding permanent beschadigen. Bestel altijd een proefexemplaar voordat je publiceert. Overweeg ook publicatie via Amazon.nl en Bol.com om het Nederlandstalige marktsegment te bereiken.`,
+      description: `Amazon KDP werkt het beste voor boerderijthema printables wanneer je individuele werkbladen compileert tot samenhangende activiteitenboeken. Een activiteitenboek met boerderijdieren van veertig tot zestig pagina`s dat tel-, kleur-, koppel- en overtrekactiviteiten combineert, presteert goed in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch: voeg "boerderijdieren activiteitenboek," "boerderij werkbladen voor kinderen" en leeftijdsspecifieke termen toe zoals "kleuter boerderijboek." Prijs tussen vier en zeven euro voor optimale royaltytarieven. Interieurkwaliteit is belangrijk op KDP omdat negatieve beoordelingen over printkwaliteit of doordrukken van pagina`s je vermelding permanent beschadigen. Bestel altijd een proefexemplaar voordat je publiceert. Overweeg ook publicatie via Amazon.nl en Bol.com om het Nederlandstalige marktsegment te bereiken.`,
     },
     {
       platform: 'Gumroad',
@@ -155,62 +155,62 @@ Seizoensgebonden marketingkansen in de boerderijniche reiken verder dan de voor 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'Professionele koppelwerkbladen maken',
+      anchorText: `Professionele koppelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Zeedieren printable businessideeën',
+      anchorText: `Zeedieren printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
-      anchorText: 'Bosdieren printable businessideeën',
+      slug: `forest-animals-printable-ideas`,
+      anchorText: `Bosdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'pets-printable-ideas',
-      anchorText: 'Huisdieren printable businessideeën',
+      anchorText: `Huisdieren printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bij — educatieve thema-afbeelding boerderijdieren', caption: 'Bij' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: `Stier — educatieve thema-afbeelding boerderijdieren`, caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: `Kalf — educatieve thema-afbeelding boerderijdieren`, caption: 'Kalf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding boerderijdieren', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: `Kat 2 — educatieve thema-afbeelding boerderijdieren`, caption: 'Kat 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: `Kuiken — educatieve thema-afbeelding boerderijdieren`, caption: 'Kuiken' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Bij — educatieve thema-afbeelding boerderijdieren`, caption: 'Bij' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Stier — educatieve thema-afbeelding boerderijdieren`, caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Kalf — educatieve thema-afbeelding boerderijdieren`, caption: 'Kalf' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding boerderijdieren`, caption: 'Kat' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Kat 2 — educatieve thema-afbeelding boerderijdieren`, caption: 'Kat 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: `Kuiken — educatieve thema-afbeelding boerderijdieren`, caption: 'Kuiken' },
   ],
 
   youtubeId: '0cOPi7eajLs',

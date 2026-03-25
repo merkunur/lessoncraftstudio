@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing redes sociales imprimibles',
+    primaryKeyword: `marketing redes sociales imprimibles`,
     secondaryKeywords: [
-      'redes sociales para vendedores de imprimibles',
-      'promocionar imprimibles en redes sociales',
-      'estrategia social negocio imprimibles',
-      'comercializar fichas de ejercicios online',
+      `redes sociales para vendedores de imprimibles`,
+      `promocionar imprimibles en redes sociales`,
+      `estrategia social negocio imprimibles`,
+      `comercializar fichas de ejercicios online`,
     ],
     lsiKeywords: [
       `marketing de contenido promoción de productos marketing visual estrategia de plataformas`,
@@ -137,29 +137,29 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: 'Marketing en Pinterest para Negocios de Fichas' },
-    { pageType: 'guide', slug: 'email-marketing-imprimibles', anchorText: 'Email Marketing para Vendedores de Imprimibles' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo Vender Fichas de Matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO de Etsy para productos imprimibles' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimibles', anchorText: 'Cómo Automatizar Tu Negocio de Imprimibles' },
-    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: 'Guía de Selección de Nicho para Imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo Crear Paquetes de Fichas que Venden' },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Estrategias de Precios para productos imprimibles' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: `Marketing en Pinterest para Negocios de Fichas` },
+    { pageType: 'guide', slug: 'email-marketing-imprimibles', anchorText: `Email Marketing para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo Vender Fichas de Matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO de Etsy para productos imprimibles` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimibles`, anchorText: `Cómo Automatizar Tu Negocio de Imprimibles` },
+    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de Selección de Nicho para Imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas que Venden` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de Precios para productos imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'bingo',
-      title: 'Generador de Cartones de Bingo',
+      title: `Generador de Cartones de Bingo`,
       description: `Crea cartones de bingo altamente compartibles y visualmente atractivos que son un excelente contenido para redes sociales. Los cartones de bingo temáticos se fotografían bellamente para flat lays de Instagram y generan fuerte engagement en plataformas visuales.`,
     },
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Produce páginas para colorear coloridas y fotogénicas que son ideales para contenido de Instagram y Pinterest. Las páginas para colorear crean momentos naturales para redes sociales cuando se fotografían en uso o se exhiben como flat lays estilizados.`,
     },
     {
@@ -169,19 +169,19 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Crea actividades de asociación temáticas con contenido ilustrado que se muestra bien en feeds de redes sociales. Las fichas de asociación con temas estacionales y educativos proporcionan contenido diverso y visualmente atractivo para la presentación de productos.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+      src: `/samples/spanish/bingo/Bingo de Imágenes 1.webp`,
       alt: `Cartón de bingo profesional que demuestra productos imprimibles visualmente atractivos ideales para marketing en redes sociales`,
     },
     samples: [
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+        src: `/samples/spanish/bingo/Bingo de Imágenes 1.webp`,
         alt: `Cartón de bingo mostrando producto imprimible altamente compartible para contenido de redes sociales`,
         caption: `Los productos visualmente atractivos como los cartones de bingo crean contenido convincente para redes sociales que genera engagement`,
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Las páginas para colorear se fotografían bellamente para presentaciones flat lay de productos en plataformas visuales`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras mostrando tipo de producto imprimible popular con fuerte atractivo en redes sociales`,
         caption: `Las sopas de letras atraen engagement amplio de audiencia y funcionan bien en todas las plataformas de redes sociales`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
   ],
 };
 

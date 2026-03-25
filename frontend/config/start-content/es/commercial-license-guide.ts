@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'licencia comercial de imprimibles',
+    primaryKeyword: `licencia comercial de imprimibles`,
     secondaryKeywords: [
-      'licencia de uso comercial fichas',
-      'vender fichas comercialmente Etsy Amazon',
-      'guía de licencia para vendedores de imprimibles',
-      'derechos comerciales generador de fichas',
+      `licencia de uso comercial fichas`,
+      `vender fichas comercialmente Etsy Amazon`,
+      `guía de licencia para vendedores de imprimibles`,
+      `derechos comerciales generador de fichas`,
     ],
     lsiKeywords: [
       `licencia de uso comercial para descargas digitales`,
       `requisitos de licencia para vendedores de imprimibles`,
-      'licencia comercial descargas digitales Etsy',
-      'licencia libros de actividades Amazon KDP',
-      'niveles de licencia generador de fichas',
-      'uso comercial vs uso personal imprimibles',
+      `licencia comercial descargas digitales Etsy`,
+      `licencia libros de actividades Amazon KDP`,
+      `niveles de licencia generador de fichas`,
+      `uso comercial vs uso personal imprimibles`,
     ],
     titleTag: `Guía de Licencia Comercial de Imprimibles para Vendedores`,
     metaDescription: `Entiende las licencias de uso comercial para vender fichas en Etsy, Amazon KDP y otras plataformas. Dos niveles explicados con derechos claros y precios.`,
@@ -35,11 +35,11 @@ const content: StartContent = {
       content: `Vender fichas comercialmente no es lo mismo que descargar una ficha para tu propia tienda. La distinción entre uso personal y uso comercial es el concepto de licencia más importante para cualquier persona que construya un negocio de imprimibles.\n\nUso personal significa generar fichas para tus propios fines educativos — imprimirlas para tus usuarios, usarlas en casa con tus hijos o distribuirlas dentro de tu tienda. No ocurre ninguna transacción comercial. Tú eres el usuario final.\n\nUso comercial significa generar fichas con la intención de venderlas. Publicar un paquete de fichas PDF en Etsy es uso comercial. Publicar un libro de actividades en Amazon KDP es uso comercial. Vender paquetes de fichas en Gumroad, Gumroad, Creative Fabrica o tu propia web es uso comercial. Cualquier escenario en el que un comprador pague dinero por tu contenido generado requiere una licencia comercial.\n\nMuchos generadores de fichas, bibliotecas de imágenes y recursos de plantillas tienen licencia solo para uso personal. Los vendedores que usan estos recursos comercialmente sin la licencia adecuada están operando en violación de los términos de servicio. Las consecuencias van desde la retirada de contenido hasta reclamaciones legales — y en plataformas como Etsy y Amazon, las violaciones repetidas de propiedad intelectual pueden resultar en la suspensión permanente de la cuenta.\n\nUna licencia comercial no es una mejora opcional para vendedores serios. Es la base legal que te permite construir un negocio de imprimibles sostenible sin el riesgo de que tus productos sean eliminados, tus cuentas marcadas o tus ingresos interrumpidos. Antes de publicar un solo producto en cualquier marketplace, confirma que cada herramienta y recurso que usaste tiene términos claros de licencia comercial.`,
     },
     {
-      heading: 'Qué cubre realmente una licencia comercial',
+      heading: `Qué cubre realmente una licencia comercial`,
       content: `Una licencia comercial te otorga el derecho a vender el contenido generado como tus propios productos. Esto es exactamente lo que significa en términos prácticos.\n\nPuedes vender fichas generadas individuales como descargas digitales. Cada ficha PDF que creas con un generador licenciado es tuya para vender en cualquier plataforma. No hay límite en el número de fichas que generas ni en el número de publicaciones que creas.\n\nPuedes agrupar fichas en paquetes de productos. Un paquete de 20 páginas de sopa de letras, un pack de 50 páginas de práctica de matemáticas o un interior de libro de actividades de 100 páginas — todos están cubiertos bajo la misma licencia. No necesitas licencias separadas para paquetes frente a fichas individuales.\n\nPuedes publicar contenido generado en libros impresos. Los libros de actividades de Amazon KDP, los cuadernos de impresión bajo demanda y los productos físicos impresos están todos cubiertos bajo la misma licencia comercial. No hay distinción entre formatos de producto digital y físico.\n\nPuedes vender en cualquier marketplace o canal de ventas. Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica, Creative Market, Shopify, WooCommerce, tu propia web — la licencia es independiente de la plataforma. No estás restringido a un solo marketplace.\n\nPuedes modificar las fichas generadas antes de venderlas. Añade tu propia marca, combina fichas de diferentes generadores, ajusta los diseños en herramientas de diseño externas — la licencia comercial cubre el resultado independientemente de las modificaciones posteriores a la generación.\n\nLa licencia comercial cubre tu contenido generado. No transfiere la propiedad del software del generador, la biblioteca de imágenes subyacente ni la base de datos de traducciones. Tienes el derecho de vender lo que creas — no eres propietario de la herramienta en sí.`,
     },
     {
-      heading: 'El modelo de licencia de dos niveles explicado',
+      heading: `El modelo de licencia de dos niveles explicado`,
       content: `Hay dos niveles de licencia disponibles, y entender la diferencia es esencial para elegir la opción correcta para tu negocio. El punto crítico por adelantado: ambos niveles incluyen derechos comerciales idénticos. La diferencia es el acceso al contenido, no los términos de la licencia.\n\nEl Paquete Comercial tiene un precio de $27 para una aplicación individual o $79 para un paquete de categoría de seis aplicaciones. Este nivel incluye acceso a 10 temas de imágenes (aproximadamente 300 imágenes) de la biblioteca integrada. Para aplicaciones sensibles al idioma como sopa de letras, crucigrama y anagrama, el Paquete Comercial incluye contenido solo en inglés. Recibes derechos comerciales completos para vender todo lo que generes — fichas ilimitadas, publicaciones ilimitadas, todas las plataformas, todos los formatos de producto.\n\nEl Paquete de Acceso Completo tiene un precio de $47 para una aplicación individual o $119 para un paquete de categoría de seis aplicaciones. Este nivel incluye acceso a los más de 100 temas de imágenes (más de 3.000 imágenes) de la biblioteca completa. Para aplicaciones sensibles al idioma, el Acceso Completo incluye los 11 idiomas compatibles — inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés. Recibes los mismos derechos comerciales completos que el Paquete Comercial.\n\nLa licencia comercial es idéntica en ambos niveles. Ya sea que compres un Paquete Comercial de $27 o un paquete de Acceso Completo de $119, tu derecho a vender contenido generado es exactamente el mismo: fichas ilimitadas, productos ilimitados, todas las plataformas, todos los formatos, licencia perpetua. Sin regalías, sin tarifas por producto, sin participación en los ingresos.\n\nLa única diferencia es cuánto contenido puedes acceder. El Paquete Comercial te da una selección enfocada de temas y soporte solo en inglés — ideal para vendedores que se especializan en un nicho específico. El Paquete de Acceso Completo te da la biblioteca completa y todos los idiomas — ideal para vendedores que quieren máxima variedad o planean vender internacionalmente.\n\nAmbos niveles son compras únicas. No hay tarifas recurrentes, ni suscripciones mensuales, ni cargos de renovación. Pagas una vez y generas contenido comercial indefinidamente.`,
     },
     {
@@ -47,15 +47,15 @@ const content: StartContent = {
       content: `Los límites claros previenen malentendidos. Aquí tienes una lista específica de lo que tu licencia comercial permite y lo que no.\n\nSÍ PUEDES vender fichas generadas como descargas digitales en cualquier marketplace. Publica PDFs en Etsy, Gumroad, Gumroad, Creative Fabrica o tu propia web. Cada ficha generada es un producto sobre el que tienes derechos comerciales de venta.\n\nSÍ PUEDES incluir fichas generadas en libros impresos y libros de actividades. Publica en Amazon KDP, IngramSpark, Lulu o cualquier servicio de impresión bajo demanda. Tus regalías de KDP son totalmente tuyas — no se debe ninguna regalía por libro a nosotros.\n\nSÍ PUEDES agrupar múltiples fichas en paquetes de productos. Crea paquetes de 10, 50 o 100 páginas. Combina fichas de diferentes generadores en packs de actividades mixtas. No hay restricciones en el tamaño ni la composición de los paquetes.\n\nSÍ PUEDES vender en múltiples plataformas simultáneamente. La misma ficha o paquete puede estar publicado en Etsy y Amazon y Gumroad y tu propia web al mismo tiempo. La licencia no es exclusiva de ninguna plataforma individual.\n\nSÍ PUEDES modificar las fichas generadas. Añade encabezados, pies de página, marca, instrucciones o elementos decorativos. Combina el resultado del generador con tu propio trabajo de diseño. Edita en Canva, Adobe o cualquier herramienta de diseño.\n\nNO PUEDES revender el software del generador en sí. Tu licencia cubre el resultado, no la herramienta. No puedes redistribuir la aplicación, ofrecerla como servicio ni sublicenciar el acceso a terceros.\n\nNO PUEDES redistribuir la biblioteca de imágenes. Las colecciones de imágenes temáticas (animales, comida, vehículos, etc.) son parte del sistema del generador. No puedes extraer y vender las imágenes por separado de las fichas generadas.\n\nNO PUEDES sublicenciar a terceros. Tu licencia comercial es para tu uso. No puedes vender ni ceder licencias a otras personas. Cada vendedor independiente necesita su propia licencia.`,
     },
     {
-      heading: 'Licencia comercial para vendedores de Etsy',
+      heading: `Licencia comercial para vendedores de Etsy`,
       content: `Etsy es el marketplace más grande para descargas de fichas imprimibles, y las preguntas sobre licencias comerciales surgen constantemente entre los vendedores de Etsy. Así es como se aplica la licencia a cada escenario común de Etsy.\n\nCada ficha generada es un producto único sobre el que posees los derechos comerciales de venta. Cuando generas un puzzle de sopa de letras con configuraciones específicas — tema, dificultad, número de palabras, diseño — el PDF resultante es tu producto comercial. No necesitas una licencia separada para cada publicación de Etsy. Una licencia por generador cubre publicaciones ilimitadas.\n\nLa creación de paquetes está totalmente cubierta. Tu tienda de Etsy puede ofrecer un «Paquete de 20 Sopas de Letras — Tema de Animales» como una sola publicación, y todo ese paquete está cubierto bajo la misma licencia que usaste para generar las páginas individuales. Sin tarifas adicionales, sin cargos por paquete.\n\nLas colecciones estacionales y temáticas están cubiertas. Crea un «Pack de Matemáticas de Vuelta al Cole» en septiembre, un «Paquete de Actividades Navideñas» en diciembre y un «Set de Colorear de Verano» en junio — todo con la misma licencia. No hay restricciones sobre cuántos productos creas ni cómo los organizas en publicaciones.\n\nMúltiples tiendas de Etsy están cubiertas. Si operas más de una tienda de Etsy, tu licencia comercial cubre productos vendidos a través de todas ellas. La licencia está vinculada a ti como comprador, no a una tienda o cuenta de plataforma específica.\n\n¿Puedes vender fichas ilimitadas en Etsy? Sí. No hay límite en el número de fichas que generas ni de publicaciones que creas. ¿Puedes vender la misma ficha en múltiples publicaciones? Sí — inclúyela en una publicación de paquete y véndela individualmente. ¿Necesitas mencionar a LessonCraftStudio en tus publicaciones? No. Tus fichas generadas son tus productos para vender bajo tu propia marca.`,
     },
     {
-      heading: 'Licencia comercial para editores de Amazon KDP',
+      heading: `Licencia comercial para editores de Amazon KDP`,
       content: `Los libros de actividades de Amazon KDP representan un canal de ingresos importante para los vendedores de imprimibles, y la licencia comercial cubre la publicación en KDP de manera integral.\n\nPuedes publicar libros de actividades ilimitados en Amazon KDP usando contenido generado con fichas. Cada libro que creas — ya sea que contenga 30 páginas o 150 páginas — está cubierto bajo tu licencia existente. No hay tarifa por libro, ni tarifa por página, ni participación en regalías. Tus regalías de KDP de Amazon son 100 % tuyas.\n\nLa licencia cubre todos los marketplaces de Amazon en todo el mundo. Publica en Amazon.com, Amazon.co.uk, Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Amazon.nl, Amazon.se, Amazon.co.jp, Amazon.com.au y en cualquier otro marketplace de Amazon que acepte publicaciones KDP. Una licencia los cubre a todos.\n\nPuedes crear múltiples variaciones de libros con el mismo generador. «Sopa de Letras para Niños de 4–6 Años» y «Sopa de Letras para Niños de 8–10 Años» pueden ser títulos KDP separados usando diferentes configuraciones de dificultad del mismo generador licenciado. «Práctica de Matemáticas Grado 1» y «Práctica de Matemáticas Grado 3» pueden usar diferentes rangos numéricos del mismo generador de suma. Cada variación es un producto comercial independiente.\n\nLa publicación en serie está totalmente cubierta. Volumen 1, Volumen 2, Volumen 3 — publica tantos volúmenes como quieras en cualquier serie. Genera contenido nuevo para cada volumen usando diferentes temas, configuraciones o niveles de dificultad.\n\nEl nivel de Acceso Completo es particularmente valioso para los editores de KDP porque desbloquea los 11 idiomas. Un solo generador sensible al idioma con Acceso Completo te permite publicar el mismo concepto de libro en inglés, alemán, francés, español y más — cada versión dirigida a un marketplace de Amazon diferente. Una licencia, múltiples mercados de idiomas, libros ilimitados.\n\nConservas el control total sobre los precios, categorías, palabras clave y configuraciones de distribución de tus publicaciones KDP. La licencia comercial no impone restricciones sobre cómo fijas precios, comercializas o distribuyes tus publicaciones KDP.`,
     },
     {
-      heading: 'Licencia comercial para otras plataformas',
+      heading: `Licencia comercial para otras plataformas`,
       content: `La licencia comercial es independiente de la plataforma. Aunque Etsy y Amazon KDP son los canales más populares para los vendedores de imprimibles, la licencia cubre cada plataforma de venta por igual.\n\nGumroad es una opción natural para fichas educativas. Tus fichas de matemáticas, puzzles de sopa de letras, actividades de crucigrama y otro contenido imprimible generado pueden venderse en Gumroad bajo la misma licencia comercial. Los vendedores de Gumroad a menudo crean paquetes diferenciados — packs específicos por grado, colecciones por materia, sets estacionales — todos cubiertos.\n\nGumroad funciona bien para ventas directas sin comisiones de marketplace en su plan gratuito. Publica tus paquetes de fichas, packs de actividades o sets completos de catálogo de productos. La licencia comercial cubre las ventas en Gumroad igual que en cualquier otra plataforma.\n\nCreative Fabrica y Creative Market atienden al mercado de diseño y educación. Si tus fichas encajan en sus categorías, la licencia comercial cubre las ventas en ambas plataformas. Lo mismo aplica para Payhip, SendOwl, Sellfy y otras plataformas de entrega digital.\n\nShopify y WooCommerce te permiten vender directamente desde tu propia web. Construye una tienda de fichas con tu marca y derechos comerciales completos sobre cada producto generado. Sin comisión de marketplace, sin restricciones de plataforma, control total sobre la experiencia de tu cliente.\n\nLas ventas a escuelas e instituciones están cubiertas. Si un distrito escolar quiere comprar un conjunto de tus fichas directamente, la licencia comercial cubre esa transacción. Las licencias por volumen a instituciones, los acuerdos mayoristas con distribuidores educativos y las ventas directas B2B están todas dentro de tus derechos comerciales.\n\nEl principio es simple: si lo generaste con un generador licenciado, puedes venderlo en cualquier lugar a cualquier persona. La licencia no restringe tus canales de venta, tus precios ni tu base de clientes. Tus derechos comerciales son los mismos independientemente de dónde ocurra la transacción.`,
     },
     {
@@ -70,11 +70,11 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Prueba los generadores con la prueba gratis',
+      step: `Prueba los generadores con la prueba gratis`,
       description: `Abre cualquier generador de fichas y usa la prueba gratis con marca de agua. Genera fichas de muestra usando los temas, configuraciones y formatos que planeas vender comercialmente. Confirma que la calidad del resultado cumple los estándares de tu marketplace antes de tomar cualquier decisión de licencia.`,
     },
     {
-      step: 'Identifica tu plataforma de venta principal',
+      step: `Identifica tu plataforma de venta principal`,
       description: `Determina si venderás principalmente en Etsy, Amazon KDP, Gumroad u otro marketplace. Esta decisión no afecta tu licencia — todas las plataformas están cubiertas — pero moldea en qué formatos y cantidades de producto centrarte.`,
     },
     {
@@ -86,19 +86,19 @@ const content: StartContent = {
       description: `Si vendes productos solo en inglés en un nicho enfocado, el Paquete Comercial ($27 individual) te da todo lo que necesitas. Si quieres máxima variedad de temas o planeas vender en múltiples idiomas, el Acceso Completo ($47 individual) desbloquea la biblioteca completa y los 11 idiomas.`,
     },
     {
-      step: 'Evalúa el precio individual vs el paquete',
+      step: `Evalúa el precio individual vs el paquete`,
       description: `Si planeas usar tres o más generadores de la misma categoría, el paquete ($79/$119) cuesta menos que tres compras individuales. Calcula tu uso esperado antes de comprar para seleccionar la opción más rentable.`,
     },
     {
-      step: 'Compra tu licencia y elimina las marcas de agua',
+      step: `Compra tu licencia y elimina las marcas de agua`,
       description: `Completa tu compra a través de la página de detalle de la aplicación. Tu clave de licencia se activa inmediatamente, eliminando la marca de agua de todas las fichas generadas en el futuro. Las fichas de prueba generadas previamente siguen teniendo la marca de agua — regeneralas después de la activación.`,
     },
     {
-      step: 'Genera tus primeros productos comerciales',
+      step: `Genera tus primeros productos comerciales`,
       description: `Crea tu primer lote de productos: 15–25 páginas para un paquete de descarga digital de Etsy, o 50–100 páginas para un interior de libro de actividades de Amazon KDP. Cada página que generas tiene licencia completa para venta comercial.`,
     },
     {
-      step: 'Publica y vende con total confianza',
+      step: `Publica y vende con total confianza`,
       description: `Publica tus productos en tu marketplace elegido sabiendo que tus derechos comerciales son claros: fichas ilimitadas, publicaciones ilimitadas, todas las plataformas, sin regalías, sin tarifas por producto. Céntrate en construir tu catálogo y hacer crecer tu negocio.`,
     },
   ],
@@ -116,7 +116,7 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `La categoría de mayor volumen en KDP. Los libros para colorear dominan las ventas de libros de actividades en Amazon, y el resultado exclusivamente visual significa que cada página es vendible inmediatamente en cualquier mercado de idiomas.`,
     },
     {
@@ -126,12 +126,12 @@ const content: StartContent = {
     },
     {
       appId: 'sudoku-worksheets',
-      title: 'Generador de Puzzles de Sudoku',
+      title: `Generador de Puzzles de Sudoku`,
       description: `Puzzles universales basados en números sin barreras idiomáticas. Los libros de Sudoku se venden de manera idéntica en todos los marketplaces de Amazon en todo el mundo, maximizando el alcance de una sola licencia comercial.`,
     },
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Los modos versátiles de imagen-a-palabra e imagen-a-imagen sirven a diferentes grupos de edad y propósitos educativos. Una licencia cubre ambos estilos de asociación para máxima variedad de productos.`,
     },
   ],
@@ -173,18 +173,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía de base integral que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas que se Venden',
+      title: `Cómo Crear Fichas que se Venden`,
       description: `Inmersión profunda en la calidad de creación de productos: estándares de diseño, técnicas de diferenciación y los métodos que hacen que tus fichas destaquen de la competencia en cada marketplace.`,
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass de Negocio de Imprimibles en Etsy',
+      title: `Masterclass de Negocio de Imprimibles en Etsy`,
       description: `La guía específica de Etsy para descargas de imprimibles digitales. Cubre configuración de tienda, optimización de publicaciones, estrategia de precios y cómo construir un negocio rentable de fichas en Etsy.`,
     },
     {
@@ -195,37 +195,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales que se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales que se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
-    { pageType: 'start', slug: 'crear-fichas-multilingues', anchorText: 'Cómo Crear Fichas en 11 Idiomas' },
+    { pageType: 'start', slug: 'crear-fichas-multilingues', anchorText: `Cómo Crear Fichas en 11 Idiomas` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos del Negocio de Imprimibles: Expectativas Realistas` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Detalles Completos' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de Fichas de Suma — Detalles Completos' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el Generador de Fichas de Suma' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Detalles Completos` },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de Fichas de Suma — Detalles Completos` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: `Prueba el Generador de Fichas de Suma` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de sopa de letras que demuestra la calidad de salida de licencia comercial para vendedores de imprimibles` },
+    heroImage: { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de sopa de letras que demuestra la calidad de salida de licencia comercial para vendedores de imprimibles` },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de puzzle de sopa de letras lista para venta comercial`, caption: 'Sopa de Letras — Mayor Venta Comercial' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de matemáticas de suma con licencia comercial`, caption: 'Suma — Básico Permanente de Matemáticas' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Ficha de página para colorear para libros de actividades KDP', caption: 'Colorear — Categoría de Alto Volumen en KDP' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Puzzle de crucigrama que demuestra el valor comercial multilingüe', caption: 'Crucigrama — Valor de Licencia Multilingüe' },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de puzzle de sopa de letras lista para venta comercial`, caption: `Sopa de Letras — Mayor Venta Comercial` },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de matemáticas de suma con licencia comercial`, caption: `Suma — Básico Permanente de Matemáticas` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Ficha de página para colorear para libros de actividades KDP`, caption: `Colorear — Categoría de Alto Volumen en KDP` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Puzzle de crucigrama que demuestra el valor comercial multilingüe`, caption: `Crucigrama — Valor de Licencia Multilingüe` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo Crear Fichas de Sopa de Letras para Venta Comercial — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — imagen educativa temática', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagen educativa temática', caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — imagen educativa temática`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagen educativa temática`, caption: 'Bisonte' },
   ],
 };
 

@@ -4,17 +4,17 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'maze worksheet generator',
     secondaryKeywords: [
-      'printable maze activity maker for Etsy sellers',
+      `printable maze activity maker for Etsy sellers`,
       `picture path worksheet generator for KDP publishers`,
-      'maze worksheet creator commercial license',
-      'sell pathway puzzle worksheets on Etsy and Amazon',
+      `maze worksheet creator commercial license`,
+      `sell pathway puzzle worksheets on Etsy and Amazon`,
     ],
     lsiKeywords: [
-      'digital maze printables online business',
-      'commercial use pathway worksheet generator',
-      'printable puzzle activity business tools',
+      `digital maze printables online business`,
+      `commercial use pathway worksheet generator`,
+      `printable puzzle activity business tools`,
     ],
-    titleTag: 'Maze Worksheet Generator | Create Path Printables',
+    titleTag: `Maze Worksheet Generator | Create Path Printables`,
     metaDescription: `Create maze worksheets to sell on Etsy, KDP & Gumroad. 3 game modes, LPF algorithm, auto answer key, 104 themes, print-ready PDFs. Try free — license available.`,
   },
 
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Maze Worksheets in 5 Steps',
+    title: `How to Create Maze Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -34,22 +34,22 @@ const content: AppContent = {
           `Open the Page Setup panel and choose a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Pick a page color using the color picker. Select a background theme and adjust its opacity, then choose a border theme with its own independent opacity control. These layout choices frame your maze worksheet before you configure any game mode.`,
       },
       {
-        title: 'Choose Your Game Mode and Configure Settings',
+        title: `Choose Your Game Mode and Configure Settings`,
         description:
           `Open the Pathway Configuration panel and select one of three game modes. Picture Pathway creates a grid of images with a single correct path from start to finish. Classic Maze generates wall-based mazes with the LPF algorithm — set grid size (15×15 to 20×20), number of paths (1, 2, or 3), collectible image count and copies, wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path creates three-path mazes with four directional options. Toggle "Include Name/Date Fields" to add name and date lines.`,
       },
       {
-        title: 'Select Images by Role from the Library',
+        title: `Select Images by Role from the Library`,
         description:
           `Open the Image Library panel and assign images to five distinct roles using the role selector: Start Image (entry point marker), End Image (destination — 1 for Pathway/Maze, 3 for Choose Path), Path Images (correct route or collectibles), Distractor Images (wrong cells or non-path filler), and Decoration (free canvas placement). Browse 104 themed collections with 3,100+ illustrations, filter by theme or search by keyword. Upload custom PNG, JPG, or GIF images to use alongside library content.`,
       },
       {
-        title: 'Generate the Maze or Pathway Worksheet',
+        title: `Generate the Maze or Pathway Worksheet`,
         description:
           `Click Generate to create the maze layout for your selected game mode. Picture Pathway arranges images in a grid with one correct path marked by path images among distractors. Classic Maze builds wall-based corridors with collectible images placed along paths. Choose the Right Path constructs three distinct routes with one correct path and decoy alternatives. The auto-generated "Picture Pathway" header appears at the top with an orange outer border, localized title, and instructions in the selected language.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see the auto-generated solution. The answer key highlights the correct path with pink circles along the route. Choose Path mode adds a "✓ CORRECT PATH" label on the correct path. Classic Maze includes a collectible legend showing image counts. Download using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Path Maze Generator',
+    title: `Key Features of the Picture Path Maze Generator`,
     features: [
       {
         title: `Three Game Modes: Picture Pathway, Classic Maze, and Choose the Right Path`,
@@ -103,34 +103,34 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Maze Worksheets Online',
+    title: `How to Sell Maze Worksheets Online`,
     cases: [
       {
-        title: 'Themed Maze Activity Bundles on Etsy',
+        title: `Themed Maze Activity Bundles on Etsy`,
         description:
           `Create themed maze packs using the 104 image collections — animal mazes, holiday mazes, farm mazes, ocean mazes, and dozens more. Each theme provides enough illustrations for multiple unique maze worksheets across all three game modes. Package 10–20 maze worksheets per theme with answer keys included, mixing Picture Pathway, Classic Maze, and Choose the Right Path for variety within every bundle. Vary difficulty by adjusting grid sizes and path counts. Sell at $3–$7 per bundle. The auto-generated answer key eliminates the biggest time sink in maze worksheet production.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Maze Activity Workbooks on Amazon KDP',
+        title: `Maze Activity Workbooks on Amazon KDP`,
         description:
           `Compile 40–80 maze worksheets into a printed workbook formatted for Amazon KDP. Structure your book by progressive difficulty: start with Picture Pathway mazes for beginners, advance to Classic Maze with 15×15 grids and 1 path, then increase to 20×20 grids with 3 paths for advanced solvers. Include answer keys at the back of the book. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors. Maze books are a proven KDP category — the visual-only format means every book works for buyers worldwide without translation.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Maze Activity Packs on Gumroad',
+        title: `Maze Activity Packs on Gumroad`,
         description:
           `Build ready-to-use maze worksheets with name/date fields and printed answer keys for instant digital delivery. Buyers searching for logic activities value worksheets that develop spatial reasoning and problem-solving skills. Create themed sets: animal habitat pathway activities, seasonal maze collections, and progressive difficulty maze packs. Classic Maze mode with collectible images adds counting practice alongside pathfinding. Each set includes puzzle worksheets and answer keys in both PDF and JPEG formats for flexible use.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal and Holiday Maze Collections',
+        title: `Seasonal and Holiday Maze Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine's Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine`s Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine`s Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
-        title: 'Global Market Appeal with Visual-Only Maze Design',
+        title: `Global Market Appeal with Visual-Only Maze Design`,
         description:
           `Maze worksheets are entirely visual — solvers navigate paths, follow images, and solve spatial puzzles without reading any text. This makes every maze worksheet instantly sellable in any market worldwide without translation or localization. List the same maze bundle on international Etsy shops, publish maze workbooks targeting non-English Amazon marketplaces, and reach global Gumroad buyers. The auto-generated header translates into 11 languages automatically, but the maze content itself is universally understood. One product, unlimited markets.`,
         platform: 'All platforms (global)',
@@ -145,7 +145,7 @@ const content: AppContent = {
         `The generator offers three distinct modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF algorithm with collectible images, configurable grid sizes (15×15 to 20×20), and 1 to 3 paths with dead-end blocking. Choose the Right Path presents three-path mazes with four directional options where solvers identify the single correct route. Each mode produces a different spatial reasoning challenge from the same image library.`,
     },
     {
-      question: 'How does the LPF maze algorithm work?',
+      question: `How does the LPF maze algorithm work?`,
       answer:
         `The Longest Path First (LPF) algorithm is a professional wall-based maze generation system. It uses a corridor-cell structure with dynamic wall placement to create challenging but solvable mazes. Path quality scoring evaluates turns, length, and blockages. Multi-path support generates 1, 2, or 3 paths with automatic dead-end blocking on incorrect routes. You can configure path length minimums and maximums (4–30 cells, defaults 8–12), grid sizes from 15×15 to 20×20, and wall-aware start/end positioning ensures clean entry and exit points.`,
     },
@@ -170,12 +170,12 @@ const content: AppContent = {
         `Classic Maze scatters collectible images throughout the maze corridors. Configure the number of collectible image types (1, 2, 3, or 4 — default 4), minimum copies per image (1, 2, or 3 — default 1), and maximum copies per image (1–10 — default 10). The answer key includes a collectible legend showing each image and its count along the solution path. Collectibles add counting and observation practice alongside the maze-solving activity.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a "✓ CORRECT PATH" label on the correct route. Classic Maze includes a collectible legend. Download both versions separately using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.`,
     },
     {
-      question: 'How does the auto-generated header work?',
+      question: `How does the auto-generated header work?`,
       answer:
         `Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title "Picture Pathway" and description "Follow the path from start to finish!" are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d'Images), Spanish (Camino de Imágenes), and all other supported languages.`,
     },
@@ -185,7 +185,7 @@ const content: AppContent = {
         `Yes. You can access every feature — all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.`,
     },
     {
-      question: 'Are Picture Path worksheets language-sensitive?',
+      question: `Are Picture Path worksheets language-sensitive?`,
       answer:
         `No. Unlike word-based generators, Picture Path worksheets are entirely visual. Solvers navigate mazes and follow image paths without reading any text. The auto-generated header translates into 11 languages, but the maze content itself requires no language comprehension. This makes every worksheet instantly usable and sellable in any market worldwide without modification.`,
     },
@@ -205,27 +205,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
+      anchorText: `Missing Pieces Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'odd-one-out-worksheets',
-      anchorText: 'Odd One Out Worksheet Generator',
+      anchorText: `Odd One Out Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'sudoku-worksheets',
-      anchorText: 'Picture Sudoku Worksheet Generator',
+      anchorText: `Picture Sudoku Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
+      anchorText: `Find and Count Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'treasure-hunt-worksheets',
-      anchorText: 'Treasure Hunt Worksheet Generator',
+      anchorText: `Treasure Hunt Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -235,32 +235,32 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'publish-puzzle-books-kdp',
-      anchorText: 'How to Create and Sell Maze Books on Amazon KDP',
+      anchorText: `How to Create and Sell Maze Books on Amazon KDP`,
     },
     {
       pageType: 'idea',
-      slug: 'summer-learning-printable-ideas',
-      anchorText: 'Maze and Pathway Printable Ideas for Worksheets',
+      slug: `summer-learning-printable-ideas`,
+      anchorText: `Maze and Pathway Printable Ideas for Worksheets`,
     },
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+      anchorText: `Camping Printable Ideas for Outdoor Learning`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+      anchorText: `Ocean Animals Printable Ideas for Marine Themes`,
     },
     {
       pageType: 'start',
       slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: `Marketing Your Printable Business`,
     },
     {
       pageType: 'guide',
       slug: 'create-maze-worksheets',
-      anchorText: 'How to Create Maze & Path Worksheets',
+      anchorText: `How to Create Maze & Path Worksheets`,
     },
   ],
 

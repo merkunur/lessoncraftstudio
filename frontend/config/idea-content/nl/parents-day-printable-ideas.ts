@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Moederdag & Vaderdag Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende Moederdag en Vaderdag printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Ouderwaardering productconcepten en tips voor verkopers.`,
 
-    primaryKeyword: 'moederdag vaderdag printable ideeën',
+    primaryKeyword: `moederdag vaderdag printable ideeën`,
     secondaryKeywords: [
       'Moederdag werkbladen verkopen',
-      'Vaderdag printable business ideeën',
-      'ouderdag activiteiten voor verkopers',
-      'ouderdag printables verkopen op Etsy',
+      `Vaderdag printable business ideeën`,
+      `ouderdag activiteiten voor verkopers`,
+      `ouderdag printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'familieviering educatieve werkbladen',
+      `familieviering educatieve werkbladen`,
       'ouderwaardering activiteiten',
-      'seizoensgebonden familie thema printables',
+      `seizoensgebonden familie thema printables`,
     ],
   },
   hero: {
@@ -40,27 +40,27 @@ Om maximale omzet te behalen uit beide feestdagen, ontwikkel je producten over m
 
   productIdeas: [
     {
-      title: 'Moederdag & Vaderdag Telwerkbladen voor Verkopers',
+      title: `Moederdag & Vaderdag Telwerkbladen voor Verkopers`,
       description: `Telwerkbladen met harten, bloemen, stropdassen, cadeaus, trofeeën en familievieringsartikelen brengen waarderingsopwinding in vroege rekenoefeningen die verkopers gretig kopen voor mei- en juniklasactiviteiten. Gebruik de Zoek en Tel-generator om vieringsscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen cadeaugeeftableaus, bloemenarrangementen en familiewaarderingsdisplays. Bied sets aan op meerdere vaardigheidsniveaus: harten en bloemen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen cadeaudozen of groepjes waarderingslinten voor kinderen in groep 3. Maak zowel Moederdag- als Vaderdagvariaties vanuit dezelfde basisconcepten om je catalogusaanwezigheid te verdubbelen. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Ouderdag Woordzoekpuzzels Online Verkopen',
+      title: `Ouderdag Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met waarderingsvocabulaire trekken verkopers aan die mei- en juniklasactiviteiten plannen en ouders die educatief vermaak zoeken als onderdeel van de feestdagenvoorbereiding. Maak puzzels met waarderingsspecifiek vocabulaire zoals hart, bloem, cadeau, liefde, familie, dankbaar en speciaal naast bredere familievieringstermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer waarderingstermen voor oudere gebruikers. Maak Moederdag- en Vaderdagvariaties met aangepaste woordenlijsten voor elk feest.`,
       appId: 'wordsearch',
     },
     {
       title: `Ouderdag Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met ouderwaarderingsthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het brede mei-junikoperspubliek aanspreken. Maak sets waarin kinderen cadeaus koppelen aan de ontvanger, familieleden verbinden met hun favoriete activiteiten, bloemen matchen met hun kleuren, of waarderingssymbolen koppelen aan bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die klasprojecten voor het maken van cadeaus plannen waar gestructureerde activiteiten de opwinding kanaliseren. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met ouderwaarderingsthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het brede mei-junikoperspubliek aanspreken. Maak sets waarin kinderen cadeaus koppelen aan de ontvanger, familieleden verbinden met hun favoriete activiteiten, bloemen matchen met hun kleuren, of waarderingssymbolen koppelen aan bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die klasprojecten voor het maken van cadeaus plannen waar gestructureerde activiteiten de opwinding kanaliseren. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Ouderdag Optelwerkbladen voor Rekenverkopers',
+      title: `Ouderdag Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met waarderingsillustraties transformeren routinematige rekenoefeningen in feestelijke activiteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens de emotioneel geladen mei-juniperiode. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen harten in cadeaudozen optellen, familiethema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met bloemen, stropdassen en trofeeën. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met waarderingsvisuele context. Deze werkbladen zijn dubbel inzetbaar voor zowel Moederdag als Vaderdag met kleine aanpassingen.`,
       appId: 'addition',
     },
     {
-      title: 'Ouderdag Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Ouderdag Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een uitstekend instapproduct voor ouderwaardering printable-winkels omdat ze impulsaankopen aantrekken van kopers in een emotionele cadeaugeefmodus. De Kleuren-generator maakt gedetailleerde contouren van harten, bloemenboeketten, trofeeën, kronen, "beste mama" en "beste papa" certificaten, familieportretten en waarderingslinten. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's met aparte Moederdag- en Vaderdagvariaties plus een gecombineerde bundel. Voor KDP compileer je dertig tot vijftig kleurplaten in ouderwaardering-activiteitenboeken. Voeg educatieve elementen toe zoals waarderingsvocabulaire, schrijfopdrachten of teloefeningen naast de kleurafbeeldingen om je te onderscheiden van puur decoratieve opties.`,
       appId: 'coloring',
     },
@@ -94,13 +94,13 @@ Om maximale omzet te behalen uit beide feestdagen, ontwikkel je producten over m
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Ouderdag Printables Verkopen op Etsy',
+      title: `Ouderdag Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor Moederdag en Vaderdag printable-vermeldingen, en de emotionele cadeaugeefcontext stimuleert hogere conversiepercentages dan standaard educatieve categorieën. Publiceer je ouderwaarderingsvermeldingen tegen half maart om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren vóór de aprilvraagstijging begint. Gebruik alle dertien tags met variaties die feestdagspecifieke subthema's, vaardigheidstypen en leeftijdsgroepen combineren: "Moederdag telwerkbladen kleuters," "Vaderdag woordzoeker kleuterschool" en "ouderdag kleurplaten peuters." Maak drie vermeldingsvariaties voor elk productconcept: Moederdagversie, Vaderdagversie en gecombineerde bundel om je catalogusaanwezigheid te verdrievoudigen. De Nederlandse markt via Etsy.nl biedt sterke kansen omdat Moederdag en Vaderdag breed gevierd worden in Nederland.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Ouderdag Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor ouderwaarderingsprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast bloemen, wenskaarten en cadeauartikelen voor Moederdag en Vaderdag. Compileer individuele waarderingswerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond familiewaarderingsthema's combineren. Overweeg aparte Moederdag- en Vaderdagboeken naast een gecombineerd familiewaarderingsboek te maken. Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als liefdevolle cadeaus die kinderen personaliseren en aan hun ouders geven. Publiceer tegen begin maart. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Ouderdag Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor ouderwaarderingsprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast bloemen, wenskaarten en cadeauartikelen voor Moederdag en Vaderdag. Compileer individuele waarderingswerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond familiewaarderingsthema`s combineren. Overweeg aparte Moederdag- en Vaderdagboeken naast een gecombineerd familiewaarderingsboek te maken. Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als liefdevolle cadeaus die kinderen personaliseren en aan hun ouders geven. Publiceer tegen begin maart. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -149,62 +149,62 @@ Om maximale omzet te behalen uit beide feestdagen, ontwikkel je producten over m
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'valentines-day-printable-ideas',
-      anchorText: 'Valentijnsdag printable businessideeën',
+      slug: `valentines-day-printable-ideas`,
+      anchorText: `Valentijnsdag printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'spring-printable-ideas',
-      anchorText: 'Lente printable businessideeën',
+      anchorText: `Lente printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'easter-printable-ideas',
-      anchorText: 'Pasen printable businessideeën',
+      anchorText: `Pasen printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — educatieve thema-afbeelding ouderdag', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — educatieve thema-afbeelding ouderdag', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — educatieve thema-afbeelding ouderdag', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Boshyacint — educatieve thema-afbeelding ouderdag', caption: 'Boshyacint' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Boterbloem — educatieve thema-afbeelding ouderdag', caption: 'Boterbloem' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Anjer — educatieve thema-afbeelding ouderdag', caption: 'Anjer' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Aster — educatieve thema-afbeelding ouderdag`, caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — educatieve thema-afbeelding ouderdag`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — educatieve thema-afbeelding ouderdag`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Boshyacint — educatieve thema-afbeelding ouderdag`, caption: 'Boshyacint' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Boterbloem — educatieve thema-afbeelding ouderdag`, caption: 'Boterbloem' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Anjer — educatieve thema-afbeelding ouderdag`, caption: 'Anjer' },
   ],
 
   youtubeId: '0cOPi7eajLs',

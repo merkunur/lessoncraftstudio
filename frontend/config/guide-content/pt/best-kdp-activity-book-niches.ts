@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: [
       `melhores nichos de livros de atividades KDP para editores`,
       `categorias rentáveis de livros de atividades Amazon KDP`,
-      'pesquisa de nichos KDP livros de atividades',
+      `pesquisa de nichos KDP livros de atividades`,
       `nichos pouco explorados de livros de atividades KDP`,
     ],
     lsiKeywords: [
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `A pesquisa de nichos identifica oportunidades promissoras, mas a validação confirma-as com dados reais do mercado. Antes de investires tempo significativo a criar um catálogo completo num novo nicho, publica um único título de teste e deixa que os dados reais de vendas guiem a tua próxima decisão.\n\nUm título de validação deve ser um livro completo e de qualidade que represente como seria o teu catálogo completo neste nicho. Não publiques um livro de teste de baixo esforço — a baixa qualidade invalida o teste porque não consegues distinguir «o nicho não tem procura» de «o livro não era bom o suficiente». Cria um livro corretamente formatado com uma capa profissional, palavras-chave otimizadas e conteúdo competitivo. Os geradores de fichas de matemática, sopas de letras, páginas para colorir, sudoku ou adição podem produzir conteúdo completo para um título de validação em poucas horas.\n\nPublica o título de validação e espera 90 dias antes de tirares conclusões. Os primeiros 30 dias não são fiáveis porque a Amazon ainda está a indexar o teu livro e o teu posicionamento não se estabilizou. Entre os dias 30 e 90, o teu livro alcança o seu nível natural de procura para as palavras-chave e categorias que visaste. Acompanha as vendas semanais durante este período.\n\nInterpreta os dados de 90 dias contra limiares claros. Se o livro vende 10 ou mais cópias por mês até ao dia 90, o nicho tem procura validada e deves criar títulos adicionais para construir profundidade de catálogo. Se o livro vende de 3 a 9 cópias por mês, o nicho tem potencial moderado — considera se a otimização de palavras-chave ou melhorias de capa poderiam impulsionar as vendas para cima antes de te comprometeres com um catálogo completo. Se o livro vende menos de 3 cópias por mês após 90 dias com otimização adequada, o nicho provavelmente carece de procura suficiente para o teu posicionamento atual, e o teu esforço é melhor empregue noutros nichos.\n\nO tamanho mínimo viável de catálogo varia por nicho. Para nichos onde a acumulação do catálogo é forte (como séries de matemática por nível de escolaridade), de 5 a 8 títulos é o mínimo para ver efeitos significativos de promoção cruzada. Para nichos independentes (como um livro de puzzles temático específico), um único título forte pode sustentar-se sozinho. O desempenho do teu título de validação diz-te qual cenário se aplica: se os compradores do teu primeiro livro pesquisam títulos semelhantes no mesmo nicho, há oportunidade de catálogo. Se o nicho é suficientemente estreito para que um livro o cubra completamente, concentra os teus esforços de expansão em nichos adjacentes.`,
     },
     {
-      heading: 'Planeia a cobertura de nichos sazonais e perenes',
+      heading: `Planeia a cobertura de nichos sazonais e perenes`,
       content: `Os nichos de livros de atividades dividem-se em duas categorias de temporalidade: nichos perenes com procura consistente durante todo o ano e nichos sazonais com procura concentrada durante períodos específicos. Uma estratégia de nichos rentável inclui ambos porque servem funções de rendimento diferentes no teu catálogo.\n\nOs nichos perenes formam o teu rendimento base. Os cadernos de matemática (todos os níveis de escolaridade), as sopas de letras padrão, o sudoku, a prática de caligrafia e os livros para colorir sem tema específico vendem-se consistentemente durante todo o ano com flutuação mínima. Estes nichos podem não produzir picos de vendas dramáticos, mas geram rendimentos mensais previsíveis que se acumulam à medida que o teu catálogo cresce. Cada novo título perene acrescenta rendimento base permanente. Um catálogo de 10 títulos perenes a ganhar cada um de 30 a 80 dólares por mês proporciona uma base fiável de 300 a 800 dólares mensais.\n\nOs nichos sazonais proporcionam picos de rendimentos que podem duplicar ou triplicar os teus rendimentos mensais durante os períodos de pico. Os livros de atividades de Natal (matemática festiva, sopas de letras natalícias, colorir de inverno) atingem o pico de outubro a dezembro. Os livros de atividades de Halloween disparam em setembro e outubro. Os cadernos de regresso às aulas atingem o pico de julho a setembro. Os livros de atividades de verão vendem-se fortemente de maio a agosto. Dia dos Namorados, Páscoa e outras festividades criam janelas de procura mais curtas mas fiáveis.\n\nA temporalidade da publicação sazonal é crítica. Um livro de sopas de letras natalícias publicado em novembro é demasiado tarde — a Amazon precisa de 4 a 8 semanas para indexar e posicionar completamente um novo título. Publica títulos sazonais pelo menos 8 semanas antes do período de procura máxima. Isto significa que os livros de Natal devem estar ativos até ao início de setembro, os de regresso às aulas até ao final de maio, e os de atividades de verão até ao início de abril.\n\nO equilíbrio estratégico é aproximadamente 60 a 70 por cento títulos perenes e 30 a 40 por cento títulos sazonais. Os títulos perenes proporcionam o rendimento mensal estável que financia o teu negócio. Os títulos sazonais proporcionam rendimentos concentrados que podem financiar redesigns de capa, experiências com publicidade ou expansão para novos nichos. Juntos, criam um perfil de rendimentos que tende a subir pelo crescimento do catálogo enquanto dispara durante períodos previsíveis ao longo do ano.\n\nOs títulos sazonais também funcionam como canais de descoberta para o teu catálogo perene. Um comprador que encontra o teu «Caderno de Matemática de Natal» em novembro e o aprecia visitará a tua página de autor e descobrirá os teus cadernos de matemática para todo o ano. Este efeito de polinização cruzada entre títulos sazonais e perenes amplifica o efeito de acumulação do catálogo.`,
     },
     {
-      heading: 'Constrói uma estratégia de catálogo multi-nicho',
+      heading: `Constrói uma estratégia de catálogo multi-nicho`,
       content: `A questão que todo editor KDP enfrenta após o sucesso inicial é se deve aprofundar num nicho ou expandir-se para vários. A resposta depende da profundidade do teu nicho e da tua tolerância ao risco, mas os negócios editoriais mais resilientes operam em 2 a 4 nichos complementares.\n\nAprofundar num único nicho significa publicar múltiplos títulos que servem o mesmo grupo de compradores: uma série completa de matemática por nível de escolaridade (1.º ao 5.º ano), uma coleção de sopas de letras multivolume (volumes 1 a 6), ou um conjunto completo de livros para colorir temáticos (animais, natureza, fantasia, festividades). A profundidade num único nicho maximiza a acumulação do catálogo porque cada título promove todos os outros, e a tua página de autor torna-se um destino para os compradores dessa categoria. O risco é a dependência do mercado — se o algoritmo da Amazon muda como posiciona o teu nicho, ou se um concorrente importante entra com conteúdo superior, todos os teus rendimentos estão expostos.\n\nExpandir para múltiplos nichos significa publicar títulos em diferentes categorias: alguns cadernos de matemática, alguns livros de sopas de letras, alguns livros para colorir. A amplitude multi-nicho reduz o risco porque nenhuma mudança numa única categoria pode eliminar os teus rendimentos. A contrapartida é uma promoção cruzada mais fraca — um comprador do teu livro de sopas de letras é menos provável que compre o teu caderno de matemática do que outro volume de sopas de letras, pelo que a acumulação do catálogo se dilui.\n\nA abordagem de portfólio de 3 nichos equilibra estas contrapartidas. Escolhe 3 nichos complementares onde as tuas ferramentas e competências se transferem eficientemente. Por exemplo: cadernos de matemática (usando os geradores de fichas de matemática e adição), livros de puzzles de sopas de letras (usando o gerador de sopas de letras), e livros para colorir (usando o gerador de páginas para colorir). Constrói de 5 a 8 títulos em cada nicho durante 6 a 12 meses. Isto dá-te profundidade suficiente em cada nicho para uma acumulação significativa do catálogo enquanto distribuis os teus rendimentos por três mercados de pesquisa independentes da Amazon.\n\nA seleção de complementos importa. Escolhe nichos que partilhem sobreposição de audiência mas não sobreposição de pesquisa. Os cadernos de matemática e os livros de sopas de letras ambos servem pais de crianças em idade escolar, pelo que um comprador de um pode descobrir e comprar o outro através da tua página de autor. Mas visam consultas de pesquisa Amazon completamente diferentes, pelo que não competem entre si nos resultados de pesquisa. Esta é a combinação ideal: audiência partilhada para promoção cruzada, mercados de pesquisa separados para procura independente.\n\nÀ medida que o teu catálogo amadurece, deixa que os dados de desempenho guiem a expansão. Se um nicho supera consistentemente os outros, investe mais intensamente nele. Se um nicho tem baixo desempenho após 5 a 8 títulos, deixa de acrescentar a ele e redireciona o esforço para os teus nichos mais fortes ou testa um novo. A abordagem multi-nicho dá-te os dados para tomar estas decisões em vez de ficares preso numa única categoria independentemente dos resultados.`,
     },
   ],
@@ -138,32 +138,32 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'livros-atividades-matematica-kdp',
+      slug: `livros-atividades-matematica-kdp`,
       title: `Criar livros de atividades de matemática para Amazon KDP`,
       description: `O guia completo de criação para livros de atividades de matemática KDP. Depois de identificares os cadernos de matemática como o teu nicho alvo, este guia cobre a criação de conteúdo, formatação e publicação passo a passo.`,
     },
     {
-      slug: 'ganhar-dinheiro-kdp-livros-atividades',
-      title: 'Ganhar dinheiro com livros de atividades KDP',
+      slug: `ganhar-dinheiro-kdp-livros-atividades`,
+      title: `Ganhar dinheiro com livros de atividades KDP`,
       description: `O guia de rendimentos e estratégia de preços para editores de livros de atividades KDP. Cobre cálculos de royalties, economia de catálogo e expansão multiplataforma depois de teres escolhido o teu nicho.`,
     },
     {
       slug: 'formatacao-kdp-fichas',
-      title: 'Guia de formatação KDP para livros de fichas',
+      title: `Guia de formatação KDP para livros de fichas`,
       description: `O guia técnico de formatação para preparação de manuscritos KDP. Cobre tamanhos de corte, margens, sangria, resolução e especificações de exportação para interiores e capas de livros de atividades.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
-    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: 'Como publicar livros de puzzles na Amazon KDP' },
+    { pageType: 'guide', slug: `livros-atividades-matematica-kdp`, anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
+    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: `Como publicar livros de puzzles na Amazon KDP` },
     { pageType: 'guide', slug: 'livros-caca-palavras-kdp', anchorText: `Como criar livros de sopas de letras para Amazon KDP` },
-    { pageType: 'guide', slug: 'ganhar-dinheiro-kdp-livros-atividades', anchorText: 'Como ganhar dinheiro com livros de atividades KDP' },
-    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: 'Guia de formatação KDP para livros de fichas' },
-    { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: 'Como criar livros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
+    { pageType: 'guide', slug: `ganhar-dinheiro-kdp-livros-atividades`, anchorText: `Como ganhar dinheiro com livros de atividades KDP` },
+    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: `Guia de formatação KDP para livros de fichas` },
+    { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: `Como criar livros de sudoku para Amazon KDP` },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: `Amazon KDP ou Etsy: Onde vender imprimíveis` },
     { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: `Como criar páginas para colorir a partir de imagens temáticas` },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
     { pageType: 'app', slug: 'atividades-matematica-fichas', anchorText: `Gerador de fichas de matemática — Todos os detalhes` },
   ],
@@ -171,7 +171,7 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Gerador de fichas de matemática',
+      title: `Gerador de fichas de matemática`,
       description: `Cria conteúdo direcionado de cadernos de matemática para KDP em todas as operações e níveis de escolaridade. Os cadernos de matemática são o nicho educativo de maior procura na Amazon, tornando este gerador essencial para editores que entram na categoria de matemática.`,
     },
     {
@@ -181,7 +181,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Cria conteúdo temático de livros para colorir para mercados infantis e de adultos. Colorir é uma das categorias de maior volume no KDP, e as edições temáticas oferecem oportunidades de diferenciação num nicho competitivo.`,
     },
     {
@@ -197,22 +197,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir demonstrando um nicho de livros de atividades KDP de amplo apelo para editores' },
+    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir demonstrando um nicho de livros de atividades KDP de amplo apelo para editores` },
     samples: [
-      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: 'Conteúdo de livro para colorir representando um dos nichos mais extensos de livros de atividades KDP', caption: 'Livros para colorir — um nicho massivo de KDP que abrange crianças, adultos e edições temáticas com forte procura durante todo o ano' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Sopa de letras demonstrando segmentação de sub-nichos temáticos dentro da categoria de puzzles', caption: 'Sopas de letras temáticas — a segmentação por sub-nichos com temas de animais, viagens e festividades reduz a concorrência mantendo forte procura' },
-      { src: `/samples/portuguese/math worksheet/Folha de Matemática 1.webp`, alt: 'Ficha de matemática mostrando segmentação de audiência por nível escolar para estratégia de nichos KDP', caption: 'Cadernos de matemática — a segmentação de audiência por nível escolar e tipo de operação cria dezenas de sub-nichos distintos a partir de uma categoria' },
+      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: `Conteúdo de livro para colorir representando um dos nichos mais extensos de livros de atividades KDP`, caption: `Livros para colorir — um nicho massivo de KDP que abrange crianças, adultos e edições temáticas com forte procura durante todo o ano` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Sopa de letras demonstrando segmentação de sub-nichos temáticos dentro da categoria de puzzles`, caption: `Sopas de letras temáticas — a segmentação por sub-nichos com temas de animais, viagens e festividades reduz a concorrência mantendo forte procura` },
+      { src: `/samples/portuguese/math worksheet/Folha de Matemática 1.webp`, alt: `Ficha de matemática mostrando segmentação de audiência por nível escolar para estratégia de nichos KDP`, caption: `Cadernos de matemática — a segmentação de audiência por nível escolar e tipo de operação cria dezenas de sub-nichos distintos a partir de uma categoria` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Como criar fichas de matemática para livros de atividades KDP — Tutorial de criação de conteúdo por nichos`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Alossauro — imagem educativa temática', caption: 'Alossauro' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Anquilossauro — imagem educativa temática', caption: 'Anquilossauro' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatossauro — imagem educativa temática', caption: 'Apatossauro' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinossauro — imagem educativa temática', caption: 'Argentinossauro' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Braquiossauro — imagem educativa temática', caption: 'Braquiossauro' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Alossauro — imagem educativa temática`, caption: 'Alossauro' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Anquilossauro — imagem educativa temática`, caption: 'Anquilossauro' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatossauro — imagem educativa temática`, caption: 'Apatossauro' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinossauro — imagem educativa temática`, caption: 'Argentinossauro' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Braquiossauro — imagem educativa temática`, caption: 'Braquiossauro' },
   ],
 };
 

@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'Gumroad butiksoptimering',
     secondaryKeywords: [
-      'hur man optimerar sin Gumroad-butik',
-      'Gumroad sökalgoritm rankningsfaktorer',
-      'öka Gumroad-försäljning med butiksoptimering',
-      'Gumroad butikstillväxtstrategi',
+      `hur man optimerar sin Gumroad-butik`,
+      `Gumroad sökalgoritm rankningsfaktorer`,
+      `öka Gumroad-försäljning med butiksoptimering`,
+      `Gumroad butikstillväxtstrategi`,
     ],
     lsiKeywords: [
       `Gumroad sökrankning konverteringsgrad produktsynlighet lärarmarknadsplats`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Gumroad butiksuppstart och optimeringguide',
+    title: `Gumroad butiksuppstart och optimeringguide`,
     tagline: `Avancerade strategier för att optimera en befintlig Gumroad-butik — täcker sökalgoritmens rankningsfaktorer, högkonverterande produktbeskrivningar och förhandsgranskningar, recensionsgenereringstaktik, butiksorganisation för bläddringsvänlig navigering, Gumroad kampanjevenemangsstrategi, och datadriven katalogskalning för att förvandla en aktiv Gumroad-butik till en konsekvent och växande intäktskanal`,
     description: `Att sätta upp en Gumroad-butik och publicera dina första resurser är bara början. Skillnaden mellan en butik som genererar sporadisk försäljning och en som producerar konsekvent månatlig intäkt handlar om optimering — hur väl dina listningar rankar i Gumroad-sökning, hur effektivt dina förhandsgranskningar konverterar besökare till köpare, hur din butiksorganisation uppmuntrar flerproduktköp, och hur strategiskt du expanderar din katalog baserat på faktisk prestandadata.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Gumroad:s sökalgoritm bestämmer vilka resurser som visas när säljare söker, och att förstå dess rankningsfaktorer är den enskilt mest hävstångsstarka optimeringen.\n\nAlgoritmen väger flera faktorer, och titelnyckelords-relevans bär tyngst. Gumroad-sökning prioriterar resurser vars titlar nära matchar sökfrågan. En köpare som söker "third grade multiplication worksheets" ser resurser med de exakta orden i titeln först. Din titel är inte bara ett namn — det är ditt primära sökoptimeringsverktyg. Strukturera varje titel: årskurs, ämne/färdighet och resurstyp.\n\nFörsäljningshastighet och konverteringsgrad är andra och tredje mest inflytelserika. Algoritmen spårar hur många försäljningar en resurs genererar relativt visningar och klick. En resurs som konverterar 8% av sina klick rankar högre än en med 2%. Därför påverkar förhandsgranskningsoptimering direkt sökrankning — bättre förhandsgranskningar förbättrar konvertering, som förbättrar rankning, som genererar fler visningar.\n\nRecensionsbetyg och -antal påverkar också. Resurser med fler positiva recensioner rankar högre.\n\nAktualitet spelar roll. Nyligen publicerade eller uppdaterade resurser får ett tillfälligt rankningslyft. Att uppdatera befintliga resurser kan ge dem förnyad söksynlighet. Vissa erfarna säljare uppdaterar systematiskt sina äldsta resurser på roterande schema.\n\nFör att omvänt ingenjörsberäkna konkurrentrankningar, sök på Gumroad och studera topp 10. Notera titlar, priser, recensionsantal och publiceringstid. Identifiera nyckelordsluckor där sökvolym existerar men toppresultat är glesa eller dåligt optimerade.`,
     },
     {
-      heading: 'Skriv högkonverterande produktbeskrivningar',
+      heading: `Skriv högkonverterande produktbeskrivningar`,
       content: `Din produktbeskrivning är där bläddrade säljare beslutar om de öppnar din förhandsgranskning. De flesta Gumroad-säljare skriver beskrivningar som beskriver vad resursen är. De högkonverterande beskrivningarna säljer utfallet säljaren får.\n\nStrukturera med en fördelförst-öppning, inte en funktionslista. säljare frågar: "Sparar detta tid i mitt produktlinje?" Led med svaret. Din öppningsmening bör adressera ett specifikt lärarbehov.\n\nFölj med en detaljerad "Vad som ingår"-sektion. Använd punktlistor: antal arbetsbladssidor, aktivitetstyper, svårighetsintervall, facit, lärarnoteringar, användarvillkor. Var specifik — "12 additionsarbetsblad (4 ensiffriga, 4 tvåsiffriga utan omgruppering, 4 tvåsiffriga med omgruppering)" är mycket mer användbart.\n\nInkludera "Hur du använder denna resurs" med produktlinjesimplementeringsidéer: morgonarbete, mattecentra, hemläxa, utvärdering, tidiga slutare, vikarielärarplaner. köpare som omedelbart kan föreställa sig hur de använder resursen köper med större sannolikhet.\n\nAvsluta med tekniska detaljer: filformat, siddimensioner, kompatibilitetsnoteringar och standardanpassning.\n\nAnvänd formatering: feta sektionsrubriker, punktlistor och radbrytningar för bättre läsbarhet.`,
     },
     {
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Förhandsgranskningsfilen är där majoriteten av köpbeslut fattas på Gumroad. säljare öppnar förhandsgranskningar, bläddrar igenom varje sida, utvärderar formatering och innehållskvalitet, och bestämmer sedan.\n\nVälj förhandsgranskningssidor strategiskt. Inkludera din omslagssida (visar professionalism), en eller två av dina starkaste aktivitetssidor (demonstrerar innehållskvalitet), en sida som visar omfattningen av vad som ingår, och ett prov av ditt facitformat. Målet är att visa tillräckligt för utvärdering medan köp fortfarande ger betydande ytterligare värde.\n\nAktivitetssidorna du inkluderar bör representera ditt bästa arbete. säljare extrapolerar från förhandsgranskningssidor — de antar att oförhandsgranskade sidor matchar kvaliteten.\n\nÖverväg förhållandet förhandsgranskning-till-full-resurs. Att visa för lite misslyckas med att demonstrera kvalitet. Att visa för mycket tar bort incitamentet att köpa. För en 10–15-sidors resurs fungerar typiskt 3–5 förhandsgranskningssidor. För större resurser (25+ sidor) kan du visa 5–8 sidor.\n\nVattenmärkning är ett strategiskt val. Testa båda metoderna och spåra vad som konverterar bättre. Om du vattenmärker, håll opaciteten vid 15–25%.\n\nUppdatera förhandsgranskningar när du uppdaterar resursen. En föråldrad förhandsgranskning skapar en diskrepans som leder till besvikelse.`,
     },
     {
-      heading: 'Bygg en recensionsgenereringsstrategi',
+      heading: `Bygg en recensionsgenereringsstrategi`,
       content: `Recensioner tjänar dubbelt syfte på Gumroad: de påverkar algoritmrankning och köparbeslut. En resurs med 20 positiva recensioner säljer betydligt bättre.\n\nDen mest effektiva etiska metoden för recensioner är att inkludera en artig recensionförfrågan i dina resursfiler. Lägg till en sida i slutet (efter facit, före användarvillkor) som tackar säljaren, ber om betyg och kort förklarar hur recensioner hjälper. Håll förfrågan genuin.\n\nKvalitet är grunden för organiska recensioner. Resurser som genuint hjälper säljare genererar positiva recensioner naturligt.\n\nSvara på varje recension. Att tacka för positiva recensioner skapar personlig kontakt. Att svara konstruktivt på kritiska recensioner demonstrerar professionalism och uppmuntrar ofta uppdaterat betyg.\n\nHandtera negativa recensioner som förbättringsmöjligheter. En enstjärnerecension som säger "arbetsblade var för enkla för mina tredjeklassare" är värdefull data. Använd feedbacken för att förfina beskrivningar, uppdatera resursen eller skapa en kompanjonresurs på högre nivå.\n\nErbjud aldrig incitament för recensioner. Gumroad har policyer mot artificiell recensionsinflation. En butik med 50 misstänkt identiska femstjärniga recensioner är mindre trovärdig än en med 15 detaljerade, genuina recensioner.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Många köpare som besöker din butikssida anländer via en enda resurs hittad genom sökning. Om de köper ytterligare beror på hur lätt det är att bläddra.\n\nAnvänd Gumroad:s butikssektioner för att organisera logiskt. Effektiva sektionsstrukturer inkluderar organisering efter årskurs, ämne, resurstyp eller färdighetsfokus. Välj strukturen som bäst reflekterar hur din målgrupp tänker.\n\nSkapa logiska produktprogressioner. När en säljare bläddrar din "Addition"-sektion bör de se en tydlig progression: grundläggande ensiffrig, tvåsiffrig utan omgruppering, tvåsiffrig med omgruppering, tresiffrig, blandad repetition. Denna progression hjälper säljare hitta rätt nivå och visar bredden i ditt innehåll.\n\nVisa dina starkaste resurser och bästa paket framträdande. Gumroad låter dig utse utvalda resurser överst på din butikssida.\n\nHåll butikssektioner uppdaterade. Tomma eller nästan tomma sektioner ser oavslutade ut. Vänta tills du har minst 3–5 resurser per sektion innan du skapar den.`,
     },
     {
-      heading: 'Utnyttja Gumroad:s kampanjverktyg och evenemang',
+      heading: `Utnyttja Gumroad:s kampanjverktyg och evenemang`,
       content: `Gumroad arrangerar plattformsövergripande försäljningsevenemang flera gånger per år som genererar enorma trafiktoppar. De stora årliga evenemangen — typiskt i augusti (skolstart), november (högtid) och februari/mars (mitt-i-terminen) — driver oproportionerlig andel av årlig intäkt.\n\nUnder plattformsevenemang applicerar Gumroad en plattformsövergripande rabattkod och marknadsför evenemanget. Enskilda säljare kan stapla ytterligare rabatt, typiskt 20–25%. Den staplade rabatten skapar övertygande erbjudanden.\n\nFörbered din katalog 2–3 veckor innan: uppdatera förhandsgranskningar, förfina beskrivningar, säkerställ komplett taggning och verifiera att priser är rätt satta.\n\nGumroad:s följarsystem är underutnyttjat. köpare som följer din butik får notifieringar om nya resurser. Väx din följarbas genom att inkludera "Följ min butik"-påminnelser.\n\nPublicera nya resurser strategiskt kring evenemang. En ny resurs 1–2 veckor före ett stort evenemang drar nytta av både aktualitetslyft och trafiksurge.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Omvänt ingenjörsberäkna konkurrentrankningar',
+      heading: `Omvänt ingenjörsberäkna konkurrentrankningar`,
       content: `Innan du optimerar någon listning, undersök konkurrenssituationen. Sök på Gumroad och studera topp 10 systematiskt. Notera varje konkurrents titelstruktur, prispunkt, recensionsantal, förhandsgranskningskvalitet och tid sedan publicering. Denna analys avslöjar vad algoritmen för närvarande belönar och identifierar specifika svagheter du kan utnyttja. Om topp 5 för "second grade subtraction worksheets" alla har färre än 10 recensioner är termen sårbar. Om toppresultaten har 50+ recensioner behöver du en differentieringsvinkel.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `De flesta framgångsrika säljare erbjuder 20–25% tilläggsrabatt. Detta staplas med plattformskoden för övertygande totalrabatter. Mindre än 15% känns otillräckligt. Mer än 30% skär djupt i marginaler utan proportionell volymökning. 20%-intervallet är optimalt.`,
     },
     {
-      question: 'Hur ofta bör jag publicera nya resurser?',
+      question: `Hur ofta bör jag publicera nya resurser?`,
       answer: `Konsekvens spelar större roll än frekvens. 2–4 nya resurser per månad under 12 månader överträffar en burst av 15 resurser följd av månaders inaktivitet. Algoritmen belönar regelbunden publicering. Arbetsbladsgeneratorerna gör en stadig takt möjlig. Sätt en takt du realistiskt kan upprätthålla.`,
     },
     {
@@ -139,50 +139,50 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'skapa-saelja-tpt-resurser',
-      title: 'Hur du skapar och säljer Gumroad-resurser',
+      title: `Hur du skapar och säljer Gumroad-resurser`,
       description: `Nybörjarguiden för Gumroad som täcker kontouppstart, resursskapande, filpaketering, listningsgrunder, prissättning och att lansera dina första resurser.`,
     },
     {
       slug: 'seo-etsy-pedagogiskt-material',
-      title: 'Etsy SEO för pedagogiska printables',
+      title: `Etsy SEO för pedagogiska printables`,
       description: `SEO-optimeringsstrategier för Etsy-säljare. Många Gumroad-optimeringsprinciper översätts till Etsy med plattformsspecifika justeringar.`,
     },
     {
-      slug: 'komplett-guide-utskriftsbart-foeretag',
+      slug: `komplett-guide-utskriftsbart-foeretag`,
       title: `Komplett guide till att starta utskriftsbart företag`,
       description: `Hörnstensguiden som täcker innehållsskapande, kommersiell licensiering, flerplattformsstrategi och att bygga ett hållbart utskriftsbart företag.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'skapa-saelja-tpt-resurser', anchorText: 'Hur du skapar och säljer Gumroad-resurser' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: 'Hur du startar en Etsy printables-butik' },
-    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Var du säljer printables' },
-    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: 'Etsy SEO för pedagogiska printables' },
-    { pageType: 'guide', slug: 'etsy-printables-prissaettning', anchorText: 'Hur du prissätter dina Etsy printables' },
-    { pageType: 'guide', slug: 'skapa-etsy-arbetsblad-paket', anchorText: 'Hur du skapar Etsy arbetsbladspaket' },
-    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: 'Hur du skapar ordsökningspussel med bilder' },
-    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: 'Hur du skapar additionsarbetsblad för barn' },
-    { pageType: 'guide', slug: 'skapa-korsord', anchorText: 'Hur du skapar korsordspussel för barn' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: 'skapa-saelja-tpt-resurser', anchorText: `Hur du skapar och säljer Gumroad-resurser` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: `Hur du startar en Etsy printables-butik` },
+    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: `Amazon KDP vs Etsy: Var du säljer printables` },
+    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: `Etsy SEO för pedagogiska printables` },
+    { pageType: 'guide', slug: 'etsy-printables-prissaettning', anchorText: `Hur du prissätter dina Etsy printables` },
+    { pageType: 'guide', slug: 'skapa-etsy-arbetsblad-paket', anchorText: `Hur du skapar Etsy arbetsbladspaket` },
+    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: `Hur du skapar ordsökningspussel med bilder` },
+    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: `Hur du skapar additionsarbetsblad för barn` },
+    { pageType: 'guide', slug: 'skapa-korsord', anchorText: `Hur du skapar korsordspussel för barn` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
   ],
 
   toolsRecommended: [
     {
       appId: 'wordsearch',
-      title: 'Ordsökning Arbetsblad Generator',
+      title: `Ordsökning Arbetsblad Generator`,
       description: `Skapar tematiska ordsökningspussel som är bland de mest mångsidiga Gumroad-resurstyperna. Producera säsongsbetonade, ämnesspecifika och vokabulärbyggande variationer för snabb katalogtillväxt.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Mattepussel Arbetsblad Generator',
+      title: `Mattepussel Arbetsblad Generator`,
       description: `Genererar unika mattepusselformat med lägre konkurrens på Gumroad. Ett differentieringsverktyg för butiker som vill sticka ut i trånga mattekategorier.`,
     },
     {
       appId: 'matching-app',
-      title: 'Matchnings Arbetsblad Generator',
+      title: `Matchnings Arbetsblad Generator`,
       description: `Producerar matchningsaktiviteter i konstant efterfrågan. En klassisk aktivitetstyp som säljare söker efter per ämne, idealisk för att bygga tematiska resursserier.`,
     },
     {
@@ -193,22 +193,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Ordsökningsarbetsblad optimerat för Gumroad butikssynlighet och försäljning' },
+    heroImage: { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Ordsökningsarbetsblad optimerat för Gumroad butikssynlighet och försäljning` },
     samples: [
-      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Ordsökningspussel optimerat för Gumroad butikskatalogtillväxt', caption: 'Ordsökningspussel är bland de mest mångsidiga Gumroad-resurserna — skapa tematiska säsongsvariationer för snabb katalogexpansion' },
-      { src: `/samples/swedish/math%20puzzle/mattepussel%201.jpeg`, alt: 'Mattepussel arbetsblad för Gumroad butiksdifferentiering', caption: 'Unika mattepusselformat möter lägre konkurrens på Gumroad — en differentieringsstrategi' },
-      { src: '/samples/swedish/crossword/Bildkorsord%201.jpeg', alt: `Korsordspussel aktivitet för Gumroad vokabulärresurser`, caption: 'Korsordspussel är högefterfrågade vokabuläraktiviteter som säljare söker per ämne och årskurs' },
+      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Ordsökningspussel optimerat för Gumroad butikskatalogtillväxt`, caption: `Ordsökningspussel är bland de mest mångsidiga Gumroad-resurserna — skapa tematiska säsongsvariationer för snabb katalogexpansion` },
+      { src: `/samples/swedish/math%20puzzle/mattepussel%201.jpeg`, alt: `Mattepussel arbetsblad för Gumroad butiksdifferentiering`, caption: `Unika mattepusselformat möter lägre konkurrens på Gumroad — en differentieringsstrategi` },
+      { src: `/samples/swedish/crossword/Bildkorsord%201.jpeg`, alt: `Korsordspussel aktivitet för Gumroad vokabulärresurser`, caption: `Korsordspussel är högefterfrågade vokabuläraktiviteter som säljare söker per ämne och årskurs` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Hur du skapar ordsökningspussel för din Gumroad-butik — optimeringguide`,
   },
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Ryggsäck — tematisk pedagogisk bild', caption: 'Ryggsäck' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Pärm — tematisk pedagogisk bild', caption: 'Pärm' },
-    { src: '/image-library/classroom/book.webp', alt: 'Bok — tematisk pedagogisk bild', caption: 'Bok' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Skåp — tematisk pedagogisk bild', caption: 'Skåp' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Kalkylator — tematisk pedagogisk bild', caption: 'Kalkylator' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Ryggsäck — tematisk pedagogisk bild`, caption: 'Ryggsäck' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Pärm — tematisk pedagogisk bild`, caption: 'Pärm' },
+    { src: `/image-library/classroom/book.webp`, alt: `Bok — tematisk pedagogisk bild`, caption: 'Bok' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Skåp — tematisk pedagogisk bild`, caption: 'Skåp' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Kalkylator — tematisk pedagogisk bild`, caption: 'Kalkylator' },
   ],
 };
 

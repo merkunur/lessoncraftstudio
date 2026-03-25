@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Onderwaterwereld Printables Verkopen — Nichegids',
+    titleTag: `Onderwaterwereld Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende onderwaterwereld printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Oceaanthema productconcepten en nichetips voor verkopers.`,
 
-    primaryKeyword: 'onderwaterwereld printable ideeën',
+    primaryKeyword: `onderwaterwereld printable ideeën`,
     secondaryKeywords: [
-      'onderwaterwereld werkbladen verkopen',
-      'diepzee printable business ideeën',
-      'onderwater activiteiten voor verkopers',
-      'onderwater printables verkopen op Etsy',
+      `onderwaterwereld werkbladen verkopen`,
+      `diepzee printable business ideeën`,
+      `onderwater activiteiten voor verkopers`,
+      `onderwater printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'diepzeewezens educatieve werkbladen',
-      'koraalrif activiteitenpagina\'s',
-      'aquatisch thema printbare producten printables',
+      `diepzeewezens educatieve werkbladen`,
+      `koraalrif activiteitenpagina's`,
+      `aquatisch thema printbare producten printables`,
     ],
   },
   hero: {
@@ -45,13 +45,13 @@ Wetenschapseducatieverbindingen maken onderwaterprintables bijzonder waardevol v
       appId: 'find-and-count',
     },
     {
-      title: 'Onderwaterwereld Woordzoekpuzzels Online Verkopen',
+      title: `Onderwaterwereld Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met oceaanvocabulaire trekken verkopers aan die mariene wetenschapsunits plannen en ouders die educatief vermaak zoeken voor zeelevengeobsedeerde kinderen. Maak puzzels met zeewezennamen zoals dolfijn, octopus, kwal, zeepaardje en haai naast habitattermen als koraalrif, getijdenpoel en diepzee. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer oceaantermen voor oudere gebruikers. Variaties zoals koraalrifvocabulaire, diepzeewezens en kustdierenterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Onderwaterwereld Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met onderwaterthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede oceaankoperspubliek. Maak sets waarin kinderen zeewezens koppelen aan hun habitats, oceaandieren verbinden met hun voedsel, mariene dieren matchen met hun namen, of diepzeeschepsels koppelen aan hun silhouetten. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die wetenschapsunits over oceaanhabitats plannen. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met onderwaterthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede oceaankoperspubliek. Maak sets waarin kinderen zeewezens koppelen aan hun habitats, oceaandieren verbinden met hun voedsel, mariene dieren matchen met hun namen, of diepzeeschepsels koppelen aan hun silhouetten. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die wetenschapsunits over oceaanhabitats plannen. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
@@ -94,13 +94,13 @@ Wetenschapseducatieverbindingen maken onderwaterprintables bijzonder waardevol v
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Onderwaterwereld Printables Verkopen op Etsy',
+      title: `Onderwaterwereld Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in onderwater printable-vermeldingen, en het altijdgroene karakter van het oceaanthema betekent dat je vermeldingen het hele jaar door verkopen genereren met extra sterke prestaties tijdens de zomermaanden wanneer strandvakanties en aquariumbezoeken de oceaaninteresse stimuleren. Richt je op long-tail zoekwoorden zoals "zeewezens telwerkblad kleuters" of "koraalrif woordzoeker kleuterschool" in plaats van brede tags. Gebruik alle dertien tags met variaties die zeewezenstypen, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte onderwaterwerkbladen tonen met blauwe oceaanachtergronden of naast zeedierspeelgoed presteren aanzienlijk beter dan platte digitale voorbeelden. De Nederlandse markt via Etsy.nl biedt kansen dankzij het Burgers' Zoo koraalrifaquarium, Sea Life centra en de Waddenzee als educatieve context.`,
     },
     {
       platform: 'Amazon KDP',
       title: `Onderwaterwereld Activiteitenboeken Publiceren op KDP`,
-      description: `Amazon KDP werkt uitstekend voor onderwaterprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast oceaanboeken, zeedierspeelgoed en mariene wetenschapskits. Compileer individuele onderwaterwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond mariene thema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "onderwater activiteitenboek voor kinderen," "zeewezens werkbladen kleuters" en subthematermen toe als "koraalrif kleurboek" of "haai activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Onderwaterboeken verkopen het hele jaar door consistent met zomerpieken. Overweeg ook Amazon.nl en Bol.com.`,
+      description: `Amazon KDP werkt uitstekend voor onderwaterprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast oceaanboeken, zeedierspeelgoed en mariene wetenschapskits. Compileer individuele onderwaterwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond mariene thema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "onderwater activiteitenboek voor kinderen," "zeewezens werkbladen kleuters" en subthematermen toe als "koraalrif kleurboek" of "haai activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Onderwaterboeken verkopen het hele jaar door consistent met zomerpieken. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -132,12 +132,12 @@ Wetenschapseducatieverbindingen maken onderwaterprintables bijzonder waardevol v
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de onderwaterniche omdat het altijdgroene karakter van het thema betekent dat je vermeldingen het hele jaar door verkopen genereren op elk platform. Etsy trekt ouders aan die oceaanactiviteiten zoeken na aquariumbezoeken en tijdens strandvakanties, Gumroad bereikt klasverkopers die mariene wetenschapsunits en oceaanhabitatstudies plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken naast zeedierspeelgoed. Gumroad en Shopify helpen je een eigen oceaanpubliek op te bouwen. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke onderwatersubthema\'s verkopen het beste?',
-      answer: `De bestverkopende onderwatersubthema's zijn haaien, dolfijnen, koraalrifwezens en zeeschildpadden. Haaien fascineren kinderen met hun kracht en mysterie en genereren bijzonder sterk zoekvolume gedurende het hele jaar, met pieken rond Shark Week-evenementen. Dolfijnen spreken het breedste koperspubliek aan dankzij hun universele populariteit en intelligentie-associaties. Koraalrifwezens bieden de meest kleurrijke en visueel diverse productlijn met clownvissen, zeesterren, zeepaardjes en tropische vissen. Zeeschildpadden combineren onderwaterthema met natuurbehoudsbewustzijn dat verkopers bijzonder waarderen. In Nederland bieden het Burgers' Zoo koraalrifaquarium en de Waddenzee unieke educatieve aanknopingspunten.`,
+      question: `Welke onderwatersubthema's verkopen het beste?`,
+      answer: `De bestverkopende onderwatersubthema`s zijn haaien, dolfijnen, koraalrifwezens en zeeschildpadden. Haaien fascineren kinderen met hun kracht en mysterie en genereren bijzonder sterk zoekvolume gedurende het hele jaar, met pieken rond Shark Week-evenementen. Dolfijnen spreken het breedste koperspubliek aan dankzij hun universele populariteit en intelligentie-associaties. Koraalrifwezens bieden de meest kleurrijke en visueel diverse productlijn met clownvissen, zeesterren, zeepaardjes en tropische vissen. Zeeschildpadden combineren onderwaterthema met natuurbehoudsbewustzijn dat verkopers bijzonder waarderen. In Nederland bieden het Burgers` Zoo koraalrifaquarium en de Waddenzee unieke educatieve aanknopingspunten.`,
     },
     {
       question: `Hoe maak ik efficiënt onderwaterwerkbladen met generator tools?`,
-      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe oceaancatalogus kunt opbouwen die meerdere onderwatersubthema's omvat. Selecteer een generator die past bij je doelactiviteitstype, kies onderwaterthema's en marien vocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
+      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe oceaancatalogus kunt opbouwen die meerdere onderwatersubthema`s omvat. Selecteer een generator die past bij je doelactiviteitstype, kies onderwaterthema`s en marien vocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
     },
     {
       question: `Wat is het retourbeleid voor commerciële licenties?`,
@@ -149,62 +149,62 @@ Wetenschapseducatieverbindingen maken onderwaterprintables bijzonder waardevol v
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Zeedieren printable businessideeën',
+      anchorText: `Zeedieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'pirates-printable-ideas',
-      anchorText: 'Piraten printable businessideeën',
+      anchorText: `Piraten printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
+      anchorText: `Zomer printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: `Maanvis — educatieve thema-afbeelding onderwaterwereld`, caption: 'Maanvis' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: `Clownvis — educatieve thema-afbeelding onderwaterwereld`, caption: 'Clownvis' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: `Koraal — educatieve thema-afbeelding onderwaterwereld`, caption: 'Koraal' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: `Krab — educatieve thema-afbeelding onderwaterwereld`, caption: 'Krab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: `Dolfijn — educatieve thema-afbeelding onderwaterwereld`, caption: 'Dolfijn' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: `Vis — educatieve thema-afbeelding onderwaterwereld`, caption: 'Vis' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Maanvis — educatieve thema-afbeelding onderwaterwereld`, caption: 'Maanvis' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownvis — educatieve thema-afbeelding onderwaterwereld`, caption: 'Clownvis' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koraal — educatieve thema-afbeelding onderwaterwereld`, caption: 'Koraal' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krab — educatieve thema-afbeelding onderwaterwereld`, caption: 'Krab' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding onderwaterwereld`, caption: 'Dolfijn' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Vis — educatieve thema-afbeelding onderwaterwereld`, caption: 'Vis' },
   ],
 
   youtubeId: '0cOPi7eajLs',

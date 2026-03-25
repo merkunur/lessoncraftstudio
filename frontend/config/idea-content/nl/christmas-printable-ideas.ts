@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kerst Printables Verkopen — Nichegids',
+    titleTag: `Kerst Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende kerst printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Feestdagenproductconcepten, seizoensstrategieën en tips voor verkopers.`,
 
     primaryKeyword: 'kerst printable ideeën',
     secondaryKeywords: [
       'kerst werkbladen verkopen',
-      'feestdagen printable business ideeën',
-      'kerst activiteiten voor verkopers',
-      'kerst printables verkopen op Etsy',
+      `feestdagen printable business ideeën`,
+      `kerst activiteiten voor verkopers`,
+      `kerst printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'seizoensgebonden feestdagen werkbladbundels',
-      'winter educatieve activiteiten',
-      'feestelijke printbare producten printables',
+      `seizoensgebonden feestdagen werkbladbundels`,
+      `winter educatieve activiteiten`,
+      `feestelijke printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Kerst Printable Businessideeën voor Verkopers',
+    title: `Kerst Printable Businessideeën voor Verkopers`,
     description: `Kerst vertegenwoordigt de krachtigste seizoensgebonden kans op de gehele printable-markt, met een vraagsurge van oktober tot december die elke andere feestdag ver overtreft. Het thema omvat een buitengewoon scala aan subonderwerpen waaronder de Kerstman, rendieren, sneeuwpoppen, peperkoek, zuurstokken, kerstballen, elfjes, kerstsokken, kransen en kerststallen, wat verkopers vrijwel onbeperkte productvariatie biedt binnen één samenhangende niche. verkopers plannen kerstfeestjes online en lesactiviteiten voor december, ouders zoeken schermvrij vermaak tijdens de kerstvakantie, en cadeaugevers ontdekken dat activiteitenboeken en werkbladpakketten ideale cadeautjes zijn. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad beloont de kerstniche vroege voorbereiding met jaar-op-jaar samengestelde rendementen naarmate vermeldingen zoekautoriteit en beoordelingen opbouwen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De kerst printable-niche is de onbetwiste zwaargewicht van seizoensgebonden educatieve productverkopen, gedreven door convergerende vraag van verkopers, ouders, thuisonderwijzers en cadeaukopers tijdens het laatste kwartaal van elk jaar. verkopers beginnen al in september met het plannen van decemberactiviteiten voor de winkel, op zoek naar werkbladen met kerstthema die gebruikers betrokken houden tijdens de opwindende weken voor de kerstvakantie. Ouders zoeken educatieve activiteiten met kerstthema om kinderen bezig te houden tijdens reizen met de feestdagen, familiebijeenkomsten en de lange wintervakantie wanneer gestructureerd vermaak essentieel wordt. Cadeaukopers ontdekken dat printbare activiteitenboeken en werkbladpakketten doordachte, betaalbare cadeautjes zijn.
@@ -42,27 +42,27 @@ Mogelijkheden na kerst verlengen het feestdagenverkoopseizoen voor strategische 
 
   productIdeas: [
     {
-      title: 'Kerst Telwerkbladen voor Printable Verkopers',
+      title: `Kerst Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met kerstmutsen, kerstballen, zuurstokken, kerstsokken en cadeautjes transformeren kerstvreugde in boeiende rekenoefeningen die verkopers en ouders elke december gretig kopen. Gebruik de Zoek en Tel-generator om feestelijke scènes te maken waarin kinderen specifieke kerstartikelen lokaliseren en tellen tussen versierde bomen, ingepakte cadeaus en winterwonderlandachtergronden. Bied sets aan op meerdere vaardigheidsniveaus: feestdagenvoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen kerstballen of slingers van lichtjes voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Kerst Woordzoekpuzzels Online Verkopen',
+      title: `Kerst Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met feestdagenvocabulaire trekken verkopers aan die decemberactiviteiten online plannen en ouders die educatief vermaak zoeken tijdens de kerstvakantie. Maak puzzels met kerstspecifiek vocabulaire zoals rendier, kerstbal, kerstsok, peperkoek, sneeuwvlok, maretak en schoorsteen naast bredere wintervieringstermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren voor verschillende niveaucategories. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer feestdagentermen voor oudere gebruikers. Seizoensvariaties zoals kerstmanwerkplaatswoorden en winternatuurterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Kerst Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met kerstthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke feestdagenkoperspubliek aanspreken. Maak sets waarin kinderen kerstballen koppelen aan kerstbomen, cadeaus aan kerstsokken, kerstmutsen aan elfjes, of peperkoekkoekjes aan hun versierde tegenhangers. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die gestructureerde activiteiten plannen voor kerstfeestjes online waar opgewonden kinderen gefocust moeten blijven. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      title: `Kerst Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met kerstthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke feestdagenkoperspubliek aanspreken. Maak sets waarin kinderen kerstballen koppelen aan kerstbomen, cadeaus aan kerstsokken, kerstmutsen aan elfjes, of peperkoekkoekjes aan hun versierde tegenhangers. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die gestructureerde activiteiten plannen voor kerstfeestjes online waar opgewonden kinderen gefocust moeten blijven. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Kerst Optelwerkbladen voor Rekenverkopers',
+      title: `Kerst Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met feestdagenillustraties transformeren routinematige rekenoefeningen in feestelijke activiteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens het decemberseizoen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen cadeaus onder de kerstboom optellen, peperkoekthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met zuurstokken, sneeuwvlokken en kerstballen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen. Kerst-rekenwerkbladen zijn sterk gevraagd omdat verkopers productgerichte oefeningen nodig hebben die passen bij de seizoensenergie in hun productlijnen.`,
       appId: 'addition',
     },
     {
-      title: 'Kerst Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Kerst Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn het instapproduct met het hoogste volume voor kerst printable-winkels omdat feestdagenkleuren vrijwel elk gezin met jonge kinderen aanspreekt en eerste beoordelingen genereert die de zichtbaarheid van je hele winkel verhogen tijdens het piekseizoen. De Kleuren-generator maakt gedetailleerde contouren van de Kerstman, rendieren, sneeuwpoppen, peperkoekhuizen, kerstbomen, kerstballen, elfjes, kerstsokken, kransen en kerststallen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema. Voor KDP compileer je dertig tot vijftig kleurplaten in kerst-activiteitenboeken gepositioneerd als cadeautjes. Voeg educatieve elementen toe zoals feestdagenvocabulairelabels of teloefeningen naast de kleurafbeeldingen.`,
       appId: 'coloring',
     },
@@ -96,13 +96,13 @@ Mogelijkheden na kerst verlengen het feestdagenverkoopseizoen voor strategische 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Kerst Printables Verkopen op Etsy',
+      title: `Kerst Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor kerst printable-vermeldingen, en het feestdagenwinkelen creëert de grootste verkeerspiek van het jaar voor educatieve digitale downloads. Publiceer je kerstvermeldingen tegen begin september om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de vraagstijging in oktober begint. Gebruik alle dertien tags met variaties die kerstsubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "kerst telwerkbladen kleuters," "feestdagen woordzoeker kleuterschool" en "kerstman kleurplaten peuters" richten zich op specifieke koperszoekopdrachten veel effectiever dan brede tags. Maak cadeaugerichte vermeldingsvariaties die activiteitenbundels positioneren als cadeautjes of kerstfeestpakketten. De Nederlandse markt via Etsy.nl biedt extra kansen, vooral rond Sinterklaas en de kerstperiode.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Kerst Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor kerstprintables omdat de cadeaucontext fysieke activiteitenboeken tot natuurlijke cadeautjes maakt die gezinnen kopen naast andere feestdagencadeaus in hun Amazon-winkelwagen. Compileer individuele kerstwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond feestdagenthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "kerst activiteitenboek voor kinderen," "feestdagen werkbladen kleuters" en subthematermen toe. Prijs tussen vier en acht euro voor optimale royaltymarges, wetende dat feestdagenkopers minder prijsgevoelig zijn. Publiceer tegen eind september om je boeken geïndexeerd en beschikbaar te hebben vóór de novembercadeaupiek. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
+      title: `Kerst Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor kerstprintables omdat de cadeaucontext fysieke activiteitenboeken tot natuurlijke cadeautjes maakt die gezinnen kopen naast andere feestdagencadeaus in hun Amazon-winkelwagen. Compileer individuele kerstwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond feestdagenthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "kerst activiteitenboek voor kinderen," "feestdagen werkbladen kleuters" en subthematermen toe. Prijs tussen vier en acht euro voor optimale royaltymarges, wetende dat feestdagenkopers minder prijsgevoelig zijn. Publiceer tegen eind september om je boeken geïndexeerd en beschikbaar te hebben vóór de novembercadeaupiek. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
@@ -151,62 +151,62 @@ Mogelijkheden na kerst verlengen het feestdagenverkoopseizoen voor strategische 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween printable businessideeën',
+      anchorText: `Halloween printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'winter-printable-ideas',
-      anchorText: 'Winter printable businessideeën',
+      anchorText: `Winter printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'easter-printable-ideas',
-      anchorText: 'Pasen printable businessideeën',
+      anchorText: `Pasen printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Engel — educatieve thema-afbeelding kerst', caption: 'Engel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Bel — educatieve thema-afbeelding kerst', caption: 'Bel' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Kaars — educatieve thema-afbeelding kerst', caption: 'Kaars' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Zuurstok — educatieve thema-afbeelding kerst', caption: 'Zuurstok' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Schoorsteen — educatieve thema-afbeelding kerst', caption: 'Schoorsteen' },
-    { src: '/image-library/christmas/church.webp', alt: 'Kerk — educatieve thema-afbeelding kerst', caption: 'Kerk' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Engel — educatieve thema-afbeelding kerst`, caption: 'Engel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Bel — educatieve thema-afbeelding kerst`, caption: 'Bel' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Kaars — educatieve thema-afbeelding kerst`, caption: 'Kaars' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Zuurstok — educatieve thema-afbeelding kerst`, caption: 'Zuurstok' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Schoorsteen — educatieve thema-afbeelding kerst`, caption: 'Schoorsteen' },
+    { src: `/image-library/christmas/church.webp`, alt: `Kerk — educatieve thema-afbeelding kerst`, caption: 'Kerk' },
   ],
 
   youtubeId: '0cOPi7eajLs',

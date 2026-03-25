@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles de Navidad para Vender — Guía`,
     metaDescription: `Ideas de imprimibles navideños para vender en Etsy, Amazon KDP y Gumroad. Productos festivos, estrategias estacionales y consejos por plataforma para vendedores.`,
 
-    primaryKeyword: 'ideas de imprimibles de navidad para vender',
+    primaryKeyword: `ideas de imprimibles de navidad para vender`,
     secondaryKeywords: [
       'fichas navideñas para vender',
       'negocio imprimibles navideños',
-      'fichas actividades navidad para vendedores',
-      'vender imprimibles navideños en Etsy',
+      `fichas actividades navidad para vendedores`,
+      `vender imprimibles navideños en Etsy`,
     ],
     lsiKeywords: [
-      'paquetes fichas navideñas estacionales',
-      'actividades educativas temática invernal',
-      'imprimibles festivos para venta en línea',
+      `paquetes fichas navideñas estacionales`,
+      `actividades educativas temática invernal`,
+      `imprimibles festivos para venta en línea`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ Las oportunidades posteriores a la Navidad extienden la temporada de ventas navi
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Navideñas para Vender en Línea',
+      title: `Sopas de Letras Navideñas para Vender en Línea`,
       description: `Las sopas de letras con vocabulario navideño atraen a vendedores que planifican actividades de diciembre en línea y a padres que buscan entretenimiento educativo durante las vacaciones de invierno. Crea puzzles con vocabulario específico de Navidad como reno, adorno, calcetín, galleta de jengibre, copo de nieve, muérdago y chimenea junto con términos más amplios de celebraciones invernales. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos navideños para usuarios mayores. Las variaciones estacionales como palabras del taller de Papá Noel, vocabulario de Navidad alrededor del mundo y términos de naturaleza invernal expanden tu catálogo y captan diferentes intereses de compradores dentro del nicho navideño.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ Las oportunidades posteriores a la Navidad extienden la temporada de ventas navi
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles Navideños en Etsy',
+      title: `Vender Imprimibles Navideños en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles navideños, y la temporada de compras navideñas crea el mayor pico de tráfico del año para las descargas digitales educativas. Publica tus listados navideños a principios de septiembre para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en octubre. Utiliza las trece etiquetas con variaciones que combinen subtemas navideños, tipos de habilidad y grupos de edad: «fichas conteo navidad preescolar», «sopa de letras navideña jardín de infantes» y «páginas colorear Papá Noel infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas navideñas». Crea variaciones de listados orientadas a regalos posicionando los paquetes de actividades como detalles navideños para el calcetín o paquetes para fiestas del mercado. Las imágenes de listados mostrando fichas navideñas impresas en entornos festivos con accesorios navideños superan las vistas previas digitales planas y captan la mentalidad de compra de regalos que impulsa gran parte del tráfico navideño.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades Navideñas en KDP',
+      title: `Publicar Libros de Actividades Navideñas en KDP`,
       description: `Amazon KDP destaca para los imprimibles navideños porque el contexto de compra de regalos convierte los libros físicos de actividades en detalles navideños naturales para el calcetín que las familias compran junto con otros regalos navideños en su carrito de Amazon. Compila fichas navideñas individuales en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas festivos. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades navidad para niños», «fichas navideñas preescolar» y términos de subtemas como «libro colorear Papá Noel» o «actividades galletas de jengibre para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, sabiendo que los compradores navideños son menos sensibles al precio que en otras épocas del año. Publica a finales de septiembre para asegurarte de que tus libros estén indexados y disponibles antes del pico de compras navideñas de noviembre, y considera crear múltiples libros dirigidos a diferentes grupos de edad y subtemas para captar consultas de búsqueda variadas.`,
     },
     {
@@ -150,18 +150,18 @@ Las oportunidades posteriores a la Navidad extienden la temporada de ventas navi
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -170,12 +170,12 @@ Las oportunidades posteriores a la Navidad extienden la temporada de ventas navi
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -185,18 +185,18 @@ Las oportunidades posteriores a la Navidad extienden la temporada de ventas navi
     },
     {
       pageType: 'idea',
-      slug: 'animales-bosque-ideas-imprimibles',
+      slug: `animales-bosque-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Animales del Bosque`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Ángel — imagen educativa temática', caption: 'Ángel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Campana — imagen educativa temática', caption: 'Campana' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Vela — imagen educativa temática', caption: 'Vela' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Bastón de Caramelo — imagen educativa temática', caption: 'Bastón de Caramelo' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Chimenea — imagen educativa temática', caption: 'Chimenea' },
-    { src: '/image-library/christmas/church.webp', alt: 'Iglesia — imagen educativa temática', caption: 'Iglesia' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Ángel — imagen educativa temática`, caption: 'Ángel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Campana — imagen educativa temática`, caption: 'Campana' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Vela — imagen educativa temática`, caption: 'Vela' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Bastón de Caramelo — imagen educativa temática`, caption: 'Bastón de Caramelo' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Chimenea — imagen educativa temática`, caption: 'Chimenea' },
+    { src: `/image-library/christmas/church.webp`, alt: `Iglesia — imagen educativa temática`, caption: 'Iglesia' },
   ],
 
 

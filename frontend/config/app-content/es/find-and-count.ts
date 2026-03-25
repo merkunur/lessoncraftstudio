@@ -2,15 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas busca y encuentra',
+    primaryKeyword: `generador fichas busca y encuentra`,
     secondaryKeywords: [
       `generador de fichas de objetos ocultos imprimibles para vendedores Etsy`,
       `creador de fichas yo espío para editores Amazon KDP`,
       `generador de fichas busca y cuenta con licencia comercial`,
-      'vender fichas de busca y encuentra en Gumroad',
+      `vender fichas de busca y encuentra en Gumroad`,
     ],
     lsiKeywords: [
-      'productos digitales yo espío para emprendedores',
+      `productos digitales yo espío para emprendedores`,
       `fichas de objetos ocultos imprimibles uso comercial`,
       `generador de fichas de conteo con clave de respuesta automática`,
     ],
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas Yo Espío en 5 Pasos',
+    title: `Cómo Crear Fichas Yo Espío en 5 Pasos`,
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Selecciona entre dos modos. El modo Objeto Oculto (predeterminado) crea escenas clásicas de yo espío — imágenes dispersas en una cuadrícula donde los usuarios buscan objetos específicos. El modo Identificación de Letras activa una cuadrícula de alfabeto específica por idioma con letras acentuadas y genera escenas usando imágenes que empiezan con la letra seleccionada. El encabezado cambia automáticamente entre «Yo Espío» e «Identificación de Letras» (localizado en los 11 idiomas) según tu selección.`,
       },
       {
-        title: 'Selecciona Imágenes y Asigna Tipos de Tarea',
+        title: `Selecciona Imágenes y Asigna Tipos de Tarea`,
         description:
           `En el modo Objeto Oculto, elige hasta 4 objetos objetivo de las 104 colecciones temáticas de la Biblioteca de Imágenes. Para cada imagen seleccionada, asigna un tipo de tarea del menú desplegable: rodear con un círculo, rodear con un cuadrado, tachar o contar cuántos aparecen. La cuadrícula rellena las celdas restantes con imágenes distractoras aleatorias del tema. En el modo Identificación de Letras, haz clic en una letra de la cuadrícula del alfabeto para rellenar automáticamente las imágenes objetivo y distractoras.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `La aplicación autogenera al cargar la página con el tema de animales, 4 imágenes aleatorias y tipos de tarea aleatorios. Haz clic en Generar para reconstruir con tus ajustes personalizados. La escena de imágenes dispersas llena la cuadrícula con objetos objetivo distribuidos aleatoriamente (1–5 instancias cada uno) entre imágenes distractoras. Un encabezado estilizado aparece en la parte superior con un borde azul (#2196F3), acento interior amarillo, y título e instrucciones localizados en las fuentes Fredoka y Quicksand.`,
       },
       {
-        title: 'Genera la Clave de Respuesta y Descarga',
+        title: `Genera la Clave de Respuesta y Descarga`,
         description:
           `Cambia a la pestaña Clave de Respuesta para ver las anotaciones autogeneradas: círculos rojos alrededor de objetos para rodear, cuadrados rojos alrededor de objetos para encuadrar, cruces rojas sobre objetos tachados y conteos de cantidad para objetos contados. Descarga ambas versiones usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF a 300 DPI. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas Yo Espío en Línea',
+    title: `Cómo Vender Fichas Yo Espío en Línea`,
     cases: [
       {
-        title: 'Packs de Actividades Yo Espío Temáticos en Etsy',
+        title: `Packs de Actividades Yo Espío Temáticos en Etsy`,
         description:
           `Crea packs de fichas yo espío temáticos usando las 104 colecciones de imágenes — yo espío de animales, yo espío de festividades, yo espío de comida, yo espío de vehículos y docenas más. Combina los cuatro tipos de tarea dentro de cada pack para variedad: fichas de rodear para práctica de motricidad fina, fichas de contar para habilidades numéricas, fichas de tachar para discriminación visual y fichas de cuadrado para seguir instrucciones. Empaqueta 10–20 fichas yo espío por tema con claves de respuesta incluidas y vende a $3–$7 por pack. La clave de respuesta autogenerada elimina la mayor pérdida de tiempo en la producción de fichas yo espío.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de Actividades Yo Espío en Amazon KDP',
+        title: `Cuadernos de Actividades Yo Espío en Amazon KDP`,
         description:
           `Compila 40–80 fichas yo espío en un cuaderno impreso formateado para Amazon KDP. Estructura tu libro por dificultad progresiva: los primeros capítulos usan cuadrículas de 5×5 con 2 objetos objetivo, los capítulos intermedios aumentan a cuadrículas de 7×7 con 3 objetivos, y los capítulos avanzados usan cuadrículas de 10×10 con los 4 objetivos y tipos de tarea combinados. Incluye claves de respuesta al final del libro usando la función de clave de respuesta autogenerada. La escala de grises produce páginas que ahorran tinta, listas para interiores de libros en blanco y negro.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Actividades de Observación y Conteo para venta en línea en Gumroad`,
         description:
           `Crea fichas yo espío de conteo listas para usar donde los usuarios buscan, encuentran y cuentan objetos en una escena de imágenes dispersas. Los vendedores que buscan actividades de conteo en Gumroad valoran fichas que combinan búsqueda visual con práctica de aritmética. La tarea de contar pide a los usuarios escribir cuántas instancias de cada objeto encuentran — una extensión natural de yo espío hacia habilidades matemáticas. Crea conjuntos alineados con el catálogo de productos: conteo de animales de granja, conteo de ayudantes comunitarios, conteo de criaturas marinas y conteo de objetos estacionales. Cada conjunto incluye fichas del usuario y claves de respuesta en formatos PDF y JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Packs de Identificación de Letras y Fonética para Conciencia Alfabética`,
         description:
           `Aprovecha el modo Identificación de Letras para crear fichas yo espío enfocadas en el reconocimiento de la letra inicial. Cada ficha se centra en una letra específica — los usuarios encuentran todos los objetos que empiezan con esa letra en una escena de imágenes dispersas. Crea un pack completo de Identificación de Letras A–Z con 26 fichas (una por letra) y claves de respuesta. Los alfabetos específicos por idioma con letras acentuadas te permiten crear packs de fonética para el mercado alemán (ÄÖÜ), español (Ñ) y nórdico (ÅÄÖ/ÆØÅ) que los competidores con herramientas solo en inglés no pueden igualar.`,
-        platform: 'Etsy / Gumroad (mercado de lectoescritura)',
+        platform: `Etsy / Gumroad (mercado de lectoescritura)`,
       },
       {
         title: `Colecciones Yo Espío Multilingües para Mercados Globales`,
         description:
           `Aprovecha las etiquetas de nombres de imágenes sensibles al idioma para crear fichas yo espío en 11 idiomas. Las mismas imágenes producen etiquetas diferentes al cambiar de idioma — los nombres de imágenes, las primeras letras en Identificación de Letras y el texto del encabezado se actualizan automáticamente. Crea packs yo espío multilingües donde cada versión de idioma usa las mismas imágenes temáticas pero con etiquetas localizadas. Esto es valioso para vendedores de ESL/EFL, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.`,
-        platform: 'Etsy / Gumroad (mercado multilingüe)',
+        platform: `Etsy / Gumroad (mercado multilingüe)`,
       },
     ],
   },
@@ -166,7 +166,7 @@ const content: AppContent = {
         `En el panel de Configuración de Página, configura filas de 5 a 10 y columnas de 5 a 10. El valor predeterminado es 6×6 (36 celdas). Una cuadrícula más pequeña como 5×5 (25 celdas) crea fichas más fáciles con imágenes más grandes — ideal para usuarios más pequeños. Una cuadrícula más grande como 10×10 (100 celdas) crea escenas densas y desafiantes para usuarios avanzados. Cada celda muestra una imagen a un tamaño máximo de 80px. Los objetos objetivo aparecen 1–5 veces cada uno, con las celdas restantes rellenadas con imágenes distractoras aleatorias del tema.`,
     },
     {
-      question: '¿Por qué hay un límite de 4 objetos por ficha?',
+      question: `¿Por qué hay un límite de 4 objetos por ficha?`,
       answer:
         `El generador impone un máximo de 4 objetos objetivo por ficha para mantener actividades yo espío claras y enfocadas. Con 4 objetos y 4 tipos de tarea diferentes, una sola ficha puede contener 4 tareas distintas de buscar y hacer — suficiente variedad para desafiar a los usuarios sin abrumarlos. El panel de Preguntas de Objeto Oculto muestra un contador de selección y proporciona un botón Limpiar Selección para reiniciar tus opciones. Este límite asegura que cada ficha permanezca visualmente escaneable y pedagógicamente efectiva.`,
     },
@@ -176,7 +176,7 @@ const content: AppContent = {
         `El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuesta. La ficha muestra la escena de imágenes dispersas sin marcas — los usuarios buscan y completan las tareas ellos mismos. La clave de respuesta reproduce el diseño idéntico y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Ambas versiones se exportan por separado usando cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF.`,
     },
     {
-      question: '¿La ficha se autogenera al cargar la página?',
+      question: `¿La ficha se autogenera al cargar la página?`,
       answer:
         `Sí. La aplicación genera automáticamente una ficha yo espío completa cuando la abres — usando el tema de animales, 4 imágenes seleccionadas aleatoriamente y tipos de tarea asignados aleatoriamente en una cuadrícula de 6×6. Esto te da una vista previa instantánea de lo que produce la herramienta. Desde ahí, puedes personalizar el tema, las dimensiones de la cuadrícula, los objetos objetivo, los tipos de tarea y el modo de actividad, luego hacer clic en Generar para reconstruir con tus ajustes.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de yo espío y busca y cuenta como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos yo espío originales y vendibles.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Dado que la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencia comercial. Puedes probar ambos modos de actividad, los cuatro tipos de tarea, el modo Identificación de Letras, las dimensiones de cuadrícula configurables, la clave de respuesta autogenerada, la biblioteca de imágenes completa, los temas de fondo y borde, y todos los formatos de descarga antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se ajuste a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'buscar-objetos-fichas',
-      anchorText: 'Generador de Fichas de Buscar Objetos',
+      anchorText: `Generador de Fichas de Buscar Objetos`,
     },
     {
       pageType: 'app',
       slug: 'crucigramas-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Crucigramas con Imágenes',
+      anchorText: `Generador de Fichas de Crucigramas con Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'busqueda-tesoro-fichas',
-      anchorText: 'Generador de Fichas de Búsqueda del Tesoro',
+      anchorText: `Generador de Fichas de Búsqueda del Tesoro`,
     },
     {
       pageType: 'app',
       slug: 'graficos-conteo-fichas',
-      anchorText: 'Generador de Fichas de Gráficos de Conteo',
+      anchorText: `Generador de Fichas de Gráficos de Conteo`,
     },
     {
       pageType: 'app',
       slug: 'laberintos-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Laberintos con Imágenes',
+      anchorText: `Generador de Fichas de Laberintos con Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'sopa-letras-fichas',
-      anchorText: 'Generador de Fichas de Sopa de Letras',
+      anchorText: `Generador de Fichas de Sopa de Letras`,
     },
     {
       pageType: 'bundle',
@@ -241,17 +241,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de camping y aire libre',
+      anchorText: `Ideas de imprimibles de camping y aire libre`,
     },
     {
       pageType: 'idea',
-      slug: 'animales-marinos-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de animales marinos',
+      slug: `animales-marinos-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles de animales marinos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimibles',
-      anchorText: 'Marketing para tu negocio de imprimibles',
+      anchorText: `Marketing para tu negocio de imprimibles`,
     },
     {
       pageType: 'guide',
@@ -262,17 +262,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/find and count/Veo Veo 1.webp',
+      primary: `/samples/spanish/find and count/Veo Veo 1.webp`,
       primaryAlt: `Ficha yo espío busca y encuentra con imágenes dispersas en una cuadrícula, borde de encabezado azul e instrucciones de cuatro tipos de tarea`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/find and count/Veo Veo 1.webp',
+        src: `/samples/spanish/find and count/Veo Veo 1.webp`,
         alt: `Ficha yo espío de objeto oculto en modo retrato con imágenes de animales dispersas e instrucciones de tarea`,
         caption: `Modo Objeto Oculto — yo espío clásico con tareas de rodear, cuadrado, tachar y contar`,
       },
       {
-        src: '/samples/spanish/find and count/Veo Veo 2.webp',
+        src: `/samples/spanish/find and count/Veo Veo 2.webp`,
         alt: `Ficha busca y cuenta yo espío en modo paisaje con diseño de cuadrícula más ancho`,
         caption: `Modo paisaje — cuadrícula más ancha para más columnas y densidad visual variada`,
       },

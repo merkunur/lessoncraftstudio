@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insecten Printables Verkopen — Nichegids',
+    titleTag: `Insecten Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende insecten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Vlinder- en beestjesproductconcepten en platformtips voor verkopers.`,
 
     primaryKeyword: 'insecten printable ideeën',
     secondaryKeywords: [
-      'insectenthema werkbladen verkopen',
-      'beestjes printable business ideeën',
-      'insect activiteiten voor verkopers',
-      'insecten printables verkopen op Etsy',
+      `insectenthema werkbladen verkopen`,
+      `beestjes printable business ideeën`,
+      `insect activiteiten voor verkopers`,
+      `insecten printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'entomologie activiteiten voor kinderen',
-      'beestjesthema educatieve werkbladen',
-      'kriebelbeestjes printbare producten printables',
+      `entomologie activiteiten voor kinderen`,
+      `beestjesthema educatieve werkbladen`,
+      `kriebelbeestjes printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Insecten Printable Businessideeën voor Verkopers',
+    title: `Insecten Printable Businessideeën voor Verkopers`,
     description: `Insecten bieden printable-verkopers een van de meest universeel fascinerende dierthema's met diepe banden met wetenschapsonderwijs en seizoensgebonden vraagpatronen. Kinderen zijn van nature gefascineerd door vlinders, lieveheersbeestjes, mieren en bijen, waardoor alledaagse achtertuinontmoetingen veranderen in leermogelijkheden die ouders en verkopers graag ondersteunen met werkbladaankopen. De insectenniche profiteert van sterke aansluiting bij productcatalogusstandaarden voor de basisschool rond levenscycli, habitats, metamorfose en ecosystemen. Met meer dan een miljoen bekende soorten zijn de creatieve mogelijkheden voor productgetrapte productpakketten vrijwel onbeperkt. Lente en zomer stimuleren de piekvraag wanneer productlijnen vlinders bestuderen, tuinen gonzen van activiteit en gezinnen samen de natuur verkennen. Voor verkopers op Etsy, Amazon KDP en Gumroad vertegenwoordigen insectenthema printables een niche waar productcatalogusrelevantie samenkomt met kinderlijke nieuwsgierigheid om betrouwbaar jaarrond verkooppotentieel te creëren. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De niche van insecten printables bevindt zich op het kruispunt van wetenschapsonderwijs en kinderlijke fascinatie, waardoor vraag ontstaat vanuit ouders, verkopers en thuisonderwijzers die allemaal de educatieve waarde herkennen van leermateriaal met beestjesthema. Kinderen komen dagelijks insecten tegen in hun tuinen, parken en achtertuinen, waardoor deze wezens direct herkenbaar en eindeloos interessant zijn voor jonge gebruikers. Ouders zoeken insectenwerkbladen om deze natuurlijke nieuwsgierigheid te kanaliseren in gestructureerde leeractiviteiten, terwijl verkopers printbare producten nodig hebben voor entomologieunits, levenscyclusstudies en habitatverkenningen die voorkomen in het hele productcatalogus voor jonge kinderen en de basisschool.
@@ -42,27 +42,27 @@ Aansluiting bij het wetenschapsonderwijs geeft insecten printables bijzondere wa
 
   productIdeas: [
     {
-      title: 'Insecten Telwerkbladen voor Printable Verkopers',
+      title: `Insecten Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met vlinders, mieren, bijen en lieveheersbeestjes spelen in op de natuurlijke fascinatie van kinderen voor insecten terwijl ze fundamentele rekenvaardigheden opbouwen. Maak sets gericht op verschillende vaardigheidsniveaus: beestjes tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met groepen insecten voor kinderen in groep 3. Gebruik de Zoek en Tel-generator om visueel rijke tuinscènes te produceren waarin kinderen specifieke insectensoorten lokaliseren en tellen tussen bloemen, bladeren en gras. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid insecten-telpakket voor verkopers die werken met productlijnen met gemengde vaardigheidsniveaus. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Beestjes Woordzoekpuzzels Online Verkopen',
+      title: `Beestjes Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met insectenvocabulaire trekken ouders en verkopers aan die taalvaardigheden willen opbouwen rond entomologie- en natuurthema's. Maak puzzels met veelvoorkomende beestjesnamen, vocabulaire over insectenlichaamsdelen, habitatterminologie en metamorfosewoorden zoals pop en cocon. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen, waardoor het eenvoudig is om leeftijdsgeschikte versies te produceren voor verschillende niveaucategories. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer woorden voor oudere gebruikers. Seizoensvariaties zoals lente-bestuiver-woordzoekers, zomerse tuinbeestjespuzzels en algemene entomologievocabulaire rasters verlengen je productcatalogus gedurende het hele jaar.`,
       appId: 'wordsearch',
     },
     {
       title: `Insecten Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met insectenthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor printable-verkopers. Maak sets waarin kinderen insecten koppelen aan hun habitats, beestjes aan het voedsel dat ze eten, rupsen aan hun vlindervormen, of insecten aan hun levenscyclusstadia. De Koppelen-generator produceert schone, professionele lay-outs die goed printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die thematisch leermateriaal waarderen dat aansluit bij het wetenschapsproductcatalogus. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer je zowel kleur- als grijstintenversies opneemt voor flexibel printen online.`,
+      description: `Koppelwerkbladen met insectenthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor printable-verkopers. Maak sets waarin kinderen insecten koppelen aan hun habitats, beestjes aan het voedsel dat ze eten, rupsen aan hun vlindervormen, of insecten aan hun levenscyclusstadia. De Koppelen-generator produceert schone, professionele lay-outs die goed printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die thematisch leermateriaal waarderen dat aansluit bij het wetenschapsproductcatalogus. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer je zowel kleur- als grijstintenversies opneemt voor flexibel printen online.`,
       appId: 'matching',
     },
     {
-      title: 'Beestjesthema Optelwerkbladen voor Rekenverkopers',
+      title: `Beestjesthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen geïllustreerd met insectenbeelden transformeren routinematige rekenoefeningen in boeiende activiteiten die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen vlinders op bloemen optellen, mierenthema verhaalopgaven oplossen of rekenopgaven met lieveheersbeestjesillustraties invullen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen. Rekenwerkbladen met insectenthema brengen een lichte meerprijs op ten opzichte van generieke alternatieven omdat kopers een hogere betrokkenheidswaarde waarnemen wanneer het onderwerp aansluit bij wetenschaps- en natuuronderwerpen die hun gebruikers al verkennen in klasunits.`,
       appId: 'addition',
     },
     {
-      title: 'Insecten Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Insecten Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een ideaal instapproduct voor printable-winkels met insectenthema omdat ze eerste beoordelingen genereren en impulsaankopen aantrekken van een breed publiek. De Kleuren-generator maakt gedetailleerde contouren van vlinders, lieveheersbeestjes, libellen, kevers, rupsen, bijen, sprinkhanen en andere visueel opvallende soorten. Voor Etsy verkoop je individuele pagina's of samengestelde sets van tien tot vijftien insecten gegroepeerd per thema zoals tuinbestuivers of regenwoudbeestjes. Voor KDP compileer je dertig tot vijftig kleurplaten in activiteitenboeken. Voeg educatieve elementen toe zoals soortnamen, leuke weetjes over elk insect of habitatlabels naast de kleurafbeeldingen om je te onderscheiden van puur decoratieve opties en een hoger prijspunt te ondersteunen.`,
       appId: 'coloring',
     },
@@ -73,7 +73,7 @@ Aansluiting bij het wetenschapsonderwijs geeft insecten printables bijzondere wa
     },
     {
       title: `Insecten Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en insecten zijn bijzonder geschikt voor dit activiteitstype omdat hun onderscheidende silhouetten herkenbaar en gevarieerd zijn. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen insecten koppelen aan hun silhouetten. Vlinders, libellen, kevers, mieren en sprinkhanen hebben elk dramatisch verschillende contouren die boeiende puzzels maken. Varieer de moeilijkheidsgraad door insecten met vergelijkbare vormen op te nemen in gevorderde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en insecten zijn bijzonder geschikt voor dit activiteitstype omdat hun onderscheidende silhouetten herkenbaar en gevarieerd zijn. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen insecten koppelen aan hun silhouetten. Vlinders, libellen, kevers, mieren en sprinkhanen hebben elk dramatisch verschillende contouren die boeiende puzzels maken. Varieer de moeilijkheidsgraad door insecten met vergelijkbare vormen op te nemen in gevorderde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -96,12 +96,12 @@ Aansluiting bij het wetenschapsonderwijs geeft insecten printables bijzondere wa
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Insecten Printables Verkopen op Etsy',
+      title: `Insecten Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in insecten printable-vermeldingen. In plaats van brede titels zoals "Beestjes Werkbladen" richt je je op long-tail zoekwoorden zoals "vlinder telwerkbladen kleuters" of "insecten woordzoeker printable kleuterschool." Gebruik alle dertien tags met variaties die insectensoorten, vaardigheidstype en leeftijdsgroep combineren. Vermeldingsafbeeldingen die geprinte insectenwerkbladen tonen in natuur- of merkthema settings presteren aanzienlijk beter dan platte digitale voorbeelden. Plan nieuwe vermeldingen om samen te vallen met seizoensgebonden vraagpieken van maart tot mei voor lentevlinder- en bestuiverunits en juni tot augustus voor zomerse natuurverkenningsthema's. Bied zowel individuele insectenwerkbladen als soortthemabundels aan. De Nederlandse markt via Etsy.nl biedt extra kansen door het beperkte Nederlandstalige insectenwerkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Insecten Activiteitenboeken Publiceren op KDP',
+      title: `Insecten Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP werkt het beste voor printables met insectenthema wanneer je individuele werkbladen compileert tot samenhangende activiteitenboeken die variatie en waarde bieden. Een activiteitenboek met insecten van veertig tot zestig pagina's dat tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten combineert, presteert goed in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch: voeg "insecten activiteitenboek voor kinderen," "beestjes werkbladen kleuters" en soortspecifieke termen toe zoals "vlinder kleurboek" of "lieveheersbeestje activiteiten." Prijs tussen vier en zeven euro voor optimale royaltymarges. Overweeg soortgerichte miniboeken te maken naast algemene insectenactiviteitenboeken om kopers vast te leggen die zoeken naar specifieke beestjes. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
@@ -151,62 +151,62 @@ Aansluiting bij het wetenschapsonderwijs geeft insecten printables bijzondere wa
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'Professionele koppelwerkbladen maken',
+      anchorText: `Professionele koppelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'birds-printable-ideas',
-      anchorText: 'Vogels printable businessideeën',
+      anchorText: `Vogels printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
-      anchorText: 'Bosdieren printable businessideeën',
+      slug: `forest-animals-printable-ideas`,
+      anchorText: `Bosdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'spring-printable-ideas',
-      anchorText: 'Lente printable businessideeën',
+      anchorText: `Lente printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Mier — educatieve thema-afbeelding insecten', caption: 'Mier' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Bij — educatieve thema-afbeelding insecten', caption: 'Bij' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Vlinder — educatieve thema-afbeelding insecten', caption: 'Vlinder' },
-    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Rups — educatieve thema-afbeelding insecten', caption: 'Rups' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Duizendpoot — educatieve thema-afbeelding insecten', caption: 'Duizendpoot' },
-    { src: '/image-library/insects%20and%20bugs/cricket.webp', alt: 'Krekel — educatieve thema-afbeelding insecten', caption: 'Krekel' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Mier — educatieve thema-afbeelding insecten`, caption: 'Mier' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: `Bij — educatieve thema-afbeelding insecten`, caption: 'Bij' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Vlinder — educatieve thema-afbeelding insecten`, caption: 'Vlinder' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: `Rups — educatieve thema-afbeelding insecten`, caption: 'Rups' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Duizendpoot — educatieve thema-afbeelding insecten`, caption: 'Duizendpoot' },
+    { src: `/image-library/insects%20and%20bugs/cricket.webp`, alt: `Krekel — educatieve thema-afbeelding insecten`, caption: 'Krekel' },
   ],
 
   youtubeId: '0cOPi7eajLs',

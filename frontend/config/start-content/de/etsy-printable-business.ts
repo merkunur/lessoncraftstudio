@@ -2,27 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen auf Etsy verkaufen',
+    primaryKeyword: `Druckvorlagen auf Etsy verkaufen`,
     secondaryKeywords: [
       'Etsy Druckvorlagen-Geschäft',
-      'Etsy-Shop für druckbare Arbeitsblätter',
-      'Arbeitsblätter auf Etsy verkaufen Anleitung',
-      'Etsy digitale Downloads Geschäft',
+      `Etsy-Shop für druckbare Arbeitsblätter`,
+      `Arbeitsblätter auf Etsy verkaufen Anleitung`,
+      `Etsy digitale Downloads Geschäft`,
     ],
     lsiKeywords: [
-      'Etsy-SEO für Druckvorlagen-Verkäufer',
-      'Etsy-Listing-Optimierung Arbeitsblätter',
-      'Etsy-Shop-Einrichtung digitale Produkte',
-      'Etsy-Tags für druckbare Arbeitsblätter',
-      'Arbeitsblatt-Generator für Etsy-Verkäufer',
-      'Etsy Druckvorlagen-Preisstrategie',
+      `Etsy-SEO für Druckvorlagen-Verkäufer`,
+      `Etsy-Listing-Optimierung Arbeitsblätter`,
+      `Etsy-Shop-Einrichtung digitale Produkte`,
+      `Etsy-Tags für druckbare Arbeitsblätter`,
+      `Arbeitsblatt-Generator für Etsy-Verkäufer`,
+      `Etsy Druckvorlagen-Preisstrategie`,
     ],
     titleTag: `Druckvorlagen auf Etsy verkaufen — Geschäfts-Masterclass`,
     metaDescription: `Druckvorlagen auf Etsy verkaufen Schritt für Schritt. Shop-Einrichtung, Etsy-SEO, Listing-Optimierung und Skalierung mit Arbeitsblatt-Generatoren für.`,
   },
 
   hero: {
-    title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+    title: `Etsy Druckvorlagen-Geschäft Masterclass`,
     tagline: `Der plattformspezifische Leitfaden zum Aufbau eines profitablen Druckvorlagen-Arbeitsblatt-Shops auf Etsy`,
     description: `Etsy ist der größte Marktplatz für druckbare digitale Downloads. Diese Masterclass deckt alles ab, was Sie brauchen, um einen profitablen Druckvorlagen-Arbeitsblatt-Shop auf der Plattform aufzubauen — von der Shop-Einrichtung und Etsy-spezifischem SEO bis zu Listing-Optimierung, Preisstrategie, Werbung und Skalierung über Ihre ersten 50 Produkte hinaus. Jede Strategie in diesem Leitfaden ist speziell auf die Funktionsweise von Etsy zugeschnitten, nicht allgemeine Ratschläge für beliebige Marktplätze.`,
   },
@@ -63,7 +63,7 @@ const content: StartContent = {
       content: `Etsy Ads ist das eingebaute Werbesystem der Plattform. Es platziert Ihre Listings an der Spitze relevanter Suchergebnisse gegen eine Gebühr pro Klick. Zu verstehen, wann und wie Sie Etsy Ads einsetzen, unterscheidet profitable Verkäufer von denen, die Geld für ineffektive Kampagnen verschwenden.\n\nBeginnen Sie mit einem kleinen Tagesbudget — $1 bis $5 pro Tag. Etsy Ads verwendet ein Cost-per-Click-Modell, bei dem Sie nur bezahlen, wenn jemand auf Ihre Anzeige klickt. Die Klickkosten variieren je nach Wettbewerbsniveau in Ihrer Nische, typischerweise zwischen $0,10 und $0,50 pro Klick für druckbare Arbeitsblätter.\n\nDie Schlüsselkennzahl ist die Rendite auf Werbeausgaben (ROAS). Wenn Sie $5 für Werbung ausgeben und $20 Umsatz generieren, beträgt Ihr ROAS 4:1 — ausgezeichnet. Wenn Sie $5 ausgeben und $3 generieren, verlieren Ihre Anzeigen Geld. Überprüfen Sie Ihr Etsy-Ads-Dashboard wöchentlich und deaktivieren Sie Anzeigen für Listings, die nicht profitabel konvertieren.\n\nBewerben Sie nicht jedes Listing. Konzentrieren Sie Etsy Ads auf Ihre am besten konvertierenden Produkte — die Listings mit den höchsten Klick- und Konversionsraten. Werbung für ein Listing, das bereits gut konvertiert, verstärkt seinen Erfolg. Werbung für ein Listing mit schlechter Konversion verschwendet Budget für Klicks, die nicht zu Verkäufen führen.\n\nÜber Etsy Ads hinaus nutzen Sie Etsys eingebaute Promotion-Werkzeuge. Rabatte und Gutscheine können frühere Besucher erneut ansprechen. Etsy zeigt ein „Sale"-Abzeichen auf reduzierten Listings, was die Klickrate in den Suchergebnissen erhöht. Veranstalten Sie gelegentlich 15–20 % Rabattaktionen während Hochsaisonzeiten wie Schulbeginn und Weihnachten.\n\nSoziale Medien bringen externen Traffic zu Ihrem Etsy-Shop. Pinterest ist besonders effektiv für druckbare Arbeitsblätter — erstellen Sie Pins, die Ihre Arbeitsblatt-Designs zeigen, und verlinken Sie direkt zu Ihren Etsy-Listings. Instagram funktioniert zum Aufbau einer Fangemeinde rund um Ihre Marke. Konzentrieren Sie sich auf ein oder zwei soziale Kanäle, anstatt sich auf alle zu verteilen.`,
     },
     {
-      heading: 'Kundenbewertungen und Service auf Etsy verwalten',
+      heading: `Kundenbewertungen und Service auf Etsy verwalten`,
       content: `Bewertungen sind Währung auf Etsy. Sie beeinflussen direkt Ihren Listing-Qualitätswert, Ihr Suchranking und das Käufervertrauen. Ein Shop mit Dutzenden Fünf-Sterne-Bewertungen konvertiert deutlich besser als ein Shop ohne Bewertungen oder mit gemischtem Feedback.\n\nDer beste Weg, positive Bewertungen zu verdienen, ist Produkte zu liefern, die Erwartungen übertreffen. Professionelle Arbeitsblatt-Qualität, genaue Beschreibungen, saubere Dateiformatierung und beigefügte Extras wie Lösungsschlüssel tragen alle zur Käuferzufriedenheit bei. Wenn Käufer das Gefühl haben, mehr Wert erhalten zu haben als sie bezahlt haben, folgen Bewertungen natürlich.\n\nAntworten Sie auf jede Bewertung, ob positiv oder negativ. Danken Sie positiven Bewertern kurz. Bei negativen Bewertungen antworten Sie professionell und bieten eine Lösung an — eine korrigierte Datei, eine Erstattung oder ein anderes Produkt. Ihre Antwort ist für alle zukünftigen Käufer sichtbar, und eine professionelle, lösungsorientierte Antwort auf eine negative Bewertung baut oft mehr Vertrauen auf als die Bewertung selbst schadet.\n\nBehandeln Sie Erstattungsanfragen prompt und großzügig. Etsys Richtlinie für digitale Downloads erlaubt Verkäufern, ihre eigenen Erstattungsbedingungen festzulegen, aber die Plattform bevorzugt stark die Käuferzufriedenheit. Eine Erstattung für ein $4,99-Produkt kostet Sie $4,99; eine negative Bewertung kann Sie Dutzende zukünftiger Verkäufe kosten. Wenn die Erstattungsanfrage berechtigt ist, bearbeiten Sie sie schnell.\n\nVerhindern Sie negative Bewertungen proaktiv. Fügen Sie einen „So verwenden Sie es"-Abschnitt in Ihre Listing-Beschreibung und in die heruntergeladene Datei selbst ein. Geben Sie klar an, welche Dateiformate enthalten sind, welche Druckereinstellungen am besten funktionieren und wie man Sie bei Problemen kontaktieren kann. Die meisten negativen Bewertungen für Druckvorlagen-Produkte entstehen durch Käufer-Verwirrung, nicht durch Produktqualität.\n\nNachdem Sie 10+ Bewertungen gesammelt haben, tritt Ihr Shop in einen sich selbst verstärkenden Kreislauf ein. Mehr Bewertungen bedeuten höhere Rankings, die mehr Verkäufe bedeuten, die mehr Bewertungen bedeuten. Die ersten 10 Bewertungen zu erreichen ist der schwierigste Teil — erwägen Sie, Ihre anfänglichen Produkte wettbewerbsfähig zu bepreisen, um das frühe Verkaufsvolumen zu maximieren.`,
     },
     {
@@ -74,7 +74,7 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Ihre Etsy-Nische recherchieren',
+      step: `Ihre Etsy-Nische recherchieren`,
       description: `Suchen Sie auf Etsy nach Ihrer Ziel-Arbeitsblatt-Kategorie. Studieren Sie die Top-10-Ergebnisse: Notieren Sie deren Preise, Seitenanzahlen, Vorschaubild-Stile und Bewertungsanzahlen. Identifizieren Sie Lücken, in denen Sie etwas anbieten können, das die aktuellen Top-Verkäufer nicht haben.`,
     },
     {
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Nutzen Sie die kostenlose Testversion mit Wasserzeichen von 2–3 Arbeitsblatt-Generatoren, um Musterprodukte in Ihrer gewählten Nische zu erstellen. Bewerten Sie die Ausgabequalität und testen Sie verschiedene Themen, Schwierigkeitsstufen und Seitenkonfigurationen.`,
     },
     {
-      step: 'Ihr Etsy-Verkäuferkonto einrichten',
+      step: `Ihr Etsy-Verkäuferkonto einrichten`,
       description: `Erstellen Sie Ihren Etsy-Shop mit einem nischenrelevanten Namen. Vervollständigen Sie Ihre Shop-Beschreibung, Richtlinien, Zahlungseinrichtung und laden Sie ein professionelles Banner mit Muster-Arbeitsblättern hoch.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Schreiben Sie einen keyword-reichen Titel mit den wichtigsten Suchbegriffen am Anfang. Füllen Sie alle 13 Tags mit einzigartigen Keyword-Phrasen. Erstellen Sie ein sauberes Vorschaubild-Mockup, das das tatsächliche Produkt zeigt. Schreiben Sie eine strukturierte Beschreibung.`,
     },
     {
-      step: '10 Produkte in Ihrer ersten Woche listen',
+      step: `10 Produkte in Ihrer ersten Woche listen`,
       description: `Erstellen Sie sowohl einzelne Listings als auch Pakete aus Ihrer anfänglichen Arbeitsblatt-Ausgabe. Listen Sie dieselben Arbeitsblätter in verschiedenen Gruppierungen, um die Suchsichtbarkeit zu maximieren und Etsys Neues-Listing-Boost zu nutzen.`,
     },
     {
-      step: 'Etsy Ads für Ihr bestes Listing einrichten',
+      step: `Etsy Ads für Ihr bestes Listing einrichten`,
       description: `Starten Sie mit einem $1–$2 Tagesbudget für Ihr qualitativ hochwertigstes Listing. Überwachen Sie Klickrate und Konversionsrate eine Woche lang. Pausieren Sie die Anzeigen, wenn der ROAS unter 2:1 liegt.`,
     },
     {
-      step: 'Einen wöchentlichen Listing-Plan aufstellen',
+      step: `Einen wöchentlichen Listing-Plan aufstellen`,
       description: `Verpflichten Sie sich, 2–3 neue Listings pro Woche hinzuzufügen. Nutzen Sie Arbeitsblatt-Generatoren, um Produkte effizient zu erstellen — eine Generator-Sitzung kann genug Ausgabe für eine volle Woche neuer Listings produzieren.`,
     },
     {
-      step: 'Analysen nach 30 Tagen überprüfen',
+      step: `Analysen nach 30 Tagen überprüfen`,
       description: `Überprüfen Sie Ihr Etsy-Statistik-Dashboard auf Aufrufe, Favoriten und Verkäufe pro Listing. Identifizieren Sie Ihre Top-Performer und erstellen Sie mehr Produkte in diesen Kategorien. Optimieren Sie schwach performende Listings mit besseren Vorschaubildern und Keywords.`,
     },
     {
-      step: 'Ihre erste saisonale Kollektion planen',
+      step: `Ihre erste saisonale Kollektion planen`,
       description: `Identifizieren Sie die nächste saisonale Gelegenheit (Schulbeginn, Halloween, Weihnachten) und erstellen Sie eine thematische Arbeitsblatt-Kollektion mindestens 4–6 Wochen vor der Spitzennachfrage. Saisonale Produkte erzeugen bedeutende Umsatzspitzen auf Etsy.`,
     },
   ],
@@ -128,7 +128,7 @@ const content: StartContent = {
     },
     {
       appId: 'addition-worksheets',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Mathe-Arbeitsblätter sind zeitlose Etsy-Verkaufsschlager mit ganzjähriger Nachfrage. Erstellen Sie bildbasierte Additionsaufgaben mit konfigurierbaren Schwierigkeitsstufen, thematischen Bildersets und vier verschiedenen Aufgabenmodi.`,
     },
     {
@@ -138,7 +138,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Rein visuelle Arbeitsblätter, die sich an internationale Etsy-Käufer ohne jede Sprachbarriere verkaufen. Zuordnungsaktivitäten sind schnell in großen Mengen zu produzieren und sprechen den Vorschul- und Kindergartenmarkt an.`,
     },
     {
@@ -185,48 +185,48 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der umfassende Grundlagenleitfaden, der Nischenwahl, Produkterstellung, Plattformvergleich, Preisstrategie und Katalogaufbau für alle Druckvorlagen-Marktplätze abdeckt.`,
     },
     {
-      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
+      slug: `arbeitsblaetter-erstellen-die-verkaufen`,
       title: `Professionelle Arbeitsblätter erstellen, die sich verkaufen`,
       description: `Tiefgehender Einblick in Produktqualität: Design-Standards, Differenzierungstechniken und die spezifischen Methoden, die Käufer dazu bringen, Ihre Arbeitsblätter gegenüber Mitbewerbern zu bevorzugen.`,
     },
     {
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      title: 'Amazon KDP Aktivitätsbuch-Leitfaden',
+      title: `Amazon KDP Aktivitätsbuch-Leitfaden`,
       description: `Expandieren Sie über Etsy hinaus mit Aktivitätsbüchern auf Amazon KDP. Abdeckung von Formatierungsanforderungen, Cover-Design, Keyword-Recherche und Kategorieauswahl für den Amazon-Marktplatz.`,
     },
     {
-      slug: 'druckvorlagen-geschaeft-bauplan',
-      title: 'Der Druckvorlagen-Geschäfts-Bauplan',
+      slug: `druckvorlagen-geschaeft-bauplan`,
+      title: `Der Druckvorlagen-Geschäfts-Bauplan`,
       description: `Der strukturierte Geschäftsplanungsleitfaden für Druckvorlagen-Verkäufer. Abdeckung von Umsatzmodellierung, Katalogplanung, Plattformdiversifikation und Wachstumsmeilensteinen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Der Druckvorlagen-Geschäfts-Bauplan' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Leitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Der Druckvorlagen-Geschäfts-Bauplan` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Leitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz — Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-einkommen', anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
-    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Malvorlagen-Generator — Alle Details' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller ausprobieren' },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-einkommen`, anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
+    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: `Malvorlagen-Generator — Alle Details` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: `Malvorlagen-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: `Suchen-und-Zählen-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlagen-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator für Etsy-Verkäufer` },
+    heroImage: { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlagen-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator für Etsy-Verkäufer` },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlagen-Arbeitsblatt für Etsy-Druckvorlagen-Shop`, caption: 'Malvorlage — Etsy Top-Kategorie' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Druckvorlagen-Arbeitsblatt für Etsy-Listing`, caption: 'Wortsuche — Hohes Suchvolumen' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt mit bildbasierten Matheaufgaben`, caption: 'Addition — Zeitlose Mathe-Kategorie' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt für internationale Etsy-Käufer`, caption: 'Zuordnung — Rein visuelle Aktivität' },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlagen-Arbeitsblatt für Etsy-Druckvorlagen-Shop`, caption: `Malvorlage — Etsy Top-Kategorie` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Druckvorlagen-Arbeitsblatt für Etsy-Listing`, caption: 'Wortsuche — Hohes Suchvolumen' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt mit bildbasierten Matheaufgaben`, caption: `Addition — Zeitlose Mathe-Kategorie` },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt für internationale Etsy-Käufer`, caption: `Zuordnung — Rein visuelle Aktivität` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Malvorlagen-Arbeitsblätter erstellen — LessonCraftStudio Demo`,
@@ -234,10 +234,10 @@ const content: StartContent = {
 
   themeImages: [
     { src: '/image-library/pets/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — thematisches Lernbild', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Nymphensittich — thematisches Lernbild', caption: 'Nymphensittich' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — thematisches Lernbild`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Nymphensittich — thematisches Lernbild`, caption: 'Nymphensittich' },
     { src: '/image-library/pets/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Frettchen — thematisches Lernbild', caption: 'Frettchen' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Frettchen — thematisches Lernbild`, caption: 'Frettchen' },
   ],
 };
 

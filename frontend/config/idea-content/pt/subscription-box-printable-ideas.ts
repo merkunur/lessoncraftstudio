@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias Imprimíveis Caixa Assinatura — Guia de Nicho`,
     metaDescription: `Ideias de imprimíveis de caixa de assinatura para vender no Etsy, Gumroad e Patreon. Constrói receitas recorrentes com pacotes mensais curados de fichas.`,
-    primaryKeyword: 'ideias imprimíveis caixa assinatura',
+    primaryKeyword: `ideias imprimíveis caixa assinatura`,
     secondaryKeywords: [
-      'negócio assinatura imprimíveis educativos',
-      'modelo assinatura fichas mensais',
-      'serviço entrega recorrente imprimíveis',
-      'vender assinaturas imprimíveis online',
+      `negócio assinatura imprimíveis educativos`,
+      `modelo assinatura fichas mensais`,
+      `serviço entrega recorrente imprimíveis`,
+      `vender assinaturas imprimíveis online`,
     ],
     lsiKeywords: [
-      'produtos entrega educativa mensal',
-      'modelo receitas recorrentes fichas',
-      'serviço pacotes imprimíveis curados',
+      `produtos entrega educativa mensal`,
+      `modelo receitas recorrentes fichas`,
+      `serviço pacotes imprimíveis curados`,
     ],
   },
   hero: {
@@ -94,17 +94,17 @@ O modelo de assinatura funciona em múltiplas plataformas incluindo o Gumroad qu
     },
     {
       platform: 'Patreon',
-      title: 'Gerir uma Assinatura de Fichas no Patreon',
+      title: `Gerir uma Assinatura de Fichas no Patreon`,
       description: `O modelo de subscrição baseado em níveis do Patreon adapta-se naturalmente às assinaturas de fichas imprimíveis com múltiplos níveis de conteúdo que servem diferentes necessidades e preferências de orçamento dos subscritores enquanto criam caminhos claros de melhoria que aumentam as receitas médias por subscritor ao longo do tempo. Oferece um nível básico com um pacote mensal de fichas cobrindo uma única área temática, um nível médio com múltiplos pacotes abrangendo várias matérias e níveis escolares, e um nível premium com conteúdo exclusivo, acesso antecipado a novos materiais, privilégios de pedido de conteúdo e partilha do processo de criação nos bastidores que constrói ligação pessoal com os subscritores. As funcionalidades comunitárias do Patreon incluindo publicações, sondagens, comentários e mensagens diretas ajudam a construir participação dos subscritores para além das entregas mensais de fichas em si, criando a profundidade de relação e o sentido de pertença que transforma subscritores passivos em membros ativos da comunidade investidos no teu sucesso contínuo. A plataforma trata de toda a faturação, notificações de entrega, processamento de pagamentos e gestão de subscritores reduzindo a sobrecarga técnica para vendedores que querem concentrar-se na criação de conteúdo em vez da infraestrutura de assinatura. Utiliza sondagens do Patreon para permitir que os subscritores votem nos próximos temas mensais, criando participação que dá aos membros propriedade sobre a direção do conteúdo e aumenta o seu investimento em manter a sua assinatura porque ajudaram a definir o que vem a seguir.`,
     },
     {
       platform: 'Etsy',
-      title: 'Criar Vendas Estilo Assinatura no Etsy',
+      title: `Criar Vendas Estilo Assinatura no Etsy`,
       description: `Embora o Etsy careça de funcionalidade nativa de faturação de assinatura, os vendedores criativos de imprimíveis constroem negócios estilo assinatura através de renovações mensais de listagens, pacotes promocionais de «subscreve e poupa» e programas de cultivo de clientes recorrentes que simulam receitas recorrentes dentro das restrições da plataforma. Lista pacotes mensais individuais de fichas como produtos separados enquanto promoves a série contínua de forma proeminente em cada descrição de listagem, encorajando os compradores que adquirem um pacote mensal a regressar nos meses seguintes destacando a continuidade temática e a dificuldade progressiva que liga entregas mensais consecutivas num programa educativo coerente. Utiliza as mensagens automatizadas ao comprador do Etsy para convidar compradores únicos a subscreverem para meses futuros através de ligações de compra direta ou juntando-se à tua lista de correio eletrónico onde podes oferecer preços de subscritor e entrega mensal automática fora da plataforma Etsy. Constrói uma lista de correio eletrónico a partir de clientes do Etsy para transicionar compradores interessados para plataformas diretas como o Gumroad ou o Shopify onde a faturação recorrente está automatizada e a gestão de assinaturas é fluida, utilizando o Etsy como um canal de aquisição de clientes que alimenta o teu negócio de assinatura com compradores qualificados que já demonstraram disposição para comprar o teu conteúdo de fichas. Cria pacotes anuais a preço com desconto que funcionem como assinaturas pré-pagas, entregando pacotes de conteúdo mensal durante todo o ano enquanto cobras o pagamento completo por antecipação para receitas previsíveis e risco reduzido de cancelação.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Construir Receitas Estilo Assinatura no Gumroad',
+      title: `Construir Receitas Estilo Assinatura no Gumroad`,
       description: `O Gumroad suporta pacotes em crescimento que funcionam de forma semelhante às assinaturas onde crias um pacote de ano completo com um preço premium que recebe adições mensais durante todo o ano letivo, e os compradores iniciais obtêm o melhor valor à medida que o pacote cresce a cada mês com novas adições de conteúdo que recebem automaticamente através do sistema de notificações da plataforma. O Gumroad alerta automaticamente os compradores anteriores do pacote quando novo conteúdo é adicionado, criando participação estilo assinatura onde os vendedores recebem notificações mensais sobre materiais frescos adicionados ao seu pacote comprado sem qualquer pagamento adicional necessário após a compra inicial. As subscrições anuais de fichas para a loja alinhadas com o calendário escolar de setembro a junho criam ciclos naturais de assinatura que coincidem com os padrões de compra dos vendedores, com o preço do pacote em crescimento a aumentar à medida que mais conteúdo mensal é adicionado durante o ano, recompensando os compradores iniciais que compraram quando o pacote era mais pequeno e menos dispendioso. Estrutura o teu pacote em crescimento com um calendário claro de conteúdo mensal publicado na descrição do produto para que os vendedores possam ver exatamente que temas e matérias serão cobertos em cada próximo mês, construindo antecipação e ajudando os vendedores a planear os seus horários instrucionais em torno do teu cronograma de entrega de conteúdo. Inclui um elemento comunitário estilo subscritor criando uma secção dedicada de retroalimentação na tua loja do Gumroad onde os compradores do pacote podem pedir temas ou matérias específicos para as próximas adições mensais, construindo a participação que fortalece as relações a longo prazo com os clientes e encoraja os vendedores a recomendar o teu pacote em crescimento a colegas.`,
     },
   ],
@@ -143,18 +143,18 @@ O modelo de assinatura funciona em múltiplas plataformas incluindo o Gumroad qu
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -168,7 +168,7 @@ O modelo de assinatura funciona em múltiplas plataformas incluindo o Gumroad qu
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -178,28 +178,28 @@ O modelo de assinatura funciona em múltiplas plataformas incluindo o Gumroad qu
     },
     {
       pageType: 'idea',
-      slug: 'impressao-sob-demanda-ideias-imprimiveis',
+      slug: `impressao-sob-demanda-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Impressão sob Demanda`,
     },
     {
       pageType: 'idea',
-      slug: 'download-digital-ideias-imprimiveis',
+      slug: `download-digital-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Download Digital`,
     },
     {
       pageType: 'idea',
-      slug: 'artigos-festa-ideias-imprimiveis',
+      slug: `artigos-festa-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Artigos de Festa`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

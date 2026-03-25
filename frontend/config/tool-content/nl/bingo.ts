@@ -1,49 +1,49 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'bingokaarten maken voor de winkel',
+    primaryKeyword: `bingokaarten maken voor de winkel`,
     secondaryKeywords: [
-      'plaatjesbingo maker voor de winkel',
+      `plaatjesbingo maker voor de winkel`,
       'bingospel maker voor kinderen',
-      'printbare bingokaarten voor school',
-      'bingokaarten generator voor verkopers',
+      `printbare bingokaarten voor school`,
+      `bingokaarten generator voor verkopers`,
     ],
     lsiKeywords: [
-      'batch bingokaarten generator voor de winkel',
+      `batch bingokaarten generator voor de winkel`,
       'beeld-en-woord bingo maker',
-      'afroepblad bingo werkblad maker',
+      `afroepblad bingo werkblad maker`,
     ],
-    titleTag: 'Bingokaarten Maken — Plaatjesbingo voor de winkel',
+    titleTag: `Bingokaarten Maken — Plaatjesbingo voor de winkel`,
     metaDescription: `Maak plaatjesbingokaarten voor de winkel. Rasters van 3x3 tot 5x5, batchgeneratie, afroepbladen, 104 thema's. Gratis proefversie met watermerk.`,
     },
 
   hero: {
     title: 'Plaatjesbingo Maker',
     tagline: `Plaatjesbingo kaart generator met configureerbare rasters van 3×3 tot 5×5, batchgeneratie van 1–10 unieke kaarten per set, ZIP-export van alle kaarten in één download, dubbele vulmodi voor vakjes en ronde fiches onafhankelijk, speciaal afroepblad met dynamisch woordraster, aangepaste afroepselectie met live teller, en 104 thematische beeldcollecties voor plaatjesbingokaarten die wereldwijd verkopen`,
-    description: `Maak professionele plaatjesbingokaarten waarbij elke speler een unieke kaart krijgt met verschillende afbeeldingen op verschillende posities — essentieel om bingo als spel te laten werken. Configureer rijen van 3 tot 5 en kolommen van 3 tot 5 onafhankelijk, waardoor rasters ontstaan van 3×3 (9 vakjes) tot 5×5 (25 vakjes) met een standaard van 4×4 (16 vakjes). Genereer 1 tot 10 unieke bingokaarten per batch, elk met een andere willekeurige afbeeldingsselectie uit de pool zodat geen twee kaarten dezelfde indeling delen. Exporteer alle gegenereerde kaarten als individuele JPEG's in een enkel bingo_cards.zip-bestand met JSZip-compressie — één klik downloadt een complete bingokaartset klaar om te verpakken in marktplaatsproducten. Kies Afbeelding of Woord als vulling onafhankelijk voor zowel kaartvakjes als ronde fiches, waardoor vier verschillende bingokaart-stijlen ontstaan vanuit één generator. Afbeeldingsvulling toont thematische illustraties; Woordvulling toont gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, waardoor de Plaatjesbingo Maker taalgevoelig is — het wisselen van taal verandert woorden op kaarten, fiches en het afroepblad. Ronde fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening zodat ze nooit de kaartindeling weerspiegelen, wat authentiek bingospel garandeert waarbij fiches als koppelreferentie dienen in plaats van positieaanwijzing. Een speciaal afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper — kolommen berekend op basis van de langste woordlengte (2–6 kolommen) met uniforme lettergrootte over alle items voor schone leesbaarheid. Schakel aangepaste afroepselectie in om handmatig specifieke afbeeldingen te kiezen voor de afroeppool met een live teller die je selectieaantal toont, waardoor je precieze controle hebt over welke items in het spel verschijnen. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Voeg achtergrondthema\'s en kaderthema's toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Exporteer werkblad-JPEG, afroepblad-JPEG, werkblad-PDF en afroepblad-PDF op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0), plus de ZIP-batchexport voor alle kaarten. Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Het rastergebied gebruikt 60% van de beschikbare canvashoogte (begrensd op 500px) voor optimale kaartproporties. Bewerk alles op het Fabric.js-canvas met uitlijngereedschappen, laagbeheer, vergrendelen/ontgrendelen, zoom 50%–200% in stappen van 10% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.`,
+    description: `Maak professionele plaatjesbingokaarten waarbij elke speler een unieke kaart krijgt met verschillende afbeeldingen op verschillende posities — essentieel om bingo als spel te laten werken. Configureer rijen van 3 tot 5 en kolommen van 3 tot 5 onafhankelijk, waardoor rasters ontstaan van 3×3 (9 vakjes) tot 5×5 (25 vakjes) met een standaard van 4×4 (16 vakjes). Genereer 1 tot 10 unieke bingokaarten per batch, elk met een andere willekeurige afbeeldingsselectie uit de pool zodat geen twee kaarten dezelfde indeling delen. Exporteer alle gegenereerde kaarten als individuele JPEG`s in een enkel bingo_cards.zip-bestand met JSZip-compressie — één klik downloadt een complete bingokaartset klaar om te verpakken in marktplaatsproducten. Kies Afbeelding of Woord als vulling onafhankelijk voor zowel kaartvakjes als ronde fiches, waardoor vier verschillende bingokaart-stijlen ontstaan vanuit één generator. Afbeeldingsvulling toont thematische illustraties; Woordvulling toont gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, waardoor de Plaatjesbingo Maker taalgevoelig is — het wisselen van taal verandert woorden op kaarten, fiches en het afroepblad. Ronde fiches hebben gestreepte randen (#666, strokeDashArray [5,5]) en worden geschud met Fisher-Yates-ordening zodat ze nooit de kaartindeling weerspiegelen, wat authentiek bingospel garandeert waarbij fiches als koppelreferentie dienen in plaats van positieaanwijzing. Een speciaal afroepblad op een apart tabblad toont een dynamisch woordraster voor de afroeper — kolommen berekend op basis van de langste woordlengte (2–6 kolommen) met uniforme lettergrootte over alle items voor schone leesbaarheid. Schakel aangepaste afroepselectie in om handmatig specifieke afbeeldingen te kiezen voor de afroeppool met een live teller die je selectieaantal toont, waardoor je precieze controle hebt over welke items in het spel verschijnen. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload je eigen PNG-, JPG- of GIF-afbeeldingen. Voeg achtergrondthema's en kaderthema`s toe met onafhankelijke dekkingsregelaars (0–1, stap 0,05). Voeg aangepaste tekst toe met 7 lettertype-opties (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) en tekstomlijning 0–10. Exporteer werkblad-JPEG, afroepblad-JPEG, werkblad-PDF en afroepblad-PDF op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0), plus de ZIP-batchexport voor alle kaarten. Kies Letter-, A4-, Vierkant (1200×1200) of aangepaste paginaformaten met grijstintenmodus voor inktvriendelijke uitvoer. Het rastergebied gebruikt 60% van de beschikbare canvashoogte (begrensd op 500px) voor optimale kaartproporties. Bewerk alles op het Fabric.js-canvas met uitlijngereedschappen, laagbeheer, vergrendelen/ontgrendelen, zoom 50%–200% in stappen van 10% en ongedaan maken/opnieuw uitvoeren tot 20 statussen. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.`,
   },
 
   tutorial: {
-    title: 'Plaatjesbingokaarten Maken in 8 Stappen',
+    title: `Plaatjesbingokaarten Maken in 8 Stappen`,
     steps: [
       {
         title: 'Open de Plaatjesbingo Maker',
         description: `Klik op "Gratis proefversie" om de plaatjesbingo kaart generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor de bingokaart met fiches, één voor het afroepblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van plaatjesbingokaarten.`,
       },
       {
-        title: 'Configureer rastergrootte en aantal kaarten',
+        title: `Configureer rastergrootte en aantal kaarten`,
         description: `Open het paneel Bingokaart-instellingen en stel rijen (3–5) en kolommen (3–5) onafhankelijk in om je rastergrootte te bepalen — de standaard is 4×4 met 16 vakjes. Een 3×3-raster past bij snelle bingoronden met minder items om bij te houden, terwijl een 5×5-raster de klassieke 25-vakjes bingo-ervaring biedt. Stel het aantal kaarten in van 1 tot 10 om meerdere unieke bingokaarten in batch te genereren. Elke kaart trekt een andere willekeurige selectie uit de afbeeldingenpool, waardoor elke kaart in de batch gegarandeerd uniek is — essentieel voor bingo waar elke speler een andere kaart nodig heeft.`,
       },
       {
-        title: 'Kies vulmodi voor vakjes en fiches',
+        title: `Kies vulmodi voor vakjes en fiches`,
         description: `Selecteer celvulling (Afbeelding of Woord) en chipvulling (Afbeelding of Woord) onafhankelijk in het paneel Bingokaart-instellingen. Afbeeldingsvulling toont thematische illustraties in rastervakjes of op ronde fiches. Woordvulling toont gelokaliseerde afbeeldingsnamen als tekst — het wisselen van taal verandert alle woorden op kaarten, fiches en het afroepblad. Combineer modi voor creatieve variatie: afbeeldingskaarten met woordfiches creëren een visueel-naar-tekst koppeluitdaging, woordkaarten met afbeeldingsfiches draaien de dynamiek om, en beide matchen creëert een volledig visuele of volledig tekstgebaseerde bingo-ervaring. Vier verschillende bingokaart-stijlen vanuit één generator.`,
       },
       {
-        title: 'Selecteer afbeeldingen uit de bibliotheek',
+        title: `Selecteer afbeeldingen uit de bibliotheek`,
         description: `Open het paneel Afbeeldingenbibliotheek en blader door 104 thematische collecties met meer dan 3.100 kleurrijke illustraties — dieren, voedsel, voertuigen, natuur, feestdagen, beroepen en tientallen meer. Filter op thema met het dropdownmenu of zoek op trefwoord. Klik op afbeeldingen om ze te selecteren voor je bingokaarten. Schakel het selectievakje "Aangepaste selectie gebruiken" in om handmatig specifieke afbeeldingen te kiezen voor de afroeppool — een live teller toont je selectieaantal terwijl je kiest. Aangepaste afroepselectie geeft je precieze controle over welke items in het bingospel verschijnen, handig voor lesstof-gerelateerde activiteiten of thematische evenementen.`,
       },
       {
-        title: 'Stel de pagina-indeling en decoraties in',
+        title: `Stel de pagina-indeling en decoraties in`,
         description: `In het gedeelte Pagina-instelling selecteer je je paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een aangepaste afmeting. Kies een achtergrondkleur. Selecteer een decoratief achtergrondthema en een kaderthema uit de ingebouwde bibliotheek, elk met een onafhankelijke dekkingsregelaar (0–1, stap 0,05). Achtergrond- en kaderthema's werken onafhankelijk, waardoor je een subtiel patroon als achtergrond kunt combineren met een opvallend decoratief kader, of elke andere combinatie die bij je productstijl past. Het afroepblad neemt paginakaders en achtergrond over van het hoofdcanvas.`,
       },
       {
@@ -55,7 +55,7 @@ const content: ToolContent = {  seo: {
         description: `Klik op het tabblad Afroepblad om het bijbehorende afroepblad te zien. Het afroepblad toont een dynamisch woordraster van alle unieke items uit de afbeeldingenpool — de afroeper leest deze hardop voor terwijl spelers hun kaarten markeren. Kolommen worden berekend op basis van de langste woordlengte (2–6 kolommen) met uniforme lettergrootte over alle items. Het raster is gecentreerd op de pagina en neemt paginakaders en achtergrond over van het hoofdcanvas. Dit is geen antwoordblad — bingo heeft geen enkel correct antwoord aangezien elke kaart anders is. Het afroepblad is het referentiedocument voor de persoon die het spel leidt.`,
       },
       {
-        title: 'Download kaarten, afroepblad en ZIP-batch',
+        title: `Download kaarten, afroepblad en ZIP-batch`,
         description: `Schakel grijstinten in voor inktvriendelijke versies ideaal voor het printen online en KDP-binnenwerken. Download individuele bestanden met de vier speciale knoppen: werkblad-JPEG, afroepblad-JPEG, werkblad-PDF en afroepblad-PDF — allemaal gerenderd op 300 DPI (6× vermenigvuldiger, JPEG-kwaliteit 1,0). Voor batchexport klik je op de ZIP-downloadknop om alle gegenereerde bingokaarten te ontvangen als individuele JPEG's in een enkel bingo_cards.zip-bestand. De ZIP-batchexport is essentieel voor verkopers die bingokaartsets met meerdere kaarten maken — genereer 10 unieke kaarten en verpak ze in één download. Bestanden zijn productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.`,
       },
     ],
@@ -67,35 +67,35 @@ const content: ToolContent = {  seo: {
       description: `Maak bingokaartensets georganiseerd per thema en rastergrootte met de 104 beeldcollecties. Elk thema ondersteunt meerdere rasterconfiguraties: 3×3 snelspelkaarten met 9 vakjes voor korte rondes, 4×4 standaardkaarten met 16 vakjes voor gebalanceerd spel, en 5×5 klassieke kaarten met 25 vakjes voor uitgebreide sessies. Genereer 10 unieke kaarten per rastergrootte in batch, meng vervolgens alle drie formaten in één productbundel met afroepbladen inbegrepen. De ZIP-batchexport verpakt elke set voor directe levering. Fisher-Yates fiche-shuffling garandeert dat elke kaart een echte bingo-uitdaging biedt waarbij fiches nooit de kaartindeling weerspiegelen.`,
     },
     {
-      title: 'Meertalige Woordenschat-Bingoproducten',
+      title: `Meertalige Woordenschat-Bingoproducten`,
       description: `De Plaatjesbingo Maker is taalgevoelig — Woordvullingsmodus toont gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden op kaarten, fiches en het afroepblad. Maak bingosets in het Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins vanuit dezelfde afbeeldingen zonder iets opnieuw op te bouwen. Een katafbeelding toont "Kat" in het Nederlands, "Cat" in het Engels en "Katze" in het Duits. Verkoop woordenschat-bingoproducten op internationale marktplaatsen door elke taalversie in enkele minuten te genereren. Woordkaarten met afbeeldingsfiches zijn bijzonder effectieve woordenschat-herhalingstools.`,
     },
     {
-      title: 'KDP Bingo-Activiteitenboeken met Afroepbladen',
+      title: `KDP Bingo-Activiteitenboeken met Afroepbladen`,
       description: `Stel 40–80 bingokaarten samen in gedrukte activiteitenboeken voor Amazon KDP. Structureer hoofdstukken per thema: dierenbingo, voedselbingo, voertuigenbingo, feestdagenbingo. Neem afroepbladen op na elke set zodat het boek volledig zelfstandig speelbaar is — lezers kunnen de afroeppagina kopiëren terwijl spelers de bingopagina's direct gebruiken. Meng rasterformaten binnen hoofdstukken voor progressieve moeilijkheid. Schakel grijstinten in voor inktvriendelijke uitvoer die de KDP-drukkosten laag houdt. De batchgeneratiefunctie produceert 10 unieke kaarten per set in seconden, waardoor grote werkboekcompilaties efficiënt zijn.`,
     },
     {
-      title: 'Kant-en-Klare Bingo Spelkits voor de winkel',
+      title: `Kant-en-Klare Bingo Spelkits voor de winkel`,
       description: `Bouw complete bingo spelkits voor klasgebruik met 10 unieke spelerskaarten en een afroepblad per set. verkopers die zoeken naar bingo-activiteiten waarderen producten die direct speelklaar zijn — kaarten printen, uitdelen en beginnen. Gebruik Woordvullingsmodus met leswoordenschat voor taalherkenning, Afbeeldingsvulling voor visuele herkenningsoefeningen, of gemengde modi voor getrapte productpakketten. De aangepaste afroepselectiefunctie laat je precies bepalen welke woordenschat-items in het spel verschijnen voor nauwkeurige lesstof-afstemming.`,
     },
     {
-      title: 'Seizoensgebonden en Feestdagen Bingocollecties',
+      title: `Seizoensgebonden en Feestdagen Bingocollecties`,
       description: `Bouw roterende seizoenscollecties met feestdagen- en natuurthema's uit de 104-thema bibliotheek. Kerstbingo, Sinterklaas-bingo, Halloweenbingo, Paasbingo, Valentijnsdagbingo, terug-naar-school-bingo en zomerbingo ondersteunen elk speciale productpakketten. Bingo is een van nature sociaal spel dat piekt tijdens feestdagen wanneer gezinnen en productlijnen zoeken naar groepsactiviteiten. Neem meerdere rasterformaten en zowel afbeeldings- als woordvullingsvarianten op in elke seizoensset voor maximale waarde. Breng elke collectie 4–6 weken voor de feestdag uit voor piekzichtbaarheid op marktplaatsen.`,
     },
     {
-      title: 'Evenement- en Feest-Bingokaartsets',
+      title: `Evenement- en Feest-Bingokaartsets`,
       description: `Maak bingokaartsets voor feesten, babyshowers, vrijgezellenfeesten, teambuilding-evenementen en educatieve workshops. De configureerbare rasterformaten en thematische beeldbibliotheek produceren gelegenheidsspecifieke bingospellen snel — babythema-bingo voor babyshowers, voedselbingo voor kookworkshops, dierenbingo voor dierentuinuitjes. Genereer 10 unieke kaarten per evenementset met een afroepblad in batch, verpak als een instant-download ZIP-bundel en verkoop op Etsy waar evenementplanners actief zoeken naar printbare feestspellen. Aangepaste afroepselectie laat je de exacte items voor elke gelegenheid samenstellen.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Thematische Bingokaart Winkel op Etsy',
+      title: `Thematische Bingokaart Winkel op Etsy`,
       description: `Open een Etsy-winkel gespecialiseerd in plaatjesbingo kaartbundels georganiseerd per thema met de 104 beeldcollecties. Dieren, voedsel, voertuigen, feestdagen, natuur en beroepen worden elk aparte vermeldingen met 10–30 unieke kaarten per set en afroepbladen inbegrepen. De batchgeneratiefunctie maakt 10 unieke kaarten per klik, en de ZIP-export verpakt ze direct voor digitale levering. Meng rasterformaten binnen bundels: 3×3 snelspelkaarten, 4×4 standaardkaarten en 5×5 klassieke kaarten voor variatie. Prijs individuele themapakketten op €3–€5 voor 10–15 kaarten met afroepbladen en premium multi-thema bundels op €8–€15.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Bingo-Activiteitenboekserie',
+      title: `Amazon KDP Bingo-Activiteitenboekserie`,
       description: `Stel 40–80 bingokaarten samen in thematische activiteitenboeken voor Amazon KDP. Structureer een serie per onderwerp: "Dierenbingo", "Feestdagenbingo", "Voedselbingo" en "Dagelijkse Voorwerpen Bingo". Neem afroepbladen op na elke kaartenset zodat het boek volledig zelfstandig speelbaar is. Meng rasterformaten voor progressieve moeilijkheid binnen elk boek — begin met 3×3 kaarten en bouw op naar 5×5. Schakel grijstinten in voor inktvriendelijke uitvoer die perfect in zwart-wit print. Bingo-activiteitenboeken verkopen het hele jaar door en pieken tijdens feestdagen wanneer gezinnen zoeken naar groepsactiviteiten.`,
       platform: 'Amazon KDP',
     },
@@ -105,12 +105,12 @@ const content: ToolContent = {  seo: {
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Bingokaart Verkeerstrechter',
+      title: `Pinterest Bingokaart Verkeerstrechter`,
       description: `Bingokaarten maken visueel opvallende Pinterest-pins — de kleurrijke rasterindeling met thematische afbeeldingen en ronde fiches creëert een direct herkenbaar spelformaat dat ouders en verkopers aantrekt. Pin voorbeeldbingokaarten met verschillende thema's: dierenbingo voor kleuterborden, feestdagenbingo voor seizoensborden, en woordbingo voor educatieve borden. Maak aparte pinseries voor "plaatjesbingo printables", "bingospellen voor de winkel" en "feestdagen bingo-activiteiten". Bingo is een universeel herkend spel, dus pins spreken een publiek aan in elk land en elke taal. Link elke pin naar je Etsy- of Gumroad-productvermeldingen.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Compleet Bingokaart Toolkit',
+      title: `Gumroad Compleet Bingokaart Toolkit`,
       description: `Bundel bingokaarten over alle 104 thema's, alle rasterformaten en beide vulmodi tot een uitgebreid toolkit op Gumroad. Neem 500+ unieke bingokaarten op die 3×3, 4×4 en 5×5 rasters bestrijken met afbeeldings- en woordvullingsvarianten, plus afroepbladen voor elk thema. De batchgeneratie en ZIP-export maken grootschalige productie efficiënt. Het dubbele vulsysteem produceert vier verschillende kaartstijlen per thema (afbeelding/afbeelding, afbeelding/woord, woord/afbeelding, woord/woord), waardoor de variatie per afbeeldingenset wordt vermenigvuldigd. Het toolkit-formaat rechtvaardigt premiumprijzen omdat kopers een complete bingo-spelbibliotheek ontvangen in plaats van individuele pakketten.`,
       platform: 'Gumroad',
     },
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: `Gebruik batchgeneratie en ZIP-export voor efficiënte productcreatie`,
-      description: `Stel het aantal kaarten in op 10 en genereer een complete set unieke bingokaarten met één klik. Elke kaart trekt een andere willekeurige afbeeldingsselectie uit de pool, waardoor gegarandeerd geen twee kaarten dezelfde indeling delen. Gebruik vervolgens de ZIP-batchexport om alle 10 kaarten als individuele JPEG's in een enkel bingo_cards.zip-bestand te downloaden. Deze workflow produceert een complete, verkoopklare bingokaartset in seconden in plaats van kaarten één voor één te genereren en op te slaan. Voor grotere bundels genereer je meerdere batches over verschillende rasterformaten en thema's.`,
+      description: `Stel het aantal kaarten in op 10 en genereer een complete set unieke bingokaarten met één klik. Elke kaart trekt een andere willekeurige afbeeldingsselectie uit de pool, waardoor gegarandeerd geen twee kaarten dezelfde indeling delen. Gebruik vervolgens de ZIP-batchexport om alle 10 kaarten als individuele JPEG`s in een enkel bingo_cards.zip-bestand te downloaden. Deze workflow produceert een complete, verkoopklare bingokaartset in seconden in plaats van kaarten één voor één te genereren en op te slaan. Voor grotere bundels genereer je meerdere batches over verschillende rasterformaten en thema`s.`,
     },
     {
       title: `Combineer vulmodi voor vier verschillende productstijlen`,
@@ -158,7 +158,7 @@ const content: ToolContent = {  seo: {
       answer: `Ja. De tool biedt een gratis proefversie met alle functies ontgrendeld — alle rasterformaten van 3×3 tot 5×5, batchgeneratie van maximaal 10 unieke kaarten, ZIP-batchexport, zowel afbeeldings- als woordvullingsmodi voor vakjes en fiches onafhankelijk, het speciale afroepblad met dynamisch woordraster, aangepaste afroepselectie met live teller, alle 104 thematische beeldcollecties met meer dan 3.100 illustraties, eigen afbeeldingen uploaden, achtergrond- en kaderthema's met onafhankelijke dekking, grijstintenmodus en alle downloadformaten. Geen registratie, geen creditcard nodig. Downloads van de gratis proefversie bevatten een watermerk. Koop een commerciële licentie om het watermerk te verwijderen en verkooprechten te ontgrendelen.`,
     },
     {
-      question: 'Hoe werkt batchgeneratie voor bingokaarten?',
+      question: `Hoe werkt batchgeneratie voor bingokaarten?`,
       answer: `Stel het aantal kaarten in van 1 tot 10 in het paneel Bingokaart-instellingen. Elke kaart trekt een andere willekeurige selectie uit de afbeeldingenpool, waardoor elke kaart in de batch gegarandeerd uniek is — essentieel voor bingo waar elke speler een andere kaart nodig heeft. De eerste kaart verschijnt direct op het canvas voor preview. Alle gegenereerde kaarten zijn beschikbaar via de ZIP-batchexport voor download als individuele JPEG-bestanden in een enkel bingo_cards.zip-archief. Genereer een complete set van 10 unieke bingokaarten met één klik, klaar om te verpakken in marktplaatsproducten.`,
     },
     {
@@ -174,15 +174,15 @@ const content: ToolContent = {  seo: {
       answer: `Ronde fiches verschijnen onder het bingokaart-raster met gestreepte randen (#666, strokeDashArray [5,5]). Ze tonen ofwel afbeeldingen of woorden afhankelijk van je chipvulmodus-selectie. Fiches worden geschud met Fisher-Yates-ordening zodat ze nooit de kaartindeling weerspiegelen — dit garandeert authentiek bingospel waarbij de fiches dienen als koppelreferentie in plaats van antwoorden te onthullen via positie. Spelers gebruiken de fiches om te identificeren welke items worden afgeroepen tijdens het spel.`,
     },
     {
-      question: 'Wat is het afroepblad en hoe werkt het?',
+      question: `Wat is het afroepblad en hoe werkt het?`,
       answer: `Het afroepblad is een aparte pagina toegankelijk via het tabblad Afroepblad die een dynamisch woordraster toont van alle unieke items uit de afbeeldingenpool. De afroeper leest deze woorden hardop voor terwijl spelers overeenkomende items op hun bingokaarten markeren. Kolommen worden berekend op basis van de langste woordlengte (2–6 kolommen) met uniforme lettergrootte over alle items voor schone leesbaarheid. Het raster is gecentreerd op de pagina en neemt kaders en achtergrond over van het hoofdcanvas. Dit is geen antwoordblad — bingo heeft geen enkel correct antwoord aangezien elke kaart anders is.`,
     },
     {
-      question: 'Wat is aangepaste afroepselectie?',
+      question: `Wat is aangepaste afroepselectie?`,
       answer: `Schakel het selectievakje "Aangepaste selectie gebruiken" in het paneel Bingokaart-instellingen in om handmatig te kiezen welke specifieke afbeeldingen in de afroeppool verschijnen. Wanneer ingeschakeld, klik je op afbeeldingen in de Afbeeldingenbibliotheek om ze toe te voegen aan je aangepaste afroepselectie — een live teller toont je selectieaantal terwijl je kiest. Dit geeft je precieze controle over welke items in het bingospel verschijnen, handig voor lesstof-gerelateerde woordenschat-activiteiten, thematische evenementen, of elke situatie waarin je de exacte items wilt samenstellen die spelers tegenkomen.`,
     },
     {
-      question: 'Is de Plaatjesbingo Maker taalgevoelig?',
+      question: `Is de Plaatjesbingo Maker taalgevoelig?`,
       answer: `Ja. Bij gebruik van Woordvullingsmodus voor kaartvakjes of fiches zijn de weergegeven woorden gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek. Het wisselen van taal in de werkbladinstellingen verandert de woorden op kaarten, fiches en het afroepblad. Een katafbeelding toont bijvoorbeeld "Kat" in het Nederlands maar "Cat" in het Engels en "Katze" in het Duits. Dit maakt het eenvoudig om meertalige woordenschat-bingoproducten te maken vanuit dezelfde afbeeldingen. Afbeeldingsvulling is niet taalgevoelig aangezien deze illustraties toont in plaats van woorden.`,
     },
     {
@@ -199,34 +199,34 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wat is het restitutiebeleid?',
-      answer: `Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren voordat je een aankoop doet. Omdat de gratis proefversie je volledige toegang geeft tot alle rasterformaten, batchgeneratie van maximaal 10 kaarten, ZIP-export, beide vulmodi voor vakjes en fiches, het afroepblad, aangepaste afroepselectie, alle 104 thema's, eigen afbeeldingen uploaden, achtergrond- en kaderthema's, grijstintenexport en elk downloadformaat, bieden wij geen restituties aan op licentieaankopen. Zorg dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.`,
+      answer: `Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren voordat je een aankoop doet. Omdat de gratis proefversie je volledige toegang geeft tot alle rasterformaten, batchgeneratie van maximaal 10 kaarten, ZIP-export, beide vulmodi voor vakjes en fiches, het afroepblad, aangepaste afroepselectie, alle 104 thema`s, eigen afbeeldingen uploaden, achtergrond- en kaderthema`s, grijstintenexport en elk downloadformaat, bieden wij geen restituties aan op licentieaankopen. Zorg dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjesbingo Kaarten — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: `Plaatjesbingo Kaarten — Volledig Productoverzicht` },
     { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: `Schaduw Matching Werkblad Maker` },
     { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: `Zoek de Uitzondering Werkblad Maker` },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Werkblad Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/bingo/Plaatjesbingo%201.webp',
+      primary: `/samples/dutch/bingo/Plaatjesbingo%201.webp`,
       primaryAlt: `Plaatjesbingokaart met thematische afbeeldingen in een configureerbaar raster en ronde fiches met gestreepte randen eronder voor koppelen tijdens bingospel`,
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%202.webp',
+        src: `/samples/dutch/bingo/Plaatjesbingo%202.webp`,
         alt: `Plaatjesbingokaart met afbeeldingsvulling die kleurrijke thematische illustraties toont in rastervakjes en ronde afbeeldingsfiches met gestreepte randen`,
         caption: `Afbeeldingsvulling — kleurrijke illustraties in zowel kaartvakjes als ronde fiches voor visuele bingo`,
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%203.webp',
+        src: `/samples/dutch/bingo/Plaatjesbingo%203.webp`,
         alt: `Plaatjesbingokaart met woordvulling die gelokaliseerde afbeeldingsnamen toont in rastervakjes en woordfiches voor woordenschat-bingo`,
         caption: `Woordvulling — gelokaliseerde afbeeldingsnamen voor woordenschat-gebaseerde meertalige bingoproducten`,
       },

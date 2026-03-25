@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `fichas de caligrafia imprimíveis para vendedores Etsy`,
       `gerador de fichas de escrita manuscrita para Amazon KDP`,
-      'vender fichas de prática de escrita no Gumroad',
-      'gerador de fichas de caligrafia licença comercial',
+      `vender fichas de prática de escrita no Gumroad`,
+      `gerador de fichas de caligrafia licença comercial`,
     ],
     lsiKeywords: [
       `produtos digitais de fichas de escrita manuscrita para empreendedores`,
       `negócio de fichas de traçado de letras imprimíveis online`,
       `gerador de exercícios de caligrafia com setas de ordem de traços`,
     ],
-    titleTag: 'Gerador Fichas de Escrita | Criar e Vender',
+    titleTag: `Gerador Fichas de Escrita | Criar e Vender`,
     metaDescription:
       `Crie fichas de escrita para Etsy, KDP e Gumroad. 3 modos progressivos, 5 fontes, setas de traços, traçado progressivo, 104 temas. Teste grátis com marca d'água.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Escrita em 5 Passos',
+    title: `Como Criar Fichas de Escrita em 5 Passos`,
     steps: [
       {
         title: 'Configure o layout da página',
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Cada ficha de escrita é construída fila a fila, e cada fila tem as suas próprias definições independentes. Para cada fila, selecione um dos três modos de prática: Traçado fornece contornos de letras sólidos que os usuários traçam diretamente, Traçado Progressivo começa com letras sólidas que se desvanecem progressivamente ao longo da fila para desenvolver a autonomia, e Cópia Guiada mostra um contorno ténue que os usuários reproduzem ao lado. Combine os três modos numa única ficha para criar dificuldade progressiva de cima para baixo — trace as letras novas em cima, pratique as letras com opacidade decrescente no meio e tente a cópia guiada em baixo.`,
       },
       {
-        title: 'Selecione o estilo de fonte e a fonte de conteúdo',
+        title: `Selecione o estilo de fonte e a fonte de conteúdo`,
         description:
           `Escolha entre cinco estilos de fonte por fila: Imprensa Regular para escrita de forma padrão, Imprensa Regular com Setas com setas direcionais numeradas que mostram a ordem exata dos traços, Imprensa de Traçado para letras pontilhadas desenhadas para a prática de traçado, Imprensa de Traçado com Setas combinando contornos pontilhados com setas da ordem dos traços, e Cursiva (Great Vibes) para a prática de escrita cursiva. Depois defina a fonte de conteúdo: o modo Biblioteca de Imagens usa Letra Inicial (primeira letra do nome de uma imagem) ou Nome Completo (palavra inteira) de 104 coleções temáticas. O modo Texto Personalizado permite-lhe escrever qualquer palavra, frase ou oração. O modo Vazio cria linhas pautadas em branco para escrita livre.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Escrita Online',
+    title: `Como Vender Fichas de Escrita Online`,
     cases: [
       {
-        title: 'Pacotes de prática de escrita na Etsy',
+        title: `Pacotes de prática de escrita na Etsy`,
         description:
           `Crie conjuntos de 15 a 30 fichas de escrita organizados por dificuldade progressiva. Comece com páginas de traços de pré-escrita (vertical, horizontal, círculos, ziguezague), avance para o modo Traçado com ordem de traços guiada por setas para a introdução de letras, depois para o Traçado Progressivo para desenvolver a autonomia, e termine com a Cópia Guiada para escrita quase autónoma. Ofereça os conjuntos de maiúsculas e minúsculas separadamente ou combine-os em pacotes de alfabeto completos. Os três modos de prática criam uma progressão de dificuldade natural que justifica preços premium para os pacotes. Inclua variantes temáticas usando a biblioteca de imagens — animais da quinta, dinossauros, criaturas marinhas — para listagens sazonais e de nicho. Defina o preço de pacotes individuais por letra entre $3–$5 e pacotes de progressão do alfabeto completo entre $12–$20.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de caligrafia na Amazon KDP',
+        title: `Cadernos de caligrafia na Amazon KDP`,
         description:
           `Compile de 80 a 120 páginas de prática de escrita num caderno impresso em formato Amazon KDP. Estruture o livro como uma progressão de aprendizagem: o capítulo 1 cobre os traços de pré-escrita, o capítulo 2 introduz as maiúsculas com ordem de traços por setas em modo Traçado, o capítulo 3 repete as maiúsculas em modo Traçado Progressivo, o capítulo 4 introduz as minúsculas, e o capítulo 5 avança para a Cópia Guiada com palavras completas. Use a independência por fila para variar os modos dentro dos capítulos. Os cadernos de caligrafia vendem-se de forma consistente ao longo do ano e beneficiam do modelo de impressão a pedido do KDP — sem necessidade de inventário.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de escrita diferenciados para Gumroad',
+        title: `Centros de escrita diferenciados para Gumroad`,
         description:
           `Construa conjuntos de prática de escrita por níveis usando os três modos de prática como eixos de diferenciação: Nível 1 (modo Traçado com ordem de traços por setas para usuários a aprender a formação de letras), Nível 2 (Traçado Progressivo para usuários a desenvolver autonomia), Nível 3 (Cópia Guiada para usuários a aproximar-se da fluência), e Nível 4 (linhas vazias para escrita autónoma). Use a independência por fila para criar fichas de modos combinados onde cada fila aponta a um nível de competência diferente — a ferramenta de diferenciação definitiva para centros de escrita. Acompanhe cada nível com integração de imagens temáticas para maior motivação. Os compradores do Gumroad pagam preços premium por recursos de escrita diferenciados que funcionam com múltiplos grupos de níveis.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Pacotes de traços de pré-escrita para o desenvolvimento da motricidade fina`,
         description:
           `Crie conjuntos dedicados de prática de traços de pré-escrita com linhas verticais, linhas horizontais, círculos e linhas em ziguezague. Estes exercícios de motricidade fina destinam-se a um público diferenciado: terapeutas ocupacionais, vendedores de primeira infância e pais de crianças em idade pré-escolar a desenvolver o controlo do lápis antes da instrução formal de letras. Ofereça os tipos de traços individualmente ou como uma progressão completa de competências motoras. Os pacotes de pré-escrita preenchem um nicho específico na Etsy e no Gumroad com menos concorrência do que as fichas padrão de traçado de letras, e os quatro tipos de traços proporcionam variedade suficiente para pacotes de produtos significativos.`,
-        platform: 'Etsy / Gumroad (nicho motricidade fina)',
+        platform: `Etsy / Gumroad (nicho motricidade fina)`,
       },
       {
         title: `Ferramenta de prática de escrita para loja e explicações`,
         description:
           `Use o modo Texto Personalizado para criar fichas de escrita para qualquer palavra, frase ou oração — palavras de ortografia semanais, nomes de usuários, vocabulário visual ou termos específicos de uma disciplina. Defina o modo de prática conforme as capacidades de cada usuário: modo Traçado para conteúdo novo, Traçado Progressivo para desenvolver fluência, Cópia Guiada para revisão quase dominada. Selecione as fontes com setas para usuários que necessitam de instrução da ordem dos traços. Imprima conjuntos personalizados em minutos para grupos pequenos ou turmas inteiras. A independência por fila significa que uma única ficha pode servir múltiplos níveis simultaneamente — as filas de cima traçam palavras novas enquanto as filas de baixo praticam as familiares.`,
-        platform: 'loja / Explicações / Ensino doméstico',
+        platform: `loja / Explicações / Ensino doméstico`,
       },
     ],
   },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `Os estilos Imprensa Regular com Setas e Imprensa de Traçado com Setas sobrepõem setas direcionais numeradas em cada letra. A seta 1 mostra onde começar o primeiro traço e em que direção mover, a seta 2 indica o segundo traço, e assim sucessivamente. As setas ensinam aos usuários a sequência de formação correta de cada letra — não apenas como a letra se parece, mas precisamente como traçá-la com a ordem e a direção de traços corretas. Isto transforma uma simples ficha de traçado numa ferramenta de instrução.`,
     },
     {
-      question: 'Como funciona o modo Traçado Progressivo?',
+      question: `Como funciona o modo Traçado Progressivo?`,
       answer:
         `O modo Traçado Progressivo começa cada fila com letras completamente visíveis e sólidas no lado esquerdo e reduz progressivamente a opacidade de cada letra sucessiva à medida que a fila continua para a direita. No final da fila, as letras são mal visíveis ou desapareceram por completo. Este desvanecimento gradual reforça a confiança do usuário ao reduzir o suporte visual de forma incremental — cada repetição requer um pouco mais de memória autónoma do que a anterior. Serve como ponte entre o traçado completo e a escrita autónoma.`,
     },
@@ -166,7 +166,7 @@ const content: AppContent = {
         `Os traços de pré-escrita são exercícios de linhas básicas que desenvolvem o controlo motor fino necessário para a escrita: linhas verticais (traços de cima para baixo), linhas horizontais (varrimentos da esquerda para a direita), círculos (prática de curva contínua) e linhas em ziguezague (controlo de mudanças de direção). Estes exercícios destinam-se a usuários que ainda não estão preparados para a formação de letras — desenvolvem a força da pega do lápis, a coordenação olho-mão e os movimentos musculares específicos usados na escrita. Os traços de pré-escrita estão disponíveis no modo Texto Personalizado.`,
     },
     {
-      question: 'O que significa a independência por fila?',
+      question: `O que significa a independência por fila?`,
       answer:
         `Cada fila da ficha tem as suas próprias definições independentes para o modo de prática, estilo de fonte, fonte de conteúdo e uso de maiúsculas. Isto significa que a fila 1 pode estar em modo Traçado com fonte Imprensa com Setas a praticar o A maiúsculo, a fila 2 em Traçado Progressivo com Imprensa de Traçado a praticar o a minúsculo, e a fila 3 em Cópia Guiada com Cursiva para uma palavra completa — tudo na mesma ficha. A independência por fila permite-lhe criar fichas progressivas que normalmente requereriam várias páginas.`,
     },
@@ -183,10 +183,10 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — os três modos de prática, os cinco estilos de fonte, os traços de pré-escrita, a biblioteca de imagens, a configuração por fila, a entrada de texto personalizado e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — os três modos de prática, os cinco estilos de fonte, os traços de pré-escrita, a biblioteca de imagens, a configuração por fila, a entrada de texto personalizado e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
-      question: 'O Gerador de Escrita é sensível ao idioma?',
+      question: `O Gerador de Escrita é sensível ao idioma?`,
       answer:
         `Não. O Gerador de Escrita é uma ferramenta de prática visual de escrita manuscrita — as formas das letras, as setas da ordem dos traços e os modos de prática não mudam conforme o idioma. As etiquetas da interface traduzem-se para os 11 idiomas suportados, e a biblioteca de imagens fornece nomes de imagens localizados para as fontes de conteúdo, mas a funcionalidade principal de prática de escrita é a mesma independentemente do idioma. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de escrita como downloads digitais na Etsy, como cadernos de caligrafia impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os três modos de prática, os cinco estilos de fonte, a ordem de traços por setas e os traços de pré-escrita oferecem-lhe uma forte diferenciação em categorias saturadas das plataformas de venda.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modo de prática, cada estilo de fonte, os traços de pré-escrita, cada fonte de conteúdo, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'trem-alfabeto-fichas',
-      anchorText: 'Gerador de Fichas de Trem do Alfabeto',
+      anchorText: `Gerador de Fichas de Trem do Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'preposicoes-fichas',
-      anchorText: 'Gerador de Fichas de Preposições',
+      anchorText: `Gerador de Fichas de Preposições`,
     },
     {
       pageType: 'app',
       slug: 'adivinhar-palavras-fichas',
-      anchorText: 'Gerador de Fichas de Adivinhar Palavras',
+      anchorText: `Gerador de Fichas de Adivinhar Palavras`,
     },
     {
       pageType: 'app',
       slug: 'palavras-embaralhadas-fichas',
-      anchorText: 'Gerador de Fichas de Palavras Embaralhadas',
+      anchorText: `Gerador de Fichas de Palavras Embaralhadas`,
     },
     {
       pageType: 'app',
       slug: 'caca-palavras-fichas',
-      anchorText: 'Gerador de Fichas de Caça-Palavras',
+      anchorText: `Gerador de Fichas de Caça-Palavras`,
     },
     {
       pageType: 'app',
       slug: 'criptograma-imagens-fichas',
-      anchorText: 'Gerador de Fichas de Criptograma',
+      anchorText: `Gerador de Fichas de Criptograma`,
     },
     {
       pageType: 'bundle',
@@ -240,7 +240,7 @@ const content: AppContent = {
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `O Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -250,8 +250,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'ensino-domestico-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para educação em casa',
+      slug: `ensino-domestico-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para educação em casa`,
     },
     {
       pageType: 'guide',
@@ -267,12 +267,12 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/writing/writing custom.webp',
+        src: `/samples/portuguese/writing/writing custom.webp`,
         alt: `Ficha de escrita em modo traçado com fonte imprensa com setas mostrando direções numeradas da ordem dos traços`,
         caption: `Modo Traçado com ordem de traços por setas — setas direcionais numeradas mostram a sequência exata de formação de letras`,
       },
       {
-        src: '/samples/portuguese/writing/writing.webp',
+        src: `/samples/portuguese/writing/writing.webp`,
         alt: `Ficha de escrita em modo traçado progressivo com letras a desvanecer progressivamente ao longo de cada fila`,
         caption: `Modo Traçado Progressivo — as letras desvanecem progressivamente para desenvolver a confiança na escrita autónoma`,
       },

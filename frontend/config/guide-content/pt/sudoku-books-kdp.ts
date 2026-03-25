@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'livros sudoku KDP',
     secondaryKeywords: [
-      'como criar livros de sudoku para Amazon KDP',
-      'livros de sudoku com imagens para crianças KDP',
-      'guia de publicação de livros de puzzles de sudoku',
-      'série de livros de sudoku Amazon autopublicação',
+      `como criar livros de sudoku para Amazon KDP`,
+      `livros de sudoku com imagens para crianças KDP`,
+      `guia de publicação de livros de puzzles de sudoku`,
+      `série de livros de sudoku Amazon autopublicação`,
     ],
     lsiKeywords: [
       `grelha sudoku dificuldade fácil médio difícil perito progressão`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `série sudoku volumes compra recorrente solucionadores leais catálogo`,
       `número puzzles sudoku design página chaves respostas impressão corte`,
     ],
-    titleTag: 'Livros sudoku KDP — Guia de publicação',
+    titleTag: `Livros sudoku KDP — Guia de publicação`,
     metaDescription: `Crie livros de sudoku KDP com sudoku de imagens para crianças e sudoku numérico para adultos. Progressão de dificuldade, formatação de grelhas e estratégia.`,
   },
 
   hero: {
-    title: 'Como criar livros de sudoku para Amazon KDP',
+    title: `Como criar livros de sudoku para Amazon KDP`,
     tagline: `Um guia focado para criar e publicar livros de puzzles de sudoku na Amazon KDP — abrangendo o duplo mercado de sudoku com imagens para crianças pequenas e sudoku numérico para adultos, estratégias de progressão de dificuldade que mantêm os solucionadores envolvidos desde secções fáceis até perito, formatação de grelhas específica de sudoku para impressão limpa, design de página e convenções de chaves de respostas únicas de livros de sudoku, a abordagem de construção de séries que aproveita o comportamento de compra recorrente excecionalmente forte dos solucionadores de sudoku, e o caminho de expansão desde um catálogo de sudoku para a publicação mais ampla de livros de puzzles`,
     description: `O sudoku ocupa uma posição única entre os livros de puzzles KDP. Ao contrário da maioria dos tipos de puzzles que servem uma única audiência, o sudoku divide-se em dois produtos fundamentalmente diferentes: sudoku com imagens para crianças dos 3 aos 7 anos que desenvolve competências lógicas precoces usando imagens em vez de números, e sudoku numérico para adultos que vai desde grelhas relaxantes fáceis até desafios exigentes de nível perito. Cada formato tem a sua própria audiência, termos de pesquisa, convenções de design de capa e panorama competitivo. Este guia centra-se especificamente no que torna a publicação de livros de sudoku distinta da publicação geral de livros de puzzles: a oportunidade de duplo mercado, a progressão de dificuldade que importa mais para o sudoku do que para qualquer outro tipo de puzzle, os requisitos de formatação específicos de sudoku para impressão, e a economia de compra recorrente que faz do sudoku uma das categorias mais fiáveis para construir catálogo na KDP.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Compreenda o mercado de livros de sudoku na KDP',
+      heading: `Compreenda o mercado de livros de sudoku na KDP`,
       content: `Os livros de sudoku na Amazon KDP servem duas audiências fundamentalmente diferentes que requerem produtos separados, anúncios separados e abordagens de marketing separadas. Compreender esta divisão do mercado é essencial antes de criar qualquer conteúdo.\n\nO sudoku numérico para adultos é o mercado principal por volume. Os compradores adultos de sudoku dividem-se em vários segmentos: solucionadores casuais que resolvem um ou dois puzzles por dia como ritual de relaxamento, entusiastas dedicados que resolvem dezenas de grelhas semanalmente e consomem múltiplos livros por mês, viajantes à procura de entretenimento sem ligação à internet, e seniores que usam o sudoku para exercício cognitivo. Cada segmento pesquisa de forma diferente na Amazon — os solucionadores casuais pesquisam «sudoku fácil» ou «sudoku para principiantes», os entusiastas pesquisam «sudoku difícil» ou «sudoku perito 16×16», e os seniores pesquisam «sudoku letra grande» ou «sudoku para seniores fácil». O título e as palavras-chave do seu livro devem coincidir com a linguagem específica do seu segmento-alvo.\n\nO sudoku com imagens para crianças ocupa uma posição de mercado completamente separada. Os pais e vendedores de pré-escola pesquisam termos como «sudoku com imagens para crianças», «puzzles de lógica para pré-escolares» e «sudoku para jardim de infância». O sudoku com imagens usa imagens em vez de números em grelhas simplificadas — tipicamente 4×4 para idades 3 a 5 e 6×6 para idades 5 a 7 — tornando a lógica central do sudoku acessível a crianças que ainda não conseguem trabalhar com números. A competição no sudoku com imagens infantil é substancialmente menor do que no sudoku numérico para adultos, criando uma oportunidade para editores dispostos a criar conteúdo apropriado para crianças com visuais apelativos e formatação específica por idade.\n\nA subcategoria de sudoku em letra grande merece atenção especial. Os compradores de sudoku em letra grande estão entre os compradores recorrentes mais leais em toda a Amazon KDP. Estes compradores precisam de um mínimo de fonte de 16 pontos para os dígitos das células, espessura generosa de linhas de grelha e contraste claro entre as linhas de grelha e o conteúdo das células. Uma vez que um comprador de sudoku em letra grande encontra um editor cuja formatação genuinamente cumpre as suas necessidades de acessibilidade, compra volume após volume com mínima sensibilidade ao preço. A subcategoria também suporta preços de venda 1 a 3 dólares acima do formato padrão porque os compradores valorizam a acomodação de formatação.\n\nAntes de criar conteúdo, analise os 20 primeiros resultados da Amazon para os seus termos de pesquisa-alvo. Tome nota dos números de puzzles, intervalos de dificuldade, preços, números de páginas e padrões de avaliações. Preste especial atenção às queixas nas avaliações de 1 e 2 estrelas — os problemas comuns incluem grelhas demasiado pequenas, chaves de respostas em falta ou incorretas, má calibração de dificuldade onde os puzzles «fáceis» são na realidade difíceis, e problemas de qualidade de impressão onde as linhas de grelha são demasiado ténues. Cada queixa que abordar torna-se uma vantagem competitiva no seu livro.`,
     },
     {
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `O sudoku tem requisitos de formatação para impressão mais exigentes do que a maioria dos outros tipos de puzzles porque os solucionadores escrevem números em células individuais e precisam de limites visuais precisos. Uma formatação de grelha deficiente — linhas ténues, células apertadas, limites de caixas pouco claros — gera avaliações negativas mais rapidamente em livros de sudoku do que em quase qualquer outra categoria.\n\nO tamanho de célula da grelha é o parâmetro de formatação mais crítico. Para livros de sudoku padrão para adultos, cada célula deve medir pelo menos 0,55 polegadas quadradas para permitir escrita manual confortável de dígitos. Para edições em letra grande, as células devem ser de 0,7 a 0,8 polegadas quadradas. Para sudoku com imagens infantil, as células precisam de ser pelo menos 0,8 polegadas quadradas para acomodar as imagens e deixar espaço para as crianças marcarem as suas respostas. Teste o tamanho da sua célula imprimindo uma página de exemplo e escrevendo dígitos ou marcando imagens em cada célula — se a sua escrita parecer apertada, aumente o tamanho da célula.\n\nA hierarquia de linhas de grelha é essencial para o sudoku porque os solucionadores devem distinguir visualmente as células individuais dentro das caixas de 3×3 e as caixas dentro da grelha geral. Use três espessuras de linha distintas: linhas finas (0,5 a 0,75 pontos) para os limites de células individuais, linhas médias (1,5 a 2 pontos) para os limites de caixas de 3×3, e linhas grossas (2 a 2,5 pontos) para o bordo exterior da grelha. Esta hierarquia visual permite aos solucionadores identificar instantaneamente os limites das caixas sem esforço consciente, o que é crítico para o fluxo de resolução. Os livros com espessura de linha uniforme para todos os limites recebem queixas consistentes sobre a legibilidade da grelha.\n\nO design de página para livros de sudoku segue uma convenção padrão: um puzzle por página para formatos padrão e letra grande, ou dois puzzles por página para formatos compactos de viagem. O design de um por página é fortemente preferido pelos compradores e deve ser a sua opção por defeito. Coloque o número do puzzle e a etiqueta de dificuldade no topo de cada página. Centre a grelha verticalmente na página com margens adequadas em todos os lados. Para um tamanho de corte de 8,5 × 11 polegadas com uma grelha de 9×9 a células de 0,55 polegadas, a grelha em si ocupa aproximadamente 5 × 5 polegadas, deixando um espaço generoso circundante que evita que a página pareça sobrecarregada.\n\nAs chaves de respostas para livros de sudoku devem mostrar grelhas completas com todos os dígitos preenchidos, usando um formato visualmente distinto das páginas de puzzles — tipicamente grelhas mais pequenas impressas 4 a 6 por página na secção de respostas. Etiquete cada grelha de respostas com o seu número de puzzle correspondente. Coloque a secção completa de respostas no final do livro. As chaves de respostas em falta ou incorretas são a razão individual mais comum para avaliações de 1 estrela em livros de sudoku na Amazon.`,
     },
     {
-      heading: 'Estruture o seu livro de sudoku para máximo valor',
+      heading: `Estruture o seu livro de sudoku para máximo valor`,
       content: `A estrutura geral do seu livro de sudoku afeta tanto o valor percebido como a usabilidade prática. Um livro bem estruturado parece profissional e intencional, enquanto um mal estruturado parece uma coleção aleatória de puzzles independentemente da qualidade do conteúdo.\n\nAs páginas iniciais devem incluir uma portadilha, um índice listando cada secção de dificuldade com números de página de início, e uma breve introdução. Para livros de adultos, a introdução deve descrever os níveis de dificuldade incluídos e quaisquer dicas de resolução para cada nível. Para livros de sudoku com imagens infantis, a introdução deve incluir um tutorial visual mostrando como funciona o sudoku com imagens com um exemplo resolvido passo a passo que um pai possa percorrer com o seu filho. Mantenha as páginas iniciais concisas — os compradores de sudoku querem chegar aos puzzles rapidamente.\n\nO número de puzzles determina tanto a espessura física do seu livro como o seu valor percebido. Para livros de sudoku numérico para adultos, o padrão do mercado é de 100 a 200 puzzles. Os livros com menos de 80 puzzles recebem consistentemente queixas sobre conteúdo insuficiente. O ponto ideal para um primeiro volume é de 100 a 120 puzzles — substancial o suficiente para parecer grande valor, mas manejável o suficiente para produzir rapidamente e fixar preços competitivamente. Para livros de sudoku com imagens infantis, 40 a 60 puzzles é padrão porque as crianças trabalham os puzzles mais lentamente e a formatação maior usa mais espaço por página.\n\nO número de páginas afeta tanto o custo de impressão como o preço de venda. Calcule o seu número de páginas com base no número de puzzles mais páginas iniciais mais chaves de respostas. Para um livro de 120 puzzles para adultos com um puzzle por página: aproximadamente 6 páginas de páginas iniciais, 120 páginas de puzzles, páginas separadoras de secção entre níveis de dificuldade, e 20 a 25 páginas de chaves de respostas (a 6 soluções por página), totalizando aproximadamente 150 a 155 páginas. Use a calculadora de custos de impressão da KDP para verificar o seu custo por cópia neste número de páginas e confirme que o seu preço de venda-alvo produz uma regalia aceitável.\n\nA secção de chaves de respostas é inegociável e deve ser completa e precisa. Verifique cada grelha de respostas contra o seu puzzle correspondente antes da publicação. Uma única chave de respostas incorreta gerará avaliações negativas e erodirá a confiança do comprador em toda a sua série. Formate as chaves de respostas em tamanho reduzido (4 a 6 grelhas por página) para manter a secção de respostas compacta enquanto permanece legível. Numere cada grelha de respostas claramente e considere incluir o número de página do puzzle correspondente para fácil referência cruzada.\n\nAs páginas finais devem incluir uma página de «Mais livros deste autor» listando todos os seus títulos publicados, organizados por série e nível de dificuldade. Esta página de promoção cruzada é uma das suas ferramentas de venda mais valiosas porque os compradores de sudoku que terminam o seu livro e querem mais puzzles verificarão esta página antes de procurar na Amazon um editor diferente.`,
     },
     {
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `O sudoku com imagens substitui os números por imagens em grelhas simplificadas, tornando a lógica central do sudoku acessível a crianças pequenas que ainda não aprenderam os números. Uma grelha de sudoku com imagens de 4×4 usa 4 imagens diferentes (como um gato, cão, peixe e pássaro) onde cada imagem deve aparecer exatamente uma vez em cada linha e coluna. O sudoku numérico usa a grelha clássica de 9×9 onde os dígitos de 1 a 9 devem aparecer uma vez em cada linha, coluna e caixa de 3×3. A lógica fundamental é idêntica — ambos requerem dedução para determinar que elemento pertence em cada célula vazia — mas a apresentação, audiência e nível de dificuldade são completamente diferentes. O sudoku com imagens serve crianças dos 3 aos 7 anos, enquanto o sudoku numérico serve crianças mais velhas e adultos.`,
     },
     {
-      question: 'Quantos puzzles de sudoku deve conter um livro?',
+      question: `Quantos puzzles de sudoku deve conter um livro?`,
       answer: `O padrão do mercado para livros de sudoku numérico para adultos é de 100 a 200 puzzles por volume. Os livros com menos de 80 puzzles recebem consistentemente queixas de compradores sobre valor insuficiente. O ponto ideal para um primeiro volume é de 100 a 120 puzzles, que proporciona conteúdo substancial enquanto mantém os custos de impressão manejáveis. Para livros de sudoku com imagens infantis, 40 a 60 puzzles é padrão porque as crianças trabalham os puzzles mais lentamente e a formatação maior baseada em imagens requer mais espaço por página. Verifique sempre os números de puzzles dos livros mais vendidos na sua subcategoria específica para calibrar o seu conteúdo contra as expectativas atuais do comprador.`,
     },
     {
@@ -139,44 +139,44 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'livros-caca-palavras-kdp',
-      title: 'Criar livros de caça-palavras para Amazon KDP',
+      title: `Criar livros de caça-palavras para Amazon KDP`,
       description: `Expanda do sudoku para o caça-palavras, a categoria de livros de puzzles de maior volume na Amazon KDP. Cobre listas de palavras temáticas, tamanho de grelha, formatação de letra grande e estratégia de séries para livros de caça-palavras.`,
     },
     {
       slug: 'publicar-livros-puzzles-kdp',
-      title: 'Publicar livros de puzzles na Amazon KDP',
+      title: `Publicar livros de puzzles na Amazon KDP`,
       description: `O guia mais amplo de publicação de livros de puzzles abrangendo sudoku, caça-palavras, palavras cruzadas e livros de variedade. Inclui estratégia de catálogo multi-tipo e promoção cruzada entre formatos de puzzles.`,
     },
     {
-      slug: 'ganhar-dinheiro-kdp-livros-atividades',
-      title: 'Ganhar dinheiro com livros de atividades KDP',
+      slug: `ganhar-dinheiro-kdp-livros-atividades`,
+      title: `Ganhar dinheiro com livros de atividades KDP`,
       description: `O guia completo de receitas para editores KDP. Cobre estratégia de preços, economia de catálogo, publicação sazonal e abordagens multiplataforma para maximizar as receitas de livros de atividades.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: 'Como publicar livros de puzzles no Amazon KDP' },
+    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: `Como publicar livros de puzzles no Amazon KDP` },
     { pageType: 'guide', slug: 'livros-caca-palavras-kdp', anchorText: `Como criar livros de caça-palavras para Amazon KDP` },
-    { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
-    { pageType: 'guide', slug: 'ganhar-dinheiro-kdp-livros-atividades', anchorText: 'Como ganhar dinheiro com livros de atividades KDP' },
-    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: 'Guia de formatação KDP para livros de fichas' },
-    { pageType: 'guide', slug: 'melhores-nichos-kdp-livros-atividades', anchorText: 'Melhores nichos de livros de atividades KDP' },
-    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
-    { pageType: 'guide', slug: 'criar-sudoku-imagens', anchorText: 'Como criar sudoku com imagens para crianças' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: `livros-atividades-matematica-kdp`, anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
+    { pageType: 'guide', slug: `ganhar-dinheiro-kdp-livros-atividades`, anchorText: `Como ganhar dinheiro com livros de atividades KDP` },
+    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: `Guia de formatação KDP para livros de fichas` },
+    { pageType: 'guide', slug: `melhores-nichos-kdp-livros-atividades`, anchorText: `Melhores nichos de livros de atividades KDP` },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: `Amazon KDP ou Etsy: Onde vender imprimíveis` },
+    { pageType: 'guide', slug: 'criar-sudoku-imagens', anchorText: `Como criar sudoku com imagens para crianças` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'sudoku-criancas-fichas', anchorText: 'Gerador de puzzles de sudoku — Todos os detalhes' },
+    { pageType: 'app', slug: 'sudoku-criancas-fichas', anchorText: `Gerador de puzzles de sudoku — Todos os detalhes` },
   ],
 
   toolsRecommended: [
     {
       appId: 'sudoku',
-      title: 'Gerador de puzzles de sudoku com imagens',
+      title: `Gerador de puzzles de sudoku com imagens`,
       description: `A ferramenta principal para criar puzzles de sudoku com imagens para livros infantis. Gera grelhas de sudoku temáticas baseadas em imagens com dificuldade, temas de imagens e tamanhos de grelha personalizáveis para conteúdo KDP pronto para impressão.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Gerador de fichas de puzzles matemáticos',
+      title: `Gerador de fichas de puzzles matemáticos`,
       description: `Cria puzzles de lógica baseados em números que complementam o sudoku em livros de puzzles de variedade. Os puzzles matemáticos servem a mesma audiência de entusiastas de puzzles orientados a números que desfrutam do sudoku.`,
     },
     {
@@ -186,28 +186,28 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Complemento multicategoria para livros de variedade de puzzles infantis. As páginas para colorir combinadas com sudoku com imagens criam livros de atividades múltiplas apelativos para crianças pequenas.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: 'Puzzle de sudoku com imagens mostrando grelha temática de imagens adequada para páginas interiores de livros de sudoku Amazon KDP' },
+    heroImage: { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: `Puzzle de sudoku com imagens mostrando grelha temática de imagens adequada para páginas interiores de livros de sudoku Amazon KDP` },
     samples: [
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 2.webp`, alt: 'Sudoku com imagens temático de animais formatado para livro de sudoku infantil KDP', caption: 'Sudoku com imagens com tema de animais — grelhas baseadas em imagens tornam a lógica do sudoku acessível a crianças dos 3 aos 7 anos que ainda não aprenderam os números' },
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 3.webp`, alt: 'Ficha de sudoku com imagens para interior de livro KDP', caption: 'Ficha de sudoku com imagens — grelhas de 4×4 com imagens claras e tamanho de células generoso para resolução confortável por crianças pequenas' },
-      { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp`, alt: 'Ficha de puzzle matemático para catálogo complementar de puzzles KDP', caption: 'Puzzle matemático — puzzles de lógica baseados em números complementam o sudoku naturalmente em livros de puzzles de variedade e promovem-se cruzadamente através da sua página de autor' },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 2.webp`, alt: `Sudoku com imagens temático de animais formatado para livro de sudoku infantil KDP`, caption: `Sudoku com imagens com tema de animais — grelhas baseadas em imagens tornam a lógica do sudoku acessível a crianças dos 3 aos 7 anos que ainda não aprenderam os números` },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 3.webp`, alt: `Ficha de sudoku com imagens para interior de livro KDP`, caption: `Ficha de sudoku com imagens — grelhas de 4×4 com imagens claras e tamanho de células generoso para resolução confortável por crianças pequenas` },
+      { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp`, alt: `Ficha de puzzle matemático para catálogo complementar de puzzles KDP`, caption: `Puzzle matemático — puzzles de lógica baseados em números complementam o sudoku naturalmente em livros de puzzles de variedade e promovem-se cruzadamente através da sua página de autor` },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: `Como criar puzzles de sudoku com imagens para livros Amazon KDP — Tutorial passo a passo`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Tatu — imagem educativa temática', caption: 'Tatu' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagem educativa temática', caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Tatu — imagem educativa temática`, caption: 'Tatu' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagem educativa temática`, caption: 'Bisonte' },
   ],
 };
 

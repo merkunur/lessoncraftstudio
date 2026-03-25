@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Jardín de Infantes — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de jardín de infantes para vender en Etsy, Amazon KDP y Gumroad. Productos nivel kínder y estrategias de nicho para vendedores.`,
-    primaryKeyword: 'ideas imprimibles jardín de infantes',
+    primaryKeyword: `ideas imprimibles jardín de infantes`,
     secondaryKeywords: [
-      'fichas jardín de infantes para vender',
-      'negocio imprimibles nivel kínder',
-      'fichas actividades kínder para vendedores',
-      'vender imprimibles jardín de infantes en Gumroad',
+      `fichas jardín de infantes para vender`,
+      `negocio imprimibles nivel kínder`,
+      `fichas actividades kínder para vendedores`,
+      `vender imprimibles jardín de infantes en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas pre-kínder y kínder',
-      'imprimibles aprendizaje primera infancia',
-      'páginas actividades tienda edades 5-6',
+      `fichas educativas pre-kínder y kínder`,
+      `imprimibles aprendizaje primera infancia`,
+      `páginas actividades tienda edades 5-6`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ El segmento de compradores de jardín de infantes también incluye una proporci�
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Jardín de Infantes en Etsy',
+      title: `Vender Imprimibles de Jardín de Infantes en Etsy`,
       description: `Etsy captura el enorme segmento de compradores padres que buscan materiales de práctica en casa de jardín de infantes con términos como «fichas jardín de infantes», «actividades preparación kínder», «fichas práctica palabras de uso frecuente» y «fichas matemáticas jardín de infantes» durante cada mes del año académico y más allá. Utiliza las trece etiquetas con variaciones que combinen objetivos de habilidades específicas, identificadores de grado y formatos de actividad: «fichas suma hasta 10 jardín de infantes», «práctica palabras de uso frecuente kínder imprimible» y «actividades lectura K-1» apuntan a compradores motivados mucho más efectivamente que etiquetas genéricas de imprimibles educativos. Agrupa productos por asignatura académica para aumentar el valor promedio del pedido: un paquete de matemáticas de jardín de infantes que cubra conteo, suma y patrones, un paquete de lectura con palabras de uso frecuente, sopas de letras y actividades de palabras CVC, y un paquete de preparación para la escritura con formación de letras y actividades de dibujo sirven cada uno necesidades distintas de los padres mientras fomentan múltiples compras. La temporada de regreso a clases en agosto y septiembre crea el mayor pico de demanda, pero la demanda durante todo el año de padres que complementan la instrucción del mercado y familias que educan en el hogar construyendo programas completos de jardín de infantes mantiene fuertes ventas base cada mes.`,
     },
     {
@@ -145,18 +145,18 @@ El segmento de compradores de jardín de infantes también incluye una proporci�
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -165,12 +165,12 @@ El segmento de compradores de jardín de infantes también incluye una proporci�
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -181,17 +181,17 @@ El segmento de compradores de jardín de infantes también incluye una proporci�
     {
       pageType: 'idea',
       slug: 'preescolar-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles Preescolares',
+      anchorText: `Ideas de Negocio de Imprimibles Preescolares`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Avión — imagen educativa temática', caption: 'Avión' },
-    { src: '/image-library/toys/baby.webp', alt: 'Bebé — imagen educativa temática', caption: 'Bebé' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Bebé Niña — imagen educativa temática', caption: 'Bebé Niña' },
-    { src: '/image-library/toys/ball.webp', alt: 'Pelota — imagen educativa temática', caption: 'Pelota' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Globo — imagen educativa temática', caption: 'Globo' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Avión — imagen educativa temática`, caption: 'Avión' },
+    { src: '/image-library/toys/baby.webp', alt: `Bebé — imagen educativa temática`, caption: 'Bebé' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Bebé Niña — imagen educativa temática`, caption: 'Bebé Niña' },
+    { src: '/image-library/toys/ball.webp', alt: `Pelota — imagen educativa temática`, caption: 'Pelota' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Globo — imagen educativa temática`, caption: 'Globo' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
   ],
 
 

@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'optimización tienda Gumroad',
     secondaryKeywords: [
-      'cómo optimizar tu tienda Gumroad',
+      `cómo optimizar tu tienda Gumroad`,
       `factores de posicionamiento algoritmo búsqueda Gumroad`,
       `aumentar ventas Gumroad con optimización de tienda`,
-      'estrategia de crecimiento tienda Gumroad',
+      `estrategia de crecimiento tienda Gumroad`,
     ],
     lsiKeywords: [
       `posicionamiento búsqueda Gumroad tasa conversión visibilidad producto marketplace emprendedores`,
@@ -47,11 +47,11 @@ const content: GuideContent = {
       content: `El archivo de vista previa es donde ocurre la mayoría de las decisiones de compra en Gumroad. Los vendedores en esta plataforma son compradores metódicos — abren las vistas previas, recorren cada página, evalúan la calidad del formateo y contenido, y luego deciden si el recurso cumple sus necesidades del mercado. Una vista previa débil mata ventas en recursos que de otra forma convertirían, y una vista previa fuerte puede compensar una descripción que no comunica completamente el valor del recurso.\n\nElige tus páginas de vista previa estratégicamente. Incluye tu portada (muestra profesionalismo y marca), una o dos de tus páginas de actividad más fuertes (demuestra la calidad real del contenido), una página mostrando el alcance de lo que incluye (construye valor percibido), y una muestra del formato de tu clave de respuestas (aborda una preocupación común del vendedor). El objetivo es mostrar suficiente para que los vendedores evalúen la calidad con confianza mientras dejas suficiente contenido sin previsualizar para que comprar siga proporcionando valor significativo adicional.\n\nLas páginas de actividad que incluyas en la vista previa deberían representar tu mejor trabajo dentro del recurso. Si tu paquete de fichas contiene 15 páginas con complejidad y atractivo visual variados, selecciona las dos o tres páginas que son más visualmente atractivas y que demuestran claramente la segmentación por nivel de habilidad del recurso. Los vendedores extrapolan de las páginas de vista previa — asumen que las páginas no previsualizadas coinciden con la calidad de lo que ven. Asegúrate de que esa suposición trabaje a tu favor.\n\nConsidera cuidadosamente la proporción de vista previa a recurso completo. Mostrar muy poco (solo la portada y un índice) no demuestra la calidad del contenido y deja a los vendedores sin poder evaluar si el recurso cumple sus necesidades. Mostrar demasiado (8 de 12 páginas) elimina el incentivo de comprar porque la vista previa ya proporciona la mayor parte del valor. Para un recurso de 10 a 15 páginas, 3 a 5 páginas de vista previa típicamente da el equilibrio correcto. Para recursos más grandes (25 o más páginas), puedes mostrar 5 a 8 páginas mientras retienes contenido sustancial sin previsualizar.\n\nLa marca de agua es una elección estratégica, no un requisito. Algunos vendedores ponen marca de agua en las páginas de vista previa con una superposición diagonal «VISTA PREVIA» a baja opacidad para evitar el uso comercial de las páginas de vista previa sin compra. Otros dejan las vistas previas limpias, argumentando que el beneficio de conversión de una vista previa sin obstrucción supera la pérdida de ingresos mínima de vendedores que podrían usar las páginas de vista previa directamente. Prueba ambos enfoques y rastrea cuál convierte mejor para tus tipos de recursos específicos.\n\nRevisita y actualiza las vistas previas siempre que actualices el recurso en sí. Una vista previa desactualizada que no refleja la versión actual de tu recurso crea una desconexión que lleva a decepción del comprador y reseñas negativas. Trata tu vista previa como un documento de ventas vivo que siempre represente con precisión lo que el comprador recibirá.`,
     },
     {
-      heading: 'Construye una estrategia de generación de reseñas',
+      heading: `Construye una estrategia de generación de reseñas`,
       content: `Las reseñas en Gumroad cumplen un doble propósito: influyen en el posicionamiento del algoritmo de búsqueda e influyen en las decisiones de compra de los vendedores. Un recurso con 20 reseñas positivas se vende a una tasa significativamente mayor que un recurso idéntico con 2 reseñas, tanto porque el algoritmo lo posiciona más alto como porque los vendedores confían más en él. Construir impulso de reseñas es una de las estrategias de optimización a largo plazo de mayor impacto para tu tienda Gumroad.\n\nEl enfoque ético más efectivo para generar reseñas es incluir una petición educada de reseña dentro de los archivos de tu recurso. Añade una página al final de tu recurso (después de la clave de respuestas, antes de los términos de uso) que agradezca al vendedor por su compra, le pida dejar una valor percibido si encontró el recurso útil, e incluya una breve explicación de cómo las reseñas ayudan a los pequeños vendedores a crear más recursos para venta en línea. Mantén la petición genuina y sin presión — los vendedores aprecian la honestidad y se alejan de la solicitud agresiva de reseñas.\n\nLa calidad es la base de las reseñas orgánicas. Los recursos que genuinamente ayudan a los vendedores a ahorrar tiempo, involucrar a los usuarios y cumplir los objetivos del catálogo de productos generan reseñas positivas naturalmente. Cuando una vendedora usa tus fichas de sumas como trabajo matutino durante una semana y ve a sus usuarios mejorando, está motivada a dejar una reseña positiva sin que se lo pidan. Céntrate en crear recursos que entreguen valor medible en línea, y las reseñas seguirán como consecuencia natural de la calidad.\n\nResponde a cada reseña que recibas, positiva o negativa. Agradecer a los vendedores por las reseñas positivas crea una conexión personal y señala a otros compradores potenciales que eres un vendedor activo y comprometido. Responder a las reseñas críticas de forma constructiva — reconociendo la retroalimentación, explicando las actualizaciones que has hecho basándote en ella, y ofreciendo abordar las preocupaciones del vendedor directamente — demuestra profesionalismo y a menudo motiva al reseñador a actualizar su valor percibido.\n\nManeja las reseñas negativas como oportunidades de mejora en lugar de amenazas. Una reseña de una estrella que dice «las fichas eran demasiado fáciles para mis usuarios de tercero» son datos valiosos sobre la segmentación por nivel de grado. Usa esta retroalimentación para refinar las descripciones de tu recurso (aclarando el nivel de dificultad previsto), actualizar el recurso en sí (añadiendo opciones de nivel desafío), o crear un recurso complementario a un nivel de dificultad más alto.\n\nNunca ofrezcas incentivos por reseñas, compres reseñas ni participes en manipulación de reseñas. Gumroad tiene políticas contra la inflación artificial de reseñas, y los vendedores pueden detectar reseñas no auténticas. Deja que tu base de reseñas crezca orgánicamente a través de calidad consistente y peticiones educadas y sin presión.`,
     },
     {
-      heading: 'Estructura tu tienda para navegación amigable',
+      heading: `Estructura tu tienda para navegación amigable`,
       content: `Muchos vendedores que visitan tu página de tienda Gumroad llegan porque encontraron un recurso a través de la búsqueda. Si compran recursos adicionales durante esa visita depende en gran medida de lo fácil que sea explorar tu tienda y encontrar otros anuncios relevantes. Una tienda bien organizada convierte visitantes de un solo recurso en compradores de múltiples recursos; una tienda desorganizada pierde esas ventas adicionales.\n\nUsa las secciones de tienda Gumroad (también llamadas categorías o categorías personalizadas) para organizar tus recursos en agrupaciones lógicas. Las estructuras de sección efectivas varían según el enfoque de la tienda, pero los enfoques comunes incluyen organizar por nivel de grado («Jardín de infantes», «Primer grado», «Segundo grado»), por asignatura («Matemáticas», «Lectoescritura», «Ciencias»), por tipo de recurso («Fichas», «Paquetes de actividades», «Paquetes agrupados»), o por enfoque de habilidad («Sumas y restas», «Palabras frecuentes», «Comprensión lectora»). Elige la estructura que mejor refleje cómo piensa tu audiencia objetivo al buscar recursos.\n\nCrea progresiones lógicas de productos dentro de tus secciones. Cuando un vendedor explora tu sección de «Sumas», debería ver una progresión clara de más fácil a más complejo: sumas básicas de un solo dígito, doble dígito sin reagrupación, doble dígito con reagrupación, triple dígito, repaso mixto. Esta progresión ayuda a los vendedores a encontrar el nivel de dificultad exacto que necesitan y muestra la amplitud de tu contenido en esa área de habilidad, animándolos a comprar múltiples recursos en la progresión.\n\nDestaca tus recursos más fuertes y mejores paquetes de forma prominente. Gumroad te permite designar recursos destacados que aparecen en la parte superior de tu página de tienda. Elige recursos con tus calificaciones más altas, reseñas más fuertes y mejores tasas de conversión. Si ofreces paquetes personalizados o anuncios de paquetes curados, destácalos también — los paquetes con descuento son convincentes para vendedores que encuentran múltiples recursos relevantes en tu tienda.\n\nMantén las secciones de tu tienda actualizadas a medida que tu catálogo crece. Las secciones vacías o casi vacías lucen inacabadas y socavan la confianza del comprador. Si creas una sección de «Ciencias» pero solo tienes un recurso de ciencias, considera eliminar la sección hasta que tengas suficientes recursos para poblarla significativamente (al menos 3 a 5 anuncios por sección).`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'crear-vender-recursos-tpt',
-      title: 'Cómo crear y vender recursos Gumroad',
+      title: `Cómo crear y vender recursos Gumroad`,
       description: `La guía para principiantes de Gumroad que cubre configuración de cuenta, creación de recursos, empaquetado de archivos, fundamentos de anuncios, precios y lanzamiento de tus primeros recursos en el marketplace educativo.`,
     },
     {
       slug: 'seo-etsy-material-educativo',
-      title: 'SEO en Etsy para imprimibles educativos',
+      title: `SEO en Etsy para imprimibles educativos`,
       description: `Estrategias de optimización SEO para vendedores de Etsy. Muchos principios de optimización de Gumroad se traducen a Etsy con ajustes específicos de plataforma para etiquetas, títulos y descripciones.`,
     },
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía completa para iniciar un negocio de imprimibles`,
       description: `La guía fundamental de negocio que cubre creación de contenido, licencias comerciales, estrategia multiplataforma y construcción de un negocio de imprimibles sostenible.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-vender-recursos-tpt', anchorText: 'Cómo crear y vender recursos Gumroad' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: 'crear-vender-recursos-tpt', anchorText: `Cómo crear y vender recursos Gumroad` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'Amazon KDP o Etsy: Dónde vender imprimibles' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para imprimibles educativos' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Cómo fijar precios de tus imprimibles Etsy' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: 'Cómo crear paquetes de fichas Etsy' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
-    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de sumas para niños' },
-    { pageType: 'guide', slug: 'crear-crucigramas', anchorText: 'Cómo crear crucigramas para niños' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: `Amazon KDP o Etsy: Dónde vender imprimibles` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para imprimibles educativos` },
+    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: `Cómo fijar precios de tus imprimibles Etsy` },
+    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: `Cómo crear paquetes de fichas Etsy` },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
+    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: `Cómo crear fichas de sumas para niños` },
+    { pageType: 'guide', slug: 'crear-crucigramas', anchorText: `Cómo crear crucigramas para niños` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
@@ -177,12 +177,12 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Generador de fichas de puzles matemáticos',
+      title: `Generador de fichas de puzles matemáticos`,
       description: `Genera formatos únicos de puzles matemáticos con menor competencia en Gumroad que las fichas estándar. Una herramienta de diferenciación para tiendas que buscan destacar en categorías saturadas de recursos de matemáticas.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de asociación',
+      title: `Generador de fichas de asociación`,
       description: `Produce actividades de asociación en demanda constante en todos los niveles de grado y asignaturas de Gumroad. Un tipo de actividad fundamental que los vendedores buscan por tema, haciéndolo ideal para construir series de recursos temáticos.`,
     },
     {
@@ -193,22 +193,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Recurso de sopa de letras optimizado para visibilidad y ventas en tienda Gumroad` },
+    heroImage: { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Recurso de sopa de letras optimizado para visibilidad y ventas en tienda Gumroad` },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras optimizada para crecimiento de catálogo de tienda Gumroad`, caption: 'Las sopas de letras están entre los recursos Gumroad más versátiles — crea variaciones temáticas estacionales para expansión rápida del catálogo' },
-      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 3.webp`, alt: 'Ficha de puzle matemático para diferenciación de tienda Gumroad', caption: 'Los formatos únicos de puzles matemáticos enfrentan menor competencia en Gumroad que las fichas estándar — una estrategia de diferenciación para categorías saturadas' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Actividad de crucigrama para recursos de vocabulario Gumroad', caption: 'Los crucigramas son actividades de vocabulario de alta demanda que los vendedores buscan por asignatura y nivel de grado en Gumroad' },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras optimizada para crecimiento de catálogo de tienda Gumroad`, caption: `Las sopas de letras están entre los recursos Gumroad más versátiles — crea variaciones temáticas estacionales para expansión rápida del catálogo` },
+      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 3.webp`, alt: `Ficha de puzle matemático para diferenciación de tienda Gumroad`, caption: `Los formatos únicos de puzles matemáticos enfrentan menor competencia en Gumroad que las fichas estándar — una estrategia de diferenciación para categorías saturadas` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Actividad de crucigrama para recursos de vocabulario Gumroad`, caption: `Los crucigramas son actividades de vocabulario de alta demanda que los vendedores buscan por asignatura y nivel de grado en Gumroad` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo crear sopas de letras para tu tienda Gumroad — Tutorial de optimización`,
   },
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
   ],
 };
 

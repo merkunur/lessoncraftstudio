@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles ESL para Vender — Guía de Nicho',
+    titleTag: `Ideas Imprimibles ESL para Vender — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles ESL para vender en Etsy, Amazon KDP y Gumroad. Estrategias de nicho para vendedores dirigidos a vendedores, tutores y aprendices.`,
     primaryKeyword: 'ideas imprimibles ESL',
     secondaryKeywords: [
       'fichas ESL para vender',
       'ideas negocio imprimibles ESL',
-      'fichas actividades aprendices de inglés',
-      'vender imprimibles ESL en Gumroad',
+      `fichas actividades aprendices de inglés`,
+      `vender imprimibles ESL en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas aprendices de inglés como segundo idioma',
-      'imprimibles educativos multilingües',
-      'recursos actividades tienda TESOL',
+      `fichas aprendices de inglés como segundo idioma`,
+      `imprimibles educativos multilingües`,
+      `recursos actividades tienda TESOL`,
     ],
   },
   hero: {
@@ -42,7 +42,7 @@ El panorama competitivo en imprimibles ESL favorece a los especialistas sobre lo
       appId: 'addition',
     },
     {
-      title: 'Sopas de Letras ESL para Vender en Línea',
+      title: `Sopas de Letras ESL para Vender en Línea`,
       description: `Sopas de letras enfocadas en vocabulario que apuntan a palabras de alta frecuencia en inglés, conjuntos de vocabulario temático y palabras de uso frecuente que los usuarios ESL y ELL necesitan para la fluidez académica y conversacional en todos los niveles de competencia desde recién llegado hasta avanzado. Utiliza el generador de Sopas de Letras para crear puzzles con vocabulario de inglés de supervivencia para usuarios recién llegados cubriendo saludos, objetos del mercado, comida, ropa y palabras de la familia, vocabulario académico organizado por área de contenido para instrucción protegida, dificultad progresiva desde palabras básicas de uso frecuente para aprendices principiantes hasta lenguaje académico para usuarios ELL avanzados, y conjuntos temáticos alineados con unidades de productoses ESL comunes como comunidad, salud, transporte y empleo.`,
       appId: 'wordsearch',
     },
@@ -91,17 +91,17 @@ El panorama competitivo en imprimibles ESL favorece a los especialistas sobre lo
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles ESL en Etsy',
+      title: `Vender Imprimibles ESL en Etsy`,
       description: `Etsy captura vendedores ESL, tutores y padres que buscan con términos como «fichas ESL», «imprimibles ELL», «actividades aprendices de inglés», «vocabulario ESL», «recursos TESOL» y «fichas para recién llegados» durante los doce meses porque la inscripción ESL es continua y nunca está vinculada a una sola ventana de compra de regreso a clases. Utiliza las trece etiquetas con variaciones que combinen niveles de competencia, temas de vocabulario, entornos instruccionales y demografías de aprendices para captar los diversos segmentos de compradores dentro de la comunidad ESL que buscan de manera diferente según enseñen programas de extracción K-12, clases de educación de adultos o sesiones de tutoría privada. Agrupa productos por nivel de competencia creando paquetes de vocabulario para principiantes, intermedios y avanzados, o por tema de vocabulario ofreciendo colecciones de vida comunitaria, inglés laboral y lenguaje académico que fomenten múltiples compras del mismo comprador. Los compradores internacionales de países donde no se habla inglés compran materiales ESL en Etsy para uso en escuelas de idiomas y tutoría, extendiendo tu alcance de mercado mucho más allá de los países de habla inglesa. Los productos con alto contenido visual y apoyos de imágenes atraen a compradores en todos los niveles de competencia en inglés porque los compradores ESL buscan específicamente materiales donde las imágenes apoyen el aprendizaje de vocabulario en lugar de depender de instrucciones con mucho texto que los aprendices principiantes no pueden acceder de forma independiente.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades ESL en KDP',
+      title: `Publicar Libros de Actividades ESL en KDP`,
       description: `Amazon KDP sirve al mercado ESL de manera efectiva porque los vendedores, tutores y administradores de escuelas de idiomas compran activamente libros de ejercicios de vocabulario integrales y compilaciones de libros de actividades como suplementos de productoses y recursos de autoestudio, añadiendo libros educativos a sus pedidos regulares de Amazon junto con herramientas de aprendizaje de idiomas y materiales de desarrollo profesional durante todo el año. Compila fichas individuales de vocabulario en libros de actividades cohesivos de sesenta a cien páginas organizados por nivel de competencia o tema de vocabulario, creando libros de ejercicios enfocados como «libros de actividades para aprendices de inglés» cubriendo vocabulario de vida diaria con apoyo de imágenes, «constructores de vocabulario ESL» dirigidos a lenguaje académico para instrucción protegida, «libros de ejercicios de diccionario ilustrado» emparejando imágenes con palabras en inglés a través de categorías temáticas, libros de práctica ESL para adultos diseñados para programas de educación comunitaria y aprendices autodirigidos, y libros de ejercicios de inglés para principiantes dirigidos a mercados internacionales donde los aprendices de inglés compran directamente. Posiciona los libros estratégicamente usando los campos de palabras clave de KDP con términos como «libro ejercicios ESL», «actividades aprendices de inglés», «vocabulario ELL», «fichas TESOL» y «práctica inglés principiante» para capturar tanto a profesionales ESL domésticos como a audiencias internacionales de aprendizaje del inglés.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Crear Recursos ESL para Gumroad',
+      title: `Crear Recursos ESL para Gumroad`,
       description: `Los vendedores ESL y ELL son un segmento de compradores grande y en crecimiento en Gumroad que buscan actividades de vocabulario, materiales de instrucción protegida y recursos diferenciados para tiendas de competencia mixta donde usuarios en niveles de competencia en inglés desde principiante hasta avanzado trabajan simultáneamente en diferentes objetivos de vocabulario y comprensión. Etiqueta los productos con niveles de competencia específicos usando marcos ampliamente reconocidos como los niveles WIDA o designaciones de principiante, intermedio y avanzado para que los compradores puedan identificar rápidamente recursos que coincidan con la competencia actual en inglés y la ubicación instruccional de sus usuarios. Incluye apoyos visuales e instrucciones con andamiaje en las vistas previas de los productos porque los profesionales ESL evalúan los materiales basándose en cuán efectivamente reducen las barreras lingüísticas al acceso al contenido para usuarios que aún desarrollan su comprensión del inglés. Los paquetes de bienvenida para recién llegados y los paquetes de inglés de supervivencia obtienen precios premium porque los vendedores ESL necesitan estos materiales inmediatamente cuando nuevos usuarios llegan a mitad de año y no pueden esperar recursos proporcionados por el distrito que pueden nunca materializarse. Los recursos de vocabulario de áreas de contenido para instrucción protegida atraen tanto a especialistas ESL como a vendedores del mercado general con usuarios ELL que necesitan pre-enseñanza de vocabulario y andamiajes de comprensión en las áreas de contenido de matemáticas, ciencias y estudios sociales.`,
     },
     {
@@ -121,7 +121,7 @@ El panorama competitivo en imprimibles ESL favorece a los especialistas sobre lo
       answer: `El nicho de imprimibles ESL ofrece una demanda genuinamente durante todo el año que es más consistente a través de los doce meses que la mayoría de los nichos educativos porque la inscripción ESL ocurre continuamente durante todo el año escolar en lugar de concentrarse en las fechas de inicio del calendario académico tradicional. Los nuevos usuarios ingresan a los programas ESL en cualquier momento a medida que las familias se reubican, los plazos de procesamiento de inmigración crean llegadas a mitad de año y el reasentamiento de refugiados ocurre en cronogramas rotativos completamente sin relación con los calendarios escolares. Esta inscripción continua significa que los vendedores ESL regularmente necesitan materiales de bienvenida para recién llegados, recursos de vocabulario para principiantes y actividades de práctica listas para evaluación en intervalos impredecibles durante todo el año académico. Los programas de verano, las iniciativas de educación comunitaria, las clases ESL para adultos y la tutoría privada continúan durante los recesos, manteniendo la demanda a través de los meses cuando las compras de educación general típicamente disminuyen. La dimensión internacional de compradores añade aún más consistencia porque las escuelas de idiomas y tutores en diferentes países operan con diferentes calendarios académicos, distribuyendo la actividad de compra a través de todos los meses en lugar de concentrarla alrededor de una sola temporada de regreso a clases.`,
     },
     {
-      question: '¿Qué tipos de imprimibles ESL se venden mejor?',
+      question: `¿Qué tipos de imprimibles ESL se venden mejor?`,
       answer: `Las categorías de imprimibles ESL de mayor demanda reflejan las necesidades específicas de construcción de vocabulario y andamiaje de comprensión que impulsan las decisiones de compra a través de los diversos segmentos de compradores ESL. Las fichas de vocabulario con apoyo de imágenes se posicionan consistentemente entre las más vendidas porque conectar palabras en inglés con imágenes visuales es la estrategia instruccional fundamental utilizada en todos los niveles de competencia ESL desde recién llegado hasta avanzado, haciendo que los recursos de vocabulario con imágenes sean universalmente aplicables independientemente de la población específica de aprendices que un comprador atiende. Las actividades de palabras de uso frecuente y palabras de alta frecuencia se venden bien porque estas palabras forman la base de la fluidez lectora en inglés y cada programa ESL las aborda en todos los niveles de grado y niveles de competencia. Los conjuntos de vocabulario temático organizados por temas de vida diaria como comida, ropa, familia, comunidad, salud y empleo atraen tanto a compradores ESL de K-12 como de educación de adultos que estructuran la instrucción alrededor de temas de vocabulario funcional. Los materiales para recién llegados y de inglés de supervivencia obtienen precios premium porque los vendedores necesitan estos recursos inmediatamente cuando llegan nuevos usuarios y no pueden esperar alternativas proporcionadas por el catálogo de productos. Las actividades con andamiaje con instrucciones visuales e indicaciones simplificadas en inglés atraen a compradores que necesitan materiales que sus usuarios de nivel principiante puedan acceder de forma independiente durante rotaciones en centros de aprendizaje e instrucción en grupos pequeños.`,
     },
     {
@@ -145,18 +145,18 @@ El panorama competitivo en imprimibles ESL favorece a los especialistas sobre lo
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -165,12 +165,12 @@ El panorama competitivo en imprimibles ESL favorece a los especialistas sobre lo
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -180,18 +180,18 @@ El panorama competitivo en imprimibles ESL favorece a los especialistas sobre lo
     },
     {
       pageType: 'idea',
-      slug: 'educacion-especial-ideas-imprimibles',
+      slug: `educacion-especial-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Educación Especial`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — imagen educativa temática`, caption: 'Calendario' },
   ],
 
 

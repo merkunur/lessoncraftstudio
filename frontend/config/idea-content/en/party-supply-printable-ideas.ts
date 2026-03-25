@@ -7,20 +7,20 @@ const content: IdeaContent = {
 
     primaryKeyword: 'printable party supply',
     secondaryKeywords: [
-      'printable party supplies to sell',
-      'party decoration printable business',
-      'birthday party printable ideas',
-      'sell party supply printables on Etsy',
+      `printable party supplies to sell`,
+      `party decoration printable business`,
+      `birthday party printable ideas`,
+      `sell party supply printables on Etsy`,
     ],
     lsiKeywords: [
-      'celebration themed printable products',
-      'party invitation and banner templates',
-      'event decoration digital downloads',
+      `celebration themed printable products`,
+      `party invitation and banner templates`,
+      `event decoration digital downloads`,
     ],
   },
   hero: {
-    title: 'Printable Party Supply Business Ideas for Sellers',
-    description: `Party supply printables represent a uniquely profitable niche where sellers create themed activity packs, party games, coloring pages, and educational entertainment materials for birthday celebrations, group parties, holiday events, and family gatherings, reaching buyers who would never search for traditional worksheet products but actively seek engaging party activities and coordinated celebration materials. The party supply niche benefits from constant year-round demand because birthdays happen every single day and seasonal celebrations like Halloween, Valentine's Day, Christmas, Easter, and end-of-school parties create predictable purchasing peaks that experienced sellers plan their production schedules around months in advance. Parents planning birthday parties, buyers organizing group celebrations, event coordinators managing community gatherings, daycare providers filling activity time during holiday weeks, and party planners assembling themed celebration packages represent the primary buyer segments who purchase printable party materials in quantities that drive substantial per-order revenue. Themed party packs command premium prices compared to individual worksheets because buyers purchase complete coordinated activity sets rather than single sheets, bundling word searches, bingo cards, coloring pages, matching games, and drawing activities into comprehensive party entertainment packages that justify higher price points through the convenience and thematic consistency they provide. The party printable niche crosses over between educational and entertainment markets, positioning sellers to reach an entirely different customer segment than traditional worksheet businesses while using the same generator tools and production workflows that educational printable sellers already know. Party buyers exhibit strong repeat purchase behavior because parents with multiple children buy for each child's birthday celebration throughout the year, buyers purchase group party packs for every seasonal celebration during the academic calendar, and event coordinators return to trusted sellers whenever they plan new gatherings. For printable sellers and entrepreneurs building party supply product lines, this guide covers specific party-themed product ideas built around our worksheet generator tools, platform strategies for reaching party supply buyers across major marketplaces and marketing channels, and business approaches that help you build a profitable party printable business with predictable seasonal demand cycles and strong average order values.`,
+    title: `Printable Party Supply Business Ideas for Sellers`,
+    description: `Party supply printables represent a uniquely profitable niche where sellers create themed activity packs, party games, coloring pages, and educational entertainment materials for birthday celebrations, group parties, holiday events, and family gatherings, reaching buyers who would never search for traditional worksheet products but actively seek engaging party activities and coordinated celebration materials. The party supply niche benefits from constant year-round demand because birthdays happen every single day and seasonal celebrations like Halloween, Valentine`s Day, Christmas, Easter, and end-of-school parties create predictable purchasing peaks that experienced sellers plan their production schedules around months in advance. Parents planning birthday parties, buyers organizing group celebrations, event coordinators managing community gatherings, daycare providers filling activity time during holiday weeks, and party planners assembling themed celebration packages represent the primary buyer segments who purchase printable party materials in quantities that drive substantial per-order revenue. Themed party packs command premium prices compared to individual worksheets because buyers purchase complete coordinated activity sets rather than single sheets, bundling word searches, bingo cards, coloring pages, matching games, and drawing activities into comprehensive party entertainment packages that justify higher price points through the convenience and thematic consistency they provide. The party printable niche crosses over between educational and entertainment markets, positioning sellers to reach an entirely different customer segment than traditional worksheet businesses while using the same generator tools and production workflows that educational printable sellers already know. Party buyers exhibit strong repeat purchase behavior because parents with multiple children buy for each child`s birthday celebration throughout the year, buyers purchase group party packs for every seasonal celebration during the academic calendar, and event coordinators return to trusted sellers whenever they plan new gatherings. For printable sellers and entrepreneurs building party supply product lines, this guide covers specific party-themed product ideas built around our worksheet generator tools, platform strategies for reaching party supply buyers across major marketplaces and marketing channels, and business approaches that help you build a profitable party printable business with predictable seasonal demand cycles and strong average order values.`,
   },
   marketOverview: `The party supply printable market operates on fundamentally different demand patterns than traditional educational worksheet markets because party purchases are driven by celebration schedules rather than academic calendars, creating a year-round demand cycle where birthday parties generate consistent baseline sales every day of the year while seasonal celebrations produce dramatic purchasing peaks that sellers can forecast and prepare for months in advance. Birthday parties alone create an enormous addressable market because every child celebrates a birthday annually, parents increasingly plan themed celebrations requiring coordinated activity materials, and the trend toward DIY party planning has shifted purchasing from expensive professional party planners toward affordable printable materials that parents customize and produce themselves at home.
 
@@ -88,8 +88,8 @@ Party printables have strong gift-giving and viral marketing potential because s
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Printable Party Supplies on Etsy',
-      description: `Etsy dominates the party supply printable market with massive search traffic from parents planning birthday celebrations and buyers preparing group party activities, making it the primary marketplace for printable party games, activity packs, and themed celebration materials. Optimize listings with specific party theme keywords including the celebration type, age group, and activity format because party buyers search with highly specific queries like themed birthday activity pack for a particular age range or holiday group party games for elementary-age children. Use all listing photo slots to showcase the party atmosphere context of your materials with mockup images showing products in celebration settings on decorated tables alongside party supplies and decorations. Seasonal party listings aligned with Halloween, Valentine's Day, Christmas, and end-of-school celebrations create predictable sales peaks that experienced party printable sellers plan production schedules around throughout the year, listing seasonal products weeks before each holiday search trend begins to capture early-planning shoppers. Etsy's category structure for party supplies and paper goods places your printable party products alongside physical party supplies in buyer search results, reaching shoppers browsing for celebration materials who discover your digital alternatives while searching for traditional party supply products.`,
+      title: `Selling Printable Party Supplies on Etsy`,
+      description: `Etsy dominates the party supply printable market with massive search traffic from parents planning birthday celebrations and buyers preparing group party activities, making it the primary marketplace for printable party games, activity packs, and themed celebration materials. Optimize listings with specific party theme keywords including the celebration type, age group, and activity format because party buyers search with highly specific queries like themed birthday activity pack for a particular age range or holiday group party games for elementary-age children. Use all listing photo slots to showcase the party atmosphere context of your materials with mockup images showing products in celebration settings on decorated tables alongside party supplies and decorations. Seasonal party listings aligned with Halloween, Valentine`s Day, Christmas, and end-of-school celebrations create predictable sales peaks that experienced party printable sellers plan production schedules around throughout the year, listing seasonal products weeks before each holiday search trend begins to capture early-planning shoppers. Etsy`s category structure for party supplies and paper goods places your printable party products alongside physical party supplies in buyer search results, reaching shoppers browsing for celebration materials who discover your digital alternatives while searching for traditional party supply products.`,
     },
     {
       platform: 'Amazon & Online Marketplaces',
@@ -97,7 +97,7 @@ Party printables have strong gift-giving and viral marketing potential because s
       description: `Amazon and general online marketplaces provide access to party supply buyers who search for celebration materials alongside physical party decorations, favors, and supplies, reaching customers who plan parties entirely through Amazon purchasing and would never visit Etsy or specialty printable shops for activity materials. List printable party packs alongside keywords that physical party supply buyers search, positioning your digital or printed materials as complementary products to decorations, tableware, and favor supplies that party planners purchase together as part of complete celebration preparation. Bundle party activity packs with clear age-range targeting and theme descriptions that help buyers quickly identify whether your products match their specific celebration needs, because marketplace party supply searches generate enormous volume but require precise targeting to convert browsers into buyers. The massive search volume for birthday party supplies on Amazon means even a small percentage of party supply searchers discovering your printable activity packs represents significant potential sales volume, and the cross-selling opportunity between physical party supplies and printable activities creates a natural discovery path for buyers who had not previously considered printable party materials.`,
     },
     {
-      platform: 'Party Planning & Parent Communities',
+      platform: `Party Planning & Parent Communities`,
       title: `Marketing Party Printables Through Planning Communities`,
       description: `Party planning websites, parenting blogs, Pinterest boards, and parent community forums represent high-intent marketing channels where party planners actively seek activity ideas and printable resources for upcoming celebrations. Create sample party activity layouts and themed celebration guides that showcase your printable products in the context of complete party planning, demonstrating how your materials solve the common problem of keeping children entertained throughout entire celebrations without expensive professional entertainment services. Pinterest is especially valuable for party printable marketing because party planners actively search and save ideas weeks or months before celebrations, creating extended discovery windows where your pinned products receive ongoing organic traffic from planners building celebration idea boards they return to repeatedly as the party date approaches. Build relationships with party planning bloggers and parenting influencers who feature printable party resources in their celebration guides and recommendation posts, providing sample materials they can showcase in their content while linking back to your marketplace listings for their audience to purchase directly.`,
     },
@@ -143,32 +143,32 @@ Party printables have strong gift-giving and viral marketing potential because s
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -177,18 +177,18 @@ Party printables have strong gift-giving and viral marketing potential because s
     },
     {
       pageType: 'idea',
-      slug: 'physical-printable-product-ideas',
-      anchorText: 'Physical Printable Product Business Ideas',
+      slug: `physical-printable-product-ideas`,
+      anchorText: `Physical Printable Product Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

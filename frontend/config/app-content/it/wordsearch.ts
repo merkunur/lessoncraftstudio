@@ -2,17 +2,17 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede cerca parole',
+    primaryKeyword: `generatore schede cerca parole`,
     secondaryKeywords: [
-      'schede cerca parole stampabili per venditori Etsy',
-      'generatore griglie parole nascoste per Amazon KDP',
-      'vendere schede cerca parole su Gumroad',
+      `schede cerca parole stampabili per venditori Etsy`,
+      `generatore griglie parole nascoste per Amazon KDP`,
+      `vendere schede cerca parole su Gumroad`,
       `schede cerca parole con foglio risposte codice colori licenza commerciale`,
     ],
     lsiKeywords: [
       `prodotti digitali puzzle parole nascoste per imprenditori`,
       `attività stampabili cerca parole per business online`,
-      'generatore schede cerca parole uso commerciale',
+      `generatore schede cerca parole uso commerciale`,
     ],
     titleTag: `Generatore Schede Cerca Parole | Crea e Vendi Stampabili`,
     metaDescription:
@@ -27,10 +27,10 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Come Creare Schede Cerca Parole in 5 Passaggi',
+    title: `Come Creare Schede Cerca Parole in 5 Passaggi`,
     steps: [
       {
-        title: 'Configura il layout della pagina',
+        title: `Configura il layout della pagina`,
         description:
           `Apri il pannello Impostazioni Pagina e scegli un formato: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale o qualsiasi dimensione personalizzata. Seleziona un colore di sfondo, scegli un tema decorativo di sfondo dalla libreria di immagini e regola l'opacità per mantenere la griglia leggibile. Aggiungi una cornice decorativa con controllo di opacità indipendente. Queste opzioni di layout danno alle tue schede cerca parole un aspetto professionale e curato prima ancora di aggiungere una singola parola.`,
       },
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: `Puzzle di parole nascoste in griglia con indizi visivi`,
         description:
-          `Ogni puzzle incorpora parole nascoste all'interno di una griglia di lettere di riempimento casuali. gli utenti scorrono righe, colonne e diagonali per trovare ogni parola — il formato negozico di cerca parole che stimola simultaneamente la percezione visiva, il riconoscimento di schemi e il richiamo del vocabolario. Nella modalità Libreria di Immagini o Modifica Manuale, le immagini appaiono accanto alla griglia come indizi visivi, collegando il riconoscimento delle immagini all'identificazione delle parole. La modalità Lista di Parole Personalizzata crea cerca parole puramente testuali senza immagini, ampliando il formato a qualsiasi tema o set di vocabolario.`,
+          `Ogni puzzle incorpora parole nascoste all`interno di una griglia di lettere di riempimento casuali. gli utenti scorrono righe, colonne e diagonali per trovare ogni parola — il formato negozico di cerca parole che stimola simultaneamente la percezione visiva, il riconoscimento di schemi e il richiamo del vocabolario. Nella modalità Libreria di Immagini o Modifica Manuale, le immagini appaiono accanto alla griglia come indizi visivi, collegando il riconoscimento delle immagini all`identificazione delle parole. La modalità Lista di Parole Personalizzata crea cerca parole puramente testuali senza immagini, ampliando il formato a qualsiasi tema o set di vocabolario.`,
       },
       {
         title: `Dimensione della griglia personalizzabile da 5×5 a 30×30`,
@@ -83,12 +83,12 @@ const content: AppContent = {
       {
         title: `Riempimento alfabetico adattato alla lingua con caratteri specifici`,
         description:
-          `Le lettere di riempimento della griglia si adattano automaticamente all'alfabeto e alla frequenza dei caratteri della lingua selezionata. Le griglie in tedesco includono ä, ö, ü e ß con frequenze ponderate che riflettono il testo tedesco naturale. Le griglie in francese includono à, â, é, è, ê, ë, î, ï, ô, ù, û e ç. Le griglie in italiano includono à, è, é, ì, ò e ù con frequenze che riflettono il testo italiano naturale. Ogni lingua supportata ottiene lettere di riempimento autentiche, rendendo i puzzle linguisticamente naturali anziché ovviamente generati in inglese. Questa funzionalità è unica di Cerca Parole — influenza non solo le parole nascoste ma l'intero sfondo della griglia.`,
+          `Le lettere di riempimento della griglia si adattano automaticamente all`alfabeto e alla frequenza dei caratteri della lingua selezionata. Le griglie in tedesco includono ä, ö, ü e ß con frequenze ponderate che riflettono il testo tedesco naturale. Le griglie in francese includono à, â, é, è, ê, ë, î, ï, ô, ù, û e ç. Le griglie in italiano includono à, è, é, ì, ò e ù con frequenze che riflettono il testo italiano naturale. Ogni lingua supportata ottiene lettere di riempimento autentiche, rendendo i puzzle linguisticamente naturali anziché ovviamente generati in inglese. Questa funzionalità è unica di Cerca Parole — influenza non solo le parole nascoste ma l`intero sfondo della griglia.`,
       },
       {
         title: `Foglio risposte con codice colori a 6 colori di evidenziazione`,
         description:
-          `Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un'identificazione visiva istantanea, facilitando l\'autoverifica da parte degli utenti o il valore percepito rapida da parte dei venditori. Il formato con codice colori è visivamente attraente e professionale — un passo avanti rispetto ai semplici fogli risposte con «cerchia la parola». Attiva l'esportazione in scala di grigi quando necessiti di versioni economiche in inchiostro per la stampa in bianco e nero.`,
+          `Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un`identificazione visiva istantanea, facilitando l'autoverifica da parte degli utenti o il valore percepito rapida da parte dei venditori. Il formato con codice colori è visivamente attraente e professionale — un passo avanti rispetto ai semplici fogli risposte con «cerchia la parola». Attiva l`esportazione in scala di grigi quando necessiti di versioni economiche in inchiostro per la stampa in bianco e nero.`,
       },
       {
         title: `Esportazione PDF e JPEG pronta per la stampa a oltre 400 DPI`,
@@ -104,66 +104,66 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Come Vendere Schede Cerca Parole Online',
+    title: `Come Vendere Schede Cerca Parole Online`,
     cases: [
       {
-        title: 'Pacchetti tematici di cerca parole su Etsy',
+        title: `Pacchetti tematici di cerca parole su Etsy`,
         description:
           `Crea set da 10 a 20 schede cerca parole raggruppate per tema e difficoltà — animali della fattoria in una griglia piccola 8×8 senza diagonali, creature marine in una griglia 15×15 con diagonali attivate, dinosauri in una griglia 20×20 con parole invertite — e offrili come download istantaneo su Etsy. Includi i fogli risposte con codice colori come file extra. Il formato griglia visivo con indizi di immagini si distingue rispetto alle semplici liste di parole nei risultati di ricerca di Etsy. Prezzo dei pacchetti tematici singoli tra €3–€5 e mega-pacchetti multi-tema con difficoltà progressiva tra €12–€18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Libri di cerca parole su Amazon KDP',
+        title: `Libri di cerca parole su Amazon KDP`,
         description:
           `Compila da 50 a 100 puzzle cerca parole in un libro di puzzle stampato in formato Amazon KDP. Usa dimensioni di griglia progressive come curva di difficoltà: inizia con griglie 6×6 solo orizzontali, prosegui con griglie 12×12 con diagonali e termina con griglie 25×25 con parole invertite attivate. Raggruppa i capitoli per tema (animali, alimenti, veicoli, natura) per una varietà navigabile. Aggiungi una copertina, una guida alla difficoltà e una sezione di fogli risposte con codice colori alla fine. I libri di cerca parole si vendono costantemente durante tutto l'anno con pubblicità minima.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centri di vocabolario differenziati per Gumroad',
+        title: `Centri di vocabolario differenziati per Gumroad`,
         description:
           `Costruisci set di pratica cerca parole per livelli usando la dimensione della griglia e i controlli di direzione come assi di differenziazione: Livello 1 (8×8, solo orizzontale, 4 parole), Livello 2 (12×12, orizzontale e verticale, 6 parole), Livello 3 (16×16, diagonali attivate, 8 parole) e Livello 4 (20×20, diagonali e invertite, 8 parole). Accompagna ogni livello con fogli risposte con codice colori e una scheda di monitoraggio dei progressi. Gli acquirenti di Gumroad pagano prezzi premium per risorse di vocabolario differenziate che possono usare immediatamente su più livelli di capacità.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Prodotti cerca parole multilingue con Accesso Completo`,
         description:
-          `L'Accesso Completo sblocca tutte le 11 lingue, e poiché Cerca Parole è sensibile alla lingua, le parole nascoste E le lettere di riempimento della griglia cambiano in base alla lingua. «Dog» in inglese diventa «cane» in italiano in una griglia riempita con caratteri italiani come à, è, é, ì, ò, ù; «Hund» in tedesco in una griglia con ä, ö, ü; «chien» in francese in una griglia con é, è, ç, à. Ogni versione linguistica è un prodotto genuinamente diverso con parole diverse, lettere di riempimento diverse e un'esperienza di risoluzione diversa. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy o libro KDP separato — undici flussi di entrate da un unico flusso di lavoro.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
+          `L`Accesso Completo sblocca tutte le 11 lingue, e poiché Cerca Parole è sensibile alla lingua, le parole nascoste E le lettere di riempimento della griglia cambiano in base alla lingua. «Dog» in inglese diventa «cane» in italiano in una griglia riempita con caratteri italiani come à, è, é, ì, ò, ù; «Hund» in tedesco in una griglia con ä, ö, ü; «chien» in francese in una griglia con é, è, ç, à. Ogni versione linguistica è un prodotto genuinamente diverso con parole diverse, lettere di riempimento diverse e un`esperienza di risoluzione diversa. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy o libro KDP separato — undici flussi di entrate da un unico flusso di lavoro.`,
+        platform: `Etsy / Amazon KDP / Gumroad (multilingue)`,
       },
       {
         title: `Strumento di vocabolario per negozio e ripetizioni`,
         description:
           `Usa la modalità Lista di Parole Personalizzata per creare schede cerca parole con qualsiasi lista di vocabolario — parole del dettato settimanale, termini di scienze, vocabolario di studi sociali o pratica di lingue straniere. Digita fino a 8 parole direttamente senza bisogno di immagini corrispondenti. Regola la dimensione della griglia e gli interruttori di direzione in base alle capacità di ogni utente: griglie piccole solo orizzontali per chi ha difficoltà nella lettura, griglie grandi con diagonali e inversioni per gli utenti avanzati. Stampa serie personalizzate in pochi minuti per piccoli gruppi o negozi intere. Il foglio risposte con codice colori fa risparmiare tempo nel valore percepito, e il formato negozico di cerca parole mantiene gli utenti motivati.`,
-        platform: 'negozio / Ripetizioni / Istruzione domiciliare',
+        platform: `negozio / Ripetizioni / Istruzione domiciliare`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Come funziona il puzzle cerca parole?',
+      question: `Come funziona il puzzle cerca parole?`,
       answer:
         `Le parole nascoste sono incorporate all'interno di una griglia di lettere di riempimento casuali. gli utenti scorrono righe, colonne e opzionalmente diagonali per trovare ogni parola. Quando trovata, gli utenti cerchiano o evidenziano la parola nella griglia. Le lettere di riempimento vengono generate casualmente ogni volta che generi, quindi ogni puzzle è unico anche con la stessa lista di parole. Possono essere posizionate fino a 8 parole in una singola griglia.`,
     },
     {
-      question: 'Quali dimensioni di griglia sono disponibili?',
+      question: `Quali dimensioni di griglia sono disponibili?`,
       answer:
         `Puoi configurare righe e colonne indipendentemente da 5 a 30. Il valore predefinito è 12×12. Una griglia 5×5 crea un puzzle rapido e facile con sole 25 caselle; una griglia 30×30 crea una ricerca densa e impegnativa con 900 caselle. Regolare la dimensione della griglia è il modo principale per controllare la difficoltà, insieme alle regolazioni della direzione delle parole.`,
     },
     {
       question: `Cosa fanno gli interruttori di direzione diagonale e invertita?`,
       answer:
-        `L'interruttore diagonale consente alle parole di essere posizionate lungo entrambi gli assi diagonali oltre a quello orizzontale e verticale. L\'interruttore invertita consente alle parole di essere posizionate al contrario in ogni direzione abilitata. Con entrambi attivati, le parole possono apparire in otto direzioni possibili. Con entrambi disattivati, le parole appaiono solo da sinistra a destra orizzontalmente e dall'alto verso il basso verticalmente. Questi interruttori ti permettono di calibrare la difficoltà dalle griglie semplici a due direzioni ai puzzle complessi a otto direzioni.`,
+        `L`interruttore diagonale consente alle parole di essere posizionate lungo entrambi gli assi diagonali oltre a quello orizzontale e verticale. L'interruttore invertita consente alle parole di essere posizionate al contrario in ogni direzione abilitata. Con entrambi attivati, le parole possono apparire in otto direzioni possibili. Con entrambi disattivati, le parole appaiono solo da sinistra a destra orizzontalmente e dall`alto verso il basso verticalmente. Questi interruttori ti permettono di calibrare la difficoltà dalle griglie semplici a due direzioni ai puzzle complessi a otto direzioni.`,
     },
     {
-      question: 'Quali sono le tre fonti di contenuto?',
+      question: `Quali sono le tre fonti di contenuto?`,
       answer:
         `La modalità Libreria di Immagini usa illustrazioni tematiche dove il nome dell'immagine diventa una parola nascosta nella griglia. La Modalità Modifica Manuale ti permette di selezionare immagini e poi personalizzare i nomi di visualizzazione prima di generare — perfetta per vocabolario alternativo o ortografie semplificate. La modalità Lista di Parole Personalizzata elimina le immagini del tutto e ti permette di digitare fino a 8 parole direttamente, rendendo possibili schede cerca parole per qualsiasi materia senza illustrazioni corrispondenti.`,
     },
     {
-      question: 'Quali sono le tre modalità di visualizzazione?',
+      question: `Quali sono le tre modalità di visualizzazione?`,
       answer:
-        `Mostra Parole e Immagini (predefinita) presenta sia gli indizi di immagini che le etichette delle parole accanto alla griglia. Mostra Solo Immagini presenta gli indizi di immagini senza etichette di testo, richiedendo agli utenti di identificare l'immagine e trovare la parola da soli. Mostra Solo Parole presenta le etichette di testo senza immagini, creando un'esperienza di cerca parole puramente testuale. Ogni modalità controlla cosa appare come riferimento degli indizi accanto alla griglia.`,
+        `Mostra Parole e Immagini (predefinita) presenta sia gli indizi di immagini che le etichette delle parole accanto alla griglia. Mostra Solo Immagini presenta gli indizi di immagini senza etichette di testo, richiedendo agli utenti di identificare l`immagine e trovare la parola da soli. Mostra Solo Parole presenta le etichette di testo senza immagini, creando un`esperienza di cerca parole puramente testuale. Ogni modalità controlla cosa appare come riferimento degli indizi accanto alla griglia.`,
     },
     {
       question: `Come funziona il riempimento alfabetico adattato alla lingua?`,
@@ -176,7 +176,7 @@ const content: AppContent = {
         `Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per essere visivamente distinguibile anche quando le parole si incrociano o sovrappongono nella griglia. Puoi attivare l'esportazione in scala di grigi per versioni del foglio risposte economiche in inchiostro. Il foglio risposte viene generato come file scaricabile separato.`,
     },
     {
-      question: 'Qual è il numero massimo di parole per puzzle?',
+      question: `Qual è il numero massimo di parole per puzzle?`,
       answer:
         `Puoi posizionare fino a 8 parole o immagini in una singola griglia cerca parole. Questo limite garantisce che le parole si inseriscano correttamente nella griglia senza sovrapposizioni eccessive. Per liste di parole più lunghe, crea più schede e raggruppale come set — questo aumenta anche il valore percepito dei tuoi pacchetti di prodotti.`,
     },
@@ -186,12 +186,12 @@ const content: AppContent = {
         `Sì. Poiché le parole nascoste sono i nomi delle immagini nella lingua selezionata, cambiare lingua altera completamente il contenuto del puzzle. Inoltre, le lettere di riempimento della griglia cambiano per corrispondere al set di caratteri della lingua con frequenze ponderate appropriate. «Dog» in inglese diventa «cane» in italiano in una griglia con à, è, é, ì, ò, ù. La Licenza Commerciale è solo in inglese; l'Accesso Completo sblocca tutte le 11 lingue, rendendo ogni versione linguistica un prodotto distinto con parole diverse e lettere di riempimento diverse.`,
     },
     {
-      question: 'È disponibile una prova gratuita?',
+      question: `È disponibile una prova gratuita?`,
       answer:
         `Sì. Puoi accedere a tutte le funzionalità — le tre fonti di contenuto, le tre modalità di visualizzazione, la libreria completa di immagini, le dimensioni di griglia regolabili, i controlli di direzione, i fogli risposte con codice colori e tutti i formati di esportazione — senza creare un account, inserire carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.`,
     },
     {
-      question: 'Qual è la politica di rimborso?',
+      question: `Qual è la politica di rimborso?`,
       answer:
         `Offriamo una garanzia di soddisfazione di 30 giorni. Se non sei soddisfatto del tuo acquisto, contatta il nostro team di supporto per richiedere un rimborso completo — senza domande. La tua soddisfazione è la nostra priorità.`,
     },
@@ -201,27 +201,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'treno-alfabeto-schede',
-      anchorText: 'Generatore di Schede Treno dell\'Alfabeto',
+      anchorText: `Generatore di Schede Treno dell'Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'preposizioni-schede',
-      anchorText: 'Generatore di Schede sulle Preposizioni',
+      anchorText: `Generatore di Schede sulle Preposizioni`,
     },
     {
       pageType: 'app',
       slug: 'indovina-parole-schede',
-      anchorText: 'Generatore di Schede Indovina Parole',
+      anchorText: `Generatore di Schede Indovina Parole`,
     },
     {
       pageType: 'app',
       slug: 'anagrammi-schede',
-      anchorText: 'Generatore di Schede Anagrammi',
+      anchorText: `Generatore di Schede Anagrammi`,
     },
     {
       pageType: 'app',
       slug: 'crittogramma-schede',
-      anchorText: 'Generatore di Schede Crittogramma con Immagini',
+      anchorText: `Generatore di Schede Crittogramma con Immagini`,
     },
     {
       pageType: 'bundle',
@@ -231,17 +231,17 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vendere-cerca-parole-etsy',
-      anchorText: 'Guida per Vendere Cerca Parole su Etsy',
+      anchorText: `Guida per Vendere Cerca Parole su Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: `La Guida Completa per Avviare un'Attività di Stampabili`,
     },
     {
       pageType: 'idea',
-      slug: 'animali-marini-idee-stampabili',
-      anchorText: 'Idee di Stampabili sugli Animali Marini',
+      slug: `animali-marini-idee-stampabili`,
+      anchorText: `Idee di Stampabili sugli Animali Marini`,
     },
     {
       pageType: 'idea',
@@ -250,34 +250,34 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'istruzione-domiciliare-idee-stampabili',
-      anchorText: 'Idee di stampabili per l\'istruzione a casa',
+      slug: `istruzione-domiciliare-idee-stampabili`,
+      anchorText: `Idee di stampabili per l'istruzione a casa`,
     },
     {
       pageType: 'guide',
       slug: 'creare-cerca-parole',
-      anchorText: 'Creare cerca parole che vendono',
+      anchorText: `Creare cerca parole che vendono`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+      primary: `/samples/italian/wordsearch/Cerca Parole 1.webp`,
       primaryAlt: `Scheda cerca parole con parole nascoste in una griglia di lettere e indizi di immagini che mostrano un puzzle di vocabolario`,
     },
     sampleGallery: [
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 2.webp',
+        src: `/samples/italian/wordsearch/Cerca Parole 2.webp`,
         alt: `Scheda cerca parole in formato verticale con griglia 12×12 e indizi di immagini tematici`,
         caption: `Formato verticale — griglia 12×12 con indizi di immagini tematici e lista di parole`,
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 3.webp',
+        src: `/samples/italian/wordsearch/Cerca Parole 3.webp`,
         alt: `Scheda cerca parole in formato orizzontale con griglia più grande e parole in diagonale attivate`,
         caption: `Formato orizzontale — griglia più ampia con parole in diagonale e invertite attivate`,
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 4.webp',
+        src: `/samples/italian/wordsearch/Cerca Parole 4.webp`,
         alt: `Scheda cerca parole usando la modalità lista di parole personalizzata senza immagini`,
         caption: `Modalità Lista di Parole Personalizzata — cerca parole solo testo senza indizi di immagini`,
       },

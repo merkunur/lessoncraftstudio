@@ -7,19 +7,19 @@ const content: IdeaContent = {
 
     primaryKeyword: 'farm animals printable ideas',
     secondaryKeywords: [
-      'farm animal worksheets to sell',
-      'farm themed printable business',
-      'farm activity sheets for sellers',
+      `farm animal worksheets to sell`,
+      `farm themed printable business`,
+      `farm activity sheets for sellers`,
       'sell farm printables on Etsy',
     ],
     lsiKeywords: [
-      'barnyard themed educational worksheets',
-      'agriculture activities for kids',
-      'livestock themed group printables',
+      `barnyard themed educational worksheets`,
+      `agriculture activities for kids`,
+      `livestock themed group printables`,
     ],
   },
   hero: {
-    title: 'Farm Animals Printable Business Ideas for Sellers',
+    title: `Farm Animals Printable Business Ideas for Sellers`,
     description: `Farm animals remain one of the most reliable themes in the educational printable market. From toddlers learning to count barnyard animals to early learners tracing the word "chicken," this niche attracts parents, buyers, and homeschoolers year-round. For printable sellers, the farm theme offers a rare combination of evergreen demand, broad age appeal, and strong seasonal peaks during spring and fall harvest. Whether you sell on Etsy, Amazon KDP, or Gumroad, farm animal printables represent a proven niche with room for creative differentiation. This guide walks you through specific product ideas, platform strategies, and pricing approaches to help you build a profitable farm-themed printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The farm animals printable niche sits at the intersection of two powerful buyer motivations: educational value and thematic appeal. Parents searching for farm-themed worksheets are typically looking for engaging ways to teach foundational skills like counting, letter recognition, vocabulary building, and fine motor development. Buyers seek group-ready resources that align with common early childhood units on farms and food production.
@@ -42,12 +42,12 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
 
   productIdeas: [
     {
-      title: 'Farm Animal Counting Worksheets for Sellers',
+      title: `Farm Animal Counting Worksheets for Sellers`,
       description: `Counting worksheets featuring cows, pigs, chickens, and horses are among the highest-demand farm printables. Create sets targeting different skill levels: count objects up to five for the preschool-age market, count and write numbers to ten for the early-learner niche, and skip-counting with farm animals for first graders. Use the Find and Count generator to produce visually rich scenes where children locate and tally specific animals. Bundle by difficulty level or combine all levels into a comprehensive counting pack that buyers can use across mixed-ability groups.`,
       appId: 'find-count',
     },
     {
-      title: 'Barnyard Word Search Puzzles to Sell Online',
+      title: `Barnyard Word Search Puzzles to Sell Online`,
       description: `Farm vocabulary word searches appeal to both parents and buyers building language skills around the farm theme. Create puzzles featuring animal names, farm equipment terms, crop vocabulary, and barnyard action words. The Word Search generator lets you control grid size and word count, making it easy to produce age-appropriate versions. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more words for older children. Seasonal variations like spring baby animals or fall harvest word searches extend your product catalog throughout the year.`,
       appId: 'wordsearch',
     },
@@ -72,7 +72,7 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
       appId: 'bingo',
     },
     {
-      title: 'Farm Animal Shadow Matching Worksheets to Sell',
+      title: `Farm Animal Shadow Matching Worksheets to Sell`,
       description: `Shadow matching develops visual discrimination skills that are critical for reading readiness, making these worksheets popular with preschool buyers and parents of three to five year olds. Use the Shadow Match generator to create pages where children match farm animals to their silhouettes. Vary difficulty by using animals with similar body shapes in advanced versions. These worksheets print beautifully in both color and grayscale, which is important for buyers who often print in black and white. Shadow matching sets of ten to fifteen pages sell consistently at the three to five dollar range.`,
       appId: 'shadow-match',
     },
@@ -96,22 +96,22 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Farm Animal Printables on Etsy',
+      title: `Selling Farm Animal Printables on Etsy`,
       description: `Etsy rewards specificity in farm animal printable listings. Instead of generic titles like "Farm Worksheets," target long-tail keywords such as "farm animal counting worksheets preschool" or "barnyard word search printable kindergarten." Use all thirteen tags with variations combining the theme, skill, and age group. Mockup images showing printed worksheets in group or home settings significantly outperform flat digital previews. Schedule new listings to coincide with seasonal demand peaks in March through April for spring farm units and September through October for harvest themes. Offer both individual worksheets and bundles, as Etsy buyers often start with a single low-cost purchase before returning for larger packs once they trust your quality.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Farm Animal Activity Books on KDP',
+      title: `Publishing Farm Animal Activity Books on KDP`,
       description: `Amazon KDP works best for farm-themed printables when you compile individual worksheets into cohesive activity books. A forty to sixty page farm animal activity book combining counting, coloring, matching, and tracing activities performs well in the children's activity book category. Use KDP keyword fields strategically: include "farm animals activity book," "barnyard worksheets for kids," and age-specific terms like "preschool farm book." Price between four and seven dollars for optimal royalty rates. Interior quality matters on KDP because negative reviews about print quality or page bleed-through permanently damage your listing. Always order a proof copy before publishing.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Farm Unit Resources for Gumroad Sellers',
+      title: `Creating Farm Unit Resources for Gumroad Sellers`,
       description: `Gumroad buyers are buyers looking for content-aligned resources they can use immediately. Farm animal printables on Gumroad perform best when packaged as complete mini-units with clear learning objectives, skill standards alignment, and buyer instruction notes. Include answer keys, suggested lesson plans, and differentiation options for mixed-ability groups. Gumroad's bundling feature lets you offer individual products and a discounted bundle simultaneously, capturing both budget-conscious and convenience-focused buyers. Detailed product previews showing four to six sample pages convert significantly better than single-image listings.`,
     },
     {
       platform: 'Gumroad and Shopify',
-      title: 'Building a Farm Printable Brand with Direct Sales',
+      title: `Building a Farm Printable Brand with Direct Sales`,
       description: `Direct sales platforms like Gumroad and Shopify let you build a recognizable farm-themed printable brand without marketplace competition on every listing. Create a cohesive product line with consistent visual styling across all farm worksheets. Use email collection to build a subscriber list of farm-theme buyers you can notify when new products launch. Direct platforms also allow flexible pricing and bundling strategies that marketplaces restrict. Consider offering a growing bundle where buyers pay once and receive all future farm-themed additions, creating ongoing value that justifies a higher price point of twenty to forty dollars.`,
     },
   ],
@@ -155,32 +155,32 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -190,17 +190,17 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Business Ideas',
+      anchorText: `Ocean Animals Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Chick — themed educational image', caption: 'Chick' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Bee — themed educational image`, caption: 'Bee' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Bull — themed educational image`, caption: 'Bull' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Calf — themed educational image`, caption: 'Calf' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Cat 2 — themed educational image`, caption: 'Cat 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: `Chick — themed educational image`, caption: 'Chick' },
   ],
 
 

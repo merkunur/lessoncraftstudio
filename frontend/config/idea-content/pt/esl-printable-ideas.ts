@@ -7,13 +7,13 @@ const content: IdeaContent = {
     primaryKeyword: 'ideias imprimíveis PLE',
     secondaryKeywords: [
       'fichas PLE para vender',
-      'ideias negócio imprimíveis PLE',
-      'fichas atividades aprendentes de língua',
-      'vender imprimíveis PLE no Gumroad',
+      `ideias negócio imprimíveis PLE`,
+      `fichas atividades aprendentes de língua`,
+      `vender imprimíveis PLE no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas português língua estrangeira',
-      'imprimíveis educativos multilingues',
+      `fichas português língua estrangeira`,
+      `imprimíveis educativos multilingues`,
       'recursos atividades loja PLNM',
     ],
   },
@@ -42,7 +42,7 @@ O panorama competitivo em imprimíveis PLE favorece os especialistas sobre os ge
       appId: 'addition',
     },
     {
-      title: 'Sopas de Letras PLE para Vender Online',
+      title: `Sopas de Letras PLE para Vender Online`,
       description: `Sopas de letras focadas em vocabulário que visam palavras de alta frequência em inglês, conjuntos de vocabulário temático e palavras de uso frequente que os usuários PLE e PLNM necessitam para a fluência académica e conversacional em todos os níveis de proficiência desde recém-chegado até avançado. Utiliza o gerador de Sopas de Letras para criar puzzles com vocabulário de inglês de sobrevivência para usuários recém-chegados cobrindo saudações, objetos da loja, comida, roupa e palavras da família, vocabulário académico organizado por área de conteúdo para instrução protegida, dificuldade progressiva desde palavras básicas de uso frequente para aprendentes principiantes até linguagem académica para usuários PLNM avançados, e conjuntos temáticos alinhados com unidades curriculares PLE comuns como comunidade, saúde, transportes e emprego.`,
       appId: 'wordsearch',
     },
@@ -91,17 +91,17 @@ O panorama competitivo em imprimíveis PLE favorece os especialistas sobre os ge
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis PLE no Etsy',
+      title: `Vender Imprimíveis PLE no Etsy`,
       description: `O Etsy capta vendedores PLE, tutores e pais que pesquisam com termos como «fichas PLE», «imprimíveis PLNM», «atividades aprendentes de inglês», «vocabulário PLE», «recursos de ensino de línguas» e «fichas para recém-chegados» durante os doze meses porque a inscrição PLE é contínua e nunca está vinculada a uma única janela de compra de regresso às aulas. Utiliza as treze etiquetas com variações que combinem níveis de proficiência, temas de vocabulário, contextos instrucionais e demografias de aprendentes para captar os diversos segmentos de compradores dentro da comunidade PLE que pesquisam de forma diferente conforme ensinam programas de apoio no ensino básico e secundário, aulas de educação de adultos ou sessões de tutoria privada. Agrupa produtos por nível de proficiência criando pacotes de vocabulário para principiantes, intermédios e avançados, ou por tema de vocabulário oferecendo coleções de vida comunitária, inglês laboral e linguagem académica que incentivem múltiplas compras do mesmo comprador. Os compradores internacionais de países onde não se fala inglês compram materiais PLE no Etsy para uso em escolas de idiomas e tutoria, estendendo o teu alcance de mercado muito para além dos países de língua inglesa. Os produtos com elevado conteúdo visual e apoios de imagens atraem compradores em todos os níveis de proficiência em inglês porque os compradores PLE procuram especificamente materiais onde as imagens apoiem a aprendizagem de vocabulário em vez de depender de instruções com muito texto que os aprendentes principiantes não conseguem aceder de forma independente.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades PLE no KDP',
+      title: `Publicar Livros de Atividades PLE no KDP`,
       description: `A Amazon KDP serve o mercado PLE de forma eficaz porque os vendedores, tutores e administradores de escolas de idiomas compram ativamente livros de exercícios de vocabulário abrangentes e compilações de livros de atividades como suplementos curriculares e recursos de autoestudo, acrescentando livros educativos às suas encomendas regulares da Amazon juntamente com ferramentas de aprendizagem de línguas e materiais de desenvolvimento profissional durante todo o ano. Compila fichas individuais de vocabulário em livros de atividades coesos de sessenta a cem páginas organizados por nível de proficiência ou tema de vocabulário, criando livros de exercícios focados como «livros de atividades para aprendentes de inglês» cobrindo vocabulário de vida diária com apoio de imagens, «construtores de vocabulário PLE» dirigidos a linguagem académica para instrução protegida, «livros de exercícios de dicionário ilustrado» emparelhando imagens com palavras em inglês através de categorias temáticas, livros de prática PLE para adultos concebidos para programas de educação comunitária e aprendentes autodirigidos, e livros de exercícios de inglês para principiantes dirigidos a mercados internacionais onde os aprendentes de inglês compram diretamente. Posiciona os livros estrategicamente usando os campos de palavras-chave do KDP com termos como «livro exercícios PLE», «atividades aprendentes de inglês», «vocabulário PLNM», «fichas ensino de línguas» e «prática inglês principiante» para capturar tanto profissionais PLE domésticos como audiências internacionais de aprendizagem do inglês.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos PLE para o Gumroad',
+      title: `Criar Recursos PLE para o Gumroad`,
       description: `Os vendedores PLE e PLNM são um segmento de compradores grande e em crescimento no Gumroad que procuram atividades de vocabulário, materiais de instrução protegida e recursos diferenciados para salas de aula de proficiência mista onde usuários em níveis de proficiência em inglês desde principiante até avançado trabalham simultaneamente em diferentes objetivos de vocabulário e compreensão. Etiqueta os produtos com níveis de proficiência específicos usando quadros amplamente reconhecidos como os níveis WIDA ou designações de principiante, intermédio e avançado para que os compradores possam identificar rapidamente recursos que correspondam à proficiência atual em inglês e à colocação instrucional dos seus usuários. Inclui apoios visuais e instruções com andaimes nas pré-visualizações dos produtos porque os profissionais PLE avaliam os materiais com base em quão eficazmente reduzem as barreiras linguísticas ao acesso ao conteúdo para usuários que ainda desenvolvem a sua compreensão do inglês. Os pacotes de boas-vindas para recém-chegados e os pacotes de inglês de sobrevivência obtêm preços premium porque os vendedores PLE necessitam destes materiais imediatamente quando novos usuários chegam a meio do ano e não podem esperar recursos fornecidos pelo agrupamento que podem nunca materializar-se. Os recursos de vocabulário de áreas de conteúdo para instrução protegida atraem tanto especialistas PLE como vendedores de loja geral com usuários PLNM que necessitam de pré-ensino de vocabulário e andaimes de compreensão nas áreas de conteúdo de matemática, ciências e estudos sociais.`,
     },
     {
@@ -121,7 +121,7 @@ O panorama competitivo em imprimíveis PLE favorece os especialistas sobre os ge
       answer: `O nicho de imprimíveis PLE oferece uma procura genuinamente durante todo o ano que é mais consistente através dos doze meses do que a maioria dos nichos educativos porque a inscrição PLE ocorre continuamente ao longo do ano letivo em vez de se concentrar nas datas de início do calendário académico tradicional. Os novos usuários ingressam nos programas PLE em qualquer momento à medida que as famílias se relocalizam, os prazos de processamento de imigração criam chegadas a meio do ano e o reassentamento de refugiados ocorre em cronogramas rotativos completamente sem relação com os calendários escolares. Esta inscrição contínua significa que os vendedores PLE regularmente necessitam de materiais de boas-vindas para recém-chegados, recursos de vocabulário para principiantes e atividades de prática prontas para avaliação em intervalos imprevisíveis durante todo o ano académico. Os programas de verão, as iniciativas de educação comunitária, as aulas PLE para adultos e a tutoria privada continuam durante as pausas, mantendo a procura através dos meses quando as compras de educação geral tipicamente diminuem. A dimensão internacional de compradores acrescenta ainda mais consistência porque as escolas de idiomas e tutores em diferentes países operam com diferentes calendários académicos, distribuindo a atividade de compra através de todos os meses em vez de a concentrar em torno de uma única época de regresso às aulas.`,
     },
     {
-      question: 'Que tipos de imprimíveis PLE se vendem melhor?',
+      question: `Que tipos de imprimíveis PLE se vendem melhor?`,
       answer: `As categorias de imprimíveis PLE de maior procura refletem as necessidades específicas de construção de vocabulário e andaimes de compreensão que impulsionam as decisões de compra através dos diversos segmentos de compradores PLE. As fichas de vocabulário com apoio de imagens posicionam-se consistentemente entre as mais vendidas porque conectar palavras em inglês com imagens visuais é a estratégia instrucional fundamental utilizada em todos os níveis de proficiência PLE desde recém-chegado até avançado, tornando os recursos de vocabulário com imagens universalmente aplicáveis independentemente da população específica de aprendentes que um comprador atende. As atividades de palavras de uso frequente e palavras de alta frequência vendem-se bem porque estas palavras formam a base da fluência leitora em inglês e cada programa PLE as aborda em todos os anos de escolaridade e níveis de proficiência. Os conjuntos de vocabulário temático organizados por temas de vida diária como comida, roupa, família, comunidade, saúde e emprego atraem tanto compradores PLE do ensino básico e secundário como de educação de adultos que estruturam a instrução em torno de temas de vocabulário funcional. Os materiais para recém-chegados e de inglês de sobrevivência obtêm preços premium porque os vendedores necessitam destes recursos imediatamente quando chegam novos usuários e não podem esperar alternativas fornecidas pelo catálogo de produtos. As atividades com andaimes com instruções visuais e indicações simplificadas em inglês atraem compradores que necessitam de materiais que os seus usuários de nível principiante possam aceder de forma independente durante rotações em centros de aprendizagem e instrução em pequenos grupos.`,
     },
     {
@@ -145,18 +145,18 @@ O panorama competitivo em imprimíveis PLE favorece os especialistas sobre os ge
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -170,7 +170,7 @@ O panorama competitivo em imprimíveis PLE favorece os especialistas sobre os ge
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,28 +180,28 @@ O panorama competitivo em imprimíveis PLE favorece os especialistas sobre os ge
     },
     {
       pageType: 'idea',
-      slug: 'educacao-especial-ideias-imprimiveis',
+      slug: `educacao-especial-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Educação Especial`,
     },
     {
       pageType: 'idea',
-      slug: 'ensino-domestico-ideias-imprimiveis',
+      slug: `ensino-domestico-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Ensino Doméstico`,
     },
     {
       pageType: 'idea',
-      slug: 'pre-escolar-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis Pré-Escolares',
+      slug: `pre-escolar-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis Pré-Escolares`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
-    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Backpack — themed educational image`, caption: 'Backpack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Binder — themed educational image`, caption: 'Binder' },
+    { src: `/image-library/classroom/book.webp`, alt: `Book — themed educational image`, caption: 'Book' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Cabinet — themed educational image`, caption: 'Cabinet' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculator — themed educational image`, caption: 'Calculator' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calender — themed educational image`, caption: 'Calender' },
   ],
 
 

@@ -2,19 +2,19 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'ideas de negocio de imprimibles',
+    primaryKeyword: `ideas de negocio de imprimibles`,
     secondaryKeywords: [
-      'plan de negocio de imprimibles',
-      'plan estratégico para vendedores de imprimibles',
-      'ideas rentables de productos imprimibles',
-      'iniciar una línea de productos imprimibles',
+      `plan de negocio de imprimibles`,
+      `plan estratégico para vendedores de imprimibles`,
+      `ideas rentables de productos imprimibles`,
+      `iniciar una línea de productos imprimibles`,
     ],
     lsiKeywords: [
-      'planificación de tienda Etsy de imprimibles',
-      'estrategia de productos Amazon KDP',
-      'objetivos de ingresos con fichas',
-      'expansión de catálogo de imprimibles',
-      'mapa de línea de productos para vendedores',
+      `planificación de tienda Etsy de imprimibles`,
+      `estrategia de productos Amazon KDP`,
+      `objetivos de ingresos con fichas`,
+      `expansión de catálogo de imprimibles`,
+      `mapa de línea de productos para vendedores`,
       `checklist de lanzamiento de negocio de imprimibles`,
     ],
     titleTag: `Ideas de Negocio de Imprimibles — Plan Estratégico`,
@@ -43,7 +43,7 @@ const content: StartContent = {
       content: `La investigación te dice lo que podría venderse. La validación te dice lo que se venderá para ti específicamente. La diferencia importa porque la investigación refleja todo el mercado mientras que la validación prueba tu capacidad de competir en él.\n\nEl método de validación más rápido es crear de 3 a 5 productos de prueba usando una prueba gratis con marca de agua y evaluar el resultado frente a las publicaciones existentes en el marketplace. Abre un generador de fichas, crea productos de muestra en tu nicho elegido y compáralos lado a lado con los productos más vendidos en Etsy. Pregúntate: ¿mi resultado iguala o supera la calidad de lo que se vende actualmente? Si es así, tienes una idea viable. Si no, necesitas un nicho diferente o un enfoque diferente.\n\nLa densidad de competencia determina lo difícil que será ganar visibilidad. Busca tus palabras clave objetivo exactas en Etsy y cuenta los resultados. Menos de 5.000 resultados indica un nicho con espacio para nuevos vendedores. Entre 5.000 y 20.000 significa competencia moderada donde la calidad y el SEO diferencian a los ganadores. Más de 50.000 resultados significa que necesitas una diferenciación excepcional o un sub-nicho más específico.\n\nLa validación de precios asegura que tus productos puedan generar ingresos significativos. Si los mejores vendedores en tu nicho fijan paquetes a 3,99 €–7,99 €, sabes que el mercado soporta esos precios. Si todo está por debajo de 1,99 €, necesitas ofrecer significativamente más valor (paquetes más grandes, temas únicos) o encontrar un nicho con precios más saludables.\n\nLa fase de validación debería llevar de uno a dos días, no semanas. No intentas demostrar que la idea definitivamente tendrá éxito — estás descartando ideas que son claramente inviables antes de invertir semanas de tiempo de creación de productos. Si tu idea pasa la prueba de calidad, la prueba de competencia y la prueba de precios, avanza. Aprenderás más publicando productos reales que investigando más.`,
     },
     {
-      heading: 'Diseñar tu línea de productos desde el primer día',
+      heading: `Diseñar tu línea de productos desde el primer día`,
       content: `El diseño de la línea de productos es el paso que la mayoría de los nuevos vendedores se saltan, y es el paso que crea la mayor ventaja competitiva. Diseñar significa planificar tus primeros 20 a 50 productos antes de crear ninguno.\n\nComienza con tu tipo de producto principal. Si elegiste fichas de matemáticas como tu nicho, tu tipo principal podría ser fichas de suma. Desde ese único punto de partida, planifica tu expansión a lo largo de tres ejes: variaciones temáticas, progresiones de dificultad y paquetes de formato.\n\nLas variaciones temáticas multiplican tu catálogo con un esfuerzo adicional mínimo. Una plantilla de ficha de suma con cinco temas de imágenes diferentes (animales, dinosaurios, océano, vehículos, comida) produce cinco productos distintos, cada uno dirigido a diferentes consultas de búsqueda e intereses de compradores diferentes. Con más de 100 conjuntos de imágenes temáticas disponibles en los generadores de LessonCraftStudio, las variaciones temáticas por sí solas pueden generar docenas de productos únicos.\n\nLas progresiones de dificultad sirven a diferentes grupos de edad y niveles de habilidad desde tu mismo tipo principal. Suma fácil (sumas hasta 10) para preescolar. Suma media (sumas hasta 20) para jardín de infantes. Suma avanzada (números de dos cifras) para primer y segundo grado. Cada nivel de dificultad es una línea de productos separada que atiende a un segmento de compradores diferente.\n\nLos paquetes de formato combinan productos individuales en paquetes de mayor valor. Tu mapa de línea de productos debería incluir fichas individuales (para visibilidad en el marketplace), paquetes pequeños (5–10 páginas, tu principal generador de ingresos), paquetes grandes (20–30 páginas, precios premium) y mega paquetes (50+ páginas, máximo ingreso por transacción).\n\nUn mapa práctico de línea de productos para un negocio de fichas de matemáticas podría ser así: 5 temas × 3 niveles de dificultad × 4 tamaños de paquete = 60 productos planificados a partir de un solo tipo de ficha. Añade la resta como segundo tipo y tendrás 120 productos planificados. Esto no es teórico — los generadores de fichas hacen que crear estas variaciones sea rápido y consistente.\n\nEscribe tu mapa de línea de productos en una hoja de cálculo. Enumera cada producto planificado con su tema, dificultad, tamaño de paquete y precio objetivo. Este documento se convierte en tu hoja de ruta de producción para los próximos tres a seis meses.`,
     },
     {
@@ -67,7 +67,7 @@ const content: StartContent = {
       content: `Tu plan estratégico está diseñado, tus productos están creados y tus precios están fijados. Este checklist asegura que nada se escape durante tu lanzamiento.\n\nLa configuración de la tienda va primero. Elige un nombre de tienda que refleje tu nicho y sea fácil de recordar. Escribe una descripción de tienda que te posicione como especialista en tu categoría elegida. Sube un banner de tienda y una foto de perfil de aspecto profesional. Completa las políticas de tu tienda incluyendo tiempo de procesamiento (instantáneo para descargas digitales), política de reembolso y términos de licencia.\n\nPublica tus primeros 10 productos dentro de tu primera semana. Los algoritmos del marketplace favorecen las tiendas nuevas que demuestran actividad. Cada publicación necesita un título rico en palabras clave que ponga los términos de búsqueda más importantes al principio. Usa las 13 etiquetas de Etsy con frases únicas y relevantes para el comprador. Escribe descripciones que indiquen claramente qué se incluye, para quién es el producto, a qué rango de edad se dirige y qué formatos de archivo se proporcionan.\n\nLa calidad de la miniatura determina si los compradores hacen clic en tu publicación. Muestra la ficha real en una presentación limpia y luminosa. Incluye un pequeño texto superpuesto indicando el número de páginas o el tamaño del paquete. Evita miniaturas desordenadas con demasiadas fuentes, colores o elementos decorativos. La ficha debería ser la protagonista de la imagen.\n\nCrea una plantilla de descripción para mantener la consistencia. Tu plantilla debería incluir: título del producto, número de páginas, rango de edad, enfoque de habilidad, qué se incluye, formato de archivo, instrucciones de impresión e información de licencia. Usar una plantilla asegura que cada publicación esté completa y ahorra un tiempo significativo al publicar múltiples productos.\n\nConfigura el seguimiento de analíticas desde el primer día. Etsy proporciona analíticas integradas que muestran vistas, favoritos y tasas de conversión por publicación. Guarda tu página de estadísticas en favoritos y revísala semanalmente. Después de 30 días, tendrás suficientes datos para identificar qué productos y palabras clave funcionan mejor.\n\nPrepara tu enfoque de atención al cliente. Decide con qué rapidez responderás a los mensajes, cómo será tu proceso de reembolso y cómo manejarás las solicitudes personalizadas. Tener estas respuestas listas antes del primer mensaje de un cliente previene respuestas reactivas e inconsistentes.`,
     },
     {
-      heading: 'Medir el progreso y ajustar tu plan estratégico',
+      heading: `Medir el progreso y ajustar tu plan estratégico`,
       content: `Un plan estratégico sin medición es solo una lista de deseos. Incorporar puntos de revisión en tu plan asegura que hagas ajustes basados en datos en lugar de operar por intuición.\n\nLas revisiones semanales deberían llevar 15 minutos. Revisa tres números: vistas totales en tu tienda, favoritos totales y pedidos totales. Las vistas te dicen si tu SEO está funcionando. Los favoritos indican interés del comprador que aún no se ha convertido. Los pedidos te dicen qué se está vendiendo realmente. Una publicación con muchas vistas pero sin ventas necesita mejores miniaturas o precios. Una publicación con pocas vistas necesita mejores palabras clave.\n\nLas revisiones mensuales van más profundo. Calcula tu tasa de conversión (pedidos divididos por vistas) para cada publicación. Identifica tus tres mejores y tus tres peores. Crea más productos similares a los mejores. Actualiza o retira tus peores con mejores miniaturas, descripciones o palabras clave antes de crear productos completamente nuevos.\n\nEl ingreso por publicación es la métrica que guía las decisiones de expansión del catálogo. Divide tus ingresos mensuales por el total de publicaciones activas. Si ganas 300 € con 30 publicaciones, tu ingreso por publicación es 10 €/mes. Ahora puedes proyectar: añadir 20 publicaciones más con la misma calidad debería añadir aproximadamente 200 €/mes. Esta métrica también revela cuándo la calidad está bajando — si el ingreso por publicación cae a medida que añades productos, tus productos más nuevos no están igualando la calidad de tu trabajo inicial.\n\nEl momento de expansión a otra plataforma depende del rendimiento en tu plataforma principal. No añadas una segunda plataforma hasta que tengas al menos 30 publicaciones en tu primera plataforma y una comprensión clara de lo que se vende. Dividir el enfoque demasiado pronto significa resultados mediocres en múltiples plataformas en lugar de resultados sólidos en una.\n\nEl ajuste más importante es saber cuándo duplicar la apuesta frente a cuándo cambiar de rumbo. Si tus fichas de matemáticas se venden de forma constante y tus páginas para colorear no, el plan dice: crea más productos de matemáticas, no más páginas para colorear. Si un tema específico supera ampliamente a los demás, crea todas las variaciones posibles de ese tema antes de explorar otros nuevos. Los datos deberían guiar la expansión de tu catálogo, no la preferencia personal ni las suposiciones sobre lo que debería venderse.\n\nRevisita tu plan estratégico trimestralmente. Actualiza tu mapa de línea de productos basándote en lo que has aprendido. Ajusta tus objetivos de ingresos basándote en datos de rendimiento real. Añade nuevos tipos de productos que tu investigación de mercado sugiera. Elimina productos planificados que tus datos muestren que es improbable que tengan éxito. El plan estratégico es un documento vivo, no un contrato rígido.`,
     },
   ],
@@ -78,39 +78,39 @@ const content: StartContent = {
       description: `Busca en Etsy categorías amplias de fichas imprimibles e identifica 2–3 nichos con demanda probada y competencia manejable. Anota los tipos de productos más vendidos, temas y precios en cada nicho.`,
     },
     {
-      step: 'Valida tu idea con productos de prueba gratis',
+      step: `Valida tu idea con productos de prueba gratis`,
       description: `Abre los generadores de fichas relevantes y crea de 3 a 5 productos de muestra usando la prueba gratis con marca de agua. Compara tu resultado con las publicaciones más vendidas del marketplace. Confirma que tus productos igualan o superan los estándares de calidad actuales.`,
     },
     {
-      step: 'Diseña tus primeros 50 productos',
+      step: `Diseña tus primeros 50 productos`,
       description: `Crea una hoja de cálculo con tus productos planificados según variaciones temáticas, niveles de dificultad y tamaños de paquete. Incluye el precio objetivo y la plataforma para cada producto. Esto se convierte en tu hoja de ruta de producción.`,
     },
     {
-      step: 'Define tu estrategia de plataformas',
+      step: `Define tu estrategia de plataformas`,
       description: `Elige tu plataforma principal (Etsy recomendada para nuevos vendedores) y planifica tu cronograma de expansión. Anota los requisitos de publicación, estructuras de comisiones y necesidades de optimización para cada plataforma que planees usar.`,
     },
     {
-      step: 'Establece tus niveles de precios',
+      step: `Establece tus niveles de precios`,
       description: `Investiga los precios de la competencia en tu nicho y fija precios para fichas individuales, paquetes pequeños, paquetes grandes y mega paquetes. Calcula tu ingreso neto después de comisiones de plataforma para cada nivel.`,
     },
     {
-      step: 'Construye tu primera colección de 10 productos',
+      step: `Construye tu primera colección de 10 productos`,
       description: `Crea tu tipo de ficha principal en 2–3 temas con 2–3 niveles de dificultad. Genera las páginas, ensambla paquetes con portadas y descarga formatos PDF y JPEG. Verifica la calidad de cada producto antes de publicarlo.`,
     },
     {
-      step: 'Lanza tu tienda con publicaciones optimizadas',
+      step: `Lanza tu tienda con publicaciones optimizadas`,
       description: `Configura tu cuenta en el marketplace, completa el branding de tu tienda y publica tus primeros 10 productos con títulos ricos en palabras clave, todas las etiquetas disponibles, miniaturas limpias y descripciones completas usando una plantilla consistente.`,
     },
     {
-      step: 'Establece tu calendario de producción semanal',
+      step: `Establece tu calendario de producción semanal`,
       description: `Bloquea tiempo para crear y publicar de 3 a 5 productos nuevos por semana. Sigue tu mapa de línea de productos en lugar de crear productos al azar. La constancia construye tanto el tamaño del catálogo como la autoridad en el marketplace.`,
     },
     {
-      step: 'Realiza tu primera revisión a los 30 días',
+      step: `Realiza tu primera revisión a los 30 días`,
       description: `Después de 30 días, analiza las vistas, favoritos y tasas de conversión por publicación. Identifica tus mejores y peores resultados. Crea más productos similares a los ganadores. Actualiza o mejora los que tienen bajo rendimiento.`,
     },
     {
-      step: 'Expande basándote en los datos',
+      step: `Expande basándote en los datos`,
       description: `Usa los datos de tu revisión mensual para planificar la siguiente fase: más variaciones de los productos exitosos, expansión a tipos de productos adyacentes, colecciones estacionales o añadir una segunda plataforma. Deja que los datos de ventas guíen cada decisión de expansión.`,
     },
   ],
@@ -118,7 +118,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'math-puzzle-worksheets',
-      title: 'Generador de Rompecabezas Matemáticos',
+      title: `Generador de Rompecabezas Matemáticos`,
       description: `Destacado en el vídeo de esta guía. Crea puzzles matemáticos configurables con múltiples niveles de dificultad, imágenes temáticas y claves de respuestas automáticas. Demuestra la variedad de resultados posible con un solo generador.`,
     },
     {
@@ -128,7 +128,7 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Categoría principal en Etsy con gran atractivo visual para construir un portafolio. El formato puramente visual funciona en cualquier idioma, dando acceso al mercado internacional. Más de 100 conjuntos de imágenes temáticas para máxima variedad de productos.`,
     },
     {
@@ -138,7 +138,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Fichas puramente visuales que demuestran el acceso al mercado internacional. Sin texto significa que no necesitan traducción — un producto sirve a compradores en todos los idiomas. Ideal para validar la demanda en múltiples mercados simultáneamente.`,
     },
     {
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Los resultados varían significativamente según el nicho, la calidad del producto, la optimización de publicaciones y el tamaño del catálogo. La mayoría de los nuevos vendedores de Etsy ven sus primeras ventas dentro de los primeros 30–60 días si tienen al menos 10 publicaciones bien optimizadas. Los ingresos constantes suelen requerir 30+ publicaciones activas y varios meses de presencia en el marketplace. Enfócate en construir tu catálogo y optimizar la calidad de las publicaciones en lugar de vigilar las cifras de ventas diarias.`,
     },
     {
-      question: '¿Necesito crear productos en múltiples idiomas?',
+      question: `¿Necesito crear productos en múltiples idiomas?`,
       answer: `No, pero los productos multilingües son una ventaja competitiva significativa. Los mercados en idiomas distintos al inglés para imprimibles educativos están desatendidos, lo que significa menos competencia y precios similares. Las fichas puramente visuales como colorear, asociación y actividades de patrones funcionan en cualquier idioma sin modificación. Todos los generadores de LessonCraftStudio soportan 11 idiomas para fichas con texto.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía fundamental que cubre todos los aspectos del lanzamiento de un negocio de imprimibles. Empieza aquí si necesitas orientación completa paso a paso desde cero hasta tu primera venta.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas Profesionales que se Venden',
+      title: `Cómo Crear Fichas Profesionales que se Venden`,
       description: `Análisis en profundidad de la calidad en la creación de productos: qué hace que las fichas luzcan profesionales, cómo usar los generadores de forma efectiva y las técnicas específicas que convierten fichas genéricas en productos que los compradores eligen.`,
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass Negocio de Imprimibles en Etsy',
+      title: `Masterclass Negocio de Imprimibles en Etsy`,
       description: `Guía específica de plataforma para vendedores de Etsy que cubre configuración de tienda, SEO de publicaciones, optimización de etiquetas y técnicas de escalado adaptadas al marketplace de Etsy.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales que se Venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales que se Venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos del Negocio de Imprimibles: Expectativas Realistas` },
-    { pageType: 'app', slug: 'rompecabezas-matematicos-fichas', anchorText: `Generador de Rompecabezas Matemáticos — Todos los Detalles` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: 'Prueba el Generador de Puzzles Matemáticos' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el Generador de Páginas para Colorear' },
+    { pageType: 'app', slug: `rompecabezas-matematicos-fichas`, anchorText: `Generador de Rompecabezas Matemáticos — Todos los Detalles` },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
+    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: `Prueba el Generador de Puzzles Matemáticos` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Prueba el Generador de Páginas para Colorear` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: 'Ejemplo de ficha de rompecabezas matemáticos creada con el generador LessonCraftStudio' },
+    heroImage: { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: `Ejemplo de ficha de rompecabezas matemáticos creada con el generador LessonCraftStudio` },
     samples: [
-      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: 'Ficha de rompecabezas matemáticos mostrando la variedad de resultados configurables', caption: 'Rompecabezas Matemáticos — Dificultad Configurable' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de sopa de letras con lista de palabras temáticas`, caption: 'Sopa de Letras — Puzzle Temático' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Atractivo Visual' },
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación con formato internacional puramente visual', caption: 'Asociación — Funciona en Cualquier Idioma' },
+      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: `Ficha de rompecabezas matemáticos mostrando la variedad de resultados configurables`, caption: `Rompecabezas Matemáticos — Dificultad Configurable` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de sopa de letras con lista de palabras temáticas`, caption: `Sopa de Letras — Puzzle Temático` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Ficha para colorear con ilustraciones temáticas`, caption: 'Colorear — Atractivo Visual' },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación con formato internacional puramente visual`, caption: `Asociación — Funciona en Cualquier Idioma` },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: `Cómo Crear Fichas de Rompecabezas Matemáticos — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagen educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — imagen educativa temática', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — imagen educativa temática', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campanilla — imagen educativa temática', caption: 'Campanilla' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagen educativa temática', caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagen educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — imagen educativa temática`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — imagen educativa temática`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campanilla — imagen educativa temática`, caption: 'Campanilla' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagen educativa temática`, caption: 'Ranúnculo' },
   ],
 };
 

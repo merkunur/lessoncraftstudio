@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'dinosaurier-druckvorlagen-ideen',
+    primaryKeyword: `dinosaurier-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Dino-Arbeitsblätter auf Etsy erstellen',
-      'Dinosaurier-Aktivitätsblätter auf KDP verkaufen',
-      'Urzeit-Druckvorlagen für Kinder auf Gumroad',
+      `Dino-Arbeitsblätter auf Etsy erstellen`,
+      `Dinosaurier-Aktivitätsblätter auf KDP verkaufen`,
+      `Urzeit-Druckvorlagen für Kinder auf Gumroad`,
       `Dinosaurier-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Evergreen-Kinderthema Druckvorlagen-Nische',
-      'Paläontologie-Bildungsthema Arbeitsblätter',
-      'T-Rex-Stegosaurus-Thema Lernmaterialien Etsy',
+      `Evergreen-Kinderthema Druckvorlagen-Nische`,
+      `Paläontologie-Bildungsthema Arbeitsblätter`,
+      `T-Rex-Stegosaurus-Thema Lernmaterialien Etsy`,
     ],
-    titleTag: 'Dinosaurier-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Dinosaurier-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Dinosaurier-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte, Plattformstrategien und Nischen-Tipps für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -46,7 +46,7 @@ Hinsichtlich der Produktvielfalt unterstützt die Dinosaurier-Nische einen ungew
       appId: 'find-count',
     },
     {
-      title: 'Dinosaurier-Wortsuche-Rätsel zum Online-Verkauf',
+      title: `Dinosaurier-Wortsuche-Rätsel zum Online-Verkauf`,
       description: `Dinosaurier-Vokabel-Wortsuchrätsel sprechen sowohl Eltern an, die den Wortschatz ihres Kindes aufbauen, als auch Käufer, die Paläontologie- oder Naturwissenschaftseinheiten durchführen. Erstellen Sie Rätsel mit Artennamen wie Tyrannosaurus, Brachiosaurus und Pterodaktylus zusammen mit Begriffen wie Fossil, ausgestorben, Pflanzenfresser und Fleischfresser. Der Wortsuche-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Schwierigkeit. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Wörtern für ältere Nutzer an. Diese Produkte lassen sich natürlich mit naturwissenschaftlichen Produktkatalogressourcen verbinden und verkaufen sich beständig auf allen Plattformen.`,
       appId: 'wordsearch',
     },
@@ -95,7 +95,7 @@ Hinsichtlich der Produktvielfalt unterstützt die Dinosaurier-Nische einen ungew
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Dinosaurier-Druckvorlagen auf Etsy verkaufen',
+      title: `Dinosaurier-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Dinosaurier-Druckvorlagen-Listings. Anstatt generischer Titel wie „Dinosaurier-Arbeitsblätter" sollten Sie Long-Tail-Keywords wie „Dinosaurier-Zählarbeitsblätter Vorschule" oder „T-Rex-Ausmalseiten Kleinkind druckbar" anvisieren. Nutzen Sie alle dreizehn Tags mit Variationen, die Artennamen, Fähigkeiten und Altersgruppen kombinieren. Mockup-Bilder, die gedruckte Dinosaurier-Arbeitsblätter im Einsatz zeigen, übertreffen flache digitale Vorschauen deutlich. Anders als bei vielen Nischen behalten Dinosaurier-Druckvorlagen eine gleichmäßige ganzjährige Nachfrage ohne starke saisonale Schwankungen, was eine konstante Listing-Performance über alle Monate bedeutet. Bieten Sie sowohl einzelne Arbeitsblätter als auch thematische Pakete an, da Etsy-Käufer oft mit einem Einzelkauf beginnen und dann für größere Pakete zurückkehren.`,
     },
     {
@@ -149,18 +149,18 @@ Hinsichtlich der Produktvielfalt unterstützt die Dinosaurier-Nische einen ungew
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -169,33 +169,33 @@ Hinsichtlich der Produktvielfalt unterstützt die Dinosaurier-Nische einen ungew
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'haustiere-druckvorlagen-ideen',
-      anchorText: 'Haustier-Druckvorlagen: Geschäftsideen',
+      anchorText: `Haustier-Druckvorlagen: Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — thematisches Lernbild', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — thematisches Lernbild', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — thematisches Lernbild', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — thematisches Lernbild', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — thematisches Lernbild', caption: 'Brachiosaurus' },
-    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontosaurus — thematisches Lernbild', caption: 'Brontosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — thematisches Lernbild`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — thematisches Lernbild`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — thematisches Lernbild`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — thematisches Lernbild`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — thematisches Lernbild`, caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/brontosaurus.webp`, alt: `Brontosaurus — thematisches Lernbild`, caption: 'Brontosaurus' },
   ],
 
 

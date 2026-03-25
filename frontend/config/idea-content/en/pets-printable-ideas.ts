@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pets Printable Ideas to Sell — Niche Guide',
+    titleTag: `Pets Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Explore profitable pets printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Cat, dog, and small pet product concepts with platform strategies for sellers.`,
 
     primaryKeyword: 'pets printable ideas',
     secondaryKeywords: [
       'pet themed worksheets to sell',
       'pets printable business ideas',
-      'pet activity sheets for sellers',
+      `pet activity sheets for sellers`,
       'sell pet printables on Etsy',
     ],
     lsiKeywords: [
-      'domestic animal educational worksheets',
-      'cat and dog themed activity pages',
+      `domestic animal educational worksheets`,
+      `cat and dog themed activity pages`,
       'pet care themed printables',
     ],
   },
   hero: {
-    title: 'Pets Printable Business Ideas for Sellers',
+    title: `Pets Printable Business Ideas for Sellers`,
     description: `Pets occupy a uniquely powerful position in the educational printable market because nearly every child has a personal connection to household animals. Whether a family owns a dog, a cat, a hamster, or a goldfish, children are naturally drawn to learning materials featuring familiar creatures they see and interact with daily. This emotional bond drives strong purchase intent from parents who want to combine their child's enthusiasm for pets with structured learning. For printable sellers on Etsy, Amazon KDP, and Gumroad, the pet theme offers massive evergreen demand, diverse species variety for product differentiation, and cross-age appeal from toddlers through early elementary. This guide provides specific product ideas, platform strategies, and niche positioning advice to help you build a profitable pet-themed printable business using our worksheet generator tools.`,
   },
   marketOverview: `The pets printable niche benefits from a simple but powerful market dynamic: pets are the most personally relevant animal theme for children. While farm animals and ocean creatures are interesting, pets are the animals children actually live with, care for, and love. This personal connection transforms worksheet time from an abstract exercise into an activity featuring their favorite companions, which is exactly why parents and buyers seek out pet-themed educational materials.
@@ -40,12 +40,12 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
 
   productIdeas: [
     {
-      title: 'Pet Animal Counting Worksheets for Sellers',
+      title: `Pet Animal Counting Worksheets for Sellers`,
       description: `Counting worksheets featuring dogs, cats, fish, and hamsters tap into one of the strongest demand areas for pet printables. Create sets where children count pets in illustrated scenes at progressive difficulty levels: count to five for the preschool-age market, count and write numbers to ten for kindergarten-level buyers, and group counting with multiple pet species for first graders. The Find and Count generator produces engaging scenes where children locate and tally specific pet animals. Bundle by difficulty or combine all levels into a comprehensive pet counting pack covering mixed-ability groups.`,
       appId: 'find-count',
     },
     {
-      title: 'Pet Vocabulary Word Search Puzzles to Sell Online',
+      title: `Pet Vocabulary Word Search Puzzles to Sell Online`,
       description: `Pet care vocabulary word searches serve both educational and engagement purposes, making them strong sellers across platforms. Create puzzles featuring pet names, care terms like leash, collar, bowl, and veterinarian, and action words like feed, walk, groom, and train. The Word Search generator lets you control grid size and word count for age-appropriate difficulty. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more terms for older children. Create breed-specific word searches for dogs and cats as premium variations that attract dedicated pet enthusiast buyers.`,
       appId: 'wordsearch',
     },
@@ -65,12 +65,12 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
       appId: 'coloring',
     },
     {
-      title: 'Pet Bingo Cards for Sellers and Activity Planners',
+      title: `Pet Bingo Cards for Sellers and Activity Planners`,
       description: `Pet-themed bingo cards serve buyers running pet learning activities and families planning pet-themed activities or birthday parties. The Bingo generator creates unique card variations from your pet vocabulary list, ensuring no two cards are identical. Sell group sets of twenty-five to thirty cards with caller sheets included. For the family market, create printable bingo kits featuring pet breeds, care items, and pet-related vocabulary. Bingo products have strong repeat purchase potential as buyers and planners return for new themes each semester. Pet bingo also works well as part of veterinary office waiting room activity kits.`,
       appId: 'bingo',
     },
     {
-      title: 'Pet Animal Shadow Matching Worksheets to Sell',
+      title: `Pet Animal Shadow Matching Worksheets to Sell`,
       description: `Shadow matching develops visual discrimination skills critical for reading readiness, making these worksheets popular with preschool buyers and parents of three to five year olds. Use the Shadow Match generator to create pages where children match pet animals to their silhouettes. The variety of pet shapes from long-eared rabbits to curly-tailed dogs provides natural difficulty progression. These worksheets print cleanly in both color and grayscale, which matters for buyers who often print in black and white. Shadow matching sets of ten to fifteen pages sell consistently at the three to five dollar range across platforms.`,
       appId: 'shadow-match',
     },
@@ -94,22 +94,22 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Pet-Themed Printables on Etsy',
+      title: `Selling Pet-Themed Printables on Etsy`,
       description: `Etsy rewards specificity in pet printable listings, so target long-tail keywords rather than broad terms. Instead of "pet worksheets," optimize for searches like "dog counting worksheets preschool" or "cat coloring pages toddler printable." Use all thirteen tags with variations combining pet species, skill type, and age group. Mockup images showing printed worksheets alongside pet toys, stuffed animals, or in family settings outperform flat digital previews significantly. Breed-specific products like "golden retriever coloring pages" or "tabby cat counting sheets" capture dedicated pet enthusiast buyers who search by breed. Schedule new listings around National Pet Day in April and back-to-school season when pet unit planning peaks.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Pet Activity Books on KDP',
+      title: `Publishing Pet Activity Books on KDP`,
       description: `Amazon KDP works best for pet printables when you compile individual worksheets into themed activity books. A forty to sixty page pet activity book combining counting, coloring, matching, and tracing activities performs well in the children's activity book category. Use KDP keyword fields strategically: include "pet activity book for kids," "dog and cat worksheets," and age-specific terms like "preschool pet book." Consider creating species-specific books like "All About Dogs Activity Book" alongside general pet compilations to capture both broad and niche searches. Price between four and seven dollars for optimal royalty rates and always order a proof copy before publishing to verify print quality.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Pet Unit Resources on Gumroad',
+      title: `Selling Pet Unit Resources on Gumroad`,
       description: `Gumroad buyers seek educationally aligned resources for pet and animal care units that are common in preschool through second grade science and social studies learning programs. Pet printables on Gumroad perform best when packaged as complete mini-units with clear learning objectives, standards alignment to science frameworks about animal needs and habitats, and usage notes. Include answer keys, suggested discussion prompts about responsible pet ownership, and tiered product options for mixed-ability groups. Gumroad's bundling feature lets you offer individual products and a discounted bundle simultaneously, capturing both budget-conscious and convenience-focused buyers.`,
     },
     {
       platform: 'Gumroad and Shopify',
-      title: 'Building a Pet Printable Brand with Direct Sales',
+      title: `Building a Pet Printable Brand with Direct Sales`,
       description: `Direct sales platforms like Gumroad and Shopify let you build a recognizable pet-themed printable brand without marketplace competition on every listing. Create a cohesive product line with consistent visual styling across all pet worksheets, using a signature color palette and illustration style that buyers associate with your brand. Use email collection to build a subscriber list of pet-theme buyers you can notify about new releases and seasonal promotions. Direct platforms allow flexible pricing and bundling strategies that marketplaces restrict. Consider offering a growing bundle where buyers pay once and receive all future pet-themed additions, creating ongoing value that justifies a premium price point of twenty to forty dollars.`,
     },
   ],
@@ -132,7 +132,7 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
       answer: `Yes, cross-platform selling is one of the most effective strategies for the pet printable niche. Each platform reaches a different buyer segment: Etsy attracts parents and homeschoolers searching for engaging pet activities, Gumroad reaches buyers planning animal care products, KDP serves families who prefer physical activity books, and direct platforms like Gumroad build your owned audience. You can sell the same content across all platforms with formatting adjustments for each. For KDP, compile worksheets into book format. For Gumroad, add usage notes and standards alignment. For Etsy, create instant download listings with lifestyle mockup photos featuring pet toys and accessories.`,
     },
     {
-      question: 'What seasonal trends affect pet printable sales?',
+      question: `What seasonal trends affect pet printable sales?`,
       answer: `Pet printables benefit from several predictable seasonal patterns throughout the year. National Pet Day in April drives search spikes for pet-themed educational materials. Back-to-school season in August and September brings demand from buyers planning pet and animal care educational content units. The winter holiday season sees increased purchases as families adopt new pets and seek related activities for children. Adopt-a-pet awareness months create periodic traffic boosts. However, the pet theme maintains strong baseline demand year-round because children's interest in their household pets is not seasonal. Smart sellers prepare listings and promotions ahead of these peak periods while maintaining consistent product availability throughout the year.`,
     },
     {
@@ -149,32 +149,32 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -183,18 +183,18 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
     },
     {
       pageType: 'idea',
-      slug: 'safari-animals-printable-ideas',
-      anchorText: 'Safari Animals Printable Business Ideas',
+      slug: `safari-animals-printable-ideas`,
+      anchorText: `Safari Animals Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — themed educational image', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Cockatiel — themed educational image', caption: 'Cockatiel' },
-    { src: '/image-library/pets/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Ferret — themed educational image', caption: 'Ferret' },
-    { src: '/image-library/pets/finch.webp', alt: 'Finch — themed educational image', caption: 'Finch' },
+    { src: '/image-library/pets/cat.webp', alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — themed educational image`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Cockatiel — themed educational image`, caption: 'Cockatiel' },
+    { src: '/image-library/pets/dog.webp', alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Ferret — themed educational image`, caption: 'Ferret' },
+    { src: `/image-library/pets/finch.webp`, alt: `Finch — themed educational image`, caption: 'Finch' },
   ],
 
 

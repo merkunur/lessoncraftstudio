@@ -4,7 +4,7 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'formateo KDP fichas',
     secondaryKeywords: [
-      'guía de formateo KDP para libros de fichas',
+      `guía de formateo KDP para libros de fichas`,
       `especificaciones de formateo de manuscrito Amazon KDP`,
       `tamaño de recorte márgenes sangrado KDP libros de fichas`,
       `exportación PDF listo para imprimir KDP libros de actividades`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `numeración de páginas páginas iniciales finales índice de contenido`,
       `errores de subida KDP rechazo solución de problemas previsualizador prueba`,
     ],
-    titleTag: 'Formateo KDP fichas — Guía completa',
+    titleTag: `Formateo KDP fichas — Guía completa`,
     metaDescription: `Guía de formateo KDP que cubre tamaños de recorte, márgenes, ajustes de sangrado, exportación PDF a 300 DPI, dimensiones de portada y solución de problemas.`,
   },
 
   hero: {
-    title: 'Guía de formateo KDP para libros de fichas',
+    title: `Guía de formateo KDP para libros de fichas`,
     tagline: `La referencia técnica definitiva para formatear libros de fichas y actividades para Amazon KDP — incluyendo selección de tamaño de recorte para diferentes tipos de actividad, cálculos de márgenes y cosido para espacio de escritura cómodo, configuración de sangrado versus sin sangrado, exportación de PDF listo para imprimir a 300 DPI con fuentes incrustadas, cálculos de dimensiones de portada incluyendo ancho de lomo y zonas de código de barras, ensamblaje completo del manuscrito desde las páginas iniciales hasta las secciones de soluciones, y solución de los rechazos y errores de formateo más comunes de KDP`,
     description: `Un libro de fichas perfectamente diseñado no sirve de nada si KDP rechaza el manuscrito o el resultado impreso tiene texto desapareciendo en la encuadernación, márgenes demasiado estrechos para que los niños escriban, o imágenes borrosas por exportación de baja resolución. Esta guía cubre las especificaciones técnicas de formateo que separan una publicación KDP profesional de una amateur — las medidas exactas, configuraciones y procedimientos de exportación que aseguran que tus libros de fichas y actividades se impriman correctamente siempre. Para estrategias de creación de contenido y planificación de negocio, consulta nuestras otras guías KDP. Esta guía es puramente técnica: especificaciones del manuscrito, diseño de página, preparación del PDF, dimensiones de portada y solución de problemas de subida.`,
   },
@@ -47,19 +47,19 @@ const content: GuideContent = {
       content: `El sangrado determina si tu contenido se extiende hasta el mismo borde de la página impresa o se detiene dentro de un borde blanco. Esta configuración afecta las dimensiones de tu manuscrito y es una de las fuentes más comunes de errores de subida a KDP.\n\nLa mayoría de los libros de fichas y actividades deberían usar la configuración sin sangrado. Sin sangrado significa que tu contenido se mantiene dentro de los márgenes y espacio en blanco rodea cada página. Esta es la elección correcta para fichas de matemáticas, cuadrículas de puzles, práctica de escritura a mano y cualquier tipo de actividad donde el contenido está autocontenido dentro de bordes o marcos. Sin sangrado es más simple de configurar y no deja margen para que los errores de recorte afecten tu contenido.\n\nEl sangrado es necesario cuando los elementos de diseño se extienden intencionalmente hasta el borde de la página sin borde blanco. Los libros para colorear con ilustraciones de borde a borde, las páginas de actividades con patrones de fondo a toda página, y las páginas decorativas donde el diseño llena toda la superficie necesitan sangrado. Cuando el sangrado está habilitado, KDP requiere 0,125 pulgadas adicionales en cada borde de la página — las dimensiones de tu manuscrito aumentan 0,25 pulgadas tanto en ancho como en alto. Para un recorte de 8,5 × 11 pulgadas con sangrado, las páginas de tu manuscrito deben ser de 8,75 × 11,25 pulgadas.\n\nEl área de sangrado es la zona que se recorta durante la fabricación del libro. El contenido en esta zona puede o no aparecer en el producto final dependiendo de la precisión del recorte. Nunca coloques contenido importante — texto, espacios de respuesta, cuadrículas de puzles o instrucciones — en la zona de sangrado. Solo extiende colores de fondo, patrones o elementos decorativos de ilustración al área de sangrado.\n\nSi tu libro tiene una mezcla de páginas con sangrado y sin sangrado (por ejemplo, páginas para colorear con ilustraciones a sangre completa alternando con páginas de puzles que tienen bordes blancos), configura todo el manuscrito a sangrado y asegúrate de que tus páginas sin sangrado tengan el contenido posicionado dentro de los límites de márgenes estándar. No puedes mezclar configuraciones de sangrado dentro de un solo manuscrito — es todo con sangrado o todo sin sangrado.\n\nUn error común es configurar sangrado pero no extender el contenido hasta el borde de recorte. Esto crea un borde blanco desigual que parece un error de impresión en lugar de una elección de diseño. Si habilitas el sangrado, asegúrate de que cada página tenga contenido extendiéndose completamente a la zona de sangrado en todos los bordes donde quieras impresión de borde a borde.`,
     },
     {
-      heading: 'Exporta PDFs listos para imprimir a 300 DPI',
+      heading: `Exporta PDFs listos para imprimir a 300 DPI`,
       content: `KDP requiere archivos PDF tanto para el manuscrito interior como para la portada. El PDF debe cumplir estándares técnicos específicos para la reproducción en impresión, y no cumplir cualquiera de estos estándares activa errores de subida o produce pobre calidad de impresión.\n\nLa resolución debe ser al menos 300 DPI (puntos por pulgada) para todas las imágenes y elementos gráficos. Este es un requisito estricto para calidad de impresión profesional. La resolución de pantalla es típicamente 72 o 96 DPI, así que las imágenes que se ven nítidas en tu monitor aparecerán borrosas y pixeladas en impresión si no se crean o exportan a 300 DPI. Al usar generadores de fichas, exporta a la máxima resolución disponible. Al colocar imágenes, verifica su DPI real en su tamaño colocado — una imagen de 300 DPI en su tamaño original se convierte en 150 DPI si la escalas al doble de su ancho.\n\nLas fuentes deben estar incrustadas en el PDF. Si las fuentes no están incrustadas, KDP o rechaza el archivo o sustituye fuentes por defecto que destruyen tu diseño. La mayoría de las herramientas de exportación de PDF tienen una opción «incrustar todas las fuentes» — actívala. Al exportar desde software de diseño, busca un ajuste preestablecido de exportación de calidad de impresión o prensa que maneje la incrustación de fuentes automáticamente. Si usas fuentes personalizadas o poco comunes, verifica después de la exportación abriendo el PDF y comprobando que el texto aparece correctamente.\n\nEl modo de color debería ser escala de grises o CMYK para interiores en blanco y negro. El modo de color RGB es para pantallas, no para impresión. Si exportas en RGB, los colores pueden cambiar impredeciblemente cuando KDP convierte para la impresión. Para libros de fichas en blanco y negro, exporta en escala de grises — esto también produce tamaños de archivo más pequeños. Para libros con elementos de color, usa modo de color CMYK. KDP acepta archivos RGB pero los convierte a CMYK internamente, lo que puede causar cambios de color.\n\nEl tamaño del archivo PDF tiene un límite práctico de 650 MB para el archivo interior y 40 MB para la portada. Los libros de fichas rara vez se acercan a estos límites, pero los libros con muchas imágenes de alta resolución pueden ser grandes. Si tu archivo es demasiado grande, verifica elementos decorativos innecesariamente de alta resolución o imágenes con resolución muy por encima de 300 DPI.\n\nAplana toda la transparencia antes de exportar. Los efectos de transparencia (sombras paralelas, superposiciones semitransparentes, modos de fusión) pueden causar problemas de renderizado en impresión. Tus ajustes de exportación de PDF deberían incluir una opción de aplanamiento de transparencia — úsala. Un PDF aplanado contiene solo elementos sólidos que se imprimen predeciblemente.\n\nDespués de exportar, abre tu PDF y revisa cada página al 100 por ciento de zoom. Verifica que el texto esté nítido, las imágenes sean claras, los márgenes sean consistentes y ningún contenido se extienda más allá de tus límites previstos. Esta revisión detecta problemas que son mucho más difíciles de arreglar después de la subida.`,
     },
     {
-      heading: 'Diseña portadas que cumplan con KDP',
+      heading: `Diseña portadas que cumplan con KDP`,
       content: `Las portadas KDP tienen requisitos dimensionales precisos calculados a partir del tamaño de recorte, el número de páginas y el tipo de papel de tu libro. Una portada con dimensiones incorrectas es la razón más común de rechazo de manuscritos KDP.\n\nLa portada se envía como un solo PDF que contiene la parte trasera, el lomo y la parte delantera en una imagen continua. El ancho total es: ancho de la parte trasera más ancho del lomo más ancho de la parte delantera más 0,25 pulgadas (para 0,125 pulgadas de sangrado en cada lado). La altura total es la altura del recorte más 0,25 pulgadas (para 0,125 pulgadas de sangrado arriba y abajo). El sangrado de portada siempre es obligatorio independientemente de tu configuración de sangrado interior.\n\nEl ancho del lomo depende del número de páginas y el tipo de papel. Para papel blanco (estándar para la mayoría de los libros de fichas), la fórmula es: número de páginas multiplicado por 0,002252 pulgadas. Un libro de 60 páginas tiene un ancho de lomo de aproximadamente 0,135 pulgadas. Un libro de 100 páginas tiene aproximadamente 0,225 pulgadas. Un libro de 150 páginas tiene aproximadamente 0,338 pulgadas. Para papel crema, multiplica por 0,0025 en su lugar. KDP proporciona una herramienta calculadora de portadas que calcula las dimensiones exactas — úsala en lugar de calcular manualmente para evitar errores de redondeo.\n\nPara un libro de 8,5 × 11 pulgadas con 80 páginas en papel blanco: el ancho del lomo es 80 × 0,002252, que es aproximadamente 0,18 pulgadas. El ancho total de la portada es 8,5 más 0,18 más 8,5 más 0,25, que es 17,43 pulgadas. La altura total de la portada es 11 más 0,25, que es 11,25 pulgadas. Tu PDF de portada debe tener exactamente estas dimensiones.\n\nLas zonas seguras en la portada son críticas. Mantén todo texto y elementos de diseño esenciales al menos 0,25 pulgadas de los bordes de recorte y al menos 0,0625 pulgadas del pliegue del lomo en ambos lados. El área del lomo en sí no es fiable para texto en libros de menos de 100 páginas porque el lomo estrecho hace que la alineación del texto sea impredecible durante la fabricación. Para libros de menos de 79 páginas, KDP no permite texto en el lomo en absoluto.\n\nLa parte trasera debe dejar una zona clara para el código de barras en el área inferior derecha — un rectángulo de aproximadamente 2 pulgadas de ancho por 1,2 pulgadas de alto. KDP coloca el código de barras ISBN aquí durante la impresión. Cualquier elemento de diseño debajo del código de barras quedará oculto. Planifica el diseño de tu parte trasera con esta zona reservada.\n\nExporta la portada a 300 DPI en modo de color CMYK (las portadas siempre se imprimen a color incluso para libros con interior en blanco y negro). Incrusta todas las fuentes. El PDF de la portada debería ser una sola página, no múltiples páginas.`,
     },
     {
-      heading: 'Ensambla el manuscrito completo',
+      heading: `Ensambla el manuscrito completo`,
       content: `Un manuscrito KDP completo es un solo archivo PDF que contiene cada página de tu libro en el orden correcto. KDP imprime exactamente lo que envías — no hay inserción automática de páginas, numeración ni formateo. Cada elemento debe estar presente en tu PDF.\n\nLa estructura del manuscrito para un libro de fichas sigue este orden estándar: portadilla (página 1), página de derechos de autor (página 2), índice o página de instrucciones de uso (página 3), introducción o instrucciones opcionales (página 4), páginas de actividades organizadas por sección (el grueso del libro), sección de soluciones o claves de respuestas (cerca del final), y páginas finales incluyendo una página sobre el autor y una lista de tus otros títulos (páginas finales).\n\nLa portadilla debería incluir el título del libro, subtítulo, y nombre del autor o editorial. Mantenla limpia y profesional — esta es la primera página que un comprador ve cuando usa la vista previa «Echar un vistazo dentro» de Amazon. La página de derechos de autor incluye el aviso de copyright, año, nombre de la editorial y una declaración sobre los derechos de reproducción. Si tu libro usa imágenes de generadores bajo licencia comercial, aquí es donde lo anotas.\n\nEl índice es esencial para libros organizados en secciones. Para un cuaderno de matemáticas con secciones de Sumas, Restas y Mixtas, lista cada sección con su número de página de inicio. Para un libro de puzles con secciones Fácil, Media y Difícil, lista los niveles de dificultad con números de página. Los compradores de libros de actividades usan el índice para navegar directamente a su sección deseada en lugar de pasar páginas.\n\nLos requisitos de número de páginas para tapa blanda KDP son un mínimo de 24 páginas y un máximo de 828 páginas. La mayoría de los libros de fichas caen entre 40 y 150 páginas. El número de páginas debe ser par — si tu contenido resulta en un número impar, añade una página en blanco al final. KDP cuenta cada página en el PDF incluyendo páginas en blanco, páginas iniciales y finales.\n\nLa numeración de páginas debería empezar después de las páginas iniciales. La portadilla, la página de derechos de autor y el índice típicamente no están numerados o se numeran con números romanos en minúscula. Las páginas de actividades empiezan con el número arábigo 1. Coloca los números de página consistentemente — centrados en la parte inferior es la ubicación más común para libros de actividades. Haz coincidir las referencias de páginas de soluciones con los números de página reales en tu PDF final.\n\nAntes de exportar, verifica tu manuscrito desplazándote por todo el PDF página por página. Confirma que los números de página son secuenciales y correctos, las soluciones referencian las páginas correctas, los encabezados de sección aparecen donde se esperan, y no aparecen páginas en blanco involuntariamente en medio de secciones de contenido.`,
     },
     {
-      heading: 'Sube y soluciona problemas de formateo KDP',
+      heading: `Sube y soluciona problemas de formateo KDP`,
       content: `El proceso de subida a KDP valida tu manuscrito contra las especificaciones técnicas y señala errores antes de la publicación. Comprender los errores más comunes ahorra un tiempo significativo durante el ciclo de subida y revisión.\n\nLa razón de rechazo más frecuente son dimensiones de portada incorrectas. Incluso una fracción de pulgada de diferencia activa un rechazo. Siempre usa la calculadora de portadas de KDP para generar dimensiones exactas para tu número de páginas y tipo de papel específicos. Si cambias tu número de páginas después de crear la portada, debes recalcular y redimensionar la portada porque el ancho del lomo cambia.\n\nLas imágenes de baja resolución causan advertencias de calidad. KDP señala cualquier imagen por debajo de 300 DPI en su tamaño impreso. Si recibes esta advertencia, identifica las imágenes de baja resolución en tu manuscrito, reemplázalas con versiones de mayor resolución y re-exporta. No ignores las advertencias de resolución — las imágenes de bajo DPI son visiblemente borrosas en impresión y generan quejas y devoluciones de compradores.\n\nLas violaciones de márgenes ocurren cuando el contenido se extiende a la zona de margen mínimo. La verificación automatizada de KDP destaca las páginas donde el texto o las imágenes están demasiado cerca del borde. Si configuraste márgenes generosos como se recomienda en esta guía, nunca deberías encontrar este error. Si lo haces, verifica si hay elementos que se desplazaron accidentalmente durante el diseño — una caja de texto ligeramente rotada o una imagen colocada unos píxeles fuera del límite de contenido.\n\nLos fallos de incrustación de fuentes se muestran como texto faltante o sustituido en el previsualizador de KDP. Si tu manuscrito subido muestra fuentes diferentes a tu archivo fuente, re-exporta con la opción de incrustar todas las fuentes activada. Algunas herramientas de diseño requieren que conviertas a contornos o rasterices las fuentes como alternativa a la incrustación — esto convierte el texto en formas vectoriales que no requieren archivos de fuente.\n\nDespués de subir, siempre usa el Previsualizador en línea de KDP para revisar tu manuscrito página por página. El previsualizador muestra exactamente cómo se verá tu libro en impresión. Verifica la primera y última página, todas las transiciones de sección, las páginas con imágenes y la sección de soluciones. Presta especial atención a las páginas cerca del frente y la parte trasera del libro donde la curva de encuadernación es más pronunciada.\n\nPide una copia de prueba antes de aprobar para publicación. La prueba es una impresión física de tu libro real al precio de coste (típicamente de 2 a 5 dólares más envío). Ninguna cantidad de vista previa digital sustituye a tener el libro impreso en la mano, abrirlo plano y probar físicamente las actividades. Escribe en los espacios de respuesta. Rodea palabras en las cuadrículas de sopas de letras. Resuelve un problema de matemáticas en el área designada. Si algo se siente apretado, difícil de alcanzar o mal alineado, arréglalo antes de publicar. Una inversión en copia de prueba de unos pocos dólares previene reseñas negativas que dañan permanentemente la reputación de tu libro.`,
     },
   ],
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Cada decisión de formateo tiene una consecuencia financiera. El tamaño de recorte afecta al coste de impresión — un libro de 8,5 × 11 pulgadas cuesta más de imprimir que un libro de 6 × 9 pulgadas con el mismo número de páginas. El número de páginas afecta al coste de impresión linealmente — cada página adicional añade aproximadamente 0,012 dólares para blanco y negro o 0,07 dólares para color. Elegir color sobre blanco y negro para los interiores puede reducir tu regalía en 3 a 4 dólares por venta en un libro de fichas típico. Las decisiones de formateo que parecen menores en aislamiento — añadir 10 páginas extra de páginas iniciales, usar color cuando la escala de grises funcionaría, elegir un recorte mayor del necesario — se acumulan para erosionar significativamente tu beneficio por venta a lo largo de cientos o miles de copias.`,
     },
     {
-      heading: 'El formateo profesional soporta precios más altos',
+      heading: `El formateo profesional soporta precios más altos`,
       content: `Los compradores comparan tu libro con los competidores en los resultados de búsqueda de Amazon. Un interior formateado profesionalmente — márgenes consistentes, cuadrículas de tamaño adecuado, numeración de páginas clara, secciones bien organizadas — soporta un precio de venta más alto porque señala calidad. Los compradores que usan la vista previa «Echar un vistazo dentro» notan inmediatamente la calidad del formateo: elementos alineados, fuentes legibles, espacio de escritura adecuado y organización limpia de secciones. Un libro a 9,99 dólares con formateo profesional supera en ventas a un libro a 6,99 dólares con formateo descuidado porque el comprador percibe el libro de mayor precio como más confiable y de mejor valor. El tiempo que inviertes en un formateo correcto se traduce directamente en precios sostenibles más altos.`,
     },
     {
@@ -138,40 +138,40 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'libros-actividades-matematicas-kdp',
+      slug: `libros-actividades-matematicas-kdp`,
       title: `Crear libros de actividades de matemáticas para Amazon KDP`,
       description: `La guía completa para crear libros de actividades de matemáticas para KDP. Cubre la creación de contenido, progresión de dificultad y fundamentos de KDP que complementan las especificaciones de formateo de esta guía.`,
     },
     {
       slug: 'publicar-libros-puzzles-kdp',
-      title: 'Publicar libros de puzles en Amazon KDP',
+      title: `Publicar libros de puzles en Amazon KDP`,
       description: `Cubre la estrategia de contenido específica de puzles, formatos de tipo único versus variedad, y enfoques de construcción de catálogo para libros de sopas de letras, crucigramas y sudoku en Amazon.`,
     },
     {
-      slug: 'ganar-dinero-kdp-libros-actividades',
-      title: 'Ganar dinero con libros de actividades KDP',
+      slug: `ganar-dinero-kdp-libros-actividades`,
+      title: `Ganar dinero con libros de actividades KDP`,
       description: `La guía completa de ingresos para editores KDP. Cubre estrategia de precios, economía de catálogo, publicación estacional y enfoques multiplataforma para maximizar los ingresos de libros de actividades.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'libros-actividades-matematicas-kdp', anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
-    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: 'Cómo publicar libros de puzles en Amazon KDP' },
+    { pageType: 'guide', slug: `libros-actividades-matematicas-kdp`, anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
+    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: `Cómo publicar libros de puzles en Amazon KDP` },
     { pageType: 'guide', slug: 'libros-sopas-letras-kdp', anchorText: `Cómo crear libros de sopas de letras para Amazon KDP` },
-    { pageType: 'guide', slug: 'ganar-dinero-kdp-libros-actividades', anchorText: 'Cómo ganar dinero con libros de actividades KDP' },
-    { pageType: 'guide', slug: 'mejores-nichos-kdp-libros-actividades', anchorText: 'Mejores nichos de libros de actividades KDP' },
-    { pageType: 'guide', slug: 'libros-sudoku-kdp', anchorText: 'Cómo crear libros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'Amazon KDP o Etsy: Dónde vender imprimibles' },
-    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de sumas para niños' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: `ganar-dinero-kdp-libros-actividades`, anchorText: `Cómo ganar dinero con libros de actividades KDP` },
+    { pageType: 'guide', slug: `mejores-nichos-kdp-libros-actividades`, anchorText: `Mejores nichos de libros de actividades KDP` },
+    { pageType: 'guide', slug: 'libros-sudoku-kdp', anchorText: `Cómo crear libros de sudoku para Amazon KDP` },
+    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: `Amazon KDP o Etsy: Dónde vender imprimibles` },
+    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: `Cómo crear fichas de sumas para niños` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'rompecabezas-matematicos-fichas', anchorText: `Generador de fichas de matemáticas — Todos los detalles` },
+    { pageType: 'app', slug: `rompecabezas-matematicos-fichas`, anchorText: `Generador de fichas de matemáticas — Todos los detalles` },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Crea fichas de matemáticas basadas en cuadrícula con tamaño y espaciado de celdas precisos ideales para demostrar los requisitos de formateo KDP. Las fichas de matemáticas exigen alineación precisa y espacio de respuesta adecuado, haciéndolas el ejemplo más claro de por qué la configuración correcta de márgenes y diseño importa para la impresión.`,
     },
     {
@@ -186,33 +186,33 @@ const content: GuideContent = {
     },
     {
       appId: 'writing',
-      title: 'Generador de fichas de escritura a mano',
+      title: `Generador de fichas de escritura a mano`,
       description: `Crea páginas de práctica de escritura con líneas pautadas que demuestran el formateo de espaciado de líneas y área de trazado para KDP. Las fichas de escritura a mano tienen los requisitos de espaciado más estrictos porque las líneas pautadas deben medirse con precisión para el grupo de edad objetivo.`,
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Produce ilustraciones a toda página que demuestran las decisiones de formateo de sangrado versus sin sangrado para KDP. Las páginas para colorear son el tipo de actividad principal que se beneficia de la configuración de sangrado, haciéndolas esenciales para entender cuándo y cómo configurar el sangrado.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp`, alt: 'Ficha de matemáticas mostrando diseño de cuadrícula y espaciado formateado para especificaciones de impresión de Amazon KDP' },
+    heroImage: { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp`, alt: `Ficha de matemáticas mostrando diseño de cuadrícula y espaciado formateado para especificaciones de impresión de Amazon KDP` },
     samples: [
-      { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp`, alt: 'Ficha de matemáticas con espaciado preciso de cuadrícula demostrando requisitos de márgenes y diseño KDP', caption: 'Diseño de ficha de matemáticas — formateo basado en cuadrícula con tamaño de celdas adecuado para escritura a mano cómoda dentro de las especificaciones de márgenes KDP' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Cuadrícula de sopa de letras mostrando espaciado de letras formateado para impresión KDP`, caption: 'Cuadrícula de sopa de letras — espaciado de letras consistente a celdas de 0,3 pulgadas asegura un rodeo y legibilidad cómodos en libros impresos KDP' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas demostrando diseño limpio de página única KDP`, caption: 'Ficha de sumas — diseño limpio de operación única con espacios de respuesta claros que demuestra formateo interior profesional KDP' },
+      { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp`, alt: `Ficha de matemáticas con espaciado preciso de cuadrícula demostrando requisitos de márgenes y diseño KDP`, caption: `Diseño de ficha de matemáticas — formateo basado en cuadrícula con tamaño de celdas adecuado para escritura a mano cómoda dentro de las especificaciones de márgenes KDP` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Cuadrícula de sopa de letras mostrando espaciado de letras formateado para impresión KDP`, caption: `Cuadrícula de sopa de letras — espaciado de letras consistente a celdas de 0,3 pulgadas asegura un rodeo y legibilidad cómodos en libros impresos KDP` },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas demostrando diseño limpio de página única KDP`, caption: `Ficha de sumas — diseño limpio de operación única con espacios de respuesta claros que demuestra formateo interior profesional KDP` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Cómo crear fichas de matemáticas listas para imprimir para Amazon KDP — Tutorial de formateo`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pez ángel — imagen educativa temática', caption: 'Pez ángel' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pez payaso — imagen educativa temática', caption: 'Pez payaso' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagen educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Cangrejo — imagen educativa temática', caption: 'Cangrejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pez ángel — imagen educativa temática`, caption: 'Pez ángel' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pez payaso — imagen educativa temática`, caption: 'Pez payaso' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagen educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Cangrejo — imagen educativa temática`, caption: 'Cangrejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 };
 

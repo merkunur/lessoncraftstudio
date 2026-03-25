@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criador labirintos com imagens',
+    primaryKeyword: `criador labirintos com imagens`,
     secondaryKeywords: [
       `gerador de labirintos imprimíveis para vendedores Etsy e KDP`,
       `criador de fichas de caminhos e labirintos com gabarito automático`,
@@ -19,16 +19,16 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Criador de Fichas de Labirintos com Imagens',
+    title: `Criador de Fichas de Labirintos com Imagens`,
     tagline: `Gerador de fichas de labirintos com três modos de jogo — Caminho de Imagens (quadrícula visual de seguimento de caminhos), Labirinto Clássico (algoritmo LPF com paredes, colecionáveis e bloqueio de becos sem saída) e Escolhe o Caminho Certo (labirintos de três caminhos direcionais) — cinco funções de imagem (Início, Fim, Caminho, Distrator, Decoração), design de paredes personalizável com controlos de cor/espessura/opacidade, gabaritos autogerados com círculos rosa realçando a solução e legendas de colecionáveis, e labirintos completamente visuais que se vendem em todo o mundo sem tradução`,
-    description: `Crie fichas profissionais de labirintos e percursos com três modos de jogo distintos num só gerador. Caminho de Imagens cria uma quadrícula de imagens onde os usuários seguem o caminho correto desde o início até ao final identificando as imagens do caminho entre distratores — ideal para usuários mais novos e tarefas de discriminação visual. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF (Caminho Mais Longo Primeiro) com um sistema de células de corredor e colocação dinâmica de paredes. A pontuação de qualidade avalia curvas, comprimento e bloqueios para garantir labirintos desafiantes mas resolúveis. Configure tamanhos de quadrícula de 15×15 a 20×20, defina de 1 a 3 caminhos com bloqueio automático de becos sem saída, e personalize a cor das paredes (qualquer cor com seletor), espessura (1–10px, predefinido 3px) e opacidade (10–100%, predefinido 100%). Imagens colecionáveis dispersam-se pelos corredores do Labirinto Clássico — configure de 1 a 4 tipos de imagens colecionáveis, de 1 a 3 cópias mínimas e de 1 a 10 cópias máximas por tipo. Escolhe o Caminho Certo apresenta labirintos de três caminhos com quatro opções direcionais (de baixo para cima, de cima para baixo, da esquerda para a direita, da direita para a esquerda) onde os usuários identificam a única rota correta entre iscas. Atribua imagens a cinco funções distintas: Imagem de Início (ponto de entrada), Imagem de Fim (destino — 1 para Caminho/Labirinto, 3 para Escolhe o Caminho), Imagens de Caminho (marcadores de rota correta ou colecionáveis), Imagens Distratoras (preenchimento de células fora do caminho) e Decoração (colocação livre no canvas). Cada modo gera um gabarito complementar num separador de canvas separado — os caminhos de solução são realçados com círculos rosa ao longo da rota correta. O modo Escolhe o Caminho acrescenta uma etiqueta «✓ CORRECT PATH» identificando a rota vencedora. Labirinto Clássico inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. O cabeçalho autogerado «Caminho de Imagens» apresenta uma borda exterior laranja (traço de 8px) com margens de 34px, título localizado e instruções «Segue o caminho!» nos 11 idiomas suportados. As fichas em vertical exibem um cabeçalho de 240px; as horizontais usam um layout compacto de 165px. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas em PNG, JPG ou GIF. Aplique temas de fundo e de borda com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto de 0 a 10. Ative campos de nome e data para identificação do usuário. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão que poupa tinta. Edite no canvas Fabric.js com 6 opções de alinhamento mais centramento na página, camadas, bloquear/desbloquear, zoom de 25% a 300% em incrementos de 25%, e desfazer/refazer com 20 estados. Os labirintos de Caminho de Imagens são completamente visuais — não requerem leitura nem compreensão linguística, tornando cada ficha vendível instantaneamente em qualquer mercado do mundo. O teste grátis inclui todas as funcionalidades com uma marca d'água nos downloads. Adquira uma licença para remover a marca d'água e vender comercialmente.`,
+    description: `Crie fichas profissionais de labirintos e percursos com três modos de jogo distintos num só gerador. Caminho de Imagens cria uma quadrícula de imagens onde os usuários seguem o caminho correto desde o início até ao final identificando as imagens do caminho entre distratores — ideal para usuários mais novos e tarefas de discriminação visual. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF (Caminho Mais Longo Primeiro) com um sistema de células de corredor e colocação dinâmica de paredes. A pontuação de qualidade avalia curvas, comprimento e bloqueios para garantir labirintos desafiantes mas resolúveis. Configure tamanhos de quadrícula de 15×15 a 20×20, defina de 1 a 3 caminhos com bloqueio automático de becos sem saída, e personalize a cor das paredes (qualquer cor com seletor), espessura (1–10px, predefinido 3px) e opacidade (10–100%, predefinido 100%). Imagens colecionáveis dispersam-se pelos corredores do Labirinto Clássico — configure de 1 a 4 tipos de imagens colecionáveis, de 1 a 3 cópias mínimas e de 1 a 10 cópias máximas por tipo. Escolhe o Caminho Certo apresenta labirintos de três caminhos com quatro opções direcionais (de baixo para cima, de cima para baixo, da esquerda para a direita, da direita para a esquerda) onde os usuários identificam a única rota correta entre iscas. Atribua imagens a cinco funções distintas: Imagem de Início (ponto de entrada), Imagem de Fim (destino — 1 para Caminho/Labirinto, 3 para Escolhe o Caminho), Imagens de Caminho (marcadores de rota correta ou colecionáveis), Imagens Distratoras (preenchimento de células fora do caminho) e Decoração (colocação livre no canvas). Cada modo gera um gabarito complementar num separador de canvas separado — os caminhos de solução são realçados com círculos rosa ao longo da rota correta. O modo Escolhe o Caminho acrescenta uma etiqueta «✓ CORRECT PATH» identificando a rota vencedora. Labirinto Clássico inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. O cabeçalho autogerado «Caminho de Imagens» apresenta uma borda exterior laranja (traço de 8px) com margens de 34px, título localizado e instruções «Segue o caminho!» nos 11 idiomas suportados. As fichas em vertical exibem um cabeçalho de 240px; as horizontais usam um layout compacto de 165px. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas em PNG, JPG ou GIF. Aplique temas de fundo e de borda com controlos de opacidade independentes (0–1, passo 0,05). Adicione texto personalizado com 7 opções de fonte (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto de 0 a 10. Ative campos de nome e data para identificação do usuário. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative a escala de cinzentos para impressão que poupa tinta. Edite no canvas Fabric.js com 6 opções de alinhamento mais centramento na página, camadas, bloquear/desbloquear, zoom de 25% a 300% em incrementos de 25%, e desfazer/refazer com 20 estados. Os labirintos de Caminho de Imagens são completamente visuais — não requerem leitura nem compreensão linguística, tornando cada ficha vendível instantaneamente em qualquer mercado do mundo. O teste grátis inclui todas as funcionalidades com uma marca d`água nos downloads. Adquira uma licença para remover a marca d`água e vender comercialmente.`,
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Labirintos em 8 Passos',
+    title: `Como Criar Fichas de Labirintos em 8 Passos`,
     steps: [
       {
-        title: 'Abra o Criador de Labirintos com Imagens',
+        title: `Abra o Criador de Labirintos com Imagens`,
         description: `Clique em «Teste Grátis Agora» para abrir o gerador de fichas de labirintos no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configurações à esquerda e um canvas de duplo separador à direita — um separador para a ficha e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de labirintos imediatamente.`,
       },
       {
@@ -40,7 +40,7 @@ const content: ToolContent = {
         description: `Abra o painel de Configuração de Percurso e selecione um dos três modos de jogo. Caminho de Imagens cria uma quadrícula de imagens com um único caminho correto desde o início até ao final — os usuários identificam as imagens do caminho entre distratores. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF (Caminho Mais Longo Primeiro) com tamanhos de quadrícula configuráveis de 15×15 a 20×20, de 1 a 3 caminhos e bloqueio automático de becos sem saída. Escolhe o Caminho Certo cria labirintos de três caminhos com quatro opções direcionais: de baixo para cima, de cima para baixo, da esquerda para a direita e da direita para a esquerda. Cada modo oferece um desafio cognitivo diferente a partir da mesma biblioteca de imagens.`,
       },
       {
-        title: 'Configure os Ajustes Específicos do Modo',
+        title: `Configure os Ajustes Específicos do Modo`,
         description: `Ajuste os parâmetros do modo selecionado. Para Labirinto Clássico, configure o tamanho de quadrícula (15×15 a 20×20), o número de caminhos (1, 2 ou 3), o intervalo de comprimento do caminho (4–30 células, predefinido 8–12) e a configuração de imagens colecionáveis — número de tipos (1–4), cópias mínimas (1–3) e cópias máximas (1–10). Personalize a cor das paredes com o seletor de cores, a espessura de 1 a 10 píxeis (predefinido 3px) e a opacidade de 10% a 100% (predefinido 100%). Para Escolhe o Caminho Certo, selecione uma direção entre as quatro opções. Ative os campos de nome e data para linhas de identificação do usuário.`,
       },
       {
@@ -56,7 +56,7 @@ const content: ToolContent = {
         description: `Clique no separador Gabarito para ver a solução gerada automaticamente. O gabarito reproduz o layout exato do labirinto e realça o caminho de solução correto com círculos rosa colocados ao longo da rota. O modo Escolhe o Caminho Certo acrescenta uma etiqueta «✓ CORRECT PATH» identificando a rota vencedora. O modo Labirinto Clássico inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. Alterne entre os separadores de Ficha e Gabarito para comparar. O gabarito gera-se simultaneamente com o labirinto — sem criação manual, sem processo de design à parte, sem possibilidade de respostas descoordinadas.`,
       },
       {
-        title: 'Descarregue os Quatro Ficheiros',
+        title: `Descarregue os Quatro Ficheiros`,
         description: `Ative a escala de cinzentos para versões que poupam tinta ideais para impressão online e interiores de KDP. Descarregue os quatro ficheiros numa só sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo renderizado a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Cada separador tem o seu próprio par de botões de descarga. Todas as exportações estão prontas para publicação em listagens Etsy, interiores Amazon KDP e ficheiros de produtos Gumroad sem necessidade de pós-processamento. Clique em Gerar novamente para produzir um labirinto novo com configurações aleatórias diferentes — mesmas imagens, mesmos ajustes, design de labirinto completamente diferente.`,
       },
     ],
@@ -80,18 +80,18 @@ const content: ToolContent = {
       description: `O modo Labirinto Clássico dispersa imagens colecionáveis pelos corredores com paredes — configure de 1 a 4 tipos de imagens com 1–10 cópias cada. Os usuários resolvem o labirinto E contam os colecionáveis pelo caminho, combinando raciocínio espacial com observação e aritmética. O gabarito inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem correta. Crie coleções temáticas de contagem: conte as borboletas no labirinto do jardim, encontre todos os tesouros no labirinto pirata, recolha cada estrela no labirinto espacial. Este formato de dupla competência permite preços premium porque os compradores obtêm prática de resolução de caminhos e contagem numa só ficha.`,
     },
     {
-      title: 'Coleções Sazonais de Fichas de Labirintos',
+      title: `Coleções Sazonais de Fichas de Labirintos`,
       description: `Crie coleções sazonais rotativas usando temas festivos e de natureza da biblioteca de 104 temas. Puzzles de labirintos de Natal, atividades de percursos de Halloween, desafios de Escolhe o Caminho Certo de Páscoa, fichas de Labirinto Clássico de regresso às aulas e conjuntos temáticos de verão — cada um suporta pacotes sazonais dedicados. Inclua os três modos de jogo em cada coleção sazonal para máximo valor e variedade. Varie as configurações de Labirinto Clássico em cada coleção — diferentes tamanhos de quadrícula, quantidades de caminhos e ajustes de colecionáveis criam experiências únicas mesmo dentro do mesmo tema. Publique cada coleção 4–6 semanas antes da festividade para máxima visibilidade nos marketplaces.`,
     },
     {
-      title: 'Pacotes Multiformato de Puzzles e Lógica',
+      title: `Pacotes Multiformato de Puzzles e Lógica`,
       description: `Combine fichas de labirintos com puzzles de sudoku com imagens, desafios de peças faltantes, atividades do intruso e fichas de puzzle de quadrícula usando temas coordenados de múltiplos geradores. Caminho de Imagens desenvolve planeamento espacial e busca de rotas. Sudoku constrói dedução por linhas e colunas. Peças faltantes desafia o raciocínio parte-todo. Cada formato exercita uma competência cognitiva diferente mantendo coerência temática. Os pacotes multiformato alcançam preços premium e oferecem aos usuários prática variada de lógica dentro de um tema unificado — pais e vendedores pagam mais por coleções integrais de desenvolvimento de competências do que por pacotes de uma só atividade.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Loja Etsy de Atividades de Labirintos Temáticos',
+      title: `Loja Etsy de Atividades de Labirintos Temáticos`,
       description: `Abra uma loja Etsy especializada em pacotes de atividades de labirintos organizados por tema usando as 104 coleções de imagens. Labirintos de animais, labirintos festivos, labirintos da quinta, labirintos do oceano — cada tema torna-se numa listagem independente com fichas de Caminho de Imagens, Labirinto Clássico e Escolhe o Caminho Certo mais gabaritos autogerados. Três modos de jogo a partir de cada tema triplicam a variedade do seu produto. O algoritmo LPF produz designs de labirintos únicos em cada geração, pelo que criar mais de 20 fichas únicas por tema leva apenas minutos. Preço de pacotes individuais por tema entre $3 e $5 para 15–20 fichas com gabaritos e pacotes premium multitema entre $7 e $12 para coleções de dificuldade progressiva.`,
       platform: 'Etsy',
     },
@@ -132,7 +132,7 @@ const content: ToolContent = {
       description: `Labirinto Clássico oferece controlo granular de dificuldade através do tamanho de quadrícula (15×15 a 20×20) e da quantidade de caminhos (1–3). Uma quadrícula de 15×15 com 1 caminho cria um labirinto manejável para usuários mais novos. Uma quadrícula de 20×20 com 3 caminhos e bloqueio de becos sem saída produz um desafio complexo para usuários mais velhos. A configuração de comprimento do caminho (4–30 células, predefinido 8–12) acrescenta outra dimensão de dificuldade. Crie pacotes de dificuldade progressiva com secções claramente rotuladas como fácil, médio e difícil — os compradores pagam preços premium por produtos que crescem com o nível do usuário.`,
     },
     {
-      title: 'Aproveite o Formato Visual para Vendas Globais',
+      title: `Aproveite o Formato Visual para Vendas Globais`,
       description: `As fichas de labirintos são completamente visuais — os usuários navegam caminhos, seguem imagens e resolvem puzzles espaciais sem ler qualquer texto. Cada labirinto que cria é vendível instantaneamente em todo o mundo sem tradução nem localização. Um mesmo conjunto de fichas de labirintos serve para cada loja internacional da Etsy, cada mercado de KDP e cada comprador de Gumroad sem importar o idioma. Enquanto os concorrentes criam versões separadas por idioma de fichas com texto, os seus labirintos visuais funcionam em toda a parte com um só conjunto de ficheiros. O cabeçalho autogerado traduz-se automaticamente para 11 idiomas, mas o conteúdo do labirinto não requer qualquer localização.`,
     },
     {
@@ -156,18 +156,18 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — os três modos de jogo (Caminho de Imagens, Labirinto Clássico, Escolhe o Caminho Certo), o algoritmo LPF de labirintos com pontuação de qualidade, cinco funções de imagem (Início, Fim, Caminho, Distrator, Decoração), personalização de paredes com controlos de cor/espessura/opacidade, o sistema de colecionáveis com tipos e cópias configuráveis, o gabarito autogerado com círculos rosa de solução e legendas de colecionáveis, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, carregamento de imagens personalizadas, temas de fundo e borda com opacidade independente, campos de nome/data, escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d'água. Adquira uma licença comercial para remover a marca d'água e desbloquear direitos de venda.`,
+      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — os três modos de jogo (Caminho de Imagens, Labirinto Clássico, Escolhe o Caminho Certo), o algoritmo LPF de labirintos com pontuação de qualidade, cinco funções de imagem (Início, Fim, Caminho, Distrator, Decoração), personalização de paredes com controlos de cor/espessura/opacidade, o sistema de colecionáveis com tipos e cópias configuráveis, o gabarito autogerado com círculos rosa de solução e legendas de colecionáveis, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, carregamento de imagens personalizadas, temas de fundo e borda com opacidade independente, campos de nome/data, escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d`água. Adquira uma licença comercial para remover a marca d`água e desbloquear direitos de venda.`,
     },
     {
-      question: 'Quais são os três modos de jogo e em que diferem?',
+      question: `Quais são os três modos de jogo e em que diferem?`,
       answer: `O gerador oferece três modos distintos numa só ferramenta. Caminho de Imagens cria uma quadrícula de imagens onde os usuários seguem o caminho correto desde o início até ao final identificando as imagens do caminho entre distratores — ideal para usuários mais novos e discriminação visual. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF (Caminho Mais Longo Primeiro) com imagens colecionáveis dispersas pelos corredores, tamanhos de quadrícula configuráveis (15×15 a 20×20) e de 1 a 3 caminhos com bloqueio de becos sem saída. Escolhe o Caminho Certo apresenta labirintos de três caminhos com quatro opções direcionais (de baixo para cima, de cima para baixo, da esquerda para a direita, da direita para a esquerda) onde os usuários identificam a única rota correta entre iscas. Cada modo oferece um desafio cognitivo diferente a partir da mesma biblioteca de imagens.`,
     },
     {
-      question: 'Como funciona o algoritmo LPF de labirintos?',
+      question: `Como funciona o algoritmo LPF de labirintos?`,
       answer: `O algoritmo LPF (Caminho Mais Longo Primeiro) gera labirintos com paredes de alta qualidade usando um sistema de células de corredor com colocação dinâmica de paredes. A pontuação de qualidade do caminho avalia curvas, comprimento e bloqueios para garantir labirintos desafiantes mas resolúveis de cada vez. O suporte multicaminho cria 1, 2 ou 3 caminhos com bloqueio automático de becos sem saída nas rotas incorretas. Configure comprimentos mínimos e máximos do caminho (4–30 células, predefinido 8–12) para controlo preciso de dificuldade. Os tamanhos de quadrícula vão de 15×15 a 20×20, e o posicionamento de início/fim consciente das paredes garante pontos de entrada e saída limpos.`,
     },
     {
-      question: 'Quais são as cinco funções de imagem?',
+      question: `Quais são as cinco funções de imagem?`,
       answer: `Cada imagem cumpre uma função específica no design do labirinto. A Imagem de Início marca o ponto de entrada. A Imagem de Fim marca o destino — 1 para os modos Caminho e Labirinto Clássico, 3 para Escolhe o Caminho Certo. As Imagens de Caminho definem a rota correta no modo Caminho ou aparecem como colecionáveis no Labirinto Clássico. As Imagens Distratoras preenchem as células que não pertencem ao caminho para criar desafio visual. As imagens de Decoração colocam-se livremente no canvas para maior atratividade visual. O seletor de funções no painel de Biblioteca de Imagens permite-lhe atribuir e reatribuir funções rapidamente, com painéis dedicados que mostram as imagens selecionadas para cada função.`,
     },
     {
@@ -175,15 +175,15 @@ const content: ToolContent = {
       answer: `Labirinto Clássico dispersa imagens colecionáveis pelos corredores do labirinto para que os usuários as encontrem e contem enquanto resolvem. Configure o número de tipos de imagens colecionáveis (1, 2, 3 ou 4), cópias mínimas por tipo de imagem (1, 2 ou 3) e cópias máximas por tipo de imagem (1–10). O gabarito inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. Os colecionáveis transformam um labirinto padrão numa ficha de dupla competência combinando resolução de caminhos com prática de observação e contagem.`,
     },
     {
-      question: 'Como funciona a personalização de paredes?',
+      question: `Como funciona a personalização de paredes?`,
       answer: `Os modos Labirinto Clássico e Escolhe o Caminho Certo oferecem três controlos de paredes. Cor da Parede usa um seletor de cores para definir qualquer cor. Espessura da Parede ajusta-se de 1 a 10 píxeis (predefinido 3px) para linhas elegantes e finas ou paredes grossas adaptadas a crianças. Opacidade da Parede vai de 10% a 100% (predefinido 100%) para limites subtis ou proeminentes do labirinto. Estes controlos permitem-lhe criar estilos visuais distintos — paredes cinzentas finas para livros de puzzles sofisticados, paredes grossas e coloridas para usuários pequenos, ou paredes semitransparentes para efeitos de design em camadas.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer: `O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. O gabarito reproduz o layout exato do labirinto e realça o caminho de solução correto com círculos rosa colocados ao longo da rota. O modo Escolhe o Caminho Certo acrescenta uma etiqueta «✓ CORRECT PATH» identificando a rota vencedora. O modo Labirinto Clássico inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. Descarregue ambas as versões separadamente usando quatro botões dedicados: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF. O gabarito gera-se simultaneamente com o labirinto — sem criação manual, sem possibilidade de respostas descoordinadas.`,
     },
     {
-      question: 'Qual é o design do cabeçalho autogerado?',
+      question: `Qual é o design do cabeçalho autogerado?`,
       answer: `Cada ficha inclui um cabeçalho estilizado com uma borda exterior laranja (traço de 8px) e margens de 34px. O título «Caminho de Imagens» e a descrição «Segue o caminho desde o início até ao final!» traduzem-se automaticamente para os 11 idiomas suportados. As fichas em vertical exibem um cabeçalho de 240px; as fichas em horizontal usam um layout compacto de 165px. O cabeçalho renderiza-se com texto localizado para inglês, alemão (Bilderpfad), francês (Chemin d'Images), português (Caminho de Imagens) e todos os demais idiomas suportados.`,
     },
     {
@@ -199,7 +199,7 @@ const content: ToolContent = {
       answer: `Sim. Com uma licença comercial, tem direitos completos para vender fichas de labirintos como downloads digitais na Etsy, cadernos de labirintos impressos na Amazon KDP, recursos para a loja no Gumroad ou através de qualquer outro canal de venda. Os três modos de jogo, o algoritmo LPF, cinco funções de imagem, personalização de paredes, o sistema de colecionáveis, os gabaritos autogerados com círculos rosa de solução, carregamento de imagens personalizadas e as 104 coleções temáticas de imagens dão-lhe tudo o necessário para criar produtos profissionais de labirintos que competem em categorias de puzzles e atividades em todos os principais marketplaces.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Teste antes de comprar com o nosso teste grátis — todas as funcionalidades estão disponíveis para que possa avaliar completamente a ferramenta antes de comprar. Como o teste grátis lhe dá acesso completo aos três modos de jogo, o algoritmo LPF de labirintos, cinco funções de imagem, personalização de paredes, o sistema de colecionáveis, o gabarito autogerado com círculos rosa de solução, os 104 temas, carregamento de imagens personalizadas, temas de fundo e borda, campos de nome/data, exportação em escala de cinzentos e todos os formatos de descarga, não oferecemos reembolsos em compras de licenças. Certifique-se de que a ferramenta se adequa às suas necessidades usando o teste grátis antes de comprar.`,
     },
   ],
@@ -207,12 +207,12 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'labirinto-caminhos-fichas', anchorText: `Fichas de Labirintos com Imagens — Detalhes Completos do Produto` },
     { pageType: 'tool', slug: 'gerador-sudoku-infantil', anchorText: 'Criador de Sudoku com Imagens' },
-    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Criador de Fichas de Peças Faltantes' },
+    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: `Criador de Fichas de Peças Faltantes` },
     { pageType: 'tool', slug: 'gerador-fichas-intruso', anchorText: 'Criador de Fichas do Intruso' },
-    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Criador de Fichas de Puzzle de Quadrícula' },
-    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: 'Criador de Fichas de Procura e Conta' },
+    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: `Criador de Fichas de Puzzle de Quadrícula` },
+    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: `Criador de Fichas de Procura e Conta` },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: `Gerador de Páginas para Colorir` },
   ],
 
   visuals: {

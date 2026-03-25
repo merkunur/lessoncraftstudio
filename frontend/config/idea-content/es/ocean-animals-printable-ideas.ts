@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles Animales Marinos — Guía de Nicho`,
     metaDescription: `Ideas rentables de imprimibles de animales marinos para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos, estrategias por plataforma y consejos.`,
 
-    primaryKeyword: 'ideas de imprimibles animales marinos',
+    primaryKeyword: `ideas de imprimibles animales marinos`,
     secondaryKeywords: [
-      'fichas animales marinos para vender',
-      'negocio imprimibles criaturas marinas',
-      'fichas actividades océano para vendedores',
-      'vender imprimibles marinos en Etsy',
+      `fichas animales marinos para vender`,
+      `negocio imprimibles criaturas marinas`,
+      `fichas actividades océano para vendedores`,
+      `vender imprimibles marinos en Etsy`,
     ],
     lsiKeywords: [
       'fichas educativas vida marina',
-      'actividades temática submarina para niños',
-      'imprimibles escolares criaturas del mar',
+      `actividades temática submarina para niños`,
+      `imprimibles escolares criaturas del mar`,
     ],
   },
   hero: {
@@ -94,7 +94,7 @@ Las conexiones con la educación en ciencias hacen que los imprimibles de animal
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Animales Marinos en Etsy',
+      title: `Vender Imprimibles de Animales Marinos en Etsy`,
       description: `Etsy recompensa la especificidad en los listados de imprimibles de animales marinos. Apunta a palabras clave de cola larga como «fichas de conteo animales marinos preescolar» o «páginas para colorear criaturas marinas preescolar» en lugar de títulos genéricos. Utiliza las trece etiquetas con combinaciones de tema, habilidad, grupo de edad y temporada. Las imágenes de maqueta mostrando fichas oceánicas impresas junto a juguetes de playa, fondos azules o entornos del mercado superan significativamente las vistas previas digitales planas. Programa los nuevos listados para coincidir con los picos de demanda de verano de mayo a agosto cuando el interés oceánico se dispara. Ofrece tanto fichas individuales a dos o cuatro dólares como paquetes temáticos a ocho o quince dólares, ya que los compradores de Etsy a menudo comienzan con una compra de bajo costo y regresan por paquetes más grandes después de verificar la calidad.`,
     },
     {
@@ -148,18 +148,18 @@ Las conexiones con la educación en ciencias hacen que los imprimibles de animal
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -168,12 +168,12 @@ Las conexiones con la educación en ciencias hacen que los imprimibles de animal
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -183,18 +183,18 @@ Las conexiones con la educación en ciencias hacen que los imprimibles de animal
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
+      slug: `animales-granja-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Animales de Granja`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pez ángel — imagen educativa temática', caption: 'Pez ángel' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pez payaso — imagen educativa temática', caption: 'Pez payaso' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagen educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Cangrejo — imagen educativa temática', caption: 'Cangrejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Pez — imagen educativa temática', caption: 'Pez' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pez ángel — imagen educativa temática`, caption: 'Pez ángel' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pez payaso — imagen educativa temática`, caption: 'Pez payaso' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagen educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Cangrejo — imagen educativa temática`, caption: 'Cangrejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Pez — imagen educativa temática`, caption: 'Pez' },
   ],
 
 

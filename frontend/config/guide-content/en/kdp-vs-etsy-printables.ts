@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'KDP vs Etsy printables',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy for selling printables',
-      'where to sell printable worksheets online',
+      `Amazon KDP vs Etsy for selling printables`,
+      `where to sell printable worksheets online`,
       `KDP or Etsy which platform is better for printables`,
-      'sell printables on multiple platforms strategy',
+      `sell printables on multiple platforms strategy`,
     ],
     lsiKeywords: [
       `digital download marketplace print-on-demand publishing platform comparison`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `multi-platform selling strategy cross-platform printable business`,
       `printable worksheet activity book coloring page puzzle book marketplace`,
     ],
-    titleTag: 'KDP vs Etsy Printables — Comparison Guide',
+    titleTag: `KDP vs Etsy Printables — Comparison Guide`,
     metaDescription: `KDP vs Etsy for printable sellers. Compare fee structures, product formats, traffic mechanics, and learn multi-platform strategies for your printable.`,
   },
 
   hero: {
-    title: 'Amazon KDP vs Etsy: Where to Sell Printables',
+    title: `Amazon KDP vs Etsy: Where to Sell Printables`,
     tagline: `A head-to-head comparison of the two dominant platforms for printable sellers — covering the fundamental difference between digital downloads and print-on-demand, fee structures and real-world profit margins, traffic and discoverability mechanics, which product types belong on which platform, listing and publishing workflows, buyer behavior patterns, the multi-platform strategy that maximizes revenue, and a decision framework for choosing where to start based on your content type, volume, and business goals`,
     description: `Etsy and Amazon KDP are the two largest platforms for selling printable content, but they serve fundamentally different markets with different economics. Etsy sells digital PDF downloads that buyers print at home. KDP sells physical printed books that Amazon manufactures and ships. Same educational content, completely different product formats, buyer experiences, and revenue models. This guide provides a systematic comparison across every dimension that matters — fees, traffic, product fit, workflow, and buyer behavior — so you can make an informed decision about where to sell your printables and how to build a multi-platform strategy that captures revenue from both marketplaces.`,
   },
@@ -35,31 +35,31 @@ const content: GuideContent = {
       content: `The most important distinction between Etsy and KDP is not branding, audience size, or fees — it is the product format itself. Etsy sells digital downloads: buyers purchase a PDF file, download it to their device, and print it themselves on their home printer or at a local print shop. KDP sells physical printed books: Amazon prints the interior pages, binds them into a paperback or hardcover, and ships the finished book to the buyer. You create similar educational content for both platforms, but the final product the buyer receives is fundamentally different.\n\nThis format difference has cascading effects on every aspect of your business. On Etsy, your production cost per sale is zero after you create the original file — digital downloads can be sold an infinite number of times with no per-unit cost. On KDP, Amazon charges a printing cost for every book sold that varies based on page count, trim size, ink type, and marketplace. Your Etsy product is a file the buyer must print themselves, which means some buyers will have excellent print quality and others will have mediocre results depending on their printer. Your KDP product is professionally printed by Amazon, which means consistent quality but less flexibility in format.\n\nThe buyer experience also differs significantly. Etsy buyers receive instant gratification — they purchase, download, and print within minutes. KDP buyers wait for shipping, typically 3 to 7 business days for standard delivery. Etsy buyers can print as many copies as they want from a single purchase, which appeals to buyers and homeschool parents who need multiple copies. KDP buyers get one physical copy per purchase, but the book arrives ready to use with no printing required, which appeals to parents who want a polished product or gift buyers who need presentation quality.\n\nUnderstanding this distinction is essential because it determines which of your products belong on which platform. Single-page worksheets, small worksheet packs, and printable bundles of individual pages work naturally on Etsy as digital downloads. Large compilations of 80 or more pages work naturally on KDP as printed books. Some content types like coloring pages work well on both — as individual digital downloads on Etsy and as compiled coloring books on KDP. Your platform strategy should be driven by your content format, not by platform preference.`,
     },
     {
-      heading: 'Compare Fee Structures and Profit Margins',
+      heading: `Compare Fee Structures and Profit Margins`,
       content: `The economics of selling on Etsy versus KDP differ in structure, not just in percentage. Understanding both fee models with real numbers helps you identify which platform delivers better margins for your specific products.\n\nEtsy charges three layers of fees on every sale. First, a $0.20 listing fee per item listed (renewed automatically every 4 months or when the item sells). Second, a 6.5% transaction fee on the sale price including shipping. Third, payment processing of 3% plus $0.25 per transaction. If you use Etsy Ads, you pay an additional advertising cost per click. For a $5 digital download, your fees total approximately $0.20 listing plus $0.33 transaction plus $0.40 processing, leaving roughly $4.07 before any advertising costs. For a $15 worksheet bundle, fees total approximately $0.20 plus $0.98 plus $0.70, leaving roughly $13.12.\n\nKDP uses a royalty-minus-printing-cost model. For paperback books, you earn 60% of the list price minus the printing cost. Printing costs depend on page count, trim size, and ink type. A black-and-white interior 100-page book at 8.5 by 11 inches costs approximately $3.65 to print. If you price it at $9.99, your royalty calculation is (60% of $9.99) minus $3.65, which equals approximately $2.34 per sale. A 60-page book costs less to print (approximately $2.45), and at $7.99 your royalty is approximately $2.34. Color interiors cost significantly more to print, which is why most worksheet and activity books use black-and-white interiors.\n\nThe margin comparison reveals a clear pattern. Low-priced individual printables ($3 to $7) generate reasonable margins on Etsy but are impossible to publish profitably on KDP because printing costs exceed the royalty at low price points. Mid-priced bundles ($10 to $20) can work on both platforms, though Etsy typically delivers higher per-unit margins. High-page-count books ($8 to $15 on KDP) generate competitive royalties on KDP with zero production effort per sale — Amazon handles printing, shipping, and customer service. The key advantage of KDP is scale without effort: once your book is published, every sale is fulfilled automatically with no action from you, no file delivery management, and no customer communication about download issues.\n\nNeither fee structure is universally better. Etsy delivers higher margins on low-to-mid-priced digital products. KDP delivers competitive margins on books while handling all fulfillment. The optimal strategy uses both platforms with products formatted appropriately for each.`,
     },
     {
-      heading: 'Evaluate Traffic and Discoverability Mechanisms',
+      heading: `Evaluate Traffic and Discoverability Mechanisms`,
       content: `How buyers find your products differs fundamentally between Etsy and Amazon, and understanding these traffic mechanics determines how you optimize your listings on each platform.\n\nEtsy search uses a relevance algorithm that considers your listing title, tags (13 available per listing), description, listing attributes, and shop quality score. Etsy gives weight to listing recency — newly listed or recently renewed items get a temporary visibility boost. Your shop reputation (reviews, response time, completion rate) affects your overall search placement. Etsy also offers paid advertising through Etsy Ads, where you bid on search terms to appear in promoted positions. The Etsy search experience is browse-heavy: buyers often explore multiple pages, click through related listings, and discover products through recommendations and curated collections.\n\nAmazon search uses the A9 algorithm, which prioritizes sales velocity, keyword relevance, and conversion rate. KDP books have 7 backend keyword fields (each up to 50 characters) plus the title, subtitle, and book description for discoverability. Amazon category placement determines where your book appears in browsing paths, and you can request up to 3 categories per title. Amazon also has powerful recommendation features — "Customers who bought this also bought," "Frequently bought together," and series grouping — that drive significant discovery after your first sales. The Amazon search experience is intent-driven: buyers typically search for something specific, compare a few options, and purchase.\n\nThe practical difference for sellers is significant. On Etsy, you need to actively maintain your listings through renewals, seasonal keyword updates, and ongoing SEO optimization. New listings get a discoverability boost, so regularly adding new products keeps your shop visible. On Amazon, a well-optimized book can generate consistent sales for years with minimal maintenance because the algorithm rewards titles with established sales history. However, building initial sales velocity on Amazon is harder — new books with no reviews face an uphill battle against established titles.\n\nBoth platforms have external traffic potential. Etsy shops can receive traffic from Pinterest, social media, and Google search (Etsy listings rank well in Google). KDP books benefit from Amazon being the default product search engine for many consumers. Neither platform requires you to drive your own traffic, but both reward sellers who bring external visitors to their listings.`,
     },
     {
-      heading: 'Match Your Product Type to the Right Platform',
+      heading: `Match Your Product Type to the Right Platform`,
       content: `Not every printable product works equally well on both platforms. Matching your content type to the right platform maximizes your revenue and avoids the frustration of trying to sell the wrong format in the wrong marketplace.\n\nSingle-page worksheets and small worksheet packs belong on Etsy. A math addition worksheet, a handwriting practice sheet, or a vocabulary matching activity works naturally as a digital download that a parent or buyer prints on demand. These products are too short for KDP — a single worksheet cannot become a book, and bundling enough worksheets to reach book length requires substantial content volume. On Etsy, individual worksheets sell at $2 to $5 and small packs of 5 to 10 pages sell at $5 to $10, generating strong margins with zero fulfillment costs.\n\nActivity books and workbooks of 60 or more pages belong on KDP. A 100-page math activity book, a 90-page handwriting practice workbook, or a 120-page word search puzzle book works naturally as a printed book that arrives ready to use. These compilations are difficult to sell as Etsy digital downloads because buyers would need to print 60 to 120 pages on their home printer, which is expensive and produces inconsistent quality. On KDP, Amazon prints and ships a professional-quality book at a price point ($7.99 to $12.99) that buyers find reasonable for a physical product.\n\nColoring pages work well on both platforms in different formats. Individual coloring pages and themed packs of 10 to 20 pages sell strongly on Etsy as digital downloads, where buyers appreciate the ability to print specific pages as needed. The same coloring artwork compiled into a 50-page or 80-page coloring book sells on KDP as a printed product, appealing to buyers who want a complete book they can hand to a child without any printing. If you create coloring content, selling individual pages on Etsy AND compiled books on KDP simultaneously captures both buyer types.\n\nPuzzle content follows the same dual-platform logic. Word search, crossword, and math puzzles sell as individual worksheet downloads on Etsy and as compiled puzzle books on KDP. The Etsy version targets buyers who want specific puzzles for practical use. The KDP version targets parents and puzzle enthusiasts who want a complete book for ongoing entertainment. Both are legitimate markets, and the same content creation effort serves both with different formatting.\n\nPlanners, trackers, and organizational printables tend to perform better on Etsy because buyers want to print specific pages repeatedly. A budget tracker or meal planner that a buyer prints fresh each week has natural repeat use as a digital download but limited appeal as a one-time printed book.`,
     },
     {
-      heading: 'Compare Listing and Publishing Workflows',
+      heading: `Compare Listing and Publishing Workflows`,
       content: `The effort required to get your product listed and available for purchase differs substantially between Etsy and KDP. Understanding both workflows helps you plan your time and choose the right platform for your current situation.\n\nThe Etsy listing process is straightforward and fast. You create a listing by uploading your digital file (PDF, up to 20 MB per file with up to 5 files per listing), writing a title and description, adding 13 tags, selecting listing attributes (category, occasion, style), setting your price, and publishing. Your listing is live and available for purchase within minutes of submission. You can edit listings at any time — update files, change prices, revise descriptions, and modify tags with changes reflected immediately. This speed-to-market makes Etsy ideal for testing new products and responding to seasonal demand quickly.\n\nThe KDP publishing process is more involved. You need a formatted interior manuscript (typically a print-ready PDF), a cover design that meets Amazon exact specifications (including spine width calculated from your page count), metadata including title, subtitle, description, 7 keyword fields, and category selections, plus pricing for each marketplace. After submission, your book enters a review process that typically takes 24 to 72 hours. Some submissions are approved faster, others may take longer or require revisions. Once approved, your book is available on Amazon, but it may take additional days for all features (Look Inside preview, search indexing) to fully activate.\n\nContent updates follow different paths on each platform. On Etsy, you upload a new file version and the listing updates immediately — future buyers get the new version. On KDP, you submit a new manuscript file that goes through the review process again, and the update takes 24 to 72 hours to propagate. During the review period, the book remains available for purchase with the old content. This makes Etsy more suitable for products you expect to iterate on frequently, while KDP works better for polished, finalized content.\n\nThe time investment for each platform differs accordingly. An experienced Etsy seller can list a new digital download in 15 to 30 minutes. An experienced KDP publisher needs 1 to 2 hours per title for formatting, cover design, and metadata optimization, plus the waiting period for review. The per-listing effort on KDP is higher, but each KDP listing represents a complete book rather than a single worksheet, so the revenue potential per listing is also higher.`,
     },
     {
-      heading: 'Understand Customer Behavior on Each Platform',
+      heading: `Understand Customer Behavior on Each Platform`,
       content: `Buyer psychology differs between Etsy and Amazon, and these differences affect how you position your products, write your descriptions, and price your offerings on each platform.\n\nEtsy buyers are browsing a marketplace associated with handmade, unique, and creative products. They often arrive with a general intent — "I need a fun activity for my kids" or "I want educational worksheets for my store" — rather than searching for a specific product title. Etsy shoppers browse multiple listings, read reviews, look at shop aesthetics, and make purchasing decisions based on visual appeal and perceived value. Impulse purchasing is common on Etsy, especially for low-priced digital downloads. Gift buying is also significant — many printable purchases on Etsy are made by people buying activities for children or solvers.\n\nAmazon buyers arrive with higher purchase intent and more specific search queries. They search for "math workbook for first grade" or "large print word search book for adults" and expect to find exactly that product. Amazon shoppers are comparison shoppers — they check reviews, read descriptions carefully, use the Look Inside preview feature, and compare prices across similar titles. Amazon buyers are less likely to impulse purchase a book but more likely to buy multiple related titles once they find a publisher they trust, especially through series recommendations.\n\nThe review dynamic differs between platforms. Etsy reviews focus on the download experience and file quality: "Printed perfectly," "Easy to download," "My kids loved these." KDP reviews focus on the content itself and physical book quality: "Great puzzles, well organized," "Print quality is excellent," "Could use more puzzles." Reviews carry different weight on each platform — on Amazon, reviews directly affect your search ranking and sales velocity, making them more strategically important. On Etsy, reviews build shop credibility but have less direct impact on search ranking.\n\nReturn and refund behavior also differs. Etsy digital downloads have low refund rates because buyers receive the file instantly and can evaluate it before printing. KDP books have slightly higher return rates because buyers may receive a physical product that does not match their expectations. However, KDP handles all returns and customer service for you, while Etsy sellers manage their own customer communication.\n\nPricing sensitivity varies by platform. Etsy buyers expect lower prices for digital downloads ($2 to $15 for most printable products) because they perceive digital files as having lower production costs. Amazon buyers accept higher prices for physical books ($7.99 to $14.99 for activity books) because they are purchasing a tangible manufactured product. This pricing psychology means the same content can command a higher total price as a KDP book than as an Etsy digital download.`,
     },
     {
-      heading: 'Build a Multi-Platform Strategy',
+      heading: `Build a Multi-Platform Strategy`,
       content: `Selling on both Etsy and Amazon KDP simultaneously is the strongest revenue approach for printable sellers. Rather than choosing one platform, use each platform for the product format it serves best, and let your content work double duty across both marketplaces.\n\nThe multi-platform approach starts with content creation. When you create educational content like math worksheets, word search puzzles, or coloring pages, you produce the individual pages first. These individual pages become your Etsy products — sold as single worksheets or themed packs of 5 to 15 pages. The same pages, compiled into a structured book with a table of contents, difficulty progression, and answer key, become your KDP product. One content creation effort produces products for two completely different marketplaces serving two different buyer types.\n\nThe cross-platform promotional effect is real but indirect. When a parent buys your word search worksheets on Etsy and sees your brand name, they may later search Amazon for a complete word search book and find your KDP title. When an Amazon buyer purchases your activity book and wants additional worksheets for practical use, they may search Etsy for printable versions they can reproduce. Consistent branding across both platforms — same publisher name, similar visual style, clear connection between your products — strengthens this cross-discovery effect.\n\nManage your content strategically across platforms. Your Etsy listings should not duplicate your KDP books exactly — buyers who can download and print your entire book content from Etsy for less money have no reason to buy the KDP version. Instead, offer individual pages and small themed packs on Etsy while reserving the complete compiled book format for KDP. This way each platform offers unique value: Etsy offers flexibility and individual page selection, KDP offers a professionally printed complete book. Some sellers include bonus content in their KDP books (additional puzzles, expanded answer keys, how-to-use guides) that is not available in the Etsy versions.\n\nThe workflow for dual-platform selling becomes efficient once established. Create your content using the worksheet generators and save individual page exports for Etsy and compile the complete set into a KDP manuscript. List individual pages and small packs on Etsy immediately (available for sale within minutes). Submit the compiled book to KDP (available after review in 24 to 72 hours). Over time, your Etsy shop and KDP catalog grow in parallel from the same content creation effort, and each platform generates independent revenue streams with different seasonal patterns and buyer demographics.`,
     },
     {
-      heading: 'Decide Where to Start Based on Your Situation',
+      heading: `Decide Where to Start Based on Your Situation`,
       content: `If you have not sold printables before and want a clear starting point, use this decision framework based on your current content volume, product type, and business goals.\n\nStart with Etsy if you have a small content library (fewer than 50 pages of material). Etsy lets you sell individual worksheets and small packs immediately without needing enough content to fill a book. You can test which topics and formats resonate with buyers, build reviews, and develop your content creation skills with low stakes. Each listing costs $0.20 to publish, and you can adjust pricing, descriptions, and even the product files at any time. Etsy is the lower-risk starting point for new printable sellers because the investment per product is minimal and the feedback cycle is fast.\n\nStart with KDP if you already have 80 or more pages of content ready to compile into a book. If you have been creating math worksheets, word search puzzles, or coloring pages and have enough material for a complete book, KDP lets you publish a professionally printed product with zero upfront cost. KDP is also the better starting point if you prefer a hands-off fulfillment model — Amazon handles printing, shipping, customer service, and returns without any ongoing effort from you. The trade-off is a longer publishing timeline and a more involved listing process.\n\nStart with both platforms simultaneously if you have moderate content volume (50 to 100 pages) and the time to manage two listing workflows. List individual pages on Etsy while compiling the full set into a KDP book. This approach maximizes your revenue from day one but requires more initial setup time. It works best for sellers who are already familiar with at least one platform and want to expand.\n\nRegardless of where you start, plan to sell on both platforms eventually. The printable sellers who generate the most consistent revenue are those who treat Etsy and KDP as complementary channels rather than competing options. Your Etsy shop captures buyers who want flexible digital downloads. Your KDP catalog captures buyers who want complete printed books. Together, they reach a broader audience than either platform alone.\n\nThe most important factor is starting at all. Analyzing platforms endlessly without listing products generates zero revenue. Pick the platform that matches your current situation, list your first products, learn from real buyer feedback, and expand to the second platform once your first channel is producing consistent sales. For detailed guidance on either platform, refer to the Etsy selling guides and KDP publishing guides linked throughout this guide.`,
     },
   ],
@@ -70,11 +70,11 @@ const content: GuideContent = {
       content: `Resist the temptation to use identical listing copy across Etsy and KDP. Each platform has different search algorithms, character limits, and buyer expectations that require platform-specific optimization. On Etsy, your 13 tags drive search visibility — use all 13 with varied long-tail phrases that match how buyers actually search. Your Etsy listing photos (mockups showing printed worksheets) are your primary selling tool because Etsy is a visually-driven marketplace. On KDP, your 7 backend keyword fields, title, subtitle, and book description determine search placement. Your KDP cover design and Look Inside preview are the primary conversion tools because Amazon buyers evaluate books through these features. Write separate descriptions, choose platform-specific keywords, and create distinct visual assets for each platform rather than copying and pasting between them.`,
     },
     {
-      heading: 'Track Revenue and Margins Per Platform Monthly',
+      heading: `Track Revenue and Margins Per Platform Monthly`,
       content: `Selling on two platforms means two sets of fees, two revenue streams, and two different margin profiles for similar content. Track your per-platform revenue, fees, and net margins monthly to understand which platform delivers better returns for each product type. Some sellers discover that their math worksheets generate higher margins on Etsy while their puzzle books perform better on KDP. This data informs where to focus your content creation effort and marketing attention. Use a simple spreadsheet tracking gross revenue, platform fees, and net revenue per platform per month. After 3 to 6 months of dual-platform selling, the data reveals clear patterns about which products and formats perform best on each platform for your specific niche.`,
     },
     {
-      heading: 'Stagger Your Launches Across Platforms',
+      heading: `Stagger Your Launches Across Platforms`,
       content: `When releasing new content on both Etsy and KDP, stagger your launches rather than listing everywhere simultaneously. List individual pages on Etsy first because listings go live immediately and start generating data within days. Use the Etsy performance data — which products get views, favorites, and sales — to validate which content resonates before investing the additional effort of compiling a KDP book. If an Etsy worksheet pack generates consistent sales, you know the compiled book version will find an audience on KDP. If a topic underperforms on Etsy, you can adjust or pivot before committing to KDP formatting. This sequential approach reduces risk and uses real market data to guide your KDP publishing decisions rather than guessing which books will sell.`,
     },
   ],
@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Example: Etsy-First Seller Expanding to KDP',
+      heading: `Example: Etsy-First Seller Expanding to KDP`,
       content: `A buyer who creates math worksheets starts by selling individual pages on Etsy. She lists single addition worksheets at $2.50, themed packs of 10 worksheets at $7, and grade-level bundles of 30 worksheets at $15. After 6 months, her Etsy shop has 45 listings generating steady monthly sales. Her top-performing products are first-grade addition and subtraction packs. She decides to expand to KDP by compiling her 50 first-grade math worksheets into a printed activity book. She adds a table of contents, divides content into difficulty sections, includes answer keys for all worksheets, and designs a cover. The book is published on KDP at $8.99 (approximately $2.60 royalty per sale after printing costs). She maintains her Etsy shop selling individual pages and small packs while the KDP book captures Amazon buyers who want a complete printed workbook. Her Etsy shop continues generating $300 to $500 per month while the KDP book adds $80 to $150 per month with zero additional content creation. She plans to compile her second-grade content into a follow-up KDP book while continuing to add new individual listings on Etsy.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Etsy listings go live within minutes of submission, and your first sale can happen the same day if your listing is optimized for active search terms. KDP books take 24 to 72 hours for the initial review process, and it may take additional days for full Amazon search indexing and Look Inside preview generation. After your first KDP title, subsequent books typically review faster. The total setup time differs too: opening an Etsy shop and creating your first listing takes 1 to 2 hours. Setting up a KDP account and publishing your first book takes 3 to 5 hours including manuscript formatting and cover design.`,
     },
     {
-      question: 'Do I need different content for Etsy versus KDP?',
+      question: `Do I need different content for Etsy versus KDP?`,
       answer: `You use the same core content (worksheets, puzzles, coloring pages) but format it differently for each platform. Etsy products are individual pages or small packs delivered as PDF files, typically with a cover page and terms of use page. KDP products are compiled books with a cover, table of contents, content sections organized by difficulty or theme, answer keys, and back matter. The content creation happens once; the formatting and packaging differs by platform. Tools like the worksheet generators create content that works for both — export individual pages for Etsy and compile the full set for KDP manuscripts.`,
     },
     {
@@ -139,40 +139,40 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'start-etsy-printable-shop',
-      title: 'Start an Etsy Printable Shop from Scratch',
+      title: `Start an Etsy Printable Shop from Scratch`,
       description: `The complete Etsy setup guide for printable sellers. Covers shop creation, first listing optimization, Etsy SEO fundamentals, and building a product catalog that generates consistent sales.`,
     },
     {
       slug: 'math-activity-books-kdp',
-      title: 'Create Math Activity Books for Amazon KDP',
+      title: `Create Math Activity Books for Amazon KDP`,
       description: `The foundational KDP publishing guide covering manuscript formatting, cover design, Amazon listing optimization, and the complete workflow from content creation to published book.`,
     },
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Guide to Starting a Printable Business`,
       description: `The cornerstone business guide covering content creation, commercial licensing, multi-platform strategy, and building a sustainable printable business from scratch.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'How to Start an Etsy Printable Shop from Scratch' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: 'How to Create Etsy Worksheet Bundles' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `How to Sell Math Worksheets on Etsy` },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: `How to Start an Etsy Printable Shop from Scratch` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO for Educational Printables` },
+    { pageType: 'guide', slug: 'create-etsy-worksheet-bundles', anchorText: `How to Create Etsy Worksheet Bundles` },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: `How to Create Math Activity Books for Amazon KDP` },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: `How to Publish Puzzle Books on Amazon KDP` },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: `KDP Formatting Guide for Worksheet Books` },
+    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: `How to Make Money with KDP Activity Books` },
     { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'How to Price Your Etsy Printable Worksheets' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: `How to Price Your Etsy Printable Worksheets` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
   ],
 
   toolsRecommended: [
     {
       appId: 'wordsearch',
-      title: 'Word Search Worksheet Generator',
+      title: `Word Search Worksheet Generator`,
       description: `Creates themed word search puzzles that sell well on both platforms — as individual digital downloads on Etsy and compiled into puzzle books on KDP.`,
     },
     {
@@ -187,28 +187,28 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Math Puzzle Worksheet Generator',
+      title: `Math Puzzle Worksheet Generator`,
       description: `Produces unique math puzzle formats with lower competition on both Etsy and KDP. Grid-based math puzzles stand out in search results against standard worksheet listings.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search puzzle worksheet suitable for selling as Etsy digital download or compiling into Amazon KDP puzzle book' },
+    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search puzzle worksheet suitable for selling as Etsy digital download or compiling into Amazon KDP puzzle book` },
     samples: [
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Animal themed word search puzzle for Etsy and KDP', caption: 'Word search puzzles sell on both platforms — as individual digital downloads on Etsy and compiled into puzzle books on KDP' },
-      { src: `/samples/english/addition/addition_worksheet portrait.webp`, alt: 'Addition worksheet for Etsy digital download or KDP activity book', caption: 'Math worksheets work as Etsy singles and small packs or compiled into KDP math activity books' },
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page for both Etsy and KDP selling', caption: 'Coloring pages are a top category on both platforms — individual downloads on Etsy and coloring books on KDP' },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Animal themed word search puzzle for Etsy and KDP`, caption: `Word search puzzles sell on both platforms — as individual digital downloads on Etsy and compiled into puzzle books on KDP` },
+      { src: `/samples/english/addition/addition_worksheet portrait.webp`, alt: `Addition worksheet for Etsy digital download or KDP activity book`, caption: `Math worksheets work as Etsy singles and small packs or compiled into KDP math activity books` },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page for both Etsy and KDP selling`, caption: `Coloring pages are a top category on both platforms — individual downloads on Etsy and coloring books on KDP` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `How to Create Printable Worksheets for Etsy and Amazon KDP — Step-by-Step Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — themed educational image', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — themed educational image', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — themed educational image', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — themed educational image', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — themed educational image', caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — themed educational image`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — themed educational image`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — themed educational image`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — themed educational image`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — themed educational image`, caption: 'Brachiosaurus' },
   ],
 };
 

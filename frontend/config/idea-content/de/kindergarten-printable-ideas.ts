@@ -2,17 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'kindergarten-druckvorlagen-ideen',
+    primaryKeyword: `kindergarten-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Kindergarten-Arbeitsblätter auf Etsy erstellen',
-      'Vorschul-Kindergarten-Druckvorlagen auf KDP',
+      `Kindergarten-Arbeitsblätter auf Etsy erstellen`,
+      `Vorschul-Kindergarten-Druckvorlagen auf KDP`,
       `frühkindliche Aktivitätsblätter auf Gumroad verkaufen`,
-      'Kindergarten-Lernmaterialien für Etsy-Shops',
+      `Kindergarten-Lernmaterialien für Etsy-Shops`,
     ],
     lsiKeywords: [
-      'frühkindliche Bildung Druckvorlagen-Nische',
-      'Kindergarten-Altersstufe Arbeitsblatt-Markt',
-      'visuelles Lernen Vorschulalter Etsy-Verkauf',
+      `frühkindliche Bildung Druckvorlagen-Nische`,
+      `Kindergarten-Altersstufe Arbeitsblatt-Markt`,
+      `visuelles Lernen Vorschulalter Etsy-Verkauf`,
     ],
     titleTag: `Kindergarten-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Kindergarten-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich frühkindliche Bildung Lernmaterialien.`,
@@ -40,7 +40,7 @@ Der Kindergarten-Druckvorlagen-Markt profitiert von einer einzigartigen Käuferd
       appId: 'find-count',
     },
     {
-      title: 'Kindergarten-Wortsuche-Rätsel zum Online-Verkauf',
+      title: `Kindergarten-Wortsuche-Rätsel zum Online-Verkauf`,
       description: `Wortsuche-Rätsel, die für Kindergarten-Leser entwickelt wurden, ziehen Käufer und Eltern an, die nach ansprechenden Lese-Lernzentrum-Aktivitäten suchen, die Sichtwort-Erkennung, Lautieren und Vokabelentwicklung in einem motivierenden Spielformat verstärken, das Fünf- und Sechsjährige während der selbstständigen Übungsrotationen konzentriert hält. Erstellen Sie Rätsel mit häufigen Sichtwörtern wie „der", „und", „ist", „wir", „das" und „ein", Wortfamilien wie Hut, Mut, Gut und Wut, sowie Farb- und Zahlwörtern, die fächerübergreifendes Vokabular festigen. Der Wortsuche-Generator ermöglicht es Ihnen, die Gittergröße und Wortlänge zu steuern, um altersgerechte Versionen mit acht bis zwölf Wörtern in mittleren Gittern zu erstellen, die für Leseanfänger geeignet sind, die einzelne Buchstaben erkennen und über Zeilen und Spalten verfolgen können.`,
       appId: 'wordsearch',
     },
@@ -60,7 +60,7 @@ Der Kindergarten-Druckvorlagen-Markt profitiert von einer einzigartigen Käuferd
       appId: 'coloring',
     },
     {
-      title: 'Kindergarten-Bingo-Karten für Shop-Aktivitäten',
+      title: `Kindergarten-Bingo-Karten für Shop-Aktivitäten`,
       description: `Bingo-Karten, die um Kindergarten-Lernkonzepte gestaltet sind, dienen Käufern, die Lese-Lernzentren, Mathematik-Stationen und Ganzklass-Wiederholungsaktivitäten mit interaktivem Engagement durchführen, das Lernen effektiver festigt als stilles Arbeitsblatt-Ausfüllen allein in Gruppenräumen mit energiegeladenen Fünf- und Sechsjährigen. Der Bingo-Generator erstellt einzigartige Kartenvariationen, die sicherstellen, dass es keine Duplikate für Gruppensitzungen mit zwanzig oder mehr Nutzern gibt. Erstellen Sie gezielte akademische Sets einschließlich Sichtwort-Bingo mit den gängigsten Wortlisten, Zahlen-Bingo von eins bis zwanzig mit Ziffern- und Punktmuster-Erkennung, Formen-Bingo mit zwei- und dreidimensionalen geometrischen Figuren und Wortfamilien-Bingo für phonetisch orientierte Lese-Lernzentrum-Rotationen. Bingo-Produkte erzielen Premium-Preise, weil das interaktive Gruppenformat und das klassenraumfertige Design den Käufern erhebliche Vorbereitungszeit ersparen.`,
       appId: 'bingo',
     },
@@ -89,7 +89,7 @@ Der Kindergarten-Druckvorlagen-Markt profitiert von einer einzigartigen Käuferd
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Kindergarten-Druckvorlagen auf Etsy verkaufen',
+      title: `Kindergarten-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy erfasst das massive Eltern-Käufersegment, das nach Kindergarten-Übungsmaterialien für zu Hause sucht, mit Begriffen wie „Kindergarten-Arbeitsblätter", „Schulvorbereitungs-Aktivitäten", „Sichtwort-Übung Druckvorlage" und „Kindergarten-Mathematik-Arbeitsblätter" in jedem Monat des Schuljahres und darüber hinaus. Verwenden Sie alle dreizehn Tags mit Variationen, die spezifische Fähigkeitsziele, Altersstufen-Kennzeichnungen und Aktivitätsformate kombinieren: „Kindergarten Addition Arbeitsblätter Zahlenraum 10", „Sichtwort Übung Kindergarten Druckvorlage" und „Leseanfänger Aktivitäten" sprechen motivierte Käufer weitaus effektiver an als generische lehrreiche Druckvorlagen-Tags. Bündeln Sie Produkte nach akademischem Fach, um den durchschnittlichen Bestellwert zu erhöhen: ein Kindergarten-Mathematik-Paket mit Zählen, Addition und Mustern, ein Lesepaket mit Sichtwörtern, Wortsuchen und Lautier-Aktivitäten und ein Schreibvorbereitungs-Paket mit Buchstabenbildung und Zeichenaktivitäten bedienen jeweils unterschiedliche Elternbedürfnisse und ermutigen zu Mehrfachkäufen. Die Einschulungssaison im August und September erzeugt den größten einzelnen Nachfrageschub, aber ganzjährige Nachfrage von Eltern, die den Produkterstellung ergänzen, und Homeschool-Familien, die vollständige Kindergarten-Programme aufbauen, hält starke Basisverkäufe in jedem Monat aufrecht.`,
     },
     {
@@ -143,13 +143,13 @@ Der Kindergarten-Druckvorlagen-Markt profitiert von einer einzigartigen Käuferd
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Der Kindergarten-Druckvorlagen-Markt profitiert von einer einzigartigen Käuferd
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'vorschule-druckvorlagen-ideen',
-      anchorText: 'Vorschule Druckvorlagen-Geschäftsideen',
+      anchorText: `Vorschule Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Flugzeug — thematisches Lernbild`, caption: 'Flugzeug' },
     { src: '/image-library/toys/baby.webp', alt: 'Baby — thematisches Lernbild', caption: 'Baby' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Baby Mädchen — thematisches Lernbild', caption: 'Baby Mädchen' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Baby Mädchen — thematisches Lernbild`, caption: 'Baby Mädchen' },
     { src: '/image-library/toys/ball.webp', alt: 'Ball — thematisches Lernbild', caption: 'Ball' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Luftballon — thematisches Lernbild', caption: 'Luftballon' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Luftballon — thematisches Lernbild`, caption: 'Luftballon' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
   ],
 
 

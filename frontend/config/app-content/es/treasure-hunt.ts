@@ -7,14 +7,14 @@ const content: AppContent = {
       `fichas de búsqueda del tesoro imprimibles para vendedores Etsy`,
       `generador de puzzles direccionales para editores Amazon KDP`,
       `creador de búsqueda del tesoro con cuadrícula licencia comercial`,
-      'vender fichas de búsqueda del tesoro en Gumroad',
+      `vender fichas de búsqueda del tesoro en Gumroad`,
     ],
     lsiKeywords: [
       `productos digitales de búsqueda del tesoro para emprendedores`,
       `generador de fichas de rastreo direccional uso comercial`,
       `negocio de puzzles de coordenadas imprimibles herramientas`,
     ],
-    titleTag: 'Generador Búsqueda del Tesoro | para Vender',
+    titleTag: `Generador Búsqueda del Tesoro | para Vender`,
     metaDescription:
       `Crea fichas de búsqueda del tesoro para Etsy, KDP y Gumroad. Cuadrícula 5×5, dos direcciones, clave de respuestas auto, 104 temas. Prueba gratis con marca de.`,
   },
@@ -40,17 +40,17 @@ const content: AppContent = {
           `En el panel de Configuración del Puzzle, alterna entre dos vocabularios de dirección. El modo Básico usa arriba, abajo, izquierda y derecha — ideal para preescolar hasta 1.º de primaria para construir vocabulario espacial fundamental. El modo Cardinal usa norte, sur, este y oeste — adecuado para 2.º de primaria en adelante, introduciendo direcciones de brújula y habilidades de lectura de mapas. Ambos conjuntos de direcciones están completamente traducidos a los 11 idiomas soportados, así que cambiar el selector de idioma actualiza el texto de las pistas direccionales en la ficha.`,
       },
       {
-        title: 'Selecciona Imágenes para la Cuadrícula',
+        title: `Selecciona Imágenes para la Cuadrícula`,
         description:
           `Elige cómo rellenar la cuadrícula 5×5 con 6 imágenes temáticas. Generar desde Tema (predeterminado) selecciona automáticamente 6 imágenes aleatorias del tema elegido y las distribuye por la cuadrícula. La Selección Manual de Imágenes te permite explorar 104 colecciones temáticas con más de 3.100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, festividades y docenas más — y hacer clic para seleccionar exactamente 6 imágenes. Subir Imágenes Personalizadas te permite añadir tus propios archivos JPEG, PNG, GIF o WebP junto al contenido de la biblioteca.`,
       },
       {
-        title: 'Genera el Puzzle de Búsqueda del Tesoro',
+        title: `Genera el Puzzle de Búsqueda del Tesoro`,
         description:
           `Haz clic en Generar para crear el puzzle de búsqueda de caminos en la cuadrícula de coordenadas 5×5 (filas A–E, columnas 1–5). El generador distribuye tus 6 imágenes seleccionadas por la cuadrícula, elige una celda de inicio aleatoria y crea exactamente 4 movimientos direccionales que permanecen dentro de los límites de la cuadrícula. La ficha muestra 5 líneas de instrucciones: «Empieza en [celda]» seguido de 4 pistas «Muévete [dirección] [número] casilla(s)», terminando con «¿Dónde está el tesoro?» Un encabezado temático de tesoro aparece en la parte superior con fondo verde azulado (#2C8C7C), título dorado (#D4A017) y texto localizado en fuentes Fredoka y Quicksand.`,
       },
       {
-        title: 'Revisa la Clave de Respuestas y Descarga',
+        title: `Revisa la Clave de Respuestas y Descarga`,
         description:
           `Cambia a la pestaña Clave de Respuestas para ver la solución con la celda final del tesoro resaltada en amarillo pálido (rgba(255, 250, 205, 0.8)) y un trazo gris oscuro. Descarga ambas versiones usando los cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave de Respuestas, PDF de Ficha y PDF de Clave de Respuestas. Los archivos se exportan a 300 DPI para calidad lista para impresión. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción para listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.`,
       },
@@ -102,7 +102,7 @@ const content: AppContent = {
     title: `Cómo Vender Fichas de Búsqueda del Tesoro en Línea`,
     cases: [
       {
-        title: 'Paquetes Temáticos de Búsqueda del Tesoro en Etsy',
+        title: `Paquetes Temáticos de Búsqueda del Tesoro en Etsy`,
         description:
           `Crea paquetes temáticos de búsqueda del tesoro usando las 104 colecciones de imágenes — búsquedas del tesoro de animales, del océano, del espacio, de festividades y docenas más. Cada tema proporciona suficientes ilustraciones para múltiples puzzles únicos ya que el generador selecciona aleatoriamente 6 imágenes y crea posiciones de inicio y secuencias de movimiento únicas por generación. Empaqueta 10–20 fichas de búsqueda del tesoro por tema con claves de respuestas incluidas, y vende a $3–$7 por paquete. Mezcla tipos de dirección Básico y Cardinal dentro de un solo paquete para dificultad progresiva.`,
         platform: 'Etsy (etsy.com)',
@@ -117,19 +117,19 @@ const content: AppContent = {
         title: `Conjuntos Multilingües de Búsqueda del Tesoro con Direcciones Localizadas`,
         description:
           `Aprovecha las pistas direccionales completamente localizadas para crear fichas de búsqueda del tesoro en 11 idiomas. La misma estructura de puzzle produce contenido auténtico en el idioma nativo cuando cambias de idioma — las direcciones, instrucciones y etiquetas de imágenes se actualizan automáticamente. Crea paquetes multilingües de búsqueda del tesoro donde cada versión en un idioma usa las mismas imágenes temáticas pero texto direccional localizado. Esto es valioso para tiendas de ESL/EFL que enseñan vocabulario direccional, familias bilingües y programas de trabajo desde casa internacionales. Vende conjuntos específicos por idioma o mega-paquetes multilingües a precios premium.`,
-        platform: 'Etsy / Gumroad (mercado multilingüe)',
+        platform: `Etsy / Gumroad (mercado multilingüe)`,
       },
       {
         title: `Paquetes de Actividades de Cuadrícula de Coordenadas para Gumroad`,
         description:
           `Crea conjuntos de actividades de cuadrícula de coordenadas listos para usar que enseñan razonamiento espacial y habilidades de mapas. La cuadrícula 5×5 con letras y números (filas A–E, columnas 1–5) introduce a los usuarios en los sistemas de coordenadas usados en geografía, matemáticas y ciencias. Los vendedores que buscan actividades de cuadrícula de coordenadas en Gumroad valoran fichas con cuadrículas visuales claras, instrucciones secuenciales y claves de respuestas impresas. Crea conjuntos alineados con el catálogo de productos: combina búsquedas del tesoro con dirección Básica con versiones de dirección Cardinal para paquetes escalonados por nivel. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Colecciones Estacionales de Búsqueda del Tesoro',
+        title: `Colecciones Estacionales de Búsqueda del Tesoro`,
         description:
           `Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de búsqueda del tesoro de disponible ahora que se alineen con los períodos de mayor demanda. Lanza búsquedas del tesoro de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye ambos tipos de dirección Básico y Cardinal en cada conjunto estacional para máximo valor. Los productos estacionales alcanzan precios más altos durante sus ventanas pico y crean razones naturales para compras recurrentes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: `Etsy / Amazon KDP / Gumroad (estacional)`,
       },
     ],
   },
@@ -141,7 +141,7 @@ const content: AppContent = {
         `Una ficha de búsqueda del tesoro es un puzzle de búsqueda de caminos en una cuadrícula de coordenadas 5×5 etiquetada con filas de letras (A–E) y columnas de números (1–5). Seis imágenes temáticas se distribuyen por la cuadrícula como puntos de referencia visuales. La ficha proporciona 5 líneas de instrucciones: una posición de inicio (p. ej., «Empieza en A3»), exactamente 4 movimientos direccionales (p. ej., «Muévete abajo 2 casillas»), y una pregunta final «¿Dónde está el tesoro?» Los usuarios siguen las pistas secuenciales en la cuadrícula para determinar qué celda contiene el tesoro.`,
     },
     {
-      question: '¿Cómo funciona la cuadrícula de coordenadas 5×5?',
+      question: `¿Cómo funciona la cuadrícula de coordenadas 5×5?`,
       answer:
         `La cuadrícula consta de 25 celdas dispuestas en 5 filas (etiquetadas de A a E) y 5 columnas (etiquetadas de 1 a 5). Cada celda se identifica por una coordenada de letra-número como A1, B3 o E5. Seis imágenes temáticas ocupan 6 de las 25 celdas como puntos de referencia visuales. La posición de inicio y los 4 movimientos permanecen dentro de los límites de la cuadrícula (filas A–E, columnas 1–5), asegurando que cada puzzle sea resoluble. Este sistema de coordenadas letra-número introduce a los usuarios en las habilidades de referencia de cuadrícula usadas en mapas, gráficos y matemáticas.`,
     },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `La estructura consistente de 4 movimientos crea un formato de puzzle estandarizado que funciona de manera fiable en la cuadrícula 5×5. Cuatro movimientos proporcionan suficiente complejidad para una búsqueda de caminos significativa sin abrumar a los aprendices más jóvenes. Cada puzzle sigue el mismo formato de 5 líneas de instrucciones: posición de inicio, 4 movimientos secuenciales y la pregunta «¿Dónde está el tesoro?». Esta consistencia hace que las fichas de búsqueda del tesoro sean predecibles para los usuarios y fáciles de empaquetar en conjuntos de actividades estructurados para vendedores.`,
     },
     {
-      question: '¿Cómo se usan las 6 imágenes en el puzzle?',
+      question: `¿Cómo se usan las 6 imágenes en el puzzle?`,
       answer:
         `Seis imágenes temáticas se distribuyen por las 25 celdas de la cuadrícula 5×5 como puntos de referencia visuales. Hacen que la cuadrícula sea visualmente atractiva y ayudan a los usuarios a orientarse mientras siguen las pistas direccionales. Puedes rellenar la cuadrícula usando tres métodos: Generar desde Tema (predeterminado) selecciona automáticamente 6 imágenes aleatorias del tema elegido, la Selección Manual de Imágenes te permite explorar la biblioteca y hacer clic para elegir exactamente 6 imágenes, y Subir Imágenes Personalizadas te permite añadir tus propios archivos JPEG, PNG, GIF o WebP.`,
     },
@@ -166,7 +166,7 @@ const content: AppContent = {
         `Sí. El Generador de Búsqueda del Tesoro es sensible al idioma de dos maneras. Primero, todo el texto de pistas direccionales — instrucciones de inicio, direcciones de movimiento (Básicas y Cardinales), unidades de casillas y la pregunta del tesoro — está completamente traducido al idioma seleccionado en los 11 idiomas soportados. Segundo, el contenido de imágenes cargado desde la biblioteca se actualiza según el idioma seleccionado. Cambiar de idioma produce fichas de búsqueda del tesoro auténticas en el idioma nativo con direcciones e imágenes localizadas. El nivel Comercial incluye 10 temas coloridos; el Acceso Completo desbloquea los 104 temas y los 11 idiomas.`,
     },
     {
-      question: '¿Cómo se localizan las pistas direccionales?',
+      question: `¿Cómo se localizan las pistas direccionales?`,
       answer:
         `Todo el vocabulario direccional está traducido a 11 idiomas: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés. Las direcciones Básicas (arriba/abajo/izquierda/derecha) y las direcciones Cardinales (norte/sur/este/oeste) tienen ambas traducciones completas, junto con la instrucción «Empieza en», el verbo «Muévete», la unidad «casilla(s)» y la pregunta «¿Dónde está el tesoro?». Por ejemplo, en modo Básico en alemán, «Move down 2 squares» se convierte en el equivalente alemán con vocabulario direccional nativo. El título y la descripción del encabezado también se traducen automáticamente.`,
     },
@@ -191,7 +191,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de búsqueda del tesoro como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de venta. Los dos tipos de dirección, la cuadrícula de coordenadas 5×5, las pistas direccionales localizadas, las claves de respuestas autogeneradas y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos originales y vendibles de puzzles de búsqueda de caminos.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Dado que la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar ambos tipos de dirección, la cuadrícula de coordenadas 5×5, la generación de puzzles con 6 imágenes, la clave de respuestas autogenerada, la biblioteca completa de imágenes, temas de fondo y borde, y todos los formatos de descarga antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se ajuste a tus necesidades antes de adquirir una licencia.`,
     },
@@ -201,32 +201,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'buscar-contar-fichas',
-      anchorText: 'Generador de Fichas de Buscar y Contar',
+      anchorText: `Generador de Fichas de Buscar y Contar`,
     },
     {
       pageType: 'app',
       slug: 'buscar-objetos-fichas',
-      anchorText: 'Generador de Fichas de Buscar Objetos',
+      anchorText: `Generador de Fichas de Buscar Objetos`,
     },
     {
       pageType: 'app',
       slug: 'crucigramas-imagenes-fichas',
-      anchorText: 'Generador de Crucigramas con Imágenes',
+      anchorText: `Generador de Crucigramas con Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'laberintos-imagenes-fichas',
-      anchorText: 'Generador de Laberintos con Imágenes',
+      anchorText: `Generador de Laberintos con Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'preposiciones-fichas',
-      anchorText: 'Generador de Fichas de Preposiciones',
+      anchorText: `Generador de Fichas de Preposiciones`,
     },
     {
       pageType: 'app',
-      slug: 'rompecabezas-matematicos-fichas',
-      anchorText: 'Generador de Rompecabezas Matemáticos',
+      slug: `rompecabezas-matematicos-fichas`,
+      anchorText: `Generador de Rompecabezas Matemáticos`,
     },
     {
       pageType: 'bundle',
@@ -241,17 +241,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de camping y aire libre',
+      anchorText: `Ideas de imprimibles de camping y aire libre`,
     },
     {
       pageType: 'idea',
-      slug: 'animales-marinos-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de animales marinos',
+      slug: `animales-marinos-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles de animales marinos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimibles',
-      anchorText: 'Marketing para tu negocio de imprimibles',
+      anchorText: `Marketing para tu negocio de imprimibles`,
     },
   ],
 

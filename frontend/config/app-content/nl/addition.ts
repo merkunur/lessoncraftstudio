@@ -4,15 +4,15 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'optellen werkbladen generator',
     secondaryKeywords: [
-      'optellen werkbladen verkopen op Etsy',
-      'rekenwerkbladen generator voor Amazon KDP',
-      'optellen werkbladen commerciële licentie',
-      'printbare rekenwerkbladen maken voor Gumroad',
+      `optellen werkbladen verkopen op Etsy`,
+      `rekenwerkbladen generator voor Amazon KDP`,
+      `optellen werkbladen commerciële licentie`,
+      `printbare rekenwerkbladen maken voor Gumroad`,
     ],
     lsiKeywords: [
-      'digitale wiskundeproducten voor ondernemers',
-      'printbare activiteiten online bedrijf',
-      'werkbladen generator commercieel gebruik',
+      `digitale wiskundeproducten voor ondernemers`,
+      `printbare activiteiten online bedrijf`,
+      `werkbladen generator commercieel gebruik`,
     ],
     titleTag: `Optellen Werkbladen Generator | Maak en Verkoop Online`,
     metaDescription:
@@ -23,11 +23,11 @@ const content: AppContent = {
     title: `Optellen Werkbladen Generator voor Visuele Rekenpraktijk`,
     tagline: `Maak van optellen een visueel avontuur met op afbeeldingen gebaseerde rekenwerkbladen.`,
     description:
-      `Maak op afbeeldingen gebaseerde optellen werkbladen die de eerste rekenbegrippen tastbaar en leuk maken voor jonge gebruikers. Kies uit vier verschillende oefenmodi — Afbeelding + Afbeelding, Afbeelding + Getal, Vind de Optelterm en Gemengde Modus — om elk niveau aan te passen, van kleuterniveau tot groep 4 van de basisschool. Ontdek meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema's zoals boerderijdieren, voertuigen en voedsel om elk rekenprobleem tot leven te brengen. Elk werkblad bevat een automatisch gegenereerd antwoordblad, en je kunt printklare PDF's exporteren in Letter-, A4- of aangepast formaat op meer dan 400 DPI. Of je nu verkoopt op Etsy.nl, activiteitenboeken publiceert op Amazon KDP of werkbladen uitdeelt aan je gebruikers — de Optellen Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Maak op afbeeldingen gebaseerde optellen werkbladen die de eerste rekenbegrippen tastbaar en leuk maken voor jonge gebruikers. Kies uit vier verschillende oefenmodi — Afbeelding + Afbeelding, Afbeelding + Getal, Vind de Optelterm en Gemengde Modus — om elk niveau aan te passen, van kleuterniveau tot groep 4 van de basisschool. Ontdek meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema`s zoals boerderijdieren, voertuigen en voedsel om elk rekenprobleem tot leven te brengen. Elk werkblad bevat een automatisch gegenereerd antwoordblad, en je kunt printklare PDF`s exporteren in Letter-, A4- of aangepast formaat op meer dan 400 DPI. Of je nu verkoopt op Etsy.nl, activiteitenboeken publiceert op Amazon KDP of werkbladen uitdeelt aan je gebruikers — de Optellen Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Optellen Werkbladen in 5 Stappen',
+    title: `Hoe Maak Je Optellen Werkbladen in 5 Stappen`,
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -35,22 +35,22 @@ const content: AppContent = {
           `Open het paneel Pagina-instellingen en kies een formaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of een aangepaste afmeting. Selecteer een achtergrondkleur, kies een decoratief thema uit de afbeeldingenbibliotheek en pas de dekking aan zodat de oefeningen leesbaar blijven. Voeg een bijpassend decoratief kader toe om je werkbladen een professionele, printklare uitstraling te geven. De canvasvoorvertoning wordt in realtime bijgewerkt terwijl je wijzigingen aanbrengt, zodat je precies ziet wat het eindresultaat wordt voordat je downloadt. Als je verkoopt op Etsy.nl of Amazon KDP, overweeg dan om zowel Letter-versies voor Noord-Amerikaanse kopers als A4-versies voor Europese klanten te maken — zo verdubbel je je marktbereik met minimale aanpassingen.`,
       },
       {
-        title: 'Configureer de oefenmodus en het getallenbereik',
+        title: `Configureer de oefenmodus en het getallenbereik`,
         description:
           `Open de Oefenconfiguratie en selecteer een van de vier modi. Afbeelding + Afbeelding toont twee groepen afbeeldingen die gebruikers tellen en optellen. Afbeelding + Getal combineert een groep afbeeldingen met een getal. Vind de Optelterm onthult het totaal en één groep, waardoor gebruikers het ontbrekende deel moeten vinden. De Gemengde Modus combineert alle drie voor gevarieerde oefening. Stel het minimum en maximum aantal elementen per groep in (1–10) en kies hoeveel oefeningen er per pagina verschijnen (1–10).`,
       },
       {
-        title: 'Kies afbeeldingen uit de themabibliotheek',
+        title: `Kies afbeeldingen uit de themabibliotheek`,
         description:
           `Open het paneel Afbeeldingenbibliotheek en verken 104 thema's — van dieren en voedsel tot voertuigen en feestdagen. Gebruik de zoekbalk om specifieke afbeeldingen direct te vinden. Klik om de gewenste afbeeldingen te selecteren; elke oefening gebruikt jouw selectie. Je kunt ook je eigen aangepaste afbeeldingen uploaden voor een unieke uitstraling die past bij je merk of merkthema. Wanneer je producten maakt om te verkopen, levert het selecteren van afbeeldingen uit één samenhangend thema — bijvoorbeeld alleen oceaandieren of alleen fruit — visueel consistente werkbladen op die er beter uitzien in advertentieminiaturen en meer klikken opleveren in zoekresultaten.`,
       },
       {
-        title: 'Voeg tekst, titels en aangepaste details toe',
+        title: `Voeg tekst, titels en aangepaste details toe`,
         description:
           `Gebruik het paneel Tekstgereedschappen om een titel aan het werkblad toe te voegen, velden voor de naam en datum van de gebruiker, instructies of andere aangepaste tekst. Kies uit zeven leesbare lettertypen, waaronder Lexend Deca, Baloo 2, Fredoka en Quicksand. Pas lettergrootte, kleur en omtrek aan voor optimale leesbaarheid. Schakel oefennummers, het plusteken tussen de afbeeldingsgroepen en het duidelijke antwoordvak in of uit naar wens.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description:
           `Ga naar het tabblad Antwoorden en klik op Antwoordblad Genereren om automatisch een ingevulde versie van je werkblad te maken. Open vervolgens het downloadmenu en exporteer zowel het werkblad als het antwoordblad als JPEG met hoge resolutie of als printklaar PDF. Elke export wordt gerenderd op meer dan 400 DPI, wat zorgt voor perfecte scherpte voor zowel thuisafdrukken, het versturen naar een professionele drukkerij als het uploaden als digitaal product op Etsy.nl of Amazon KDP.`,
       },
@@ -76,22 +76,22 @@ const content: AppContent = {
           `Verken een bibliotheek van meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema's: boerderijdieren, zeedieren, voertuigen, ruimte, voedsel, sport, dinosaurussen, feestdagen en nog veel meer. Elke afbeelding heeft een hoge resolutie en is ontworpen voor scherpe, aantrekkelijke afdrukken. Omdat afbeeldingen de wiskundige inhoud overbrengen — niet tekst — werken je werkbladen probleemloos in elke taal en elk winkel ter wereld.`,
       },
       {
-        title: 'Automatische generatie van antwoordbladen',
+        title: `Automatische generatie van antwoordbladen`,
         description:
           `Klik op één knop om een volledig antwoordblad te genereren dat de indeling van je werkblad reproduceert met alle antwoorden ingevuld. Het antwoordblad toont een realtimevoorvertoning zodat je de juistheid kunt controleren voordat je downloadt. Exporteer het antwoordblad als apart JPEG- of PDF-bestand, ideaal voor verkopersedities, oudergidsen of productbundels op Etsy.nl zonder enig handmatig werk.`,
       },
       {
-        title: 'Printklare export op 400+ DPI in PDF en JPEG',
+        title: `Printklare export op 400+ DPI in PDF en JPEG`,
         description:
           `Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als PDF-documenten met meerdere pagina's. De exportmotor rendert met een 6x-vermenigvuldiger, wat meer dan 400 DPI oplevert in standaardformaten. Dit garandeert scherpe lijnen en tekst voor zowel thuisafdrukken, het versturen naar een professionele drukkerij als het uploaden van digitale producten op online marktplaatsen. De formaten Letter, A4, Vierkant en aangepast worden allemaal ondersteund.`,
       },
       {
-        title: 'Upload je eigen aangepaste afbeeldingen',
+        title: `Upload je eigen aangepaste afbeeldingen`,
         description:
           `Ga verder dan de ingebouwde bibliotheek door je eigen PNG- of JPEG-afbeeldingen rechtstreeks in de applicatie te uploaden. Ideaal voor merkwerkbladen, aangepaste clipart, klasmascotten of seizoensgebonden content die jouw printbare producten onderscheidt van de concurrentie. Geüploade afbeeldingen integreren naadloos met elke oefenmodus, zodat je volledige creatieve controle behoudt.`,
       },
       {
-        title: 'Decoratieve kaders en achtergrondthema\'s',
+        title: `Decoratieve kaders en achtergrondthema's`,
         description:
           `Transformeer je werkbladen van eenvoudig naar professioneel met decoratieve kaders en achtergrondafbeeldingen uit dezelfde bibliotheek van 104 thema's. Pas de dekking van kader en achtergrond onafhankelijk aan zodat visuele elementen het ontwerp verrijken zonder af te leiden van de wiskundige inhoud. Het combineren van een seizoenskader met een kleurrijke achtergrond creëert themasets die hogere prijzen opbrengen op Etsy.nl en Bol.com. Denk aan werkbladen met een bloemenkader en pastelachtergrond voor de lente, of een sneeuwvlokkader en lichtblauwe achtergrond voor de winter — zo maak je seizoenscollecties waar kopers actief naar zoeken.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Optellen Werkbladen Online',
+    title: `Hoe Verkoop Je Optellen Werkbladen Online`,
     cases: [
       {
-        title: 'Themapakketten met optellen werkbladen op Etsy.nl',
+        title: `Themapakketten met optellen werkbladen op Etsy.nl`,
         description:
           `Maak sets van 10–20 optellen werkbladen gegroepeerd per thema — boerderijdieren, dinosaurussen, zeedieren, feestdagen — en bied ze aan als directe download op Etsy.nl. Voeg het antwoordblad toe als extra bestand. Themapakketten trekken ouders aan die zoeken naar specifieke interesses en verkopers die kant-en-klaar materiaal nodig hebben. Prijs losse thema's tussen €3–€5 en megapakketten tussen €12–€18 voor een solide gemiddelde bestelwaarde. Organiseer elk pakket met oplopende moeilijkheidsgraad — begin met eenvoudige sommen van 1+1 op de eerste werkbladen en bouw op naar sommen van 8+9 aan het einde — zodat ouders een compleet leerpad zien binnen elke aankoop.`,
         platform: 'Etsy (etsy.nl)',
       },
       {
-        title: 'Rekenactiviteitenboeken op Amazon KDP',
+        title: `Rekenactiviteitenboeken op Amazon KDP`,
         description:
           `Stel 50 tot 100 optellen werkbladen samen in een gedrukt activiteitenboek in Amazon KDP-formaat. Gebruik oplopende moeilijkheid — begin met de modus Afbeelding + Afbeelding in lage bereiken en werk toe naar de Gemengde Modus richting 10 — om een gestructureerd leerpad te creëren. Voeg een omslag, instructies en een antwoordsectie achteraan toe. Rekenactiviteitenboeken op KDP voor kinderen van 3 tot 7 jaar verkopen het hele jaar door consistent met minimale advertentie-uitgaven.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde rekencentra voor Gumroad',
+        title: `Gedifferentieerde rekencentra voor Gumroad`,
         description:
           `Maak optellen sets op niveau met de vier oefenmodi: Niveau 1 (Afbeelding + Afbeelding, bereik 1–3), Niveau 2 (Afbeelding + Getal, bereik 1–5), Niveau 3 (Vind de Optelterm, bereik 1–7) en Niveau 4 (Gemengd, bereik 1–10). Elk niveau met antwoordblad en voortgangsregistratiekaart. Kopers op Gumroad betalen premiumprijzen voor gedifferentieerde leermiddelen die ze direct kunnen inzetten in meerdere niveaugroepen.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Digitale producten op Bol.com en je eigen webshop',
+        title: `Digitale producten op Bol.com en je eigen webshop`,
         description:
           `Gebruik de generator om wekelijkse pakketten optellen werkbladen te produceren en distribueer ze via je eigen webshop op Shopify, Gumroad of Payhip, of verkoop gedrukte versies via Bol.com. Een abonnementsmodel — elke week een nieuw themapakket — genereert terugkerende inkomsten en bouwt een trouwe klantenbasis op onder thuisonderwijzende gezinnen en bijlescentra. De vier oefenmodi en 104 thema's bieden genoeg variatie voor jaren unieke content.`,
         platform: 'Bol.com / Gumroad / Shopify',
       },
       {
-        title: 'Oefenwerkbladen voor de winkel en bijles',
+        title: `Oefenwerkbladen voor de winkel en bijles`,
         description:
           `Genereer aangepaste optellen werkbladen afgestemd op het huidige niveau van elke gebruiker. Print Afbeelding + Afbeelding werkbladen voor beginners en Vind de Optelterm werkbladen voor gevorderde gebruikers — alles in dezelfde sessie. Het automatische antwoordblad bespaart waargenomen waarde. Of je nu een bijlescentrum runt, lesgeeft op de kleuterschool of aan thuisonderwijs doet — de generator vervangt uren handmatig werk door een paar klikken.`,
-        platform: 'Klas / Bijles / Thuisonderwijs',
+        platform: `Klas / Bijles / Thuisonderwijs`,
       },
     ],
   },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `De ingebouwde afbeeldingenbibliotheek bevat meer dan 3100 illustraties verdeeld over 104 thema's, waaronder dieren, voertuigen, voedsel, feestdagen, sport, ruimte, natuur en nog veel meer. Je kunt ook je eigen afbeeldingen uploaden als je specifieke merkgebonden of seizoensgebonden illustraties nodig hebt. Alle afbeeldingen hebben een hoge resolutie en worden scherp afgedrukt op zowel thuisprinters als professionele drukdiensten.`,
     },
     {
-      question: 'Maakt de generator automatisch antwoordbladen?',
+      question: `Maakt de generator automatisch antwoordbladen?`,
       answer:
         `Ja. Klik op de knop Antwoordblad Genereren om een ingevulde versie van je werkblad te maken met alle correcte sommen. Je kunt een voorvertoning van het antwoordblad op het scherm bekijken en het downloaden als apart JPEG- of PDF-bestand samen met het werkblad van de gebruiker. Het opnemen van antwoordbladen in je productaanbiedingen voegt waargenomen waarde toe voor verkopers, die kant-en-klare leermiddelen verwachten die waargenomen waarde besparen.`,
     },
@@ -166,7 +166,7 @@ const content: AppContent = {
         `Kies uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een aangepaste afmeting. Exporteer als JPEG met hoge resolutie of als printklaar PDF. Alle exports worden gerenderd op meer dan 400 DPI, wat professionele afdrukkwaliteit garandeert. De verscheidenheid aan formaten stelt je in staat om producten te maken voor verschillende markten — Letter voor Noord-Amerikaanse kopers, A4 voor Europese klanten.`,
     },
     {
-      question: 'Zijn de optellen werkbladen taalafhankelijk?',
+      question: `Zijn de optellen werkbladen taalafhankelijk?`,
       answer:
         `Nee. De optellen werkbladen zijn puur visueel — de wiskundige inhoud gebruikt afbeeldingen en getallen, geen woorden. Een werkblad dat in de ene taal is gemaakt, werkt in alle talen. De taalinstelling verandert alleen de labels van de applicatie-interface, niet de inhoud van het werkblad, waardoor je producten direct wereldwijd verkoopbaar zijn zonder enige vertaalinspanning.`,
     },
@@ -181,7 +181,7 @@ const content: AppContent = {
         `Ja. Je hebt toegang tot alle functies van de generator — de vier oefenmodi, de volledige afbeeldingenbibliotheek, de generatie van antwoordbladen en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.`,
     },
     {
-      question: 'Wat bevat de commerciële licentie?',
+      question: `Wat bevat de commerciële licentie?`,
       answer:
         `De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform. Er zijn geen royalty's per verkoop, geen maandelijkse kosten en geen limieten op het aantal werkbladen dat je produceert of verkoopt.`,
     },
@@ -201,31 +201,31 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aftrekken-werkbladen',
-      anchorText: 'Aftrekken Werkbladen Generator',
+      anchorText: `Aftrekken Werkbladen Generator`,
     },
     {
       pageType: 'app',
-      slug: 'visuele-optelsommen-werkbladen',
-      anchorText: 'Visuele Optelsommen Werkbladen Generator',
+      slug: `visuele-optelsommen-werkbladen`,
+      anchorText: `Visuele Optelsommen Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzels Werkbladen Generator',
+      anchorText: `Rekenpuzzels Werkbladen Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'wiskunde-meester-pakket',
-      anchorText: 'Wiskunde Meester Pakket — Alle Rekentools',
+      anchorText: `Wiskunde Meester Pakket — Alle Rekentools`,
     },
     {
       pageType: 'guide',
       slug: 'optellen-werkbladen-maken',
-      anchorText: 'Hoe Maak Je Optellen Werkbladen die Verkopen',
+      anchorText: `Hoe Maak Je Optellen Werkbladen die Verkopen`,
     },
     {
       pageType: 'guide',
-      slug: 'reken-werkbladen-verkopen-etsy',
+      slug: `reken-werkbladen-verkopen-etsy`,
       anchorText: `Gids voor het Verkopen van Rekenwerkbladen op Etsy`,
     },
     {
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'terug-naar-school-printable-ideen',
-      anchorText: 'Terug-naar-school printable ideeën die verkopen',
+      slug: `terug-naar-school-printable-ideen`,
+      anchorText: `Terug-naar-school printable ideeën die verkopen`,
     },
     {
       pageType: 'start',

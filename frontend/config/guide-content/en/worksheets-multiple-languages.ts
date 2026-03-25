@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'create worksheets multiple languages',
+    primaryKeyword: `create worksheets multiple languages`,
     secondaryKeywords: [
-      'multilingual worksheet creation',
-      'translate worksheets for selling',
-      'multi-language printable production',
-      'international worksheet design',
+      `multilingual worksheet creation`,
+      `translate worksheets for selling`,
+      `multi-language printable production`,
+      `international worksheet design`,
     ],
     lsiKeywords: [
       `language-specific formatting character sets diacritics font selection for languages`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `RTL layout text length variation compound words cultural adaptation worksheet localization`,
       `batch production multi-language content generation automated translation tools vocabulary databases`,
     ],
-    titleTag: 'Create Worksheets Multiple Languages — Guide',
+    titleTag: `Create Worksheets Multiple Languages — Guide`,
     metaDescription: `How to create worksheets in multiple languages with production workflows, character handling, font selection, quality assurance, and listing adaptation.`,
   },
 
   hero: {
-    title: 'How to Create Worksheets in Multiple Languages',
+    title: `How to Create Worksheets in Multiple Languages`,
     tagline: `A practical guide to multi-language worksheet production — covering how to choose language-appropriate worksheet types, set up a multi-language workspace, handle special characters and fonts, adapt content naturally for each market, implement translation quality assurance, use automated multi-language tools, build efficient batch production workflows, and optimize marketplace listings for international buyers`,
     description: `Creating worksheets in multiple languages is not simply a matter of running text through a translator. Professional multi-language production requires understanding character sets, font compatibility, text length variations, cultural context, and quality assurance processes that ensure every language version meets the same standard as your original. This guide walks through the complete production methodology for creating worksheets that look and read professionally in every target language.`,
   },
@@ -31,23 +31,23 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Choose Language-Appropriate Worksheet Types',
+      heading: `Choose Language-Appropriate Worksheet Types`,
       content: `Not all worksheet types require the same level of language adaptation, and understanding this distinction is the foundation of efficient multi-language production. Some worksheet types need almost no translation because their content is primarily numerical or visual. Others require complete content overhaul because every element is language-dependent. Starting with the right worksheet types for your language capabilities prevents quality problems and wasted effort.\n\nMath worksheets represent the easiest category for multi-language production. Addition, subtraction, multiplication, and number pattern worksheets contain primarily numbers, with only instructions and labels requiring translation. The mathematical content itself is universal — "3 + 5 = ?" reads the same way in every language. This means you can produce professional German, French, or Spanish math worksheets by translating only a handful of instruction lines, making math the ideal starting point for sellers who are not fluent in their target languages.\n\nDrawing and coloring worksheets are similarly straightforward. The visual content needs no adaptation, and the text elements are typically limited to titles and brief instructions. A "Draw a cat" prompt becomes "Zeichne eine Katze" in German or "Dessine un chat" in French — short phrases that are easy to verify for accuracy. Pattern recognition and matching worksheets also fall into this low-adaptation category when they use images rather than words as their matching elements.\n\nWord-heavy worksheet types — word searches, vocabulary exercises, word guessing games, and reading activities — require substantially more language work. Every word in a word search puzzle must be a real word in the target language, spelled correctly with all required diacritical marks. Vocabulary worksheets need culturally appropriate word choices, not just translations of English vocabulary lists. These worksheet types deliver excellent results when produced with proper tools and quality processes, but they demand more careful production than math or visual worksheets.\n\nFor your first multi-language expansion, prioritize worksheet types where you can confidently ensure quality. If you speak conversational German but not French, start with German word-heavy worksheets and French math worksheets. Match your language capabilities to the linguistic demands of each worksheet type, and expand into more language-intensive products as you develop reliable quality assurance processes for each language.`,
     },
     {
-      heading: 'Set Up Your Multi-Language Production Workspace',
+      heading: `Set Up Your Multi-Language Production Workspace`,
       content: `An organized workspace prevents the confusion and errors that plague multi-language production. When you are managing the same worksheet concept across multiple languages, clear file organization and naming conventions save significant time and prevent costly mistakes like uploading an English file to a German listing or overwriting a completed translation with an older version.\n\nCreate a folder structure that separates content by language at the top level. Within each language folder, mirror the same category structure you use for English products. This parallel structure means you can instantly see which products exist in which languages and identify gaps in your catalog. For example: your English folder contains "addition," "word-search," and "matching" subfolders, and your German folder contains the same three subfolders with the German versions of each product.\n\nEstablish a file naming convention that includes the language code as a standard element. Use ISO language codes (en, de, fr, es, pt, it, nl, sv, da, no, fi) consistently across all files. A file named "addition-animals-de.pdf" is instantly identifiable as the German version of your animals addition worksheet. This convention becomes essential as your catalog grows — with 20 products in 4 languages, you are managing 80 files, and any ambiguity in naming leads to errors.\n\nCreate a master tracking spreadsheet that maps every product concept to its language versions and their current status. Include columns for: product name, language, production status (not started, in progress, review needed, complete), listing status (not listed, listed, live), and the marketplace where each version is listed. This single document gives you complete visibility into your multi-language catalog at a glance and helps you prioritize production based on gaps and opportunities.\n\nSet up your design software or worksheet generator with language-specific templates if possible. Templates pre-configured for each language — with the correct fonts, text box sizes adjusted for typical word lengths, and instruction text already translated — eliminate repetitive setup work and reduce the chance of forgetting language-specific formatting requirements. A German template with slightly wider text boxes accommodates longer compound words without requiring manual adjustment for every single worksheet.`,
     },
     {
-      heading: 'Handle Language-Specific Characters and Fonts',
+      heading: `Handle Language-Specific Characters and Fonts`,
       content: `Character set handling is the most common source of quality problems in multi-language worksheets. Missing or incorrectly rendered diacritical marks immediately signal amateur production to native-speaking buyers. Getting characters right requires understanding what each target language needs and selecting fonts that support those requirements.\n\nGerman requires umlauts (ä, ö, ü, Ä, Ö, Ü) and the sharp s (ß). These characters are not optional — they change word meanings. "Schon" (already) and "schön" (beautiful) are completely different words. A worksheet that displays "schon" when it means "schön" contains a spelling error that any German-speaking buyer will notice immediately. Every font you use for German worksheets must render all umlauts and ß correctly at every size you use.\n\nFrench requires multiple accent types: acute (é), grave (è, à, ù), circumflex (ê, î, ô, û, â), diaeresis (ë, ï, ü), and cedilla (ç). French also uses guillemets (« ») rather than quotation marks. Like German, incorrect or missing accents change word meanings and mark the worksheet as poorly produced. The word "résumé" has two acute accents, and dropping either one creates an error.\n\nSpanish needs the tilde over n (ñ), inverted question marks (¿) and exclamation marks (¡), and standard accent marks (á, é, í, ó, ú). The inverted punctuation marks are often forgotten by non-native producers but are required in standard Spanish writing. Worksheets targeting young Spanish-speaking learners must model correct punctuation because these worksheets serve an educational purpose.\n\nScandinavian languages require additional characters: Swedish uses å, ä, ö; Danish and Norwegian use æ, ø, å; Finnish uses ä and ö. These are distinct letters in their respective alphabets, not variants of a, o, or e. In Swedish, å, ä, and ö appear at the end of the alphabet as separate letters, which matters for any worksheet involving alphabetical ordering.\n\nFont selection is your primary defense against character rendering problems. Choose fonts with comprehensive Unicode support that includes all Latin Extended characters. Google Fonts offers many options with broad language support — Noto Sans and Noto Serif were specifically designed for universal language coverage. Before committing to a font for production, test it by rendering a sample sentence containing every special character required by your target languages. If any character displays incorrectly, appears as a box or question mark, or looks visually inconsistent with the surrounding text, choose a different font. This five-minute test prevents hours of rework later.`,
     },
     {
-      heading: 'Adapt Content for Each Language Market',
+      heading: `Adapt Content for Each Language Market`,
       content: `Direct word-for-word translation is the most common mistake in multi-language worksheet production. Translation produces technically correct but unnatural-sounding text that native speakers immediately recognize as machine-generated or poorly adapted. Professional multi-language worksheets require content adaptation — rewriting instructions and content to sound natural in the target language while preserving the educational intent.\n\nText length variation is a practical challenge that affects layout design. German compound words are often 30% to 50% longer than their English equivalents. "Kindergartenkind" (kindergarten child) is one word in German but three in English. "Grundschulmathematik" (elementary school mathematics) requires significantly more horizontal space than its English translation. If your worksheet template was designed with text boxes sized for English words, German content will overflow or require font size reduction that compromises readability. Design your layouts with the longest target language in mind, or create language-specific templates with adjusted text box dimensions.\n\nInstruction phrasing should match how native speakers naturally give directions. In English, worksheet instructions often use imperative constructions: "Circle the correct answer" or "Draw a line to match." German instructions may use the formal imperative or infinitive constructions. French instructions often use the imperative with different pronoun placement. Translating English imperative instructions word-for-word into other languages frequently produces grammatically correct but awkward-sounding text. Research how educational materials in your target language typically phrase instructions and match that convention.\n\nCultural context matters for content selection. A worksheet about Thanksgiving themes has no relevance in European markets. A worksheet referencing American currency (quarters, dimes, nickels) needs adaptation for markets using euros or other currencies. Food-themed worksheets should feature foods familiar to the target culture — a German food vocabulary worksheet should include Brezel and Bratwurst alongside universal items. Animals, seasons, and nature themes generally transfer across cultures without problems, making them safe choices for multi-language production.\n\nNumber formatting varies by language and region. Many European languages use a comma as the decimal separator and a period or space as the thousands separator — the opposite of English conventions. "1,234.56" in English becomes "1.234,56" or "1 234,56" in German and French. Math worksheets targeting European markets should use the locally correct number formatting to avoid confusing young learners who are still building number literacy.`,
     },
     {
-      heading: 'Implement Quality Assurance for Translations',
+      heading: `Implement Quality Assurance for Translations`,
       content: `Quality assurance is the step that separates professional multi-language worksheets from amateur ones. Even experienced translators make mistakes, and automated translation tools introduce subtle errors that only native speakers catch reliably. Building a systematic QA process ensures consistent quality across every language version you produce.\n\nCreate a language-specific checklist for each target language that covers the most common error categories. For German: verify all umlauts are present and correct, check noun capitalization (all German nouns are capitalized), verify compound word spelling, and confirm formal vs. informal address consistency. For French: verify all accent marks, check gender agreement between articles and nouns, confirm verb conjugation consistency, and verify punctuation spacing (French adds a space before colons, semicolons, question marks, and exclamation marks). For Spanish: verify accent marks on stressed syllables, check inverted punctuation marks, confirm gender agreement, and verify regional neutrality of vocabulary choices.\n\nUse multiple verification passes rather than trying to catch everything in a single review. The first pass checks for character and diacritical mark correctness — scan every word for missing or incorrect special characters. The second pass checks for natural language flow — read the text aloud (or use text-to-speech) to identify phrases that sound translated rather than natural. The third pass checks for educational accuracy — verify that instructions are clear, vocabulary is age-appropriate, and content is culturally relevant.\n\nIf you are not a native speaker of your target language, consider building a network of native-speaking reviewers. This does not need to be expensive — language exchange communities, university language departments, and freelance platforms all provide access to native speakers who can review worksheet content. A native speaker review of a single worksheet takes 10 to 15 minutes and costs a fraction of the revenue that worksheet will generate over its marketplace lifetime. Even a single review per product type per language can catch systematic errors that affect your entire production.\n\nCompare your worksheets against professionally published educational materials in the target language. School supply stores, educational publisher websites, and marketplace listings from established sellers in each language market provide reference examples of how professional worksheets look and read in that language. Note how instructions are phrased, how content is formatted, and what vocabulary level is used for different age groups. These references calibrate your quality standard for each language market.\n\nDocument errors you discover and create a corrections database organized by language. If you discover that you consistently misspell a particular German word or misplace a French accent, recording that pattern prevents the same error from recurring in future productions. Over time, this corrections database becomes a valuable production resource that progressively eliminates your most common mistakes.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Automated worksheet generation tools transform multi-language production from a translation challenge into a configuration choice. Rather than creating English content and then translating it word by word into each target language, generator tools produce content natively in each language from built-in vocabulary databases and language-specific formatting rules.\n\nLessonCraft Studio generators support 11 languages — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish — with correct character handling, vocabulary databases, and formatting conventions for each language. When you generate a word search puzzle in German, the tool pulls from a German vocabulary database with correct umlauts and spelling, arranges the puzzle grid using German word placement rules, and generates instructions in natural German phrasing. The output is not a translation of an English worksheet — it is a natively generated German worksheet. You can try any generator as a free trial with watermark to evaluate the multi-language output quality before purchasing a commercial license.\n\nThe practical advantage of automated generation is most dramatic for content-heavy worksheet types. A word search puzzle containing 15 vocabulary words would require looking up, spelling, and verifying 15 words in each target language if produced manually. A generator produces those 15 correctly-spelled, properly-accented words instantly from its vocabulary database. Multiply that across a production batch of 10 word search variations in 4 languages, and automated generation saves hours of manual lookup and verification work per batch.\n\nAutomated tools also handle language-specific formatting rules that are easy to overlook in manual production. The generator knows that German nouns should be capitalized, that French requires specific spacing before certain punctuation marks, and that Scandinavian alphabets place additional letters at the end. These formatting details are built into the generation logic, so they apply consistently across every worksheet produced — eliminating the category of errors that comes from forgetting language-specific rules during manual production.\n\nEven with automated generation, review the output before listing. Automated tools handle the heavy lifting of vocabulary selection, character rendering, and formatting rules, but a quick visual review confirms that the specific combination of words, layout, and formatting in each generated worksheet meets your quality standard. This combination of automated production plus human review delivers both the efficiency of tool-based generation and the quality assurance of manual inspection.`,
     },
     {
-      heading: 'Create Efficient Batch Production Workflows',
+      heading: `Create Efficient Batch Production Workflows`,
       content: `Batch production is the key to making multi-language worksheet creation economically viable. Producing one worksheet at a time across multiple languages involves constant context-switching between languages, tools, and marketplace listings — each switch wastes time and introduces error opportunities. Batching your work by production stage rather than by individual product eliminates most of this overhead.\n\nOrganize your production into stage-based batches. Stage one: design all layouts and templates for a product batch. Stage two: generate or create content for all products in language one. Stage three: generate or create the same products in language two. Stage four: repeat for each additional language. Stage five: quality review all products. Stage six: prepare all marketplace listings. This stage-based approach means you set up your German language environment once and produce all German versions in sequence, rather than switching between German, French, and Spanish for every individual worksheet.\n\nDefine standard batch sizes that balance efficiency with quality. A batch of 5 to 8 worksheet variations per concept per language is large enough to justify the setup time for each language switch but small enough to maintain attention to quality throughout the batch. If you produce word searches, a single batch might include 6 animal-themed word search variations — generate all 6 in English, then all 6 in German, then all 6 in French. The vocabulary theme context stays consistent within each language batch, reducing cognitive load.\n\nSchedule language-specific production blocks in your work calendar. Rather than working in all languages every day, dedicate specific sessions to specific languages. Monday morning might be your German production block, Tuesday afternoon your French block. This approach lets your brain settle into each language context rather than constantly switching. Producers who batch by language report faster production speeds and fewer errors compared to those who switch languages frequently within a single session.\n\nCreate production checklists for each batch that include language-specific verification steps. Before closing out a German production batch, run through your German QA checklist: umlauts verified, noun capitalization correct, compound words spelled correctly, text fits within layout boundaries. Complete this checklist before switching to the next language. Catching errors within the language context where they occurred is far more efficient than trying to identify German-specific errors during a mixed-language review session later.\n\nTrack production metrics to optimize your batch workflow over time. Record how long each language batch takes, how many errors your QA process catches per batch, and which production stages are bottlenecks. This data reveals optimization opportunities — perhaps your French batches take 40% longer than German because your French QA process is less efficient, indicating where to invest in better reference materials or native speaker review for that language.`,
     },
     {
@@ -66,22 +66,22 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Etsy Multi-Language Listing Optimization',
+      heading: `Etsy Multi-Language Listing Optimization`,
       content: `Etsy allows a single shop to host products in any language, making it the most accessible platform for multi-language sellers. To maximize discoverability, create fully native-language listings with all 13 tags in the target language — Etsy matches buyer search language to listing language. Organize your shop using sections by language (e.g., "Deutsch / German," "Français / French") so international buyers can quickly find content in their language. When listing European-language products, include A4 paper size compatibility in the description and consider offering both A4 and Letter size versions to serve the broadest buyer base.`,
     },
     {
-      heading: 'Amazon KDP International Marketplace Strategy',
+      heading: `Amazon KDP International Marketplace Strategy`,
       content: `Amazon operates separate marketplaces per country, each with independent search rankings and buyer pools. Your German worksheets on amazon.de compete only against other German products on that marketplace, not against the millions of English products on amazon.com. When publishing to international Amazon marketplaces, ensure your book descriptions and backend keywords are written in the marketplace language — not translated from English. Research category bestseller lists on each marketplace to understand what formats and price points perform best in that specific market.`,
     },
     {
-      heading: 'Direct Sales Channel for Multi-Language Products',
+      heading: `Direct Sales Channel for Multi-Language Products`,
       content: `A direct sales website gives you complete control over how multi-language products are presented and discovered. Structure your site with clear language navigation so buyers can find content in their preferred language immediately. Offer language-specific bundles that combine multiple worksheet types in a single language — for example, a "German Math Collection" containing addition, subtraction, and number pattern worksheets. Direct sales avoid marketplace fees entirely and let you build an email list segmented by language preference for targeted product announcements.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Price Multi-Language Products for Maximum Revenue',
+      heading: `Price Multi-Language Products for Maximum Revenue`,
       content: `Multi-language worksheets can command equal or higher prices than English-only equivalents because competition in non-English markets is lower and supply is scarcer. Research competitor pricing in each language market separately rather than applying your English pricing universally — some language markets support premium pricing because buyers have fewer alternatives. Consider offering multi-language bundles at a premium: a "Complete Addition Pack — English, German, French, Spanish" contains four products for the price of three, giving buyers a discount while generating more revenue per transaction than any single-language sale.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `The most efficient monetization strategy is expanding your top-performing English products into additional languages before creating entirely new English products. A proven seller already has validated market demand — adapting it into German, French, and Spanish creates three new revenue streams from a concept you know works. The production time for language adaptation is typically 20% to 30% of original creation time because the design decisions, layout, and educational structure are already complete. This makes language expansion one of the highest return-on-time activities available to worksheet sellers.`,
     },
     {
-      heading: 'Build Language-Specific Product Lines',
+      heading: `Build Language-Specific Product Lines`,
       content: `Rather than translating your entire English catalog into every language, build focused product lines in each language that cater to that market's strongest demand categories. If German math worksheets consistently outperform German literacy worksheets, prioritize expanding your German math catalog. Track revenue by language and product category monthly to identify which combinations generate the highest returns. Over time, your language-specific product lines may look quite different from each other — reflecting the actual demand patterns in each market rather than a uniform translation of your English offerings.`,
     },
   ],
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'multilingual-printable-business', anchorText: 'Building a Multilingual Printable Business' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'How to Research Profitable Printable Niches' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles' },
-    { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: 'How to Create Alphabet Learning Worksheets' },
-    { pageType: 'guide', slug: 'create-preposition-worksheets', anchorText: 'How to Create Preposition Worksheets for ESL' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
+    { pageType: 'guide', slug: `multilingual-printable-business`, anchorText: `Building a Multilingual Printable Business` },
+    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: `How to Research Profitable Printable Niches` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `How to Create a Printable Product Line` },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: `How to Create Word Search Puzzles` },
+    { pageType: 'guide', slug: 'create-alphabet-worksheets', anchorText: `How to Create Alphabet Learning Worksheets` },
+    { pageType: 'guide', slug: 'create-preposition-worksheets', anchorText: `How to Create Preposition Worksheets for ESL` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `How to Sell Math Worksheets on Etsy` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `How to Scale Your Printable Business` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO for Educational Printables` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `How to Create Worksheet Bundles That Sell` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
   ],
 
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'prepositions',
-      title: 'Prepositions Worksheet Generator',
+      title: `Prepositions Worksheet Generator`,
       description: `Create grammar-focused preposition worksheets that adapt to language-specific grammar rules. Prepositions differ fundamentally across languages, making this an excellent demonstration of native-language content generation.`,
     },
   ],
@@ -191,21 +191,21 @@ const content: GuideContent = {
         caption: `Alphabet worksheets require language-specific characters including umlauts and accented letters`,
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: `/samples/english/matching/matching portrait.webp`,
         alt: `Matching worksheet showing multi-language production with visual and text elements`,
         caption: `Matching worksheets combine visual elements with language-specific vocabulary for international markets`,
       },
     ],
     youtubeId: '_dDQegRq9JQ',
-    videoTitle: 'How to Create Multi-Language Alphabet Worksheets',
+    videoTitle: `How to Create Multi-Language Alphabet Worksheets`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
   ],
 };
 

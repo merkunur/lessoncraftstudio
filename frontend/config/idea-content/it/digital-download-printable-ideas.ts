@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Schede in Download Digitale da Vendere | Guida Nicchia`,
     metaDescription: `Idee di schede didattiche in download digitale per venditori Etsy, Gumroad e Gumroad. Business stampabili senza inventario con PDF educativi a consegna rapida.`,
-    primaryKeyword: 'idee schede didattiche download digitale',
+    primaryKeyword: `idee schede didattiche download digitale`,
     secondaryKeywords: [
-      'business stampabili download digitale',
-      'vendere schede digitali online',
-      'idee prodotti stampabili digitali',
-      'modello business schede scaricabili',
+      `business stampabili download digitale`,
+      `vendere schede digitali online`,
+      `idee prodotti stampabili digitali`,
+      `modello business schede scaricabili`,
     ],
     lsiKeywords: [
-      'prodotti educativi download istantaneo',
-      'vendita schede PDF su marketplace',
-      'consegna automatizzata prodotti digitali',
+      `prodotti educativi download istantaneo`,
+      `vendita schede PDF su marketplace`,
+      `consegna automatizzata prodotti digitali`,
     ],
   },
   hero: {
@@ -141,17 +141,17 @@ I prodotti digitali offrono anche un valore post-vendita unico attraverso la pos
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
+      slug: `creare-pacchetti-schede-esercizi`,
       anchorText: `Come Creare Pacchetti di Schede Didattiche che Vendono`,
     },
     {
@@ -161,33 +161,33 @@ I prodotti digitali offrono anche un valore post-vendita unico attraverso la pos
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: `Guida Completa per Avviare un Business di Stampabili`,
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
-      slug: 'stampa-su-richiesta-idee-stampabili',
+      slug: `stampa-su-richiesta-idee-stampabili`,
       anchorText: `Idee di Business Print-on-Demand con Schede Didattiche`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — immagine educativa tematica', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Pipistrello — immagine educativa tematica', caption: 'Pipistrello' },
-    { src: '/image-library/animals/camel.webp', alt: 'Cammello — immagine educativa tematica', caption: 'Cammello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gatto — immagine educativa tematica', caption: 'Gatto' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cane — immagine educativa tematica', caption: 'Cane' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfino — immagine educativa tematica', caption: 'Delfino' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — immagine educativa tematica`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Pipistrello — immagine educativa tematica`, caption: 'Pipistrello' },
+    { src: `/image-library/animals/camel.webp`, alt: `Cammello — immagine educativa tematica`, caption: 'Cammello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gatto — immagine educativa tematica`, caption: 'Gatto' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cane — immagine educativa tematica`, caption: 'Cane' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfino — immagine educativa tematica`, caption: 'Delfino' },
   ],
 
 

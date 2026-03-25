@@ -25,10 +25,10 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas del Intruso en 8 Pasos',
+    title: `Cómo Crear Fichas del Intruso en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Creador de Fichas del Intruso',
+        title: `Abre el Creador de Fichas del Intruso`,
         description: `Haz clic en «Prueba Gratis Ahora» para abrir el generador de fichas del intruso en tu navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear fichas del intruso inmediatamente.`,
       },
       {
@@ -40,11 +40,11 @@ const content: ToolContent = {
         description: `Establece la cantidad de ejercicios de 5 a 10 (predeterminado 6) para controlar cuántas filas aparecen en la ficha. Cada ejercicio siempre contiene exactamente 4 imágenes — 3 elementos comunes y 1 elemento intruso. Para fichas de dificultad mixta, usa el desplegable de modo por ejercicio en cada fila para anular el modo global — comienza con ejercicios fáciles en modo Idéntico arriba y transiciona a ejercicios más difíciles en modo Similar hacia abajo. El botón «Borrar Selecciones» restablece todas las anulaciones por ejercicio al modo global. Activa los campos de nombre/fecha para el uso comercial y los números de ejercicio (25px de ancho, 15px de separación) para referencia fácil.`,
       },
       {
-        title: 'Selecciona Temas e Imágenes de la Biblioteca',
+        title: `Selecciona Temas e Imágenes de la Biblioteca`,
         description: `Abre el panel de Biblioteca de Imágenes y elige el Tema A del desplegable — este proporciona las tres imágenes comunes en el modo Similar. Elige el Tema B para el elemento intruso en el modo Similar (por ejemplo, Tema A = animales, Tema B = comida). Explora 104 colecciones temáticas con más de 3100 ilustraciones coloridas, o busca por palabra clave. Las imágenes se cargan con carga diferida (20 a la vez) para una navegación fluida. En el modo Idéntico, solo se necesita un tema ya que tanto los clones comunes como la imagen intrusa provienen de la misma colección. También puedes subir imágenes personalizadas en PNG, JPG o GIF usando el panel de Subir Imágenes Personalizadas.`,
       },
       {
-        title: 'Configura el Diseño de Página y las Decoraciones',
+        title: `Configura el Diseño de Página y las Decoraciones`,
         description: `En la sección de Configuración de Página, selecciona el tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200), o introduce una dimensión personalizada. Elige un color de fondo de página. Selecciona un tema de fondo decorativo y un tema de borde de la biblioteca integrada, cada uno con un control de opacidad independiente (0–1, paso 0,05). Los temas de fondo y borde funcionan independientemente, así que puedes combinar un fondo de patrón sutil con un borde decorativo llamativo o cualquier combinación que se adapte al estilo de tu producto.`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Haz clic en Generar para crear las tarjetas de ejercicio. Cada tarjeta muestra cuatro imágenes en una fila horizontal — tres elementos comunes y un elemento intruso con su posición aleatoriamente mezclada. La aplicación organiza las tarjetas en 1–2 columnas según la orientación de la página y la cantidad de ejercicios — páginas verticales con 7 o más ejercicios cambian a 2 columnas, y las páginas horizontales siempre usan 2 columnas. Un encabezado estilizado «Encuentra el Diferente» aparece con un borde exterior coral (#FF6B6B, trazo de 8px), un borde interior ámbar (#FFB84D, trazo de 3px) y fondo turquesa (#4ECDC4) — con el título en Fredoka verde azulado oscuro (#1A535C) y las instrucciones en Quicksand rojo (#E63946). El texto del encabezado se traduce a los 11 idiomas soportados.`,
       },
       {
-        title: 'Revisa la Clave de Respuestas Autogenerada',
+        title: `Revisa la Clave de Respuestas Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuestas para ver la solución autogenerada. La clave de respuestas reproduce el diseño exacto de la ficha y dibuja un contorno de círculo rojo alrededor del elemento intruso en cada fila de ejercicio. El grosor del trazo del círculo se escala dinámicamente con el tamaño de la imagen — calculado como el mayor entre tamañoImagen × 0,04 o 3 píxeles — asegurando una visibilidad consistente en todos los tamaños de página, desde Cuadrado hasta Carta Horizontal. Alterna entre las pestañas de Ficha y Clave de Respuestas para comparar. La clave de respuestas se genera simultáneamente con la ficha — sin paso de creación manual, sin proceso de diseño separado, sin posibilidad de respuestas descoordinadas. Este sistema de doble lienzo es tu mayor ahorro de tiempo al crear paquetes de puzzles del intruso.`,
       },
       {
@@ -80,18 +80,18 @@ const content: ToolContent = {
       description: `Usa la anulación de modo por ejercicio para crear fichas de dificultad progresiva que sirven a múltiples niveles de habilidad en una sola página. Comienza con 3 ejercicios en modo Idéntico arriba como calentamiento, luego transiciona a 3 ejercicios en modo Similar abajo como desafío principal. Los padres y vendedores pagan precios premium por fichas con diferenciación integrada porque sirven a un rango más amplio de edades y espectro de habilidades. El botón «Borrar Selecciones» facilita experimentar con diferentes combinaciones de modos antes de decidir la mezcla final para tu producto.`,
     },
     {
-      title: 'Colecciones Estacionales del Intruso',
+      title: `Colecciones Estacionales del Intruso`,
       description: `Crea colecciones estacionales rotativas usando temas festivos y de naturaleza de la biblioteca de 104 temas. Puzzles del intruso de Navidad, actividades de Halloween de encuentra el diferente, fichas de discriminación visual de Pascua, desafíos de vuelta al cole y conjuntos temáticos de verano — cada uno soporta paquetes estacionales dedicados. Mezcla los modos Idéntico y Similar dentro de cada colección estacional para máxima variedad — modo Idéntico con clones festivos para usuarios más jóvenes y modo Similar emparejando elementos festivos contra objetos cotidianos para usuarios mayores. Lanza cada colección 4 a 6 semanas antes de la festividad para máxima visibilidad en el marketplace.`,
     },
     {
-      title: 'Paquetes de Percepción Visual Multiformato',
+      title: `Paquetes de Percepción Visual Multiformato`,
       description: `Combina fichas del intruso con actividades de asociación de sombras, puzzles de piezas faltantes, desafíos de cuadrícula y fichas de clasificación de imágenes usando temas coordinados en múltiples generadores. Las fichas del intruso desarrollan la discriminación categórica y las habilidades de comparación visual. La asociación de sombras desarrolla el reconocimiento de siluetas. Las piezas faltantes desafían el razonamiento espacial parte-todo. Cada formato apunta a una habilidad cognitiva diferente mientras mantiene la consistencia temática. Los paquetes multiformato tienen precios premium y ofrecen a los usuarios práctica variada de percepción visual en un tema unificado — padres y vendedores pagan más por colecciones completas de desarrollo de habilidades.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Tienda de Puzzles del Intruso Temáticos en Etsy',
+      title: `Tienda de Puzzles del Intruso Temáticos en Etsy`,
       description: `Abre una tienda de Etsy especializada en paquetes de puzzles del intruso organizados por emparejamiento de temas usando las 104 colecciones de imágenes. Animales contra comida, vehículos contra naturaleza, festividades contra deportes — cada combinación entre temas se convierte en un listado separado con fichas en ambos modos Idéntico y Similar. El sistema de dos temas produce puzzles diversos de discriminación entre categorías de cualquier emparejamiento. Cada paquete incluye claves de respuestas autogeneradas con marcadores de círculo rojo — un punto de venta crítico que diferencia tus listados de la competencia que vende puzzles sin soluciones. Fija el precio de paquetes de temas individuales a 3–5 $ por 15–20 fichas con claves de respuestas y paquetes premium de modo mixto a 7–12 $.`,
       platform: 'Etsy',
     },
@@ -101,7 +101,7 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades del Intruso para Gumroad',
+      title: `Paquetes de Actividades del Intruso para Gumroad`,
       description: `Sube paquetes de actividades del intruso a Gumroad con campos de nombre/fecha, números de ejercicio y claves de respuestas autogeneradas como puntos de venta clave. Los vendedores que buscan actividades de pensamiento crítico y discriminación visual valoran fichas que llegan listas para venta en línea. Crea conjuntos alineados con el catálogo de productos: clasificación animal para unidades de ciencias, clasificación de grupos alimenticios para nutrición, identificación de ayudantes comunitarios para estudios sociales. Cada paquete incluye versiones en modo Idéntico para instrucción guiada y versiones en modo Similar para desafío independiente — la anulación por ejercicio te permite combinar ambos en una sola página para paquetes escalonados por nivel.`,
       platform: 'Gumroad',
     },
@@ -111,12 +111,12 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo del Intruso en Gumroad',
+      title: `Kit Completo del Intruso en Gumroad`,
       description: `Agrupa fichas del intruso de los 104 temas y ambos modos de generación en un kit completo en Gumroad. Incluye más de 300 fichas abarcando modo Idéntico, modo Similar y páginas de dificultad progresiva de modo mixto — tres tipos de fichas de cada emparejamiento de temas. Cada ficha incluye su clave de respuestas autogenerada con marcadores de círculo rojo, duplicando tu recuento de archivos a más de 600 archivos totales. El sistema de anulación por ejercicio significa que incluso páginas individuales contienen más variedad y valor percibido que los competidores que ofrecen puzzles simples de un solo modo. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles del intruso.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Línea de Productos de Puzzles Visuales Globales',
+      title: `Línea de Productos de Puzzles Visuales Globales`,
       description: `Las fichas del intruso producen puzzles puramente visuales — cuatro imágenes por fila sin texto específico de idioma en el contenido de la ficha. El encabezado autogenerado se traduce a los 11 idiomas soportados, pero los ejercicios reales contienen solo imágenes. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sola sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy apuntando a diferentes países, publica los mismos interiores de KDP en todos los marketplaces internacionales de Amazon, y lista en Gumroad para vendedores internacionales. Sin versiones de idioma separadas, sin costes de traducción, sin mantenimiento por localización.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -159,7 +159,7 @@ const content: ToolContent = {
       answer: `Sí. La herramienta ofrece una prueba gratuita con todas las funciones desbloqueadas — ambos modos de generación (Idéntico y Similar), anulaciones de modo por ejercicio con botón Borrar Selecciones, cantidad configurable de ejercicios (5–10), la clave de respuestas autogenerada con marcadores de círculo rojo, el sistema de dos temas, las 104 colecciones temáticas de imágenes con más de 3100 ilustraciones, subida de imágenes personalizadas, temas de fondo y borde con opacidad independiente, campos de nombre/fecha, números de ejercicio, escala de grises y todos los formatos de descarga. Sin registro, sin tarjeta de crédito. Las descargas de la prueba gratuita incluyen una marca de agua. Compra una licencia comercial para eliminar la marca de agua y desbloquear derechos de venta.`,
     },
     {
-      question: '¿Cuáles son los dos modos de generación?',
+      question: `¿Cuáles son los dos modos de generación?`,
       answer: `El generador ofrece dos modos distintos en una sola herramienta. El modo Idéntico coloca tres clones de la misma imagen junto a una imagen diferente del mismo tema — los usuarios detectan el no-duplicado comparando detalles visuales. El modo Similar toma tres imágenes del Tema A y una imagen del Tema B — los usuarios identifican el intruso temático reconociendo diferencias categóricas. Cada modo crea un desafío cognitivo fundamentalmente diferente con la misma biblioteca de imágenes. Anula el modo por ejercicio usando el selector desplegable de cada fila para mezclar ambos modos en una sola ficha.`,
     },
     {
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: `En el modo Similar, seleccionas dos temas de los menús desplegables. El Tema A proporciona las tres imágenes comunes para cada ejercicio (por ejemplo, animales), y el Tema B proporciona el único elemento intruso (por ejemplo, comida). Esto garantiza que el elemento intruso siempre sea temáticamente distinto, creando puzzles claros y educativamente significativos. Elige cualquier combinación de los 104 temas disponibles — animales contra vehículos, comida contra herramientas, naturaleza contra edificios y miles de emparejamientos más. En el modo Idéntico, solo se necesita un tema ya que tanto los clones comunes como la imagen intrusa provienen de la misma colección.`,
     },
     {
-      question: '¿Cuántos ejercicios puedo incluir en una ficha?',
+      question: `¿Cuántos ejercicios puedo incluir en una ficha?`,
       answer: `La cantidad de ejercicios es configurable de 5 a 10, con el valor predeterminado en 6. Cada ejercicio siempre contiene exactamente 4 imágenes — 3 elementos comunes y 1 elemento intruso con la posición del intruso aleatoriamente mezclada. Menos ejercicios crean tarjetas de imágenes más grandes con más espacio para usuarios más jóvenes; más ejercicios aumentan la densidad de contenido para usuarios mayores. El diseño se adapta automáticamente — páginas verticales con 7 o más ejercicios cambian a diseño de 2 columnas, y las páginas horizontales siempre usan 2 columnas para un espaciado óptimo.`,
     },
     {
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: `El sistema de doble lienzo genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La ficha muestra las tarjetas de ejercicio sin ninguna marca — los usuarios rodean el elemento intruso ellos mismos. La clave de respuestas reproduce el diseño idéntico y dibuja un contorno de círculo rojo alrededor del elemento intruso en cada fila. El grosor del trazo del círculo se escala dinámicamente con el tamaño de la imagen — calculado como el mayor entre tamañoImagen × 0,04 o 3 píxeles — asegurando una visibilidad consistente en todos los tamaños de página. Descarga cada versión independientemente usando cuatro botones dedicados: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas.`,
     },
     {
-      question: '¿Cuál es el diseño del encabezado estilizado?',
+      question: `¿Cuál es el diseño del encabezado estilizado?`,
       answer: `Cada ficha generada presenta un encabezado estilizado «Encuentra el Diferente» con un borde exterior coral (#FF6B6B, trazo de 8px), un borde interior ámbar (#FFB84D, trazo de 3px) y fondo turquesa (#4ECDC4). El título se renderiza en Fredoka verde azulado oscuro (#1A535C) y las instrucciones en Quicksand rojo (#E63946). El texto del encabezado se traduce a los 11 idiomas soportados (inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego, finlandés), pero el contenido del puzzle permanece puramente visual.`,
     },
     {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: `Sí. Activa la casilla «Incluir Campos de Nombre/Fecha» para añadir líneas de nombre y fecha del usuario para el uso comercial. Activa «Incluir Números de Ejercicio» para mostrar numerales en el lado izquierdo de cada tarjeta de ejercicio — los números usan un ancho de 25px con una separación de 15px del contenido de la tarjeta. Los números de ejercicio ayudan durante la revisión en línea y facilitan que los vendedores hagan referencia a filas específicas durante la discusión. Ambas opciones son independientes y pueden activarse juntas o por separado.`,
     },
     {
-      question: '¿Las fichas del intruso son sensibles al idioma?',
+      question: `¿Las fichas del intruso son sensibles al idioma?`,
       answer: `No. Las fichas del intruso son un formato de puzzle puramente visual — no aparece ningún texto en el contenido de la ficha. Las cuatro imágenes por fila, los marcadores de círculo rojo en la clave de respuestas y el diseño de los ejercicios son todos universales. El único elemento dependiente del idioma es el texto del encabezado autogenerado («Encuentra el Diferente»), que se traduce a los 11 idiomas soportados. Esto hace que las fichas del intruso sean vendibles universalmente en todos los mercados sin traducción — un solo conjunto de puzzles sirve para todos los marketplaces internacionales.`,
     },
     {
@@ -199,20 +199,20 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes plenos derechos para vender fichas del intruso como descargas digitales en Etsy, cuadernos de discriminación visual impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de ventas. Los dos modos de generación, las anulaciones por ejercicio, el sistema de dos temas, las claves de respuestas autogeneradas con marcadores de círculo rojo, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales del intruso que compitan en categorías de puzzles visuales en todos los principales marketplaces.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de comprar. Como la prueba gratuita te da acceso completo a ambos modos de generación, anulaciones por ejercicio, el sistema de dos temas, cantidades de ejercicios configurables, la clave de respuestas autogenerada con marcadores de círculo rojo, los 104 temas, subida de imágenes personalizadas, temas de fondo y borde, campos de nombre/fecha, números de ejercicio, exportación en escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencia. Asegúrate de que la herramienta se ajusta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'encuentra-el-diferente-fichas', anchorText: `Fichas del Intruso — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
-    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Creador de Fichas de Sombras' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Creador de Fichas de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Creador de Fichas de Emparejamiento' },
-    { pageType: 'tool', slug: 'generador-clasificacion-imagenes', anchorText: 'Creador de Fichas de Clasificación' },
+    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: `Creador de Fichas de Piezas Faltantes` },
+    { pageType: 'tool', slug: `generador-discriminacion-visual`, anchorText: 'Creador de Fichas de Sombras' },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: `Creador de Fichas de Cuadrícula` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Creador de Fichas de Emparejamiento` },
+    { pageType: 'tool', slug: `generador-clasificacion-imagenes`, anchorText: `Creador de Fichas de Clasificación` },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Creador de Páginas para Colorear` },
   ],
 
   visuals: {

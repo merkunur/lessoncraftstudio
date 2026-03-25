@@ -4,7 +4,7 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'fichas de tren del abecedario',
     secondaryKeywords: [
-      'crear fichas de tren del abecedario para vender',
+      `crear fichas de tren del abecedario para vender`,
       `generador de fichas de tren del abecedario uso comercial`,
       `fichas imprimibles de reconocimiento de letras para Etsy y KDP`,
       `fichas de correspondencia letra-imagen sensibles al idioma con claves de respuestas`,
@@ -13,16 +13,16 @@ const content: GuideContent = {
       `once vagones de tren coloridos correspondencia letra-imagen generador de fichas`,
       `creación automática selección manual dos modos de creación generador de abecedario`,
       `cantidad de pistas configurable de tres a once escalado de dificultad creador`,
-      'vender fichas de tren del abecedario en Etsy',
+      `vender fichas de tren del abecedario en Etsy`,
       `Amazon KDP cuadernos de reconocimiento de letras con trenes`,
       `herramienta de tren del abecedario con licencia comercial`,
     ],
-    titleTag: 'Fichas de tren del abecedario — Guía',
+    titleTag: `Fichas de tren del abecedario — Guía`,
     metaDescription: `Crea fichas de tren del abecedario con vagones coloridos, dos modos de creación, dificultad configurable y 104 temas de imágenes. Vende en Etsy, KDP y Gumroad.`,
   },
 
   hero: {
-    title: 'Cómo crear fichas de tren del abecedario',
+    title: `Cómo crear fichas de tren del abecedario`,
     tagline: `Un tutorial paso a paso para crear fichas de reconocimiento de letras con 11 vagones de tren coloridos que transportan letras e ilustraciones correspondientes, dos modos de creación (Creación automática para generación aleatoria y Selección manual para grupos de letras alineados con el catálogo de productos), cantidad de pistas configurable de 3 a 11 para escalado de dificultad integrado, correspondencia de letras sensible al idioma en 11 abecedarios nativos donde la misma imagen se empareja con diferentes letras según el idioma, y claves de respuestas autogeneradas que puedes vender en todo el mundo en Etsy, Amazon KDP y Gumroad`,
     description: `Las fichas de tren del abecedario son una actividad de reconocimiento de letras visualmente distintiva donde los usuarios emparejan imágenes de pista dispersas con el vagón del tren correcto según la letra con la que comienza cada imagen. A diferencia de las hojas planas de trazado de letras que se confunden en los resultados de búsqueda de las plataformas, el diseño colorido de 11 vagones de tren es instantáneamente reconocible y capta la atención al desplazarse. El Generador de tren del abecedario ofrece dos modos de creación — Creación automática para producción rápida en lote y Selección manual para grupos de letras seleccionados a mano — más un control deslizante de cantidad de pistas configurable de 3 a 11 que crea niveles de dificultad naturales dentro de una sola herramienta. La verdadera ventaja competitiva es la correspondencia de letras sensible al idioma: la misma imagen se empareja con diferentes letras dependiendo del idioma seleccionado, de modo que una imagen de perro corresponde a la D en inglés (Dog) pero a la H en alemán (Hund), la C en francés (Chien) y la P en español (Perro). Esto significa que una sesión de diseño produce contenido de puzle genuinamente diferente en 11 idiomas, no solo encabezados traducidos. Los padres usan los trenes del abecedario para practicar letras de forma lúdica en casa. Los vendedores los usan para actividades de fonética y sonido inicial dirigidas. Los centros de tutoría los usan para evaluaciones diferenciadas de reconocimiento de letras. Esta guía te lleva por todo el proceso de creación — desde elegir un modo de creación y configurar la cantidad de pistas hasta aprovechar la correspondencia sensible al idioma para líneas de productos multilingües y exportar archivos listos para producción. Ya sea que estés creando tu primer producto de alfabetización o expandiendo un catálogo de fichas existente con un formato visualmente único, tendrás un producto terminado listo para publicar al final de este tutorial.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Abre el Generador de tren del abecedario',
+      heading: `Abre el Generador de tren del abecedario`,
       content: `Navega a la página del Generador de tren del abecedario y haz clic en el botón de inicio para abrir el generador en tu navegador. La herramienta carga instantáneamente con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en vivo a la derecha. Sin creación de cuenta, sin descarga de software, sin instalación requerida.\n\nEl lienzo muestra la vista previa de la ficha de tren del abecedario que se actualiza a medida que cambias los ajustes. La barra lateral de ajustes contiene todos los controles que necesitas: selección del modo de creación, configuración de letras e imágenes, control deslizante de cantidad de pistas, opciones de diseño de página, ajustes de fuente y texto, y controles de exportación. Tómate un momento para explorar los paneles de la barra lateral y familiarizarte con las opciones disponibles antes de comenzar tu primera ficha.\n\nEl Generador de tren del abecedario usa un lienzo Fabric.js que proporciona herramientas de diseño profesionales incluyendo 6 opciones de alineación más centrado en página, capas con bloqueo y desbloqueo para elementos individuales, zoom del 25 al 300 por ciento, y deshacer/rehacer con 50 estados. Estas herramientas te dan control preciso sobre el diseño final de la ficha sin necesitar software de diseño externo.`,
     },
     {
@@ -43,7 +43,7 @@ const content: GuideContent = {
       content: `El Generador de tren del abecedario ofrece dos modos de creación, y seleccionar el correcto determina tu flujo de trabajo de producción y el tipo de producto que creas.\n\nEl modo Creación automática selecciona aleatoriamente 11 letras del abecedario del idioma elegido y asigna automáticamente imágenes correspondientes del tema seleccionado. Cada clic en Generar produce un conjunto de letras completamente diferente con diferentes asignaciones de imágenes. Este modo es ideal para producción rápida en lote: genera 10, 15 o 20 fichas únicas en minutos, cada una con una combinación diferente de letras e imágenes. Creación automática es tu modo preferido para construir paquetes variados, paquetes temáticos y cuadernos de KDP de alto volumen donde necesitas muchas páginas únicas rápidamente.\n\nEl modo Selección manual muestra la cuadrícula completa del abecedario para el idioma seleccionado y te permite elegir exactamente 11 letras. La cuadrícula se adapta a cada idioma — alemán muestra 30 letras incluyendo Ä, Ö, Ü y ß; sueco muestra 29 letras incluyendo Å, Ä y Ö; español incluye Ñ. Haz clic en exactamente 11 letras para llenar los vagones del tren, luego asigna imágenes individualmente para control preciso. Este modo es esencial para productos alineados con el catálogo de productos: crea fichas dirigidas solo a vocales, solo consonantes, grupos específicos de letras de un programa de fonética, o letras que los usuarios confunden comúnmente como b y d o p y q.\n\nAmbos modos producen el mismo formato colorido de 11 vagones de tren con la misma calidad de salida profesional. La diferencia es velocidad versus precisión. Usa Creación automática cuando la cantidad y variedad importen más, y Selección manual cuando el contenido específico de letras importe más. Muchos vendedores exitosos usan ambos: Creación automática para sus paquetes variados de gran volumen y Selección manual para sus conjuntos premium alineados con el catálogo de productos.`,
     },
     {
-      heading: 'Selecciona letras para el tren',
+      heading: `Selecciona letras para el tren`,
       content: `En el modo Selección manual, la cuadrícula completa del abecedario para tu idioma seleccionado aparece en la barra lateral. Cada letra se muestra como una casilla seleccionable. Haz clic en exactamente 11 letras para llenar los vagones del tren — la herramienta rastrea tu conteo de selección y confirma cuando los 11 espacios están llenos.\n\nLa cuadrícula del abecedario se adapta automáticamente al idioma seleccionado con el conjunto de caracteres nativos correcto y su ordenamiento. Inglés muestra 26 letras (A a la Z). Alemán muestra 30 letras incluyendo las vocales con diéresis Ä, Ö, Ü y la eszett ß en sus posiciones correctas. Sueco muestra 29 letras con Å, Ä y Ö al final del abecedario como requiere la convención sueca. Español incluye Ñ entre N y O. Cada idioma soportado usa su ordenamiento nativo correcto, así que las fichas son lingüísticamente auténticas, no abecedarios en inglés con caracteres extra añadidos.\n\nLa selección estratégica de letras crea productos premium. Selecciona solo vocales (A, E, I, O, U) más 6 consonantes para una ficha enfocada en vocales. Selecciona pares de letras comúnmente confundidos (b/d, p/q, m/n) para una ficha de remediación. Selecciona las letras cubiertas en las semanas 1 a 3 de un catálogo de productos de fonética para un producto alineado con el alcance y secuencia. Estas fichas de precisión dirigida sirven necesidades instruccionales específicas que las fichas genéricas de letras aleatorias no pueden, y los vendedores pagan más por materiales que se alinean con su secuencia de enseñanza.\n\nEn el modo Creación automática, la selección de letras es automática. La herramienta selecciona aleatoriamente 11 letras del abecedario completo cada vez que generas. Omite este paso por completo al usar Creación automática — la herramienta maneja todo.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender fichas de tren del abecedario en Etsy',
+      heading: `Vender fichas de tren del abecedario en Etsy`,
       content: `Etsy es una plataforma sólida para fichas de tren del abecedario porque los padres y vendedores buscan activamente actividades de reconocimiento de letras con formatos visuales atractivos. Títulos como «Fichas de tren del abecedario — Actividades de reconocimiento de letras — Puzles de emparejamiento con vagones de tren — Con claves de respuestas» captan tráfico de búsqueda dirigido y describen exactamente lo que recibe el comprador.\n\nNombra tus productos usando la cantidad de pistas específica y el tema en lugar de títulos genéricos. «Fichas de tren del abecedario de animales — 15 actividades de emparejamiento de letras — Niveles de dificultad fácil medio difícil — Imprimibles con claves de respuestas» supera a «Fichas de abecedario para niños» porque coincide con consultas de búsqueda específicas de compradores y comunica el sistema de dificultad diferenciada.\n\nEtiquetas: usa las 13 etiquetas de Etsy. Combina términos amplios y específicos: «fichas tren abecedario», «actividades reconocimiento letras», «emparejamiento letras vagones tren», «imprimibles emparejamiento abecedario», «fichas sonido letras», «actividades fonética preescolar», «práctica abecedario jardín de infantes», «fichas letras imprimibles», y variaciones que coincidan con tu tema y nivel de dificultad específicos.\n\nImágenes del listado: muestra la ficha completa con los 11 vagones de tren coloridos claramente visibles, un primer plano de vagones individuales mostrando el emparejamiento letra-imagen, las imágenes de pista dispersas junto al tren, la clave de respuestas con conexiones marcadas, y una maqueta de la ficha impresa y en uso. El formato de 11 vagones de tren es visualmente distintivo y crea miniaturas que captan la atención y destacan frente a los listados planos de trazado de letras.\n\nPrecios: conjuntos temáticos individuales de 10 a 15 fichas con claves de respuestas a un solo nivel de dificultad se venden a $2,99 a $5,99. Conjuntos diferenciados con versiones fácil, media y difícil del mismo tema se venden a $6,99 a $9,99. Colecciones temáticas completas con múltiples niveles de dificultad, temas e idiomas se venden a $14,99 a $24,99.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Amazon KDP sirve al mercado de cuadernos de actividades de reconocimiento de letras. Compila 50 a 80 fichas de tren del abecedario en un formato de libro de actividades encuadernado con dificultad progresiva estructurada por cantidad de pistas.\n\nEstructura tu cuaderno en capítulos por nivel de dificultad: los capítulos iniciales usan 3 pistas con temas familiares de animales o comida para una introducción suave, los capítulos intermedios aumentan a 5 a 7 pistas con temas variados para mayor confianza, y los capítulos finales usan 9 a 11 pistas para desafíos integrales de reconocimiento de letras. Incluye páginas de claves de respuestas al final de cada capítulo mostrando las conexiones pista-vagón. Esta estructura progresiva crea un cuaderno que crece con el niño, justificando el precio del libro físico.\n\nTítulo y subtítulo: ejemplo de título: «Libro de actividades de tren del abecedario para niños». Ejemplo de subtítulo: «80 fichas de reconocimiento de letras con claves de respuestas para edades de 3 a 7 — Empareja imágenes con vagones de tren, tres niveles de dificultad, 11 trenes coloridos por página».\n\nPalabras clave: KDP proporciona 7 espacios de palabras clave. Usa frases específicas: «fichas tren abecedario», «libro actividades reconocimiento letras», «puzles emparejamiento abecedario para niños», «fichas letras vagones tren», «cuaderno fonética preescolar jardín de infantes», «actividades emparejamiento sonido letras», «actividades abecedario con claves de respuestas».\n\nActiva la escala de grises para salida amigable con la tinta que se imprime limpiamente en blanco y negro y mantiene bajos los costos de impresión de KDP. Los vagones de tren, letras e imágenes se renderizan claramente en escala de grises. El formato distintivo de vagones de tren se fotografía bien para imágenes de listado de KDP porque es visualmente único comparado con los cuadernos estándar de trazado de letras que dominan la categoría.`,
     },
     {
-      heading: 'Vender fichas de tren del abecedario en Gumroad',
+      heading: `Vender fichas de tren del abecedario en Gumroad`,
       content: `Gumroad es ideal para fichas de tren del abecedario porque el reconocimiento de letras es una habilidad de alfabetización fundamental practicada diariamente en tiendas de preescolar a 1.er grado. El formato de tren del abecedario añade valor de compromiso que las fichas estándar de trazado de letras carecen — los usuarios perciben la actividad de emparejamiento como un juego en lugar de un ejercicio, aumentando la práctica voluntaria.\n\nLas descripciones de productos en Gumroad deben incluir: edad y nivel de grado objetivo, habilidades específicas practicadas (reconocimiento de letras, identificación de sonido inicial, asociación letra-imagen, ordenamiento del abecedario), número de fichas en cada nivel de dificultad, si se incluyen claves de respuestas, modo de creación utilizado (especifica si está alineado con el catálogo de productos vía Selección manual), temas cubiertos y disponibilidad de idiomas. Menciona el sistema de cantidad de pistas configurable (3 a 11) y explica cómo crea dificultad diferenciada.\n\nArchivos de vista previa: Gumroad te permite subir un archivo de vista previa. Incluye 2 a 3 fichas de tren del abecedario de muestra mostrando diferentes cantidades de pistas (una fácil con 3 pistas, una difícil con 11 pistas), una página de clave de respuestas y un gráfico de progresión de dificultad explicando el sistema de cantidad de pistas. Los vendedores quieren ver exactamente cómo funciona la diferenciación antes de comprar.\n\nPaquetes en Gumroad: los vendedores compran paquetes para unidades completas de alfabetización. Un «Paquete completo de tren del abecedario» con fichas en los tres niveles de dificultad en 4 a 5 temas da a los vendedores recursos para semanas de práctica diferenciada de reconocimiento de letras. Crea conjuntos alineados con el catálogo de productos usando el modo Selección manual que coincidan con programas populares de fonética, agrupando letras según se introducen en la secuencia instruccional.\n\nPalabras clave específicas de Gumroad: «fichas tren abecedario», «emparejamiento reconocimiento letras», «actividades sonido inicial», «imprimibles emparejamiento abecedario», «fichas letras diferenciadas», «trabajo matutino abecedario», «centros de alfabetización emparejamiento letras». Estos términos coinciden con cómo los vendedores buscan recursos de fonética y reconocimiento de letras.`,
     },
   ],
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Los precios de fichas de tren del abecedario siguen patrones predecibles entre plataformas. Estos son los rangos que funcionan bien:\n\nConjuntos temáticos de dificultad única con 10 a 15 fichas y claves de respuestas a un nivel de cantidad de pistas: $2,99 a $5,99. Estos sirven como productos de punto de entrada. Cada conjunto se enfoca en un tema y un nivel de dificultad, como trenes del abecedario fáciles de animales (3 pistas) o trenes del abecedario difíciles de vehículos (11 pistas). El alcance enfocado los hace ideales para vendedores que necesitan materiales para un nivel específico de capacidad del usuario.\n\nConjuntos diferenciados con versiones fácil, media y difícil de las mismas fichas temáticas: $6,99 a $12,99. Los compradores perciben un fuerte valor porque obtienen tres niveles de dificultad con claves de respuestas para cada ficha. El sistema de cantidad de pistas de tres niveles (3, 7 y 11 pistas) crea variedad genuina sin requerir diferente contenido visual — el mismo diseño de tren en tres niveles de dificultad sirve a un tienda completa de capacidades mixtas.\n\nColecciones completas con 40 a 60 fichas cubriendo múltiples niveles de dificultad, múltiples temas de las 104 colecciones disponibles y múltiples idiomas: $14,99 a $24,99. Posiciona estas como bibliotecas integrales de actividades de reconocimiento de letras para un trimestre completo de instrucción del abecedario.\n\nNo bajes los precios del mercado. Las fichas de tren del abecedario con 11 vagones coloridos, dos modos de creación para producción flexible, cantidad de pistas configurable de 3 a 11 para escalado de dificultad integrado, correspondencia de letras sensible al idioma en 11 abecedarios nativos, y claves de respuestas autogeneradas son un producto premium. Solo el formato visual ya diferencia tus listados de las hojas planas de trazado de letras. El sistema de dificultad y la capacidad multilingüe crean variedad genuina que los competidores usando herramientas más simples no pueden replicar. Pon precios acorde.`,
     },
     {
-      heading: 'Estrategias de paquetes por dificultad y tema',
+      heading: `Estrategias de paquetes por dificultad y tema`,
       content: `Los paquetes son donde los ingresos escalan para productos de tren del abecedario. La cantidad de pistas configurable y las 104 colecciones de imágenes temáticas crean oportunidades de paquetes naturales que multiplican tu variedad de productos.\n\nPaquetes por nivel de dificultad: agrupa fichas por nivel de cantidad de pistas. Un paquete «Trenes del abecedario fáciles» usa 3 pistas en múltiples temas para principiantes. Un paquete «Trenes del abecedario desafío» usa 9 a 11 pistas para usuarios avanzados. Cada nivel de dificultad se dirige a un nivel de capacidad diferente con posicionamiento de producto claro que los vendedores pueden asignar según la preparación del usuario.\n\nPaquetes diferenciados: combina los tres niveles de dificultad para el mismo tema en un producto. Un «Paquete diferenciado de tren del abecedario de animales» incluye 5 fichas fáciles (3 pistas), 5 fichas medias (7 pistas) y 5 fichas difíciles (11 pistas) con claves de respuestas para las 15. Este formato obtiene precios premium porque sirve a tiendas de capacidades mixtas y elimina la necesidad del vendedor de crear materiales nivelados.\n\nPaquetes temáticos: compila fichas de tren del abecedario por categoría de imágenes. Una «Colección de abecedario de animales del océano» incluye trenes usando ilustraciones de temática marina a múltiples niveles de dificultad. Un «Paquete de abecedario de comida y cocina» usa temas culinarios. Cada paquete temático con variedad de dificultad proporciona docenas de fichas únicas de una categoría de contenido enfocada que se alinea con temas del mercado o intereses estacionales.\n\nPaquetes multilingües: la correspondencia de letras sensible al idioma permite paquetes de productos multilingües con contenido de puzle genuinamente diferente. Crea un conjunto temático en inglés, luego genera los mismos temas en alemán, francés, español y otros idiomas soportados. Porque los emparejamientos letra-imagen cambian por idioma, cada versión es un producto legítimamente diferente. Un paquete «Trenes del abecedario multilingüe» con fichas en 5 o más idiomas obtiene precios premium y sirve a vendedores de ESL, familias bilingües y programas educativos internacionales.\n\nSiempre lista tanto conjuntos individuales como paquetes. Los listados individuales capturan combinaciones específicas de palabras clave mientras que los paquetes generan mayores ingresos por transacción.`,
     },
     {
@@ -119,11 +119,11 @@ const content: GuideContent = {
       answer: `Cada imagen se empareja con la letra con la que comienza su nombre en el idioma seleccionado. Una imagen de perro corresponde a la D en inglés (Dog), a la H en alemán (Hund), a la C en francés (Chien) y a la P en español (Perro). La misma imagen de gato corresponde a la C en inglés (Cat) pero a la K en alemán (Katze). Esto significa que cambiar de idioma produce contenido de puzle genuinamente diferente donde diferentes vagones llevan diferentes letras y aparecen diferentes emparejamientos pista-vagón. No son solo etiquetas traducidas — el puzle de emparejamiento mismo cambia por idioma.`,
     },
     {
-      question: '¿Qué idiomas y abecedarios se soportan?',
+      question: `¿Qué idiomas y abecedarios se soportan?`,
       answer: `La herramienta soporta 11 idiomas con abecedarios nativos: inglés (26 letras), alemán (30 letras incluyendo Ä, Ö, Ü, ß), sueco (29 letras incluyendo Å, Ä, Ö), español (incluyendo Ñ), francés, portugués, italiano, holandés, danés, noruego y finés. Cada idioma usa su ordenamiento nativo correcto y conjunto de caracteres, así que las fichas son lingüísticamente auténticas.`,
     },
     {
-      question: '¿La herramienta genera claves de respuestas?',
+      question: `¿La herramienta genera claves de respuestas?`,
       answer: `Sí. Cada ficha genera una clave de respuestas autogenerada que muestra cada imagen de pista conectada a su vagón del tren correcto. Tanto la ficha como la clave de respuestas están disponibles como descargas separadas en formatos JPEG y PDF a 300 DPI, dándote 4 archivos por sesión. La clave de respuestas es un fuerte punto de venta en listados de plataformas porque los vendedores y padres quieren materiales de auto-verificación.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'crear-fichas-escritura',
-      title: 'Crear fichas de escritura a mano',
+      title: `Crear fichas de escritura a mano`,
       description: `Un complemento de alfabetización para los trenes del abecedario. Después de que los usuarios reconocen letras mediante el emparejamiento, las fichas de escritura a mano les permiten practicar la formación de esas mismas letras con trazado guiado y líneas de escritura.`,
     },
     {
@@ -155,9 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'tren-alfabeto-fichas', anchorText: `Generador de fichas de tren del abecedario — Detalles completos` },
@@ -168,12 +168,12 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'alphabet-train',
-      title: 'Generador de fichas de tren del abecedario',
+      title: `Generador de fichas de tren del abecedario`,
       description: `La herramienta principal de esta guía. Crea fichas de reconocimiento de letras con 11 vagones de tren coloridos, dos modos de creación (Creación automática y Selección manual), cantidad de pistas configurable de 3 a 11 para escalado de dificultad, y correspondencia de letras sensible al idioma en 11 abecedarios nativos con claves de respuestas autogeneradas.`,
     },
     {
       appId: 'writing',
-      title: 'Generador de fichas de escritura a mano',
+      title: `Generador de fichas de escritura a mano`,
       description: `Un complemento de alfabetización que crea práctica guiada de formación de letras. Los usuarios que reconocen letras a través del emparejamiento con trenes del abecedario pueden progresar al trazado y escritura de esas mismas letras, construyendo una secuencia completa de aprendizaje de letras.`,
     },
     {
@@ -183,28 +183,28 @@ const content: GuideContent = {
     },
     {
       appId: 'pattern-train',
-      title: 'Generador de fichas de tren de patrones',
+      title: `Generador de fichas de tren de patrones`,
       description: `El mismo formato visual colorido de vagones de tren aplicado al reconocimiento de patrones en lugar de emparejamiento de letras. Combina fichas de tren del abecedario y tren de patrones en una línea de productos cohesiva de «Actividades de tren» con estilo visual uniforme.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/alphabet train/Tren del Alfabeto 1.webp`, alt: 'Ficha de tren del abecedario mostrando 11 vagones de tren coloridos con letras e imágenes de pista correspondientes para reconocimiento de letras' },
+    heroImage: { src: `/samples/spanish/alphabet train/Tren del Alfabeto 1.webp`, alt: `Ficha de tren del abecedario mostrando 11 vagones de tren coloridos con letras e imágenes de pista correspondientes para reconocimiento de letras` },
     samples: [
-      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 1.webp`, alt: 'Ficha colorida de tren del abecedario con 11 vagones transportando letras e imágenes de pista dispersas para emparejamiento letra-imagen', caption: 'Ficha de tren del abecedario con 11 vagones coloridos y pistas de emparejamiento letra-imagen' },
-      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 2.webp`, alt: 'Ficha de tren del abecedario con imágenes temáticas y múltiples tareas de emparejamiento de pistas a dificultad intermedia', caption: 'Tren del abecedario temático con cantidad de pistas configurable para escalado de dificultad' },
-      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 3.webp`, alt: 'Ficha avanzada de tren del abecedario con 11 pistas para reconocimiento integral de letras de máxima dificultad', caption: 'Nivel completo de 11 pistas de dificultad para práctica avanzada de reconocimiento de letras' },
+      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 1.webp`, alt: `Ficha colorida de tren del abecedario con 11 vagones transportando letras e imágenes de pista dispersas para emparejamiento letra-imagen`, caption: `Ficha de tren del abecedario con 11 vagones coloridos y pistas de emparejamiento letra-imagen` },
+      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 2.webp`, alt: `Ficha de tren del abecedario con imágenes temáticas y múltiples tareas de emparejamiento de pistas a dificultad intermedia`, caption: `Tren del abecedario temático con cantidad de pistas configurable para escalado de dificultad` },
+      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 3.webp`, alt: `Ficha avanzada de tren del abecedario con 11 pistas para reconocimiento integral de letras de máxima dificultad`, caption: `Nivel completo de 11 pistas de dificultad para práctica avanzada de reconocimiento de letras` },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: `Cómo crear fichas de tren del abecedario — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Toro — imagen educativa temática', caption: 'Toro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Ternero — imagen educativa temática', caption: 'Ternero' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagen educativa temática', caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Toro — imagen educativa temática`, caption: 'Toro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Ternero — imagen educativa temática`, caption: 'Ternero' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagen educativa temática`, caption: 'Gato 2' },
   ],
 };
 

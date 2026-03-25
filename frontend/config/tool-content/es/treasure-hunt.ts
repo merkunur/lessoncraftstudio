@@ -14,12 +14,12 @@ const content: ToolContent = {
       `pistas direccionales localizadas 11 idiomas contenido imágenes sensible`,
       `clave respuestas celda tesoro resaltada sistema doble lienzo creador`,
     ],
-    titleTag: 'Creador Búsqueda del Tesoro — Fichas para Vender',
+    titleTag: `Creador Búsqueda del Tesoro — Fichas para Vender`,
     metaDescription: `Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con dos tipos de dirección, pistas localizadas en 11 idiomas, clave de respuestas automática y 104 temas.`,
   },
 
   hero: {
-    title: 'Creador de Fichas de Búsqueda del Tesoro',
+    title: `Creador de Fichas de Búsqueda del Tesoro`,
     tagline: `Generador de fichas de búsqueda del tesoro con búsqueda de caminos en una cuadrícula fija de coordenadas 5×5 (filas A–E, columnas 1–5), dos tipos de dirección (Básico: arriba/abajo/izquierda/derecha para preescolar hasta 1.º de primaria, y Cardinal: norte/sur/este/oeste para 2.º de primaria en adelante), 6 imágenes temáticas como puntos de referencia, exactamente 4 movimientos direccionales por puzzle, clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido mediante sistema de doble lienzo, pistas direccionales completamente localizadas en 11 idiomas, y encabezado temático de tesoro verde azulado (#2C8C7C) con título dorado en Fredoka en 104 colecciones temáticas de imágenes`,
     description: `Crea fichas profesionales de búsqueda del tesoro donde los usuarios siguen pistas direccionales secuenciales para localizar el tesoro escondido en una cuadrícula de coordenadas 5×5 etiquetada con filas de letras (A–E) y columnas de números (1–5). Cada puzzle distribuye 6 imágenes temáticas por la cuadrícula como puntos de referencia visuales, luego genera una posición de inicio y exactamente 4 movimientos direccionales que conducen a la celda del tesoro. La ficha muestra 5 líneas de instrucciones: «Empieza en [celda]» seguido de 4 pistas «Muévete [dirección] [número] casilla(s)», terminando con «¿Dónde está el tesoro?» Elige entre dos tipos de dirección que sirven a diferentes grupos de edad y objetivos de aprendizaje. El modo Básico usa arriba, abajo, izquierda y derecha — palabras direccionales familiares ideales para aprendices de preescolar hasta 1.º de primaria que construyen vocabulario espacial fundamental. El modo Cardinal usa norte, sur, este y oeste — direcciones de brújula adecuadas para 2.º de primaria en adelante, introduciendo habilidades de lectura de mapas y orientación geográfica. Ambos tipos de dirección producen la misma estructura de puzzle de 4 movimientos en la misma cuadrícula 5×5, permitiéndote crear conjuntos de dificultad progresiva dentro de un solo paquete. El Creador de Búsqueda del Tesoro es sensible al idioma de dos maneras: el texto de las pistas direccionales y el contenido de las imágenes cambian cuando cambias de idioma. Todas las direcciones están completamente traducidas a los 11 idiomas soportados — «Empieza en», «Muévete», «casilla(s)» y «¿Dónde está el tesoro?» se localizan junto con el vocabulario de direcciones Básicas y Cardinales. Esto produce fichas de búsqueda del tesoro auténticas en el idioma nativo, no puzzles en inglés con encabezados traducidos. El sistema de doble lienzo genera tanto una pestaña de Ficha como una pestaña de Clave de Respuestas. La clave de respuestas reproduce el diseño exacto del puzzle y resalta la celda final del tesoro en amarillo pálido (rgba(255, 250, 205, 0.8)) con un trazo gris oscuro — sin necesidad de marcado manual. Cada puzzle incluye un encabezado temático de tesoro autogenerado con fondo verde azulado (#2C8C7C), borde exterior ámbar (#D4A574), borde interior beige arena (#F4E4C1) y título dorado (#D4A017) en fuente Fredoka (peso 700, tamaño adaptable 36–48 px). La descripción se renderiza en marrón oscuro (#5C4033) en Quicksand (peso 500). El modo vertical muestra un encabezado completo (100 px de altura); el modo horizontal usa un diseño compacto (70 px de altura). El texto del encabezado se traduce automáticamente a los 11 idiomas — «Búsqueda del Tesoro» y «¡Sigue las pistas y encuentra el tesoro!» en el idioma seleccionado. Explora 104 colecciones temáticas con más de 3.100 ilustraciones o sube imágenes personalizadas mediante tres métodos de entrada: Generar desde Tema (autoselecciona 6), Selección Manual de Imágenes (explorar y hacer clic) y Subir Imágenes Personalizadas (JPEG/PNG/GIF/WebP). Aplica temas de fondo y temas de borde con controles de opacidad independientes (0–1, paso 0,05). Exporta PDF listos para imprimir (multiplicador 3×) y JPEG (multiplicador 6×) a 300 DPI en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.`,
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: `Cómo Crear Fichas de Búsqueda del Tesoro en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Creador de Búsqueda del Tesoro',
+        title: `Abre el Creador de Búsqueda del Tesoro`,
         description: `Haz clic en «Prueba Gratis Ahora» para abrir el generador de fichas de búsqueda del tesoro en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo con dos pestañas a la derecha — una pestaña para la ficha de búsqueda del tesoro y otra para la clave de respuestas. Sin necesidad de crear cuenta, descargar software ni instalar nada — empieza a crear puzzles de búsqueda del tesoro inmediatamente.`,
       },
       {
@@ -40,19 +40,19 @@ const content: ToolContent = {
         description: `Alterna entre dos vocabularios de dirección en el panel de Configuración del Puzzle. El modo Básico usa arriba, abajo, izquierda y derecha — palabras direccionales familiares ideales para aprendices de preescolar hasta 1.º de primaria que construyen vocabulario espacial fundamental. El modo Cardinal usa norte, sur, este y oeste — direcciones de brújula adecuadas para 2.º de primaria en adelante, introduciendo habilidades de lectura de mapas y orientación geográfica. Ambos tipos de dirección generan la misma estructura de puzzle de 4 movimientos en la misma cuadrícula 5×5, así que puedes crear conjuntos de dificultad progresiva empezando con Básico y avanzando a Cardinal.`,
       },
       {
-        title: 'Selecciona el Idioma del Contenido',
+        title: `Selecciona el Idioma del Contenido`,
         description: `Elige el idioma del contenido para controlar el texto de las pistas direccionales que aparece en la ficha. El Creador de Búsqueda del Tesoro es sensible al idioma — todas las direcciones están completamente traducidas a los 11 idiomas soportados. «Empieza en», «Muévete», «casilla(s)» y «¿Dónde está el tesoro?» se localizan junto con el vocabulario de direcciones Básicas y Cardinales. El contenido de imágenes también se actualiza según el idioma seleccionado. El nivel Comercial incluye contenido en inglés; el Acceso Completo desbloquea los 11 idiomas para fichas de búsqueda del tesoro auténticas en el idioma nativo que puedes vender en mercados internacionales.`,
       },
       {
-        title: 'Selecciona Imágenes para la Cuadrícula 5×5',
+        title: `Selecciona Imágenes para la Cuadrícula 5×5`,
         description: `Elige cómo rellenar la cuadrícula de coordenadas con 6 imágenes temáticas de puntos de referencia usando uno de tres métodos de entrada. Generar desde Tema (predeterminado) autoselecciona 6 imágenes aleatorias del tema elegido y las distribuye por la cuadrícula — el camino más rápido a un puzzle terminado. Selección Manual de Imágenes te permite explorar 104 colecciones temáticas con más de 3.100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, festividades, profesiones, deportes, estaciones y docenas más — y hacer clic para seleccionar exactamente 6 imágenes. Subir Imágenes Personalizadas te permite añadir tus propios archivos JPEG, PNG, GIF o WebP junto al contenido de la biblioteca.`,
       },
       {
-        title: 'Genera el Puzzle de Búsqueda del Tesoro',
+        title: `Genera el Puzzle de Búsqueda del Tesoro`,
         description: `Haz clic en Generar para crear el puzzle de búsqueda de caminos en la cuadrícula de coordenadas 5×5 (filas A–E, columnas 1–5). El generador distribuye tus 6 imágenes seleccionadas por las 25 celdas como puntos de referencia visuales, elige una celda de inicio aleatoria y crea exactamente 4 movimientos direccionales que permanecen dentro de los límites de la cuadrícula. La ficha muestra 5 líneas de instrucciones: «Empieza en [celda]» seguido de 4 pistas «Muévete [dirección] [número] casilla(s)», terminando con «¿Dónde está el tesoro?» Un encabezado temático de tesoro aparece en la parte superior con fondo verde azulado (#2C8C7C), título dorado (#D4A017) en Fredoka y descripción en marrón oscuro (#5C4033) en Quicksand. Haz clic en Generar de nuevo para producir un nuevo puzzle con diferente distribución aleatoria de imágenes, posición de inicio y secuencia de movimientos.`,
       },
       {
-        title: 'Revisa la Clave de Respuestas Autogenerada',
+        title: `Revisa la Clave de Respuestas Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuestas para ver la solución con la celda final del tesoro resaltada en amarillo pálido (rgba(255, 250, 205, 0.8)) y un trazo gris oscuro. La clave de respuestas reproduce el diseño exacto del puzzle — la misma cuadrícula, las mismas imágenes distribuidas, el mismo encabezado — y marca el destino del tesoro claramente. Sin marcado manual, sin creación de archivos separados, sin posibilidad de soluciones que no coincidan. Cambia entre las pestañas Ficha y Clave de Respuestas para comparar. La clave de respuestas se genera simultáneamente con el puzzle, así que cada búsqueda del tesoro que creas viene con su página de solución lista para imprimir.`,
       },
       {
@@ -80,7 +80,7 @@ const content: ToolContent = {
       description: `Compila 40–80 fichas de búsqueda del tesoro en cuadernos impresos para Amazon KDP. La cuadrícula de coordenadas 5×5 con letras y números (filas A–E, columnas 1–5) introduce a los usuarios en las habilidades de referencia de cuadrícula usadas en geografía, matemáticas y ciencias. Estructura los capítulos por progresión: los capítulos iniciales usan direcciones Básicas con temas familiares, los capítulos avanzados usan direcciones Cardinales con colecciones variadas. Incluye páginas de clave de respuestas al final con celdas del tesoro resaltadas en amarillo pálido. Activa la escala de grises para producción que ahorra tinta, optimizada para interiores de libros en blanco y negro. Los cuadernos de búsqueda de caminos llenan un nicho único en el mercado de libros de actividades de KDP.`,
     },
     {
-      title: 'Colecciones Estacionales de Búsqueda del Tesoro',
+      title: `Colecciones Estacionales de Búsqueda del Tesoro`,
       description: `Construye colecciones estacionales rotativas usando temas de festividades y naturaleza de la biblioteca de 104 temas. Búsquedas del tesoro de Navidad, puzzles de búsqueda de caminos de Halloween, actividades de búsqueda del tesoro de Semana Santa, desafíos de coordenadas de San Valentín, fichas de dirección de vuelta al cole y conjuntos temáticos de verano — cada uno alimenta paquetes estacionales dedicados. Incluye ambos tipos de dirección Básico y Cardinal en cada colección estacional para máxima variedad. Lanza cada colección 4–6 semanas antes de la festividad para máxima visibilidad en el marketplace. El formato de búsqueda del tesoro añade un elemento narrativo atractivo a los productos de fichas estacionales.`,
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Negocio de Vocabulario Direccional Multilingüe',
+      title: `Negocio de Vocabulario Direccional Multilingüe`,
       description: `Las pistas direccionales completamente localizadas crean puzzles de búsqueda del tesoro auténticos en el idioma nativo cuando cambias de idioma. Todo el texto de instrucciones — «Empieza en», «Muévete», palabras de dirección, «casilla(s)» y «¿Dónde está el tesoro?» — se traduce a los 11 idiomas soportados. Crea paquetes de búsqueda del tesoro específicos por idioma para vendedores de ESL/EFL que practican vocabulario direccional, programas de educación bilingüe y familias internacionales de trabajo desde casa. Vende en tiendas de Etsy dirigidas a países específicos, lista en Gumroad para vendedores internacionales o construye mega-paquetes multilingües a precios premium. Un diseño de puzzle genera 11 productos vendibles por idioma.`,
       platform: 'Etsy / Gumroad',
     },
@@ -155,7 +155,7 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: '¿Hay una prueba gratuita disponible?',
+      question: `¿Hay una prueba gratuita disponible?`,
       answer: `Sí. La herramienta ofrece una prueba gratuita con todas las funciones desbloqueadas — ambos tipos de dirección (Básico y Cardinal), la cuadrícula de coordenadas 5×5, generación de puzzles con 6 imágenes y exactamente 4 movimientos direccionales, la clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido, la biblioteca completa de imágenes con 104 colecciones temáticas y más de 3.100 ilustraciones, tres métodos de entrada de imágenes, temas de fondo y borde con opacidad independiente, selección de idioma para 11 conjuntos de direcciones localizadas, escala de grises y todos los formatos de descarga. Sin registro, sin tarjeta de crédito. Las descargas de prueba gratuita incluyen una marca de agua. Compra una licencia comercial para eliminar la marca de agua y desbloquear derechos de venta.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `Generar desde Tema (predeterminado) autoselecciona 6 imágenes aleatorias del tema elegido y las distribuye por la cuadrícula 5×5 como puntos de referencia visuales — el camino más rápido a un puzzle terminado. Selección Manual de Imágenes te permite explorar 104 colecciones temáticas con más de 3.100 ilustraciones y hacer clic para elegir exactamente 6 imágenes para control preciso del contenido de la cuadrícula. Subir Imágenes Personalizadas te permite añadir tus propios archivos JPEG, PNG, GIF o WebP junto al contenido de la biblioteca. Los tres métodos rellenan la misma cuadrícula de coordenadas 5×5 con 6 imágenes de puntos de referencia.`,
     },
     {
-      question: '¿Cómo funciona el encabezado temático de tesoro?',
+      question: `¿Cómo funciona el encabezado temático de tesoro?`,
       answer: `Cada ficha generada incluye un encabezado temático de tesoro con fondo verde azulado (#2C8C7C), borde exterior ámbar (#D4A574), borde interior beige arena (#F4E4C1) y título dorado (#D4A017) en fuente Fredoka (peso 700, tamaño adaptable 36–48 px). La descripción se renderiza en marrón oscuro (#5C4033) usando Quicksand (peso 500). El modo vertical muestra un encabezado completo (100 px de altura); el modo horizontal usa un diseño compacto (70 px de altura). El título «Búsqueda del Tesoro» y la descripción «¡Sigue las pistas y encuentra el tesoro!» se traducen automáticamente a los 11 idiomas soportados.`,
     },
     {
@@ -195,20 +195,20 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes todos los derechos para vender fichas de búsqueda del tesoro como descargas digitales en Etsy, cuadernos impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos tipos de dirección, la cuadrícula de coordenadas 5×5, las pistas direccionales completamente localizadas en 11 idiomas, las claves de respuestas autogeneradas con celdas del tesoro resaltadas, tres métodos de entrada de imágenes y las 104 colecciones temáticas te dan todo lo necesario para crear productos profesionales de búsqueda del tesoro que compitan en categorías de fichas de actividades en todos los principales marketplaces.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de adquirir una licencia. Como la prueba gratuita te da acceso completo a ambos tipos de dirección, la cuadrícula de coordenadas 5×5, generación de puzzles con 6 imágenes y 4 movimientos direccionales, la clave de respuestas autogenerada con celda del tesoro resaltada, los 104 temas, tres métodos de entrada de imágenes, temas de fondo y borde, selección de idioma para 11 conjuntos de direcciones localizadas, exportación en escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencias. Asegúrate de que la herramienta se ajuste a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'busqueda-tesoro-fichas', anchorText: `Fichas de Búsqueda del Tesoro — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Creador de Crucigramas con Imágenes' },
+    { pageType: 'tool', slug: `generador-crucigramas-imagenes`, anchorText: `Creador de Crucigramas con Imágenes` },
     { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Creador de Buscar y Contar' },
     { pageType: 'tool', slug: 'generador-busca-objetos', anchorText: 'Creador de Buscar Objetos' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: 'Creador de Laberintos con Imágenes' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Creador de Fichas de Emparejamiento' },
-    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: 'Creador de Rompecabezas Matemáticos' },
+    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: `Creador de Laberintos con Imágenes` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Creador de Fichas de Emparejamiento` },
+    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: `Creador de Rompecabezas Matemáticos` },
   ],
 
   visuals: {

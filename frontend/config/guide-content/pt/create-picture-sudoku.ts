@@ -4,20 +4,20 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'criar sudoku com imagens',
     secondaryKeywords: [
-      'sudoku com imagens para crianças',
-      'gerador de sudoku visual para crianças',
-      'sudoku com imagens imprimível para vender',
-      'puzzles de sudoku visual para pré-escolar',
+      `sudoku com imagens para crianças`,
+      `gerador de sudoku visual para crianças`,
+      `sudoku com imagens imprimível para vender`,
+      `puzzles de sudoku visual para pré-escolar`,
     ],
     lsiKeywords: [
-      'puzzles de lógica com imagens para crianças',
-      'sudoku visual para aprendizes jovens',
-      'criador de fichas de lógica para pré-escolar',
-      'vender fichas de sudoku no Etsy',
-      'Amazon KDP livros de atividades de puzzles',
-      'ferramenta de puzzles com licença comercial',
+      `puzzles de lógica com imagens para crianças`,
+      `sudoku visual para aprendizes jovens`,
+      `criador de fichas de lógica para pré-escolar`,
+      `vender fichas de sudoku no Etsy`,
+      `Amazon KDP livros de atividades de puzzles`,
+      `ferramenta de puzzles com licença comercial`,
     ],
-    titleTag: 'Criar sudoku com imagens para crianças — Guia',
+    titleTag: `Criar sudoku com imagens para crianças — Guia`,
     metaDescription: `Crie sudoku com imagens para crianças. Grelhas 4×4 com imagens temáticas, 3 níveis de dificuldade, chaves de respostas e PDFs prontos a imprimir e vender.`,
   },
 
@@ -31,19 +31,19 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Escolha o seu nível de dificuldade',
+      heading: `Escolha o seu nível de dificuldade`,
       content: `A dificuldade no sudoku com imagens é determinada por quantas células ficam em branco na grelha de 4×4. A grelha contém sempre 16 células no total, e a dificuldade simplesmente controla quantas a criança deve preencher.\n\nO Gerador de sudoku com imagens oferece três níveis de dificuldade:\n\nFácil (4 células em branco): Doze das dezasseis células estão pré-preenchidas com imagens. A criança só precisa de descobrir quatro imagens em falta. Com a maior parte da grelha já completa, cada célula em branco pode tipicamente ser resolvida olhando para uma única linha ou coluna. Este nível é ideal para crianças de 3–4 anos e para crianças que encontram o sudoku pela primeira vez.\n\nMédio (6 células em branco): Dez células estão pré-preenchidas, deixando seis em branco. As crianças precisam de usar tanto a lógica de linhas como de colunas para determinar algumas respostas, já que as linhas ou colunas individuais podem ter duas imagens em falta. Este nível é legível de 4–5 anos que dominaram os puzzles fáceis.\n\nDifícil (8 células em branco): Apenas oito células estão pré-preenchidas — exatamente metade da grelha está em branco. Isto requer raciocínio dedutivo genuíno, onde resolver uma célula revela informação necessária para outra. Este nível funciona para crianças de 5–7 anos e proporciona um verdadeiro desafio mesmo para crianças confortáveis com puzzles mais simples.\n\nO nível de dificuldade é o seu principal diferenciador de produto. Um único tema em três níveis de dificuldade dá-lhe três produtos distintos ou um pacote escalonado. Os pais e vendedores procuram especificamente materiais graduados por dificuldade porque as crianças progridem através dos níveis a velocidades diferentes.`,
     },
     {
-      heading: 'Selecione um tema da biblioteca de imagens',
+      heading: `Selecione um tema da biblioteca de imagens`,
       content: `O tema determina que quatro imagens aparecem na sua grelha de sudoku. Uma vez que um sudoku de 4×4 usa exatamente quatro símbolos únicos, o gerador seleciona quatro imagens do seu tema escolhido para preencher a grelha.\n\nO Gerador de sudoku com imagens inclui uma biblioteca de imagens pesquisável com mais de 100 temas organizados por categoria — animais, comida, veículos, natureza, festividades, profissões e mais. Use o campo de pesquisa para filtrar temas por palavra-chave ou navegue por categoria.\n\nA seleção de tema é tanto uma decisão criativa como estratégica. Cada tema cria um produto distinto com as suas próprias palavras-chave de pesquisa nos marketplaces. «Sudoku de animais da quinta para crianças» e «puzzles de sudoku de dinossauros para pré-escolar» visam consultas de pesquisa completamente diferentes, o que significa que cada produto temático alcança uma audiência diferente.\n\nAo escolher temas, considere a clareza das imagens no tamanho de célula da grelha. As quatro imagens precisam de ser facilmente distinguíveis entre si quando impressas a aproximadamente um centímetro quadrado. Os temas com elementos visualmente distintos — como animais da quinta (vaca, porco, galinha, cavalo) ou frutas (maçã, banana, laranja, uvas) — funcionam melhor do que os temas onde os elementos se parecem em tamanhos pequenos.\n\nA licença comercial inclui 10 conjuntos de imagens temáticas. A licença de Acesso completo desbloqueia mais de 100 temas. Cada tema é uma linha de produtos potencial — um tema em três níveis de dificuldade com tamanhos Letter e A4 dá-lhe seis produtos únicos de uma única seleção de tema.`,
     },
     {
-      heading: 'Escolha as imagens para o seu puzzle',
+      heading: `Escolha as imagens para o seu puzzle`,
       content: `Depois de selecionar um tema, precisa de exatamente quatro imagens únicas para a grelha de sudoku. O gerador oferece três formas de obter estas imagens:\n\nBiblioteca de temas: Selecione um tema e o gerador fornece automaticamente quatro imagens desse conjunto. Este é o fluxo de trabalho mais rápido para a produção em lote.\n\nSeleção individual de imagens: Explore a biblioteca completa de imagens com filtragem e pesquisa para escolher manualmente quatro imagens específicas de qualquer tema ou combinação de temas. Isto dá-lhe controlo criativo sobre exatamente que imagens aparecem na grelha.\n\nCarregamento personalizado: Carregue as suas próprias imagens para usar no puzzle. Isto é valioso para criar produtos com marca própria ou usar imagens que correspondam a um nicho de compradores específico não coberto pela biblioteca integrada.\n\nAs quatro imagens que selecionar tornam-se o «vocabulário» do puzzle — substituem os números de 1 a 4 no sudoku tradicional. Cada imagem aparece exatamente quatro vezes numa grelha completada (uma vez em cada linha e uma vez em cada coluna). As crianças aprendem a reconhecer que cada linha e coluna deve conter as quatro imagens, que é a competência lógica central que o sudoku com imagens ensina.\n\nPara produtos de marketplaces, escolha imagens que sejam instantaneamente reconhecíveis e visualmente atrativas para as crianças. As imagens chamativas e coloridas com contornos claros funcionam melhor. Evite imagens que sejam demasiado detalhadas ou demasiado semelhantes entre si, já que as crianças precisam de as distinguir rapidamente enquanto resolvem o puzzle.`,
     },
     {
-      heading: 'Defina o tamanho e a orientação de página',
+      heading: `Defina o tamanho e a orientação de página`,
       content: `O tamanho e a orientação de página afetam tanto o design do puzzle como o seu mercado-alvo.\n\nO Gerador de sudoku com imagens suporta quatro opções de tamanho de página: Carta vertical, Carta horizontal, A4 vertical e A4 horizontal. Também pode definir dimensões personalizadas para formatos especializados.\n\nA orientação tem um impacto significativo no design do puzzle. Em modo horizontal, o gerador coloca a grelha de 4×4 no lado esquerdo da página e a zona de recortes no direito. A zona de recortes contém as imagens que as crianças precisam de recortar ou consultar enquanto resolvem o puzzle. Em modo vertical, a grelha situa-se na parte superior da página com a zona de recortes por baixo.\n\nA orientação horizontal geralmente funciona melhor para o sudoku com imagens porque a grelha e a zona de recortes estão lado a lado, facilitando que as crianças pequenas consultem ambas enquanto resolvem. A orientação vertical funciona bem quando o puzzle será incluído num caderno encadernado ou quando a orientação de página precisa de coincidir com outros materiais num pacote.\n\nPara máximo alcance de mercado, crie versões tanto em Carta como em A4 de cada puzzle. Carta (8,5 × 11 polegadas) é o padrão na América do Norte. A4 (210 × 297 mm) é o padrão no resto do mundo. Publique-os como produtos separados ou agrupe ambos os tamanhos juntos. Isto duplica o seu apelo internacional com mínimo esforço adicional, já que o gerador trata de todos os ajustes de design automaticamente.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Com a sua dificuldade, tema, imagens e tamanho de página configurados, clique em Criar ficha para gerar o puzzle.\n\nO gerador constrói uma solução de sudoku 4×4 válida — uma grelha onde cada linha e coluna contém as quatro imagens exatamente uma vez. Depois elimina células segundo a sua configuração de dificuldade (4, 6 ou 8 caselas vazias) assegurando que o puzzle tem uma solução única. As células em branco aparecem vazias na grelha, e a zona de recortes mostra as imagens que as crianças usam para preencher os espaços em falta.\n\nExamine o puzzle gerado no canvas:\n\nReveja a grelha: Todas as imagens pré-preenchidas são claramente visíveis? As células vazias são obviamente vazias? A grelha é suficientemente grande para que as crianças pequenas trabalhem com ela?\n\nReveja a zona de recortes: Mostra o número correto de imagens que correspondem às células vazias? As imagens de recorte são do mesmo tamanho que as imagens da grelha para que as crianças possam emparelhá-las facilmente?\n\nReveja o design geral: Há espaço em branco suficiente à volta da grelha? O puzzle parece limpo e organizado? As crianças pequenas precisam de espaçamento generoso para se concentrarem na lógica sem distração visual.\n\nSe algo precisar de ajuste, modifique as suas configurações e regenere. O canvas atualiza-se instantaneamente, para que possa iterar rapidamente. Cada regeneração cria um novo puzzle válido com diferentes posições de imagens, dando-lhe puzzles únicos ilimitados da mesma configuração.`,
     },
     {
-      heading: 'Personalize com texto, fundo e temas de moldura',
+      heading: `Personalize com texto, fundo e temas de moldura`,
       content: `O gerador adiciona automaticamente um cabeçalho sensível ao idioma com título e descrição sobre o puzzle. Este cabeçalho é traduzido automaticamente para 11 idiomas segundo a configuração de idioma — inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês.\n\nPode editar tanto o título como a descrição diretamente no canvas. Substitua o texto predefinido por algo específico para o seu produto: «Sudoku de animais — Nível fácil» ou adicione instruções como «Coloca um de cada animal em cada linha e coluna».\n\nA ferramenta de texto oferece personalização adicional. Sete famílias de fontes estão disponíveis: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste o tamanho da fonte, cor e configuração de contorno para corresponder à sua marca ou estilo de produto. Use Fredoka ou Baloo 2 para um aspeto lúdico e atraente. Use Lexend Deca ou Quicksand para um aspeto limpo e moderno.\n\nOs temas de fundo e moldura adicionam acabamento visual sem sobrecarregar o puzzle em si. Selecione entre os temas disponíveis e ajuste a opacidade para manter os elementos decorativos subtis. Um padrão de fundo ligeiro com uma moldura de borda colorida transforma uma ficha simples num produto de aspeto profissional que se destaca nos listados de marketplaces.\n\nO canvas também inclui gestão de camadas, ferramentas de alinhamento, bloqueio/desbloqueio de elementos e desfazer/refazer — dando-lhe controlo total sobre o design final. Posicione elementos de texto com precisão, coloque elementos decorativos atrás da grelha do puzzle e bloqueie os elementos terminados para evitar alterações acidentais enquanto continua a editar.`,
     },
     {
@@ -59,29 +59,29 @@ const content: GuideContent = {
       content: `Clique em Criar chave de respostas para gerar a solução do seu puzzle. A chave de respostas mostra a grelha completa de 4×4 com todas as imagens preenchidas, incluindo as células que estavam em branco na ficha.\n\nA chave de respostas é essencial para produtos de marketplaces. Dois segmentos de compradores dependem dela:\n\nOs vendedores usam as chaves de respostas para verificação rápida. Ao rever um conjunto de turma de 20 puzzles completados, ter a solução visível poupa um tempo considerável de correção. Um produto de puzzles sem chave de respostas é notavelmente menos atrativo para os vendedores.\n\nOs pais usam as chaves de respostas para ajudar os seus filhos quando ficam presos. Em vez de resolver o puzzle eles próprios, os pais podem consultar a chave de respostas e oferecer pistas. Os pais que educam em casa valorizam isto particularmente porque podem estar a apoiar múltiplas crianças com diferentes atividades simultaneamente.\n\nA chave de respostas reflete o design da ficha — mesmo tamanho de página, mesma posição de grelha, mesmo estilo. A única diferença é que todas as células estão preenchidas. Isto facilita comparar o trabalho da criança com a solução colocando as páginas lado a lado.\n\nPara os listados de produtos, mencione sempre que as chaves de respostas estão incluídas. «Com chave de respostas» é um qualificador de pesquisa frequente no Etsy e no Gumroad. Incluí-lo no título e na descrição do seu produto melhora a visibilidade nas pesquisas e a confiança do comprador.`,
     },
     {
-      heading: 'Exporte como PDF e JPEG prontos a imprimir',
-      content: `A secção de exportação fornece quatro botões de descarga:\n\nJPEG da ficha: Uma imagem de alta resolução do puzzle. Use-a para pré-visualizações de listados em marketplaces, publicações em redes sociais e miniaturas de produtos digitais.\n\nPDF da ficha: O formato profissional pronto a imprimir. O PDF mantém a formatação exata em todos os dispositivos e impressoras. Este é o formato padrão que os compradores de marketplaces esperam para produtos imprimíveis descarregáveis.\n\nJPEG da chave de respostas: A solução como ficheiro de imagem, útil para imagens de pré-visualização e pacotes digitais.\n\nPDF da chave de respostas: A solução em formato pronto a imprimir, incluída junto com o PDF da ficha na descarga do seu produto.\n\nUm interruptor de escala de cinzentos está disponível para versões que poupam tinta. Os puzzles em escala de cinzentos são populares entre vendedores que imprimem em volume em impressoras a preto e branco. Considere oferecer tanto versões a cores como em escala de cinzentos como pacote de produto ou publicar a versão em escala de cinzentos como produto separado dirigido ao uso online.\n\nPara listados em marketplaces, exporte ambos os formatos. O PDF é o seu produto entregável que os compradores descarregam e imprimem. O JPEG serve como imagem de pré-visualização do seu listado para que os compradores vejam exatamente o que estão a comprar.\n\nImportante: o teste grátis com marca d'água produz exportações completamente funcionais com uma marca d'água visível sobreposta. Isto permite-lhe avaliar a qualidade de impressão, verificar a formatação do puzzle e criar impressões de teste antes de comprar uma licença comercial. A licença comercial remove a marca d'água de todas as exportações, produzindo ficheiros limpos prontos para a venda.`,
+      heading: `Exporte como PDF e JPEG prontos a imprimir`,
+      content: `A secção de exportação fornece quatro botões de descarga:\n\nJPEG da ficha: Uma imagem de alta resolução do puzzle. Use-a para pré-visualizações de listados em marketplaces, publicações em redes sociais e miniaturas de produtos digitais.\n\nPDF da ficha: O formato profissional pronto a imprimir. O PDF mantém a formatação exata em todos os dispositivos e impressoras. Este é o formato padrão que os compradores de marketplaces esperam para produtos imprimíveis descarregáveis.\n\nJPEG da chave de respostas: A solução como ficheiro de imagem, útil para imagens de pré-visualização e pacotes digitais.\n\nPDF da chave de respostas: A solução em formato pronto a imprimir, incluída junto com o PDF da ficha na descarga do seu produto.\n\nUm interruptor de escala de cinzentos está disponível para versões que poupam tinta. Os puzzles em escala de cinzentos são populares entre vendedores que imprimem em volume em impressoras a preto e branco. Considere oferecer tanto versões a cores como em escala de cinzentos como pacote de produto ou publicar a versão em escala de cinzentos como produto separado dirigido ao uso online.\n\nPara listados em marketplaces, exporte ambos os formatos. O PDF é o seu produto entregável que os compradores descarregam e imprimem. O JPEG serve como imagem de pré-visualização do seu listado para que os compradores vejam exatamente o que estão a comprar.\n\nImportante: o teste grátis com marca d`água produz exportações completamente funcionais com uma marca d`água visível sobreposta. Isto permite-lhe avaliar a qualidade de impressão, verificar a formatação do puzzle e criar impressões de teste antes de comprar uma licença comercial. A licença comercial remove a marca d'água de todas as exportações, produzindo ficheiros limpos prontos para a venda.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Vender sudoku com imagens no Etsy',
+      heading: `Vender sudoku com imagens no Etsy`,
       content: `O Etsy é uma excelente plataforma para produtos de sudoku com imagens porque o formato do puzzle é visualmente distintivo e fotografa-se bem nas imagens dos listados.\n\nOtimização de títulos: Comece com a sua palavra-chave principal e inclua faixa etária, tema e características-chave. Exemplos fortes: «Sudoku com imagens para pré-escolar — Tema de animais da quinta — Puzzles de lógica fáceis — Com chave de respostas» ou «Sudoku imprimível para crianças de 3–5 anos — Fichas de lógica visual — Tema de dinossauros — Descarga PDF». Use todo o espaço de 140 caracteres do título.\n\nEtiquetas: Use as 13 etiquetas do Etsy. Combine termos amplos e específicos: «sudoku com imagens», «puzzles de lógica pré-escolar», «sudoku imprimível para crianças», «fichas de pensamento visual», «pensamento crítico pré-escolar», «fichas de puzzles infantário», «puzzles educativos crianças pequenas» e etiquetas específicas do tema como «puzzles de animais da quinta» ou «atividades de dinossauros».\n\nImagens do listado: A grelha de 4×4 com imagens é visualmente chamativa e comunica imediatamente o que é o produto. Mostre o puzzle a tamanho de página completa como miniatura, inclua um primeiro plano da grelha com a zona de recortes visível, mostre a chave de respostas e adicione uma maqueta do puzzle impresso a ser resolvido por uma criança. 5–10 imagens por listado.\n\nPreços: As fichas individuais de sudoku com imagens com chave de respostas vendem-se a 1,49–2,49 $. Os pacotes temáticos de 8–12 puzzles em três níveis de dificuldade vendem-se a 3,99–7,99 $. As coleções completas de mais de 30 puzzles em múltiplos temas vendem-se a 12,99–19,99 $.`,
     },
     {
-      heading: 'Vender sudoku com imagens no Amazon KDP',
+      heading: `Vender sudoku com imagens no Amazon KDP`,
       content: `O Amazon KDP é ideal para sudoku com imagens porque os puzzles compilam-se naturalmente em livros de atividades. Os pais e vendedores procuram no Amazon «livros de puzzles para crianças» e «livros de atividades de lógica para pré-escolar» em grande volume.\n\nFormato do produto: Crie um livro de puzzles com 40–80 sudokus com imagens organizados por dificuldade. Comece com puzzles fáceis e progrida até difíceis. Inclua chaves de respostas no final do livro. O KDP requer formato interior específico — use tamanho de corte de 8,5×11 polegadas para puzzles de página completa.\n\nTítulo e subtítulo: Exemplo de título: «Sudoku com imagens para crianças de 3–6 anos». Exemplo de subtítulo: «60 puzzles de lógica visual com temas de animais — De fácil a difícil — Com chaves de respostas». Inclua faixa etária, quantidade de puzzles e características de venda-chave no subtítulo.\n\nPalavras-chave: O KDP fornece 7 espaços de palavras-chave. Use frases específicas: «sudoku com imagens pré-escolar», «puzzles de lógica visual crianças», «livro de puzzles de sudoku crianças pequenas», «fichas de pensamento crítico infantário», «livro de atividades de puzzles com imagens», «jogos de lógica para pré-escolar», «puzzles lógicos com imagens».\n\nDesign da capa: Mostre um puzzle de amostra de forma proeminente na capa. A grelha de 4×4 com imagens coloridas e temáticas cria uma capa chamativa que diz imediatamente aos compradores o que está lá dentro. Inclua a faixa etária e a quantidade de puzzles na capa.\n\nPreços: Os livros de puzzles no KDP tipicamente vendem-se a 5,99–8,99 $ para 40–80 páginas. As coleções maiores (mais de 100 puzzles) podem ser fixadas a 9,99–12,99 $.`,
     },
     {
-      heading: 'Vender sudoku com imagens no Gumroad',
+      heading: `Vender sudoku com imagens no Gumroad`,
       content: `O Gumroad (Gumroad) é onde os vendedores procuram atividades de puzzles prontas para a loja. O sudoku com imagens encaixa bem como atividade de estação de lógica, trabalho para usuários que terminam cedo ou complemento de pensamento crítico.\n\nDescrições de produtos: Enfatize o valor educativo — competências lógicas, raciocínio espacial, pensamento dedutivo e resolução de problemas. Mencione como o sudoku com imagens apoia os padrões de aprendizagem precoce sobre reconhecimento de padrões e raciocínio lógico. Inclua: faixa etária/ano, nível de dificuldade, número de puzzles, se as chaves de respostas estão incluídas e como usar os puzzles num contexto de loja.\n\nPosicionamento online: Apresente o sudoku com imagens como uma «atividade de estação de lógica» ou «ficha de pensamento crítico» em vez de apenas um puzzle. Os vendedores procuram termos alinhados com o catálogo de produtos. Sugira usos: aquecimento matinal, rotação de estação de matemática, atividade para usuários que terminam cedo, recreio interior ou avaliação de competências de raciocínio lógico.\n\nFicheiros de pré-visualização: Carregue 2–3 puzzles de amostra como a sua pré-visualização de Gumroad. Mostre um puzzle fácil e um difícil para que os compradores possam ver o intervalo de dificuldade. Uma pré-visualização forte converte visitantes em compradores.\n\nAgrupamento no Gumroad: Os vendedores compram pacotes para unidades completas ou períodos de avaliação. Um «Pacote de puzzles de lógica para infantário» com 40 sudokus com imagens em múltiplos temas e os três níveis de dificuldade é um produto convincente no Gumroad a 7,99–12,99 $.\n\nOportunidades sazonais: Crie conjuntos de sudoku temáticos para festividades (Halloween, Natal, São Valentim, Páscoa) e temporada de regresso às aulas. Os vendedores planeiam atividades à volta destes temas e procuram ativamente recursos de puzzles temáticos 4–6 semanas antes.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Preços dos seus produtos de sudoku com imagens',
+      heading: `Preços dos seus produtos de sudoku com imagens`,
       content: `Os preços do sudoku com imagens seguem os padrões estabelecidos do mercado de puzzles imprimíveis. Aqui estão intervalos que funcionam bem nos marketplaces:\n\nPuzzle individual com chave de respostas: 1,29–1,99 $. Produtos de entrada que atraem compradores à sua loja. Preço baixo mas perceção de valor limitada. Melhor usados como produtos gancho ou como amostras de teste grátis com marca d'água que direcionem tráfego para os seus pacotes.\n\nConjunto por dificuldade (fácil + médio + difícil, um tema): 2,49–3,99 $. Três puzzles com o mesmo tema em três níveis de dificuldade mais chaves de respostas. Esta é uma unidade de produto natural porque os compradores querem progressão.\n\nPacote temático (8–12 puzzles, um tema, todas as dificuldades): 3,99–7,99 $. O ponto ideal para a maioria dos vendedores do Etsy. Puzzles suficientes para parecer completo, preço suficientemente baixo para compras por impulso.\n\nColeção multitema (30–50 puzzles, múltiplos temas): 9,99–16,99 $. Produtos de alto valor dirigidos a vendedores e pais que educam em casa que precisam de variedade para um semestre completo.\n\nMega pacote (60–100+ puzzles): 14,99–24,99 $. O seu produto de maior faturação. Posicione-o como uma «coleção completa de sudoku com imagens» que cubra todos os temas e níveis de dificuldade.\n\nNão fixe preços de puzzles individuais abaixo de 0,99 $. Os preços baixos sinalizam baixa qualidade e tornam impossível obter receitas significativas depois das comissões do marketplace.`,
     },
     {
@@ -96,11 +96,11 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Variações de produto por dificuldade e idade',
+      heading: `Variações de produto por dificuldade e idade`,
       content: `Aqui estão exemplos concretos de produtos que pode criar com o Gerador de sudoku com imagens, organizados por grupo etário alvo.\n\nIdades 3–4 (Dificuldade fácil, 4 caselas vazias): Use os temas mais reconhecíveis — animais da quinta, frutas, veículos comuns ou animais de estimação. O nível fácil deixa apenas quatro células em branco, para que as crianças experimentem sucesso rápido e construam confiança. Crie 6–8 puzzles por tema em orientação horizontal para ter a grelha e as zonas de recortes lado a lado. Estes produtos visam pais de crianças pequenas e vendedores de pré-escolar que dirigem atividades de estações de lógica.\n\nIdades 4–5 (Dificuldade média, 6 caselas vazias): Expanda para temas mais variados — animais do oceano, dinossauros, insetos, grupos alimentares. A dificuldade média requer que as crianças considerem tanto as restrições de linhas como de colunas para algumas células. Crie 8–10 puzzles por tema. Estes visam programas de preparação para o infantário e pais que procuram «fichas de pensamento crítico para pré-escolar».\n\nIdades 5–7 (Dificuldade difícil, 8 caselas vazias): Qualquer tema funciona neste nível porque as crianças mais velhas concentram-se no desafio lógico em vez de precisar de máximo reconhecimento de imagens. A dificuldade difícil preenche exatamente metade da grelha, requerendo raciocínio dedutivo genuíno em múltiplos passos. Crie 10–12 puzzles por tema. Vise salas de aula do primeiro ano, famílias que educam em casa e pais que procuram «puzzles de lógica para infantário» ou «jogos de lógica para crianças».\n\nPacotes de dificuldade mista: Combine 4 puzzles fáceis + 4 médios + 4 difíceis num único tema para um conjunto de 12 puzzles. Este é o formato de produto mais popular porque proporciona progressão natural. Comercialize como «de principiante a avançado» ou «dificuldade progressiva».`,
     },
     {
-      heading: 'Combinações de tema e mercado com alto desempenho',
+      heading: `Combinações de tema e mercado com alto desempenho`,
       content: `Certas combinações de tema e mercado geram vendas consistentes para produtos de sudoku com imagens. Estas baseiam-se em padrões de pesquisa comuns e nas forças visuais do formato de grelha de 4×4 com imagens.\n\nAnimais + Lógica pré-escolar: Os temas de animais dominam o mercado de imprimíveis de aprendizagem precoce. Animais da quinta, criaturas da selva, vida marinha e animais de estimação criam cada um produtos separados que visam diferentes consultas de pesquisa. «Sudoku de animais da quinta para pré-escolar» e «puzzle de lógica de animais do oceano para crianças» alcançam diferentes compradores.\n\nDinossauros + Puzzles de infantário: Os produtos educativos temáticos de dinossauros têm um segmento de compradores dedicado. As quatro imagens distintas de dinossauros numa grelha de sudoku criam puzzles visualmente empolgantes que se destacam dos produtos típicos de fichas.\n\nComida e cozinha + Atividades para crianças pequenas: As frutas, legumes e produtos de padaria estão entre as imagens mais reconhecíveis para as crianças mais pequenas. «Sudoku de frutas para crianças pequenas» visa um nicho específico com competição mínima.\n\nTemas sazonais + Guias de presentes de festividades: Halloween (abóboras, fantasmas, morcegos, gatos), Natal (árvore, estrela, presente, boneco de neve), São Valentim (corações, flores, ursos, rebuçados). O sudoku com imagens sazonal é uma excelente adição aos pacotes de atividades de festividades. Publique 4–6 semanas antes de cada festividade.\n\nTransportes + Aprendizagem precoce: Carros, camiões, comboios e aviões são universalmente atrativos para as crianças pequenas. Os temas de transportes funcionam bem o ano inteiro sem dependência sazonal.\n\nAntes de criar um novo produto temático, pesquise esse tema no Etsy. Observe o número de resultados e a qualidade dos produtos existentes. A oportunidade ideal é um tema com alto volume de pesquisa mas baixa competição especificamente em sudoku com imagens.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `O Gerador de sudoku com imagens usa uma grelha fixa de 4×4 concebida especificamente para aprendizes jovens dos 3 aos 7 anos. Este tamanho requer exatamente quatro imagens únicas e usa lógica simples de linhas e colunas que as crianças pequenas conseguem entender. A grelha não é ajustável para 6×6 ou 9×9 — mantém-se intencionalmente em 4×4 para preservar a adequação à faixa etária.`,
     },
     {
-      question: 'Como funcionam os três níveis de dificuldade?',
+      question: `Como funcionam os três níveis de dificuldade?`,
       answer: `A dificuldade é controlada pelo número de células em branco na grelha de 16 células. Fácil deixa 4 células em branco (a maior parte da grelha está pré-preenchida). Médio deixa 6 células em branco. Difícil deixa 8 células em branco (exatamente metade da grelha). Cada nível requer progressivamente mais raciocínio dedutivo para resolver. Os três níveis geram puzzles com solução única.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `Sim. Clique no botão Criar chave de respostas para gerar a solução completa mostrando as 16 células preenchidas com as imagens corretas. A chave de respostas usa o mesmo design e estilo que a ficha. É exportada como PDF e JPEG, separada dos ficheiros da ficha. As chaves de respostas são essenciais para produtos de marketplaces dirigidos a vendedores e pais.`,
     },
     {
-      question: 'Como funciona o cabeçalho sensível ao idioma?',
+      question: `Como funciona o cabeçalho sensível ao idioma?`,
       answer: `O gerador traduz automaticamente o título e a descrição do puzzle para 11 idiomas: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Selecione o seu idioma alvo e o cabeçalho atualiza-se automaticamente. O conteúdo do puzzle em si (as imagens na grelha) não precisa de tradução porque é completamente visual.`,
     },
     {
@@ -139,30 +139,30 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'criar-fichas-padroes',
-      title: 'Criar fichas de reconhecimento de padrões',
+      title: `Criar fichas de reconhecimento de padrões`,
       description: `O complemento lógico natural do sudoku com imagens. As fichas de padrões desenvolvem competências de raciocínio sequencial que complementam a lógica espacial que o sudoku ensina.`,
     },
     {
       slug: 'criar-fichas-correspondencia',
-      title: 'Criar fichas de correspondência',
+      title: `Criar fichas de correspondência`,
       description: `Fichas de discriminação visual que combinam bem com o sudoku para um pacote completo de lógica de aprendizagem precoce.`,
     },
     {
       slug: 'criar-cartoes-bingo',
-      title: 'Criar cartões de bingo temáticos',
+      title: `Criar cartões de bingo temáticos`,
       description: `Outra atividade visual baseada em grelha. Os cartões de bingo usam imagens temáticas semelhantes e atraem a mesma demografia de compradores que o sudoku com imagens.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como criar fichas profissionais que vendem' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como criar fichas profissionais que vendem` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass de negócio de imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de negócio de livros de atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'sudoku-criancas-fichas', anchorText: 'Gerador de sudoku com imagens — Todos os detalhes' },
-    { pageType: 'app', slug: 'fichas-padroes-sequencias', anchorText: 'Gerador de fichas de padrões — Todos os detalhes' },
-    { pageType: 'tool', slug: 'gerador-sudoku-infantil', anchorText: 'Experimente o Gerador de sudoku com imagens' },
+    { pageType: 'app', slug: 'sudoku-criancas-fichas', anchorText: `Gerador de sudoku com imagens — Todos os detalhes` },
+    { pageType: 'app', slug: 'fichas-padroes-sequencias', anchorText: `Gerador de fichas de padrões — Todos os detalhes` },
+    { pageType: 'tool', slug: 'gerador-sudoku-infantil', anchorText: `Experimente o Gerador de sudoku com imagens` },
   ],
 
   toolsRecommended: [
@@ -178,7 +178,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Gerador de fichas de correspondência',
+      title: `Gerador de fichas de correspondência`,
       description: `Cria fichas de discriminação visual onde as crianças emparelham imagens. Combina-se com o sudoku para pacotes de lógica multicompetência dirigidos à mesma demografia de compradores.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: 'Ficha de sudoku com imagens mostrando um puzzle de lógica 4×4 com imagens temáticas para aprendizes jovens' },
+    heroImage: { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: `Ficha de sudoku com imagens mostrando um puzzle de lógica 4×4 com imagens temáticas para aprendizes jovens` },
     samples: [
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 2.webp`, alt: 'Puzzle de sudoku 4×4 baseado em imagens com tema de animais para crianças de pré-escolar', caption: 'Sudoku com imagens de dificuldade fácil usando o tema de animais da quinta com quatro células em branco' },
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 3.webp`, alt: 'Chave de respostas de sudoku com imagens mostrando a grelha completa de 4×4 com todas as imagens preenchidas', caption: 'Chave de respostas automática gerada junto com cada puzzle de sudoku com imagens' },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 2.webp`, alt: `Puzzle de sudoku 4×4 baseado em imagens com tema de animais para crianças de pré-escolar`, caption: `Sudoku com imagens de dificuldade fácil usando o tema de animais da quinta com quatro células em branco` },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 3.webp`, alt: `Chave de respostas de sudoku com imagens mostrando a grelha completa de 4×4 com todas as imagens preenchidas`, caption: `Chave de respostas automática gerada junto com cada puzzle de sudoku com imagens` },
     ],
     youtubeId: 'bqVioFbkYbA',
-    videoTitle: 'Como criar sudoku com imagens — Tutorial completo',
+    videoTitle: `Como criar sudoku com imagens — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Peixe-anjo — imagem educativa temática', caption: 'Peixe-anjo' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Peixe-palhaço — imagem educativa temática', caption: 'Peixe-palhaço' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagem educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Caranguejo — imagem educativa temática', caption: 'Caranguejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Peixe-anjo — imagem educativa temática`, caption: 'Peixe-anjo' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Peixe-palhaço — imagem educativa temática`, caption: 'Peixe-palhaço' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagem educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Caranguejo — imagem educativa temática`, caption: 'Caranguejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 };
 

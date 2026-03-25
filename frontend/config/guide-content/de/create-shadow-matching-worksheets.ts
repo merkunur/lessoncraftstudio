@@ -2,19 +2,19 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'schattenbilder-arbeitsblätter erstellen',
+    primaryKeyword: `schattenbilder-arbeitsblätter erstellen`,
     secondaryKeywords: [
       `Schattenbilder-Zuordnungs-Arbeitsblätter zum Verkaufen erstellen`,
       `Silhouetten-Zuordnungs-Generator für Arbeitsblätter`,
-      'druckbare Schattenrätsel für Etsy und KDP',
+      `druckbare Schattenrätsel für Etsy und KDP`,
       `Halb-Bilder-Arbeitsblätter zum Ganzen zusammenfügen`,
     ],
     lsiKeywords: [
-      'Pixel-Silhouetten-Generierung für Arbeitsblätter',
+      `Pixel-Silhouetten-Generierung für Arbeitsblätter`,
       `visuelle Wahrnehmung Zuordnungsaktivitäten erstellen`,
       `Schattenbilder-Arbeitsblätter mit automatischem Lösungsschlüssel`,
-      'Schattenrätsel auf Etsy verkaufen',
-      'Amazon KDP visuelle Wahrnehmungs-Arbeitsbücher',
+      `Schattenrätsel auf Etsy verkaufen`,
+      `Amazon KDP visuelle Wahrnehmungs-Arbeitsbücher`,
       `kommerzielle Lizenz Schattenbilder-Zuordnungs-Tool`,
     ],
     titleTag: `Schattenbilder-Arbeitsblätter erstellen — Anleitung`,
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Den Schattenbilder-Ersteller öffnen',
+      heading: `Den Schattenbilder-Ersteller öffnen`,
       content: `Navigieren Sie zur Seite des Schattenbilder-Erstellers und klicken Sie auf die Starttaste, um den Generator in Ihrem Browser zu öffnen. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, ein Tab für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich.\n\nDie Dual-Tab-Arbeitsfläche ist das Herzstück des Schattenbilder-Generators. Der Arbeitsblatt-Tab zeigt das Zuordnungslayout, das Nutzer verwenden werden, während der Lösungsschlüssel-Tab die korrekten Buchstaben-zu-Zahlen-Paarungen mit den Originalbildern anzeigt. Beide Tabs werden gleichzeitig generiert, wenn Sie auf Generieren klicken, sodass Sie niemals Lösungsschlüssel manuell erstellen müssen.\n\nNehmen Sie sich einen Moment Zeit, die Seitenleisten-Panels zu erkunden. Das Übungskonfigurations-Panel steuert Ihre Moduswahl (Schattenbilder-Zuordnung oder Halb-Bilder), Beschriftungssichtbarkeit und Schnittrichtung. Das Bildbibliotheks-Panel bietet Zugang zu thematischen Sammlungen. Das Seiteneinstellungs-Panel verwaltet Layout- und Dekorationsoptionen. Diese drei Panels enthalten alles, was Sie zur Konfiguration eines vollständigen Schattenbilder-Zuordnungs-Arbeitsblatts benötigen.`,
     },
     {
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Öffnen Sie das Bildbibliotheks-Panel und durchsuchen Sie einhundertvier thematische Sammlungen mit über dreitausendeinhundert farbenfrohen Illustrationen. Kategorien umfassen Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe, Sport und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort, um die richtigen Bilder zu finden.\n\nBeide Übungsmodi verwenden immer genau vier Bilder pro Arbeitsblatt. Klicken Sie auf Bilder, um sie auszuwählen — der Zähler zeigt Ihren Fortschritt bis zu den erforderlichen vier an. Eine Vorschau der ausgewählten Bilder bestätigt Ihre Auswahl vor dem Generieren.\n\nFür den Schattenbilder-Zuordnungs-Modus wählen Sie Bilder mit markanten Silhouetten. Tiere mit einzigartigen Körperformen (Giraffe, Elefant, Oktopus), Fahrzeuge mit klaren Profilen (Flugzeug, Fahrrad, Schiff) und Objekte mit erkennbaren Konturen (Gitarre, Regenschirm, Krone) erzeugen die wiedererkennbarsten und ansprechendsten Schattenrätsel. Vermeiden Sie Bilder mit ähnlichen rechteckigen Formen, die nahezu identische Silhouetten erzeugen würden.\n\nFür den Halb-Bilder-Modus wählen Sie Bilder mit Details, die über beide Hälften verteilt sind. Ein Bild, bei dem alle markanten Merkmale auf einer Seite konzentriert sind, erzeugt ein einfaches Rätsel, weil eine Hälfte offensichtlich einzigartig ist. Bilder mit ausgewogenem visuellen Detail über beide Hälften erzeugen stärkere Zuordnungsherausforderungen.\n\nSie können auch eigene PNG-, JPG- oder GIF-Bilder hochladen, um personalisierte Schattenbilder-Zuordnungs-Arbeitsblätter zu erstellen. Eigene Uploads funktionieren für beide Modi — die pixelgenaue Silhouetten-Generierung verarbeitet jedes hochgeladene Bild, und der Halb-Bilder-Modus teilt jedes Bild entlang der gewählten Schnittrichtung. Familienfotos, eigene Kunstwerke oder bildungsmarktspezifische Bilder werden zu einzigartigen Produkten, die kein Wettbewerber replizieren kann.`,
     },
     {
-      heading: 'Seitenlayout und Dekorationen festlegen',
+      heading: `Seitenlayout und Dekorationen festlegen`,
       content: `Wählen Sie im Abschnitt Seiteneinstellungen Ihre Seitengröße. Optionen umfassen US Letter Hochformat, US Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (zwölfhundert mal zwölfhundert Pixel) und benutzerdefinierte Abmessungen. Das Layout passt sich automatisch an Ihre Seitenausrichtung an: Querformat-Seiten ordnen Elemente in zwei Reihen mit je vier Elementen an, während Hochformat-Seiten zwei Spalten mit je vier Elementen verwenden.\n\nUS Letter ist Standard für nordamerikanische Käufer. A4 ist Standard für europäische und internationale Märkte. Die Erstellung beider Versionen verdoppelt Ihre Marktreichweite mit minimalem zusätzlichen Aufwand. Das rein visuelle Format bedeutet, dass die Seitengröße die einzige Variable ist, die Sie für verschiedene Märkte anpassen müssen.\n\nHintergrund- und Rahmenthemen arbeiten unabhängig voneinander, jeweils mit eigenem Deckkraft-Regler von null bis eins in Schritten von null Komma null fünf. Wenden Sie ein dezentes Hintergrundmuster bei fünfzehn bis fünfundzwanzig Prozent Deckkraft für visuelle Wärme an, ohne vom Zuordnungsinhalt abzulenken. Überlagern Sie einen dekorativen Rahmen bei achtzig bis hundert Prozent Deckkraft für einen polierten Rahmen. Einheitliche Hintergrund- und Rahmenkombinationen über ein Paket hinweg erzeugen ein zusammenhängendes Produkterscheinungsbild, das Käufer mit Qualität assoziieren.\n\nPassen Sie Text mit sieben Schriftoptionen an, darunter Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Fügen Sie eine Textkontur von null bis zehn für zusätzliche Gestaltung hinzu. Eine gestaltete Kopfzeile wird automatisch mit bernsteinfarbenem Hintergrund, weißem Pillen-Container und bernsteinfarbenem Rand gerendert, der den Übungstitel und die Anweisungen anzeigt.`,
     },
     {
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Der Lösungsschlüssel wird für jeden Modus unterschiedlich angezeigt.\n\nIm Schattenbilder-Zuordnungs-Modus zeigt jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie A passt zu 2, die die korrekte Paarung angibt. Nutzer und Käufer können Antworten auf einen Blick überprüfen, indem sie die Buchstaben-Zahlen-Paare auf dem Lösungsschlüssel mit den Nutzerantworten auf dem Arbeitsblatt vergleichen.\n\nIm Halb-Bilder-Modus zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung und bestätigt, welche Hälften zusammengehören. Das Raster verwendet vier Spalten mit einheitlichem Abstand für ein sauberes, lesbares Lösungslayout.\n\nWechseln Sie zwischen den Tabs Arbeitsblatt und Lösungsschlüssel, um die Zuordnungslösung zu vergleichen und zu überprüfen. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manueller Erstellungsschritt, kein separater Gestaltungsprozess, keine Möglichkeit nicht übereinstimmender Antworten. Diese gleichzeitige Generierung ist eine erhebliche Zeitersparnis bei der Produktion von Schattenbilder-Zuordnungs-Paketen. Lösungsschlüssel für visuelle Zuordnungsrätsel manuell zu erstellen, ist mühsam und fehleranfällig. Der automatisch generierte Lösungsschlüssel eliminiert diesen gesamten Schritt.\n\nFür Produkteinträge ist der Lösungsschlüssel ein Verkaufsargument. Produkte, die Lösungsschlüssel enthalten, verkaufen sich durchgehend besser als Nur-Rätsel-Einträge, weil Käufer und Eltern selbstüberprüfende Materialien wünschen. Erwähnen Sie immer, dass Lösungsschlüssel enthalten sind, in Ihren Eintragstiteln und -beschreibungen.`,
     },
     {
-      heading: 'Alle vier Dateien herunterladen',
+      heading: `Alle vier Dateien herunterladen`,
       content: `Der Schattenbilder-Ersteller erzeugt vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Jeder Tab hat seine eigenen beiden Download-Buttons. Alle Dateien werden in dreihundert DPI für druckfertige Ausgabe gerendert.\n\nAktivieren Sie den Graustufen-Modus vor dem Herunterladen für tintenfreundliche Versionen, die ideal für Bildungsmarktdruck und Amazon KDP-Innenseiten sind. Graustufen-Schattenbilder-Zuordnungs-Arbeitsblätter bewahren die visuelle Klarheit, weil das Format auf Formumrissen und räumlichen Beziehungen statt auf Farbunterscheidung basiert. Schattenbilder-Silhouetten sind bereits reines Schwarz, sodass die Graustufen-Konvertierung die volle Rätselqualität bewahrt.\n\nFür Marktplatz-Einträge exportieren Sie sowohl das PDF (als Ihr Lieferprodukt) als auch ein JPEG (für Eintrags-Vorschaubilder). Zeigen Sie sowohl das Arbeitsblatt als auch den Lösungsschlüssel in Ihren Eintragsbildern, damit Käufer genau sehen, was sie kaufen.\n\nUm ein vollständiges Produktpaket zu erstellen, wechseln Sie zwischen Schattenbilder-Zuordnungs- und Halb-Bilder-Modi, schalten Sie Schnittrichtungen um, tauschen Sie Bildsets aus und generieren Sie neu. Der Derangement-Algorithmus erzeugt jedes Mal unterschiedliche Anordnungen, sodass Sie auch mehrere einzigartige Arbeitsblätter aus denselben vier Bildern generieren können, indem Sie einfach erneut auf Generieren klicken. Zehn Generierungssitzungen ergeben vierzig produktionsfertige Dateien — ein vollständiges Schattenbilder-Zuordnungs-Paket zum Einstellen bereit.\n\nWichtig: Die kostenlose Testversion mit Wasserzeichen erzeugt voll funktionsfähige Exporte mit einem sichtbaren Wasserzeichen-Overlay. Damit können Sie die Druckqualität bewerten, Formatierung überprüfen und Testdrucke erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Exporten und erzeugt saubere, verkaufsfertige Dateien.`,
     },
   ],
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Hier sind konkrete Produktbeispiele, die Sie mit dem Schattenbilder-Ersteller erstellen können, geordnet nach Modus und Schwierigkeitseinstellung.\n\nSchattenbilder-Zuordnung mit aktivierten Beschriftungen: die klassische Silhouetten-Zuordnungsaktivität mit Hilfestellung. Vier farbige Bilder beschriftet A bis D stehen neben vier pixelgenauen schwarzen Silhouetten beschriftet 1 bis 4. Nutzer studieren die Umrisse und schreiben Buchstaben-Zahlen-Paare wie A passt zu 3. Dieses Format ist ideal für Vorschul- und Kindergarten-Arbeitsblätter zur visuellen Wahrnehmung, Bildungsmarktaktivitäten mit schriftlichen Antwortanforderungen und jedes Produkt, bei dem Käufer bewertbare Nutzerarbeit benötigen. Verpacken Sie zehn bis fünfzehn Arbeitsblätter pro Set mit thematischen Bildauswahlen — Tiere, Fahrzeuge, Lebensmittel, Natur.\n\nSchattenbilder-Zuordnung mit deaktivierten Beschriftungen: eine reine visuelle Zuordnungsherausforderung. Dieselben vier Bilder und vier Silhouetten erscheinen ohne alphanumerische Kennzeichnungen. Nutzer ordnen allein durch visuelle Erkennung zu, ziehen Linien oder zeigen Übereinstimmungen ohne Buchstaben-Zahlen-Hilfestellung an. Dieses Format ist ideal für Rätselbücher, fortgeschrittene Aktivitäten, ergotherapeutische Übungen zur visuellen Unterscheidung und Premium-Digitalprodukte, bei denen eine saubere visuelle Präsentation wichtig ist.\n\nHalb-Bilder mit horizontalen Schnitten und Beschriftungen: Vier Bilder werden in obere und untere Hälften geteilt. Erste Hälften beschriftet A bis D, zweite Hälften beschriftet 1 bis 4. Nutzer verbinden die passenden Teile, indem sie erkennen, welches Oberteil zu welchem Unterteil gehört. Horizontale Schnitte funktionieren besonders gut mit Tieren (Kopf und Körper) und Gebäuden (Dach und Struktur).\n\nHalb-Bilder mit vertikalen Schnitten und Beschriftungen: Dieselben vier Bilder werden in linke und rechte Hälften geteilt. Dies erzeugt eine andere Zuordnungsherausforderung, weil in jeder Hälfte im Vergleich zu horizontalen Schnitten andere Details sichtbar sind. Vertikale Schnitte funktionieren gut mit symmetrischen Objekten und Gesichtern. Das Einbeziehen beider Schnittrichtungen in ein Paket verdoppelt Ihre Arbeitsblattanzahl aus denselben Bildern.`,
     },
     {
-      heading: 'Themenkombinationen und saisonale Produktideen',
+      heading: `Themenkombinationen und saisonale Produktideen`,
       content: `Bestimmte Themen und saisonale Gelegenheiten schneiden bei Schattenbilder-Zuordnungs-Produkten durchgängig gut ab, weil sie sich mit natürlichen Suchmustern decken.\n\nTier-Schattenrätsel: Tiere haben die markantesten und wiedererkennbarsten Silhouetten in der Bildbibliothek. Eine Giraffe, ein Elefant, ein Oktopus und ein Schmetterling erzeugen vier völlig einzigartige Schattenumrisse, die sofort identifizierbar sind. Tier-Schattenbilder-Zuordnung ist die meistgesuchte Unterkategorie für visuelle Wahrnehmungsaktivitäten. Erstellen Sie separate Sets für Bauernhoftiere, Wildtiere, Meerestiere, Insekten und Vögel.\n\nFahrzeug-Schattenrätsel: Fahrzeuge wie Flugzeuge, Fahrräder, Schiffe und Züge haben klare Profile, die ausgezeichnete Silhouetten-Erkennungsherausforderungen darstellen. Fahrzeugthemen sprechen ein anderes Käufersegment als Tierthemen an und erweitern Ihre potenzielle Kundenbasis.\n\nHalloween-Schattensammlungen: Schatten- und Silhouettenaktivitäten haben besondere saisonale Anziehungskraft während Halloween, wenn Geheimnis, Schatten und dunkle Umrisse thematisch relevant sind. Erstellen Sie dedizierte Halloween-Schattenbilder-Zuordnungs-Sammlungen mit gruselig thematisierten Bildern und veröffentlichen Sie sie vier bis sechs Wochen vor dem einunddreißigsten Oktober für maximale Marktplatz-Sichtbarkeit. Der Schattenbilder-Zuordnungs-Modus mit seinen schwarzen Silhouetten ergänzt die Halloween-Ästhetik natürlich.\n\nSaisonale Natur-Sets: Frühlingsblumen und Insekten, Sommerfrüchte und Outdoor-Aktivitäten, Herbstblätter und Ernte-Elemente, Winterschneeflocken und Kälte-Tiere. Jede Jahreszeit unterstützt ein dediziertes Schattenbilder-Zuordnungs-Paket. Das rein visuelle Format bedeutet, dass diese saisonalen Produkte in jeder Hemisphäre und auf jedem Sprachmarkt funktionieren.\n\nDie Strategie besteht darin, thematische Produkte zu erstellen, die realen Suchanfragen entsprechen. Bevor Sie ein neues thematisches Produkt erstellen, suchen Sie nach diesem Thema auf Etsy oder Gumroad und notieren Sie das Wettbewerbsniveau. Schattenbilder-Zuordnung ist eine weniger gesättigte Nische als generische Arbeitsblätter, was bedeutet, dass Ihre Produkte für dieselben Suchbegriffe weniger Konkurrenz haben.`,
     },
   ],
@@ -138,72 +138,72 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'zuordnungs-arbeitsblaetter-erstellen',
-      title: 'Zuordnungs-Arbeitsblätter erstellen',
+      slug: `zuordnungs-arbeitsblaetter-erstellen`,
+      title: `Zuordnungs-Arbeitsblätter erstellen`,
       description: `Der visuelle Zuordnungs-Begleiter zu Schattenrätseln. Zuordnungs-Arbeitsblätter verwenden Linien-Verbindungs-Zuordnung und ergänzen das Silhouetten- und Halb-Bilder-Format für eine vollständige Produktlinie zur visuellen Wahrnehmung.`,
     },
     {
-      slug: 'sortier-arbeitsblaetter-erstellen',
-      title: 'Sortier-Arbeitsblätter erstellen',
+      slug: `sortier-arbeitsblaetter-erstellen`,
+      title: `Sortier-Arbeitsblätter erstellen`,
       description: `Ein weiteres visuelles Klassifizierungswerkzeug. Sortier-Arbeitsblätter verwenden dieselben thematischen Bildsammlungen und sind daher natürliche Paketpartner für Schattenbilder-Zuordnungs-Produkte.`,
     },
     {
-      slug: 'was-passt-nicht-raetsel-erstellen',
-      title: 'Was-passt-nicht-Rätsel erstellen',
+      slug: `was-passt-nicht-raetsel-erstellen`,
+      title: `Was-passt-nicht-Rätsel erstellen`,
       description: `Ein Verwandter der visuellen Unterscheidung. Was-passt-nicht-Arbeitsblätter fordern Nutzer auf, Elemente zu identifizieren, die nicht dazugehören, und verstärken dieselben Wahrnehmungsfähigkeiten wie Schattenbilder-Zuordnung.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbücher-Geschäft Leitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbücher-Geschäft Leitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Kommerzielle Lizenz Leitfaden' },
-    { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: `Schattenbilder-Zuordnungs-Arbeitsblatt-Generator — Alle Details` },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Den Schattenbilder-Ersteller ausprobieren' },
+    { pageType: 'app', slug: `schattenbilder-zuordnen-arbeitsblaetter`, anchorText: `Schattenbilder-Zuordnungs-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: `Zuordnungs-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: `Den Schattenbilder-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'shadow-match',
-      title: 'Schattenbilder-Zuordnungs-Arbeitsblatt-Generator',
+      title: `Schattenbilder-Zuordnungs-Arbeitsblatt-Generator`,
       description: `Das Hauptwerkzeug für diese Anleitung. Erstellen Sie Dual-Modus-Schattenbilder-Zuordnungs-Arbeitsblätter mit pixelgenauer Silhouetten-Generierung, Halb-Bilder-Modus mit geteilten Bildhälften, Fisher-Yates-Derangement, umschaltbaren Beschriftungen und automatisch generierten Lösungsschlüsseln.`,
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Ein visueller Zuordnungs-Begleiter, der Linien-Verbindungs-Zuordnungsaktivitäten erstellt. Zuordnungs-Arbeitsblätter ergänzen Schattenbilder-Zuordnung für eine vollständige Produktlinie zur visuellen Wahrnehmung, die dieselbe Käuferzielgruppe anspricht.`,
     },
     {
       appId: 'picture-sort',
-      title: 'Bilder-Sortier-Arbeitsblatt-Generator',
+      title: `Bilder-Sortier-Arbeitsblatt-Generator`,
       description: `Ein Klassifizierungs-Begleiter, der dieselben thematischen Bildsammlungen verwendet. Sortier-Arbeitsblätter passen natürlich zu Schattenbilder-Zuordnungs-Produkten in thematischen Aktivitätspaketen, die Käufer und Eltern ansprechen.`,
     },
     {
       appId: 'odd-one-out',
-      title: 'Was-passt-nicht-Arbeitsblatt-Generator',
+      title: `Was-passt-nicht-Arbeitsblatt-Generator`,
       description: `Ein Verwandter der visuellen Unterscheidung, bei dem Nutzer Elemente identifizieren, die nicht dazugehören. Was-passt-nicht-Arbeitsblätter verstärken dieselben Wahrnehmungsfähigkeiten wie Schattenbilder-Zuordnung und lassen sich zu umfassenden visuellen Lernpaketen kombinieren.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/german/shadow match/shadow-match-worksheet (1).webp`, alt: 'Schattenbilder-Zuordnungs-Arbeitsblatt mit farbigen Bildern und automatisch generierten pixelgenauen schwarzen Silhouetten für visuelle Wahrnehmungs-Zuordnungsaktivität' },
+    heroImage: { src: `/samples/german/shadow match/shadow-match-worksheet (1).webp`, alt: `Schattenbilder-Zuordnungs-Arbeitsblatt mit farbigen Bildern und automatisch generierten pixelgenauen schwarzen Silhouetten für visuelle Wahrnehmungs-Zuordnungsaktivität` },
     samples: [
-      { src: `/samples/german/shadow match/shadow-match-worksheet (1).webp`, alt: 'Schattenbilder-Zuordnungs-Arbeitsblatt mit vier farbigen Bildern zugeordnet zu vier pixelgenauen schwarzen Silhouetten mit Buchstaben- und Zahlenbeschriftungen', caption: 'Schattenbilder-Zuordnungs-Modus mit vier farbigen Bildern und ihren automatisch generierten schwarzen Silhouetten' },
-      { src: `/samples/german/shadow match/Schatten Zuordnen 1 answer-key.webp`, alt: 'Automatisch generierter Lösungsschlüssel mit Originalbildern neben Silhouetten und korrekten Buchstaben-zu-Zahlen-Zuordnungsbeschriftungen', caption: 'Automatisch generierter Lösungsschlüssel mit Buchstaben-zu-Zahlen-Paarungen zur schnellen Überprüfung' },
+      { src: `/samples/german/shadow match/shadow-match-worksheet (1).webp`, alt: `Schattenbilder-Zuordnungs-Arbeitsblatt mit vier farbigen Bildern zugeordnet zu vier pixelgenauen schwarzen Silhouetten mit Buchstaben- und Zahlenbeschriftungen`, caption: `Schattenbilder-Zuordnungs-Modus mit vier farbigen Bildern und ihren automatisch generierten schwarzen Silhouetten` },
+      { src: `/samples/german/shadow match/Schatten Zuordnen 1 answer-key.webp`, alt: `Automatisch generierter Lösungsschlüssel mit Originalbildern neben Silhouetten und korrekten Buchstaben-zu-Zahlen-Zuordnungsbeschriftungen`, caption: `Automatisch generierter Lösungsschlüssel mit Buchstaben-zu-Zahlen-Paarungen zur schnellen Überprüfung` },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: `Schattenbilder-Zuordnungs-Arbeitsblätter erstellen — Komplette Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gürteltier — thematisches Lernbild`, caption: 'Gürteltier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
   ],
 };
 

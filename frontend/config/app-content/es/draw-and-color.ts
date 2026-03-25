@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas dibujo cuadrícula',
+    primaryKeyword: `generador fichas dibujo cuadrícula`,
     secondaryKeywords: [
       `generador de fichas de dibujo en cuadrícula para vendedores Etsy`,
       `creador de fichas de reproducción en cuadrícula para Amazon KDP`,
-      'vender fichas de dibujo en cuadrícula en Gumroad',
+      `vender fichas de dibujo en cuadrícula en Gumroad`,
       `generador de fichas de dibujo y colorear licencia comercial`,
     ],
     lsiKeywords: [
@@ -30,7 +30,7 @@ const content: AppContent = {
     title: `Cómo Crear Fichas de Dibujo en Cuadrícula en 5 Pasos`,
     steps: [
       {
-        title: 'Configurar el diseño de página',
+        title: `Configurar el diseño de página`,
         description:
           `Abre el panel Diseño de Página y elige un formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página, elige un tema decorativo de fondo y ajusta su opacidad, luego añade un marco de borde a juego con control de opacidad independiente. Estas opciones de diseño dan a tus fichas de dibujo en cuadrícula un aspecto profesional y pulido antes de configurar una sola cuadrícula.`,
       },
@@ -66,7 +66,7 @@ const content: AppContent = {
           `Cada imagen genera dos cuadrículas complementarias que funcionan juntas como un ejercicio de dibujo completo. La Cuadrícula de Práctica presenta celdas vacías con contornos suaves donde los usuarios dibujan su reproducción. La Cuadrícula de Pistas muestra una fracción configurable de la imagen de referencia — algunas celdas rellenas, otras vacías — para que los usuarios vean pistas visuales parciales y completen el resto. Este enfoque de doble cuadrícula enseña observación, razonamiento espacial y control de la motricidad fina de forma simultánea. Para los vendedores, el formato de dos cuadrículas crea un producto premium que se distingue de las simples páginas para colorear, justificando precios más altos en Etsy, Gumroad y KDP.`,
       },
       {
-        title: 'Porcentaje de pistas ajustable de 10 % a 75 %',
+        title: `Porcentaje de pistas ajustable de 10 % a 75 %`,
         description:
           `Un único deslizador controla qué fracción de las celdas de la cuadrícula de pistas revela la imagen de referencia. Al 75 %, los usuarios ven la mayor parte de la imagen y completan solo el cuarto que falta — perfecto para principiantes que construyen confianza. Al 50 %, la mitad de las celdas es visible para un desafío moderado. Al 25 %, los usuarios trabajan a partir de fragmentos dispersos, exigiendo una observación cuidadosa. Al 10 %, apenas hay referencia visible y los usuarios reconstruyen la imagen casi desde cero — un auténtico rompecabezas incluso para adultos. Este control granular de la dificultad permite a los vendedores crear cuadernos progresivos que avanzan de 75 % a 10 % a lo largo de los capítulos, o agrupar versiones fácil, medio y difícil del mismo tema.`,
       },
@@ -81,7 +81,7 @@ const content: AppContent = {
           `Accede a más de 3000 ilustraciones de contornos en blanco y negro en más de 100 colecciones temáticas — animales, vehículos, comida, naturaleza, profesiones, festividades y docenas más. A diferencia de las bibliotecas de imágenes coloridas usadas por la mayoría de las aplicaciones, Dibujo en Cuadrícula usa contornos limpios en blanco y negro diseñados específicamente para actividades de reproducción y coloreado. Los usuarios copian el contorno en la cuadrícula de práctica y pueden colorearlo después. La Licencia Comercial incluye 10 temas de contornos en blanco y negro para empezar; el Acceso Completo desbloquea todos los 100+ temas para máxima variedad de productos. Cada tema se convierte en un listado de producto distinto — dibujo en cuadrícula de animales de granja, reproducción celda por celda de dinosaurios, ejercicios de simetría de criaturas marinas.`,
       },
       {
-        title: 'Tamaño de cuadrícula configurable de 3×3 a 10×10',
+        title: `Tamaño de cuadrícula configurable de 3×3 a 10×10`,
         description:
           `Establece filas (3 a 10) y columnas (3 a 10) de forma independiente para crear cuadrículas que van desde 3×3 con 9 celdas grandes hasta 10×10 con 100 celdas pequeñas. Las celdas grandes facilitan el dibujo para usuarios más jóvenes o imágenes simples; las celdas pequeñas aumentan las exigencias de precisión para usuarios mayores o ilustraciones más detalladas. Las cuadrículas no cuadradas como 4×6 u 8×5 se adaptan a diferentes proporciones de aspecto de las imágenes. El tamaño de la cuadrícula y el porcentaje de pistas juntos definen dos ejes de dificultad independientes: una cuadrícula 5×5 al 50 % de pistas es moderada, mientras que una cuadrícula 10×10 al 10 % de pistas es de nivel experto. Esto crea docenas de combinaciones de dificultad distintas a partir de una sola imagen.`,
       },
@@ -113,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de habilidades de dibujo en Amazon KDP',
+        title: `Cuadernos de habilidades de dibujo en Amazon KDP`,
         description:
           `Compila de 60 a 100 ejercicios de dibujo en cuadrícula en un cuaderno impreso con formato Amazon KDP. Estructura el libro como una progresión de dibujo: comienza con cuadrículas 3×3 al 75 % de pistas para una reproducción sencilla, avanza con cuadrículas 5×5 al 50 % de pistas, y termina con cuadrículas 8×8 o 10×10 al 10–15 % de pistas para desafíos de nivel experto. Cada capítulo aumenta la dificultad en los dos ejes de tamaño de cuadrícula y porcentaje de pistas. Las imágenes de contornos en blanco y negro son ideales para cuadernos impresos — las líneas limpias se reproducen perfectamente en impresión en blanco y negro. Incluye una breve introducción para padres/vendedores explicando el método celda por celda y cómo el porcentaje de pistas controla la dificultad. Los cuadernos de dibujo en cuadrícula llenan un nicho específico de motricidad fina con demanda durante todo el año.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,41 +122,41 @@ const content: AppContent = {
         title: `Centros de simetría y razonamiento espacial para Gumroad`,
         description:
           `Construye conjuntos de práctica de razonamiento espacial por niveles usando el modo de simetría como herramienta de enseñanza. El Nivel 1 usa la colocación Aleatoria de pistas para la práctica general del dibujo. El Nivel 2 introduce el modo Espejo Horizontal donde los usuarios ven la mitad izquierda y dibujan la mitad derecha, enseñando simetría bilateral. El Nivel 3 usa el modo Espejo Vertical para la simetría de arriba hacia abajo. El Nivel 4 combina un porcentaje de pistas bajo (10–15 %) con el modo espejo para el desafío definitivo. Cada nivel se enfoca en una habilidad espacial diferente. Estos recursos conectan los estándares de arte y matemáticas, haciéndolos valiosos tanto para vendedores de arte como para especialistas en matemáticas en Gumroad.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Fichas visuales multilingües para mercados globales`,
         description:
           `Como las fichas de Dibujo en Cuadrícula contienen solo imágenes en cuadrícula con cero texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de dibujo en cuadrícula y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. El estilo de contornos en blanco y negro es culturalmente neutro y universalmente comprendido. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. El encabezado autolocalizado gestiona automáticamente los títulos específicos de cada idioma. Un solo flujo de trabajo produce un producto universalmente vendible.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
         title: `Herramienta de dibujo para venta en línea de arte y la terapia`,
         description:
           `Sube imágenes personalizadas para crear fichas de dibujo en cuadrícula para cualquier materia o contexto terapéutico. Los vendedores de arte usan el dibujo en cuadrícula para enseñar la observación proporcional — el método celda por celda es una técnica clásica utilizada en la enseñanza de las bellas artes. Los terapeutas ocupacionales usan los ejercicios de reproducción en cuadrícula para desarrollar el control de la motricidad fina, la coordinación ojo-mano y el procesamiento visoespacial. El porcentaje de pistas ajustable permite a los profesionales definir la dificultad con precisión: comienza al 75 % para pacientes que necesitan un andamiaje sólido y reduce gradualmente las pistas a medida que mejoran las habilidades. Los modos de simetría añaden un componente explícito de razonamiento espacial a las sesiones de terapia.`,
-        platform: 'Tienda / Educación Artística / Terapia',
+        platform: `Tienda / Educación Artística / Terapia`,
       },
     ],
   },
 
   faq: [
     {
-      question: '¿Cómo funciona el sistema de doble cuadrícula?',
+      question: `¿Cómo funciona el sistema de doble cuadrícula?`,
       answer:
         `Cada imagen que seleccionas genera dos cuadrículas complementarias. La Cuadrícula de Práctica tiene celdas vacías con contornos suaves donde los usuarios dibujan su reproducción. La Cuadrícula de Pistas muestra un porcentaje configurable de la imagen de referencia — algunas celdas rellenas con partes de la imagen, otras dejadas vacías. Los usuarios miran la cuadrícula de pistas, identifican qué celdas muestran el contenido de referencia y reproducen la imagen completa celda por celda en la cuadrícula de práctica. Las dos cuadrículas aparecen juntas en la página de la ficha.`,
     },
     {
-      question: '¿Qué controla el porcentaje de pistas?',
+      question: `¿Qué controla el porcentaje de pistas?`,
       answer:
         `El porcentaje de pistas (10 %–75 %) determina qué fracción de las celdas de la cuadrícula de pistas revela la imagen de referencia. Al 75 %, tres cuartos de las celdas muestran la imagen y los usuarios completan solo el cuarto restante. Al 25 %, solo un cuarto de las celdas es visible y los usuarios reconstruyen el resto a partir de pistas dispersas. Al 10 %, apenas hay referencia visible para un desafío máximo. Un porcentaje de pistas más bajo significa ejercicios más difíciles. Este deslizador es el control principal de dificultad y te permite crear progresiones fluidas de fácil a experto dentro de un solo pack de fichas.`,
     },
     {
-      question: '¿Qué tamaños de cuadrícula puedo configurar?',
+      question: `¿Qué tamaños de cuadrícula puedo configurar?`,
       answer:
         `Las filas y columnas son ajustables de forma independiente de 3 a 10. Una cuadrícula 3×3 tiene 9 celdas grandes — fácil para usuarios pequeños. Una cuadrícula 10×10 tiene 100 celdas pequeñas — exigente para usuarios avanzados. Las cuadrículas no cuadradas como 4×6 u 8×5 se adaptan a diferentes proporciones de aspecto de las imágenes. El tamaño de cuadrícula y el porcentaje de pistas crean dos ejes de dificultad independientes, así que una cuadrícula 5×5 al 50 % de pistas es moderada mientras que una cuadrícula 10×10 al 10 % de pistas es de nivel experto.`,
     },
     {
-      question: '¿Cómo funcionan los modos de simetría y espejo?',
+      question: `¿Cómo funcionan los modos de simetría y espejo?`,
       answer:
         `Tres modos controlan cómo se colocan las celdas de pistas. Ninguno (Aleatorio) dispersa las celdas de pistas en posiciones arbitrarias para la práctica general del dibujo. Horizontal refleja las celdas de pistas de izquierda a derecha — los usuarios ven un lado y deben dibujar la imagen espejo en el otro. Vertical refleja las celdas de pistas de arriba hacia abajo. Cuando Horizontal o Vertical está seleccionado, un selector de parte a revelar te permite elegir qué mitad mostrar como pistas (izquierda/derecha o arriba/abajo). Los modos espejo enseñan el reconocimiento de la simetría junto con las habilidades de dibujo.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de dibujo en cuadrícula como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de doble cuadrícula, el porcentaje de pistas ajustable, los modos de simetría y el estilo de contornos en blanco y negro crean un producto distintivo que compite fuertemente en las categorías de fichas de dibujo y actividades.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar cada tamaño de cuadrícula, cada porcentaje de pistas, cada modo de simetría, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Generador de Fichas Grande y Pequeño',
+      anchorText: `Generador de Fichas Grande y Pequeño`,
     },
     {
       pageType: 'app',
       slug: 'tren-patrones-fichas',
-      anchorText: 'Generador de Fichas Tren de Patrones',
+      anchorText: `Generador de Fichas Tren de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'fichas-patrones',
-      anchorText: 'Generador de Fichas de Patrones',
+      anchorText: `Generador de Fichas de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'grafomotricidad-fichas',
-      anchorText: 'Generador de Fichas de Grafomotricidad',
+      anchorText: `Generador de Fichas de Grafomotricidad`,
     },
     {
       pageType: 'app',
       slug: 'dibujos-colorear-fichas',
-      anchorText: 'Generador de Fichas para Colorear',
+      anchorText: `Generador de Fichas para Colorear`,
     },
     {
       pageType: 'app',
       slug: 'graficos-conteo-fichas',
-      anchorText: 'Generador de Fichas de Gráficos de Conteo',
+      anchorText: `Generador de Fichas de Gráficos de Conteo`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'verano-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de verano para niños',
+      anchorText: `Ideas de imprimibles de verano para niños`,
     },
     {
       pageType: 'idea',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'negocio-imprimibles-etsy',
-      anchorText: 'Lanza tu negocio de imprimibles en Etsy',
+      anchorText: `Lanza tu negocio de imprimibles en Etsy`,
     },
     {
       pageType: 'guide',

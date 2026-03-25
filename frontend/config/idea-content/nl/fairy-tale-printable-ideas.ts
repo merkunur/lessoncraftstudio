@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sprookjes Printables Verkopen — Nichegids',
+    titleTag: `Sprookjes Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende sprookjes printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Verhaalthema productconcepten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'sprookjes printable ideeën',
     secondaryKeywords: [
-      'sprookjesthema werkbladen verkopen',
-      'sprookjes printable business ideeën',
-      'sprookje activiteiten voor verkopers',
-      'sprookjes printables verkopen op Etsy',
+      `sprookjesthema werkbladen verkopen`,
+      `sprookjes printable business ideeën`,
+      `sprookje activiteiten voor verkopers`,
+      `sprookjes printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'verhalenboek educatieve werkbladen',
-      'klassieke verhalen taalactiviteiten',
-      'fantasiethema printbare producten printables',
+      `verhalenboek educatieve werkbladen`,
+      `klassieke verhalen taalactiviteiten`,
+      `fantasiethema printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Sprookjes Printable Businessideeën voor Verkopers',
+    title: `Sprookjes Printable Businessideeën voor Verkopers`,
     description: `Sprookjes vertegenwoordigen een van de meest universeel geliefde verteltradities voor kinderen, waardoor dit een uitzonderlijke altijdgroene niche is voor printable-ondernemers die betrouwbare jaarronde omzet zoeken aangedreven door de tijdloze magie van prinsessen, kastelen, draken en betoverde avonturen die jonge verbeeldingen boeien over elke cultuur en leeftijdsgroep heen. Het sprookjesthema biedt buitengewone subthemadiepte waaronder prinsessen, prinsen, kastelen, draken, eenhoorns, ridders, tovenaars, heksen, feeën, toverstaven, magische spiegels, kronen, torens, betoverde bossen, kikkers, koninginnen, koningen, wolven, huisjes en bonenranken, wat verkopers een enorm visueel vocabulaire geeft dat aansluit bij de natuurlijke liefde van kinderen voor verhalen vertellen, magische werelden en karaktergedreven narratieven die ouders en ondernemers actief aanmoedigen als voertuigen voor taalontwikkeling en moreel redeneren. Vakoverschrijdende veelzijdigheid maakt sprookjesprintables bijzonder waardevol omdat verhalenboekconcepten van nature aansluiten bij taalvaardigheid via leesbegrip en verhaalvolgorde, rekenen via het tellen van magische voorwerpen, creatief schrijven via verhalen navertellen en alternatieve eindes, en sociaal-emotioneel leren via het verkennen van lessen en karaktermotivatie. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De sprookjes printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk jong kind een diepe, verbeeldingsrijke fascinatie ervaart voor magische koninkrijken, betoverde bossen en de tijdloze personages die verhalenboekavonturen bevolken van Assepoester en Rapunzel tot Hans en Grietje en De Drie Biggetjes. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de sprookjesniche van echte jaarronde relevantie: kinderen zijn bezig met sprookjesverhalen in elk seizoen, verhalenboekthema media en speelgoed behouden constante populariteit, en de verteltraditie die sprookjesfascinatie aandrijft functioneert onafhankelijk van weer of kalendergebeurtenissen.
@@ -38,18 +38,18 @@ Het sprookjesverjaardagsfeestjesegment vertegenwoordigt een extra winstgevend ko
 
   productIdeas: [
     {
-      title: 'Sprookjes Telwerkbladen voor Printable Verkopers',
+      title: `Sprookjes Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met kronen, sterren, toverstaven, gouden munten en kastelen brengen magische opwinding in vroege rekenoefeningen die verkopers en ouders het hele schooljaar door kopen voor verhalenunits en verbeeldingsrijke rekenles. Gebruik de Zoek en Tel-generator om sprookjesscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen kasteellandschappen, betoverde bosscènes en schatkamerpanorama's. Bied sets aan op meerdere vaardigheidsniveaus: magische voorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen kronen of groepjes sterren voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Sprookjes Woordzoekpuzzels Online Verkopen',
+      title: `Sprookjes Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met sprookjesvocabulaire trekken verkopers aan die taalunits of verhalenthema's plannen en ouders die educatief vermaak zoeken dat aansluit bij de sprookjesliefde van hun kinderen. Maak puzzels met sprookjestermen zoals kasteel, draak, prinses, toverstaf, betovering, ridder en fee naast bredere fantasievocabulaire. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer sprookjestermen voor oudere gebruikers. Variaties zoals kasteelvocabulaire, magische wezens en klassieke sprookjespersonages verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Sprookjes Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met sprookjesthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede sprookjeskoperspubliek. Maak sets waarin kinderen sprookjespersonages koppelen aan hun verhaal, magische voorwerpen verbinden met hun eigenaar, kastelen matchen met hun koninkrijk, of sprookjesdieren koppelen aan hun habitat. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die verhalenunits plannen waar gestructureerde werkbladen verhaalconcepten toegankelijk maken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met sprookjesthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede sprookjeskoperspubliek. Maak sets waarin kinderen sprookjespersonages koppelen aan hun verhaal, magische voorwerpen verbinden met hun eigenaar, kastelen matchen met hun koninkrijk, of sprookjesdieren koppelen aan hun habitat. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die verhalenunits plannen waar gestructureerde werkbladen verhaalconcepten toegankelijk maken. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
@@ -58,7 +58,7 @@ Het sprookjesverjaardagsfeestjesegment vertegenwoordigt een extra winstgevend ko
       appId: 'addition',
     },
     {
-      title: 'Sprookjes Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Sprookjes Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een uitstekend instapproduct voor sprookjes printable-winkels omdat het magische thema kinderen van alle leeftijden aanspreekt — vooral meisjes in de kleuterleeftijd die gefascineerd zijn door prinsessen en feeën, maar ook jongens die ridders en draken verkiezen. De Kleuren-generator maakt gedetailleerde contouren van kastelen, prinsessen, draken, eenhoorns, ridders, feeën, toverstaven, kronen, betoverde bossen en magische spiegels. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals prinsessen of draken en ridders. Voor KDP compileer je dertig tot vijftig kleurplaten in sprookjes-activiteitenboeken.`,
       appId: 'coloring',
     },
@@ -92,13 +92,13 @@ Het sprookjesverjaardagsfeestjesegment vertegenwoordigt een extra winstgevend ko
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Sprookjes Printables Verkopen op Etsy',
+      title: `Sprookjes Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in sprookjes printable-vermeldingen, en het altijdgroene karakter van het sprookjesthema betekent dat je vermeldingen het hele jaar door verkopen genereren met extra pieken rond de Kinderboekenweek in oktober en het feestjesseizoen. Richt je op long-tail zoekwoorden zoals "prinses telwerkblad kleuters" of "kasteel woordzoeker kleuterschool" in plaats van brede tags als "sprookjes werkbladen." Gebruik alle dertien tags met variaties die sprookjessubthema's, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte sprookjeswerkbladen tonen met kasteel- of betoverd-bosthema achtergronden presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten dubbel als taalvaardigheidsmateriaal én als feestactiviteiten. De Nederlandse markt via Etsy.nl biedt sterke kansen dankzij de Efteling-cultuur.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Sprookjes Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor sprookjesprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast sprookjesboeken, prinsessenspeelgoed en verkleedkleding. Compileer individuele sprookjeswerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond magische thema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "sprookjes activiteitenboek voor kinderen," "prinses werkbladen kleuters" en subthematermen toe als "kasteel kleurboek" of "draak activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Sprookjesboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Sprookjes Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor sprookjesprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast sprookjesboeken, prinsessenspeelgoed en verkleedkleding. Compileer individuele sprookjeswerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond magische thema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "sprookjes activiteitenboek voor kinderen," "prinses werkbladen kleuters" en subthematermen toe als "kasteel kleurboek" of "draak activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Sprookjesboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -130,12 +130,12 @@ Het sprookjesverjaardagsfeestjesegment vertegenwoordigt een extra winstgevend ko
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de sprookjesniche omdat het altijdgroene karakter van het thema betekent dat je vermeldingen het hele jaar door verkopen genereren op elk platform. Etsy trekt ouders aan die sprookjesactiviteiten en feestmateriaal zoeken, Gumroad bereikt klasverkopers die taalunits en verhalenthema projecten plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke sprookjesactiviteitenboeken als cadeaus. Gumroad en Shopify helpen je een eigen sprookjespubliek op te bouwen. Cross-listing vermenigvuldigt je jaarronde zichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke sprookjessubthema\'s verkopen het beste?',
-      answer: `De bestverkopende sprookjessubthema's zijn prinsessen en kastelen, draken en ridders, eenhoorns en feeën, en betoverde bossen. Prinsessen- en kasteelthema\'s zijn het populairste subthema dankzij de enorme populariteit van Disney-prinsessenverhalen en de Efteling-sprookjesbos ervaring. Draken en ridders spreken een breed avontuurpubliek aan en bieden sterke visuele dramatiek. Eenhoorns en feeën hebben de afgelopen jaren een populariteitsstijging ervaren die zich vertaalt in sterke zoekvolumes. In Nederland biedt de Efteling-connectie een uniek verkoopargument — sprookjesthema's resoneren bijzonder diep bij Nederlandse gezinnen die het park hebben bezocht, wat een emotionele koopverbinding creëert die internationale concurrenten niet kunnen repliceren.`,
+      question: `Welke sprookjessubthema's verkopen het beste?`,
+      answer: `De bestverkopende sprookjessubthema`s zijn prinsessen en kastelen, draken en ridders, eenhoorns en feeën, en betoverde bossen. Prinsessen- en kasteelthema's zijn het populairste subthema dankzij de enorme populariteit van Disney-prinsessenverhalen en de Efteling-sprookjesbos ervaring. Draken en ridders spreken een breed avontuurpubliek aan en bieden sterke visuele dramatiek. Eenhoorns en feeën hebben de afgelopen jaren een populariteitsstijging ervaren die zich vertaalt in sterke zoekvolumes. In Nederland biedt de Efteling-connectie een uniek verkoopargument — sprookjesthema`s resoneren bijzonder diep bij Nederlandse gezinnen die het park hebben bezocht, wat een emotionele koopverbinding creëert die internationale concurrenten niet kunnen repliceren.`,
     },
     {
       question: `Hoe maak ik efficiënt sprookjeswerkbladen met generator tools?`,
-      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe sprookjescatalogus kunt opbouwen die meerdere sprookjessubthema's omvat. Selecteer een generator die past bij je doelactiviteitstype, kies sprookjesthema's en magisch vocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
+      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe sprookjescatalogus kunt opbouwen die meerdere sprookjessubthema`s omvat. Selecteer een generator die past bij je doelactiviteitstype, kies sprookjesthema`s en magisch vocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
     },
     {
       question: `Wat is het retourbeleid voor commerciële licenties?`,
@@ -147,62 +147,62 @@ Het sprookjesverjaardagsfeestjesegment vertegenwoordigt een extra winstgevend ko
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-word-search-puzzles',
-      anchorText: 'Professionele woordzoekpuzzels maken',
+      anchorText: `Professionele woordzoekpuzzels maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'pirates-printable-ideas',
-      anchorText: 'Piraten printable businessideeën',
+      anchorText: `Piraten printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
-      anchorText: 'Bosdieren printable businessideeën',
+      slug: `forest-animals-printable-ideas`,
+      anchorText: `Bosdieren printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding sprookjes', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding sprookjes', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding sprookjes', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding sprookjes', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding sprookjes', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding sprookjes', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding sprookjes`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding sprookjes`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding sprookjes`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding sprookjes`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding sprookjes`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding sprookjes`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '0cOPi7eajLs',

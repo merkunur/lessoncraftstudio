@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles de Invierno para Vender — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de invierno para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos de clima frío con fuerte demanda de noviembre.`,
-    primaryKeyword: 'ideas imprimibles de invierno para vender',
+    primaryKeyword: `ideas imprimibles de invierno para vender`,
     secondaryKeywords: [
-      'fichas temática invierno para vender',
+      `fichas temática invierno para vender`,
       'negocio imprimibles invierno',
-      'fichas actividades invierno para vendedores',
-      'vender imprimibles de invierno en Etsy',
+      `fichas actividades invierno para vendedores`,
+      `vender imprimibles de invierno en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas nieve y hielo',
-      'páginas actividades clima frío',
-      'imprimibles temática invierno para tienda',
+      `fichas educativas nieve y hielo`,
+      `páginas actividades clima frío`,
+      `imprimibles temática invierno para tienda`,
     ],
   },
   hero: {
@@ -46,7 +46,7 @@ La ventaja competitiva en los imprimibles de invierno proviene de la calidad vis
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Invierno para Vender en Línea',
+      title: `Sopas de Letras de Invierno para Vender en Línea`,
       description: `Las sopas de letras con vocabulario de clima frío atraen a vendedores que planifican actividades de enero y febrero para venta en línea y a padres que buscan entretenimiento educativo de interior durante los meses de invierno. Crea puzzles con vocabulario específico de invierno como copo de nieve, manopla, carámbano, pingüino, iglú, escarcha y ventisca junto con términos más amplios de actividades de clima frío. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos de invierno para usuarios mayores. Las variaciones como vocabulario de animales árticos, palabras de ropa de invierno y terminología de ciencias del clima frío expanden tu catálogo para captar diferentes intereses de compradores dentro del nicho estacional de invierno.`,
       appId: 'wordsearch',
     },
@@ -95,12 +95,12 @@ La ventaja competitiva en los imprimibles de invierno proviene de la calidad vis
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Invierno en Etsy',
+      title: `Vender Imprimibles de Invierno en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de invierno, y la extendida temporada de compras de clima frío crea tráfico sostenido para las descargas digitales educativas de noviembre a febrero. Publica tus listados de invierno a finales de septiembre o principios de octubre para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en noviembre. Utiliza las trece etiquetas con variaciones que combinen subtemas de invierno, tipos de habilidad y grupos de edad: «fichas conteo invierno preescolar», «sopa de letras copos de nieve jardín de infantes» y «páginas colorear pingüinos infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas invierno». Posiciona tus productos como alternativas estacionales no confesionales, destacando explícitamente que funcionan para todas las tiendas independientemente de las celebraciones festivas. Las imágenes de listados mostrando fichas de invierno impresas con estilismo estacional acogedor y accesorios de clima frío superan las vistas previas digitales planas y captan la mentalidad estacional que impulsa el tráfico de invierno.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades de Invierno en KDP',
+      title: `Publicar Libros de Actividades de Invierno en KDP`,
       description: `Amazon KDP destaca para los imprimibles de invierno porque los padres y compradores de regalos naturalmente buscan soluciones de actividades de interior durante los meses fríos, añadiendo libros de actividades a sus carritos de Amazon junto con ropa de invierno, equipamiento para la nieve y entretenimiento de interior. Compila fichas individuales de invierno en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas de clima frío. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades invierno para niños», «fichas día de nieve preescolar» y términos de subtemas como «libro colorear pingüinos» o «actividades muñeco de nieve para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como entretenimiento para días de nieve, soluciones para el clima de interior o recursos para venta en línea de enero y febrero. Publica a principios de octubre para asegurarte de que tus libros estén indexados y disponibles antes de que comience la temporada de compras de noviembre, y considera crear múltiples libros dirigidos a diferentes grupos de edad para captar consultas de búsqueda variadas durante los meses de invierno.`,
     },
     {
@@ -149,18 +149,18 @@ La ventaja competitiva en los imprimibles de invierno proviene de la calidad vis
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -169,12 +169,12 @@ La ventaja competitiva en los imprimibles de invierno proviene de la calidad vis
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -185,17 +185,17 @@ La ventaja competitiva en los imprimibles de invierno proviene de la calidad vis
     {
       pageType: 'idea',
       slug: 'navidad-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Navidad',
+      anchorText: `Ideas de Negocio de Imprimibles de Navidad`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/winter/boots.webp', alt: 'Botas — imagen educativa temática', caption: 'Botas' },
-    { src: '/image-library/winter/cabin.webp', alt: 'Cabaña — imagen educativa temática', caption: 'Cabaña' },
-    { src: '/image-library/winter/coat.webp', alt: 'Abrigo — imagen educativa temática', caption: 'Abrigo' },
-    { src: '/image-library/winter/cocoa.webp', alt: 'Chocolate — imagen educativa temática', caption: 'Chocolate' },
-    { src: '/image-library/winter/earmuffs.webp', alt: 'Orejeras — imagen educativa temática', caption: 'Orejeras' },
-    { src: '/image-library/winter/evergreen.webp', alt: 'Árbol Perenne — imagen educativa temática', caption: 'Árbol Perenne' },
+    { src: `/image-library/winter/boots.webp`, alt: `Botas — imagen educativa temática`, caption: 'Botas' },
+    { src: `/image-library/winter/cabin.webp`, alt: `Cabaña — imagen educativa temática`, caption: 'Cabaña' },
+    { src: `/image-library/winter/coat.webp`, alt: `Abrigo — imagen educativa temática`, caption: 'Abrigo' },
+    { src: `/image-library/winter/cocoa.webp`, alt: `Chocolate — imagen educativa temática`, caption: 'Chocolate' },
+    { src: `/image-library/winter/earmuffs.webp`, alt: `Orejeras — imagen educativa temática`, caption: 'Orejeras' },
+    { src: `/image-library/winter/evergreen.webp`, alt: `Árbol Perenne — imagen educativa temática`, caption: 'Árbol Perenne' },
   ],
 
 

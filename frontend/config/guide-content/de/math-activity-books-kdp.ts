@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mathe-aktivitätsbücher für kdp erstellen',
+    primaryKeyword: `mathe-aktivitätsbücher für kdp erstellen`,
     secondaryKeywords: [
       `Mathe-Aktivitätsbücher für Amazon KDP erstellen Anleitung`,
-      'KDP Mathe-Arbeitsbuch Veröffentlichungs-Leitfaden',
-      'Mathe-Aktivitätsbücher auf Amazon veröffentlichen',
-      'Amazon KDP Mathe-Arbeitsblatt-Buch',
+      `KDP Mathe-Arbeitsbuch Veröffentlichungs-Leitfaden`,
+      `Mathe-Aktivitätsbücher auf Amazon veröffentlichen`,
+      `Amazon KDP Mathe-Arbeitsblatt-Buch`,
     ],
     lsiKeywords: [
       `KDP Manuskript Formatierung Beschnittgröße Aktivitätsbuch Innenseiten`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen',
+    title: `Mathe-Aktivitätsbücher für Amazon KDP erstellen`,
     tagline: `Ein vollständiger Veröffentlichungs-Leitfaden zum Erstellen und Verkaufen von Mathe-Aktivitätsbüchern auf Amazon KDP — einschließlich Manuskript-Formatierung mit korrekten Beschnittgrößen und Rändern, Buchcover-Design mit Rückenbreitenberechnung, Amazon-Keyword-Optimierung über alle 7 Keyword-Felder, Browse-Kategorie-Auswahl für maximale Auffindbarkeit, Tantiemen-Preisstrategie bei der 35-Prozent- und 60-Prozent-Stufe, Inhaltsplanung mit Schwierigkeitssteigerung über 40 bis 80 Innenseiten, Lösungsschlüssel-Platzierung, Print-on-Demand-Wirtschaftlichkeit, Korrekturexemplar-Bestellung und Aufbau einer Serie verwandter Mathe-Arbeitsbücher, die sich gegenseitig auf Amazon bewerben`,
     description: `Amazon KDP ermöglicht es Ihnen, Print-on-Demand-Mathe-Aktivitätsbücher ohne Vorabdruckkosten und ohne Lagerverwaltung zu veröffentlichen. Dieser Leitfaden führt Sie durch jeden Schritt der Erstellung eines professionellen Mathe-Arbeitsbuchs — vom Generieren vielfältiger Mathe-Inhalte mit 5 spezialisierten Arbeitsblatt-Generatoren über Manuskript-Formatierung und Cover-Design bis zur Optimierung Ihres Amazon-Angebots für Suchauffindbarkeit und Preisgestaltung zur Maximierung Ihrer Tantiemen. Ob Sie Ihr erstes Aktivitätsbuch veröffentlichen oder einen bestehenden Katalog erweitern — dieser Leitfaden behandelt die KDP-spezifischen Arbeitsabläufe, die sich grundlegend vom Verkauf einzelner digitaler Downloads auf Marktplätzen wie Etsy unterscheiden.`,
   },
@@ -35,27 +35,27 @@ const content: GuideContent = {
       content: `Mathe-Aktivitätsbücher besetzen eine stabile, immergrüne Nische auf Amazon. Anders als Neuheiten- oder Trendkategorien bleibt die Nachfrage nach Mathe-Übungsarbeitsbüchern ganzjährig konstant, mit vorhersehbaren Spitzen zur Schulanfangssaison im August und September sowie erneut im Januar, wenn Neujahrsvorsätze Bildungskäufe antreiben.\n\nDie erfolgreichsten Mathe-Aktivitätsbücher auf KDP zielen auf bestimmte Altersgruppen oder Fähigkeitsbereiche ab, anstatt alles abdecken zu wollen. Ein fokussiertes Buch mit dem Titel „Additionsübungen für den Kindergarten" schneidet besser ab als ein generisches „Mathe-Aktivitäten für Kinder", weil Eltern und Käufer nach bestimmten Fähigkeiten auf bestimmten Niveaus suchen. Diese Spezifität reduziert auch den Wettbewerb — Sie konkurrieren mit weniger Titeln, wenn Sie „Erste Klasse Subtraktions-Arbeitsbuch" anvisieren als „Mathe-Buch für Kinder".\n\nDas Print-on-Demand-Modell eliminiert die traditionellen Veröffentlichungsrisiken. Es gibt keine Mindestauflagen, keine Lagerkosten und keinen unverkauften Bestand. Amazon druckt jedes Exemplar bei Kundenbestellung, versendet es direkt und überweist Ihre Tantiemen. Das bedeutet, Sie können mehrere fokussierte Mathe-Bücher für verschiedene Fähigkeiten und Altersgruppen ohne finanzielles Risiko veröffentlichen — wenn ein bestimmter Titel sich nicht gut verkauft, kostet es Sie nichts, ihn gelistet zu lassen.\n\nBevor Sie Ihr Buch erstellen, recherchieren Sie die Verkaufsschlager in Ihrer Zielkategorie. Schauen Sie sich deren Seitenzahlen an (die meisten erfolgreichen Mathe-Aktivitätsbücher haben 40 bis 80 Innenseiten), Preispunkte (typischerweise 5,99 bis 9,99 für Standard-Aktivitätsbücher) und wie sie den Inhalt strukturieren. Beachten Sie, wie sie Titel, Untertitel und Cover nutzen, um die spezifische Fähigkeitsstufe und Zielgruppe zu kommunizieren.`,
     },
     {
-      heading: 'Buchinhalt und Struktur planen',
+      heading: `Buchinhalt und Struktur planen`,
       content: `Ein gut strukturiertes Mathe-Aktivitätsbuch erfordert sorgfältige Planung, bevor Sie eine einzige Arbeitsblattseite generieren. Beginnen Sie mit der Wahl Ihres spezifischen Fokus: eine einzelne Rechenart (nur Addition, nur Subtraktion), eine Kombination verwandter Rechenarten (Addition und Subtraktion) oder eine altersgruppenspezifische gemischte Wiederholung. Bücher mit einer einzelnen Rechenart ermöglichen tiefgehenden Inhalt mit progressiver Schwierigkeitssteigerung, während Bücher mit gemischten Rechenarten Käufer ansprechen, die umfassende Übung wünschen.\n\nDie Seitenzahl beeinflusst direkt Druckkosten, Preisgestaltung und wahrgenommenen Wert. Für Mathe-Aktivitätsbücher liegt der optimale Bereich bei 40 bis 80 Innenseiten. Unter 40 Seiten empfinden Käufer das Buch als zu dünn und den Preis nicht wert. Über 80 Seiten steigen die Druckkosten erheblich und schmälern Ihre Tantiemen. Ein 50-seitiges Additions-Arbeitsbuch oder ein 60-seitiges gemischtes Mathe-Aktivitätsbuch bietet substanziellen Inhalt bei überschaubaren Druckkosten.\n\nOrganisieren Sie Ihren Inhalt mit klarer Schwierigkeitssteigerung. Beginnen Sie mit einfacheren Aufgaben, die Vertrauen aufbauen, und steigern Sie dann schrittweise die Komplexität. Für ein Additions-Aktivitätsbuch könnten Sie es so strukturieren: Seiten 1 bis 15 mit einstelliger Addition unter Verwendung bildbasierter Aufgaben, Seiten 16 bis 30 mit zweistelliger Addition, Seiten 31 bis 45 mit gemischter Schwierigkeit und thematischen Rätseln, und Seiten 46 bis 50 als umfassender Wiederholungsteil.\n\nPlanen Sie Ihren Vorspann und Nachspann. Fügen Sie eine Titelseite, eine kurze Einleitung zur Verwendung des Buches und ein Inhaltsverzeichnis ein. Platzieren Sie Lösungsschlüssel am Ende des Buches — das erwarten Eltern und Käufer, und es verhindert, dass Nutzer beim Arbeiten versehentlich Antworten sehen. Ein Impressum mit Ihren Verlagsinformationen vervollständigt die professionelle Präsentation.\n\nBerücksichtigen Sie Vielfalt innerhalb Ihres gewählten Fokus. Ein reines Additionsbuch sollte nicht 50 identisch aussehende Seiten enthalten. Mischen Sie bildbasierte Additionsaufgaben mit reinen Zahlenübungen, Mathe-Rätseln und Vergleichsaktivitäten. Diese Vielfalt hält Nutzer motiviert und gibt Käufern den Eindruck eines reichhaltigeren, durchdachter gestalteten Produkts.`,
     },
     {
-      heading: 'Mathe-Arbeitsblätter für Buchseiten erstellen',
+      heading: `Mathe-Arbeitsblätter für Buchseiten erstellen`,
       content: `Mit Ihrem Inhaltsplan bereit, verwenden Sie die Arbeitsblatt-Generatoren, um vielfältige Mathe-Aktivitäten für Ihre Buchseiten zu erstellen. Fünf Generatoren produzieren Inhalte, die gut für das gebundene Buchformat geeignet sind: Addition für bildbasierte Additionsaufgaben, Subtraktion für bildbasierte Subtraktionsaufgaben, Mathe-Rätsel für rasterbasierte Mathe-Rätsel, Mathe-Arbeitsblatt für saubere reine Zahlenübungen und Mehr oder Weniger für Vergleichsaktivitäten.\n\nArbeiten Sie für jeden Generator systematisch durch Ihre Schwierigkeitssteigerung. Im Additions-Generator beginnen Sie mit Zahlenbereichen von 1 bis 5 für die ersten Seiten, erhöhen auf 1 bis 10 für die mittleren Abschnitte und verwenden 1 bis 20 oder höher für fortgeschrittene Seiten. Wählen Sie Themen, die visuelle Abwechslung über die Seiten schaffen — Tiere für einen Abschnitt, Essen für einen anderen, Fahrzeuge für einen dritten. Diese visuelle Vielfalt macht das Buch ansprechender, ohne den zugrunde liegenden Mathe-Schwierigkeitsgrad zu ändern.\n\nGenerieren Sie Lösungsschlüssel für jede Aktivitätsseite. Eltern und Käufer nennen Lösungsschlüssel in Kaufbewertungen durchgängig als entscheidenden Faktor. Jeder Generator erstellt passende Lösungsschlüssel, die Sie im Nachspann-Abschnitt Ihres Buches zusammenstellen können. Beschriften Sie jeden Lösungsschlüssel mit der entsprechenden Seitennummer, damit Nutzer schnell die benötigten Lösungen finden.\n\nBeim Erstellen von Inhalten für den Druck beachten Sie, wie Arbeitsblätter auf einer physischen Seite erscheinen. Verwenden Sie kontrastreiche Einstellungen, damit Aufgaben nach dem Druck klar lesbar bleiben. Vermeiden Sie extrem helle Farben oder feine Details, die im Schwarz-Weiß-Druck möglicherweise nicht gut wiedergegeben werden (KDP druckt Innenseiten standardmäßig in Schwarz-Weiß für die niedrigsten Druckkosten). Testen Sie Ihre generierten Arbeitsblätter durch Ausdrucken auf einem Standarddrucker, um die Lesbarkeit zu überprüfen.\n\nErstellen Sie mehr Seiten als benötigt. Wenn Ihr Ziel 50 Aktivitätsseiten sind, generieren Sie 60 bis 70 Optionen. Das gibt Ihnen Flexibilität, die besten Seiten auszuwählen und durchgehend gleichbleibende Qualität zu gewährleisten. Ungenutzte Seiten können Sie für einen Folgeband aufbewahren, dessen Produktion Sie nichts zusätzlich kostet.`,
     },
     {
-      heading: 'Manuskript für KDP Print formatieren',
+      heading: `Manuskript für KDP Print formatieren`,
       content: `KDP hat spezifische Formatierungsanforderungen, die sich vom Erstellen einzelner Arbeitsblatt-PDFs unterscheiden. Die gängigste Beschnittgröße für Mathe-Aktivitätsbücher ist 8,5 x 11 Zoll, was dem US-Standardformat Letter entspricht und maximalen Arbeitsbereich für Mathe-Aufgaben bietet. Weitere praktikable Optionen sind 8 x 10 Zoll für ein etwas kleineres Format oder 7 x 10 Zoll für ein kompakteres Arbeitsbuch.\n\nRänder sind bei gebundenen Büchern entscheidend. KDP verlangt bestimmte Mindestränder, die je nach Seitenzahl variieren. Für ein 8,5 x 11 Zoll Buch mit 50 bis 80 Seiten benötigen Sie mindestens 0,25 Zoll an den Außen-, Ober- und Unterkanten plus einen größeren Innenrand (Bundsteg) von mindestens 0,375 Zoll. Der Bundsteg berücksichtigt die Bindung — ohne ausreichenden Bundsteg wird Inhalt nahe dem Rücken schwer lesbar oder nutzbar. Für Aktivitätsbücher, in denen Kinder Antworten schreiben, verwenden Sie noch größere Ränder (0,5 bis 0,75 Zoll rundum), damit der Inhalt bequem im beschreibbaren Bereich liegt.\n\nWählen Sie die Formatierung ohne Anschnitt, es sei denn, Ihre Seiten haben Designelemente, die bis zum Rand reichen. Die meisten Mathe-Aktivitätsbücher verwenden weiße Hintergründe mit zentriertem Inhalt im sicheren Bereich, was bedeutet, dass kein Anschnitt die geeignete Einstellung ist. Ohne Anschnitt ist auch einfacher zu formatieren, da Sie keine Hintergrundelemente über die Schnittlinie hinaus erweitern müssen.\n\nExportieren Sie Ihr Manuskript als einzelne PDF-Datei. Jede Seite Ihres Buches — einschließlich Titelseite, Impressum, Inhaltsverzeichnis, aller Aktivitätsseiten und Lösungsschlüssel — muss in einer PDF in der korrekten Seitenreihenfolge sein. Das PDF sollte mindestens 300 DPI Auflösung haben für gestochen scharfen Druck. Stellen Sie sicher, dass alle Schriftarten in das PDF eingebettet sind, damit sie unabhängig vom druckenden System korrekt dargestellt werden.\n\nDie Seitenzahl muss für KDP-Taschenbücher gerade sein. Wenn Ihr Inhalt eine ungerade Seitenzahl ergibt, fügen Sie eine leere Seite oder eine Notizseite am Ende hinzu. KDP akzeptiert Manuskripte zwischen 24 und 828 Seiten für Taschenbücher, aber bedenken Sie, dass Druckkosten mit der Seitenzahl steigen und direkt Ihre Tantiemen pro Verkauf reduzieren.`,
     },
     {
-      heading: 'Professionelles Buchcover gestalten',
+      heading: `Professionelles Buchcover gestalten`,
       content: `Ihr Cover ist der wichtigste Einzelfaktor dafür, ob ein browsender Amazon-Kunde auf Ihr Buch klickt. KDP verlangt ein vollständiges Umschlagcover, das Vorderseite, Rücken und Rückseite umfasst — alles in einer Bilddatei. Verwenden Sie den KDP-Cover-Rechner auf der KDP-Website, um eine Vorlage mit exakten Maßen basierend auf Ihrer Beschnittgröße, Seitenzahl und Papierart zu generieren.\n\nDie Vorderseite muss drei Dinge sofort kommunizieren: was das Buch lehrt (Mathe-Fähigkeit), für wen es ist (Altersgruppe oder Altersgruppe) und dass es professionell aussieht. Verwenden Sie einen klaren Titel mit großem, gut lesbarem Text, einen Untertitel, der die Zielgruppe spezifiziert, und ein visuell ansprechendes, aber nicht überladenes Design. Denken Sie daran, dass die meisten Kunden Ihr Cover zuerst als kleines Vorschaubild in den Suchergebnissen sehen, also testen Sie die Lesbarkeit in Vorschaubildgröße. Fetter Text, hoher Kontrast und ein sauberes Layout funktionieren am besten in kleinen Größen.\n\nDie Rückenbreite hängt von Ihrer Seitenzahl und Papierart ab. Der KDP-Cover-Rechner liefert die exakte Rückenbreite. Für ein typisches 50-seitiges Aktivitätsbuch auf weißem Papier beträgt der Rücken etwa 0,13 Zoll — ziemlich schmal. Für Bücher unter etwa 80 Seiten halten Sie Rückentext minimal oder lassen ihn ganz weg, da Text bei sehr schmalen Rückenbreiten unlesbar wird. Für Bücher mit 100 oder mehr Seiten fügen Sie Titel und Autorennamen auf dem Rücken ein.\n\nDie Rückseite sollte eine überzeugende Buchbeschreibung, 3 bis 5 Aufzählungspunkte mit dem Buchinhalt, die Zielalters- oder Altersgruppe und Platz für den Amazon-Barcode enthalten. KDP platziert den Barcode automatisch, aber Sie müssen einen dafür vorgesehenen Bereich (etwa 2 x 1,2 Zoll) im rechten unteren Teil der Rückseite freilassen. Platzieren Sie keine wichtigen Text- oder Designelemente in dieser Barcode-Zone.\n\nReichen Sie Ihr Cover als PDF oder hochauflösende Bilddatei ein. Die Mindestauflösung beträgt 300 DPI und der Farbraum sollte RGB für beste Ergebnisse sein. KDP konvertiert zum Druck in CMYK, vermeiden Sie also extrem leuchtende Neonfarben, die bei der Konvertierung abweichen können. Testen Sie Ihr Design gegen die KDP-Cover-Vorlage, um sicherzustellen, dass alle Elemente innerhalb der sicheren Zonen liegen.`,
     },
     {
-      heading: 'KDP-Angebot schreiben, das auf Amazon rankt',
+      heading: `KDP-Angebot schreiben, das auf Amazon rankt`,
       content: `Die Amazon-Suche funktioniert anders als Etsy. Bei KDP haben Sie 7 Keyword-Felder, die jeweils bis zu 50 Zeichen erlauben. Diese Keyword-Felder sind für Kunden nicht sichtbar, beeinflussen aber direkt, bei welchen Suchanfragen Ihr Buch erscheint. Nutzen Sie alle 7 Felder mit spezifischen, relevanten Phrasen, die Eltern und Käufer tatsächlich bei Amazon eingeben. Für ein Kindergarten-Additions-Aktivitätsbuch könnten Ihre Keyword-Felder enthalten: „Kindergarten Mathe Arbeitsbuch Addition Übung", „Mathe-Aktivitätsbuch Alter 4 5 6", „Additions-Arbeitsblätter für Kinder Vorschule", „Mathe-Übungsbuch Homeschool Kindergarten", „Lern-Aktivitätsbuch Zahlensinn", „Mathe-Fähigkeiten Arbeitsbuch Anfänger" und „Mathe-Aktivitäten Zählen Addition".\n\nIhr Titel und Untertitel haben erhebliches Suchgewicht auf Amazon. Der Titel sollte Ihr primäres Keyword natürlich einschließen: „Additionsübungen für den Kindergarten: Ein Mathe-Aktivitäts-Arbeitsbuch mit Bildaufgaben, Rätseln und Lösungsschlüsseln." Der Untertitel erweitert um Funktionen und enthält sekundäre Keywords. Amazon erlaubt bis zu 200 Zeichen für den Titel, aber halten Sie ihn lesbar — Keyword-Stuffing schadet der Klickrate, selbst wenn es der Suchauffindbarkeit hilft.\n\nDie Buchbeschreibung unterstützt grundlegende HTML-ähnliche Formatierung. Verwenden Sie Überschriften-Tags zur Strukturierung Ihrer Beschreibung und Fettdruck-Tags zur Hervorhebung wichtiger Verkaufsargumente. Beginnen Sie mit dem Hauptvorteil (was das Kind lernt), folgen Sie mit Inhaltsdetails (Seitenzahl, Aktivitätstypen, Schwierigkeitsbereich) und schließen Sie mit dem, was Ihr Buch von der Konkurrenz abhebt. Erwähnen Sie, dass Lösungsschlüssel enthalten sind — dies ist ein häufiges Filterkriterium für Eltern.\n\nWählen Sie während des Veröffentlichungsprozesses bis zu zwei Browse-Kategorien. Die relevantesten Kategorien für Mathe-Aktivitätsbücher umfassen Kinder-Rechenbücher, Kinder-Mathe-Aktivitätsbücher und Bildung und Produkterstellung Mathematik. Die Auswahl genauer Kategorien stellt sicher, dass Ihr Buch in den richtigen Stöberbereichen erscheint und sich für relevante Kategorie-Rankings qualifiziert. Sie können nach der Veröffentlichung über den KDP-Support zusätzliche Kategorieplatzierungen anfragen, falls die anfänglichen Optionen Ihre idealen Kategorien nicht enthalten.`,
     },
     {
-      heading: 'Preise für maximale KDP-Tantiemen festlegen',
+      heading: `Preise für maximale KDP-Tantiemen festlegen`,
       content: `KDP-Preise bestimmen direkt Ihren Gewinn pro Verkauf, und die Berechnung ist einfach, hat aber wichtige Schwellenwerte. Amazon bietet zwei Tantiemen-Optionen für Taschenbücher: einen 60-Prozent-Tantiemsatz für Bücher, die auf dem Amazon-Marktplatz verkauft werden, auf dem das Buch veröffentlicht ist, und einen niedrigeren Satz für Verkäufe über den erweiterten Vertrieb. Die eigentliche Tantiemen-Formel lautet: (Listenpreis mal Tantiemsatz) minus Druckkosten gleich Ihre Tantiemen.\n\nDruckkosten hängen von Seitenzahl, Beschnittgröße, Drucktyp und Marktplatz ab. Für ein 8,5 x 11 Zoll Schwarz-Weiß-Innenteil-Buch mit 50 Seiten, das auf Amazon US verkauft wird, betragen die Druckkosten etwa 3,15 Dollar. Wenn Sie dieses Buch mit 6,99 Dollar bepreisen, lautet Ihre Tantiemenberechnung: (6,99 mal 0,60) minus 3,15, was ungefähr 1,04 Dollar pro Verkauf ergibt. Eine Erhöhung auf 7,99 Dollar steigert Ihre Tantiemen auf etwa 1,64 Dollar — eine 58-prozentige Tantiemensteigerung durch nur 1 Dollar Preiserhöhung.\n\nDer Mindestlistenpreis muss die Druckkosten geteilt durch den Tantiemsatz decken. Für ein Buch mit 3,15 Dollar Druckkosten beim 60-Prozent-Tantiemsatz beträgt der Mindestpreis etwa 5,25 Dollar. Allerdings lässt eine Bepreisung am Minimum Ihnen praktisch null Tantiemen. Streben Sie einen Listenpreis an, bei dem Ihre Tantiemen mindestens 1,50 bis 3,00 Dollar pro Verkauf betragen, für nachhaltige Veröffentlichungswirtschaft.\n\nRecherchieren Sie die Konkurrenzpreise in Ihrer spezifischen Kategorie, bevor Sie Ihren Preis festlegen. Die meisten Mathe-Aktivitätsbücher für Kinder liegen zwischen 5,99 und 9,99 Dollar auf Amazon. Zu niedrige Preise signalisieren niedrige Qualität und bringen minimale Tantiemen. Zu hohe Preise reduzieren das Verkaufsvolumen. Für ein erstes Buch liegt eine Bepreisung zwischen 6,99 und 8,99 typischerweise in einem guten Gleichgewicht zwischen Wettbewerbsfähigkeit und angemessenen Tantiemen. Wenn Sie Bewertungen und Verkaufshistorie aufbauen, können Sie höhere Preise testen.\n\nLegen Sie Preise für internationale Amazon-Marktplätze separat fest. KDP ermöglicht die Veröffentlichung auf Amazon UK, Deutschland, Frankreich, Italien, Spanien und anderen Marktplätzen. Rechnen Sie Ihren US-Preis in die lokale Währung um und runden Sie auf eine psychologisch ansprechende Zahl (4,99 GBP, 7,99 EUR). Internationale Marktplätze haben unterschiedliche Druckkosten, prüfen Sie also den Tantiemenrechner für jeden Marktplatz.`,
     },
     {
@@ -70,11 +70,11 @@ const content: GuideContent = {
       content: `Der KDP-Überprüfungsprozess kann Bücher wegen Problemen ablehnen, die geringfügig erscheinen, aber streng durchgesetzt werden. Häufige Ablehnungsgründe sind Cover-Text, der in den Anschnitt- oder Barcode-Bereich reicht, Innenseiten mit Inhalt zu nah am Schnittrand und Titel-Abweichungen zwischen Cover, Titelseite und Metadaten. Verwenden Sie vor dem Einreichen den KDP Print Previewer, um Ihr gesamtes Buch Seite für Seite zu prüfen. Beheben Sie alle gelben oder roten Warnungen im Previewer — diese führen fast immer zur Ablehnung oder zu Druckproblemen. Erstveröffentlicher sollten mit ein bis zwei Überarbeitungsrunden rechnen, während sie die spezifischen KDP-Anforderungen kennenlernen.`,
     },
     {
-      heading: 'Korrekturexemplare vor der Bewerbung bestellen',
+      heading: `Korrekturexemplare vor der Bewerbung bestellen`,
       content: `Bewerben Sie nie ein KDP-Buch, das Sie nicht physisch in der Hand gehalten haben. Die digitale Vorschau zeigt annähernd, wie Ihr Buch aussehen wird, aber Druckqualität, Farbgenauigkeit, Randtauglichkeit und Gesamtgefühl können nur mit einem physischen Exemplar beurteilt werden. Bestellen Sie mindestens ein Korrekturexemplar und arbeiten Sie mehrere Seiten durch, wie ein Nutzer es tun würde — schreiben Sie in die Antwortfelder, prüfen Sie, ob Aufgaben klar lesbar sind, und überprüfen Sie, dass die Bindung die Benutzbarkeit nicht beeinträchtigt. Autorenexemplare kosten nur den Druckpreis ohne Tantiemenaufschlag, was sie zu einem kostengünstigen Qualitätssicherungsschritt macht, der negative Bewertungen verhindert.`,
     },
     {
-      heading: 'Browse-Kategorien für Auffindbarkeit optimieren',
+      heading: `Browse-Kategorien für Auffindbarkeit optimieren`,
       content: `Amazons Browse-Kategorie-System bestimmt, auf welchen virtuellen Regalen Ihr Buch erscheint. Während der Veröffentlichung bietet KDP zwei Kategorieplätze, aber Sie können nach der Veröffentlichung über den KDP-Support bis zu 10 Kategorien anfragen. Für Mathe-Aktivitätsbücher zielen Sie auf breite Kategorien (Kinder-Mathe-Bücher) und spezifische (Kinder-Rechenbücher, Kinder-Aktivitätsbücher). Das Erscheinen in mehreren relevanten Kategorien erhöht Ihre Chancen, auf Kategorielisten zu ranken — ein Buch, das in den Top 20 einer spezifischen Unterkategorie rankt, erhält ein Verkaufsschlager-Abzeichen, das die Klickrate in Suchergebnissen deutlich steigert.`,
     },
   ],
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Kleine Preisanpassungen erzeugen überproportionale Tantiemenänderungen bei KDP. Da Druckkosten pro Exemplar fixiert sind, generiert jeder Dollar, den Sie zum Listenpreis hinzufügen, etwa 0,60 Dollar zusätzliche Tantiemen bei der 60-Prozent-Stufe. Ein Buch mit 7,99 statt 6,99 Dollar Preis verdient rund 60 Cent mehr pro Verkauf. Bei 100 Verkäufen pro Monat bringt diese einzige Dollar-Preiserhöhung 60 Dollar zusätzlichen Monatsumsatz. Testen Sie monatlich verschiedene Preispunkte und verfolgen Sie die Auswirkung auf Verkaufsvolumen und Gesamttantiemen. Viele Verleger stellen fest, dass moderate Preiserhöhungen (1 bis 2 Dollar über dem Kategoriedurchschnitt) das Verkaufsvolumen nicht wesentlich reduzieren, während sie den Gewinn pro Verkauf erheblich steigern.`,
     },
     {
-      heading: 'Eine Serie für kumulierende Verkäufe aufbauen',
+      heading: `Eine Serie für kumulierende Verkäufe aufbauen`,
       content: `Ein einzelnes Mathe-Aktivitätsbuch generiert einen einzelnen Einnahmestrom. Eine Serie von 5 bis 10 verwandten Titeln generiert kumulierende Einnahmen durch Amazons Cross-Empfehlungs-Algorithmus. Wenn ein Kunde Ihr Additions-Arbeitsbuch kauft und Amazon „Kunden kauften auch" mit Ihren Subtraktions-, Multiplikations- und gemischten Rechenarten-Büchern anzeigt, verkauft jeder Titel die anderen automatisch. Planen Sie Ihre Serie vor der Veröffentlichung des ersten Buches — verwenden Sie einheitliches Branding, Cover-Design-Vorlagen und Namenskonventionen, damit die Serie sofort erkennbar ist. Erwähnen Sie andere Titel in der Einleitung und Rückseitenbeschreibung jedes Buches.`,
     },
     {
@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Beispiel: Kindergarten-Additions-Aktivitätsbuch',
+      heading: `Beispiel: Kindergarten-Additions-Aktivitätsbuch`,
       content: `Ein 52-seitiges Kindergarten-Additions-Aktivitätsbuch für Kinder im Alter von 4 bis 6 Jahren. Das Innenteil verwendet 8,5 x 11 Zoll Beschnitt mit 0,5 Zoll Rändern. Seiten 1 bis 20 enthalten bildbasierte Additionsaufgaben, die mit dem Additions-Werkzeug mit Tier-, Essens- und Fahrzeugthemen im Zahlenbereich 1 bis 5 erstellt wurden. Seiten 21 bis 40 steigern sich auf den Bereich 1 bis 10 mit Mathe-Rätsel-Rastern für Abwechslung. Seiten 41 bis 48 bieten einen gemischten Wiederholungsteil. Seiten 49 bis 52 enthalten Lösungsschlüssel für alle Aktivitäten. Das Cover zeigt helle Grundfarben mit großem Text „Additionsspaß für den Kindergarten" und einem Untertitel „Bild-Mathe-Aktivitäten, Rätsel und Übungen — Alter 4 bis 6". Bepreist mit 7,99 Dollar auf Amazon US bei Druckkosten von etwa 3,25 Dollar ergibt sich eine Tantiemen von etwa 1,54 Dollar pro Verkauf. Die 7 Keyword-Felder zielen auf Phrasen wie „Kindergarten Additions-Arbeitsbuch", „Mathe-Aktivitätsbuch Alter 4 5 6" und „Bild-Mathe-Aufgaben Vorschule Kindergarten".`,
     },
     {
@@ -138,50 +138,50 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'raetselbuecher-veroeffentlichen-kdp',
-      title: 'Rätselbücher auf Amazon KDP veröffentlichen',
+      slug: `raetselbuecher-veroeffentlichen-kdp`,
+      title: `Rätselbücher auf Amazon KDP veröffentlichen`,
       description: `Erweitern Sie Ihren KDP-Katalog mit Rätselbüchern. Wortsuchrätsel, Kreuzworträtsel und Logikrätsel ergänzen Mathe-Aktivitätsbücher und sprechen ein anderes Käufersegment an, das Ihren Amazon-Verlagskatalog erweitert.`,
     },
     {
-      slug: 'kdp-formatierung-arbeitsblaetter',
+      slug: `kdp-formatierung-arbeitsblaetter`,
       title: `KDP-Formatierungsleitfaden für Arbeitsblatt-Bücher`,
       description: `Die detaillierte Formatierungsreferenz zum Umwandeln von Arbeitsblättern in KDP-fertige Manuskripte. Behandelt Beschnittgrößen, Rand-Spezifikationen, Anschnitt-Einstellungen, PDF-Export und Fehlerbehebung häufiger Formatierungsablehnungen.`,
     },
     {
-      slug: 'mathe-arbeitsblaetter-verkaufen-etsy',
-      title: 'Mathe-Arbeitsblätter auf Etsy verkaufen',
+      slug: `mathe-arbeitsblaetter-verkaufen-etsy`,
+      title: `Mathe-Arbeitsblätter auf Etsy verkaufen`,
       description: `Verwerten Sie Ihre Mathe-Inhalte als digitale Etsy-Downloads weiter. Der Verkauf derselben Arbeitsblätter als Einzel-PDFs auf Etsy und als gebundene Bücher auf KDP maximiert den Umsatz aus jedem von Ihnen erstellten Inhalt.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'raetselbuecher-veroeffentlichen-kdp', anchorText: 'Rätselbücher auf Amazon KDP veröffentlichen' },
-    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: 'Wortsuchbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-aktivitaetsbuecher', anchorText: 'Geld verdienen mit KDP-Aktivitätsbüchern' },
-    { pageType: 'guide', slug: 'kdp-formatierung-arbeitsblaetter', anchorText: `KDP-Formatierungsleitfaden für Arbeitsblatt-Bücher` },
-    { pageType: 'guide', slug: 'beste-kdp-aktivitaetsbuch-nischen', anchorText: 'Beste KDP-Aktivitätsbuch-Nischen' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Den Additions-Arbeitsblatt-Ersteller testen' },
+    { pageType: 'guide', slug: `raetselbuecher-veroeffentlichen-kdp`, anchorText: `Rätselbücher auf Amazon KDP veröffentlichen` },
+    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: `Wortsuchbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `geld-verdienen-kdp-aktivitaetsbuecher`, anchorText: `Geld verdienen mit KDP-Aktivitätsbüchern` },
+    { pageType: 'guide', slug: `kdp-formatierung-arbeitsblaetter`, anchorText: `KDP-Formatierungsleitfaden für Arbeitsblatt-Bücher` },
+    { pageType: 'guide', slug: `beste-kdp-aktivitaetsbuch-nischen`, anchorText: `Beste KDP-Aktivitätsbuch-Nischen` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: `additions-arbeitsblatt-ersteller`, anchorText: `Den Additions-Arbeitsblatt-Ersteller testen` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Die primäre Inhaltsquelle für Mathe-Aktivitätsbücher. Erstellt bildbasierte Additions-Arbeitsblätter mit thematischen Illustrationen und automatischen Lösungsschlüsseln — die beliebteste Mathe-Fähigkeit für KDP-Aktivitätsbücher vom Kindergarten bis zur zweiten Klasse.`,
     },
     {
       appId: 'subtraction',
-      title: 'Subtraktions-Arbeitsblatt-Generator',
+      title: `Subtraktions-Arbeitsblatt-Generator`,
       description: `Unverzichtbarer Begleiter für Multi-Rechenarten-Mathe-Arbeitsbücher. Subtraktionsseiten gepaart mit Addition ergeben umfassende Mathe-Aktivitätsbücher, die höhere Seitenzahlen und Preispunkte auf Amazon rechtfertigen.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Mathe-Rätsel-Arbeitsblatt-Generator',
+      title: `Mathe-Rätsel-Arbeitsblatt-Generator`,
       description: `Fügt Aktivitätsbüchern ansprechende Rätselvielfalt jenseits standardmäßiger Übungsseiten hinzu. Rasterbasierte Mathe-Rätsel lockern das Arbeitsblattformat auf und steigern den wahrgenommenen Wert, was zu besseren Amazon-Bewertungen führt.`,
     },
     {
@@ -191,28 +191,28 @@ const content: GuideContent = {
     },
     {
       appId: 'more-less',
-      title: 'Mehr-oder-Weniger-Arbeitsblatt-Generator',
+      title: `Mehr-oder-Weniger-Arbeitsblatt-Generator`,
       description: `Erstellt Zahlenvergleichs-Aktivitäten, die Aktivitätsbüchern mathematische Vielfalt verleihen. Vergleichsaufgaben entwickeln Zahlensinn-Fähigkeiten neben Arithmetik und machen Bücher umfassender und ansprechender für Käufer.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: `Additions-Arbeitsblatt mit bildbasierten Mathe-Aufgaben für Amazon KDP Aktivitätsbuch-Innenseiten` },
+    heroImage: { src: `/samples/german/addition/addition_worksheet.webp`, alt: `Additions-Arbeitsblatt mit bildbasierten Mathe-Aufgaben für Amazon KDP Aktivitätsbuch-Innenseiten` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Tier-Thema Additions-Arbeitsblatt formatiert für KDP Mathe-Aktivitätsbuch`, caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben für ansprechende KDP-Aktivitätsbuch-Seiten' },
-      { src: '/samples/german/subtraction/worksheet (1).webp', alt: `Subtraktions-Arbeitsblatt für Multi-Rechenarten KDP Mathe-Arbeitsbuch`, caption: 'Subtraktions-Arbeitsblatt — ergänzt Additionsseiten für umfassende Mathe-Aktivitätsbücher auf Amazon' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: `Mathe-Rätsel-Raster-Arbeitsblatt für Vielfalt in KDP-Aktivitätsbüchern`, caption: 'Mathe-Rätsel-Raster — fügt ansprechende Vielfalt zu Aktivitätsbuch-Seiten jenseits standardmäßiger Arbeitsblattübungen hinzu' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Tier-Thema Additions-Arbeitsblatt formatiert für KDP Mathe-Aktivitätsbuch`, caption: `Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben für ansprechende KDP-Aktivitätsbuch-Seiten` },
+      { src: `/samples/german/subtraction/worksheet (1).webp`, alt: `Subtraktions-Arbeitsblatt für Multi-Rechenarten KDP Mathe-Arbeitsbuch`, caption: `Subtraktions-Arbeitsblatt — ergänzt Additionsseiten für umfassende Mathe-Aktivitätsbücher auf Amazon` },
+      { src: `/samples/german/math puzzle/Mathe-Rätsel 2.webp`, alt: `Mathe-Rätsel-Raster-Arbeitsblatt für Vielfalt in KDP-Aktivitätsbüchern`, caption: `Mathe-Rätsel-Raster — fügt ansprechende Vielfalt zu Aktivitätsbuch-Seiten jenseits standardmäßiger Arbeitsblattübungen hinzu` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Mathe-Arbeitsblätter für Amazon KDP Aktivitätsbücher erstellen — Schritt-für-Schritt-Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: `/image-library/shapes/circle.webp`, alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: `/image-library/shapes/cone.webp`, alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Würfel — thematisches Lernbild`, caption: 'Würfel' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Zylinder — thematisches Lernbild`, caption: 'Zylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
   ],
 };
 

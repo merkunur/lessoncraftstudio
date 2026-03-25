@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Construção — Guia de Nicho`,
     metaDescription: `Ideias lucrativas de imprimíveis de construção para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos temáticos de veículos e ferramentas para.`,
 
-    primaryKeyword: 'ideias de imprimíveis de construção',
+    primaryKeyword: `ideias de imprimíveis de construção`,
     secondaryKeywords: [
-      'fichas temáticas construção para vender',
-      'negócio imprimíveis temática construção',
-      'fichas atividades construção para vendedores',
-      'vender imprimíveis de construção no Etsy',
+      `fichas temáticas construção para vender`,
+      `negócio imprimíveis temática construção`,
+      `fichas atividades construção para vendedores`,
+      `vender imprimíveis de construção no Etsy`,
     ],
     lsiKeywords: [
-      'fichas temáticas obra de construção',
-      'atividades STEM construção para crianças',
-      'imprimíveis educativos veículos e maquinaria',
+      `fichas temáticas obra de construção`,
+      `atividades STEM construção para crianças`,
+      `imprimíveis educativos veículos e maquinaria`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ O mercado de interseção com brinquedos de construção representa uma audiênc
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Construção para Vender Online',
+      title: `Sopas de Letras de Construção para Vender Online`,
       description: `As sopas de letras com vocabulário de construção atraem vendedores focados em STEM que planeiam unidades de edificação e pais que procuram entretenimento educativo que canalize a fascinação natural dos seus filhos por máquinas grandes e estaleiros de obras para o desenvolvimento produtivo de competências de literacia e expansão do vocabulário em múltiplas categorias de construção. Cria puzzles com vocabulário específico de construção como escavadora, grua, bulldozer, camião basculante, betoneira, martelo, chave inglesa, plantas de obra, andaimes e capacete de segurança juntamente com termos mais amplos de edificação como alicerces, estrutura, viga e demolição. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de construção para compradores mais velhos que exploram tipos de veículos e terminologia de edificação.`,
       appId: 'wordsearch',
     },
@@ -90,7 +90,7 @@ O mercado de interseção com brinquedos de construção representa uma audiênc
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Construção no Etsy',
+      title: `Vender Imprimíveis de Construção no Etsy`,
       description: `O Etsy recompensa o nicho de construção com um desempenho consistente de listagens durante todo o ano porque a fascinação das crianças por máquinas de construção nunca para e os pais de crianças amantes da construção procuram ativamente materiais educativos temáticos que apoiem a curiosidade mecânica dos seus filhos em todas as estações. Utiliza as treze etiquetas com variações que combinem tipos de veículos, áreas de competência e grupos etários: «fichas contagem escavadora pré-escolar», «páginas colorir construção crianças pequenas» e «sopa de letras camião basculante jardim de infância» apontam a pesquisas específicas de compradores de forma muito mais eficaz do que etiquetas amplas como «fichas construção». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade jovem construtor» e «imprimível amante da construção» nos teus títulos e descrições. As imagens de listagens que mostram fichas de construção impressas junto a veículos de brinquedo, capacetes de segurança ou blocos de construção superam as pré-visualizações digitais planas e captam o entusiasmo prático que traz os pais de crianças obcecadas pela construção ao Etsy à procura de recursos educativos com temática de veículos. Aponta às pesquisas de festas de aniversário de construção durante todo o ano, já que a construção continua a ser um dos temas de aniversário mais populares para crianças pequenas que procuram atividades de celebração com temática de veículos.`,
     },
     {
@@ -144,18 +144,18 @@ O mercado de interseção com brinquedos de construção representa uma audiênc
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ O mercado de interseção com brinquedos de construção representa uma audiênc
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -179,28 +179,28 @@ O mercado de interseção com brinquedos de construção representa uma audiênc
     },
     {
       pageType: 'idea',
-      slug: 'transportes-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Transportes',
+      slug: `transportes-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Transportes`,
     },
     {
       pageType: 'idea',
       slug: 'espaco-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Espaço',
+      anchorText: `Ideias de Negócio de Imprimíveis de Espaço`,
     },
     {
       pageType: 'idea',
       slug: 'piratas-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Piratas',
+      anchorText: `Ideias de Negócio de Imprimíveis de Piratas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/tools/bolt.webp', alt: 'Parafuso — imagem educativa temática', caption: 'Parafuso' },
-    { src: '/image-library/tools/caulking%20gun.webp', alt: `Pistola de Calafetagem — imagem educativa temática`, caption: 'Pistola de Calafetagem' },
-    { src: '/image-library/tools/electric%20drill.webp', alt: 'Berbequim Elétrico — imagem educativa temática', caption: 'Berbequim Elétrico' },
-    { src: '/image-library/tools/extension%20cord.webp', alt: 'Extensão Elétrica — imagem educativa temática', caption: 'Extensão Elétrica' },
-    { src: '/image-library/tools/flashlight.webp', alt: 'Lanterna — imagem educativa temática', caption: 'Lanterna' },
-    { src: '/image-library/tools/hammer.webp', alt: 'Martelo — imagem educativa temática', caption: 'Martelo' },
+    { src: `/image-library/tools/bolt.webp`, alt: `Parafuso — imagem educativa temática`, caption: 'Parafuso' },
+    { src: `/image-library/tools/caulking%20gun.webp`, alt: `Pistola de Calafetagem — imagem educativa temática`, caption: 'Pistola de Calafetagem' },
+    { src: `/image-library/tools/electric%20drill.webp`, alt: `Berbequim Elétrico — imagem educativa temática`, caption: 'Berbequim Elétrico' },
+    { src: `/image-library/tools/extension%20cord.webp`, alt: `Extensão Elétrica — imagem educativa temática`, caption: 'Extensão Elétrica' },
+    { src: `/image-library/tools/flashlight.webp`, alt: `Lanterna — imagem educativa temática`, caption: 'Lanterna' },
+    { src: `/image-library/tools/hammer.webp`, alt: `Martelo — imagem educativa temática`, caption: 'Martelo' },
   ],
 
 

@@ -5,7 +5,7 @@ const content: AppContent = {
     primaryKeyword: 'kreuzworträtsel-generator',
     secondaryKeywords: [
       `druckbarer Bild-Kreuzworträtsel-Generator für Etsy-Verkäufer`,
-      'Bilderkreuzworträtsel-Ersteller für KDP-Verleger',
+      `Bilderkreuzworträtsel-Ersteller für KDP-Verleger`,
       `Kreuzworträtsel mit Bildhinweisen kommerzielle Lizenz`,
       `Bild-Kreuzworträtsel auf Etsy.de und Amazon verkaufen`,
     ],
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Bilderkreuzworträtsel erstellen in 5 Schritten',
+    title: `Bilderkreuzworträtsel erstellen in 5 Schritten`,
     steps: [
       {
         title: 'Seitenlayout festlegen',
@@ -39,17 +39,17 @@ const content: AppContent = {
           `Entscheiden Sie, wie Sie die 8 Wörter für Ihr Kreuzworträtsel bereitstellen. Schnelle Themen-Generierung (Standard) wählt automatisch 8 zufällige Bilder aus dem gewählten Thema und generiert sofort. Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und umbenennen, bevor das Rätsel generiert wird. Benutzerdefinierte Wortliste mit Hinweisen aktiviert ein Textfeld, in dem Sie WORT: Hinweis-Paare für traditionelle Text-Hinweis-Kreuzworträtsel eingeben. Eigene Bilder hochladen ermöglicht das Hinzufügen eigener Bilddateien neben der Bibliothek.`,
       },
       {
-        title: 'Bilder oder Wörter auswählen und konfigurieren',
+        title: `Bilder oder Wörter auswählen und konfigurieren`,
         description:
           `Für themenbasierte Generierung durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Für manuelle Bearbeitung klicken Sie einzelne Bilder an und bearbeiten deren Anzeigenamen. Für benutzerdefinierte Wortlisten geben Sie mindestens 8 WORT: Hinweis-Einträge ein. Für Uploads fügen Sie JPEG-, PNG-, GIF- oder WebP-Dateien hinzu. Der Generator benötigt mindestens 8 Einträge, um das Kreuzworträtsel zu erstellen. Da der Generator sprachabhängig ist, werden bei deutscher Spracheinstellung automatisch deutsche Bildbezeichnungen als Kreuzwortwörter verwendet — „KATZE" statt „CAT", „HUND" statt „DOG".`,
       },
       {
-        title: 'Bilderkreuzworträtsel generieren',
+        title: `Bilderkreuzworträtsel generieren`,
         description:
           `Klicken Sie auf Generieren, um das Kreuzworträtsel auf dem festen 15×15-Raster zu erstellen. Der Platzierungsalgorithmus extrahiert Wörter aus Bildnamen, entfernt Leerzeichen, wandelt in Großbuchstaben um, mischt und sortiert nach Länge (längste zuerst), dann platziert er die Wörter im Raster für optimale Kreuzungen. Nummerierte Hinweispositionen markieren den Anfang jedes Wortes. Bildhinweise erscheinen neben dem Raster mit den entsprechenden Nummern. Ein stilvoller „Bilderkreuzworträtsel"-Header erscheint am oberen Rand mit blauem Hintergrund (#5B9BD5), weißer Kapsel und lokalisiertem Titel und Beschreibung in Fredoka- und Quicksand-Schriften.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um das ausgefüllte Raster mit allen sichtbaren Kreuzwortantworten zu sehen. Laden Sie beide Versionen über die vier dedizierten Buttons im Dropdown-Menü herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden mit 300 DPI für druckfertige Qualität exportiert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -103,10 +103,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Bilderkreuzworträtsel online verkaufen',
+    title: `Bilderkreuzworträtsel online verkaufen`,
     cases: [
       {
-        title: 'Thematische Bilderkreuzworträtsel-Pakete auf Etsy',
+        title: `Thematische Bilderkreuzworträtsel-Pakete auf Etsy`,
         description:
           `Erstellen Sie thematische Bilderkreuzworträtsel-Pakete mithilfe der 104 Bildsammlungen — Tier-Kreuzworträtsel, Lebensmittel-Kreuzworträtsel, Fahrzeug-Kreuzworträtsel, Feiertags-Kreuzworträtsel und Dutzende mehr. Jedes Thema bietet genug Illustrationen für mehrere einzigartige Rätsel, da der Generator pro Rätsel 8 zufällige Bilder auswählt. Verpacken Sie 10–20 Bilderkreuzworträtsel pro Thema mit beigelegten Lösungsschlüsseln und verkaufen Sie zu 3–7 € pro Paket auf Etsy.de. Das Bild-Hinweis-Format macht diese Kreuzworträtsel in Etsy-Listing-Thumbnails visuell besonders ansprechend und erzielt höhere Klickraten als reine Text-Kreuzworträtsel-Produkte. Kombinieren Sie mehrere Themen in Premium-Mega-Paketen — beispielsweise ein „Tierwelt-Kreuzworträtsel-Paket" mit Bauernhoftieren, Wildtieren, Meerestieren und Insekten — für höhere Preisspannen und breitere Kundenzielgruppen.`,
         platform: 'Etsy (etsy.de)',
@@ -121,7 +121,7 @@ const content: AppContent = {
         title: `Mehrsprachige Kreuzworträtsel-Sets mit sprachabhängiger Generierung`,
         description:
           `Nutzen Sie die sprachabhängige Wortgenerierung, um Bilderkreuzworträtsel in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen völlig verschiedene Kreuzwortraster, wenn Sie die Sprache wechseln — ein Katzenbild erzeugt „KATZE" auf Deutsch, „CAT" auf Englisch und „GATTO" auf Italienisch. Auch die Rasterstruktur ändert sich komplett, da unterschiedlich lange Wörter andere Kreuzungsmuster erzeugen. Erstellen Sie mehrsprachige Kreuzworträtsel-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder verwendet, aber einzigartige Rätsel mit lokalisierten Wörtern produziert. Besonders wertvoll für Sprachlernmaterialien, mehrsprachige Produkterstellungsressourcen und internationale Homeschool-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen auf internationalen Märkten. Ein einziger Satz thematischer Bilder kann 11 verschiedene Sprachprodukte hervorbringen — maximale Produktvielfalt bei minimalem zusätzlichem Arbeitsaufwand.`,
-        platform: 'Etsy / Gumroad (mehrsprachiger Markt)',
+        platform: `Etsy / Gumroad (mehrsprachiger Markt)`,
       },
       {
         title: `Benutzerdefinierte Vokabel-Kreuzworträtsel für den Gumroad`,
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad',
       },
       {
-        title: 'Saisonale Bilderkreuzworträtsel-Sammlungen',
+        title: `Saisonale Bilderkreuzworträtsel-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie aktuell verfügbare Bilderkreuzworträtsel-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Kreuzworträtsel-Pakete im September, Weihnachts-Kreuzworträtsel-Sammlungen im Oktober und Valentinstag-Rätsel im Januar. Die visuelle Natur der Bilderkreuzworträtsel macht saisonale Themen besonders überzeugend — Feiertagsbilder als Hinweise erzeugen sofortige saisonale Anziehungskraft in Listing-Thumbnails. Saisonale Produkte erzielen während ihrer Spitzenzeiten höhere Preise und fördern Wiederholungskäufe. Nutzen Sie die sprachabhängige Generierung, um saisonale Pakete gleichzeitig auf dem deutschen, französischen und spanischen Markt zu veröffentlichen — dasselbe Weihnachtsthema erzeugt in jeder Sprache ein einzigartiges Kreuzworträtsel.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
     ],
   },
@@ -145,7 +145,7 @@ const content: AppContent = {
         `Ein Bilderkreuzworträtsel ersetzt traditionelle Text-Hinweise durch Bildhinweise. Anstatt eine schriftliche Definition zu lesen und die Antwort einzutragen, betrachten die Löser ein farbenfrohes Bild und schreiben das Wort, das es darstellt, in das Kreuzwortraster. Der Generator platziert 8 aus Bildern abgeleitete Wörter auf einem festen 15×15-Raster mit nummerierten Positionen, die jedes Bild mit seiner Startzelle verbinden. Schwarze Zellen bilden den Hintergrund, farbige Umrisse markieren die Antwortzellen, und nummerierte Bildhinweise erscheinen neben dem Raster für die Zuordnung. Dieses Format macht Kreuzworträtsel zugänglich für jüngere Löser und Sprachlernende und bietet gleichzeitig die Wortplatzierungs-Herausforderung traditioneller Kreuzworträtsel. Für Verkäufer bieten Bilderkreuzworträtsel einen visuellen Vorteil in Produkt-Listings — die farbenfrohen Bildhinweise heben sich in Thumbnails deutlich von reinen Text-Kreuzworträtseln ab und erzielen höhere Klickraten auf Etsy.de und Amazon.de.`,
     },
     {
-      question: 'Warum ist das Raster auf 15×15 Zellen festgelegt?',
+      question: `Warum ist das Raster auf 15×15 Zellen festgelegt?`,
       answer:
         `Das 15×15-Raster bietet genug Platz für 8 kreuzende Wörter unterschiedlicher Länge bei gleichzeitig sauberen visuellen Proportionen auf Letter- und A4-Seitengrößen. Die Rastergröße ist für den Platzierungsalgorithmus optimiert — größere Raster würden bei 8 Wörtern zu viel Leerraum hinterlassen, während kleinere Raster längere Wörter nicht aufnehmen könnten. Die feste Größe gewährleistet konsistente, professionell aussehende Kreuzworträtsel über alle Themen und Sprachen hinweg. Für deutsche Wörter, die oft länger als englische sind (z. B. „SCHMETTERLING" statt „BUTTERFLY"), bietet das 15×15-Raster ausreichend Platz für zusammengesetzte Substantive.`,
     },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `Der Algorithmus extrahiert Wörter aus Ihren 8 ausgewählten Bildnamen, entfernt Leerzeichen und wandelt in Großbuchstaben um. Dann mischt er die Wörter und sortiert sie nach Länge (längste zuerst), um die Rasterabdeckung zu maximieren. Wörter werden nacheinander auf dem 15×15-Raster platziert, wobei jedes versucht, bereits platzierte Wörter an gemeinsamen Buchstaben zu kreuzen. Nur Wörter, die erfolgreich eingepasst werden können, erscheinen im fertigen Rätsel. Nummerierte Positionen markieren den Anfang jedes Wortes, und die entsprechenden Bildhinweise werden neben dem Raster mit passenden Nummern angezeigt. Der Algorithmus maximiert die Anzahl der Kreuzungspunkte zwischen Wörtern, was zu einem eng vernetzten Kreuzwortraster führt.`,
     },
     {
-      question: 'Was sind die vier Eingabemethoden?',
+      question: `Was sind die vier Eingabemethoden?`,
       answer:
         `Schnelle Themen-Generierung (Standard) wählt automatisch 8 zufällige Bilder aus dem gewählten Thema und generiert sofort. Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und umbenennen, bevor das Rätsel generiert wird — nützlich für die Kontrolle des exakten Wortschatzes. Benutzerdefinierte Wortliste mit Hinweisen aktiviert ein Textfeld, in dem Sie WORT: Hinweis-Paare für traditionelle Text-Hinweis-Kreuzworträtsel ohne Bilder eingeben. Eigene Bilder hochladen ermöglicht das Hinzufügen eigener JPEG-, PNG-, GIF- oder WebP-Dateien neben Bibliotheksbildern. Jede Methode speist denselben 15×15-Raster-Platzierungsalgorithmus.`,
     },
@@ -180,7 +180,7 @@ const content: AppContent = {
         `Jedes generierte Kreuzworträtsel enthält einen responsiven Header mit blauem Hintergrund (#5B9BD5), weißer Kapsel und lokalisiertem Titel und Beschreibung. Im Hochformat wird ein ganzseitiger Header (220px Höhe) angezeigt; im Querformat ein kompaktes zentriertes Layout (145px Höhe). Der Titel „Bilderkreuzworträtsel" wird in Fredoka-Schrift mit dynamischer Größe gerendert (48px für kurze Titel bis 28px für längere Übersetzungen), und die Beschreibung „Schau dir die Bilder an und fülle die Wörter ein!" wird in Quicksand gerendert. Beide Textelemente übersetzen automatisch in alle 11 unterstützten Sprachen. Ein leuchtend blauer Rahmen (#4A90E2, 8px Strichstärke, 12px abgerundete Ecken) umrahmt den Header.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle vier Eingabemethoden, den 15×15-Raster-Generator, den automatisch generierten Lösungsschlüssel mit ausgefülltem Raster, die vollständige Bildbibliothek mit 104 Themen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, alle Download-Formate in 300 DPI und den Graustufen-Schalter — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -204,38 +204,38 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'suchen-und-zaehlen-arbeitsblaetter',
-      anchorText: 'Suchen-und-Zählen-Arbeitsblatt-Generator',
+      slug: `suchen-und-zaehlen-arbeitsblaetter`,
+      anchorText: `Suchen-und-Zählen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'suchbilder-arbeitsblaetter',
-      anchorText: 'Suchbilder-Arbeitsblatt-Generator',
+      anchorText: `Suchbilder-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'schatzsuche-arbeitsblaetter',
-      anchorText: 'Schatzsuche-Arbeitsblatt-Generator',
+      anchorText: `Schatzsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'wortsuche-arbeitsblaetter',
-      anchorText: 'Wortsuche-Arbeitsblatt-Generator',
+      anchorText: `Wortsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'buchstabensalat-arbeitsblaetter',
-      anchorText: 'Buchstabensalat-Arbeitsblatt-Generator',
+      slug: `buchstabensalat-arbeitsblaetter`,
+      anchorText: `Buchstabensalat-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'woerter-raten-arbeitsblaetter',
-      anchorText: 'Wörter-Raten-Arbeitsblatt-Generator',
+      anchorText: `Wörter-Raten-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bildkryptogramm-arbeitsblaetter',
-      anchorText: 'Kryptogramm-Arbeitsblatt-Generator',
+      slug: `bildkryptogramm-arbeitsblaetter`,
+      anchorText: `Kryptogramm-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -244,23 +244,23 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'erste-klasse-druckvorlagen-ideen',
-      anchorText: 'Erste-Klasse Druckvorlagen-Ideen für Grundschule',
+      slug: `erste-klasse-druckvorlagen-ideen`,
+      anchorText: `Erste-Klasse Druckvorlagen-Ideen für Grundschule`,
     },
     {
       pageType: 'idea',
-      slug: 'zweite-klasse-druckvorlagen-ideen',
+      slug: `zweite-klasse-druckvorlagen-ideen`,
       anchorText: `Zweite-Klasse Druckvorlagen-Ideen für K-2-Produktmarkt`,
     },
     {
       pageType: 'start',
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      anchorText: 'Aktivitätsbücher auf Amazon KDP veröffentlichen',
+      anchorText: `Aktivitätsbücher auf Amazon KDP veröffentlichen`,
     },
     {
       pageType: 'guide',
       slug: 'kreuzwortraetsel-erstellen',
-      anchorText: 'Kreuzworträtsel erstellen, die sich verkaufen',
+      anchorText: `Kreuzworträtsel erstellen, die sich verkaufen`,
     },
   ],
 

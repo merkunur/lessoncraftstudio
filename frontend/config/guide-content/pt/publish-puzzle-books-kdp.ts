@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publicar livros de puzzles KDP',
+    primaryKeyword: `publicar livros de puzzles KDP`,
     secondaryKeywords: [
-      'como publicar livros de puzzles na Amazon KDP',
-      'guia de publicação de livros de puzzles KDP',
-      'criar livros de caça-palavras para Amazon',
+      `como publicar livros de puzzles na Amazon KDP`,
+      `guia de publicação de livros de puzzles KDP`,
+      `criar livros de caça-palavras para Amazon`,
       `livros de palavras cruzadas sudoku puzzles Amazon KDP`,
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `catálogo puzzles impressão a pedido série volumes numeração`,
       `espaçamento grelha puzzle tamanho corte chaves respostas páginas finais`,
     ],
-    titleTag: 'Publicar livros de puzzles KDP — Guia',
+    titleTag: `Publicar livros de puzzles KDP — Guia`,
     metaDescription: `Como publicar livros de puzzles na KDP com caça-palavras, palavras cruzadas e sudoku. Formatação profissional, livros de variedade e séries de volumes.`,
   },
 
   hero: {
-    title: 'Como publicar livros de puzzles na Amazon KDP',
+    title: `Como publicar livros de puzzles na Amazon KDP`,
     tagline: `Um guia completo para criar e publicar livros de puzzles rentáveis na Amazon KDP — abrangendo caça-palavras, palavras cruzadas, sudoku, puzzles de caminhos de imagens e peças em falta. Aprenda a escolher tipos de puzzles, planear a estrutura do livro, formatar manuscritos para impressão a pedido, desenhar capas que convertem, escrever anúncios otimizados para pesquisa na Amazon e construir um catálogo de livros de puzzles com séries de volumes numerados e edições sazonais.`,
     description: `Os livros de puzzles são uma das categorias de maior crescimento na Amazon KDP porque os solucionadores de puzzles compram repetidamente — um leitor que termina o Volume 1 regressa para o Volume 2, depois o 3, criando vendas recorrentes que poucos outros formatos de livros conseguem igualar. Este guia mostra como transformar seis geradores de puzzles — caça-palavras, palavras cruzadas, sudoku, puzzles matemáticos, caminhos de imagens e peças em falta — em livros de puzzles com formatação profissional prontos para publicação na KDP. Irá aprender como planear a contagem de puzzles, organizar secções de dificuldade, formatar manuscritos para os requisitos de impressão da KDP, criar capas que se destacam nos resultados de pesquisa, escrever títulos e descrições que posicionam para os termos de pesquisa dos compradores na Amazon, e construir séries de volumes que geram vendas de catálogo contínuas. Quer esteja a publicar o seu primeiro livro de puzzles ou a expandir um catálogo existente, este guia cobre cada passo desde a criação de conteúdo até à otimização do anúncio.`,
   },
@@ -31,19 +31,19 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Secção 1 — Escolha os seus tipos de puzzles',
+      heading: `Secção 1 — Escolha os seus tipos de puzzles`,
       content: `A sua primeira decisão é se vai publicar livros de um único tipo de puzzle ou livros de variedade. Ambos os formatos vendem bem mas servem mercados diferentes e requerem estratégias de catalogação distintas.\n\nOs livros de tipo único — um livro exclusivamente de caça-palavras, ou exclusivamente de sudoku — posicionam-se melhor para pesquisas específicas na Amazon. Quando alguém pesquisa «livro caça-palavras adultos letra grande», o seu livro dedicado de caça-palavras corresponde exatamente a essa intenção de pesquisa. Os livros de tipo único também atraem entusiastas dedicados que consomem grandes volumes de um formato preferido. As séries de caça-palavras com 10 ou mais volumes são comuns no mercado porque o público comprador é suficientemente grande para sustentar múltiplos volumes.\n\nOs livros de variedade — que combinam caça-palavras, palavras cruzadas, sudoku e outros tipos num único volume — atraem solucionadores casuais e compradores de presentes que querem diversidade. Estes livros também se destacam em subcategorias menos competitivas como «livro atividades variedade crianças» onde o público comprador é mais amplo.\n\nPara a maioria dos novos editores, recomendamos começar com um tipo único no nicho de maior procura (caça-palavras) para estabelecer posicionamento e gerar as primeiras vendas, depois expandir para variedade e outros tipos. Os seis geradores de puzzles disponíveis — caça-palavras, palavras cruzadas, sudoku, puzzles matemáticos, caminhos de imagens e peças em falta — cobrem os tipos mais populares tanto para livros de tipo único como de variedade.\n\nConsidere também o público-alvo. Os livros infantis tipicamente funcionam melhor como variedade porque as crianças apreciam formatos diferentes. Os livros para adultos tipicamente funcionam melhor como tipo único porque os solucionadores adultos desenvolvem preferências de formato definidas.`,
     },
     {
-      heading: 'Secção 2 — Planeie a estrutura do livro',
+      heading: `Secção 2 — Planeie a estrutura do livro`,
       content: `A estrutura do seu livro de puzzles afeta diretamente a satisfação do comprador, as avaliações e as vendas recorrentes. Os compradores de livros de puzzles têm expectativas claras sobre contagem de puzzles, organização e conteúdo de suporte.\n\nA contagem de puzzles varia por tipo e audiência. Os livros de caça-palavras para adultos tipicamente contêm 80 a 100 puzzles por volume. As coleções de palavras cruzadas geralmente incluem 50 a 75 puzzles. Os livros de sudoku variam de 100 a 200 puzzles porque as grelhas de sudoku são mais pequenas e alguns editores colocam 2 por página. Os livros de puzzles de variedade infantis funcionam bem com 40 a 60 puzzles.\n\nOrganize o conteúdo em secções de dificuldade claramente rotuladas — Fácil, Médio e Difícil. Cada secção deve introduzir-se com uma página separadora que mostre o nível de dificuldade de forma proeminente. Para caça-palavras, a dificuldade escala através do tamanho da grelha (12×12 para fácil, 16×16 para médio, 20×20 para difícil), número de palavras ocultas e complexidade do vocabulário. Para puzzles de variedade, cicle pelos diferentes tipos em cada nível de dificuldade.\n\nAs páginas iniciais devem incluir: portadilha com título e informação da série, página de instruções com exemplos resolvidos para cada tipo de puzzle, e índice organizado por tipo de puzzle e dificuldade. Inclua numeração de página em cada puzzle e referência cruzada com a secção de soluções.\n\nA secção de soluções vai sempre no final do livro. Todas as soluções devem estar claramente etiquetadas com o número de página do puzzle correspondente. Este é o formato padrão que os compradores esperam — colocar soluções imediatamente após cada puzzle frustra os solucionadores porque podem ver acidentalmente a resposta.`,
     },
     {
-      heading: 'Secção 3 — Crie o conteúdo dos puzzles',
+      heading: `Secção 3 — Crie o conteúdo dos puzzles`,
       content: `A criação de conteúdo é onde os geradores de puzzles transformam o seu fluxo de trabalho. Em vez de passar semanas a construir puzzles manualmente, pode produzir centenas de puzzles com qualidade profissional usando os seis geradores disponíveis.\n\nPara caça-palavras, o gerador de caça-palavras cria grelhas temáticas com tamanhos personalizáveis, listas de palavras ajustáveis e múltiplas direções de colocação de palavras. Gere puzzles com temas coerentes — animais, viagens, alimentos, natureza, desportos — para que cada puzzle pareça intencional em vez de aleatório. A consistência temática é um fator diferenciador nas avaliações dos compradores.\n\nPara palavras cruzadas, o gerador de palavras cruzadas produz grelhas com pistas e grelhas de resposta. Os puzzles de palavras cruzadas com pistas de imagem funcionam particularmente bem para livros infantis, enquanto pistas de texto servem audiências adultas.\n\nPara sudoku, o gerador de sudoku cria puzzles baseados em imagens ideais para livros infantis e puzzles numéricos clássicos. O sudoku com imagens ensina pensamento lógico sem requerer competências matemáticas, tornando-o acessível para solucionadores jovens.\n\nPara variedade adicional, o gerador de puzzles matemáticos cria desafios de grelha numéricos, o gerador de caminhos de imagens produz puzzles visuais estilo labirinto, e o gerador de peças em falta cria desafios de observação visual.\n\nAo gerar conteúdo, produza mais puzzles do que precisa. Se o seu livro requer 100 puzzles, gere 120 a 130 e depois selecione os melhores. Isto garante qualidade consistente em todo o livro e dá-lhe material excedente para volumes futuros. Exporte todos os puzzles a 300 DPI para qualidade de impressão profissional.`,
     },
     {
-      heading: 'Secção 4 — Formate o manuscrito',
+      heading: `Secção 4 — Formate o manuscrito`,
       content: `A formatação do manuscrito para impressão KDP requer atenção precisa ao tamanho de corte, margens e layout de página. Erros de formatação resultam em rejeição do manuscrito ou, pior, livros impressos com conteúdo cortado.\n\nO formato de 21,59 × 27,94 cm (8,5 × 11 polegadas) é a escolha mais popular para livros de puzzles e a que a maioria dos compradores espera. Este tamanho proporciona máximo espaço de grelha para resolução confortável de puzzles. Para livros de puzzles de viagem comercializados como entretenimento portátil, 15,24 × 22,86 cm (6 × 9 polegadas) é viável mas requer grelhas mais pequenas. O tamanho de 20,32 × 25,40 cm (8 × 10 polegadas) oferece um compromisso.\n\nAs margens são críticas para livros de puzzles. A margem interior (junto à lombada) deve ser pelo menos 1,91 cm (0,75 polegadas) para livros com mais de 100 páginas — caso contrário, os puzzles junto à lombada ficam ilegíveis. As margens exteriores podem ser 1,27 cm (0,5 polegadas) para maximizar o espaço da grelha. Para livros de puzzles infantis onde os solucionadores escrevem dentro das grelhas, considere margens maiores de 1,91 cm em todos os lados.\n\nUtilize interiores a preto e branco. A grande maioria dos livros de puzzles bem-sucedidos na KDP usa interiores a preto e branco com capa a cores. A impressão a cores é dramaticamente mais cara — um interior a cores de 100 páginas custa aproximadamente 3 a 4 vezes mais do que a preto e branco, o que força um preço de venda não competitivo ou elimina completamente a sua regalía. As grelhas de puzzles, listas de palavras e pistas reproduzem-se perfeitamente a preto e branco.\n\nO formato PDF é o padrão para submissão de manuscritos na KDP. Garanta que o seu PDF corresponde exatamente ao tamanho de corte selecionado, com sangria de 3,175 mm (0,125 polegadas) se o seu design se estende até à borda da página. Utilize fontes incorporadas e verifique que todas as grelhas e texto estão nítidos na resolução de impressão.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `A capa do seu livro de puzzles é o fator de conversão mais importante nos resultados de pesquisa da Amazon. Os compradores percorrem dezenas de thumbnails antes de clicar — a sua capa precisa comunicar instantaneamente o tipo de puzzle, a audiência-alvo e a qualidade profissional.\n\nPara livros de puzzles infantis, use cores brilhantes, ilustrações divertidas e pequenas pré-visualizações de cada tipo de puzzle incluído. O título deve ser grande e legível em tamanho de thumbnail. Inclua indicadores de faixa etária como «Idades 6-10» ou «Para Crianças» de forma proeminente.\n\nPara livros de puzzles para adultos, use designs limpos e sofisticados. Os livros de caça-palavras para adultos bem-sucedidos tipicamente apresentam fundos de cores suaves, tipografia serifada grande e um subtítulo que comunica o conteúdo (por exemplo, «100 puzzles temáticos — Fácil a difícil com soluções completas»). Inclua uma pequena grelha de exemplo na capa para comunicação visual imediata do tipo de puzzle.\n\nA lombada é frequentemente negligenciada mas importante para livros com mais de 100 páginas. Inclua o título, número do volume e nome do autor/editor na lombada. Para séries, mantenha o design da lombada consistente entre volumes para que pareçam profissionais lado a lado na estante.\n\nA contracapa deve incluir uma descrição breve do conteúdo, destaques (número de puzzles, níveis de dificuldade, secção de soluções incluída) e códigos de barras. Para séries, mencione outros volumes disponíveis na contracapa.\n\nO modelo de capa da KDP fornece as dimensões exatas baseadas na contagem de páginas e tipo de papel. Descarregue sempre um modelo novo para cada livro em vez de reutilizar modelos de projetos anteriores, pois a largura da lombada muda com a contagem de páginas.`,
     },
     {
-      heading: 'Secção 6 — Escreva o anúncio na Amazon',
+      heading: `Secção 6 — Escreva o anúncio na Amazon`,
       content: `O anúncio do seu livro na Amazon determina a visibilidade de pesquisa e a taxa de conversão. Um anúncio otimizado coloca o seu livro de puzzles em frente a compradores que pesquisam ativamente o tipo de conteúdo que publicou.\n\nO título é o elemento mais pesado de SEO. Para livros de tipo único, inclua o tipo de puzzle, audiência e diferenciadores chave: «Livro de Caça-Palavras para Adultos: 100 Puzzles Temáticos — Fácil a Difícil com Soluções | Letra Grande». Para livros de variedade, especifique os tipos incluídos: «Livro de Puzzles de Variedade para Crianças Idades 6-10: Caça-Palavras, Palavras Cruzadas, Sudoku e Mais — 60 Puzzles com Soluções».\n\nO subtítulo da Amazon permite texto adicional rico em palavras-chave que aparece abaixo do título. Use-o para termos que não couberam no título: nível de dificuldade, contagem de puzzles, temas incluídos e referência à série.\n\nA descrição do livro deve seguir uma estrutura clara: parágrafo de abertura descrevendo o que o comprador recebe, lista de destaques do conteúdo (número de puzzles, níveis de dificuldade, secção de soluções, temas), informação da audiência-alvo e referência a outros volumes da série. Use formatação HTML básica permitida pela Amazon (negrito, listas) para legibilidade.\n\nAs 7 palavras-chave da Amazon são campos ocultos que não aparecem no anúncio mas afetam a visibilidade de pesquisa. Use frases de pesquisa dos compradores que não conseguiu incluir no título e subtítulo: «livro passatempos adultos», «exercícios cognitivos seniores», «atividades férias crianças», «presente avós».\n\nSelecione categorias cuidadosamente. A Amazon permite duas categorias de navegação por livro. Escolha a categoria mais específica disponível em vez de categorias amplas — «Livros > Humor e Passatempos > Puzzles e Jogos > Caça-Palavras» posiciona melhor do que simplesmente «Livros > Passatempos».`,
     },
     {
@@ -62,22 +62,22 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Variedade vs. tipo único: qual abordagem primeiro',
+      heading: `Variedade vs. tipo único: qual abordagem primeiro`,
       content: `A decisão entre livros de variedade e tipo único afeta o posicionamento de pesquisa, a audiência-alvo e a escalabilidade do catálogo. Os livros de tipo único (exclusivamente caça-palavras, ou exclusivamente sudoku) posicionam para pesquisas mais específicas com maior intenção de compra — alguém que pesquisa «livro caça-palavras letra grande» sabe exatamente o que quer. Os livros de variedade posicionam para pesquisas mais amplas como «livro atividades crianças» e funcionam como presentes. A estratégia ideal é começar com tipo único para estabelecer presença na subcategoria mais competitiva, depois expandir para variedade uma vez que tenha fluxos de trabalho de produção estabelecidos. Para caça-palavras, publique pelo menos 3 volumes antes de diversificar — os compradores recorrentes de caça-palavras são a base de receita mais fiável no mercado de puzzles.`,
     },
     {
-      heading: 'Indicadores de dificuldade e secções de soluções',
+      heading: `Indicadores de dificuldade e secções de soluções`,
       content: `Dois elementos que os compradores de livros de puzzles avaliam imediatamente: se o livro indica claramente os níveis de dificuldade e se inclui soluções completas. Livros sem estas características recebem avaliações negativas consistentemente, independentemente da qualidade dos puzzles em si. Implemente três camadas de indicação de dificuldade: separadores de secção com rótulos Fácil/Médio/Difícil, marcadores de dificuldade em cada página individual de puzzle, e referência no índice. Para soluções, inclua grelhas de solução completas para cada puzzle — não apenas respostas textuais. Os caça-palavras devem mostrar a grelha com as palavras destacadas. As palavras cruzadas devem mostrar a grelha preenchida. O sudoku deve mostrar a grelha completa. Etiquete cada solução com o número de página do puzzle correspondente.`,
     },
     {
-      heading: 'Teste o tamanho da grelha fisicamente',
+      heading: `Teste o tamanho da grelha fisicamente`,
       content: `Antes de finalizar o manuscrito, imprima pelo menos uma página de teste para cada tamanho de grelha de puzzle que utiliza no livro. As grelhas que parecem perfeitamente legíveis no ecrã podem ser demasiado pequenas quando impressas — especialmente para livros de caça-palavras «letra grande» onde os compradores esperam caracteres substancialmente maiores que o padrão. Imprima no tamanho de corte real do livro (não em A4 padrão que distorce as proporções) e verifique que as letras são legíveis sem esforço, que os espaços de escrita são adequados e que as grelhas não parecem apertadas. Este teste de 5 minutos pode poupar avaliações negativas que mencionam «letra pequena» ou «grelhas difíceis de ler» — queixas que afundam livros de puzzles rapidamente na Amazon.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Estratégia de volume para compras recorrentes',
+      heading: `Estratégia de volume para compras recorrentes`,
       content: `Os livros de puzzles são o formato KDP ideal para vendas recorrentes porque os solucionadores consomem livros e regressam para mais. O modelo de negócio baseia-se em captar essa recorrência através de séries de volumes numerados. Publique o Volume 1 com qualidade excepcional para estabelecer a série. Quando os compradores terminam e procuram mais, o Volume 2 está disponível na mesma página de produto como «Outros livros nesta série». Um catálogo de 10 volumes de caça-palavras, por exemplo, pode gerar significativamente mais receita do que 10 livros únicos sem conexão entre si porque cada novo comprador que entra pela série tem um caminho de compra claro para 9 livros adicionais. A chave é manter qualidade e formatação consistentes — os compradores recorrentes notam e penalizam nas avaliações quando a qualidade baixa entre volumes.`,
     },
     {
@@ -92,7 +92,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Exemplo: Livro de puzzles de variedade infantil',
+      heading: `Exemplo: Livro de puzzles de variedade infantil`,
       content: `Um livro de puzzles de variedade de 80 páginas dirigido a crianças do ensino primário. O interior usa corte de 21,59 × 27,94 cm (8,5 × 11 polegadas) com margens de 1,91 cm (0,75 polegadas) para espaço de escrita confortável. O livro contém 60 páginas de puzzles organizadas em três secções de dificuldade: Fácil (páginas 1 a 20), Médio (páginas 21 a 40) e Difícil (páginas 41 a 60). Cada secção cicla por 5 tipos de puzzles: 4 caça-palavras criados com o gerador de caça-palavras usando vocabulário temático para crianças, 4 palavras cruzadas do gerador de palavras cruzadas com pistas de imagem, 4 puzzles de sudoku com imagens do gerador de sudoku, 4 labirintos de caminhos de imagens do gerador de caminhos de imagens, e 4 desafios de peças em falta do gerador de peças em falta. As páginas 61 a 72 contêm soluções para os 60 puzzles, etiquetadas claramente por número de página. As páginas iniciais incluem portadilha, página de instruções com soluções exemplo para cada tipo de puzzle, e índice por tipo de puzzle e dificuldade. A capa apresenta cores brilhantes com ilustrações de desenhos animados e pequenas pré-visualizações de cada tipo de puzzle. Preço de 8,99 dólares com aproximadamente 4,10 dólares em custos de impressão, produzindo uma regalía de aproximadamente 1,29 dólares por venda. As palavras-chave apontam a frases como «livro puzzles crianças idades 6 8 10» e «livro atividades variedade crianças desafios cerebrais».`,
     },
     {
@@ -135,33 +135,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'livros-caca-palavras-kdp',
-      title: 'Criar livros de caça-palavras para Amazon KDP',
+      title: `Criar livros de caça-palavras para Amazon KDP`,
       description: `Aprofunde-se na categoria de livros de puzzles mais popular na KDP. Cobre estratégias de conteúdo específicas de caça-palavras, criação de listas de palavras temáticas, tamanho de grelha para diferentes audiências e construção de um catálogo de caça-palavras multivolume.`,
     },
     {
       slug: 'livros-sudoku-kdp',
-      title: 'Criar livros de sudoku para Amazon KDP',
+      title: `Criar livros de sudoku para Amazon KDP`,
       description: `Explore o nicho de livros de sudoku na KDP. Cobre sudoku com imagens para crianças, sudoku numérico para adultos, progressão de dificuldade e os requisitos de formatação únicos da publicação de grelhas de sudoku.`,
     },
     {
-      slug: 'ganhar-dinheiro-kdp-livros-atividades',
-      title: 'Ganhar dinheiro com livros de atividades KDP',
+      slug: `ganhar-dinheiro-kdp-livros-atividades`,
+      title: `Ganhar dinheiro com livros de atividades KDP`,
       description: `O guia completo de rendimentos para editores KDP. Cobre estratégia de preços, economia de catálogo, publicação sazonal e abordagens multiplataforma para maximizar os rendimentos de livros de atividades.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
+    { pageType: 'guide', slug: `livros-atividades-matematica-kdp`, anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
     { pageType: 'guide', slug: 'livros-caca-palavras-kdp', anchorText: `Como criar livros de caça-palavras para Amazon KDP` },
-    { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: 'Como criar livros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'ganhar-dinheiro-kdp-livros-atividades', anchorText: 'Como ganhar dinheiro com livros de atividades KDP' },
-    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: 'Guia de formatação KDP para livros de fichas' },
-    { pageType: 'guide', slug: 'melhores-nichos-kdp-livros-atividades', anchorText: 'Melhores nichos de livros de atividades KDP' },
-    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para começar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: `Como criar livros de sudoku para Amazon KDP` },
+    { pageType: 'guide', slug: `ganhar-dinheiro-kdp-livros-atividades`, anchorText: `Como ganhar dinheiro com livros de atividades KDP` },
+    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: `Guia de formatação KDP para livros de fichas` },
+    { pageType: 'guide', slug: `melhores-nichos-kdp-livros-atividades`, anchorText: `Melhores nichos de livros de atividades KDP` },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: `Amazon KDP ou Etsy: Onde vender imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para começar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de caça-palavras — Detalhes completos' },
-    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: 'Experimentar o Gerador de Palavras Cruzadas' },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de caça-palavras — Detalhes completos` },
+    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: `Experimentar o Gerador de Palavras Cruzadas` },
   ],
 
   toolsRecommended: [
@@ -182,12 +182,12 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Gerador de fichas de puzzles matemáticos',
+      title: `Gerador de fichas de puzzles matemáticos`,
       description: `Cria puzzles de grelha baseados em números que adicionam variedade matemática às coleções de puzzles. Os puzzles matemáticos criam uma ponte entre entretenimento e educação, tornando-os valiosos tanto para livros de variedade infantis como para compilações de puzzles de formato misto para adultos.`,
     },
     {
       appId: 'picture-path',
-      title: 'Gerador de caminhos de imagens',
+      title: `Gerador de caminhos de imagens`,
       description: `Gera puzzles visuais estilo labirinto populares em livros de puzzles infantis. Os caminhos de imagens proporcionam uma experiência de resolução diferente dos puzzles baseados em grelha, adicionando diversidade visual aos livros de puzzles de variedade.`,
     },
     {
@@ -198,22 +198,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Caça-palavras mostrando grelha de palavras temática adequada para páginas interiores de livros de puzzles Amazon KDP' },
+    heroImage: { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Caça-palavras mostrando grelha de palavras temática adequada para páginas interiores de livros de puzzles Amazon KDP` },
     samples: [
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 2.webp`, alt: 'Caça-palavras temático formatado para livro de puzzles KDP', caption: 'Caça-palavras com tema — o tipo de puzzle mais popular para livros KDP que serve tanto o mercado de adultos como infantil' },
-      { src: `/samples/portuguese/crossword/Palavras Cruzadas 1.webp`, alt: 'Palavras cruzadas com pistas temáticas para livro de puzzles KDP', caption: 'Palavras cruzadas — acrescenta valor substancial de envolvimento a livros de puzzles e coleções de variedade na Amazon' },
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: 'Sudoku com imagens para livro de puzzles de variedade infantil na KDP', caption: 'Sudoku com imagens — puzzles de lógica visual que tornam os livros de variedade de puzzles infantis mais diversos e atrativos' },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 2.webp`, alt: `Caça-palavras temático formatado para livro de puzzles KDP`, caption: `Caça-palavras com tema — o tipo de puzzle mais popular para livros KDP que serve tanto o mercado de adultos como infantil` },
+      { src: `/samples/portuguese/crossword/Palavras Cruzadas 1.webp`, alt: `Palavras cruzadas com pistas temáticas para livro de puzzles KDP`, caption: `Palavras cruzadas — acrescenta valor substancial de envolvimento a livros de puzzles e coleções de variedade na Amazon` },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: `Sudoku com imagens para livro de puzzles de variedade infantil na KDP`, caption: `Sudoku com imagens — puzzles de lógica visual que tornam os livros de variedade de puzzles infantis mais diversos e atrativos` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Como criar caça-palavras para livros de puzzles Amazon KDP — Tutorial passo a passo`,
   },
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — imagem educativa temática', caption: 'Asteroide' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronauta — imagem educativa temática', caption: 'Astronauta' },
-    { src: '/image-library/space/comet.webp', alt: 'Cometa — imagem educativa temática', caption: 'Cometa' },
-    { src: '/image-library/space/earth.webp', alt: 'Terra — imagem educativa temática', caption: 'Terra' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Galáxia — imagem educativa temática', caption: 'Galáxia' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroide — imagem educativa temática`, caption: 'Asteroide' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronauta — imagem educativa temática`, caption: 'Astronauta' },
+    { src: `/image-library/space/comet.webp`, alt: `Cometa — imagem educativa temática`, caption: 'Cometa' },
+    { src: `/image-library/space/earth.webp`, alt: `Terra — imagem educativa temática`, caption: 'Terra' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Galáxia — imagem educativa temática`, caption: 'Galáxia' },
   ],
 };
 

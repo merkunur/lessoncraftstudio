@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Halloween para Vender — Guia`,
     metaDescription: `Descubra ideias de imprimíveis de Halloween para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos assustadores, estratégias sazonais e dicas práticas.`,
 
-    primaryKeyword: 'ideias de imprimíveis de halloween para vender',
+    primaryKeyword: `ideias de imprimíveis de halloween para vender`,
     secondaryKeywords: [
-      'fichas de Halloween para vender',
+      `fichas de Halloween para vender`,
       'negócio imprimíveis Halloween',
-      'fichas atividades Halloween para vendedores',
-      'vender imprimíveis de Halloween no Etsy',
+      `fichas atividades Halloween para vendedores`,
+      `vender imprimíveis de Halloween no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática assustadora',
-      'atividades loja outubro Halloween',
-      'imprimíveis temática abóboras e disfarces',
+      `fichas educativas temática assustadora`,
+      `atividades loja outubro Halloween`,
+      `imprimíveis temática abóboras e disfarces`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Para capturar as máximas receitas de Halloween, desenvolve produtos em múltipl
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Halloween para Vender Online',
+      title: `Sopas de Letras de Halloween para Vender Online`,
       description: `As sopas de letras com vocabulário assustador atraem vendedores que planificam atividades da loja de outubro e pais que procuram entretenimento educativo durante a época de Halloween. Cria puzzles com vocabulário específico de Halloween como abóbora, esqueleto, vampiro, lobisomem, caldeirão, vassoura e lápide junto com termos mais amplos de celebrações outonais. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de Halloween para compradores mais velhos. As variações como vocabulário de monstros, palavras de casas assombradas e terminologia de pedir doces expandem o teu catálogo para captar diferentes interesses de compradores dentro do nicho sazonal assustador.`,
       appId: 'wordsearch',
     },
@@ -90,12 +90,12 @@ Para capturar as máximas receitas de Halloween, desenvolve produtos em múltipl
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Halloween no Etsy',
+      title: `Vender Imprimíveis de Halloween no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para as listagens de imprimíveis de Halloween, e a época de compras de outubro cria um importante pico de tráfego para as transferências digitais educativas. Publica as tuas listagens de Halloween a meados de agosto para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura de setembro começar. Utiliza as treze etiquetas com variações que combinem subtemas de Halloween, tipos de competência e grupos etários: «fichas contagem Halloween pré-escolar», «sopa de letras assustadora jardim de infância» e «páginas colorir abóbora infantil» apontam para pesquisas específicas de compradores de forma muito mais eficaz do que etiquetas amplas como «fichas Halloween». Cria variações de listagens orientadas para festas posicionando os pacotes de atividades como pacotes para festas de Halloween online ou complementos de sacos de pedir doces. As imagens de listagens mostrando fichas de Halloween impressas em ambientes com temática assustadora e adereços sazonais superam as pré-visualizações digitais planas e captam a mentalidade festiva que impulsiona o tráfego de outubro.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Halloween no KDP',
+      title: `Publicar Livros de Atividades de Halloween no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de Halloween porque os pais e compradores de presentes naturalmente adicionam livros de atividades aos seus carrinhos da Amazon junto com disfarces, decorações e artigos de pedir doces. Compila fichas individuais de Halloween em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas assustadores. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades Halloween para crianças», «fichas assustadoras pré-escolar» e termos de subtemas como «livro colorir abóboras» ou «atividades monstros para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como complementos de sacos de pedir doces ou lembranças de festas de outubro. Publica em finais de agosto para assegurar que os teus livros estão indexados e disponíveis antes de a fase de planificação de setembro se intensificar, e considera criar múltiplos livros dirigidos a diferentes grupos etários e subtemas para captar consultas de pesquisa variadas durante o apuro de Halloween.`,
     },
     {
@@ -144,18 +144,18 @@ Para capturar as máximas receitas de Halloween, desenvolve produtos em múltipl
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ Para capturar as máximas receitas de Halloween, desenvolve produtos em múltipl
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,17 +180,17 @@ Para capturar as máximas receitas de Halloween, desenvolve produtos em múltipl
     {
       pageType: 'idea',
       slug: 'natal-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Natal',
+      anchorText: `Ideias de Negócio de Imprimíveis de Natal`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

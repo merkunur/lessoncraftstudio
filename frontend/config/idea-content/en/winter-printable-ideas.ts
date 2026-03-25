@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Winter Printable Ideas to Sell — Niche Guide',
+    titleTag: `Winter Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover winter printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Cold-weather product concepts with strong November-February demand for worksheet.`,
 
     primaryKeyword: 'winter printable ideas',
     secondaryKeywords: [
       'winter worksheets to sell',
-      'winter themed printable business',
-      'winter activity sheets for sellers',
-      'sell winter printables on Etsy',
+      `winter themed printable business`,
+      `winter activity sheets for sellers`,
+      `sell winter printables on Etsy`,
     ],
     lsiKeywords: [
-      'snow and ice educational worksheets',
+      `snow and ice educational worksheets`,
       'cold weather activity pages',
-      'seasonal winter themed printables',
+      `seasonal winter themed printables`,
     ],
   },
   hero: {
-    title: 'Winter Printable Business Ideas for Sellers',
+    title: `Winter Printable Business Ideas for Sellers`,
     description: `Winter opens a broad selling window from November through February as buyers seek post-holiday seasonal themes, parents search for indoor learning activities during cold months, and homeschool families look for seasonal variety beyond the December holiday rush. The winter niche offers rich sub-theme diversity including snowflakes, snowmen, penguins, mittens, igloos, polar bears, sleds, hot cocoa, icicles, and frost, giving sellers a visually distinctive vocabulary that stands apart from Christmas-specific products. Daycares and after-school programs need structured indoor activities when outdoor play becomes limited, creating steady demand throughout the coldest months. For printable sellers on Etsy, Amazon KDP, and Gumroad, winter represents a non-denominational seasonal niche with predictable annual demand and cozy cold-weather imagery that resonates with buyers across diverse backgrounds. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable winter printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The winter printable niche occupies a uniquely advantageous position in the seasonal selling calendar because it delivers sustained demand across a four-month window without the intense competition that clusters around specific holidays like Christmas or Valentine\'s Day. Buyers return from winter break in January needing fresh seasonal themes that maintain engagement during the long stretch before spring, and winter imagery provides a natural, market-friendly option that works in every school setting regardless of cultural or religious considerations. Parents facing weeks of cold weather and limited outdoor play actively seek educational indoor activities that keep children learning and entertained, making winter worksheets a practical purchase rather than a seasonal luxury.
@@ -42,17 +42,17 @@ The competitive advantage in winter printables comes from visual quality and the
 
   productIdeas: [
     {
-      title: 'Winter Counting Worksheets for Printable Sellers',
+      title: `Winter Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring snowflakes, penguins, mittens, and snowmen bring cold-weather excitement to early math practice that buyers and parents purchase throughout the November-February winter season. Use the Find and Count generator to create winter scenes where children locate and tally specific items among snowy landscapes, igloo villages, and frozen pond settings. Offer sets targeting multiple ability levels: count winter objects up to five for the preschool-age market, count and write numbers to ten for the kindergarten-age market, and skip-counting with rows of snowflakes or groups of penguins for first graders. Bundle by difficulty or combine all levels into a comprehensive winter counting pack for mixed-ability audiences seeking structured indoor math activities.`,
       appId: 'find-count',
     },
     {
-      title: 'Winter Word Search Puzzles to Sell Online',
+      title: `Winter Word Search Puzzles to Sell Online`,
       description: `Cold-weather vocabulary word searches attract sellers planning January and February group activities and parents seeking educational indoor entertainment during winter months. Create puzzles featuring winter-specific vocabulary like snowflake, mitten, icicle, penguin, igloo, frost, and blizzard alongside broader cold-weather activity terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more winter terms for older children. Variations like arctic animal vocabulary, winter clothing words, and cold-weather science terminology expand your catalog to capture different buyer interests within the winter seasonal niche.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Winter Matching Activities for Educational Shops',
+      title: `Winter Matching Activities for Educational Shops`,
       description: `Matching worksheets using winter themes work across multiple skill areas, making them versatile products that appeal to the broadest possible cold-weather buyer audience. Create sets where children match mittens to their pairs, connect arctic animals like penguins with their habitats and polar bears with their food, or pair winter clothing items to appropriate weather conditions. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to preschool and kindergarten sellers planning structured indoor activities during cold months when outdoor play is limited. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the cozy winter theme drives purchases throughout the four-month November-February selling window.`,
       appId: 'matching',
     },
@@ -62,12 +62,12 @@ The competitive advantage in winter printables comes from visual quality and the
       appId: 'addition',
     },
     {
-      title: 'Winter Coloring Pages for Etsy and KDP Sellers',
+      title: `Winter Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are a high-volume entry product for winter printable shops because cold-weather coloring appeals to virtually every family with young children seeking indoor activities during the long winter months. The Coloring Page generator creates detailed outlines of snowmen, penguin scenes, snowy landscapes, cozy indoor winter moments, children sledding, and frost-covered windows. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as arctic animals or winter sports scenes. For KDP, compile thirty to fifty coloring pages into winter activity books positioned as snow day entertainment or cold-weather gifts. Add educational elements like winter vocabulary labels, counting prompts, or letter practice alongside the coloring images to tier from purely decorative options and appeal to education-focused buyers.`,
       appId: 'coloring',
     },
     {
-      title: 'Winter Bingo Cards for Indoor Activities',
+      title: `Winter Bingo Cards for Indoor Activities`,
       description: `Winter bingo cards serve sellers running indoor recess activities and parents organizing snow day entertainment and cozy family gatherings during the coldest months. The Bingo generator creates unique card variations from your winter vocabulary list, ensuring no two cards are identical for group play. Sell store sets of twenty-five to thirty cards with a caller sheet and winter vocabulary reference guide included. For the family market, create bingo kits featuring snowflake symbols, arctic animal characters, and cold-weather vocabulary that groups can play during indoor gatherings and snow day celebrations. Bingo products generate strong seasonal demand because every store needs structured indoor activities during winter, and digital bingo cards can be purchased and printed minutes before indoor recess begins.`,
       appId: 'bingo',
     },
@@ -96,17 +96,17 @@ The competitive advantage in winter printables comes from visual quality and the
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Winter Printables on Etsy',
+      title: `Selling Winter Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for winter printable listings, and the extended cold-weather shopping season creates sustained traffic for educational digital downloads from November through February. Publish your winter listings by late September or early October to allow Etsy search algorithms time to index and rank your products before the November demand ramp begins. Use all thirteen tags with variations combining winter sub-themes, skill types, and age groups: "winter counting worksheets preschool," "snowflake word search kindergarten," and "penguin coloring pages toddler" target specific buyer searches far more effectively than broad tags like "winter worksheets." Position your products as non-denominational seasonal alternatives, explicitly noting they work for all stores regardless of holiday celebrations. Listing images showing printed winter worksheets with cozy seasonal styling and cold-weather props outperform flat digital previews and capture the seasonal mindset that drives winter traffic.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Winter Activity Books on KDP',
+      title: `Publishing Winter Activity Books on KDP`,
       description: `Amazon KDP excels for winter printables because parents and gift buyers naturally seek indoor activity solutions during the cold months, adding activity books to their Amazon carts alongside winter clothing, snow gear, and indoor entertainment. Compile individual winter worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around cold-weather themes. Use KDP keyword fields strategically: include "winter activity book for kids," "snow day worksheets preschool," and sub-theme terms like "penguin coloring book" or "snowman activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as snow day entertainment, indoor weather solutions, or January-February product collections. Publish by early October to ensure your books are indexed and available before the November buying season begins, and consider creating multiple books targeting different age groups to capture varied search queries throughout the winter months.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Winter Resources on Gumroad',
+      title: `Selling Winter Resources on Gumroad`,
       description: `Gumroad buyers are buyers searching for January-February content gap-fillers, post-holiday seasonal themes, and winter-themed educational resources they can implement with minimal preparation during the transition back from winter break. Winter printables on Gumroad perform best when packaged as ready-to-use store solutions: indoor recess activity stations, winter morning work packets, or cold-weather themed homework packs with parent instruction letters. Include clear learning objectives so sellers can justify seasonal activities to administrators, and add tiered difficulty options for mixed-ability winter audiences where maintaining academic focus after the holiday break requires engaging thematic content. Highlight that winter themes are non-denominational and work for every store, positioning your products as the perfect bridge between December holiday activities and spring themes. Gumroad's bundling feature lets you offer individual winter products and a discounted seasonal mega-bundle simultaneously, capturing both budget-conscious buyers and those investing in comprehensive winter product collections.`,
     },
     {
@@ -151,32 +151,32 @@ The competitive advantage in winter printables comes from visual quality and the
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -186,17 +186,17 @@ The competitive advantage in winter printables comes from visual quality and the
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Business Ideas',
+      anchorText: `Christmas Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/winter/boots.webp', alt: 'Boots — themed educational image', caption: 'Boots' },
-    { src: '/image-library/winter/cabin.webp', alt: 'Cabin — themed educational image', caption: 'Cabin' },
-    { src: '/image-library/winter/coat.webp', alt: 'Coat — themed educational image', caption: 'Coat' },
-    { src: '/image-library/winter/cocoa.webp', alt: 'Cocoa — themed educational image', caption: 'Cocoa' },
-    { src: '/image-library/winter/earmuffs.webp', alt: 'Earmuffs — themed educational image', caption: 'Earmuffs' },
-    { src: '/image-library/winter/evergreen.webp', alt: 'Evergreen — themed educational image', caption: 'Evergreen' },
+    { src: `/image-library/winter/boots.webp`, alt: `Boots — themed educational image`, caption: 'Boots' },
+    { src: `/image-library/winter/cabin.webp`, alt: `Cabin — themed educational image`, caption: 'Cabin' },
+    { src: `/image-library/winter/coat.webp`, alt: `Coat — themed educational image`, caption: 'Coat' },
+    { src: `/image-library/winter/cocoa.webp`, alt: `Cocoa — themed educational image`, caption: 'Cocoa' },
+    { src: `/image-library/winter/earmuffs.webp`, alt: `Earmuffs — themed educational image`, caption: 'Earmuffs' },
+    { src: `/image-library/winter/evergreen.webp`, alt: `Evergreen — themed educational image`, caption: 'Evergreen' },
   ],
 
 

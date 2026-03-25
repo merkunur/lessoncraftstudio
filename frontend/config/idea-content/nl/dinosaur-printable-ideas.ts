@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaurus Printables Verkopen — Nichegids',
+    titleTag: `Dinosaurus Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende dinosaurus printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, platformstrategieën en nichetips voor verkopers.`,
 
     primaryKeyword: 'dinosaurus printable ideeën',
     secondaryKeywords: [
-      'dinosaurus werkbladen verkopen',
-      'dinosaurusthema printable business',
-      'dinosaurus activiteiten voor verkopers',
-      'dinosaurus printables verkopen op Etsy',
+      `dinosaurus werkbladen verkopen`,
+      `dinosaurusthema printable business`,
+      `dinosaurus activiteiten voor verkopers`,
+      `dinosaurus printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'prehistorische educatieve werkbladen',
-      'paleontologie activiteiten voor kinderen',
-      'Jura-thema printbare producten printables',
+      `prehistorische educatieve werkbladen`,
+      `paleontologie activiteiten voor kinderen`,
+      `Jura-thema printbare producten printables`,
     ],
   },
   hero: {
@@ -42,12 +42,12 @@ Vanuit het oogpunt van productvariatie ondersteunt de dinosaurusniche een ongewo
 
   productIdeas: [
     {
-      title: 'Dinosaurus Telwerkbladen voor Printable Verkopers',
+      title: `Dinosaurus Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met T-Rex, triceratops, stegosaurus en andere populaire soorten behoren tot de meest gevraagde dinosaurus printables. Maak sets gericht op progressieve vaardigheidsniveaus: dinosaurussen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met prehistorische wezens voor kinderen in groep 3. Gebruik de Zoek en Tel-generator om visueel boeiende scènes te produceren waarin kinderen specifieke dinosaurussoorten lokaliseren en tellen. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid telpakket dat verkopers het hele jaar door kunnen gebruiken in productlijnen met gemengde vaardigheidsniveaus. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Dinosaurus Woordzoekpuzzels Online Verkopen',
+      title: `Dinosaurus Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met dinosaurusvocabulaire trekken zowel ouders aan die de taalvaardigheden van hun kind opbouwen als verkopers die paleontologie- of wetenschapsunits geven. Maak puzzels met soortnamen zoals tyrannosaurus, brachiosaurus en pterodactylus naast termen als fossiel, uitgestorven, herbivoor en carnivoor. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen voor leeftijdsgeschikte moeilijkheidsgraden. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer woorden voor oudere gebruikers. Deze producten combineren natuurlijk met wetenschapsproductcatalogusbronnen en verkopen consistent op alle platforms.`,
       appId: 'wordsearch',
     },
@@ -62,7 +62,7 @@ Vanuit het oogpunt van productvariatie ondersteunt de dinosaurusniche een ongewo
       appId: 'addition',
     },
     {
-      title: 'Dinosaurus Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Dinosaurus Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten dienen als het ideale instapproduct voor een printable-winkel met dinosaurusthema omdat ze impulsaankopen aantrekken en vroege beoordelingen genereren. De Kleuren-generator maakt gedetailleerde contouren van populaire dinosaurussen waaronder T-Rex, stegosaurus, triceratops, velociraptor en pterodactylus in verschillende poses en scènes. Voor Etsy verkoop je individuele pagina's of samengestelde sets van tien tot vijftien. Voor KDP compileer je dertig tot vijftig kleurplaten in activiteitenboeken gericht op de categorie kinderdinosaurussen. Voeg soortnamen, leuke weetjes of oefenelementen toe naast elke afbeelding om je te onderscheiden van puur decoratieve alternatieven en hogere prijzen te ondersteunen.`,
       appId: 'coloring',
     },
@@ -72,8 +72,8 @@ Vanuit het oogpunt van productvariatie ondersteunt de dinosaurusniche een ongewo
       appId: 'bingo',
     },
     {
-      title: 'Dinosaurus Schaduwkoppelwerkbladen Verkopen',
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en dinosaurussilhouetten creëren bijzonder boeiende versies van deze activiteit. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen dinosaurussen koppelen aan hun schaduwen. De onderscheidende lichaamsvormen van verschillende soorten, van de lange nek van een brontosaurus tot de pantseerplaten van een stegosaurus, maken dinosaurus-schaduwkoppelen zowel educatief als visueel interessant. Varieer de moeilijkheidsgraad door soorten met vergelijkbare profielen op te nemen in gevorderde versies. Deze werkbladen printen goed in zowel kleur als grijstinten, en sets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      title: `Dinosaurus Schaduwkoppelwerkbladen Verkopen`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en dinosaurussilhouetten creëren bijzonder boeiende versies van deze activiteit. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen dinosaurussen koppelen aan hun schaduwen. De onderscheidende lichaamsvormen van verschillende soorten, van de lange nek van een brontosaurus tot de pantseerplaten van een stegosaurus, maken dinosaurus-schaduwkoppelen zowel educatief als visueel interessant. Varieer de moeilijkheidsgraad door soorten met vergelijkbare profielen op te nemen in gevorderde versies. Deze werkbladen printen goed in zowel kleur als grijstinten, en sets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -96,12 +96,12 @@ Vanuit het oogpunt van productvariatie ondersteunt de dinosaurusniche een ongewo
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Dinosaurus Printables Verkopen op Etsy',
+      title: `Dinosaurus Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in dinosaurus printable-vermeldingen. In plaats van generieke titels zoals "Dinosaurus Werkbladen" richt je je op long-tail zoekwoorden zoals "dinosaurus telwerkblad kleuters" of "T-Rex kleurplaten peuters printable." Gebruik alle dertien tags met variaties die soortnamen, vaardigheden en leeftijdsgroepen combineren. Mockup-afbeeldingen die geprinte dinosauruswerkbladen in gebruik tonen presteren aanzienlijk beter dan platte digitale voorbeelden. In tegenstelling tot veel niches behouden dinosaurus printables het hele jaar door een gestage vraag zonder sterke seizoensvariatie, wat consistente vermeldingsprestaties betekent over alle maanden. Bied zowel individuele werkbladen als themabundels aan. De Nederlandse markt via Etsy.nl biedt extra kansen door het beperkte aanbod van Nederlandstalige dinosauruswerkbladen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Dinosaurus Activiteitenboeken Publiceren op KDP',
+      title: `Dinosaurus Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is uitstekend geschikt voor dinosaurus printables wanneer je werkbladen compileert tot uitgebreide activiteitenboeken. Een activiteitenboek met dinosaurussen van veertig tot zestig pagina's dat tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten combineert, presteert sterk in de categorie kinderactiviteitenboeken, waar dinosaurustermen een hoog zoekvolume genereren. Gebruik KDP-zoekwoordvelden strategisch met zinnen als "dinosaurus activiteitenboek voor kinderen," "prehistorische dieren werkbladen" en leeftijdsspecifieke termen. Prijs tussen vier en zeven euro voor optimale royaltytarieven. De dinosauruscategorie op Amazon profiteert van cadeaukoopgedrag, aangezien familieleden regelmatig dinosaurusboeken kopen voor jonge enthousiastelingen. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
@@ -151,62 +151,62 @@ Vanuit het oogpunt van productvariatie ondersteunt de dinosaurusniche een ongewo
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-word-search-puzzles',
-      anchorText: 'Professionele woordzoekpuzzels maken',
+      anchorText: `Professionele woordzoekpuzzels maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'pets-printable-ideas',
-      anchorText: 'Huisdieren printable businessideeën',
+      anchorText: `Huisdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'safari-animals-printable-ideas',
-      anchorText: 'Safaridieren printable businessideeën',
+      slug: `safari-animals-printable-ideas`,
+      anchorText: `Safaridieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'space-printable-ideas',
-      anchorText: 'Ruimte printable businessideeën',
+      anchorText: `Ruimte printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: `Allosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: `Ankylosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: `Apatosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: `Argentinosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: `Brachiosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Brachiosaurus' },
-    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: `Brontosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Brontosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/brontosaurus.webp`, alt: `Brontosaurus — educatieve thema-afbeelding dinosaurussen`, caption: 'Brontosaurus' },
   ],
 
   youtubeId: '0cOPi7eajLs',

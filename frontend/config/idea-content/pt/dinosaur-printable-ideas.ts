@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Dinossauros — Guia de Nicho`,
     metaDescription: `Ideias lucrativas de imprimíveis de dinossauros para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos, estratégias por plataforma e dicas de nicho.`,
 
-    primaryKeyword: 'ideias de imprimíveis de dinossauros',
+    primaryKeyword: `ideias de imprimíveis de dinossauros`,
     secondaryKeywords: [
-      'fichas temática dinossauros para vender',
-      'negócio imprimíveis dinossauros',
-      'fichas atividades dinossauros para vendedores',
-      'vender imprimíveis dinossauros no Etsy',
+      `fichas temática dinossauros para vender`,
+      `negócio imprimíveis dinossauros`,
+      `fichas atividades dinossauros para vendedores`,
+      `vender imprimíveis dinossauros no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática pré-histórica',
-      'atividades paleontologia para crianças',
-      'imprimíveis escolares temática Jurássica',
+      `fichas educativas temática pré-histórica`,
+      `atividades paleontologia para crianças`,
+      `imprimíveis escolares temática Jurássica`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ Do ponto de vista da variedade de produtos, o nicho de dinossauros suporta um ca
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Dinossauros para Vender Online',
+      title: `Sopas de Letras de Dinossauros para Vender Online`,
       description: `As sopas de letras com vocabulário de dinossauros atraem tanto pais que procuram desenvolver as competências linguísticas dos seus filhos como vendedores que conduzem unidades de paleontologia ou ciências. Cria puzzles com nomes de espécies como tiranossauro, braquiossauro e pterodáctilo juntamente com termos como fóssil, extinto, herbívoro e carnívoro. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para uma dificuldade adequada à idade. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais palavras para compradores mais velhos. Estes produtos combinam-se naturalmente com recursos de ciências e vendem-se de forma consistente em todas as plataformas.`,
       appId: 'wordsearch',
     },
@@ -96,7 +96,7 @@ Do ponto de vista da variedade de produtos, o nicho de dinossauros suporta um ca
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Dinossauros no Etsy',
+      title: `Vender Imprimíveis de Dinossauros no Etsy`,
       description: `O Etsy recompensa a especificidade nas listagens de imprimíveis de dinossauros. Em vez de títulos genéricos como «Fichas de Dinossauros», aponta a palavras-chave de cauda longa como «fichas de contagem de dinossauros pré-escolar» ou «páginas para colorir de T-Rex para crianças pequenas imprimível». Utiliza as treze etiquetas com variações que combinem nomes de espécies, competências e grupos etários. As imagens de maqueta mostrando fichas de dinossauros impressas em uso superam significativamente as pré-visualizações digitais planas. Ao contrário de muitos nichos, os imprimíveis de dinossauros mantêm uma procura constante durante todo o ano sem forte variação sazonal, o que significa um desempenho consistente das listagens em todos os meses. Oferece tanto fichas individuais como pacotes temáticos, já que os compradores do Etsy frequentemente começam com uma compra individual antes de regressarem para pacotes maiores.`,
     },
     {
@@ -150,18 +150,18 @@ Do ponto de vista da variedade de produtos, o nicho de dinossauros suporta um ca
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -175,7 +175,7 @@ Do ponto de vista da variedade de produtos, o nicho de dinossauros suporta um ca
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -185,18 +185,18 @@ Do ponto de vista da variedade de produtos, o nicho de dinossauros suporta um ca
     },
     {
       pageType: 'idea',
-      slug: 'animais-estimacao-ideias-imprimiveis',
+      slug: `animais-estimacao-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais de Estimação`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Alossauro — imagem educativa temática', caption: 'Alossauro' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Anquilossauro — imagem educativa temática', caption: 'Anquilossauro' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatossauro — imagem educativa temática', caption: 'Apatossauro' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinossauro — imagem educativa temática', caption: 'Argentinossauro' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Braquiossauro — imagem educativa temática', caption: 'Braquiossauro' },
-    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontossauro — imagem educativa temática', caption: 'Brontossauro' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Alossauro — imagem educativa temática`, caption: 'Alossauro' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Anquilossauro — imagem educativa temática`, caption: 'Anquilossauro' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatossauro — imagem educativa temática`, caption: 'Apatossauro' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinossauro — imagem educativa temática`, caption: 'Argentinossauro' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Braquiossauro — imagem educativa temática`, caption: 'Braquiossauro' },
+    { src: `/image-library/dinosaurs/brontosaurus.webp`, alt: `Brontossauro — imagem educativa temática`, caption: 'Brontossauro' },
   ],
 
 

@@ -2,22 +2,22 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zeichen-Arbeitsblätter erstellen',
+    primaryKeyword: `Zeichen-Arbeitsblätter erstellen`,
     secondaryKeywords: [
-      'Rasterzeichnung Arbeitsblätter für Kinder',
-      'Symmetrie-Arbeitsblatt-Generator',
-      'druckbare Zeichen-Arbeitsblätter zum Verkaufen',
-      'Zelle-für-Zelle-Reproduktion Arbeitsblätter',
+      `Rasterzeichnung Arbeitsblätter für Kinder`,
+      `Symmetrie-Arbeitsblatt-Generator`,
+      `druckbare Zeichen-Arbeitsblätter zum Verkaufen`,
+      `Zelle-für-Zelle-Reproduktion Arbeitsblätter`,
     ],
     lsiKeywords: [
-      'Doppelraster Zeichen-Druckvorlagen',
-      'einstellbarer Hinweisprozentsatz Arbeitsblätter',
+      `Doppelraster Zeichen-Druckvorlagen`,
+      `einstellbarer Hinweisprozentsatz Arbeitsblätter`,
       'Spiegelmodus Symmetrieübungen',
-      'Zeichen-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Zeichen-Aktivitätsbücher',
-      'Schwarz-Weiß-Umriss Arbeitsblatt-Tool',
+      `Zeichen-Arbeitsblätter auf Etsy verkaufen`,
+      `Amazon KDP Zeichen-Aktivitätsbücher`,
+      `Schwarz-Weiß-Umriss Arbeitsblatt-Tool`,
     ],
-    titleTag: 'Zeichen-Arbeitsblätter erstellen — Anleitung',
+    titleTag: `Zeichen-Arbeitsblätter erstellen — Anleitung`,
     metaDescription: `Zeichen-Arbeitsblätter mit Doppelraster-System und einstellbarem Hinweisprozentsatz erstellen. Drei Symmetriemodi, S/W-Export für den Verkauf auf Etsy und.`,
   },
 
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Klicken Sie auf die Schaltfläche unten, um den Rasterzeichnen-Arbeitsblatt-Ersteller in Ihrem Browser zu starten. Das Tool öffnet sich mit einer Einstellungs-Seitenleiste auf der linken Seite und einer Live-Vorschau-Leinwand auf der rechten Seite. Keine Kontoerstellung, keine Softwareinstallation und kein Download erforderlich — der Generator läuft vollständig in Ihrem Browser und ist sofort einsatzbereit.\n\nDie Einstellungs-Seitenleiste organisiert alle Steuerelemente in logische Abschnitte: Seiteneinrichtung für Layout und Hintergründe, Rasterkonfiguration für Abmessungen und Hinweiseinstellungen, Symmetriemodus für Spiegeloptionen, Themenauswahl für Schwarz-Weiß-Umrissbilder und Textwerkzeuge für Titel und Beschriftungen. Die Leinwand auf der rechten Seite aktualisiert sich in Echtzeit, wenn Sie Einstellungen anpassen, sodass Sie genau sehen, wie Ihr Arbeitsblatt aussehen wird, bevor Sie es exportieren.\n\nNehmen Sie sich einen Moment, um die Benutzeroberfläche zu erkunden. Jeder Abschnitt lässt sich für einen aufgeräumten Arbeitsbereich ein- und ausklappen. Die Leinwand unterstützt vollständige Fabric.js-Bearbeitung — ziehen, skalieren, drehen und positionieren Sie jedes Element direkt in der Vorschau. So haben Sie die volle Kontrolle über jeden Aspekt Ihres Arbeitsblatt-Layouts.`,
     },
     {
-      heading: 'Seitenlayout und Hintergrund festlegen',
+      heading: `Seitenlayout und Hintergrund festlegen`,
       content: `Beginnen Sie im Abschnitt Seiteneinrichtung, um die physischen Abmessungen und den visuellen Stil Ihres Arbeitsblatts zu definieren.\n\nDie Seitengrößen-Optionen umfassen Letter Hochformat (Standard für nordamerikanische Käufer), Letter Querformat, A4 Hochformat (Standard für europäische und internationale Märkte), A4 Querformat, Quadrat (1200×1200 Pixel, nützlich für soziale Medien und digitale Nutzung) und benutzerdefinierte Abmessungen für spezielle Formate. Das Erstellen von Letter- und A4-Versionen jedes Arbeitsblatts verdoppelt Ihre Marktplatzreichweite mit minimalem Zusatzaufwand.\n\nDie Seitenfarbe legt den Hintergrund fest. Weiß ist Standard für gedruckte Arbeitsblätter und Amazon KDP-Inhalte. Helle Pastelltöne können digitalen Download-Produkten auf Etsy eine warme visuelle Note verleihen.\n\nDas Hintergrundthema ermöglicht die Auswahl eines dekorativen Hintergrundmusters aus der Bildbibliothek. Verwenden Sie den Deckkraft-Regler, um es dezent zu halten — das Raster und der Zeicheninhalt sollten der klare visuelle Schwerpunkt bleiben. Ein schwaches Hintergrundmuster verleiht einen professionellen Touch, ohne von der Übung abzulenken.\n\nDas Rahmenthema fügt einen dekorativen Rahmen um die Seitenränder hinzu. Die Rahmendeckkraft wird unabhängig vom Hintergrund gesteuert. Thematische Rahmen (Sterne, Blumen, geometrische Formen) geben Ihren Arbeitsblättern ein poliertes, markentypisches Aussehen, das sie von schlichten Designs abhebt.`,
     },
     {
-      heading: 'Rasterabmessungen konfigurieren',
+      heading: `Rasterabmessungen konfigurieren`,
       content: `Die Rasterabmessungen steuern die Anzahl der Zellen in Ihrem Zeichenraster und fungieren als eine von zwei unabhängigen Schwierigkeitsachsen. Zeilen und Spalten werden unabhängig voneinander angepasst und unterstützen sowohl quadratische als auch nicht-quadratische Raster.\n\nEin 3×3-Raster erzeugt 9 große Zellen — die einfachste Stufe, ideal für Vorschul- und frühe Kindergartenkinder, die grundlegende räumliche Wahrnehmung entwickeln. Große Zellen sind fehlerverzeihend und bieten jungen Lernenden viel Platz zum Zeichnen.\n\nEin 5×5-Raster erzeugt 25 Zellen — eine moderate Herausforderung, geeignet für Kindergarten bis zur ersten Klasse. Die Zellen sind kleiner und erfordern genauere Beobachtung und präziseres Zeichnen.\n\nEin 7×7-Raster erzeugt 49 Zellen — eine deutliche Herausforderung für Erst- und Zweitklassmarkt. Nutzer müssen jede Referenzzelle sorgfältig beobachten und feine Details in kleineren Räumen reproduzieren.\n\nEin 10×10-Raster erzeugt 100 Zellen — Expertenschwierigkeit, die eine präzise Reproduktion sehr kleiner Bildabschnitte erfordert. Diese Stufe eignet sich für ältere Nutzer und Erwachsene, die detaillierte Zeichenherausforderungen genießen.\n\nNicht-quadratische Raster (4×6, 8×5, 3×10) passen zu verschiedenen Bildseitenverhältnissen und schaffen zusätzliche Produktvielfalt. Ein hohes 3×8-Raster eignet sich gut für Hochformat-Bilder wie Ganzkörper-Figuren, während ein breites 8×3-Raster zu Landschaftsszenen passt.\n\nFür die Produkterstellung erzeugt jede Rastergröße bei einem gegebenen Hinweisprozentsatz ein wirklich unterschiedliches Schwierigkeitserlebnis. Ein 5×5-Raster mit 50 % Hinweisen und ein 10×10-Raster mit 50 % Hinweisen zeigen beide die Hälfte der Referenz, aber die kleineren Zellen im größeren Raster machen die Reproduktion deutlich schwieriger.`,
     },
     {
@@ -51,22 +51,22 @@ const content: GuideContent = {
       content: `Der Symmetriemodus-Wähler fügt Rasterzeichnungsübungen eine räumliche Denkdimension hinzu. Drei Modi steuern, wie Hinweiszellen innerhalb des Rasters positioniert werden, wobei jeder ein anderes Lernziel verfolgt.\n\nDer Zufallsmodus verteilt Hinweiszellen in beliebigen Positionen über das Raster. Dies ist der Standardmodus für allgemeine Zeichenpraxis. Nutzer beobachten die jeweils aufgedeckten Zellen und nutzen sie als Referenzpunkte, um das vollständige Bild zu vervollständigen. Die zufällige Platzierung erzeugt organisch wirkende Übungen, bei denen die Schwierigkeit rein vom Hinweisprozentsatz und der Rastergröße abhängt.\n\nDer Horizontale Spiegelmodus verteilt Hinweiszellen symmetrisch von links nach rechts. Nutzer sehen Referenzzellen auf einer Hälfte des Rasters und müssen das Spiegelbild auf der anderen Hälfte konstruieren. Dies lehrt bilaterale Symmetrie — ein grundlegendes Konzept in Geometrie, Biologie und Kunst. Wenn der horizontale Modus ausgewählt ist, können Sie über einen Auswahlregler festlegen, ob Hinweise auf der linken oder rechten Hälfte des Rasters erscheinen.\n\nDer Vertikale Spiegelmodus verteilt Hinweiszellen symmetrisch von oben nach unten. Nutzer sehen Referenzzellen auf der oberen oder unteren Hälfte und rekonstruieren das Spiegelbild auf der gegenüberliegenden Seite. Dies lehrt vertikale Symmetrie und entwickelt Fähigkeiten zur räumlichen Orientierung. Der Auswahlregler ermöglicht die Wahl der anzuzeigenden Hälfte.\n\nSymmetriemodi verwandeln das Rasterzeichnen von einer reinen Kunstaktivität in eine fächerübergreifende Übung, die Kunst und Mathematik verbindet. Produkte, die sowohl mit „Zeichen-Arbeitsblätter" als auch mit „Symmetrieübungen" getaggt sind, erscheinen in zwei separaten Kategoriesuchen auf Marktplätzen und verdoppeln Ihre Sichtbarkeit. Ein „Komplettes Symmetrie-Zeichen-Paket", das horizontale und vertikale Übungen bei mehreren Schwierigkeitsstufen kombiniert, ist ein starkes eigenständiges Produkt für Gumroad.`,
     },
     {
-      heading: 'Schwarz-Weiß-Themenbild auswählen',
+      heading: `Schwarz-Weiß-Themenbild auswählen`,
       content: `Die Themenauswahl bietet Zugang zu über 100 Schwarz-Weiß-Umriss-Themensammlungen mit über 3.000 Schwarz-Weiß-Illustrationen, organisiert nach Kategorien: Tiere, Fahrzeuge, Essen, Natur, Berufe, Feiertage, Sport und Dutzende mehr.\n\nDies sind speziell Schwarz-Weiß-Umrisszeichnungen — klare, deutliche Linien, die für zwei Zwecke entworfen wurden. Erstens sind sie ideal für die Zelle-für-Zelle-Reproduktion, da Nutzer die zu kopierenden Umrisse klar erkennen können. Zweitens können Nutzer nach Abschluss der Zeichnung ihre Reproduktion als Bonus-Kreativaktivität ausmalen. Dieser Zeichnen-dann-Ausmalen-Ablauf liefert zwei Aktivitäten pro Seite und erhöht den wahrgenommenen Wert jedes Arbeitsblatts.\n\nDurchsuchen Sie Themen durch Scrollen durch die Sammlung oder nutzen Sie die Suchfunktion, um bestimmte Bilder über alle Themen hinweg zu finden. Jedes Thema enthält mehrere verwandte Bilder, sodass ein einzelnes „Bauernhoftiere"-Thema Kühe, Pferde, Schweine, Hühner, Schafe und mehr bietet — genug Vielfalt für ein komplettes Produktpaket aus einem einzigen Thema.\n\nDer benutzerdefinierte Bildupload akzeptiert PNG-, JPG- und GIF-Dateien, sodass Sie Rasterübungen aus beliebigen Quellbildern erstellen können. Dies ist wertvoll für die Erstellung spezialisierter Produkte jenseits der integrierten Bibliothek: Pflanzendiagramme für den Naturwissenschaftsprodukterstellung, Architekturzeichnungen für Designkurse oder geometrische Formen für die Mathematikintegration.\n\nDie Themenauswahl ist eine strategische Produktentscheidung. Jedes Thema erzeugt ein eigenes Produktlisting mit einzigartigen Such-Keywords. „Dinosaurier Rasterzeichnung Arbeitsblätter" und „Meerestiere Zeichen-Arbeitsblätter" bedienen verschiedene Käufersegmente und erscheinen in verschiedenen Suchergebnissen. Zehn Themen auf einer einzelnen Schwierigkeitsstufe ergeben zehn einzigartige Produkte aus derselben Erstellungssitzung.`,
     },
     {
-      heading: 'Text hinzufügen und Leinwand anpassen',
+      heading: `Text hinzufügen und Leinwand anpassen`,
       content: `Das Textwerkzeuge-Panel ermöglicht das Hinzufügen von Titeln, Anweisungen, Branding und anderen Textelementen zu Ihrem Arbeitsblatt. Während die Rasterübung selbst keinen Text enthält (was sie universell verkaufbar macht), können Sie optional Textelemente für den Kontext hinzufügen.\n\nFünf Schriftfamilien stehen zur Verfügung: Lexend Deca (klar und modern), Baloo 2 (freundlich und rund), Nunito (ausgewogen und gut lesbar), Quicksand (leicht und geometrisch) und Fredoka (verspielt und fett). Jede Schrift unterstützt mehrere Größen und Farben. Wählen Sie Schriften, die zu Ihrer Markenästhetik passen, und wahren Sie Konsistenz in Ihrer gesamten Produktlinie.\n\nName- und Datumsfelder fügen Nutzeridentifikationsbereiche am oberen Rand des Arbeitsblatts hinzu. Käufer bevorzugen stark Arbeitsblätter mit diesen Feldern für das Klassenmanagement — aktivieren Sie sie immer für Produkte, die auf Käufer abzielen.\n\nDie automatisch generierte Kopfzeile lokalisiert sich über alle 11 unterstützten Sprachen (Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch, Finnisch). Da die Rasterübungs-Ausgabe selbst jedoch keinen Text enthält, ist die Kopfzeile optional, und ihr Entfernen erzeugt ein vollständig sprachneutrales Produkt.\n\nDie Fabric.js-Leinwand gibt Ihnen volle kreative Kontrolle. Ziehen Sie Elemente zum Neupositionieren, skalieren Sie durch Ziehen an den Griffen, drehen Sie für angewinkelten Text und nutzen Sie Ausrichtungswerkzeuge zum präzisen Einrasten. Sperren Sie fertige Elemente, um sie beim Bearbeiten anderer zu schützen. Unbegrenztes Rückgängig und Wiederherstellen ermöglicht risikofreies Experimentieren.`,
     },
     {
-      heading: 'Graustufen umschalten und herunterladen',
+      heading: `Graustufen umschalten und herunterladen`,
       content: `Mit Ihrem konfigurierten und angepassten Arbeitsblatt ist der letzte Schritt der Export. Der Generator bietet zwei Ausgabeformate in 300 DPI für professionelle Druckqualität.\n\nDer JPEG-Export erstellt eine hochauflösende Bilddatei. JPEGs sind universell kompatibel, einfach für Käufer zu drucken und ideal zum Erstellen von Produktlisting-Vorschaubildern und Social-Media-Marketingmaterialien.\n\nDer PDF-Export erstellt den professionellen Standard für den Verkauf druckbarer Produkte. PDF-Dateien behalten die exakte Formatierung auf allen Geräten und Druckern bei. Dies ist das Format, das die meisten Marktplatz-Käufer für herunterladbare Arbeitsblätter erwarten, und das erforderliche Format für Amazon KDP-Inhalte.\n\nDer Graustufen-Schalter konvertiert Ihr Arbeitsblatt in Schwarz-Weiß-Ausgabe. Da Rasterzeichnen standardmäßig Schwarz-Weiß-Umrissthemen verwendet, stellt der Graustufenmodus eine absolut saubere Schwarz-Weiß-Ausgabe sicher — perfekt für Amazon KDP-Inhalte (wo Schwarzweißdruck die Produktionskosten niedrig hält) und Bildungsmarkt-Massendruck (wo Käufer wirtschaftliche Einfarben-Ausgabe benötigen).\n\nEin separater Lösungsschlüssel ist nicht erforderlich. Das Hinweisraster selbst dient als Referenzlösung — Nutzer vergleichen ihr Übungsraster jederzeit mit dem Hinweisraster. Dies vereinfacht Ihren Produkterstellungs-Workflow, da Sie eine einzelne Seite mit beiden Rastern exportieren, anstatt separate Arbeitsblatt- und Lösungsschlüssel-Dateien zu verwalten. Jeder Export enthält sowohl das Übungsraster (leere Zellen zum Zeichnen) als auch das Hinweisraster (teilweises Referenzbild) zusammen.\n\nDie kostenlose Testversion mit Wasserzeichen erzeugt voll funktionsfähige Exporte mit einem sichtbaren Wasserzeichen-Overlay. So können Sie die Druckqualität bewerten, die Formatierung überprüfen und Testdrucke erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Exporten und erzeugt saubere, verkaufsfertige Dateien.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Rasterzeichnung-Arbeitsblätter auf Etsy verkaufen',
+      heading: `Rasterzeichnung-Arbeitsblätter auf Etsy verkaufen`,
       content: `Etsy ist der größte Marktplatz für druckbare Arbeitsblätter, und Rasterzeichnungsprodukte besetzen eine wachsende Nische mit weniger Wettbewerb als gesättigte Kategorien wie Malvorlagen.\n\nTiteloptimierung: Fügen Sie Ihr Haupt-Keyword früh ein und nutzen Sie die vollen 140 Zeichen. Starke Beispiele: „Rasterzeichnung Arbeitsblätter für Kinder — Tiere Schwarz-Weiß-Umriss — Doppelraster-System — Zelle-für-Zelle-Reproduktion" oder „Symmetrie Zeichen-Arbeitsblätter — Spiegelmodus-Aktivitäten — Räumliches Denken — Druckbare PDF."\n\nTags: Nutzen Sie alle 13 erlaubten Tags. Kombinieren Sie breite und spezifische: „Rasterzeichnung Arbeitsblätter," „Symmetrie Arbeitsblätter," „Zeichenaktivitäten für Kinder," „Zelle für Zelle Zeichnen," „Feinmotorik Arbeitsblätter," „räumliches Denken Aktivitäten," „Schwarz-Weiß Zeichenseiten," „Zeichnen und Ausmalen," „visuelles Lernen," „Homeschool Kunst," „Bildungsmarkt Zeichnen," „druckbare Kunst-Arbeitsblätter" und themenspezifische Tags.\n\nListing-Bilder: Laden Sie 5–10 Bilder hoch, die das Doppelraster-System deutlich zeigen. Fügen Sie eine Ganzseitenansicht ein, eine Nahaufnahme des Übungsrasters und Hinweisrasters nebeneinander, Beispiele bei verschiedenen Hinweisprozentsätzen und Symmetriemodus-Variationen. Das markante Doppelraster-Layout erzeugt sofort erkennbare Thumbnails, die sich von einfachen Malvorlagen abheben.\n\nPreisgestaltung: Einzelne Rasterzeichnung-Arbeitsblätter verkaufen sich für 1,99–3,49 $ (das strukturierte Format rechtfertigt höhere Preise als einfache Malvorlagen). Themenpakete mit 10–15 Arbeitsblättern verkaufen sich für 4,99–8,99 $. Progressive Schwierigkeitspakete verkaufen sich für 9,99–18,99 $. Das Premium-Doppelraster-Format unterstützt eine Preisgestaltung über einfachen Aktivitätsblättern.`,
     },
     {
@@ -96,11 +96,11 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Produktvariationen nach Schwierigkeitskombination',
+      heading: `Produktvariationen nach Schwierigkeitskombination`,
       content: `Die zwei unabhängigen Schwierigkeitsachsen erzeugen eine breite Palette von Produktmöglichkeiten. Hier sind konkrete Produktbeispiele, organisiert nach der Rastergröße-und-Hinweisprozentsatz-Matrix.\n\nAnfängerniveau (3×3 bis 4×4 Raster bei 60–75 % Hinweisen): Große Zellen mit dem Großteil der Referenz sichtbar. Perfekt für Vorschule und frühen Kindergarten. Erstellen Sie 8–10 Arbeitsblätter pro Thema mit leicht erkennbaren Bildern: Bauernhoftiere, Obst, Fahrzeuge, Formen. Diese Arbeitsblätter bauen Vertrauen auf und führen sanft in das Rasterzeichnungskonzept ein. Marketingansatz: „Mein erstes Rasterzeichnen — Einfache Doppelraster-Aktivitäten."\n\nMittleres Niveau (5×5 bis 6×6 Raster bei 40–55 % Hinweisen): Mittlere Zellen mit etwa der Hälfte der Referenz sichtbar. Geeignet für Kindergarten bis erste Klasse. Nutzer benötigen stärkere Beobachtungsfähigkeiten, um größere Lücken zu füllen. Erstellen Sie 10–15 Arbeitsblätter pro Thema. Fügen Sie Name- und Datumsfelder für den Bildungsmarktgebrauch hinzu. Marketingansatz: „Rasterzeichnung Übung — Mittlere Herausforderung."\n\nFortgeschrittenes Niveau (7×7 bis 8×8 Raster bei 20–35 % Hinweisen): Kleinere Zellen mit begrenzter Referenz. Fordert Erst- und Zweitklassmarkt heraus, die sicher im Rasterzeichnen sind. Nutzer rekonstruieren Bilder aus verstreuten Fragmenten und entwickeln ernsthaftes räumliches Denken. Erstellen Sie 15–20 Arbeitsblätter pro Thema. Marketingansatz: „Rasterzeichnung Herausforderung — Kannst du das Bild vervollständigen?"\n\nExpertenniveau (9×9 bis 10×10 Raster bei 10–20 % Hinweisen): Winzige Zellen mit minimaler Referenz. Ein echtes Puzzle sogar für Erwachsene. Ideal für fortgeschrittene Nutzer, Aktivitätsbücher für Erwachsene und Premium-Herausforderungsprodukte. Erstellen Sie 20+ Arbeitsblätter pro Thema. Marketingansatz: „Experten-Rasterzeichnung — 100-Zellen-Herausforderung."`,
     },
     {
-      heading: 'Symmetriemodus-Produktvariationen',
+      heading: `Symmetriemodus-Produktvariationen`,
       content: `Die drei Symmetriemodi eröffnen unterschiedliche Produktnischen, die jeweils verschiedene Käufersegmente und Such-Keywords ansprechen.\n\nZufallsmodus-Produkte: Allgemeine Rasterzeichnungspraxis. Vermarkten Sie an Eltern, die „Zeichenaktivitäten für Kinder" und „Feinmotorik-Arbeitsblätter" suchen. Die gestreute Hinweisplatzierung erzeugt organische Übungen, die sich rein auf Beobachtung und Reproduktion konzentrieren. Erstellen Sie Themenpakete — „Tier-Rasterzeichnungspaket" oder „Fahrzeug-Rasterzeichnungsset" — mit progressiven Hinweisprozentsätzen innerhalb jedes Pakets.\n\nHorizontaler Spiegelmodus-Produkte: Fächerübergreifende Kunst- und Mathematikressourcen. Vermarkten Sie an Käufer, die nach „Symmetrie-Aktivitäten," „bilaterale Symmetrie-Arbeitsblätter" und „Spiegel-Zeichenübungen" suchen. Nutzer sehen eine Hälfte des Rasters und konstruieren das Spiegelbild. Erstellen Sie Produkte wie „Bilaterale Symmetrie Zeichnen — Tiere" oder „Links-Rechts-Spiegelzeichnung Übung." Diese Produkte verkaufen sich sowohl in Kunst- als auch Mathematikkategorien auf Gumroad.\n\nVertikaler Spiegelmodus-Produkte: Oben-nach-unten-Symmetrieübung. Vermarkten Sie an Käufer, die nach „vertikale Symmetrie-Übungen" und „räumliche Orientierung-Arbeitsblätter" suchen. Weniger verbreitet als horizontale Symmetrieprodukte, was Ihnen einen Wettbewerbsvorteil in einer unterversorgten Nische gibt.\n\nKombinierte Symmetrie-Pakete: Verpacken Sie alle drei Modi in eine „Komplette Symmetrie-Zeichensammlung" auf mehreren Schwierigkeitsstufen. Fügen Sie Käuferhinweise hinzu, die jeden Symmetrietyp erklären (obwohl die Arbeitsblätter selbst textfrei sind). Ein 30-seitiges Symmetriepaket, das Zufalls-, horizontale und vertikale Modi auf einfacher, mittlerer und schwerer Schwierigkeitsstufe abdeckt, erzeugt ein Premium-Produkt zum Preis von 12–18 $ auf Gumroad.\n\nThema-plus-Symmetrie-Kombinationen: „Dinosaurier Symmetrie-Zeichenpaket" kombiniert ein beliebtes Thema mit Symmetrie-Lernzielen. Jede einzigartige Kombination (Thema × Symmetriemodus × Schwierigkeitsstufe) erzeugt ein wirklich eigenes Produktlisting mit eigenen Such-Keywords.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `Jedes ausgewählte Bild generiert zwei zusammengehörige Raster auf derselben Seite. Das Übungsraster hat leere Zellen mit hellen Umrissen, in die Nutzer ihre Reproduktion zeichnen. Das Hinweisraster zeigt einen konfigurierbaren Prozentsatz des Referenzbilds — einige Zellen sind mit Bildteilen gefüllt, andere bleiben leer. Nutzer betrachten das Hinweisraster, identifizieren die Zellen mit Referenzinhalt und reproduzieren das vollständige Bild Zelle für Zelle im Übungsraster.`,
     },
     {
-      question: 'Was bewirken die drei Symmetriemodi?',
+      question: `Was bewirken die drei Symmetriemodi?`,
       answer: `Zufällig verteilt Hinweiszellen in beliebigen Positionen für allgemeine Zeichenpraxis. Horizontale Spiegelung spiegelt Hinweiszellen von links nach rechts und lehrt bilaterale Symmetrie — Nutzer sehen eine Seite und rekonstruieren das Spiegelbild auf der anderen. Vertikale Spiegelung spiegelt Hinweiszellen von oben nach unten für vertikale Symmetrieübungen. Wenn Horizontal oder Vertikal ausgewählt ist, können Sie über einen Auswahlregler festlegen, welche Hälfte als Hinweise angezeigt wird.`,
     },
     {
@@ -138,8 +138,8 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'linien-ziehen-arbeitsblaetter-erstellen',
-      title: 'Linien-Ziehen-Arbeitsblätter erstellen',
+      slug: `linien-ziehen-arbeitsblaetter-erstellen`,
+      title: `Linien-Ziehen-Arbeitsblätter erstellen`,
       description: `Der natürliche Feinmotorik-Begleiter zum Rasterzeichnen. Linienziehen-Arbeitsblätter bauen die Stiftkontrolle auf, die direkt zu besseren Rasterreproduktionsfähigkeiten führt.`,
     },
     {
@@ -148,19 +148,19 @@ const content: GuideContent = {
       description: `Erweitern Sie den Zeichnen-dann-Ausmalen-Ablauf mit dedizierten Malvorlagen. Nutzer, die das Ausmalen ihrer fertigen Rasterzeichnungen genießen, werden eigenständige Malaktivitäten lieben.`,
     },
     {
-      slug: 'muster-arbeitsblaetter-erstellen',
-      title: 'Muster-Arbeitsblätter erstellen',
+      slug: `muster-arbeitsblaetter-erstellen`,
+      title: `Muster-Arbeitsblätter erstellen`,
       description: `Bauen Sie auf den räumlichen Denkfähigkeiten des Rasterzeichnens auf mit visuellen Mustererkennungsübungen, die symmetriefokussierte Produkte ergänzen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `So erstellen Sie professionelle Arbeitsblätter, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'rasterzeichnen-arbeitsblaetter', anchorText: `Rasterzeichnen Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `So erstellen Sie professionelle Arbeitsblätter, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: `rasterzeichnen-arbeitsblaetter`, anchorText: `Rasterzeichnen Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: `Linien-Ziehen Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: `Probieren Sie den Rasterzeichnen-Arbeitsblatt-Ersteller` },
   ],
@@ -168,12 +168,12 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'draw-and-color',
-      title: 'Rasterzeichnen Arbeitsblatt-Generator',
+      title: `Rasterzeichnen Arbeitsblatt-Generator`,
       description: `Das Hauptwerkzeug für diesen Leitfaden. Erstellen Sie Doppelraster-Zeichen-Arbeitsblätter mit einstellbarem Hinweisprozentsatz, drei Symmetriemodi, über 100 Schwarz-Weiß-Umrissthemen und textfreier Ausgabe, die weltweit ohne Übersetzung verkauft wird.`,
     },
     {
       appId: 'drawing-lines',
-      title: 'Linien-Ziehen Arbeitsblatt-Generator',
+      title: `Linien-Ziehen Arbeitsblatt-Generator`,
       description: `Ein Feinmotorik-Begleitwerkzeug. Linienziehen-Arbeitsblätter bauen die Stiftkontrolle auf, die zu besserer Rasterreproduktion führt, und sind damit eine natürliche Ergänzung für Zeichenprodukt-Pakete.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/german/draw and color/Zeichnen und Ausmale 3.webp`, alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System, das leeres Übungsraster und teilweise aufgedecktes Hinweisraster mit Schwarz-Weiß-Umrissthema zeigt' },
+    heroImage: { src: `/samples/german/draw and color/Zeichnen und Ausmale 3.webp`, alt: `Rasterzeichnung-Arbeitsblatt mit Doppelraster-System, das leeres Übungsraster und teilweise aufgedecktes Hinweisraster mit Schwarz-Weiß-Umrissthema zeigt` },
     samples: [
-      { src: `/samples/german/draw and color/Zeichnen und Ausmale 3.webp`, alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System aus Übungsraster und Hinweisraster für Zelle-für-Zelle-Reproduktion', caption: 'Doppelraster-Format: leeres Übungsraster oben und Hinweisraster mit teilweiser Referenz unten für strukturierte Zeichenübungen' },
-      { src: `/samples/german/draw and color/Zeichnen und Ausmale 2.webp`, alt: 'Tier-Thema Rasterzeichnung-Arbeitsblatt mit Schwarz-Weiß-Umriss bei mittlerem Hinweisprozentsatz', caption: 'Tier-Schwarz-Weiß-Umrissthema bei 25 % Hinweisen — Nutzer reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus' },
+      { src: `/samples/german/draw and color/Zeichnen und Ausmale 3.webp`, alt: `Rasterzeichnung-Arbeitsblatt mit Doppelraster-System aus Übungsraster und Hinweisraster für Zelle-für-Zelle-Reproduktion`, caption: `Doppelraster-Format: leeres Übungsraster oben und Hinweisraster mit teilweiser Referenz unten für strukturierte Zeichenübungen` },
+      { src: `/samples/german/draw and color/Zeichnen und Ausmale 2.webp`, alt: `Tier-Thema Rasterzeichnung-Arbeitsblatt mit Schwarz-Weiß-Umriss bei mittlerem Hinweisprozentsatz`, caption: `Tier-Schwarz-Weiß-Umrissthema bei 25 % Hinweisen — Nutzer reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus` },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: `So erstellen Sie Zeichen- und Symmetrie-Arbeitsblätter — Komplettes Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Krankenwagen — thematisches Lernbild', caption: 'Krankenwagen' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — thematisches Lernbild', caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Flugzeug — thematisches Lernbild`, caption: 'Flugzeug' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Krankenwagen — thematisches Lernbild`, caption: 'Krankenwagen' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
+    { src: `/image-library/vehicles/boat.webp`, alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — thematisches Lernbild`, caption: 'Bulldozer' },
   ],
 };
 

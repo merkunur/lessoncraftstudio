@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'estándares calidad fichas ejercicios vendedores',
+    primaryKeyword: `estándares calidad fichas ejercicios vendedores`,
     secondaryKeywords: [
-      'lista verificación calidad imprimibles',
-      'estándares diseño profesional fichas ejercicios',
-      'control calidad fichas ejercicios venta',
-      'formato fichas ejercicios listas para imprimir',
+      `lista verificación calidad imprimibles`,
+      `estándares diseño profesional fichas ejercicios`,
+      `control calidad fichas ejercicios venta`,
+      `formato fichas ejercicios listas para imprimir`,
     ],
     lsiKeywords: [
       `calidad impresión resolución DPI configuración márgenes alineación fuente legibilidad`,
@@ -16,12 +16,12 @@ const content: GuideContent = {
       `configuración sangrado compatibilidad tamaño papel consistencia visual estándares marca`,
       `calificaciones reseñas confianza comprador lista verificación producción aseguramiento calidad`,
     ],
-    titleTag: 'Estándares Calidad Fichas Ejercicios Vendedores',
+    titleTag: `Estándares Calidad Fichas Ejercicios Vendedores`,
     metaDescription: `Estándares de calidad que los vendedores de fichas necesitan para resultados profesionales. Cubre resolución, márgenes, tipografía, claves de respuestas.`,
   },
 
   hero: {
-    title: 'Estándares de Calidad para Fichas de Ejercicios',
+    title: `Estándares de Calidad para Fichas de Ejercicios`,
     tagline: `Una guía completa sobre estándares de calidad que los vendedores de fichas necesitan para resultados profesionales — que cubre estándares de resolución y formato de archivo, requisitos de diseño de página y márgenes, reglas de tipografía y legibilidad, consistencia de color y visual, verificación de claves de respuestas, listas de verificación de control de calidad previas a la publicación, pruebas de impresión en diferentes dispositivos y mantenimiento de calidad en todo el catálogo`,
     description: `La calidad es el factor único que separa a los vendedores de fichas de ejercicios que construyen negocios sostenibles de aquellos que luchan con reseñas negativas, solicitudes de reembolso y ventas en declive. Una ficha de ejercicios que se ve profesional en pantalla pero se imprime con márgenes cortados, texto borroso o elementos desalineados crea una experiencia negativa para el comprador que daña la reputación de tu tienda permanentemente. Esta guía proporciona una lista completa de estándares de calidad diseñada específicamente para vendedores de fichas de ejercicios imprimibles — desde estándares de resolución y formato hasta tipografía, precisión de claves de respuestas, pruebas de impresión y mantenimiento de la calidad a medida que tu catálogo crece.`,
   },
@@ -73,7 +73,7 @@ const content: GuideContent = {
       content: `Amazon KDP tiene requisitos técnicos específicos que difieren de otras plataformas de imprimibles. KDP requiere archivos PDF con fuentes incrustadas, configuraciones de sangrado específicas (0,125 pulgadas si se usa sangrado) y dimensiones de página exactas que coincidan con el tamaño de recorte seleccionado. El proceso de revisión automatizado de KDP rechaza archivos que no cumplen los estándares técnicos, incluyendo imágenes de baja resolución, fuentes faltantes y recuentos de páginas incorrectos. Antes de enviar a KDP, usa su herramienta Print Previewer para verificar exactamente cómo aparecerá tu cuaderno en impresión. Presta particular atención al área del lomo para cuadernos encuadernados, asegurando que ningún contenido esencial caiga en el margen de medianil donde las páginas se encuentran con la encuadernación.`,
     },
     {
-      heading: 'Expectativas de Calidad de Gumroad',
+      heading: `Expectativas de Calidad de Gumroad`,
       content: `Los compradores de Gumroad son predominantemente emprendedores profesionales que exigen altos estándares de calidad en los productos imprimibles. Los vendedores esperan contenido alineado con el catálogo de productos con claves de respuestas precisas, formato apropiado para la edad y texto de instrucciones claro. El sistema de calificaciones de Gumroad pesa fuertemente la calidad del producto, y los productos con problemas de calidad reciben calificaciones bajas que reducen significativamente la visibilidad en las búsquedas. Incluye una descripción detallada del producto que liste cada página y componente incluido. Proporciona versiones tanto en US Letter como en A4 cuando sea posible, ya que Gumroad sirve a una audiencia internacional de emprendedores. Los compradores de Gumroad frecuentemente mencionan la calidad de impresión y la precisión de las claves de respuestas en las reseñas, haciendo de estas dos áreas prioridades críticas de calidad para la plataforma.`,
     },
   ],
@@ -84,7 +84,7 @@ const content: GuideContent = {
       content: `Las calificaciones de reseñas son el factor más influyente en las tasas de conversión de mercados de imprimibles, y la calidad del producto es el principal impulsor de las calificaciones de reseñas. Una ficha de ejercicios que se imprime perfectamente, contiene contenido preciso y coincide con la descripción del anuncio genera reseñas positivas que mejoran tu ranking de búsqueda, aumentan las tasas de clics en los resultados de búsqueda y construyen la prueba social que convence a nuevos compradores de comprar. El efecto compuesto es significativo: mayor calidad lleva a mejores reseñas, mejores reseñas llevan a mayor posicionamiento en búsquedas, mayor posicionamiento lleva a más ventas, y más ventas generan reseñas adicionales. Los vendedores con calificaciones consistentemente altas en su catálogo ganan la confianza del comprador que se extiende a nuevos anuncios — un comprador que ha comprado tres fichas de calidad de tu tienda comprará una cuarta sin evaluación extensa porque tu historial de calidad reduce su riesgo percibido.`,
     },
     {
-      heading: 'Precios Premium a Través de Calidad Demostrada',
+      heading: `Precios Premium a Través de Calidad Demostrada`,
       content: `Los estándares de calidad permiten precios premium al proporcionar justificación tangible para puntos de precio más altos. Una ficha de ejercicios con precio de $4-5 que entrega formato profesional, claves de respuestas verificadas, versiones para ambos tamaños de papel y un diseño visual pulido se percibe como mejor valor que una ficha de $2 con formato básico y precisión de contenido incierta. Los compradores en mercados de imprimibles educativos están dispuestos a pagar más por productos en los que confían que funcionarán correctamente sin esfuerzo adicional de su parte. Los vendedores especialmente valoran la fiabilidad — no pueden permitirse descubrir errores en las claves de respuestas mientras los usuarios están trabajando en los problemas. Al documentar tu proceso de calidad (mencionando "claves de respuestas verificadas" y "probado en impresión en múltiples dispositivos" en tus anuncios), comunicas estándares de calidad que justifican un posicionamiento premium en un mercado competitivo.`,
     },
     {
@@ -136,17 +136,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
     { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de Precios para productos imprimibles Imprimible` },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: `Cómo Crear Paquetes de Fichas de Ejercicios que Vendan` },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
-    { pageType: 'guide', slug: 'digital-o-fisico-imprimibles', anchorText: 'Productos Imprimibles Digitales vs Físicos' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles Imprimible' },
-    { pageType: 'guide', slug: 'soporte-cliente-productos-digitales', anchorText: 'Soporte al Cliente para Productos Digitales' },
-    { pageType: 'guide', slug: 'derechos-autor-vendedores-imprimibles', anchorText: `Guía de Derechos de Autor para Vendedores de Imprimibles` },
-    { pageType: 'guide', slug: 'obtener-resenas-productos-imprimibles', anchorText: 'Cómo Obtener Reseñas para Productos Imprimibles' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimibles', anchorText: 'Cómo Automatizar Tu Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas de Ejercicios que Vendan` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
+    { pageType: 'guide', slug: 'digital-o-fisico-imprimibles', anchorText: `Productos Imprimibles Digitales vs Físicos` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles Imprimible` },
+    { pageType: 'guide', slug: `soporte-cliente-productos-digitales`, anchorText: `Soporte al Cliente para Productos Digitales` },
+    { pageType: 'guide', slug: `derechos-autor-vendedores-imprimibles`, anchorText: `Guía de Derechos de Autor para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: `obtener-resenas-productos-imprimibles`, anchorText: `Cómo Obtener Reseñas para Productos Imprimibles` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimibles`, anchorText: `Cómo Automatizar Tu Negocio de Imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
@@ -163,29 +163,29 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Genera páginas para colorear con grosores de línea consistentes, calidad de impresión optimizada y salida visual limpia. Demuestra estándares de calidad para productos visuales incluyendo optimización de escala de grises y formato de ilustración profesional.`,
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de Fichas de Matemáticas',
+      title: `Generador de Fichas de Matemáticas`,
       description: `Crea fichas de matemáticas complejas con múltiples elementos mostrando control de calidad en problemas, claves de respuestas y formato de página. Demuestra cómo los generadores mantienen estándares de calidad consistentes en tipos variados de contenido matemático.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
       alt: `Ficha de sopa de letras demostrando estándares de calidad profesional con diseño limpio y formato preciso`,
     },
     samples: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras mostrando formato profesional listo para imprimir y alineación de cuadrícula precisa`,
         caption: `La salida profesional de sopas de letras demuestra diseño limpio, tipografía legible y alineación precisa de cuadrícula`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma mostrando estándares de calidad para alineación de números y precisión de clave de respuestas`,
         caption: `Las fichas de matemáticas requieren alineación precisa, tipografía clara y claves de respuestas verificadas para calidad profesional`,
       },
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — imagen educativa temática', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Cacatúa — imagen educativa temática', caption: 'Cacatúa' },
-    { src: '/image-library/pets/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Hurón — imagen educativa temática', caption: 'Hurón' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — imagen educativa temática`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Cacatúa — imagen educativa temática`, caption: 'Cacatúa' },
+    { src: '/image-library/pets/dog.webp', alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Hurón — imagen educativa temática`, caption: 'Hurón' },
   ],
 };
 

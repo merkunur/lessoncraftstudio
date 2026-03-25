@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas objetos ocultos',
+    primaryKeyword: `generador fichas objetos ocultos`,
     secondaryKeywords: [
       `generador de fichas busca y encuentra imprimibles para vendedores Etsy`,
       `creador de fichas de objetos ocultos para editores Amazon KDP`,
       `generador de fichas yo espío con licencia comercial`,
-      'vender fichas encuentra el diferente en Gumroad',
+      `vender fichas encuentra el diferente en Gumroad`,
     ],
     lsiKeywords: [
       `productos digitales de fichas de objetos ocultos para emprendedores`,
       `generador de fichas de búsqueda visual a uso comercial`,
       `fichas de busca y encuentra imprimibles para negocio en línea`,
     ],
-    titleTag: 'Generador Fichas Objetos Ocultos | para Vender',
+    titleTag: `Generador Fichas Objetos Ocultos | para Vender`,
     metaDescription:
       `Crea fichas de objetos ocultos para Etsy, KDP y Gumroad. Modos Yo Espío y Encuentra el Diferente, escenas sin superposición, clave de respuestas. Prueba gratis.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Objetos Ocultos en 5 Pasos',
+    title: `Cómo Crear Fichas de Objetos Ocultos en 5 Pasos`,
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -45,12 +45,12 @@ const content: AppContent = {
           `Explora 104 colecciones temáticas de imágenes con más de 3100 ilustraciones coloridas en el panel Biblioteca de Imágenes. Filtra por tema o busca por palabra clave. En el modo Yo Espío, configura de 1 a 5 objetos ocultos a encontrar y de 8 a 12 objetos distractores que llenan la escena. En el modo Encuentra el Diferente, establece de 8 a 12 imágenes emparejadas y de 1 a 5 elementos sin pareja. También puedes subir imágenes personalizadas en formato PNG, JPG o GIF para usar junto al contenido de la biblioteca.`,
       },
       {
-        title: 'Genera la Escena de Objetos Ocultos',
+        title: `Genera la Escena de Objetos Ocultos`,
         description:
           `Haz clic en Generar para crear la ficha. En el modo Yo Espío, el algoritmo sin superposición coloca cada imagen probando 50 posiciones aleatorias y seleccionando la que tiene menor superposición, reduciendo adaptativamente el tamaño de la imagen cuando el espacio es limitado. Una leyenda aparece en la parte inferior mostrando a los usuarios qué objetos deben encontrar. En el modo Encuentra el Diferente, las imágenes se organizan en filas con elementos emparejados y sin pareja. El encabezado autoajustable muestra tu título en fuente Fredoka con contenedores decorativos tipo píldora — el tamaño de fuente se ajusta automáticamente según la longitud del texto.`,
       },
       {
-        title: 'Genera la Clave de Respuestas y Descarga',
+        title: `Genera la Clave de Respuestas y Descarga`,
         description:
           `Cambia a la pestaña Clave de Respuestas para ver las anotaciones autogeneradas: círculos rojos dibujados alrededor de los objetos ocultos (modo Yo Espío) o los elementos sin pareja (modo Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Descarga ambas versiones usando cuatro botones dedicados en el menú desplegable: JPEG de Ficha, JPEG de Clave, PDF de Ficha y PDF de Clave a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Objetos Ocultos en Línea',
+    title: `Cómo Vender Fichas de Objetos Ocultos en Línea`,
     cases: [
       {
         title: `Paquetes Temáticos de Actividades de Objetos Ocultos en Etsy`,
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Fichas de Discriminación Visual Encuentra el Diferente para Gumroad`,
         description:
           `Diseña fichas listas para usar de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Los vendedores que buscan actividades de discriminación visual en Gumroad valoran fichas que desarrollan habilidades de observación y razonamiento lógico. Crea conjuntos alineados con el catálogo de productos: encuentra el diferente de animales de granja, reconocimiento de formas, clasificación estacional y clasificación por hábitats. Incluye campos de nombre y fecha para responsabilidad del usuario, y proporciona claves de respuestas que muestran qué elementos no tenían pareja. Cada conjunto se exporta en formato PDF y JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Colecciones Estacionales de Actividades de Objetos Ocultos`,
         description:
           `Las 104 colecciones temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de objetos ocultos por disponible ahora que se alineen con los períodos de mayor demanda. Publica paquetes de Yo Espío de Halloween en septiembre, colecciones de objetos ocultos de Navidad en octubre, y paquetes de busca y encuentra de San Valentín en enero. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente en cada conjunto estacional para máximo valor.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: `Etsy / Amazon KDP / Gumroad (estacional)`,
       },
       {
         title: `Paquetes Mixtos de Yo Espío y Encuentra el Diferente`,
         description:
           `Combina ambos modos de actividad en paquetes variados premium. Cada paquete incluye escenas de Yo Espío donde los usuarios encuentran objetos específicos en una escena dispersa, más fichas de Encuentra el Diferente donde los usuarios identifican elementos sin pareja entre conjuntos emparejados. Esta combinación trabaja dos habilidades cognitivas diferentes — búsqueda visual y discriminación visual — en un solo producto. Los paquetes mixtos tienen precios más altos porque ofrecen más variedad de actividades y cubren más objetivos de aprendizaje que los productos de un solo modo.`,
-        platform: 'Etsy / Gumroad (paquetes variados)',
+        platform: `Etsy / Gumroad (paquetes variados)`,
       },
     ],
   },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `En el modo Yo Espío, puedes configurar de 1 a 5 objetos ocultos (los objetivos que los usuarios necesitan encontrar) y de 8 a 12 objetos distractores (las imágenes circundantes que llenan la escena). Comienza con 1–2 objetos ocultos y 8 distractores para fichas más fáciles, y aumenta a 5 objetos ocultos entre 12 distractores para escenas desafiantes. La leyenda en la parte inferior de la ficha muestra a los usuarios qué objetos deben encontrar.`,
     },
     {
-      question: '¿Cómo funciona el modo Encuentra el Diferente?',
+      question: `¿Cómo funciona el modo Encuentra el Diferente?`,
       answer:
         `El modo Encuentra el Diferente organiza imágenes en filas con elementos emparejados y sin pareja. Configura de 8 a 12 imágenes emparejadas (cada una aparece dos veces en el diseño) y de 1 a 5 elementos sin pareja que aparecen solo una vez. Los usuarios examinan cada fila e identifican la imagen que no tiene un par correspondiente. Las imágenes se muestran un 50% más grandes que en el modo Yo Espío para una comparación visual más clara. No hay leyenda en la parte inferior ya que los usuarios descubren los elementos sin pareja mediante análisis visual en lugar de una lista de referencia.`,
     },
@@ -176,7 +176,7 @@ const content: AppContent = {
         `Sí. Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a tus fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades.`,
     },
     {
-      question: '¿Cómo funciona el encabezado autogenerado?',
+      question: `¿Cómo funciona el encabezado autogenerado?`,
       answer:
         `Cada ficha incluye un título autoajustable en fuente Fredoka (#4A4A4A gris oscuro) con contenedores decorativos blancos tipo píldora animados y sombras. El tamaño de fuente del título se ajusta automáticamente según la longitud del texto: 32 px para títulos cortos (menos de 12 caracteres), reduciéndose hasta 18 px para títulos más largos (más de 22 caracteres). También puedes añadir un campo de descripción debajo del título. El sistema de encabezado asegura fichas de aspecto profesional independientemente de la longitud del título.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes plenos derechos para vender tus fichas de objetos ocultos como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición y las 104 colecciones temáticas de imágenes te dan las herramientas creativas para producir productos de objetos ocultos originales y vendibles.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Dado que la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar ambos modos de actividad, el algoritmo de posicionamiento sin superposición, las cantidades configurables de objetos, la clave de respuestas autogenerada, la biblioteca completa de imágenes, temas de fondo y de borde, campos de nombre y fecha, y todos los formatos de descarga antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'buscar-contar-fichas',
-      anchorText: 'Generador de Fichas de Buscar y Contar',
+      anchorText: `Generador de Fichas de Buscar y Contar`,
     },
     {
       pageType: 'app',
       slug: 'crucigramas-imagenes-fichas',
-      anchorText: 'Generador de Crucigramas con Imágenes',
+      anchorText: `Generador de Crucigramas con Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'busqueda-tesoro-fichas',
-      anchorText: 'Generador de Fichas de Búsqueda del Tesoro',
+      anchorText: `Generador de Fichas de Búsqueda del Tesoro`,
     },
     {
       pageType: 'app',
       slug: 'clasificar-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Clasificar Imágenes',
+      anchorText: `Generador de Fichas de Clasificar Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'relacionar-fichas',
-      anchorText: 'Generador de Fichas de Relacionar',
+      anchorText: `Generador de Fichas de Relacionar`,
     },
     {
       pageType: 'app',
       slug: 'encuentra-el-diferente-fichas',
-      anchorText: 'Generador de Fichas de Encuentra el Diferente',
+      anchorText: `Generador de Fichas de Encuentra el Diferente`,
     },
     {
       pageType: 'bundle',
@@ -246,17 +246,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de camping y aire libre',
+      anchorText: `Ideas de imprimibles de camping y aire libre`,
     },
     {
       pageType: 'idea',
-      slug: 'animales-marinos-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de animales marinos',
+      slug: `animales-marinos-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles de animales marinos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimibles',
-      anchorText: 'Marketing para tu negocio de imprimibles',
+      anchorText: `Marketing para tu negocio de imprimibles`,
     },
   ],
 

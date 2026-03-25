@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Thuisonderwijs Printables Verkopen — Nichegids',
+    titleTag: `Thuisonderwijs Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende thuisonderwijs printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Nichestrategieën voor verkopers die homeschool ouders bedienen.`,
 
-    primaryKeyword: 'thuisonderwijs printable ideeën',
+    primaryKeyword: `thuisonderwijs printable ideeën`,
     secondaryKeywords: [
-      'thuisonderwijs werkbladen verkopen',
-      'homeschool printable business ideeën',
-      'thuisonderwijs activiteiten verkopers',
-      'homeschool printables verkopen online',
+      `thuisonderwijs werkbladen verkopen`,
+      `homeschool printable business ideeën`,
+      `thuisonderwijs activiteiten verkopers`,
+      `homeschool printables verkopen online`,
     ],
     lsiKeywords: [
-      'thuiseducatie productcatalogus werkbladen',
+      `thuiseducatie productcatalogus werkbladen`,
       'oudergeleid leren printables',
-      'homeschool printbare producten bronnen',
+      `homeschool printbare producten bronnen`,
     ],
   },
   hero: {
     title: `Thuisonderwijs Printable Businessideeën voor Verkopers`,
-    description: `Thuisonderwijs printables vertegenwoordigen een van de meest lucratieve niches op de educatieve markt omdat thuisonderwijzende gezinnen printbare productcatalogussupplementen, oefenwerkbladen, activiteitsgebaseerde leermiddelen en thema-eenheidmateriaal aanschaffen tegen aanzienlijk hogere per-gezinspercentages dan traditionele schoolouders. De fundamentele reden is eenvoudig: thuisonderwijs-ouders zijn de enige productcatalogusbeslissers die complete educatieve programma's opbouwen vanuit aangeschafte bronnen in plaats van te vertrouwen op door de school verstrekte lesboeken en werkboeken. Deze koopdynamiek creëert een koper die besteedt over elk vakgebied en elk niveaucategorie tegelijkertijd, vooral in meerkindgezinnen waar kinderen van peuterleeftijd tot bovenbouw allemaal leeftijdsgeschikt materiaal nodig hebben voor elke instructieblok gedurende het hele jaar. De thuisonderwijspopulatie is het afgelopen decennium dramatisch gegroeid, wat een groot en toegewijd koperspubliek creëert. In tegenstelling tot traditionele schoolaankopen die strakke academische kalenders volgen, kopen thuisonderwijzende gezinnen het hele jaar door omdat velen flexibele of jaarrondschema's volgen. De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde productstijlen. Thuisonderwijsgroepen en -gemeenschappen creëren krachtige mond-tot-mondreclamekanalen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
+    description: `Thuisonderwijs printables vertegenwoordigen een van de meest lucratieve niches op de educatieve markt omdat thuisonderwijzende gezinnen printbare productcatalogussupplementen, oefenwerkbladen, activiteitsgebaseerde leermiddelen en thema-eenheidmateriaal aanschaffen tegen aanzienlijk hogere per-gezinspercentages dan traditionele schoolouders. De fundamentele reden is eenvoudig: thuisonderwijs-ouders zijn de enige productcatalogusbeslissers die complete educatieve programma`s opbouwen vanuit aangeschafte bronnen in plaats van te vertrouwen op door de school verstrekte lesboeken en werkboeken. Deze koopdynamiek creëert een koper die besteedt over elk vakgebied en elk niveaucategorie tegelijkertijd, vooral in meerkindgezinnen waar kinderen van peuterleeftijd tot bovenbouw allemaal leeftijdsgeschikt materiaal nodig hebben voor elke instructieblok gedurende het hele jaar. De thuisonderwijspopulatie is het afgelopen decennium dramatisch gegroeid, wat een groot en toegewijd koperspubliek creëert. In tegenstelling tot traditionele schoolaankopen die strakke academische kalenders volgen, kopen thuisonderwijzende gezinnen het hele jaar door omdat velen flexibele of jaarrondschema`s volgen. De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde productstijlen. Thuisonderwijsgroepen en -gemeenschappen creëren krachtige mond-tot-mondreclamekanalen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De thuisonderwijs printable-markt vertegenwoordigt een premium omzetkans omdat thuisonderwijzende gezinnen functioneren als complete institutionele kopers die elke educatieve bron onafhankelijk moeten aanschaffen in plaats van materialen aan te vullen die al door een schooldistrict worden verstrekt. Terwijl een traditionele schoolouder af en toe oefenwerkbladen koopt om de klasinstructie te versterken, koopt een thuisonderwijs-ouder het volledige productcatalogusfundament inclusief kernvaardighedenoefening, verrijkingsactiviteiten, toetsmateriaal en creatieve leermiddelen over elk vakgebied voor elk kind in het huishouden. Dit fundamentele koopverschil betekent dat thuisonderwijzende gezinnen substantieel meer per huishouden besteden aan educatieve printables dan elk ander koopsegment, met meerkindgezinnen die die uitgaven vermenigvuldigen over twee, drie of meer kinderen op verschillende ontwikkelingsniveaus die allemaal gelijktijdig leeftijdsgeschikt materiaal nodig hebben.
 
@@ -45,7 +45,7 @@ De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde pro
       appId: 'find-and-count',
     },
     {
-      title: 'Thuisonderwijs Woordzoekpuzzels Online Verkopen',
+      title: `Thuisonderwijs Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers voor thuisonderwijs trekken ouders aan die taalvaardigheden willen versterken binnen thematische leereenheden. Maak puzzels met vocabulaire dat aansluit bij populaire thuisonderwijsthema's — historische perioden, wetenschappelijke concepten, aardrijkskundige termen en literaire vocabulaire. De Woordzoeker-generator laat je rasters maken op meerdere moeilijkheidsniveaus zodat gezinnen met meerdere kinderen hetzelfde thema op verschillende niveaus kunnen verkennen. Variaties per vakgebied en per leeftijdsniveau verbreden je catalogus terwijl ze aansluiten bij de multi-niveau behoeften van thuisonderwijzende gezinnen.`,
       appId: 'wordsearch',
     },
@@ -94,7 +94,7 @@ De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde pro
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Thuisonderwijs Printables Verkopen op Etsy',
+      title: `Thuisonderwijs Printables Verkopen op Etsy`,
       description: `Etsy is een van de sterkste platforms voor thuisonderwijs printables omdat thuisonderwijs-ouders Etsy actief gebruiken als bron voor educatieve digitale downloads die een persoonlijker en meer op maat gemaakt gevoel hebben dan massaproducten. Richt je op long-tail zoekwoorden die de thuisonderwijsmarkt specifiek aanspreken: "thuisonderwijs werkbladen," "homeschool activiteiten Nederlands," of "unit study printables." Gebruik alle dertien tags met variaties die thuisonderwijsmethodieken, vakgebieden en leeftijdsniveaus combineren. Vermeldingsafbeeldingen die geprinte werkbladen tonen in een huiselijke leeromgeving presteren aanzienlijk beter dan merkthema settings. Positioneer je producten expliciet als "ontworpen voor thuisonderwijs" in plaats van alleen "geschikt voor thuisonderwijs." De internationale Engelstalige thuisonderwijsmarkt via Etsy.com is enorm en bijzonder winstgevend voor verkopers die Engelstalige producten aanbieden.`,
     },
     {
@@ -120,11 +120,11 @@ De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde pro
       answer: `De thuisonderwijs printable-niche is een van de meest winstgevende educatieve niches dankzij de unieke koopdynamiek van thuisonderwijzende gezinnen. Thuisonderwijs-ouders besteden aanzienlijk meer per gezin dan traditionele schoolouders omdat ze het volledige productcatalogus onafhankelijk moeten samenstellen. Meerkindgezinnen vermenigvuldigen deze uitgaven over twee, drie of meer kinderen op verschillende niveaus. De jaarronde consistentie zonder zomerdip maakt deze niche tot een voorspelbare omzetgenerator. De sterke gemeenschapsgedreven mond-tot-mondreclame creëert exponentiële groeimogelijkheden wanneer je materiaal wordt aanbevolen in thuisonderwijsgroepen en -forums. In Nederland groeit de thuisonderwijspopulatie gestaag, terwijl de internationale Engelstalige markt via Etsy.com en Gumroad enorm is.`,
     },
     {
-      question: 'Hoe bereik ik thuisonderwijs-ouders als kopers?',
+      question: `Hoe bereik ik thuisonderwijs-ouders als kopers?`,
       answer: `Thuisonderwijs-ouders bereik je het effectiefst via drie kanalen: ten eerste via gerichte zoekwoordoptimalisatie op Etsy en Gumroad met termen als "homeschool," "thuisonderwijs," "unit study" en specifieke methodieknamen als "Charlotte Mason" of "Montessori." Ten tweede via thuisonderwijsgemeenschappen op Facebook, Instagram en gespecialiseerde forums waar productaanbevelingen sterk worden gedeeld. Ten derde via e-mailmarketing naar je eigen abonneelijst van thuisonderwijs-ouders — dit is het meest waardevolle kanaal omdat deze kopers uitzonderlijk loyaal zijn en herhaaldelijk terugkeren. Positioneer je producten expliciet als thuisprintbare producten in plaats van generiek schoolmateriaal om het specifieke koopsegment aan te trekken.`,
     },
     {
-      question: 'Welke thuisonderwijsmethodieken moet ik targeten?',
+      question: `Welke thuisonderwijsmethodieken moet ik targeten?`,
       answer: `De meest winstgevende thuisonderwijsmethodieken om te targeten zijn eclectisch thuisonderwijs (de grootste groep die flexibel materiaal uit meerdere bronnen combineert), unit study-benaderingen (die thematisch georganiseerd materiaal over meerdere vakgebieden vereisen), en klassiek onderwijs (dat gestructureerde progressieve materialen waardeert). Charlotte Mason-methodiek vereist materiaal gericht op korte gerichte lessen en natuurobservatie. Montessori-geïnspireerd thuisonderwijs focust op praktische, zelfstandig te gebruiken materialen. In de praktijk bedien je het breedste publiek door flexibel, thematisch materiaal te creëren met duidelijke instructie-aanwijzingen en aanpasbare moeilijkheidsniveaus die bij elke methodiek bruikbaar zijn.`,
     },
     {
@@ -149,62 +149,62 @@ De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde pro
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
+      anchorText: `Professionele optelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Peuterspeelzaal printable businessideeën',
+      anchorText: `Peuterspeelzaal printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kleuterschool printable businessideeën',
+      anchorText: `Kleuterschool printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
+      anchorText: `Groep 3 printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: `Rugzak — educatieve thema-afbeelding thuisonderwijs`, caption: 'Rugzak' },
-    { src: '/image-library/classroom/binder.webp', alt: `Ordner — educatieve thema-afbeelding thuisonderwijs`, caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding thuisonderwijs', caption: 'Boek' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding thuisonderwijs', caption: 'Kast' },
-    { src: '/image-library/classroom/calculator.webp', alt: `Rekenmachine — educatieve thema-afbeelding thuisonderwijs`, caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: `Kalender — educatieve thema-afbeelding thuisonderwijs`, caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding thuisonderwijs`, caption: 'Rugzak' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — educatieve thema-afbeelding thuisonderwijs`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: `Boek — educatieve thema-afbeelding thuisonderwijs`, caption: 'Boek' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Kast — educatieve thema-afbeelding thuisonderwijs`, caption: 'Kast' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Rekenmachine — educatieve thema-afbeelding thuisonderwijs`, caption: 'Rekenmachine' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — educatieve thema-afbeelding thuisonderwijs`, caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

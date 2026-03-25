@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar fichas em vários idiomas',
+    primaryKeyword: `criar fichas em vários idiomas`,
     secondaryKeywords: [
       'criação fichas multilingues',
       'traduzir fichas para vender',
-      'produção imprimíveis vários idiomas',
+      `produção imprimíveis vários idiomas`,
       'design fichas internacionais',
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `design RTL variação comprimento texto palavras compostas adaptação cultural localização fichas`,
       `produção em lote geração conteúdo vários idiomas ferramentas tradução automatizada bases vocabulário`,
     ],
-    titleTag: 'Criar fichas em vários idiomas — Guia prático',
+    titleTag: `Criar fichas em vários idiomas — Guia prático`,
     metaDescription: `Como criar fichas em vários idiomas: fluxos de produção, gestão de caracteres, seleção de fontes, controlo de qualidade e adaptação de anúncios para vender.`,
   },
 
   hero: {
-    title: 'Como criar fichas de exercícios em vários idiomas',
+    title: `Como criar fichas de exercícios em vários idiomas`,
     tagline: `Um guia prático para a produção de fichas multilingues — cobrindo como escolher tipos de fichas adequados para cada idioma, configurar um espaço de trabalho multilingue, lidar com caracteres especiais e fontes, adaptar conteúdo de forma natural para cada mercado, implementar controlo de qualidade de traduções, utilizar ferramentas automatizadas multilingues, criar fluxos de produção em lote eficientes e otimizar anúncios em plataformas para compradores internacionais`,
     description: `Criar fichas de exercícios em vários idiomas não é simplesmente passar o texto por um tradutor. A produção profissional multilingue requer compreender conjuntos de caracteres, compatibilidade de fontes, variações no comprimento do texto, contexto cultural e processos de controlo de qualidade que assegurem que cada versão linguística cumpre o mesmo padrão do original. Este guia percorre a metodologia de produção completa para criar fichas com aspeto e leitura profissionais em cada idioma de destino.`,
   },
@@ -43,11 +43,11 @@ const content: GuideContent = {
       content: `A gestão de conjuntos de caracteres é a fonte mais comum de problemas de qualidade em fichas multilingues. Sinais diacríticos em falta ou incorretamente renderizados sinalizam de imediato produção amadora aos compradores falantes nativos. Acertar nos caracteres requer compreender o que cada idioma-alvo necessita e selecionar fontes que suportem esses requisitos.\n\nO alemão requer tremas (ä, ö, ü, Ä, Ö, Ü) e o s agudo (ß). Estes caracteres não são opcionais — alteram o significado das palavras. «Schon» (já) e «schön» (bonito) são palavras completamente diferentes. Uma ficha que apresenta «schon» quando quer dizer «schön» contém um erro ortográfico que qualquer comprador germanófono notará de imediato. Cada fonte que utilizar para fichas em alemão deve renderizar todos os tremas e o ß corretamente em todos os tamanhos que usar.\n\nO francês requer múltiplos tipos de acentos: agudo (é), grave (è, à, ù), circunflexo (ê, î, ô, û, â), trema (ë, ï, ü) e cedilha (ç). O francês também utiliza aspas angulares (« ») em vez de aspas regulares. Tal como no alemão, acentos incorretos ou em falta alteram o significado das palavras e marcam a ficha como mal produzida. A palavra «résumé» tem dois acentos agudos, e omitir qualquer um cria um erro.\n\nO espanhol precisa do til sobre o n (ñ), pontos de interrogação invertidos (¿) e pontos de exclamação invertidos (¡), e acentos padrão (á, é, í, ó, ú). Os sinais de pontuação invertidos são frequentemente esquecidos por produtores não nativos mas são obrigatórios na escrita espanhola padrão. Fichas destinadas a jovens aprendizes hispanófonos devem modelar a pontuação correta porque cumprem uma função educativa.\n\nOs idiomas escandinavos requerem caracteres adicionais: o sueco utiliza å, ä, ö; o dinamarquês e o norueguês utilizam æ, ø, å; o finlandês utiliza ä e ö. Estas são letras distintas nos seus respetivos alfabetos, não variantes de a, o ou e. Em sueco, å, ä e ö aparecem no final do alfabeto como letras separadas, o que importa para qualquer ficha que envolva ordenação alfabética.\n\nA seleção de fontes é a sua principal defesa contra problemas de renderização de caracteres. Escolha fontes com suporte Unicode abrangente que inclua todos os caracteres Latin Extended. O Google Fonts oferece muitas opções com amplo suporte linguístico — Noto Sans e Noto Serif foram especificamente concebidas para cobertura linguística universal. Antes de se comprometer com uma fonte para produção, teste-a renderizando uma frase de amostra contendo cada carácter especial exigido pelos seus idiomas-alvo. Se algum carácter for apresentado incorretamente, aparecer como quadrado ou ponto de interrogação, ou parecer visualmente inconsistente com o texto circundante, escolha uma fonte diferente. Este teste de cinco minutos previne horas de retrabalho posterior.`,
     },
     {
-      heading: 'Adaptar conteúdo para cada mercado linguístico',
+      heading: `Adaptar conteúdo para cada mercado linguístico`,
       content: `A tradução direta palavra por palavra é o erro mais comum na produção de fichas multilingues. A tradução produz texto tecnicamente correto mas com sonoridade pouco natural que os falantes nativos reconhecem imediatamente como gerado por máquina ou mal adaptado. Fichas multilingues profissionais requerem adaptação de conteúdo — reescrever instruções e conteúdo para soar natural no idioma de destino preservando a intenção educativa.\n\nA variação no comprimento do texto é um desafio prático que afeta o design da disposição. As palavras compostas alemãs são frequentemente 30% a 50% mais longas do que os seus equivalentes em inglês. «Kindergartenkind» (criança do jardim de infância) é uma única palavra em alemão mas três em inglês. «Grundschulmathematik» (matemática do ensino primário) requer significativamente mais espaço horizontal do que a sua tradução inglesa. Se o seu modelo de ficha foi concebido com caixas de texto dimensionadas para palavras em inglês, o conteúdo alemão irá transbordar ou requerer redução do tamanho da fonte que compromete a legibilidade. Conceba as suas disposições tendo em mente o idioma-alvo mais longo ou crie modelos específicos por idioma com dimensões de caixas de texto ajustadas.\n\nO fraseado das instruções deve corresponder à forma como os falantes nativos dão indicações naturalmente. Em inglês, as instruções de fichas utilizam frequentemente construções imperativas: «Circle the correct answer» ou «Draw a line to match.» As instruções em alemão podem utilizar o imperativo formal ou construções infinitivas. As instruções em francês utilizam frequentemente o imperativo com colocação diferente dos pronomes. Traduzir instruções imperativas em inglês palavra por palavra para outros idiomas produz frequentemente texto gramaticalmente correto mas de sonoridade estranha. Pesquise como os materiais educativos no seu idioma-alvo tipicamente formulam as instruções e siga essa convenção.\n\nO contexto cultural importa para a seleção de conteúdo. Uma ficha sobre temas do Dia de Ação de Graças não tem relevância nos mercados europeus. Uma ficha que referencia moeda americana (quarters, dimes, nickels) precisa de adaptação para mercados que utilizam euros ou outras moedas. As fichas com tema alimentar devem apresentar alimentos familiares à cultura-alvo — uma ficha de vocabulário alimentar em alemão deve incluir Brezel e Bratwurst ao lado de itens universais. Temas de animais, estações e natureza geralmente transferem-se entre culturas sem problemas, tornando-os escolhas seguras para produção multilingue.\n\nA formatação de números varia por idioma e região. Muitos idiomas europeus utilizam a vírgula como separador decimal e o ponto ou espaço como separador de milhares — o oposto das convenções inglesas. «1,234.56» em inglês torna-se «1.234,56» ou «1 234,56» em alemão e francês. As fichas de matemática destinadas a mercados europeus devem utilizar a formatação numérica localmente correta para evitar confundir jovens aprendizes que ainda estão a desenvolver a literacia numérica.`,
     },
     {
-      heading: 'Implementar controlo de qualidade para traduções',
+      heading: `Implementar controlo de qualidade para traduções`,
       content: `O controlo de qualidade é o passo que separa fichas multilingues profissionais das amadoras. Até tradutores experientes cometem erros, e as ferramentas de tradução automatizada introduzem erros subtis que apenas falantes nativos detetam de forma fiável. Construir um processo de CQ sistemático assegura qualidade consistente em cada versão linguística que produzir.\n\nCrie uma lista de verificação específica por idioma para cada língua-alvo que cubra as categorias de erro mais comuns. Para o alemão: verifique se todos os tremas estão presentes e corretos, confirme a capitalização dos substantivos (todos os substantivos alemães são maiúsculos), verifique a ortografia de palavras compostas e confirme a consistência entre tratamento formal e informal. Para o francês: verifique todos os acentos, confirme a concordância de género entre artigos e substantivos, verifique a consistência da conjugação verbal e confirme o espaçamento de pontuação (o francês adiciona um espaço antes de dois pontos, ponto e vírgula, ponto de interrogação e ponto de exclamação). Para o espanhol: verifique os acentos nas sílabas tónicas, confirme os sinais de pontuação invertidos, verifique a concordância de género e confirme a neutralidade regional das escolhas de vocabulário.\n\nUtilize múltiplas passagens de verificação em vez de tentar detetar tudo numa única revisão. A primeira passagem verifica a valor percebido de caracteres e sinais diacríticos — percorra cada palavra à procura de caracteres especiais em falta ou incorretos. A segunda passagem verifica o fluxo linguístico natural — leia o texto em voz alta (ou utilize texto-para-fala) para identificar frases que soem traduzidas em vez de naturais. A terceira passagem verifica a exatidão educativa — confirme que as instruções são claras, o vocabulário é adequado à faixa etária e o conteúdo é culturalmente relevante.\n\nSe não é falante nativo do seu idioma-alvo, considere construir uma rede de revisores falantes nativos. Isto não precisa de ser dispendioso — comunidades de intercâmbio linguístico, departamentos universitários de línguas e plataformas de freelancers proporcionam acesso a falantes nativos que podem rever o conteúdo das fichas. A revisão por um falante nativo de uma única ficha leva 10 a 15 minutos e custa uma fração das receitas que essa ficha gerará ao longo da sua vida no marketplace. Mesmo uma única revisão por tipo de produto por idioma pode detetar erros sistemáticos que afetam toda a sua produção.\n\nCompare as suas fichas com materiais educativos profissionalmente publicados no idioma-alvo. Lojas de material escolar, sites de editoras educativas e anúncios de marketplace de vendedores estabelecidos em cada mercado linguístico fornecem exemplos de referência de como fichas profissionais se apresentam e leem nesse idioma. Note como as instruções são formuladas, como o conteúdo é formatado e que nível de vocabulário é utilizado para diferentes faixas etárias. Estas referências calibram o seu padrão de qualidade para cada mercado linguístico.\n\nDocumente os erros que descobrir e crie uma base de dados de correções organizada por idioma. Se descobrir que escreve consistentemente mal uma determinada palavra alemã ou coloca mal um acento francês, registar esse padrão previne a recorrência do mesmo erro em produções futuras. Com o tempo, esta base de dados de correções torna-se um recurso de produção valioso que progressivamente elimina os seus erros mais comuns.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `As ferramentas de geração automática de fichas transformam a produção multilingue de um desafio de tradução numa escolha de configuração. Em vez de criar conteúdo em inglês e depois traduzi-lo palavra por palavra para cada idioma-alvo, as ferramentas geradoras produzem conteúdo nativamente em cada idioma a partir de bases de dados de vocabulário incorporadas e regras de formatação específicas do idioma.\n\nOs geradores do LessonCraft Studio suportam 11 idiomas — inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês — com gestão correta de caracteres, bases de dados de vocabulário e convenções de formatação para cada idioma. Quando gera uma sopa de letras em alemão, a ferramenta extrai de uma base de dados de vocabulário alemão com tremas e ortografia corretos, organiza a grelha do puzzle utilizando regras de colocação de palavras alemãs e gera instruções em fraseado alemão natural. O resultado não é uma tradução de uma ficha em inglês — é uma ficha alemã gerada nativamente. Pode experimentar qualquer gerador como teste grátis com marca de água para avaliar a qualidade do resultado multilingue antes de adquirir uma licença comercial.\n\nA vantagem prática da geração automatizada é mais dramática para tipos de fichas com muito conteúdo. Uma sopa de letras contendo 15 palavras de vocabulário exigiria pesquisar, soletrar e verificar 15 palavras em cada idioma-alvo se produzida manualmente. Um gerador produz essas 15 palavras corretamente soletradas e com acentos adequados instantaneamente a partir da sua base de dados de vocabulário. Multiplique isso por um lote de produção de 10 variações de sopa de letras em 4 idiomas, e a geração automatizada poupa horas de pesquisa e verificação manual por lote.\n\nAs ferramentas automatizadas também tratam regras de formatação específicas do idioma que são fáceis de ignorar na produção manual. O gerador sabe que os substantivos alemães devem ser maiúsculos, que o francês requer espaçamento específico antes de certos sinais de pontuação e que os alfabetos escandinavos colocam letras adicionais no final. Estes detalhes de formatação estão incorporados na lógica de geração, pelo que se aplicam de forma consistente em cada ficha produzida — eliminando a categoria de erros que resulta de esquecer regras específicas do idioma durante a produção manual.\n\nMesmo com geração automatizada, reveja o resultado antes de publicar. As ferramentas automatizadas tratam do trabalho pesado de seleção de vocabulário, renderização de caracteres e regras de formatação, mas uma revisão visual rápida confirma que a combinação específica de palavras, disposição e formatação em cada ficha gerada cumpre o seu padrão de qualidade. Esta combinação de produção automatizada mais revisão humana proporciona tanto a eficiência da geração por ferramentas como a garantia de qualidade da inspeção manual.`,
     },
     {
-      heading: 'Criar fluxos de produção em lote eficientes',
+      heading: `Criar fluxos de produção em lote eficientes`,
       content: `A produção em lote é a chave para tornar a criação de fichas multilingues economicamente viável. Produzir uma ficha de cada vez em vários idiomas implica mudanças constantes de contexto entre idiomas, ferramentas e anúncios de marketplace — cada mudança desperdiça tempo e introduz oportunidades de erro. Agrupar o seu trabalho por etapa de produção em vez de por produto individual elimina a maioria desta sobrecarga.\n\nOrganize a sua produção em lotes baseados em etapas. Etapa um: conceba todas as disposições e modelos para um lote de produtos. Etapa dois: gere ou crie conteúdo para todos os produtos no idioma um. Etapa três: gere ou crie os mesmos produtos no idioma dois. Etapa quatro: repita para cada idioma adicional. Etapa cinco: revisão de qualidade de todos os produtos. Etapa seis: prepare todos os anúncios de marketplace. Esta abordagem baseada em etapas significa que configura o seu ambiente de idioma alemão uma vez e produz todas as versões alemãs em sequência, em vez de alternar entre alemão, francês e espanhol para cada ficha individual.\n\nDefina dimensões de lote padrão que equilibrem eficiência com qualidade. Um lote de 5 a 8 variações de fichas por conceito por idioma é suficientemente grande para justificar o tempo de configuração para cada mudança de idioma mas suficientemente pequeno para manter a atenção à qualidade ao longo do lote. Se produz sopas de letras, um único lote pode incluir 6 variações com tema de animais — gere as 6 em inglês, depois as 6 em alemão, depois as 6 em francês. O contexto do tema de vocabulário mantém-se consistente dentro de cada lote linguístico, reduzindo a carga cognitiva.\n\nAgende blocos de produção específicos por idioma no seu calendário de trabalho. Em vez de trabalhar em todos os idiomas todos os dias, dedique sessões específicas a idiomas específicos. A manhã de segunda-feira pode ser o seu bloco de produção alemão, a tarde de terça-feira o seu bloco francês. Esta abordagem permite ao seu cérebro assentar em cada contexto linguístico em vez de mudar constantemente. Os produtores que agrupam por idioma reportam velocidades de produção mais rápidas e menos erros em comparação com aqueles que mudam de idioma frequentemente dentro de uma única sessão.\n\nCrie listas de verificação de produção para cada lote que incluam passos de verificação específicos do idioma. Antes de concluir um lote de produção alemã, percorra a sua lista de verificação de CQ para alemão: tremas verificados, capitalização de substantivos correta, palavras compostas soletradas corretamente, texto dentro dos limites da disposição. Complete esta lista de verificação antes de mudar para o idioma seguinte. Detetar erros dentro do contexto linguístico em que ocorreram é muito mais eficiente do que tentar identificar erros específicos do alemão durante uma sessão de revisão multilingue mais tarde.\n\nMonitorize métricas de produção para otimizar o seu fluxo de trabalho em lote ao longo do tempo. Registe quanto tempo cada lote linguístico demora, quantos erros o seu processo de CQ deteta por lote e quais as etapas de produção que são estrangulamentos. Estes dados revelam oportunidades de otimização — talvez os seus lotes franceses demorem 40% mais do que os alemães porque o seu processo de CQ em francês é menos eficiente, indicando onde investir em melhores materiais de referência ou revisão por falante nativo para esse idioma.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Otimização de anúncios multilingues no Etsy',
+      heading: `Otimização de anúncios multilingues no Etsy`,
       content: `O Etsy permite que uma única loja aloje produtos em qualquer idioma, tornando-o a plataforma mais acessível para vendedores multilingues. Para maximizar a visibilidade, crie anúncios completamente no idioma nativo com todas as 13 etiquetas no idioma de destino — o Etsy emparelha o idioma de pesquisa do comprador com o idioma do anúncio. Organize a sua loja utilizando secções por idioma (por exemplo, «Deutsch / Alemão», «Français / Francês») para que os compradores internacionais encontrem rapidamente conteúdo no seu idioma. Ao publicar produtos em idiomas europeus, inclua compatibilidade com papel A4 na descrição e considere oferecer versões tanto A4 como Letter para servir a base de compradores mais ampla.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'negocio-imprimiveis-multilingue', anchorText: 'Construir um negócio de imprimíveis multilingue' },
-    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos de imprimíveis rentáveis' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
+    { pageType: 'guide', slug: `negocio-imprimiveis-multilingue`, anchorText: `Construir um negócio de imprimíveis multilingue` },
+    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: `Como pesquisar nichos de imprimíveis rentáveis` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
     { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Como criar caça-palavras' },
-    { pageType: 'guide', slug: 'criar-fichas-alfabeto', anchorText: 'Como criar fichas de aprendizagem do alfabeto' },
-    { pageType: 'guide', slug: 'criar-fichas-preposicoes', anchorText: 'Como criar fichas de preposições para ESL' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para material educativo imprimível' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'criar-fichas-alfabeto', anchorText: `Como criar fichas de aprendizagem do alfabeto` },
+    { pageType: 'guide', slug: 'criar-fichas-preposicoes', anchorText: `Como criar fichas de preposições para ESL` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para material educativo imprimível` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'alphabet-train',
-      title: 'Gerador de comboio do alfabeto',
+      title: `Gerador de comboio do alfabeto`,
       description: `Crie fichas de aprendizagem do alfabeto com letras e caracteres específicos de cada idioma. Demonstra como as ferramentas automatizadas lidam com tremas, acentos e caracteres especiais corretamente em todos os 11 idiomas suportados.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'prepositions',
-      title: 'Gerador de fichas de preposições',
+      title: `Gerador de fichas de preposições`,
       description: `Crie fichas de gramática focadas em preposições que se adaptam às regras gramaticais específicas de cada idioma. As preposições diferem fundamentalmente entre idiomas, tornando-as uma demonstração excelente da geração de conteúdo no idioma nativo.`,
     },
   ],
@@ -197,15 +197,15 @@ const content: GuideContent = {
       },
     ],
     youtubeId: '_dDQegRq9JQ',
-    videoTitle: 'Como criar fichas de alfabeto multilingues',
+    videoTitle: `Como criar fichas de alfabeto multilingues`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
   ],
 };
 

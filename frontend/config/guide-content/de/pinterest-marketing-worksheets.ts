@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest-Marketing Arbeitsblätter',
+    primaryKeyword: `Pinterest-Marketing Arbeitsblätter`,
     secondaryKeywords: [
-      'Pinterest für Druckvorlagen-Verkäufer',
-      'Arbeitsblätter mit Pinterest verkaufen',
-      'Pinterest-Strategie Druckvorlagen-Geschäft',
-      'Pinterest-Traffic für Arbeitsblatt-Shops',
+      `Pinterest für Druckvorlagen-Verkäufer`,
+      `Arbeitsblätter mit Pinterest verkaufen`,
+      `Pinterest-Strategie Druckvorlagen-Geschäft`,
+      `Pinterest-Traffic für Arbeitsblatt-Shops`,
     ],
     lsiKeywords: [
       `visuelle Suchmaschine Pin-Design Board-Optimierung Keyword-reiche Beschreibungen`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Pinterest-Marketing für Arbeitsblatt-Geschäfte',
+    title: `Pinterest-Marketing für Arbeitsblatt-Geschäfte`,
     tagline: `Ein umfassender Leitfaden zum Pinterest-Marketing für Arbeitsblatt-Verkäufer — wie Sie ein Business-Konto einrichten, Boards für Auffindbarkeit strukturieren, hochkonvertierende Pins gestalten, keyword-reiche Beschreibungen verfassen, einen Pin-Zeitplan entwickeln, für Pinterest-SEO optimieren, saisonale Inhaltszyklen nutzen und Leistungsdaten analysieren`,
     description: `Pinterest ist keine Social-Media-Plattform. Es ist eine visuelle Suchmaschine, auf der Nutzer aktiv nach Produkten und Ideen zum Kaufen suchen. Für Arbeitsblatt-Verkäufer von Druckvorlagen ist diese Unterscheidung entscheidend — Pinterest-Nutzer entdecken, speichern und klicken sich durch zum Kauf von Bildungsressourcen, noch Monate nachdem ein Pin veröffentlicht wurde. Dieser Leitfaden bietet ein vollständiges Pinterest-Marketing-Framework, das speziell für Arbeitsblatt-Geschäfte entwickelt wurde — von der Profiloptimierung und Board-Strategie bis hin zu Pin-Design, Keyword-Integration, saisonaler Planung und datengestützter Verfeinerung.`,
   },
@@ -137,18 +137,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-druckvorlagen-marketing', anchorText: `Social-Media-Marketing für Druckvorlagen-Verkäufer` },
-    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: 'E-Mail-Marketing für Druckvorlagen-Verkäufer' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'So skalieren Sie Ihr Druckvorlagen-Geschäft' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
+    { pageType: 'guide', slug: `social-media-druckvorlagen-marketing`, anchorText: `Social-Media-Marketing für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: `E-Mail-Marketing für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `So skalieren Sie Ihr Druckvorlagen-Geschäft` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
     { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy-SEO für Lernmaterialien' },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Eine Druckvorlagen-Produktlinie erstellen' },
-    { pageType: 'guide', slug: 'saisonales-marketing-druckvorlagen', anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Eine Druckvorlagen-Produktlinie erstellen` },
+    { pageType: 'guide', slug: `saisonales-marketing-druckvorlagen`, anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischenauswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-automatisieren', anchorText: 'Ihr Druckvorlagen-Geschäft automatisieren' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-automatisieren`, anchorText: `Ihr Druckvorlagen-Geschäft automatisieren` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
   ],
 
   toolsRecommended: [
@@ -169,29 +169,29 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Erstellt thematische visuelle Zuordnungsaktivitäten, die in Pinterests Hochformat wunderbar dargestellt werden. Das bildreiche Layout und die bunten Designs ziehen natürlich Engagement von Pinterest-Besuchern an.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/coloring/coloring portrait 1.webp',
+      src: `/samples/german/coloring/coloring portrait 1.webp`,
       alt: `Professionelle Ausmalseite als Arbeitsblatt, die visuell ansprechende Pinterest-Pin-Inhalte für Druckvorlagen-Verkäufer demonstriert`,
     },
     samples: [
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Ausmalseiten-Arbeitsblatt zeigt visuelle Wirkung für Pinterest-Pin-Design`,
         caption: `Visuell beeindruckende Arbeitsblätter schaffen natürlich überzeugende Pinterest-Pin-Bilder`,
       },
       {
-        src: '/samples/german/bingo/bilder-bingo 1.webp',
+        src: `/samples/german/bingo/bilder-bingo 1.webp`,
         alt: `Bingo-Karten-Arbeitsblatt demonstriert farbenfrohe Pin-würdige Produktdesigns`,
         caption: `Farbenfrohe, thematische Produkte generieren höhere Speicherungsraten und Klickraten auf Pinterest`,
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuchrätsel zeigt vielseitigen Produkttyp für Pinterest-Marketing`,
         caption: `Vielseitige Produkttypen unterstützen mehrere Pin-Varianten für breitere Suchabdeckung`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/camping/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Fernglas — thematisches Lernbild', caption: 'Fernglas' },
-    { src: '/image-library/camping/boots.webp', alt: 'Stiefel — thematisches Lernbild', caption: 'Stiefel' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/camping/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Fernglas — thematisches Lernbild`, caption: 'Fernglas' },
+    { src: `/image-library/camping/boots.webp`, alt: `Stiefel — thematisches Lernbild`, caption: 'Stiefel' },
+    { src: `/image-library/camping/cabin.webp`, alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
   ],
 };
 

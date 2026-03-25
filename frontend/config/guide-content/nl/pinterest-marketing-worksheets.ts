@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest marketing werkbladen',
+    primaryKeyword: `Pinterest marketing werkbladen`,
     secondaryKeywords: [
-      'Pinterest strategie printables verkopen',
-      'Pinterest SEO voor werkbladen verkopers',
-      'pins maken voor educatieve producten',
-      'Pinterest verkeer naar Etsy shop',
+      `Pinterest strategie printables verkopen`,
+      `Pinterest SEO voor werkbladen verkopers`,
+      `pins maken voor educatieve producten`,
+      `Pinterest verkeer naar Etsy shop`,
     ],
     lsiKeywords: [
-      'Pinterest bedrijfsaccount instellen',
-      'pin ontwerp tips printable business',
-      'zoekwoorden onderzoek Pinterest',
-      'idee-pins video-pins betrokkenheid',
-      'Pinterest borden strategie niche',
-      'Pinterest analytics optimalisatie',
+      `Pinterest bedrijfsaccount instellen`,
+      `pin ontwerp tips printable business`,
+      `zoekwoorden onderzoek Pinterest`,
+      `idee-pins video-pins betrokkenheid`,
+      `Pinterest borden strategie niche`,
+      `Pinterest analytics optimalisatie`,
     ],
     titleTag: `Pinterest Marketing voor Werkbladen Verkopers — Gids`,
     metaDescription: `Leer hoe je Pinterest inzet om werkbladen en printables te verkopen. Ontdek pin-ontwerp, SEO-strategieën, bordplanning en analytics voor maximaal bereik.`,
   },
 
   hero: {
-    title: 'Pinterest Marketing voor Werkbladen Verkopers',
+    title: `Pinterest Marketing voor Werkbladen Verkopers`,
     tagline: `Gebruik Pinterest als krachtige verkeersmotor om je werkbladen, puzzels en educatieve printables aan de juiste kopers te tonen en consistent verkopen te realiseren`,
     description: `Pinterest is fundamenteel anders dan andere sociale media. Terwijl Instagram, Facebook en TikTok draaien om vluchtige content die binnen uren verdwijnt uit feeds, functioneert Pinterest als een visuele zoekmachine. Pins die je vandaag publiceert kunnen maanden — zelfs jaren — later nog steeds verkeer naar je Etsy-shop, Gumroad-pagina of eigen website sturen. Voor verkopers van werkbladen, puzzels en educatieve printables is dit een gamechanger. Ouders zoeken actief op Pinterest naar activiteiten voor hun kinderen. verkopers zoeken naar werkbladen voor hun klas. Thuisonderwijzers zoeken naar complete lespakketten. En ondernemers zoeken naar inspiratie voor hun eigen printable bedrijf. Al deze doelgroepen gebruiken Pinterest als hun primaire ontdekkingsplatform. In deze uitgebreide gids leer je hoe je een Pinterest-strategie opbouwt die specifiek is afgestemd op de printable markt. Van het optimaliseren van je bedrijfsaccount tot het maken van pins die klikken genereren, van zoekwoordstrategie tot het analyseren van je resultaten — elke stap is gericht op het maximaliseren van zichtbaarheid en verkopen voor jouw printable producten. Alle tools die in deze gids worden aanbevolen zijn beschikbaar als gratis proefversie met watermerk, zodat je direct kunt starten met het maken van prachtige voorbeeldafbeeldingen voor je pins.`,
   },
@@ -31,31 +31,31 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Stel Je Pinterest Bedrijfsaccount Optimaal In',
-      content: `De basis van succesvolle Pinterest marketing begint bij je accountinstelling. Een bedrijfsaccount biedt functies die cruciaal zijn voor verkopers: toegang tot Pinterest Analytics, de mogelijkheid om Rich Pins in te stellen, en het advertentieplatform. Als je nog een persoonlijk account hebt, schakel dit dan om naar een bedrijfsaccount via de Pinterest-instellingen — dit is gratis en je verliest geen bestaande pins of volgers.\n\nJe profielnaam is het eerste wat potentiële klanten zien. Gebruik een naam die zowel je merknaam bevat als een beschrijving van wat je aanbiedt. Bijvoorbeeld: "LessonCraft Studio | Werkbladen & Puzzels voor Kinderen". Dit helpt niet alleen bij herkenning maar ook bij Pinterest-zoekresultaten, omdat de profielnaam meeweegt in het zoekalgoritme.\n\nJe profielomschrijving is je elevator pitch. Beschrijf in maximaal 500 tekens precies wat je aanbiedt, voor wie het bedoeld is en waarom het waardevol is. Gebruik relevante zoekwoorden natuurlijk in de tekst: werkbladen, puzzels, printables, educatief materiaal, en de leeftijdsgroepen of vakgebieden die je bedient. Vermijd vage beschrijvingen zoals "we maken leuke dingen" — wees specifiek over je niche.\n\nClaim je website in de Pinterest-instellingen. Dit verificatieproces koppelt je Etsy-shop, eigen website of andere verkoopplatformen aan je Pinterest-account. Geclaimed websiteverkeer verschijnt in je analytics, en je pins krijgen een klein vinkje en je profielfoto ernaast, wat vertrouwen opbouwt bij potentiële kopers.\n\nStel Rich Pins in voor je productpagina's. Rich Pins halen automatisch actuele informatie op van je website, zoals prijzen, beschikbaarheid en productbeschrijvingen. Voor Etsy-verkopers worden Rich Pins automatisch ondersteund zodra je je Etsy-shop hebt geclaimed. Rich Pins zorgen ervoor dat je pins altijd actuele informatie tonen, zelfs als je je productprijs wijzigt.\n\nMaak een georganiseerde bordstructuur voordat je begint met pinnen. Maak borden aan voor elke productcategorie die je aanbiedt: "Rekenwerkbladen voor Kinderen", "Woordzoekpuzzels met Thema's", "Kleurplaten voor Kleuters". Elk bord moet een duidelijke naam hebben met zoekwoorden en een beschrijving die uitlegt wat bezoekers kunnen verwachten. Begin met 10 tot 15 borden die je kernproducten vertegenwoordigen.`,
+      heading: `Stel Je Pinterest Bedrijfsaccount Optimaal In`,
+      content: `De basis van succesvolle Pinterest marketing begint bij je accountinstelling. Een bedrijfsaccount biedt functies die cruciaal zijn voor verkopers: toegang tot Pinterest Analytics, de mogelijkheid om Rich Pins in te stellen, en het advertentieplatform. Als je nog een persoonlijk account hebt, schakel dit dan om naar een bedrijfsaccount via de Pinterest-instellingen — dit is gratis en je verliest geen bestaande pins of volgers.\n\nJe profielnaam is het eerste wat potentiële klanten zien. Gebruik een naam die zowel je merknaam bevat als een beschrijving van wat je aanbiedt. Bijvoorbeeld: "LessonCraft Studio | Werkbladen & Puzzels voor Kinderen". Dit helpt niet alleen bij herkenning maar ook bij Pinterest-zoekresultaten, omdat de profielnaam meeweegt in het zoekalgoritme.\n\nJe profielomschrijving is je elevator pitch. Beschrijf in maximaal 500 tekens precies wat je aanbiedt, voor wie het bedoeld is en waarom het waardevol is. Gebruik relevante zoekwoorden natuurlijk in de tekst: werkbladen, puzzels, printables, educatief materiaal, en de leeftijdsgroepen of vakgebieden die je bedient. Vermijd vage beschrijvingen zoals "we maken leuke dingen" — wees specifiek over je niche.\n\nClaim je website in de Pinterest-instellingen. Dit verificatieproces koppelt je Etsy-shop, eigen website of andere verkoopplatformen aan je Pinterest-account. Geclaimed websiteverkeer verschijnt in je analytics, en je pins krijgen een klein vinkje en je profielfoto ernaast, wat vertrouwen opbouwt bij potentiële kopers.\n\nStel Rich Pins in voor je productpagina`s. Rich Pins halen automatisch actuele informatie op van je website, zoals prijzen, beschikbaarheid en productbeschrijvingen. Voor Etsy-verkopers worden Rich Pins automatisch ondersteund zodra je je Etsy-shop hebt geclaimed. Rich Pins zorgen ervoor dat je pins altijd actuele informatie tonen, zelfs als je je productprijs wijzigt.\n\nMaak een georganiseerde bordstructuur voordat je begint met pinnen. Maak borden aan voor elke productcategorie die je aanbiedt: "Rekenwerkbladen voor Kinderen", "Woordzoekpuzzels met Thema`s", "Kleurplaten voor Kleuters". Elk bord moet een duidelijke naam hebben met zoekwoorden en een beschrijving die uitlegt wat bezoekers kunnen verwachten. Begin met 10 tot 15 borden die je kernproducten vertegenwoordigen.`,
     },
     {
-      heading: 'Maak Pins die Klikken en Verkopen Genereren',
+      heading: `Maak Pins die Klikken en Verkopen Genereren`,
       content: `Het ontwerp van je pins bepaalt direct of gebruikers stoppen met scrollen en doorklikken naar je product. Pinterest is een visueel platform, dus de kwaliteit en aantrekkelijkheid van je pin-afbeeldingen zijn cruciaal voor je succes.\n\nDe optimale pin-verhouding is 2:3 (1000 x 1500 pixels). Dit formaat neemt de meeste ruimte in in de Pinterest-feed en krijgt daardoor de meeste aandacht. Vermijd vierkante of horizontale afbeeldingen — deze verschijnen kleiner in de feed en worden makkelijker overgeslagen.\n\nVoor werkbladen en printables heb je een uniek voordeel: je product is zelf visueel aantrekkelijk. Toon een echt voorbeeld van je werkblad op de pin, maar voeg context toe. Een mockup van je werkblad op een bureau met potloden ernaast, of een digitale weergave met een aantrekkelijke achtergrondkleur en titel erboven. De pin moet in één oogopslag duidelijk maken wat het product is en voor wie het bedoeld is.\n\nGebruik tekst-overlay op je pins, maar houd het beknopt en leesbaar. Drie tot vijf woorden in een groot, duidelijk lettertype werken het best: "Rekenwerkbladen Groep 3", "Woordzoekpuzzel Dieren", "10 Kleurplaten Lente". Gebruik contrasterende kleuren zodat de tekst leesbaar is op elke achtergrond. Vermijd kleine lettertypes die onleesbaar zijn op mobiele apparaten — meer dan 80% van Pinterest-gebruikers browst op hun telefoon.\n\nMaak meerdere pin-ontwerpen voor hetzelfde product. Pinterest beloont variatie — drie tot vijf verschillende pin-designs voor één product geven je meer kansen om in zoekresultaten te verschijnen. Wissel achtergrondkleuren, tekstplaatsing, productweergave en call-to-action af. Test welke stijlen het beste presteren via je analytics.\n\nVoeg altijd een subtiele call-to-action toe: "Bekijk alle werkbladen", "Direct downloaden", "Gratis proefversie met watermerk". Dit geeft gebruikers een duidelijke reden om door te klikken. Vermijd schreeuwerige verkoopteksten — Pinterest-gebruikers waarderen inspirerende, behulpzame content boven agressieve reclame.\n\nDe pin-beschrijving is net zo belangrijk als de afbeelding. Schrijf 200 tot 300 tekens die het product beschrijven met relevante zoekwoorden. Beschrijf wat het product bevat, voor welke leeftijd of groep het geschikt is en welk leerdoel het dient. Voeg een link toe naar je productpagina en gebruik relevante hashtags spaarzaam — twee tot vijf gerichte hashtags zijn voldoende.`,
     },
     {
-      heading: 'Gebruik Zoekwoorden en SEO op Pinterest',
+      heading: `Gebruik Zoekwoorden en SEO op Pinterest`,
       content: `Pinterest SEO verschilt fundamenteel van Google SEO, maar het principe is hetzelfde: je wilt dat je content verschijnt wanneer mensen zoeken naar relevante termen. Pinterest heeft zijn eigen zoekalgoritme dat bepaalt welke pins verschijnen voor welke zoekopdrachten, en het begrijpen van dit systeem is essentieel voor je succes.\n\nStart met zoekwoordenonderzoek direct op Pinterest. Typ een brede term in de Pinterest-zoekbalk, zoals "werkbladen", en bekijk de automatische suggesties die verschijnen. Deze suggesties zijn gebaseerd op wat echte gebruikers daadwerkelijk zoeken. "Werkbladen rekenen", "werkbladen kleuters", "werkbladen letters" — elke suggestie is een bevestigd zoekvolume dat je kunt targeten met je pins.\n\nNa een zoekopdracht verschijnen gekleurde filterknoppen boven de resultaten. Deze "guided search"-termen zijn extra zoekwoordsuggesties die Pinterest aanbiedt. Ze tonen welke verfijningen populair zijn: "werkbladen rekenen — groep 3 — optellen — gratis". Noteer deze combinaties en gebruik ze in je pin-beschrijvingen en bordtitels.\n\nPlaats je belangrijkste zoekwoorden op strategische locaties. De pin-titel is het zwaarstwegende element voor Pinterest SEO. Gebruik hier je primaire zoekwoord in een natuurlijke formulering. De pin-beschrijving biedt ruimte voor secundaire zoekwoorden en langere zoektermen. Bordnamen en bordbeschrijvingen wegen ook mee in de zoekresultaten.\n\nVermijd keyword stuffing — het onnatuurlijk vol proppen van zoekwoorden in beschrijvingen. Pinterest's algoritme herkent en bestraft dit. Schrijf natuurlijke, informatieve beschrijvingen die toevallig relevante zoekwoorden bevatten. Een goede beschrijving leest als een nuttige samenvatting van het product, niet als een lijst zoekwoorden.\n\nDenk seizoensgebonden. Pinterest-gebruikers zoeken twee tot drie maanden vóór een seizoen of feestdag naar gerelateerde content. Publiceer je herfstthema werkbladen in juli, je kerstwerkbladen in september en je zomervakantie-activiteiten in maart. Dit geeft je pins de tijd om door het Pinterest-algoritme opgepikt en verspreid te worden voordat de piekvraag begint.\n\nGebruik Pinterest Trends (trends.pinterest.com) om opkomende zoektermen in je niche te identificeren. Dit hulpmiddel toont zoekvolume over tijd voor specifieke termen, zodat je kunt zien wanneer de vraag naar bepaalde producten piekt en je publicatieschema daarop kunt afstemmen.`,
     },
     {
-      heading: 'Plan Je Pin Strategie voor Maximaal Bereik',
-      content: `Consistentie is de sleutel tot Pinterest-succes. Het algoritme beloont accounts die regelmatig nieuwe content publiceren, en straft accounts die weken stil zijn en dan plotseling tientallen pins tegelijk plaatsen. Een doordachte planningsstrategie is daarom essentieel.\n\nBegin met een publicatiefrequentie die je kunt volhouden. Vijf tot tien pins per dag is een goed startpunt voor nieuwe accounts. Dit lijkt veel, maar bedenk dat je meerdere pin-ontwerpen kunt maken voor hetzelfde product en dat je ook andermans relevante content kunt repinnen naar je borden. Een verhouding van 70% eigen pins en 30% repins van waardevolle, gerelateerde content is een veelgebruikte formule.\n\nGebruik een planning-tool om je pins vooruit te plannen. Pinterest's eigen planner laat je pins tot twee weken vooruit inplannen. Externe tools zoals Tailwind bieden geavanceerdere planningsfuncties, waaronder SmartSchedule dat automatisch de beste publicatietijden voor jouw publiek berekent. Met een planning-tool kun je een uur per week besteden aan het inplannen van al je pins voor de komende week.\n\nVerspreid je pins over de dag. Publiceer niet alle pins tegelijk, maar plan ze verspreid over de actieve uren van je doelgroep. Voor Nederlandstalige markten zijn de piekuren doorgaans tussen 12:00 en 14:00 en tussen 20:00 en 23:00. Voor internationale markten pas je de tijden aan op de tijdzones van je doelgroep.\n\nMaak een contentkalender die rekening houdt met seizoenen, feestdagen en schoolperiodes. Plan je content twee tot drie maanden vooruit: zomerwerkbladen in het voorjaar, herfstthema's in de zomer, kerstactiviteiten in het najaar. Dit stemt overeen met het Pinterest-zoekgedrag, waar gebruikers vroeg beginnen met plannen.\n\nHergebruik je beste presterende pins. Als een pin goed presteert, maak dan een nieuw ontwerp met dezelfde content en publiceer het opnieuw na enkele weken. Pinterest behandelt elke unieke afbeelding als een nieuwe pin, zelfs als de bestemmings-URL hetzelfde is. Dit geeft je topproducten meerdere kansen om nieuwe doelgroepen te bereiken.\n\nHoud een balans tussen nieuwe productpins en evergreen content. Nieuwe producten verdienen intensieve aandacht bij lancering (drie tot vijf pins in de eerste week), maar je bestaande catalogus moet ook regelmatig terugkomen in je publicatieschema. Een product dat zes maanden geleden is gepubliceerd kan via een nieuwe pin opnieuw ontdekt worden door een geheel nieuw publiek.`,
+      heading: `Plan Je Pin Strategie voor Maximaal Bereik`,
+      content: `Consistentie is de sleutel tot Pinterest-succes. Het algoritme beloont accounts die regelmatig nieuwe content publiceren, en straft accounts die weken stil zijn en dan plotseling tientallen pins tegelijk plaatsen. Een doordachte planningsstrategie is daarom essentieel.\n\nBegin met een publicatiefrequentie die je kunt volhouden. Vijf tot tien pins per dag is een goed startpunt voor nieuwe accounts. Dit lijkt veel, maar bedenk dat je meerdere pin-ontwerpen kunt maken voor hetzelfde product en dat je ook andermans relevante content kunt repinnen naar je borden. Een verhouding van 70% eigen pins en 30% repins van waardevolle, gerelateerde content is een veelgebruikte formule.\n\nGebruik een planning-tool om je pins vooruit te plannen. Pinterest`s eigen planner laat je pins tot twee weken vooruit inplannen. Externe tools zoals Tailwind bieden geavanceerdere planningsfuncties, waaronder SmartSchedule dat automatisch de beste publicatietijden voor jouw publiek berekent. Met een planning-tool kun je een uur per week besteden aan het inplannen van al je pins voor de komende week.\n\nVerspreid je pins over de dag. Publiceer niet alle pins tegelijk, maar plan ze verspreid over de actieve uren van je doelgroep. Voor Nederlandstalige markten zijn de piekuren doorgaans tussen 12:00 en 14:00 en tussen 20:00 en 23:00. Voor internationale markten pas je de tijden aan op de tijdzones van je doelgroep.\n\nMaak een contentkalender die rekening houdt met seizoenen, feestdagen en schoolperiodes. Plan je content twee tot drie maanden vooruit: zomerwerkbladen in het voorjaar, herfstthema`s in de zomer, kerstactiviteiten in het najaar. Dit stemt overeen met het Pinterest-zoekgedrag, waar gebruikers vroeg beginnen met plannen.\n\nHergebruik je beste presterende pins. Als een pin goed presteert, maak dan een nieuw ontwerp met dezelfde content en publiceer het opnieuw na enkele weken. Pinterest behandelt elke unieke afbeelding als een nieuwe pin, zelfs als de bestemmings-URL hetzelfde is. Dit geeft je topproducten meerdere kansen om nieuwe doelgroepen te bereiken.\n\nHoud een balans tussen nieuwe productpins en evergreen content. Nieuwe producten verdienen intensieve aandacht bij lancering (drie tot vijf pins in de eerste week), maar je bestaande catalogus moet ook regelmatig terugkomen in je publicatieschema. Een product dat zes maanden geleden is gepubliceerd kan via een nieuwe pin opnieuw ontdekt worden door een geheel nieuw publiek.`,
     },
     {
       heading: `Maak Idee-Pins en Video-Pins voor Meer Betrokkenheid`,
-      content: `Naast standaard statische pins biedt Pinterest twee krachtige contentformaten die je bereik en betrokkenheid significant kunnen verhogen: Idee-pins (voorheen Story Pins) en Video-pins.\n\nIdee-pins zijn meerdere pagina's die gebruikers doorvegen als een minihandleiding. Voor werkbladen verkopers zijn ze ideaal om je creatieproces te tonen. Maak een idee-pin met vijf pagina's: pagina 1 toont het eindresultaat (een afgewerkt werkblad), pagina 2 toont hoe je het thema kiest, pagina 3 laat de configuratie-opties zien, pagina 4 toont het printresultaat en pagina 5 bevat een call-to-action met verwijzing naar je shop. Dit format geeft gebruikers waarde (ze leren iets) terwijl het je product demonstreert.\n\nIdee-pins krijgen voorrang in het Pinterest-algoritme. Ze verschijnen prominent in de homefeed en in zoekresultaten, en ze genereren gemiddeld meer interactie dan statische pins. Het algoritme interpreteert deze hogere betrokkenheid als een signaal dat je account waardevolle content maakt, waardoor ook je statische pins beter gaan presteren.\n\nVideo-pins zijn korte video's die automatisch afspelen in de Pinterest-feed. Voor printable verkopers kun je eenvoudige video's maken die je werkblad generator in actie tonen: selecteer een thema, pas instellingen aan, genereer het werkblad en exporteer het als PDF. Een video van 15 tot 30 seconden die dit proces toont is fascinerend voor potentiële kopers die willen zien hoe het product werkt.\n\nJe hebt geen professionele videoproductie nodig. Schermopnames van je werkbladgenerator met een simpele tekst-overlay volstaan. Tools zoals Canva, CapCut of zelfs de ingebouwde schermopname van je computer zijn voldoende. Het gaat om het demonstreren van waarde, niet om cinematografische perfectie.\n\nCombineer formaten in je publicatiestrategie. Een goede verhouding is 60% statische pins, 25% idee-pins en 15% video-pins. Deze mix houdt je account dynamisch en spreekt verschillende gebruikersvoorkeuren aan. Sommige gebruikers bladeren snel door en klikken op statische pins, anderen nemen de tijd voor idee-pins en weer anderen worden aangetrokken door bewegend beeld.\n\nMeet de prestaties van elk format apart in je analytics. Je zult waarschijnlijk ontdekken dat idee-pins meer vertoningen krijgen maar statische pins meer uitgaande klikken genereren. Beide hebben waarde: vertoningen bouwen merkbekendheid op, klikken leiden tot directe verkopen. Pas je strategie aan op basis van je doelen — meer naamsbekendheid of meer directe omzet.`,
+      content: `Naast standaard statische pins biedt Pinterest twee krachtige contentformaten die je bereik en betrokkenheid significant kunnen verhogen: Idee-pins (voorheen Story Pins) en Video-pins.\n\nIdee-pins zijn meerdere pagina`s die gebruikers doorvegen als een minihandleiding. Voor werkbladen verkopers zijn ze ideaal om je creatieproces te tonen. Maak een idee-pin met vijf pagina`s: pagina 1 toont het eindresultaat (een afgewerkt werkblad), pagina 2 toont hoe je het thema kiest, pagina 3 laat de configuratie-opties zien, pagina 4 toont het printresultaat en pagina 5 bevat een call-to-action met verwijzing naar je shop. Dit format geeft gebruikers waarde (ze leren iets) terwijl het je product demonstreert.\n\nIdee-pins krijgen voorrang in het Pinterest-algoritme. Ze verschijnen prominent in de homefeed en in zoekresultaten, en ze genereren gemiddeld meer interactie dan statische pins. Het algoritme interpreteert deze hogere betrokkenheid als een signaal dat je account waardevolle content maakt, waardoor ook je statische pins beter gaan presteren.\n\nVideo-pins zijn korte video`s die automatisch afspelen in de Pinterest-feed. Voor printable verkopers kun je eenvoudige video`s maken die je werkblad generator in actie tonen: selecteer een thema, pas instellingen aan, genereer het werkblad en exporteer het als PDF. Een video van 15 tot 30 seconden die dit proces toont is fascinerend voor potentiële kopers die willen zien hoe het product werkt.\n\nJe hebt geen professionele videoproductie nodig. Schermopnames van je werkbladgenerator met een simpele tekst-overlay volstaan. Tools zoals Canva, CapCut of zelfs de ingebouwde schermopname van je computer zijn voldoende. Het gaat om het demonstreren van waarde, niet om cinematografische perfectie.\n\nCombineer formaten in je publicatiestrategie. Een goede verhouding is 60% statische pins, 25% idee-pins en 15% video-pins. Deze mix houdt je account dynamisch en spreekt verschillende gebruikersvoorkeuren aan. Sommige gebruikers bladeren snel door en klikken op statische pins, anderen nemen de tijd voor idee-pins en weer anderen worden aangetrokken door bewegend beeld.\n\nMeet de prestaties van elk format apart in je analytics. Je zult waarschijnlijk ontdekken dat idee-pins meer vertoningen krijgen maar statische pins meer uitgaande klikken genereren. Beide hebben waarde: vertoningen bouwen merkbekendheid op, klikken leiden tot directe verkopen. Pas je strategie aan op basis van je doelen — meer naamsbekendheid of meer directe omzet.`,
     },
     {
-      heading: 'Bouw Relevante Borden voor Je Niche',
+      heading: `Bouw Relevante Borden voor Je Niche`,
       content: `Pinterest-borden zijn meer dan opslagplaatsen voor je pins — ze zijn een belangrijk SEO-signaal dat Pinterest vertelt waar je account over gaat. Een goed gestructureerde bordstrategie helpt het algoritme je pins te tonen aan de juiste doelgroep.\n\nMaak borden die overeenkomen met je productcategorieën. Als je werkbladen verkoopt in de categorieën rekenen, taal, puzzels en kleurplaten, maak dan voor elk een specifiek bord. Gebruik beschrijvende, zoekwoord-rijke bordnamen: "Rekenwerkbladen Basisschool | Optellen Aftrekken Vermenigvuldigen" is beter dan simpelweg "Rekenen". De bordnaam verschijnt in zoekresultaten en helpt gebruikers te begrijpen wat ze kunnen verwachten.\n\nSchrijf uitgebreide bordbeschrijvingen. Elke bordbeschrijving kan tot 500 tekens bevatten en is een uitstekende plek voor zoekwoorden. Beschrijf welk type content het bord bevat, voor welke leeftijdsgroep en welke productdoelen het dient. "Dit bord bevat printbare rekenwerkbladen voor basisschoolgebruikers van groep 3 tot groep 8. Vind werkbladen voor optellen, aftrekken, vermenigvuldigen en delen met antwoordsleutels. Ideaal voor verkopers, thuisonderwijzers en ouders die extra oefenmateriaal zoeken."\n\nOrganiseer je borden met bordcovers. Upload een aantrekkelijke coverafbeelding voor elk bord die visueel communiceert wat het bord bevat. Een consistent kleurenpalet en stijl over al je bordcovers geeft je profiel een professionele uitstraling die vertrouwen opbouwt.\n\nMaak ook borden voor gerelateerde onderwerpen die je doelgroep interesseren. Als je kleuterwerkbladen verkoopt, maak dan borden over kleuteractiviteiten, kinderboekenlijsten of seizoensgebonden knutselideeën. Deze aanvullende borden trekken een breder publiek aan dat ook geïnteresseerd kan zijn in je werkbladen.\n\nPlaats je eigen productpins op de meest relevante borden. Een woordzoekpuzzel met dierenthema kan op meerdere borden: "Woordzoekpuzzels voor Kinderen", "Dierenactiviteiten Basisschool" en "Taalwerkbladen Woordenschat". Pinterest moedigt het plaatsen van dezelfde pin op meerdere relevante borden aan, zolang elk bord daadwerkelijk relevant is.\n\nVerwijder of archiveer borden die niet presteren. Na enkele maanden kun je in je analytics zien welke borden verkeer genereren en welke niet. Borden zonder interactie kunnen je algehele accountprestatie naar beneden trekken. Archiveer onderpresteerders en focus je energie op de borden die resultaat opleveren.\n\nOverweeg groepsborden in je niche. Groepsborden met meerdere bijdragers bereiken een groter publiek. Zoek naar groepsborden in de educatieve printable niche en vraag om toe te treden. Wees selectief — kies borden met actieve, kwalitatieve bijdragers en een duidelijke niche-focus.`,
     },
     {
-      heading: 'Analyseer Pinterest Statistieken en Optimaliseer',
+      heading: `Analyseer Pinterest Statistieken en Optimaliseer`,
       content: `Pinterest Analytics is je goudmijn voor het verbeteren van je strategie. Zonder data ben je blind aan het pinnen en hopen dat het werkt. Met analytics maak je datagedreven beslissingen die je bereik en verkopen systematisch verhogen.\n\nOpen Pinterest Analytics via je bedrijfsaccount-dashboard. Het overzicht toont drie kernmetrieken: vertoningen (hoe vaak je pins zijn getoond), betrokkenheid (klikken, opslaan, reacties) en publieksgegevens. Elke metriek vertelt je iets anders over de prestaties van je account.\n\nVertoningen tonen je bereik — hoeveel unieke gebruikers je pins hebben gezien. Een stijgende lijn in vertoningen betekent dat Pinterest je content aan meer mensen toont, wat een teken is dat je content relevant is voor de zoekopdrachten die je target. Dalende vertoningen kunnen wijzen op suboptimale pin-ontwerpen, irrelevante zoekwoorden of inconsistent publiceren.\n\nBetrokkenheid is de metriek die er het meest toe doet voor verkopers. Uitgaande klikken (klikken naar je website of shop) zijn directe verkoopkansen. Pin-opslagacties verlengen de levensduur van je pin omdat opgeslagen pins opnieuw verschijnen in de feeds van de personen die ze hebben opgeslagen. Analyseer welke pins de hoogste klikratio hebben en identificeer patronen: welke kleuren, tekststijlen, producttypen en zoekwoorden leiden tot de meeste klikken?\n\nPubslieksgegevens tonen wie je pins bekijkt: leeftijd, geslacht, locatie, interesses en apparaten. Deze informatie is onschatbaar voor het verfijnen van je doelgroep. Als je ontdekt dat 70% van je publiek vrouwen zijn tussen 25 en 44 jaar die geïnteresseerd zijn in onderwijs en kinderopvoeding, kun je je pin-ontwerpen en beschrijvingen specifiek op deze groep afstemmen.\n\nBekijk je toppin-rapport regelmatig. Dit toont je best presterende pins over een gekozen periode. Analyseer wat deze pins gemeen hebben: gebruiken ze bepaalde kleuren? Bevatten ze specifieke zoekwoorden? Tonen ze het product op een bepaalde manier? Gebruik deze inzichten om meer pins te maken in dezelfde stijl.\n\nStel maandelijkse evaluatiemomenten in. Vergelijk je maandcijfers met de vorige maand en met dezelfde maand vorig jaar (om seizoenseffecten uit te sluiten). Let op trends in je data: groeit je bereik? Stijgen je klikken? Welke productcategorieën presteren het best? Welke borden genereren het meeste verkeer?\n\nOptimaliseer voortdurend op basis van data. Als rekenwerkbladen twee keer zoveel klikken genereren als kleurplaten, maak dan meer pin-variaties voor rekenwerkbladen. Als video-pins beter presteren dan statische pins voor een bepaald producttype, verschuif dan je contentmix. Pinterest marketing is een continu optimalisatieproces — wie stopt met analyseren en aanpassen, wordt ingehaald door concurrenten die dat wel doen.`,
     },
   ],
@@ -66,11 +66,11 @@ const content: GuideContent = {
       content: `Pinterest behandelt educatieve content als een prioriteitscategorie, wat betekent dat werkbladen en printables een inherent voordeel hebben op het platform. Benut dit door je pins te taggen met de juiste categorieën wanneer je ze publiceert. Selecteer "Onderwijs" als primaire categorie en voeg relevante subcategorieën toe zoals "Basisonderwijs", "Activiteiten voor Kinderen" of "Thuisonderwijs".\n\nMaak gebruik van seizoensgebonden zoekpieken. Pinterest publiceert jaarlijks een trendrapport (Pinterest Predicts) dat voorspelt welke onderwerpen populair worden. Combineer deze trends met je productaanbod. Als "mindfulness voor kinderen" trending is, maak dan pins voor je rustige kleurplaten of gestructureerde tekenwerkbladen met die zoekterm erin.\n\nOptimaliseer je pin-afbeeldingen specifiek voor mobiel. Meer dan 80% van het Pinterest-gebruik gebeurt op smartphones. Test hoe je pins eruitzien op een klein scherm: is de tekst leesbaar? Is het werkblad herkenbaar? Zijn de kleuren helder genoeg? Maak desnoods aparte mobiel-geoptimaliseerde versies van je belangrijkste pins.\n\nGebruik de "Vergelijkbare pins"-functie als concurrentie-analyse. Bekijk welke pins verschijnen als vergelijkbaar met jouw best presterende pins. Dit toont je directe concurrenten en geeft inspiratie voor je eigen pin-ontwerpen en zoekwoordstrategie. Analyseer wat zij goed doen en waar je je kunt onderscheiden.`,
     },
     {
-      heading: 'Vermijd Veelgemaakte Pinterest-Fouten',
+      heading: `Vermijd Veelgemaakte Pinterest-Fouten`,
       content: `De grootste fout die nieuwe Pinterest-marketeers maken is ongeduld. Pinterest is geen platform voor snelle resultaten. Het kost gemiddeld drie tot zes maanden voordat een consistent publicatieschema meetbare resultaten oplevert. Het algoritme heeft tijd nodig om je account te evalueren, je content te categoriseren en te bepalen aan welk publiek je pins moeten worden getoond. Geef niet op na twee weken zonder verkeer — blijf publiceren en optimaliseren.\n\nEen tweede veelgemaakte fout is het publiceren van pins zonder link of met een verkeerde link. Elke pin moet verwijzen naar een werkende productpagina waar bezoekers direct kunnen kopen of downloaden. Controleer je links regelmatig, vooral als je producten hebt verplaatst of hernoemd op Etsy of Gumroad.\n\nVermijd het overmatig repinnen van andermans content ten koste van je eigen pins. Repins zijn waardevol voor borddiversiteit, maar ze sturen verkeer naar andermans producten, niet naar die van jou. Houd de verhouding op minimaal 70% eigen content.\n\nPubliceer niet dezelfde exacte afbeelding meerdere keren. Pinterest detecteert duplicate afbeeldingen en toont ze minder vaak. Maak altijd unieke pin-ontwerpen, zelfs als ze naar hetzelfde product verwijzen.\n\nNegeer Pinterest communities en reacties niet. Het platform beloont accounts die interactie tonen: reageer op reacties op je pins, neem deel aan relevante communities en volg accounts in je niche. Deze sociale signalen vertellen het algoritme dat je een actieve, waardevolle deelnemer bent op het platform.`,
     },
     {
-      heading: 'Pinterest en Je Verkoopplatform Integreren',
+      heading: `Pinterest en Je Verkoopplatform Integreren`,
       content: `De kracht van Pinterest ligt in de verbinding met je verkoopkanaal. Zonder een soepele doorstroom van pin naar productpagina naar aankoop verlies je potentiële klanten bij elke stap. Optimaliseer deze funnel door je verkoopplatform direct te koppelen aan Pinterest.\n\nVoor Etsy-verkopers is de integratie het eenvoudigst. Claim je Etsy-shop in je Pinterest-instellingen. Hierna worden je Etsy-producten automatisch beschikbaar als Rich Pins met actuele prijzen en beschikbaarheid. Je kunt zelfs direct vanuit Etsy pinnen met de "Pin It"-knop die Etsy aanbiedt.\n\nVoor verkopers op Gumroad of je eigen website is handmatige koppeling nodig. Voeg de Pinterest-tag toe aan je website voor conversietracking. Hiermee kun je in Pinterest Analytics zien hoeveel van je websitebezoekers van Pinterest komen en hoeveel van hen daadwerkelijk een aankoop doen. Deze data is essentieel voor het berekenen van je return on investment.\n\nMaak landingspagina's die aansluiten bij je pins. Als een pin "10 Rekenwerkbladen Groep 3" belooft, moet de landingspagina precies dat tonen — niet je volledige productcatalogus. Hoe specifieker de match tussen pin en landingspagina, hoe hoger je conversiepercentage.\n\nGebruik UTM-parameters in je pin-links om te tracken welke specifieke pins verkopen genereren. Voeg parameters toe zoals ?utm_source=pinterest&utm_medium=pin&utm_campaign=rekenwerkbladen. In je Google Analytics kun je dan precies zien welke pins het meeste omzet opleveren, zodat je meer pins kunt maken in dezelfde stijl en voor dezelfde productcategorie.`,
     },
   ],
@@ -134,35 +134,35 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'social-media-printable-marketing',
-      title: 'Social Media Marketing voor Printables',
+      slug: `social-media-printable-marketing`,
+      title: `Social Media Marketing voor Printables`,
       description: `Breid je marketingstrategie uit naar andere sociale media platforms en leer hoe je Instagram, Facebook en TikTok effectief combineert met Pinterest voor maximaal bereik.`,
     },
     {
       slug: 'seasonal-marketing-printables',
-      title: 'Seizoensmarketing voor Printables',
+      title: `Seizoensmarketing voor Printables`,
       description: `Ontdek hoe je seizoensgebonden pieken maximaal benut door je productaanbod en marketingkalender af te stemmen op feestdagen, schoolperiodes en seizoenstrends.`,
     },
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Gids Printable Bedrijf',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Gids Printable Bedrijf`,
       description: `Lees de allesomvattende gids voor het opzetten, groeien en schalen van een winstgevend printable bedrijf — van productontwikkeling tot marketingstrategie en financieel beheer.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'social media marketing voor printables' },
+    { pageType: 'guide', slug: `social-media-printable-marketing`, anchorText: `social media marketing voor printables` },
     { pageType: 'guide', slug: 'email-marketing-printables', anchorText: `e-mailmarketing strategieën voor printable verkopers` },
     { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: `seizoensgebonden marketingstrategien voor printables` },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'een Etsy printable shop starten' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoekpuzzels maken voor verkoop' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `rekenwerkbladen verkopen op Etsy` },
+    { pageType: 'guide', slug: `sell-educational-printables-etsy`, anchorText: `educatieve printables verkopen op Etsy` },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: `een Etsy printable shop starten` },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: `woordzoekpuzzels maken voor verkoop` },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'kleurplaten maken en verkopen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'niche selectie voor printable producten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen via Gumroad' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een printable bedrijf' },
-    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'marketing voor je printable bedrijf' },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `niche selectie voor printable producten` },
+    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: `printables verkopen via Gumroad` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `complete gids voor een printable bedrijf` },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: `marketing voor je printable bedrijf` },
   ],
 
   toolsRecommended: [
@@ -190,22 +190,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+      src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`,
       alt: `Woordzoeker werkblad voorbeeld voor Pinterest marketing`,
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 2.webp',
+        src: `/samples/dutch/wordsearch/Woordzoeker 2.webp`,
         alt: `Woordzoekpuzzel met dierenthema als Pinterest-pin voorbeeld`,
         caption: `Woordzoekpuzzels zijn ideaal als visuele Pinterest-content`,
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: `/samples/dutch/coloring/coloring portrait 1.webp`,
         alt: `Kleurplaat voorbeeld geschikt voor Pinterest promotie`,
         caption: `Kleurplaten behoren tot de meest gezochte printable categorieën op Pinterest`,
       },
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+        src: `/samples/dutch/addition/Optellen is Leuk 1.webp`,
         alt: `Rekenwerkblad voorbeeld voor Pinterest marketing van educatieve printables`,
         caption: `Rekenwerkbladen trekken ouders en verkopers aan via Pinterest-zoekresultaten`,
       },
@@ -216,27 +216,27 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/animals%20bw%203/dolphin.webp',
-      alt: 'Dolfijn illustratie voor thematische werkbladen',
+      src: `/image-library/animals%20bw%203/dolphin.webp`,
+      alt: `Dolfijn illustratie voor thematische werkbladen`,
       caption: `Dolfijn — populair oceaandieren thema voor werkbladen`,
     },
     {
-      src: '/image-library/animals%20bw/octopus.webp',
-      alt: 'Octopus illustratie voor educatieve printables',
+      src: `/image-library/animals%20bw/octopus.webp`,
+      alt: `Octopus illustratie voor educatieve printables`,
       caption: `Octopus — aantrekkelijk dierenthema voor puzzels en werkbladen`,
     },
     {
-      src: '/image-library/animals%20bw/seahorse.webp',
-      alt: 'Zeepaardje illustratie voor printable producten',
+      src: `/image-library/animals%20bw/seahorse.webp`,
+      alt: `Zeepaardje illustratie voor printable producten`,
       caption: `Zeepaardje — favoriet thema voor kleurplaten en woordzoekers`,
     },
     {
-      src: '/image-library/animals%20bw%205/whale.webp',
+      src: `/image-library/animals%20bw%205/whale.webp`,
       alt: `Walvis illustratie voor werkbladen met oceaanthema`,
       caption: `Walvis — geliefd onderwaterthema voor kinderwerkbladen`,
     },
     {
-      src: '/image-library/animals%20bw%203/jellyfish.webp',
+      src: `/image-library/animals%20bw%203/jellyfish.webp`,
       alt: `Kwal illustratie voor thematische educatieve materialen`,
       caption: `Kwal — fascinerend zeedier voor creatieve werkbladen`,
     },

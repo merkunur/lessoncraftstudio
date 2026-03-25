@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `druckbarer Bingo-Karten-Generator für Etsy-Verkäufer`,
       `Bilder-Bingo-Arbeitsblatt-Generator für KDP-Verleger`,
-      'Bingo-Karten-Ersteller kommerzielle Lizenz',
-      'Bingo-Aktivitäten auf Gumroad verkaufen',
+      `Bingo-Karten-Ersteller kommerzielle Lizenz`,
+      `Bingo-Aktivitäten auf Gumroad verkaufen`,
     ],
     lsiKeywords: [
       `digitale Bingo-Druckvorlagen skalierbares Einkommen`,
       `kommerzieller Bingo-Karten-Generator mit Ansageblatt`,
       `Druckvorlagen-Geschäft Bingo-Aktivitäten Werkzeuge`,
     ],
-    titleTag: 'Bilder-Bingo-Generator | Bingo-Karten erstellen',
+    titleTag: `Bilder-Bingo-Generator | Bingo-Karten erstellen`,
     metaDescription: `Bilder-Bingo-Karten erstellen und auf Etsy, KDP verkaufen. Stapel-Generierung, ZIP-Export, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Bilder-Bingo-Karten erstellen in 5 Schritten',
+    title: `Bilder-Bingo-Karten erstellen in 5 Schritten`,
     steps: [
       {
         title: 'Seitenlayout festlegen',
@@ -34,12 +34,12 @@ const content: AppContent = {
           `Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Dimension. Wählen Sie eine Seitenfarbe mit dem Farbwähler als Fallback-Hintergrund. Wählen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an (0–1, Schrittweite 0,05), dann wählen Sie ein Rahmenthema mit eigenem unabhängigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihre Bingo-Karte, bevor Sie Inhalte konfigurieren.`,
       },
       {
-        title: 'Bingo-Karten-Einstellungen konfigurieren',
+        title: `Bingo-Karten-Einstellungen konfigurieren`,
         description:
           `Öffnen Sie das Bingo-Karten-Einstellungen-Panel und legen Sie Zeilen (3–5) und Spalten (3–5) fest, um die Rastergröße zu definieren — der Standard ist 4×4 mit 16 Zellen. Stellen Sie die Kartenanzahl von 1 bis 10 ein, um mehrere einzigartige Bingo-Karten im Stapel zu generieren. Wählen Sie die Kartenzellen-Füllung (Bild oder Wort) und die Chip-Füllung (Bild oder Wort) unabhängig voneinander — kombinieren Sie Bildkarten mit Wort-Chips, Wortkarten mit Bild-Chips oder verwenden Sie für beides denselben Modus. Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden", um bestimmte Bilder für die Ansage von Hand auszuwählen, anstatt die automatische Auswahl zu nutzen.`,
       },
       {
-        title: 'Bilder aus der Bibliothek auswählen',
+        title: `Bilder aus der Bibliothek auswählen`,
         description:
           `Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf Bilder, um sie für Ihre Bingo-Karten auszuwählen. Wenn die benutzerdefinierte Ansage-Auswahl aktiviert ist, erscheinen gewählte Bilder im Ansage-Pool mit einem Live-Zähler, der Ihre Auswahlanzahl anzeigt. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel „Eigene Bilder hochladen" verwenden.`,
       },
@@ -49,7 +49,7 @@ const content: AppContent = {
           `Klicken Sie auf „Generieren", um Ihre Bingo-Karten zu erstellen. Die App füllt Ihr konfiguriertes Raster mit Bildern oder Wörtern aus dem gewählten Thema und erstellt runde Chips mit gestrichelten Rändern unterhalb der Karte — Chips werden per Fisher-Yates-Algorithmus gemischt, sodass sie niemals direkt dem Kartenlayout entsprechen. Wenn Sie mehrere Karten angefordert haben, zieht jede Karte eine andere zufällige Auswahl aus dem Bilderpool, wodurch garantiert wird, dass jede Karte im Stapel einzigartig ist. Die erste Karte erscheint sofort auf der Arbeitsfläche; alle Karten sind im ZIP-Stapelexport enthalten.`,
       },
       {
-        title: 'Karten und Ansageblatt herunterladen',
+        title: `Karten und Ansageblatt herunterladen`,
         description:
           `Wechseln Sie zwischen dem Tab „Karten + Chips" und dem Tab „Ansage", um beide Ausgaben in der Vorschau zu sehen. Das Ansageblatt zeigt ein dynamisches Wortraster mit einheitlicher Schriftgröße und Spalten basierend auf der längsten Wortlänge. Laden Sie einzelne Karten als JPEG oder PDF über die dedizierten Buttons herunter oder exportieren Sie alle generierten Karten als einzelne JPEGs in einer einzigen bingo_cards.zip-Datei per Stapelexport. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export wird mit 300 DPI gerendert und ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -103,22 +103,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Bilder-Bingo-Karten online verkaufen',
+    title: `Bilder-Bingo-Karten online verkaufen`,
     cases: [
       {
-        title: 'Thematische Bingo-Karten-Pakete auf Etsy',
+        title: `Thematische Bingo-Karten-Pakete auf Etsy`,
         description:
           `Erstellen Sie thematische Bingo-Karten-Pakete mit den 104 Bildsammlungen — Tier-Bingo, Lebensmittel-Bingo, Fahrzeug-Bingo, Feiertags-Bingo und Dutzende mehr. Jedes Thema bietet genügend Illustrationen für einzigartige Karten über verschiedene Rastergrößen hinweg. Verpacken Sie 10–30 einzigartige Bingo-Karten pro Thema mit beigelegten Ansageblättern und verkaufen Sie zu €3–€8 pro Paket. Nutzen Sie die Stapel-Generierung, um 10 einzigartige Karten pro Set in Sekunden zu erstellen, und mischen Sie dann Rastergrößen innerhalb eines einzelnen Pakets: 3×3-Schnellspiel-Karten, 4×4-Standard-Karten und 5×5-Langspiel-Karten für Abwechslung. Der ZIP-Stapelexport optimiert die Produktion für Vielmengen-Verkäufer und macht die Erstellung großer Produktkataloge mit thematischen Bingo-Karten-Sets effizient und zeitsparend. Bieten Sie zusätzlich Varianten in Bild- und Wort-Füllung an, um aus einem einzigen Thema mehrere Produktvarianten zu erzeugen, die unterschiedliche Käufergruppen ansprechen.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Bingo-Aktivitätsbücher auf Amazon KDP',
+        title: `Bingo-Aktivitätsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 40–80 Bingo-Karten zu einem gedruckten Aktivitätsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Ihr Buch mit Themenkapiteln: Tiere, Lebensmittel, Fahrzeuge, Feiertage und mehr. Fügen Sie Ansageblätter nach jedem Kartenset ein, damit das Buch alles für das Spielen enthält und sofort einsatzbereit ist. Nutzen Sie den Graustufen-Schalter für tintenschonende Buchinhalte, die Druckkosten niedrig halten und als Schwarzweiß-Innenteile direkt verwendbar sind. Mischen Sie Rastergrößen für fortschreitende Schwierigkeit — beginnen Sie mit 3×3-Karten für schnelle Runden und steigern Sie bis 5×5 für längere Spiele. Bingo-Aktivitätsbücher performen ganzjährig gut auf Amazon.de und erleben Spitzenzeiten während der Ferienzeit, wenn Familien nach Gruppenaktivitäten suchen. Nutzen Sie die Wort-Füllung in Kombination mit verschiedenen Themen, um Vokabel-Bingo-Bücher zu erstellen, die Sprachlernen mit spielerischer Interaktion verbinden. Da der Generator sprachabhängig ist, können Sie mehrsprachige Bingo-Bücher erstellen, die verschiedene Sprachmärkte auf Amazon bedienen.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Bingo-Aktivitäten für den Gumroad',
+        title: `Bingo-Aktivitäten für den Gumroad`,
         description:
           `Erstellen Sie spielfertige Bingo-Sets mit einzigartigen Spielerkarten und Ansageblättern für die Produkterstellung. Verkäufer, die nach Bingo-Aktivitäten suchen, schätzen Produkte, die sofort einsatzbereit ankommen — Karten drucken, verteilen und sofort losspielen ohne zusätzliche Vorbereitung. Erstellen Sie lehrplanorientierte Sets: Vokabel-Bingo mit der Wort-Füllung für Sprachunterricht, Bilderkennung-Bingo mit der Bild-Füllung für Sachkunde und gemischte Bingo-Sets für gestufte Produktpakete mit verschiedenen Schwierigkeitsstufen. Jedes Set enthält 10 einzigartige Karten (ausreichend für Kleingruppen) mit einem Ansageblatt. Die Wort-Füllung mit lokalisierten Bildnamen verwandelt Bingo in eine Vokabelübung — da der Generator sprachabhängig ist, können Sie Sets in verschiedenen Sprachen erstellen und so ein breites Publikum auf Gumroad erreichen. Kombinieren Sie verschiedene Rastergrößen innerhalb eines Produkts für altersgerechte Differenzierung.`,
         platform: 'Gumroad',
@@ -127,7 +127,7 @@ const content: AppContent = {
         title: `Saisonale und feiertagsbezogene Bingo-Karten-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Bingo ist ein von Natur aus geselliges Spiel, das während Feiertagen Spitzenzeiten erlebt, wenn Familien und Gruppen nach gemeinsamen Aktivitäten suchen. Veröffentlichen Sie Halloween-Bingo-Sets im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar für maximale Sichtbarkeit während der jeweiligen Hochsaison. Jedes saisonale Set enthält verschiedene Rastergrößen, Varianten in Bild- und Wort-Füllung sowie Ansageblätter für ein spielfertiges Komplett-Paket. Saisonale Bingo-Produkte erzielen Premium-Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Bingo-Sets suchen. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer auf den ersten Blick anspricht und die wahrgenommene Qualität Ihres Produkts steigert.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
         title: `Event-Bingo-Karten für Partys und besondere Anlässe`,
@@ -150,7 +150,7 @@ const content: AppContent = {
         `Stellen Sie die Kartenanzahl von 1 bis 10 im Bingo-Karten-Einstellungen-Panel ein. Jede Karte zieht eine andere zufällige Auswahl aus dem Bilderpool und garantiert so, dass jede Karte im Stapel einzigartig ist — essenziell für Bingo, wo jeder Spieler eine andere Karte braucht. Die erste Karte erscheint sofort auf der Arbeitsfläche zur Vorschau. Alle generierten Karten stehen über den ZIP-Stapelexport zum Download als einzelne JPEG-Dateien bereit.`,
     },
     {
-      question: 'Wie funktioniert der ZIP-Stapelexport?',
+      question: `Wie funktioniert der ZIP-Stapelexport?`,
       answer:
         `Nach dem Generieren mehrerer Bingo-Karten klicken Sie auf den Stapelexport-Button, um alle Karten als einzelne hochauflösende JPEG-Dateien in einem einzigen bingo_cards.zip-Archiv herunterzuladen. Jede Karte ist sequenziell im ZIP benannt für einfache Organisation. Dies eliminiert die Notwendigkeit, Karten einzeln herunterzuladen — generieren Sie ein komplettes Set von 10 einzigartigen Karten und exportieren Sie alle mit einem Klick per JSZip-Komprimierung.`,
     },
@@ -160,12 +160,12 @@ const content: AppContent = {
         `Kartenzellen und Chips haben jeweils einen unabhängigen Füllmodus: Bild oder Wort. Die Kartenzellen-Füllung bestimmt, was in jeder Zelle des Bingo-Rasters erscheint. Die Chip-Füllung bestimmt, was auf den runden Chips unterhalb der Karte erscheint, die Spieler für die Zuordnung verwenden. Sie können Modi mischen — Bildkarten mit Wort-Chips, Wortkarten mit Bild-Chips oder beides gleich — und so vier verschiedene Bingo-Kartenstile aus einem einzigen Bilderset erzeugen.`,
     },
     {
-      question: 'Was ist das Ansageblatt und wie funktioniert es?',
+      question: `Was ist das Ansageblatt und wie funktioniert es?`,
       answer:
         `Das Ansageblatt ist eine separate Seite (erreichbar über den Ansage-Tab), die ein dynamisches Wortraster aller einzigartigen Elemente aus dem Bilderpool anzeigt. Der Spielleiter liest diese Wörter laut vor, während die Spieler ihre Bingo-Karten markieren. Spalten werden basierend auf der längsten Wortlänge berechnet (2–6 Spalten) mit einheitlicher Schriftgröße. Das Raster ist auf der Seite zentriert und übernimmt Seitenränder und Hintergrund von der Arbeitsfläche. Dies ist KEIN Lösungsschlüssel — es ist ein Referenzblatt für die Person, die das Bingo-Spiel leitet.`,
     },
     {
-      question: 'Was ist die benutzerdefinierte Ansage-Auswahl?',
+      question: `Was ist die benutzerdefinierte Ansage-Auswahl?`,
       answer:
         `Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden" im Bingo-Karten-Einstellungen-Panel, um von Hand auszuwählen, welche bestimmten Bilder im Ansage-Pool erscheinen. Wenn aktiviert, klicken Sie auf Bilder in der Bildbibliothek, um sie zu Ihrer benutzerdefinierten Ansage-Auswahl hinzuzufügen — ein Live-Zähler zeigt „Ausgewählt für benutzerdefinierte Ansage: X" während Sie auswählen. Dies gibt Ihnen präzise Kontrolle darüber, welche Elemente im Bingo-Spiel vorkommen — nützlich für lehrplanorientierte Aktivitäten oder thematische Events, bei denen Sie bestimmtes Vokabular einsetzen möchten.`,
     },
@@ -180,7 +180,7 @@ const content: AppContent = {
         `Bingo-Karten verwenden ein Ansageblatt anstelle eines Lösungsschlüssels. Beim Bingo liest der Spielleiter Elemente vom Ansageblatt vor, während die Spieler passende Elemente auf ihren individuellen Karten markieren — es gibt keine einzige „richtige Antwort", da jede Spielerkarte unterschiedliche Elemente an unterschiedlichen Positionen hat. Das Ansageblatt dient als Referenzdokument des Spiels und listet alle möglichen Elemente auf, die der Spielleiter während des Spiels ansagen kann. Wenn Sie das Ansageblatt zusammen mit den Bingo-Karten als Produktpaket verkaufen, erhalten Ihre Käufer ein sofort spielbereites Komplett-Set.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle Rastergrößen, Stapel-Generierung von bis zu 10 Karten, ZIP-Stapelexport, Bild- und Wort-Füllmodi, das Ansageblatt, die vollständige Bildbibliothek, benutzerdefinierte Ansage-Auswahl, Hintergrund- und Rahmenthemen, Textwerkzeuge und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -200,7 +200,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'zuordnungs-arbeitsblaetter',
-      anchorText: 'Zuordnungs-Arbeitsblatt-Generator',
+      anchorText: `Zuordnungs-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
@@ -209,18 +209,18 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'schattenbilder-zuordnen-arbeitsblaetter',
-      anchorText: 'Schattenbilder-Zuordnen-Generator',
+      slug: `schattenbilder-zuordnen-arbeitsblaetter`,
+      anchorText: `Schattenbilder-Zuordnen-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilder-sortieren-arbeitsblaetter',
-      anchorText: 'Bilder-Sortieren-Arbeitsblatt-Generator',
+      slug: `bilder-sortieren-arbeitsblaetter`,
+      anchorText: `Bilder-Sortieren-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'suchbilder-arbeitsblaetter',
-      anchorText: 'Suchbilder-Arbeitsblatt-Generator',
+      anchorText: `Suchbilder-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
@@ -235,43 +235,43 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-druckvorlagen-ideen',
-      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+      anchorText: `Camping-Druckvorlagen-Ideen für Outdoor-Lernen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
       anchorText: `Meerestiere-Druckvorlagen-Ideen für maritime Themen`,
     },
     {
       pageType: 'start',
-      slug: 'marketing-druckvorlagen-geschaeft',
-      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+      slug: `marketing-druckvorlagen-geschaeft`,
+      anchorText: `Marketing für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'guide',
       slug: 'bingo-karten-erstellen',
-      anchorText: 'Bingo-Karten erstellen, die sich verkaufen',
+      anchorText: `Bingo-Karten erstellen, die sich verkaufen`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/bingo/bilder-bingo 1.webp',
+      primary: `/samples/german/bingo/bilder-bingo 1.webp`,
       primaryAlt: `Bilder-Bingo-Karte mit thematischen Illustrationen im Rasterlayout und runden Chips mit gestrichelten Rändern darunter`,
     },
     sampleGallery: [
       {
-        src: '/samples/german/bingo/bilder-bingo 2.webp',
+        src: `/samples/german/bingo/bilder-bingo 2.webp`,
         alt: `Bilder-Bingo-Karte mit Bild-Füllung, die farbenfrohe thematische Illustrationen in Rasterzellen und runde Bild-Chips zeigt`,
         caption: `Bild-Füllmodus — farbenfrohe Illustrationen in Kartenzellen und runden Chips`,
       },
       {
-        src: '/samples/german/bingo/bilder-bingo 3.webp',
+        src: `/samples/german/bingo/bilder-bingo 3.webp`,
         alt: `Bilder-Bingo-Karte mit Wort-Füllung, die lokalisierte Bildnamen in Rasterzellen und Wort-Chips zeigt`,
         caption: `Wort-Füllmodus — lokalisierte Bildnamen für vokabelbasiertes Bingo`,
       },
       {
-        src: '/samples/german/bingo/callout.webp',
+        src: `/samples/german/bingo/callout.webp`,
         alt: `Bingo-Ansageblatt mit dynamischem Wortraster, das alle Spielelemente für den Spielleiter anzeigt`,
         caption: `Ansageblatt — dynamisches Wortraster für die Person, die das Bingo-Spiel leitet`,
       },

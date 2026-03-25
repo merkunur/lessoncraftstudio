@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Summer Printable Ideas to Sell — Niche Guide',
+    titleTag: `Summer Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover summer printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Beach and sun-themed product concepts, seasonal strategies, and platform tips for.`,
 
     primaryKeyword: 'summer printable ideas',
     secondaryKeywords: [
-      'summer themed worksheets to sell',
-      'summer printable business ideas',
-      'summer activity sheets for sellers',
-      'sell summer printables on Etsy',
+      `summer themed worksheets to sell`,
+      `summer printable business ideas`,
+      `summer activity sheets for sellers`,
+      `sell summer printables on Etsy`,
     ],
     lsiKeywords: [
-      'beach and sun educational worksheets',
+      `beach and sun educational worksheets`,
       'warm weather activity pages',
-      'vacation themed printables for sellers',
+      `vacation themed printables for sellers`,
     ],
   },
   hero: {
-    title: 'Summer Printable Business Ideas for Sellers',
+    title: `Summer Printable Business Ideas for Sellers`,
     description: `Summer opens the longest sustained selling window in the seasonal printable calendar, with demand building from May through August as parents search for structured activities to combat summer learning loss, camps and daycares stock up on themed worksheets, and families prepare travel entertainment for vacation road trips. The niche offers an expansive range of sub-themes including beach scenes, sunshine, ice cream, watermelon, sandcastles, sunflowers, swimming pools, starfish, seashells, and flip-flops, giving sellers a vibrant visual vocabulary that captures the energy and excitement children associate with the warmest months. Homeschool families continuing education through summer months add consistent demand throughout the entire window, while vacation Bible schools and community recreation programs create additional buyer segments seeking bulk activity resources. For printable sellers on Etsy, Amazon KDP, and Gumroad, the summer niche combines extended seasonal demand with universally appealing imagery that photographs beautifully for product listings. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable summer printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The summer printable niche stands apart from other seasonal categories because of its sheer duration and the intensity of parent demand for structured children\'s activities. While most holiday niches deliver concentrated two to four week selling windows, summer stretches across four full months of active buying from May through August, with early-bird buyers and camp coordinators beginning their searches in April. This extended timeline means summer printable listings have more time to accumulate reviews, climb search rankings, and generate compounding organic traffic throughout the season. Parents become the dominant buyer segment during summer months as school routines dissolve and the reality of keeping children engaged, entertained, and learning for weeks on end drives urgent searches for printable activities that provide structure without the rigidity of formal content catalog.
@@ -36,17 +36,17 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
 
   productIdeas: [
     {
-      title: 'Summer Counting Worksheets for Printable Sellers',
+      title: `Summer Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring seashells, starfish, ice cream cones, beach balls, and sandcastles bring warm-weather excitement to early math practice that parents and camp coordinators eagerly purchase throughout the summer months. Use the Find and Count generator to create beach scenes where children locate and tally specific items among ocean waves, sandy shorelines, and poolside landscapes. Offer sets targeting multiple ability levels: count summer objects up to five for the preschool-age market, count and write numbers to ten for the kindergarten-age market, and skip-counting with rows of seashells or groups of tropical fish for first graders. Bundle by difficulty or combine all levels into a comprehensive summer counting pack for mixed-age camp groups and daycare settings.`,
       appId: 'find-count',
     },
     {
-      title: 'Summer Word Search Puzzles to Sell Online',
+      title: `Summer Word Search Puzzles to Sell Online`,
       description: `Beach vocabulary word searches attract parents seeking educational summer activities and camp counselors planning indoor rainy-day entertainment during the long summer program season. Create puzzles featuring summer-specific vocabulary like ocean, beach, sunshine, sandcastle, sunscreen, surfboard, and lemonade alongside broader warm-weather activity terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different ability levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more summer terms for older children. Variations like beach vocabulary, ocean animal words, and summer sports terminology expand your catalog to capture different buyer interests within the summer seasonal niche.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Summer Matching Activities for Educational Shops',
+      title: `Summer Matching Activities for Educational Shops`,
       description: `Matching worksheets using summer themes work across multiple skill areas, making them versatile products that appeal to the broadest possible warm-weather buyer audience. Create sets where children match beach items to ocean scenes, pair summer objects like flip-flops with sandy beaches and ice cream with cones, or connect tropical items to their matching patterns. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to parents preventing summer learning loss and camp counselors needing structured quiet-time activities that keep energetic children focused and engaged. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the cheerful summer theme drives purchases throughout the May-August selling window.`,
       appId: 'matching',
     },
@@ -56,7 +56,7 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
       appId: 'addition',
     },
     {
-      title: 'Summer Coloring Pages for Etsy and KDP Sellers',
+      title: `Summer Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for summer printable shops because warm-weather coloring appeals to virtually every family with young children and generates early reviews that boost your shop visibility during peak seasonal traffic. The Coloring Page generator creates detailed outlines of beach scenes, underwater ocean adventures, ice cream trucks, sunflower gardens, tropical fish, sandcastles, and poolside fun. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as ocean life or beach day scenes. For KDP, compile thirty to fifty coloring pages into summer activity books positioned as road trip entertainment or vacation boredom busters. Add educational elements like summer vocabulary labels, counting prompts, or letter practice alongside the coloring images to tier from purely decorative competition.`,
       appId: 'coloring',
     },
@@ -90,17 +90,17 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Summer Printables on Etsy',
+      title: `Selling Summer Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for summer printable listings, and the warm-weather shopping season creates the longest sustained traffic surge of any seasonal niche for educational digital downloads. Publish your summer listings by mid-April to allow Etsy search algorithms time to index and rank your products before the May demand ramp begins. Use all thirteen tags with variations combining summer sub-themes, skill types, and age groups: "summer counting worksheets preschool," "beach word search kindergarten," and "ocean coloring pages toddler" target specific buyer searches far more effectively than broad tags like "summer worksheets." Create vacation-oriented listing variations positioning activity bundles as road trip entertainment packs, summer learning loss prevention kits, or camp counselor activity resources. Listing images showing printed summer worksheets in warm-weather settings with seasonal props like beach towels, sunglasses, and sand toys outperform flat digital previews and capture the seasonal mindset that drives summer traffic.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Summer Activity Books on KDP',
+      title: `Publishing Summer Activity Books on KDP`,
       description: `Amazon KDP excels for summer printables because parents and gift buyers naturally add activity books to their Amazon carts alongside beach toys, travel games, and vacation entertainment supplies. Compile individual summer worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around beach and ocean themes. Use KDP keyword fields strategically: include "summer activity book for kids," "beach worksheets preschool," and sub-theme terms like "ocean coloring book" or "vacation activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as road trip companions, camp care package additions, or summer birthday gifts. Publish by mid-April to ensure your books are indexed and available before the May buying season intensifies, and consider creating multiple books targeting different age groups to capture varied search queries throughout the extended summer selling window.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Summer Resources on Gumroad',
+      title: `Selling Summer Resources on Gumroad`,
       description: `Gumroad buyers for summer products include sellers creating end-of-year activity packets, summer school instructors building content catalog, and camp counselors seeking structured educational activities for their summer programs. Summer printables on Gumroad perform best when packaged as ready-to-use solutions: summer school morning work packets, end-of-year celebration activities, or camp activity station bundles with counselor instruction guides. Include clear learning objectives so summer school sellers can align activities with remediation goals, and add tiered difficulty options for mixed-ability summer programs where users arrive at widely varying skill levels. Gumroad's bundling feature lets you offer individual summer products and a discounted mega-bundle simultaneously, capturing both budget-conscious buyers purchasing single items and camp directors investing in comprehensive summer program activity collections that cover the entire June-August session.`,
     },
     {
@@ -121,7 +121,7 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
     },
     {
       question: `How do I position summer printables differently from year-round educational products?`,
-      answer: `The key differentiator for summer printables is framing educational content as seasonal fun rather than academic obligation. Parents searching during summer months are specifically motivated by learning loss prevention but want activities that feel like entertainment, not homework. Use summer imagery like beach scenes, ocean animals, ice cream, and tropical themes as the visual wrapper around standard educational skills like counting, vocabulary, and pattern recognition. Position your products with language that emphasizes fun engagement and skill maintenance rather than rigorous instruction. Highlight that your worksheets help children practice essential skills while enjoying summer themes they love. This positioning justifies purchase because it solves the parent's core problem of keeping children learning during break while respecting the child's desire for seasonal enjoyment rather than traditional schoolwork.`,
+      answer: `The key differentiator for summer printables is framing educational content as seasonal fun rather than academic obligation. Parents searching during summer months are specifically motivated by learning loss prevention but want activities that feel like entertainment, not homework. Use summer imagery like beach scenes, ocean animals, ice cream, and tropical themes as the visual wrapper around standard educational skills like counting, vocabulary, and pattern recognition. Position your products with language that emphasizes fun engagement and skill maintenance rather than rigorous instruction. Highlight that your worksheets help children practice essential skills while enjoying summer themes they love. This positioning justifies purchase because it solves the parent`s core problem of keeping children learning during break while respecting the child`s desire for seasonal enjoyment rather than traditional schoolwork.`,
     },
     {
       question: `Can I sell the same summer printables on multiple platforms?`,
@@ -145,32 +145,32 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -179,18 +179,18 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Back to School Printable Business Ideas',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Back to School Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/summer/barbecue.webp', alt: 'Barbecue — themed educational image', caption: 'Barbecue' },
-    { src: '/image-library/summer/beach.webp', alt: 'Beach — themed educational image', caption: 'Beach' },
-    { src: '/image-library/summer/beach%20ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
-    { src: '/image-library/summer/bucket.webp', alt: 'Bucket — themed educational image', caption: 'Bucket' },
-    { src: '/image-library/summer/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
-    { src: '/image-library/summer/campfire.webp', alt: 'Campfire — themed educational image', caption: 'Campfire' },
+    { src: `/image-library/summer/barbecue.webp`, alt: `Barbecue — themed educational image`, caption: 'Barbecue' },
+    { src: `/image-library/summer/beach.webp`, alt: `Beach — themed educational image`, caption: 'Beach' },
+    { src: `/image-library/summer/beach%20ball.webp`, alt: `Beach Ball — themed educational image`, caption: 'Beach Ball' },
+    { src: `/image-library/summer/bucket.webp`, alt: `Bucket — themed educational image`, caption: 'Bucket' },
+    { src: `/image-library/summer/butterfly.webp`, alt: `Butterfly — themed educational image`, caption: 'Butterfly' },
+    { src: `/image-library/summer/campfire.webp`, alt: `Campfire — themed educational image`, caption: 'Campfire' },
   ],
 
 

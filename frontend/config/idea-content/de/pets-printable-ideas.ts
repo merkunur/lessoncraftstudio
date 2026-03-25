@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'haustiere-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Hunde-Katzen-Arbeitsblätter auf Etsy erstellen',
-      'Haustier-Druckvorlagen auf KDP verkaufen',
-      'Kleintier-Aktivitätsblätter auf Gumroad anbieten',
+      `Hunde-Katzen-Arbeitsblätter auf Etsy erstellen`,
+      `Haustier-Druckvorlagen auf KDP verkaufen`,
+      `Kleintier-Aktivitätsblätter auf Gumroad anbieten`,
       `Tierpflege-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Haustier-Lieblingsthema Kinder-Druckvorlagen',
-      'Hund-Katze-Bildungsthema Arbeitsblätter',
-      'Tierliebe Ganzjahres-Nische Etsy-Verkauf',
+      `Haustier-Lieblingsthema Kinder-Druckvorlagen`,
+      `Hund-Katze-Bildungsthema Arbeitsblätter`,
+      `Tierliebe Ganzjahres-Nische Etsy-Verkauf`,
     ],
-    titleTag: 'Haustiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Haustiere-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Haustier-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Hunde-, Katzen- und Kleintier-Produktkonzepte mit Plattformstrategien für Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -59,7 +59,7 @@ Die Haustier-Nische bietet außergewöhnliche Bündelungs- und Cross-Selling-Mö
       appId: 'addition',
     },
     {
-      title: 'Haustier-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Haustier-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Haustier-Ausmalseiten sind ein ideales Einstiegsprodukt zum Aufbau eines haustier-thematischen Druckvorlagen-Shops, da sie Impulskäufe anziehen und schnell erste Bewertungen generieren. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Hunden, Katzen, Kaninchen, Hamstern, Fischen in Aquarien und Vögeln in Käfigen. Auf Etsy verkaufen Sie Einzelseiten oder kuratierte Sets mit zehn bis fünfzehn verschiedenen Haustierarten. Für KDP kompilieren Sie dreißig bis fünfzig Ausmalseiten in Aktivitätsbücher, nach Tierart organisiert. Fügen Sie Haustiernamen, Rassenbeschreibungen oder einfache Pflegefakten neben jeder Abbildung hinzu, um sich von einfachen Ausmalblättern abzuheben und höhere Preise zu rechtfertigen.`,
       appId: 'coloring',
     },
@@ -93,12 +93,12 @@ Die Haustier-Nische bietet außergewöhnliche Bündelungs- und Cross-Selling-Mö
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Haustier-Druckvorlagen auf Etsy verkaufen',
+      title: `Haustier-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Haustier-Druckvorlagen-Listings, daher sollten Sie auf Long-Tail-Keywords statt auf breite Begriffe setzen. Statt „Haustier-Arbeitsblätter" optimieren Sie für Suchanfragen wie „Hunde-Zählarbeitsblätter Vorschule" oder „Katzen-Ausmalseiten Kleinkind druckbar". Nutzen Sie alle dreizehn Tags mit Variationen, die Haustierart, Fähigkeitstyp und Altersgruppe kombinieren. Mockup-Bilder, die gedruckte Arbeitsblätter neben Haustierspielzeug, Kuscheltieren oder in Familiensituationen zeigen, übertreffen flache digitale Vorschauen deutlich. Rassenspezifische Produkte wie „Golden-Retriever-Ausmalseiten" oder „Tabby-Katzen-Zählblätter" fangen engagierte Haustier-Enthusiasten-Käufer ein, die nach Rasse suchen. Planen Sie neue Listings rund um den Welthaustiertag im April und die Einschulungssaison, wenn die Planung von Haustier-Produkteinheiten ihren Höhepunkt erreicht.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Haustier-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Haustier-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP funktioniert am besten für Haustier-Druckvorlagen, wenn Sie einzelne Arbeitsblätter in thematische Aktivitätsbücher zusammenstellen. Ein Haustier-Aktivitätsbuch mit vierzig bis sechzig Seiten, das Zählen, Ausmalen, Zuordnen und Nachspuren kombiniert, schneidet in der Kategorie Kinder-Aktivitätsbücher gut ab. Nutzen Sie die KDP-Keyword-Felder strategisch: Verwenden Sie „Haustier-Aktivitätsbuch für Kinder", „Hunde-und-Katzen-Arbeitsblätter" und altersspezifische Begriffe wie „Vorschul-Haustierbuch". Erwägen Sie die Erstellung artspezifischer Bücher wie „Alles über Hunde — Aktivitätsbuch" neben allgemeinen Haustier-Sammlungen, um sowohl breite als auch Nischen-Suchanfragen zu erfassen. Preisgestaltung zwischen vier und sieben Dollar für optimale Tantiemensätze, und bestellen Sie immer ein Probeexemplar vor der Veröffentlichung, um die Druckqualität zu überprüfen.`,
     },
     {
@@ -147,18 +147,18 @@ Die Haustier-Nische bietet außergewöhnliche Bündelungs- und Cross-Selling-Mö
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -167,33 +167,33 @@ Die Haustier-Nische bietet außergewöhnliche Bündelungs- und Cross-Selling-Mö
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'safaritiere-druckvorlagen-ideen',
-      anchorText: 'Safaritiere-Druckvorlagen: Geschäftsideen',
+      slug: `safaritiere-druckvorlagen-ideen`,
+      anchorText: `Safaritiere-Druckvorlagen: Geschäftsideen`,
     },
   ],
 
   themeImages: [
     { src: '/image-library/pets/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — thematisches Lernbild', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Nymphensittich — thematisches Lernbild', caption: 'Nymphensittich' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — thematisches Lernbild`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Nymphensittich — thematisches Lernbild`, caption: 'Nymphensittich' },
     { src: '/image-library/pets/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Frettchen — thematisches Lernbild', caption: 'Frettchen' },
-    { src: '/image-library/pets/finch.webp', alt: 'Fink — thematisches Lernbild', caption: 'Fink' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Frettchen — thematisches Lernbild`, caption: 'Frettchen' },
+    { src: `/image-library/pets/finch.webp`, alt: 'Fink — thematisches Lernbild', caption: 'Fink' },
   ],
 
 

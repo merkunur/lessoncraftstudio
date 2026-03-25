@@ -2,22 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'vender libros de actividades en amazon kdp',
+    primaryKeyword: `vender libros de actividades en amazon kdp`,
     secondaryKeywords: [
-      'libros de actividades Amazon KDP',
-      'vender libros de puzzles en KDP',
-      'negocio de libros de actividades KDP',
-      'publicar libros de actividades Amazon',
+      `libros de actividades Amazon KDP`,
+      `vender libros de puzzles en KDP`,
+      `negocio de libros de actividades KDP`,
+      `publicar libros de actividades Amazon`,
     ],
     lsiKeywords: [
-      'kindle direct publishing libros de actividades',
+      `kindle direct publishing libros de actividades`,
       'formato interior KDP fichas',
-      'diseño de portada KDP libros de actividades',
-      'palabras clave backend Amazon libros de puzzles',
-      'calculadora de regalías KDP libros de actividades',
+      `diseño de portada KDP libros de actividades`,
+      `palabras clave backend Amazon libros de puzzles`,
+      `calculadora de regalías KDP libros de actividades`,
       `impresión bajo demanda negocio libros de actividades`,
     ],
-    titleTag: 'Vender Libros de Actividades en Amazon KDP — Guía',
+    titleTag: `Vender Libros de Actividades en Amazon KDP — Guía`,
     metaDescription: `Cómo vender libros de actividades en Amazon KDP. Formato interior, diseño de portada, investigación de palabras clave, estrategia de precios y escalado.`,
   },
 
@@ -82,11 +82,11 @@ const content: StartContent = {
       description: `Busca en Amazon tu tipo de libro de actividades objetivo. Analiza los 10 mejores resultados en cuanto a precios, número de páginas, diseño de portada y cantidad de reseñas. Identifica nichos con demanda (BSR por debajo de 100.000) pero competencia manejable.`,
     },
     {
-      step: 'Crea páginas de muestra con la prueba gratis',
+      step: `Crea páginas de muestra con la prueba gratis`,
       description: `Usa la prueba gratis con marca de agua en 2–3 generadores de fichas para crear páginas de muestra para libros de actividades. Prueba diferentes tipos de puzzles, niveles de dificultad y temas para encontrar la combinación que produce el interior más fuerte.`,
     },
     {
-      step: 'Formatea tu archivo interior de KDP',
+      step: `Formatea tu archivo interior de KDP`,
       description: `Genera 50–100 páginas de actividades usando los generadores elegidos. Compílalas en un solo PDF con página de título, página de derechos de autor y márgenes consistentes. Verifica el cumplimiento con los requisitos de tamaño de corte y sangrado de KDP.`,
     },
     {
@@ -94,7 +94,7 @@ const content: StartContent = {
       description: `Descarga la plantilla de portada de KDP para tu número de páginas y tamaño de corte. Crea una portada frontal con título claro, rango de edad, número de páginas e imágenes de vista previa. Diseña el lomo y la contraportada. Exporta a un mínimo de 300 PPP.`,
     },
     {
-      step: 'Optimiza las palabras clave y categorías',
+      step: `Optimiza las palabras clave y categorías`,
       description: `Escribe un título y subtítulo ricos en palabras clave. Completa los siete campos de palabras clave backend con frases que no estén ya en tu título. Selecciona las tres categorías de navegación más precisas y configura el rango de edad correcto.`,
     },
     {
@@ -110,7 +110,7 @@ const content: StartContent = {
       description: `Crea una campaña de Productos Patrocinados dirigida a tus palabras clave principales con un presupuesto diario de 5–10 $. Monitoriza el ACoS semanalmente y pausa las palabras clave que no conviertan de forma rentable después de 14 días de datos.`,
     },
     {
-      step: 'Planifica tu próxima expansión de nicho',
+      step: `Planifica tu próxima expansión de nicho`,
       description: `Después de que tu primera serie esté publicada y generando datos, revisa los informes de KDP para identificar tus títulos más fuertes. Expándete hacia tipos de actividades adyacentes, rangos de edad o idiomas basándote en datos reales de ventas.`,
     },
   ],
@@ -118,7 +118,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'sudoku-worksheets',
-      title: 'Generador de Puzzles de Sudoku',
+      title: `Generador de Puzzles de Sudoku`,
       description: `Los libros de puzzles de Sudoku son una categoría de KDP de alta venta para todas las edades. Crea tamaños de cuadrícula y niveles de dificultad configurables con claves de respuestas automáticas — ideal para producir libros de actividades con alto número de páginas rápidamente.`,
     },
     {
@@ -128,7 +128,7 @@ const content: StartContent = {
     },
     {
       appId: 'math-puzzle-worksheets',
-      title: 'Generador de Puzzles de Matemáticas',
+      title: `Generador de Puzzles de Matemáticas`,
       description: `Los cuadernos de matemáticas son vendedores permanentes en KDP dirigidos a padres y vendedores durante todo el año. Crea formatos de puzzle variados con operaciones y dificultad configurables para libros de actividades específicos por grado.`,
     },
     {
@@ -143,7 +143,7 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Los libros para colorear son una de las categorías más grandes de KDP por volumen. Genera páginas para colorear estilo contorno a partir de más de 100 conjuntos de imágenes temáticas para interiores de libros para colorear infantiles.`,
     },
   ],
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía integral de base que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass de Negocio de Imprimibles en Etsy',
+      title: `Masterclass de Negocio de Imprimibles en Etsy`,
       description: `La guía específica de Etsy complementaria a esta guía. Cubre configuración de tienda, SEO de Etsy, optimización de publicaciones y estrategias de escalado para vender descargas digitales de imprimibles en Etsy.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas que se Venden',
+      title: `Cómo Crear Fichas que se Venden`,
       description: `Análisis en profundidad de la calidad del producto: estándares de diseño, técnicas de diferenciación y los métodos que hacen que los compradores elijan tus fichas sobre las de la competencia.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales que se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales que se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos de un Negocio de Imprimibles: Expectativas Realistas` },
     { pageType: 'app', slug: 'sudoku-fichas-ninos', anchorText: `Generador de Puzzles de Sudoku — Todos los Detalles` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
     { pageType: 'tool', slug: 'generador-sudoku-infantil', anchorText: 'Prueba el Generador de Sudoku' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: 'Prueba el Generador de Puzzles de Matemáticas' },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: `Prueba el Generador de Puzzles de Matemáticas` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: `Ejemplo de ficha de puzzle de Sudoku para publicación de libros de actividades en Amazon KDP` },
+    heroImage: { src: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`, alt: `Ejemplo de ficha de puzzle de Sudoku para publicación de libros de actividades en Amazon KDP` },
     samples: [
-      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: `Ficha de puzzle de Sudoku para interior de libro de actividades KDP`, caption: 'Sudoku — Categoría Top de Puzzles en KDP' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Puzzle de sopa de letras para libro de actividades en Amazon KDP`, caption: 'Sopa de Letras — Categoría de Más Vendidos en KDP' },
-      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: 'Ficha de puzzle de matemáticas para interior de cuaderno KDP', caption: 'Puzzle de Matemáticas — Nicho Permanente en KDP' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Ficha de puzzle de crucigrama para libro de actividades KDP', caption: 'Crucigrama — Formato Clásico de Libro de Actividades' },
+      { src: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`, alt: `Ficha de puzzle de Sudoku para interior de libro de actividades KDP`, caption: `Sudoku — Categoría Top de Puzzles en KDP` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Puzzle de sopa de letras para libro de actividades en Amazon KDP`, caption: `Sopa de Letras — Categoría de Más Vendidos en KDP` },
+      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: `Ficha de puzzle de matemáticas para interior de cuaderno KDP`, caption: `Puzzle de Matemáticas — Nicho Permanente en KDP` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Ficha de puzzle de crucigrama para libro de actividades KDP`, caption: `Crucigrama — Formato Clásico de Libro de Actividades` },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: `Cómo Crear Fichas de Puzzles de Sudoku — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Alosaurio — imagen educativa temática', caption: 'Alosaurio' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Anquilosaurio — imagen educativa temática', caption: 'Anquilosaurio' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurio — imagen educativa temática', caption: 'Apatosaurio' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurio — imagen educativa temática', caption: 'Argentinosaurio' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Braquiosaurio — imagen educativa temática', caption: 'Braquiosaurio' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Alosaurio — imagen educativa temática`, caption: 'Alosaurio' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Anquilosaurio — imagen educativa temática`, caption: 'Anquilosaurio' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurio — imagen educativa temática`, caption: 'Apatosaurio' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurio — imagen educativa temática`, caption: 'Argentinosaurio' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Braquiosaurio — imagen educativa temática`, caption: 'Braquiosaurio' },
   ],
 };
 

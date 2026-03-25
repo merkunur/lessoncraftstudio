@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Spring Printable Ideas to Sell — Niche Guide',
+    titleTag: `Spring Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover spring printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Seasonal product concepts, March-May strategies, and platform tips for printable.`,
 
     primaryKeyword: 'spring printable ideas',
     secondaryKeywords: [
       'spring worksheets to sell',
-      'spring themed printable business',
-      'spring activity sheets for sellers',
-      'sell spring printables on Etsy',
+      `spring themed printable business`,
+      `spring activity sheets for sellers`,
+      `sell spring printables on Etsy`,
     ],
     lsiKeywords: [
-      'flower and garden educational worksheets',
-      'seasonal nature activity pages',
-      'springtime themed printable resources',
+      `flower and garden educational worksheets`,
+      `seasonal nature activity pages`,
+      `springtime themed printable resources`,
     ],
   },
   hero: {
-    title: 'Spring Printable Business Ideas for Sellers',
+    title: `Spring Printable Business Ideas for Sellers`,
     description: `Spring opens a generous selling window from March through May as stores transition to nature-centered themes and families embrace outdoor learning after months of winter routines. The niche spans a rich variety of sub-themes including butterflies, flowers, gardens, rainbows, caterpillars, ladybugs, birds, nests, rain, and umbrellas, giving sellers an expansive visual vocabulary that connects naturally with science content catalog, outdoor exploration, and the universal sense of renewal that defines the season. Buyers actively seek fresh spring materials to boost engagement during the second half of the school year, while homeschool families and daycare providers look for seasonal variety that bridges indoor and outdoor learning experiences. For printable entrepreneurs selling on Etsy, Amazon KDP, and Gumroad, spring offers a broad non-holiday category with extended relevance that avoids the narrow demand spikes of single-day holidays. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable spring printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The spring printable niche occupies a uniquely advantageous position in the educational marketplace calendar because it functions as a broad seasonal category rather than a single-day holiday, giving sellers an extended three-month demand window that stretches from early March through late May. Buyers emerging from the winter doldrums actively search for fresh, nature-themed materials that re-engage children who have grown tired of indoor-only themes, and spring imagery provides the perfect transition as stores shift toward science-integrated content covering life cycles, weather patterns, plant growth, and animal habitats. This natural alignment between spring themes and core content areas means buyers can justify spring purchases as educational investments rather than purely decorative seasonal additions.
@@ -36,17 +36,17 @@ To maximize spring revenue, begin publishing your complete spring catalog by lat
 
   productIdeas: [
     {
-      title: 'Spring Counting Worksheets for Printable Sellers',
+      title: `Spring Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring butterflies, flowers, ladybugs, and birds bring the energy of spring gardens to early math practice that buyers and parents eagerly purchase throughout the March-May selling window. Use the Find and Count generator to create spring scenes where children locate and tally specific items among flower gardens, butterfly meadows, and rainy-day landscapes. Offer sets targeting multiple ability levels: count spring objects up to five for the preschool-age market, count and write numbers to ten for the kindergarten-age market, and skip-counting with rows of flowers or groups of ladybugs for first graders. Bundle by difficulty or combine all levels into a comprehensive spring counting pack for mixed-ability audiences transitioning to nature themes.`,
       appId: 'find-count',
     },
     {
-      title: 'Spring Word Search Puzzles to Sell Online',
+      title: `Spring Word Search Puzzles to Sell Online`,
       description: `Spring vocabulary word searches attract sellers planning March through May group activities and parents seeking educational entertainment during the season when children are eager to explore nature and outdoor themes. Create puzzles featuring spring-specific vocabulary like butterfly, garden, rainbow, caterpillar, ladybug, blossom, and umbrella alongside broader nature and weather terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more spring terms for older children. Variations like garden vocabulary, weather words, and spring animal terminology expand your catalog to capture different buyer interests across the extended seasonal window.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Spring Matching Activities for Educational Shops',
+      title: `Spring Matching Activities for Educational Shops`,
       description: `Matching worksheets using spring themes work across multiple skill areas, making them versatile products that appeal to a broad buyer audience throughout the March-May demand window. Create sets where children match caterpillars to butterflies, pair baby birds with nests, connect flowers to their colors, or match rain gear items to weather conditions. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to preschool and kindergarten sellers planning nature-themed units where matching builds visual discrimination and classification skills. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the cheerful spring theme drives purchases throughout the extended seasonal selling period.`,
       appId: 'matching',
     },
@@ -56,7 +56,7 @@ To maximize spring revenue, begin publishing your complete spring catalog by lat
       appId: 'addition',
     },
     {
-      title: 'Spring Coloring Pages for Etsy and KDP Sellers',
+      title: `Spring Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for spring printable shops because nature-themed coloring appeals to virtually every family with young children and generates early reviews that boost your shop visibility during the extended seasonal traffic period. The Coloring Page generator creates detailed outlines of butterfly wings, flower gardens, rainy-day scenes, rainbow landscapes, ladybugs on leaves, birds in nests, and children with umbrellas. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as garden creatures or spring weather scenes. For KDP, compile thirty to fifty coloring pages into spring activity books positioned as screen-free outdoor season entertainment. Add educational elements like spring vocabulary labels, counting prompts, or letter practice alongside the coloring images to tier from purely decorative options.`,
       appId: 'coloring',
     },
@@ -90,17 +90,17 @@ To maximize spring revenue, begin publishing your complete spring catalog by lat
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Spring Printables on Etsy',
+      title: `Selling Spring Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for spring printable listings, and the extended March-May seasonal window creates sustained traffic for educational digital downloads that outlasts single-day holiday spikes. Publish your spring listings by late January to allow Etsy search algorithms time to index and rank your products before the February demand ramp begins when buyers start planning spring content. Use all thirteen tags with variations combining spring sub-themes, skill types, and age groups: "spring counting worksheets preschool," "butterfly word search kindergarten," and "garden coloring pages toddler" target specific buyer searches far more effectively than broad tags like "spring worksheets." Position spring products as nature-learning resources and outdoor activity companions rather than purely seasonal decorations. Listing images showing printed spring worksheets in nature-themed settings with seasonal props like potted plants, garden tools, and colorful flowers outperform flat digital previews and capture the fresh seasonal energy that drives spring traffic across the extended selling period.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Spring Activity Books on KDP',
+      title: `Publishing Spring Activity Books on KDP`,
       description: `Amazon KDP excels for spring printables because parents and sellers naturally add activity books to their Amazon carts alongside garden supplies, outdoor toys, and spring clothing during the March-May shopping season. Compile individual spring worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around nature themes. Use KDP keyword fields strategically: include "spring activity book for kids," "nature worksheets preschool," and sub-theme terms like "butterfly coloring book" or "garden activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as outdoor learning companions or Easter basket alternatives that provide screen-free entertainment during the warmer months. Publish by early February to ensure your books are indexed and available before the March buying season intensifies, and consider creating multiple books targeting different age groups to capture varied search queries throughout the spring period.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Spring Resources on Gumroad',
+      title: `Selling Spring Resources on Gumroad`,
       description: `Gumroad buyers are buyers searching for March-May content gap-fillers, spring science integration activities, and nature-themed educational resources they can implement with minimal preparation during a busy stretch of the school year. Spring printables on Gumroad perform best when packaged as ready-to-use store solutions: nature observation activity stations, spring morning work packets, or outdoor learning preparation worksheets with parent communication letters. Align products with science standards by connecting spring themes to life cycles, weather patterns, plant growth, and animal habitats so sellers can justify seasonal activities as skill-integrated learning rather than purely decorative content. Gumroad's bundling feature lets you offer individual spring products and a discounted seasonal mega-bundle simultaneously, capturing both budget-conscious buyers buying single items and those investing in comprehensive spring product collections that cover March through May with cohesive nature-themed materials.`,
     },
     {
@@ -145,32 +145,32 @@ To maximize spring revenue, begin publishing your complete spring catalog by lat
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ To maximize spring revenue, begin publishing your complete spring catalog by lat
     {
       pageType: 'idea',
       slug: 'winter-printable-ideas',
-      anchorText: 'Winter Printable Business Ideas',
+      anchorText: `Winter Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
-    { src: '/image-library/spring/bird.webp', alt: 'Bird — themed educational image', caption: 'Bird' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Birdhouse — themed educational image', caption: 'Birdhouse' },
-    { src: '/image-library/spring/bud.webp', alt: 'Bud — themed educational image', caption: 'Bud' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Bunny — themed educational image', caption: 'Bunny' },
+    { src: `/image-library/spring/bee.webp`, alt: `Bee — themed educational image`, caption: 'Bee' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Bicycle — themed educational image`, caption: 'Bicycle' },
+    { src: `/image-library/spring/bird.webp`, alt: `Bird — themed educational image`, caption: 'Bird' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Birdhouse — themed educational image`, caption: 'Birdhouse' },
+    { src: `/image-library/spring/bud.webp`, alt: `Bud — themed educational image`, caption: 'Bud' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Bunny — themed educational image`, caption: 'Bunny' },
   ],
 
 

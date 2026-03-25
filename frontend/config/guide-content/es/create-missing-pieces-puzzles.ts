@@ -2,10 +2,10 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fichas de puzles de piezas faltantes',
+    primaryKeyword: `fichas de puzles de piezas faltantes`,
     secondaryKeywords: [
-      'crear puzles de piezas faltantes para vender',
-      'generador de fichas de rompecabezas uso comercial',
+      `crear puzles de piezas faltantes para vender`,
+      `generador de fichas de rompecabezas uso comercial`,
       `fichas imprimibles de piezas faltantes para Etsy y KDP`,
       `fichas de puzles visuales con claves de respuestas`,
     ],
@@ -13,16 +13,16 @@ const content: GuideContent = {
       `extracción inteligente varianza de brillo generador de puzles`,
       `seis formas de pieza generador de fichas con piezas distractoras`,
       `clave de respuestas automática resaltado amarillo creador de piezas faltantes`,
-      'vender puzles de piezas faltantes en Etsy',
-      'Amazon KDP cuadernos de puzles de rompecabezas',
+      `vender puzles de piezas faltantes en Etsy`,
+      `Amazon KDP cuadernos de puzles de rompecabezas`,
       `herramienta de piezas faltantes con licencia comercial`,
     ],
-    titleTag: 'Fichas de puzles de piezas faltantes — Guía',
+    titleTag: `Fichas de puzles de piezas faltantes — Guía`,
     metaDescription: `Crea fichas de puzles de rompecabezas con 6 formas de pieza, extracción inteligente, piezas distractoras y claves de respuestas automáticas. Guía paso.`,
   },
 
   hero: {
-    title: 'Cómo crear puzles de piezas faltantes',
+    title: `Cómo crear puzles de piezas faltantes`,
     tagline: `Un tutorial paso a paso para crear fichas de puzles de rompecabezas con seis formas de pieza, extracción inteligente de piezas mediante detección de varianza de brillo, piezas distractoras para un desafío genuino, dos controles de dificultad independientes, claves de respuestas autogeneradas con resaltado amarillo y puzles puramente visuales que puedes vender en todo el mundo en Etsy, Amazon KDP y Gumroad`,
     description: `Los puzles de piezas faltantes son una actividad visual singularmente atractiva donde los usuarios examinan una imagen con huecos recortados e identifican qué opción numerada llena cada espacio. El formato combina razonamiento espacial con discriminación visual — los usuarios deben analizar colores, patrones y detalles para emparejar las piezas con sus ubicaciones correctas. Como el resultado de la ficha contiene solo imágenes, huecos y opciones numeradas sin texto específico de un idioma, cada puzle que creas se puede vender instantáneamente en todo el mundo sin traducción. Los padres los usan para actividades de desarrollo cognitivo en casa. Los vendedores los usan para ejercicios de percepción visual y calentamientos de pensamiento crítico. Los centros de tutoría los usan para la práctica de razonamiento espacial. Esta guía te acompaña en todo el proceso de creación usando el Generador de puzles de piezas faltantes — desde seleccionar formas de pieza y configurar los controles de dificultad dual hasta comprender el algoritmo de extracción inteligente, generar piezas distractoras, revisar las claves de respuestas automáticas con resaltado amarillo y exportar archivos listos para producción. Ya sea que estés creando tu primer producto de puzles de rompecabezas o ampliando un catálogo existente de fichas visuales, tendrás un producto terminado listo para publicar al final de este tutorial.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Abre el Generador de puzles de piezas faltantes',
+      heading: `Abre el Generador de puzles de piezas faltantes`,
       content: `Navega a la página del Generador de puzles de piezas faltantes y haz clic en el botón de lanzamiento para abrir el generador en tu navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación necesaria.\n\nEl lienzo de doble pestaña es el núcleo del generador de piezas faltantes. La pestaña de la ficha muestra la imagen del puzle con huecos recortados y opciones de solución numeradas mostradas debajo (vertical) o al lado (horizontal) de la imagen. La pestaña de la clave de respuestas muestra el mismo puzle con etiquetas numéricas resaltadas en amarillo dentro de cada hueco indicando la opción correcta. Ambas pestañas se generan simultáneamente al hacer clic en Generar, así que las claves de respuestas siempre están perfectamente sincronizadas con la ficha.\n\nTómate un momento para explorar los paneles de la barra lateral. El panel de Configuración del puzle controla la forma de la pieza, la cantidad de piezas faltantes y la cantidad de opciones de solución. El panel de Biblioteca de imágenes proporciona acceso a ciento cuatro colecciones temáticas con más de tres mil cien ilustraciones. El panel de Configuración de página gestiona las opciones de diseño y decoración. Estos tres paneles contienen todo lo necesario para configurar una ficha completa de puzle de rompecabezas.`,
     },
     {
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `El Generador de puzles de piezas faltantes ofrece dos ejes de dificultad independientes, y ajustarlos por separado te da un control preciso sobre el desafío cognitivo que presenta tu ficha.\n\nEl primer control establece la cantidad de piezas faltantes de una a cinco. Esto determina cuántos huecos se recortan de la imagen fuente. Una pieza faltante crea una tarea de identificación simple donde los usuarios se concentran en un solo espacio. Cinco piezas faltantes crean un desafío complejo de razonamiento espacial donde los usuarios deben rastrear múltiples huecos simultáneamente y comparar cada uno con las opciones de solución. Más piezas faltantes significa más información visual que procesar y más oportunidades de confusión entre espacios de apariencia similar.\n\nEl segundo control establece la cantidad de opciones de solución de dos a seis. Esto determina cuántas opciones numeradas evalúan los usuarios para cada hueco. Cuando las opciones de solución superan a las piezas faltantes, las opciones adicionales son piezas distractoras — fragmentos extraídos de áreas no superpuestas de la misma imagen que se ven similares pero no encajan en ningún hueco. Las distractoras evitan que los usuarios resuelvan solo por eliminación, forzando una comparación visual cuidadosa de colores, patrones y detalles.\n\nUn puzle con una pieza faltante y dos opciones es accesible para usuarios pequeños que están desarrollando la discriminación visual. Tres piezas faltantes con cuatro opciones proporcionan un desafío intermedio adecuado para jardín de infancia hasta primaria temprana. Cinco piezas faltantes con seis opciones incluyendo distractoras crean una tarea de discriminación visual genuinamente exigente para usuarios mayores. Ajusta ambos ejes de forma independiente para afinar la dificultad para cualquier grupo de edad o nivel de producto.`,
     },
     {
-      heading: 'Selecciona una forma de pieza entre seis opciones',
+      heading: `Selecciona una forma de pieza entre seis opciones`,
       content: `Elige una forma de pieza que define el carácter visual de cada hueco y opción de solución en tu puzle. El Generador de puzles de piezas faltantes ofrece seis formas distintas, cada una creando un desafío visual diferente a partir de la misma imagen fuente.\n\nCuadrado es la forma por defecto, ofreciendo cortes geométricos limpios con límites inmediatamente reconocibles. Las formas de círculo producen huecos redondeados que interactúan de manera diferente con la imagen subyacente, revelando fragmentos circulares de la ilustración. Rectángulo vertical usa el ochenta por ciento del ancho y el cien por cien de la altura, creando huecos altos y estrechos que muestran secciones verticales de la imagen. Rectángulo horizontal usa el cien por cien del ancho y el ochenta por ciento de la altura, produciendo huecos anchos y bajos que enfatizan los detalles horizontales. Elipse vertical y elipse horizontal proporcionan cortes curvos más suaves con las mismas proporciones dimensionales que sus contrapartes rectangulares, añadiendo variedad visual orgánica.\n\nCada forma interactúa de manera diferente con la ilustración fuente porque la región extraída captura proporciones diferentes del arte circundante. Un corte cuadrado de una ilustración de personaje podría mostrar la cara del personaje, mientras que un corte de rectángulo horizontal desde la misma posición revela más del contexto del fondo. Esto significa que la misma imagen produce seis experiencias de puzle genuinamente distintas en todas las formas disponibles.\n\nPara la creación de productos, la variedad de formas es un multiplicador de catálogo. Un solo tema de veinte imágenes produce hasta ciento veinte puzles únicos en las seis formas y múltiples niveles de dificultad. Los clientes perciben las diferentes formas como productos distintos, así que variar la forma de la pieza es una manera eficiente de ampliar tu catálogo de puzles sin necesitar imágenes fuente adicionales.`,
     },
     {
@@ -47,15 +47,15 @@ const content: GuideContent = {
       content: `Abre el panel de Biblioteca de imágenes y navega por ciento cuatro colecciones temáticas con más de tres mil cien ilustraciones coloridas — animales, comida, vehículos, naturaleza, festividades, profesiones y docenas más. Filtra por tema usando el menú desplegable o busca por palabra clave. Haz clic en una imagen para seleccionarla como fuente para tu puzle.\n\nLas imágenes con colores variados y regiones distintas producen las fichas de puzle de rompecabezas más atractivas. El algoritmo de extracción inteligente requiere una varianza de brillo mínima de quince por pieza, así que las ilustraciones con múltiples colores, patrones detallados y regiones visualmente ricas generan mejores puzles. Las ilustraciones coloridas de personajes, las escenas detalladas y las composiciones de múltiples elementos funcionan excepcionalmente bien. Las imágenes con grandes áreas de color uniforme producen piezas menos distintivas porque los fragmentos extraídos de regiones similares se ven demasiado parecidos, haciendo el puzle menos desafiante.\n\nTambién puedes subir imágenes personalizadas en formato PNG, JPG o GIF para crear diseños de puzles personalizados. Las cargas personalizadas abren posibilidades de producto que las bibliotecas integradas no pueden igualar. Los puzles con fotos familiares se convierten en regalos personalizados únicos — los niños encuentran las piezas faltantes recortadas de imágenes familiares de mascotas, miembros de la familia o lugares favoritos. Los puzles con fotos de clase, puzles con imágenes de marca y puzles con arte personalizado se convierten en productos únicos e imposibles de replicar por los competidores. El algoritmo de extracción inteligente funciona con cualquier imagen subida, encontrando áreas con suficiente varianza de color para puzles resolubles independientemente de la fuente.`,
     },
     {
-      heading: 'Configura el diseño de página y las decoraciones',
+      heading: `Configura el diseño de página y las decoraciones`,
       content: `En la sección de Configuración de página, selecciona tu tamaño de página. Las opciones incluyen Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Cuadrado (mil doscientos por mil doscientos píxeles) y dimensiones personalizadas. Carta es el estándar para compradores norteamericanos. A4 es el estándar para mercados europeos e internacionales. Crear ambas versiones duplica tu alcance en el mercado con un esfuerzo adicional mínimo.\n\nLa orientación de la página afecta significativamente al diseño del puzle. Los diseños verticales colocan la imagen del puzle arriba con las opciones de solución debajo en una fila horizontal al setenta y cinco por ciento del tamaño máximo. Los diseños horizontales dividen la vista al cincuenta por ciento con la imagen del puzle a la izquierda y las opciones de solución organizadas en el lado derecho. Elige la orientación que mejor muestre tu imagen fuente y dé a las opciones de solución un espacio de visualización adecuado.\n\nLos temas de fondo y borde funcionan de forma independiente, cada uno con su propio deslizador de opacidad que va de cero a uno en incrementos de cero coma cero cinco. Aplica un patrón de fondo sutil al quince o veinticinco por ciento de opacidad para calidez visual sin distraer del contenido del puzle. Superpón un borde decorativo al ochenta o cien por ciento de opacidad para un marco pulido. Las combinaciones consistentes de fondo y borde en todo un paquete crean un aspecto de producto cohesivo que los compradores asocian con calidad.\n\nPersonaliza el texto con siete opciones de fuente incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Añade un contorno de texto de cero a diez para estilización adicional. Activa o desactiva los campos de nombre y fecha para responsabilidad en línea. El lienzo Fabric.js proporciona seis opciones de alineación más centrado en la página, capas con bloqueo y desbloqueo, zoom del veinticinco al trescientos por ciento, y deshacer y rehacer con cincuenta estados.`,
     },
     {
-      heading: 'Genera la ficha de puzle de rompecabezas',
+      heading: `Genera la ficha de puzle de rompecabezas`,
       content: `Haz clic en Generar para crear el puzle de piezas faltantes. El algoritmo de extracción inteligente de piezas se activa, intentando hasta ciento cincuenta intentos de colocación para encontrar piezas con suficiente varianza de brillo (umbral mínimo de quince). Cada ubicación candidata de pieza se analiza para verificar la variedad de color y asegurar que el fragmento extraído contenga suficiente detalle visual para ser identificable. Las piezas mantienen al menos doscientos cincuenta píxeles de distancia entre sí para evitar la agrupación y asegurar que los huecos estén bien distribuidos en la imagen. El tamaño de la pieza se calcula como el doce por ciento del ancho de la imagen con un mínimo de cincuenta píxeles.\n\nLos huecos blancos con contornos de trazo negro (dos píxeles) aparecen en las ubicaciones originales de la imagen fuente, marcando claramente dónde se extrajeron las piezas. Las opciones de solución numeradas — piezas correctas más cualquier pieza distractora — se muestran debajo o al lado de la imagen del puzle según la orientación. Cada opción muestra una etiqueta numérica resaltada en amarillo para identificación.\n\nEl encabezado autogenerado renderiza «Piezas faltantes» en turquesa con una descripción en rosa, enmarcado por el sistema de borde dual — un borde exterior teal con trazo de ocho píxeles, márgenes de treinta y cuatro píxeles y radio de doce píxeles, más un borde interior rosa intenso con trazo de tres píxeles, márgenes de cuarenta y seis coma cinco píxeles, radio de ocho píxeles y un ligero desplazamiento. Este enmarcado profesional aumenta la calidad percibida en los listados de marketplaces.\n\nExamina la vista previa con cuidado: comprueba que los huecos estén bien distribuidos en la imagen, que las opciones de solución muestren suficiente variedad visual para ser distinguibles y que las piezas distractoras (si están presentes) sean desafiantes pero justas. Si algo necesita ajuste, modifica tu configuración y regenera instantáneamente. El algoritmo de extracción recalcula en cada generación, así que regenerar con la misma configuración produce colocaciones de piezas diferentes.`,
     },
     {
-      heading: 'Revisa la clave de respuestas autogenerada',
+      heading: `Revisa la clave de respuestas autogenerada`,
       content: `Haz clic en la pestaña de Clave de respuestas para ver la solución autogenerada. La misma imagen del puzle aparece con huecos, y las etiquetas numéricas resaltadas en amarillo se colocan dentro de cada hueco mostrando el índice correcto de la opción con base uno. El resaltado amarillo usa un fondo semitransparente al setenta por ciento de opacidad, haciendo el número claramente legible contra cualquier contenido de imagen. El tamaño de fuente se escala al sesenta por ciento del tamaño de la pieza para una legibilidad clara en todos los tamaños de página.\n\nAlterna entre las pestañas de Ficha y Clave de respuestas para comparar y verificar que la opción correcta esté marcada para cada hueco. La clave de respuestas se genera simultáneamente con la ficha — sin paso de creación manual, sin proceso de diseño separado, sin posibilidad de respuestas que no coincidan. Esta generación simultánea ahorra un tiempo significativo al crear grandes paquetes de puzles de rompecabezas donde crear claves de respuestas manualmente sería prohibitivamente lento.\n\nPara los listados de productos, la clave de respuestas es un argumento de venta poderoso. Los productos que incluyen claves de respuestas con marcadores visuales claros superan consistentemente en ventas a los listados de solo puzles porque los vendedores y padres quieren materiales de autoevaluación. Las etiquetas numéricas resaltadas en amarillo son inmediatamente reconocibles y hacen la verificación instantánea — los usuarios o los padres pueden comprobar las respuestas sin ninguna ambigüedad. Siempre menciona «incluye clave de respuestas autogenerada con resaltado amarillo» en los títulos y descripciones de tus listados para diferenciarte de los competidores que venden puzles sin soluciones.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender fichas de puzles de rompecabezas en Etsy',
+      heading: `Vender fichas de puzles de rompecabezas en Etsy`,
       content: `Etsy es un marketplace fuerte para fichas de puzles de rompecabezas porque los padres y vendedores buscan tipos específicos de puzles visuales. Títulos como «Puzles de piezas faltantes — Fichas de rompecabezas — Actividades de discriminación visual — Con claves de respuestas» capturan tráfico de búsqueda segmentado.\n\nNombra tus productos usando la forma de la pieza y el nivel de dificultad en lugar de títulos genéricos. «Fichas de rompecabezas con piezas circulares — 20 puzles con claves de respuestas — 3 piezas faltantes» supera a «Fichas de puzles para niños» porque coincide con consultas de búsqueda específicas de los compradores y comunica exactamente lo que contiene el producto.\n\nEtiquetas: usa las trece etiquetas de Etsy. Combina términos amplios y específicos: «fichas de rompecabezas», «puzles de piezas faltantes», «discriminación visual», «actividades de razonamiento espacial», «fichas de pensamiento crítico», «puzles imprimibles para niños», «fichas de puzles con respuestas», «actividades de percepción visual» y variaciones que coincidan con tu forma de pieza y nivel de dificultad específicos.\n\nImágenes del listado: muestra la ficha completa con huecos visibles en la imagen fuente y opciones de solución numeradas debajo, un primer plano del encabezado dual turquesa y rosa, la clave de respuestas con etiquetas numéricas resaltadas en amarillo claramente visibles dentro de cada hueco y una maqueta de la ficha impresa y en uso. El formato de imagen con huecos es visualmente distintivo y crea miniaturas atractivas.\n\nPrecios: conjuntos individuales de puzles de rompecabezas de diez a quince fichas con claves de respuestas se venden a dos dólares noventa y nueve centavos a cinco dólares noventa y nueve centavos. Paquetes específicos por forma de veinte a treinta fichas se venden a seis dólares noventa y nueve centavos a doce dólares noventa y nueve centavos. Colecciones completas con las seis formas de pieza y múltiples niveles de dificultad se venden a catorce dólares noventa y nueve centavos a veinticuatro dólares noventa y nueve centavos.`,
     },
     {
@@ -85,11 +85,11 @@ const content: GuideContent = {
       content: `Los precios de las fichas de puzles de rompecabezas siguen patrones predecibles en todos los marketplaces. Estos son los rangos que funcionan bien:\n\nConjuntos de una sola forma con diez a quince fichas y claves de respuestas: dos dólares noventa y nueve centavos a cinco dólares noventa y nueve centavos. Estos sirven como productos de entrada. Cada conjunto se enfoca en una forma de pieza y un nivel de dificultad, como puzles de animales con corte cuadrado con tres piezas faltantes o puzles de naturaleza con corte circular con dos opciones.\n\nPaquetes de múltiples formas con veinte a treinta fichas cubriendo tres a cuatro formas de pieza en dos niveles de dificultad: seis dólares noventa y nueve centavos a doce dólares noventa y nueve centavos. Los compradores perciben un valor fuerte porque obtienen estilos de puzle visualmente distintos con claves de respuestas para cada ficha. Las seis formas de pieza crean variedad natural sin requerir contenido fuente diferente.\n\nColecciones completas con cuarenta a sesenta fichas cubriendo las seis formas de pieza, múltiples niveles de dificultad desde una pieza faltante hasta cinco, y piezas distractoras en dificultad alta: catorce dólares noventa y nueve centavos a veinticuatro dólares noventa y nueve centavos. Posiciona estos como bibliotecas completas de puzles de rompecabezas para todo el año escolar de actividades de razonamiento espacial.\n\nNo rebajes el mercado. Las fichas de puzles de rompecabezas con extracción inteligente, piezas distractoras y claves de respuestas autogeneradas con resaltado amarillo son un producto premium. Las seis formas de pieza y el sistema de dificultad de dos ejes crean una variedad genuina que los competidores que usan herramientas más simples no pueden igualar. Fija los precios con confianza.`,
     },
     {
-      heading: 'Estrategias de agrupación por forma y dificultad',
+      heading: `Estrategias de agrupación por forma y dificultad`,
       content: `Los paquetes son donde se escalan los ingresos para productos de puzles de rompecabezas. Las seis formas de pieza y los dos controles de dificultad independientes crean oportunidades naturales de agrupación que multiplican la variedad de tu producto.\n\nPaquetes específicos por forma: agrupa de quince a veinte fichas por forma de pieza. «Puzles de rompecabezas con corte cuadrado» y «Actividades de piezas faltantes con corte circular» se dirigen a diferentes preferencias de los compradores con un posicionamiento de producto claro. Cada forma crea una línea de producto visualmente distinta a partir de las mismas imágenes fuente.\n\nPaquetes de progresión de dificultad: combina puzles fáciles con una pieza faltante y dos opciones, puzles intermedios con tres piezas faltantes y cuatro opciones, y puzles desafiantes con cinco piezas faltantes con seis opciones incluyendo distractoras. Comercializa estos como «conjuntos progresivos de puzles de rompecabezas» que crecen con el niño desde preescolar hasta primaria.\n\nPaquetes basados en tema: compila fichas de puzles de rompecabezas por categoría de imagen. Una «Colección de animales» incluye puzles con las seis formas de pieza usando ilustraciones de animales. Una «Colección de vehículos» usa imágenes de transporte. Cada paquete temático con variedad de formas proporciona docenas de puzles únicos de una categoría de contenido enfocada.\n\nPaquetes personalizados con fotos: usa imágenes subidas para crear productos de puzles de rompecabezas personalizados que ningún competidor puede replicar. Libros de puzles con fotos familiares, conjuntos de puzles con fotos de mascotas y puzles con ilustraciones personalizadas tienen precios premium por su singularidad.\n\nPublica siempre tanto conjuntos individuales como paquetes. Los listados individuales capturan combinaciones específicas de palabras clave mientras que los paquetes generan mayores ingresos por transacción.`,
     },
     {
-      heading: 'Ventas globales sin traducción',
+      heading: `Ventas globales sin traducción`,
       content: `El formato puramente visual de los puzles de piezas faltantes crea una ventaja competitiva significativa que la mayoría de los vendedores pasan por alto. Cada ficha que creas contiene solo imágenes, huecos y opciones de solución numeradas — sin texto específico de un idioma en el contenido del puzle. El encabezado autogenerado se traduce a los once idiomas soportados, pero los ejercicios son universalmente legibles independientemente del idioma del espectador.\n\nEsto significa que una sola sesión de creación produce un producto vendible globalmente. El mismo archivo PDF funciona para compradores de habla inglesa en Estados Unidos, compradores de habla alemana en Europa, compradores de habla japonesa en Asia y cualquier otro mercado. Sin versiones de idiomas separadas, sin costes de traducción, sin mantenimiento por cada mercado.\n\nPara capitalizar esta ventaja: publica los mismos productos de puzles de rompecabezas en tiendas de Etsy dirigidas a diferentes países. Traduce solo los títulos y descripciones de tus listados (no el producto en sí) para coincidir con los términos de búsqueda locales. Publica los mismos interiores de KDP en todos los marketplaces internacionales de Amazon. Publica en Gumroad para vendedores internacionales que necesitan actividades visuales independientes del idioma.\n\nLa función de carga de imágenes personalizadas añade otra dimensión a las ventas globales. Sube imágenes culturalmente relevantes para mercados específicos manteniendo el formato universal de puzle. Un conjunto de puzles usando imágenes culturales japonesas publicado en una tienda de Etsy enfocada en Japón combina atractivo visual local con el formato universal de puzle. Mientras los competidores que crean fichas con mucho texto deben producir versiones separadas para cada mercado de idioma, tus puzles visuales sirven a todos los compradores desde un solo conjunto de archivos con cero esfuerzo adicional de creación.`,
     },
   ],
@@ -143,42 +143,42 @@ const content: GuideContent = {
       description: `Un complemento de discriminación visual para los puzles de piezas faltantes. Las fichas de intruso piden a los usuarios que identifiquen el elemento diferente entre cuatro imágenes, ejercitando habilidades de observación y comparación relacionadas.`,
     },
     {
-      slug: 'crear-fichas-discriminacion-visual',
-      title: 'Crear fichas de discriminación visual con sombras',
+      slug: `crear-fichas-discriminacion-visual`,
+      title: `Crear fichas de discriminación visual con sombras`,
       description: `Una prima de percepción visual de los puzles de piezas faltantes. Las fichas de asociación de sombras desarrollan habilidades de reconocimiento de siluetas y análisis espacial que complementan las actividades de puzles de rompecabezas.`,
     },
     {
       slug: 'crear-fichas-busqueda-tesoro',
-      title: 'Crear fichas de búsqueda del tesoro',
+      title: `Crear fichas de búsqueda del tesoro`,
       description: `Un complemento de razonamiento espacial donde los usuarios buscan objetos escondidos en escenas detalladas. Las fichas de búsqueda del tesoro desarrollan habilidades de percepción visual y atención al detalle relacionadas.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'piezas-faltantes-fichas', anchorText: `Generador de fichas de piezas faltantes — Todos los detalles` },
     { pageType: 'app', slug: 'encuentra-el-diferente-fichas', anchorText: `Generador de fichas de intruso — Todos los detalles` },
-    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Prueba el Generador de puzles de piezas faltantes' },
+    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: `Prueba el Generador de puzles de piezas faltantes` },
   ],
 
   toolsRecommended: [
     {
       appId: 'missing-pieces',
-      title: 'Generador de puzles de piezas faltantes',
+      title: `Generador de puzles de piezas faltantes`,
       description: `La herramienta principal de esta guía. Crea fichas de puzles de rompecabezas con seis formas de pieza, algoritmo de extracción inteligente con detección de varianza de brillo, de una a cinco piezas faltantes con dos a seis opciones de solución incluyendo piezas distractoras y claves de respuestas autogeneradas con etiquetas numéricas resaltadas en amarillo.`,
     },
     {
       appId: 'odd-one-out',
-      title: 'Generador de fichas de intruso',
+      title: `Generador de fichas de intruso`,
       description: `Un complemento de discriminación visual que crea puzles de cuatro imágenes donde los usuarios identifican el elemento diferente. Las fichas de intruso desarrollan habilidades de observación relacionadas y se agrupan naturalmente con puzles de piezas faltantes para líneas completas de productos de percepción visual.`,
     },
     {
       appId: 'shadow-match',
-      title: 'Generador de fichas de discriminación visual',
+      title: `Generador de fichas de discriminación visual`,
       description: `Una prima de percepción visual que crea actividades de asociación de siluetas. La asociación de sombras apunta a habilidades de análisis espacial estrechamente relacionadas con la resolución de puzles de rompecabezas, convirtiendo estos dos formatos en compañeros naturales en paquetes de razonamiento visual.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/missing pieces/Piezas Perdidas 2.webp`, alt: 'Ficha de puzle de rompecabezas con huecos recortados de una ilustración colorida y opciones de solución numeradas incluyendo distractoras debajo con encabezado turquesa Piezas faltantes y enmarcado de borde dual teal-rosa' },
+    heroImage: { src: `/samples/spanish/missing pieces/Piezas Perdidas 2.webp`, alt: `Ficha de puzle de rompecabezas con huecos recortados de una ilustración colorida y opciones de solución numeradas incluyendo distractoras debajo con encabezado turquesa Piezas faltantes y enmarcado de borde dual teal-rosa` },
     samples: [
-      { src: `/samples/spanish/missing pieces/Piezas Perdidas 2.webp`, alt: 'Ficha de puzle de piezas faltantes mostrando una imagen con huecos recortados y opciones de solución numeradas debajo con encabezado de borde dual', caption: 'Ficha de puzle de rompecabezas con piezas extraídas inteligentemente y opciones de solución numeradas incluyendo distractoras' },
-      { src: `/samples/spanish/missing pieces/Piezas Perdidas 1 answer_key.webp`, alt: 'Clave de respuestas autogenerada con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando el índice de la opción correcta', caption: 'Clave de respuestas autogenerada con etiquetas resaltadas en amarillo mostrando la opción correcta para cada hueco' },
+      { src: `/samples/spanish/missing pieces/Piezas Perdidas 2.webp`, alt: `Ficha de puzle de piezas faltantes mostrando una imagen con huecos recortados y opciones de solución numeradas debajo con encabezado de borde dual`, caption: `Ficha de puzle de rompecabezas con piezas extraídas inteligentemente y opciones de solución numeradas incluyendo distractoras` },
+      { src: `/samples/spanish/missing pieces/Piezas Perdidas 1 answer_key.webp`, alt: `Clave de respuestas autogenerada con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando el índice de la opción correcta`, caption: `Clave de respuestas autogenerada con etiquetas resaltadas en amarillo mostrando la opción correcta para cada hueco` },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: `Cómo crear puzles de piezas faltantes — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Toro — imagen educativa temática', caption: 'Toro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Ternero — imagen educativa temática', caption: 'Ternero' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagen educativa temática', caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Toro — imagen educativa temática`, caption: 'Toro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Ternero — imagen educativa temática`, caption: 'Ternero' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagen educativa temática`, caption: 'Gato 2' },
   ],
 };
 

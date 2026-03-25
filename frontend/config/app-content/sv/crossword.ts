@@ -4,17 +4,17 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'bildkorsord generator',
     secondaryKeywords: [
-      'utskrivbar bildkorsord skapare för Etsy-säljare',
-      'bildkorsordspussel generator för KDP-publicerare',
-      'bildkorsord arbetsblad skapare kommersiell licens',
-      'sälja korsordspussel på Gumroad',
+      `utskrivbar bildkorsord skapare för Etsy-säljare`,
+      `bildkorsordspussel generator för KDP-publicerare`,
+      `bildkorsord arbetsblad skapare kommersiell licens`,
+      `sälja korsordspussel på Gumroad`,
     ],
     lsiKeywords: [
       `digitala korsord utskriftsbara produkter onlineföretag`,
-      'kommersiellt bruk korsordspussel generator',
-      'utskrivbar bildkorsord affärsverktyg',
+      `kommersiellt bruk korsordspussel generator`,
+      `utskrivbar bildkorsord affärsverktyg`,
     ],
-    titleTag: 'Bildkorsord Generator | Skapa och Sälj Pussel',
+    titleTag: `Bildkorsord Generator | Skapa och Sälj Pussel`,
     metaDescription:
       `Skapa bildkorsordspussel att sälja på Etsy, KDP och Gumroad. Bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder, automatiskt facit. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Bildkorsordspussel i 5 Steg',
+    title: `Hur du Skapar Bildkorsordspussel i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Bestäm hur du vill leverera de 8 orden för ditt korsord. Snabb Temagenerering (standard) autoäljer 8 slumpmässiga bilder från det valda temat och genererar direkt. Manuell Bildnamnsredigering låter dig klicka på bilder och döpa om dem innan generering. Anpassad Ordlista med Ledtrådar aktiverar ett textfält där du skriver ORD: ledtråd-par för traditionella textledtråds-korsord. Ladda Upp Egna Bilder låter dig lägga till egna bildfiler bredvid biblioteket.`,
       },
       {
-        title: 'Välj eller konfigurera dina 8 bilder eller ord',
+        title: `Välj eller konfigurera dina 8 bilder eller ord`,
         description:
           `För temabaserad generering, bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer — djur, mat, fordon, natur, högtider och dussintals fler. Filtrera efter tema med dropdownen eller sök med nyckelord. För manuell redigering, klicka på enskilda bilder och redigera deras visningsnamn. För anpassade ordlistor, skriv 8 eller fler ORD: ledtråd-poster. För uppladdningar, lägg till JPEG-, PNG-, GIF- eller WebP-filer. Generatorn kräver minst 8 objekt för att bygga korsordet.`,
       },
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nyckelfunktioner i Bildkorsord Generatorn',
+    title: `Nyckelfunktioner i Bildkorsord Generatorn`,
     features: [
       {
         title: `Bildkorsordspussel med bildledtrådar på ett fast 15×15 rutnät`,
@@ -86,7 +86,7 @@ const content: AppContent = {
           `Aktivera kryssrutan Anpassad Ordlista med Ledtrådar för att växla från bildkorsord till traditionella textledtråds-korsord. Skriv ord och deras ledtrådar i formatet ORD: ledtrådstext, en per rad, med minst 8 poster. Samma 15×15 rutnätsalgoritm placerar dina anpassade ord med optimal korsning, och textledtrådar ersätter bildledtrådar bredvid rutnätet. Detta läge låter dig skapa vokabulärkorsord, stavningskorsord eller ämnesspecifika korsord med lärardefinierat innehåll — inget bildbibliotek krävs.`,
       },
       {
-        title: 'Manuell bildnamnsredigering före pusselgenerering',
+        title: `Manuell bildnamnsredigering före pusselgenerering`,
         description:
           `Aktivera kryssrutan Manuell Bildnamnsredigering för att ta full kontroll över orden som visas i ditt korssordsrutnät. Klicka på enskilda bilder från biblioteket för att välja dem, och redigera sedan varje bilds visningsnamn i redigeringsgränssnittet. De redigerade namnen blir korsordsordet — döp om «Fjäril» till «Monark» eller förenkla «Brandbil» till «Bil» för enklare pussel. Denna funktion överbryggar klyftan mellan helautomatisk temagenerering och helt manuella anpassade ordlistor, och ger dig bildbaserade ledtrådar med exakt vokabulärkontroll.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Bildkorsordspussel Online',
+    title: `Hur du Säljer Bildkorsordspussel Online`,
     cases: [
       {
-        title: 'Tematiska bildkorsords-paket på Etsy',
+        title: `Tematiska bildkorsords-paket på Etsy`,
         description:
           `Skapa tematiska bildkorsords-paket med de 104 bildsamlingarna — djurkorsord, matkorsord, fordonskorsord, högtidskorsord och dussintals fler. Varje tema ger tillräckligt med illustrationer för flera unika pussel eftersom generatorn slumpmässigt väljer 8 bilder per pussel. Paketera 10–20 bildkorsord per tema med facit inkluderade, och sälj till 30–70 SEK per paket. Bildledtrådsformatet gör dessa korsord visuellt tilltalande i Etsys listningsminiatyrer, vilket driver högre klickfrekvenser än textbaserade korsordsprodukter.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Bildkorsord aktivitets-arbetsböcker på Amazon KDP',
+        title: `Bildkorsord aktivitets-arbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 bildkorsord till en tryckt arbetsbok formaterad för Amazon KDP. Organisera kapitel efter tema — djur, mat, natur, högtider — med progressiv vokabulärsvårighet genom sektionerna. Inkludera facit i slutet av boken med den automatiskt genererade facitfunktionen. Gråskaleväxlingen producerar bläckvänliga sidor redo för svartvita bokinteriörer. Bildkorsord fyller en unik nisch på aktivitetsboksmarknaden: de kombinerar den visuella attraktionskraften hos bildpussel med ordlösningsutmaningen hos traditionella korsord.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Flerspråkiga bildkorsords-set med språkkänslig generering`,
         description:
           `Utnyttja den språkkänsliga ordgenereringen för att skapa bildkorsordspussel på 11 språk. Samma bilder producerar helt olika korssordsrutnät när du byter språk — en kattbild skapar «KATT» på svenska, «CAT» på engelska och «KATZE» på tyska. Skapa flerspråkiga korssordspaket där varje språkversion använder samma tematiska bilder men producerar unika pussel med lokaliserade ord. Detta är värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.`,
-        platform: 'Etsy / Gumroad (flerspråkig marknad)',
+        platform: `Etsy / Gumroad (flerspråkig marknad)`,
       },
       {
-        title: 'Anpassade vokabulärkorsord för Gumroad',
+        title: `Anpassade vokabulärkorsord för Gumroad`,
         description:
           `Använd läget Anpassad Ordlista med Ledtrådar för att skapa produktkatalogsanpassade korsordspussel med lärardefinierad vokabulär. Skriv ämnesspecifika termer och definitioner i ORD: ledtråd-format — naturvetenskaplig vokabulär, samhällskunskapstermer, läsförståelseord eller stavningslistor. köpare som söker på Gumroad efter korssordsaktiviteter värdesätter pussel som matchar deras exakta produktkatalog. Skapa årskursnivå vokabulärkorsords-set med facit i både PDF- och JPEG-format. Textledtrådsläget låter dig bygga korsord för alla ämnen utan att förlita dig på bildbiblioteket.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Säsongsbetonade bildkorsords-samlingar',
+        title: `Säsongsbetonade bildkorsords-samlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade bildkorsords-samlingar som sammanfaller med toppshoppingperioder. Släpp halloweenkorsords-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Den visuella naturen hos bildkorsord gör säsongsteman särskilt övertygande — högtidsbilder som ledtrådar skapar omedelbar säsongsattraktionskraft. Säsongsprodukter motiverar högre priser under sina toppfönster och driver återköp.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
     ],
   },
@@ -146,17 +146,17 @@ const content: AppContent = {
         `Ett bildkorsord ersätter traditionella textledtrådar med bildledtrådar. Istället för att läsa en skriftlig definition och fylla i svaret tittar lösarna på en färgglad bild och skriver ordet den representerar i korssordsrutnätet. Generatorn placerar 8 bildbaserade ord på ett fast 15×15 rutnät med numrerade positioner som kopplar varje bild till dess startcell. Detta format gör korsord tillgängliga för yngre lösare och språkinlärare samtidigt som ordplaceringsutmaningen hos traditionella korsord bibehålls.`,
     },
     {
-      question: 'Varför är rutnätet fast på 15×15 celler?',
+      question: `Varför är rutnätet fast på 15×15 celler?`,
       answer:
         `15×15-rutnätet ger tillräckligt med utrymme för 8 korsande ord av varierande längder samtidigt som rena visuella proportioner bibehålls på både Letter- och A4-sidstorlekar. Rutnätsstorleken är optimerad för placeringsalgoritmen — större rutnät skulle lämna för mycket tomt utrymme med 8 ord, medan mindre rutnät skulle förhindra att längre ord får plats. Den fasta storleken säkerställer konsekventa, professionellt utseende korsordspussel över alla teman och språk.`,
     },
     {
-      question: 'Hur fungerar pusselgenereringsalgoritmen?',
+      question: `Hur fungerar pusselgenereringsalgoritmen?`,
       answer:
         `Algoritmen extraherar ord från dina 8 valda bildnamn, tar bort mellanslag och konverterar till versaler. Den blandar sedan orden och sorterar efter längd (längst först) för att maximera rutnätstäckning. Ord placeras sekventiellt på 15×15-rutnätet, vart och ett försöker korsa med redan placerade ord vid delade bokstäver. Bara ord som framgångsrikt passar visas i det slutliga pusslet. Numrerade positioner markerar början av varje ord, och motsvarande bildledtrådar visas bredvid rutnätet med matchande nummer.`,
     },
     {
-      question: 'Vilka är de fyra inmatningsmetoderna?',
+      question: `Vilka är de fyra inmatningsmetoderna?`,
       answer:
         `Snabb Temagenerering (standard) autoäljer 8 slumpmässiga bilder från det valda temat och genererar direkt. Manuell Bildnamnsredigering låter dig klicka på enskilda bilder och döpa om dem innan generering — användbart för att kontrollera exakt vokabulär. Anpassad Ordlista med Ledtrådar aktiverar ett textfält där du skriver ORD: ledtråd-par för traditionella textledtråds-korsord utan bilder. Ladda Upp Egna Bilder låter dig lägga till egna JPEG-, PNG-, GIF- eller WebP-filer bredvid biblioteksbilder. Varje metod matar in i samma 15×15 rutnätsplaceringsalgoritm.`,
     },
@@ -166,27 +166,27 @@ const content: AppContent = {
         `Aktivera kryssrutan Anpassad Ordlista med Ledtrådar för att växla från bildkorsord till traditionella textledtråds-korsord. Skriv dina ord och ledtrådar i formatet ORD: ledtrådstext, en per rad. Du behöver minst 8 poster. Algoritmen placerar dina anpassade ord på 15×15-rutnätet med samma placeringslogik, och textledtrådar visas bredvid rutnätet istället för bildledtrådar. Detta läge är idealiskt för ämnesspecifika vokabulärkorsord, stavningsövning eller korsord där du vill definiera eget innehåll.`,
     },
     {
-      question: 'Hur fungerar Manuell Bildnamnsredigering?',
+      question: `Hur fungerar Manuell Bildnamnsredigering?`,
       answer:
         `Aktivera kryssrutan Manuell Bildnamnsredigering för att ta kontroll över orden som används i ditt korsord. Klicka på enskilda bilder från biblioteket för att välja dem, använd sedan redigeringsgränssnittet för att ändra varje bilds visningsnamn. De redigerade namnen blir korsordsordet som visas i rutnätet. Detta låter dig förenkla sammansatta namn, anpassa vokabulär för din målgrupp, eller skräddarsy ord medan du behåller de visuella bildledtrådarna. Du behöver minst 8 bilder valda innan du genererar.`,
     },
     {
-      question: 'Är Bildkorsord Generatorn språkkänslig?',
+      question: `Är Bildkorsord Generatorn språkkänslig?`,
       answer:
         `Ja. Pusselord kommer från lokaliserade bildnamn laddade genom bildvokabulärsystemet. Att byta innehållsspråk ändrar de faktiska orden placerade i korssordsrutnätet. En kattbild genererar «KATT» på svenska men «CAT» på engelska, «KATZE» på tyska och «CHAT» på franska — vilket skapar helt olika korsordspussel från identiska bildval. Den lokaliserade «Bildkorsord»-rubriken ändras också med det valda språket. Kommersiellt Paket inkluderar engelska; Full Access låser upp alla 11 språk.`,
     },
     {
-      question: 'Hur fungerar den automatiskt genererade rubriken?',
+      question: `Hur fungerar den automatiskt genererade rubriken?`,
       answer:
         `Varje genererat korsord inkluderar en responsiv rubrik med blå bakgrund (#5B9BD5), vit piller och lokaliserad titel och beskrivning. Stående läge visar en helbred rubrik (220px höjd); liggande läge använder en kompakt centrerad layout (145px höjd). Titeln «Bildkorsord» renderas i Fredoka-typsnitt med dynamisk storlek (48px för korta titlar ner till 28px för längre översättningar), och beskrivningen «Titta på bilderna och fyll i orden!» renderas i Quicksand. Båda textelementen översätts automatiskt till alla 11 stödda språk. En klarblå ram (#4A90E2, 8px streck, 12px rundade hörn) ramar in rubriken.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — alla fyra inmatningsmetoder, 15×15 rutnätsgeneratorn, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, alla nedladdningsformat och gråskaleväxling — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik (pusslet) och en Facitflik (det ifyllda rutnätet). Arbetsbladet visar det tomma korssordsrutnätet med numrerade positioner och bild- eller textledtrådar — redo för lösare att fylla i. Facit återskapar den identiska layouten och fyller varje cell med de korrekta bokstäverna. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf och image-crossword-answer-key.pdf.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bildkorsordspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De fyra inmatningsmetoderna, automatiskt genererade facit, språkkänslig ordgenerering och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara korsordsprodukter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla fyra inmatningsmetoder, 15×15 rutnätsgeneratorn, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,78 +206,78 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'hitta-och-rakna-arbetsblad',
-      anchorText: 'Hitta och Räkna Arbetsblad Generator',
+      anchorText: `Hitta och Räkna Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'hitta-foremal-arbetsblad',
-      anchorText: 'Hitta Föremål Arbetsblad Generator',
+      anchorText: `Hitta Föremål Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'skattjakt-arbetsblad',
-      anchorText: 'Skattjakt Arbetsblad Generator',
+      anchorText: `Skattjakt Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'ordsokning-arbetsblad',
-      anchorText: 'Ordsökning Arbetsblad Generator',
+      anchorText: `Ordsökning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'ordpussel-arbetsblad',
-      anchorText: 'Ordpussel Arbetsblad Generator',
+      anchorText: `Ordpussel Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'gissa-ordet-arbetsblad',
-      anchorText: 'Gissa Ordet Arbetsblad Generator',
+      anchorText: `Gissa Ordet Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'kryptogram-arbetsblad',
-      anchorText: 'Kryptogram Arbetsblad Generator',
+      anchorText: `Kryptogram Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'sok-hitta-paket',
-      anchorText: 'Sök och Hitta Paket — Alla Sökappar i Ett',
+      anchorText: `Sök och Hitta Paket — Alla Sökappar i Ett`,
     },
     {
       pageType: 'idea',
-      slug: 'forsta-klass-utskriftsbara-ideer',
+      slug: `forsta-klass-utskriftsbara-ideer`,
       anchorText: `Första Klass Utskriftsbara Idéer för Grundutbildning`,
     },
     {
       pageType: 'idea',
-      slug: 'andra-klass-utskriftsbara-ideer',
+      slug: `andra-klass-utskriftsbara-ideer`,
       anchorText: `Andra Klass Utskriftsbara Idéer för Växande användare`,
     },
     {
       pageType: 'start',
       slug: 'amazon-kdp-aktivitetsbocker',
-      anchorText: 'Publicera Aktivitetsböcker på Amazon KDP',
+      anchorText: `Publicera Aktivitetsböcker på Amazon KDP`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-korsordspussel',
-      anchorText: 'Hur du Skapar Korsordspussel som Säljer',
+      anchorText: `Hur du Skapar Korsordspussel som Säljer`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/crossword/Bildkorsord%201.webp',
+      primary: `/samples/swedish/crossword/Bildkorsord%201.webp`,
       primaryAlt: `Bildkorsordspussel med bildledtrådar på ett 15 gånger 15 rutnät med lokaliserad Bildkorsord-rubrik och numrerade ledtrådspositioner`,
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/crossword/Bildkorsord%202.webp',
+        src: `/samples/swedish/crossword/Bildkorsord%202.webp`,
         alt: `Bildkorsordspussel med tematiska bildledtrådar bredvid ett 15 gånger 15 korssordsrutnät`,
         caption: `Bildkorsord — bildledtrådar ersätter traditionella textledtrådar på ett 15×15 rutnät`,
       },
       {
-        src: '/samples/swedish/crossword/Bildkorsord%203.webp',
+        src: `/samples/swedish/crossword/Bildkorsord%203.webp`,
         alt: `Anpassad ordlista korsord med textledtrådar och ifyllt korssordsrutnät`,
         caption: `Anpassad Ordlista-läge — traditionella textledtråds-korsord med din egen vokabulär`,
       },

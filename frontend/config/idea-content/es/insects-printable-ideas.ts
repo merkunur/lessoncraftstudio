@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas de Imprimibles de Insectos — Guía de Nicho',
+    titleTag: `Ideas de Imprimibles de Insectos — Guía de Nicho`,
     metaDescription: `Ideas rentables de imprimibles con temática de insectos para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos de bichos y mariposas, estrategias.`,
 
-    primaryKeyword: 'ideas de imprimibles de insectos',
+    primaryKeyword: `ideas de imprimibles de insectos`,
     secondaryKeywords: [
-      'fichas temática insectos para vender',
+      `fichas temática insectos para vender`,
       'negocio imprimibles bichos',
-      'fichas actividades insectos para vendedores',
-      'vender imprimibles insectos en Etsy',
+      `fichas actividades insectos para vendedores`,
+      `vender imprimibles insectos en Etsy`,
     ],
     lsiKeywords: [
-      'actividades entomología para niños',
-      'fichas educativas temática bichos',
-      'imprimibles bichos rastreros para venta en línea',
+      `actividades entomología para niños`,
+      `fichas educativas temática bichos`,
+      `imprimibles bichos rastreros para venta en línea`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ La alineación con la educación científica otorga a los imprimibles de insecto
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Bichos para Vender en Línea',
+      title: `Sopas de Letras de Bichos para Vender en Línea`,
       description: `Las sopas de letras con vocabulario de insectos atraen a padres y vendedores que buscan desarrollar habilidades lingüísticas en torno a la entomología y los temas de naturaleza. Crea puzzles con nombres comunes de insectos, vocabulario de partes del cuerpo, terminología de hábitats y palabras de metamorfosis como crisálida y capullo. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras, facilitando la producción de versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más palabras para usuarios mayores. Las variaciones estacionales como sopas de letras de polinizadores primaverales, puzzles de insectos del jardín de verano y cuadrículas generales de vocabulario de entomología expanden tu catálogo de productos durante todo el año.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ La alineación con la educación científica otorga a los imprimibles de insecto
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Insectos en Etsy',
+      title: `Vender Imprimibles de Insectos en Etsy`,
       description: `Etsy recompensa la especificidad en los listados de imprimibles de insectos. En lugar de títulos genéricos como «Fichas de Bichos», apunta a palabras clave de cola larga como «fichas de conteo de mariposas preescolar» o «sopa de letras de insectos imprimible jardín de infantes». Utiliza las trece etiquetas con variaciones que combinen especies de insectos, tipo de habilidad y grupo de edad. Las imágenes de maqueta mostrando fichas de insectos impresas en entornos del mercado o naturaleza superan significativamente las vistas previas digitales planas. Programa nuevos listados para coincidir con los picos de demanda estacional de marzo a mayo para las unidades primaverales de mariposas y polinizadores y de junio a agosto para los temas de exploración de la naturaleza en verano. Ofrece tanto fichas individuales de insectos como paquetes temáticos por especie, ya que los compradores de Etsy a menudo comienzan con una compra individual de bajo costo y regresan por paquetes más grandes después de experimentar la calidad de tu producto.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades de Insectos en KDP',
+      title: `Publicar Libros de Actividades de Insectos en KDP`,
       description: `Amazon KDP funciona mejor para los imprimibles con temática de insectos cuando compilas fichas individuales en libros de actividades cohesivos que ofrecen variedad y valor. Un libro de actividades de insectos de cuarenta a sesenta páginas que combine conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo funciona bien en la categoría de libros de actividades para niños. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro de actividades de insectos para niños», «fichas de bichos preescolar» y términos específicos por especie como «libro para colorear de mariposas» o «actividades de mariquitas». Fija el precio entre cuatro y siete dólares para márgenes de regalías óptimos. Considera crear mini-libros enfocados en especies junto con libros generales de actividades de insectos para captar a los compradores que buscan bichos específicos que fascinan a sus hijos.`,
     },
     {
@@ -150,18 +150,18 @@ La alineación con la educación científica otorga a los imprimibles de insecto
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -170,12 +170,12 @@ La alineación con la educación científica otorga a los imprimibles de insecto
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -186,17 +186,17 @@ La alineación con la educación científica otorga a los imprimibles de insecto
     {
       pageType: 'idea',
       slug: 'aves-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Aves',
+      anchorText: `Ideas de Negocio de Imprimibles de Aves`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Mariposa — imagen educativa temática', caption: 'Mariposa' },
-    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Oruga — imagen educativa temática', caption: 'Oruga' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Ciempiés — imagen educativa temática', caption: 'Ciempiés' },
-    { src: '/image-library/insects%20and%20bugs/cricket.webp', alt: 'Grillo — imagen educativa temática', caption: 'Grillo' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Mariposa — imagen educativa temática`, caption: 'Mariposa' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: `Oruga — imagen educativa temática`, caption: 'Oruga' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Ciempiés — imagen educativa temática`, caption: 'Ciempiés' },
+    { src: `/image-library/insects%20and%20bugs/cricket.webp`, alt: `Grillo — imagen educativa temática`, caption: 'Grillo' },
   ],
 
 

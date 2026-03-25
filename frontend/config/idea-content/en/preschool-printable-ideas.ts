@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Preschool Printable Ideas to Sell — Niche Guide',
+    titleTag: `Preschool Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover preschool printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Pre-K product concepts and niche strategies for printable sellers and entrepreneurs.`,
 
     primaryKeyword: 'preschool printable ideas',
     secondaryKeywords: [
       'preschool worksheets to sell',
-      'pre-K printable business ideas',
-      'preschool activity sheets for sellers',
-      'sell preschool printables on Gumroad',
+      `pre-K printable business ideas`,
+      `preschool activity sheets for sellers`,
+      `sell preschool printables on Gumroad`,
     ],
     lsiKeywords: [
-      'early childhood educational worksheets',
-      'toddler learning activity pages',
-      'age 3-5 group printable resources',
+      `early childhood educational worksheets`,
+      `toddler learning activity pages`,
+      `age 3-5 group printable resources`,
     ],
   },
   hero: {
-    title: 'Preschool Printable Business Ideas for Sellers',
+    title: `Preschool Printable Business Ideas for Sellers`,
     description: `Preschool printables represent the single largest and most reliable niche in the entire educational printable marketplace because every child on the planet passes through the ages three to five developmental window, creating an enormous and perpetually renewing buyer base of parents, buyers, daycare providers, and homeschool families who actively seek structured learning materials for early education. The foundational skills that define preschool learning span an extraordinary breadth of developmental domains including shapes, colors, numbers one through twenty, uppercase and lowercase letter recognition, tracing, cutting, fine motor coordination, sorting, matching, counting, visual discrimination, pattern recognition, and early phonics awareness, giving printable sellers a massive catalog-building opportunity where each skill area supports dozens of distinct product concepts. Cross-curricular versatility makes preschool printables especially valuable because early learning concepts connect naturally to math through counting, number recognition, and simple addition with manipulatives, literacy through alphabet tracing, letter matching, and sight word introduction, science through sorting and categorizing animals, seasons, and natural objects, and art through coloring, guided drawing, and creative expression activities that develop the fine motor control children need for writing readiness. For printable sellers on Etsy, Amazon KDP, and Gumroad, the preschool niche combines unmatched year-round demand with the broadest possible buyer base because parents of three to five year olds represent every demographic, buyers at thousands of programs need affordable supplementary materials, daycare centers require fresh activity rotations on tight budgets, homeschool families building complete pre-kindergarten programs purchase extensively, and grandparents and family members buy educational printables as developmental gifts throughout every season and holiday. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable preschool printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The preschool printable niche occupies a uniquely dominant position in the educational marketplace because it serves the largest single age-group buyer segment with the most universally needed skill set. Unlike theme-based niches that depend on children having specific interests, every preschool-aged child needs to learn shapes, colors, numbers, letters, and foundational motor skills regardless of their individual preferences or personality. This universal need creates demand that transcends cultural backgrounds, geographic regions, and family circumstances, making preschool printables one of the most stable and predictable revenue generators available to printable entrepreneurs building sustainable businesses on any marketplace.
@@ -39,7 +39,7 @@ Pricing in the preschool niche follows standard educational printable convention
       appId: 'find-count',
     },
     {
-      title: 'Preschool Word Search Puzzles to Sell Online',
+      title: `Preschool Word Search Puzzles to Sell Online`,
       description: `Simple word search puzzles designed specifically for early readers attract parents and buyers searching for engaging vocabulary-building activities that introduce early learners to letter recognition and word formation in a game-like format that keeps children motivated and focused during literacy practice sessions. Create puzzles featuring three to four letter sight words, color names like red blue and green, animal names like cat dog and fish, and shape words like star and ball in small grids with large clear letters appropriate for developing eyes and emerging reading skills. The Word Search generator lets you control grid size to create age-appropriate versions with six to eight simple words in compact grids for preschool learners. These products sell consistently because parents value screen-free vocabulary activities and buyers use them for literacy centers and morning work routines.`,
       appId: 'wordsearch',
     },
@@ -54,12 +54,12 @@ Pricing in the preschool niche follows standard educational printable convention
       appId: 'addition',
     },
     {
-      title: 'Preschool Coloring Pages for Etsy and KDP Sellers',
+      title: `Preschool Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages with bold outlines and simple familiar shapes are the highest-volume entry product for preschool printable shops because coloring develops fine motor control, hand-eye coordination, and pencil grip strength that children need for writing readiness while engaging virtually every child aged three to five regardless of their specific developmental stage or learning preferences. The Coloring Page generator creates age-appropriate outlines featuring familiar objects that early learners love including animals, vehicles, food items, nature scenes, and everyday household objects with thick lines sized for small hands still developing precision control. For Etsy, sell curated sets of ten to fifteen pages grouped by theme. For KDP, compile thirty to fifty coloring pages into preschool activity books positioned as educational gifts and quiet time entertainment. Add simple learning elements like object name labels, counting prompts, or color-by-number instructions to differentiate from generic coloring books.`,
       appId: 'coloring',
     },
     {
-      title: 'Preschool Bingo Cards for Group Activities',
+      title: `Preschool Bingo Cards for Group Activities`,
       description: `Bingo cards designed around preschool concepts serve organizers running circle time activities and parents seeking interactive learning games that reinforce shape recognition, color identification, number awareness, and animal vocabulary more effectively than passive worksheet completion alone in group and family learning settings. The Bingo generator creates unique card variations ensuring no two cards are identical for group or playgroup sessions with multiple children. Sell group sets of twenty to twenty-five cards with caller sheets and vocabulary reference guides included. Create themed sets covering shapes bingo where children match geometric forms, color bingo using color swatches and named colors, animal bingo featuring familiar creatures, and number bingo with dot patterns matching numerals. Bingo products command strong pricing because the interactive group format adds perceived value beyond individual worksheet products.`,
       appId: 'bingo',
     },
@@ -88,17 +88,17 @@ Pricing in the preschool niche follows standard educational printable convention
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Preschool Printables on Etsy',
+      title: `Selling Preschool Printables on Etsy`,
       description: `Etsy is the dominant marketplace for preschool printable sales because the massive parent buyer base actively searches terms like "preschool worksheets," "pre-K activities," "toddler learning printables," and "kindergarten readiness worksheets" throughout every month of the year with no seasonal dropoff in demand. Use all thirteen tags with variations combining skill areas, age descriptors, and activity types: "preschool counting worksheets ages 3-5," "pre-K letter tracing activities," and "toddler shape matching printable" target specific buyer searches far more effectively than broad generic tags. Bundle products by skill domain to increase average order value: a counting skills pack, a letters and alphabet pack, and a shapes and colors pack each serve distinct buyer needs while encouraging multiple purchases from the same shop. Back-to-school season in August and September creates the single largest demand surge as parents prepare children for preschool enrollment, but new parents continuously enter the pre-K purchasing stage throughout every month, maintaining strong baseline demand year-round that makes preschool one of the most reliable printable niches on the entire Etsy platform.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Preschool Activity Books on KDP',
+      title: `Publishing Preschool Activity Books on KDP`,
       description: `Amazon KDP excels for preschool printables because parents and grandparents naturally add activity books to their Amazon carts alongside children's picture books, educational toys, school supplies, and learning materials, creating cross-selling opportunities that no other printable marketplace can match for the early education category. Compile individual preschool worksheets into cohesive forty to sixty page activity books combining counting, tracing, coloring, matching, and pattern activities into comprehensive preschool readiness workbooks. Use KDP keyword fields strategically with terms like "preschool activity book ages 3-5," "pre-K worksheets for toddlers," and skill-specific phrases like "number tracing book preschool" or "letter recognition activities." Position your books as gifts that grandparents, aunts, uncles, and family friends purchase for birthdays, holidays, and educational milestones. The gift market is exceptionally strong for preschool activity books because family members want to give meaningful developmental presents rather than disposable toys, and educational workbooks satisfy that desire perfectly at the four to eight dollar price range.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Preschool Resources for Gumroad',
+      title: `Creating Preschool Resources for Gumroad`,
       description: `Buyers in the preschool category are buyers at private preschool programs, church-based early childhood centers, Head Start facilities, and community preschools searching for affordable supplementary materials that complement their existing program without requiring extensive preparation or customization before daily use. Preschool printables on Gumroad perform best when packaged as ready-to-use ready-to-use solutions: morning work packets with five daily activities, learning center rotations covering shapes, colors, and numbers, or assessment-ready skill worksheets aligned to common preschool developmental milestones and early learning standards. Include learning objectives and skill descriptions so buyers can justify purchases to program directors and demonstrate standards alignment during parent conferences and administrative reviews. Gumroad's bundling feature lets you offer individual skill-focused products and discounted preschool mega-bundles simultaneously, capturing both budget-conscious buyers buying single items and program directors investing in comprehensive resource collections for their entire teaching staff.`,
     },
     {
@@ -143,32 +143,32 @@ Pricing in the preschool niche follows standard educational printable convention
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -178,17 +178,17 @@ Pricing in the preschool niche follows standard educational printable convention
     {
       pageType: 'idea',
       slug: 'underwater-printable-ideas',
-      anchorText: 'Underwater Printable Business Ideas',
+      anchorText: `Underwater Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Airplane — themed educational image', caption: 'Airplane' },
-    { src: '/image-library/toys/baby.webp', alt: 'Baby — themed educational image', caption: 'Baby' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Baby Girl — themed educational image', caption: 'Baby Girl' },
-    { src: '/image-library/toys/ball.webp', alt: 'Ball — themed educational image', caption: 'Ball' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Balloon — themed educational image', caption: 'Balloon' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Airplane — themed educational image`, caption: 'Airplane' },
+    { src: '/image-library/toys/baby.webp', alt: `Baby — themed educational image`, caption: 'Baby' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Baby Girl — themed educational image`, caption: 'Baby Girl' },
+    { src: '/image-library/toys/ball.webp', alt: `Ball — themed educational image`, caption: 'Ball' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Balloon — themed educational image`, caption: 'Balloon' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicycle — themed educational image`, caption: 'Bicycle' },
   ],
 
 

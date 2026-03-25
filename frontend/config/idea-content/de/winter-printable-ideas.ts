@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'winter-druckvorlagen-ideen zum verkaufen',
+    primaryKeyword: `winter-druckvorlagen-ideen zum verkaufen`,
     secondaryKeywords: [
-      'Winter-Arbeitsblätter auf Etsy erstellen',
-      'Schnee-Eis-Druckvorlagen auf KDP verkaufen',
-      'Kaltwetter-Aktivitätsblätter auf Gumroad anbieten',
-      'Schneemann-Pinguin-Lernmaterialien für Shops',
+      `Winter-Arbeitsblätter auf Etsy erstellen`,
+      `Schnee-Eis-Druckvorlagen auf KDP verkaufen`,
+      `Kaltwetter-Aktivitätsblätter auf Gumroad anbieten`,
+      `Schneemann-Pinguin-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'November-Februar-Nachfrage Druckvorlagen',
-      'Kaltwetter-Nische Arbeitsblätter Etsy-Markt',
-      'Winter-Saison Lernmaterialien Verkauf',
+      `November-Februar-Nachfrage Druckvorlagen`,
+      `Kaltwetter-Nische Arbeitsblätter Etsy-Markt`,
+      `Winter-Saison Lernmaterialien Verkauf`,
     ],
     titleTag: `Winter-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden`,
     metaDescription: `Winter-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Kaltwetter-Produktkonzepte mit Nachfrage von November bis Februar. Nischenstrategien Arbeitsblatt-Verkäufer.`,
   },
   hero: {
-    title: 'Winter-Druckvorlagen-Geschäftsideen für Verkäufer',
+    title: `Winter-Druckvorlagen-Geschäftsideen für Verkäufer`,
     description: `Der Winter eröffnet ein breites Verkaufsfenster von November bis Februar, da Käufer nach Produktthemen für die Zeit nach den Feiertagen suchen, Eltern Lernaktivitäten für drinnen während der kalten Monate benötigen und Homeschool-Familien saisonale Abwechslung jenseits des Dezember-Feiertagstrubels wünschen. Die Winter-Nische bietet eine reiche Vielfalt an Unterthemen wie Schneeflocken, Schneemänner, Pinguine, Fäustlinge, Iglus, Eisbären, Schlitten, heißen Kakao, Eiszapfen und Frost — eine visuell unverwechselbare Bildsprache, die sich deutlich von weihnachtsspezifischen Produkten abhebt. Kindertagesstätten und Nachmittagsbetreuungen brauchen strukturierte Indoor-Aktivitäten, wenn das Spielen im Freien eingeschränkt ist, was während der kältesten Monate für stetige Nachfrage sorgt. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad stellt der Winter eine konfessionsübergreifende saisonale Nische mit vorhersehbarer jährlicher Nachfrage und gemütlicher Kaltwetter-Bildsprache dar, die bei Käufern unterschiedlichster Hintergründe Anklang findet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, um Ihnen beim Aufbau einer profitablen Winter-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools zu helfen.`,
   },
   marketOverview: `Die Winter-Druckvorlagen-Nische nimmt eine einzigartig vorteilhafte Position im saisonalen Verkaufskalender ein, da sie über ein viermonatiges Zeitfenster hinweg anhaltende Nachfrage liefert — ohne den intensiven Wettbewerb, der sich um bestimmte Feiertage wie Weihnachten oder Valentinstag konzentriert. Käufer kehren nach den Winterferien im Januar zurück und brauchen frische Produktthemen, die das Engagement der Nutzer in der langen Strecke bis zum Frühling aufrechterhalten. Winter-Bildmotive bieten eine natürliche, marktfreundliche Option, die in jeder Schulumgebung funktioniert, unabhängig von kulturellen oder religiösen Überlegungen. Eltern, die Wochen kalten Wetters und eingeschränkter Outdoor-Aktivitäten bewältigen müssen, suchen aktiv nach lehrreichen Indoor-Aktivitäten, die Kinder beim Lernen und bei Laune halten — wodurch Winter-Arbeitsblätter eher ein praktischer Kauf als ein saisonaler Luxus sind.
@@ -46,12 +46,12 @@ Der Wettbewerbsvorteil bei Winter-Druckvorlagen ergibt sich aus visueller Qualit
       appId: 'find-count',
     },
     {
-      title: 'Winter-Wortsuchrätsel zum Online-Verkauf',
+      title: `Winter-Wortsuchrätsel zum Online-Verkauf`,
       description: `Kaltwetter-Vokabular-Wortsuchrätsel ziehen Käufer an, die Januar- und Februar-Gruppenaktivitäten planen, sowie Eltern, die lehrreiche Indoor-Unterhaltung während der Wintermonate suchen. Erstellen Sie Rätsel mit winterspezifischem Wortschatz wie Schneeflocke, Fäustling, Eiszapfen, Pinguin, Iglu, Frost und Schneesturm zusammen mit allgemeinen Kaltwetter-Aktivitätsbegriffen. Der Wortsuchrätsel-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Winterbegriffen für ältere Nutzer an. Variationen wie arktisches Tiervokabular, Winterkleidungswörter und Kaltwetter-Naturwissenschaftsterminologie erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der saisonalen Winter-Nische zu erfassen.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Winter-Zuordnungsaktivitäten für Bildungsshops',
+      title: `Winter-Zuordnungsaktivitäten für Bildungsshops`,
       description: `Zuordnungsarbeitsblätter mit Winterthemen funktionieren über mehrere Kompetenzbereiche hinweg und machen sie zu vielseitigen Produkten, die das breitestmögliche Kaltwetter-Käuferpublikum ansprechen. Erstellen Sie Sets, in denen Kinder Fäustlinge ihren Paaren zuordnen, arktische Tiere wie Pinguine mit ihren Lebensräumen und Eisbären mit ihrer Nahrung verbinden oder Winterkleidungsstücke den passenden Wetterbedingungen zuordnen. Der Zuordnungs-Generator erzeugt saubere, professionelle Layouts, die auf Standardpapier schön gedruckt werden. Diese Aktivitäten sind besonders attraktiv für Vorschul- und Kindergartenlehrkräfte, die strukturierte Indoor-Aktivitäten während der kalten Monate planen, wenn Outdoor-Spiel eingeschränkt ist. Sets von acht bis zwölf Zuordnungsseiten lassen sich effektiv im Preisbereich von fünf bis acht Euro bündeln, und das gemütliche Winterthema treibt Käufe während des gesamten viermonatigen Verkaufsfensters von November bis Februar an.`,
       appId: 'matching',
     },
@@ -61,12 +61,12 @@ Der Wettbewerbsvorteil bei Winter-Druckvorlagen ergibt sich aus visueller Qualit
       appId: 'addition',
     },
     {
-      title: 'Winter-Ausmalbilder für Etsy- und KDP-Verkäufer',
+      title: `Winter-Ausmalbilder für Etsy- und KDP-Verkäufer`,
       description: `Ausmalbilder sind ein volumenstarkes Einstiegsprodukt für Winter-Druckvorlagen-Shops, weil Kaltwetter-Ausmalen praktisch jede Familie mit kleinen Kindern anspricht, die während der langen Wintermonate Indoor-Aktivitäten sucht. Der Ausmalbilder-Generator erstellt detaillierte Umrisse von Schneemännern, Pinguinszenen, verschneiten Landschaften, gemütlichen Winter-Innenraumszenen, rodelnden Kindern und frostbedeckten Fenstern. Für Etsy verkaufen Sie kuratierte Sets von zehn bis fünfzehn Seiten, gruppiert nach Unterthemen wie arktische Tiere oder Wintersportszenen. Für KDP kompilieren Sie dreißig bis fünfzig Ausmalseiten zu Winter-Aktivitätsbüchern, positioniert als Schneetag-Unterhaltung oder Kaltwetter-Geschenke. Fügen Sie lehrreiche Elemente wie Wintervokabelbeschriftungen, Zählaufforderungen oder Buchstabenübungen neben den Ausmalbildern hinzu, um sich von rein dekorativen Optionen abzuheben und bildungsorientierte Käufer anzusprechen.`,
       appId: 'coloring',
     },
     {
-      title: 'Winter-Bingo-Karten für Indoor-Gruppenaktivitäten',
+      title: `Winter-Bingo-Karten für Indoor-Gruppenaktivitäten`,
       description: `Winter-Bingo-Karten dienen Käufern, die Indoor-Pausen-Aktivitäten durchführen, und Eltern, die Schneetag-Unterhaltung und gemütliche Familientreffen während der kältesten Monate organisieren. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Winter-Vokabelliste, sodass keine zwei Karten für das Gruppenspiel identisch sind. Verkaufen Sie Gruppensätze von fünfundzwanzig bis dreißig Karten mit einem Ausrufblatt und einer Winter-Vokabel-Referenzanleitung. Für den Familienmarkt erstellen Sie Bingo-Sets mit Schneeflocken-Symbolen, arktischen Tiercharakteren und Kaltwetter-Vokabular, die Gruppen bei Indoor-Treffen und Schneetag-Feiern spielen können. Bingo-Produkte erzeugen starke saisonale Nachfrage, weil jedes Shop strukturierte Indoor-Aktivitäten im Winter braucht und digitale Bingo-Karten Minuten vor der Indoor-Pause gekauft und ausgedruckt werden können.`,
       appId: 'bingo',
     },
@@ -95,12 +95,12 @@ Der Wettbewerbsvorteil bei Winter-Druckvorlagen ergibt sich aus visueller Qualit
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Winter-Druckvorlagen auf Etsy verkaufen',
+      title: `Winter-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühzeitige Veröffentlichung und Keyword-Spezifität für Winter-Druckvorlagen-Listings, und die verlängerte Kaltwetter-Einkaufssaison erzeugt anhaltenden Traffic für lehrreiche digitale Downloads von November bis Februar. Veröffentlichen Sie Ihre Winter-Listings bis Ende September oder Anfang Oktober, damit Etsys Suchalgorithmen Zeit haben, Ihre Produkte vor dem November-Nachfrageanstieg zu indexieren und zu ranken. Verwenden Sie alle dreizehn Tags mit Variationen, die Winter-Unterthemen, Kompetenztypen und Altersgruppen kombinieren: „Winter-Zählarbeitsblätter Vorschule", „Schneeflocken-Wortsuchrätsel Kindergarten" und „Pinguin-Ausmalbilder Kleinkind" zielen auf spezifische Käufersuchen weit effektiver ab als breite Tags wie „Winter-Arbeitsblätter". Positionieren Sie Ihre Produkte als konfessionsübergreifende saisonale Alternativen und weisen Sie ausdrücklich darauf hin, dass sie für alle Shop funktionieren, unabhängig von Feiertagstraditionen. Listing-Bilder, die gedruckte Winter-Arbeitsblätter mit gemütlichem saisonalem Styling und Kaltwetter-Requisiten zeigen, übertreffen flache digitale Vorschauen und fangen die saisonale Stimmung ein, die den Winter-Traffic antreibt.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Winter-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Winter-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP eignet sich hervorragend für Winter-Druckvorlagen, weil Eltern und Geschenkkäufer während der kalten Monate natürlich nach Indoor-Aktivitätslösungen suchen und Aktivitätsbücher neben Winterkleidung, Schneeausrüstung und Indoor-Unterhaltung in ihren Amazon-Warenkorb legen. Kompilieren Sie einzelne Winter-Arbeitsblätter zu zusammenhängenden Aktivitätsbüchern mit vierzig bis sechzig Seiten, die Zählen, Ausmalen, Zuordnen, Wortsuchrätsel und Zeichenaktivitäten rund um Kaltwetter-Themen kombinieren. Nutzen Sie die KDP-Schlüsselwortfelder strategisch: Fügen Sie „Winter-Aktivitätsbuch für Kinder", „Schneetag-Arbeitsblätter Vorschule" und Unterthemenbegriffe wie „Pinguin-Malbuch" oder „Schneemann-Aktivitäten für Kinder" ein. Preisen Sie zwischen vier und acht Euro für optimale Tantiemenmargen und positionieren Sie Ihre Bücher als Schneetag-Unterhaltung, Indoor-Wetterlösungen oder Januar-Februar-Produktressourcen. Veröffentlichen Sie bis Anfang Oktober, um sicherzustellen, dass Ihre Bücher in den Suchergebnissen indexiert und verfügbar sind, bevor die November-Kaufsaison beginnt, und erwägen Sie die Erstellung mehrerer Bücher für verschiedene Altersgruppen, um während der Wintermonate unterschiedliche Suchanfragen zu erfassen.`,
     },
     {
@@ -149,13 +149,13 @@ Der Wettbewerbsvorteil bei Winter-Druckvorlagen ergibt sich aus visueller Qualit
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -169,33 +169,33 @@ Der Wettbewerbsvorteil bei Winter-Druckvorlagen ergibt sich aus visueller Qualit
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'weihnachten-druckvorlagen-ideen',
-      anchorText: 'Weihnachten-Druckvorlagen-Geschäftsideen',
+      slug: `weihnachten-druckvorlagen-ideen`,
+      anchorText: `Weihnachten-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/winter/boots.webp', alt: 'Stiefel — thematisches Lernbild', caption: 'Stiefel' },
-    { src: '/image-library/winter/cabin.webp', alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
-    { src: '/image-library/winter/coat.webp', alt: 'Mantel — thematisches Lernbild', caption: 'Mantel' },
-    { src: '/image-library/winter/cocoa.webp', alt: 'Heiße Schokolade — thematisches Lernbild', caption: 'Heiße Schokolade' },
-    { src: '/image-library/winter/earmuffs.webp', alt: 'Ohrenschützer — thematisches Lernbild', caption: 'Ohrenschützer' },
-    { src: '/image-library/winter/evergreen.webp', alt: 'Immergrün — thematisches Lernbild', caption: 'Immergrün' },
+    { src: `/image-library/winter/boots.webp`, alt: `Stiefel — thematisches Lernbild`, caption: 'Stiefel' },
+    { src: `/image-library/winter/cabin.webp`, alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
+    { src: `/image-library/winter/coat.webp`, alt: `Mantel — thematisches Lernbild`, caption: 'Mantel' },
+    { src: `/image-library/winter/cocoa.webp`, alt: `Heiße Schokolade — thematisches Lernbild`, caption: 'Heiße Schokolade' },
+    { src: `/image-library/winter/earmuffs.webp`, alt: `Ohrenschützer — thematisches Lernbild`, caption: 'Ohrenschützer' },
+    { src: `/image-library/winter/evergreen.webp`, alt: `Immergrün — thematisches Lernbild`, caption: 'Immergrün' },
   ],
 
 

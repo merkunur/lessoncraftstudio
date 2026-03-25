@@ -4,9 +4,9 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'gerador fichas eu vejo',
     secondaryKeywords: [
-      'criador fichas encontra e conta uso comercial',
-      'gerador fichas objetos escondidos para Etsy e KDP',
-      'ferramenta fichas eu vejo identificação de letras',
+      `criador fichas encontra e conta uso comercial`,
+      `gerador fichas objetos escondidos para Etsy e KDP`,
+      `ferramenta fichas eu vejo identificação de letras`,
       `criar fichas encontra e conta imprimíveis para vendedores`,
     ],
     lsiKeywords: [
@@ -19,16 +19,16 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Gerador de Fichas Encontra e Conta',
+    title: `Gerador de Fichas Encontra e Conta`,
     tagline: `Gerador eu vejo de duplo modo com modo Objeto Escondido (grelha de imagens dispersas com até 4 objetos-alvo) e modo Identificação de Letras (grelha de alfabeto específica por idioma com letras acentuadas), quatro tipos de tarefa combináveis (circular, quadrado, riscar, contar) atribuíveis por objeto-alvo, etiquetas de nomes de imagens localizadas em 11 idiomas via o sistema de Vocabulário de Imagens, densidade de grelha configurável de 5×5 a 10×10, gabaritos autogerados com anotações vermelhas de círculo/quadrado/cruz e contagens de quantidade, e fichas sensíveis ao idioma onde as etiquetas de imagens mudam conforme o idioma selecionado`,
-    description: `Crie fichas profissionais de eu vejo e encontra e conta onde os usuários procuram numa cena de imagens dispersas para encontrar, circular, riscar ou contar objetos específicos. O gerador oferece dois modos de atividade distintos numa só ferramenta. O modo Objeto Escondido dispersa imagens numa grelha configurável (5–10 linhas × 5–10 colunas, predefinido 6×6) e permite-lhe atribuir até 4 objetos-alvo com tipos de tarefa individuais — circular, enquadrar com quadrado, riscar ou contar quantos aparecem. Cada célula exibe uma imagem com um tamanho máximo de 80px. Os objetos-alvo são distribuídos aleatoriamente com 1–5 instâncias cada, e as células restantes são preenchidas com imagens distratoras do tema. O modo Identificação de Letras mostra uma grelha de alfabeto específica por idioma com letras acentuadas — inglês A–Z (26 letras), alemão A–Z + ÄÖÜ (29 letras), espanhol A–Z + Ñ (27 letras), sueco/finlandês A–Z + ÅÄÖ (29 letras), dinamarquês/norueguês A–Z + ÆØÅ (29 letras) — apresentada em 7 colunas com ajuste automático de linhas. Os usuários selecionam uma letra e o gerador cria uma cena eu vejo usando imagens que começam com essa letra no idioma selecionado. O Gerador de Encontra e Conta é sensível ao idioma: as etiquetas de nomes de imagens na ficha são exibidas no idioma selecionado através do sistema de Vocabulário de Imagens. «Cat» exibe-se como «Katze» em alemão, «Chat» em francês, «Gato» em português — e as primeiras letras em Identificação de Letras atualizam-se correspondentemente. O nível Comercial inclui apenas inglês; o Acesso Completo desbloqueia os 11 idiomas para etiquetas localizadas. O sistema de duplo canvas gera tanto um separador de ficha como um separador de gabarito simultaneamente. O gabarito reproduz o layout exato da ficha e sobrepõe anotações visuais vermelhas: círculos à volta de objetos com tarefa de circular, quadrados à volta de objetos com tarefa de quadrado, cruzes sobre objetos com tarefa de riscar e contagens de quantidade para objetos com tarefa de contar. Um cabeçalho autogerado mostra «Eu Vejo» ou «Identificação de Letras» (conforme o modo) com uma moldura azul (#2196F3), acento interior amarelo e título e instruções localizados nas fontes Fredoka e Quicksand nos 11 idiomas suportados. A aplicação autogera ao carregar a página com o tema de animais, 4 imagens aleatórias, tipos de tarefa aleatórios e uma grelha de 6×6 para uma pré-visualização instantânea. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas. Aplique temas de fundo e moldura com controlos de opacidade independentes. Adicione texto personalizado com 7 opções de fonte e contorno de texto de 0 a 10. Ative campos de nome e data para identificação do usuário. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Predefinido (800×1000), Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. O teste grátis inclui todas as funcionalidades com uma marca d'água nos downloads. Adquira uma licença para remover a marca d'água e vender comercialmente.`,
+    description: `Crie fichas profissionais de eu vejo e encontra e conta onde os usuários procuram numa cena de imagens dispersas para encontrar, circular, riscar ou contar objetos específicos. O gerador oferece dois modos de atividade distintos numa só ferramenta. O modo Objeto Escondido dispersa imagens numa grelha configurável (5–10 linhas × 5–10 colunas, predefinido 6×6) e permite-lhe atribuir até 4 objetos-alvo com tipos de tarefa individuais — circular, enquadrar com quadrado, riscar ou contar quantos aparecem. Cada célula exibe uma imagem com um tamanho máximo de 80px. Os objetos-alvo são distribuídos aleatoriamente com 1–5 instâncias cada, e as células restantes são preenchidas com imagens distratoras do tema. O modo Identificação de Letras mostra uma grelha de alfabeto específica por idioma com letras acentuadas — inglês A–Z (26 letras), alemão A–Z + ÄÖÜ (29 letras), espanhol A–Z + Ñ (27 letras), sueco/finlandês A–Z + ÅÄÖ (29 letras), dinamarquês/norueguês A–Z + ÆØÅ (29 letras) — apresentada em 7 colunas com ajuste automático de linhas. Os usuários selecionam uma letra e o gerador cria uma cena eu vejo usando imagens que começam com essa letra no idioma selecionado. O Gerador de Encontra e Conta é sensível ao idioma: as etiquetas de nomes de imagens na ficha são exibidas no idioma selecionado através do sistema de Vocabulário de Imagens. «Cat» exibe-se como «Katze» em alemão, «Chat» em francês, «Gato» em português — e as primeiras letras em Identificação de Letras atualizam-se correspondentemente. O nível Comercial inclui apenas inglês; o Acesso Completo desbloqueia os 11 idiomas para etiquetas localizadas. O sistema de duplo canvas gera tanto um separador de ficha como um separador de gabarito simultaneamente. O gabarito reproduz o layout exato da ficha e sobrepõe anotações visuais vermelhas: círculos à volta de objetos com tarefa de circular, quadrados à volta de objetos com tarefa de quadrado, cruzes sobre objetos com tarefa de riscar e contagens de quantidade para objetos com tarefa de contar. Um cabeçalho autogerado mostra «Eu Vejo» ou «Identificação de Letras» (conforme o modo) com uma moldura azul (#2196F3), acento interior amarelo e título e instruções localizados nas fontes Fredoka e Quicksand nos 11 idiomas suportados. A aplicação autogera ao carregar a página com o tema de animais, 4 imagens aleatórias, tipos de tarefa aleatórios e uma grelha de 6×6 para uma pré-visualização instantânea. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas. Aplique temas de fundo e moldura com controlos de opacidade independentes. Adicione texto personalizado com 7 opções de fonte e contorno de texto de 0 a 10. Ative campos de nome e data para identificação do usuário. Exporte PDF e JPEG prontos para impressão a 300 DPI (multiplicador 6×) em Predefinido (800×1000), Carta, A4, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. O teste grátis inclui todas as funcionalidades com uma marca d`água nos downloads. Adquira uma licença para remover a marca d`água e vender comercialmente.`,
   },
 
   tutorial: {
-    title: 'Como Criar Fichas Eu Vejo em 8 Passos',
+    title: `Como Criar Fichas Eu Vejo em 8 Passos`,
     steps: [
       {
-        title: 'Abra o Gerador de Fichas Encontra e Conta',
+        title: `Abra o Gerador de Fichas Encontra e Conta`,
         description: `Clique em «Teste Grátis Agora» para abrir o gerador de fichas eu vejo no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de definições à esquerda e um canvas de duplo separador à direita — um separador para a ficha e outro para o gabarito. A aplicação autogera uma ficha eu vejo completa ao carregar a página usando o tema de animais, 4 imagens selecionadas aleatoriamente, tipos de tarefa atribuídos aleatoriamente e uma grelha de 6×6 — dando-lhe uma pré-visualização instantânea do que a ferramenta produz. Sem criar conta, sem descarregar software, sem instalação necessária.`,
       },
       {
@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: `Abra o painel de Configuração de Página e escolha um tamanho de página: Predefinido (800×1000), Carta, A4, Quadrado (1200×1200) ou introduza uma dimensão personalizada. Selecione uma cor de fundo de página com o seletor de cor. Escolha um tema de fundo e ajuste a sua opacidade, depois selecione um tema de moldura com o seu próprio controlo de opacidade independente. Estas opções de layout enquadram a sua ficha eu vejo antes de configurar o modo de atividade ou o conteúdo.`,
       },
       {
-        title: 'Escolha o Seu Modo de Atividade',
+        title: `Escolha o Seu Modo de Atividade`,
         description: `Selecione entre dois modos. O modo Objeto Escondido (predefinido) cria cenas clássicas de eu vejo — imagens dispersas numa grelha configurável onde os usuários procuram objetos específicos. O modo Identificação de Letras ativa uma grelha de alfabeto específica por idioma com letras acentuadas e gera cenas eu vejo usando imagens que começam com a letra selecionada. O cabeçalho autogerado muda automaticamente entre «Eu Vejo» e «Identificação de Letras» (localizado nos 11 idiomas) conforme a sua seleção.`,
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {
         description: `Ajuste as dimensões da grelha usando linhas (5–10) e colunas (5–10) — o valor predefinido é 6×6 (36 células). Uma grelha de 5×5 (25 células) cria fichas mais fáceis com imagens maiores para usuários mais novos. Uma grelha de 10×10 (100 células) cria cenas densas e desafiantes para usuários avançados. Cada célula exibe uma imagem com um tamanho máximo de 80px, com uma redução de tamanho de 5% no modo Identificação de Letras. O tamanho da grelha é o seu controlo principal de dificuldade — grelhas menores para produtos de pré-escolar, maiores para ensino primário e além.`,
       },
       {
-        title: 'Selecione Imagens-Alvo e Atribua Tipos de Tarefa',
+        title: `Selecione Imagens-Alvo e Atribua Tipos de Tarefa`,
         description: `No modo Objeto Escondido, abra o painel de Biblioteca de Imagens e escolha até 4 objetos-alvo das 104 coleções temáticas com mais de 3100 ilustrações. Para cada imagem selecionada, atribua um tipo de tarefa do menu suspenso: circular (desenhar um círculo à volta), quadrado (enquadrar com um quadrado), riscar (riscar o objeto) ou contar (contar quantos aparecem). Combine os quatro tipos de tarefa numa ficha para desafios cognitivos variados, ou use um só tipo para prática focada. No modo Identificação de Letras, clique numa letra da grelha do alfabeto para preencher automaticamente imagens-alvo e distratoras.`,
       },
       {
@@ -56,7 +56,7 @@ const content: ToolContent = {
         description: `Clique no separador Gabarito para ver as anotações autogeradas. O gabarito reproduz o layout exato da ficha e sobrepõe anotações visuais vermelhas: círculos à volta de objetos com tarefa de circular, quadrados à volta de objetos com tarefa de quadrado, cruzes sobre objetos com tarefa de riscar e contagens de quantidade para objetos com tarefa de contar. Alterne entre os separadores de Ficha e Gabarito para comparar. O gabarito é gerado simultaneamente com a ficha — sem marcação manual, sem criar um ficheiro separado, sem possibilidade de respostas que não correspondam.`,
       },
       {
-        title: 'Descarregue os Quatro Ficheiros',
+        title: `Descarregue os Quatro Ficheiros`,
         description: `Ative escala de cinzentos para versões que poupam tinta, ideais para impressão em volume e interiores KDP. Descarregue os quatro ficheiros numa só sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — todos renderizados a 300 DPI (multiplicador 6×). Cada separador tem o seu próprio par de botões de descarga. Todas as exportações estão prontas para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de recursos Gumroad sem necessidade de pós-processamento. Mude de tema, ajuste a densidade da grelha, altere os tipos de tarefa e gere novamente para criar variedade rápida nas 104 coleções temáticas.`,
       },
     ],
@@ -84,14 +84,14 @@ const content: ToolContent = {
       description: `Crie fichas eu vejo de contagem prontas para loja com campos de nome/data e gabaritos impressos para estações de autocorreção. O tipo de tarefa contar pede aos usuários escrever quantas instâncias de cada objeto encontram — combinando busca visual com prática de aritmética numa só ficha. Crie conjuntos alinhados com o catálogo de produtos: contagem de animais da quinta para ciências, identificação de ajudantes comunitários para estudos sociais, contagem de grupos de alimentos para nutrição e contagem de objetos sazonais para unidades de festividades. Cada ficha exporta-se com o seu gabarito autogerado, eliminando o tempo de preparação do vendedor para criar páginas de soluções separadas.`,
     },
     {
-      title: 'Packs Multiformato de Busca e Encontra',
+      title: `Packs Multiformato de Busca e Encontra`,
       description: `Combine fichas eu vejo com puzzles de objetos escondidos, atividades de caça-palavras, desafios de palavras cruzadas e fichas de caça ao tesouro usando temas coordenados em múltiplos geradores. Eu vejo desenvolve rastreamento visual, identificação de objetos e competências de contagem. A caça-palavras constrói reconhecimento de letras e vocabulário. As palavras cruzadas desafiam ortografia e conhecimento de definições. Cada formato visa uma competência cognitiva diferente enquanto mantém consistência temática. Os packs multiformato obtêm preços premium porque pais e vendedores pagam mais por coleções completas de busca e encontra do que por packs de atividade individual.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Loja de Atividades Eu Vejo Temáticas na Etsy',
+      title: `Loja de Atividades Eu Vejo Temáticas na Etsy`,
       description: `Abra uma loja Etsy especializada em packs de atividades eu vejo organizados por tema usando as 104 coleções de imagens. Eu vejo de animais, eu vejo de festividades, eu vejo de quinta, eu vejo do oceano — cada tema torna-se numa listagem separada com tipos de tarefa combinados (circular, quadrado, riscar, contar) e gabaritos autogerados. Quatro tipos de tarefa de cada tema quadruplicam a variedade de fichas dentro de um só pack. A distribuição aleatória de imagens significa que cada geração produz um layout único, por isso criar mais de 20 fichas únicas por tema leva minutos. Defina packs temáticos individuais a $3–$5 por 15–20 fichas com gabaritos e packs premium multi-tema a $7–$12 para coleções de dificuldade progressiva.`,
       platform: 'Etsy',
     },
@@ -101,17 +101,17 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Packs de Atividades Eu Vejo para loja no Gumroad',
+      title: `Packs de Atividades Eu Vejo para loja no Gumroad`,
       description: `Carregue packs de atividades eu vejo no Gumroad com campos de nome/data e gabaritos autogerados como pontos de venda chave. Os vendedores que procuram atividades de contagem e observação valorizam fichas que chegam prontas para loja com soluções incluídas. Crie conjuntos alinhados com o catálogo de produtos: eu vejo de animais da quinta para ciências, eu vejo de ajudantes comunitários para estudos sociais, eu vejo de grupos de alimentos para nutrição e eu vejo sazonal para unidades de festividades. Os quatro tipos de tarefa permitem-lhe criar versões diferenciadas — fichas só com circular para usuários mais novos e fichas com tarefas combinadas e contagem para usuários avançados. Os packs de Identificação de Letras servem o mercado de fonética e consciência alfabética.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Funil de Tráfego de Fichas Eu Vejo no Pinterest',
+      title: `Funil de Tráfego de Fichas Eu Vejo no Pinterest`,
       description: `As fichas eu vejo criam pins de Pinterest visualmente impactantes — grelhas de imagens dispersas coloridas com o cabeçalho com moldura azul «Eu Vejo» criam conteúdo educativo imediatamente reconhecível em que pais e vendedores clicam. Publique fichas de amostra mostrando ambos os modos: Objeto Escondido com tipos de tarefa combinados e Identificação de Letras com grelhas de alfabeto. Crie séries de pins separadas para «fichas eu vejo para crianças», «atividades imprimíveis de encontra e conta» e «fichas de identificação de letras do alfabeto». As imagens de pré-visualização do gabarito com anotações vermelhas demonstram qualidade profissional. Ligue cada pin às suas listagens da Etsy ou Gumroad para conversão direta.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Atividades Eu Vejo no Gumroad',
+      title: `Kit Completo de Atividades Eu Vejo no Gumroad`,
       description: `Reúna fichas eu vejo dos 104 temas, ambos os modos de atividade e os quatro tipos de tarefa num kit completo no Gumroad. Inclua mais de 300 fichas abrangendo o modo Objeto Escondido com cada combinação de tipo de tarefa e o modo Identificação de Letras com cobertura completa A–Z em múltiplos idiomas. Cada ficha inclui o seu gabarito autogerado com anotações vermelhas, duplicando o número de ficheiros para mais de 600 ficheiros totais. As etiquetas sensíveis ao idioma, os alfabetos específicos por idioma e os modos de atividade dual produzem mais variedade do que qualquer concorrente que ofereça um só formato de eu vejo. O formato de kit justifica preços premium.`,
       platform: 'Gumroad',
     },
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Existe um teste grátis disponível?',
-      answer: `Sim. A ferramenta oferece um teste grátis com marca d'água com todas as funcionalidades desbloqueadas — ambos os modos de atividade (Objeto Escondido e Identificação de Letras), os quatro tipos de tarefa (circular, quadrado, riscar, contar), alfabetos específicos por idioma com letras acentuadas, densidade de grelha configurável (5×5 a 10×10), o gabarito autogerado com anotações vermelhas, etiquetas de imagens localizadas em 11 idiomas, as 104 coleções de imagens temáticas com mais de 3100 ilustrações, carregamento de imagens personalizadas, temas de fundo e moldura com opacidade independente, campos de nome/data, escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d'água. Adquira uma licença comercial para remover a marca d'água e desbloquear direitos de venda.`,
+      question: `Existe um teste grátis disponível?`,
+      answer: `Sim. A ferramenta oferece um teste grátis com marca d`água com todas as funcionalidades desbloqueadas — ambos os modos de atividade (Objeto Escondido e Identificação de Letras), os quatro tipos de tarefa (circular, quadrado, riscar, contar), alfabetos específicos por idioma com letras acentuadas, densidade de grelha configurável (5×5 a 10×10), o gabarito autogerado com anotações vermelhas, etiquetas de imagens localizadas em 11 idiomas, as 104 coleções de imagens temáticas com mais de 3100 ilustrações, carregamento de imagens personalizadas, temas de fundo e moldura com opacidade independente, campos de nome/data, escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d`água. Adquira uma licença comercial para remover a marca d'água e desbloquear direitos de venda.`,
     },
     {
       question: `Quais são os dois modos de atividade e como se diferenciam?`,
@@ -179,11 +179,11 @@ const content: ToolContent = {
       answer: `Configure linhas de 5 a 10 e colunas de 5 a 10 no painel de Configuração de Página. O valor predefinido é 6×6 (36 células). Uma grelha de 5×5 (25 células) cria fichas mais fáceis com imagens maiores — ideal para usuários mais novos. Uma grelha de 10×10 (100 células) cria cenas densas e desafiantes para usuários avançados. Cada célula exibe uma imagem com um tamanho máximo de 80px, com uma redução de tamanho de 5% no modo Identificação de Letras. Os objetos-alvo aparecem 1–5 vezes cada, com as células restantes preenchidas por imagens distratoras aleatórias do tema.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer: `O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. A ficha mostra a cena de imagens dispersas sem marcas — os usuários procuram e completam as tarefas sozinhos. O gabarito reproduz o layout idêntico e sobrepõe anotações visuais vermelhas: círculos à volta de objetos com tarefa de circular, quadrados à volta de objetos com tarefa de quadrado, cruzes sobre objetos com tarefa de riscar e contagens de quantidade para objetos com tarefa de contar. Descarregue cada versão independentemente usando quatro botões dedicados: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF.`,
     },
     {
-      question: 'Qual é o design do cabeçalho autogerado?',
+      question: `Qual é o design do cabeçalho autogerado?`,
       answer: `Cada ficha inclui um cabeçalho estilizado que muda entre «Eu Vejo» e «Identificação de Letras» conforme o modo ativo. O cabeçalho apresenta uma moldura azul (#2196F3) com um acento interior amarelo. O título é renderizado na fonte Fredoka e as instruções na fonte Quicksand. O texto do cabeçalho está localizado nos 11 idiomas suportados — inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês.`,
     },
     {
@@ -199,20 +199,20 @@ const content: ToolContent = {
       answer: `Sim. Com uma licença comercial, tem todos os direitos para vender fichas eu vejo como downloads digitais na Etsy, cadernos eu vejo impressos na Amazon KDP, recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os dois modos de atividade, quatro tipos de tarefa, Identificação de Letras com alfabetos específicos por idioma, etiquetas de imagens localizadas em 11 idiomas, densidade de grelha configurável, gabaritos autogerados com anotações vermelhas, carregamento de imagens personalizadas e 104 coleções de imagens temáticas dão-lhe tudo o necessário para criar produtos eu vejo profissionais que competem em categorias de busca e encontra em todos os principais marketplaces.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Teste antes de comprar com o nosso teste grátis com marca d'água — todas as funcionalidades estão disponíveis para que possa avaliar completamente a ferramenta antes de comprar. Dado que o teste grátis lhe dá acesso completo a ambos os modos de atividade, os quatro tipos de tarefa, Identificação de Letras com alfabetos específicos por idioma, densidade de grelha configurável, o gabarito autogerado com anotações vermelhas, etiquetas de imagens localizadas em 11 idiomas, os 104 temas, carregamento de imagens personalizadas, temas de fundo e moldura, campos de nome/data, escala de cinzentos e todos os formatos de descarga, não oferecemos reembolsos em compras de licença. Certifique-se de que a ferramenta se adapta às suas necessidades usando o teste grátis antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'encontre-conte-fichas', anchorText: `Fichas Eu Vejo Encontra e Conta — Detalhes Completos do Produto` },
-    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: 'Gerador de Fichas de Procura de Objetos' },
-    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: 'Gerador de Palavras Cruzadas com Imagens' },
+    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: `Gerador de Fichas de Procura de Objetos` },
+    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: `Gerador de Palavras Cruzadas com Imagens` },
     { pageType: 'tool', slug: 'gerador-caca-tesouro', anchorText: 'Gerador de Caça ao Tesouro' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Criador de Labirintos com Imagens' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
+    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: `Criador de Labirintos com Imagens` },
+    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: `Gerador de Fichas de Associação` },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: `Gerador de Páginas para Colorir` },
   ],
 
   visuals: {

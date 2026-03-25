@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO Lernmaterial Druckvorlagen',
+    primaryKeyword: `Etsy SEO Lernmaterial Druckvorlagen`,
     secondaryKeywords: [
-      'Etsy SEO für druckbare Arbeitsblätter',
-      'Etsy Keyword-Recherche praktische Produkte',
-      'Etsy Angebotsoptimierung Druckvorlagen-Verkäufer',
-      'Etsy Tags Strategie für Arbeitsblätter',
+      `Etsy SEO für druckbare Arbeitsblätter`,
+      `Etsy Keyword-Recherche praktische Produkte`,
+      `Etsy Angebotsoptimierung Druckvorlagen-Verkäufer`,
+      `Etsy Tags Strategie für Arbeitsblätter`,
     ],
     lsiKeywords: [
       `Etsy Suchalgorithmus Rankingfaktoren für digitale Downloads`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `Etsy Stats Suchbegriffe-Bericht Keyword-Optimierung`,
       `Etsy Kategorie-Attribute für praktische digitale Produkte`,
     ],
-    titleTag: 'Etsy SEO Lernmaterial Druckvorlagen — Leitfaden',
+    titleTag: `Etsy SEO Lernmaterial Druckvorlagen — Leitfaden`,
     metaDescription: `Etsy-SEO für Lernmaterial-Druckvorlagen. Keyword-Recherche, Titeloptimierung, alle 13 Tags nutzen und Beschreibungen optimieren.`,
   },
 
   hero: {
-    title: 'Etsy SEO für praktische Druckvorlagen',
+    title: `Etsy SEO für praktische Druckvorlagen`,
     tagline: `Ein umfassender Etsy-Suchoptimierungs-Leitfaden für Verkäufer praktischer Druckvorlagen — einschließlich Keyword-Recherche-Methodik mit Etsy-Autovervollständigung und Wettbewerberanalyse, Titeloptimierungsformeln die Suchranking mit Klickrate ausbalancieren, strategischem Einsatz aller 13 Angebots-Tags für maximale Suchreichweite, Beschreibungsstruktur mit SEO-optimierten ersten 160 Zeichen, Etsy-Suchalgorithmus-Rankingfaktoren speziell für digitale Produkte, Kategorie- und Attributauswahl, kategoriespezifische Keyword-Sammlungen für Mathe-, Lese-, Rätsel-, Mal-, Zuordnungs- und Such-Arbeitsblätter, saisonales Keyword-Timing für Schuljahresbeginn und Ferienspitzen sowie fortlaufende Optimierung mit Etsy Stats Suchbegriff-Berichten`,
     description: `Die Etsy-Suche ist die wichtigste Besucherquelle für Verkäufer praktischer Druckvorlagen. Dieser Leitfaden vermittelt Ihnen den vollständigen Etsy SEO Arbeitsablauf — von der Recherche der Suchbegriffe Ihrer Käufer bis zur Optimierung jedes Elements Ihres Angebots für maximale Sichtbarkeit. Sie lernen die exakte Titelstruktur, Tag-Strategie und das Beschreibungsformat, die dazu beitragen, dass Ihre Lernmaterial-Angebote in den Etsy-Suchergebnissen erscheinen.`,
   },
@@ -51,26 +51,26 @@ const content: GuideContent = {
       content: `Etsy-Angebotsbeschreibungen erfüllen einen doppelten Zweck: Sie liefern Käufern Produktinformationen, die Kaufentscheidungen treiben, und ihr Eröffnungstext erscheint in manchen Kontexten als Such-Snippet. Während Etsys Suchalgorithmus Titel und Tags stärker gewichtet als Beschreibungen, verbessern gut geschriebene Beschreibungen die Konversionsrate — was wiederum Ihren Listing Quality Score und Ihr Suchranking verbessert.\n\n**Erste 160 Zeichen:** Der Anfang Ihrer Beschreibung kann in Such-Snippets und Social-Media-Vorschauen erscheinen. Beginnen Sie diesen Abschnitt mit Ihrer primären Keyword-Phrase und einem klaren Nutzenversprechen. Beispiel: „Druckbare Additions-Arbeitsblätter mit Tierillustrationen für Kindergartenkinder. Jedes PDF enthält thematische Rechenaufgaben mit passendem Lösungsschlüssel." Dies teilt sowohl Suchmaschinen als auch Käufern sofort mit, was das Produkt ist.\n\n**Beschreibungsstruktur:** Nach der Eröffnung organisieren Sie Ihre Beschreibung in übersichtlichen Abschnitten:\n\n1. **Was enthalten ist:** Dateizahl, Seitenzahl, Formate, Lösungsschlüssel\n2. **Produktmerkmale:** Themenoptionen, Schwierigkeitsgrade, Anpassungsmöglichkeiten\n3. **Für wen es ist:** Altersbereich, Altersgruppe, Lernziele\n4. **Anwendung:** Druckanleitung, Produkterstellung vs. Heimanwendung, Kompatibilität mit digitalen Geräten\n5. **Technische Details:** Dateiformat (PDF), Auflösung (300 DPI), Papiergröße\n\n**Natürliche Keyword-Integration:** Verweben Sie Keywords natürlich in Ihre Beschreibung. Anstatt Keywords in einem Block aufzulisten (was Etsy bestrafen kann), verwenden Sie sie in vollständigen Sätzen: „Diese Kindergarten-Mathe-Arbeitsblätter machen Additions-Übungen mit farbenfrohen Tierillustrationen spannend" enthält natürlich mehrere wertvolle Suchbegriffe.\n\n**Keyword-Stuffing vermeiden:** Das mehrfache Wiederholen derselben Keyword-Phrase hilft nicht beim Ranking und kann es sogar verschlechtern. Etsys Algorithmus kann unnatürliche Keyword-Wiederholungen erkennen. Verwenden Sie jedes wichtige Keyword ein- oder zweimal in der Beschreibung und lassen Sie Ihren Titel und Ihre Tags die primäre SEO-Arbeit übernehmen.\n\n**Handlungsaufforderung:** Beenden Sie Ihre Beschreibung mit einem klaren nächsten Schritt: „Klicken Sie auf In den Warenkorb für sofortigen Download" oder „Merken Sie dieses Angebot vor, um es für später zu speichern." Vormerken verbessert Ihren Listing Quality Score, daher ist die Ermutigung dazu eine legitime SEO-Taktik.`,
     },
     {
-      heading: 'Etsy-Kategorien und Attribute korrekt verwenden',
+      heading: `Etsy-Kategorien und Attribute korrekt verwenden`,
       content: `Über Titel und Tags hinaus nutzt Etsy Ihre Kategorieauswahl und Attributfelder als zusätzliche Signale für das Suchmatching. Die Wahl der richtigen Kategorie ist essenziell — ein falsch kategorisiertes Angebot erscheint möglicherweise nie in gefilterten Suchen.\n\n**Kategorieauswahl für praktische Druckvorlagen:** Die meisten praktischen druckbaren Arbeitsblätter passen unter: Craft Supplies & Tools > Learning & School > Educational Materials. Einige Verkäufer nutzen Digital Downloads als übergeordnete Kategorie, aber der spezifischere Bildungspfad bietet besseres Matching für Käufer, die Kategorien durchstöbern statt zu suchen.\n\n**Warum die Kategorie für die Suche wichtig ist:** Wenn Käufer Etsys Kategoriefilter nutzen oder nach Abteilung stöbern, erscheint Ihr Angebot nur, wenn es in der richtigen Kategorie ist. Viele Käufer kombinieren Suchbegriffe mit Kategoriefiltern: die Suche nach „math worksheets" innerhalb von „Educational Materials" liefert andere Ergebnisse als dieselbe Suche in „All Categories". In der richtigen Kategorie zu sein stellt sicher, dass Sie in gefilterten und ungefilterten Suchen erscheinen.\n\n**Attributfelder:** Etsy stellt Attributfelder basierend auf Ihrer Kategorie bereit. Für Bildungsmaterialien sehen Sie möglicherweise Felder wie „Occasion" (Back to School, Birthday), „Recipient" (For Children, For Teachers) und Format-Optionen. Füllen Sie jedes zutreffende Attribut aus — jedes bietet ein zusätzliches Matching-Signal.\n\n**Mehrere Angebote, verschiedene Kategorien:** Wenn ein Produkt in mehrere Kategorien passen könnte (eine Malvorlage mit Mathe-Elementen könnte sowohl in „Coloring Pages" als auch in „Educational Materials" passen), erstellen Sie separate Angebote, die für jede Kategorie optimiert sind. Verschiedene Titel, Tags und Beschreibungen für jedes Kategorie-Angebot zielen auf unterschiedliche Käufer-Suchmuster ab.\n\n**Kategoriespezifisches Käuferverhalten:** Käufer in der Kategorie Bildungsmaterialien suchen tendenziell mit spezifischen Altersgruppen und Fächern. Käufer in der Kategorie Malvorlagen suchen mehr nach Thema und Stil. Richten Sie Ihre SEO-Strategie am Browsing-Verhalten der Zielgruppe Ihrer gewählten Kategorie aus.`,
     },
     {
-      heading: 'Angebotsfotos für die Klickrate optimieren',
+      heading: `Angebotsfotos für die Klickrate optimieren`,
       content: `Angebotsfotos enthalten zwar keine Keywords direkt, sind aber wohl der wichtigste Faktor für den Etsy SEO Erfolg. Der Grund: Etsys Suchalgorithmus erfasst die Click-Through-Rate (den Prozentsatz der Käufer, die Ihr Angebot anklicken, nachdem sie es in den Ergebnissen gesehen haben). Eine höhere Click-Through-Rate signalisiert Etsy, dass Ihr Angebot relevant und ansprechend ist, was Ihr Ranking verbessert.\n\n**Vorschaubildoptimierung:** Ihr erstes Angebotsbild erscheint als Vorschaubild in den Suchergebnissen. Für praktische Druckvorlagen zeigen die effektivsten Vorschaubilder den tatsächlichen Arbeitsblattinhalt deutlich. Vermeiden Sie Vorschaubilder, die hauptsächlich aus Text, Logos oder dekorativen Rahmen bestehen — Käufer wollen sehen, was sie bekommen. Verwenden Sie kontrastreiche Farben und stellen Sie sicher, dass Text auf dem Arbeitsblatt auch in Vorschaubildgröße lesbar ist.\n\n**Alle 10 Fotoplätze nutzen:** Etsy erlaubt bis zu 10 Bilder pro Angebot. Nutzen Sie jeden Platz. Zeigen Sie das Produkt aus verschiedenen Perspektiven: vollständige Arbeitsblattansicht, Nahaufnahme des Aufgabenformats, Lösungsschlüssel, Themenvarianten, Größenreferenz und Anwendungsbeispiele. Angebote mit mehr Bildern haben höhere Konversionsraten, was den Listing Quality Score verbessert.\n\n**Foto-Reihenfolge-Strategie:** Bild 1 (Vorschaubild) sollte Ihr auffälligstes Arbeitsblatt sein. Bild 2 kann zeigen, was enthalten ist (Dateizahl, Seitenaufschlüsselung). Bilder 3–5 zeigen verschiedene Arbeitsblattseiten oder Themenvarianten. Bilder 6–8 können das Produkt im Einsatz oder Lifestyle-Mockups zeigen. Bilder 9–10 können Bündelinhalte oder verwandte Produkte darstellen.\n\n**Mockup-Präsentationen:** Flat-Lay-Mockups, die Arbeitsblätter auf einem Schreibtisch mit Stiften, Buntstiften oder Radiergummis zeigen, schaffen einen Lifestyle-Kontext, der das Käuferengagement erhöht. Mockup-Vorlagen sind online speziell für Druckvorlagen-Verkäufer verfügbar. Verwenden Sie einheitliches Mockup-Styling in Ihrem gesamten Shop für Markenwiedererkennbarkeit.\n\n**Dateiformat und Größe:** Laden Sie Bilder in der höchstmöglichen Auflösung hoch. Etsy zeigt Bilder in verschiedenen Größen auf verschiedenen Geräten an. Bilder, die am Desktop scharf aber auf Mobilgeräten verschwommen erscheinen, schaden Ihrer Click-Through-Rate. Verwenden Sie das JPEG-Format, mindestens 2000 Pixel an der kürzesten Seite.`,
     },
     {
-      heading: 'Rankings mit Etsy Stats überwachen und verbessern',
+      heading: `Rankings mit Etsy Stats überwachen und verbessern`,
       content: `Etsy bietet ein integriertes Analyse-Dashboard (Etsy Stats), das genau zeigt, wie Käufer Ihre Angebote finden. Diese Daten sind für die fortlaufende SEO-Optimierung von unschätzbarem Wert. Anstatt zu raten, welche Keywords funktionieren, können Sie datengestützte Entscheidungen treffen.\n\n**Suchbegriffe-Bericht:** Navigieren Sie zu Shop-Manager > Stats > Suchbegriffe. Dieser Bericht zeigt, welche Suchanfragen Besucher in Ihren Shop gebracht haben, wie viele Impressionen jeder Begriff generiert hat und wie viele Besuche daraus resultierten. Sortieren Sie nach Impressionen, um Ihre Keywords mit der höchsten Sichtbarkeit zu sehen.\n\n**Hohe Impressionen, wenige Klicks:** Keywords, bei denen Ihr Angebot in vielen Suchen erscheint aber wenige Klicks erhält, deuten auf ein Titel- oder Vorschaubildproblem hin. Ihr Angebot stimmt mit dem Suchbegriff überein (gute SEO), überzeugt Käufer aber nicht zum Klicken. Lösungen: Verbessern Sie Ihr Vorschaubild, passen Sie den Titel an, um die Käufererwartungen für diesen Suchbegriff besser zu erfüllen, oder aktualisieren Sie Ihr erstes Angebotsbild.\n\n**Viele Klicks, wenige Konversionen:** Keywords, die Besucher bringen, die nicht kaufen, deuten auf ein Problem auf der Angebotsseite hin. Der Käufer hat geklickt (angezogen von Ihrem Titel und Vorschaubild), aber ohne Kauf verlassen. Lösungen: Verbessern Sie Ihre Beschreibung, passen Sie Ihren Preis an, fügen Sie mehr Angebotsfotos hinzu oder überdenken Sie, ob das Keyword tatsächlich zu Ihrem Produkt passt.\n\n**Keyword-Leistung über die Zeit:** Verfolgen Sie Ihre Top-10-Keywords monatlich. Notieren Sie, welche Keywords wachsen und welche nachlassen. Nachlassende Keywords können auf zunehmenden Wettbewerb oder saisonale Nachfrageänderungen hindeuten. Wachsende Keywords können zusätzliche Angebote für verwandte Begriffe rechtfertigen.\n\n**Wann Tags und Titel aktualisieren:** Wenn die Aufrufe eines Angebots über mehrere Wochen trotz konstanter Shop-Aktivität stetig sinken, aktualisieren Sie seine Tags und seinen Titel. Ersetzen Sie unterperformende Tags (die wenige Impressionen bringen) durch neue Alternativen aus Ihrer Keyword-Recherche. Ändern Sie zwei oder drei Tags gleichzeitig, um die Auswirkung jeder Änderung messen zu können.\n\n**Saisonaler Keyword-Rotationskalender:** Die Nachfrage nach praktischen Druckvorlagen folgt einem vorhersehbaren Zyklus. Berücksichtigen Sie diese Spitzen in Ihrer Keyword-Strategie:\n\n- **Januar–Februar:** Neujahrs-Lernvorsätze, Valentinstag-Aktivitäten\n- **März–April:** Frühlingsaktivitäten, Osterthemen, Prüfungsvorbereitung\n- **Mai–Juni:** Schuljahresend-Wiederholungen, Sommerlernen-Vorbereitung\n- **Juli–August:** Schulanfangsspitze (höchste Nachfrageperiode für praktische Druckvorlagen)\n- **September–Oktober:** Herbstthemen, Halloween-Aktivitäten, Homeschool-Ergänzungsmaterial\n- **November–Dezember:** Feiertagsaktivitäten, Weihnachtsthemen, Winterferien-Lernpakete\n\nRotieren Sie zwei oder drei Ihrer 13 Tags, um sie an kommende saisonale Spitzen anzupassen. Fügen Sie saisonale Tags vier bis sechs Wochen vor der Spitze hinzu, um vor dem Nachfrageanstieg Ranking-Momentum aufzubauen.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Den Etsy Listing Quality Score verstehen',
+      heading: `Den Etsy Listing Quality Score verstehen`,
       content: `Etsy weist jedem Angebot einen Qualitätswert basierend auf historischen Leistungsdaten zu. Dieser Wert ist nach der Keyword-Relevanz der wichtigste Rankingfaktor. Für Lernmaterial-Druckvorlagen wird der Quality Score aus der Click-Through-Rate (wie oft Käufer Ihr Angebot in den Suchergebnissen anklicken), der Favoritenrate (wie oft Besucher Ihr Angebot vormerken) und der Konversionsrate (wie oft Besucher einen Kauf abschließen) berechnet. Neue Angebote erhalten eine temporäre Boost-Phase, in der Etsy sie in den Suchergebnissen testet — dies ist Ihre Gelegenheit zu beweisen, dass das Angebot dauerhafte Sichtbarkeit verdient. Stellen Sie während dieser Phase sicher, dass Ihr Angebotsfoto, Titel und Preis vollständig optimiert sind, um die bestmöglichen anfänglichen Leistungsdaten zu generieren.`,
     },
     {
-      heading: 'Der Verlängerungs- und Aktualitäts-Ranking-Boost',
+      heading: `Der Verlängerungs- und Aktualitäts-Ranking-Boost`,
       content: `Etsy gewährt kürzlich eingestellten oder verlängerten Artikeln einen kleinen Ranking-Boost. Während dieser Effekt für digitale Produkte im Vergleich zu physischen Waren bescheidener ausfällt, kann strategisches Timing helfen. Das Verlängern eines Angebots setzt sein Aktualitätssignal effektiv zurück, und Etsy berechnet $0,20 pro Verlängerung. Manche Verkäufer verlängern ihre Top-Angebote wöchentlich während der Hauptsaison (wie Schulanfang im August), um einen Aktualitätsvorteil zu behalten. Für praktische Druckvorlagen konzentrieren Sie die Verlängerungsausgaben auf Ihre Angebote mit dem höchsten Potenzial während ihrer saisonalen Spitze, anstatt alles gleichmäßig zu verlängern. Die Kosten summieren sich, seien Sie also selektiv.`,
     },
     {
@@ -81,15 +81,15 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'SEO-gesteuerte Bündel-Entdeckung',
+      heading: `SEO-gesteuerte Bündel-Entdeckung`,
       content: `Strategische Keyword-Optimierung fördert natürlich den Bündelverkauf. Wenn ein Käufer „math worksheets kindergarten" sucht und Ihr einzelnes Additions-Arbeitsblatt findet, stöbert er oft in Ihrem Shop nach verwandten Produkten. Die Optimierung Ihrer Bündel-Angebote für breitere Begriffe („math worksheet bundle kindergarten"), während einzelne Angebote auf spezifische Begriffe zielen („addition worksheets kindergarten animals"), schafft einen Trichter, in dem spezifische Suchen zu Einzelprodukten führen und Shop-Browsing zu Bündelkäufen. Fügen Sie „Sehen Sie unser vollständiges Bündel" in einzelne Angebotsbeschreibungen ein, um diesen Fluss zu leiten.`,
     },
     {
-      heading: 'Keyword-gezielte Upsells über verwandte Angebote',
+      heading: `Keyword-gezielte Upsells über verwandte Angebote`,
       content: `Etsys Bereich „Mehr aus diesem Shop" zeigt Ihre anderen Angebote Käufern an, die bereits auf einer Ihrer Produktseiten sind. Die Optimierung verwandter Produkte für ergänzende Keywords erhöht die Chance, dass Käufer mehrere Artikel kaufen. Wenn Ihr Additions-Arbeitsblatt für „kindergarten math" rankt, optimieren Sie Ihr Subtraktions-Arbeitsblatt für „kindergarten subtraction practice" anstatt für denselben generischen Tag „kindergarten math". Dies vermeidet Selbstkonkurrenz und stellt sicher, dass beide Produkte für verwandte, aber unterschiedliche Suchen erscheinen.`,
     },
     {
-      heading: 'Long-Tail-Keyword-Monetarisierung',
+      heading: `Long-Tail-Keyword-Monetarisierung`,
       content: `Long-Tail Keywords — spezifische Mehrwort-Phrasen wie „animal themed counting worksheets for preschool" — haben geringeres Suchvolumen, aber deutlich höhere Konversionsraten. Käufer, die Long-Tail-Suchen verwenden, wissen genau, was sie wollen, und sind kaufbereit. Die Erstellung von Angeboten, die auf spezifische Long-Tail Keywords mit passenden Titeln, Tags und Produktinhalten abzielen, zieht Käufer mit starker Kaufabsicht an. Ein Arbeitsblatt-Generator mit Themenoptionen macht es praktikabel, mehrere Angebote zu erstellen, die verschiedene Long-Tail-Kombinationen aus demselben Basisprodukt ansprechen.`,
     },
   ],
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Halten Sie Ihre Kern-Tags (Produkttyp, Fach, Altersgruppe) stabil und rotieren Sie zwei bis drei saisonale oder trendige Tags alle sechs bis acht Wochen. Ständige Tag-Änderungen verhindern, dass Etsy Qualitätsdaten für bestimmte Keyword-Kombinationen aufbaut. Die Ausnahme sind unterperformende Tags — wenn Ihre Etsy Stats zeigen, dass ein Tag nach 30 Tagen null Impressionen generiert, ersetzen Sie ihn sofort. Saisonale Rotationen sollten vier bis sechs Wochen vor Nachfragespitzen stattfinden, um Ranking-Momentum aufzubauen.`,
     },
     {
-      question: 'Beeinflussen Etsy-Beschreibungen das Suchranking?',
+      question: `Beeinflussen Etsy-Beschreibungen das Suchranking?`,
       answer: `Etsy hat erklärt, dass Angebotsbeschreibungen weniger direktes Gewicht im Suchmatching haben als Titel und Tags. Beschreibungen beeinflussen das Ranking jedoch indirekt über die Konversionsrate. Eine gut geschriebene Beschreibung, die den Produktwert klar kommuniziert, relevante Details enthält und Käuferfragen beantwortet, führt zu mehr Käufen. Höhere Konversionsraten verbessern Ihren Listing Quality Score, der ein wichtiger Rankingfaktor ist. Schreiben Sie Beschreibungen zuerst für Käufer und dann für Suchmaschinen.`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'lernmaterial-verkaufen-etsy',
-      title: 'Lernmaterial auf Etsy verkaufen',
+      title: `Lernmaterial auf Etsy verkaufen`,
       description: `Der vollständige Etsy-Verkaufsleitfaden für praktische Druckvorlagen. Behandelt Shop-Einrichtung, Produktfotografie, Preisgestaltung, Kundenservice und Katalogplanung — alle Geschäftsabläufe, die die SEO-Strategien in diesem Leitfaden ergänzen.`,
     },
     {
       slug: 'etsy-druckvorlagen-preise',
-      title: 'Druckbare Etsy-Arbeitsblätter bepreisen',
+      title: `Druckbare Etsy-Arbeitsblätter bepreisen`,
       description: `Die Preisstrategie beeinflusst direkt Ihre Konversionsrate und Ihren Listing Quality Score. Lernen Sie, wie Sie einzelne Arbeitsblätter und Bündel für maximale Profitabilität bepreisen und dabei eine wettbewerbsfähige Positionierung in den Etsy-Suchergebnissen beibehalten.`,
     },
     {
       slug: 'etsy-malvorlagen-erstellen',
-      title: 'Etsy-Malvorlagen erstellen, die sich verkaufen',
+      title: `Etsy-Malvorlagen erstellen, die sich verkaufen`,
       description: `Malvorlagen stellen eine stark nachgefragte Etsy-Kategorie mit charakteristischen Keyword-Mustern dar. Lernen Sie die Produkterstellungs- und Angebotsstrategien, die spezifisch für diese Kategorie sind, und wenden Sie die SEO-Prinzipien aus diesem Leitfaden an.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: 'Wortsuche-Rätsel auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'lernmaterial-verkaufen-etsy', anchorText: 'Lernmaterial auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: 'Druckbare Etsy-Arbeitsblätter richtig bepreisen' },
-    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: 'Etsy-Malvorlagen erstellen, die sich verkaufen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung für ein Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: `Wortsuche-Rätsel auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'lernmaterial-verkaufen-etsy', anchorText: `Lernmaterial auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: `Druckbare Etsy-Arbeitsblätter richtig bepreisen` },
+    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: `Etsy-Malvorlagen erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für ein Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
@@ -176,7 +176,7 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erzeugt bildbasierte Additions-Arbeitsblätter, die auf die volumenreichsten Keywords für praktische Druckvorlagen auf Etsy abzielen. Die Themenoptionen ermöglichen es Ihnen, aus einem Generator mehrere Angebote zu erstellen, die jeweils verschiedene Long-Tail-Keyword-Kombinationen ansprechen.`,
     },
     {
@@ -192,22 +192,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/worksheet.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt als mehrsprachiges praktisches Druckvorlagen-Produkt für Etsy SEO Optimierung` },
+    heroImage: { src: `/samples/german/wordsearch/worksheet.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt als mehrsprachiges praktisches Druckvorlagen-Produkt für Etsy SEO Optimierung` },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Tierthematisches Wortsuche-Rätsel-Arbeitsblatt zur Demonstration themenbasierter Etsy-Keyword-Ausrichtung`, caption: 'Wortsuche mit Tierthema — jede Sprach- und Themenvariante zielt auf verschiedene Etsy-Suchbegriffe ab' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Tierthematisches Additions-Arbeitsblatt für volumenreiche Etsy-Mathe-Druckvorlagen-Keywords`, caption: 'Additions-Arbeitsblatt mit Tierthema — zielt auf volumenreiche Mathe-Druckvorlagen-Keywords auf Etsy ab' },
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: `Tier-Malvorlage zur Demonstration themengesteuerter Etsy-Keyword-Strategie für Druckvorlagen-Verkäufer`, caption: 'Malvorlage mit Tierthema — themenspezifische Keywords bringen gezielten Etsy-Suchtraffic' },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Tierthematisches Wortsuche-Rätsel-Arbeitsblatt zur Demonstration themenbasierter Etsy-Keyword-Ausrichtung`, caption: `Wortsuche mit Tierthema — jede Sprach- und Themenvariante zielt auf verschiedene Etsy-Suchbegriffe ab` },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Tierthematisches Additions-Arbeitsblatt für volumenreiche Etsy-Mathe-Druckvorlagen-Keywords`, caption: `Additions-Arbeitsblatt mit Tierthema — zielt auf volumenreiche Mathe-Druckvorlagen-Keywords auf Etsy ab` },
+      { src: `/samples/german/coloring/coloring portrait 2.webp`, alt: `Tier-Malvorlage zur Demonstration themengesteuerter Etsy-Keyword-Strategie für Druckvorlagen-Verkäufer`, caption: `Malvorlage mit Tierthema — themenspezifische Keywords bringen gezielten Etsy-Suchtraffic` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Wortsuche-Arbeitsblätter für Etsy SEO erstellen — Multi-Keyword-Produktstrategie`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katze 2 — thematisches Lernbild`, caption: 'Katze 2' },
   ],
 };
 

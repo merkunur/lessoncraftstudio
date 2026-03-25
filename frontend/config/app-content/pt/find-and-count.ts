@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas encontra e conta',
+    primaryKeyword: `gerador fichas encontra e conta`,
     secondaryKeywords: [
       `gerador de fichas de objetos escondidos imprimíveis para vendedores Etsy`,
       `criador de fichas eu vejo para editores Amazon KDP`,
       `gerador de fichas encontra e conta com licença comercial`,
-      'vender fichas de encontra e conta no Gumroad',
+      `vender fichas de encontra e conta no Gumroad`,
     ],
     lsiKeywords: [
-      'produtos digitais eu vejo para empreendedores',
+      `produtos digitais eu vejo para empreendedores`,
       `fichas de objetos escondidos imprimíveis uso comercial`,
       `gerador de fichas de contagem com gabarito automático`,
     ],
-    titleTag: 'Gerador Fichas Encontra e Conta | Criar e Vender',
+    titleTag: `Gerador Fichas Encontra e Conta | Criar e Vender`,
     metaDescription:
       `Crie fichas eu vejo encontra e conta para Etsy, KDP e Gumroad. 4 tipos de tarefa, modo Identificação de Letras, gabarito automático, 104 temas. Teste grátis.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas Eu Vejo em 5 Passos',
+    title: `Como Criar Fichas Eu Vejo em 5 Passos`,
     steps: [
       {
         title: 'Configure o Layout de Página',
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Selecione entre dois modos. O modo Objeto Escondido (predefinido) cria cenas clássicas de eu vejo — imagens dispersas numa grelha onde os usuários procuram objetos específicos. O modo Identificação de Letras ativa uma grelha de alfabeto específica por idioma com letras acentuadas e gera cenas usando imagens que começam com a letra selecionada. O cabeçalho muda automaticamente entre «Eu Vejo» e «Identificação de Letras» (localizado nos 11 idiomas) conforme a sua seleção.`,
       },
       {
-        title: 'Selecione Imagens e Atribua Tipos de Tarefa',
+        title: `Selecione Imagens e Atribua Tipos de Tarefa`,
         description:
           `No modo Objeto Escondido, escolha até 4 objetos-alvo das 104 coleções temáticas da Biblioteca de Imagens. Para cada imagem selecionada, atribua um tipo de tarefa do menu suspenso: circular, enquadrar com quadrado, riscar ou contar quantos aparecem. A grelha preenche as células restantes com imagens distratoras aleatórias do tema. No modo Identificação de Letras, clique numa letra da grelha do alfabeto para preencher automaticamente as imagens-alvo e distratoras.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas Eu Vejo Online',
+    title: `Como Vender Fichas Eu Vejo Online`,
     cases: [
       {
-        title: 'Packs de Atividades Eu Vejo Temáticos na Etsy',
+        title: `Packs de Atividades Eu Vejo Temáticos na Etsy`,
         description:
           `Crie packs de fichas eu vejo temáticos usando as 104 coleções de imagens — eu vejo de animais, eu vejo de festividades, eu vejo de comida, eu vejo de veículos e dezenas mais. Combine os quatro tipos de tarefa dentro de cada pack para variedade: fichas de circular para prática de motricidade fina, fichas de contar para competências numéricas, fichas de riscar para discriminação visual e fichas de quadrado para seguir instruções. Empacote 10–20 fichas eu vejo por tema com gabaritos incluídos e venda a $3–$7 por pack. O gabarito autogerado elimina a maior perda de tempo na produção de fichas eu vejo.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de Atividades Eu Vejo na Amazon KDP',
+        title: `Cadernos de Atividades Eu Vejo na Amazon KDP`,
         description:
           `Compile 40–80 fichas eu vejo num caderno impresso formatado para Amazon KDP. Estruture o seu livro por dificuldade progressiva: os primeiros capítulos usam grelhas de 5×5 com 2 objetos-alvo, os capítulos intermédios aumentam para grelhas de 7×7 com 3 alvos, e os capítulos avançados usam grelhas de 10×10 com os 4 alvos e tipos de tarefa combinados. Inclua gabaritos no final do livro usando a função de gabarito autogerado. A escala de cinzentos produz páginas que poupam tinta, prontas para interiores de livros a preto e branco.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Atividades de Observação e Contagem para loja no Gumroad`,
         description:
           `Crie fichas eu vejo de contagem prontas a usar onde os usuários procuram, encontram e contam objetos numa cena de imagens dispersas. Os vendedores que procuram atividades de contagem no Gumroad valorizam fichas que combinam busca visual com prática de aritmética. A tarefa de contar pede aos usuários escrever quantas instâncias de cada objeto encontram — uma extensão natural de eu vejo para competências matemáticas. Crie conjuntos alinhados com o catálogo de produtos: contagem de animais da quinta, contagem de ajudantes comunitários, contagem de criaturas marinhas e contagem de objetos sazonais. Cada conjunto inclui fichas do usuário e gabaritos em formatos PDF e JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Packs de Identificação de Letras e Fonética para Consciência Alfabética`,
         description:
           `Aproveite o modo Identificação de Letras para criar fichas eu vejo focadas no reconhecimento da letra inicial. Cada ficha centra-se numa letra específica — os usuários encontram todos os objetos que começam com essa letra numa cena de imagens dispersas. Crie um pack completo de Identificação de Letras A–Z com 26 fichas (uma por letra) e gabaritos. Os alfabetos específicos por idioma com letras acentuadas permitem-lhe criar packs de fonética para o mercado alemão (ÄÖÜ), espanhol (Ñ) e nórdico (ÅÄÖ/ÆØÅ) que os concorrentes com ferramentas apenas em inglês não conseguem igualar.`,
-        platform: 'Etsy / Gumroad (mercado de literacia)',
+        platform: `Etsy / Gumroad (mercado de literacia)`,
       },
       {
         title: `Coleções Eu Vejo Multilingues para Mercados Globais`,
         description:
           `Aproveite as etiquetas de nomes de imagens sensíveis ao idioma para criar fichas eu vejo em 11 idiomas. As mesmas imagens produzem etiquetas diferentes ao mudar de idioma — os nomes de imagens, as primeiras letras em Identificação de Letras e o texto do cabeçalho atualizam-se automaticamente. Crie packs eu vejo multilingues onde cada versão de idioma usa as mesmas imagens temáticas mas com etiquetas localizadas. Isto é valioso para vendedores de ESL/EFL, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda packs por idioma ou mega-packs multilingues a preços premium.`,
-        platform: 'Etsy / Gumroad (mercado multilingue)',
+        platform: `Etsy / Gumroad (mercado multilingue)`,
       },
     ],
   },
@@ -161,29 +161,29 @@ const content: AppContent = {
         `O Gerador de Encontra e Conta é sensível ao idioma. As etiquetas de nomes de imagens são exibidas no idioma selecionado através do sistema de Vocabulário de Imagens (image-vocabulary.js). Por exemplo, uma imagem de gato exibe «Cat» em inglês, «Katze» em alemão, «Chat» em francês e «Gato» em português. No modo Identificação de Letras, as primeiras letras também mudam com o idioma — um gato começa com «C» em inglês mas com «K» em alemão e «G» em espanhol e português. O nível Comercial suporta apenas inglês; o Acesso Completo desbloqueia os 11 idiomas.`,
     },
     {
-      question: 'Como funciona a densidade de grelha configurável?',
+      question: `Como funciona a densidade de grelha configurável?`,
       answer:
         `No painel de Configuração de Página, configure linhas de 5 a 10 e colunas de 5 a 10. O valor predefinido é 6×6 (36 células). Uma grelha menor como 5×5 (25 células) cria fichas mais fáceis com imagens maiores — ideal para usuários mais novos. Uma grelha maior como 10×10 (100 células) cria cenas densas e desafiantes para usuários avançados. Cada célula exibe uma imagem a um tamanho máximo de 80px. Os objetos-alvo aparecem 1–5 vezes cada, com as células restantes preenchidas com imagens distratoras aleatórias do tema.`,
     },
     {
-      question: 'Porque há um limite de 4 objetos por ficha?',
+      question: `Porque há um limite de 4 objetos por ficha?`,
       answer:
         `O gerador impõe um máximo de 4 objetos-alvo por ficha para manter atividades eu vejo claras e focadas. Com 4 objetos e 4 tipos de tarefa diferentes, uma única ficha pode conter 4 tarefas distintas de procurar e fazer — variedade suficiente para desafiar os usuários sem os sobrecarregar. O painel de Perguntas de Objeto Escondido mostra um contador de seleção e fornece um botão Limpar Seleção para reiniciar as suas opções. Este limite assegura que cada ficha permanece visualmente legível e pedagogicamente eficaz.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer:
         `O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. A ficha mostra a cena de imagens dispersas sem marcas — os usuários procuram e completam as tarefas sozinhos. O gabarito reproduz o layout idêntico e sobrepõe anotações visuais vermelhas: círculos à volta de objetos com tarefa de circular, quadrados à volta de objetos com tarefa de quadrado, cruzes sobre objetos com tarefa de riscar e contagens de quantidade para objetos com tarefa de contar. Ambas as versões são exportadas separadamente usando quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF.`,
     },
     {
-      question: 'A ficha autogera-se ao carregar a página?',
+      question: `A ficha autogera-se ao carregar a página?`,
       answer:
         `Sim. A aplicação gera automaticamente uma ficha eu vejo completa quando a abre — usando o tema de animais, 4 imagens selecionadas aleatoriamente e tipos de tarefa atribuídos aleatoriamente numa grelha de 6×6. Isto dá-lhe uma pré-visualização instantânea do que a ferramenta produz. Daí, pode personalizar o tema, as dimensões da grelha, os objetos-alvo, os tipos de tarefa e o modo de atividade, depois clicar em Gerar para reconstruir com os seus ajustes.`,
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — ambos os modos de atividade, os quatro tipos de tarefa, Identificação de Letras com alfabetos específicos por idioma, dimensões de grelha configuráveis, o gabarito autogerado, a biblioteca de imagens completa, temas de fundo e moldura, e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — ambos os modos de atividade, os quatro tipos de tarefa, Identificação de Letras com alfabetos específicos por idioma, dimensões de grelha configuráveis, o gabarito autogerado, a biblioteca de imagens completa, temas de fundo e moldura, e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `Posso adicionar temas de fundo e moldura às fichas eu vejo?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de eu vejo e encontra e conta como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os dois modos de atividade, quatro tipos de tarefa, Identificação de Letras com alfabetos específicos por idioma e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos eu vejo originais e vendáveis.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os modos de atividade, os quatro tipos de tarefa, o modo Identificação de Letras, as dimensões de grelha configuráveis, o gabarito autogerado, a biblioteca de imagens completa, os temas de fundo e moldura, e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'encontrar-objetos-fichas',
-      anchorText: 'Gerador de Fichas de Encontrar Objetos',
+      anchorText: `Gerador de Fichas de Encontrar Objetos`,
     },
     {
       pageType: 'app',
-      slug: 'palavras-cruzadas-imagens-fichas',
-      anchorText: 'Gerador de Palavras Cruzadas com Imagens',
+      slug: `palavras-cruzadas-imagens-fichas`,
+      anchorText: `Gerador de Palavras Cruzadas com Imagens`,
     },
     {
       pageType: 'app',
       slug: 'caca-ao-tesouro-fichas',
-      anchorText: 'Gerador de Fichas de Caça ao Tesouro',
+      anchorText: `Gerador de Fichas de Caça ao Tesouro`,
     },
     {
       pageType: 'app',
       slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      anchorText: `Gerador de Fichas de Gráfico Pictórico`,
     },
     {
       pageType: 'app',
       slug: 'labirinto-caminhos-fichas',
-      anchorText: 'Gerador de Fichas de Labirinto de Caminhos',
+      anchorText: `Gerador de Fichas de Labirinto de Caminhos`,
     },
     {
       pageType: 'app',
       slug: 'caca-palavras-fichas',
-      anchorText: 'Gerador de Fichas de Caça-Palavras',
+      anchorText: `Gerador de Fichas de Caça-Palavras`,
     },
     {
       pageType: 'bundle',
@@ -241,17 +241,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'campismo-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+      anchorText: `Ideias de imprimíveis de camping e ar livre`,
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de animais marinhos',
+      slug: `animais-marinhos-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de animais marinhos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimiveis',
-      anchorText: 'Marketing para seu negócio de imprimíveis',
+      anchorText: `Marketing para seu negócio de imprimíveis`,
     },
     {
       pageType: 'guide',

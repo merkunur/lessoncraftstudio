@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'starta Etsy utskriftsbutik',
     secondaryKeywords: [
-      'hur man startar en Etsy utskriftsbutik',
-      'Etsy utskriftsbutik uppsättning från grunden',
-      'börja sälja utskrifter på Etsy',
-      'Etsy digital nedladdningsbutik för nybörjare',
+      `hur man startar en Etsy utskriftsbutik`,
+      `Etsy utskriftsbutik uppsättning från grunden`,
+      `börja sälja utskrifter på Etsy`,
+      `Etsy digital nedladdningsbutik för nybörjare`,
     ],
     lsiKeywords: [
       `Etsy säljarkonto uppsättning digitala nedladdningar utskriftsbara arbetsblad`,
@@ -31,23 +31,23 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Välj din utskriftsnisch på Etsy',
+      heading: `Välj din utskriftsnisch på Etsy`,
       content: `Innan du skapar ditt Etsy-konto, definiera vilka produktkategorier du lanserar med. De 6 generatorkategorierna spänner över olika köparsegment och konkurrensnivåer.\n\nDe 6 kategorierna och deras marknadsegenskaper: Matematik och Tal (addition, subtraktion, kodpussel, jämförelse, rutnätspussel, talövningar) riktar sig mot säljare och föräldrar med konsekvent året-runt-efterfrågan. Bokstäver och Ord (ordsökning, korsord, ordmix, kryptogram, alfabet, handstil, bokstavsspårning, prepositioner) betjänar läsundervisning med starka säsongstoppar. Ritning och Konst (målarbilder) tilltalar den bredaste köpardemografin. Pussel och Spel (bingo, matchning) betjänar evenemangsdriven efterfrågan. Aktivitetsarbetsblad (labyrinter, prick-till-prick, hitta skillnader, spårning) täcker finmotorisk utveckling. Mönster och Logik (mer-eller-mindre, mönster) riktar sig mot tidigt lärande.\n\nResercha din valda kategori på Etsy innan du förbinder dig. Sök efter de produkttyper du planerar att skapa och undersök toppresultaten. Notera antal recensioner, prisnivåer och marknadsmättnad.\n\nFör din första butikslanering, välj en primär kategori och en sekundär kategori. Din primära kategori bör ha 10 till 15 initiala annonser. Din sekundära kategori lägger till 5 till 8 annonser.\n\nÖverväg att börja med en kategori som har naturlig korsförsäljningspotential. Mattearbetsblad paras med mönster- och logikaktiviteter. Ordsökningspussel paras med korsord och ordmix. Målarbilder paras med prick-till-prick och spårningsarbetsblad.`,
     },
     {
-      heading: 'Sätt upp ditt Etsy-säljarkonto',
+      heading: `Sätt upp ditt Etsy-säljarkonto`,
       content: `Att skapa ditt Etsy-säljarkonto tar cirka 15 till 20 minuter. Uppsättningsbesluten påverkar din butiks synlighet, betalningshantering och skattelrapportering.\n\nGå till etsy.com och klicka "Sell on Etsy." Om du redan har ett Etsy-köparkonto kan du konvertera det. Annars, skapa ett nytt konto med en e-postadress du använder exklusivt för din utskriftsverksamhet.\n\nButiksinställningar: välj butiksspråk, butikens land (bestämmer valuta och skatteformulär) och standardvaluta.\n\nBetalningsuppsättning: anslut ditt bankkonto för Etsy att sätta in dina intäkter. Du behöver också ange skatteinformation.\n\nFraktprofiler: för butiker som enbart säljer digitalt, skapa en enda fraktprofil inställd på "Digital" leverans. Köpare får omedelbar tillgång till filerna.\n\nFakturering: Etsy tar ut $0,20 annonsavgift vid publicering och drar transaktionsavgifter från försäljningar. Avgifter inkluderar annonsavgift, transaktionsavgift (6,5%) och betalningshanteringsavgift (vanligtvis 3% plus $0,25 per transaktion).\n\nAktivera tvåfaktorsautentisering omedelbart. Din Etsy-butik blir en intäktsgenererande affärstillgång.`,
     },
     {
-      heading: 'Varumärkesbygg din Etsy utskriftsbutik',
+      heading: `Varumärkesbygg din Etsy utskriftsbutik`,
       content: `Ditt butiksvarumärke kommunicerar professionalism, bygger köparförtroende och differentierar dina produkter.\n\nButiksnamn: välj ett namn som signalerar vad du säljer utan att vara så specifikt att det begränsar framtida expansion. "BrightSheet Printables" eller "Utskriftsbar Lärande Hub" kommunicerar pedagogiska utskrifter brett. Kontrollera att namnet är tillgängligt på Etsy och gärna på sociala medier.\n\nButikslogotyp: skapa en ren, professionell logotyp som är läsbar i små storlekar. En enkel typografisk logotyp fungerar bra.\n\nButiksbanderoll: designa en banderoll (1200 x 300 pixlar) som visar variationen i dina utskriftsprodukter. Inkludera 4 till 6 produktminiatyrer. Lägg till en tagline.\n\nOm-sektion: skriv en övertygande sektion som etablerar trovärdighet. Fokusera på utskriftsklar 300 DPI-kvalitet, facit inkluderade, tematiskt innehåll, flera sidstorlekar (Letter och A4) och produkter tillgängliga på flera språk.\n\nButikspolicyer: konfigurera policyer för digitala nedladdningar. Tydliggör att digitala försäljningar är slutgiltiga men att du gärna löser eventuella filproblem.\n\nButikssektioner: skapa organiserade sektioner: "Mattearbetsblad," "Ordpussel," "Målarbilder," "Lärande Aktiviteter," "Arbetsbladspaket" och "Säsongsbetonade Utskrifter."`,
     },
     {
-      heading: 'Skapa ditt första produktlager',
+      heading: `Skapa ditt första produktlager`,
       content: `Lansering kräver ett minimum produktlager med 15 till 20 initiala annonser som ger din butik tillräckligt sökyteområde.\n\nVälj 3 till 5 generatorer från olika kategorier. En stark startkombination: Addition (Matematik och Tal), Ordsökning (Bokstäver och Ord), Målarbilder (Ritning och Konst), Matchning (Pussel och Spel) och Bingo (Pussel och Spel). Denna kombination täcker 4 av 6 kategorier. Varje generator erbjuder en gratis provversion med vattenstämpel.\n\nFör varje generator, skapa produkter över 3 till 4 populära teman: djur, mat, årstider, högtider, fordon och natur. Ett enda tema producerat över 3 generatorer skapar 3 annonser direkt. Fyra teman över 3 generatorer producerar 12 annonser. Lägg till 3 till 4 paketannonser så når du 15 till 16 totalt.\n\nGenerera varje produkt med facit inkluderade. Alla generatorer producerar facit automatiskt.\n\nExportera i både PDF (leveransprodukten) och bildformat (för annonsfoton). Skapa alltid i 300 DPI.\n\nSkapa både US Letter och A4-versioner. Internationella köpare använder A4-papper.\n\nOrganisera produktfiler med tydlig, beskrivande namngivning.`,
     },
     {
-      heading: 'Skriv dina första Etsy-annonser',
+      heading: `Skriv dina första Etsy-annonser`,
       content: `Annonsoptimering avgör om dina produkter visas i Etsys sökresultat.\n\nTitlar bär mest sökvikt. Frontladda de viktigaste nyckelorden. "Additionsarbetsblad för dagis — 10 utskriftsbara matteaktiviteter med facit — PDF nedladdning" är effektivt.\n\nEtsy ger 13 tagplatser per annons — använd alla. Taggar bör täcka nyckelordsvariationer, synonymer och relaterade termer utan att upprepa exakta fraser redan i din titel. Exempel: "math worksheets kindergarten," "printable addition practice," "educational math activities," "homeschool math printables," "teacher math resources," "number worksheets kids," "digital download math," "first grade math practice," "classroom math activities," "addition facts worksheets," "offline learning activities," "math homework sheets," "printable school worksheets."\n\nBeskrivningar bör leda med vad köparen får, inte din butiksberättelse. Sedan målgrupp och användningsområden. Sedan fildetaljer. Sedan hur man använder.\n\nKategori och attribut: välj den mest specifika Etsy-kategorin. Fyll i varje attributfält.\n\nDigitala filuppladdningar: ladda upp PDF-filer direkt. Etsy tillåter upp till 5 filer per annons.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Etsy är en visuell marknadsplats. Annonsminiatyrer avgör klickfrekvens från sökresultat.\n\nFörsta bilden (miniatyren): visa 2 till 3 utskrivna arbetsbladsidor fläktade ut på en ren, neutral bakgrund. Arbetsbladsinnehållet bör vara delvis synligt. Inkludera textöverlagring med nyckelpunkt.\n\nAndra bilden: visa ett enda arbetsblad i full storlek för kvalitetsbedömning.\n\nTredje bilden: visa facit bredvid arbetsblad — kommunicerar omedelbart att facit ingår.\n\nFjärde bilden: visa variationen inom produkten med ett rutnät av 6 till 9 arbetsbladsminiatyrer.\n\nFemte bilden: "vad ingår"-infografik med innehåll, sidantal, teman, facitantal, sidstorlekar.\n\nBibehåll visuell konsekvens — samma bakgrundsfärg, textöverlagringstypsnitt och layoutstruktur över alla annonser.\n\nGratisverktyg som Canva har mallar för digitala produktmockups.`,
     },
     {
-      heading: 'Sätt priser och förstå Etsy-avgifter',
+      heading: `Sätt priser och förstå Etsy-avgifter`,
       content: `Etsys avgiftsuppdelning: $0,20 annonsavgift, 6,5% transaktionsavgift, betalningshanteringsavgift (vanligtvis 3% plus $0,25). På en försäljning på 59 kr: cirka 10 kr i avgifter, lämnar 49 kr.\n\nRekommenderade prisnivåer: enskilda arbetsblad (3 till 5 sidor) till 19–39 kr som ingångsprodukter. Tematiska paket (8 till 15 sidor) till 49–79 kr som primära intäktsprodukter. Flerformatspaket till 99–149 kr som premiumerbjudanden. Megasamlingar (30 till 100+ sidor) till 149–249 kr.\n\nUndvik prissättning under 19 kr. Låga priser signalerar låg kvalitet.\n\nAnvänd Etsys kampanj- och rabattfunktioner strategiskt. En 15–20% introduktionsrabatt på nya annonser kan boosta initial försäljningshastighet.\n\nInkludera per-artikel-värdberäkningar: "10 arbetsblad med facit för 59 kr — det är mindre än 6 kr per arbetsblad."\n\nÖverväg en "loss leader"-annons: ett högkvalitativt litet paket till 19 kr designat främst för att generera dina första recensioner.`,
     },
     {
@@ -66,37 +66,37 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Etsy-algoritmens grunder för utskriftssäljare',
+      heading: `Etsy-algoritmens grunder för utskriftssäljare`,
       content: `Etsys algoritm använder kvalitetspoäng per annons som kombinerar klickfrekvens, favoritfrekvens och konverteringsgrad. Annonser med högre kvalitetspoäng rankar högre, vilket skapar en positiv feedbackloop.\n\nTaggmatchning är frasbaserad. Taggen "printable math worksheets" matchar "printable math worksheets for kids" men kanske inte "worksheets math printable" med samma styrka. Upprepa aldrig exakta fraser från din titel i taggarna.\n\nEtsy ger tillfälliga rankningsbooster till nya och förnyade annonser. Din lanseringsperiod är kritisk — en annons som är fullt optimerad vid publicering överträffar en som publiceras snabbt och optimeras senare.\n\nButikens kvalitetspoäng påverkas av svarstid på meddelanden, recensionssnitt, orderslutförandegrad och policyefterlevnad. Bibehåll snabba svarstider (under 24 timmar).`,
     },
     {
-      heading: 'Bygga butiksmovärdighet som ny Etsy-säljare',
+      heading: `Bygga butiksmovärdighet som ny Etsy-säljare`,
       content: `Nya Etsy-butiker möter en trovärdighetslucka: köpare föredrar att köpa från etablerade säljare med recensionshistorik.\n\nDina första 5 till 10 recensioner etablerar din butiks ryktesbana. Fokusera tidiga insatser på produkter och prissättning designade att generera dessa initiala recensioner. Lägre prissatta ingångsprodukter (19 till 29 kr) har lägre köptvekan.\n\nSlutför din Om-sektion grundligt. Köpare som tvekar att köpa från en ny butik läser ofta Om-sektionen. Inkludera specifika detaljer om din produktkvalitet.\n\nSvara på köparmeddelanden inom några timmar. Etsy visar din typiska svarstid på din butikssida.\n\nInkludera en professionell tacksida i slutet av varje PDF med ditt butiksnamn och en artig recensionsinbjudan (Etsys policyer tillåter recensionsinbjudningar inom produktfilen).`,
     },
     {
-      heading: 'Undvik vanliga nybörjarmisstag',
+      heading: `Undvik vanliga nybörjarmisstag`,
       content: `Misstag ett: lansera med för få annonser. En butik med 3 till 5 annonser har minimalt sökyteområde. Lansera med 15 till 20 minimum.\n\nMisstag två: använda generiska annostitlar. "Roliga arbetsblad för barn" innehåller inga specifika söktermer. Köpare söker efter "additionsarbetsblad dagis" eller "utskrivbar ordsökning djur."\n\nMisstag tre: lämna tagplatser tomma. Varje tom tagplats är en missad möjlighet.\n\nMisstag fyra: inkonsekvent visuell presentation. Annonser med olika bakgrundsfärger och typsnitt ser ut som de kommer från olika butiker.\n\nMisstag fem: sätta priser för lågt. Prissättning under 19 kr signalerar låg kvalitet.\n\nMisstag sex: publicera alla annonser på en gång och sedan bli inaktiv. Etsys algoritm belönar konsekvent aktivitet. En butik som lägger till 3 nya annonser per vecka i 8 veckor överträffar en butik som publicerar 24 annonser på en dag och sedan lägger till inget under 2 månader.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Första månadens intäktsförväntningar och mål',
+      heading: `Första månadens intäktsförväntningar och mål`,
       content: `De flesta nya Etsy utskriftsbutiker genererar mellan 0 och 500 kr under sin första månad. Detta är normalt. Etsys algoritm behöver tid att indexera dina annonser och utvärdera deras kvalitetspoäng.\n\nDe mätvärden som spelar roll under månad ett är visningar, favoriter och konverteringsgrad — inte total intäkt. Spåra dessa dagligen i Etsy Stats.\n\nMålmilstolpar för månad ett: 500 till 1 000 totala butiksvisningar, 3 till 5 första försäljningar och helst 1 till 3 recensioner.\n\nMånad två till tre: sikta på 10 till 25 försäljningar per månad med snittordervärde på 40 till 60 kr, vilket genererar 400 till 1 500 kr månatligen. Vid månad sex genererar en välskött butik med 50+ optimerade annonser typiskt 2 000 till 5 000 kr månatligen.\n\nKom ihåg att utskriftsprodukter genererar passiv återkommande intäkt. Annonser som säljer idag kommer fortsätta sälja i månader och år. Varje annons du lägger till under din första månad är en permanent intäktsgenererande tillgång.`,
     },
     {
-      heading: 'Skala från enskilda annonser till en full katalog',
+      heading: `Skala från enskilda annonser till en full katalog`,
       content: `Dina initiala 15 till 20 annonser är frökatalogen. Skalning till 50, sedan 100, sedan 200+ annonser följer ett systematiskt expansionsmönster drivet av prestandadata.\n\nExpansionsstrategi ett — temamultiplikation: ta ditt bäst presterande produktformat och skapa versioner över varje populärt tema.\n\nExpansionsstrategi två — formatexpansion inom teman: ta ditt bäst presterande tema och skapa produkter med ytterligare generatorer.\n\nExpansionsstrategi tre — paketskapande från befintligt lager: kombinera enskilda produkter till tematiska paket, formatpaket och megasamlingar.\n\nExpansionsstrategi fyra — säsongsbetonade produkter: skapa tematiska produkter 4 till 6 veckor före säsongstoppar. Skolstart, halloween, jul, alla hjärtans dag och påsk.\n\nExpansionsstrategi fem — flerspråkiga produkter: skapa versioner av dina bäst säljande produkter på ytterligare språk. Utskriftsprodukter på spanska, franska, tyska och andra språk möter dramatiskt mindre konkurrens.`,
     },
     {
-      heading: 'Återinvestera i ditt produktutbud',
+      heading: `Återinvestera i ditt produktutbud`,
       content: `Prioritet ett: utöka din generatorverktygslåda. Varje ny generatortyp öppnar tillgång till helt nya köparsöktermer och demografier.\n\nPrioritet två: förbättra din annonsfotografering. Professionella annonsfoton ökar klickfrekvensen, vilket direkt förbättrar din kvalitetspoäng.\n\nPrioritet tre: utforska ytterligare försäljningskanaler. Amazon KDP låter dig sammanställa arbetsblad till aktivitetsböcker. Din egen webbplats ger full kontroll.\n\nPrioritet fyra: skapa flaggskeppsprodukter. Sammanställ dina bästa enskilda produkter till heltäckande megapaket prissatta till 199 till 299 kr. "Komplett Dagis Lärande Paket — 150+ Aktiviteter Över 6 Kategorier."\n\nSpåra din avkastning genom att övervaka vilka produkttyper och kategorier som genererar mest intäkt per annons. Dubbla insatsen på dina bäst presterande kategorier.`,
     },
   ],
 
   examples: [
     {
-      heading: 'Exempel 30-dagars butikslanseringsplan',
+      heading: `Exempel 30-dagars butikslanseringsplan`,
       content: `Dag 1 — konto och varumärke: skapa Etsy-säljarkonto, konfigurera betalning, designa logotyp och banderoll, skriv Om-sektion, sätt upp policyer, skapa 5 till 6 butikssektioner.\n\nDag 2 till 4 — produktskapande: använd 3 till 5 valda generatorer för 15 till 20 produkter över 3 till 4 teman. Exportera som PDF i Letter och A4. Generera facit. Skapa annonsfoton.\n\nDag 5 till 6 — annonsskapande: skriv och publicera alla 15 till 20 annonser med optimerade titlar, alla 13 taggar, beskrivningar och foton.\n\nDag 7 — lanseringsverifiering: granska alla annonser. Dela butikslink på sociala medier och Pinterest.\n\nDag 8 till 14 — övervaka, justera och lägg till: kontrollera Stats dagligen. Revidera nollvisningsannonser. Lägg till 4 till 6 nya. Skapa Pinterest-pins.\n\nDag 15 till 21 — optimera och expandera: analysera två veckors data. Skapa variationer av bäst presterande produkter. Lägg till 4 till 6 fler annonser. Överväg en 15% introduktionsrabatt.\n\nDag 22 till 30 — skala och bygg recensioner: tryck mot 25 till 30 produkter. Skapa paketannonser. Inkludera tacksidor med recensionsinbjudningar. Planera månad tvås innehållskalender.`,
     },
     {
@@ -137,20 +137,20 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
-    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: 'Etsy utskriftsbart företag mästarklass' },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: `Etsy utskriftsbart företag mästarklass` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'saelja-ordsoek-etsy', anchorText: 'Hur du säljer ordsökningspussel på Etsy' },
-    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: 'Hur du skapar additionsarbetsblad' },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'saelja-ordsoek-etsy', anchorText: `Hur du säljer ordsökningspussel på Etsy` },
+    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: `Hur du skapar additionsarbetsblad` },
     { pageType: 'app', slug: 'addition-arbetsblad', anchorText: `Addition Arbetsblad Generator — Fullständig information` },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Prova Additions Arbetsblad Skaparen' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: `Prova Additions Arbetsblad Skaparen` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions Arbetsblad Generator',
+      title: `Additions Arbetsblad Generator`,
       description: `Matematik och Tal-kategori startverktyg med högst sökvolym bland matteformat. Skapar additionsövningsarbetsblad med facit över tematiska och rentalformat för dagis till årskurs 3.`,
     },
     {
@@ -165,7 +165,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Matchning Arbetsblad Generator',
+      title: `Matchning Arbetsblad Generator`,
       description: `Visuellt Lärande-kategori startverktyg som är mångsidigt över teman och åldersgrupper. Skapar matchningsaktiviteter där användare kopplar relaterade bilder eller ordförråd.`,
     },
     {
@@ -202,11 +202,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — tematisk pedagogisk bild', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — tematisk pedagogisk bild', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — tematisk pedagogisk bild', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — tematisk pedagogisk bild', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — tematisk pedagogisk bild', caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — tematisk pedagogisk bild`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — tematisk pedagogisk bild`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — tematisk pedagogisk bild`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — tematisk pedagogisk bild`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — tematisk pedagogisk bild`, caption: 'Brachiosaurus' },
   ],
 };
 

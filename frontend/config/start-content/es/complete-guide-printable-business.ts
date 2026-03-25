@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo iniciar un negocio de imprimibles',
+    primaryKeyword: `cómo iniciar un negocio de imprimibles`,
     secondaryKeywords: [
-      'negocio de imprimibles para principiantes',
-      'vender fichas imprimibles en línea',
-      'crear una tienda de fichas imprimibles',
-      'guía para iniciar un negocio de imprimibles',
+      `negocio de imprimibles para principiantes`,
+      `vender fichas imprimibles en línea`,
+      `crear una tienda de fichas imprimibles`,
+      `guía para iniciar un negocio de imprimibles`,
     ],
     lsiKeywords: [
-      'modelo de negocio de descargas digitales',
-      'generador de fichas para vendedores',
-      'tienda Etsy de fichas imprimibles',
-      'libros de actividades Amazon KDP',
+      `modelo de negocio de descargas digitales`,
+      `generador de fichas para vendedores`,
+      `tienda Etsy de fichas imprimibles`,
+      `libros de actividades Amazon KDP`,
       'Gumroad fichas educativas',
-      'licencia comercial herramientas imprimibles',
+      `licencia comercial herramientas imprimibles`,
     ],
     titleTag: `Cómo Iniciar un Negocio de Imprimibles — Guía Completa`,
     metaDescription: `Cómo iniciar un negocio de imprimibles desde cero. Guía paso a paso para vendedores de Etsy, Amazon KDP y Gumroad con generadores de fichas para crear y vender.`,
@@ -31,7 +31,7 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: '¿Qué es un negocio de fichas imprimibles?',
+      heading: `¿Qué es un negocio de fichas imprimibles?`,
       content: `Un negocio de fichas imprimibles consiste en vender archivos digitales que los clientes descargan e imprimen en casa, en un tienda o en una imprenta. Creas el producto una sola vez — un archivo PDF o una imagen de alta resolución — y lo vendes un número ilimitado de veces. No hay inventario que gestionar, no hay envíos que organizar y no hay ningún producto físico que fabricar.\n\nLas categorías más comunes de fichas imprimibles incluyen ejercicios de matemáticas, actividades de lectoescritura, páginas para colorear, fichas de puzzles, juegos de asociación y ejercicios de reconocimiento de patrones. Estos productos sirven a padres, vendedores, emprendedores, centros de tutoría y guarderías.\n\nLo que hace que este modelo de negocio sea particularmente atractivo es la combinación de bajos costes fijos y demanda recurrente. Una ficha de suma bien hecha se vende en septiembre y se vende en marzo. Una página para colorear con temática navideña se vende cada año cuando se acercan las fiestas. Tu catálogo se acumula — cada nuevo producto que añades aumenta el potencial total de ingresos de tu tienda sin incrementar tus costes operativos.`,
     },
     {
@@ -47,15 +47,15 @@ const content: StartContent = {
       content: `Las fichas de calidad profesional requieren diseños coherentes, tipografía limpia, claves de respuestas precisas y diseños visualmente atractivos. Crearlas manualmente en un software de diseño gráfico consume mucho tiempo y es propenso a errores.\n\nLos generadores de fichas resuelven este problema. Se encargan del diseño, la lógica matemática, la generación de claves de respuestas y el diseño visual de forma automática. Tú eliges los parámetros — nivel de dificultad, rango numérico, tema, conjunto de imágenes, tamaño de página — y el generador produce un archivo listo para imprimir en segundos.\n\nLessonCraftStudio ofrece 33 generadores de fichas especializados que cubren seis categorías: matemáticas y números, letras y palabras, dibujo y arte, aprendizaje visual, asociación y clasificación, y puzzles y juegos. Cada generador incluye más de 100 conjuntos de imágenes temáticas, múltiples tamaños de página, niveles de dificultad configurables y generación automática de claves de respuestas.\n\nCada generador ofrece una prueba gratis con marca de agua para que puedas evaluar la calidad de los resultados, probar diferentes configuraciones y crear fichas de muestra antes de comprar una licencia comercial. La licencia comercial te permite vender las fichas que creas en cualquier plataforma — Etsy, Amazon KDP, Gumroad, Gumroad o tu propia web.\n\nLa ventaja práctica de usar generadores es la velocidad. Un vendedor que utiliza herramientas de diseño manual puede dedicar de 30 a 60 minutos a una sola ficha. Con un generador, puedes crear una ficha pulida y lista para imprimir en menos de dos minutos. Esa diferencia de velocidad es lo que separa a los vendedores que construyen grandes catálogos de los que se estancan con un puñado de productos.`,
     },
     {
-      heading: 'Crear tu primer producto imprimible',
+      heading: `Crear tu primer producto imprimible`,
       content: `Tu primer producto debe ser simple, probado y rápido de crear. No empieces con el tipo de ficha más complejo — comienza con algo que puedas completar en una sola sesión y publicar el mismo día.\n\nLas fichas de sopa de letras son un excelente primer producto. Son universalmente comprendidas, atraen a un amplio rango de edades y tienen un alto volumen de búsqueda en todos los marketplaces. Este es el proceso:\n\n1. Abre el generador de sopa de letras y selecciona un tema (por ejemplo, «animales»).\n2. Elige el nivel de dificultad deseado: configura el tamaño de la cuadrícula, el número de palabras y las direcciones de las palabras.\n3. Selecciona un tamaño de página (US Letter o A4) y decide si deseas incluir una clave de respuestas.\n4. Genera tu ficha. Revisa la calidad visual y el diseño del resultado.\n5. Descarga las versiones PDF y JPEG.\n6. Crea de 3 a 5 variaciones con diferentes temas o niveles de dificultad para un pequeño paquete.\n\nLos paquetes se venden mejor que las fichas individuales. Un paquete «10 Sopas de Letras de Animales» a 3,99 € se vende mejor que un puzzle individual a 0,99 € porque los compradores perciben más valor y el precio por unidad parece más bajo.\n\nAntes de publicar, verifica la calidad: imprime una copia de prueba, confirma que el diseño es limpio y resuelve la ficha tú mismo para comprobar la precisión. Las primeras impresiones importan — un solo elemento desalineado o una clave de respuestas incorrecta generará una reseña negativa que afectará las ventas futuras.`,
     },
     {
-      heading: 'Dónde vender tus fichas imprimibles en línea',
+      heading: `Dónde vender tus fichas imprimibles en línea`,
       content: `Cuatro plataformas dominan la venta de fichas imprimibles, y cada una tiene ventajas distintas.\n\nEtsy es el marketplace más grande para descargas imprimibles. Tiene un tráfico masivo integrado de compradores que buscan activamente fichas imprimibles. La tarifa de publicación es de 0,20 $ por artículo, y Etsy toma un porcentaje de cada venta. La plataforma favorece a los vendedores con catálogos grandes y buen SEO. Tu competencia principal son otros vendedores de Etsy, y la diferenciación viene de la calidad, el enfoque de nicho y la optimización de las publicaciones.\n\nAmazon KDP (Kindle Direct Publishing) atiende el mercado de libros de actividades y cuadernos de ejercicios. Los productos KDP se imprimen bajo demanda y los envía Amazon, pero también puedes publicar libros de bajo contenido como productos de tipo imprimible. KDP te da acceso a la enorme base de clientes de Amazon. La contrapartida es menos control sobre precios y presentación en comparación con Etsy.\n\nGumroad (Gumroad) se especializa en recursos educativos. El público es principalmente vendedores del mercado y emprendedores. Los compradores de Gumroad esperan productos alineados con el catálogo de productos y referenciados por niveles. Si tus fichas se dirigen a grados específicos y objetivos de aprendizaje, Gumroad es una opción natural. La plataforma toma una comisión por cada venta, con tarifas reducidas para cuentas de vendedor premium.\n\nGumroad ofrece la configuración más sencilla para vender descargas digitales directamente. Tú controlas toda la experiencia del cliente, fijas tus propios precios y te quedas con una mayor parte de cada venta. La contrapartida es que Gumroad no tiene tráfico de marketplace integrado — necesitas atraer a tus propios visitantes a través de redes sociales, listas de correo electrónico o marketing de contenidos.\n\nEl enfoque recomendado: comienza en Etsy para acceder inmediatamente a compradores, luego expándete a KDP y Gumroad a medida que tu catálogo crezca. Usa Gumroad o tu propia web para ventas directas una vez que tengas audiencia.`,
     },
     {
-      heading: 'Estrategias de precios para productos imprimibles',
+      heading: `Estrategias de precios para productos imprimibles`,
       content: `Fijar el precio de fichas imprimibles es tanto un arte como una ciencia. Si el precio es demasiado bajo, devalúas tu trabajo y atraes cazadores de ofertas que rara vez se convierten en clientes recurrentes. Si el precio es demasiado alto sin credibilidad establecida, los compradores pasan de largo.\n\nEstos son los rangos de precios que actualmente funcionan bien en las principales plataformas:\n\nFichas individuales: 1,49 €–2,99 €. Ideal para productos simples de una sola página. A este rango de precios, las compras impulsivas son frecuentes.\n\nPaquetes pequeños (5–10 páginas): 2,99 €–5,99 €. El rango de precios más popular para paquetes de fichas en Etsy. Los compradores sienten que obtienen una buena relación calidad-precio por página.\n\nPaquetes grandes (15–30+ páginas): 5,99 €–12,99 €. Funcionan mejor cuando el paquete tiene un tema claro o un enfoque de productos, como «Pack Completo de Matemáticas para Jardín de Infantes» o «Colección de Páginas para Colorear de Todo el Año».\n\nMega paquetes (50+ páginas): 14,99 €–29,99 €. Mayor ingreso por transacción pero menor volumen. Atraen a vendedores y emprendedores y quieren recursos completos.\n\nInvestiga tu nicho específico antes de fijar precios. Busca productos comparables en Etsy, anota el rango de precios de los mejores vendedores y posiciónate de manera competitiva. Generalmente es mejor empezar en el medio del mercado y ajustar en función de los datos reales de ventas en lugar de adivinar.\n\nUn insight crucial sobre precios: los paquetes superan sistemáticamente a las fichas individuales en ingresos totales. Un vendedor con 10 fichas individuales a 1,99 € cada una casi siempre ganará menos que el mismo vendedor ofreciendo esas 10 fichas como un paquete a 6,99 €. Crea ambas opciones — publicaciones individuales para visibilidad y paquetes para ingresos.`,
     },
     {
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Abre 2 o 3 generadores relevantes para tu nicho y crea fichas de muestra usando la prueba gratis con marca de agua. Evalúa la calidad de los resultados, las opciones de personalización y la facilidad de uso antes de comprometerte con una licencia.`,
     },
     {
-      step: 'Crea tu primer paquete de productos',
+      step: `Crea tu primer paquete de productos`,
       description: `Genera de 5 a 10 fichas temáticas con un generador. Varía la dificultad, el tema o la configuración de cada página. Empaquétalas como un paquete cohesivo con un título claro y un estilo visual uniforme.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Escribe un título rico en palabras clave, completa las 13 etiquetas, crea un mockup de miniatura limpio y escribe una descripción que indique claramente qué incluye, para quién es y qué formatos de archivo se proporcionan.`,
     },
     {
-      step: 'Publica de 5 a 10 productos en tu primera semana',
+      step: `Publica de 5 a 10 productos en tu primera semana`,
       description: `El impulso importa en Etsy. Las tiendas nuevas con múltiples publicaciones obtienen más visibilidad que las tiendas con un solo producto. Crea y publica al menos 5 productos en tu primera semana.`,
     },
     {
-      step: 'Establece un calendario de creación de productos',
+      step: `Establece un calendario de creación de productos`,
       description: `Comprométete a añadir 2 o 3 productos nuevos por semana. Bloquea tiempo en tu agenda específicamente para la creación de productos. La constancia es el factor más determinante para el éxito a largo plazo en la venta de imprimibles.`,
     },
     {
-      step: 'Analiza y optimiza después de 30 días',
+      step: `Analiza y optimiza después de 30 días`,
       description: `Revisa tus analíticas de Etsy después del primer mes. Identifica qué publicaciones obtienen más vistas y ventas. Crea más productos en las categorías que funcionan bien. Actualiza las publicaciones con bajo rendimiento con mejores miniaturas y palabras clave.`,
     },
     {
-      step: 'Expándete a plataformas adicionales',
+      step: `Expándete a plataformas adicionales`,
       description: `Una vez que tengas más de 20 productos y ventas constantes en Etsy, expándete a Amazon KDP y Gumroad. Adapta tus productos existentes al formato y las expectativas del público de cada plataforma.`,
     },
     {
-      step: 'Planifica tu primera colección estacional',
+      step: `Planifica tu primera colección estacional`,
       description: `Identifica la próxima gran oportunidad estacional (vuelta al cole, Halloween, Navidad, San Valentín) y crea una colección de productos temáticos al menos 4 a 6 semanas antes del pico de demanda.`,
     },
   ],
@@ -128,12 +128,12 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Las páginas para colorear están entre las categorías de imprimibles más vendidas en Etsy. Genera fichas para colorear estilo contorno a partir de más de 100 conjuntos de imágenes temáticas con diseños y tamaños de página personalizables.`,
     },
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Fichas puramente visuales que funcionan en cualquier idioma sin modificación. Las actividades de asociación atraen a compradores de preescolar y jardín de infantes y se producen rápidamente en grandes volúmenes.`,
     },
     {
@@ -186,17 +186,17 @@ const content: StartContent = {
   nextSteps: [
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas que se Venden',
+      title: `Cómo Crear Fichas que se Venden`,
       description: `Análisis en profundidad de la creación de productos: estándares de calidad, estrategias de diferenciación y las técnicas específicas que convierten fichas genéricas en productos que los compradores eligen sobre la competencia.`,
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass Negocio de Imprimibles en Etsy',
+      title: `Masterclass Negocio de Imprimibles en Etsy`,
       description: `Guía específica de plataforma para vendedores de Etsy que cubre configuración de tienda, optimización SEO, estrategias de publicación y técnicas de escalado adaptadas al marketplace de Etsy.`,
     },
     {
       slug: 'libros-actividades-amazon-kdp',
-      title: 'Guía de Libros de Actividades para Amazon KDP',
+      title: `Guía de Libros de Actividades para Amazon KDP`,
       description: `Todo lo que necesitas saber sobre publicar libros de actividades en Amazon KDP: requisitos de formato, diseño de portada, investigación de palabras clave y selección de categoría.`,
     },
     {
@@ -207,36 +207,36 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales que se Venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales que se Venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de Fichas de Suma — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el Generador de Páginas para Colorear' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Prueba el Generador de Fichas de Asociación' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de Fichas de Suma — Todos los Detalles` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Prueba el Generador de Páginas para Colorear` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Prueba el Generador de Fichas de Asociación` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ejemplo de ficha de sopa de letras creada con el generador LessonCraftStudio` },
+    heroImage: { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ejemplo de ficha de sopa de letras creada con el generador LessonCraftStudio` },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha imprimible de sopa de letras con tema de animales`, caption: 'Sopa de Letras — Tema Animales' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de suma con problemas de matemáticas basados en imágenes`, caption: 'Suma — Problemas Basados en Imágenes' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Ilustraciones Temáticas' },
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación con actividades de pares visuales', caption: 'Asociación — Actividad de Pares Visuales' },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha imprimible de sopa de letras con tema de animales`, caption: `Sopa de Letras — Tema Animales` },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de suma con problemas de matemáticas basados en imágenes`, caption: `Suma — Problemas Basados en Imágenes` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Ficha para colorear con ilustraciones temáticas`, caption: `Colorear — Ilustraciones Temáticas` },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación con actividades de pares visuales`, caption: `Asociación — Actividad de Pares Visuales` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo Crear Fichas de Sopa de Letras — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
   ],
 };
 

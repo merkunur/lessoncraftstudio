@@ -4,16 +4,16 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'puzzle worksheet bundle',
     secondaryKeywords: [
-      'puzzle worksheet generator bundle for sellers',
-      'printable logic puzzle toolkit commercial use',
-      'maze sudoku worksheet bundle for Etsy',
-      'puzzle activity generators for KDP sellers',
+      `puzzle worksheet generator bundle for sellers`,
+      `printable logic puzzle toolkit commercial use`,
+      `maze sudoku worksheet bundle for Etsy`,
+      `puzzle activity generators for KDP sellers`,
     ],
     lsiKeywords: [
-      'missing pieces sudoku maze worksheet pack',
-      'odd one out logic printable collection',
-      'commercial license puzzle worksheets',
-      'bulk puzzle worksheet creation tool',
+      `missing pieces sudoku maze worksheet pack`,
+      `odd one out logic printable collection`,
+      `commercial license puzzle worksheets`,
+      `bulk puzzle worksheet creation tool`,
     ],
     titleTag: `Puzzle Worksheet Bundle — 4 Logic & Puzzle Generators`,
     metaDescription: `Puzzle worksheet bundle with 4 generators: missing pieces, odd one out, picture sudoku, and mazes. Sell on Etsy, KDP, and Gumroad. Commercial license included.`,
@@ -27,15 +27,15 @@ const content: BundleContent = {
 
   appsIncluded: [
     {
-      title: 'Missing Pieces Puzzle Generator',
+      title: `Missing Pieces Puzzle Generator`,
       description: `Create grid-based missing piece puzzles where a themed image is divided into segments and selected pieces are removed. Solvers examine the complete image reference and identify which pieces belong in the empty spaces — a spatial reasoning exercise that builds observation skills, visual memory, and part-to-whole understanding. Configure grid sizes from small grids for beginners to larger grids for advanced solvers, controlling how many pieces are removed and how challenging the identification task becomes. The generator handles the image splitting, piece removal, and answer key creation automatically — you choose the theme and difficulty, and the tool produces a print-ready puzzle page with its corresponding solution. Missing piece puzzles are a proven product category on Etsy and KDP because they appeal to a wide age range: simple 2x2 grids for the early-learner market while older users tackle complex configurations that require careful spatial analysis. Every worksheet is purely visual — no text on the page — making each puzzle sellable worldwide without translation. Choose from over 100 themed image sets or upload your own images for niche-specific puzzle products.`,
     },
     {
-      title: 'Odd One Out Worksheet Generator',
+      title: `Odd One Out Worksheet Generator`,
       description: `Generate visual discrimination worksheets where each row displays a group of similar images with one item that differs from the rest. Solvers identify the odd item in each row — an exercise that strengthens attention to detail, visual scanning, and categorical thinking. The generator supports per-row mode selection, letting you mix different types of "odd" criteria across a single worksheet: one row might feature a different animal species, the next a different color variant, and another a different orientation. This variety within a single page keeps the activity engaging and prevents solvers from falling into a pattern-matching shortcut. Configure the number of rows per page and the number of items per row to scale difficulty for different age groups. Every worksheet generates a matching answer key automatically, highlighting the correct odd item in each row. Odd One Out is one of the most recognizable early childhood activity formats — buyers search for it by name, making it a high-traffic product category. Every worksheet is purely visual with no text on the page, so every puzzle works in any language and any market worldwide.`,
     },
     {
-      title: 'Picture Sudoku Worksheet Generator',
+      title: `Picture Sudoku Worksheet Generator`,
       description: `Produce 4x4 Sudoku puzzles that use themed images instead of numbers — making the classic logic game accessible to younger audiences who have not yet learned digits. Solvers place four different images so that each row and each column contains every image exactly once, developing logical deduction and process-of-elimination thinking. The 4x4 grid is specifically sized for the target audience: large enough to present a genuine logic challenge, small enough that beginners can manage it without frustration. Configure difficulty levels by controlling how many cells are pre-filled — fewer starting images create harder puzzles that require more deductive steps. Every worksheet generates a matching answer key automatically showing the complete solved grid. Picture Sudoku is a standout product category because it combines the universal recognition of the Sudoku brand with visual gameplay accessible to all ages. Buyers searching for "kids sudoku" or "picture sudoku" find a product that looks familiar yet is age-appropriate. Every worksheet is purely visual — no numbers, no text, just images — making each puzzle sellable worldwide. Choose from over 100 themed image sets or upload your own for branded puzzle products.`,
     },
     {
@@ -50,7 +50,7 @@ const content: BundleContent = {
       description: `Buying each app separately costs significantly more. The bundle packages all four puzzle and logic generators at a fraction of the individual total, giving you maximum product variety for a single investment. You get missing piece puzzles, odd one out challenges, picture Sudoku, and maze activities — four distinct puzzle types that buyers search for independently — in a single discounted package.`,
     },
     {
-      title: '100% Visual-Only — Every App, Every Worksheet',
+      title: `100% Visual-Only — Every App, Every Worksheet`,
       description: `This is the only bundle where every single app produces purely visual worksheets. No text appears on any page — just images, grids, paths, and visual patterns. Every worksheet you create works in every country, every language, and every market without translation or modification. List the same PDF on English-language Etsy, German Amazon, Japanese educational marketplaces, or anywhere else — the product is identical and universally understood.`,
     },
     {
@@ -96,21 +96,21 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Tutoring and Homeschool Enrichment',
+      title: `Tutoring and Homeschool Enrichment`,
       description: `Puzzle and logic activities are ideal enrichment materials for tutoring sessions and homeschool curricula. They develop cognitive skills that support academic performance across subjects without being tied to a specific topic or standard. Generate fresh puzzles for each session with different themes and difficulty levels so solvers never see the same page twice. The four puzzle types let you rotate activities throughout the week — Sudoku on Monday, mazes on Tuesday, missing pieces on Wednesday, odd one out on Thursday — keeping engagement high and building diverse thinking skills.`,
     },
     {
-      title: 'Special Needs and Therapy Materials',
+      title: `Special Needs and Therapy Materials`,
       description: `Occupational therapists, speech therapists, and special needs professionals use puzzle and logic worksheets to develop cognitive skills in structured, visual formats. The purely visual nature of every worksheet in this bundle removes language barriers entirely — users who struggle with text-based activities can engage fully with image-based puzzles. Missing Pieces builds visual memory and part-to-whole understanding. Odd One Out develops attention to detail. Sudoku exercises logical sequencing. Mazes practice planning and fine motor coordination. Adjustable difficulty across all four generators lets therapists match activities precisely to individual skill levels.`,
     },
   ],
 
   featureComparison: [
-    { feature: 'All 4 puzzle & logic generators', commercial: 'Yes', fullAccess: 'Yes' },
+    { feature: `All 4 puzzle & logic generators`, commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Themed image sets', commercial: '10 themes', fullAccess: '104 themes' },
-    { feature: 'Custom image uploads (PNG/JPEG)', commercial: 'Yes', fullAccess: 'Yes' },
-    { feature: 'Automatic answer keys (all 4 apps)', commercial: 'Yes', fullAccess: 'Yes' },
-    { feature: 'All visual-only — no text on worksheets', commercial: 'Yes', fullAccess: 'Yes' },
+    { feature: `Custom image uploads (PNG/JPEG)`, commercial: 'Yes', fullAccess: 'Yes' },
+    { feature: `Automatic answer keys (all 4 apps)`, commercial: 'Yes', fullAccess: 'Yes' },
+    { feature: `All visual-only — no text on worksheets`, commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'PDF and JPEG download', commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Commercial selling rights', commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Interface languages', commercial: 'English only', fullAccess: '11 languages' },
@@ -121,11 +121,11 @@ const content: BundleContent = {
 
   whoIsThisFor: [
     {
-      title: 'Etsy and KDP Printable Sellers',
+      title: `Etsy and KDP Printable Sellers`,
       description: `You sell digital downloads on Etsy or publish puzzle books on Amazon KDP and want a fast, reliable way to produce professional puzzle worksheets at scale. The bundle gives you four generators and hundreds of theme combinations to build a diverse product catalog. The 100% visual-only format is a massive advantage — every product you create sells worldwide without translation, doubling or tripling your addressable market compared to text-based worksheet bundles. KDP puzzle books are one of the highest-demand product categories, and this bundle lets you create multi-format books that outperform single-type competitors.`,
     },
     {
-      title: 'Gumroad and Independent Store Sellers',
+      title: `Gumroad and Independent Store Sellers`,
       description: `You sell digital products on Gumroad or your own store and need logic and critical thinking materials that go beyond basic worksheets. All four generators produce answer keys automatically — meeting buyer expectations for complete, ready-to-use resources. The cognitive skill variety lets you create differentiated logic packs for different age levels: simple puzzles for beginners and complex challenges for more advanced solvers. The visual-only format means your resources work equally well in any language setting.`,
     },
     {
@@ -133,18 +133,18 @@ const content: BundleContent = {
       description: `You need enrichment activities that develop cognitive skills beyond subject-specific drilling. Puzzle and logic worksheets build spatial reasoning, visual discrimination, logical deduction, and problem-solving — skills that transfer across all academic subjects. Generate fresh puzzles for each product release with different themes and difficulty settings so buyers stay engaged week after week. Every generator offers a free trial with watermark so you can evaluate all four puzzle types before purchasing.`,
     },
     {
-      title: 'Therapists and Special Needs Professionals',
+      title: `Therapists and Special Needs Professionals`,
       description: `You work with individuals who benefit from structured, visual cognitive exercises. The purely visual nature of every worksheet removes reading requirements entirely, making these puzzles accessible to users with language delays, learning disabilities, or limited English proficiency. Adjustable difficulty across all four generators lets you match activities to individual developmental levels. Missing Pieces for visual memory, Odd One Out for attention to detail, Sudoku for logical sequencing, and Picture Path for planning and fine motor coordination — each targets a specific cognitive domain used in therapy settings.`,
     },
   ],
 
   faq: [
     {
-      question: 'Can I try the generators before buying?',
+      question: `Can I try the generators before buying?`,
       answer: `Yes. Every generator in the bundle offers a free trial with full functionality. You can configure all settings, preview worksheets, and download files. Trial downloads include a watermark. Purchasing a license removes the watermark so you can sell commercially. We recommend testing each of the four generators before purchasing to confirm they meet your needs.`,
     },
     {
-      question: 'Are all four generators really visual-only?',
+      question: `Are all four generators really visual-only?`,
       answer: `Yes. Every worksheet produced by every generator in this bundle contains only images, grids, paths, and visual patterns — no text whatsoever appears on the worksheet page. This means every puzzle you create works in any language and any country without translation. The interface language setting affects only the generator controls, not the worksheets themselves. This is the only bundle where 100% of the apps are visual-only.`,
     },
     {
@@ -152,11 +152,11 @@ const content: BundleContent = {
       answer: `Picture Sudoku uses a 4x4 grid with themed images instead of the standard 9x9 grid with numbers. Solvers place four different images so that each row and each column contains every image exactly once. The 4x4 format is specifically designed for younger audiences who may not yet be comfortable with numbers — they apply the same logical deduction skills using familiar images like animals, food, or vehicles. The smaller grid keeps the challenge manageable while still requiring genuine logical reasoning.`,
     },
     {
-      question: 'What are the three Picture Path modes?',
+      question: `What are the three Picture Path modes?`,
       answer: `Picture Path offers three distinct maze modes. Pathway mode creates a route through a grid of images where solvers trace the correct sequence. Classic Maze mode generates traditional maze structures with themed image decorations at start and finish. Choose-the-Path mode presents branching decision trees where solvers select the correct route at each fork. All three modes produce answer keys showing the correct solution path highlighted on the maze.`,
     },
     {
-      question: 'Do all four generators include answer keys?',
+      question: `Do all four generators include answer keys?`,
       answer: `Yes. All four generators produce automatic answer keys with every worksheet — this is the only bundle with 100% answer key coverage. Missing Pieces shows the correct placements, Odd One Out highlights the odd item in each row, Sudoku displays the completed grid, and Picture Path traces the correct route. Answer keys are a top buyer expectation on Etsy and Gumroad, and you never need to solve puzzles manually.`,
     },
     {
@@ -172,7 +172,7 @@ const content: BundleContent = {
       answer: `Both tiers include all four generators with watermark-free downloads and commercial selling rights. Commercial gives you 10 themed image sets and English-only interface. Full Access unlocks all 104 themed image sets and all 11 interface languages. Since all four generators are visual-only, the language setting affects only the generator controls — the worksheets themselves are identical regardless of tier. The primary advantage of Full Access is the 104 themes, which give you far more product variety for your catalog.`,
     },
     {
-      question: 'How many worksheets can I create?',
+      question: `How many worksheets can I create?`,
       answer: `There is no limit. Once licensed, you can generate as many worksheets as you want across all four generators. There are no per-download fees, monthly caps, or usage restrictions. With four generators, multiple difficulty levels per generator, and 100+ image themes, the number of unique puzzle products you can create is practically unlimited. Many sellers generate entire themed puzzle books in a single session.`,
     },
     {
@@ -182,14 +182,14 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing Pieces Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Generator — Full Details' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator — Full Details' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Generator — Full Details' },
-    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'How to Create Crossword Puzzles That Sell' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Publish Activity Books on Amazon KDP' },
-    { pageType: 'idea', slug: 'first-grade-printable-ideas', anchorText: 'First Grade Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: `Missing Pieces Puzzle Generator — Full Details` },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: `Odd One Out Generator — Full Details` },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: `Picture Sudoku Generator — Full Details` },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: `Picture Path Maze Generator — Full Details` },
+    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: `How to Create Crossword Puzzles That Sell` },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: `How to Publish Puzzle Books on Amazon KDP` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Publish Activity Books on Amazon KDP` },
+    { pageType: 'idea', slug: 'first-grade-printable-ideas', anchorText: `First Grade Printable Ideas for Sellers` },
   ],
 
   visuals: {
@@ -198,24 +198,24 @@ const content: BundleContent = {
       primaryAlt: `Missing pieces puzzle worksheet with grid segments removed for spatial reasoning challenge`,
     },
     sampleGallery: [
-      { src: `/samples/english/missing pieces/Missing Pieces.webp`, alt: 'Missing pieces puzzle with image grid segments removed', caption: 'Missing Pieces Puzzle' },
-      { src: `/samples/english/odd one out/Find the Odd One Out.webp`, alt: 'Odd one out worksheet with rows of similar images and one different', caption: 'Odd One Out Worksheet' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: `4x4 picture Sudoku puzzle with themed images instead of numbers`, caption: 'Picture Sudoku Puzzle' },
-      { src: `/samples/english/picture path/Picture Pathway.webp`, alt: 'Picture path maze with themed image route through grid', caption: 'Picture Path Maze' },
+      { src: `/samples/english/missing pieces/Missing Pieces.webp`, alt: `Missing pieces puzzle with image grid segments removed`, caption: 'Missing Pieces Puzzle' },
+      { src: `/samples/english/odd one out/Find the Odd One Out.webp`, alt: `Odd one out worksheet with rows of similar images and one different`, caption: 'Odd One Out Worksheet' },
+      { src: `/samples/english/sudoku/sudoku_worksheet.webp`, alt: `4x4 picture Sudoku puzzle with themed images instead of numbers`, caption: 'Picture Sudoku Puzzle' },
+      { src: `/samples/english/picture path/Picture Pathway.webp`, alt: `Picture path maze with themed image route through grid`, caption: 'Picture Path Maze' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: `Puzzles & Logic Bundle — See All 4 Generators in Action`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — themed educational image', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — themed educational image', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — themed educational image', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — themed educational image', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — themed educational image', caption: 'Brachiosaurus' },
-    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontosaurus — themed educational image', caption: 'Brontosaurus' },
-    { src: '/image-library/dinosaurs/carnotaurus.webp', alt: 'Carnotaurus — themed educational image', caption: 'Carnotaurus' },
-    { src: '/image-library/dinosaurs/deinonychus.webp', alt: 'Deinonychus — themed educational image', caption: 'Deinonychus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — themed educational image`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — themed educational image`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — themed educational image`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — themed educational image`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — themed educational image`, caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/brontosaurus.webp`, alt: `Brontosaurus — themed educational image`, caption: 'Brontosaurus' },
+    { src: `/image-library/dinosaurs/carnotaurus.webp`, alt: `Carnotaurus — themed educational image`, caption: 'Carnotaurus' },
+    { src: `/image-library/dinosaurs/deinonychus.webp`, alt: `Deinonychus — themed educational image`, caption: 'Deinonychus' },
   ],
 };
 

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sports Printable Ideas to Sell — Niche Guide',
+    titleTag: `Sports Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover sports printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Athletic-themed product concepts, platform strategies, and tips for this year-round.`,
 
     primaryKeyword: 'sports printable ideas',
     secondaryKeywords: [
-      'sports themed worksheets to sell',
-      'sports printable business ideas',
-      'athletic activity sheets for sellers',
-      'sell sports printables on Etsy',
+      `sports themed worksheets to sell`,
+      `sports printable business ideas`,
+      `athletic activity sheets for sellers`,
+      `sell sports printables on Etsy`,
     ],
     lsiKeywords: [
-      'team sport educational worksheets',
-      'ball game themed activity pages',
-      'physical education themed printables',
+      `team sport educational worksheets`,
+      `ball game themed activity pages`,
+      `physical education themed printables`,
     ],
   },
   hero: {
-    title: 'Sports Printable Business Ideas for Sellers',
-    description: `Sports is one of the most universally engaging themes for children of all ages, making it an exceptional evergreen niche for printable entrepreneurs seeking consistent year-round revenue powered by seasonal sport rotation and broad cross-curricular appeal. The sports theme offers remarkable sub-theme depth including soccer, basketball, football, baseball, tennis, hockey, volleyball, swimming, running, gymnastics, olympics, ball games, team sports, and individual sports, giving sellers a vast visual vocabulary that connects to nearly every child's active interests whether they play on organized teams, enjoy backyard games, or watch their favorite athletes compete on television. Cross-curricular versatility makes sports printables especially valuable because athletics connect naturally to math through scores, statistics, and counting, literacy through sports vocabulary and team terminology, physical education through movement motivation and health awareness, and social skills through teamwork and sportsmanship concepts. For printable sellers on Etsy, Amazon KDP, and Gumroad, the sports niche combines strong year-round demand with universal relatability that resonates with PE-focused buyers seeking sports unit materials, sellers creating engaging themed activities, homeschool families exploring athletic topics, and parents looking for educational materials that channel their child's sports enthusiasm into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable sports printable product line using our worksheet generator tools.`,
+    title: `Sports Printable Business Ideas for Sellers`,
+    description: `Sports is one of the most universally engaging themes for children of all ages, making it an exceptional evergreen niche for printable entrepreneurs seeking consistent year-round revenue powered by seasonal sport rotation and broad cross-curricular appeal. The sports theme offers remarkable sub-theme depth including soccer, basketball, football, baseball, tennis, hockey, volleyball, swimming, running, gymnastics, olympics, ball games, team sports, and individual sports, giving sellers a vast visual vocabulary that connects to nearly every child`s active interests whether they play on organized teams, enjoy backyard games, or watch their favorite athletes compete on television. Cross-curricular versatility makes sports printables especially valuable because athletics connect naturally to math through scores, statistics, and counting, literacy through sports vocabulary and team terminology, physical education through movement motivation and health awareness, and social skills through teamwork and sportsmanship concepts. For printable sellers on Etsy, Amazon KDP, and Gumroad, the sports niche combines strong year-round demand with universal relatability that resonates with PE-focused buyers seeking sports unit materials, sellers creating engaging themed activities, homeschool families exploring athletic topics, and parents looking for educational materials that channel their child`s sports enthusiasm into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable sports printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The sports printable niche holds a uniquely powerful position for printable sellers because nearly every child has a direct, personal connection to sports through playing on teams, watching games with family, collecting trading cards, wearing team jerseys, or participating in PE class and recess activities. Unlike seasonal themes that concentrate demand into narrow calendar windows, the sports niche benefits from natural seasonal rotation: football dominates fall searches, basketball and hockey drive winter demand, baseball and soccer surge in spring and summer, and swimming and track peak during warm-weather months. This rotating cycle ensures that sports-themed educational materials maintain consistent year-round relevance rather than depending on a single peak season.
 
@@ -36,17 +36,17 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
 
   productIdeas: [
     {
-      title: 'Sports Counting Worksheets for Printable Sellers',
+      title: `Sports Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring basketballs, soccer balls, footballs, baseballs, and trophies bring athletic excitement to early math practice that buyers and parents purchase throughout the entire school year for sports-themed learning activities and home learning. Use the Find and Count generator to create busy sports scenes where children locate and tally specific items among stadium crowds, equipment rooms, playing fields, gym floors, and trophy display cases filled with athletic gear. Offer sets targeting multiple ability levels: count soccer balls up to five for the preschool-age market, count and write numbers to ten for the kindergarten-age market using basketball imagery, and skip-counting with rows of baseballs or groups of tennis balls for first graders building stronger number sense skills.`,
       appId: 'find-count',
     },
     {
-      title: 'Sports Word Search Puzzles to Sell Online',
+      title: `Sports Word Search Puzzles to Sell Online`,
       description: `Sports vocabulary word searches attract buyers planning athletic units and parents seeking educational entertainment that channels their child's natural enthusiasm for games and competition into productive literacy skill development and vocabulary expansion across multiple sport categories. Create puzzles featuring sport-specific vocabulary like soccer, basketball, football, baseball, tennis, hockey, volleyball, swimming, running, and gymnastics alongside broader athletic terms like athlete, stadium, trophy, coach, and referee. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more sports terms for older children exploring team positions and equipment terminology.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Sports Matching Activities for Educational Shops',
+      title: `Sports Matching Activities for Educational Shops`,
       description: `Matching worksheets using sports themes work across multiple skill areas, making them versatile products that appeal to buyers running cross-curricular sports units, and parents building educational libraries for children who love athletics and competition. Create sets where children match athletes to their equipment, pair sports to their playing fields, or connect balls to the sports they belong to. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to preschool and kindergarten buyers integrating sports themes where visual matching builds observation and categorization skills. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the evergreen sports rotation drives consistent purchases year-round.`,
       appId: 'matching',
     },
@@ -56,12 +56,12 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
       appId: 'addition',
     },
     {
-      title: 'Sports Coloring Pages for Etsy and KDP Sellers',
+      title: `Sports Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for sports printable shops because athletic coloring appeals to virtually every child who enjoys imagining themselves scoring goals, winning races, and celebrating victories, generating early reviews that boost your shop visibility across all your sports-themed listings. The Coloring Page generator creates detailed outlines of athletes in action poses, sports equipment collections, stadium scenes buzzing with energy, trophy celebrations, and team huddle moments that capture the excitement of competition. For Etsy, sell curated sets of ten to fifteen pages grouped by sport type such as ball sports or water sports. For KDP, compile thirty to fifty coloring pages into sports activity books positioned as gifts for young athletes. Add educational elements like sport name labels, equipment identification, or counting prompts to differentiate.`,
       appId: 'coloring',
     },
     {
-      title: 'Sports Bingo Cards for Group Activities',
+      title: `Sports Bingo Cards for Group Activities`,
       description: `Sports bingo cards serve group leaders running athletic vocabulary sessions and buyers seeking interactive group activities that reinforce sports terminology and equipment identification more effectively than individual worksheets alone in engaging group and gym settings. The Bingo generator creates unique card variations from your sports vocabulary list, ensuring no two cards are identical for group play. Sell group sets of twenty-five to thirty cards with a caller sheet and sports vocabulary reference guide included. For the family market, create bingo kits featuring different sports, equipment types, athletic positions, and stadium elements that families can play during sports viewing parties or rainy-day indoor activities when outdoor play is not possible.`,
       appId: 'bingo',
     },
@@ -90,17 +90,17 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Sports Printables on Etsy',
+      title: `Selling Sports Printables on Etsy`,
       description: `Etsy rewards the sports niche with consistent year-round listing performance because seasonal sport rotation keeps demand flowing continuously as parents search for football worksheets in fall, basketball activities in winter, baseball printables in spring, and swimming resources in summer without any prolonged low-demand periods. Use all thirteen tags with variations combining sport types, skill areas, and age groups: "soccer counting worksheets preschool," "basketball coloring pages toddler," and "football word search kindergarten" target specific buyer searches far more effectively than broad tags like "sports worksheets." Position your products for both educational and gift-buyer searches by including terms like "young athlete activity" and "sports fan printable" in your titles and descriptions. Listing images showing printed sports worksheets alongside sports equipment, team jerseys, or athletic room decor outperform flat digital previews and capture the enthusiasm-driven mindset that brings parents of sports-loving children searching for themed educational resources to Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Sports Activity Books on KDP',
-      description: `Amazon KDP excels for sports printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children's sports books, athletic equipment, team merchandise, and coaching guides that fuel young athletes' passion for competition and achievement. Compile individual sports worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around athletic themes. Use KDP keyword fields strategically: include "sports activity book for kids," "basketball worksheets preschool," and sub-theme terms like "soccer coloring book" or "football activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for young athletes, companions to sports equipment, or supplements to PE resources. Sports activity books benefit from year-round demand with seasonal sport spikes that rotate continuously throughout the calendar year.`,
+      title: `Publishing Sports Activity Books on KDP`,
+      description: `Amazon KDP excels for sports printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children`s sports books, athletic equipment, team merchandise, and coaching guides that fuel young athletes` passion for competition and achievement. Compile individual sports worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around athletic themes. Use KDP keyword fields strategically: include "sports activity book for kids," "basketball worksheets preschool," and sub-theme terms like "soccer coloring book" or "football activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for young athletes, companions to sports equipment, or supplements to PE resources. Sports activity books benefit from year-round demand with seasonal sport spikes that rotate continuously throughout the calendar year.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Sports Resources for Your Own Store',
+      title: `Creating Sports Resources for Your Own Store`,
       description: `Buyers are searching for sports-themed educational supplements, athletic vocabulary activities, and cross-curricular resources that integrate sports concepts into math, literacy, and physical education instruction with minimal preparation time required. Sports printables perform best when packaged as ready-to-use activity solutions: sports-themed morning work packets, athletic vocabulary activity stations, or PE unit companion worksheets with clear learning objectives that connect physical activity concepts to academic skill development. Include learning objectives mapping to PE, math, literacy, and health standards so buyers can justify sports-themed activities to program coordinators reviewing instructional material purchases. Gumroad's bundling feature lets you offer individual sport products and a discounted sports mega-bundle simultaneously, capturing both budget-conscious buyers purchasing single items and those investing in comprehensive unit resources.`,
     },
     {
@@ -113,11 +113,11 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
   faq: [
     {
       question: `How profitable is the sports printable niche for sellers?`,
-      answer: `The sports printable niche offers strong profit potential because it delivers consistent year-round demand driven by seasonal sport rotation and the universal appeal of athletics in children's daily lives. PE-focused buyers purchase sports-themed worksheets for athletic units, parents use them for cross-curricular instruction, and parents buy them to channel their child's sports enthusiasm into productive learning experiences. The rotating seasonal cycle where different sports peak at different times means your catalog stays relevant across all twelve months rather than depending on a single peak period. Profitability compounds as your catalog grows because each new sport-specific product captures additional long-tail searches and cross-sells effectively with your existing athletic listings. Sellers who build deep catalogs covering multiple sports across different skill areas and age groups typically see reliable baseline revenue enhanced by predictable seasonal surges as each sport enters its peak demand period throughout the year.`,
+      answer: `The sports printable niche offers strong profit potential because it delivers consistent year-round demand driven by seasonal sport rotation and the universal appeal of athletics in children`s daily lives. PE-focused buyers purchase sports-themed worksheets for athletic units, parents use them for cross-curricular instruction, and parents buy them to channel their child`s sports enthusiasm into productive learning experiences. The rotating seasonal cycle where different sports peak at different times means your catalog stays relevant across all twelve months rather than depending on a single peak period. Profitability compounds as your catalog grows because each new sport-specific product captures additional long-tail searches and cross-sells effectively with your existing athletic listings. Sellers who build deep catalogs covering multiple sports across different skill areas and age groups typically see reliable baseline revenue enhanced by predictable seasonal surges as each sport enters its peak demand period throughout the year.`,
     },
     {
       question: `Is the sports printable niche seasonal or year-round?`,
-      answer: `The sports printable niche is fundamentally year-round, which is one of its strongest advantages for printable sellers building sustainable businesses. While individual sports have seasonal peaks, the sports niche as a whole maintains consistent demand because different sports rotate through their peak seasons continuously. Football and soccer worksheets surge in fall, basketball and hockey printables drive winter sales, baseball and track resources peak in spring, and swimming and summer sport activities dominate warm-weather months. This natural rotation means there is never a dead period for sports printables because as one sport's season winds down, another sport's demand ramps up. PE-focused buyers purchase sports materials throughout the entire academic year as they cycle through different athletic units in their programs. Olympic events create additional demand spikes every two years that benefit sellers with gymnastics, swimming, track, and multi-sport themed products. By covering multiple sports in your catalog, you ensure steady revenue across all seasons.`,
+      answer: `The sports printable niche is fundamentally year-round, which is one of its strongest advantages for printable sellers building sustainable businesses. While individual sports have seasonal peaks, the sports niche as a whole maintains consistent demand because different sports rotate through their peak seasons continuously. Football and soccer worksheets surge in fall, basketball and hockey printables drive winter sales, baseball and track resources peak in spring, and swimming and summer sport activities dominate warm-weather months. This natural rotation means there is never a dead period for sports printables because as one sport`s season winds down, another sport`s demand ramps up. PE-focused buyers purchase sports materials throughout the entire academic year as they cycle through different athletic units in their programs. Olympic events create additional demand spikes every two years that benefit sellers with gymnastics, swimming, track, and multi-sport themed products. By covering multiple sports in your catalog, you ensure steady revenue across all seasons.`,
     },
     {
       question: `What age groups buy sports-themed printables most frequently?`,
@@ -145,32 +145,32 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
     {
       pageType: 'idea',
       slug: 'food-cooking-printable-ideas',
-      anchorText: 'Food & Cooking Printable Business Ideas',
+      anchorText: `Food & Cooking Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/sports%20bw/badminton.webp', alt: 'Badminton — themed educational image', caption: 'Badminton' },
-    { src: '/image-library/sports%20bw/baseball.webp', alt: 'Baseball — themed educational image', caption: 'Baseball' },
-    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Baseball 2 — themed educational image', caption: 'Baseball 2' },
-    { src: '/image-library/sports%20bw/basketball.webp', alt: 'Basketball — themed educational image', caption: 'Basketball' },
-    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
-    { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
+    { src: `/image-library/sports%20bw/badminton.webp`, alt: `Badminton — themed educational image`, caption: 'Badminton' },
+    { src: `/image-library/sports%20bw/baseball.webp`, alt: `Baseball — themed educational image`, caption: 'Baseball' },
+    { src: `/image-library/sports%20bw/baseball%202.webp`, alt: `Baseball 2 — themed educational image`, caption: 'Baseball 2' },
+    { src: `/image-library/sports%20bw/basketball.webp`, alt: `Basketball — themed educational image`, caption: 'Basketball' },
+    { src: `/image-library/sports%20bw/beach%20ball.webp`, alt: `Beach Ball — themed educational image`, caption: 'Beach Ball' },
+    { src: `/image-library/sports%20bw/bicycle.webp`, alt: `Bicycle — themed educational image`, caption: 'Bicycle' },
   ],
 
 

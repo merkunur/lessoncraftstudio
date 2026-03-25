@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'pacotes de fichas Etsy',
     secondaryKeywords: [
-      'como criar pacotes de fichas Etsy',
+      `como criar pacotes de fichas Etsy`,
       `estratégia de anúncios de pacotes imprimíveis Etsy`,
-      'vender pacotes de fichas no Etsy',
-      'criação de pacotes de downloads digitais Etsy',
+      `vender pacotes de fichas no Etsy`,
+      `criação de pacotes de downloads digitais Etsy`,
     ],
     lsiKeywords: [
       `otimização de anúncios Etsy organização de ficheiros pacotes estratégia`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `entrega digital Etsy ficheiros múltiplos estrutura de pacotes`,
       `estratégia de loja Etsy pacotes vs anúncios individuais canibalização`,
     ],
-    titleTag: 'Criar pacotes de fichas Etsy — Guia',
+    titleTag: `Criar pacotes de fichas Etsy — Guia`,
     metaDescription: `Crie pacotes de fichas Etsy que aumentam o valor médio do pedido. Tipos de pacotes, organização de ficheiros, imagens de pré-visualização e otimização.`,
   },
 
   hero: {
-    title: 'Como criar pacotes de fichas Etsy',
+    title: `Como criar pacotes de fichas Etsy`,
     tagline: `Um guia completo para criar, estruturar, publicar e otimizar pacotes de fichas para o Etsy — incluindo seleção do tipo de pacote por disciplina, ano, tema, estação e formato, seleção de produtos para máximo valor percebido, organização de ficheiros dentro dos limites de entrega do Etsy, imagens de pré-visualização específicas para pacotes e design de miniaturas, títulos e etiquetas de anúncios otimizados para termos de pesquisa de pacotes, estratégias de preços com valor empilhado e descontos de ancoragem, e acompanhamento do desempenho para identificar as suas combinações de pacotes com melhor resultado`,
     description: `Os pacotes de fichas estão entre os anúncios de maior receita no Etsy para vendedores de imprimíveis educativos. Este guia acompanha-o em todo o fluxo de trabalho de criação de pacotes — desde escolher que produtos combinar até escrever anúncios que comuniquem o valor do pacote e acompanhar o desempenho ao longo do tempo.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Os pacotes de produtos digitais têm vantagens estruturais no Etsy que os pacotes de produtos físicos não têm. Compreender estas vantagens ajuda-o a construir pacotes que maximizem o seu potencial.\n\nMaior valor percebido: Os compradores avaliam os pacotes comparando o preço do pacote com a soma dos preços dos produtos individuais. Um pacote de oito fichas com um preço de $12 quando as fichas individuais se vendem a $3 cada uma representa um valor individual de $24 — uma poupança de 50%. Este desconto percebido impulsiona as decisões de compra mesmo quando o comprador poderia ter comprado apenas dois ou três artigos individuais. A chave é que cada artigo do pacote deve ser algo que o comprador plausivelmente quereria.\n\nMaior valor médio de pedido: A métrica mais importante para a rentabilidade de uma loja de imprimíveis é a receita por transação. O Etsy cobra taxas de anúncio e de processamento de pagamentos por transação, pelo que ganhar $12 de uma venda é significativamente mais rentável do que ganhar $12 de quatro vendas separadas de $3. Os pacotes impulsionam naturalmente esta métrica para cima.\n\nMelhor posicionamento nas pesquisas para palavras-chave de pacotes: Os compradores que pesquisam termos com «pacote» ou «pack» têm maior intenção de compra. Já decidiram que querem múltiplos produtos e estão a comparar opções de pacotes. A concorrência por palavras-chave específicas de pacotes também é tipicamente menor do que para palavras-chave de produtos individuais, dando às lojas novas um caminho realista para a visibilidade nas pesquisas.\n\nZero custo marginal de produção: Ao contrário dos pacotes de produtos físicos onde os custos de envio e embalagem aumentam com o tamanho do pacote, os pacotes digitais não custam nada extra para entregar. Uma vez que criou as fichas individuais, combiná-las num pacote requer apenas organização de ficheiros e um novo anúncio. Isto significa que cada dólar de receita do pacote acima dos componentes individuais é margem pura.\n\nRedução da fadiga de decisão do comprador: Os vendedores e pais que compram materiais educativos sentem-se frequentemente sobrecarregados com as opções. Um pacote selecionado que diz «tudo o que precisa para matemática infantil» elimina a necessidade de avaliar e selecionar produtos individuais. Este fator de conveniência é um argumento de venda genuíno que justifica o preço do pacote.`,
     },
     {
-      heading: 'Escolha o tipo e tema do seu pacote',
+      heading: `Escolha o tipo e tema do seu pacote`,
       content: `Nem todos os pacotes se estruturam da mesma forma. O tipo de pacote que cria determina que compradores atrai e como posiciona o anúncio. Existem cinco tipos principais de pacotes para imprimíveis educativos, cada um servindo uma necessidade diferente do comprador.\n\nPacotes por disciplina: Combinam fichas da mesma área temática. Um «Pacote de fichas de matemática» pode incluir fichas de adição, subtração, comparação, puzzles numéricos e fichas de lógica com grelha. Os pacotes por disciplina atraem vendedores e pais que procuram cobertura integral de um tema. Estes são o seu tipo de pacote de maior volume porque a pesquisa baseada em disciplinas é o comportamento mais comum no Etsy.\n\nPacotes por nível de ano: Combinam fichas de diferentes disciplinas, todas apropriadas para o mesmo nível de ano. Um «Pacote de atividades do jardim de infância» pode incluir adição simples, cópia de letras, páginas para colorir e puzzles de sopa de letras. Os pacotes por nível de ano atraem pais e vendedores de ensino doméstico que querem uma compra que cubra múltiplas áreas temáticas para o nível do seu filho.\n\nPacotes temáticos: Combinam fichas que partilham um tema visual em diferentes disciplinas e formatos. Um «Pacote de fichas com tema de animais» pode incluir adição com tema de animais, sopas de letras de animais, páginas para colorir de animais e fichas de vocabulário de animais. Os pacotes temáticos atraem compradores que querem materiais coesos para a loja ou o ensino doméstico com um estilo visual unificado.\n\nPacotes sazonais: Combinam fichas programadas para estações ou eventos específicos. Um «Pacote de fichas de regresso às aulas» dirige-se ao pico de compras de agosto-setembro. Um «Pacote de atividades de festas de inverno» dirige-se a novembro-dezembro. Os pacotes sazonais capitalizam picos de procura previsíveis e podem ser rotacionados ao longo do ano.\n\nPacotes por formato: Combinam fichas do mesmo tipo de formato em diferentes disciplinas e temas. Um «Pacote de atividades de puzzles» pode incluir sopas de letras, sudoku, puzzles matemáticos e fichas de lógica com grelha. Os pacotes por formato atraem compradores que sabem que os seus usuários gostam de um tipo de atividade particular e querem variedade dentro desse formato.\n\nEscolher o tipo adequado: Comece com pacotes por disciplina — têm o apelo mais amplo e a segmentação de palavras-chave mais clara. Uma vez que tenha dois ou três pacotes por disciplina a funcionar bem, expanda para pacotes por nível de ano e temáticos usando muitos dos mesmos componentes de fichas. Isto permite-lhe criar múltiplos pacotes a partir de inventário sobreposto sem produzir conteúdo totalmente novo.`,
     },
     {
-      heading: 'Selecione produtos para máximo valor do pacote',
+      heading: `Selecione produtos para máximo valor do pacote`,
       content: `Os produtos que inclui num pacote determinam o seu valor percebido, o seu apelo para segmentos específicos de compradores e a sua taxa de conversão. A seleção aleatória produz pacotes fracos. A seleção estratégica produz pacotes que se vendem consistentemente.\n\nQuantidade ideal: Para pacotes de imprimíveis educativos no Etsy, o intervalo ótimo é de 5 a 10 artigos individuais por pacote. Menos de cinco artigos parece insuficiente para justificar uma etiqueta de pacote — os compradores esperam poupanças significativas, e um «pacote» de três artigos raramente comunica valor suficiente. Mais de 10 artigos pode resultar avassalador e dificulta mostrar tudo eficazmente nas fotos do anúncio. O ponto ideal para a maioria dos vendedores é de 6 a 8 artigos.\n\nVariedade dentro da coerência: Cada artigo do pacote deve relacionar-se com o tema do pacote enquanto oferece algo distinto. Um pacote de matemática com oito fichas de adição quase idênticas parece repetitivo. Um pacote de matemática com adição, subtração, comparação, reconhecimento de números, contagem, contagem salteada, puzzles de grelha e puzzles de código oferece variedade genuína mantendo a coerência temática. Cada artigo deve dar ao comprador uma razão para estar satisfeito por ter sido incluído.\n\nMisture níveis de dificuldade: Inclua fichas em diferentes níveis de dificuldade dentro do pacote. Isto estende a vida útil do pacote — um pacote de matemática do jardim de infância com fichas que vão desde contagem simples até adição de vários dígitos serve os usuários durante todo o ano letivo à medida que as suas competências se desenvolvem. Mencionar explicitamente a progressão de dificuldade na descrição do seu anúncio acrescenta valor percebido.\n\nInclua sempre chaves de resposta: Cada ficha do pacote deve vir com a respetiva chave de resposta. Chaves de resposta em falta são uma das queixas mais comuns nas avaliações negativas de pacotes de imprimíveis educativos. As chaves de resposta também aumentam o número de páginas que pode anunciar, impulsionando o valor percebido.\n\nUse múltiplos geradores: Um pacote criado com um único gerador frequentemente carece de variedade. Use o Gerador de fichas de adição e o Gerador de fichas de subtração juntos para um pacote de matemática. Combine o Gerador de caça-palavras e o Gerador de páginas para colorir para um pacote temático. Os pacotes com geradores cruzados parecem mais selecionados e valiosos do que as coleções de um único gerador.\n\nTeste antes de empacotar: Antes de incluir uma ficha num pacote, gere-a e revise-a. Verifique que a dificuldade é apropriada para o nível de ano objetivo, que os temas visuais são consistentes e que as chaves de resposta são precisas. Um único artigo de baixa qualidade num pacote afeta a perceção do comprador de toda a coleção.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Os anúncios de pacotes requerem estratégias de palavras-chave e estruturas de descrição diferentes dos anúncios de produtos individuais. Os compradores que pesquisam pacotes usam termos de pesquisa diferentes e avaliam os anúncios de forma diferente.\n\nFórmula do título do pacote: [Disciplina/Tema] [Tipo de produto] Pacote | [Nível de ano/Idade] [Formato] | [Sinal de conteúdo]\n\nExemplos:\n• «Pacote fichas matemática jardim de infância | Adição subtração imprimível pack | 50 páginas download digital»\n• «Pacote atividades tema animais | Colorir sopa letras fichas matemática | Pack imprimível loja»\n• «Pacote fichas regresso às aulas 1.º ano | Matemática literacia atividades pack | Download digital PDF»\n\nInclua «pacote» ou «pack» na primeira metade do seu título. Os compradores que filtram resultados por pacotes frequentemente incluem estas palavras na sua pesquisa, e o Etsy dá mais peso às palavras que aparecem antes nos títulos.\n\nEstratégia de etiquetas para pacotes: As suas 13 etiquetas devem cobrir termos específicos de pacotes que os anúncios individuais não usariam. Distribua as etiquetas nestas categorias:\n\n1. Termos de pacote (3 etiquetas): «pacote fichas», «pack imprimível», «conjunto de atividades»\n2. Disciplina/tema (3 etiquetas): «fichas matemática», «prática adição», «atividades subtração»\n3. Ano/idade (2 etiquetas): «matemática jardim de infância», «primeiro ano»\n4. Caso de uso (2 etiquetas): «pacote ensino doméstico», «materiais loja»\n5. Formato (1 etiqueta): «download digital»\n6. Sazonal ou comprador (2 etiquetas): «recursos vendedores», «regresso às aulas»\n\nEstrutura de descrição para pacotes: As descrições de pacotes precisam de comunicar claramente tudo o que está incluído. Estruture a sua descrição nesta ordem:\n\n1. Abertura (primeiros 160 caracteres): Palavra-chave principal, número de artigos, nível de ano e declaração instantânea de valor\n2. O que inclui: Lista numerada de cada artigo do pacote com número de páginas\n3. Detalhes do pacote: Número total de páginas, formato de ficheiro, intervalo de dificuldade, confirmação de chave de resposta\n4. Para quem é: Perfis de comprador específicos (vendedores, pais de ensino doméstico, explicadores)\n5. Como usar: Instruções de impressão, ritmo sugerido ou calendário\n6. Detalhes técnicos: Formato de ficheiro, número de ficheiros, resolução, compatibilidade de tamanho de papel\n\nPara técnicas detalhadas de SEO no Etsy incluindo métodos de pesquisa de etiquetas e otimização de anúncios, consulte o nosso guia completo de SEO no Etsy para material educativo imprimível.`,
     },
     {
-      heading: 'Defina preços de pacotes para máximas receitas',
+      heading: `Defina preços de pacotes para máximas receitas`,
       content: `A definição de preços de pacotes é tanto uma arte como uma ciência. O objetivo é estabelecer um preço que pareça um desconto significativo comparado com comprar artigos individualmente enquanto maximiza as suas receitas por transação.\n\nO princípio de preço de ancoragem: A definição de preços de pacotes só funciona quando os compradores podem comparar o preço do pacote com os preços dos artigos individuais. Isto significa que deve ter anúncios individuais para pelo menos alguns dos artigos do seu pacote, com preço à sua tarifa individual. A diferença de preço visível entre comprar artigos individualmente versus comprar o pacote cria a poupança percebida que impulsiona as compras de pacotes.\n\nIntervalo de desconto: A maioria dos pacotes de sucesso de imprimíveis educativos no Etsy oferece de 25 a 40 por cento de desconto sobre a soma dos preços individuais. Menos de 25 por cento parece um desconto insignificante. Mais de 40 por cento pode fazer com que os compradores questionem o valor dos seus anúncios individuais ou a qualidade do conteúdo do pacote. O ponto ideal para a maioria dos vendedores é de 30 a 35 por cento de desconto.\n\nEstratégia escalonada de pacotes: Ofereça pacotes em múltiplos níveis de tamanho para captar diferentes segmentos de compradores:\n\n• Pack de início (3–4 artigos): Preço de entrada, atrai compradores cautelosos, 20–25% de desconto\n• Pacote padrão (6–8 artigos): O seu pacote principal, melhor proposta de valor, 30–35% de desconto\n• Mega pacote (12–15+ artigos): Preço premium, máximo valor percebido, 35–40% de desconto\n\nEsta abordagem escalonada cria a sua própria definição de preço de ancoragem — o mega pacote faz com que o pacote padrão pareça acessível, e o pacote padrão faz com que o pack de início pareça uma primeira compra razoável.\n\nQuando não descontar: Alguns tipos de pacotes justificam preço completo ou descontos mínimos. Os pacotes sazonais lançados durante procura de pico (pacotes de regresso às aulas em agosto) suportam preços mais elevados porque a temporalidade gera urgência. Os pacotes exclusivos que contêm artigos não disponíveis individualmente podem ter preço sem referência aos valores de artigos individuais.\n\nComunicação do preço em anúncios: Indique explicitamente a poupança na descrição e fotos do seu anúncio. «Este pacote inclui 8 fichas avaliadas em $24 individualmente — poupe 50% com o preço do pacote». Torne as contas fáceis de verificar para os compradores. Para uma análise completa de estratégias de preços, consulte o nosso guia sobre como definir preços dos seus imprimíveis Etsy.`,
     },
   ],
@@ -135,33 +135,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'precos-imprimiveis-etsy',
-      title: 'Definir preços dos imprimíveis Etsy',
+      title: `Definir preços dos imprimíveis Etsy`,
       description: `Estratégias detalhadas de preços para fichas individuais e pacotes, incluindo análise de custos, posicionamento competitivo e técnicas de preços psicológicos que complementam a visão geral de preços de pacotes neste guia.`,
     },
     {
       slug: 'seo-etsy-material-educativo',
-      title: 'SEO no Etsy para material educativo',
+      title: `SEO no Etsy para material educativo`,
       description: `O guia completo de SEO no Etsy que cobre pesquisa de palavras-chave, otimização de títulos, as 13 etiquetas e fatores de posicionamento. Aplique estas técnicas para otimizar os seus anúncios de pacotes para máxima visibilidade nas pesquisas.`,
     },
     {
-      slug: 'vender-material-educativo-etsy',
-      title: 'Vender material educativo imprimível no Etsy',
+      slug: `vender-material-educativo-etsy`,
+      title: `Vender material educativo imprimível no Etsy`,
       description: `O guia completo de vendas no Etsy que cobre configuração de loja, fotografia de produtos, atendimento ao cliente e planeamento de catálogo — operações essenciais para gerir uma loja focada em pacotes.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: 'Como vender caça-palavras no Etsy' },
-    { pageType: 'guide', slug: 'vender-material-educativo-etsy', anchorText: 'Como vender material educativo imprimível no Etsy' },
-    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: 'Como definir preços dos seus imprimíveis Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para material educativo imprimível' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: 'Como criar páginas para colorir Etsy que vendem' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para começar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: `Como vender caça-palavras no Etsy` },
+    { pageType: 'guide', slug: `vender-material-educativo-etsy`, anchorText: `Como vender material educativo imprimível no Etsy` },
+    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: `Como definir preços dos seus imprimíveis Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para material educativo imprimível` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: `Como criar páginas para colorir Etsy que vendem` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para começar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de fichas de adição — Detalhes completos' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de caça-palavras — Detalhes completos' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimentar o Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: `Gerador de fichas de adição — Detalhes completos` },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de caça-palavras — Detalhes completos` },
+    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: `Experimentar o Gerador de Fichas de Adição` },
   ],
 
   toolsRecommended: [
@@ -172,7 +172,7 @@ const content: GuideContent = {
     },
     {
       appId: 'subtraction',
-      title: 'Gerador de fichas de subtração',
+      title: `Gerador de fichas de subtração`,
       description: `Produza fichas de subtração temáticas que complementam naturalmente a adição em pacotes por disciplina. Combinar adição e subtração de geradores separados cria pacotes de matemática mais diversos e valiosos do que usar um único gerador.`,
     },
     {
@@ -182,28 +182,28 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Crie páginas para colorir em dezenas de temas visuais, proporcionando o componente criativo e artístico para pacotes temáticos e pacotes por nível de ano. As páginas para colorir ampliam o apelo do pacote para além dos compradores estritamente académicos.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de adição como componente central de pacotes de fichas educativas para o Etsy' },
+    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de adição como componente central de pacotes de fichas educativas para o Etsy` },
     samples: [
-      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: 'Ficha de adição com tema de animais como componente de pacote de matemática para o Etsy', caption: 'Ficha de adição com tema de animais — um componente-chave para pacotes por disciplina de matemática no Etsy' },
-      { src: `/samples/portuguese/subtraction/Subtrações Divertidas 1.webp`, alt: 'Ficha de subtração com tema de animais complementando adição em pacotes de matemática Etsy', caption: 'Ficha de subtração com tema de animais — emparelha com fichas de adição para pacotes completos de matemática' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Caça-palavras de animais acrescentando variedade multicategoria a pacotes de fichas Etsy', caption: 'Caça-palavras com tema de animais — acrescenta valor de literacia a pacotes temáticos multicategoria' },
+      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: `Ficha de adição com tema de animais como componente de pacote de matemática para o Etsy`, caption: `Ficha de adição com tema de animais — um componente-chave para pacotes por disciplina de matemática no Etsy` },
+      { src: `/samples/portuguese/subtraction/Subtrações Divertidas 1.webp`, alt: `Ficha de subtração com tema de animais complementando adição em pacotes de matemática Etsy`, caption: `Ficha de subtração com tema de animais — emparelha com fichas de adição para pacotes completos de matemática` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Caça-palavras de animais acrescentando variedade multicategoria a pacotes de fichas Etsy`, caption: `Caça-palavras com tema de animais — acrescenta valor de literacia a pacotes temáticos multicategoria` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Como criar fichas de adição para pacotes Etsy — Estratégia de pacotes multiproduto`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagem educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azálea — imagem educativa temática', caption: 'Azálea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begónia — imagem educativa temática', caption: 'Begónia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campainha — imagem educativa temática', caption: 'Campainha' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Botão-de-ouro — imagem educativa temática', caption: 'Botão-de-ouro' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagem educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azálea — imagem educativa temática`, caption: 'Azálea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begónia — imagem educativa temática`, caption: 'Begónia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campainha — imagem educativa temática`, caption: 'Campainha' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Botão-de-ouro — imagem educativa temática`, caption: 'Botão-de-ouro' },
   ],
 };
 

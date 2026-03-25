@@ -2,27 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo crear fichas que se venden',
+    primaryKeyword: `cómo crear fichas que se venden`,
     secondaryKeywords: [
-      'crear fichas profesionales para vender',
-      'hacer fichas para vender en Etsy',
-      'creación de fichas para vendedores',
-      'consejos de diseño de fichas imprimibles',
+      `crear fichas profesionales para vender`,
+      `hacer fichas para vender en Etsy`,
+      `creación de fichas para vendedores`,
+      `consejos de diseño de fichas imprimibles`,
     ],
     lsiKeywords: [
-      'estándares de calidad de fichas',
-      'generación de claves de respuestas',
+      `estándares de calidad de fichas`,
+      `generación de claves de respuestas`,
       `flujo de trabajo de creación de productos imprimibles`,
-      'estrategia de paquetes de fichas',
-      'imágenes temáticas para fichas',
-      'fichas PDF listas para imprimir',
+      `estrategia de paquetes de fichas`,
+      `imágenes temáticas para fichas`,
+      `fichas PDF listas para imprimir`,
     ],
     titleTag: `Cómo Crear Fichas que se Venden — Guía Profesional`,
     metaDescription: `Cómo crear fichas que se venden en Etsy, Amazon KDP y Gumroad. Guía paso a paso sobre imágenes temáticas, claves de respuestas, precios y optimización de ventas.`,
   },
 
   hero: {
-    title: 'Cómo Crear Fichas Profesionales que se Venden',
+    title: `Cómo Crear Fichas Profesionales que se Venden`,
     tagline: `El manual de creación de productos que diferencia las fichas que los compradores eligen de las que ignoran`,
     description: `Esta guía cubre cada paso de la creación de fichas imprimibles que cumplen estándares profesionales y se venden de forma constante. Aprenderás qué hace que una ficha se vea profesional, cómo usar generadores para eliminar las barreras de diseño, cómo crear paquetes que maximicen los ingresos y cómo probar tus productos antes de publicarlos. Ya sea que vendas en Etsy, Amazon KDP, Gumroad o Gumroad, la calidad de tus fichas determina si los compradores hacen clic en «añadir al carrito» o siguen desplazándose.`,
   },
@@ -74,43 +74,43 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Elige tu tipo de ficha y mercado objetivo',
+      step: `Elige tu tipo de ficha y mercado objetivo`,
       description: `Selecciona una categoría de fichas (matemáticas, lectoescritura, colorear, puzzles) y define tu comprador objetivo (vendedores, emprendedores, centros de tutoría). Investiga los productos existentes en tu nicho en Etsy para entender las expectativas de calidad.`,
     },
     {
-      step: 'Explora los generadores con la prueba gratis',
+      step: `Explora los generadores con la prueba gratis`,
       description: `Abre 2 o 3 generadores relevantes para tu nicho y crea fichas de muestra usando la prueba gratis con marca de agua. Evalúa la calidad de los diseños, los conjuntos de imágenes, las opciones de dificultad y la generación de claves de respuestas antes de comprometerte con una licencia.`,
     },
     {
-      step: 'Define el concepto de tu primer producto',
+      step: `Define el concepto de tu primer producto`,
       description: `Escribe exactamente qué vas a crear antes de abrir el generador: tipo de ficha, tema, nivel de dificultad, cantidad de páginas, grupo de edad objetivo y nombre del paquete. Un concepto claro evita la experimentación sin rumbo.`,
     },
     {
-      step: 'Genera y revisa tu primera ficha',
+      step: `Genera y revisa tu primera ficha`,
       description: `Configura el generador con los ajustes elegidos y crea tu primera página. Revisa el resultado en cuanto a calidad de diseño, colocación de imágenes, precisión de dificultad y corrección de la clave de respuestas antes de generar páginas adicionales.`,
     },
     {
-      step: 'Construye un paquete temático de 10 páginas',
+      step: `Construye un paquete temático de 10 páginas`,
       description: `Genera 9 páginas más con el mismo tema y ajustes de dificultad. Cada generación produce contenido único manteniendo la consistencia visual. Descarga los formatos PDF y JPEG para todas las páginas.`,
     },
     {
-      step: 'Ensambla y añade el empaquetado del paquete',
+      step: `Ensambla y añade el empaquetado del paquete`,
       description: `Combina las páginas individuales en un solo PDF. Añade una portada con el título del paquete, el rango de edad, la lista de contenidos y el nombre de tu tienda. Coloca las claves de respuestas al final del paquete.`,
     },
     {
-      step: 'Ejecuta la prueba de calidad de cuatro puntos',
+      step: `Ejecuta la prueba de calidad de cuatro puntos`,
       description: `Prueba de impresión (verifica márgenes y nitidez de imagen), prueba de resolución (completa cada actividad y verifica las claves de respuestas), revisión de adecuación a la edad (confirma que la dificultad corresponda a la etiqueta) y vista previa de publicación (mira tu publicación como lo haría un comprador).`,
     },
     {
-      step: 'Crea de 3 a 5 variaciones temáticas',
+      step: `Crea de 3 a 5 variaciones temáticas`,
       description: `Repite el proceso de creación con diferentes temas de imágenes. El mismo tipo de ficha con temas de animales, dinosaurios, océano, vehículos y comida te da 5 productos únicos a partir de un solo flujo de trabajo.`,
     },
     {
-      step: 'Construye un paquete de progresión de dificultad',
+      step: `Construye un paquete de progresión de dificultad`,
       description: `Crea una segunda línea de productos con el mismo tema pero dificultad variable: versiones fácil, media y difícil. Empaquétalas como un paquete de «De Principiante a Avanzado» a un precio más alto.`,
     },
     {
-      step: 'Publica y optimiza tus primeros productos',
+      step: `Publica y optimiza tus primeros productos`,
       description: `Crea publicaciones en tu plataforma elegida con títulos ricos en palabras clave, uso completo de etiquetas, imágenes de miniatura limpias y descripciones que indiquen claramente la cantidad de páginas, el rango de edad, el formato y qué incluye.`,
     },
   ],
@@ -133,12 +133,12 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Categoría de mayor venta en Etsy con fuerte atractivo visual. Genera fichas para colorear temáticas a partir de más de 100 conjuntos de imágenes. El formato puramente visual funciona en cualquier idioma, dándote acceso instantáneo a compradores internacionales.`,
     },
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Fichas puramente visuales que funcionan en cualquier idioma sin modificación. Las actividades de asociación son un elemento básico del mercado de preescolar y jardín de infantes. Rápidas de producir en grandes volúmenes para la creación de paquetes.`,
     },
     {
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Las fichas profesionales tienen márgenes consistentes (1,3 cm mínimo), espaciado uniforme entre elementos, fuentes limpias y legibles dimensionadas para el grupo de edad objetivo, imágenes nítidas de alta resolución, claves de respuestas precisas y un estilo visual cohesivo en todas las páginas de un paquete. Las fichas amateur típicamente tienen diseños inconsistentes, claves de respuestas ausentes, imágenes de baja resolución y estilos dispares entre páginas.`,
     },
     {
-      question: '¿Debería vender fichas individuales o paquetes?',
+      question: `¿Debería vender fichas individuales o paquetes?`,
       answer: `Ambos, pero los paquetes generan significativamente más ingresos. Publica fichas individuales para visibilidad en el marketplace y posicionamiento en búsquedas, luego ofrece paquetes con descuento por página. Un paquete de 10 páginas a 4,99 € genera más por transacción que una página individual a 1,99 €, y los compradores perciben mejor valor. La mayoría de los vendedores exitosos obtienen la mayor parte de sus ingresos de los paquetes.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía fundamental que cubre selección de nicho, estrategia de plataforma, precios y construcción de catálogo. Empieza aquí si aún no has lanzado tu negocio de imprimibles.`,
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass Negocio de Imprimibles en Etsy',
+      title: `Masterclass Negocio de Imprimibles en Etsy`,
       description: `Estrategias específicas de plataforma para vendedores de Etsy: configuración de tienda, SEO de publicaciones, optimización de etiquetas, mejores prácticas de miniaturas y técnicas de escalado adaptadas al marketplace de Etsy.`,
     },
     {
       slug: 'libros-actividades-amazon-kdp',
-      title: 'Guía de Libros de Actividades para Amazon KDP',
+      title: `Guía de Libros de Actividades para Amazon KDP`,
       description: `Formatea tus fichas para publicación en Amazon KDP. Cubre requisitos de formato interior, diseño de portada, investigación de palabras clave y selección de categoría para libros de actividades.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de Fichas de Suma — Todos los Detalles' },
-    { pageType: 'app', slug: 'resta-fichas', anchorText: 'Generador de Fichas de Resta — Todos los Detalles' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el Generador de Fichas de Suma' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el Generador de Páginas para Colorear' },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de Fichas de Suma — Todos los Detalles` },
+    { pageType: 'app', slug: 'resta-fichas', anchorText: `Generador de Fichas de Resta — Todos los Detalles` },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
+    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: `Prueba el Generador de Fichas de Suma` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Prueba el Generador de Páginas para Colorear` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha profesional de suma creada con el generador LessonCraftStudio` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha profesional de suma creada con el generador LessonCraftStudio` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de suma con problemas de matemáticas basados en imágenes temáticas`, caption: 'Suma — Problemas Basados en Imágenes' },
-      { src: `/samples/spanish/subtraction/Restas Divertidas 1.webp`, alt: 'Ficha de resta con problemas numéricos visuales', caption: 'Resta — Práctica de Matemáticas Visual' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de sopa de letras con lista de palabras temáticas`, caption: 'Sopa de Letras — Puzzle Temático' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Ilustraciones Temáticas' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de suma con problemas de matemáticas basados en imágenes temáticas`, caption: `Suma — Problemas Basados en Imágenes` },
+      { src: `/samples/spanish/subtraction/Restas Divertidas 1.webp`, alt: `Ficha de resta con problemas numéricos visuales`, caption: `Resta — Práctica de Matemáticas Visual` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de sopa de letras con lista de palabras temáticas`, caption: `Sopa de Letras — Puzzle Temático` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Ficha para colorear con ilustraciones temáticas`, caption: `Colorear — Ilustraciones Temáticas` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo Crear Fichas de Suma — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Toro — imagen educativa temática', caption: 'Toro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Ternero — imagen educativa temática', caption: 'Ternero' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagen educativa temática', caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Toro — imagen educativa temática`, caption: 'Toro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Ternero — imagen educativa temática`, caption: 'Ternero' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagen educativa temática`, caption: 'Gato 2' },
   ],
 };
 

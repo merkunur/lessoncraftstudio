@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas classificação imagens',
+    primaryKeyword: `gerador fichas classificação imagens`,
     secondaryKeywords: [
       `gerador de fichas de classificação a duas categorias para vendedores Etsy`,
       `criador de atividades de classificação de imagens para editores Amazon KDP`,
@@ -11,10 +11,10 @@ const content: AppContent = {
     ],
     lsiKeywords: [
       `produtos digitais de classificação de imagens para empreendedores`,
-      'gerador de fichas de classificação uso comercial',
+      `gerador de fichas de classificação uso comercial`,
       `atividades de classificação imprimíveis para negócio online`,
     ],
-    titleTag: 'Gerador Fichas Classificação Imagens | Criar',
+    titleTag: `Gerador Fichas Classificação Imagens | Criar`,
     metaDescription:
       `Crie fichas de classificação de imagens para Etsy, KDP e Gumroad. Duas categorias, gabarito automático, 104 temas, 4–12 imagens. Teste grátis com marca d'água.`,
   },
@@ -35,7 +35,7 @@ const content: AppContent = {
           `Abra o painel Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de fundo com o seletor de cores. Escolha um tema de fundo e ajuste a sua opacidade (de 0 a 1 em passos de 0,05), depois selecione um tema de borda com o seu próprio controlo de opacidade independente. Marque «Incluir Campos de Nome/Data» para adicionar linhas de nome e data para os usuários. Estas opções de layout emolduram a sua ficha de classificação antes de configurar o conteúdo.`,
       },
       {
-        title: 'Escolha as Suas Categorias de Classificação',
+        title: `Escolha as Suas Categorias de Classificação`,
         description:
           `Abra o painel Categorias de Classificação e selecione dois temas — um para a categoria esquerda e outro para a categoria direita. A aplicação gera automaticamente 4 a 6 imagens aleatórias por tema a partir da biblioteca de imagens. Por exemplo, escolha Animais à esquerda e Alimentos à direita para criar uma ficha de classificação onde os usuários classificam as imagens no grupo correto. Também pode mudar para o modo manual para selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita.`,
       },
@@ -113,28 +113,28 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de Classificação na Amazon KDP',
+        title: `Cadernos de Classificação na Amazon KDP`,
         description:
           `Compile 40 a 80 fichas de classificação num caderno impresso em formato Amazon KDP. Estruture por dificuldade: os primeiros capítulos usam 4 a 6 imagens com diferenças de categoria óbvias (animais vs veículos), os capítulos intermédios usam 8 a 10 imagens com distinções mais subtis (animais da quinta vs animais selvagens), e os capítulos avançados usam 12 imagens com categorias exigentes. Inclua os gabaritos no final do livro usando a função de gabarito autogerado. O modo escala de cinzentos produz páginas económicas em tinta prontas para interiores de livros a preto e branco. Os cadernos de classificação servem um público amplo desde a primeira infância até ao ensino básico.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Classificação para loja no Gumroad',
+        title: `Atividades de Classificação para loja no Gumroad`,
         description:
           `Crie fichas de classificação prontas para usar com campos de nome/data e gabaritos impressos. Os vendedores que procuram atividades de classificação no Gumroad valorizam fichas que chegam prontas para a loja — o campo de nome assegura a responsabilidade do usuário, as molduras de categoria fornecem destinos de classificação claros, e o gabarito autogerado poupa tempo de preparação. Crie conjuntos alinhados com o catálogo de produtos: vivo vs não vivo, comida saudável vs comida de plástico, animais diurnos vs noturnos, roupa de tempo quente vs frio. Cada conjunto inclui fichas para usuários e gabaritos nos formatos PDF e JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Coleções de Classificação Sazonais e de Festividades`,
         description:
           `As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie fichas de classificação sazonais onde os usuários classifiquem artigos festivos em categorias: decorações de Natal vs comida de Natal, disfarces de Halloween vs doces de Halloween, atividades de verão vs atividades de inverno. Lance pacotes de classificação de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Os produtos sazonais alcançam preços mais altos durante as janelas de máxima procura e criam razões naturais para compras recorrentes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
       {
         title: `Fichas de Classificação Multilingues para os Mercados PLE e Bilingue`,
         description:
           `Aproveite as etiquetas de categoria sensíveis ao idioma para criar fichas de classificação em 11 idiomas. As mesmas imagens produzem etiquetas de categoria diferentes ao mudar de idioma — os nomes das imagens e o cabeçalho «Classificação de Imagens» atualizam-se automaticamente. Crie pacotes de classificação multilingues onde cada versão linguística usa as mesmas imagens temáticas mas com texto localizado. Isto é particularmente valioso para vendedores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais. Venda pacotes por idioma ou megapacotes multilingues a preços premium na Etsy e no Gumroad.`,
-        platform: 'Etsy / Gumroad (mercado multilingue)',
+        platform: `Etsy / Gumroad (mercado multilingue)`,
       },
     ],
   },
@@ -156,17 +156,17 @@ const content: AppContent = {
         `Cada ficha admite de 4 a 12 imagens no total, com cada categoria contendo entre 2 e 10 imagens. O modo de tema gera automaticamente 4 a 6 imagens por tema. O modo manual permite-lhe definir quantidades exatas por categoria. A grelha de recortes ajusta a sua disposição em colunas (3 a 4 colunas conforme o número) para manter um espaçamento visual limpo. Menos imagens criam exercícios de classificação mais simples; mais imagens aumentam a dificuldade.`,
     },
     {
-      question: 'Como funciona a grelha de recortes misturada?',
+      question: `Como funciona a grelha de recortes misturada?`,
       answer:
         `A grelha de recortes ocupa os 55 % inferiores da área de conteúdo e apresenta todas as imagens selecionadas em ordem aleatória. As imagens aparecem em células brancas com bordas tracejadas #666 e cantos arredondados de 4 px, dispostas em 3 a 4 colunas conforme o número total de imagens. Cada imagem ocupa 85 % da sua célula. Os usuários recortam as imagens ao longo das linhas tracejadas e classificam-nas na moldura de categoria correta acima. A mistura aleatória garante que os usuários realmente classifiquem cada imagem em vez de copiar um padrão.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer:
         `O gerador utiliza um sistema de canvas duplo com um separador Ficha de Trabalho e um separador Gabarito. O gabarito apresenta duas caixas de categorias (uma por categoria, largura igual) com as imagens classificadas no seu grupo correto. As imagens do gabarito são renderizadas a 6× o tamanho das células da grelha de recortes para verificação clara, com um máximo de 2 colunas por caixa de categoria. Cada caixa usa preenchimento #FAFAFA com contorno tracejado #444 e raio de borda de 12 px. Ambas as versões exportam-se separadamente através de quatro botões de descarga dedicados.`,
     },
     {
-      question: 'Como funciona o cabeçalho localizado?',
+      question: `Como funciona o cabeçalho localizado?`,
       answer:
         `Cada ficha gerada inclui um cabeçalho estilizado «Classificação de Imagens» com um fundo verde-menta (#4DB6AC), um contentor pílula branco, um título verde-azulado (#00796B) na fonte Fredoka Bold e uma descrição laranja (#FF7043) na fonte Quicksand. As fichas verticais apresentam um cabeçalho de 100 px; as fichas horizontais usam um cabeçalho compacto de 70 px. O título e a descrição traduzem-se automaticamente para os 11 idiomas suportados: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês.`,
     },
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — a seleção de categorias temática e manual, o número de imagens configurável, o gabarito autogerado, a biblioteca de imagens completa, os temas de fundo e de borda, os campos de nome/data e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — a seleção de categorias temática e manual, o número de imagens configurável, o gabarito autogerado, a biblioteca de imagens completa, os temas de fundo e de borda, os campos de nome/data e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `Posso adicionar temas de fundo e de borda às fichas de classificação?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de classificação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. O mecanismo de classificação a duas categorias, os gabaritos autogerados e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de classificação originais e vendáveis.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar a seleção de categorias temática e manual, o número de imagens configurável, o gabarito autogerado, a biblioteca de imagens completa, os temas de fundo e de borda, os campos de nome/data e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,57 +206,57 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'ligar-fichas',
-      anchorText: 'Gerador de Fichas de Associação',
+      anchorText: `Gerador de Fichas de Associação`,
     },
     {
       pageType: 'app',
       slug: 'quebra-cabeca-grade-fichas',
-      anchorText: 'Gerador de Quebra-Cabeças de Grelha',
+      anchorText: `Gerador de Quebra-Cabeças de Grelha`,
     },
     {
       pageType: 'app',
       slug: 'combinar-sombras-fichas',
-      anchorText: 'Gerador de Fichas de Combinar Sombras',
+      anchorText: `Gerador de Fichas de Combinar Sombras`,
     },
     {
       pageType: 'app',
       slug: 'bingo-ilustrado-fichas',
-      anchorText: 'Gerador de Fichas de Bingo Ilustrado',
+      anchorText: `Gerador de Fichas de Bingo Ilustrado`,
     },
     {
       pageType: 'app',
       slug: 'encontre-conte-fichas',
-      anchorText: 'Gerador de Fichas Encontra e Conta',
+      anchorText: `Gerador de Fichas Encontra e Conta`,
     },
     {
       pageType: 'app',
       slug: 'desenhos-colorir-fichas',
-      anchorText: 'Gerador de Fichas para Colorir',
+      anchorText: `Gerador de Fichas para Colorir`,
     },
     {
       pageType: 'bundle',
-      slug: 'pacote-associacao-classificacao',
+      slug: `pacote-associacao-classificacao`,
       anchorText: `Pacote de Associação e Classificação — Todas as Apps de Classificação num Pacote`,
     },
     {
       pageType: 'guide',
       slug: 'criar-fichas-classificacao',
-      anchorText: 'Como Criar Fichas de Classificação que Vendam',
+      anchorText: `Como Criar Fichas de Classificação que Vendam`,
     },
     {
       pageType: 'idea',
       slug: 'campismo-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+      anchorText: `Ideias de imprimíveis de camping e ar livre`,
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de animais marinhos',
+      slug: `animais-marinhos-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de animais marinhos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimiveis',
-      anchorText: 'Marketing para seu negócio de imprimíveis',
+      anchorText: `Marketing para seu negócio de imprimíveis`,
     },
   ],
 

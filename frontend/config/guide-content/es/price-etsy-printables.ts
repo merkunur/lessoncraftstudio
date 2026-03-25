@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fijar precios imprimibles Etsy',
+    primaryKeyword: `fijar precios imprimibles Etsy`,
     secondaryKeywords: [
-      'cómo fijar precios de fichas imprimibles en Etsy',
-      'estrategia de precios imprimibles Etsy',
+      `cómo fijar precios de fichas imprimibles en Etsy`,
+      `estrategia de precios imprimibles Etsy`,
       `precios de descargas digitales para vendedores de Etsy`,
-      'precios de paquetes de fichas Etsy',
+      `precios de paquetes de fichas Etsy`,
     ],
     lsiKeywords: [
       `cálculo de comisiones Etsy productos digitales desglose de ingresos netos`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `pruebas de precios Etsy Stats optimización de tasa de conversión`,
       `precios internacionales divisas Etsy descargas digitales A4 Carta`,
     ],
-    titleTag: 'Fijar precios imprimibles Etsy — Guía de precios',
+    titleTag: `Fijar precios imprimibles Etsy — Guía de precios`,
     metaDescription: `Fija precios de tus imprimibles Etsy con cálculo de comisiones, precios en tres niveles, estrategias de paquetes y ajustes estacionales. Guía completa.`,
   },
 
   hero: {
-    title: 'Cómo fijar precios de tus imprimibles Etsy',
+    title: `Cómo fijar precios de tus imprimibles Etsy`,
     tagline: `Una guía completa de estrategia de precios para vendedores de fichas imprimibles en Etsy — incluyendo investigación de competidores, cálculo de comisiones de Etsy e ingresos netos, precios base de referencia por tipo de producto y número de páginas, estructuras de precios en tres niveles que aumentan el valor medio de pedido, precios de paquetes multicategoría y por nivel de grado, uso estratégico de ofertas y cupones de Etsy, ajustes de precios internacionales para compradores globales, y metodología de pruebas de precios usando datos de conversión de Etsy Stats`,
     description: `Los precios son la decisión de mayor impacto en tu negocio de fichas imprimibles en Etsy. Fijar precios demasiado bajos y las comisiones de Etsy consumen tus márgenes. Fijar precios demasiado altos sin comunicar valor y los compradores pasan de largo. Esta guía te proporciona el marco de precios completo — desde calcular tus ingresos netos reales después de todas las comisiones de Etsy, hasta construir una estructura de precios en tres niveles que aumenta naturalmente el valor medio de pedido, hasta fijar precios de paquetes multicategoría que tienen precios premium. Ya sea que estés publicando tu primera ficha o optimizando precios en un catálogo establecido, tendrás una estrategia de precios basada en datos al final de esta guía.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Investiga los precios de la competencia en Etsy',
+      heading: `Investiga los precios de la competencia en Etsy`,
       content: `La investigación sistemática de la competencia es la base de una estrategia de precios sólida. La navegación aleatoria te da impresiones; la investigación estructurada te da datos sobre los que puedes actuar.\n\nBusca en Etsy tu tipo de producto principal — «fichas de sumas imprimibles», «puzles de sopa de letras niños», «páginas para colorear educativas» — y registra lo siguiente para los primeros 20 resultados: precio, número de páginas, si incluyen clave de respuestas, si incluyen múltiples tamaños de página (Carta y A4), número de reseñas, y el recuento total de reseñas de la tienda del vendedor. Estos datos revelan el panorama de precios de tu categoría específica.\n\nOrganiza tu investigación por formato de producto. Las fichas individuales o paquetes muy pequeños (1 a 5 páginas) típicamente se agrupan entre $1,49 y $2,99. Los paquetes estándar (5 a 15 páginas) se agrupan entre $2,99 y $5,99. Los paquetes por categoría (15 a 40 páginas) van de $5,99 a $12,99. Los mega paquetes y colecciones completas (40 a 100+ páginas) van de $12,99 a $29,99. Estos rangos varían por categoría — los libros de puzles y colecciones de sudoku a menudo tienen precios más altos que las fichas básicas de ejercicios de matemáticas debido al valor de entretenimiento percibido.\n\nPresta atención a qué puntos de precio se correlacionan con altos recuentos de reseñas. Un anuncio con 500 reseñas a $4,99 te dice algo diferente que un anuncio con 500 reseñas a $12,99. El primero es un producto de alto volumen de tráfico. El segundo es un producto de alta conversión por valor. Ambas son estrategias válidas, pero sirven roles diferentes en una tienda.\n\nBusca vacíos de precios — puntos de precio donde pocos competidores publican productos. Si el mercado se agrupa fuertemente entre $2,99 y $3,99 para paquetes individuales y luego salta a $14,99 para paquetes grandes, el rango de $6,99 a $9,99 representa una oportunidad para productos de nivel medio que ofrecen más valor que un paquete básico sin el compromiso de un mega paquete.\n\nNo copies los precios de la competencia a ciegas. Muchos competidores están fijando precios demasiado bajos porque cometieron el mismo error que tú estás tratando de evitar. Usa los datos de la competencia para entender el panorama del mercado, luego fija precios basándote en tu valor y cálculos de margen.`,
     },
     {
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Etsy atiende una base de compradores global, y tu estrategia de precios debería tener en cuenta los patrones de compra internacionales. Los productos digitales como las fichas imprimibles tienen una ventaja natural aquí: no hay costes de envío, no hay tasas aduaneras y entrega instantánea sin importar la ubicación del comprador.\n\nEtsy muestra automáticamente los precios en la moneda local de cada comprador según la configuración de su cuenta. Un producto publicado a $4,99 USD aparece como aproximadamente £3,95, €4,60 o A$7,50 para compradores en esos mercados. No necesitas crear anuncios separados para diferentes monedas — Etsy maneja la conversión. Sin embargo, deberías ser consciente de cómo se traducen tus precios. Un precio que se siente como un redondeo natural en USD ($4,99) puede traducirse a un número incómodo en otra moneda (€4,61), lo que puede sentirse menos pulido.\n\nLa inclusión de tamaño de página es la consideración de precios internacionales más importante para fichas imprimibles. Incluir formatos tanto en Carta EE. UU. como en A4 en cada descarga es innegociable para ventas internacionales. Los compradores fuera de Estados Unidos, Canadá y México usan papel A4 de forma casi universal. Un anuncio que solo incluya fichas en tamaño Carta excluye efectivamente a los compradores internacionales — o peor, resulta en reseñas negativas cuando las fichas no se imprimen correctamente en papel A4. Todos los generadores admiten ambos formatos, así que incluye ambos en cada producto sin coste de producción adicional.\n\nLos productos sensibles al idioma (sopas de letras, crucigramas, actividades de abecedario, juegos de adivinación de palabras) tienen una oportunidad de precios única en mercados internacionales. Un paquete de sopas de letras en español, una colección de crucigramas en francés o un set de actividades de abecedario en alemán enfrentan mucha menos competencia que el equivalente en inglés. La competencia reducida en mercados de idiomas no ingleses soporta precios iguales o ligeramente superiores a los de tus productos en inglés, a pesar del volumen de búsqueda potencialmente menor. Una sopa de letras en inglés a $4,99 compite con miles de anuncios similares. Una sopa de letras en alemán a $4,99 compite con docenas.\n\nNo crees anuncios separados para diferentes tamaños de página ni vendas Carta y A4 como productos separados. Esto divide tu recuento de reseñas y la autoridad del anuncio. Un solo anuncio que contenga ambos formatos sirve a todos los mercados y concentra tus reseñas en un anuncio, lo que mejora el posicionamiento en búsquedas globalmente.`,
     },
     {
-      heading: 'Prueba y optimiza precios con el tiempo',
+      heading: `Prueba y optimiza precios con el tiempo`,
       content: `La fijación de precios no es una decisión de establecer y olvidar. Etsy proporciona analíticas que te permiten medir el impacto de los cambios de precio y optimizar con el tiempo.\n\nEtsy Stats te muestra vistas, visitas, favoritos y pedidos de cada anuncio a lo largo del tiempo. La métrica clave para la optimización de precios es la tasa de conversión: el porcentaje de visitas que resultan en una compra. Un anuncio con 100 visitas y 3 ventas tiene una tasa de conversión del 3 por ciento. Un anuncio con 100 visitas y 5 ventas tiene una tasa de conversión del 5 por ciento.\n\nCuándo subir precios: si un anuncio tiene una tasa de conversión por encima del 4 al 5 por ciento, puede tener un precio demasiado bajo. Los compradores están comprando a un ritmo que sugiere que el precio no es una barrera. Prueba un aumento modesto ($1 a $2) y monitorea si la tasa de conversión cae, se mantiene estable o apenas cambia. Si la conversión cae menos que el porcentaje de aumento de precio, el precio más alto genera más ingresos totales. Por ejemplo, si subes un precio de $4,99 a $5,99 (un aumento del 20 por ciento) y la conversión cae del 5 por ciento al 4,5 por ciento (una caída del 10 por ciento), tus ingresos por 100 visitas pasaron de $24,95 a $26,96 — una mejora neta.\n\nCuándo bajar precios: si un anuncio tiene conteos de vistas fuertes pero una tasa de conversión por debajo del 1,5 por ciento después de 30 o más días, el precio puede ser una barrera. Pero antes de bajar el precio, verifica primero las fotos y la descripción de tu anuncio — una conversión baja con muchas vistas indica más frecuentemente un problema de calidad del anuncio que un problema de precios. Si la calidad del anuncio es fuerte y la conversión sigue baja, prueba una disminución modesta y monitorea el impacto.\n\nAjustes estacionales de precios: sube precios en productos estacionales durante su ventana pico cuando la demanda es más alta. Los paquetes de vuelta al cole en agosto pueden sostener precios un 15 a 20 por ciento más altos que los mismos productos en febrero. Los productos con temas festivos en noviembre y diciembre soportan precios premium porque la urgencia del comprador reduce la sensibilidad al precio.\n\nRegistra los cambios de precio en una hoja de cálculo simple: fecha, producto, precio anterior, precio nuevo, tasa de conversión antes y después. Estos datos se acumulan en un manual de precios específico para tu tienda y categorías de productos. Después de 6 a 12 meses, tendrás evidencia empírica de los puntos de precio óptimos en cada categoría y nivel.\n\nEvita hacer múltiples cambios de precio simultáneamente. Si subes precios en 10 anuncios a la vez, no puedes aislar qué cambios ayudaron y cuáles perjudicaron. Cambia precios en 1 a 2 anuncios a la vez, dale a cada cambio de 2 a 4 semanas de datos, y luego aplica los ajustes exitosos a productos similares.`,
     },
   ],
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Anclaje de precios con paquetes premium',
+      heading: `Anclaje de precios con paquetes premium`,
       content: `El anclaje de precios es un principio psicológico donde los compradores evalúan un precio en relación a otros precios visibles. En tu tienda Etsy, tu nivel premium sirve como ancla que hace que tus productos de nivel medio se sientan asequibles en comparación.\n\nCuando un comprador ve tu «Paquete completo de primer grado — 120 páginas» a $24,99 y luego ve tu «Pack de fichas de matemáticas — 40 páginas» a $9,99, los $9,99 se sienten como un buen precio en relación al ancla de $24,99. Sin el ancla premium, el mismo producto de $9,99 podría sentirse caro comparado con fichas individuales de $2,99 de la competencia.\n\nCrea al menos 2 a 3 productos de nivel premium en tu tienda aunque se vendan poco frecuentemente. Su papel principal es anclar la percepción de precio de los compradores y hacer que tus productos de nivel medio — donde realmente viene la mayoría de tus ingresos — se sientan bien valorados. Coloca los productos premium en la parte superior de las secciones relevantes de la tienda para que los compradores encuentren el ancla antes de ver las opciones de menor precio.`,
     },
     {
@@ -138,33 +138,33 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'vender-fichas-matematicas-etsy',
-      title: 'Vender fichas de matemáticas en Etsy',
+      slug: `vender-fichas-matematicas-etsy`,
+      title: `Vender fichas de matemáticas en Etsy`,
       description: `La guía completa de ventas en Etsy para fichas de matemáticas. Aplica las estrategias de precios de esta guía a tu línea de productos de fichas de matemáticas con optimización de anuncios y SEO específicos por categoría.`,
     },
     {
-      slug: 'vender-material-educativo-etsy',
-      title: 'Vender imprimibles educativos en Etsy',
+      slug: `vender-material-educativo-etsy`,
+      title: `Vender imprimibles educativos en Etsy`,
       description: `Estrategia de ventas multicategoría para Etsy. Construye el catálogo de productos diversificado que soporta la estructura de precios en tres niveles cubierta en esta guía.`,
     },
     {
       slug: 'abrir-tienda-etsy-imprimibles',
-      title: 'Abrir una tienda Etsy de imprimibles desde cero',
+      title: `Abrir una tienda Etsy de imprimibles desde cero`,
       description: `Guía completa de configuración de tienda si estás lanzando una nueva tienda Etsy de imprimibles. Cubre la creación de la cuenta, políticas de tienda y estrategia de anuncios iniciales junto con tu plan de precios.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: 'Cómo vender sopas de letras en Etsy' },
-    { pageType: 'guide', slug: 'vender-material-educativo-etsy', anchorText: 'Cómo vender imprimibles educativos en Etsy' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: `Cómo vender sopas de letras en Etsy` },
+    { pageType: 'guide', slug: `vender-material-educativo-etsy`, anchorText: `Cómo vender imprimibles educativos en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
     { pageType: 'guide', slug: 'crear-paginas-colorear-etsy', anchorText: `Cómo crear páginas para colorear Etsy que se venden` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de sumas — Todos los detalles' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el generador de fichas de sumas' },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de fichas de sumas — Todos los detalles` },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de sopas de letras — Todos los detalles` },
+    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: `Prueba el generador de fichas de sumas` },
   ],
 
   toolsRecommended: [
@@ -185,28 +185,28 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `La demografía de compradores más amplia requiere una psicología de precios diferente. Las páginas para colorear compiten en atractivo visual en lugar de profundidad educativa, haciendo que la calidad del tema y el número de páginas sean las principales señales de valor para la justificación del precio.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha imprimible educativa para demostración de estrategia de precios en Etsy` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha imprimible educativa para demostración de estrategia de precios en Etsy` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas temática de animales mostrando producto de precios de nivel de entrada para Etsy`, caption: 'Ficha de sumas con tema de animales — un producto típico de nivel de entrada con precio de $3,99 por un paquete de 10 páginas' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp', alt: `Ficha de sopa de letras demostrando precios premium para productos específicos de idioma`, caption: 'Sopa de letras — las versiones en otros idiomas tienen precios premium con menos competencia en mercados no ingleses' },
-      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 3.webp', alt: `Ficha de puzle de sudoku mostrando estrategia de precios escalonados por dificultad`, caption: 'Puzle de sudoku — los niveles de dificultad soportan precios progresivos dentro de una sola categoría de producto' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas temática de animales mostrando producto de precios de nivel de entrada para Etsy`, caption: `Ficha de sumas con tema de animales — un producto típico de nivel de entrada con precio de $3,99 por un paquete de 10 páginas` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 2.webp`, alt: `Ficha de sopa de letras demostrando precios premium para productos específicos de idioma`, caption: `Sopa de letras — las versiones en otros idiomas tienen precios premium con menos competencia en mercados no ingleses` },
+      { src: `/samples/spanish/sudoku/Sudoku de Imágenes 3.webp`, alt: `Ficha de puzle de sudoku mostrando estrategia de precios escalonados por dificultad`, caption: `Puzle de sudoku — los niveles de dificultad soportan precios progresivos dentro de una sola categoría de producto` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo crear fichas imprimibles para vender en Etsy — Entendiendo el valor del producto y los precios`,
   },
 
   themeImages: [
-    { src: '/image-library/vegetables/asparagus.webp', alt: 'Espárrago — imagen educativa temática', caption: 'Espárrago' },
-    { src: '/image-library/vegetables/beetroot.webp', alt: 'Remolacha — imagen educativa temática', caption: 'Remolacha' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Pimiento — imagen educativa temática', caption: 'Pimiento' },
-    { src: '/image-library/vegetables/broccoli.webp', alt: 'Brócoli — imagen educativa temática', caption: 'Brócoli' },
-    { src: '/image-library/vegetables/cabbage.webp', alt: 'Repollo — imagen educativa temática', caption: 'Repollo' },
+    { src: `/image-library/vegetables/asparagus.webp`, alt: `Espárrago — imagen educativa temática`, caption: 'Espárrago' },
+    { src: `/image-library/vegetables/beetroot.webp`, alt: `Remolacha — imagen educativa temática`, caption: 'Remolacha' },
+    { src: `/image-library/vegetables/bell%20pepper.webp`, alt: `Pimiento — imagen educativa temática`, caption: 'Pimiento' },
+    { src: `/image-library/vegetables/broccoli.webp`, alt: `Brócoli — imagen educativa temática`, caption: 'Brócoli' },
+    { src: `/image-library/vegetables/cabbage.webp`, alt: `Repollo — imagen educativa temática`, caption: 'Repollo' },
   ],
 };
 

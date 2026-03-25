@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'seleção de nicho para negócios de imprimíveis',
+    primaryKeyword: `seleção de nicho para negócios de imprimíveis`,
     secondaryKeywords: [
-      'pesquisa de nichos imprimíveis',
-      'nichos rentáveis de imprimíveis',
-      'como escolher um nicho de imprimíveis',
-      'estratégia de nicho fichas de exercícios',
+      `pesquisa de nichos imprimíveis`,
+      `nichos rentáveis de imprimíveis`,
+      `como escolher um nicho de imprimíveis`,
+      `estratégia de nicho fichas de exercícios`,
     ],
     lsiKeywords: [
       `procura mercado rentabilidade nicho público-alvo validação nicho`,
@@ -39,7 +39,7 @@ Um nicho bem escolhido resolve vários problemas ao mesmo tempo. Dá-lhe posicio
 A questão mais importante que precisa responder antes de criar o seu primeiro produto não é "O que é que eu sei fazer?" — é "Quem é que precisa disto, e já está a pagar por isso?"`,
     },
     {
-      heading: 'Identificar as suas vantagens iniciais',
+      heading: `Identificar as suas vantagens iniciais`,
       content: `Antes de pesquisar a procura do mercado, faça um inventário do que já traz consigo. O nicho mais rentável do mundo é inútil se não tiver capacidade de criar produtos competitivos nele. A seleção de nicho ideal encontra-se na interseção entre procura do mercado e as suas capacidades pessoais.
 
 Comece por listar os seus conhecimentos específicos. Ensina ou ensinou numa escola? Tem filhos de uma determinada faixa etária? Trabalhou numa área específica como terapia da fala, educação especial ou ensino de línguas? Essas experiências dão-lhe uma perspetiva que criadores genéricos não possuem. Sabe que exercícios realmente funcionam, que formatos os usuários preferem e que lacunas existem nos materiais disponíveis.
@@ -49,7 +49,7 @@ Depois, considere as suas capacidades técnicas. Consegue criar ilustrações or
 Finalmente, considere os seus interesses a longo prazo. A seleção de nicho não é uma decisão pontual — é um compromisso. Se escolher um nicho que o entedia, vai abandonar antes de ganhar tração. Os vendedores mais bem-sucedidos escolhem nichos que consideram genuinamente interessantes, porque a consistência a longo prazo supera a perfeição a curto prazo.`,
     },
     {
-      heading: 'Pesquisar a procura do mercado',
+      heading: `Pesquisar a procura do mercado`,
       content: `A pesquisa de mercado para imprimíveis é diferente da pesquisa para produtos físicos. Não precisa de inventário, armazém ou cadeia de abastecimento — mas precisa de compreender onde os compradores procuram e o que sinaliza verdadeira procura.
 
 **Pesquisa de palavras-chave em marketplaces.** Comece pelo Etsy, Amazon KDP e Gumroad. Escreva os seus temas de nicho potenciais na barra de pesquisa e observe as sugestões automáticas. Estas sugestões refletem pesquisas reais de compradores. Se "fichas de matemática pré-escolar" aparece como sugestão, há procura. Se "fichas de topologia algébrica" não aparece, provavelmente não há.
@@ -61,7 +61,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Avaliar o volume de pesquisa.** Ferramentas como eRank (para Etsy) ou Publisher Rocket (para KDP) fornecem dados de volume de pesquisa específicos do marketplace. Procure nichos com pesquisa mensal suficiente para sustentar um negócio, mas não tão competitivos que um novo vendedor não consiga posicionar-se.`,
     },
     {
-      heading: 'Analisar a concorrência no seu nicho potencial',
+      heading: `Analisar a concorrência no seu nicho potencial`,
       content: `Encontrar procura não é suficiente — também precisa de avaliar se consegue competir. A análise de concorrência para imprimíveis envolve observar tanto a quantidade como a qualidade dos vendedores existentes.
 
 **Contar os concorrentes.** Pesquise o seu nicho nos principais marketplaces e observe quantos resultados aparecem. Uma pesquisa por "fichas de matemática pré-escolar" no Etsy pode devolver 50.000 resultados. Isso parece assustador, mas a maioria desses listados é de baixa qualidade, mal otimizada ou abandonada. O que importa é quantos vendedores ativos e de alta qualidade estão nos primeiros 20 resultados.
@@ -73,7 +73,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Analisar as estratégias de preços.** Observe o que os concorrentes cobram por produtos semelhantes. Se toda a gente cobra 2–3 € por fichas individuais, isso define o seu ponto de referência. Mas se consegue criar pacotes abrangentes que justifiquem 10–15 €, pode posicionar-se acima do mercado genérico.`,
     },
     {
-      heading: 'Avaliar a rentabilidade do nicho',
+      heading: `Avaliar a rentabilidade do nicho`,
       content: `Nem todos os nichos com procura são rentáveis. Alguns nichos têm muito tráfego mas margens baixas, enquanto outros têm menos tráfego mas compradores dispostos a pagar mais.
 
 **Calcular o valor médio de encomenda.** Observe os preços dos produtos mais vendidos no seu nicho e estime o preço médio. Nichos onde os produtos mais vendidos custam 2–3 € exigem volume muito alto para gerar rendimento significativo. Nichos onde pacotes de 15–25 € vendem regularmente precisam de muito menos vendas.
@@ -87,7 +87,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Calcular o custo de produção.** Com ferramentas como o LessonCraft Studio, pode criar fichas profissionais em minutos em vez de horas. Isto muda radicalmente a equação de rentabilidade — um nicho que seria pouco rentável com criação manual torna-se altamente rentável quando pode produzir 50 fichas no tempo que levaria a fazer 5. Experimente as ferramentas com um teste grátis com marca d\'água para avaliar a sua velocidade de produção antes de se comprometer com um nicho.`,
     },
     {
-      heading: 'Validar o seu nicho antes de se comprometer',
+      heading: `Validar o seu nicho antes de se comprometer`,
       content: `Antes de investir semanas a criar uma linha de produtos completa, valide a sua escolha de nicho com o mínimo de investimento. A validação protege-o de investir tempo significativo num nicho que não funciona.
 
 **Criar um produto mínimo viável.** Escolha o tipo de produto mais simples do seu nicho e crie 3–5 fichas. Se vai focar-se em fichas de matemática para pré-escolar, crie um pequeno pacote de adição com 5 páginas. Não precisa de ser perfeito — precisa de ser suficientemente bom para testar a reação do mercado.
@@ -101,7 +101,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Definir critérios de decisão antes de testar.** Antes de lançar os seus testes, decida antecipadamente que resultados significam "avançar", "ajustar" ou "abandonar". Por exemplo: se obter pelo menos 50 visualizações e 3 favoritos em 2 semanas, avança. Se não, testa variações ou muda de nicho. Critérios pré-definidos evitam decisões emocionais.`,
     },
     {
-      heading: 'Nichos perenes versus sazonais',
+      heading: `Nichos perenes versus sazonais`,
       content: `Uma decisão estratégica importante é se vai focar-se em nichos perenes (procura constante ao longo do ano) ou sazonais (picos de procura em alturas específicas). Ambos podem ser rentáveis, mas exigem abordagens diferentes.
 
 **Nichos perenes** mantêm procura estável durante todo o ano. Exemplos incluem fichas de matemática por nível escolar, atividades de motricidade fina, exercícios de caligrafia ou fichas de vocabulário. A vantagem é rendimento previsível — pode contar com vendas consistentes mês após mês. A desvantagem é que estes nichos tendem a ser mais competitivos porque atraem vendedores a longo prazo.
@@ -113,7 +113,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Planear com antecedência os sazonais.** Se vai incluir produtos sazonais na sua estratégia, comece a criar 2–3 meses antes do pico de procura. Isso dá tempo para os listados ganharem tração nos motores de busca do marketplace antes de a procura atingir o pico. Lançar um produto de Natal em dezembro é demasiado tarde — precisa de estar listado em outubro.`,
     },
     {
-      heading: 'Planear a sua estratégia de expansão de nicho',
+      heading: `Planear a sua estratégia de expansão de nicho`,
       content: `Depois de validar o seu nicho inicial e começar a gerar vendas, o passo seguinte é planear como expandir. A expansão de nicho é o que transforma um pequeno negócio secundário num rendimento significativo.
 
 **Expansão vertical: aprofundar o nicho.** Se começou com fichas de adição para pré-escolar, expanda para mais conteúdo dentro do mesmo nicho. Mais temas, mais níveis de dificuldade, mais formatos (fichas individuais, pacotes, cadernos de atividades). Cada novo produto aproveita o posicionamento e a audiência que já construiu.
@@ -129,17 +129,17 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos de imprimíveis rentáveis' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: 'Como criar e vender páginas para colorir no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'vender-imprimiveis-gumroad', anchorText: 'Como vender imprimíveis no Gumroad' },
-    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Como criar caça-palavras com imagens' },
-    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Como criar fichas de adição para crianças' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: `Como pesquisar nichos de imprimíveis rentáveis` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: `Como criar e vender páginas para colorir no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: 'vender-imprimiveis-gumroad', anchorText: `Como vender imprimíveis no Gumroad` },
+    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: `Como criar caça-palavras com imagens` },
+    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: `Como criar fichas de adição para crianças` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
@@ -149,7 +149,7 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
       answer: `Pesquise o seu nicho nos principais marketplaces (Etsy, Amazon KDP, Gumroad) e observe as sugestões automáticas, o número de resultados e as avaliações dos produtos mais vendidos. Sugestões automáticas indicam pesquisas reais. Produtos com centenas de avaliações confirmam procura forte. Ferramentas como eRank (Etsy) ou Publisher Rocket (KDP) fornecem dados de volume de pesquisa específicos.`,
     },
     {
-      question: 'Devo começar com um nicho perene ou sazonal?',
+      question: `Devo começar com um nicho perene ou sazonal?`,
       answer: `A estratégia ótima combina ambos. Use nichos perenes como base do seu rendimento — fichas que vendem todos os meses — e complemente com produtos sazonais que aproveitam picos de procura. Nichos perenes dão estabilidade. Nichos sazonais dão oportunidades de crescimento concentrado.`,
     },
     {
@@ -157,41 +157,41 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
       answer: `Crie um produto mínimo viável de 3-5 fichas para o nicho potencial. Liste-o nos marketplaces relevantes com SEO bem otimizado e observe durante 2-4 semanas. Visualizações e favoritos indicam interesse. Se possível, teste 2-3 nichos simultaneamente para comparar com dados reais. Defina critérios de decisão antes de testar.`,
     },
     {
-      question: 'Quando devo expandir para um nicho adjacente?',
+      question: `Quando devo expandir para um nicho adjacente?`,
       answer: `A regra geral é expandir quando 80% do seu catálogo base está completo e a vender. Expanda primeiro verticalmente (mais conteúdo no mesmo nicho), depois horizontalmente (nichos adjacentes com o mesmo público), e depois por nível escolar ou idioma. Cada tipo de expansão reutiliza os seus modelos, público e posicionamento existentes.`,
     },
     {
       question: `Posso experimentar ferramentas de criação antes de escolher um nicho?`,
-      answer: `Sim. Todas as ferramentas do LessonCraft Studio oferecem um teste grátis com marca d'água. Pode criar fichas de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a velocidade de produção antes de se comprometer com um nicho específico. A licença comercial remove a marca d'água quando estiver pronto para vender.`,
+      answer: `Sim. Todas as ferramentas do LessonCraft Studio oferecem um teste grátis com marca d`água. Pode criar fichas de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a velocidade de produção antes de se comprometer com um nicho específico. A licença comercial remove a marca d`água quando estiver pronto para vender.`,
     },
     {
       question: `Que tipos de imprimíveis são mais fáceis de começar a vender?`,
       answer: `Fichas de matemática (adição, subtração), sopas de letras, páginas para colorir e cartões de bingo são os tipos de produtos mais acessíveis para iniciantes. Têm procura consistente, são rápidos de criar com geradores e funcionam em múltiplos nichos temáticos. Comece com o tipo que melhor se adequa ao seu nicho escolhido.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Oferecemos uma garantia de satisfação de 30 dias. Se não estiver satisfeito com a sua compra, contacte a nossa equipa de suporte para solicitar um reembolso completo — sem perguntas. A sua satisfação é a nossa prioridade.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha de caça-palavras mostrando a versatilidade de produtos em múltiplos nichos' },
+    heroImage: { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha de caça-palavras mostrando a versatilidade de produtos em múltiplos nichos` },
     samples: [
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 2.webp`, alt: 'Ficha de caça-palavras mostrando a versatilidade de um produto em múltiplos nichos', caption: 'Os caça-palavras funcionam em qualquer nicho temático — animais, alimentos, veículos, profissões — tornando-os ideais para testar a procura de nicho' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir mostrando possibilidades de produtos temáticos de nicho', caption: 'As páginas para colorir são o produto de entrada mais popular — cada nicho temático gera dezenas de variações' },
-      { src: `/samples/portuguese/bingo/Bingo de Imagenes 1.webp`, alt: 'Cartão de bingo mostrando como um tipo de produto serve múltiplos segmentos de mercado', caption: 'Um único tipo de produto pode servir múltiplos segmentos — salas de aula, festas e terapia' },
-      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de associação mostrando a variedade de produtos de nicho educativo', caption: 'As atividades de associação funcionam em nichos educativos desde vocabulário a matemática' },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 2.webp`, alt: `Ficha de caça-palavras mostrando a versatilidade de um produto em múltiplos nichos`, caption: `Os caça-palavras funcionam em qualquer nicho temático — animais, alimentos, veículos, profissões — tornando-os ideais para testar a procura de nicho` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir mostrando possibilidades de produtos temáticos de nicho`, caption: `As páginas para colorir são o produto de entrada mais popular — cada nicho temático gera dezenas de variações` },
+      { src: `/samples/portuguese/bingo/Bingo de Imagenes 1.webp`, alt: `Cartão de bingo mostrando como um tipo de produto serve múltiplos segmentos de mercado`, caption: `Um único tipo de produto pode servir múltiplos segmentos — salas de aula, festas e terapia` },
+      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de associação mostrando a variedade de produtos de nicho educativo`, caption: `As atividades de associação funcionam em nichos educativos desde vocabulário a matemática` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Como criar caça-palavras para qualquer tema de nicho`,
   },
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Formiga — imagem educativa temática', caption: 'Formiga' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Borboleta — imagem educativa temática', caption: 'Borboleta' },
-    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Lagarta — imagem educativa temática', caption: 'Lagarta' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Centopeia — imagem educativa temática', caption: 'Centopeia' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Formiga — imagem educativa temática`, caption: 'Formiga' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Borboleta — imagem educativa temática`, caption: 'Borboleta' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: `Lagarta — imagem educativa temática`, caption: 'Lagarta' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Centopeia — imagem educativa temática`, caption: 'Centopeia' },
   ],
 };
 

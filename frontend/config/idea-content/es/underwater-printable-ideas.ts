@@ -2,18 +2,18 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles Submarinas — Guía de Nicho',
+    titleTag: `Ideas Imprimibles Submarinas — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles submarinos para vender en Etsy, Amazon KDP y Gumroad. Productos oceánicos, fichas de vida marina y consejos de nicho para.`,
     primaryKeyword: 'ideas imprimibles submarinas',
     secondaryKeywords: [
       'fichas submarinas para vender',
-      'negocio imprimibles temática acuática',
-      'fichas actividades marinas para vendedores',
-      'vender imprimibles submarinos en Etsy',
+      `negocio imprimibles temática acuática`,
+      `fichas actividades marinas para vendedores`,
+      `vender imprimibles submarinos en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas de criaturas del mar profundo',
-      'páginas de actividades de arrecife de coral',
+      `fichas educativas de criaturas del mar profundo`,
+      `páginas de actividades de arrecife de coral`,
       `imprimibles temáticos acuáticos para venta en línea`,
     ],
   },
@@ -40,7 +40,7 @@ La conexión con las visitas al acuario representa una audiencia particularmente
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Submarinas para Vender en Línea',
+      title: `Sopas de Letras Submarinas para Vender en Línea`,
       description: `Las sopas de letras con vocabulario oceánico atraen a vendedores enfocados en ciencias que planifican unidades de biología marina y a padres que buscan entretenimiento educativo que canalice la fascinación natural de sus hijos por los tiburones, delfines y ecosistemas de arrecifes de coral en el desarrollo productivo de habilidades de vocabulario y ortografía en múltiples categorías temáticas oceánicas. Crea puzzles con vocabulario marino específico como delfín, pulpo, medusa, caballito de mar, coral, submarino, anémona, mantarraya, langosta y naufragio junto con términos más amplios del océano como corriente, hábitat, ecosistema y migración. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos marinos para usuarios mayores que exploran vocabulario de ciencias oceánicas y terminología de biología marina.`,
       appId: 'wordsearch',
     },
@@ -89,12 +89,12 @@ La conexión con las visitas al acuario representa una audiencia particularmente
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles Submarinos en Etsy',
+      title: `Vender Imprimibles Submarinos en Etsy`,
       description: `Etsy recompensa el nicho submarino con un rendimiento consistente de listados durante todo el año porque la fascinación de los niños por las criaturas oceánicas y la vida marina nunca se detiene y los padres de niños amantes del océano buscan activamente productos imprimibles temáticos que apoyen la curiosidad marina de sus hijos en todas las estaciones. Utiliza las trece etiquetas con variaciones que combinen elementos marinos, áreas de habilidad y grupos de edad: «fichas conteo océano preescolar», «páginas colorear submarinas niños pequeños» y «sopa de letras tiburones jardín de infantes» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas océano». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad joven biólogo marino» e «imprimible amante del océano» en tus títulos y descripciones. Las imágenes de listados que muestran fichas submarinas impresas junto a juguetes de criaturas marinas, colecciones de conchas o recuerdos de acuarios superan las vistas previas digitales planas y captan el entusiasmo práctico que trae a los padres de niños fascinados por el océano a Etsy buscando recursos educativos con temática marina. Apunta a las búsquedas de fiestas de cumpleaños de sirenas y temática oceánica durante todo el año, ya que los temas submarinos siguen siendo una de las opciones de celebración más populares para niños que sueñan con explorar el profundo mar azul.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades Submarinas en KDP',
+      title: `Publicar Libros de Actividades Submarinas en KDP`,
       description: `Amazon KDP destaca para los imprimibles submarinos porque los padres y compradores de regalos naturalmente añaden libros de actividades a sus carritos de Amazon junto a enciclopedias infantiles de animales marinos, libros de cuentos oceánicos, juguetes de tiburones y kits de exploración de acuarios que alimentan la pasión de los jóvenes aprendices por entender lo que vive bajo la superficie del océano. Compila fichas individuales submarinas en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas de arrecifes de coral y mar profundo. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades oceánicas para niños», «fichas submarinas preescolar» y términos de subtemas como «libro colorear tiburones» o «actividades de arrecife de coral para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como regalos para jóvenes entusiastas de la vida marina, complementos a visitas al acuario o suplementos a materiales de aprendizaje de ciencias oceánicas. Los libros de actividades submarinas se benefician de una demanda durante todo el año con impulsos notables durante la temporada de vacaciones de playa de verano cuando las familias buscan entretenimiento con temática oceánica para viajes costeros.`,
     },
     {
@@ -143,18 +143,18 @@ La conexión con las visitas al acuario representa una audiencia particularmente
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ La conexión con las visitas al acuario representa una audiencia particularmente
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -179,17 +179,17 @@ La conexión con las visitas al acuario representa una audiencia particularmente
     {
       pageType: 'idea',
       slug: 'camping-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Camping',
+      anchorText: `Ideas de Negocio de Imprimibles de Camping`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pez Ángel — imagen educativa temática', caption: 'Pez Ángel' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pez Payaso — imagen educativa temática', caption: 'Pez Payaso' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagen educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Cangrejo — imagen educativa temática', caption: 'Cangrejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Pez — imagen educativa temática', caption: 'Pez' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pez Ángel — imagen educativa temática`, caption: 'Pez Ángel' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pez Payaso — imagen educativa temática`, caption: 'Pez Payaso' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagen educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Cangrejo — imagen educativa temática`, caption: 'Cangrejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Pez — imagen educativa temática`, caption: 'Pez' },
   ],
 
 

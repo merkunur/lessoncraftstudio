@@ -26,7 +26,7 @@ const audiences: Record<string, Record<string, AudienceSegment[]>> = {
         description: `Offer differentiated math resources that teachers can use across ability levels. TPT buyers value worksheets with themed visuals that make repetitive math practice engaging for young learners.`,
       },
       {
-        persona: 'Homeschool Educators & Parents',
+        persona: `Homeschool Educators & Parents`,
         description: `Generate unlimited practice worksheets tailored to your child's current level. Themed images keep kids motivated through repetitive math drills, and answer keys let parents check work quickly.`,
       },
     ],
@@ -46,7 +46,7 @@ const audiences: Record<string, Record<string, AudienceSegment[]>> = {
         description: `Create vocabulary-building resources with themed word lists that align with classroom units. TPT teachers look for printable literacy centers and independent practice activities they can use immediately.`,
       },
       {
-        persona: 'Homeschool Educators & Parents',
+        persona: `Homeschool Educators & Parents`,
         description: `Build custom spelling and vocabulary practice around topics your child loves. Multi-language support lets bilingual families create worksheets in their home language alongside English practice.`,
       },
     ],
@@ -66,7 +66,7 @@ const audiences: Record<string, Record<string, AudienceSegment[]>> = {
         description: `Visual activities serve as engaging rewards, early finisher tasks, and fine motor practice. Teachers value coloring and drawing worksheets that connect to curriculum themes and seasonal topics.`,
       },
       {
-        persona: 'Homeschool Educators & Parents',
+        persona: `Homeschool Educators & Parents`,
         description: `Use coloring and drawing activities as creative breaks between academic subjects. Themed visual worksheets help develop fine motor skills while keeping young children engaged and focused.`,
       },
     ],
@@ -86,7 +86,7 @@ const audiences: Record<string, Record<string, AudienceSegment[]>> = {
         description: `Matching activities are essential for early childhood classrooms as learning centers and assessment tools. Teachers need themed matching worksheets that progress in difficulty across the school year.`,
       },
       {
-        persona: 'Homeschool Educators & Parents',
+        persona: `Homeschool Educators & Parents`,
         description: `Matching and sorting activities build critical thinking skills in young children through hands-on practice. Adjustable difficulty levels let you grow with your child from simple pairs to complex categorization.`,
       },
     ],
@@ -106,7 +106,7 @@ const audiences: Record<string, Record<string, AudienceSegment[]>> = {
         description: `Logic puzzles and brain teasers serve as enrichment activities, early finisher tasks, and substitute plans. TPT teachers search for themed puzzle packs that align with their current classroom units.`,
       },
       {
-        persona: 'Homeschool Educators & Parents',
+        persona: `Homeschool Educators & Parents`,
         description: `Puzzles develop logical thinking, spatial reasoning, and problem-solving skills through engaging play. Multiple difficulty levels ensure appropriate challenge as your child develops cognitive abilities.`,
       },
     ],
@@ -126,7 +126,7 @@ const audiences: Record<string, Record<string, AudienceSegment[]>> = {
         description: `Search activities work as vocabulary reinforcement, observation skill builders, and quiet independent work. Teachers value find-and-count and hidden object worksheets tied to seasonal and thematic units.`,
       },
       {
-        persona: 'Homeschool Educators & Parents',
+        persona: `Homeschool Educators & Parents`,
         description: `Search-and-find activities sharpen observation skills, build vocabulary, and provide screen-free entertainment. Themed treasure hunts and hidden object worksheets turn learning into an exciting game for children.`,
       },
     ],

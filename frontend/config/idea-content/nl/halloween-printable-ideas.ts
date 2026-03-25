@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween Printables Verkopen — Nichegids',
+    titleTag: `Halloween Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende Halloween printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Griezelige productconcepten, seizoenstips en nichestrategieën.`,
 
     primaryKeyword: 'halloween printable ideeën',
     secondaryKeywords: [
       'Halloween werkbladen verkopen',
-      'Halloween thema printable business',
-      'Halloween activiteiten voor verkopers',
-      'Halloween printables verkopen op Etsy',
+      `Halloween thema printable business`,
+      `Halloween activiteiten voor verkopers`,
+      `Halloween printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'griezelige educatieve werkbladen',
+      `griezelige educatieve werkbladen`,
       'oktober klasactiviteiten',
-      'pompoen en kostuum thema printables',
+      `pompoen en kostuum thema printables`,
     ],
   },
   hero: {
-    title: 'Halloween Printable Businessideeën voor Verkopers',
+    title: `Halloween Printable Businessideeën voor Verkopers`,
     description: `Halloween levert een van de krachtigste seizoensgebonden vraagsurges op de printable-markt, met zoekinteresse die scherp stijgt van eind augustus tot en met oktober terwijl verkopers, ouders en feestplanners griezelig-thema educatieve content zoeken. De niche biedt buitengewone subthemadiversiteit waaronder pompoenen, spoken, heksen, vleermuizen, spinnen, skeletten, vampieren, monsters, spookhuizen en jack-o-lanterns, wat verkopers een rijk visueel palet geeft voor het creëren van onderscheidende producten binnen één feestdag. verkopers plannen oktoberactiviteiten en Halloweenfeestjes online weken van tevoren, terwijl ouders zoeken naar leeftijdsgeschikte griezelige pret die leren centraal houdt. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad beloont de Halloweenniche vroege voorbereiding met een geconcentreerd maar zeer winstgevend verkoopvenster dat elk jaar voorspelbaar terugkeert. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De Halloween printable-niche rangschikt als de op één na meest waardevolle seizoensgebonden kans voor verkopers van educatieve producten, alleen overtroffen door Kerst in totaal vraagvolume maar met een korter, meer geconcentreerd verkoopvenster dat timing bijzonder belangrijk maakt. verkopers beginnen al in augustus en september met het plannen van oktoberactiviteiten en Halloweenfeestjes online, op zoek naar thematische werkbladen die griezelige pret in balans brengen met echte educatieve waarde. Ouders zoeken leeftijdsgeschikte Halloweenactiviteiten die schermtijd transformeren in creatieve leerervaringen tijdens de weken van kostuumopwinding en trick-or-treat-anticipatie. Feestplanners en evenementenorganisatoren kopen thematische activiteitenbladen voor klasfeestjes, gemeenschapsevenementen en familie Halloweenvieringen.
@@ -40,27 +40,27 @@ De Halloweenniche biedt ook mogelijkheden voor premiumprijzen voor gespecialisee
 
   productIdeas: [
     {
-      title: 'Halloween Telwerkbladen voor Printable Verkopers',
+      title: `Halloween Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met pompoenen, spoken, vleermuizen, spinnen en snoepjes brengen griezelige opwinding in vroege rekenoefeningen die verkopers en ouders gretig kopen in oktober. Gebruik de Zoek en Tel-generator om Halloweenscènes te maken waarin kinderen specifieke artikelen lokaliseren en tellen tussen spookhuizen, trick-or-treat-tassen en maanverlichte begraafplaatsachtergronden. Bied sets aan op meerdere vaardigheidsniveaus: griezelige voorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen vleermuizen of spinnenwebben voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Halloween Woordzoekpuzzels Online Verkopen',
+      title: `Halloween Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met griezelig vocabulaire trekken verkopers aan die oktoberactiviteiten plannen en ouders die educatief vermaak zoeken tijdens het Halloweenseizoen. Maak puzzels met Halloweenspecifiek vocabulaire zoals pompoen, skelet, vampier, weerwolf, ketel, bezemsteel en grafsteen naast bredere herfstvieringstermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer Halloweentermen voor oudere gebruikers. Variaties zoals monstervocabulaire, spookhuiswoorden en trick-or-treat-terminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Halloween Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met Halloweenthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke oktoberkopers-publiek aanspreken. Maak sets waarin kinderen kostuums koppelen aan trick-or-treaters, griezelige voorwerpen zoals vleermuizen aan grotten en heksen aan bezemstelen combineren, of Halloweensnoepjes koppelen aan bijpassende verpakkingen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die Halloweenfeestjes online plannen waar gestructureerde activiteiten opgewonden kinderen in kostuum gefocust en betrokken houden. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met Halloweenthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke oktoberkopers-publiek aanspreken. Maak sets waarin kinderen kostuums koppelen aan trick-or-treaters, griezelige voorwerpen zoals vleermuizen aan grotten en heksen aan bezemstelen combineren, of Halloweensnoepjes koppelen aan bijpassende verpakkingen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die Halloweenfeestjes online plannen waar gestructureerde activiteiten opgewonden kinderen in kostuum gefocust en betrokken houden. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Halloween Optelwerkbladen voor Rekenverkopers',
+      title: `Halloween Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met griezelige illustraties transformeren routinematige rekenoefeningen in feestelijke activiteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens de opwindende weken van oktober. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen snoepjes in trick-or-treat-tassen optellen, pompoenthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met spoken, vleermuizen en spinnenwebben. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met Halloweenvisuele context. Halloween-rekenwerkbladen zijn sterk gevraagd omdat verkopers productgerichte oefeningen nodig hebben die passen bij de seizoensenergie in hun productlijnen.`,
       appId: 'addition',
     },
     {
-      title: 'Halloween Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Halloween Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn het instapproduct met het hoogste volume voor Halloween printable-winkels omdat griezelig kleuren vrijwel elk gezin met jonge kinderen aanspreekt en vroege beoordelingen genereert die de zichtbaarheid van je hele winkel verhogen tijdens het oktoberpiekseizoen. De Kleuren-generator maakt gedetailleerde contouren van jack-o-lanterns, vriendelijke spoken, spookhuizen, heksen op bezemstelen, zwarte katten, vleermuizen, spinnen, vogelverschrikkers en monsterpersonages. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema. Voor KDP compileer je dertig tot vijftig kleurplaten in Halloween-activiteitenboeken. Voeg educatieve elementen toe zoals Halloweenvocabulairelabels, teloefeningen of letteroefeningen naast de kleurafbeeldingen.`,
       appId: 'coloring',
     },
@@ -94,13 +94,13 @@ De Halloweenniche biedt ook mogelijkheden voor premiumprijzen voor gespecialisee
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Halloween Printables Verkopen op Etsy',
+      title: `Halloween Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor Halloween printable-vermeldingen, en het oktoberwinkelseizoen creëert een grote verkeerspiek voor educatieve digitale downloads. Publiceer je Halloweenvermeldingen tegen half augustus om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de septembervraagstijging begint. Gebruik alle dertien tags met variaties die Halloweensubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "Halloween telwerkbladen kleuters," "griezelige woordzoeker kleuterschool" en "pompoen kleurplaten peuters" richten zich op specifieke koperszoekopdrachten veel effectiever dan brede tags. Maak feestgerichte vermeldingsvariaties die activiteitenbundels positioneren als Halloweenklasfeestpakketten. De Nederlandse markt via Etsy.nl biedt groeiende kansen omdat Halloween steeds populairder wordt in Nederland en België.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Halloween Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor Halloweenprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast kostuums, decoraties en trick-or-treat-artikelen. Compileer individuele Halloweenwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond griezelige thema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "Halloween activiteitenboek voor kinderen," "griezelige werkbladen kleuters" en subthematermen toe. Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als trick-or-treat-tascadeautjes of oktoberfeestgunsten. Publiceer tegen eind augustus. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
+      title: `Halloween Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor Halloweenprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast kostuums, decoraties en trick-or-treat-artikelen. Compileer individuele Halloweenwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond griezelige thema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "Halloween activiteitenboek voor kinderen," "griezelige werkbladen kleuters" en subthematermen toe. Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als trick-or-treat-tascadeautjes of oktoberfeestgunsten. Publiceer tegen eind augustus. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
@@ -132,7 +132,7 @@ De Halloweenniche biedt ook mogelijkheden voor premiumprijzen voor gespecialisee
       answer: `Ja, verkopen op meerdere platforms is een van de meest effectieve strategieën om de Halloween printable-omzet te maximaliseren omdat elk platform een ander kopersegment bereikt tijdens het griezelige seizoen. Etsy trekt ouders, thuisonderwijzers en feestplanners aan die directe-download Halloweenactiviteiten zoeken. Gumroad bereikt klasverkopers die oktoberproductcatalogus en Halloweenfeestactiviteiten plannen. KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken naast kostuums en trick-or-treat-artikelen. Gumroad en Shopify helpen je een eigen publiek op te bouwen dat je elk Halloweenseizoen opnieuw kunt bereiken via e-mailmarketing. Cross-listing vermenigvuldigt je oktoberzichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Verkopen Halloweenprintables ook buiten oktober?',
+      question: `Verkopen Halloweenprintables ook buiten oktober?`,
       answer: `Halloween printable-verkopen zijn sterk geconcentreerd in het venster van september tot oktober, waarbij het overgrote deel van de omzet plaatsvindt tijdens deze tweemaandse periode. Er zijn echter factoren die kleinere verkopen buiten de piek creëren. Sommige verkopers plannen het oktoberproductcatalogus tijdens de zomervakantie en kopen vroeg. Thuisonderwijzende gezinnen met flexibele schema's kunnen Halloweenthema's op niet-traditionele momenten gebruiken. Verkopers die e-maillijsten opbouwen tijdens het Halloweenseizoen kunnen het hele jaar door nieuwe producten en updates marketen naar betrokken abonnees. Hoewel je geen significante jaarronde omzet moet verwachten van Halloweenspecifieke producten, kan het geconcentreerde seizoensinkomen gecombineerd met de relatief korte productietijdlijn deze niche een zeer efficiënt gebruik van je productcreatietijd maken.`,
     },
     {
@@ -149,62 +149,62 @@ De Halloweenniche biedt ook mogelijkheden voor premiumprijzen voor gespecialisee
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Kerst printable businessideeën',
+      anchorText: `Kerst printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'thanksgiving-printable-ideas',
-      anchorText: 'Thanksgiving printable businessideeën',
+      anchorText: `Thanksgiving printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Terug naar school printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding Halloween', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding Halloween', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding Halloween`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding Halloween`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '0cOPi7eajLs',

@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'wie viel verdient man mit Druckvorlagen verkaufen',
+    primaryKeyword: `wie viel verdient man mit Druckvorlagen verkaufen`,
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft Einkommenserwartungen',
-      'realistische Einnahmen Druckvorlagen verkaufen',
-      'Arbeitsblätter online verkaufen Einkommen',
-      'Druckvorlagen-Geschäft Umsatzfaktoren',
+      `Druckvorlagen-Geschäft Einkommenserwartungen`,
+      `realistische Einnahmen Druckvorlagen verkaufen`,
+      `Arbeitsblätter online verkaufen Einkommen`,
+      `Druckvorlagen-Geschäft Umsatzfaktoren`,
     ],
     lsiKeywords: [
-      'Etsy Druckvorlagen-Verkäufer Einnahmen Faktoren',
-      'Amazon KDP Aktivitätsbuch Umsatz Variablen',
-      'Arbeitsblatt-Geschäft Kataloggröße Einkommen',
-      'Druckvorlagen Preisstrategie Marktplatz-Gebühren',
-      'digitaler Download Geschäft Zeitinvestition',
-      'mehrere Einnahmequellen druckbare Produkte',
+      `Etsy Druckvorlagen-Verkäufer Einnahmen Faktoren`,
+      `Amazon KDP Aktivitätsbuch Umsatz Variablen`,
+      `Arbeitsblatt-Geschäft Kataloggröße Einkommen`,
+      `Druckvorlagen Preisstrategie Marktplatz-Gebühren`,
+      `digitaler Download Geschäft Zeitinvestition`,
+      `mehrere Einnahmequellen druckbare Produkte`,
     ],
     titleTag: `Wie viel verdient man mit Druckvorlagen verkaufen?`,
     metaDescription: `Wie viel verdient man mit Druckvorlagen? Realistische Einkommenserwartungen, Plattform-Gebühren und Preisstrategien. Die Variablen, die den Verdienst.`,
@@ -43,7 +43,7 @@ const content: StartContent = {
       content: `Jeder Marktplatz nimmt einen Anteil Ihrer Verkäufe. Die tatsächlichen Gebührenstrukturen zu verstehen, ermöglicht es Ihnen, Ihren realen Umsatz pro Verkauf zu berechnen — nicht den Listenpreis, sondern den Betrag, der auf Ihrem Konto ankommt.\n\nEtsy erhebt eine Listing-Gebühr von 0,20 $ pro Artikel (erneuert alle vier Monate oder bei Verkauf), eine Transaktionsgebühr von 6,5 % auf den Verkaufspreis inklusive Versand und Zahlungsverarbeitungsgebühren von etwa 3 % plus 0,25 $ pro Transaktion. Wenn Sie an Etsy Offsite Ads teilnehmen, fällt eine zusätzliche Gebühr von 12–15 % auf durch diese Anzeigen generierte Verkäufe an. Für einen digitalen Download für 4,99 $ beträgt der ungefähre Nettobetrag nach allen Gebühren etwa 4,15–4,30 $, abhängig von Ihrer spezifischen Gebührensituation. Dies sind Etsys öffentlich gelistete Tarife, Stand Anfang 2026.\n\nAmazon KDP verwendet ein Tantiemenmodell für Taschenbücher: 60 % des Listenpreises abzüglich Druckkosten. Die Druckkosten hängen von Seitenzahl, Druckfarbe (Schwarz-Weiß vs. Farbe) und Marktplatz ab. Ein 100-seitiges Schwarz-Weiß-Aktivitätsbuch, das auf Amazon.com für 6,99 $ gelistet ist, hat Druckkosten von etwa 2,15 $ (aktueller KDP-Rechner-Satz), was eine Tantieme von etwa 2,04 $ pro Verkauf ergibt. Farbige Innenteile kosten deutlich mehr im Druck und reduzieren die Tantieme. KDP stellt einen Tantiemenrechner bereit, damit Sie exakte Zahlen für Ihre spezifischen Buchspezifikationen modellieren können.\n\nGumroad bietet einen Tantieme-Satz von 55 % im Basis-Plan und 80 % im Premium-Plan (59,95 $ pro Jahr). Für ein Produkt für 4,99 $ bedeutet das etwa 2,74 $ (Basis-Plan) oder 3,99 $ (Premium-Plan) pro Verkauf.\n\nGumroad, Payhip und ähnliche Plattformen erheben unterschiedliche Gebühren je nach Tarif-Stufe. Direktverkäufe über die eigene Website (Shopify, WooCommerce) beinhalten Zahlungsverarbeitungsgebühren von etwa 2,9 % plus 0,30 $ pro Transaktion, aber keine Marktplatzprovision.\n\nDies sind faktische, öffentlich verfügbare Plattformtarife. Sie sind keine Einkommensprognosen — sie sind die Kostenstrukturen, die Ihren tatsächlichen Umsatz pro Verkauf auf jeder Plattform bestimmen.`,
     },
     {
-      heading: 'Preisstrategien für druckbare Arbeitsblätter',
+      heading: `Preisstrategien für druckbare Arbeitsblätter`,
       content: `Die Preisgestaltung ist eine der wenigen Einkommensvariablen, die Sie direkt kontrollieren, und die Beobachtung, wie der Druckvorlagen-Markt Produkte bepreist, hilft Ihnen, Ihre eigenen Listings wettbewerbsfähig zu positionieren.\n\nAuf Etsy liegen einzelne Arbeitsblatt-Downloads typischerweise im Bereich von 1,99–5,99 $. Einseitige Arbeitsblätter tendieren zum unteren Ende. Mehrseitige Pakete mit 5–10 Arbeitsblättern werden oft für 3,99–5,99 $ gelistet. Größere Bundles mit 20–50 Seiten werden häufig für 6,99–14,99 $ angeboten. Dies sind beobachtete Preisspannen basierend auf Marktplatz-Listings, keine Empfehlungen oder Garantien für Verkäufe zu einem bestimmten Preis.\n\nAuf Amazon KDP werden Aktivitätsbuch-Taschenbücher typischerweise für 4,99–9,99 $ gelistet. Der Preis muss die Druckkosten berücksichtigen, die Ihre Tantieme reduzieren. Höhere Seitenzahlen bedeuten höhere Druckkosten, rechtfertigen aber auch höhere Listenpreise. Der KDP-Tantiemenrechner ist das definitive Werkzeug, um Ihren spezifischen Umsatz pro Buch bei verschiedenen Preispunkten zu modellieren.\n\nBündelung ist die verbreitetste Preisstrategie zur Erhöhung des durchschnittlichen Bestellwerts. Statt zehn einzelne Arbeitsblätter für je 2,99 $ zu verkaufen, bündeln Verkäufer sie oft in ein Themenpaket für 9,99 $. Der Käufer nimmt einen größeren Wert wahr, und der Verkäufer verdient mehr pro Transaktion ohne zusätzliche Produktionskosten.\n\nGestaffelte Preise ermöglichen es Ihnen, verschiedene Käufersegmente zu bedienen. Bieten Sie ein kleines Probepaket zu einem niedrigen Preis für preissensible Käufer an, ein Standard-Bundle zu einem mittleren Preis für die meisten Käufer und ein umfassendes Mega-Paket zu einem Premium-Preis für Käufer, die alles wollen. Jede Stufe erfasst ein anderes Segment der Nachfrage.\n\nWettbewerbsrecherche ist unverzichtbar vor der Preisfestlegung. Suchen Sie Ihre Ziel-Keywords auf Etsy und Amazon, notieren Sie die Preisspannen der meistverkauften Listings und positionieren Sie Ihre Produkte innerhalb dieser Spanne basierend auf Ihrer Inhaltsqualität und Seitenzahl. Eine deutlich über oder unter der Marktnorm liegende Preisgestaltung erfordert eine klare Begründung — mehr Seiten, bessere Qualität, einzigartige Themen oder stärkeres Branding.`,
     },
     {
@@ -59,7 +59,7 @@ const content: StartContent = {
       content: `Kurzfristige Verkäufe können aus vielen Quellen kommen: ein trendendes Keyword, ein saisonaler Anstieg oder Marktplatzwerbung. Langfristiges, nachhaltiges Einkommen kommt aus einer einzigen Quelle: Produktqualität, die positive Bewertungen, Wiederholungskäufe und organische Empfehlungen generiert.\n\nQualität im Markt für druckbare Arbeitsblätter hat spezifische, messbare Indikatoren. Die Ausgabeauflösung ist entscheidend — 300 DPI PDF-Dateien drucken sauber auf Standarddruckern ohne Pixelierung oder Unschärfe. Käufer, die Arbeitsblätter erhalten, die schlecht drucken, hinterlassen sofort negative Bewertungen. Layout-Konsistenz ist wichtig — einheitliche Ränder, ausgerichteter Text, ausgewogene Abstände und professionelle Formatierung signalisieren Qualität, die beliebige Generatoren nicht erreichen. Inhaltliche Korrektheit ist entscheidend — Mathe-Arbeitsblätter mit korrekten Lösungsschlüsseln, Wortsuch-Rätsel, in denen alle Wörter tatsächlich findbar sind, Kreuzworträtsel mit gültigen Kreuzungen.\n\nDie Arbeitsblatt-Generatoren produzieren standardmäßig 300 DPI PDF-Ausgaben mit Lösungsschlüsseln und konsistenten Layouts. Das sind Qualitätssignale, die Käufer bemerken und die professionelle Verkäufer von jenen unterscheiden, die hastig zusammengestellte Inhalte hochladen. Die kostenlose Testversion mit Wasserzeichen ermöglicht es Ihnen, jeden Aspekt der Ausgabequalität zu überprüfen, bevor Sie in eine Lizenz investieren oder etwas zum Verkauf listen.\n\nPositive Bewertungen summieren sich über die Zeit. Auf Etsy konvertieren Listings mit 10+ Fünf-Sterne-Bewertungen deutlich besser als identische Produkte ohne Bewertungen. Auf Amazon KDP ranken Bücher mit positiven Bewertungen höher in den Suchergebnissen und erhalten mehr Klicks. Jede positive Bewertung macht den nächsten Verkauf einfacher — das ist der Zinseszins-Effekt, der ein Nebenprojekt über Monate und Jahre in einen verlässlichen Einkommensstrom verwandelt.\n\nNegative Bewertungen hingegen sind schwer zu überwinden. Einige Ein-Stern-Bewertungen auf einem Produkt-Listing können es in Suchergebnissen unterdrücken und zukünftige Käufer abschrecken. Die Kosten des Eilens minderwertiger Produkte auf den Markt sind nicht nur verlorene Verkäufe bei diesen Produkten — es sind die Opportunitätskosten des positiven Bewertungsmomentums, das Sie nicht aufgebaut haben.\n\nVon Anfang an in Qualität zu investieren — die Ausgabe gründlich testen, korrekten Inhalt sicherstellen und professionelle Produktbilder präsentieren — ist die Zeitinvestition mit der höchsten Rendite im Druckvorlagen-Geschäft.`,
     },
     {
-      heading: 'Der Zinseszins-Effekt mehrerer Einnahmequellen',
+      heading: `Der Zinseszins-Effekt mehrerer Einnahmequellen`,
       content: `Einer der stärksten strukturellen Vorteile eines Druckvorlagen-Geschäfts ist, dass derselbe generierte Inhalt gleichzeitig auf mehreren Plattformen verkauft werden kann. Das schafft mehrere Einnahmequellen aus einer einzigen Produktionssitzung.\n\nBetrachten Sie ein praktisches Beispiel. Sie generieren ein Set von 50 Wortsuche-Rätseln zum Thema Tiere in drei Schwierigkeitsstufen. Aus dieser einen Produktionssitzung können Sie erstellen: ein Etsy-Listing für digitale Downloads mit einem 50-Seiten-PDF-Bundle, ein Amazon KDP-Taschenbuch-Aktivitätsbuch mit denselben 50 Seiten plus Cover, ein Gumroad-Ressourcen-Listing und ein Gumroad-Direktverkaufs-Listing. Vier Einnahmequellen aus einer Produktionssitzung. Jede Plattform erreicht unterschiedliche Käufer — Etsy-Digital-Shopper, Amazon-Buchkäufer, Käufer und Direktkauf-Kunden.\n\nMehrsprachige Expansion vervielfacht dies weiter. Das gleiche Wortsuche-Konzept, auf Deutsch generiert, spricht Amazon.de und deutschsprachige Etsy-Käufer an. Auf Französisch spricht es Amazon.fr und französischsprachige Märkte an. Auf Spanisch Amazon.es und die breitere spanischsprachige Welt. Die Vollzugriff-Stufe mit allen 11 Sprachen bedeutet, dass ein Produktkonzept 11 Sprachmärkte auf jeweils mehreren Plattformen ansprechen kann.\n\nGenerator-übergreifende Bündelung schafft noch eine weitere Ebene. Ein „Komplettes Tier-Aktivitätspaket" mit Wortsuch-Rätseln, Kreuzworträtseln, Malvorlagen und Mathe-Arbeitsblättern aus vier verschiedenen Generatoren verkauft sich zu einem Premium-Preis, weil es mehr Vielfalt bietet als jedes Einzelaktivitäts-Produkt. Der Inhalt stammt von Generatoren, die Sie bereits lizenziert haben.\n\nDie Zinseszins-Mathematik ist einfach. Ein Verkäufer mit einem Produkt auf einer Plattform hat eine Einnahmequelle. Ein Verkäufer mit demselben Produkt auf vier Plattformen hat vier. In drei Sprachen übersetzt und auf vier Plattformen angeboten, werden es zwölf. Gebündelt mit Inhalten aus drei weiteren Generatoren vervielfachen sich die Variationen erneut. Nichts davon erfordert neue Werkzeuge oder neue Fähigkeiten — es erfordert die strategische Anwendung von Werkzeugen, die Sie bereits haben.`,
     },
     {
@@ -67,7 +67,7 @@ const content: StartContent = {
       content: `Der Bereich des Druckvorlagen-Geschäfts zieht mehr irreführende Einkommensbehauptungen an als die meisten Online-Business-Nischen. Die verbreitetsten Mythen zu erkennen, schützt Sie vor unrealistischen Erwartungen und Fehlentscheidungen.\n\nMythos: Man kann sofort mit minimalem Aufwand ein großes wiederkehrendes Einkommen erzielen. Realität: Ein Druckvorlagen-Geschäft aufzubauen, das konsistente Verkäufe generiert, erfordert anhaltenden Einsatz über Monate. Katalogaufbau, Listing-Optimierung, Plattform-SEO und Produktqualitätsverbesserungen brauchen alle Zeit. Verkäufer, die es als ernsthaftes Geschäft betreiben, sehen bessere Ergebnisse als jene, die mühelose Renditen erwarten.\n\nMythos: Ein einziges Produkt kann transformatives Einkommen generieren. Realität: Das Einkommen im Druckvorlagen-Geschäft verteilt sich fast immer auf viele Produkte. Erfolgreiche Verkäufer haben typischerweise Dutzende oder Hunderte von Listings, wobei sich die Verkäufe über ihren Katalog verteilen, anstatt sich auf ein einziges Produkt zu konzentrieren. Sich auf ein einziges Produkt zu verlassen, setzt Sie saisonalen Schwankungen, Algorithmus-Änderungen und Wettbewerbsdruck aus.\n\nMythos: Das Geschäft läuft nach der Ersteinrichtung von selbst. Realität: Aktive Verkäufer, die weiterhin Produkte hinzufügen, Listings optimieren und auf Markttrends reagieren, übertreffen jene, die einen Shop einrichten und ihn sich selbst überlassen. Das Druckvorlagen-Geschäft kann über die Zeit relativ wartungsarm werden, aber „wartungsarm" ist nicht dasselbe wie „wartungsfrei". Fortlaufendes Katalogwachstum, saisonale Produktaktualisierungen und Listing-Optimierung sind Teil nachhaltigen Erfolgs.\n\nMythos: Jede Druckvorlage verkauft sich, sobald man sie listet. Realität: Marktforschung, Nischenwahl und Produktdifferenzierung sind enorm wichtig. Manche Nischen sind übersättigt. Manche Produkttypen haben geringe Nachfrage. Manche Themen verkaufen sich saisonal, aber nicht ganzjährig. Ihren Markt zu verstehen, bevor Sie Produktionszeit investieren, ist weitaus effektiver als zufällige Inhalte zu produzieren und auf das Beste zu hoffen.\n\nMythos: Die Werkzeugwahl bestimmt das Einkommen. Realität: Das Werkzeug ist ein Produktionsbeschleuniger, keine Einkommensgarantie. Ein hochwertiger Arbeitsblatt-Generator macht Sie effizienter, aber Effizienz ohne Strategie produziert mehr Produkte, die sich möglicherweise nicht verkaufen. Kombinieren Sie gute Werkzeuge mit Marktforschung, strategischer Nischenwahl und konsequentem Einsatz für die besten Ergebnisse.`,
     },
     {
-      heading: 'Eigene realistische Einkommensziele setzen',
+      heading: `Eigene realistische Einkommensziele setzen`,
       content: `Die effektivsten Einkommensziele für ein Druckvorlagen-Geschäft konzentrieren sich auf Inputs, die Sie kontrollieren, statt auf Outputs, die Sie nicht kontrollieren können. Der Umsatz hängt von Käuferverhalten, Algorithmus-Änderungen, saisonaler Nachfrage und Wettbewerbsdynamik ab — nichts davon kontrollieren Sie direkt. Aber die Aktivitäten, die den Umsatz antreiben, liegen vollständig in Ihrer Kontrolle.\n\nInput-fokussierte Ziele klingen so: „Diese Woche 5 neue Produkte listen." „Diesen Monat Listings auf 2 neuen Plattformen erstellen." „Dieses Quartal 3 neue Nischen testen." „Titel und Tags bei 10 unterperformenden Listings optimieren." Das sind konkrete, messbare und erreichbare Ziele, unabhängig von externen Faktoren. Und es sind zufällig genau die Aktivitäten, die über die Zeit kumuliert Umsatzwachstum produzieren.\n\nOutput-fokussierte Ziele klingen so: „Diesen Monat einen bestimmten Geldbetrag verdienen." Das Problem mit Output-Zielen ist nicht, dass es falsch wäre, Umsatz zu wollen — jeder startet ein Geschäft mit dem Wunsch nach Einnahmen. Das Problem ist, dass sie Frustration erzeugen, wenn externe Faktoren die Ergebnisse verzögern, und diese Frustration führt zum Aufgeben, bevor das Geschäft die kritische Masse erreicht.\n\nEin praktisches Ziel-Framework für neue Druckvorlagen-Verkäufer: Woche 1–4, konzentrieren Sie sich darauf, einen Generator gründlich kennenzulernen und Ihre ersten 15–20 Produkt-Listings zu erstellen. Woche 5–8, erweitern Sie auf einen zweiten Produkttyp oder eine zweite Plattform, während Sie weiterhin wöchentlich Listings hinzufügen. Woche 9–12, analysieren Sie Ihre Traffic- und Verkaufsdaten, um festzustellen, welche Produkte und Nischen Traktion zeigen, und verdoppeln Sie dann Ihren Einsatz in diesen Bereichen. Am Ende von 90 Tagen ist Ihr Ziel ein Katalog von 50+ Listings über mindestens zwei Produkttypen, mit genügend Daten, um fundierte Entscheidungen darüber zu treffen, wo Sie Ihre Zeit künftig investieren.\n\nDie kostenlose Testversion mit Wasserzeichen unterstützt dieses Ziel-Framework perfekt. Nutzen Sie die Testphase, um Generatoren kennenzulernen, Nischen zu testen und Produktions-Workflows zu bewerten, bevor Sie Lizenzen kaufen. Wenn Sie dann kaufen, wissen Sie bereits, welche Generatoren die Produkte erzeugen, die Ihre Zielgruppe will, und können Ihre Investition auf bewährte Produkttypen konzentrieren, statt zu raten.\n\nVerfolgen Sie Ihre Inputs wöchentlich und Ihren Umsatz monatlich. Die Inputs werden sich anfangs langsam anfühlen. Der Umsatz wird sich noch langsamer anfühlen. Aber Verkäufer, die konsequenten Input über sechs bis zwölf Monate aufrechterhalten, sind diejenigen, die Druckvorlagen-Geschäfte aufbauen, die bedeutendes, nachhaltiges Einkommen generieren. Die in diesem Leitfaden behandelten Variablen — Kataloggröße, Produktqualität, Plattformökonomie, Preisstrategie und Zeitinvestition — liegen alle in Ihrer Kontrolle. Konzentrieren Sie sich unermüdlich auf sie und lassen Sie den Umsatz folgen.`,
     },
   ],
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Suchen Sie Ihre Ziel-Keywords auf Etsy und Amazon. Zählen Sie, wie viele konkurrierende Listings existieren, notieren Sie deren Preisspannen, lesen Sie deren Bewertungen und identifizieren Sie Lücken, wo Nachfrage besteht, aber das Angebot schwach ist. Die Nischenwahl beeinflusst direkt, wie schnell Ihre Listings Traktion gewinnen.`,
     },
     {
-      step: 'Ihren Netto-Umsatz pro Verkauf berechnen',
+      step: `Ihren Netto-Umsatz pro Verkauf berechnen`,
       description: `Nutzen Sie Plattform-Gebührenrechner (Etsy-Gebührenrechner, KDP-Tantiemenrechner), um Ihren tatsächlichen Nettobetrag bei verschiedenen Preispunkten zu ermitteln. Ihren realen Umsatz pro Verkauf zu kennen, ermöglicht Ihnen fundierte Preis- und Produktionsziele.`,
     },
     {
@@ -90,23 +90,23 @@ const content: StartContent = {
       description: `Wählen Sie eine primäre Plattform zum Starten: Etsy für digitale Downloads, Amazon KDP für Aktivitätsbücher oder Gumroad für Druckprodukte. Meistern Sie eine Plattform, bevor Sie auf andere expandieren. Jede Plattform hat einzigartige Listing-Anforderungen und SEO-Praktiken.`,
     },
     {
-      step: 'Ein 30-Tage-Katalogziel setzen',
+      step: `Ein 30-Tage-Katalogziel setzen`,
       description: `Verpflichten Sie sich zu einer bestimmten Anzahl neuer Listings für Ihren ersten Monat — 15 bis 20 ist ein realistisches Startziel. Konzentrieren Sie sich auf konsistente wöchentliche Produktion statt auf einen einzigen Schub. Jedes Listing ist eine neue Entdeckungsmöglichkeit für potenzielle Käufer.`,
     },
     {
-      step: 'Ihre erste Produktserie erstellen',
+      step: `Ihre erste Produktserie erstellen`,
       description: `Generieren Sie Ihr erstes Set an Arbeitsblättern mit 3–5 Themen in 2–3 Schwierigkeitsstufen. Das ergibt 6–15 einzigartige Produktvariationen aus einem einzigen Generator — genug für eine sinnvolle anfängliche Katalogpräsenz auf Ihrer gewählten Plattform.`,
     },
     {
-      step: 'Auf einer zweiten Plattform listen',
+      step: `Auf einer zweiten Plattform listen`,
       description: `Nachdem Sie Ihre Präsenz auf einer Plattform etabliert haben, passen Sie Ihre Produkte für eine zweite an. Ein Etsy-Digital-Download kann mit minimalem Zusatzaufwand ein KDP-Taschenbuch oder eine Gumroad-Ressource werden. Mehrere Plattformen bedeuten mehrere Einnahmequellen aus demselben Inhalt.`,
     },
     {
-      step: 'Inputs wöchentlich, Umsatz monatlich verfolgen',
+      step: `Inputs wöchentlich, Umsatz monatlich verfolgen`,
       description: `Dokumentieren Sie Ihre wöchentliche Aktivität: erstellte Listings, generierte Produkte, genutzte Plattformen. Prüfen Sie den Umsatz monatlich statt täglich. Wöchentliches Input-Tracking hält Sie bei den Einsatzvariablen verantwortlich, die Sie kontrollieren. Monatliches Umsatz-Tracking verhindert das Grübeln über kurzfristige Schwankungen.`,
     },
     {
-      step: 'Nach 90 Tagen überprüfen und optimieren',
+      step: `Nach 90 Tagen überprüfen und optimieren`,
       description: `Analysieren Sie nach drei Monaten konsequentem Einsatz Ihre Daten. Welche Produkte bekommen die meisten Aufrufe? Welche konvertieren zu Verkäufen? Welche Nischen zeigen Potenzial? Nutzen Sie diese Daten, um Ihre Produktionszeit auf bewährte Produkttypen zu konzentrieren und Ihren Katalog strategisch zu erweitern.`,
     },
   ],
@@ -134,7 +134,7 @@ const content: StartContent = {
     },
     {
       appId: 'addition-worksheets',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Ein zeitloser lehrreicher Grundpfeiler mit ganzjähriger Nachfrage von Eltern und Käufern. Mathe-Übungsblätter bieten konsistente Verkäufe über alle Jahreszeiten und sind damit ein verlässliches Katalogfundament.`,
     },
     {
@@ -181,59 +181,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der umfassende Grundlagen-Leitfaden zu Nischenwahl, Produkterstellung, Plattformvergleich, Preisstrategie und Katalogaufbau für alle Druckvorlagen-Marktplätze.`,
     },
     {
-      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
-      title: 'Arbeitsblätter erstellen, die sich verkaufen',
+      slug: `arbeitsblaetter-erstellen-die-verkaufen`,
+      title: `Arbeitsblätter erstellen, die sich verkaufen`,
       description: `Vertiefung in Produktqualität: Designstandards, Differenzierungstechniken und die Methoden, die Arbeitsblätter auf jedem Marktplatz von der Konkurrenz abheben.`,
     },
     {
       slug: 'etsy-druckvorlagen-geschaeft',
-      title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+      title: `Etsy Druckvorlagen-Geschäft Masterclass`,
       description: `Der Etsy-spezifische Leitfaden für digitale Druckvorlagen-Downloads. Shop-Einrichtung, Listing-Optimierung, Preisstrategie und Aufbau eines profitablen Etsy-Arbeitsblatt-Geschäfts.`,
     },
     {
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      title: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden',
+      title: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden`,
       description: `Das KDP-spezifische Handbuch für die Veröffentlichung von Aktivitätsbüchern auf Amazon. Innenformatierung, Cover-Design, Keyword-Recherche, Preisgestaltung und internationale Marktplatz-Expansion.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Druckvorlagen-Geschäft Bauplan' },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Druckvorlagen-Geschäft Bauplan` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzieller Lizenz-Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'mehrsprachige-arbeitsblaetter-erstellen', anchorText: 'Arbeitsblätter in 11 Sprachen erstellen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller ausprobieren' },
+    { pageType: 'start', slug: `mehrsprachige-arbeitsblaetter-erstellen`, anchorText: `Arbeitsblätter in 11 Sprachen erstellen` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: `Mathe-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: `Mathe-Arbeitsblatt-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math worksheet/worksheet.webp', alt: `Mathe-Arbeitsblatt zeigt professionelle Ausgabequalität der Arbeitsblatt-Generatoren` },
+    heroImage: { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Mathe-Arbeitsblatt zeigt professionelle Ausgabequalität der Arbeitsblatt-Generatoren` },
     samples: [
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: `Mathe-Arbeitsblatt mit professionellem Layout und 300 DPI Druckqualität`, caption: 'Mathe-Arbeitsblatt — Vielseitiger Umsatzbringer' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt für Etsy- und Amazon KDP-Verkauf`, caption: 'Wortsuche — Meistverkaufte Rätselkategorie' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlage für KDP-Aktivitätsbuch-Veröffentlichung`, caption: 'Malvorlagen — Umsatzstarke KDP-Kategorie' },
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: `Sudoku-Rätsel-Arbeitsblatt mit universellem internationalen Potenzial`, caption: 'Sudoku — Universelle Marktattraktivität' },
+      { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Mathe-Arbeitsblatt mit professionellem Layout und 300 DPI Druckqualität`, caption: `Mathe-Arbeitsblatt — Vielseitiger Umsatzbringer` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt für Etsy- und Amazon KDP-Verkauf`, caption: `Wortsuche — Meistverkaufte Rätselkategorie` },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlage für KDP-Aktivitätsbuch-Veröffentlichung`, caption: `Malvorlagen — Umsatzstarke KDP-Kategorie` },
+      { src: `/samples/german/sudoku/sudoku_worksheet.webp`, alt: `Sudoku-Rätsel-Arbeitsblatt mit universellem internationalen Potenzial`, caption: `Sudoku — Universelle Marktattraktivität` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Mathe-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Kaiserfisch — thematisches Lernbild`, caption: 'Kaiserfisch' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfisch — thematisches Lernbild`, caption: 'Clownfisch' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koralle — thematisches Lernbild`, caption: 'Koralle' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krabbe — thematisches Lernbild`, caption: 'Krabbe' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 };
 

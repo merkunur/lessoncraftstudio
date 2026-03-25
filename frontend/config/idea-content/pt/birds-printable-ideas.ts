@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Aves — Guia de Nicho',
+    titleTag: `Ideias de Imprimíveis de Aves — Guia de Nicho`,
     metaDescription: `Ideias rentáveis de imprimíveis com temática de aves para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos, estratégias por plataforma e dicas.`,
 
     primaryKeyword: 'ideias de imprimíveis de aves',
     secondaryKeywords: [
-      'fichas temática aves para vender',
+      `fichas temática aves para vender`,
       'negócio imprimíveis pássaros',
-      'fichas atividades aves para vendedores',
-      'vender imprimíveis aves no Etsy',
+      `fichas atividades aves para vendedores`,
+      `vender imprimíveis aves no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática fauna silvestre',
-      'atividades observação natureza para crianças',
-      'imprimíveis ornitologia infantil',
+      `fichas educativas temática fauna silvestre`,
+      `atividades observação natureza para crianças`,
+      `imprimíveis ornitologia infantil`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ O nicho de aves também oferece fortes oportunidades de diferenciação através
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Aves para Vender Online',
+      title: `Sopas de Letras de Aves para Vender Online`,
       description: `As sopas de letras com vocabulário de aves atraem pais e vendedores que procuram desenvolver competências linguísticas em torno da ornitologia e dos temas de natureza. Cria puzzles com nomes comuns de aves, vocabulário de habitats, partes do corpo das aves e terminologia de migração. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras, facilitando a produção de versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais palavras para compradores mais velhos. As variações sazonais como aves de nidificação primaveral, aves de jardim de inverno e sopas de letras de aves tropicais expandem o teu catálogo de produtos durante todo o ano.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ O nicho de aves também oferece fortes oportunidades de diferenciação através
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Aves no Etsy',
+      title: `Vender Imprimíveis de Aves no Etsy`,
       description: `O Etsy recompensa a especificidade nas listagens de imprimíveis de aves. Em vez de títulos genéricos como «Fichas de Aves», aponta para palavras-chave de cauda longa como «fichas de contagem de corujas pré-escolar» ou «sopa de letras de aves imprimível jardim de infância». Utiliza as treze etiquetas com variações que combinem espécies de aves, tipo de competência e grupo etário. As imagens de maqueta mostrando fichas de aves impressas em contextos de loja ou natureza superam significativamente as pré-visualizações digitais planas. Programa as novas listagens para coincidir com os picos de procura sazonal de março a maio para as unidades de aves primaverais e de setembro a outubro para os temas de migração outonal. Oferece tanto fichas individuais de aves como pacotes temáticos por espécie, já que os compradores do Etsy frequentemente começam com uma compra individual e regressam para pacotes maiores depois de experimentarem a qualidade do teu produto.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Aves no KDP',
+      title: `Publicar Livros de Atividades de Aves no KDP`,
       description: `A Amazon KDP funciona melhor para os imprimíveis com temática de aves quando compilas fichas individuais em livros de atividades coesos que oferecem variedade e valor. Um livro de atividades de aves de quarenta a sessenta páginas que combine contagem, colorir, emparelhamento, sopas de letras e atividades de desenho vende-se bem na categoria de livros de atividades para crianças. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro de atividades de aves para crianças», «fichas de aves pré-escolar» e termos específicos por espécie como «livro para colorir de corujas» ou «atividades de pinguins». Fixa o preço entre quatro e sete dólares para margens de royalties ótimas. Considera criar mini-livros focados em espécies juntamente com livros gerais de atividades de aves para captar os compradores que procuram aves específicas que interessam aos seus filhos.`,
     },
     {
@@ -150,18 +150,18 @@ O nicho de aves também oferece fortes oportunidades de diferenciação através
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -175,7 +175,7 @@ O nicho de aves também oferece fortes oportunidades de diferenciação através
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -185,18 +185,18 @@ O nicho de aves também oferece fortes oportunidades de diferenciação através
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
+      slug: `animais-fazenda-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais da Quinta`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Águia — imagem educativa temática', caption: 'Águia' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — imagem educativa temática', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Calau — imagem educativa temática', caption: 'Calau' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Arara — imagem educativa temática', caption: 'Arara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagem educativa temática', caption: 'Avestruz' },
-    { src: '/image-library/birds/owl.webp', alt: 'Coruja — imagem educativa temática', caption: 'Coruja' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Águia — imagem educativa temática`, caption: 'Águia' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — imagem educativa temática`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Calau — imagem educativa temática`, caption: 'Calau' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Arara — imagem educativa temática`, caption: 'Arara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Avestruz — imagem educativa temática`, caption: 'Avestruz' },
+    { src: '/image-library/birds/owl.webp', alt: `Coruja — imagem educativa temática`, caption: 'Coruja' },
   ],
 
 

@@ -4,25 +4,25 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'vender imprimibles en Etsy',
     secondaryKeywords: [
-      'negocio de imprimibles en Etsy',
-      'tienda Etsy de fichas imprimibles',
+      `negocio de imprimibles en Etsy`,
+      `tienda Etsy de fichas imprimibles`,
       'cómo vender fichas en Etsy',
-      'negocio de descargas digitales en Etsy',
+      `negocio de descargas digitales en Etsy`,
     ],
     lsiKeywords: [
-      'SEO de Etsy para vendedores de imprimibles',
-      'optimización de publicaciones Etsy fichas',
-      'configurar tienda Etsy productos digitales',
-      'etiquetas Etsy para fichas imprimibles',
-      'generador de fichas para vendedores de Etsy',
-      'estrategia de precios imprimibles Etsy',
+      `SEO de Etsy para vendedores de imprimibles`,
+      `optimización de publicaciones Etsy fichas`,
+      `configurar tienda Etsy productos digitales`,
+      `etiquetas Etsy para fichas imprimibles`,
+      `generador de fichas para vendedores de Etsy`,
+      `estrategia de precios imprimibles Etsy`,
     ],
-    titleTag: 'Vender Imprimibles en Etsy — Masterclass Completa',
+    titleTag: `Vender Imprimibles en Etsy — Masterclass Completa`,
     metaDescription: `Cómo vender imprimibles en Etsy paso a paso. Configuración de tienda, SEO de Etsy, optimización de publicaciones, estrategia de precios y escalado del.`,
   },
 
   hero: {
-    title: 'Masterclass Negocio de Imprimibles en Etsy',
+    title: `Masterclass Negocio de Imprimibles en Etsy`,
     tagline: `La guía específica de plataforma para construir una tienda rentable de fichas imprimibles en Etsy`,
     description: `Etsy es el marketplace más grande para descargas digitales imprimibles. Esta masterclass cubre todo lo que necesitas para construir una tienda rentable de fichas imprimibles en la plataforma — desde la configuración inicial de la tienda y el SEO específico de Etsy hasta la optimización de publicaciones, estrategia de precios, publicidad y escalado más allá de tus primeros 50 productos. Cada estrategia en esta guía está adaptada específicamente a cómo funciona Etsy, no son consejos genéricos aplicables a cualquier marketplace.`,
   },
@@ -63,7 +63,7 @@ const content: StartContent = {
       content: `Etsy Ads es el sistema de publicidad integrado de la plataforma. Coloca tus publicaciones en la parte superior de los resultados de búsqueda relevantes a cambio de una tarifa por clic. Entender cuándo y cómo usar Etsy Ads separa a los vendedores rentables de los que desperdician dinero en campañas ineficaces.\n\nComienza con un presupuesto diario pequeño — de 1 $ a 5 $ por día. Etsy Ads utiliza un modelo de coste por clic donde solo pagas cuando alguien hace clic en tu anuncio. El coste por clic varía según el nivel de competencia en tu nicho, oscilando típicamente entre 0,10 $ y 0,50 $ por clic para fichas imprimibles.\n\nLa métrica clave es el retorno sobre la inversión publicitaria (ROAS). Si gastas 5 $ en anuncios y generas 20 $ en ventas, tu ROAS es de 4:1 — excelente. Si gastas 5 $ y generas 3 $, tus anuncios están perdiendo dinero. Revisa tu panel de Etsy Ads semanalmente y desactiva los anuncios en publicaciones que no convierten rentablemente.\n\nNo anuncies todas las publicaciones. Enfoca Etsy Ads en tus productos que mejor convierten — las publicaciones con las mayores tasas de clics y conversión. Anunciar una publicación que ya convierte bien amplifica su éxito. Anunciar una publicación con mala conversión desperdicia presupuesto en clics que no se convierten en ventas.\n\nMás allá de Etsy Ads, usa las herramientas promocionales integradas de Etsy. Las rebajas y cupones pueden re-enganchar a visitantes anteriores. Etsy muestra una insignia de «rebaja» en las publicaciones con descuento, lo que aumenta las tasas de clics en los resultados de búsqueda. Realiza rebajas ocasionales del 15–20 % durante las temporadas pico como la vuelta al cole y los períodos festivos.\n\nLas redes sociales generan tráfico externo hacia tu tienda de Etsy. Pinterest es particularmente efectivo para fichas imprimibles — crea pins mostrando tus diseños de fichas y enlaza directamente a tus publicaciones de Etsy. Instagram funciona para construir una comunidad alrededor de tu marca. Enfócate en uno o dos canales sociales en lugar de dispersarte en todos.`,
     },
     {
-      heading: 'Gestionar reseñas y servicio al cliente en Etsy',
+      heading: `Gestionar reseñas y servicio al cliente en Etsy`,
       content: `Las reseñas son moneda en Etsy. Influyen directamente en tu puntuación de calidad de publicación, tu posicionamiento en búsquedas y la confianza de los compradores. Una tienda con docenas de reseñas de cinco estrellas convierte a una tasa significativamente mayor que una tienda sin reseñas o con valoraciones mixtas.\n\nLa mejor manera de obtener reseñas positivas es entregar productos que superen las expectativas. Calidad profesional de fichas, descripciones precisas, formato de archivo limpio y extras incluidos como claves de respuestas contribuyen a la satisfacción del comprador. Cuando los compradores sienten que recibieron más valor del que pagaron, las reseñas llegan de manera natural.\n\nResponde a cada reseña, positiva o negativa. Agradece brevemente a los reseñadores positivos. Para las reseñas negativas, responde profesionalmente y ofrece una solución — un archivo corregido, un reembolso o un producto diferente. Tu respuesta es visible para todos los futuros compradores, y una respuesta profesional y orientada a soluciones a una reseña negativa a menudo genera más confianza de la que la reseña misma daña.\n\nGestiona las solicitudes de reembolso de manera rápida y amable. La política de descargas digitales de Etsy permite a los vendedores establecer sus propios términos de reembolso, pero la plataforma favorece fuertemente la satisfacción del comprador. Un reembolso de un producto de 4,99 $ te cuesta 4,99 $; una reseña negativa puede costarte docenas de ventas futuras. Cuando la solicitud de reembolso es razonable, procésala rápidamente.\n\nPrevén las reseñas negativas de forma proactiva. Incluye una sección de «Cómo Usar» en la descripción de tu publicación y en el propio archivo descargado. Especifica claramente qué formatos de archivo se incluyen, qué configuraciones de impresora funcionan mejor y cómo contactarte si surge algún problema. La mayoría de las reseñas negativas de productos imprimibles provienen de la confusión del comprador, no de la calidad del producto.\n\nDespués de acumular más de 10 reseñas, tu tienda entra en un ciclo que se refuerza solo. Más reseñas significan mejor posicionamiento, lo que significa más ventas, lo que significa más reseñas. Superar las primeras 10 reseñas es la parte más difícil — considera fijar precios competitivos en tus productos iniciales para maximizar el volumen de ventas tempranas.`,
     },
     {
@@ -78,11 +78,11 @@ const content: StartContent = {
       description: `Busca en Etsy tu categoría objetivo de fichas. Estudia los 10 mejores resultados: anota sus precios, número de páginas, estilos de miniaturas y cantidad de reseñas. Identifica huecos donde puedas ofrecer algo que los principales vendedores actuales no ofrecen.`,
     },
     {
-      step: 'Crea productos de muestra con la prueba gratis',
+      step: `Crea productos de muestra con la prueba gratis`,
       description: `Usa la prueba gratis con marca de agua en 2–3 generadores de fichas para crear productos de muestra en tu nicho elegido. Evalúa la calidad de los resultados y prueba diferentes temas, niveles de dificultad y configuraciones de página.`,
     },
     {
-      step: 'Configura tu cuenta de vendedor en Etsy',
+      step: `Configura tu cuenta de vendedor en Etsy`,
       description: `Crea tu tienda de Etsy con un nombre relevante para tu nicho. Completa la descripción de tu tienda, las políticas, la configuración de pagos y sube un banner profesional mostrando fichas de muestra.`,
     },
     {
@@ -90,27 +90,27 @@ const content: StartContent = {
       description: `Genera 8–10 fichas alrededor de un solo tema usando un generador. Empaquétalas como un paquete cohesivo con un estilo visual consistente. Ponle un precio de 3,99 $–5,99 $ para tu primera publicación.`,
     },
     {
-      step: 'Optimiza tu primera publicación',
+      step: `Optimiza tu primera publicación`,
       description: `Escribe un título rico en palabras clave con los términos de búsqueda principales al principio. Completa las 13 etiquetas con frases clave únicas. Crea un mockup de miniatura limpio mostrando el producto real. Escribe una descripción estructurada.`,
     },
     {
-      step: 'Publica 10 productos en tu primera semana',
+      step: `Publica 10 productos en tu primera semana`,
       description: `Crea publicaciones individuales y paquetes a partir de tus fichas iniciales. Publica de forma cruzada las mismas fichas en diferentes agrupaciones para maximizar la visibilidad en búsquedas y aprovechar el impulso de nueva publicación de Etsy.`,
     },
     {
-      step: 'Configura Etsy Ads en tu mejor publicación',
+      step: `Configura Etsy Ads en tu mejor publicación`,
       description: `Comienza con un presupuesto diario de 1 $–2 $ en tu publicación de mayor calidad. Monitoriza la tasa de clics y la tasa de conversión durante una semana. Pausa los anuncios si el ROAS está por debajo de 2:1.`,
     },
     {
-      step: 'Establece un calendario semanal de publicaciones',
+      step: `Establece un calendario semanal de publicaciones`,
       description: `Comprométete a añadir 2–3 publicaciones nuevas por semana. Usa generadores de fichas para crear productos eficientemente — una sesión con un generador puede producir suficiente material para una semana completa de nuevas publicaciones.`,
     },
     {
-      step: 'Revisa las analíticas después de 30 días',
+      step: `Revisa las analíticas después de 30 días`,
       description: `Consulta tu panel de estadísticas de Etsy para ver vistas, favoritos y ventas por publicación. Identifica tus productos con mejor rendimiento y crea más en esas categorías. Optimiza las publicaciones con bajo rendimiento con mejores miniaturas y palabras clave.`,
     },
     {
-      step: 'Planifica tu primera colección estacional',
+      step: `Planifica tu primera colección estacional`,
       description: `Identifica la próxima oportunidad estacional (vuelta al cole, Halloween, Navidad) y crea una colección temática de fichas al menos 4–6 semanas antes de la demanda pico. Los productos estacionales generan picos de ingresos significativos en Etsy.`,
     },
   ],
@@ -118,7 +118,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Las páginas para colorear están constantemente entre las categorías de imprimibles más vendidas en Etsy. Genera fichas profesionales para colorear estilo contorno a partir de más de 100 conjuntos de imágenes temáticas con diseños y tamaños de página personalizables.`,
     },
     {
@@ -138,12 +138,12 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Fichas puramente visuales que se venden a compradores internacionales de Etsy sin ninguna barrera de idioma. Las actividades de asociación son rápidas de producir en volumen y atraen al mercado de preescolar y jardín de infantes.`,
     },
     {
       appId: 'sudoku-worksheets',
-      title: 'Generador de Puzzles de Sudoku',
+      title: `Generador de Puzzles de Sudoku`,
       description: `La categoría de puzzles funciona muy bien en Etsy tanto para niños como para adultos. Crea fichas de Sudoku con tamaños de cuadrícula y niveles de dificultad configurables, con claves de respuestas incluidas.`,
     },
   ],
@@ -185,59 +185,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía integral de base que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas que se Venden',
+      title: `Cómo Crear Fichas que se Venden`,
       description: `Análisis en profundidad de la calidad del producto: estándares de diseño, técnicas de diferenciación y los métodos específicos que hacen que los compradores elijan tus fichas sobre las de la competencia.`,
     },
     {
       slug: 'libros-actividades-amazon-kdp',
-      title: 'Guía de Libros de Actividades para Amazon KDP',
+      title: `Guía de Libros de Actividades para Amazon KDP`,
       description: `Expándete más allá de Etsy con libros de actividades en Amazon KDP. Cubre requisitos de formato, diseño de portada, investigación de palabras clave y selección de categoría para el marketplace de Amazon.`,
     },
     {
       slug: 'plan-negocio-imprimibles',
-      title: 'Plan de Negocio de Imprimibles',
+      title: `Plan de Negocio de Imprimibles`,
       description: `La guía de planificación de negocio estructurada para vendedores de imprimibles. Cubre modelado de ingresos, planificación de catálogo, diversificación de plataformas y hitos de crecimiento.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales que se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: 'Guía de Libros de Actividades en Amazon KDP' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales que se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos de un Negocio de Imprimibles: Expectativas Realistas` },
     { pageType: 'app', slug: 'dibujos-colorear-fichas', anchorText: `Generador de Páginas para Colorear — Todos los Detalles` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el Generador de Páginas para Colorear' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Prueba el Generador de Busca y Cuenta' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Prueba el Generador de Páginas para Colorear` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: `Prueba el Generador de Busca y Cuenta` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Ejemplo de ficha para colorear creada con el generador LessonCraftStudio para vendedores de Etsy' },
+    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Ejemplo de ficha para colorear creada con el generador LessonCraftStudio para vendedores de Etsy` },
     samples: [
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Ficha para colorear para tienda de imprimibles en Etsy', caption: 'Página para Colorear — Categoría Top en Etsy' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha imprimible de sopa de letras para publicación en Etsy`, caption: 'Sopa de Letras — Alto Volumen de Búsqueda' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de suma con problemas de matemáticas basados en imágenes`, caption: 'Suma — Categoría de Matemáticas Permanente' },
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación para compradores internacionales de Etsy', caption: 'Asociación — Actividad Visual sin Texto' },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Ficha para colorear para tienda de imprimibles en Etsy`, caption: `Página para Colorear — Categoría Top en Etsy` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha imprimible de sopa de letras para publicación en Etsy`, caption: `Sopa de Letras — Alto Volumen de Búsqueda` },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de suma con problemas de matemáticas basados en imágenes`, caption: `Suma — Categoría de Matemáticas Permanente` },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación para compradores internacionales de Etsy`, caption: `Asociación — Actividad Visual sin Texto` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Cómo Crear Fichas para Colorear — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — imagen educativa temática', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Cacatúa — imagen educativa temática', caption: 'Cacatúa' },
-    { src: '/image-library/pets/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Hurón — imagen educativa temática', caption: 'Hurón' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — imagen educativa temática`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Cacatúa — imagen educativa temática`, caption: 'Cacatúa' },
+    { src: '/image-library/pets/dog.webp', alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Hurón — imagen educativa temática`, caption: 'Hurón' },
   ],
 };
 

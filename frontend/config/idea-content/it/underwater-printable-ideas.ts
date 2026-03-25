@@ -7,13 +7,13 @@ const content: IdeaContent = {
     primaryKeyword: 'idee stampabili subacquei',
     secondaryKeywords: [
       'schede subacquee da vendere',
-      'idee business stampabili fondale marino',
-      'schede attività subacquee per venditori',
-      'vendere stampabili subacquei su Etsy',
+      `idee business stampabili fondale marino`,
+      `schede attività subacquee per venditori`,
+      `vendere stampabili subacquei su Etsy`,
     ],
     lsiKeywords: [
-      'schede educative creature del mare profondo',
-      'pagine attività barriera corallina',
+      `schede educative creature del mare profondo`,
+      `pagine attività barriera corallina`,
       `risorse stampabili a tema acquatico per il negozio`,
     ],
   },
@@ -30,7 +30,7 @@ const content: IdeaContent = {
       appId: 'find-count',
     },
     {
-      title: 'Ricerche di Parole Subacquee da Vendere Online',
+      title: `Ricerche di Parole Subacquee da Vendere Online`,
       description: "Le ricerche di parole con vocabolario oceanico attraggono i venditori focalizzati sulle scienze che pianificano unità di biologia marina e i genitori che cercano intrattenimento educativo che incanala la fascinazione naturale del loro bambino per squali, delfini e gli ecosistemi della barriera corallina nello sviluppo produttivo del vocabolario e delle competenze ortografiche attraverso molteplici categorie a tema oceanico. Crea puzzle con vocabolario marino specifico come delfino, polpo, medusa, cavalluccio marino, corallo, sottomarino, anemone, pastinaca, aragosta e relitto insieme a termini oceanici più ampi come corrente, habitat, ecosistema e migrazione. Il generatore di Ricerca di Parole ti permette di controllare la dimensione della griglia e il numero di parole per produrre versioni adatte alle diverse fasce d\'età. Offri griglie facili con sei-otto parole per i più piccoli e griglie impegnative con quindici o più termini marini per gli utenti più grandi che esplorano il vocabolario delle scienze oceaniche e la terminologia della biologia marina.",
       appId: 'wordsearch',
     },
@@ -50,7 +50,7 @@ const content: IdeaContent = {
       appId: 'coloring',
     },
     {
-      title: 'Cartelle di Bingo Subacquee per Attività online',
+      title: `Cartelle di Bingo Subacquee per Attività online`,
       description: "Le cartelle di bingo oceaniche servono i venditori di scienze che gestiscono unità di biologia marina e i venditori professionali che cercano attività interattive di gruppo che rinforzino il vocabolario marino e l\'identificazione delle creature marine in modo più efficace delle schede individuali da sole in contesti educativi e centri di apprendimento coinvolgenti. Il generatore di Bingo crea variazioni uniche delle cartelle dalla tua lista di vocabolario oceanico, assicurando che non ci siano due cartelle identiche per il gioco stampabile o di gruppo. Vendi set per il negozio da venticinque a trenta cartelle con foglio per il chiamante e guida di riferimento al vocabolario marino inclusi. Per il mercato familiare, crea kit di bingo con diverse zone oceaniche, creature marine, elementi della barriera corallina, animali del mare profondo e attrezzature di esplorazione subacquea che le famiglie possano usare durante le sessioni di apprendimento oceanico o dopo le visite all\'acquario quando l\'entusiasmo marino è particolarmente alto.",
       appId: 'bingo',
     },
@@ -79,12 +79,12 @@ const content: IdeaContent = {
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vendere Stampabili Subacquei su Etsy',
+      title: `Vendere Stampabili Subacquei su Etsy`,
       description: "Etsy premia la nicchia subacquea con prestazioni costanti delle inserzioni tutto l\'anno perché la fascinazione dei bambini per le creature oceaniche e la vita marina non si ferma mai e i genitori di bambini amanti dell\'oceano cercano attivamente materiali educativi tematici che supportino la curiosità marina del loro bambino in ogni stagione. Usa tutti i tredici tag con variazioni che combinano elementi marini, aree di competenza e fasce d\'età: \"ocean counting worksheets preschool,\" \"underwater coloring pages toddler\" e \"shark word search kindergarten\" puntano a ricerche specifiche degli acquirenti molto più efficacemente di tag generici come \"ocean worksheets.\" Posiziona i tuoi prodotti sia per ricerche educative che per acquirenti di regali includendo termini come \"young marine biologist activity\" e \"ocean lover printable\" nei titoli e nelle descrizioni. Le immagini delle inserzioni che mostrano schede subacquee stampate accanto a creature marine giocattolo, collezioni di conchiglie o souvenir dell\'acquario superano le anteprime digitali piatte e catturano l\'entusiasmo pratico che porta i genitori di bambini affascinati dall\'oceano a cercare risorse educative marine su Etsy. Punta alle ricerche di feste di compleanno a tema sirene e oceano tutto l\'anno, poiché i temi subacquei rimangono una delle scelte più popolari per le celebrazioni dei bambini che sognano di esplorare il profondo mare blu.",
     },
     {
       platform: 'Amazon KDP',
-      title: 'Pubblicare Libri di Attività Subacquee su KDP',
+      title: `Pubblicare Libri di Attività Subacquee su KDP`,
       description: "Amazon KDP eccelle per i stampabili subacquei perché i genitori e gli acquirenti di regali aggiungono naturalmente libri di attività ai loro carrelli Amazon insieme a enciclopedie di animali marini per bambini, libri di storie oceaniche, giocattoli a tema squalo e kit di esplorazione dell\'acquario che alimentano la passione dei giovani utenti per capire cosa vive sotto la superficie dell\'oceano. Compila le singole schede subacquee in libri di attività coerenti da quaranta a sessanta pagine che combinano conteggio, colorazione, abbinamento, ricerche di parole e attività di disegno attorno a temi della barriera corallina e del mare profondo. Usa i campi delle parole chiave KDP strategicamente: includi \"ocean activity book for kids,\" \"underwater worksheets preschool\" e termini dei sotto-temi come \"shark coloring book\" o \"coral reef activities for children.\" Prezza tra quattro e otto dollari per margini di royalty ottimali, e posiziona i tuoi libri come regali per giovani appassionati del mare, accompagnamenti alle visite all\'acquario, o supplementi ai materiali di apprendimento sulle scienze oceaniche. I libri di attività subacquei beneficiano di una domanda tutto l\'anno con notevoli picchi durante la stagione estiva delle vacanze al mare quando le famiglie cercano intrattenimento a tema oceanico per i viaggi costieri.",
     },
     {
@@ -106,7 +106,7 @@ const content: IdeaContent = {
     },
     {
       question: `La nicchia dei stampabili subacquei è stagionale o sempreverde?`,
-      answer: "La nicchia dei stampabili subacquei è fondamentalmente sempreverde, il che è uno dei suoi vantaggi più forti per i venditori di stampabili che costruiscono attività sostenibili. La fascinazione dei bambini per squali, delfini, balene, polpi e pesci colorati della barriera corallina non dipende dal tempo, dalle festività o dagli eventi del calendario perché la curiosità marina e l\'interesse per l\'esplorazione oceanica fanno parte della vita quotidiana dell\'infanzia durante ogni stagione. Le unità del catalogo prodotti sulla biologia marina, gli ecosistemi oceanici, la negozificazione degli animali e le scienze ambientali si svolgono continuamente durante l\'intero calendario accademico, mantenendo una domanda costante dei venditori per risorse educative a tema oceanico. La domanda dei genitori resta costante perché i bambini visitano acquari, guardano documentari marini, collezionano giocattoli di animali oceanici e creano immaginarie avventure subacquee tutto l\'anno. Detto questo, i venditori possono capitalizzare su picchi di domanda prevedibili: la Giornata Mondiale degli Oceani l'8 giugno porta un volume di ricerca concentrato, la stagione estiva balneare da giugno ad agosto crea entusiasmo oceanico naturale tra le famiglie in vacanza, la Settimana dello Squalo a luglio stimola le ricerche di stampabili sugli squali, il mese delle scienze marine a ottobre genera interesse dei venditori per le risorse oceaniche, e le stagioni dei regali durante le pause scolastiche creano opportunità di acquisto complementari. Questi picchi si sovrappongono a una forte domanda di base, offrendo ai venditori di stampabili subacquei uno schema di entrate particolarmente stabile.",
+      answer: "La nicchia dei stampabili subacquei è fondamentalmente sempreverde, il che è uno dei suoi vantaggi più forti per i venditori di stampabili che costruiscono attività sostenibili. La fascinazione dei bambini per squali, delfini, balene, polpi e pesci colorati della barriera corallina non dipende dal tempo, dalle festività o dagli eventi del calendario perché la curiosità marina e l\`interesse per l'esplorazione oceanica fanno parte della vita quotidiana dell'infanzia durante ogni stagione. Le unità del catalogo prodotti sulla biologia marina, gli ecosistemi oceanici, la negozificazione degli animali e le scienze ambientali si svolgono continuamente durante l'intero calendario accademico, mantenendo una domanda costante dei venditori per risorse educative a tema oceanico. La domanda dei genitori resta costante perché i bambini visitano acquari, guardano documentari marini, collezionano giocattoli di animali oceanici e creano immaginarie avventure subacquee tutto l'anno. Detto questo, i venditori possono capitalizzare su picchi di domanda prevedibili: la Giornata Mondiale degli Oceani l`8 giugno porta un volume di ricerca concentrato, la stagione estiva balneare da giugno ad agosto crea entusiasmo oceanico naturale tra le famiglie in vacanza, la Settimana dello Squalo a luglio stimola le ricerche di stampabili sugli squali, il mese delle scienze marine a ottobre genera interesse dei venditori per le risorse oceaniche, e le stagioni dei regali durante le pause scolastiche creano opportunità di acquisto complementari. Questi picchi si sovrappongono a una forte domanda di base, offrendo ai venditori di stampabili subacquei uno schema di entrate particolarmente stabile.",
     },
     {
       question: `Quali fasce d'età acquistano stampabili a tema subacqueo più frequentemente?`,
@@ -133,18 +133,18 @@ const content: IdeaContent = {
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
-      anchorText: 'Come Creare Pacchetti di Schede che Vendono',
+      slug: `creare-pacchetti-schede-esercizi`,
+      anchorText: `Come Creare Pacchetti di Schede che Vendono`,
     },
     {
       pageType: 'guide',
@@ -153,33 +153,33 @@ const content: IdeaContent = {
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: `Guida Completa per Avviare un'Attività di Stampabili`,
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
       slug: 'campeggio-idee-stampabili',
-      anchorText: 'Idee di Business con Stampabili sul Campeggio',
+      anchorText: `Idee di Business con Stampabili sul Campeggio`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pesce Angelo — immagine educativa tematica', caption: 'Pesce Angelo' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pesce Pagliaccio — immagine educativa tematica', caption: 'Pesce Pagliaccio' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Corallo — immagine educativa tematica', caption: 'Corallo' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Granchio — immagine educativa tematica', caption: 'Granchio' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfino — immagine educativa tematica', caption: 'Delfino' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Pesce — immagine educativa tematica', caption: 'Pesce' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pesce Angelo — immagine educativa tematica`, caption: 'Pesce Angelo' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pesce Pagliaccio — immagine educativa tematica`, caption: 'Pesce Pagliaccio' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Corallo — immagine educativa tematica`, caption: 'Corallo' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Granchio — immagine educativa tematica`, caption: 'Granchio' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfino — immagine educativa tematica`, caption: 'Delfino' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Pesce — immagine educativa tematica`, caption: 'Pesce' },
   ],
 
 

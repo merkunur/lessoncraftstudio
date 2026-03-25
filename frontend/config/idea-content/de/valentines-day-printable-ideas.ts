@@ -2,17 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'valentinstag-druckvorlagen-ideen',
+    primaryKeyword: `valentinstag-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Valentinstag-Arbeitsblätter auf Etsy erstellen',
-      'Liebes-Herz-Druckvorlagen auf KDP verkaufen',
-      'Februar-Feiertags-Aktivitätsblätter für Gumroad',
+      `Valentinstag-Arbeitsblätter auf Etsy erstellen`,
+      `Liebes-Herz-Druckvorlagen auf KDP verkaufen`,
+      `Februar-Feiertags-Aktivitätsblätter für Gumroad`,
       `Valentinstag-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Februar-Nachfragespitze saisonale Druckvorlagen',
-      'Valentinstag-Nische Arbeitsblätter Etsy',
-      'Liebes-Thema Lernmaterialien saisonaler Markt',
+      `Februar-Nachfragespitze saisonale Druckvorlagen`,
+      `Valentinstag-Nische Arbeitsblätter Etsy`,
+      `Liebes-Thema Lernmaterialien saisonaler Markt`,
     ],
     titleTag: `Valentinstag-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Valentinstag-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Liebes-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer und Shops.`,
@@ -46,7 +46,7 @@ Die Valentinstag-Keyword-Landschaft offenbart mehrere unterversorgte Unternische
       appId: 'find-count',
     },
     {
-      title: 'Valentinstag-Wortsuchrätsel zum Online-Verkauf',
+      title: `Valentinstag-Wortsuchrätsel zum Online-Verkauf`,
       description: `Freundschafts-Vokabel-Wortsuchrätsel sprechen Verkäufer an, die Februar-Gruppenaktivitäten planen, und Eltern, die lehrreiche Unterhaltung während der Valentinstag-Feierlichkeiten suchen. Erstellen Sie Rätsel mit valentinsspezifischem Vokabular wie Herz, Amor, Rosen, Süßigkeiten, Freund, Liebe und Briefkasten sowie breiterer Freundschafts- und Freundlichkeitsterminologie. Der Wortsuchrätsel-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Versionen verschiedener Altersstufen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und herausfordernde Raster mit fünfzehn oder mehr Valentinstag-Begriffen für ältere Nutzer an. Variationen wie Freundschaftsvokabular, liebes-thematische Wörter und Valentinstag-Feiervokabular erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der Februar-Saisonnische abzudecken.`,
       appId: 'wordsearch',
     },
@@ -95,7 +95,7 @@ Die Valentinstag-Keyword-Landschaft offenbart mehrere unterversorgte Unternische
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Valentinstag-Druckvorlagen auf Etsy verkaufen',
+      title: `Valentinstag-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität bei Valentinstag-Druckvorlagen-Listings, und die Winter-Einkaufssaison erzeugt einen bedeutenden Traffic-Anstieg für lehrreiche digitale Downloads. Veröffentlichen Sie Ihre Valentinstag-Angebote bis Ende Dezember oder Anfang Januar, damit die Etsy-Suchalgorithmen Zeit haben, Ihre Produkte zu indexieren und zu ranken, bevor der Januar-Nachfrageanstieg beginnt. Nutzen Sie alle dreizehn Tags mit Variationen, die Valentinstag-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Valentinstag-Zählarbeitsblätter Vorschule", „Freundschafts-Wortsuchrätsel Kindergarten" und „Herz-Ausmalbilder Kleinkind" zielen auf spezifische Käufersuchen viel effektiver als breite Tags wie „Valentinstag-Arbeitsblätter". Erstellen Sie feierorientierte Angebotsvariationen, die Aktivitätspakete als Valentinstag-Gruppen-Party-Packs oder Valentinskarten-Alternativen positionieren. Angebotsbilder, die gedruckte Valentinstag-Arbeitsblätter in liebevoll gestalteten Settings mit saisonalen Requisiten wie Herzdekorationen und rot-rosa Akzenten zeigen, übertreffen flache digitale Vorschauen und fangen die festliche Stimmung ein, die den Februar-Traffic antreibt.`,
     },
     {
@@ -153,18 +153,18 @@ Die Valentinstag-Keyword-Landschaft offenbart mehrere unterversorgte Unternische
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -173,33 +173,33 @@ Die Valentinstag-Keyword-Landschaft offenbart mehrere unterversorgte Unternische
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'ostern-druckvorlagen-ideen',
-      anchorText: 'Ostern-Druckvorlagen-Geschäftsideen',
+      anchorText: `Ostern-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Nelke — thematisches Lernbild', caption: 'Nelke' },
+    { src: `/image-library/flowers/aster.webp`, alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalee — thematisches Lernbild`, caption: 'Azalee' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonie — thematisches Lernbild`, caption: 'Begonie' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Glockenblume — thematisches Lernbild`, caption: 'Glockenblume' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Butterblume — thematisches Lernbild`, caption: 'Butterblume' },
+    { src: `/image-library/flowers/carnation.webp`, alt: 'Nelke — thematisches Lernbild', caption: 'Nelke' },
   ],
 
 

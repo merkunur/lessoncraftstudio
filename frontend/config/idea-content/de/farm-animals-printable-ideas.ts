@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'bauernhoftiere-druckvorlagen',
     secondaryKeywords: [
-      'Bauernhof-Arbeitsblätter auf Etsy erstellen',
-      'Nutztier-Aktivitätsblätter auf KDP verkaufen',
+      `Bauernhof-Arbeitsblätter auf Etsy erstellen`,
+      `Nutztier-Aktivitätsblätter auf KDP verkaufen`,
       `Bauernhof-Thema Druckvorlagen auf Gumroad anbieten`,
-      'Kuh-Schwein-Huhn Arbeitsblätter für Verkäufer',
+      `Kuh-Schwein-Huhn Arbeitsblätter für Verkäufer`,
     ],
     lsiKeywords: [
-      'frühkindliche Bildung Tierthema Druckvorlagen',
-      'Bauernhof-Nische Ganzjahres-Lernmaterialien',
-      'Vorschul-Lieblingsthema Arbeitsblatt-Markt',
+      `frühkindliche Bildung Tierthema Druckvorlagen`,
+      `Bauernhof-Nische Ganzjahres-Lernmaterialien`,
+      `Vorschul-Lieblingsthema Arbeitsblatt-Markt`,
     ],
-    titleTag: 'Bauernhoftiere-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Bauernhoftiere-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Entdecken Sie profitable Bauernhoftiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und Gumroad. Produktkonzepte, Preisstrategien und Plattformtipps für Verkäufer.`,
   },
   hero: {
@@ -41,12 +41,12 @@ Saisonale Marketingmöglichkeiten in der Bauernhof-Nische gehen über die offens
 
   productIdeas: [
     {
-      title: 'Bauernhoftier-Zählarbeitsblätter für Verkäufer',
+      title: `Bauernhoftier-Zählarbeitsblätter für Verkäufer`,
       description: `Zählarbeitsblätter mit Kühen, Schweinen, Hühnern und Pferden gehören zu den meistgefragten Bauernhof-Druckvorlagen. Erstellen Sie Sets für verschiedene Schwierigkeitsstufen: Objekte bis fünf zählen für Vorschulkinder, Zahlen bis zehn zählen und schreiben für Kindergartenkinder und Sprungzählen mit Bauernhoftieren für K-2-Produktmarkt. Nutzen Sie den Finde-und-Zähle-Generator, um visuell reichhaltige Szenen zu erstellen, in denen Kinder bestimmte Tiere suchen und zusammenzählen. Bündeln Sie nach Schwierigkeitsgrad oder kombinieren Sie alle Stufen zu einem umfassenden Zählpaket, das Käufer in Gruppen mit gemischten Leistungsniveaus einsetzen können.`,
       appId: 'find-count',
     },
     {
-      title: 'Bauernhof-Wortsuchrätsel zum Online-Verkauf',
+      title: `Bauernhof-Wortsuchrätsel zum Online-Verkauf`,
       description: `Bauernhof-Wortsuchrätsel sprechen sowohl Eltern als auch Käufer an, die Sprachfähigkeiten rund um das Bauernhofthema aufbauen. Erstellen Sie Rätsel mit Tiernamen, Begriffen für landwirtschaftliche Geräte, Erntevokabular und Scheunenhof-Aktionswörtern. Der Wortsuchrätsel-Generator ermöglicht die Kontrolle über Rastergröße und Wortanzahl, sodass altersgerechte Versionen leicht erstellt werden können. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Wörtern für ältere Nutzer an. Saisonale Varianten wie Frühlings-Tierbabys oder Herbsternte-Wortsuchrätsel erweitern Ihren Produktkatalog das ganze Jahr über.`,
       appId: 'wordsearch',
     },
@@ -95,7 +95,7 @@ Saisonale Marketingmöglichkeiten in der Bauernhof-Nische gehen über die offens
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Bauernhoftier-Druckvorlagen auf Etsy verkaufen',
+      title: `Bauernhoftier-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Bauernhoftier-Druckvorlagen-Listings. Statt generischer Titel wie „Bauernhof-Arbeitsblätter" sollten Sie Long-Tail-Keywords wie „Bauernhoftiere Zählarbeitsblätter Vorschule" oder „Scheunenhof Wortsuchrätsel druckbar Kindergarten" verwenden. Nutzen Sie alle dreizehn Tags mit Variationen, die Thema, Kompetenz und Altersgruppe kombinieren. Mockup-Bilder, die gedruckte Arbeitsblätter in Gruppen- oder Heimumgebungen zeigen, übertreffen schlichte digitale Vorschauen deutlich. Planen Sie neue Listings zeitlich auf saisonale Nachfragespitzen im März und April für Frühlings-Bauernhofeinheiten und September bis Oktober für Erntethemen. Bieten Sie sowohl einzelne Arbeitsblätter als auch Pakete an, da Etsy-Käufer oft mit einem einzelnen günstigen Kauf beginnen, bevor sie für größere Pakete zurückkehren, sobald sie Ihrer Qualität vertrauen.`,
     },
     {
@@ -153,8 +153,8 @@ Saisonale Marketingmöglichkeiten in der Bauernhof-Nische gehen über die offens
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'Druckvorlagen-Produktlinie erstellen',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `Druckvorlagen-Produktlinie erstellen`,
     },
     {
       pageType: 'guide',
@@ -164,7 +164,7 @@ Saisonale Marketingmöglichkeiten in der Bauernhof-Nische gehen über die offens
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -173,33 +173,33 @@ Saisonale Marketingmöglichkeiten in der Bauernhof-Nische gehen über die offens
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
-      anchorText: 'Meerestiere Druckvorlagen-Geschäftsideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
+      anchorText: `Meerestiere Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Küken — thematisches Lernbild', caption: 'Küken' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katze 2 — thematisches Lernbild`, caption: 'Katze 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: 'Küken — thematisches Lernbild', caption: 'Küken' },
   ],
 
 

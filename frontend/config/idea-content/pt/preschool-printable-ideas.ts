@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias de Imprimíveis Pré-Escolares — Guia de Nicho`,
     metaDescription: `Descubra ideias de imprimíveis pré-escolares para vender no Etsy, Amazon KDP e Gumroad. Produtos pré-escolar e estratégias de nicho para vendedores digitais.`,
-    primaryKeyword: 'ideias de imprimíveis pré-escolares',
+    primaryKeyword: `ideias de imprimíveis pré-escolares`,
     secondaryKeywords: [
-      'fichas pré-escolares para vender',
-      'negócio imprimíveis pré-escolar',
-      'fichas atividades pré-escolares para vendedores',
-      'vender imprimíveis pré-escolares no Gumroad',
+      `fichas pré-escolares para vender`,
+      `negócio imprimíveis pré-escolar`,
+      `fichas atividades pré-escolares para vendedores`,
+      `vender imprimíveis pré-escolares no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas primeira infância',
-      'páginas atividades crianças pequenas aprendizagem',
-      'imprimíveis recursos loja idades 3-5',
+      `fichas educativas primeira infância`,
+      `páginas atividades crianças pequenas aprendizagem`,
+      `imprimíveis recursos loja idades 3-5`,
     ],
   },
   hero: {
@@ -38,7 +38,7 @@ Os preços no nicho pré-escolar seguem as convenções estabelecidas dos imprim
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Pré-Escolares para Vender Online',
+      title: `Sopas de Letras Pré-Escolares para Vender Online`,
       description: `As sopas de letras simples concebidas especificamente para leitores principiantes atraem pais e vendedores que procuram atividades envolventes de construção de vocabulário que introduzam os pré-escolares ao reconhecimento de letras e à formação de palavras num formato de jogo que mantém os jovens aprendizes motivados e concentrados durante as sessões de prática de literacia. Cria puzzles com palavras de uso frequente de três a quatro letras, nomes de cores como vermelho, azul e verde, nomes de animais como gato, cão e peixe, e palavras de formas como estrela e bola em grelhas pequenas com letras grandes e claras adequadas para olhos em desenvolvimento e competências de leitura emergentes. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha para criar versões adequadas à idade com seis a oito palavras simples em grelhas compactas para aprendizes pré-escolares. Estes produtos vendem-se consistentemente porque os pais valorizam as atividades de vocabulário sem ecrã e os vendedores de infância utilizam-nas para centros de literacia e rotinas de trabalho matinal.`,
       appId: 'wordsearch',
     },
@@ -87,7 +87,7 @@ Os preços no nicho pré-escolar seguem as convenções estabelecidas dos imprim
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis Pré-Escolares no Etsy',
+      title: `Vender Imprimíveis Pré-Escolares no Etsy`,
       description: `O Etsy é o mercado dominante para vendas de imprimíveis pré-escolares porque a enorme base de compradores de pais procura ativamente termos como «fichas pré-escolares», «atividades pré-escolar», «imprimíveis aprendizagem crianças pequenas» e «fichas preparação primeiro ano» durante todos os meses do ano sem queda sazonal da procura. Utiliza as treze etiquetas com variações que combinem áreas de competência, descritores de idade e tipos de atividade: «fichas contagem pré-escolar idades 3-5», «atividades traçado letras pré-escolar» e «imprimível emparelhamento formas crianças pequenas» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas. Agrupa produtos por domínio de competência para aumentar o valor médio da encomenda: um pacote de competências de contagem, um pacote de letras e alfabeto, e um pacote de formas e cores servem cada um necessidades distintas de compradores enquanto encorajam múltiplas compras da mesma loja. A época de regresso às aulas em agosto e setembro cria o maior pico de procura já que os pais preparam as crianças para a inscrição pré-escolar, mas novos pais entram continuamente na fase de compra pré-escolar durante todos os meses, mantendo uma forte procura base durante todo o ano que faz do pré-escolar um dos nichos de imprimíveis mais fiáveis em toda a plataforma do Etsy.`,
     },
     {
@@ -141,18 +141,18 @@ Os preços no nicho pré-escolar seguem as convenções estabelecidas dos imprim
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -166,7 +166,7 @@ Os preços no nicho pré-escolar seguem as convenções estabelecidas dos imprim
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -176,18 +176,18 @@ Os preços no nicho pré-escolar seguem as convenções estabelecidas dos imprim
     },
     {
       pageType: 'idea',
-      slug: 'jardim-infancia-ideias-imprimiveis',
+      slug: `jardim-infancia-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Jardim de Infância`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Avião — imagem educativa temática', caption: 'Avião' },
-    { src: '/image-library/toys/baby.webp', alt: 'Bebé — imagem educativa temática', caption: 'Bebé' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Menina Bebé — imagem educativa temática', caption: 'Menina Bebé' },
-    { src: '/image-library/toys/ball.webp', alt: 'Bola — imagem educativa temática', caption: 'Bola' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Balão — imagem educativa temática', caption: 'Balão' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Avião — imagem educativa temática`, caption: 'Avião' },
+    { src: '/image-library/toys/baby.webp', alt: `Bebé — imagem educativa temática`, caption: 'Bebé' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Menina Bebé — imagem educativa temática`, caption: 'Menina Bebé' },
+    { src: '/image-library/toys/ball.webp', alt: `Bola — imagem educativa temática`, caption: 'Bola' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Balão — imagem educativa temática`, caption: 'Balão' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
   ],
 
 

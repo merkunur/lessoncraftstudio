@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas grafomotricidad',
+    primaryKeyword: `generador fichas grafomotricidad`,
     secondaryKeywords: [
       `generador de fichas de trazado de líneas para vendedores Etsy`,
       `creador de fichas de grafomotricidad para editores Amazon KDP`,
-      'vender fichas de trazado de líneas en Gumroad',
+      `vender fichas de trazado de líneas en Gumroad`,
       `generador de fichas grafomotricidad licencia comercial`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `fichas de motricidad fina imprimibles uso comercial`,
       `generador de fichas grafomotricidad con plantillas SVG`,
     ],
-    titleTag: 'Generador Fichas Grafomotricidad | Crear y Vender',
+    titleTag: `Generador Fichas Grafomotricidad | Crear y Vender`,
     metaDescription:
       `Crea fichas de grafomotricidad para Etsy, KDP y Gumroad. Ocho plantillas SVG, pares de imágenes, 104 colecciones temáticas. Prueba gratis con marca de agua.`,
   },
@@ -27,25 +27,25 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Grafomotricidad en 5 Pasos',
+    title: `Cómo Crear Fichas de Grafomotricidad en 5 Pasos`,
     steps: [
       {
-        title: 'Configurar el diseño de página',
+        title: `Configurar el diseño de página`,
         description:
           `Abre el panel Diseño de Página y elige un formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página, elige un tema decorativo de fondo desde la biblioteca de imágenes y ajusta su opacidad, luego añade un marco de borde a juego con control de opacidad independiente. El encabezado autogenerado muestra un banner verde vibrante con el título «Práctica de Trazado de Líneas» y el subtítulo «¡Traza líneas para conectar las imágenes que van juntas!» — todo localizado en 11 idiomas. Un borde exterior coral y un borde interior amarillo sol enmarcan la página automáticamente.`,
       },
       {
-        title: 'Seleccionar una plantilla de líneas',
+        title: `Seleccionar una plantilla de líneas`,
         description:
           `Elige entre ocho plantillas de líneas basadas en SVG en el panel Contenido. Cuatro plantillas de curvas crean trazados fluidos y amplios en orientación horizontal con 4 pares de imágenes cada una. Dos plantillas de diagonales producen líneas en ángulo en orientación vertical con 5 pares. Una plantilla horizontal genera líneas rectas de izquierda a derecha en vertical con 5 pares. Una plantilla vertical crea líneas de arriba hacia abajo en vertical con 4 pares. Cada tipo de línea trabaja una competencia de motricidad fina diferente — las curvas desarrollan la flexibilidad de la muñeca, las diagonales construyen la coordinación cruzada, y las líneas rectas refuerzan el control direccional.`,
       },
       {
-        title: 'Elegir imágenes temáticas o usar el autorrelleno',
+        title: `Elegir imágenes temáticas o usar el autorrelleno`,
         description:
           `Explora 104 colecciones de imágenes temáticas con más de 3100 ilustraciones coloridas — animales, comida, vehículos, naturaleza y docenas más — o sube tus propias imágenes personalizadas. Cada tema proporciona imágenes coordinadas que funcionan juntas visualmente. Usa el autorrelleno para asignar aleatoriamente pares de imágenes emparejadas desde el tema seleccionado o desde todos los temas a la vez, llenando instantáneamente cada espacio de par en la plantilla. El autorrelleno ahorra un tiempo considerable al crear múltiples fichas en lote.`,
       },
       {
-        title: 'Añadir decoraciones de texto y personalizar',
+        title: `Añadir decoraciones de texto y personalizar`,
         description:
           `Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha (Fredoka 18px) o instrucciones personalizadas con fuentes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5). Arrastra, redimensiona, rota y reposiciona cada elemento en el lienzo Fabric.js completo con controles de capas, bloqueo/desbloqueo, herramientas de alineación y zoom de 25 % a 400 %. Deshaz y rehaz hasta 100 estados de historial con Ctrl+Z y Ctrl+Y.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `Cada plantilla coloca pares de imágenes emparejadas a cada lado del camino de la línea — los usuarios ven una imagen al inicio y su pareja al final, creando un objetivo visual que motiva el trazado de líneas. El autorrelleno asigna aleatoriamente pares de imágenes desde el tema seleccionado o desde los 104 temas a la vez, llenando instantáneamente cada espacio de par en la página. Esto hace que la creación de fichas en lote sea ultrarrápida: selecciona un tema, haz clic en autorrelleno y la plantilla está lista para exportar. Cambia de tema y repite para generar docenas de fichas únicas en minutos. Cada tema proporciona imágenes coordinadas que funcionan juntas visualmente, creando oportunidades naturales de agrupación en packs temáticos.`,
       },
       {
-        title: 'Orientación de página controlada por la plantilla',
+        title: `Orientación de página controlada por la plantilla`,
         description:
           `Cada plantilla establece automáticamente la orientación de página óptima para su tipo de línea. Las plantillas de curvas pasan por defecto al formato horizontal, dando a las líneas amplias espacio para arquearse en la dimensión más ancha de la página. Las plantillas de diagonales, horizontal y vertical usan formato vertical para práctica enfocada de arriba hacia abajo. Este cambio automático de orientación garantiza que cada tipo de línea disponga del espacio máximo sin ajustes manuales. Las plantillas de curvas colocan 4 pares de imágenes por página; las plantillas de diagonales y horizontal colocan 5; las plantillas verticales usan 4 pares — cada cantidad optimizada para el espacio disponible en esa orientación.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Grafomotricidad en Línea',
+    title: `Cómo Vender Fichas de Grafomotricidad en Línea`,
     cases: [
       {
-        title: 'Packs de actividades de trazado de líneas en Etsy',
+        title: `Packs de actividades de trazado de líneas en Etsy`,
         description:
           `Crea packs temáticos de trazado de líneas organizados por tipo de línea y dificultad. Empieza con fichas de líneas horizontales para principiantes absolutos, progresa a plantillas de curvas para trazadores intermedios y termina con diagonales para práctica avanzada de motricidad fina. Agrupa cada nivel de dificultad con 10 a 20 fichas usando temas como animales de granja, criaturas marinas, dinosaurios y vehículos. Las ocho plantillas y los 104 temas de imágenes permiten producir docenas de fichas únicas por pack. Incluye packs de muestra mixtos que presenten los cuatro estilos de líneas en un solo producto. El formato completamente visual con cero texto hace que cada pack sea vendible en todo el mundo sin traducción. Fija el precio de packs temáticos individuales a 3 $–5 $ y de packs progresivos multitema a 12 $–18 $.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de motricidad fina en Amazon KDP',
+        title: `Cuadernos de motricidad fina en Amazon KDP`,
         description:
           `Compila de 60 a 100 ejercicios de trazado de líneas en un cuaderno impreso estructurado como un programa progresivo de motricidad fina. El capítulo 1 cubre las líneas horizontales para las bases del control direccional. El capítulo 2 introduce las líneas verticales para la práctica del trazo descendente. El capítulo 3 avanza a las plantillas de curvas para la flexibilidad de la muñeca. El capítulo 4 desafía a los usuarios con las diagonales que requieren coordinación cruzada. Cada capítulo usa diferentes temas de imágenes para mantener el interés a lo largo de más de 60 páginas. El formato completamente visual significa que no se necesita traducción para los mercados KDP internacionales — publica el mismo interior en cada país. Los cuadernos de motricidad fina llenan un nicho específico de aprendizaje temprano con demanda constante durante todo el año por parte de padres y vendedores de preescolar.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Centros de preescritura y preparación para la escritura para Gumroad`,
         description:
           `Construye estaciones de preparación para la escritura por niveles usando el tipo de línea como eje de progresión: Estación 1 (líneas horizontales para seguimiento de izquierda a derecha), Estación 2 (líneas verticales para trazos de arriba hacia abajo), Estación 3 (curvas para movimientos de formación de letras) y Estación 4 (diagonales para formas de letras angulares). Cada estación trabaja una competencia de preescritura específica que se transfiere directamente a la formación de letras. Agrupa cada estación con ejercicios temáticos y tarjetas de instrucciones para el vendedor. El formato visual sin texto funciona en cualquier tienda sin importar el idioma de los usuarios, haciendo estos recursos valiosos para contextos inclusivos, multilingües y de educación especial.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Fichas visuales multilingües para mercados globales`,
         description:
           `Como las fichas de Grafomotricidad no contienen texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Los usuarios trazan líneas entre los pares de imágenes sin necesidad de leer — el trazado visual en sí proporciona todo el guiado necesario. Crea un conjunto de ejercicios de trazado de líneas y véndelo en todo el mundo sin traducción ni versiones en idiomas separados que mantener. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
         title: `Herramienta de motricidad fina para venta en línea y la terapia`,
         description:
           `Sube imágenes personalizadas para crear fichas de trazado de líneas orientadas a objetivos terapéuticos o educativos específicos. Los terapeutas ocupacionales pueden seleccionar los tipos de líneas según las necesidades de desarrollo de la motricidad fina de cada paciente — curvas para la movilidad de la muñeca, diagonales para la coordinación bilateral, líneas rectas para el control direccional. Los vendedores pueden crear fichas de trazado temáticas donde los usuarios conectan pares de imágenes relacionadas mientras desarrollan el control del lápiz. Ajusta la selección de plantilla y los temas de imágenes según el nivel de habilidad e intereses de cada usuario. Imprime series personalizadas en minutos para sesiones de terapia individuales, grupos pequeños o clases completas.`,
-        platform: 'Tienda / Terapia / Educación en el hogar',
+        platform: `Tienda / Terapia / Educación en el hogar`,
       },
     ],
   },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `Cada plantilla coloca pares de imágenes emparejadas a cada lado del camino de la línea. Una imagen aparece al inicio de la línea y su pareja aparece al final. Los usuarios trazan a lo largo del camino guiado para conectar las imágenes que van juntas. Las plantillas contienen 4 o 5 pares según el tipo de línea — las plantillas de curvas y vertical usan 4 pares, las plantillas de diagonales y horizontal usan 5. Las imágenes emparejadas dan a los usuarios un objetivo visual que los motiva a completar cada línea.`,
     },
     {
-      question: '¿Cómo funciona la función de autorrelleno?',
+      question: `¿Cómo funciona la función de autorrelleno?`,
       answer:
         `El autorrelleno asigna aleatoriamente pares de imágenes desde el tema seleccionado o desde todos los temas disponibles a la vez. Haz clic en el botón de autorrelleno y cada espacio de par en la plantilla actual se llena instantáneamente con imágenes emparejadas. Esto es especialmente útil para la creación en lote — selecciona un tema, usa el autorrelleno, exporta, luego cambia de tema y repite para generar docenas de fichas únicas en minutos sin colocar manualmente cada imagen.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de trazado de líneas como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Las ocho plantillas de líneas, los 104 temas de imágenes y el formato completamente visual te ofrecen una fuerte diferenciación y vendibilidad global en las categorías de fichas.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar cada plantilla de línea, cada tema de imágenes, el autorrelleno, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Generador de Fichas Grande y Pequeño',
+      anchorText: `Generador de Fichas Grande y Pequeño`,
     },
     {
       pageType: 'app',
       slug: 'tren-patrones-fichas',
-      anchorText: 'Generador de Fichas Tren de Patrones',
+      anchorText: `Generador de Fichas Tren de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'fichas-patrones',
-      anchorText: 'Generador de Fichas de Patrones',
+      anchorText: `Generador de Fichas de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'dibujo-cuadricula-fichas',
-      anchorText: 'Generador de Fichas de Dibujo en Cuadrícula',
+      anchorText: `Generador de Fichas de Dibujo en Cuadrícula`,
     },
     {
       pageType: 'app',
       slug: 'dibujos-colorear-fichas',
-      anchorText: 'Generador de Fichas para Colorear',
+      anchorText: `Generador de Fichas para Colorear`,
     },
     {
       pageType: 'app',
       slug: 'graficos-conteo-fichas',
-      anchorText: 'Generador de Fichas de Gráficos de Conteo',
+      anchorText: `Generador de Fichas de Gráficos de Conteo`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'verano-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de verano para niños',
+      anchorText: `Ideas de imprimibles de verano para niños`,
     },
     {
       pageType: 'idea',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'negocio-imprimibles-etsy',
-      anchorText: 'Lanza tu negocio de imprimibles en Etsy',
+      anchorText: `Lanza tu negocio de imprimibles en Etsy`,
     },
     {
       pageType: 'guide',

@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas preposiciones',
+    primaryKeyword: `generador fichas preposiciones`,
     secondaryKeywords: [
-      'fichas de preposiciones imprimibles para Etsy',
+      `fichas de preposiciones imprimibles para Etsy`,
       `generador de fichas de vocabulario espacial para Amazon KDP`,
-      'vender fichas de preposiciones en Gumroad',
+      `vender fichas de preposiciones en Gumroad`,
       `fichas de preposiciones espaciales licencia comercial`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `negocio de fichas de preposiciones imprimibles en línea`,
       `generador de fichas de lenguaje espacial uso comercial`,
     ],
-    titleTag: 'Generador Fichas Preposiciones | Crear y Vender',
+    titleTag: `Generador Fichas Preposiciones | Crear y Vender`,
     metaDescription:
       `Crea fichas de preposiciones para vender en Etsy, KDP y Gumroad. 8 preposiciones espaciales, completar el hueco y opción múltiple. Prueba gratis con marca de.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Preposiciones en 5 Pasos',
+    title: `Cómo Crear Fichas de Preposiciones en 5 Pasos`,
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -35,22 +35,22 @@ const content: AppContent = {
           `Abre el panel de Configuración de Página y elige un tamaño: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de fondo, elige un tema de fondo decorativo de la biblioteca de imágenes y ajusta la opacidad para mantener los ejercicios legibles. Añade un marco de borde a juego y selecciona una plantilla de ficha para darle a tus fichas de preposiciones un aspecto profesional y listo para imprimir.`,
       },
       {
-        title: 'Elige el modo y el número de ejercicios',
+        title: `Elige el modo y el número de ejercicios`,
         description:
           `Abre el panel de Configuración de Ejercicios y selecciona uno de los dos modos. El modo Completar el Hueco presenta frases como «[Imagen] está ____ el [forma]» donde los usuarios escriben la preposición correcta en el espacio en blanco. El modo Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Establece el número de ejercicios por ficha de 1 a 8 para controlar la densidad y la dificultad.`,
       },
       {
-        title: 'Selecciona las preposiciones de la lista',
+        title: `Selecciona las preposiciones de la lista`,
         description:
           `Abre la Lista de Preposiciones y selecciona cuáles de las ocho preposiciones espaciales incluir: en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de. Incluye las ocho para una revisión completa o reduce la selección a dos o tres para una práctica enfocada en relaciones espaciales específicas. El generador crea ejercicios únicamente con las preposiciones seleccionadas, dándote un control preciso sobre el contenido de la lección.`,
       },
       {
-        title: 'Elige los objetos y las formas de la biblioteca',
+        title: `Elige los objetos y las formas de la biblioteca`,
         description:
           `Abre el panel de Biblioteca de Imágenes y explora 104 temas para las imágenes de objetos — los elementos posicionados — y luego elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Configura el estilo del texto con siete fuentes, incluyendo Lexend Deca, Baloo 2 y Fredoka. Activa los campos de nombre y fecha, y sube tus propias imágenes personalizadas para fichas con tu marca.`,
       },
       {
-        title: 'Genera la clave de respuesta y descarga',
+        title: `Genera la clave de respuesta y descarga`,
         description:
           `Ve a la pestaña de Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear una versión resuelta con cada respuesta de preposición completada. Luego abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Activa la exportación en escala de grises para versiones que ahorran tinta. Cada exportación se renderiza a más de 400 DPI para una nitidez perfecta, ya sea para impresión doméstica, subida a Etsy o un libro de vocabulario espacial de Amazon KDP.`,
       },
@@ -86,7 +86,7 @@ const content: AppContent = {
           `Explora una biblioteca de más de 3100 ilustraciones de alta resolución organizadas en 104 temas: animales, vehículos, comida, festividades, deportes, espacio, naturaleza y mucho más. Cada tema proporciona imágenes de objetos posicionados en relación con una de las 8 formas geométricas. También puedes subir tus propias imágenes personalizadas para fichas con tu marca. La combinación de objetos temáticos y formas geométricas crea miles de permutaciones de ejercicios únicos — suficiente variedad para años de creación de productos.`,
       },
       {
-        title: 'Generación automática de clave de respuesta',
+        title: `Generación automática de clave de respuesta`,
         description:
           `Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con cada preposición correcta completada. Para los ejercicios de Completar el Hueco, la clave muestra la frase completa. Para Opción Múltiple, resalta la imagen correcta. Exporta la clave de respuesta como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Preposiciones en Línea',
+    title: `Cómo Vender Fichas de Preposiciones en Línea`,
     cases: [
       {
         title: `Paquetes temáticos de fichas de preposiciones en Etsy`,
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de lenguaje diferenciados para Gumroad',
+        title: `Centros de lenguaje diferenciados para Gumroad`,
         description:
           `Construye conjuntos de preposiciones por niveles usando el modo de ejercicio como eje de dificultad: Nivel 1 (Opción Múltiple, 2 preposiciones, 2 ejercicios por página), Nivel 2 (Opción Múltiple, 5 preposiciones, 4 ejercicios), Nivel 3 (Completar el Hueco, 5 preposiciones, 6 ejercicios), y Nivel 4 (Completar el Hueco, las 8 preposiciones, 8 ejercicios). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario espacial diferenciados que pueden desplegar inmediatamente en múltiples grupos de nivel.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Productos multilingües de preposiciones con Acceso Completo`,
         description:
           `El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con „im" y „am", fichas en francés con la elisión «l'», fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingüe)`,
       },
       {
         title: `Herramienta de vocabulario espacial para venta en línea y tutoría`,
         description:
           `Genera fichas de preposiciones personalizadas adaptadas al nivel de vocabulario espacial de cada usuario. Usa la lista de preposiciones para enfocarte en aquellas con las que un usuario tiene dificultades, y ajusta el número de ejercicios según su capacidad de atención. Comienza con Opción Múltiple para los principiantes y avanza hacia Completar el Hueco para usuarios listos para producir lenguaje de forma autónoma. Imprime series en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra valor percibido, y el formato de imágenes y formas mantiene el interés de los usuarios jóvenes con el razonamiento espacial visual.`,
-        platform: 'Tienda / Tutoría / Educación en casa',
+        platform: `Tienda / Tutoría / Educación en casa`,
       },
     ],
   },
@@ -146,7 +146,7 @@ const content: AppContent = {
         `El generador incluye dos modos: Completar el Hueco y Opción Múltiple. Completar el Hueco presenta frases con una preposición que falta que los usuarios completan (por ejemplo, «El gato está ____ el círculo»). Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Ambos modos funcionan con las ocho preposiciones y todos los temas.`,
     },
     {
-      question: '¿Cuáles son las 8 preposiciones disponibles?',
+      question: `¿Cuáles son las 8 preposiciones disponibles?`,
       answer:
         `El generador soporta ocho preposiciones espaciales: en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de. Seleccionas cuáles incluir desde una lista, lo que te permite usar las ocho para una revisión completa o reducir la selección a dos o tres para una práctica enfocada. Los vendedores que crean paquetes de fichas separados para cada par de preposiciones pueden construir un catálogo más amplio desde la misma herramienta, ofreciendo a los compradores opciones de práctica enfocada mientras aumentan el número total de listados en su tienda.`,
     },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `Los objetos son ilustraciones temáticas de la biblioteca de imágenes — animales, vehículos, comida y más — que representan el elemento posicionado. Las formas son figuras geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) que sirven como punto de referencia espacial. Cada ejercicio posiciona un objeto en relación con una forma, creando relaciones espaciales claras como «El gato está debajo del cubo.»`,
     },
     {
-      question: '¿Cuántos ejercicios puedo poner en cada ficha?',
+      question: `¿Cuántos ejercicios puedo poner en cada ficha?`,
       answer:
         `Puedes establecer de 1 a 8 ejercicios por ficha. Menos ejercicios crean páginas más simples y menos cargadas, ideales para usuarios más pequeños o práctica enfocada. Más ejercicios maximizan la densidad de práctica para sesiones de revisión, evaluaciones o tareas. Variar el número de ejercicios en tus listados también te ayuda a crear niveles de precios distintos — una ficha introductoria de un solo ejercicio como punto de entrada económico y un paquete de revisión completo de ocho ejercicios a un precio premium.`,
     },
@@ -171,7 +171,7 @@ const content: AppContent = {
         `El generador integra un motor gramatical para cada uno de los 11 idiomas soportados. Busca el artículo correcto según el género del sustantivo (importante para el alemán, francés, español, portugués e italiano), aplica las reglas del dativo para las preposiciones alemanas, gestiona la elisión francesa donde los artículos se contraen ante vocales o h muda, y usa las formas plurales correctas para los nombres de las formas. El resultado son frases fluidas en cada idioma, no traducciones literales forzadas.`,
     },
     {
-      question: '¿Cómo funciona la lista de preposiciones?',
+      question: `¿Cómo funciona la lista de preposiciones?`,
       answer:
         `El panel de Lista de Preposiciones te permite activar o desactivar cada una de las ocho preposiciones. Solo las preposiciones marcadas aparecen en los ejercicios generados. Esto te da un control preciso sobre el contenido de la lección — marca solo «en» y «encima de» para una ficha introductoria, o marca las ocho para una revisión completa. La lista se reinicia cada vez que generas una nueva ficha.`,
     },
@@ -186,7 +186,7 @@ const content: AppContent = {
         `Sí. Puedes acceder a todas las funciones — ambos modos de ejercicio, las ocho preposiciones, la biblioteca completa de imágenes, todas las formas, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.`,
     },
     {
-      question: '¿Qué incluye la licencia comercial?',
+      question: `¿Qué incluye la licencia comercial?`,
       answer:
         `La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia de Acceso Completo añade los 11 idiomas con preposiciones, artículos y reglas gramaticales correctas, multiplicando tu catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de preposiciones como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de imágenes y formas y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar ambos modos de ejercicio, cada preposición, cada tema, cada forma y cada formato de exportación antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'tren-alfabeto-fichas',
-      anchorText: 'Generador de Fichas de Tren Alfabeto',
+      anchorText: `Generador de Fichas de Tren Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'adivinar-palabras-fichas',
-      anchorText: 'Generador de Fichas de Adivinar Palabras',
+      anchorText: `Generador de Fichas de Adivinar Palabras`,
     },
     {
       pageType: 'app',
       slug: 'letras-revueltas-fichas',
-      anchorText: 'Generador de Fichas de Letras Revueltas',
+      anchorText: `Generador de Fichas de Letras Revueltas`,
     },
     {
       pageType: 'app',
       slug: 'sopa-letras-fichas',
-      anchorText: 'Generador de Fichas de Sopa de Letras',
+      anchorText: `Generador de Fichas de Sopa de Letras`,
     },
     {
       pageType: 'app',
       slug: 'criptogramas-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Criptogramas con Imágenes',
+      anchorText: `Generador de Fichas de Criptogramas con Imágenes`,
     },
     {
       pageType: 'bundle',
@@ -240,7 +240,7 @@ const content: AppContent = {
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `La Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -250,8 +250,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para trabajo desde casa',
+      slug: `educacion-en-casa-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para trabajo desde casa`,
     },
   ],
 

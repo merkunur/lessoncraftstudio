@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Acción de Gracias — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de Acción de Gracias para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática de cosecha, estrategias.`,
-    primaryKeyword: 'ideas imprimibles Acción de Gracias',
+    primaryKeyword: `ideas imprimibles Acción de Gracias`,
     secondaryKeywords: [
-      'fichas Acción de Gracias para vender',
-      'negocio imprimibles Acción de Gracias',
+      `fichas Acción de Gracias para vender`,
+      `negocio imprimibles Acción de Gracias`,
       `fichas actividades Acción de Gracias para vendedores`,
-      'vender imprimibles de Acción de Gracias en Etsy',
+      `vender imprimibles de Acción de Gracias en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas cosecha y gratitud',
+      `fichas educativas cosecha y gratitud`,
       `páginas actividades temática noviembre para tienda`,
-      'imprimibles temática pavo y peregrinos',
+      `imprimibles temática pavo y peregrinos`,
     ],
   },
   hero: {
@@ -145,18 +145,18 @@ Para capturar los máximos ingresos del Día de Acción de Gracias, desarrolla p
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -165,12 +165,12 @@ Para capturar los máximos ingresos del Día de Acción de Gracias, desarrolla p
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -181,17 +181,17 @@ Para capturar los máximos ingresos del Día de Acción de Gracias, desarrolla p
     {
       pageType: 'idea',
       slug: 'navidad-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Navidad',
+      anchorText: `Ideas de Negocio de Imprimibles de Navidad`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Manzana — imagen educativa temática', caption: 'Manzana' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Albaricoque — imagen educativa temática', caption: 'Albaricoque' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Aguacate — imagen educativa temática', caption: 'Aguacate' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Plátano — imagen educativa temática', caption: 'Plátano' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Mora — imagen educativa temática', caption: 'Mora' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Arándano — imagen educativa temática', caption: 'Arándano' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Manzana — imagen educativa temática`, caption: 'Manzana' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Albaricoque — imagen educativa temática`, caption: 'Albaricoque' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Aguacate — imagen educativa temática`, caption: 'Aguacate' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Plátano — imagen educativa temática`, caption: 'Plátano' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Mora — imagen educativa temática`, caption: 'Mora' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Arándano — imagen educativa temática`, caption: 'Arándano' },
   ],
 
 

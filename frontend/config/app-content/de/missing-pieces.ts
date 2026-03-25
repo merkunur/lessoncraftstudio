@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fehlende-puzzleteile-generator',
+    primaryKeyword: `fehlende-puzzleteile-generator`,
     secondaryKeywords: [
       `druckbarer Puzzleteil-Rätsel-Generator für Etsy-Verkäufer`,
       `Fehlende-Teile-Arbeitsblatt-Generator für KDP-Verleger`,
-      'visueller Puzzle-Ersteller kommerzielle Lizenz',
-      'Puzzleteil-Rätsel auf Gumroad verkaufen',
+      `visueller Puzzle-Ersteller kommerzielle Lizenz`,
+      `Puzzleteil-Rätsel auf Gumroad verkaufen`,
     ],
     lsiKeywords: [
       `digitale Puzzle-Druckvorlagen skalierbares Einkommen`,
       `kommerzieller Fehlende-Puzzleteile-Generator mit Lösungsschlüssel`,
-      'Druckvorlagen-Geschäft visuelle Rätsel Werkzeuge',
+      `Druckvorlagen-Geschäft visuelle Rätsel Werkzeuge`,
     ],
-    titleTag: 'Fehlende-Puzzleteile-Generator | Puzzle-Rätsel',
+    titleTag: `Fehlende-Puzzleteile-Generator | Puzzle-Rätsel`,
     metaDescription: `Fehlende-Puzzleteile-Rätsel erstellen und auf Etsy, KDP verkaufen. 6 Teilformen, 1–5 fehlende Teile, 104 Themen. Kostenlos testen mit Wasserzeichen verfügbar.`,
   },
 
@@ -49,7 +49,7 @@ const content: AppContent = {
           `Die App schneidet automatisch Löcher aus dem ausgewählten Bild mithilfe der intelligenten Teileextraktion. Der Algorithmus versucht bis zu 150 Platzierungsversuche, um Teile mit ausreichender Farbvarianz (minimale Helligkeitsvarianz von 15) und mindestens 250 Pixel Abstand zwischen den Teilen zu finden, um Überlappungen zu verhindern. Weiße Löcher mit schwarzem Rand (2px) erscheinen an den Originalpositionen. Nummerierte Lösungsoptionen — korrekte Teile plus Distraktoren — werden mit gelb hervorgehobenen Nummernbeschriftungen angezeigt. Im Hochformat wird das Puzzle-Bild oben mit Optionen darunter platziert; im Querformat wird die Ansicht 50/50 aufgeteilt.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Das gleiche Puzzle-Bild erscheint mit Löchern, und gelb hervorgehobene Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedem Loch zeigen den korrekten Optionsindex an. Laden Sie beide Versionen über vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF — alle mit 300 DPI und JPEG-Qualität 1.0 gerendert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -80,7 +80,7 @@ const content: AppContent = {
           `Jedes Puzzleteil-Rätsel generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel zeigt das gleiche Puzzle-Bild mit Löchern und platziert gelb hervorgehobene Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedes Loch, die den korrekten 1-basierten Optionsindex anzeigen. Die Schriftgröße skaliert auf 60% der Teilgröße für klare Lesbarkeit. Keine manuelle Lösungserstellung nötig — der Lösungsschlüssel bleibt perfekt mit dem Rätsel synchronisiert. Laden Sie den Lösungsschlüssel als answer_key.jpeg oder answer_key.pdf neben dem Arbeitsblatt herunter.`,
       },
       {
-        title: 'Nummerierte Lösungsoptionen mit Ablenkungsteilen',
+        title: `Nummerierte Lösungsoptionen mit Ablenkungsteilen`,
         description:
           `Lösungsoptionen werden in nummerierten Behältern (1–N) mit gelb hervorgehobenen Nummernbeschriftungen für klare Identifikation angezeigt. Wenn die Anzahl der Lösungsoptionen die Anzahl der fehlenden Teile übersteigt, sind die zusätzlichen Optionen Ablenkungsteile — extrahiert aus verschiedenen Bereichen desselben Bildes, die keinem Loch entsprechen. Distraktoren zwingen dazu, visuelle Details sorgfältig zu vergleichen, anstatt einfach durch Ausschlussverfahren zu lösen. Hochformat-Arbeitsblätter ordnen Optionen in einer horizontalen Reihe unter dem Puzzle an (75% der Maximalgröße); Querformat-Arbeitsblätter platzieren sie auf der rechten Seite (50% Breite) in einer horizontalen Reihe.`,
       },
@@ -103,49 +103,49 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Fehlende-Puzzleteile-Rätsel online verkaufen',
+    title: `Fehlende-Puzzleteile-Rätsel online verkaufen`,
     cases: [
       {
-        title: 'Thematische Puzzleteil-Rätsel-Pakete auf Etsy',
+        title: `Thematische Puzzleteil-Rätsel-Pakete auf Etsy`,
         description:
           `Erstellen Sie thematische Puzzle-Pakete aus den 104 Bildsammlungen — Tier-Rätsel, Fahrzeug-Rätsel, Lebensmittel-Rätsel, Natur-Rätsel und Dutzende mehr. Jedes Thema bietet farbenfrohe Illustrationen, die ansprechende Puzzleteil-Herausforderungen erzeugen. Verpacken Sie 15–25 Rätsel pro Thema mit beigelegten Lösungsschlüsseln und variieren Sie den Schwierigkeitsgrad von 1 fehlendem Teil mit 2 Optionen (leicht) bis 5 fehlenden Teilen mit 6 Optionen (schwer). Mischen Sie Teilformen innerhalb eines Pakets für visuelle Vielfalt: Quadrat-Teile in einigen Rätseln, Kreis-Teile in anderen, Ellipse-Varianten für fortgeschrittene Herausforderungen. Der automatisch generierte Lösungsschlüssel eliminiert den größten Zeitfresser in der Puzzle-Produktion und ermöglicht die schnelle Erstellung umfangreicher Produktpakete für Etsy.de. Nutzen Sie passende Hintergrund- und Rahmenthemen, um jedem Paket ein stimmiges visuelles Erscheinungsbild zu verleihen, das Käufer auf den ersten Blick anspricht und die wahrgenommene Qualität Ihrer Produkte steigert.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Visuelle Puzzle-Arbeitsbücher auf Amazon KDP',
+        title: `Visuelle Puzzle-Arbeitsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 50–100 Puzzleteil-Rätsel zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Ihr Buch mit progressivem Schwierigkeitsgrad: Kapitel 1 verwendet 1 fehlendes Teil mit 2 Optionen für Einsteiger, Kapitel 2 verwendet 3 fehlende Teile mit 4 Optionen für Fortgeschrittene und Kapitel 3 verwendet 5 fehlende Teile mit 6 Optionen inklusive Distraktoren für erfahrene Rätsellöser. Fügen Sie Lösungsschlüssel am Ende des Buches ein, erstellt mit der automatischen Lösungsschlüssel-Funktion. Der Graustufen-Schalter erzeugt tintenschonende Seiten für Schwarzweiß-Buchinhalte, die Druckkosten niedrig halten. Rein visuelle Rätsel benötigen keine Übersetzung — ein einziges Buch ist in jedem Markt verkaufbar, von Amazon.de bis Amazon.com und darüber hinaus. Nutzen Sie die Seitengröße-Optionen, um KDP-konforme Formate wie Letter oder A4 direkt zu exportieren, ohne nachträgliche Anpassungen vornehmen zu müssen.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Rätsel-Aktivitäten für den Gumroad',
+        title: `Rätsel-Aktivitäten für den Gumroad`,
         description:
           `Erstellen Sie sofort einsetzbare Rätsel-Aktivitäten für visuelle Wahrnehmung und kritisches Denken auf Gumroad. Puzzleteil-Rätsel stärken räumliches Denken, visuelle Analyse und Aufmerksamkeit für Details — Fähigkeiten, die in der frühen Bildung und im Grundschulbereich geschätzt werden. Erstellen Sie thematisch abgestimmte Sets: Tier-Habitat-Rätsel, Jahreszeiten-Rätsel, Berufe-Rätsel und Lebensmittel-Rätsel. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Der konfigurierbare Schwierigkeitsgrad ermöglicht gestufte Versionen desselben Rätsels für unterschiedliche Leistungsniveaus innerhalb einer Lerngruppe. Kombinieren Sie verschiedene Teilformen und Schwierigkeitsstufen innerhalb eines Produkts, damit Verkäufer Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.`,
         platform: 'Gumroad',
       },
       {
-        title: 'Saisonale und feiertagsbezogene Puzzle-Sammlungen',
+        title: `Saisonale und feiertagsbezogene Puzzle-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Puzzle-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Puzzle-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Variieren Sie Teilformen und Schwierigkeitsstufen innerhalb jedes saisonalen Sets für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
         title: `Globale Marktreichweite — rein visuelle Rätsel ohne Übersetzungsbedarf`,
         description:
           `Fehlende-Puzzleteile-Rätsel sind rein visuell ohne Textinhalte auf dem Arbeitsblatt selbst — keine Wörter, keine Buchstaben, keine sprachabhängigen Elemente. Ein in Deutschland erstelltes Rätsel funktioniert identisch für Käufer in Frankreich, Japan, den USA oder Brasilien. Dies macht Ihre Puzzle-Produkte sofort auf jedem internationalen Marktplatz verkaufbar, ohne separate Sprachversionen erstellen zu müssen. Listen Sie dasselbe Puzzle-Paket auf Etsy mit mehrsprachigen Titeln und Beschreibungen, um globalen Suchverkehr zu erfassen. Ein Produkt, jeder Markt — maximale Reichweite ohne zusätzlichen Produktionsaufwand. Diese Sprachunabhängigkeit ist ein einzigartiger Wettbewerbsvorteil gegenüber textbasierten Arbeitsblatt-Produkten, die für jeden Zielmarkt separat übersetzt und angepasst werden müssen. Während Ihre Konkurrenz in Übersetzungsarbeit investiert, verkaufen Sie dasselbe Produkt weltweit und maximieren Ihren Umsatz pro erstelltem Rätsel.`,
-        platform: 'Globale Marktplätze (alle Plattformen)',
+        platform: `Globale Marktplätze (alle Plattformen)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Wie funktioniert die Puzzleteil-Rätsel-Mechanik?',
+      question: `Wie funktioniert die Puzzleteil-Rätsel-Mechanik?`,
       answer:
         `Der Generator nimmt ein Bild aus der Bibliothek (oder Ihren Upload) und schneidet 1–5 Teile aus, wobei weiße Löcher mit schwarzen Randlinien an den Originalpositionen zurückbleiben. Anschließend werden 2–6 nummerierte Lösungsoptionen unter oder neben dem Puzzle angezeigt — die korrekten Teile plus Ablenkungsteile, die aus anderen Bereichen desselben Bildes extrahiert wurden. Die Löcher und nummerierten Optionen werden untersucht, und es muss identifiziert werden, welche Option jede Lücke basierend auf Farbe, Muster und visuellen Details füllt. Diese Mechanik fördert visuelle Wahrnehmung und räumliches Denken auf eine intuitiv verständliche Weise, die keine Textkenntnis oder Sprachfähigkeiten voraussetzt und deshalb für jedes Alter und jede Sprache sofort zugänglich ist.`,
     },
     {
-      question: 'Welche 6 Teilformen stehen zur Verfügung?',
+      question: `Welche 6 Teilformen stehen zur Verfügung?`,
       answer:
         `Sie können aus Quadrat (Standard), Kreis, Rechteck Hochformat (80% Breite, 100% Höhe), Rechteck Querformat (100% Breite, 80% Höhe), Ellipse Hochformat (80% rx, 100% ry) und Ellipse Querformat (100% rx, 80% ry) wählen. Jede Form erzeugt eine andere visuelle Herausforderung. Quadrat und Kreis bieten saubere geometrische Schnitte, während Rechteck- und Ellipse-Varianten längliche oder geschwungene Formen erzeugen, die anders mit dem Quellbild interagieren und unterschiedliche Identifikations-Herausforderungen schaffen — selbst bei Verwendung derselben zugrundeliegenden Illustration.`,
     },
@@ -170,17 +170,17 @@ const content: AppContent = {
         `Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Der Lösungsschlüssel zeigt das gleiche Puzzle-Bild mit Löchern, lässt jedoch die Lösungsoptionen weg. Stattdessen werden gelb hervorgehobene Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedes Loch platziert, die den korrekten 1-basierten Optionsindex anzeigen. Die Schriftgröße skaliert auf 60% der Teilgröße für klare Lesbarkeit. Laden Sie den Lösungsschlüssel separat über die dedizierten Buttons für Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF herunter. Der Lösungsschlüssel bleibt automatisch mit dem Rätsel synchronisiert.`,
     },
     {
-      question: 'Sind Fehlende-Puzzleteile-Rätsel sprachabhängig?',
+      question: `Sind Fehlende-Puzzleteile-Rätsel sprachabhängig?`,
       answer:
         `Nein. Fehlende Puzzleteile ist ein rein visuelles Rätselformat ohne Textinhalte auf dem Arbeitsblatt selbst — keine Wörter, keine Buchstaben, keine sprachabhängigen Elemente. Das einzige sprachabhängige Element ist der automatisch generierte Header-Text („Fehlende Puzzleteile" / „Finde und platziere die fehlenden Teile!"), der in allen 11 unterstützten Sprachen lokalisiert ist. Das Rätsel selbst funktioniert in jeder Sprache identisch, was es ideal für globale Märkte macht — ein Produkt, das weltweit ohne Übersetzungsaufwand verkauft werden kann.`,
     },
     {
-      question: 'Wie funktioniert das Doppelrahmen-System?',
+      question: `Wie funktioniert das Doppelrahmen-System?`,
       answer:
         `Jedes generierte Rätsel verfügt über zwei dekorative Rahmen. Der äußere Rahmen verwendet leuchtendes Blaugrün (#14B8A6) mit 8px Strichstärke, 34px Abständen und 12px Randradius. Der innere Rahmen verwendet leuchtendes Pink (#EC4899) mit 3px Strichstärke, 46,5px Abständen, 8px Randradius und einem leichten Versatz von 2px nach rechts und 3px nach unten. Zusammen erzeugen sie einen eleganten, professionellen Rahmen, der die visuelle Qualität Ihrer Puzzle-Arbeitsblätter für Marktplatz-Listings deutlich steigert und Ihren Produkten ein hochwertiges Erscheinungsbild verleiht.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle 6 Teilformen, konfigurierbare fehlende Teile und Lösungsoptionen, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek mit 104 Themen, Hintergrund- und Rahmenthemen mit Deckkraftreglern und alle Download-Formate einschließlich PDF und JPEG — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Der Generator läuft vollständig im Browser. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle erstellten Puzzleteil-Rätsel.`,
     },
@@ -204,33 +204,33 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'was-passt-nicht-arbeitsblaetter',
-      anchorText: 'Was-Passt-Nicht-Arbeitsblatt-Generator',
+      slug: `was-passt-nicht-arbeitsblaetter`,
+      anchorText: `Was-Passt-Nicht-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'kinder-sudoku-arbeitsblaetter',
-      anchorText: 'Kinder-Sudoku-Arbeitsblatt-Generator',
+      anchorText: `Kinder-Sudoku-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'bilderpfad-arbeitsblaetter',
-      anchorText: 'Bilderpfad-Arbeitsblatt-Generator',
+      anchorText: `Bilderpfad-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'suchen-und-zaehlen-arbeitsblaetter',
-      anchorText: 'Suchen-und-Zählen-Arbeitsblatt-Generator',
+      slug: `suchen-und-zaehlen-arbeitsblaetter`,
+      anchorText: `Suchen-und-Zählen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'schattenbilder-zuordnen-arbeitsblaetter',
-      anchorText: 'Schattenbilder-Zuordnen-Generator',
+      slug: `schattenbilder-zuordnen-arbeitsblaetter`,
+      anchorText: `Schattenbilder-Zuordnen-Generator`,
     },
     {
       pageType: 'app',
       slug: 'wortsuche-arbeitsblaetter',
-      anchorText: 'Wortsuche-Arbeitsblatt-Generator',
+      anchorText: `Wortsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,27 +240,27 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ozean-Druckvorlagen-Ideen für Arbeitsblätter',
+      anchorText: `Ozean-Druckvorlagen-Ideen für Arbeitsblätter`,
     },
     {
       pageType: 'idea',
-      slug: 'erste-klasse-druckvorlagen-ideen',
-      anchorText: 'Erste-Klasse Druckvorlagen-Ideen für Grundschule',
+      slug: `erste-klasse-druckvorlagen-ideen`,
+      anchorText: `Erste-Klasse Druckvorlagen-Ideen für Grundschule`,
     },
     {
       pageType: 'idea',
-      slug: 'zweite-klasse-druckvorlagen-ideen',
+      slug: `zweite-klasse-druckvorlagen-ideen`,
       anchorText: `Zweite-Klasse Druckvorlagen-Ideen für K-2-Produktmarkt`,
     },
     {
       pageType: 'start',
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      anchorText: 'Aktivitätsbücher auf Amazon KDP veröffentlichen',
+      anchorText: `Aktivitätsbücher auf Amazon KDP veröffentlichen`,
     },
     {
       pageType: 'guide',
-      slug: 'fehlende-teile-raetsel-erstellen',
-      anchorText: 'Fehlende-Teile-Rätsel erstellen',
+      slug: `fehlende-teile-raetsel-erstellen`,
+      anchorText: `Fehlende-Teile-Rätsel erstellen`,
     },
   ],
 

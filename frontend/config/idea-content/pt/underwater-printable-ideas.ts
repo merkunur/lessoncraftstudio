@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Submarinos — Guia de Nicho',
+    titleTag: `Ideias de Imprimíveis Submarinos — Guia de Nicho`,
     metaDescription: `Descobre ideias de imprimíveis submarinos para vender no Etsy, Amazon KDP e Gumroad. Produtos oceânicos, fichas de vida marinha e dicas de nicho para vendedores.`,
 
-    primaryKeyword: 'ideias de imprimíveis submarinos',
+    primaryKeyword: `ideias de imprimíveis submarinos`,
     secondaryKeywords: [
       'fichas submarinas para vender',
-      'negócio imprimíveis temática aquática',
-      'fichas atividades marinhas para vendedores',
-      'vender imprimíveis submarinos no Etsy',
+      `negócio imprimíveis temática aquática`,
+      `fichas atividades marinhas para vendedores`,
+      `vender imprimíveis submarinos no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas criaturas do mar profundo',
-      'páginas atividades recife de coral',
-      'imprimíveis temáticos aquáticos para loja',
+      `fichas educativas criaturas do mar profundo`,
+      `páginas atividades recife de coral`,
+      `imprimíveis temáticos aquáticos para loja`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ A ligação com as visitas ao aquário representa uma audiência particularmente
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Submarinas para Vender Online',
+      title: `Sopas de Letras Submarinas para Vender Online`,
       description: `As sopas de letras com vocabulário oceânico atraem vendedores focados em ciências que planeiam unidades de biologia marinha e pais que procuram entretenimento educativo que canalize a fascinação natural dos seus filhos por tubarões, golfinhos e ecossistemas de recifes de coral no desenvolvimento produtivo de competências de vocabulário e ortografia em múltiplas categorias temáticas oceânicas. Cria puzzles com vocabulário marinho específico como golfinho, polvo, medusa, cavalo-marinho, coral, submarino, anémona, raia, lagosta e naufrágio juntamente com termos mais amplos do oceano como corrente, habitat, ecossistema e migração. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos marinhos para usuários mais velhos que exploram vocabulário de ciências oceânicas e terminologia de biologia marinha.`,
       appId: 'wordsearch',
     },
@@ -90,17 +90,17 @@ A ligação com as visitas ao aquário representa uma audiência particularmente
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis Submarinos no Etsy',
+      title: `Vender Imprimíveis Submarinos no Etsy`,
       description: `O Etsy recompensa o nicho submarino com um desempenho consistente de anúncios durante todo o ano porque a fascinação das crianças pelas criaturas oceânicas e pela vida marinha nunca para e os pais de crianças amantes do oceano procuram ativamente materiais educativos temáticos que apoiem a curiosidade marinha dos seus filhos em todas as estações. Utiliza as treze etiquetas com variações que combinem elementos marinhos, áreas de competência e grupos etários: «fichas contagem oceano pré-escolar», «páginas colorir submarinas crianças» e «sopa letras tubarões jardim infância» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas amplas como «fichas oceano». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de ofertas incluindo termos como «atividade jovem biólogo marinho» e «imprimível amante do oceano» nos teus títulos e descrições. As imagens de anúncios que mostram fichas submarinas impressas junto a brinquedos de criaturas marinhas, coleções de conchas ou recordações de aquários superam as pré-visualizações digitais planas e captam o entusiasmo prático que traz os pais de crianças fascinadas pelo oceano ao Etsy à procura de recursos educativos com temática marinha. Aponta às pesquisas de festas de aniversário de sereias e temática oceânica durante todo o ano, já que os temas submarinos continuam a ser uma das escolhas de celebração mais populares para crianças que sonham em explorar o profundo mar azul.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades Submarinas no KDP',
+      title: `Publicar Livros de Atividades Submarinas no KDP`,
       description: `O Amazon KDP destaca-se para os imprimíveis submarinos porque os pais e compradores de ofertas adicionam naturalmente livros de atividades aos seus carrinhos da Amazon junto a enciclopédias infantis de animais marinhos, livros de histórias oceânicas, brinquedos de tubarões e kits de exploração de aquários que alimentam a paixão dos jovens aprendizes por entender o que vive sob a superfície do oceano. Compila fichas individuais submarinas em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas de recifes de coral e mar profundo. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades oceânicas para crianças», «fichas submarinas pré-escolar» e termos de subtemas como «livro colorir tubarões» ou «atividades recife coral para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como ofertas para jovens entusiastas da vida marinha, complementos a visitas ao aquário ou suplementos a materiais de aprendizagem de ciências oceânicas. Os livros de atividades submarinas beneficiam de uma procura durante todo o ano com impulsos notáveis durante a época de férias de praia no verão quando as famílias procuram entretenimento com temática oceânica para viagens costeiras.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos Submarinos para a loja no Gumroad',
+      title: `Criar Recursos Submarinos para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores de loja e coordenadores de ciências que procuram material complementar educativo com temática de biologia marinha, atividades de vocabulário oceânico e recursos multicurriculares que integrem conceitos de ciências marinhas na instrução de matemática, literacia e geografia com um tempo mínimo de preparação. Os imprimíveis submarinos no Gumroad funcionam melhor quando empacotados como soluções prontas a utilizar online: pacotes de trabalho matinal com temática oceânica, estações de atividades de vocabulário marinho ou fichas complementares do Dia Mundial dos Oceanos com objetivos de aprendizagem claros que liguem os temas de ciências marinhas ao desenvolvimento de competências académicas. Inclui objetivos de aprendizagem vinculados aos padrões de ciências, matemática, literacia e geografia para que os vendedores possam justificar as atividades com temática oceânica perante os administradores e coordenadores de catálogo de produtos que reveem os materiais de instrução. A funcionalidade de agrupamento do Gumroad permite-te oferecer produtos individuais por criatura marinha e um mega-pacote oceânico com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em recursos integrais de unidades de ciências marinhas para estudos de habitats oceânicos, lições ambientais do Dia da Terra e unidades temáticas de natureza online durante todo o ano letivo.`,
     },
     {
@@ -144,18 +144,18 @@ A ligação com as visitas ao aquário representa uma audiência particularmente
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ A ligação com as visitas ao aquário representa uma audiência particularmente
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -179,18 +179,18 @@ A ligação com as visitas ao aquário representa uma audiência particularmente
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
+      slug: `animais-marinhos-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais Marinhos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Peixe-anjo — imagem educativa temática', caption: 'Peixe-anjo' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Peixe-palhaço — imagem educativa temática', caption: 'Peixe-palhaço' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagem educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Caranguejo — imagem educativa temática', caption: 'Caranguejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Peixe — imagem educativa temática', caption: 'Peixe' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Peixe-anjo — imagem educativa temática`, caption: 'Peixe-anjo' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Peixe-palhaço — imagem educativa temática`, caption: 'Peixe-palhaço' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagem educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Caranguejo — imagem educativa temática`, caption: 'Caranguejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Peixe — imagem educativa temática`, caption: 'Peixe' },
   ],
 
 

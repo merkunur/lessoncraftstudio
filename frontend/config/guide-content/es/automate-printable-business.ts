@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizar negocio imprimibles',
+    primaryKeyword: `automatizar negocio imprimibles`,
     secondaryKeywords: [
-      'automatización negocio imprimibles',
-      'automatizar creación fichas ejercicios',
-      'automatización flujo trabajo productos digitales',
-      'eficiencia vendedores imprimibles',
+      `automatización negocio imprimibles`,
+      `automatizar creación fichas ejercicios`,
+      `automatización flujo trabajo productos digitales`,
+      `eficiencia vendedores imprimibles`,
     ],
     lsiKeywords: [
       `producción por lotes flujo trabajo optimización sistemas plantillas velocidad creación`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `flujo trabajo racionalizado estandarización procesos eficiencia operativa agrupación tareas`,
       `sistemas producción procesos escalables gestión catálogo diseño flujo trabajo`,
     ],
-    titleTag: 'Automatizar negocio imprimibles — Guía eficiencia',
+    titleTag: `Automatizar negocio imprimibles — Guía eficiencia`,
     metaDescription: `Cómo automatizar tu negocio de imprimibles con producción por lotes, sistemas de plantillas y flujos de trabajo sistemáticos. Ahorra horas y escala tu tienda.`,
   },
 
   hero: {
-    title: 'Cómo automatizar tu negocio de imprimibles',
+    title: `Cómo automatizar tu negocio de imprimibles`,
     tagline: `Una guía completa para racionalizar tu negocio de imprimibles — cubriendo cómo identificar oportunidades de automatización, construir sistemas de plantillas, agrupar tareas de producción por lotes, estandarizar listings, organizar archivos sistemáticamente, automatizar el procesamiento de archivos, crear calendarios de producción y escalar mediante variación sistemática`,
     description: `Los vendedores de imprimibles más exitosos no son necesariamente los más creativos o talentosos. Son los más sistemáticos. Han construido flujos de trabajo que eliminan el esfuerzo redundante, sistemas de plantillas que evitan empezar desde cero, y procesos de producción que convierten horas de trabajo en minutos. Esta guía te muestra cómo automatizar tu negocio de imprimibles mediante estrategias prácticas e implementables — desde la producción por lotes y los sistemas de plantillas hasta los listings estandarizados y la expansión sistemática del catálogo.`,
   },
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Un programa de producción transforma tu negocio de imprimibles de una operación reactiva y ad hoc en un pipeline de producción predecible. Sin un programa, comienzas cada sesión de trabajo decidiendo qué crear, en qué plataformas publicar y qué tareas priorizar. Estas decisiones consumen energía mental y a menudo llevan a una producción inconsistente — semanas productivas seguidas de semanas lentas, ráfagas de creación seguidas de períodos de publicación sin nuevos productos. Un programa predeterminado elimina la toma de decisiones diaria y asegura una producción consistente y predecible.\n\nPlanifica tus temas y productos de producción con al menos cuatro a seis semanas de anticipación, alineándote con los ciclos de demanda estacional y las tendencias del marketplace. La temporada de regreso a clases (julio a septiembre) demanda conceptos básicos de matemáticas, preparación para lectura y recursos de gestión del mercado. La temporada navideña (octubre a diciembre) impulsa la demanda de actividades temáticas y fichas estacionales. El año nuevo (enero a febrero) trae demanda de recursos frescos para venta en línea y imprimibles organizacionales. El verano (mayo a julio) atrae a padres que buscan actividades de aprendizaje complementario. Al planificar con anticipación, puedes tener productos creados, publicados e indexados por los algoritmos de búsqueda del marketplace antes de que llegue la demanda pico — en lugar de apresurarte a crear productos estacionales después de que la demanda ya ha comenzado.\n\nAsigna tareas de producción específicas a días específicos de la semana para crear un ritmo semanal repetible. Un programa semanal probado: lunes y martes para creación de fichas usando generadores (producción por lotes de todos los nuevos productos de la semana), miércoles para escritura de descripciones y preparación de listings (usando tus plantillas), jueves para creación de miniaturas y procesamiento de archivos (usando tus plantillas de imagen y presets de exportación), viernes para listings del marketplace y expansión a plataformas. Este programa asegura que cada aspecto de la producción reciba tiempo de enfoque dedicado cada semana y crea una cadencia predecible que puedes mantener a largo plazo sin agotamiento.\n\nEstablece metas de producción en tu calendario que sean ambiciosas pero sostenibles. Una meta de 10 nuevos productos por semana es alcanzable con métodos de producción por lotes y generadores de fichas, y produce aproximadamente 520 nuevos productos por año — suficiente para construir un catálogo sustancial y diversificado en 12 meses. Sin embargo, una meta que te deja agotado e incapaz de mantener la calidad producirá en última instancia peores resultados que una meta moderada que puedas mantener consistentemente. Comienza con una meta que puedas alcanzar cómodamente cada semana y auméntala a medida que tus sistemas maduren y tu eficiencia mejore.\n\nIncluye tareas de mantenimiento del catálogo en tu calendario de producción junto con la creación de nuevos productos. Reserva una sesión al mes para actualizar los listings de mejor rendimiento con palabras clave actualizadas y miniaturas mejoradas. Programa revisiones trimestrales de los datos de tu catálogo para identificar productos de bajo rendimiento que necesitan optimización y categorías de alto rendimiento donde productos adicionales amplificarían el éxito existente. Un calendario de producción que equilibra la nueva creación con la optimización continua asegura que tu catálogo crezca tanto en tamaño como en calidad a lo largo del tiempo.`,
     },
     {
-      heading: 'Escala mediante variación sistemática y expansión',
+      heading: `Escala mediante variación sistemática y expansión`,
       content: `Una vez que tienes un sistema de producción eficiente para un tipo de producto, el camino más rápido hacia el crecimiento del catálogo es la variación sistemática en lugar del desarrollo de productos completamente nuevos. Cada variación aprovecha tus plantillas existentes, estructuras de descripción, flujos de producción y sistemas de listings, por lo que el tiempo marginal por nuevo producto disminuye a medida que tu sistema madura. Un vendedor que ha construido un sistema eficiente de producción de fichas de suma puede producir variantes con temas de vehículos, comida, naturaleza y animales mucho más rápido que un vendedor que crea cada tema desde cero.\n\nLas variaciones de tema son la forma más simple y productiva de expansión sistemática. Si tus fichas de suma de animales se venden bien, crea el mismo formato con temas de vehículos, comida, naturaleza, océano, granja y dinosaurios. Cada variante usa el mismo diseño de página, progresión de dificultad y plantilla de descripción — solo cambia el contenido específico del tema. Los generadores de fichas hacen que las variaciones de tema sean particularmente eficientes porque cambiar el tema es una opción de configuración, no un esfuerzo de rediseño. Un tema que toma 20 minutos de producir como tu primera variante podría tomar solo 10 minutos para la quinta variante a medida que refinas tu flujo de trabajo.\n\nLas variaciones de nivel de dificultad extienden cada tema a través de múltiples niveles escolares y etapas de habilidad. Un concepto de ficha de suma de animales puede producir variantes de kindergarten (un dígito, sumas hasta 10), primer grado (dos dígitos, sin reagrupación), segundo grado (dos dígitos con reagrupación) y tercer grado (tres dígitos). Cada nivel de dificultad es un listing de producto separado con su propia visibilidad en búsqueda, su propio precio y su propia audiencia de compradores. Cuatro variantes de dificultad de un tema cuadruplican tus listings a partir de un solo concepto de contenido.\n\nLa expansión lingüística multiplica tu catálogo en mercados internacionales con un esfuerzo incremental mínimo. Los generadores de fichas admiten 11 idiomas, y un producto que funciona bien en inglés a menudo funciona aún mejor en mercados de idiomas menos competitivos. Crear una versión en alemán de tus fichas de suma en inglés usa las mismas decisiones de tema, dificultad y formato — el generador maneja el formato específico del idioma automáticamente. Un vendedor con 30 productos en inglés que crea versiones en alemán, francés y español de los 15 mejores instantáneamente añade 45 nuevos listings dirigidos a mercados desatendidos donde la competencia es una fracción del mercado en inglés.\n\nLa creación de paquetes es una estrategia de escalamiento que genera nuevos productos a partir de artículos del catálogo existente sin ninguna creación de contenido nuevo. Agrupa productos individuales en paquetes temáticos (todas las fichas de animales), paquetes por materia (todas las fichas de suma), paquetes por nivel escolar (todos los recursos de kindergarten) o colecciones completas (paquete completo de matemáticas). Cada paquete es un nuevo listing con su propia visibilidad en búsqueda, con precio premium que genera mayores ingresos por transacción que las ventas individuales. Un catálogo de 50 productos individuales puede producir de 10 a 15 paquetes distintos, cada uno representando un flujo de ingresos adicional ensamblado enteramente a partir del trabajo existente.`,
     },
   ],
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `La automatización aumenta la rentabilidad a través de dos mecanismos: reduce el costo de tiempo por producto y aumenta la producción total sin requerir horas de trabajo adicionales. Un vendedor que crea manualmente cada ficha en 2 horas y produce 15 productos al mes obtiene ingresos de 15 listings. El mismo vendedor usando generadores de fichas y producción por lotes puede producir 15 productos en una fracción del tiempo, liberando horas para crear productos adicionales o expandirse a nuevas plataformas. Si la automatización reduce el tiempo de creación por producto en un 60%, el vendedor puede producir 2,5 veces más productos en las mismas horas o mantener la misma producción mientras recupera tiempo personal significativo. Ambos resultados aumentan directamente los ingresos del negocio en relación con el tiempo invertido — que es la medida fundamental de rentabilidad para un emprendedor individual.`,
     },
     {
-      heading: 'Escala ingresos sin escalar horas de trabajo',
+      heading: `Escala ingresos sin escalar horas de trabajo`,
       content: `El objetivo final de la automatización empresarial es desacoplar el crecimiento de ingresos de la inversión de tiempo. En un negocio de imprimibles no automatizado, duplicar los ingresos requiere aproximadamente duplicar las horas de trabajo porque cada tarea se realiza manualmente para cada producto. Con automatización sistemática, los ingresos pueden crecer mientras las horas de trabajo permanecen constantes o incluso disminuyen. Los sistemas de plantillas significan que cada nuevo producto toma menos tiempo que el anterior. La producción por lotes significa que 20 productos toman menos del doble de tiempo que 10. Los listings estandarizados significan que la expansión a otras plataformas añade ingresos sin inversión de tiempo proporcional. La expansión multilingüe a través de generadores significa que un solo concepto de contenido genera ingresos en múltiples mercados desde una sola sesión de producción. El efecto acumulativo de estas eficiencias significa que un negocio de imprimibles bien automatizado con 100 productos es dramáticamente más eficiente en tiempo por producto que el mismo negocio era con 10 productos.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo crear una línea de productos imprimibles' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo escalar tu negocio de imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles' },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Estrategias de precios para productos imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo crear paquetes de fichas que vendan' },
-    { pageType: 'guide', slug: 'soporte-cliente-productos-digitales', anchorText: `Soporte al cliente para negocios de productos digitales` },
-    { pageType: 'guide', slug: 'ingresos-pasivos-fichas-ejercicios', anchorText: `Crear ingresos recurrentes con fichas de ejercicios` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo crear una línea de productos imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo escalar tu negocio de imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de precios para productos imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo crear paquetes de fichas que vendan` },
+    { pageType: 'guide', slug: `soporte-cliente-productos-digitales`, anchorText: `Soporte al cliente para negocios de productos digitales` },
+    { pageType: 'guide', slug: `ingresos-pasivos-fichas-ejercicios`, anchorText: `Crear ingresos recurrentes con fichas de ejercicios` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de selección de nicho para negocios de imprimibles` },
-    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: 'Cómo investigar nichos rentables de imprimibles' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: `Cómo investigar nichos rentables de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Demuestra la creación rápida y configurable de fichas que forma el núcleo de un flujo de producción automatizado. Configura operaciones matemáticas, dificultad, temas e idiomas para producir PDFs listos para imprimir en minutos en lugar de horas.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Tipo de producto visual donde las variaciones temáticas sistemáticas escalan eficientemente. Crea páginas para colorear temáticas en múltiples categorías para construir profundidad de catálogo con mínimo esfuerzo incremental por producto.`,
     },
   ],
@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: `Los generadores de fichas automatizan el paso más laborioso en la producción de imprimibles`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma demostrando producción por lotes con variaciones de tema`,
         caption: `La producción por lotes de variaciones temáticas multiplica la producción del catálogo eficientemente`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras mostrando creación sistemática de contenido a través de temas`,
         caption: `La variación sistemática a través de temas e idiomas escala el crecimiento del catálogo`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Avión — imagen educativa temática', caption: 'Avión' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulancia — imagen educativa temática', caption: 'Ambulancia' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Barco — imagen educativa temática', caption: 'Barco' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Excavadora — imagen educativa temática', caption: 'Excavadora' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Avión — imagen educativa temática`, caption: 'Avión' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulancia — imagen educativa temática`, caption: 'Ambulancia' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Barco — imagen educativa temática`, caption: 'Barco' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Excavadora — imagen educativa temática`, caption: 'Excavadora' },
   ],
 };
 

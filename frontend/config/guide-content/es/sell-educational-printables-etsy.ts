@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender productos imprimibles en etsy',
+    primaryKeyword: `vender productos imprimibles en etsy`,
     secondaryKeywords: [
-      'cómo vender imprimibles educativos en Etsy',
+      `cómo vender imprimibles educativos en Etsy`,
       `estrategia de tienda Etsy de imprimibles educativos`,
       `vender fichas y actividades imprimibles en Etsy multicategoría`,
-      'negocio de fichas educativas imprimibles en Etsy',
+      `negocio de fichas educativas imprimibles en Etsy`,
     ],
     lsiKeywords: [
       `optimización de anuncios Etsy para actividades educativas digitales`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `agrupación imprimibles educativos multicategoría estrategia Etsy`,
       `fotos de anuncios y mockups para productos educativos imprimibles Etsy`,
     ],
-    titleTag: 'Vender productos imprimibles en Etsy — Guía',
+    titleTag: `Vender productos imprimibles en Etsy — Guía`,
     metaDescription: `Vende imprimibles educativos en Etsy con 33 generadores en 6 categorías. Estrategia de tienda, SEO Etsy, agrupación multicategoría y precios para vendedores.`,
   },
 
@@ -66,11 +66,11 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Estrategia de SEO Etsy específica por categoría',
+      heading: `Estrategia de SEO Etsy específica por categoría`,
       content: `Cada categoría de imprimibles educativos tiene diferentes términos de búsqueda de alto rendimiento y patrones estacionales. Las palabras clave de matemáticas alcanzan su pico en agosto y septiembre durante la vuelta al cole. Las palabras clave de colorear alcanzan su pico en noviembre y diciembre durante la temporada de regalos festivos. Las palabras clave de aprendizaje temprano alcanzan su pico en marzo y abril cuando los padres se preparan para la inscripción preescolar.\n\nConstruye un calendario de palabras clave que mapee tus términos de búsqueda más fuertes a sus meses pico. Crea y publica productos específicos por categoría de 4 a 6 semanas antes de su pico estacional para que Etsy tenga tiempo de indexar y posicionar tus anuncios. Renueva tus anuncios de mejor rendimiento justo antes de la temporada pico para el impulso de recencia.\n\nUsa las estadísticas de Etsy para identificar qué categorías y términos de búsqueda generan más tráfico a tu tienda. Refuerza las categorías donde ves fuertes impresiones de búsqueda pero baja conversión — estas representan oportunidades para mejorar las fotos de los anuncios, títulos o precios en lugar de categorías que abandonar.`,
     },
     {
-      heading: 'Técnicas de agrupación multicategoría',
+      heading: `Técnicas de agrupación multicategoría`,
       content: `Los paquetes multicategoría son exclusivos de las tiendas multicategoría y representan tu diferenciador competitivo más fuerte. Los vendedores de una sola categoría no pueden crear estos productos.\n\nPaquetes por nivel de grado: combina productos de 3 a 4 categorías dirigidos al mismo nivel de grado. Un «Paquete de aprendizaje para jardín de infantes» con fichas de sumas, actividades de emparejamiento, páginas para colorear y ejercicios de reconocimiento de letras. Fija el precio de estos a 2 a 3 veces el precio de tu paquete de una sola categoría.\n\nPaquetes temáticos: si tienes productos con tema de animales en múltiples categorías (sumas de animales, sopas de letras de animales, colorear animales, emparejamiento de animales), agrúpalos en un «Paquete de aprendizaje de animales» que cruza categorías. Los paquetes basados en temas captan términos de búsqueda que los anuncios basados en categorías no alcanzan.\n\nPaquetes estacionales: combina productos con temática festiva de cada categoría en una sola colección estacional. Un «Paquete de aprendizaje de Halloween» con matemáticas de Halloween, sopas de letras de Halloween, páginas para colorear de Halloween y actividades de emparejamiento de Halloween. Estos tienen una ventana de ventas estrecha pero altos ingresos por unidad.\n\nPaquetes de progresión: crea paquetes de progresión de aprendizaje que van de simple a complejo entre categorías. Empieza con emparejamiento (reconocimiento visual), pasa a colorear (motricidad fina), luego a matemáticas (habilidades numéricas), luego a alfabetización (habilidades lingüísticas). Comercializa estos como secuencias de actividades de desarrollo para padres que siguen hitos.`,
     },
     {
@@ -81,15 +81,15 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Escalera de precios multicategoría',
+      heading: `Escalera de precios multicategoría`,
       content: `Estructura tus precios para crear una progresión natural desde compras de nivel de entrada hasta paquetes premium entre categorías.\n\nNivel de entrada ($2,99 a $4,99): productos de un solo tema y un solo generador. Estos son tus generadores de tráfico — productos que se posicionan para términos de búsqueda específicos de cola larga y atraen compradores a tu tienda. Ejemplo: «Fichas de sumas de dinosaurios (10 páginas)» a $3,99.\n\nNivel medio ($7,99 a $14,99): paquetes de categoría y paquetes multitemáticos. Estos captan compradores dispuestos a gastar más en recursos completos de una sola categoría. Ejemplo: «Paquete completo de fichas de matemáticas — Sumas, restas y puzles (50 páginas)» a $12,99.\n\nNivel premium ($14,99 a $29,99): paquetes multicategoría por nivel de grado y colecciones completas. Estos son tus productos de mayor ingreso. Ejemplo: «Paquete completo de aprendizaje para primer grado — Matemáticas, alfabetización, puzles y actividades (más de 100 páginas)» a $24,99.\n\nCada anuncio en tu nivel de entrada debe mencionar tus paquetes de nivel medio en la descripción. Cada anuncio de nivel medio debe hacer referencia a tus paquetes premium. Esto crea una venta cruzada interna que aumenta el valor promedio del pedido sin gasto adicional en publicidad.`,
     },
     {
-      heading: 'Escalado de ingresos basado en paquetes',
+      heading: `Escalado de ingresos basado en paquetes`,
       content: `Las matemáticas del ingreso basado en paquetes son convincentes. Si vendes un paquete individual de fichas a $3,99, necesitas 250 ventas al mes para alcanzar $1.000 en ingresos mensuales. Si vendes paquetes por nivel de grado a $19,99, solo necesitas 50 ventas para los mismos ingresos — y cada paquete se ensambla con productos que ya creaste.\n\nEmpieza a crear paquetes tan pronto como tengas productos en 2 o más categorías. Tus primeros paquetes multicategoría probablemente serán tus anuncios más rentables porque tienen menos competencia que los anuncios de productos individuales y alcanzan precios más altos.\n\nFlujo de trabajo de creación de paquetes: selecciona de 5 a 8 productos de diferentes categorías dirigidos al mismo nivel de grado o tema. Crea una página de portada y un índice específicos para el paquete. Combina todos los PDF en un solo archivo descargable. Crea fotos de anuncio mostrando la variedad de productos incluidos. Fija el precio del paquete al 40 a 60 por ciento de los precios individuales combinados.\n\nActualiza tus paquetes trimestralmente añadiendo nuevos productos que hayas creado desde que el paquete se publicó por primera vez. Anuncia la actualización en la descripción del anuncio («Ahora incluye 15 páginas adicionales») para dar a los compradores existentes una razón para dejar una reseña positiva y a los nuevos compradores una razón para comprar.`,
     },
     {
-      heading: 'Cruce con Amazon KDP para múltiples categorías',
+      heading: `Cruce con Amazon KDP para múltiples categorías`,
       content: `Varias categorías de imprimibles educativos se traducen directamente en libros de Amazon KDP, dándote una segunda fuente de ingresos del mismo contenido.\n\nCategorías con mayor potencial de cruce con KDP: los puzles de sudoku se compilan naturalmente en libros de puzles (Sudoku fácil para niños, Desafío de sudoku medio). Las sopas de letras hacen excelentes libros temáticos de sopas de letras (Libro de sopas de letras de animales, Colección de sopas de letras de festividades). Los ejercicios de matemáticas se compilan en cuadernos de práctica de matemáticas (Práctica de sumas para primer grado, Ejercicios de restas para niños). Las páginas para colorear se compilan en libros temáticos para colorear.\n\nCruce más débil con KDP: las fichas de emparejamiento, los ejercicios de preposiciones y las actividades de buscar y contar son más difíciles de formatear como libros tradicionales porque a menudo requieren cortar, pegar o manipulación física.\n\nEl flujo de trabajo de producción para el cruce con KDP: genera una serie de fichas usando un solo tema y nivel de dificultad. Exporta a 300 DPI. Organiza las páginas en orden de libro con una página de portada, página de instrucciones, páginas de actividades y sección de clave de respuestas. Formatea a las dimensiones de interior de KDP (típicamente 8,5 × 11 pulgadas). Sube a KDP con palabras clave específicas de la categoría.\n\nLas ventas de KDP y Etsy no son competitivas — atienden diferentes preferencias de compradores. Los compradores de Etsy quieren descargas digitales instantáneas que pueden imprimir en casa. Los compradores de KDP quieren un libro físico enviado a su puerta. El mismo contenido sirve a ambos mercados sin canibalización.`,
     },
   ],
@@ -115,7 +115,7 @@ const content: GuideContent = {
       answer: `Las fichas de matemáticas tienen el mayor volumen de búsqueda general porque cada usuario de primaria practica matemáticas. Sin embargo, el volumen de búsqueda no equivale a rentabilidad. Categorías como actividades de buscar y encontrar y fichas de puzles tienen menor volumen de búsqueda pero también significativamente menos competencia, lo que puede resultar en mejor visibilidad y mayores tasas de conversión para anuncios individuales. El enfoque más rentable es tener múltiples categorías: productos de matemáticas para volumen, productos especializados para diferenciación y paquetes multicategoría para precios premium.`,
     },
     {
-      question: '¿Los 33 generadores funcionan en los 11 idiomas?',
+      question: `¿Los 33 generadores funcionan en los 11 idiomas?`,
       answer: `Los generadores se dividen en dos grupos. Los generadores sensibles al idioma — sopas de letras, crucigramas, tren de letras, adivinar palabras y localizar letras — producen contenido que cambia según el idioma seleccionado, lo que significa que cada idioma crea un producto genuinamente diferente. Estos generadores te permiten multiplicar un solo concepto de producto en 11 mercados lingüísticos. Los generadores exclusivamente visuales — páginas para colorear, fichas de dibujo, actividades de emparejamiento, sudoku y buscar y contar — producen contenido que es independiente del idioma porque las actividades dependen de imágenes en lugar de texto. Estos productos atraen a compradores internacionales sin modificaciones específicas de idioma pero no crean líneas de productos por idioma separadas.`,
     },
     {
@@ -138,33 +138,33 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'vender-fichas-matematicas-etsy',
-      title: 'Vender fichas de matemáticas en Etsy',
+      slug: `vender-fichas-matematicas-etsy`,
+      title: `Vender fichas de matemáticas en Etsy`,
       description: `La guía detallada de venta en Etsy para la categoría de Dominio de las matemáticas. Profundiza en SEO específico de matemáticas, optimización de anuncios y estrategias de precios para tu línea de productos de fichas de matemáticas.`,
     },
     {
       slug: 'vender-sopas-letras-etsy',
-      title: 'Vender sopas de letras en Etsy',
+      title: `Vender sopas de letras en Etsy`,
       description: `La guía detallada de venta en Etsy para sopas de letras y productos de puzles. Aprende estrategias de anuncios específicas por idioma y cómo multiplicar un solo concepto de puzle en 11 mercados lingüísticos.`,
     },
     {
       slug: 'crear-paginas-colorear-etsy',
-      title: 'Crear páginas para colorear que se venden en Etsy',
+      title: `Crear páginas para colorear que se venden en Etsy`,
       description: `La guía detallada para crear y vender páginas para colorear en Etsy. Cubre la categoría de aprendizaje visual con estrategias de fotos específicas para colorear y sincronización estacional.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: 'Cómo vender sopas de letras en Etsy' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: `Cómo vender sopas de letras en Etsy` },
     { pageType: 'guide', slug: 'crear-paginas-colorear-etsy', anchorText: `Cómo crear páginas para colorear que se venden en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda de imprimibles en Etsy desde cero` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de sumas — Todos los detalles' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el generador de fichas de sumas' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el generador de sopas de letras' },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de fichas de sumas — Todos los detalles` },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de sopas de letras — Todos los detalles` },
+    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: `Prueba el generador de fichas de sumas` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el generador de sopas de letras` },
   ],
 
   toolsRecommended: [
@@ -180,12 +180,12 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `La demografía de compradores más amplia de cualquier categoría de imprimibles educativos. Las páginas para colorear atraen a padres, vendedores, terapeutas y aficionados adultos al coloreado — haciendo de este generador un esencial para una tienda diversificada.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de emparejamiento',
+      title: `Generador de fichas de emparejamiento`,
       description: `Un formato versátil de aprendizaje temprano popular entre compradores de preescolar y jardín de infantes. Las actividades de emparejamiento son un pilar de los catálogos de productos de primera infancia y se combinan naturalmente con productos de matemáticas y alfabetización en paquetes multicategoría.`,
     },
     {
@@ -195,28 +195,28 @@ const content: GuideContent = {
     },
     {
       appId: 'find-and-count',
-      title: 'Generador de actividades de buscar y contar',
+      title: `Generador de actividades de buscar y contar`,
       description: `Un formato único con poca competencia en Etsy. La complejidad visual de las actividades de buscar y contar las hace más difíciles de crear manualmente, dando a los vendedores equipados con generadores una ventaja de producción significativa.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha imprimible educativa mostrando problemas de matemáticas basados en imágenes para vender en Etsy en múltiples categorías` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha imprimible educativa mostrando problemas de matemáticas basados en imágenes para vender en Etsy en múltiples categorías` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas con tema de animales para una tienda diversificada de imprimibles educativos en Etsy`, caption: 'Ficha de sumas con tema de animales — uno de docenas de productos de matemáticas que puedes crear para tu tienda Etsy' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp', alt: `Ficha de sopa de letras mostrando imprimible educativo basado en lenguaje para Etsy`, caption: 'Sopa de letras — formato sensible al idioma que se multiplica en 11 mercados lingüísticos en Etsy' },
-      { src: `/samples/spanish/coloring/coloring portrait 5.webp`, alt: 'Página para colorear imprimible mostrando producto de aprendizaje visual para tienda educativa en Etsy', caption: 'Página para colorear — la demografía de compradores más amplia de cualquier categoría de imprimibles educativos en Etsy' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas con tema de animales para una tienda diversificada de imprimibles educativos en Etsy`, caption: `Ficha de sumas con tema de animales — uno de docenas de productos de matemáticas que puedes crear para tu tienda Etsy` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 2.webp`, alt: `Ficha de sopa de letras mostrando imprimible educativo basado en lenguaje para Etsy`, caption: `Sopa de letras — formato sensible al idioma que se multiplica en 11 mercados lingüísticos en Etsy` },
+      { src: `/samples/spanish/coloring/coloring portrait 5.webp`, alt: `Página para colorear imprimible mostrando producto de aprendizaje visual para tienda educativa en Etsy`, caption: `Página para colorear — la demografía de compradores más amplia de cualquier categoría de imprimibles educativos en Etsy` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo crear imprimibles educativos para vender en Etsy — Estrategia de tienda multicategoría`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagen educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — imagen educativa temática', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — imagen educativa temática', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campanilla — imagen educativa temática', caption: 'Campanilla' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagen educativa temática', caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagen educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — imagen educativa temática`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — imagen educativa temática`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campanilla — imagen educativa temática`, caption: 'Campanilla' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagen educativa temática`, caption: 'Ranúnculo' },
   ],
 };
 

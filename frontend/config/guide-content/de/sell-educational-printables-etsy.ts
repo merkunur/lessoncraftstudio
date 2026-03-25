@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Lernmaterial auf Etsy verkaufen',
+    primaryKeyword: `Lernmaterial auf Etsy verkaufen`,
     secondaryKeywords: [
       `praktische Druckvorlagen auf Etsy verkaufen Anleitung`,
-      'Etsy Lernmaterial-Shop Strategie',
+      `Etsy Lernmaterial-Shop Strategie`,
       `druckbare Arbeitsblätter Etsy Geschäft Multi-Kategorie`,
-      'Arbeitsblätter und Aktivitäten auf Etsy verkaufen',
+      `Arbeitsblätter und Aktivitäten auf Etsy verkaufen`,
     ],
     lsiKeywords: [
       `Etsy digitaler Download praktische Aktivitäten Angebotsoptimierung`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `kategorieübergreifende praktische Druckvorlagen-Bündelung Etsy Strategie`,
       `Etsy Angebotsfotos Mockups für praktische Druckvorlagen-Produkte`,
     ],
-    titleTag: 'Lernmaterial auf Etsy verkaufen — Leitfaden',
+    titleTag: `Lernmaterial auf Etsy verkaufen — Leitfaden`,
     metaDescription: `Praktische Druckvorlagen auf Etsy verkaufen mit 33 Generatoren. Shop-Strategie, Etsy-SEO und kategorieübergreifende Bündelung.`,
   },
 
   hero: {
-    title: 'Lernmaterial auf Etsy verkaufen',
+    title: `Lernmaterial auf Etsy verkaufen`,
     tagline: `Ein umfassender Plattform-Leitfaden für den Aufbau eines diversifizierten Etsy-Shops, der praktische Druckvorlagen verkauft, erstellt mit 33 spezialisierten Generatoren in 6 Kategorien — einschließlich Multi-Kategorie-Shop-Strategie, kategoriespezifischer Etsy-SEO-Optimierung mit allen 13 Tags, kategorieübergreifender Bündelung und Preisgestaltung, Angebotsfotografie für verschiedene Produkttypen, saisonaler Produktrotation über Mathe-Arbeitsblätter, Lese-Aktivitäten, visuelles Lernen, Zuordnungsübungen, Rätsel und Such-und-Finde-Spiele sowie Skalierung von einer einzelnen Kategorie zu einem vollständigen Lernmaterial-Shop`,
     description: `Praktische Druckvorlagen gehören zu den am häufigsten gesuchten digitalen Produktkategorien auf Etsy. Eltern, Käufer, Homeschooler und Selbststudiumzentren suchen jeden Tag nach Mathe-Arbeitsblättern, Wortsuche-Rätseln, Malvorlagen, Zuordnungsaktivitäten, Sudoku-Büchern und Dutzenden weiterer praktischer Formate. Dieser Leitfaden zeigt Ihnen, wie Sie einen diversifizierten Etsy-Shop aufbauen, der alle 6 praktischen Druckvorlagen-Kategorien mit 33 spezialisierten Generatoren abdeckt — und damit einen Wettbewerbsvorteil schaffen, den Ein-Kategorie-Shops nicht erreichen können. Ob Sie Ihre erste praktische Druckvorlage veröffentlichen oder einen bestehenden Shop in neue Kategorien erweitern — am Ende dieses Leitfadens haben Sie eine vollständige Multi-Kategorie-Strategie.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Bevor Sie ein einziges Produkt erstellen, sollten Sie die Landschaft über alle 6 praktischen Druckvorlagen-Kategorien verstehen und wie sie sich in Nachfrage, Wettbewerb und Käuferverhalten unterscheiden.\n\nProdukte der Mathe-Meisterschaft (Addition, Subtraktion, Code-Rätsel, Vergleiche, Gitter-Rätsel, Zahlenübungen) haben das höchste konsistente Suchvolumen, weil jeder K-2-Produktmarkt Mathe übt. Der Wettbewerb ist mäßig bis hoch für Grundformate wie Addition und Subtraktion, aber deutlich geringer für spezialisierte Formate wie Code-Additions-Rätsel und Mathe-Gitter-Rätsel.\n\nProdukte der Lese- und Sprachkompetenz (Wortsuche, Kreuzworträtsel, Alphabetzüge, Wortraten) haben eine starke Nachfrage mit einem einzigartigen Vorteil: Sprachsensitivität. Wortsuchrätsel und Kreuzworträtsel funktionieren in 11 Sprachen, was bedeutet, dass ein einzelnes Produktkonzept in 11 verschiedene Angebote multipliziert werden kann, die unterschiedliche Sprachmärkte ansprechen. Rein visuelle Produkte haben diesen Multiplikator nicht.\n\nProdukte des Visuellen Lernens (Malvorlagen, Zeichenarbeitsblätter, Bildvokabeln) haben die breiteste Käuferdemografie. Malvorlagen sprechen Eltern, Käufer, Therapeuten und sogar Erwachsene an, die gerne ausmalen. Der Wettbewerb ist hoch für generische Malvorlagen, aber geringer für praktisch thematisierte Malprodukte, die beim Unterhalten lehren.\n\nProdukte der Zuordnung und Sortierung (Zuordnungs-Arbeitsblätter, Präpositionen, Groß oder Klein, Mehr oder Weniger) zielen speziell auf frühkindliche Bildung ab. Eltern von Vorschul- und Kindergartenkindern sind aktive Etsy-Käufer, und Zuordnungsaktivitäten sind ein fester Bestandteil frühkindlicher Lehrpläne.\n\nProdukte der Rätsel und Logik (Sudoku, Mathe-Rätsel) sprechen eine breitere Altersgruppe an als andere Kategorien. Sudoku im Besonderen reicht von Kindern bis zu Erwachsenen, und Sudoku-Rätselbücher sind auch ein starkes Amazon-KDP-Format.\n\nProdukte von Suchen und Finden (Suchen-und-Zählen, Buchstaben-Erkennung, Unterschiede-Finden) besetzen eine relativ unüberfüllte Nische auf Etsy. Die visuelle Komplexität dieser Produkte macht sie schwieriger manuell zu erstellen, was bedeutet, dass Verkäufer mit Generatoren einen erheblichen Produktionsvorteil gegenüber handgestalteten Konkurrenten haben.\n\nRecherchieren Sie jede Kategorie, indem Sie auf Etsy nach den wichtigsten Produktbegriffen suchen. Notieren Sie die Anzahl der Ergebnisse, die Preisspanne der Top-Angebote und die Bewertungszahlen erfolgreicher Shops. Diese Daten zeigen Ihnen, welche Kategorien sofortige Chancen bieten und welche mehr Abstufung erfordern, um zu konkurrieren.`,
     },
     {
-      heading: 'Startkategorie und Expansionsstrategie wählen',
+      heading: `Startkategorie und Expansionsstrategie wählen`,
       content: `Gleichzeitig in allen 6 Kategorien zu starten ist ein Fehler. Etsy belohnt Shop-Autorität und Produkttiefe innerhalb einer Kategorie. Ein Shop mit 20 Mathe-Arbeitsblatt-Angeboten rankt besser für mathematikbezogene Suchen als ein Shop mit 3 Mathe-Angeboten, 3 Wortsuche-Angeboten, 3 Malvorlagen-Angeboten und so weiter.\n\nWählen Sie Ihre Startkategorie anhand von drei Faktoren: Ihre Vertrautheit mit dem Produkttyp, das Nachfrage-Wettbewerbs-Verhältnis aus Ihrer Recherche und Ihre Fähigkeit, hochwertige Angebotsfotos für dieses Format zu erstellen.\n\nEmpfohlene Startkategorien für neue Verkäufer:\n\nMathe-Meisterschaft, wenn Sie das höchste Suchvolumen wollen und sich durch thematische bildbasierte Arbeitsblätter statt einfacher Zahlenübungen differenzieren können. Die 6 Mathe-Generatoren bieten genug Vielfalt, um 20 oder mehr Angebote aus einer einzigen Kategorie zu erstellen.\n\nRätsel und Logik, wenn Sie weniger Wettbewerb und starkes Crossover zu Amazon KDP wollen. Sudoku-Bücher und Mathe-Rätsel-Sammlungen lassen sich direkt in Buchformat-Produkte übersetzen.\n\nSuchen und Finden, wenn Sie in die am wenigsten gesättigte Kategorie einsteigen wollen. Suchen-und-Zählen-Arbeitsblätter, Buchstaben-Erkennungs-Aktivitäten und Unterschiede-Finden-Seiten haben minimalen Wettbewerb, weil sie ohne Generator technisch schwierig zu erstellen sind.\n\nSobald Ihre Startkategorie 15 bis 20 Angebote hat und konstante Verkäufe generiert, erweitern Sie auf Ihre zweite Kategorie. Planen Sie Ihren Expansionspfad im Voraus: Wenn Sie mit Mathe-Meisterschaft starten, schafft die Erweiterung auf Rätsel und Logik eine natürliche thematische Verbindung. Wenn Sie mit Lese- und Sprachkompetenz starten, bedient die Erweiterung auf Zuordnung und Sortierung überlappende Käufersegmente.\n\nVermeiden Sie es, sich über alle Kategorien zu verteilen und dabei nur wenige Angebote in jeder zu haben. Tiefe gewinnt über Breite auf Etsy, bis Sie Autorität in mindestens einer Kategorie aufgebaut haben.`,
     },
     {
-      heading: 'Inventar über mehrere Produkttypen aufbauen',
+      heading: `Inventar über mehrere Produkttypen aufbauen`,
       content: `Jeder Generator innerhalb einer Kategorie produziert einen eigenen Produkttyp, und jeder Produkttyp kann durch Themen, Schwierigkeitsstufen und Seitengrößen multipliziert werden. Die Mathematik hinter einem großen Katalog ist einfach.\n\nFür einen einzelnen Generator wie Addition: wählen Sie 5 Themen, 3 Schwierigkeitsstufen (Vorschule, Kindergarten, Erste Klasse) und 2 Seitengrößen (Letter und A4). Das ergibt 5 x 3 = 15 unterschiedliche Produktkombinationen, bevor Sie überhaupt Bündel erstellen. Fügen Sie Subtraktion mit der gleichen Strategie hinzu und Sie haben 30 Produkte aus nur 2 Generatoren.\n\nWenden Sie diese Logik kategorieübergreifend an:\n\nMathe-Meisterschaft: 6 Generatoren, die Additions-Arbeitsblätter, Subtraktions-Arbeitsblätter, Code-Additions-Rätsel, Vergleichsblätter, Mathe-Gitter-Rätsel und Zahlenübungen produzieren. Mit thematischen Variationen und Schwierigkeitsstufen können Sie allein aus dieser Kategorie 50 oder mehr einzigartige Produkte erstellen.\n\nLese- und Sprachkompetenz: 4 Generatoren, die Wortsuchrätsel, Kreuzworträtsel, Alphabetzug-Aktivitäten und Wortraten-Spiele produzieren. Für sprachsensitive Generatoren wie Wortsuche und Kreuzworträtsel wird jede Sprache zu einer separaten Produktlinie. Englische Wortsuchrätsel, spanische Wortsuchrätsel, französische Wortsuchrätsel — jedes ist ein eigenes Angebot, das unterschiedliche Käufer anspricht.\n\nVisuelles Lernen: 3 Generatoren, die Malvorlagen, Zeichenarbeitsblätter und Bildvokabelkarten produzieren. Allein Malvorlagen können durch verschiedene Themen Dutzende von Angeboten generieren.\n\nZuordnung und Sortierung: 4 Generatoren, die Zuordnungs-Arbeitsblätter, Präpositionsübungen, Größenvergleichs-Aktivitäten und Mehr-oder-Weniger-Arbeitsblätter produzieren. Diese zielen speziell auf Vorschule und Kindergarten ab.\n\nRätsel und Logik: 2 Generatoren, die Sudoku-Rätsel und Mathe-Rätsel-Gitter produzieren. Sudoku profitiert besonders von der Multiplikation durch Schwierigkeitsstufen (leicht, mittel, schwer) und KDP-Crossover.\n\nSuchen und Finden: 3 Generatoren, die Suchen-und-Zählen-Aktivitäten, Buchstaben-Erkennungs-Arbeitsblätter und Unterschiede-Finden-Seiten produzieren. Thematische Variationen funktionieren hier besonders gut.\n\nSerienfertigung ist entscheidend für die Effizienz. Wenn Sie sich hinsetzen, um Produkte zu erstellen, produzieren Sie eine komplette Serie in einer Sitzung: öffnen Sie den Generator, stellen Sie Ihr Thema ein, generieren Sie 10 Arbeitsblätter auf einer Schwierigkeitsstufe, exportieren Sie sie, ändern Sie die Schwierigkeit, generieren Sie 10 weitere. Fließbandproduktion ist schneller als das zufällige Wechseln zwischen Generatoren und Kategorien.`,
     },
     {
@@ -47,15 +47,15 @@ const content: GuideContent = {
       content: `Etsy-Shop-Sektionen fungieren als durchsuchbare Kategorien innerhalb Ihres Shops. Für einen Multi-Kategorie-Shop für praktische Druckvorlagen signalisiert Ihre Sektionsstruktur Professionalität und hilft Käufern, das zu finden, was sie brauchen, ohne durch Hunderte nicht zusammenhängender Angebote zu scrollen.\n\nErstellen Sie eine Shop-Sektion pro praktischer Kategorie, plus kategorieübergreifende Bündel-Sektionen:\n\nSektionsstruktur für einen ausgereiften Shop: Mathe-Arbeitsblätter (Addition, Subtraktion, Übungen, Vergleiche), Lese-Aktivitäten (Wortsuche, Kreuzworträtsel, Alphabet, Wortspiele), Visuelles Lernen (Malvorlagen, Zeichenaktivitäten, Vokabelkarten), Frühes Lernen (Zuordnung, Präpositionen, Größensortierung, Mehr-oder-Weniger), Rätsel und Logik (Sudoku, Mathe-Rätsel, Code-Knacker), Suchen und Finden (Suchen-und-Zählen, Buchstaben-Erkennung, Unterschiede-Finden), Altersgruppen-Bündel (Kindergarten komplett, Erste Klasse komplett, Zweite Klasse komplett) und Saisonale Sammlungen (Schulanfang, Feiertage, Sommerlernen).\n\nDie Sektion Altersgruppen-Bündel ist besonders wirkungsvoll. Eltern und Käufer suchen oft nach Altersgruppe statt nach spezifischem Aktivitätstyp. Ein „Kindergarten Komplettpaket", das Produkte aus Mathe, Lesen, Zuordnung und Malen in ein einzelnes Bündel zusammenfasst, erfasst Suchanfragen, die kein Einzel-Kategorie-Angebot erreichen kann.\n\nSaisonale Sammlungen ermöglichen es Ihnen, zeitkritische Produkte hervorzuheben, ohne Ihre permanente Kategorieorganisation zu stören. Verschieben Sie feiertagsthematisierte Produkte während der Spitzenverkaufsfenster aus ihrer Stammkategorie in die saisonale Sektion und verschieben Sie sie danach zurück.\n\nHalten Sie Ihre Sektionsnamen kurz und suchfreundlich. „Mathe-Arbeitsblätter" ist besser als „Mathematik-Lernaktivitäten und Übungsblätter." Etsy zeigt Sektionsnamen in Ihrer Shop-Navigation, und kürzere Namen werden auf Mobilgeräten sauberer angezeigt, wo die meisten Etsy-Nutzer browsen.`,
     },
     {
-      heading: 'Kategoriespezifische Etsy-Angebote schreiben',
+      heading: `Kategoriespezifische Etsy-Angebote schreiben`,
       content: `Verschiedene Produktkategorien erfordern unterschiedliche Keyword-Strategien, weil Käufer mit grundlegend unterschiedlicher Sprache nach ihnen suchen.\n\nMathe-Produkt-Käufer suchen nach Fähigkeit und Altersgruppe: „Additions-Arbeitsblätter Kindergarten", „Subtraktionsübungen Erste Klasse", „Mathe-Übungen druckbar." Ihre Titel und Tags für Mathe-Produkte sollten mit der spezifischen Mathefähigkeit beginnen, die Ziel-Altersgruppe oder das Alter einbeziehen und „druckbar" oder „PDF" enthalten, um das digitale Format zu signalisieren.\n\nLese-Produkt-Käufer suchen nach Aktivitätstyp und manchmal Sprache: „Wortsuchrätsel für Kinder", „Kreuzworträtsel druckbar Spanisch", „Alphabet-Nachspurübungen." Für sprachsensitive Produkte sollten Sie immer die Zielsprache im Titel angeben — „Französische Wortsuchrätsel" erreicht ein spezifisches Publikum, das „Wortsuchrätsel" allein verfehlt.\n\nKäufer von visuellem Lernen suchen nach Thema und Anwendungsfall: „Tier-Malvorlagen Kleinkind", „Zeichenarbeitsblätter Kindergarten", „Vokabelkarten druckbar." Themenorientierte Titel funktionieren besser für visuelle Produkte als fähigkeitsorientierte Titel.\n\nFrühes-Lernen-Käufer suchen nach Alter und Entwicklungsfähigkeit: „Zuordnungs-Arbeitsblätter Vorschule", „Größer-Kleiner-Aktivitäten Kleinkind", „Präpositions-Arbeitsblätter Kindergarten." Altersangaben sind hier kritisch, weil Frühes-Lernen-Produkte ein enges Zeitfenster abdecken.\n\nRätsel-Käufer suchen nach Schwierigkeit und Format: „einfache Sudoku-Rätsel Kinder", „Mathe-Rätsel-Arbeitsblätter Klasse 2", „Zahlenrätsel druckbar." Schwierigkeitssignale im Titel helfen Käufern, das richtige Produkt selbst auszuwählen.\n\nSuch-und-Finde-Käufer suchen nach Thema und Aktivitätstyp: „Suchen und Zählen Tiere Arbeitsblatt", „Buchstaben-Erkennung Aktivität druckbar", „Unterschiede finden Kinder." Themenbezeichnungen treiben Klicks für diese visuelle Kategorie.\n\nNutzen Sie alle 13 Etsy-Tags für jedes Angebot. Decken Sie über die Tags ab: den spezifischen Produkttyp, das Zielatter oder die Altersgruppe, das Fachgebiet, das Format (druckbar, PDF, sofortiger Download), den Anwendungsfall (Homeschooling, Bildungsmarkt, Hausaufgaben), das Thema falls zutreffend und verwandte Suchvariationen. Wiederholen Sie niemals dieselbe Phrase über Tags hinweg, da Etsy Ihre Tags bereits mit Ihren Titelwörtern kombiniert.`,
     },
     {
-      heading: 'Angebotsfotos über Produktkategorien erstellen',
+      heading: `Angebotsfotos über Produktkategorien erstellen`,
       content: `Verschiedene praktische Druckvorlagen-Typen brauchen unterschiedliche Fotostrategien, weil ihr visueller Reiz aus verschiedenen Elementen kommt.\n\nMathe-Arbeitsblätter: zeigen Sie die thematischen Illustrationen prominent. Bildbasierte Mathe-Aufgaben wirken in Thumbnails visuell ansprechend. Zeigen Sie 2 bis 3 Arbeitsblätter aufgefächert mit dem Lösungsblatt teilweise sichtbar dahinter. Die Beifügung des Lösungsblatts signalisiert Vollständigkeit und Professionalität.\n\nWortsuche- und Kreuzworträtsel: zeigen Sie das ausgefüllte Gitter mit einigen markierten oder hervorgehobenen Wörtern. Käufer wollen das Rätselformat und die Schwierigkeit auf einen Blick sehen. Für sprachspezifische Produkte fügen Sie ein Text-Overlay mit der Zielsprache hinzu.\n\nMalvorlagen: zeigen Sie sowohl die unausgemalte Vorlage als auch ein ausgemaltes Beispiel nebeneinander. Das „Vorher-Nachher"-Format demonstriert die Qualität der Strichzeichnung und gibt Käufern Sicherheit über das fertige Ergebnis. Malvorlagen-Thumbnails funktionieren am besten, wenn die Illustration groß und detailliert ist.\n\nZuordnungs-Arbeitsblätter: zeigen Sie das Ausschneiden-und-Einkleben-Format deutlich. Zeigen Sie die vollständige Seite mit sichtbaren Schneidelinien und ein separates Bild mit auf einem Tisch arrangierten Teilen, um die praktische Aktivität zu demonstrieren.\n\nSudoku- und Logikrätsel: zeigen Sie das Gitter deutlich mit sichtbaren Zahlen. Fügen Sie Schwierigkeitsindikatoren im Foto hinzu. Für Rätselbücher (KDP-Crossover) zeigen Sie das Buchcover und eine Innenansicht.\n\nSuch-und-Finde-Aktivitäten: zeigen Sie die vollständige Szene mit einigen bereits eingekreisten Elementen. Die visuelle Dichte dieser Produkte ist ihr Verkaufsargument — Käufer sollten sehen können, dass das Arbeitsblatt detailliert und ansprechend ist.\n\nBewahren Sie visuelle Konsistenz über alle Kategorien in Ihrem Shop. Verwenden Sie dieselbe Hintergrundfarbe oder -textur, denselben Schattenstil und dieselbe Text-Overlay-Schriftart für jedes Angebotsfoto. Das macht Ihren Shop in Suchergebnissen sofort erkennbar und kommuniziert, dass alle Produkte aus derselben professionellen Quelle stammen.`,
     },
     {
-      heading: 'Multi-Kategorie-Preisstrategie festlegen',
+      heading: `Multi-Kategorie-Preisstrategie festlegen`,
       content: `Die Preisgestaltung für praktische Druckvorlagen auf Etsy erfordert eine Strategie, die Produktionskomplexität, wahrgenommenen Wert und kategorieübergreifende Bündelungsmöglichkeiten berücksichtigt.\n\nBasispreise nach Kategorie: einzelne Arbeitsblätter oder kleine Pakete (5 bis 10 Seiten) aus einem einzelnen Generator verkaufen sich typischerweise für 2,99 $ bis 4,99 $. Themenpakete (10 bis 20 Seiten aus einem Generator mit einheitlichem Thema) verkaufen sich für 4,99 $ bis 7,99 $. Kategoriebündel (20 bis 50 Seiten, die mehrere Generatoren aus derselben Kategorie kombinieren) verkaufen sich für 8,99 $ bis 14,99 $.\n\nKategorieübergreifende Bündel sind der eigentliche Hebel für die Preisgestaltung. Ein „Kindergarten Komplettpaket", das Mathe-Arbeitsblätter, Zuordnungsaktivitäten, Malvorlagen und Wortsuchrätsel aus mehreren Kategorien enthält, kann für 14,99 $ bis 24,99 $ verkauft werden, weil Käufer es als umfassende Lösung wahrnehmen und nicht als Sammlung einzelner Arbeitsblätter.\n\nAltersgruppen-Mega-Bündel — alle Aktivitäten für eine bestimmte Altersgruppe über alle Kategorien — erzielen die höchsten Preise von 19,99 $ bis 29,99 $. Diese richten sich an Eltern und Homeschooler, die eine vollständige Produktkatalogergänzung suchen.\n\nPreisstufen schaffen natürliche Upgrade-Pfade. Wenn ein Käufer Ihr 3,99-$-Tier-Additionspaket findet, sollte er Ihr 9,99-$-Mathe-Kategorie-Bündel und Ihr 19,99-$-Altersgruppen-Komplettpaket in Ihrem Shop sehen. Jede Stufe erhöht den durchschnittlichen Bestellwert.\n\nSaisonale Preisanpassungen funktionieren kategorieübergreifend. Während der Schulanfangssaison von Juli bis September erzielen Altersgruppen-Bündel Premiumpreise, weil die Dringlichkeit steigt. Feiertagsthematisierte Produkte aus jeder Kategorie können während ihres saisonalen Fensters etwas höher bepreist werden, weil die Nachfrage ihren Höhepunkt erreicht und Käufer weniger preissensibel sind.\n\nSchließen Sie immer sowohl Letter- als auch A4-Seitengrößen in Ihre digitalen Downloads ein. Das kostet Sie nichts extra, da alle 33 Generatoren beide Formate unterstützen, und es verhindert die häufigste Ursache für negative Bewertungen von internationalen Käufern.`,
     },
     {
@@ -66,15 +66,15 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Kategoriespezifische Etsy-SEO-Strategie',
+      heading: `Kategoriespezifische Etsy-SEO-Strategie`,
       content: `Jede praktische Druckvorlagen-Kategorie hat unterschiedliche leistungsstarke Suchbegriffe und saisonale Muster. Mathe-Keywords erreichen ihren Höhepunkt im August und September beim Schulanfang. Malvorlagen-Keywords erreichen ihren Höhepunkt im November und Dezember in der Feiertags-Geschenksaison. Frühes-Lernen-Keywords erreichen ihren Höhepunkt im März und April, wenn Eltern die Vorschul-Anmeldung vorbereiten.\n\nErstellen Sie einen Keyword-Kalender, der Ihre stärksten Suchbegriffe ihren Spitzenmonaten zuordnet. Erstellen und veröffentlichen Sie kategoriespezifische Produkte 4 bis 6 Wochen vor ihrem saisonalen Höhepunkt, damit Etsy Zeit hat, Ihre Angebote zu indexieren und zu ranken. Erneuern Sie Ihre bestperformenden Angebote kurz vor der Hochsaison für den Aktualitätsboost.\n\nNutzen Sie Etsy Stats, um zu identifizieren, welche Kategorien und Suchbegriffe den meisten Traffic in Ihren Shop bringen. Verdoppeln Sie Ihre Anstrengungen in Kategorien, in denen Sie starke Suchimpressionen, aber geringe Konversion sehen — diese stellen Möglichkeiten dar, Angebotsfotos, Titel oder Preise zu verbessern, statt Kategorien, die Sie aufgeben sollten.`,
     },
     {
-      heading: 'Kategorieübergreifende Bündelungstechniken',
+      heading: `Kategorieübergreifende Bündelungstechniken`,
       content: `Kategorieübergreifende Bündel sind einzigartig für Multi-Kategorie-Shops und stellen Ihren stärksten Wettbewerbsvorteil dar. Ein-Kategorie-Verkäufer können diese Produkte nicht erstellen.\n\nAltersgruppen-Bündel: kombinieren Sie Produkte aus 3 bis 4 Kategorien, die auf dieselbe Altersgruppe abzielen. Ein „Kindergarten Lernbündel" mit Additions-Arbeitsblättern, Zuordnungsaktivitäten, Malvorlagen und Buchstabenerkennungsübungen. Bepreisen Sie diese mit dem 2- bis 3-Fachen Ihres Einzel-Kategorie-Bündelpreises.\n\nThemenbündel: Wenn Sie tiergestaltete Produkte über mehrere Kategorien haben (Tier-Addition, Tier-Wortsuche, Tier-Malvorlagen, Tier-Zuordnung), bündeln Sie sie zu einem „Tier-Lernpaket", das kategorienübergreifend ist. Themenbasierte Bündel erfassen Suchbegriffe, die kategoriebasierte Angebote verpassen.\n\nSaisonale Bündel: kombinieren Sie feiertagsthematisierte Produkte aus jeder Kategorie in einer einzelnen saisonalen Sammlung. Ein „Halloween Lernpaket" mit Halloween-Mathe, Halloween-Wortsuchrätsel, Halloween-Malvorlagen und Halloween-Zuordnungsaktivitäten. Diese haben ein enges Verkaufsfenster, aber hohen Umsatz pro Einheit.\n\nEntwicklungsbündel: erstellen Sie Lernprogressions-Pakete, die von einfach zu komplex über Kategorien hinweg gehen. Beginnen Sie mit Zuordnung (visuelle Erkennung), gehen Sie zu Malen (Feinmotorik), dann zu Mathe (Zahlenfähigkeiten), dann zu Lesen (Sprachfähigkeiten). Vermarkten Sie diese als entwicklungsorientierte Aktivitätssequenzen für Eltern, die Meilensteine verfolgen.`,
     },
     {
-      heading: 'Saisonale Produktrotation über alle Kategorien',
+      heading: `Saisonale Produktrotation über alle Kategorien`,
       content: `Ein Multi-Kategorie-Shop profitiert von überlappenden saisonalen Spitzen, die den Umsatz das ganze Jahr fließen lassen, anstatt in einer einzigen Saison zu spitzen.\n\nJanuar bis Februar: Winter- und Valentinstag-Themen über alle Kategorien. Mathe-Valentinstag-Arbeitsblätter, Herz-thematisierte Wortsuchrätsel, Valentinstag-Malvorlagen. Frühes-Lernen-Produkte für Eltern mit Neujahrsvorsätzen zur Bildung.\n\nMärz bis April: Frühlings- und Osterprodukte über alle Kategorien. Vorschul-Anmeldung schafft Nachfrage für Frühes-Lernen-Produkte (Zuordnung, Sortierung, Buchstabenerkennung). Frühlings-Themenbündel über Kategorien hinweg.\n\nMai bis Juni: Sommerlernen-Präventionsprodukte über alle Kategorien. „Sommerloch verhindern"-Bündel, die Mathe und Lesen kombinieren. Schuljahresende-Produkte für Käufer.\n\nJuli bis September: Schulanfangs-Hochphase — das größte Verkaufsfenster für praktische Druckvorlagen. Starten Sie Altersgruppen-Bündel, Bildungsmarkt-Pakete und Kategorie-Sammlungen. Jede Kategorie sieht während dieser Periode erhöhten Traffic.\n\nOktober: Halloween-Themen über alle Kategorien. Gruselige Mathe, Halloween-Wortsuchrätsel, Halloween-Malvorlagen. Enges Fenster mit hohen Konversionsraten.\n\nNovember bis Dezember: Feiertagsthemen und geschenkpositionierte Produkte. „Lehrkraft-Geschenk-Bündel" und „Homeschool-Eltern-Geschenksets", die Produkte aus mehreren Kategorien kombinieren. Die Feiertags-Einkaufssaison verwandelt stöbernde Eltern in Käufer umfassender Lernpakete.\n\nDer Multi-Kategorie-Vorteil ist, dass Sie jeden einzelnen Monat saisonale Produkte zum Starten haben, während Ein-Kategorie-Verkäufer oft tote Monate zwischen ihren saisonalen Spitzen haben.`,
     },
   ],
@@ -85,11 +85,11 @@ const content: GuideContent = {
       content: `Strukturieren Sie Ihre Preisgestaltung, um natürliche Progression von Einstiegskäufen zu Premium-Bündeln über Kategorien hinweg zu schaffen.\n\nEinstiegsstufe (2,99 $ bis 4,99 $): Einzel-Thema-, Einzel-Generator-Produkte. Diese sind Ihre Traffic-Generatoren — Produkte, die für spezifische Long-Tail-Suchbegriffe ranken und Käufer in Ihren Shop bringen. Beispiel: „Dinosaurier Additions-Arbeitsblätter (10 Seiten)" zu 3,99 $.\n\nMittlere Stufe (7,99 $ bis 14,99 $): Kategoriebündel und Multi-Themen-Pakete. Diese erfassen Käufer, die bereit sind, mehr für umfassende Einzel-Kategorie-Ressourcen auszugeben. Beispiel: „Komplettes Mathe-Arbeitsblatt-Paket — Addition, Subtraktion und Rätsel (50 Seiten)" zu 12,99 $.\n\nPremium-Stufe (14,99 $ bis 29,99 $): kategorieübergreifende Altersgruppen-Bündel und Komplettsammlungen. Dies sind Ihre umsatzstärksten Produkte. Beispiel: „Erste Klasse Komplettes Lernbündel — Mathe, Lesen, Rätsel und Aktivitäten (100+ Seiten)" zu 24,99 $.\n\nJedes Angebot in Ihrer Einstiegsstufe sollte Ihre Mittelklasse-Bündel in der Beschreibung erwähnen. Jedes Mittelklasse-Angebot sollte auf Ihre Premium-Bündel verweisen. Dies schafft internes Upselling, das den durchschnittlichen Bestellwert erhöht, ohne zusätzliche Werbeausgaben.`,
     },
     {
-      heading: 'Bündelbasierte Umsatzskalierung',
+      heading: `Bündelbasierte Umsatzskalierung`,
       content: `Die Mathematik des bündelbasierten Umsatzes ist überzeugend. Wenn Sie ein einzelnes Arbeitsblatt-Paket für 3,99 $ verkaufen, brauchen Sie 250 Verkäufe pro Monat, um 1.000 $ monatlichen Umsatz zu erreichen. Wenn Sie Altersgruppen-Bündel für 19,99 $ verkaufen, brauchen Sie nur 50 Verkäufe für denselben Umsatz — und jedes Bündel wird aus bereits erstellten Produkten zusammengestellt.\n\nBeginnen Sie mit der Bündelerstellung, sobald Sie Produkte in 2 oder mehr Kategorien haben. Ihre ersten kategorieübergreifenden Bündel werden wahrscheinlich Ihre profitabelsten Angebote, weil sie weniger Wettbewerb haben als Einzel-Produkt-Angebote und höhere Preise erzielen.\n\nWorkflow für die Bündelerstellung: wählen Sie 5 bis 8 Produkte aus verschiedenen Kategorien, die auf dieselbe Altersgruppe oder dasselbe Thema abzielen. Erstellen Sie ein Deckblatt und Inhaltsverzeichnis speziell für das Bündel. Kombinieren Sie alle PDFs in einer einzigen Download-Datei. Erstellen Sie Angebotsfotos, die die Vielfalt der enthaltenen Produkte zeigen. Bepreisen Sie das Bündel mit 40 bis 60 Prozent der kombinierten Einzelpreise.\n\nAktualisieren Sie Ihre Bündel vierteljährlich, indem Sie neue Produkte hinzufügen, die Sie seit der ersten Veröffentlichung des Bündels erstellt haben. Kündigen Sie die Aktualisierung in der Angebotsbeschreibung an („Jetzt mit 15 zusätzlichen Seiten"), um bestehenden Käufern einen Grund für eine positive Bewertung und neuen Käufern einen Kaufgrund zu geben.`,
     },
     {
-      heading: 'Amazon-KDP-Crossover für mehrere Kategorien',
+      heading: `Amazon-KDP-Crossover für mehrere Kategorien`,
       content: `Mehrere praktische Druckvorlagen-Kategorien lassen sich direkt in Amazon-KDP-Bücher übersetzen, was Ihnen einen zweiten Umsatzkanal aus denselben Inhalten gibt.\n\nStärkste KDP-Crossover-Kategorien: Sudoku-Rätsel kompilieren natürlich zu Rätselbüchern (Einfaches Sudoku für Kinder, Mittelschwere Sudoku-Herausforderung). Wortsuchrätsel ergeben hervorragende thematische Wortsuchbücher (Tier-Wortsuchbuch, Feiertags-Wortsuchsammlung). Mathe-Übungen kompilieren zu Mathe-Übungsheften (Erste Klasse Additionsübungen, Subtraktionsübungen für Kinder). Malvorlagen kompilieren zu thematischen Malbüchern.\n\nSchwächeres KDP-Crossover: Zuordnungs-Arbeitsblätter, Präpositionsübungen und Suchen-und-Zählen-Aktivitäten sind schwieriger als traditionelle Bücher zu formatieren, weil sie oft Ausschneiden, Einkleben oder physische Manipulation erfordern.\n\nDer Produktionsworkflow für KDP-Crossover: generieren Sie eine Serie von Arbeitsblättern mit einem einzelnen Thema und Schwierigkeitsgrad. Exportieren Sie mit 300 DPI. Ordnen Sie Seiten in Buchreihenfolge mit Deckblatt, Anleitungsseite, Aktivitätsseiten und Lösungsschlüssel-Abschnitt. Formatieren Sie auf KDP-Innenmaße (typischerweise 8,5 x 11 Zoll). Laden Sie bei KDP mit kategoriespezifischen Keywords hoch.\n\nKDP- und Etsy-Verkäufe konkurrieren nicht miteinander — sie bedienen unterschiedliche Käuferpräferenzen. Etsy-Käufer wollen sofortige digitale Downloads zum Selbstausdrucken. KDP-Käufer wollen ein physisches Buch, das an ihre Tür geliefert wird. Derselbe Inhalt bedient beide Märkte ohne Kannibalisierung.`,
     },
   ],
@@ -138,39 +138,39 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'mathe-arbeitsblaetter-verkaufen-etsy',
-      title: 'Mathe-Arbeitsblätter auf Etsy verkaufen',
+      slug: `mathe-arbeitsblaetter-verkaufen-etsy`,
+      title: `Mathe-Arbeitsblätter auf Etsy verkaufen`,
       description: `Der detaillierte Etsy-Verkaufsleitfaden für die Kategorie Mathe-Meisterschaft. Vertiefen Sie sich in mathe-spezifische SEO, Angebotsoptimierung und Preisstrategien für Ihre Mathe-Arbeitsblatt-Produktlinie.`,
     },
     {
       slug: 'wortsuche-verkaufen-etsy',
-      title: 'Wortsuchrätsel auf Etsy verkaufen',
+      title: `Wortsuchrätsel auf Etsy verkaufen`,
       description: `Der detaillierte Etsy-Verkaufsleitfaden für Wortsuche- und Rätselprodukte. Lernen Sie sprachspezifische Angebotsstrategien und wie Sie ein einzelnes Rätselkonzept über 11 Sprachmärkte multiplizieren.`,
     },
     {
       slug: 'etsy-malvorlagen-erstellen',
-      title: 'Etsy-Malvorlagen erstellen, die sich verkaufen',
+      title: `Etsy-Malvorlagen erstellen, die sich verkaufen`,
       description: `Der detaillierte Leitfaden für das Erstellen und Verkaufen von Malvorlagen auf Etsy. Behandelt die Kategorie Visuelles Lernen mit malvorlagen-spezifischen Fotostrategien und saisonalem Timing.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: 'Wortsuchrätsel auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: 'Etsy-Malvorlagen erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung für den Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: `Wortsuchrätsel auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: `Etsy-Malvorlagen erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für den Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'tool', slug: `additions-arbeitsblatt-ersteller`, anchorText: `Additions-Arbeitsblatt-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Das meistgefragte Mathe-Format auf Etsy. Erstellt bildbasierte Additions-Arbeitsblätter mit thematischen Illustrationen und automatischen Lösungsblättern — ein starker Ausgangspunkt für jeden praktischen Druckvorlagen-Shop.`,
     },
     {
@@ -185,7 +185,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Ein vielseitiges Frühes-Lernen-Format, beliebt bei Vorschul- und Kindergartenkäufern. Zuordnungsaktivitäten sind ein fester Bestandteil frühkindlicher Lehrpläne und passen natürlich zu Mathe- und Leseprodukten in kategorieübergreifenden Bündeln.`,
     },
     {
@@ -195,28 +195,28 @@ const content: GuideContent = {
     },
     {
       appId: 'find-and-count',
-      title: 'Suchen-und-Zählen-Aktivitäten-Generator',
+      title: `Suchen-und-Zählen-Aktivitäten-Generator`,
       description: `Ein einzigartiges Format mit geringem Etsy-Wettbewerb. Die visuelle Komplexität von Suchen-und-Zählen-Aktivitäten macht sie schwieriger manuell zu erstellen, was Verkäufern mit Generatoren einen erheblichen Produktionsvorteil verschafft.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: `Praktisches Druckvorlagen-Arbeitsblatt mit bildbasierten Mathe-Aufgaben zum Verkauf auf Etsy über mehrere Kategorien` },
+    heroImage: { src: `/samples/german/addition/addition_worksheet.webp`, alt: `Praktisches Druckvorlagen-Arbeitsblatt mit bildbasierten Mathe-Aufgaben zum Verkauf auf Etsy über mehrere Kategorien` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Tierthematisiertes Additions-Arbeitsblatt für einen diversifizierten praktischen Druckvorlagen-Etsy-Shop`, caption: 'Additions-Arbeitsblatt mit Tierthema — eines von Dutzenden Mathe-Produkten, die Sie für Ihren Etsy-Shop erstellen können' },
-      { src: '/samples/german/wordsearch/worksheet.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt als sprachbasierte praktische Druckvorlage für Etsy`, caption: 'Wortsuchrätsel — sprachsensitives Format, das über 11 Sprachmärkte auf Etsy multipliziert werden kann' },
-      { src: '/samples/german/coloring/coloring portrait 5.webp', alt: `Malvorlagen-Druckvorlage als visuelles Lernprodukt für einen praktischen Etsy-Shop`, caption: 'Malvorlage — die breiteste Käuferdemografie aller praktischen Druckvorlagen-Kategorien auf Etsy' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Tierthematisiertes Additions-Arbeitsblatt für einen diversifizierten praktischen Druckvorlagen-Etsy-Shop`, caption: `Additions-Arbeitsblatt mit Tierthema — eines von Dutzenden Mathe-Produkten, die Sie für Ihren Etsy-Shop erstellen können` },
+      { src: `/samples/german/wordsearch/worksheet.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt als sprachbasierte praktische Druckvorlage für Etsy`, caption: `Wortsuchrätsel — sprachsensitives Format, das über 11 Sprachmärkte auf Etsy multipliziert werden kann` },
+      { src: `/samples/german/coloring/coloring portrait 5.webp`, alt: `Malvorlagen-Druckvorlage als visuelles Lernprodukt für einen praktischen Etsy-Shop`, caption: `Malvorlage — die breiteste Käuferdemografie aller praktischen Druckvorlagen-Kategorien auf Etsy` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Praktische Druckvorlagen für den Etsy-Verkauf erstellen — Multi-Kategorie-Shop-Strategie`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
+    { src: `/image-library/flowers/aster.webp`, alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalee — thematisches Lernbild`, caption: 'Azalee' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonie — thematisches Lernbild`, caption: 'Begonie' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Glockenblume — thematisches Lernbild`, caption: 'Glockenblume' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Butterblume — thematisches Lernbild`, caption: 'Butterblume' },
   ],
 };
 

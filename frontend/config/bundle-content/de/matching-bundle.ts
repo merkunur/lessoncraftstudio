@@ -4,18 +4,18 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'zuordnung & sortierung',
     secondaryKeywords: [
-      'Zuordnungs-Arbeitsblätter-Paket für Verkäufer',
+      `Zuordnungs-Arbeitsblätter-Paket für Verkäufer`,
       `druckbare Zuordnungs-Aktivitäten-Toolkit kommerzielle Nutzung`,
-      'Bingo-Karten-Generator-Paket für Etsy.de',
+      `Bingo-Karten-Generator-Paket für Etsy.de`,
       `Sortier-Arbeitsblatt-Generatoren für KDP-Verkäufer`,
     ],
     lsiKeywords: [
-      'Zuordnung Sortierung Bingo Arbeitsblatt-Paket',
-      'Schattenbilder Raster-Puzzle druckbare Sammlung',
-      'kommerzielle Lizenz Zuordnungs-Arbeitsblätter',
-      'Zuordnungs-Arbeitsblatt-Massenproduktion Werkzeug',
+      `Zuordnung Sortierung Bingo Arbeitsblatt-Paket`,
+      `Schattenbilder Raster-Puzzle druckbare Sammlung`,
+      `kommerzielle Lizenz Zuordnungs-Arbeitsblätter`,
+      `Zuordnungs-Arbeitsblatt-Massenproduktion Werkzeug`,
     ],
-    titleTag: 'Zuordnung & Sortierung — 5-Generatoren-Paket',
+    titleTag: `Zuordnung & Sortierung — 5-Generatoren-Paket`,
     metaDescription: `5 Zuordnungs-Generatoren im Paket: Zuordnung, Raster-Puzzle, Schattenbilder, Bingo und Sortieren. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.`,
   },
 
@@ -54,7 +54,7 @@ const content: BundleContent = {
       description: `Der Einzelkauf jeder App kostet deutlich mehr. Das Paket bündelt alle fünf Zuordnungs- und Sortier-Generatoren zu einem Bruchteil der Einzelsumme und bietet Ihnen maximale Produktvielfalt für eine einzige Investition. Sie erhalten Zuordnungs-Arbeitsblätter, Raster-Puzzle-Zuordnung, Schattenbilder-Zuordnung, Bingo-Karten-Sets und Bilder-Sortierung — jede grundlegende Zuordnungs- und Sortier-Aktivität, nach der Frühförderungskäufer suchen — in einem einzigen vergünstigten Paket.`,
     },
     {
-      title: 'Hybrid-Paket: Visuell und sprachsensitiv',
+      title: `Hybrid-Paket: Visuell und sprachsensitiv`,
       description: `Drei der fünf Generatoren — Zuordnungs-Generator, Bingo-Karten-Generator und Bilder-Sortieren-Generator — sind sprachsensitiv und erzeugen Arbeitsblätter mit Vokabelbezeichnungen und Kategorienamen in jeder der 11 unterstützten Sprachen. Die anderen zwei — Raster-Puzzle-Generator und Schattenbilder-Generator — sind rein visuell ohne Text auf der Seite und weltweit ohne Übersetzung verkaufbar. Diese Hybridmischung lässt Sie sowohl sprachspezifische Märkte mit lokalisierten Zuordnungs- und Sortier-Arbeitsblättern als auch universelle Märkte mit rein visuellen Produkten bedienen — alles aus einem einzigen Toolkit.`,
     },
     {
@@ -62,7 +62,7 @@ const content: BundleContent = {
       description: `Der Bingo-Karten-Generator ist die einzige App über alle sechs Pakete hinweg, die Stapel-ZIP-Exporte mehrerer einzigartiger Karten in einem einzigen Download produziert. Jede Karte im Stapel verwendet dasselbe Thema, aber eine andere zufällige Anordnung, sodass jeder Spieler eine einzigartige Karte erhält. Dies ist ein entscheidender Vorteil für Verkäufer, die Shop- und Gruppenprodukte anbieten — Käufer zahlen Premium-Preise für fertige Bingo-Sets mit 20, 30 oder 50 einzigartigen Karten, und Sie generieren das gesamte Set in Sekunden.`,
     },
     {
-      title: 'Lösungsschlüssel für 4 von 5 Generatoren',
+      title: `Lösungsschlüssel für 4 von 5 Generatoren`,
       description: `Zuordnungs-Generator, Raster-Puzzle-Generator, Schattenbilder-Generator und Bilder-Sortieren-Generator erzeugen automatisch Lösungsschlüssel zu jedem Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung der Käufer auf Etsy.de und Gumroad — die automatische Erzeugung spart Stunden manueller Arbeit. Der Bingo-Karten-Generator ist die einzige Ausnahme: Als Spielkarten-Generator mit zufälligen Layouts gibt es keine einzelne richtige Antwort.`,
     },
     {
@@ -85,12 +85,12 @@ const content: BundleContent = {
 
   businessUseCases: [
     {
-      title: 'Etsy.de Zuordnungs- und Sortier-Shop',
+      title: `Etsy.de Zuordnungs- und Sortier-Shop`,
       description: `Erstellen Sie einen Etsy-Shop rund um Zuordnungs- und Sortier-Druckmaterialien — eine der meistgesuchten Aktivitätstypen für Kita- und Kindergartenkäufer. Listen Sie Zuordnungs-Arbeitsblattpakete, Schattenbilder-Bündel, Raster-Puzzle-Sets, Bilder-Sortier-Aktivitäten und Bingo-Karten-Sammlungen als separate Produkte. Die fünf Generatoren geben Ihnen fünf verschiedene Produktkategorien vom ersten Tag an. Nutzen Sie die über 100 thematischen Bildsets für saisonale Angebote: Halloween-Schattenbilder, Weihnachts-Bingo-Karten, Frühlings-Tier-Sortierung. Jede Thema-Generator-Kombination wird zu einem einzigartigen Angebot, das unterschiedlichen Suchverkehr erfasst.`,
       platform: 'Etsy.de',
     },
     {
-      title: 'Amazon KDP Zuordnungs-Aktivitätsbücher',
+      title: `Amazon KDP Zuordnungs-Aktivitätsbücher`,
       description: `Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Aktivitätsbüchern: „Kita-Zuordnungs-und-Sortier-Arbeitsbuch" mit Zuordnungsseiten, Schattenbilder-Übungen und Bilder-Sortier-Aktivitäten, oder „Shop-Bingo-und-Zuordnungs-Sammlung" mit Bingo-Karten und Raster-Puzzle-Rätseln. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Die zwei rein visuellen Generatoren erzeugen sprachunabhängige Seiten, die weltweit auf jedem Amazon-Marktplatz verkaufbar sind.`,
       platform: 'Amazon KDP',
     },
@@ -100,29 +100,29 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Kita-Zuordnungs-Produktkatalog',
+      title: `Kita-Zuordnungs-Produktkatalog`,
       description: `Kita- und Kindergartenprogramme brauchen eine konstante Versorgung mit Zuordnungs- und Sortier-Aktivitäten für tägliche Aktivitätsstationen und wöchentliche Aktivitätspläne. Die fünf Generatoren decken jeden Zuordnungs-Fähigkeitstyp ab: Vokabel-Bild-Assoziation, räumliche Raster-Zuordnung, visuelle Silhouetten-Unterscheidung, soziale Gruppenspiele und kategorische Sortierung. Generieren Sie thematische wöchentliche Aktivitätspakete abgestimmt auf Produktthemen — Tiere eine Woche, Fahrzeuge die nächste, Lebensmittel die darauffolgende — mit Lösungsschlüsseln für bewertungsfertige Aktivitäten.`,
     },
     {
-      title: 'Bingo-Karten-Sets für Veranstaltungen und Partys',
+      title: `Bingo-Karten-Sets für Veranstaltungen und Partys`,
       description: `Der Stapel-Bingo-Export eröffnet eine Produktkategorie jenseits der Bildung: thematische Bingo-Karten-Sets für Geburtstagsfeiern, Feiertagsveranstaltungen, Babypartys und Firmen-Teambuilding-Aktivitäten. Laden Sie eigene Bilder passend zum Veranstaltungsthema hoch, generieren Sie ein Set von 30 bis 50 einzigartigen Karten und verkaufen Sie den ZIP als Party-Druckprodukt. Veranstaltungs-Bingo ist ein stark nachgefragtes saisonales Produkt auf Etsy.de mit deutlich weniger Konkurrenz als lehrreiche Druckmaterialien, und der Stapel-Export bedeutet, dass Sie ein komplettes partyfähiges Set in unter einer Minute erstellen können.`,
     },
     {
-      title: 'Mehrsprachige Zuordnungsprodukte',
+      title: `Mehrsprachige Zuordnungsprodukte`,
       description: `Drei der fünf Generatoren unterstützen alle 11 Oberflächensprachen für Vokabelbezeichnungen und Kategorienamen. Erstellen Sie Zuordnungs-Arbeitsblattpakete auf Deutsch, Französisch, Spanisch oder jeder unterstützten Sprache und listen Sie sie auf lokalisierten Marktplätzen. Die sprachsensitiven Apps — Zuordnungs-Generator, Bingo-Karten-Generator und Bilder-Sortieren-Generator — erzeugen Arbeitsblätter mit Bezeichnungen in der Zielsprache, während Raster-Puzzle-Generator und Schattenbilder-Generator rein visuelle Seiten beitragen, die keine Übersetzung benötigen. Diese Kombination ermöglicht den effizienten Aufbau mehrsprachiger Produktbündel.`,
     },
   ],
 
   featureComparison: [
-    { feature: 'Alle 5 Zuordnungs- und Sortier-Generatoren', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Alle 5 Zuordnungs- und Sortier-Generatoren`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Thematische Bildsets', commercial: '10 Themen', fullAccess: '104 Themen' },
-    { feature: 'Eigene Bild-Uploads (PNG/JPEG)', commercial: 'Ja', fullAccess: 'Ja' },
-    { feature: 'Automatische Lösungsschlüssel (4 von 5 Apps)', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Eigene Bild-Uploads (PNG/JPEG)`, commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Automatische Lösungsschlüssel (4 von 5 Apps)`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Bingo-Stapel-ZIP-Export', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'PDF- und JPEG-Download', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Kommerzielle Verkaufsrechte', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Oberflächensprachen', commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
-    { feature: 'Sprachsensitive Bezeichnungen (3 Apps)', commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
+    { feature: `Sprachsensitive Bezeichnungen (3 Apps)`, commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
     { feature: 'Wasserzeichenfreie Downloads', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Lebenslange Updates', commercial: 'Ja', fullAccess: 'Ja' },
   ],
@@ -141,14 +141,14 @@ const content: BundleContent = {
       description: `Sie unterrichten junge Kinder und brauchen eine stetige Versorgung mit Zuordnungs- und Sortier-Aktivitäten, die grundlegende kognitive Fähigkeiten aufbauen. Der Zuordnungs-Generator entwickelt Wortschatz und Buchstabenerkennung. Der Raster-Puzzle-Generator führt räumliches Denken ein. Der Schattenbilder-Generator stärkt visuelle Unterscheidung. Der Bilder-Sortieren-Generator lehrt Kategorisierung und logisches Denken. Der Bingo-Karten-Generator bringt soziale Interaktion und Gruppenspiel in Ihre Aktivitätspläne. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie vor dem Kauf evaluieren können.`,
     },
     {
-      title: 'Veranstaltungs- und Party-Druckprodukt-Ersteller',
+      title: `Veranstaltungs- und Party-Druckprodukt-Ersteller`,
       description: `Sie erstellen druckbare Partyartikel, Veranstaltungsaktivitäten oder thematische Unterhaltungsprodukte. Der Bingo-Karten-Generator mit Stapel-ZIP-Export ist speziell für Gruppennutzung konzipiert — generieren Sie einzigartige Karten für jeden Gast bei einer Geburtstagsfeier, Babyparty, Feiertagsveranstaltung oder einem Firmen-Event. Laden Sie eigene Bilder hoch, um jedes Thema abzudecken. Die Zuordnungs- und Sortier-Generatoren ergänzen das Bingo mit zusätzlichen Party-Aktivitäten wie thematischen Bilder-Sortier-Spielen und Schattenbilder-Zuordnungs-Herausforderungen, die Gäste beschäftigt halten.`,
     },
   ],
 
   faq: [
     {
-      question: 'Kann ich die Generatoren vor dem Kauf testen?',
+      question: `Kann ich die Generatoren vor dem Kauf testen?`,
       answer: `Ja. Jeder Generator im Paket bietet eine kostenlose Testversion mit voller Funktionalität. Sie können alle Einstellungen konfigurieren, Arbeitsblätter in der Vorschau ansehen und Dateien herunterladen. Testversion-Downloads enthalten ein Wasserzeichen. Der Kauf einer Lizenz entfernt das Wasserzeichen, damit Sie kommerziell verkaufen können. Wir empfehlen, alle fünf Generatoren vor dem Kauf zu testen, um sicherzustellen, dass sie Ihre Anforderungen erfüllen.`,
     },
     {
@@ -156,11 +156,11 @@ const content: BundleContent = {
       answer: `Drei der fünf Generatoren sind sprachsensitiv: der Zuordnungs-Generator (Vokabelbezeichnungen in Buchstaben- und Bild-Name-Modi), der Bingo-Karten-Generator (optionale Bildbezeichnungen) und der Bilder-Sortieren-Generator (Kategorienamen). Diese erzeugen Arbeitsblätter mit Text in der jeweils ausgewählten der 11 unterstützten Sprachen. Die anderen zwei — Raster-Puzzle-Generator und Schattenbilder-Generator — sind rein visuell ohne Text auf der Seite, sodass jedes erzeugte Arbeitsblatt weltweit in jeder Sprache ohne Anpassung funktioniert.`,
     },
     {
-      question: 'Wie funktioniert der Bingo-Stapel-Export?',
+      question: `Wie funktioniert der Bingo-Stapel-Export?`,
       answer: `Der Bingo-Karten-Generator erstellt mehrere einzigartige Bingo-Karten in einem einzigen Vorgang. Sie wählen das Thema, die Rastergröße, die Kartenanzahl und ob Bezeichnungen enthalten sein sollen, und laden dann eine ZIP-Datei mit allen Karten herunter. Jede Karte verwendet denselben Bildpool, aber eine andere zufällige Anordnung, sodass jeder Spieler eine einzigartige Karte erhält. Diese Stapel-Fähigkeit ist für Shop- und Gruppennutzung konzipiert — generieren Sie 20, 30 oder 50 einzigartige Karten in Sekunden, statt jede einzeln zu erstellen.`,
     },
     {
-      question: 'Enthalten die Generatoren Lösungsschlüssel?',
+      question: `Enthalten die Generatoren Lösungsschlüssel?`,
       answer: `Vier der fünf Generatoren erzeugen automatisch Lösungsschlüssel: Zuordnungs-Generator, Raster-Puzzle-Generator, Schattenbilder-Generator und Bilder-Sortieren-Generator. Der Bingo-Karten-Generator ist die einzige Ausnahme — als Spielkarten-Generator mit zufälligen Layouts gibt es keine einzelne richtige Antwort. Lösungsschlüssel sind eine Top-Erwartung der Käufer auf Etsy.de und dem Gumroad, und die automatische Erzeugung spart Stunden manueller Überprüfung.`,
     },
     {
@@ -168,7 +168,7 @@ const content: BundleContent = {
       answer: `Der Schattenbilder-Generator verwendet ein festes Layout von 4 Elementen pro Arbeitsblatt. Jedes Arbeitsblatt zeigt 4 farbige Objekte auf einer Seite und ihre entsprechenden Silhouetten auf der anderen, wobei Nutzer Linien ziehen, um die Paare zu verbinden. Die feste Anzahl hält die Aktivität fokussiert und altersgerecht für die Kita- und Kindergarten-Zielgruppe, auf die Schattenbilder-Zuordnung abzielt.`,
     },
     {
-      question: 'Welche Formate kann ich herunterladen?',
+      question: `Welche Formate kann ich herunterladen?`,
       answer: `Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. Wählen Sie zwischen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer benutzerdefinierten Größe. Der Bingo-Karten-Generator exportiert zusätzlich eine ZIP-Datei mit mehreren einzigartigen Karten. PDF ist ideal für mehrseitige Aktivitätspakete auf Etsy.de und dem Gumroad. JPEG eignet sich gut für KDP-Innenseiten und Social-Media-Vorschauen. Alle Dateien werden in Druckauflösung heruntergeladen — kein Hochskalieren oder Nachbearbeiten nötig.`,
     },
     {
@@ -180,7 +180,7 @@ const content: BundleContent = {
       answer: `Ja. Sowohl die Kommerzielle als auch die Vollzugriff-Lizenz beinhalten kommerzielle Verkaufsrechte. Sie können die generierten Arbeitsblätter und Bingo-Karten-Sets auf Etsy.de, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform verkaufen. Sie verkaufen die erstellten Produkte — das Generator-Werkzeug selbst ist nicht übertragbar.`,
     },
     {
-      question: 'Wie viele Arbeitsblätter kann ich erstellen?',
+      question: `Wie viele Arbeitsblätter kann ich erstellen?`,
       answer: `Es gibt kein Limit. Nach dem Lizenzerwerb können Sie über alle fünf Generatoren hinweg beliebig viele Arbeitsblätter und Bingo-Karten-Sets generieren. Es gibt keine Download-Gebühren, monatlichen Obergrenzen oder Nutzungsbeschränkungen. Mit fünf Generatoren und über 100 Bildthemen ist die Anzahl einzigartiger Zuordnungs- und Sortier-Produkte, die Sie erstellen können, praktisch unbegrenzt. Viele Verkäufer generieren komplette thematische Aktivitätspakete in einer einzigen Sitzung.`,
     },
     {
@@ -190,42 +190,42 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Generator — Alle Details' },
-    { pageType: 'app', slug: 'raster-puzzle-arbeitsblaetter', anchorText: 'Raster-Puzzle-Generator — Alle Details' },
-    { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: 'Schattenbilder-Generator — Alle Details' },
-    { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: 'Bingo-Karten-Generator — Alle Details' },
-    { pageType: 'app', slug: 'bilder-sortieren-arbeitsblaetter', anchorText: 'Bilder-Sortieren-Generator — Alle Details' },
-    { pageType: 'guide', slug: 'zuordnungs-arbeitsblaetter-erstellen', anchorText: 'Zuordnungs-Arbeitsblätter erstellen' },
-    { pageType: 'guide', slug: 'schatten-zuordnung-arbeitsblaetter-erstellen', anchorText: 'Schatten-Zuordnung Arbeitsblätter erstellen' },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan' },
-    { pageType: 'idea', slug: 'vorschule-druckvorlagen-ideen', anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung' },
+    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: `Zuordnungs-Generator — Alle Details` },
+    { pageType: 'app', slug: 'raster-puzzle-arbeitsblaetter', anchorText: `Raster-Puzzle-Generator — Alle Details` },
+    { pageType: 'app', slug: `schattenbilder-zuordnen-arbeitsblaetter`, anchorText: `Schattenbilder-Generator — Alle Details` },
+    { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: `Bingo-Karten-Generator — Alle Details` },
+    { pageType: 'app', slug: `bilder-sortieren-arbeitsblaetter`, anchorText: `Bilder-Sortieren-Generator — Alle Details` },
+    { pageType: 'guide', slug: `zuordnungs-arbeitsblaetter-erstellen`, anchorText: `Zuordnungs-Arbeitsblätter erstellen` },
+    { pageType: 'guide', slug: `schatten-zuordnung-arbeitsblaetter-erstellen`, anchorText: `Schatten-Zuordnung Arbeitsblätter erstellen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Ihr Druckvorlagen-Geschäfts-Bauplan` },
+    { pageType: 'idea', slug: 'vorschule-druckvorlagen-ideen', anchorText: `Vorschul-Druckvorlagen-Ideen für frühe Förderung` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/matching/Paare Finden 1.webp',
+      primary: `/samples/german/matching/Paare Finden 1.webp`,
       primaryAlt: `Zuordnungs-Arbeitsblatt mit thematischen Bildern und Paar-Zuordnungsübung`,
     },
     sampleGallery: [
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt mit vier Modi und thematischen Bildern`, caption: 'Zuordnungs-Arbeitsblatt' },
-      { src: '/samples/german/grid match/Raster-Puzzle 1.webp', alt: `Raster-Puzzle mit koordinatenbasierter Zuordnung auf strukturiertem Raster`, caption: 'Raster-Puzzle-Arbeitsblatt' },
-      { src: `/samples/german/shadow match/shadow-match-worksheet.webp`, alt: 'Schattenbilder-Arbeitsblatt mit Silhouetten-Zuordnung und Linienzieh-Format', caption: 'Schattenbilder-Arbeitsblatt' },
-      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: `Bingo-Karte mit thematischen Bildern in zufälligem Raster-Layout`, caption: 'Bingo-Karte' },
-      { src: `/samples/german/picture sort/Bilder Sortieren 1.webp`, alt: 'Bilder-Sortieren-Arbeitsblatt mit Zwei-Kategorien-Klassifikationsübung', caption: 'Bilder-Sortieren-Arbeitsblatt' },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt mit vier Modi und thematischen Bildern`, caption: 'Zuordnungs-Arbeitsblatt' },
+      { src: `/samples/german/grid match/Raster-Puzzle 1.webp`, alt: `Raster-Puzzle mit koordinatenbasierter Zuordnung auf strukturiertem Raster`, caption: 'Raster-Puzzle-Arbeitsblatt' },
+      { src: `/samples/german/shadow match/shadow-match-worksheet.webp`, alt: `Schattenbilder-Arbeitsblatt mit Silhouetten-Zuordnung und Linienzieh-Format`, caption: 'Schattenbilder-Arbeitsblatt' },
+      { src: `/samples/german/bingo/bilder-bingo 1.webp`, alt: `Bingo-Karte mit thematischen Bildern in zufälligem Raster-Layout`, caption: 'Bingo-Karte' },
+      { src: `/samples/german/picture sort/Bilder Sortieren 1.webp`, alt: `Bilder-Sortieren-Arbeitsblatt mit Zwei-Kategorien-Klassifikationsübung`, caption: 'Bilder-Sortieren-Arbeitsblatt' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: `Zuordnung-&-Sortierung-Paket — Alle 5 Generatoren in Aktion`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Küken — thematisches Lernbild', caption: 'Küken' },
-    { src: '/image-library/farm%20animals/chicken.webp', alt: 'Huhn — thematisches Lernbild', caption: 'Huhn' },
-    { src: '/image-library/farm%20animals/cow.webp', alt: 'Kuh — thematisches Lernbild', caption: 'Kuh' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katze 2 — thematisches Lernbild`, caption: 'Katze 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: 'Küken — thematisches Lernbild', caption: 'Küken' },
+    { src: `/image-library/farm%20animals/chicken.webp`, alt: 'Huhn — thematisches Lernbild', caption: 'Huhn' },
+    { src: `/image-library/farm%20animals/cow.webp`, alt: 'Kuh — thematisches Lernbild', caption: 'Kuh' },
   ],
 };
 

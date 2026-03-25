@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'negócio imprimíveis multilingue',
+    primaryKeyword: `negócio imprimíveis multilingue`,
     secondaryKeywords: [
-      'vender imprimíveis vários idiomas',
-      'mercado internacional de imprimíveis',
-      'negócio fichas exercícios multilingue',
-      'expandir imprimíveis globalmente',
+      `vender imprimíveis vários idiomas`,
+      `mercado internacional de imprimíveis`,
+      `negócio fichas exercícios multilingue`,
+      `expandir imprimíveis globalmente`,
     ],
     lsiKeywords: [
       `expansão linguística mercados internacionais estratégia localização mercados europeus imprimíveis`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Como criar um negócio de imprimíveis multilingue',
+    title: `Como criar um negócio de imprimíveis multilingue`,
     tagline: `Um guia completo para expandir o seu negócio de imprimíveis a nível internacional — por que razão a expansão multilingue é a estratégia de crescimento mais subutilizada, quais os mercados linguísticos que oferecem os maiores retornos, como estruturar o seu negócio para operações em vários idiomas, analisar oportunidades em marketplaces internacionais, construir vantagem competitiva através da cobertura linguística, desenvolver um modelo de multiplicação de receitas, planear uma expansão linguística por fases e otimizar o desempenho de uma carteira multilingue`,
     description: `A maioria dos vendedores de imprimíveis compete exclusivamente em inglês, ignorando a enorme procura nos mercados alemão, francês, espanhol e noutros idiomas. Este guia mostra-lhe como criar um negócio de imprimíveis multilingue que multiplica as suas receitas ao alcançar compradores internacionais subexplorados em múltiplas plataformas e idiomas.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Compreender a oportunidade do mercado multilingue',
+      heading: `Compreender a oportunidade do mercado multilingue`,
       content: `O mercado global de imprimíveis educativos cresce rapidamente, impulsionado por pais e vendedores que querem materiais de aprendizagem complementares na sua língua materna. Enquanto o inglês domina a oferta — a maioria dos vendedores cria produtos apenas em inglês — a procura conta uma história diferente. As famílias germanófonas na Alemanha, Áustria e Suíça representam mais de 100 milhões de compradores potenciais com sólidos hábitos de despesa em educação. Os francófonos abrangem a França, a Bélgica, parte da Suíça, o Canadá e numerosos países africanos. O espanhol alcança tanto os mercados europeus como os latino-americanos com mais de 500 milhões de falantes em todo o mundo. Cada um destes mercados linguísticos tem procura genuína de imprimíveis educativos, mas muito menos vendedores os servem em comparação com o inglês. Este desequilíbrio entre oferta e procura é a oportunidade fundamental. Quando pesquisa categorias populares em inglês nos marketplaces, normalmente encontra milhares de produtos concorrentes. A mesma pesquisa em alemão, francês ou espanhol revela frequentemente apenas uma fração dessa concorrência. Menos concorrência significa que os seus produtos aparecem mais acima nos resultados de pesquisa, atraem mais visitas e convertem a taxas mais elevadas — tudo isto sem necessidade de superar os vendedores estabelecidos do mercado anglófono. Compreender esta oportunidade requer pensar para além da simples tradução. Cada mercado linguístico tem as suas próprias normas educativas, expetativas culturais, padrões sazonais e plataformas preferidas. Um vendedor que dedica tempo a compreender estas nuances constrói um negócio com vantagens competitivas genuínas que os concorrentes ocasionais não conseguem replicar facilmente.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `O aspeto mais poderoso da expansão multilingue é o seu efeito multiplicador sobre o potencial de receitas. Um conceito de produto adaptado a múltiplos idiomas e publicado em múltiplas plataformas cria numerosos fluxos de receitas independentes a partir de uma única ideia de conteúdo. Calcule a matemática da multiplicação para a sua situação específica. Se tem 10 conceitos de fichas e adapta cada um a 4 idiomas, depois publica cada versão em 2 plataformas, gera 80 listagens ativas (10 × 4 × 2). Cada listagem é um ponto de descoberta independente onde novos compradores podem encontrar os seus produtos. Isto é fundamentalmente diferente de criar 80 produtos únicos em inglês porque o esforço de produção por versão linguística adicional é significativamente menor do que criar conteúdo completamente novo. A economia torna-se ainda mais convincente quando considera que cada combinação idioma-plataforma opera como um mercado independente. Uma ficha de matemática em alemão na amazon.de não compete com nem canibaliza as vendas da mesma ficha em francês no Etsy. Servem populações de compradores completamente diferentes, pelo que as receitas de cada combinação são genuinamente aditivas. Para construir o seu modelo, comece por identificar os seus produtos em inglês com melhor desempenho — estes têm procura de mercado comprovada e são os candidatos mais fortes para a expansão linguística. Calcule o custo de produção (o seu tempo) para adaptar cada produto a um novo idioma em comparação com criar um produto em inglês completamente novo. Para muitos tipos de fichas, a adaptação linguística requer de 20 a 30 por cento do tempo necessário para a criação original, tornando-a um gerador de receitas muito mais eficiente por hora investida. Rastreie as receitas por combinação de idioma e plataforma para compreender quais os mercados que oferecem os maiores retornos. Estes dados orientam as decisões de produção contínuas: se as fichas de matemática em alemão na amazon.de superam consistentemente as fichas de literacia em francês no Etsy, aloque mais tempo de produção à combinação de maior desempenho.`,
     },
     {
-      heading: 'Planear o seu roteiro de expansão linguística',
+      heading: `Planear o seu roteiro de expansão linguística`,
       content: `Uma abordagem por fases à expansão linguística evita dispersar demasiado os seus recursos enquanto gera dados de mercado valiosos em cada etapa. Apressar-se a cobrir muitos idiomas simultaneamente resulta frequentemente em catálogos fracos que não conseguem ganhar tração em nenhum mercado individual. A fase um deve focar-se num único idioma de expansão — o seu mercado de maior prioridade com base na análise do passo dois. Construa um catálogo mínimo viável de 15 a 20 produtos neste idioma antes de avaliar resultados. Esta profundidade dá-lhe dados suficientes para compreender a dinâmica do mercado: quais os tipos de produtos que vendem melhor, quais os preços que funcionam, quais as plataformas que geram mais tráfego e quais os padrões sazonais existentes. Estabeleça um prazo de 60 a 90 dias para a fase um. Durante este período, rastreie métricas-chave incluindo visitas, taxa de conversão, receitas e posicionamento em pesquisa orgânica para cada produto. Compare estas métricas com os seus produtos em inglês em estágios de catálogo semelhantes para avaliar a oportunidade relativa. A fase dois começa após validar a procura no seu primeiro idioma de expansão. Adicione um segundo idioma enquanto continua a aprofundar o seu catálogo no primeiro. A experiência operacional da fase um torna a segunda expansão linguística mais rápida e eficiente porque já desenvolveu o seu fluxo de trabalho de adaptação e o seu conhecimento dos marketplaces. A fase três introduz um terceiro idioma e começa a otimização dos seus catálogos linguísticos existentes com base nos dados acumulados. Neste ponto, deverá ter evidência clara sobre quais os tipos de produtos e plataformas que funcionam melhor em cada idioma, permitindo-lhe tomar decisões de produção baseadas em dados. Evite a tentação de saltar fases ou acelerar o calendário. Cada fase gera insights que melhoram a eficiência e eficácia das fases seguintes. Os vendedores que constroem metodicamente a sua cobertura linguística superam os que dispersam esforços por muitos mercados simultaneamente.`,
     },
     {
@@ -66,15 +66,15 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Estratégia Etsy para vendas internacionais',
+      heading: `Estratégia Etsy para vendas internacionais`,
       content: `O Etsy é a plataforma mais acessível para vendedores de imprimíveis multilingues porque uma única loja pode alojar produtos em qualquer idioma sem contas separadas. Para maximizar a visibilidade internacional no Etsy, crie listagens completamente no idioma de destino — títulos, descrições, etiquetas e até secções da loja organizadas por idioma. A pesquisa do Etsy emparelha o idioma da consulta do comprador com o idioma da listagem, pelo que um comprador francês que pesquisa em francês encontrará as suas listagens em francês. Use as 13 etiquetas por listagem com palavras-chave no idioma de destino e pesquise quais os termos de pesquisa que os compradores reais utilizam em cada mercado em vez de traduzir diretamente as suas palavras-chave em inglês.`,
     },
     {
-      heading: 'Abordagem Amazon para marketplaces globais',
+      heading: `Abordagem Amazon para marketplaces globais`,
       content: `A Amazon opera marketplaces independentes por país, cada um com o seu próprio índice de pesquisa, algoritmo de posicionamento e grupo de compradores. Para os editores de KDP, isto significa que o seu caderno de atividades em alemão publicado na amazon.de compete apenas contra outros produtos alemães nesse marketplace — não contra os milhões de produtos em inglês da amazon.com. O Amazon Global Selling permite-lhe gerir listagens em múltiplos marketplaces a partir de uma única conta, embora cada marketplace requeira títulos, descrições e palavras-chave localizados. Priorize inicialmente a amazon.de e a amazon.fr, pois têm as maiores bases de compradores europeus para conteúdo educativo.`,
     },
     {
-      heading: 'Distribuição multiplataforma para máximo alcance',
+      heading: `Distribuição multiplataforma para máximo alcance`,
       content: `Em vez de escolher uma única plataforma para vendas internacionais, distribua os seus produtos multilingues por múltiplas plataformas para captar diferentes segmentos de compradores. Cada plataforma atrai diferentes tipos de compradores: o Etsy atrai pais que procuram imprimíveis criativos e personalizáveis, a Amazon KDP alcança compradores que preferem cadernos de atividades encadernados profissionalmente, e o seu próprio website serve clientes recorrentes que querem acesso direto ao seu catálogo completo. Rastreie qual a plataforma que funciona melhor para cada idioma para otimizar o seu esforço de publicação. Alguns idiomas podem render significativamente melhor em plataformas específicas com base nas preferências regionais de marketplace.`,
     },
   ],
@@ -85,11 +85,11 @@ const content: GuideContent = {
       content: `A expansão linguística é o multiplicador de receitas mais eficiente disponível para os vendedores de imprimíveis porque alavanca conceitos de produtos existentes em vez de requerer a criação de conteúdo completamente novo. Adaptar uma ficha em inglês comprovada ao alemão, francês ou espanhol requer significativamente menos esforço criativo do que conceber um produto novo de raiz. O cálculo é direto: se um produto em inglês gera determinadas receitas mensais, adicionar quatro versões linguísticas em duas plataformas cria oito oportunidades de receitas adicionais a partir do mesmo conceito base. Mesmo que cada listagem internacional gere menos receitas do que o original em inglês, o agregado entre idiomas e plataformas tipicamente supera o que qualquer produto adicional em inglês produziria.`,
     },
     {
-      heading: 'Preços premium em mercados subexplorados',
+      heading: `Preços premium em mercados subexplorados`,
       content: `Menos concorrência nos mercados não anglófonos permite frequentemente preços relativamente mais elevados. Quando os compradores têm opções limitadas no seu idioma, é menos provável que comparem preços agressivamente. Um pacote de fichas em alemão concebido profissionalmente que apenas enfrenta um punhado de concorrentes pode praticar preços premium que seriam insustentáveis no saturado mercado anglófono. Pesquise os preços em cada mercado linguístico-alvo separadamente. Poderá descobrir que os seus produtos podem ter um preço 15 a 25 por cento mais elevado em alguns mercados linguísticos em comparação com os equivalentes em inglês, mantendo sólidas taxas de conversão e melhorando significativamente as suas receitas por venda.`,
     },
     {
-      heading: 'Estratégia de pacotes por idioma',
+      heading: `Estratégia de pacotes por idioma`,
       content: `Os pacotes funcionam excecionalmente bem em negócios multilingues porque os compradores que encontram produtos de qualidade no seu idioma tendem a querer coleções completas. Um pai que descobre as suas fichas de matemática em alemão e gosta da qualidade frequentemente comprará um pacote completo por nível escolar em vez de fichas individuais. Crie pacotes específicos por idioma que atendam às necessidades de cada mercado. Um pacote de matemática do jardim de infância em alemão, um pacote de literacia do primeiro ano em francês ou um pacote de atividades pré-escolares em espanhol — cada um responde a uma necessidade específica do comprador enquanto aumenta o seu valor médio de transação. A estratégia de pacotes também cria caminhos naturais de venda ascendente: aos compradores que adquirem produtos individuais pode ser oferecido o pacote completo com desconto.`,
     },
   ],
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Imagine um vendedor de imprimíveis que começa com 20 fichas de matemática em inglês a gerar receitas mensais constantes mas modestas. A concorrência na categoria de fichas de matemática em inglês é intensa, tornando o crescimento orgânico lento. O vendedor decide priorizar a expansão ao alemão com base na análise de mercado: elevada despesa educativa, forte adoção digital e concorrência limitada para imprimíveis de matemática em alemão. Após adaptar as 20 fichas ao alemão e publicá-las no Etsy e na amazon.de, o vendedor nota que vários produtos em alemão se posicionam na primeira página de resultados de pesquisa em poucas semanas — algo que demorou meses a alcançar em inglês. Encorajado pelos resultados, o vendedor adiciona versões em francês e espanhol durante os meses seguintes. Em seis meses, o catálogo multilingue contém 80 listagens de produtos (20 conceitos em 4 idiomas) comparado com as 20 originais. As receitas das versões internacionais superam coletivamente as receitas exclusivamente em inglês, apesar de cada idioma individual gerar menos do que o mercado anglófono. O efeito multiplicador entre idiomas e plataformas transformou uma modesta loja monolingue num negócio internacional diversificado.`,
     },
     {
-      heading: 'Vantagem competitiva no mercado escandinavo',
+      heading: `Vantagem competitiva no mercado escandinavo`,
       content: `Um vendedor de imprimíveis observa que as pesquisas de fichas de exercícios educativas em sueco, dinamarquês e norueguês apresentam muito poucos resultados nos principais marketplaces. Apesar da população relativamente pequena de cada país escandinavo, a despesa educativa por agregado familiar está entre as mais elevadas do mundo e as taxas de adoção digital são excecionais. O vendedor cria um catálogo focado de 15 fichas de atividades em sueco, dinamarquês e norueguês. Porque a concorrência é praticamente inexistente, estes produtos tornam-se rapidamente os primeiros resultados de pesquisa nas suas categorias respetivas. Os produtos escandinavos geram receitas por produto impressionantes graças à combinação de concorrência nula e compradores dispostos a pagar preços premium por conteúdo de qualidade no seu idioma. Embora a dimensão total do mercado seja mais pequena do que a do alemão ou francês, as receitas por produto superam significativamente o que os mesmos produtos geram em inglês onde competem contra milhares de alternativas. Isto demonstra que a dimensão do mercado por si só não determina a rentabilidade — a proporção entre procura e concorrência importa mais.`,
     },
   ],
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos de imprimíveis rentáveis' },
+    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: `Como pesquisar nichos de imprimíveis rentáveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
     { pageType: 'guide', slug: 'rendimentos-passivos-fichas', anchorText: `Criar rendimentos recorrentes com fichas de exercícios` },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para material educativo' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para material educativo` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
@@ -164,7 +164,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Gerador de fichas de correspondência',
+      title: `Gerador de fichas de correspondência`,
       description: `Crie fichas de correspondência com temas visuais que funcionam universalmente em todos os idiomas. O conteúdo baseado em imagens traduz-se naturalmente entre mercados com mínima adaptação. Inicie um teste grátis com marca de água.`,
     },
     {
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
   ],
 };
 

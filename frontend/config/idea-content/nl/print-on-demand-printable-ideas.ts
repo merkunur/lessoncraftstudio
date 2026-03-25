@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-Demand Werkbladen Verkopen — Nichegids',
+    titleTag: `Print-on-Demand Werkbladen Verkopen — Nichegids`,
     metaDescription: `Print-on-demand werkblad ideeën voor Etsy, KDP en Shopify verkopers. Bouw een voorraadrij printable business op met werkboeken en activiteitenpakketten.`,
 
-    primaryKeyword: 'print-on-demand werkblad ideeën',
+    primaryKeyword: `print-on-demand werkblad ideeën`,
     secondaryKeywords: [
       'POD printable business ideeën',
-      'print-on-demand educatieve producten',
-      'werkbladen verkopen print-on-demand',
+      `print-on-demand educatieve producten`,
+      `werkbladen verkopen print-on-demand`,
       'POD werkblad businessmodel',
     ],
     lsiKeywords: [
-      'geautomatiseerd printen en fulfilment',
-      'on-demand educatieve productverkoop',
+      `geautomatiseerd printen en fulfilment`,
+      `on-demand educatieve productverkoop`,
       'voorraadrij werkblad business',
     ],
   },
@@ -38,52 +38,52 @@ De conversie van bestaande digitale werkbladen naar POD-producten is een bijzond
 
   productIdeas: [
     {
-      title: 'POD Rekenoefen Werkboeken voor Verkopers',
+      title: `POD Rekenoefen Werkboeken voor Verkopers`,
       description: `Professioneel gebonden rekenwerkboeken via print-on-demand zijn een van de sterkste POD-productcategorieën voor de educatieve markt. Gebruik de Optellen-generator om zestig tot honderd pagina's aan rekenoefeningen te produceren per niveaucategorie, compileer deze tot een samenhangend werkboek met progressieve moeilijkheid, en publiceer via Amazon KDP of een POD-partner. Bied werkboeken aan per bewerking en niveaucategorie: "Optellen tot 20 Oefenboek Groep 3," "Tafels Oefenboek Groep 5." Fysieke rekenwerkboeken verkopen consistent op Amazon als dagelijks oefenroutine-instrument. Probeer de gratis proefversie met watermerk.`,
       appId: 'addition',
     },
     {
-      title: 'POD Woordzoeker Puzzelboeken Online Verkopen',
+      title: `POD Woordzoeker Puzzelboeken Online Verkopen`,
       description: `Woordzoeker puzzelboeken zijn een van de populairste POD-categorieën omdat het puzzelboekformat natuurlijk aansluit bij een fysiek boek dat kinderen meenemen, invullen en bewaren. Gebruik de Woordzoeker-generator om vijftig tot tachtig thematische woordzoekpuzzels te produceren georganiseerd per moeilijkheidsniveau of per thema, en publiceer als gebonden puzzelboek via KDP. Thematische puzzelboeken als "Dieren Woordzoeker Puzzelboek" of "Seizoenen Woordzoeker Boek" verkopen sterk als cadeaus en als reis- en vakantie-entertainment.`,
       appId: 'wordsearch',
     },
     {
-      title: 'POD Koppelactiviteiten Werkboeken voor Winkels',
+      title: `POD Koppelactiviteiten Werkboeken voor Winkels`,
       description: `Koppelactiviteiten werkboeken bieden een uniek POD-productformat dat zich onderscheidt van standaard reken- of taalwerkboeken. Compileer vijftig tot zeventig koppelwerkbladen georganiseerd per vaardigheidsgebied — woord-beeldkoppeling, som-uitkomstkoppeling, vorm-naamkoppeling — tot een samenhangend werkboek met progressieve moeilijkheid. De Koppelen-generator produceert professionele lay-outs die excellent printen in het POD-format. POD-koppelwerkboeken spreken ouders en therapeuten aan die fysieke activiteitenboeken waarderen voor dagelijkse cognitieve oefening.`,
       appId: 'matching',
     },
     {
-      title: 'POD Telactiviteiten Werkboeken voor Verkopers',
+      title: `POD Telactiviteiten Werkboeken voor Verkopers`,
       description: `Telactiviteiten werkboeken via POD combineren de visuele aantrekkelijkheid van zoek-en-tel scènes met de professionele presentatie van een gebonden werkboek. Gebruik de Zoek en Tel-generator om vijftig tot zeventig thematische telscènes te produceren op progressieve moeilijkheid, en compileer tot een professioneel oefenboek. Thematische telwerkboeken als "Boerderijdieren Telboek Peuters" of "Oceaan Telwerkboek Kleuters" verkopen sterk als cadeaus en als educatieve binnenactiviteiten.`,
       appId: 'find-and-count',
     },
     {
-      title: 'POD Kleuractiviteiten Boeken voor Etsy en KDP',
+      title: `POD Kleuractiviteiten Boeken voor Etsy en KDP`,
       description: `Kleurboeken zijn de meest bewezen POD-categorie met het hoogste volume op Amazon KDP en Etsy. De Kleuren-generator maakt gedetailleerde contouren die excellent vertalen naar het gedrukte format. Compileer dertig tot vijftig kleurplaten per thema tot professioneel gebonden kleurboeken met aantrekkelijke omslagontwerpen. Thematische kleurboeken als "Dinosaurus Kleurboek," "Boerderijdieren Kleurboek" of "Seizoenen Kleurboek" verkopen consistent op Amazon als cadeaus en als reisvermaak.`,
       appId: 'coloring',
     },
     {
       title: `POD Bingospellen Activiteitenboeken voor Verkopers`,
-      description: `Bingospel activiteitenboeken bieden een uniek POD-format dat losse bingokaarten transformeert in een gebonden boek met uitscheurbare of kopieerbare pagina's. Compileer twintig tot dertig thematische bingosets met bijbehorende oproepkaarten en instructiepagina's tot een activiteitenboek dat verkopers en ouders direct kunnen gebruiken. De Plaatjesbingo-generator produceert unieke kaartvariaties. POD-bingo activiteitenboeken spreken scholen en kinderdagverblijven aan die fysieke materialen verkiezen boven digitale bestanden.`,
+      description: `Bingospel activiteitenboeken bieden een uniek POD-format dat losse bingokaarten transformeert in een gebonden boek met uitscheurbare of kopieerbare pagina`s. Compileer twintig tot dertig thematische bingosets met bijbehorende oproepkaarten en instructiepagina`s tot een activiteitenboek dat verkopers en ouders direct kunnen gebruiken. De Plaatjesbingo-generator produceert unieke kaartvariaties. POD-bingo activiteitenboeken spreken scholen en kinderdagverblijven aan die fysieke materialen verkiezen boven digitale bestanden.`,
       appId: 'bingo',
     },
     {
-      title: 'POD Visuele Discriminatie Oefenboeken',
+      title: `POD Visuele Discriminatie Oefenboeken`,
       description: `Schaduwkoppel oefenboeken via POD bieden een gespecialiseerd productformat voor therapeuten, speciale productenverkopers en ouders die gestructureerde visuele discriminatietraining zoeken in een fysiek boekformat. Compileer vijftig tot zeventig schaduwkoppelwerkbladen op progressieve moeilijkheid tot een professioneel oefenboek. De Schaduw Koppelen-generator produceert schone pagina's die excellent printen. Dit gespecialiseerde POD-product bedient een niche koopsegment met minder concurrentie en hogere bereidheid om premium te betalen.`,
       appId: 'shadow-match',
     },
     {
-      title: 'POD Patroondenken Oefenboeken voor Verkopers',
+      title: `POD Patroondenken Oefenboeken voor Verkopers`,
       description: `Patroondenken oefenboeken via POD combineren wiskundige patroonherkenning met het professionele format van een gebonden werkboek. Compileer vijftig tot zeventig patronenwerkbladen op progressieve complexiteit tot een samenhangend oefenboek per niveaucategorie. De Patronenwerkblad-generator maakt reeksen die geleidelijk complexer worden. Dit POD-format spreekt ouders en verkopers aan die systematische wiskundige denkvaardigheidstraining zoeken in een handzaam boekformat.`,
       appId: 'pattern-worksheet',
     },
     {
-      title: 'POD Letterpuzzel Puzzelboeken voor Taalverkopers',
+      title: `POD Letterpuzzel Puzzelboeken voor Taalverkopers`,
       description: `Letterpuzzel puzzelboeken via POD bieden een populair puzzelboekformat dat uitstekend verkoopt als cadeau en als reisvermaak. Compileer vijftig tot tachtig letterpuzzels georganiseerd per thema of moeilijkheidsniveau tot een professioneel gebonden puzzelboek met antwoordsectie achterin. De Letterpuzzel-generator produceert gevarieerde puzzels. Thematische letterpuzzelboeken als "Dieren Woordkraker Boek" of "Seizoenen Letterpuzzel Boek" verkopen sterk als cadeaus.`,
       appId: 'word-scramble',
     },
     {
-      title: 'POD Begeleid Tekenen Activiteitenboeken',
+      title: `POD Begeleid Tekenen Activiteitenboeken`,
       description: `Begeleid tekenen activiteitenboeken via POD bieden een creatief productformat dat uitstekend verkoopt als cadeau en als kunstactiviteitenboek. Compileer vijftig tot zeventig begeleide tekenactiviteiten georganiseerd per thema tot een professioneel gebonden activiteitenboek. De Tekenen en Kleuren-generator maakt stapsgewijze tekenwerkbladen die excellent vertalen naar het gedrukte format. Thematische tekenboeken als "Leer Dieren Tekenen" of "Seizoenen Tekenboek" verkopen consistent als creatieve cadeaus voor kinderen.`,
       appId: 'draw-and-color',
     },
@@ -93,7 +93,7 @@ De conversie van bestaande digitale werkbladen naar POD-producten is een bijzond
     {
       platform: 'Amazon KDP',
       title: `Print-on-Demand Werkboeken Publiceren op Amazon KDP`,
-      description: `Amazon KDP is het dominante platform voor POD educatieve werkboeken dankzij de enorme organische zoekverkeer, het vertrouwde koopproces en de wereldwijde distributie. Publiceer werkboeken als paperback via KDP met binnenwerk in zwart-wit (laagste drukkosten) of premium kleur (hogere drukkosten maar aantrekkelijker product). Gebruik KDP-zoekwoordvelden strategisch met specifieke niveaucategorie- en vaardigheidstermen. Prijs werkboeken van zestig pagina's tussen zes en tien euro voor optimale royalty's. Bestel altijd een proefexemplaar vóór publicatie om printkwaliteit te verifiëren. Amazon.nl en Amazon.de bieden directe toegang tot de Nederlandse en Europese markt.`,
+      description: `Amazon KDP is het dominante platform voor POD educatieve werkboeken dankzij de enorme organische zoekverkeer, het vertrouwde koopproces en de wereldwijde distributie. Publiceer werkboeken als paperback via KDP met binnenwerk in zwart-wit (laagste drukkosten) of premium kleur (hogere drukkosten maar aantrekkelijker product). Gebruik KDP-zoekwoordvelden strategisch met specifieke niveaucategorie- en vaardigheidstermen. Prijs werkboeken van zestig pagina`s tussen zes en tien euro voor optimale royalty`s. Bestel altijd een proefexemplaar vóór publicatie om printkwaliteit te verifiëren. Amazon.nl en Amazon.de bieden directe toegang tot de Nederlandse en Europese markt.`,
     },
     {
       platform: 'Etsy met POD-integratie',
@@ -102,12 +102,12 @@ De conversie van bestaande digitale werkbladen naar POD-producten is een bijzond
     },
     {
       platform: 'Bol.com Partnerprogramma',
-      title: 'POD Werkboeken Verkopen via Bol.com',
+      title: `POD Werkboeken Verkopen via Bol.com`,
       description: `Bol.com is het grootste online verkoopplatform in Nederland en biedt via het Partnerprogramma de mogelijkheid om fysieke boeken aan te bieden aan het Nederlandse koperspubliek. Hoewel directe POD-integratie met Bol.com complexer is dan met Amazon KDP, kun je werkboeken die via KDP zijn gepubliceerd beschikbaar maken op Bol.com via Amazon's uitgebreide distributie of via diensten als Ingram Spark die Bol.com-distributie ondersteunen. De Nederlandse markt voor educatieve werkboeken op Bol.com is substantieel — ouders zoeken actief naar vakantiewerkboekjes, oefenboeken en activiteitenboeken op dit platform. Positioneer je werkboeken naast de bestaande uitgeverijproducten met concurrerende prijzen en specifiekere niche-targeting.`,
     },
     {
       platform: 'Shopify met POD-fulfilment',
-      title: 'Een POD Werkboeken Merk Opbouwen op Shopify',
+      title: `Een POD Werkboeken Merk Opbouwen op Shopify`,
       description: `Shopify met POD-fulfilmentpartners als Printful, Gelato of Lulu laat je een volledig eigen werkboekenmerk opbouwen met professionele webwinkel, eigen branding en volledige controle over je productpresentatie en klantrelatie. De integratie met iDEAL maakt Shopify bijzonder geschikt voor de Nederlandse markt. Bouw een samenhangende productlijn van professioneel gedrukte werkboeken per niveaucategorie en vakgebied. Gebruik e-mailmarketing om bestaande digitale-download-klanten te informeren over je nieuwe fysieke werkboekenlijn — de conversie van digitale-download-kopers naar fysieke-werkboek-kopers is doorgaans hoog omdat ze je contentkwaliteit al kennen en vertrouwen.`,
     },
   ],
@@ -147,22 +147,22 @@ De conversie van bestaande digitale werkbladen naar POD-producten is een bijzond
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
@@ -171,38 +171,38 @@ De conversie van bestaande digitale werkbladen naar POD-producten is een bijzond
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Abonnementbox printable businessideeën',
+      slug: `subscription-box-printable-ideas`,
+      anchorText: `Abonnementbox printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
+      slug: `digital-download-printable-ideas`,
+      anchorText: `Digitale download printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'physical-printable-product-ideas',
-      anchorText: 'Fysieke printable product businessideeën',
+      slug: `physical-printable-product-ideas`,
+      anchorText: `Fysieke printable product businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

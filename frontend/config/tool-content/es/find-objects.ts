@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas objetos ocultos',
+    primaryKeyword: `generador fichas objetos ocultos`,
     secondaryKeywords: [
       `creador fichas yo espío busca objetos uso comercial`,
       `generador fichas encuentra el diferente para Etsy y KDP`,
@@ -19,16 +19,16 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Generador de Fichas de Objetos Ocultos',
+    title: `Generador de Fichas de Objetos Ocultos`,
     tagline: `Generador de fichas de objetos ocultos con dos modos — Yo Espío (escenas dispersas sin superposición con 1–5 objetos ocultos entre 8–12 distractores y leyenda inferior) y Encuentra el Diferente (8–12 imágenes emparejadas con 1–5 elementos sin pareja renderizados un 50% más grandes), algoritmo de tamaño de imagen adaptativo que prueba 50 posiciones por imagen, claves de respuestas autogeneradas con anotaciones de círculos rojos, y fichas puramente visuales que se venden en todo el mundo sin traducción`,
     description: `Crea fichas profesionales de objetos ocultos donde los usuarios buscan en una escena visual para encontrar y rodear objetos específicos. El generador ofrece dos modos de actividad que producen desafíos cognitivos fundamentalmente diferentes. El modo Yo Espío usa un algoritmo de posicionamiento sin superposición para dispersar de 1 a 5 objetos ocultos entre 8 a 12 distractores por toda la página — sin cuadrícula, sin filas ni columnas, solo una escena visual cohesiva. El algoritmo findBestPosition() prueba 50 posiciones aleatorias por imagen y selecciona la ubicación con menor superposición, reduciendo adaptativamente el tamaño de la imagen cuando el espacio es limitado. Una leyenda en la parte inferior de la ficha (margen de 120 px) muestra a los usuarios exactamente qué objetos deben encontrar, haciendo las fichas accesibles para prelectores sin instrucciones escritas. El modo Encuentra el Diferente organiza de 8 a 12 imágenes emparejadas con 1 a 5 elementos sin pareja mezclados — los usuarios identifican las imágenes que no tienen un par correspondiente. Las imágenes en el modo Encuentra el Diferente se renderizan un 50% más grandes que en el modo Yo Espío para una comparación visual clara. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuestas simultáneamente. La clave de respuestas reproduce el diseño exacto de la ficha y dibuja círculos rojos alrededor de los objetos ocultos (Yo Espío) o los elementos sin pareja (Encuentra el Diferente), de 3 a 5 px más grandes que el objeto para mayor visibilidad. Un encabezado autogenerado muestra tu título en fuente Fredoka con autoajuste — 32 px para títulos cortos reduciéndose a 18 px para textos más largos — con contenedores decorativos blancos tipo píldora y sombras. Activa o desactiva los campos de nombre y fecha para identificación del usuario. El Generador de Objetos Ocultos NO depende del idioma: las fichas son puramente visuales sin nombres de imagen localizados en el contenido de la ficha, así que cada ficha se vende universalmente en todos los mercados sin traducción. Explora 104 colecciones temáticas con más de 3100 ilustraciones o sube imágenes personalizadas en formato PNG, JPG o GIF. Aplica temas de fondo y de borde con controles de opacidad independientes. Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto de 0 a 10. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. Edita todo en el lienzo Fabric.js con arrastrar, redimensionar, rotar, capas, bloquear/desbloquear, 6 opciones de alineación más centrar en página, zoom del 25% al 300%, y 20 estados de deshacer/rehacer. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.`,
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Objetos Ocultos en 8 Pasos',
+    title: `Cómo Crear Fichas de Objetos Ocultos en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Generador de Objetos Ocultos',
+        title: `Abre el Generador de Objetos Ocultos`,
         description: `Haz clic en «Prueba Gratis Ahora» para abrir el generador de fichas de objetos ocultos en tu navegador. La herramienta carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación necesaria — empieza a crear fichas de objetos ocultos de inmediato.`,
       },
       {
@@ -44,15 +44,15 @@ const content: ToolContent = {
         description: `En el modo Yo Espío, configura de 1 a 5 objetos ocultos (los objetivos que los usuarios necesitan encontrar) y de 8 a 12 objetos distractores (imágenes circundantes que llenan la escena). Comienza con 1–2 objetos ocultos y 8 distractores para fichas más fáciles para usuarios más jóvenes, y aumenta a 5 objetos ocultos entre 12 distractores para escenas desafiantes para usuarios avanzados. En el modo Encuentra el Diferente, establece de 8 a 12 imágenes emparejadas y de 1 a 5 elementos sin pareja. La cantidad de objetos es tu control principal de dificultad — menos objetivos para productos sencillos, más objetivos para colecciones premium de retos.`,
       },
       {
-        title: 'Selecciona Imágenes de la Biblioteca Temática',
+        title: `Selecciona Imágenes de la Biblioteca Temática`,
         description: `Abre el panel Biblioteca de Imágenes y explora 104 colecciones temáticas con más de 3100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, profesiones, festividades, deportes, estaciones y docenas más. Filtra por tema con el desplegable o busca por palabra clave. Cada tema proporciona un conjunto coordinado de ilustraciones que funcionan tanto como objetos ocultos y distractores en escenas Yo Espío, como elementos emparejados y sin pareja en fichas Encuentra el Diferente. También puedes subir imágenes personalizadas en formato PNG, JPG o GIF para usar junto al contenido de la biblioteca en productos únicos y con tu marca.`,
       },
       {
-        title: 'Genera la Escena de Objetos Ocultos',
+        title: `Genera la Escena de Objetos Ocultos`,
         description: `Haz clic en Generar para crear la ficha. En el modo Yo Espío, el algoritmo sin superposición coloca cada imagen probando 50 posiciones aleatorias y seleccionando la que tiene menor superposición, reduciendo adaptativamente el tamaño de la imagen cuando el espacio es limitado. Una leyenda aparece en la parte inferior de la ficha (margen de 120 px) mostrando a los usuarios qué objetos deben encontrar. En el modo Encuentra el Diferente, las imágenes se organizan en filas con elementos emparejados y sin pareja, renderizados un 50% más grandes para una comparación visual clara. El encabezado autoajustable muestra tu título en fuente Fredoka — 32 px para títulos cortos reduciéndose a 18 px para textos más largos. Activa o desactiva los campos de nombre y fecha para fichas del mercado. Haz clic en Generar otra vez para reconstruir con una distribución aleatoria diferente — mismas imágenes, misma configuración, un diseño de objetos ocultos completamente distinto.`,
       },
       {
-        title: 'Revisa la Clave de Respuestas Autogenerada',
+        title: `Revisa la Clave de Respuestas Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuestas para ver las anotaciones autogeneradas. La clave de respuestas reproduce el diseño exacto de la ficha y dibuja círculos rojos alrededor de los objetos correctos — objetivos ocultos en el modo Yo Espío y elementos sin pareja en el modo Encuentra el Diferente. Los círculos son de 3 a 5 px más grandes que el objeto para mayor visibilidad. Alterna entre las pestañas Ficha y Clave de Respuestas para comparar. La clave se genera simultáneamente con la ficha — sin marcado manual, sin crear archivos separados, sin posibilidad de respuestas descoordinadas. Este sistema de doble lienzo ahorra un tiempo de producción significativo al crear paquetes de objetos ocultos.`,
       },
       {
@@ -116,7 +116,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Línea de Productos de Fichas Visuales Globales',
+      title: `Línea de Productos de Fichas Visuales Globales`,
       description: `El Generador de Objetos Ocultos produce fichas puramente visuales — ningún texto específico de idioma aparece en el contenido de la ficha. La leyenda de Yo Espío usa imágenes, no palabras, y Encuentra el Diferente es enteramente visual. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sola sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas de Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon, y lista en Gumroad para vendedores internacionales. Sin versiones separadas por idioma, sin costes de traducción, sin mantenimiento por cada país — el formato puramente visual es tu mayor ventaja de venta global.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -167,7 +167,7 @@ const content: ToolContent = {
       answer: `En lugar de colocar imágenes en una cuadrícula fija, el modo Yo Espío usa un algoritmo findBestPosition() que prueba 50 posiciones aleatorias para cada imagen y selecciona la ubicación con menor superposición. Cuando el espacio es limitado, el algoritmo reduce adaptativamente el tamaño de la imagen para encajar más objetos sin saturar la escena. Esto crea escenas de objetos ocultos de aspecto natural donde las imágenes se dispersan orgánicamente por la página — mucho más atractivas que las alternativas basadas en cuadrícula donde los objetos se ubican en filas y columnas predecibles. Haz clic en Generar múltiples veces para producir diseños únicos a partir de la misma configuración.`,
     },
     {
-      question: '¿Cómo funciona la leyenda en el modo Yo Espío?',
+      question: `¿Cómo funciona la leyenda en el modo Yo Espío?`,
       answer: `En el modo Yo Espío, una leyenda en la parte inferior de la ficha (margen inferior de 120 px) muestra los objetos objetivo que los usuarios necesitan encontrar. Esta referencia visual indica a los usuarios exactamente qué buscar — haciendo las fichas accesibles para prelectores y tiendas multilingües sin necesidad de instrucciones escritas. La leyenda se genera automáticamente basándose en los objetos ocultos seleccionados. El modo Encuentra el Diferente usa un margen inferior compacto de 50 px ya que los usuarios descubren los elementos sin pareja mediante comparación visual en lugar de una lista de referencia.`,
     },
     {
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: `El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuestas. La ficha muestra la escena de objetos ocultos sin marcas — los usuarios buscan y rodean los objetos por sí mismos. La clave de respuestas reproduce el diseño idéntico y dibuja círculos rojos alrededor de los objetos correctos: objetivos ocultos en el modo Yo Espío y elementos sin pareja en el modo Encuentra el Diferente. Los círculos son de 3 a 5 px más grandes que el objeto para mayor visibilidad. Descarga cada versión independientemente usando cuatro botones dedicados: JPEG de ficha, PDF de ficha, JPEG de clave de respuestas y PDF de clave de respuestas.`,
     },
     {
-      question: '¿Cómo funciona el encabezado autogenerado?',
+      question: `¿Cómo funciona el encabezado autogenerado?`,
       answer: `Cada ficha incluye un título autoajustable renderizado en fuente Fredoka con contenedores decorativos blancos tipo píldora y sombras. El tamaño de fuente del título se ajusta automáticamente según la longitud del texto: 32 px para títulos cortos (menos de 12 caracteres), reduciéndose a 18 px para títulos más largos (más de 22 caracteres). También puedes añadir un campo de descripción debajo del título. El sistema de encabezado asegura fichas de aspecto profesional independientemente de la longitud del título.`,
     },
     {
@@ -199,20 +199,20 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes plenos derechos para vender fichas de objetos ocultos como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Gumroad, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición, el tamaño de imagen adaptativo, las claves de respuestas autogeneradas con anotaciones de círculos rojos, la leyenda de Yo Espío, subida de imágenes personalizadas, y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de objetos ocultos que compiten en categorías de búsqueda y encuentro en cualquier marketplace importante.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que evalúes la herramienta completamente antes de comprar. Dado que la prueba gratuita te da acceso completo a ambos modos de actividad, cantidades configurables de objetos, el algoritmo sin superposición, la clave de respuestas autogenerada con anotaciones de círculos rojos, la leyenda de Yo Espío, los 104 temas, subida de imágenes personalizadas, temas de fondo y de borde, campos de nombre y fecha, exportación en escala de grises, y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencias. Asegúrate de que la herramienta se adapta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'buscar-objetos-fichas', anchorText: `Actividades de Objetos Ocultos — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Generador de Fichas Busca y Cuenta' },
-    { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Generador de Crucigramas con Imágenes' },
-    { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: 'Generador de Fichas Búsqueda del Tesoro' },
+    { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: `Generador de Fichas Busca y Cuenta` },
+    { pageType: 'tool', slug: `generador-crucigramas-imagenes`, anchorText: `Generador de Crucigramas con Imágenes` },
+    { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: `Generador de Fichas Búsqueda del Tesoro` },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas Encuentra el Diferente' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Relacionar' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: `Generador de Fichas Encuentra el Diferente` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Generador de Fichas de Relacionar` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Generador de Páginas para Colorear` },
   ],
 
   visuals: {

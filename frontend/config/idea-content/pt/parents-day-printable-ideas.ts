@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias Imprimíveis Dia dos Pais para Vender — Guia`,
     metaDescription: `Descobre ideias de imprimíveis do Dia da Mãe e do Dia do Pai para vender no Etsy, KDP e Gumroad. Conceitos de produtos de agradecimento familiar e dicas úteis.`,
-    primaryKeyword: 'ideias imprimíveis dia dos pais',
+    primaryKeyword: `ideias imprimíveis dia dos pais`,
     secondaryKeywords: [
       'fichas Dia da Mãe para vender',
-      'negócio imprimíveis Dia do Pai',
+      `negócio imprimíveis Dia do Pai`,
       `fichas atividades agradecimento pais para vendedores`,
-      'vender imprimíveis Dia dos Pais no Etsy',
+      `vender imprimíveis Dia dos Pais no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas celebração familiar',
-      'atividades agradecimento aos pais',
-      'imprimíveis sazonais temática familiar',
+      `fichas educativas celebração familiar`,
+      `atividades agradecimento aos pais`,
+      `imprimíveis sazonais temática familiar`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ Para captar as máximas receitas de ambas as festividades, desenvolve produtos e
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis do Dia dos Pais no Etsy',
+      title: `Vender Imprimíveis do Dia dos Pais no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis de agradecimento aos pais, e a época de dupla festividade de primavera cria dois importantes picos de tráfego para as transferências digitais educativas. Publica os teus anúncios do Dia da Mãe no início de março e os do Dia do Pai no final de abril para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de cada pico de procura. Utiliza as treze etiquetas com variações que combinem subtemas de agradecimento, tipos de competência e grupos etários: «fichas Dia da Mãe pré-escolar», «páginas colorir Dia do Pai jardim de infância» e «atividades agradecimento pais loja» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas. Cria variações de anúncios orientadas para prendas posicionando os pacotes de atividades como recursos de elaboração de prendas para a loja ou prendas imprimíveis de agradecimento que as crianças personalizam. As imagens de anúncios mostrando fichas impressas em ambientes com flores, corações ou fotografias familiares superam as pré-visualizações digitais planas e captam a mentalidade emotiva de dar prendas que impulsiona o tráfego de agradecimento de primavera.`,
     },
     {
@@ -145,18 +145,18 @@ Para captar as máximas receitas de ambas as festividades, desenvolve produtos e
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -170,7 +170,7 @@ Para captar as máximas receitas de ambas as festividades, desenvolve produtos e
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,18 +180,18 @@ Para captar as máximas receitas de ambas as festividades, desenvolve produtos e
     },
     {
       pageType: 'idea',
-      slug: 'dia-namorados-ideias-imprimiveis',
+      slug: `dia-namorados-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis do Dia dos Namorados`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagem educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azálea — imagem educativa temática', caption: 'Azálea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begónia — imagem educativa temática', caption: 'Begónia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campainha — imagem educativa temática', caption: 'Campainha' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagem educativa temática', caption: 'Ranúnculo' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Cravo — imagem educativa temática', caption: 'Cravo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagem educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azálea — imagem educativa temática`, caption: 'Azálea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begónia — imagem educativa temática`, caption: 'Begónia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campainha — imagem educativa temática`, caption: 'Campainha' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagem educativa temática`, caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Cravo — imagem educativa temática`, caption: 'Cravo' },
   ],
 
 

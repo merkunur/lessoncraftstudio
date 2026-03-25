@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles de Verano para Vender — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de verano para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática de playa y sol, estrategias estacionales.`,
-    primaryKeyword: 'ideas imprimibles de verano para vender',
+    primaryKeyword: `ideas imprimibles de verano para vender`,
     secondaryKeywords: [
-      'fichas temática verano para vender',
+      `fichas temática verano para vender`,
       'negocio imprimibles verano',
-      'fichas actividades verano para vendedores',
-      'vender imprimibles de verano en Etsy',
+      `fichas actividades verano para vendedores`,
+      `vender imprimibles de verano en Etsy`,
     ],
     lsiKeywords: [
       'fichas educativas playa y sol',
-      'páginas actividades clima cálido',
-      'imprimibles temática vacaciones para tienda',
+      `páginas actividades clima cálido`,
+      `imprimibles temática vacaciones para tienda`,
     ],
   },
   hero: {
@@ -40,7 +40,7 @@ Para capturar los máximos ingresos de verano, desarrolla productos en múltiple
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Verano para Vender en Línea',
+      title: `Sopas de Letras de Verano para Vender en Línea`,
       description: `Las sopas de letras con vocabulario de playa atraen a padres que buscan actividades educativas de verano y monitores de campamento que planifican entretenimiento para días de lluvia durante la larga temporada de programas de verano. Crea puzzles con vocabulario específico de verano como océano, playa, sol, castillo de arena, protector solar, tabla de surf y limonada junto con términos más amplios de actividades de clima cálido. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles de habilidad. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos de verano para usuarios mayores. Las variaciones como vocabulario de playa, palabras de animales del océano y terminología de deportes de verano expanden tu catálogo para captar diferentes intereses de compradores dentro del nicho estacional de verano.`,
       appId: 'wordsearch',
     },
@@ -89,12 +89,12 @@ Para capturar los máximos ingresos de verano, desarrolla productos en múltiple
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Verano en Etsy',
+      title: `Vender Imprimibles de Verano en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de verano, y la temporada de compras de clima cálido crea el pico de tráfico sostenido más largo de cualquier nicho estacional para las descargas digitales educativas. Publica tus listados de verano a mediados de abril para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en mayo. Utiliza las trece etiquetas con variaciones que combinen subtemas de verano, tipos de habilidad y grupos de edad: «fichas conteo verano preescolar», «sopa de letras playa jardín de infantes» y «páginas colorear océano infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas verano». Crea variaciones de listados orientadas a vacaciones posicionando los paquetes de actividades como kits de entretenimiento para viajes por carretera, paquetes de prevención de pérdida de aprendizaje de verano o recursos para monitores de campamento. Las imágenes de listados mostrando fichas de verano impresas en entornos de clima cálido con accesorios estacionales como toallas de playa, gafas de sol y juguetes de arena superan las vistas previas digitales planas y captan la mentalidad estacional que impulsa el tráfico de verano.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades de Verano en KDP',
+      title: `Publicar Libros de Actividades de Verano en KDP`,
       description: `Amazon KDP destaca para los imprimibles de verano porque los padres y compradores de regalos naturalmente añaden libros de actividades a sus carritos de Amazon junto con los juguetes de playa, juegos de viaje y artículos de entretenimiento vacacional. Compila fichas individuales de verano en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas de playa y océano. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades verano para niños», «fichas playa preescolar» y términos de subtemas como «libro colorear océano» o «actividades vacaciones para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como compañeros de viaje por carretera, adiciones a paquetes de campamento o regalos de cumpleaños de verano. Publica a mediados de abril para asegurarte de que tus libros estén indexados y disponibles antes de que la temporada de compras de mayo se intensifique, y considera crear múltiples libros dirigidos a diferentes grupos de edad para captar consultas de búsqueda variadas durante la extendida ventana de ventas de verano.`,
     },
     {
@@ -143,18 +143,18 @@ Para capturar los máximos ingresos de verano, desarrolla productos en múltiple
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ Para capturar los máximos ingresos de verano, desarrolla productos en múltiple
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -178,18 +178,18 @@ Para capturar los máximos ingresos de verano, desarrolla productos en múltiple
     },
     {
       pageType: 'idea',
-      slug: 'vuelta-al-cole-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Vuelta al Cole',
+      slug: `vuelta-al-cole-ideas-imprimibles`,
+      anchorText: `Ideas de Negocio de Imprimibles de Vuelta al Cole`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/summer/barbecue.webp', alt: 'Barbacoa — imagen educativa temática', caption: 'Barbacoa' },
-    { src: '/image-library/summer/beach.webp', alt: 'Playa — imagen educativa temática', caption: 'Playa' },
-    { src: '/image-library/summer/beach%20ball.webp', alt: 'Pelota de Playa — imagen educativa temática', caption: 'Pelota de Playa' },
-    { src: '/image-library/summer/bucket.webp', alt: 'Cubo — imagen educativa temática', caption: 'Cubo' },
-    { src: '/image-library/summer/butterfly.webp', alt: 'Mariposa — imagen educativa temática', caption: 'Mariposa' },
-    { src: '/image-library/summer/campfire.webp', alt: 'Fogata — imagen educativa temática', caption: 'Fogata' },
+    { src: `/image-library/summer/barbecue.webp`, alt: `Barbacoa — imagen educativa temática`, caption: 'Barbacoa' },
+    { src: `/image-library/summer/beach.webp`, alt: `Playa — imagen educativa temática`, caption: 'Playa' },
+    { src: `/image-library/summer/beach%20ball.webp`, alt: `Pelota de Playa — imagen educativa temática`, caption: 'Pelota de Playa' },
+    { src: `/image-library/summer/bucket.webp`, alt: `Cubo — imagen educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/summer/butterfly.webp`, alt: `Mariposa — imagen educativa temática`, caption: 'Mariposa' },
+    { src: `/image-library/summer/campfire.webp`, alt: `Fogata — imagen educativa temática`, caption: 'Fogata' },
   ],
 
 

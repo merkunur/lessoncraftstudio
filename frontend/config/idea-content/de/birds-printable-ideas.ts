@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'vögel druckvorlagen-ideen zum verkaufen',
+    primaryKeyword: `vögel druckvorlagen-ideen zum verkaufen`,
     secondaryKeywords: [
-      'Vogel-Arbeitsblätter auf Etsy verkaufen',
-      'Vogelarten-Lernmaterialien auf KDP erstellen',
-      'Natur-Druckvorlagen mit Vogelthemen auf Gumroad',
+      `Vogel-Arbeitsblätter auf Etsy verkaufen`,
+      `Vogelarten-Lernmaterialien auf KDP erstellen`,
+      `Natur-Druckvorlagen mit Vogelthemen auf Gumroad`,
       `Vogelbeobachtungs-Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Natur-Bildungsthema Druckvorlagen-Nische',
-      'Ganzjahres-Tierthema Arbeitsblätter Umsatz',
-      'ornithologische Lernmaterialien Etsy-Markt',
+      `Natur-Bildungsthema Druckvorlagen-Nische`,
+      `Ganzjahres-Tierthema Arbeitsblätter Umsatz`,
+      `ornithologische Lernmaterialien Etsy-Markt`,
     ],
     titleTag: `Vögel Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden`,
     metaDescription: `Profitable Vögel-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Arbeitsblatt-Verkäufer und Etsy-Shops.`,
   },
   hero: {
-    title: 'Vögel-Druckvorlagen: Geschäftsideen für Verkäufer',
+    title: `Vögel-Druckvorlagen: Geschäftsideen für Verkäufer`,
     description: `Vögel gehören zu den visuell vielfältigsten und universell ansprechendsten Themen im Markt für lehrreiche Druckvorlagen. Von Eulen und Adlern über Papageien bis hin zu Pinguinen — die schiere Artenvielfalt der Vogelwelt bietet Druckvorlagen-Verkäufern eine enorme kreative Basis für Produktdifferenzierung. Kinder sind von Vögeln fasziniert, weil sie fliegen, singen und in leuchtenden Farben erscheinen, was vogelthematische Arbeitsblätter für junge Lernende besonders ansprechend macht. Für Verkäufer auf Etsy, Amazon KDP und Gumroad profitiert die Vogel-Nische von starken Verknüpfungen mit naturwissenschaftlichen Produktkatalogstandards rund um Lebensräume, Vogelzug und Lebenszyklen. Das saisonale Interesse erreicht Spitzenwerte während der Frühlings-Nistzeit und der Herbst-Zugperioden, während die Überschneidung mit dem Hobby Vogelbeobachtung erwachsene Käufer neben Eltern und Käufern in den Markt bringt. Dieser Leitfaden liefert konkrete Produktideen, Plattformstrategien und Preisansätze, die Ihnen helfen, eine profitable Vögel-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Werkzeugen aufzubauen.`,
   },
   marketOverview: `Die Vögel-Druckvorlagen-Nische nimmt eine einzigartige Position ein, in der lehrreiche Inhalte auf Naturerlebnis treffen und Nachfrage aus mehreren Käufersegmenten erzeugen. Eltern suchen vogelthematische Arbeitsblätter als Ergänzung zu Vogelbeobachtungsaktivitäten im Garten, Naturwanderungen und der natürlichen naturwissenschaftlichen Neugier ihrer Kinder. Käufer benötigen Druckprodukte für Ornithologie-Einheiten, Lebensraumstudien und saisonale Vogelzug-Lektionen, die in Produktkatalogen der Vorschule und Grundschule vorkommen. Homeschooling-Familien bauen häufig mehrwöchige Vogelstudieneinheiten auf, die vielfältige Druckvorlagen über verschiedene Lernbereiche hinweg erfordern.
@@ -46,7 +46,7 @@ Die Vögel-Nische bietet außerdem starke Differenzierungsmöglichkeiten durch r
       appId: 'find-count',
     },
     {
-      title: 'Vogel-Wortsuche-Rätsel zum Online-Verkauf',
+      title: `Vogel-Wortsuche-Rätsel zum Online-Verkauf`,
       description: `Vogel-Vokabel-Wortsuchrätsel sprechen Eltern und Käufer an, die Sprachkenntnisse rund um Ornithologie und Naturthemen aufbauen möchten. Erstellen Sie Rätsel mit gängigen Vogelnamen, Lebensraum-Vokabular, Vogelkörperteilen und Vogelzug-Terminologie. Der Wortsuche-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Schwierigkeitsstufen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Wörtern für ältere Nutzer an. Saisonale Variationen wie Frühlings-Brutvögel, Winter-Gartenvögel und tropische Vögel-Wortsuchrätsel erweitern Ihren Produktkatalog über das gesamte Jahr.`,
       appId: 'wordsearch',
     },
@@ -61,12 +61,12 @@ Die Vögel-Nische bietet außerdem starke Differenzierungsmöglichkeiten durch r
       appId: 'addition',
     },
     {
-      title: 'Vogel-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Vogel-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Ausmalseiten sind ein ideales Einstiegsprodukt für vogelthematische Druckvorlagen-Shops, da sie erste Bewertungen generieren und Impulskäufe eines breiten Publikums anziehen. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Eulen, Papageien, Adlern, Flamingos, Kolibris, Tukanen und anderen visuell auffälligen Arten. Für Etsy verkaufen Sie einzelne Seiten oder kuratierte Sets mit zehn bis fünfzehn Vögeln, gruppiert nach Themen wie tropische Vögel oder Raubvögel. Für KDP stellen Sie dreißig bis fünfzig Ausmalseiten zu Aktivitätsbüchern zusammen. Fügen Sie Bildungselemente wie Artnamen, Fakten über jeden Vogel oder Lebensraum-Beschriftungen neben den Ausmalbildern hinzu, um sich von rein dekorativen Angeboten abzuheben und einen höheren Preis zu rechtfertigen.`,
       appId: 'coloring',
     },
     {
-      title: 'Vogel-Bingo-Karten für Shop und Naturgruppen',
+      title: `Vogel-Bingo-Karten für Shop und Naturgruppen`,
       description: `Vogelthematische Bingo-Karten dienen Käufern, die Ornithologie- oder Natureinheiten durchführen, sowie Eltern, die vogelthematische Partys oder Pfadfinderaktivitäten organisieren. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Vogel-Vokabelliste, sodass keine zwei Karten für das Gruppenspiel identisch sind. Verkaufen Sie Gruppensätze mit fünfundzwanzig bis dreißig Karten inklusive Vorleseblatt und Vogelbild-Referenz. Für den Natur-Produktnische-Markt erstellen Sie Bingo-Sets mit Gartenvogel-Bestimmung, die Familien bei echten Vogelbeobachtungsausflügen nutzen können. Bingo-Produkte erzeugen Wiederholungskäufe, da Käufer und Gruppenleiter regelmäßig frische Themen während des Schuljahres benötigen.`,
       appId: 'bingo',
     },
@@ -95,12 +95,12 @@ Die Vögel-Nische bietet außerdem starke Differenzierungsmöglichkeiten durch r
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vögel-Druckvorlagen auf Etsy verkaufen',
+      title: `Vögel-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Vögel-Druckvorlagen-Listings. Statt breiter Titel wie „Vogel-Arbeitsblätter" zielen Sie auf Long-Tail-Keywords wie „Eulen-Zählarbeitsblätter Vorschule" oder „Vogel-Wortsuche Druckvorlage Kindergarten". Nutzen Sie alle dreizehn Tags mit Variationen, die Vogelart, Fähigkeitstyp und Altersgruppe kombinieren. Listing-Bilder, die gedruckte Vogel-Arbeitsblätter in Shop- oder Naturumgebungen zeigen, übertreffen flache digitale Vorschauen deutlich. Planen Sie neue Listings zeitlich abgestimmt auf saisonale Nachfragespitzen von März bis Mai für Frühlings-Vogeleinheiten und September bis Oktober für Herbstzug-Themen. Bieten Sie sowohl einzelne Vogel-Arbeitsblätter als auch artthematische Pakete an, da Etsy-Käufer oft mit einem einzelnen günstigen Kauf beginnen und für größere Pakete zurückkehren, nachdem sie Ihre Produktqualität kennengelernt haben.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Vogel-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Vogel-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP funktioniert am besten für vogelthematische Druckvorlagen, wenn Sie einzelne Arbeitsblätter zu zusammenhängenden Aktivitätsbüchern zusammenstellen, die Abwechslung und Mehrwert bieten. Ein Vogel-Aktivitätsbuch mit vierzig bis sechzig Seiten, das Zählen, Ausmalen, Zuordnen, Wortsuchrätsel und Zeichenaktivitäten kombiniert, schneidet in der Kategorie Kinder-Aktivitätsbücher gut ab. Nutzen Sie die KDP-Keyword-Felder strategisch: Verwenden Sie „Vogel-Aktivitätsbuch für Kinder", „Vogel-Arbeitsblätter Vorschule" und artspezifische Begriffe wie „Eulen-Malbuch" oder „Pinguin-Aktivitäten". Setzen Sie den Preis zwischen vier und sieben Dollar für optimale Tantiemen. Erwägen Sie, artfokussierte Mini-Bücher neben allgemeinen Vogel-Aktivitätsbüchern zu erstellen, um Käufer anzusprechen, die nach bestimmten Vögeln suchen, für die sich ihre Kinder interessieren.`,
     },
     {
@@ -149,18 +149,18 @@ Die Vögel-Nische bietet außerdem starke Differenzierungsmöglichkeiten durch r
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lernmaterial-Druckvorlagen',
+      anchorText: `Etsy SEO für Lernmaterial-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -169,32 +169,32 @@ Die Vögel-Nische bietet außerdem starke Differenzierungsmöglichkeiten durch r
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'dinosaurier-druckvorlagen-ideen',
-      anchorText: 'Dinosaurier-Druckvorlagen: Geschäftsideen',
+      slug: `dinosaurier-druckvorlagen-ideen`,
+      anchorText: `Dinosaurier-Druckvorlagen: Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — thematisches Lernbild', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Nashornvogel — thematisches Lernbild', caption: 'Nashornvogel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Strauß — thematisches Lernbild', caption: 'Strauß' },
+    { src: `/image-library/birds/eagle.webp`, alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — thematisches Lernbild`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Nashornvogel — thematisches Lernbild`, caption: 'Nashornvogel' },
+    { src: `/image-library/birds/macaw.webp`, alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Strauß — thematisches Lernbild`, caption: 'Strauß' },
     { src: '/image-library/birds/owl.webp', alt: 'Eule — thematisches Lernbild', caption: 'Eule' },
   ],
 

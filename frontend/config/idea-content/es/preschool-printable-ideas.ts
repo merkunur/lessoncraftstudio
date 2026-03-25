@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles Preescolares — Guía de Nicho',
+    titleTag: `Ideas Imprimibles Preescolares — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles preescolares para vender en Etsy, Amazon KDP y Gumroad. Productos pre-kínder y estrategias de nicho para vendedores y emprendedores.`,
     primaryKeyword: 'ideas imprimibles preescolar',
     secondaryKeywords: [
-      'fichas preescolares para vender',
-      'negocio imprimibles pre-kínder',
-      'fichas actividades preescolares para vendedores',
-      'vender imprimibles preescolares en Gumroad',
+      `fichas preescolares para vender`,
+      `negocio imprimibles pre-kínder`,
+      `fichas actividades preescolares para vendedores`,
+      `vender imprimibles preescolares en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas primera infancia',
-      'páginas actividades niños pequeños aprendizaje',
-      'imprimibles recursos tienda edades 3-5',
+      `fichas educativas primera infancia`,
+      `páginas actividades niños pequeños aprendizaje`,
+      `imprimibles recursos tienda edades 3-5`,
     ],
   },
   hero: {
@@ -38,7 +38,7 @@ Los precios en el nicho preescolar siguen las convenciones estándar de imprimib
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Preescolares para Vender en Línea',
+      title: `Sopas de Letras Preescolares para Vender en Línea`,
       description: `Las sopas de letras simples diseñadas específicamente para lectores principiantes atraen a padres y vendedores que buscan actividades atractivas de construcción de vocabulario que introduzcan a los preescolares al reconocimiento de letras y la formación de palabras en un formato de juego que mantiene a los jóvenes aprendices motivados y enfocados durante las sesiones de práctica de lectoescritura. Crea puzzles con palabras de uso frecuente de tres a cuatro letras, nombres de colores como rojo, azul y verde, nombres de animales como gato, perro y pez, y palabras de formas como estrella y pelota en cuadrículas pequeñas con letras grandes y claras apropiadas para ojos en desarrollo y habilidades de lectura emergentes. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula para crear versiones apropiadas por edad con seis a ocho palabras simples en cuadrículas compactas para aprendices preescolares. Estos productos se venden consistentemente porque los padres valoran las actividades de vocabulario sin pantalla y los vendedores de preescolar las usan para centros de lectoescritura y rutinas de trabajo matutino.`,
       appId: 'wordsearch',
     },
@@ -87,7 +87,7 @@ Los precios en el nicho preescolar siguen las convenciones estándar de imprimib
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles Preescolares en Etsy',
+      title: `Vender Imprimibles Preescolares en Etsy`,
       description: `Etsy es el mercado dominante para ventas de imprimibles preescolares porque la enorme base de compradores de padres busca activamente términos como «fichas preescolares», «actividades pre-kínder», «imprimibles aprendizaje niños pequeños» y «fichas preparación jardín de infantes» durante cada mes del año sin caída estacional de la demanda. Utiliza las trece etiquetas con variaciones que combinen áreas de habilidad, descriptores de edad y tipos de actividad: «fichas conteo preescolar edades 3-5», «actividades trazado letras pre-kínder» y «imprimible emparejamiento formas niños pequeños» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias genéricas. Agrupa productos por dominio de habilidad para aumentar el valor promedio del pedido: un paquete de habilidades de conteo, un paquete de letras y alfabeto, y un paquete de formas y colores sirven cada uno necesidades distintas de compradores mientras fomentan múltiples compras de la misma tienda. La temporada de regreso a clases en agosto y septiembre crea el mayor pico de demanda ya que los padres preparan a los niños para la inscripción preescolar, pero nuevos padres entran continuamente en la etapa de compra de pre-kínder durante cada mes, manteniendo una fuerte demanda base durante todo el año que hace del preescolar uno de los nichos de imprimibles más confiables en toda la plataforma de Etsy.`,
     },
     {
@@ -141,18 +141,18 @@ Los precios en el nicho preescolar siguen las convenciones estándar de imprimib
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -161,12 +161,12 @@ Los precios en el nicho preescolar siguen las convenciones estándar de imprimib
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -177,17 +177,17 @@ Los precios en el nicho preescolar siguen las convenciones estándar de imprimib
     {
       pageType: 'idea',
       slug: 'submarino-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles Submarinos',
+      anchorText: `Ideas de Negocio de Imprimibles Submarinos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Avión — imagen educativa temática', caption: 'Avión' },
-    { src: '/image-library/toys/baby.webp', alt: 'Bebé — imagen educativa temática', caption: 'Bebé' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Bebé Niña — imagen educativa temática', caption: 'Bebé Niña' },
-    { src: '/image-library/toys/ball.webp', alt: 'Pelota — imagen educativa temática', caption: 'Pelota' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Globo — imagen educativa temática', caption: 'Globo' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Avión — imagen educativa temática`, caption: 'Avión' },
+    { src: '/image-library/toys/baby.webp', alt: `Bebé — imagen educativa temática`, caption: 'Bebé' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Bebé Niña — imagen educativa temática`, caption: 'Bebé Niña' },
+    { src: '/image-library/toys/ball.webp', alt: `Pelota — imagen educativa temática`, caption: 'Pelota' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Globo — imagen educativa temática`, caption: 'Globo' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
   ],
 
 

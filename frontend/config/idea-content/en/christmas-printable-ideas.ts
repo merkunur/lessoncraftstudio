@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Christmas Printable Ideas to Sell — Niche Guide',
+    titleTag: `Christmas Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover Christmas printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Holiday product concepts, seasonal strategies, and platform tips for printable.`,
 
     primaryKeyword: 'christmas printable ideas',
     secondaryKeywords: [
       'Christmas worksheets to sell',
-      'holiday printable business ideas',
-      'Christmas activity sheets for sellers',
-      'sell Christmas printables on Etsy',
+      `holiday printable business ideas`,
+      `Christmas activity sheets for sellers`,
+      `sell Christmas printables on Etsy`,
     ],
     lsiKeywords: [
-      'seasonal holiday worksheet bundles',
-      'winter themed educational activities',
-      'festive product line printable resources',
+      `seasonal holiday worksheet bundles`,
+      `winter themed educational activities`,
+      `festive product line printable resources`,
     ],
   },
   hero: {
-    title: 'Christmas Printable Business Ideas for Sellers',
+    title: `Christmas Printable Business Ideas for Sellers`,
     description: `Christmas represents the single most powerful seasonal opportunity in the entire printable marketplace, generating a demand surge from October through December that dwarfs every other holiday combined. The theme encompasses an extraordinary range of sub-topics including Santa, reindeer, snowmen, gingerbread, candy canes, ornaments, elves, stockings, wreaths, and nativity scenes, giving sellers virtually unlimited product variety within one cohesive niche. buyers plan holiday-themed product packs and December product catalog activities, parents seek screen-free entertainment during winter break, and gift-givers discover that activity books and worksheet packs make ideal stocking stuffers. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Christmas niche rewards early preparation with year-over-year compounding returns as listings gain search authority and reviews. This guide provides specific product ideas, platform strategies, and timing approaches to help you build a profitable Christmas printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The Christmas printable niche is the undisputed heavyweight of seasonal educational product sales, driven by converging demand from buyers, parents, homeschoolers, and gift buyers during the final quarter of every year. buyers begin planning December educational activities as early as September, searching for holiday-themed worksheets that keep users engaged during the excitement-filled weeks before winter break. Parents look for Christmas-themed educational activities to occupy children during holiday travel, family gatherings, and the long winter break period when structured entertainment becomes essential. Gift buyers discover that printable activity books and worksheet packs make thoughtful, affordable stocking stuffers and party favors.
@@ -47,7 +47,7 @@ Post-Christmas opportunities extend the holiday selling season for strategic sel
       appId: 'find-count',
     },
     {
-      title: 'Christmas Word Search Puzzles to Sell Online',
+      title: `Christmas Word Search Puzzles to Sell Online`,
       description: `Holiday vocabulary word searches attract buyers planning December educational activities and parents seeking educational entertainment during winter break. Create puzzles featuring Christmas-specific vocabulary like reindeer, ornament, stocking, gingerbread, snowflake, mistletoe, and chimney alongside broader winter celebration terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more holiday terms for older users. Seasonal variations like Santa workshop words, Christmas around the world vocabulary, and winter nature terms expand your catalog and capture different buyer interests within the holiday niche.`,
       appId: 'wordsearch',
     },
@@ -62,7 +62,7 @@ Post-Christmas opportunities extend the holiday selling season for strategic sel
       appId: 'addition',
     },
     {
-      title: 'Christmas Coloring Pages for Etsy and KDP Sellers',
+      title: `Christmas Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for Christmas printable shops because holiday coloring appeals to virtually every family with young children and generates initial reviews that boost your entire shop visibility during peak season. The Coloring Page generator creates detailed outlines of Santa, reindeer, snowmen, gingerbread houses, Christmas trees, ornaments, elves, stockings, wreaths, and nativity scenes. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as Santa workshop scenes or winter wonderland landscapes. For KDP, compile thirty to fifty coloring pages into Christmas activity books positioned as stocking stuffers. Add educational elements like holiday vocabulary labels, counting prompts, or letter practice alongside the coloring images to differentiate from purely decorative options.`,
       appId: 'coloring',
     },
@@ -96,12 +96,12 @@ Post-Christmas opportunities extend the holiday selling season for strategic sel
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Christmas Printables on Etsy',
+      title: `Selling Christmas Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for Christmas printable listings, and the holiday shopping season creates the largest traffic surge of the year for educational digital downloads. Publish your Christmas listings by early September to allow Etsy search algorithms time to index and rank your products before the October demand ramp begins. Use all thirteen tags with variations combining Christmas sub-themes, skill types, and age groups: "Christmas counting worksheets preschool," "holiday word search kindergarten," and "Santa coloring pages toddler" target specific buyer searches far more effectively than broad tags like "Christmas worksheets." Create gift-oriented listing variations positioning activity bundles as stocking stuffers or group activity pack packs. Listing images showing printed Christmas worksheets in festive settings with holiday props outperform flat digital previews and capture the gift-buying mindset that drives much of the holiday traffic.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Christmas Activity Books on KDP',
+      title: `Publishing Christmas Activity Books on KDP`,
       description: `Amazon KDP excels for Christmas printables because the gift-buying context makes physical activity books natural stocking stuffers that families purchase alongside other holiday gifts in their Amazon carts. Compile individual Christmas worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around holiday themes. Use KDP keyword fields strategically: include "Christmas activity book for kids," "holiday worksheets preschool," and sub-theme terms like "Santa coloring book" or "gingerbread activities for children." Price between four and eight dollars for optimal royalty margins, knowing that holiday buyers are less price-sensitive than at other times of year. Publish by late September to ensure your books are indexed and available before the November gift-buying surge, and consider creating multiple books targeting different age groups and sub-themes to capture varied search queries.`,
     },
     {
@@ -151,32 +151,32 @@ Post-Christmas opportunities extend the holiday selling season for strategic sel
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -185,18 +185,18 @@ Post-Christmas opportunities extend the holiday selling season for strategic sel
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
-      anchorText: 'Forest Animals Printable Business Ideas',
+      slug: `forest-animals-printable-ideas`,
+      anchorText: `Forest Animals Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Angel — themed educational image', caption: 'Angel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Bell — themed educational image', caption: 'Bell' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Candle — themed educational image', caption: 'Candle' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Candy Cane — themed educational image', caption: 'Candy Cane' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Chimney — themed educational image', caption: 'Chimney' },
-    { src: '/image-library/christmas/church.webp', alt: 'Church — themed educational image', caption: 'Church' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Angel — themed educational image`, caption: 'Angel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Bell — themed educational image`, caption: 'Bell' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Candle — themed educational image`, caption: 'Candle' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Candy Cane — themed educational image`, caption: 'Candy Cane' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Chimney — themed educational image`, caption: 'Chimney' },
+    { src: `/image-library/christmas/church.webp`, alt: `Church — themed educational image`, caption: 'Church' },
   ],
 
 

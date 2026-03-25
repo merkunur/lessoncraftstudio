@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Geschäft skalieren',
+    primaryKeyword: `Druckvorlagen-Geschäft skalieren`,
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft skalieren Anleitung',
-      'Arbeitsblatt-Geschäft Wachstumsstrategie',
-      'Druckvorlagen-Geschäft Skalierung Leitfaden',
-      'Lernmaterial-Druckvorlagen Geschäftswachstum',
+      `Druckvorlagen-Geschäft skalieren Anleitung`,
+      `Arbeitsblatt-Geschäft Wachstumsstrategie`,
+      `Druckvorlagen-Geschäft Skalierung Leitfaden`,
+      `Lernmaterial-Druckvorlagen Geschäftswachstum`,
     ],
     lsiKeywords: [
       `Geschäftswachstum Umsatz Skalierung Automatisierung Outsourcing Produktkatalog Expansion`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `Katalogwachstum Umsatz pro Produkt Plattformdiversifizierung Skalierungsengpass`,
       `Geschäftssysteme wiederholbare Prozesse Produktionspipeline Inhaltsmultiplikation`,
     ],
-    titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumstipps',
+    titleTag: `Druckvorlagen-Geschäft skalieren — Wachstumstipps`,
     metaDescription: `Druckvorlagen-Geschäft skalieren mit Stapelproduktion, Multiplattform-Expansion und Katalogwachstum. Mehrsprachige Märkte und Automatisierung für mehr.`,
   },
 
   hero: {
-    title: 'Wie Sie Ihr Druckvorlagen-Geschäft skalieren',
+    title: `Wie Sie Ihr Druckvorlagen-Geschäft skalieren`,
     tagline: `Ein vollständiger Leitfaden zur Skalierung Ihres Druckvorlagen-Geschäfts über Nebenprojekt-Umsätze hinaus — Skalierungsbereitschaftsbewertung und Engpassidentifikation, Stapelproduktionssysteme für konsistenten Output, Multiplattform-Expansionsstrategie, Katalogwachstum durch Produktlinienerweiterungen, mehrsprachige Marktexpansion, Automatisierung für repetitive Aufgaben und Wachstumskennzahlen für strategische Entscheidungen`,
     description: `Der Unterschied zwischen einem Druckvorlagen-Nebenprojekt und einem skalierbaren Druckvorlagen-Geschäft liegt nicht im Talent, Glück oder härterem Arbeiten. Es sind Systeme. Jeder Verkäufer, der von einer Handvoll Produkte mit sporadischen Verkäufen zu einem Katalog gewachsen ist, der konsistente monatliche Umsätze generiert, hat dies erreicht, indem er manuelle Arbeit durch wiederholbare Prozesse ersetzt, strategisch über Plattformen und Märkte expandiert und eine Produktionspipeline aufgebaut hat, die den Output vervielfacht, ohne die Arbeitsstunden zu vervielfachen. Dieser Leitfaden führt Sie durch das vollständige Skalierungs-Framework — von der Erkennung, wann Ihr Geschäft bereit ist zu skalieren, bis zum Aufbau der Systeme, die Wachstum nachhaltig machen.`,
   },
@@ -51,11 +51,11 @@ const content: GuideContent = {
       content: `Produktlinienerweiterungen sind der effizienteste Weg, Ihren Katalog zu vergrößern, weil jedes neue Produkt die Recherche, Designentscheidungen und Marktkenntnisse Ihrer bestehenden Produkte nutzt. Statt bei jeder neuen Idee von vorne anzufangen, erweitern Sie systematisch das, was bereits funktioniert, in neue Varianten, die die gleiche Käuferbasis bedienen.\n\nErweitern Sie zuerst nach Thema, weil dies die wenigste neue Recherche erfordert. Wenn sich Ihre Tiere-Additions-Arbeitsblätter gut verkaufen, erstellen Sie Tiere-Subtraktion, Tiere-Multiplikation, Tiere-Wortsuche und Tiere-Malvorlagen. Das Thema hat sich als beliebt erwiesen, Ihre Bild-Assets existieren bereits, und Ihr Käuferpublikum für tierthematische Lerninhalte ist etabliert. Ein bewährtes Thema kann 5 bis 10 Produktvarianten über verschiedene Arbeitsblatttypen hinweg unterstützen, wobei jedes einen Bruchteil der Zeit benötigt im Vergleich zur Recherche und Validierung eines neuen Themas von Grund auf.\n\nErweitern Sie nach Altersgruppe, um benachbarte Käufersegmente zu erfassen. Wenn Ihre Mathe-Arbeitsblätter für die erste Klasse gut funktionieren, erstellen Sie Versionen für Vorschule und zweite Klasse. Die fachliche Expertise überträgt sich, und Eltern und Käufer, die eine Altersgruppe kaufen, brauchen oft Material für angrenzende Stufen. Altersgruppenerweiterungen schaffen auch natürliche Paket-Möglichkeiten: Ein „Vorschule bis 2. Klasse Mathe-Paket", das drei Altersgruppen in einem Paket zu einem Premium-Preis vereint.\n\nErweitern Sie nach Schwierigkeitsgrad innerhalb bestehender Produkte. Bieten Sie leichte, mittlere und schwere Versionen Ihrer beliebtesten Arbeitsblätter an. Diese Erweiterung dient mehreren Zwecken: Sie erstellt mehr Produkte aus dem gleichen Inhaltsrahmen, sie gibt Käufern einen Grund, mehrere Versionen zu kaufen, und sie ermöglicht gestufte Pakete (ein „Komplett-Schwierigkeitsset"-Paket). Die Arbeitsblatt-Generatoren unterstützen die Schwierigkeitskonfiguration, was es unkompliziert macht, drei Schwierigkeitsvarianten aus einem einzigen Produktkonzept in minimalem zusätzlichen Zeitaufwand zu produzieren.\n\nErweitern Sie nach Format, um verschiedene Anwendungsfälle zu bedienen. Ihre Arbeitsblatt-Inhalte können in Kartensets, Aktivitätshefte, Bewertungspakete oder Bildungsmarkt-Dekorationsmaterial umformatiert werden. Jedes Format bedient ein leicht unterschiedliches Käuferbedürfnis und nutzt dabei die gleiche fachliche Expertise und Inhaltsrecherche. Ein Set aus Additionsarbeitsblättern, Additions-Kartensets und einem Additions-Bewertungspaket, erstellt aus dem gleichen Inhaltsrahmen, liefert drei Produkte für eine Recherche-Investition.\n\nPlanen Sie Ihre Erweiterungen systematisch mithilfe einer Produktlinien-Matrix. Erstellen Sie ein Raster mit Produkttypen (Arbeitsblatt, Wortsuche, Zuordnung, Malvorlage) als Spalten und Themen oder Fächern als Zeilen. Füllen Sie die Zellen, in denen Sie bestehende Produkte haben, und identifizieren Sie die leeren Zellen als Expansionsmöglichkeiten. Priorisieren Sie die Zellen neben Ihren stärksten Verkäufern — dies sind die Erweiterungen mit der höchsten Erfolgswahrscheinlichkeit, weil sie Publikum und Marktvalidierung mit Ihren bewährten Produkten teilen. Diese Matrixansicht verwandelt Katalogwachstum von zufälliger Produkterstellung in eine bewusste Expansionsstrategie, bei der jedes neue Produkt Ihren Gesamtkatalog stärkt.`,
     },
     {
-      heading: 'Implementieren Sie mehrsprachige Expansion',
+      heading: `Implementieren Sie mehrsprachige Expansion`,
       content: `Mehrsprachige Expansion ist eine der am wenigsten genutzten Skalierungsstrategien im Druckvorlagen-Geschäft. Die meisten englischsprachigen Verkäufer denken nie darüber nach, ihre Produkte zu übersetzen, was bedeutet, dass die nicht-englischsprachigen Märkte dramatisch weniger wettbewerbsintensiv sind. Das gleiche Arbeitsblatt, das mit Hunderten von englischsprachigen Alternativen konkurriert, trifft möglicherweise nur auf eine Handvoll Wettbewerber in Deutsch, Französisch, Spanisch oder Portugiesisch.\n\nDie Arbeitsblatt-Generatoren unterstützen 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Das bedeutet, Sie können professionell formatierte Arbeitsblätter mit korrekter sprachspezifischer Formatierung, Zeichenunterstützung und Ausrichtung an Bildungsstandards für jeden dieser Märkte erstellen — ohne Übersetzungsexpertise. Der Generator übernimmt die sprachspezifischen Elemente automatisch.\n\nPriorisieren Sie Sprachen basierend auf Marktgröße und Wettbewerbsniveau. Deutsch und Französisch haben große Käuferpopulationen in ganz Europa mit starker Nachfrage nach Lernmaterial-Druckvorlagen. Spanisch bedient sowohl europäische als auch lateinamerikanische Käufer und repräsentiert einen enormen kombinierten Markt. Portugiesisch erreicht Brasilien, eine der größten Volkswirtschaften der Welt, sowie Portugal. Beginnen Sie mit den ein oder zwei Sprachen, die die größten adressierbaren Märkte für Ihren Produkttyp darstellen, und expandieren Sie dann zu weiteren Sprachen, sobald Sie Ihren mehrsprachigen Workflow etabliert haben.\n\nGestalten Sie Ihren mehrsprachigen Workflow als Stapelprozess. Wenn Sie ein neues englisches Arbeitsblatt-Paket produzieren, erstellen Sie sofort das gleiche Produkt in Ihren Prioritätssprachen während der gleichen Produktionssitzung. Die Inhaltsentscheidungen sind bereits getroffen — Sie wenden sie über Sprachen hinweg an, statt neue kreative Entscheidungen zu treffen. Ein Stapel, der ein englisches Produkt in 20 Minuten produziert, kann das gleiche Produkt in drei weiteren Sprachen in weiteren 30 bis 40 Minuten produzieren und so Ihren Katalog-Output aus einem einzigen Inhaltskonzept vervierfachen.\n\nListen Sie mehrsprachige Produkte auf Plattform-Marktplätzen, die diese Sprachgemeinschaften bedienen. Etsy hat starke Märkte in Deutschland, Frankreich und anderen europäischen Ländern. Amazon hat separate Marktplätze für Deutschland, Frankreich, Spanien, Italien und andere Länder. Recherchieren Sie, wo Käufer in jeder Sprache hauptsächlich nach Lernmaterial-Druckvorlagen suchen, und listen Sie Ihre Produkte auf diesen spezifischen Marktplätzen oder in diesen Sprachkategorien.\n\nMehrsprachige Expansion vervielfacht den Wert jedes Produktkonzepts in Ihrem Katalog. Ein einzelnes Arbeitsblatt-Thema, erstellt in 4 Sprachen über 3 Produkttypen, produziert 12 Produkte aus einem Kernkonzept. Selbst wenn jedes Produkt nur bescheidenen Umsatz generiert, summiert sich das Aggregat über Sprachen und Typen erheblich. Verkäufer, die mehrsprachige Produktion annehmen, stellen oft fest, dass ihre nicht-englischsprachigen Produkte zusammen mehr Umsatz generieren als ihre englischen Produkte allein, einfach weil der Wettbewerb in nicht-englischsprachigen Märkten so viel geringer ist.`,
     },
     {
-      heading: 'Automatisieren Sie repetitive Geschäftsaufgaben',
+      heading: `Automatisieren Sie repetitive Geschäftsaufgaben`,
       content: `Automatisierung eliminiert die repetitiven Aufgaben, die Stunden verbrauchen, ohne zur Produkterstellung, Marktexpansion oder strategischem Wachstum beizutragen. Jede Stunde, die Sie für Aufgaben aufwenden, die automatisiert werden könnten, ist eine Stunde, die nicht für Aktivitäten genutzt wird, die Ihr Geschäft skalieren.\n\nErstellen Sie Listing-Vorlagen, die den manuellen Eingabeaufwand für jede Plattform minimieren. Eine gut gestaltete Listing-Vorlage für Etsy enthält beispielsweise Ihre Standard-Beschreibungsstruktur, Ihr Standard-Tag-Set organisiert nach Kategorie, Ihre Preisrichtlinien und Ihre Versand- und Richtlinienabschnitte — alles vorgeschrieben. Wenn Sie ein neues Produkt listen, passen Sie nur die produktspezifischen Abschnitte an (Titel, spezifische Features, einzigartige Tags), statt alles von Grund auf zu schreiben. Dies reduziert die Listing-Zeit von 30 bis 45 Minuten auf 10 bis 15 Minuten pro Produkt. Über einen 20-Produkt-Stapel spart das 6 bis 10 Stunden.\n\nBauen Sie eine Schlüsselwort- und Tag-Bibliothek auf, organisiert nach Produkttyp, Thema, Altersgruppe und Plattform. Statt Tags für jedes neue Listing zu recherchieren, greifen Sie auf Ihre vorbereitete Bibliothek zurück. Ein „Erste Klasse Mathe"-Tag-Set könnte beispielsweise 20 bewährte Tags enthalten, die Sie für jedes neue Mathe-Produkt der ersten Klasse mischen und kombinieren. Ein „Waldtiere"-Themen-Tag-Set fügt themenspezifische Tags zu den Fach-Tags hinzu. Die Kombination vorbereiteter Tag-Sets liefert Ihnen optimierte Tags in Sekunden statt sie für jedes Produkt einzeln zu recherchieren.\n\nRichten Sie Social-Media-Planung ein, wenn soziale Plattformen messbaren Traffic zu Ihren Listings treiben. Erstellen Sie stapelweise Social-Media-Beiträge in einer dedizierten Sitzung — eine Stunde pro Monat für das Erstellen und Planen von Beiträgen ist weit effizienter als tägliches spontanes Posten. Konzentrieren Sie sich auf Plattformen, die nachweisbar Traffic und Verkäufe für Ihre Produkte generieren, statt überall eine Präsenz aufrechtzuerhalten.\n\nErstellen Sie Kundenantwort-Vorlagen für häufige Fragen und Interaktionen. Käufer stellen häufig die gleichen Fragen: „Welches Papierformat ist das?" „Sind Lösungsschlüssel enthalten?" „Kann ich das in meinem Produkterstellung verwenden?" Vorgeschriebene Antworten, die Sie mit produktspezifischen Details anpassen können, sparen erhebliche Zeit, wenn Sie regelmäßig Kundennachrichten bearbeiten. Vorlagen gewährleisten konsistente, professionelle Kommunikation bei reduziertem Zeitaufwand pro Interaktion.\n\nAutomatisieren Sie Ihre Analyse-Überprüfung mit einem standardisierten monatlichen Check-in. Erstellen Sie eine Checkliste oder Tabellenvorlage, die die Schlüsselkennzahlen für jede Plattform erfasst: Umsatz, verkaufte Einheiten, Konversionsrate, leistungsstärkste Produkte und unterdurchschnittliche Produkte. Die Überprüfung der gleichen Kennzahlen im gleichen Format jeden Monat ermöglicht es Ihnen, Trends schnell zu erkennen, Produkte zu identifizieren, die Aufmerksamkeit brauchen, und datengetriebene Entscheidungen zu treffen, wo Sie Ihren nächsten Produktionsstapel investieren. Eine strukturierte monatliche Überprüfung dauert 30 bis 60 Minuten und ersetzt Stunden ad-hoc-mäßiger Analytik-Prüfung im Laufe des Monats.\n\nNutzen Sie Dateiorganisationssysteme, die Stapel-Workflows unterstützen. Erstellen Sie eine Ordnerstruktur, die Ihre Produktionspipeline widerspiegelt: einen „Entwürfe"-Ordner für laufende Produkte, einen „Bereit zum Listen"-Ordner für fertige Produkte, die auf Listung warten, einen „Gelistet"-Ordner, organisiert nach Plattform. Konsistente Dateinamenkonventionen (Produkttyp_Thema_Altersgruppe_Sprache) ermöglichen es, Hunderte von Produkten schnell zu finden, zu sortieren und zu verwalten, ohne unorganisierte Ordner durchsuchen zu müssen.`,
     },
     {
@@ -138,8 +138,8 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      title: 'Wie Sie eine Druckvorlagen-Produktlinie erstellen',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      title: `Wie Sie eine Druckvorlagen-Produktlinie erstellen`,
       description: `Vertiefen Sie sich in die Produktlinienstrategie — bauen Sie zusammenhängende Kollektionen auf, die Wiederholungskäufe fördern und die Katalogtiefe unterstützen, die für effektive Skalierung nötig ist.`,
     },
     {
@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: `Paket-Erstellungsstrategien, die den Umsatzwert Ihres Katalogs vervielfachen — essenziell für die Maximierung der Rendite Ihrer Skalierungsinvestition.`,
     },
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung für den Start eines Druckvorlagen-Geschäfts`,
       description: `Der Grundpfeiler-Business-Leitfaden zu Inhaltserstellung, kommerzieller Lizenzierung, Multiplattform-Strategie und dem Aufbau eines nachhaltigen Druckvorlagen-Geschäfts von Grund auf.`,
     },
@@ -156,17 +156,17 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Wie Sie Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Wie Sie eine Druckvorlagen-Produktlinie erstellen' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lernmaterial-Druckvorlagen' },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Wie Sie eine Druckvorlagen-Produktlinie erstellen` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lernmaterial-Druckvorlagen` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischen-Auswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'profitable-nischen-recherchieren', anchorText: 'Profitable Druckvorlagen-Nischen recherchieren' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: 'Additions-Arbeitsblätter erstellen' },
-    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'Wortsuche-Rätsel mit Bildern erstellen' },
-    { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: 'Malvorlagen aus thematischen Bildern erstellen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung für den Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'guide', slug: `profitable-nischen-recherchieren`, anchorText: `Profitable Druckvorlagen-Nischen recherchieren` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `Additions-Arbeitsblätter erstellen` },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: `Wortsuche-Rätsel mit Bildern erstellen` },
+    { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: `Malvorlagen aus thematischen Bildern erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für den Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
@@ -182,33 +182,33 @@ const content: GuideContent = {
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Mehrsprachige Fähigkeit demonstriert die mehrsprachige Expansionsstrategie — erstellen Sie Wortsuche-Rätsel in 11 Sprachen, um unterversorgte internationale Märkte zu erreichen.`,
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Themenvielfalt zeigt, wie thematische Inhalte systematische Katalogerweiterung ermöglichen — ein Zuordnungskonzept, angewandt über Dutzende von Themen, schafft eine umfassende Produktlinie.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Professionelles Additions-Arbeitsblatt, das die Produktqualität demonstriert, die skalierbares Druckvorlagen-Geschäftswachstum unterstützt` },
+    heroImage: { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Professionelles Additions-Arbeitsblatt, das die Produktqualität demonstriert, die skalierbares Druckvorlagen-Geschäftswachstum unterstützt` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt mit thematischen Bildern, das Produktvielfalt für Katalogskalierung zeigt`, caption: 'Thematische Arbeitsblattvarianten demonstrieren, wie ein Produktkonzept in mehrere Listings über Themen, Altersgruppen und Sprachen skaliert' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel, das mehrsprachiges Skalierungspotenzial zeigt`, caption: 'Wortsuche-Rätsel in 11 Sprachen erstellt vervielfachen Ihren Katalog, ohne den kreativen Aufwand zu vervielfachen — das gleiche Konzept erreicht internationale Märkte' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt, das systematische Katalogerweiterung durch Themenvariationen demonstriert`, caption: 'Zuordnungs-Arbeitsblätter über Themen hinweg zeigen systematische Produktlinienerweiterung — jedes neue Thema fügt Produkte mit bewährten Formaten und bestehenden Bild-Assets hinzu' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt mit thematischen Bildern, das Produktvielfalt für Katalogskalierung zeigt`, caption: `Thematische Arbeitsblattvarianten demonstrieren, wie ein Produktkonzept in mehrere Listings über Themen, Altersgruppen und Sprachen skaliert` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel, das mehrsprachiges Skalierungspotenzial zeigt`, caption: `Wortsuche-Rätsel in 11 Sprachen erstellt vervielfachen Ihren Katalog, ohne den kreativen Aufwand zu vervielfachen — das gleiche Konzept erreicht internationale Märkte` },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt, das systematische Katalogerweiterung durch Themenvariationen demonstriert`, caption: `Zuordnungs-Arbeitsblätter über Themen hinweg zeigen systematische Produktlinienerweiterung — jedes neue Thema fügt Produkte mit bewährten Formaten und bestehenden Bild-Assets hinzu` },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: `Malvorlagen erstellen mit dem Mal- und Zeichengenerator — Kreative Bandbreite für Katalogskalierung demonstriert`,
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Krankenwagen — thematisches Lernbild', caption: 'Krankenwagen' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — thematisches Lernbild', caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Flugzeug — thematisches Lernbild`, caption: 'Flugzeug' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Krankenwagen — thematisches Lernbild`, caption: 'Krankenwagen' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
+    { src: `/image-library/vehicles/boat.webp`, alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — thematisches Lernbild`, caption: 'Bulldozer' },
   ],
 };
 

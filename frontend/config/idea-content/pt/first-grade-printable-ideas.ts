@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Primeiro Ano — Guia de Nicho',
+    titleTag: `Ideias Imprimíveis Primeiro Ano — Guia de Nicho`,
     metaDescription: `Ideias de imprimíveis de primeiro ano para vender no Etsy, Amazon KDP e Gumroad. Produtos nível primeiro ano e estratégias de nicho para vendedores de fichas.`,
-    primaryKeyword: 'ideias imprimíveis primeiro ano',
+    primaryKeyword: `ideias imprimíveis primeiro ano`,
     secondaryKeywords: [
-      'fichas primeiro ano para vender',
+      `fichas primeiro ano para vender`,
       'negócio imprimíveis 1.º ano',
-      'fichas atividades primeiro ano para vendedores',
-      'vender imprimíveis primeiro ano no Gumroad',
+      `fichas atividades primeiro ano para vendedores`,
+      `vender imprimíveis primeiro ano no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas ensino primário inicial',
-      'imprimíveis catálogo de produtos 1.º ano',
-      'páginas atividades aprendizagem idades 6-7',
+      `fichas educativas ensino primário inicial`,
+      `imprimíveis catálogo de produtos 1.º ano`,
+      `páginas atividades aprendizagem idades 6-7`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ O panorama competitivo nos imprimíveis de primeiro ano recompensa os vendedores
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Primeiro Ano no Etsy',
+      title: `Vender Imprimíveis de Primeiro Ano no Etsy`,
       description: `O Etsy capta o grande e motivado segmento de compradores pais que procuram materiais de prática em casa de primeiro ano com termos de alta intenção como «fichas primeiro ano», «prática matemática 1.º ano», «atividades palavras de uso frequente primeiro ano» e «compreensão leitora primeiro ano» ao longo de todo o ano letivo. Utiliza as treze etiquetas com variações que combinem objetivos de competências específicas, identificadores de nível escolar e formatos de atividade para captar compradores motivados que sabem exatamente que competência o seu filho precisa de praticar. Agrupa produtos por área de conteúdo para aumentar o valor médio da encomenda: um pacote de factos matemáticos de primeiro ano cobrindo soma e subtração até vinte, um pacote de fluência leitora com palavras de uso frequente, sopas de letras e atividades de compreensão, e um pacote de competências de escrita com construção de frases e exercícios de vocabulário servem cada um necessidades distintas dos pais enquanto encorajam múltiplas compras da mesma loja. A época de regresso às aulas em agosto e setembro cria o maior pico de procura, mas os picos de compra de meio do ano são particularmente fortes em janeiro e fevereiro quando os pais recebem os boletins escolares do primeiro semestre a mostrar lacunas específicas de competências, criando uma vaga secundária de compras de materiais de prática dirigidos que os vendedores com títulos de produtos específicos por competência captam eficazmente.`,
     },
     {
@@ -139,18 +139,18 @@ O panorama competitivo nos imprimíveis de primeiro ano recompensa os vendedores
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -164,7 +164,7 @@ O panorama competitivo nos imprimíveis de primeiro ano recompensa os vendedores
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -174,18 +174,18 @@ O panorama competitivo nos imprimíveis de primeiro ano recompensa os vendedores
     },
     {
       pageType: 'idea',
-      slug: 'jardim-infancia-ideias-imprimiveis',
+      slug: `jardim-infancia-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Jardim de Infância`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Dossier — imagem educativa temática', caption: 'Dossier' },
-    { src: '/image-library/classroom/book.webp', alt: 'Livro — imagem educativa temática', caption: 'Livro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armário — imagem educativa temática', caption: 'Armário' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagem educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Dossier — imagem educativa temática`, caption: 'Dossier' },
+    { src: `/image-library/classroom/book.webp`, alt: `Livro — imagem educativa temática`, caption: 'Livro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armário — imagem educativa temática`, caption: 'Armário' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagem educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendário — imagem educativa temática`, caption: 'Calendário' },
   ],
 
 

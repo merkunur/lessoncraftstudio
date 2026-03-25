@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitala kontra fysiska utskriftsbara produkter',
+    primaryKeyword: `digitala kontra fysiska utskriftsbara produkter`,
     secondaryKeywords: [
-      'digital utskriftsbar affärsmodell',
-      'print on demand kontra digital nedladdning',
-      'fysisk utskriftsbar produktförsäljning',
-      'digital nedladdning utskriftsbar strategi',
+      `digital utskriftsbar affärsmodell`,
+      `print on demand kontra digital nedladdning`,
+      `fysisk utskriftsbar produktförsäljning`,
+      `digital nedladdning utskriftsbar strategi`,
     ],
     lsiKeywords: [
       `digital nedladdning fysisk produkt print-on-demand leveransmodell`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `passiva intäkter utskriftskostnader förpackning produktkvalitetskontroll`,
       `formatval affärsmodelljämförelse säljarstrategi tillväxtväg`,
     ],
-    titleTag: 'Digitala kontra fysiska utskriftsbara — Guide',
+    titleTag: `Digitala kontra fysiska utskriftsbara — Guide`,
     metaDescription: `Jämförelse digitala kontra fysiska utskriftsbara produkter för säljare. Vinstmarginaler, skalbarhet, leverans och val av rätt format för ditt företag.`,
   },
 
   hero: {
-    title: 'Digitala kontra fysiska utskriftsbara produkter',
+    title: `Digitala kontra fysiska utskriftsbara produkter`,
     tagline: `En komplett guide till digitala kontra fysiska utskriftsbara produkter — inklusive hur du jämför vinstmarginaler, utvärderar skalbarhet, förstår kundförväntningar, väljer rätt plattformar för varje format, implementerar en hybridmodell, planerar produktionsarbetsflöden och övergår mellan format när ditt företag växer`,
     description: `Varje säljare av utskriftsbara produkter står inför ett fundamentalt affärsmodellsbeslut: sälja digitala nedladdningar som köpare skriver ut själva, sälja förproducerade fysiska produkter som levereras till köpare, eller erbjuda båda formaten. Varje approach har olika marginalstrukturer, operativa krav, skalbarhetegenskaper och kundförväntningar. Denna guide ger ett grundligt jämförelseramverk för att hjälpa dig utvärdera båda formaten och välja den approach som matchar dina resurser, mål och målmarknad.`,
   },
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Kundförväntningar varierar avsevärt mellan digitala och fysiska köpare, och att möta eller överträffa dessa förväntningar avgör dina recensionsbetyg, återköpsfrekvenser och långsiktiga affärsrykte. Att missförstå vad varje kundsegment förväntar sig är en vanlig källa till negativa recensioner och returer som är helt förebyggbara.\n\nDigitala nedladdningsköpare förväntar sig omedelbar leverans. Filen ska vara tillgänglig för nedladdning inom sekunder efter köpets slutförande. De förväntar sig att filen är tydligt formaterad, tryckfärdig och kompatibel med vanliga hemskrivare. De förväntar sig tydliga instruktioner som specificerar rekommenderad pappersstorlek, utskriftsinställningar (färg kontra gråskala, enkelsidig kontra dubbelsidig) och eventuella monteringssteg. De accepterar att utskriftskvaliteten beror på deras egen skrivare och papper — men de accepterar inte filer som är dåligt formaterade, har avklippta marginaler eller ser annorlunda ut än förhandsgranskningsbilderna i listningen. Inkludera en "hur man skriver ut"-instruktionssida i varje digital nedladdning för att förebygga de vanligaste supportfrågorna.\n\nFysiska produktköpare förväntar sig professionell kvalitet från det ögonblick de öppnar paketet. Papperet ska kännas substantiellt, inte tunt. Färgerna ska vara livfulla och matcha listningsfoton. Sidor ska vara justerade, rent klippta och fria från fläckar eller utskriftsartefakter. Om produkten är bunden ska bindningen vara säker och tillåta sidor att ligga platt. Förpackningen ska skydda produkten under frakt — att anlända med böjda hörn eller vattenskador från otillräcklig förpackning genererar omedelbart negativa recensioner. Fysiska köpare betalar en premie specifikt för att de förväntar sig en färdig, professionell produkt som överträffar vad de kunde producera hemma.\n\nRetur- och klagomålsmönster skiljer sig mellan formaten. Digitala köpare begär sällan återbetalning för kvalitetsproblem men kan klaga på filformatkompatibilitet, oväntat sidantal eller listningsfoton som inte korrekt representerar produktinnehållet. Fysiska köpare kan begära returer för fraktskador, utskriftskvalitet under förväntningarna eller produkter som skiljer sig från listningsfotografier. Digitala returer är enklare (ingen produkt att skicka tillbaka) men vissa säljare kämpar med det immateriella — en köpare som hävdar att filen "inte laddades ner korrekt" presenterar en supportutmaning som fysiska säljare inte möter.\n\nÅterköpsbeteende varierar också efter format. Digitala köpare som hittar en säljare vars produkter konsekvent skrivs ut bra och matchar listningsbeskrivningar blir lojala återkommande kunder eftersom de litar på kvaliteten. Fysiska köpare som får en vackert förpackad, professionellt tryckt produkt utvecklar varumärkeslojalitet förstärkt av den konkreta upplevelsen. Båda formaten kan bygga starka relationer med återkommande kunder, men lojalitetsutlösarna är olika: digital lojalitet kommer från tillförlitlig kvalitet och katalogbredd, medan fysisk lojalitet kommer från premiumupplevelsen och bekvämligheten att få färdiga produkter.`,
     },
     {
-      heading: 'Välj rätt plattformar för ditt format',
+      heading: `Välj rätt plattformar för ditt format`,
       content: `Plattformsval och formatval är djupt sammankopplade eftersom olika marknadsplatser är designade kring olika leveransmodeller. Att välja fel plattform för ditt format innebär att kämpa mot plattformens infrastruktur snarare än att utnyttja den.\n\nEtsy är den dominerande marknadsplatsen för digitala utskriftsbara nedladdningar. Dess digitala leveranssystem hanterar filhosting och automatisk leverans till köpare, vilket gör det enkelt för säljare att lista och sälja digitala produkter. Etsy stödjer också fysiska produktlistningar med integrerat fraktbrevsköp och spårning. Många framgångsrika säljare av utskriftsbara produkter på Etsy erbjuder båda formaten av samma produkt som separata listningar, vilket låter köpare välja sin föredragna upplevelse. Etsy-publiken söker aktivt efter både "utskriftsbara arbetsblad" (digitalt) och "tryckta arbetsblad" (fysiskt), vilket gör det genomförbart för båda formaten.\n\nAmazon KDP är ändamålsbyggt för print-on-demand-böcker och arbetsböcker. Om dina produkter kan formateras som bundna böcker — målarböcker, aktivitetsarbetsböcker, pusselsamlingar, pedagogiska arbetsböcker — hanterar KDP utskrift, bindning, leverans och kundservice. Du laddar upp interiör-PDF och omslagsdesign, sätter ditt pris, och Amazon hanterar allt annat. KDP-royalties är lägre än direktförsäljningsmarginaler, men plattformen ger tillgång till Amazons enorma kundbas och eliminerar all produktionslogistik. KDP är särskilt starkt för produkter med 50 eller fler sidor som motiverar ett bokformat.\n\nShopify och liknande oberoende plattformar ger dig fullständig kontroll över både digital och fysisk försäljning. Du hanterar din egen marknadsföring och trafikgenerering, men du behåller högre marginaler och äger kundrelationen. Digitala leveransappar automatiserar fildistribution, och du kan integrera fraktlösningar för fysiska beställningar. En oberoende plattform fungerar bäst för säljare som redan har byggt en publik genom sociala medier, e-postlistor eller andra kanaler och vill maximera marginaler genom att ta bort marknadsplatsavgifter.\n\nHantverksmarknader och lokala evenemang är exklusivt fysiska produktarenor som erbjuder höga marginaler per enhet och omedelbar kundfeedback. Säljare som tycker om ansikte-mot-ansikte-interaktion och har produkter som visas bra personligen (laminerade aktivitetsset, bundna arbetsböcker, inramade pedagogiska posters) kan generera betydande intäkter från lokala evenemang. Begränsningen är geografisk räckvidd och tidsinvestering — varje evenemang kräver fysisk närvaro, montersuppställning och lagertransport.\n\nGumroad är en specialiserad marknadsplats för pedagogiska resurser som stödjer digitala nedladdningar och används intensivt av köpare som söker produktlinjesmaterial. Om dina utskriftsbara produkter är pedagogiskt fokuserade ger Gumroad tillgång till en koncentrerad köparpublik av säljare med inköpsbudgetar. Plattformens publik förväntar sig digital leverans och är van vid att ladda ner och skriva ut resurser, vilket gör den till en naturlig passform för digitala pedagogiska utskriftsbara produkter.`,
     },
     {
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP kontra Etsy för utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Så säljer du mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Kundsupport för digitala produkter' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: `KDP kontra Etsy för utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Så säljer du mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: `customer-support-digital-products`, anchorText: `Kundsupport för digitala produkter` },
     { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: `Upphovsrättsguide för säljare av utskriftsbara produkter` },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: `/samples/english/addition/Addition Fun 1.webp`,
       alt: `Professionellt additionsarbetsblad som demonstrerar digitalt utskriftsbart produktskapande för både digital nedladdning och fysiska utskriftsformat`,
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: `/samples/english/addition/Addition Fun 1.webp`,
         alt: `Additionsarbetsblad som visar digital utskriftsbar produkt lämplig för både nedladdning och fysisk utskrift`,
         caption: `Mattearbetsblad fungerar bra som digitala nedladdningar och som sidor i tryckta arbetsböcker`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Äpple — tematisk pedagogisk bild', caption: 'Äpple' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikos — tematisk pedagogisk bild', caption: 'Aprikos' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avokado — tematisk pedagogisk bild', caption: 'Avokado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banan — tematisk pedagogisk bild', caption: 'Banan' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Björnbär — tematisk pedagogisk bild', caption: 'Björnbär' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Äpple — tematisk pedagogisk bild`, caption: 'Äpple' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Aprikos — tematisk pedagogisk bild`, caption: 'Aprikos' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avokado — tematisk pedagogisk bild`, caption: 'Avokado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banan — tematisk pedagogisk bild`, caption: 'Banan' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Björnbär — tematisk pedagogisk bild`, caption: 'Björnbär' },
   ],
 };
 

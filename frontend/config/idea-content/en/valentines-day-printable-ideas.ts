@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentine Printable Ideas to Sell — Niche Guide',
+    titleTag: `Valentine Printable Ideas to Sell — Niche Guide`,
     metaDescription: "Explore Valentine\'s Day printable ideas to sell on Etsy, KDP, and Gumroad. Love-themed product concepts, seasonal timing strategies, and tips for sellers.",
     primaryKeyword: 'valentine printable ideas',
     secondaryKeywords: [
-      'Valentine\'s Day worksheets to sell',
-      'Valentine printable business ideas',
-      'Valentine activity sheets for sellers',
-      'sell Valentine printables on Etsy',
+      `Valentine's Day worksheets to sell`,
+      `Valentine printable business ideas`,
+      `Valentine activity sheets for sellers`,
+      `sell Valentine printables on Etsy`,
     ],
     lsiKeywords: [
-      'heart themed educational worksheets',
-      'February themed activity pages',
-      'love and friendship themed printables',
+      `heart themed educational worksheets`,
+      `February themed activity pages`,
+      `love and friendship themed printables`,
     ],
   },
   hero: {
     title: `Valentine's Day Printable Business Ideas for Sellers`,
-    description: `Valentine's Day opens a powerful winter selling window for printable entrepreneurs, with demand building through January and peaking in early February as buyers prepare Valentine exchanges and parents search for educational love-themed activities and Valentine card alternatives. The niche offers charming sub-theme variety including hearts, cupid, friendship, roses, candy, mailboxes, love letters, and Valentine exchanges, giving sellers a warm visual vocabulary that appeals to children, families, and buyers alike. Daycare providers and homeschooling families add another buyer segment, seeking structured Valentine activities that blend holiday excitement with genuine skill-building. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Valentine's Day niche combines reliable annual demand with a universally appealing love-and-friendship aesthetic that photographs beautifully for product listings and social media marketing. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable Valentine printable product line using our worksheet generator tools.`,
+    description: `Valentine`s Day opens a powerful winter selling window for printable entrepreneurs, with demand building through January and peaking in early February as buyers prepare Valentine exchanges and parents search for educational love-themed activities and Valentine card alternatives. The niche offers charming sub-theme variety including hearts, cupid, friendship, roses, candy, mailboxes, love letters, and Valentine exchanges, giving sellers a warm visual vocabulary that appeals to children, families, and buyers alike. Daycare providers and homeschooling families add another buyer segment, seeking structured Valentine activities that blend holiday excitement with genuine skill-building. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Valentine`s Day niche combines reliable annual demand with a universally appealing love-and-friendship aesthetic that photographs beautifully for product listings and social media marketing. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable Valentine printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The Valentine\'s Day printable niche commands a prime position in the winter selling calendar, delivering concentrated seasonal demand during a period when post-holiday shopping energy redirects toward fresh creative projects and celebrations. Buyers begin planning Valentine party activities and February themed enhancements in early January, searching for themed worksheets that transform the excitement of Valentine exchanges into structured learning opportunities. Parents seek age-appropriate Valentine activities that serve as creative alternatives to store-bought Valentine cards and provide educational entertainment during the love-themed holiday week. Daycare providers, homeschooling families, and after-school program coordinators purchase themed activity sheets for Valentine parties, friendship-focused learning sessions, and February celebration events that need engaging materials for young participants.
 
@@ -46,7 +46,7 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
       appId: 'find-count',
     },
     {
-      title: 'Valentine Word Search Puzzles to Sell Online',
+      title: `Valentine Word Search Puzzles to Sell Online`,
       description: `Friendship vocabulary word searches attract buyers planning February activities and parents seeking educational entertainment during the Valentine celebration period. Create puzzles featuring Valentine-specific vocabulary like heart, cupid, roses, candy, friend, love, and mailbox alongside broader friendship and kindness terminology. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more Valentine terms for older children. Variations like friendship vocabulary, love-themed words, and Valentine celebration terminology expand your catalog to capture different buyer interests within the February seasonal niche.`,
       appId: 'wordsearch',
     },
@@ -61,12 +61,12 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
       appId: 'addition',
     },
     {
-      title: 'Valentine Coloring Pages for Etsy and KDP Sellers',
+      title: `Valentine Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for Valentine printable shops because love-themed coloring appeals to virtually every family with young children and generates early reviews that boost your shop visibility during peak seasonal traffic. The Coloring Page generator creates detailed outlines of hearts, cupid characters, roses, love letters, friendship scenes, mailboxes overflowing with Valentines, and candy arrangements. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as friendship characters or heart patterns. For KDP, compile thirty to fifty coloring pages into Valentine activity books positioned as group party favors or February gifts. Add educational elements like Valentine vocabulary labels, counting prompts, or letter practice alongside the coloring images to differentiate from purely decorative options.`,
       appId: 'coloring',
     },
     {
-      title: 'Valentine Bingo Cards for Parties and Exchanges',
+      title: `Valentine Bingo Cards for Parties and Exchanges`,
       description: `Valentine bingo cards serve buyers running February celebrations and parents organizing Valentine party events and family gatherings during the holiday week. The Bingo generator creates unique card variations from your Valentine vocabulary list, ensuring no two cards are identical for group play. Sell group sets of twenty-five to thirty cards with a caller sheet and Valentine vocabulary reference guide included. For the family market, create bingo kits featuring friendship symbols, Valentine characters, and love-themed vocabulary that groups can play during parties and exchanges. Bingo products generate strong seasonal demand because every Valentine party needs structured group activities, and digital bingo cards can be purchased and printed minutes before the celebration begins.`,
       appId: 'bingo',
     },
@@ -95,17 +95,17 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Valentine Printables on Etsy',
+      title: `Selling Valentine Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for Valentine printable listings, and the winter shopping season creates a significant traffic surge for educational digital downloads. Publish your Valentine listings by late December or early January to allow Etsy search algorithms time to index and rank your products before the January demand ramp begins. Use all thirteen tags with variations combining Valentine sub-themes, skill types, and age groups: "Valentine counting worksheets preschool," "friendship word search kindergarten," and "heart coloring pages toddler" target specific buyer searches far more effectively than broad tags like "Valentine worksheets." Create celebration-oriented listing variations positioning activity bundles as Valentine exchange party packs or Valentine card alternatives. Listing images showing printed Valentine worksheets in love-themed settings with seasonal props like heart decorations and red and pink accents outperform flat digital previews and capture the festive mindset that drives February traffic.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Valentine Activity Books on KDP',
+      title: `Publishing Valentine Activity Books on KDP`,
       description: `Amazon KDP excels for Valentine printables because parents and gift buyers naturally add activity books to their Amazon carts alongside Valentine cards, candy, and small gifts for children. Compile individual Valentine worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around love and friendship themes. Use KDP keyword fields strategically: include "Valentine activity book for kids," "February worksheets preschool," and sub-theme terms like "heart coloring book" or "friendship activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as Valentine gifts or group party favors. Publish by early January to ensure your books are indexed and available before the late January buying season intensifies, and consider creating multiple books targeting different age groups and sub-themes to capture varied search queries during the Valentine rush.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Valentine Resources for Your Own Store',
+      title: `Creating Valentine Resources for Your Own Store`,
       description: `Buyers are searching for February activity fillers, Valentine celebration activities, and friendship-themed educational resources they can implement with minimal preparation during a busy winter semester. Valentine printables perform best when packaged as ready-to-use activity solutions: Valentine party activity stations, February morning work packets, or friendship-themed homework packs with parent instruction letters. Include clear learning objectives so buyers can justify festive activities to program coordinators, and add differentiation options for mixed-ability winter groups where academic focus naturally competes with Valentine excitement. Gumroad's bundling feature lets you offer individual Valentine products and a discounted February mega-bundle simultaneously, capturing both budget-conscious buyers purchasing single items and those investing in comprehensive Valentine celebration solutions.`,
     },
     {
@@ -133,7 +133,7 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
       answer: `Yes, cross-platform selling is one of the most effective strategies for maximizing Valentine printable revenue because each platform reaches a different buyer segment during the February season. Etsy attracts parents, homeschoolers, and celebration planners searching for instant-download Valentine activities. Your own store reaches buyers planning February activities and Valentine party activities. KDP serves families who prefer physical activity books positioned alongside Valentine cards and candy in shopping carts. Gumroad and Shopify help you build an owned audience you can re-engage every Valentine season through email marketing. You can sell the same core content across all platforms with formatting adjustments for each. For KDP, compile worksheets into book format. For your store, add usage notes and standards alignment. For Etsy, create love-themed listing images with Valentine mockup photography. Cross-listing multiplies your February visibility without requiring entirely new products for each channel.`,
     },
     {
-      question: 'Do Valentine printables sell outside of February?',
+      question: `Do Valentine printables sell outside of February?`,
       answer: `Valentine printable sales are heavily concentrated in the January through February window, with the vast majority of revenue occurring during this six-week period. However, several factors create smaller sales outside the peak. Some buyers plan February activities during winter break and purchase in December. Homeschooling families following flexible schedules may use friendship and love themes at non-traditional times. International buyers celebrating Valentine's Day with different customs may purchase outside the standard window. Friendship-themed worksheets that use hearts and kindness vocabulary without being exclusively Valentine-branded can generate modest year-round sales as general social-emotional learning materials. While you should not expect significant year-round revenue from Valentine-specific products, the concentrated seasonal income combined with the relatively short production timeline makes this niche a highly efficient use of your product creation time.`,
     },
     {
@@ -154,32 +154,32 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -189,17 +189,17 @@ The Valentine\'s Day keyword landscape reveals several underserved sub-niches wo
     {
       pageType: 'idea',
       slug: 'easter-printable-ideas',
-      anchorText: 'Easter Printable Business Ideas',
+      anchorText: `Easter Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — themed educational image', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — themed educational image', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — themed educational image', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Bluebell — themed educational image', caption: 'Bluebell' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Buttercup — themed educational image', caption: 'Buttercup' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Carnation — themed educational image', caption: 'Carnation' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Aster — themed educational image`, caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — themed educational image`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — themed educational image`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Bluebell — themed educational image`, caption: 'Bluebell' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Buttercup — themed educational image`, caption: 'Buttercup' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Carnation — themed educational image`, caption: 'Carnation' },
   ],
 
 

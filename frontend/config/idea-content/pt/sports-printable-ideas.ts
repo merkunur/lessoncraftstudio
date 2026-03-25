@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias de Imprimíveis de Desportos — Guia de Nicho`,
     metaDescription: `Descobre ideias de imprimíveis de desportos para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos com temática desportiva, estratégias por plataforma.`,
-    primaryKeyword: 'ideias de imprimíveis de desportos',
+    primaryKeyword: `ideias de imprimíveis de desportos`,
     secondaryKeywords: [
-      'fichas temáticas desportivas para vender',
-      'negócio imprimíveis temática desportiva',
-      'fichas atividades desportos para vendedores',
-      'vender imprimíveis de desportos no Etsy',
+      `fichas temáticas desportivas para vender`,
+      `negócio imprimíveis temática desportiva`,
+      `fichas atividades desportos para vendedores`,
+      `vender imprimíveis de desportos no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas desportos de equipa',
-      'atividades temáticas jogos com bola',
-      'imprimíveis educação física para a loja',
+      `fichas educativas desportos de equipa`,
+      `atividades temáticas jogos com bola`,
+      `imprimíveis educação física para a loja`,
     ],
   },
   hero: {
@@ -40,7 +40,7 @@ A inclusividade de género representa uma valiosa força do nicho de imprimívei
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Desportos para Vender Online',
+      title: `Sopas de Letras de Desportos para Vender Online`,
       description: `As sopas de letras com vocabulário desportivo atraem vendedores de educação física que planeiam unidades desportivas e pais que procuram entretenimento educativo que canalize o entusiasmo natural dos seus filhos por jogos e competição no desenvolvimento produtivo de competências de literacia e expansão do vocabulário em múltiplas categorias desportivas. Cria puzzles com vocabulário específico de desportos como futebol, basquetebol, futebol americano, basebol, ténis, hóquei, voleibol, natação, atletismo e ginástica juntamente com termos desportivos mais amplos como atleta, estádio, troféu, treinador e árbitro. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos desportivos para compradores mais velhos que exploram posições de equipas e terminologia de equipamento.`,
       appId: 'wordsearch',
     },
@@ -89,17 +89,17 @@ A inclusividade de género representa uma valiosa força do nicho de imprimívei
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Desportos no Etsy',
+      title: `Vender Imprimíveis de Desportos no Etsy`,
       description: `O Etsy recompensa o nicho de desportos com um desempenho consistente de listagens durante todo o ano porque a rotação desportiva sazonal mantém a procura a fluir continuamente enquanto os pais procuram fichas de futebol americano no outono, atividades de basquetebol no inverno, imprimíveis de basebol na primavera e recursos de natação no verão sem nenhum período prolongado de baixa procura. Utiliza as treze etiquetas com variações que combinem tipos de desporto, áreas de competência e grupos etários: «fichas contagem futebol pré-escolar», «páginas colorir basquetebol crianças pequenas» e «sopa de letras futebol americano jardim de infância» apontam a pesquisas específicas de compradores de forma muito mais eficaz do que etiquetas amplas como «fichas desportos». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade jovem atleta» e «imprimível adepto do desporto» nos teus títulos e descrições. As imagens de listagens que mostram fichas desportivas impressas junto a equipamento desportivo, camisolas de equipas ou decoração de quarto desportivo superam as pré-visualizações digitais planas e captam a mentalidade impulsionada pelo entusiasmo que traz os pais de crianças amantes do desporto a procurar recursos educativos temáticos ao Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades Desportivas no KDP',
+      title: `Publicar Livros de Atividades Desportivas no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de desportos porque os pais e compradores de prendas naturalmente adicionam livros de atividades aos seus carrinhos da Amazon junto a livros infantis de desportos, equipamento desportivo, artigos de equipas e guias de treino que alimentam a paixão dos jovens atletas pela competição e conquista. Compila fichas desportivas individuais em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas desportivos. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades desportos para crianças», «fichas basquetebol pré-escolar» e termos de subtemas como «livro colorir futebol» ou «atividades futebol americano para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como prendas para jovens atletas, complementos a equipamento desportivo ou suplementos a recursos de educação física online. Os livros de atividades desportivas beneficiam da procura durante todo o ano com picos desportivos sazonais que rodam continuamente ao longo do calendário.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos Desportivos para a loja no Gumroad',
+      title: `Criar Recursos Desportivos para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores online e vendedores de educação física que procuram material complementar educativo com temática desportiva, atividades de vocabulário desportivo e recursos multicurriculares que integrem conceitos desportivos na instrução de matemática, literacia e educação física com um tempo mínimo de preparação necessário. Os imprimíveis de desportos no Gumroad funcionam melhor quando empacotados como soluções prontas a usar online: pacotes de trabalho matinal com temática desportiva, estações de atividades de vocabulário desportivo ou fichas complementares de unidades de educação física com objetivos de aprendizagem claros que conectem os conceitos de atividade física com o desenvolvimento de competências académicas. Inclui objetivos de aprendizagem vinculados aos padrões de educação física, matemática, literacia e saúde para que os vendedores possam justificar as atividades com temática desportiva perante os administradores e coordenadores de catálogo de produtos que reveem os materiais de instrução. A função de agrupamento do Gumroad permite-te oferecer produtos desportivos individuais e um mega-pacote desportivo com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em recursos completos para unidades inteiras.`,
     },
     {
@@ -143,18 +143,18 @@ A inclusividade de género representa uma valiosa força do nicho de imprimívei
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -168,7 +168,7 @@ A inclusividade de género representa uma valiosa força do nicho de imprimívei
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -178,18 +178,18 @@ A inclusividade de género representa uma valiosa força do nicho de imprimívei
     },
     {
       pageType: 'idea',
-      slug: 'transportes-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Transportes',
+      slug: `transportes-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Transportes`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/sports%20bw/badminton.webp', alt: 'Badminton — imagem educativa temática', caption: 'Badminton' },
-    { src: '/image-library/sports%20bw/baseball.webp', alt: 'Basebol — imagem educativa temática', caption: 'Basebol' },
-    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Basebol 2 — imagem educativa temática', caption: 'Basebol 2' },
-    { src: '/image-library/sports%20bw/basketball.webp', alt: 'Basquetebol — imagem educativa temática', caption: 'Basquetebol' },
-    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Bola de Praia — imagem educativa temática', caption: 'Bola de Praia' },
-    { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
+    { src: `/image-library/sports%20bw/badminton.webp`, alt: `Badminton — imagem educativa temática`, caption: 'Badminton' },
+    { src: `/image-library/sports%20bw/baseball.webp`, alt: `Basebol — imagem educativa temática`, caption: 'Basebol' },
+    { src: `/image-library/sports%20bw/baseball%202.webp`, alt: `Basebol 2 — imagem educativa temática`, caption: 'Basebol 2' },
+    { src: `/image-library/sports%20bw/basketball.webp`, alt: `Basquetebol — imagem educativa temática`, caption: 'Basquetebol' },
+    { src: `/image-library/sports%20bw/beach%20ball.webp`, alt: `Bola de Praia — imagem educativa temática`, caption: 'Bola de Praia' },
+    { src: `/image-library/sports%20bw/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
   ],
 
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lernmaterialien verkaufen auf creative fabrica',
+    primaryKeyword: `lernmaterialien verkaufen auf creative fabrica`,
     secondaryKeywords: [
-      'wie auf Creative Fabrica verkaufen',
+      `wie auf Creative Fabrica verkaufen`,
       'Creative Fabrica für Käufer',
-      'Druckvorlagen auf Creative Fabrica verkaufen',
-      'Creative Fabrica Classroom Ressourcen',
+      `Druckvorlagen auf Creative Fabrica verkaufen`,
+      `Creative Fabrica Classroom Ressourcen`,
     ],
     lsiKeywords: [
       `Design-Marktplatz Craft-Publikum Abonnement-Modell digitale Downloads Lernmaterialien`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Lernmaterialien auf Creative Fabrica verkaufen',
+    title: `Lernmaterialien auf Creative Fabrica verkaufen`,
     tagline: `Ein kompletter Leitfaden zum Verkauf druckbarer Arbeitsblätter und Lernmaterialien auf Creative Fabrica — mit Designer-Konto-Einrichtung, Produkterstellung für den CF-Bildungsmarkt-Bereich, dualen Einnahmen aus Einzelverkäufen und Abo-Downloads, Suchoptimierung für einen Design-fokussierten Marktplatz, Ansprache des einzigartigen Craft-Bildung-Crossover-Publikums, Marketingstrategien zur Abhebung unter Designern und Skalierung Ihres Katalogs über Bildungs- und Kreativkategorien hinweg`,
     description: `Creative Fabrica kombiniert Marktplatz-Auffindbarkeit mit einem Abonnement-Einnahmemodell und bietet Verkäufern von Lernmaterialien zwei Einkommensströme aus jedem Produkt. Dieser Leitfaden führt Sie durch die Einrichtung Ihres Designer-Shops, die Erstellung von Listings, die für CFs Such- und Kategoriesystem optimiert sind, die Preisgestaltung für Einzelkäufer und Abonnement-Pool-Einnahmen sowie den Aufbau eines Katalogs, der Creative Fabricas einzigartige Mischung aus Bastlern, Designern und Käufer anspricht.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Bevor Sie Ihr erstes Produkt hochladen, verschafft Ihnen das Verständnis der Funktionsweise von Creative Fabrica als Marktplatz einen strategischen Vorteil gegenüber Verkäufern, die es wie ein weiteres Etsy oder Gumroad behandeln. Creative Fabrica wurde als Plattform für Schriftarten und Grafikdesign-Assets gegründet, und dieses Erbe prägt alles — von der Zielgruppen-Demografie bis zum Suchalgorithmus. Der typische Creative Fabrica-Besucher ist ein Bastler, der eine Cricut- oder Silhouette-Schneidemaschine nutzt, ein Grafikdesigner, der kommerziell nutzbare Assets sucht, oder ein Kreativprofi auf der Suche nach Schriftarten, Illustrationen und Designelementen. Käufer stellen ein wachsendes, aber noch sekundäres Segment des Publikums dar.\n\nDiese Publikumszusammensetzung ist tatsächlich ein Vorteil für Verkäufer von Lernmaterialien. Wenn eine Bastlerin, die SVG-Dateien für ihr nächstes Projekt durchstöbert, hochwertige Malvorlagen im Bildungsmarkt-Bereich entdeckt, wird sie zu einer Käuferin, die Sie auf Gumroad oder über Google-Suchen nach „Mathe-Arbeitsblätter" nie erreicht hätten. Wenn ein Elternteil, das nach Partyeinladungs-Vorlagen sucht, auf Ihre thematischen Zuordnungsaktivitäten stößt, haben Sie Aufmerksamkeit gewonnen, ohne gegen die Tausenden von Bildungsverkäufern auf traditionellen Kanälen zu konkurrieren.\n\nCreative Fabricas Bildungsmarkt-Bereich ist der Ort, an dem Lernressourcen leben. Dieser dedizierte Bereich ist nach Altersgruppe, Fachgebiet und Ressourcentyp organisiert — ähnlich wie Gumroad Inhalte strukturiert, aber innerhalb eines viel breiteren kreativen Marktplatzes. Produkte im Bildungsmarkt-Bereich erscheinen sowohl in der Bildungsmarkt-Stöbererfahrung als auch in den allgemeinen Creative Fabrica-Suchergebnissen, was Ihnen doppelte Auffindbarkeit verschafft. Ein Wortsuche-Arbeitsblatt mit passenden Tags erscheint, wenn ein Käufer den Bildungsmarkt-Bereich nach Vokabelaktivitäten durchsucht, und wenn ein Elternteil den Hauptmarktplatz nach „Wortsuche druckbar" durchsucht.\n\nDas Abonnement-Modell verändert grundlegend, wie Sie über Ihre Produktstrategie nachdenken. Auf Etsy oder Gumroad muss jedes Produkt Direktverkäufe generieren, um Einnahmen zu erzielen. Auf Creative Fabrica verdienen Produkte, die viele Abo-Downloads erhalten, Einnahmen aus dem Abonnement-Pool, selbst wenn sie nie als Einzelkäufe verkauft werden. Das bedeutet, Produkte mit breiter Anziehungskraft, die häufige Downloads anziehen, können wertvoller sein als Nischenprodukte mit höheren Einzelpreisen, aber geringerem Download-Volumen. Das Verständnis dieser Dynamik formt Ihre gesamte Produktkatalog-Strategie auf der Plattform.`,
     },
     {
-      heading: 'Ihr Creative Fabrica Designer-Konto einrichten',
+      heading: `Ihr Creative Fabrica Designer-Konto einrichten`,
       content: `Um auf Creative Fabrica zu verkaufen, müssen Sie sich für ein Designer-Konto bewerben — ein separater Prozess von der Erstellung eines normalen Käuferkontos. Besuchen Sie die Creative Fabrica-Website und navigieren Sie zum Bereich „Designer werden" oder „Arbeiten verkaufen". Die Bewerbung erfordert grundlegende Informationen über Sie und Ihre kreative Arbeit. Creative Fabrica prüft Bewerbungen zur Einhaltung von Qualitätsstandards, also fügen Sie Beispiele Ihrer besten Druckvorlagen-Produkte in Ihre Portfolio-Einreichung ein. Die Genehmigung dauert typischerweise einige Werktage.\n\nNach der Genehmigung richten Sie Ihr Designer-Profil sorgfältig ein — dies ist das öffentliche Gesicht Ihres Shops auf der Plattform. Wählen Sie einen Shop-Namen, der Ihre Marke widerspiegelt und den Käufer leicht merken und suchen können. Schreiben Sie eine Biografie, die kommuniziert, welche Art von Ressourcen Sie erstellen und für wen sie bestimmt sind. Wenn Sie auf anderen Plattformen verkaufen, pflegen Sie konsistentes Branding über alle hinweg, damit Käufer, die Sie auf Creative Fabrica entdecken, Ihre Produkte auf Etsy wiedererkennen oder umgekehrt.\n\nKonfigurieren Sie Ihre Zahlungseinstellungen, um sicherzustellen, dass Sie Ihre Einnahmen erhalten. Creative Fabrica zahlt Designer über PayPal oder Banküberweisung aus, wobei Auszahlungen nach einem regulären Zeitplan nach Erreichen des Mindestschwellenwerts verarbeitet werden. Richten Sie Ihre bevorzugte Zahlungsmethode während der anfänglichen Kontokonfiguration ein, um Verzögerungen zu vermeiden, wenn Ihre ersten Verkäufe eintreffen.\n\nLaden Sie ein professionelles Profilbild und ein Cover-Banner hoch. Creative Fabricas Designer-Seiten zeigen diese prominent an, und sie tragen zum ersten Eindruck bei, den Käufer beim Besuch Ihres Shops bilden. Verwenden Sie Designelemente, die mit Ihrer Markenidentität übereinstimmen — wenn Ihre Druckvorlagen saubere, farbenfrohe Designs für junge Lernende aufweisen, sollte Ihr Shop-Branding dieselbe Ästhetik widerspiegeln.\n\nMachen Sie sich mit dem Creative Fabrica-Dashboard vertraut, bevor Sie Produkte hochladen. Das Dashboard zeigt Ihre Verkaufsdaten, Statistiken zu Abo-Downloads, Einnahmenaufschlüsselungen und Produktleistungs-Kennzahlen. Das Verständnis, wo Sie diese Daten von Anfang an finden, hilft Ihnen, fundierte Entscheidungen über die Produktstrategie zu treffen, wenn Ihr Katalog wächst.`,
     },
     {
-      heading: 'Lernmaterialien erstellen und hochladen',
+      heading: `Lernmaterialien erstellen und hochladen`,
       content: `Die Produkterstellung auf Creative Fabrica folgt einem strukturierten Ablauf. Navigieren Sie zu Ihrem Designer-Dashboard und wählen Sie die Option, ein neues Produkt zu erstellen. Sie müssen Ihre Produktdateien (PDF-Arbeitsblätter), ein Titelbild, einen Titel, eine Beschreibung, Tags und Kategorieauswahlen bereitstellen.\n\nBereiten Sie Ihre Produktdateien in den Formaten vor, die Creative Fabrica-Käufer erwarten. Für Lernarbeitsblätter ist PDF das primäre Format. Stellen Sie sicher, dass Ihre PDFs für Standardpapiergrößen formatiert sind (US Letter oder A4), mit 300 DPI Auflösung für gestochen scharfe Druckqualität. Wenn Ihr Arbeitsblatt-Paket mehrere Seiten enthält, kombinieren Sie diese in einer einzigen PDF-Datei, anstatt einzelne Seitendateien hochzuladen. Fügen Sie einen Lösungsschlüssel bei, wo zutreffend — dies ist ein bedeutender Mehrwert, der professionelle Lernressourcen von einfachen Druckvorlagen unterscheidet.\n\nIhr Titelbild ist das wichtigste Konversionselement überhaupt. Creative Fabrica zeigt Produkte als visuelle Miniaturbilder in Suchergebnissen und Kategorieseiten an, und Käufer treffen in Sekundenbruchteilen Entscheidungen basierend auf diesen Bildern. Erstellen Sie ein Titelbild, das klar zeigt, was das Produkt enthält: ein Mockup gedruckter Arbeitsblätter, eine Collage mit mehreren Seiten aus dem Paket oder ein stilisiertes Foto der Arbeitsblätter in einem Bildungsmarkt- oder Heimlernkontext. Die von Creative Fabrica empfohlenen Titelbild-Abmessungen sind typischerweise quadratisch oder nahezu quadratisch — prüfen Sie die aktuellen Richtlinien in der Designer-Dokumentation.\n\nSchreiben Sie einen Produkttitel, der sowohl beschreibend als auch schlüsselwortreich ist. Schließen Sie den Ressourcentyp, das Thema und die Altersgruppe ein: „Tier-Additions-Arbeitsblätter für den Kindergarten — 40 Seiten mit Lösungsschlüsseln" sagt Käufern genau, was sie bekommen. Vermeiden Sie vage Titel wie „Mathe-Paket" oder „Spaßige Aktivitäten", die keine nützlichen Informationen für Suche oder Stöbern liefern.\n\nIhre Produktbeschreibung sollte einer klaren Struktur folgen. Beginnen Sie mit einer kurzen Übersicht über den Inhalt (Seitenanzahl, Aktivitätstypen, Kompetenzfokus). Fahren Sie fort mit Details zur Zielgruppe oder Altersgruppe, wie die Ressource eingesetzt werden kann (Morgenarbeit, Hausaufgaben, Lernstationen, Homeschool-Produktkatalogergänzung) und was diese bestimmte Ressource wertvoll macht. Schließen Sie mit Dateiformat-Informationen und eventuellen Nutzungshinweisen ab. Käufer auf Creative Fabrica lesen Beschreibungen vor dem Kauf, besonders bei Lernressourcen, wo sie die Angemessenheit für die Altersgruppe bestätigen müssen.\n\nWählen Sie Kategorien sorgfältig aus. Für Lernressourcen wählen Sie die Bildungsmarkt-Kategorie und die spezifischsten verfügbaren Unterkategorien (Mathematik, Lesen, Naturwissenschaften usw.). Fügen Sie auch relevante breitere Kategorien hinzu, wenn Ihr Produkt Crossover-Potenzial hat — ein Malvorlagen-Arbeitsblatt könnte sowohl in die Bildungsmarkt-Kategorie als auch in eine Mal- oder Bastelkategorie passen, was die Auffindbarkeit über verschiedene Publikumssegmente hinweg maximiert.`,
     },
     {
@@ -51,15 +51,15 @@ const content: GuideContent = {
       content: `Creative Fabricas duales Einnahmemodell erfordert eine Preisstrategie, die sowohl Einzelverkäufe als auch Abo-Download-Einnahmen berücksichtigt. Wenn Sie einen Preis für Ihr Produkt festlegen, gilt dieser Preis für Käufer, die es einzeln kaufen — außerhalb eines Abonnements. Abonnement-Mitglieder greifen über ihre Mitgliedschaft darauf zu, und Sie verdienen aus dem Abonnement-Einnahme-Pool basierend darauf, wie oft Abonnenten Ihr Produkt herunterladen, im Verhältnis zu allen Downloads auf der Plattform.\n\nFür die Preisgestaltung von Einzelverkäufen recherchieren Sie vergleichbare Produkte auf Creative Fabrica, um die Markterwartungen zu verstehen. Praktische Druckvorlagen-Pakete auf Creative Fabrica liegen typischerweise zwischen 3 € und 15 €, abhängig von Seitenanzahl, Produktionsqualität und Umfang. Ein 10-seitiges Arbeitsblatt-Paket könnte bei 4 € bis 6 € liegen, während eine umfassende 50-seitige marktorientierte Ressource 10 € bis 15 € erzielen kann. Creative Fabricas Publikum ist an Design-Asset-Preise gewöhnt, die tendenziell niedriger pro Einzelprodukt sind als Gumroad-Preise, aber durch das Volumen ausgeglichen werden.\n\nAbo-Einnahmen funktionieren anders als Einzelverkäufe und erfordern eine volumenorientierte Denkweise. Jedes Mal, wenn ein Abonnent Ihr Produkt herunterlädt, verdienen Sie einen Anteil des monatlichen Abonnement-Pools. Der genaue Pro-Download-Betrag variiert basierend auf der Gesamtpoolgröße und den Gesamtplattform-Downloads in diesem Zeitraum. Das bedeutet, dass Produkte mit breiter Anziehungskraft, die viele Downloads anziehen, bedeutende Abo-Einnahmen generieren können, selbst bei bescheidenen Pro-Download-Beträgen. Ein Arbeitsblatt-Paket, das monatlich 200 Mal von Abonnenten heruntergeladen wird, generiert konsistente Abo-Einnahmen unabhängig von seinem Einzelverkaufspreis.\n\nBalancieren Sie Ihre Preisstrategie zwischen Einzelverkaufs- und Abo-Einnahmen. Ihren Einzelpreis zu niedrig anzusetzen, unterbewertet Ihre Arbeit für Direktkäufer, aber das Abonnement-Modell bedeutet, dass viele Ihrer Downloads von Mitgliedern stammen werden, die nicht preissensibel sind, weil sie ihre monatliche Gebühr bereits bezahlt haben. Bepreisen Sie Ihre Produkte zu dem, was sie für den Einzelkauf wert sind, und lassen Sie das Abonnement-Modell den volumenbasierten Umsatz als separaten Einkommensstrom abwickeln.\n\nErwägen Sie die Erstellung von Premium- und Standard-Produktstufen. Ein umfassendes 80-seitiges Mathe-Arbeitsheft zum Preis von 12 € bedient Einzelkäufer, die eine umfangreiche Ressource suchen, während ein fokussiertes 15-seitiges Arbeitsblatt-Set zum Preis von 4 € eher Abo-Downloads von Mitgliedern anzieht, die den Bildungsmarkt-Bereich durchstöbern. Beide Produkttypen dienen Ihren Einnahmezielen über verschiedene Kanäle.`,
     },
     {
-      heading: 'Creative Fabricas Craft-Publikum nutzen',
+      heading: `Creative Fabricas Craft-Publikum nutzen`,
       content: `Die einzigartige Chance auf Creative Fabrica ist der Crossover zwischen dem Craft- und Design-Publikum und praktischen Inhalten. Millionen von Creative Fabrica-Nutzern sind Bastler, Cricut-Besitzer, Scrapbooker und DIY-Enthusiasten — und viele von ihnen sind auch Eltern, Großeltern und Betreuungspersonen, die Lernaktivitäten für Kinder schätzen. Dieses Publikum mit Lernmaterialien zu erreichen, erfordert das Verständnis dessen, was bei ihnen Anklang findet, und die entsprechende Positionierung Ihrer Produkte.\n\nVisuelle Qualität ist auf Creative Fabrica wichtiger als auf jeder anderen Bildungsplattform. Creative Fabricas Kernpublikum beurteilt Produkte zuerst nach Designqualität. Ein Mathe-Arbeitsblatt mit attraktiven Illustrationen, sauberem Layout und ansprechenden Farbschemata wird ein textlastiges Arbeitsblatt mit einfacher Formatierung übertreffen, selbst wenn der praktische Inhalt identisch ist. Nutzen Sie die Arbeitsblatt-Generatoren, um visuell überzeugende Ressourcen zu erstellen, die den Designerwartungen von Creative Fabricas Publikum entsprechen. Malvorlagen, illustrierte Zuordnungsaktivitäten und visuell thematisierte Wortsuchrätsel passen auf natürliche Weise zu den ästhetischen Standards eines Design-Marktplatzes.\n\nErstellen Sie Produkte, die sowohl praktischen als auch kreativen Zwecken dienen. Ein Set tierischer Malvorlagen funktioniert als Bildungsmarktaktivität, als Homeschool-Kunststunde, als Regentag-Beschäftigung für bastelbegeisterte Eltern und als Ruhezeitbeschäftigung für Betreuungspersonen. Positionieren Sie diese Produkte mit Beschreibungen und Tags, die beide Zielgruppen ansprechen: „praktische Malvorlagen" erfasst Käufersuchen, während „Kinder-Malvorlagen druckbar" und „Tier-Ausmalbilder" Craft- und Eltern-Publikum erfassen. Dasselbe physische Produkt kann grundlegend unterschiedliche Käufer ansprechen, wenn es durch deren Perspektive beschrieben wird.\n\nSaisonale und Feiertagsthemen funktionieren auf Creative Fabrica außergewöhnlich gut, weil das Craft-Publikum stark saisonal orientiert ist. Schulanfangs-Ressourcen im August und September, Halloween-thematische Aktivitäten im Oktober, Feiertagsarbeitsblätter im November und Dezember, Valentinstag-Aktivitäten im Januar und Februar — jedes saisonale Zeitfenster bringt Craft-Käufer zu Creative Fabrica, die bereits in Kaufstimmung für thematische Inhalte sind. Lernmaterialien mit saisonalen Themen nutzen dieses bestehende Kaufverhalten.\n\nThematische Arbeitsblatt-Pakete, die an beliebte Bastelkategorien anknüpfen, schaffen natürliche Entdeckungspfade. Arbeitsblätter mit Tier-, Natur-, Fahrzeug-, Lebensmittel- oder Weltraumthemen passen zu SVG- und Clipart-Kategorien, die auf Creative Fabrica starken Traffic erhalten. Ein Elternteil, das Tier-SVG-Dateien für ein Cricut-Projekt durchstöbert, könnte Ihre tierthematischen Zuordnungsarbeitsblätter über verwandte Produktvorschläge oder gemeinsame Tags entdecken. Diese kategorieübergreifenden Entdeckungsmomente sind einzigartig für Creative Fabrica und repräsentieren Traffic, den Sie über reine Bildungsplattformen nicht erreichen können.`,
     },
     {
-      heading: 'Ihre Creative Fabrica-Produkte vermarkten',
+      heading: `Ihre Creative Fabrica-Produkte vermarkten`,
       content: `Obwohl Creative Fabrica integrierte Marktplatz-Auffindbarkeit bietet (anders als Gumroad, wo Sie den gesamten Traffic selbst generieren), beschleunigt die Ergänzung der organischen Sichtbarkeit durch externes Marketing Ihr Wachstum. Die Marketingstrategien, die für Creative Fabrica-Produkte funktionieren, unterscheiden sich von denen, die auf Etsy oder Gumroad effektiv sind, weil Sie ein designbewusstes Publikum über eine Plattform erreichen, die bereits starke Such- und Stöberfunktionen hat.\n\nPinterest ist der natürlichste externe Marketingkanal für Creative Fabrica-Produkte. Pinterests visuelles Format passt zu Creative Fabricas designzentrierter Ästhetik, und Pinterest-Nutzer suchen aktiv nach druckbaren Ressourcen, Arbeitsblättern und Lernaktivitäten. Erstellen Sie Pins, die Ihre Arbeitsblätter mit stilisierter Fotografie oder attraktiven Mockups präsentieren. Verlinken Sie Pins direkt auf Ihre Creative Fabrica-Produktseiten. Organisieren Sie Ihre Pinterest-Boards nach Themen (Tieraktivitäten, Mathe-Arbeitsblätter, saisonale Druckvorlagen), um einen durchstöberbaren Katalog zu erstellen, der über die Zeit konsistenten Traffic generiert.\n\nSocial-Media-Marketing sollte die visuelle Attraktivität Ihrer Produkte betonen. Instagram Reels, die ein Durchblättern Ihres Arbeitsblatt-Pakets zeigen, TikTok-Videos, die demonstrieren, wie ein Kind Ihre Aktivitätsseiten nutzt, oder Facebook-Beiträge in Eltern- und Homeschool-Gruppen, die Ihre Ressourcen in Aktion zeigen — all diese nutzen die visuelle Qualität, die Creative Fabricas Publikum schätzt. Teilen Sie den Erstellungsprozess, die Designdetails und die fertigen Produkte im realen Lerneinsatz.\n\nCross-Promotion zwischen Creative Fabrica und anderen Plattformen, auf denen Sie verkaufen. Wenn Sie einen etablierten Etsy-Shop oder Gumroad-Store haben, erwähnen Sie Ihre Creative Fabrica-Präsenz in Ihren Social-Media-Biografien und E-Mail-Kommunikation (aber verlinken Sie nie direkt aus Etsy- oder Gumroad-Listings heraus, da dies deren Nutzungsbedingungen verletzt). Manche Käufer bevorzugen Creative Fabricas Abonnement-Modell gegenüber Einzelkäufen, und sie zu einer Plattform zu leiten, auf der sie über ihre bestehende Mitgliedschaft auf Ihre Inhalte zugreifen können, erhöht Ihre Gesamtreichweite, ohne Einzelverkäufe auf anderen Plattformen zu kannibalisieren.\n\nBauen Sie eine E-Mail-Liste unabhängig von jeder einzelnen Plattform auf. Ob Sie einen Dienst wie Mailchimp, ConvertKit oder einen einfachen Landingpage-Builder nutzen — das Sammeln von E-Mail-Adressen Ihres Publikums gibt Ihnen einen Marketingkanal, den kein Plattform-Algorithmus einschränken kann. Kündigen Sie neue Creative Fabrica-Uploads an, teilen Sie saisonale Produktsammlungen und bieten Sie Abonnenten exklusive Vorschauen. Eine E-Mail-Liste, die mehrere Plattformen umfasst, ermöglicht es Ihnen, Traffic dorthin zu lenken, wo er zu jedem gegebenen Zeitpunkt am wertvollsten ist.`,
     },
     {
-      heading: 'Ihr Creative Fabrica-Geschäft skalieren',
+      heading: `Ihr Creative Fabrica-Geschäft skalieren`,
       content: `Skalierung auf Creative Fabrica bedeutet, Ihren Katalog strategisch zu erweitern, Produktpakete zu erstellen und möglicherweise über mehrere Creative Fabrica-Kategorien hinweg zu verkaufen, um Ihre Sichtbarkeit und Einnahmen aus Einzelverkäufen und Abo-Downloads zu maximieren.\n\nBauen Sie einen umfassenden Katalog innerhalb Ihrer Bildungsnische auf, bevor Sie nach außen expandieren. Wenn Sie mit Mathe-Arbeitsblättern beginnen, erstellen Sie Ressourcen für mehrere Altersgruppen, Kompetenzbereiche (Addition, Subtraktion, Multiplikation, Zahlenerkennung, Zählen) und Themen (Tiere, Jahreszeiten, Feiertage, Fahrzeuge). Ein tiefer Katalog in einem Fachgebiet etabliert Sie als Spezialist, und Creative Fabricas Funktion für verwandte Produkte wird Ihre anderen Mathe-Ressourcen Käufern anzeigen, die ein einzelnes Produkt entdecken. Tiefe innerhalb einer Kategorie verstärkt Ihre Sichtbarkeit auf eine Weise, die verstreute Produkte über unzusammenhängende Kategorien nicht können.\n\nErstellen Sie Produktpakete, die Einzelkäufern Mehrwert bieten. Kombinieren Sie verwandte Arbeitsblatt-Pakete zu größeren Bündeln — ein „Komplettes Kindergarten-Mathe-Paket" mit all Ihren Kindergarten-Mathe-Ressourcen oder eine „Saisonale Aktivitätssammlung" über alle vier Jahreszeiten. Bepreisen Sie Pakete 30 % bis 40 % unter dem kombinierten Einzelpreis, um überzeugende Wertangebote zu schaffen. Pakete erhöhen Ihren durchschnittlichen Umsatz pro Käufer und geben Abonnenten einen einzelnen Download, der umfangreiche Inhalte liefert, was Ihre Abo-Einnahme-Kennzahlen verbessern kann.\n\nExpandieren Sie in angrenzende Creative Fabrica-Kategorien, sobald Ihr Bildungskatalog etabliert ist. Wenn Ihre Malvorlagen im Bildungsmarkt-Bereich gut abschneiden, erwägen Sie, designorientierte Malvorlagen in den breiteren Mal- oder Bastelkategorien hochzuladen. Wenn Ihre thematischen Arbeitsblätter attraktive Illustrationen verwenden, prüfen Sie, ob diese Illustrationen als Clipart oder Designelemente in Creative Fabricas Grafikkategorien angeboten werden könnten. Kategorieübergreifende Präsenz vervielfacht Ihre Sichtbarkeit und stellt Ihre Bildungsprodukte einem Publikum vor, das Sie durch nicht-praktische Inhalte entdeckt.\n\nNutzen Sie die Arbeitsblatt-Generatoren, um einen konsistenten Veröffentlichungsrhythmus aufrechtzuerhalten, ohne die Qualität zu opfern. Creative Fabricas Algorithmus bevorzugt aktive Designer, die regelmäßig hochladen, und Abonnenten folgen eher Designern, die kontinuierlich neue Inhalte hinzufügen. Der Malvorlagen-Generator erstellt Craft-freundliche Druckvorlagen, die bei Creative Fabricas Design-Publikum Anklang finden. Der Wortsuche-Generator produziert vielseitige Rätsel, die sowohl Bastler als auch Käufer ansprechen. Der Zuordnungs-Generator erstellt hochgradig ansprechende Aktivitäten, die über mehrere Altersgruppen funktionieren. Der Linien-Zeichnen-Generator produziert kreative Arbeitsblätter, die sich natürlich in einen designzentrierten Marktplatz einfügen. Die Veröffentlichung von 2 bis 4 neuen Produkten pro Woche hält Ihren Shop aktiv und wachsend, ohne einen nicht nachhaltigen Produktionsaufwand zu erfordern.\n\nÜberwachen Sie Ihre Creative Fabrica-Analysen, um strategische Entscheidungen zu leiten. Verfolgen Sie, welche Produkte die meisten Abo-Downloads gegenüber Einzelverkäufen generieren — diese unterscheiden sich oft, und das Verständnis des Musters hilft Ihnen, für beide Einnahmeströme zu optimieren. Identifizieren Sie, welche Themen, Altersgruppen und Produkttypen am stärksten abschneiden, und verteilen Sie Ihren Produktionsaufwand entsprechend. Produkte, die viele Abo-Downloads, aber wenige Einzelverkäufe generieren, könnten von einer anderen Preisgestaltung profitieren, während Produkte, die sich einzeln verkaufen, aber wenige Abo-Downloads erhalten, möglicherweise bessere Tags benötigen, um ihre Sichtbarkeit im Abo-Stöbererlebnis zu verbessern.`,
     },
   ],
@@ -70,22 +70,22 @@ const content: GuideContent = {
       content: `Creative Fabricas Stöbererlebnis ist intensiv visuell — Käufer scrollen durch Rasterlayouts von Produkt-Miniaturbildern und treffen Entscheidungen in Sekunden. Ihr Titelbild muss Produktqualität, Inhaltstyp und praktischen Wert auf einen Blick kommunizieren. Verwenden Sie Mockups, die Ihre Arbeitsblätter gedruckt und in realistischen Szenen zeigen (auf einem Schreibtisch, in Kinderhänden, in einer farbenfrohen Anordnung). Fügen Sie Texteinblendungen auf Ihrem Titelbild hinzu, die die Seitenanzahl, Altersgruppe und das Thema angeben: „40 Seiten | K–2 | Tierisches Thema" gibt Käufern drei Gründe zum Klicken, bevor sie Ihren Titel lesen. Studieren Sie die Titelbilder der meistverkauften Bildungsprodukte auf Creative Fabrica und notieren Sie sich Gemeinsamkeiten in Layout, Farbverwendung und Informationshierarchie.`,
     },
     {
-      heading: 'Für mehrere Käufer-Personas taggen',
+      heading: `Für mehrere Käufer-Personas taggen`,
       content: `Creative Fabricas Publikum ist vielfältiger als jede einzelne Bildungsplattform. Dasselbe Produkt könnte von einem Kindergarten-Käufer entdeckt werden, der nach „Bildungsmarkt-Aktivitäten" sucht, von einem Homeschool-Elternteil, das nach „druckbare Arbeitsblätter für Kinder" sucht, von einem Bastler, der nach „Kinder-Malvorlagen" sucht, oder von einem Großelternteil, das nach „Lernaktivitäten" sucht. Nutzen Sie Ihre gesamte Tag-Zuweisung, um Suchbegriffe von jeder dieser Käufer-Personas abzudecken. Denken Sie über praktischen Fachjargon hinaus: Ein Käufer weiß, nach „Phonetik-Arbeitsblätter" zu suchen, aber ein Elternteil sucht vielleicht nach „Buchstabenübungen für Vorschulkinder". Beide Suchanfragen sollten zu Ihrem Produkt führen, wenn es beide Zielgruppen bedient.`,
     },
     {
-      heading: 'Creative Fabricas Werbetools und Events nutzen',
+      heading: `Creative Fabricas Werbetools und Events nutzen`,
       content: `Creative Fabrica veranstaltet regelmäßig Werbeaktionen, Designer-Spotlights und saisonale Kampagnen, die die Produktsichtbarkeit dramatisch steigern können. Nehmen Sie an diesen Möglichkeiten teil, wenn sie sich bieten — wenn Ihre Produkte in eine von Creative Fabrica kuratierte Sammlung oder saisonale Aktion aufgenommen werden, werden sie dem gesamten Plattformpublikum präsentiert, das deutlich größer ist als der Traffic, den Ihre einzelnen Listings organisch anziehen. Halten Sie Ihren Produktkatalog aktuell und Ihr Designer-Profil aktiv, damit Sie sich für diese Werbemöglichkeiten qualifizieren. Designer, die regelmäßig hochladen und hohe Bewertungen aufrechterhalten, werden eher für hervorgehobene Platzierungen ausgewählt.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Abo-Einnahmen durch Download-Volumen maximieren',
+      heading: `Abo-Einnahmen durch Download-Volumen maximieren`,
       content: `Abo-Einnahmen auf Creative Fabrica sind proportional dazu, wie oft Abonnenten Ihre Produkte herunterladen. Dies schafft ein anderes Optimierungsziel als Einzelverkäufe: Anstatt den Preis pro Produkt zu maximieren, möchten Sie die Gesamtdownloads über Ihren Katalog hinweg maximieren. Produkte mit breiter Anziehungskraft — thematische Malvorlagen, vielseitige Arbeitsblatt-Pakete und saisonale Aktivitäten — tendieren dazu, mehr Abo-Downloads zu generieren als hochspezialisierte Nischenressourcen. Ein Paket „50 Tier-Malvorlagen", das Eltern, Käufer, Bastler und Großeltern anspricht, wird mehr Abo-Downloads anziehen als ein „Klasse 3 Modul 7 Brüche-Übung"-Blatt, das nur einen bestimmten Produktkatalogbedarf bedient. Bauen Sie Ihren Katalog mit einer Mischung aus breit ansprechenden Produkten für Abo-Volumen und zielgerichteten Produkten für Einzelverkäufe auf.`,
     },
     {
-      heading: 'Einen mehrstufigen Produktkatalog erstellen',
+      heading: `Einen mehrstufigen Produktkatalog erstellen`,
       content: `Strukturieren Sie Ihren Creative Fabrica-Katalog mit Produkten auf mehreren Umfangsstufen, um verschiedene Käuferbedürfnisse zu erfassen. Kleine, fokussierte Produkte (10 bis 15 Seiten, 3 € bis 5 €) bedienen Abonnenten, die schnelle, zielgerichtete Ressourcen wollen, und Einzelkäufer bei Impulskäufen. Mittlere, umfassende Pakete (30 bis 50 Seiten, 7 € bis 10 €) bieten substanziellen Wert für Einzelkäufer, die ein Semester oder eine Einheit vorausplanen. Große Bündel (80+ Seiten, 12 € bis 15 €) zielen auf engagierte Käufer ab, die alles zu einem Thema in einem Kauf möchten. Jede Stufe zieht verschiedene Segmente von Creative Fabricas Publikum an, und das Abonnement-Modell bedeutet, dass selbst Ihre günstigsten Produkte durch Mitglieder-Downloads Einnahmen generieren, unabhängig von ihrem Einzelpreis.`,
     },
     {
@@ -138,35 +138,35 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'druckvorlagen-verkaufen-gumroad',
-      title: 'Druckvorlagen auf Gumroad verkaufen',
+      slug: `druckvorlagen-verkaufen-gumroad`,
+      title: `Druckvorlagen auf Gumroad verkaufen`,
       description: `Eine Schöpfer-Direktverkaufsplattform zum Verkauf von Druckvorlagen ohne monatliche Gebühren, mit integriertem E-Mail-Marketing und 90 % Einnahmenerhalt.`,
     },
     {
       slug: 'kdp-oder-etsy-druckvorlagen',
-      title: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen',
+      title: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen`,
       description: `Ein detaillierter Vergleich der zwei größten Marktplatz-Plattformen für Druckvorlagen-Verkäufer, mit Gebühren, Traffic, Kontrolle und Einnahmepotenzial.`,
     },
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      title: 'Komplettanleitung Druckvorlagen-Geschäft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
+      title: `Komplettanleitung Druckvorlagen-Geschäft`,
       description: `Der grundlegende Geschäftsleitfaden zu Inhaltserstellung, kommerzieller Lizenzierung, Multi-Plattform-Strategie und Aufbau eines nachhaltigen Druckvorlagen-Geschäfts.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'druckvorlagen-verkaufen-gumroad', anchorText: 'Druckvorlagen auf Gumroad verkaufen' },
-    { pageType: 'guide', slug: 'tpt-materialien-erstellen-verkaufen', anchorText: 'Gumroad-Materialien erstellen und verkaufen' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: 'Etsy-Druckvorlagen richtig bepreisen' },
+    { pageType: 'guide', slug: `druckvorlagen-verkaufen-gumroad`, anchorText: `Druckvorlagen auf Gumroad verkaufen` },
+    { pageType: 'guide', slug: `tpt-materialien-erstellen-verkaufen`, anchorText: `Gumroad-Materialien erstellen und verkaufen` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Einen Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: `Etsy-Druckvorlagen richtig bepreisen` },
     { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für Lernmaterialien' },
-    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'Wortsuchrätsel mit Bildern erstellen' },
-    { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: 'Malvorlagen aus thematischen Bildern erstellen' },
-    { pageType: 'guide', slug: 'zuordnungs-arbeitsblaetter-erstellen', anchorText: `Zuordnungs-Arbeitsblätter für die Vorschule erstellen` },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: `Wortsuchrätsel mit Bildern erstellen` },
+    { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: `Malvorlagen aus thematischen Bildern erstellen` },
+    { pageType: 'guide', slug: `zuordnungs-arbeitsblaetter-erstellen`, anchorText: `Zuordnungs-Arbeitsblätter für die Vorschule erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
@@ -177,38 +177,38 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Produziert illustrierte Zuordnungsaktivitäten, die im Creative Fabrica-Bildungsmarkt-Bereich beliebt sind. Thematische Zuordnungsarbeitsblätter sprechen sowohl Käufer- als auch Elternpublikum auf der Plattform an.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Generiert thematische Wortsuchrätsel mit breiter Anziehungskraft über Creative Fabricas vielfältiges Publikum hinweg. Ein vielseitiger Produkttyp, der gleichermaßen Abo-Downloads und Einzelverkäufe anzieht.`,
     },
     {
       appId: 'drawing-lines',
-      title: 'Linien-Zeichnen-Arbeitsblatt-Generator',
+      title: `Linien-Zeichnen-Arbeitsblatt-Generator`,
       description: `Erstellt kreative Nachzeichen- und Zeichenarbeitsblätter, die sich natürlich in einen designfokussierten Marktplatz einfügen. Die künstlerische Natur der Zeichenaktivitäten spricht Creative Fabricas Craft-orientierte Käufer an.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Druckbare Malvorlage zum Verkauf von Lernressourcen auf dem Creative Fabrica-Marktplatz` },
+    heroImage: { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Druckbare Malvorlage zum Verkauf von Lernressourcen auf dem Creative Fabrica-Marktplatz` },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: `Druckbare Malvorlage für den Creative Fabrica-Bildungsmarkt-Bereich`, caption: 'Malvorlagen überbrücken die Lücke zwischen Craft und Bildung auf Creative Fabrica — sie sprechen sowohl Designer- als auch Käuferpublikum an' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt-Aktivität für Creative Fabrica-Bildungsprodukte`, caption: 'Thematische Zuordnungsaktivitäten sind stark nachgefragte Ressourcen im Creative Fabrica-Bildungsmarkt-Bereich' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel-Druckvorlage für den Creative Fabrica-Marktplatz`, caption: 'Wortsuchrätsel ziehen Abo-Downloads von Käufer und Eltern auf Creative Fabrica an' },
+      { src: `/samples/german/coloring/coloring portrait 2.webp`, alt: `Druckbare Malvorlage für den Creative Fabrica-Bildungsmarkt-Bereich`, caption: `Malvorlagen überbrücken die Lücke zwischen Craft und Bildung auf Creative Fabrica — sie sprechen sowohl Designer- als auch Käuferpublikum an` },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt-Aktivität für Creative Fabrica-Bildungsprodukte`, caption: `Thematische Zuordnungsaktivitäten sind stark nachgefragte Ressourcen im Creative Fabrica-Bildungsmarkt-Bereich` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel-Druckvorlage für den Creative Fabrica-Marktplatz`, caption: `Wortsuchrätsel ziehen Abo-Downloads von Käufer und Eltern auf Creative Fabrica an` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `So erstellen Sie Lern-Arbeitsblätter für Creative Fabrica`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katze 2 — thematisches Lernbild`, caption: 'Katze 2' },
   ],
 };
 

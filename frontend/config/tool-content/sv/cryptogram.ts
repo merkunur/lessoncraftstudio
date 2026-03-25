@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kryptogram arbetsblad generator',
+    primaryKeyword: `kryptogram arbetsblad generator`,
     secondaryKeywords: [
-      'bildchiffer pussel skapare för säljare',
-      'skapa kryptogram arbetsblad att sälja',
-      'utskrivbara kryptogram pussel kommersiellt bruk',
+      `bildchiffer pussel skapare för säljare`,
+      `skapa kryptogram arbetsblad att sälja`,
+      `utskrivbara kryptogram pussel kommersiellt bruk`,
       'kryptogram generator för KDP',
     ],
     lsiKeywords: [
-      'bild-till-bokstav chiffer utskriftsbara för Etsy',
-      'kodknäcknings arbetsblad generator verktyg',
-      'flerspråkig bildkryptogram skapare',
+      `bild-till-bokstav chiffer utskriftsbara för Etsy`,
+      `kodknäcknings arbetsblad generator verktyg`,
+      `flerspråkig bildkryptogram skapare`,
     ],
     titleTag: `Kryptogram Arbetsblad Generator | Skapa och Sälj Pussel`,
     metaDescription: `Generera kryptogram arbetsblad med bildchiffer kodning, svårighetsreglage, autotilldelningsläge, facit på 11 språk. Gratis provversion med vattenstämpel.`,
   },
 
   hero: {
-    title: 'Kryptogram Arbetsblad Generator',
+    title: `Kryptogram Arbetsblad Generator`,
     tagline: `Skapa bildchiffer pussel där varje bokstav mappas till en bild och användarna avkodar hela hemliga fraser genom mönsterigenkänning`,
     description: `Designa professionella kryptogram arbetsblad byggda på en bildchiffermekanik: varje alfabetsbokstav mappas till en unik bild, och din hemliga fras renderas som en sekvens av bilder som användarna måste avkoda tillbaka till läsbar text. Till skillnad från ordsökningar eller ordmixar som arbetar med enskilda ord kodar Kryptogram-generatorn hela meningar och fraser — användarna knäcker chiffret genom att deducera vilken bild som representerar vilken bokstav, med kontextuella ledtrådar från vanliga ord som «och», «den» och «är» för att påskynda sin kodknäckning. Reglaget Bokstäver att Avslöja (0–10) är den primära svårighetskontrollen: ställ in det på noll för en ren kodknäckningsutmaning utan startinformation, eller skjut upp det till tio för tung stöttning där många bokstav-till-bild-mappningar är förlösta som tips. Autotilldelning hämtar slumpmässiga bilder från valfri av 104 tematiska samlingar (mer än 3 100 illustrationer) för att fylla hela chiffret med ett klick, medan Manuell Tilldelning låter dig handplocka specifika bilder för specifika bokstäver med en fullständig visuell förhandsgranskning av alla mappningar. Ladda upp anpassade bilder för komplett kreativ kontroll. Facit inkluderar en bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning — den definitiva lösningsreferensen. Språkkänslighet är inbyggd: byt språk och både den hemliga meddelandetexten och alfabetet ändras. Svenska kryptogram kodar svenska fraser med å, ä, ö i alfabetet; tyska kryptogram inkluderar ä, ö, ü, ß; franska kryptogram använder é, è, ç, à. Varje språkversion är en genuint annorlunda chifferprodukt. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 5 typsnitt, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.`,
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: `Hur du Skapar Kryptogram Arbetsblad i 8 Enkla Steg`,
     steps: [
       {
-        title: 'Öppna Kryptogram Arbetsblad Skaparen',
+        title: `Öppna Kryptogram Arbetsblad Skaparen`,
         description: `Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga bildchiffer pussel omedelbart.`,
       },
       {
@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: `I avsnittet Sidinställningar väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, eller ange en anpassad storlek. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet från 104-tema bildbiblioteket och välj en dekorativ ramkant med oberoende opacitetskontroll.`,
       },
       {
-        title: 'Skriv in din hemliga fras och välj språk',
+        title: `Skriv in din hemliga fras och välj språk`,
         description: `Skriv frasen eller meningen du vill att användarna ska avkoda. Detta är det hemliga meddelandet som kommer att kodas som ett bildchiffer. Välj målspråk bland 11 stödda lokaler — den tillgängliga alfabetsuppsättningen justeras automatiskt efter lokal. Svenska använder 29 bokstäver inklusive å, ä, ö. Tyska lägger till ä, ö, ü, ß. Franska lägger till accenttecken som é, è, ç, à. Varje bokstav i din fras mappas till en bild.`,
       },
       {
@@ -44,19 +44,19 @@ const content: ToolContent = {
         description: `Använd Autotilldelning för att direkt mappa slumpmässiga bilder från det valda temat till alla otilldelade alfabetsbokstäver med ett klick — det snabbaste sättet att bygga ett komplett chiffer. Alternativt använd Manuell Tilldelning för att handplocka vilken specifik bild som representerar vilken specifik bokstav, med en visuell översikt av alla aktuella mappningar. Du kan också ladda upp anpassade bilder och tilldela dem till valfri bokstav för komplett kreativ kontroll.`,
       },
       {
-        title: 'Välj tema och färg- eller svartvitt-filter',
+        title: `Välj tema och färg- eller svartvitt-filter`,
         description: `Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 illustrationer — djur, mat, fordon, natur, högtider, yrken och dussintals fler. Använd Färg vs Svartvitt-filtret för att växla mellan fullfärgillustrationer för livfulla digitala produkter och svartvit streckkonst för bläckvänlig volymutskrift och KDP-pusselboks interiörer.`,
       },
       {
-        title: 'Ställ in svårighet med Bokstäver att Avslöja',
+        title: `Ställ in svårighet med Bokstäver att Avslöja`,
         description: `Justera reglaget Bokstäver att Avslöja från 0 till 10 för att kontrollera hur många bokstav-till-bild-mappningar som är förlösta som tips på arbetsbladet. Noll avslöjanden skapar en ren kodknäckningsutmaning där användarna börjar utan information. Tio avslöjanden ger tung stöttning för yngre eller mindre erfarna lösare. Denna enda kontroll skapar en mjuk svårighetsgradient och fungerar som den primära differentieringsaxeln för nivåindelade produktpaket.`,
       },
       {
-        title: 'Anpassa typsnitt, text och arbetsyta',
+        title: `Anpassa typsnitt, text och arbetsyta`,
         description: `Välj bland 5 typsnittsfamiljer: Lexend Deca, Baloo 2, Nunito, Quicksand och Fredoka. Lägg till en arbetsblads-titel, namn- och datumfält, anpassade instruktioner eller valfri överläggtext. Använd Fabric.js arbetsyteverktyg för att dra, ändra storlek, rotera och flytta varje element på sidan. Justeringsverktyg, lås- och upplåsningskontroller, och obegränsad ångra och gör om låter dig finjustera layouten exakt.`,
       },
       {
-        title: 'Generera bokstavslegend facit och ladda ner',
+        title: `Generera bokstavslegend facit och ladda ner`,
         description: `Växla till fliken Facit och generera en löst version som inkluderar en komplett bokstavslegend — varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning för definitiv referens. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning. Ladda ner både arbetsbladet och facit som tryckfärdig PDF eller högupplöst JPEG med 400+ DPI med en 6× renderingsmultiplikator.`,
       },
     ],
@@ -64,7 +64,7 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Tematiska bildchiffer pusselpaket',
+      title: `Tematiska bildchiffer pusselpaket`,
       description: `Skapa uppsättningar av 10–20 kryptogram arbetsblad grupperade efter bildtema — bondgårdsdjur, havsdjur, fordon, mat, högtider och fler. Använd Autotilldelning för att mappa tematiska bilder till alfabetet och variera Bokstäver att Avslöja-inställningen genom setet för progressiv svårighet: börja med 8 avslöjanden för uppvärmningspussel och bygg ner till 0 avslöjanden för expertutmaningar. Inkludera bokstavslegend facit för varje pussel.`,
     },
     {
@@ -72,7 +72,7 @@ const content: ToolContent = {
       description: `Generera 50–100 kryptogramsidor med progressiv svårighetsstruktur. Öppna med tungt stöttade pussel vid 8–10 Bokstäver att Avslöja för uppvärmning, avancera genom 3–5 avslöjanden för mellankapitlen och avsluta med nollavslöjande expertutmaningar. Gruppera kapitel efter tema för bläddringsvänlig variation och inkludera bokstavslegend facit i slutet. Använd gråskaleläge för lägre utskriftskostnader. Bildkryptogram pusselböcker upptar en mindre konkurrensutsatt KDP-nisch.`,
     },
     {
-      title: 'nivågrupperade kodknäckningsstationer',
+      title: `nivågrupperade kodknäckningsstationer`,
       description: `Bygg nivåindelade kryptogram övningsset med Bokstäver att Avslöja som differentieringsaxel. Nivå 1: 8 avslöjanden, korta fraser, tematiska bilder för tidiga läsare. Nivå 2: 5 avslöjanden, medellånga fraser för utvecklande avkodare. Nivå 3: 2 avslöjanden, längre meningar för självsäkra lösare. Nivå 4: 0 avslöjanden, fullständig kodknäckningsutmaning för avancerade användare. Paketera varje nivå med bokstavslegend facit och en framstegsspårningsguide.`,
     },
     {
@@ -80,28 +80,28 @@ const content: ToolContent = {
       description: `Byt språk och regenerera samma kryptogramdesign på alla 11 stödda språk. Både den hemliga meddelandetexten och den tillgängliga alfabetsuppsättningen ändras efter lokal — ett svenskt kryptogram kodar en svensk fras med å, ä, ö i alfabetet, ett tyskt kryptogram inkluderar ä, ö, ü, ß, ett franskt kryptogram använder é, è, ç, à. Varje språkversion är ett genuint annorlunda chifferpussel.`,
     },
     {
-      title: 'Anpassade vokabulär chiffer-arbetsblad',
+      title: `Anpassade vokabulär chiffer-arbetsblad`,
       description: `Koda ämnesspecifika meningar som kryptogrampussel för riktat lärande: naturvetenskapliga definitioner, historiska fakta, motiverande citat, veckovisa stavningsord arrangerade i en fras eller språkövningsmeningar. Skriv valfri fras som det hemliga meddelandet och verktyget bygger bildchiffret automatiskt. Kodknäckningsformatet förvandlar rutinmässig vokabulärrepetition till en engagerande pusselaktivitet.`,
     },
     {
-      title: 'Säsongsbetonade och högtidschiffer-paket',
+      title: `Säsongsbetonade och högtidschiffer-paket`,
       description: `Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade kryptogrampaket. Ett «Halloween Hemliga Meddelanden»-paket med kusligt tematiserade chifferbilder säljer starkt i oktober. Jul, skolstart, alla hjärtans dag och sommar-teman har alla sina egna toppförsäljningsfönster. Kombinera stöttade pussel vid 6–8 avslöjanden för yngre användare med nollavslöjande expertpussel för äldre barn i ett enda säsongspaket.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Svårighetsgraduerad chifferbutik på Etsy',
+      title: `Svårighetsgraduerad chifferbutik på Etsy`,
       description: `Öppna en Etsy-butik specialiserad på kryptogram arbetsblad organiserade efter svårighetsnivå med Bokstäver att Avslöja som gradueringsaxel. Nybörjarpaket (7–10 avslöjanden) ger tung stöttning för unga avkodare. Mellannivåpaket (3–6 avslöjanden) utmanar utvecklande lösare. Expertpaket (0–2 avslöjanden) erbjuder rena kodknäckningsutmaningar. De flesta pusselsäljare erbjuder generiska ensvårighets produkter — svårighetsgraduerade kryptogram låter köpare hitta exakt rätt utmaningsnivå.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP tematisk chifferboksserie',
+      title: `Amazon KDP tematisk chifferboksserie`,
       description: `Sammanställ 80+ bildkryptogrampussel till en tematisk pusselbok för Amazon KDP. Strukturera en serie kring populära teman: «Djur Hemliga Meddelanden», «Mat och Kök Chifferpussel», «Natur Kodknäckningsäventyr». Varje bok använder progressiv Bokstäver att Avslöja-svårighet från tungt stöttad till noll tips med bokstavslegend facit i slutet. Kryptogram pusselböcker är en dramatiskt underbetjänad nisch på KDP.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad kodknäckningsstationer',
+      title: `Gumroad kodknäckningsstationer`,
       description: `Ladda upp kryptogram arbetsbladspaket till Gumroad organiserade efter tema och svårighetsnivå. Inkludera fyra svårighetsnivåer per tema med Bokstäver att Avslöja som differentieringsaxel. Paketera med bokstavslegend facit och framstegsspårningsblad. Chiffermekaniken är naturligt engagerande — användarna upplever genuin kodknäckningsspänning allteftersom varje avkodad bokstav låser upp mer av det hemliga meddelandet.`,
       platform: 'Gumroad',
     },
@@ -116,7 +116,7 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad komplett kodknäcknings-verktygskit',
+      title: `Gumroad komplett kodknäcknings-verktygskit`,
       description: `Paketera kryptogram arbetsblad med ordsökning, ordmix, gissa ordet och matchningsarbetsblad för att skapa ett omfattande litteracitetspussel-verktygskit på Gumroad. Varje format övar en annorlunda kognitiv färdighet: kryptogram bygger deduktion och mönsterigenkänning genom kodknäckning, ordsökning övar visuell skanning, ordmix övar bokstavsomflyttning, gissa ordet testar stavningsåtekallelse. Ett flerformats pusselkit motiverar ett premiumpris.`,
       platform: 'Gumroad',
     },
@@ -132,7 +132,7 @@ const content: ToolContent = {
       description: `Kryptogram-generatorn kodar hela fraser, inte enskilda ord. Längre meningar ger naturligt fler kontextuella ledtrådar — vanliga korta ord som «och», «den» och «är» hjälper lösare knäcka chiffret snabbare. Använd korta tvåordsfraserför maximal svårighet och långa meningar med vanliga ord för ett mer tillgängligt pussel. Fraslängd är en ytterligare svårighetshävstång utöver Bokstäver att Avslöja.`,
     },
     {
-      title: 'Använd Autotilldelning för snabb batchproduktion',
+      title: `Använd Autotilldelning för snabb batchproduktion`,
       description: `Autotilldelning fyller hela chiffret med ett klick genom att mappa slumpmässiga bilder från det valda temat till varje otilldelad bokstav. För batchproduktion, välj ett tema, skriv din fras, tryck Autotilldelning, justera Bokstäver att Avslöja och generera. Du kan producera ett komplett tematiserat chifferpussel på under två minuter. Reservera Manuell Tilldelning för premiumprodukter.`,
     },
     {
@@ -140,11 +140,11 @@ const content: ToolContent = {
       description: `Varje temasamling finns tillgänglig i fullfärg och svartvitt-varianter. Skapa en «Färgutgåva» för digitala nedladdningar och livfulla Etsy-annonser, regenerera sedan samma design i svartvitt för bläckvänlig volymutskrift och KDP-pusselboks interiörer. Två produktvarianter från en designsession utan extra innehållsarbete.`,
     },
     {
-      title: 'Gå flerspråkigt för 11× produktutbud',
+      title: `Gå flerspråkigt för 11× produktutbud`,
       description: `Eftersom Kryptogram är språkkänsligt ändrar språkbyte både det hemliga meddelandet och alfabetsuppsättningen. Ett svenskt kryptogram inkluderar å, ä, ö; ett tyskt inkluderar ä, ö, ü, ß; ett franskt inkluderar é, è, ç, à. Varje version är en fundamentalt annorlunda chifferprodukt. Ett designarbetsflöde producerar 11 distinkta annonser för 11 olika köparmarknader.`,
     },
     {
-      title: 'Använd gråskala för KDP och bulkutskrift',
+      title: `Använd gråskala för KDP och bulkutskrift`,
       description: `Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsförhandsvisningar och digitala nedladdningar där livfulla tematiska bilder lockar klick.`,
     },
     {
@@ -155,15 +155,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Verktyget erbjuder en gratis provversion med alla funktioner — Autotilldelning, Manuell Tilldelning, anpassad bilduppladdning, Bokstäver att Avslöja (0–10), alla 104 bildteman, bokstavslegend facit och alla exportformat. Ingen registrering, inget kreditkort krävs. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.`,
     },
     {
-      question: 'Hur fungerar bildkryptogram-chiffret?',
+      question: `Hur fungerar bildkryptogram-chiffret?`,
       answer: `Varje alfabetsbokstav mappas till en unik bild. Din hemliga fras renderas som en sekvens av bilder som ersätter varje bokstav. användarna studerar bildsekvensen, deducerar vilken bild som representerar vilken bokstav med mönsterigenkänning och kontextuella ledtrådar, och skriver de avkodade bokstäverna för att avslöja det ursprungliga meddelandet. Mellanslag och skiljetecken bevaras, så ordgränser är synliga.`,
     },
     {
-      question: 'Vad gör reglaget Bokstäver att Avslöja (0–10)?',
+      question: `Vad gör reglaget Bokstäver att Avslöja (0–10)?`,
       answer: `Bokstäver att Avslöja kontrollerar hur många bokstav-till-bild-mappningar som är förlösta som tips på arbetsbladet. Vid 0 börjar användarna utan avkodade bokstäver och måste knäcka hela chiffret från grunden. Vid 10 är tio mappningar redan avslöjade, vilket ger tung stöttning för nybörjare. Denna inställning är den primära svårighetskontrollen och den naturliga differentieringsaxeln för nivåindelade produktpaket.`,
     },
     {
@@ -179,11 +179,11 @@ const content: ToolContent = {
       answer: `Kryptogram är ett bildchiffer — användarna avkodar en bildsekvens tillbaka till text genom att deducera bokstav-till-bild-mappningar över en hel fras. Ordsökning låter användarna hitta dolda ord i ett bokstavsrutnät. Ordmix ger blandade bokstavsbrickor att omordna. Gissa Ordet visar luckor för användarna att fylla i. Kryptogram är det enda formatet som övar deduktion och kodknäckningslogik.`,
     },
     {
-      question: 'Hur fungerar det lokalmedvetna alfabetet?',
+      question: `Hur fungerar det lokalmedvetna alfabetet?`,
       answer: `När du väljer ett språk justeras den tillgängliga alfabetsuppsättningen automatiskt. Svenska använder 29 bokstäver inklusive å, ä, ö. Tyska lägger till ä, ö, ü, ß. Franska lägger till é, è, ç, à och andra accenttecken. Både den hemliga meddelandetexten och chifferalfabetet ändras efter lokal, så varje språkversion är ett genuint annorlunda chifferpussel med olika ord, olika bokstavsmappningar och en annorlunda lösningsupplevelse.`,
     },
     {
-      question: 'Vad visar bokstavslegend facit?',
+      question: `Vad visar bokstavslegend facit?`,
       answer: `Facit inkluderar en komplett bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad alfabetisk ordning. Detta är den definitiva referensen för att kontrollera lösningar — användare eller säljare kan slå upp valfri bild för att bekräfta vilken bokstav den representerar. Facit visar också den helt avkodade frasen för snabb verifiering.`,
     },
     {
@@ -191,11 +191,11 @@ const content: ToolContent = {
       answer: `Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för kryptogram arbetsbladen du skapar.`,
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
+      question: `Vilka filformat kan jag ladda ner?`,
       answer: `Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer med 400+ DPI med en 6× renderingsmultiplikator. Stödda sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande och anpassade dimensioner. Växla gråskala för bläckvänlig utmatning. PDF:er är idealiska för direkt utskrift och KDP-uppladdning; JPEG:er fungerar utmärkt för produktmockups och sociala medier.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga så du kan fullt utvärdera verktyget innan du köper. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.`,
     },
   ],
@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gissa-ordet-skapare', anchorText: 'Gissa Ordet Skapare' },
     { pageType: 'tool', slug: 'ordmix-skapare', anchorText: 'Ordmix Skapare' },
     { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Alfabetståg Skapare' },
-    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Skapare' },
+    { pageType: 'tool', slug: `prepositioner-arbetsblad-skapare`, anchorText: `Prepositioner Arbetsblad Skapare` },
     { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Skapare' },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
   ],

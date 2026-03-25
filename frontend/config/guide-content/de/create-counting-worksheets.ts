@@ -2,20 +2,20 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Zähl- und Diagramm-Arbeitsblätter erstellen',
+    primaryKeyword: `Zähl- und Diagramm-Arbeitsblätter erstellen`,
     secondaryKeywords: [
-      'Bilddiagramm-Arbeitsblatt-Generator',
-      'Zähl- und Diagramm-Arbeitsblätter erstellen',
+      `Bilddiagramm-Arbeitsblatt-Generator`,
+      `Zähl- und Diagramm-Arbeitsblätter erstellen`,
       `druckbare Bilddiagramm-Arbeitsblätter zum Verkaufen`,
-      'Balkendiagramm Zähl-Arbeitsblatt-Ersteller',
+      `Balkendiagramm Zähl-Arbeitsblatt-Ersteller`,
     ],
     lsiKeywords: [
       'Streubild-Raster Zählübung',
       `automatischer Lösungsschlüssel Diagramm-Arbeitsblatt`,
-      'duale Arbeitsfläche Datenrepräsentations-Werkzeug',
-      'Diagramm-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Datenkompetenzen-Arbeitsbücher',
-      'kommerzielle Lizenz Bilddiagramm-Ersteller',
+      `duale Arbeitsfläche Datenrepräsentations-Werkzeug`,
+      `Diagramm-Arbeitsblätter auf Etsy verkaufen`,
+      `Amazon KDP Datenkompetenzen-Arbeitsbücher`,
+      `kommerzielle Lizenz Bilddiagramm-Ersteller`,
     ],
     titleTag: `Zähl- und Diagramm-Arbeitsblätter erstellen — Anleitung`,
     metaDescription: `Zähl-Arbeitsblätter mit Bilddiagrammen und automatischen Lösungsschlüsseln erstellen. 104 Themen. Schritt-für-Schritt-Anleitung für Etsy, Amazon KDP und Gumroad.`,
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `Navigieren Sie zum Bilddiagramm-Arbeitsblatt-Ersteller und klicken Sie auf „Jetzt kostenlos testen", um den Generator in Ihrem Browser zu starten. Das Werkzeug lädt sofort mit einer Einstellungsseitenleiste links und einer dualen Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich.\n\nDie duale Arbeitsfläche ist ein Unterscheidungsmerkmal dieses Generators. Im Gegensatz zu Einzelflächen-Arbeitsblatt-Werkzeugen erstellt der Bilddiagramm-Ersteller gleichzeitig sowohl ein Nutzer-Arbeitsblatt als auch einen Käufer-Lösungsschlüssel in derselben Sitzung. Sie arbeiten hauptsächlich auf dem Arbeitsblatt-Tab während der Erstellung und wechseln dann zum Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu überprüfen, bevor Sie beide exportieren.\n\nNehmen Sie sich einen Moment, um sich mit den Seitenleisten-Bereichen vertraut zu machen: Seiteneinrichtung für Abmessungen und Dekorationen, Bildbibliothek zur Auswahl Ihrer 6 Bildtypen und Textwerkzeuge zum Hinzufügen eigener Titel und Anweisungen. Der Arbeitsflächenbereich unterstützt vollständiges Drag-and-Drop-Editing mit Zoom-Steuerung von 25 % bis 300 %.`,
     },
     {
-      heading: 'Seitenlayout und Hintergrund festlegen',
+      heading: `Seitenlayout und Hintergrund festlegen`,
       content: `Im Bereich Seiteneinrichtung wählen Sie Ihre Seitengröße. Optionen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und benutzerdefinierte Abmessungen. US Letter ist der Standard für nordamerikanische Käufer, während A4 europäische und internationale Märkte bedient. Die Erstellung beider Versionen verdoppelt Ihre Marktreichweite mit minimalem Zusatzaufwand.\n\nLegen Sie eine Seitenhintergrundfarbe fest — Weiß ist der Standard für saubere, druckfreundliche Arbeitsblätter. Für digitale Produkte oder Premium-Bundles kann ein helles Pastell visuelle Wärme hinzufügen.\n\nDer Generator bietet sowohl Hintergrundthemen als auch Rahmenthemen aus der integrierten Bibliothek, jeweils mit einem unabhängigen Deckkraftregler (0–1, Schrittweite 0,05). Setzen Sie einen dezenten Aquarellhintergrund auf 15–25 % Deckkraft, um Textur hinzuzufügen, ohne vom Bildraster und Balkendiagramm abzulenken. Legen Sie einen dekorativen Rahmen auf 80–100 % Deckkraft für einen polierten Rahmen. Hintergrund- und Rahmenthemen arbeiten unabhängig, sodass Sie mischen und kombinieren können, um einen professionellen Produktlook zu erstellen. Konsistentes Styling über ein Bundle hinweg schafft eine kohärente Markenidentität, die Käufer erkennen und zu der sie zurückkehren.`,
     },
     {
@@ -43,7 +43,7 @@ const content: GuideContent = {
       content: `Der Bilddiagramm-Ersteller bietet zwei verschiedene Arbeitsabläufe zur Auswahl der 6 Bildtypen, die auf Ihrem Arbeitsblatt erscheinen.\n\nAutomatischer Modus: Verwenden Sie das Dropdown „Arbeitsblatt-Bildquelle", um ein Thema wie Tiere, Lebensmittel oder Fahrzeuge auszuwählen. Die App wählt zufällig 6 Bilder aus dieser Sammlung. Dies ist der schnellste Arbeitsablauf für den Aufbau großer Bundles — Thema auswählen, generieren, wiederholen. Mit 104 Themensammlungen mit über 3.100 Illustrationen haben Sie enorme Vielfalt ohne manuelle Auswahl.\n\nManueller Modus: Durchsuchen Sie die Bildbibliothek nach Thema oder suchen Sie nach Stichwort, dann klicken Sie genau 6 Bilder an. Ausgewählte Bilder erscheinen in einer Vorschaustreifen, wo Sie zum Entfernen und Ersetzen einzelner Auswahlen klicken können. Die manuelle Auswahl gibt Ihnen präzise Kontrolle darüber, welche Bildtypen zusammen erscheinen — nützlich für die Erstellung marktangepasster Arbeitsblätter, bei denen bestimmte Elemente wichtig sind (nur Bauernhoftiere, nur Meerestiere oder bestimmte Lebensmittelgruppen).\n\nSie können auch eigene PNG-, JPG- oder GIF-Bilder über die Upload-Schaltfläche hochladen — für fachspezifische Bilddiagramme, gebrandete Inhalte oder Nischenthemen, die die integrierte Bibliothek nicht abdeckt.\n\nBeide Modi garantieren genau 6 Bildtypen pro Arbeitsblatt, was für das 6-Spalten-Balkendiagramm-Format unverzichtbar ist. Die strategische Wahl zwischen automatisch und manuell hängt von Ihrem Produkt ab: automatisch für schnelle Bundle-Erstellung, manuell für kuratierte Bildungsprodukte.`,
     },
     {
-      heading: 'Bilddiagramm-Arbeitsblatt generieren',
+      heading: `Bilddiagramm-Arbeitsblatt generieren`,
       content: `Klicken Sie auf Generieren, um Ihr Arbeitsblatt zu erstellen. Die App führt mehrere Operationen gleichzeitig durch:\n\nZuerst ordnet sie 20 verstreute Symbole aus Ihren 6 ausgewählten Bildtypen in einem 4×5 Raster mit gestricheltem Rand am oberen Seitenrand an. Jeder Bildtyp erscheint 1–5 Mal in einer zufälligen Verteilung, sodass jede Generierung eine einzigartige Zählherausforderung erzeugt. Die verstreute Anordnung verhindert, dass Nutzer einfach Zeilen oder Spalten zählen — sie müssen visuell scannen und jeden Bildtyp einzeln identifizieren.\n\nUnterhalb des Rasters erscheint ein 6-Spalten × 5-Zeilen Balkendiagramm mit Spalten, die nach jedem Bildtyp beschriftet sind, und Zeilen, die von unten nach oben 1–5 nummeriert sind. Die Nutzer zählen, wie viele von jedem Bildtyp im Raster oben erscheinen, und füllen dann die entsprechende Anzahl von Zellen in der passenden Spalte aus.\n\nEin automatisch generierter Kopfbereich zeigt einen lokalisierten „Bilddiagramm"-Titel und Zählanweisungen in einem gestalteten gelben Banner (#FFD93D) mit orangem Rahmen. Dieser Kopfbereich passt sich automatisch an alle 11 unterstützten Sprachen an, wenn Sie die UI-Sprache wechseln.\n\nUntersuchen Sie das generierte Arbeitsblatt sorgfältig. Überprüfen Sie, dass alle 6 Bildtypen im Raster deutlich unterscheidbar sind. Stellen Sie sicher, dass die Balkendiagramm-Beschriftungen mit den verstreuten Bildern darüber übereinstimmen. Wenn Sie eine andere Zufallsverteilung möchten, klicken Sie einfach erneut auf Generieren — die App erzeugt jedes Mal eine völlig neue Anordnung.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Klicken Sie auf den Lösungsschlüssel-Tab neben dem Arbeitsblatt-Tab, um die automatisch generierte Lösung anzuzeigen. Der Lösungsschlüssel zeigt dasselbe Bildraster und Balkendiagramm, aber die korrekten Zellen sind mit gelber (#FFC857) Markierung gefüllt, die genau anzeigt, wie viele von jedem Bildtyp im Raster erscheinen.\n\nDer Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert. Es gibt keinen separaten Erstellungsschritt, kein manuelles Zählen und keine Fehlermöglichkeit. Wenn Sie auf dem Arbeitsblatt-Tab auf Generieren klicken, wird der Lösungsschlüssel-Tab gleichzeitig mit der passenden Lösung aktualisiert.\n\nDieses Duale-Arbeitsflächen-System ist Ihr größter Produktionsvorteil. Konkurrierende Verkäufer, die Diagramm-Arbeitsblätter manuell erstellen, müssen jedes Bild zählen und jede Lösungsschlüssel-Zelle von Hand ausfüllen — ein mühsamer Prozess, der fehleranfällig ist. Der Bilddiagramm-Ersteller eliminiert dies vollständig. Sie können 15–20 einzigartige Arbeitsblätter pro Themensitzung generieren, jedes mit einem verifizierten Lösungsschlüssel, in der Zeit, die es dauern würde, ein einzelnes Arbeitsblatt manuell zu erstellen und zu überprüfen.\n\nKäufer suchen auf jedem Marktplatz gezielt nach Diagramm-Arbeitsblättern „mit Lösungsschlüssel". Das Einbeziehen des Lösungsschlüssels bei jedem Produkt ist keine Option — es ist eine Grunderwartung. Die automatische Generierungsfunktion stellt sicher, dass Sie niemals ein Produkt ohne Lösungsschlüssel ausliefern.`,
     },
     {
-      heading: 'Nutzerfelder hinzufügen und Kopfbereich anpassen',
+      heading: `Nutzerfelder hinzufügen und Kopfbereich anpassen`,
       content: `Aktivieren Sie das Kontrollkästchen Name/Datum einbeziehen, um formatierte „Name: ____" und „Datum: ____" Felder zum Arbeitsblatt hinzuzufügen (Fredoka 18px #333). Dieses einzelne Kontrollkästchen verwandelt ein generisches Druckprodukt in eine strukturierte Bildungsmarktaktivität. Käufer auf Gumroad suchen gezielt nach „einsatzfertigen" und „drucken-und-loslegen" Materialien mit integrierten Nutzer-Identifikationsbereichen.\n\nDer automatisch generierte Kopfbereich zeigt automatisch den „Bilddiagramm"-Titel und Zählanweisungen in der aktiven UI-Sprache an. Wechseln Sie zwischen Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch, um Kopfbereiche in jeder dieser Sprachen zu generieren. Der Arbeitsblattinhalt selbst — verstreute Bilder und nummerierte Balkendiagramm-Zellen — verwendet universelle visuelle Elemente, die in jeder Sprache identisch funktionieren, ohne Änderungen.\n\nDiese Lokalisierungsfähigkeit schafft eine einzigartige Produktchance. Sie können dasselbe Arbeitsblatt mit Kopfbereichen in mehreren Sprachen generieren und sprachspezifische Versionen auf internationalen Marktplätzen verkaufen. Eine Erstellungssitzung produziert weltweit verkaufbare Produkte ohne Übersetzungsaufwand, außer dem Wechsel der UI-Sprache.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `Verwenden Sie den Textwerkzeuge-Bereich, um eigene Titel, Beschriftungen oder Anweisungen zu Ihrem Arbeitsblatt hinzuzufügen. Sieben Schriftarten stehen zur Verfügung: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Passen Sie die Textumrandungsbreite von 0 bis 10 in 0,5-Schritten an, um lesbare Überschriften zu erstellen, die sich von jedem Hintergrund abheben.\n\nDie vollständige Fabric.js-Arbeitsfläche unterstützt Ziehen, Größenänderung und Drehung bei jedem Element. Verwenden Sie Ebenen-Steuerungen zur Verwaltung der Stapelreihenfolge — Elemente nach vorne oder hinten verschieben, fertige Elemente sperren, um versehentliche Änderungen zu verhindern. Zoomen Sie von 25 % bis 300 % für präzise Platzierung von Text und dekorativen Elementen.\n\nRückgängig und Wiederherstellen bis zu 20 Verlaufszustände mit Strg+Z und Strg+Y. Dies gibt Ihnen die Freiheit, mit Layouts, Textplatzierung und Gestaltung zu experimentieren, ohne sich Sorgen um den Verlust früherer Arbeit zu machen.\n\nFür die Produkterstellung erwägen Sie, einen eigenen Titel wie „Zähle und zeichne ein Diagramm — Bauernhoftiere" oder einen gebrandeten Fußzeilentext mit Ihrem Shop-Namen hinzuzufügen. Konsistentes Text-Styling über ein Bundle hinweg (gleiche Schrift, gleiche Größe, gleiche Position) schafft eine professionelle Produktlinie, die Käufer als zusammengehörig und vertrauenswürdig erkennen.`,
     },
     {
-      heading: 'Alle vier Dateien herunterladen',
+      heading: `Alle vier Dateien herunterladen`,
       content: `Der Bilddiagramm-Ersteller erzeugt vier Dateien pro Generierungssitzung. Der Arbeitsblatt-Tab bietet Arbeitsblatt-JPEG und Arbeitsblatt-PDF zum Download. Der Lösungsschlüssel-Tab bietet Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF zum Download. Alle Dateien werden bei 300 DPI für professionelle Druckqualität gerendert.\n\nAktivieren Sie Graustufen vor dem Download für tintenfreundliche Versionen, die ideal für den Bildungsmarktdruck und Amazon KDP Schwarz-Weiß-Innenteile sind. Der Graustufen-Umschalter gilt für den aktuell aktiven Tab, sodass Sie ein Farb-Arbeitsblatt mit einem Graustufen-Lösungsschlüssel exportieren können oder umgekehrt.\n\nFür Marktplatz-Einträge exportieren Sie die JPEG-Versionen als Vorschaubilder und die PDF-Versionen als Ihre Produktdateien. Käufer möchten genau sehen, was sie kaufen, und die JPEG-Vorschau dient diesem Zweck, während das PDF perfekte Formatierung auf allen Geräten und Druckern beibehält.\n\nUm ein vollständiges Produktbundle aufzubauen, generieren Sie mehrere Arbeitsblätter, indem Sie wiederholt auf Generieren klicken — mit demselben oder verschiedenen Themen. Jeder Klick erzeugt eine neue Zufallsverteilung von 20 Symbolen und schafft eine einzigartige Zählherausforderung. Laden Sie alle vier Dateien nach jeder Generierung herunter und organisieren Sie sie in thematische Ordner für Ihre Produktpakete.\n\nDie kostenlose Testversion mit Wasserzeichen erzeugt voll funktionsfähige Exporte mit sichtbarem Wasserzeichenüberlagerung. So können Sie Druckqualität bewerten, Formatierung überprüfen und Testdrucke erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Exporten und produziert saubere, verkaufsfertige Dateien.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Bilddiagramm-Arbeitsblätter auf Etsy verkaufen',
+      heading: `Bilddiagramm-Arbeitsblätter auf Etsy verkaufen`,
       content: `Etsy ist der größte Marktplatz für druckbare Bildungsarbeitsblätter, und Bilddiagramm-Arbeitsblätter nehmen eine wachsende Nische innerhalb der Mathematik-Kategorie ein.\n\nTiteloptimierung: Platzieren Sie Ihr Hauptkeyword früh. Starke Beispiele: „Zähl- und Diagramm-Arbeitsblätter — Tierethema — Bilddiagramm mit Lösungsschlüssel — Druckbares PDF" oder „Bilddiagramm-Aktivitätsblätter — Datenrepräsentation — Kindergarten Mathe-Center." Etsy-Titel können bis zu 140 Zeichen lang sein — nutzen Sie den vollen Raum, um sowohl breite Keywords (Zähl-Arbeitsblätter, Diagramm-Arbeitsblätter) als auch spezifische Keywords (Bilddiagramm, Balkendiagramm-Aktivität) zu erfassen.\n\nTags: Verwenden Sie alle 13 verfügbaren Tags. Kombinieren Sie breit und spezifisch: „Zähl-Arbeitsblätter", „Bilddiagramm", „Diagramm-Aktivität", „Datenrepräsentation", „Balkendiagramm-Arbeitsblatt", „Kindergarten-Mathe", „Mathe-Center-Aktivität", „druckbare Mathe-Arbeitsblätter", „Zählen und Diagramme", „Homeschool-Mathe", „Bildungsmarkt-Arbeitsblätter mit Lösungsschlüssel", „visuelle Mathe-Aktivität" und ähnliche Variationen.\n\nListing-Bilder: Laden Sie 5–10 Bilder hoch. Fügen Sie eine ganzseitige Arbeitsblattvorschau, eine Nahaufnahme des Streubild-Rasters, den Balkendiagramm-Bereich, den Lösungsschlüssel mit gelb markierten Zellen und ein Mockup ein, das das ausgedruckte Arbeitsblatt in Verwendung zeigt. Das Lösungsschlüssel-Bild ist ein starkes Verkaufsargument — Käufer können genau sehen, wie die Lösung aussieht.\n\nPreisgestaltung: Einzelne Bilddiagramm-Arbeitsblätter mit Lösungsschlüssel verkaufen sich für 1,49–2,99 $. Themen-Bundles mit 15–20 Arbeitsblättern verkaufen sich für 4,99–8,99 $. Multi-Themen-Mega-Bundles mit 50+ Arbeitsblättern verkaufen sich für 14,99–24,99 $.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Amazon KDP bedient den Arbeitsbuch-Markt, und Datenkompetenzen-Arbeitsbücher sind eine unterversorgte Nische innerhalb der Aktivitätsbuch-Kategorie. Anstatt einzelne Arbeitsblatt-PDFs zu verkaufen, stellen Sie mehrere Bilddiagramm-Arbeitsblätter zu einem gebundenen Buchformat zusammen.\n\nProduktformat: Erstellen Sie ein Arbeitsbuch mit 60–100 Bilddiagramm-Arbeitsblättern, organisiert nach Thema, mit Lösungsschlüssel-Seiten am Ende jedes Abschnitts. Verwenden Sie den Graustufen-Umschalter für tintenfreundliche Ausgabe, die perfekt im Schwarz-Weiß-Druck reproduziert wird. KDP erfordert spezifische Innen-PDF-Formatierung — 8,5×11 Zoll ist die Standardgröße für Aktivitäts-Arbeitsbücher.\n\nTitel und Untertitel: KDP erlaubt einen Titel und Untertitel. Beispieltitel: „Zähl- und Diagramm-Arbeitsblätter für Kinder." Beispieluntertitel: „100 Bilddiagramm-Aktivitäten mit Streubild-Rastern, Balkendiagrammen und Lösungsschlüsseln für 4–7 Jahre."\n\nKeywords: KDP bietet 7 Keyword-Slots. Verwenden Sie spezifische Phrasen: „Bilddiagramm-Arbeitsblätter Kinder", „Zähl- und Diagramm-Aktivitätsbuch", „Datenrepräsentation-Arbeitsbuch", „Balkendiagramm-Übung Vorschule", „visuelle Zähl-Arbeitsblätter", „Mathe-Center Diagramm-Aktivitäten", „Kindergarten-Datenkompetenzen".\n\nGlobaler Vorteil: Bilddiagramm-Arbeitsblätter verwenden universelle visuelle Elemente — nummerierte Zellen und Bilder. Dasselbe KDP-Innenteil funktioniert identisch auf allen internationalen Amazon-Marktplätzen ohne Übersetzung. Ein Arbeitsbuch bedient jedes Land.`,
     },
     {
-      heading: 'Bilddiagramm-Arbeitsblätter auf Gumroad verkaufen',
+      heading: `Bilddiagramm-Arbeitsblätter auf Gumroad verkaufen`,
       content: `Gumroad (Gumroad) ist der Ort, an dem Käufer gezielt nach marktangepassten Materialien suchen, und Bilddiagramme sind ein Standard-Lernziel in Grundschul-Mathematiklehrplänen.\n\nProduktbeschreibungen auf Gumroad sollten spezifische Fähigkeiten referenzieren: Datenerhebung, Datenrepräsentation, Bilddiagramme, Balkendiagramme, Zählen und Diagramme. Erwähnen Sie die Altersgruppe (Kindergarten bis 2. Klasse), die Anzahl der Arbeitsblätter und Lösungsschlüssel sowie die Ausrichtung an Daten- und Messstandards.\n\nVorschaudateien: Gumroad erlaubt das Hochladen einer Vorschaudatei. Fügen Sie 2–3 Beispiel-Arbeitsblätter bei, die das Streubild-Raster und das Balkendiagramm zeigen, plus einen Lösungsschlüssel mit gelb markierten Zellen. Käufer müssen das Zwei-Komponenten-Format (Zählraster + Diagramm) und den enthaltenen Lösungsschlüssel sehen, bevor sie kaufen.\n\nMathe-Center-Positionierung: Käufer kaufen stark Materialien, die als „Mathe-Center-Aktivitäten" gekennzeichnet sind. Bilddiagramm-Arbeitsblätter mit integrierten Name/Datum-Feldern sind ideal für eigenständige Mathe-Center, in denen Nutzer in ihrem eigenen Tempo Zähl- und Diagramm-Aktivitäten bearbeiten. Positionieren Sie Ihre Produkte als „Mathe-Center-fertig" oder „drucken-und-loslegen", um diesen Suchverkehr zu erfassen.\n\nGumroad-spezifische Keywords: „Mathe-Center", „Daten und Diagramme", „Bilddiagramm-Aktivität", „Zählen und Diagramme", „Datenrepräsentation", „Morgenarbeit", „Bewertung" und „eigenständiges Üben". Diese Begriffe entsprechen der Art, wie Käufer nach Bildungsmarkt-Materialien suchen.\n\nBündelung auf Gumroad: Käufer kaufen Bundles für ganze Einheiten. Ein „Komplettes Kindergarten-Diagramm-Bundle" mit 50 Bilddiagramm-Arbeitsblättern zu verschiedenen Themen mit Lösungsschlüsseln für jedes ist ein starkes Gumroad-Produkt.`,
     },
   ],
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Die Zufallsverteilungsfunktion des Bilddiagramm-Erstellers ist Ihre Bündelungs-Superkraft. Jeder Klick auf Generieren erzeugt eine völlig andere Zählherausforderung selbst mit denselben 6 Bildern, sodass Sie schnell große Bundles ohne Wiederholung aufbauen können.\n\nThemen-Bundles: Gruppieren Sie 15–20 Arbeitsblätter, die ein einzelnes Thema teilen. „Meerestiere Zählen & Diagramme — 20 Bilddiagramm-Arbeitsblätter mit Lösungsschlüsseln" ist ein klares, suchbares Produkt. Jedes Arbeitsblatt verwendet dieselben 6 Bildtypen, verteilt sie aber anders im 4×5 Raster.\n\nThemenübergreifende Bundles: Kombinieren Sie Arbeitsblätter aus mehreren verwandten Themen. „Tierreich-Diagramm-Bundle" könnte Bauernhoftiere, Meerestiere, Dschungeltiere und Haustiere umfassen — jedes Thema trägt 5–8 Arbeitsblätter zu einer größeren Sammlung bei.\n\nFächerübergreifende Bundles: Bilddiagramme verbinden Mathematik und andere Fächer auf natürliche Weise. Erstellen Sie ein „Naturwissenschaft-Diagramm-Bundle" mit Tier-, Natur- und Wetterthemen. Erstellen Sie ein „Sachkunde-Diagramm-Bundle" mit Gemeindehelfer-, Fahrzeug- und Berufsthemen. Fächerübergreifende Produkte ziehen Käufer aus mehreren Fachbereichen an.\n\nSaisonale Sammlungen: Feiertags- und saisonale Bilddiagramm-Pakete mit Weihnachts-, Halloween-, Oster-, Valentinstags- und Schulanfangsthemen. Veröffentlichen Sie jede Sammlung 4–6 Wochen vor dem relevanten Feiertag. Saisonale Produkte generieren wiederkehrende jährliche Einnahmen.\n\nListen Sie immer sowohl einzelne Themen als auch Bundles. Einzelne Listings verbessern die Suchsichtbarkeit (mehr Listings bedeuten mehr indexierte Keywords), während Bundles höhere Einnahmen pro Transaktion erzielen.`,
     },
     {
-      heading: 'Cross-Selling mit ergänzenden Mathe-Produkten',
+      heading: `Cross-Selling mit ergänzenden Mathe-Produkten`,
       content: `Bilddiagramm-Arbeitsblätter lassen sich natürlich mit mehreren anderen Mathe-Arbeitsblatttypen kombinieren und schaffen Cross-Selling-Möglichkeiten, die den durchschnittlichen Bestellwert erhöhen.\n\nAdditions-Arbeitsblätter: Das Zählen verstreuter Bilder ist eine Vorstufe zur Addition. Nutzer, die „es gibt 4 Katzen" zählen können, sind bereit zu addieren: „4 Katzen plus 3 Hunde ergibt wie viele Tiere?" Erstellen Sie thematische Bundles, die vom Zählen und Diagramme-Erstellen zur einfachen Addition mit denselben Bildthemen fortschreiten.\n\nMehr-oder-Weniger-Arbeitsblätter: Nachdem Nutzer Bildmengen gezählt und diagrammiert haben, fragen Vergleichsarbeitsblätter: „Gibt es mehr Katzen oder mehr Hunde?" Dies erweitert das Zählen zum quantitativen Vergleich — ein natürlicher Produktkatalogübergang. Bündeln Sie Zähl-, Diagramm- und Vergleichsarbeitsblätter zusammen.\n\nZuordnungs-Arbeitsblätter: Visuelle Unterscheidung — das Identifizieren und Zusammenführen identischer Bilder — ist eine Voraussetzung für genaues Zählen verstreuter Bilder. Nutzer müssen erkennen, dass „diese Katze und jene Katze derselbe Typ sind", bevor sie Katzen zuverlässig zählen können. Zuordnungs-Arbeitsblätter dienen als Aufwärmaktivitäten vor Bilddiagramm-Arbeitsblättern.\n\nMuster-Arbeitsblätter: Muster lehren sequenzielles Denken, während Bilddiagramme kategorisches Denken lehren. Beides sind grundlegende Mathematikfähigkeiten, die Käufer oft in derselben Einheit einsetzen. Ein kombiniertes „Visuelle Mathematik-Fähigkeiten-Bundle" mit Mustern und Bilddiagrammen spricht Käufer an, die umfassenden Mathematikprodukterstellung planen.\n\nBewerben Sie verwandte Produkte in Ihren Etsy-Shop-Bereichen, Gumroad-Produktbeschreibungen und Amazon KDP „auch von diesem Autor"-Listings. Gegenseitiges Verweisen von Produkten innerhalb Ihres Katalogs hält Käufer beim Stöbern und erhöht den gesamten Kaufwert.`,
     },
   ],
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Hier sind konkrete Produktbeispiele, die Sie mit dem Bilddiagramm-Arbeitsblatt-Ersteller erstellen können, organisiert nach Themenkategorie und Zielgruppe.\n\nTierethemen für den Kindergarten (5–6 Jahre): Verwenden Sie den automatischen Modus, um aus Bauernhoftieren, Meerestieren, Dschungeltieren, Haustieren, Vögeln, Insekten und Waldtieren auszuwählen. Jedes Thema generiert Arbeitsblätter mit 6 erkennbaren Tierarten im Streubildraster. Tiere sind die meistgesuchte Kategorie für Kinder-Bildungsmaterialien. Erstellen Sie 15–20 Arbeitsblätter pro Tierthema — die Zufallsverteilung sorgt dafür, dass jedes Arbeitsblatt eine einzigartige Zählherausforderung bietet.\n\nLebensmittelthemen für die Vorschule (3–5 Jahre): Obst, Gemüse, Backwaren und Snacks bieten sofort erkennbare Bilder für die jüngsten Lernenden. Das 4×5 Streubildraster mit großen, bunten Lebensmittelsymbolen macht das Zählen intuitiv für Kinder, die gerade lernen, Objekte zu identifizieren und zu quantifizieren. Halten Sie Bundles kleiner (10–15 Arbeitsblätter) für diese Altersgruppe, da Eltern und Käufer weniger Volumen für Vorschulaktivitäten kaufen.\n\nFahrzeugthemen für die erste Klasse (6–7 Jahre): Autos, Lastwagen, Flugzeuge, Boote, Baufahrzeuge und Einsatzfahrzeuge sprechen eine spezifische Zielgruppe an und schaffen Produkte, die sich von typischer Arbeitsblatt-Ästhetik abheben. Erstklassmarkt können das vollständige 6-Typ-, 20-Symbol-Format bewältigen und sind bereit, Balkendiagramm-Fähigkeiten selbständig zu üben.\n\nNatur- und Saisonthemen für klassenübergreifende Produkte: Wettersymbole, Blumen, Bäume, Blätter und saisonale Elemente funktionieren über alle Altersgruppen hinweg. Diese Themen schaffen Produkte, die Sie ganzjährig verkaufen und mit saisonalen Variationen aktualisieren können (Frühlingsblumen, Herbstblätter, Winterschneeflocken, Sommerstand-Elemente).`,
     },
     {
-      heading: 'Multi-Format Bildungs-Bundles erstellen',
+      heading: `Multi-Format Bildungs-Bundles erstellen`,
       content: `Die wertvollsten druckbaren Produkte kombinieren mehrere Arbeitsblattformate zu umfassenden Bildungspaketen. Bilddiagramm-Arbeitsblätter dienen als Herzstück von Datenkompetenzen-Bundles, die Zählen, Diagramme-Erstellen, Vergleichen und visuelle Analyse vermitteln.\n\nKindergarten Datenkompetenzen-Starterpaket: Kombinieren Sie 20 Bilddiagramm-Arbeitsblätter (Zählen und Diagramme) mit 10 Zuordnungs-Arbeitsblättern (visuelle Unterscheidung) und 10 Mehr-oder-Weniger-Vergleichsarbeitsblättern, alle mit koordinierten Tierthemen. Bepreisen Sie das Bundle mit 12,99–16,99 $. Jedes Format vermittelt eine andere kognitive Fähigkeit bei gleichzeitiger thematischer Konsistenz.\n\nErste-Klasse-Diagramm-Einheiten-Bundle: Stellen Sie 30 Bilddiagramm-Arbeitsblätter zusammen, die 6 verschiedene Themen umfassen, mit Lösungsschlüsseln für jedes Arbeitsblatt. Fügen Sie ein Deckblatt, eine Anleitungsseite und einen Nutzer-Fortschrittsbogen hinzu. Dieses einsatzfertige Produkt positioniert sich als vollständige Diagramm-Einheit, die Käufer für 4–6 Wochen Mathematikprodukterstellung verwenden können. Preis: 14,99–19,99 $.\n\nAmazon KDP Zähl-Aktivitätsbuch: Stellen Sie 80 Bilddiagramm-Arbeitsblätter zusammen, organisiert in thematische Kapitel (Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage) mit Lösungsschlüssel-Seiten am Ende jedes Kapitels. Aktivieren Sie Graustufen für tintenfreundliche Ausgabe. Fügen Sie ein Inhaltsverzeichnis und ein einfaches Cover hinzu. KDP-Aktivitätsbücher mit diesem Seitenumfang verkaufen sich für 6,99–9,99 $ und generieren laufende Tantiemen ohne Fulfillment-Aufwand.\n\nEtsy Mega-Bundle: Kombinieren Sie Arbeitsblätter aus jedem verfügbaren Thema zu einer 100+-Arbeitsblätter-Sammlung mit vollständigen Lösungsschlüsseln. Vermarkten Sie dies als das „ultimative Bilddiagramm-Bundle" oder die „komplette Zähl- und Diagramm-Sammlung". Preis: 24,99–34,99 $. Dies wird Ihr Flaggschiff-Produkt, das Ihren Shop verankert und Käufer anspricht, die nach umfassenden Ressourcen suchen.`,
     },
   ],
@@ -119,11 +119,11 @@ const content: GuideContent = {
       answer: `Ja. Der Generator bietet zwei Bildauswahl-Modi. Der automatische Modus wählt ein Thema aus dem Dropdown und die App wählt zufällig 6 Bilder aus dieser Sammlung. Der manuelle Modus lässt Sie die Bildbibliothek nach Thema oder Stichwort durchsuchen und dann genau 6 Bilder anklicken, mit einer Vorschaustreifen, die Ihre Auswahl zeigt. Sie können auch eigene PNG-, JPG- oder GIF-Bilder hochladen. Beide Modi garantieren genau 6 Bildtypen pro Arbeitsblatt für konsistente Balkendiagramm-Formatierung.`,
     },
     {
-      question: 'Welche Themen und Bildsammlungen sind verfügbar?',
+      question: `Welche Themen und Bildsammlungen sind verfügbar?`,
       answer: `Die Bildbibliothek umfasst 104 Themensammlungen mit über 3.100 bunten Illustrationen aus den Bereichen Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe, Sport, Jahreszeiten, Haushaltsgegenstände und Dutzende weitere Kategorien. Jedes Thema bietet genug Bilder, damit die App zufällig 6 Typen pro Arbeitsblatt auswählen kann. Mit 104 verfügbaren Themen können Sie umfangreiche Produktkataloge erstellen, in denen jedes Bundle ein anderes visuelles Thema verwendet.`,
     },
     {
-      question: 'Sind die Arbeitsblätter sprachabhängig?',
+      question: `Sind die Arbeitsblätter sprachabhängig?`,
       answer: `Nein. Die verstreuten Bilder und nummerierten Balkendiagramm-Zellen verwenden universelle visuelle Elemente — Bilder und Zahlen funktionieren in jeder Sprache identisch. Der automatisch generierte Kopfbereich übersetzt den „Bilddiagramm"-Titel und die Zählanweisungen automatisch in die aktive UI-Sprache (11 Sprachen unterstützt). Der Arbeitsblattinhalt selbst erfordert keine Übersetzung, sodass ein Produktsatz einen globalen Markt bedient.`,
     },
     {
@@ -138,72 +138,72 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'additions-arbeitsblaetter-erstellen',
-      title: 'Additions-Arbeitsblätter erstellen',
+      slug: `additions-arbeitsblaetter-erstellen`,
+      title: `Additions-Arbeitsblätter erstellen`,
       description: `Zählen führt natürlich zur Addition. Erstellen Sie thematische Additions-Arbeitsblätter, die Ihre Bilddiagramm-Produkte für umfassende Frühmathematik-Bundles ergänzen.`,
     },
     {
-      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
-      title: 'Mehr-oder-Weniger-Arbeitsblätter erstellen',
+      slug: `groessenvergleich-arbeitsblaetter-erstellen`,
+      title: `Mehr-oder-Weniger-Arbeitsblätter erstellen`,
       description: `Erweitern Sie das Zählen zum Mengenvergleich. Mehr-oder-Weniger-Arbeitsblätter kombinieren sich perfekt mit Bilddiagrammen für eine vollständige Daten- und Vergleichsfähigkeiten-Sammlung.`,
     },
     {
-      slug: 'zuordnungs-arbeitsblaetter-erstellen',
-      title: 'Zuordnungs-Arbeitsblätter erstellen',
+      slug: `zuordnungs-arbeitsblaetter-erstellen`,
+      title: `Zuordnungs-Arbeitsblätter erstellen`,
       description: `Visuelle Unterscheidung ist eine Voraussetzung für genaues Zählen. Zuordnungs-Arbeitsblätter dienen als Aufwärmaktivitäten vor Bilddiagramm-Übungen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung für ein Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbücher Geschäftsleitfaden' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für ein Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbücher Geschäftsleitfaden` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
     { pageType: 'app', slug: 'bilddiagramm-arbeitsblaetter', anchorText: `Bilddiagramm-Arbeitsblatt-Generator — Alle Details` },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'bilddiagramm-ersteller', anchorText: 'Bilddiagramm-Arbeitsblatt-Ersteller ausprobieren' },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'bilddiagramm-ersteller', anchorText: `Bilddiagramm-Arbeitsblatt-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'chart-count',
-      title: 'Bilddiagramm-Arbeitsblatt-Generator',
+      title: `Bilddiagramm-Arbeitsblatt-Generator`,
       description: `Das Hauptwerkzeug für diese Anleitung. Erstellen Sie Bilddiagramm-Arbeitsblätter mit Streubild-Rastern, automatisch generierten Balkendiagramm-Lösungsschlüsseln und 104 thematischen Bildsammlungen.`,
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Zählen führt zur Addition. Erstellen Sie bildbasierte Additions-Arbeitsblätter, die Ihre Bilddiagramm-Produkte für umfassende Frühmathematik-Bundles ergänzen.`,
     },
     {
       appId: 'more-less',
-      title: 'Mehr-oder-Weniger-Arbeitsblatt-Generator',
+      title: `Mehr-oder-Weniger-Arbeitsblatt-Generator`,
       description: `Erweitert das Zählen zum Mengenvergleich. Nutzer, die verstreute Bilder zählen können, sind bereit zu vergleichen: „Welche Gruppe hat mehr?" in strukturierten Vergleichsarbeitsblättern.`,
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Begleiter für visuelle Unterscheidung. Zuordnungsaktivitäten lassen sich natürlich mit Bilddiagramm-Arbeitsblättern kombinieren — Nutzer müssen identische Bilder erkennen, bevor sie sie genau zählen können.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: `Bilddiagramm-Arbeitsblatt mit verstreutem 4×5 Bildraster und Balkendiagramm für Zähl- und Diagramm-Übungen` },
+    heroImage: { src: `/samples/german/chart count/Bilddiagramm 1.webp`, alt: `Bilddiagramm-Arbeitsblatt mit verstreutem 4×5 Bildraster und Balkendiagramm für Zähl- und Diagramm-Übungen` },
     samples: [
-      { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: `Bilddiagramm-Arbeitsblatt mit 20 verstreuten Symbolen in einem 4×5 Raster und 6-Spalten-Balkendiagramm darunter`, caption: 'Vollständiges Bilddiagramm-Arbeitsblatt mit Streubild-Raster und Balkendiagramm für Nutzer-Zählübungen' },
-      { src: '/samples/german/chart count/answer_key.webp', alt: `Bilddiagramm-Lösungsschlüssel mit gelb markierten Zellen, die korrekte Zählergebnisse anzeigen`, caption: 'Automatisch generierter Lösungsschlüssel mit gelb markierten Zellen (#FFC857), die das korrekte Zählergebnis für jeden Bildtyp anzeigen' },
+      { src: `/samples/german/chart count/Bilddiagramm 1.webp`, alt: `Bilddiagramm-Arbeitsblatt mit 20 verstreuten Symbolen in einem 4×5 Raster und 6-Spalten-Balkendiagramm darunter`, caption: `Vollständiges Bilddiagramm-Arbeitsblatt mit Streubild-Raster und Balkendiagramm für Nutzer-Zählübungen` },
+      { src: `/samples/german/chart count/answer_key.webp`, alt: `Bilddiagramm-Lösungsschlüssel mit gelb markierten Zellen, die korrekte Zählergebnisse anzeigen`, caption: `Automatisch generierter Lösungsschlüssel mit gelb markierten Zellen (#FFC857), die das korrekte Zählergebnis für jeden Bildtyp anzeigen` },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: `So erstellen Sie Zähl- und Diagramm-Arbeitsblätter — Vollständiges Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gürteltier — thematisches Lernbild`, caption: 'Gürteltier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
   ],
 };
 

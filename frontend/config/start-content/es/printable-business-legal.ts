@@ -4,18 +4,18 @@ const content: StartContent = {
   seo: {
     primaryKeyword: `impuestos y aspectos legales para vender imprimibles`,
     secondaryKeywords: [
-      'aspectos legales negocio imprimibles',
-      'obligaciones fiscales productos digitales',
-      'estructura empresarial vendedores imprimibles',
-      'propiedad intelectual fichas imprimibles',
+      `aspectos legales negocio imprimibles`,
+      `obligaciones fiscales productos digitales`,
+      `estructura empresarial vendedores imprimibles`,
+      `propiedad intelectual fichas imprimibles`,
     ],
     lsiKeywords: [
       `impuesto sobre ventas descargas digitales por estado`,
-      'sociedad limitada para negocio de imprimibles',
-      'registro contable vendedores Etsy',
-      'cumplimiento términos de servicio plataformas',
-      'impuestos transfronterizos productos digitales',
-      'gastos deducibles negocio de imprimibles',
+      `sociedad limitada para negocio de imprimibles`,
+      `registro contable vendedores Etsy`,
+      `cumplimiento términos de servicio plataformas`,
+      `impuestos transfronterizos productos digitales`,
+      `gastos deducibles negocio de imprimibles`,
     ],
     titleTag: `Impuestos y Aspectos Legales para Vender Imprimibles — Guía`,
     metaDescription: `Requisitos fiscales para vender imprimibles explicados. Estructura empresarial, gastos deducibles, propiedad intelectual y cumplimiento de plataformas.`,
@@ -47,7 +47,7 @@ const content: StartContent = {
       content: `Los ingresos por ventas de imprimibles son renta gravable. Esto es así independientemente de si tienes una entidad empresarial formal, independientemente de lo pequeña que sea la cantidad e independientemente de si la plataforma te envía un formulario fiscal. Muchos vendedores nuevos se sorprenden al saber que incluso unos pocos cientos de dólares en ventas de imprimibles crean una obligación de declaración fiscal.\n\nEn Estados Unidos, los ingresos por trabajo autónomo de ventas de imprimibles se declaran típicamente en el Anexo C (Schedule C) de tu declaración de impuestos personal. Estos ingresos están sujetos tanto al impuesto sobre la renta regular como al impuesto de autónomos (self-employment tax), que cubre las contribuciones a la Seguridad Social y Medicare. El componente del impuesto de autónomos sorprende a muchos vendedores nuevos porque se aplica además del impuesto sobre la renta regular.\n\nPueden requerirse pagos trimestrales estimados si esperas adeudar por encima de un cierto umbral al final del año. En lugar de pagar todos tus impuestos en abril, el sistema fiscal generalmente requiere que pagues a medida que ganas a lo largo del año. No realizar los pagos estimados requeridos puede resultar en penalizaciones incluso si pagas el monto completo en el momento de la declaración. Tu profesional fiscal puede ayudarte a determinar si los pagos trimestrales se aplican a tu situación y cuánto reservar.\n\nLos vendedores internacionales se enfrentan a sus propias reglas fiscales específicas de cada país. El principio fundamental es el mismo en todas partes: los ingresos empresariales son gravables y deben declararse. Los formularios específicos, tipos impositivos, umbrales y plazos de declaración varían según el país. Los ingresos obtenidos de múltiples plataformas y múltiples países pueden necesitar consolidarse y declararse según las reglas de tu país de residencia.\n\nEl hábito más importante para gestionar las obligaciones del impuesto sobre la renta es registrar todos los ingresos por plataforma y por mes desde el principio. Reconstruir un año de registros de ventas en la temporada de impuestos es estresante y propenso a errores. Mantener una hoja de cálculo mensual sencilla de ingresos a lo largo del año hace que la declaración fiscal sea directa.`,
     },
     {
-      heading: 'Gastos Empresariales Deducibles',
+      heading: `Gastos Empresariales Deducibles`,
       content: `Los gastos empresariales reducen tu renta gravable, lo que reduce tu factura fiscal. Entender qué gastos son potencialmente deducibles te ayuda tanto a tomar decisiones de compra informadas como a mantener los registros necesarios para reclamar esas deducciones correctamente.\n\nLas suscripciones de software utilizadas para tu negocio de imprimibles son generalmente deducibles. Esto incluye herramientas de diseño, generadores de fichas, software de edición de imágenes y cualquier otra herramienta digital que uses para crear o gestionar tus productos. La licencia comercial para generadores de fichas es un gasto empresarial directamente vinculado a la generación de ingresos — discute su deducibilidad con tu profesional fiscal.\n\nLas comisiones de plataforma son una categoría de gastos significativa para los vendedores de imprimibles. Las tarifas de publicación de Etsy, las comisiones de procesamiento de pagos, los costes de publicaciones promocionadas y cualquier otro cargo de la plataforma directamente relacionado con la venta de tus productos son gastos empresariales. Estas comisiones se acumulan a lo largo de cientos de transacciones y pueden representar una deducción significativa.\n\nLos gastos de oficina en casa pueden ser deducibles si utilizas un espacio dedicado en tu hogar exclusiva y regularmente para tu negocio de imprimibles. Las reglas sobre deducciones por oficina en casa son específicas y varían según la jurisdicción. Algunos países permiten un cálculo simplificado basado en los metros cuadrados, mientras que otros requieren un seguimiento detallado de gastos. Esta es un área donde la orientación profesional es particularmente valiosa porque las reglas son estrictas y las consecuencias de reclamar incorrectamente pueden ser significativas.\n\nLos servicios profesionales — incluyendo tu contable, preparador de impuestos y abogado — son gastos empresariales deducibles. El coste de obtener asesoramiento fiscal profesional es en sí mismo deducible, lo que reduce el coste efectivo de ese asesoramiento. Los productos imprimibles relacionados con tu negocio, incluyendo cursos, libros y tarifas de conferencias, también pueden calificar como gastos deducibles.\n\nLa regla de oro de las deducciones por gastos empresariales: guarda recibos de todo. Los recibos digitales almacenados en una carpeta dedicada organizada por mes son suficientes. No necesitas recibos en papel en la mayoría de las jurisdicciones, pero sí necesitas documentación que muestre qué se compró, cuándo, cuánto costó y su propósito empresarial.`,
     },
     {
@@ -67,14 +67,14 @@ const content: StartContent = {
       content: `Vender productos digitales internacionalmente introduce una complejidad fiscal adicional que muchos vendedores de imprimibles subestiman. Cuando tus compradores están ubicados en diferentes países, múltiples jurisdicciones fiscales pueden aplicarse a tus transacciones, cada una con sus propias reglas sobre la fiscalidad de productos digitales.\n\nLa Unión Europea requiere que los vendedores de productos digitales a consumidores recauden y remitan el impuesto al valor añadido (IVA) basándose en la ubicación del comprador. Los tipos del IVA varían según el estado miembro. Para vendedores fuera de la UE, el sistema de Ventanilla Única (One Stop Shop) simplifica el cumplimiento al permitirte registrarte en un solo estado miembro de la UE y remitir el IVA de todas las ventas en la UE a través de ese único registro. Muchas plataformas de venta gestionan la recaudación del IVA de la UE como facilitadores del marketplace, pero no todas las transacciones pueden estar cubiertas.\n\nAustralia aplica el impuesto sobre bienes y servicios (GST) a los productos digitales vendidos a consumidores australianos por vendedores no residentes por encima de ciertos umbrales. Canadá tiene reglas de impuesto sobre ventas provinciales que varían por provincia para productos digitales. Otros países tienen sus propios marcos de fiscalidad de productos digitales, y la tendencia global es hacia una mayor fiscalidad de los bienes digitales, no menor.\n\nVender en Amazon KDP en múltiples marketplaces ilustra la complejidad. Los ingresos de Amazon.com, Amazon.co.uk, Amazon.de, Amazon.fr y otros marketplaces pueden necesitar declararse y potencialmente gravarse de manera diferente dependiendo de la red de tratados fiscales de tu país de origen y las reglas fiscales de cada país del marketplace. Amazon retiene impuestos en algunas jurisdicciones y proporciona documentos fiscales, pero en última instancia tú eres responsable de entender y cumplir con tus propias obligaciones fiscales.\n\nEl umbral práctico para buscar asesoramiento fiscal internacional profesional es relativamente bajo. Si vendes a compradores en múltiples países y tus ingresos internacionales totales son más que incidentales, una consulta con un profesional fiscal que entienda las ventas transfronterizas de productos digitales es una inversión que vale la pena. El coste de esa consulta es en sí mismo un gasto empresarial deducible y es casi seguro menor que el coste de un error de cumplimiento descubierto durante una auditoría.`,
     },
     {
-      heading: 'Cuándo Buscar Ayuda Profesional',
+      heading: `Cuándo Buscar Ayuda Profesional`,
       content: `Todo vendedor de imprimibles se beneficia del asesoramiento fiscal y legal profesional en algún momento. La pregunta no es si necesitas ayuda profesional, sino cuándo. Ciertos indicadores deberían impulsarte a buscar asesoramiento en lugar de intentar resolver las cosas por tu cuenta.\n\nSeñales de que necesitas un profesional fiscal: tus ingresos anuales por ventas de imprimibles superan los pocos miles de dólares, vendes a compradores en múltiples estados o países, quieres entender tus obligaciones de pagos trimestrales estimados, estás considerando cambiar tu estructura empresarial, recibes cualquier comunicación de una autoridad fiscal, o simplemente te sientes inseguro sobre si estás gestionando correctamente tus obligaciones fiscales. Los profesionales fiscales que trabajan con pequeñas empresas y trabajadores autónomos ven situaciones como la tuya regularmente y pueden proporcionar orientación específica de manera eficiente.\n\nSeñales de que necesitas un abogado: quieres constituir una sociedad limitada u otra entidad empresarial, recibes un aviso de infracción de derechos de autor o una disputa de marca registrada, una plataforma toma medidas de aplicación contra tu cuenta, quieres crear o revisar los términos de licencia comercial de tus productos, o estás entrando en un acuerdo de asociación o colaboración empresarial. Los abogados especializados en negocios que trabajan con pequeñas empresas y vendedores de productos digitales pueden abordar estas situaciones sin que el coste se descontrole.\n\nEl coste del asesoramiento profesional es un gasto empresarial deducible, lo que reduce su coste efectivo. Más importante aún, el coste del asesoramiento profesional es casi siempre menor que el coste de un error de cumplimiento. Un contable que cuesta unos pocos cientos de dólares al año puede ahorrarte miles en deducciones correctamente reclamadas y evitación de penalizaciones. Un abogado que revise tus términos de licencia una vez puede prevenir disputas que costarían mucho más resolver.\n\nEncontrar al profesional adecuado importa. Busca profesionales fiscales y abogados que trabajen con pequeñas empresas, trabajadores autónomos o vendedores de productos digitales específicamente. Pregunta sobre su experiencia con tu tipo de negocio. Muchos ofrecen consultas iniciales a tarifas reducidas. Tu centro local de desarrollo de pequeñas empresas o cámara de comercio también puede proporcionar referencias a profesionales que se especializan en cumplimiento para pequeñas empresas.`,
     },
   ],
 
   actionSteps: [
     {
-      step: 'Abre una Cuenta Bancaria Empresarial Dedicada',
+      step: `Abre una Cuenta Bancaria Empresarial Dedicada`,
       description: `Abre una cuenta bancaria separada para todos los ingresos y gastos de tu negocio de imprimibles. Esta sola acción simplifica el mantenimiento de registros, facilita la declaración de impuestos y proporciona un rastro de auditoría claro. Incluso los autónomos se benefician de separar las finanzas personales y empresariales.`,
     },
     {
@@ -102,7 +102,7 @@ const content: StartContent = {
       description: `Crea un documento de licencia estándar que defina lo que los compradores pueden y no pueden hacer con tus productos. Incluye usos permitidos, restricciones de redistribución y derechos de modificación. Revisa los términos de licencia de vendedores establecidos en tu nicho como punto de partida.`,
     },
     {
-      step: 'Programa una Consulta con un Profesional Fiscal',
+      step: `Programa una Consulta con un Profesional Fiscal`,
       description: `Encuentra un profesional fiscal que trabaje con pequeñas empresas o trabajadores autónomos y programa una consulta inicial. Lleva tus registros de ingresos, una lista de tus plataformas de venta y una lista de preguntas de esta guía. El coste de la consulta es en sí mismo un gasto empresarial deducible.`,
     },
     {
@@ -114,7 +114,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'writing',
-      title: 'Generador de Fichas de Escritura',
+      title: `Generador de Fichas de Escritura`,
       description: `Creación de fichas educativas donde la licencia comercial hace que el resultado sea legalmente vendible en todos los marketplaces. La licencia es un gasto empresarial deducible directamente vinculado a la generación de ingresos de tu negocio de imprimibles.`,
     },
     {
@@ -124,7 +124,7 @@ const content: StartContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de Fichas de Matemáticas',
+      title: `Generador de Fichas de Matemáticas`,
       description: `Generador de productos comerciales perennes. Una herramienta empresarial deducible que produce fichas de matemáticas con licencia comercial ilimitadas para distribución en Etsy, Amazon KDP y otros marketplaces.`,
     },
     {
@@ -134,7 +134,7 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Vendible internacionalmente sin traducción, simplificando el cumplimiento transfronterizo ya que las páginas para colorear no contienen contenido específico de un idioma. Ideal para vendedores que se expanden a mercados internacionales con mínima complejidad fiscal adicional.`,
     },
     {
@@ -181,7 +181,7 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía de base integral que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
@@ -196,45 +196,45 @@ const content: StartContent = {
       description: `Expectativas de ingresos honestas y los factores operativos que determinan los ingresos en cada etapa de crecimiento, incluyendo el contexto de planificación financiera para las obligaciones fiscales.`,
     },
     {
-      slug: 'guia-escalar-negocio-imprimibles',
+      slug: `guia-escalar-negocio-imprimibles`,
       title: `Escalar de Actividad Secundaria a Negocio de Imprimibles a Tiempo Completo`,
       description: `Marco estratégico de crecimiento para cada fase del negocio, incluyendo los hitos operativos que desencadenan nuevas consideraciones fiscales y legales a medida que tu negocio escala.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales Que Se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales Que Se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos del Negocio de Imprimibles: Expectativas Realistas` },
     { pageType: 'start', slug: 'escalar-negocio-imprimibles', anchorText: `Escalar de Actividad Secundaria a Negocio de Imprimibles a Tiempo Completo` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
     { pageType: 'app', slug: 'lectoescritura-fichas', anchorText: `Generador de Fichas de Escritura — Todos los Detalles` },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Prueba el Generador de Fichas de Escritura' },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: `Prueba el Generador de Fichas de Escritura` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/writing/writing.webp', alt: `Ficha de escritura que demuestra contenido imprimible con licencia comercial para vendedores de imprimibles` },
+    heroImage: { src: `/samples/spanish/writing/writing.webp`, alt: `Ficha de escritura que demuestra contenido imprimible con licencia comercial para vendedores de imprimibles` },
     samples: [
-      { src: '/samples/spanish/writing/writing.webp', alt: `Ficha de escritura mostrando contenido imprimible con licencia comercial`, caption: 'Escritura — contenido imprimible con Licencia Comercial' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras demostrando el potencial de producto comercial de alto volumen`, caption: 'Sopa de Letras — Tipo de Puzle Comercial Más Popular' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Crucigrama mostrando la capacidad de producto comercial multilingüe', caption: 'Crucigrama — Productos Comerciales Multilingües' },
-      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: 'Ficha de matemáticas demostrando la generación de producto comercial perenne', caption: 'Matemáticas — Generación de Producto Comercial Perenne' },
+      { src: `/samples/spanish/writing/writing.webp`, alt: `Ficha de escritura mostrando contenido imprimible con licencia comercial`, caption: `Escritura — contenido imprimible con Licencia Comercial` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras demostrando el potencial de producto comercial de alto volumen`, caption: `Sopa de Letras — Tipo de Puzle Comercial Más Popular` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Crucigrama mostrando la capacidad de producto comercial multilingüe`, caption: `Crucigrama — Productos Comerciales Multilingües` },
+      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp`, alt: `Ficha de matemáticas demostrando la generación de producto comercial perenne`, caption: `Matemáticas — Generación de Producto Comercial Perenne` },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: `Cómo Crear Fichas de Escritura para Tu Negocio de Imprimibles — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Tejón — imagen educativa temática', caption: 'Tejón' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagen educativa temática', caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Tejón — imagen educativa temática`, caption: 'Tejón' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagen educativa temática`, caption: 'Castor' },
   ],
 };
 

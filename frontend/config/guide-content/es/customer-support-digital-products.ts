@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'soporte cliente productos digitales',
+    primaryKeyword: `soporte cliente productos digitales`,
     secondaryKeywords: [
-      'atención cliente productos digitales',
+      `atención cliente productos digitales`,
       'soporte negocio imprimibles',
-      'gestionar quejas clientes fichas ejercicios',
+      `gestionar quejas clientes fichas ejercicios`,
       'soporte descargas digitales',
     ],
     lsiKeywords: [
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `prevención soporte problemas frecuentes tiempo resolución comunicación profesional`,
       `sistemas soporte escalables bibliotecas plantillas seguimiento patrones bucles retroalimentación`,
     ],
-    titleTag: 'Soporte cliente productos digitales — Guía',
+    titleTag: `Soporte cliente productos digitales — Guía`,
     metaDescription: `Estrategias de soporte al cliente para vendedores digitales. Prevención de problemas, plantillas de respuesta, gestión de reembolsos y sistemas escalables.`,
   },
 
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Las reseñas son la cara pública de la calidad de tu soporte al cliente. Los compradores potenciales leen las reseñas no solo para obtener información sobre la calidad del producto sino para evaluar cómo gestionas los problemas. Tus respuestas a las reseñas — especialmente las negativas — frecuentemente influyen en las decisiones de compra más que las propias reseñas.\n\nResponde a cada reseña que puedas responder en la plataforma. Agradece a los reseñadores positivos de manera específica y personal: "¡Gracias por tomarte el tiempo de compartir esto! Me alegra que las fichas con tema de animales estén funcionando bien para tu tienda." Las respuestas específicas muestran un compromiso genuino en lugar de un genérico de copiar y pegar. También animan a otros compradores a dejar reseñas porque ven que el vendedor realmente lee y aprecia los comentarios.\n\nGestiona las reseñas negativas como una oportunidad pública de servicio al cliente. Los compradores potenciales que ven una reseña negativa seguida de una respuesta profesional, empática y orientada a la solución del vendedor frecuentemente quedan más impresionados que con un listing que solo tiene reseñas positivas. Responde a las reseñas negativas reconociendo el problema, explicando lo que has hecho o harás para abordarlo, y ofreciendo ayuda para resolver la situación específica del comprador. Nunca discutas, nunca culpes al comprador, y nunca te pongas a la defensiva. Una respuesta como "Lamento que la descarga no funcionó correctamente. He actualizado las instrucciones en el listing para hacer el proceso más claro, y te he enviado un mensaje directo con enlaces de descarga alternativos. Gracias por avisarme sobre este problema" demuestra profesionalismo a cada futuro comprador que la lea.\n\nNunca pidas a los compradores que cambien o eliminen reseñas negativas. Esto viola las políticas de la mayoría de los marketplaces y casi siempre resulta contraproducente. Si resuelves el problema de un comprador satisfactoriamente, algunos actualizarán voluntariamente su reseña — pero pedirles que lo hagan se siente coercitivo y puede dañar la interacción incluso después de una resolución exitosa. Concéntrate en resolver el problema genuinamente, y deja que las actualizaciones de reseñas ocurran naturalmente si es que ocurren.\n\nUsa los patrones de reseñas para validar o redirigir tus prioridades de desarrollo de productos. Si las reseñas positivas elogian consistentemente características específicas (diseños temáticos, calidad de impresión, dificultad apropiada para la edad), esas son tus fortalezas competitivas para enfatizar en futuros productos y marketing. Si las reseñas negativas mencionan consistentemente los mismos problemas (variedad limitada, instrucciones poco claras, no suficientes páginas), esas son tus áreas prioritarias de mejora. Las reseñas son retroalimentación de productos de fuente colectiva — trátalas como datos valiosos de investigación de mercado en lugar de experiencias puramente emocionales.\n\nMonitorea las métricas generales de tu perfil de reseñas y establece objetivos de mejora. Rastrea tu valor percibido promedio, tu proporción de reseñas de cinco estrellas versus menos de cinco estrellas, y los problemas específicos mencionados en reseñas de menor valor percibido. Establece objetivos trimestrales de mejora: reducir la frecuencia de quejas sobre problemas específicos, aumentar la tasa de respuesta a reseñas, o mejorar tu valor percibido promedio abordando los temas de retroalimentación negativa más comunes. Los objetivos medibles crean responsabilidad y demuestran progreso con el tiempo.`,
     },
     {
-      heading: 'Escalar tu soporte a medida que crece tu catálogo',
+      heading: `Escalar tu soporte a medida que crece tu catálogo`,
       content: `Un sistema de soporte que funciona para 10 productos puede colapsar bajo el peso de 50 o 100 productos. Construir procesos de soporte escalables desde el principio previene la experiencia común de vendedores que se ven abrumados por el volumen de soporte a medida que sus catálogos crecen y su enfoque previo ad hoc se desmorona.\n\nEstandariza la documentación de tu producto en todo tu catálogo. Cada producto debe incluir la misma infraestructura de soporte: una página de primeros pasos, instrucciones de impresión, cobertura de FAQ, términos de copyright y uso, y tu información de contacto. Crea una plantilla vendedora para estos documentos de soporte y personalízala para cada tipo de producto. La estandarización significa que los compradores que compran múltiples productos tuyos encuentran una experiencia de soporte consistente, y puedes actualizar toda la documentación de soporte simultáneamente cuando mejores tus plantillas.\n\nOrganiza tus plantillas de respuesta por categoría de producto y tipo de problema. A medida que tu catálogo crece, las plantillas genéricas se vuelven menos útiles porque diferentes tipos de productos tienen diferentes necesidades de soporte. Los problemas de soporte de fichas de matemáticas difieren de los problemas de soporte de páginas para colorear que difieren de los problemas de soporte de sopa de letras. Construye una biblioteca de plantillas organizada por categoría de producto y tipo de problema para que puedas encontrar rápidamente la plantilla correcta para cualquier interacción de soporte. Almacena estas plantillas en un documento que puedas buscar y acceder rápidamente — un documento compartido, una herramienta de expansión de texto, o un archivo de texto simple organizado.\n\nEstablece y comunica expectativas realistas de tiempo de respuesta. Publica tu tiempo de respuesta típico en el FAQ de tu tienda y respuestas automáticas: "Normalmente respondo a los mensajes dentro de las 24 horas en días laborables." Establecer expectativas previene la frustración del comprador por tiempos de espera inciertos. Luego cumple o supera consistentemente tu tiempo de respuesta declarado. Un vendedor que promete respuestas en 24 horas y las entrega en 12 crea una mejor impresión que un vendedor que no promete nada y responde en 6 horas, porque el primer vendedor estableció y superó una expectativa mientras que el segundo no dio al comprador un marco para evaluar la capacidad de respuesta.\n\nAgrupa tu procesamiento de soporte para proteger el tiempo productivo. En lugar de responder a los mensajes a medida que llegan durante todo el día, designa ventanas de soporte específicas (por ejemplo, una por la mañana y otra por la tarde) donde procesas todos los mensajes pendientes. Este enfoque te permite mantener tiempo enfocado de creación de productos mientras sigues proporcionando respuestas rápidas. Los mensajes urgentes pueden ser señalados para atención inmediata, pero la mayoría de las preguntas de soporte de productos digitales no son críticas en el tiempo y pueden esperar unas horas sin ningún efecto negativo en la satisfacción del comprador.\n\nA medida que el volumen aumenta, identifica qué tareas de soporte pueden ser sistematizadas aún más. Si las preguntas de impresión representan el 30% de tu volumen de soporte, crea un video guía completa de impresión y enlázalo en cada producto, listing y respuesta inicial de soporte. Si los problemas de descarga son específicos de la plataforma, crea PDFs de instrucciones de descarga específicos por plataforma que puedas enviar como archivos adjuntos. Si el procesamiento de reembolsos sigue patrones consistentes, documenta tus criterios de decisión de reembolso para que tú (o eventualmente un asistente de soporte) puedan procesarlos consistentemente. El objetivo es reducir el tiempo por interacción de soporte mientras mantienes la calidad, para que el crecimiento del catálogo no aumente proporcionalmente tu tiempo diario de soporte.\n\nPlanifica para la eventual delegación. Incluso si gestionas todo el soporte personalmente ahora, construye tus procesos como si eventualmente los fueras a delegar. Procedimientos documentados, bibliotecas de plantillas organizadas, criterios claros de decisión para reembolsos y escalaciones, y métricas de soporte rastreadas hacen posible incorporar un asistente de soporte cuando el volumen lo justifique. La alternativa — mantener todo en tu cabeza y gestionar cada interacción desde cero — hace la delegación casi imposible y te mantiene permanentemente atado a las operaciones de soporte a medida que tu negocio crece.`,
     },
   ],
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo crear una línea de productos imprimibles' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo escalar tu negocio de imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles' },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Estrategias de precios para productos imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo crear paquetes de fichas que vendan' },
-    { pageType: 'guide', slug: 'entender-licencias-comerciales', anchorText: 'Entender las licencias de uso comercial' },
-    { pageType: 'guide', slug: 'derechos-autor-vendedores-imprimibles', anchorText: `Fundamentos de derechos de autor para vendedores de imprimibles` },
-    { pageType: 'guide', slug: 'obtener-resenas-productos-imprimibles', anchorText: 'Cómo obtener reseñas para productos imprimibles' },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo crear una línea de productos imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo escalar tu negocio de imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de precios para productos imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo crear paquetes de fichas que vendan` },
+    { pageType: 'guide', slug: `entender-licencias-comerciales`, anchorText: `Entender las licencias de uso comercial` },
+    { pageType: 'guide', slug: `derechos-autor-vendedores-imprimibles`, anchorText: `Fundamentos de derechos de autor para vendedores de imprimibles` },
+    { pageType: 'guide', slug: `obtener-resenas-productos-imprimibles`, anchorText: `Cómo obtener reseñas para productos imprimibles` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de selección de nicho para negocios de imprimibles` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Generador de fichas de emparejamiento',
+      title: `Generador de fichas de emparejamiento`,
       description: `Crea fichas de emparejamiento versátiles que demuestran cómo las descripciones claras del producto y la documentación completa previenen las preguntas comunes de los compradores sobre el alcance del contenido, el nivel de dificultad y los requisitos de impresión.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Genera fichas de matemáticas completas con múltiples opciones de configuración, demostrando por qué la documentación detallada del contenido incluido, los niveles de grado y la disponibilidad de claves de respuestas previene la confusión del comprador.`,
     },
   ],
@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: `El diseño claro de fichas y las descripciones completas del producto previenen las solicitudes de soporte comunes`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma con formato profesional que establece expectativas precisas del comprador`,
         caption: `El formato profesional y las especificaciones detalladas eliminan los problemas de discrepancia de expectativas`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras con contenido temático demostrando claridad del producto para los compradores`,
         caption: `Los productos ricos en contenido se benefician más de documentación completa y soporte de autoservicio`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — imagen educativa temática', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Cacatúa — imagen educativa temática', caption: 'Cacatúa' },
-    { src: '/image-library/pets/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Hurón — imagen educativa temática', caption: 'Hurón' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — imagen educativa temática`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Cacatúa — imagen educativa temática`, caption: 'Cacatúa' },
+    { src: '/image-library/pets/dog.webp', alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Hurón — imagen educativa temática`, caption: 'Hurón' },
   ],
 };
 

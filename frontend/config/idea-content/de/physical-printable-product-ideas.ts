@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'physische druckvorlagen-ideen',
     secondaryKeywords: [
-      'gedruckte Arbeitsblätter auf Etsy versenden',
-      'laminierte Lernmaterialien auf Kunstmessen',
-      'Premium-Druckprodukte als physische Ware',
-      'Versand-Druckvorlagen Etsy-Geschäftsmodell',
+      `gedruckte Arbeitsblätter auf Etsy versenden`,
+      `laminierte Lernmaterialien auf Kunstmessen`,
+      `Premium-Druckprodukte als physische Ware`,
+      `Versand-Druckvorlagen Etsy-Geschäftsmodell`,
     ],
     lsiKeywords: [
-      'physische Produkte höhere Margen Druckvorlagen',
-      'laminierte Arbeitsblätter Premium-Preise',
-      'greifbare Lernmaterialien Direktvertrieb',
+      `physische Produkte höhere Margen Druckvorlagen`,
+      `laminierte Arbeitsblätter Premium-Preise`,
+      `greifbare Lernmaterialien Direktvertrieb`,
     ],
-    titleTag: 'Physische Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Physische Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Physische Druckvorlagen-Ideen für Etsy und Kunstmessen. Premium-Geschäft durch Drucken, Laminieren und Versenden greifbarer Arbeitsblatt-Produkte aufbauen.`,
   },
   hero: {
@@ -101,7 +101,7 @@ Physische Produkte bedienen auch den Geschenkmarkt auf eine Weise, die digitale 
       description: `Amazon Handmade bietet Zugang zur riesigen Amazon-Käuferbasis für handgefertigte Bildungsprodukte und erreicht Kunden, die ausschließlich auf Amazon einkaufen und Ihre Produkte auf Etsy oder lokalen Messen niemals entdecken würden, weil sie sich für viele Verkäufer nutzentscheidungen vollständig auf das Amazon-Ökosystem verlassen. Die Handmade-Kategorie unterscheidet Ihre professionell produzierten physischen Produkte von massenproduzierten Artikeln und gibt Käufern Vertrauen in die handwerkliche Qualität und persönliche Sorgfalt, die in jedes Produkt fließt, während sie die vertraute Amazon-Kaufabwicklung, Versanderwartungen und Käuferschutzrichtlinien bietet, die Kaufzögerungen reduzieren. Amazon-Versandoptionen einschließlich FBA ermöglichen es Ihnen, den Verkauf physischer Produkte zu skalieren, ohne jede Bestellung persönlich zu verpacken und zu versenden, und reduzieren den operativen Engpass, der viele Verkäufer physischer Produkte einschränkt, die den gesamten Versand manuell von ihrem Heimarbeitsplatz aus abwickeln. Produkteinträge profitieren von Amazon-SEO und Sponsored-Product-Werbemöglichkeiten, die erheblichen gezielten Verkehr auf Ihre Bildungsprodukt-Einträge lenken können und Käufer erreichen, die über die Suchmaschine nach spezifischen Bildungsmaterialien suchen, die mehr Produktsuchen verarbeitet als jede andere Plattform.`,
     },
     {
-      platform: 'Direktverkauf an Schulen und Institutionen',
+      platform: `Direktverkauf an Schulen und Institutionen`,
       title: `Physische Arbeitsblatt-Produkte direkt an Schulen und Institutionen verkaufen`,
       description: `Der Direktverkauf physischer gedruckter Arbeitsblatt-Produkte an Schulen, Kindertagesstätten, Geschäftskunden und Homeschool-Gruppen bietet die höchsten Einnahmen pro Bestellung, weil institutionelle Käufer in Shopmengen zu Groß- oder Einzelhandelspreisen kaufen, ohne dass Marktplatz-Provisionsgebühren Ihre Margen bei jeder Transaktion reduzieren. Bauen Sie Beziehungen zu lokalen Schulen und Bildungseinrichtungen auf durch Musterlieferungen, Ausstellungen im Verkäuferzimmer und PTA-Präsentationen, die die professionelle Qualität und den Shopnutzen Ihrer physischen Produkte in Kontexten präsentieren, in denen Entscheidungsträger Materialien handhaben und bewerten können, bevor sie sich zum Kauf verpflichten. Schulen haben oft jährliche Beschaffungsbudgets, die speziell für greifbare Druckprodukte vorgesehen sind, und bevorzugen den Kauf bei lokalen Anbietern, die persönlichen Service, Sonderanfertigungen für spezifische Shopbedürfnisse und schnelle Nachbestellungen bieten können, wenn Materialien während des Schuljahres nachgefüllt werden müssen. Erstellen Sie Katalogblätter oder Bestellformulare, die institutionelle Einkäufe vereinfachen und Nachbestellungen für neue saisonale Themen und Fachbereichserweiterungen fördern, und bauen Sie so dauerhafte Lieferantenbeziehungen auf, die planbare wiederkehrende Einnahmen während des gesamten Schuljahres generieren, ohne die Marketingkosten, die mit der Gewinnung neuer Einzelkunden über Marktplatzwerbung verbunden sind.`,
     },
@@ -141,13 +141,13 @@ Physische Produkte bedienen auch den Geschenkmarkt auf eine Weise, die digitale 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -161,33 +161,33 @@ Physische Produkte bedienen auch den Geschenkmarkt auf eine Weise, die digitale 
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'digitaler-download-druckvorlagen-ideen',
-      anchorText: 'Digitaler Download Druckvorlagen-Geschäftsideen',
+      slug: `digitaler-download-druckvorlagen-ideen`,
+      anchorText: `Digitaler Download Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 
 

@@ -1,24 +1,24 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'code breaker math worksheet maker',
+    primaryKeyword: `code breaker math worksheet maker`,
     secondaryKeywords: [
-      'crack the code math worksheets for Etsy sellers',
-      'code breaker puzzles to sell online',
+      `crack the code math worksheets for Etsy sellers`,
+      `code breaker puzzles to sell online`,
       `printable cipher math worksheets for commercial use`,
-      'secret code addition worksheet creator',
+      `secret code addition worksheet creator`,
     ],
     lsiKeywords: [
-      'image cipher math puzzle for printable business',
-      'word reveal code-cracking worksheet',
-      'number code math activity for sellers',
+      `image cipher math puzzle for printable business`,
+      `word reveal code-cracking worksheet`,
+      `number code math activity for sellers`,
     ],
     titleTag: `Code Breaker Math Maker — Worksheets to Sell Online`,
     metaDescription: `Create code-cracking math worksheets to sell on Etsy & KDP. Image cipher puzzles with addition, Word Reveal mode, 11 languages. Try with watermark — no signup.`,
     },
 
   hero: {
-    title: 'Code Breaker Math Worksheet Maker',
+    title: `Code Breaker Math Worksheet Maker`,
     tagline: `Create cryptarithmetic puzzles where solvers crack secret codes through addition`,
     description: `This is not another addition worksheet — it is a code-cracking challenge. Each puzzle hides numbers behind image symbols, and solvers must complete addition equations to figure out which number belongs to which picture. In Regular Mode, every symbol stands for a unique digit. Switch to Word Reveal Mode and each solved equation uncovers a letter of a secret word, with distractor letters keeping solvers guessing. Choose from over 100 image themes, adjust symbol count and addend complexity, and download print-ready PDFs or JPEGs. Supports 11 languages with locale-aware alphabets. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.`,
   },
@@ -39,11 +39,11 @@ const content: ToolContent = {  seo: {
         description: `Select how many symbols appear in each addition equation: 2, 3, 4, or Mix. Two-addend equations suit beginners. Three- and four-addend equations push advanced learners to track more unknowns. Mix randomly varies the count across exercises for maximum variety.`,
       },
       {
-        title: 'Switch to Word Reveal Mode (Optional)',
+        title: `Switch to Word Reveal Mode (Optional)`,
         description: `Toggle Word Reveal Mode to unlock an entirely different puzzle format. Type a secret word (up to 10 characters) and each correctly solved equation reveals one letter. Distractor letters with wrong sums keep solvers guessing. This mode is an OTO upgrade feature — great for premium products.`,
       },
       {
-        title: 'Select Images from the Theme Library',
+        title: `Select Images from the Theme Library`,
         description: `Open the "Image Library" panel and browse over 100 themed image sets: animals, food, vehicles, space, holidays, and more. Each image becomes a symbol in the code. Use the search bar to find specific themes, or click individual images to handpick the exact symbols you want.`,
       },
       {
@@ -79,7 +79,7 @@ const content: ToolContent = {  seo: {
       description: `Switch between 11 supported languages to create code puzzles for international markets. In Word Reveal Mode, the generator uses locale-aware alphabets — German umlauts, French accents, Scandinavian characters — so the hidden words are linguistically correct. Few competitors offer this.`,
     },
     {
-      title: 'Differentiated Cipher Worksheets',
+      title: `Differentiated Cipher Worksheets`,
       description: `Create the same puzzle concept at multiple difficulty levels: 3 symbols with 2 addends for beginners, 5 symbols with 3 addends for intermediate, and 8 symbols with mixed addends for advanced users. Sell as a differentiated pack at a premium price point.`,
     },
     {
@@ -90,7 +90,7 @@ const content: ToolContent = {  seo: {
 
   businessIdeas: [
     {
-      title: 'Etsy Cryptarithmetic Puzzle Shop',
+      title: `Etsy Cryptarithmetic Puzzle Shop`,
       description: `Open a niche Etsy shop focused on code-breaking math worksheets. This is a genuinely underserved category — most sellers offer standard addition drills, not cryptarithmetic puzzles. Create 15–20 themed bundles priced at $3–$5 each. The novelty factor drives higher click-through rates in search. Consider organizing your shop into seasonal collections — Halloween code crackers in October, winter holiday cipher packs in December, back-to-school bundles in August. Seasonal products tend to spike in Etsy search during their relevant period, giving you predictable traffic windows you can plan around.`,
       platform: 'Etsy',
     },
@@ -105,7 +105,7 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Digital Curriculum Pack',
+      title: `Gumroad Digital Curriculum Pack`,
       description: `Create a structured 8-week "Code Breaker Math" curriculum with weekly puzzle sets. Week 1 starts with 3 symbols, Week 8 ends with mixed addends and Word Reveal challenges. Sell as a premium digital download ($12–$15) on Gumroad. Homeschool buyers pay well for complete, structured programs. Include a one-page usage guide at the front explaining how to use each week's puzzles, what skills each difficulty level targets, and how to track progress. Adding this kind of instructional scaffolding justifies the premium price point and earns positive reviews that drive future sales.`,
       platform: 'Gumroad',
     },
@@ -115,7 +115,7 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Party and Event Activity Packs',
+      title: `Party and Event Activity Packs`,
       description: `Create themed code-cracking activity packs for birthday parties, party celebrations, and holiday events. Use Word Reveal Mode with party-related secret words. Buyers and event planners search for unique printable activities on Etsy and Pinterest. For birthday packs, use a name as the secret word and pair it with fun themed images like dinosaurs, unicorns, or superheroes. Event packs sell well as instant-download products because buyers often purchase last-minute and need something they can print immediately at home.`,
       platform: 'Etsy',
     },
@@ -123,23 +123,23 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Start with Fewer Symbols for Beginners',
+      title: `Start with Fewer Symbols for Beginners`,
       description: `Three or four symbols is the sweet spot for beginners and first-time code breakers. With fewer unknowns, solvers can use elimination logic more easily. Save 6+ symbol puzzles for advanced learners or advanced challenge sections in your product bundles. When building a product listing, mention the symbol count in your description so buyers know what difficulty level they are getting. Phrases like "beginner-friendly 3-symbol puzzles" or "advanced 7-symbol challenges" help buyers self-select the right product and reduce refund requests from mismatched expectations.`,
     },
     {
-      title: 'Use Mix Addends for Maximum Variety',
+      title: `Use Mix Addends for Maximum Variety`,
       description: `The Mix setting randomly varies whether each equation has 2, 3, or 4 addends. This creates a more engaging puzzle page because solvers cannot rely on one strategy. When building products to sell, Mix mode makes every page feel different even within the same bundle. This variation also reduces the likelihood of buyers requesting refunds due to repetitive content, because each puzzle page presents a genuinely different solving experience even when the same image theme and symbol count are reused throughout the entire pack.`,
     },
     {
-      title: 'Word Reveal Mode Is Your Premium Differentiator',
+      title: `Word Reveal Mode Is Your Premium Differentiator`,
       description: `Standard code puzzles are fun, but Word Reveal Mode is the feature that makes your product stand out. Use seasonal words (SANTA, BUNNY, BEACH), sight words for early readers, or vocabulary words for subject integration. Highlight this feature prominently in your product listings. On Etsy and Gumroad, include a mockup image showing the Word Reveal puzzle alongside its solved version so buyers can immediately see the hidden word concept. This visual demonstration converts browsers into buyers far more effectively than text descriptions alone. Consider creating a short product video showing the reveal process for even higher engagement.`,
     },
     {
-      title: 'Leverage Multilingual Alphabets',
+      title: `Leverage Multilingual Alphabets`,
       description: `In Word Reveal Mode, switching the language changes the available alphabet to include accented characters. German puzzles can hide words with umlauts, French puzzles include accents. This lets you create authentic multilingual products that machine-translated worksheets cannot replicate.`,
     },
     {
-      title: 'Pair with Regular Addition Worksheets',
+      title: `Pair with Regular Addition Worksheets`,
       description: `Create bundles that combine standard addition worksheets with code-breaking puzzles. The addition worksheets build fluency; the code puzzles apply that fluency in a logic context. Bundled products have higher perceived value and command better prices on every marketplace. A strong bundle structure might include 20 standard addition pages, 10 code breaker puzzles in Regular Mode, and 5 Word Reveal challenges — all with answer keys. Price the bundle higher than the individual packs, and cross-link between your listings so customers who buy one product discover the bundle option.`,
     },
     {
@@ -147,14 +147,14 @@ const content: ToolContent = {  seo: {
       description: `Code puzzles can be tricky, and buyers expect solutions. Generate the answer key for every puzzle before downloading. For Word Reveal puzzles, the answer key shows both the number assignments and the revealed word. This is essential for product listings. Without answer keys, buyers cannot verify work, which leads to negative reviews and lower marketplace rankings. Sellers who consistently include answer keys report significantly better customer satisfaction scores and more repeat purchases from returning buyers.`,
     },
     {
-      title: 'Use Themed Images That Match the Secret Word',
+      title: `Use Themed Images That Match the Secret Word`,
       description: `In Word Reveal Mode, pick image themes that relate to the hidden word. If the secret word is TIGER, use animal-themed symbols. If it is ROCKET, use space images. This thematic coherence makes the puzzle feel intentionally designed rather than randomly generated.`,
     },
   ],
 
   faq: [
     {
-      question: 'What is a code addition worksheet?',
+      question: `What is a code addition worksheet?`,
       answer: `A code addition worksheet is a cryptarithmetic puzzle where images or symbols replace numbers in addition equations. Solvers complete the equations to figure out which number each symbol represents. It combines addition practice with logical deduction, making it far more engaging than standard math drills. The cipher mechanism adds an engaging puzzle layer that transforms routine addition practice into an investigative challenge. Solvers must first decode which number each image represents, then solve the arithmetic. This dual-skill requirement makes code addition worksheets valuable for developing both mathematical fluency and logical reasoning abilities simultaneously.`,
     },
     {
@@ -166,11 +166,11 @@ const content: ToolContent = {  seo: {
       answer: `Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many puzzles as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.`,
     },
     {
-      question: 'How does the Symbol Count setting work?',
+      question: `How does the Symbol Count setting work?`,
       answer: `Symbol Count determines how many different image-symbols appear in your puzzle. Fewer symbols (3–4) make the puzzle easier because there are fewer unknowns to deduce. More symbols (6–8) increase difficulty. In Regular Mode, each symbol must represent a different number within any single question. For sellers building differentiated product bundles, the Symbol Count setting is your primary difficulty lever. A well-structured puzzle pack might include three tiers: easy (3 symbols), medium (5 symbols), and hard (7–8 symbols). Labeling each tier clearly in your product listing helps buyers understand the value and choose the right level. Buyers especially appreciate this kind of scaffolded approach because it saves them planning work.`,
     },
     {
-      question: 'Can I sell the worksheets I create?',
+      question: `Can I sell the worksheets I create?`,
       answer: `The free trial version with watermark is for personal use only. To sell on Etsy, Amazon KDP, Gumroad, or any other platform, you need a commercial license. The license removes the watermark and grants full rights to sell the puzzles you generate. Once licensed, there are no per-download limits and no royalty fees — you keep 100% of your sales revenue. The license covers all output from this specific tool, so you can generate as many unique puzzles as you need for as many product listings as you want.`,
     },
     {
@@ -178,11 +178,11 @@ const content: ToolContent = {  seo: {
       answer: `The generator supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. In Word Reveal Mode, the alphabet automatically adapts to include locale-specific characters like German umlauts and French accents.`,
     },
     {
-      question: 'What file formats can I download?',
+      question: `What file formats can I download?`,
       answer: `You can download puzzles as high-resolution JPEG images or print-optimized PDF files. Both the puzzle worksheet and its matching answer key are available in both formats. Use JPEGs for product mockups and social media; use PDFs as the deliverable in your listings.`,
     },
     {
-      question: 'Do I need to install any software?',
+      question: `Do I need to install any software?`,
       answer: `No. The generator runs entirely in your web browser on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. Nothing to install, no plugins required, and no account to create.`,
     },
     {
@@ -196,7 +196,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: `Code Addition Worksheets — Full Product Details` },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
     { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },

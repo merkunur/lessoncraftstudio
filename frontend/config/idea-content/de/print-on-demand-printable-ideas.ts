@@ -2,17 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'print-on-demand arbeitsblatt-ideen zum verkaufen',
+    primaryKeyword: `print-on-demand arbeitsblatt-ideen zum verkaufen`,
     secondaryKeywords: [
-      'POD-Druckvorlagen auf Etsy erstellen',
-      'gedruckte Arbeitshefte auf KDP verkaufen',
-      'Print-on-Demand Aktivitätspakete auf Shopify',
-      'lagerloses Druckvorlagen-Geschäft aufbauen',
+      `POD-Druckvorlagen auf Etsy erstellen`,
+      `gedruckte Arbeitshefte auf KDP verkaufen`,
+      `Print-on-Demand Aktivitätspakete auf Shopify`,
+      `lagerloses Druckvorlagen-Geschäft aufbauen`,
     ],
     lsiKeywords: [
-      'Print-on-Demand Geschäftsmodell Arbeitsblätter',
-      'lagerlose Produktion Druckvorlagen-Verkauf',
-      'Aktivitätshefte POD profitabel aufbauen',
+      `Print-on-Demand Geschäftsmodell Arbeitsblätter`,
+      `lagerlose Produktion Druckvorlagen-Verkauf`,
+      `Aktivitätshefte POD profitabel aufbauen`,
     ],
     titleTag: `Print-on-Demand Arbeitsblatt-Ideen zum Verkaufen — Leitfaden`,
     metaDescription: `Print-on-Demand Arbeitsblatt-Ideen für Etsy, KDP und Shopify. Geschäft ohne Lagerhaltung mit gedruckten Arbeitsheften und Aktivitätspaketen profitabel.`,
@@ -87,7 +87,7 @@ Print-on-Demand ermöglicht zudem schnelles Produkttesten und Iterieren, da die 
   platformTips: [
     {
       platform: 'Amazon KDP',
-      title: 'POD-Arbeitshefte auf Amazon KDP verkaufen',
+      title: `POD-Arbeitshefte auf Amazon KDP verkaufen`,
       description: `Amazon KDP ist die dominierende Print-on-Demand-Plattform für Lernarbeitshefte mit massivem organischen Traffic von Eltern und Verkäufern, die nach gedruckten Lernmaterialien nach Altersstufe, Fach und Aktivitätstyp suchen. KDP übernimmt sämtlichen Druck, Versand und Kundenservice, während Sie sich ausschließlich auf Inhaltserstellung und Keyword-Optimierung konzentrieren, die organische Entdeckung in Amazon-Suchergebnissen vorantreibt. Erstellen Sie Arbeitshefte mit achtzig bis einhundertzwanzig Seiten, organisiert nach Fach und Altersstufe im KDP-Taschenbuchformat, das die Seitenzahl bietet, die Käufer von gedruckten Lernarbeitsheften erwarten, während die Produktionskosten für wettbewerbsfähige Preise mit gesunden Tantiemenmargen überschaubar bleiben. Optimieren Sie Titel und Untertitel mit spezifischen Altersstufen, Fächern und Aktivitätstypen, die den exakten Suchanfragen entsprechen, die Eltern und Verkäufer beim Einkaufen von gedruckten Übungsmaterialien auf Amazon verwenden. Nutzen Sie KDP-Kategorieauswahl strategisch, um in relevanten Browsing-Pfaden für Lernarbeitshefte zu erscheinen, wo Käufer neue Produkte durch Kategorie-Erkundung statt direkter Keyword-Suche entdecken. Die Tantiemenstruktur belohnt höhere Seitenzahlen und wettbewerbsfähige Preise, also experimentieren Sie mit verschiedenen Arbeitsheftlängen und Preispunkten, um die optimale Kombination zu finden, die die Tantieme pro Einheit maximiert und gleichzeitig die wettbewerbsfähige Positionierung aufrechterhält, die konsistentes Verkaufsvolumen in Ihren Ziel-Bildungskategorien antreibt.`,
     },
     {
@@ -97,12 +97,12 @@ Print-on-Demand ermöglicht zudem schnelles Produkttesten und Iterieren, da die 
     },
     {
       platform: 'Shopify + Gelato/Printify',
-      title: 'Eine POD-Arbeitsblatt-Marke auf Shopify aufbauen',
+      title: `Eine POD-Arbeitsblatt-Marke auf Shopify aufbauen`,
       description: `Shopify-Onlineshops mit POD-Integration über Gelato oder Printify ermöglichen markengebundene Arbeitsblatt-Produktlinien mit vollständiger Kontrolle über Preisgestaltung, Präsentation, Kundenerlebnis und Markenidentität, die Marktplatz-Plattformen nicht bieten können. Bauen Sie eine professionelle Bildungsprodukt-Marke mit gedruckten Arbeitsheften, Aktivitätspaketen und Arbeitsblatt-Sets auf, die POD-Partner unter Ihrem Markennamen mit individuellen Verpackungsoptionen produzieren und direkt an Kunden versenden, was Markenwiedererkennung und Professionalität stärkt. Das Direct-to-Consumer-Modell eliminiert Marktplatzgebühren, die Margen auf Etsy und Amazon reduzieren, und baut Kundenbeziehungen über Ihre eigene E-Mail-Liste, markengebundene Kommunikation und personalisierte Einkaufserlebnisse auf, die Wiederholungskäufe und Markentreue im Laufe der Zeit fördern. Kombinieren Sie gedruckte POD-Produkte mit digitalen Downloads im selben Onlineshop für maximale Produktvielfalt, sodass Kunden zwischen sofortiger digitaler Lieferung und professionell gedruckten physischen Produkten basierend auf ihren Präferenzen und Anforderungen wählen können. Shopify-Abo-Apps ermöglichen auch wiederkehrende Bestellungen für Kunden, die monatliche oder vierteljährliche gedruckte Arbeitsblatt-Lieferungen wünschen, was vorhersagbare Umsatzströme von treuen Kunden schafft, die automatisierte Nachbestellung der manuellen Neubestellung vorziehen. Die anfängliche Einrichtungsinvestition für einen Shopify-Onlineshop ist höher als bei Marktplatz-Alternativen, aber die langfristige Wirtschaftlichkeit begünstigt Direktverkäufe, wenn Ihr Kundenstamm wächst, da Sie die Kundenbeziehung behalten, Marktplatz-Provisionsgebühren vermeiden und ein Marken-Asset mit bleibendem Wert jenseits einer einzelnen Plattform aufbauen.`,
     },
     {
       platform: 'Lulu / Direct POD',
-      title: 'Premium-POD-Produkte mit Lulu und Direktdiensten',
+      title: `Premium-POD-Produkte mit Lulu und Direktdiensten`,
       description: `Lulu und ähnliche direkte POD-Dienste bieten Premium-Druckoptionen einschließlich Hardcover-Bindung, Vollfarbdruck im Innenteil, Großformate und Spezialpapier, die Amazon KDP und Marktplatz-Integrationen möglicherweise nicht unterstützen, und ermöglichen so Flaggschiff-Bildungsprodukte, die Premiumpreise rechtfertigen. Nutzen Sie Premium-POD für Deluxe-Aktivitätsarbeitshefte, Verkäufer-Ressourcen-Ordner und umfassende Produktkatalogpakete, bei denen Premium-Präsentation höhere Preise rechtfertigt und Ihre Produkte von den Standard-Taschenbuch-Arbeitsheften unterscheidet, die in Warenkategorien auf Amazon und Etsy konkurrieren. Verkaufen Sie Premium-POD-Produkte über Ihre eigene Website, Direktvertriebskanäle oder im Großhandel an Schulen und Bildungsmaterialgeschäfte, wo professionell gedruckte und gebundene Materialien institutionelle Preise erzielen, die wesentlich höhere Margen pro Einheit als Consumer-Marktplatzverkäufe generieren. Lulus globales Vertriebsnetzwerk platziert Bücher auch auf Amazon und anderen großen Online-Händlern neben Ihren KDP-Titeln und gibt Premium-POD-Produkten breite Marktplatzsichtbarkeit bei gleichzeitiger Beibehaltung der Premium-Produktionsqualität, die das KDP-Standard-Taschenbuchformat nicht erreichen kann. Erwägen Sie gestaffelte Produktlinien, bei denen KDP Ihre Standard-Taschenbuch-Arbeitshefte zu wettbewerbsfähigen Verbraucherpreisen handhabt, während Lulu Ihre Premium-Hardcover- und spiralgebundenen Ausgaben zu höheren Preispunkten produziert und so beide Marktsegmente mit der jeweiligen Preisstufe und Käufererwartung angemessener Produktionsqualität abdeckt. Direkte POD-Dienste bieten auch Sammelbestellungen zu reduzierten Stückkosten für Verkäufer, die eigene Bestellungen auf Handwerksmärkten, Bildungskonferenzen und Schulbedarf-Veranstaltungen abwickeln möchten, wo persönlicher Verkauf höhere Konversionsraten generiert und persönliche Beziehungen zu institutionellen Käufern aufbaut, die Folgebestellungen aufgeben.`,
     },
   ],
@@ -141,18 +141,18 @@ Print-on-Demand ermöglicht zudem schnelles Produkttesten und Iterieren, da die 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -161,33 +161,33 @@ Print-on-Demand ermöglicht zudem schnelles Produkttesten und Iterieren, da die 
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'abo-box-druckvorlagen-ideen',
-      anchorText: 'Abo-Box Druckvorlagen-Geschäftsideen',
+      anchorText: `Abo-Box Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 
 

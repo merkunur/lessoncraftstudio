@@ -4,18 +4,18 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'Mathe-Arbeitsblatt-Paket',
     secondaryKeywords: [
-      'Mathe-Arbeitsblätter-Paket für Verkäufer',
+      `Mathe-Arbeitsblätter-Paket für Verkäufer`,
       `Mathe-Arbeitsblatt-Generator-Paket kommerzielle Nutzung`,
-      'druckbare Mathe-Aktivitäten-Paket für Etsy',
-      'Mathe-Arbeitsblatt-Toolkit für KDP-Verkäufer',
+      `druckbare Mathe-Aktivitäten-Paket für Etsy`,
+      `Mathe-Arbeitsblatt-Toolkit für KDP-Verkäufer`,
     ],
     lsiKeywords: [
-      'Addition Subtraktion Arbeitsblatt-Paket',
-      'Mathe-Rätsel druckbare Sammlung',
-      'kommerzielle Lizenz Mathe-Arbeitsblätter',
-      'Mathe-Arbeitsblatt-Massenproduktion Werkzeug',
+      `Addition Subtraktion Arbeitsblatt-Paket`,
+      `Mathe-Rätsel druckbare Sammlung`,
+      `kommerzielle Lizenz Mathe-Arbeitsblätter`,
+      `Mathe-Arbeitsblatt-Massenproduktion Werkzeug`,
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Paket — 6 Mathe-Generatoren',
+    titleTag: `Mathe-Arbeitsblatt-Paket — 6 Mathe-Generatoren`,
     metaDescription: `6 Mathe-Generatoren im Paket: Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.`,
   },
 
@@ -27,11 +27,11 @@ const content: BundleContent = {
 
   appsIncluded: [
     {
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erstellen Sie bildbasierte Additions-Arbeitsblätter in vier verschiedenen Modi: Bild + Bild Zählen, Bild + Zahl Hybridaufgaben, Finde den Summanden Herausforderungen mit fehlenden Werten und gemischter Modus, der alle drei auf einer Seite kombiniert. Nutzer zählen thematische Bilder, um jede Gleichung zu lösen, wodurch abstrakte Addition konkret und ansprechend wird. Stellen Sie den Zahlenbereich von 1 bis 99 ein, wählen Sie zwischen 4, 6, 8 oder 12 Aufgaben pro Seite und wählen Sie Bilder aus über 100 thematischen Sets mit Tieren, Lebensmitteln, Fahrzeugen und saisonalen Kategorien. Jedes Arbeitsblatt erzeugt automatisch einen passenden Lösungsschlüssel. Wählen Sie aus mehreren Seitengrößen, fügen Sie dekorative Ränder und thematische Hintergründe hinzu und laden Sie als druckfertige PDF oder JPEG herunter.`,
     },
     {
-      title: 'Subtraktions-Arbeitsblatt-Generator',
+      title: `Subtraktions-Arbeitsblatt-Generator`,
       description: `Generieren Sie visuelle Subtraktions-Arbeitsblätter mit vier Modi, einschließlich des einzigartigen Durchstreichen-Ansatzes — Nutzer streichen Bilder physisch durch, um die Differenz zu finden, und bauen ein intuitives Verständnis von Subtraktion als Wegnehmen auf. Weitere Modi umfassen Bild − Bild, Bild − Zahl und gemischte Formate. Einstellbare Zahlenbereiche, Aufgabenanzahl und thematische Bildsets bieten die gleiche Flexibilität wie der Additions-Generator, mit subtraktionsspezifischer Methodik. Der Durchstreichen-Modus ist besonders bei Frühförder-Käufer beliebt, da er Subtraktion in eine praktische Aktivität verwandelt, mit der Nutzer auf der gedruckten Seite physisch interagieren können.`,
     },
     {
@@ -66,11 +66,11 @@ const content: BundleContent = {
       description: `Jeder Generator im Paket erzeugt automatisch einen passenden Lösungsschlüssel zu jedem Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung der Käufer auf Etsy.de und Gumroad — dieses Paket liefert sie automatisch und spart Ihnen Stunden manueller Arbeit.`,
     },
     {
-      title: 'Einheitliche professionelle Qualität',
+      title: `Einheitliche professionelle Qualität`,
       description: `Alle sechs Generatoren teilen dieselbe Design-Engine: passende Ränder, Hintergründe, Schriftarten und Layout-Optionen. Ihre Arbeitsblätter wirken wie eine zusammenhängende Marke, nicht wie sechs verschiedene Werkzeuge, die zusammengestückelt wurden.`,
     },
     {
-      title: 'Weltweit verkaufen ohne Übersetzung',
+      title: `Weltweit verkaufen ohne Übersetzung`,
       description: `Fünf der sechs Apps erzeugen rein visuelle Arbeitsblätter — nur Bilder und Zahlen, kein Text auf der Seite. Verkaufen Sie dasselbe PDF an Käufer in jedem Land. Bilder-Addition bietet zusätzlich einen sprachsensitiven Wort-Enthüllungsmodus für Verkäufer, die spezifische Sprachmärkte ansprechen.`,
     },
     {
@@ -89,7 +89,7 @@ const content: BundleContent = {
 
   businessUseCases: [
     {
-      title: 'Etsy.de Mathe-Arbeitsblatt-Shop',
+      title: `Etsy.de Mathe-Arbeitsblatt-Shop`,
       description: `Erstellen Sie einen kompletten Etsy-Shop rund um Mathe-Druckmaterialien. Listen Sie Additions-Pakete, Subtraktions-Bündel, Vergleichs-Arbeitsblätter und Rätsel-Sammlungen als separate Produkte. Das Paket gibt Ihnen sechs Produktkategorien vom ersten Tag an — genug, um einen Shop zu füllen, den Käufer ernst nehmen. Nutzen Sie die über 100 thematischen Bildsets für saisonale Angebote: Schulanfang-Tiermathematik, Feiertags-Subtraktion, Frühlings-Garten-Addition. Jede Themenvariante wird zu einem separaten Angebot, das unterschiedlichen Suchverkehr erfasst. Etsy belohnt Shops mit tiefem Katalog in einer fokussierten Nische, und das Mathe-Paket gibt Ihnen die Werkzeuge, um Dutzende verschiedener Produktangebote zu erstellen, ohne zwischen Generatoren wechseln zu müssen. Saisonale Aktualisierungen mit verschiedenen Bildthemen halten Ihren Shop in den Suchergebnissen aktiv, was der Etsy-Algorithmus gegenüber inaktiven Shops mit statischem Inventar bevorzugt.`,
       platform: 'Etsy.de',
     },
@@ -104,7 +104,7 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Ihr Geschäft- und Homeschool-Materialien',
+      title: `Ihr Geschäft- und Homeschool-Materialien`,
       description: `Generieren Sie frische Arbeitsblätter für jede Geschäftstunde oder Homeschool-Woche. Variieren Sie Schwierigkeitsgrad, Thema und Aufgabentyp, damit Nutzer nie dieselbe Seite zweimal sehen. Die Lösungsschlüssel lassen Eltern und Kursanbieter die Arbeit sofort prüfen, ohne Lösungen manuell berechnen zu müssen. Beginnen Sie mit einfachem Additions-Zählen für jüngere Lernende und steigern Sie sich durch Subtraktion, Vergleich und algebraische Bildrätsel — alles aus demselben Paket. Kursanbieter, die mehrere Nutzer betreuen, können personalisierte Arbeitsblatt-Sets erstellen, die auf das aktuelle Kompetenzniveau und die Interessen jedes Lernenden zugeschnitten sind. Homeschool-Familien profitieren von der Vielfalt über sechs Generatoren, da sie die repetitive Arbeitsblatt-Ermüdung verhindern, die häuslichen Matheunterricht oft entgleisen lässt.`,
     },
     {
@@ -119,14 +119,14 @@ const content: BundleContent = {
   ],
 
   featureComparison: [
-    { feature: 'Alle 6 Mathe-Arbeitsblatt-Generatoren', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Alle 6 Mathe-Arbeitsblatt-Generatoren`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Thematische Bildsets', commercial: '10 Themen', fullAccess: '104 Themen' },
-    { feature: 'Eigene Bild-Uploads (PNG/JPEG)', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Eigene Bild-Uploads (PNG/JPEG)`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Automatische Lösungsschlüssel', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'PDF- und JPEG-Download', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Kommerzielle Verkaufsrechte', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Oberflächensprachen', commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
-    { feature: 'Bilder-Addition Wort-Enthüllung Sprachen', commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
+    { feature: `Bilder-Addition Wort-Enthüllung Sprachen`, commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
     { feature: 'Wasserzeichenfreie Downloads', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Lebenslange Updates', commercial: 'Ja', fullAccess: 'Ja' },
   ],
@@ -141,26 +141,26 @@ const content: BundleContent = {
       description: `Sie erstellen und verkaufen Bildungsressourcen auf dem Gumroad und brauchen Werkzeuge, die den Plattform-Erwartungen entsprechen. Jeder Generator erzeugt marktgerechte Arbeitsblätter mit automatischen Lösungsschlüsseln und mehreren Schwierigkeitseinstellungen — genau das, was Rezensenten und Käufer auf dem Gumroad von Premium-Mathe-Ressourcen erwarten. Die vier Schwierigkeitsstufen pro Generator erleichtern die Erstellung gestufte Produktpaketespakete, nach denen Käufer nach Altersstufe und Fähigkeit suchen. Käufer auf dem Gumroad erwarten polierte, sofort einsetzbare Druckprodukte mit einheitlicher visueller Präsentation — die gemeinsame Design-Engine aller sechs Generatoren gewährleistet, dass Ihre Mathe-Ressourcen ein kohärentes professionelles Erscheinungsbild bewahren, das Markenglaubwürdigkeit aufbaut und Wiederholungskäufe verdient.`,
     },
     {
-      title: 'Kursanbieter und Homeschool-Eltern',
+      title: `Kursanbieter und Homeschool-Eltern`,
       description: `Sie brauchen jede Woche frische, abwechslungsreiche Mathe-Übungsmaterialien. Statt nach generischen Arbeitsblättern zu suchen, die nie ganz passen, generieren Sie genau das, was Ihre Nutzer brauchen — den richtigen Schwierigkeitsgrad, das richtige Thema, das richtige Motiv — in unter einer Minute. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie vor dem Kauf evaluieren können.`,
     },
     {
-      title: 'Content-Ersteller im Bildungsbereich',
+      title: `Content-Ersteller im Bildungsbereich`,
       description: `Sie produzieren Inhalte für Blogs, YouTube-Kanäle oder Social-Media-Konten mit Bildungsfokus. Nutzen Sie die Generatoren, um Beispiel-Arbeitsblätter für Tutorials, Lead-Magnete oder herunterladbare Ressourcen zu erstellen, die Traffic zu Ihren bezahlten Produkten lenken. Die kostenlose Testversion mit Wasserzeichen lässt Sie die Arbeitsblatt-Qualität in Ihren Inhalten präsentieren, bevor Sie sich für eine Lizenz entscheiden. Content-Ersteller, die die Arbeitsblatt-Erstellung in Tutorial-Videos demonstrieren, erfahren, dass Live-Erstellungsdemos starkes Zuschauerengagement erzeugen und direkte Konversionen zu ihren Druckprodukt-Shops antreiben. Die sechs Generatoren bieten genug Vielfalt für eine ganze Videoreihe — ein Video pro Generator — und bauen eine Content-Bibliothek auf, die noch lange nach der Veröffentlichung Traffic zu Ihren Produkten lenkt.`,
     },
   ],
 
   faq: [
     {
-      question: 'Kann ich die Generatoren vor dem Kauf testen?',
+      question: `Kann ich die Generatoren vor dem Kauf testen?`,
       answer: `Ja. Jeder Generator im Paket bietet eine kostenlose Testversion mit voller Funktionalität. Sie können Einstellungen konfigurieren, Arbeitsblätter in der Vorschau ansehen und Dateien herunterladen. Testversion-Downloads enthalten ein Wasserzeichen. Der Kauf einer Lizenz entfernt das Wasserzeichen, damit Sie kommerziell verkaufen können.`,
     },
     {
-      question: 'Welche Formate kann ich herunterladen?',
+      question: `Welche Formate kann ich herunterladen?`,
       answer: `Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. Sie können zwischen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer benutzerdefinierten Größe wählen. PDF ist ideal für mehrseitige Arbeitsblatt-Pakete auf Etsy.de und Gumroad. JPEG eignet sich gut für KDP-Innenseiten und Social-Media-Vorschauen. Alle Dateien werden in Druckauflösung heruntergeladen — kein Hochskalieren oder Nachbearbeiten nötig.`,
     },
     {
-      question: 'Enthalten die Arbeitsblätter Lösungsschlüssel?',
+      question: `Enthalten die Arbeitsblätter Lösungsschlüssel?`,
       answer: `Ja. Alle sechs Generatoren erstellen automatisch einen passenden Lösungsschlüssel für jedes Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung für Käufer auf Etsy.de und Gumroad und sparen Ihnen die Zeit, jede Aufgabe manuell zu lösen.`,
     },
     {
@@ -176,11 +176,11 @@ const content: BundleContent = {
       answer: `Beide Stufen enthalten alle sechs Generatoren mit wasserzeichenfreien Downloads und kommerziellen Verkaufsrechten. Kommerziell bietet 10 thematische Bildsets und eine deutschsprachige Oberfläche. Vollzugriff schaltet alle 104 thematischen Bildsets und alle 11 Oberflächensprachen frei, einschließlich Bilder-Addition-Vokabular in jeder unterstützten Sprache.`,
     },
     {
-      question: 'Darf ich die erstellten Arbeitsblätter verkaufen?',
+      question: `Darf ich die erstellten Arbeitsblätter verkaufen?`,
       answer: `Ja. Sowohl die Kommerzielle als auch die Vollzugriff-Lizenz beinhalten kommerzielle Verkaufsrechte. Sie können die generierten Arbeitsblätter auf Etsy.de, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform verkaufen. Sie verkaufen die Arbeitsblätter — das Generator-Werkzeug selbst ist nicht übertragbar.`,
     },
     {
-      question: 'Wie viele Arbeitsblätter kann ich erstellen?',
+      question: `Wie viele Arbeitsblätter kann ich erstellen?`,
       answer: `Es gibt kein Limit. Nach dem Lizenzerwerb können Sie über alle sechs Generatoren hinweg beliebig viele Arbeitsblätter generieren. Es gibt keine Download-Gebühren, monatlichen Obergrenzen oder Nutzungsbeschränkungen. Viele Verkäufer generieren Dutzende von Arbeitsblättern pro Sitzung, um thematische Produktpakete aufzubauen. Mit sechs Generatoren und über 100 Bildthemen ist die Anzahl einzigartiger Arbeitsblatt-Kombinationen praktisch unbegrenzt.`,
     },
     {
@@ -202,44 +202,44 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'app', slug: 'subtraktion-arbeitsblaetter', anchorText: `Subtraktions-Arbeitsblatt-Generator — Alle Details` },
-    { pageType: 'app', slug: 'bilder-additions-arbeitsblaetter', anchorText: 'Bilder-Additions-Generator — Alle Details' },
-    { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: 'Mehr-oder-Weniger-Generator — Alle Details' },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Rätsel-Generator — Alle Details' },
-    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: `Leitfaden: Mathe-Arbeitsblätter auf Etsy verkaufen` },
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher auf Amazon KDP' },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: 'Arbeitsblätter erstellen, die sich verkaufen' },
-    { pageType: 'idea', slug: 'mathe-grundlagen-druckvorlagen-ideen', anchorText: `Mathe-Fakten Druckvorlagen-Ideen für Käufer & Verkäufer` },
+    { pageType: 'app', slug: `bilder-additions-arbeitsblaetter`, anchorText: `Bilder-Additions-Generator — Alle Details` },
+    { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: `Mehr-oder-Weniger-Generator — Alle Details` },
+    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: `Mathe-Rätsel-Generator — Alle Details` },
+    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: `Mathe-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Leitfaden: Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher auf Amazon KDP` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'idea', slug: `mathe-grundlagen-druckvorlagen-ideen`, anchorText: `Mathe-Fakten Druckvorlagen-Ideen für Käufer & Verkäufer` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/addition/Additionsspa 1.webp',
+      primary: `/samples/german/addition/Additionsspa 1.webp`,
       primaryAlt: `Additions-Arbeitsblatt mit thematischen Bildern und visuellen Zählaufgaben`,
     },
     sampleGallery: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt mit thematischen Tierbildern`, caption: 'Additions-Arbeitsblatt' },
-      { src: '/samples/german/subtraction/worksheet.webp', alt: `Subtraktions-Arbeitsblatt mit Durchstreichen-Zählung`, caption: 'Subtraktions-Arbeitsblatt' },
-      { src: `/samples/german/code addition/Code-Knacker Addition 1.webp`, alt: 'Bilder-Additions-Rätsel mit Buchstaben-Entschlüsselung', caption: 'Bilder-Additions-Rätsel' },
-      { src: '/samples/german/more less/Mehr Weniger 1.webp', alt: 'Größer-als-Kleiner-als-Vergleichs-Arbeitsblatt', caption: 'Mehr-oder-Weniger-Arbeitsblatt' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Puzzle-Raster-Mathe-Rätsel mit Gleichungen', caption: 'Mathe-Rätsel-Arbeitsblatt' },
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Visuelle Bildalgebra mit Bildvariablen', caption: 'Mathe-Arbeitsblatt-Rätsel' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt mit thematischen Tierbildern`, caption: 'Additions-Arbeitsblatt' },
+      { src: `/samples/german/subtraction/worksheet.webp`, alt: `Subtraktions-Arbeitsblatt mit Durchstreichen-Zählung`, caption: 'Subtraktions-Arbeitsblatt' },
+      { src: `/samples/german/code addition/Code-Knacker Addition 1.webp`, alt: `Bilder-Additions-Rätsel mit Buchstaben-Entschlüsselung`, caption: 'Bilder-Additions-Rätsel' },
+      { src: `/samples/german/more less/Mehr Weniger 1.webp`, alt: `Größer-als-Kleiner-als-Vergleichs-Arbeitsblatt`, caption: `Mehr-oder-Weniger-Arbeitsblatt` },
+      { src: `/samples/german/math puzzle/Mathe-Rätsel 1.webp`, alt: `Puzzle-Raster-Mathe-Rätsel mit Gleichungen`, caption: 'Mathe-Rätsel-Arbeitsblatt' },
+      { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Visuelle Bildalgebra mit Bildvariablen`, caption: 'Mathe-Arbeitsblatt-Rätsel' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Mathematik-Meister-Paket — Alle 6 Generatoren in Aktion`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
-    { src: '/image-library/shapes/heptagon.webp', alt: 'Siebeneck — thematisches Lernbild', caption: 'Siebeneck' },
-    { src: '/image-library/shapes/hexagon.webp', alt: 'Sechseck — thematisches Lernbild', caption: 'Sechseck' },
+    { src: `/image-library/shapes/circle.webp`, alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: `/image-library/shapes/cone.webp`, alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Würfel — thematisches Lernbild`, caption: 'Würfel' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Zylinder — thematisches Lernbild`, caption: 'Zylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: `/image-library/shapes/heart.webp`, alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
+    { src: `/image-library/shapes/heptagon.webp`, alt: `Siebeneck — thematisches Lernbild`, caption: 'Siebeneck' },
+    { src: `/image-library/shapes/hexagon.webp`, alt: `Sechseck — thematisches Lernbild`, caption: 'Sechseck' },
   ],
 };
 

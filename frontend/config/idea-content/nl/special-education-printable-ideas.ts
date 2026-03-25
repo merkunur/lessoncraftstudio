@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `speciale producten Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende speciale producten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Aangepast printbare producten en nichetips voor verkopers.`,
 
-    primaryKeyword: 'speciale producten printable ideeën',
+    primaryKeyword: `speciale producten printable ideeën`,
     secondaryKeywords: [
-      'speciale producten werkbladen verkopen',
-      'aangepast printbare producten printable business',
-      'passend onderwijs activiteiten verkopers',
-      'speciale producten printables op Gumroad',
+      `speciale producten werkbladen verkopen`,
+      `aangepast printbare producten printable business`,
+      `passend onderwijs activiteiten verkopers`,
+      `speciale producten printables op Gumroad`,
     ],
     lsiKeywords: [
-      'gedifferentieerd leren werkbladen',
-      'adaptief printbare producten printables',
-      'ontwikkelingsperspectief bronnen',
+      `gedifferentieerd leren werkbladen`,
+      `adaptief printbare producten printables`,
+      `ontwikkelingsperspectief bronnen`,
     ],
   },
   hero: {
@@ -49,7 +49,7 @@ Het jaarronde karakter van de vraag naar speciaal printbare producten is bijzond
     },
     {
       title: `speciale producten Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen zijn bijzonder waardevol voor het speciale producten omdat ze visuele discriminatie, cognitieve verbinding en fijne motoriek oefenen met minimale taalafhankelijkheid. Maak sets met grotere afbeeldingen, duidelijker contrast en minder items per pagina dan reguliere versies. Maak sets waarin gebruikers dagelijkse objecten koppelen aan hun functie, emoties verbinden met gezichtsuitdrukkingen, voorwerpen matchen met hun categorie, of real-life foto's koppelen aan getekende versies. De Koppelen-generator produceert schone lay-outs die aanpasbaar zijn qua complexiteit. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van zes tot tien euro — hoger dan reguliere equivalenten.`,
+      description: `Koppelwerkbladen zijn bijzonder waardevol voor het speciale producten omdat ze visuele discriminatie, cognitieve verbinding en fijne motoriek oefenen met minimale taalafhankelijkheid. Maak sets met grotere afbeeldingen, duidelijker contrast en minder items per pagina dan reguliere versies. Maak sets waarin gebruikers dagelijkse objecten koppelen aan hun functie, emoties verbinden met gezichtsuitdrukkingen, voorwerpen matchen met hun categorie, of real-life foto`s koppelen aan getekende versies. De Koppelen-generator produceert schone lay-outs die aanpasbaar zijn qua complexiteit. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van zes tot tien euro — hoger dan reguliere equivalenten.`,
       appId: 'matching',
     },
     {
@@ -92,7 +92,7 @@ Het jaarronde karakter van de vraag naar speciaal printbare producten is bijzond
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'speciale producten Printables Verkopen op Etsy',
+      title: `speciale producten Printables Verkopen op Etsy`,
       description: `Etsy is effectief voor speciale producten printables, vooral voor ouders die thuisoefeningsmateriaal zoeken dat aansluit bij de schoolaanpak van hun kind. Richt je op long-tail zoekwoorden die specifieke behoeften adresseren: "aangepaste werkbladen speciale producten," "visuele ondersteuning werkbladen" of "vereenvoudigde telactiviteiten." Gebruik alle dertien tags met variaties die beperkingstypen, aanpassingsniveaus en vaardigheidsdoelen combineren. Positioneer je producten met duidelijke aanpassingsbeschrijvingen — "grote lettertypen," "verminderde visuele drukte," "eenstapsige instructies" — zodat kopers direct herkennen dat het materiaal specifiek is ontworpen voor speciale leerbehoeften. De Nederlandse markt via Etsy.nl biedt kansen door het beperkte Nederlandstalige aanbod van aangepast werkbladmateriaal.`,
     },
     {
@@ -147,47 +147,47 @@ Het jaarronde karakter van de vraag naar speciaal printbare producten is bijzond
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'Professionele koppelwerkbladen maken',
+      anchorText: `Professionele koppelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Thuisonderwijs printable businessideeën',
+      anchorText: `Thuisonderwijs printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Peuterspeelzaal printable businessideeën',
+      anchorText: `Peuterspeelzaal printable businessideeën`,
     },
     {
       pageType: 'idea',
@@ -197,12 +197,12 @@ Het jaarronde karakter van de vraag naar speciaal printbare producten is bijzond
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: `Cirkel — educatieve thema-afbeelding speciale producten`, caption: 'Cirkel' },
-    { src: '/image-library/shapes/cone.webp', alt: `Kegel — educatieve thema-afbeelding speciale producten`, caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: `Kubus — educatieve thema-afbeelding speciale producten`, caption: 'Kubus' },
-    { src: '/image-library/shapes/cylinder.webp', alt: `Cilinder — educatieve thema-afbeelding speciale producten`, caption: 'Cilinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: `Ruit — educatieve thema-afbeelding speciale producten`, caption: 'Ruit' },
-    { src: '/image-library/shapes/heart.webp', alt: `Hart — educatieve thema-afbeelding speciale producten`, caption: 'Hart' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Cirkel — educatieve thema-afbeelding speciale producten`, caption: 'Cirkel' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Kegel — educatieve thema-afbeelding speciale producten`, caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Kubus — educatieve thema-afbeelding speciale producten`, caption: 'Kubus' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilinder — educatieve thema-afbeelding speciale producten`, caption: 'Cilinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Ruit — educatieve thema-afbeelding speciale producten`, caption: 'Ruit' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Hart — educatieve thema-afbeelding speciale producten`, caption: 'Hart' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

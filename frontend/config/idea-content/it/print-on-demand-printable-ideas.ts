@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Idee di Stampabili Print-on-Demand da Vendere — Guida`,
     metaDescription: `Idee di stampabili print-on-demand per venditori Etsy, KDP e Shopify. Business senza inventario con quaderni di esercizi, pacchetti attività e libri puzzle.`,
-    primaryKeyword: 'idee stampabili print-on-demand',
+    primaryKeyword: `idee stampabili print-on-demand`,
     secondaryKeywords: [
       'idee business stampabili POD',
-      'prodotti educativi print-on-demand',
-      'vendere schede con print-on-demand',
-      'modello business stampabili POD',
+      `prodotti educativi print-on-demand`,
+      `vendere schede con print-on-demand`,
+      `modello business stampabili POD`,
     ],
     lsiKeywords: [
-      'stampa e evasione ordini automatizzata',
-      'vendita prodotti educativi su richiesta',
-      'business schede senza inventario',
+      `stampa e evasione ordini automatizzata`,
+      `vendita prodotti educativi su richiesta`,
+      `business schede senza inventario`,
     ],
   },
   hero: {
@@ -87,7 +87,7 @@ Il print-on-demand permette anche test e iterazioni rapide dei prodotti perché 
   platformTips: [
     {
       platform: 'Amazon KDP',
-      title: 'Vendere Quaderni POD su Amazon KDP',
+      title: `Vendere Quaderni POD su Amazon KDP`,
       description: "Amazon KDP è la piattaforma print-on-demand dominante per i quaderni educativi con un enorme traffico organico da genitori e venditori che cercano materiali educativi stampati per livello scolastico, materia e tipo di attività. KDP gestisce tutta la stampa, l\'evasione e il servizio clienti mentre tu ti concentri esclusivamente sulla creazione di contenuti e sull\'ottimizzazione delle parole chiave che guida la scoperta organica nei risultati di ricerca Amazon. Crea quaderni da ottanta a centoventi pagine organizzati per materia e livello scolastico usando il formato tascabile KDP, che fornisce il conteggio di pagine che gli acquirenti si aspettano dai quaderni educativi stampati mantenendo i costi di produzione ragionevoli per prezzi competitivi con margini di royalty salutari. Ottimizza titoli e sottotitoli con livelli scolastici specifici, materie e tipi di attività che corrispondono alle query di ricerca esatte che genitori e venditori usano quando cercano materiali di esercitazione stampati su Amazon. Usa le selezioni di categoria KDP strategicamente per apparire nei percorsi di navigazione rilevanti dei quaderni educativi dove gli acquirenti scoprono nuovi prodotti attraverso l\'esplorazione delle categorie piuttosto che ricerche dirette per parole chiave. La struttura delle royalty premia conteggi di pagine più alti e prezzi competitivi, quindi sperimenta con diverse lunghezze di quaderno e fasce di prezzo per trovare la combinazione ottimale che massimizza la royalty per unità mantenendo il posizionamento competitivo che guida un volume di vendite costante nelle tue categorie educative target.",
     },
     {
@@ -97,12 +97,12 @@ Il print-on-demand permette anche test e iterazioni rapide dei prodotti perché 
     },
     {
       platform: 'Shopify + Gelato/Printify',
-      title: 'Costruire un Brand di Schede POD su Shopify',
+      title: `Costruire un Brand di Schede POD su Shopify`,
       description: "I negozi Shopify con integrazione POD attraverso Gelato o Printify permettono linee di prodotti di schede con marchio proprio con controllo completo su prezzi, presentazione, esperienza del cliente e identità del brand che le piattaforme marketplace non possono fornire. Costruisci un brand professionale di prodotti educativi con quaderni stampati, pacchetti di attività e set di schede che i partner POD producono e spediscono direttamente ai clienti sotto il tuo nome brand con opzioni di packaging personalizzato che rinforzano il riconoscimento del marchio e la professionalità. Il modello diretto al consumatore elimina le commissioni del marketplace che riducono i margini su Etsy e Amazon, e costruisce relazioni con i clienti attraverso la tua lista email, comunicazioni brandizzate ed esperienze di acquisto personalizzate che favoriscono acquisti ripetuti e fedeltà al marchio nel tempo. Combina prodotti POD stampati con download digitali nello stesso negozio per la massima varietà di prodotti, permettendo ai clienti di scegliere tra consegna digitale istantanea e prodotti fisici stampati professionalmente in base alle loro preferenze e necessità d\'uso. Le app di abbonamento Shopify permettono anche ordini ricorrenti per i clienti che desiderano consegne mensili o trimestrali di schede stampate, creando flussi di entrate prevedibili da clienti fedeli che preferiscono il riordino automatico rispetto al riacquisto manuale. L\'investimento iniziale di configurazione per un negozio Shopify è più alto delle alternative marketplace, ma l\'economia a lungo termine favorisce le vendite dirette man mano che la tua base clienti cresce perché mantieni la relazione con il cliente, eviti le commissioni del marketplace e costruisci un asset di brand con valore duraturo oltre qualsiasi singola piattaforma.",
     },
     {
       platform: 'Lulu / POD Diretto',
-      title: 'Prodotti POD Premium con Lulu e Servizi Diretti',
+      title: `Prodotti POD Premium con Lulu e Servizi Diretti`,
       description: "Lulu e servizi POD diretti simili offrono opzioni di stampa premium tra cui rilegatura con copertina rigida, stampa interna a colori, formati grandi e carte speciali che Amazon KDP e le integrazioni marketplace potrebbero non supportare, permettendo prodotti educativi di punta che hanno prezzi premium. Usa il POD premium per quaderni di attività deluxe, raccoglitori di risorse per venditori e pacchetti curricolari completi dove la presentazione premium giustifica prezzi più alti e differenzia i tuoi prodotti dai quaderni tascabili standard che competono nelle categorie commodity su Amazon ed Etsy. Vendi prodotti POD premium attraverso il tuo sito web, canali di vendita diretta, o all\'ingrosso a scuole e negozi di forniture educative dove i materiali stampati e rilegati professionalmente hanno prezzi istituzionali che generano margini per unità sostanzialmente più alti rispetto alle vendite al consumatore sul marketplace. La rete di distribuzione globale di Lulu posiziona anche i libri su Amazon e altri grandi rivenditori online accanto ai tuoi titoli KDP, dando ai prodotti POD premium ampia visibilità sul marketplace mantenendo la qualità di produzione premium che il formato tascabile standard KDP non può eguagliare. Considera di offrire linee di prodotti a livelli dove KDP gestisce i tuoi quaderni tascabili standard a prezzi competitivi per il consumatore mentre Lulu produce le tue edizioni premium con copertina rigida e rilegatura a spirale a fasce di prezzo più alte, coprendo entrambi i segmenti di mercato con qualità di produzione appropriata a ogni livello di prezzo e aspettativa dell\'acquirente. I servizi POD diretti offrono anche ordini all\'ingrosso a costi per unità ridotti per i venditori che vogliono evadere i propri ordini a fiere dell\'artigianato, conferenze educative ed eventi di forniture scolastiche dove la vendita faccia a faccia genera tassi di conversione più alti e costruisce relazioni personali con acquirenti istituzionali che effettuano ordini ripetuti.",
     },
   ],
@@ -141,17 +141,17 @@ Il print-on-demand permette anche test e iterazioni rapide dei prodotti perché 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
+      slug: `creare-pacchetti-schede-esercizi`,
       anchorText: `Come Creare Pacchetti di Schede Didattiche che Vendono`,
     },
     {
@@ -161,33 +161,33 @@ Il print-on-demand permette anche test e iterazioni rapide dei prodotti perché 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: `Guida Completa per Avviare un Business di Stampabili`,
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
-      slug: 'abbonamento-box-idee-stampabili',
+      slug: `abbonamento-box-idee-stampabili`,
       anchorText: `Idee di Business con Box di Schede Didattiche in Abbonamento`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — immagine educativa tematica', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Pipistrello — immagine educativa tematica', caption: 'Pipistrello' },
-    { src: '/image-library/animals/camel.webp', alt: 'Cammello — immagine educativa tematica', caption: 'Cammello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gatto — immagine educativa tematica', caption: 'Gatto' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cane — immagine educativa tematica', caption: 'Cane' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfino — immagine educativa tematica', caption: 'Delfino' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — immagine educativa tematica`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Pipistrello — immagine educativa tematica`, caption: 'Pipistrello' },
+    { src: `/image-library/animals/camel.webp`, alt: `Cammello — immagine educativa tematica`, caption: 'Cammello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gatto — immagine educativa tematica`, caption: 'Gatto' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cane — immagine educativa tematica`, caption: 'Cane' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfino — immagine educativa tematica`, caption: 'Delfino' },
   ],
 
 

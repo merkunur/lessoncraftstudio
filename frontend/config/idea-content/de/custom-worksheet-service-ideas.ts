@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'arbeitsblatt-service geschäftsideen',
+    primaryKeyword: `arbeitsblatt-service geschäftsideen`,
     secondaryKeywords: [
-      'individuelle Lernmaterialien auf Etsy anbieten',
-      'Freelance-Arbeitsblatt-Erstellung als Service',
-      'Premium-Druckvorlagen auf Bestellung erstellen',
-      'personalisierte Arbeitsblätter für Bildungskunden',
+      `individuelle Lernmaterialien auf Etsy anbieten`,
+      `Freelance-Arbeitsblatt-Erstellung als Service`,
+      `Premium-Druckvorlagen auf Bestellung erstellen`,
+      `personalisierte Arbeitsblätter für Bildungskunden`,
     ],
     lsiKeywords: [
-      'Auftragsfertigung Druckvorlagen-Service',
+      `Auftragsfertigung Druckvorlagen-Service`,
       `Premium-Preisgestaltung individuelle Arbeitsblätter`,
-      'maßgeschneiderte Lernmaterialien Geschäftsmodell',
+      `maßgeschneiderte Lernmaterialien Geschäftsmodell`,
     ],
-    titleTag: 'Arbeitsblatt-Service Geschäftsideen — Leitfaden',
+    titleTag: `Arbeitsblatt-Service Geschäftsideen — Leitfaden`,
     metaDescription: `Geschäftsideen für maßgeschneiderte Arbeitsblatt-Services. Individuelle Lernmaterialien auf Etsy und als Freelancer mit Premium-Preisgestaltung pro Auftrag.`,
   },
   hero: {
@@ -91,7 +91,7 @@ Das Servicemodell für Einzelanfertigungen funktioniert neben einem Fertigproduk
       description: `Die Einzelanfertigungsfunktion von Etsy ermöglicht es Arbeitsblatt-Service-Verkäufern, serviceartige Angebote zu erstellen, bei denen Käufer personalisierte Materialien anfragen, Einzelanfertigungsgespräche initiieren und maßgeschneiderte Produkte erhalten, die speziell für ihre Bedürfnisse erstellt wurden. Erstellen Sie Listings, die Ihre Anpassungsmöglichkeiten, Bearbeitungszeiten, Preisstufen für verschiedene Komplexitätsgrade und Beispiele früherer Einzelanfertigungen klar beschreiben, um die Qualität und Bandbreite der Personalisierung zu demonstrieren, die Sie potenziellen Kunden in Ihrem Shop bieten. Das Etsy-Nachrichtensystem ermöglicht detaillierte Kundenberatungen, bei denen Sie Spezifikationen erfassen, Entwürfe zur Genehmigung teilen und fertige Dateien über die sichere digitale Lieferinfrastruktur der Plattform bereitstellen, die Transaktionsverarbeitung und Dateiverteilung automatisch übernimmt. Verkäufer von Einzelanfertigungen auf Etsy profitieren vom massiven organischen Traffic der Plattform und differenzieren sich gleichzeitig von Standardprodukt-Verkäufern durch Premium-Personalisierung, die höhere Preispunkte als gewöhnliche Marktplatz-Listings rechtfertigt. Positionieren Sie Ihre Einzelanfertigungs-Listings neben Ihrem Fertigprodukt-Katalog, damit Käufer, die Ihre Standardprodukte entdecken, leicht maßgeschneiderte Versionen für ihre spezifischen Gruppen-, Schul- oder Programmanforderungen anfragen können.`,
     },
     {
-      platform: 'Fiverr & Freelance-Plattformen',
+      platform: `Fiverr & Freelance-Plattformen`,
       title: `Maßgeschneiderte Arbeitsblatt-Services auf Fiverr und Freelance-Marktplätzen aufbauen`,
       description: `Fiverr, Upwork und Freelance-Marktplätze verbinden Arbeitsblatt-Ersteller mit Kunden, die aktiv nach Erstellungsdiensten für Bildungsinhalte suchen, und bieten ein strukturiertes Gig-basiertes Framework für Preisgestaltung, Lieferung und Bewertungsaufbau Ihrer maßgeschneiderten Arbeitsblatt-Produktionsdienste. Erstellen Sie Serviceangebote mit klaren Stufenstrukturen, die verschiedene Anpassungsgrade, Seitenzahlen und Bearbeitungsgeschwindigkeiten zu progressiven Preispunkten bieten, damit Kunden das Investitionsniveau wählen können, das ihren Bedürfnissen und Budgetgrenzen entspricht. Die Bewertungssysteme der Freelance-Plattformen bauen Glaubwürdigkeit durch verifiziertes Kundenfeedback auf, das zunehmend hochwertige Aufträge anzieht, wenn Ihre Bewertung und Ihr Portfolio wachsen — dies schafft einen kumulierenden Reputationsvorteil, den etablierte Dienstleister nutzen, um Premium-Preise für ihre Expertise zu verlangen. Das Freelance-Modell ergänzt den Produktverkauf auf Marktplätzen, indem es Kunden bedient, die wirklich maßgeschneiderte Materialien benötigen, die kein Fertigprodukt bieten kann, und viele erfolgreiche Arbeitsblatt-Dienstleister pflegen aktive Profile sowohl auf Etsy als auch auf Freelance-Plattformen, um Nachfrage aus verschiedenen Käufersegmenten zu bedienen, die über unterschiedliche Kanäle nach Bildungsinhalten suchen.`,
     },
@@ -101,7 +101,7 @@ Das Servicemodell für Einzelanfertigungen funktioniert neben einem Fertigproduk
       description: `Die Direktansprache von Schulen, Geschäftskunden, Homeschool-Kooperativen und Bildungsorganisationen baut Premium-Kundenbeziehungen für maßgeschneiderte Arbeitsblatt-Services mit institutionellen Kunden auf, die während jedes Schuljahres wiederholt und in größerem Umfang bestellen. Erstellen Sie ein professionelles Portfolio mit Muster-Arbeitsblättern aus verschiedenen Fächern, Altersstufen und Anpassungsarten, das Ihre Fähigkeit demonstriert, genau das zu produzieren, was institutionelle Kunden für ihre spezifischen Programme und Nutzerpopulationen benötigen. Kontaktieren Sie lokale Schulen und Geschäftskunden direkt mit Mustermaterialien und Servicebeschreibungen und bieten Sie Einführungspreise für Erstbestellungen an, damit potenzielle Kunden Ihre Qualität und Bearbeitungszeit erleben können, bevor sie sich auf laufende Servicebeziehungen festlegen. Institutionelle Kunden bieten die planbarsten wiederkehrenden Einnahmen, da Schulen während des gesamten Schuljahres fortlaufenden Materialbedarf haben und für jede neue Einheit, jedes Thema oder jeden Bewertungszyklus zu zuverlässigen Dienstleistern zurückkehren — dies schafft langfristige Geschäftsbeziehungen mit konsistentem monatlichen Einkommen aus Folgebestellungen.`,
     },
     {
-      platform: 'Social Media & Verkäufer-Communities',
+      platform: `Social Media & Verkäufer-Communities`,
       title: `Maßgeschneiderte Arbeitsblatt-Services über Verkäufer-Communities vermarkten`,
       description: `Social-Media-Plattformen und Online-Verkäufer-Communities bieten Sichtbarkeit für maßgeschneiderte Arbeitsblatt-Services unter Käufer, die Bildungsressourcen in ihren professionellen Netzwerken diskutieren, teilen und empfehlen. Teilen Sie Vorher-Nachher-Beispiele, die generische Materialien in personalisierte Einzelanfertigungen verwandelt zeigen, um den Wert Ihrer Anpassungsdienste zu demonstrieren und potenziellen Kunden zu helfen, sich vorzustellen, wie personalisierte Materialien für ihre eigenen Produkte aussehen würden. Beteiligen Sie sich in Verkäufer-Facebook-Gruppen, Reddit-Bildungs-Communities und Pinterest-Käufer-Boards, in denen Käufer über Materialbedürfnisse diskutieren und Dienstleister empfehlen — bauen Sie Anerkennung als hilfreicher Experte auf, der die Bedürfnisse von Käufer versteht, bevor Sie Ihre maßgeschneiderten Serviceangebote bewerben. Erstellen Sie Inhalte, die den Anpassungsprozess von der Kundenanfrage bis zur Endlieferung zeigen, um potenziellen Kunden zu helfen zu verstehen, was sie erwartet, und Vertrauen in Ihren professionellen Workflow und Ihre Ausgabequalität aufzubauen — dies reduziert die Zurückhaltung, die Erstkunden bei Einzelanfertigungen häufig erleben, wenn sie einen servicebasierten Kauf statt einer Standardprodukttransaktion in Betracht ziehen.`,
     },
@@ -141,18 +141,18 @@ Das Servicemodell für Einzelanfertigungen funktioniert neben einem Fertigproduk
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lernmaterial-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lernmaterial-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -161,33 +161,33 @@ Das Servicemodell für Einzelanfertigungen funktioniert neben einem Fertigproduk
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'partyzubehoer-druckvorlagen-ideen',
-      anchorText: 'Geschäftsideen für Partyzubehör-Druckvorlagen',
+      slug: `partyzubehoer-druckvorlagen-ideen`,
+      anchorText: `Geschäftsideen für Partyzubehör-Druckvorlagen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 
 

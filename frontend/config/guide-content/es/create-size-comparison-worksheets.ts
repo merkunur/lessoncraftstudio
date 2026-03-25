@@ -2,18 +2,18 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de comparación de tamaños',
+    primaryKeyword: `crear fichas de comparación de tamaños`,
     secondaryKeywords: [
-      'fichas de grande y pequeño para niños',
-      'generador de fichas de discriminación de tamaños',
+      `fichas de grande y pequeño para niños`,
+      `generador de fichas de discriminación de tamaños`,
       `fichas imprimibles de comparación de tamaños para vender`,
-      'fichas de ordenar por tamaño para preescolar',
+      `fichas de ordenar por tamaño para preescolar`,
     ],
     lsiKeywords: [
-      'actividades de discriminación visual de tamaños',
-      'fichas sin texto para ventas internacionales',
+      `actividades de discriminación visual de tamaños`,
+      `fichas sin texto para ventas internacionales`,
       'fichas de rodea el grande',
-      'vender fichas de comparación de tamaños en Etsy',
+      `vender fichas de comparación de tamaños en Etsy`,
       `Amazon KDP libros de actividades de ordenar por tamaño`,
       `generador de fichas de tamaños con licencia comercial`,
     ],
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Cómo crear fichas de comparación de tamaños',
+    title: `Cómo crear fichas de comparación de tamaños`,
     tagline: `Un tutorial paso a paso para crear fichas de discriminación de tamaños con cinco tipos de preguntas y resultado sin texto que puedes vender en todo el mundo en Etsy, Amazon KDP y Gumroad`,
     description: `La comparación de tamaños es una de las primeras habilidades visuales que desarrollan los niños, y las fichas que practican esta habilidad tienen demanda durante todo el año por parte de padres, vendedores y centros de educación temprana. Esta guía te acompaña en todo el proceso de creación usando el Generador de fichas grande y pequeño — desde elegir entre cinco tipos de preguntas y dos modos de imagen hasta configurar la densidad de ejercicios, generar claves de respuestas automáticas y exportar archivos listos para imprimir. La herramienta produce fichas completamente visuales con resultado sin texto, lo que significa que tus productos se venden a compradores de cualquier país sin traducción. Ya sea que estés creando tu primer producto imprimible o ampliando un catálogo existente de aprendizaje temprano, tendrás fichas terminadas listas para publicar al final de este tutorial.`,
   },
@@ -43,15 +43,15 @@ const content: GuideContent = {
       content: `Dos ajustes controlan la densidad y complejidad de cada página de la ficha: el número de ejercicios y el número de imágenes por ejercicio.\n\nEjercicios por página va de 1 a 10. Menos ejercicios crean hojas de práctica concentrada con imágenes grandes y claras — ideales para niños más jóvenes y fichas introductorias. Más ejercicios crean hojas densas tipo evaluación adecuadas para usuarios mayores y pruebas en línea.\n\nPara niños pequeños y preescolares jóvenes (2–4 años), usa 2–3 ejercicios por página. El tamaño grande de las imágenes hace que las diferencias de tamaño sean obvias y la reducción del desorden visual ayuda a mantener la concentración.\n\nPara preescolares (3–5 años), usa 4–6 ejercicios por página. Esto equilibra la claridad con suficiente práctica para llenar una sesión de actividad significativa.\n\nPara infantil y primer grado (5–7 años), usa 6–10 ejercicios por página. Los diseños más densos proporcionan práctica eficiente y funcionan bien para tareas para casa y evaluaciones cronometradas.\n\nImágenes por ejercicio se configura en 2 o 3. Dos imágenes crean comparaciones directas de mayor/menor — los usuarios eligen entre dos opciones. Tres imágenes introducen el nivel de tamaño mediano, habilitan el tipo de pregunta Rodea el mediano y hacen los ejercicios de numeración más difíciles con tres elementos que ordenar en vez de dos.\n\nComienza con 2 imágenes para los productos más sencillos dirigidos a usuarios más jóvenes. Progresa a 3 imágenes para productos dirigidos a niños listos para comparaciones más complejas. Crear versiones de 2 y 3 imágenes del mismo tema te da variaciones de producto adicionales.`,
     },
     {
-      heading: 'Explora temas o sube imágenes personalizadas',
+      heading: `Explora temas o sube imágenes personalizadas`,
       content: `La biblioteca de imágenes contiene 104 colecciones temáticas con más de 3.100 ilustraciones que abarcan animales, comida, vehículos, naturaleza, festividades, profesiones, deportes y decenas de categorías más. Cada tema proporciona un conjunto coordinado de imágenes que funcionan juntas visualmente en ejercicios de comparación de tamaños.\n\nLa selección de tema es una decisión estratégica de producto. Cada tema crea un producto único con palabras clave de búsqueda distintas en los marketplaces. «Fichas de comparación de tamaños — Animales de granja» y «Fichas de comparación de tamaños — Criaturas del océano» apuntan a búsquedas de compradores completamente diferentes a pesar de usar las mismas configuraciones del generador. Con 104 temas disponibles, puedes construir un catálogo extenso sin repetirte.\n\nExplora temas usando el menú desplegable de temas en el panel de Biblioteca de imágenes. Selecciona un tema para ver todas las imágenes disponibles. El generador usa estas imágenes para llenar tus ejercicios según tus configuraciones de tipo de pregunta y modo de imagen.\n\nTambién puedes subir tus propias imágenes personalizadas para fichas de temas específicos. Haz clic en el área de subida para añadir archivos de imagen desde tu ordenador. Las subidas personalizadas son basadas en sesión, lo que significa que persisten mientras tu pestaña del navegador esté abierta. Sube imágenes personalizadas cuando quieras apuntar a temas de nicho que la biblioteca incorporada no cubre — comparar tamaños de edificios para lecciones de arquitectura, porciones de comida para educación en salud o tamaños de planetas para unidades de ciencias.\n\nSelectores de diseño adicionales en el panel de Contenido te permiten mostrar u ocultar números de ejercicio y casillas indicadoras de respuesta. Los números de ejercicio etiquetan cada problema (1, 2, 3...) para referencia fácil. Las casillas indicadoras de respuesta proporcionan marcos visuales que guían a los usuarios para rodear o numerar sus respuestas.`,
     },
     {
-      heading: 'Configura el tamaño de página y el fondo',
+      heading: `Configura el tamaño de página y el fondo`,
       content: `La configuración de página determina las dimensiones físicas y el estilo visual de tu ficha terminada.\n\nLas opciones de tamaño de página incluyen Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Cuadrado (1200×1200) y dimensiones personalizadas. Carta es el estándar para compradores norteamericanos. A4 es el estándar para los mercados europeos e internacionales. El formato cuadrado funciona bien para publicaciones en redes sociales y ciertos formatos interiores de Amazon KDP. Crear versiones tanto en Carta como en A4 de cada ficha duplica tu alcance en el mercado internacional con un esfuerzo mínimo.\n\nLa sección de fondo proporciona controles para el acabado visual:\n\nColor de página establece el color de fondo base. El blanco es estándar para fichas impresas. Los pasteles claros pueden añadir calidez a productos de uso digital sin interferir con la visibilidad de las imágenes.\n\nTema de fondo te permite seleccionar un patrón decorativo de la biblioteca de imágenes. Esto rellena la página detrás de tus ejercicios, añadiendo textura visual y un aspecto profesional. La opacidad del fondo controla qué tan prominente aparece el patrón — valores bajos (0,1–0,3) crean efectos sutiles de marca de agua mientras que valores altos (0,5–0,8) hacen del fondo un elemento de diseño visible.\n\nTema de borde añade marcos decorativos alrededor de toda la página. Al igual que los temas de fondo, los bordes vienen con controles de opacidad independientes. Un borde temático con fondo a juego crea un aspecto cohesivo y profesionalmente diseñado que distingue tus productos de las fichas simples.\n\nEstas opciones de estilo visual son importantes para la competitividad en los marketplaces. Los compradores que navegan por Etsy o Gumroad comparan docenas de productos similares, y las fichas con fondos pulidos y bordes coordinados atraen constantemente más clics y ventas que las páginas blancas simples.`,
     },
     {
-      heading: 'Añade texto y personaliza el diseño',
+      heading: `Añade texto y personaliza el diseño`,
       content: `El panel de Herramientas de texto te permite añadir títulos, instrucciones, campos de nombre y fecha, y etiquetas personalizadas a tu ficha. Aunque los ejercicios en sí son sin texto (solo imágenes), puedes añadir elementos de texto alrededor de ellos para estructura y marca.\n\nAdiciones de texto comunes incluyen títulos de fichas («Práctica de comparación de tamaños» o «Rodea el grande»), campos de nombre y fecha para uso comercial, e instrucciones personalizadas describiendo la tarea. La casilla de verificación de campos de nombre y fecha añade líneas formateadas en la parte superior de la ficha — los vendedores prefieren con firmeza las fichas que incluyen estos campos.\n\nLa selección de fuentes ofrece cinco familias: Baloo 2, Fredoka, Lexend Deca, Nunito y Quicksand. Fredoka y Baloo 2 son divertidas e infantiles, ideales para productos de preescolar e infantil. Lexend Deca y Nunito son limpias y modernas, adecuadas para productos dirigidos a niños mayores o uso comercial.\n\nEl contorno de texto añade un borde de color alrededor de cada letra, mejorando la legibilidad cuando el texto se sitúa cerca de áreas ocupadas de la ficha. Establece un color de contorno que contraste tanto con el color del texto como con el fondo. El grosor del contorno va de sutil (1–2) a negrita (3–4).\n\nEl lienzo completo de Fabric.js te da control total sobre la posición de los elementos. Arrastra, redimensiona, rota y reposiciona cada elemento. Las herramientas de alineación ajustan los elementos a posiciones precisas. Los controles de bloqueo protegen los elementos terminados mientras continúas editando otros. Deshacer y rehacer ilimitados te permiten experimentar libremente sin riesgo.\n\nRecuerda: el texto que añades es complementario — los ejercicios principales permanecen completamente visuales sin texto en las áreas de ejercicios generadas. Cualquier texto instructivo que añadas es opcional y se posiciona fuera de la cuadrícula de ejercicios.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `Con tus configuraciones definidas, haz clic en el botón Generar para crear tu ficha. El generador coloca las imágenes según tu tipo de pregunta, modo de imagen, número de ejercicios y configuración de imágenes por ejercicio en el lienzo.\n\nRevisa la vista previa cuidadosamente antes de exportar:\n\nVerifica las diferencias de tamaño: ¿Son las variaciones de tamaño entre imágenes claras e inequívocas? Para Rodea el grande, ¿es la imagen más grande obviamente mayor? Para Rodea el mediano, ¿es el tamaño intermedio claramente distinguible tanto del más grande como del más pequeño? Si las diferencias de tamaño son demasiado sutiles, los usuarios pueden tener dificultades o dar respuestas incorrectas.\n\nVerifica la alineación de dificultad: ¿El desafío cognitivo coincide con tu grupo de edad objetivo? Una ficha de preescolar debe tener diferencias de tamaño obvias con 2 imágenes. Una ficha de infantil puede tener diferencias más sutiles con 3 imágenes. Verifica preguntándote si un niño de la edad objetivo podría completar el ejercicio con esfuerzo concentrado pero sin frustración.\n\nVerifica la densidad del diseño: ¿Están los ejercicios espaciados claramente con suficiente espacio para que los usuarios rodeen o numeren sus respuestas? ¿Son las imágenes lo suficientemente grandes para ver los detalles claramente? Si la página se siente apretada, reduce el número de ejercicios por página.\n\nVerifica la consistencia del modo de imagen: Si seleccionaste Imágenes idénticas, verifica que cada ejercicio muestre la misma imagen a diferentes tamaños. Si seleccionaste Imágenes diferentes, verifica que aparezcan objetos distintos a escalas claramente diferentes.\n\nSi algo no se ve bien, ajusta tus configuraciones y regenera. El lienzo se actualiza al instante, así que puedes iterar rápidamente a través de diferentes configuraciones hasta encontrar el diseño que mejor se vea para tu producto.`,
     },
     {
-      heading: 'Genera la clave de respuestas y exporta',
+      heading: `Genera la clave de respuestas y exporta`,
       content: `Cada ficha creada con el Generador de fichas grande y pequeño incluye una clave de respuestas automática. Haz clic en Generar clave de respuestas para crear una versión resuelta donde las respuestas correctas están resaltadas y rodeadas para verificación visual instantánea. Para preguntas de tipo rodear, la clave de respuestas marca la imagen correcta. Para preguntas de numeración, muestra el orden de tamaño correcto. Esto elimina la necesidad de crear superposiciones de respuestas manualmente.\n\nAntes de exportar, considera el interruptor de escala de grises. Esta casilla convierte toda tu ficha a blanco y negro. Las fichas en escala de grises cuestan significativamente menos al imprimir y cumplen los requisitos interiores de Amazon KDP para libros estándar (sin color premium). Considera crear versiones en color y en escala de grises de cada producto — sirven a diferentes necesidades de compradores y pueden publicarse por separado o agrupadas.\n\nLa casilla de verificación de campos de Nombre y Fecha añade líneas para el nombre y la fecha en la ficha. Actívala siempre para productos dirigidos al uso comercial.\n\nCuatro botones de exportación están disponibles:\n\nJPEG de la ficha: Archivo de imagen de alta resolución a 300 PPP. Úsalo para imágenes de vista previa de listados, marketing en redes sociales y productos de descarga digital.\n\nPDF de la ficha: Formato profesional listo para imprimir. PDF es el entregable estándar para ventas de productos imprimibles en todos los marketplaces.\n\nJPEG de la clave de respuestas y PDF de la clave de respuestas: Exportaciones separadas para la clave de respuestas en ambos formatos.\n\nLa prueba gratis con marca de agua produce exportaciones completamente funcionales con una marca de agua superpuesta. Esto te permite evaluar la calidad de impresión, verificar el formato y crear pruebas de impresión antes de comprar una licencia comercial. La licencia comercial elimina la marca de agua de todas las exportaciones, produciendo archivos limpios listos para la venta.\n\nExporta siempre tanto la ficha como la clave de respuestas. En todos los marketplaces, «con clave de respuestas» es un término de búsqueda frecuente que mejora la visibilidad de tu listado y el valor percibido.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Vender fichas de comparación de tamaños en Etsy',
+      heading: `Vender fichas de comparación de tamaños en Etsy`,
       content: `Etsy es el marketplace más fuerte para fichas imprimibles, y los productos de comparación de tamaños tienen una audiencia clara de padres, vendedores y emprendedores de primera infancia.\n\nOptimización de títulos: Carga tu palabra clave principal al principio e incluye detalles diferenciadores. Ejemplos fuertes: «Fichas de comparación de tamaños — Rodea el grande — Tema de animales de granja — Imprimible de preescolar con clave de respuestas» o «Fichas de actividades de grande y pequeño — Numerar orden de tamaño 1–2–3 — Aprendizaje visual para infantil — Sin texto necesario». Usa los 140 caracteres que Etsy permite.\n\nEtiquetas: Usa las 13 etiquetas. Mezcla amplias y específicas: «fichas de comparación de tamaños», «imprimible de grande y pequeño», «rodea el grande», «actividad de ordenar por tamaño», «aprendizaje visual para preescolar», «matemáticas de infantil», «discriminación de tamaños», «actividad imprimible para niños», «fichas sin texto», «fichas visuales internacionales», «preescolar en casa», «imprimible de aprendizaje temprano», «actividad para niños pequeños».\n\nVentaja del resultado sin texto: Enfatiza en la descripción de tu listado que estas fichas funcionan en todo el mundo sin traducción. Los compradores de cualquier país pueden comprarlas y usarlas inmediatamente. Este es un diferenciador genuino que la mayoría de vendedores de fichas competidores no pueden igualar.\n\nPrecios: Fichas individuales con clave de respuestas se venden a 1,49–2,49 $. Paquetes temáticos de 10–15 fichas se venden a 3,99–6,99 $. Paquetes de progresión por tipo de pregunta (los cinco tipos en un tema) se venden a 5,99–9,99 $. Colecciones completas en múltiples temas se venden a 12,99–19,99 $.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Los cinco tipos de preguntas del generador de fichas grande y pequeño crean oportunidades de agrupación naturales que otras herramientas de comparación de tamaños no pueden igualar.\n\nPaquetes de progresión por dificultad: Empaqueta los cinco tipos de preguntas dentro de un solo tema como un conjunto de desarrollo de habilidades. Empieza con Rodea el grande (más fácil), progresa a través de Rodea el pequeño y Rodea el mediano, y termina con Numerar 1–2–3 (más difícil). Comercializa estos como packs de «Habilidades completas de tamaño» o «Comparación de tamaños progresiva» que crecen con el niño.\n\nPaquetes de comparación de modos de imagen: Crea cada tema en ambos modos de imagen, idéntico y diferente. Véndelos por separado o agrupa ambos modos con un precio premium. Dos experiencias de ejercicios genuinamente diferentes desde el mismo tema crean un valor real para los compradores.\n\nPaquetes graduados por edad: Agrupa fichas por edad objetivo en vez de por tema. Un «Pack de conciencia de tamaño para niños pequeños» (2–3 años) con Rodea el grande, 2 imágenes, modo idéntico. Un «Pack de comparación de tamaños para preescolar» (3–5 años) con preguntas mixtas de rodear, 2–3 imágenes. Un «Pack de ordenar por tamaño para infantil» (5–6 años) con ejercicios de numeración, 3 imágenes, modo diferente.\n\nPaquetes de productos cruzados: Combina fichas de comparación de tamaños con otros productos de discriminación visual — fichas de asociación, busca el intruso, reconocimiento de patrones. Un «Pack completo de aprendizaje visual» combinando múltiples habilidades visuales obtiene precios premium y apunta a la amplia categoría de búsqueda de «aprendizaje temprano».\n\nPublica siempre tanto productos individuales como paquetes. Los listados individuales mejoran la visibilidad de tu tienda en búsquedas (más listados significa más palabras clave indexadas), mientras que los paquetes generan mayores ingresos por transacción.`,
     },
     {
-      heading: 'Maximizar la ventaja del resultado sin texto',
+      heading: `Maximizar la ventaja del resultado sin texto`,
       content: `El resultado sin texto de las fichas de grande y pequeño es tu ventaja competitiva más fuerte, y debería impulsar tu estrategia de productos.\n\nExpansión a marketplaces internacionales: Publica exactamente el mismo archivo de producto en tiendas de Etsy de todos los mercados soportados — Estados Unidos, Reino Unido, Alemania, Francia, España, Italia, Australia y más. Sin traducción, sin versiones de archivos separadas, sin trabajo de creación adicional. Una ficha sirve a todos los compradores del mundo. La mayoría de vendedores de fichas solo sirven a mercados de habla inglesa porque sus productos contienen texto en inglés. Tú eliminas esta limitación por completo.\n\nDescripciones de producto en múltiples idiomas: Aunque la ficha en sí no necesita traducción, el título, descripción y etiquetas de tu listado en Etsy deben estar en el idioma del mercado objetivo. Escribe texto de listado específico para cada marketplace en tus principales mercados. El archivo del producto sigue siendo el mismo; solo cambia el texto de la tienda.\n\nDirigirse a audiencias prelectoras: Las fichas de comparación de tamaños funcionan para niños que no saben leer. Esto amplía tu audiencia para incluir niños pequeños (2–3 años) y niños con dificultades lectoras o discapacidades de aprendizaje. Enfatiza «sin lectura necesaria» y «actividades solo visuales» en las descripciones de tus productos.\n\nInclusividad en línea: en tiendas multilingües, los vendedores necesitan actividades que cada usuario pueda completar independientemente de su idioma. Posiciona tus fichas como «independientes del idioma» y «listas para tiendas multilingües» en Gumroad.\n\nEsta ventaja del resultado sin texto se aplica a todos los productos que crees con el Generador de fichas grande y pequeño. Incorpórala en los títulos, descripciones y marketing de tus productos desde el principio. Es un diferenciador genuino que se multiplica en todo tu catálogo.`,
     },
   ],
@@ -115,11 +115,11 @@ const content: GuideContent = {
       answer: `El modo de imágenes idénticas muestra la misma imagen a diferentes tamaños, aislando la percepción pura de tamaño sin variables que confundan. El modo de imágenes diferentes muestra objetos distintos a diferentes tamaños, requiriendo razonamiento de tamaño relativo. Los dos modos crean ejercicios fundamentalmente diferentes y efectivamente duplican la variedad de tus productos con una sola herramienta. Usa el modo idéntico para usuarios más jóvenes y el modo diferente para práctica más avanzada.`,
     },
     {
-      question: '¿Por qué las fichas no tienen texto?',
+      question: `¿Por qué las fichas no tienen texto?`,
       answer: `Las fichas de grande y pequeño son completamente visuales por diseño. Solo imágenes e indicadores visuales aparecen en el resultado — ninguna palabra escrita. Esto hace que las fichas sean universalmente utilizables independientemente del idioma o nivel de lectura. Los niños prelectores las completan sin necesidad de leer. Para los vendedores, el resultado sin texto significa que el mismo producto se vende en todo el mundo sin traducción — un listado sirve a todos los mercados en Etsy, Amazon y Gumroad.`,
     },
     {
-      question: '¿Puedo configurar 2 o 3 imágenes por ejercicio?',
+      question: `¿Puedo configurar 2 o 3 imágenes por ejercicio?`,
       answer: `Sí. Con 2 imágenes, los usuarios hacen una comparación directa de mayor/menor. Con 3 imágenes, se introduce una opción de tamaño mediano, habilitando el tipo de pregunta Rodea el mediano y haciendo los ejercicios de numeración más difíciles con tres elementos que ordenar. Empieza con 2 imágenes para usuarios más jóvenes y progresa a 3 para práctica más avanzada. También puedes configurar de 1 a 10 ejercicios por página para densidad flexible de fichas.`,
     },
     {
@@ -138,13 +138,13 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'crear-fichas-comparacion-tamanos',
-      title: 'Crear fichas de comparación mayor o menor',
+      slug: `crear-fichas-comparacion-tamanos`,
+      title: `Crear fichas de comparación mayor o menor`,
       description: `El complemento natural de la comparación de tamaños. Las fichas de mayor o menor comparan cantidades (mayor que, menor que, igual a) mientras que grande y pequeño compara tamaños visuales.`,
     },
     {
       slug: 'crear-fichas-patrones',
-      title: 'Crear fichas de reconocimiento de patrones',
+      title: `Crear fichas de reconocimiento de patrones`,
       description: `Otra habilidad de discriminación visual que se combina bien con la comparación de tamaños. Las fichas de patrones desarrollan el reconocimiento de secuencias y el pensamiento lógico.`,
     },
     {
@@ -155,30 +155,30 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'grande-pequeno-fichas', anchorText: `Generador de fichas grande y pequeño — Todos los detalles` },
     { pageType: 'app', slug: 'mayor-menor-fichas', anchorText: `Generador de comparación mayor o menor — Todos los detalles` },
-    { pageType: 'tool', slug: 'generador-fichas-grande-pequeno', anchorText: 'Prueba el Generador de fichas grande y pequeño' },
+    { pageType: 'tool', slug: `generador-fichas-grande-pequeno`, anchorText: `Prueba el Generador de fichas grande y pequeño` },
   ],
 
   toolsRecommended: [
     {
       appId: 'big-small',
-      title: 'Generador de fichas grande y pequeño',
+      title: `Generador de fichas grande y pequeño`,
       description: `La herramienta principal de esta guía. Crea fichas de comparación de tamaños con cinco tipos de preguntas, dos modos de imagen, resultado sin texto, densidad de ejercicios configurable y claves de respuestas automáticas.`,
     },
     {
       appId: 'more-less',
-      title: 'Generador de comparación mayor o menor',
+      title: `Generador de comparación mayor o menor`,
       description: `Complemento de comparación de cantidades que crea fichas de mayor que, menor que e igual a. Se combina naturalmente con productos de comparación de tamaños para paquetes integrales de aprendizaje visual de matemáticas tempranas.`,
     },
     {
       appId: 'pattern-worksheet',
-      title: 'Generador de fichas de patrones',
+      title: `Generador de fichas de patrones`,
       description: `Cruce de discriminación visual que crea ejercicios de completar patrones. Combina con productos de comparación de tamaños para una línea más amplia de productos de habilidades visuales.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/big small/Grande o Pequeño 1.webp`, alt: 'Ficha de comparación de tamaños con imágenes temáticas a diferentes tamaños mostrando ejercicio de rodea el grande para preescolar' },
+    heroImage: { src: `/samples/spanish/big small/Grande o Pequeño 1.webp`, alt: `Ficha de comparación de tamaños con imágenes temáticas a diferentes tamaños mostrando ejercicio de rodea el grande para preescolar` },
     samples: [
-      { src: `/samples/spanish/big small/Grande o Pequeño 1.webp`, alt: 'Ficha de comparación de tamaños grande y pequeño con imágenes temáticas mostrando cinco tipos de preguntas', caption: 'Ficha de comparación de tamaños con imágenes temáticas e indicadores de respuesta autogenerados' },
-      { src: `/samples/spanish/big small/Grande o Pequeño 2.webp`, alt: 'Ficha de rodea el grande con imágenes idénticas de animales a diferentes tamaños', caption: 'Modo Rodea el grande con imágenes temáticas para práctica de discriminación visual de tamaños' },
+      { src: `/samples/spanish/big small/Grande o Pequeño 1.webp`, alt: `Ficha de comparación de tamaños grande y pequeño con imágenes temáticas mostrando cinco tipos de preguntas`, caption: `Ficha de comparación de tamaños con imágenes temáticas e indicadores de respuesta autogenerados` },
+      { src: `/samples/spanish/big small/Grande o Pequeño 2.webp`, alt: `Ficha de rodea el grande con imágenes idénticas de animales a diferentes tamaños`, caption: `Modo Rodea el grande con imágenes temáticas para práctica de discriminación visual de tamaños` },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: `Cómo crear fichas de comparación de tamaños — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Manzana — imagen educativa temática', caption: 'Manzana' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Albaricoque — imagen educativa temática', caption: 'Albaricoque' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Aguacate — imagen educativa temática', caption: 'Aguacate' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Plátano — imagen educativa temática', caption: 'Plátano' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Mora — imagen educativa temática', caption: 'Mora' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Manzana — imagen educativa temática`, caption: 'Manzana' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Albaricoque — imagen educativa temática`, caption: 'Albaricoque' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Aguacate — imagen educativa temática`, caption: 'Aguacate' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Plátano — imagen educativa temática`, caption: 'Plátano' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Mora — imagen educativa temática`, caption: 'Mora' },
   ],
 };
 

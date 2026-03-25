@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Regresso às Aulas — Guia',
+    titleTag: `Ideias de Imprimíveis Regresso às Aulas — Guia`,
     metaDescription: `Ideias de imprimíveis de regresso às aulas para vender no Etsy, Amazon KDP e Gumroad. Produtos escolares, estratégias julho-setembro e dicas por plataforma.`,
 
-    primaryKeyword: 'ideias de imprimíveis regresso às aulas',
+    primaryKeyword: `ideias de imprimíveis regresso às aulas`,
     secondaryKeywords: [
-      'fichas regresso às aulas para vender',
-      'negócio imprimíveis regresso às aulas',
-      'fichas atividades escolares para vendedores',
-      'vender imprimíveis regresso às aulas online',
+      `fichas regresso às aulas para vender`,
+      `negócio imprimíveis regresso às aulas`,
+      `fichas atividades escolares para vendedores`,
+      `vender imprimíveis regresso às aulas online`,
     ],
     lsiKeywords: [
       'pacotes fichas temática loja',
-      'imprimíveis recursos para vendedores',
-      'atividades temática material escolar',
+      `imprimíveis recursos para vendedores`,
+      `atividades temática material escolar`,
     ],
   },
   hero: {
@@ -98,7 +98,7 @@ Do ponto de vista da investigação de palavras-chave, as pesquisas de imprimív
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Regresso às Aulas no Etsy',
+      title: `Vender Imprimíveis de Regresso às Aulas no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis de regresso às aulas, e a época de compras de verão cria um enorme pico de tráfego para as transferências digitais educativas. Publica os teus anúncios de regresso às aulas no final de junho para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em julho. Utiliza as treze etiquetas com variações que combinem subtemas escolares, tipos de competência e grupos etários: «fichas contagem regresso aulas pré-escolar», «sopa de letras primeiro dia aulas jardim de infância» e «páginas colorir material escolar infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas regresso às aulas». Cria anúncios orientados para pacotes posicionando as coleções de atividades como pacotes para a primeira semana de aulas ou kits de preparação escolar. As imagens de anúncios mostrando fichas impressas em ambientes com temática escolar com acessórios sazonais como lápis, maçãs e mochilas superam as pré-visualizações digitais planas e captam a mentalidade de preparação que impulsiona as compras educativas de verão a outono.`,
     },
     {
@@ -156,18 +156,18 @@ Do ponto de vista da investigação de palavras-chave, as pesquisas de imprimív
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -181,7 +181,7 @@ Do ponto de vista da investigação de palavras-chave, as pesquisas de imprimív
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -192,17 +192,17 @@ Do ponto de vista da investigação de palavras-chave, as pesquisas de imprimív
     {
       pageType: 'idea',
       slug: 'verao-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Verão',
+      anchorText: `Ideias de Negócio de Imprimíveis de Verão`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Dossier — imagem educativa temática', caption: 'Dossier' },
-    { src: '/image-library/classroom/book.webp', alt: 'Livro — imagem educativa temática', caption: 'Livro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armário — imagem educativa temática', caption: 'Armário' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagem educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Dossier — imagem educativa temática`, caption: 'Dossier' },
+    { src: `/image-library/classroom/book.webp`, alt: `Livro — imagem educativa temática`, caption: 'Livro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armário — imagem educativa temática`, caption: 'Armário' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagem educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendário — imagem educativa temática`, caption: 'Calendário' },
   ],
 
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pesquisar nichos rentáveis de imprimíveis',
+    primaryKeyword: `pesquisar nichos rentáveis de imprimíveis`,
     secondaryKeywords: [
-      'métodos de pesquisa de nichos imprimíveis',
+      `métodos de pesquisa de nichos imprimíveis`,
       `encontrar nichos de fichas de exercícios rentáveis`,
-      'estudo de mercado imprimíveis educativos',
-      'análise de procura nichos imprimíveis',
+      `estudo de mercado imprimíveis educativos`,
+      `análise de procura nichos imprimíveis`,
     ],
     lsiKeywords: [
       `dados marketplace pesquisa palavras-chave volume de pesquisa nível concorrência sinais procura`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `quantificação procura análise saturação mercado ferramentas palavras-chave decisões baseadas em dados`,
       `produto mínimo viável testes fluxo de pesquisa descoberta nichos processo sistemático`,
     ],
-    titleTag: 'Pesquisar Nichos Rentáveis de Imprimíveis — Guia',
+    titleTag: `Pesquisar Nichos Rentáveis de Imprimíveis — Guia`,
     metaDescription: `Como pesquisar nichos rentáveis de imprimíveis educativos com dados de marketplace, análise de palavras-chave, estudo de concorrência e validação de nicho.`,
   },
 
   hero: {
-    title: 'Como pesquisar nichos rentáveis de imprimíveis',
+    title: `Como pesquisar nichos rentáveis de imprimíveis`,
     tagline: `Um guia completo de metodologia de pesquisa — que cobre a análise de pesquisas em marketplaces, a quantificação da procura por palavras-chave, o estudo de produtos da concorrência, a identificação de lacunas de mercado pouco exploradas, a avaliação da rentabilidade dos nichos, o teste da procura com produtos mínimos viáveis, o acompanhamento de padrões sazonais e tendências, e a construção de um sistema contínuo de descoberta de nichos`,
     description: `A diferença entre os vendedores que encontram nichos rentáveis de forma consistente e os que adivinham mal não é sorte nem intuição — é metodologia. Os vendedores de imprimíveis bem-sucedidos tratam a seleção de nichos como um processo de pesquisa, não como uma corazonada. Recolhem dados de múltiplas fontes, analisam padrões de procura, estudam o panorama competitivo e validam a procura antes de investir tempo de produção. Este guia ensina todo o processo de pesquisa passo a passo, para que possa identificar nichos rentáveis de forma sistemática em vez de depender de tentativa e erro. Quer venda no Etsy, Amazon KDP, Gumroad ou Gumroad, estes métodos de pesquisa ajudá-lo-ão a tomar decisões baseadas em dados sobre onde concentrar o seu esforço criativo.`,
   },
@@ -31,31 +31,31 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Análise de pesquisas em marketplaces',
+      heading: `Análise de pesquisas em marketplaces`,
       content: `O primeiro passo na pesquisa de nichos é examinar o que os compradores procuram ativamente nos marketplaces. Cada plataforma fornece sinais de procura através das suas funções de pesquisa — o preenchimento automático, os resultados relacionados e as categorias em tendência dizem-lhe exatamente o que os compradores procuram.\n\nNo Etsy, escreva as primeiras letras de um termo de imprimíveis na barra de pesquisa e observe as sugestões de preenchimento automático. Estas sugestões são geradas a partir de pesquisas reais de compradores, ordenadas por popularidade. Por exemplo, escrever "fichas de matemática" pode mostrar sugestões automáticas como "fichas de matemática pré-escolar", "fichas de matemática somas", "fichas de matemática natal" e "fichas de matemática tema dinossauros". Cada sugestão representa uma subcategoria de nicho com procura verificada de compradores.\n\nRegiste estas sugestões de preenchimento automático de forma sistemática. Crie uma grelha com colunas para: termo de pesquisa, posição no preenchimento automático (as posições superiores indicam maior volume de pesquisa), plataforma de origem e data. Com o tempo, esta base de dados revela padrões de procura em múltiplas categorias de imprimíveis.\n\nNo Amazon KDP, use a barra de pesquisa de livros com termos como "caderno de atividades" ou "fichas de exercícios" seguidos de qualificadores de nicho. Os resultados de preenchimento automático da Amazon refletem o comportamento de compra real — não apenas o que as pessoas procuram, mas o que realmente compram. Preste especial atenção às sugestões que incluem faixas etárias ou níveis de escolaridade, pois estas sinalizam segmentos de mercado específicos.\n\nO Gumroad oferece a sua própria funcionalidade de pesquisa com as secções "Pesquisas populares" e "Em em alta atualmente". Estes indicadores são particularmente valiosos porque refletem a procura educativa atual — o que os vendedores procuram ativamente para as suas salas de aula. Os picos sazonais são especialmente pronunciados nesta plataforma, com uma procura massiva de regresso às aulas em agosto-setembro e picos temáticos durante as férias.\n\nPara cada nicho potencial, documente pelo menos 20 sugestões de preenchimento automático em todas as plataformas. Esta abordagem multiplataforma dá-lhe uma imagem mais completa da procura do que confiar nos dados de uma única fonte.`,
     },
     {
-      heading: 'Quantificação da procura por palavras-chave',
+      heading: `Quantificação da procura por palavras-chave`,
       content: `As sugestões de preenchimento automático dizem-lhe o que os compradores procuram, mas a pesquisa de palavras-chave diz-lhe quantos procuram. Quantificar a procura permite-lhe comparar nichos objetivamente e priorizar os que têm maior potencial.\n\nPara o Etsy, ferramentas como eRank, Marmalead e Sale Samurai fornecem dados de volume de pesquisa específicos da plataforma. Procure nichos onde o volume de pesquisa mensal supere as 1.000 pesquisas mas a concorrência (número de listagens) seja gerível. Uma proporção de procura sobre oferta favorável — alto volume de pesquisa com relativamente poucas listagens concorrentes — sinaliza oportunidade.\n\nPara o Amazon KDP, ferramentas de pesquisa de palavras-chave como o Publisher Rocket fornecem estimativas de volume de pesquisa, números de concorrência e até dados estimados de receita mensal. Preste atenção às pontuações de concorrência: um nicho com 5.000 pesquisas mensais mas baixa concorrência é geralmente mais rentável do que um com 50.000 pesquisas e concorrência extrema.\n\nO Google Trends fornece dados de procura gratuitos que complementam as ferramentas específicas de plataforma. Compare termos de nicho como "fichas de somas vs fichas de subtrações vs fichas de multiplicação" para ver a procura relativa e os padrões sazonais. O gráfico "interesse ao longo do tempo" revela se um nicho está a crescer, estável ou em declínio — informação crucial para o planeamento a longo prazo.\n\nCrie um sistema de pontuação para comparar nichos: atribua pontos por volume de pesquisa (1-5), competitividade (1-5, onde menos concorrência = mais pontos), tendência de crescimento (1-5) e potencial sazonal (1-5). Esta pontuação padronizada permite-lhe comparar nichos em categorias completamente diferentes — por exemplo, comparar "fichas de caligrafia" com "jogos de matemática imprimíveis".\n\nAtualize a sua pesquisa de palavras-chave trimestralmente. Os padrões de procura mudam com as tendências educativas, as alterações nas plataformas e as preferências dos consumidores. Um nicho que era muito competitivo há um ano pode ter-se tornado menos saturado, ou vice-versa.`,
     },
     {
-      heading: 'Pesquisa de produtos da concorrência',
+      heading: `Pesquisa de produtos da concorrência`,
       content: `Entender o que os seus concorrentes vendem — e como vendem — revela tanto oportunidades como armadilhas. A análise da concorrência não se trata de copiar o que funciona, mas de identificar onde pode oferecer algo melhor ou diferente.\n\nPara cada nicho potencial, examine os 20 produtos mais vendidos de cada plataforma. Documente: gama de preços, número de avaliações (um indicador do volume de vendas), qualidade do produto (com base nas pré-visualizações disponíveis), tamanho do pacote, faixa etária ou nível escolar visado e proposta de valor única.\n\nLeia as avaliações dos compradores com atenção — especialmente as de 3 estrelas. As avaliações de 5 estrelas dizem-lhe o que os compradores valorizam, enquanto as de 1 estrela podem refletir expectativas pouco realistas. As avaliações de 3 estrelas contêm frequentemente as ideias mais úteis: "É bom, mas gostava que incluísse..." ou "Funciona bem, exceto que..." Estas críticas dizem-lhe exatamente como melhorar os produtos existentes.\n\nAnalise as estratégias de preços dos concorrentes estabelecidos. Se a maioria dos produtos num nicho se vende entre 3 € e 5 €, mas pode oferecer um pacote premium com mais conteúdo a 8-12 €, identificou uma lacuna de mercado. Da mesma forma, se todos os produtos são pacotes grandes, pode haver procura por fichas individuais mais acessíveis.\n\nEstude como os concorrentes apresentam os seus produtos — títulos, descrições, palavras-chave, miniaturas e pré-visualizações. Observe que termos usam repetidamente (isto indica a sua pesquisa de palavras-chave) e como posicionam os benefícios para os compradores. Um concorrente com muitas avaliações provavelmente otimizou muito a sua listagem — pode aprender com a sua estrutura.\n\nDocumente as fraquezas da concorrência de forma sistemática: design visual fraco, falta de variedade temática, instruções insuficientes, ausência de chaves de respostas ou formatos de impressão limitados. Cada fraqueza representa uma oportunidade para se diferenciar.`,
     },
     {
-      heading: 'Identificar lacunas de mercado pouco exploradas',
+      heading: `Identificar lacunas de mercado pouco exploradas`,
       content: `As lacunas de mercado existem quando a procura dos compradores não está bem servida pelos produtos disponíveis. Estas lacunas representam as oportunidades mais rentáveis porque pode captar compradores que atualmente não encontram o que procuram.\n\nUma lacuna de mercado manifesta-se de várias formas. A primeira é a lacuna de pesquisa: quando um termo tem um alto volume de pesquisa mas poucos resultados relevantes. Procure termos no Etsy ou no Amazon KDP onde os resultados incluam muitos produtos não relacionados — isto indica que os compradores procuram algo específico mas os vendedores não o oferecem.\n\nA segunda é a lacuna de qualidade: quando os produtos existentes têm design fraco, erros ou estão desatualizados. Se um nicho tem concorrência mas a qualidade média é baixa, pode captar quota de mercado com um produto superior. Reveja as avaliações negativas para confirmar que os compradores têm consciência dos problemas de qualidade.\n\nA terceira é a lacuna de formato: quando os compradores querem imprimíveis num formato que não está disponível. Por exemplo, se todas as fichas de matemática de um nicho são em tamanho carta (US Letter), pode haver procura pelo formato A4. Ou se todos os produtos são em PDF estático, pode haver oportunidade para versões interativas ou editáveis.\n\nA quarta é a lacuna demográfica: quando um tipo de conteúdo popular para uma faixa etária não tem equivalente para outra. Se as fichas de somas com tema de dinossauros abundam para o pré-escolar mas não existem para o 1.º ano, encontrou uma lacuna demográfica.\n\nA quinta é a lacuna linguística: quando produtos populares em inglês não têm equivalentes noutros idiomas. O mercado de imprimíveis educativos em português, espanhol, francês, alemão e outros idiomas está muito menos saturado do que o de inglês. Se puder criar conteúdo de qualidade em múltiplos idiomas, acede a mercados com menos concorrência.\n\nPara validar uma lacuna de mercado, confirme três coisas: que a procura existe (dados de pesquisa), que a oferta atual é insuficiente (análise de resultados) e que pode preencher essa lacuna com um produto viável (avaliação das suas capacidades).`,
     },
     {
-      heading: 'Avaliar a rentabilidade dos nichos',
+      heading: `Avaliar a rentabilidade dos nichos`,
       content: `Nem todos os nichos com procura são rentáveis. Um nicho pode ter um alto volume de pesquisa mas margens baixas, ou pouca concorrência mas também pouca disponibilidade dos compradores para pagar. A avaliação da rentabilidade combina múltiplos fatores numa pontuação que o ajuda a priorizar.\n\nO primeiro fator é o preço médio do nicho. Calcule o preço médio dos 20 produtos mais vendidos. Nichos onde o preço médio supera os 5 € oferecem geralmente melhores margens do que os de 2-3 €. Tenha em conta que pode superar o preço médio se oferecer mais valor — mas o preço médio indica o que os compradores já estão dispostos a pagar.\n\nO segundo fator é o volume de vendas estimado. Use o número de avaliações como indicador: no Etsy, aproximadamente 5-10% dos compradores deixam uma avaliação. Um produto com 500 avaliações teve aproximadamente 5.000-10.000 vendas. Multiplique o volume estimado de vendas do nicho pelo preço médio para estimar as receitas totais do mercado.\n\nO terceiro fator é o custo de produção. Os imprimíveis têm custos marginais próximos de zero uma vez criados, mas o tempo de criação varia enormemente. Um pacote de fichas de matemática com 50 páginas pode exigir 10 horas de produção, enquanto um pacote de colorir com 50 páginas pode exigir 40 horas. Calcule a sua receita por hora de produção para cada nicho.\n\nO quarto fator é o potencial de repetição. Alguns nichos permitem criar múltiplos produtos relacionados — uma série de fichas de somas pode expandir-se para subtrações, multiplicação e divisão. Os nichos com potencial de expansão natural geram mais receitas por hora de pesquisa investida.\n\nO quinto fator é a longevidade do nicho. Os nichos perenes (fichas de matemática básica, prática de caligrafia) geram receitas ano após ano. Os nichos de moda (imprimíveis de um programa de televisão popular) podem gerar vendas rápidas mas desaparecem. Pondere a longevidade na sua avaliação de rentabilidade.\n\nCombine estes fatores numa grelha de pontuação: preço médio (1-5), volume estimado (1-5), eficiência de produção (1-5), potencial de expansão (1-5) e longevidade (1-5). Os nichos com pontuação total de 18+ são candidatos prioritários.`,
     },
     {
-      heading: 'Testar a procura com produtos mínimos viáveis',
+      heading: `Testar a procura com produtos mínimos viáveis`,
       content: `Antes de investir dezenas de horas a produzir um pacote completo, valide a procura com um produto mínimo viável (PMV). Um PMV permite-lhe testar um nicho com um investimento mínimo de tempo e confirmar que os compradores realmente comprarão antes de escalar a produção.\n\nUm PMV de imprimíveis é uma versão reduzida do seu produto final. Se planeia criar um pacote de 50 fichas de matemática com tema de dinossauros, o seu PMV pode ser um pacote de 10 fichas. Se planeia uma série de cadernos de atividades, o seu PMV pode ser um único caderno. A chave é que o PMV deve ser suficientemente bom para vender — não é um rascunho nem um protótipo, mas um produto completo a menor escala.\n\nPublique o seu PMV com uma listagem otimizada — título com palavras-chave, descrição apelativa, miniaturas de qualidade e um preço competitivo. De seguida, monitorize as métricas durante 2-4 semanas: visitas à listagem, taxa de conversão (vendas divididas por visitas), avaliações e perguntas dos compradores.\n\nInterprete os resultados com cuidado. Se o seu PMV gerar vendas constantes mesmo com poucas avaliações e sem posicionamento orgânico estabelecido, o nicho tem procura forte. Se receber muitas visitas mas poucas vendas, o nicho tem interesse mas o seu produto ou preço precisa de ajustes. Se não receber visitas, as suas palavras-chave precisam de otimização ou o volume de pesquisa real é menor do que o esperado.\n\nO PMV também lhe fornece dados para otimizar o produto completo. As perguntas dos compradores revelam que informações adicionais necessitam. As avaliações dizem-lhe o que valorizam mais. Os padrões de compra (que dias e épocas vende mais) informam a sua estratégia de lançamento para o produto completo.\n\nEstabeleça critérios de decisão claros antes de lançar o PMV. Por exemplo: "Se o PMV gerar pelo menos 10 vendas em 30 dias, avanço com o pacote completo. Se gerar menos de 3 vendas, descarto este nicho. Se gerar entre 3 e 10, otimizo a listagem e testo mais 30 dias." Estes critérios evitam que se agarre a nichos por enviesamento de confirmação.`,
     },
     {
-      heading: 'Acompanhamento de padrões sazonais e de tendência',
+      heading: `Acompanhamento de padrões sazonais e de tendência`,
       content: `Os imprimíveis educativos têm padrões de procura sazonais pronunciados que afetam diretamente a rentabilidade. Compreender estes ciclos permite-lhe programar os seus lançamentos para máxima visibilidade e preparar o inventário antes dos picos de procura.\n\nO ciclo mais importante para os imprimíveis educativos é o regresso às aulas. No hemisfério norte, a procura começa a subir em julho, atinge o pico em agosto-setembro e mantém-se elevada durante outubro. Os vendedores que têm produtos prontos e posicionados antes de julho captam a maior parte desta procura — os que publicam em setembro já perderam o pico.\n\nOs picos sazonais temáticos são igualmente previsíveis. O Dia das Bruxas (outubro), o Natal (novembro-dezembro), o Dia de São Valentim (janeiro-fevereiro) e a Páscoa (março-abril) geram picos de procura de imprimíveis temáticos. Use o Google Trends para verificar as datas exatas dos picos no seu mercado-alvo — podem variar consoante o país e a cultura.\n\nAlém das estações, observe as tendências emergentes. As redes sociais — especialmente o Pinterest, o Instagram e o TikTok — impulsionam tendências em imprimíveis educativos. Um tema que se torna viral nas redes pode criar uma procura repentina de imprimíveis relacionados. Configure alertas do Google e siga criadores de conteúdo educativo nas redes sociais para detetar tendências cedo.\n\nCrie um calendário de produção baseado nos seus dados sazonais. Planeie criar produtos temáticos com 2-3 meses de antecedência ao pico de procura. Isto dá-lhe tempo para criar, publicar, otimizar e acumular avaliações iniciais antes de chegar o tráfego massivo.\n\nOs padrões de tendência a longo prazo também importam. O mercado de imprimíveis educativos tem crescido de forma consistente ao longo dos anos, mas alguns subsegmentos crescem mais rapidamente do que outros. A educação em casa, a aprendizagem complementar e os materiais STEM mostram tendências de crescimento especialmente fortes. Pesquise as tendências a 5 anos no Google Trends para identificar nichos em fase de crescimento.`,
     },
     {
@@ -70,7 +70,7 @@ const content: GuideContent = {
       content: `O Etsy fornece os sinais de pesquisa mais ricos para vendedores de imprimíveis. Além do preenchimento automático, examine as secções "Em em alta atualmente" e "Favoritos" para identificar que tipos de imprimíveis estão a ganhar tração. As categorias do Etsy também revelam estruturas de nicho — navegue por Papelaria > Imprimíveis para ver como o Etsy organiza a procura.\n\nUse as ferramentas de análise de lojas para estudar os vendedores mais bem-sucedidos. Os vendedores com milhares de avaliações encontraram nichos rentáveis — analise o seu catálogo de produtos para ver que categorias e temas produzem. Preste atenção aos produtos com o selo "mais vendido" ou com o número de vendas visível.\n\nAs estatísticas da sua própria loja Etsy são uma ferramenta de pesquisa subestimada. Os termos de pesquisa que trazem visitantes à sua loja (visíveis nas análises do Etsy) revelam o que os compradores procuram ativamente. Os termos de pesquisa com muitas impressões mas baixa taxa de cliques indicam procura que os seus produtos atuais não satisfazem — oportunidades para novos produtos.`,
     },
     {
-      heading: 'Pesquisa de nichos no Amazon KDP',
+      heading: `Pesquisa de nichos no Amazon KDP`,
       content: `O Amazon KDP requer uma abordagem de pesquisa diferente porque os cadernos de atividades concorrem com livros físicos, não apenas com transferências digitais. Use a secção de Best Sellers da Amazon em "Livros de atividades infantis" para identificar os nichos mais vendidos. A classificação de vendas (BSR) dá-lhe uma medida relativa do volume de vendas — os produtos com BSR abaixo de 100.000 em livros têm vendas significativas.\n\nO Publisher Rocket é a ferramenta padrão para pesquisa de nichos no KDP. Fornece volume de pesquisa estimado, receitas mensais estimadas e pontuações de concorrência para qualquer palavra-chave. Use-o para comparar nichos diretamente — por exemplo, comparar "caderno de atividades dinossauros" com "caderno de atividades unicórnios" em termos de procura e concorrência.\n\nA funcionalidade "Os clientes também compraram" da Amazon revela nichos adjacentes. Se os compradores de fichas de somas também compram fichas de caligrafia, existe uma oportunidade de venda cruzada. Documente estes padrões de compra cruzada para identificar nichos complementares onde pode expandir o seu catálogo.`,
     },
     {
@@ -81,11 +81,11 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Converter a pesquisa em produtos rentáveis',
+      heading: `Converter a pesquisa em produtos rentáveis`,
       content: `A pesquisa sem ação não gera receitas. Estabeleça um processo claro para passar da pesquisa à produção. Quando um nicho superar o seu limiar de pontuação de rentabilidade, crie um PMV num prazo de 7 dias. Este prazo obriga-o a agir enquanto os dados de pesquisa estão frescos e evita a paralisia por excesso de análise.\n\nPrioritize os nichos que se alinham com as suas capacidades de produção existentes. Se já cria fichas de matemática, expandir para um novo tema ou nível escolar dentro da matemática é mais eficiente do que saltar para um tipo de produto completamente diferente. Cada novo tipo de produto tem uma curva de aprendizagem — os nichos adjacentes minimizam esta curva.\n\nUse os seus dados de pesquisa para otimizar as listagens desde o primeiro dia. As palavras-chave com maior volume de pesquisa vão no título. Os benefícios que os compradores valorizam mais (identificados na sua análise de avaliações) vão no início da descrição. As miniaturas seguem as convenções do nicho que identificou na sua análise da concorrência. Esta otimização baseada em pesquisa dá-lhe uma vantagem competitiva desde o lançamento.`,
     },
     {
-      heading: 'Estratégia de portefólio baseada em dados',
+      heading: `Estratégia de portefólio baseada em dados`,
       content: `Os vendedores mais bem-sucedidos não dependem de um único nicho — constroem um portefólio diversificado de produtos baseado nos seus dados de pesquisa. Distribua a sua produção entre nichos perenes (receitas estáveis) e nichos sazonais (picos de vendas).\n\nAponte para ter produtos em pelo menos 3-5 nichos diferentes para reduzir o risco. Se um nicho perder procura ou se saturar, os seus outros nichos mantêm as suas receitas. A sua pesquisa contínua identifica constantemente novos nichos para adicionar ao seu portefólio, ao mesmo tempo que sinaliza nichos em declínio onde deve reduzir o investimento.\n\nAnalise a rentabilidade do seu portefólio trimestralmente. Calcule as receitas por hora de produção para cada nicho e redirecione o seu tempo para os nichos mais rentáveis. Alguns vendedores descobrem que 80% das suas receitas provêm de 20% dos seus nichos — a pesquisa e análise contínuas ajudam-no a identificar e potenciar esse 20%.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `Mantenha uma rotina semanal de 1-2 horas para monitorizar tendências e detetar oportunidades emergentes. Faça uma revisão completa da sua base de dados de nichos mensalmente, atualizando as pontuações de rentabilidade e adicionando novas descobertas. Antes de cada lançamento de produto importante, atualize a pesquisa do nicho específico para confirmar que os dados continuam válidos — os mercados podem mudar significativamente em poucas semanas, especialmente em torno de datas-chave como o regresso às aulas.`,
     },
     {
-      question: 'Como sei se um nicho está demasiado saturado?',
+      question: `Como sei se um nicho está demasiado saturado?`,
       answer: `Um nicho está saturado quando tem muitos concorrentes estabelecidos (milhares de listagens), preços em descida constante, margens de lucro baixas e pouca diferenciação entre produtos. No entanto, saturação elevada não significa sempre que deve evitar o nicho — se puder oferecer uma qualidade significativamente superior, um formato único ou um ângulo diferente, pode competir mesmo em nichos concorridos. O que deve evitar são os nichos saturados onde não consegue identificar nenhuma forma de se diferenciar.`,
     },
     {
@@ -132,53 +132,53 @@ const content: GuideContent = {
     },
     {
       question: `Oferecem reembolsos se o produto não corresponder às minhas expectativas?`,
-      answer: `Pode testar todas as ferramentas do LessonCraft Studio de forma gratuita como teste grátis com marca d'água — gere fichas de exercícios completas com todas as funções ativas. As transferências de teste incluem uma marca d'água; a licença paga remove-a. Isto permite-lhe avaliar a qualidade, as opções de personalização, as 104 bibliotecas de imagens temáticas e a compatibilidade com o seu nicho-alvo antes de comprar. Como pode testar todas as funções sem custo, as compras de licença são definitivas.`,
+      answer: `Pode testar todas as ferramentas do LessonCraft Studio de forma gratuita como teste grátis com marca d`água — gere fichas de exercícios completas com todas as funções ativas. As transferências de teste incluem uma marca d`água; a licença paga remove-a. Isto permite-lhe avaliar a qualidade, as opções de personalização, as 104 bibliotecas de imagens temáticas e a compatibilidade com o seu nicho-alvo antes de comprar. Como pode testar todas as funções sem custo, as compras de licença são definitivas.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Oferecemos uma garantia de satisfação de 30 dias. Se não estiver satisfeito com a sua compra, contacte a nossa equipa de suporte para solicitar um reembolso completo — sem perguntas. A sua satisfação é a nossa prioridade.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'melhores-nichos-kdp-livros-atividades', anchorText: 'Melhores nichos de livros de atividades KDP' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: `melhores-nichos-kdp-livros-atividades`, anchorText: `Melhores nichos de livros de atividades KDP` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
     { pageType: 'guide', slug: 'rendimentos-passivos-fichas', anchorText: `Criar rendimentos recorrentes com fichas de exercícios` },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para imprimíveis educativos` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
-    { appId: 'matching', title: 'Gerador de fichas de associação', description: `Cria atividades de associação versáteis que funcionam em múltiplos nichos temáticos, ideais para testar a procura de novos nichos com produtos de produção rápida.` },
-    { appId: 'wordsearch', title: 'Gerador de palavras cruzadas de pesquisa', description: `Produz caça-palavras temáticos que se adaptam a qualquer nicho. Um formato universal para validar a procura em novos temas antes de investir em produção completa.` },
-    { appId: 'coloring', title: 'Gerador de páginas para colorir', description: `Cria páginas para colorir com amplo apelo visual que transcendem nichos individuais, ideais para testar a procura em categorias temáticas com investimento mínimo.` },
-    { appId: 'math-worksheet', title: 'Gerador de fichas de matemática', description: `Produz fichas de matemática direcionadas que permitem testar nichos específicos de nível escolar e tipo de operação com conteúdo profissional.` },
+    { appId: 'matching', title: `Gerador de fichas de associação`, description: `Cria atividades de associação versáteis que funcionam em múltiplos nichos temáticos, ideais para testar a procura de novos nichos com produtos de produção rápida.` },
+    { appId: 'wordsearch', title: `Gerador de palavras cruzadas de pesquisa`, description: `Produz caça-palavras temáticos que se adaptam a qualquer nicho. Um formato universal para validar a procura em novos temas antes de investir em produção completa.` },
+    { appId: 'coloring', title: `Gerador de páginas para colorir`, description: `Cria páginas para colorir com amplo apelo visual que transcendem nichos individuais, ideais para testar a procura em categorias temáticas com investimento mínimo.` },
+    { appId: 'math-worksheet', title: `Gerador de fichas de matemática`, description: `Produz fichas de matemática direcionadas que permitem testar nichos específicos de nível escolar e tipo de operação com conteúdo profissional.` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de associação para pesquisar nichos de produtos imprimíveis educativos' },
+    heroImage: { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de associação para pesquisar nichos de produtos imprimíveis educativos` },
     samples: [
-      { src: `/samples/portuguese/matching/Encontre os Pares 2.webp`, alt: 'Ficha de associação para pesquisar nichos de produtos imprimíveis educativos', caption: 'Exemplo de ficha de associação — um tipo de produto com procura consistente em múltiplos nichos temáticos' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Caça-palavras para validar nichos de imprimíveis educativos', caption: 'Exemplo de caça-palavras — pesquise a procura em nichos como animais, espaço e estações do ano' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir para explorar nichos de mercado de imprimíveis', caption: 'Exemplo de página para colorir — um nicho perene com múltiplos subtemas para expansão' },
+      { src: `/samples/portuguese/matching/Encontre os Pares 2.webp`, alt: `Ficha de associação para pesquisar nichos de produtos imprimíveis educativos`, caption: `Exemplo de ficha de associação — um tipo de produto com procura consistente em múltiplos nichos temáticos` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Caça-palavras para validar nichos de imprimíveis educativos`, caption: `Exemplo de caça-palavras — pesquise a procura em nichos como animais, espaço e estações do ano` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir para explorar nichos de mercado de imprimíveis`, caption: `Exemplo de página para colorir — um nicho perene com múltiplos subtemas para expansão` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Como pesquisar nichos rentáveis de imprimíveis — processo passo a passo`,
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Águia — imagem educativa temática', caption: 'Águia' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — imagem educativa temática', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Calau — imagem educativa temática', caption: 'Calau' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Arara — imagem educativa temática', caption: 'Arara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagem educativa temática', caption: 'Avestruz' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Águia — imagem educativa temática`, caption: 'Águia' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — imagem educativa temática`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Calau — imagem educativa temática`, caption: 'Calau' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Arara — imagem educativa temática`, caption: 'Arara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Avestruz — imagem educativa temática`, caption: 'Avestruz' },
   ],
 };
 

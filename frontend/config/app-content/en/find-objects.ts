@@ -10,9 +10,9 @@ const content: AppContent = {
       `sell odd one out worksheets on Gumroad and your own store`,
     ],
     lsiKeywords: [
-      'digital hidden object printables online business',
-      'commercial use find objects worksheet generator',
-      'printable visual search activity business tools',
+      `digital hidden object printables online business`,
+      `commercial use find objects worksheet generator`,
+      `printable visual search activity business tools`,
     ],
     titleTag: `Hidden Object Generator | Create Search Worksheets`,
     metaDescription: `Create hidden object worksheets to sell on Etsy, KDP & Gumroad. I Spy and Odd One Out modes, zero-overlap scenes, auto answer key. Try free — license available.`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Hidden Object Worksheets in 5 Steps',
+    title: `How to Create Hidden Object Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -39,17 +39,17 @@ const content: AppContent = {
           `Select between two modes in the Object Selection panel. I Spy mode (default) creates free-form hidden object scenes where objects are scattered across the page using a zero-overlap placement algorithm — no grid, just a natural-looking visual scene. Odd One Out mode arranges paired images in rows with unpaired items mixed in for visual discrimination activities. Each mode produces a different type of search-and-find worksheet from the same image library.`,
       },
       {
-        title: 'Select Images and Configure Object Counts',
+        title: `Select Images and Configure Object Counts`,
         description:
           `Browse 104 themed image collections with 3,100+ colorful illustrations in the Image Library panel. Filter by theme or search by keyword. In I Spy mode, configure 1–5 hidden objects to find and 8–12 distractor objects that fill the scene. In Odd One Out mode, set 8–12 paired images and 1–5 unpaired (odd) items. You can also upload custom PNG, JPG, or GIF images to use alongside library content.`,
       },
       {
-        title: 'Generate the Hidden Object Scene',
+        title: `Generate the Hidden Object Scene`,
         description:
           `Click Generate to create the worksheet. In I Spy mode, the zero-overlap algorithm places each image by trying 50 random positions and selecting the one with least overlap, adaptively reducing image size when space gets tight. A legend appears at the bottom showing which objects to find. In Odd One Out mode, images are arranged in rows with paired and unpaired items. The auto-sizing header renders your title in Fredoka font with decorative pill containers — font size adjusts automatically based on text length.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see auto-generated annotations: red circles drawn around hidden objects (I Spy mode) or unpaired items (Odd One Out mode), sized 3–5px larger than the object for clear visibility. Download both versions using four dedicated buttons in the dropdown: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -70,7 +70,7 @@ const content: AppContent = {
           `I Spy mode uses a sophisticated placement algorithm instead of a fixed grid. The findBestPosition() function tries 50 random positions per image and selects the placement with the least overlap. When space gets tight, the algorithm adaptively reduces image size to fit more objects without cluttering the scene. This creates natural-looking hidden object scenes where images are scattered organically across the page — far more engaging than grid-based alternatives where objects sit in predictable rows and columns.`,
       },
       {
-        title: 'Auto-Generated Answer Key with Circle Annotations',
+        title: `Auto-Generated Answer Key with Circle Annotations`,
         description:
           `Every hidden object worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact worksheet layout and draws red circles around the correct objects — hidden targets in I Spy mode and unpaired items in Odd One Out mode. Circles are sized 3–5px larger than the object for clear visibility. No manual marking, no separate file creation — the answer key is always in sync with the worksheet. This dual-canvas approach saves significant production time for sellers creating hidden object bundles.`,
       },
@@ -80,7 +80,7 @@ const content: AppContent = {
           `In I Spy mode, a legend at the bottom of the worksheet (120px bottom margin) displays the target objects to find. This visual reference shows exactly what to look for without written instructions — making worksheets accessible to pre-readers and multilingual audiences. The legend is automatically generated based on your selected hidden objects. Odd One Out mode uses a compact 50px bottom margin since solvers discover the unpaired items through visual comparison rather than a reference list.`,
       },
       {
-        title: 'Name and Date Fields with Toggle Control',
+        title: `Name and Date Fields with Toggle Control`,
         description:
           `A checkbox toggle in the Text & Content panel adds "Name:" and "Date:" fields to the worksheet. These identification lines make worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages where the name appears on the cover. The fields render cleanly alongside the auto-generated header and legend.`,
       },
@@ -103,16 +103,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Hidden Object Worksheets Online',
+    title: `How to Sell Hidden Object Worksheets Online`,
     cases: [
       {
-        title: 'Themed Hidden Object Activity Bundles on Etsy',
+        title: `Themed Hidden Object Activity Bundles on Etsy`,
         description:
           `Create themed I Spy worksheet packs using the 104 image collections — animal hidden objects, holiday I Spy, ocean creature search, dinosaur find-it, and dozens more. Each theme provides enough illustrations for multiple unique hidden object scenes with varying difficulty. Package 10–20 hidden object worksheets per theme with answer keys included, and sell at $3–$7 per bundle. Increase difficulty across the bundle by adding more hidden objects (1 → 5) and more distractors (8 → 12) as pages progress.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Hidden Object Activity Workbooks on Amazon KDP',
+        title: `Hidden Object Activity Workbooks on Amazon KDP`,
         description:
           `Compile 40–80 hidden object worksheets into a printed workbook formatted for Amazon KDP. Structure your book by progressive difficulty: early chapters hide 1–2 objects among 8 distractors for beginners, middle chapters increase to 3–4 hidden objects with 10 distractors, and advanced chapters use 5 hidden objects among 12 distractors. Include answer keys at the back of the book. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors. The visual-only design means one workbook works for any language market.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -124,16 +124,16 @@ const content: AppContent = {
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal Hidden Object Activity Collections',
+        title: `Seasonal Hidden Object Activity Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited hidden object worksheet collections that align with peak shopping periods. Release Halloween I Spy bundles in September, Christmas hidden object collections in October, and Valentine's Day search-and-find packs in January. Include both I Spy and Odd One Out worksheets in each seasonal set for maximum value.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine`s Day, back-to-school, summer vacation, and more. Create time-limited hidden object worksheet collections that align with peak shopping periods. Release Halloween I Spy bundles in September, Christmas hidden object collections in October, and Valentine`s Day search-and-find packs in January. Include both I Spy and Odd One Out worksheets in each seasonal set for maximum value.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
-        title: 'Mixed-Mode I Spy and Odd One Out Bundles',
+        title: `Mixed-Mode I Spy and Odd One Out Bundles`,
         description:
           `Combine both activity modes into premium variety packs. Each bundle includes I Spy hidden object scenes where solvers find specific objects in a scattered scene, plus Odd One Out worksheets where solvers identify unpaired items among matched sets. This combination targets two different cognitive skills — visual search and visual discrimination — in a single product. Mixed-mode bundles command higher prices because they deliver more activity variety and cover more learning objectives than single-mode products.`,
-        platform: 'Etsy / Gumroad (variety packs)',
+        platform: `Etsy / Gumroad (variety packs)`,
       },
     ],
   },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `In I Spy mode, you can configure 1–5 hidden objects (the targets solvers need to find) and 8–12 distractor objects (the surrounding images that fill the scene). Start with 1–2 hidden objects and 8 distractors for easier worksheets, and increase to 5 hidden objects among 12 distractors for challenging scenes. The legend at the bottom of the worksheet shows which objects to find.`,
     },
     {
-      question: 'How does the Odd One Out mode work?',
+      question: `How does the Odd One Out mode work?`,
       answer:
         `Odd One Out mode arranges images in rows with paired and unpaired items. Configure 8–12 paired images (each appears twice in the layout) and 1–5 unpaired (odd) items that appear only once. Solvers examine each row and identify the image that doesn't have a matching partner. Images render 50% larger than I Spy mode for clearer visual comparison. There is no legend at the bottom since solvers discover the unpaired items through visual analysis rather than a reference list.`,
     },
@@ -165,17 +165,17 @@ const content: AppContent = {
         `In I Spy mode, a legend in the 120px bottom margin displays the target objects to find. This visual reference shows each hidden object so solvers know exactly what to look for — making worksheets accessible to pre-readers and multilingual audiences without requiring written instructions. Odd One Out mode does not include a legend since the activity is self-explanatory: find the image without a matching partner.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the hidden object scene without markings — solvers search and circle objects themselves. The answer key reproduces the identical layout and draws red circles around the correct objects: hidden targets in I Spy mode and unpaired items in Odd One Out mode. Circles are sized 3–5px larger than the object for clear visibility. Both versions export separately using four download buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.`,
     },
     {
-      question: 'Can I add name and date fields to the worksheet?',
+      question: `Can I add name and date fields to the worksheet?`,
       answer:
         `Yes. A checkbox toggle in the Text & Content panel adds "Name:" and "Date:" fields to the worksheet. These identification lines make your worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages.`,
     },
     {
-      question: 'How does the auto-generated header work?',
+      question: `How does the auto-generated header work?`,
       answer:
         `Every worksheet includes an auto-sizing title rendered in Fredoka font (#4A4A4A dark gray) with animated decorative white pill containers and shadows. The title font size adjusts automatically based on text length: 32px for short titles (under 12 characters), scaling down to 18px for longer titles (over 22 characters). You can also add a description field below the title. The header system ensures professional-looking worksheets regardless of title length.`,
     },
@@ -185,7 +185,7 @@ const content: AppContent = {
         `Yes. You can access every feature — both activity modes, configurable hidden object and distractor counts, the zero-overlap placement algorithm, the auto-generated answer key, the full image library, background and border themes, name and date fields, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.`,
     },
     {
-      question: 'Is the Find Objects Generator language-sensitive?',
+      question: `Is the Find Objects Generator language-sensitive?`,
       answer:
         `No. The Find Objects Generator is visual-only — it does not load localized image names or use the Image Vocabulary system. Language settings affect only the UI labels (buttons, panel titles, tooltips), NOT the content of the worksheets themselves. This means every generated worksheet works universally across all languages without any localized text on the page, making your products sellable in any market without modifications.`,
     },
@@ -205,7 +205,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'find-and-count-worksheets',
-      anchorText: 'Find & Count Worksheet Generator',
+      anchorText: `Find & Count Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -215,12 +215,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'treasure-hunt-worksheets',
-      anchorText: 'Treasure Hunt Worksheet Generator',
+      anchorText: `Treasure Hunt Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
+      anchorText: `Picture Sort Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -230,7 +230,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'odd-one-out-worksheets',
-      anchorText: 'Odd One Out Worksheet Generator',
+      anchorText: `Odd One Out Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -239,23 +239,23 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'create-hidden-object-worksheets',
-      anchorText: 'How to Create Hidden Object Worksheets That Sell',
+      slug: `create-hidden-object-worksheets`,
+      anchorText: `How to Create Hidden Object Worksheets That Sell`,
     },
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+      anchorText: `Camping Printable Ideas for Outdoor Learning`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+      anchorText: `Ocean Animals Printable Ideas for Marine Themes`,
     },
     {
       pageType: 'start',
       slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: `Marketing Your Printable Business`,
     },
   ],
 

@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `gerador de fichas de padrões imprimíveis para vendedores Etsy`,
       `criador de fichas de reconhecimento de sequências para Amazon KDP`,
-      'vender fichas de completar padrões no Gumroad',
-      'gerador de fichas de padrões licença comercial',
+      `vender fichas de completar padrões no Gumroad`,
+      `gerador de fichas de padrões licença comercial`,
     ],
     lsiKeywords: [
       `produtos digitais fichas de sequências lógicas para empreendedores`,
       `fichas de reconhecimento de padrões imprimíveis uso comercial`,
       `gerador de fichas de padrões nove tipos de sequências`,
     ],
-    titleTag: 'Gerador Fichas de Padrões | Criar e Vender',
+    titleTag: `Gerador Fichas de Padrões | Criar e Vender`,
     metaDescription:
       `Crie fichas de padrões para Etsy, KDP e Gumroad. Nove tipos de padrões, dois modos de pergunta, config por exercício, 104 temas. Teste grátis com marca d'água.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Padrões em 5 Passos',
+    title: `Como Criar Fichas de Padrões em 5 Passos`,
     steps: [
       {
         title: 'Configure o layout da página',
@@ -35,12 +35,12 @@ const content: AppContent = {
           `Abra o painel de Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de página, escolha um tema decorativo de fundo da biblioteca de imagens e ajuste a opacidade para manter os exercícios bem visíveis. Adicione uma moldura de borda combinante com controlo de opacidade independente. Estas opções de layout dão às suas fichas de padrões um aspeto profissional e polido antes de configurar os exercícios.`,
       },
       {
-        title: 'Defina o número de exercícios e as opções globais',
+        title: `Defina o número de exercícios e as opções globais`,
         description:
           `Escolha o número de exercícios por página de 1 a 8 (5 por defeito). Ative a opção Incluir Números de Exercício para adicionar numeração. Defina um tema global para aplicar imagens coordenadas a todos os exercícios, ou deixe em aberto para escolher os temas exercício por exercício. Ative o Início Aleatório para começar os padrões a meio do ciclo e a Posição Aleatória do Espaço em Branco para colocar o elemento em falta em qualquer lugar da sequência em vez de uma localização fixa. Estas definições globais estruturam o conjunto da ficha antes de configurar os exercícios individuais.`,
       },
       {
-        title: 'Configure cada exercício de forma independente',
+        title: `Configure cada exercício de forma independente`,
         description:
           `Cada exercício da página tem as suas próprias definições para tipo de padrão, modo de pergunta e tema. Selecione entre nove tipos de padrões: AB, AAB, ABB, ABC, AABB, ABBC, AABC, ABCC ou ABCD — cada um utilizando de 2 a 4 imagens distintas conforme o tipo. Escolha o modo Caixa em Branco onde um elemento é substituído por um espaço vazio, ou o modo Escolha Múltipla que apresenta três respostas possíveis (uma correta, dois distratores) junto à caixa em branco. Atribua um tema da biblioteca de 104 coleções, selecione imagens manualmente ou carregue imagens personalizadas. Esta independência por exercício significa que uma página pode combinar exercícios simples AB em caixa em branco com desafios complexos ABCD em escolha múltipla.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Use o painel Ferramentas de Texto para adicionar um título de ficha, campos de nome e data do usuário, ou instruções com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste o tamanho da fonte, a cor e o contorno para uma legibilidade ótima. O canvas completo Fabric.js permite-lhe arrastar, redimensionar, rodar e reposicionar cada elemento da página. Os controlos de camadas gerem a ordem de empilhamento, o bloqueio/desbloqueio protege os elementos terminados enquanto edita outros, e as ferramentas de alinhamento posicionam os elementos com precisão. Amplie para uma colocação precisa com anular e refazer ilimitados.`,
       },
       {
-        title: 'Reveja o gabarito e descarregue',
+        title: `Reveja o gabarito e descarregue`,
         description:
           `Mude para o separador Gabarito para ver uma versão completada da ficha com todas as caixas em branco preenchidas mostrando os elementos corretos do padrão. A ficha e o gabarito são editáveis de forma independente em canvas separados. Ative a exportação em escala de cinzentos para versões económicas em tinta. Depois descarregue cada um como JPEG de alta resolução ou PDF pronto para impressão. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad — a ficha e o gabarito descarregam-se como ficheiros separados para um pacote de produto completo.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `Cada tipo de padrão suporta dois modos de pergunta fundamentalmente diferentes que duplicam a variedade de produtos. O modo Caixa em Branco substitui um elemento do padrão por um espaço vazio — os usuários devem identificar o padrão e determinar o elemento em falta sem qualquer pista. O modo Escolha Múltipla apresenta a caixa em branco acompanhada de três respostas possíveis: um elemento correto e dois distratores. A Caixa em Branco avalia o raciocínio aberto sobre padrões; a Escolha Múltipla avalia o reconhecimento com opções de resposta estruturadas. O mesmo padrão AB torna-se dois produtos completamente diferentes conforme o modo escolhido. Os vendedores podem oferecer ambos os modos como níveis de dificuldade separados ou combiná-los numa só página para prática variada.`,
       },
       {
-        title: 'Configuração independente por exercício',
+        title: `Configuração independente por exercício`,
         description:
           `Cada exercício da página tem o seu próprio tipo de padrão, modo de pergunta e tema — configurado de forma independente de todos os outros exercícios. Uma só ficha pode começar com um aquecimento AB em caixa em branco, progredir para uma prática ABC em escolha múltipla no meio, e terminar com um desafio ABCD em caixa em branco na parte inferior. Esta independência por exercício elimina a necessidade de gerar páginas separadas para cada nível de dificuldade. Os vendedores obtêm prática diferenciada numa só página, e os vendedores criam produtos mais sofisticados que demonstram um design profissional reflexivo — as páginas de dificuldade mista vendem-se a preços mais altos do que as fichas de um só padrão.`,
       },
@@ -81,12 +81,12 @@ const content: AppContent = {
           `Duas definições de aleatorização criam variações de dificuldade adicionais a partir dos mesmos tipos de padrões. Início Aleatório começa o padrão a meio do ciclo em vez de sempre no primeiro elemento — um padrão ABC pode começar em B-C-A-B-C em vez de A-B-C-A-B. Posição Aleatória do Espaço em Branco coloca o elemento em falta em qualquer posição da sequência em vez de uma localização previsível. Juntas, estas definições impedem que os usuários resolvam por rotina e garantem que cada ficha gerada apresente um desafio novo. Para os vendedores, a aleatorização multiplica o número de fichas únicas produzíveis a partir de cada combinação de tipo de padrão e tema.`,
       },
       {
-        title: 'Biblioteca de Imagens com 104 coleções temáticas',
+        title: `Biblioteca de Imagens com 104 coleções temáticas`,
         description:
           `Aceda a mais de 3100 ilustrações em 104 coleções temáticas — animais, alimentos, veículos, natureza, profissões, festividades e dezenas mais. Cada tema fornece um conjunto coordenado de imagens que funcionam visualmente nos exercícios de completar padrões. Os tipos de padrões selecionam automaticamente o número correto de imagens distintas do tema escolhido: 2 imagens para AB/AAB/ABB/AABB, 3 imagens para ABC/ABBC/AABC/ABCC, e 4 imagens para ABCD. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas para máxima variedade de produtos. Cada tema torna-se numa listagem de produto distinta com apelo visual imediato.`,
       },
       {
-        title: 'Sistema de canvas duplo com gabarito separado',
+        title: `Sistema de canvas duplo com gabarito separado`,
         description:
           `A ficha e o gabarito vivem em canvas separados e independentemente editáveis, acessíveis por separadores. A ficha mostra os exercícios com caixas em branco ou opções de escolha múltipla; o gabarito mostra todas as caixas preenchidas com os elementos corretos do padrão. Cada canvas permite edição completa — adicione texto, ajuste a disposição, reposicione elementos — para que possa personalizar tanto a ficha do usuário como o gabarito do vendedor de forma independente. Ambos se descarregam como ficheiros separados, oferecendo aos compradores um pacote de produto completo com soluções verificadas para cada exercício.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Padrões Online',
+    title: `Como Vender Fichas de Padrões Online`,
     cases: [
       {
-        title: 'Pacotes de completar padrões na Etsy',
+        title: `Pacotes de completar padrões na Etsy`,
         description:
           `Crie pacotes temáticos de completar padrões aproveitando a maior variedade disponível: nove tipos de padrões multiplicados por dois modos de pergunta dão 18 estilos de exercício distintos por tema. Agrupe animais da quinta, dinossauros, criaturas marinhas e veículos como pacotes temáticos separados com 20 a 30 fichas cada um. Estruture cada pacote com dificuldade progressiva — exercícios AB em caixa em branco primeiro, avançando para ABC e ABCD, depois repetindo a progressão em modo escolha múltipla. Inclua os gabaritos autogerados como ficheiros bónus. O formato totalmente visual com zero texto torna cada pacote vendível em todo o mundo sem tradução. Defina o preço dos pacotes temáticos individuais entre $3–$5 e dos pacotes progressivos multi-tema entre $14–$20.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de aprendizagem precoce na Amazon KDP',
+        title: `Cadernos de aprendizagem precoce na Amazon KDP`,
         description:
           `Compile de 80 a 120 exercícios de completar padrões num caderno impresso em formato Amazon KDP. Estruture o livro como uma progressão de dificuldade em dois eixos: complexidade do padrão (AB até ABCD) e modo de pergunta (caixa em branco e depois escolha múltipla). O Capítulo 1 cobre exercícios AB e AAB em caixa em branco. O Capítulo 2 introduz padrões ABC e AABB em caixa em branco. O Capítulo 3 retoma AB a AABB em formato escolha múltipla. O Capítulo 4 apresenta ABBC, AABC, ABCC e ABCD como desafios avançados. O Capítulo 5 mistura tipos de padrões e modos de pergunta nas mesmas páginas. O formato totalmente visual não necessita de tradução para os mercados KDP internacionais.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuais diferenciados para Gumroad',
+        title: `Centros visuais diferenciados para Gumroad`,
         description:
           `Construa conjuntos de prática de reconhecimento de padrões por níveis usando a configuração por exercício como diferenciador principal. O Nível 1 apresenta páginas completamente em AB caixa em branco com o mesmo tema. O Nível 2 mistura exercícios AB e AAB em caixa em branco. O Nível 3 introduz exercícios ABC em escolha múltipla junto a aquecimentos mais simples em caixa em branco. O Nível 4 combina desafios ABCD em caixa em branco com início aleatório e posição aleatória do espaço em branco ativados. Cada nível foca uma exigência cognitiva diferente, e a independência por exercício significa que uma página impressa serve como atividade diferenciada completa. Acompanhe cada nível com exercícios temáticos e gabaritos separados.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Fichas visuais multilingues para mercados globais',
+        title: `Fichas visuais multilingues para mercados globais`,
         description:
           `Como os exercícios de Fichas de Padrões contêm apenas imagens em filas de grelha com zero texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Crie um conjunto de exercícios de completar padrões e venda-o em todo o mundo — sem tradução necessária, sem versões de idiomas separadas para manter. Mudar o idioma do conteúdo apenas afeta as etiquetas da biblioteca de imagens no gerador, não a ficha impressa. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. Um único fluxo de trabalho produz um produto universalmente vendível.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
         title: `Ferramenta de conceitos de padrões para loja e explicações`,
         description:
           `Carregue imagens personalizadas para criar fichas de padrões adaptadas a qualquer disciplina ou unidade — use etapas de crescimento de plantas para uma aula de ciências, formas geométricas para uma aula de matemática, ou símbolos de notas musicais para uma aula de música. Nove tipos de padrões permitem-lhe adaptar o exercício ao objetivo de aprendizagem: AB para a introdução, ABC para a prática, ABCD para a avaliação. Combine caixa em branco e escolha múltipla na mesma página para prática variada. Ative o início aleatório e a posição aleatória do espaço em branco para gerar fichas únicas para cada usuário, impedindo a cópia. O separador de gabarito separado poupa valor percebido, e a configuração por exercício permite criar páginas diferenciadas para grupos de níveis mistos.`,
-        platform: 'loja / Explicações / Ensino doméstico',
+        platform: `loja / Explicações / Ensino doméstico`,
       },
     ],
   },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `O modo Caixa em Branco substitui um elemento do padrão por um espaço vazio — os usuários devem identificar o padrão e determinar o elemento em falta sem qualquer pista. O modo Escolha Múltipla apresenta a caixa em branco acompanhada de três respostas possíveis: um elemento correto e dois distratores de diferentes posições do padrão. A Caixa em Branco avalia o raciocínio aberto; a Escolha Múltipla avalia o reconhecimento com opções estruturadas. Ambos os modos funcionam com os nove tipos de padrões, resultando em 18 estilos de exercício distintos.`,
     },
     {
-      question: 'Como funciona a configuração por exercício?',
+      question: `Como funciona a configuração por exercício?`,
       answer:
         `Cada exercício da página tem definições independentes para tipo de padrão, modo de pergunta e tema de imagens. Pode configurar o Exercício 1 como AB caixa em branco com animais da quinta, o Exercício 2 como ABC escolha múltipla com veículos, e o Exercício 3 como ABCD caixa em branco com criaturas marinhas — tudo na mesma página. Isto significa que uma só ficha pode servir como atividade diferenciada completa com dificuldade progressiva integrada, sem necessidade de páginas separadas para cada tipo de padrão ou modo de pergunta.`,
     },
@@ -161,12 +161,12 @@ const content: AppContent = {
         `Início Aleatório começa o padrão num ponto aleatório do ciclo em vez de sempre no primeiro elemento — um padrão ABC pode começar em C-A-B-C em vez de A-B-C. Posição Aleatória do Espaço em Branco coloca o elemento em falta em qualquer posição da sequência em vez de uma localização fixa. Juntas, estas definições impedem que os usuários resolvam os padrões por rotina e garantem que cada ficha gerada apresente um desafio novo, mesmo usando o mesmo tipo de padrão e tema.`,
     },
     {
-      question: 'Quantos exercícios posso colocar numa página?',
+      question: `Quantos exercícios posso colocar numa página?`,
       answer:
         `Pode configurar de 1 a 8 exercícios por página, com um valor por defeito de 5. Menos exercícios por página criam filas de grelha maiores e mais claras, ideais para usuários pequenos ou prática focada. Mais exercícios criam fichas mais densas adequadas para avaliação ou revisão. Combinado com a configuração por exercício, 8 exercícios numa página podem apresentar 8 tipos de padrões diferentes ou misturar os modos caixa em branco e escolha múltipla para prática completa.`,
     },
     {
-      question: 'Como seleciono as imagens para cada exercício?',
+      question: `Como seleciono as imagens para cada exercício?`,
       answer:
         `Três opções estão disponíveis por exercício: aplicar um tema para selecionar automaticamente imagens coordenadas da biblioteca de 104 coleções, explorar manualmente e escolher imagens específicas, ou carregar as suas próprias imagens personalizadas. O tipo de padrão determina quantas imagens distintas são necessárias: AB, AAB, ABB e AABB usam 2 imagens; ABC, ABBC, AABC e ABCC usam 3 imagens; e ABCD usa 4 imagens. Cada exercício pode usar um tema diferente para máxima variedade visual.`,
     },
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — os nove tipos de padrões, ambos os modos de pergunta, a configuração por exercício, a biblioteca de imagens, o início aleatório e a posição aleatória do espaço em branco, a geração de gabarito e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — os nove tipos de padrões, ambos os modos de pergunta, a configuração por exercício, a biblioteca de imagens, o início aleatório e a posição aleatória do espaço em branco, a geração de gabarito e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `O Gerador de Fichas de Padrões é sensível ao idioma?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de padrões como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Nove tipos de padrões, dois modos de pergunta e a configuração por exercício oferecem-lhe a maior variedade e diferenciação de produtos nas categorias das plataformas de venda.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada tipo de padrão, cada modo de pergunta, cada configuração de exercício, cada tema, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Gerador de Fichas Grande e Pequeno',
+      anchorText: `Gerador de Fichas Grande e Pequeno`,
     },
     {
       pageType: 'app',
       slug: 'trem-padroes-fichas',
-      anchorText: 'Gerador de Fichas Trem de Padrões',
+      anchorText: `Gerador de Fichas Trem de Padrões`,
     },
     {
       pageType: 'app',
       slug: 'desenho-grade-fichas',
-      anchorText: 'Gerador de Fichas de Desenho em Grelha',
+      anchorText: `Gerador de Fichas de Desenho em Grelha`,
     },
     {
       pageType: 'app',
       slug: 'tracar-linhas-fichas',
-      anchorText: 'Gerador de Fichas de Traçar Linhas',
+      anchorText: `Gerador de Fichas de Traçar Linhas`,
     },
     {
       pageType: 'app',
       slug: 'desenhos-colorir-fichas',
-      anchorText: 'Gerador de Fichas para Colorir',
+      anchorText: `Gerador de Fichas para Colorir`,
     },
     {
       pageType: 'app',
       slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      anchorText: `Gerador de Fichas de Gráfico Pictórico`,
     },
     {
       pageType: 'bundle',
@@ -240,18 +240,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'primeiro-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para primeiro ano',
+      slug: `primeiro-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para primeiro ano`,
     },
     {
       pageType: 'idea',
-      slug: 'segundo-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para segundo ano',
+      slug: `segundo-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para segundo ano`,
     },
     {
       pageType: 'start',
       slug: 'livros-atividades-amazon-kdp',
-      anchorText: 'Publicar livros de atividades na Amazon KDP',
+      anchorText: `Publicar livros de atividades na Amazon KDP`,
     },
     {
       pageType: 'guide',

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'E-Mail-Marketing Druckvorlagen',
+    primaryKeyword: `E-Mail-Marketing Druckvorlagen`,
     secondaryKeywords: [
-      'E-Mail-Liste Druckvorlagen-Verkäufer',
-      'Newsletter für Arbeitsblatt-Geschäft',
-      'E-Mail-Marketing digitale Produkte',
-      'Druckvorlagen-Geschäft E-Mail-Strategie',
+      `E-Mail-Liste Druckvorlagen-Verkäufer`,
+      `Newsletter für Arbeitsblatt-Geschäft`,
+      `E-Mail-Marketing digitale Produkte`,
+      `Druckvorlagen-Geschäft E-Mail-Strategie`,
     ],
     lsiKeywords: [
       `Abonnentenliste Lead-Magnet Opt-in Gratisangebot Willkommenssequenz E-Mail-Automatisierung`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'E-Mail-Marketing für Druckvorlagen-Verkäufer',
+    title: `E-Mail-Marketing für Druckvorlagen-Verkäufer`,
     tagline: `Ein umfassender Leitfaden zum E-Mail-Marketing für Druckvorlagen-Verkäufer — von der Auswahl eines E-Mail-Dienstleisters über die Erstellung überzeugender Lead-Magnete, den Aufbau hochkonvertierender Zielseiten, die Gestaltung von Willkommenssequenzen, die Entwicklung von Rundmail-Inhaltsstrategien, die Segmentierung Ihrer Abonnentenliste, die Automatisierung saisonaler Kampagnen bis hin zur Nachverfolgung von Kennzahlen für kontinuierliche Optimierung`,
     description: `E-Mail ist der einzige Marketingkanal, den Sie vollständig besitzen und kontrollieren. Social-Media-Algorithmen ändern sich, Marktplatz-Suchrankings schwanken und Werbekosten steigen — aber Ihre E-Mail-Liste gehört Ihnen. Jeder Abonnent repräsentiert eine direkte Verbindung zu einem potenziellen Käufer, der bereits Interesse an Ihren Produkten gezeigt hat. Für Druckvorlagen-Verkäufer verwandelt E-Mail-Marketing einmalige Marktplatz-Kunden in Stammkäufer, die direkt einkaufen, Ihre Produkte weiterempfehlen und sich mit jeder neuen Veröffentlichung beschäftigen, die Sie ankündigen.`,
   },
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Gewinnen Sie Etsy-Kunden für Ihre E-Mail-Liste',
+      heading: `Gewinnen Sie Etsy-Kunden für Ihre E-Mail-Liste`,
       content: `Etsy stellt keine Kunden-E-Mail-Adressen für Marketingzwecke bereit, daher müssen Sie Wege schaffen, die Käufer motivieren, sich freiwillig anzumelden. Fügen Sie eine professionell gestaltete Beilageseite in jeden digitalen Download ein, die einen Lead-Magneten und Ihren Zielseiten-Link anbietet: „Erhalten Sie 5 Bonus-Arbeitsblätter, wenn Sie unserer E-Mail-Liste unter [Zielseiten-URL] beitreten." Fügen Sie Ihren Zielseiten-Link im Etsy-Shop-Ankündigungsbereich hinzu, der oben auf Ihrer Shop-Seite erscheint. Erwähnen Sie Ihre E-Mail-Liste und das Lead-Magnet-Angebot in Produktbeschreibungen, wo es angemessen ist. Nutzen Sie Etsys „Nachricht an Käufer"-Funktion, um Kunden zu danken und die über Ihre E-Mail-Liste verfügbare Bonusressource zu erwähnen. Jeder dieser Berührungspunkte konvertiert einen kleinen Prozentsatz der Etsy-Käufer in direkte Abonnenten und baut so schrittweise eine Kundenbasis auf, die Sie unabhängig von Etsys Plattform erreichen können.`,
     },
     {
@@ -137,18 +137,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-druckvorlagen-marketing', anchorText: `Social-Media-Marketing für Druckvorlagen-Verkäufer` },
-    { pageType: 'guide', slug: 'pinterest-marketing-arbeitsblaetter', anchorText: 'Pinterest-Marketing für Arbeitsblatt-Geschäfte' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'So skalieren Sie Ihr Druckvorlagen-Geschäft' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Eine Druckvorlagen-Produktlinie erstellen' },
-    { pageType: 'guide', slug: 'saisonales-marketing-druckvorlagen', anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `social-media-druckvorlagen-marketing`, anchorText: `Social-Media-Marketing für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `pinterest-marketing-arbeitsblaetter`, anchorText: `Pinterest-Marketing für Arbeitsblatt-Geschäfte` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `So skalieren Sie Ihr Druckvorlagen-Geschäft` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Eine Druckvorlagen-Produktlinie erstellen` },
+    { pageType: 'guide', slug: `saisonales-marketing-druckvorlagen`, anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischen-Auswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-automatisieren', anchorText: 'Ihr Druckvorlagen-Geschäft automatisieren' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lernmaterialien' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-automatisieren`, anchorText: `Ihr Druckvorlagen-Geschäft automatisieren` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lernmaterialien` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
   ],
 
   toolsRecommended: [
@@ -164,34 +164,34 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Immergrüne Mathe-Inhalte, perfekt für automatisierte saisonale E-Mail-Sequenzen. Erstellen Sie altersgruppenspezifische Additionspakete, die auf Schulanfangs-, Halbjahres- und Sommerlernen-Kampagnenpläne abgestimmt sind.`,
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Thematische Zuordnungsaktivitäten, die Katalogvielfalt in E-Mail-Präsentationen demonstrieren. Stellen Sie verschiedene Zuordnungsthemen in Rundmail-E-Mails vor, um die Breite Ihrer Produktlinie hervorzuheben.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: `/samples/german/wordsearch/Worter suchen 1.webp`,
       alt: `Professionelles Wortsuchrätsel-Arbeitsblatt zur Demonstration der Lead-Magnet-Qualität für E-Mail-Marketing-Kampagnen`,
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuchrätsel-Arbeitsblatt ideal für E-Mail-Lead-Magnete, die Druckvorlagen-Käufer anziehen`,
         caption: `Wortsuchrätsel sind überzeugende Lead-Magnete, die Ihre Zielkäufer-Zielgruppe anziehen`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Ausmalseite zeigt visuell ansprechendes Produkt für E-Mail-Kampagnen-Werbung`,
         caption: `Visuell beeindruckende Produkte erzielen höhere Klickraten in E-Mail-Kampagnen`,
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: `/samples/german/addition/Additionsspa 1.webp`,
         alt: `Additions-Arbeitsblatt demonstriert immergrüne Inhalte für automatisierte E-Mail-Sequenzen`,
         caption: `Immergrüne Mathe-Inhalte treiben automatisierte saisonale E-Mail-Kampagnen das ganze Jahr über an`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — thematisches Lernbild', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Nashornvogel — thematisches Lernbild', caption: 'Nashornvogel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Strauß — thematisches Lernbild', caption: 'Strauß' },
+    { src: `/image-library/birds/eagle.webp`, alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — thematisches Lernbild`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Nashornvogel — thematisches Lernbild`, caption: 'Nashornvogel' },
+    { src: `/image-library/birds/macaw.webp`, alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Strauß — thematisches Lernbild`, caption: 'Strauß' },
   ],
 };
 

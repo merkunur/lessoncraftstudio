@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'definir preços imprimíveis Etsy',
+    primaryKeyword: `definir preços imprimíveis Etsy`,
     secondaryKeywords: [
-      'como definir preços de fichas imprimíveis no Etsy',
-      'estratégia de preços imprimíveis Etsy',
-      'preços de downloads digitais para vendedores Etsy',
-      'preços de pacotes de fichas Etsy',
+      `como definir preços de fichas imprimíveis no Etsy`,
+      `estratégia de preços imprimíveis Etsy`,
+      `preços de downloads digitais para vendedores Etsy`,
+      `preços de pacotes de fichas Etsy`,
     ],
     lsiKeywords: [
       `cálculo de comissões Etsy produtos digitais análise de receitas líquidas`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `testes de preços Etsy Stats otimização de taxa de conversão`,
       `preços internacionais moedas Etsy downloads digitais A4 Carta`,
     ],
-    titleTag: 'Definir preços imprimíveis Etsy — Guia preços',
+    titleTag: `Definir preços imprimíveis Etsy — Guia preços`,
     metaDescription: `Defina preços dos seus imprimíveis Etsy com cálculo de comissões, preços em três níveis, estratégias de pacotes e ajustes sazonais. Guia para vendedores.`,
   },
 
   hero: {
-    title: 'Como definir preços dos seus imprimíveis Etsy',
+    title: `Como definir preços dos seus imprimíveis Etsy`,
     tagline: `Um guia completo de estratégia de preços para vendedores de fichas imprimíveis no Etsy — incluindo investigação de concorrentes, cálculo de comissões do Etsy e receitas líquidas, preços base de referência por tipo de produto e número de páginas, estruturas de preços em três níveis que aumentam o valor médio de encomenda, preços de pacotes multicategoria e por nível escolar, uso estratégico de promoções e cupões do Etsy, ajustes de preços internacionais para compradores globais, e metodologia de testes de preços usando dados de conversão do Etsy Stats`,
     description: `Os preços são a decisão de maior impacto no seu negócio de fichas imprimíveis no Etsy. Definir preços demasiado baixos e as comissões do Etsy consomem as suas margens. Definir preços demasiado altos sem comunicar valor e os compradores passam à frente. Este guia fornece-lhe a estrutura de preços completa — desde calcular as suas receitas líquidas reais após todas as comissões do Etsy, até construir uma estrutura de preços em três níveis que aumenta naturalmente o valor médio de encomenda, até definir preços de pacotes multicategoria que justificam preços premium. Quer esteja a publicar a sua primeira ficha ou a otimizar preços num catálogo estabelecido, terá uma estratégia de preços baseada em dados no final deste guia.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Investigue os preços da concorrência no Etsy',
+      heading: `Investigue os preços da concorrência no Etsy`,
       content: `A investigação sistemática da concorrência é a base de uma estratégia de preços sólida. A navegação aleatória dá-lhe impressões; a investigação estruturada dá-lhe dados sobre os quais pode agir.\n\nPesquise no Etsy o seu tipo de produto principal — «fichas de adição imprimíveis», «caça-palavras puzzles crianças», «páginas para colorir educativas» — e registe o seguinte para os primeiros 20 resultados: preço, número de páginas, se inclui grelha de respostas, se inclui múltiplos tamanhos de página (Carta e A4), número de avaliações, e a contagem total de avaliações da loja do vendedor. Estes dados revelam o panorama de preços da sua categoria específica.\n\nOrganize a sua investigação por formato de produto. As fichas individuais ou pacotes muito pequenos (1 a 5 páginas) agrupam-se tipicamente entre $1,49 e $2,99. Os pacotes padrão (5 a 15 páginas) agrupam-se entre $2,99 e $5,99. Os pacotes por categoria (15 a 40 páginas) vão de $5,99 a $12,99. Os mega pacotes e coleções completas (40 a 100+ páginas) vão de $12,99 a $29,99. Estes intervalos variam por categoria — os livros de puzzles e coleções de sudoku geralmente têm preços mais altos do que as fichas básicas de exercícios de matemática devido ao valor de entretenimento percebido.\n\nPreste atenção a quais pontos de preço se correlacionam com contagens elevadas de avaliações. Um anúncio com 500 avaliações a $4,99 diz-lhe algo diferente de um anúncio com 500 avaliações a $12,99. O primeiro é um produto de alto volume de tráfego. O segundo é um produto de conversão de alto valor. Ambas são estratégias válidas, mas servem funções diferentes numa loja.\n\nProcure lacunas de preço — pontos de preço onde poucos concorrentes publicam produtos. Se o mercado se concentra fortemente entre $2,99 e $3,99 para pacotes individuais e depois salta para $14,99 para pacotes grandes, o intervalo de $6,99 a $9,99 representa uma oportunidade para produtos de nível médio que oferecem mais valor do que um pacote básico sem o compromisso de um mega pacote.\n\nNão copie os preços da concorrência cegamente. Muitos concorrentes estão a definir preços demasiado baixos porque cometeram o mesmo erro que está a tentar evitar. Use os dados da concorrência para compreender o panorama do mercado, depois defina preços baseando-se no seu valor e cálculos de margem.`,
     },
     {
@@ -43,7 +43,7 @@ const content: GuideContent = {
       content: `Os diferentes tipos de fichas têm diferente valor percebido, e o número de páginas é a âncora principal que os compradores usam para avaliar se um preço é razoável.\n\nFichas de matemática (adição, subtração, puzzles de código, comparação, grelhas de puzzles, exercícios numéricos): os compradores esperam 5 a 10 páginas por $2,99 a $4,99. Cada página contém uma atividade completa com ilustrações temáticas. As grelhas de respostas acrescentam valor percebido sem acrescentar tempo de produção significativo. Os produtos com problemas baseados em imagens (usando ilustrações temáticas) têm preços mais altos do que os exercícios numéricos simples porque parecem mais profissionais nas fotografias do anúncio e são mais apelativos para as crianças.\n\nCaça-palavras e palavras cruzadas: os compradores esperam 8 a 15 puzzles por $3,99 a $5,99. Os produtos de puzzles têm maior valor de entretenimento percebido do que as fichas de formato de exercícios, o que sustenta preços ligeiramente mais altos. As versões multilingues justificam preços premium — um «Pacote de caça-palavras em português» tem o mesmo preço que uma versão em inglês mas enfrenta muito menos concorrência.\n\nPáginas para colorir: os compradores esperam 10 a 20 páginas por $2,99 a $4,99. As páginas para colorir enfrentam concorrência intensa porque qualquer ferramenta de ilustração pode criá-las. A diferenciação através de temas educativos (animais com factos, cenas para construir vocabulário) justifica preços premium em relação a páginas para colorir genéricas.\n\nAtividades de associação e classificação (fichas de correspondência, preposições, grande ou pequeno, mais ou menos): os compradores esperam 8 a 12 páginas por $2,99 a $4,99. Os produtos de aprendizagem precoce dirigidos ao pré-escolar e ao primeiro ciclo podem ter preços ligeiramente mais altos porque os pais que compram para crianças muito pequenas são menos sensíveis ao preço e mais focados na qualidade.\n\nSudoku e puzzles de lógica: os compradores esperam 15 a 30 puzzles por $3,99 a $6,99. O nível de dificuldade afeta significativamente os preços — uma coleção de sudoku de dificuldade mista (fácil a difícil com estrutura progressiva) tem um preço mais alto do que um pacote de dificuldade única porque oferece maior vida útil de uso.\n\nAtividades de procura e descoberta (procurar e contar, identificar letras, encontrar as diferenças): os compradores esperam 8 a 15 páginas por $3,99 a $5,99. Estes produtos têm uma vantagem de preços porque a sua complexidade visual sinaliza um elevado esforço de produção, mesmo quando os geradores os tornam rápidos de criar.\n\nInclua sempre ambos os tamanhos de página Carta e A4 em cada produto. Isto não custa nada adicional já que todos os geradores suportam ambos os formatos, mas praticamente elimina as avaliações negativas de compradores internacionais que não conseguem imprimir páginas de tamanho Carta. Mais importante, permite-lhe afirmar honestamente «inclui formatos Carta EUA e A4» no seu anúncio, o que acrescenta valor percebido.`,
     },
     {
-      heading: 'Construa uma estrutura de preços em três níveis',
+      heading: `Construa uma estrutura de preços em três níveis`,
       content: `Uma estrutura de preços em três níveis é a tática de preços mais eficaz para vendedores de imprimíveis no Etsy. Em vez de definir preços de cada produto independentemente, cria três níveis de preço deliberados que servem diferentes tipos de compradores e orientam as decisões de compra.\n\nNível de entrada ($2,99 a $4,99): pacotes de fichas individuais e pequenos pacotes temáticos. Estes produtos servem dois propósitos: atraem novos compradores com uma compra de baixo compromisso, e posicionam-se para termos de pesquisa específicos de cauda longa que trazem tráfego à sua loja. Exemplo: «Fichas de adição de dinossauros — 10 páginas com grelha de respostas» a $3,99. Os produtos de nível de entrada são os seus geradores de tráfego. Trazem compradores à sua loja onde descobrem as suas ofertas de nível médio e premium.\n\nNível médio ($6,99 a $12,99): pacotes por categoria e pacotes multi-tema. Estes produtos capturam compradores que querem cobertura abrangente de uma única disciplina ou tema. Exemplo: «Pack completo de adição e subtração — 40 páginas, 6 temas, com grelhas de respostas» a $9,99. Os produtos de nível médio tipicamente geram as maiores receitas totais porque equilibram preços atrativos com margens significativas por venda. Um comprador que entrou por um anúncio de $3,99 e vê um pacote de $9,99 que inclui o produto que já estava a considerar mais 30 páginas adicionais frequentemente faz o upgrade.\n\nNível premium ($14,99 a $29,99): pacotes multicategoria, packs completos por nível escolar e mega coleções. Estes produtos dirigem-se a compradores com alta intenção e disposição para pagar por soluções abrangentes. Exemplo: «Pacote completo de aprendizagem para o primeiro ano — Matemática, literacia, puzzles e atividades — 100+ páginas» a $22,99. Os produtos premium têm a maior margem por venda e a melhor proporção de comissões.\n\nA proporção de preços entre níveis é importante. O nível médio deve ser 2 a 3 vezes o preço do nível de entrada enquanto oferece 3 a 5 vezes o conteúdo. O nível premium deve ser 2 a 3 vezes o nível médio enquanto oferece cobertura abrangente por categoria ou nível escolar. Esta proporção cria uma proposta de valor óbvia em cada passo: o comprador obtém desproporcionadamente mais conteúdo por dólar à medida que sobe de nível.\n\nCada anúncio do seu nível de entrada deve referenciar os seus produtos de nível médio na descrição. «Gosta destas fichas de adição de dinossauros? Obtenha o pacote completo de matemática com 6 temas e 40 páginas.» Cada anúncio de nível médio deve referenciar os seus pacotes premium. Esta ligação interna orienta os compradores a subir a sua escada de preços sem necessitar de gastos com publicidade.\n\nA estrutura em três níveis também o protege da concorrência de preços. Quando um concorrente baixa o preço do seu produto de entrada de $3,99 com um anúncio de $2,49, as suas receitas totais são minimamente afetadas porque o seu nível de entrada é um gerador de tráfego, não a sua fonte principal de receitas. As suas margens estão nos níveis médio e premium onde a guerra de preços é muito menos comum.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `O Etsy fornece ferramentas integradas para executar promoções e distribuir cupões. Usadas estrategicamente, estas ferramentas aumentam as taxas de conversão e as compras recorrentes. Usadas descuidadamente, erodem as suas margens e ensinam os compradores a esperar por descontos.\n\nPromoções gerais de loja (ferramenta de promoções e cupões do Etsy): o Etsy permite-lhe aplicar descontos percentuais a toda a loja que se apresentam como preços riscados nos seus anúncios. O formato de preço riscado é poderoso — os compradores veem o preço original junto ao preço promocional, criando uma perceção de valor imediata. Execute promoções gerais durante 3 a 4 janelas estratégicas por ano: época de regresso às aulas (julho a agosto), Black Friday e Cyber Monday (novembro), Ano Novo (janeiro) e uma promoção adicional programada segundo os dados da sua loja (quando a sua taxa de conversão historicamente desce).\n\nMantenha os descontos de promoções entre 15 e 25 por cento. Descontos abaixo de 15 por cento não parecem suficientemente significativos para impulsionar a ação. Descontos acima de 25 por cento comprometem a sua credibilidade de preços e cortam demasiado nas margens. Uma promoção de 20 por cento num pacote de $9,99 reduz o preço para $7,99 — ainda acima do seu mínimo e apelativo para compradores indecisos.\n\nCupões de agradecimento: o Etsy permite-lhe enviar automaticamente cupões aos compradores após a sua compra. Defina um cupão de agradecimento de 15 por cento com validade de 30 dias. Isto converte compradores únicos em clientes recorrentes sem exigir qualquer esforço manual. O cupão dirige-se a compradores que já confiam nos seus produtos — a audiência de maior conversão para qualquer promoção.\n\nCupões de carrinho abandonado: o Etsy pode enviar cupões automáticos a compradores que adicionaram o seu anúncio aos favoritos mas não compraram. Defina um cupão de carrinho abandonado de 10 a 15 por cento. Estes dirigem-se a compradores que já expressaram interesse e podem precisar de um pequeno incentivo para completar a sua compra.\n\nEstabeleça um preço mínimo para cada nível de produto — o preço mínimo abaixo do qual nunca fará descontos, mesmo durante promoções. Para produtos de nível de entrada, o mínimo não deve ser inferior a $2,49 (abaixo do qual as comissões do Etsy consomem uma percentagem insustentável). Para produtos de nível médio, o mínimo deve manter pelo menos 75 por cento de proporção de receitas líquidas após comissões. Para produtos premium, o mínimo não deve ser inferior a 70 por cento do preço regular.\n\nNunca execute promoções continuamente. As promoções permanentes ensinam os compradores a ignorar os seus preços regulares por completo e a esperar por descontos «reais». Limite as promoções a janelas específicas do calendário e termine-as conforme programado. A escassez de descontos por época é o que os torna eficazes.`,
     },
     {
-      heading: 'Ajuste os preços para compradores internacionais',
+      heading: `Ajuste os preços para compradores internacionais`,
       content: `O Etsy serve uma base de compradores global, e a sua estratégia de preços deve ter em conta os padrões de compra internacionais. Os produtos digitais como as fichas imprimíveis têm uma vantagem natural aqui: não há custos de envio, não há taxas alfandegárias e a entrega é instantânea independentemente da localização do comprador.\n\nO Etsy apresenta automaticamente os preços na moeda local de cada comprador de acordo com as definições da sua conta. Um produto publicado a $4,99 USD aparece como aproximadamente £3,95, €4,60 ou A$7,50 para compradores nesses mercados. Não precisa de criar anúncios separados para diferentes moedas — o Etsy trata da conversão. No entanto, deve estar ciente de como os seus preços se traduzem. Um preço que parece um arredondamento natural em USD ($4,99) pode traduzir-se num número estranho noutra moeda (€4,61), o que pode parecer menos polido.\n\nA inclusão de tamanho de página é a consideração de preços internacionais mais importante para fichas imprimíveis. Incluir formatos tanto em Carta EUA como em A4 em cada download é inegociável para vendas internacionais. Os compradores fora dos Estados Unidos, Canadá e México usam papel A4 de forma quase universal. Um anúncio que apenas inclua fichas em tamanho Carta exclui efetivamente os compradores internacionais — ou pior, resulta em avaliações negativas quando as fichas não imprimem corretamente em papel A4. Todos os geradores suportam ambos os formatos, portanto inclua ambos em cada produto sem custo de produção adicional.\n\nOs produtos sensíveis à língua (caça-palavras, palavras cruzadas, atividades de abecedário, jogos de adivinhar palavras) têm uma oportunidade de preços única em mercados internacionais. Um pacote de caça-palavras em português, uma coleção de palavras cruzadas em francês ou um conjunto de atividades de abecedário em alemão enfrentam muito menos concorrência do que o equivalente em inglês. A concorrência reduzida em mercados de línguas não inglesas sustenta preços iguais ou ligeiramente superiores aos dos seus produtos em inglês, apesar do volume de pesquisa potencialmente inferior. Um caça-palavras em inglês a $4,99 compete com milhares de anúncios semelhantes. Um caça-palavras em alemão a $4,99 compete com dezenas.\n\nNão crie anúncios separados para diferentes tamanhos de página nem venda Carta e A4 como produtos separados. Isto divide a sua contagem de avaliações e a autoridade do anúncio. Um único anúncio contendo ambos os formatos serve todos os mercados e concentra as suas avaliações num anúncio, o que melhora o posicionamento nas pesquisas a nível global.`,
     },
     {
-      heading: 'Teste e otimize preços ao longo do tempo',
+      heading: `Teste e otimize preços ao longo do tempo`,
       content: `A definição de preços não é uma decisão de estabelecer e esquecer. O Etsy fornece análises que lhe permitem medir o impacto das alterações de preço e otimizar ao longo do tempo.\n\nO Etsy Stats mostra-lhe visualizações, visitas, favoritos e encomendas de cada anúncio ao longo do tempo. A métrica-chave para a otimização de preços é a taxa de conversão: a percentagem de visitas que resultam numa compra. Um anúncio com 100 visitas e 3 vendas tem uma taxa de conversão de 3 por cento. Um anúncio com 100 visitas e 5 vendas tem uma taxa de conversão de 5 por cento.\n\nQuando subir preços: se um anúncio tem uma taxa de conversão acima de 4 a 5 por cento, pode ter um preço demasiado baixo. Os compradores estão a comprar a um ritmo que sugere que o preço não é uma barreira. Teste um aumento modesto ($1 a $2) e monitorize se a taxa de conversão desce, se mantém estável ou mal se altera. Se a conversão desce menos do que a percentagem de aumento de preço, o preço mais alto gera mais receitas totais. Por exemplo, se aumenta um preço de $4,99 para $5,99 (um aumento de 20 por cento) e a conversão desce de 5 por cento para 4,5 por cento (uma queda de 10 por cento), as suas receitas por 100 visitas passaram de $24,95 para $26,96 — uma melhoria líquida.\n\nQuando baixar preços: se um anúncio tem contagens de visualizações fortes mas uma taxa de conversão abaixo de 1,5 por cento após 30 ou mais dias, o preço pode ser uma barreira. Mas antes de baixar o preço, verifique primeiro as fotografias e a descrição do seu anúncio — uma conversão baixa com muitas visualizações indica mais frequentemente um problema de qualidade do anúncio do que um problema de preços. Se a qualidade do anúncio é forte e a conversão continua baixa, teste uma diminuição modesta e monitorize o impacto.\n\nAjustes sazonais de preços: suba preços em produtos sazonais durante a sua janela de pico quando a procura é mais alta. Os pacotes de regresso às aulas em agosto podem sustentar preços 15 a 20 por cento mais altos do que os mesmos produtos em fevereiro. Os produtos com temas festivos em novembro e dezembro sustentam preços premium porque a urgência do comprador reduz a sensibilidade ao preço.\n\nRegiste as alterações de preço numa folha de cálculo simples: data, produto, preço anterior, preço novo, taxa de conversão antes e depois. Estes dados acumulam-se num manual de preços específico para a sua loja e categorias de produtos. Após 6 a 12 meses, terá evidência empírica dos pontos de preço ótimos em cada categoria e nível.\n\nEvite fazer múltiplas alterações de preço simultaneamente. Se sobe preços em 10 anúncios ao mesmo tempo, não consegue isolar quais alterações ajudaram e quais prejudicaram. Altere preços em 1 a 2 anúncios de cada vez, dê a cada alteração 2 a 4 semanas de dados, e depois aplique os ajustes bem-sucedidos a produtos semelhantes.`,
     },
   ],
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Ancoragem de preços com pacotes premium',
+      heading: `Ancoragem de preços com pacotes premium`,
       content: `A ancoragem de preços é um princípio psicológico onde os compradores avaliam um preço em relação a outros preços visíveis. Na sua loja Etsy, o seu nível premium serve como âncora que faz os seus produtos de nível médio parecerem acessíveis em comparação.\n\nQuando um comprador vê o seu «Pacote completo de primeiro ano — 120 páginas» a $24,99 e depois vê o seu «Pack de fichas de matemática — 40 páginas» a $9,99, os $9,99 parecem um bom preço em relação à âncora de $24,99. Sem a âncora premium, o mesmo produto de $9,99 poderia parecer caro comparado com fichas individuais de $2,99 da concorrência.\n\nCrie pelo menos 2 a 3 produtos de nível premium na sua loja mesmo que se vendam com pouca frequência. O seu papel principal é ancorar a perceção de preço dos compradores e fazer com que os seus produtos de nível médio — onde realmente vem a maioria das suas receitas — pareçam bem valorizados. Coloque os produtos premium no topo das secções relevantes da loja para que os compradores encontrem a âncora antes de ver as opções de preço inferior.`,
     },
     {
@@ -128,7 +128,7 @@ const content: GuideContent = {
     },
     {
       question: `Posso vender produtos criados com o teste grátis com marca d'água no Etsy?`,
-      answer: `Não. O teste grátis com marca d'água é apenas para avaliação — pode testar todas as funcionalidades, criar produtos completos com qualquer gerador e avaliar a qualidade, mas os resultados com marca d'água não podem ser vendidos comercialmente. Para vender no Etsy ou em qualquer outro marketplace, precisa de uma licença comercial que remove a marca d'água e concede direitos completos de venda comercial. Não há royalties nem encargos por venda com a licença comercial — fica com 100 por cento das suas receitas de vendas no Etsy após as comissões do marketplace.`,
+      answer: `Não. O teste grátis com marca d`água é apenas para avaliação — pode testar todas as funcionalidades, criar produtos completos com qualquer gerador e avaliar a qualidade, mas os resultados com marca d`água não podem ser vendidos comercialmente. Para vender no Etsy ou em qualquer outro marketplace, precisa de uma licença comercial que remove a marca d'água e concede direitos completos de venda comercial. Não há royalties nem encargos por venda com a licença comercial — fica com 100 por cento das suas receitas de vendas no Etsy após as comissões do marketplace.`,
     },
     {
       question: `Qual é a política de reembolso para licenças comerciais?`,
@@ -139,32 +139,32 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'vender-fichas-matematica-etsy',
-      title: 'Vender fichas de matemática no Etsy',
+      title: `Vender fichas de matemática no Etsy`,
       description: `O guia completo de vendas no Etsy para fichas de matemática. Aplique as estratégias de preços deste guia à sua linha de produtos de fichas de matemática com otimização de anúncios e SEO específicos por categoria.`,
     },
     {
-      slug: 'vender-material-educativo-etsy',
-      title: 'Vender imprimíveis educativos no Etsy',
+      slug: `vender-material-educativo-etsy`,
+      title: `Vender imprimíveis educativos no Etsy`,
       description: `Estratégia de vendas multicategoria para o Etsy. Construa o catálogo de produtos diversificado que sustenta a estrutura de preços em três níveis abordada neste guia.`,
     },
     {
       slug: 'abrir-loja-etsy-imprimiveis',
-      title: 'Abrir uma loja Etsy de imprimíveis de raiz',
+      title: `Abrir uma loja Etsy de imprimíveis de raiz`,
       description: `Guia completo de configuração de loja se está a lançar uma nova loja Etsy de imprimíveis. Abrange a criação da conta, políticas de loja e estratégia de anúncios iniciais juntamente com o seu plano de preços.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: 'Como vender caça-palavras no Etsy' },
-    { pageType: 'guide', slug: 'vender-material-educativo-etsy', anchorText: 'Como vender imprimíveis educativos no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis de raiz' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: 'Como criar páginas para colorir Etsy que vendem' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: `Como vender caça-palavras no Etsy` },
+    { pageType: 'guide', slug: `vender-material-educativo-etsy`, anchorText: `Como vender imprimíveis educativos no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis de raiz` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: `Como criar páginas para colorir Etsy que vendem` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de fichas de adição — Todos os detalhes' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de caça-palavras — Todos os detalhes' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimente o gerador de fichas de adição' },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: `Gerador de fichas de adição — Todos os detalhes` },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de caça-palavras — Todos os detalhes` },
+    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: `Experimente o gerador de fichas de adição` },
   ],
 
   toolsRecommended: [
@@ -185,28 +185,28 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `A demografia de compradores mais ampla requer uma psicologia de preços diferente. As páginas para colorir competem por apelo visual em vez de profundidade educativa, fazendo da qualidade do tema e do número de páginas os principais sinais de valor para a justificação do preço.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha imprimível educativa para demonstração de estratégia de preços no Etsy' },
+    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha imprimível educativa para demonstração de estratégia de preços no Etsy` },
     samples: [
-      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: 'Ficha de adição temática de animais mostrando produto de preços de nível de entrada para Etsy', caption: 'Ficha de adição com tema de animais — um produto típico de nível de entrada com preço de $3,99 por um pacote de 10 páginas' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha de caça-palavras demonstrando preços premium para produtos específicos de língua', caption: 'Caça-palavras — as versões noutras línguas têm preços premium com menos concorrência em mercados não ingleses' },
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: 'Ficha de puzzle de sudoku mostrando estratégia de preços escalonados por dificuldade', caption: 'Puzzle de sudoku — os níveis de dificuldade sustentam preços progressivos dentro de uma única categoria de produto' },
+      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: `Ficha de adição temática de animais mostrando produto de preços de nível de entrada para Etsy`, caption: `Ficha de adição com tema de animais — um produto típico de nível de entrada com preço de $3,99 por um pacote de 10 páginas` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha de caça-palavras demonstrando preços premium para produtos específicos de língua`, caption: `Caça-palavras — as versões noutras línguas têm preços premium com menos concorrência em mercados não ingleses` },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: `Ficha de puzzle de sudoku mostrando estratégia de preços escalonados por dificuldade`, caption: `Puzzle de sudoku — os níveis de dificuldade sustentam preços progressivos dentro de uma única categoria de produto` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Como criar fichas imprimíveis para vender no Etsy — Compreender o valor do produto e os preços`,
   },
 
   themeImages: [
-    { src: '/image-library/vegetables/asparagus.webp', alt: 'Espargo — imagem educativa temática', caption: 'Espargo' },
-    { src: '/image-library/vegetables/beetroot.webp', alt: 'Beterraba — imagem educativa temática', caption: 'Beterraba' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Pimento — imagem educativa temática', caption: 'Pimento' },
-    { src: '/image-library/vegetables/broccoli.webp', alt: 'Brócolos — imagem educativa temática', caption: 'Brócolos' },
-    { src: '/image-library/vegetables/cabbage.webp', alt: 'Couve — imagem educativa temática', caption: 'Couve' },
+    { src: `/image-library/vegetables/asparagus.webp`, alt: `Espargo — imagem educativa temática`, caption: 'Espargo' },
+    { src: `/image-library/vegetables/beetroot.webp`, alt: `Beterraba — imagem educativa temática`, caption: 'Beterraba' },
+    { src: `/image-library/vegetables/bell%20pepper.webp`, alt: `Pimento — imagem educativa temática`, caption: 'Pimento' },
+    { src: `/image-library/vegetables/broccoli.webp`, alt: `Brócolos — imagem educativa temática`, caption: 'Brócolos' },
+    { src: `/image-library/vegetables/cabbage.webp`, alt: `Couve — imagem educativa temática`, caption: 'Couve' },
   ],
 };
 

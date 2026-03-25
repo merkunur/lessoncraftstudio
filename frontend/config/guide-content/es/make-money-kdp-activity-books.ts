@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ganar dinero libros actividades KDP',
+    primaryKeyword: `ganar dinero libros actividades KDP`,
     secondaryKeywords: [
-      'cómo ganar dinero con libros de actividades KDP',
-      'estrategias de ingresos libros de actividades KDP',
+      `cómo ganar dinero con libros de actividades KDP`,
+      `estrategias de ingresos libros de actividades KDP`,
       `optimización de ingresos libros de actividades Amazon KDP`,
-      'publicación rentable de libros de actividades KDP',
+      `publicación rentable de libros de actividades KDP`,
     ],
     lsiKeywords: [
       `cálculo de regalías KDP coste de impresión estrategia de precios`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Cómo ganar dinero con libros de actividades KDP',
+    title: `Cómo ganar dinero con libros de actividades KDP`,
     tagline: `Una guía completa de ingresos para editores de libros de actividades en Amazon KDP — incluyendo cálculo de regalías y puntos óptimos de precio, economía de catálogo que acumula ingresos mensuales, estrategias de publicación estacional para picos de ingresos en festividades, optimización de palabras clave de Amazon para máximas ventas, escalado de producción en múltiples tipos de libros de actividades, seguimiento del rendimiento para reforzar los ganadores, y expansión multiplataforma a Etsy y Gumroad para fuentes de ingresos adicionales`,
     description: `Publicar libros de actividades en Amazon KDP es sencillo. Generar ingresos consistentes y crecientes requiere una estrategia de negocio deliberada. Esta guía no trata sobre cómo crear libros de actividades — nuestras otras guías KDP cubren libros de actividades de matemáticas, libros de puzles, libros de sopas de letras y formateo en detalle. Esta guía trata sobre el dinero: cómo funcionan realmente las regalías KDP para libros de actividades, cómo fijar precios para máximo beneficio en lugar de máximas ventas, por qué un catálogo de 10 libros genera mucho más de 10 veces lo que genera un solo libro, y cómo construir un negocio editorial que genere ingresos mensuales acumulativos en lugar de ventas puntuales.`,
   },
@@ -138,13 +138,13 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'libros-actividades-matematicas-kdp',
+      slug: `libros-actividades-matematicas-kdp`,
       title: `Crear libros de actividades de matemáticas para Amazon KDP`,
       description: `La guía completa para crear libros de actividades de matemáticas para KDP. Cubre la creación de contenido, formateo y fundamentos de KDP que complementan las estrategias de ingresos de esta guía.`,
     },
     {
-      slug: 'mejores-nichos-kdp-libros-actividades',
-      title: 'Mejores nichos de libros de actividades KDP',
+      slug: `mejores-nichos-kdp-libros-actividades`,
+      title: `Mejores nichos de libros de actividades KDP`,
       description: `Descubre qué nichos de libros de actividades tienen la mejor relación demanda-competencia en KDP. Lectura esencial para decidir dónde enfocar tu estrategia de catálogo.`,
     },
     {
@@ -155,23 +155,23 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'libros-actividades-matematicas-kdp', anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
-    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: 'Cómo publicar libros de puzles en Amazon KDP' },
+    { pageType: 'guide', slug: `libros-actividades-matematicas-kdp`, anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
+    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: `Cómo publicar libros de puzles en Amazon KDP` },
     { pageType: 'guide', slug: 'libros-sopas-letras-kdp', anchorText: `Cómo crear libros de sopas de letras para Amazon KDP` },
-    { pageType: 'guide', slug: 'formato-kdp-fichas', anchorText: 'Guía de formateo KDP para libros de fichas' },
-    { pageType: 'guide', slug: 'mejores-nichos-kdp-libros-actividades', anchorText: 'Mejores nichos de libros de actividades KDP' },
-    { pageType: 'guide', slug: 'libros-sudoku-kdp', anchorText: 'Cómo crear libros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'Amazon KDP o Etsy: Dónde vender imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: 'Cómo crear paquetes de fichas Etsy' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'formato-kdp-fichas', anchorText: `Guía de formateo KDP para libros de fichas` },
+    { pageType: 'guide', slug: `mejores-nichos-kdp-libros-actividades`, anchorText: `Mejores nichos de libros de actividades KDP` },
+    { pageType: 'guide', slug: 'libros-sudoku-kdp', anchorText: `Cómo crear libros de sudoku para Amazon KDP` },
+    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: `Amazon KDP o Etsy: Dónde vender imprimibles` },
+    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: `Cómo crear paquetes de fichas Etsy` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de sopas de letras — Todos los detalles` },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Crea contenido dirigido de cuadernos de matemáticas para KDP — fichas de sumas, restas, multiplicación y división segmentadas por nivel de grado. Los cuadernos de matemáticas son una categoría KDP de alta demanda con ventas fuertes durante todo el año.`,
     },
     {
@@ -186,7 +186,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Crea contenido de libros para colorear para una de las categorías de mayor volumen en KDP. Los libros para colorear infantiles y los libros para colorear de relajación para adultos son vendedores fuertes y consistentes durante todo el año.`,
     },
     {
@@ -197,22 +197,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: `Ficha de puzle de sudoku demostrando contenido de libro de actividades KDP para generación de ingresos` },
+    heroImage: { src: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`, alt: `Ficha de puzle de sudoku demostrando contenido de libro de actividades KDP para generación de ingresos` },
     samples: [
-      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: `Puzle de sudoku formateado para páginas interiores de libro de actividades KDP`, caption: 'Puzles de sudoku — una categoría de libros de actividades consistentemente rentable en Amazon KDP con compradores fieles recurrentes' },
-      { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp`, alt: 'Ficha de matemáticas formateada para páginas interiores de cuaderno KDP', caption: 'Cuadernos de matemáticas — categoría KDP de alta demanda con oportunidades naturales de expansión de catálogo por nivel de grado' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras para diversificación de catálogo de libros de puzles KDP`, caption: 'Libros de sopas de letras — la categoría más grande de libros de puzles en Amazon con fuerte potencial de ingresos por series multivolumen' },
+      { src: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`, alt: `Puzle de sudoku formateado para páginas interiores de libro de actividades KDP`, caption: `Puzles de sudoku — una categoría de libros de actividades consistentemente rentable en Amazon KDP con compradores fieles recurrentes` },
+      { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp`, alt: `Ficha de matemáticas formateada para páginas interiores de cuaderno KDP`, caption: `Cuadernos de matemáticas — categoría KDP de alta demanda con oportunidades naturales de expansión de catálogo por nivel de grado` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras para diversificación de catálogo de libros de puzles KDP`, caption: `Libros de sopas de letras — la categoría más grande de libros de puzles en Amazon con fuerte potencial de ingresos por series multivolumen` },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: `Cómo crear libros de actividades de sudoku para Amazon KDP — Tutorial para generar ingresos`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Tejón — imagen educativa temática', caption: 'Tejón' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagen educativa temática', caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Tejón — imagen educativa temática`, caption: 'Tejón' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagen educativa temática`, caption: 'Castor' },
   ],
 };
 

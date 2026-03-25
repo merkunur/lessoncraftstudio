@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'KDP aktivitetsbok nischer',
     secondaryKeywords: [
-      'bästa KDP aktivitetsbok nischer för publicerare',
-      'lönsamma aktivitetsbok kategorier Amazon KDP',
-      'KDP nischforskning aktivitetsböcker',
-      'underbetjänade aktivitetsbok nischer KDP',
+      `bästa KDP aktivitetsbok nischer för publicerare`,
+      `lönsamma aktivitetsbok kategorier Amazon KDP`,
+      `KDP nischforskning aktivitetsböcker`,
+      `underbetjänade aktivitetsbok nischer KDP`,
     ],
     lsiKeywords: [
       `Amazon BSR bästsäljarrang konkurrensanalys efterfrågan`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `nischvalidering testtitel 90-dagars försäljning katalogstrategi`,
       `tvärkategori hybrid tematisk aktivitetsbok undernisch`,
     ],
-    titleTag: 'KDP aktivitetsbok nischer — Bästa valen guide',
+    titleTag: `KDP aktivitetsbok nischer — Bästa valen guide`,
     metaDescription: `Upptäck de bästa KDP aktivitetsbok-nischerna för publicerare. Täcker efterfrågeanalys, konkurrensutvärdering, underbetjänade kategorier och säsongsbetonad timing.`,
   },
 
   hero: {
-    title: 'Bästa KDP aktivitetsbok-nischer för publicerare',
+    title: `Bästa KDP aktivitetsbok-nischer för publicerare`,
     tagline: `En nischforskningsguide för Amazon KDP aktivitetsbok-publicerare — täcker efterfrågan-till-konkurrens-analys för varje stor aktivitetsbok-kategori, målgruppssegmenteringsstrategier som multiplicerar nischmöjligheter, Amazon BSR och recensionsdata-tolkning för nischvalidering, underbetjänade undernischer med stark köparefterfrågan och tunn konkurrens, säsongsbetonade kontra vintergröna nischtiming för katalogplanering, tvärkategori hybridnischer som når flera köparpooler, och flernischportföljstrategier som balanserar djup med diversifiering`,
     description: `Att välja rätt nisch avgör om dina KDP aktivitetsböcker tjänar konsekvent intäkt eller försvinner in i Amazons katalog. Denna guide handlar inte om hur man skapar aktivitetsböcker — våra andra KDP-guider täcker matteaktivitetsböcker, pusselböcker, ordsökningsböcker, formatering och intäktsstrategi i detalj. Denna guide fokuserar på beslutet som kommer före allt det: vilka aktivitetsbok-kategorier bör du rikta dig mot, hur utvärderar du om en nisch har tillräcklig efterfrågan, och hur identifierar du de specifika undernischerna där en ny publicerare kan konkurrera?`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Förstå hur nischval driver KDP-intäkt',
+      heading: `Förstå hur nischval driver KDP-intäkt`,
       content: `Nischval är det enskilt mest hävstångsstarka beslutet i ditt KDP-publiceringsföretag eftersom det bestämmer taket på din intäkt innan du skapar en enda sida innehåll. En perfekt formaterad, vackert omslagen aktivitetsbok i en nisch utan köparefterfrågan tjänar ingenting. En kompetent men oanmärklig bok i en nisch med stark efterfrågan och tunn konkurrens tjänar stadigt i åratal.\n\nAmazon är en sökdriven marknadsplats. Ungefär 70 procent av aktivitetsbok-köp börjar med en sökfråga: "mattearbetsbok årskurs 2," "ordsökning för seniorer storskrift," "barnmålarbok djur." När en köpare skriver en fråga visar Amazon resultat rankade efter en kombination av relevans, försäljningshastighet, recensionskvalitet och annonsoptimering. Nyckeln är att varje sökfråga definierar en separat konkurrensarena. Din bok konkurrerar inte mot alla aktivitetsböcker på Amazon — den konkurrerar mot böckerna som visas för samma sökfrågor.\n\nDetta innebär att nischval direkt bestämmer din konkurrens. Att publicera en generisk "mattearbetsbok för barn" placerar dig i en massiv arena med tusentals etablerade titlar. Att publicera en "multiplikationsövningsbok årskurs 3" placerar dig i en mindre arena med färre konkurrenter, där en ny bok med ett starkt omslag kan nå sida ett inom månader.\n\nRelationen mellan efterfrågan, konkurrens och intäkt är inte linjär. Att fördubbla efterfrågan i en nisch fördubblar inte din intäkt om konkurrensen också fördubblas. Den mest lönsamma positionen är måttlig efterfrågan med låg konkurrens. Att hitta dessa optimala nischer är vad nischforskning handlar om.`,
     },
     {
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `KDP aktivitetsbok-marknaden delas i flera stora kategorier, var och en med distinkta egenskaper.\n\nMattearbetsböcker är den högsta efterfrågade utbildningskategorin på KDP. Köpare är primärt föräldrar som köper övningsmaterial, och efterfrågan segmenteras efter årskurs (förskola till årskurs 5) och operationstyp (addition, subtraktion, multiplikation, division, blandade). Konkurrensen är intensiv i den breda kategorin men tunnas avsevärt i specifika årskurs-plus-operation-kombinationer. Mattearbetsblad-generatorn och Additionsgeneratorn skapar innehåll för denna kategori.\n\nOrdsökning är den största pusselbokskategorin volymmässigt. Den betjänar både barn och vuxna, med ett betydande storskriftsegment för seniorer. Konkurrensen är hög för generiska titlar men måttlig för tematiska och målgruppsspecifika variationer.\n\nMålarböcker representerar en av de högsta volymkategorierna men också en av de mest mättade. Differentiering genom unikt tematiskt innehåll är avgörande. Målarbild-generatorn skapar tematiskt innehåll.\n\nSudoku tilltalar en dedikerad publik som köper frekvent. Barns bildsudoku är en mindre men växande nisch med mindre konkurrens. Sudoku-generatorn producerar bildbaserade pussel.\n\nHandskriftsövningsböcker betjänar föräldrar och säljare för förskola till årskurs 2. Korsordspussel, labyrinter och ritpromptar är mindre kategorier med lojala målgrupper och generellt lägre konkurrens.\n\nNyckeln är att ingen kategori är universellt "bra" eller "dålig." Var och en har lönsamma och olönsamma undernischer.`,
     },
     {
-      heading: 'Utvärdera målgruppssegment inom varje nisch',
+      heading: `Utvärdera målgruppssegment inom varje nisch`,
       content: `Varje aktivitetsbok-kategori kan underdelas efter målgrupp, och varje segment representerar en funktionellt separat nisch med egna sökfrågor, konkurrens och intäktspotential. Målgruppssegmentering är ett av de mest effektiva sätten att hitta underbetjänade nischer.\n\nBarnmarknaden segmenteras efter ålder och årskurs. Förskola (3–5 år) fokuserar på övning, grundläggande räkning, färgigenkänning och enkel matchning. Förskoleklass till årskurs 2 (5–8 år) täcker tidig läsning, grundläggande matteoperationer, handskrift och enkla pussel. Årskurs 3–5 (8–11 år) involverar mer komplex matte, avancerad ordsökning, korsord och logikpussel. Varje ålderssegment använder olika Amazon-söktermer.\n\nVuxenmarknaden segmenteras efter syfte. Underhållningssökare vill ha utmanande pussel. Stressavlastningsköpare vill ha lugnande aktiviteter. Kognitiv övning-köpare vill ha hjärnträningsinnehåll. Varje syftebaserat segment söker med olika nyckelord.\n\nSeniormarknaden är konsekvent underbetjänad relativt sin efterfrågan. Storskrift-aktivitetsböcker kommenderar premiumpriser (10 till 30 kr ovanför standardformat) och köparna har hög lojalitet.\n\nMultiplikationseffekten av målgruppssegmentering är kraftfull. En enda innehållstyp som ordsökning kan ge distinkta böcker för förskolebarn (bildordsökning), grundskolebarn (tematisk ordsökning), tonåringar (utmanande ordsökning), vuxna (tematiska samlingar) och seniorer (storskriftsformat). Fem målgruppsspecifika böcker når fem icke-överlappande Amazon-sökmarknader.`,
     },
     {
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Aktivitetsbok-nischer delas i två tidskategorier: vintergröna nischer med konsekvent helårsefterfrågan och säsongsbetonade nischer med koncentrerad efterfrågan under specifika perioder. En lönsam nischstrategi inkluderar båda.\n\nVintergröna nischer bildar din baslinjeintäkt. Mattearbetsböcker (alla årskurser), standard ordsökning, sudoku, handskriftsövning och otematiserade målarböcker säljer konsekvent med minimal fluktuation. En katalog med 10 vintergröna titlar som var och en tjänar 30 till 80 dollar per månad ger en pålitlig grund på 300 till 800 dollar.\n\nSäsongsbetonade nischer ger intäktstoppar. Julaktivitetsböcker toppar oktober till december. Halloweenaktivitetsböcker i september och oktober. Skolstartsarbetsböcker juli till september. Sommaraktivitetsböcker maj till augusti.\n\nTiming är kritisk. En julordssökningsbok publicerad i november är för sent — Amazon behöver 4 till 8 veckor att indexera. Publicera säsongstitlar minst 8 veckor före toppen. Julböcker bör vara live senast i början av september.\n\nDen strategiska balansen är ungefär 60 till 70 procent vintergröna titlar och 30 till 40 procent säsongsbetonade. Vintergröna titlar ger stabil månadsinkomst. Säsongstitlar ger koncentrerad intäkt.\n\nSäsongstitlar fungerar också som upptäcktskanaler för din vintergröna katalog. En köpare som hittar din julmattearbetsbok i november besöker din författarsida och upptäcker dina helårsarbetsböcker.`,
     },
     {
-      heading: 'Bygg en flernisch katalogstrategi',
+      heading: `Bygg en flernisch katalogstrategi`,
       content: `Frågan varje KDP-publicerare möter efter initial framgång är om man ska gå djupt i en nisch eller sprida sig. De mest motståndskraftiga publiceringsföretagen verkar inom 2 till 4 komplementära nischer.\n\nAtt gå djupt i en enda nisch innebär att publicera flera titlar som betjänar samma köparpool: en fullständig årskursserie i matte (årskurs 1 till 5), en flervolyms ordsökningssamling (volym 1 till 6). Ennischdjup maximerar katalogsammansättning men risken är marknadsberoende.\n\nAtt sprida över flera nischer minskar risk eftersom inget enskilt kategoriskifte kan eliminera din inkomst. Avvägningen är svagare korsmarknadsföring.\n\nTrenischportfölj-metoden balanserar dessa avvägningar. Välj 3 komplementära nischer där dina verktyg och kunskaper överförs effektivt. Till exempel: mattearbetsböcker (med Mattearbetsblad- och Additionsgeneratorerna), ordsökningspusselböcker (med Ordsökningsgeneratorn) och målarböcker (med Målarbild-generatorn). Bygg 5 till 8 titlar i varje nisch under 6 till 12 månader.\n\nKomplementval spelar roll. Välj nischer som delar målgruppsöverlappning men inte sököverlappning. Mattearbetsböcker och ordsökningsböcker betjänar båda föräldrar till skolbarn, så en köpare av ena kan upptäcka den andra genom din författarsida. Men de riktar sig mot helt olika Amazon-sökfrågor.\n\nAllteftersom din katalog mognar, låt prestandadata guida expansion. Om en nisch konsekvent överträffar de andra, investera mer tungt där. Flernischmetoden ger dig data att fatta dessa beslut.`,
     },
   ],
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `En enda boks BSR kan vara vilseledande — en titel kan ha stark rankning på grund av en nylig kampanj. Undersök alltid BSR över minst 5 till 10 konkurrerande böcker. Om flera visar BSR under 100 000 har nischen bred efterfrågan. Om bara en eller två böcker har starka rankningar medan resten är över 300 000 kan nischen ha begränsad efterfrågan koncentrerad kring några etablerade titlar. Mönstret över flera böcker berättar om nischen; en enskild boks rang berättar bara om den boken.`,
     },
     {
-      heading: 'Läs enstjärnerecensioner för att hitta nischgap',
+      heading: `Läs enstjärnerecensioner för att hitta nischgap`,
       content: `Negativa recensioner på konkurrerande aktivitetsböcker är en guldgruva för nischforskning. En- och tvåstjärnerecensioner berättar exakt vad köpare vill ha men inte får. Vanliga klagomål inkluderar: pussel för enkla eller svåra för angiven ålder, för få sidor, dålig tryckkvalitet, för repetitiva aktiviteter och saknade facit. Varje återkommande klagomål identifierar ett specifikt gap du kan fylla. Om fem konkurrerande storskrift-ordsökningsböcker för seniorer alla har recensioner som klagar på liten typstorlek finns en tydlig undernischmöjlighet.`,
     },
   ],
@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Exempel: Utvärdera barnmattearbetsboks-nischen',
+      heading: `Exempel: Utvärdera barnmattearbetsboks-nischen`,
       content: `En publicerare vill gå in på barnmattearbetsboksmarknaden och använder nischforskning. Sökning på "math workbook for kids" visar topp 10 med genomsnittligt 800+ recensioner och BSR under 20 000 — hög efterfrågan men brutal konkurrens. Specifisering till "multiplication workbook grade 3" visar annorlunda: topp 10 genomsnittligt 150 recensioner med BSR 30 000–120 000. Efterfrågan stark men konkurrens hanterbar. Ytterligare specificering till "multiplication and division practice grade 3" avslöjar ännu mindre konkurrens — bara 3 böcker i topp 10 har mer än 100 recensioner, och en har bara 12 recensioner men bibehåller BSR under 80 000, som bekräftar omötta efterfrågan. Publiceraren skapar en 70-sidors multiplikations- och divisionsarbetsbok för årskurs 3 med Mattearbetsblad-generatorn, prissätter till 8,99 dollar (royalty ungefär 3,52 dollar). Efter 90 dagar säljer boken 15 till 20 exemplar per månad, validerar nischen. Publiceraren expanderar med årskurs 2 och årskurs 4 versioner.`,
     },
     {
@@ -139,31 +139,31 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'matte-aktivitetsboecker-kdp',
-      title: 'Skapa matteaktivitetsböcker för Amazon KDP',
+      title: `Skapa matteaktivitetsböcker för Amazon KDP`,
       description: `Den kompletta skapandeguiden för KDP matteaktivitetsböcker. När du identifierat mattearbetsböcker som din målnisch täcker denna guide innehållsskapande, formatering och publicering steg för steg.`,
     },
     {
-      slug: 'tjaena-pengar-kdp-aktivitetsboecker',
-      title: 'Tjäna pengar med KDP aktivitetsböcker',
+      slug: `tjaena-pengar-kdp-aktivitetsboecker`,
+      title: `Tjäna pengar med KDP aktivitetsböcker`,
       description: `Intäkts- och prisstrategiguiden för KDP-publicerare. Täcker royaltymatematik, katalogekonomi och flerplattforms-expansion efter att du valt din nisch.`,
     },
     {
       slug: 'kdp-formatering-arbetsblad',
-      title: 'KDP formateringsguide för arbetsbladsböcker',
+      title: `KDP formateringsguide för arbetsbladsböcker`,
       description: `Den tekniska formateringsguiden. Täcker trimstorlekar, marginaler, utfall, upplösning och exportspecifikationer för aktivitetsboks-interiörer och omslag.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'guide', slug: 'matte-aktivitetsboecker-kdp', anchorText: `Hur du skapar matteaktivitetsböcker för Amazon KDP` },
-    { pageType: 'guide', slug: 'publicera-pusselboecker-kdp', anchorText: 'Hur du publicerar pusselböcker på Amazon KDP' },
-    { pageType: 'guide', slug: 'ordsoeksboecker-kdp', anchorText: 'Hur du skapar ordsökningsböcker för Amazon KDP' },
-    { pageType: 'guide', slug: 'tjaena-pengar-kdp-aktivitetsboecker', anchorText: 'Hur du tjänar pengar med KDP aktivitetsböcker' },
-    { pageType: 'guide', slug: 'kdp-formatering-arbetsblad', anchorText: 'KDP formateringsguide för arbetsbladsböcker' },
-    { pageType: 'guide', slug: 'sudoku-boecker-kdp', anchorText: 'Hur du skapar sudokuböcker för Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Var du säljer utskrifter' },
-    { pageType: 'guide', slug: 'skapa-maelarsidor', anchorText: 'Hur du skapar målarbilder från tematiska bilder' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: 'publicera-pusselboecker-kdp', anchorText: `Hur du publicerar pusselböcker på Amazon KDP` },
+    { pageType: 'guide', slug: 'ordsoeksboecker-kdp', anchorText: `Hur du skapar ordsökningsböcker för Amazon KDP` },
+    { pageType: 'guide', slug: `tjaena-pengar-kdp-aktivitetsboecker`, anchorText: `Hur du tjänar pengar med KDP aktivitetsböcker` },
+    { pageType: 'guide', slug: 'kdp-formatering-arbetsblad', anchorText: `KDP formateringsguide för arbetsbladsböcker` },
+    { pageType: 'guide', slug: 'sudoku-boecker-kdp', anchorText: `Hur du skapar sudokuböcker för Amazon KDP` },
+    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: `Amazon KDP vs Etsy: Var du säljer utskrifter` },
+    { pageType: 'guide', slug: 'skapa-maelarsidor', anchorText: `Hur du skapar målarbilder från tematiska bilder` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
     { pageType: 'app', slug: 'matematik-arbetsblad', anchorText: `Mattearbetsblad Generator — Fullständig information` },
   ],
@@ -176,7 +176,7 @@ const content: GuideContent = {
     },
     {
       appId: 'wordsearch',
-      title: 'Ordsökning Arbetsblad Generator',
+      title: `Ordsökning Arbetsblad Generator`,
       description: `Genererar tematiska ordsökningspussel-rutnät. Ordsökning är den största pusselbokskategorin och tematiska variationer representerar några av de mest tillgängliga undernischerna för nya publicerare.`,
     },
     {
@@ -191,28 +191,28 @@ const content: GuideContent = {
     },
     {
       appId: 'image-addition',
-      title: 'Additions Arbetsblad Generator',
+      title: `Additions Arbetsblad Generator`,
       description: `Producerar fokuserade enoperations-mattearbetsblad. Demonstrerar hur målgruppssegmentering efter årskurs skapar distinkta undernischer inom den bredare mattekategorin.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Ordsökningspussel som demonstrerar en bred KDP aktivitetsbok-nisch för publicerare' },
+    heroImage: { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Ordsökningspussel som demonstrerar en bred KDP aktivitetsbok-nisch för publicerare` },
     samples: [
-      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Ordsökningsinnehåll som representerar en av de största KDP aktivitetsbok-nischerna', caption: 'Ordsökningsböcker — en massiv KDP-nisch med tematiska variationer som minskar konkurrens' },
-      { src: `/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg`, alt: 'Mattearbetsblad som visar årskursnivå-målgruppssegmentering', caption: 'Mattearbetsböcker — målgruppssegmentering efter årskurs och operationstyp skapar dussintals distinkta undernischer' },
-      { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: `Sudokupussel som demonstrerar en dedikerad pusselboks-nisch`, caption: 'Sudoku — en dedikerad pusselnisch med lojala köpare och lägre konkurrens än ordsökning eller målarbok' },
+      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Ordsökningsinnehåll som representerar en av de största KDP aktivitetsbok-nischerna`, caption: `Ordsökningsböcker — en massiv KDP-nisch med tematiska variationer som minskar konkurrens` },
+      { src: `/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg`, alt: `Mattearbetsblad som visar årskursnivå-målgruppssegmentering`, caption: `Mattearbetsböcker — målgruppssegmentering efter årskurs och operationstyp skapar dussintals distinkta undernischer` },
+      { src: `/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg`, alt: `Sudokupussel som demonstrerar en dedikerad pusselboks-nisch`, caption: `Sudoku — en dedikerad pusselnisch med lojala köpare och lägre konkurrens än ordsökning eller målarbok` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Hur du skapar mattearbetsblad för KDP aktivitetsböcker — nischinnehåll skapandeguide`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — tematisk pedagogisk bild', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — tematisk pedagogisk bild', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — tematisk pedagogisk bild', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — tematisk pedagogisk bild', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — tematisk pedagogisk bild', caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — tematisk pedagogisk bild`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — tematisk pedagogisk bild`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — tematisk pedagogisk bild`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — tematisk pedagogisk bild`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — tematisk pedagogisk bild`, caption: 'Brachiosaurus' },
   ],
 };
 

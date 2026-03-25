@@ -6,15 +6,15 @@ const content: IdeaContent = {
     metaDescription: `Descubre ideas de imprimibles de espacio para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos del espacio exterior, estrategias STEM y consejos.`,
     primaryKeyword: 'ideas imprimibles de espacio',
     secondaryKeywords: [
-      'fichas temática espacial para vender',
-      'negocio imprimibles temática espacial',
-      'fichas actividades espacio para vendedores',
-      'vender imprimibles de espacio en Etsy',
+      `fichas temática espacial para vender`,
+      `negocio imprimibles temática espacial`,
+      `fichas actividades espacio para vendedores`,
+      `vender imprimibles de espacio en Etsy`,
     ],
     lsiKeywords: [
       'fichas educativas astronomía',
-      'actividades planetas y cohetes',
-      'imprimibles sistema solar para venta en línea',
+      `actividades planetas y cohetes`,
+      `imprimibles sistema solar para venta en línea`,
     ],
   },
   hero: {
@@ -40,7 +40,7 @@ Para maximizar tus ingresos con imprimibles de espacio, desarrolla productos en 
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Espaciales para Vender en Línea',
+      title: `Sopas de Letras Espaciales para Vender en Línea`,
       description: `Las sopas de letras con vocabulario del sistema solar atraen a vendedores que planifican unidades de ciencias y a padres que buscan entretenimiento educativo que canalice el entusiasmo de sus hijos por el espacio en el desarrollo de habilidades de lectoescritura. Crea puzzles con vocabulario específico del espacio como planeta, cohete, astronauta, órbita, galaxia, cometa, telescopio y satélite junto con términos más amplios de astronomía. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos espaciales para usuarios mayores. Las variaciones como búsquedas de nombres de planetas, vocabulario de exploración espacial y terminología de astronautas amplían tu catálogo para captar diferentes intereses de compradores dentro del nicho de educación en astronomía.`,
       appId: 'wordsearch',
     },
@@ -89,12 +89,12 @@ Para maximizar tus ingresos con imprimibles de espacio, desarrolla productos en 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Espacio en Etsy',
+      title: `Vender Imprimibles de Espacio en Etsy`,
       description: `Etsy recompensa el nicho espacial con una ventaja significativa de listados durante todo el año sobre los competidores estacionales, porque tus imprimibles de espacio generan impresiones diarias consistentes sin los valles de demanda que experimentan las tiendas dependientes de festividades entre ventanas de venta. Utiliza las trece etiquetas con variaciones que combinen subtemas espaciales, tipos de habilidad y grupos de edad: «fichas conteo espacio preescolar», «sopa de letras sistema solar jardín de infantes» y «páginas colorear cohetes niños pequeños» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas espacio». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad STEM» y «regalo amante de la ciencia» en tus títulos y descripciones. Las imágenes de listados que muestran fichas espaciales impresas junto a cohetes de juguete, decoraciones con temática de estrellas o kits de ciencia superan las vistas previas digitales planas y captan la mentalidad impulsada por la imaginación que trae a las familias amantes del espacio a Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades Espaciales en KDP',
+      title: `Publicar Libros de Actividades Espaciales en KDP`,
       description: `Amazon KDP destaca para los imprimibles de espacio porque los padres y compradores de regalos naturalmente añaden libros de actividades a sus carritos de Amazon junto a telescopios, juguetes espaciales, kits STEM y libros de ciencia para niños curiosos. Compila fichas individuales de espacio en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas del sistema solar y la exploración espacial. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades espacio para niños», «fichas sistema solar preescolar» y términos de subtemas como «libro colorear cohetes» o «actividades astronauta para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como regalos STEM, regalos para niños amantes de la ciencia o complementos para unidades de astronomía en línea. Los libros de actividades espaciales se benefician de la demanda durante todo el año con picos modestos durante la temporada de regreso a clases y el período de compras de regalos de invierno.`,
     },
     {
@@ -143,18 +143,18 @@ Para maximizar tus ingresos con imprimibles de espacio, desarrolla productos en 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ Para maximizar tus ingresos con imprimibles de espacio, desarrolla productos en 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -178,18 +178,18 @@ Para maximizar tus ingresos con imprimibles de espacio, desarrolla productos en 
     },
     {
       pageType: 'idea',
-      slug: 'dia-de-los-padres-ideas-imprimibles',
+      slug: `dia-de-los-padres-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles del Día de la Madre y del Padre`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — imagen educativa temática', caption: 'Asteroide' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronauta — imagen educativa temática', caption: 'Astronauta' },
-    { src: '/image-library/space/comet.webp', alt: 'Cometa — imagen educativa temática', caption: 'Cometa' },
-    { src: '/image-library/space/earth.webp', alt: 'Tierra — imagen educativa temática', caption: 'Tierra' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Galaxia — imagen educativa temática', caption: 'Galaxia' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Júpiter — imagen educativa temática', caption: 'Júpiter' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroide — imagen educativa temática`, caption: 'Asteroide' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronauta — imagen educativa temática`, caption: 'Astronauta' },
+    { src: `/image-library/space/comet.webp`, alt: `Cometa — imagen educativa temática`, caption: 'Cometa' },
+    { src: `/image-library/space/earth.webp`, alt: `Tierra — imagen educativa temática`, caption: 'Tierra' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Galaxia — imagen educativa temática`, caption: 'Galaxia' },
+    { src: `/image-library/space/jupiter.webp`, alt: `Júpiter — imagen educativa temática`, caption: 'Júpiter' },
   ],
 
 

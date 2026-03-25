@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Space Printable Ideas to Sell — Niche Guide',
+    titleTag: `Space Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover space printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Outer space product concepts, STEM strategies, and platform tips for printable sellers.`,
 
     primaryKeyword: 'space printable ideas',
     secondaryKeywords: [
-      'space themed worksheets to sell',
-      'space printable business ideas',
-      'space activity sheets for sellers',
+      `space themed worksheets to sell`,
+      `space printable business ideas`,
+      `space activity sheets for sellers`,
       'sell space printables on Etsy',
     ],
     lsiKeywords: [
-      'astronomy educational worksheets',
-      'planet and rocket activity pages',
-      'solar system themed printables',
+      `astronomy educational worksheets`,
+      `planet and rocket activity pages`,
+      `solar system themed printables`,
     ],
   },
   hero: {
-    title: 'Space Printable Business Ideas for Sellers',
+    title: `Space Printable Business Ideas for Sellers`,
     description: `Outer space is one of the most universally captivating themes for children, making it a powerful evergreen niche for printable entrepreneurs who want consistent year-round sales without seasonal dependency. The space theme offers extraordinary sub-theme variety including planets, rockets, astronauts, stars, the moon, solar system models, galaxies, aliens, spacecraft, constellations, comets, telescopes, and space stations, giving sellers a deep visual vocabulary that sparks imagination and curiosity in the younger audience. STEM education alignment makes space printables especially valuable for sellers integrating science concepts into math, literacy, and art activities across the content library. For printable sellers on Etsy, Amazon KDP, and Gumroad, the space niche combines strong year-round demand with cross-category educational appeal that resonates with both buyers and homeschool families investing in science-rich learning materials. This guide covers specific product ideas, platform strategies, and positioning approaches to help you build a profitable space printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The space printable niche occupies a uniquely advantageous position for printable sellers because it delivers consistent year-round demand without the boom-and-bust cycles that characterize seasonal niches. Children\'s fascination with outer space is deeply universal, cutting across age groups, cultures, and educational philosophies. The preschool-age market are captivated by rockets and stars, the kindergarten-age market love learning planet names and astronaut adventures, and elementary users dive eagerly into solar system facts, constellation identification, and space exploration history. This broad age appeal means sellers can create products targeting multiple grade levels from a single theme, multiplying their catalog depth without switching subject matter.
@@ -36,17 +36,17 @@ To maximize your space printable revenue, develop products across multiple sub-t
 
   productIdeas: [
     {
-      title: 'Space Counting Worksheets for Printable Sellers',
+      title: `Space Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring planets, rockets, stars, astronauts, and moons bring STEM excitement to early math practice that buyers and homeschool parents eagerly purchase throughout the entire school year. Use the Find and Count generator to create space scenes where children locate and tally specific items among rocket launch pads, solar system panoramas, and starfield landscapes. Offer sets targeting multiple ability levels: count space objects up to five for the preschool-age market, count and write numbers to ten for the kindergarten-age market, and skip-counting with rows of planets or groups of stars for first graders. Bundle by difficulty or combine all levels into a comprehensive space counting pack for mixed-ability STEM-focused stores.`,
       appId: 'find-count',
     },
     {
-      title: 'Space Word Search Puzzles to Sell Online',
+      title: `Space Word Search Puzzles to Sell Online`,
       description: `Solar system vocabulary word searches attract sellers planning science units and parents seeking educational entertainment that channels their child's space enthusiasm into literacy skill development. Create puzzles featuring space-specific vocabulary like planet, rocket, astronaut, orbit, galaxy, comet, telescope, and satellite alongside broader astronomy terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more space terms for older children. Variations like planet name searches, space exploration vocabulary, and astronaut terminology expand your catalog to capture different buyer interests within the astronomy education niche.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Space Matching Activities for Educational Shops',
+      title: `Space Matching Activities for Educational Shops`,
       description: `Matching worksheets using space themes work across multiple skill areas, making them versatile products that appeal to sellers running science units and parents building STEM learning libraries for curious young space enthusiasts. Create sets where children match planets to their names, pair astronauts with spacecraft, or connect space objects to their descriptions and functions. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to preschool and kindergarten sellers integrating space themes into their stores where visual matching builds the observation skills foundational to science learning. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the evergreen space theme drives purchases throughout the entire year.`,
       appId: 'matching',
     },
@@ -56,12 +56,12 @@ To maximize your space printable revenue, develop products across multiple sub-t
       appId: 'addition',
     },
     {
-      title: 'Space Coloring Pages for Etsy and KDP Sellers',
+      title: `Space Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for space printable shops because outer space coloring appeals to virtually every child fascinated by rockets, planets, and astronauts, generating early reviews that boost your shop visibility across all your space listings. The Coloring Page generator creates detailed outlines of astronauts exploring alien landscapes, planets with rings and craters, rockets launching through starfields, space stations orbiting Earth, and galaxies swirling with cosmic detail. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as solar system planets or space vehicles. For KDP, compile thirty to fifty coloring pages into space activity books positioned as STEM gifts or science-loving kid presents. Add educational elements like planet name labels, space vocabulary terms, or counting prompts alongside the coloring images to tier.`,
       appId: 'coloring',
     },
     {
-      title: 'Space Bingo Cards for Science Activities',
+      title: `Space Bingo Cards for Science Activities`,
       description: `Space bingo cards serve sellers running solar system units and science review sessions where interactive group activities reinforce astronomy vocabulary and space exploration concepts more effectively than individual worksheets alone. The Bingo generator creates unique card variations from your space vocabulary list, ensuring no two cards are identical for store or group play. Sell store sets of twenty-five to thirty cards with a caller sheet and space vocabulary reference guide included. For the family market, create bingo kits featuring planets, rockets, constellations, and space exploration terms that families can play during science night activities or homeschool astronomy units. Bingo products generate strong demand because every science unit benefits from structured review games, and digital bingo cards can be purchased and printed minutes before the activity begins.`,
       appId: 'bingo',
     },
@@ -90,17 +90,17 @@ To maximize your space printable revenue, develop products across multiple sub-t
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Space Printables on Etsy',
+      title: `Selling Space Printables on Etsy`,
       description: `Etsy rewards the space niche with a significant year-round listing advantage over seasonal competitors, because your space printables generate consistent daily impressions without the demand valleys that holiday-dependent shops experience between selling windows. Use all thirteen tags with variations combining space sub-themes, skill types, and age groups: "space counting worksheets preschool," "solar system word search kindergarten," and "rocket coloring pages toddler" target specific buyer searches far more effectively than broad tags like "space worksheets." Position your products for both educational and gift-buyer searches by including terms like "STEM activity" and "science lover gift" in your titles and descriptions. Listing images showing printed space worksheets alongside toy rockets, star-themed decorations, or science kits outperform flat digital previews and capture the imagination-driven mindset that brings space-loving families to Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Space Activity Books on KDP',
+      title: `Publishing Space Activity Books on KDP`,
       description: `Amazon KDP excels for space printables because parents and gift buyers naturally add activity books to their Amazon carts alongside telescopes, space toys, STEM kits, and science books for curious children. Compile individual space worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around solar system and space exploration themes. Use KDP keyword fields strategically: include "space activity book for kids," "solar system worksheets preschool," and sub-theme terms like "rocket coloring book" or "astronaut activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as STEM gifts, science-loving kid presents, or companions to store astronomy units. Space activity books benefit from year-round demand with modest spikes during back-to-school season and the winter holiday gift-buying period.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Space Resources on Gumroad',
+      title: `Selling Space Resources on Gumroad`,
       description: `Gumroad buyers are buyers searching for science unit supplements, STEM activity stations, and cross-category resources that integrate space themes into math, literacy, and art instruction with minimal preparation time required. Space printables on Gumroad perform best when packaged as ready-to-use store solutions: solar system unit activity stations, space-themed morning work packets, or astronomy vocabulary homework packs with parent instruction letters. Include clear learning objectives mapping to science and math standards so sellers can justify space-themed activities to administrators and content reviewers. Gumroad's bundling feature lets you offer individual space products and a discounted STEM mega-bundle simultaneously, capturing both budget-conscious buyers buying single items and those investing in comprehensive space unit resources that span multiple weeks of instruction.`,
     },
     {
@@ -117,7 +117,7 @@ To maximize your space printable revenue, develop products across multiple sub-t
     },
     {
       question: `Is the space printable niche seasonal or year-round?`,
-      answer: `The space printable niche is fundamentally year-round, which is one of its strongest advantages for printable sellers building sustainable businesses. Unlike holiday themes that concentrate sales into narrow windows, space printables sell consistently across all twelve months because children's fascination with outer space has no seasonal dependency. Buyers run science units on the solar system, astronomy, and space exploration at various points throughout the academic year depending on their content scheduling. Homeschool families pursue space-themed unit studies whenever their children's interest peaks. You may notice modest demand increases during back-to-school season when buyers stock up on themed materials, during Science Week events, and during the winter gift-buying period when parents purchase STEM-themed activity books. However, the baseline demand remains strong throughout the year, making space an excellent foundation niche for sellers who want predictable, steady income.`,
+      answer: `The space printable niche is fundamentally year-round, which is one of its strongest advantages for printable sellers building sustainable businesses. Unlike holiday themes that concentrate sales into narrow windows, space printables sell consistently across all twelve months because children`s fascination with outer space has no seasonal dependency. Buyers run science units on the solar system, astronomy, and space exploration at various points throughout the academic year depending on their content scheduling. Homeschool families pursue space-themed unit studies whenever their children`s interest peaks. You may notice modest demand increases during back-to-school season when buyers stock up on themed materials, during Science Week events, and during the winter gift-buying period when parents purchase STEM-themed activity books. However, the baseline demand remains strong throughout the year, making space an excellent foundation niche for sellers who want predictable, steady income.`,
     },
     {
       question: `What age groups buy space-themed printables most frequently?`,
@@ -145,32 +145,32 @@ To maximize your space printable revenue, develop products across multiple sub-t
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -185,12 +185,12 @@ To maximize your space printable revenue, develop products across multiple sub-t
   ],
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroid — themed educational image', caption: 'Asteroid' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — themed educational image', caption: 'Astronaut' },
-    { src: '/image-library/space/comet.webp', alt: 'Comet — themed educational image', caption: 'Comet' },
-    { src: '/image-library/space/earth.webp', alt: 'Earth — themed educational image', caption: 'Earth' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Galaxy — themed educational image', caption: 'Galaxy' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — themed educational image', caption: 'Jupiter' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroid — themed educational image`, caption: 'Asteroid' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronaut — themed educational image`, caption: 'Astronaut' },
+    { src: `/image-library/space/comet.webp`, alt: `Comet — themed educational image`, caption: 'Comet' },
+    { src: `/image-library/space/earth.webp`, alt: `Earth — themed educational image`, caption: 'Earth' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Galaxy — themed educational image`, caption: 'Galaxy' },
+    { src: `/image-library/space/jupiter.webp`, alt: `Jupiter — themed educational image`, caption: 'Jupiter' },
   ],
 
 

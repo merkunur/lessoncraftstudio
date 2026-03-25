@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       `druckbarer Bilder-Rasterpuzzle-Generator für Etsy-Verkäufer`,
       `Kachel-Zuordnungs-Arbeitsblatt-Generator für KDP-Verleger`,
-      'Raster-Puzzle-Ersteller kommerzielle Lizenz',
+      `Raster-Puzzle-Ersteller kommerzielle Lizenz`,
       `Bilder-Rasterpuzzle-Arbeitsblätter auf Gumroad verkaufen`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `kommerzieller Raster-Puzzle-Generator mit Lösungsschlüssel`,
       `Druckvorlagen-Geschäft Bilder-Rasterpuzzle-Werkzeuge`,
     ],
-    titleTag: 'Raster-Puzzle-Generator | Bilder-Rasterpuzzle',
+    titleTag: `Raster-Puzzle-Generator | Bilder-Rasterpuzzle`,
     metaDescription: `Raster-Puzzle-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Konfigurierbares Raster, Hinweiszellen, 104 Themen. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -44,12 +44,12 @@ const content: AppContent = {
           `Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf ein Bild, um es für Ihr Rätsel auszuwählen. Die Bildvorschau zeigt Ihre Auswahl vor der Generierung an. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel „Eigene Bilder hochladen" verwenden, um personalisierte Raster-Puzzle aus eigenen Fotos oder Kunstwerken zu erstellen.`,
       },
       {
-        title: 'Raster-Puzzle-Arbeitsblatt generieren',
+        title: `Raster-Puzzle-Arbeitsblatt generieren`,
         description:
           `Klicken Sie auf „Generieren", um das Raster-Puzzle zu erstellen. Die App teilt Ihr ausgewähltes Bild in das konfigurierte Raster auf, zeigt die Hinweiszellen mit den tatsächlichen Bildkacheln sichtbar an und markiert die übrigen Zellen mit „?"-Platzhaltern. Alle Kacheln werden mittels Fisher-Yates-Zufallsverteilung gemischt und als nummerierte Palette angezeigt. Bei Hochformat-Layouts erscheint das Raster oben mit der Palette darunter; bei Querformat-Layouts steht das Raster links mit der Palette rechts. Eine gestaltete Überschrift erscheint mit cyanfarbenem Hintergrund (#00BCD4), tiefviolettem Titel (#6A1B9A) und orangefarbenem Rahmen (#FF8C42) mit „Grid Match" und Anweisungen in der gewählten Sprache.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Er zeigt das vollständige, ungeteilte Bild mit nummerierten Kreisen über jeder Rasterzelle — gelber Hintergrund (#ffffe0) mit schwarzer Umrandung, die anzeigt, welche Palettennummer in jede Position gehört. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Hauptfunktionen des Raster-Puzzle-Generators',
+    title: `Hauptfunktionen des Raster-Puzzle-Generators`,
     features: [
       {
         title: `Einzelbild-Rasterpuzzle mit konfigurierbaren Zeilen und Spalten (2–4 × 2–4)`,
@@ -103,16 +103,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Raster-Puzzle-Arbeitsblätter online verkaufen',
+    title: `Raster-Puzzle-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Rasterpuzzle-Pakete auf Etsy',
+        title: `Thematische Rasterpuzzle-Pakete auf Etsy`,
         description:
           `Erstellen Sie thematische Rasterpuzzle-Pakete mit den 104 Bildsammlungen — Tier-Rasterpuzzle, Fahrzeug-Rasterpuzzle, Feiertags-Bildrätsel und Dutzende mehr. Jedes Thema bietet genügend Illustrationen für 20–30 einzigartige Rätsel-Arbeitsblätter mit unterschiedlichen Rastergrößen und Hinweiszahlen. Verpacken Sie 15–25 Rasterpuzzle pro Thema mit beigelegten Lösungsschlüsseln und verkaufen Sie zu €3–€7 pro Paket. Integrieren Sie eine Mischung aus leichten (2×2 mit 3 Hinweisen), mittleren (3×3 mit 2 Hinweisen) und schweren (4×4 mit 1 Hinweis) Rätseln in jedes Paket für maximale Zielgruppenansprache. Der automatisch generierte Lösungsschlüssel mit nummerierten Overlays eliminiert den zeitaufwändigsten Teil der Rätselerstellung. Da die Rätselausgabe rein visuell ist und keine sprachspezifischen Inhalte enthält, können Sie identische Puzzle-Pakete gleichzeitig auf Etsy.de und internationalen Etsy-Marktplätzen verkaufen — ein einziges Produkt bedient mehrere Märkte ohne zusätzlichen Aufwand.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Bildrätsel-Arbeitsbücher auf Amazon KDP',
+        title: `Bildrätsel-Arbeitsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 50–100 Rasterpuzzle zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Ihr Buch nach progressiver Schwierigkeit: Kapitel 1 verwendet 2×2-Raster mit 3 Hinweisen für Anfänger, Kapitel 2 verwendet 3×3-Raster mit 2 Hinweisen für Fortgeschrittene und Kapitel 3 verwendet 4×4-Raster mit 1 Hinweis für erfahrene Löser. Integrieren Sie Lösungsschlüssel am Ende des Buchs mit den automatisch generierten nummerierten Kreis-Overlays. Der Graustufen-Schalter erzeugt tintenschonende Seiten, die direkt als Schwarzweiß-Buchinhalte einsetzbar sind. Arbeitsbücher für visuelle Wahrnehmung und räumliches Denken performen gut in der Kategorie Aktivitätsbücher das ganze Jahr über. Nutzen Sie verschiedene Bildthemen für thematische Kapitelabschnitte — Tierkapitel, Fahrzeugkapitel, Naturkapitel — und erzeugen Sie so ein strukturiertes Gesamtwerk mit breitem Kundenpotenzial auf Amazon.de.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -124,16 +124,16 @@ const content: AppContent = {
         platform: 'Gumroad',
       },
       {
-        title: 'Saisonale Rasterpuzzle-Sammlungen',
+        title: `Saisonale Rasterpuzzle-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Rasterpuzzle-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Rätselpakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie mehrere Rastergrößen und Schwierigkeitsgrade in jedes saisonale Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
         title: `Personalisierte Foto-Rasterpuzzle als Premium-Produkte`,
         description:
           `Nutzen Sie die Funktion „Eigene Bilder hochladen", um Rasterpuzzle aus beliebigen Fotos oder Kunstwerken zu erstellen. Familienfoto-Rätsel sind einzigartige personalisierte Geschenke für Geburtstage, Jubiläen oder Weihnachten. Verkäufer können Klassenfotos für Schuljahresend-Aktivitäten hochladen oder Ausflugfotos als Erinnerungsprojekte verwenden. Haustier-Foto-Rätsel, Urlaubsfoto-Rätsel und Teamfoto-Rätsel erzeugen einzigartige Produkte, die in keinem Katalog zu finden sind. Bieten Sie individuelle Rasterpuzzle-Erstellung als Premium-Service auf Etsy.de an, bei dem Kunden ihre Fotos einsenden und Sie gedruckte Rätsel-Arbeitsblätter mit Lösungsschlüsseln liefern — ein margenstarkes personalisiertes Produkt mit minimaler Produktionszeit. Verschiedene Rastergrößen ermöglichen Ihnen, aus einem einzigen Kundenfoto mehrere Rätselversionen in verschiedenen Schwierigkeitsgraden zu erstellen und als Set anzubieten.`,
-        platform: 'Etsy (personalisierte Produkte)',
+        platform: `Etsy (personalisierte Produkte)`,
       },
     ],
   },
@@ -150,7 +150,7 @@ const content: AppContent = {
         `Hinweiszellen sind Rasterpositionen, an denen die Bildkachel als Tipp sichtbar bleibt. Stellen Sie 1–5 Hinweiszellen über den Schieberegler im Rasteroptionen-Panel ein (Standard ist 1). Mehr Hinweise machen das Rätsel einfacher, da Lernende mehr Referenzpunkte haben. Bei einem 3×3-Raster mit 1 Hinweis müssen 8 Kacheln zugeordnet werden — ziemlich anspruchsvoll. Mit 5 Hinweisen müssen nur 4 Kacheln zugeordnet werden — deutlich zugänglicher. Dieser einzelne Regler ermöglicht abgestufte Schwierigkeits-Sets aus demselben Bild. Für verkaufsfertige Produkte empfiehlt sich eine Mischung verschiedener Hinweiszahlen innerhalb eines Pakets, sodass Käufer Rätsel für verschiedene Fähigkeitsstufen in einem einzigen Download erhalten.`,
     },
     {
-      question: 'Wie funktioniert das Rasterpuzzle für Lernende?',
+      question: `Wie funktioniert das Rasterpuzzle für Lernende?`,
       answer:
         `Das Arbeitsblatt zeigt ein Raster, bei dem einige Zellen die tatsächliche Bildkachel anzeigen (Hinweiszellen) und die übrigen Zellen „?"-Platzhalter zeigen. Unter oder neben dem Raster zeigt eine nummerierte Palette alle verdeckten Kacheln in gemischter Reihenfolge. Lernende untersuchen die Hinweiszellen, studieren die nummerierten Kacheln und bestimmen, welche Nummer in jede leere Rasterposition gehört. Die Lösung erfordert räumliches Denken und visuelle Wahrnehmung — den Kachelinhalt anhand von Farbverläufen, Motivfortsetzungen und Kantenabgleich dem korrekten Platz im Gesamtbild zuzuordnen. Das fördert analytische Fähigkeiten auf eine spielerische, motivierende Weise.`,
     },
@@ -180,12 +180,12 @@ const content: AppContent = {
         `Die Schwierigkeit hängt von zwei Faktoren ab: Gesamtkacheln (Rastergröße) und sichtbare Hinweise. Ein 2×2-Raster mit 3 Hinweisen lässt nur 1 Kachel zum Zuordnen übrig — das einfachste mögliche Rätsel. Ein 4×4-Raster mit 1 Hinweis erfordert die Zuordnung von 15 Kacheln — die schwierigste Konfiguration. Zwischen diesen Extremen können Sie jedes Schwierigkeitsniveau erstellen. Für abgestufte Arbeitsbücher beginnen Sie mit 2×2-Rastern (3 Hinweise), gehen zu 3×3 (2 Hinweise) über und enden mit 4×4 (1 Hinweis) für eine natürliche Schwierigkeitskurve. Diese Abstufung eignet sich hervorragend für strukturierte Lernprodukte, bei denen Käufer einen klaren Schwierigkeitsverlauf innerhalb eines einzigen Pakets oder Arbeitsbuchs erwarten. Zwischenstufen wie 3×2 mit 2 Hinweisen oder 3×4 mit 3 Hinweisen bieten zusätzliche Flexibilität für feinere Abstufungen.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle Rastergrößen, einstellbare Hinweiszellen, den automatisch generierten Lösungsschlüssel mit nummerierten Overlays, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, eigene Bild-Uploads, Textwerkzeuge und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
     {
-      question: 'Ist der Raster-Puzzle-Generator sprachabhängig?',
+      question: `Ist der Raster-Puzzle-Generator sprachabhängig?`,
       answer:
         `Nein. Der Raster-Puzzle-Generator ist rein visuell — die Rätselausgabe enthält nur Bildkacheln und Zahlen, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Buttons, Überschriftentext) unterstützt alle 11 Sprachen, aber das generierte Rätsel funktioniert unabhängig von der Sprachauswahl identisch. Das macht Rasterpuzzle universell verkaufbar über alle Märkte hinweg ohne Übersetzung — ein auf Deutsch erstelltes Rätsel kann ohne jede Änderung auf Etsy.com, Etsy.de und allen anderen internationalen Marktplätzen gleichzeitig gelistet werden. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei.`,
     },
@@ -205,32 +205,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'zuordnungs-arbeitsblaetter',
-      anchorText: 'Zuordnungs-Arbeitsblatt-Generator',
+      anchorText: `Zuordnungs-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'schattenbilder-zuordnen-arbeitsblaetter',
-      anchorText: 'Schattenbilder-Zuordnen-Arbeitsblatt-Generator',
+      slug: `schattenbilder-zuordnen-arbeitsblaetter`,
+      anchorText: `Schattenbilder-Zuordnen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'bilder-bingo-arbeitsblaetter',
-      anchorText: 'Bilder-Bingo-Arbeitsblatt-Generator',
+      anchorText: `Bilder-Bingo-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilder-sortieren-arbeitsblaetter',
-      anchorText: 'Bilder-Sortieren-Arbeitsblatt-Generator',
+      slug: `bilder-sortieren-arbeitsblaetter`,
+      anchorText: `Bilder-Sortieren-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'fehlende-puzzleteile-arbeitsblaetter',
-      anchorText: 'Fehlende-Puzzleteile-Arbeitsblatt-Generator',
+      slug: `fehlende-puzzleteile-arbeitsblaetter`,
+      anchorText: `Fehlende-Puzzleteile-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'suchbilder-arbeitsblaetter',
-      anchorText: 'Suchbilder-Arbeitsblatt-Generator',
+      anchorText: `Suchbilder-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,38 +240,38 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'vorschule-druckvorlagen-ideen',
-      anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung',
+      anchorText: `Vorschul-Druckvorlagen-Ideen für frühe Förderung`,
     },
     {
       pageType: 'idea',
-      slug: 'kindergarten-druckvorlagen-ideen',
-      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Nutzer',
+      slug: `kindergarten-druckvorlagen-ideen`,
+      anchorText: `Kindergarten-Druckvorlagen-Ideen für junge Nutzer`,
     },
     {
       pageType: 'start',
-      slug: 'druckvorlagen-geschaeft-bauplan',
-      anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan',
+      slug: `druckvorlagen-geschaeft-bauplan`,
+      anchorText: `Ihr Druckvorlagen-Geschäfts-Bauplan`,
     },
     {
       pageType: 'guide',
-      slug: 'zuordnungs-arbeitsblaetter-erstellen',
-      anchorText: 'Zuordnungs-Arbeitsblätter erstellen',
+      slug: `zuordnungs-arbeitsblaetter-erstellen`,
+      anchorText: `Zuordnungs-Arbeitsblätter erstellen`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/grid match/Raster-Puzzle 1.webp',
+      primary: `/samples/german/grid match/Raster-Puzzle 1.webp`,
       primaryAlt: `Raster-Puzzle-Arbeitsblatt mit Bildkacheln in einem Raster aufgeteilt, sichtbaren Hinweiszellen und nummerierter Kachelpalette zur Zuordnung`,
     },
     sampleGallery: [
       {
-        src: '/samples/german/grid match/Raster-Puzzle 2.webp',
+        src: `/samples/german/grid match/Raster-Puzzle 2.webp`,
         alt: `Drei-mal-drei-Rasterpuzzle mit einer Hinweiszelle und acht nummerierten Kacheln in der Palette`,
         caption: `3×3-Rasterpuzzle — eine Hinweiszelle sichtbar, acht Kacheln aus nummerierter Palette zuordnen`,
       },
       {
-        src: '/samples/german/grid match/Raster-Puzzle 3.webp',
+        src: `/samples/german/grid match/Raster-Puzzle 3.webp`,
         alt: `Vier-mal-vier-Rasterpuzzle mit sechzehn Kacheln und minimalen Hinweisen für fortgeschrittene Rätsel`,
         caption: `4×4-Fortgeschrittenes Rätsel — maximale Rastergröße für anspruchsvolle visuelle Wahrnehmungsaktivitäten`,
       },

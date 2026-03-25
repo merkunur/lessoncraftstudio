@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'meerestiere-druckvorlagen-ideen',
+    primaryKeyword: `meerestiere-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
-      'Meerestier-Druckvorlagen auf KDP verkaufen',
-      'Ozean-Aktivitätsblätter auf Gumroad anbieten',
-      'Wal-Delphin-Lernmaterialien für Etsy-Shops',
+      `Unterwasserwelt-Arbeitsblätter auf Etsy erstellen`,
+      `Meerestier-Druckvorlagen auf KDP verkaufen`,
+      `Ozean-Aktivitätsblätter auf Gumroad anbieten`,
+      `Wal-Delphin-Lernmaterialien für Etsy-Shops`,
     ],
     lsiKeywords: [
-      'Meeresbiologie-Thema Druckvorlagen-Nische',
-      'Unterwasser-Bildungsthema Arbeitsblätter',
-      'Ozean-Ganzjahres-Nische Lernmaterialien',
+      `Meeresbiologie-Thema Druckvorlagen-Nische`,
+      `Unterwasser-Bildungsthema Arbeitsblätter`,
+      `Ozean-Ganzjahres-Nische Lernmaterialien`,
     ],
-    titleTag: 'Meerestiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Meerestiere-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Meerestiere-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Unterwasser-Produktkonzepte, Plattformstrategien und Preistipps für Druckvorlagen-Verkäufer und Shops.`,
   },
   hero: {
@@ -44,7 +44,7 @@ Naturwissenschaftliche Produktkataloganbindungen machen Meerestier-Druckvorlagen
       appId: 'find-count',
     },
     {
-      title: 'Unterwasser-Wortsuchrätsel zum Online-Verkauf',
+      title: `Unterwasser-Wortsuchrätsel zum Online-Verkauf`,
       description: `Meeresvokabular-Wortsuchrätsel sprechen Käufer und Eltern an, die Sprachfähigkeiten rund um marine Themen aufbauen. Erstellen Sie Rätsel mit Tiernamen wie Delfin, Tintenfisch, Qualle und Seepferdchen sowie Lebensraum-Begriffen wie Korallenriff, Gezeitentümpel und Tiefsee. Der Wortsuchrätsel-Generator ermöglicht die Kontrolle über Rastergröße und Wortanzahl für altersgerechte Schwierigkeit. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn Wörtern für ältere Nutzer an. Saisonale Varianten wie Sommer-Strand-Wortsuchrätsel und Winter-Walwanderungs-Rätsel erweitern Ihren Produktkatalog über das ganze Jahr.`,
       appId: 'wordsearch',
     },
@@ -93,7 +93,7 @@ Naturwissenschaftliche Produktkataloganbindungen machen Meerestier-Druckvorlagen
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Meerestier-Druckvorlagen auf Etsy verkaufen',
+      title: `Meerestier-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Meerestier-Druckvorlagen-Listings. Verwenden Sie Long-Tail-Keywords wie „Meerestiere Zählarbeitsblatt Vorschule" oder „Unterwasser Ausmalseiten Kleinkind" statt generischer Titel. Nutzen Sie alle dreizehn Tags mit Kombinationen aus Thema, Kompetenz, Altersgruppe und Saison. Mockup-Bilder, die gedruckte Meeres-Arbeitsblätter neben Strandspielzeug, blauen Hintergründen oder Shop-Settings zeigen, übertreffen schlichte digitale Vorschauen deutlich. Planen Sie neue Listings zeitlich auf die Sommer-Nachfragespitzen von Mai bis August, wenn das Interesse an Meeresthemen stark ansteigt. Bieten Sie sowohl einzelne Arbeitsblätter für zwei bis vier Dollar als auch Themenpakete für acht bis fünfzehn Dollar an, da Etsy-Käufer oft mit einem günstigen Kauf beginnen und nach positiver Qualitätserfahrung für größere Pakete zurückkehren.`,
     },
     {
@@ -147,8 +147,8 @@ Naturwissenschaftliche Produktkataloganbindungen machen Meerestier-Druckvorlagen
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'Druckvorlagen-Produktlinie erstellen',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `Druckvorlagen-Produktlinie erstellen`,
     },
     {
       pageType: 'guide',
@@ -158,7 +158,7 @@ Naturwissenschaftliche Produktkataloganbindungen machen Meerestier-Druckvorlagen
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -167,33 +167,33 @@ Naturwissenschaftliche Produktkataloganbindungen machen Meerestier-Druckvorlagen
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere Druckvorlagen-Geschäftsideen',
+      slug: `bauernhoftiere-druckvorlagen-ideen`,
+      anchorText: `Bauernhoftiere Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Kaiserfisch — thematisches Lernbild`, caption: 'Kaiserfisch' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfisch — thematisches Lernbild`, caption: 'Clownfisch' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koralle — thematisches Lernbild`, caption: 'Koralle' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krabbe — thematisches Lernbild`, caption: 'Krabbe' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
   ],
 
 

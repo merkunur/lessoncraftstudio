@@ -4,8 +4,8 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'KDP o Etsy imprimibles',
     secondaryKeywords: [
-      'Amazon KDP o Etsy para vender imprimibles',
-      'dónde vender fichas imprimibles en línea',
+      `Amazon KDP o Etsy para vender imprimibles`,
+      `dónde vender fichas imprimibles en línea`,
       `KDP o Etsy qué plataforma es mejor para imprimibles`,
       `vender imprimibles en múltiples plataformas estrategia`,
     ],
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `estrategia venta multiplataforma negocio imprimibles multicanal`,
       `ficha imprimible libro actividades página colorear libro puzles marketplace`,
     ],
-    titleTag: 'KDP o Etsy imprimibles — Guía comparativa',
+    titleTag: `KDP o Etsy imprimibles — Guía comparativa`,
     metaDescription: `KDP o Etsy para vendedores de imprimibles. Compara estructuras de comisiones, formatos de producto, mecánicas de tráfico y aprende estrategias multiplataform.`,
   },
 
   hero: {
-    title: 'Amazon KDP o Etsy: Dónde vender imprimibles',
+    title: `Amazon KDP o Etsy: Dónde vender imprimibles`,
     tagline: `Una comparación directa de las dos plataformas dominantes para vendedores de imprimibles — cubriendo la diferencia fundamental entre descargas digitales e impresión bajo demanda, estructuras de comisiones y márgenes de beneficio reales, mecánicas de tráfico y visibilidad, qué tipos de producto pertenecen a cada plataforma, flujos de trabajo de publicación y anuncios, patrones de comportamiento del comprador, la estrategia multiplataforma que maximiza los ingresos, y un marco de decisión para elegir dónde empezar según tu tipo de contenido, volumen y objetivos de negocio`,
     description: `Etsy y Amazon KDP son las dos plataformas más grandes para vender contenido imprimible, pero sirven mercados fundamentalmente diferentes con economías distintas. Etsy vende descargas digitales PDF que los compradores imprimen en casa. KDP vende libros impresos físicos que Amazon fabrica y envía. Mismo contenido imprimible, formatos de producto completamente diferentes, experiencias de comprador distintas y modelos de ingresos distintos. Esta guía proporciona una comparación sistemática en cada dimensión que importa — comisiones, tráfico, ajuste de producto, flujo de trabajo y comportamiento del comprador — para que puedas tomar una decisión informada sobre dónde vender tus imprimibles y cómo construir una estrategia multiplataforma que capture ingresos de ambos marketplaces.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `La economía de vender en Etsy versus KDP difiere en estructura, no solo en porcentaje. Comprender ambos modelos de comisiones con números reales te ayuda a identificar qué plataforma ofrece mejores márgenes para tus productos específicos.\n\nEtsy cobra tres capas de comisiones en cada venta. Primero, una tarifa de anuncio de $0,20 por artículo publicado (renovada automáticamente cada 4 meses o cuando el artículo se vende). Segundo, una tarifa de transacción del 6,5 % sobre el precio de venta incluyendo envío. Tercero, procesamiento de pago del 3 % más $0,25 por transacción. Si usas Etsy Ads, pagas un coste de publicidad adicional por clic. Para una descarga digital de $5, tus comisiones totalizan aproximadamente $0,20 de anuncio más $0,33 de transacción más $0,40 de procesamiento, quedando aproximadamente $4,07 antes de cualquier coste de publicidad. Para un paquete de fichas de $15, las comisiones totalizan aproximadamente $0,20 más $0,98 más $0,70, quedando aproximadamente $13,12.\n\nKDP usa un modelo de regalía menos coste de impresión. Para libros de tapa blanda, ganas el 60 % del precio de lista menos el coste de impresión. Los costes de impresión dependen del número de páginas, tamaño de recorte y tipo de tinta. Un libro de interior blanco y negro de 100 páginas a 8,5 × 11 pulgadas cuesta aproximadamente $3,65 imprimir. Si lo fijas a $9,99, tu cálculo de regalía es (60 % de $9,99) menos $3,65, que es aproximadamente $2,34 por venta. Un libro de 60 páginas cuesta menos de imprimir (aproximadamente $2,45), y a $7,99 tu regalía es aproximadamente $2,34. Los interiores a color cuestan significativamente más de imprimir, por eso la mayoría de los libros de fichas y actividades usan interiores en blanco y negro.\n\nLa comparación de márgenes revela un patrón claro. Los imprimibles individuales de bajo precio ($3 a $7) generan márgenes razonables en Etsy pero son imposibles de publicar rentablemente en KDP porque los costes de impresión exceden la regalía a puntos de precio bajos. Los paquetes de precio medio ($10 a $20) pueden funcionar en ambas plataformas, aunque Etsy típicamente ofrece mayores márgenes por unidad. Los libros de muchas páginas ($8 a $15 en KDP) generan regalías competitivas en KDP con cero esfuerzo de producción por venta — Amazon gestiona la impresión, el envío y el servicio al cliente. La ventaja clave de KDP es la escala sin esfuerzo: una vez que tu libro está publicado, cada venta se cumple automáticamente sin acción tuya, sin gestión de entrega de archivos y sin comunicación con el cliente sobre problemas de descarga.\n\nNinguna estructura de comisiones es universalmente mejor. Etsy ofrece mayores márgenes en productos digitales de precio bajo a medio. KDP ofrece márgenes competitivos en libros mientras gestiona todo el cumplimiento. La estrategia óptima usa ambas plataformas con productos formateados apropiadamente para cada una.`,
     },
     {
-      heading: 'Evalúa las mecánicas de tráfico y visibilidad',
+      heading: `Evalúa las mecánicas de tráfico y visibilidad`,
       content: `Cómo los compradores encuentran tus productos difiere fundamentalmente entre Etsy y Amazon, y comprender estas mecánicas de tráfico determina cómo optimizas tus anuncios en cada plataforma.\n\nLa búsqueda de Etsy usa un algoritmo de relevancia que considera el título del anuncio, las etiquetas (13 disponibles por anuncio), la descripción, los atributos del anuncio y la puntuación de calidad de la tienda. Etsy da peso a la novedad del anuncio — los artículos recién publicados o recientemente renovados reciben un impulso temporal de visibilidad. La reputación de tu tienda (reseñas, tiempo de respuesta, tasa de completación) afecta tu posicionamiento general en búsquedas. Etsy también ofrece publicidad de pago a través de Etsy Ads, donde pujas por términos de búsqueda para aparecer en posiciones promocionadas. La experiencia de búsqueda de Etsy es muy orientada a la navegación: los compradores a menudo exploran múltiples páginas, hacen clic en anuncios relacionados y descubren productos a través de recomendaciones y colecciones curadas.\n\nLa búsqueda de Amazon usa el algoritmo A9, que prioriza la velocidad de ventas, la relevancia de palabras clave y la tasa de conversión. Los libros KDP tienen 7 campos de palabras clave backend (cada uno hasta 50 caracteres) más el título, subtítulo y descripción del libro para visibilidad. La colocación en categorías de Amazon determina dónde aparece tu libro en las rutas de navegación, y puedes solicitar hasta 3 categorías por título. Amazon también tiene potentes funciones de recomendación — «Los clientes que compraron esto también compraron», «Comprados juntos frecuentemente» y agrupación por series — que generan descubrimiento significativo después de tus primeras ventas. La experiencia de búsqueda de Amazon está orientada por intención: los compradores típicamente buscan algo específico, comparan algunas opciones y compran.\n\nLa diferencia práctica para los vendedores es significativa. En Etsy, necesitas mantener activamente tus anuncios mediante renovaciones, actualizaciones estacionales de palabras clave y optimización SEO continua. Los nuevos anuncios obtienen un impulso de visibilidad, así que añadir regularmente nuevos productos mantiene tu tienda visible. En Amazon, un libro bien optimizado puede generar ventas consistentes durante años con mantenimiento mínimo porque el algoritmo recompensa los títulos con historial de ventas establecido. Sin embargo, construir velocidad de ventas inicial en Amazon es más difícil — los libros nuevos sin reseñas enfrentan una batalla cuesta arriba contra títulos establecidos.\n\nAmbas plataformas tienen potencial de tráfico externo. Las tiendas de Etsy pueden recibir tráfico de Pinterest, redes sociales y búsquedas de Google (los anuncios de Etsy posicionan bien en Google). Los libros KDP se benefician de que Amazon es el motor de búsqueda de productos predeterminado para muchos consumidores. Ninguna plataforma requiere que generes tu propio tráfico, pero ambas recompensan a los vendedores que traen visitantes externos a sus anuncios.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `La psicología del comprador difiere entre Etsy y Amazon, y estas diferencias afectan cómo posicionas tus productos, escribes tus descripciones y fijas precios en cada plataforma.\n\nLos compradores de Etsy están navegando un marketplace asociado con productos hechos a mano, únicos y creativos. A menudo llegan con una intención general — «necesito una actividad divertida para mis hijos» o «quiero fichas educativas para mi tienda» — en lugar de buscar un producto con título específico. Los compradores de Etsy exploran múltiples anuncios, leen reseñas, observan la estética de la tienda y toman decisiones de compra basadas en el atractivo visual y el valor percibido. Las compras impulsivas son comunes en Etsy, especialmente para descargas digitales de bajo precio. Las compras de regalo también son significativas — muchas compras de imprimibles en Etsy las hacen personas que compran actividades para niños o usuarios.\n\nLos compradores de Amazon llegan con mayor intención de compra y consultas de búsqueda más específicas. Buscan «cuaderno de matemáticas para primer grado» o «libro de sopas de letras letra grande para adultos» y esperan encontrar exactamente ese producto. Los compradores de Amazon son comparadores — verifican reseñas, leen descripciones cuidadosamente, usan la función de vista previa «Echar un vistazo dentro» y comparan precios entre títulos similares. Los compradores de Amazon son menos propensos a comprar un libro por impulso pero más propensos a comprar múltiples títulos relacionados una vez que encuentran un editor de confianza, especialmente a través de recomendaciones de series.\n\nLa dinámica de reseñas difiere entre plataformas. Las reseñas de Etsy se centran en la experiencia de descarga y la calidad del archivo: «Se imprimió perfectamente», «Fácil de descargar», «A mis hijos les encantaron». Las reseñas de KDP se centran en el contenido en sí y la calidad física del libro: «Grandes puzles, bien organizado», «La calidad de impresión es excelente», «Podría tener más puzles». Las reseñas tienen diferente peso en cada plataforma — en Amazon, las reseñas afectan directamente tu posicionamiento en búsquedas y velocidad de ventas, haciéndolas más estratégicamente importantes. En Etsy, las reseñas construyen credibilidad de tienda pero tienen menor impacto directo en el posicionamiento de búsqueda.\n\nEl comportamiento de devoluciones y reembolsos también difiere. Las descargas digitales de Etsy tienen tasas de reembolso bajas porque los compradores reciben el archivo al instante y pueden evaluarlo antes de imprimir. Los libros KDP tienen tasas de devolución ligeramente más altas porque los compradores pueden recibir un producto físico que no coincide con sus expectativas. Sin embargo, KDP gestiona todas las devoluciones y el servicio al cliente por ti, mientras los vendedores de Etsy gestionan su propia comunicación con el cliente.\n\nLa sensibilidad al precio varía por plataforma. Los compradores de Etsy esperan precios más bajos para descargas digitales ($2 a $15 para la mayoría de productos imprimibles) porque perciben los archivos digitales como de menores costes de producción. Los compradores de Amazon aceptan precios más altos para libros físicos ($7,99 a $14,99 para libros de actividades) porque están comprando un producto tangible fabricado. Esta psicología de precios significa que el mismo contenido puede tener un precio total más alto como libro KDP que como descarga digital de Etsy.`,
     },
     {
-      heading: 'Construye una estrategia multiplataforma',
+      heading: `Construye una estrategia multiplataforma`,
       content: `Vender en Etsy y Amazon KDP simultáneamente es el enfoque de ingresos más fuerte para vendedores de imprimibles. En lugar de elegir una plataforma, usa cada plataforma para el formato de producto que mejor sirve, y deja que tu contenido trabaje doblemente en ambos marketplaces.\n\nEl enfoque multiplataforma empieza con la creación de contenido. Cuando creas contenido imprimible como fichas de matemáticas, puzles de sopas de letras o páginas para colorear, produces las páginas individuales primero. Estas páginas individuales se convierten en tus productos de Etsy — vendidas como fichas individuales o paquetes temáticos de 5 a 15 páginas. Las mismas páginas, compiladas en un libro estructurado con índice, progresión de dificultad y claves de respuestas, se convierten en tu producto KDP. Un solo esfuerzo de creación de contenido produce productos para dos marketplaces completamente diferentes que sirven dos tipos de comprador diferentes.\n\nEl efecto de promoción cruzada entre plataformas es real pero indirecto. Cuando un padre compra tus fichas de sopas de letras en Etsy y ve tu nombre de marca, puede buscar más tarde en Amazon un libro completo de sopas de letras y encontrar tu título KDP. Cuando un comprador de Amazon adquiere tu libro de actividades y quiere fichas adicionales para uso comercial, puede buscar en Etsy versiones imprimibles que pueda reproducir. Una marca consistente en ambas plataformas — mismo nombre de editor, estilo visual similar, conexión clara entre tus productos — fortalece este efecto de descubrimiento cruzado.\n\nGestiona tu contenido estratégicamente entre plataformas. Tus anuncios de Etsy no deberían duplicar tus libros KDP exactamente — los compradores que pueden descargar e imprimir todo el contenido de tu libro desde Etsy por menos dinero no tienen razón para comprar la versión KDP. En su lugar, ofrece páginas individuales y pequeños paquetes temáticos en Etsy mientras reservas el formato de libro compilado completo para KDP. De esta forma cada plataforma ofrece valor único: Etsy ofrece flexibilidad y selección de páginas individuales, KDP ofrece un libro completo impreso profesionalmente. Algunos vendedores incluyen contenido extra en sus libros KDP (puzles adicionales, claves de respuestas expandidas, guías de uso) que no está disponible en las versiones de Etsy.\n\nEl flujo de trabajo para ventas en doble plataforma se vuelve eficiente una vez establecido. Crea tu contenido usando los generadores de fichas y guarda exportaciones de páginas individuales para Etsy y compila el conjunto completo en un manuscrito KDP. Publica páginas individuales y paquetes pequeños en Etsy inmediatamente (disponibles para venta en minutos). Envía el libro compilado a KDP (disponible tras revisión en 24 a 72 horas). Con el tiempo, tu tienda de Etsy y tu catálogo KDP crecen en paralelo desde el mismo esfuerzo de creación de contenido, y cada plataforma genera flujos de ingresos independientes con diferentes patrones estacionales y demografías de compradores.`,
     },
     {
-      heading: 'Decide dónde empezar según tu situación',
+      heading: `Decide dónde empezar según tu situación`,
       content: `Si no has vendido imprimibles antes y quieres un punto de partida claro, usa este marco de decisión basado en tu volumen de contenido actual, tipo de producto y objetivos de negocio.\n\nEmpieza con Etsy si tienes una biblioteca de contenido pequeña (menos de 50 páginas de material). Etsy te permite vender fichas individuales y paquetes pequeños inmediatamente sin necesitar suficiente contenido para llenar un libro. Puedes probar qué temas y formatos resuenan con los compradores, acumular reseñas y desarrollar tus habilidades de creación de contenido con riesgos bajos. Cada anuncio cuesta $0,20 para publicar, y puedes ajustar precios, descripciones e incluso los archivos del producto en cualquier momento. Etsy es el punto de partida de menor riesgo para nuevos vendedores de imprimibles porque la inversión por producto es mínima y el ciclo de retroalimentación es rápido.\n\nEmpieza con KDP si ya tienes 80 o más páginas de contenido listas para compilar en un libro. Si has estado creando fichas de matemáticas, puzles de sopas de letras o páginas para colorear y tienes material suficiente para un libro completo, KDP te permite publicar un producto impreso profesionalmente con cero coste inicial. KDP también es el mejor punto de partida si prefieres un modelo de cumplimiento autónomo — Amazon gestiona la impresión, el envío, el servicio al cliente y las devoluciones sin ningún esfuerzo continuo de tu parte. La contrapartida es un cronograma de publicación más largo y un proceso de publicación más complejo.\n\nEmpieza con ambas plataformas simultáneamente si tienes volumen de contenido moderado (50 a 100 páginas) y tiempo para gestionar dos flujos de trabajo de publicación. Publica páginas individuales en Etsy mientras compilas el conjunto completo en un libro KDP. Este enfoque maximiza tus ingresos desde el día uno pero requiere más tiempo de configuración inicial. Funciona mejor para vendedores que ya están familiarizados con al menos una plataforma y quieren expandirse.\n\nIndependientemente de dónde empieces, planifica vender en ambas plataformas eventualmente. Los vendedores de imprimibles que generan los ingresos más consistentes son los que tratan Etsy y KDP como canales complementarios en lugar de opciones competidoras. Tu tienda de Etsy captura compradores que quieren descargas digitales flexibles. Tu catálogo KDP captura compradores que quieren libros impresos completos. Juntos, alcanzan una audiencia más amplia que cualquier plataforma sola.\n\nEl factor más importante es empezar. Analizar plataformas infinitamente sin publicar productos genera cero ingresos. Elige la plataforma que se ajusta a tu situación actual, publica tus primeros productos, aprende de la retroalimentación real de los compradores, y expándete a la segunda plataforma una vez que tu primer canal esté produciendo ventas consistentes. Para orientación detallada sobre cualquier plataforma, consulta las guías de venta de Etsy y las guías de publicación KDP referenciadas a lo largo de esta guía.`,
     },
   ],
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Vender en dos plataformas significa dos conjuntos de comisiones, dos flujos de ingresos y dos perfiles de márgenes diferentes para contenido similar. Rastrea tus ingresos, comisiones y márgenes netos por plataforma mensualmente para entender qué plataforma ofrece mejores retornos para cada tipo de producto. Algunos vendedores descubren que sus fichas de matemáticas generan mayores márgenes en Etsy mientras sus libros de puzles funcionan mejor en KDP. Estos datos informan dónde enfocar tu esfuerzo de creación de contenido y atención de marketing. Usa una hoja de cálculo simple rastreando ingresos brutos, comisiones de la plataforma e ingresos netos por plataforma al mes. Después de 3 a 6 meses de venta en doble plataforma, los datos revelan patrones claros sobre qué productos y formatos funcionan mejor en cada plataforma para tu nicho específico.`,
     },
     {
-      heading: 'Escalona tus lanzamientos entre plataformas',
+      heading: `Escalona tus lanzamientos entre plataformas`,
       content: `Cuando lances nuevo contenido en Etsy y KDP, escalona tus lanzamientos en lugar de publicar en todas partes simultáneamente. Publica las páginas individuales en Etsy primero porque los anuncios se activan inmediatamente y empiezan a generar datos en días. Usa los datos de rendimiento de Etsy — qué productos obtienen vistas, favoritos y ventas — para validar qué contenido resuena antes de invertir el esfuerzo adicional de compilar un libro KDP. Si un paquete de fichas de Etsy genera ventas consistentes, sabes que la versión compilada en libro encontrará audiencia en KDP. Si un tema tiene bajo rendimiento en Etsy, puedes ajustar o pivotar antes de comprometerte con el formateo KDP. Este enfoque secuencial reduce el riesgo y usa datos reales de mercado para guiar tus decisiones de publicación KDP en lugar de adivinar qué libros se venderán.`,
     },
   ],
@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Ejemplo: Vendedora de Etsy expandiéndose a KDP',
+      heading: `Ejemplo: Vendedora de Etsy expandiéndose a KDP`,
       content: `Una vendedora que crea fichas de matemáticas empieza vendiendo páginas individuales en Etsy. Publica fichas individuales de sumas a $2,50, paquetes temáticos de 10 fichas a $7, y paquetes por nivel de grado de 30 fichas a $15. Después de 6 meses, su tienda Etsy tiene 45 anuncios generando ventas mensuales estables. Sus productos de mejor rendimiento son los paquetes de sumas y restas de primer grado. Decide expandirse a KDP compilando sus 50 fichas de matemáticas de primer grado en un libro de actividades impreso. Añade un índice, divide el contenido en secciones de dificultad, incluye claves de respuestas para todas las fichas y diseña una portada. El libro se publica en KDP a $8,99 (aproximadamente $2,60 de regalía por venta después de costes de impresión). Mantiene su tienda Etsy vendiendo páginas individuales y paquetes pequeños mientras el libro KDP captura compradores de Amazon que quieren un cuaderno impreso completo. Su tienda Etsy sigue generando $300 a $500 al mes mientras el libro KDP añade $80 a $150 al mes con cero creación de contenido adicional. Planea compilar su contenido de segundo grado en un libro KDP de continuación mientras sigue añadiendo nuevos anuncios individuales en Etsy.`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'abrir-tienda-etsy-imprimibles',
-      title: 'Abrir una tienda Etsy de imprimibles desde cero',
+      title: `Abrir una tienda Etsy de imprimibles desde cero`,
       description: `La guía completa de configuración de Etsy para vendedores de imprimibles. Cubre la creación de la tienda, optimización del primer anuncio, fundamentos de SEO Etsy y construcción de un catálogo de productos que genere ventas consistentes.`,
     },
     {
-      slug: 'libros-actividades-matematicas-kdp',
+      slug: `libros-actividades-matematicas-kdp`,
       title: `Crear libros de actividades de matemáticas para Amazon KDP`,
       description: `La guía fundamental de publicación KDP que cubre formateo de manuscrito, diseño de portada, optimización de anuncios en Amazon y el flujo de trabajo completo desde la creación de contenido hasta el libro publicado.`,
     },
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía completa para iniciar un negocio de imprimibles`,
       description: `La guía fundamental de negocio que cubre creación de contenido, licencias comerciales, estrategia multiplataforma y construcción de un negocio de imprimibles sostenible desde cero.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para imprimibles educativos' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: 'Cómo crear paquetes de fichas Etsy' },
-    { pageType: 'guide', slug: 'libros-actividades-matematicas-kdp', anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
-    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: 'Cómo publicar libros de puzles en Amazon KDP' },
-    { pageType: 'guide', slug: 'formato-kdp-fichas', anchorText: 'Guía de formateo KDP para libros de fichas' },
-    { pageType: 'guide', slug: 'ganar-dinero-kdp-libros-actividades', anchorText: 'Cómo ganar dinero con libros de actividades KDP' },
-    { pageType: 'guide', slug: 'mejores-nichos-kdp-libros-actividades', anchorText: 'Mejores nichos de libros de actividades KDP' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Cómo fijar precios de tus imprimibles Etsy' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para imprimibles educativos` },
+    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: `Cómo crear paquetes de fichas Etsy` },
+    { pageType: 'guide', slug: `libros-actividades-matematicas-kdp`, anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
+    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: `Cómo publicar libros de puzles en Amazon KDP` },
+    { pageType: 'guide', slug: 'formato-kdp-fichas', anchorText: `Guía de formateo KDP para libros de fichas` },
+    { pageType: 'guide', slug: `ganar-dinero-kdp-libros-actividades`, anchorText: `Cómo ganar dinero con libros de actividades KDP` },
+    { pageType: 'guide', slug: `mejores-nichos-kdp-libros-actividades`, anchorText: `Mejores nichos de libros de actividades KDP` },
+    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: `Cómo fijar precios de tus imprimibles Etsy` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
@@ -182,33 +182,33 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Crea páginas para colorear que funcionan en ambas plataformas — páginas individuales y paquetes en Etsy, libros para colorear compilados en KDP. Una de las categorías principales de imprimibles en ambos marketplaces.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Generador de fichas de puzles matemáticos',
+      title: `Generador de fichas de puzles matemáticos`,
       description: `Produce formatos únicos de puzles matemáticos con menor competencia tanto en Etsy como en KDP. Los puzles matemáticos con cuadrícula destacan en los resultados de búsqueda frente a los anuncios estándar de fichas.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de sopa de letras adecuada para vender como descarga digital en Etsy o compilar en libro de puzles Amazon KDP` },
+    heroImage: { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de sopa de letras adecuada para vender como descarga digital en Etsy o compilar en libro de puzles Amazon KDP` },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras temática de animales para Etsy y KDP`, caption: 'Los puzles de sopas de letras se venden en ambas plataformas — como descargas digitales individuales en Etsy y compilados en libros de puzles en KDP' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas para descarga digital Etsy o libro de actividades KDP`, caption: 'Las fichas de matemáticas funcionan como individuales y paquetes pequeños en Etsy o compiladas en libros de actividades de matemáticas KDP' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear para venta tanto en Etsy como KDP', caption: 'Las páginas para colorear son una categoría principal en ambas plataformas — descargas individuales en Etsy y libros para colorear en KDP' },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras temática de animales para Etsy y KDP`, caption: `Los puzles de sopas de letras se venden en ambas plataformas — como descargas digitales individuales en Etsy y compilados en libros de puzles en KDP` },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas para descarga digital Etsy o libro de actividades KDP`, caption: `Las fichas de matemáticas funcionan como individuales y paquetes pequeños en Etsy o compiladas en libros de actividades de matemáticas KDP` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear para venta tanto en Etsy como KDP`, caption: `Las páginas para colorear son una categoría principal en ambas plataformas — descargas individuales en Etsy y libros para colorear en KDP` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo crear fichas imprimibles para Etsy y Amazon KDP — Tutorial paso a paso`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Alosaurio — imagen educativa temática', caption: 'Alosaurio' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Anquilosaurio — imagen educativa temática', caption: 'Anquilosaurio' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurio — imagen educativa temática', caption: 'Apatosaurio' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurio — imagen educativa temática', caption: 'Argentinosaurio' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Braquiosaurio — imagen educativa temática', caption: 'Braquiosaurio' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Alosaurio — imagen educativa temática`, caption: 'Alosaurio' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Anquilosaurio — imagen educativa temática`, caption: 'Anquilosaurio' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurio — imagen educativa temática`, caption: 'Apatosaurio' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurio — imagen educativa temática`, caption: 'Argentinosaurio' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Braquiosaurio — imagen educativa temática`, caption: 'Braquiosaurio' },
   ],
 };
 

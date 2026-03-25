@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'email marketing imprimíveis',
     secondaryKeywords: [
-      'lista de correio vendedores de imprimíveis',
-      'newsletter para negócio de fichas',
-      'email marketing produtos digitais',
-      'estratégia email negócio imprimíveis',
+      `lista de correio vendedores de imprimíveis`,
+      `newsletter para negócio de fichas`,
+      `email marketing produtos digitais`,
+      `estratégia email negócio imprimíveis`,
     ],
     lsiKeywords: [
       `lista de subscritores lead magnet oferta de subscrição sequência de boas-vindas automatização de email`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `sequências automatizadas campanha de reativação higiene da lista reputação do remetente`,
       `calendário de conteúdo analíticas de email testes A/B etiquetas de personalização`,
     ],
-    titleTag: 'Email Marketing Imprimíveis — Estratégia Vendedor',
+    titleTag: `Email Marketing Imprimíveis — Estratégia Vendedor`,
     metaDescription: `Estratégias de email marketing para vendedores de imprimíveis. Construa a sua lista de subscritores, crie lead magnets, automatize sequências e gere vendas.`,
   },
 
@@ -36,14 +36,14 @@ const content: GuideContent = {
     },
     {
       heading: `Criar lead magnets que atraem compradores de imprimíveis`,
-      content: `Um lead magnet é o recurso gratuito que oferece em troca do endereço de email de um visitante. Para vendedores de imprimíveis, o lead magnet mais eficaz é uma amostra dos seus próprios produtos — porque atrai exatamente o tipo de pessoa que comprará os seus produtos pagos.\n\nO melhor lead magnet para um vendedor de imprimíveis é um mini-pacote de fichas que demonstra a qualidade e variedade dos seus produtos. Crie um pacote de 5 a 8 fichas cobrindo 2 a 3 formatos diferentes (por exemplo, uma sopa de letras, duas páginas para colorir e três fichas de adição) com um tema visual coeso. Este pacote mostra a amplitude do seu catálogo enquanto fornece valor real e utilizável ao subscritor.\n\nEvite lead magnets genéricos como \"10 dicas para ensinar em casa\" ou \"guia de atividades educativas\" — estes atraem pessoas interessadas em informação gratuita, não em comprar imprimíveis. O seu lead magnet deve ser um produto real, da mesma qualidade dos seus produtos pagos, que deixe o subscritor a querer mais.\n\nCrie o seu lead magnet usando os geradores disponíveis no teste grátis com marca d'água. Selecione temas visualmente atrativos, gere fichas de diferentes formatos e compile-as num PDF profissional com uma página de capa da sua marca. A marca d'água no lead magnet é aceitável e até vantajosa — demonstra que os seus produtos pagos vêm sem marca d'água, criando um incentivo natural para a compra.\n\nNomeie o seu lead magnet de forma descritiva e apelativa: \"Pacote de Fichas de Atividades com Animais — 8 Fichas Gratuitas\" é mais atrativo do que \"Amostra Grátis\". O nome deve comunicar claramente o que o subscritor recebe e porquê vale a pena fornecer o endereço de email.\n\nAtualize o seu lead magnet sazonalmente ou crie lead magnets alternativos para diferentes segmentos. Um lead magnet de regresso às aulas em agosto, um pacote temático de Natal em novembro e um pacote de atividades de verão em maio permitem-lhe captar subscritores com ofertas relevantes ao longo do ano.`,
+      content: `Um lead magnet é o recurso gratuito que oferece em troca do endereço de email de um visitante. Para vendedores de imprimíveis, o lead magnet mais eficaz é uma amostra dos seus próprios produtos — porque atrai exatamente o tipo de pessoa que comprará os seus produtos pagos.\n\nO melhor lead magnet para um vendedor de imprimíveis é um mini-pacote de fichas que demonstra a qualidade e variedade dos seus produtos. Crie um pacote de 5 a 8 fichas cobrindo 2 a 3 formatos diferentes (por exemplo, uma sopa de letras, duas páginas para colorir e três fichas de adição) com um tema visual coeso. Este pacote mostra a amplitude do seu catálogo enquanto fornece valor real e utilizável ao subscritor.\n\nEvite lead magnets genéricos como \"10 dicas para ensinar em casa\" ou \"guia de atividades educativas\" — estes atraem pessoas interessadas em informação gratuita, não em comprar imprimíveis. O seu lead magnet deve ser um produto real, da mesma qualidade dos seus produtos pagos, que deixe o subscritor a querer mais.\n\nCrie o seu lead magnet usando os geradores disponíveis no teste grátis com marca d`água. Selecione temas visualmente atrativos, gere fichas de diferentes formatos e compile-as num PDF profissional com uma página de capa da sua marca. A marca d`água no lead magnet é aceitável e até vantajosa — demonstra que os seus produtos pagos vêm sem marca d'água, criando um incentivo natural para a compra.\n\nNomeie o seu lead magnet de forma descritiva e apelativa: \"Pacote de Fichas de Atividades com Animais — 8 Fichas Gratuitas\" é mais atrativo do que \"Amostra Grátis\". O nome deve comunicar claramente o que o subscritor recebe e porquê vale a pena fornecer o endereço de email.\n\nAtualize o seu lead magnet sazonalmente ou crie lead magnets alternativos para diferentes segmentos. Um lead magnet de regresso às aulas em agosto, um pacote temático de Natal em novembro e um pacote de atividades de verão em maio permitem-lhe captar subscritores com ofertas relevantes ao longo do ano.`,
     },
     {
-      heading: 'Construir páginas de destino de alta conversão',
+      heading: `Construir páginas de destino de alta conversão`,
       content: `Uma página de destino é uma página web com um único objetivo: converter visitantes em subscritores. A maioria dos ESP inclui um construtor de páginas de destino, eliminando a necessidade de um website separado.\n\nA estrutura de uma página de destino eficaz para um lead magnet de imprimíveis segue um padrão testado. Comece com um título que comunique o benefício imediato: \"Descarregue 8 Fichas de Atividades Educativas com Tema de Animais — Grátis\" é mais eficaz do que \"Subscreva a Nossa Newsletter\". O visitante deve compreender em 3 segundos o que recebe e porquê é valioso.\n\nInclua uma imagem de pré-visualização do lead magnet. Mostre 2 a 3 fichas do pacote dispostas visualmente para que o visitante veja a qualidade antes de se subscrever. As pré-visualizações visuais aumentam dramaticamente as taxas de conversão porque eliminam a incerteza — o visitante sabe exatamente o que vai receber.\n\nAdicione 3 a 5 pontos que destaquem o que está incluído: número de fichas, formatos (sopa de letras, colorir, matemática), nível etário recomendado, tema visual e formato do ficheiro (PDF imprimível). Estes detalhes ajudam os visitantes a auto-qualificarem-se — as pessoas certas subscrevem-se e as que não são o seu público-alvo não, mantendo a qualidade da sua lista.\n\nMantenha o formulário de subscrição simples — apenas nome e email. Cada campo adicional reduz a taxa de conversão. Não peça localização, profissão ou preferências nesta fase — pode recolher essas informações depois através de segmentação comportamental.\n\nColoque o link da sua página de destino em todos os pontos de contacto: anúncio da loja Etsy, biografia de redes sociais, descrições de produtos, pins no Pinterest, e numa página de inserção incluída em cada download digital que vende. Esta página de inserção é particularmente poderosa — cada comprador que descarrega um produto vê um convite para receber fichas gratuitas adicionais em troca do email.`,
     },
     {
-      heading: 'Desenhar sequências de boas-vindas que convertem',
+      heading: `Desenhar sequências de boas-vindas que convertem`,
       content: `A sequência de boas-vindas é uma série automatizada de emails enviados aos novos subscritores durante os primeiros 7 a 14 dias. Esta sequência é o seu mecanismo mais poderoso de conversão porque os subscritores estão mais envolvidos imediatamente após a subscrição.\n\nUma sequência de boas-vindas eficaz para vendedores de imprimíveis contém 4 a 5 emails espaçados ao longo de 10 dias.\n\nEmail 1 (imediato): Entregue o lead magnet prometido com um agradecimento genuíno. Inclua uma breve introdução sobre quem é e o que a sua loja oferece. Termine com uma dica rápida sobre como utilizar as fichas incluídas. Este email deve ter uma taxa de abertura de 70 a 80% — é o email mais lido que alguma vez enviará.\n\nEmail 2 (dia 2): Partilhe uma dica de ensino ou atividade relacionada com o tema do lead magnet. Por exemplo, se o lead magnet era fichas de animais, partilhe 3 formas criativas de utilizar fichas de animais em casa ou online. Não promova produtos neste email — ofereça apenas valor. Este email constrói confiança e estabelece que os seus emails valem a pena abrir.\n\nEmail 3 (dia 4): Apresente o seu catálogo de produtos com uma história. Explique porque criou os seus imprimíveis, que problema resolvem e como os seus clientes os utilizam. Inclua links para 2 a 3 dos seus produtos mais populares com imagens de pré-visualização. Esta é a sua primeira promoção suave — contextualizada numa narrativa, não numa venda agressiva.\n\nEmail 4 (dia 7): Partilhe testemunhos ou casos de utilização reais dos seus produtos (se disponíveis). Se ainda não tem testemunhos, partilhe as suas próprias experiências de como as fichas são utilizadas. Inclua uma oferta especial para novos subscritores — um código de desconto ou um pacote exclusivo — com um prazo limitado para criar urgência.\n\nEmail 5 (dia 10): Peça feedback sobre o lead magnet e pergunte que tipo de fichas gostariam de ver no futuro. Esta abordagem de escuta ativa fornece-lhe ideias de produtos valiosas enquanto faz os subscritores sentirem-se parte da comunidade. Termine com um convite para seguir as suas redes sociais para dicas diárias.`,
     },
     {
@@ -51,15 +51,15 @@ const content: GuideContent = {
       content: `Após a sequência de boas-vindas, os subscritores entram na sua lista de difusão regular — a newsletter que envia semanal ou quinzenalmente. O conteúdo desta newsletter determina se os subscritores permanecem envolvidos a longo prazo ou se cancelam a subscrição após algumas semanas.\n\nA regra de ouro para newsletters de vendedores de imprimíveis é a proporção 80/20: 80% de conteúdo de valor e 20% de promoção de produtos. As newsletters que são apenas anúncios de novos produtos rapidamente perdem subscritores. As newsletters que combinam dicas úteis com promoções ocasionais constroem uma audiência fiel que abre os seus emails consistentemente.\n\nTipos de conteúdo de valor para newsletters de imprimíveis incluem: dicas de ensino relacionadas com os seus temas de fichas, ideias de atividades sazonais que complementam os seus produtos, guias de utilização que mostram como tirar o máximo partido das fichas, sugestões de combinação de fichas para diferentes idades e competências, e tendências educativas relevantes para o seu nicho.\n\nQuando promover produtos, contextualize a promoção dentro de conteúdo útil. Em vez de \"Novo pacote de fichas de adição disponível — compre agora!\", escreva \"3 formas de praticar adição em casa esta semana\" e inclua naturalmente o link para o seu novo pacote como recurso complementar. Esta abordagem gera cliques sem parecer publicidade.\n\nCrie um calendário editorial mensal para as suas newsletters. Planeie os temas com antecedência para alinhar com datas sazonais (regresso às aulas, férias, épocas de exames) e lançamentos de produtos. Um calendário editorial evita o bloqueio criativo semanal de \"sobre o que escrevo hoje?\" e garante consistência na sua cadência de envio.\n\nUtilize linhas de assunto que despertem curiosidade ou prometam um benefício concreto. \"5 atividades de matemática que as crianças pedem para repetir\" tem uma taxa de abertura muito superior a \"Newsletter Semanal #23\". Teste diferentes formatos de linha de assunto e acompanhe qual gera melhores taxas de abertura na sua lista específica.`,
     },
     {
-      heading: 'Segmentar a lista para máxima relevância',
+      heading: `Segmentar a lista para máxima relevância`,
       content: `A segmentação divide a sua lista de subscritores em grupos baseados em interesses, comportamento ou características — permitindo-lhe enviar mensagens relevantes a cada grupo em vez de a mesma mensagem a todos.\n\nPara vendedores de imprimíveis, os segmentos mais úteis baseiam-se em três critérios: tipo de produto de interesse (fichas de matemática, páginas para colorir, sopas de letras, puzzles), nível etário dos destinatários (pré-escolar, jardim de infância, 1.º ciclo) e tipo de utilizador (pais, vendedores, vendedores domésticos).\n\nA forma mais simples de segmentar é através do lead magnet que atraiu o subscritor. Se alguém subscreveu para receber fichas de matemática, provavelmente está interessado em produtos de matemática. Se subscreveu para receber páginas para colorir, os seus interesses são diferentes. Crie lead magnets diferentes para segmentos diferentes e etiquete os subscritores automaticamente com base no lead magnet que escolheram.\n\nUtilize também a segmentação comportamental — acompanhe que emails cada subscritor abre e em que links clica. Se um subscritor clica consistentemente em links de fichas de subtração mas ignora emails sobre páginas para colorir, sabe que deve priorizar conteúdo de matemática para essa pessoa. A maioria dos ESP oferece etiquetagem automática baseada em cliques.\n\nAplique a segmentação gradualmente. Comece com 2 a 3 segmentos amplos e refine à medida que a sua lista cresce. Uma lista de 200 subscritores não beneficia de 15 segmentos diferentes — os grupos seriam demasiado pequenos para serem estatisticamente significativos. Uma lista de 2.000 subscritores pode beneficiar de 5 a 8 segmentos bem definidos.\n\nEnvie conteúdo segmentado quando fizer sentido, mas mantenha também newsletters gerais para toda a lista. Os anúncios de novos produtos e as dicas de ensino genéricas podem ir para toda a lista. Os emails sobre produtos específicos de matemática ou sugestões de atividades para pré-escolares devem ir para os segmentos relevantes. A segmentação melhora as taxas de abertura, reduz os cancelamentos e aumenta as conversões porque cada subscritor recebe conteúdo que é relevante para os seus interesses.`,
     },
     {
-      heading: 'Automatizar campanhas sazonais de email',
+      heading: `Automatizar campanhas sazonais de email`,
       content: `As campanhas sazonais automatizadas são sequências de emails programadas para serem enviadas em datas específicas do ano — alinhadas com os picos de procura de imprimíveis educativos. Uma vez configuradas, estas campanhas geram vendas recorrentes sem esforço manual contínuo.\n\nCrie uma sequência de regresso às aulas (3 a 4 emails começando em meados de julho). O primeiro email partilha dicas de preparação educativa e apresenta os seus pacotes de fichas por nível escolar. O segundo destaca produtos específicos com pré-visualizações e links diretos. O terceiro oferece um desconto de regresso às aulas com prazo limitado. O quarto (opcional) é um lembrete de última hora antes do início das aulas.\n\nCrie uma sequência de férias de inverno (3 emails começando em meados de outubro). Promova pacotes temáticos de Halloween, Natal e inverno com pré-visualizações visuais. As fichas com temas festivos têm picos de procura curtos mas intensos — o email marketing permite-lhe captar vendas antes de os compradores procurarem no marketplace.\n\nCrie uma sequência de novo ano (2 a 3 emails em janeiro). Foque-se em fichas de revisão, pacotes de competências e material para propósitos educativos de ano novo. Janeiro é um período forte para vendas de imprimíveis educativos porque os pais estabelecem objetivos de aprendizagem.\n\nCrie uma sequência de prevenção do retrocesso de verão (2 a 3 emails em maio-junho). Dirija-se a pais preocupados com a perda de competências durante as férias. Promova pacotes de atividades de verão e cadernos de prática diária.\n\nCada sequência sazonal deve ser criada uma vez e refinada anualmente com base nos dados de desempenho do ano anterior. Após dois anos, terá 10 a 15 emails sazonais automatizados a funcionar continuamente, gerando vendas alinhadas com os picos naturais de procura. O investimento inicial de criação é compensado pela receita recorrente sem esforço adicional.`,
     },
     {
-      heading: 'Acompanhar métricas e otimizar continuamente',
+      heading: `Acompanhar métricas e otimizar continuamente`,
       content: `O email marketing eficaz requer acompanhamento regular de métricas-chave que informam decisões de otimização. Sem dados, está a adivinhar — com dados, está a melhorar sistematicamente.\n\nAs métricas essenciais a acompanhar são: taxa de abertura (percentagem de subscritores que abrem o email), taxa de cliques (percentagem que clica em links), taxa de cancelamento (percentagem que cancela a subscrição) e receita por email (vendas geradas por cada envio).\n\nA taxa de abertura saudável para newsletters de imprimíveis é de 20 a 35%. Abaixo de 20% indica que as suas linhas de assunto não são suficientemente apelativas ou que está a enviar com demasiada frequência. Acima de 35% indica uma lista altamente envolvida — mantenha o que está a fazer.\n\nA taxa de cliques saudável é de 2 a 5% para emails de conteúdo e 3 a 8% para emails de promoção de produtos. Se as pessoas abrem mas não clicam, o conteúdo do email não é suficientemente apelativo ou os links não são visíveis. Experimente com botões de chamada para ação maiores, imagens de pré-visualização de produtos e posicionamento de links mais cedo no email.\n\nA taxa de cancelamento deve manter-se abaixo de 0,5% por email enviado. Taxas mais altas indicam que está a enviar com demasiada frequência, que o conteúdo não corresponde às expectativas ou que atraiu subscritores errados com o seu lead magnet.\n\nRealize testes A/B regulares em linhas de assunto, horários de envio e formatos de email. Envie a versão A a 20% da lista e a versão B a outros 20%, depois envie a versão vencedora aos restantes 60%. Com o tempo, estes testes incrementais melhoram significativamente o desempenho geral dos seus emails.\n\nReveja o desempenho mensalmente e faça ajustes trimestrais à sua estratégia. Elimine formatos de conteúdo que consistentemente geram baixo envolvimento. Duplique a aposta em tipos de email que geram altas taxas de abertura e cliques. A otimização contínua é o que transforma o email marketing de uma atividade esporádica numa máquina de vendas previsível.`,
     },
   ],
@@ -89,7 +89,7 @@ const content: GuideContent = {
       answer: `Os emails mais envolventes de vendedores de imprimíveis são conteúdo focado em valor que ajuda os subscritores a utilizar materiais educativos de forma mais eficaz. Partilhe dicas de ensino: como utilizar fichas para pacotes escalonados por nível, como incorporar imprimíveis em centros de aprendizagem, ou como adaptar fichas para diferentes níveis de competência. Ofereça ideias de atividades sazonais que se conectem com os temas dos seus produtos. Partilhe conteúdo dos bastidores sobre o seu processo de criação. Selecione coleções dos seus produtos existentes organizados sob um novo ângulo (produtos para atividades de dias chuvosos, produtos para rotinas matinais, produtos para preparação de avaliações). Os subscritores permanecem envolvidos quando os seus emails consistentemente fornecem ideias e recursos que podem usar, independentemente de estar a lançar novos produtos nessa semana.`,
     },
     {
-      question: 'Como evito que os meus emails vão para spam?',
+      question: `Como evito que os meus emails vão para spam?`,
       answer: `A entregabilidade do email depende de vários fatores que pode gerir ativamente. Use um fornecedor de serviços de email de boa reputação com infraestrutura sólida e monitorização de entregabilidade. Envie emails apenas a subscritores que se subscreveram voluntariamente — nunca compre listas de email nem adicione endereços sem consentimento. Mantenha padrões de envio consistentes em vez de longos silêncios seguidos de envios de alto volume. Inclua um link de cancelamento de subscrição claro em cada email (exigido por lei e benéfico para a qualidade da lista). Remova subscritores inativos que não abriram emails em 90 dias, pois sinalizam aos fornecedores de email que o seu conteúdo não é desejado. Evite palavras que ativem filtros de spam nas linhas de assunto e no conteúdo do email. Autentique o seu domínio de envio com registos SPF, DKIM e DMARC, que o seu fornecedor de serviços de email tipicamente o orienta durante a configuração.`,
     },
     {
@@ -107,17 +107,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-redes-sociais-imprimiveis', anchorText: `Marketing nas redes sociais para vendedores de imprimíveis` },
-    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: 'Marketing no Pinterest para negócios de fichas' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
+    { pageType: 'guide', slug: `marketing-redes-sociais-imprimiveis`, anchorText: `Marketing nas redes sociais para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: `Marketing no Pinterest para negócios de fichas` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
     { pageType: 'guide', slug: 'marketing-sazonal-imprimiveis', anchorText: `Calendário de marketing sazonal para vendedores de imprimíveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimiveis', anchorText: 'Como automatizar o seu negócio de imprimíveis' },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimiveis`, anchorText: `Como automatizar o seu negócio de imprimíveis` },
     { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo imprimível` },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
@@ -129,7 +129,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Produtos visualmente marcantes que se apresentam excecionalmente bem em campanhas de email. As imagens de pré-visualização de páginas para colorir geram altas taxas de cliques em emails de anúncio de produtos.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Gerador de Fichas de Correspondência',
+      title: `Gerador de Fichas de Correspondência`,
       description: `Atividades de correspondência temáticas que demonstram a variedade do catálogo em apresentações por email. Apresente diferentes temas de correspondência nos emails de difusão para destacar a amplitude da sua linha de produtos.`,
     },
   ],
@@ -171,11 +171,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Águia — imagem educativa temática', caption: 'Águia' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — imagem educativa temática', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Calau — imagem educativa temática', caption: 'Calau' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Arara — imagem educativa temática', caption: 'Arara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagem educativa temática', caption: 'Avestruz' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Águia — imagem educativa temática`, caption: 'Águia' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — imagem educativa temática`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Calau — imagem educativa temática`, caption: 'Calau' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Arara — imagem educativa temática`, caption: 'Arara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Avestruz — imagem educativa temática`, caption: 'Avestruz' },
   ],
 };
 

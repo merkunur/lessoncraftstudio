@@ -2,17 +2,17 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'schaduw koppelen werkblad generator',
+    primaryKeyword: `schaduw koppelen werkblad generator`,
     secondaryKeywords: [
       `printbare silhouet koppelactiviteit maker voor Etsy verkopers`,
       `schaduw matching puzzel werkblad generator voor KDP uitgevers`,
       `schaduw koppelen werkblad maker commerciële licentie`,
-      'schaduw matching werkbladen verkopen op Gumroad',
+      `schaduw matching werkbladen verkopen op Gumroad`,
     ],
     lsiKeywords: [
       `digitale silhouet koppel-printables online bedrijf`,
       `commercieel gebruik schaduwpuzzel werkblad generator`,
-      'printbare visuele koppelactiviteit business tools',
+      `printbare visuele koppelactiviteit business tools`,
     ],
     titleTag: `Schaduw Koppelen Generator | Maak & Verkoop Silhouetpuzzels`,
     metaDescription:
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       `Twee koppelmodi in één generator — Schaduw Koppelen maakt automatisch zwarte silhouetten van elke afbeelding, Maak het Compleet splitst afbeeldingen in helften — beide met Fisher-Yates derangement dat triviale koppelingen uitsluit, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties.`,
     description:
-      `Maak professionele schaduw koppelen werkbladen waarbij gebruikers gekleurde afbeeldingen koppelen aan hun silhouetten of gesplitste afbeeldingshelften opnieuw samenvoegen. De Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen gelabeld A, B, C, D in de bovenste rij en 4 automatisch gegenereerde zwarte silhouetten gelabeld 1, 2, 3, 4 in de onderste rij — silhouetten worden gemaakt door pixelniveau beeldverwerking die elke pixel met alpha > 10 omzet naar puur zwart, waardoor nauwkeurige omtrekken ontstaan die het exacte transparantieprofiel van elke afbeelding behouden. De Maak het Compleet-modus splitst afbeeldingen in helften met horizontale of verticale snijrichting, labelt eerste helften A–D en tweede helften 1–4, en past de indeling aan op basis van oriëntatie. Beide modi gebruiken Fisher-Yates derangement om te garanderen dat geen enkel item op zijn oorspronkelijke positie verschijnt, waardoor elke keer een echte koppeluitdaging ontstaat. Schakel labels tonen/verbergen in voor de A/B/C/D en 1/2/3/4 identificatoren, voeg optionele naam- en datumvelden toe voor gebruik online, en genereer automatische antwoordbladen die elke correcte letter-naar-nummer-koppeling weergeven. De Schaduw Koppelen Werkblad Generator is NIET taalgevoelig: de uitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf. Volledige Toegang ontgrendelt alle 104 thema's met meer dan 3100 illustraties en alle 11 UI-talen voor de app-interface. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF\'s en JPEG's op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu schaduwpuzzel-bundels verkoopt op Etsy.nl, visuele waarnemingswerkboeken samenstelt voor Amazon KDP, of snelle koppelactiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Maak professionele schaduw koppelen werkbladen waarbij gebruikers gekleurde afbeeldingen koppelen aan hun silhouetten of gesplitste afbeeldingshelften opnieuw samenvoegen. De Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen gelabeld A, B, C, D in de bovenste rij en 4 automatisch gegenereerde zwarte silhouetten gelabeld 1, 2, 3, 4 in de onderste rij — silhouetten worden gemaakt door pixelniveau beeldverwerking die elke pixel met alpha > 10 omzet naar puur zwart, waardoor nauwkeurige omtrekken ontstaan die het exacte transparantieprofiel van elke afbeelding behouden. De Maak het Compleet-modus splitst afbeeldingen in helften met horizontale of verticale snijrichting, labelt eerste helften A–D en tweede helften 1–4, en past de indeling aan op basis van oriëntatie. Beide modi gebruiken Fisher-Yates derangement om te garanderen dat geen enkel item op zijn oorspronkelijke positie verschijnt, waardoor elke keer een echte koppeluitdaging ontstaat. Schakel labels tonen/verbergen in voor de A/B/C/D en 1/2/3/4 identificatoren, voeg optionele naam- en datumvelden toe voor gebruik online, en genereer automatische antwoordbladen die elke correcte letter-naar-nummer-koppeling weergeven. De Schaduw Koppelen Werkblad Generator is NIET taalgevoelig: de uitvoer is puur visueel zonder gelokaliseerde woordinhoud op het werkblad zelf. Volledige Toegang ontgrendelt alle 104 thema`s met meer dan 3100 illustraties en alle 11 UI-talen voor de app-interface. Voeg achtergrondthema's en kaderthema's toe met onafhankelijke dekkingsregelaars, voeg aangepaste tekst toe met zeven lettertype-opties, en exporteer printklare PDF's en JPEG`s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu schaduwpuzzel-bundels verkoopt op Etsy.nl, visuele waarnemingswerkboeken samenstelt voor Amazon KDP, of snelle koppelactiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
@@ -36,22 +36,22 @@ const content: AppContent = {
           `Open het paneel Pagina-instellingen en kies een paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een volledig aangepaste afmeting. Kies een achtergrondkleur met de kleurkiezer als reserveachtergrond. Selecteer een achtergrondthema en pas de dekking aan (0–1 in stappen van 0,05), kies vervolgens een kaderthema met een eigen onafhankelijke dekkingsregelaar. Deze indelingskeuzes vormen het kader van je schaduw koppelen werkblad voordat je inhoud configureert. Als je verkoopt op Etsy.nl, maak dan zowel Letter-versies voor Noord-Amerikaanse kopers als A4-versies voor Europese klanten — het vierkante formaat (1200×1200) is ideaal voor Instagram- en Pinterest-promotie van je producten.`,
       },
       {
-        title: 'Kies oefenmodus en configureer opties',
+        title: `Kies oefenmodus en configureer opties`,
         description:
           `Open het paneel Oefeningconfiguratie en selecteer je modus: Schaduw Koppelen of Maak het Compleet. Schaduw Koppelen genereert zwarte silhouetten van je geselecteerde afbeeldingen via pixelniveau beeldverwerking. Maak het Compleet splitst afbeeldingen in helften — kies horizontale (boven/onder) of verticale (links/rechts) snijrichting met de keuzerondjes die in deze modus verschijnen. Schakel het selectievakje "Labels tonen" in (standaard AAN) om A/B/C/D en 1/2/3/4 identificatoren op het werkblad weer te geven. Schakel "Naam-/datumvelden opnemen" in om naam- en datumregels toe te voegen.`,
       },
       {
-        title: 'Selecteer 4 afbeeldingen uit de bibliotheek',
+        title: `Selecteer 4 afbeeldingen uit de bibliotheek`,
         description:
           `Open het paneel Afbeeldingenbibliotheek en blader door 104 thematische collecties met meer dan 3100 kleurrijke illustraties — dieren, voedsel, voertuigen, natuur, feestdagen en tientallen meer. Filter op thema met het dropdownmenu of zoek op trefwoord met 300ms debounce. Klik op afbeeldingen om ze te selecteren — de teller toont je voortgang naar de vereiste 4 afbeeldingen. Een voorbeeld van geselecteerde afbeeldingen bevestigt je keuzes voordat je genereert. Kies afbeeldingen met herkenbare omtrekken — dierenvormen, voertuigprofielen en objectcontouren produceren de meest onderscheidende silhouetten voor uitdagende koppelactiviteiten. Je kunt ook eigen PNG-, JPG- of GIF-afbeeldingen uploaden via het paneel Eigen Afbeeldingen Uploaden.`,
       },
       {
-        title: 'Genereer het schaduw koppelen werkblad',
+        title: `Genereer het schaduw koppelen werkblad`,
         description:
-          `Klik op Genereren om het koppelwerkblad te maken. In de Schaduw Koppelen-modus verwerkt de app elke afbeelding op pixelniveau — laadt deze op een canvas, extraheert pixeldata via getImageData en converteert elke pixel met alpha > 10 naar puur zwart (R=0, G=0, B=0, A=255) om nauwkeurige silhouetten te produceren. In de Maak het Compleet-modus worden afbeeldingen gesplitst langs de gekozen snijrichting. Beide modi passen Fisher-Yates derangement toe om te garanderen dat geen enkel item op zijn oorspronkelijke positie verschijnt. Een gestileerde koptekst verschijnt met een amberkleurige achtergrond (#FFC107), witte pilvormige container en 3px amberen kaderlijn met "Schaduw Koppelen" en instructies in de geselecteerde taal. De indeling past zich automatisch aan: liggende pagina's gebruiken 2 rijen × 4 items, staande pagina's gebruiken 2 kolommen × 4 items.`,
+          `Klik op Genereren om het koppelwerkblad te maken. In de Schaduw Koppelen-modus verwerkt de app elke afbeelding op pixelniveau — laadt deze op een canvas, extraheert pixeldata via getImageData en converteert elke pixel met alpha > 10 naar puur zwart (R=0, G=0, B=0, A=255) om nauwkeurige silhouetten te produceren. In de Maak het Compleet-modus worden afbeeldingen gesplitst langs de gekozen snijrichting. Beide modi passen Fisher-Yates derangement toe om te garanderen dat geen enkel item op zijn oorspronkelijke positie verschijnt. Een gestileerde koptekst verschijnt met een amberkleurige achtergrond (#FFC107), witte pilvormige container en 3px amberen kaderlijn met "Schaduw Koppelen" en instructies in de geselecteerde taal. De indeling past zich automatisch aan: liggende pagina`s gebruiken 2 rijen × 4 items, staande pagina`s gebruiken 2 kolommen × 4 items.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description:
           `Schakel naar het tabblad Antwoordblad om het automatisch gegenereerde antwoordblad te zien. In de Schaduw Koppelen-modus toont elke cel de originele afbeelding naast het silhouet met een label zoals "A → 2" dat de correcte koppeling aangeeft. In de Maak het Compleet-modus toont elke cel de volledige originele afbeelding met het koppelingslabel. Het raster gebruikt 4 kolommen met 50px tussenruimte vóór de tweede rij en 15px verticale afstand tussen elementen. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.`,
       },
@@ -69,7 +69,7 @@ const content: AppContent = {
       {
         title: `Twee Oefenmodi: Schaduw Koppelen en Maak het Compleet met Snijrichtingopties`,
         description:
-          `Eén generator levert twee verschillende visuele koppelactiviteiten. De Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen in de bovenste rij en 4 automatisch gegenereerde silhouetten in de onderste rij — gebruikers identificeren elke afbeelding aan de hand van alleen de omtrekvorm. De Maak het Compleet-modus splitst 4 afbeeldingen in helften en presenteert eerste helften en tweede helften afzonderlijk — gebruikers verbinden de stukken opnieuw om elk plaatje te completeren. In de Maak het Compleet-modus kies je horizontale snijrichting (bovenste/onderste helften) of verticale snijrichting (linker/rechter helften). De indeling past zich automatisch aan: liggende pagina's gebruiken 2 rijen × 4 items, staande pagina's gebruiken 2 kolommen × 4 items. Deze twee modi in één tool verdubbelen je productaanbod — verkoop silhouet-koppelsets én gesplitste-afbeelding-puzzels vanuit dezelfde generator.`,
+          `Eén generator levert twee verschillende visuele koppelactiviteiten. De Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen in de bovenste rij en 4 automatisch gegenereerde silhouetten in de onderste rij — gebruikers identificeren elke afbeelding aan de hand van alleen de omtrekvorm. De Maak het Compleet-modus splitst 4 afbeeldingen in helften en presenteert eerste helften en tweede helften afzonderlijk — gebruikers verbinden de stukken opnieuw om elk plaatje te completeren. In de Maak het Compleet-modus kies je horizontale snijrichting (bovenste/onderste helften) of verticale snijrichting (linker/rechter helften). De indeling past zich automatisch aan: liggende pagina`s gebruiken 2 rijen × 4 items, staande pagina`s gebruiken 2 kolommen × 4 items. Deze twee modi in één tool verdubbelen je productaanbod — verkoop silhouet-koppelsets én gesplitste-afbeelding-puzzels vanuit dezelfde generator.`,
       },
       {
         title: `Derangement-algoritme dat Triviale Koppelingen Uitsluit`,
@@ -84,7 +84,7 @@ const content: AppContent = {
       {
         title: `Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties`,
         description:
-          `Blader door 104 thematische beeldcollecties over dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt kleurrijke illustraties die onderscheidende silhouetten produceren met herkenbare omtrekken — dierenvormen, voertuigprofielen en objectcontouren die visuele waarneming uitdagen. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De Commerciële licentie bevat 10 kleurrijke thema's om mee te starten; Volledige Toegang ontgrendelt alle 104 thema\'s voor maximale creatieve variatie in beide oefenmodi. Kies thema's met complexe omtrekken — dieren met oren en staarten, voertuigen met wielen en antennes — voor de meest uitdagende schaduwkoppelingen.`,
+          `Blader door 104 thematische beeldcollecties over dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt kleurrijke illustraties die onderscheidende silhouetten produceren met herkenbare omtrekken — dierenvormen, voertuigprofielen en objectcontouren die visuele waarneming uitdagen. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De Commerciële licentie bevat 10 kleurrijke thema`s om mee te starten; Volledige Toegang ontgrendelt alle 104 thema's voor maximale creatieve variatie in beide oefenmodi. Kies thema`s met complexe omtrekken — dieren met oren en staarten, voertuigen met wielen en antennes — voor de meest uitdagende schaduwkoppelingen.`,
       },
       {
         title: `Optionele Labels en Naam-/Datumvelden voor gebruikers`,
@@ -108,13 +108,13 @@ const content: AppContent = {
     title: `Hoe Je Schaduw Koppelen Werkbladen Online Verkoopt`,
     cases: [
       {
-        title: 'Thematische Schaduwkoppeling-Bundels op Etsy.nl',
+        title: `Thematische Schaduwkoppeling-Bundels op Etsy.nl`,
         description:
           `Maak thematische schaduw koppelen pakketten met de 104 beeldcollecties — dieren-schaduwpuzzels, voertuigen-silhouetkoppeling, voedsel-schaduwuitdagingen en tientallen meer. Elk thema biedt illustraties met onderscheidende omtrekken die boeiende silhouetactiviteiten opleveren. Bundel 15–20 schaduw koppelen werkbladen per thema met antwoordbladen inbegrepen, en verkoop voor €3–€7 per bundel. Mix beide modi binnen één bundel: Schaduw Koppelen werkbladen voor silhouetherkenning en Maak het Compleet werkbladen voor ruimtelijk redeneren. De automatisch gegenereerde silhouetten en antwoordbladen elimineren de meest tijdrovende onderdelen van de productie. Omdat de werkbladen puur visueel zijn, werken ze in elke taal — verkoop dezelfde bundel aan Nederlandse, Duitse, Franse en Engelse klanten zonder aanpassingen.`,
         platform: 'Etsy (etsy.nl)',
       },
       {
-        title: 'Visuele Waarnemingswerkboeken op Amazon KDP',
+        title: `Visuele Waarnemingswerkboeken op Amazon KDP`,
         description:
           `Stel 50–80 schaduw koppelen werkbladen samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer je boek met afwisselende hoofdstukken: Schaduw Koppelen-hoofdstukken bouwen silhouetherkenningsvaardigheden op terwijl Maak het Compleet-hoofdstukken ruimtelijk bewustzijn en deel-tot-geheel-redeneren ontwikkelen. Neem zowel horizontale als verticale snijrichtingen op in de Maak het Compleet-secties voor variatie. Plaats antwoordbladen achterin het boek met de automatisch gegenereerde antwoordblad-functie. De grijstintenmodus produceert inktbesparende pagina's klaar voor zwart-wit boekbinnenwerken. Visuele waarnemingspuzzelboeken presteren het hele jaar goed in de categorie activiteitenboeken — schaduwpuzzels hebben een universele aantrekkingskracht die niet afhankelijk is van taal of cultuur.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -123,41 +123,41 @@ const content: AppContent = {
         title: `Lesactiviteiten als Snelle Afmaaktaken voor Gumroad`,
         description:
           `Maak kant-en-klare schaduw koppelen activiteiten met naam-/datumvelden en gedrukte antwoordbladen voor gebruik online. verkopers die zoeken naar visuele discriminatie-oefeningen waarderen werkbladen die printklaar worden geleverd. Maak lesstof-gerelateerde sets: dieren-schaduwkoppeling voor biologielessen, hulpverlener-silhouetten voor maatschappijleer, voedsel-schaduwpuzzels voor gezondheidslessen. De labels-schakelaar laat je zowel ondersteunde versies (met A/B/C/D en 1/2/3/4 labels) als uitdagingsversies (labels verborgen) in hetzelfde product maken voor getrapte productpakketten. Schaduw koppelen werkbladen oefenen visuele waarneming en visuele discriminatie — vaardigheden die in elk productcatalogus voorkomen van kleuterniveau tot groep 6.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Seizoensgebonden Schaduwkoppelingscollecties',
+        title: `Seizoensgebonden Schaduwkoppelingscollecties`,
         description:
           `De 104 thematische beeldcollecties dekken elk seizoen en elke feestdag — Kerstmis, Halloween, Pasen, Valentijnsdag, Koningsdag, terug-naar-school, zomervakantie en meer. Silhouetactiviteiten hebben speciale aantrekkingskracht tijdens Halloween wanneer schaduw- en mysteriethema's van nature populair zijn — dit is het ideale moment om schaduwkoppeling-bundels uit te brengen. Maak tijdgebonden schaduw koppelen collecties die aansluiten bij piekverkoopperiodes. Neem zowel Schaduw Koppelen als Maak het Compleet werkbladen op in elke seizoensbundel voor maximale waarde en variatie. Seizoensproducten brengen hogere prijzen op tijdens hun piekperiodes — een Halloween-schaduwbundel kan €5–€8 opbrengen tegenover €3–€5 voor een standaardbundel.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
+        platform: `Etsy / Amazon KDP / Gumroad (seizoensgebonden)`,
       },
       {
         title: `Gemengde-Modus Puzzelpakketten als Premium Bundels`,
         description:
           `Combineer beide oefenmodi in premium gemengde-modus puzzelpakketten die de veelzijdigheid van de generator tonen. Elk pakket bevat Schaduw Koppelen werkbladen (silhouetherkenning), Maak het Compleet werkbladen met horizontale snijrichting (boven/onder hersamenstelling) en Maak het Compleet werkbladen met verticale snijrichting (links/rechts hersamenstelling) — drie verschillende activiteitentypen vanuit één thematische beeldset. Deze drie-in-één-aanpak rechtvaardigt premium prijzen van €7–€12 per bundel. Antwoordbladen voor elk werkblad worden automatisch inbegrepen, wat professionele afwerking toevoegt die een hogere waargenomen waarde oplevert. De universele visuele aard van deze werkbladen betekent dat je ze zonder aanpassingen kunt verkopen op Etsy.nl, Etsy.com, Etsy.de en elke andere Etsy-marktplaats.`,
-        platform: 'Etsy / Amazon KDP (premium bundels)',
+        platform: `Etsy / Amazon KDP (premium bundels)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Wat zijn de twee oefenmodi en hoe verschillen ze?',
+      question: `Wat zijn de twee oefenmodi en hoe verschillen ze?`,
       answer:
         `De generator biedt twee verschillende modi. De Schaduw Koppelen-modus plaatst 4 gekleurde afbeeldingen in de bovenste rij en 4 automatisch gegenereerde zwarte silhouetten in de onderste rij — gebruikers koppelen elke afbeelding aan zijn schaduw door letters (A–D) te verbinden met nummers (1–4). De Maak het Compleet-modus splitst 4 afbeeldingen in helften en presenteert eerste helften (A–D) en tweede helften (1–4) afzonderlijk — gebruikers koppelen helften om elk plaatje te completeren. Schaduw Koppelen test silhouetherkenning terwijl Maak het Compleet ruimtelijk bewustzijn en deel-tot-geheel-redeneren ontwikkelt.`,
     },
     {
-      question: 'Hoe worden de silhouetten gegenereerd?',
+      question: `Hoe worden de silhouetten gegenereerd?`,
       answer:
         `Silhouetten worden gemaakt door echte pixelniveau beeldverwerking, niet door CSS-filters of voorgemaakte schaduw-assets. De app laadt elke afbeelding op een canvas, extraheert elke pixel met getImageData en converteert alle pixels met een alpha-waarde groter dan 10 naar puur zwart (R=0, G=0, B=0, A=255). Dit behoudt het exacte transparantieprofiel van elke bronafbeelding, waardoor nauwkeurige zwarte silhouetten ontstaan die fijne details weergeven zoals oren, staarten, handvatten en andere onderscheidende omtrekken.`,
     },
     {
       question: `Wat zijn de snijrichtingopties in de Maak het Compleet-modus?`,
       answer:
-        `De Maak het Compleet-modus biedt twee snijrichtingopties via keuzerondjes: Horizontaal snijdt afbeeldingen in bovenste en onderste helften, terwijl Verticaal afbeeldingen snijdt in linker en rechter helften. De snijrichting geldt voor alle 4 afbeeldingen op het werkblad. De indeling past zich automatisch aan op basis van pagina-oriëntatie — liggende pagina's rangschikken items in 2 rijen × 4 items, terwijl staande pagina's 2 kolommen × 4 items gebruiken voor optimale visuele balans.`,
+        `De Maak het Compleet-modus biedt twee snijrichtingopties via keuzerondjes: Horizontaal snijdt afbeeldingen in bovenste en onderste helften, terwijl Verticaal afbeeldingen snijdt in linker en rechter helften. De snijrichting geldt voor alle 4 afbeeldingen op het werkblad. De indeling past zich automatisch aan op basis van pagina-oriëntatie — liggende pagina`s rangschikken items in 2 rijen × 4 items, terwijl staande pagina`s 2 kolommen × 4 items gebruiken voor optimale visuele balans.`,
     },
     {
-      question: 'Hoe werkt het derangement-algoritme?',
+      question: `Hoe werkt het derangement-algoritme?`,
       answer:
         `Beide modi gebruiken een Fisher-Yates derangement-algoritme dat garandeert dat geen enkel item op zijn oorspronkelijke positie verschijnt. In de Schaduw Koppelen-modus zit geen enkel silhouet direct onder de bijbehorende afbeelding. In de Maak het Compleet-modus verschijnt geen enkele tweede helft naast de bijbehorende eerste helft. Dit zorgt ervoor dat elk werkblad een echte koppeluitdaging presenteert — gebruikers kunnen niet correct raden op basis van alleen positie. Het derangement wordt bij elke generatie opnieuw berekend, waardoor verschillende arrangementen ontstaan van dezelfde afbeeldingen.`,
     },
@@ -172,7 +172,7 @@ const content: AppContent = {
         `Het werkblad gebruikt een vast aantal van 4 koppeloplossingen (SELECT_COUNT = 4). Dit is niet aanpasbaar. Vier items bieden de optimale balans voor schaduw- en gesplitste-afbeelding-koppeling: genoeg variatie om een echte koppeluitdaging te creëren met derangement, terwijl elke afbeelding groot genoeg blijft voor gebruikers om fijne details in silhouetten en gesplitste helften te bestuderen. Het consistente 4-items-formaat werkt ook goed voor gebundelde producten waar elke pagina een voorspelbare inhoudsdichtheid heeft.`,
     },
     {
-      question: 'Hoe werken de naam- en datumvelden?',
+      question: `Hoe werken de naam- en datumvelden?`,
       answer:
         `Schakel het selectievakje "Naam-/datumvelden opnemen" in het paneel Oefeningconfiguratie in om naam- en datumregels onderaan het werkblad toe te voegen. Wanneer ingeschakeld, kunnen gebruikers hun naam en de datum direct op de gedrukte pagina schrijven — essentieel voor klasverantwoording en georganiseerde beoordeling. Wanneer uitgeschakeld, gebruikt het werkblad het volledige paginagebied voor koppelinhoud. Deze optie werkt met zowel de Schaduw Koppelen- als de Maak het Compleet-modus.`,
     },
@@ -187,9 +187,9 @@ const content: AppContent = {
         `Ja. Je kunt elke functie gebruiken — beide oefenmodi, automatisch gegenereerde silhouetten, snijrichtingopties, het antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema's, labels-schakelaar, naam-/datumvelden, teksttools en alle downloadformaten — zonder account aan te maken, creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.`,
     },
     {
-      question: 'Is de Schaduw Koppelen Generator taalgevoelig?',
+      question: `Is de Schaduw Koppelen Generator taalgevoelig?`,
       answer:
-        `Nee. Schaduw Koppelen is puur visueel — de werkbladuitvoer bevat alleen afbeeldingen, silhouetten en gesplitste helften zonder gelokaliseerde woordinhoud. De app-interface (menu's, knoppen, koptekst) ondersteunt alle 11 talen, maar het gegenereerde werkblad werkt identiek ongeacht taalselectie. Dit maakt schaduw koppelen werkbladen universeel verkoopbaar op alle markten zonder vertaling. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema's en alle 11 UI-talen.`,
+        `Nee. Schaduw Koppelen is puur visueel — de werkbladuitvoer bevat alleen afbeeldingen, silhouetten en gesplitste helften zonder gelokaliseerde woordinhoud. De app-interface (menu`s, knoppen, koptekst) ondersteunt alle 11 talen, maar het gegenereerde werkblad werkt identiek ongeacht taalselectie. Dit maakt schaduw koppelen werkbladen universeel verkoopbaar op alle markten zonder vertaling. De Commerciële licentie bevat 10 kleurrijke thema's; Volledige Toegang ontgrendelt alle 104 thema`s en alle 11 UI-talen.`,
     },
     {
       question: `Kan ik schaduw koppelen werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?`,
@@ -212,12 +212,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'raster-puzzel-werkbladen',
-      anchorText: 'Rasterpuzzel Werkblad Generator',
+      anchorText: `Rasterpuzzel Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'plaatjes-bingo-werkbladen',
-      anchorText: 'Plaatjes Bingo Werkblad Generator',
+      anchorText: `Plaatjes Bingo Werkblad Generator`,
     },
     {
       pageType: 'app',
@@ -227,12 +227,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkblad Generator',
+      anchorText: `Kleurplaten Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'zoek-voorwerpen-werkbladen',
-      anchorText: 'Zoek Voorwerpen Werkblad Generator',
+      anchorText: `Zoek Voorwerpen Werkblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'peuterspeelzaal-printable-ideen',
+      slug: `peuterspeelzaal-printable-ideen`,
       anchorText: `Peuteronderwijs printable ideeën voor vroege ontwikkeling`,
     },
     {
@@ -252,12 +252,12 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'blauwdruk-printable-bedrijf',
-      anchorText: 'Blauwdruk voor je printable bedrijf',
+      anchorText: `Blauwdruk voor je printable bedrijf`,
     },
     {
       pageType: 'guide',
-      slug: 'schaduw-koppelen-werkbladen-maken',
-      anchorText: 'Schaduw-koppelen werkbladen maken',
+      slug: `schaduw-koppelen-werkbladen-maken`,
+      anchorText: `Schaduw-koppelen werkbladen maken`,
     },
   ],
 

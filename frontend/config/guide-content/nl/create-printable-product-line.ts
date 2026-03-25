@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: [
       'werkblad productlijn opbouwen',
       'printable collectie strategie',
-      'educatieve productlijn ontwikkelen',
+      `educatieve productlijn ontwikkelen`,
       'printable catalogus planning',
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `productlanceringsschema publicatiekalender contentplanning capaciteitsbalans markttiming`,
       `klantreis herhaalaankoop levenslange klantwaarde merkbekendheid loyaliteitsopbouw`,
     ],
-    titleTag: 'Printable Productlijn Maken — Stap-voor-Stap Gids',
+    titleTag: `Printable Productlijn Maken — Stap-voor-Stap Gids`,
     metaDescription: `Leer een winstgevende printable productlijn opbouwen. Strategieën voor categoriestructuur, merkconsistentie, kruisverkoop en seizoensgebonden uitbreiding.`,
   },
 
   hero: {
-    title: 'Een Printable Productlijn Maken',
+    title: `Een Printable Productlijn Maken`,
     tagline: `Van losse producten naar een samenhangende, professionele productlijn die klanten steeds opnieuw laat terugkomen — met strategieën voor categoriestructuur, merkconsistentie, kruisverkoopmogelijkheden, seizoensgebonden uitbreiding en langetermijn catalogusplanning voor maximale omzet op elk verkoopplatform`,
     description: `Een succesvolle printable business draait niet om het maken van zoveel mogelijk losse producten, maar om het bouwen van een samenhangende productlijn die als geheel meer waarde biedt dan de som der delen. Deze gids laat je stap voor stap zien hoe je een strategische productlijn opbouwt die herhaalaankopen stimuleert, kruisverkoopkansen maximaliseert en je merk positioneert als de go-to bron in je niche — of je nu verkoopt op Etsy, Amazon KDP, Gumroad, Gumroad of je eigen website.`,
   },
@@ -138,49 +138,49 @@ const content: GuideContent = {
 
   nextSteps: [
     { slug: 'create-worksheet-bundles', title: 'Werkblad Bundels Maken', description: `Leer hoe je overtuigende werkblad bundels samenstelt die je gemiddelde bestelwaarde verhogen en kopers meer waarde bieden met strategische bundelprijsstelling.` },
-    { slug: 'niche-selection-printables', title: 'Niche Selectie voor Printables', description: `Ontdek hoe je de juiste niche kiest voor je printable productlijn met marktonderzoek, concurrentieanalyse en winstgevendheidsbeoordelingen.` },
-    { slug: 'complete-guide-printable-business', title: 'Complete Gids Printable Bedrijf', description: `De ultieme gids voor het starten en laten groeien van een winstgevend printable bedrijf van begin tot eind.` },
+    { slug: 'niche-selection-printables', title: `Niche Selectie voor Printables`, description: `Ontdek hoe je de juiste niche kiest voor je printable productlijn met marktonderzoek, concurrentieanalyse en winstgevendheidsbeoordelingen.` },
+    { slug: `complete-guide-printable-business`, title: `Complete Gids Printable Bedrijf`, description: `De ultieme gids voor het starten en laten groeien van een winstgevend printable bedrijf van begin tot eind.` },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels maken die verkopen' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche selectie voor printable bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor educatieve printables' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Printable bedrijf opschalen' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'Kleurplaten maken en verkopen op Etsy' },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Werkblad bundels maken die verkopen` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Niche selectie voor printable bedrijven` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prijsstrategieën voor educatieve printables` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: 'Printable bedrijf opschalen' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Rekenwerkbladen verkopen op Etsy` },
+    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: `Kleurplaten maken en verkopen op Etsy` },
     { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
+    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: `Printables verkopen op Gumroad` },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoeker puzzels maken' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete gids printable bedrijf' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete gids printable bedrijf` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Gids commerciële licentie' },
   ],
 
   toolsRecommended: [
-    { appId: 'wordsearch', title: 'Woordzoeker Generator', description: `Maak professionele woordzoekers in meerdere talen en thema's als vast onderdeel van je productlijn. De gratis proefversie met watermerk laat je de kwaliteit testen voordat je investeert in een commerciële licentie.` },
+    { appId: 'wordsearch', title: 'Woordzoeker Generator`, description: \`Maak professionele woordzoekers in meerdere talen en thema`s als vast onderdeel van je productlijn. De gratis proefversie met watermerk laat je de kwaliteit testen voordat je investeert in een commerciële licentie.` },
     { appId: 'addition', title: 'Optellen Generator', description: `Genereer gevarieerde optellen werkbladen met verschillende moeilijkheidsgraden voor een complete rekenwerkbladen productlijn. Probeer de gratis proefversie met watermerk om de consistente opmaak te ervaren.` },
     { appId: 'matching', title: 'Koppelen Generator', description: `Creëer visueel aantrekkelijke koppelactiviteiten die variatie toevoegen aan je productlijn en geschikt zijn voor meerdere leeftijdsgroepen. Test de gratis proefversie met watermerk.` },
     { appId: 'coloring', title: 'Kleurplaat Generator', description: `Maak thematische kleurplaten die je productlijn verbreden en een breed publiek aanspreken. De gratis proefversie met watermerk toont de professionele kwaliteit van de uitvoer.` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad als onderdeel van productlijn' },
+    heroImage: { src: `/samples/dutch/matching/Zoek de Paren 1.webp`, alt: `Koppelen werkblad als onderdeel van productlijn` },
     samples: [
-      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad in productlijn context', caption: `Koppelen activiteiten vormen een veelzijdig onderdeel van elke educatieve productlijn` },
-      { src: '/samples/dutch/addition/Optellen is Leuk 1.webp', alt: 'Optellen werkblad als kern van rekenproductlijn', caption: `Rekenwerkbladen zijn de basis van de meest winstgevende educatieve productlijnen` },
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker als aanvullend product in productlijn', caption: `Woordzoekers voegen variatie toe aan je productlijn en trekken nieuwe kopers aan` },
+      { src: `/samples/dutch/matching/Zoek de Paren 1.webp`, alt: `Koppelen werkblad in productlijn context`, caption: `Koppelen activiteiten vormen een veelzijdig onderdeel van elke educatieve productlijn` },
+      { src: `/samples/dutch/addition/Optellen is Leuk 1.webp`, alt: `Optellen werkblad als kern van rekenproductlijn`, caption: `Rekenwerkbladen zijn de basis van de meest winstgevende educatieve productlijnen` },
+      { src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`, alt: `Woordzoeker als aanvullend product in productlijn`, caption: `Woordzoekers voegen variatie toe aan je productlijn en trekken nieuwe kopers aan` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Hoe Bouw Je een Winstgevende Printable Productlijn Op`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/chicken.webp', alt: 'Kip — thematische educatieve afbeelding', caption: 'Kip' },
-    { src: '/image-library/farm%20animals/cow.webp', alt: 'Koe — thematische educatieve afbeelding', caption: 'Koe' },
-    { src: '/image-library/farm%20animals/duck.webp', alt: 'Eend — thematische educatieve afbeelding', caption: 'Eend' },
-    { src: '/image-library/farm%20animals/horse.webp', alt: 'Paard — thematische educatieve afbeelding', caption: 'Paard' },
-    { src: '/image-library/farm%20animals/pig.webp', alt: 'Varken — thematische educatieve afbeelding', caption: 'Varken' },
+    { src: `/image-library/farm%20animals/chicken.webp`, alt: `Kip — thematische educatieve afbeelding`, caption: 'Kip' },
+    { src: `/image-library/farm%20animals/cow.webp`, alt: `Koe — thematische educatieve afbeelding`, caption: 'Koe' },
+    { src: `/image-library/farm%20animals/duck.webp`, alt: `Eend — thematische educatieve afbeelding`, caption: 'Eend' },
+    { src: `/image-library/farm%20animals/horse.webp`, alt: `Paard — thematische educatieve afbeelding`, caption: 'Paard' },
+    { src: `/image-library/farm%20animals/pig.webp`, alt: `Varken — thematische educatieve afbeelding`, caption: 'Varken' },
   ],
 };
 

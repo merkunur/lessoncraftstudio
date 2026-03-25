@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       `generador de fichas de patrones imprimibles para vendedores Etsy`,
       `creador de fichas de reconocimiento de secuencias para Amazon KDP`,
-      'vender fichas de completar patrones en Gumroad',
+      `vender fichas de completar patrones en Gumroad`,
       `generador de fichas de patrones licencia comercial`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `fichas de reconocimiento de patrones imprimibles uso comercial`,
       `generador de fichas de patrones nueve tipos de secuencias`,
     ],
-    titleTag: 'Generador Fichas de Patrones | Crear y Vender',
+    titleTag: `Generador Fichas de Patrones | Crear y Vender`,
     metaDescription:
       `Crea fichas de patrones para Etsy, KDP y Gumroad. Nueve tipos de patrones, dos modos de pregunta, config por ejercicio, 104 temas. Prueba gratis con marca de.`,
   },
@@ -27,10 +27,10 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Patrones en 5 Pasos',
+    title: `Cómo Crear Fichas de Patrones en 5 Pasos`,
     steps: [
       {
-        title: 'Configurar el diseño de página',
+        title: `Configurar el diseño de página`,
         description:
           `Abre el panel Diseño de Página y elige un formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página, elige un tema decorativo de fondo de la biblioteca de imágenes y ajusta su opacidad para mantener los ejercicios bien visibles. Añade un marco de borde a juego con control de opacidad independiente. Estas opciones de diseño dan a tus fichas de patrones un aspecto profesional y pulido antes de configurar los ejercicios.`,
       },
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Elige el número de ejercicios por página de 1 a 8 (5 por defecto). Activa la opción Incluir Números de Ejercicio para añadir numeración. Establece un tema global para aplicar imágenes coordinadas a todos los ejercicios, o déjalo abierto para elegir los temas ejercicio por ejercicio. Activa Inicio Aleatorio para comenzar los patrones a mitad de ciclo y Posición Aleatoria del Espacio en Blanco para colocar el elemento que falta en cualquier lugar de la secuencia en lugar de una ubicación fija. Estos ajustes globales estructuran el conjunto de la ficha antes de configurar los ejercicios individuales.`,
       },
       {
-        title: 'Configurar cada ejercicio de forma independiente',
+        title: `Configurar cada ejercicio de forma independiente`,
         description:
           `Cada ejercicio de la página tiene sus propios ajustes para tipo de patrón, modo de pregunta y tema. Selecciona entre nueve tipos de patrones: AB, AAB, ABB, ABC, AABB, ABBC, AABC, ABCC o ABCD — cada uno utilizando de 2 a 4 imágenes distintas según el tipo. Elige el modo Casilla Vacía donde un elemento se reemplaza por un espacio en blanco, o el modo Opción Múltiple que presenta tres respuestas posibles (una correcta, dos distractores) junto a la casilla vacía. Asigna un tema desde la biblioteca de 104 colecciones, selecciona imágenes manualmente o sube imágenes personalizadas. Esta independencia por ejercicio significa que una página puede combinar ejercicios simples AB en casilla vacía con desafíos complejos ABCD en opción múltiple.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Usa el panel Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha, o instrucciones con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y contorno para una legibilidad óptima. El lienzo completo Fabric.js te permite arrastrar, redimensionar, rotar y reposicionar cada elemento de la página. Los controles de capas gestionan el orden de apilamiento, el bloqueo/desbloqueo protege los elementos terminados mientras editas otros, y las herramientas de alineación posicionan los elementos con precisión. Haz zoom para una colocación precisa con deshacer y rehacer ilimitados.`,
       },
       {
-        title: 'Revisar la clave de respuesta y descargar',
+        title: `Revisar la clave de respuesta y descargar`,
         description:
           `Cambia a la pestaña Clave de Respuesta para ver una versión completada de la ficha con todas las casillas vacías rellenadas mostrando los elementos correctos del patrón. La ficha y la clave de respuesta son editables de forma independiente en lienzos separados. Activa la exportación en escala de grises para versiones que ahorran tinta. Luego descarga cada uno como JPEG de alta resolución o PDF listo para imprimir. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — la ficha y la clave de respuesta se descargan como archivos separados para un paquete de producto completo.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `Cada tipo de patrón admite dos modos de pregunta fundamentalmente diferentes que duplican la variedad de productos. El modo Casilla Vacía reemplaza un elemento del patrón con un espacio en blanco — los usuarios deben identificar el patrón y determinar el elemento que falta sin ninguna pista. El modo Opción Múltiple presenta la casilla vacía acompañada de tres respuestas posibles: un elemento correcto y dos distractores. La Casilla Vacía evalúa el razonamiento abierto sobre patrones; la Opción Múltiple evalúa el reconocimiento con opciones de respuesta estructuradas. El mismo patrón AB se convierte en dos productos completamente diferentes según el modo que elijas. Los vendedores pueden ofrecer ambos modos como niveles de dificultad separados o combinarlos en una sola página para práctica variada.`,
       },
       {
-        title: 'Configuración independiente por ejercicio',
+        title: `Configuración independiente por ejercicio`,
         description:
           `Cada ejercicio de la página tiene su propio tipo de patrón, modo de pregunta y tema — configurado de forma independiente de todos los demás ejercicios. Una sola ficha puede comenzar con un calentamiento AB en casilla vacía, progresar hacia una práctica ABC en opción múltiple en el medio, y terminar con un desafío ABCD en casilla vacía en la parte inferior. Esta independencia por ejercicio elimina la necesidad de generar páginas separadas para cada nivel de dificultad. Los vendedores obtienen práctica diferenciada en una sola página, y los vendedores crean productos más sofisticados que demuestran un diseño profesional reflexivo — las páginas de dificultad mixta se venden a precios más altos que las fichas de un solo patrón.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Patrones en Línea',
+    title: `Cómo Vender Fichas de Patrones en Línea`,
     cases: [
       {
-        title: 'Packs de completar patrones en Etsy',
+        title: `Packs de completar patrones en Etsy`,
         description:
           `Crea packs temáticos de completar patrones aprovechando la mayor variedad disponible: nueve tipos de patrones multiplicados por dos modos de pregunta dan 18 estilos de ejercicio distintos por tema. Agrupa animales de granja, dinosaurios, criaturas marinas y vehículos como packs temáticos separados con 20 a 30 fichas cada uno. Estructura cada pack con dificultad progresiva — ejercicios AB en casilla vacía primero, avanzando hacia ABC y ABCD, luego repitiendo la progresión en modo opción múltiple. Incluye las claves de respuesta autogeneradas como archivos bonus. El formato completamente visual con cero texto hace cada pack vendible en todo el mundo sin traducción. Fija el precio de packs temáticos individuales a 3 $–5 $ y de packs progresivos multitema a 14 $–20 $.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de aprendizaje temprano en Amazon KDP',
+        title: `Cuadernos de aprendizaje temprano en Amazon KDP`,
         description:
           `Compila de 80 a 120 ejercicios de completar patrones en un cuaderno impreso con formato Amazon KDP. Estructura el libro como una progresión de dificultad en dos ejes: complejidad del patrón (AB hasta ABCD) y modo de pregunta (casilla vacía y luego opción múltiple). El Capítulo 1 cubre ejercicios AB y AAB en casilla vacía. El Capítulo 2 introduce patrones ABC y AABB en casilla vacía. El Capítulo 3 retoma AB a AABB en formato opción múltiple. El Capítulo 4 presenta ABBC, AABC, ABCC y ABCD como desafíos avanzados. El Capítulo 5 mezcla tipos de patrones y modos de pregunta en las mismas páginas. El formato completamente visual no necesita traducción para los mercados KDP internacionales.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros visuales diferenciados para Gumroad',
+        title: `Centros visuales diferenciados para Gumroad`,
         description:
           `Construye conjuntos de práctica de reconocimiento de patrones por niveles usando la configuración por ejercicio como diferenciador principal. El Nivel 1 presenta páginas completamente en AB casilla vacía con el mismo tema. El Nivel 2 mezcla ejercicios AB y AAB en casilla vacía. El Nivel 3 introduce ejercicios ABC en opción múltiple junto a calentamientos más simples en casilla vacía. El Nivel 4 combina desafíos ABCD en casilla vacía con inicio aleatorio y posición aleatoria del espacio en blanco activados. Cada nivel se enfoca en una demanda cognitiva diferente, y la independencia por ejercicio significa que una página impresa sirve como actividad diferenciada completa. Acompaña cada nivel con ejercicios temáticos y claves de respuesta separadas.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Fichas visuales multilingües para mercados globales`,
         description:
           `Como los ejercicios de Fichas de Patrones contienen solo imágenes en filas de cuadrícula con cero texto en la salida, el mismo producto funciona en todos los idiomas sin modificación. Crea un conjunto de ejercicios de completar patrones y véndelo en todo el mundo — sin traducción necesaria, sin versiones de idiomas separadas que mantener. Cambiar el idioma del contenido solo afecta las etiquetas de la biblioteca de imágenes en el generador, no la ficha impresa. Publica productos idénticos en tiendas Etsy dirigidas a diferentes países, o publica el mismo interior KDP en todos los mercados internacionales de Amazon. Un solo flujo de trabajo produce un producto universalmente vendible.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
         title: `Herramienta de conceptos de patrones para venta en línea y el refuerzo`,
         description:
           `Sube imágenes personalizadas para crear fichas de patrones adaptadas a cualquier materia o unidad — usa etapas de crecimiento de plantas para una lección de ciencias, formas geométricas para una clase de matemáticas, o símbolos de notas musicales para una clase de música. Nueve tipos de patrones te permiten adaptar el ejercicio al objetivo de aprendizaje: AB para la introducción, ABC para la práctica, ABCD para la evaluación. Combina casilla vacía y opción múltiple en la misma página para práctica variada. Activa el inicio aleatorio y la posición aleatoria del espacio en blanco para generar fichas únicas para cada usuario, impidiendo la copia. La pestaña de clave de respuesta separada ahorra valor percibido, y la configuración por ejercicio permite crear páginas diferenciadas para grupos de niveles mixtos.`,
-        platform: 'Tienda / Refuerzo / Educación en casa',
+        platform: `Tienda / Refuerzo / Educación en casa`,
       },
     ],
   },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `El modo Casilla Vacía reemplaza un elemento del patrón con un espacio en blanco — los usuarios deben identificar el patrón y determinar el elemento que falta sin ninguna pista. El modo Opción Múltiple presenta la casilla vacía acompañada de tres respuestas posibles: un elemento correcto y dos distractores de diferentes posiciones del patrón. La Casilla Vacía evalúa el razonamiento abierto; la Opción Múltiple evalúa el reconocimiento con opciones estructuradas. Ambos modos funcionan con los nueve tipos de patrones, dando 18 estilos de ejercicio distintos.`,
     },
     {
-      question: '¿Cómo funciona la configuración por ejercicio?',
+      question: `¿Cómo funciona la configuración por ejercicio?`,
       answer:
         `Cada ejercicio de la página tiene ajustes independientes para tipo de patrón, modo de pregunta y tema de imágenes. Puedes configurar el Ejercicio 1 como AB casilla vacía con animales de granja, el Ejercicio 2 como ABC opción múltiple con vehículos, y el Ejercicio 3 como ABCD casilla vacía con criaturas marinas — todo en la misma página. Esto significa que una sola ficha puede servir como actividad diferenciada completa con dificultad progresiva integrada, sin necesidad de páginas separadas para cada tipo de patrón o modo de pregunta.`,
     },
@@ -161,7 +161,7 @@ const content: AppContent = {
         `Inicio Aleatorio comienza el patrón en un punto aleatorio del ciclo en lugar de siempre en el primer elemento — un patrón ABC podría comenzar en C-A-B-C en vez de A-B-C. Posición Aleatoria del Espacio en Blanco coloca el elemento que falta en cualquier posición de la secuencia en lugar de una ubicación fija. Juntos, estos ajustes impiden que los usuarios resuelvan los patrones por rutina y garantizan que cada ficha generada presente un desafío nuevo, incluso usando el mismo tipo de patrón y tema.`,
     },
     {
-      question: '¿Cuántos ejercicios puedo poner en una página?',
+      question: `¿Cuántos ejercicios puedo poner en una página?`,
       answer:
         `Puedes configurar de 1 a 8 ejercicios por página, con un valor predeterminado de 5. Menos ejercicios por página crean filas de cuadrícula más grandes y claras, ideales para usuarios pequeños o práctica enfocada. Más ejercicios crean fichas más densas adecuadas para evaluación o repaso. Combinado con la configuración por ejercicio, 8 ejercicios en una página pueden presentar 8 tipos de patrones diferentes o mezclar los modos casilla vacía y opción múltiple para práctica completa.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de patrones como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Nueve tipos de patrones, dos modos de pregunta y la configuración por ejercicio te ofrecen la mayor variedad y diferenciación de productos en las categorías de los marketplaces.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar cada tipo de patrón, cada modo de pregunta, cada configuración de ejercicio, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Generador de Fichas Grande y Pequeño',
+      anchorText: `Generador de Fichas Grande y Pequeño`,
     },
     {
       pageType: 'app',
       slug: 'tren-patrones-fichas',
-      anchorText: 'Generador de Fichas Tren de Patrones',
+      anchorText: `Generador de Fichas Tren de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'dibujo-cuadricula-fichas',
-      anchorText: 'Generador de Fichas de Dibujo en Cuadrícula',
+      anchorText: `Generador de Fichas de Dibujo en Cuadrícula`,
     },
     {
       pageType: 'app',
       slug: 'grafomotricidad-fichas',
-      anchorText: 'Generador de Fichas de Grafomotricidad',
+      anchorText: `Generador de Fichas de Grafomotricidad`,
     },
     {
       pageType: 'app',
       slug: 'dibujos-colorear-fichas',
-      anchorText: 'Generador de Fichas para Colorear',
+      anchorText: `Generador de Fichas para Colorear`,
     },
     {
       pageType: 'app',
       slug: 'graficos-conteo-fichas',
-      anchorText: 'Generador de Fichas de Gráficos de Conteo',
+      anchorText: `Generador de Fichas de Gráficos de Conteo`,
     },
     {
       pageType: 'bundle',
@@ -240,18 +240,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'primer-grado-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para primer grado',
+      slug: `primer-grado-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para primer grado`,
     },
     {
       pageType: 'idea',
-      slug: 'segundo-grado-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para segundo grado',
+      slug: `segundo-grado-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para segundo grado`,
     },
     {
       pageType: 'start',
       slug: 'libros-actividades-amazon-kdp',
-      anchorText: 'Publicar libros de actividades en Amazon KDP',
+      anchorText: `Publicar libros de actividades en Amazon KDP`,
     },
     {
       pageType: 'guide',

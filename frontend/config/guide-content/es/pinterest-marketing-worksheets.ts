@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'marketing pinterest fichas',
     secondaryKeywords: [
-      'pinterest para vendedores de imprimibles',
+      `pinterest para vendedores de imprimibles`,
       'vender fichas con pinterest',
-      'estrategia pinterest negocio imprimibles',
-      'tráfico pinterest tiendas de fichas',
+      `estrategia pinterest negocio imprimibles`,
+      `tráfico pinterest tiendas de fichas`,
     ],
     lsiKeywords: [
       `motor de búsqueda visual diseño de pines optimización de tableros descripciones ricas en palabras clave`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `optimización de pines formato vertical algoritmo de Pinterest pines nuevos`,
       `posicionamiento en búsqueda tasa de guardado clics de salida análisis de audiencia plantillas de pines`,
     ],
-    titleTag: 'Marketing Pinterest Fichas — Estrategia Vendedor',
+    titleTag: `Marketing Pinterest Fichas — Estrategia Vendedor`,
     metaDescription: `Estrategia de marketing en Pinterest para vendedores de imprimibles. Genera tráfico orgánico a largo plazo con optimización de pines, estrategia de tableros.`,
   },
 
@@ -137,29 +137,29 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-redes-sociales-imprimibles', anchorText: `Marketing en Redes Sociales para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: `marketing-redes-sociales-imprimibles`, anchorText: `Marketing en Redes Sociales para Vendedores de Imprimibles` },
     { pageType: 'guide', slug: 'email-marketing-imprimibles', anchorText: `Email Marketing para Vendedores de Productos Imprimibles` },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo Vender Fichas de Matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles Imprimible' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
-    { pageType: 'guide', slug: 'marketing-estacional-imprimibles', anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo Vender Fichas de Matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles Imprimible` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
+    { pageType: 'guide', slug: `marketing-estacional-imprimibles`, anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de Selección de Nicho para Negocios de Imprimibles` },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo Crear Paquetes de Fichas que Venden' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimibles', anchorText: 'Cómo Automatizar Tu Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas que Venden` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimibles`, anchorText: `Cómo Automatizar Tu Negocio de Imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Crea páginas para colorear visualmente impactantes que producen las imágenes de pines más llamativas en Pinterest. Los diseños temáticos coloridos atraen naturalmente guardados y clics en el formato visual de Pinterest.`,
     },
     {
       appId: 'bingo',
-      title: 'Generador de Tarjetas de Bingo',
+      title: `Generador de Tarjetas de Bingo`,
       description: `Genera tarjetas de bingo coloridas y temáticas que crean pines altamente compartibles y visualmente atractivos. Los diseños de cuadrícula vibrantes y las imágenes temáticas destacan en los feeds saturados de Pinterest.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Generador de Fichas de Emparejamiento',
+      title: `Generador de Fichas de Emparejamiento`,
       description: `Crea actividades de emparejamiento visual temáticas que se muestran de forma atractiva en el formato vertical de Pinterest. El diseño rico en imágenes y los colores vibrantes atraen naturalmente el engagement de los navegantes de Pinterest.`,
     },
   ],
@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: `Las fichas visualmente impactantes crean imágenes de pines naturalmente atractivas en Pinterest`,
       },
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+        src: `/samples/spanish/bingo/Bingo de Imágenes 1.webp`,
         alt: `Ficha de tarjeta de bingo demostrando diseños de productos coloridos dignos de pin`,
         caption: `Los productos coloridos y temáticos generan tasas de guardado y clics más altas en Pinterest`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras mostrando tipo de producto versátil para marketing en Pinterest`,
         caption: `Los tipos de productos versátiles soportan múltiples variantes de pin para mayor cobertura de búsqueda`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/camping/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Prismáticos — imagen educativa temática', caption: 'Prismáticos' },
-    { src: '/image-library/camping/boots.webp', alt: 'Botas — imagen educativa temática', caption: 'Botas' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabaña — imagen educativa temática', caption: 'Cabaña' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/camping/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Prismáticos — imagen educativa temática`, caption: 'Prismáticos' },
+    { src: `/image-library/camping/boots.webp`, alt: `Botas — imagen educativa temática`, caption: 'Botas' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabaña — imagen educativa temática`, caption: 'Cabaña' },
   ],
 };
 

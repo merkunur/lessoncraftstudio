@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles San Valentín para Vender — Guía',
+    titleTag: `Ideas Imprimibles San Valentín para Vender — Guía`,
     metaDescription: `Descubre ideas de imprimibles de San Valentín para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos temáticos de amor, estrategias estacionales.`,
-    primaryKeyword: 'ideas imprimibles san valentín',
+    primaryKeyword: `ideas imprimibles san valentín`,
     secondaryKeywords: [
-      'fichas de San Valentín para vender',
-      'negocio imprimibles San Valentín',
-      'fichas actividades San Valentín para vendedores',
-      'vender imprimibles de San Valentín en Etsy',
+      `fichas de San Valentín para vender`,
+      `negocio imprimibles San Valentín`,
+      `fichas actividades San Valentín para vendedores`,
+      `vender imprimibles de San Valentín en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática corazones',
-      'actividades tienda febrero San Valentín',
-      'imprimibles amor y amistad para niños',
+      `fichas educativas temática corazones`,
+      `actividades tienda febrero San Valentín`,
+      `imprimibles amor y amistad para niños`,
     ],
   },
   hero: {
@@ -95,7 +95,7 @@ El panorama de palabras clave de San Valentín revela varios subnichos desatendi
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de San Valentín en Etsy',
+      title: `Vender Imprimibles de San Valentín en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de San Valentín, y la temporada de compras de invierno crea un importante pico de tráfico para las descargas digitales educativas. Publica tus listados de San Valentín a finales de diciembre o principios de enero para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en enero. Utiliza las trece etiquetas con variaciones que combinen subtemas de San Valentín, tipos de habilidad y grupos de edad: «fichas conteo San Valentín preescolar», «sopa de letras amistad jardín de infantes» y «páginas colorear corazones infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas San Valentín». Crea variaciones de listados orientadas a celebraciones posicionando los paquetes de actividades como paquetes para fiestas de intercambio de tarjetas de San Valentín en línea o alternativas a tarjetas de San Valentín. Las imágenes de listados mostrando fichas de San Valentín impresas en entornos con temática de amor y accesorios estacionales como decoraciones de corazones y acentos rojos y rosas superan las vistas previas digitales planas y captan la mentalidad festiva que impulsa el tráfico de febrero.`,
     },
     {
@@ -153,18 +153,18 @@ El panorama de palabras clave de San Valentín revela varios subnichos desatendi
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -173,12 +173,12 @@ El panorama de palabras clave de San Valentín revela varios subnichos desatendi
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -189,17 +189,17 @@ El panorama de palabras clave de San Valentín revela varios subnichos desatendi
     {
       pageType: 'idea',
       slug: 'pascua-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Pascua',
+      anchorText: `Ideas de Negocio de Imprimibles de Pascua`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagen educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — imagen educativa temática', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — imagen educativa temática', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campanilla — imagen educativa temática', caption: 'Campanilla' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagen educativa temática', caption: 'Ranúnculo' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Clavel — imagen educativa temática', caption: 'Clavel' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagen educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — imagen educativa temática`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — imagen educativa temática`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campanilla — imagen educativa temática`, caption: 'Campanilla' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagen educativa temática`, caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Clavel — imagen educativa temática`, caption: 'Clavel' },
   ],
 
 

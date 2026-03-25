@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles Animales de Granja — Guía de Nicho`,
     metaDescription: `Ideas rentables de imprimibles de animales de granja para vender en Etsy, Amazon KDP y Gumroad. Conceptos, estrategias de precios y consejos por plataforma.`,
 
-    primaryKeyword: 'ideas de imprimibles animales de granja',
+    primaryKeyword: `ideas de imprimibles animales de granja`,
     secondaryKeywords: [
-      'fichas animales de granja para vender',
-      'negocio imprimibles tema granja',
-      'fichas actividades granja para vendedores',
-      'vender imprimibles granja en Etsy',
+      `fichas animales de granja para vender`,
+      `negocio imprimibles tema granja`,
+      `fichas actividades granja para vendedores`,
+      `vender imprimibles granja en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas tema corral de granja',
-      'actividades agricultura para niños',
-      'imprimibles escolares tema ganado',
+      `fichas educativas tema corral de granja`,
+      `actividades agricultura para niños`,
+      `imprimibles escolares tema ganado`,
     ],
   },
   hero: {
@@ -96,7 +96,7 @@ Las oportunidades de marketing estacional en el nicho de la granja se extienden 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Animales de Granja en Etsy',
+      title: `Vender Imprimibles de Animales de Granja en Etsy`,
       description: `Etsy recompensa la especificidad en los listados de imprimibles de animales de granja. En lugar de títulos genéricos como «Fichas de Granja», apunta a palabras clave de cola larga como «fichas de conteo animales de granja preescolar» o «sopa de letras corral imprimible jardín de infantes». Utiliza las trece etiquetas con variaciones que combinen el tema, la habilidad y el grupo de edad. Las imágenes de maqueta mostrando fichas impresas en un entorno escolar o doméstico superan significativamente las vistas previas digitales planas. Programa los nuevos listados para coincidir con los picos de demanda estacional de marzo a abril para las unidades de granja de primavera y de septiembre a octubre para los temas de cosecha. Ofrece tanto fichas individuales como paquetes, ya que los compradores de Etsy a menudo comienzan con una sola compra de bajo costo antes de volver por paquetes más grandes una vez que confían en tu calidad.`,
     },
     {
@@ -154,18 +154,18 @@ Las oportunidades de marketing estacional en el nicho de la granja se extienden 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -174,12 +174,12 @@ Las oportunidades de marketing estacional en el nicho de la granja se extienden 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -189,18 +189,18 @@ Las oportunidades de marketing estacional en el nicho de la granja se extienden 
     },
     {
       pageType: 'idea',
-      slug: 'animales-marinos-ideas-imprimibles',
+      slug: `animales-marinos-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Animales Marinos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Toro — imagen educativa temática', caption: 'Toro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Ternero — imagen educativa temática', caption: 'Ternero' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagen educativa temática', caption: 'Gato 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Pollito — imagen educativa temática', caption: 'Pollito' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Toro — imagen educativa temática`, caption: 'Toro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Ternero — imagen educativa temática`, caption: 'Ternero' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagen educativa temática`, caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: `Pollito — imagen educativa temática`, caption: 'Pollito' },
   ],
 
 

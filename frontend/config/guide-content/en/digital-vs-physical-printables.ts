@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digital vs physical printables',
+    primaryKeyword: `digital vs physical printables`,
     secondaryKeywords: [
-      'digital printable business model',
-      'print on demand vs digital download',
-      'physical printable product selling',
-      'digital download printable strategy',
+      `digital printable business model`,
+      `print on demand vs digital download`,
+      `physical printable product selling`,
+      `digital download printable strategy`,
     ],
     lsiKeywords: [
       `digital download physical product print-on-demand fulfillment model`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `passive revenue printing costs packaging product quality control`,
       `format selection business model comparison seller strategy growth path`,
     ],
-    titleTag: 'Digital vs Physical Printables — Seller Guide',
+    titleTag: `Digital vs Physical Printables — Seller Guide`,
     metaDescription: `Digital vs physical printables comparison for sellers covering profit margins, scalability, fulfillment, and choosing the right format for your business.`,
   },
 
   hero: {
-    title: 'Digital vs Physical Printable Products',
+    title: `Digital vs Physical Printable Products`,
     tagline: `A complete guide to digital vs physical printables — covering how to compare profit margins, evaluate scalability, understand customer expectations, choose the right platforms for each format, implement a hybrid model, plan production workflows, and transition between formats as your business grows`,
     description: `Every printable seller faces a fundamental business model decision: sell digital downloads that buyers print themselves, sell pre-printed physical products that ship to buyers, or offer both formats. Each approach carries different margin structures, operational requirements, scalability characteristics, and customer expectations. This guide provides a thorough comparison framework to help you evaluate both formats and choose the approach that matches your resources, goals, and target market.`,
   },
@@ -47,8 +47,8 @@ const content: GuideContent = {
       content: `Customer expectations vary significantly between digital and physical buyers, and meeting or exceeding those expectations determines your review ratings, repeat purchase rates, and long-term business reputation. Misunderstanding what each customer segment expects is a common source of negative reviews and returns that are entirely preventable.\n\nDigital download buyers expect instant delivery. The file should be available for download within seconds of purchase completion. They expect the file to be clearly formatted, print-ready, and compatible with standard home printers. They expect clear instructions specifying recommended paper size, print settings (color vs. grayscale, single-sided vs. double-sided), and any assembly steps. They accept that print quality depends on their own printer and paper — but they do not accept files that are poorly formatted, have cut-off margins, or look different from the listing preview images. Include a "how to print" instruction page in every digital download to preempt the most common support questions.\n\nPhysical product buyers expect professional quality from the moment they open the package. The paper stock should feel substantial, not flimsy. Colors should be vibrant and match the listing photos. Pages should be aligned, cleanly cut, and clear of smudges or printing artifacts. If the product is bound, the binding should be secure and allow pages to lay flat. Packaging should protect the product during shipping — arriving with bent corners or water damage from inadequate packaging generates immediate negative reviews. Physical buyers are paying a premium specifically because they expect a finished, professional product that exceeds what they could produce at home.\n\nReturn and complaint patterns differ between formats. Digital buyers rarely request refunds for quality issues but may complain about file format compatibility, unexpected page counts, or listing photos that do not accurately represent the product content. Physical buyers may request returns for shipping damage, print quality below expectations, or products that differ from listing photographs. Digital returns are simpler (no product to ship back) but some sellers struggle with the intangibility — a buyer who claims the file "did not download properly" presents a support challenge that physical sellers do not face.\n\nRepeat purchase behavior also varies by format. Digital buyers who find a seller whose products consistently print well and match listing descriptions become loyal repeat customers because they trust the quality. Physical buyers who receive a beautifully packaged, professionally printed product develop brand loyalty reinforced by the tangible experience. Both formats can build strong repeat customer relationships, but the loyalty triggers are different: digital loyalty comes from reliable quality and breadth of catalog, while physical loyalty comes from the premium experience and the convenience of receiving ready-to-use products.`,
     },
     {
-      heading: 'Choose the Right Platforms for Your Format',
-      content: `Platform selection and format choice are deeply interconnected because different marketplaces are designed around different fulfillment models. Choosing the wrong platform for your format means fighting against the platform's infrastructure rather than leveraging it.\n\nEtsy is the dominant marketplace for digital printable downloads. Its digital delivery system handles file hosting and automatic delivery to buyers, making it effortless for sellers to list and sell digital products. Etsy also supports physical product listings with integrated shipping label purchasing and tracking. Many successful printable sellers on Etsy offer both formats of the same product as separate listings, letting buyers choose their preferred experience. The Etsy audience actively searches for both "printable worksheets" (digital) and "printed worksheets" (physical), making it viable for either format.\n\nAmazon KDP is purpose-built for print-on-demand books and workbooks. If your products can be formatted as bound books — coloring books, activity workbooks, puzzle compilations, educational workbooks — KDP handles printing, binding, fulfillment, and customer service. You upload the interior PDF and cover design, set your price, and Amazon manages everything else. KDP royalties are lower than direct sales margins, but the platform provides access to Amazon\'s massive customer base and eliminates all production logistics. KDP is particularly strong for products with 50 or more pages that justify a book format.\n\nShopify and similar independent platforms give you complete control over both digital and physical sales. You handle your own marketing and traffic generation, but you keep higher margins and own the customer relationship. Digital delivery apps automate file distribution, and you can integrate shipping solutions for physical orders. An independent platform works best for sellers who have already built an audience through social media, email lists, or other channels and want to maximize margins by removing marketplace fees.\n\nCraft fairs and local markets are exclusively physical product venues that offer high per-unit margins and immediate customer feedback. Sellers who enjoy face-to-face interaction and have products that display well in person (laminated activity sets, bound workbooks, framed educational posters) can generate significant revenue from local events. The limitation is geographic reach and time investment — each event requires physical presence, booth setup, and inventory transport.\n\nGumroad is a specialized marketplace for educational resources that supports digital downloads and is heavily used by buyers seeking store materials. If your printable products are education-focused, Gumroad provides access to a concentrated buyer audience of buyers with purchasing budgets. The platform's audience expects digital delivery and is accustomed to downloading and printing resources, making it a natural fit for digital-format educational printables.`,
+      heading: `Choose the Right Platforms for Your Format`,
+      content: `Platform selection and format choice are deeply interconnected because different marketplaces are designed around different fulfillment models. Choosing the wrong platform for your format means fighting against the platform`s infrastructure rather than leveraging it.\n\nEtsy is the dominant marketplace for digital printable downloads. Its digital delivery system handles file hosting and automatic delivery to buyers, making it effortless for sellers to list and sell digital products. Etsy also supports physical product listings with integrated shipping label purchasing and tracking. Many successful printable sellers on Etsy offer both formats of the same product as separate listings, letting buyers choose their preferred experience. The Etsy audience actively searches for both "printable worksheets" (digital) and "printed worksheets" (physical), making it viable for either format.\n\nAmazon KDP is purpose-built for print-on-demand books and workbooks. If your products can be formatted as bound books — coloring books, activity workbooks, puzzle compilations, educational workbooks — KDP handles printing, binding, fulfillment, and customer service. You upload the interior PDF and cover design, set your price, and Amazon manages everything else. KDP royalties are lower than direct sales margins, but the platform provides access to Amazon's massive customer base and eliminates all production logistics. KDP is particularly strong for products with 50 or more pages that justify a book format.\n\nShopify and similar independent platforms give you complete control over both digital and physical sales. You handle your own marketing and traffic generation, but you keep higher margins and own the customer relationship. Digital delivery apps automate file distribution, and you can integrate shipping solutions for physical orders. An independent platform works best for sellers who have already built an audience through social media, email lists, or other channels and want to maximize margins by removing marketplace fees.\n\nCraft fairs and local markets are exclusively physical product venues that offer high per-unit margins and immediate customer feedback. Sellers who enjoy face-to-face interaction and have products that display well in person (laminated activity sets, bound workbooks, framed educational posters) can generate significant revenue from local events. The limitation is geographic reach and time investment — each event requires physical presence, booth setup, and inventory transport.\n\nGumroad is a specialized marketplace for educational resources that supports digital downloads and is heavily used by buyers seeking store materials. If your printable products are education-focused, Gumroad provides access to a concentrated buyer audience of buyers with purchasing budgets. The platform`s audience expects digital delivery and is accustomed to downloading and printing resources, making it a natural fit for digital-format educational printables.`,
     },
     {
       heading: `Consider the Hybrid Model: Selling Both Digital and Physical Versions`,
@@ -71,7 +71,7 @@ const content: GuideContent = {
     },
     {
       heading: `Amazon KDP: Leveraging Print-on-Demand for Physical Products Without Inventory`,
-      content: `Amazon KDP eliminates the primary barriers to physical product selling: inventory investment, production equipment, and shipping logistics. Format your printable products as book interiors (activity workbooks, coloring books, puzzle compilations) and upload them with a professionally designed cover. KDP handles printing, binding, fulfillment, and returns. Set your list price based on KDP's royalty calculator, which shows your per-unit earnings after production costs. Products with 50 or more interior pages work best in KDP's book format. Use Amazon's keyword fields and category selection to maximize discoverability. KDP products benefit from Amazon's enormous customer base and trusted checkout experience, reaching buyers who would never visit Etsy or a standalone website.`,
+      content: `Amazon KDP eliminates the primary barriers to physical product selling: inventory investment, production equipment, and shipping logistics. Format your printable products as book interiors (activity workbooks, coloring books, puzzle compilations) and upload them with a professionally designed cover. KDP handles printing, binding, fulfillment, and returns. Set your list price based on KDP`s royalty calculator, which shows your per-unit earnings after production costs. Products with 50 or more interior pages work best in KDP`s book format. Use Amazon`s keyword fields and category selection to maximize discoverability. KDP products benefit from Amazon`s enormous customer base and trusted checkout experience, reaching buyers who would never visit Etsy or a standalone website.`,
     },
     {
       heading: `Craft Fairs and Local Markets: Maximizing Physical Product Sales In Person`,
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO for Educational Printables' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `How to Create a Printable Product Line` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Pricing Strategies for Educational Printables` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `How to Create Worksheet Bundles That Sell` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `How to Scale Your Printable Business` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Niche Selection Guide for Printable Businesses` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO for Educational Printables` },
     { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'KDP vs Etsy for Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Customer Support for Digital Products' },
-    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: 'Copyright Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `How to Sell Math Worksheets on Etsy` },
+    { pageType: 'guide', slug: `customer-support-digital-products`, anchorText: `Customer Support for Digital Products` },
+    { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: `Copyright Guide for Printable Sellers` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
   ],
 
@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: `/samples/english/addition/Addition Fun 1.webp`,
       alt: `Professional addition worksheet demonstrating digital printable product creation for both digital download and physical printing formats`,
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: `/samples/english/addition/Addition Fun 1.webp`,
         alt: `Addition worksheet showing digital printable product suitable for both download and physical printing`,
         caption: `Math worksheets work well as digital downloads and as pages in printed workbooks`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apple — themed educational image', caption: 'Apple' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Apricot — themed educational image', caption: 'Apricot' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — themed educational image', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banana — themed educational image', caption: 'Banana' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Blackberry — themed educational image', caption: 'Blackberry' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Apple — themed educational image`, caption: 'Apple' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Apricot — themed educational image`, caption: 'Apricot' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — themed educational image`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banana — themed educational image`, caption: 'Banana' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Blackberry — themed educational image`, caption: 'Blackberry' },
   ],
 };
 

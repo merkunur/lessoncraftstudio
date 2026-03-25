@@ -2,22 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'beste Werkzeuge für Druckvorlagen-Verkäufer',
+    primaryKeyword: `beste Werkzeuge für Druckvorlagen-Verkäufer`,
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft Werkzeuge Checkliste',
-      'Arbeitsblatt-Generator Werkzeuge für Verkäufer',
-      'Werkzeuge zum Online-Verkauf von Druckvorlagen',
-      'Druckvorlagen-Produktions-Toolkit',
+      `Druckvorlagen-Geschäft Werkzeuge Checkliste`,
+      `Arbeitsblatt-Generator Werkzeuge für Verkäufer`,
+      `Werkzeuge zum Online-Verkauf von Druckvorlagen`,
+      `Druckvorlagen-Produktions-Toolkit`,
     ],
     lsiKeywords: [
-      'Etsy-Verkäufer Werkzeuge für digitale Downloads',
-      'Amazon KDP Aktivitätsbuch Produktionswerkzeuge',
-      'Arbeitsblatt-Erstellungssoftware für Unternehmer',
-      'Druckvorlagen-Geschäft Workflow-Automatisierung',
-      'mehrsprachige Arbeitsblatt-Generator Werkzeuge',
-      'kommerzielle Lizenz Arbeitsblatt-Produktion',
+      `Etsy-Verkäufer Werkzeuge für digitale Downloads`,
+      `Amazon KDP Aktivitätsbuch Produktionswerkzeuge`,
+      `Arbeitsblatt-Erstellungssoftware für Unternehmer`,
+      `Druckvorlagen-Geschäft Workflow-Automatisierung`,
+      `mehrsprachige Arbeitsblatt-Generator Werkzeuge`,
+      `kommerzielle Lizenz Arbeitsblatt-Produktion`,
     ],
-    titleTag: 'Beste Werkzeuge für Druckvorlagen-Verkäufer',
+    titleTag: `Beste Werkzeuge für Druckvorlagen-Verkäufer`,
     metaDescription: `Beste Werkzeuge für Druckvorlagen-Verkäufer: Arbeitsblatt-Generatoren, Design-Software und Plattform-Hilfsmittel für ein professionelles Geschäfts-Toolkit.`,
   },
 
@@ -39,15 +39,15 @@ const content: StartContent = {
       content: `Ein Arbeitsblatt-Generator ist das wichtigste Werkzeug im Toolkit eines Druckvorlagen-Verkäufers. Er ersetzt den manuellen Prozess einzelne Arbeitsblätter von Grund auf zu entwerfen — ein Prozess der in herkömmlicher Designsoftware typischerweise zwei bis vier Stunden pro Arbeitsblatt dauert — durch einen automatisierten Workflow der in Minuten vollständige, druckfertige Ergebnisse produziert.\n\nWas einen Arbeitsblatt-Generator unverzichtbar macht ist die Kombination aus Geschwindigkeit, Qualität und Vielfalt die er liefert. Geschwindigkeit: Statt jedes Element manuell anzuordnen wählen Sie Parameter (Thema, Schwierigkeitsgrad, Seitenzahl) und der Generator erstellt das fertige Arbeitsblatt. Qualität: Die Ausgabe ist ein 300-DPI-PDF das sofort zum Drucken oder zur digitalen Auslieferung bereit ist, mit professionellen Layouts, konsistenter Formatierung und präzisen Inhalten. Vielfalt: Jeder Generator produziert Dutzende oder Hunderte einzigartiger Variationen durch verschiedene Themen-, Schwierigkeits- und Konfigurationskombinationen.\n\nDas wichtigste Merkmal das bei jedem Arbeitsblatt-Generator zu bewerten ist, ist die Lösungsschlüssel-Generierung. Mathe-Arbeitsblätter, Wortsuchrätsel, Kreuzworträtsel und andere Rätseltypen erfordern alle präzise Lösungsschlüssel. Lösungsschlüssel manuell zu erstellen ist mühsam und fehleranfällig. Generatoren die Lösungsschlüssel automatisch erstellen sparen Stunden an Überprüfungsarbeit und eliminieren das Risiko falsche Antworten an Käufer zu liefern — eine garantierte Quelle negativer Bewertungen.\n\nThemenbibliotheken sind das zweitwichtigste Merkmal. Thematische Arbeitsblätter (Tiere, Essen, Fahrzeuge, Jahreszeiten) ermöglichen Nischenzielgruppenansprache auf Marktplätzen. Ein Generator mit 10 Themen erzeugt 10 potenzielle Produktnischen. Einer mit über 100 Themen erzeugt über 100 Nischen. Die Breite Ihrer Themenbibliothek bestimmt direkt die Breite Ihres Produktkatalogs.\n\nDie kostenlose Testversion mit Wasserzeichen ermöglicht es Ihnen jeden Aspekt zu bewerten — Ausgabequalität, Generierungsgeschwindigkeit, Themenvielfalt, Lösungsschlüssel-Genauigkeit — bevor Sie eine Lizenz kaufen. Nutzen Sie sie um Ihren tatsächlichen Produktionsworkflow zu timen und zu berechnen wie viele Produkte Sie realistisch pro Stunde erstellen können.`,
     },
     {
-      heading: 'Sechs Kategorien von Arbeitsblatt-Generatoren',
+      heading: `Sechs Kategorien von Arbeitsblatt-Generatoren`,
       content: `Arbeitsblatt-Generatoren umfassen sechs Kategorien, die jeweils verschiedene Käufersegmente und Marktplatz-Nischen ansprechen. Zu verstehen was jede Kategorie produziert hilft Ihnen Ihre Werkzeugauswahl auf Ihren Zielmarkt abzustimmen.\n\nMathe & Zahlen-Generatoren produzieren Arithmetik-Arbeitsblätter, Zahlenrätsel und mathematische Übungsblätter. Diese Kategorie umfasst Addition, Subtraktion, Multiplikation, Division und gemischte Operationen, plus spezialisierte Werkzeuge wie Sudoku. Mathe-Inhalte verkaufen sich ganzjährig an Eltern die ergänzende Übungen suchen und Verkäufer die Druckprodukte erstellen. Sie sind sprachunabhängig, was bedeutet dass dieselben Arbeitsblätter in jedem Markt weltweit funktionieren.\n\nBuchstaben & Wörter-Generatoren produzieren sprachbasierte Inhalte: Wortsuchrätsel, Kreuzworträtsel, Buchstabensalat, Rechtschreib-Arbeitsblätter und Vokabelübungen. Diese Kategorie ist sprachsensibel — Generatoren die mehrere Sprachen unterstützen ermöglichen es Ihnen Inhalte für internationale Märkte zu erstellen. Wortsuch- und Kreuzworträtsel-Bücher gehören zu den meistverkauften Aktivitätsbuch-Kategorien auf Amazon KDP.\n\nAktivitäts-Arbeitsblatt-Generatoren produzieren strukturierte lehrreiche Aktivitäten: Zuordnungsübungen, Bilderkennungsaufgaben, Nachspür-Arbeitsblätter und Kategorisierungsaktivitäten. Diese sprechen den Frühförderung-Markt an — Eltern und Vorschul-/Kindergarten-Käufer die entwicklungsgerechte Inhalte benötigen.\n\nZeichnen & Kunst-Generatoren produzieren Ausmalseiten, Zeichenanregungen und visuelle Kreativitäts-Arbeitsblätter. Malbücher sind eine der volumenstärksten Kategorien auf Amazon KDP. Da der Inhalt rein visuell ist erfordert er keine Übersetzung und funktioniert identisch in jedem Sprachmarkt — was ihn zum international portabelsten Produkttyp macht.\n\nRätsel & Spiele-Generatoren produzieren Labyrinthe, Sudoku, Logikrätsel und ähnliche herausforderungsbasierte Inhalte. Rätselbücher haben ein treues Käuferpublikum auf Amazon und verkaufen sich gleichmäßig das ganze Jahr über. Zahlenbasierte Rätsel wie Sudoku erfordern keinerlei Sprachlokalisierung.\n\nMuster & Logik-Generatoren produzieren Mustererkennung, Sequenzierung und logisches Denken-Arbeitsblätter. Diese zielen auf den Bildungsmarkt mit Inhalten die kritisches Denken fördern — eine wachsende Kategorie da Eltern bildschirmfreie Lernaktivitäten für Kinder suchen.`,
     },
     {
-      heading: 'Design- und Formatierungswerkzeuge',
+      heading: `Design- und Formatierungswerkzeuge`,
       content: `Sobald Ihr Inhaltserstellungs-Werkzeug vorhanden ist übernehmen Design- und Formatierungswerkzeuge die Verpackung die Ihre Produkte marktreif macht. Diese Werkzeuge ergänzen Arbeitsblatt-Generatoren, sie ersetzen sie nicht.\n\nUmschlagdesign ist unverzichtbar für Amazon KDP Bücher. Jedes Taschenbuch benötigt einen Frontumschlag, Buchrücken und Rückumschlag der die spezifischen Maßanforderungen von KDP erfüllt. Canva bietet KDP-Umschlagvorlagen in seiner kostenlosen Stufe. Adobe Express bietet ähnliche Funktionalität. Book Bolt ist ein spezialisiertes Werkzeug das KDP-Umschlagvorlagen mit genauen Buchrückenberechnungen basierend auf der Seitenzahl enthält. Die Arbeitsblatt-Generatoren erstellen den Inneninhalt; Umschlagdesign-Werkzeuge übernehmen die äußere Verpackung.\n\nProdukt-Mockup-Bilder sind entscheidend für Etsy-Listungen. Käufer können digitale Downloads nicht physisch inspizieren, daher dienen Ihre Listungsbilder als primäres Qualitätssignal. Mockup-Generatoren platzieren Ihre Arbeitsblattseiten in realistische Szenen — auf einem Schreibtisch, in Kinderhänden, neben Buntstiften — die Käufern helfen das Produkt zu visualisieren. Canva, Placeit und ähnliche Werkzeuge bieten Mockup-Vorlagen speziell für Druckprodukte.\n\nPDF-Formatierungswerkzeuge werden relevant wenn Sie mehrere Arbeitsblätter in größere Pakete bündeln. Einzelne PDF-Arbeitsblätter in ein einzelnes mehrseitiges Dokument zu kombinieren, ein Inhaltsverzeichnis hinzuzufügen oder ein Deckblatt einzufügen erfordert PDF-Bearbeitung. Kostenfreie Werkzeuge wie PDF Merger, iLovePDF und ähnliche webbasierte Dienste erledigen dies. Für Verkäufer die regelmäßig große Bundles erstellen bieten Desktop-PDF-Editoren mehr Kontrolle.\n\nDie wichtigste Erkenntnis über Design-Werkzeuge: Die Arbeitsblatt-Generatoren erstellen vollständige, druckfertige PDFs. Sie benötigen keine Designsoftware um die Arbeitsblätter selbst zu erstellen. Design-Werkzeuge dienen ausschließlich für Umschläge, Listungsbilder und Bundle-Verpackung. Diese Unterscheidung spart neuen Verkäufern erheblich Geld — ein kostenloses Canva-Konto plus kostenfreie PDF-Werkzeuge reicht für die meisten Verkäufer am Anfang aus.`,
     },
     {
-      heading: 'Plattformspezifische Werkzeuge und Ressourcen',
+      heading: `Plattformspezifische Werkzeuge und Ressourcen`,
       content: `Jede Verkaufsplattform hat ihr eigenes Ökosystem von Werkzeugen für Listungsoptimierung, Keyword-Recherche und Leistungsüberwachung. Dies sind Kategorie-drei-Werkzeuge — wertvoll für die Optimierung, aber erst nützlich wenn Sie Produkte zum Verkaufen haben.\n\nEtsy-Verkäufer profitieren von Keyword-Recherche-Werkzeugen wie eRank und Marmalead. Diese Werkzeuge analysieren Etsy-Suchvolumen, Wettbewerbsniveaus und Trend-Keywords um Ihnen beim Schreiben von Titeln und Tags zu helfen die dem entsprechen was Käufer tatsächlich suchen. Die Etsy-Verkäufer-App bietet mobilen Zugang zu Shop-Analysen, Bestellverwaltung und Kundenkommunikation. Das integrierte Analyse-Dashboard von Etsy zeigt Aufrufe, Favoriten und Konversionsraten für jede Listung — unverzichtbare Daten um zu erkennen welche Produkte ausgebaut und welche verbessert werden sollten.\n\nAmazon KDP-Herausgeber nutzen das KDP-Dashboard für Buchverwaltung, Verkaufstracking und Tantiemenüberwachung. Der KDP-Tantiemenrechner ermöglicht es Ihnen Umsätze bei verschiedenen Preispunkten und Seitenzahlen vor der Veröffentlichung zu modellieren. Keyword-Recherche für KDP unterscheidet sich von Etsy — Werkzeuge wie Publisher Rocket analysieren das Amazon-Suchvolumen und den Wettbewerb für buchspezifische Keywords. Amazon Author Central bietet zusätzliche Analysen und Autoreneitenverwaltung.\n\nGumroad hat ein eigenes Verkäufer-Dashboard mit Analysen, Einnahmentracking und Produktverwaltung. Gumroad-Verkäufer-Werkzeuge bieten Leistungseinblicke und Käuferverhaltens-Daten. Der Gumroad-Marktplatz hat einen eigenen Suchalgorithmus der vollständige Produktbeschreibungen, detaillierte Vorschauen und regelmäßige Uploads belohnt.\n\nDie entscheidende Erkenntnis über Plattform-Werkzeuge ist folgende: Produktionswerkzeuge (Ihre Arbeitsblatt-Generatoren) sind plattformunabhängig. Derselbe Generator erstellt Inhalte die für Etsy, KDP, Gumroad, Gumroad oder Ihre eigene Website geeignet sind. Aber Listungsoptimierungs-Werkzeuge sind plattformspezifisch. Eine Etsy-Keyword-Strategie lässt sich nicht auf KDP übertragen, und KDP-Preisanalysen gelten nicht für Gumroad. Budgetieren Sie Ihre Plattform-Werkzeug-Investitionen danach auf welchen Plattformen Sie aktiv verkaufen, nicht auf welchen Plattformen Sie irgendwann einmal verkaufen könnten.`,
     },
     {
@@ -59,7 +59,7 @@ const content: StartContent = {
       content: `Thematische Bildbibliotheken sind der Kraftmultiplikator der einen einzelnen Arbeitsblatt-Generator in eine Katalog-Aufbaumaschine verwandelt. Ohne Themenvielfalt produziert jeder Generator einen Produkttyp. Mit einer breiten Themenbibliothek produziert jeder Generator Dutzende verschiedener Produktlinien die unterschiedliche Nischen und Käufersegmente ansprechen.\n\nBetrachten Sie einen Zuordnungs-Arbeitsblatt-Generator. Ohne thematische Bilder erstellt er generische Zuordnungsübungen — ein Produkttyp, eine Nische, ein Satz Suchbegriffe. Fügen Sie ein Tierthema hinzu und Sie können „Tier-Zuordnungs-Arbeitsblätter für Vorschulkinder" erstellen. Fügen Sie ein Essensthema hinzu und Sie haben „Essen-Zuordnungsaktivitäten für den Kindergarten." Fügen Sie Fahrzeuge, Jahreszeiten, Feiertage, Meeresleben, Bauernhoftiere und über 90 weitere Themen hinzu und jedes Thema wird ein eigenständiges Produkt das verschiedene Käufersuchen anspricht.\n\nDies ist wichtig weil Marktplatz-Suchalgorithmen Produkte mit Käuferanfragen abgleichen. Ein Elternteil das nach „Tier-Arbeitsblätter für Kinder" sucht wird Ihre Essen-Themen-Arbeitsblätter nicht finden. Ein Verkäufer der nach „Feiertags-Zuordnungsaktivitäten" sucht wird Ihre Fahrzeug-Themen-Produkte nicht finden. Jedes Thema schafft einen neuen Einstiegspunkt in Marktplatz-Suchergebnisse — was Ihre Sichtbarkeit effektiv vervielfacht ohne Ihren Produktionsaufwand zu vervielfachen.\n\nDas kommerzielle Paket enthält 10 Themen mit etwa 300 Bildern und bietet genug Vielfalt für einen fokussierten Produktkatalog. Das Vollzugriffs-Paket enthält über 100 Themen mit über 3.000 Bildern und ermöglicht umfassende Nischenabdeckung über praktisch jede Kategorie die Käufer suchen.\n\nThemenvielfalt ermöglicht auch Bündelungsstrategien. Ein „Komplettes Tier-Aktivitätspaket" das Tier-Themen-Wortsuchrätsel, Kreuzworträtsel, Ausmalseiten und Zuordnungs-Arbeitsblätter aus vier verschiedenen Generatoren kombiniert erzielt einen Premium-Preis weil es Vielfalt bietet die einzelne Themen-Produkte nicht bieten können. Die Themenbibliothek ist das was generatorübergreifende Bündelung ermöglicht — konsistente Themen über verschiedene Aktivitätstypen hinweg schaffen zusammenhängende, hochwertige Produktbundles.`,
     },
     {
-      heading: 'Mehrsprachige Werkzeuge für internationale Märkte',
+      heading: `Mehrsprachige Werkzeuge für internationale Märkte`,
       content: `Sprachsensible Arbeitsblatt-Generatoren die Inhalte in mehreren Sprachen erstellen sind nicht nur eine Komfortfunktion — sie sind ein Marktexpansions-Werkzeug das den Bedarf an separaten sprachspezifischen Produktionswerkzeugen vollständig ersetzt.\n\nStellen Sie sich vor wie mehrsprachige Inhaltserstellung ohne einen mehrsprachigen Generator aussieht. Um deutsche Wortsuchrätsel zu erstellen benötigen Sie deutsche Vokabellisten, einen Generator der deutsche Zeichensätze beherrscht (Umlaute, Eszett) und Überprüfung durch einen Muttersprachler. Für französische Kreuzworträtsel benötigen Sie französische Wortdatenbanken, akzentbewusste Gittergenerierung und französische Qualitätskontrolle. Jede Sprache erfordert ihr eigenes Werkzeug, ihre eigenen Wortlisten und ihren eigenen Überprüfungsprozess.\n\nMit einem mehrsprachigen Arbeitsblatt-Generator kollabiert diese Komplexität. Der Generator enthält Vokabular in 11 Sprachen — Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Der tatsächliche Arbeitsblattinhalt (Wörter, Hinweise, Vokabeleinträge) ändert sich mit der Sprachauswahl, nicht nur die Benutzeroberflächen-Beschriftungen. Ein auf Deutsch generiertes Wortsuchrätsel enthält deutsche Wörter mit korrekten diakritischen Zeichen. Ein auf Französisch generiertes Kreuzworträtsel verwendet französisches Vokabular mit korrekten Akzenten.\n\nDie geschäftliche Auswirkung ist direkt: Ein Generator ersetzt 11 separate sprachspezifische Werkzeuge. Eine einzelne Wortsuchrätsel-Generator-Lizenz mit Vollzugriffs-Stufe ermöglicht es Ihnen Wortsuchrätsel-Bücher in 11 Sprachen zu erstellen, wobei jede einen eigenen Amazon-Marktplatz oder eine eigene Etsy-Käuferdemografie anspricht. Deutsche Wortsuchrätsel-Bücher zielen auf Amazon.de. Französische Wortsuchrätsel-Bücher zielen auf Amazon.fr. Spanische Wortsuchrätsel-Bücher zielen auf Amazon.es und die breitere spanischsprachige Welt.\n\nInternationale Märkte sind für die meisten Druckvorlagen-Kategorien weniger wettbewerbsintensiv als englischsprachige Märkte. Während englischsprachige Wortsuchrätsel-Bücher auf Amazon.com Tausende von Konkurrenten haben, haben schwedische oder finnische Wortsuchrätsel-Bücher nur einen Bruchteil dieser Konkurrenz. Die kostenlose Testversion mit Wasserzeichen ermöglicht es Ihnen Beispiel-Arbeitsblätter in jeder unterstützten Sprache zu generieren um die Qualität zu überprüfen bevor Sie sich auf eine internationale Marktexpansions-Strategie festlegen.`,
     },
     {
@@ -78,15 +78,15 @@ const content: StartContent = {
       description: `Öffnen Sie Generatoren aus verschiedenen Kategorien und nutzen Sie die kostenlose Testversion mit Wasserzeichen um Beispiel-Arbeitsblätter zu erstellen. Messen Sie Ihre Produktionsgeschwindigkeit, bewerten Sie die Ausgabequalität und notieren Sie welche Generatoren Produkte erstellen die am besten zu Ihrem Zielmarkt passen.`,
     },
     {
-      step: 'Ihr zentrales Produktionswerkzeug identifizieren',
+      step: `Ihr zentrales Produktionswerkzeug identifizieren`,
       description: `Wählen Sie basierend auf Ihren Testerfahrungen den einen Generator der die hochwertigsten Ergebnisse für Ihre Zielnische produziert. Dieser wird Ihre erste Werkzeug-Investition und die Grundlage Ihres anfänglichen Produktkatalogs.`,
     },
     {
-      step: 'Ihre erste Verkaufsplattform einrichten',
+      step: `Ihre erste Verkaufsplattform einrichten`,
       description: `Wählen Sie eine Plattform zum Starten: Etsy für digitale Downloads, Amazon KDP für Aktivitätsbücher oder Gumroad für Druckprodukte. Erstellen Sie Ihr Verkäuferkonto und machen Sie sich mit dem Listungsprozess vertraut bevor Sie Produkte hochladen.`,
     },
     {
-      step: 'Ihre ersten 15 bis 20 Produkte erstellen',
+      step: `Ihre ersten 15 bis 20 Produkte erstellen`,
       description: `Erstellen Sie mit Ihrem gewählten Generator Arbeitsblätter über drei bis fünf Themen auf mehreren Schwierigkeitsstufen. Jede Thema-Schwierigkeitsgrad-Kombination ergibt eine eigene Produktlistung und baut Ihren anfänglichen Katalog mit einem einzelnen Werkzeug auf.`,
     },
     {
@@ -94,11 +94,11 @@ const content: StartContent = {
       description: `Richten Sie ein kostenloses Canva-Konto für Umschlagdesign ein (wenn Sie auf KDP verkaufen) und speichern Sie ein PDF-Zusammenführungswerkzeug zum Erstellen von Bundles. Diese kostenfreien Werkzeuge decken alle Design- und Formatierungsbedürfnisse für die meisten Verkäufer am Anfang ab.`,
     },
     {
-      step: 'Plattformspezifische Keywords recherchieren',
+      step: `Plattformspezifische Keywords recherchieren`,
       description: `Nutzen Sie die integrierte Suche Ihrer Plattform um relevante Keywords für Ihre Produkte zu finden. Suchen Sie Ihre Zielbegriffe, notieren Sie Autocomplete-Vorschläge und studieren Sie wie Top-Verkäufer ihre Listungen betiteln und taggen. Kostenfreie Keyword-Recherche vor kostenpflichtigen Werkzeugen.`,
     },
     {
-      step: 'Ihren Werkzeug-Erweiterungsbedarf evaluieren',
+      step: `Ihren Werkzeug-Erweiterungsbedarf evaluieren`,
       description: `Überprüfen Sie nach 30 Tagen Verkauf welche Produkte am besten abschneiden. Bestimmen Sie ob Sie zusätzliche Generatoren in derselben Kategorie benötigen (erwägen Sie ein Bundle) oder einen Generator in einer anderen Kategorie (Einzellizenz). Lassen Sie Verkaufsdaten die Entscheidung leiten.`,
     },
     {
@@ -114,7 +114,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'matching-worksheets',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Demonstriert die Vielseitigkeit des Werkzeugs mit Bild-zu-Wort- und Bild-zu-Bild-Zuordnungsmodi. Thematische Bildbibliotheken verwandeln einen Generator in Dutzende Nischenprodukte — Tier-Zuordnung, Essen-Zuordnung, Fahrzeug-Zuordnung — jedes zielt auf verschiedene Käufersuchen ab.`,
     },
     {
@@ -181,18 +181,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der umfassende Grundlagenleitfaden zu Nischenauswahl, Produkterstellung, Plattformvergleich, Preisstrategie und Katalogaufbau für alle Druckvorlagen-Marktplätze.`,
     },
     {
-      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
-      title: 'Arbeitsblätter erstellen die sich verkaufen',
+      slug: `arbeitsblaetter-erstellen-die-verkaufen`,
+      title: `Arbeitsblätter erstellen die sich verkaufen`,
       description: `Tiefgehender Einblick in Produktqualitätsstandards, Differenzierungstechniken und die spezifischen Methoden die Arbeitsblätter auf jedem Marktplatz von der Konkurrenz abheben.`,
     },
     {
-      slug: 'mehrsprachige-arbeitsblaetter-erstellen',
-      title: 'Arbeitsblätter in 11 Sprachen erstellen',
+      slug: `mehrsprachige-arbeitsblaetter-erstellen`,
+      title: `Arbeitsblätter in 11 Sprachen erstellen`,
       description: `Der komplette Leitfaden zur mehrsprachigen Arbeitsblatt-Produktion — Sprachauswahl, Qualitätsüberprüfung und internationale Marktstrategien mit einem einzigen Satz Generator-Werkzeuge.`,
     },
     {
@@ -203,38 +203,38 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen die sich verkaufen` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Druckvorlagen-Geschäft Bauplan' },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen die sich verkaufen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Druckvorlagen-Geschäft Bauplan` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzieller Lizenz-Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-einkommen', anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
-    { pageType: 'start', slug: 'mehrsprachige-arbeitsblaetter-erstellen', anchorText: 'Arbeitsblätter in 11 Sprachen erstellen' },
-    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: 'Zuordnungs-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuchrätsel-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuchrätsel-Ersteller ausprobieren' },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-einkommen`, anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
+    { pageType: 'start', slug: `mehrsprachige-arbeitsblaetter-erstellen`, anchorText: `Arbeitsblätter in 11 Sprachen erstellen` },
+    { pageType: 'app', slug: 'zuordnungs-arbeitsblaetter', anchorText: `Zuordnungs-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuchrätsel-Generator — Alle Details` },
+    { pageType: 'tool', slug: `zuordnungs-arbeitsblatt-ersteller`, anchorText: `Zuordnungs-Arbeitsblatt-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuchrätsel-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt das die Vielseitigkeit des Werkzeugs und thematische Bildbibliotheks-Ausgabe demonstriert` },
+    heroImage: { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt das die Vielseitigkeit des Werkzeugs und thematische Bildbibliotheks-Ausgabe demonstriert` },
     samples: [
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt mit Bild-zu-Wort-Zuordnung und thematischen Illustrationen`, caption: 'Zuordnung — Vielseitiges Werkzeug mit mehreren Modi' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuchrätsel-Arbeitsblatt das sprachsensible Generierung demonstriert`, caption: 'Wortsuchrätsel — Beliebtester Rätselgenerator' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Ausmalseite die Designqualität ohne Sprachabhängigkeit zeigt`, caption: 'Ausmalen — Universelle visuelle Inhalte' },
-      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: 'Kreuzworträtsel das mehrsprachige Generierungsfähigkeiten demonstriert', caption: 'Kreuzworträtsel — Mehrsprachiges Rätselwerkzeug' },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt mit Bild-zu-Wort-Zuordnung und thematischen Illustrationen`, caption: `Zuordnung — Vielseitiges Werkzeug mit mehreren Modi` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuchrätsel-Arbeitsblatt das sprachsensible Generierung demonstriert`, caption: `Wortsuchrätsel — Beliebtester Rätselgenerator` },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Ausmalseite die Designqualität ohne Sprachabhängigkeit zeigt`, caption: `Ausmalen — Universelle visuelle Inhalte` },
+      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: `Kreuzworträtsel das mehrsprachige Generierungsfähigkeiten demonstriert`, caption: `Kreuzworträtsel — Mehrsprachiges Rätselwerkzeug` },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: `Zuordnungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Schmetterling — thematisches Lernbild', caption: 'Schmetterling' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Ameise — thematisches Lernbild`, caption: 'Ameise' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Schmetterling — thematisches Lernbild`, caption: 'Schmetterling' },
     { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Raupe — thematisches Lernbild', caption: 'Raupe' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Tausendfüßler — thematisches Lernbild', caption: 'Tausendfüßler' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Tausendfüßler — thematisches Lernbild`, caption: 'Tausendfüßler' },
   ],
 };
 

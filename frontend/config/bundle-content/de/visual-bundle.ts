@@ -6,16 +6,16 @@ const content: BundleContent = {
     secondaryKeywords: [
       `Malvorlagen-Zeichnen-Arbeitsblatt-Generator-Paket für Verkäufer`,
       `visuelle Aktivitäten druckbares Toolkit kommerzielle Nutzung`,
-      'Muster-Arbeitsblatt-Paket für Etsy',
+      `Muster-Arbeitsblatt-Paket für Etsy`,
       `Zeichnen-Malvorlagen-Generatoren für KDP-Verkäufer`,
     ],
     lsiKeywords: [
-      'Malvorlagen-Zeichnen-Arbeitsblatt-Paket',
-      'Mustererkennung Bilddiagramm druckbare Sammlung',
+      `Malvorlagen-Zeichnen-Arbeitsblatt-Paket`,
+      `Mustererkennung Bilddiagramm druckbare Sammlung`,
       `kommerzielle Lizenz visuelle Aktivitäts-Arbeitsblätter`,
-      'visuelle Arbeitsblatt-Massenproduktion Werkzeug',
+      `visuelle Arbeitsblatt-Massenproduktion Werkzeug`,
     ],
-    titleTag: 'Visuelles Lernen — 7-Generatoren-Paket',
+    titleTag: `Visuelles Lernen — 7-Generatoren-Paket`,
     metaDescription: `7 visuelle Lern-Generatoren im Paket: Malvorlagen, Zeichenaktivitäten, Muster, Größenvergleiche, Bilddiagramme und Linienübungen. Weltweit einsetzbar.`,
   },
 
@@ -62,19 +62,19 @@ const content: BundleContent = {
       description: `Der Einzelkauf jeder App kostet deutlich mehr. Das Paket bündelt alle sieben visuellen Lern-Generatoren zu einem Bruchteil der Einzelsumme und bietet Ihnen maximale Produktvielfalt für eine einzige Investition. Sie erhalten Größenvergleich, Musterfolgen, Muster-Arbeitsblätter, Zeichenaktivitäten, Linien-Nachziehen, Malvorlagen und Bilddiagramm-Zählen — jede grundlegende visuelle Lernfähigkeit, nach der Frühförder-Käufer suchen — in einem einzigen vergünstigten Paket.`,
     },
     {
-      title: 'Universelle textunabhängige Arbeitsblätter',
+      title: `Universelle textunabhängige Arbeitsblätter`,
       description: `Dies ist der entscheidende Vorteil des Visuelles-Lernen-Pakets. Alle sieben Generatoren erzeugen Arbeitsblätter aus Bildern, Formen, Farben und Zahlen — kein Text auf der Seite. Dasselbe PDF, das Sie für einen deutschsprachigen Käufer erstellen, funktioniert identisch für Käufer in England, Japan, Brasilien oder anderswo. Sie müssen nie übersetzen, lokalisieren oder separate Sprachversionen erstellen. Ein Produktangebot bedient jeden Markt weltweit und maximiert Ihre Reichweite ohne zusätzlichen Aufwand.`,
     },
     {
-      title: 'Farbige und S/W-Themen in einem Toolkit',
+      title: `Farbige und S/W-Themen in einem Toolkit`,
       description: `Die kommerzielle Stufe enthält 5 farbige Themen und 5 Schwarz-Weiß-Umrissthemen — eine Kombination, die einzigartig für dieses Paket ist. Farbige Themen erzeugen lebendige Aktivitäts-Arbeitsblätter für Mustererkennung, Größenvergleich, Bilddiagramm-Zählen und Linien-Nachziehen. S/W-Umrissthemen sind speziell für die Rasterzeichnen- und Malvorlagen-Generatoren konzipiert und erzeugen druckfertige Malvorlagen und Zeichen-Arbeitsblätter. Dieser Dual-Stil-Ansatz lässt Sie zwei verschiedene Käuferzielgruppen aus demselben Toolkit bedienen, ohne separate Werkzeuge kaufen zu müssen.`,
     },
     {
-      title: 'Lösungsschlüssel, wo sie wichtig sind',
+      title: `Lösungsschlüssel, wo sie wichtig sind`,
       description: `Drei der sieben Generatoren — Groß & Klein, Muster-Arbeitsblatt und Bilddiagramm — erzeugen automatische Lösungsschlüssel zu jedem Arbeitsblatt. Das sind die Aktivitäten, bei denen eindeutig richtige Antworten existieren und Käufer Kontrollblätter erwarten. Die anderen vier Generatoren erzeugen kreative und Übungsaktivitäten — Zeichnen, Ausmalen, Linien-Nachziehen und Muster-Züge — bei denen Lösungsschlüssel nicht zutreffen. Sie erhalten Lösungsschlüssel genau dort, wo Ihre Käufer sie brauchen.`,
     },
     {
-      title: 'Kreative Entwicklungsaktivitäten',
+      title: `Kreative Entwicklungsaktivitäten`,
       description: `Vier Generatoren — Rasterzeichnen, Linien-Ziehen, Malvorlagen und Muster-Zug — konzentrieren sich auf kreative Fähigkeiten und Feinmotorik-Entwicklung statt auf Richtig-oder-Falsch-Antworten. Diese Aktivitätstypen sind stark nachgefragt von Eltern und Vorschul-Produktkäufer, die praktische, bildschirmfreie Lernerfahrungen suchen. Malvorlagen allein repräsentieren eine der größten Druckprodukt-Kategorien auf Etsy, und die Zeichen- und Nachzieh-Aktivitäten füllen angrenzende Produktnischen, die einen Malvorlagen-Shop perfekt ergänzen.`,
     },
     {
@@ -93,7 +93,7 @@ const content: BundleContent = {
 
   businessUseCases: [
     {
-      title: 'Etsy.de Malvorlagen- und Aktivitäten-Shop',
+      title: `Etsy.de Malvorlagen- und Aktivitäten-Shop`,
       description: `Malvorlagen sind die meistverkaufte Druckprodukt-Kategorie auf Etsy, und der Malvorlagen-Generator allein kann einen kompletten Shop bestücken. Fügen Sie Zeichen-Arbeitsblätter, Muster-Aktivitäten und Bilddiagramm-Zählseiten hinzu, um Ihren Shop von reinen Malvorlagen-Wettbewerbern abzuheben. Die S/W-Umrissthemen erzeugen sofortige Malvorlagen aus jedem thematischen Bildset, während die farbigen Themen Aktivitäts-Arbeitsblätter erstellen, die Ihre Malvorlagen-Angebote ergänzen. Da jedes Arbeitsblatt textunabhängig ist, bedient Ihr gesamter Shop internationale Käufer ohne separate Angebote pro Sprache — ein bedeutender Wettbewerbsvorteil auf einem globalen Marktplatz.`,
       platform: 'Etsy.de',
     },
@@ -108,7 +108,7 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Kita- und Vorschul-Produktkatalog-Ergänzung',
+      title: `Kita- und Vorschul-Produktkatalog-Ergänzung`,
       description: `Kindertagesstätten und Vorschulprogramme brauchen einen ständigen Nachschub an frischen visuellen Aktivitäten. Die sieben Generatoren decken zentrale frühkindliche Entwicklungsfähigkeiten ab: visuelle Unterscheidung mit Groß & Klein, Mustererkennung mit Muster-Zug und Muster-Arbeitsblatt, Feinmotorik mit Linien-Ziehen und Rasterzeichnen, kreativer Ausdruck mit Malvorlagen und frühe Datenkompetenz mit Bilddiagramm. Generieren Sie thematische Wochenaktivitäts-Pakete, die zu den Produktthemen passen — Tiere in einer Woche, Fahrzeuge in der nächsten, Jahreszeiten im folgenden Monat.`,
     },
     {
@@ -116,17 +116,17 @@ const content: BundleContent = {
       description: `Verkaufen Sie an Käufer in jedem Land ohne Übersetzungs- oder Lokalisierungsarbeit. Jedes Arbeitsblatt aus jedem Generator in diesem Paket ist rein visuell — nur Bilder, Formen, Farben und Zahlen. Listen Sie dasselbe Produkt in internationalen Etsy-Shops, lokalisierten Amazon-Marktplätzen oder regionalen Bildungsplattformen. Ihre Wettbewerber, die textbasierte Arbeitsblätter verkaufen, müssen separate Versionen für jeden Sprachmarkt erstellen. Sie bedienen sie alle mit einer einzigen Produktdatei, was Ihnen einen strukturellen Kostenvorteil und breitere Marktreichweite verschafft.`,
     },
     {
-      title: 'Saisonale und Feiertags-Aktivitätsprodukte',
+      title: `Saisonale und Feiertags-Aktivitätsprodukte`,
       description: `Saisonale Aktivitätsprodukte treiben vorhersehbare, wiederkehrende Verkäufe das ganze Jahr über. Erstellen Sie Halloween-Malvorlagen im Oktober, Weihnachts-Muster-Arbeitsblätter im Dezember, Frühlings-Zeichenaktivitäten im März und Schulanfangs-Bilddiagramm-Seiten im August. Die thematische Bildbibliothek liefert saisonale Motive für alle sieben Generatoren. Da die Arbeitsblätter keinen Text enthalten, bedient jedes saisonale Produkt weltweit jeden Markt — keine separaten Feiertagsversionen für verschiedene Sprachen oder Regionen nötig.`,
     },
   ],
 
   featureComparison: [
-    { feature: 'Alle 7 visuellen Lern-Generatoren', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Alle 7 visuellen Lern-Generatoren`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Farbige thematische Bildsets', commercial: '5 Themen', fullAccess: '104 Themen' },
-    { feature: 'S/W-Umrissthemen (Rasterzeichnen, Malvorlagen)', commercial: '5 Themen', fullAccess: 'Alle verfügbar' },
-    { feature: 'Eigene Bild-Uploads (PNG/JPEG)', commercial: 'Ja', fullAccess: 'Ja' },
-    { feature: 'Automatische Lösungsschlüssel (3 von 7 Apps)', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `S/W-Umrissthemen (Rasterzeichnen, Malvorlagen)`, commercial: '5 Themen', fullAccess: 'Alle verfügbar' },
+    { feature: `Eigene Bild-Uploads (PNG/JPEG)`, commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Automatische Lösungsschlüssel (3 von 7 Apps)`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'PDF- und JPEG-Download', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Kommerzielle Verkaufsrechte', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Oberflächensprachen', commercial: 'Nur Deutsch', fullAccess: '11 Sprachen' },
@@ -137,7 +137,7 @@ const content: BundleContent = {
 
   whoIsThisFor: [
     {
-      title: 'Etsy-Malvorlagen- und Aktivitätsverkäufer',
+      title: `Etsy-Malvorlagen- und Aktivitätsverkäufer`,
       description: `Sie verkaufen digitale Malvorlagen oder Aktivitäts-Arbeitsblätter auf Etsy und möchten Ihre Produktlinie über Einzelkategorie-Angebote hinaus erweitern. Dieses Paket gibt Ihnen sieben Generatoren für Malvorlagen, Zeichnen, Muster, Größenvergleich, Linien-Nachziehen und Bilddiagramm-Zählen — genug, um einen kompletten visuellen Aktivitäten-Shop vom ersten Tag an aufzubauen. Die textunabhängige Ausgabe bedeutet, dass jedes Angebot internationale Käufer bedient, ohne separate Versionen zu erstellen. Die S/W-Umrissthemen erzeugen sofortige Malvorlagen, während farbige Themen Aktivitäts-Arbeitsblätter erstellen, die Ihren bestehenden Shop ergänzen.`,
     },
     {
@@ -145,18 +145,18 @@ const content: BundleContent = {
       description: `Sie veröffentlichen Aktivitätsbücher und Arbeitshefte auf Amazon KDP und brauchen einen schnellen Weg, professionelle Innenseiten im großen Maßstab zu generieren. Kombinieren Sie Arbeitsblätter aus allen sieben Generatoren in thematische Aktivitätsbücher — jeder Generator füllt einen anderen Abschnitt mit einem anderen Aktivitätstyp. Die einheitliche Design-Engine hält jede Seite visuell einheitlich. Da alle Inhalte textunabhängig sind, funktioniert dasselbe Buch auf jedem Amazon-Marktplatz weltweit und maximiert Ihren Umsatz pro Titel ohne zusätzlichen Produktionsaufwand.`,
     },
     {
-      title: 'Vorschul- und Kindergarten-Käufer',
+      title: `Vorschul- und Kindergarten-Käufer`,
       description: `Sie unterrichten junge Kinder und brauchen einen ständigen Nachschub an visuellen Lernaktivitäten, die unabhängig vom Leseniveau oder sprachlichen Hintergrund der Nutzer funktionieren. Groß & Klein entwickelt Vergleichsfähigkeiten, Muster-Zug und Muster-Arbeitsblatt fördern logisches Denken, Linien-Ziehen und Rasterzeichnen stärken die Feinmotorik, Malvorlagen unterstützen kreativen Ausdruck und Bilddiagramm führt in frühe Datenkompetenz ein. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie vor dem Kauf evaluieren können.`,
     },
     {
-      title: 'Content-Ersteller im Bildungsbereich',
+      title: `Content-Ersteller im Bildungsbereich`,
       description: `Sie produzieren Inhalte für Blogs, YouTube-Kanäle oder Social-Media-Konten mit Fokus auf frühkindliche Bildung, Erziehung oder kreative Aktivitäten. Nutzen Sie die Generatoren, um Beispiel-Arbeitsblätter für Tutorials, Lead-Magnete oder herunterladbare Ressourcen zu erstellen, die Traffic zu Ihren bezahlten Produkten lenken. Das rein visuelle Format macht Ihre Inhalte universell zugänglich für internationale Zielgruppen. Die kostenlose Testversion mit Wasserzeichen lässt Sie die Arbeitsblatt-Qualität in Ihren Inhalten präsentieren, bevor Sie sich für eine Lizenz entscheiden.`,
     },
   ],
 
   faq: [
     {
-      question: 'Kann ich die Generatoren vor dem Kauf testen?',
+      question: `Kann ich die Generatoren vor dem Kauf testen?`,
       answer: `Ja. Jeder Generator im Paket bietet eine kostenlose Testversion mit voller Funktionalität. Sie können alle Einstellungen konfigurieren, Arbeitsblätter in der Vorschau ansehen und Dateien herunterladen. Testversion-Downloads enthalten ein Wasserzeichen. Der Kauf einer Lizenz entfernt das Wasserzeichen, damit Sie kommerziell verkaufen können. Wir empfehlen, alle sieben Generatoren vor dem Kauf zu testen, um sicherzustellen, dass sie Ihren Anforderungen entsprechen.`,
     },
     {
@@ -168,11 +168,11 @@ const content: BundleContent = {
       answer: `Rasterzeichnen und Malvorlagen verfügen über spezielle S/W-Umrissthemen, die gezielt für Ausmal- und Zeichenaktivitäten konzipiert sind. Die anderen fünf Generatoren — Groß & Klein, Muster-Zug, Muster-Arbeitsblatt, Linien-Ziehen und Bilddiagramm — verwenden farbige Themen, da ihre Aktivitäten auf visueller Unterscheidung zwischen verschiedenfarbigen Bildern basieren. Die kommerzielle Stufe enthält 5 farbige Themen und 5 S/W-Themen. Die Vollzugriff-Stufe schaltet alle verfügbaren Themen frei.`,
     },
     {
-      question: 'Welche Generatoren bieten Lösungsschlüssel?',
+      question: `Welche Generatoren bieten Lösungsschlüssel?`,
       answer: `Drei der sieben Generatoren erzeugen automatische Lösungsschlüssel: Groß & Klein, Muster-Arbeitsblatt und Bilddiagramm. Diese Aktivitäten haben eindeutig richtige Antworten, die Käufer und Käufer überprüfen müssen. Die anderen vier — Muster-Zug, Rasterzeichnen, Linien-Ziehen und Malvorlagen — sind kreative und Übungsaktivitäten, bei denen Lösungsschlüssel nicht zutreffen. Zeichnen, Ausmalen und Linien-Nachziehen sind von Natur aus selbstgesteuert.`,
     },
     {
-      question: 'Welche Formate kann ich herunterladen?',
+      question: `Welche Formate kann ich herunterladen?`,
       answer: `Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. Wählen Sie zwischen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer benutzerdefinierten Größe. PDF ist ideal für mehrseitige Aktivitäts-Pakete auf Etsy.de und dem Gumroad. JPEG eignet sich gut für KDP-Innenseiten und Social-Media-Vorschauen. Alle Dateien werden in Druckauflösung heruntergeladen — kein Hochskalieren oder Nachbearbeiten nötig.`,
     },
     {
@@ -184,11 +184,11 @@ const content: BundleContent = {
       answer: `Beide Stufen enthalten alle sieben Generatoren mit wasserzeichenfreien Downloads und kommerziellen Verkaufsrechten. Kommerziell bietet 5 farbige Themen und 5 S/W-Umrissthemen mit deutschsprachiger Oberfläche. Vollzugriff schaltet alle 104 farbigen Themen, alle verfügbaren S/W-Themen und alle 11 Oberflächensprachen frei. Beide Stufen erzeugen identische textunabhängige Arbeitsblätter — die Oberflächensprache betrifft nur die Generator-Steuerung, nicht den Arbeitsblatt-Inhalt.`,
     },
     {
-      question: 'Darf ich die erstellten Arbeitsblätter verkaufen?',
+      question: `Darf ich die erstellten Arbeitsblätter verkaufen?`,
       answer: `Ja. Sowohl die Kommerzielle als auch die Vollzugriff-Lizenz beinhalten kommerzielle Verkaufsrechte. Sie können die generierten Arbeitsblätter auf Etsy.de, Amazon KDP, dem Gumroad, Ihrer eigenen Website oder jeder anderen Plattform verkaufen. Sie verkaufen die Arbeitsblätter — das Generator-Werkzeug selbst ist nicht übertragbar.`,
     },
     {
-      question: 'Wie viele Arbeitsblätter kann ich erstellen?',
+      question: `Wie viele Arbeitsblätter kann ich erstellen?`,
       answer: `Es gibt kein Limit. Nach dem Lizenzerwerb können Sie über alle sieben Generatoren hinweg beliebig viele Arbeitsblätter generieren. Es gibt keine Download-Gebühren, monatlichen Obergrenzen oder Nutzungsbeschränkungen. Mit sieben Generatoren und über 100 Bildthemen ist die Anzahl einzigartiger Arbeitsblatt-Kombinationen praktisch unbegrenzt. Viele Verkäufer generieren komplette thematische Aktivitätsbücher in einer einzigen Sitzung.`,
     },
     {
@@ -198,46 +198,46 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'gross-klein-arbeitsblaetter', anchorText: 'Groß-&-Klein-Generator — Alle Details' },
-    { pageType: 'app', slug: 'muster-zug-arbeitsblaetter', anchorText: 'Muster-Zug-Generator — Alle Details' },
-    { pageType: 'app', slug: 'muster-arbeitsblatt-arbeitsblaetter', anchorText: 'Muster-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'app', slug: 'rasterzeichnen-arbeitsblaetter', anchorText: 'Rasterzeichnen-Generator — Alle Details' },
-    { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: 'Linien-Ziehen-Generator — Alle Details' },
-    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Malvorlagen-Generator — Alle Details' },
-    { pageType: 'app', slug: 'bilddiagramm-arbeitsblaetter', anchorText: 'Bilddiagramm-Generator — Alle Details' },
-    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: 'Malvorlagen für Etsy erstellen' },
-    { pageType: 'guide', slug: 'zeichen-arbeitsblaetter-erstellen', anchorText: 'Zeichen-Arbeitsblätter erstellen' },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Ihr Etsy-Druckvorlagen-Geschäft aufbauen' },
-    { pageType: 'idea', slug: 'sommer-druckvorlagen-ideen', anchorText: 'Sommer-Druckvorlagen-Ideen für Kinderaktivitäten' },
+    { pageType: 'app', slug: 'gross-klein-arbeitsblaetter', anchorText: `Groß-&-Klein-Generator — Alle Details` },
+    { pageType: 'app', slug: 'muster-zug-arbeitsblaetter', anchorText: `Muster-Zug-Generator — Alle Details` },
+    { pageType: 'app', slug: `muster-arbeitsblatt-arbeitsblaetter`, anchorText: `Muster-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: `rasterzeichnen-arbeitsblaetter`, anchorText: `Rasterzeichnen-Generator — Alle Details` },
+    { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: `Linien-Ziehen-Generator — Alle Details` },
+    { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: `Malvorlagen-Generator — Alle Details` },
+    { pageType: 'app', slug: 'bilddiagramm-arbeitsblaetter', anchorText: `Bilddiagramm-Generator — Alle Details` },
+    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: `Malvorlagen für Etsy erstellen` },
+    { pageType: 'guide', slug: `zeichen-arbeitsblaetter-erstellen`, anchorText: `Zeichen-Arbeitsblätter erstellen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Ihr Etsy-Druckvorlagen-Geschäft aufbauen` },
+    { pageType: 'idea', slug: 'sommer-druckvorlagen-ideen', anchorText: `Sommer-Druckvorlagen-Ideen für Kinderaktivitäten` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/coloring/coloring portrait 1.webp',
+      primary: `/samples/german/coloring/coloring portrait 1.webp`,
       primaryAlt: `Malvorlage mit Schwarz-Weiß-Umrissbild zum Ausmalen`,
     },
     sampleGallery: [
-      { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: 'Größenvergleichs-Arbeitsblatt mit thematischen Bildern zum Einkreisen des Größten und Kleinsten', caption: 'Groß-&-Klein-Arbeitsblatt' },
-      { src: '/samples/german/pattern train/Musterzug 1.webp', alt: `Zugwaggon-Musterfolge-Arbeitsblatt mit fehlendem Musterelement`, caption: 'Muster-Zug-Arbeitsblatt' },
-      { src: `/samples/german/pattern worksheet/pattern_worksheet.webp`, alt: 'Mustererkennung-Arbeitsblatt mit Lückentext-Folgen', caption: 'Muster-Arbeitsblatt' },
-      { src: `/samples/german/draw and color/Zeichnen und Ausmale 1.webp`, alt: 'Referenzbild-Zeichen-Arbeitsblatt mit Raster zur Bildreproduktion', caption: 'Rasterzeichnen-Arbeitsblatt' },
-      { src: `/samples/german/drawing lines/Linien Zeichnen Üben 1.webp`, alt: 'Linien-Nachzieh-Arbeitsblatt mit gepaarten Objekten und geschwungenen Linien', caption: 'Linien-Ziehen-Arbeitsblatt' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlage mit Schwarz-Weiß-Umriss aus thematischem Bild konvertiert`, caption: 'Malvorlage' },
-      { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: `Balkendiagramm-Zähl-Arbeitsblatt mit thematischen Bild-Datenpunkten`, caption: 'Bilddiagramm-Arbeitsblatt' },
+      { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: `Größenvergleichs-Arbeitsblatt mit thematischen Bildern zum Einkreisen des Größten und Kleinsten`, caption: 'Groß-&-Klein-Arbeitsblatt' },
+      { src: `/samples/german/pattern train/Musterzug 1.webp`, alt: `Zugwaggon-Musterfolge-Arbeitsblatt mit fehlendem Musterelement`, caption: 'Muster-Zug-Arbeitsblatt' },
+      { src: `/samples/german/pattern worksheet/pattern_worksheet.webp`, alt: `Mustererkennung-Arbeitsblatt mit Lückentext-Folgen`, caption: 'Muster-Arbeitsblatt' },
+      { src: `/samples/german/draw and color/Zeichnen und Ausmale 1.webp`, alt: `Referenzbild-Zeichen-Arbeitsblatt mit Raster zur Bildreproduktion`, caption: 'Rasterzeichnen-Arbeitsblatt' },
+      { src: `/samples/german/drawing lines/Linien Zeichnen Üben 1.webp`, alt: `Linien-Nachzieh-Arbeitsblatt mit gepaarten Objekten und geschwungenen Linien`, caption: 'Linien-Ziehen-Arbeitsblatt' },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlage mit Schwarz-Weiß-Umriss aus thematischem Bild konvertiert`, caption: 'Malvorlage' },
+      { src: `/samples/german/chart count/Bilddiagramm 1.webp`, alt: `Balkendiagramm-Zähl-Arbeitsblatt mit thematischen Bild-Datenpunkten`, caption: 'Bilddiagramm-Arbeitsblatt' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Visuelles-Lernen-Paket — Alle 7 Generatoren in Aktion`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
-    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/zoo%20animals/cheetah.webp', alt: 'Gepard — thematisches Lernbild', caption: 'Gepard' },
-    { src: '/image-library/zoo%20animals/chimpanzee.webp', alt: 'Schimpanse — thematisches Lernbild', caption: 'Schimpanse' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gürteltier — thematisches Lernbild`, caption: 'Gürteltier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/zoo%20animals/cheetah.webp`, alt: `Gepard — thematisches Lernbild`, caption: 'Gepard' },
+    { src: `/image-library/zoo%20animals/chimpanzee.webp`, alt: `Schimpanse — thematisches Lernbild`, caption: 'Schimpanse' },
   ],
 };
 

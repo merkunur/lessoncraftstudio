@@ -4,25 +4,25 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'vender imprimíveis no Etsy',
     secondaryKeywords: [
-      'negócio de imprimíveis no Etsy',
-      'loja Etsy de fichas imprimíveis',
+      `negócio de imprimíveis no Etsy`,
+      `loja Etsy de fichas imprimíveis`,
       'como vender fichas no Etsy',
-      'negócio de transferências digitais no Etsy',
+      `negócio de transferências digitais no Etsy`,
     ],
     lsiKeywords: [
-      'SEO do Etsy para vendedores de imprimíveis',
-      'otimização de anúncios Etsy fichas',
-      'configurar loja Etsy produtos digitais',
-      'etiquetas Etsy para fichas imprimíveis',
-      'gerador de fichas para vendedores de Etsy',
-      'estratégia de preços imprimíveis Etsy',
+      `SEO do Etsy para vendedores de imprimíveis`,
+      `otimização de anúncios Etsy fichas`,
+      `configurar loja Etsy produtos digitais`,
+      `etiquetas Etsy para fichas imprimíveis`,
+      `gerador de fichas para vendedores de Etsy`,
+      `estratégia de preços imprimíveis Etsy`,
     ],
-    titleTag: 'Vender Imprimíveis no Etsy — Masterclass Completa',
+    titleTag: `Vender Imprimíveis no Etsy — Masterclass Completa`,
     metaDescription: `Como vender imprimíveis no Etsy passo a passo. Configuração de loja, SEO do Etsy, otimização de anúncios, estratégia de preços e escalamento do negócio.`,
   },
 
   hero: {
-    title: 'Masterclass Negócio de Imprimíveis no Etsy',
+    title: `Masterclass Negócio de Imprimíveis no Etsy`,
     tagline: `O guia específico de plataforma para construir uma loja rentável de fichas imprimíveis no Etsy`,
     description: `O Etsy é o maior marketplace para transferências digitais imprimíveis. Esta masterclass abrange tudo o que precisa para construir uma loja rentável de fichas imprimíveis na plataforma — desde a configuração inicial da loja e o SEO específico do Etsy até à otimização de anúncios, estratégia de preços, publicidade e escalamento para além dos primeiros 50 produtos. Cada estratégia neste guia está adaptada especificamente ao funcionamento do Etsy, não são conselhos genéricos aplicáveis a qualquer marketplace.`,
   },
@@ -63,7 +63,7 @@ const content: StartContent = {
       content: `O Etsy Ads é o sistema de publicidade integrado da plataforma. Coloca os seus anúncios no topo dos resultados de pesquisa relevantes em troca de uma taxa por clique. Compreender quando e como usar o Etsy Ads separa os vendedores rentáveis dos que desperdiçam dinheiro em campanhas ineficazes.\n\nComece com um orçamento diário pequeno — de 1 $ a 5 $ por dia. O Etsy Ads utiliza um modelo de custo por clique onde só paga quando alguém clica no seu anúncio. O custo por clique varia consoante o nível de concorrência no seu nicho, oscilando tipicamente entre 0,10 $ e 0,50 $ por clique para fichas imprimíveis.\n\nA métrica-chave é o retorno sobre o investimento publicitário (ROAS). Se gastar 5 $ em anúncios e gerar 20 $ em vendas, o seu ROAS é de 4:1 — excelente. Se gastar 5 $ e gerar 3 $, os seus anúncios estão a perder dinheiro. Reveja o seu painel do Etsy Ads semanalmente e desative os anúncios em publicações que não convertam rentavelmente.\n\nNão anuncie todos os anúncios. Concentre o Etsy Ads nos seus produtos que melhor convertem — as publicações com as maiores taxas de cliques e conversão. Anunciar uma publicação que já converte bem amplifica o seu sucesso. Anunciar uma publicação com fraca conversão desperdiça orçamento em cliques que não se convertem em vendas.\n\nPara além do Etsy Ads, use as ferramentas promocionais integradas do Etsy. Os saldos e cupões podem reenvolver visitantes anteriores. O Etsy mostra um emblema de «saldo» nas publicações com desconto, o que aumenta as taxas de cliques nos resultados de pesquisa. Realize saldos ocasionais de 15–20 % durante as épocas de pico como o regresso às aulas e os períodos festivos.\n\nAs redes sociais geram tráfego externo para a sua loja do Etsy. O Pinterest é particularmente eficaz para fichas imprimíveis — crie pins mostrando os seus designs de fichas e ligue diretamente aos seus anúncios do Etsy. O Instagram funciona para construir uma comunidade à volta da sua marca. Concentre-se num ou dois canais sociais em vez de se dispersar por todos.`,
     },
     {
-      heading: 'Gerir avaliações e serviço ao cliente no Etsy',
+      heading: `Gerir avaliações e serviço ao cliente no Etsy`,
       content: `As avaliações são moeda no Etsy. Influenciam diretamente a sua pontuação de qualidade de anúncio, o seu posicionamento nas pesquisas e a confiança dos compradores. Uma loja com dezenas de avaliações de cinco estrelas converte a uma taxa significativamente maior do que uma loja sem avaliações ou com feedback misto.\n\nA melhor forma de obter avaliações positivas é entregar produtos que superem as expectativas. Qualidade profissional de fichas, descrições precisas, formato de ficheiro limpo e extras incluídos como chaves de resposta contribuem para a satisfação do comprador. Quando os compradores sentem que receberam mais valor do que pagaram, as avaliações surgem naturalmente.\n\nResponda a cada avaliação, positiva ou negativa. Agradeça brevemente aos avaliadores positivos. Para as avaliações negativas, responda profissionalmente e ofereça uma solução — um ficheiro corrigido, um reembolso ou um produto diferente. A sua resposta é visível para todos os futuros compradores, e uma resposta profissional e orientada para soluções a uma avaliação negativa frequentemente gera mais confiança do que a avaliação em si danifica.\n\nTrate os pedidos de reembolso de forma rápida e amável. A política de transferências digitais do Etsy permite aos vendedores definir os seus próprios termos de reembolso, mas a plataforma favorece fortemente a satisfação do comprador. Um reembolso de um produto de 4,99 $ custa-lhe 4,99 $; uma avaliação negativa pode custar-lhe dezenas de vendas futuras. Quando o pedido de reembolso é razoável, processe-o rapidamente.\n\nPrevina as avaliações negativas de forma proativa. Inclua uma secção de «Como Utilizar» na descrição do seu anúncio e no próprio ficheiro transferido. Especifique claramente que formatos de ficheiro estão incluídos, que configurações de impressora funcionam melhor e como contactá-lo se surgir algum problema. A maioria das avaliações negativas de produtos imprimíveis provém da confusão do comprador, não da qualidade do produto.\n\nDepois de acumular mais de 10 avaliações, a sua loja entra num ciclo que se reforça sozinho. Mais avaliações significam melhor posicionamento, o que significa mais vendas, o que significa mais avaliações. Ultrapassar as primeiras 10 avaliações é a parte mais difícil — considere definir preços competitivos nos seus produtos iniciais para maximizar o volume de vendas precoces.`,
     },
     {
@@ -74,15 +74,15 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Investigue o seu nicho no Etsy',
+      step: `Investigue o seu nicho no Etsy`,
       description: `Pesquise no Etsy a sua categoria-alvo de fichas. Estude os 10 melhores resultados: anote os seus preços, número de páginas, estilos de miniaturas e quantidade de avaliações. Identifique lacunas onde pode oferecer algo que os principais vendedores atuais não oferecem.`,
     },
     {
-      step: 'Crie produtos de amostra com o teste grátis',
+      step: `Crie produtos de amostra com o teste grátis`,
       description: `Use o teste grátis com marca d'água em 2–3 geradores de fichas para criar produtos de amostra no seu nicho escolhido. Avalie a qualidade dos resultados e teste diferentes temas, níveis de dificuldade e configurações de página.`,
     },
     {
-      step: 'Configure a sua conta de vendedor no Etsy',
+      step: `Configure a sua conta de vendedor no Etsy`,
       description: `Crie a sua loja do Etsy com um nome relevante para o seu nicho. Complete a descrição da sua loja, as políticas, a configuração de pagamentos e carregue um banner profissional mostrando fichas de amostra.`,
     },
     {
@@ -90,27 +90,27 @@ const content: StartContent = {
       description: `Gere 8–10 fichas à volta de um único tema usando um gerador. Empacote-as como um pacote coeso com um estilo visual consistente. Defina o preço de 3,99 $–5,99 $ para o seu primeiro anúncio.`,
     },
     {
-      step: 'Otimize o seu primeiro anúncio',
+      step: `Otimize o seu primeiro anúncio`,
       description: `Escreva um título rico em palavras-chave com os termos de pesquisa principais no início. Preencha as 13 etiquetas com frases-chave únicas. Crie um mockup de miniatura limpo mostrando o produto real. Escreva uma descrição estruturada.`,
     },
     {
-      step: 'Publique 10 produtos na sua primeira semana',
+      step: `Publique 10 produtos na sua primeira semana`,
       description: `Crie anúncios individuais e pacotes a partir das suas fichas iniciais. Publique de forma cruzada as mesmas fichas em diferentes agrupamentos para maximizar a visibilidade nas pesquisas e aproveitar o impulso de novo anúncio do Etsy.`,
     },
     {
-      step: 'Configure o Etsy Ads no seu melhor anúncio',
+      step: `Configure o Etsy Ads no seu melhor anúncio`,
       description: `Comece com um orçamento diário de 1 $–2 $ no seu anúncio de maior qualidade. Monitorize a taxa de cliques e a taxa de conversão durante uma semana. Pause os anúncios se o ROAS estiver abaixo de 2:1.`,
     },
     {
-      step: 'Estabeleça um calendário semanal de publicações',
+      step: `Estabeleça um calendário semanal de publicações`,
       description: `Comprometa-se a adicionar 2–3 novos anúncios por semana. Use geradores de fichas para criar produtos eficientemente — uma sessão com um gerador pode produzir material suficiente para uma semana completa de novos anúncios.`,
     },
     {
-      step: 'Reveja as analíticas após 30 dias',
+      step: `Reveja as analíticas após 30 dias`,
       description: `Consulte o seu painel de estatísticas do Etsy para ver visualizações, favoritos e vendas por anúncio. Identifique os seus produtos com melhor desempenho e crie mais nessas categorias. Otimize os anúncios com baixo desempenho com melhores miniaturas e palavras-chave.`,
     },
     {
-      step: 'Planeie a sua primeira coleção sazonal',
+      step: `Planeie a sua primeira coleção sazonal`,
       description: `Identifique a próxima oportunidade sazonal (regresso às aulas, Halloween, Natal) e crie uma coleção temática de fichas pelo menos 4–6 semanas antes da procura de pico. Os produtos sazonais geram picos de rendimento significativos no Etsy.`,
     },
   ],
@@ -118,7 +118,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'coloring-worksheets',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `As páginas para colorir estão constantemente entre as categorias de imprimíveis mais vendidas no Etsy. Gere fichas profissionais para colorir estilo contorno a partir de mais de 100 conjuntos de imagens temáticas com layouts e tamanhos de página personalizáveis.`,
     },
     {
@@ -138,7 +138,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Gerador de Fichas de Associação',
+      title: `Gerador de Fichas de Associação`,
       description: `Fichas puramente visuais que se vendem a compradores internacionais do Etsy sem qualquer barreira de idioma. As atividades de associação são rápidas de produzir em volume e atraem o mercado de pré-escolar e jardim de infância.`,
     },
     {
@@ -158,12 +158,12 @@ const content: StartContent = {
       answer: `O Etsy cobra 0,20 $ por anúncio e retém 6,5 % de cada venda mais taxas de processamento de pagamento. Não existe subscrição mensal obrigatória. O seu investimento principal é uma licença comercial para os seus geradores de fichas. Muitos vendedores começam com uma única licença de gerador e reinvestem os rendimentos das primeiras vendas para adicionar mais ferramentas.`,
     },
     {
-      question: 'Quanto tempo demora até à primeira venda no Etsy?',
+      question: `Quanto tempo demora até à primeira venda no Etsy?`,
       answer: `A maioria dos vendedores de imprimíveis que publicam mais de 10 produtos otimizados na sua primeira semana e usam técnicas adequadas de SEO do Etsy veem a sua primeira venda em 2–4 semanas. As lojas com menos anúncios ou fraca otimização de palavras-chave podem demorar mais. O Etsy Ads pode acelerar as vendas iniciais colocando os seus anúncios frente a mais compradores.`,
     },
     {
       question: `Preciso de uma licença comercial para vender fichas no Etsy?`,
-      answer: `Sim. O teste grátis com marca d'água destina-se apenas a avaliação. Para vender fichas comercialmente no Etsy ou em qualquer outra plataforma, precisa de uma licença comercial que remove a marca d'água e concede direitos de venda. Cada licença abrange uma ferramenta geradora.`,
+      answer: `Sim. O teste grátis com marca d`água destina-se apenas a avaliação. Para vender fichas comercialmente no Etsy ou em qualquer outra plataforma, precisa de uma licença comercial que remove a marca d`água e concede direitos de venda. Cada licença abrange uma ferramenta geradora.`,
     },
     {
       question: `Quantos anúncios no Etsy posso criar com um único gerador de fichas?`,
@@ -185,7 +185,7 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
       description: `O guia integral de base que abrange seleção de nicho, criação de produtos, comparação de plataformas, estratégia de preços e construção de catálogo para todos os marketplaces de imprimíveis.`,
     },
@@ -196,48 +196,48 @@ const content: StartContent = {
     },
     {
       slug: 'livros-atividades-amazon-kdp',
-      title: 'Guia de Livros de Atividades para Amazon KDP',
+      title: `Guia de Livros de Atividades para Amazon KDP`,
       description: `Expanda para além do Etsy com livros de atividades na Amazon KDP. Abrange requisitos de formatação, design de capa, pesquisa de palavras-chave e seleção de categoria para o marketplace da Amazon.`,
     },
     {
       slug: 'plano-negocio-imprimiveis',
-      title: 'Plano de Negócio de Imprimíveis',
+      title: `Plano de Negócio de Imprimíveis`,
       description: `O guia de planeamento de negócio estruturado para vendedores de imprimíveis. Abrange modelação de rendimentos, planeamento de catálogo, diversificação de plataformas e marcos de crescimento.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como Criar Fichas Profissionais que Vendem' },
-    { pageType: 'start', slug: 'plano-negocio-imprimiveis', anchorText: 'Plano de Negócio de Imprimíveis' },
-    { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de Livros de Atividades na Amazon KDP' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como Criar Fichas Profissionais que Vendem` },
+    { pageType: 'start', slug: 'plano-negocio-imprimiveis', anchorText: `Plano de Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de Livros de Atividades na Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: `Guia de Licença Comercial para Vendedores de Imprimíveis` },
-    { pageType: 'start', slug: 'rendimentos-negocio-imprimiveis', anchorText: `Rendimentos de um Negócio de Imprimíveis: Expectativas Realistas` },
+    { pageType: 'start', slug: `rendimentos-negocio-imprimiveis`, anchorText: `Rendimentos de um Negócio de Imprimíveis: Expectativas Realistas` },
     { pageType: 'app', slug: 'desenhos-colorir-fichas', anchorText: `Gerador de Páginas para Colorir — Todos os Detalhes` },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Sopa de Letras — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Experimente o Gerador de Páginas para Colorir' },
-    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimente o Gerador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Experimente o Gerador de Fichas de Associação' },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de Sopa de Letras — Todos os Detalhes` },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: `Experimente o Gerador de Páginas para Colorir` },
+    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: `Experimente o Gerador de Sopa de Letras` },
+    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: `Experimente o Gerador de Fichas de Associação` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Exemplo de ficha para colorir criada com o gerador LessonCraftStudio para vendedores do Etsy' },
+    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Exemplo de ficha para colorir criada com o gerador LessonCraftStudio para vendedores do Etsy` },
     samples: [
-      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: 'Ficha para colorir para loja de imprimíveis no Etsy', caption: 'Página para Colorir — Categoria Top no Etsy' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha imprimível de sopa de letras para anúncio no Etsy', caption: 'Sopa de Letras — Alto Volume de Pesquisa' },
-      { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de soma com problemas de matemática baseados em imagens', caption: 'Soma — Categoria de Matemática Permanente' },
-      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de associação para compradores internacionais do Etsy', caption: 'Associação — Atividade Visual sem Texto' },
+      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: `Ficha para colorir para loja de imprimíveis no Etsy`, caption: `Página para Colorir — Categoria Top no Etsy` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha imprimível de sopa de letras para anúncio no Etsy`, caption: `Sopa de Letras — Alto Volume de Pesquisa` },
+      { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de soma com problemas de matemática baseados em imagens`, caption: `Soma — Categoria de Matemática Permanente` },
+      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de associação para compradores internacionais do Etsy`, caption: `Associação — Atividade Visual sem Texto` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Como Criar Fichas para Colorir — Demo do LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchila — imagem educativa temática', caption: 'Chinchila' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Caturra — imagem educativa temática', caption: 'Caturra' },
-    { src: '/image-library/pets/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Furão — imagem educativa temática', caption: 'Furão' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchila — imagem educativa temática`, caption: 'Chinchila' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Caturra — imagem educativa temática`, caption: 'Caturra' },
+    { src: '/image-library/pets/dog.webp', alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Furão — imagem educativa temática`, caption: 'Furão' },
   ],
 };
 

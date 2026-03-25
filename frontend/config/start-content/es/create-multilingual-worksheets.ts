@@ -4,25 +4,25 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'generador fichas multilingüe',
     secondaryKeywords: [
-      'crear fichas en varios idiomas',
-      'fichas imprimibles multilingües',
-      'vender fichas en alemán francés español',
-      'generador de libros de actividades multilingüe',
+      `crear fichas en varios idiomas`,
+      `fichas imprimibles multilingües`,
+      `vender fichas en alemán francés español`,
+      `generador de libros de actividades multilingüe`,
     ],
     lsiKeywords: [
-      'generador de fichas sensible al idioma',
+      `generador de fichas sensible al idioma`,
       'crear fichas en 11 idiomas',
-      'mercado de imprimibles no angloparlante etsy',
-      'generador de sopa de letras multilingüe',
-      'negocio internacional de imprimibles',
-      'vender fichas en etsy.de etsy.fr',
+      `mercado de imprimibles no angloparlante etsy`,
+      `generador de sopa de letras multilingüe`,
+      `negocio internacional de imprimibles`,
+      `vender fichas en etsy.de etsy.fr`,
     ],
-    titleTag: 'Generador Fichas Multilingüe | Crear y Vender',
+    titleTag: `Generador Fichas Multilingüe | Crear y Vender`,
     metaDescription: `Crea y vende fichas en 11 idiomas con un generador multilingüe. Llega a compradores alemanes, franceses y españoles en Etsy, Amazon KDP y mercados globales.`,
   },
 
   hero: {
-    title: 'Cómo Crear Fichas en 11 Idiomas',
+    title: `Cómo Crear Fichas en 11 Idiomas`,
     tagline: `Llega a compradores internacionales en Etsy y Amazon KDP con contenido de fichas localizado profesionalmente — sin necesidad de conocimientos de idiomas`,
     description: `La mayoría de los vendedores de imprimibles compiten exclusivamente en el mercado angloparlante, ignorando a millones de compradores que buscan en alemán, francés, español, portugués, italiano y otros idiomas. Esta guía te muestra cómo usar generadores de fichas multilingües para crear contenido auténtico y específico para cada idioma en 11 idiomas, y venderlo en marketplaces internacionales. Aprenderás la distinción fundamental entre generadores sensibles al idioma y los puramente visuales, comprenderás la oportunidad de mercado en cada idioma soportado y construirás una estrategia sistemática para expandir tu negocio de imprimibles a nivel internacional.`,
   },
@@ -47,11 +47,11 @@ const content: StartContent = {
       content: `La calidad del resultado multilingüe depende enteramente del sistema de traducción subyacente. La traducción automática de palabras individuales frecuentemente produce resultados incorrectos o incómodos — especialmente para contenido imprimible donde la precisión es crítica. Los generadores usan un enfoque diferente.\n\nLa biblioteca de imágenes contiene más de 3.000 imágenes categorizadas en 104 temas. Cada imagen tiene traducciones verificadas profesionalmente en los 11 idiomas soportados. Cuando seleccionas un tema como «animales» y generas una sopa de letras en alemán, el generador obtiene el vocabulario alemán directamente de esta base de datos pre-traducida. La palabra «Schmetterling» (mariposa) aparece en el puzzle porque fue almacenada como la traducción alemana de esa imagen específica, no porque una máquina tradujera «butterfly» sobre la marcha.\n\nEste enfoque basado en base de datos garantiza una precisión que la traducción automática no puede igualar. Los sustantivos compuestos en alemán, los artículos con género en francés, los signos diacríticos en portugués y sueco — todos se manejan correctamente porque las traducciones de hablantes nativos fueron ingresadas y verificadas para cada elemento de vocabulario.\n\nLos puzzles de sopa de letras lo demuestran con mayor claridad. Selecciona «comida» como tema, elige alemán, y el puzzle se llena con palabras como «Kuchen» (pastel), «Brötchen» (panecillo) y «Gemüse» (verduras) — con las diéresis y el formato de sustantivos compuestos correctos. El mismo tema en francés produce «gâteau», «pain» y «légumes» con las marcas de acentuación adecuadas.\n\nLos generadores de crucigramas van más allá: las pistas se adaptan al idioma objetivo, las longitudes de las respuestas cambian para ajustarse a las palabras traducidas y los diseños de la cuadrícula se regeneran para acomodar las diferentes estructuras de palabras de cada idioma. El tren del abecedario ajusta los conjuntos de letras para idiomas que usan caracteres diferentes o frecuencias de letras distintas.\n\nEsta calidad de traducción integrada es lo que hace que el resultado multilingüe sea vendible. Los compradores en Alemania, Francia o España pueden notar inmediatamente la diferencia entre contenido genuinamente localizado y fichas mal traducidas automáticamente. El contenido auténtico genera reseñas positivas; el contenido traducido automáticamente genera solicitudes de reembolso.`,
     },
     {
-      heading: 'Crear Tu Primer Producto de Fichas Multilingüe',
+      heading: `Crear Tu Primer Producto de Fichas Multilingüe`,
       content: `El camino más rápido hacia tu primer producto multilingüe comienza con un generador sensible al idioma y un tema de alta demanda.\n\nPaso uno: elige un generador sensible al idioma. La sopa de letras es el mejor punto de partida porque es la categoría de fichas de puzzles más popular tanto en Etsy como en Amazon, y demuestra las diferencias lingüísticas de la forma más visible. Las palabras ocultas son completamente diferentes en cada idioma, haciendo de cada versión un producto genuinamente único.\n\nPaso dos: selecciona tu idioma objetivo. Si este es tu primer producto no inglés, empieza con el alemán. Amazon.de es el marketplace no angloparlante más grande, y la demanda de imprimibles educativos en alemán está bien establecida. Puedes explorar la interfaz en español mientras generas contenido en alemán.\n\nPaso tres: elige un tema popular. Animales, comida y vehículos son temas universalmente fuertes en todos los idiomas y grupos de edad. Selecciona tu tema y el generador automáticamente usa las traducciones alemanas de su base de datos de vocabulario.\n\nPaso cuatro: genera y revisa. Crea tus puzzles de sopa de letras y examina el resultado. Verás palabras alemanas en la cuadrícula del puzzle, con listas de palabras alemanas para resolver. Incluso si no hablas alemán, puedes verificar que el resultado se ve profesional y completo.\n\nPaso cinco: crea un producto completo. Genera de 15 a 25 páginas de puzzles para un paquete PDF descargable (Etsy) o de 50 a 100 páginas para un interior de libro de actividades (Amazon KDP). Añade una portada con el nombre del producto en el idioma objetivo.\n\nPaso seis: repite para idiomas adicionales. Una vez que tengas tu versión en alemán, crea el mismo producto en francés y español. Cada generación toma minutos porque el flujo de trabajo es idéntico — solo cambia la selección de idioma. Ahora tienes cuatro productos (inglés, alemán, francés, español) a partir de un solo flujo de trabajo.\n\nRecuerda: usa la prueba gratis con marca de agua para probar tu resultado multilingüe antes de comprometerte con una licencia comercial. Genera páginas de muestra en varios idiomas para confirmar que la calidad cumple con tus estándares.`,
     },
     {
-      heading: 'Vender Fichas Multilingües en Etsy',
+      heading: `Vender Fichas Multilingües en Etsy`,
       content: `Etsy opera dominios regionales que sirven a compradores en su idioma nativo, y entender cómo optimizar para estos mercados es esencial para vendedores multilingües.\n\nEtsy.de sirve a compradores germanoparlantes. Etsy.fr sirve a compradores francófonos. Etsy.com sirve principalmente a compradores angloparlantes pero también tiene tráfico significativo en español. Cuando creas publicaciones, Etsy las muestra en el dominio regional que coincide con el idioma de la publicación y la ubicación del comprador.\n\nPara optimizar publicaciones en mercados no angloparlantes, escribe tu título, etiquetas y descripción en el idioma objetivo. Una publicación de sopa de letras en alemán debería tener el título «Wortsuche Rätsel für Kinder — Tiere Thema — 20 Seiten» en lugar de «German Word Search Puzzles for Kids». Los compradores en Etsy.de buscan en alemán, así que tu publicación debe contener palabras clave en alemán para aparecer en sus resultados de búsqueda.\n\nSi no hablas el idioma objetivo, usa herramientas de traducción para el texto de tu publicación (no para el contenido de tus fichas — eso lo maneja el generador). Los títulos y descripciones de las publicaciones son lo suficientemente cortos como para que las herramientas de traducción produzcan resultados aceptables, especialmente cuando sigues una estructura de plantilla.\n\nLas estrategias de paquetes funcionan excepcionalmente bien para productos multilingües en Etsy. «Deutsches Wortsuche Paket — 20 Rätsel» (Paquete de Sopa de Letras Alemán — 20 Puzzles) ofrece un valor claro en una sola compra. Crea paquetes por tema: animales, comida, festividades, materias escolares. Pon un precio ligeramente superior a las fichas individuales.\n\nEl enlace cruzado entre versiones en diferentes idiomas crea un efecto de catálogo. En la descripción de tu publicación en inglés, menciona «También disponible en alemán, francés y español» con enlaces a esas publicaciones. Los compradores bilingües y las escuelas internacionales a menudo compran múltiples versiones lingüísticas del mismo conjunto de fichas.\n\nEl formato de descarga digital de Etsy es ideal para fichas multilingües porque no hay complejidad de envío. Un comprador en Alemania descarga un PDF al instante, igual que un comprador en Estados Unidos. Tus costes operativos son idénticos sin importar de qué país sea el comprador.`,
     },
     {
@@ -98,11 +98,11 @@ const content: StartContent = {
       description: `Toma tus páginas para colorear, fichas de matemáticas y otros productos solo visuales existentes. Crea nuevas publicaciones con títulos y descripciones en alemán usando los mismos archivos PDF. No se necesita generar contenido nuevo.`,
     },
     {
-      step: 'Expandirse a Francés y Español',
+      step: `Expandirse a Francés y Español`,
       description: `Una vez que tus publicaciones en alemán estén activas y optimizadas, repite el proceso para francés (Amazon.fr, Etsy.fr) y español (Amazon.es, mercado hispano de EE.UU.). Usa el mismo flujo de trabajo: productos sensibles al idioma primero, luego republicación de productos solo visuales.`,
     },
     {
-      step: 'Construir Series en Múltiples Idiomas',
+      step: `Construir Series en Múltiples Idiomas`,
       description: `Crea el Volumen 2 y Volumen 3 de tus productos multilingües con mejor rendimiento. Las series entre idiomas multiplican tu presencia en el catálogo: 3 volúmenes en 4 idiomas equivalen a 12 productos separados a partir de una sola estrategia de contenido.`,
     },
     {
@@ -124,17 +124,17 @@ const content: StartContent = {
     },
     {
       appId: 'word-scramble-worksheets',
-      title: 'Generador de Palabras Desordenadas',
+      title: `Generador de Palabras Desordenadas`,
       description: `Las palabras desordenadas se adaptan al vocabulario de cada idioma. Los sustantivos compuestos alemanes, las palabras acentuadas francesas y el vocabulario español se desordenan correctamente dentro de las reglas específicas de cada idioma.`,
     },
     {
       appId: 'alphabet-train-worksheets',
-      title: 'Generador de Tren del Abecedario',
+      title: `Generador de Tren del Abecedario`,
       description: `Los conjuntos de letras y el orden alfabético se ajustan para cada idioma. Los idiomas con caracteres adicionales (ß alemán, åäö sueco, æøå danés) producen composiciones de tren diferentes.`,
     },
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `En el modo de asociación de palabras, las etiquetas de vocabulario cambian por idioma. Asocia imágenes con sus nombres en alemán, francés o español usando la base de datos de traducción integrada para contenido localizado auténtico.`,
     },
     {
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Sí. Las páginas para colorear, fichas de matemáticas, puzzles Sudoku y otros contenidos solo visuales usan números, imágenes y formas que son universales. Puedes publicar el mismo archivo PDF en Etsy.de, Etsy.fr, Amazon.de y Amazon.fr con texto de publicación localizado. No se necesita generar contenido nuevo — solo títulos y descripciones traducidos.`,
     },
     {
-      question: '¿Con qué idioma no inglés debería empezar?',
+      question: `¿Con qué idioma no inglés debería empezar?`,
       answer: `El alemán es el primer idioma de expansión recomendado para la mayoría de los vendedores. Amazon.de es el segundo marketplace de Amazon más grande a nivel global, Etsy.de tiene una base activa de compradores de imprimibles educativos, y la competencia en fichas educativas en alemán es dramáticamente menor que en inglés. El francés es el segundo idioma recomendado.`,
     },
     {
@@ -181,7 +181,7 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía fundamental integral que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
@@ -192,48 +192,48 @@ const content: StartContent = {
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass de Negocio de Imprimibles en Etsy',
+      title: `Masterclass de Negocio de Imprimibles en Etsy`,
       description: `La guía específica de Etsy para descargas digitales de imprimibles. Cubre configuración de tienda, SEO en Etsy, optimización de publicaciones y cómo llegar a compradores internacionales a través de los dominios regionales de Etsy.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas Que Se Venden',
+      title: `Cómo Crear Fichas Que Se Venden`,
       description: `Análisis profundo de la calidad de creación de productos: estándares de diseño, técnicas de diferenciación y los métodos que hacen que tus fichas multilingües destaquen frente a la competencia.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales Que Se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales Que Se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos del Negocio de Imprimibles: Expectativas Realistas` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
-    { pageType: 'app', slug: 'crucigramas-imagenes-fichas', anchorText: 'Generador de Crucigramas — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Prueba el Generador de Crucigramas' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
+    { pageType: 'app', slug: 'crucigramas-imagenes-fichas', anchorText: `Generador de Crucigramas — Todos los Detalles` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: `generador-crucigramas-imagenes`, anchorText: `Prueba el Generador de Crucigramas` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de puzzle de sopa de letras que demuestra la generación de fichas multilingüe en 11 idiomas` },
+    heroImage: { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de puzzle de sopa de letras que demuestra la generación de fichas multilingüe en 11 idiomas` },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de puzzle de sopa de letras con vocabulario sensible al idioma`, caption: 'Sopa de Letras — La Mejor Demo Multilingüe' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Puzzle de crucigrama con pistas y respuestas localizadas', caption: 'Crucigrama — Puzzles Completamente Localizados' },
-      { src: `/samples/spanish/word scramble/Palabras Revueltas 1.webp`, alt: 'Ficha de palabras desordenadas con vocabulario adaptado al idioma', caption: 'Palabras Desordenadas — Resultado Sensible al Idioma' },
-      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 1.webp`, alt: 'Ficha de tren del abecedario mostrando conjuntos de letras específicos por idioma', caption: 'Tren del Abecedario — Conjuntos de Letras Adaptados' },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de puzzle de sopa de letras con vocabulario sensible al idioma`, caption: `Sopa de Letras — La Mejor Demo Multilingüe` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Puzzle de crucigrama con pistas y respuestas localizadas`, caption: `Crucigrama — Puzzles Completamente Localizados` },
+      { src: `/samples/spanish/word scramble/Palabras Revueltas 1.webp`, alt: `Ficha de palabras desordenadas con vocabulario adaptado al idioma`, caption: `Palabras Desordenadas — Resultado Sensible al Idioma` },
+      { src: `/samples/spanish/alphabet train/Tren del Alfabeto 1.webp`, alt: `Ficha de tren del abecedario mostrando conjuntos de letras específicos por idioma`, caption: `Tren del Abecedario — Conjuntos de Letras Adaptados` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo Crear Fichas de Sopa de Letras en Múltiples Idiomas — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Águila — imagen educativa temática', caption: 'Águila' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamenco — imagen educativa temática', caption: 'Flamenco' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Cálao — imagen educativa temática', caption: 'Cálao' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Guacamayo — imagen educativa temática', caption: 'Guacamayo' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagen educativa temática', caption: 'Avestruz' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Águila — imagen educativa temática`, caption: 'Águila' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamenco — imagen educativa temática`, caption: 'Flamenco' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Cálao — imagen educativa temática`, caption: 'Cálao' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Guacamayo — imagen educativa temática`, caption: 'Guacamayo' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Avestruz — imagen educativa temática`, caption: 'Avestruz' },
   ],
 };
 

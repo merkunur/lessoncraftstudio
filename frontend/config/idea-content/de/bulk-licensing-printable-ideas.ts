@@ -2,17 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'massenlizenzierung druckvorlagen geschäftsideen',
+    primaryKeyword: `massenlizenzierung druckvorlagen geschäftsideen`,
     secondaryKeywords: [
-      'Volumenlizenz Druckvorlagen an Schulen verkaufen',
+      `Volumenlizenz Druckvorlagen an Schulen verkaufen`,
       `Gruppensatz-Arbeitsblätter für Bildungseinrichtungen`,
       `Schullizenzen für Druckvorlagen-Produkte erstellen`,
       `institutionelle Preisgestaltung Arbeitsblatt-Verkäufer`,
     ],
     lsiKeywords: [
-      'B2B-Druckvorlagen-Vertrieb Bildungssektor',
-      'Volumenlizenz-Preismodelle Arbeitsblätter',
-      'Schullizenz-Geschäftsmodell Druckvorlagen',
+      `B2B-Druckvorlagen-Vertrieb Bildungssektor`,
+      `Volumenlizenz-Preismodelle Arbeitsblätter`,
+      `Schullizenz-Geschäftsmodell Druckvorlagen`,
     ],
     titleTag: `Massenlizenzierung Druckvorlagen Geschäftsideen — Leitfaden`,
     metaDescription: `Geschäftsideen für Massenlizenzierung von Arbeitsblättern an Schulen und Organisationen. Volumenlizenzierung und Preisstrategien für Bildungsanbieter erklärt.`,
@@ -92,7 +92,7 @@ Das wiederkehrende Einnahmepotenzial der Massenlizenzierung ist besonders überz
 
   platformTips: [
     {
-      platform: 'Direkter institutioneller Vertrieb',
+      platform: `Direkter institutioneller Vertrieb`,
       title: `Massenlizenzvereinbarungen direkt an Schulen und Organisationen verkaufen`,
       description: `Direktvertrieb an Schulen, Bezirke, Ketten und Bildungsorganisationen stellt den primären Kanal für Massenlizenzvereinbarungen dar, da institutionelle Kaufentscheidungen Budgetgenehmigungsprozesse, Beschaffungsverfahren und Vertragsverhandlungen umfassen, die außerhalb von Marktplattformen stattfinden. Erstellen Sie professionelle Lizenzvorschläge mit klaren Stufenstrukturen, die verschiedene Abdeckungsstufen von Einzelschullizenzen bis zu bezirksweiten Vereinbarungen zu volumenrabatten anbieten, die den institutionellen Umfang jeder Vereinbarung widerspiegeln. Bauen Sie Beziehungen zu Produktkatalogkoordinatoren, Abteilungsleitern und Einkaufsadministratoren auf, die institutionelle Kaufentscheidungen beeinflussen und Ihre Lizenzvereinbarungen durch interne Genehmigungsprozesse vorantreiben können. Institutionelle Vertriebszyklen sind länger als Marktplatztransaktionen, produzieren aber dramatisch höhere Pro-Geschäft-Einnahmen und schaffen mehrjährige Verlängerungsbeziehungen, die planbare Jahreseinnahmen bieten. Bereiten Sie Mustermaterialien, Lizenzkonditionen und Preistabellen vor, die institutionelle Prüfer in ihren Genehmigungsketten zirkulieren können, da institutionelle Käufer Dokumentation benötigen, die sie Budgetausschüssen und Administratoren vorlegen können, die endgültige Kaufentscheidungen treffen.`,
     },
@@ -102,7 +102,7 @@ Das wiederkehrende Einnahmepotenzial der Massenlizenzierung ist besonders überz
       description: `Etsys Individualauftrags-Funktionalität und Nachrichtensystem ermöglichen Massenlizenzierungs-Gespräche mit institutionellen Käufern, die Ihre Standard-Produktangebote entdecken und nach Volumenpreisen für organisatorische Nutzung fragen. Erstellen Sie dedizierte Angebote, die ausdrücklich Massenlizenzierungsverfügbarkeit, institutionelle Preisgestaltung und Mengenrabatte erwähnen, um organisatorische Käufer anzuziehen, die auf Etsy nach Bildungsmaterialien in großem Umfang suchen. Nutzen Sie Etsys Nachrichtensystem für Lizenzberatungen, in denen Sie den Umfang der Institution verstehen, Preisstufen verhandeln und Lizenzvereinbarungen zusammen mit dem Massenzugang zu Ihren Inhaltsbibliotheken liefern. Viele institutionelle Käufer beginnen ihre Suche auf Etsy, weil Käufer innerhalb der Organisation bestimmte Produkte empfehlen, die sie persönlich entdeckt haben, was einen natürlichen Upgrade-Pfad von Einzelkäufen zu institutioneller Lizenzierung schafft. Positionieren Sie Ihre Standard-Produktangebote als Einstiegspunkte, die einzelnen Käufern Qualität demonstrieren, die dann innerhalb ihrer Schulen für institutionelle Käufe werben und so eine organische Pipeline von der Marktplatzentdeckung zu institutionellen Lizenzgesprächen schaffen.`,
     },
     {
-      platform: 'Partnerschaften mit Bildungsdistributoren',
+      platform: `Partnerschaften mit Bildungsdistributoren`,
       title: `Partnerschaften mit Bildungsdistributoren für institutionelle Vertriebskanäle`,
       description: `Bildungsinhalte-Distributoren, Produktkatalog-Verlage und institutionelle Lieferunternehmen bieten etablierte Kanäle zur Erreichung von Schulen und Organisationen, die über zugelassene Anbieterbeziehungen und Beschaffungssysteme einkaufen. Sprechen Sie Bildungsdistributoren mit Ihren Arbeitsblatt-Kollektionen an, die als ergänzende Produktkatalogmaterialien positioniert sind, die ihre bestehenden Produktkataloge ergänzen, und bieten Sie Großhandels-Lizenzkonditionen an, die Distributoren Marge geben und gleichzeitig Ihre Pro-Lizenz-Einnahmeziele aufrechterhalten. Distributor-Partnerschaften bieten Zugang zu institutioneller Vertriebsinfrastruktur einschließlich Katalogen, Vertriebsmitarbeitern und Beschaffungssystem-Integrationen, die für einzelne Verkäufer unerschwinglich teuer wären, eigenständig aufzubauen. Das Distributormodell funktioniert besonders gut für Verkäufer mit umfassenden Inhaltsbibliotheken über mehrere Fächer und Jahrgangsstufen, die die Katalogpräsenz und institutionelle Glaubwürdigkeit rechtfertigen, die Distributoren verlangen. Beginnen Sie mit kleineren regionalen Distributoren, die lokale Schulbezirke bedienen und empfänglicher für die Zusammenarbeit mit unabhängigen Inhaltserstellern sind, bevor Sie größere nationale Distributoren ansprechen, die etablierte Verkaufshistorien und umfangreiche Produktkataloge erfordern.`,
     },
@@ -147,13 +147,13 @@ Das wiederkehrende Einnahmepotenzial der Massenlizenzierung ist besonders überz
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -167,18 +167,18 @@ Das wiederkehrende Einnahmepotenzial der Massenlizenzierung ist besonders überz
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
@@ -188,12 +188,12 @@ Das wiederkehrende Einnahmepotenzial der Massenlizenzierung ist besonders überz
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 
 

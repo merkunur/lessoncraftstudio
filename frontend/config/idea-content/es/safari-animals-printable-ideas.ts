@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles Animales de Safari — Guía de Nicho`,
     metaDescription: `Ideas rentables de imprimibles de animales de safari para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos de fauna africana y consejos para.`,
 
-    primaryKeyword: 'ideas de imprimibles animales de safari',
+    primaryKeyword: `ideas de imprimibles animales de safari`,
     secondaryKeywords: [
-      'fichas animales safari para vender',
-      'negocio imprimibles temática safari',
-      'fichas actividades selva para vendedores',
-      'vender imprimibles safari en Etsy',
+      `fichas animales safari para vender`,
+      `negocio imprimibles temática safari`,
+      `fichas actividades selva para vendedores`,
+      `vender imprimibles safari en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas fauna africana',
-      'actividades temática sabana y selva',
-      'imprimibles escolares animales exóticos',
+      `fichas educativas fauna africana`,
+      `actividades temática sabana y selva`,
+      `imprimibles escolares animales exóticos`,
     ],
   },
   hero: {
@@ -94,7 +94,7 @@ El tema safari también funciona excepcionalmente bien en el mercado de regalos 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Animales de Safari en Etsy',
+      title: `Vender Imprimibles de Animales de Safari en Etsy`,
       description: `Etsy recompensa la especificidad en los listados de imprimibles de animales de safari. Apunta a palabras clave de cola larga como «fichas de conteo animales safari preescolar» o «páginas para colorear animales africanos preescolar» en lugar de títulos genéricos. Utiliza las trece etiquetas con combinaciones de tema, habilidad, grupo de edad y ocasión como visitas al zoológico o fiestas de cumpleaños. Las imágenes de maqueta mostrando fichas de safari impresas junto a juguetes de animales, fondos de sabana o exhibiciones del mercado superan significativamente las vistas previas digitales planas. Programa los nuevos listados para coincidir con la temporada de visitas al zoológico en primavera de marzo a mayo cuando el interés en temas de safari alcanza su punto máximo. Ofrece tanto fichas individuales a dos o cuatro dólares como paquetes temáticos a ocho o quince dólares, ya que los compradores de Etsy a menudo comienzan con una compra de bajo costo y regresan por paquetes más grandes de safari después de verificar la calidad.`,
     },
     {
@@ -148,18 +148,18 @@ El tema safari también funciona excepcionalmente bien en el mercado de regalos 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -168,12 +168,12 @@ El tema safari también funciona excepcionalmente bien en el mercado de regalos 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -183,18 +183,18 @@ El tema safari también funciona excepcionalmente bien en el mercado de regalos 
     },
     {
       pageType: 'idea',
-      slug: 'animales-marinos-ideas-imprimibles',
+      slug: `animales-marinos-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Animales Marinos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — imagen educativa temática', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagen educativa temática', caption: 'Bisonte' },
-    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — imagen educativa temática`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagen educativa temática`, caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
   ],
 
 

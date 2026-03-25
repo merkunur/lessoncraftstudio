@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'Bilder-Sortieren-Generator',
     secondaryKeywords: [
-      'Bilder-Sortieren-Ersteller für Verkäufer',
+      `Bilder-Sortieren-Ersteller für Verkäufer`,
       `Sortier-Arbeitsblätter online erstellen und verkaufen`,
       `druckbare Sortier-Aktivitäten kommerziell erstellen`,
       `Sortier-Arbeitsblatt-Generator mit Zwei-Kategorien-Layout und automatischem Lösungsschlüssel für KDP`,
@@ -25,10 +25,10 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'Sortier-Arbeitsblätter erstellen in 8 Schritten',
+    title: `Sortier-Arbeitsblätter erstellen in 8 Schritten`,
     steps: [
       {
-        title: 'Den Bilder-Sortieren-Ersteller öffnen',
+        title: `Den Bilder-Sortieren-Ersteller öffnen`,
         description: `Klicken Sie auf „Kostenlos testen", um den Sortier-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, ein Tab für den Lösungsschlüssel. Kein Konto erstellen, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Sortier-Arbeitsblättern.`,
       },
       {
@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: `Öffnen Sie das Sortier-Kategorien-Panel und wählen Sie zwischen zwei Auswahlmodi. Der Themen-Modus lässt Sie ein Thema für die linke Kategorie und ein anderes für die rechte Kategorie wählen — die App wählt automatisch 4–6 zufällige Bilder pro Thema aus der Bildbibliothek und erstellt Arbeitsblätter mit 8–12 Bildern insgesamt. Der manuelle Modus gibt Ihnen volle Kontrolle: Wählen Sie einzelne Bilder aus beliebigen Themen von Hand aus und weisen Sie jedes der linken oder rechten Kategorie zu. Der Themen-Modus eignet sich für schnelle Massenproduktion; der manuelle Modus ist ideal für spezifische, lehrplanorientierte Sortier-Aktivitäten.`,
       },
       {
-        title: 'Bildanzahl und Kategorieverteilung konfigurieren',
+        title: `Bildanzahl und Kategorieverteilung konfigurieren`,
         description: `Legen Sie die Gesamtanzahl der Sortierbilder von 4 bis 12 fest, wobei jede Kategorie zwischen 2 und 10 Bilder enthält. Im Themen-Modus zieht die App automatisch 4–6 Bilder pro Thema. Im manuellen Modus steuern Sie präzise, wie viele Bilder in jede Kategorie kommen. Weniger Bilder schaffen einfachere Sortieraufgaben für Vorschule und Kindergarten; mehr Bilder erhöhen den Schwierigkeitsgrad für K-2-Produktmarkt. Das Ausschneidegitter passt sein Spaltenlayout (3–4 Spalten basierend auf der Gesamtanzahl) automatisch an, um saubere visuelle Abstände beizubehalten.`,
       },
       {
@@ -44,19 +44,19 @@ const content: ToolContent = {
         description: `Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf Bilder, um sie zu Ihrem Arbeitsblatt hinzuzufügen. Im manuellen Modus weisen Sie jedes ausgewählte Bild der linken oder rechten Kategorie zu. Alternativ laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch, um personalisierte Sortier-Arbeitsblätter mit Ihren eigenen Fotos, Illustrationen oder unterrichtsspezifischen Inhalten zu erstellen.`,
       },
       {
-        title: 'Seitenlayout und Dekorationen festlegen',
+        title: `Seitenlayout und Dekorationen festlegen`,
         description: `Im Seiten-Setup-Bereich wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine benutzerdefinierte Dimension. Wählen Sie eine Seitenhintergrundfarbe. Wählen Sie ein dekoratives Hintergrundthema und ein Rahmenthema aus der integrierten Bibliothek, jeweils mit eigenem unabhängigem Deckkraftregler (0–1, Schrittweite 0,05). Hintergrund- und Rahmenthemen arbeiten unabhängig voneinander, sodass Sie ein dezentes Hintergrundmuster mit einem kräftigen dekorativen Rahmen kombinieren können. Aktivieren Sie „Name-/Datumsfelder einfügen", um Name- und Datumszeilen für die Produkterstellungsalltag hinzuzufügen.`,
       },
       {
-        title: 'Sortier-Arbeitsblatt generieren',
+        title: `Sortier-Arbeitsblatt generieren`,
         description: `Klicken Sie auf „Generieren", um das zweiteilige Sortier-Layout zu erstellen. Die App ordnet Ihre Inhalte in zwei nebeneinander liegende, gestrichelt umrandete Kategorierahmen oben mit #FAFAFA-Füllung als Sortierbereiche und ein gemischtes Ausschneidegitter unten mit weißen Zellen, gestrichelten #666-Rändern und 4px abgerundeten Ecken. Bilder erscheinen in zufälliger Reihenfolge in 3–4 Spalten, wobei jedes 85% seiner Zelle ausfüllt. Ein stilisierter Header wird oben gerendert mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite. Nutzer schneiden die Bilder aus und sortieren sie in den richtigen Kategorierahmen.`,
       },
       {
-        title: 'Automatisch generierten Lösungsschlüssel prüfen',
+        title: `Automatisch generierten Lösungsschlüssel prüfen`,
         description: `Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Der Lösungsschlüssel zeigt zwei Kategorieboxen (eine pro Kategorie, gleiche Breite) mit Bildern in ihrer korrekten Gruppe — dargestellt in 6-facher Größe der Ausschneidegitter-Zellen für klare, leicht lesbare Überprüfung. Jede Kategoriebox verwendet maximal 2 Spalten mit #FAFAFA-Füllung, #444-gestricheltem Strich und 12px Randradius. Wechseln Sie zwischen Arbeitsblatt- und Lösungsschlüssel-Tabs zum Vergleichen. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manueller Erstellungsschritt, kein separater Designprozess, keine Möglichkeit nicht übereinstimmender Antworten.`,
       },
       {
-        title: 'Alle vier Dateien herunterladen',
+        title: `Alle vier Dateien herunterladen`,
         description: `Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, ideal für die Produkterstellungsdruck und KDP-Buchinhalte. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle gerendert mit 300 DPI (6×-Multiplikator, JPEG-Qualität 1.0). Jeder Tab hat sein eigenes Paar Download-Buttons. Die Dateien sind produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien ohne Nachbearbeitung. Wechseln Sie Themen, passen Sie Bildanzahlen an oder schalten Sie zwischen Themen- und manuellem Modus um, um schnell Vielfalt in Ihrem Sortier-Arbeitsblatt-Katalog zu schaffen.`,
       },
     ],
@@ -80,7 +80,7 @@ const content: ToolContent = {
       description: `Der Bilder-Sortieren-Ersteller ist sprachabhängig — Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Erstellen Sie Sortier-Arbeitsblätter in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu zu gestalten. Der lokalisierte Bilder-Sortieren-Header wird ebenfalls automatisch übersetzt. Verkaufen Sie sprachspezifische Sortier-Pakete auf internationalen Etsy-Shops und mehrsprachigen Gumroad-Käufern, oder erstellen Sie DaF/DaZ-Sortier-Aktivitäten, bei denen zweisprachige Kategoriebeschriftungen den Wortschatzerwerb fördern.`,
     },
     {
-      title: 'Sortier-Arbeitsblätter mit eigenen Fotos',
+      title: `Sortier-Arbeitsblätter mit eigenen Fotos`,
       description: `Nutzen Sie die Funktion zum Hochladen eigener Bilder, um Sortier-Arbeitsblätter aus Ihren eigenen Fotos oder Illustrationen zu erstellen. Familien-Sortieraktivitäten, bei denen Kinder Fotos in Kategorien wie „Menschen" vs. „Orte" einordnen, unterrichtsspezifische Sortieraufgaben mit von Nutzern aufgenommenen Fotos, markengebundene Sortieraktivitäten für Bildungsunternehmen oder personalisierte Sortier-Arbeitsblätter für den Förderunterricht mit vertrauten Bildern. Der manuelle Modus ermöglicht die Zuordnung jedes hochgeladenen Bildes zur linken oder rechten Kategorie. Kombiniert mit dem automatisch generierten Lösungsschlüssel werden Sortier-Arbeitsblätter mit eigenen Fotos zu einzigartigen, personalisierten Produkten, die Wettbewerber nicht replizieren können.`,
     },
     {
@@ -91,32 +91,32 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Thematischer Sortier-Arbeitsblatt-Shop auf Etsy',
+      title: `Thematischer Sortier-Arbeitsblatt-Shop auf Etsy`,
       description: `Eröffnen Sie einen Etsy-Shop, der sich auf Sortier-Aktivitätspakete spezialisiert, organisiert nach Kategoriepaarungen aus den 104 Bildsammlungen. Tiere vs. Lebensmittel, Land vs. Wasser, Obst vs. Gemüse, drinnen vs. draußen und Dutzende mehr — jede Paarung wird ein separates Listing mit 15–20 Sortier-Arbeitsblättern und beigelegten Lösungsschlüsseln. Die themenbasierte Kategorieauswahl macht es schnell, Arbeitsblätter mit natürlichen Links-/Rechts-Gruppierungen zu generieren, und der automatisch generierte Lösungsschlüssel mit 6× größeren Bildern in Kategorieboxen eliminiert den größten Produktions-Engpass. Variieren Sie die Bildanzahl über Arbeitsblätter hinweg (4–12) für Schwierigkeitsabstufungen innerhalb jedes Pakets. Einzelne Themenpakete zu €3–€5 und Premium-Multi-Themen-Pakete zu €8–€15.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon-KDP-Klassifizierungs-Arbeitsbuch-Reihe',
+      title: `Amazon-KDP-Klassifizierungs-Arbeitsbuch-Reihe`,
       description: `Stellen Sie 50–80 Sortier-Arbeitsblätter zu thematischen Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Reihe nach Themen: „Tier-Sortier-Rätsel", „Lebensmittel-Klassifizierungs-Aktivitäten", „Natur-Sortier-Arbeitsbuch" und „Alltägliche Gegenstände Sortieren". Jedes Buch steigert sich von einfachen 4-Bilder-Sortierungen zu anspruchsvollen 12-Bilder-Klassifizierungsaufgaben. Fügen Sie Lösungsschlüssel-Seiten am Ende ein, erstellt mit der automatischen Lösungsschlüssel-Funktion mit 6× größeren Bildern in Kategorieboxen für klare Überprüfung. Der Graustufen-Schalter erzeugt tintenschonende Seiten, die KDP-Druckkosten niedrig halten. Klassifizierungs-Arbeitsbücher bedienen ein breites Publikum von der Vorschule bis zur Grundschule und verkaufen sich ganzjährig in der Aktivitätsbuch-Kategorie.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Sortier-Aktivitätspakete auf Gumroad',
+      title: `Sortier-Aktivitätspakete auf Gumroad`,
       description: `Laden Sie Sortier-Aktivitätspakete mit Name-/Datumsfeldern, lehrplanorientierten Kategorien und automatisch generierten Lösungsschlüsseln als Hauptverkaufsargumenten auf den Gumroad hoch. Verkäufer, die nach Sortier-Aktivitäten suchen, schätzen Arbeitsblätter, die sofort in der Produkterstellung einsatzbereit ankommen. Erstellen Sie lehrplanorientierte Sets: lebend vs. nicht-lebend für den Sachunterricht, gesundes vs. ungesundes Essen für Ernährung, Gemeindehelfer vs. Tiere für Sachkunde. Jedes Paket enthält Arbeitsblätter mit Kategorierahmen und gemischtem Ausschneidegitter plus Lösungsschlüssel mit korrekt sortierten Bildern. Der manuelle Modus ermöglicht die exakte Bildauswahl für jedes Lernziel.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest-Sortier-Arbeitsblatt-Traffic-Funnel',
+      title: `Pinterest-Sortier-Arbeitsblatt-Traffic-Funnel`,
       description: `Sortier-Arbeitsblätter ergeben visuell ansprechende Pinterest-Pins — das Zwei-Kategorien-Layout mit nebeneinander liegenden Kategorierahmen und einem gemischten Ausschneidegitter darunter schafft ein sofort erkennbares Bildungsformat, das Eltern und Verkäufer lieben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Kategoriepaarungen: Tier-Sortierung für Vorschul-Pinnwände, Lebensmittel-Klassifizierung für Ernährungs-Pinnwände und saisonale Sortierung für Feiertags-Pinnwände. Erstellen Sie separate Pin-Serien für „Sortier-Arbeitsblätter für Vorschule", „Klassifizierungs-Aktivitäten für Kindergarten" und „Kategorie-Sortier-Druckvorlagen". Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produktlistings.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad-Komplett-Sortier-Arbeitsblatt-Toolkit',
+      title: `Gumroad-Komplett-Sortier-Arbeitsblatt-Toolkit`,
       description: `Bündeln Sie Sortier-Arbeitsblätter über alle 104 Themen und beide Auswahlmodi in ein umfassendes Toolkit auf Gumroad. Bieten Sie über 400 Sortier-Arbeitsblätter, die jede wichtige Kategoriepaarung aus der Bildbibliothek abdecken, mit automatisch generierten Lösungsschlüsseln für jedes einzelne. Mischen Sie Themen-Modus-Arbeitsblätter für schnelle Vielfalt mit manuellen-Modus-Arbeitsblättern für präzise Produktkataloganpassung. Bieten Sie Arbeitsblätter auf jedem Schwierigkeitsgrad von 4-Bilder-einfachen-Sortierungen bis zu 12-Bilder-fortgeschrittenen-Klassifizierungsaufgaben. Das Toolkit-Format rechtfertigt Premium-Preise, weil Käufer eine komplette Sortier-Aktivitätsbibliothek mit Lösungsschlüsseln erhalten statt einzelner Pakete.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Mehrsprachige Sortier-Produkte für globale Märkte',
+      title: `Mehrsprachige Sortier-Produkte für globale Märkte`,
       description: `Der Bilder-Sortieren-Ersteller ist sprachabhängig — Kategoriebeschriftungen und der Bilder-Sortieren-Header verwenden lokalisierte Bildnamen in 11 Sprachen, was die Produktion von Sortier-Arbeitsblättern in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern einfach macht. Erstellen Sie mehrsprachige Sortier-Pakete für internationale Etsy-Shops, zweisprachige Gumroad-Käufer und DaF/DaZ-Klassenräume weltweit. Verkaufen Sie dasselbe thematische Sortier-Set in mehreren Sprachversionen ohne Neugestaltung — wechseln Sie die Sprache und generieren Sie neu. Mehrsprachige Pakete erzielen Premium-Preise und erreichen Käufer, die einsprachige Wettbewerber nicht bedienen können.`,
       platform: 'Etsy / Gumroad',
     },
@@ -124,7 +124,7 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Themen-Modus für schnelle Massenproduktion nutzen',
+      title: `Themen-Modus für schnelle Massenproduktion nutzen`,
       description: `Der Themen-Modus wählt automatisch 4–6 zufällige Bilder pro Kategorie aus der Bildbibliothek. Wählen Sie ein linkes Thema und ein rechtes Thema, klicken Sie auf Generieren, und die App produziert ein komplettes Sortier-Arbeitsblatt mit gemischtem Ausschneidegitter und Kategorierahmen in Sekunden. Da die Bildauswahl zufällig ist, erzeugt ein erneutes Klicken auf Generieren mit denselben Themen ein anderes Arbeitsblatt mit anderen Bildern. Nutzen Sie dies, um schnell große Pakete zu füllen — generieren Sie 10–15 einzigartige Arbeitsblätter pro Themenpaarung, dann multiplizieren Sie über Dutzende natürlicher Kategorie-Kombinationen für massive Produktkataloge mit minimalem Aufwand.`,
     },
     {
@@ -155,11 +155,11 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer: `Ja. Das Tool bietet eine kostenlose Testversion mit jeder Funktion — beide Auswahlmodi (Themen-Modus und manueller Modus), konfigurierbare Bildanzahlen von 4 bis 12, der automatisch generierte Lösungsschlüssel mit 6× größeren Bildern in Kategorieboxen, alle 104 thematischen Bildsammlungen mit über 3.100 Illustrationen, eigene Bild-Uploads, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, Name-/Datumsfelder, der lokalisierte Bilder-Sortieren-Header in 11 Sprachen, Graustufen-Schalter und alle Download-Formate. Keine Anmeldung, keine Kreditkarte erforderlich. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Verkaufsrechte freizuschalten.`,
     },
     {
-      question: 'Was sind die zwei Auswahlmodi?',
+      question: `Was sind die zwei Auswahlmodi?`,
       answer: `Der Generator bietet den Themen-Modus und den manuellen Modus. Der Themen-Modus lässt Sie ein Thema für die linke Kategorie und ein anderes für die rechte Kategorie wählen — die App wählt automatisch 4–6 zufällige Bilder pro Thema aus der Bildbibliothek und erstellt Arbeitsblätter mit 8–12 Bildern insgesamt. Der manuelle Modus gibt Ihnen volle Kontrolle: Wählen Sie einzelne Bilder aus beliebigen Themen von Hand aus und weisen Sie jedes der linken oder rechten Kategorie zu. Der Themen-Modus ist schneller für die Massenproduktion; der manuelle Modus ist ideal für spezifische, lehrplanorientierte Sortier-Aktivitäten mit präziser Bildauswahl.`,
     },
     {
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: `Jedes Arbeitsblatt unterstützt 4 bis 12 Bilder insgesamt, wobei jede Kategorie zwischen 2 und 10 Bilder enthält. Der Themen-Modus zieht automatisch 4–6 Bilder pro Thema und erzeugt 8–12 Bilder insgesamt. Der manuelle Modus erlaubt exakte Anzahlen pro Kategorie. Das Ausschneidegitter passt sein Spaltenlayout (3–4 Spalten basierend auf der Gesamtanzahl) automatisch an, um saubere visuelle Abstände beizubehalten. Weniger Bilder schaffen einfachere Sortieraufgaben für jüngere Lernende; mehr Bilder erhöhen Schwierigkeitsgrad und Inhaltsdichte für fortgeschrittene Klassifizierungsherausforderungen.`,
     },
     {
-      question: 'Wie funktioniert das gemischte Ausschneidegitter?',
+      question: `Wie funktioniert das gemischte Ausschneidegitter?`,
       answer: `Das Ausschneidegitter belegt die unteren 55% des Inhaltsbereichs und zeigt alle ausgewählten Bilder in zufälliger Reihenfolge. Die Bilder erscheinen in weißen Zellen mit gestrichelten #666-Rändern und 4px abgerundeten Ecken, angeordnet in 3–4 Spalten basierend auf der Gesamtbildzahl. Jedes Bild füllt 85% seiner Zelle aus. Die Mischung stellt sicher, dass Nutzer jedes Bild aktiv klassifizieren müssen, anstatt ein Positionsmuster zu kopieren. Nutzer schneiden die Bilder entlang der gestrichelten Linien aus und sortieren sie in den richtigen Kategorierahmen oben.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `Ja. Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Ein Katzenbild erscheint beispielsweise als „Katze" auf Deutsch, aber als „Cat" auf Englisch und „Chat" auf Französisch. Der lokalisierte Bilder-Sortieren-Header und seine Beschreibung werden ebenfalls automatisch in alle 11 unterstützten Sprachen übersetzt: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Das macht es einfach, mehrsprachige Sortier-Produkte aus denselben Bildern zu erstellen.`,
     },
     {
-      question: 'Wie sieht der lokalisierte Header aus?',
+      question: `Wie sieht der lokalisierte Header aus?`,
       answer: `Jedes generierte Arbeitsblatt enthält einen stilisierten Header mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Hochformat-Arbeitsblätter zeigen einen 100px-Header mit dynamischer Titelgröße (28–48px); Querformat-Arbeitsblätter verwenden einen kompakten 70px-Header mit 24–36px Titel. Der Titel „Bilder-Sortieren" und die Beschreibung werden automatisch in alle 11 unterstützten Sprachen übersetzt. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite.`,
     },
     {
@@ -205,8 +205,8 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'bilder-sortieren-arbeitsblaetter', anchorText: `Bilder-Sortieren-Arbeitsblätter — Vollständige Produktdetails` },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
+    { pageType: 'app', slug: `bilder-sortieren-arbeitsblaetter`, anchorText: `Bilder-Sortieren-Arbeitsblätter — Vollständige Produktdetails` },
+    { pageType: 'tool', slug: `zuordnungs-arbeitsblatt-ersteller`, anchorText: `Zuordnungs-Arbeitsblatt-Ersteller` },
     { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller' },
     { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller' },
     { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Ersteller' },

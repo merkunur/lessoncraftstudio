@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Natal para Vender — Guia',
+    titleTag: `Ideias de Imprimíveis de Natal para Vender — Guia`,
     metaDescription: `Ideias de imprimíveis natalícios para vender no Etsy, Amazon KDP e Gumroad. Produtos festivos, estratégias sazonais e dicas por plataforma para vendedores.`,
 
-    primaryKeyword: 'ideias de imprimíveis de natal para vender',
+    primaryKeyword: `ideias de imprimíveis de natal para vender`,
     secondaryKeywords: [
       'fichas natalícias para vender',
-      'negócio imprimíveis natalícios',
-      'fichas atividades natal para vendedores',
-      'vender imprimíveis natalícios no Etsy',
+      `negócio imprimíveis natalícios`,
+      `fichas atividades natal para vendedores`,
+      `vender imprimíveis natalícios no Etsy`,
     ],
     lsiKeywords: [
-      'pacotes fichas natalícias sazonais',
-      'atividades educativas temática invernal',
-      'imprimíveis festivos para a loja',
+      `pacotes fichas natalícias sazonais`,
+      `atividades educativas temática invernal`,
+      `imprimíveis festivos para a loja`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ As oportunidades pós-Natal estendem a época de vendas natalícias para os vend
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Natalícias para Vender Online',
+      title: `Sopas de Letras Natalícias para Vender Online`,
       description: `As sopas de letras com vocabulário natalício atraem vendedores que planificam atividades de dezembro online e pais que procuram entretenimento educativo durante as férias de inverno. Cria puzzles com vocabulário específico de Natal como rena, enfeite, meia, bolacha de gengibre, floco de neve, visco e chaminé junto com termos mais amplos de celebrações invernais. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos natalícios para usuários mais velhos. As variações sazonais como palavras da oficina do Pai Natal, vocabulário de Natal à volta do mundo e termos de natureza invernal expandem o teu catálogo e captam diferentes interesses de compradores dentro do nicho natalício.`,
       appId: 'wordsearch',
     },
@@ -96,17 +96,17 @@ As oportunidades pós-Natal estendem a época de vendas natalícias para os vend
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis Natalícios no Etsy',
+      title: `Vender Imprimíveis Natalícios no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis natalícios, e a época de compras natalícias cria o maior pico de tráfego do ano para as transferências digitais educativas. Publica os teus anúncios natalícios no início de setembro para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em outubro. Utiliza as treze etiquetas com variações que combinem subtemas natalícios, tipos de competência e grupos etários: «fichas contagem natal pré-escolar», «sopa de letras natalícia jardim de infância» e «páginas colorir Pai Natal infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas natalícias». Cria variações de anúncios orientadas para prendas posicionando os pacotes de atividades como lembranças para a meia de Natal ou pacotes para festas online. As imagens de anúncios mostrando fichas natalícias impressas em ambientes festivos com acessórios natalícios superam as pré-visualizações digitais planas e captam a mentalidade de compra de prendas que impulsiona grande parte do tráfego natalício.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades Natalícias no KDP',
+      title: `Publicar Livros de Atividades Natalícias no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis natalícios porque o contexto de compra de prendas transforma os livros físicos de atividades em lembranças naturais para a meia de Natal que as famílias compram juntamente com outras prendas natalícias no seu carrinho da Amazon. Compila fichas natalícias individuais em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas festivos. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades natal para crianças», «fichas natalícias pré-escolar» e termos de subtemas como «livro colorir Pai Natal» ou «atividades bolachas de gengibre para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, sabendo que os compradores natalícios são menos sensíveis ao preço do que noutras épocas do ano. Publica no final de setembro para garantir que os teus livros estejam indexados e disponíveis antes do pico de compras natalícias de novembro, e considera criar múltiplos livros dirigidos a diferentes grupos etários e subtemas para captar consultas de pesquisa variadas.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos Natalícios para a loja no Gumroad',
+      title: `Criar Recursos Natalícios para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores de loja que procuram material complementar para o catálogo de produtos de dezembro, atividades para festas natalícias e pacotes para levar para casa durante as férias de inverno que possam implementar com mínima preparação durante um mês já de si agitado. Os imprimíveis natalícios no Gumroad funcionam melhor quando empacotados como soluções prontas a usar online: estações de atividades para festas natalícias, pacotes de trabalho matinal de dezembro ou pacotes de trabalhos de casa para férias de inverno com cartas de instruções para os pais. Inclui objetivos de aprendizagem claros para que os vendedores possam justificar as atividades festivas perante as direções, e adiciona opções de diferenciação para salas de aula de dezembro com diferentes níveis de competência onde o foco académico compete naturalmente com a emoção natalícia. A funcionalidade de agrupamento do Gumroad permite-te oferecer produtos natalícios individuais e um megapacote natalício com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em soluções completas para a loja de dezembro.`,
     },
     {
@@ -150,18 +150,18 @@ As oportunidades pós-Natal estendem a época de vendas natalícias para os vend
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -175,7 +175,7 @@ As oportunidades pós-Natal estendem a época de vendas natalícias para os vend
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -186,17 +186,17 @@ As oportunidades pós-Natal estendem a época de vendas natalícias para os vend
     {
       pageType: 'idea',
       slug: 'halloween-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Halloween',
+      anchorText: `Ideias de Negócio de Imprimíveis de Halloween`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Anjo — imagem educativa temática', caption: 'Anjo' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Sino — imagem educativa temática', caption: 'Sino' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Vela — imagem educativa temática', caption: 'Vela' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Bengala de Caramelo — imagem educativa temática', caption: 'Bengala de Caramelo' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Chaminé — imagem educativa temática', caption: 'Chaminé' },
-    { src: '/image-library/christmas/church.webp', alt: 'Igreja — imagem educativa temática', caption: 'Igreja' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Anjo — imagem educativa temática`, caption: 'Anjo' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Sino — imagem educativa temática`, caption: 'Sino' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Vela — imagem educativa temática`, caption: 'Vela' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Bengala de Caramelo — imagem educativa temática`, caption: 'Bengala de Caramelo' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Chaminé — imagem educativa temática`, caption: 'Chaminé' },
+    { src: `/image-library/christmas/church.webp`, alt: `Igreja — imagem educativa temática`, caption: 'Igreja' },
   ],
 
 

@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Día de los Padres para Vender — Guía`,
     metaDescription: `Descubre ideas de imprimibles del Día de la Madre y del Padre para vender en Etsy, KDP y Gumroad. Conceptos de productos de agradecimiento familiar y consejos.`,
-    primaryKeyword: 'ideas imprimibles día de los padres',
+    primaryKeyword: `ideas imprimibles día de los padres`,
     secondaryKeywords: [
-      'fichas Día de la Madre para vender',
-      'negocio imprimibles Día del Padre',
+      `fichas Día de la Madre para vender`,
+      `negocio imprimibles Día del Padre`,
       `fichas actividades agradecimiento padres para vendedores`,
-      'vender imprimibles Día de los Padres en Etsy',
+      `vender imprimibles Día de los Padres en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas celebración familiar',
-      'actividades agradecimiento a los padres',
-      'imprimibles estacionales temática familiar',
+      `fichas educativas celebración familiar`,
+      `actividades agradecimiento a los padres`,
+      `imprimibles estacionales temática familiar`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ Para capturar los máximos ingresos de ambas festividades, desarrolla productos 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles del Día de los Padres en Etsy',
+      title: `Vender Imprimibles del Día de los Padres en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de agradecimiento a los padres, y la temporada de doble festividad de primavera crea dos importantes picos de tráfico para las descargas digitales educativas. Publica tus listados del Día de la Madre a principios de marzo y los del Día del Padre a finales de abril para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de cada pico de demanda. Utiliza las trece etiquetas con variaciones que combinen subtemas de agradecimiento, tipos de habilidad y grupos de edad: «fichas Día de la Madre preescolar», «páginas colorear Día del Padre jardín de infantes» y «actividades agradecimiento padres tienda» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias. Crea variaciones de listados orientadas a regalos posicionando los paquetes de actividades como recursos de elaboración de regalos para venta en línea o regalos imprimibles de agradecimiento que los niños personalizan ellos mismos. Las imágenes de listados mostrando fichas impresas estilizadas con flores, corazones o fotos familiares superan las vistas previas digitales planas y captan la mentalidad emotiva de dar regalos que impulsa el tráfico de agradecimiento de primavera.`,
     },
     {
@@ -145,18 +145,18 @@ Para capturar los máximos ingresos de ambas festividades, desarrolla productos 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -165,12 +165,12 @@ Para capturar los máximos ingresos de ambas festividades, desarrolla productos 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -180,18 +180,18 @@ Para capturar los máximos ingresos de ambas festividades, desarrolla productos 
     },
     {
       pageType: 'idea',
-      slug: 'accion-de-gracias-ideas-imprimibles',
+      slug: `accion-de-gracias-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Acción de Gracias`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagen educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — imagen educativa temática', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — imagen educativa temática', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campanilla — imagen educativa temática', caption: 'Campanilla' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagen educativa temática', caption: 'Ranúnculo' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Clavel — imagen educativa temática', caption: 'Clavel' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagen educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — imagen educativa temática`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — imagen educativa temática`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campanilla — imagen educativa temática`, caption: 'Campanilla' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagen educativa temática`, caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Clavel — imagen educativa temática`, caption: 'Clavel' },
   ],
 
 

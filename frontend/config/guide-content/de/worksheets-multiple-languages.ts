@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblätter in mehreren Sprachen erstellen',
+    primaryKeyword: `Arbeitsblätter in mehreren Sprachen erstellen`,
     secondaryKeywords: [
-      'mehrsprachige Arbeitsblatt-Erstellung',
-      'Arbeitsblätter übersetzen zum Verkaufen',
-      'mehrsprachige Druckvorlagen-Produktion',
-      'internationales Arbeitsblatt-Design',
+      `mehrsprachige Arbeitsblatt-Erstellung`,
+      `Arbeitsblätter übersetzen zum Verkaufen`,
+      `mehrsprachige Druckvorlagen-Produktion`,
+      `internationales Arbeitsblatt-Design`,
     ],
     lsiKeywords: [
       `sprachspezifische Formatierung Zeichensätze diakritische Zeichen Schriftauswahl für Sprachen`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Arbeitsblätter in mehreren Sprachen erstellen',
+    title: `Arbeitsblätter in mehreren Sprachen erstellen`,
     tagline: `Ein praktischer Leitfaden zur mehrsprachigen Arbeitsblatt-Produktion — von der Auswahl sprachgerechter Arbeitsblatttypen über die Einrichtung eines mehrsprachigen Arbeitsbereichs, den Umgang mit Sonderzeichen und Schriftarten, die natürliche Inhaltsanpassung für jeden Markt, die Implementierung von Übersetzungs-Qualitätssicherung, den Einsatz automatisierter mehrsprachiger Tools, den Aufbau effizienter Stapelverarbeitungs-Workflows bis hin zur Optimierung von Marktplatz-Angeboten für internationale Käufer`,
     description: `Arbeitsblätter in mehreren Sprachen zu erstellen bedeutet nicht einfach, Text durch einen Übersetzer zu schicken. Professionelle mehrsprachige Produktion erfordert Verständnis für Zeichensätze, Schriftkompatibilität, Textlängenvariationen, kulturellen Kontext und Qualitätssicherungsprozesse, die gewährleisten, dass jede Sprachversion denselben Standard wie Ihr Original erfüllt. Dieser Leitfaden führt durch die komplette Produktionsmethodik für Arbeitsblätter, die in jeder Zielsprache professionell aussehen und sich professionell lesen.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Sprachgerechte Arbeitsblatttypen auswählen',
+      heading: `Sprachgerechte Arbeitsblatttypen auswählen`,
       content: `Nicht alle Arbeitsblatttypen erfordern denselben Grad an Sprachanpassung, und das Verständnis dieser Unterscheidung ist die Grundlage effizienter mehrsprachiger Produktion. Einige Arbeitsblatttypen benötigen fast keine Übersetzung, weil ihr Inhalt hauptsächlich numerisch oder visuell ist. Andere erfordern eine komplette Inhaltsüberarbeitung, weil jedes Element sprachabhängig ist. Mit den richtigen Arbeitsblatttypen für Ihre Sprachfähigkeiten zu beginnen, verhindert Qualitätsprobleme und verschwendeten Aufwand.\n\nMathe-Arbeitsblätter stellen die einfachste Kategorie für mehrsprachige Produktion dar. Addition, Subtraktion, Multiplikation und Zahlenmuster-Arbeitsblätter enthalten hauptsächlich Zahlen, wobei nur Anweisungen und Beschriftungen übersetzt werden müssen. Der mathematische Inhalt selbst ist universell — „3 + 5 = ?" liest sich in jeder Sprache gleich. Das bedeutet, Sie können professionelle deutsche, französische oder spanische Mathe-Arbeitsblätter produzieren, indem Sie nur eine Handvoll Anweisungszeilen übersetzen, was Mathematik zum idealen Startpunkt für Verkäufer macht, die nicht fließend in ihren Zielsprachen sind.\n\nZeichen- und Malarbeitsblätter sind ähnlich unkompliziert. Der visuelle Inhalt benötigt keine Anpassung, und die Textelemente beschränken sich typischerweise auf Titel und kurze Anweisungen. Eine Aufforderung wie „Zeichne eine Katze" wird zu „Draw a cat" auf Englisch oder „Dessine un chat" auf Französisch — kurze Sätze, die leicht auf Richtigkeit überprüfbar sind. Mustererkennungs- und Zuordnungsarbeitsblätter fallen ebenfalls in diese Kategorie mit geringem Anpassungsbedarf, wenn sie Bilder statt Wörter als Zuordnungselemente verwenden.\n\nWortlastige Arbeitsblatttypen — Wortsuchrätsel, Vokabelübungen, Wortratespiele und Leseaktivitäten — erfordern wesentlich mehr Spracharbeit. Jedes Wort in einem Wortsuchrätsel muss ein echtes Wort in der Zielsprache sein, korrekt geschrieben mit allen erforderlichen diakritischen Zeichen. Vokabelarbeitsblätter benötigen kulturell angemessene Wortwahl, nicht bloß Übersetzungen englischer Vokabellisten. Diese Arbeitsblatttypen liefern ausgezeichnete Ergebnisse, wenn sie mit geeigneten Tools und Qualitätsprozessen produziert werden, aber sie verlangen eine sorgfältigere Produktion als Mathe- oder visuelle Arbeitsblätter.\n\nFür Ihre erste mehrsprachige Erweiterung priorisieren Sie Arbeitsblatttypen, bei denen Sie die Qualität sicher gewährleisten können. Wenn Sie Konversationsdeutsch aber kein Französisch sprechen, beginnen Sie mit deutschen wortlastigen Arbeitsblättern und französischen Mathe-Arbeitsblättern. Passen Sie Ihre Sprachfähigkeiten an die sprachlichen Anforderungen jedes Arbeitsblatttyps an und erweitern Sie auf sprachintensivere Produkte, sobald Sie zuverlässige Qualitätssicherungsprozesse für jede Sprache entwickelt haben.`,
     },
     {
@@ -43,7 +43,7 @@ const content: GuideContent = {
       content: `Zeichensatz-Handhabung ist die häufigste Quelle von Qualitätsproblemen bei mehrsprachigen Arbeitsblättern. Fehlende oder falsch dargestellte diakritische Zeichen signalisieren muttersprachlichen Käufern sofort Amateurproduktion. Zeichen korrekt darzustellen erfordert das Verständnis, was jede Zielsprache benötigt, und die Auswahl von Schriftarten, die diese Anforderungen unterstützen.\n\nDeutsch erfordert Umlaute (ä, ö, ü, Ä, Ö, Ü) und das scharfe S (ß). Diese Zeichen sind nicht optional — sie verändern Wortbedeutungen. „Schon" (bereits) und „schön" (hübsch) sind völlig verschiedene Wörter. Ein Arbeitsblatt, das „schon" anzeigt, wenn „schön" gemeint ist, enthält einen Rechtschreibfehler, den jeder deutschsprachige Käufer sofort bemerken wird. Jede Schriftart, die Sie für deutsche Arbeitsblätter verwenden, muss alle Umlaute und ß in jeder verwendeten Größe korrekt darstellen.\n\nFranzösisch erfordert mehrere Akzenttypen: Akut (é), Gravis (è, à, ù), Zirkumflex (ê, î, ô, û, â), Trema (ë, ï, ü) und Cedille (ç). Französisch verwendet auch Guillemets (« ») anstelle von Anführungszeichen. Wie im Deutschen verändern fehlende oder falsche Akzente Wortbedeutungen und kennzeichnen das Arbeitsblatt als schlecht produziert. Das Wort „résumé" hat zwei Akutakzente, und das Weglassen eines der beiden erzeugt einen Fehler.\n\nSpanisch benötigt die Tilde über dem N (ñ), umgekehrte Fragezeichen (¿) und Ausrufezeichen (¡) sowie Standard-Akzentzeichen (á, é, í, ó, ú). Die umgekehrten Satzzeichen werden von Nicht-Muttersprachlern oft vergessen, sind aber im Standard-Spanisch erforderlich. Arbeitsblätter für junge spanischsprachige Lernende müssen korrekte Zeichensetzung vorleben, weil diese Arbeitsblätter einem Bildungszweck dienen.\n\nSkandinavische Sprachen erfordern zusätzliche Zeichen: Schwedisch verwendet å, ä, ö; Dänisch und Norwegisch verwenden æ, ø, å; Finnisch verwendet ä und ö. Dies sind eigenständige Buchstaben in ihren jeweiligen Alphabeten, keine Varianten von a, o oder e. Im Schwedischen erscheinen å, ä und ö am Ende des Alphabets als separate Buchstaben, was für jedes Arbeitsblatt relevant ist, das alphabetische Sortierung beinhaltet.\n\nSchriftauswahl ist Ihre wichtigste Verteidigung gegen Zeichen-Darstellungsprobleme. Wählen Sie Schriftarten mit umfassender Unicode-Unterstützung, die alle Latin-Extended-Zeichen einschließt. Google Fonts bietet viele Optionen mit breiter Sprachunterstützung — Noto Sans und Noto Serif wurden speziell für universelle Sprachabdeckung entwickelt. Bevor Sie sich für eine Produktionsschrift entscheiden, testen Sie diese, indem Sie einen Beispielsatz mit jedem Sonderzeichen Ihrer Zielsprachen rendern. Wenn ein Zeichen falsch angezeigt wird, als Kästchen oder Fragezeichen erscheint oder visuell inkonsistent mit dem umgebenden Text wirkt, wählen Sie eine andere Schriftart. Dieser fünfminütige Test verhindert stundenlange Nacharbeit später.`,
     },
     {
-      heading: 'Inhalte für jeden Sprachmarkt anpassen',
+      heading: `Inhalte für jeden Sprachmarkt anpassen`,
       content: `Direkte Wort-für-Wort-Übersetzung ist der häufigste Fehler bei der mehrsprachigen Arbeitsblatt-Produktion. Übersetzung erzeugt technisch korrekte, aber unnatürlich klingende Texte, die Muttersprachler sofort als maschinell generiert oder schlecht adaptiert erkennen. Professionelle mehrsprachige Arbeitsblätter erfordern Inhaltsanpassung — das Umschreiben von Anweisungen und Inhalten, damit sie in der Zielsprache natürlich klingen, während die praktische Absicht erhalten bleibt.\n\nTextlängenvariation ist eine praktische Herausforderung, die das Layout-Design beeinflusst. Deutsche zusammengesetzte Wörter sind oft 30 bis 50 Prozent länger als ihre englischen Entsprechungen. „Kindergartenkind" ist ein Wort auf Deutsch, aber drei auf Englisch. „Grundschulmathematik" benötigt deutlich mehr horizontalen Platz als die englische Übersetzung. Wenn Ihre Arbeitsblattvorlage mit Textfeldern für englische Wortlängen entworfen wurde, läuft deutscher Inhalt über oder erfordert Schriftgrößenreduzierung, die die Lesbarkeit beeinträchtigt. Entwerfen Sie Ihre Layouts mit der längsten Zielsprache im Hinterkopf, oder erstellen Sie sprachspezifische Vorlagen mit angepassten Textfelddimensionen.\n\nAnweisungsformulierungen sollten dem entsprechen, wie Muttersprachler natürlicherweise Anleitungen geben. Im Englischen verwenden Arbeitsblattanweisungen oft Imperativkonstruktionen: „Circle the correct answer" oder „Draw a line to match." Deutsche Anweisungen können den formalen Imperativ oder Infinitivkonstruktionen verwenden. Französische Anweisungen verwenden oft den Imperativ mit anderer Pronominalstellung. Englische Imperativanweisungen Wort für Wort in andere Sprachen zu übersetzen, erzeugt häufig grammatisch korrekte, aber unbeholfen klingende Texte. Recherchieren Sie, wie Bildungsmaterialien in Ihrer Zielsprache typischerweise Anweisungen formulieren, und übernehmen Sie diese Konvention.\n\nKultureller Kontext ist wichtig für die Inhaltsauswahl. Ein Arbeitsblatt über Thanksgiving-Themen hat keine Relevanz in europäischen Märkten. Ein Arbeitsblatt, das amerikanische Währung referenziert (Quarters, Dimes, Nickels), muss für Märkte mit Euro oder anderen Währungen angepasst werden. Lebensmittel-thematische Arbeitsblätter sollten Nahrungsmittel zeigen, die der Zielkultur vertraut sind — ein deutsches Lebensmittel-Vokabelarbeitsblatt sollte Brezel und Bratwurst neben universellen Artikeln enthalten. Tier-, Jahreszeiten- und Naturthemen übertragen sich generell problemlos zwischen Kulturen, was sie zu sicheren Wahlen für mehrsprachige Produktion macht.\n\nZahlenformatierung variiert nach Sprache und Region. Viele europäische Sprachen verwenden ein Komma als Dezimaltrennzeichen und einen Punkt oder Leerraum als Tausendertrennzeichen — das Gegenteil englischer Konventionen. „1,234.56" auf Englisch wird zu „1.234,56" oder „1 234,56" auf Deutsch und Französisch. Mathe-Arbeitsblätter für europäische Märkte sollten die lokal korrekte Zahlenformatierung verwenden, um junge Lernende nicht zu verwirren, die noch Zahlenkompetenz aufbauen.`,
     },
     {
@@ -59,22 +59,22 @@ const content: GuideContent = {
       content: `Stapelverarbeitung ist der Schlüssel, um mehrsprachige Arbeitsblatterstellung wirtschaftlich tragfähig zu machen. Die Produktion eines Arbeitsblatts nach dem anderen über mehrere Sprachen hinweg beinhaltet ständiges Kontextwechseln zwischen Sprachen, Tools und Marktplatz-Angeboten — jeder Wechsel verschwendet Zeit und schafft Fehlerquellen. Die Bündelung Ihrer Arbeit nach Produktionsstufe statt nach einzelnem Produkt eliminiert den Großteil dieses Overheads.\n\nOrganisieren Sie Ihre Produktion in stufenbasierte Stapel. Stufe eins: Entwerfen Sie alle Layouts und Vorlagen für einen Produktstapel. Stufe zwei: Generieren oder erstellen Sie Inhalte für alle Produkte in Sprache eins. Stufe drei: Generieren oder erstellen Sie dieselben Produkte in Sprache zwei. Stufe vier: Wiederholen Sie für jede weitere Sprache. Stufe fünf: Qualitätsüberprüfung aller Produkte. Stufe sechs: Bereiten Sie alle Marktplatz-Angebote vor. Dieser stufenbasierte Ansatz bedeutet, dass Sie Ihre deutsche Sprachumgebung einmal einrichten und alle deutschen Versionen nacheinander produzieren, anstatt für jedes einzelne Arbeitsblatt zwischen Deutsch, Französisch und Spanisch zu wechseln.\n\nDefinieren Sie Standard-Stapelgrößen, die Effizienz und Qualität ausbalancieren. Ein Stapel von 5 bis 8 Arbeitsblattvariationen pro Konzept pro Sprache ist groß genug, um die Einrichtungszeit für jeden Sprachwechsel zu rechtfertigen, aber klein genug, um die Aufmerksamkeit auf Qualität während des gesamten Stapels aufrechtzuerhalten. Wenn Sie Wortsuchrätsel produzieren, könnte ein einzelner Stapel 6 Tierthemen-Wortsuchvariationen umfassen — generieren Sie alle 6 auf Englisch, dann alle 6 auf Deutsch, dann alle 6 auf Französisch. Der Vokabular-Themenkontext bleibt innerhalb jedes Sprachstapels konsistent, was die kognitive Belastung reduziert.\n\nPlanen Sie sprachspezifische Produktionsblöcke in Ihrem Arbeitskalender. Statt jeden Tag in allen Sprachen zu arbeiten, widmen Sie bestimmte Sitzungen bestimmten Sprachen. Montagvormittag könnte Ihr deutscher Produktionsblock sein, Dienstagnachmittag Ihr französischer Block. Dieser Ansatz lässt Ihr Gehirn in den jeweiligen Sprachkontext eintauchen, anstatt ständig zu wechseln. Produzenten, die nach Sprache bündeln, berichten von schnelleren Produktionsgeschwindigkeiten und weniger Fehlern im Vergleich zu denen, die innerhalb einer einzelnen Sitzung häufig die Sprache wechseln.\n\nErstellen Sie Produktionschecklisten für jeden Stapel, die sprachspezifische Verifizierungsschritte enthalten. Bevor Sie einen deutschen Produktionsstapel abschließen, gehen Sie Ihre deutsche QA-Checkliste durch: Umlaute verifiziert, Substantivgroßschreibung korrekt, zusammengesetzte Wörter richtig geschrieben, Text passt innerhalb der Layoutgrenzen. Schließen Sie diese Checkliste ab, bevor Sie zur nächsten Sprache wechseln. Fehler innerhalb des Sprachkontexts zu erkennen, in dem sie aufgetreten sind, ist weit effizienter, als deutschspezifische Fehler während einer späteren gemischtsprachigen Überprüfungssitzung identifizieren zu wollen.\n\nVerfolgen Sie Produktionsmetriken, um Ihren Stapelverarbeitungs-Workflow im Laufe der Zeit zu optimieren. Zeichnen Sie auf, wie lange jeder Sprachstapel dauert, wie viele Fehler Ihr QA-Prozess pro Stapel erkennt und welche Produktionsstufen Engpässe sind. Diese Daten offenbaren Optimierungsmöglichkeiten — vielleicht dauern Ihre französischen Stapel 40 Prozent länger als die deutschen, weil Ihr französischer QA-Prozess weniger effizient ist, was darauf hinweist, wo Sie in bessere Referenzmaterialien oder Muttersprachler-Review für diese Sprache investieren sollten.`,
     },
     {
-      heading: 'Angebote für internationale Marktplätze anpassen',
+      heading: `Angebote für internationale Marktplätze anpassen`,
       content: `Ausgezeichnete mehrsprachige Arbeitsblätter zu erstellen ist nur die Hälfte der Produktionsherausforderung. Jede Sprachversion benötigt Marktplatz-Angebote, die dafür optimiert sind, wie Käufer in dieser Sprache tatsächlich suchen, browsen und Kaufentscheidungen treffen. Eine direkte Übersetzung Ihres englischen Angebots funktioniert selten gut in anderen Sprachmärkten, weil Suchverhalten, Schlüsselwortmuster und Käufererwartungen sich erheblich zwischen Sprachen unterscheiden.\n\nRecherchieren Sie Schlüsselwörter in jeder Zielsprache unabhängig, anstatt Ihre englischen Schlüsselwörter zu übersetzen. Nutzen Sie Marktplatz-Suchvorschlagsfunktionen, um herauszufinden, was echte Käufer eingeben, wenn sie in jeder Sprache nach Bildungsarbeitsblättern suchen. Auf Etsy geben Sie den Anfang einer relevanten Phrase in Ihrer Zielsprache ein und notieren die Autovervollständigungsvorschläge — diese spiegeln tatsächliche Käufersuchen wider. Deutsche Käufer könnten nach „Arbeitsblätter Grundschule Mathe" suchen, anstatt eine direkte Übersetzung Ihrer englischen Suchbegriffe zu verwenden. Schlüsselwortrecherche in jeder Sprache ist essenziell, weil Suchvolumen und Wettbewerb unabhängig voneinander zwischen Sprachen variieren.\n\nSchreiben Sie Angebotstitel, die den Konventionen jedes Marktplatzes und jeder Sprache folgen. Deutsche zusammengesetzte Substantive ermöglichen es Ihnen, beschreibende, schlüsselwortreiche Titel zu erstellen, die anders funktionieren als englische Titel. Französische Angebote können von anderen Titelstrukturen profitieren als das, was auf Englisch funktioniert. Studieren Sie die leistungsstärksten Angebote in Ihrer Zielsprache auf jeder Plattform und notieren Sie, wie erfolgreiche Verkäufer ihre Titel strukturieren. Spiegeln Sie diese Muster, anstatt Ihre englische Titelstruktur zu übersetzen.\n\nPassen Sie Produktbeschreibungen an die spezifischen Bedenken und Erwartungen jedes Sprachmarktes an. Europäische Käufer haben möglicherweise andere Erwartungen bezüglich Druckformatierung (A4 vs. Letter-Format), Ausrichtung an Bildungsstandards und Produktumfang. Fügen Sie für jeden Markt relevante Papiergrößeninformationen ein — A4 ist Standard in Europa, während Letter-Format in Nordamerika Standard ist. Die Erwähnung von A4-Kompatibilität in europäischen Marktangeboten beseitigt ein häufiges Käuferzögern.\n\nErstellen Sie sprachspezifische Vorschaubilder oder fügen Sie zumindest Texteinblendungen in der Zielsprache hinzu. Ein Vorschaubild mit deutschem Text signalisiert deutschsprachigen Käufern, dass dies ein echtes deutsches Produkt ist, nicht ein hastig übersetztes englisches. Das visuelle Signal muttersprachlichen Texts auf dem Vorschaubild verbessert die Klickrate, weil Käufer die Produktsprache identifizieren können, bevor sie den Angebotstitel überhaupt lesen.\n\nTaggen und kategorisieren Sie Ihre Angebote unter Verwendung der Taxonomie jedes Marktplatzes in der Zielsprache. Verschiedene Plattformen organisieren Bildungsinhalte unterschiedlich, und die Kategoriestruktur lässt sich möglicherweise nicht eins zu eins zwischen Sprachen oder Marktplätzen abbilden. Platzieren Sie Ihre Produkte in den spezifischsten relevanten Kategorien für jede Plattform- und Sprachkombination. Produkte, die in Nischen-Unterkategorien korrekt kategorisiert sind, stehen weniger Wettbewerb gegenüber und erhalten gezielteren Käuferverkehr als Produkte in breiten allgemeinen Kategorien.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Etsy: Optimierung mehrsprachiger Angebote',
+      heading: `Etsy: Optimierung mehrsprachiger Angebote`,
       content: `Etsy ermöglicht es einem einzelnen Shop, Produkte in jeder Sprache anzubieten, was es zur zugänglichsten Plattform für mehrsprachige Verkäufer macht. Um die Auffindbarkeit zu maximieren, erstellen Sie vollständig muttersprachliche Angebote mit allen 13 Tags in der Zielsprache — Etsy gleicht die Suchsprache des Käufers mit der Angebotssprache ab. Organisieren Sie Ihren Shop mit Sektionen nach Sprache (z. B. „Deutsch / German", „Français / French"), damit internationale Käufer schnell Inhalte in ihrer Sprache finden können. Wenn Sie europäischsprachige Produkte listen, fügen Sie A4-Papiergrößenkompatibilität in die Beschreibung ein und erwägen Sie, sowohl A4- als auch Letter-Format-Versionen anzubieten, um die breiteste Käuferbasis zu bedienen.`,
     },
     {
-      heading: 'Amazon KDP: Internationale Marktplatz-Strategie',
+      heading: `Amazon KDP: Internationale Marktplatz-Strategie`,
       content: `Amazon betreibt separate Marktplätze pro Land, jeder mit unabhängigen Suchrankings und Käuferpools. Ihre deutschen Arbeitsblätter auf amazon.de konkurrieren nur gegen andere deutsche Produkte auf diesem Marktplatz, nicht gegen die Millionen englischer Produkte auf amazon.com. Wenn Sie auf internationalen Amazon-Marktplätzen veröffentlichen, stellen Sie sicher, dass Ihre Buchbeschreibungen und Backend-Schlüsselwörter in der Marktplatzsprache geschrieben sind — nicht aus dem Englischen übersetzt. Recherchieren Sie Kategorie-Bestsellerlisten auf jedem Marktplatz, um zu verstehen, welche Formate und Preispunkte in diesem spezifischen Markt am besten funktionieren.`,
     },
     {
-      heading: 'Direktvertrieb für mehrsprachige Produkte',
+      heading: `Direktvertrieb für mehrsprachige Produkte`,
       content: `Eine eigene Verkaufswebsite gibt Ihnen vollständige Kontrolle darüber, wie mehrsprachige Produkte präsentiert und gefunden werden. Strukturieren Sie Ihre Website mit klarer Sprachnavigation, damit Käufer sofort Inhalte in ihrer bevorzugten Sprache finden. Bieten Sie sprachspezifische Pakete an, die mehrere Arbeitsblatttypen in einer Sprache kombinieren — zum Beispiel eine „Deutsche Mathe-Sammlung" mit Addition, Subtraktion und Zahlenmuster-Arbeitsblättern. Direktvertrieb vermeidet Marktplatzgebühren vollständig und ermöglicht es Ihnen, eine nach Sprachpräferenz segmentierte E-Mail-Liste für gezielte Produktankündigungen aufzubauen.`,
     },
   ],
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Die effizienteste Monetarisierungsstrategie ist die Erweiterung Ihrer leistungsstärksten englischen Produkte in zusätzliche Sprachen, bevor Sie völlig neue englische Produkte erstellen. Ein bewährter Verkaufsschlager hat bereits validierte Marktnachfrage — ihn ins Deutsche, Französische und Spanische zu adaptieren schafft drei neue Einnahmequellen aus einem Konzept, von dem Sie wissen, dass es funktioniert. Die Produktionszeit für Sprachanpassung beträgt typischerweise 20 bis 30 Prozent der ursprünglichen Erstellungszeit, weil die Designentscheidungen, das Layout und die Bildungsstruktur bereits fertig sind. Das macht Spracherweiterung zu einer der Aktivitäten mit dem höchsten Zeitertrag, die Arbeitsblattverkäufern zur Verfügung stehen.`,
     },
     {
-      heading: 'Sprachspezifische Produktlinien aufbauen',
+      heading: `Sprachspezifische Produktlinien aufbauen`,
       content: `Statt Ihren gesamten englischen Katalog in jede Sprache zu übersetzen, bauen Sie fokussierte Produktlinien in jeder Sprache auf, die den stärksten Nachfragekategorien dieses Marktes entsprechen. Wenn deutsche Mathe-Arbeitsblätter konsistent besser abschneiden als deutsche Lese-Arbeitsblätter, priorisieren Sie die Erweiterung Ihres deutschen Mathe-Katalogs. Verfolgen Sie den Umsatz nach Sprache und Produktkategorie monatlich, um zu identifizieren, welche Kombinationen die höchsten Erträge generieren. Im Laufe der Zeit können Ihre sprachspezifischen Produktlinien recht unterschiedlich aussehen — sie spiegeln die tatsächlichen Nachfragemuster in jedem Markt wider, statt einer gleichförmigen Übersetzung Ihrer englischen Angebote.`,
     },
   ],
@@ -137,18 +137,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mehrsprachiges-druckvorlagen-geschaeft', anchorText: `Ein mehrsprachiges Druckvorlagen-Geschäft aufbauen` },
-    { pageType: 'guide', slug: 'profitable-nischen-recherchieren', anchorText: 'Profitable Druckvorlagen-Nischen recherchieren' },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Eine Druckvorlagen-Produktlinie erstellen' },
+    { pageType: 'guide', slug: `mehrsprachiges-druckvorlagen-geschaeft`, anchorText: `Ein mehrsprachiges Druckvorlagen-Geschäft aufbauen` },
+    { pageType: 'guide', slug: `profitable-nischen-recherchieren`, anchorText: `Profitable Druckvorlagen-Nischen recherchieren` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Eine Druckvorlagen-Produktlinie erstellen` },
     { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'Wortsuchrätsel erstellen' },
-    { pageType: 'guide', slug: 'alphabet-arbeitsblaetter-erstellen', anchorText: 'Alphabet-Lernarbeitsblätter erstellen' },
-    { pageType: 'guide', slug: 'praepositionen-arbeitsblaetter-erstellen', anchorText: 'Präpositionen-Arbeitsblätter erstellen' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'Ihr Druckvorlagen-Geschäft skalieren' },
-    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für Bildungs-Druckvorlagen' },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung zum Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'guide', slug: `alphabet-arbeitsblaetter-erstellen`, anchorText: `Alphabet-Lernarbeitsblätter erstellen` },
+    { pageType: 'guide', slug: `praepositionen-arbeitsblaetter-erstellen`, anchorText: `Präpositionen-Arbeitsblätter erstellen` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `Ihr Druckvorlagen-Geschäft skalieren` },
+    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: `Etsy SEO für Bildungs-Druckvorlagen` },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
@@ -169,43 +169,43 @@ const content: GuideContent = {
     },
     {
       appId: 'prepositions',
-      title: 'Präpositionen-Arbeitsblatt Generator',
+      title: `Präpositionen-Arbeitsblatt Generator`,
       description: `Erstellen Sie grammatikfokussierte Präpositionsarbeitsblätter, die sich an sprachspezifische Grammatikregeln anpassen. Präpositionen unterscheiden sich grundlegend zwischen Sprachen, was dies zu einer ausgezeichneten Demonstration muttersprachlicher Inhaltsgenerierung macht.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: `/samples/german/wordsearch/Worter suchen 1.webp`,
       alt: `Wortsuche-Arbeitsblatt als Demonstration mehrsprachiger Inhaltsgenerierung mit korrekter Zeichenbehandlung`,
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuchrätsel mit vokabelbasiertem Inhalt, der korrekte mehrsprachige Zeichenunterstützung erfordert`,
         caption: `Wortsuchrätsel-Arbeitsblätter demonstrieren die Bedeutung korrekter Zeichenbehandlung über Sprachen hinweg`,
       },
       {
-        src: '/samples/german/alphabet train/worksheet.webp',
+        src: `/samples/german/alphabet train/worksheet.webp`,
         alt: `Alphabet-Zug Arbeitsblatt mit sprachspezifischer Buchstaben- und Zeichengenerierung`,
         caption: `Alphabet-Arbeitsblätter erfordern sprachspezifische Zeichen einschließlich Umlauten und akzentuierten Buchstaben`,
       },
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: `/samples/german/matching/Paare Finden 1.webp`,
         alt: `Zuordnungs-Arbeitsblatt mit mehrsprachiger Produktion aus visuellen und Textelementen`,
         caption: `Zuordnungsarbeitsblätter kombinieren visuelle Elemente mit sprachspezifischem Vokabular für internationale Märkte`,
       },
     ],
     youtubeId: '_dDQegRq9JQ',
-    videoTitle: 'Mehrsprachige Alphabet-Arbeitsblätter erstellen',
+    videoTitle: `Mehrsprachige Alphabet-Arbeitsblätter erstellen`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
   ],
 };
 

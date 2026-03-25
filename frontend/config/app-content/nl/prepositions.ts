@@ -2,17 +2,17 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'voorzetsels werkbladen generator',
+    primaryKeyword: `voorzetsels werkbladen generator`,
     secondaryKeywords: [
       `printbare voorzetsels werkbladen voor Etsy-verkopers`,
       `ruimtelijke taal werkbladen maker voor KDP-uitgevers`,
-      'voorzetsels activiteiten verkopen op Gumroad',
-      'voorzetsels printables commerciële licentie',
+      `voorzetsels activiteiten verkopen op Gumroad`,
+      `voorzetsels printables commerciële licentie`,
     ],
     lsiKeywords: [
       `digitale ruimtelijke woordenschat producten online bedrijf`,
-      'printbare voorzetsels werkbladen bedrijf',
-      'commercieel gebruik taalwerkblad generator',
+      `printbare voorzetsels werkbladen bedrijf`,
+      `commercieel gebruik taalwerkblad generator`,
     ],
     titleTag: `Voorzetsels Werkbladen Generator | Maak Printables`,
     metaDescription:
@@ -23,11 +23,11 @@ const content: AppContent = {
     title: `Voorzetsels Werkbladen Generator voor Ruimtelijke Taal Oefenen`,
     tagline: `Acht ruimtelijke voorzetsels ontmoeten afbeelding-en-vorm oefeningen — ruimtelijke woordenschat opbouwen, zin voor zin.`,
     description:
-      `Ontwerp professionele voorzetsels werkbladen die ruimtelijke relaties aanleren via praktische afbeelding-en-vorm oefeningen. gebruikers oefenen acht kernvoorzetsels — in, op, onder, naast, achter, tussen, boven en voor — met twee verschillende oefenmodi: Invuloefeningen waarbij gebruikers het ontbrekende voorzetsel invullen, en Meerkeuzevragen waarbij gebruikers de afbeelding identificeren die bij een ruimtelijke beschrijving past. Selecteer welke voorzetsels je wilt opnemen via de ingebouwde checklist en configureer 1 tot 8 oefeningen per werkblad. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema's voor de gepositioneerde voorwerpen, en kies uit 8 geometrische vormen (cirkel, kubus, cilinder, hart, zeshoek, vierkant, ster, driehoek) als ruimtelijke referentiepunten. Volledige Toegang ontgrendelt alle 11 ondersteunde talen met grammaticaal correcte voorzetsels — Duits met naamvalcontracties zoals „im" en „am", Frans met elisieregels voor „l'" vóór klinkers, Spaans met lidwoorden op basis van geslacht — waardoor je productcatalogus elfvoudig wordt vermenigvuldigd vanuit één workflow. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF's en JPEG's exporteren op meer dan 400 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische voorzetselbundels verkoopt op Etsy.nl, boeken over ruimtelijke woordenschat samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Voorzetsels Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Ontwerp professionele voorzetsels werkbladen die ruimtelijke relaties aanleren via praktische afbeelding-en-vorm oefeningen. gebruikers oefenen acht kernvoorzetsels — in, op, onder, naast, achter, tussen, boven en voor — met twee verschillende oefenmodi: Invuloefeningen waarbij gebruikers het ontbrekende voorzetsel invullen, en Meerkeuzevragen waarbij gebruikers de afbeelding identificeren die bij een ruimtelijke beschrijving past. Selecteer welke voorzetsels je wilt opnemen via de ingebouwde checklist en configureer 1 tot 8 oefeningen per werkblad. Blader door meer dan 3100 zorgvuldig geselecteerde illustraties in 104 thema`s voor de gepositioneerde voorwerpen, en kies uit 8 geometrische vormen (cirkel, kubus, cilinder, hart, zeshoek, vierkant, ster, driehoek) als ruimtelijke referentiepunten. Volledige Toegang ontgrendelt alle 11 ondersteunde talen met grammaticaal correcte voorzetsels — Duits met naamvalcontracties zoals „im" en „am", Frans met elisieregels voor „l`" vóór klinkers, Spaans met lidwoorden op basis van geslacht — waardoor je productcatalogus elfvoudig wordt vermenigvuldigd vanuit één workflow. Elk werkblad genereert automatisch een antwoordblad, en je kunt printklare PDF's en JPEG's exporteren op meer dan 400 DPI in Letter-, A4-, Vierkant- of aangepast formaat. Of je nu thematische voorzetselbundels verkoopt op Etsy.nl, boeken over ruimtelijke woordenschat samenstelt voor Amazon KDP of gedifferentieerde taalcentra maakt voor Gumroad — de Voorzetsels Werkbladen Generator levert professionele resultaten in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Voorzetsels Werkbladen in 5 Stappen',
+    title: `Hoe Maak Je Voorzetsels Werkbladen in 5 Stappen`,
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -35,22 +35,22 @@ const content: AppContent = {
           `Open het paneel Pagina-instellingen en kies een paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een aangepast formaat naar keuze. Kies een achtergrondkleur, selecteer een decoratief achtergrondthema uit de afbeeldingenbibliotheek en pas de dekking aan zodat de oefeningen leesbaar blijven. Voeg een bijpassend decoratief kader toe en selecteer een werkbladsjabloon om je voorzetsels werkbladen een verzorgde, printklare uitstraling te geven.`,
       },
       {
-        title: 'Kies de oefenmodus en het aantal oefeningen',
+        title: `Kies de oefenmodus en het aantal oefeningen`,
         description:
           `Open het paneel Oefeningconfiguratie en selecteer een van de twee modi. De modus Invuloefening toont zinnen zoals "De kat is ____ het vierkant" waarbij gebruikers het juiste voorzetsel in de lege plek schrijven. De modus Meerkeuzevragen toont een ruimtelijke beschrijving en vraagt gebruikers om de bijpassende afbeelding aan te kruisen. Stel het aantal oefeningen per werkblad in van 1 tot 8 om de dichtheid en moeilijkheidsgraad te regelen.`,
       },
       {
-        title: 'Selecteer voorzetsels uit de checklist',
+        title: `Selecteer voorzetsels uit de checklist`,
         description:
           `Open de Voorzetsels Checklist en selecteer welke van de acht ruimtelijke voorzetsels je wilt opnemen: in, op, onder, naast, achter, tussen, boven en voor. Neem alle acht op voor een uitgebreide herhaling, of beperk de selectie tot twee of drie voor gerichte oefening met specifieke ruimtelijke relaties. De generator gebruikt alleen oefeningen met je geselecteerde voorzetsels, waardoor je nauwkeurige controle hebt over de lesinhoud.`,
       },
       {
-        title: 'Kies voorwerpen en vormen uit de themabibliotheek',
+        title: `Kies voorwerpen en vormen uit de themabibliotheek`,
         description:
           `Open het paneel Afbeeldingenbibliotheek en blader door 104 thema's voor voorwerpafbeeldingen — de objecten die worden gepositioneerd — en kies vervolgens uit 8 geometrische vormen (cirkel, kubus, cilinder, hart, zeshoek, vierkant, ster, driehoek) als ruimtelijke referentiepunten. Gebruik de zoekbalk om specifieke afbeeldingen direct te vinden. Pas de tekststijl aan met zeven lettertypen waaronder Lexend Deca, Baloo 2 en Fredoka. Schakel velden voor de naam en datum van de gebruiker in of uit en upload je eigen aangepaste afbeeldingen voor merkgebonden werkbladen.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description:
           `Ga naar het tabblad Antwoorden en klik op Antwoordblad Genereren om een opgeloste versie te maken met elk voorzetselantwoord ingevuld. Open vervolgens het downloadmenu en exporteer zowel het werkblad als het antwoordblad als JPEG met hoge resolutie of als printklaar PDF. Schakel grijstinten-export in voor inktvriendelijke versies. Elke export wordt gerenderd op meer dan 400 DPI, zodat je voorzetsels werkbladen er scherp uitzien of ze nu thuis worden afgedrukt, op Etsy.nl worden geüpload of in een Amazon KDP-boek over ruimtelijke woordenschat worden opgenomen.`,
       },
@@ -86,7 +86,7 @@ const content: AppContent = {
           `Blader door een bibliotheek van meer dan 3100 illustraties met hoge resolutie, georganiseerd in 104 thema's waaronder dieren, voertuigen, voedsel, feestdagen, sport, ruimtevaart, natuur en meer. Elk thema levert voorwerpafbeeldingen die worden gepositioneerd ten opzichte van een van de 8 geometrische vormen. Je kunt ook je eigen aangepaste afbeeldingen uploaden voor merkgebonden werkbladen. De combinatie van thematische voorwerpen en geometrische vormen creëert duizenden unieke oefenpermutaties — genoeg variatie voor jarenlange productcreatie.`,
       },
       {
-        title: 'Automatische Generatie van Antwoordbladen',
+        title: `Automatische Generatie van Antwoordbladen`,
         description:
           `Klik op één knop om een compleet antwoordblad te genereren dat de indeling van je werkblad weerspiegelt met elk correct voorzetsel ingevuld. Bij Invuloefeningen toont het antwoordblad de voltooide zin. Bij Meerkeuzevragen wordt de juiste afbeelding gemarkeerd. Exporteer het antwoordblad als apart JPEG- of PDF-bestand, waardoor het eenvoudig is om het op te nemen in verkopersedities, oudergidsen of Etsy-productbundels zonder enig handmatig werk.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Verkoop Je Voorzetsels Werkbladen Online',
+    title: `Hoe Verkoop Je Voorzetsels Werkbladen Online`,
     cases: [
       {
         title: `Thematische voorzetsels werkblad bundels op Etsy.nl`,
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Gedifferentieerde taalcentra voor Gumroad',
+        title: `Gedifferentieerde taalcentra voor Gumroad`,
         description:
           `Bouw voorzetsels oefeningensets op niveau met de oefenmodus als moeilijkheidsas: Niveau 1 (Meerkeuzevragen, 2 voorzetsels, 2 oefeningen per pagina), Niveau 2 (Meerkeuzevragen, 5 voorzetsels, 4 oefeningen), Niveau 3 (Invuloefening, 5 voorzetsels, 6 oefeningen) en Niveau 4 (Invuloefening, alle 8 voorzetsels, 8 oefeningen). Lever elk niveau met antwoordbladen en een voortgangsregistratieblad. Kopers op Gumroad betalen premiumprijzen voor gedifferentieerde leermiddelen over ruimtelijke taal die ze direct kunnen inzetten in meerdere niveaugroepen.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Meertalige voorzetsels producten met Volledige Toegang`,
         description:
           `Volledige Toegang ontgrendelt alle 11 talen met grammaticaal correcte voorzetsels, geslachtsbewuste lidwoorden, naamvalcontracties en elisieregels. Maak Duitse voorzetsels werkbladen met „im" en „am", Franse werkbladen met „l'" elisie, Spaanse werkbladen met el/la-lidwoorden en meer. Elke taalversie is een apart product dat je kunt aanbieden op Etsy, Gumroad of Amazon KDP — waardoor je catalogus effectief elfvoudig wordt vermenigvuldigd vanuit dezelfde workflow. In het Nederlands schrijven gebruikers „De kat is op het vierkant" terwijl in het Duits dezelfde zin „Die Katze ist auf dem Quadrat" wordt met correcte naamvalverbuiging. Meertalige producten voor ruimtelijke woordenschat ondervinden minder concurrentie en trekken internationale kopers aan die zoeken in hun eigen taal.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (meertalig)',
+        platform: `Etsy / Amazon KDP / Gumroad (meertalig)`,
       },
       {
-        title: 'Ruimtelijke woordenschat voor de winkel en bijles',
+        title: `Ruimtelijke woordenschat voor de winkel en bijles`,
         description:
           `Genereer aangepaste voorzetsels werkbladen afgestemd op het huidige niveau van ruimtelijke woordenschat van elke gebruiker. Gebruik de voorzetsels checklist om je te richten op de specifieke voorzetsels waarmee een gebruiker moeite heeft, en pas het aantal oefeningen aan op de concentratieboog. Begin met Meerkeuzevragen voor beginnende gebruikers en ga over op Invuloefeningen voor gebruikers die klaar zijn om zelfstandig taal te produceren. Print sets in enkele minuten voor kleine groepjes of hele productlijnen. Het automatische antwoordblad bespaart waargenomen waarde, en het afbeelding-en-vorm formaat houdt jonge gebruikers betrokken bij visueel ruimtelijk redeneren.`,
-        platform: 'Klas / Bijles / Thuisonderwijs',
+        platform: `Klas / Bijles / Thuisonderwijs`,
       },
     ],
   },
@@ -146,12 +146,12 @@ const content: AppContent = {
         `De generator bevat twee modi: Invuloefening en Meerkeuzevragen. Invuloefening toont zinnen met een ontbrekend voorzetsel dat gebruikers invullen (bijvoorbeeld "De kat is ____ het vierkant"). Meerkeuzevragen toont een ruimtelijke beschrijving en vraagt gebruikers om de bijpassende afbeelding aan te kruisen. Beide modi werken met alle acht voorzetsels en alle thema's.`,
     },
     {
-      question: 'Welke 8 voorzetsels zijn beschikbaar?',
+      question: `Welke 8 voorzetsels zijn beschikbaar?`,
       answer:
         `De generator ondersteunt acht ruimtelijke voorzetsels: in, op, onder, naast, achter, tussen, boven en voor. Je selecteert welke voorzetsels je wilt opnemen via een checklist, zodat je je kunt richten op alle acht voor een uitgebreide herhaling of de selectie kunt beperken tot twee of drie voor gerichte oefening. Verkopers die aparte werkbladpakketten maken voor elk voorzetspaar kunnen een grotere catalogus opbouwen vanuit dezelfde tool, waardoor kopers gerichte oefeningsopties krijgen terwijl het totale aantal productlijsten in hun winkel toeneemt.`,
     },
     {
-      question: 'Wat is het verschil tussen voorwerpen en vormen?',
+      question: `Wat is het verschil tussen voorwerpen en vormen?`,
       answer:
         `Voorwerpen zijn thematische illustraties uit de afbeeldingenbibliotheek — dieren, voertuigen, voedsel en meer — die het object voorstellen dat wordt gepositioneerd. Vormen zijn geometrische figuren (cirkel, kubus, cilinder, hart, zeshoek, vierkant, ster, driehoek) die dienen als ruimtelijk referentiepunt. Elke oefening positioneert een voorwerp ten opzichte van een vorm, waardoor duidelijke ruimtelijke relaties ontstaan zoals "De kat is onder de kubus."`,
     },
@@ -171,12 +171,12 @@ const content: AppContent = {
         `De generator bevat een ingebouwde grammaticamotor voor elk van de 11 ondersteunde talen. Deze zoekt het juiste lidwoord op basis van het woordgeslacht (belangrijk voor Duits, Frans, Spaans, Portugees, Italiaans), past naamvalregels toe voor Duitse voorzetsels, verwerkt Franse elisie waarbij lidwoorden samentrekken vóór klinkers of stomme h, en gebruikt correcte meervoudsvormen voor vormnamen. In het Nederlands wordt bijvoorbeeld „het vierkant" correct gebruikt met het onzijdige lidwoord, terwijl „de driehoek" het de-lidwoord krijgt. Het resultaat zijn natuurlijk klinkende zinnen in elke taal, geen onhandige letterlijke vertalingen.`,
     },
     {
-      question: 'Hoe werkt de voorzetsels checklist?',
+      question: `Hoe werkt de voorzetsels checklist?`,
       answer:
         `Het paneel Voorzetsels Checklist laat je elk van de acht voorzetsels aan- of uitzetten. Alleen aangevinkte voorzetsels verschijnen in gegenereerde oefeningen. Dit geeft je nauwkeurige controle over de lesinhoud — vink alleen "in" en "op" aan voor een introducerend werkblad, of vink alle acht aan voor een uitgebreide herhaling. De checklist wordt gereset elke keer dat je een nieuw werkblad genereert.`,
     },
     {
-      question: 'Maakt de generator automatisch antwoordbladen?',
+      question: `Maakt de generator automatisch antwoordbladen?`,
       answer:
         `Ja. Klik op de knop Antwoordblad Genereren om een opgeloste versie van je werkblad te maken. Bij Invuloefeningen toont het antwoordblad elke lege plek ingevuld met het juiste voorzetsel. Bij Meerkeuzevragen wordt de juiste afbeelding gemarkeerd. Exporteer het antwoordblad als apart JPEG- of PDF-bestand naast het gebruikerswerkblad.`,
     },
@@ -186,7 +186,7 @@ const content: AppContent = {
         `Ja. Je hebt toegang tot alle functies — beide oefenmodi, alle acht voorzetsels, de volledige afbeeldingenbibliotheek, alle vormen, antwoordbladgeneratie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.`,
     },
     {
-      question: 'Wat bevat de commerciële licentie?',
+      question: `Wat bevat de commerciële licentie?`,
       answer:
         `De Commerciële licentie biedt watermerkvrije Engelse exports met volledige verkooprechten. De Volledige Toegang-licentie voegt alle 11 talen met grammaticaal correcte voorzetsels, lidwoorden en grammaticaregels toe, waardoor je productcatalogus wordt vermenigvuldigd. Beide licentieniveaus verlenen onbeperkte rechten om te verkopen op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform — geen royalty's per verkoop, geen maandelijkse kosten en geen productielimieten.`,
     },
@@ -206,73 +206,73 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'alfabet-trein-werkbladen',
-      anchorText: 'Alfabettrein Werkbladen Generator',
+      anchorText: `Alfabettrein Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'woordraadsel-werkbladen',
-      anchorText: 'Woordraadsel Werkbladen Generator',
+      anchorText: `Woordraadsel Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'woordkruisel-werkbladen',
-      anchorText: 'Woordkruisel Werkbladen Generator',
+      anchorText: `Woordkruisel Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'woordzoeker-werkbladen',
-      anchorText: 'Woordzoeker Werkbladen Generator',
+      anchorText: `Woordzoeker Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'cryptogram-werkbladen',
-      anchorText: 'Cryptogram Werkbladen Generator',
+      anchorText: `Cryptogram Werkbladen Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'lezen-taal-pakket',
-      anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
+      anchorText: `Lezen & Taal Pakket — Alle Taalapps in Eén Bundel`,
     },
     {
       pageType: 'guide',
       slug: 'voorzetsels-werkbladen-maken',
-      anchorText: 'Gids voor het Maken van Voorzetsels Werkbladen',
+      anchorText: `Gids voor het Maken van Voorzetsels Werkbladen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
+      slug: `complete-gids-printable-bedrijf`,
       anchorText: `De Complete Gids voor het Starten van een Printable Bedrijf`,
     },
     {
       pageType: 'idea',
       slug: 'nt2-printable-ideen',
-      anchorText: 'ESL printable ideeën voor taalonderwijs',
+      anchorText: `ESL printable ideeën voor taalonderwijs`,
     },
     {
       pageType: 'idea',
-      slug: 'thuisonderwijs-printable-ideen',
+      slug: `thuisonderwijs-printable-ideen`,
       anchorText: `Thuisonderwijs printable ideeën voor ouders en verkopers`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/prepositions/Voorzetsels%201.webp',
+      primary: `/samples/dutch/prepositions/Voorzetsels%201.webp`,
       primaryAlt: `Voorzetsels werkblad met kleurrijke afbeeldingen die ruimtelijke relaties tonen tussen voorwerpen en geometrische vormen`,
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/prepositions/Voorzetsels%201.webp',
+        src: `/samples/dutch/prepositions/Voorzetsels%201.webp`,
         alt: `Invuloefening voorzetsels werkblad met dierenthema en geometrische vormen`,
         caption: `Invuloefening — gebruikers vullen zinnen aan met het juiste voorzetsel`,
       },
       {
-        src: '/samples/dutch/prepositions/Voorzetsels%202.webp',
+        src: `/samples/dutch/prepositions/Voorzetsels%202.webp`,
         alt: `Meerkeuzevragen voorzetsels werkblad met voertuigenthema en ruimtelijke beschrijvingen`,
         caption: `Meerkeuzevragen — gebruikers identificeren de afbeelding die bij de ruimtelijke beschrijving past`,
       },
       {
-        src: '/samples/dutch/prepositions/Voorzetsels%203.webp',
+        src: `/samples/dutch/prepositions/Voorzetsels%203.webp`,
         alt: `Voorzetsels werkblad met alle acht ruimtelijke voorzetsels en antwoordblad`,
         caption: `Volledig werkblad met 8 oefeningen — uitgebreide herhaling van alle ruimtelijke voorzetsels`,
       },

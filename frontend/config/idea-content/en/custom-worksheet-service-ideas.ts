@@ -7,15 +7,15 @@ const content: IdeaContent = {
 
     primaryKeyword: 'custom worksheet service',
     secondaryKeywords: [
-      'custom worksheet business ideas',
-      'bespoke printable creation service',
-      'made-to-order worksheet business',
+      `custom worksheet business ideas`,
+      `bespoke printable creation service`,
+      `made-to-order worksheet business`,
       'sell custom worksheets online',
     ],
     lsiKeywords: [
-      'personalized educational printables',
+      `personalized educational printables`,
       'on-demand worksheet creation',
-      'freelance printable design service',
+      `freelance printable design service`,
     ],
   },
   hero: {
@@ -40,17 +40,17 @@ The custom service model works alongside a pre-made product catalog rather than 
     },
     {
       title: `Custom Word Search Puzzle Services for Themed Vocabulary Activities`,
-      description: `Custom word search creation services where clients provide specific vocabulary lists, themed contexts, branded headers, and difficulty requirements for personalized puzzle activities tailored to their exact educational or event needs. Use the Word Search generator to rapidly create client-specified word search puzzles with their exact vocabulary words embedded in appropriately sized grids, themed designs matching the client's requested context or branding, difficulty levels calibrated to the specific age group the client serves, branded headers featuring the client\'s school name or organization identity, and answer keys formatted to the client's preferred layout.`,
+      description: `Custom word search creation services where clients provide specific vocabulary lists, themed contexts, branded headers, and difficulty requirements for personalized puzzle activities tailored to their exact educational or event needs. Use the Word Search generator to rapidly create client-specified word search puzzles with their exact vocabulary words embedded in appropriately sized grids, themed designs matching the client`s requested context or branding, difficulty levels calibrated to the specific age group the client serves, branded headers featuring the client's school name or organization identity, and answer keys formatted to the client`s preferred layout.`,
       appId: 'wordsearch',
     },
     {
       title: `Custom Coloring Page Services for Branded Educational Materials`,
-      description: `Custom coloring page creation services where clients request specific themes, branded elements, content-aligned imagery, and age-appropriate designs for personalized creative materials that carry their school, tutoring center, or educational brand identity. Use the Coloring Page generator to produce client-specified coloring pages with themed imagery matching their requested topics, age-appropriate complexity levels calibrated to their specific user groups, branded headers or footer text featuring the client's organization name, coordinated page sets that match the client's curriculum theme or event context, and print-ready formats matching their preferred paper size and layout specifications.`,
+      description: `Custom coloring page creation services where clients request specific themes, branded elements, content-aligned imagery, and age-appropriate designs for personalized creative materials that carry their school, tutoring center, or educational brand identity. Use the Coloring Page generator to produce client-specified coloring pages with themed imagery matching their requested topics, age-appropriate complexity levels calibrated to their specific user groups, branded headers or footer text featuring the client`s organization name, coordinated page sets that match the client`s curriculum theme or event context, and print-ready formats matching their preferred paper size and layout specifications.`,
       appId: 'coloring',
     },
     {
       title: `Custom Bingo Card Services for Group and Event Activities`,
-      description: `Custom bingo card creation services where clients specify exact vocabulary terms, themed contexts, group sizes, and branding requirements for personalized group games and event activities that perfectly match their specific educational or celebration needs. Use the Bingo generator to create client-specified bingo card sets with their exact vocabulary or content terms placed across enough unique cards for their specific group size, branded headers featuring the client's school or event identity, calling card sheets customized to their game format preferences, themed designs matching the client\'s requested context, and formatted layouts ready for the client's preferred printing method.`,
+      description: `Custom bingo card creation services where clients specify exact vocabulary terms, themed contexts, group sizes, and branding requirements for personalized group games and event activities that perfectly match their specific educational or celebration needs. Use the Bingo generator to create client-specified bingo card sets with their exact vocabulary or content terms placed across enough unique cards for their specific group size, branded headers featuring the client`s school or event identity, calling card sheets customized to their game format preferences, themed designs matching the client's requested context, and formatted layouts ready for the client`s preferred printing method.`,
       appId: 'bingo',
     },
     {
@@ -65,17 +65,17 @@ The custom service model works alongside a pre-made product catalog rather than 
     },
     {
       title: `Custom Word Scramble Services for Vocabulary-Focused Sellers`,
-      description: `Custom word scramble puzzle creation services where buyers, tutoring centers, and content coordinators request personalized vocabulary puzzles using their specific word lists, themed contexts, and difficulty levels matched to their users' current skill levels. Use the Word Scramble generator to create client-specified word scramble puzzles with their exact vocabulary words arranged in appropriately challenging scramble formats, themed designs matching the client's requested educational context, branded headers featuring the client's school or program identity, answer keys formatted to the client's preferences, and difficulty calibration matching the reading and spelling levels of their specific user population.`,
+      description: `Custom word scramble puzzle creation services where buyers, tutoring centers, and content coordinators request personalized vocabulary puzzles using their specific word lists, themed contexts, and difficulty levels matched to their users` current skill levels. Use the Word Scramble generator to create client-specified word scramble puzzles with their exact vocabulary words arranged in appropriately challenging scramble formats, themed designs matching the client`s requested educational context, branded headers featuring the client`s school or program identity, answer keys formatted to the client`s preferences, and difficulty calibration matching the reading and spelling levels of their specific user population.`,
       appId: 'word-scramble',
     },
     {
       title: `Custom Counting Worksheet Services for Early Numeracy Programs`,
-      description: `Custom counting worksheet creation services where early childhood programs, kindergarten buyers, and math intervention specialists request personalized counting activities featuring specific themes and number ranges aligned with their content scope and sequence documents. Use the Find and Count generator to create client-specified counting worksheets with themed imagery matching their requested content units, number ranges calibrated to their users' current skill levels, branded program headers identifying the client's educational organization, progressive difficulty sequences following their planned teaching timeline, and large-format designs appropriate for the developmental needs of their specific user age groups.`,
+      description: `Custom counting worksheet creation services where early childhood programs, kindergarten buyers, and math intervention specialists request personalized counting activities featuring specific themes and number ranges aligned with their content scope and sequence documents. Use the Find and Count generator to create client-specified counting worksheets with themed imagery matching their requested content units, number ranges calibrated to their users` current skill levels, branded program headers identifying the client`s educational organization, progressive difficulty sequences following their planned teaching timeline, and large-format designs appropriate for the developmental needs of their specific user age groups.`,
       appId: 'find-count',
     },
     {
       title: `Custom Pattern Worksheet Services for Math Curriculum Alignment`,
-      description: `Custom pattern worksheet creation services where elementary-level buyers, math coordinators, and content specialists request personalized pattern recognition activities aligned with their specific content standards, scope and sequence documents, and user skill-level data. Use the Pattern Worksheet generator to create client-specified pattern activities with pattern types matching their content requirements, difficulty progressions calibrated to their users' assessed skill levels, themed contexts matching their current content units, branded headers featuring the client's school or district identity, and assessment-formatted pages the client can use for progress monitoring alongside their standard content materials.`,
+      description: `Custom pattern worksheet creation services where elementary-level buyers, math coordinators, and content specialists request personalized pattern recognition activities aligned with their specific content standards, scope and sequence documents, and user skill-level data. Use the Pattern Worksheet generator to create client-specified pattern activities with pattern types matching their content requirements, difficulty progressions calibrated to their users` assessed skill levels, themed contexts matching their current content units, branded headers featuring the client`s school or district identity, and assessment-formatted pages the client can use for progress monitoring alongside their standard content materials.`,
       appId: 'pattern-worksheet',
     },
     {
@@ -89,7 +89,7 @@ The custom service model works alongside a pre-made product catalog rather than 
     {
       platform: 'Etsy',
       title: `Offering Custom Worksheet Services Through Etsy Custom Orders`,
-      description: `Etsy's custom order functionality enables worksheet service sellers to list service-style offerings where buyers request personalized materials, initiate custom order conversations, and receive tailored products created specifically for their needs. Create listings that clearly describe your customization capabilities, turnaround times, pricing tiers for different complexity levels, and examples of previous custom work that demonstrate the quality and range of personalization you offer to potential clients browsing your shop. The Etsy messaging system facilitates detailed client consultations where you gather specifications, share drafts for approval, and deliver final files through the platform\'s secure digital delivery infrastructure that handles transaction processing and file distribution automatically. Custom order sellers on Etsy benefit from the platform's massive organic traffic while differentiating from commodity pre-made product sellers through premium personalization that justifies higher price points than standard marketplace listings. Position your custom service listings alongside your pre-made product catalog so buyers who discover your standard products can easily find and request custom versions tailored to their specific program or organizational requirements.`,
+      description: `Etsy`s custom order functionality enables worksheet service sellers to list service-style offerings where buyers request personalized materials, initiate custom order conversations, and receive tailored products created specifically for their needs. Create listings that clearly describe your customization capabilities, turnaround times, pricing tiers for different complexity levels, and examples of previous custom work that demonstrate the quality and range of personalization you offer to potential clients browsing your shop. The Etsy messaging system facilitates detailed client consultations where you gather specifications, share drafts for approval, and deliver final files through the platform's secure digital delivery infrastructure that handles transaction processing and file distribution automatically. Custom order sellers on Etsy benefit from the platform`s massive organic traffic while differentiating from commodity pre-made product sellers through premium personalization that justifies higher price points than standard marketplace listings. Position your custom service listings alongside your pre-made product catalog so buyers who discover your standard products can easily find and request custom versions tailored to their specific program or organizational requirements.`,
     },
     {
       platform: 'Fiverr & Freelance Platforms',
@@ -102,7 +102,7 @@ The custom service model works alongside a pre-made product catalog rather than 
       description: `Direct outreach to schools, tutoring centers, homeschool cooperatives, and educational organizations builds premium custom worksheet service relationships with institutional clients who order repeatedly and in volume throughout each academic year. Create a professional portfolio showcasing sample custom worksheets across different subjects, grade levels, and customization types that demonstrates your capability to produce exactly what institutional clients need for their specific programs and user populations. Contact local schools and tutoring centers directly with sample materials and service descriptions, offering introductory pricing for first orders that lets potential clients experience your quality and turnaround time before committing to ongoing service relationships. Institutional clients provide the most predictable recurring revenue because schools have ongoing material needs throughout the academic year and return to reliable service providers for each new unit, theme, or assessment cycle, creating long-term business relationships that generate consistent monthly income from repeat orders.`,
     },
     {
-      platform: 'Social Media & Seller Communities',
+      platform: `Social Media & Seller Communities`,
       title: `Marketing Custom Worksheet Services Through Seller Communities`,
       description: `Social media platforms and online seller communities provide visibility for custom worksheet services among buyers who discuss, share, and recommend educational resources with their professional networks. Share before-and-after examples showing generic materials transformed into personalized custom versions that demonstrate the value of your customization services and help potential clients visualize what personalized materials would look like for their own product lines. Participate in seller Facebook groups, Reddit education communities, and Pinterest boards where buyers discuss material needs and recommend service providers, building recognition as a helpful expert who understands buyer needs before promoting your custom service offerings. Create content showcasing the customization process from client request through final delivery that helps potential clients understand what to expect and builds confidence in your professional workflow and output quality, reducing the hesitation that first-time custom order clients often experience when considering a service-based purchase rather than a standard product transaction.`,
     },
@@ -143,32 +143,32 @@ The custom service model works alongside a pre-made product catalog rather than 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -178,17 +178,17 @@ The custom service model works alongside a pre-made product catalog rather than 
     {
       pageType: 'idea',
       slug: 'party-supply-printable-ideas',
-      anchorText: 'Printable Party Supply Business Ideas',
+      anchorText: `Printable Party Supply Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

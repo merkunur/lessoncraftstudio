@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'dritte-klasse-druckvorlagen',
     secondaryKeywords: [
-      'Drittklässler-Arbeitsblätter auf Etsy erstellen',
-      'Grundschul-Druckvorlagen dritte Klasse KDP',
-      'Dritte-Klasse-Aktivitätsblätter auf Gumroad',
-      'Altersstufe-drei-Lernmaterialien für Shops',
+      `Drittklässler-Arbeitsblätter auf Etsy erstellen`,
+      `Grundschul-Druckvorlagen dritte Klasse KDP`,
+      `Dritte-Klasse-Aktivitätsblätter auf Gumroad`,
+      `Altersstufe-drei-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'Grundschul-Oberstufe Druckvorlagen-Nische',
-      'anspruchsvollere Lernmaterialien dritte Klasse',
-      'Drittklässler-Arbeitsblätter Etsy-Markt',
+      `Grundschul-Oberstufe Druckvorlagen-Nische`,
+      `anspruchsvollere Lernmaterialien dritte Klasse`,
+      `Drittklässler-Arbeitsblätter Etsy-Markt`,
     ],
-    titleTag: 'Dritte-Klasse-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Dritte-Klasse-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Dritte-Klasse-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Nischenstrategien und Produktkonzepte für Verkäufer im dritten Grundschuljahr. Arbeitsblatt-Ideen.`,
   },
   hero: {
@@ -36,7 +36,7 @@ Das Eltern-Käufersegment erreicht seine höchste Motivation in der dritten Klas
       appId: 'addition',
     },
     {
-      title: 'Dritte-Klasse-Wortsuchrätsel zum Online-Verkauf',
+      title: `Dritte-Klasse-Wortsuchrätsel zum Online-Verkauf`,
       description: `Wortsuchrätsel für Drittklassleser sprechen Käufer und Eltern an, die ansprechende Lese-Aktivitäten suchen, die den akademischen Wortschatz, die fachspezifische Terminologie und die fortgeschrittenen Rechtschreibmuster festigen, denen Drittklässler in ihrem zunehmend komplexen fächerübergreifenden Produkterstellung begegnen. Erstellen Sie Rätsel mit Vokabeln aus Dritte-Klasse-Leseeinheiten einschließlich Wörtern mit griechischen und lateinischen Wortwurzeln, akademischen Begriffen aus Sachkunde-Einheiten zu Ökosystemen, Wettersystemen und Lebenszyklen, Gesellschaftskunde-Vokabular zu Regierung, Geografie und Gemeinschaften, sowie Rechtschreibwörtern mit fortgeschrittenen Vorsilben wie miss-, ent- und un- und Nachsilben wie -tion, -sion und -ment. Der Wortsuche-Generator ermöglicht es Ihnen, altersgerechte größere Gitter mit zwanzig bis fünfundzwanzig Wörtern in Größen zu erstellen, die für selbstsichere Drittklassleser geeignet sind, die Buchstaben über mehrere Richtungen hinweg verfolgen und dabei Worterkennungsfähigkeiten aufbauen können, die das Leseverständnis über alle Fachbereiche unterstützen.`,
       appId: 'wordsearch',
     },
@@ -51,7 +51,7 @@ Das Eltern-Käufersegment erreicht seine höchste Motivation in der dritten Klas
       appId: 'coloring',
     },
     {
-      title: 'Dritte-Klasse-Bingokarten für Gruppenaktivitäten',
+      title: `Dritte-Klasse-Bingokarten für Gruppenaktivitäten`,
       description: `Bingokarten rund um Dritte-Klasse-Lernkonzepte dienen Käufern, die Mathe-Faktenflüssigkeits-Aktivitätsstationen, Vokabel-Wiederholungssitzungen und Testvorbereitungsaktivitäten mit interaktivem Engagement durchführen, das Lernen durch spielbasierte Übungsformate festigt und Acht- bis Neunjährige während der intensiven Aktivitätsrotationen motiviert hält, die durch die Hochrisiko-Leistungsvorbereitung erforderlich sind. Der Bingo-Generator erstellt einzigartige Kartenvariationen ohne Duplikate für Gruppensitzungen. Erstellen Sie gezielte akademische Sets einschließlich Multiplikationsfakten-Bingo mit Einmaleins-Aufgaben bis Zehn-mal-Zehn bei denen Nutzer Produkte im Kopf berechnen müssen, Vokabel-Bingo mit Kontexthinweis-Definitionen die Verständnis akademischer und fachspezifischer Terminologie erfordern, Bruch-Bingo bei dem visuelle Modelle mit Halben, Dritteln, Vierteln, Sechsteln und Achteln ihren schriftlichen Bruchdarstellungen zugeordnet werden, und Maß-Bingo bei dem Nutzer Flächen- und Umfangsaufgaben lösen um passende Antworten auf ihren Karten zu finden.`,
       appId: 'bingo',
     },
@@ -85,7 +85,7 @@ Das Eltern-Käufersegment erreicht seine höchste Motivation in der dritten Klas
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Dritte-Klasse-Druckvorlagen auf Etsy verkaufen',
+      title: `Dritte-Klasse-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy erfasst das hochmotivierte Dritte-Klasse-Eltern-Käufersegment, das mit dringenden, kaufabsichtsstarken Begriffen wie „Dritte Klasse Multiplikation Arbeitsblätter", „Leseverständnis 3. Klasse", „Einmaleins Übungsblätter" und „Dritte Klasse Testvorbereitung" während des gesamten Schuljahres sucht, mit deutlichen Nachfrageschüben während der Frühjahrs-Testsaison und der Sommerbrücken-Periode. Nutzen Sie alle dreizehn Tags mit Variationen, die spezifische Kompetenzziele, Altersstufenkennungen und Aktivitätsformate kombinieren, um motivierte Käufer zu erreichen, deren Suchpräzision die Hochrisiko-Verantwortlichkeit der Drittklasse-Leistungserhebungen widerspiegelt. Bündeln Sie Produkte nach Kompetenz-Steigerungsprogressionen um den durchschnittlichen Bestellwert zu erhöhen: ein Multiplikationsfakten-Meisterungspaket geordnet nach Faktor von der Zweierreihe bis zur Zehnerreihe, ein Leseverständnisstrategie-Paket mit Texten auf mehreren Komplexitätsstufen, und ein Testvorbereitungspaket bedienen jeweils unterschiedliche Elternbedürfnisse und ermutigen zu Mehrfachkäufen. Die Nachfrage steigt im Januar stark an, wenn Eltern Halbjahreszeugnisse erhalten, und der größte Kaufschub entsteht im März und April, wenn sich die Fenster für standardisierte Leistungserhebungen nähern und Eltern aktiv Vorbereitungsmaterialien suchen, um ihr Kind durch die Hochrisiko-Prüfungen zu unterstützen, die Versetzungs- und Platzierungskonsequenzen tragen.`,
     },
     {
@@ -95,7 +95,7 @@ Das Eltern-Käufersegment erreicht seine höchste Motivation in der dritten Klas
     },
     {
       platform: 'Gumroad',
-      title: 'Dritte-Klasse-Druckprodukte für Gumroad erstellen',
+      title: `Dritte-Klasse-Druckprodukte für Gumroad erstellen`,
       description: `Gumroad ist der wichtigste Marktplatz für Dritte-Klasse-Druckvorlagen-Verkäufer, weil Dritte-Klasse-Käufer die Käufergruppe mit den höchsten Ausgaben auf der Plattform sind und umfangreicher Ergänzungsmaterialien kaufen als jede andere Grundschulstufe — aufgrund der Konvergenz der breitesten Leistungsspannen, der anspruchsvollsten Produktkatalogstandards und des höchsten Prüfungsdrucks in den Grundschuljahren. Dritte-Klasse-Shop enthalten typischerweise Nutzer, die über eine Vierjahresspanne von frühem Zweite-Klasse-Niveau bis frühem Fünfte-Klasse-Niveau arbeiten, was Käufer zwingt, gestufte Materialien auf vier oder mehr Schwierigkeitsstufen für jedes Konzept zu kaufen. Druckvorlagen funktionieren am besten, wenn sie als einsatzfertige Lösungen verpackt sind: Morgenarbeit-Pakete mit täglicher gestufter Mathe- und Leseübung, Multiplikationsfakten-Flüssigkeits-Aktivitätsstationen mit progressiver Meisterungsverfolgung, Leseverständnisstrategie-Aktivitäten mit Texten auf mehreren Komplexitätsstufen, Testvorbereitungspakete die standardisierte Prüfungsformate spiegeln, Förderressourcen für Nutzer unter Altersstufenniveau in Lesen und Mathematik, und Bereicherungsaktivitäten für fortgeschrittene Lerner. Fügen Sie Produktkatalog-Standardausrichtungscodes prominent ein, weil Dritte-Klasse-Käufer Produkte basierend auf Prüfungsausrichtungspräzision bewerten, und bieten Sie umfassende Lösungsschlüssel und Differenzierungsanleitungen an.`,
     },
     {
@@ -139,18 +139,18 @@ Das Eltern-Käufersegment erreicht seine höchste Motivation in der dritten Klas
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -159,33 +159,33 @@ Das Eltern-Käufersegment erreicht seine höchste Motivation in der dritten Klas
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'zweite-klasse-druckvorlagen-ideen',
-      anchorText: 'Zweite-Klasse-Druckvorlagen — Geschäftsideen',
+      slug: `zweite-klasse-druckvorlagen-ideen`,
+      anchorText: `Zweite-Klasse-Druckvorlagen — Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — thematisches Lernbild`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Schrank — thematisches Lernbild`, caption: 'Schrank' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Taschenrechner — thematisches Lernbild`, caption: 'Taschenrechner' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — thematisches Lernbild`, caption: 'Kalender' },
   ],
 
 

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Piraten Printables Verkopen — Nichegids',
+    titleTag: `Piraten Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende piraten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Piratenthema productconcepten en avontuurstrategieën voor verkopers.`,
 
     primaryKeyword: 'piraten printable ideeën',
     secondaryKeywords: [
-      'piratenthema werkbladen verkopen',
-      'piraten printable business ideeën',
-      'piraat activiteiten voor verkopers',
-      'piraten printables verkopen op Etsy',
+      `piratenthema werkbladen verkopen`,
+      `piraten printable business ideeën`,
+      `piraat activiteiten voor verkopers`,
+      `piraten printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'schattenjacht educatieve werkbladen',
-      'nautisch avontuur activiteiten',
-      'zeerovers thema printbare producten printables',
+      `schattenjacht educatieve werkbladen`,
+      `nautisch avontuur activiteiten`,
+      `zeerovers thema printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Piraten Printable Businessideeën voor Verkopers',
+    title: `Piraten Printable Businessideeën voor Verkopers`,
     description: `Piraten vertegenwoordigen een van de meest universeel fascinerende avontuurthema's voor kinderen, waardoor dit een uitstekende altijdgroene niche is voor printable-ondernemers die betrouwbare jaarronde omzet zoeken aangedreven door verbeeldingsrijke betrokkenheid en de tijdloze fascinatie die schattenjachten, piratenschepen en zeeroveravonturen uitoefenen op kinderen van elke leeftijdsgroep en achtergrond. Het piratenthema biedt buitengewone subthemadiepte waaronder piratenschepen, schatkisten, schatkaarten, doodshoofd en gekruiste botten, papegaaien, ooglappen, haken, zwaarden, kanonnen, ankers, kompassen, piratenvlaggen, eilanden, palmbomen, gouden munten, telescopen en zeemeerminnen, wat verkopers een rijk visueel vocabulaire geeft dat aansluit bij de natuurlijke liefde van kinderen voor fantasiespel, avonturenverhalen en schatzoekverkenning. Vakoverschrijdende veelzijdigheid maakt piratenprintables bijzonder waardevol omdat avontuurconcepten van nature aansluiten bij rekenen via schatten tellen en kaartcoördinaten, taalvaardigheid via piratenvocabulaire en avonturenverhalen, aardrijkskunde via oceaanverkenning en eilandkartering, en creatief schrijven via kapiteinslogboek en schattenjachtverhaalopdrachten. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De piraten printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk jong kind een diepe, verbeeldingsrijke fascinatie ervaart voor schattenjachten, piratenschepen en de avontuurlijke mogelijkheden van het verkennen van mysterieuze eilanden en het ontdekken van verborgen goud. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de piratenniche van echte jaarronde relevantie: kinderen zijn bezig met piratenspel in elk seizoen, piratenthema media en speelgoed behouden constante populariteit, en het avonturenverhaal dat de piratenfascinatie aandrijft functioneert onafhankelijk van weer of kalendergebeurtenissen. Dit consistente vraagpatroon maakt piratenprintables een betrouwbare inkomstenbron.
@@ -38,27 +38,27 @@ Het piratenverjaardagsfeestjesegment vertegenwoordigt een bijzonder waardevol ko
 
   productIdeas: [
     {
-      title: 'Piraten Telwerkbladen voor Printable Verkopers',
+      title: `Piraten Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met gouden munten, schatkisten, piratenvlaggen, papegaaien en zwaarden brengen avontuuropwinding in vroege rekenoefeningen die verkopers en ouders het hele schooljaar door kopen voor avontuurunits en verbeeldingsrijke rekenles. Gebruik de Zoek en Tel-generator om piratenscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen piratenschepen, schateilandlandschappen en onderwaterschattenpanorama's. Bied sets aan op meerdere vaardigheidsniveaus: piratenvoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen gouden munten of groepjes juwelen voor kinderen in groep 3. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Piraten Woordzoekpuzzels Online Verkopen',
+      title: `Piraten Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met piratenvocabulaire trekken verkopers aan die avontuurunits of verbeeldingsrijk leren plannen en ouders die educatief vermaak zoeken voor piratengeobsedeerde kinderen. Maak puzzels met piratentermen zoals schatkist, kompas, anker, papegaai, ooglap, zeeroep en kapersbrief naast bredere nautische avonturenterminologie. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer piratentermen voor oudere gebruikers.`,
       appId: 'wordsearch',
     },
     {
       title: `Piraten Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met piratenthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede piratenkoperspubliek. Maak sets waarin kinderen piratenuitrusting koppelen aan de bijbehorende piraat, zeeschatten verbinden met hun schatkisten, piratenvoertuigen matchen met hun omgeving, of piratenvocabulaire koppelen aan bijpassende afbeeldingen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die avontuurunits plannen. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met piratenthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede piratenkoperspubliek. Maak sets waarin kinderen piratenuitrusting koppelen aan de bijbehorende piraat, zeeschatten verbinden met hun schatkisten, piratenvoertuigen matchen met hun omgeving, of piratenvocabulaire koppelen aan bijpassende afbeeldingen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die avontuurunits plannen. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Piratenthema Optelwerkbladen voor Rekenverkopers',
+      title: `Piratenthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met piratenillustraties transformeren routinematige rekenoefeningen in spannende schattenjachtavonturen die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen gouden munten in schatkisten optellen, piratenschipthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met zwaarden, kompassen en schatkaarten. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met piratenvisuele context.`,
       appId: 'addition',
     },
     {
-      title: 'Piraten Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Piraten Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een uitstekend instapproduct voor piraten printable-winkels omdat het avontuurthema kinderen van alle leeftijden aanspreekt en vroege beoordelingen genereert die je winkelzichtbaarheid het hele jaar door verhogen. De Kleuren-generator maakt gedetailleerde contouren van piratenschepen, schatkisten, schatkaarten, papegaaien op schouders, piratenkapiteins, tropische eilanden, kompassen en onderzeeërs. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals piratenschepen of schattenjacht. Voor KDP compileer je dertig tot vijftig kleurplaten in piraten-activiteitenboeken als cadeaus voor jonge avonturiers.`,
       appId: 'coloring',
     },
@@ -92,13 +92,13 @@ Het piratenverjaardagsfeestjesegment vertegenwoordigt een bijzonder waardevol ko
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Piraten Printables Verkopen op Etsy',
+      title: `Piraten Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in piraten printable-vermeldingen, en het altijdgroene karakter van het piratenthema betekent dat je vermeldingen het hele jaar door verkopen genereren met extra pieken rond het verjaardagsfeestseizoen. Richt je op long-tail zoekwoorden zoals "piraten telwerkblad kleuters" of "schattenjacht activiteiten peuters" in plaats van brede tags als "piraten werkbladen." Gebruik alle dertien tags met variaties die piratensubthema's, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte piratenwerkbladen tonen naast piratenspeelgoed of in een avontuurthema setting presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten dubbel als educatief materiaal én als feestactiviteiten voor piratenverjaardagsfeestjes. De Nederlandse markt via Etsy.nl biedt kansen door de enorme populariteit van piratenfeestjes in Nederland.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Piraten Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor piratenprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast piratenboeken, verkleedkleding en avonturenspeelgoed. Compileer individuele piratenwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond piratenthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "piraten activiteitenboek voor kinderen," "schattenjacht werkbladen kleuters" en subthematermen toe als "piratenschip kleurboek" of "schat zoeken activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Piratenboeken verkopen het hele jaar door consistent met extra pieken rond het verjaardagsseizoen. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Piraten Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor piratenprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast piratenboeken, verkleedkleding en avonturenspeelgoed. Compileer individuele piratenwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond piratenthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "piraten activiteitenboek voor kinderen," "schattenjacht werkbladen kleuters" en subthematermen toe als "piratenschip kleurboek" of "schat zoeken activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Piratenboeken verkopen het hele jaar door consistent met extra pieken rond het verjaardagsseizoen. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -130,7 +130,7 @@ Het piratenverjaardagsfeestjesegment vertegenwoordigt een bijzonder waardevol ko
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de piratenniche omdat het altijdgroene karakter van het thema betekent dat je vermeldingen het hele jaar door verkopen genereren op elk platform. Etsy trekt ouders aan die piratenactiviteiten en feestmateriaal zoeken, Gumroad bereikt klasverkopers die avontuurunits en verbeeldingsrijk leren plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke piratenactiviteitenboeken als cadeaus. Gumroad en Shopify helpen je een eigen piratenavontuur-publiek op te bouwen. Cross-listing vermenigvuldigt je jaarronde zichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke piratensubthema\'s verkopen het beste?',
+      question: `Welke piratensubthema's verkopen het beste?`,
       answer: `De bestverkopende piratensubthema's zijn schattenjachten, piratenschepen, schatkaarten en piratenuitrusting. Schattenjacht-activiteiten zijn het populairste subthema omdat ze direct bruikbaar zijn als zowel educatieve werkbladen als feestactiviteiten — ouders die piratenfeestjes plannen en verkopers die avonturenunits geven zoeken beide actief naar schattenjachtmateriaal. Piratenschepen bieden sterke visuele aantrekkingskracht en verbinden met maritieme aardrijkskunde. Schatkaarten combineren het piratenthema met kaartleesvaardigheden die aansluiten bij aardrijkskundedoelen. In Nederland biedt de VOC-geschiedenis en de maritieme tradities extra culturele aanknopingspunten voor piratenthema educatief materiaal.`,
     },
     {
@@ -147,62 +147,62 @@ Het piratenverjaardagsfeestjesegment vertegenwoordigt een bijzonder waardevol ko
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
-      slug: 'create-treasure-hunt-worksheets',
-      anchorText: 'Professionele schattenjacht werkbladen maken',
+      slug: `create-treasure-hunt-worksheets`,
+      anchorText: `Professionele schattenjacht werkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Zeedieren printable businessideeën',
+      anchorText: `Zeedieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'fairy-tale-printable-ideas',
-      anchorText: 'Sprookjes printable businessideeën',
+      anchorText: `Sprookjes printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'underwater-printable-ideas',
-      anchorText: 'Onderwaterwereld printable businessideeën',
+      anchorText: `Onderwaterwereld printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Maanvis — educatieve thema-afbeelding piraten', caption: 'Maanvis' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownvis — educatieve thema-afbeelding piraten', caption: 'Clownvis' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koraal — educatieve thema-afbeelding piraten', caption: 'Koraal' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krab — educatieve thema-afbeelding piraten', caption: 'Krab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding piraten', caption: 'Dolfijn' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Vis — educatieve thema-afbeelding piraten', caption: 'Vis' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Maanvis — educatieve thema-afbeelding piraten`, caption: 'Maanvis' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownvis — educatieve thema-afbeelding piraten`, caption: 'Clownvis' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koraal — educatieve thema-afbeelding piraten`, caption: 'Koraal' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krab — educatieve thema-afbeelding piraten`, caption: 'Krab' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding piraten`, caption: 'Dolfijn' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Vis — educatieve thema-afbeelding piraten`, caption: 'Vis' },
   ],
 
   youtubeId: '0cOPi7eajLs',

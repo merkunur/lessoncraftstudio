@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'undersöka lönsamma utskriftsbara nischer',
+    primaryKeyword: `undersöka lönsamma utskriftsbara nischer`,
     secondaryKeywords: [
-      'nischforskningsmetoder utskriftsbara produkter',
-      'hitta lönsamma arbetsblad-nischer',
-      'marknadsundersökning utskriftsbara produkter',
-      'efterfrågeanalys nischer utskriftsbara',
+      `nischforskningsmetoder utskriftsbara produkter`,
+      `hitta lönsamma arbetsblad-nischer`,
+      `marknadsundersökning utskriftsbara produkter`,
+      `efterfrågeanalys nischer utskriftsbara`,
     ],
     lsiKeywords: [
       `marknadsplatsdata nyckelordsforskning sökvolym konkurrensnivå efterfrågesignaler`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Hur du undersöker lönsamma utskriftsbara nischer',
+    title: `Hur du undersöker lönsamma utskriftsbara nischer`,
     tagline: `En komplett forskningsmetodikguide — inklusive marknadsplats-sökanalys, kvantifiering av nyckelordsefterfrågan, konkurrentproduktforskning, identifiera underservade marknadsgap, utvärdera nischlönsamhet, testa efterfrågan med minimalt livskraftiga produkter, spåra säsongs- och trendmönster och bygga ett pågående nischupptäcktssystem`,
     description: `Skillnaden mellan säljare som konsekvent hittar lönsamma nischer och de som gissar fel är inte tur eller intuition — det är metodik. Framgångsrika säljare använder specifika forskningstekniker för att identifiera nischer där köparefterfrågan är stark, konkurrensen hanterbar och prissättningen stöder sunda marginaler. Denna guide lär dig de faktiska forskningsprocesserna, datakällorna och analytiska ramverken för att upptäcka lönsamma utskriftsbara nischer systematiskt snarare än att förlita dig på magkänsla eller kopiera vad andra redan säljer.`,
   },
@@ -31,19 +31,19 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Börja med marknadsplats-sökdata',
+      heading: `Börja med marknadsplats-sökdata`,
       content: `Den mest direkta källan till nischforskningsdata är marknadsplatsen där du planerar att sälja. Marknadsplatssökning reflekterar vad verkliga köpare aktivt letar efter, vilket gör den till den mest pålitliga startpunkten för att identifiera nischer med genuin efterfrågan.\n\nBörja med autokompletteringsforskning på dina målmarknadsplatser. Öppna Etsy, Amazon eller Gumroad och börja skriva breda termer relaterade till utskriftsbara arbetsblad. När du skriver "mattearbetsblad" i Etsys sökfält avslöjar autokompletteringsförslagen vad köpare ofta söker efter: "mattearbetsblad första klass," "mattearbetsblad dagis," "mattearbetsblad multiplikation" och så vidare. Varje autokompletteringsförslag representerar en sökfras som används av tillräckligt många köpare att marknadsplatsen anser den värd att föreslå. Dokumentera varje relevant autokompletteringsförslag över flera breda starttermer — "arbetsblad," "utskriftsbara aktiviteter," "pedagogiska utskriftsbara," "övningsblad," "övningssidor" — för att bygga en heltäckande lista med köparvaliderade sökfraser.\n\nAnalysera sökresultaten för varje lovande fras. När du söker efter "första klass additionsarbetsblad" på Etsy, granska de första två sidorna med resultat noggrant. Räkna hur många listningar som visas. Notera hur många recensioner de bäst säljande listningarna har ackumulerat. Kontrollera prisintervallet över första sidan med resultat. Titta på publiceringsdatum för listningar för att förstå om detta är en nisch dominerad av etablerade säljare eller en där nyare listningar kan konkurrera. En nisch där de 10 bästa resultaten alla har över 1 000 recensioner presenterar en annorlunda konkurrensutsatt utmaning än en där de bästa resultaten har 50 till 200 recensioner.\n\nUppmärksamma vad som saknas i sökresultaten lika mycket som vad som visas. Om du söker efter "spanska mattearbetsblad för dagis" och hittar bara en handfull relevanta resultat bland många irrelevanta har du identifierat ett potentiellt gap. Köpare söker efter denna specifika produkt, men marknadsplatsen har inte tillräckligt med relevanta alternativ för att fylla en hel resultatsida. Dessa gap representerar omedelbara möjligheter eftersom efterfrågesignalen finns (sökfrasen autokompletteras) men utbudet är otillräckligt.\n\nJämför sökdjup över olika nischvariationer. "Additionsarbetsblad" kan visa 10 000 resultat medan "klockan-läsarbetsblad" visar 800 resultat. Båda kan ha stark köparefterfrågan, men konkurrenslandskapet skiljer sig dramatiskt. Nischer med färre konkurrerande listningar ger nya säljare bättre chans att visas i sökresultat och få initial dragkraft. Den ideala nischen kombinerar bevisbar sökefterfrågan med ett hanterbart antal konkurrenter.`,
     },
     {
-      heading: 'Analysera nyckelordsefterfrågan och sökvolym',
+      heading: `Analysera nyckelordsefterfrågan och sökvolym`,
       content: `Marknadsplatsens autokomplettering berättar vad folk söker efter, men den berättar inte hur många som söker efter varje fras. Att kvantifiera sökefterfrågan hjälper dig att prioritera nischer baserat på den faktiska storleken på köparpubliken snarare än subjektiva intryck.\n\nAnvänd Google Trends för att jämföra relativt sökintresse över nischkandidater. Ange två eller tre nischnyckelord simultant — som "additionsarbetsblad," "stavningsord arbetsblad" och "skrivövningsblad" — för att se hur deras sökvolymer jämförs över tid. Google Trends visar inte absoluta söktal, men den relativa jämförelsen avslöjar vilka nischer som attraherar mer konsekvent sökuppmärksamhet. Ett nyckelord som visar stadigt intresse under fem år indikerar vintergrön efterfrågan, medan ett som visar skarpa toppar och fall indikerar säsongsbetonad eller trenddriven efterfrågan. Båda mönstren kan vara lönsamma, men de kräver olika produktstrategier.\n\nUndersök söktrender efter säsongsmönster som informerar produkttajming. Många pedagogiska utskriftsbara nischer visar förutsägbara säsongscykler: stark efterfrågan i augusti till september (tillbaka till skolan), en sekundär topp i januari (ny termin), och en sommardipp med en återhämtning i maj till juni (årsslut-repetition och sommarinlärning). Att förstå dessa mönster hjälper dig att tajma produktlanseringar för att anpassa sig till efterfrågetoppar och sätta realistiska intäktsförväntningar under lugnare perioder.\n\nLeta efter långsvansnyckelordsmöjligheter som avslöjar specifika, underservade nischer. Det breda nyckelordet "mattearbetsblad" möter enorm konkurrens. Men längre, mer specifika variationer som "tvåsiffrig addition med omgruppering arbetsblad" eller "hoppa räkna med 5 arbetsblad för första klass" riktar sig mot smalare målgrupper med mer specifika behov. Dessa långsvansnischer har ofta mindre konkurrens eftersom de flesta säljare riktar sig mot breda nyckelord, men köparna som söker efter specifika långsvanserfraser har hög köpavsikt eftersom de vet exakt vad de behöver. En portfölj av produkter som riktar sig mot 20 till 30 specifika långsvansnischer överträffar ofta en enda produkt som riktar sig mot ett brett nyckelord.\n\nSpåra nyckelordstrender under flera månader snarare än att fatta beslut baserat på en enda datapunkt. Ett nyckelord kan visa hög sökvolym under en månad på grund av en tillfällig faktor (ett viralt inlägg på sociala medier, ett meddelande om produktkatalogsförändring) som inte representerar ihållande efterfrågan. Att övervaka trender under tre till sex månader ger dig förtroende för att efterfrågan du ser är genuin och hållbar snarare än en momentan topp.`,
     },
     {
-      heading: 'Studera konkurrentprodukter och prissättning',
+      heading: `Studera konkurrentprodukter och prissättning`,
       content: `Konkurrensanalys avslöjar vad köpare i en nisch faktiskt köper, vad de värderar mest och var befintliga produkter brister. Denna information är mer handlingsbar än någon mängd abstrakt marknadsundersökning eftersom den visar dig verkligt köparbeteende och verklig produktprestanda.\n\nIdentifiera de 10 till 15 bästa säljarna i varje nisch du undersöker. På Etsy, sortera sökresultat efter "Bästa kundrecensioner" eller "Bästsäljande" för att hitta de etablerade ledarna. På Amazon KDP, titta på bästsäljarlistorna inom relevanta underkategorier. På Gumroad, sortera efter "Högst betygsatta" eller "Mest populära." Dokumentera varje toppsäljares produktutbud, prissättning, recensionsantal och hur länge de har varit aktiva. Denna konkurrenslandskapsöversikt visar dig vem du skulle konkurrera mot och hur de har byggt sin position.\n\nAnalysera vad som gör toppresterande produkter framgångsrika genom att läsa deras recensioner noggrant. Köparrecensioner avslöjar exakt vad kunder värderar: "Jag älskar att facit är inkluderade," "Svårighetsprogressionen är perfekt för min förskoleklassare," "Tydlig formatering som skrivs ut bra," "Bra variation av uppgifter på varje sida." Dessa positiva recensionsteman berättar vilka funktioner och kvaliteter dina produkter måste inkludera för att konkurrera effektivt. Lika värdefullt är negativa recensioner på konkurrerande produkter: "För få sidor för priset," "Inget facit inkluderat," "För lätt för den angivna årskursen," "Dålig utskriftskvalitet." Dessa klagomål identifierar specifika sätt du kan differentiera dina produkter.\n\nKartlägg prislandskapet för att förstå vad köpare är villiga att betala. Dokumentera prispunkterna för de 20 bästa sökresultaten för varje nischnyckelord. Beräkna medianpriset, identifiera prisgolvet (under vilket produkter verkar lågkvalitativa) och pristaket (över vilket produkter kämpar med att konvertera). En nisch där toppprodukter säljs för $6 till $12 med starka recensionsvolymer indikerar att köpare värderar kvalitet och är villiga att betala.\n\nLeta efter konkurrensgap i produktkvalitet, format eller funktioner. Om varje konkurrerande mattearbetsblad använder enkla svartvita layouter utan visuellt engagemang finns det en möjlighet för produkter som inkluderar tematiska bilder och mer tilltalande designer. Om konkurrenter erbjuder 10-sidorspaket kan en 30-sidorssamling till en något högre prispunkt representera bättre upplevt värde. Om ingen konkurrent i en nisch inkluderar facit är att lägga till dem en enkel differentierare.`,
     },
     {
-      heading: 'Identifiera underservade marknadsgap',
+      heading: `Identifiera underservade marknadsgap`,
       content: `Marknadsgap är nischer där köparefterfrågan tydligt existerar men tillgängliga produkter antingen är otillräckliga i kvantitet, bristfälliga i kvalitet eller helt frånvarande. Att hitta dessa gap är det högst värdefulla resultatet av nischforskning eftersom de representerar möjligheter där nya säljare kan få dragkraft snabbt utan att konkurrera öga mot öga mot förankrade konkurrenter.\n\nSök efter nischer där köparefterfrågesignaler är starka men produktutbudet är svagt. Den tydligaste indikatorn är en marknadsplatssökning som returnerar många irrelevanta resultat tillsammans med några relevanta. När "klockan-arbetsblad för dagis" returnerar mestadels generiska mattearbetsblad eller klockaktiviteter designade för äldre användare, med bara två eller tre dagisspecifika resultat, är köpare som söker efter den exakta produkten underservade. Att skapa en produkt som exakt matchar den sökavsikten ger dig en omedelbar fördel i relevans.\n\nÖvervaka köparförfrågningar i forum, sociala mediegrupper och marknadsplatsens fråga-och-svar-sektioner. Lärar-Facebookgrupper, hemundervisnings-Redditgemenskaper och föräldraforum är rika källor till ouppfylld efterfrågan. När flera personer frågar "var kan jag hitta tvåspråkiga svensk-engelska additionsarbetsblad?" eller "känner någon en bra källa för finmotoriska klippövningsblad?" sänder de efterfrågan som marknadsplatsen inte har fyllt adekvat. Dessa förfrågningar representerar förvaliderade nischmöjligheter.\n\nLeta efter språkgap i annars mättade engelska nischer. En nisch som "additionsarbetsblad" är starkt konkurrensutsatt på engelska, med tusentals listningar från etablerade säljare. Men samma nisch på tyska, franska eller spanska kan ha dramatiskt färre listningar eftersom de flesta säljare verkar uteslutande på engelska. Det pedagogiska behovet är identiskt oavsett språk — tysktalande förskoleklassanvändare behöver additionsövning precis lika mycket som engelsktalande. Med arbetsbladgeneratorer som stöder flera språk kan du ta dig in på dessa underservade språkmarknader med professionella produkter som möter en bråkdel av konkurrensen.\n\nIdentifiera gap i produkttypskombinationer som köpare vill ha men inte enkelt kan hitta. Många köpare vill ha tematiska arbetsbladpaket som kombinerar flera aktivitetstyper — mattearbetsblad, ordsökningar, matchningsspel och målarsidor allt med samma tema — men de flesta säljare specialiserar sig på en enda produkttyp. En säljare som erbjuder ett heltäckande "Havsdjur inlärningspaket" som kombinerar fyra eller fem aktivitetstyper betjänar ett köparbehov som ingen entyps-säljare adresserar.\n\nValidera varje gap du identifierar innan du satsar på produktion. Ett gap existerar av en anledning, och den anledningen är inte alltid "ingen har tänkt på det ännu." Ibland indikerar ett gap genuint låg efterfrågan snarare än underservad efterfrågan. Verifiera genom att kontrollera sökautokomplettering (om marknadsplatsen föreslår sökfrasen existerar efterfrågan), granska Google Trends-data för ämnet och leta efter efterfrågesignaler i forum och sociala medier.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Teoretisk forskning har gränser. Vid någon punkt är det enda sättet att verkligen validera en nisch att sätta produkter framför verkliga köpare och observera vad som händer. Minimalt livskraftig produkttestning överbryggar gapet mellan forskningsanalys och verklig marknadsplatsprestanda.\n\nSkapa tre till fem produkter i din högst prioriterade nisch med arbetsbladgeneratorer. Skapandehastigheten med generatorbaserad produktion gör denna testning praktisk — du kan producera en liten testsamling på en till två timmar istället för dagar. Dessa testprodukter bör vara fullt professionella i kvalitet eftersom du testar nischlivskraft, inte produktkvalitet. Om en välgjord produkt misslyckas med att sälja i en nisch är problemet nischen. Om en dåligt gjord produkt misslyckas kan du inte skilja mellan nischproblem och produktkvalitetsproblem. Använd generatorerna för att skapa produkter du skulle vara stolt över att sälja långsiktigt. Du kan prova vilken generator som helst som en gratis provversion med vattenstämpel för att utvärdera utdatan innan du köper en kommersiell licens för marknadsplatsredo produkter.\n\nLista dina testprodukter med fullt optimerade listningar. Skriv titlar som inkluderar de primära söknyckelorden för din nisch. Skapa beskrivningar som adresserar köparbehov. Använd professionella produktbilder som korrekt representerar innehållet. Sätt priser inom det konkurrensbetonade intervall du identifierade under din prisanalys. Underoptimerade listningar producerar missvisande testresultat.\n\nTillåt 30 till 60 dagar för meningsfull testdata att ackumuleras. Marknadsplatsalgoritmer behöver tid för att indexera och ranka nya listningar. Köparupptäckt sker gradvis. Första veckan kan producera noll försäljning även i en stark nisch eftersom listningen inte har fått tillräcklig synlighet. Vid dag 30 visar en produkt i en livskraftig nisch vanligtvis någon kombination av visningar, favoriter och initiala försäljningar. Vid dag 60 har du tillräckligt med data för ett säkert beslut.\n\nDefiniera framgångsmått innan du börjar testa, inte efter. Bestäm i förväg vilken prestandanivå som motiverar att skala upp produktionen i en nisch. Till exempel: om testprodukter genererar minst 100 visningar och 2 försäljningar inom 60 dagar är nischen värd att expandera. Om de genererar visningar men inga försäljningar har nischen trafik men din produkt eller prissättning behöver justering. Om de genererar varken visningar eller försäljningar saknar nischen tillräcklig efterfrågan på den plattformen.\n\nTesta flera nischer simultant för att maximera din forskningseffektivitet. Istället för att testa en nisch i 60 dagar, sedan en annan i 60 dagar, lansera testprodukter i tre eller fyra nischer under samma period. Efter 60 dagar har du parallell data över alla testnischer och kan jämföra deras prestanda direkt. Arbetsbladgeneratorerna gör denna parallella testningsapproach praktisk eftersom skapande av testprodukter för flera nischer kräver timmar snarare än veckor.`,
     },
     {
-      heading: 'Spåra säsongs- och trendande efterfrågemönster',
+      heading: `Spåra säsongs- och trendande efterfrågemönster`,
       content: `Efterfrågan på pedagogiska utskriftsbara produkter är inte konstant genom hela året. Att förstå de säsongsbetonade rytmerna och framväxande trenderna i dina målnischer gör det möjligt att tajma produktlanseringar för maximal genomslagskraft och bygga en portfölj som genererar intäkt över alla säsonger.\n\nKartlägg den årliga efterfrågecykeln för varje nisch i din portfölj. De flesta pedagogiska utskriftsbara nischer följer en förutsägbar kalender: stark efterfrågan i augusti till september när säljare och föräldrar förbereder sig för det nya läsåret, stadig efterfrågan genom höstterminen, en dipp i slutet av november till december (högtidsdistraktion), en januari-studs (ny termin, nyårslöften för inlärning), konsekvent vårefterfrågan och ett sommarmönster som varierar efter nisch. Vissa nischer som "sommarinlärningsarbetsblad" toppar precis när andra dippar. Att känna dessa mönster för dina specifika nischer låter dig planera produktion och marknadsföring kring efterfrågetoppar.\n\nAnvänd Google Trends historisk data för att verifiera säsongsmönster med flerårig bevisning. Sök efter dina nischnyckelord och undersök femårsvyn. Konsekventa årliga mönster som upprepas över flera år är pålitliga förutsägelser för framtida efterfrågan. Om "multiplikationsarbetsblad" visar en tydlig augustitopp varje år under de senaste fem åren kan du tryggt planera en produktlansering eller listningsuppdatering för juli.\n\nÖvervaka framväxande trender som skapar nya nischmöjligheter. Utbildningstrender, produktkatalogsförändringar, föräldrarörelser och viral spridning i sociala medier kan skapa ny efterfrågan på specifika arbetsbladtyper. När en hemundervisningsrörelse blir populär ökar efterfrågan på hemundervisningsresurser över alla ämnen. Du behöver inte jaga varje trend, men medvetenhet om framväxande efterfrågesignaler låter dig utnyttja möjligheter innan de blir uppenbara för alla säljare.\n\nBygg en portfölj som balanserar vintergröna och säsongsbetonade nischer. Vintergröna nischer som grundläggande matematikoperationer och läsövning genererar konsekvent månatlig intäkt oavsett tid på året. Säsongsnischer som tillbaka-till-skolan-paket eller högtidstematiserade arbetsblad genererar koncentrerad intäkt under specifika perioder. En portfölj viktad mot vintergröna nischer (70% till 80%) med selektiva säsongstillägg (20% till 30%) ger både baslinestabilitet och intäktstoppar genom hela året.\n\nTajma produktlanseringar att föregå efterfrågetoppar med fyra till sex veckor. Marknadsplatsalgoritmer behöver tid för att indexera nya listningar, och tidiga recensioner från initiala köpare boostar din produkts synlighet precis när toppefterfrågan anländer. Om tillbaka-till-skolan-efterfrågan toppar i augusti, lansera tillbaka-till-skolan-produkter i slutet av juni eller början av juli.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `Undersök flera nischer simultant men testa och bygg dem sekventiellt. Forskningsfasen drar nytta av parallell utforskning eftersom jämförelse av nischer mot varandra producerar bättre prioriteringsbeslut. Utvärdera fem till tio potentiella nischer under varje forskningscykel, välj sedan de två eller tre bästa för minimalt livskraftig produkttestning. När testning identifierar din mest lovande nisch, fokusera din produktionskapacitet där tills du har byggt tillräckligt katalogdjup (15 till 20 produkter) innan du expanderar till nästa validerade nisch.`,
     },
     {
-      question: 'Hur ofta bör nischforskning uppdateras?',
+      question: `Hur ofta bör nischforskning uppdateras?`,
       answer: `Bibehåll en månatlig lätt forskningskontroll (en till två timmar) som övervakar dina aktiva nischer för konkurrensförändringar och efterfrågeförskjutningar, plus en kvartalsvis djupforskningssession (tre till fyra timmar) som utforskar nya nischmöjligheter och utvärderar din övergripande nischportfölj. Marknader utvecklas gradvis i de flesta pedagogiska utskriftsbara nischer, så månatlig övervakning fångar förändringar innan de påverkar din intäkt, medan kvartalsvis utforskning säkerställer att du upptäcker nya möjligheter medan de fortfarande erbjuder tidiga fördelar.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'nischval-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'skapa-utskriftsbar-produktlinje', anchorText: 'Hur du skapar en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
+    { pageType: 'guide', slug: 'nischval-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: `skapa-utskriftsbar-produktlinje`, anchorText: `Hur du skapar en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
     { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: `Hur du startar en Etsy utskriftsbar butik från grunden` },
-    { pageType: 'guide', slug: 'baesta-kdp-aktivitetsbok-nischer', anchorText: 'Bästa KDP aktivitetsboksnischer' },
-    { pageType: 'guide', slug: 'prissaettning-pedagogiskt-material', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'guide-skala-upp-printable-foeretag', anchorText: 'Hur du skalar upp ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Hur du skapar arbetsbladpaket som säljer' },
-    { pageType: 'guide', slug: 'passiv-inkomst-arbetsblad', anchorText: 'Skapa återkommande intäkt med arbetsblad' },
-    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: `baesta-kdp-aktivitetsbok-nischer`, anchorText: `Bästa KDP aktivitetsboksnischer` },
+    { pageType: 'guide', slug: `prissaettning-pedagogiskt-material`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: `guide-skala-upp-printable-foeretag`, anchorText: `Hur du skalar upp ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: `Hur du skapar arbetsbladpaket som säljer` },
+    { pageType: 'guide', slug: 'passiv-inkomst-arbetsblad', anchorText: `Skapa återkommande intäkt med arbetsblad` },
+    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Matchnings Arbetsblad Generator',
+      title: `Matchnings Arbetsblad Generator`,
       description: `Utforska nischpotential över dussintals teman med matchningsarbetsblad. Temamångsidigheten hos matchningsaktiviteter låter dig testa olika nischkoncept snabbt, från djur och mat till fordon och natur, och validera vilka teman som resonerar med köpare.`,
     },
     {
@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/matching/Matchningsspel.webp',
+      src: `/samples/swedish/matching/Matchningsspel.webp`,
       alt: `Matchningsarbetsblad som visar temamångfald för lönsam nischutforskning över pedagogiska ämnen`,
     },
     samples: [
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: `/samples/swedish/matching/Matchningsspel.webp`,
         alt: `Tematiskt matchningsarbetsblad som demonstrerar nischdiversitet över pedagogiska utskriftsbara ämnen`,
         caption: `Matchningsarbetsblad spänner dussintals teman, vilket låter dig utforska och testa flera nischer snabbt`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Örn — tematisk pedagogisk bild', caption: 'Örn' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — tematisk pedagogisk bild', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Näshornsfågel — tematisk pedagogisk bild', caption: 'Näshornsfågel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — tematisk pedagogisk bild', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Struts — tematisk pedagogisk bild', caption: 'Struts' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Örn — tematisk pedagogisk bild`, caption: 'Örn' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — tematisk pedagogisk bild`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Näshornsfågel — tematisk pedagogisk bild`, caption: 'Näshornsfågel' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Ara — tematisk pedagogisk bild`, caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Struts — tematisk pedagogisk bild`, caption: 'Struts' },
   ],
 };
 

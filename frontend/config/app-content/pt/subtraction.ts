@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de subtração',
+    primaryKeyword: `gerador de fichas de subtração`,
     secondaryKeywords: [
-      'fichas de subtração imprimíveis para Etsy',
-      'gerador de fichas de subtração para Amazon KDP',
-      'vender fichas de subtração no Gumroad',
-      'fichas de subtração licença comercial',
+      `fichas de subtração imprimíveis para Etsy`,
+      `gerador de fichas de subtração para Amazon KDP`,
+      `vender fichas de subtração no Gumroad`,
+      `fichas de subtração licença comercial`,
     ],
     lsiKeywords: [
-      'produtos digitais imprimíveis para empreendedores',
-      'negócio de fichas de matemática online',
-      'gerador de fichas de subtração uso comercial',
+      `produtos digitais imprimíveis para empreendedores`,
+      `negócio de fichas de matemática online`,
+      `gerador de fichas de subtração uso comercial`,
     ],
-    titleTag: 'Gerador de Fichas de Subtração | Criar e Vender',
+    titleTag: `Gerador de Fichas de Subtração | Criar e Vender`,
     metaDescription:
       `Crie fichas de subtração para vender na Etsy, KDP e Gumroad. 4 modos com riscar visual, 104 temas, gabaritos, exportação 400+ DPI. Teste grátis com marca d'água.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Subtração em 5 Passos',
+    title: `Como Criar Fichas de Subtração em 5 Passos`,
     steps: [
       {
         title: 'Configure o layout da página',
@@ -40,12 +40,12 @@ const content: AppContent = {
           `Abra a Configuração de Exercícios e selecione um dos quatro modos. O modo Riscar mostra um grupo completo de imagens e traça cruzes diagonais sobre os elementos subtraídos — a visualização característica que torna a subtração tangível para os mais novos. O modo Imagem − Número associa um grupo de imagens a um número para usuários em transição para a subtração abstrata. O modo Encontrar o Subtraendo mostra o grupo inicial e o resultado, desafiando os usuários a determinar quantos foram retirados. O Modo Misto combina os três para uma prática variada. Defina o minuendo máximo de 2 a 20 e escolha quantos exercícios aparecem por página. Para vendedores na Etsy ou Gumroad, criar versões separadas com intervalos numéricos diferentes — por exemplo, um pacote pré-escolar com minuendo até 5 e um pacote de primeiro ano com minuendo até 15 — permite oferecer produtos segmentados por faixa etária, aumentando o apelo junto a compradores com necessidades específicas.`,
       },
       {
-        title: 'Escolha imagens da biblioteca temática',
+        title: `Escolha imagens da biblioteca temática`,
         description:
           `Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais da quinta e alimentos até espaço e festividades. Use a barra de pesquisa para encontrar imagens específicas instantaneamente. Clique para selecionar as imagens desejadas; cada exercício seleciona aleatoriamente da sua seleção para variar as páginas. Também pode carregar as suas próprias imagens para um visual único que combine com a sua marca ou tema de loja.`,
       },
       {
-        title: 'Adicione texto, títulos e opções',
+        title: `Adicione texto, títulos e opções`,
         description:
           `Use o painel de Ferramentas de Texto para adicionar um título, campos de nome e data do usuário, instruções ou qualquer texto personalizado. Escolha entre três fontes adequadas para crianças — Lexend Deca, Baloo 2 e Nunito — e ajuste tamanho, cor e estilo para uma legibilidade ótima. Ative ou desative os números de exercício, habilite a caixa de resposta adequada a crianças e ajuste a posição dos elementos no canvas com as ferramentas de arrastar e largar.`,
       },
@@ -66,22 +66,22 @@ const content: AppContent = {
           `A funcionalidade característica que distingue este gerador. No modo Riscar, é mostrado um grupo completo de imagens e são traçadas cruzes diagonais sobre os últimos N elementos para mostrar a subtração visualmente. Isto transforma a ideia abstrata de «tirar» em algo que os usuários podem ver e compreender de imediato. Uma criança que observa oito maçãs com três riscadas compreende «8 menos 3» de forma muito mais intuitiva do que olhando apenas para números. As marcas de riscar são apresentadas claramente no canvas e aparecem tanto na ficha como no gabarito. Esta abordagem visual alinha-se com as melhores práticas pedagógicas para o ensino da subtração nos primeiros anos, onde a manipulação concreta de objetos é essencial para a compreensão do conceito. Para vendedores de imprimíveis, a visualização de riscar também funciona como um diferenciador forte nas miniaturas das listagens, destacando os seus produtos da concorrência que oferece apenas fichas de subtração baseadas em texto.`,
       },
       {
-        title: 'Quatro modos de exercício distintos',
+        title: `Quatro modos de exercício distintos`,
         description:
           `Escolha o modo que melhor se adapta ao nível dos seus usuários. O modo Riscar é ideal para iniciantes — contam o grupo completo, os elementos riscados e escrevem o número restante. O modo Imagem − Número associa um grupo de imagens a um número, fazendo a ponte entre o concreto e o abstrato. O modo Encontrar o Subtraendo mostra o grupo original e o resultado, desenvolvendo o raciocínio algébrico precoce. O Modo Misto combina os três para uma prática variada sem repetição. Mudar de modo requer um único clique.`,
       },
       {
-        title: 'Intervalos numéricos configuráveis',
+        title: `Intervalos numéricos configuráveis`,
         description:
           `Defina o minuendo máximo de 2 a 20, com controlo total sobre a dificuldade. O gerador garante que o subtraendo é sempre menor que o minuendo, produzindo respostas válidas e não negativas em todos os casos. Crie fichas simples com um máximo de 5 para a pré-escola, exercícios padrão até 10 para o jardim de infância, ou problemas mais difíceis até 20 para o primeiro e segundo ano. O ajuste faz-se com uma única alteração, permitindo-lhe diferenciar o ensino para toda uma turma em minutos.`,
       },
       {
-        title: '104 temas visuais com mais de 3100 imagens',
+        title: `104 temas visuais com mais de 3100 imagens`,
         description:
           `Explore uma biblioteca de mais de 3100 ilustrações selecionadas em 104 temas: animais da quinta, vida marinha, veículos, espaço, alimentos, desportos, dinossauros, festividades e muito mais. Cada imagem é de alta resolução e concebida para uma impressão nítida e adequada a crianças. Como as imagens transportam o conteúdo matemático — não o texto — as suas fichas de subtração funcionam perfeitamente em qualquer idioma e em qualquer loja do mundo, vendendo-se internacionalmente sem tradução.`,
       },
       {
-        title: 'Geração automática de gabarito',
+        title: `Geração automática de gabarito`,
         description:
           `Clique num botão para gerar um gabarito completo que reproduz o layout da sua ficha com todas as diferenças corretas preenchidas. No modo Riscar, o gabarito mostra as mesmas imagens riscadas mais a resposta escrita, permitindo aos vendedores verificar de relance. Exporte o gabarito como ficheiro JPEG ou PDF separado, ideal para edições do vendedor, guias para pais ou pacotes de produtos na Etsy.`,
       },
@@ -91,12 +91,12 @@ const content: AppContent = {
           `Descarregue fichas e gabaritos como imagens JPEG de alta resolução ou documentos PDF prontos para impressão. O motor de exportação renderiza a mais de 400 DPI em tamanhos padrão. O modo de escala de cinzentos integrado converte toda a sua ficha a preto e branco com uma única caixa — ideal para impressão em volume, reduzir custos de tinta ou produzir interiores de livros de atividades para a Amazon KDP.`,
       },
       {
-        title: 'Carregue as suas próprias imagens',
+        title: `Carregue as suas próprias imagens`,
         description:
           `Vá além da biblioteca integrada carregando as suas próprias imagens PNG ou JPEG diretamente na aplicação. Ideal para fichas de marca, clipart personalizado, mascotes de loja ou conteúdo sazonal que diferencia os seus produtos da concorrência. As imagens carregadas integram-se com cada modo de exercício — incluindo o modo Riscar, onde recebem a mesma visualização de cruzes diagonais — mantendo um controlo criativo total.`,
       },
       {
-        title: 'Edição completa do canvas com desfazer e refazer',
+        title: `Edição completa do canvas com desfazer e refazer`,
         description:
           `O canvas Fabric.js integrado permite-lhe arrastar, redimensionar, rodar e reposicionar cada elemento da página — texto, imagens, blocos de exercício, bordas e fundos. Amplie para uma colocação precisa e use a pilha de desfazer/refazer de 20 estados para experimentar sem risco. Bloqueie os elementos no lugar ou desbloqueie tudo para um redesign espontâneo — a flexibilidade de uma ferramenta de design gráfico dentro de um gerador de fichas.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Subtração Online',
+    title: `Como Vender Fichas de Subtração Online`,
     cases: [
       {
-        title: 'Pacotes temáticos de fichas de subtração na Etsy',
+        title: `Pacotes temáticos de fichas de subtração na Etsy`,
         description:
           `Crie conjuntos de 10 a 20 fichas de subtração agrupadas por tema — dinossauros, animais da quinta, criaturas marinhas, festividades — e ofereça-os como download instantâneo na Etsy. Inclua o gabarito e versões a cores e em escala de cinzentos como ficheiros extra para aumentar o valor percebido. A visualização de riscar é um argumento visual forte nas miniaturas, captando a atenção de pais e vendedores nos resultados de pesquisa. Defina o preço de temas individuais entre $3–$5 e de mega-pacotes combinando vários temas entre $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Livros de atividades de subtração na Amazon KDP',
+        title: `Livros de atividades de subtração na Amazon KDP`,
         description:
           `Compile de 50 a 100 fichas de subtração num livro de atividades em formato Amazon KDP. Estruture o livro com dificuldade progressiva: comece com o modo Riscar com minuendo máximo de 5, avance para o modo Imagem − Número com 10 e termine com o Modo Misto até 20. Use a exportação em escala de cinzentos para interiores adequados à impressão. Os livros de atividades de subtração na KDP para crianças dos 4 aos 8 anos vendem-se consistentemente durante todo o ano com gasto mínimo em publicidade.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemática diferenciados para Gumroad',
+        title: `Centros de matemática diferenciados para Gumroad`,
         description:
           `Crie conjuntos de subtração por níveis: Nível 1 (Riscar, minuendo máximo 5), Nível 2 (Imagem − Número, minuendo máximo 10), Nível 3 (Encontrar o Subtraendo, minuendo máximo 15) e Nível 4 (Misto, minuendo máximo 20). Cada nível com gabaritos e folha de acompanhamento do progresso. Os compradores do Gumroad pagam preços premium por recursos diferenciados utilizáveis imediatamente em múltiplos grupos de nível, e a visualização de riscar faz com que a sua listagem se destaque entre concorrentes só de texto.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Conteúdo de subscrição para a sua própria loja',
+        title: `Conteúdo de subscrição para a sua própria loja`,
         description:
           `Use o gerador para produzir pacotes semanais de fichas de subtração e distribua-os através do Shopify, Gumroad ou Payhip. Um modelo de subscrição — novo pacote temático a cada semana — gera receitas recorrentes e fideliza uma base de clientes de famílias que educam em casa e centros de explicações. Com quatro modos, 104 temas e dificuldade ajustável de 2 a 20, tem combinações suficientes para anos de conteúdo único sem se repetir.`,
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Fichas de prática para loja e explicações',
+        title: `Fichas de prática para loja e explicações`,
         description:
           `Gere fichas de subtração personalizadas adaptadas ao nível de cada usuário. Imprima fichas no modo Riscar para iniciantes que precisam do apoio visual, e fichas de Encontrar o Subtraendo para usuários avançados prontos para o pensamento algébrico — tudo na mesma sessão. O gabarito automático poupa valor percebido, e o modo de escala de cinzentos reduz os custos de impressão para uso intensivo online. Quer dirija um centro de explicações, ensine no jardim de infância ou eduque em casa, o gerador substitui horas de criação manual por alguns cliques.`,
-        platform: 'loja / Explicações / Ensino doméstico',
+        platform: `loja / Explicações / Ensino doméstico`,
       },
     ],
   },
@@ -146,7 +146,7 @@ const content: AppContent = {
         `O gerador inclui quatro modos: Riscar (um grupo completo de imagens com cruzes diagonais sobre os elementos subtraídos), Imagem − Número (um grupo de imagens menos um número), Encontrar o Subtraendo (o início e o resultado são mostrados e os usuários determinam o que foi retirado) e Modo Misto (mistura os três). Cada modo dirige-se a um nível diferente, desde a contagem visual pura até ao raciocínio algébrico precoce.`,
     },
     {
-      question: 'Como funciona a visualização de riscar?',
+      question: `Como funciona a visualização de riscar?`,
       answer:
         `No modo Riscar, a ficha apresenta o grupo de início completo — por exemplo, oito borboletas. Em seguida, são traçadas cruzes diagonais sobre as últimas N imagens para representar a quantidade subtraída. Os usuários contam as imagens sem marca para encontrar a resposta. Isto torna o conceito abstrato de «tirar» visível e concreto, sendo especialmente eficaz para crianças da pré-escola e do jardim de infância que estão a começar a aprender a subtração.`,
     },
@@ -156,17 +156,17 @@ const content: AppContent = {
         `Pode definir o minuendo máximo de 2 a 20. O gerador assegura automaticamente que o subtraendo é sempre menor que o minuendo, garantindo respostas válidas e não negativas. Isto permite-lhe criar problemas fáceis como 3 menos 1 para iniciantes ou problemas mais difíceis como 18 menos 12 para usuários avançados.`,
     },
     {
-      question: 'Quantas imagens e temas estão disponíveis?',
+      question: `Quantas imagens e temas estão disponíveis?`,
       answer:
         `A biblioteca de imagens integrada contém mais de 3100 ilustrações organizadas em 104 temas, incluindo animais, veículos, alimentos, festividades, desportos, espaço, natureza e muito mais. Também pode carregar as suas próprias imagens para gráficos personalizados ou sazonais.`,
     },
     {
-      question: 'O gerador cria gabaritos automaticamente?',
+      question: `O gerador cria gabaritos automaticamente?`,
       answer:
         `Sim. Clique no botão Gerar Gabarito para criar uma versão preenchida da sua ficha com todas as diferenças corretas. No modo Riscar, o gabarito conserva as imagens riscadas e adiciona a resposta escrita, facilitando a verificação para vendedores e pais. Descarregue-o como ficheiro JPEG ou PDF separado juntamente com a ficha do usuário.`,
     },
     {
-      question: 'As fichas de subtração dependem do idioma?',
+      question: `As fichas de subtração dependem do idioma?`,
       answer:
         `Não. As fichas de subtração são puramente visuais — o conteúdo matemático usa imagens, cruzes e números, não palavras. Uma ficha criada num idioma funciona em todos os idiomas. A configuração de idioma apenas altera as etiquetas da interface da aplicação, não o conteúdo da ficha, tornando os seus produtos instantaneamente vendáveis em todo o mundo sem tradução.`,
     },
@@ -178,10 +178,10 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades do gerador — os quatro modos de exercício, a biblioteca completa de imagens, a geração de gabaritos, a exportação em escala de cinzentos e todos os tamanhos de página — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades do gerador — os quatro modos de exercício, a biblioteca completa de imagens, a geração de gabaritos, a exportação em escala de cinzentos e todos os tamanhos de página — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
-      question: 'O que inclui a licença comercial?',
+      question: `O que inclui a licença comercial?`,
       answer:
         `A licença comercial remove a marca d'água de todos os downloads e concede-lhe direitos ilimitados para vender as fichas que criar — na Etsy, Amazon KDP, Gumroad, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de fichas que produzir ou vender.`,
     },
@@ -191,12 +191,12 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de subtração como downloads digitais na Etsy, como livros de atividades impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Muitos vendedores criam pacotes temáticos e livros de atividades que geram receitas consistentes.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modo, cada tema, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.`,
     },
     {
-      question: 'Preciso de instalar algum software?',
+      question: `Preciso de instalar algum software?`,
       answer:
         `Não. O Gerador de Fichas de Subtração funciona inteiramente no seu navegador web. Não há nada para descarregar, instalar ou atualizar. Funciona em qualquer navegador de desktop moderno, incluindo Chrome, Firefox, Safari e Edge. Basta abrir a página e começar a criar. Toda a geração acontece localmente no seu dispositivo, garantindo que os seus designs permanecem privados.`,
     },
@@ -211,12 +211,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'adicao-codigo-fichas',
-      anchorText: 'Gerador de Fichas de Adição Codificada',
+      anchorText: `Gerador de Fichas de Adição Codificada`,
     },
     {
       pageType: 'app',
-      slug: 'quebra-cabeca-matematica-fichas',
-      anchorText: 'Gerador de Quebra-Cabeças Matemáticos',
+      slug: `quebra-cabeca-matematica-fichas`,
+      anchorText: `Gerador de Quebra-Cabeças Matemáticos`,
     },
     {
       pageType: 'bundle',
@@ -226,22 +226,22 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'criar-fichas-subtracao',
-      anchorText: 'Como Criar Fichas de Subtração que Vendem',
+      anchorText: `Como Criar Fichas de Subtração que Vendem`,
     },
     {
       pageType: 'guide',
       slug: 'vender-fichas-matematica-etsy',
-      anchorText: 'Guia para Vender Fichas de Matemática na Etsy',
+      anchorText: `Guia para Vender Fichas de Matemática na Etsy`,
     },
     {
       pageType: 'idea',
-      slug: 'bases-matematica-ideias-imprimiveis',
+      slug: `bases-matematica-ideias-imprimiveis`,
       anchorText: `Ideias de imprimíveis de matemática para vendedores e vendedores`,
     },
     {
       pageType: 'idea',
-      slug: 'regresso-aulas-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de regresso às aulas',
+      slug: `regresso-aulas-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de regresso às aulas`,
     },
     {
       pageType: 'start',

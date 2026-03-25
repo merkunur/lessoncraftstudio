@@ -4,8 +4,8 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'Kryptogramm-Rätsel erstellen',
     secondaryKeywords: [
-      'Kryptogramm-Rätsel zum Verkaufen erstellen',
-      'Bildchiffre-Rätsel-Generator kommerzielle Nutzung',
+      `Kryptogramm-Rätsel zum Verkaufen erstellen`,
+      `Bildchiffre-Rätsel-Generator kommerzielle Nutzung`,
       `druckbare Kryptogramm-Arbeitsblätter für Etsy und KDP`,
       `Bild-zu-Buchstaben-Chiffre-Rätsel mit Lösungsschlüssel`,
     ],
@@ -13,11 +13,11 @@ const content: GuideContent = {
       `Bildchiffre-Mechanik Bild-zu-Buchstaben-Zuordnung Phrasencodierung Rätsel-Ersteller`,
       `Aufzudeckende Buchstaben Regler null bis zehn Schwierigkeitsabstufung Generator`,
       `Automatische Zuweisung Manuelle Zuweisung Bildchiffre Buchstabenlegende Lösungsschlüssel Ersteller`,
-      'Kryptogramm-Rätsel auf Etsy verkaufen',
-      'Amazon KDP Bildchiffre-Rätselbücher',
-      'kommerzielle Lizenz Kryptogramm-Arbeitsblatt-Tool',
+      `Kryptogramm-Rätsel auf Etsy verkaufen`,
+      `Amazon KDP Bildchiffre-Rätselbücher`,
+      `kommerzielle Lizenz Kryptogramm-Arbeitsblatt-Tool`,
     ],
-    titleTag: 'Kryptogramm-Rätsel erstellen — Anleitung',
+    titleTag: `Kryptogramm-Rätsel erstellen — Anleitung`,
     metaDescription: `Kryptogramm-Rätsel mit Bildchiffre erstellen. Schwierigkeit über aufzudeckende Buchstaben steuern. 11 Sprachen, Lösungsschlüssel. Anleitung für Etsy und KDP.`,
   },
 
@@ -31,15 +31,15 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Den Kryptogramm-Ersteller öffnen',
+      heading: `Den Kryptogramm-Ersteller öffnen`,
       content: `Navigieren Sie zur Kryptogramm-Ersteller-Seite und klicken Sie auf die Startschaltfläche, um den Generator in Ihrem Browser zu öffnen. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bildchiffre-Rätseln.\n\nDie Arbeitsfläche zeigt die Kryptogramm-Arbeitsblatt-Vorschau, die sich bei Änderung der Einstellungen aktualisiert. Die Einstellungsleiste enthält alle Steuerungen: Geheimphrasen-Eingabe, Sprachauswahl, Bildzuweisungs-Panels (Automatische und Manuelle Zuweisung), Themen-Browser, Regler für Aufzudeckende Buchstaben, Schrift- und Texteinstellungen, Seitenlayout-Optionen und Export-Steuerungen. Nehmen Sie sich einen Moment, um die Seitenleiste zu erkunden und sich mit den verfügbaren Optionen vertraut zu machen, bevor Sie Ihr erstes Chiffre-Rätsel starten.\n\nDer Kryptogramm-Ersteller verwendet eine Fabric.js-Arbeitsfläche mit professionellen Layout-Werkzeugen einschließlich Ausrichtungsoptionen plus Auf-Seite-Zentrieren, Ebenen mit Sperren und Entsperren für einzelne Elemente, Zoom von 25 bis 300 Prozent und unbegrenztem Rückgängig/Wiederherstellen. Diese Werkzeuge geben Ihnen präzise Kontrolle über das endgültige Rätsel-Layout ohne externe Designsoftware.`,
     },
     {
-      heading: 'Seitenlayout und Vorlage festlegen',
+      heading: `Seitenlayout und Vorlage festlegen`,
       content: `Im Abschnitt Seiteneinrichtung wählen Sie Ihre Seitengröße. Optionen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Abmessungen. Letter ist Standard für nordamerikanische Käufer auf Etsy und Gumroad. A4 ist Standard für europäische und internationale Märkte. Die Erstellung beider Versionen verdoppelt Ihren adressierbaren Markt mit minimalem Zusatzaufwand.\n\nLegen Sie Ihre Seitenhintergrundfarbe für die Basis-Arbeitsfläche fest. Fügen Sie dann ein thematisches Hintergrundmuster aus der 104-Themen-Bildbibliothek mit einem einstellbaren Deckkraftregler hinzu. Ein dezenter Hintergrund bei 15 bis 25 Prozent Deckkraft verleiht visuelle Wärme, ohne mit den Chiffre-Bildern zu konkurrieren. Legen Sie einen dekorativen Rahmen aus der Rahmenbibliothek mit unabhängiger Deckkraftsteuerung darüber. Hintergrund- und Rahmenthemen funktionieren unabhängig, sodass Sie Kombinationen frei mischen und anpassen können. Konsistente Hintergrund-Rahmen-Paarungen über ein Produktpaket hinweg erzeugen einen zusammenhängenden Markenauftritt, den Käufer mit Qualität verbinden.`,
     },
     {
-      heading: 'Geheimphrase eingeben und Sprache wählen',
+      heading: `Geheimphrase eingeben und Sprache wählen`,
       content: `Geben Sie die Phrase oder den Satz ein, den Nutzer entschlüsseln sollen, in das Geheimphrasen-Eingabefeld. Dies ist die Botschaft, die als Bildchiffre codiert wird — jeder Buchstabe Ihrer Phrase wird einem Bild zugeordnet, das Nutzer zurück in Text entschlüsseln müssen. Leerzeichen und Satzzeichen bleiben erhalten, sodass Wortgrenzen auf dem fertigen Arbeitsblatt sichtbar bleiben.\n\nWählen Sie die Zielsprache aus 11 unterstützten Sprachen. Der verfügbare Zeichensatz passt sich automatisch an die Sprache an: Englisch verwendet 26 Buchstaben, Deutsch fügt ä, ö, ü, ß für ein 30-Zeichen-Alphabet hinzu, und Französisch fügt Akzentzeichen wie é, è, ç, à hinzu. Dieses sprachspezifische Alphabet bedeutet, dass sich die Chiffre selbst pro Sprache ändert — ein deutsches Kryptogramm hat mehr Buchstaben-Bild-Zuordnungen zu entschlüsseln als ein englisches, was ein grundlegend anderes Rätselerlebnis erzeugt.\n\nFür die Produkterstellung betrachten Sie die Phrasenlänge als zusätzlichen Schwierigkeitshebel. Kurze Zwei-Wort-Phrasen maximieren die Schwierigkeit, weil Nutzer weniger Kontexthinweise haben. Längere Sätze mit häufigen Wörtern wie „der", „und" und „ist" bieten natürliche Startpunkte zum Knacken der Chiffre. Kombinieren Sie Phrasenlänge mit Aufzudeckende-Buchstaben-Einstellungen für präzise Schwierigkeitskalibrierung über Ihre Produktlinie.`,
     },
     {
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Der Kryptogramm-Ersteller bietet zwei Bildzuweisungsmodi für verschiedene Produktionsabläufe.\n\nAutomatische Zuweisung ordnet sofort zufällige Bilder aus dem gewählten Thema allen nicht zugewiesenen Buchstaben des Alphabets mit einem Klick zu. Dies ist der schnellste Weg zur Stapelproduktion: Thema wählen, Phrase eingeben, Automatische Zuweisung klicken, und die gesamte Chiffre wird sofort befüllt. Jeder Buchstabe des Alphabets erhält ein einzigartiges Bild aus der Themensammlung. Automatische Zuweisung ist ideal für schnelle Inhaltserstellung, wenn Sie mehrere Chiffre-Rätsel zügig produzieren müssen.\n\nManuelle Zuweisung ermöglicht Ihnen die gezielte Auswahl, welches spezifische Bild welchen spezifischen Buchstaben darstellt. Eine visuelle Übersicht zeigt alle aktuellen Buchstaben-Bild-Zuordnungen, sodass Sie die gesamte Chiffre auf einen Blick sehen können. Klicken Sie auf einen beliebigen Buchstaben, um verfügbare Bilder zu durchsuchen und das gewünschte auszuwählen. Manuelle Zuweisung ist ideal für Premium-Produkte, bei denen spezifische Paarungen das Thema verstärken — ein Apfelbild dem A zuweisen, einen Bären dem B, eine Katze dem K erzeugt eine mnemonische Chiffre, die praktischen Wert über reines Code-Knacken hinaus bietet.\n\nSie können beide Ansätze für effiziente Präzision kombinieren. Weisen Sie die Masse des Alphabets automatisch für Geschwindigkeit zu, dann tauschen Sie einzelne Buchstaben manuell dort aus, wo eine thematische Paarung Mehrwert bietet. Laden Sie eigene PNG- oder JPEG-Bilder hoch und weisen Sie sie einem beliebigen Buchstaben zu für vollständige kreative Kontrolle über die Chiffre-Visualisierung.`,
     },
     {
-      heading: 'Thema und Farb- oder Schwarz-Weiß-Filter wählen',
+      heading: `Thema und Farb- oder Schwarz-Weiß-Filter wählen`,
       content: `Durchsuchen Sie 104 thematische Bildsammlungen mit über 3.100 Illustrationen. Kategorien umfassen Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe, Sport, Jahreszeiten und Dutzende mehr. Nutzen Sie die Suchleiste, um spezifische Themen schnell zu finden. Jedes Thema bietet einen konsistenten visuellen Stil über alle Bilder, wodurch zusammenhängende Chiffre-Rätsel entstehen, bei denen jedes Bild zur selben visuellen Familie gehört.\n\nDer Farb-/Schwarz-Weiß-Filter ist eine leistungsstarke Doppelprodukt-Funktion. Wechseln Sie zwischen farbigen Illustrationen für lebendige digitale Downloads und auffällige Marktplatz-Angebote sowie Schwarz-Weiß-Strichzeichnungen für tintenfreundlichen Bildungsmarkt-Druck und Amazon KDP-Rätselbuch-Innenseiten. Farbausgaben ziehen Klicks auf Etsy mit lebhaften Vorschaubildern an. Schwarz-Weiß-Ausgaben reduzieren Druckkosten für Käufer und erfüllen KDP-Interioranforderungen für niedrigere Tantiemenstufen.\n\nErstellen Sie beide Varianten aus jeder Designsitzung: Generieren und laden Sie die Farbversion herunter, schalten Sie auf Schwarz-Weiß um und laden Sie erneut herunter. Zwei vollständige Produktvarianten — Farb-Digitalausgabe und Schwarz-Weiß-Druckausgabe — aus einer Designsitzung ohne zusätzliche Inhaltsarbeit. Listen Sie sie als separate Produkte oder bündeln Sie sie als „Digital + Druck"-Paket für Premium-Preisgestaltung.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Der Regler für Aufzudeckende Buchstaben (0–10) ist die primäre Schwierigkeitskontrolle und die wichtigste Einstellung für die Erstellung abgestufter Produkte.\n\nBei null Aufdeckungen stehen Nutzer vor einer reinen Code-Knack-Herausforderung. Keine Buchstaben-Bild-Zuordnungen sind vorgelöst — Nutzer müssen jede einzelne Zuordnung von Grund auf durch Mustererkennung und Kontexthinweise aus der Phrase ableiten. Diese Einstellung erzeugt Experten-Rätsel für fortgeschrittene Nutzer, Rätselenthusiasten und anspruchsvolle Produktlinien.\n\nBei fünf Aufdeckungen ist etwa die Hälfte der Chiffre vorab entschlüsselt. Nutzer haben genug entschlüsselte Buchstaben, um Schwung aufzubauen und Wörter zu erkennen, müssen aber die verbleibenden Zuordnungen eigenständig erarbeiten. Diese ausgewogene Einstellung funktioniert gut für Mittelstufen-Lernende und allgemeine Zielgruppenprodukte.\n\nBei zehn Aufdeckungen sind viele Zuordnungen als Hinweise vorgelöst. Das Rätsel wird zu einer unterstützten Übung, bei der Nutzer die verbleibenden Lücken mithilfe der aufgedeckten Buchstabenmuster füllen. Diese Einstellung ist ideal für jüngere Lernende, sonderpraktische Kontexte und Einführungsprodukte, die das Chiffre-Format vermitteln sollen, bevor die Schwierigkeit gesteigert wird.\n\nNutzen Sie diesen Regler als primäre Abstufungsachse für abgestufte Produktpakete. Ein „Anfängerpaket" mit 7–10 Aufdeckungen, ein „Mittelstufenpaket" mit 3–6 Aufdeckungen und ein „Expertenpaket" mit 0–2 Aufdeckungen erzeugen drei verschiedene Produkte aus demselben Design. Käufer suchen gezielt nach schwierigkeitsabgestuften Rätselressourcen, die sie über mehrere Leistungsstufen in einem Bildungsmarkt einsetzen können.`,
     },
     {
-      heading: 'Schriften, Text und Arbeitsfläche anpassen',
+      heading: `Schriften, Text und Arbeitsfläche anpassen`,
       content: `Wählen Sie aus 5 Schriftfamilien, um den visuellen Stil Ihres Produkts und die Zielgruppe abzustimmen. Lexend Deca bietet klare, moderne Lesbarkeit, optimiert für Leseanfänger. Baloo 2 bietet ein abgerundetes, freundliches Erscheinungsbild, beliebt bei frühkindlichen Materialien. Nunito ist eine ausgewogene serifenlose Schrift, die über alle Altersgruppen funktioniert. Quicksand verleiht ein geometrisches, modernes Gefühl für zeitgenössische Designs. Fredoka liefert einen verspielten, abgerundeten Look, ideal für Vorschul- und Kindergartenprodukte.\n\nFügen Sie einen Arbeitsblatt-Titel hinzu, um Ihre Chiffre-Rätsel zu branden — „Geheimbotschaft-Herausforderung", „Tier-Code-Knacker" oder ein beliebiger Titel, der zu Ihrem Produktthema passt. Schalten Sie Name- und Datumsfelder je nach Zielmarkt ein oder aus: Bildungsmarkt-Arbeitsblätter profitieren von Namens-/Datumsfeldern zur Zuordnung, während digitale Download-Produkte oft ohne sauberer wirken. Fügen Sie benutzerdefinierte Anweisungen hinzu, um Nutzer durch den Entschlüsselungsprozess zu führen.\n\nNutzen Sie die Fabric.js-Arbeitsflächen-Werkzeuge zur Feinabstimmung der Elementplatzierung. Ausrichtungsoptionen plus Auf-Seite-Zentrieren ermöglichen präzise Positionierung von Text und Chiffre-Elementen. Sperren Sie einzelne Elemente, um versehentliches Verschieben zu verhindern, während Sie andere anpassen. Das Ebenensystem steuert, welche Elemente vor oder hinter anderen erscheinen. Zoomen Sie hinein für pixelgenaue Präzision, dann zoomen Sie heraus, um das vollständige Rätsel-Layout zu überprüfen. Unbegrenztes Rückgängig und Wiederherstellen ermöglicht risikofreies Experimentieren.`,
     },
     {
@@ -66,26 +66,26 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Kryptogramm-Rätsel auf Etsy verkaufen',
+      heading: `Kryptogramm-Rätsel auf Etsy verkaufen`,
       content: `Etsy ist ein ausgezeichneter Marktplatz für Kryptogramm-Rätsel, weil das Bildchiffre-Format visuell unverwechselbar und im Vergleich zu Wortsuchrätsel und Kreuzworträtseln unterrepräsentiert ist. Titel wie „Kryptogramm-Rätsel — Bildchiffre-Code-Knack-Arbeitsblätter — Mit Buchstabenlegenden-Lösungsschlüsseln" erfassen gezielten Suchverkehr und beschreiben das einzigartige Format, das Käufer erhalten.\n\nBenennen Sie Ihre Produkte mit dem spezifischen Thema, Schwierigkeitsgrad und Format statt generischer Titel. „Tier-Kryptogramm-Rätsel — 20 Bildchiffre-Arbeitsblätter — Anfänger bis Experte — Buchstabenlegenden-Lösungsschlüssel enthalten" übertrifft „Druckbare Rätsel für Kinder", weil es spezifische Käufer-Suchanfragen bedient und die einzigartige Chiffre-Mechanik kommuniziert.\n\nTags: Nutzen Sie alle 13 Etsy-Tags. Kombinieren Sie breite und spezifische Begriffe: „Kryptogramm-Rätsel", „Bildchiffre-Arbeitsblätter", „Code-Knack-Aktivitäten", „Chiffre-Rätsel-Druckvorlagen", „Geheimbotschaft-Arbeitsblätter", „Entschlüsselungsrätsel für Kinder", „Lese-Rätsel-Aktivitäten", „Kryptogramm mit Lösungsschlüssel" und Variationen passend zu Ihrem spezifischen Thema, Schwierigkeitsgrad und Sprache.\n\nAngebots-Bilder: Zeigen Sie das vollständige Chiffre-Rätsel mit gut sichtbaren thematischen Bildern, eine Nahaufnahme der Bild-zu-Buchstaben-Chiffre-Mechanik, einen Vergleich zwischen Anfänger- (hohe Aufdeckungen) und Experten-Schwierigkeit (null Aufdeckungen), den Buchstabenlegenden-Lösungsschlüssel und ein Mockup des gedruckten und verwendeten Rätsels. Das farbige Bildchiffre-Format ergibt natürlich auffällige Vorschaubilder.\n\nPreisgestaltung: Thematische Sets mit 10 bis 15 Kryptogramm-Rätseln und Lösungsschlüsseln auf einem einzelnen Schwierigkeitsgrad verkaufen sich bei 3,99 bis 6,99 USD. Schwierigkeitsabgestufte Sets mit Anfänger-, Mittelstufen- und Experten-Rätseln desselben Themas verkaufen sich bei 7,99 bis 12,99 USD. Vollständige thematische Sammlungen über mehrere Schwierigkeitsgrade, Farb- und Schwarz-Weiß-Varianten und mehrere Sprachen verkaufen sich bei 14,99 bis 24,99 USD.`,
     },
     {
-      heading: 'Kryptogramm-Rätselbücher auf Amazon KDP verkaufen',
+      heading: `Kryptogramm-Rätselbücher auf Amazon KDP verkaufen`,
       content: `Amazon KDP bedient den Rätselbuch-Markt, und Bild-Kryptogramm-Bücher besetzen eine dramatisch unterversorgte Nische im Vergleich zu Wortsuch- und Kreuzworträtselbüchern. Diese geringere Konkurrenz bedeutet stärkere Sichtbarkeit bei geringerem Werbeaufwand.\n\nStrukturieren Sie Ihr Rätselbuch mit progressiver Schwierigkeit und nutzen Sie Aufzudeckende Buchstaben als Organisationsprinzip. Einleitungskapitel verwenden 8 bis 10 Aufdeckungen für Aufwärm-Rätsel, die das Chiffre-Format vermitteln. Mittlere Kapitel steigern auf 3 bis 5 Aufdeckungen für ausgewogene Herausforderungen. Schlusskapitel verwenden 0 bis 2 Aufdeckungen für Code-Knack-Herausforderungen auf Expertenniveau. Gruppieren Sie Kapitel nach Thema für übersichtliche Vielfalt und fügen Sie Buchstabenlegenden-Lösungsschlüssel am Ende jedes Kapitels ein.\n\nTitel und Untertitel: Beispieltitel: „Bild-Kryptogramm-Rätselbuch für Kinder". Beispieluntertitel: „80 Geheimbotschaft-Code-Knack-Rätsel mit Buchstabenlegenden-Lösungsschlüsseln — Anfänger bis Experte — Alter 6–12".\n\nSchlüsselwörter: KDP bietet 7 Schlüsselwort-Slots. Verwenden Sie spezifische Phrasen: „Kryptogramm-Rätsel für Kinder", „Bildchiffre-Rätselbuch", „Code-Knack-Aktivitätsbuch", „Geheimbotschaft-Rätsel mit Lösungen", „Entschlüsselungsrätsel für Kinder", „Lese-Rätsel-Aktivitäten", „Kryptogramm-Arbeitsblätter mit Lösungsschlüssel".\n\nVerwenden Sie den Graustufenmodus für Schwarz-Weiß-Innenseiten, die KDP-Druckkosten niedrig halten. Bildchiffre-Rätsel werden in Graustufen sauber wiedergegeben, weil die Lösungsmechanik auf Bildformerkennung basiert, nicht auf Farbe. Ein 100-seitiges Kryptogramm-Buch mit progressiver Schwierigkeit und thematischen Kapiteln schafft ein überzeugendes Produkt, das sich von der gesättigten Wortsuch-Kategorie abhebt.`,
     },
     {
-      heading: 'Kryptogramm-Rätsel auf Gumroad verkaufen',
+      heading: `Kryptogramm-Rätsel auf Gumroad verkaufen`,
       content: `Gumroad ist ideal für Kryptogramm-Rätsel, weil das Code-Knack-Format mehrere Produktkatalogziele bedient: Mustererkennung, logisches Schlussfolgern, Rechtschreibförderung und Wortschatzaufbau. Käufer suchen nach „Code-Knack-Aktivitäten" und „Chiffre-Arbeitsblätter" und finden sehr wenige Qualitätsoptionen — was Ihnen eine Wettbewerbsöffnung gibt.\n\nProduktbeschreibungen auf Gumroad sollten enthalten: Zielalter und Altersgruppe, spezifisch geübte Fähigkeiten (Mustererkennung, logisches Schlussfolgern, Buchstaben-Laut-Zuordnung, Rechtschreibung, Vokabular im Kontext), Anzahl der Rätsel auf jedem Schwierigkeitsgrad, ob Buchstabenlegenden-Lösungsschlüssel enthalten sind, verwendete Themen und Sprachverfügbarkeit. Erklären Sie das Aufzudeckende-Buchstaben-Schwierigkeitssystem, damit Käufer verstehen, dass sie verschiedenen Nutzern unterschiedliche Schwierigkeitsgrade zuweisen können.\n\nVorschau-Dateien: Gumroad erlaubt Vorschau-Uploads. Fügen Sie 2 bis 3 Beispiel-Kryptogramm-Rätsel auf verschiedenen Schwierigkeitsgraden ein (eines mit 8 Aufdeckungen, eines mit 3 Aufdeckungen, eines mit 0 Aufdeckungen), einen Buchstabenlegenden-Lösungsschlüssel und eine visuelle Erklärung der Schwierigkeitsgrade. Käufer möchten die Schwierigkeitsprogression vor dem Kauf sehen.\n\nBündelung auf Gumroad: Käufer kaufen Pakete für erweiterte Aktivitätseinheiten. Ein „Komplettes Kryptogramm-Paket" mit Rätseln über mehrere Themen auf vier Schwierigkeitsgraden gibt Käufern Ressourcen für wochenlange fesselnde Code-Knack-Übungen. Erstellen Sie themengruppierte Sets, die zu saisonalen Produktkatalogkalendern passen, für zeitabhängige Kaufmuster.\n\nGumroad-spezifische Schlüsselwörter: „Kryptogramm-Rätsel", „Code-Knack-Aktivitäten", „Chiffre-Arbeitsblätter", „Geheimbotschaft-Rätsel", „Entschlüsselungsaktivitäten für Kinder", „Mustererkennungs-Rätsel", „gestufte Leserätsel", „Bildchiffre-Arbeitsblätter". Diese Begriffe entsprechen der Suchweise von Käufern nach fesselnden Rätsel-Leseressourcen.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Preisgestaltung für Kryptogramm-Rätsel-Produkte',
+      heading: `Preisgestaltung für Kryptogramm-Rätsel-Produkte`,
       content: `Die Preisgestaltung für Kryptogramm-Rätsel profitiert von der Neuartigkeit des Formats — Bildchiffre-Rätsel sind dramatisch seltener als Wortsuchrätsel oder Kreuzworträtsel, was weniger Preisdruck durch konkurrierende Angebote bedeutet. Hier sind Preisspannen, die auf allen Marktplätzen gut funktionieren.\n\nEinzelthema-Sets mit 10 bis 15 Kryptogramm-Rätseln und Buchstabenlegenden-Lösungsschlüsseln auf einem Schwierigkeitsgrad: 3,99 bis 6,99 USD. Diese dienen als Einstiegsprodukte, die Käufer an das Chiffre-Format heranführen. Jedes Set konzentriert sich auf ein Thema und einen Schwierigkeitsbereich, wie Anfänger-Tier-Kryptogramme mit 7 bis 10 Aufdeckungen oder Experten-Natur-Kryptogramme mit 0 bis 2 Aufdeckungen.\n\nSchwierigkeitsabgestufte Sets mit Anfänger-, Mittelstufen- und Experten-Rätseln desselben Themas: 7,99 bis 12,99 USD. Käufer nehmen starken Wert wahr, weil sie abgestufte Inhalte erhalten, die Nutzer über mehrere Leistungsstufen bedienen. Der Regler für Aufzudeckende Buchstaben macht die Schwierigkeitsabstufung mühelos — dasselbe Design bei verschiedenen Aufdeckungseinstellungen produziert grundlegend unterschiedliche Lösungserlebnisse.\n\nVollständige Sammlungen mit 40 bis 60 Rätseln über mehrere Themen, mehrere Schwierigkeitsgrade, Farb- und Schwarz-Weiß-Varianten und Buchstabenlegenden-Lösungsschlüssel: 14,99 bis 24,99 USD. Positionieren Sie diese als umfassende Code-Knack-Aktivitätsbibliotheken für erweiterten Einsatz im Bildungsmarkt oder vollständiges Etsy-Shop-Inventar.\n\nUnterbieten Sie den Markt nicht. Kryptogramm-Rätsel mit Bildchiffre-Codierung, einem Schwierigkeitsgradienten für Aufzudeckende Buchstaben, Automatischer und Manueller Zuweisung, Buchstabenlegenden-Lösungsschlüsseln, sprachspezifischen Alphabeten in 11 Sprachen, Farb- und Schwarz-Weiß-Filter für Doppelprodukte und über 400 DPI-Exporten sind ein Premium-Produkt. Das Chiffre-Format allein gestuft Ihre Angebote von den überfüllten Wortsuch- und Kreuzworträtsel-Kategorien. Setzen Sie die Preise entsprechend.`,
     },
     {
-      heading: 'Bündelungsstrategien nach Schwierigkeit und Thema',
+      heading: `Bündelungsstrategien nach Schwierigkeit und Thema`,
       content: `Pakete sind der Punkt, an dem der Umsatz bei Kryptogramm-Produkten skaliert. Der Regler für Aufzudeckende Buchstaben, 104 thematische Bildsammlungen, Farb-/Schwarz-Weiß-Filter und 11 unterstützte Sprachen schaffen natürliche Bündelungsmöglichkeiten, die Ihre Produktvielfalt aus minimalem Designaufwand vervielfachen.\n\nSchwierigkeitsabgestufte Pakete: Gruppieren Sie Rätsel nach Aufzudeckende-Buchstaben-Stufe. Ein „Anfänger-Kryptogramme"-Paket (7–10 Aufdeckungen) zielt auf jüngere Löser und führt das Chiffre-Format ein. Ein „Mittelstufen-Kryptogramme"-Paket (3–6 Aufdeckungen) bedient sich entwickelnde Entschlüsseler. Ein „Experten-Kryptogramme"-Paket (0–2 Aufdeckungen) liefert reine Code-Knack-Herausforderungen. Jede Schwierigkeitsstufe zielt auf ein eigenes Käufersegment mit klarer Produktpositionierung.\n\nThemenpakete: Erstellen Sie Sets von 15 bis 20 Kryptogramm-Rätseln innerhalb eines einzelnen Themas — Tiere, Lebensmittel, Fahrzeuge, Feiertage, Berufe. Thematische Pakete sprechen Käufer an, die zusammenhängende visuelle Sets suchen, die sie über mehrere Sitzungen hinweg verwenden können. Verwenden Sie Automatische Zuweisung, um die Chiffre schnell zu befüllen, und variieren Sie die Geheimphrasen und Aufzudeckende-Buchstaben-Einstellungen über jedes Set für eingebaute Abwechslung.\n\nFarb- + Schwarz-Weiß-Doppelpakete: Bündeln Sie die Farbausgabe und Schwarz-Weiß-Ausgabe desselben Kryptogramm-Sets zusammen. Käufer erhalten lebendige Digitalversionen für Bildschirmnutzung und tintenfreundliche Versionen zum Drucken. Dieser Doppelformat-Ansatz erzielt 30 bis 50 Prozent mehr als jede Variante einzeln.\n\nMehrsprachige Pakete: Das sprachspezifische Alphabet ermöglicht mehrsprachige Pakete mit grundlegend unterschiedlichen Chiffre-Inhalten. Erstellen Sie ein thematisches Set auf Englisch, dann regenerieren Sie es auf Deutsch, Französisch, Spanisch und anderen Sprachen. Da sich das Alphabet pro Sprache ändert (Deutsch hat 30 Zeichen gegenüber 26 im Englischen), ist jede Version ein grundlegend anderes Chiffre-Rätsel. Ein „Mehrsprachige Kryptogramme"-Paket mit 5 oder mehr Sprachen bedient DaF-Käufer, zweisprachige Familien und internationale Schulen zu Premium-Preisen.\n\nFormat-übergreifende Lesepakete: Kombinieren Sie Kryptogramme mit Wortsuchrätsel-, Buchstabensalat- und Wörterraten-Arbeitsblättern unter Verwendung derselben Vokabelthemen. Jedes Format trainiert eine andere kognitive Fähigkeit: Kryptogramme fördern Deduktion, Wortsuche übt visuelles Scannen, Buchstabensalat trainiert Neuanordnung, Wörterraten testet Abruf. Multi-Format-Pakete rechtfertigen Premium-Preise und bieten Nutzern abwechslungsreiche Übung.`,
     },
     {
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Wie funktioniert die Bild-Kryptogramm-Chiffre?',
+      question: `Wie funktioniert die Bild-Kryptogramm-Chiffre?`,
       answer: `Jedem Buchstaben des Alphabets wird ein einzigartiges Bild zugeordnet. Ihre Geheimphrase wird als Bildsequenz dargestellt, die jeden Buchstaben ersetzt. Nutzer studieren die Bildsequenz, erschließen durch Mustererkennung und Kontexthinweise aus häufigen Wörtern, welches Bild welchen Buchstaben darstellt, und schreiben die entschlüsselten Buchstaben auf, um die ursprüngliche Botschaft zu enthüllen. Leerzeichen und Satzzeichen bleiben erhalten, sodass Wortgrenzen sichtbar bleiben. Diese Phrasen-Codierung macht Kryptogramme grundlegend anders als Wortsuchrätsel oder Buchstabensalate, die mit einzelnen Wörtern arbeiten.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Automatische Zuweisung ordnet sofort zufällige Bilder aus dem gewählten Thema allen nicht zugewiesenen Buchstaben des Alphabets mit einem Klick zu — die schnellste Methode für Stapelproduktion. Manuelle Zuweisung ermöglicht die gezielte Auswahl, welches spezifische Bild welchen spezifischen Buchstaben darstellt, mit einer visuellen Übersicht aller aktuellen Zuordnungen. Sie können beide kombinieren: die Masse automatisch zuweisen, dann einzelne Buchstaben manuell gegen Bilder austauschen, die besser zum Thema passen oder praktischen Mehrwert bieten.`,
     },
     {
-      question: 'Wie funktioniert das sprachspezifische Alphabet?',
+      question: `Wie funktioniert das sprachspezifische Alphabet?`,
       answer: `Wenn Sie eine Sprache auswählen, passt sich der verfügbare Zeichensatz automatisch an. Englisch verwendet 26 Buchstaben. Deutsch fügt ä, ö, ü, ß für ein 30-Zeichen-Chiffre-Alphabet hinzu. Französisch fügt é, è, ç, à und andere Akzentzeichen hinzu. Sowohl der Geheimtext als auch das Chiffre-Alphabet ändern sich pro Sprache, sodass jede Sprachversion ein grundlegend anderes Chiffre-Produkt mit anderen Wörtern, anderen Buchstabenzahlen und einem anderen Lösungserlebnis ist.`,
     },
     {
@@ -144,31 +144,31 @@ const content: GuideContent = {
     },
     {
       slug: 'kryptogramm-raetsel-erstellen',
-      title: 'Buchstabensalat-Arbeitsblätter erstellen',
+      title: `Buchstabensalat-Arbeitsblätter erstellen`,
       description: `Ein Buchstaben-Neuordnungs-Begleiter. Buchstabensalat-Arbeitsblätter üben eine andere kognitive Fähigkeit als Chiffre-Entschlüsselung, und die beiden Formate lassen sich natürlich in Lese-Rätselpaketen kombinieren.`,
     },
     {
-      slug: 'praepositionen-arbeitsblaetter-erstellen',
-      title: 'Wörterraten-Arbeitsblätter erstellen',
+      slug: `praepositionen-arbeitsblaetter-erstellen`,
+      title: `Wörterraten-Arbeitsblätter erstellen`,
       description: `Ein Rechtschreib-Abruf-Begleiter, der Wortschatz neben Kryptogramm-Code-Knacken aufbaut. Nutzer, die Chiffre-Phrasen entschlüsseln, profitieren von Wörterraten-Aktivitäten, die denselben Wortschatz durch ein anderes Rätselformat festigen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Kommerzielle Lizenz Leitfaden' },
-    { pageType: 'app', slug: 'bildkryptogramm-arbeitsblaetter', anchorText: 'Kryptogramm-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuchrätsel-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller ausprobieren' },
+    { pageType: 'app', slug: `bildkryptogramm-arbeitsblaetter`, anchorText: `Kryptogramm-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuchrätsel-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: `Kryptogramm-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'cryptogram',
-      title: 'Kryptogramm-Arbeitsblatt-Generator',
+      title: `Kryptogramm-Arbeitsblatt-Generator`,
       description: `Das Hauptwerkzeug für diese Anleitung. Erstellen Sie Bildchiffre-Rätsel mit Bild-zu-Buchstaben-Zuordnung, Aufzudeckende Buchstaben (0–10) Schwierigkeitskontrolle, Automatischer und Manueller Zuweisung, Buchstabenlegenden-Lösungsschlüsseln, sprachspezifischen Alphabeten in 11 Sprachen, Farb- und Schwarz-Weiß-Filter und über 400 DPI-Exporten.`,
     },
     {
@@ -189,22 +189,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/german/cryptogram/Bilder-Kryptogramm 1.webp`, alt: 'Kryptogramm-Arbeitsblatt mit Bildchiffre — thematische Bilder den Alphabetbuchstaben zugeordnet zur Codierung einer Geheimphrase' },
+    heroImage: { src: `/samples/german/cryptogram/Bilder-Kryptogramm 1.webp`, alt: `Kryptogramm-Arbeitsblatt mit Bildchiffre — thematische Bilder den Alphabetbuchstaben zugeordnet zur Codierung einer Geheimphrase` },
     samples: [
-      { src: `/samples/german/cryptogram/Bilder-Kryptogramm 1.webp`, alt: 'Kryptogramm-Arbeitsblatt mit thematischen Bildern, die Buchstaben in einer codierten Geheimphrase ersetzen', caption: 'Bildchiffre-Rätsel — entschlüsseln Sie die Geheimbotschaft, indem Sie erkennen, welches Bild welchen Buchstaben darstellt' },
-      { src: `/samples/german/cryptogram/Bilder-Kryptogramm 2.webp`, alt: 'Kryptogramm-Arbeitsblatt mit thematischen Bildern und Aufzudeckende-Buchstaben-Hinweisen für abgestufte Schwierigkeit', caption: 'Thematische Chiffre mit Aufzudeckenden Buchstaben — vorgelöste Zuordnungen bieten Hilfestellung für Anfänger' },
-      { src: `/samples/german/cryptogram/Bilder-Kryptogramm 3.webp`, alt: 'Kryptogramm-Lösungsschlüssel mit vollständiger Buchstabenlegende aller Alphabet-Bild-Zuordnungen in alphabetischer Reihenfolge', caption: 'Buchstabenlegenden-Lösungsschlüssel — jeder Buchstabe des Alphabets gepaart mit seinem zugewiesenen Bild als definitive Lösungsreferenz' },
+      { src: `/samples/german/cryptogram/Bilder-Kryptogramm 1.webp`, alt: `Kryptogramm-Arbeitsblatt mit thematischen Bildern, die Buchstaben in einer codierten Geheimphrase ersetzen`, caption: `Bildchiffre-Rätsel — entschlüsseln Sie die Geheimbotschaft, indem Sie erkennen, welches Bild welchen Buchstaben darstellt` },
+      { src: `/samples/german/cryptogram/Bilder-Kryptogramm 2.webp`, alt: `Kryptogramm-Arbeitsblatt mit thematischen Bildern und Aufzudeckende-Buchstaben-Hinweisen für abgestufte Schwierigkeit`, caption: `Thematische Chiffre mit Aufzudeckenden Buchstaben — vorgelöste Zuordnungen bieten Hilfestellung für Anfänger` },
+      { src: `/samples/german/cryptogram/Bilder-Kryptogramm 3.webp`, alt: `Kryptogramm-Lösungsschlüssel mit vollständiger Buchstabenlegende aller Alphabet-Bild-Zuordnungen in alphabetischer Reihenfolge`, caption: `Buchstabenlegenden-Lösungsschlüssel — jeder Buchstabe des Alphabets gepaart mit seinem zugewiesenen Bild als definitive Lösungsreferenz` },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: `Bildchiffre-Kryptogramm-Rätsel erstellen — Schritt-für-Schritt-Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — thematisches Lernbild', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Nashornvogel — thematisches Lernbild', caption: 'Nashornvogel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Strauß — thematisches Lernbild', caption: 'Strauß' },
+    { src: `/image-library/birds/eagle.webp`, alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — thematisches Lernbild`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Nashornvogel — thematisches Lernbild`, caption: 'Nashornvogel' },
+    { src: `/image-library/birds/macaw.webp`, alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Strauß — thematisches Lernbild`, caption: 'Strauß' },
   ],
 };
 

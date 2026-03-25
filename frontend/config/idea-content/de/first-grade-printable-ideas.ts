@@ -2,16 +2,16 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'erste-klasse-druckvorlagen-ideen',
+    primaryKeyword: `erste-klasse-druckvorlagen-ideen`,
     secondaryKeywords: [
       `K-2-Produktmarkt-Arbeitsblätter auf Etsy erstellen`,
-      'Grundschul-Lernmaterialien auf KDP verkaufen',
-      'erste Klasse Druckvorlagen auf Gumroad anbieten',
+      `Grundschul-Lernmaterialien auf KDP verkaufen`,
+      `erste Klasse Druckvorlagen auf Gumroad anbieten`,
       `Schulanfänger-Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Grundschul-Altersstufe Arbeitsblatt-Nische',
-      'altersgerechte Lernmaterialien Erst-Klasse',
+      `Grundschul-Altersstufe Arbeitsblatt-Nische`,
+      `altersgerechte Lernmaterialien Erst-Klasse`,
       `Produktkatalog-Arbeitsblätter Grundschule Etsy-Markt`,
     ],
     titleTag: `Erste-Klasse-Druckvorlagen-Ideen — Verkäufer-Guide`,
@@ -36,7 +36,7 @@ Die Wettbewerbslandschaft bei Erste-Klasse-Druckvorlagen belohnt Verkäufer, die
       appId: 'addition',
     },
     {
-      title: 'Erste-Klasse-Wortsuchrätsel zum Online-Verkauf',
+      title: `Erste-Klasse-Wortsuchrätsel zum Online-Verkauf`,
       description: `Wortsuchrätsel für K-2-Produktmarkt-Leser ziehen Käufer und Eltern an, die nach ansprechenden Leseaktivitäten suchen, welche den erweiterten Sichtwortschatz, Rechtschreibmuster und Fachbegriffe festigen, denen K-2-Produktmarkt in ihrem zunehmend komplexen akademischen Produktkatalog begegnen. Erstellen Sie Rätsel mit hochfrequenten Sichtwörtern aus den Dolch- und Fry-K-2-Produktmarkt-Listen, Rechtschreibwörtern geordnet nach Phonik-Mustern wie Konsonantenverbindungen und Digraphen, Vokabeln aus Sachkunde-Einheiten und thematischen Wortsammlungen, die fächerübergreifendes Lernen verstärken. Der Wortsuch-Generator ermöglicht altersgerechte Gitter mit zwölf bis sechzehn Wörtern in mittlerer bis großer Größe, passend für K-2-Produktmarkt, die Buchstaben sicher in Zeilen, Spalten und Diagonalen verfolgen können — und dabei die visuellen Abtastfähigkeiten entwickeln, die die Leseflüssigkeitsentwicklung unterstützen.`,
       appId: 'wordsearch',
     },
@@ -51,7 +51,7 @@ Die Wettbewerbslandschaft bei Erste-Klasse-Druckvorlagen belohnt Verkäufer, die
       appId: 'coloring',
     },
     {
-      title: 'Erste-Klasse-Bingokarten für Gruppenaktivitäten',
+      title: `Erste-Klasse-Bingokarten für Gruppenaktivitäten`,
       description: `Bingokarten rund um Erste-Klasse-Lernkonzepte dienen Käufern, die Lese-Lernzentren, Mathe-Stationen und Produktwiederholungen mit interaktiver Beteiligung durchführen, die das Lernen durch spielbasierte Übungsformate festigt und Sechs- bis Siebenjährige während der Aktivitätsrotationen motiviert hält. Der Bingo-Generator erstellt einzigartige Kartenvarianten ohne Duplikate für Gruppensitzungen mit fünfundzwanzig oder mehr Nutzern. Erstellen Sie gezielte akademische Sets: Sichtwort-Bingo mit Dolch-K-2-Produktmarkt- und K-2-Produktmarkt-Übergangslisten, Rechenfakten-Bingo für Addition und Subtraktion im Zahlenraum bis zwanzig, Uhrzeit-Bingo mit analogen Uhrzifferblättern zu geschriebenen Zeiten und Münzerkennungs-Bingo, bei dem Nutzer Münzkombinationen Werten zuordnen. Bingo-Produkte erzielen Premium-Preise, weil das klassenfertige interaktive Format Käufern erhebliche Vorbereitungszeit spart und gleichzeitig mehrere Lernmodalitäten anspricht.`,
       appId: 'bingo',
     },
@@ -85,7 +85,7 @@ Die Wettbewerbslandschaft bei Erste-Klasse-Druckvorlagen belohnt Verkäufer, die
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Erste-Klasse-Druckvorlagen auf Etsy verkaufen',
+      title: `Erste-Klasse-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy erfasst das große und motivierte Eltern-Käufersegment, das nach Erste-Klasse-Heimübungsmaterialien sucht — mit kaufbereiten Suchbegriffen wie „Erste-Klasse-Arbeitsblätter", „Matheübung erste Klasse", „Sichtwort-Aktivitäten Klasse 1" und „Leseverständnis erste Klasse" über das gesamte Schuljahr. Nutzen Sie alle dreizehn Tags mit Variationen, die spezifische Kompetenz-Ziele, Altersstufen-Kennzeichnungen und Aktivitätsformate kombinieren, um motivierte Käufer zu erreichen, die genau wissen, welche Fähigkeit ihr Kind üben muss. Bündeln Sie Produkte nach Fachstrang, um den durchschnittlichen Bestellwert zu erhöhen: ein Erste-Klasse-Rechenfakten-Paket für Addition und Subtraktion im Zahlenraum bis zwanzig, ein Leseflüssigkeits-Paket mit Sichtwörtern, Wortsuchrätseln und Verständnisaktivitäten und ein Schreibfähigkeiten-Paket mit Satzbildung und Wortschatzübungen bedienen jeweils unterschiedliche Elternbedürfnisse und fördern Mehrfachkäufe im selben Shop. Die Einschulungssaison im August und September erzeugt den größten Nachfrageschub, aber der Mitte-des-Jahres-Kauf steigt im Januar und Februar stark an, wenn Eltern Halbjahreszeugnisse mit spezifischen Kompetenzlücken erhalten — was eine sekundäre Kaufwelle gezielter Übungsmaterialien auslöst, die Verkäufer mit kompetenzspezifischen Produkttiteln effektiv erfassen.`,
     },
     {
@@ -139,18 +139,18 @@ Die Wettbewerbslandschaft bei Erste-Klasse-Druckvorlagen belohnt Verkäufer, die
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -159,33 +159,33 @@ Die Wettbewerbslandschaft bei Erste-Klasse-Druckvorlagen belohnt Verkäufer, die
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'kindergarten-druckvorlagen-ideen',
-      anchorText: 'Kindergarten-Druckvorlagen-Geschäftsideen',
+      slug: `kindergarten-druckvorlagen-ideen`,
+      anchorText: `Kindergarten-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — thematisches Lernbild`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Schrank — thematisches Lernbild`, caption: 'Schrank' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Taschenrechner — thematisches Lernbild`, caption: 'Taschenrechner' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — thematisches Lernbild`, caption: 'Kalender' },
   ],
 
 

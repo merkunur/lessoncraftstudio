@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias Imprimíveis Artigos de Festa para Vender — Guia`,
     metaDescription: `Ideias de negócio de artigos de festa imprimíveis para vendedores Etsy. Cria pacotes temáticos de festa, jogos de aniversário e materiais decorativos.`,
-    primaryKeyword: 'ideias imprimíveis artigos de festa para vender',
+    primaryKeyword: `ideias imprimíveis artigos de festa para vender`,
     secondaryKeywords: [
-      'artigos festa imprimíveis para vender',
-      'negócio decoração festa imprimível',
-      'ideias festa aniversário imprimíveis',
-      'vender artigos festa imprimíveis no Etsy',
+      `artigos festa imprimíveis para vender`,
+      `negócio decoração festa imprimível`,
+      `ideias festa aniversário imprimíveis`,
+      `vender artigos festa imprimíveis no Etsy`,
     ],
     lsiKeywords: [
-      'produtos imprimíveis temáticos para celebrações',
-      'modelos convites e bandeirolas para festas',
-      'transferências digitais decoração de eventos',
+      `produtos imprimíveis temáticos para celebrações`,
+      `modelos convites e bandeirolas para festas`,
+      `transferências digitais decoração de eventos`,
     ],
   },
   hero: {
@@ -87,7 +87,7 @@ Os imprimíveis para festas têm um forte potencial de oferta e marketing viral 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Artigos de Festa Imprimíveis no Etsy',
+      title: `Vender Artigos de Festa Imprimíveis no Etsy`,
       description: `O Etsy domina o mercado de artigos de festa imprimíveis com tráfego de pesquisa massivo de pais que planeiam celebrações de aniversário e vendedores que preparam atividades para festas online, tornando-o o mercado online principal para jogos de festa imprimíveis, pacotes de atividades e materiais temáticos de celebração. Otimiza os listados com palavras-chave específicas de temas de festa incluindo o tipo de celebração, grupo de idade e formato de atividade porque os compradores de artigos de festa pesquisam com consultas altamente específicas como pacote de atividades temáticas de aniversário para uma faixa etária particular ou jogos de festa de Halloween para a loja do ensino básico. Utiliza todas as posições de fotos do listado para mostrar o contexto de atmosfera festiva dos teus materiais com imagens de maqueta mostrando produtos em cenários de celebração sobre mesas decoradas junto com artigos e decorações de festa. Os listados sazonais de festa alinhados com o Halloween, o Dia dos Namorados, o Natal e as celebrações de final de ano letivo criam picos de vendas previsíveis que os vendedores experientes de imprimíveis para festas planeiam nos seus calendários de produção ao longo de todo o ano, publicando produtos sazonais semanas antes de cada tendência de pesquisa festiva começar para capturar compradores que planeiam com antecedência. A estrutura de categorias do Etsy para artigos de festa e produtos de papel coloca os teus produtos imprimíveis de festa junto a artigos físicos de festa nos resultados de pesquisa do comprador, alcançando compradores que navegam materiais de celebração e descobrem as tuas alternativas digitais enquanto procuram produtos tradicionais de artigos de festa.`,
     },
     {
@@ -96,12 +96,12 @@ Os imprimíveis para festas têm um forte potencial de oferta e marketing viral 
       description: `A Amazon e os mercados online gerais proporcionam acesso a compradores de artigos de festa que procuram materiais de celebração junto com decorações físicas de festa, lembranças e artigos, alcançando clientes que planeiam festas inteiramente através de compras na Amazon e nunca visitariam o Etsy ou lojas especializadas de imprimíveis para materiais de atividades. Publica pacotes imprimíveis de festa junto com palavras-chave que os compradores de artigos físicos de festa pesquisam, posicionando os teus materiais digitais ou impressos como produtos complementares a decorações, louça e artigos de lembranças que os organizadores de festas compram juntos como parte da preparação completa da celebração. Agrupa pacotes de atividades de festa com segmentação clara por faixa etária e descrições de temas que ajudem os compradores a identificar rapidamente se os teus produtos coincidem com as suas necessidades específicas de celebração, porque as pesquisas de artigos de festa em mercados online geram um volume enorme mas requerem segmentação precisa para converter navegadores em compradores. O volume massivo de pesquisa de artigos para festas de aniversário na Amazon significa que mesmo uma pequena percentagem de pesquisadores de artigos de festa que descubram os teus pacotes de atividades imprimíveis representa um volume de vendas potencial significativo, e a oportunidade de venda cruzada entre artigos físicos de festa e atividades imprimíveis cria um caminho natural de descoberta para compradores que não tinham previamente considerado materiais imprimíveis para festas.`,
     },
     {
-      platform: 'Comunidades de Planeamento de Festas e Pais',
+      platform: `Comunidades de Planeamento de Festas e Pais`,
       title: `Marketing de Imprimíveis para Festas Através de Comunidades de Planeamento`,
       description: `Os sítios web de planeamento de festas, blogues de parentalidade, quadros de Pinterest e fóruns de comunidades de pais representam canais de marketing de alta intenção onde os organizadores de festas procuram ativamente ideias de atividades e recursos imprimíveis para próximas celebrações. Cria designs de amostra de atividades de festa e guias temáticos de celebração que mostrem os teus produtos imprimíveis no contexto de planeamento completo de festas, demonstrando como os teus materiais resolvem o problema comum de manter as crianças entretidas durante celebrações completas sem caros serviços profissionais de entretenimento. O Pinterest é especialmente valioso para o marketing de imprimíveis de festa porque os organizadores de festas procuram e guardam ativamente ideias semanas ou meses antes das celebrações, criando janelas de descoberta prolongadas onde os teus produtos fixados recebem tráfego orgânico contínuo de planificadores que constroem quadros de ideias de celebração aos quais regressam repetidamente à medida que a data da festa se aproxima. Constrói relações com bloggers de planeamento de festas e influenciadores de parentalidade que apresentam recursos imprimíveis de festa nos seus guias de celebração e publicações de recomendações, fornecendo materiais de amostra que possam mostrar no seu conteúdo enquanto ligam aos teus listados de mercado online para que a sua audiência compre diretamente.`,
     },
     {
-      platform: 'Festas online e Eventos Escolares',
+      platform: `Festas online e Eventos Escolares`,
       title: `Vender Pacotes de Atividades de Festa para Celebrações online`,
       description: `Os vendedores que organizam celebrações online, coordenadores de eventos de associações de pais e comités de festas escolares compram materiais de atividades de festa em quantidades para a loja para festas de Halloween, celebrações de final de ano letivo, eventos sazonais e atividades de reconhecimento de aniversários de usuários ao longo de todo o ano letivo. Cria pacotes de festa para a loja dimensionados especificamente para grupos típicos de turma com variedade suficiente para rotações de atividades de trinta minutos que mantenham os usuários envolvidos durante períodos de celebração enquanto mantêm o formato estruturado que os vendedores preferem para gerir a energia da loja durante emocionantes eventos de festa. Oferece pacotes temáticos de festa para a loja alinhados com o calendário de celebrações escolares incluindo Halloween, férias de inverno, Dia dos Namorados, celebrações de primavera e festas de final de ano letivo que os vendedores compram previsivelmente todos os anos, criando um fluxo de receitas sazonal fiável que podes prever e preparar inventário com bastante antecedência. Constrói relações de clientes recorrentes com vendedores que descobrem os teus materiais de festa para a loja e regressam para cada nova celebração durante o ano letivo, expandindo as suas compras à medida que descobrem opções de atividades temáticas adicionais no teu catálogo e recomendam os teus materiais a colegas que planeiam as suas próprias celebrações online.`,
     },
@@ -141,18 +141,18 @@ Os imprimíveis para festas têm um forte potencial de oferta e marketing viral 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -166,7 +166,7 @@ Os imprimíveis para festas têm um forte potencial de oferta e marketing viral 
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -177,27 +177,27 @@ Os imprimíveis para festas têm um forte potencial de oferta e marketing viral 
     {
       pageType: 'idea',
       slug: 'natal-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Natal',
+      anchorText: `Ideias de Negócio de Imprimíveis de Natal`,
     },
     {
       pageType: 'idea',
       slug: 'halloween-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Halloween',
+      anchorText: `Ideias de Negócio de Imprimíveis de Halloween`,
     },
     {
       pageType: 'idea',
-      slug: 'dia-namorados-ideias-imprimiveis',
+      slug: `dia-namorados-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Dia dos Namorados`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

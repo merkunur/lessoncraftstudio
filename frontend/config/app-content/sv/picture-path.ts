@@ -5,16 +5,16 @@ const content: AppContent = {
     primaryKeyword: 'labyrint arbetsblad generator',
     secondaryKeywords: [
       `utskrivbar labyrintaktivitet skapare för Etsy-säljare`,
-      'bildväg arbetsblad generator för KDP-publicerare',
+      `bildväg arbetsblad generator för KDP-publicerare`,
       `labyrint arbetsblad skapare kommersiell licens Gumroad`,
-      'sälja vägpussel arbetsblad på Etsy och Amazon',
+      `sälja vägpussel arbetsblad på Etsy och Amazon`,
     ],
     lsiKeywords: [
       `digitala labyrint utskriftsbara produkter onlineföretag`,
-      'kommersiellt bruk vägpussel arbetsblad generator',
-      'utskrivbar pusselaktivitet affärsverktyg',
+      `kommersiellt bruk vägpussel arbetsblad generator`,
+      `utskrivbar pusselaktivitet affärsverktyg`,
     ],
-    titleTag: 'Labyrint Arbetsblad Generator | Skapa Vägpussel',
+    titleTag: `Labyrint Arbetsblad Generator | Skapa Vägpussel`,
     metaDescription:
       `Skapa labyrintarbetsblad att sälja på Etsy, KDP och Gumroad. 3 spellägen, LPF-algoritm, automatiskt facit, 104 teman, tryckfärdiga PDF:er. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Labyrintarbetsblad i 5 Steg',
+    title: `Hur du Skapar Labyrintarbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -35,17 +35,17 @@ const content: AppContent = {
           `Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren. Välj ett bakgrundstema och justera dess opacitet, välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Dessa layoutval ramar in ditt labyrintarbetsblad innan du konfigurerar något spelläge.`,
       },
       {
-        title: 'Välj spelläge och konfigurera inställningar',
+        title: `Välj spelläge och konfigurera inställningar`,
         description:
           `Öppna panelen Vägkonfiguration och välj ett av tre spellägen. Bildväg skapar ett rutnät av bilder med en enda korrekt väg från start till mål. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen — ställ in rutnätsstorlek (15×15 till 20×20), antal vägar (1, 2 eller 3), antal samlingsbilder och kopior, väggfärg, tjocklek (1–10px) och opacitet (10–100%). Välj Rätt Väg skapar trevägs-labyrinter med fyra riktningsalternativ. Växla «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer.`,
       },
       {
-        title: 'Välj bilder efter roll från biblioteket',
+        title: `Välj bilder efter roll från biblioteket`,
         description:
           `Öppna panelen Bildbibliotek och tilldela bilder till fem distinkta roller med rollväljaren: Startbild (ingångspunktsmarkör), Målbild (destination — 1 för Bildväg/Labyrint, 3 för Välj Väg), Vägbilder (korrekt rutt eller samlingsbilder), Distraktorbilder (felaktiga celler eller icke-väg-fyllnad) och Dekoration (fri arbetsyteplacering). Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer, filtrera efter tema eller sök med nyckelord. Ladda upp egna PNG-, JPG- eller GIF-bilder att använda bredvid biblioteksinnehåll.`,
       },
       {
-        title: 'Generera labyrint- eller vägarbetsbladet',
+        title: `Generera labyrint- eller vägarbetsbladet`,
         description:
           `Klicka på Generera för att skapa labyrintlayouten för ditt valda spelläge. Bildväg arrangerar bilder i ett rutnät med en korrekt väg markerad av vägbilder bland distraktorer. Klassisk Labyrint bygger väggbaserade korridorer med samlingsbilder placerade längs vägarna. Välj Rätt Väg konstruerar tre distinkta rutter med en korrekt väg och lockbetesalternativ. Den automatiskt genererade «Bildväg»-rubriken visas överst med en orange yttre ram, lokaliserad titel och instruktioner på det valda språket.`,
       },
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nyckelfunktioner i Bildväg Labyrint Generatorn',
+    title: `Nyckelfunktioner i Bildväg Labyrint Generatorn`,
     features: [
       {
         title: `Tre spellägen: Bildväg, Klassisk Labyrint och Välj Rätt Väg`,
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Labyrintarbetsblad Online',
+    title: `Hur du Säljer Labyrintarbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska labyrintaktivitets-paket på Etsy',
+        title: `Tematiska labyrintaktivitets-paket på Etsy`,
         description:
           `Skapa tematiska labyrintpaket med de 104 bildsamlingarna — djurlabyrinter, högtidslabyrinter, bondgårdslabyrinter, havslabyrinter och dussintals fler. Varje tema ger tillräckligt med illustrationer för flera unika labyrintarbetsblad över alla tre spellägen. Paketera 10–20 labyrintarbetsblad per tema med facit inkluderade, blanda Bildväg, Klassisk Labyrint och Välj Rätt Väg för variation inom varje paket. Variera svårigheten genom att justera rutnätsstorlekar och vägantal. Sälj till 30–70 SEK per paket. Det automatiskt genererade facit eliminerar den största tidsslösaren i labyrintarbetsblads-produktion.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Labyrintaktivitets-arbetsböcker på Amazon KDP',
+        title: `Labyrintaktivitets-arbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 labyrintarbetsblad till en tryckt arbetsbok formaterad för Amazon KDP. Strukturera din bok efter progressiv svårighet: börja med Bildväg-labyrinter för nybörjare, avancera till Klassisk Labyrint med 15×15-rutnät och 1 väg, öka sedan till 20×20-rutnät med 3 vägar för avancerade lösare. Inkludera facit i slutet av boken. Gråskaleväxlingen producerar bläckvänliga sidor redo för svartvita bokinteriörer. Labyrintböcker är en beprövad KDP-kategori — det visuella formatet innebär att varje bok fungerar för köpare globalt utan översättning.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -125,10 +125,10 @@ const content: AppContent = {
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Säsongsbetonade och högtidslabyrint-samlingar',
+        title: `Säsongsbetonade och högtidslabyrint-samlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade labyrintsamlingar som sammanfaller med toppshoppingperioder. Släpp halloweenlabyrint-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Inkludera alla tre spellägen i varje säsongsset för maximalt värde. Säsongsprodukter motiverar högre priser under toppfönster och skapar naturliga skäl till återköp från återkommande kunder.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
       {
         title: `Global marknadsattraktionskraft med visuell labyrintdesign`,
@@ -146,7 +146,7 @@ const content: AppContent = {
         `Generatorn erbjuder tre distinkta lägen. Bildväg skapar ett rutnät av bilder där användarna följer rätt väg från start till mål genom att identifiera vägbilder bland distraktorer. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen med samlingsbilder, konfigurerbara rutnätsstorlekar (15×15 till 20×20) och 1 till 3 vägar med återvändsgränd-blockering. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ där användarna identifierar den enda korrekta rutten. Varje läge producerar en annorlunda rumslig resonemangutmaning från samma bildbibliotek.`,
     },
     {
-      question: 'Hur fungerar LPF labyrintalgoritmen?',
+      question: `Hur fungerar LPF labyrintalgoritmen?`,
       answer:
         `Longest Path First (LPF) algoritmen är ett professionellt väggbaserat labyrintgenereringssystem. Den använder en korridor-cell-struktur med dynamisk väggplacering för att skapa utmanande men lösbara labyrinter. Vägkvalitetspoängsättning utvärderar svängar, längd och blockeringar. Flervägsstöd genererar 1, 2 eller 3 vägar med automatisk återvändsgränd-blockering på felaktiga rutter. Du kan konfigurera väglängdsminimum och -maximum (4–30 celler, standard 8–12), rutnätsstorlekar från 15×15 till 20×20, och väggmedveten start/slut-positionering säkerställer rena in- och utgångspunkter.`,
     },
@@ -171,22 +171,22 @@ const content: AppContent = {
         `Klassisk Labyrint sprider samlingsbilder genom labyrintkorridorerna. Konfigurera antalet samlingsbildtyper (1, 2, 3 eller 4 — standard 4), minsta kopior per bild (1, 2 eller 3 — standard 1) och maximala kopior per bild (1–10 — standard 10). Facit inkluderar en samlingslegend som visar varje bild och dess antal längs lösningsvägen. Samlingsbilder lägger till räknings- och observationsövning bredvid labyrintlösningsaktiviteten.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Facit återskapar den exakta labyrintlayouten och markerar den korrekta lösningsvägen med rosa cirklar placerade längs rutten. Välj Rätt Väg-läget lägger till en «✓ KORREKT VÄG»-etikett på den korrekta rutten. Klassisk Labyrint inkluderar en samlingslegend. Ladda ner båda versionerna separat med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF.`,
     },
     {
-      question: 'Hur fungerar den automatiskt genererade rubriken?',
+      question: `Hur fungerar den automatiskt genererade rubriken?`,
       answer:
         `Varje arbetsblad inkluderar en stiliserad rubrik med en orange yttre ram (8px streck) och 34px marginaler. Titeln «Bildväg» och beskrivningen «Följ vägen från start till mål!» översätts automatiskt till alla 11 stödda språk. Stående arbetsblad visar en 240px rubrik; liggande arbetsblad använder en kompakt 165px layout. Rubriken renderas med lokaliserad text för engelska, tyska (Bilderpfad), franska (Chemin d'Images), svenska (Bildväg) och alla andra stödda språk.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — alla tre spellägen, LPF labyrintalgoritmen, fem bildroller, vägganpassning, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Är Bildväg arbetsblad språkkänsliga?',
+      question: `Är Bildväg arbetsblad språkkänsliga?`,
       answer:
         `Nej. Till skillnad från ordbaserade generatorer är Bildväg arbetsblad helt visuella. användarna navigerar labyrinter och följer bildvägar utan att läsa någon text. Den automatiskt genererade rubriken översätts till 11 språk, men labyrintinnehållet i sig kräver ingen språkförståelse. Detta gör att varje arbetsblad direkt kan användas och säljas på vilken marknad som helst i världen utan modifiering.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina labyrintarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De tre spellägena, LPF-algoritmen, 104 tematiska bildsamlingar och det visuella formatet ger dig verktygen för att producera originella, globalt säljbara labyrintprodukter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla tre spellägen, LPF labyrintalgoritmen, fem bildroller, vägganpassning, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'saknade-bitar-arbetsblad',
-      anchorText: 'Saknade Bitar Arbetsblad Generator',
+      anchorText: `Saknade Bitar Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'hitta-udda-bilden-arbetsblad',
-      anchorText: 'Hitta Udda Bilden Arbetsblad Generator',
+      anchorText: `Hitta Udda Bilden Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildsudoku-arbetsblad',
-      anchorText: 'Bildsudoku Arbetsblad Generator',
+      anchorText: `Bildsudoku Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'hitta-och-rakna-arbetsblad',
-      anchorText: 'Hitta och Räkna Arbetsblad Generator',
+      anchorText: `Hitta och Räkna Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'skattjakt-arbetsblad',
-      anchorText: 'Skattjakt Arbetsblad Generator',
+      anchorText: `Skattjakt Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'pussel-logik-paket',
-      anchorText: 'Pussel och Logik Paket — Alla Pusselappar i Ett',
+      anchorText: `Pussel och Logik Paket — Alla Pusselappar i Ett`,
     },
     {
       pageType: 'guide',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'skapa-labyrint-arbetsblad',
-      anchorText: 'Hur du Skapar Labyrint och Vägarbetsblad',
+      anchorText: `Hur du Skapar Labyrint och Vägarbetsblad`,
     },
     {
       pageType: 'idea',
@@ -251,17 +251,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-utskriftsbara-ideer',
-      anchorText: 'Camping Utskriftsbara Idéer för Utomhuslärande',
+      anchorText: `Camping Utskriftsbara Idéer för Utomhuslärande`,
     },
     {
       pageType: 'idea',
       slug: 'havsdjur-utskriftsbara-ideer',
-      anchorText: 'Havsdjur Utskriftsbara Idéer för Marina Teman',
+      anchorText: `Havsdjur Utskriftsbara Idéer för Marina Teman`,
     },
     {
       pageType: 'start',
-      slug: 'marknadsforing-utskriftsbart-foeretag',
-      anchorText: 'Marknadsföring av Ditt Utskriftsbart Företag',
+      slug: `marknadsforing-utskriftsbart-foeretag`,
+      anchorText: `Marknadsföring av Ditt Utskriftsbart Företag`,
     },
   ],
 

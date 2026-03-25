@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Mathe-Arbeitsblätter auf Etsy verkaufen',
+    primaryKeyword: `Mathe-Arbeitsblätter auf Etsy verkaufen`,
     secondaryKeywords: [
-      'Mathe-Arbeitsblätter auf Etsy verkaufen Anleitung',
-      'Etsy Mathe-Arbeitsblatt-Shop einrichten',
-      'druckbare Mathe-Arbeitsblätter Etsy Geschäft',
-      'praktische Druckvorlagen auf Etsy verkaufen',
+      `Mathe-Arbeitsblätter auf Etsy verkaufen Anleitung`,
+      `Etsy Mathe-Arbeitsblatt-Shop einrichten`,
+      `druckbare Mathe-Arbeitsblätter Etsy Geschäft`,
+      `praktische Druckvorlagen auf Etsy verkaufen`,
     ],
     lsiKeywords: [
       `Etsy digitaler Download Mathe-Aktivitäten Angebotsoptimierung`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Mathe-Arbeitsblätter auf Etsy verkaufen',
+    title: `Mathe-Arbeitsblätter auf Etsy verkaufen`,
     tagline: `Ein umfassender Plattform-Leitfaden für den Aufbau eines profitablen Etsy-Shops, der Mathe-Arbeitsblätter verkauft, erstellt mit 6 spezialisierten Generatoren — einschließlich Etsy-Shop-Einrichtung, SEO-Optimierung mit allen 13 Tags, Angebotstiteln und -beschreibungen die für Käufer-Suchbegriffe ranken, Produktfotografie und Mockups, Preisstrategien für einzelne Arbeitsblätter und Bündel, saisonalem Timing für Schulanfang und Feiertags-Hochphasen, Katalogplanung über Addition, Subtraktion, Code-Rätsel, Vergleiche, Gitter-Rätsel und Zahlenübungen sowie fortlaufender Shop-Optimierung mit Etsy Stats und Suchanalysen`,
     description: `Verwandeln Sie 6 Mathe-Arbeitsblatt-Generatoren in einen profitablen Etsy-Shop. Dieser Leitfaden behandelt Etsy-spezifische Verkaufsmechaniken — von der SEO-Optimierung mit allen 13 Tags über Angebotsfotografie bis hin zu Preisstrategien und saisonalem Timing — damit Ihre Mathe-Druckvorlagen in der Etsy-Suche ranken und konvertieren.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Bevor Sie ein einziges Arbeitsblatt erstellen, recherchieren Sie, wonach Mathe-Arbeitsblatt-Käufer tatsächlich auf Etsy suchen. Öffnen Sie etsy.com und geben Sie „Mathe-Arbeitsblätter" in die Suchleiste ein. Etsys Autovervollständigungs-Vorschläge zeigen die beliebtesten Suchbegriffe — das sind echte Suchanfragen von echten Käufern. Notieren Sie, was erscheint: „Mathe-Arbeitsblätter Kindergarten", „Mathe-Arbeitsblätter erste Klasse", „Additions-Arbeitsblätter druckbar", „Subtraktions-Übungsblätter", „Mathe-Rätsel-Arbeitsblätter". Jeder Autovervollständigungs-Vorschlag repräsentiert eine Produktchance.\n\nDurchsuchen Sie die Top-Ergebnisse für jeden Suchbegriff. Notieren Sie Angebotsnamen, Preispunkte, Anzahl der Bewertungen und wie viele Verkäufe Top-Verkäufer angesammelt haben. Achten Sie darauf, welche Formate am häufigsten erscheinen (Einzelarbeitsblätter, Bündel, Arbeitsbücher) und welche Altersgruppen dominieren. Suchen Sie nach Lücken — Suchbegriffe, bei denen die Ergebnisse dünn, qualitativ niedrig oder von nur einem oder zwei Verkäufern dominiert sind. Diese Lücken repräsentieren Ihre besten Einstiegspunkte.\n\nSuchen Sie gezielt nach den 6 Mathe-Formaten, die Ihre Generatoren produzieren: „bildbasierte Additions-Arbeitsblätter", „geheime Code-Mathe-Rätsel", „Größer-Kleiner-Arbeitsblätter", „Mathe-Gitter-Rätsel", „Mathe-Übungen druckbar". Einige dieser Formate — insbesondere Code-Additions-Rätsel und Mathe-Gitter-Rätsel — haben merklich weniger Konkurrenz als generische Additions- oder Subtraktions-Arbeitsblätter. Weniger Konkurrenz bedeutet, dass Ihre Angebote schneller ranken und einen größeren Anteil des Suchverkehrs erfassen.\n\nDokumentieren Sie Ihre Recherche in einer einfachen Tabelle: Suchbegriff, Anzahl konkurrierender Angebote, Preisspanne der Top-Verkäufer, durchschnittliche Bewertungsanzahl und Ihre Einschätzung des Qualitätsniveaus. Diese Recherche fließt direkt in Ihren Produktkatalogplan im nächsten Schritt ein.`,
     },
     {
-      heading: 'Ihren Mathe-Arbeitsblatt-Produktkatalog planen',
+      heading: `Ihren Mathe-Arbeitsblatt-Produktkatalog planen`,
       content: `Ein geplanter Katalog übertrifft zufällige Angebotserstellung, weil er sicherstellt, dass Sie die Suchbegriffe abdecken, die Käufer tatsächlich verwenden, und gleichzeitig natürliche Cross-Selling-Möglichkeiten zwischen Ihren Produkten aufbauen. Nutzen Sie Ihre Recherche aus Schritt eins, um Ihr anfängliches Produktsortiment zu planen.\n\nBeginnen Sie mit einer Produktmatrix. Listen Sie Ihre 6 Mathe-Generatoren oben auf: Addition, Subtraktion, Bilder-Addition, Mehr oder Weniger, Mathe-Rätsel und Mathe-Arbeitsblatt. An der Seite listen Sie die Variablen auf, die Sie kontrollieren können: Thema (Tiere, Essen, Fahrzeuge, Feiertage, Jahreszeiten), Schwierigkeitsgrad (Kindergarten, erste Klasse, zweite Klasse), Format (Einzelblätter, Themenbündel, Mega-Pakete) und Seitengröße (Letter, A4, beide). Jeder Schnittpunkt von Generator und Variable ist ein potenzielles Etsy-Angebot.\n\nPriorisieren Sie Ihre ersten 20 Angebote basierend auf der Recherche. Ein starker Anfangskatalog könnte umfassen: 5 thematische Additions-Arbeitsblatt-Bündel (Tiere, Essen, Fahrzeuge, Feiertage, Schulanfang), 3 thematische Subtraktions-Bündel, die die Additions-Sets ergänzen, 3 Code-Additions-Rätsel-Pakete für die einzigartige Format-Nische, 3 Mehr-oder-Weniger-Vergleichssets für das spezifische Produktkatalog-Schlüsselwort, 3 Mathe-Rätsel-Gitter-Pakete für rätselinteressierte Käufer und 3 Zahlenübungs-Pakete für ältere Nutzer. Das ergibt 20 Angebote über alle 6 Formate hinweg und maximiert Ihre Suchabdeckung von Tag eins an.\n\nPlanen Sie Bündel-Upsells von Anfang an. Für jedes thematische Set, das Sie erstellen, notieren Sie, wie es sich später zu einem größeren Bündel kombinieren lässt. Ihre 5 einzelnen Additions-Bündel werden zu einer „Vollständigen Additions-Arbeitsblatt-Sammlung". Ihre Additions- und Subtraktions-Sets zum selben Thema werden zu einem „Mathe-Operationen-Bündel". Diese Verbindungen jetzt zu planen bedeutet, dass Sie die Einzelarbeitsblätter mit der Bündelung im Hinterkopf erstellen.`,
     },
     {
-      heading: 'Ihren Mathe-Arbeitsblatt-Bestand erstellen',
+      heading: `Ihren Mathe-Arbeitsblatt-Bestand erstellen`,
       content: `Mit Ihrem Katalogplan in der Hand arbeiten Sie systematisch jeden Generator durch, um Ihren anfänglichen Bestand aufzubauen. Das Ziel ist Produktionseffizienz — Arbeitsblätter werden generatorweise in Stapeln erstellt, anstatt ständig zwischen Tools zu wechseln.\n\nBeginnen Sie mit dem Additions-Arbeitsblatt-Generator. Wählen Sie Ihr erstes Thema, konfigurieren Sie die Seitengröße (erstellen Sie sowohl Letter als auch A4, wenn Sie internationale Käufer ansprechen), wählen Sie eine Schriftart und einen Dekorationsstil, der in Ihrer gesamten Marke konsistent sein wird, und generieren Sie Ihre Zielanzahl an Arbeitsblättern. Exportieren Sie jedes als PDF (das lieferbare Produkt) und JPEG (für Angebotsfotos). Generieren Sie passende Lösungsschlüssel. Wiederholen Sie dies für jedes Thema in Ihrem Additions-Katalogplan.\n\nWechseln Sie zum Subtraktions-Arbeitsblatt-Generator und wenden Sie die gleichen Themen- und Stileinstellungen für visuelle Konsistenz an. Käufer, die Ihre Additions- und Subtraktions-Angebote nebeneinander sehen, sollten sofort erkennen, dass sie aus demselben Shop stammen. Konsistentes Branding über Mathe-Formate hinweg schafft Käufervertrauen und fördert Mehrfachkäufe.\n\nArbeiten Sie durch Bilder-Addition, Mehr oder Weniger, Mathe-Rätsel und Mathe-Arbeitsblatt-Generatoren nach dem gleichen systematischen Ansatz. Für detaillierte Tutorials zu den spezifischen Funktionen jedes Generators siehe die verlinkten Produkterstellungsleitfäden — dieser Plattform-Leitfaden konzentriert sich auf die Etsy-Verkaufsstrategie und nicht auf app-spezifische Anleitungen.\n\nOrganisieren Sie Ihre exportierten Dateien in einer klaren Ordnerstruktur: ein Ordner pro Produktangebot, der jeweils das PDF-Lieferprodukt, den Lösungsschlüssel als PDF und die JPEG-Vorschaubilder enthält. Diese Organisation verhindert Verwirrung, wenn Sie mit der Erstellung von Etsy-Angeboten beginnen, und stellt sicher, dass jedes Produkt seine benötigten Dateien bereit hat.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Etsys Suchalgorithmus gleicht Käuferanfragen mit Ihrem Angebotstitel, Tags, Beschreibung und Attributen ab. Jedes Feld korrekt zu optimieren ist die wirkungsvollste Maßnahme, die Sie für die Sichtbarkeit Ihres Shops ergreifen können.\n\nTitel: Etsy gibt Angebotstiteln das meiste Suchgewicht. Setzen Sie die wichtigsten Schlüsselwörter an den Anfang. „Additions-Arbeitsblätter für den Kindergarten — 20 bildbasierte Mathe-Aktivitäten mit Lösungsschlüsseln — druckbares PDF" ist weitaus effektiver als „Süße Tier-Mathe-Arbeitsblätter". Fügen Sie den Mathe-Typ, die Altersgruppe, die Menge, das Hauptmerkmal (Lösungsschlüssel) und das Format (druckbares PDF) in jeden Titel ein.\n\nTags: Etsy bietet 13 Tag-Plätze pro Angebot — nutzen Sie alle 13 jedes Mal. Tags sollten Variationen Ihres primären Schlüsselworts, verwandte Suchbegriffe und Long-Tail-Phrasen enthalten. Für ein Additions-Arbeitsblatt-Angebot effektive Tags: „Additions-Arbeitsblätter", „Mathe-Arbeitsblätter Kindergarten", „druckbare Mathe-Aktivitäten", „erste Klasse Addition", „Mathe-Übungsblätter", „praktische Druckvorlagen", „Homeschool Mathe", „Käuferressourcen Mathe", „Addition mit Bildern", „Mathe-Arbeitsblätter mit Lösungen", „druckbare Arbeitsblätter PDF", „digitaler Download Mathe", „Bildungsmarkt Mathe-Aktivitäten". Wiederholen Sie nicht dieselben Wörter in verschiedenen Tags — Etsy kombiniert Tags mit Ihrem Titel für das Matching, also diversifizieren Sie Ihre Schlüsselwort-Abdeckung.\n\nBeschreibungen: Obwohl Etsys Algorithmus Titel und Tags stärker gewichtet als Beschreibungen, ist die Beschreibung der Ort, an dem Sie Besucher in Käufer konvertieren. Beginnen Sie mit dem, was der Käufer bekommt: Anzahl der Arbeitsblätter, abgedeckte Mathe-Fähigkeit, Altersgruppe, ob Lösungsschlüssel enthalten sind. Beschreiben Sie dann das Format: PDF, Seitengröße, druckfertig bei 300 DPI. Fügen Sie einen Abschnitt hinzu, wie die Arbeitsblätter verwendet werden. Schließen Sie mit Informationen zur sofortigen digitalen Download-Lieferung ab. Schreiben Sie natürlich — Schlüsselwort-Stuffing in Beschreibungen schadet der Lesbarkeit, ohne das Suchranking zu verbessern.\n\nAttribute: Füllen Sie jedes Attributfeld aus, das Etsy für digitale Downloads bereitstellt. Wählen Sie die passende Kategorie (Digitale Drucke > Praktisch), den Dateityp (PDF) und alle anderen verfügbaren Attribute. Vollständige Attributinformationen verbessern den Qualitätswert Ihres Angebots in Etsys Algorithmus.`,
     },
     {
-      heading: 'Angebotsfotos erstellen, die konvertieren',
+      heading: `Angebotsfotos erstellen, die konvertieren`,
       content: `Etsy ist ein visueller Marktplatz. Ihr Angebotsvorschaubild ist das Erste, was Käufer in den Suchergebnissen sehen, und es bestimmt, ob sie sich zu Ihrem Angebot durchklicken oder weiterscrollen. Mathe-Arbeitsblatt-Angebotsfotos müssen den Produktinhalt klar kommunizieren und gleichzeitig professionell und ansprechend aussehen.\n\nIhr erstes Angebotsbild (das Vorschaubild) sollte 2 bis 3 Arbeitsblatt-Seiten aufgefächert oder überlappend zeigen, groß genug, damit der Mathe-Inhalt auch in Vorschaubildgröße teilweise lesbar ist. Verwenden Sie die JPEG-Exporte aus Ihren Generatoren als Basis. Platzieren Sie sie auf einem sauberen, hellen Hintergrund — Weiß, Creme oder ein sanftes Pastell. Fügen Sie einen dezenten Schatten hinzu, um den Arbeitsblättern Dimension zu verleihen. Ergänzen Sie eine Texteinblendung mit dem wichtigsten Verkaufsargument: „20 Arbeitsblätter + Lösungsschlüssel" oder „Kindergarten Addition".\n\nZweites Bild: Zeigen Sie eine einzelne Arbeitsblatt-Seite in voller Größe, damit Käufer genau sehen können, wie der Inhalt aussieht. Dies schafft Vertrauen, indem das tatsächliche Produkt gezeigt wird, anstatt nur ein gestyltes Mockup.\n\nDrittes Bild: Zeigen Sie den Lösungsschlüssel neben dem Arbeitsblatt. Käufer und Eltern suchen gezielt nach enthaltenen Lösungsschlüsseln, und das Sehen des Lösungsschlüssels in den Angebotsfotos kommuniziert diese Funktion sofort, ohne dass sie die Beschreibung lesen müssen.\n\nViertes Bild: Zeigen Sie die Vielfalt innerhalb des Bündels. Wenn Ihr Produkt Arbeitsblätter mit verschiedenen Themen oder Schwierigkeitsstufen enthält, zeigen Sie ein Raster von 6 bis 9 Arbeitsblatt-Vorschaubildern, die die Bandbreite des enthaltenen Inhalts zeigen.\n\nFünftes Bild: Fügen Sie eine „Was ist enthalten"-Infografik hinzu, die den Inhalt, die Seitenanzahl, Funktionen (Lösungsschlüssel, mehrere Themen, druckfertiges PDF) und etwaige Bonuselemente auflistet. Dieses Bild dient Käufern, die Fotos durchblättern, ohne Beschreibungen zu lesen.\n\nVermeiden Sie stark gefilterte oder übermäßig stilisierte Fotos, die den tatsächlichen Arbeitsblatt-Inhalt verdecken. Etsy-Käufer, die praktische Druckvorlagen kaufen, möchten sehen, was sie bekommen. Klarheit und Professionalität konvertieren bei dieser Produktkategorie besser als künstlerische Gestaltung.`,
     },
     {
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Hier ist ein konkretes Beispiel, wie Sie einen Etsy-Mathe-Arbeitsblatt-Shop mit 30 anfänglichen Angeboten strukturieren, organisiert über 6 Shop-Sektionen, unter Nutzung der Ausgaben aller 6 Mathe-Generatoren.\n\nShop-Sektion eins — Additions-Arbeitsblätter (6 Angebote): Tier-Additions-Paket (10 Arbeitsblätter, 3,99 USD), Essen-Additions-Paket (10 Arbeitsblätter, 3,99 USD), Fahrzeug-Additions-Paket (10 Arbeitsblätter, 3,99 USD), Feiertags-Additions-Bündel (20 Arbeitsblätter über 4 Feiertage, 5,99 USD), Additions-Mega-Paket (50 Arbeitsblätter über alle Themen, 9,99 USD) und Additions-und-Subtraktions-Kombi (30 Arbeitsblätter, je 15, 7,99 USD). Das Kombi-Angebot bewirbt die Subtraktions-Sektion.\n\nShop-Sektion zwei — Subtraktions-Arbeitsblätter (5 Angebote): folgt der gleichen Themenstruktur wie Addition. Tier-, Essen- und Fahrzeug-Pakete für je 3,99 USD. Feiertags-Bündel für 5,99 USD. Subtraktions-Mega-Paket für 9,99 USD. Die visuelle Konsistenz zwischen Additions- und Subtraktions-Angeboten fördert Mehrfachkauf-Verhalten.\n\nShop-Sektion drei — Mathe-Rätsel und Codes (6 Angebote): Bilder-Addition Tier-Rätsel (10 Arbeitsblätter, 3,99 USD), Bilder-Addition Feiertags-Rätsel (15 Arbeitsblätter, 4,99 USD), Mathe-Rätsel-Gitter-Paket Tiere (10 Arbeitsblätter, 3,99 USD), Mathe-Rätsel-Gitter-Paket gemischte Themen (20 Arbeitsblätter, 5,99 USD), Code-und-Rätsel-Kombi (25 Arbeitsblätter, 6,99 USD) und Geheimcode-Mathe-Sammlung (40 Arbeitsblätter, 9,99 USD). Die einzigartigen Rätselformate differenzieren diese Sektion von Standard-Arbeitsblatt-Wettbewerbern.\n\nShop-Sektion vier — Vergleichs-Arbeitsblätter (4 Angebote): Mehr-oder-Weniger Tier-Paket (10 Arbeitsblätter, 3,99 USD), Mehr-oder-Weniger gemischte Themen (20 Arbeitsblätter, 5,99 USD), Größer-Kleiner-Übung (15 Arbeitsblätter, 4,99 USD) und Vergleichsfähigkeiten komplett (35 Arbeitsblätter, 8,99 USD). Diese zielen auf den spezifischen Suchbegriff „Größer-Kleiner-Arbeitsblätter" ab.\n\nShop-Sektion fünf — Mathe-Übungen (4 Angebote): Additions-Übungen Klasse 1 (15 Arbeitsblätter, 4,99 USD), Subtraktions-Übungen Klasse 1 (15 Arbeitsblätter, 4,99 USD), Gemischte Rechenoperationen-Übungen (20 Arbeitsblätter, 5,99 USD) und Mathe-Übungen Komplett-Paket (50 Arbeitsblätter, 11,99 USD). Reine Zahlenübungen zielen auf ein anderes Käufersegment ab als bildbasierte Arbeitsblätter.\n\nShop-Sektion sechs — Komplettsammlungen (5 Angebote): Kindergarten Mathe komplett (60 Arbeitsblätter über alle Formate, 14,99 USD), Erste-Klasse Mathe komplett (60 Arbeitsblätter, 14,99 USD), Komplette Mathe-Bibliothek (100+ Arbeitsblätter, 19,99 USD), Saisonales Mathe-Jahrespaket (80 feiertagsthematische Arbeitsblätter, 16,99 USD) und Homeschool Mathe-Produktkatalog-Paket (100+ progressive Arbeitsblätter, 19,99 USD). Diese Premium-Angebote bedienen Käufer, die umfassende Lösungen suchen.\n\nDieser 30-Angebote-Katalog deckt mehrere Suchbegriffe, Preispunkte und Käufersegmente ab und schafft gleichzeitig klare Upgrade-Pfade von Einzelpaketen zu Komplettsammlungen.`,
     },
     {
-      heading: 'Beispiel saisonaler Mathe-Arbeitsblatt-Kalender',
+      heading: `Beispiel saisonaler Mathe-Arbeitsblatt-Kalender`,
       content: `Die Planung Ihrer Produkterstellung und Ihres Einstellungsplans rund um Etsys saisonale Muster stellt sicher, dass Sie die richtigen Produkte zur richtigen Zeit online haben. Hier ist ein Monatskalender für einen Mathe-Arbeitsblatt-Etsy-Shop.\n\nJanuar: Veröffentlichen Sie „Neujahr Mathe-Ziele"-Bündel und winterthematische Arbeitsblätter. Erneuern und optimieren Sie Schulanfangs-Angebote, die inaktiv geworden sind. Überprüfen Sie die Dezember-Verkaufsdaten in Etsy Stats, um Top-Produkte und Suchbegriffe für das neue Jahr zu identifizieren.\n\nFebruar: Erstellen und veröffentlichen Sie Valentinstag-thematische Mathe-Arbeitsblätter (herzthematische Addition, liebesbezogene Subtraktion). Diese verkaufen sich stark von Ende Januar bis 14. Februar. Nach dem Valentinstag beginnen Sie mit der Erstellung von Oster- und Frühlingsthemen-Produkten.\n\nMärz und April: Veröffentlichen Sie Oster-Mathe-Arbeitsblätter und Frühlings-Themenbündel. Erstellen Sie neue immergrüne Produkte während dieser moderaten Verkehrsperiode. Testen Sie neue Produktformate und Preise an Angeboten, die während der ruhigeren Frühlingsmonate erstellt werden.\n\nMai und Juni: Erstellen Sie Sommer-Lernverlust-Präventionsprodukte („Sommer-Mathe-Übungspaket", „Sommerlernverlust verhindern Arbeitsblätter"). Beginnen Sie mit dem Aufbau Ihres Schulanfangs-Bestands, da die Juli-Einführung erfordert, dass Produkte im Voraus fertig sind. Erstellen und fotografieren Sie neue Bündel und Mega-Pakete.\n\nJuli: Starten Sie alle Schulanfangs-Produkte. Dies ist das kritische Einstellungsfenster. Veröffentlichen Sie Ihre stärksten Produkte, größten Bündel und Altersgruppen-Sammlungen. Optimieren Sie alle Angebotsnamen und Tags, um „Schulanfang"-Variationen einzubeziehen. Erneuern Sie leistungsstarke Angebote für den Aktualitäts-Boost.\n\nAugust und September: Halten Sie das Schulanfangs-Momentum mit zusätzlichen Angeboten aufrecht. Erstellen Sie käuferorientierte Produkte („Bildungsmarkt Mathe-Center-Aktivitäten", „Mathe-Stationen-Arbeitsblätter"). Reagieren Sie umgehend auf Kundenfragen, da das Bewertungsvolumen in dieser Spitzenperiode steigt.\n\nOktober: Veröffentlichen Sie Halloween-Mathe-Arbeitsblätter 4 bis 6 Wochen vor dem Feiertag. Kürbis-Zählen, gruselige Addition, Monster-Subtraktion-Themen. Diese haben ein enges, aber intensives Verkaufsfenster.\n\nNovember: Wechseln Sie zu Weihnachts- und Winterfeiertags-Themen. Veröffentlichen Sie Feiertags-Mathe-Bündel. Erstellen Sie Geschenk-Positionierungs-Angebote („Käufergeschenk — Komplettes Mathe-Arbeitsblatt-Set") für die Weihnachts-Einkaufssaison.\n\nDezember: Pflegen Sie Feiertags-Angebote. Beginnen Sie mit der Planung der Januar-Produktaktualisierungen. Überprüfen Sie die Ganzjahres-Analytik, um Ihre Verkaufsschlager, besten Suchbegriffe und profitabelsten Produktformate für das kommende Jahr zu identifizieren.\n\nDieser Kalender stellt sicher, dass Ihr Shop immer saisonal relevante Produkte hat und gleichzeitig Ihren immergrünen Katalog das ganze Jahr über aufbaut.`,
     },
   ],
@@ -139,46 +139,46 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'wortsuche-verkaufen-etsy',
-      title: 'Wortsuche-Arbeitsblätter auf Etsy verkaufen',
+      title: `Wortsuche-Arbeitsblätter auf Etsy verkaufen`,
       description: `Erweitern Sie Ihren Etsy-Shop in die Wortsuche- und Sprachkategorie. Wortsuche-Arbeitsblätter ergänzen Mathe-Produkte und ziehen ein anderes Käufersegment an, was die Suchabdeckung Ihres Shops verbreitert.`,
     },
     {
-      slug: 'additions-arbeitsblaetter-erstellen',
-      title: 'Additions-Arbeitsblätter erstellen',
+      slug: `additions-arbeitsblaetter-erstellen`,
+      title: `Additions-Arbeitsblätter erstellen`,
       description: `Der detaillierte Produkterstellungsleitfaden für den Additions-Arbeitsblatt-Generator. Lernen Sie jede Funktion, Einstellung und Produktionstechnik für die Erstellung der bildbasierten Additions-Arbeitsblätter, auf die in diesem Etsy-Verkaufsleitfaden verwiesen wird.`,
     },
     {
-      slug: 'mathe-raetsel-arbeitsblaetter-erstellen',
-      title: 'Mathe-Rätsel-Arbeitsblätter erstellen',
+      slug: `mathe-raetsel-arbeitsblaetter-erstellen`,
+      title: `Mathe-Rätsel-Arbeitsblätter erstellen`,
       description: `Der Produkterstellungsleitfaden für den Mathe-Rätsel-Generator. Erfahren Sie, wie Sie die einzigartigen gitterbasierten Mathe-Rätsel erstellen, die Ihre Etsy-Angebote von Standard-Arbeitsblatt-Wettbewerbern differenzieren.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz — Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: `Additions-Arbeitsblätter erstellen — Schritt für Schritt` },
-    { pageType: 'guide', slug: 'subtraktions-arbeitsblaetter-erstellen', anchorText: `Subtraktions-Arbeitsblätter erstellen — Schritt für Schritt` },
-    { pageType: 'guide', slug: 'mathe-raetsel-arbeitsblaetter-erstellen', anchorText: `Mathe-Rätsel-Arbeitsblätter erstellen — Schritt für Schritt` },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `Additions-Arbeitsblätter erstellen — Schritt für Schritt` },
+    { pageType: 'guide', slug: `subtraktions-arbeitsblaetter-erstellen`, anchorText: `Subtraktions-Arbeitsblätter erstellen — Schritt für Schritt` },
+    { pageType: 'guide', slug: `mathe-raetsel-arbeitsblaetter-erstellen`, anchorText: `Mathe-Rätsel-Arbeitsblätter erstellen — Schritt für Schritt` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: `additions-arbeitsblatt-ersteller`, anchorText: `Additions-Arbeitsblatt-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Der Kern-Mathe-Arbeitsblatt-Generator für Etsy-Verkäufer. Erstellt bildbasierte Additions-Arbeitsblätter mit thematischen Illustrationen, automatischen Lösungsschlüsseln und 300-DPI-Exporten — das nachfragestärkste Mathe-Druckvorlagen-Format auf Etsy.`,
     },
     {
       appId: 'subtraction',
-      title: 'Subtraktions-Arbeitsblatt-Generator',
+      title: `Subtraktions-Arbeitsblatt-Generator`,
       description: `Das natürliche Gegenstück zu Additions-Arbeitsblättern. Käufer, die Additions-Arbeitsblätter kaufen, erwerben häufig auch Subtraktion vom selben Shop, was diesen Generator essentiell für Cross-Selling auf Etsy macht.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Mathe-Rätsel-Arbeitsblatt-Generator',
+      title: `Mathe-Rätsel-Arbeitsblatt-Generator`,
       description: `Erstellt einzigartige gitterbasierte Mathe-Rätsel, die Ihre Etsy-Angebote von Standard-Arbeitsblatt-Wettbewerbern differenzieren. Das unverwechselbare Format hat weniger Konkurrenz und erregt Aufmerksamkeit in Suchergebnissen.`,
     },
     {
@@ -189,22 +189,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: `Additions-Arbeitsblatt mit thematischen Illustrationen, das bildbasierte Mathe-Aufgaben zum Verkauf auf Etsy zeigt` },
+    heroImage: { src: `/samples/german/addition/addition_worksheet.webp`, alt: `Additions-Arbeitsblatt mit thematischen Illustrationen, das bildbasierte Mathe-Aufgaben zum Verkauf auf Etsy zeigt` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Tier-thematisches Additions-Arbeitsblatt, erstellt für Etsy digitalen Download`, caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben, die auffällige Etsy-Angebotsfotos erzeugen' },
-      { src: '/samples/german/subtraction/worksheet (1).webp', alt: `Subtraktions-Arbeitsblatt als Ergänzung zu Additions-Produkten in einem Etsy-Mathe-Arbeitsblatt-Shop`, caption: 'Subtraktions-Arbeitsblatt — natürlicher Cross-Sell-Begleiter zu Additions-Angeboten in Ihrem Etsy-Shop' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: `Mathe-Rätsel-Gitter-Arbeitsblatt, das ein einzigartiges Format zeigt, das Etsy-Angebote gestuft`, caption: 'Mathe-Rätsel-Gitter — einzigartiges Format mit weniger Etsy-Konkurrenz als Standard-Arbeitsblätter' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Tier-thematisches Additions-Arbeitsblatt, erstellt für Etsy digitalen Download`, caption: `Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben, die auffällige Etsy-Angebotsfotos erzeugen` },
+      { src: `/samples/german/subtraction/worksheet (1).webp`, alt: `Subtraktions-Arbeitsblatt als Ergänzung zu Additions-Produkten in einem Etsy-Mathe-Arbeitsblatt-Shop`, caption: `Subtraktions-Arbeitsblatt — natürlicher Cross-Sell-Begleiter zu Additions-Angeboten in Ihrem Etsy-Shop` },
+      { src: `/samples/german/math puzzle/Mathe-Rätsel 2.webp`, alt: `Mathe-Rätsel-Gitter-Arbeitsblatt, das ein einzigartiges Format zeigt, das Etsy-Angebote gestuft`, caption: `Mathe-Rätsel-Gitter — einzigartiges Format mit weniger Etsy-Konkurrenz als Standard-Arbeitsblätter` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Additions-Arbeitsblätter zum Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: `/image-library/shapes/circle.webp`, alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: `/image-library/shapes/cone.webp`, alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Würfel — thematisches Lernbild`, caption: 'Würfel' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Zylinder — thematisches Lernbild`, caption: 'Zylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
   ],
 };
 

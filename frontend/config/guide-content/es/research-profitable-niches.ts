@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'investigar nichos rentables imprimibles',
+    primaryKeyword: `investigar nichos rentables imprimibles`,
     secondaryKeywords: [
-      'métodos investigación nichos imprimibles',
-      'encontrar nichos fichas ejercicios rentables',
-      'estudio de mercado imprimibles educativos',
-      'análisis demanda nichos imprimibles',
+      `métodos investigación nichos imprimibles`,
+      `encontrar nichos fichas ejercicios rentables`,
+      `estudio de mercado imprimibles educativos`,
+      `análisis demanda nichos imprimibles`,
     ],
     lsiKeywords: [
       `datos marketplace investigación palabras clave volumen búsqueda nivel competencia señales demanda`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `cuantificación demanda análisis saturación mercado herramientas palabras clave decisiones basadas datos`,
       `producto mínimo viable pruebas flujo investigación descubrimiento nichos proceso sistemático`,
     ],
-    titleTag: 'Investigar Nichos Rentables Imprimibles — Guía',
+    titleTag: `Investigar Nichos Rentables Imprimibles — Guía`,
     metaDescription: `Cómo investigar nichos rentables de imprimibles con datos de marketplace, análisis de palabras clave, estudio de competencia, señales de demanda y validación.`,
   },
 
   hero: {
-    title: 'Cómo investigar nichos rentables de imprimibles',
+    title: `Cómo investigar nichos rentables de imprimibles`,
     tagline: `Una guía completa de metodología de investigación — que cubre el análisis de búsquedas en marketplaces, la cuantificación de la demanda por palabras clave, el estudio de productos de la competencia, la identificación de brechas de mercado desatendidas, la evaluación de la rentabilidad de los nichos, la prueba de la demanda con productos mínimos viables, el seguimiento de patrones estacionales y tendencias, y la construcción de un sistema continuo de descubrimiento de nichos`,
     description: `La diferencia entre los vendedores que encuentran nichos rentables de forma constante y los que adivinan mal no es suerte ni intuición — es metodología. Los vendedores de imprimibles exitosos tratan la selección de nichos como un proceso de investigación, no como una corazonada. Recopilan datos de múltiples fuentes, analizan patrones de demanda, estudian el panorama competitivo y validan la demanda antes de invertir tiempo de producción. Esta guía te enseña todo el proceso de investigación paso a paso, para que puedas identificar nichos rentables de forma sistemática en lugar de depender del ensayo y error. Ya sea que vendas en Etsy, Amazon KDP, Gumroad o Gumroad, estos métodos de investigación te ayudarán a tomar decisiones basadas en datos sobre dónde enfocar tu esfuerzo creativo.`,
   },
@@ -31,27 +31,27 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Análisis de búsquedas en marketplaces',
+      heading: `Análisis de búsquedas en marketplaces`,
       content: `El primer paso en la investigación de nichos es examinar lo que los compradores buscan activamente en los marketplaces. Cada plataforma proporciona señales de demanda a través de sus funciones de búsqueda — el autocompletado, los resultados relacionados y las categorías de tendencia te dicen exactamente qué buscan los compradores.\n\nEn Etsy, escribe las primeras letras de un término de imprimibles en la barra de búsqueda y observa las sugerencias de autocompletado. Estas sugerencias se generan a partir de búsquedas reales de compradores, ordenadas por popularidad. Por ejemplo, escribir "fichas de matemáticas" puede mostrar autocompletados como "fichas de matemáticas preescolar", "fichas de matemáticas de sumas", "fichas de matemáticas navidad" y "fichas de matemáticas motivo dinosaurios". Cada sugerencia representa una subcategoría de nicho con demanda verificada de compradores.\n\nRegistra estas sugerencias de autocompletado de forma sistemática. Crea una hoja de cálculo con columnas para: término de búsqueda, posición del autocompletado (las posiciones superiores indican mayor volumen de búsqueda), plataforma de origen y fecha. Con el tiempo, esta base de datos revela patrones de demanda en múltiples categorías de imprimibles.\n\nEn Amazon KDP, usa la barra de búsqueda de libros con términos como "cuaderno de actividades" o "fichas de ejercicios" seguidos de calificadores de nicho. Los resultados de autocompletado de Amazon reflejan el comportamiento de compra real — no solo lo que la gente busca, sino lo que realmente compra. Presta especial atención a las sugerencias que incluyen rangos de edad o niveles de grado, ya que estas señalan segmentos de mercado específicos.\n\nGumroad ofrece su propia funcionalidad de búsqueda con las secciones "Búsquedas populares" y "en demanda actualmente". Estos indicadores son particularmente valiosos porque reflejan la demanda educativa actual — lo que los vendedores buscan activamente para sus tiendas. Los picos estacionales son especialmente pronunciados en esta plataforma, con una demanda masiva de vuelta al cole en agosto-septiembre y picos temáticos durante las vacaciones.\n\nPara cada nicho potencial, documenta al menos 20 sugerencias de autocompletado en todas las plataformas. Este enfoque multiplataforma te da una imagen más completa de la demanda que confiar en los datos de una sola fuente.`,
     },
     {
-      heading: 'Cuantificación de la demanda por palabras clave',
+      heading: `Cuantificación de la demanda por palabras clave`,
       content: `Las sugerencias de autocompletado te dicen qué buscan los compradores, pero la investigación de palabras clave te dice cuántos buscan. Cuantificar la demanda te permite comparar nichos objetivamente y priorizar los que tienen mayor potencial.\n\nPara Etsy, herramientas como eRank, Marmalead y Sale Samurai proporcionan datos de volumen de búsqueda específicos de la plataforma. Busca nichos donde el volumen de búsqueda mensual supere las 1.000 búsquedas pero la competencia (número de listados) sea manejable. Una proporción de demanda sobre oferta favorable — alto volumen de búsqueda con relativamente pocos listados competidores — señala oportunidad.\n\nPara Amazon KDP, herramientas de investigación de palabras clave como Publisher Rocket proporcionan estimaciones de volumen de búsqueda, cifras de competencia e incluso datos estimados de ingresos mensuales. Presta atención a las puntuaciones de competencia: un nicho con 5.000 búsquedas mensuales pero baja competencia suele ser más rentable que uno con 50.000 búsquedas y competencia extrema.\n\nGoogle Trends proporciona datos de demanda gratuitos que complementan las herramientas específicas de plataforma. Compara términos de nicho como "fichas de sumas vs fichas de restas vs fichas de multiplicación" para ver la demanda relativa y los patrones estacionales. El gráfico "interés a lo largo del tiempo" revela si un nicho está creciendo, estable o en declive — información crucial para la planificación a largo plazo.\n\nCrea un sistema de puntuación para comparar nichos: asigna puntos por volumen de búsqueda (1-5), competitividad (1-5, donde menos competencia = más puntos), tendencia de crecimiento (1-5) y potencial estacional (1-5). Esta puntuación estandarizada te permite comparar nichos en categorías completamente diferentes — por ejemplo, comparar "fichas de caligrafía" con "juegos de matemáticas imprimibles".\n\nActualiza tu investigación de palabras clave trimestralmente. Los patrones de demanda cambian con las tendencias educativas, los cambios en las plataformas y las preferencias de los consumidores. Un nicho que era muy competitivo hace un año puede haberse vuelto menos saturado, o viceversa.`,
     },
     {
-      heading: 'Investigación de productos de la competencia',
+      heading: `Investigación de productos de la competencia`,
       content: `Entender qué venden tus competidores — y cómo lo venden — revela tanto oportunidades como trampas. El análisis de la competencia no se trata de copiar lo que funciona, sino de identificar dónde puedes ofrecer algo mejor o diferente.\n\nPara cada nicho potencial, examina los 20 productos más vendidos de cada plataforma. Documenta: rango de precios, número de reseñas (un indicador del volumen de ventas), calidad del producto (basada en las vistas previas disponibles), tamaño del paquete, edad o nivel de grado objetivo, y propuesta de valor única.\n\nLee las reseñas de los compradores con atención — especialmente las de 3 estrellas. Las reseñas de 5 estrellas te dicen qué valoran los compradores, mientras que las de 1 estrella pueden reflejar expectativas poco realistas. Las reseñas de 3 estrellas suelen contener las ideas más útiles: "Es bueno, pero me gustaría que incluyera..." o "Funciona bien, excepto que..." Estas críticas te dicen exactamente cómo mejorar los productos existentes.\n\nAnaliza las estrategias de precios de los competidores establecidos. Si la mayoría de los productos en un nicho se venden entre $3 y $5, pero podrías ofrecer un paquete premium con más contenido a $8-12, has identificado un hueco de mercado. Del mismo modo, si todos los productos son paquetes grandes, puede haber demanda de fichas individuales más económicas.\n\nEstudia cómo los competidores presentan sus productos — títulos, descripciones, palabras clave, imágenes en miniatura y vistas previas. Observa qué términos usan repetidamente (esto indica su investigación de palabras clave) y cómo posicionan los beneficios para los compradores. Un competidor con muchas reseñas probablemente ha optimizado su listado ampliamente — puedes aprender de su estructura.\n\nDocumenta las debilidades de la competencia de forma sistemática: diseño visual mediocre, falta de variedad temática, instrucciones insuficientes, ausencia de claves de respuesta o formatos de impresión limitados. Cada debilidad representa una oportunidad para diferenciarte.`,
     },
     {
-      heading: 'Identificar brechas de mercado desatendidas',
+      heading: `Identificar brechas de mercado desatendidas`,
       content: `Las brechas de mercado existen cuando la demanda de los compradores no está bien atendida por los productos disponibles. Estas brechas representan las oportunidades más rentables porque puedes captar compradores que actualmente no encuentran lo que buscan.\n\nUna brecha de mercado se manifiesta de varias formas. La primera es la brecha de búsqueda: cuando un término tiene un alto volumen de búsqueda pero pocos resultados relevantes. Busca términos en Etsy o Amazon KDP donde los resultados incluyan muchos productos no relacionados — esto indica que los compradores buscan algo específico pero los vendedores no lo ofrecen.\n\nLa segunda es la brecha de calidad: cuando los productos existentes tienen un diseño mediocre, errores o están desactualizados. Si un nicho tiene competencia pero la calidad media es baja, puedes capturar cuota de mercado con un producto superior. Revisa las reseñas negativas para confirmar que los compradores son conscientes de los problemas de calidad.\n\nLa tercera es la brecha de formato: cuando los compradores quieren imprimibles en un formato que no está disponible. Por ejemplo, si todas las fichas de matemáticas de un nicho son de tamaño carta (US Letter), puede haber demanda de formato A4. O si todos los productos son en PDF estático, puede haber oportunidad para versiones interactivas o editables.\n\nLa cuarta es la brecha demográfica: cuando un tipo de contenido popular para un grupo de edad no tiene equivalente para otro. Si las fichas de sumas con motivo de dinosaurios abundan para preescolar pero no existen para primer grado, has encontrado una brecha demográfica.\n\nLa quinta es la brecha lingüística: cuando los productos populares en inglés no tienen equivalentes en otros idiomas. El mercado de imprimibles educativos en español, francés, alemán y otros idiomas está mucho menos saturado que el de inglés. Si puedes crear contenido de calidad en múltiples idiomas, accedes a mercados con menos competencia.\n\nPara validar una brecha de mercado, confirma tres cosas: que la demanda existe (datos de búsqueda), que la oferta actual es insuficiente (análisis de resultados) y que puedes rellenar esa brecha con un producto viable (evaluación de tus capacidades).`,
     },
     {
-      heading: 'Evaluar la rentabilidad de los nichos',
+      heading: `Evaluar la rentabilidad de los nichos`,
       content: `No todos los nichos con demanda son rentables. Un nicho puede tener un alto volumen de búsqueda pero márgenes bajos, o poca competencia pero también poca disposición de los compradores a pagar. La evaluación de la rentabilidad combina múltiples factores en una puntuación que te ayuda a priorizar.\n\nEl primer factor es el precio medio del nicho. Calcula el precio medio de los 20 productos más vendidos. Nichos donde el precio medio supera los $5 generalmente ofrecen mejores márgenes que los de $2-3. Ten en cuenta que puedes superar el precio medio si ofreces más valor — pero el precio medio te indica lo que los compradores ya están dispuestos a pagar.\n\nEl segundo factor es el volumen de ventas estimado. Usa el número de reseñas como indicador: en Etsy, aproximadamente el 5-10% de los compradores dejan una reseña. Un producto con 500 reseñas ha tenido aproximadamente 5.000-10.000 ventas. Multiplica el volumen estimado de ventas del nicho por el precio medio para estimar los ingresos totales del mercado.\n\nEl tercer factor es el coste de producción. Los imprimibles tienen costes marginales cercanos a cero una vez creados, pero el tiempo de creación varía enormemente. Un paquete de fichas de matemáticas con 50 páginas puede requerir 10 horas de producción, mientras que un paquete de colorear con 50 páginas puede requerir 40 horas. Calcula tu ingreso por hora de producción para cada nicho.\n\nEl cuarto factor es el potencial de repetición. Algunos nichos permiten crear múltiples productos relacionados — una serie de fichas de sumas puede expandirse a restas, multiplicación y división. Los nichos con potencial de expansión natural generan más ingresos por hora de investigación invertida.\n\nEl quinto factor es la longevidad del nicho. Los nichos perennes (fichas de matemáticas básicas, práctica de caligrafía) generan ingresos año tras año. Los nichos de moda (imprimibles de un programa de televisión popular) pueden generar ventas rápidas pero desaparecer. Pondera la longevidad en tu evaluación de rentabilidad.\n\nCombina estos factores en una hoja de puntuación: precio medio (1-5), volumen estimado (1-5), eficiencia de producción (1-5), potencial de expansión (1-5) y longevidad (1-5). Los nichos con puntuación total de 18+ son candidatos prioritarios.`,
     },
     {
-      heading: 'Probar la demanda con productos mínimos viables',
+      heading: `Probar la demanda con productos mínimos viables`,
       content: `Antes de invertir decenas de horas en producir un paquete completo, valida la demanda con un producto mínimo viable (PMV). Un PMV te permite probar un nicho con una inversión mínima de tiempo y confirmar que los compradores realmente comprarán antes de escalar la producción.\n\nUn PMV de imprimibles es una versión reducida de tu producto final. Si planeas crear un paquete de 50 fichas de matemáticas con tema de dinosaurios, tu PMV podría ser un paquete de 10 fichas. Si planeas una serie de cuadernos de actividades, tu PMV podría ser un solo cuaderno. La clave es que el PMV debe ser lo suficientemente bueno para venderse — no es un borrador ni un prototipo, sino un producto completo a menor escala.\n\nPublica tu PMV con un listado optimizado — título con palabras clave, descripción atractiva, imágenes en miniatura de calidad y un precio competitivo. Luego monitoriza las métricas durante 2-4 semanas: visitas al listado, tasa de conversión (ventas divididas por visitas), reseñas y preguntas de los compradores.\n\nInterpreta los resultados con cuidado. Si tu PMV genera ventas constantes incluso con pocas reseñas y sin posicionamiento orgánico establecido, el nicho tiene una demanda fuerte. Si recibe muchas visitas pero pocas ventas, el nicho tiene interés pero tu producto o precio necesita ajustes. Si no recibe visitas, tus palabras clave necesitan optimización o el volumen de búsqueda real es menor del esperado.\n\nEl PMV también te proporciona datos para optimizar el producto completo. Las preguntas de los compradores revelan qué información adicional necesitan. Las reseñas te dicen qué valoran más. Los patrones de compra (qué días y épocas vende más) informan tu estrategia de lanzamiento para el producto completo.\n\nEstablece criterios de decisión claros antes de lanzar el PMV. Por ejemplo: "Si el PMV genera al menos 10 ventas en 30 días, procederé con el paquete completo. Si genera menos de 3 ventas, descartaré este nicho. Si genera entre 3 y 10, optimizaré el listado y probaré 30 días más." Estos criterios evitan que te aferres a nichos por sesgo de confirmación.`,
     },
     {
@@ -66,11 +66,11 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Investigación de nichos en Etsy',
+      heading: `Investigación de nichos en Etsy`,
       content: `Etsy proporciona las señales de investigación más ricas para vendedores de imprimibles. Más allá del autocompletado, examina las secciones "Tendencias ahora" y "Favoritos" para identificar qué tipos de imprimibles ganan tracción. Las categorías de Etsy también revelan estructuras de nicho — navega por Papelería > Imprimibles para ver cómo Etsy organiza la demanda.\n\nUsa las herramientas de análisis de tiendas para estudiar a los vendedores más exitosos. Los vendedores con miles de reseñas han encontrado nichos rentables — analiza su catálogo de productos para ver qué categorías y temas producen. Presta atención a los productos que tienen "muy demandado" o el número de ventas visible.\n\nLas estadísticas de tu propia tienda de Etsy son una herramienta de investigación subestimada. Los términos de búsqueda que traen visitantes a tu tienda (visibles en las analíticas de Etsy) revelan lo que los compradores buscan activamente. Los términos de búsqueda con muchas impresiones pero baja tasa de clics indican demanda que tus productos actuales no satisfacen — oportunidades para nuevos productos.`,
     },
     {
-      heading: 'Investigación de nichos en Amazon KDP',
+      heading: `Investigación de nichos en Amazon KDP`,
       content: `Amazon KDP requiere un enfoque de investigación diferente porque los cuadernos de actividades compiten con libros físicos, no solo con descargas digitales. Usa la sección de Best Sellers de Amazon en "Libros de actividades infantiles" para identificar los nichos más vendidos. El ranking de ventas (BSR) te da una medida relativa del volumen de ventas — los productos con BSR por debajo de 100.000 en libros tienen ventas significativas.\n\nPublisher Rocket es la herramienta estándar para investigación de nichos en KDP. Proporciona volumen de búsqueda estimado, ingresos mensuales estimados y puntuaciones de competencia para cualquier palabra clave. Úsala para comparar nichos directamente — por ejemplo, comparar "cuaderno de actividades dinosaurios" con "cuaderno de actividades unicornios" en términos de demanda y competencia.\n\nLa función "Los clientes también compraron" de Amazon revela nichos adyacentes. Si los compradores de fichas de sumas también compran fichas de caligrafía, existe una oportunidad de venta cruzada. Documenta estos patrones de compra cruzada para identificar nichos complementarios donde puedes expandir tu catálogo.`,
     },
     {
@@ -81,15 +81,15 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Convertir la investigación en productos rentables',
+      heading: `Convertir la investigación en productos rentables`,
       content: `La investigación sin acción no genera ingresos. Establece un proceso claro para pasar de la investigación a la producción. Cuando un nicho supere tu umbral de puntuación de rentabilidad, crea un PMV en un plazo de 7 días. Este plazo te obliga a actuar mientras los datos de investigación están frescos y evita la parálisis por exceso de análisis.\n\nPrioriza los nichos que se alinean con tus capacidades de producción existentes. Si ya creas fichas de matemáticas, expandir a un nuevo tema o nivel de grado dentro de matemáticas es más eficiente que saltar a un tipo de producto completamente diferente. Cada nuevo tipo de producto tiene una curva de aprendizaje — los nichos adyacentes minimizan esta curva.\n\nUsa tus datos de investigación para optimizar los listados desde el primer día. Las palabras clave con mayor volumen de búsqueda van en el título. Los beneficios que los compradores valoran más (identificados en tu análisis de reseñas) van al principio de la descripción. Las imágenes en miniatura siguen las convenciones del nicho que identificaste en tu análisis de la competencia. Esta optimización basada en investigación te da una ventaja competitiva desde el lanzamiento.`,
     },
     {
-      heading: 'Estrategia de cartera basada en datos',
+      heading: `Estrategia de cartera basada en datos`,
       content: `Los vendedores más exitosos no dependen de un solo nicho — construyen una cartera diversificada de productos basada en sus datos de investigación. Distribuye tu producción entre nichos perennes (ingresos estables) y nichos estacionales (picos de ventas).\n\nApunta a tener productos en al menos 3-5 nichos diferentes para reducir el riesgo. Si un nicho pierde demanda o se satura, tus otros nichos mantienen tus ingresos. Tu investigación continua identifica constantemente nuevos nichos para añadir a tu cartera mientras señala nichos en declive donde deberías reducir la inversión.\n\nAnaliza la rentabilidad de tu cartera trimestralmente. Calcula los ingresos por hora de producción para cada nicho y reasigna tu tiempo hacia los nichos más rentables. Algunos vendedores descubren que el 80% de sus ingresos proviene del 20% de sus nichos — la investigación y el análisis continuos te ayudan a identificar y potenciar ese 20%.`,
     },
     {
-      heading: 'Escalar con investigación continua',
+      heading: `Escalar con investigación continua`,
       content: `A medida que tu negocio de imprimibles crece, tu proceso de investigación se convierte en una ventaja competitiva sostenible. Los vendedores que investigan de forma sistemática toman mejores decisiones de producto, entran en nichos rentables antes que la competencia y salen de nichos en declive antes de que las ventas caigan.\n\nInvierte en herramientas de investigación a medida que tus ingresos crecen. Las herramientas gratuitas (autocompletado, Google Trends) son suficientes para empezar, pero las herramientas de pago (eRank, Publisher Rocket, Sale Samurai) proporcionan datos más precisos y ahorran tiempo de investigación. Calcula el retorno de inversión: si una herramienta de $10/mes te ayuda a encontrar un nicho que genera $200/mes en ventas adicionales, el ROI es enorme.\n\nConsidera automatizar partes de tu proceso de investigación. Hojas de cálculo con fórmulas de puntuación, alertas automatizadas y plantillas de análisis estandarizadas reducen el tiempo necesario por nicho investigado. Cuanto más eficiente sea tu proceso de investigación, más nichos puedes evaluar y mejores decisiones tomarás.`,
     },
   ],
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `Mantén una rutina semanal de 1-2 horas para monitorizar tendencias y detectar oportunidades emergentes. Haz una revisión completa de tu base de datos de nichos mensualmente, actualizando las puntuaciones de rentabilidad y añadiendo nuevos descubrimientos. Antes de cada lanzamiento de producto importante, actualiza la investigación del nicho específico para confirmar que los datos siguen siendo válidos — los mercados pueden cambiar significativamente en pocas semanas, especialmente alrededor de fechas clave como la vuelta al cole.`,
     },
     {
-      question: '¿Cómo sé si un nicho está demasiado saturado?',
+      question: `¿Cómo sé si un nicho está demasiado saturado?`,
       answer: `Un nicho está saturado cuando tiene muchos competidores establecidos (miles de listados), precios en descenso constante, márgenes de beneficio bajos y poca diferenciación entre productos. Sin embargo, la saturación alta no siempre significa que debas evitar el nicho — si puedes ofrecer una calidad significativamente superior, un formato único o un ángulo diferente, puedes competir incluso en nichos concurridos. Lo que debes evitar son los nichos saturados donde no puedes identificar ninguna forma de diferenciarte.`,
     },
     {
@@ -137,44 +137,44 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: 'Selección de nichos para imprimibles' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Crear una línea de productos imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: 'Abrir una tienda Etsy de imprimibles' },
-    { pageType: 'guide', slug: 'mejores-nichos-kdp-libros-actividades', anchorText: 'Mejores nichos KDP para libros de actividades' },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Precios para productos imprimibles' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Guía para escalar tu negocio de imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Crear paquetes de fichas de ejercicios' },
-    { pageType: 'guide', slug: 'ingresos-pasivos-fichas-ejercicios', anchorText: 'ingresos recurrentes con fichas de ejercicios' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa del negocio de imprimibles' },
+    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Selección de nichos para imprimibles` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Crear una línea de productos imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Abrir una tienda Etsy de imprimibles` },
+    { pageType: 'guide', slug: `mejores-nichos-kdp-libros-actividades`, anchorText: `Mejores nichos KDP para libros de actividades` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Precios para productos imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Guía para escalar tu negocio de imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Crear paquetes de fichas de ejercicios` },
+    { pageType: 'guide', slug: `ingresos-pasivos-fichas-ejercicios`, anchorText: `ingresos recurrentes con fichas de ejercicios` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa del negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
-    { appId: 'matching', title: 'Generador de fichas de asociación', description: `Crea actividades de asociación versátiles que funcionan en múltiples nichos temáticos, ideales para probar la demanda de nuevos nichos con productos de producción rápida.` },
+    { appId: 'matching', title: `Generador de fichas de asociación`, description: `Crea actividades de asociación versátiles que funcionan en múltiples nichos temáticos, ideales para probar la demanda de nuevos nichos con productos de producción rápida.` },
     { appId: 'wordsearch', title: 'Generador de sopas de letras', description: `Produce sopas de letras temáticas que se adaptan a cualquier nicho. Un formato universal para validar la demanda en nuevos temas antes de invertir en producción completa.` },
-    { appId: 'coloring', title: 'Generador de páginas para colorear', description: `Crea páginas para colorear con amplio atractivo visual que trascienden nichos individuales, ideales para probar la demanda en categorías temáticas con mínima inversión.` },
-    { appId: 'math-worksheet', title: 'Generador de fichas de matemáticas', description: `Produce fichas de matemáticas dirigidas que permiten probar nichos específicos de nivel de grado y tipo de operación con contenido profesional.` },
+    { appId: 'coloring', title: `Generador de páginas para colorear`, description: `Crea páginas para colorear con amplio atractivo visual que trascienden nichos individuales, ideales para probar la demanda en categorías temáticas con mínima inversión.` },
+    { appId: 'math-worksheet', title: `Generador de fichas de matemáticas`, description: `Produce fichas de matemáticas dirigidas que permiten probar nichos específicos de nivel de grado y tipo de operación con contenido profesional.` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos' },
+    heroImage: { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación para investigar nichos de productos imprimibles educativos` },
     samples: [
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos', caption: 'Ejemplo de ficha de asociación — un tipo de producto con demanda consistente en múltiples nichos temáticos' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras para validar nichos de imprimibles educativos`, caption: 'Ejemplo de sopa de letras — investiga la demanda en nichos como animales, espacio y estaciones del año' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear para explorar nichos de mercado de imprimibles', caption: 'Ejemplo de página para colorear — un nicho perenne con múltiples subtemas para expansión' },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación para investigar nichos de productos imprimibles educativos`, caption: `Ejemplo de ficha de asociación — un tipo de producto con demanda consistente en múltiples nichos temáticos` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras para validar nichos de imprimibles educativos`, caption: `Ejemplo de sopa de letras — investiga la demanda en nichos como animales, espacio y estaciones del año` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear para explorar nichos de mercado de imprimibles`, caption: `Ejemplo de página para colorear — un nicho perenne con múltiples subtemas para expansión` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo investigar nichos rentables de imprimibles — proceso paso a paso`,
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Águila — imagen educativa temática', caption: 'Águila' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamenco — imagen educativa temática', caption: 'Flamenco' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Cálao — imagen educativa temática', caption: 'Cálao' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Guacamayo — imagen educativa temática', caption: 'Guacamayo' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagen educativa temática', caption: 'Avestruz' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Águila — imagen educativa temática`, caption: 'Águila' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamenco — imagen educativa temática`, caption: 'Flamenco' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Cálao — imagen educativa temática`, caption: 'Cálao' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Guacamayo — imagen educativa temática`, caption: 'Guacamayo' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Avestruz — imagen educativa temática`, caption: 'Avestruz' },
   ],
 };
 

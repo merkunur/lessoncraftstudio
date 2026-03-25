@@ -7,7 +7,7 @@ const content: AppContent = {
       `druckbare Bilder-Chiffre-Rätsel-Generator für Etsy-Verkäufer`,
       `Bildkryptogramm-Arbeitsblatt-Generator für KDP-Verleger`,
       `Geheimschrift-Rätsel mit Bildern auf Gumroad verkaufen`,
-      'Bildkryptogramm-Druckvorlagen kommerzielle Lizenz',
+      `Bildkryptogramm-Druckvorlagen kommerzielle Lizenz`,
       `Bilder-Chiffre-Generator mit sprachabhängigem Alphabet`,
     ],
     lsiKeywords: [
@@ -15,7 +15,7 @@ const content: AppContent = {
       `Druckvorlagen-Geschäft Bild-Buchstaben-Chiffre-Arbeitsblätter`,
       `kommerzieller Bildkryptogramm-Generator mit Buchstabenlegende`,
     ],
-    titleTag: 'Kryptogramm-Generator | Bilder-Chiffre-Rätsel',
+    titleTag: `Kryptogramm-Generator | Bilder-Chiffre-Rätsel`,
     metaDescription: `Kryptogramm-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bild-Buchstaben-Chiffre, deutsches Alphabet mit ä/ö/ü/ß. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -35,12 +35,12 @@ const content: AppContent = {
           `Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder eine beliebige benutzerdefinierte Größe. Wählen Sie eine Hintergrundfarbe, ein dekoratives Hintergrundthema aus der Bildbibliothek und passen Sie die Deckkraft an. Fügen Sie einen passenden Rahmen mit unabhängiger Deckkraftsteuerung hinzu. Diese Layout-Optionen verleihen Ihren Bildkryptogramm-Arbeitsblättern ein poliertes, professionelles Erscheinungsbild, bevor Sie einen einzigen Buchstaben zuordnen. Thematische Hintergründe — zum Beispiel ein Dschungel-Rahmen für Tier-Chiffren oder ein Weltraum-Thema für naturwissenschaftliche Sätze — erhöhen den visuellen Reiz und den wahrgenommenen Wert Ihrer Produkte auf Marktplätzen.`,
       },
       {
-        title: 'Geheimtext eingeben und Sprache wählen',
+        title: `Geheimtext eingeben und Sprache wählen`,
         description:
           `Geben Sie den Satz oder die Redewendung ein, die Nutzer entschlüsseln sollen. Dies ist die geheime Nachricht, die als Bilder-Chiffre verschlüsselt wird. Wählen Sie die Zielsprache — der Text sollte zur ausgewählten Sprache passen, da Nutzer ihn in lesbare Wörter entschlüsseln. Der verfügbare Zeichensatz passt sich automatisch an die Sprache an: Englisch verwendet 26 Buchstaben, Deutsch umfasst zusätzlich ä, ö, ü und ß für insgesamt 30 Buchstaben, und Französisch enthält akzentuierte Zeichen. Jeder Buchstabe in Ihrem Geheimtext wird einem Bild in der Chiffre zugeordnet. Ein deutscher Satz wie „Die Katze schläft im Garten" enthält den Umlaut ä in „schläft", der eine zusätzliche Bild-Zuordnung erfordert und die Chiffre visuell reichhaltiger macht.`,
       },
       {
-        title: 'Bilder den Buchstaben zuordnen',
+        title: `Bilder den Buchstaben zuordnen`,
         description:
           `Nutzen Sie die Auto-Zuordnung, um sofort zufällige Bilder aus dem ausgewählten Thema allen nicht zugeordneten Buchstaben zuzuweisen — ein Klick füllt die gesamte Chiffre. Alternativ können Sie die manuelle Zuordnung verwenden, um gezielt Bilder für bestimmte Buchstaben auszuwählen. Eine visuelle Übersicht zeigt alle aktuellen Zuordnungen auf einen Blick. Sie können auch eigene Bilder hochladen und jedem Buchstaben zuweisen. Der Farb- und Schwarzweiß-Themenfilter wechselt zwischen farbigen Illustrationen und Schwarzweiß-Strichzeichnungen für tintenschonende Arbeitsblätter. Bei deutschen Kryptogrammen müssen bis zu 30 Buchstaben zugeordnet werden — vier mehr als bei englischen — da ä, ö, ü und ß jeweils ein eigenes Chiffre-Bild erhalten.`,
       },
@@ -61,7 +61,7 @@ const content: AppContent = {
     title: `Hauptfunktionen des Bildkryptogramm-Arbeitsblatt-Generators`,
     features: [
       {
-        title: 'Bilder-Chiffre mit Bild-Buchstaben-Zuordnung',
+        title: `Bilder-Chiffre mit Bild-Buchstaben-Zuordnung`,
         description:
           `Jeder Buchstabe des Alphabets wird einem einzigartigen Bild zugeordnet, und der Geheimtext wird als Bildfolge dargestellt, die jeden Buchstaben ersetzt. Nutzer identifizieren jedes Bild, folgern, welchen Buchstaben es darstellt, und rekonstruieren die ursprüngliche Nachricht — eine grundsätzlich andere Herausforderung als Wortsuche oder Buchstabensalat. Die Bild-Buchstaben-Chiffre trainiert deduktives Denken, Mustererkennung und kontextuelles Schlussfolgern, während Nutzer einen mentalen Entschlüsselungsschlüssel Zuordnung für Zuordnung aufbauen. Dieser Codeknacker-Mechanismus erzeugt echte „Aha"-Momente, wenn jeder entschlüsselte Buchstabe gleichzeitig mehrere Wörter freigibt. Deutsche Kryptogramme ordnen bis zu 30 Buchstaben Bildern zu — einschließlich ä, ö, ü und ß — was visuell reichere und komplexere Chiffren erzeugt als die englische 26-Buchstaben-Version.`,
       },
@@ -76,12 +76,12 @@ const content: AppContent = {
           `Der Regler „Buchstaben aufdecken" steuert, wie viele Bild-Buchstaben-Zuordnungen als Hinweise auf dem Arbeitsblatt vorausgelöst sind. Bei null stehen Nutzer einer reinen Codeknacker-Herausforderung gegenüber, ohne Startinformationen. Bei zehn ist ein erheblicher Teil der Chiffre bereits entschlüsselt, was umfangreiche Hilfestellung für jüngere oder weniger erfahrene Löser bietet. Diese einzige Steuerung erzeugt einen gleichmäßigen Schwierigkeitsgradienten, der Bildkryptogramme für ein breites Leistungsspektrum zugänglich macht — und gleichzeitig als kraftvolle Differenzierungsachse für Produktpakete dient. Bei deutschen Kryptogrammen mit 30 Buchstaben deckt jeder aufgedeckte Buchstabe einen geringeren Prozentsatz der Gesamtchiffre ab als bei englischen mit 26 Buchstaben, was die Schwierigkeitsstufen noch feinkörniger macht.`,
       },
       {
-        title: 'Auto-Zuordnung aus 104 thematischen Sammlungen',
+        title: `Auto-Zuordnung aus 104 thematischen Sammlungen`,
         description:
           `Ein Klick auf Auto-Zuordnung ordnet sofort zufällige Bilder aus dem ausgewählten Thema jedem nicht zugeordneten Buchstaben zu. Wählen Sie aus 104 thematischen Bildsammlungen mit insgesamt mehr als 3.100 Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Berufe und Dutzende mehr. Der Farb- und Schwarzweiß-Themenfilter wechselt zwischen farbigen Illustrationen und Schwarzweiß-Strichzeichnungen für tintenschonende Arbeitsblätter. Auto-Zuordnung beschleunigt die Massenproduktion enorm: Thema auswählen, Geheimtext eingeben, und die gesamte Chiffre ist in Sekunden fertig. Bei deutschen Kryptogrammen ordnet die Auto-Zuordnung Bilder allen 30 Buchstaben zu, einschließlich der vier zusätzlichen Umlaute und dem Eszett.`,
       },
       {
-        title: 'Manuelle Bildzuordnung mit visueller Vorschau',
+        title: `Manuelle Bildzuordnung mit visueller Vorschau`,
         description:
           `Für präzise Kontrolle nutzen Sie die manuelle Zuordnung, um gezielt auszuwählen, welches Bild welchen Buchstaben darstellt. Eine visuelle Übersicht zeigt alle aktuellen Bild-Buchstaben-Zuordnungen auf einen Blick, sodass Sie Zuweisungen vor der Generierung leicht überprüfen können. Sie können auch eigene Bilder hochladen und jedem Buchstaben zuweisen, um die Chiffre über die integrierte Bibliothek hinaus zu erweitern. Manuelle Zuordnung ist ideal für thematische Kryptogramme, bei denen bestimmte Bilder das Rätselthema verstärken — Bauernhoftiere für Tier-Vokabular, Musikinstrumente für Musik-Sätze oder saisonale Symbole für Feiertags-Rätsel. Bei deutschen Kryptogrammen können Sie gezielt Bilder für ä, ö, ü und ß auswählen, die thematisch zu den anderen Zuordnungen passen.`,
       },
@@ -91,7 +91,7 @@ const content: AppContent = {
           `Der Lösungsschlüssel enthält eine einzigartige Buchstabenlegende, die jeden Buchstaben des Alphabets mit seinem zugeordneten Bild in sortierter alphabetischer Reihenfolge zeigt. Dies ist die definitive Referenz zur Lösungsüberprüfung — Nutzer oder Verkäufer können jedes Bild nachschlagen, um zu bestätigen, welchen Buchstaben es darstellt. Das Buchstabenlegenden-Format ist exklusiv für den Bildkryptogramm-Generator und bietet eine übersichtlichere, umfassendere Antwort-Referenz als die bloße Anzeige des entschlüsselten Satztextes. Bei deutschen Kryptogrammen umfasst die Legende alle 30 Buchstaben — die zusätzlichen vier Einträge für ä, ö, ü und ß machen die Legende visuell umfangreicher und professioneller als die englische Version.`,
       },
       {
-        title: 'Druckfertiger PDF- und JPEG-Export mit 400+ DPI',
+        title: `Druckfertiger PDF- und JPEG-Export mit 400+ DPI`,
         description:
           `Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt Ausgaben mit über 400 DPI bei Standardseitengrößen für gestochen scharfe, professionelle Ergebnisse. Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Größen werden alle unterstützt. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen, die für Klassenraumdruck oder Schwarzweiß-Rätselbücher ideal sind. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -104,22 +104,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Bildkryptogramm-Arbeitsblätter online verkaufen',
+    title: `Bildkryptogramm-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Kryptogramm-Pakete auf Etsy',
+        title: `Thematische Kryptogramm-Pakete auf Etsy`,
         description:
           `Erstellen Sie Sets mit 10–20 Bildkryptogramm-Arbeitsblättern, gruppiert nach Thema und Schwierigkeitsstufe. Nutzen Sie Auto-Zuordnung mit Bauernhoftier-Bildern bei Buchstaben aufdecken 5 für ein Einsteigerset, Meerestier-Bilder bei Buchstaben aufdecken 3 für Fortgeschrittene und Dinosaurier-Bilder bei Buchstaben aufdecken 0 für Experten-Herausforderungen. Fügen Sie die Buchstabenlegende-Lösungsschlüssel als Bonusdatei zu jedem Paket hinzu. Das visuelle Chiffre-Format mit thematischen Bildern hebt sich in den Etsy-Suchergebnissen deutlich von Standard-Kreuzworträtsel- oder Wortsuche-Angeboten ab. Deutsche Kryptogramme mit 30 Buchstaben und Umlauten in den Geheimtexten erzeugen visuell auffällige Rätsel, die auf Thumbnails sofort erkennbar sind. Einzelne Themenpakete kosten €3–€5, Multi-Themen-Pakete mit progressiver Schwierigkeit €12–€18.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Kryptogramm-Rätselbücher auf Amazon KDP',
+        title: `Kryptogramm-Rätselbücher auf Amazon KDP`,
         description:
           `Stellen Sie 50–100 Bildkryptogramm-Rätsel zu einem gedruckten Rätselbuch im Amazon-KDP-Format zusammen. Nutzen Sie den Regler „Buchstaben aufdecken" als Schwierigkeitskurve: Beginnen Sie Kapitel mit 8–10 aufgedeckten Buchstaben als Aufwärmübungen, steigern Sie über 3–5 aufgedeckte Buchstaben für die Mittelabschnitte bis zu null aufgedeckten Buchstaben für Experten-Herausforderungen am Ende. Gliedern Sie Kapitel nach Themen für abwechslungsreiche Inhalte und fügen Sie Buchstabenlegenden-Lösungsschlüssel am Ende des Buches ein. Kryptogramm-Rätselbücher besetzen eine weniger umkämpfte Nische als Wortsuche- oder Kreuzworträtselbücher und bieten bessere Sichtbarkeit bei niedrigerem Werbeaufwand.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Codeknacker-Stationen für Gumroad',
+        title: `Differenzierte Codeknacker-Stationen für Gumroad`,
         description:
           `Erstellen Sie gestufte Kryptogramm-Übungssets mit Buchstaben aufdecken als Differenzierungsachse. Stufe 1: 8 aufgedeckte Buchstaben, kurze Sätze, thematische Bilder. Stufe 2: 5 aufgedeckte Buchstaben, mittellange Sätze. Stufe 3: 2 aufgedeckte Buchstaben, längere Sätze. Stufe 4: 0 aufgedeckte Buchstaben, vollständige Codeknacker-Herausforderung. Verpacken Sie jede Stufe mit Buchstabenlegenden-Lösungsschlüsseln und einem Fortschrittsbogen. Der Chiffre-Mechanismus ist von Natur aus fesselnd — Nutzer erleben echte Codeknacker-Spannung, wenn jeder entschlüsselte Buchstabe mehr der Nachricht freigibt. Käufer auf Gumroad zahlen Premiumpreise für gestufte Sprachressourcen, die sofort über mehrere Leistungsgruppen einsetzbar sind.`,
         platform: 'Gumroad',
@@ -128,13 +128,13 @@ const content: AppContent = {
         title: `Mehrsprachige Kryptogramm-Produkte mit Vollzugriff`,
         description:
           `Die Vollzugriff-Lizenz schaltet alle 11 Sprachen frei, und da das Bildkryptogramm sprachabhängig ist, ändern sich sowohl der Geheimtext als auch der verfügbare Zeichensatz je nach Sprache. Ein englischer Satz wird zu einem deutschen Satz, verschlüsselt mit einem erweiterten Alphabet einschließlich ä, ö, ü und ß; ein französischer Satz verwendet ein Alphabet mit é, è, ç, à. Jede Sprachversion erzeugt ein grundsätzlich anderes Chiffre-Rätsel mit anderen Wörtern, anderen Bild-Buchstaben-Zuordnungen und einem völlig anderen Lösungserlebnis. Erstellen Sie identische Themensets in mehreren Sprachen und listen Sie jede als separates Etsy-Produkt oder KDP-Buch — elf Einnahmequellen aus einem einzigen Workflow.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (mehrsprachig)',
+        platform: `Etsy / Amazon KDP / Gumroad (mehrsprachig)`,
       },
       {
-        title: 'Vokabeltraining und Fächerübergreifendes Lernen',
+        title: `Vokabeltraining und Fächerübergreifendes Lernen`,
         description:
           `Verschlüsseln Sie Vokabelsätze, Rechtschreibübungs-Sätze oder fachspezifische Definitionen als Bildkryptogramm-Rätsel. Geben Sie jeden Satz als Geheimtext ein — „Die Mitochondrien sind das Kraftwerk der Zelle" für Biologie, „Die Mauer fiel im Jahr 1989" für Geschichte oder wöchentliche Rechtschreibwörter in einem Satz angeordnet. Stellen Sie Buchstaben aufdecken basierend auf dem Leistungsniveau jedes Nutzers ein, für sofortige Differenzierung. Das Codeknacker-Format verwandelt eintöniges Vokabellernen in eine fesselnde Rätselaktivität, und die Buchstabenlegende im Lösungsschlüssel spart wahrgenommenen Mehrwert.`,
-        platform: 'Gumroad / Shopify / Eigener Shop',
+        platform: `Gumroad / Shopify / Eigener Shop`,
       },
     ],
   },
@@ -161,7 +161,7 @@ const content: AppContent = {
         `Ja. Der Bildkryptogramm-Generator verschlüsselt ganze Sätze und Redewendungen, nicht einzelne Wörter. Nutzer entschlüsseln eine vollständige lesbare Nachricht, was kontextuelle Hinweise liefert — häufige kurze Wörter wie „der", „und" und „ist", vertraute Satzmuster und wiederkehrende Buchstaben helfen Lösern, die Chiffre zu knacken. Deutsche Sätze wie „Die Katze schläft im Garten" bieten natürliche Einstiegspunkte durch bestimmte Artikel und Präpositionen. Diese Satzebenen-Verschlüsselung macht das Rätsel befriedigender und lehrreicher als Einzelwort-Herausforderungen.`,
     },
     {
-      question: 'Kann ich eigene Bilder für die Chiffre hochladen?',
+      question: `Kann ich eigene Bilder für die Chiffre hochladen?`,
       answer:
         `Ja. Zusätzlich zu den über 3.100 integrierten Illustrationen in 104 Themen können Sie eigene Bilder hochladen und jedem Buchstaben zuweisen. Damit erstellen Sie Kryptogramme mit markenspezifischen Illustrationen, fachbezogenen Diagrammen oder jedem visuellen Inhalt, der zu Ihrer Produktnische passt.`,
     },
@@ -176,17 +176,17 @@ const content: AppContent = {
         `Themensammlungen sind in farbigen Illustrationen und Schwarzweiß-Strichzeichnungen verfügbar (gefiltert über das _bw-Suffix). Farbthemen erzeugen lebendige, visuell reichhaltige Chiffre-Rätsel, die ideal für digitale Produkte und Farbdruck sind. Schwarzweiß-Themen erzeugen tintenschonende Arbeitsblätter, die sauber auf Standard-Klassenraumdruckern drucken und gut in Schwarzweiß-Rätselbüchern funktionieren.`,
     },
     {
-      question: 'Wie funktioniert das sprachabhängige Alphabet?',
+      question: `Wie funktioniert das sprachabhängige Alphabet?`,
       answer:
         `Wenn Sie eine Sprache auswählen, passt sich der verfügbare Zeichensatz automatisch an die Buchstaben dieser Sprache an. Deutsch fügt ä, ö, ü und ß zu den Standard-26-Buchstaben hinzu und erzeugt ein 30-Buchstaben-Alphabet. Französisch fügt é, è, ç, à und weitere akzentuierte Zeichen hinzu. Jedes sprachspezifische Alphabet wird durch die Funktion getAlphabetForLocale() definiert, die sicherstellt, dass die Chiffre jeden Buchstaben abdeckt, der im Geheimtext dieser Sprache vorkommen kann. Das erweiterte deutsche Alphabet macht deutsche Kryptogramme komplexer und visuell reichhaltiger — ein genuiner Mehrwert gegenüber englischen Versionen.`,
     },
     {
-      question: 'Ist das Bildkryptogramm sprachabhängig?',
+      question: `Ist das Bildkryptogramm sprachabhängig?`,
       answer:
         `Ja. Da der Geheimtext in der ausgewählten Sprache verfasst ist und der Zeichensatz sich je nach Sprache ändert, erzeugt jede Sprachversion ein grundsätzlich anderes Chiffre-Rätsel. Die kommerzielle Lizenz umfasst nur Englisch; die Vollzugriff-Lizenz schaltet alle 11 Sprachen frei. Ein deutsches Kryptogramm verschlüsselt einen deutschen Satz mit einem erweiterten Alphabet einschließlich ä, ö, ü und ß — es ist ein grundsätzlich anderes Produkt als die englische Version mit völlig anderen Wörtern, anderen Bild-Buchstaben-Zuordnungen und einem anderen Lösungserlebnis.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — Auto-Zuordnung, manuelle Zuordnung, eigene Bilder hochladen, Buchstaben aufdecken, alle 104 Themen, die Buchstabenlegende im Lösungsschlüssel und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'alphabet-zug-arbeitsblaetter',
-      anchorText: 'Alphabet-Zug-Arbeitsblatt-Generator',
+      anchorText: `Alphabet-Zug-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'praepositionen-arbeitsblaetter',
-      anchorText: 'Präpositionen-Arbeitsblatt-Generator',
+      slug: `praepositionen-arbeitsblaetter`,
+      anchorText: `Präpositionen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'woerter-raten-arbeitsblaetter',
-      anchorText: 'Wörter-Raten-Arbeitsblatt-Generator',
+      anchorText: `Wörter-Raten-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'buchstabensalat-arbeitsblaetter',
-      anchorText: 'Buchstabensalat-Arbeitsblatt-Generator',
+      slug: `buchstabensalat-arbeitsblaetter`,
+      anchorText: `Buchstabensalat-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'wortsuche-arbeitsblaetter',
-      anchorText: 'Wortsuche-Arbeitsblatt-Generator',
+      anchorText: `Wortsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,17 +240,17 @@ const content: AppContent = {
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Die Komplettanleitung für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'idea',
       slug: 'daf-druckvorlagen-ideen',
-      anchorText: 'ESL-Druckvorlagen-Ideen für Sprachenlernen',
+      anchorText: `ESL-Druckvorlagen-Ideen für Sprachenlernen`,
     },
     {
       pageType: 'idea',
-      slug: 'heimunterricht-druckvorlagen-ideen',
+      slug: `heimunterricht-druckvorlagen-ideen`,
       anchorText: `Homeschool-Druckvorlagen-Ideen für Eltern & Verkäufer`,
     },
     {

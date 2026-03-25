@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'waldtiere-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Waldtier-Arbeitsblätter auf Etsy erstellen',
-      'Wald-Tierwelt-Druckvorlagen auf KDP verkaufen',
-      'Fuchs-Hirsch-Eule Aktivitätsblätter für Gumroad',
+      `Waldtier-Arbeitsblätter auf Etsy erstellen`,
+      `Wald-Tierwelt-Druckvorlagen auf KDP verkaufen`,
+      `Fuchs-Hirsch-Eule Aktivitätsblätter für Gumroad`,
       `Wald-Natur-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Naturthema Druckvorlagen Ganzjahres-Nische',
-      'Waldtiere-Bildungsthema Arbeitsblatt-Markt',
-      'Fuchs-Bär-Reh Lernmaterialien Etsy-Verkauf',
+      `Naturthema Druckvorlagen Ganzjahres-Nische`,
+      `Waldtiere-Bildungsthema Arbeitsblatt-Markt`,
+      `Fuchs-Bär-Reh Lernmaterialien Etsy-Verkauf`,
     ],
-    titleTag: 'Waldtiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Waldtiere-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Waldtier-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte, Plattformstrategien und Nischen-Tipps für erfolgreiche Arbeitsblatt-Verkäufer online.`,
   },
   hero: {
@@ -46,7 +46,7 @@ Preisanalysen zeigen, dass Waldtier-Druckvorlagen-Produkte einen leichten Preisa
       appId: 'find-count',
     },
     {
-      title: 'Waldtier-Wortsuche-Rätsel zum Online-Verkauf',
+      title: `Waldtier-Wortsuche-Rätsel zum Online-Verkauf`,
       description: `Waldtier-Vokabel-Wortsuchrätsel sprechen Eltern und Käufer an, die Sprachkenntnisse rund um Natur- und Lebensraumthemen aufbauen möchten. Erstellen Sie Rätsel mit Waldtiernamen, Waldlebensraum-Vokabular, Winterschlaf-Terminologie und saisonalen Naturbegriffen. Der Wortsuche-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Schwierigkeitsstufen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Wörtern für ältere Nutzer an. Saisonale Variationen wie Herbst-Waldtier-Wortsuchrätsel, Winterschlaf-Vokabular-Rätsel und Frühlings-Tierbaby-Rätsel erweitern Ihren Produktkatalog und erreichen Käufer über das ganze Jahr hinweg.`,
       appId: 'wordsearch',
     },
@@ -61,12 +61,12 @@ Preisanalysen zeigen, dass Waldtier-Druckvorlagen-Produkte einen leichten Preisa
       appId: 'addition',
     },
     {
-      title: 'Waldtier-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Waldtier-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Ausmalseiten sind ein ideales Einstiegsprodukt für waldthematische Druckvorlagen-Shops, da sie erste Bewertungen generieren und Impulskäufe von einem breiten Publikum anziehen, das sich von der Waldtier-Ästhetik angezogen fühlt. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Bären, Hirschen, Füchsen, Eulen, Kaninchen, Waschbären, Igeln, Wölfen, Elchen und Eichhörnchen in Waldszenerien. Für Etsy verkaufen Sie einzelne Seiten oder kuratierte Sets von zehn bis fünfzehn Tieren, gruppiert nach Themen wie Winterschlaftiere oder Wald-Tierbabys. Für KDP stellen Sie dreißig bis fünfzig Ausmalseiten zu Aktivitätsbüchern zusammen. Fügen Sie lehrreiche Elemente wie Tiernamen, Lebensraumfakten oder Verhaltensbezeichnungen neben den Ausmalbildern hinzu, um sich von rein dekorativen Optionen abzuheben und einen höheren Preis zu rechtfertigen.`,
       appId: 'coloring',
     },
     {
-      title: 'Waldtier-Bingo-Karten für Shop und Naturprogramme',
+      title: `Waldtier-Bingo-Karten für Shop und Naturprogramme`,
       description: `Waldtier-Bingo-Karten dienen Käufern, die Lebensraum- oder Natureinheiten durchführen, und Eltern, die waldthematische Partys oder Pfadfinderaktivitäten organisieren. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Waldtier-Vokabelliste und stellt sicher, dass keine zwei Karten für Gruppenspiele identisch sind. Verkaufen Sie Gruppensätze von fünfundzwanzig bis dreißig Karten mit einem Ansageblatt und einem Waldtier-Referenzleitfaden. Für den Naturbildungsmarkt erstellen Sie Bingo-Kits mit Waldtier-Erkennung, die Familien bei echten Naturwanderungen und Waldausflügen nutzen können. Bingo-Produkte erzeugen Wiederholungskäufe, da Käufer und Gruppenleiter regelmäßig frische Themen im Schuljahr benötigen, und ein Waldtier-Set passt natürlich zu saisonalen naturwissenschaftlichen Einheiten.`,
       appId: 'bingo',
     },
@@ -95,12 +95,12 @@ Preisanalysen zeigen, dass Waldtier-Druckvorlagen-Produkte einen leichten Preisa
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Waldtier-Druckvorlagen auf Etsy verkaufen',
+      title: `Waldtier-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Waldtier-Druckvorlagen-Angeboten, und die Waldästhetik gibt Ihnen einen starken visuellen Vorteil in Suchergebnissen. Statt breiter Titel wie „Tier-Arbeitsblätter" zielen Sie auf Long-Tail-Keywords wie „Waldtier Zählarbeitsblätter Vorschule" oder „Wald Wortsuche Druckvorlage Kindergarten". Nutzen Sie alle dreizehn Tags mit Variationen, die Waldarten, Kompetenztyp und Altersgruppe kombinieren. Fügen Sie Tags mit Bezug zum Kinderzimmer-Waldtrend hinzu, da Eltern, die mit dieser Ästhetik dekoriert haben, aktiv nach passenden Lernmaterialien suchen. Angebotsbilder, die gedruckte Wald-Arbeitsblätter in gemütlichen, naturnahen Settings zeigen, übertreffen flache digitale Vorschauen deutlich. Planen Sie neue Angebote zeitlich auf die Herbst-Nachfragespitzen von September bis November, wenn Käufer Lebensraum- und Winterschlaf-Einheiten planen, und auf Frühjahrsveröffentlichungen von März bis April für Tierbaby- und Naturerwachensthemen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Waldtier-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Waldtier-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP funktioniert am besten für Waldtier-Druckvorlagen, wenn Sie einzelne Arbeitsblätter zu zusammenhängenden Aktivitätsbüchern zusammenstellen, die Abwechslung und Wert innerhalb des Waldthemas bieten. Ein vierzig bis sechzig Seiten umfassendes Waldtier-Aktivitätsbuch, das Zählen, Ausmalen, Zuordnung, Wortsuchrätsel und Zeichenaktivitäten kombiniert, schneidet in der Kategorie Kinder-Aktivitätsbücher gut ab. Nutzen Sie die KDP-Keyword-Felder strategisch: fügen Sie „Waldtier-Aktivitätsbuch für Kinder", „Wald-Arbeitsblätter Vorschule" und artspezifische Begriffe wie „Bären-Malbuch" oder „Fuchs-Aktivitäten für Kinder" ein. Preise zwischen vier und sieben Dollar für optimale Tantiemen. Erwägen Sie die Erstellung saisonaler Waldtier-Bücher neben allgemeinen Wald-Aktivitätsbüchern, um Käufer zu erreichen, die nach Herbstaktivitäten, Winterschlaf-Themen oder Frühlings-Tierbaby-Inhalten suchen.`,
     },
     {
@@ -153,18 +153,18 @@ Preisanalysen zeigen, dass Waldtier-Druckvorlagen-Produkte einen leichten Preisa
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lernmaterial-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lernmaterial-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -173,33 +173,33 @@ Preisanalysen zeigen, dass Waldtier-Druckvorlagen-Produkte einen leichten Preisa
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'insekten-druckvorlagen-ideen',
-      anchorText: 'Insekten-Druckvorlagen: Geschäftsideen',
+      anchorText: `Insekten-Druckvorlagen: Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
-    { src: '/image-library/forest%20creatures/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Ameise — thematisches Lernbild`, caption: 'Ameise' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
+    { src: `/image-library/forest%20creatures/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
   ],
 
 

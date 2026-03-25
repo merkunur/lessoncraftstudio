@@ -7,7 +7,7 @@ const content: AppContent = {
       `druckbare Buchstaben-Durcheinander-Rätsel für Etsy-Verkäufer`,
       `Buchstaben-Umstell-Arbeitsblatt-Generator für KDP-Verleger`,
       `Wörter-Entwirren-Arbeitsblätter auf Gumroad verkaufen`,
-      'Buchstabensalat-Druckvorlagen kommerzielle Lizenz',
+      `Buchstabensalat-Druckvorlagen kommerzielle Lizenz`,
       `Buchstaben-Rätsel-Generator mit Vokal-Konsonanten-Farbcodierung`,
     ],
     lsiKeywords: [
@@ -15,7 +15,7 @@ const content: AppContent = {
       `Druckvorlagen-Geschäft Wort-Entwirr-Arbeitsblätter`,
       `kommerzieller Buchstabensalat-Generator Rechtschreibtraining`,
     ],
-    titleTag: 'Buchstabensalat-Generator | Buchstaben-Rätsel',
+    titleTag: `Buchstabensalat-Generator | Buchstaben-Rätsel`,
     metaDescription: `Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Buchstabenplättchen, Vokal-Farbcodierung, 11 Sprachen. Kostenlos testen mit.`,
   },
 
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Wählen Sie zwischen Großbuchstaben (Standard) und Kleinbuchstaben auf den gemischten Plättchen. Aktivieren Sie die Vokal-Konsonanten-Farbcodierung, um Vokale in einer Farbe und Konsonanten in einer anderen darzustellen — eine visuelle Phonik-Hilfe, die einzigartig beim Buchstabensalat ist. Bei einem Wort wie „Katze" erscheinen K(Konsonant)-A(Vokal)-T(Konsonant)-Z(Konsonant)-E(Vokal) in zwei kontrastierenden Farben, was die Buchstabentypen-Erkennung sofort fördert. Deutsche Umlaute (Ä, Ö, Ü bzw. ä, ö, ü) werden bei der Farbcodierung als Vokale erkannt und entsprechend eingefärbt. Wählen Sie alternativ Alle Schwarz für traditionelle einfarbige Plättchen. Aktivieren Sie Rätselnummern, Felder für Name und Datum, und nutzen Sie das Textwerkzeug-Panel für Titel, Anweisungen oder benutzerdefinierten Text. Wählen Sie aus sieben Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand mit einstellbarer Größe, Farbe und Umriss.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab und klicken Sie auf Lösungsschlüssel generieren, um automatisch eine gelöste Version zu erstellen, die das korrekt entworrene Wort für jedes Rätsel zeigt — alle Buchstabenplättchen in der richtigen Reihenfolge. Die Vorschau zeigt den Lösungsschlüssel direkt an, sodass Sie die Korrektheit überprüfen können, bevor Sie exportieren. Öffnen Sie dann das Download-Menü und exportieren Sie sowohl das Arbeitsblatt als auch den Lösungsschlüssel als hochauflösendes JPEG oder druckfertiges PDF. Jeder Export wird mit über 300 DPI gerendert, sodass Ihre Buchstabensalat-Arbeitsblätter gestochen scharf aussehen — ob zu Hause gedruckt, auf Etsy.de hochgeladen oder in ein Amazon-KDP-Buchstaben-Rätselbuch eingefügt.`,
       },
@@ -61,7 +61,7 @@ const content: AppContent = {
     title: `Hauptfunktionen des Buchstabensalat-Arbeitsblatt-Generators`,
     features: [
       {
-        title: 'Gemischte Buchstabenplättchen mit Bild-Hinweisen',
+        title: `Gemischte Buchstabenplättchen mit Bild-Hinweisen`,
         description:
           `Jedes Rätsel präsentiert einen Bild-Hinweis neben einem Satz durcheinander gemischter Buchstabenplättchen. Nutzer studieren das Bild, erkennen, was es darstellt, und bringen die gemischten Plättchen in die richtige Reihenfolge, um das korrekte Wort zu buchstabieren. Im Gegensatz zu Wörter-Raten, wo Nutzer leere Felder ausfüllen, gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Buchstaben-Umstellübung, die Rechtschreibgenauigkeit und Worterkennung durch handlungsorientierte Manipulation statt Deduktion aufbaut. Deutsche zusammengesetzte Substantive erzeugen besonders ansprechende Rätsel: „Schmetterling" liefert 13 durcheinander gemischte Plättchen — deutlich länger als das englische „butterfly" mit 9 Plättchen.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `Steuern Sie präzise, wie viel Unterstützung Nutzer erhalten, mit vier integrierten Schwierigkeitsstufen. Keine Hinweise (0 Buchstaben platziert) mischt jedes Plättchen für maximale Herausforderung. Leicht platziert die Hälfte der Buchstaben an der richtigen Stelle — perfekt für Leseanfänger. Normal platziert ein Viertel für ausgewogenes Üben. Schwer platziert nur ein Sechstel — genug als Starthilfe, ohne die Antwort zu verraten. Bei einem 13-Buchstaben-Wort wie „Schmetterling" platziert die Stufe Leicht sechs Buchstaben korrekt und mischt die übrigen sieben — immer noch eine echte Herausforderung. Das Mischen verschiedener Schwierigkeitsstufen innerhalb eines Pakets erzeugt eine natürliche Leicht-zu-Schwer-Progression, die Premiumpreise rechtfertigt.`,
       },
       {
-        title: 'Vokal-Konsonanten-Farbcodierung',
+        title: `Vokal-Konsonanten-Farbcodierung`,
         description:
           `Aktivieren Sie die Farbcodierungsoption, um Vokale in einer Farbe und Konsonanten in einer anderen auf den gemischten Buchstabenplättchen darzustellen — eine Funktion, die einzigartig beim Buchstabensalat unter allen Arbeitsblatt-Generatoren ist. Diese visuelle Phonik-Hilfe hilft Nutzern, Vokal-Konsonanten-Muster während des Entwirrens zu erkennen und stärkt das Bewusstsein für Buchstabentypen neben der Rechtschreibübung. Deutsche Umlaute (ä, ö, ü) werden als Vokale erkannt und entsprechend eingefärbt — bei „Löwe" erscheint Ö in der Vokalfarbe neben L und W in der Konsonantenfarbe, was visuell besonders auffällig ist. Wählen Sie Alle Schwarz für traditionelle einfarbige Plättchen, wenn Farbdifferenzierung nicht gewünscht ist. Die Farbcodierung bietet eine zusätzliche Differenzierungsdimension für Verkäufer, die phonikfokussierte Käufer auf Gumroad ansprechen.`,
       },
@@ -81,17 +81,17 @@ const content: AppContent = {
           `Die Bildbibliothek-Quelle bezieht Wörter aus thematischen Bildsammlungen — wählen Sie Tiere, Fahrzeuge oder Lebensmittel und der Bildname wird zum Wort, dessen Buchstaben durcheinander gemischt werden. Ein Bild eines Apfels erzeugt die Plättchen A-P-F-E-L, gemischt zu z.B. F-L-A-E-P, mit Vokal-Konsonanten-Farbcodierung: A(Vokal)-P(Konsonant)-F(Konsonant)-E(Vokal)-L(Konsonant). Der manuelle Bearbeitungsmodus fügt eine Anpassungsebene hinzu: Wählen Sie Bilder aus der Bibliothek und bearbeiten Sie dann jeden Anzeigenamen vor der Generierung — perfekt für vereinfachte Schreibweisen oder phonikfokussierte Wörter. Der benutzerdefinierte Wortlisten-Modus verzichtet auf Bilder und lässt Sie bis zu 8 Wörter direkt eingeben — ideal für wöchentliche Rechtschreiblisten, Fachvokabular oder Fremdsprachenübungen ohne passende Illustrationen.`,
       },
       {
-        title: '104 visuelle Themen mit 3.100+ Illustrationen',
+        title: `104 visuelle Themen mit 3.100+ Illustrationen`,
         description:
           `Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 hochauflösenden Illustrationen in 104 Themen — darunter Tiere, Fahrzeuge, Essen, Feiertage, Sport, Weltraum, Natur, Berufe, Musikinstrumente und mehr. Jedes Bild fungiert gleichzeitig als visueller Hinweis und Vokabelquelle — der Bildname wird zum Wort, das entwirrt werden muss. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden, oder durchstöbern Sie Themen, um zusammenhängende Arbeitsblatt-Sets zu erstellen. Sie können auch eigene Bilder mit benutzerdefinierten Namen hochladen, um markenspezifische oder spezialisierte Inhalte zu erstellen. Die deutschen Bildnamen umfassen Umlaute und zusammengesetzte Substantive, die besonders lange und visuell eindrucksvolle Buchstabenplättchen-Reihen erzeugen.`,
       },
       {
-        title: 'Automatische Lösungsschlüssel-Erstellung',
+        title: `Automatische Lösungsschlüssel-Erstellung`,
         description:
           `Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der das korrekt entworrene Wort für jedes Rätsel zeigt — alle Buchstabenplättchen in der richtigen Reihenfolge. Der Lösungsschlüssel-Tab bietet eine Live-Vorschau, damit Sie die Korrektheit vor dem Download überprüfen können. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei. Die Beigabe von Lösungsschlüsseln in Ihren Etsy-Paketen und KDP-Büchern steigert den professionellen Wert ohne manuellen Zusammenbau. Viele erfolgreiche Verkäufer bieten den Lösungsschlüssel als Bonus-Download an, um den wahrgenommenen Wert ihrer Pakete zu erhöhen.`,
       },
       {
-        title: 'Druckfertiger PDF- und JPEG-Export mit 300+ DPI',
+        title: `Druckfertiger PDF- und JPEG-Export mit 300+ DPI`,
         description:
           `Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit über 300 DPI bei Standardseitengrößen für gestochen scharfe, professionelle Ergebnisse. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität über Print-on-Demand-Plattformen, Etsy-Digital-Downloads und Heimdrucker unterstützt. Die hohe Auflösung stellt sicher, dass sowohl Buchstabenplättchen als auch Bild-Hinweise gestochen scharf gedruckt werden — wichtig für die Lesbarkeit bei langen deutschen Plättchenreihen.`,
       },
@@ -104,22 +104,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Buchstabensalat-Arbeitsblätter online verkaufen',
+    title: `Buchstabensalat-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Buchstabensalat-Pakete auf Etsy',
+        title: `Thematische Buchstabensalat-Pakete auf Etsy`,
         description:
           `Erstellen Sie Sets mit 10–20 Buchstabensalat-Arbeitsblättern, gruppiert nach Thema und Schwierigkeitsstufe — Bauernhoftiere auf Leicht, Meerestiere auf Normal, Dinosaurier auf Schwer — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Fügen Sie Lösungsschlüssel als Bonusdateien bei. Das Format mit gemischten Buchstabenplättchen und Bild-Hinweisen ist visuell ansprechend und hebt sich in den Etsy-Suchergebnissen von einfachen Wortlisten ab. Aktivieren Sie die Vokal-Konsonanten-Farbcodierung bei der Hälfte des Pakets für eine „Phonics-Edition" als Upsell-Option. Deutsche zusammengesetzte Substantive wie „Schmetterling" und „Feuerwehrauto" erzeugen besonders eindrucksvolle Plättchenreihen, die auf Thumbnails sofort auffallen. Einzelne Themenpakete kosten €3–€5, Multi-Themen-Pakete mit Schwierigkeitsabstufung €12–€18.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Buchstaben-Rätsel-Aktivitätsbücher auf Amazon KDP',
+        title: `Buchstaben-Rätsel-Aktivitätsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 50–100 Buchstabensalat-Rätsel zu einem gedruckten Aktivitätsbuch im Amazon-KDP-Format zusammen. Nutzen Sie progressive Schwierigkeit — beginnen Sie mit Leicht (Hälfte der Buchstaben vorplatziert) bei einfachen Wörtern wie „Hund" (4 Plättchen) und „Katze" (5 Plättchen), steigern Sie über Normal und Schwer bis zu Keine Hinweise mit langen zusammengesetzten Substantiven wie „Feuerwehrauto" (13 Plättchen) und „Schmetterling" (13 Plättchen). Gliedern Sie Kapitel nach Themen (Tiere, Essen, Fahrzeuge, Natur) für abwechslungsreiche Inhalte. Fügen Sie ein Titelblatt, eine Schwierigkeitsübersicht und einen Lösungsteil am Ende hinzu. Buchstaben-Rätsel-Bücher verkaufen sich ganzjährig konstant und profitieren von der Einzigartigkeit langer deutscher Plättchenreihen als visuelles Alleinstellungsmerkmal.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Rechtschreibübungen für Gumroad',
+        title: `Differenzierte Rechtschreibübungen für Gumroad`,
         description:
           `Erstellen Sie gestufte Buchstabensalat-Übungssets mit Schwierigkeitsstufe und Farbcodierung als Differenzierungsachsen. Stufe 1: Leicht mit farbcodierten Vokalen und Konsonanten für visuelle Lerner. Stufe 2: Normal mit Farbcodierung für mittlere Lerner. Stufe 3: Schwer mit Alle-Schwarz-Plättchen für selbstständige Rechtschreiber. Stufe 4: Keine Hinweise mit Alle-Schwarz-Plättchen für Fortgeschrittene. Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf Gumroad zahlen Premiumpreise für gestufte Buchstabensalat-Ressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können — die Farbcodierung bietet eine zusätzliche Differenzierungsdimension, die andere Arbeitsblatt-Typen nicht haben.`,
         platform: 'Gumroad',
@@ -128,30 +128,30 @@ const content: AppContent = {
         title: `Mehrsprachige Buchstabensalat-Produkte mit Vollzugriff`,
         description:
           `Die Vollzugriff-Lizenz schaltet alle 11 Sprachen frei, und da Buchstabensalat sprachabhängig ist, ändert sich das Zielwort je nach Sprache. „Hund" auf Deutsch wird zu den gemischten Plättchen N-D-H-U, während „dog" auf Englisch zu O-G-D wird — völlig unterschiedliche Plättchensätze mit unterschiedlichen Längen und Buchstabenkombinationen. Deutsche Wörter sind dabei besonders reizvoll: „Schmetterling" hat 13 Plättchen gegenüber 9 für „butterfly" auf Englisch, und Umlaute wie Ö in „Löwe" erzeugen einzigartige Farbcodierungs-Muster. Erstellen Sie identische Themensets in mehreren Sprachen und listen Sie jede als separates Etsy-Produkt oder KDP-Buch — elf Einnahmequellen aus einem einzigen Workflow.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (mehrsprachig)',
+        platform: `Etsy / Amazon KDP / Gumroad (mehrsprachig)`,
       },
       {
         title: `Rechtschreibtraining für Produkterstellung und Geschäft`,
         description:
           `Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um Buchstabensalat-Arbeitsblätter für jede Vokabelliste zu erstellen — wöchentliche Rechtschreibwörter, naturwissenschaftliche Fachbegriffe, Erdkunde-Vokabular oder Fremdsprachenübungen. Geben Sie bis zu 8 Wörter direkt ein, ohne passende Bilder zu benötigen. Passen Sie die Schwierigkeitsstufe an das Niveau jedes Nutzers an: Leicht mit farbcodierten Plättchen für visuelle Unterstützung, Keine Hinweise mit Alle-Schwarz-Plättchen für Fortgeschrittene. Drucken Sie maßgeschneiderte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der automatische Lösungsschlüssel spart wahrgenommenen Mehrwert, und das Buchstaben-Umstell-Format hält Nutzer deutlich motivierter als herkömmliche „Schreibe-das-Wort-fünfmal"-Übungen. Besonders effektiv für die Übung von Umlauten (ä, ö, ü) und dem scharfen S (ß) in deutschen Vokabeln.`,
-        platform: 'Gumroad / Shopify / Eigener Shop',
+        platform: `Gumroad / Shopify / Eigener Shop`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Wie funktioniert das Buchstabensalat-Rätsel?',
+      question: `Wie funktioniert das Buchstabensalat-Rätsel?`,
       answer:
         `Jedes Rätsel zeigt einen Bild-Hinweis neben einem Satz durcheinander gemischter Buchstabenplättchen. Nutzer studieren das Bild, um zu erkennen, was es darstellt, und bringen dann die gemischten Plättchen in die richtige Reihenfolge, um das korrekte Wort zu buchstabieren. Im Gegensatz zu Wörter-Raten, wo Nutzer leere Felder ausfüllen, gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Buchstaben-Umstellübung, die Rechtschreibgenauigkeit und Worterkennung durch handlungsorientierte Manipulation aufbaut. Deutsche Wörter wie „Schmetterling" erzeugen 13 durcheinander gemischte Plättchen für besonders anspruchsvolle Rätsel.`,
     },
     {
-      question: 'Was sind die vier Schwierigkeitsstufen?',
+      question: `Was sind die vier Schwierigkeitsstufen?`,
       answer:
         `Die vier Stufen steuern, wie viele Buchstaben bereits an der richtigen Stelle im gemischten Plättchensatz platziert sind. Keine Hinweise (0 Buchstaben) mischt jedes Plättchen für maximale Herausforderung. Leicht platziert die Hälfte der Buchstaben korrekt. Normal platziert ein Viertel. Schwer platziert ein Sechstel — gerade genug als Starthilfe. Jede Stufe erzeugt ein anderes Rätselerlebnis aus demselben Wort und erleichtert den Aufbau von Paketen mit progressiver Schwierigkeit. Bei langen deutschen Wörtern wie „Krankenhaus" (11 Plättchen) bleiben selbst auf der leichten Stufe fünf Plättchen zum Umstellen.`,
     },
     {
-      question: 'Was sind die drei Inhaltsquellen?',
+      question: `Was sind die drei Inhaltsquellen?`,
       answer:
         `Der Bildbibliothek-Modus verwendet thematische Illustrationen, deren Bildname zum Wort wird, das entwirrt werden muss — ein Katze-Bild erzeugt die gemischten Plättchen für „Katze". Der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen — perfekt für vereinfachte Schreibweisen oder alternatives Vokabular. Der benutzerdefinierte Wortlisten-Modus überspringt Bilder vollständig und lässt Sie bis zu 8 Wörter direkt eingeben — ideal für Fachvokabular, Rechtschreiblisten oder Fremdsprachenübungen ohne passende Illustrationen.`,
     },
@@ -181,12 +181,12 @@ const content: AppContent = {
         `Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine gelöste Version Ihres Arbeitsblatts zu erstellen, die das korrekt entworrene Wort für jedes Rätsel zeigt — alle Plättchen in der richtigen Reihenfolge. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau sehen und als separate JPEG- oder PDF-Datei herunterladen. Die Beigabe von Lösungsschlüsseln in Ihren Produktpaketen steigert den professionellen Wert ohne manuellen Zusammenbau.`,
     },
     {
-      question: 'Ist der Buchstabensalat-Generator sprachabhängig?',
+      question: `Ist der Buchstabensalat-Generator sprachabhängig?`,
       answer:
         `Ja. Da das zu entwirrende Wort der Bildname in der ausgewählten Sprache ist, ändert ein Sprachwechsel den gesamten Rätselinhalt vollständig. „Hund" auf Deutsch liefert die gemischten Plättchen N-D-H-U, während „dog" auf Englisch O-G-D ergibt — völlig unterschiedliche Plättchensätze. Deutsche Wörter sind durch zusammengesetzte Substantive und Umlaute besonders einzigartig: „Schmetterling" hat 13 Plättchen gegenüber 9 für „butterfly", und Ö in „Löwe" erscheint als Vokal bei der Farbcodierung. Die kommerzielle Lizenz umfasst nur Englisch; die Vollzugriff-Lizenz schaltet alle 11 Sprachen frei und macht jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle drei Inhaltsquellen, alle vier Schwierigkeitsstufen, die vollständige Bildbibliothek, Vokal-Konsonanten-Farbcodierung, Lösungsschlüssel-Erstellung und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'alphabet-zug-arbeitsblaetter',
-      anchorText: 'Alphabet-Zug-Arbeitsblatt-Generator',
+      anchorText: `Alphabet-Zug-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'praepositionen-arbeitsblaetter',
-      anchorText: 'Präpositionen-Arbeitsblatt-Generator',
+      slug: `praepositionen-arbeitsblaetter`,
+      anchorText: `Präpositionen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'woerter-raten-arbeitsblaetter',
-      anchorText: 'Wörter-Raten-Arbeitsblatt-Generator',
+      anchorText: `Wörter-Raten-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'wortsuche-arbeitsblaetter',
-      anchorText: 'Wortsuche-Arbeitsblatt-Generator',
+      anchorText: `Wortsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bildkryptogramm-arbeitsblaetter',
-      anchorText: 'Bildkryptogramm-Arbeitsblatt-Generator',
+      slug: `bildkryptogramm-arbeitsblaetter`,
+      anchorText: `Bildkryptogramm-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,23 +240,23 @@ const content: AppContent = {
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Die Komplettanleitung für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'idea',
       slug: 'daf-druckvorlagen-ideen',
-      anchorText: 'ESL-Druckvorlagen-Ideen für Sprachenlernen',
+      anchorText: `ESL-Druckvorlagen-Ideen für Sprachenlernen`,
     },
     {
       pageType: 'idea',
-      slug: 'heimunterricht-druckvorlagen-ideen',
+      slug: `heimunterricht-druckvorlagen-ideen`,
       anchorText: `Homeschool-Druckvorlagen-Ideen für Eltern & Verkäufer`,
     },
     {
       pageType: 'guide',
       slug: 'wortsuche-raetsel-erstellen',
-      anchorText: 'Wortsuche-Rätsel erstellen, die sich verkaufen',
+      anchorText: `Wortsuche-Rätsel erstellen, die sich verkaufen`,
     },
   ],
 

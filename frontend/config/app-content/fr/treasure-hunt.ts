@@ -7,14 +7,14 @@ const content: AppContent = {
       `créer des fiches chasse au trésor à vendre sur Etsy`,
       `générateur de puzzles directionnels pour éditeurs Amazon KDP`,
       `fiches chasse au trésor grille de coordonnées licence commerciale`,
-      'vendre des fiches chasse au trésor sur Gumroad',
+      `vendre des fiches chasse au trésor sur Gumroad`,
     ],
     lsiKeywords: [
       `produits numériques chasse au trésor imprimables pour entrepreneurs`,
       `générateur de puzzles directionnels à usage commercial`,
       `fiches recherche de chemin imprimables avec corrigé automatique`,
     ],
-    titleTag: 'Générateur Chasse au Trésor | Créer & Vendre',
+    titleTag: `Générateur Chasse au Trésor | Créer & Vendre`,
     metaDescription:
       `Créez des fiches chasse au trésor pour Etsy, KDP et Gumroad. Grille 5×5, deux types de directions, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.`,
   },
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: `Générateur de Fiches Chasse au Trésor pour Puzzles Directionnels de Recherche de Chemin`,
     tagline: `Générez des puzzles directionnels de recherche de chemin sur une grille de coordonnées 5×5 — deux vocabulaires de direction (Mode Simple : haut/bas/gauche/droite et Mode Cardinal : nord/sud/est/ouest), indices directionnels entièrement localisés dans 11 langues, corrigé auto-généré avec emplacement du trésor surligné, et en-têtes thématiques chasse au trésor sur 104 collections d'images.`,
     description:
-      `Créez des fiches professionnelles de chasse au trésor où les utilisateurs suivent des indices de déplacement séquentiels pour localiser un trésor caché sur une grille de coordonnées 5×5 à lettres et chiffres (lignes A–E, colonnes 1–5). Chaque puzzle disperse 6 images thématiques dans la grille comme repères visuels, puis génère une position de départ et exactement 4 déplacements directionnels menant à la case du trésor. Choisissez entre deux vocabulaires de direction : le Mode Simple utilise haut, bas, gauche et droite pour les jeunes apprenants, tandis que le Mode Cardinal utilise nord, sud, est et ouest pour un raisonnement spatial plus avancé. Le Générateur de Chasse au Trésor est sensible à la langue : changer de langue modifie à la fois le texte des instructions directionnelles et le contenu des images, toutes les directions étant entièrement traduites dans les 11 langues prises en charge. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu-vert (#2C8C7C), un titre doré (#D4A017) en police Fredoka et une description sable en police Quicksand — affichant « Chasse au Trésor » et « Suis les indices et trouve le trésor ! » dans la langue sélectionnée. Le système à double canevas génère à la fois un onglet fiche et un onglet corrigé — le corrigé met en surbrillance la case finale du trésor en jaune pâle pour que vous n'ayez jamais à la marquer manuellement. L\'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les directions et images localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d'opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de chasse au trésor sur Etsy, compiliez des cahiers de compétences directionnelles pour Amazon KDP ou créiez des activités de grille de coordonnées pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.`,
+      `Créez des fiches professionnelles de chasse au trésor où les utilisateurs suivent des indices de déplacement séquentiels pour localiser un trésor caché sur une grille de coordonnées 5×5 à lettres et chiffres (lignes A–E, colonnes 1–5). Chaque puzzle disperse 6 images thématiques dans la grille comme repères visuels, puis génère une position de départ et exactement 4 déplacements directionnels menant à la case du trésor. Choisissez entre deux vocabulaires de direction : le Mode Simple utilise haut, bas, gauche et droite pour les jeunes apprenants, tandis que le Mode Cardinal utilise nord, sud, est et ouest pour un raisonnement spatial plus avancé. Le Générateur de Chasse au Trésor est sensible à la langue : changer de langue modifie à la fois le texte des instructions directionnelles et le contenu des images, toutes les directions étant entièrement traduites dans les 11 langues prises en charge. Chaque puzzle inclut un en-tête localisé auto-généré avec un fond bleu-vert (#2C8C7C), un titre doré (#D4A017) en police Fredoka et une description sable en police Quicksand — affichant « Chasse au Trésor » et « Suis les indices et trouve le trésor ! » dans la langue sélectionnée. Le système à double canevas génère à la fois un onglet fiche et un onglet corrigé — le corrigé met en surbrillance la case finale du trésor en jaune pâle pour que vous n`ayez jamais à la marquer manuellement. L'Accès Complet déverrouille les 104 thèmes avec plus de 3 100 illustrations et les 11 langues pour les directions et images localisées. Ajoutez des thèmes de fond et des thèmes de bordure avec des contrôles d`opacité indépendants, et exportez des PDF prêts à imprimer et des JPEG à 300 DPI en format Letter, A4, Carré (1200×1200) ou dimensions personnalisées. Que vous vendiez des packs de chasse au trésor sur Etsy, compiliez des cahiers de compétences directionnelles pour Amazon KDP ou créiez des activités de grille de coordonnées pour Gumroad, ce générateur produit des puzzles professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.`,
   },
 
   howItWorks: {
@@ -40,19 +40,19 @@ const content: AppContent = {
           `Dans le panneau Configuration du Puzzle, basculez entre deux vocabulaires de direction. Le Mode Simple utilise haut, bas, gauche et droite — idéal pour les utilisateurs de maternelle et CP qui développent leur vocabulaire spatial fondamental. Le Mode Cardinal utilise nord, sud, est et ouest — adapté au CE1 et au-delà, introduisant les directions de la boussole et les compétences de lecture de carte. Les deux ensembles de directions sont entièrement traduits dans les 11 langues prises en charge, donc changer le sélecteur de langue met à jour le texte des indices directionnels sur la fiche.`,
       },
       {
-        title: 'Sélectionner les images pour la grille',
+        title: `Sélectionner les images pour la grille`,
         description:
-          `Choisissez comment remplir la grille 5×5 avec 6 images thématiques. Générer par Thème (par défaut) sélectionne automatiquement 6 images aléatoires du thème choisi et les disperse dans la grille. La Sélection Manuelle d'Images vous permet de parcourir 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes et des dizaines d\'autres — et de cliquer pour sélectionner exactement 6 images. Importer des Images Personnalisées vous permet d'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque.`,
+          `Choisissez comment remplir la grille 5×5 avec 6 images thématiques. Générer par Thème (par défaut) sélectionne automatiquement 6 images aléatoires du thème choisi et les disperse dans la grille. La Sélection Manuelle d`Images vous permet de parcourir 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes et des dizaines d'autres — et de cliquer pour sélectionner exactement 6 images. Importer des Images Personnalisées vous permet d`ajouter vos propres fichiers JPEG, PNG, GIF ou WebP aux côtés du contenu de la bibliothèque.`,
       },
       {
-        title: 'Générer le puzzle de chasse au trésor',
+        title: `Générer le puzzle de chasse au trésor`,
         description:
           `Cliquez sur Générer pour créer le puzzle de recherche de chemin sur la grille de coordonnées 5×5 (lignes A–E, colonnes 1–5). Le générateur disperse vos 6 images sélectionnées dans la grille, choisit une case de départ aléatoire et crée exactement 4 déplacements directionnels restant dans les limites de la grille. La fiche affiche 5 lignes d'instructions : « Commence à [case] » suivi de 4 indices « Déplace-toi [direction] [nombre] case(s) », terminant par « Où est le trésor ? » Un en-tête thématique apparaît en haut avec un fond bleu-vert (#2C8C7C), un titre doré (#D4A017) et un texte localisé en polices Fredoka et Quicksand.`,
       },
       {
-        title: 'Voir le corrigé et télécharger',
+        title: `Voir le corrigé et télécharger`,
         description:
-          `Passez à l'onglet Corrigé pour voir la solution avec la case finale du trésor mise en surbrillance en jaune pâle (rgba(255, 250, 205, 0.8)) et un contour gris foncé. Téléchargez les deux versions avec les quatre boutons dédiés du menu déroulant : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s'exportent à 300 DPI pour une qualité prête à imprimer. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.`,
+          `Passez à l`onglet Corrigé pour voir la solution avec la case finale du trésor mise en surbrillance en jaune pâle (rgba(255, 250, 205, 0.8)) et un contour gris foncé. Téléchargez les deux versions avec les quatre boutons dédiés du menu déroulant : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF. Les fichiers s`exportent à 300 DPI pour une qualité prête à imprimer. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production — listages Etsy, intérieurs Amazon KDP et fichiers produits Gumroad.`,
       },
     ],
   },
@@ -78,12 +78,12 @@ const content: AppContent = {
       {
         title: `Indices directionnels entièrement localisés dans 11 langues`,
         description:
-          `Tout le texte des instructions directionnelles est entièrement traduit dans les 11 langues prises en charge : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Les directions simples (haut/bas/gauche/droite) et les directions cardinales (nord/sud/est/ouest) sont toutes localisées, ainsi que l'instruction « Commence à », le verbe « Déplace-toi », l'unité « case(s) » et la question « Où est le trésor ? ». Changer le sélecteur de langue met à jour l'ensemble du texte de la fiche, produisant des puzzles directionnels authentiques en langue maternelle plutôt qu'un contenu uniquement en anglais avec des titres traduits.`,
+          `Tout le texte des instructions directionnelles est entièrement traduit dans les 11 langues prises en charge : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Les directions simples (haut/bas/gauche/droite) et les directions cardinales (nord/sud/est/ouest) sont toutes localisées, ainsi que l`instruction « Commence à », le verbe « Déplace-toi », l`unité « case(s) » et la question « Où est le trésor ? ». Changer le sélecteur de langue met à jour l`ensemble du texte de la fiche, produisant des puzzles directionnels authentiques en langue maternelle plutôt qu`un contenu uniquement en anglais avec des titres traduits.`,
       },
       {
         title: `Bibliothèque d'images avec 104 collections thématiques et plus de 3 100 illustrations`,
         description:
-          `Parcourez 104 collections d'images thématiques couvrant les animaux, la nourriture, les véhicules, la nature, les professions, les fêtes, les sports, les saisons et des dizaines d\'autres. Chaque thème fournit un ensemble coordonné d\'illustrations colorées qui peuplent la grille 5×5 comme repères visuels. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. Cliquez sur une image pour l\'ajouter à votre puzzle. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l'Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos puzzles de chasse au trésor.`,
+          `Parcourez 104 collections d`images thématiques couvrant les animaux, la nourriture, les véhicules, la nature, les professions, les fêtes, les sports, les saisons et des dizaines d'autres. Chaque thème fournit un ensemble coordonné d'illustrations colorées qui peuplent la grille 5×5 comme repères visuels. Filtrez par thème avec le menu déroulant ou recherchez des images spécifiques par mot-clé. Cliquez sur une image pour l'ajouter à votre puzzle. La Licence Commerciale inclut 10 thèmes colorés pour démarrer ; l`Accès Complet déverrouille les 104 thèmes pour une variété créative maximale dans tous vos puzzles de chasse au trésor.`,
       },
       {
         title: `En-tête thématique auto-généré avec titre doré dans 11 langues`,
@@ -102,9 +102,9 @@ const content: AppContent = {
     title: `Comment Vendre des Fiches Chasse au Trésor en Ligne`,
     cases: [
       {
-        title: 'Packs thématiques de chasse au trésor sur Etsy',
+        title: `Packs thématiques de chasse au trésor sur Etsy`,
         description:
-          `Créez des packs de chasse au trésor thématiques avec les 104 collections d'images — chasse au trésor animaux, chasse au trésor océan, chasse au trésor espace, chasse au trésor fêtes et des dizaines d\'autres. Chaque thème fournit assez d'illustrations pour plusieurs puzzles uniques puisque le générateur sélectionne aléatoirement 6 images et crée des positions de départ et des séquences de déplacement uniques par génération. Proposez 10–20 fiches de chasse au trésor par thème avec corrigés inclus, et vendez à 3 €–7 € par pack. Combinez les directions simples et cardinales dans un même pack pour une difficulté progressive.`,
+          `Créez des packs de chasse au trésor thématiques avec les 104 collections d`images — chasse au trésor animaux, chasse au trésor océan, chasse au trésor espace, chasse au trésor fêtes et des dizaines d'autres. Chaque thème fournit assez d`illustrations pour plusieurs puzzles uniques puisque le générateur sélectionne aléatoirement 6 images et crée des positions de départ et des séquences de déplacement uniques par génération. Proposez 10–20 fiches de chasse au trésor par thème avec corrigés inclus, et vendez à 3 €–7 € par pack. Combinez les directions simples et cardinales dans un même pack pour une difficulté progressive.`,
         platform: 'Etsy (etsy.fr)',
       },
       {
@@ -116,20 +116,20 @@ const content: AppContent = {
       {
         title: `Ensembles de chasse au trésor multilingues avec directions localisées`,
         description:
-          `Exploitez les indices directionnels entièrement localisés pour créer des fiches de chasse au trésor dans 11 langues. La même structure de puzzle produit un contenu authentique en langue maternelle quand vous changez de langue — directions, instructions et étiquettes d'images se mettent toutes à jour automatiquement. Créez des packs multilingues de chasse au trésor où chaque version linguistique utilise les mêmes images thématiques mais un texte directionnel localisé. C\'est idéal pour les classes FLE vendeur le vocabulaire directionnel, les familles bilingues et les programmes d'instruction en famille internationaux. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.`,
-        platform: 'Etsy / Gumroad (marché multilingue)',
+          `Exploitez les indices directionnels entièrement localisés pour créer des fiches de chasse au trésor dans 11 langues. La même structure de puzzle produit un contenu authentique en langue maternelle quand vous changez de langue — directions, instructions et étiquettes d`images se mettent toutes à jour automatiquement. Créez des packs multilingues de chasse au trésor où chaque version linguistique utilise les mêmes images thématiques mais un texte directionnel localisé. C'est idéal pour les classes FLE vendeur le vocabulaire directionnel, les familles bilingues et les programmes d`instruction en famille internationaux. Vendez des packs par langue ou des méga-packs multilingues à des prix premium.`,
+        platform: `Etsy / Gumroad (marché multilingue)`,
       },
       {
         title: `Packs d'activités grille de coordonnées pour Gumroad`,
         description:
-          `Construisez des ensembles d'activités de grille de coordonnées prêts à l'emploi qui enseignent le raisonnement spatial et les compétences cartographiques. La grille 5×5 à lettres et chiffres (lignes A–E, colonnes 1–5) initie les utilisateurs aux systèmes de coordonnées utilisés en géographie, mathématiques et sciences. Les vendeurs recherchant des activités de grille de coordonnées sur Gumroad apprécient les fiches avec des grilles visuelles claires, des instructions séquentielles et des corrigés imprimés. Créez des ensembles alignés sur le programme : associez des chasses au trésor en directions simples avec des versions en directions cardinales pour une pédagogie différenciée. Chaque ensemble inclut les fiches utilisateurs et les corrigés en PDF et JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+          `Construisez des ensembles d`activités de grille de coordonnées prêts à l`emploi qui enseignent le raisonnement spatial et les compétences cartographiques. La grille 5×5 à lettres et chiffres (lignes A–E, colonnes 1–5) initie les utilisateurs aux systèmes de coordonnées utilisés en géographie, mathématiques et sciences. Les vendeurs recherchant des activités de grille de coordonnées sur Gumroad apprécient les fiches avec des grilles visuelles claires, des instructions séquentielles et des corrigés imprimés. Créez des ensembles alignés sur le programme : associez des chasses au trésor en directions simples avec des versions en directions cardinales pour une pédagogie différenciée. Chaque ensemble inclut les fiches utilisateurs et les corrigés en PDF et JPEG.`,
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Collections saisonnières de chasse au trésor',
+        title: `Collections saisonnières de chasse au trésor`,
         description:
-          `Les 104 collections d'images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d'été et bien d'autres. Créez des collections de chasse au trésor limitées dans le temps qui correspondent aux pics d\'achats saisonniers. Lancez les packs Halloween en septembre, les collections Noël en octobre et les packs Saint-Valentin en janvier. Incluez les directions simples et cardinales dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers permettent des prix plus élevés pendant leurs fenêtres de pic et génèrent des raisons naturelles d'achats récurrents.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonnier)',
+          `Les 104 collections d`images thématiques couvrent chaque occasion saisonnière et festive — Noël, Halloween, Pâques, Saint-Valentin, rentrée des classes, vacances d`été et bien d`autres. Créez des collections de chasse au trésor limitées dans le temps qui correspondent aux pics d'achats saisonniers. Lancez les packs Halloween en septembre, les collections Noël en octobre et les packs Saint-Valentin en janvier. Incluez les directions simples et cardinales dans chaque ensemble saisonnier pour une valeur maximale. Les produits saisonniers permettent des prix plus élevés pendant leurs fenêtres de pic et génèrent des raisons naturelles d`achats récurrents.`,
+        platform: `Etsy / Amazon KDP / Gumroad (saisonnier)`,
       },
     ],
   },
@@ -141,7 +141,7 @@ const content: AppContent = {
         `Une fiche chasse au trésor est un puzzle de recherche de chemin sur une grille de coordonnées 5×5 étiquetée avec des lignes lettres (A–E) et des colonnes chiffres (1–5). Six images thématiques sont dispersées dans la grille comme repères visuels. La fiche fournit 5 lignes d'instructions : une position de départ (par exemple, « Commence à A3 »), exactement 4 déplacements directionnels (par exemple, « Déplace-toi vers le bas de 2 cases ») et une question finale « Où est le trésor ? » Les utilisateurs suivent les indices séquentiels sur la grille pour déterminer quelle case contient le trésor.`,
     },
     {
-      question: 'Comment fonctionne la grille de coordonnées 5×5 ?',
+      question: `Comment fonctionne la grille de coordonnées 5×5 ?`,
       answer:
         `La grille se compose de 25 cases disposées en 5 lignes (étiquetées A à E) et 5 colonnes (étiquetées 1 à 5). Chaque case est identifiée par une coordonnée lettre-chiffre comme A1, B3 ou E5. Six images thématiques occupent 6 des 25 cases comme repères visuels. La position de départ et les 4 déplacements restent dans les limites de la grille (lignes A–E, colonnes 1–5), garantissant que chaque puzzle est résoluble. Ce système de coordonnées lettre-chiffre initie les utilisateurs aux compétences de référencement par grille utilisées dans les cartes, les tableaux et les mathématiques.`,
     },
@@ -153,12 +153,12 @@ const content: AppContent = {
     {
       question: `Pourquoi chaque puzzle a-t-il exactement 4 déplacements ?`,
       answer:
-        `La structure cohérente à 4 déplacements crée un format de puzzle standardisé qui fonctionne de manière fiable sur la grille 5×5. Quatre déplacements offrent assez de complexité pour une recherche de chemin significative sans submerger les jeunes apprenants. Chaque puzzle suit le même format à 5 lignes d'instructions : position de départ, 4 déplacements séquentiels et la question « Où est le trésor ? ». Cette cohérence rend les fiches de chasse au trésor prévisibles pour les utilisateurs et faciles à regrouper en ensembles d'activités structurés pour les vendeurs.`,
+        `La structure cohérente à 4 déplacements crée un format de puzzle standardisé qui fonctionne de manière fiable sur la grille 5×5. Quatre déplacements offrent assez de complexité pour une recherche de chemin significative sans submerger les jeunes apprenants. Chaque puzzle suit le même format à 5 lignes d`instructions : position de départ, 4 déplacements séquentiels et la question « Où est le trésor ? ». Cette cohérence rend les fiches de chasse au trésor prévisibles pour les utilisateurs et faciles à regrouper en ensembles d`activités structurés pour les vendeurs.`,
     },
     {
       question: `Comment les 6 images sont-elles utilisées dans le puzzle ?`,
       answer:
-        `Six images thématiques sont dispersées dans les 25 cases de la grille 5×5 comme repères visuels. Elles rendent la grille visuellement attrayante et aident les utilisateurs à s'orienter en suivant les indices directionnels. Vous pouvez remplir la grille avec trois méthodes : Générer par Thème (par défaut) sélectionne automatiquement 6 images aléatoires du thème choisi, la Sélection Manuelle d\'Images vous permet de parcourir la bibliothèque et de cliquer pour choisir exactement 6 images, et Importer des Images Personnalisées vous permet d'ajouter vos propres fichiers JPEG, PNG, GIF ou WebP.`,
+        `Six images thématiques sont dispersées dans les 25 cases de la grille 5×5 comme repères visuels. Elles rendent la grille visuellement attrayante et aident les utilisateurs à s`orienter en suivant les indices directionnels. Vous pouvez remplir la grille avec trois méthodes : Générer par Thème (par défaut) sélectionne automatiquement 6 images aléatoires du thème choisi, la Sélection Manuelle d'Images vous permet de parcourir la bibliothèque et de cliquer pour choisir exactement 6 images, et Importer des Images Personnalisées vous permet d`ajouter vos propres fichiers JPEG, PNG, GIF ou WebP.`,
     },
     {
       question: `Le Générateur de Chasse au Trésor est-il sensible à la langue ?`,
@@ -168,22 +168,22 @@ const content: AppContent = {
     {
       question: `Comment les indices directionnels sont-ils localisés ?`,
       answer:
-        `Tout le vocabulaire directionnel est traduit dans 11 langues : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Les directions simples (haut/bas/gauche/droite) et les directions cardinales (nord/sud/est/ouest) ont toutes des traductions complètes, ainsi que l'instruction « Commence à », le verbe « Déplace-toi », l'unité « case(s) » et la question « Où est le trésor ? ». Par exemple, en Mode Simple allemand, « Déplace-toi vers le bas de 2 cases » devient l'équivalent allemand avec un vocabulaire directionnel natif. Le titre et la description de l'en-tête se traduisent également automatiquement.`,
+        `Tout le vocabulaire directionnel est traduit dans 11 langues : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Les directions simples (haut/bas/gauche/droite) et les directions cardinales (nord/sud/est/ouest) ont toutes des traductions complètes, ainsi que l`instruction « Commence à », le verbe « Déplace-toi », l`unité « case(s) » et la question « Où est le trésor ? ». Par exemple, en Mode Simple allemand, « Déplace-toi vers le bas de 2 cases » devient l`équivalent allemand avec un vocabulaire directionnel natif. Le titre et la description de l`en-tête se traduisent également automatiquement.`,
     },
     {
-      question: 'Comment fonctionne le corrigé auto-généré ?',
+      question: `Comment fonctionne le corrigé auto-généré ?`,
       answer:
         `Le générateur utilise un système à double canevas avec un onglet Fiche et un onglet Corrigé, chacun avec des piles annuler/rétablir séparées. La fiche affiche la grille 5×5 avec les images dispersées et les indices directionnels — prête à être résolue par les utilisateurs. Le corrigé reproduit la disposition identique et met en surbrillance la case finale du trésor en jaune pâle (rgba(255, 250, 205, 0.8)) avec un contour gris foncé, rendant la destination immédiatement visible. Les deux versions s'exportent séparément avec quatre boutons de téléchargement dédiés : worksheet.jpeg, answer_key.jpeg, worksheet.pdf et answer_key.pdf.`,
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        `Oui. Vous pouvez accéder à toutes les fonctionnalités — les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure, tous les formats de téléchargement et le mode niveaux de gris — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.`,
+        `Oui. Vous pouvez accéder à toutes les fonctionnalités — les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d`images complète, les thèmes de fond et de bordure, tous les formats de téléchargement et le mode niveaux de gris — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.`,
     },
     {
       question: `Puis-je ajouter des thèmes de fond et de bordure aux fiches de chasse au trésor ?`,
       answer:
-        `Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec un curseur d'opacité (0–1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière la grille de coordonnées et les instructions directionnelles, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d'opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison adaptée à votre design. Ces éléments visuels augmentent la qualité perçue de vos fiches de chasse au trésor pour les listages sur les plateformes de vente.`,
+        `Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec un curseur d`opacité (0–1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière la grille de coordonnées et les instructions directionnelles, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d`opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison adaptée à votre design. Ces éléments visuels augmentent la qualité perçue de vos fiches de chasse au trésor pour les listages sur les plateformes de vente.`,
     },
     {
       question: `Puis-je vendre des fiches chasse au trésor créées avec cet outil sur Etsy et Amazon KDP ?`,
@@ -191,9 +191,9 @@ const content: AppContent = {
         `Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de chasse au trésor en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les deux types de direction, la grille de coordonnées 5×5, les indices directionnels localisés, les corrigés auto-générés et les 104 collections d'images thématiques vous donnent les outils créatifs pour produire des puzzles de recherche de chemin originaux et vendables.`,
     },
     {
-      question: 'Quelle est la politique de remboursement ?',
+      question: `Quelle est la politique de remboursement ?`,
       answer:
-        `L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d'acheter une licence.`,
+        `L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d`acheter une licence.`,
     },
   ],
 
@@ -201,32 +201,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'cherche-et-compte-fiches',
-      anchorText: 'Générateur de Fiches Cherche et Compte',
+      anchorText: `Générateur de Fiches Cherche et Compte`,
     },
     {
       pageType: 'app',
       slug: 'cherche-objets-fiches',
-      anchorText: 'Générateur de Fiches Cherche Objets',
+      anchorText: `Générateur de Fiches Cherche Objets`,
     },
     {
       pageType: 'app',
       slug: 'mots-croises-images-fiches',
-      anchorText: 'Générateur de Fiches Mots Croisés en Images',
+      anchorText: `Générateur de Fiches Mots Croisés en Images`,
     },
     {
       pageType: 'app',
       slug: 'parcours-images-fiches',
-      anchorText: 'Générateur de Fiches Parcours en Images',
+      anchorText: `Générateur de Fiches Parcours en Images`,
     },
     {
       pageType: 'app',
       slug: 'prepositions-exercices-fiches',
-      anchorText: 'Générateur de Fiches Exercices de Prépositions',
+      anchorText: `Générateur de Fiches Exercices de Prépositions`,
     },
     {
       pageType: 'app',
       slug: 'puzzle-maths-fiches',
-      anchorText: 'Générateur de Fiches Puzzle Maths',
+      anchorText: `Générateur de Fiches Puzzle Maths`,
     },
     {
       pageType: 'bundle',
@@ -241,17 +241,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-idees-imprimables',
-      anchorText: 'Idées d\'imprimables camping et plein air',
+      anchorText: `Idées d'imprimables camping et plein air`,
     },
     {
       pageType: 'idea',
-      slug: 'animaux-marins-idees-imprimables',
-      anchorText: 'Idées d\'imprimables animaux marins',
+      slug: `animaux-marins-idees-imprimables`,
+      anchorText: `Idées d'imprimables animaux marins`,
     },
     {
       pageType: 'start',
-      slug: 'marketing-activite-imprimables',
-      anchorText: 'Marketing pour votre activité d\'imprimables',
+      slug: `marketing-activite-imprimables`,
+      anchorText: `Marketing pour votre activité d'imprimables`,
     },
   ],
 

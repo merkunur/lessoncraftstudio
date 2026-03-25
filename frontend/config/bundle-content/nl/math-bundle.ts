@@ -4,16 +4,16 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'wiskunde werkbladen bundel',
     secondaryKeywords: [
-      'wiskunde printable bundel voor verkopers',
+      `wiskunde printable bundel voor verkopers`,
       `wiskunde werkblad generator pakket commercieel gebruik`,
-      'printbare rekenactiviteiten bundel voor Etsy',
-      'wiskunde werkblad toolkit voor KDP verkopers',
+      `printbare rekenactiviteiten bundel voor Etsy`,
+      `wiskunde werkblad toolkit voor KDP verkopers`,
     ],
     lsiKeywords: [
-      'optelling aftrekken werkblad pakket',
-      'rekenpuzzel printbare collectie',
-      'commerciële licentie wiskunde werkbladen',
-      'bulk wiskunde werkblad creatie tool',
+      `optelling aftrekken werkblad pakket`,
+      `rekenpuzzel printbare collectie`,
+      `commerciële licentie wiskunde werkbladen`,
+      `bulk wiskunde werkblad creatie tool`,
     ],
     titleTag: `Wiskunde Werkbladen Bundel — 6 Generators | Wiskunde Meester`,
     metaDescription: `Krijg 6 wiskunde werkblad generators in één bundel. Maak optelling, aftrekken, codepuzzels, vergelijking en algebra werkbladen om te verkopen op Etsy, KDP.`,
@@ -35,15 +35,15 @@ const content: BundleContent = {
       description: `Genereer visuele aftrekwerkbladen met vier modi waaronder de unieke Doorstrepen-aanpak — gebruikers strepen fysiek afbeeldingen door om het verschil te vinden, waardoor intuïtief begrip van aftrekken als wegnemen wordt opgebouwd. Aanvullende modi dekken Afbeelding - Afbeelding, Afbeelding - Nummer en Gemengde formaten. Instelbare getalbereiken, aantal opgaven en thematische beeldsets geven je dezelfde flexibiliteit als de optellinggenerator, met aftrekkenspecifieke pedagogiek ingebouwd. De Doorstreep-modus is bijzonder populair bij verkopers in het kleuteronderwijs omdat het aftrekken verandert in een hands-on activiteit waarmee gebruikers fysiek kunnen interacteren op de geprinte pagina.`,
     },
     {
-      title: 'Code-Optelling Werkblad Generator',
+      title: `Code-Optelling Werkblad Generator`,
       description: `Produceer cryptaritmetische codebreaker-puzzels waarbij gebruikers optellingen oplossen om letters te decoderen en verborgen woorden te onthullen. Dit is de enige app in de bundel met een taalgevoelige functie: Woordonthulling-modus haalt uit woordenlijsten in alle 11 ondersteunde talen, zodat de gedecodeerde woorden overeenkomen met de werkbladtaal. Standaard Codemodus gebruikt eenvoudige letter-naar-nummer toewijzing en werkt identiek in alle talen. Stel de moeilijkheid in met getalbereiken en het aantal vergelijkingen per puzzel. Het codebreaker-formaat combineert rekenpraktijk met woordontdekking, waardoor het een opvallend product is in elke wiskunde werkbladwinkel.`,
     },
     {
-      title: 'Meer of Minder Werkblad Generator',
+      title: `Meer of Minder Werkblad Generator`,
       description: `Bouw groter-dan, kleiner-dan en gelijk-aan vergelijkingswerkbladen in drie modi. Vergelijk Groepen toont twee afbeeldingsclusters voor visuele telvergelijking. Vergelijk Getallen presenteert kale cijfers voor snellere, abstracte oefening. De unieke Controleer & Streep Groepen modus vraagt gebruikers om de grotere groep aan te vinken en de kleinere door te strepen — een tactiele, online bewezen oefening die vergelijkingsconcepten versterkt door fysieke interactie met de pagina. Instelbare getalbereiken en thematische afbeeldingen houden werkbladen gevarieerd over productvermeldingen.`,
     },
     {
-      title: 'Rekenpuzzel Werkblad Generator',
+      title: `Rekenpuzzel Werkblad Generator`,
       description: `Maak legpuzzel-raster beeldpuzzels waarbij gebruikers een rekensom op elk puzzelstuk oplossen om de volledige afbeelding samen te stellen. Rasters schalen van 2×2 (4 stukken) voor beginners tot 4×4 (16 stukken) voor gevorderde gebruikers. Elk stuk toont een vergelijking — het antwoord vertelt gebruikers waar ze het moeten plaatsen. Kies optelling, aftrekken of gemengde bewerkingen en stel het getalbereik in passend bij je doelleerjaar. De onthulafbeelding komt uit de thematische bibliotheek of je eigen uploads. Het puzzelformaat maakt rekenen als een spel in plaats van een drilloefening.`,
     },
     {
@@ -66,11 +66,11 @@ const content: BundleContent = {
       description: `Elke generator in de bundel produceert een bijbehorend antwoordblad bij elk werkblad. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad — deze bundel levert ze automatisch, wat uren handmatig werk bespaart.`,
     },
     {
-      title: 'Consistente Professionele Kwaliteit',
+      title: `Consistente Professionele Kwaliteit`,
       description: `Alle zes generators delen dezelfde ontwerp-engine: overeenkomende randen, achtergronden, lettertypen en indelingsopties. Je werkbladen zien eruit alsof ze bij een samenhangend merk horen, niet zes verschillende tools die aan elkaar zijn genaaid.`,
     },
     {
-      title: 'Verkoop Wereldwijd Zonder Vertaling',
+      title: `Verkoop Wereldwijd Zonder Vertaling`,
       description: `Vijf van de zes apps produceren puur visuele werkbladen — alleen afbeeldingen en cijfers, geen taal op de pagina. Verkoop dezelfde PDF aan kopers in elk land. Code-Optelling voegt optionele taalbewuste Woordonthulling toe voor verkopers die specifieke taalmarkten bedienen.`,
     },
     {
@@ -95,7 +95,7 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP Wiskundig Werkboek',
-      description: `Combineer werkbladen van meerdere generators in thematische KDP-werkboeken: "Groep 3 Rekenactiviteitenboek" met optelling, aftrekken en vergelijkingspagina's, of "Rekenpuzzel Collectie" die legpuzzel en algebra puzzels mixt. De consistente ontwerp-engine garandeert dat elke pagina er professioneel uniform uitziet. Genereer 50 tot 100 pagina's per werkboek in een enkele sessie, download als PDF en upload direct naar KDP. Aangezien vijf van zes generators taalonafhankelijke werkbladen produceren, verkoopt hetzelfde werkboek wereldwijd zonder vertaling.`,
+      description: `Combineer werkbladen van meerdere generators in thematische KDP-werkboeken: "Groep 3 Rekenactiviteitenboek" met optelling, aftrekken en vergelijkingspagina`s, of "Rekenpuzzel Collectie" die legpuzzel en algebra puzzels mixt. De consistente ontwerp-engine garandeert dat elke pagina er professioneel uniform uitziet. Genereer 50 tot 100 pagina`s per werkboek in een enkele sessie, download als PDF en upload direct naar KDP. Aangezien vijf van zes generators taalonafhankelijke werkbladen produceren, verkoopt hetzelfde werkboek wereldwijd zonder vertaling.`,
       platform: 'Amazon KDP',
     },
     {
@@ -104,35 +104,35 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Bijles en Thuisonderwijs Materialen',
+      title: `Bijles en Thuisonderwijs Materialen`,
       description: `Genereer verse werkbladen voor elke bijlessessie of thuisonderwijsweek. Varieer de moeilijkheid, het thema en het opgavetype zodat gebruikers nooit dezelfde pagina zien. De antwoordbladen laten ouders en bijlesverkopers werk direct controleren zonder oplossingen handmatig te berekenen. Begin met eenvoudige optelling tellen voor jongere gebruikers en vorder door aftrekken, vergelijking en algebraïsche beeldpuzzels naarmate vaardigheden zich ontwikkelen — alles vanuit dezelfde bundel.`,
     },
     {
-      title: 'Aanvullend printbare producten Verkoop',
+      title: `Aanvullend printbare producten Verkoop`,
       description: `Scholen en schoolbesturen kopen aanvullend rekenmateriaal in bulk. Maak leerjaar-afgestemde werkbladpakketten en bied ze rechtstreeks aan via je website of educatieve marktplaats. De commerciële licentie laat je aan instellingen verkopen zonder per-kopie beperkingen. Verpak werkbladen van alle zes generators in uitgebreide per-leerjaar kits die het volledige bereik van basisschool rekenstandaarden dekken.`,
     },
     {
-      title: 'Internationale Marktuitbreiding',
+      title: `Internationale Marktuitbreiding`,
       description: `Bereik kopers in niet-Nederlandstalige markten zonder je producten te vertalen. Vijf van de zes generators produceren werkbladen met alleen afbeeldingen en cijfers — geen taal op de pagina. Vermeld dezelfde PDF in internationale Etsy-winkels, gelokaliseerde KDP-marktplaatsen of regionale educatieve platforms. De Volledige Toegang tier voegt 11 interfacetalen toe voor Code-Optelling Woordonthulling, waardoor je taalspecifieke puzzelproducten kunt maken voor gerichte markten.`,
     },
   ],
 
   featureComparison: [
-    { feature: 'Alle 6 wiskunde werkblad generators', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Alle 6 wiskunde werkblad generators`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Thematische beeldsets', commercial: '10 thema\'s', fullAccess: '104 thema\'s' },
-    { feature: 'Eigen afbeeldingen uploaden (PNG/JPEG)', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Eigen afbeeldingen uploaden (PNG/JPEG)`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Automatische antwoordbladen', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'PDF en JPEG download', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Commerciële verkooprechten', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Interfacetalen', commercial: 'Alleen Engels', fullAccess: '11 talen' },
-    { feature: 'Code-Optelling Woordonthulling talen', commercial: 'Alleen Engels', fullAccess: '11 talen' },
+    { feature: `Code-Optelling Woordonthulling talen`, commercial: 'Alleen Engels', fullAccess: '11 talen' },
     { feature: 'Watermerkvrije downloads', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Levenslange updates', commercial: 'Ja', fullAccess: 'Ja' },
   ],
 
   whoIsThisFor: [
     {
-      title: 'Etsy en KDP Printable Verkopers',
+      title: `Etsy en KDP Printable Verkopers`,
       description: `Je verkoopt digitale downloads op Etsy of publiceert werkboeken op Amazon KDP en wilt een snelle, betrouwbare manier om professionele wiskunde werkbladen op schaal te produceren. De bundel geeft je zes generators en honderden themacombinaties om een diverse productcatalogus op te bouwen zonder ontwerpvaardigheden of dure software. Maak nieuwe vermeldingen in minuten in plaats van uren en houd je winkel het hele jaar door gevuld met verse, seizoensgebonden inhoud. De zes-generator aanpak betekent dat je nooit een creatieve muur raakt — wanneer één generator genoeg optelwerkbladen voor je catalogus heeft geproduceerd, schakel over naar aftrekken, puzzels of vergelijkingsactiviteiten en maak volledig nieuwe productvermeldingen met minimale inspanning.`,
     },
     {
@@ -140,7 +140,7 @@ const content: BundleContent = {
       description: `Je maakt en verkoopt educatieve materialen op Gumroad en hebt tools nodig die voldoen aan de platformverwachtingen. Elke generator produceert leerstof-afgestemde werkbladen met automatische antwoordbladen en meerdere moeilijkheidsinstellingen — precies wat Gumroad-reviewers en kopers verwachten van premium wiskunde materialen. De vier moeilijkheidsniveaus per generator maken het eenvoudig om gedifferentieerde instructiepakketten te maken waar verkopers naar zoeken per leerjaar en vaardigheid. Gumroad-kopers verwachten gepolijste, gebruiksklare klasmateriaal met consistente visuele presentatie over een productlijn — de gedeelde ontwerp-engine over alle zes generators garandeert dat je wiskunde materialen een samenhangende professionele uitstraling behouden.`,
     },
     {
-      title: 'Bijlesverkopers en Thuisonderwijsouders',
+      title: `Bijlesverkopers en Thuisonderwijsouders`,
       description: `Je hebt elke week verse, gevarieerde rekenoefeninsmaterialen nodig. In plaats van te zoeken naar generieke werkbladen die nooit helemaal passen, genereer precies wat je gebruikers nodig hebben — de juiste moeilijkheid, het juiste onderwerp, het juiste thema — in minder dan een minuut. Elke generator biedt een gratis proefversie met watermerk zodat je kunt evalueren voordat je aanschaft.`,
     },
     {
@@ -151,15 +151,15 @@ const content: BundleContent = {
 
   faq: [
     {
-      question: 'Kan ik de generators proberen voordat ik koop?',
+      question: `Kan ik de generators proberen voordat ik koop?`,
       answer: `Ja. Elke generator in de bundel biedt een gratis proefversie met volledige functionaliteit. Je kunt instellingen configureren, werkbladen bekijken en bestanden downloaden. Proefdownloads bevatten een watermerk. Het aanschaffen van een licentie verwijdert het watermerk zodat je commercieel kunt verkopen.`,
     },
     {
-      question: 'Welke formaten kan ik downloaden?',
+      question: `Welke formaten kan ik downloaden?`,
       answer: `Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. Je kunt kiezen uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of een aangepast formaat invoeren. PDF is ideaal voor meerbladzijde werkbladpakketten op Etsy en Gumroad. JPEG werkt goed voor KDP-binnenwerkpagina's en sociale media voorbeelden. Alle bestanden downloaden op printresolutie — geen opschaling of nabewerking nodig.`,
     },
     {
-      question: 'Bevatten de werkbladen antwoordbladen?',
+      question: `Bevatten de werkbladen antwoordbladen?`,
       answer: `Ja. Alle zes generators maken automatisch een bijbehorend antwoordblad voor elk werkblad. Antwoordbladen zijn een topverwachting voor kopers op Etsy en Gumroad, en ze besparen je de tijd van het handmatig oplossen van elke opgave.`,
     },
     {
@@ -175,11 +175,11 @@ const content: BundleContent = {
       answer: `Beide tiers bevatten alle zes generators met watermerkvrije downloads en commerciële verkooprechten. Commercieel geeft je 10 thematische beeldsets en alleen Engels interface. Volledige Toegang ontgrendelt alle 104 thematische beeldsets en alle 11 interfacetalen, inclusief Code-Optelling woordenschat in elke ondersteunde taal.`,
     },
     {
-      question: 'Mag ik de werkbladen die ik maak verkopen?',
+      question: `Mag ik de werkbladen die ik maak verkopen?`,
       answer: `Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen die je genereert verkopen op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Je verkoopt de werkbladen — de generatortool zelf is niet overdraagbaar.`,
     },
     {
-      question: 'Hoeveel werkbladen kan ik maken?',
+      question: `Hoeveel werkbladen kan ik maken?`,
       answer: `Er is geen limiet. Eenmaal gelicentieerd kun je zoveel werkbladen genereren als je wilt over alle zes generators. Er zijn geen per-download kosten, maandelijkse limieten of gebruiksbeperkingen. Veel verkopers genereren tientallen werkbladen per sessie om thematische productpakketten op te bouwen. Met zes generators en 100+ afbeeldingsthema's is het aantal unieke werkbladcombinaties praktisch onbeperkt.`,
     },
     {
@@ -197,14 +197,14 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optelling Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'visuele-optelsommen-werkbladen', anchorText: `Code-Optelling Werkblad Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: `Optelling Werkblad Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: `Aftrekken Werkblad Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: `visuele-optelsommen-werkbladen`, anchorText: `Code-Optelling Werkblad Generator — Volledig Overzicht` },
     { pageType: 'app', slug: 'meer-minder-werkbladen', anchorText: `Meer of Minder Werkblad Generator — Volledig Overzicht` },
     { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: `Rekenpuzzel Werkblad Generator — Volledig Overzicht` },
-    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Rekenwerkblad Generator — Volledig Overzicht' },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Gids: rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken-activiteitenboeken op Amazon KDP' },
+    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: `Rekenwerkblad Generator — Volledig Overzicht` },
+    { pageType: 'guide', slug: `reken-werkbladen-verkopen-etsy`, anchorText: `Gids: rekenwerkbladen verkopen op Etsy` },
+    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: `Reken-activiteitenboeken op Amazon KDP` },
     { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Werkbladen maken die verkopen' },
     { pageType: 'idea', slug: 'rekenfeiten-printable-ideen', anchorText: `Reken-feiten printable ideeën voor verkopers en verkopers` },
   ],
@@ -215,26 +215,26 @@ const content: BundleContent = {
       primaryAlt: `Optelwerkblad met thematische afbeeldingen die visuele telopgaven tonen`,
     },
     sampleGallery: [
-      { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: 'Optelwerkblad met thematische dierenafbeeldingen', caption: 'Optelling Werkblad' },
-      { src: `/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp`, alt: 'Aftrekwerkblad met doorstrepen telmethode', caption: 'Aftrekken Werkblad' },
-      { src: `/samples/dutch/code%20addition/Geheime%20Code%20Optellen%201.webp`, alt: 'Code-optelling puzzel met letterdecodering', caption: 'Code-Optelling Puzzel' },
-      { src: '/samples/dutch/more%20less/Meer%20Minder%201.webp', alt: 'Groter dan kleiner dan vergelijkingswerkblad', caption: 'Meer of Minder Werkblad' },
-      { src: `/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp`, alt: 'Legpuzzel-raster rekenpuzzel met vergelijkingen', caption: 'Rekenpuzzel Werkblad' },
-      { src: `/samples/dutch/math%20worksheet/Wiskundeblad%201.webp`, alt: 'Visuele algebra puzzel met afbeeldingsvariabelen', caption: 'Rekenwerkblad Puzzel' },
+      { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: `Optelwerkblad met thematische dierenafbeeldingen`, caption: 'Optelling Werkblad' },
+      { src: `/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp`, alt: `Aftrekwerkblad met doorstrepen telmethode`, caption: 'Aftrekken Werkblad' },
+      { src: `/samples/dutch/code%20addition/Geheime%20Code%20Optellen%201.webp`, alt: `Code-optelling puzzel met letterdecodering`, caption: 'Code-Optelling Puzzel' },
+      { src: `/samples/dutch/more%20less/Meer%20Minder%201.webp`, alt: `Groter dan kleiner dan vergelijkingswerkblad`, caption: 'Meer of Minder Werkblad' },
+      { src: `/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp`, alt: `Legpuzzel-raster rekenpuzzel met vergelijkingen`, caption: 'Rekenpuzzel Werkblad' },
+      { src: `/samples/dutch/math%20worksheet/Wiskundeblad%201.webp`, alt: `Visuele algebra puzzel met afbeeldingsvariabelen`, caption: 'Rekenwerkblad Puzzel' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Wiskunde Meester Pakket — Bekijk Alle 6 Generators in Actie`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Cirkel — thematische educatieve afbeelding', caption: 'Cirkel' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematische educatieve afbeelding', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Kubus — thematische educatieve afbeelding', caption: 'Kubus' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilinder — thematische educatieve afbeelding', caption: 'Cilinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Ruit — thematische educatieve afbeelding', caption: 'Ruit' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Hart — thematische educatieve afbeelding', caption: 'Hart' },
-    { src: '/image-library/shapes/heptagon.webp', alt: 'Zevenhoek — thematische educatieve afbeelding', caption: 'Zevenhoek' },
-    { src: '/image-library/shapes/hexagon.webp', alt: 'Zeshoek — thematische educatieve afbeelding', caption: 'Zeshoek' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Cirkel — thematische educatieve afbeelding`, caption: 'Cirkel' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Kegel — thematische educatieve afbeelding`, caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Kubus — thematische educatieve afbeelding`, caption: 'Kubus' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilinder — thematische educatieve afbeelding`, caption: 'Cilinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Ruit — thematische educatieve afbeelding`, caption: 'Ruit' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Hart — thematische educatieve afbeelding`, caption: 'Hart' },
+    { src: `/image-library/shapes/heptagon.webp`, alt: `Zevenhoek — thematische educatieve afbeelding`, caption: 'Zevenhoek' },
+    { src: `/image-library/shapes/hexagon.webp`, alt: `Zeshoek — thematische educatieve afbeelding`, caption: 'Zeshoek' },
   ],
 };
 

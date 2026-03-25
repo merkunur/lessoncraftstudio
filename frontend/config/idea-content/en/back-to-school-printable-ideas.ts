@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Back to School Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover back to school printable ideas to sell on Etsy, KDP, and Gumroad. product line product concepts, July-September strategies, and platform tips for sellers.`,
 
-    primaryKeyword: 'back to school printable ideas',
+    primaryKeyword: `back to school printable ideas`,
     secondaryKeywords: [
-      'back to school worksheets to sell',
-      'school printable business ideas',
-      'back to school activity sheets',
-      'sell back to school printables online',
+      `back to school worksheets to sell`,
+      `school printable business ideas`,
+      `back to school activity sheets`,
+      `sell back to school printables online`,
     ],
     lsiKeywords: [
-      'product line worksheet bundles',
+      `product line worksheet bundles`,
       'seller resource printables',
-      'school supply themed activities',
+      `school supply themed activities`,
     ],
   },
   hero: {
@@ -49,7 +49,7 @@ From a keyword research perspective, back-to-school printable searches split int
       appId: 'find-count',
     },
     {
-      title: 'Back to School Word Search Puzzles to Sell Online',
+      title: `Back to School Word Search Puzzles to Sell Online`,
       description: `product line vocabulary word searches attract buyers planning first-week activities and parents seeking educational entertainment during the school transition period when children need engaging academic warm-ups. Create puzzles featuring school-specific vocabulary like pencil, backpack, buyer, recess, homework, crayon, and notebook alongside broader academic terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more school terms for older users. Variations like school supply vocabulary, product line rules words, and subject name terminology expand your catalog to capture different buyer interests within the back-to-school niche.`,
       appId: 'wordsearch',
     },
@@ -98,12 +98,12 @@ From a keyword research perspective, back-to-school printable searches split int
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Back to School Printables on Etsy',
+      title: `Selling Back to School Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for back-to-school printable listings, and the summer shopping season creates a massive traffic surge for educational digital downloads. Publish your back-to-school listings by late June to allow Etsy search algorithms time to index and rank your products before the July demand ramp begins. Use all thirteen tags with variations combining school sub-themes, skill types, and age groups: "back to school counting worksheets preschool," "first day of school word search kindergarten," and "school supply coloring pages toddler" target specific buyer searches far more effectively than broad tags like "back to school worksheets." Create bundle-oriented listings positioning activity collections as first-week product line packs or school readiness kits. Listing images showing printed worksheets in school-themed settings with seasonal props like pencils, apples, and backpacks outperform flat digital previews and capture the preparation mindset that drives summer-to-fall educational purchases.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Back to School Activity Books on KDP',
+      title: `Publishing Back to School Activity Books on KDP`,
       description: `Amazon KDP excels for back-to-school printables because parents and gift buyers naturally add activity books to their Amazon carts alongside school supplies, backpacks, and lunchboxes. Compile individual back-to-school worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around product line themes. Use KDP keyword fields strategically: include "back to school activity book for kids," "first day of school worksheets kindergarten," and sub-theme terms like "school supply coloring book" or "educational activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as first-day-of-school gifts or school readiness preparation tools. Publish by early July to ensure your books are indexed and available before the August buying season intensifies, and consider creating multiple books targeting different age groups to capture varied search queries during the back-to-school rush.`,
     },
     {
@@ -157,32 +157,32 @@ From a keyword research perspective, back-to-school printable searches split int
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -191,18 +191,18 @@ From a keyword research perspective, back-to-school printable searches split int
     },
     {
       pageType: 'idea',
-      slug: 'valentines-day-printable-ideas',
+      slug: `valentines-day-printable-ideas`,
       anchorText: "Valentine\'s Day Printable Business Ideas",
     },
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/product line/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
-    { src: '/image-library/product line/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/product line/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: `/image-library/product line/backpack.webp`, alt: `Backpack — themed educational image`, caption: 'Backpack' },
+    { src: `/image-library/product line/binder.webp`, alt: `Binder — themed educational image`, caption: 'Binder' },
+    { src: `/image-library/product line/book.webp`, alt: `Book — themed educational image`, caption: 'Book' },
+    { src: `/image-library/product line/cabinet.webp`, alt: `Cabinet — themed educational image`, caption: 'Cabinet' },
+    { src: `/image-library/product line/calculator.webp`, alt: `Calculator — themed educational image`, caption: 'Calculator' },
+    { src: `/image-library/product line/calender.webp`, alt: `Calender — themed educational image`, caption: 'Calender' },
   ],
 
 

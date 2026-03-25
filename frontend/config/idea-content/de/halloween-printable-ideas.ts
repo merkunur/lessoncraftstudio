@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'halloween-druckvorlagen-ideen',
     secondaryKeywords: [
-      'gruselige Arbeitsblätter auf Etsy erstellen',
-      'Halloween-Aktivitätsblätter auf KDP verkaufen',
-      'Oktober-Druckvorlagen auf Gumroad anbieten',
+      `gruselige Arbeitsblätter auf Etsy erstellen`,
+      `Halloween-Aktivitätsblätter auf KDP verkaufen`,
+      `Oktober-Druckvorlagen auf Gumroad anbieten`,
       `Kürbis-Geister-Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Oktober-Nachfragespitze saisonale Druckvorlagen',
-      'gruseliges Thema Arbeitsblätter Etsy-Markt',
-      'Halloween-Saison Lernmaterialien Verkauf',
+      `Oktober-Nachfragespitze saisonale Druckvorlagen`,
+      `gruseliges Thema Arbeitsblätter Etsy-Markt`,
+      `Halloween-Saison Lernmaterialien Verkauf`,
     ],
-    titleTag: 'Halloween-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Halloween-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Halloween-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Gruselige Produktkonzepte, saisonale Strategien, Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -40,12 +40,12 @@ Um maximalen Halloween-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere
       appId: 'find-count',
     },
     {
-      title: 'Halloween-Wortsuchrätsel zum Online-Verkauf',
+      title: `Halloween-Wortsuchrätsel zum Online-Verkauf`,
       description: `Gruselige Vokabel-Wortsuchrätsel ziehen Verkäufer an, die Oktober-Gruppenaktivitäten planen, und Eltern, die während der Halloween-Saison lehrreiche Unterhaltung suchen. Erstellen Sie Rätsel mit Halloween-spezifischem Vokabular wie Kürbis, Skelett, Vampir, Werwolf, Kessel, Hexenbesen und Grabstein sowie breiteren Herbstfeier-Begriffen. Der Wortsuchrätsel-Generator ermöglicht die Kontrolle über Rastergröße und Wortzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lerner und anspruchsvolle Raster mit fünfzehn oder mehr Halloween-Begriffen für ältere Nutzer an. Variationen wie Monster-Vokabular, Spukhaus-Wörter und Süßes-oder-Saures-Begriffe erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der gruseligen saisonalen Nische abzudecken.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Halloween-Zuordnungsaktivitäten für Bildungsshops',
+      title: `Halloween-Zuordnungsaktivitäten für Bildungsshops`,
       description: `Zuordnungsarbeitsblätter mit Halloween-Themen funktionieren über mehrere Kompetenzbereiche hinweg und sind vielseitige Produkte, die das breitestmögliche Oktober-Käuferpublikum ansprechen. Erstellen Sie Sets, in denen Kinder Kostüme den richtigen Figuren zuordnen, gruselige Objekte wie Fledermäuse mit Höhlen und Hexen mit Besen verbinden oder Halloween-Süßigkeiten passenden Verpackungen zuordnen. Der Zuordnungs-Generator erstellt saubere, professionelle Layouts, die auf Standardpapier perfekt drucken. Diese Aktivitäten sprechen besonders Vorschul- und Kindergarten-Produktkäufer an, die Gruppen-Halloween-Partys planen, bei denen strukturierte Aktivitäten aufgeregte, kostümierte Kinder fokussiert und beschäftigt halten. Sets mit acht bis zwölf Zuordnungsseiten bündeln sich effektiv zum Preis von fünf bis acht Dollar, und das gruselige Thema treibt Impulskäufe im gesamten Oktober an.`,
       appId: 'matching',
     },
@@ -89,7 +89,7 @@ Um maximalen Halloween-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Halloween-Druckvorlagen auf Etsy verkaufen',
+      title: `Halloween-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität bei Halloween-Druckvorlagen-Angeboten, und die Oktober-Shopping-Saison erzeugt einen großen Besucheranstieg für digitale Bildungs-Downloads. Veröffentlichen Sie Ihre Halloween-Angebote bis Mitte August, damit die Etsy-Suchalgorithmen Zeit haben, Ihre Produkte vor dem September-Nachfrageanstieg zu indexieren und zu ranken. Nutzen Sie alle dreizehn Tags mit Variationen, die Halloween-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Halloween-Zählarbeitsblätter Vorschule", „gruseliges Wortsuchrätsel Kindergarten" und „Kürbis-Ausmalbilder Kleinkind" zielen auf spezifische Käufersuchen viel effektiver als breite Tags wie „Halloween-Arbeitsblätter". Erstellen Sie party-orientierte Angebotsvariationen, die Aktivitätspakete als Gruppen-Halloween-Partypakete oder Süßigkeitentüten-Beigaben positionieren. Angebotsbilder, die gedruckte Halloween-Arbeitsblätter in gruselig-thematischen Settings mit saisonalen Requisiten zeigen, übertreffen flache digitale Vorschauen und fangen die festliche Stimmung ein, die den Oktober-Traffic antreibt.`,
     },
     {
@@ -143,18 +143,18 @@ Um maximalen Halloween-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Um maximalen Halloween-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'weihnachten-druckvorlagen-ideen',
-      anchorText: 'Weihnachten-Druckvorlagen-Geschäftsideen',
+      slug: `weihnachten-druckvorlagen-ideen`,
+      anchorText: `Weihnachten-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 
 

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kamperen Printables Verkopen — Nichegids',
+    titleTag: `Kamperen Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende kampeer printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Buitenthema productconcepten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'kamperen printable ideeën',
     secondaryKeywords: [
       'kampeer werkbladen verkopen',
-      'kampeeractiviteiten voor verkopers',
-      'buitenthema printable business',
-      'kampeer printables verkopen op Etsy',
+      `kampeeractiviteiten voor verkopers`,
+      `buitenthema printable business`,
+      `kampeer printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'buitenavontuur educatieve werkbladen',
-      'natuur thema activiteitenpagina\'s',
-      'zomerkamp printable printbare producten',
+      `buitenavontuur educatieve werkbladen`,
+      `natuur thema activiteitenpagina's`,
+      `zomerkamp printable printbare producten`,
     ],
   },
   hero: {
-    title: 'Kamperen Printable Businessideeën voor Verkopers',
+    title: `Kamperen Printable Businessideeën voor Verkopers`,
     description: `Kamperen vertegenwoordigt een van de sterkste seizoens-plus-altijdgroene niches voor printable-ondernemers omdat het krachtige lente- en zomervraagpieken combineert met echte jaarronde buiteneducatierelevantie die de verkopen door elk kwartaal van het academische en kalenderjaar laat stromen. De universele fascinatie van kinderen voor kampvuren, tenten, wandelavonturen en natuurverkenning creëert een emotionele verbinding die consistent koop- en koopgedrag stimuleert bij ouders en verkopers over meerdere koopsegmenten heen. Het kampeerthema biedt buitengewone subthemadiepte waaronder tenten, kampvuren, marshmallows, zaklampen, kompassen, rugzakken, slaapzakken, wandelen, paden, lantaarns, kano's, vishengels, verrekijkers, dennenomen, bergen, meren, beren, herten, uilen, sterren, maan en veldfles, wat verkopers een rijk visueel vocabulaire geeft dat aansluit bij de natuurlijke liefde van kinderen voor buitenavonturen, wildernisontdekking en de gezellige opwinding van slapen onder de sterren. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De kampeer printable-niche neemt een uniek voordelige positie in voor printable-verkopers omdat het het beste van twee werelden levert: krachtige seizoensgebonden vraagpieken tijdens lente- en zomermaanden wanneer gezinnen actief campingreizen en buitenavonturen voorbereiden, gecombineerd met echte jaarronde relevantie via het buiteneducatieproductcatalogus, natuurwetenschapsunits en de duurzame fascinatie van kinderen voor kampvuren, tenten en wildernisverkenning die onafhankelijk van het werkelijke kampeerseizoen functioneert. Dit dubbele vraagpatroon creëert een omzetmodel waarin sterke seizoenspieken worden gelegd bovenop een betrouwbare basislijn, waardoor kampeer printable-verkopers voorspelbaarder inkomen hebben dan puur seizoensgebonden niches terwijl ze nog steeds profiteren van geconcentreerde koopperioden met hoog volume.
@@ -38,28 +38,28 @@ Het zomerkampsegment vertegenwoordigt een bijzonder waardevol institutioneel koo
 
   productIdeas: [
     {
-      title: 'Kampeer Telwerkbladen voor Printable Verkopers',
+      title: `Kampeer Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met tenten, kampvuren, marshmallows, rugzakken en zaklampen brengen buitenavontuuropwinding in vroege rekenoefeningen die verkopers, kampbegeleiders en ouders gretig kopen gedurende het hele jaar met pieken in lente en zomer. Gebruik de Zoek en Tel-generator om kampeerscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen kampeerplaatsen, boslandschappen en bergpanorama's. Bied sets aan op meerdere vaardigheidsniveaus: kampeervoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen tenten of groepjes dennenomen voor kinderen in groep 3. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Kampeer Woordzoekpuzzels Online Verkopen',
+      title: `Kampeer Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met kampeervocabulaire trekken verkopers aan die buitenunits of natuurwetenschapsactiviteiten plannen en kampbegeleiders die regenachtig-dagprogramma's voorbereiden. Maak puzzels met kampeertermen zoals tent, kampvuur, zaklamp, kompas, rugzak, slaapzak en wandelpad naast bredere buitennatuurterminologie. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer kampeertermen voor oudere gebruikers. Variaties zoals wildernisoverleven, kampeeruitrusting en natuurobservatieterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Kampeer Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met kampeerthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede kampeerkoperspubliek. Maak sets waarin kinderen kampeeruitrusting koppelen aan hun functie, buitendieren verbinden met hun habitat, kampvuurbenodigdheden matchen met hun gebruik, of kompasrichtingen koppelen aan hun symbolen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk scoutingleiders, kampbegeleiders en verkopers aan die buitenunits plannen. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met kampeerthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede kampeerkoperspubliek. Maak sets waarin kinderen kampeeruitrusting koppelen aan hun functie, buitendieren verbinden met hun habitat, kampvuurbenodigdheden matchen met hun gebruik, of kompasrichtingen koppelen aan hun symbolen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk scoutingleiders, kampbegeleiders en verkopers aan die buitenunits plannen. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Kampeerthema Optelwerkbladen voor Rekenverkopers',
+      title: `Kampeerthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met kampeerillustraties transformeren routinematige rekenoefeningen in buitenavonturen die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen marshmallows optellen, kampvuurthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met tenten, zaklampen en rugzakken. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met kampeervisuele context. Kampeer-rekenwerkbladen bedienen zowel rekendoelen als het buiteneducatieproductcatalogus tegelijkertijd.`,
       appId: 'addition',
     },
     {
-      title: 'Kampeer Kleurplaten voor Etsy en KDP Verkopers',
-      description: `Kleurplaten zijn een uitstekend instapproduct voor kampeer printable-winkels omdat het buitenthema gezinnen aanspreekt die kampeertrips voorbereiden en kampbegeleiders die regenachtig-dagactiviteiten nodig hebben. De Kleuren-generator maakt gedetailleerde contouren van tenten, kampvuren, dennenomen, bergen, meren, kano's, rugzakken, kompassen, uilen, herten en kampeerscènes. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals kampeeruitrusting of bosdieren. Voor KDP compileer je dertig tot vijftig kleurplaten in kampeer-activiteitenboeken gepositioneerd als reisvermaak voor kampeertrips en als cadeaus voor jonge avonturiers.`,
+      title: `Kampeer Kleurplaten voor Etsy en KDP Verkopers`,
+      description: `Kleurplaten zijn een uitstekend instapproduct voor kampeer printable-winkels omdat het buitenthema gezinnen aanspreekt die kampeertrips voorbereiden en kampbegeleiders die regenachtig-dagactiviteiten nodig hebben. De Kleuren-generator maakt gedetailleerde contouren van tenten, kampvuren, dennenomen, bergen, meren, kano`s, rugzakken, kompassen, uilen, herten en kampeerscènes. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina`s gegroepeerd per subthema zoals kampeeruitrusting of bosdieren. Voor KDP compileer je dertig tot vijftig kleurplaten in kampeer-activiteitenboeken gepositioneerd als reisvermaak voor kampeertrips en als cadeaus voor jonge avonturiers.`,
       appId: 'coloring',
     },
     {
@@ -69,7 +69,7 @@ Het zomerkampsegment vertegenwoordigt een bijzonder waardevol institutioneel koo
     },
     {
       title: `Kampeer Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en kampeerartikelen zijn perfect geschikt omdat hun onderscheidende vormen zeer herkenbaar zijn voor kinderen die vertrouwd zijn met buitenuitrusting. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen kampeervoorwerpen koppelen aan hun silhouetten: tenten, zaklampen, kampvuren, rugzakken, kompassen, verrekijkers en kano's hebben elk duidelijk verschillende contouren die boeiende puzzels maken. Verhoog de moeilijkheid door kampeerartikelen met vergelijkbare vormen op te nemen in gevorderde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten.`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en kampeerartikelen zijn perfect geschikt omdat hun onderscheidende vormen zeer herkenbaar zijn voor kinderen die vertrouwd zijn met buitenuitrusting. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen kampeervoorwerpen koppelen aan hun silhouetten: tenten, zaklampen, kampvuren, rugzakken, kompassen, verrekijkers en kano`s hebben elk duidelijk verschillende contouren die boeiende puzzels maken. Verhoog de moeilijkheid door kampeerartikelen met vergelijkbare vormen op te nemen in gevorderde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten.`,
       appId: 'shadow-match',
     },
     {
@@ -92,13 +92,13 @@ Het zomerkampsegment vertegenwoordigt een bijzonder waardevol institutioneel koo
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Kampeer Printables Verkopen op Etsy',
+      title: `Kampeer Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in kampeer printable-vermeldingen, en de combinatie van seizoenspieken en jaarronde buiteneducatievraag betekent dat je vermeldingen het hele jaar door relevant blijven met extra sterke prestaties in lente en zomer. Richt je op long-tail zoekwoorden zoals "kampvuur telwerkblad kleuters" of "kampeer woordzoeker kleuterschool" in plaats van brede tags als "kampeer werkbladen." Gebruik alle dertien tags met variaties die kampeersubthema's, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte kampeerwerkbladen tonen naast buitenspeelgoed of in een bosthema setting presteren aanzienlijk beter dan platte digitale voorbeelden. De Nederlandse markt via Etsy.nl biedt sterke kansen door de enorme populariteit van kamperen in Nederland — de ANWB-kampeercultuur en de Nederlandse traditie van schoolkampen creëren een groot en loyaal koperspubliek.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Kampeer Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor kampeerprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast kampeeruitrusting, buitenspeelgoed en natuurgidsen voor de volgende kampeertrip. Compileer individuele kampeerwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond buitenthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "kampeer activiteitenboek voor kinderen," "buitennatuur werkbladen kleuters" en subthematermen toe als "kampvuur kleurboek" of "natuur activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Kampeerboeken verkopen bijzonder sterk als reisvermaak voor autotrips naar de camping. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Kampeer Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor kampeerprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast kampeeruitrusting, buitenspeelgoed en natuurgidsen voor de volgende kampeertrip. Compileer individuele kampeerwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond buitenthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "kampeer activiteitenboek voor kinderen," "buitennatuur werkbladen kleuters" en subthematermen toe als "kampvuur kleurboek" of "natuur activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Kampeerboeken verkopen bijzonder sterk als reisvermaak voor autotrips naar de camping. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -130,8 +130,8 @@ Het zomerkampsegment vertegenwoordigt een bijzonder waardevol institutioneel koo
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de kampeerniche vanwege het dubbele vraagpatroon en het diverse koperspubliek. Etsy trekt ouders aan die kampeeractiviteiten zoeken voor familiekampeertrips, Gumroad bereikt verkopers en scoutingleiders die schoolkampen en buitenunits plannen, KDP bedient gezinnen die kampeeractiviteitenboeken kopen als reisvermaak voor de trip naar de camping. Gumroad en Shopify helpen je een eigen buitenpubliek op te bouwen. Cross-listing vermenigvuldigt je zichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke kampeersubthema\'s verkopen het beste?',
-      answer: `De bestverkopende kampeersubthema's zijn kampvuuractiviteiten, tentavonturen, natuurwandelingen en kampeeruitrusting. Kampvuurthema's zijn het populairste subthema dankzij de universele fascinatie van kinderen voor kampvuren, marshmallows roosteren en sterren kijken. Tentavonturen spreken de verbeelding aan van kinderen die dromen van slapen onder de sterren. Natuurwandelingen verbinden kamperen met wetenschapsproductcatalogus via natuurobservatie en wildlife-identificatie. In Nederland is het scoutingsegment bijzonder waardevol — Scouting Nederland heeft meer dan honderdduizend leden die regelmatig kampeeractiviteiten ondernemen en vers materiaal nodig hebben.`,
+      question: `Welke kampeersubthema's verkopen het beste?`,
+      answer: `De bestverkopende kampeersubthema`s zijn kampvuuractiviteiten, tentavonturen, natuurwandelingen en kampeeruitrusting. Kampvuurthema`s zijn het populairste subthema dankzij de universele fascinatie van kinderen voor kampvuren, marshmallows roosteren en sterren kijken. Tentavonturen spreken de verbeelding aan van kinderen die dromen van slapen onder de sterren. Natuurwandelingen verbinden kamperen met wetenschapsproductcatalogus via natuurobservatie en wildlife-identificatie. In Nederland is het scoutingsegment bijzonder waardevol — Scouting Nederland heeft meer dan honderdduizend leden die regelmatig kampeeractiviteiten ondernemen en vers materiaal nodig hebben.`,
     },
     {
       question: `Hoe maak ik efficiënt kampeerwerkbladen met generator tools?`,
@@ -147,62 +147,62 @@ Het zomerkampsegment vertegenwoordigt een bijzonder waardevol institutioneel koo
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
-      slug: 'create-treasure-hunt-worksheets',
-      anchorText: 'Professionele schattenjacht werkbladen maken',
+      slug: `create-treasure-hunt-worksheets`,
+      anchorText: `Professionele schattenjacht werkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
+      anchorText: `Zomer printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
-      anchorText: 'Bosdieren printable businessideeën',
+      slug: `forest-animals-printable-ideas`,
+      anchorText: `Bosdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'pirates-printable-ideas',
-      anchorText: 'Piraten printable businessideeën',
+      anchorText: `Piraten printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Rugzak — educatieve thema-afbeelding kamperen', caption: 'Rugzak' },
-    { src: '/image-library/camping/bear.webp', alt: 'Beer — educatieve thema-afbeelding kamperen', caption: 'Beer' },
-    { src: '/image-library/camping/binoculars.webp', alt: `Verrekijker — educatieve thema-afbeelding kamperen`, caption: 'Verrekijker' },
-    { src: '/image-library/camping/boots.webp', alt: 'Laarzen — educatieve thema-afbeelding kamperen', caption: 'Laarzen' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Blokhut — educatieve thema-afbeelding kamperen', caption: 'Blokhut' },
-    { src: '/image-library/camping/camper.webp', alt: 'Camper — educatieve thema-afbeelding kamperen', caption: 'Camper' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding kamperen`, caption: 'Rugzak' },
+    { src: `/image-library/camping/bear.webp`, alt: `Beer — educatieve thema-afbeelding kamperen`, caption: 'Beer' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Verrekijker — educatieve thema-afbeelding kamperen`, caption: 'Verrekijker' },
+    { src: `/image-library/camping/boots.webp`, alt: `Laarzen — educatieve thema-afbeelding kamperen`, caption: 'Laarzen' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Blokhut — educatieve thema-afbeelding kamperen`, caption: 'Blokhut' },
+    { src: `/image-library/camping/camper.webp`, alt: `Camper — educatieve thema-afbeelding kamperen`, caption: 'Camper' },
   ],
 
   youtubeId: '0cOPi7eajLs',

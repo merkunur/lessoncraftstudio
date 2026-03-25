@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'marketing sazonal imprimíveis',
     secondaryKeywords: [
-      'estratégia negócio imprimíveis sazonal',
+      `estratégia negócio imprimíveis sazonal`,
       'marketing fichas festividades',
-      'vendas imprimíveis regresso às aulas',
-      'calendário produtos sazonais vendedores',
+      `vendas imprimíveis regresso às aulas`,
+      `calendário produtos sazonais vendedores`,
     ],
     lsiKeywords: [
       `ciclo de procura festividades planeamento produtos sazonais períodos de venda máxima`,
@@ -55,7 +55,7 @@ const content: GuideContent = {
     },
     {
       heading: `Analisar o Desempenho do Ano Anterior para Refinar o Calendário`,
-      content: `Após cada ciclo sazonal, realize uma revisão estruturada que capture dados de desempenho e gere melhorias específicas para o ano seguinte. Este processo de refinamento ano após ano é o elemento mais valioso do planeamento sazonal porque substitui as suposições por dados históricos específicos dos seus produtos, audiência e posição no marketplace.\n\nReveja quatro categorias de dados de desempenho sazonal. Primeiro, desempenho do produto: quais os produtos sazonais que geraram as maiores receitas, o maior número de unidades vendidas e as melhores margens de lucro? Quais os produtos que tiveram um desempenho inferior relativamente ao esforço investido na sua criação? Segundo, desempenho de tempo: quando é que o tráfego sazonal começou, quando atingiu o pico e quando declinou? Os seus produtos foram lançados suficientemente cedo para capturar toda a janela de procura, ou perdeu compradores no início da época? Terceiro, desempenho de marketing: quais os canais promocionais (email, redes sociais, publicidade no marketplace) que geraram o maior tráfego e conversões sazonais? Quais as campanhas que geraram o melhor retorno sobre o investimento de tempo? Quarto, desempenho de palavras-chave: quais os termos de pesquisa sazonais que geraram mais visualizações de anúncios e vendas? Quais as palavras-chave que perdeu e que os concorrentes capturaram?\n\nDocumente descobertas específicas e acionáveis em vez de observações vagas. Em vez de registar "o Halloween correu bem", documente "as sopas de letras de Halloween geraram 340 euros em outubro, superando as fichas de matemática de Halloween por 3 para 1. Os produtos de Halloween listados antes de 15 de setembro geraram 60% mais receita do que os produtos listados após 15 de setembro. A palavra-chave 'atividades de loja de Halloween' gerou mais tráfego do que 'fichas de Halloween' — atualizar títulos para o próximo ano." Estas descobertas específicas traduzem-se diretamente em decisões melhoradas para o calendário sazonal do ano seguinte.\n\nCompare o desempenho real com o seu calendário planeado para identificar onde o planeamento foi preciso e onde precisa de ajuste. Alocou a quantidade certa de tempo de produção a cada pico sazonal? Os seus prazos de listagem deram aos produtos tempo suficiente para indexação? As suas campanhas de marketing foram lançadas no momento certo relativamente à procura? Estas comparações revelam melhorias sistemáticas: se consistentemente perde a procura de início de época, mova todos os seus prazos de produção para duas semanas mais cedo. Se determinados temas sazonais consistentemente têm um desempenho inferior, reduza o seu investimento nesses temas e redirecione o esforço para épocas de maior desempenho.\n\nMantenha um arquivo de desempenho sazonal que acumula dados ao longo dos anos. Os dados sazonais do primeiro ano fornecem uma linha de base. Os dados do segundo ano revelam se as suas melhorias estão a funcionar. A partir do terceiro ano, o seu calendário sazonal torna-se cada vez mais preciso porque é construído sobre vários anos de dados de desempenho real em vez de conselhos genéricos do setor. Esta vantagem de dados compostos é uma vantagem competitiva significativa que os vendedores mais recentes sem registos históricos não conseguem replicar.`,
+      content: `Após cada ciclo sazonal, realize uma revisão estruturada que capture dados de desempenho e gere melhorias específicas para o ano seguinte. Este processo de refinamento ano após ano é o elemento mais valioso do planeamento sazonal porque substitui as suposições por dados históricos específicos dos seus produtos, audiência e posição no marketplace.\n\nReveja quatro categorias de dados de desempenho sazonal. Primeiro, desempenho do produto: quais os produtos sazonais que geraram as maiores receitas, o maior número de unidades vendidas e as melhores margens de lucro? Quais os produtos que tiveram um desempenho inferior relativamente ao esforço investido na sua criação? Segundo, desempenho de tempo: quando é que o tráfego sazonal começou, quando atingiu o pico e quando declinou? Os seus produtos foram lançados suficientemente cedo para capturar toda a janela de procura, ou perdeu compradores no início da época? Terceiro, desempenho de marketing: quais os canais promocionais (email, redes sociais, publicidade no marketplace) que geraram o maior tráfego e conversões sazonais? Quais as campanhas que geraram o melhor retorno sobre o investimento de tempo? Quarto, desempenho de palavras-chave: quais os termos de pesquisa sazonais que geraram mais visualizações de anúncios e vendas? Quais as palavras-chave que perdeu e que os concorrentes capturaram?\n\nDocumente descobertas específicas e acionáveis em vez de observações vagas. Em vez de registar "o Halloween correu bem", documente "as sopas de letras de Halloween geraram 340 euros em outubro, superando as fichas de matemática de Halloween por 3 para 1. Os produtos de Halloween listados antes de 15 de setembro geraram 60% mais receita do que os produtos listados após 15 de setembro. A palavra-chave `atividades de loja de Halloween` gerou mais tráfego do que 'fichas de Halloween' — atualizar títulos para o próximo ano." Estas descobertas específicas traduzem-se diretamente em decisões melhoradas para o calendário sazonal do ano seguinte.\n\nCompare o desempenho real com o seu calendário planeado para identificar onde o planeamento foi preciso e onde precisa de ajuste. Alocou a quantidade certa de tempo de produção a cada pico sazonal? Os seus prazos de listagem deram aos produtos tempo suficiente para indexação? As suas campanhas de marketing foram lançadas no momento certo relativamente à procura? Estas comparações revelam melhorias sistemáticas: se consistentemente perde a procura de início de época, mova todos os seus prazos de produção para duas semanas mais cedo. Se determinados temas sazonais consistentemente têm um desempenho inferior, reduza o seu investimento nesses temas e redirecione o esforço para épocas de maior desempenho.\n\nMantenha um arquivo de desempenho sazonal que acumula dados ao longo dos anos. Os dados sazonais do primeiro ano fornecem uma linha de base. Os dados do segundo ano revelam se as suas melhorias estão a funcionar. A partir do terceiro ano, o seu calendário sazonal torna-se cada vez mais preciso porque é construído sobre vários anos de dados de desempenho real em vez de conselhos genéricos do setor. Esta vantagem de dados compostos é uma vantagem competitiva significativa que os vendedores mais recentes sem registos históricos não conseguem replicar.`,
     },
     {
       heading: `Manter Produtos Perenes Paralelamente aos Lançamentos Sazonais`,
@@ -84,7 +84,7 @@ const content: GuideContent = {
       content: `O planeamento sazonal transforma um catálogo de produtos estático num motor de receitas dinâmico que capta múltiplos picos de procura ao longo do ano. Um vendedor com 30 fichas de matemática perenes gera receitas mensais consistentes mas planas. O mesmo vendedor com essas 30 fichas perenes mais 20 variações sazonais dos seus produtos de melhor desempenho capta receitas adicionais durante cada grande pico de procura sem aumentar significativamente o esforço total de produção. Cada variação sazonal é um novo anúncio com a sua própria visibilidade de pesquisa, visando palavras-chave sazonais para as quais a versão perene não se classifica. Um único modelo de ficha de adição perene que produz variações de Halloween, Natal, Dia dos Namorados, Páscoa e regresso às aulas cria 5 oportunidades adicionais de anúncio, cada uma gerando receitas durante a sua janela sazonal respetiva. O esforço de produção por variação é mínimo ao usar modelos e geradores de fichas existentes, enquanto a contribuição cumulativa de receitas em todos os picos sazonais é substancial.`,
     },
     {
-      heading: 'Capturar Preços Premium no Início da Época',
+      heading: `Capturar Preços Premium no Início da Época`,
       content: `Os vendedores que listam produtos sazonais cedo — antes de a maioria dos concorrentes ter criado as suas ofertas sazonais — beneficiam de concorrência reduzida e receitas por unidade mais altas durante a fase de procura inicial. Quando um vendedor pesquisa fichas de matemática de Halloween em setembro e encontra apenas um punhado de opções de qualidade, esses produtos listados cedo captam vendas a preço cheio sem pressão de desconto. Em outubro, quando dezenas de concorrentes listaram os seus produtos de Halloween, a concorrência de preços intensifica-se e os compradores têm mais alternativas. A vantagem de listagem antecipada vai além dos preços: as vendas iniciais geram avaliações que melhoram a classificação na pesquisa, e os anúncios estabelecidos com histórico de vendas classificam-se mais alto do que os produtos de concorrentes recentemente listados. Construir o seu calendário de produção em torno de prazos de listagem antecipados posiciona-o como uma opção estabelecida quando a procura de pico chega em vez de um novo participante a competir contra vendedores que se prepararam mais cedo.`,
     },
     {
@@ -136,17 +136,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-redes-sociais-imprimiveis', anchorText: `Marketing nas redes sociais para vendedores de imprimíveis` },
-    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: 'Marketing no Pinterest para negócios de fichas' },
-    { pageType: 'guide', slug: 'email-marketing-imprimiveis', anchorText: 'Email marketing para vendedores de imprimíveis' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
+    { pageType: 'guide', slug: `marketing-redes-sociais-imprimiveis`, anchorText: `Marketing nas redes sociais para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: `Marketing no Pinterest para negócios de fichas` },
+    { pageType: 'guide', slug: 'email-marketing-imprimiveis', anchorText: `Email marketing para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para imprimíveis educativos` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
@@ -158,7 +158,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Produz páginas para colorir sazonais que estão entre os produtos de imprimíveis sazonais de maior procura. As páginas para colorir de festividades para Halloween, Natal, Páscoa e temas sazonais classificam-se consistentemente entre os melhores vendedores sazonais nos marketplaces de imprimíveis.`,
     },
     {
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Anjo — imagem educativa temática', caption: 'Anjo' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Sino — imagem educativa temática', caption: 'Sino' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Vela — imagem educativa temática', caption: 'Vela' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Cana de Açúcar — imagem educativa temática', caption: 'Cana de Açúcar' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Chaminé — imagem educativa temática', caption: 'Chaminé' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Anjo — imagem educativa temática`, caption: 'Anjo' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Sino — imagem educativa temática`, caption: 'Sino' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Vela — imagem educativa temática`, caption: 'Vela' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Cana de Açúcar — imagem educativa temática`, caption: 'Cana de Açúcar' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Chaminé — imagem educativa temática`, caption: 'Chaminé' },
   ],
 };
 

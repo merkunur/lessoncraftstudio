@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Dia dos Namorados para Vender',
+    titleTag: `Ideias Imprimíveis Dia dos Namorados para Vender`,
     metaDescription: `Ideias de imprimíveis do Dia dos Namorados para vender no Etsy, Amazon KDP e Gumroad. Produtos temáticos de amor, estratégias sazonais e dicas para vendedores.`,
 
-    primaryKeyword: 'ideias imprimíveis dia dos namorados',
+    primaryKeyword: `ideias imprimíveis dia dos namorados`,
     secondaryKeywords: [
-      'fichas Dia dos Namorados para vender',
-      'negócio imprimíveis Dia dos Namorados',
+      `fichas Dia dos Namorados para vender`,
+      `negócio imprimíveis Dia dos Namorados`,
       `fichas atividades Dia dos Namorados para vendedores`,
-      'vender imprimíveis do Dia dos Namorados no Etsy',
+      `vender imprimíveis do Dia dos Namorados no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática corações',
-      'atividades loja fevereiro Dia dos Namorados',
-      'imprimíveis amor e amizade para crianças',
+      `fichas educativas temática corações`,
+      `atividades loja fevereiro Dia dos Namorados`,
+      `imprimíveis amor e amizade para crianças`,
     ],
   },
   hero: {
@@ -96,7 +96,7 @@ O panorama de palavras-chave do Dia dos Namorados revela vários subnichos pouco
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis do Dia dos Namorados no Etsy',
+      title: `Vender Imprimíveis do Dia dos Namorados no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis do Dia dos Namorados, e a época de compras de inverno cria um importante pico de tráfego para as transferências digitais educativas. Publica os teus anúncios do Dia dos Namorados no final de dezembro ou início de janeiro para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em janeiro. Utiliza as treze etiquetas com variações que combinem subtemas do Dia dos Namorados, tipos de competência e grupos etários: «fichas contagem Dia dos Namorados pré-escolar», «sopa de letras amizade jardim de infância» e «páginas colorir corações infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas Dia dos Namorados». Cria variações de anúncios orientadas para celebrações posicionando os pacotes de atividades como pacotes para festas de troca de postais online ou alternativas a postais do Dia dos Namorados. As imagens de anúncios mostrando fichas do Dia dos Namorados impressas em ambientes com temática de amor e acessórios sazonais como decorações de corações e acentos vermelhos e cor-de-rosa superam as pré-visualizações digitais planas e captam a mentalidade festiva que impulsiona o tráfego de fevereiro.`,
     },
     {
@@ -154,18 +154,18 @@ O panorama de palavras-chave do Dia dos Namorados revela vários subnichos pouco
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -179,7 +179,7 @@ O panorama de palavras-chave do Dia dos Namorados revela vários subnichos pouco
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -190,17 +190,17 @@ O panorama de palavras-chave do Dia dos Namorados revela vários subnichos pouco
     {
       pageType: 'idea',
       slug: 'pascoa-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Páscoa',
+      anchorText: `Ideias de Negócio de Imprimíveis de Páscoa`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagem educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azálea — imagem educativa temática', caption: 'Azálea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begónia — imagem educativa temática', caption: 'Begónia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campainha — imagem educativa temática', caption: 'Campainha' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagem educativa temática', caption: 'Ranúnculo' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Cravo — imagem educativa temática', caption: 'Cravo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagem educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azálea — imagem educativa temática`, caption: 'Azálea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begónia — imagem educativa temática`, caption: 'Begónia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campainha — imagem educativa temática`, caption: 'Campainha' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagem educativa temática`, caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Cravo — imagem educativa temática`, caption: 'Cravo' },
   ],
 
 

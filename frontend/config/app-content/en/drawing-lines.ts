@@ -7,12 +7,12 @@ const content: AppContent = {
       `printable line tracing worksheet maker for Etsy sellers`,
       `custom drawing lines worksheet generator for KDP publishers`,
       `sell line drawing worksheets on Gumroad or your own store`,
-      'drawing lines worksheets commercial license',
+      `drawing lines worksheets commercial license`,
     ],
     lsiKeywords: [
-      'digital line tracing printables online business',
-      'printable fine motor skills worksheet business',
-      'commercial use drawing lines worksheet generator',
+      `digital line tracing printables online business`,
+      `printable fine motor skills worksheet business`,
+      `commercial use drawing lines worksheet generator`,
     ],
     titleTag: `Drawing Lines Generator | Create Tracing Worksheets`,
     metaDescription: `Create line tracing worksheets to sell on Etsy, KDP & Gumroad. Eight SVG templates, image pair matching, 104 themed collections. Try free — license available.`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Drawing Lines Worksheets in 5 Steps',
+    title: `How to Create Drawing Lines Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -39,12 +39,12 @@ const content: AppContent = {
           `Choose from eight SVG-based line templates in the Content panel. Four curve templates create flowing, sweeping line paths in landscape orientation with 4 image pairs each. Two diagonal templates produce angled lines in portrait orientation with 5 pairs. One horizontal template generates straight left-to-right lines in portrait with 5 pairs. One vertical template creates top-to-bottom lines in portrait with 4 pairs. Each template type targets a different fine motor skill — curves develop wrist flexibility, diagonals build cross-body coordination, and straight lines reinforce directional control.`,
       },
       {
-        title: 'Choose Theme Images or Auto-Fill Pairs',
+        title: `Choose Theme Images or Auto-Fill Pairs`,
         description:
           `Browse 104 themed image collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, and dozens more — or upload your own custom images. Each theme provides coordinated images that work together visually. Use Auto-Fill to randomly assign matched image pairs from the selected theme or across all themes at once, instantly populating every pair slot on the template. The auto-fill feature saves significant time when creating multiple worksheets in batch.`,
       },
       {
-        title: 'Add Text Decorations and Customize',
+        title: `Add Text Decorations and Customize`,
         description:
           `Use the Text Tools panel to add a worksheet title, name and date fields (Fredoka 18px), or custom instructions with fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Adjust font size, color, and text outline width (0–10 with 0.5 step granularity). Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with layer controls, lock/unlock, alignment tools, and zoom from 25% to 400%. Undo and redo up to 100 history states with Ctrl+Z and Ctrl+Y.`,
       },
@@ -70,12 +70,12 @@ const content: AppContent = {
           `Every template places matched image pairs on opposite sides of the line path — one image at the start and its match at the end, creating a visual goal that motivates line tracing. Auto-fill randomly assigns image pairs from the selected theme or across all 104 themes at once, instantly populating every pair slot on the page. This makes batch worksheet creation fast: select a theme, click auto-fill, and the template is ready for export. Change themes and repeat to generate dozens of unique worksheets in minutes. Each theme provides coordinated images that work together visually, creating natural bundling opportunities for themed product packs.`,
       },
       {
-        title: 'Template-Driven Page Orientation',
+        title: `Template-Driven Page Orientation`,
         description:
           `Each template automatically sets the optimal page orientation for its line type. Curve templates default to landscape format, giving sweeping lines room to arc across the wider dimension of the page. Diagonal, horizontal, and vertical templates use portrait format for focused top-to-bottom practice. This automatic orientation switching ensures every line type has maximum space without manual adjustment. Curve templates place 4 image pairs per page; diagonal and horizontal templates fit 5 pairs; vertical templates use 4 pairs — each count optimized for the available space in that orientation.`,
       },
       {
-        title: 'Fully Visual Worksheets with Zero Text Output',
+        title: `Fully Visual Worksheets with Zero Text Output`,
         description:
           `Every worksheet contains only images, line paths, and decorative borders — no text appears on the generated output. Users trace lines between image pairs without needing to read any instructions. This makes Drawing Lines worksheets universally usable regardless of language, reading level, or literacy status. For sellers, zero-text output means the same worksheet sells worldwide without translation — one product listing serves every market with no language-specific variants to maintain.`,
       },
@@ -90,7 +90,7 @@ const content: AppContent = {
           `Every worksheet includes an auto-generated header with a vibrant green background (#51CF66) and deep forest green title (#2D5016). The default title "Line Drawing Practice" and subtitle "Draw lines to connect the matching pictures!" are localized in all 11 languages. Portrait mode displays a full-width header; landscape mode uses a compact centered format. A coral outer border (#FF6B6B, 8px stroke) and sunny yellow inner border (#FFD93D, 3px stroke) frame every page with rounded corners. Header elements are fully editable — select, move, and resize to match your brand.`,
       },
       {
-        title: 'Print-Ready PDF and JPEG Export at 300 DPI',
+        title: `Print-Ready PDF and JPEG Export at 300 DPI`,
         description:
           `Download worksheets as high-resolution JPEG images (quality 1.0) or print-ready PDF documents rendered at 300 DPI via a 6x rendering multiplier. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for bulk printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — no post-processing needed.`,
       },
@@ -103,37 +103,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Drawing Lines Worksheets Online',
+    title: `How to Sell Drawing Lines Worksheets Online`,
     cases: [
       {
-        title: 'Line Tracing Activity Bundles on Etsy',
+        title: `Line Tracing Activity Bundles on Etsy`,
         description:
           `Create themed line tracing packs organized by line type and difficulty. Start with horizontal line worksheets for absolute beginners, progress to curve templates for intermediate tracers, and finish with diagonal lines for advanced fine motor practice. Package each difficulty level with 10–20 worksheets using themes like farm animals, ocean creatures, dinosaurs, and vehicles. The eight templates and 104 image themes let you produce dozens of unique worksheets per bundle. Include mixed-type sampler packs that showcase all four line styles in one product. The fully visual format with zero text makes every bundle sellable worldwide without translation. Price individual theme packs at $3–$5 and multi-theme progressive bundles at $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Fine Motor Skills Workbooks on Amazon KDP',
+        title: `Fine Motor Skills Workbooks on Amazon KDP`,
         description:
           `Compile 60–100 line tracing exercises into a printed workbook structured as a progressive fine motor curriculum. Chapter 1 covers horizontal lines for directional control basics. Chapter 2 introduces vertical lines for downward stroke practice. Chapter 3 advances to curve templates for wrist flexibility. Chapter 4 challenges with diagonal lines requiring cross-body coordination. Each chapter uses different image themes to maintain engagement across 60+ pages. The fully visual format means no translation is needed for international KDP marketplaces — publish the same interior in every country. Fine motor workbooks fill a specific early-learner niche with consistent year-round demand and strong repeat buyers.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Tiered Handwriting Readiness Bundles on Gumroad',
+        title: `Tiered Handwriting Readiness Bundles on Gumroad`,
         description:
           `Build leveled handwriting readiness sets using line type as the progression axis: Level 1 (horizontal lines for left-to-right tracking), Level 2 (vertical lines for top-to-bottom strokes), Level 3 (curves for letter-forming motions), and Level 4 (diagonals for angular letter shapes). Each level targets a specific pre-writing skill that directly transfers to letter formation. Package each level with themed exercises and a brief parent guide as a KDP appendix. The zero-text visual format works regardless of language background, making these products sellable worldwide without translation.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Multilingual Visual Worksheets for Global Markets',
+        title: `Multilingual Visual Worksheets for Global Markets`,
         description:
           `Because Drawing Lines worksheets contain zero text on the output, the same product works in every language without modification. Users trace lines between image pairs with no reading required — the visual line path itself provides all the guidance needed. Create one set of line tracing exercises and sell it worldwide without translation or separate language versions to maintain. List identical products on Etsy shops targeting different countries, or publish the same KDP interior across all international Amazon marketplaces. One workflow produces a universally sellable product.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
-        title: 'Custom Fine Motor Products for Niche Stores',
+        title: `Custom Fine Motor Products for Niche Stores`,
         description:
           `Upload custom images to create targeted line tracing worksheets for specific niches. Sellers in the therapy and special needs niche can select line types matching fine motor development needs — curves for wrist mobility, diagonals for bilateral coordination, straight lines for directional control. Create subject-themed tracing sheets where users connect related image pairs while developing pencil control. Adjust template selection and image themes to match your target audience. Produce custom sets in minutes and list them on Gumroad or your own store for niche buyers.`,
-        platform: 'Gumroad / Etsy / Your Own Store',
+        platform: `Gumroad / Etsy / Your Own Store`,
       },
     ],
   },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `Each template places matched image pairs on opposite sides of the line path. One image appears at the start of the line and its match appears at the end. Users trace along the guided line path to connect the matching pictures. Templates hold 4 or 5 pairs depending on the line type — curve and vertical templates use 4 pairs, diagonal and horizontal templates use 5. The matching images provide a visual goal that motivates completion of each line.`,
     },
     {
-      question: 'How does the auto-fill feature work?',
+      question: `How does the auto-fill feature work?`,
       answer:
         `Auto-fill randomly assigns image pairs from the selected theme or across all available themes at once. Click the auto-fill button and every pair slot on the current template is instantly populated with matched images. This is especially useful for batch creation — select a theme, auto-fill, export, then change themes and repeat to generate dozens of unique worksheets in minutes without manually placing each image.`,
     },
@@ -175,7 +175,7 @@ const content: AppContent = {
         `Yes. The custom image upload feature lets you add any image to your line tracing worksheets. Upload photos, illustrations, or graphics relevant to your specific subject or audience. Custom images appear alongside library images and work with all eight templates and the auto-fill feature. This is useful for creating subject-specific worksheets or branded products that go beyond the built-in theme library.`,
     },
     {
-      question: 'Can I add a name and date field to the worksheet?',
+      question: `Can I add a name and date field to the worksheet?`,
       answer:
         `Yes. Toggle the name and date fields on from the Content panel. They appear in Fredoka font at 18px in a dark gray (#333) color. You can also add custom text with the Text Tools panel using any of the available fonts — Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand — and reposition them anywhere on the canvas.`,
     },
@@ -205,12 +205,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
+      anchorText: `Big & Small Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
+      anchorText: `Pattern Train Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -220,7 +220,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
+      anchorText: `Draw & Color Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -230,7 +230,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
+      anchorText: `Chart & Count Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,22 +240,22 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids\' Activities',
+      anchorText: `Summer Printable Ideas for Kids' Activities`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
+      anchorText: `Christmas Printable Ideas for Seasonal Sales`,
     },
     {
       pageType: 'start',
       slug: 'etsy-printable-business',
-      anchorText: 'Build Your Etsy Printable Business',
+      anchorText: `Build Your Etsy Printable Business`,
     },
     {
       pageType: 'guide',
       slug: 'create-drawing-worksheets',
-      anchorText: 'How to Create Drawing & Tracing Worksheets',
+      anchorText: `How to Create Drawing & Tracing Worksheets`,
     },
   ],
 

@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender fichas de matemática no Etsy',
+    primaryKeyword: `vender fichas de matemática no Etsy`,
     secondaryKeywords: [
-      'como vender fichas de matemática no Etsy',
-      'configurar loja Etsy fichas matemática',
-      'fichas de matemática imprimíveis negócio Etsy',
-      'vender imprimíveis educativos no Etsy',
+      `como vender fichas de matemática no Etsy`,
+      `configurar loja Etsy fichas matemática`,
+      `fichas de matemática imprimíveis negócio Etsy`,
+      `vender imprimíveis educativos no Etsy`,
     ],
     lsiKeywords: [
       `Etsy download digital atividades matemática otimização anúncios`,
       `estratégia preços pacotes fichas matemática vendedores Etsy`,
-      'etiquetas SEO Etsy fichas imprimíveis educativas',
-      'vender fichas adição subtração loja Etsy',
+      `etiquetas SEO Etsy fichas imprimíveis educativas`,
+      `vender fichas adição subtração loja Etsy`,
       `regresso às aulas matemática imprimíveis Etsy estratégia sazonal`,
       `fotos anúncios mockups produtos fichas matemática Etsy`,
     ],
-    titleTag: 'Vender fichas de matemática no Etsy — Guia',
+    titleTag: `Vender fichas de matemática no Etsy — Guia`,
     metaDescription: `Venda fichas de matemática no Etsy com 6 geradores. SEO Etsy, otimização de anúncios, preços, estratégias de pacotes e timing sazonal para vendedores.`,
   },
 
   hero: {
-    title: 'Como vender fichas de matemática no Etsy',
+    title: `Como vender fichas de matemática no Etsy`,
     tagline: `Um guia completo de plataforma para construir uma loja Etsy rentável a vender fichas de matemática criadas com 6 geradores especializados — abrangendo configuração de loja Etsy, otimização SEO com as 13 etiquetas, títulos e descrições que se posicionam para termos de pesquisa de compradores, fotografia de produtos e mockups, estratégias de preços para fichas individuais e pacotes, timing sazonal para picos de regresso às aulas e férias, planeamento de catálogo de adição, subtração, puzzles de código, comparação, grelhas de puzzles e exercícios numéricos, e otimização contínua usando as Estatísticas do Etsy`,
     description: `As fichas de matemática são um dos formatos de download digital mais pesquisados no Etsy porque todas as crianças dos 4 aos 10 anos praticam aritmética — e pais, vendedores e vendedores domésticos preferem material visualmente atrativo a exercícios numéricos monótonos. Este guia mostra-lhe como transformar seis geradores de fichas de matemática — adição, subtração, adição codificada, comparação, grelhas de puzzles e exercícios numéricos — numa loja Etsy rentável com dezenas de anúncios únicos cobrindo múltiplos níveis de dificuldade, temas visuais e formatos de pacotes. Irá aprender os termos de pesquisa específicos que os compradores de fichas de matemática utilizam, como otimizar anúncios com as 13 etiquetas que o Etsy permite, estratégias de preços de trabalho que equilibram volume e margem, e como o timing sazonal em torno do regresso às aulas e das épocas de exames pode multiplicar as suas vendas. Se já vende outros imprimíveis no Etsy ou está a lançar a sua primeira loja, a matemática é a categoria mais fiável por uma razão: a procura nunca para.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Um catálogo estratégico de produtos é a base de uma loja Etsy de fichas de matemática bem-sucedida. Os seis geradores de matemática produzem formatos de fichas distintos — o seu catálogo deve mostrar esta variedade enquanto mantém uma organização clara.\n\nComece mapeando cada gerador ao seu público-alvo principal. A adição e a subtração servem a faixa etária mais ampla (pré-escolar ao 3.º ano) e geram o maior volume de pesquisa. A adição codificada e as grelhas de puzzles apelam a usuários mais velhos (1.º ao 4.º ano) e a pais que procuram alternativas envolventes aos exercícios tradicionais. A comparação serve ao ensino de conceitos matemáticos fundamentais (pré-escolar ao 1.º ano). Os exercícios numéricos visam a prática de fluência em todos os níveis.\n\nEstruture o seu catálogo em três níveis de produto. Fichas individuais ou mini-pacotes (1 a 5 fichas) servem como pontos de entrada de baixo preço que atraem os primeiros compradores e geram avaliações. Pacotes temáticos (10 a 20 fichas organizadas por tema, competência ou nível escolar) são os seus produtos essenciais com a melhor relação margem-esforço. Mega coleções (30 a 50+ fichas combinando vários geradores ou temas) têm preços premium e atraem vendedores e vendedores domésticos que querem material abrangente.\n\nPlaneie o catálogo de lançamento para incluir pelo menos 15 a 20 anúncios em 3 a 5 combinações de temas e níveis de dificuldade. Isto dá ao Etsy pontos de dados suficientes para compreender o foco de categoria da sua loja e começar a recomendar os seus produtos. Uma loja com 3 anúncios parece um hobby. Uma loja com 15+ anúncios focados em fichas de matemática parece um vendedor especializado que vale a pena destacar nos resultados de pesquisa.\n\nCom uma licença comercial, obtém acesso a 10 conjuntos de imagens temáticas em todas as 11 línguas da interface. A licença de Acesso Total desbloqueia todos os 104 temas com mais de 3.100 ilustrações, dando-lhe a profundidade de catálogo necessária para dominar nichos de fichas de matemática no Etsy.`,
     },
     {
-      heading: 'Criar o inventário de fichas de matemática',
+      heading: `Criar o inventário de fichas de matemática`,
       content: `Com o plano de catálogo definido, abra cada gerador de fichas de matemática e comece a produzir inventário. O fluxo de trabalho para criar fichas vendáveis é direto mas beneficia de decisões de design intencionais em cada passo.\n\nComece pelo gerador de Adição, o formato com maior procura. Selecione o tamanho de página — US Letter (8,5 × 11 polegadas) para compradores norte-americanos, A4 para compradores internacionais. Crie ambas as versões de cada design para duplicar o seu mercado endereçável sem esforço extra.\n\nEscolha o modo de exercício que corresponda ao seu produto-alvo. O modo Imagem + Imagem funciona melhor para crianças da pré-escola porque ambos os operandos são representados visualmente. O modo Imagem + Número adequa-se a usuários do jardim de infância que estão a fazer a transição para numerais abstratos. O modo Encontrar a Parcela cria um formato de resolução de problemas que desafia usuários mais velhos. O modo Misto combina os três estilos numa única ficha — perfeito para pacotes de revisão diferenciados.\n\nNavegue pela biblioteca de imagens e selecione o seu tema-alvo. Temas de animais, veículos e dinossauros têm o apelo mais amplo para fichas de matemática para crianças. Temas alimentares e de desportos funcionam bem para públicos específicos. Cada tema produz fichas visualmente distintas, o que significa que pode criar múltiplos anúncios do mesmo gerador simplesmente mudando o tema.\n\nDefina o intervalo de dificuldade para corresponder ao nível etário alvo. Para a pré-escola use operandos de 1 a 3. Para o jardim de infância use 1 a 5. Para o 1.º ano use 1 a 10. Para o 2.º ano use 1 a 20. Cada faixa de dificuldade cria um produto distinto que pode ser anunciado separadamente.\n\nGere múltiplas fichas por combinação de tema e dificuldade. Um pacote vendável normalmente precisa de 10 a 15 fichas únicas. Cada vez que gera uma ficha, obtém um arranjo diferente de problemas e imagens, garantindo variedade dentro do pacote.\n\nRepita este processo para os restantes cinco geradores de matemática. Os geradores de Subtração, Adição Codificada, Comparação, Grelhas de Puzzles e Exercícios Numéricos seguem fluxos de trabalho semelhantes com as suas opções de formato específicas. A produção em lote por gerador é mais eficiente do que alternar entre geradores aleatoriamente.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Estratégia SEO do Etsy para fichas de matemática',
+      heading: `Estratégia SEO do Etsy para fichas de matemática`,
       content: `O SEO de fichas de matemática requer atenção a como os compradores combinam competência, nível escolar e formato nas suas pesquisas. Domine estes padrões para maximizar a visibilidade.\n\nInclua sempre \"imprimível\" ou \"PDF\" nos seus títulos e etiquetas. Os compradores do Etsy que procuram fichas de matemática físicas num livro não convertem em anúncios digitais, por isso \"imprimível\" filtra o seu tráfego para compradores com intenção digital que estão prontos para comprar e descarregar.\n\nUse todas as 13 etiquetas e faça cada uma única. Padrões de etiquetas de alto desempenho para fichas de matemática incluem: \"[competência] fichas [nível]\" (por exemplo, \"fichas adição jardim de infância\"), \"fichas matemática imprimíveis [tema]\" (por exemplo, \"fichas matemática animais\"), \"[caso de uso] atividades matemática\" (por exemplo, \"prática matemática loja\"), \"exercícios [competência] PDF\" (por exemplo, \"exercícios subtração PDF\") e \"fichas [competência] [formato]\" (por exemplo, \"fichas adição com imagens\"). Evite desperdiçar etiquetas com palavras genéricas isoladas como \"matemática\" ou \"fichas\" — use frases multi-palavras que correspondam a consultas de pesquisa reais.\n\nRenove anúncios estrategicamente. Quando renova um anúncio (manualmente ou por renovação automática), o Etsy dá-lhe um impulso temporário de visibilidade. Cronometre as suas renovações para coincidirem com picos de procura — renove as fichas de adição no início de agosto para o regresso às aulas, renove os pacotes de matemática de revisão no início de janeiro para os propósitos de novo ano.`,
     },
     {
@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: `As fichas de matemática têm uma procura de base mais estável do que a maioria dos imprimíveis, mas os picos sazonais criam oportunidades de receita significativas ao longo do ano.\n\nO período de regresso às aulas (julho a setembro) é a maior janela de procura. Pais e vendedores compram fichas de prática de matemática para o novo ano letivo. Este é o momento ideal para lançar novos pacotes de fichas de matemática ao nível escolar, pacotes de loja e coleções abrangentes de grau. Publique produtos de regresso às aulas até ao início de julho para dar ao Etsy tempo de indexar e posicionar os seus anúncios antes do pico de procura.\n\nOs propósitos de ano novo em janeiro e fevereiro criam um pico secundário. Os pais estabelecem objetivos de aprendizagem para os filhos e procuram material de prática estruturado. Pacotes de \"Desafio de Matemática de Novo Ano\" e coleções de \"Competências de Matemática do Semestre\" funcionam bem durante esta janela.\n\nA preparação para exames (março a maio em muitas regiões) gera procura por fichas de revisão abrangentes. Pacotes multi-competência que cobrem adição, subtração e conceitos de comparação para um nível escolar específico vendem bem neste período.\n\nA prevenção do retrocesso de verão (junho a agosto) cria procura contínua. Pais preocupados com as férias letivas procuram material de prática diária de matemática. Fichas de atividades de verão com marca temática e pacotes de \"manter competências\" são eficazes.\n\nAs fichas de matemática com tema de férias (outubro a dezembro) proporcionam impulsos de procura sazonais adicionais. Fichas de adição de Halloween, contagem de Natal e fichas de matemática do Dia dos Namorados geram vendas durante as suas respetivas janelas de festivos.`,
     },
     {
-      heading: 'Licenciamento e utilização comercial',
-      content: `Compreender a estrutura de licenciamento é essencial para planear o seu investimento empresarial e definir expectativas sobre o que cada nível permite.\n\nO teste grátis com marca d'água permite-lhe aceder a todas as funcionalidades de todos os 6 geradores de fichas de matemática sem qualquer custo. Crie fichas completas, teste configurações, experimente temas e avalie a qualidade de saída. A marca d'água aparece nos downloads — esta é a única limitação. Use o teste para construir fichas de amostra e validar a sua estratégia de produto antes de investir.\n\nA licença Comercial desbloqueia downloads sem marca d'água e concede direitos de venda comercial completos. Inclui 10 conjuntos de imagens temáticas para criar fichas de matemática diferenciadas. Não há taxas de royalties nem cobranças por venda — mantém 100% da sua receita de vendas após as taxas do marketplace.\n\nA licença de Acesso Total desbloqueia todos os 104 temas com mais de 3.100 ilustrações em todas as 11 línguas da interface. Este nível é ideal para vendedores que planeiam construir catálogos extensos com variedade máxima de temas. O custo adicional é rapidamente compensado pela profundidade de catálogo que permite.\n\nAmbos os níveis de licença permitem venda em todos os marketplaces — Etsy, Amazon KDP, Gumroad e o seu próprio website. Não há restrições de plataforma sobre onde pode vender os seus produtos criados.`,
+      heading: `Licenciamento e utilização comercial`,
+      content: `Compreender a estrutura de licenciamento é essencial para planear o seu investimento empresarial e definir expectativas sobre o que cada nível permite.\n\nO teste grátis com marca d`água permite-lhe aceder a todas as funcionalidades de todos os 6 geradores de fichas de matemática sem qualquer custo. Crie fichas completas, teste configurações, experimente temas e avalie a qualidade de saída. A marca d`água aparece nos downloads — esta é a única limitação. Use o teste para construir fichas de amostra e validar a sua estratégia de produto antes de investir.\n\nA licença Comercial desbloqueia downloads sem marca d'água e concede direitos de venda comercial completos. Inclui 10 conjuntos de imagens temáticas para criar fichas de matemática diferenciadas. Não há taxas de royalties nem cobranças por venda — mantém 100% da sua receita de vendas após as taxas do marketplace.\n\nA licença de Acesso Total desbloqueia todos os 104 temas com mais de 3.100 ilustrações em todas as 11 línguas da interface. Este nível é ideal para vendedores que planeiam construir catálogos extensos com variedade máxima de temas. O custo adicional é rapidamente compensado pela profundidade de catálogo que permite.\n\nAmbos os níveis de licença permitem venda em todos os marketplaces — Etsy, Amazon KDP, Gumroad e o seu próprio website. Não há restrições de plataforma sobre onde pode vender os seus produtos criados.`,
     },
   ],
 
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `As lojas Etsy de fichas de matemática mais rentáveis utilizam uma escada de preços deliberada que move os compradores de produtos de entrada de baixo preço para coleções de alto valor.\n\nA sua escada de preços deve incluir quatro patamares. O patamar de entrada (1,50€ a 2,50€) contém fichas individuais ou mini-amostras de 2 a 3 fichas. Estes produtos existem para gerar avaliações e trazer compradores para a sua loja. O patamar padrão (3,99€ a 6,99€) contém pacotes temáticos de 10 a 15 fichas de um único gerador de matemática. É daqui que vem a maior parte da sua receita. O patamar premium (9,99€ a 16,99€) contém grandes coleções temáticas ou pacotes multi-gerador. O patamar mega (14,99€ a 24,99€) contém pacotes completos por nível escolar abrangendo todos os formatos de matemática.\n\nCada anúncio deve fazer referência ao patamar seguinte na descrição. A descrição do seu pacote de 10 fichas de adição com animais deve mencionar: \"Procura mais? Veja o nosso Pacote Completo de Matemática Animais com fichas de adição, subtração e puzzles para o melhor valor por ficha.\" Esta abordagem de upselling aumenta o valor médio do pedido sem ser intrusiva.\n\nOfereça uma \"amostra da loja\" que inclua 2 a 3 fichas de cada um dos seus 3 geradores de matemática mais populares. Defina o preço entre 2,00€ e 3,00€. Este produto permite que novos compradores avaliem a qualidade dos seus designs em vários formatos antes de se comprometerem com um pacote completo.`,
     },
     {
-      heading: 'Oportunidade de crossover Amazon KDP',
+      heading: `Oportunidade de crossover Amazon KDP`,
       content: `Os livros de fichas de matemática no Amazon KDP representam uma oportunidade significativa de receita para vendedores Etsy de fichas de matemática. Os mesmos designs que vende como downloads digitais no Etsy podem ser compilados e publicados como livros de atividades no KDP.\n\nO mercado de livros de matemática no KDP tem uma economia diferente do Etsy. Os livros de fichas de matemática do KDP tipicamente contêm 50 a 100 fichas com chaves de resposta. Os preços padrão de brochura variam entre 5,99€ e 9,99€, com a sua margem tipicamente entre 1,50€ e 3,50€ por venda dependendo da contagem de páginas e formato. Embora a receita por unidade seja inferior aos downloads digitais do Etsy, o KDP fornece exposição passiva à enorme base de compradores da Amazon.\n\nFormate as suas fichas especificamente para os requisitos do KDP. Use formato 8,5 × 11 polegadas. Coloque fichas em páginas ímpares com chaves de resposta compiladas no final do livro. Adicione uma página de título de marca, um índice listando secções por competência e dificuldade, e uma contracapa com as informações da sua loja e website.\n\nUse os dados de vendas do Etsy para orientar decisões de publicação no KDP. Se as fichas de adição com tema de animais superam consistentemente outros temas no Etsy, publique primeiro um livro de adição com animais no KDP. Dados reais de vendas do Etsy eliminam as suposições sobre quais temas terão desempenho na Amazon.\n\nFaça promoção cruzada entre plataformas. Inclua um cartão no seu livro KDP que direcione os leitores para a sua loja Etsy para downloads temáticos adicionais. Inclua uma nota nos seus anúncios Etsy mencionando que uma versão em livro físico está disponível na Amazon. Cada plataforma alimenta tráfego para a outra.`,
     },
     {
@@ -96,11 +96,11 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Exemplo de catálogo de fichas de matemática',
+      heading: `Exemplo de catálogo de fichas de matemática`,
       content: `Um catálogo bem estruturado de fichas de matemática no Etsy demonstra como um único vendedor pode construir variedade extensa de produto a partir de seis geradores. Aqui está uma estrutura realista de catálogo para uma loja usando os geradores de fichas de matemática.\n\nAnúncios de adição (produto principal): Fichas de Adição com Animais (15 fichas, 4,99€), Fichas de Adição com Veículos (15 fichas, 4,99€), Fichas de Adição com Dinossauros (15 fichas, 4,99€), Pacote de Adição Pré-Escolar — intervalos 1 a 3 (10 fichas, 3,99€), Pacote de Adição Jardim de Infância — intervalos 1 a 5 (10 fichas, 3,99€), Pacote de Adição 1.º Ano — intervalos 1 a 10 (10 fichas, 3,99€). Total: 6 anúncios cobrindo o formato de matemática com maior procura.\n\nAnúncios de subtração: Fichas de Subtração com Animais (15 fichas, 4,99€), Fichas de Subtração com Veículos (15 fichas, 4,99€), Pacote de Subtração por Nível Escolar (20 fichas multi-nível, 6,99€). Total: 3 anúncios complementando adição.\n\nAnúncios de formatos de puzzles: Puzzles de Adição Codificada com Animais (10 fichas, 4,99€), Grelhas de Puzzles Matemáticos Multi-Tema (10 fichas, 4,99€), Mega Pacote de Puzzles Matemáticos (20 fichas combinando ambos os formatos, 8,99€). Total: 3 anúncios com formatos diferenciadores.\n\nAnúncios de competências fundamentais: Fichas de Comparação Maior Menor com Animais (10 fichas, 3,99€), Exercícios Numéricos — Adição e Subtração Mistas (15 fichas, 4,99€). Total: 2 anúncios de competência especializada.\n\nPacotes e coleções: Pacote Completo de Matemática com Animais — todos os 6 formatos (50+ fichas, 14,99€), Pacote Matemática Jardim de Infância — adição, subtração, comparação (40 fichas, 12,99€), Pacote Matemática 1.º Ano — todos os formatos (50 fichas, 14,99€), Mega Coleção Fichas de Matemática (100+ fichas todos os formatos e temas, 24,99€). Total: 4 anúncios premium de conteúdo existente.\n\nProdutos de entrada: Amostra Fichas de Matemática (2 a 3 fichas de 3 geradores, 2,49€), Mini-Pacotes de Tema Individual (3 fichas cada, 1,99€ cada). Total: 3+ anúncios de baixo preço para geração de avaliações.\n\nEsta estrutura de catálogo produz mais de 21 anúncios de um esforço de produção gerível, com caminhos claros de atualização de amostras para pacotes individuais para coleções.`,
     },
     {
-      heading: 'Exemplo de calendário sazonal de produtos',
+      heading: `Exemplo de calendário sazonal de produtos`,
       content: `Planear a produção de fichas de matemática em torno da procura sazonal garante que tem produtos publicados e indexados antes de cada pico de compra. Aqui está um calendário de produção e publicação mês a mês.\n\nJaneiro: crie e publique pacotes de \"Objetivos de Matemática de Ano Novo\" combinando fichas de adição e subtração. Renove e atualize os anúncios de regresso às aulas do ano anterior com palavras-chave novas. Comece a criar fichas de matemática com tema do Dia dos Namorados.\n\nFevereiro: publique fichas de matemática com tema do Dia dos Namorados. Analise os dados de vendas de janeiro para identificar temas e formatos de melhor desempenho para duplicar.\n\nMarço a abril: crie fichas de matemática com tema de Páscoa e primavera. Publique pacotes de revisão para exames e coleções de \"preparação para o próximo ano\". Comece a construir inventário de regresso às aulas para publicar em julho.\n\nMaio a junho: publique pacotes de \"Prevenir o Retrocesso de Verão\" e coleções de \"Prática Diária de Matemática de Verão\". Prepare e fotografe todos os produtos de regresso às aulas para o lançamento de julho.\n\nJulho: janela crítica de lançamento. Publique todos os produtos de regresso às aulas: pacotes por nível escolar, fichas para loja e coleções de competências. Otimize todos os títulos e etiquetas de anúncios para incluir variações de regresso às aulas. Renove anúncios de melhor desempenho para o impulso de recência.\n\nAgosto a setembro: mantenha o impulso do regresso às aulas com anúncios e pacotes adicionais. Crie pacotes focados em vendedores (fichas de centro de matemática, pacotes de trabalho matinal, atividades de avaliação). Comece a criar conteúdo de fichas de matemática com tema de Halloween.\n\nOutubro: publique fichas de matemática com tema de Halloween até ao início de outubro. Fichas de contagem de abóboras, adição de monstros e puzzles de matemática assustadores geram vendas durante a janela de Halloween.\n\nNovembro a dezembro: publique fichas de matemática com tema de Natal e férias. Pacotes de \"Cartão de Presente para vendedor\" e \"Pacote de Aprendizagem de Férias\" posicionam-se para compras de presentes. Planeie o calendário de produtos do ano seguinte com base nos dados de vendas do ano corrente.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `PDF é o formato de entrega padrão para fichas de matemática imprimíveis no Etsy. Compile as fichas em pacotes PDF temáticos que os compradores descarregam e imprimem em casa. Inclua versões US Letter (8,5 × 11 polegadas) e A4 (210 × 297 mm) em cada anúncio para servir compradores norte-americanos e internacionais. Inclua sempre as chaves de resposta como parte do pacote PDF — as chaves de resposta distinguem os vendedores profissionais dos amadores e reduzem as mensagens de suporte de pais a perguntar como verificar o trabalho dos filhos.`,
     },
     {
-      question: 'Quantas fichas devem estar num pacote?',
+      question: `Quantas fichas devem estar num pacote?`,
       answer: `O tamanho ideal de pacote depende do comprador-alvo e da estratégia de preços. Produtos de entrada (1 a 3 fichas) a 1,50€ a 2,50€ funcionam para gerar avaliações iniciais. Pacotes temáticos padrão de 10 a 15 fichas a 3,99€ a 6,99€ são o formato mais popular no Etsy para fichas de matemática. Coleções grandes de 30 a 50 fichas a 9,99€ a 16,99€ atraem vendedores e vendedores domésticos que procuram material abrangente. Mega pacotes de 50 a 100+ fichas a 14,99€ a 24,99€ visam compradores experientes de imprimíveis. Comece com pacotes de 10 a 15 fichas para estabelecer a loja, depois expanda para coleções maiores quando tiver avaliações e dados de vendas.`,
     },
     {
@@ -135,25 +135,25 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'criar-fichas-adicao',
-      title: 'Criar fichas de adição com imagens temáticas',
+      title: `Criar fichas de adição com imagens temáticas`,
       description: `O guia de criação de produto para o Gerador de Fichas de Adição. Aprenda a escolher temas, definir dificuldade e exportar fichas de matemática prontas a vender.`,
     },
     {
       slug: 'abrir-loja-etsy-imprimiveis',
-      title: 'Como abrir uma loja Etsy de imprimíveis do zero',
+      title: `Como abrir uma loja Etsy de imprimíveis do zero`,
       description: `O guia completo de configuração do Etsy cobrindo criação de loja, políticas, pagamento e fundamentos de anúncios. Comece aqui se ainda não configurou a sua conta de vendedor no Etsy.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Como criar fichas de adição com imagens temáticas' },
-    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: 'Como vender caça-palavras no Etsy' },
-    { pageType: 'guide', slug: 'vender-material-educativo-etsy', anchorText: 'Como vender material educativo imprimível no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para começar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: `Como criar fichas de adição com imagens temáticas` },
+    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: `Como vender caça-palavras no Etsy` },
+    { pageType: 'guide', slug: `vender-material-educativo-etsy`, anchorText: `Como vender material educativo imprimível no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para começar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de fichas de adição — Detalhes completos' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimentar o Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: `Gerador de fichas de adição — Detalhes completos` },
+    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: `Experimentar o Gerador de Fichas de Adição` },
   ],
 
   toolsRecommended: [
@@ -164,38 +164,38 @@ const content: GuideContent = {
     },
     {
       appId: 'subtraction',
-      title: 'Gerador de Fichas de Subtração',
+      title: `Gerador de Fichas de Subtração`,
       description: `A progressão natural após a adição. Cria fichas de subtração com as mesmas imagens temáticas e opções de dificuldade, permitindo pacotes de adição e subtração combinados que os compradores adoram.`,
     },
     {
       appId: 'code-addition',
-      title: 'Gerador de Puzzles de Adição Codificada',
+      title: `Gerador de Puzzles de Adição Codificada`,
       description: `Adiciona um formato de resolução de mistérios que diferencia a sua loja. As crianças resolvem problemas de adição para descodificar mensagens ocultas — um formato que os compradores pagam premium porque mantém as crianças envolvidas mais tempo.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Gerador de Grelhas de Puzzles Matemáticos',
+      title: `Gerador de Grelhas de Puzzles Matemáticos`,
       description: `Cria desafios de grelha que combinam pensamento lógico com aritmética. Um formato diferenciador que atrai compradores à procura de alternativas criativas aos exercícios tradicionais.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de matemática com problemas de adição baseados em imagens para vender no Etsy' },
+    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de matemática com problemas de adição baseados em imagens para vender no Etsy` },
     samples: [
-      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: 'Ficha de adição com tema de animais para loja Etsy de fichas de matemática', caption: 'Ficha de adição com tema de animais — as ilustrações visuais destacam-se nos resultados de pesquisa do Etsy em relação a exercícios de texto simples' },
-      { src: `/samples/portuguese/subtraction/Subtrações Divertidas 1.webp`, alt: 'Ficha de subtração com tema de veículos mostrando formato complementar de matemática', caption: 'Ficha de subtração com tema de veículos — combine com fichas de adição para pacotes de matemática multi-competência' },
-      { src: `/samples/portuguese/code addition/Código Secreto Adição 1.webp`, alt: 'Puzzle de adição codificada mostrando formato diferenciador para vendedores Etsy', caption: 'Puzzle de adição codificada — formato de resolução de mistérios que diferencia a sua loja no Etsy' },
+      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: `Ficha de adição com tema de animais para loja Etsy de fichas de matemática`, caption: `Ficha de adição com tema de animais — as ilustrações visuais destacam-se nos resultados de pesquisa do Etsy em relação a exercícios de texto simples` },
+      { src: `/samples/portuguese/subtraction/Subtrações Divertidas 1.webp`, alt: `Ficha de subtração com tema de veículos mostrando formato complementar de matemática`, caption: `Ficha de subtração com tema de veículos — combine com fichas de adição para pacotes de matemática multi-competência` },
+      { src: `/samples/portuguese/code addition/Código Secreto Adição 1.webp`, alt: `Puzzle de adição codificada mostrando formato diferenciador para vendedores Etsy`, caption: `Puzzle de adição codificada — formato de resolução de mistérios que diferencia a sua loja no Etsy` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Como criar fichas de matemática para vender no Etsy — Tutorial passo a passo`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagem educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cone — imagem educativa temática', caption: 'Cone' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagem educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagem educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — imagem educativa temática', caption: 'Diamante' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagem educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cone — imagem educativa temática`, caption: 'Cone' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagem educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagem educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — imagem educativa temática`, caption: 'Diamante' },
   ],
 };
 

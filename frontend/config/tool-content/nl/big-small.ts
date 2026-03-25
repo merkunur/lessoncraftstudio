@@ -1,19 +1,19 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'groot klein werkbladen maken voor kinderen',
+    primaryKeyword: `groot klein werkbladen maken voor kinderen`,
     secondaryKeywords: [
-      'groot en klein werkbladen voor kleuters',
-      'groottevergelijking maker voor de winkel',
-      'printbare grootte-ordening voor kinderen',
-      'groot klein medium werkbladen voor kleuterschool',
+      `groot en klein werkbladen voor kleuters`,
+      `groottevergelijking maker voor de winkel`,
+      `printbare grootte-ordening voor kinderen`,
+      `groot klein medium werkbladen voor kleuterschool`,
     ],
     lsiKeywords: [
-      'visuele grootte-discriminatie werkblad',
-      'tekstvrije groottevergelijking werkbladen',
-      'groot klein ordenen activiteit voor kleuters',
+      `visuele grootte-discriminatie werkblad`,
+      `tekstvrije groottevergelijking werkbladen`,
+      `groot klein ordenen activiteit voor kleuters`,
     ],
-    titleTag: 'Groot Klein Werkbladen — Voor Kinderen',
+    titleTag: `Groot Klein Werkbladen — Voor Kinderen`,
     metaDescription: `Maak groottevergelijking werkbladen voor kleuters. Vijf vraagtypen, identieke en verschillende afbeeldingsmodi, 104 thema's. Gratis met watermerk.`,
     },
 
@@ -27,11 +27,11 @@ const content: ToolContent = {  seo: {
     title: `Groottevergelijking Werkbladen Maken in 8 Eenvoudige Stappen`,
     steps: [
       {
-        title: 'Open de Groot & Klein Werkblad Maker',
+        title: `Open de Groot & Klein Werkblad Maker`,
         description: `Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van groottevergelijking werkbladen.`,
       },
       {
-        title: 'Stel de pagina-indeling en achtergrond in',
+        title: `Stel de pagina-indeling en achtergrond in`,
         description: `In het gedeelte Pagina-instelling selecteer je je paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of voer een aangepaste afmeting in. Kies een achtergrondkleur, selecteer een decoratief achtergrondthema uit de afbeeldingenbibliotheek met instelbare dekking, en voeg een kaderframe toe met onafhankelijke dekkingsregeling. Deze indelingskeuzes geven je werkbladen een gepolijste, professionele uitstraling voordat je ook maar één oefening toevoegt.`,
       },
       {
@@ -47,15 +47,15 @@ const content: ToolContent = {  seo: {
         description: `Stel het aantal oefeningen per pagina in van 1 tot 10. Kies 2 of 3 afbeeldingen per oefening. Twee afbeeldingen creëren eenvoudige groter/kleiner vergelijkingen. Drie afbeeldingen voegen de middelste optie toe, maken het vraagtype Omcirkel de Middelste mogelijk en maken nummeringsoefeningen uitdagender met drie items om te ordenen. Minder grote oefeningen per pagina zijn geschikt voor gerichte oefening bij jongere gebruikers; meer oefeningen creëren dichtere toetsbladen.`,
       },
       {
-        title: 'Blader door thema\'s of upload eigen afbeeldingen',
+        title: `Blader door thema's of upload eigen afbeeldingen`,
         description: `Verken 104 thematische afbeeldingencollecties met meer dan 3.100 illustraties — dieren, voedsel, voertuigen, natuur, feestdagen, beroepen en tientallen meer. Elk thema biedt visueel gecoördineerde afbeeldingen die goed samenwerken in groottevergelijking oefeningen. Of upload je eigen aangepaste afbeeldingen voor vakspecifieke werkbladen. Schakel oefennummers en antwoordindicatorkaders naar wens in of uit om de werkbladindeling aan te passen.`,
       },
       {
-        title: 'Voeg tekst toe en pas het canvas aan',
+        title: `Voeg tekst toe en pas het canvas aan`,
         description: `Gebruik het paneel Tekstgereedschappen om een werkbladtitel, naam- en datumvelden of aangepaste instructies toe te voegen. Kies uit lettertypen waaronder Baloo 2, Fredoka, Lexend Deca, Nunito en Quicksand. Sleep, vergroot, verklein, roteer en herpositioneer elk element op het volledige Fabric.js-canvas. Uitlijngereedschappen klikken elementen op hun plaats, vergrendelen/ontgrendelen beschermt voltooide elementen terwijl je andere bewerkt, en onbeperkt ongedaan maken en opnieuw uitvoeren laat je vrij experimenteren.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description: `Klik op Antwoordblad Genereren om een opgeloste versie te maken waarin de juiste antwoorden gemarkeerd en omcirkeld zijn voor directe visuele verificatie. Schakel grijstinten in voor inktvriendelijke zwart-wit uitvoer. Download zowel het werkblad als het antwoordblad als printklare PDF of JPEG met hoge resolutie op 300 DPI. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.`,
       },
     ],
@@ -63,7 +63,7 @@ const content: ToolContent = {  seo: {
 
   whatYouCanCreate: [
     {
-      title: 'Thematische Groottevergelijking Pakketten',
+      title: `Thematische Groottevergelijking Pakketten`,
       description: `Maak sets van 10–20 groottevergelijking werkbladen gegroepeerd per thema — boerderijdieren, dinosaurussen, oceaandieren, voertuigen, voedsel en meer. Varieer het vraagtype over de set voor progressieve moeilijkheid: begin met 2-afbeelding Omcirkel de Grote oefeningen met identieke afbeeldingen, ga verder naar 3-afbeelding Omcirkel de Middelste oefeningen met verschillende afbeeldingen, en eindig met Nummeren 1–2–3 ordeningsoefeningen. Voeg automatisch gegenereerde antwoordbladen toe bij elk werkblad. Het volledig visuele nul-tekst formaat maakt elke bundel wereldwijd verkoopbaar zonder vertaling — één vermelding bedient elke markt op Etsy.`,
     },
     {
@@ -71,7 +71,7 @@ const content: ToolContent = {  seo: {
       description: `Stel 60–100 groottevergelijking oefeningen samen tot een gedrukt werkboek voor Amazon KDP. Structureer hoofdstukken als een vaardigheidsprogressie: Hoofdstuk 1 behandelt 2-afbeelding Omcirkel de Grote met identieke afbeeldingen, Hoofdstuk 2 schakelt over naar verschillende afbeeldingen, Hoofdstuk 3 introduceert Omcirkel de Kleine, Hoofdstuk 4 voegt Omcirkel de Middelste toe met 3 afbeeldingen, en Hoofdstuk 5 gaat verder met nummeringsoefeningen. Antwoordbladen achterin. Het nul-tekst visuele formaat publiceert identiek op alle internationale KDP-marktplaatsen zonder vertaling — publiceer hetzelfde binnenwerk overal.`,
     },
     {
-      title: 'Gedifferentieerde Visuele Oefencentra',
+      title: `Gedifferentieerde Visuele Oefencentra`,
       description: `Bouw genivelleerde groottediscriminatie oefensets met vraagtype als getrapte productpakkettenlaag. Niveau 1: Omcirkel de Grote, 2 afbeeldingen, identieke modus. Niveau 2: Omcirkel de Kleine, 2 afbeeldingen, verschillende modus. Niveau 3: Omcirkel de Middelste, 3 afbeeldingen. Niveau 4: Nummeren 1–2–3 ordenen, 3 afbeeldingen. Elk niveau richt zich op een progressief moeilijkere vaardigheid — van eenvoudige identificatie tot meerstaps ordening. Verpak met antwoordbladen en voortgangsvolgers. verkopers betalen premiumprijzen voor gedifferentieerd materiaal dat inzetbaar is over meerdere vaardigheidsniveaus.`,
     },
     {
@@ -79,12 +79,12 @@ const content: ToolContent = {  seo: {
       description: `Omdat Groot & Klein werkbladen uitsluitend afbeeldingen bevatten zonder tekst op de uitvoer, werkt exact hetzelfde product in elke taal zonder aanpassing. Maak één set groottevergelijking oefeningen en verkoop deze aan kopers wereldwijd — geen vertaling, geen aparte taalversies, geen dubbele vermeldingen om bij te houden. Dit is een concreet voordeel ten opzichte van tekstgebaseerde werkbladgeneratoren waarbij elk product lokalisatie nodig heeft. Eén ontwerpsessie produceert een universeel verkoopbaar product voor elke marktplaats.`,
     },
     {
-      title: 'Afbeeldingsmodus Vergelijkingsbundels',
+      title: `Afbeeldingsmodus Vergelijkingsbundels`,
       description: `Verdubbel je productaanbod door elk thema in beide afbeeldingsmodi te maken. Een pakket "Identieke Afbeeldingen" toont hetzelfde dier, voertuig of voedselitem op verschillende formaten voor zuivere grootteperceptie oefeningen. Een pakket "Verschillende Afbeeldingen" toont onderscheidende objecten op verschillende formaten voor relatief grootteredeneren. Verkoop ze apart of bundel beide modi samen voor een premiumprijs. Twee fundamenteel verschillende oefenervaringen vanuit hetzelfde thema zonder extra inhoudscreatie.`,
     },
     {
       title: `Seizoensgebonden en Feestdagen Grootte-Activiteitensets`,
-      description: `Gebruik seizoensgebonden en feestdagen afbeeldingsthema's om tijdgebonden groottevergelijking bundels te maken. Een "Halloween Grootte Sorteren" pakket met griezelige afbeeldingen verkoopt in oktober. Kerst, terug-naar-school, Valentijnsdag en zomerthema's raken elk hun eigen piekverkoopmomenten op Etsy en Gumroad. Combineer eenvoudige Omcirkel de Grote opwarmers met gevorderde Nummeren 1–2–3 ordeningsoefeningen in elke seizoensset om meerdere vaardigheidsniveaus te bestrijken en je koperspubliek te maximaliseren.`,
+      description: `Gebruik seizoensgebonden en feestdagen afbeeldingsthema`s om tijdgebonden groottevergelijking bundels te maken. Een "Halloween Grootte Sorteren" pakket met griezelige afbeeldingen verkoopt in oktober. Kerst, terug-naar-school, Valentijnsdag en zomerthema`s raken elk hun eigen piekverkoopmomenten op Etsy en Gumroad. Combineer eenvoudige Omcirkel de Grote opwarmers met gevorderde Nummeren 1–2–3 ordeningsoefeningen in elke seizoensset om meerdere vaardigheidsniveaus te bestrijken en je koperspubliek te maximaliseren.`,
     },
   ],
 
@@ -95,27 +95,27 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Groottediscriminatie Werkboekserie',
+      title: `Amazon KDP Groottediscriminatie Werkboekserie`,
       description: `Stel 80+ groottevergelijking oefeningen samen tot thematische werkboeken voor Amazon KDP. Structureer een serie per thema: "Dieren Grootte Sorteren", "Voertuigen Groot & Klein", "Voedsel Grootte Ordenen". Elk boek bouwt op van eenvoudige 2-afbeelding identificatie naar complexe 3-afbeelding ordening met antwoordbladen achterin. Het nul-tekst visuele formaat publiceert identiek op alle internationale KDP-marktplaatsen zonder vertaling. Groottevergelijking werkboeken vullen een specifieke vroeg-leren niche met consistente vraag het hele jaar door van ouders en kleuterverkopers.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Visuele Discriminatie Centra',
+      title: `Gumroad Visuele Discriminatie Centra`,
       description: `Upload groottevergelijking werkbladpakketten naar Gumroad georganiseerd per vaardigheidsniveau en thema. Neem vier moeilijkheidsniveaus per thema op met vraagtype als getrapte productpakkettenlaag. Verpak met automatisch gegenereerde antwoordbladen, voortgangsvolgers en verkoperinstructiekaarten. Het nul-tekst formaat werkt in elk winkel ongeacht de taalachtergrond van gebruikers — bijzonder waardevol voor meertalige en inclusieve settings. verkopers zoeken naar "groottevergelijking activiteiten" en "groot en klein werkbladen" en vinden beperkte kwaliteitsopties.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Visuele Grootte-Activiteit Trechter',
+      title: `Pinterest Visuele Grootte-Activiteit Trechter`,
       description: `Groottevergelijking werkbladen met kleurrijke thema-afbeeldingen zijn van nature pin-waardig — het visuele formaat trekt de aandacht in Pinterest-feeds waar de meeste werkbladpins tekstzwaar en visueel saai zijn. Pin voorbeeldwerkbladen met de vijf vraagtypen met watermerk, link naar je winkel of landingspagina, en verzamel e-mailadressen voor je mailinglijst. Verkoop volledige themabundels en werkboeken als upsell. Het nul-tekst formaat maakt pins aantrekkelijk voor ouders en verkopers in elk land, niet alleen Nederlandstaligen.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Compleet Visueel Leren Toolkit',
+      title: `Gumroad Compleet Visueel Leren Toolkit`,
       description: `Bundel groottevergelijking werkbladen met matching werkbladen, zoek de uitzondering, schaduw matching, patroontrein en lijnen trekken tot een uitgebreid visueel leren toolkit op Gumroad. Elk formaat oefent een andere visuele cognitieve vaardigheid: Groot & Klein bouwt groottediscriminatie, matching bouwt visueel koppelen, zoek de uitzondering bouwt classificatie, schaduw matching bouwt vormherkenning. Een multi-formaat visueel toolkit rechtvaardigt een premiumprijs en geeft gebruikers gevarieerde oefening met gecoördineerde thema-afbeeldingen over elk activiteitstype.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Dubbele-Modus Productlijn voor Maximale Variatie',
+      title: `Dubbele-Modus Productlijn voor Maximale Variatie`,
       description: `Maak elk thema in zowel de modus Identieke Afbeeldingen als Verschillende Afbeeldingen en verkoop ze als aparte producten of premiumbundels. Identieke Afbeeldingen richt zich op zuivere grootteperceptie voor jongere gebruikers. Verschillende Afbeeldingen richt zich op relatief grootteredeneren voor meer gevorderde gebruikers. Dit verdubbelt je productcatalogus vanuit één set thema's — 104 thema's maal twee modi is 208 potentiële productvermeldingen. Elke modus oefent oprecht een andere cognitieve vaardigheid, waardoor de getrapte productpakketten echt en verdedigbaar is in productbeschrijvingen.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -123,7 +123,7 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Gebruik vraagtype als je primaire moeilijkheidsas',
+      title: `Gebruik vraagtype als je primaire moeilijkheidsas`,
       description: `De vijf vraagtypen creëren een natuurlijke moeilijkheidsprogressie. Omcirkel de Grote is het eenvoudigst — gebruikers herkennen de duidelijk grootste afbeelding. Omcirkel de Kleine is iets moeilijker omdat "kleinste" zorgvuldiger vergelijken vereist. Omcirkel de Middelste is de moeilijkste identificatietaak omdat gebruikers beide uitersten moeten uitsluiten. Nummeren 1–2–3 ordening vereist meerstaps ordening. Gebruik deze progressie om gegradueerde productbundels te maken vanuit één ontwerpsessie.`,
     },
     {
@@ -135,11 +135,11 @@ const content: ToolContent = {  seo: {
       description: `Groot & Klein werkbladen bevatten geen tekst op de uitvoer — alleen afbeeldingen en visuele indicatoren. Dit is je sterkste concurrentievoordeel voor marktplaatsvermeldingen. Vermeld expliciet "geen vertaling nodig — werkt wereldwijd" in elke productbeschrijving. Kopers uit elk land kunnen kopen zonder zich zorgen te maken over taalcompatibiliteit. Vermeld hetzelfde product in meerdere internationale Etsy-winkels met identieke bestanden.`,
     },
     {
-      title: 'Stem het aantal oefeningen af op je doelleeftijd',
+      title: `Stem het aantal oefeningen af op je doelleeftijd`,
       description: `Voor peuters en kleuters (2–4 jaar) gebruik je 2–3 grote oefeningen per pagina met 2 afbeeldingen elk voor maximale duidelijkheid. Voor kleuterschoolgebruikers (4–6 jaar) gebruik je 4–6 oefeningen met 2 of 3 afbeeldingen. Voor groep 3 en ouder creëren 6–10 oefeningen per pagina efficiënte toetsbladen. Vermeld de doelleeftijd in je producttitels en -beschrijvingen voor betere zoekresultaten op marktplaatsen.`,
     },
     {
-      title: 'Gebruik grijstinten voor KDP en bulkprinten',
+      title: `Gebruik grijstinten voor KDP en bulkprinten`,
       description: `Schakel de grijstintenmodus in voor werkbladen bestemd voor Amazon KDP-binnenwerken of bulkprinten online. Zwart-wit uitvoer kost aanzienlijk minder om te printen en voldoet aan KDP-binnenwerksvereisten voor standaard (niet-premium kleur) boeken. Bewaar de kleurmodus voor Etsy-vermeldingsvoorbeelden en digitale downloads waar levendige thema-afbeeldingen klikken aantrekken.`,
     },
     {
@@ -147,7 +147,7 @@ const content: ToolContent = {  seo: {
       description: `Koppel groottevergelijking werkbladen aan matching werkbladen, zoek de uitzondering, schaduw matching en patroon-activiteiten. Elke tool oefent een andere visuele discriminatie vaardigheid: Groot & Klein dekt grootteperceptie, matching dekt visueel koppelen, zoek de uitzondering dekt classificatie, schaduw matching dekt vormherkenning. Multi-formaat visuele bundels verkopen voor meer dan elk afzonderlijk activiteitstype alleen.`,
     },
     {
-      title: 'Upload eigen afbeeldingen voor nichemarkten',
+      title: `Upload eigen afbeeldingen voor nichemarkten`,
       description: `Gebruik de functie voor eigen afbeeldingen om groottevergelijking werkbladen te maken voor nichemarkten buiten de ingebouwde bibliotheek. Vergelijk gebouwgroottes voor aardrijkskundelessen, voedselporties voor gezondheidseducatie, of planeetgroottes voor wetenschapslessen. Eigen afbeeldingen laten je specifieke kopersniches bereiken op Etsy en Gumroad waar de themabibliotheek alleen misschien niet past.`,
     },
   ],
@@ -166,7 +166,7 @@ const content: ToolContent = {  seo: {
       answer: `De modus Identieke Afbeeldingen toont dezelfde afbeelding op verschillende formaten — bijvoorbeeld drie exemplaren van een kat op klein, middel en groot formaat. Dit isoleert zuivere grootteperceptie. De modus Verschillende Afbeeldingen toont onderscheidende objecten op verschillende formaten, wat relatief grootteredeneren vereist. De twee modi creëren fundamenteel verschillende oefeningen en verdubbelen effectief je productvariatie vanuit één tool.`,
     },
     {
-      question: 'Waarom staat er geen tekst op de werkbladen?',
+      question: `Waarom staat er geen tekst op de werkbladen?`,
       answer: `Groot & Klein werkbladen zijn volledig visueel van opzet. Alleen afbeeldingen en visuele indicatoren verschijnen op de uitvoer — geen geschreven woorden. Dit maakt werkbladen universeel bruikbaar ongeacht taal of leesniveau. Preliteraire gebruikers maken ze zonder te lezen. Voor verkopers betekent nul-tekst uitvoer dat hetzelfde product wereldwijd verkoopt zonder vertaling — één vermelding bedient elke markt.`,
     },
     {
@@ -182,12 +182,12 @@ const content: ToolContent = {  seo: {
       answer: `Ja. Met 2 afbeeldingen maken gebruikers een eenvoudige groter/kleiner vergelijking. Met 3 afbeeldingen wordt een middelste optie geïntroduceerd, waardoor Omcirkel de Middelste mogelijk wordt en nummeringsoefeningen moeilijker worden met drie items om te ordenen. Begin met 2 afbeeldingen voor jongere gebruikers en ga over naar 3 voor meer gevorderde oefening. Je kunt ook 1–10 oefeningen per pagina instellen voor flexibele werkbladdichtheid.`,
     },
     {
-      question: 'Kan ik mijn eigen afbeeldingen uploaden?',
+      question: `Kan ik mijn eigen afbeeldingen uploaden?`,
       answer: `Ja. De functie voor eigen afbeeldingen laat je elke afbeelding toevoegen aan je groottevergelijking oefeningen. Upload foto's, illustraties of afbeeldingen relevant voor jouw vak of doelgroep. Eigen afbeeldingen werken met alle vijf vraagtypen en beide afbeeldingsmodi. Dit is handig voor nicheonderwerpen zoals gebouwgroottes vergelijken, voedselporties of planeetgroottes buiten de ingebouwde 104-thema bibliotheek.`,
     },
     {
       question: `Welke bestandsformaten en paginaformaten zijn beschikbaar?`,
-      answer: `Download als JPEG met hoge resolutie of printklare PDF op 300 DPI. Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. PDF's zijn ideaal voor direct printen en KDP-upload; JPEG's werken voor productmockups en sociale media.`,
+      answer: `Download als JPEG met hoge resolutie of printklare PDF op 300 DPI. Paginaformaten omvatten Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. PDF`s zijn ideaal voor direct printen en KDP-upload; JPEG`s werken voor productmockups en sociale media.`,
     },
     {
       question: `Mag ik werkbladen gemaakt met deze tool commercieel verkopen?`,
@@ -205,8 +205,8 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Patronen Werkblad Maker' },
     { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Rastertekenen Werkblad Maker' },
     { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Matching Werkblad Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: `Zoek de Uitzondering Werkblad Maker` },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: `Schaduw Matching Werkblad Maker` },
     { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Maker' },
   ],
 

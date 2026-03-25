@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas adivinar palabras',
+    primaryKeyword: `generador fichas adivinar palabras`,
     secondaryKeywords: [
       `fichas de adivinar palabras imprimibles para vendedores Etsy`,
       `generador de fichas de vocabulario estilo ahorcado para Amazon KDP`,
-      'vender fichas de adivinar palabras en Gumroad',
+      `vender fichas de adivinar palabras en Gumroad`,
       `fichas de adivinar palabras con pistas de imagen licencia comercial`,
     ],
     lsiKeywords: [
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Adivinar Palabras en 5 Pasos',
+    title: `Cómo Crear Fichas de Adivinar Palabras en 5 Pasos`,
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Elige entre cuadrículas de letras en mayúsculas (por defecto) y minúsculas para adaptarte al nivel de habilidad objetivo. Usa el panel de Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Ajusta el tamaño, color y contorno de la fuente para máxima legibilidad.`,
       },
       {
-        title: 'Genera la clave de respuesta y descarga',
+        title: `Genera la clave de respuesta y descarga`,
         description:
           `Ve a la pestaña de Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear una versión resuelta con cada letra revelada — no queda ninguna casilla vacía. Activa la exportación en escala de grises para claves de respuesta que ahorran tinta. Luego abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Cada exportación se renderiza a más de 400 DPI para una nitidez perfecta, ya sea para impresión doméstica, subida a Etsy o un libro de puzzles de vocabulario de Amazon KDP.`,
       },
@@ -81,12 +81,12 @@ const content: AppContent = {
           `Los nombres de imágenes y las entradas personalizadas que contienen espacios se muestran como grupos de palabras separados en la cuadrícula del puzzle, con un espaciado claro entre cada palabra. Esto significa que términos compuestos como «oso polar» o «camión de bomberos» se muestran naturalmente como dos cuadrículas de palabras conectadas en lugar de una cadena larga. Los usuarios resuelven cada palabra de forma independiente mientras entienden que forman un solo concepto. Esta funcionalidad amplía el alcance de tu vocabulario mucho más allá de los sustantivos simples, incluyendo especies animales, platos de comida, nombres de lugares y expresiones descriptivas.`,
       },
       {
-        title: '104 temas visuales con más de 3100 imágenes',
+        title: `104 temas visuales con más de 3100 imágenes`,
         description:
           `Explora una biblioteca de más de 3100 ilustraciones de alta resolución organizadas en 104 temas: animales, vehículos, comida, festividades, deportes, espacio, naturaleza y mucho más. Cada imagen sirve a la vez como pista visual y fuente de vocabulario — el nombre de la imagen se convierte en la palabra a adivinar. Usa la barra de búsqueda para encontrar imágenes específicas al instante, o explora temas para construir series de fichas coherentes. También puedes subir tus propias imágenes personalizadas con nombres personalizados para contenido de marca o especializado.`,
       },
       {
-        title: 'Generación automática de clave de respuesta',
+        title: `Generación automática de clave de respuesta`,
         description:
           `Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con cada casilla de letra rellena — no queda ninguna casilla vacía. La pestaña de clave de respuesta muestra una vista previa en directo para verificar la exactitud antes de descargar. Exporta la clave de respuesta como archivo JPEG o PDF separado con una opción de escala de grises para versiones que ahorran tinta. Incluir claves de respuesta en tus paquetes de Etsy y libros de KDP añade valor profesional sin ningún trabajo manual de montaje.`,
       },
@@ -104,10 +104,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Adivinar Palabras en Línea',
+    title: `Cómo Vender Fichas de Adivinar Palabras en Línea`,
     cases: [
       {
-        title: 'Paquetes temáticos de adivinar palabras en Etsy',
+        title: `Paquetes temáticos de adivinar palabras en Etsy`,
         description:
           `Crea conjuntos de 10 a 20 fichas de adivinar palabras agrupadas por tema y nivel de dificultad — animales de granja en Fácil, criaturas marinas en Normal, dinosaurios en Difícil — y ofrécelos como descarga instantánea en Etsy. Incluye las claves de respuesta como archivos extra. El formato de pistas de imagen es visualmente atractivo y se destaca frente a las simples listas de vocabulario en los resultados de búsqueda de Etsy. Mezcla niveles de dificultad dentro de los paquetes para abarcar un rango de edad más amplio. Fija el precio de paquetes temáticos individuales entre $3–$5 y de mega-paquetes multi-tema con dificultad graduada entre $12–$18.`,
         platform: 'Etsy (etsy.com)',
@@ -122,36 +122,36 @@ const content: AppContent = {
         title: `Centros de lectoescritura diferenciados para Gumroad`,
         description:
           `Construye conjuntos de práctica de adivinar palabras por niveles usando el nivel de dificultad como eje de diferenciación: Nivel 1 (Fácil, 4 puzzles por página, palabras simples), Nivel 2 (Normal, 6 puzzles, palabras medianas), Nivel 3 (Difícil, 8 puzzles, palabras más largas), y Nivel 4 (Sin Pistas, 10 puzzles, expresiones de varias palabras). Acompaña cada nivel con claves de respuesta y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de lectura.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Productos de vocabulario multilingües con Acceso Completo`,
         description:
           `El Acceso Completo desbloquea los 11 idiomas, y como Adivinar Palabras es sensible al idioma, la palabra objetivo cambia según el idioma. «Dog» en inglés se convierte en «Hund» en alemán, «chien» en francés, «perro» en español. Cada versión lingüística es un producto genuinamente diferente con palabras diferentes, números de letras diferentes y soluciones de puzzle diferentes. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingüe)`,
       },
       {
         title: `Herramienta de ortografía para venta en línea y tutoría`,
         description:
           `Usa el modo Lista de Palabras Personalizada para crear fichas de adivinar palabras con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe tus palabras directamente sin necesitar imágenes correspondientes. Ajusta el nivel de dificultad según la capacidad de cada usuario: Fácil para los que tienen dificultades con la ortografía, Sin Pistas para los usuarios avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta automática ahorra valor percibido, y el formato estilo ahorcado mantiene el interés de los usuarios en comparación con los ejercicios tradicionales de escribir la palabra cinco veces.`,
-        platform: 'Tienda / Tutoría / Educación en casa',
+        platform: `Tienda / Tutoría / Educación en casa`,
       },
     ],
   },
 
   faq: [
     {
-      question: '¿Cómo funciona el puzzle de adivinar palabras?',
+      question: `¿Cómo funciona el puzzle de adivinar palabras?`,
       answer:
         `Cada puzzle muestra una pista de imagen junto a una fila de casillas de letras vacías. Los usuarios estudian la imagen para identificar lo que representa y luego rellenan las letras que faltan para deletrear la palabra. Las letras-pista pre-reveladas (controladas por el nivel de dificultad) proporcionan andamiaje. Funciona como el juego del ahorcado pero con una pista de imagen en lugar de una categoría — desarrollando simultáneamente el vocabulario visual, la ortografía y el razonamiento deductivo.`,
     },
     {
-      question: '¿Cuáles son los cuatro niveles de dificultad?',
+      question: `¿Cuáles son los cuatro niveles de dificultad?`,
       answer:
         `Los cuatro niveles controlan cuántas letras se pre-revelan en la cuadrícula vacía. Sin Pistas deja cada casilla vacía para un desafío máximo. Fácil revela la mitad de las letras. Normal revela un cuarto. Difícil revela un sexto — justo lo suficiente para empezar. Cada nivel crea una experiencia de puzzle diferente a partir de la misma palabra, facilitando la creación de paquetes con dificultad progresiva.`,
     },
     {
-      question: '¿Cuáles son las tres fuentes de contenido?',
+      question: `¿Cuáles son las tres fuentes de contenido?`,
       answer:
         `El modo Biblioteca de Imágenes usa ilustraciones temáticas donde el nombre de la imagen se convierte en la palabra a adivinar. El Modo Edición Manual te permite seleccionar imágenes y luego personalizar sus nombres de visualización antes de generar — perfecto para ortografías simplificadas o vocabulario alternativo. El modo Lista de Palabras Personalizada elimina las imágenes por completo y te deja escribir cualquier palabra o expresión directamente, permitiendo fichas de vocabulario para cualquier asignatura sin ilustraciones correspondientes.`,
     },
@@ -161,7 +161,7 @@ const content: AppContent = {
         `Las palabras o nombres de imágenes que contienen espacios (como «oso polar» o «camión de bomberos») se muestran como grupos de palabras separados en la cuadrícula del puzzle con un espaciado claro entre ellos. Los usuarios resuelven cada palabra de forma independiente mientras entienden que forman un solo concepto. Esto funciona con las tres fuentes de contenido y los cuatro niveles de dificultad.`,
     },
     {
-      question: '¿Puedo elegir entre mayúsculas y minúsculas?',
+      question: `¿Puedo elegir entre mayúsculas y minúsculas?`,
       answer:
         `Sí. El selector de tipo de letra te permite alternar entre mayúsculas (por defecto) y minúsculas para la cuadrícula de adivinación. Las mayúsculas son ideales para usuarios pequeños que aprenden las letras capitales, mientras que las minúsculas son adecuadas para usuarios mayores que practican la escritura estándar. La configuración se aplica tanto a las letras-pista como a las casillas que los usuarios rellenan.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de adivinar palabras como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El formato de puzzle con pistas de imagen y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar cada fuente de contenido, cada nivel de dificultad, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'tren-alfabeto-fichas',
-      anchorText: 'Generador de Fichas de Tren Alfabeto',
+      anchorText: `Generador de Fichas de Tren Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'preposiciones-fichas',
-      anchorText: 'Generador de Fichas de Preposiciones',
+      anchorText: `Generador de Fichas de Preposiciones`,
     },
     {
       pageType: 'app',
       slug: 'letras-revueltas-fichas',
-      anchorText: 'Generador de Fichas de Letras Revueltas',
+      anchorText: `Generador de Fichas de Letras Revueltas`,
     },
     {
       pageType: 'app',
       slug: 'sopa-letras-fichas',
-      anchorText: 'Generador de Fichas de Sopa de Letras',
+      anchorText: `Generador de Fichas de Sopa de Letras`,
     },
     {
       pageType: 'app',
       slug: 'criptogramas-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Criptogramas con Imágenes',
+      anchorText: `Generador de Fichas de Criptogramas con Imágenes`,
     },
     {
       pageType: 'bundle',
@@ -235,12 +235,12 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender productos imprimibles en Etsy',
+      slug: `vender-material-educativo-etsy`,
+      anchorText: `Guía para Vender productos imprimibles en Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `La Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -250,13 +250,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para trabajo desde casa',
+      slug: `educacion-en-casa-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para trabajo desde casa`,
     },
     {
       pageType: 'guide',
       slug: 'crear-sopas-letras',
-      anchorText: 'Crear sopas de letras que se vendan',
+      anchorText: `Crear sopas de letras que se vendan`,
     },
   ],
 

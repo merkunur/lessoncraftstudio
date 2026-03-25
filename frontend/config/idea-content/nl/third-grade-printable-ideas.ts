@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Groep 5 Printables Verkopen — Nichegids',
+    titleTag: `Groep 5 Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende groep 5 printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Basisschool productconcepten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'groep 5 printable ideeën',
     secondaryKeywords: [
       'groep 5 werkbladen verkopen',
-      'bovenbouw printable business ideeën',
-      'groep 5 activiteiten voor verkopers',
-      'groep 5 printables verkopen op Gumroad',
+      `bovenbouw printable business ideeën`,
+      `groep 5 activiteiten voor verkopers`,
+      `groep 5 printables verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'middenbouw educatieve werkbladen',
-      'groep 5 productcatalogus printables',
+      `middenbouw educatieve werkbladen`,
+      `groep 5 productcatalogus printables`,
       'leeftijd 8-9 leeractiviteiten',
     ],
   },
   hero: {
-    title: 'Groep 5 Printable Businessideeën voor Verkopers',
+    title: `Groep 5 Printable Businessideeën voor Verkopers`,
     description: `Groep 5 printables bezetten een uitzonderlijk lucratieve positie op de educatieve markt omdat groep 5 het cruciale academische jaar is waarin vermenigvuldiging en deling formeel worden geïntroduceerd als de dominante rekenoperaties, begrijpend lezen decoderen vervangt als het primaire leervehikel over elk inhoudsgebied, en schrijven vordert naar meervoudige-alinea composities die gestructureerde opinie- en verhalende teksten vereisen met georganiseerde ondersteunende argumenten. Deze convergentie van geïntensiveerde academische eisen creëert de sterkste koopdruk in de basisschool van verkopers die hun instructie moeten differentiëren over het breedste prestatiebereik in het basisonderwijs — cumulatieve leerverschillen van groep 1 tot en met groep 4 stapelen zich op tot een drie-tot-vier-jarig vaardigheidsspanne binnen één klas. Oudervraag intensiveert dramatisch tijdens groep 5 omdat Cito-toetsresultaten concrete consequenties dragen inclusief interventieplaatsingsbeslissingen en trajecttoewijzingen die de academische inzet tastbaar en urgent maken voor gezinnen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De groep 5 printable-markt vertegenwoordigt de premium omzetkans in de educatieve niche omdat groep 5 zich bevindt op het kritische academische draaipunt waar elk belangrijk vakgebied zijn meest significante complexiteitstoename ondergaat in de basisschooljaren, wat ongekende koopdruk creëert van verkopers die de meest veeleisende getrapte productpakketten-uitdaging in het basisonderwijs het hoofd moeten bieden en ouders die geconfronteerd worden met de eerste hoge-inzet toetsuitkomsten die echte consequenties dragen voor de academische toekomst van hun kind. Het rekenproductcatalogus alleen al stimuleert enorme printable-vraag omdat groep 5 vermenigvuldiging en deling introduceert als geheel nieuwe operatiedomeinen die beheersing van de tafels vereisen, conceptueel begrip van gelijke groepen en rijen, vloeienheidsontwikkeling via progressieve tafeloefening, en toepassing via meerstaps-woordopgaven.
@@ -42,12 +42,12 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
 
   productIdeas: [
     {
-      title: 'Groep 5 Telwerkbladen voor Printable Verkopers',
+      title: `Groep 5 Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen voor groep 5 richten zich op gevorderd getalbegrip met hoeveelheden tot duizend en het werken met vermenigvuldigingsconcepten via visuele groepen. Gebruik de Zoek en Tel-generator om complexe scènes te maken waarin kinderen grotere aantallen voorwerpen lokaliseren, groeperen en vermenigvuldigingsrelaties verkennen. Bied sets aan op progressieve moeilijkheidsniveaus die aansluiten bij het groep-5-rekenproductcatalogus. Deze werkbladen vormen een brug tussen concreet tellen en abstract vermenigvuldigen die verkopers bijzonder waarderen. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Groep 5 Woordzoekpuzzels Online Verkopen',
+      title: `Groep 5 Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers voor groep 5 trekken verkopers en ouders aan die woordenschat- en spellingvaardigheden willen versterken op het niveau van gevorderd begrijpend lezen. Maak puzzels met woorden van vijf tot tien letters die aansluiten bij het groep-5-spellingniveau — meerlettergrepige woorden, voorvoegsels en achtervoegsels, en thematisch vakjargon uit aardrijkskunde, natuur en geschiedenis. De Woordzoeker-generator laat je rasters maken met twaalf tot achttien woorden die het juiste uitdagingsniveau bieden voor acht- tot negenjarigen. Variaties per vakgebied verbreden je catalogus.`,
       appId: 'wordsearch',
     },
@@ -57,12 +57,12 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
       appId: 'matching',
     },
     {
-      title: 'Groep 5 Optelwerkbladen voor Rekenverkopers',
+      title: `Groep 5 Optelwerkbladen voor Rekenverkopers`,
       description: `Optelwerkbladen voor groep 5 richten zich op meercijferig optellen met hergroepering en op toepassingen in woordopgaven die meerdere rekenstappen vereisen. Gebruik de Optellen-generator om werkbladen te maken met driecijferige sommen en woordopgaven die real-world rekencontexten bieden. In groep 5 verschuift de nadruk van basisfeiten naar strategisch rekenen en probleemoplossing, waardoor werkbladen met contextuele opgaven bijzonder waardevol zijn voor verkopers die gebruikers voorbereiden op de Cito-rekentoets.`,
       appId: 'addition',
     },
     {
-      title: 'Groep 5 Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Groep 5 Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten voor groep 5 bevatten complexe educatieve instructies zoals kleur-bij-tafeluitkomst, kleur-bij-breuk of kleur-bij-grammaticaregel die de kleuractiviteit transformeren in een reken- of taaloefening op groep-5-niveau. De Kleuren-generator maakt gedetailleerde contouren met het juiste complexiteitsniveau voor acht- tot negenjarigen. Voor Etsy verkoop je sets met geavanceerde educatieve kleurinstructies. Voor KDP compileer je dertig tot vijftig pagina's in groep-5-activiteitenboeken die kleuren combineren met reken- en taaloefeningen.`,
       appId: 'coloring',
     },
@@ -73,7 +73,7 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
     },
     {
       title: `Groep 5 Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelwerkbladen voor groep 5 bieden complexe visuele discriminatieuitdagingen met subtiele vormverschillen die passen bij het cognitieve niveau van acht- tot negenjarigen. Gebruik de Schaduw Koppelen-generator om pagina's te maken met thematische beelden op gevorderd niveau. Combineer met thema\'s die aansluiten bij de interesses van groep 5 gebruikers — ruimte, constructie, wetenschap. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelwerkbladen voor groep 5 bieden complexe visuele discriminatieuitdagingen met subtiele vormverschillen die passen bij het cognitieve niveau van acht- tot negenjarigen. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met thematische beelden op gevorderd niveau. Combineer met thema's die aansluiten bij de interesses van groep 5 gebruikers — ruimte, constructie, wetenschap. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -96,12 +96,12 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Groep 5 Printables Verkopen op Etsy',
+      title: `Groep 5 Printables Verkopen op Etsy`,
       description: `Etsy is effectief voor groep-5-printables omdat ouders actief zoeken naar tafeloefenmateriaal en begrijpend-leeswerkbladen wanneer Cito-toetsresultaten vaardigheidstekorten zichtbaar maken. Richt je op long-tail zoekwoorden: "tafels oefenen werkblad groep 5," "begrijpend lezen groep 5" of "breuken werkblad basisschool." Positioneer je producten als "Cito-voorbereiding" en "tafelautomatisering" — dit resoneert bij ouders die concrete resultaatverbetering zoeken. De Nederlandse markt via Etsy.nl biedt kansen door de groeiende ouderlijke bezorgdheid rond groep-5-toetsresultaten en tafelbeheersing.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Groep 5 Activiteitenboeken Publiceren op KDP',
+      title: `Groep 5 Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is effectief voor groep-5-printables, vooral voor tafeloefenboeken die ouders kopen als dagelijks oefenmateriaal. Compileer groep-5-werkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tafels, deling, breuken en begrijpend leesactiviteiten combineren. Gebruik KDP-zoekwoordvelden strategisch: "groep 5 oefenboek," "tafels leren werkbladen," "begrijpend lezen oefenboek." Prijs tussen vier en acht euro. Tafeloefenboeken zijn een bijzonder sterk KDP-producttype omdat ouders ze kopen als dagelijkse oefenroutine. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
@@ -151,62 +151,62 @@ Het cross-promotionele potentieel van de groep-5-niche is bijzonder sterk omdat 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-math-puzzle-worksheets',
-      anchorText: 'Professionele rekenpuzzelwerkbladen maken',
+      anchorText: `Professionele rekenpuzzelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'second-grade-printable-ideas',
-      anchorText: 'Groep 4 printable businessideeën',
+      anchorText: `Groep 4 printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
+      anchorText: `Groep 3 printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
+      anchorText: `Rekenfeiten printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rugzak — educatieve thema-afbeelding groep 5', caption: 'Rugzak' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — educatieve thema-afbeelding groep 5', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding groep 5', caption: 'Boek' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding groep 5', caption: 'Kast' },
-    { src: '/image-library/classroom/calculator.webp', alt: `Rekenmachine — educatieve thema-afbeelding groep 5`, caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding groep 5', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding groep 5`, caption: 'Rugzak' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — educatieve thema-afbeelding groep 5`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: `Boek — educatieve thema-afbeelding groep 5`, caption: 'Boek' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Kast — educatieve thema-afbeelding groep 5`, caption: 'Kast' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Rekenmachine — educatieve thema-afbeelding groep 5`, caption: 'Rekenmachine' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — educatieve thema-afbeelding groep 5`, caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

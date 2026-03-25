@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Animais de Estimação — Nicho`,
     metaDescription: `Ideias lucrativas de imprimíveis de animais de estimação para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos de cães, gatos e animais com.`,
 
-    primaryKeyword: 'ideias de imprimíveis de animais de estimação',
+    primaryKeyword: `ideias de imprimíveis de animais de estimação`,
     secondaryKeywords: [
-      'fichas temática animais de estimação para vender',
-      'negócio imprimíveis animais domésticos',
+      `fichas temática animais de estimação para vender`,
+      `negócio imprimíveis animais domésticos`,
       `fichas atividades animais de estimação para vendedores`,
-      'vender imprimíveis animais de estimação no Etsy',
+      `vender imprimíveis animais de estimação no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas animais domésticos',
-      'atividades temática cães e gatos',
-      'imprimíveis escolares animais de estimação',
+      `fichas educativas animais domésticos`,
+      `atividades temática cães e gatos`,
+      `imprimíveis escolares animais de estimação`,
     ],
   },
   hero: {
@@ -148,18 +148,18 @@ O nicho de animais de estimação oferece oportunidades excecionais de empacotam
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -173,7 +173,7 @@ O nicho de animais de estimação oferece oportunidades excecionais de empacotam
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -183,18 +183,18 @@ O nicho de animais de estimação oferece oportunidades excecionais de empacotam
     },
     {
       pageType: 'idea',
-      slug: 'animais-safari-ideias-imprimiveis',
+      slug: `animais-safari-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais de Safari`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchila — imagem educativa temática', caption: 'Chinchila' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Caturra — imagem educativa temática', caption: 'Caturra' },
-    { src: '/image-library/pets/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Furão — imagem educativa temática', caption: 'Furão' },
-    { src: '/image-library/pets/finch.webp', alt: 'Tentilhão — imagem educativa temática', caption: 'Tentilhão' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchila — imagem educativa temática`, caption: 'Chinchila' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Caturra — imagem educativa temática`, caption: 'Caturra' },
+    { src: '/image-library/pets/dog.webp', alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Furão — imagem educativa temática`, caption: 'Furão' },
+    { src: `/image-library/pets/finch.webp`, alt: `Tentilhão — imagem educativa temática`, caption: 'Tentilhão' },
   ],
 
 

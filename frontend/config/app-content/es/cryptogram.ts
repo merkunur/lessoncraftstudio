@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `fichas de criptograma con imágenes imprimibles para vendedores Etsy`,
       `generador de puzzles de criptograma cifrado para Amazon KDP`,
-      'vender fichas de criptograma en Gumroad',
+      `vender fichas de criptograma en Gumroad`,
       `fichas de criptograma con leyenda de letras licencia comercial`,
     ],
     lsiKeywords: [
       `productos digitales de puzzles de cifrado por imágenes para emprendedores`,
       `negocio de fichas de descifrado imprimibles en línea`,
-      'generador de fichas de criptograma uso comercial',
+      `generador de fichas de criptograma uso comercial`,
     ],
-    titleTag: 'Generador Fichas Criptograma | Crear y Vender',
+    titleTag: `Generador Fichas Criptograma | Crear y Vender`,
     metaDescription:
       `Crea fichas de criptograma para Etsy, KDP y Gumroad. Cifrado por imágenes, Letras a Revelar 0–10, 104 temas, clave automática. Prueba gratis con marca de agua.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Criptograma en 5 Pasos',
+    title: `Cómo Crear Fichas de Criptograma en 5 Pasos`,
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -35,7 +35,7 @@ const content: AppContent = {
           `Abre el panel de Configuración de Página y elige un tamaño: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal o cualquier dimensión personalizada. Selecciona un color de fondo, elige un tema de fondo decorativo de la biblioteca de imágenes y ajusta su opacidad, luego añade un marco de borde a juego con control de opacidad independiente. Estas opciones de diseño le dan a tus fichas de criptograma un aspecto pulido y profesional antes de asignar una sola letra.`,
       },
       {
-        title: 'Introduce la frase secreta y selecciona el idioma',
+        title: `Introduce la frase secreta y selecciona el idioma`,
         description:
           `Escribe la frase u oración que quieres que los usuarios decodifiquen. Este es el mensaje secreto que será codificado como un cifrado por imágenes. Selecciona el idioma de destino — el texto de la frase debe coincidir con el idioma elegido, ya que los usuarios lo decodificarán en palabras legibles. El conjunto de letras del alfabeto se ajusta automáticamente según el idioma: el inglés usa 26 letras, el alemán incluye ä, ö, ü, ß, el francés incluye caracteres acentuados y el español incluye ñ, á, é, í, ó, ú. Cada letra de tu frase será asociada a una imagen en el cifrado.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `A diferencia de los puzzles que codifican palabras individuales, el Generador de Criptograma codifica frases y oraciones enteras. Los usuarios decodifican un mensaje completo y legible — una cita motivadora, una oración de vocabulario, un dato curioso o una instrucción personalizada — obteniendo la satisfacción de revelar un contenido significativo en lugar de palabras aisladas. La codificación a nivel de frase también proporciona pistas contextuales: las palabras cortas comunes como «el», «y» y «es» ayudan a los resolvedores a descifrar el código más rápido, creando un efecto de andamiaje natural que recompensa la intuición lingüística.`,
       },
       {
-        title: 'Dificultad ajustable con Letras a Revelar (0–10)',
+        title: `Dificultad ajustable con Letras a Revelar (0–10)`,
         description:
           `El control Letras a Revelar determina cuántas correspondencias letra-imagen están pre-resueltas como pistas en la ficha. En cero, los usuarios enfrentan un desafío de descifrado puro sin información de partida. En diez, una porción significativa del cifrado ya está decodificada, proporcionando un andamiaje intenso para resolvedores más jóvenes o menos experimentados. Este único control crea un gradiente de dificultad progresivo que hace los puzzles de criptograma accesibles a una amplia gama de niveles de capacidad — y también sirve como un eje de diferenciación potente para paquetes de productos.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Criptograma en Línea',
+    title: `Cómo Vender Fichas de Criptograma en Línea`,
     cases: [
       {
-        title: 'Paquetes temáticos de criptogramas en Etsy',
+        title: `Paquetes temáticos de criptogramas en Etsy`,
         description:
           `Crea conjuntos de 10 a 20 fichas de criptograma agrupadas por tema y nivel de dificultad. Usa la Asignación Automática con imágenes de animales de granja a Letras a Revelar 5 para un paquete de principiantes, criaturas marinas a Letras a Revelar 3 para intermedio y dinosaurios a Letras a Revelar 0 para desafíos expertos. Incluye la leyenda de letras de la clave de respuesta como archivo extra con cada paquete. El formato de cifrado visual con imágenes temáticas se destaca frente a los listados de crucigramas o sopas de letras clásicos en los resultados de búsqueda de Etsy. Fija el precio de paquetes temáticos individuales entre $3–$5 y de mega-paquetes multi-tema con dificultad progresiva entre $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Libros de puzzles de criptograma en Amazon KDP',
+        title: `Libros de puzzles de criptograma en Amazon KDP`,
         description:
           `Compila de 50 a 100 puzzles de criptograma con imágenes en un libro de puzzles impreso en formato Amazon KDP. Usa el control Letras a Revelar como curva de dificultad: comienza los capítulos con 8–10 revelaciones para calentamientos, avanza a través de 3–5 revelaciones para las secciones intermedias y termina con desafíos expertos de cero revelaciones. Agrupa los capítulos por tema para una variedad navegable e incluye las leyendas de letras de las claves de respuesta al final. Los libros de criptogramas ocupan un nicho menos competitivo que los libros de sopas de letras o crucigramas, ofreciéndote mayor visibilidad con menor gasto publicitario.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de descifrado diferenciados para Gumroad',
+        title: `Centros de descifrado diferenciados para Gumroad`,
         description:
           `Construye conjuntos de práctica de criptograma por niveles usando Letras a Revelar como eje de diferenciación: Nivel 1 (8 revelaciones, frases cortas, imágenes temáticas), Nivel 2 (5 revelaciones, frases medianas), Nivel 3 (2 revelaciones, oraciones más largas) y Nivel 4 (0 revelaciones, desafío de descifrado completo). Acompaña cada nivel con leyendas de letras de claves de respuesta y una hoja de seguimiento del progreso del usuario. La mecánica del cifrado es intrínsecamente motivadora — los usuarios experimentan una verdadera emoción de descifrado cuando cada letra decodificada desbloquea más del mensaje. Los compradores de Gumroad pagan precios premium por recursos de lectoescritura diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Productos de criptograma multilingües con Acceso Completo`,
         description:
           `El Acceso Completo desbloquea los 11 idiomas, y como el Criptograma es sensible al idioma, tanto el texto del mensaje secreto COMO el conjunto de letras del alfabeto cambian según el idioma. Una frase en inglés se convierte en una frase en alemán codificada con un alfabeto que incluye ä, ö, ü, ß; una frase en francés usa un alfabeto con é, è, ç, à; una frase en español usa un alfabeto con ñ, á, é, í, ó, ú. Cada versión lingüística produce un puzzle cifrado verdaderamente diferente con palabras diferentes, correspondencias de letras diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingüe)`,
       },
       {
         title: `Herramienta de vocabulario para venta en línea y tutoría`,
         description:
           `Codifica oraciones de vocabulario personalizadas, frases de repaso de ortografía o definiciones específicas de una asignatura como puzzles de criptograma. Escribe cualquier frase como mensaje secreto — «La mitocondria es la central energética de la célula» para biología, «La Declaración de Independencia se firmó en 1776» para historia, o las palabras del dictado semanal organizadas en una oración. Ajusta las Letras a Revelar según el nivel de capacidad de cada usuario para una diferenciación instantánea. El formato de descifrado transforma el repaso de vocabulario memorístico en una actividad de puzzle motivadora, y la leyenda de letras de la clave de respuesta ahorra valor percibido.`,
-        platform: 'Tienda / Tutoría / Educación en casa',
+        platform: `Tienda / Tutoría / Educación en casa`,
       },
     ],
   },
@@ -146,7 +146,7 @@ const content: AppContent = {
         `Cada letra del alfabeto se asigna a una imagen única. Tu frase secreta se muestra entonces como una secuencia de imágenes que reemplazan cada letra. Los usuarios observan cada imagen, determinan qué letra representa y escriben la letra para reconstruir el mensaje original. Los espacios y la puntuación se conservan tal cual, para que los usuarios vean los límites entre palabras. El desafío consiste en construir la correspondencia completa imagen-letra mediante la deducción y el reconocimiento de patrones.`,
     },
     {
-      question: '¿Qué hace el control Letras a Revelar (0–10)?',
+      question: `¿Qué hace el control Letras a Revelar (0–10)?`,
       answer:
         `Letras a Revelar controla cuántas correspondencias letra-imagen están pre-resueltas en la ficha como pistas. En 0, los usuarios comienzan sin información alguna y deben descifrar el código entero desde cero. En 10, diez correspondencias ya están decodificadas, proporcionando un andamiaje significativo. Este control es el ajuste principal de dificultad — usa valores más altos para principiantes y valores más bajos para resolvedores avanzados. También sirve como eje de diferenciación natural para paquetes de productos por niveles.`,
     },
@@ -176,7 +176,7 @@ const content: AppContent = {
         `Las colecciones temáticas están disponibles en ilustraciones a color y en variantes de dibujo de línea en blanco y negro (filtradas por el sufijo _bw). Los temas Color producen puzzles cifrados vibrantes y visualmente ricos, ideales para productos digitales e impresión a color. Los temas Blanco y Negro producen fichas económicas en tinta que se imprimen limpiamente en impresoras estándar del mercado y funcionan bien en libros de puzzles en blanco y negro.`,
     },
     {
-      question: '¿Cómo funciona el alfabeto adaptado al idioma?',
+      question: `¿Cómo funciona el alfabeto adaptado al idioma?`,
       answer:
         `Cuando seleccionas un idioma, el conjunto de letras del alfabeto se ajusta automáticamente para incluir los caracteres de ese idioma. El alemán añade ä, ö, ü, ß a las 26 letras estándar. El francés añade é, è, ç, à y otros caracteres acentuados. El español añade ñ, á, é, í, ó, ú. El conjunto de letras de cada idioma está definido por la función getAlphabetForLocale(), garantizando que el cifrado cubra cada letra que podría aparecer en la frase secreta para ese idioma.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Como el mensaje secreto está en el idioma seleccionado y el conjunto de letras del alfabeto cambia según el idioma, cada versión lingüística produce un puzzle cifrado verdaderamente diferente. La Licencia Comercial es solo en inglés; el Acceso Completo desbloquea los 11 idiomas. Un criptograma en alemán codifica una frase alemana con un alfabeto ampliado que incluye ä, ö, ü — es un producto fundamentalmente diferente de la versión en inglés.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar la Asignación Automática, la Asignación Manual, las Letras a Revelar, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'tren-alfabeto-fichas',
-      anchorText: 'Generador de Fichas de Tren Alfabeto',
+      anchorText: `Generador de Fichas de Tren Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'preposiciones-fichas',
-      anchorText: 'Generador de Fichas de Preposiciones',
+      anchorText: `Generador de Fichas de Preposiciones`,
     },
     {
       pageType: 'app',
       slug: 'adivinar-palabras-fichas',
-      anchorText: 'Generador de Fichas de Adivinar Palabras',
+      anchorText: `Generador de Fichas de Adivinar Palabras`,
     },
     {
       pageType: 'app',
       slug: 'letras-revueltas-fichas',
-      anchorText: 'Generador de Fichas de Letras Revueltas',
+      anchorText: `Generador de Fichas de Letras Revueltas`,
     },
     {
       pageType: 'app',
       slug: 'sopa-letras-fichas',
-      anchorText: 'Generador de Fichas de Sopa de Letras',
+      anchorText: `Generador de Fichas de Sopa de Letras`,
     },
     {
       pageType: 'bundle',
@@ -235,12 +235,12 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender productos imprimibles en Etsy',
+      slug: `vender-material-educativo-etsy`,
+      anchorText: `Guía para Vender productos imprimibles en Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `La Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -250,8 +250,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para trabajo desde casa',
+      slug: `educacion-en-casa-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para trabajo desde casa`,
     },
     {
       pageType: 'guide',

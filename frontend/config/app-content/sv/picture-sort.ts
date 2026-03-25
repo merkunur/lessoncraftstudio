@@ -7,7 +7,7 @@ const content: AppContent = {
       `utskrivbar sorteringsaktivitet skapare för Etsy-säljare`,
       `tvåkategori sortering arbetsblad generator för KDP`,
       `bildklassificering arbetsblad skapare kommersiell licens`,
-      'sälja sorteringsarbetsblad på Gumroad',
+      `sälja sorteringsarbetsblad på Gumroad`,
     ],
     lsiKeywords: [
       `digitala sorterings utskriftsbara produkter onlineföretag`,
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Bildsorteringsarbetsblad i 5 Steg',
+    title: `Hur du Skapar Bildsorteringsarbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -35,17 +35,17 @@ const content: AppContent = {
           `Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Kryssa i «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer. Dessa layoutval ramar in ditt sorteringsarbetsblad innan du konfigurerar något innehåll.`,
       },
       {
-        title: 'Välj dina sorteringskategorier',
+        title: `Välj dina sorteringskategorier`,
         description:
           `Öppna panelen Sorteringskategorier och välj två teman — ett för den vänstra kategorin och ett för den högra kategorin. Appen genererar automatiskt 4–6 slumpmässiga bilder per tema från bildbiblioteket. Välj till exempel Djur till vänster och Mat till höger för att skapa ett sorteringsarbetsblad där användarna klassificerar bilder i rätt grupp. Alternativt, växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till vänster eller höger kategori.`,
       },
       {
-        title: 'Välj bilder från biblioteket eller ladda upp egna',
+        title: `Välj bilder från biblioteket eller ladda upp egna`,
         description:
           `Öppna panelen Bildbibliotek och bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer — djur, mat, fordon, natur, högtider och dussintals fler. Filtrera efter tema med dropdownen eller sök med nyckelord. Klicka på bilder för att lägga till dem i ditt arbetsblad och tilldela var och en till vänster eller höger kategori. Det totala bildantalet sträcker sig från 4 till 12, med 2–10 bilder per kategori. Du kan också ladda upp egna PNG-, JPG- eller GIF-bilder att använda bredvid biblioteksinnehåll.`,
       },
       {
-        title: 'Generera sorteringsarbetsbladet',
+        title: `Generera sorteringsarbetsbladet`,
         description:
           `Klicka på Generera för att skapa den tvådelade sorteringslayouten. Appen arrangerar ditt innehåll i kategoriramar överst (två sida vid sida streckade ramar med #FAFAFA-fyllning) och ett blandat utklippsrutnät nedanför (vita celler med streckade #666-kanter). En stiliserad «Sortera bilder»-rubrik visas överst med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. En blågrön yttre ram (#26A69A, 8px streck) ramar in hela sidan. Utklippsrutnätet visar alla bilder i slumpmässig ordning — användarna klipper ut dem och sorterar i rätt kategoriruta.`,
       },
@@ -86,7 +86,7 @@ const content: AppContent = {
           `Bläddra bland 104 tematiska bildsamlingar som täcker djur, mat, fordon, natur, yrken, högtider, sport, årstider och dussintals fler. Varje tema ger en koordinerad uppsättning färgglada illustrationer som fungerar som sorteringskategorier. Filtrera efter tema med dropdownen eller sök efter specifika bilder med nyckelord. Det temabaserade kategorivalet gör det enkelt att skapa sorteringsarbetsblad med naturliga kategorpar — landdjur mot havsdjur, hälsosam mat mot skräpmat, sommarföremål mot vinterföremål. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation.`,
       },
       {
-        title: 'Namn- och datumfält för produktlinjesansvar',
+        title: `Namn- och datumfält för produktlinjesansvar`,
         description:
           `Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till namn och datumlinjer på sorteringsarbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör arbetsbladen redo för säljarens insamling och bedömning utan ytterligare förberedelse. köpare som söker efter sorteringsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga, och namn/datum-alternativet gör dina produkter mer attraktiva för utbildningsmarknaden på Gumroad och Etsy.`,
       },
@@ -104,44 +104,44 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Bildsorteringsarbetsblad Online',
+    title: `Hur du Säljer Bildsorteringsarbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska sorteringsarbetsblad-paket på Etsy',
+        title: `Tematiska sorteringsarbetsblad-paket på Etsy`,
         description:
           `Skapa tematiska sorteringsaktivitetspaket med naturliga kategorpar från de 104 bildsamlingarna — djur mot mat, land mot vatten, frukt mot grönsaker, inomhus mot utomhus och dussintals fler. Varje temaparning producerar flera unika sorteringsarbetsblad genom att variera bildval och antal. Paketera 10–20 sorteringsarbetsblad per paket med facit inkluderade, och sälj till 30–70 SEK per paket. Det temabaserade kategorivalet gör det snabbt att generera arbetsblad med distinkta vänster/höger-grupperingar, och det automatiskt genererade facit eliminerar den största produktionsflaskhalsen.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Klassificerings-arbetsböcker på Amazon KDP',
+        title: `Klassificerings-arbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 sorteringsarbetsblad till en tryckt arbetsbok formaterad för Amazon KDP. Strukturera efter svårighet: tidiga kapitel använder 4–6 bilder med uppenbara kategoriskillnader (djur mot fordon), mellankapitel använder 8–10 bilder med subtilare distinktioner (husdjur mot vilda djur), och avancerade kapitel använder 12 bilder med utmanande kategorier. Inkludera facit i slutet av boken med den automatiskt genererade facitfunktionen. Gråskaleväxlingen producerar bläckvänliga sidor redo för svartvita bokinteriörer. Sorteringsarbetsböcker tjänar en bred publik från förskola till grundskola.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'produktlinjes sorteringsaktiviteter för Gumroad',
+        title: `produktlinjes sorteringsaktiviteter för Gumroad`,
         description:
           `Bygg färdiga sorteringsstationsarbetsblad med namn/datum-fält och tryckta facit. köpare som söker på Gumroad efter sorteringsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga — namnfältet säkerställer spårbarhet, kategoriramarna ger tydliga sorteringsmål, och det automatiskt genererade facit sparar säljarens förberedelsetid. Skapa produktkatalogsanpassade set: levande mot icke-levande, hälsosam mot ohälsosam mat, dag- mot nattdjur, varmt mot kallt väderklädsel. Varje set inkluderar arbetsblad och facit i både PDF- och JPEG-format.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Säsongsbetonade och högtidssorteringssamlingar',
+        title: `Säsongsbetonade och högtidssorteringssamlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa säsongsbetonade sorteringsarbetsblad där användarna klassificerar högtidsföremål i kategorier: juldekorationer mot julmat, halloweenkostymer mot halloweengodis, sommaraktiviteter mot vinteraktiviteter. Släpp halloweensorteringspaket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Säsongsprodukter motiverar högre priser under toppfönster och skapar naturliga skäl till återköp.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
       {
         title: `Flerspråkiga sorteringsarbetsblad för ESL och tvåspråkiga marknader`,
         description:
           `Utnyttja de språkkänsliga kategorietiketterna för att skapa sorteringsarbetsblad på 11 språk. Samma bilder producerar olika kategorietiketter när du byter språk — bildnamn och «Sortera bilder»-rubriken uppdateras alla automatiskt. Skapa flerspråkiga sorteringspaket där varje språkversion använder samma tematiska bilder men lokaliserad text. Detta är särskilt värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser på Etsy och Gumroad.`,
-        platform: 'Etsy / Gumroad (flerspråkig marknad)',
+        platform: `Etsy / Gumroad (flerspråkig marknad)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Hur fungerar tvåkategorisorteringsmekaniken?',
+      question: `Hur fungerar tvåkategorisorteringsmekaniken?`,
       answer:
         `Varje sorteringsarbetsblad har exakt två kategorier — vänster och höger. Arbetsbladet visar två streckade kategoriramar överst där användarna sorterar sina bilder, och ett blandat utklippsrutnät nedanför med alla bilder blandade. användarna klipper ut bilderna från rutnätet och placerar var och en i rätt kategoriruta. Tvåkategoriformat skapar en tydlig binär klassificeringsuppgift som fungerar för alla ämnen — djur mot mat, land mot vatten, levande mot icke-levande och tusentals andra parningar.`,
     },
@@ -156,22 +156,22 @@ const content: AppContent = {
         `Varje arbetsblad stöder 4 till 12 totala bilder, med varje kategori som håller mellan 2 och 10 bilder. Temaläget hämtar automatiskt 4–6 bilder per tema. Manuellt läge låter dig ställa in exakta antal per kategori. Utklippsrutnätet justerar sin kolumnlayout (3–4 kolumner baserat på antal) för att bibehålla rent visuellt avstånd. Färre bilder skapar enklare sorteringsuppgifter; fler bilder ökar svårighetsgraden.`,
     },
     {
-      question: 'Hur fungerar det blandade utklippsrutnätet?',
+      question: `Hur fungerar det blandade utklippsrutnätet?`,
       answer:
         `Utklippsrutnätet upptar de nedre 55% av innehållsområdet och visar alla valda bilder i slumpmässig ordning. Bilder visas i vita celler med streckade #666-kanter och 4px rundade hörn, arrangerade i 3–4 kolumner baserat på det totala bildantalet. Varje bild fyller 85% av sin cell. användarna klipper ut bilderna längs de streckade linjerna och sorterar dem i rätt kategoriruta ovanför. Blandningen säkerställer att användarna faktiskt måste klassificera varje bild istället för att kopiera ett mönster.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Facit visar två kategorirutor (en per kategori, lika breda) med bilder sorterade i sin korrekta grupp. Facitbilder renderas med 6× storleken på utklippsrutnätets celler för tydlig verifiering, med maximalt 2 kolumner per kategoriruta. Varje ruta använder #FAFAFA-fyllning med #444 streckad stroke och 12px kantradie. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar.`,
     },
     {
-      question: 'Hur fungerar den lokaliserade rubriken?',
+      question: `Hur fungerar den lokaliserade rubriken?`,
       answer:
         `Varje genererat arbetsblad inkluderar en stiliserad «Sortera bilder»-rubrik med mintgrön bakgrund (#4DB6AC), vit pillercontainer, blågrön titel (#00796B) i Fredoka Bold-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. Stående arbetsblad visar en 100px rubrik; liggande arbetsblad använder en kompakt 70px rubrik. Titeln och beskrivningen översätts automatiskt till alla 11 stödda språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.`,
     },
     {
-      question: 'Är Bildsortering Generatorn språkkänslig?',
+      question: `Är Bildsortering Generatorn språkkänslig?`,
       answer:
         `Ja. Kategorietiketter använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar texten på arbetsbladet. Till exempel visas en kattbild som «Katt» på svenska men «Cat» på engelska och «Katze» på tyska. Den lokaliserade «Sortera bilder»-rubriken ändras också med det valda språket. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserade kategorietiketter.`,
     },
@@ -181,7 +181,7 @@ const content: AppContent = {
         `Ja. Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till namn och datumlinjer på arbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör dina sorteringsarbetsblad redo för säljarens insamling och bedömning utan ytterligare förberedelse.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — temabaserat och manuellt kategorival, konfigurerbara bildantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina sorteringsarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. Tvåkategorisorteringsmekaniken, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sorteringsaktivitetsprodukter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa temabaserat och manuellt kategorival, konfigurerbara bildantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,7 +206,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'matchnings-arbetsblad',
-      anchorText: 'Matchnings Arbetsblad Generator',
+      anchorText: `Matchnings Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -216,7 +216,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'skuggmatchning-arbetsblad',
-      anchorText: 'Skuggmatchning Arbetsblad Generator',
+      anchorText: `Skuggmatchning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -226,12 +226,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'hitta-och-rakna-arbetsblad',
-      anchorText: 'Hitta och Räkna Arbetsblad Generator',
+      anchorText: `Hitta och Räkna Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'malarbilder-arbetsblad',
-      anchorText: 'Målarbilder Arbetsblad Generator',
+      anchorText: `Målarbilder Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -241,22 +241,22 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'skapa-sorteringsarbetsblad',
-      anchorText: 'Hur du Skapar Sorteringsarbetsblad som Säljer',
+      anchorText: `Hur du Skapar Sorteringsarbetsblad som Säljer`,
     },
     {
       pageType: 'idea',
       slug: 'camping-utskriftsbara-ideer',
-      anchorText: 'Camping Utskriftsbara Idéer för Utomhuslärande',
+      anchorText: `Camping Utskriftsbara Idéer för Utomhuslärande`,
     },
     {
       pageType: 'idea',
       slug: 'havsdjur-utskriftsbara-ideer',
-      anchorText: 'Havsdjur Utskriftsbara Idéer för Marina Teman',
+      anchorText: `Havsdjur Utskriftsbara Idéer för Marina Teman`,
     },
     {
       pageType: 'start',
-      slug: 'marknadsforing-utskriftsbart-foeretag',
-      anchorText: 'Marknadsföring av Ditt Utskriftsbart Företag',
+      slug: `marknadsforing-utskriftsbart-foeretag`,
+      anchorText: `Marknadsföring av Ditt Utskriftsbart Företag`,
     },
   ],
 

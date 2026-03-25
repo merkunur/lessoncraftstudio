@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'heimunterricht-druckvorlagen',
     secondaryKeywords: [
-      'Homeschool-Arbeitsblätter auf Etsy erstellen',
-      'Produktkatalog-Druckvorlagen auf KDP verkaufen',
-      'Heimunterricht-Aktivitätsblätter für Gumroad',
+      `Homeschool-Arbeitsblätter auf Etsy erstellen`,
+      `Produktkatalog-Druckvorlagen auf KDP verkaufen`,
+      `Heimunterricht-Aktivitätsblätter für Gumroad`,
       `häuslicher Produkterstellung Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'wachsender Homeschool-Markt Druckvorlagen',
-      'Eltern-Produktkatalog Arbeitsblätter Etsy-Nische',
-      'Heimunterricht-Ressourcen Druckvorlagen-Geschäft',
+      `wachsender Homeschool-Markt Druckvorlagen`,
+      `Eltern-Produktkatalog Arbeitsblätter Etsy-Nische`,
+      `Heimunterricht-Ressourcen Druckvorlagen-Geschäft`,
     ],
-    titleTag: 'Heimunterricht-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Heimunterricht-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Heimunterricht-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Nischenstrategien für den wachsenden Markt, in dem Eltern Produktkataloge aus Druckvorlagen.`,
   },
   hero: {
@@ -36,7 +36,7 @@ Das Ganzjahres-Kaufmuster von Heimunterricht-Familien eliminiert die saisonale U
       appId: 'addition',
     },
     {
-      title: 'Heimunterricht-Wortsuchrätsel zum Online-Verkauf',
+      title: `Heimunterricht-Wortsuchrätsel zum Online-Verkauf`,
       description: `Wortsuchrätsel mit Vokabeln aus fächerübergreifenden Themenstudien ziehen Heimunterricht-Familien an, die das Lernen über Fächer hinweg durch thematische Erkundung von Themen wie antike Zivilisationen, Naturbeobachtung, Weltkulturen und wissenschaftliche Entdeckungen integrieren. Verwenden Sie den Wortsuchrätsel-Generator, um Rätsel zu erstellen — mit Rechtschreibwörtern, die nach Phonetik-Progression für selbstgesteuertes Vorankommen in jedem Lerntempo organisiert sind, thematischem Vokabular zu beliebten Heimunterricht-Themenstudien einschließlich Meeresleben, Weltraumforschung, Weltgeographie und historischen Epochen, naturwissenschaftlicher Terminologie zur Verstärkung von Konzepten aus praktischen Experimenten und Naturbeobachtungen, die Charlotte-Mason- und naturwissenschaftlich orientierte Heimunterrichtler betonen, und mehrstufigen Gittern von Anfänger bis Fortgeschritten für Mehralters-Familiennutzung während gemeinsamer Lernzeiten. Diese Rätsel dienen als fesselnde unabhängige Aktivitäten, während das Elternteil einem anderen Kind direkten Produkterstellung gibt.`,
       appId: 'wordsearch',
     },
@@ -85,7 +85,7 @@ Das Ganzjahres-Kaufmuster von Heimunterricht-Familien eliminiert die saisonale U
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Heimunterricht-Druckvorlagen auf Etsy verkaufen',
+      title: `Heimunterricht-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy erfasst das Heimunterricht-Eltern-Käufersegment, das zu den aktivsten Käufern von Bildungs-Druckvorlagen auf der Plattform gehört und mit spezifischen Begriffen wie „Heimunterricht-Arbeitsblätter", „Heimunterricht-Druckvorlagen", „Themenstudien-Aktivitäten", „Heimunterricht-Produktkatalog-Ergänzung" und „Mehrklassen-Lernpaket" über alle zwölf Monate hinweg ohne Sommer-Nachfragerückgang sucht. Nutzen Sie alle dreizehn Tags mit Variationen, die Heimunterricht-Methodenbegriffe, Fachbereiche, Altersgruppen und Aktivitätsformate kombinieren, um die verschiedenen Käufersegmente innerhalb der Heimunterricht-Gemeinschaft zu erfassen, die je nach ihrer Bildungsphilosophie unterschiedlich suchen. Bündeln Sie Produkte nach Themenstudien-Themen oder Mehrklassen-Kompetenzprogression, um den durchschnittlichen Bestellwert zu steigern: ein Naturbeobachtungs-Fächerübergreifend-Paket, ein Mehrklassen-Mathematik-Übungs-Familienpaket und eine saisonale Themenstudien-Sammlung bedienen jeweils unterschiedliche Heimunterricht-Familienbedürfnisse und fördern gleichzeitig Mehrfachkäufe desselben Käufers. Mehrklassen-Familienpakete rechtfertigen Premium-Preise, weil Eltern bereitwillig mehr für ein einzelnes Produkt zahlen, das alle ihre Kinder gleichzeitig bedient, anstatt separate Altersstufen-Produkte einzeln zu kaufen. Die starke Gemeinschafts-Mundpropaganda innerhalb von Heimunterricht-Gruppen treibt organische Entdeckung voran, da zufriedene Käufer Produkte in Facebook-Gruppen, Lerngemeinschafts-Treffen und Heimunterricht-Konferenzdiskussionen empfehlen.`,
     },
     {
@@ -95,7 +95,7 @@ Das Ganzjahres-Kaufmuster von Heimunterricht-Familien eliminiert die saisonale U
     },
     {
       platform: 'Gumroad',
-      title: 'Heimunterricht-Ressourcen für Gumroad erstellen',
+      title: `Heimunterricht-Ressourcen für Gumroad erstellen`,
       description: `Heimunterricht-Familien stellen eine wachsende und zunehmend wichtige Demografie auf Gumroad dar, die neben traditionellen Produktkäufern einkauft, aber mit deutlich unterschiedlichen Bedürfnissen und Erwartungen, die Chancen für Verkäufer schaffen, die spezifisch auf Heimunterricht-Anforderungen eingehen. Kennzeichnen Sie Produkte ausdrücklich als „heimunterrichtsfreundlich" mit selbstgesteuerten Anleitungen für unabhängiges Nutzerarbeiten, umfassenden Lösungsschlüsseln für die Elternbewertung und klaren Produktkatalog-Ablaufvorschlägen, die Eltern helfen, Materialien in ihren gewählten Produktkatalogansatz zu integrieren. Schließen Sie mehrere Schwierigkeitsstufen in einzelne Produkte ein, um Mehrklassen-Haushalte zu bedienen, in denen ein Kauf Kinder über zwei bis vier Altersstufen hinweg auf unterschiedlichem Tempo unterstützen muss. Themenstudien-Pakete, die mehrere Fächer um ein einzelnes Thema integrieren, rechtfertigen Premium-Preise auf Gumroad, weil Heimunterricht-Familien fächerübergreifende Ressourcen schätzen, die den Planungsaufwand reduzieren, einzelne Materialien für jeden Fachbereich separat zu beschaffen. Säkulare Kennzeichnung erweitert die Zielgruppenreichweite über die diverse Heimunterricht-Gemeinschaft, während methodenspezifische Tags wie „Charlotte-Mason-kompatibel" oder „Klassische Bildung" gezielten Käufern helfen, Ressourcen zu finden, die für ihren bevorzugten Produktansatz konzipiert sind.`,
     },
     {
@@ -139,18 +139,18 @@ Das Ganzjahres-Kaufmuster von Heimunterricht-Familien eliminiert die saisonale U
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -159,33 +159,33 @@ Das Ganzjahres-Kaufmuster von Heimunterricht-Familien eliminiert die saisonale U
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'dritte-klasse-druckvorlagen-ideen',
-      anchorText: 'Dritte Klasse Druckvorlagen-Geschäftsideen',
+      slug: `dritte-klasse-druckvorlagen-ideen`,
+      anchorText: `Dritte Klasse Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — thematisches Lernbild`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Schrank — thematisches Lernbild`, caption: 'Schrank' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Taschenrechner — thematisches Lernbild`, caption: 'Taschenrechner' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — thematisches Lernbild`, caption: 'Kalender' },
   ],
 
 

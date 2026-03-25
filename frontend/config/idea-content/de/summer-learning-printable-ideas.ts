@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'sommerlernen-druckvorlagen',
     secondaryKeywords: [
-      'Sommerbrücken-Arbeitsblätter auf Etsy erstellen',
-      'Ferienlern-Druckvorlagen auf KDP verkaufen',
-      'Sommerlernverlust-Aktivitätsblätter auf Gumroad',
-      'Sommer-Lernpakete für Druckvorlagen-Verkäufer',
+      `Sommerbrücken-Arbeitsblätter auf Etsy erstellen`,
+      `Ferienlern-Druckvorlagen auf KDP verkaufen`,
+      `Sommerlernverlust-Aktivitätsblätter auf Gumroad`,
+      `Sommer-Lernpakete für Druckvorlagen-Verkäufer`,
     ],
     lsiKeywords: [
-      'Sommerlernverlust-Prävention Druckvorlagen',
-      'Ferienaktivitäten Bildungsthema Arbeitsblätter',
-      'Mai-August-Nachfrage Lernmaterialien Etsy',
+      `Sommerlernverlust-Prävention Druckvorlagen`,
+      `Ferienaktivitäten Bildungsthema Arbeitsblätter`,
+      `Mai-August-Nachfrage Lernmaterialien Etsy`,
     ],
-    titleTag: 'Sommerlernen-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Sommerlernen-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Sommerlernen-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Ferienaktivitäten und Sommerbrücken-Arbeitsblätter zur Vermeidung von Sommerlernverlust.`,
   },
   hero: {
@@ -48,12 +48,12 @@ Die saisonale Konzentration der Sommerlernen-Nachfrage schafft intensive Umsatzf
       appId: 'matching',
     },
     {
-      title: 'Sommer-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Sommer-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Sommerthemen-Ausmalaktivitäten mit Strandszenen, Schwimmbadpartys, Campingabenteuern, Eiscreme-Leckereien, Sonnenschein und Spiel im Freien, die bildschirmfreie kreative Unterhaltung bieten und gleichzeitig Feinmotorik aufbauen und saisonales Vokabular durch beschriftete Ausmaldesigns verstärken. Nutzen Sie den Ausmalseiten-Generator, um Malen-nach-Zahlen-Sommerszenen zu erstellen, die Matheübung mit kreativer Aktivität kombinieren, beschriftete Sommer-Vokabel-Ausmalseiten, bei denen Kinder saisonale Wörter lesen und lernen, während sie ausmalen, Sommercamp-Aktivitäts-Ausmalseiten, die Programmkoordinatoren für strukturierte kreative Zeit nutzen, und entspannende sommerthematische Designs, die Eltern für Restaurantbesuche, Autofahrten und Regentag-Innenaktivitäten kaufen.`,
       appId: 'coloring',
     },
     {
-      title: 'Sommerlernen-Bingokarten für Aktivitätspakete',
+      title: `Sommerlernen-Bingokarten für Aktivitätspakete`,
       description: `Sommerthemen-Bingokarten mit saisonalem Vokabular, Sommer-Lesewörtern und Ferienaktivitäts-Begriffen, die interaktive Gruppen-Lernerlebnisse für Sommercamps, Familienspielabende, Bibliotheks-Leseprogramme und kommunale Freizeitaktivitäten bieten. Nutzen Sie den Bingo-Generator, um Sommer-Vokabelbingo mit Strand-, Camping-, Garten- und Outdoor-Abenteuer-Wortsets zu erstellen, Sommer-Lesebingo, bei dem Kinder Bücher und Leseaktivitäten für die Bibliotheksprogramm-Teilnahme abhaken, Sommer-Mathewiederholungs-Bingo, das Additions- und Zahlenfakten durch Spielmechanik verstärkt, und Sommercamp-Aktivitäts-Bingokarten, die Programmleiter für Gruppenunterhaltung während strukturierter Freizeitzeit nutzen.`,
       appId: 'bingo',
     },
@@ -87,17 +87,17 @@ Die saisonale Konzentration der Sommerlernen-Nachfrage schafft intensive Umsatzf
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Sommerlernen-Druckvorlagen auf Etsy verkaufen',
+      title: `Sommerlernen-Druckvorlagen auf Etsy verkaufen`,
       description: `Eltern und Verkäufer suchen auf Etsy mit Begriffen wie „Sommerarbeitsblätter", „Sommerlernen-Pakete", „Sommerbrücken-Aktivitäten", „Sommerlücke-Prävention", „Sommercamp-Druckvorlagen", „Autofahrt-Aktivitäten für Kinder" und „bildschirmfreie Sommeraktivitäten" während des konzentrierten Mai-bis-Juli-Kauffensters, das die Spitzen-Umsatzgelegenheit für saisonale Druckvorlagen-Verkäufer darstellt. Verwenden Sie alle dreizehn Tags mit Variationen, die Altersstufen, Sommerthemen, Aktivitätstypen und Käuferpersonas kombinieren, um die vielfältigen Kaufsegmente innerhalb des Sommerlernen-Marktes zu erfassen, die unterschiedlich suchen, je nachdem ob sie Eltern sind, die Sommerlernverlust verhindern, Verkäufer, die Schuljahresend-Pakete vorbereiten, oder Camp-Koordinatoren, die Aktivitätsvorräte anlegen. Bündeln Sie Produkte nach Altersstufe und erstellen Sie umfassende Sommerbrücken-Pakete, die Mathewiederholung, Leseübung, Vokabelaufbau und kreative Aktivitäten für einen einzelnen Altersstufenübergang abdecken, weil Eltern es vorziehen, ein komplettes Paket zu kaufen, anstatt einzelne Arbeitsblätter von verschiedenen Verkäufern zusammenzustellen. Sommercamp-Koordinatoren kaufen Massenaktivitätspakete, die genügend Material für mehrere Sitzungen über die Dauer des Sommerprogramms benötigen, was große Pakete mit fünfundzwanzig bis fünfzig Arbeitsblättern für dieses institutionelle Käufersegment besonders attraktiv macht. Das Kauffenster konzentriert sich von Ende April bis Juli, wobei Mai und Juni den Höhepunkt darstellen — haben Sie Produkte also bis März oder April gelistet, optimiert und indexiert, um frühe Suchende zu erfassen und Verkaufsdynamik aufzubauen, bevor der Wettbewerbsansturm beginnt.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Sommer-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Sommer-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP bedient den Sommerlernen-Markt effektiv durch umfassende Aktivitätsbuch-Zusammenstellungen von sechzig bis hundert Seiten, die Eltern und Verkäufer als komplette Sommer-Übungslösungen kaufen und Sommer-Arbeitsbücher zu regulären Amazon-Bestellungen neben Schulbedarf, Sommer-Lesebüchern und Urlaubsvorbereitungsartikeln hinzufügen. Erstellen Sie fokussierte Zusammenstellungen wie „Sommerbrücken-Arbeitsbücher", die Mathe- und Lesewiederholung für bestimmte Altersstufenübergänge abdecken, „Sommerlernen-Aktivitätsbücher", die mehrere Arbeitsblatttypen in abwechslungsreiche Übungssammlungen kombinieren, „Urlaubs-Aktivitätsbücher für Kinder", die das Reise- und Autofahrt-Unterhaltungssegment ansprechen, Sommer-Matheübungsbücher, die nach Altersstufe für gezielte Fähigkeitserhaltung organisiert sind, und Sommer-Lese- und Schreibjournale für Bibliotheksprogramm-Teilnahme und eigenständiges Lernen. Das Timing ist für KDP-Sommerprodukte entscheidend, weil Amazons Suchindexierung und Ranking-Algorithmen Zeit benötigen, um neue Listings zu verarbeiten, was bedeutet, dass Bücher bis März oder April veröffentlicht und live sein müssen, um vollständig indexiert und auffindbar zu sein, wenn die Mai-bis-Juli-Kaufwelle eintrifft. Positionieren Sie Bücher strategisch mit KDP-Schlüsselwortfeldern mit Begriffen wie „Sommerbrücke", „Sommerlernen", „Sommerlücke-Prävention", „Urlaubsaktivitäten" und spezifischen Altersstufenübergängen, um die gezielten Suchanfragen zu erfassen, die Eltern und Verkäufer beim Kauf von Sommer-Bildungsmaterialien verwenden.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Sommerlernen-Ressourcen für Gumroad erstellen',
+      title: `Sommerlernen-Ressourcen für Gumroad erstellen`,
       description: `Verkäufer kaufen Schuljahresend-Sommer-Übungspakete, die sie Nutzern mit nach Hause geben, während des konzentrierten Mai- und Juni-Kauffensters, das die Spitzen-Gumroad-Umsatzgelegenheit für Sommerlernen-Verkäufer darstellt, wobei viele Verkäufer bereits im April suchen, um Materialien vorzubereiten, bevor das Schuljahr endet. Altersstufenspezifische Sommer-Wiederholungspakete, die Matheaufgaben, Leseverständnis, Vokabelaufbau und Schreibübung abdecken, verkaufen sich stark, weil Verkäufer umfassende Pakete wollen, die das gesamte Spektrum der Fähigkeiten abdecken, die ihre Nutzer über die Sommerferien behalten müssen, anstatt einzelne Arbeitsblätter, die isolierte Fähigkeitsbereiche ansprechen. Sommerschul-Programmaterialien ziehen Verkäufer an, die Juni- und Juli-Fördersitzungen durchführen und strukturierte Aktivitätsmaterialien für ihre komprimierten Aktivitätspläne und leistungsgemischten Nutzergruppen benötigen. Bündeln Sie Sommerpakete mit Schuljahres-Materialien, um die Verkaufsbeziehung zu verlängern, indem Sie „Schuljahresende-plus-Sommerbrücke"-Sammlungen erstellen, die Verkäufer erfassen, die gleichzeitig ihre letzten Schuljahreskäufe und Sommervorbereitungskäufe tätigen. Beschriften Sie Produkte mit spezifischen Altersstufenübergängen wie „Erste Klasse zu Zweite Klasse Sommerbrücke" und „Kindergarten zu Erste Klasse Sommerwiederholung", weil Verkäufer und Eltern nach diesen präzisen Übergangsbegriffen suchen, wenn sie Materialien auswählen, die für ihren spezifischen Nutzer oder ihr Kind geeignet sind.`,
     },
     {
@@ -141,18 +141,18 @@ Die saisonale Konzentration der Sommerlernen-Nachfrage schafft intensive Umsatzf
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -161,33 +161,33 @@ Die saisonale Konzentration der Sommerlernen-Nachfrage schafft intensive Umsatzf
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'daf-druckvorlagen-ideen',
-      anchorText: 'DaF-Druckvorlagen-Geschäftsideen',
+      anchorText: `DaF-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/summer/barbecue.webp', alt: 'Grill — thematisches Lernbild', caption: 'Grill' },
-    { src: '/image-library/summer/beach.webp', alt: 'Strand — thematisches Lernbild', caption: 'Strand' },
-    { src: '/image-library/summer/beach%20ball.webp', alt: 'Wasserball — thematisches Lernbild', caption: 'Wasserball' },
-    { src: '/image-library/summer/bucket.webp', alt: 'Eimer — thematisches Lernbild', caption: 'Eimer' },
-    { src: '/image-library/summer/butterfly.webp', alt: 'Schmetterling — thematisches Lernbild', caption: 'Schmetterling' },
-    { src: '/image-library/summer/campfire.webp', alt: 'Lagerfeuer — thematisches Lernbild', caption: 'Lagerfeuer' },
+    { src: `/image-library/summer/barbecue.webp`, alt: 'Grill — thematisches Lernbild', caption: 'Grill' },
+    { src: `/image-library/summer/beach.webp`, alt: `Strand — thematisches Lernbild`, caption: 'Strand' },
+    { src: `/image-library/summer/beach%20ball.webp`, alt: `Wasserball — thematisches Lernbild`, caption: 'Wasserball' },
+    { src: `/image-library/summer/bucket.webp`, alt: 'Eimer — thematisches Lernbild', caption: 'Eimer' },
+    { src: `/image-library/summer/butterfly.webp`, alt: `Schmetterling — thematisches Lernbild`, caption: 'Schmetterling' },
+    { src: `/image-library/summer/campfire.webp`, alt: `Lagerfeuer — thematisches Lernbild`, caption: 'Lagerfeuer' },
   ],
 
 

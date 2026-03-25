@@ -4,20 +4,20 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'starta utskriftsbart företag',
     secondaryKeywords: [
-      'utskriftsbart företag för nybörjare',
-      'sälja utskriftsbara arbetsblad online',
-      'starta en utskriftsbar arbetsbladsbutik',
-      'guide starta utskriftsbart företag',
+      `utskriftsbart företag för nybörjare`,
+      `sälja utskriftsbara arbetsblad online`,
+      `starta en utskriftsbar arbetsbladsbutik`,
+      `guide starta utskriftsbart företag`,
     ],
     lsiKeywords: [
-      'digital nedladdning affärsmodell',
-      'arbetsbladsgenrator för säljare',
-      'Etsy utskriftsbar butik uppställning',
+      `digital nedladdning affärsmodell`,
+      `arbetsbladsgenrator för säljare`,
+      `Etsy utskriftsbar butik uppställning`,
       'Amazon KDP aktivitetsböcker',
       'Gumroad arbetsblad',
-      'kommersiell licens utskriftsbara verktyg',
+      `kommersiell licens utskriftsbara verktyg`,
     ],
-    titleTag: 'Starta utskriftsbart företag — Komplett guide',
+    titleTag: `Starta utskriftsbart företag — Komplett guide`,
     metaDescription: `Så startar du ett utskriftsbart företag från grunden. Steg-för-steg-guide för Etsy-, Amazon KDP- och Gumroad-säljare som använder arbetsbladsgenratorer.`,
   },
 
@@ -31,7 +31,7 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: 'Vad är ett utskriftsbart arbetsbladsföretag?',
+      heading: `Vad är ett utskriftsbart arbetsbladsföretag?`,
       content: `Ett utskriftsbart arbetsbladsföretag säljer digitala filer som kunder laddar ner och skriver ut hemma, i ett produktlinje eller på ett tryckeri. Du skapar produkten en gång — en PDF- eller högupplöst bildfil — och säljer den ett obegränsat antal gånger. Det finns inget lager att hantera, ingen frakt att ordna och ingen fysisk produkt att tillverka.\n\nDe vanligaste kategorierna för utskriftsbara arbetsblad inkluderar matteövningsblad, läs- och skrivaktiviteter, målarbilder, pusselarbetsblad, matchningsspel och mönsterigenkänningsövningar. Dessa produkter betjänar föräldrar, säljare, hemundervisningsfamiljer, handledningscenter och förskoleverksamheter.\n\nDet som gör denna affärsmodell särskilt attraktiv är kombinationen av låga omkostnader och återkommande efterfrågan. Ett välgjort additionsarbetsblad säljer i september och det säljer i mars. En högtidstematisk målarbok säljer varje år när den högtiden närmar sig. Din katalog ackumuleras — varje ny produkt du lägger till ökar din butiks totala intäktspotential utan att öka dina pågående kostnader.`,
     },
     {
@@ -47,7 +47,7 @@ const content: StartContent = {
       content: `Professionella arbetsblad kräver konsekventa layouter, ren typografi, korrekta facit och visuellt tilltalande design. Att skapa dessa manuellt i grafisk designprogramvara är tidskrävande och felbenäget.\n\nArbetsbladsgenratorer löser detta problem. De hanterar layouten, mattelogiken, facitgenereringen och den visuella designen automatiskt. Du väljer parametrarna — svårighetsnivå, talområde, tema, bilduppsättning, sidstorlek — och generatorn producerar en tryckfärdig fil på sekunder.\n\nLessonCraftStudio erbjuder 33 specialiserade arbetsbladsgenratorer som täcker sex kategorier: matte och siffror, bokstäver och ord, teckning och konst, visuellt lärande, matchning och sortering, samt pussel och spel. Varje generator inkluderar över 100 tematiska bilduppsättningar, flera sidstorlekar, konfigurerbara svårighetsnivåer och automatisk facitgenerering.\n\nVarje generator erbjuder en gratis provversion med vattenstämpel så att du kan utvärdera outputkvaliteten, testa olika konfigurationer och skapa exempelarbetsblad innan du köper en kommersiell licens. Den kommersiella licensen tillåter dig att sälja de genererade arbetsbladen på vilken plattform som helst — Etsy, Amazon KDP, Gumroad, Gumroad eller din egen webbplats.\n\nDen praktiska fördelen med att använda generatorer är hastighet. En säljare som använder manuella designverktyg kan spendera 30–60 minuter på ett enda arbetsblad. Med en generator kan du skapa ett polerat, tryckfärdigt arbetsblad på under två minuter. Den hastighetsskillnaden är det som separerar säljare som bygger stora kataloger från de som stannar vid en handfull produkter.`,
     },
     {
-      heading: 'Skapa din första utskriftsbara arbetsbladsprodukt',
+      heading: `Skapa din första utskriftsbara arbetsbladsprodukt`,
       content: `Din första produkt bör vara enkel, beprövad och snabb att skapa. Börja inte med den mest komplexa arbetsbladstypen — börja med något du kan slutföra under en enda session och lista samma dag.\n\nOrdsökspussel är en utmärkt första produkt. De är universellt förstådda, tilltalar ett brett åldersintervall och har stark sökvolym på varje marknadsplats. Här är processen:\n\n1. Öppna Ordsöksgeneratorn och välj ett tema (till exempel "djur").\n2. Välj din målsvårighet: ställ in rutstorlek, ordantal och ordriktningar.\n3. Välj en sidstorlek (US Letter eller A4) och bestäm om du vill inkludera ett facit.\n4. Generera ditt arbetsblad. Granska outputen för visuell kvalitet och layout.\n5. Ladda ner PDF- och JPEG-versionerna.\n6. Skapa 3–5 variationer med olika teman eller svårighetsnivåer för ett litet paket.\n\nPaket säljer bättre än individuella blad. Ett "10 djurordsökspussel"-paket till 39 kr överpresterar ett enskilt pussel till 9 kr eftersom köpare upplever mer värde och per-enhetspriset känns lägre.\n\nInnan du listar, verifiera kvaliteten: skriv ut en testkopia, bekräfta att layouten är ren och lös arbetsbladet själv för att kontrollera noggrannheten. Första intrycket spelar roll — ett enda feljusterat element eller felaktigt facit kommer att förtjäna en negativ recension som påverkar framtida försäljning.`,
     },
     {
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Öppna 2–3 generatorer relevanta för din nisch och skapa exempelarbetsblad med den gratis provversionen med vattenstämpel. Utvärdera outputkvalitet, anpassningsalternativ och användarvänlighet innan du binder dig till en licens.`,
     },
     {
-      step: 'Skapa ditt första produktpaket',
+      step: `Skapa ditt första produktpaket`,
       description: `Generera 5–10 tematiska arbetsblad med en generator. Variera svårighet, tema eller konfiguration för varje sida. Paketera dem som ett sammanhängande paket med en tydlig titel och konsekvent visuell stil.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Skriv en nyckelordsrik titel, fyll alla 13 taggar, skapa en ren miniatyrbildsmockup och skriv en beskrivning som tydligt anger vad som ingår, vem det är för och vilka filformat som tillhandahålls.`,
     },
     {
-      step: 'Lista 5–10 produkter under din första vecka',
+      step: `Lista 5–10 produkter under din första vecka`,
       description: `Momentum spelar roll på Etsy. Nya butiker med flera listningar får mer synlighet än butiker med en enda produkt. Skapa och lista minst 5 produkter under din första vecka.`,
     },
     {
-      step: 'Sätt upp ett produktskapandeschema',
+      step: `Sätt upp ett produktskapandeschema`,
       description: `Åta dig att lägga till 2–3 nya produkter per vecka. Blockera tid i din kalender specifikt för produktskapande. Konsekvens är den enskilt största prediktorn för långsiktig framgång inom utskriftsbar försäljning.`,
     },
     {
-      step: 'Analysera och optimera efter 30 dagar',
+      step: `Analysera och optimera efter 30 dagar`,
       description: `Granska din Etsy-analys efter den första månaden. Identifiera vilka listningar som får flest visningar och försäljningar. Skapa fler produkter i de kategorier som presterar bra. Uppdatera underpresterande listningar med bättre miniatyrbilder och nyckelord.`,
     },
     {
-      step: 'Expandera till ytterligare plattformar',
+      step: `Expandera till ytterligare plattformar`,
       description: `När du har 20+ produkter och konsekvent Etsy-försäljning, expandera till Amazon KDP och Gumroad. Anpassa dina befintliga produkter till varje plattforms format och publikförväntningar.`,
     },
     {
-      step: 'Planera din första säsongssamling',
+      step: `Planera din första säsongssamling`,
       description: `Identifiera nästa stora säsongsmöjlighet (skolstart, halloween, jul, alla hjärtans dag) och skapa en tematisk produktsamling minst 4–6 veckor före toppefterfrågan.`,
     },
   ],
@@ -133,7 +133,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Matchningsarbetsblad-generator',
+      title: `Matchningsarbetsblad-generator`,
       description: `Visuella arbetsblad som fungerar på alla språk utan modifiering. Matchningsaktiviteter tilltalar förskole- och dagisköpare och är snabba att producera i höga volymer.`,
     },
     {
@@ -186,17 +186,17 @@ const content: StartContent = {
   nextSteps: [
     {
       slug: 'create-worksheets-that-sell',
-      title: 'Så skapar du arbetsblad som säljer',
+      title: `Så skapar du arbetsblad som säljer`,
       description: `Fördjupning i produktskapande: kvalitetsstandarder, differentieringsstrategier och de specifika tekniker som förvandlar generiska arbetsblad till produkter köpare väljer framför konkurrenter.`,
     },
     {
       slug: 'etsy-printable-business',
-      title: 'Etsy utskriftsbart företag — Masterclass',
+      title: `Etsy utskriftsbart företag — Masterclass`,
       description: `Plattformsspecifik guide för Etsy-säljare som täcker butiksuppställning, SEO-optimering, listningsstrategier och skalningstekniker anpassade för Etsy-marknadsplatsen.`,
     },
     {
       slug: 'amazon-kdp-activity-books',
-      title: 'Amazon KDP aktivitetsboksguide',
+      title: `Amazon KDP aktivitetsboksguide`,
       description: `Allt du behöver veta om att publicera aktivitetsböcker på Amazon KDP: formateringskrav, omslagsdesign, nyckelordsforskning och kategorival.`,
     },
     {
@@ -207,36 +207,36 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Så skapar du professionella arbetsblad som säljer' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy utskriftsbart företag — Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP aktivitetsboksguide' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `Så skapar du professionella arbetsblad som säljer` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy utskriftsbart företag — Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP aktivitetsboksguide` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: `Guide för kommersiell licens för säljare av utskriftsbara produkter` },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Ordsöksgenerator — Fullständiga detaljer' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Ordsöksgenerator — Fullständiga detaljer` },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: `Additionsarbetsblad-generator — Fullständiga detaljer` },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Prova Ordsöksgeneratorn' },
     { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Prova Målarsidsgeneratorn' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Prova Matchningsarbetsblad-generatorn' },
-    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Ritning för utskriftsbart företag' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: `Prova Matchningsarbetsblad-generatorn` },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: `Ritning för utskriftsbart företag` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Ordsöksarbetsblad skapat med LessonCraftStudio-generator' },
+    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Ordsöksarbetsblad skapat med LessonCraftStudio-generator` },
     samples: [
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Utskriftsbart ordsöksarbetsblad med djurtema', caption: 'Ordsökning — Djurtema' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbetsblad med bildbaserade matteproblem', caption: 'Addition — Bildbaserade problem' },
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Målarsidesarbetsblad med tematiska illustrationer', caption: 'Målarbilder — Tematiska illustrationer' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad med visuella paraktiviteter', caption: 'Matchning — Visuell paraktivitet' },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Utskriftsbart ordsöksarbetsblad med djurtema`, caption: 'Ordsökning — Djurtema' },
+      { src: `/samples/english/addition/Addition Fun 1.webp`, alt: `Additionsarbetsblad med bildbaserade matteproblem`, caption: `Addition — Bildbaserade problem` },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Målarsidesarbetsblad med tematiska illustrationer`, caption: `Målarbilder — Tematiska illustrationer` },
+      { src: `/samples/english/matching/matching portrait.webp`, alt: `Matchningsarbetsblad med visuella paraktiviteter`, caption: `Matchning — Visuell paraktivitet` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Så skapar du ordsöksarbetsblad — LessonCraftStudio demo`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilop — tematisk pedagogisk bild', caption: 'Antilop' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fladdermus — tematisk pedagogisk bild', caption: 'Fladdermus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — tematisk pedagogisk bild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — tematisk pedagogisk bild', caption: 'Hund' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilop — tematisk pedagogisk bild`, caption: 'Antilop' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fladdermus — tematisk pedagogisk bild`, caption: 'Fladdermus' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kamel — tematisk pedagogisk bild`, caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hund — tematisk pedagogisk bild`, caption: 'Hund' },
   ],
 };
 

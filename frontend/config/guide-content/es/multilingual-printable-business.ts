@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'negocio imprimibles multilingüe',
+    primaryKeyword: `negocio imprimibles multilingüe`,
     secondaryKeywords: [
-      'vender imprimibles varios idiomas',
-      'mercado internacional de imprimibles',
-      'negocio fichas ejercicios multilingüe',
-      'expandir imprimibles globalmente',
+      `vender imprimibles varios idiomas`,
+      `mercado internacional de imprimibles`,
+      `negocio fichas ejercicios multilingüe`,
+      `expandir imprimibles globalmente`,
     ],
     lsiKeywords: [
       `expansión lingüística mercados internacionales estrategia localización mercados europeos imprimibles`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Cómo crear un negocio de imprimibles multilingüe',
+    title: `Cómo crear un negocio de imprimibles multilingüe`,
     tagline: `Una guía completa para expandir tu negocio de imprimibles a nivel internacional — por qué la expansión multilingüe es la estrategia de crecimiento más infrautilizada, qué mercados lingüísticos ofrecen los mayores rendimientos, cómo estructurar tu negocio para operaciones en varios idiomas, analizar oportunidades en marketplaces internacionales, construir ventaja competitiva mediante cobertura lingüística, desarrollar un marco de multiplicación de ingresos, planificar una expansión lingüística por fases y optimizar el rendimiento de una cartera multilingüe`,
     description: `La mayoría de los vendedores de imprimibles compiten exclusivamente en inglés, ignorando la enorme demanda en los mercados alemán, francés, español y otros idiomas. Esta guía te muestra cómo crear un negocio de imprimibles multilingüe que multiplica tus ingresos al llegar a compradores internacionales desatendidos en múltiples plataformas e idiomas.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Comprender la oportunidad del mercado multilingüe',
+      heading: `Comprender la oportunidad del mercado multilingüe`,
       content: `El mercado global de imprimibles educativos crece rápidamente, impulsado por padres y emprendedores que quieren materiales de aprendizaje complementarios en su idioma materno. Mientras que el inglés domina la oferta — la mayoría de los vendedores crean productos solo en inglés — la demanda cuenta una historia diferente. Las familias germanoparlantes en Alemania, Austria y Suiza representan más de 100 millones de compradores potenciales con sólidos hábitos de gasto en educación. Los francófonos abarcan Francia, Bélgica, parte de Suiza, Canadá y numerosos países africanos. El español alcanza tanto los mercados europeos como los latinoamericanos con más de 500 millones de hablantes en todo el mundo. Cada uno de estos mercados lingüísticos tiene demanda genuina de imprimibles educativos, pero muchos menos vendedores los atienden en comparación con el inglés. Este desequilibrio entre oferta y demanda es la oportunidad fundamental. Cuando buscas categorías populares en inglés en los marketplaces, normalmente encuentras miles de productos competidores. La misma búsqueda en alemán, francés o español a menudo revela solo una fracción de esa competencia. Menos competencia significa que tus productos aparecen más arriba en los resultados de búsqueda, atraen más visitas y convierten a tasas más altas — todo ello sin necesidad de superar a los vendedores establecidos del mercado anglófono. Comprender esta oportunidad requiere pensar más allá de la simple traducción. Cada mercado lingüístico tiene sus propias normas educativas, expectativas culturales, patrones estacionales y plataformas preferidas. Un vendedor que se toma el tiempo de comprender estos matices construye un negocio con ventajas competitivas genuinas que los competidores ocasionales no pueden replicar fácilmente.`,
     },
     {
@@ -66,15 +66,15 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Estrategia Etsy para ventas internacionales',
+      heading: `Estrategia Etsy para ventas internacionales`,
       content: `Etsy es la plataforma más accesible para vendedores de imprimibles multilingües porque una sola tienda puede alojar productos en cualquier idioma sin cuentas separadas. Para maximizar la visibilidad internacional en Etsy, crea listados completamente en el idioma de destino — títulos, descripciones, etiquetas e incluso secciones de tienda organizadas por idioma. La búsqueda de Etsy empareja el idioma de la consulta del comprador con el idioma del listado, por lo que un comprador francés que busca en francés encontrará tus listados en francés. Usa las 13 etiquetas por listado con palabras clave en el idioma de destino e investiga qué términos de búsqueda usan los compradores reales en cada mercado en lugar de traducir directamente tus palabras clave en inglés.`,
     },
     {
-      heading: 'Enfoque Amazon para marketplaces globales',
+      heading: `Enfoque Amazon para marketplaces globales`,
       content: `Amazon opera marketplaces independientes por país, cada uno con su propio índice de búsqueda, algoritmo de posicionamiento y grupo de compradores. Para los editores de KDP, esto significa que tu cuaderno de actividades en alemán publicado en amazon.de compite solo contra otros productos alemanes en ese marketplace — no contra los millones de productos en inglés de amazon.com. Amazon Global Selling te permite gestionar listados en múltiples marketplaces desde una sola cuenta, aunque cada marketplace requiere títulos, descripciones y palabras clave localizados. Prioriza inicialmente amazon.de y amazon.fr, ya que tienen las mayores bases de compradores europeos para contenido imprimible.`,
     },
     {
-      heading: 'Distribución multiplataforma para máximo alcance',
+      heading: `Distribución multiplataforma para máximo alcance`,
       content: `En lugar de elegir una sola plataforma para ventas internacionales, distribuye tus productos multilingües en múltiples plataformas para captar diferentes segmentos de compradores. Cada plataforma atrae a diferentes tipos de compradores: Etsy atrae a padres que buscan imprimibles creativos y personalizables, Amazon KDP llega a compradores que prefieren cuadernos de actividades encuadernados profesionalmente, y tu propio sitio web atiende a clientes recurrentes que quieren acceso directo a tu catálogo completo. Rastrea qué plataforma funciona mejor para cada idioma para optimizar tu esfuerzo de publicación. Algunos idiomas pueden rendir significativamente mejor en plataformas específicas según las preferencias regionales de marketplace.`,
     },
   ],
@@ -85,11 +85,11 @@ const content: GuideContent = {
       content: `La expansión lingüística es el multiplicador de ingresos más eficiente disponible para los vendedores de imprimibles porque aprovecha conceptos de productos existentes en lugar de requerir la creación de contenido completamente nuevo. Adaptar una ficha en inglés probada al alemán, francés o español requiere significativamente menos esfuerzo creativo que diseñar un producto nuevo desde cero. El cálculo es directo: si un producto en inglés genera ciertos ingresos mensuales, añadir cuatro versiones lingüísticas en dos plataformas crea ocho oportunidades de ingresos adicionales a partir del mismo concepto base. Incluso si cada listado internacional genera menos ingresos que el original en inglés, el agregado entre idiomas y plataformas típicamente supera lo que produciría cualquier producto adicional en inglés.`,
     },
     {
-      heading: 'Precios premium en mercados desatendidos',
+      heading: `Precios premium en mercados desatendidos`,
       content: `Menos competencia en los mercados no anglófonos a menudo permite precios relativamente más altos. Cuando los compradores tienen opciones limitadas en su idioma, es menos probable que comparen precios agresivamente. Un paquete de fichas en alemán diseñado profesionalmente que solo enfrenta un puñado de competidores puede fijar precios premium que serían insostenibles en el saturado mercado anglófono. Investiga los precios en cada mercado lingüístico objetivo por separado. Podrías descubrir que tus productos pueden tener un precio del 15 al 25 por ciento más alto en algunos mercados lingüísticos en comparación con los equivalentes en inglés, manteniendo sólidas tasas de conversión y mejorando significativamente tus ingresos por venta.`,
     },
     {
-      heading: 'Estrategia de paquetes por idioma',
+      heading: `Estrategia de paquetes por idioma`,
       content: `Los paquetes funcionan excepcionalmente bien en negocios multilingües porque los compradores que encuentran productos de calidad en su idioma tienden a querer colecciones completas. Un padre que descubre tus fichas de matemáticas en alemán y le gusta la calidad a menudo comprará un paquete completo por nivel escolar en lugar de fichas individuales. Crea paquetes específicos por idioma que atiendan las necesidades de cada mercado. Un paquete de matemáticas de infantil en alemán, un paquete de lectoescritura de primer grado en francés o un paquete de actividades preescolares en español — cada uno responde a una necesidad específica del comprador mientras aumenta tu valor medio de transacción. La estrategia de paquetes también crea caminos naturales de venta ascendente: a los compradores que adquieren productos individuales se les puede ofrecer el paquete completo con descuento.`,
     },
   ],
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Imagina un vendedor de imprimibles que comienza con 20 fichas de matemáticas en inglés generando ingresos mensuales constantes pero modestos. La competencia en la categoría de fichas de matemáticas en inglés es intensa, haciendo que el crecimiento orgánico sea lento. El vendedor decide priorizar la expansión al alemán basándose en el análisis de mercado: alto gasto educativo, fuerte adopción digital y competencia limitada para imprimibles de matemáticas en alemán. Después de adaptar las 20 fichas al alemán y publicarlas en Etsy y amazon.de, el vendedor nota que varios productos en alemán se posicionan en la primera página de resultados de búsqueda en pocas semanas — algo que tardó meses en lograr en inglés. Animado por los resultados, el vendedor añade versiones en francés y español durante los meses siguientes. En seis meses, el catálogo multilingüe contiene 80 listados de productos (20 conceptos en 4 idiomas) comparado con los 20 originales. Los ingresos de las versiones internacionales superan colectivamente los ingresos exclusivamente en inglés, a pesar de que cada idioma individual genera menos que el mercado anglófono. El efecto multiplicador entre idiomas y plataformas transformó una modesta tienda monolingüe en un negocio internacional diversificado.`,
     },
     {
-      heading: 'Ventaja competitiva en el mercado escandinavo',
+      heading: `Ventaja competitiva en el mercado escandinavo`,
       content: `Un vendedor de imprimibles observa que las búsquedas de fichas de ejercicios educativas en sueco, danés y noruego arrojan muy pocos resultados en los principales marketplaces. A pesar de la población relativamente pequeña de cada país escandinavo, el gasto educativo por hogar está entre los más altos del mundo y las tasas de adopción digital son excepcionales. El vendedor crea un catálogo enfocado de 15 fichas de actividades en sueco, danés y noruego. Porque la competencia es prácticamente inexistente, estos productos se convierten rápidamente en los primeros resultados de búsqueda en sus categorías respectivas. Los productos escandinavos generan ingresos por producto impresionantes gracias a la combinación de competencia nula y compradores dispuestos a pagar precios premium por contenido de calidad en su idioma. Aunque el tamaño total del mercado es más pequeño que el alemán o francés, los ingresos por producto superan significativamente lo que los mismos productos generan en inglés donde compiten contra miles de alternativas. Esto demuestra que el tamaño del mercado por sí solo no determina la rentabilidad — la proporción entre demanda y competencia importa más.`,
     },
   ],
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: 'Cómo investigar nichos de imprimibles rentables' },
+    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: `Cómo investigar nichos de imprimibles rentables` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de selección de nicho para negocios de imprimibles` },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo crear una línea de productos imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo crear una línea de productos imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Estrategias de precios para productos imprimibles' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo escalar tu negocio de imprimibles' },
-    { pageType: 'guide', slug: 'ingresos-pasivos-fichas-ejercicios', anchorText: `Crear ingresos recurrentes con fichas de ejercicios` },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo crear paquetes de fichas que se vendan' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de precios para productos imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo escalar tu negocio de imprimibles` },
+    { pageType: 'guide', slug: `ingresos-pasivos-fichas-ejercicios`, anchorText: `Crear ingresos recurrentes con fichas de ejercicios` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo crear paquetes de fichas que se vendan` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
@@ -159,12 +159,12 @@ const content: GuideContent = {
     },
     {
       appId: 'word-guess',
-      title: 'Generador de adivinar palabras',
+      title: `Generador de adivinar palabras`,
       description: `Genera fichas de vocabulario con adivinanzas de palabras en múltiples idiomas. Muestra cómo el contenido imprimible sensible al idioma puede llegar a mercados internacionales. Inicia una prueba gratis con marca de agua.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de emparejamiento',
+      title: `Generador de fichas de emparejamiento`,
       description: `Crea fichas de emparejamiento con temas visuales que funcionan universalmente en todos los idiomas. El contenido basado en imágenes se traduce naturalmente entre mercados con mínima adaptación. Inicia una prueba gratis con marca de agua.`,
     },
     {
@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
       alt: `Ficha de sopa de letras demostrando el potencial de un negocio de imprimibles multilingüe en mercados internacionales`,
     },
     samples: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Ficha de sopa de letras mostrando la capacidad multilingüe para ventas internacionales de imprimibles`,
         caption: `Las sopas de letras se pueden generar en 11 idiomas, ideales para la expansión multilingüe`,
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Las fichas de emparejamiento visual usan imágenes que se traducen universalmente entre idiomas`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de matemáticas de sumas demostrando atractivo universal más allá de las barreras lingüísticas`,
         caption: `Las fichas de matemáticas cruzan las barreras lingüísticas naturalmente ya que los números son universales en todos los mercados`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
   ],
 };
 

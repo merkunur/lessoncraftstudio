@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'KDP Aktivitätsbuch Nischen',
     secondaryKeywords: [
-      'beste KDP Aktivitätsbuch-Nischen für Verleger',
-      'profitable Aktivitätsbuch-Kategorien Amazon KDP',
-      'KDP Nischenrecherche Aktivitätsbücher',
-      'unterversorgte Aktivitätsbuch-Nischen KDP',
+      `beste KDP Aktivitätsbuch-Nischen für Verleger`,
+      `profitable Aktivitätsbuch-Kategorien Amazon KDP`,
+      `KDP Nischenrecherche Aktivitätsbücher`,
+      `unterversorgte Aktivitätsbuch-Nischen KDP`,
     ],
     lsiKeywords: [
       `Amazon BSR sehr gefragt-Rang Wettbewerbsanalyse Nachfrage`,
@@ -51,15 +51,15 @@ const content: GuideContent = {
       content: `Die profitabelsten Chancen für neue KDP-Verleger sind unterversorgte Unter-Nischen: spezifische Variationen innerhalb einer populären Kategorie, in denen Käufernachfrage existiert, aber das qualitativ hochwertige Angebot dünn ist. Die Identifikation dieser Unter-Nischen erfordert, über die offensichtlichen Kategorie-Suchen hinauszuschauen und die Lücken im aktuellen Angebot zu untersuchen.\n\nThematische Aktivitätsbücher sind konstant unterversorgt im Verhältnis zu ihrer Nachfrage. Generische „Wortsuche für Kinder" steht vor starkem Wettbewerb, aber „Tier-Wortsuche für Kinder 6 bis 8 Jahre" oder „Weltraum-Mathe-Arbeitsheft Klasse 1" zielt auf Käufer mit spezifischen Vorlieben, die durch generische Angebote nicht gut bedient werden. Thematische Bücher konvertieren mit höheren Raten, weil der Käufer das Gefühl hat, das Buch wurde speziell für die Interessen seines Kindes gemacht, nicht für ein generisches Publikum. Jede größere Inhaltskategorie unterstützt Thematisierung: Tier-Mathematik, Ozean-Ausmalen, Dinosaurier-Labyrinthe, Reise-Wortsuche, Feiertags-Sudoku.\n\nAltersspezifische Formatierung ist ein weiterer unterversorgter Bereich. Großdruck-Aktivitätsbücher für Senioren haben konstante Nachfrage, aber relativ wenige Qualitätsangebote im Vergleich zu Standardformat-Büchern. Extra-leichte Rätselbücher für sehr junge Kinder (3 bis 4 Jahre) bedienen Eltern, die das erste Aktivitätsbuch ihres Kindes suchen. Extra-anspruchsvolle Versionen für fortgeschrittene Nutzer oder erfahrene Rätselenthusiasten bedienen das andere Ende. Jede Formatvariante zielt auf andere Suchanfragen ab und steht vor anderem Wettbewerb.\n\nKategorie-übergreifende Hybride kombinieren zwei Aktivitätstypen in einem Buch und schaffen Nischen, die auf Amazon kaum existieren. Ein „Mathe-und-Ausmal-Arbeitsheft" kombiniert Rechenübungen mit Ausmalbelohnungen. Ein „Wortsuche-und-Kreuzworträtsel-Vielfaltbuch" bietet Rätselfreunden zwei Formate in einem Kauf. Ein „Lern-Aktivitätsbuch", das Mathe, Lesen und Rätsel kombiniert, bedient Eltern, die umfassende Übung wünschen. Diese Hybrid-Nischen haben oft sehr geringen Wettbewerb, weil die meisten Verleger bei Einzelformat-Büchern bleiben, doch das Käufer-Suchvolumen für Vielfalt- und Kombinationsbegriffe kann überraschend stark sein.\n\nUm unterversorgte Unter-Nischen systematisch zu finden, nutzen Sie Amazons Suchvorschlags-Funktion. Tippen Sie den Anfang einer Nischen-Phrase (zum Beispiel „Aktivitätsbuch für") und notieren Sie, was Amazon vorschlägt. Jeder Vorschlag repräsentiert reales Käufer-Suchvolumen. Dann suchen Sie nach jedem Vorschlag und analysieren die Ergebnisse mit dem Wettbewerbs-Framework aus dem vorherigen Schritt. Vorschläge mit starker implizierter Nachfrage (Amazon schlägt nur Begriffe vor, nach denen tatsächlich gesucht wird) aber schwachem Wettbewerb in den Ergebnissen sind Ihre Chancen mit höchster Priorität.`,
     },
     {
-      heading: 'Eine Nische vor der Produktion validieren',
+      heading: `Eine Nische vor der Produktion validieren`,
       content: `Nischenrecherche identifiziert vielversprechende Chancen, aber Validierung bestätigt sie mit realen Marktdaten. Bevor Sie erhebliche Zeit in den Aufbau eines vollständigen Katalogs in einer neuen Nische investieren, veröffentlichen Sie einen einzelnen Test-Titel und lassen tatsächliche Verkaufsdaten Ihre nächste Entscheidung leiten.\n\nEin Validierungstitel sollte ein vollständiges, qualitativ hochwertiges Buch sein, das repräsentiert, wie Ihr gesamter Katalog in dieser Nische aussehen würde. Veröffentlichen Sie kein Buch mit minimalem Aufwand — schlechte Qualität macht den Test ungültig, weil Sie „die Nische hat keine Nachfrage" nicht von „das Buch war nicht gut genug" unterscheiden können. Erstellen Sie ein ordentlich formatiertes Buch mit professionellem Cover, optimierten Schlüsselwörtern und wettbewerbsfähigem Inhalt. Der Mathe-Arbeitsblatt-Generator, der Wortsuche-Generator, der Ausmalbilder-Generator, der Sudoku-Generator oder der Additions-Generator können vollständige Inhalte für einen Validierungstitel in wenigen Stunden produzieren.\n\nVeröffentlichen Sie den Validierungstitel und warten Sie 90 Tage, bevor Sie Schlussfolgerungen ziehen. Die ersten 30 Tage sind unzuverlässig, weil Amazon Ihr Buch noch indexiert und Ihr Ranking sich noch nicht stabilisiert hat. Zwischen Tag 30 und 90 erreicht Ihr Buch sein natürliches Nachfrageniveau für die anvisierten Schlüsselwörter und Kategorien. Verfolgen Sie die wöchentlichen Verkäufe in diesem Zeitraum.\n\nInterpretieren Sie die 90-Tage-Daten anhand klarer Schwellenwerte. Wenn das Buch bis Tag 90 zehn oder mehr Exemplare pro Monat verkauft, hat die Nische validierte Nachfrage und Sie sollten zusätzliche Titel erstellen, um Katalogtiefe aufzubauen. Wenn das Buch 3 bis 9 Exemplare pro Monat verkauft, hat die Nische moderates Potenzial — erwägen Sie, ob Schlüsselwort-Optimierung oder Cover-Verbesserungen die Verkäufe steigern könnten, bevor Sie sich auf einen vollständigen Katalog festlegen. Wenn das Buch nach 90 Tagen mit ordnungsgemäßer Optimierung weniger als 3 Exemplare pro Monat verkauft, fehlt der Nische wahrscheinlich ausreichende Nachfrage für Ihre aktuelle Positionierung, und Ihr Aufwand ist besser auf andere Nischen gerichtet.\n\nDie minimal tragfähige Kataloggröße variiert nach Nische. Für Nischen mit starkem Katalog-Compounding (wie Altersgruppen-Mathe-Serien) sind 5 bis 8 Titel das Minimum für bedeutsame Kreuzpromotionseffekte. Für eigenständige Nischen (wie ein spezifisches thematisches Rätselbuch) kann ein einzelner starker Titel sich selbst tragen. Die Leistung Ihres Validierungstitels zeigt Ihnen, welches Szenario zutrifft: Wenn Käufer Ihres ersten Buches nach ähnlichen Titeln in derselben Nische suchen, besteht Katalogpotenzial. Wenn die Nische schmal genug ist, dass ein Buch sie vollständig abdeckt, richten Sie Ihre Expansionsbemühungen auf benachbarte Nischen.`,
     },
     {
-      heading: 'Saisonale und immergrüne Nischen-Abdeckung planen',
+      heading: `Saisonale und immergrüne Nischen-Abdeckung planen`,
       content: `Aktivitätsbuch-Nischen teilen sich in zwei Timing-Kategorien: immergrüne Nischen mit konstanter ganzjähriger Nachfrage und saisonale Nischen mit konzentrierter Nachfrage in bestimmten Zeiträumen. Eine profitable Nischenstrategie umfasst beide, weil sie unterschiedliche Umsatzfunktionen in Ihrem Katalog erfüllen.\n\nImmergrüne Nischen bilden Ihr Grundeinkommen. Mathe-Arbeitshefte (alle Altersgruppen), Standard-Wortsuche, Sudoku, Schreibübungen und unthematische Ausmalbücher verkaufen sich ganzjährig konstant mit minimalen Schwankungen. Diese Nischen produzieren vielleicht keine dramatischen Verkaufsspitzen, aber sie generieren vorhersehbare monatliche Einnahmen, die mit wachsendem Katalog steigen. Jeder neue immergrüne Titel fügt permanentes Grundeinkommen hinzu. Ein Katalog von 10 immergrünen Titeln, die jeweils 30 bis 80 Dollar pro Monat verdienen, bietet ein verlässliches Fundament von 300 bis 800 Dollar monatlich.\n\nSaisonale Nischen liefern Umsatzspitzen, die Ihr monatliches Einkommen in Spitzenzeiten verdoppeln oder verdreifachen können. Weihnachts-Aktivitätsbücher (Feiertags-Mathe, Weihnachts-Wortsuche, Winter-Ausmalen) peaken von Oktober bis Dezember. Halloween-Aktivitätsbücher spitzen im September und Oktober. Schulanfangs-Arbeitshefte peaken von Juli bis September. Sommer-Aktivitätsbücher verkaufen sich stark von Mai bis August. Valentinstag, Ostern und andere Feiertage schaffen kürzere, aber zuverlässige Nachfragefenster.\n\nDas Timing der saisonalen Veröffentlichung ist entscheidend. Ein Weihnachts-Wortsuchbuch, das im November veröffentlicht wird, ist zu spät — Amazon braucht 4 bis 8 Wochen, um einen neuen Titel vollständig zu indexieren und zu ranken. Veröffentlichen Sie saisonale Titel mindestens 8 Wochen vor der Spitzen-Nachfrageperiode. Das bedeutet, Weihnachtsbücher sollten bis Anfang September live sein, Schulanfangsbücher bis Ende Mai und Sommer-Aktivitätsbücher bis Anfang April.\n\nDie strategische Balance liegt bei ungefähr 60 bis 70 Prozent immergrünen Titeln und 30 bis 40 Prozent saisonalen Titeln. Immergrüne Titel liefern das stabile monatliche Einkommen, das Ihr Geschäft finanziert. Saisonale Titel liefern konzentrierte Einnahmen, die Cover-Redesigns, Werbeexperimente oder die Expansion in neue Nischen finanzieren können. Zusammen schaffen sie ein Umsatzprofil, das durch Katalogwachstum aufwärts tendiert und während vorhersehbarer Perioden im Jahresverlauf Spitzen bildet.\n\nSaisonale Titel fungieren auch als Entdeckungskanäle für Ihren immergrünen Katalog. Ein Käufer, der Ihr Weihnachts-Mathe-Arbeitsheft im November findet und es genießt, wird Ihre Autorenseite besuchen und Ihre ganzjährigen Mathe-Arbeitshefte entdecken. Dieser Kreuzbestäubungseffekt bedeutet, dass saisonale Titel indirekt zu Ihrem Grundeinkommen beitragen, selbst außerhalb ihrer Spitzenzeiten.`,
     },
     {
-      heading: 'Multi-Nischen-Katalogstrategie aufbauen',
+      heading: `Multi-Nischen-Katalogstrategie aufbauen`,
       content: `Die Frage, der sich jeder KDP-Verleger nach anfänglichem Erfolg stellt, ist, ob man tiefer in eine Nische gehen oder sich auf mehrere verteilen sollte. Die Antwort hängt von der Tiefe Ihrer Nische und Ihrer Risikobereitschaft ab, aber die widerstandsfähigsten Verlagsgeschäfte arbeiten über 2 bis 4 komplementäre Nischen.\n\nTief in eine einzelne Nische zu gehen bedeutet, mehrere Titel zu veröffentlichen, die denselben Käuferkreis bedienen: eine vollständige Altersgruppen-Mathe-Serie (Klasse 1 bis 5), eine mehrbändige Wortsuchsammlung (Band 1 bis 6) oder ein komplettes Set thematischer Ausmalbücher (Tiere, Natur, Fantasy, Feiertage). Einzelnischen-Tiefe maximiert Katalog-Compounding, weil jeder Titel jeden anderen Titel cross-promotet und Ihre Autorenseite zur Anlaufstelle für Käufer in dieser Kategorie wird. Das Risiko ist Marktabhängigkeit — wenn Amazons Algorithmus ändert, wie er Ihre Nische rankt, oder wenn ein großer Wettbewerber mit überlegenem Inhalt eintritt, ist Ihr gesamter Umsatz gefährdet.\n\nSich über mehrere Nischen zu verteilen bedeutet, Titel in verschiedenen Kategorien zu veröffentlichen: einige Mathe-Arbeitshefte, einige Wortsuchbücher, einige Ausmalbücher. Multi-Nischen-Breite reduziert Risiko, weil keine einzelne Kategorieverschiebung Ihr Einkommen eliminieren kann. Der Kompromiss ist schwächere Kreuzpromotion — ein Käufer Ihres Wortsuchbuchs kauft weniger wahrscheinlich Ihr Mathe-Arbeitsheft als einen weiteren Wortsuchband, sodass Katalog-Compounding verwässert wird.\n\nDer 3-Nischen-Portfolio-Ansatz balanciert diese Kompromisse aus. Wählen Sie 3 komplementäre Nischen, in denen Ihre Werkzeuge und Fähigkeiten effizient übertragbar sind. Zum Beispiel: Mathe-Arbeitshefte (mit dem Mathe-Arbeitsblatt- und dem Additions-Generator), Wortsuche-Rätselbücher (mit dem Wortsuche-Generator) und Ausmalbücher (mit dem Ausmalbilder-Generator). Bauen Sie 5 bis 8 Titel in jeder Nische über 6 bis 12 Monate auf. Das gibt Ihnen genug Tiefe in jeder Nische für bedeutsames Katalog-Compounding, während Ihr Umsatz über drei unabhängige Amazon-Suchmärkte verteilt wird.\n\nDie Auswahl komplementärer Nischen ist wichtig. Wählen Sie Nischen, die Zielgruppenüberschneidung teilen, aber keine Suchüberschneidung. Mathe-Arbeitshefte und Wortsuchbücher bedienen beide Eltern schulpflichtiger Kinder, sodass ein Käufer eines Produkts das andere über Ihre Autorenseite entdecken und kaufen könnte. Aber sie zielen auf völlig unterschiedliche Amazon-Suchanfragen ab, sodass sie in den Suchergebnissen nicht gegeneinander konkurrieren. Das ist die ideale Kombination: gemeinsame Zielgruppe für Kreuzpromotion, getrennte Suchmärkte für unabhängige Nachfrage.\n\nWenn Ihr Katalog reift, lassen Sie Leistungsdaten die Expansion leiten. Wenn eine Nische die anderen konstant übertrifft, investieren Sie stärker dort. Wenn eine Nische nach 5 bis 8 Titeln unterperformt, stoppen Sie die Ergänzungen und leiten den Aufwand auf Ihre stärkeren Nischen um oder testen eine neue. Der Multi-Nischen-Ansatz gibt Ihnen die Daten, um diese Entscheidungen zu treffen, statt an eine einzelne Kategorie gebunden zu sein, unabhängig von den Ergebnissen.`,
     },
   ],
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'mathe-aktivitaetsbuecher-kdp',
-      title: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen',
+      title: `Mathe-Aktivitätsbücher für Amazon KDP erstellen`,
       description: `Die vollständige Erstellungsanleitung für KDP-Mathe-Aktivitätsbücher. Sobald Sie Mathe-Arbeitshefte als Ihre Zielnische identifiziert haben, behandelt dieser Leitfaden Inhaltserstellung, Formatierung und Veröffentlichung Schritt für Schritt.`,
     },
     {
-      slug: 'geld-verdienen-kdp-aktivitaetsbuecher',
-      title: 'Geld verdienen mit KDP-Aktivitätsbüchern',
+      slug: `geld-verdienen-kdp-aktivitaetsbuecher`,
+      title: `Geld verdienen mit KDP-Aktivitätsbüchern`,
       description: `Der Umsatz- und Preisstrategie-Leitfaden für KDP-Aktivitätsbuch-Verleger. Behandelt Tantieme-Berechnung, Katalogökonomie und Multi-Plattform-Expansion nach der Nischenwahl.`,
     },
     {
-      slug: 'kdp-formatierung-arbeitsblaetter',
+      slug: `kdp-formatierung-arbeitsblaetter`,
       title: `KDP-Formatierungsanleitung für Arbeitsblatt-Bücher`,
       description: `Die technische Formatierungsanleitung für die KDP-Manuskriptvorbereitung. Behandelt Beschnittgrößen, Seitenränder, Beschnitt, Auflösung und Exportspezifikationen für Aktivitätsbuch-Innenseiten und Cover.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'raetselbuecher-veroeffentlichen-kdp', anchorText: 'Rätselbücher auf Amazon KDP veröffentlichen' },
-    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: 'Wortsuchbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-aktivitaetsbuecher', anchorText: 'Geld verdienen mit KDP-Aktivitätsbüchern' },
-    { pageType: 'guide', slug: 'kdp-formatierung-arbeitsblaetter', anchorText: `KDP-Formatierungsanleitung für Arbeitsblatt-Bücher` },
-    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: 'Sudoku-Bücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: 'Malvorlagen aus thematischen Bildern erstellen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblatt-Generator — Alle Details' },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `raetselbuecher-veroeffentlichen-kdp`, anchorText: `Rätselbücher auf Amazon KDP veröffentlichen` },
+    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: `Wortsuchbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `geld-verdienen-kdp-aktivitaetsbuecher`, anchorText: `Geld verdienen mit KDP-Aktivitätsbüchern` },
+    { pageType: 'guide', slug: `kdp-formatierung-arbeitsblaetter`, anchorText: `KDP-Formatierungsanleitung für Arbeitsblatt-Bücher` },
+    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: `Sudoku-Bücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: `Malvorlagen aus thematischen Bildern erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: `Mathe-Arbeitsblatt-Generator — Alle Details` },
   ],
 
   toolsRecommended: [
@@ -176,7 +176,7 @@ const content: GuideContent = {
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Generiert thematische Wortsuche-Rätselgitter für KDP-Rätselbücher. Wortsuche ist die größte Rätselbuch-Kategorie auf Amazon, und thematische Varianten gehören zu den zugänglichsten Unter-Nischen für neue Verleger.`,
     },
     {
@@ -191,28 +191,28 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Produziert fokussierte Einzel-Rechenart-Arbeitsblätter für altersgruppenspezifische KDP-Arbeitshefte. Zeigt, wie Zielgruppen-Segmentierung nach Altersgruppe eigenständige Unter-Nischen innerhalb der breiteren Mathe-Kategorie schafft.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Ausmalseite als Beispiel für eine breit ansprechende KDP-Aktivitätsbuch-Nische für Verleger` },
+    heroImage: { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Ausmalseite als Beispiel für eine breit ansprechende KDP-Aktivitätsbuch-Nische für Verleger` },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Ausmalbuch-Inhalt als Beispiel für eine der größten KDP-Aktivitätsbuch-Nischen`, caption: 'Ausmalbücher — eine riesige KDP-Nische, die Kinder, Erwachsene und thematische Ausgaben mit starker Ganzjahresnachfrage umfasst' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuchrätsel als Beispiel für thematische Unter-Nischen-Ausrichtung innerhalb der Rätselkategorie`, caption: 'Thematische Wortsuche — Unter-Nischen-Ausrichtung durch Tier-, Reise- und Feiertagsthemen reduziert Wettbewerb bei gleichbleibend starker Nachfrage' },
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: `Mathe-Arbeitsblatt zeigt Zielgruppen-Segmentierung nach Altersgruppe für KDP-Nischenstrategie`, caption: 'Mathe-Arbeitshefte — Zielgruppen-Segmentierung nach Altersgruppe und Rechenart schafft Dutzende eigenständige Unter-Nischen aus einer Kategorie' },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Ausmalbuch-Inhalt als Beispiel für eine der größten KDP-Aktivitätsbuch-Nischen`, caption: `Ausmalbücher — eine riesige KDP-Nische, die Kinder, Erwachsene und thematische Ausgaben mit starker Ganzjahresnachfrage umfasst` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuchrätsel als Beispiel für thematische Unter-Nischen-Ausrichtung innerhalb der Rätselkategorie`, caption: `Thematische Wortsuche — Unter-Nischen-Ausrichtung durch Tier-, Reise- und Feiertagsthemen reduziert Wettbewerb bei gleichbleibend starker Nachfrage` },
+      { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Mathe-Arbeitsblatt zeigt Zielgruppen-Segmentierung nach Altersgruppe für KDP-Nischenstrategie`, caption: `Mathe-Arbeitshefte — Zielgruppen-Segmentierung nach Altersgruppe und Rechenart schafft Dutzende eigenständige Unter-Nischen aus einer Kategorie` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Mathe-Arbeitsblätter für KDP-Aktivitätsbücher erstellen — Tutorial zur Nischen-Inhaltserstellung`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — thematisches Lernbild', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — thematisches Lernbild', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — thematisches Lernbild', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — thematisches Lernbild', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — thematisches Lernbild', caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — thematisches Lernbild`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — thematisches Lernbild`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — thematisches Lernbild`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — thematisches Lernbild`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — thematisches Lernbild`, caption: 'Brachiosaurus' },
   ],
 };
 

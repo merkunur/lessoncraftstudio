@@ -5,7 +5,7 @@ const content: AppContent = {
     primaryKeyword: 'labyrinth-generator',
     secondaryKeywords: [
       `druckbarer Bilderpfad-Generator für Etsy-Verkäufer`,
-      'Labyrinth-Rätsel-Ersteller für KDP-Verleger',
+      `Labyrinth-Rätsel-Ersteller für KDP-Verleger`,
       `Bilderpfad-Arbeitsblatt-Generator kommerzielle Lizenz`,
       `Labyrinth-Aktivitäten auf Etsy.de und Amazon verkaufen`,
     ],
@@ -14,7 +14,7 @@ const content: AppContent = {
       `kommerzieller Bilderpfad-Rätsel-Generator mit Lösungsschlüssel`,
       `Druckvorlagen-Geschäft räumliches Denken Werkzeuge`,
     ],
-    titleTag: 'Labyrinth-Generator | Bilderpfad-Arbeitsblätter',
+    titleTag: `Labyrinth-Generator | Bilderpfad-Arbeitsblätter`,
     metaDescription: `Labyrinth-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 3 Spielmodi, LPF-Algorithmus, 104 Themen, Lösungspfad. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Labyrinth-Arbeitsblätter erstellen in 5 Schritten',
+    title: `Labyrinth-Arbeitsblätter erstellen in 5 Schritten`,
     steps: [
       {
         title: 'Seitenlayout festlegen',
@@ -34,22 +34,22 @@ const content: AppContent = {
           `Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Dimension. Wählen Sie eine Seitenfarbe mit dem Farbwähler. Wählen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an, dann wählen Sie ein Rahmenthema mit eigenem unabhängigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihr Labyrinth-Arbeitsblatt, bevor Sie einen Spielmodus konfigurieren.`,
       },
       {
-        title: 'Spielmodus wählen und Einstellungen konfigurieren',
+        title: `Spielmodus wählen und Einstellungen konfigurieren`,
         description:
           `Öffnen Sie das Pfad-Konfigurationspanel und wählen Sie einen der drei Spielmodi. Der Bilderpfad erstellt ein Raster aus Bildern mit einem einzigen korrekten Pfad vom Start zum Ziel. Das Klassische Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus — stellen Sie Rastergröße (15×15 bis 20×20), Anzahl der Pfade (1, 2 oder 3), Sammelbilder-Anzahl und -Kopien, Wandfarbe, Wandstärke (1–10px) und Deckkraft (10–100%) ein. Wähle den richtigen Weg erstellt Drei-Pfad-Labyrinthe mit vier Richtungsoptionen. Aktivieren Sie „Namens-/Datumsfelder einfügen", um Namens- und Datumszeilen hinzuzufügen.`,
       },
       {
-        title: 'Bilder nach Rolle aus der Bibliothek auswählen',
+        title: `Bilder nach Rolle aus der Bibliothek auswählen`,
         description:
           `Öffnen Sie das Bildbibliothek-Panel und weisen Sie Bildern fünf verschiedene Rollen über den Rollenwähler zu: Startbild (Einstiegspunkt-Markierung), Zielbild (Ziel — 1 für Bilderpfad/Labyrinth, 3 für Wähle den richtigen Weg), Pfadbilder (korrekte Route oder Sammelbilder), Ablenkungsbilder (falsche Zellen oder Nicht-Pfad-Füllung) und Dekoration (freie Canvas-Platzierung). Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 Illustrationen, filtern Sie nach Thema oder suchen Sie per Stichwort. Laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch, um sie neben Bibliotheksinhalten zu verwenden.`,
       },
       {
-        title: 'Labyrinth oder Bilderpfad-Arbeitsblatt generieren',
+        title: `Labyrinth oder Bilderpfad-Arbeitsblatt generieren`,
         description:
           `Klicken Sie auf Generieren, um das Labyrinth-Layout für Ihren gewählten Spielmodus zu erstellen. Der Bilderpfad ordnet Bilder in einem Raster mit einem korrekten Pfad aus Pfadbildern zwischen Ablenkungsbildern an. Das Klassische Labyrinth baut wandbasierte Korridore mit Sammelbildern entlang der Pfade. Wähle den richtigen Weg konstruiert drei verschiedene Routen mit einem korrekten Pfad und Lockvarianten. Der automatisch generierte „Bilderpfad"-Header erscheint oben mit orangefarbenem äußerem Rahmen, lokalisiertem Titel und Anweisungen in der gewählten Sprache.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Der Lösungsschlüssel hebt den korrekten Pfad mit rosa Kreisen entlang der Route hervor. Der Wähle-den-richtigen-Weg-Modus fügt ein „✓ KORREKTER WEG"-Label auf dem korrekten Pfad hinzu. Das Klassische Labyrinth enthält eine Sammelbilder-Legende mit Bildzählungen. Laden Sie über die vier dedizierten Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -103,22 +103,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Labyrinth-Arbeitsblätter online verkaufen',
+    title: `Labyrinth-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Labyrinth-Aktivitätspakete auf Etsy',
+        title: `Thematische Labyrinth-Aktivitätspakete auf Etsy`,
         description:
           `Erstellen Sie thematische Labyrinth-Pakete mithilfe der 104 Bildsammlungen — Tier-Labyrinthe, Feiertags-Labyrinthe, Bauernhof-Labyrinthe, Ozean-Labyrinthe und Dutzende mehr. Jedes Thema bietet genügend Illustrationen für mehrere einzigartige Labyrinth-Arbeitsblätter über alle drei Spielmodi hinweg. Verpacken Sie 10–20 Labyrinth-Arbeitsblätter pro Thema mit beigelegten Lösungsschlüsseln und mischen Sie Bilderpfad, Klassisches Labyrinth und Wähle den richtigen Weg für Abwechslung innerhalb jedes Pakets. Variieren Sie den Schwierigkeitsgrad durch Anpassung der Rastergrößen und Pfadanzahlen. Verkaufen Sie zu 3–7 € pro Paket. Der automatisch generierte Lösungsschlüssel eliminiert den größten Zeitfresser in der Labyrinth-Arbeitsblatt-Produktion und ermöglicht die schnelle Erstellung umfangreicher Produktpakete für Etsy.de.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Labyrinth-Aktivitäts-Arbeitsbücher auf Amazon KDP',
+        title: `Labyrinth-Aktivitäts-Arbeitsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 40–80 Labyrinth-Arbeitsblätter zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Ihr Buch mit progressivem Schwierigkeitsgrad: Beginnen Sie mit Bilderpfad-Labyrinthen für Einsteiger, steigern Sie auf Klassisches Labyrinth mit 15×15-Rastern und 1 Pfad, dann erhöhen Sie auf 20×20-Raster mit 3 Pfaden für fortgeschrittene Löser. Fügen Sie Lösungsschlüssel am Ende des Buches ein. Der Graustufen-Schalter erzeugt tintenschonende Seiten für Schwarzweiß-Buchinhalte. Labyrinth-Bücher sind eine bewährte KDP-Kategorie — das rein visuelle Format bedeutet, dass jedes Buch Käufer weltweit anspricht ohne Übersetzungskosten, von Amazon.de bis Amazon.com und darüber hinaus.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Logik- und Problemlösungs-Aktivitäten auf Gumroad',
+        title: `Logik- und Problemlösungs-Aktivitäten auf Gumroad`,
         description:
           `Erstellen Sie sofort einsetzbare Labyrinth-Arbeitsblätter mit Namens-/Datumsfeldern und gedruckten Lösungsschlüsseln für den Geschäftseinsatz. Auf dem Gumroad werden Labyrinth-Aktivitäten geschätzt, weil sie räumliches Denken und Problemlösungsfähigkeiten entwickeln. Erstellen Sie lehrplanbezogene Sets: Tier-Lebensraum-Pfad-Aktivitäten, saisonale Labyrinth-Sammlungen und Labyrinth-Pakete mit progressivem Schwierigkeitsgrad. Das Klassische Labyrinth mit Sammelbildern fügt Zählübungen neben der Pfadfindung hinzu. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten für flexiblen Geschäftseinsatz.`,
         platform: 'Gumroad',
@@ -127,13 +127,13 @@ const content: AppContent = {
         title: `Saisonale und feiertagsbezogene Labyrinth-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Labyrinth-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Labyrinth-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Labyrinth-Aktivitäten im Januar. Mischen Sie alle drei Spielmodi innerhalb jedes saisonalen Sets für maximalen wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Labyrinth-Aktivitäten suchen.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
         title: `Globale Marktreichweite mit rein visuellem Labyrinth-Design`,
         description:
           `Labyrinth-Arbeitsblätter sind vollständig visuell — Pfade werden navigiert, Bilder werden verfolgt und räumliche Rätsel werden gelöst, ohne dass Text gelesen werden muss. Dies macht jedes Labyrinth-Arbeitsblatt sofort in jedem Markt weltweit verkaufbar ohne Übersetzung oder Lokalisierung. Listen Sie dasselbe Labyrinth-Paket in internationalen Etsy-Shops auf, veröffentlichen Sie Labyrinth-Arbeitsbücher für nicht-deutschsprachige Amazon-Marktplätze und erreichen Sie globale Käufer auf Gumroad. Der automatisch generierte Header übersetzt sich in 11 Sprachen, aber der Labyrinth-Inhalt selbst ist universell verständlich. Ein Produkt, unbegrenzte Märkte — während Ihre Konkurrenz in Übersetzungsarbeit investiert, verkaufen Sie dasselbe Produkt weltweit.`,
-        platform: 'Etsy / Amazon KDP (globale Märkte)',
+        platform: `Etsy / Amazon KDP (globale Märkte)`,
       },
     ],
   },
@@ -145,7 +145,7 @@ const content: AppContent = {
         `Der Generator bietet drei verschiedene Modi. Der Bilderpfad erstellt ein Raster aus Bildern, in dem die korrekte Route vom Start zum Ziel über Pfadbilder zwischen Ablenkungsbildern verfolgt wird. Das Klassische Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus und Sammelbildern, konfigurierbaren Rastergrößen (15×15 bis 20×20) und 1 bis 3 Pfaden mit Sackgassenblockierung. Wähle den richtigen Weg präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen, bei denen der einzig korrekte Pfad identifiziert werden muss. Jeder Modus erzeugt eine unterschiedliche Herausforderung für räumliches Denken aus derselben Bildbibliothek.`,
     },
     {
-      question: 'Wie funktioniert der LPF-Labyrinth-Algorithmus?',
+      question: `Wie funktioniert der LPF-Labyrinth-Algorithmus?`,
       answer:
         `Der Longest-Path-First-Algorithmus (LPF) ist ein professionelles wandbasiertes Labyrinth-Generierungssystem. Er verwendet eine Korridor-Zellen-Struktur mit dynamischer Wandplatzierung, um herausfordernde aber lösbare Labyrinthe zu erstellen. Die Pfadqualitätsbewertung evaluiert Kurven, Länge und Blockaden. Multi-Pfad-Unterstützung generiert 1, 2 oder 3 Pfade mit automatischer Sackgassenblockierung auf falschen Routen. Sie können Pfadlängen-Minimum und -Maximum konfigurieren (4–30 Zellen, Standard 8–12), Rastergrößen von 15×15 bis 20×20, und wandbewusste Start-/Ziel-Positionierung stellt saubere Ein- und Ausgangspunkte sicher.`,
     },
@@ -180,12 +180,12 @@ const content: AppContent = {
         `Jedes Arbeitsblatt enthält einen gestalteten Header mit einem orangefarbenen äußeren Rahmen (8px Strichstärke) und 34px Seitenrändern. Der Titel „Bilderpfad" und die Beschreibung „Follge dem Pfad vom Start zum Ziel!" werden automatisch in alle 11 unterstützten Sprachen übersetzt. Hochformat-Arbeitsblätter zeigen einen 240px-Header; Querformat-Arbeitsblätter verwenden ein kompaktes 165px-Layout. Der Header rendert lokalisierten Text für Deutsch (Bilderpfad), Englisch (Picture Pathway), Französisch (Chemin d'Images), Spanisch (Camino de Imágenes) und alle weiteren unterstützten Sprachen.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle drei Spielmodi, den LPF-Labyrinth-Algorithmus, fünf Bildrollen, Wandanpassung, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle erstellten Labyrinth-Arbeitsblätter.`,
     },
     {
-      question: 'Sind Bilderpfad-Arbeitsblätter sprachabhängig?',
+      question: `Sind Bilderpfad-Arbeitsblätter sprachabhängig?`,
       answer:
         `Nein. Im Gegensatz zu wortbasierten Generatoren sind Bilderpfad-Arbeitsblätter vollständig visuell. Pfade werden navigiert und Bilder werden verfolgt, ohne dass Text gelesen werden muss. Der automatisch generierte Header übersetzt sich in 11 Sprachen, aber der Labyrinth-Inhalt selbst erfordert kein Sprachverständnis. Dies macht jedes Arbeitsblatt sofort nutzbar und verkaufbar in jedem Markt weltweit ohne Anpassung. Ein in Deutschland erstelltes Labyrinth verkauft sich identisch in Frankreich, den USA, Japan oder Brasilien.`,
     },
@@ -204,28 +204,28 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'fehlende-puzzleteile-arbeitsblaetter',
-      anchorText: 'Fehlende-Puzzleteile-Arbeitsblatt-Generator',
+      slug: `fehlende-puzzleteile-arbeitsblaetter`,
+      anchorText: `Fehlende-Puzzleteile-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'was-passt-nicht-arbeitsblaetter',
-      anchorText: 'Was-Passt-Nicht-Arbeitsblatt-Generator',
+      slug: `was-passt-nicht-arbeitsblaetter`,
+      anchorText: `Was-Passt-Nicht-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'kinder-sudoku-arbeitsblaetter',
-      anchorText: 'Bilder-Sudoku-Arbeitsblatt-Generator',
+      anchorText: `Bilder-Sudoku-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'suchen-und-zaehlen-arbeitsblaetter',
-      anchorText: 'Suchen-und-Zählen-Arbeitsblatt-Generator',
+      slug: `suchen-und-zaehlen-arbeitsblaetter`,
+      anchorText: `Suchen-und-Zählen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'schatzsuche-arbeitsblaetter',
-      anchorText: 'Schatzsuche-Arbeitsblatt-Generator',
+      anchorText: `Schatzsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -234,44 +234,44 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'safari-animals-printable-ideas',
-      anchorText: 'Dschungel-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: `safari-animals-printable-ideas`,
+      anchorText: `Dschungel-Druckvorlagen-Ideen für Arbeitsblätter`,
     },
     {
       pageType: 'idea',
       slug: 'camping-druckvorlagen-ideen',
-      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+      anchorText: `Camping-Druckvorlagen-Ideen für Outdoor-Lernen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
       anchorText: `Meerestiere-Druckvorlagen-Ideen für maritime Themen`,
     },
     {
       pageType: 'start',
-      slug: 'marketing-druckvorlagen-geschaeft',
-      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+      slug: `marketing-druckvorlagen-geschaeft`,
+      anchorText: `Marketing für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'guide',
-      slug: 'labyrinth-arbeitsblaetter-erstellen',
-      anchorText: 'Labyrinth-Arbeitsblätter erstellen',
+      slug: `labyrinth-arbeitsblaetter-erstellen`,
+      anchorText: `Labyrinth-Arbeitsblätter erstellen`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/picture path/Bilderpfad 1.webp',
+      primary: `/samples/german/picture path/Bilderpfad 1.webp`,
       primaryAlt: `Bilderpfad-Labyrinth-Arbeitsblatt mit thematischen Bildern in einem Raster mit orangefarbenem Header-Rahmen und automatisch generiertem Bilderpfad-Header`,
     },
     sampleGallery: [
       {
-        src: '/samples/german/picture path/Bilderpfad 2.webp',
+        src: `/samples/german/picture path/Bilderpfad 2.webp`,
         alt: `Bilderpfad-Modus-Arbeitsblatt mit Bildern in einem Raster, das den korrekten Pfad vom Start zum Ziel zeigt`,
         caption: `Bilderpfad-Modus — die korrekte Route vom Start zum Ziel über Pfadbilder verfolgen`,
       },
       {
-        src: '/samples/german/picture path/Bilderpfad 3.webp',
+        src: `/samples/german/picture path/Bilderpfad 3.webp`,
         alt: `Klassisches-Labyrinth-Modus-Arbeitsblatt mit wandbasierten Korridoren und verteilten Sammelbildern`,
         caption: `Klassisches Labyrinth — LPF-Algorithmus generiert wandbasierte Labyrinthe mit Sammelbildern`,
       },

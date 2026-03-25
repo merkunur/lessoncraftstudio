@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'weihnachts-druckvorlagen-ideen',
+    primaryKeyword: `weihnachts-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Weihnachts-Arbeitsblätter auf Etsy erstellen',
-      'Advents-Aktivitätsblätter auf KDP verkaufen',
-      'saisonale Weihnachts-Druckvorlagen für Gumroad',
+      `Weihnachts-Arbeitsblätter auf Etsy erstellen`,
+      `Advents-Aktivitätsblätter auf KDP verkaufen`,
+      `saisonale Weihnachts-Druckvorlagen für Gumroad`,
       `Weihnachtszeit-Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Adventszeit-Nachfragespitze Druckvorlagen',
-      'Winter-Festtags-Nische Arbeitsblatt-Umsatz',
-      'Dezember-Saison Lernmaterialien Etsy-Verkauf',
+      `Adventszeit-Nachfragespitze Druckvorlagen`,
+      `Winter-Festtags-Nische Arbeitsblatt-Umsatz`,
+      `Dezember-Saison Lernmaterialien Etsy-Verkauf`,
     ],
-    titleTag: 'Weihnachts-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Weihnachts-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Weihnachts-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Saisonale Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer im Advent.`,
   },
   hero: {
@@ -46,7 +46,7 @@ Nach-Weihnachten-Möglichkeiten verlängern die Feiertagsverkaufssaison für str
       appId: 'find-count',
     },
     {
-      title: 'Weihnachtliche Wortsuchrätsel zum Online-Verkauf',
+      title: `Weihnachtliche Wortsuchrätsel zum Online-Verkauf`,
       description: `Feiertags-Vokabel-Wortsuchrätsel ziehen Käufer an, die Dezember-Shopaktivitäten planen, und Eltern, die bildende Unterhaltung während der Winterferien suchen. Erstellen Sie Rätsel mit weihnachtsspezifischem Vokabular wie Rentier, Christbaumkugel, Nikolausstiefel, Lebkuchen, Schneeflocke, Mistelzweig und Schornstein neben breiteren Winterfeier-Begriffen wie Adventskranz, Weihnachtsmarkt und Bescherung. Der Wortsuchrätsel-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Versionen verschiedener Altersstufen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Feiertagsbegriffen für ältere Nutzer an. Saisonale Varianten wie Nikolaus-Werkstatt-Wörter, Weihnachtstraditionen-Vokabular und Adventskalender-Begriffe erweitern Ihren Katalog und bedienen verschiedene Käuferinteressen innerhalb der Weihnachts-Nische.`,
       appId: 'wordsearch',
     },
@@ -95,7 +95,7 @@ Nach-Weihnachten-Möglichkeiten verlängern die Feiertagsverkaufssaison für str
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Weihnachts-Druckvorlagen auf Etsy verkaufen',
+      title: `Weihnachts-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität für Weihnachts-Druckvorlagen-Angebote, und die Weihnachtseinkaufssaison erzeugt den größten Trafficanstieg des Jahres für lehrreiche digitale Downloads. Veröffentlichen Sie Ihre Weihnachts-Angebote bis Anfang September, damit Etsys Suchalgorithmen genügend Zeit haben, Ihre Produkte zu indexieren und zu ranken, bevor die Oktober-Nachfrage beginnt. Nutzen Sie alle dreizehn Tags mit Variationen, die Weihnachts-Unterthemen, Kompetenztypen und Altersgruppen kombinieren: „Weihnachten Zählarbeitsblätter Vorschule", „Advents-Wortsuchrätsel Kindergarten" und „Nikolaus Ausmalbilder Kleinkind" zielen auf spezifische Käufersuchen viel effektiver ab als breite Tags wie „Weihnachts-Arbeitsblätter". Erstellen Sie geschenkorientierte Angebotsvarianten, die Aktivitätspakete als Nikolausgeschenke oder Shop-Weihnachtsfeier-Pakete positionieren. Angebotbilder, die gedruckte Weihnachts-Arbeitsblätter in festlicher Umgebung mit Weihnachtsdekoration zeigen, übertreffen flache digitale Vorschaubilder und sprechen die Geschenk-Kaufmentalität an, die einen Großteil des Feiertagsverkehrs antreibt.`,
     },
     {
@@ -149,18 +149,18 @@ Nach-Weihnachten-Möglichkeiten verlängern die Feiertagsverkaufssaison für str
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -169,33 +169,33 @@ Nach-Weihnachten-Möglichkeiten verlängern die Feiertagsverkaufssaison für str
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'waldtiere-druckvorlagen-ideen',
-      anchorText: 'Waldtier-Druckvorlagen: Geschäftsideen',
+      anchorText: `Waldtier-Druckvorlagen: Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Engel — thematisches Lernbild', caption: 'Engel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Glocke — thematisches Lernbild', caption: 'Glocke' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Kerze — thematisches Lernbild', caption: 'Kerze' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Zuckerstange — thematisches Lernbild', caption: 'Zuckerstange' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Schornstein — thematisches Lernbild', caption: 'Schornstein' },
-    { src: '/image-library/christmas/church.webp', alt: 'Kirche — thematisches Lernbild', caption: 'Kirche' },
+    { src: `/image-library/christmas/angel.webp`, alt: 'Engel — thematisches Lernbild', caption: 'Engel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Glocke — thematisches Lernbild`, caption: 'Glocke' },
+    { src: `/image-library/christmas/candle.webp`, alt: 'Kerze — thematisches Lernbild', caption: 'Kerze' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Zuckerstange — thematisches Lernbild`, caption: 'Zuckerstange' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Schornstein — thematisches Lernbild`, caption: 'Schornstein' },
+    { src: `/image-library/christmas/church.webp`, alt: `Kirche — thematisches Lernbild`, caption: 'Kirche' },
   ],
 
 

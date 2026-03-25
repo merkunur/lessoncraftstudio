@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar páginas para colorir Etsy',
+    primaryKeyword: `criar páginas para colorir Etsy`,
     secondaryKeywords: [
-      'como vender páginas para colorir no Etsy',
-      'configurar loja Etsy de páginas para colorir',
+      `como vender páginas para colorir no Etsy`,
+      `configurar loja Etsy de páginas para colorir`,
       `negócio de páginas para colorir imprimíveis no Etsy`,
-      'vender desenhos para colorir no Etsy',
+      `vender desenhos para colorir no Etsy`,
     ],
     lsiKeywords: [
       `otimização de anúncios Etsy para downloads digitais de páginas para colorir`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `procura sazonal festividades páginas para colorir imprimíveis Etsy`,
       `fotos de anúncios mockups para produtos de páginas para colorir Etsy`,
     ],
-    titleTag: 'Criar páginas para colorir Etsy que vendem — Guia',
+    titleTag: `Criar páginas para colorir Etsy que vendem — Guia`,
     metaDescription: `Crie páginas para colorir Etsy a partir de 104 temas de imagens. Exportações P&B e escala de cinza, otimização de anúncios, preços para pacotes temáticos.`,
   },
 
   hero: {
-    title: 'Como criar páginas para colorir Etsy que vendem',
+    title: `Como criar páginas para colorir Etsy que vendem`,
     tagline: `Um guia completo de plataforma para construir uma loja Etsy rentável a vender páginas para colorir criadas a partir de 104 bibliotecas de imagens temáticas — abrangendo configuração de loja Etsy, otimização SEO com as 13 etiquetas, títulos e descrições que se posicionam para termos de pesquisa de compradores de páginas para colorir, fotografia de produtos mostrando arte P&B e variedade temática, estratégias de preços para páginas individuais e coleções temáticas, timing sazonal para picos de procura de festividades e regresso às aulas, planeamento de catálogo entre demografias de crianças e colorir adulto, oportunidades de crossover para livros de colorir no KDP, e otimização contínua usando as Estatísticas do Etsy`,
     description: `As páginas para colorir são uma das categorias de produtos imprimíveis com maior procura e mais perenes no Etsy, compradas por pais, vendedores, terapeutas, coordenadores de atividades seniores e entusiastas de colorir adulto. Este guia percorre cada passo da construção de uma loja Etsy que vende páginas para colorir — desde pesquisar a procura dos compradores entre demografias de crianças e adultos, através da geração de inventário a partir de 104 bibliotecas de imagens temáticas, até escrever anúncios otimizados, criar fotos de anúncio que mostrem eficazmente arte em traço, definir preços para páginas individuais e coleções temáticas, e lançar a loja. Irá aprender como as páginas para colorir diferem de outras categorias de imprimíveis pelo seu apelo visual universal, demografias amplas de compradores, padrões de procura sazonal e potencial significativo de crossover para Amazon KDP.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Antes de criar uma única página para colorir, invista tempo a compreender o que os compradores realmente pesquisam e compram no Etsy. A procura de páginas para colorir divide-se em segmentos de compradores distintos, cada um com diferentes comportamentos de pesquisa, sensibilidade a preços e expetativas de produto.\n\nO segmento infantil é o maior em volume. Os pais pesquisam termos como \"páginas para colorir animais imprimíveis\", \"fichas colorir crianças pré-escola\" e \"desenhos para colorir dinossauros crianças\". Estes compradores querem arte em traço simples e clara com temas reconhecíveis e bastante espaço em branco para mãos pequenas com lápis grossos. A sensibilidade ao preço é moderada — os pais esperam pacotes acessíveis de 10 a 30 páginas em vez de folhas individuais.\n\nO segmento de colorir adulto cobra preços mais altos por unidade. Os compradores pesquisam \"páginas para colorir adulto mandalas\", \"desenhos intrincados natureza colorir\" e \"páginas para colorir relaxamento imprimível\". Estes compradores valorizam detalhe, complexidade e qualidade artística. Pagam preços premium por designs únicos que proporcionam tempo de colorir prolongado.\n\nO segmento educativo sobrepõe-se ao infantil mas tem gatilhos de compra diferentes. Os vendedores pesquisam \"fichas colorir loja temáticas\", \"pacote páginas colorir festividades turma\" e \"atividades colorir sazonais ensino básico\". Estes compradores compram em volume para distribuição online e valorizam consistência temática num pacote.\n\nO segmento terapêutico visa terapeutas ocupacionais, centros de cuidados seniores e profissionais de saúde mental. Os termos de pesquisa incluem \"páginas colorir letra grande seniores\", \"fichas colorir terapia motricidade\" e \"páginas colorir mindfulness\". Este nicho pouco servido tem concorrência relativamente baixa.\n\nPara pesquisar eficazmente, pesquise no Etsy pelos seus temas-alvo e note quais anúncios aparecem na primeira página. Examine os seus títulos, preços, número de avaliações e como fotografam os produtos. Procure temas com forte procura (muitas avaliações entre anúncios concorrentes) mas concorrência moderada (menos de 200 resultados para o termo de pesquisa específico).`,
     },
     {
-      heading: 'Planear o catálogo de páginas para colorir',
+      heading: `Planear o catálogo de páginas para colorir`,
       content: `Um catálogo estratégico de produtos é a base de uma loja Etsy de páginas para colorir bem-sucedida. O Gerador de Páginas para Colorir dá-lhe acesso a 104 temas de imagens — animais, alimentos, veículos, natureza, festividades, fantasia, profissões, desportos e dezenas mais. Cada tema produz páginas para colorir visualmente distintas, significando que o potencial do seu catálogo é enorme. O desafio é organizá-lo eficazmente.\n\nComece mapeando temas a segmentos de compradores. Temas de animais, dinossauros, veículos e alimentos funcionam melhor para pacotes de colorir infantis. Temas de natureza, jardim, oceano e composições de estilo mandala apelam a compradores de colorir adulto. Temas de festividades (Natal, Halloween, Páscoa, Dia dos Namorados) servem todas as demografias e têm picos previsíveis de procura sazonal.\n\nEstruture o catálogo em três níveis de produto. Páginas para colorir individuais (1 a 3 páginas) servem como pontos de entrada de baixo preço que atraem os primeiros compradores e geram avaliações. Pacotes temáticos (10 a 20 páginas organizadas em torno de um único tema) são os seus produtos essenciais com a melhor relação margem-esforço. Mega coleções (30 a 50+ páginas combinando temas relacionados) cobram preços premium e atraem vendedores, terapeutas e pais que querem material de atividades abrangente.\n\nPlaneie o catálogo de lançamento para incluir pelo menos 15 a 20 anúncios em 5 a 8 temas. Considere a segmentação por faixa etária dentro dos temas. O mesmo tema de animais pode produzir uma versão para crianças pequenas (imagens únicas grandes, contornos grossos, detalhe mínimo) e uma versão detalhada (múltiplas imagens menores, composições intrincadas, mais superfície de colorir). Isto duplica a contagem de anúncios do mesmo tema sem duplicar conteúdo.\n\nCom uma licença comercial, obtém acesso a 10 conjuntos de imagens temáticas em todas as 11 línguas da interface. A licença de Acesso Total desbloqueia todos os 104 temas com mais de 3.100 ilustrações, dando-lhe a profundidade de catálogo necessária para dominar categorias de nicho de páginas para colorir no Etsy.`,
     },
     {
-      heading: 'Criar o inventário de páginas para colorir',
+      heading: `Criar o inventário de páginas para colorir`,
       content: `Com o plano de catálogo definido, abra o Gerador de Páginas para Colorir e comece a produzir inventário. O fluxo de trabalho para criar páginas para colorir vendáveis é direto mas beneficia de decisões de design intencionais em cada passo.\n\nSelecione o tamanho de página primeiro. US Letter (8,5 × 11 polegadas) é o padrão para compradores norte-americanos. Crie versões A4 de cada design para compradores internacionais — isto duplica o seu mercado endereçável com esforço extra mínimo.\n\nNavegue pela biblioteca de imagens e selecione o seu tema-alvo. A biblioteca organiza mais de 3.100 ilustrações em 104 categorias. Clique em qualquer imagem para colocá-la no canvas de formato livre. Para páginas para colorir infantis, coloque uma a três imagens grandes com espaçamento generoso entre elas. Para páginas orientadas para adultos com detalhe, disponha múltiplas imagens menores em composições complexas que preencham mais da página.\n\nUse as ferramentas de edição do canvas para criar composições polidas. Arraste imagens para posicioná-las com precisão. Redimensione usando os cantos para controlar a área de colorir. Rode ligeiramente as imagens para criar layouts dinâmicos e menos rígidos. Utilize os controlos de profundidade para construir cenas com elementos de primeiro plano e fundo.\n\nA ferramenta de desenho livre é a sua arma secreta para criar produtos únicos. Desenhe linhas de chão sob animais, adicione ondas à volta de criaturas marinhas, esboce fundos simples atrás de imagens principais ou crie molduras decorativas. Estas adições desenhadas à mão transformam colocações genéricas de imagens em páginas para colorir distintivas que os concorrentes não conseguem replicar facilmente.\n\nAtive o modo escala de cinza para converter a composição colorida em arte em traço P&B ou escala de cinza limpa. Este é o passo crítico que transforma um design colorido numa página para colorir pronta a imprimir. Pré-visualize a saída em escala de cinza cuidadosamente — certifique-se de que todos os contornos estão claros, os detalhes são visíveis e a composição geral se lê bem sem cor.\n\nA produção em lote por tema é a abordagem mais eficiente. Configure a primeira página com tema de animais, depois crie mais 9 a 19 usando diferentes imagens de animais da mesma categoria temática. Isto produz um pacote temático completo numa única sessão de trabalho.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `As fotos de anúncio de páginas para colorir enfrentam um desafio único: o produto real é arte em traço preto e branco, que pode parecer plana e pouco excitante em tamanho de miniatura. Vendedores bem-sucedidos resolvem isto com fotografia estratégica que mostra tanto o produto P&B como o potencial colorido.\n\nA sua foto principal (a miniatura nos resultados de pesquisa) deve captar atenção apesar da natureza P&B do produto. A abordagem mais eficaz é uma composição dividida ou sobreposta: mostre a página para colorir P&B de um lado e uma versão colorida do outro. Isto comunica imediatamente o que é o produto e como fica o resultado final. Use cores vivas e saturadas na versão colorida para criar contraste visual que se destaque em tamanho de miniatura.\n\nCrie uma infografia \"o que está incluído\" como segunda foto. Mostre uma grelha de todas as páginas do pacote em tamanho reduzido. Isto comunica quantidade e variedade num relance. Para um pacote de 20 páginas, disponha as páginas numa grelha 4×5 com um cabeçalho a negrito indicando \"20 Páginas para Colorir Imprimíveis Incluídas\".\n\nInclua fotos de mockup mostrando as páginas para colorir em uso. Uma foto flat-lay de uma página impressa com lápis de cor dispostos ao lado cria uma imagem aspiracional de estilo de vida. Um mockup mostrando a mão de uma criança a colorir uma página impressa adiciona autenticidade.\n\nMostre close-up de detalhe dos seus designs. Amplie uma secção de uma página para destacar a qualidade da arte em traço, o nível de detalhe e a quantidade de superfície de colorir. Isto é especialmente importante para produtos de colorir adulto onde a complexidade do design é um fator chave de compra.\n\nUse um estilo de fotografia consistente em todos os anúncios. Escolha uma cor de fundo de assinatura, estilo de tipografia e modelo de layout para as fotos dos anúncios. Consistência visual faz a marca parecer profissional e incentiva compradores a navegar mais produtos.`,
     },
     {
-      heading: 'Definir preços para páginas para colorir',
+      heading: `Definir preços para páginas para colorir`,
       content: `Os preços de páginas para colorir no Etsy seguem uma estrutura escalonada baseada na contagem de páginas, especificidade do tema e demografia-alvo.\n\nPáginas para colorir individuais (1 a 3 páginas) vendem-se tipicamente entre 1,50€ e 3,00€. Estes produtos de baixo preço servem como pontos de entrada que geram avaliações iniciais e constroem credibilidade.\n\nPacotes temáticos de 10 a 20 páginas são o ponto ideal, tipicamente entre 4,00€ e 8,00€. Esta faixa de preço parece um valor forte para os compradores (cêntimos por página) enquanto gera receita significativa por transação. Um pacote de 15 páginas para colorir de animais a 5,00€ é um preço comum e bem-sucedido.\n\nGrandes coleções de 30 a 50+ páginas cobram entre 8,00€ e 15,00€. vendedores e terapeutas que precisam de material temático abrangente são os principais compradores nesta faixa.\n\nMega pacotes combinando múltiplos temas (100+ páginas) podem vender entre 15,00€ e 25,00€. Estes anúncios de alto valor atraem compradores experientes que reconhecem a poupança por página.\n\nProdutos de colorir adulto tipicamente cobram um prémio de 20 a 40% sobre produtos infantis com a mesma contagem de páginas. O valor percecionado de designs detalhados e intrincados supera o de páginas infantis simples.\n\nConsidere os preços do KDP ao definir preços no Etsy. Se planeia vender os mesmos designs como livro de colorir no KDP a 6,99€, o seu download digital no Etsy do mesmo conteúdo deve ter preço competitivo — tipicamente igual ou ligeiramente abaixo do preço do livro KDP, já que o comprador lida com os custos de impressão.\n\nRealize promoções periódicas (20 a 30% de desconto) para impulsionar a conversão. O Etsy promove lojas com promoções nos resultados de pesquisa.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Estratégia SEO do Etsy para páginas para colorir',
+      heading: `Estratégia SEO do Etsy para páginas para colorir`,
       content: `O SEO de páginas para colorir difere de outras categorias porque os compradores usam termos de pesquisa altamente específicos que combinam tema, demografia e formato. Domine estes padrões para maximizar a visibilidade.\n\nInclua sempre \"imprimível\" no título e etiquetas. Os compradores do Etsy que procuram livros de colorir físicos raramente convertem em anúncios digitais, por isso \"imprimível\" filtra o tráfego para compradores com intenção digital.\n\nUse todas as 13 etiquetas com frases únicas. Padrões de etiquetas de alto desempenho incluem: \"[tema] páginas colorir\" (por exemplo, \"dinossauros páginas colorir\"), \"fichas colorir imprimíveis [demografia]\" (por exemplo, \"fichas colorir pré-escola\"), \"[caso de uso] atividade colorir\" (por exemplo, \"atividade loja colorir\"), \"[época] páginas colorir imprimível\" (por exemplo, \"Natal páginas colorir imprimível\") e \"download digital colorir [tema]\". Evite desperdiçar etiquetas com palavras genéricas isoladas.\n\nRenove anúncios estrategicamente. Cronometre as renovações para coincidir com picos de procura: páginas para colorir de Halloween em setembro, Natal em novembro, regresso às aulas em julho.`,
     },
     {
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Preços de pacotes para receita máxima',
+      heading: `Preços de pacotes para receita máxima`,
       content: `As lojas Etsy de páginas para colorir mais rentáveis usam uma escada de preços deliberada que move compradores de produtos de entrada de baixo preço para coleções de alto valor.\n\nA escada de preços deve incluir quatro patamares. O patamar de entrada (1,50€ a 2,50€) contém páginas individuais ou amostras de 2 a 3 páginas. O patamar padrão (4,00€ a 7,00€) contém pacotes temáticos de 10 a 15 páginas. O patamar premium (8,00€ a 14,00€) contém grandes coleções temáticas de 25 a 40 páginas. O patamar mega (15,00€ a 25,00€) contém pacotes abrangentes multi-tema de 50 a 100+ páginas.\n\nCada anúncio deve referenciar o patamar seguinte na descrição. A descrição do pacote de 10 páginas de animais deve mencionar: \"Procura mais? Veja a nossa Coleção Completa de Colorir Animais para o melhor valor por página.\"\n\nOfereça uma \"amostra da loja\" que inclua 2 a 3 páginas dos 5 temas mais populares a 2,00€ a 3,00€. Este produto permite que novos compradores avaliem a qualidade em vários temas antes de se comprometerem com um pacote completo.`,
     },
     {
@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Exemplo de catálogo de páginas para colorir',
+      heading: `Exemplo de catálogo de páginas para colorir`,
       content: `Um catálogo bem estruturado demonstra como um vendedor pode construir variedade extensa a partir de bibliotecas de imagens temáticas.\n\nAnúncios de animais perenes (núcleo): Colorir Animais da Quinta (15 páginas, 5,00€), Colorir Animais do Zoo (15 páginas, 5,00€), Colorir Criaturas do Oceano (15 páginas, 5,00€), Colorir Dinossauros (12 páginas, 4,50€), Colorir Animais de Estimação (10 páginas, 4,00€), Colorir Insetos (10 páginas, 4,00€). Total: 6 anúncios cobrindo o tema infantil com maior procura.\n\nAnúncios de natureza e cenários perenes: Colorir Flores do Jardim (12 páginas, 4,50€), Colorir Floresta e Bosque (12 páginas, 4,50€), Colorir Espaço e Planetas (10 páginas, 4,00€), Colorir Mundo Subaquático (15 páginas, 5,00€). Total: 4 anúncios com apelo cruzado para crianças e adultos.\n\nPacotes e coleções: Coleção Completa Animais (combina os 6 pacotes, 77 páginas, 14,00€), Coleção Explorador da Natureza (combina os 4 pacotes, 49 páginas, 10,00€), Mega Pacote Páginas Colorir (todos os temas, 126+ páginas, 22,00€). Total: 3 anúncios premium de conteúdo existente.\n\nProdutos de entrada: Amostra Páginas Colorir (3 páginas de 5 temas, 15 páginas, 2,50€), Amostras de Tema Individual (3 páginas cada, 1,50€ cada). Total: 6+ anúncios de baixo preço.\n\nEsta estrutura produz mais de 19 anúncios com caminhos claros de atualização de amostras para pacotes individuais para coleções.`,
     },
     {
@@ -140,57 +140,57 @@ const content: GuideContent = {
     },
     {
       slug: 'abrir-loja-etsy-imprimiveis',
-      title: 'Como abrir uma loja Etsy de imprimíveis do zero',
+      title: `Como abrir uma loja Etsy de imprimíveis do zero`,
       description: `O guia completo de configuração do Etsy cobrindo criação de loja, políticas, pagamento e fundamentos de anúncios. Comece aqui se ainda não configurou a sua conta de vendedor.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: `Como criar páginas para colorir a partir de imagens temáticas` },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: 'Como vender caça-palavras no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para começar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: `Como vender caça-palavras no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para começar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
     { pageType: 'app', slug: 'desenhos-colorir-fichas', anchorText: `Gerador de páginas para colorir — Detalhes completos` },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Experimentar o Gerador de Páginas para Colorir' },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: `Experimentar o Gerador de Páginas para Colorir` },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `A ferramenta principal para criar páginas para colorir vendáveis. Canvas de formato livre com 104 temas de imagens, composição arrastar e largar, desenho livre e exportação escala de cinza com um clique para páginas P&B prontas a imprimir.`,
     },
     {
       appId: 'draw-and-color',
-      title: 'Gerador de Atividades Desenhar e Colorir',
+      title: `Gerador de Atividades Desenhar e Colorir`,
       description: `Cria atividades de grelha de desenho que complementam páginas para colorir na loja Etsy. Os compradores que compram páginas para colorir frequentemente compram atividades de desenho do mesmo vendedor, ideal para venda cruzada.`,
     },
     {
       appId: 'big-small',
-      title: 'Gerador de Comparação Grande e Pequeno',
+      title: `Gerador de Comparação Grande e Pequeno`,
       description: `Produz fichas de comparação de tamanho usando a mesma biblioteca de imagens temáticas. Uma extensão natural para lojas de páginas para colorir que visam o mercado de atividades infantis.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir com ilustrações temáticas mostrando arte P&B para vender no Etsy' },
+    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir com ilustrações temáticas mostrando arte P&B para vender no Etsy` },
     samples: [
-      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: 'Página para colorir com tema de animais para anúncio Etsy de download digital', caption: 'Página para colorir com animais — arte P&B limpa que cria fotos de anúncio atrativas no Etsy' },
-      { src: `/samples/portuguese/coloring/coloring landscape 3.webp`, alt: 'Página para colorir com tema de natureza mostrando composições para mercados adulto e infantil', caption: 'Página para colorir de natureza — tema versátil que apela tanto a crianças como a adultos no Etsy' },
-      { src: `/samples/portuguese/coloring/coloring portrait 1.webp`, alt: 'Página para colorir com tema de festividades demonstrando produto sazonal para picos de procura', caption: 'Página para colorir de festividades — temas sazonais geram grandes picos de procura no Etsy' },
+      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: `Página para colorir com tema de animais para anúncio Etsy de download digital`, caption: `Página para colorir com animais — arte P&B limpa que cria fotos de anúncio atrativas no Etsy` },
+      { src: `/samples/portuguese/coloring/coloring landscape 3.webp`, alt: `Página para colorir com tema de natureza mostrando composições para mercados adulto e infantil`, caption: `Página para colorir de natureza — tema versátil que apela tanto a crianças como a adultos no Etsy` },
+      { src: `/samples/portuguese/coloring/coloring portrait 1.webp`, alt: `Página para colorir com tema de festividades demonstrando produto sazonal para picos de procura`, caption: `Página para colorir de festividades — temas sazonais geram grandes picos de procura no Etsy` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Como criar páginas para colorir para vender no Etsy — Tutorial passo a passo`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Formiga — imagem educativa temática', caption: 'Formiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Texugo — imagem educativa temática', caption: 'Texugo' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagem educativa temática', caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Formiga — imagem educativa temática`, caption: 'Formiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Texugo — imagem educativa temática`, caption: 'Texugo' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagem educativa temática`, caption: 'Castor' },
   ],
 };
 

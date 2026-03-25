@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safaridieren Printables Verkopen — Nichegids',
+    titleTag: `Safaridieren Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende safaridieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Afrikaanse wildlife productconcepten en tips voor verkopers.`,
 
     primaryKeyword: 'safaridieren printable ideeën',
     secondaryKeywords: [
-      'safaridieren werkbladen verkopen',
-      'safarithema printable business',
-      'jungle activiteiten voor verkopers',
-      'safari printables verkopen op Etsy',
+      `safaridieren werkbladen verkopen`,
+      `safarithema printable business`,
+      `jungle activiteiten voor verkopers`,
+      `safari printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'Afrikaanse wildlife educatieve werkbladen',
-      'jungle en savanne activiteitenpagina\'s',
-      'exotische dieren printbare producten printables',
+      `Afrikaanse wildlife educatieve werkbladen`,
+      `jungle en savanne activiteitenpagina's`,
+      `exotische dieren printbare producten printables`,
     ],
   },
   hero: {
     title: `Safaridieren Printable Businessideeën voor Verkopers`,
-    description: `Safaridieren nemen een bijzondere plaats in de verbeelding van kinderen in, waardoor Afrikaanse wilde dieren een van de meest visueel aansprekende en commercieel belonende thema's zijn op de markt voor educatieve printables. Van peuters die leren leeuwen en olifanten te herkennen tot kinderen in groep 3 die giraffepatronen en zebrastrepen verkennen — het safarithema wekt nieuwsgierigheid die alle leeftijdsgroepen en leerstadia overspant. Voor printable-verkopers bieden safaridieren een krachtige combinatie van altijdgroene aantrekkingskracht, vakoverschrijdende relevantie op het gebied van aardrijkskunde en wetenschap, en sterke visuele herkenning die zorgt voor hoge doorklikpercentages op marktplaatsvermeldingen. Bezoeken aan de dierentuin, natuurdocumentaires en bewustzijn rond dierenbescherming houden safarithema's in constante vraag bij ouders, verkopers en thuisonderwijzers. Of je nu verkoopt op Etsy, Amazon KDP of Gumroad, safaridieren printables vertegenwoordigen een bewezen niche met ruimte voor creatieve getrapte productpakketten en premiumprijzen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.`,
+    description: `Safaridieren nemen een bijzondere plaats in de verbeelding van kinderen in, waardoor Afrikaanse wilde dieren een van de meest visueel aansprekende en commercieel belonende thema`s zijn op de markt voor educatieve printables. Van peuters die leren leeuwen en olifanten te herkennen tot kinderen in groep 3 die giraffepatronen en zebrastrepen verkennen — het safarithema wekt nieuwsgierigheid die alle leeftijdsgroepen en leerstadia overspant. Voor printable-verkopers bieden safaridieren een krachtige combinatie van altijdgroene aantrekkingskracht, vakoverschrijdende relevantie op het gebied van aardrijkskunde en wetenschap, en sterke visuele herkenning die zorgt voor hoge doorklikpercentages op marktplaatsvermeldingen. Bezoeken aan de dierentuin, natuurdocumentaires en bewustzijn rond dierenbescherming houden safarithema`s in constante vraag bij ouders, verkopers en thuisonderwijzers. Of je nu verkoopt op Etsy, Amazon KDP of Gumroad, safaridieren printables vertegenwoordigen een bewezen niche met ruimte voor creatieve getrapte productpakketten en premiumprijzen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.`,
   },
   marketOverview: `De niche van safaridieren printables neemt een unieke positie in op de educatieve markt omdat het twee krachtige krachten combineert: de fascinatie van kinderen voor exotische wilde dieren en de educatieve rijkdom van Afrikaanse aardrijkskunde en dierenwetenschappen. In tegenstelling tot huisdierthema\'s die vertrouwd aanvoelen, dragen safaridieren een element van avontuur en verwondering dat de betrokkenheid op natuurlijke wijze verhoogt. Wanneer een kind werkt aan een werkblad met leeuwen, olifanten, giraffen of zebra\'s, voelt de activiteit meer als ontdekking dan als schoolwerk, en dat is precies waarom ouders en verkopers deze materialen opzoeken.
 
@@ -51,17 +51,17 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
     },
     {
       title: `Safaridieren Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met safarithema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige verkopers zijn voor de peuter- en kleutermarkt. Maak sets waarin kinderen Afrikaanse dieren koppelen aan hun habitats, safariwezens aan hun jongen, dieren aan de geluiden die ze maken, of wilde dieren aan de continenten waar ze leven. De Koppelen-generator produceert schone, professionele lay-outs die goed printen in zowel kleur als grijstinten. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer georganiseerd op moeilijkheidsprogressie van eenvoudige beeldkoppeling naar complexere categorisatietaken.`,
+      description: `Koppelwerkbladen met safarithema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige verkopers zijn voor de peuter- en kleutermarkt. Maak sets waarin kinderen Afrikaanse dieren koppelen aan hun habitats, safariwezens aan hun jongen, dieren aan de geluiden die ze maken, of wilde dieren aan de continenten waar ze leven. De Koppelen-generator produceert schone, professionele lay-outs die goed printen in zowel kleur als grijstinten. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer georganiseerd op moeilijkheidsprogressie van eenvoudige beeldkoppeling naar complexere categorisatietaken.`,
       appId: 'matching',
     },
     {
-      title: 'Safarithema Optelwerkbladen voor Rekenverkopers',
+      title: `Safarithema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen geïllustreerd met Afrikaanse safaridieren transformeren routinematige opteloefeningen in boeiende activiteiten die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen olifanten optellen, leeuwenthema verhaalopgaven oplossen of giraffenpatroon rekenopgaven invullen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen. Rekenprintables met safarithema brengen een meerprijs op ten opzichte van generieke alternatieven omdat kopers de levendige wildlifeillustraties associëren met hogere betrokkenheid en sterkere leermotivatie voor jonge gebruikers.`,
       appId: 'addition',
     },
     {
       title: `Safaridieren Kleurplaten voor Etsy en KDP Verkopers`,
-      description: `Kleurplaten zijn het ideale instapproduct voor een printable-winkel met safarithema omdat ze impulsaankopen aantrekken en snelle eerste beoordelingen genereren. De Kleuren-generator maakt gedetailleerde contouren van leeuwen, olifanten, giraffen, zebra's, nijlpaarden en savannelandschappen. Voor Etsy verkoop je individuele pagina's of samengestelde sets van tien tot vijftien met verschillende Afrikaanse dieren. Voor KDP compileer je dertig tot vijftig safariekleurplaten in activiteitenboeken gericht op de categorie kinderkleurboeken. Voeg educatieve elementen toe zoals diernamen, habitatweetjes of continentidentificatie naast elke afbeelding om je te onderscheiden van puur decoratieve opties en premiumprijzen te rechtvaardigen.`,
+      description: `Kleurplaten zijn het ideale instapproduct voor een printable-winkel met safarithema omdat ze impulsaankopen aantrekken en snelle eerste beoordelingen genereren. De Kleuren-generator maakt gedetailleerde contouren van leeuwen, olifanten, giraffen, zebra`s, nijlpaarden en savannelandschappen. Voor Etsy verkoop je individuele pagina`s of samengestelde sets van tien tot vijftien met verschillende Afrikaanse dieren. Voor KDP compileer je dertig tot vijftig safariekleurplaten in activiteitenboeken gericht op de categorie kinderkleurboeken. Voeg educatieve elementen toe zoals diernamen, habitatweetjes of continentidentificatie naast elke afbeelding om je te onderscheiden van puur decoratieve opties en premiumprijzen te rechtvaardigen.`,
       appId: 'coloring',
     },
     {
@@ -70,8 +70,8 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
       appId: 'bingo',
     },
     {
-      title: 'Safaridieren Schaduwkoppelwerkbladen Verkopen',
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen Afrikaanse safaridieren koppelen aan hun silhouetten. De onderscheidende lichaamsvormen van safariwezens zoals giraffen, olifanten, neushoorns en flamingo\'s maken schaduwkoppelen van nature gevarieerd en boeiend. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Safari-schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      title: `Safaridieren Schaduwkoppelwerkbladen Verkopen`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen Afrikaanse safaridieren koppelen aan hun silhouetten. De onderscheidende lichaamsvormen van safariwezens zoals giraffen, olifanten, neushoorns en flamingo's maken schaduwkoppelen van nature gevarieerd en boeiend. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Safari-schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -94,12 +94,12 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Safaridieren Printables Verkopen op Etsy',
+      title: `Safaridieren Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in safaridieren printable-vermeldingen. Richt je op long-tail zoekwoorden zoals "safaridieren telwerkblad kleuters" of "Afrikaanse dieren kleurplaten peuters" in plaats van brede generieke titels. Gebruik alle dertien tags met combinaties van thema, vaardigheid, leeftijdsgroep en gelegenheid zoals dierentuinbezoeken of verjaardagsfeestjes. Mockup-afbeeldingen die geprinte safariwerkbladen tonen naast speelgoeddieren, savannethema-achtergronden of klasdisplays presteren aanzienlijk beter dan platte digitale voorbeelden. Plan nieuwe vermeldingen om samen te vallen met het lenteseizoen van dierentuinbezoeken van maart tot mei wanneer de interesse van ouders en verkopers in safarithema's piekt. Bied zowel individuele werkbladen aan voor twee tot vier euro als themabundels voor acht tot vijftien euro. De Nederlandse markt via Etsy.nl biedt extra kansen door het beperkte aanbod van Nederlandstalige safariwerkbladen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Safaridieren Activiteitenboeken Publiceren op KDP',
+      title: `Safaridieren Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP werkt goed voor printables met safarithema die worden gecompileerd tot samenhangende activiteitenboeken. Een activiteitenboek met safaridieren van veertig tot zestig pagina's dat tel-, kleur-, koppel- en woordactiviteiten combineert, presteert sterk in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch met termen als "safaridieren activiteitenboek," "Afrikaanse wildlife werkbladen voor kinderen" en leeftijdsspecifieke zinnen als "kleuter safariboek." Prijs tussen vier en zeven euro voor optimale royaltytarieven. Safariboeken presteren bijzonder goed als cadeaus en reisactiviteiten, dus neem cadeauvriendelijke taal op in je beschrijving. Bestel altijd een proefexemplaar om te verifiëren dat dierenillustraties en savanneachtergronden helder printen. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
@@ -125,7 +125,7 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
     },
     {
       question: `Hoe onderscheid ik safaridieren printables van concurrenten?`,
-      answer: `getrapte productpakketten in de safari-printable-niche komt voort uit soortenauwkeurigheid, visuele kwaliteit en educatieve verpakking. Ga allereerst verder dan generieke jungleclipart door nauwkeurige Afrikaanse safarisoorten te presenteren waaronder leeuwen, olifanten, giraffen, zebra's, nijlpaarden, neushoorns, cheeta's en luipaarden. Deze specificiteit spreekt verkopers aan die wetenschappelijk verantwoord materiaal willen. Zorg er vervolgens voor dat je werkbladen schone, professionele lay-outs hebben met aantrekkelijke wildlifeillustraties in plaats van simpele cartoonafbeeldingen. Verpak producten ten slotte met duidelijke productdoelen en vaardigheidsstandaarden die zichtbaar zijn in je vermeldingsbeschrijving. Bundels die complementaire vaardigheden combineren, zoals een safari-rekenpakket met tellen, optellen en patroonactiviteiten, creëren waargenomen waarde die je onderscheidt van verkopers die geïsoleerde, generieke dierenwerkbladen aanbieden.`,
+      answer: `getrapte productpakketten in de safari-printable-niche komt voort uit soortenauwkeurigheid, visuele kwaliteit en educatieve verpakking. Ga allereerst verder dan generieke jungleclipart door nauwkeurige Afrikaanse safarisoorten te presenteren waaronder leeuwen, olifanten, giraffen, zebra`s, nijlpaarden, neushoorns, cheeta`s en luipaarden. Deze specificiteit spreekt verkopers aan die wetenschappelijk verantwoord materiaal willen. Zorg er vervolgens voor dat je werkbladen schone, professionele lay-outs hebben met aantrekkelijke wildlifeillustraties in plaats van simpele cartoonafbeeldingen. Verpak producten ten slotte met duidelijke productdoelen en vaardigheidsstandaarden die zichtbaar zijn in je vermeldingsbeschrijving. Bundels die complementaire vaardigheden combineren, zoals een safari-rekenpakket met tellen, optellen en patroonactiviteiten, creëren waargenomen waarde die je onderscheidt van verkopers die geïsoleerde, generieke dierenwerkbladen aanbieden.`,
     },
     {
       question: `Kan ik safaridieren printables op meerdere platforms tegelijk verkopen?`,
@@ -149,62 +149,62 @@ Het safarithema presteert ook uitzonderlijk goed op de markt voor babykamer- en 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'Professionele koppelwerkbladen maken',
+      anchorText: `Professionele koppelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Zeedieren printable businessideeën',
+      anchorText: `Zeedieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'Boerderijdieren printable businessideeën',
+      anchorText: `Boerderijdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: `Antilope — educatieve thema-afbeelding safaridieren`, caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: `Gordeldier — educatieve thema-afbeelding safaridieren`, caption: 'Gordeldier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: `Vleermuis — educatieve thema-afbeelding safaridieren`, caption: 'Vleermuis' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Beer — educatieve thema-afbeelding safaridieren', caption: 'Beer' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bizon — educatieve thema-afbeelding safaridieren', caption: 'Bizon' },
-    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding safaridieren', caption: 'Kameel' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding safaridieren`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gordeldier — educatieve thema-afbeelding safaridieren`, caption: 'Gordeldier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding safaridieren`, caption: 'Vleermuis' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Beer — educatieve thema-afbeelding safaridieren`, caption: 'Beer' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bizon — educatieve thema-afbeelding safaridieren`, caption: 'Bizon' },
+    { src: `/image-library/zoo%20animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding safaridieren`, caption: 'Kameel' },
   ],
 
   youtubeId: '0cOPi7eajLs',

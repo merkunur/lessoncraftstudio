@@ -10,25 +10,25 @@ const content: ToolContent = {
       `ferramenta de fichas de associação com gabarito automático`,
     ],
     lsiKeywords: [
-      'gerador de fichas de associação com quatro modos',
-      'gabarito automático com linhas de ligação',
+      `gerador de fichas de associação com quatro modos`,
+      `gabarito automático com linhas de ligação`,
       `criador de fichas de letra inicial imagem e palavra`,
     ],
-    titleTag: 'Gerador Fichas de Associação | Criar e Vender',
+    titleTag: `Gerador Fichas de Associação | Criar e Vender`,
     metaDescription: `Crie fichas de associação com 4 modos, gabarito automático com linhas de ligação, pares configuráveis, 11 idiomas e 104 temas. Teste grátis com marca d'água.`,
   },
 
   hero: {
-    title: 'Gerador de Fichas de Associação',
+    title: `Gerador de Fichas de Associação`,
     tagline: `Gerador de fichas de associação com linhas de ligação e quatro modos — Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto e Palavra Personalizada — gabaritos autogerados com linhas de ligação, pares configuráveis, cabeçalho localizado «Liga!» em 11 idiomas e 104 coleções temáticas de imagens para fichas de associação que se vendem em todo o mundo`,
-    description: `Crie fichas profissionais de associação onde os usuários ligam pares desenhando linhas entre duas colunas — com quatro modos de associação distintos num único gerador. O modo Letra Inicial coloca imagens à esquerda e as suas primeiras letras à direita, com três sub-modos: Tema e Imagens Aleatórias seleciona um tema e imagens automaticamente, Aleatório do Tema Escolhido permite-lhe escolher o tema, e Selecionar Imagens Específicas dá-lhe controlo manual sobre cada imagem. Alterne entre maiúsculas ou minúsculas para fichas adequadas à idade. O modo Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para reforço de vocabulário. O modo Imagem/Palavra Misto usa menus suspensos por linha para que cada lado mostre independentemente uma imagem ou uma palavra, criando dificuldade variada dentro de uma única ficha. O modo Palavra Personalizada associa imagens com os seus próprios termos escritos para prática de ortografia, exercícios de vocabulário ou exercícios de línguas estrangeiras. Configure 4, 5 ou 6 pares por ficha (predefinição 6) para controlar a dificuldade e densidade visual. Ative os números dos itens (predefinição ativada) para adicionar numerais antes de cada par e mostre pontos decorativos (predefinição ativada) para formatação decorativa — ambos controláveis independentemente. Cada ficha inclui um cabeçalho autogerado localizado «Liga!» com fundo de pastilha amarela (#FFD700), moldura de borda coral (#FF7F50, traço de 8px), título em Fredoka (700) e descrição em Quicksand (500), traduzido automaticamente para os 11 idiomas suportados. O sistema de canvas duplo gera simultaneamente um separador de ficha e um separador de gabarito — o gabarito traça linhas de ligação horizontais (#555, largura de traço 2) entre os pares corretos para que nunca o crie manualmente. Este gerador é sensível ao idioma: os modos Letra Inicial e Imagem+Palavra usam nomes de imagens localizados, pelo que mudar de idioma altera as palavras e primeiras letras na ficha. Explore 104 coleções temáticas com mais de 3100 ilustrações. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione campos de nome e data do usuário com uma única caixa de verificação. Exporte quatro ficheiros por sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI. Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 7 fontes, contorno de texto 0–10, ferramentas de alinhamento, camadas, bloquear/desbloquear, zoom 25 %–300 % e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d'água nos downloads. Adquira uma licença para remover a marca d'água e vender com uso comercial.`,
+    description: `Crie fichas profissionais de associação onde os usuários ligam pares desenhando linhas entre duas colunas — com quatro modos de associação distintos num único gerador. O modo Letra Inicial coloca imagens à esquerda e as suas primeiras letras à direita, com três sub-modos: Tema e Imagens Aleatórias seleciona um tema e imagens automaticamente, Aleatório do Tema Escolhido permite-lhe escolher o tema, e Selecionar Imagens Específicas dá-lhe controlo manual sobre cada imagem. Alterne entre maiúsculas ou minúsculas para fichas adequadas à idade. O modo Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para reforço de vocabulário. O modo Imagem/Palavra Misto usa menus suspensos por linha para que cada lado mostre independentemente uma imagem ou uma palavra, criando dificuldade variada dentro de uma única ficha. O modo Palavra Personalizada associa imagens com os seus próprios termos escritos para prática de ortografia, exercícios de vocabulário ou exercícios de línguas estrangeiras. Configure 4, 5 ou 6 pares por ficha (predefinição 6) para controlar a dificuldade e densidade visual. Ative os números dos itens (predefinição ativada) para adicionar numerais antes de cada par e mostre pontos decorativos (predefinição ativada) para formatação decorativa — ambos controláveis independentemente. Cada ficha inclui um cabeçalho autogerado localizado «Liga!» com fundo de pastilha amarela (#FFD700), moldura de borda coral (#FF7F50, traço de 8px), título em Fredoka (700) e descrição em Quicksand (500), traduzido automaticamente para os 11 idiomas suportados. O sistema de canvas duplo gera simultaneamente um separador de ficha e um separador de gabarito — o gabarito traça linhas de ligação horizontais (#555, largura de traço 2) entre os pares corretos para que nunca o crie manualmente. Este gerador é sensível ao idioma: os modos Letra Inicial e Imagem+Palavra usam nomes de imagens localizados, pelo que mudar de idioma altera as palavras e primeiras letras na ficha. Explore 104 coleções temáticas com mais de 3100 ilustrações. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione campos de nome e data do usuário com uma única caixa de verificação. Exporte quatro ficheiros por sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI. Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 7 fontes, contorno de texto 0–10, ferramentas de alinhamento, camadas, bloquear/desbloquear, zoom 25 %–300 % e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d`água nos downloads. Adquira uma licença para remover a marca d`água e vender com uso comercial.`,
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Associação em 8 Passos',
+    title: `Como Criar Fichas de Associação em 8 Passos`,
     steps: [
       {
-        title: 'Abra o Gerador de Fichas de Associação',
+        title: `Abra o Gerador de Fichas de Associação`,
         description: `Clique em «Testar Grátis» para abrir o gerador de fichas de associação no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de separador duplo à direita — um separador para a ficha e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de associação com linhas de ligação imediatamente.`,
       },
       {
@@ -36,15 +36,15 @@ const content: ToolContent = {
         description: `Abra o painel de Configuração da Ficha e selecione entre quatro modos de associação. Letra Inicial coloca imagens à esquerda e as suas primeiras letras à direita — escolha entre três sub-modos (Tema e Imagens Aleatórias, Aleatório do Tema Escolhido, Selecionar Imagens Específicas) e alterne entre maiúsculas ou minúsculas. Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para reforço de vocabulário. Imagem/Palavra Misto usa menus suspensos por linha para que cada lado mostre independentemente uma imagem ou uma palavra, criando dificuldade variada dentro de uma única ficha. Palavra Personalizada associa imagens com os seus próprios termos escritos para prática de ortografia, exercícios de vocabulário ou exercícios de línguas estrangeiras.`,
       },
       {
-        title: 'Configure Pares, Números e Formato',
+        title: `Configure Pares, Números e Formato`,
         description: `Defina o número de pares de associação para 4, 5 ou 6 usando o menu suspenso (predefinição 6). Menos pares criam fichas com imagens maiores e mais espaço para usuários mais novos; mais pares aumentam a dificuldade e densidade do conteúdo. Ative «Incluir Números dos Itens» (predefinição ativada) para adicionar numerais antes de cada par para facilitar a verificação de respostas na aula. Ative «Mostrar Pontos Decorativos» (predefinição ativada) para mostrar pontos decorativos junto aos elementos. Marque «Incluir Campos de Nome/Data» para adicionar linhas de nome e data do usuário na parte inferior da página. Ambos os controlos de formato funcionam independentemente para controlo total sobre a estrutura visual.`,
       },
       {
-        title: 'Selecione Imagens da Biblioteca',
+        title: `Selecione Imagens da Biblioteca`,
         description: `Abra o painel de Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. No modo Letra Inicial com Selecionar Imagens Específicas, escolha manualmente exatamente as imagens que deseja. No modo Imagem/Palavra Misto, use o painel de Configuração dos Itens com menus suspensos por linha para definir se cada lado mostra uma imagem ou uma palavra. No modo Palavra Personalizada, escreva os seus próprios termos de associação nos campos de texto. Carregue imagens personalizadas em PNG, JPG ou GIF junto com o conteúdo da biblioteca.`,
       },
       {
-        title: 'Configure o Layout de Página e as Decorações',
+        title: `Configure o Layout de Página e as Decorações`,
         description: `Na secção de Configuração de Página, selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou introduza um tamanho personalizado. Escolha uma cor de fundo de página. Selecione um fundo decorativo temático e uma borda decorativa temática da biblioteca integrada, cada um com um controlo de opacidade independente (0–1, passo 0,05). Os fundos e bordas temáticas funcionam independentemente, permitindo-lhe combinar um fundo subtil com uma borda decorativa pronunciada ou qualquer combinação que se ajuste ao seu estilo de produto.`,
       },
       {
@@ -56,7 +56,7 @@ const content: ToolContent = {
         description: `Clique no separador Gabarito para ver a solução gerada automaticamente. O gabarito reproduz o layout exato da ficha e adiciona linhas de ligação horizontais (#555, largura de traço 2) desenhadas entre cada par correto. Alterne entre os separadores de Ficha e Gabarito para comparar. O gabarito é gerado simultaneamente com a ficha — sem desenhar linhas manualmente, sem passo de criação separado, sem possibilidade de respostas não coincidentes. Este sistema de canvas duplo é a sua maior poupança de tempo ao criar pacotes de atividades de associação onde cada ficha precisa do seu próprio gabarito.`,
       },
       {
-        title: 'Descarregue os Quatro Ficheiros',
+        title: `Descarregue os Quatro Ficheiros`,
         description: `Ative a escala de cinzentos para versões económicas em tinta ideais para impressão online e interiores de KDP. Descarregue os quatro ficheiros a partir de uma única sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo renderizado a 300 DPI. Cada separador tem o seu próprio par de botões de descarga. Os ficheiros estão prontos para produção em listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos do Gumroad sem necessidade de pós-processamento. Mude o idioma para gerar versões localizadas da mesma atividade de associação — os modos Letra Inicial e Imagem+Palavra produzem diferentes palavras e letras em cada idioma, multiplicando o seu catálogo de produtos a partir de uma única sessão de design.`,
       },
     ],
@@ -68,15 +68,15 @@ const content: ToolContent = {
       description: `Crie pacotes de atividades de associação organizados por modo e tema usando as 104 coleções de imagens. Um único tema de animais produz quatro tipos de produtos distintos: associação de Letra Inicial para prática fonética, associação de Imagem+Palavra para construção de vocabulário, associação Mista Imagem/Palavra para dificuldade variada e associação de Palavra Personalizada para exercícios de ortografia. Agrupe 15–20 fichas por modo por tema com gabaritos autogerados incluídos. O sistema de quatro modos significa que cada tema da biblioteca suporta quatro listagens de produtos separadas, cada uma dirigida a uma competência educativa diferente — multiplicando o seu catálogo a partir de um único conjunto de imagens.`,
     },
     {
-      title: 'Cadernos de Literacia Inicial para KDP',
+      title: `Cadernos de Literacia Inicial para KDP`,
       description: `Compile 60–80 fichas de associação em cadernos impressos de literacia inicial para Amazon KDP. O modo Letra Inicial é ideal para consciência fonémica — os usuários associam imagens com as suas primeiras letras através de temas. Estruture capítulos por dificuldade: o Capítulo 1 usa 4 pares com letras maiúsculas para iniciantes, o Capítulo 2 usa 5 pares com letras minúsculas para nível intermédio, o Capítulo 3 usa 6 pares para prática avançada. Inclua páginas de gabarito no final de cada capítulo usando a função de gabarito autogerado. A saída sensível ao idioma permite criar edições separadas em múltiplos idiomas a partir das mesmas seleções de imagens, cada uma com palavras e letras localizadas.`,
     },
     {
-      title: 'Atividades de Associação para Centros de Aula',
+      title: `Atividades de Associação para Centros de Aula`,
       description: `Crie fichas de associação prontas para centros de aula com campos de nome/data, números dos itens e gabaritos impressos que os compradores do Gumroad procuram especificamente. O campo de nome assegura a responsabilidade do usuário, os números dos itens tornam a verificação de respostas eficiente durante a revisão em grupo e o gabarito autogerado poupa tempo de preparação do vendedor. Crie conjuntos alinhados com o catálogo de produtos: associação de ajudantes da comunidade, associação de grupos alimentares, associação de vocabulário do tempo e associação de animais por habitat. Os vendedores valorizam atividades de associação que chegam prontas para usar sem formatação adicional.`,
     },
     {
-      title: 'Coleções de Associação de Vocabulário Multilingue',
+      title: `Coleções de Associação de Vocabulário Multilingue`,
       description: `Aproveite os modos sensíveis ao idioma Letra Inicial e Imagem+Palavra para criar fichas de associação nos 11 idiomas suportados. As mesmas imagens de animais produzem conteúdo de associação completamente diferente quando muda de português para inglês, alemão, francês ou qualquer outro idioma — os nomes das imagens, primeiras letras e o cabeçalho «Liga!» atualizam-se automaticamente. Crie pacotes de vocabulário multilingue onde cada versão de idioma usa as mesmas imagens temáticas mas com palavras localizadas. Isto é valioso para vendedores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais que precisam de atividades de associação no seu idioma nativo.`,
     },
     {
@@ -84,7 +84,7 @@ const content: ToolContent = {
       description: `Use o modo Palavra Personalizada para escrever os seus próprios termos de associação junto a imagens, criando fichas de prática de ortografia, exercícios de vocabulário e atividades de associação de línguas estrangeiras. Os vendedores podem apontar a palavras de uso frequente específicas, listas de vocabulário semanais ou terminologia de disciplinas específicas. Crie pacotes de ortografia por nível escolar onde cada ficha associa imagens com palavras progressivamente mais difíceis. O modo Palavra Personalizada é o tipo de associação mais flexível porque permite associar qualquer imagem com qualquer palavra — o conteúdo educativo está limitado apenas pelo que escreve, não pelas etiquetas da biblioteca.`,
     },
     {
-      title: 'Coleções de Atividades de Associação Sazonais',
+      title: `Coleções de Atividades de Associação Sazonais`,
       description: `Construa coleções de associação sazonais rotativas usando temas de festividades e natureza da biblioteca de 104 temas. Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas e verão suportam pacotes dedicados de fichas de associação. Inclua os quatro modos de associação em cada conjunto sazonal para máximo valor — Letra Inicial para fonética, Imagem+Palavra para vocabulário, Misto para desafio variado e Palavra Personalizada para termos específicos da festividade. Publique cada coleção 4–6 semanas antes da festividade para máxima visibilidade no mercado. Os produtos sazonais de associação geram receitas recorrentes anuais.`,
     },
   ],
@@ -116,7 +116,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Linha de Produtos de Associação Multilingue',
+      title: `Linha de Produtos de Associação Multilingue`,
       description: `O Gerador de Fichas de Associação é sensível ao idioma — os modos Letra Inicial e Imagem+Palavra produzem palavras e letras localizadas quando muda de idioma. As mesmas imagens de animais geram associação em português (G para Gato), associação em inglês (C para Cat), associação em alemão (K para Katze), associação em francês (C para Chat) e assim por diante nos 11 idiomas. Crie pacotes de associação específicos por idioma para cada mercado ou mega-pacotes multilingues a preços premium. vendedores de PLE, salas de aula bilingues e famílias de ensino doméstico internacionais procuram ativamente fichas de associação no seu idioma nativo.`,
       platform: 'Etsy / Gumroad',
     },
@@ -156,22 +156,22 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — os quatro modos de associação (Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto, Palavra Personalizada), pares configuráveis (4, 5 ou 6), o gabarito autogerado com linhas de ligação, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, o cabeçalho localizado «Liga!» em 11 idiomas, fundos e bordas temáticas com opacidade independente, números dos itens, pontos decorativos, campos de nome/data, exportação em escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d'água. Adquira uma licença comercial para remover a marca d'água e desbloquear os direitos de venda.`,
+      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — os quatro modos de associação (Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto, Palavra Personalizada), pares configuráveis (4, 5 ou 6), o gabarito autogerado com linhas de ligação, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, o cabeçalho localizado «Liga!» em 11 idiomas, fundos e bordas temáticas com opacidade independente, números dos itens, pontos decorativos, campos de nome/data, exportação em escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d`água. Adquira uma licença comercial para remover a marca d`água e desbloquear os direitos de venda.`,
     },
     {
-      question: 'Quais são os quatro modos de associação?',
+      question: `Quais são os quatro modos de associação?`,
       answer: `O gerador oferece quatro modos distintos numa única ferramenta. Letra Inicial coloca imagens à esquerda e as suas primeiras letras à direita — com três sub-modos para temas aleatórios, imagens aleatórias de um tema escolhido ou seleção manual de imagens, além de um seletor de maiúsculas/minúsculas. Imagem+Palavra mostra pares de imagens legendadas em ambos os lados para reforço de vocabulário. Imagem/Palavra Misto usa menus suspensos por linha para que cada lado mostre independentemente uma imagem ou uma palavra, criando dificuldade variada dentro de uma única ficha. Palavra Personalizada associa imagens com os seus próprios termos escritos para prática de ortografia, exercícios de vocabulário ou exercícios de línguas estrangeiras.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer: `Quando gera uma ficha, a aplicação cria simultaneamente um gabarito de associação num separador de canvas separado. O gabarito reproduz o layout exato da ficha e adiciona linhas de ligação horizontais (#555, largura de traço 2) desenhadas entre cada par correto. Alterne entre os separadores de Ficha e Gabarito para comparar. Descarregue cada versão de forma independente — ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — obtendo quatro ficheiros prontos para produção a partir de uma única geração. O gabarito automático elimina o desenho manual de linhas e garante precisão em grandes pacotes de fichas de associação.`,
     },
     {
-      question: 'Como funciona o número de pares configurável?',
+      question: `Como funciona o número de pares configurável?`,
       answer: `No painel de Configuração da Ficha, selecione 4, 5 ou 6 no menu suspenso de pares máximos. O valor predefinido é 6 pares. Menos pares criam fichas com imagens maiores e mais espaço — ideal para usuários mais novos ou fichas com palavras personalizadas longas que requerem mais espaço. Mais pares aumentam a dificuldade e densidade do conteúdo. O número de pares aplica-se de forma consistente nos quatro modos de associação, dando-lhe controlo sobre a dificuldade da ficha e a densidade visual a partir de uma única definição.`,
     },
     {
-      question: 'Quais são os sub-modos de Letra Inicial?',
+      question: `Quais são os sub-modos de Letra Inicial?`,
       answer: `O modo Letra Inicial oferece três sub-modos para a seleção de imagens. Tema e Imagens Aleatórias seleciona um tema aleatório e imagens desse tema automaticamente. Aleatório do Tema Escolhido permite-lhe selecionar um tema específico e depois seleciona imagens aleatórias dessa coleção. Selecionar Imagens Específicas abre a Biblioteca de Imagens para que possa escolher manualmente exatamente as imagens que deseja. Também pode escolher entre maiúsculas e minúsculas usando o seletor de tipo de letra — maiúsculas para usuários iniciantes, minúsculas para prática fonética mais avançada.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `Dois controlos independentes no painel de Configuração da Ficha controlam a formatação visual. Incluir Números dos Itens (predefinição ativada) adiciona numerais antes de cada par — útil para verificação de respostas online e discussão. Mostrar Pontos Decorativos (predefinição ativada) adiciona pontos decorativos junto aos elementos para clareza visual. Pode ter apenas números, apenas pontos, ambos ou nenhum conforme o seu estilo de ficha e público-alvo. Ambas as definições aplicam-se a ambas as colunas da ficha de associação.`,
     },
     {
-      question: 'O que é o cabeçalho localizado «Liga!»?',
+      question: `O que é o cabeçalho localizado «Liga!»?`,
       answer: `Cada ficha gerada inclui um cabeçalho estilizado com fundo de pastilha amarela (#FFD700), pastilha interior branca e moldura de borda coral (#FF7F50, traço de 8px). O título «Liga!» e a descrição «Desenha linhas para ligar os pares correspondentes» traduzem-se automaticamente para os 11 idiomas suportados: português, inglês, alemão, francês, espanhol, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. O título usa a fonte Fredoka (peso 700) e a descrição usa Quicksand (peso 500). O cabeçalho adapta-se automaticamente quando muda o idioma.`,
     },
     {
@@ -195,17 +195,17 @@ const content: ToolContent = {
       answer: `Sim. Com uma licença comercial, tem todos os direitos para vender fichas de associação como downloads digitais na Etsy, cadernos impressos de literacia na Amazon KDP, recursos para a loja no Gumroad ou através de qualquer outro canal de venda. Os quatro modos de associação, os gabaritos autogerados com linhas de ligação, os pares configuráveis e as 104 coleções temáticas de imagens dão-lhe tudo o necessário para criar produtos profissionais que competem em categorias de atividades de associação em todos os principais mercados.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Teste antes de comprar com o nosso teste grátis — todas as funcionalidades estão disponíveis para que possa avaliar completamente a ferramenta antes da compra. Como o teste grátis lhe dá acesso completo aos quatro modos de associação, ao gabarito automático, aos pares configuráveis, aos 104 temas, aos fundos e bordas temáticas, aos números dos itens, aos pontos decorativos, aos campos de nome/data, à exportação em escala de cinzentos e a todos os formatos de descarga, não oferecemos reembolsos em compras de licenças. Certifique-se de que a ferramenta se adequa às suas necessidades usando o teste grátis antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'ligar-fichas', anchorText: `Fichas de Associação — Detalhes Completos do Produto` },
-    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Gerador de Puzzle de Quadrícula' },
-    { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
+    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: `Gerador de Puzzle de Quadrícula` },
+    { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: `Gerador de Discriminação Visual` },
     { pageType: 'tool', slug: 'gerador-cartelas-bingo', anchorText: 'Gerador de Cartelas de Bingo' },
-    { pageType: 'tool', slug: 'gerador-classificacao-imagens', anchorText: 'Gerador de Classificação de Imagens' },
+    { pageType: 'tool', slug: 'gerador-classificacao-imagens', anchorText: `Gerador de Classificação de Imagens` },
     { pageType: 'tool', slug: 'gerador-trem-alfabeto', anchorText: 'Gerador de Trem do Alfabeto' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Gerador de Fichas de Adição' },

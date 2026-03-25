@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `druckbarer Zuordnungs-Aktivitäten-Generator für Etsy-Verkäufer`,
       `Paare-Verbinden-Arbeitsblatt-Generator für KDP-Verleger`,
-      'Zuordnungs-Arbeitsblätter auf Gumroad verkaufen',
+      `Zuordnungs-Arbeitsblätter auf Gumroad verkaufen`,
       `Zuordnungs-Arbeitsblatt-Ersteller kommerzielle Lizenz`,
     ],
     lsiKeywords: [
       `digitale Zuordnungs-Druckvorlagen skalierbares Einkommen`,
       `kommerzieller Zuordnungs-Generator mit Lösungsschlüssel`,
-      'Druckvorlagen-Geschäft Paare-Verbinden-Werkzeuge',
+      `Druckvorlagen-Geschäft Paare-Verbinden-Werkzeuge`,
     ],
-    titleTag: 'Zuordnungs-Generator | Paare-Verbinden-Übungen',
+    titleTag: `Zuordnungs-Generator | Paare-Verbinden-Übungen`,
     metaDescription: `Zuordnungs-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 4 Zuordnungsmodi, konfigurierbare Paaranzahl, 104 Themen. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -34,22 +34,22 @@ const content: AppContent = {
           `Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Dimension. Wählen Sie eine Seitenfarbe mit dem Farbwähler als Fallback-Hintergrund. Wählen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an (0–1, Schrittweite 0,05), dann wählen Sie ein Rahmenthema mit eigenem unabhängigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihr Zuordnungs-Arbeitsblatt, bevor Sie Inhalte konfigurieren.`,
       },
       {
-        title: 'Arbeitsblatt-Einstellungen konfigurieren',
+        title: `Arbeitsblatt-Einstellungen konfigurieren`,
         description:
           `Öffnen Sie das Arbeitsblatt-Konfigurationsfeld und wählen Sie Ihren Zuordnungsmodus: Anfangsbuchstabe, Bild+Wort, Bild/Wort-Mischung oder Eigenes Wort. Legen Sie die maximale Paaranzahl auf 4, 5 oder 6 fest (Standard ist 6). Aktivieren Sie das Kontrollkästchen „Name/Datum einfügen", um Namens- und Datumsfelder am unteren Seitenrand hinzuzufügen. Schalten Sie „Elementnummern einfügen" (Standard EIN) um, um Ziffern vor jedem Paar hinzuzufügen, und „Aufzählungspunkte anzeigen" (Standard EIN), um dekorative Punkte neben den Elementen anzuzeigen. Im Anfangsbuchstaben-Modus wählen Sie zwischen Groß- und Kleinbuchstaben-Anzeige und einem der drei Untermodi: Zufälliges Thema und Bilder, Zufällig aus gewähltem Thema oder Bestimmte Bilder auswählen.`,
       },
       {
-        title: 'Bilder aus der Bibliothek auswählen',
+        title: `Bilder aus der Bibliothek auswählen`,
         description:
           `Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf Bilder, um sie für Ihr Arbeitsblatt auszuwählen. Im Anfangsbuchstaben-Modus mit „Bestimmte Bilder auswählen" wählen Sie manuell genau 6 Bilder. In den Modi Bild+Wort und Eigenes Wort verwenden Sie das Element-Konfigurationsfeld, um zeilenweise Optionen festzulegen. Sie können auch eigene PNG-, JPG- oder GIF-Bilder hochladen und neben Bibliotheksinhalten verwenden.`,
       },
       {
-        title: 'Zuordnungs-Arbeitsblatt generieren',
+        title: `Zuordnungs-Arbeitsblatt generieren`,
         description:
           `Klicken Sie auf „Generieren", um das Zweispalten-Zuordnungslayout zu erstellen. Die App ordnet Ihre ausgewählten Bilder und Texte in linke und rechte Spalten mit der konfigurierten Paaranzahl an. Eine gestaltete „Finde die Paare!"-Überschrift erscheint oben mit gelbem Pill-Hintergrund (#FFD700), korallenrotem Rahmen (#FF7F50) und lokalisiertem Titel und Anweisungen in Fredoka- und Quicksand-Schriften. Elementnummern und Aufzählungspunkte erscheinen gemäß Ihren Schalter-Einstellungen. Das Arbeitsblatt-Tab zeigt die Nutzerversion ohne Verbindungslinien — bereit für Lernende, ihre eigenen Linien zu ziehen.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel mit horizontalen Verbindungslinien (#555, Strichbreite 2) zwischen jedem korrekten Paar zu sehen. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden als worksheet.jpeg, worksheet.pdf, answer_key.jpeg und answer_key.pdf mit 300 DPI gerendert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Hauptfunktionen des Zuordnungs-Generators',
+    title: `Hauptfunktionen des Zuordnungs-Generators`,
     features: [
       {
         title: `Vier Zuordnungsmodi: Anfangsbuchstabe, Bild+Wort, Bild/Wort-Mischung und Eigenes Wort`,
@@ -103,22 +103,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Zuordnungs-Arbeitsblätter online verkaufen',
+    title: `Zuordnungs-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Zuordnungs-Pakete auf Etsy',
+        title: `Thematische Zuordnungs-Pakete auf Etsy`,
         description:
           `Erstellen Sie thematische Zuordnungs-Aktivitätspakete mit den 104 Bildsammlungen — Tier-Zuordnung, Lebensmittel-Zuordnung, Fahrzeug-Zuordnung, Feiertags-Zuordnung und Dutzende mehr. Jedes Thema bietet genügend Illustrationen für mehrere einzigartige Zuordnungs-Arbeitsblätter in verschiedenen Modi. Verpacken Sie 10–20 Zuordnungs-Arbeitsblätter pro Thema mit beigelegten Lösungsschlüsseln und verkaufen Sie zu €3–€7 pro Paket. Mischen Sie Modi innerhalb eines einzelnen Pakets für Abwechslung: Anfangsbuchstaben-Arbeitsblätter für Buchstabenerkennung, Bild+Wort-Arbeitsblätter für Wortschatz und Eigenes-Wort-Arbeitsblätter für Rechtschreibübungen. Der automatisch generierte Lösungsschlüssel eliminiert den größten Zeitfresser bei der Produktion von Zuordnungs-Arbeitsblättern.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Lese-Lern-Arbeitsbücher auf Amazon KDP',
+        title: `Lese-Lern-Arbeitsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 40–80 Zuordnungs-Arbeitsblätter zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Der Anfangsbuchstaben-Modus ist ideal für frühe Lesekompetenz — Lernende ordnen Bilder ihren Anfangsbuchstaben über mehrere Themen hinweg zu und bauen dabei phonemisches Bewusstsein auf jeder Seite auf. Strukturieren Sie Ihr Buch nach Schwierigkeit: Kapitel 1 verwendet 4 Paare für Anfänger, Kapitel 2 verwendet 5 Paare und Kapitel 3 verwendet 6 Paare für Fortgeschrittene. Integrieren Sie Lösungsschlüssel am Ende des Buchs mit der automatischen Lösungsschlüssel-Funktion. Der Graustufen-Schalter erzeugt tintenschonende Seiten, die direkt als Schwarzweiß-Buchinhalte einsetzbar sind.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Zuordnungs-Stationen-Aktivitäten für Gumroad',
+        title: `Zuordnungs-Stationen-Aktivitäten für Gumroad`,
         description:
           `Erstellen Sie sofort einsatzfähige Zuordnungs-Stationen-Arbeitsblätter mit Namens-/Datumsfeldern, Elementnummern und gedruckten Lösungsschlüsseln. Verkäufer, die auf Gumroad nach Zuordnungs-Aktivitäten suchen, schätzen Arbeitsblätter, die unterrichtsfertig ankommen — das Namensfeld sichert die Nutzeridentifikation, Elementnummern machen die Antwortüberprüfung bei der Gruppenarbeit effizient, und der automatisch generierte Lösungsschlüssel spart Vorbereitungszeit. Erstellen Sie lehrplanorientierte Sets: Gemeindehelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Wortschatz-Zuordnung und Lebensraum-Tiere-Zuordnung. Jedes Set enthält Nutzer-Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Format.`,
         platform: 'Gumroad',
@@ -127,13 +127,13 @@ const content: AppContent = {
         title: `Mehrsprachige Wortschatz-Zuordnungs-Arbeitsblätter`,
         description:
           `Nutzen Sie die sprachabhängigen Modi Anfangsbuchstabe und Bild+Wort, um Zuordnungs-Arbeitsblätter in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen unterschiedliche Zuordnungsinhalte, wenn Sie die Sprache wechseln — Bildnamen, Anfangsbuchstaben und Überschriftentext werden automatisch aktualisiert. Erstellen Sie mehrsprachige Wortschatz-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder mit lokalisierten Wörtern verwendet. Das ist besonders wertvoll für DaF/DaZ-Verkäufer, bilinguale Klassenräume und internationale Homeschooling-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen.`,
-        platform: 'Etsy / Gumroad (mehrsprachiger Markt)',
+        platform: `Etsy / Gumroad (mehrsprachiger Markt)`,
       },
       {
-        title: 'Saisonale Zuordnungs-Aktivitäts-Sammlungen',
+        title: `Saisonale Zuordnungs-Aktivitäts-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Zuordnungs-Arbeitsblatt-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Zuordnungspakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie alle vier Zuordnungsmodi in jedem saisonalen Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm. Nutzen Sie Hintergrund- und Rahmenthemen passend zur jeweiligen Saison für ein stimmiges Gesamtdesign, das Käufer in der Vorschau sofort anspricht.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
     ],
   },
@@ -145,7 +145,7 @@ const content: AppContent = {
         `Der Generator bietet vier verschiedene Modi. Der Anfangsbuchstaben-Modus platziert Bilder links und ihre Anfangsbuchstaben rechts — Lernende ordnen jedes Bild dem Buchstaben zu, mit dem es beginnt. Der Bild+Wort-Modus zeigt beschriftete Bildpaare auf beiden Seiten für Wortschatz-Zuordnung. Der Bild/Wort-Mischungs-Modus verwendet zeilenweise Dropdown-Menüs, sodass jede Seite unabhängig ein Bild oder ein Wort anzeigen kann, was innerhalb eines einzigen Arbeitsblatts unterschiedliche Schwierigkeitsgrade erzeugt. Der Eigenes-Wort-Modus verbindet Bilder mit Ihren eigenen eingetippten Wörtern für Rechtschreibung, Wortschatz oder Fremdsprachenübungen. Jeder Modus erzeugt eine andere Lernaktivität aus derselben Bildbibliothek.`,
     },
     {
-      question: 'Wie funktioniert die konfigurierbare Paaranzahl?',
+      question: `Wie funktioniert die konfigurierbare Paaranzahl?`,
       answer:
         `Im Arbeitsblatt-Konfigurationsfeld wählen Sie 4, 5 oder 6 aus dem Dropdown-Menü für die maximale Paaranzahl. Der Standard sind 6 Paare. Weniger Paare erzeugen Arbeitsblätter mit größeren Bildern und mehr Abstand — ideal für jüngere Lernende oder Arbeitsblätter mit längeren Wörtern. Mehr Paare erhöhen die Schwierigkeit und Inhaltsdichte. Die Paaranzahl gilt einheitlich über alle vier Zuordnungsmodi.`,
     },
@@ -160,7 +160,7 @@ const content: AppContent = {
         `Der Anfangsbuchstaben-Modus bietet drei Untermodi für die Bildauswahl. „Zufälliges Thema und Bilder" wählt ein zufälliges Thema und 6 zufällige Bilder daraus. „Zufällig aus gewähltem Thema" lässt Sie ein bestimmtes Thema auswählen und wählt dann zufällige Bilder aus diesem Thema. „Bestimmte Bilder auswählen" öffnet die Bildbibliothek, damit Sie manuell genau 6 Bilder auswählen können. Zusätzlich können Sie über die Buchstabentyp-Optionen zwischen Groß- und Kleinbuchstaben-Anzeige wählen.`,
     },
     {
-      question: 'Was ist das Element-Konfigurationsfeld?',
+      question: `Was ist das Element-Konfigurationsfeld?`,
       answer:
         `Das Element-Konfigurationsfeld erscheint für die Modi Bild+Wort, Bild/Wort-Mischung und Eigenes Wort. Es bietet dynamische zeilenweise Steuerelemente zur Konfiguration jedes Zuordnungspaares. Im Bild/Wort-Mischungs-Modus lassen Dropdown-Menüs Sie auswählen, ob jede Seite jeder Zeile ein Bild oder ein Wort anzeigt. Im Eigenes-Wort-Modus können Sie über Textfelder das Zuordnungswort für jedes Bild eingeben. Dieses Feld gibt Ihnen detaillierte Kontrolle über jedes einzelne Paar im Arbeitsblatt.`,
     },
@@ -170,17 +170,17 @@ const content: AppContent = {
         `Zwei Schalter im Arbeitsblatt-Konfigurationsfeld steuern die Formatierung. „Elementnummern einfügen" (Standard EIN) fügt Ziffern vor jedem Paar hinzu — nützlich für die Antwortüberprüfung und Besprechung in der Produkterstellung. „Aufzählungspunkte anzeigen" (Standard EIN) fügt dekorative Punkte neben den Elementen für optische Klarheit hinzu. Beide Optionen sind unabhängig: Sie können nur Nummern, nur Punkte, beides oder keines haben — je nach Arbeitsblatt-Stil und Zielgruppe.`,
     },
     {
-      question: 'Wie funktioniert die lokalisierte Überschrift?',
+      question: `Wie funktioniert die lokalisierte Überschrift?`,
       answer:
         `Jedes generierte Arbeitsblatt enthält eine gestaltete „Finde die Paare!"-Überschrift mit gelbem Pill-Hintergrund (#FFD700), weißem inneren Pill-Element und korallenrotem Rahmen (#FF7F50, 8px Strich). Titel und Anleitungstext werden automatisch in die gewählte Sprache übersetzt — alle 11 Sprachen werden unterstützt: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Der Titel verwendet die Schriftart Fredoka (Schriftstärke 700) und die Anleitung verwendet Quicksand (Schriftstärke 500).`,
     },
     {
-      question: 'Ist der Zuordnungs-Generator sprachabhängig?',
+      question: `Ist der Zuordnungs-Generator sprachabhängig?`,
       answer:
         `Ja. Die Modi Anfangsbuchstabe und Bild+Wort verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter und Anfangsbuchstaben ändert, die auf dem Arbeitsblatt erscheinen. Ein Katzenbild zeigt beispielsweise „K" im deutschen Anfangsbuchstaben-Modus (Katze), aber „C" auf Englisch (Cat) und „C" auf Französisch (Chat). Die lokalisierte „Finde die Paare!"-Überschrift ändert sich ebenfalls mit der gewählten Sprache. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen für lokalisierte Wortinhalte frei.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle vier Zuordnungsmodi, konfigurierbare Paaranzahl, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder, Elementnummern, Aufzählungspunkte und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -205,32 +205,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'raster-puzzle-arbeitsblaetter',
-      anchorText: 'Raster-Puzzle-Arbeitsblatt-Generator',
+      anchorText: `Raster-Puzzle-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'schattenbilder-zuordnen-arbeitsblaetter',
-      anchorText: 'Schattenbilder-Zuordnen-Arbeitsblatt-Generator',
+      slug: `schattenbilder-zuordnen-arbeitsblaetter`,
+      anchorText: `Schattenbilder-Zuordnen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'bilder-bingo-arbeitsblaetter',
-      anchorText: 'Bilder-Bingo-Arbeitsblatt-Generator',
+      anchorText: `Bilder-Bingo-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilder-sortieren-arbeitsblaetter',
-      anchorText: 'Bilder-Sortieren-Arbeitsblatt-Generator',
+      slug: `bilder-sortieren-arbeitsblaetter`,
+      anchorText: `Bilder-Sortieren-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'alphabet-zug-arbeitsblaetter',
-      anchorText: 'Alphabet-Zug-Arbeitsblatt-Generator',
+      anchorText: `Alphabet-Zug-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'wortsuche-arbeitsblaetter',
-      anchorText: 'Wortsuche-Arbeitsblatt-Generator',
+      anchorText: `Wortsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,38 +240,38 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'vorschule-druckvorlagen-ideen',
-      anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung',
+      anchorText: `Vorschul-Druckvorlagen-Ideen für frühe Förderung`,
     },
     {
       pageType: 'idea',
-      slug: 'kindergarten-druckvorlagen-ideen',
-      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Nutzer',
+      slug: `kindergarten-druckvorlagen-ideen`,
+      anchorText: `Kindergarten-Druckvorlagen-Ideen für junge Nutzer`,
     },
     {
       pageType: 'start',
-      slug: 'druckvorlagen-geschaeft-bauplan',
-      anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan',
+      slug: `druckvorlagen-geschaeft-bauplan`,
+      anchorText: `Ihr Druckvorlagen-Geschäfts-Bauplan`,
     },
     {
       pageType: 'guide',
-      slug: 'zuordnungs-arbeitsblaetter-erstellen',
-      anchorText: 'Zuordnungs-Arbeitsblätter erstellen',
+      slug: `zuordnungs-arbeitsblaetter-erstellen`,
+      anchorText: `Zuordnungs-Arbeitsblätter erstellen`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/matching/Paare Finden 1.webp',
+      primary: `/samples/german/matching/Paare Finden 1.webp`,
       primaryAlt: `Zuordnungs-Arbeitsblatt mit thematischen Bildern in zwei Spalten und lokalisierter Finde-die-Paare-Überschrift mit Elementnummern`,
     },
     sampleGallery: [
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: `/samples/german/matching/Paare Finden 1.webp`,
         alt: `Anfangsbuchstaben-Zuordnungsarbeitsblatt mit Bildern links und Anfangsbuchstaben rechts`,
         caption: `Anfangsbuchstaben-Modus — Lernende ordnen Bilder ihren Anfangsbuchstaben zu`,
       },
       {
-        src: '/samples/german/matching/Paare Finden 2.webp',
+        src: `/samples/german/matching/Paare Finden 2.webp`,
         alt: `Bild-und-Wort-Zuordnungsarbeitsblatt mit beschrifteten Paaren auf beiden Seiten`,
         caption: `Bild+Wort-Modus — beschriftete Bildpaare für Wortschatz-Zuordnung`,
       },

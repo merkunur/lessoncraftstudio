@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas labirintos imagens',
+    primaryKeyword: `gerador fichas labirintos imagens`,
     secondaryKeywords: [
       `fichas de labirintos imprimíveis para vendedores Etsy`,
       `gerador de fichas de percursos com imagens para Amazon KDP`,
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Labirintos em 5 Passos',
+    title: `Como Criar Fichas de Labirintos em 5 Passos`,
     steps: [
       {
         title: 'Configure o layout da página',
@@ -35,7 +35,7 @@ const content: AppContent = {
           `Abra o painel de Página e Cena e escolha um formato de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de página com o seletor de cores. Escolha um tema de fundo e ajuste a sua opacidade, depois selecione um tema de borda com o seu próprio controlo de opacidade independente. Estas opções de design emolduram a sua ficha de labirinto antes de configurar qualquer modo de jogo.`,
       },
       {
-        title: 'Escolha o modo de jogo e configure os ajustes',
+        title: `Escolha o modo de jogo e configure os ajustes`,
         description:
           `Abra o painel de Configuração de Percurso e selecione um dos três modos de jogo. Caminho de Imagens cria uma quadrícula de imagens com um único caminho correto desde o início até ao final. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF — configure o tamanho da quadrícula (15×15 a 20×20), número de caminhos (1, 2 ou 3), quantidade e cópias de imagens colecionáveis, cor da parede, espessura (1–10px) e opacidade (10–100%). Escolhe o Caminho Certo cria labirintos de três caminhos com quatro opções direcionais. Ative «Incluir Campos de Nome/Data» para acrescentar linhas de nome e data do usuário.`,
       },
@@ -45,7 +45,7 @@ const content: AppContent = {
           `Abra o painel de Biblioteca de Imagens e atribua imagens a cinco funções distintas usando o seletor de funções: Imagem de Início (marcador do ponto de entrada), Imagem de Fim (destino — 1 para Caminho/Labirinto, 3 para Escolhe o Caminho), Imagens de Caminho (rota correta ou colecionáveis), Imagens Distratoras (preenchimento de células fora do caminho) e Decoração (colocação livre no canvas). Explore 104 coleções temáticas com mais de 3100 ilustrações, filtre por tema ou pesquise por palavra-chave. Carregue imagens personalizadas em formato PNG, JPG ou GIF para usar juntamente com o conteúdo da biblioteca.`,
       },
       {
-        title: 'Gere a ficha de labirinto ou percurso',
+        title: `Gere a ficha de labirinto ou percurso`,
         description:
           `Clique em Gerar para criar o design do labirinto no modo de jogo selecionado. Caminho de Imagens organiza as imagens numa quadrícula com um caminho correto marcado por imagens do caminho entre distratores. Labirinto Clássico constrói corredores com paredes e imagens colecionáveis colocadas ao longo dos caminhos. Escolhe o Caminho Certo constrói três rotas distintas com um caminho correto e alternativas-isca. O cabeçalho «Caminho de Imagens» gerado automaticamente surge no topo com uma borda exterior laranja, título localizado e instruções no idioma selecionado.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Labirintos Online',
+    title: `Como Vender Fichas de Labirintos Online`,
     cases: [
       {
         title: `Pacotes Temáticos de Atividades de Labirintos na Etsy`,
@@ -122,16 +122,16 @@ const content: AppContent = {
         title: `Atividades de Lógica e Resolução de Problemas para o Gumroad`,
         description:
           `Crie fichas de labirintos prontas para usar com campos de nome/data e gabaritos impressos para utilização online. Os vendedores que procuram atividades de lógica no Gumroad valorizam fichas que desenvolvem raciocínio espacial e competências de resolução de problemas. Crie conjuntos alinhados com o catálogo de produtos: atividades de percursos de habitats de animais, coleções de labirintos sazonais e pacotes de labirintos com dificuldade progressiva. O modo Labirinto Clássico com imagens colecionáveis acrescenta prática de contagem juntamente com a resolução de caminhos. Cada conjunto inclui fichas para o usuário e gabaritos nos formatos PDF e JPEG para uso flexível online.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Coleções de Labirintos Sazonais e de Festividades',
+        title: `Coleções de Labirintos Sazonais e de Festividades`,
         description:
           `As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de labirintos de época limitada que se alinhem com os períodos de maior procura. Lance pacotes de labirintos de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua os três modos de jogo em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as janelas de pico e criam razões naturais para compras recorrentes ao longo do ano.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
       {
-        title: 'Alcance Global com Design Visual de Labirintos',
+        title: `Alcance Global com Design Visual de Labirintos`,
         description:
           `As fichas de labirintos são completamente visuais — os usuários navegam caminhos, seguem imagens e resolvem puzzles espaciais sem ler qualquer texto. Isto torna cada ficha de labirinto vendível instantaneamente em qualquer mercado do mundo sem tradução nem localização. Publique o mesmo pacote de labirintos em lojas internacionais da Etsy, publique cadernos de labirintos dirigidos a mercados Amazon noutros idiomas e alcance compradores globais no Gumroad. O cabeçalho gerado automaticamente traduz-se para 11 idiomas automaticamente, mas o conteúdo do labirinto em si é universalmente compreensível. Um produto, mercados ilimitados.`,
         platform: 'Todas as plataformas (global)',
@@ -141,12 +141,12 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Quais são os três modos de jogo e em que diferem?',
+      question: `Quais são os três modos de jogo e em que diferem?`,
       answer:
         `O gerador oferece três modos distintos. Caminho de Imagens cria uma quadrícula de imagens onde os usuários seguem o caminho correto desde o início até ao final identificando as imagens do caminho entre distratores. Labirinto Clássico gera labirintos com paredes usando o algoritmo LPF com imagens colecionáveis, tamanhos de quadrícula configuráveis (15×15 a 20×20) e de 1 a 3 caminhos com bloqueio de becos sem saída. Escolhe o Caminho Certo apresenta labirintos de três caminhos com quatro opções direcionais onde os usuários identificam a única rota correta. Cada modo produz um desafio diferente de raciocínio espacial a partir da mesma biblioteca de imagens.`,
     },
     {
-      question: 'Como funciona o algoritmo LPF de labirintos?',
+      question: `Como funciona o algoritmo LPF de labirintos?`,
       answer:
         `O algoritmo LPF (Caminho Mais Longo Primeiro) é um sistema profissional de geração de labirintos com paredes. Usa uma estrutura de células de corredor com colocação dinâmica de paredes para criar labirintos desafiantes mas resolúveis. A pontuação de qualidade do caminho avalia curvas, comprimento e bloqueios. O suporte multicaminho gera 1, 2 ou 3 caminhos com bloqueio automático de becos sem saída nas rotas incorretas. Pode configurar comprimentos mínimos e máximos do caminho (4–30 células, predefinido 8–12), tamanhos de quadrícula de 15×15 a 20×20, e o posicionamento de início/fim consciente das paredes garante pontos de entrada e saída limpos.`,
     },
@@ -171,19 +171,19 @@ const content: AppContent = {
         `Labirinto Clássico dispersa imagens colecionáveis pelos corredores do labirinto. Configure o número de tipos de imagens colecionáveis (1, 2, 3 ou 4 — predefinido 4), cópias mínimas por imagem (1, 2 ou 3 — predefinido 1) e cópias máximas por imagem (1–10 — predefinido 10). O gabarito inclui uma legenda de colecionáveis mostrando cada imagem e a sua contagem ao longo do caminho de solução. Os colecionáveis acrescentam prática de contagem e observação juntamente com a atividade de resolução do labirinto.`,
     },
     {
-      question: 'Como funciona o gabarito gerado automaticamente?',
+      question: `Como funciona o gabarito gerado automaticamente?`,
       answer:
         `O gerador usa um sistema de canvas duplo com um separador de Ficha e um separador de Gabarito. O gabarito reproduz o layout exato do labirinto e realça o caminho de solução correto com círculos rosa colocados ao longo da rota. O modo Escolhe o Caminho Certo acrescenta uma etiqueta «✓ CORRECT PATH» na rota correta. Labirinto Clássico inclui uma legenda de colecionáveis. Descarregue ambas as versões separadamente usando quatro botões dedicados: JPEG da Ficha, JPEG do Gabarito, PDF da Ficha e PDF do Gabarito.`,
     },
     {
-      question: 'Como funciona o cabeçalho gerado automaticamente?',
+      question: `Como funciona o cabeçalho gerado automaticamente?`,
       answer:
         `Cada ficha inclui um cabeçalho estilizado com uma borda exterior laranja (traço de 8px) e margens de 34px. O título «Caminho de Imagens» e a descrição «Segue o caminho desde o início até ao final!» traduzem-se automaticamente para os 11 idiomas suportados. As fichas em vertical exibem um cabeçalho de 240px; as fichas em horizontal usam um layout compacto de 165px. O cabeçalho renderiza-se em texto localizado para inglês, alemão (Bilderpfad), francês (Chemin d'Images), português (Caminho de Imagens) e todos os demais idiomas suportados.`,
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — os três modos de jogo, o algoritmo LPF de labirintos, cinco funções de imagem, personalização de paredes, o gabarito automático, a biblioteca completa de imagens, temas de fundo e borda, campos de nome/data e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — os três modos de jogo, o algoritmo LPF de labirintos, cinco funções de imagem, personalização de paredes, o gabarito automático, a biblioteca completa de imagens, temas de fundo e borda, campos de nome/data e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `As fichas de Caminho de Imagens dependem do idioma?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de labirintos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os três modos de jogo, o algoritmo LPF, as 104 coleções de imagens temáticas e o formato completamente visual dão-lhe as ferramentas para produzir produtos de labirintos originais e vendíveis a nível global.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar os três modos de jogo, o algoritmo LPF de labirintos, cinco funções de imagem, personalização de paredes, o gabarito automático, a biblioteca completa de imagens, temas de fundo e borda, campos de nome/data e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'pecas-faltantes-fichas',
-      anchorText: 'Gerador de Fichas de Peças Faltantes',
+      anchorText: `Gerador de Fichas de Peças Faltantes`,
     },
     {
       pageType: 'app',
       slug: 'encontre-diferente-fichas',
-      anchorText: 'Gerador de Fichas Encontra o Diferente',
+      anchorText: `Gerador de Fichas Encontra o Diferente`,
     },
     {
       pageType: 'app',
       slug: 'sudoku-criancas-fichas',
-      anchorText: 'Gerador de Fichas de Sudoku com Imagens',
+      anchorText: `Gerador de Fichas de Sudoku com Imagens`,
     },
     {
       pageType: 'app',
       slug: 'encontre-conte-fichas',
-      anchorText: 'Gerador de Fichas Encontra e Conta',
+      anchorText: `Gerador de Fichas Encontra e Conta`,
     },
     {
       pageType: 'app',
       slug: 'caca-ao-tesouro-fichas',
-      anchorText: 'Gerador de Fichas de Caça ao Tesouro',
+      anchorText: `Gerador de Fichas de Caça ao Tesouro`,
     },
     {
       pageType: 'bundle',
@@ -236,22 +236,22 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'criar-fichas-labirintos',
-      anchorText: 'Como Criar e Vender Fichas de Labirintos',
+      anchorText: `Como Criar e Vender Fichas de Labirintos`,
     },
     {
       pageType: 'idea',
       slug: 'campismo-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+      anchorText: `Ideias de imprimíveis de camping e ar livre`,
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de animais marinhos',
+      slug: `animais-marinhos-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de animais marinhos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimiveis',
-      anchorText: 'Marketing para seu negócio de imprimíveis',
+      anchorText: `Marketing para seu negócio de imprimíveis`,
     },
   ],
 

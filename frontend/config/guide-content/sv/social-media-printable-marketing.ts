@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: `sociala medier marknadsföring utskriftsbara produkter`,
     secondaryKeywords: [
-      'sociala medier för utskriftsbara säljare',
+      `sociala medier för utskriftsbara säljare`,
       `marknadsföra utskriftsbara produkter sociala medier`,
-      'utskriftsbart företag social strategi',
-      'marknadsföra arbetsblad online',
+      `utskriftsbart företag social strategi`,
+      `marknadsföra arbetsblad online`,
     ],
     lsiKeywords: [
       `innehållsmarknadsföring produktpromotion visuell marknadsföring plattformsstrategi`,
@@ -43,7 +43,7 @@ const content: GuideContent = {
       content: `Det snabbaste sättet att döda din tillväxt i sociala medier är att publicera inget annat än produktlänkar. Konstant promotionellt innehåll driver bort följare, undertrycker algoritmisk distribution och positionerar ditt konto som en försäljningskanal snarare än en värdefull resurs värd att följa. Det motsatta extremet — att bara publicera pedagogiska tips och inspiration utan att någonsin visa upp produkter — bygger en publik som ser dig som en innehållsskapare snarare än en produktsäljare, vilket resulterar i höga följarantal med minimal butikstrafik.\n\nDet effektiva innehållsförhållandet för säljare av utskriftsbara produkter är ungefär 70% värdeinnehåll och 30% promotionellt innehåll. Värdeinnehåll inkluderar allt som hjälper, inspirerar eller underhåller din målgrupp utan att direkt sälja. pedagogiska tips för föräldrar och säljare (aktivitetsförslag, lärstrategier, organisationsidéer), bakom-kulisserna-blickar på din skapandeprocess, säsongsaktivitetsrekommendationer, användningsförslag för utskriftsbara produkter och inspiration för produktlinje eller hemundervisning kvalificerar allt som värdeinnehåll. Detta innehåll bygger din publik, etablerar din expertis och skapar den förtroendegrund som gör promotionellt innehåll effektivt när du delar det.\n\nPromotionellt innehåll inkluderar nya produktlanseringar, bundleerbjudanden, säsongssamlingar, produktdemonstrationer och direkta uppmaningar som länkar till din butik. När promotionella inlägg omges av genuint hjälpsamt innehåll känns de som naturliga rekommendationer från en pålitlig källa snarare än påträngande reklam. En följare som har fått hjälpsamma aktivitetsförslag, produktlinjesorganisationstips och säsongslärridéer från ditt konto i veckor är mottaglig för ett produktinlägg eftersom de redan associerar ditt varumärke med värde.\n\nBakom-kulisserna-innehåll är en kraftfull hybridkategori som samtidigt bygger personlig anknytning och subtilt promotar dina produkter. Att visa din arbetsplatsuppställning, din produktplaneringsprocess, ditt utskrifts- och kvalitetskontrollarbetsflöde eller din forskning kring säsongsteman humaniserar ditt varumärke och demonstrerar omsorgen och professionalismen bakom dina produkter. Följare känner sig investerade i din företagsresa och blir naturliga supportrar och kunder. En 60-sekunders video av dig som genererar ett tematiskt arbetsbladspaket, kontrollerar utskriftskvalitet och paketerar det för en kund berättar en historia som är både engagerande och promotionell utan att kännas som ett säljpitch.\n\nOrganisera din innehållsmix i en repeterbar veckostruktur. Till exempel, med ett schema med tre inlägg per vecka på Instagram: Måndagsinlägg är pedagogiska tips eller aktivitetsförslag (värde), onsdagsinlägg är bakom-kulisserna eller processinnehåll (hybrid), och fredagsinlägg är produktvisningar eller annonseringar av nya releaser (promotionellt). Denna struktur säkerställer att du aldrig publicerar tre promotionella inlägg i rad och bibehåller värde-till-promotion-förhållandet som upprätthåller publiktillväxt.`,
     },
     {
-      heading: 'Bygg en innehållskalender anpassad efter säsong',
+      heading: `Bygg en innehållskalender anpassad efter säsong`,
       content: `Efterfrågan på utskriftsbara produkter följer förutsägbara säsongscykler, och att anpassa ditt sociala medier-innehåll efter dessa cykler säkerställer att dina produkter är synliga när köpare aktivt söker. Att publicera en skolstarts-arbetsbladsvisning i oktober innebär att du missade köpfönstret med två månader. Att dela högtidstematiskt innehåll den 20 december innebär att de flesta köpare redan har köpt sina högtidsaktivitetspaket. Strategisk timing kräver att du planerar ditt sociala innehåll 6–8 veckor före varje toppmefterfrågeperiod.\n\nSäljarens av utskriftsbara produkters säsongskalender har fyra stora efterfrågetoppar. Skolstartssäsongen (toppköp i augusti–september) kräver socialt innehåll som börjar i slutet av juni eller början av juli — börja dela produktlinjesuppställningsidéer, organisationsmaterial och aktivitetsförslag för första skoldagen. Högtidssäsongen (oktober till december) kräver innehåll som startar i september — Halloween-, tacksamhets- och jultematiska arbetsblad, aktivitetspaket och säsongsslärresurser bör dyka upp i flöden långt innan högtiderna anländer. Nyår och vinter (januari–februari) skapar efterfrågan på fräscha produktlinjesresurser, nyårsresolutionsaktiviteter och vintertematiskt innehåll. Sommarläning (maj–juli) lockar föräldrar som söker kompletterande aktiviteter — börja dela sommararbetsbladsidéer och aktivitetspaketförslag i april.\n\nBygg en innehållskalender som mappar specifika inläggsämnen till specifika datum, anpassade efter ditt produktreleaseschema. Om du planerar att släppa ett Halloween-mattearbetsbladspaket i början av oktober bör ditt sociala innehåll teasa temat i september (bakom-kulisserna-skapandeinnehåll), visa upp den färdiga produkten i början av oktober (produktlanseringsinnehåll) och demonstrera användningsfall genom mitten av oktober (värdeinnehåll som visar arbetsbladen i produktlinjes- och hemmiljöer). Varje produktrelease bör ha en 3–4 inläggs innehållsarc: teaser, lansering, demonstration och påminnelse.\n\nPlanera vintergrönt innehåll för att fylla luckor mellan säsongstoppar. Produkttypvisningar (som visar variationen av mattearbetsblad, ordsökspussel eller målarbilder tillgängliga), arbetsflödestips, affärsråd för utskriftsbara produkter och kundanvändningsfallsfunktioner fungerar året runt och bibehåller din publiceringskonsekvens under perioder utan starka säsongskrokar. Vintergrönt innehåll presterar också bra på Pinterest, där det fortsätter att driva trafik oavsett säsong.\n\nSkapa din innehållskalender en månad i förväg, mappa varje inlägg till ett specifikt datum med innehållstyp (värde, hybrid, promotionellt), ämne, produktkoppling (om någon) och plattformsspecifika anteckningar. En nedskriven kalender förhindrar den dagliga beslutströttheten att lista ut vad du ska publicera och säkerställer att ditt innehåll följer en strategisk arc snarare än att reagera på vad som känns brådskande en given dag.`,
     },
     {
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Sociala medier skapar en direkt trafikpipeline till din utskriftsbara butik som är oberoende av marknadsplatsens sökalgoritmer. Medan Etsy SEO och Amazon KDP-nyckelord är väsentliga för marknadsplatsnativ upptäckt, når sociala medier potentiella köpare som kanske aldrig hade sökt efter din produkttyp på en marknadsplats. En köpare som scrollar Instagram och ser ditt tematiska mattearbetsblads flat lay och besöker din Etsy-butik genom din bio-länk representerar en kund du aldrig hade nått enbart genom marknadsplatssökning. Denna kompletterande trafikström är särskilt värdefull eftersom socialt refererade besökare ofta har högre köpavsikt — de har redan sett din produkt, blivit imponerade av dess kvalitet och avsiktligt navigerat till din butik för att köpa. Att bygga en konsekvent social närvaro innebär att din trafik och dina intäkter är mindre beroende av någon enskild marknadsplats algoritmförändringar.`,
     },
     {
-      heading: 'Bygga en publiktillgång som ackumuleras över tid',
+      heading: `Bygga en publiktillgång som ackumuleras över tid`,
       content: `En följarskara i sociala medier är en företagstillgång som blir mer värdefull med varje följare. Varje ny följare representerar en potentiell kund som har valt att se ditt innehåll, dina produktlanseringar och dina säsongssamlingar. När du släpper en ny produkt kan du annonsera den för en publik av människor som redan känner till och litar på ditt varumärke — istället för att förlita dig enbart på marknadsplatssökning för att visa den för främlingar. När din följarskara växer når varje produktlansering fler potentiella köpare, dina engagemangsmätvärden förbättras och algoritmer distribuerar ditt innehåll bredare. Denna ackumulerande effekt innebär att avkastningen på din tidsinvestering i sociala medier ökar över tid snarare än att förbli konstant. En säljare med 5 000 engagerade följare som lanserar en ny produkt kommer att generera mer första veckans försäljning än när de hade 500 följare, även med identisk publiceringsinsats.`,
     },
     {
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest-marknadsföring för arbetsbladsföretag' },
+    { pageType: 'guide', slug: `pinterest-marketing-worksheets`, anchorText: `Pinterest-marknadsföring för arbetsbladsföretag` },
     { pageType: 'guide', slug: 'email-marketing-printables', anchorText: `E-postmarknadsföring för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Så säljer du mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'Så automatiserar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Så säljer du mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: `Så automatiserar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
@@ -169,19 +169,19 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Matchningsarbetsblad-generator',
+      title: `Matchningsarbetsblad-generator`,
       description: `Skapar tematiska matchningsaktiviteter med illustrerat innehåll som visas bra i sociala medieflöden. Matchningsarbetsblad i säsongs- och pedagogiska teman ger mångsidigt, visuellt engagerande innehåll för produktvisning.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: `/samples/english/bingo/bingo_card.webp`,
       alt: `Professionellt bingokort som demonstrerar visuellt tilltalande utskriftsbara produkter ideala för marknadsföring i sociala medier`,
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: `/samples/english/bingo/bingo_card.webp`,
         alt: `Bingokort som visar mycket delbar utskriftsbar produkt för sociala medier-innehåll`,
         caption: `Visuellt tilltalande produkter som bingokort skapar övertygande innehåll för sociala medier som driver engagemang`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilop — tematisk pedagogisk bild', caption: 'Antilop' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fladdermus — tematisk pedagogisk bild', caption: 'Fladdermus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — tematisk pedagogisk bild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — tematisk pedagogisk bild', caption: 'Hund' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilop — tematisk pedagogisk bild`, caption: 'Antilop' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fladdermus — tematisk pedagogisk bild`, caption: 'Fladdermus' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kamel — tematisk pedagogisk bild`, caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hund — tematisk pedagogisk bild`, caption: 'Hund' },
   ],
 };
 

@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblätter erstellen',
+    primaryKeyword: `Größenvergleich-Arbeitsblätter erstellen`,
     secondaryKeywords: [
-      'Groß-und-Klein-Arbeitsblätter für Kinder',
-      'Größenunterscheidung Arbeitsblatt-Generator',
+      `Groß-und-Klein-Arbeitsblätter für Kinder`,
+      `Größenunterscheidung Arbeitsblatt-Generator`,
       `druckbare Größenvergleich-Arbeitsblätter zum Verkaufen`,
-      'Größenanordnung Arbeitsblätter für Vorschule',
+      `Größenanordnung Arbeitsblätter für Vorschule`,
     ],
     lsiKeywords: [
-      'visuelle Größenunterscheidung Übungen',
+      `visuelle Größenunterscheidung Übungen`,
       `textfreie Arbeitsblätter für internationalen Verkauf`,
-      'Kreise das Große ein Arbeitsblätter',
-      'Größenvergleich-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Größenanordnung Aktivitätsbücher',
-      'kommerzielle Lizenz Größenvergleich-Werkzeug',
+      `Kreise das Große ein Arbeitsblätter`,
+      `Größenvergleich-Arbeitsblätter auf Etsy verkaufen`,
+      `Amazon KDP Größenanordnung Aktivitätsbücher`,
+      `kommerzielle Lizenz Größenvergleich-Werkzeug`,
     ],
     titleTag: `Größenvergleich-Arbeitsblätter erstellen — Anleitung`,
     metaDescription: `Größenvergleich-Arbeitsblätter mit 5 Aufgabentypen und 2 Bildmodi erstellen. Textfreie Ausgabe für weltweiten Verkauf. Schritt-für-Schritt für Etsy und KDP.`,
   },
 
   hero: {
-    title: 'So erstellen Sie Größenvergleich-Arbeitsblätter',
+    title: `So erstellen Sie Größenvergleich-Arbeitsblätter`,
     tagline: `Eine Schritt-für-Schritt-Anleitung zur Erstellung von Größenunterscheidungs-Arbeitsblättern mit fünf Aufgabentypen und textfreier Ausgabe, die Sie weltweit auf Etsy, Amazon KDP und Gumroad verkaufen können`,
     description: `Größenvergleich ist eine der frühesten visuellen Fähigkeiten, die Kinder entwickeln, und Arbeitsblätter zur Übung dieser Fähigkeit haben ganzjährig Nachfrage bei Eltern, Käufern und Frühförderzentren. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Groß-und-Klein-Arbeitsblatt-Ersteller — von der Auswahl unter fünf Aufgabentypen und zwei Bildmodi über die Konfiguration der Übungsdichte bis hin zur Generierung automatischer Lösungsschlüssel und dem Export druckfertiger Dateien. Das Werkzeug erzeugt vollständig visuelle Arbeitsblätter ohne Text auf der Ausgabe, was bedeutet, dass Ihre Produkte an Käufer in jedem Land ohne Übersetzung verkauft werden können. Ob Sie Ihr erstes druckbares Produkt erstellen oder einen bestehenden Frühförder-Katalog erweitern — am Ende dieses Tutorials haben Sie fertige Arbeitsblätter zum Einstellen bereit.`,
   },
@@ -47,26 +47,26 @@ const content: GuideContent = {
       content: `Die Bildbibliothek enthält 104 Themensammlungen mit über 3.100 Illustrationen aus den Bereichen Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe, Sport und Dutzende weitere Kategorien. Jedes Thema bietet einen koordinierten Satz von Bildern, die visuell in Größenvergleichsübungen zusammenwirken.\n\nDie Themenauswahl ist eine strategische Produktentscheidung. Jedes Thema erzeugt ein einzigartiges Produkt mit unterschiedlichen Suchbegriffen auf Marktplätzen. „Bauernhoftiere Größenvergleich-Arbeitsblätter" und „Meerestiere Größenvergleich-Arbeitsblätter" zielen auf völlig unterschiedliche Käufersuchen ab, obwohl sie dieselben Generator-Einstellungen verwenden. Mit 104 verfügbaren Themen können Sie einen umfangreichen Produktkatalog aufbauen, ohne sich zu wiederholen.\n\nDurchsuchen Sie Themen über das Themen-Dropdown im Bildbibliothek-Bereich. Wählen Sie ein Thema aus, um alle verfügbaren Bilder zu sehen. Der Generator verwendet diese Bilder, um Ihre Übungen gemäß Ihren Aufgabentyp- und Bildmodus-Einstellungen zu füllen.\n\nSie können auch eigene Bilder für fachspezifische Arbeitsblätter hochladen. Klicken Sie auf den Upload-Bereich, um Bilddateien von Ihrem Computer hinzuzufügen. Benutzerdefinierte Uploads sind sitzungsbasiert, das heißt, sie bleiben bestehen, solange Ihr Browser-Tab geöffnet ist. Laden Sie eigene Bilder hoch, wenn Sie Nischenthemen ansprechen möchten, die die integrierte Bibliothek nicht abdeckt — Gebäudegrößen für Architekturprodukterstellung, Essensportionsgrößen für Gesundheitserziehung oder Planetengrößen für Sachkundeeinheiten.\n\nZusätzliche Layout-Umschalter im Inhaltsbereich lassen Sie Übungsnummern und Antwortindikator-Kästchen ein- oder ausblenden. Übungsnummern beschriften jede Aufgabe (1, 2, 3...) zur einfachen Referenz. Antwortindikator-Kästchen bieten visuelle Rahmen, die den Nutzern helfen, ihre Antworten einzukreisen oder zu nummerieren.`,
     },
     {
-      heading: 'Legen Sie Seitengröße und Hintergrund fest',
+      heading: `Legen Sie Seitengröße und Hintergrund fest`,
       content: `Die Seitenkonfiguration bestimmt die physischen Abmessungen und den visuellen Stil Ihres fertigen Arbeitsblatts.\n\nSeitengrößen-Optionen umfassen US Letter Hochformat, US Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und benutzerdefinierte Abmessungen. US Letter ist Standard für nordamerikanische Käufer. A4 ist Standard für europäische und internationale Märkte. Das Quadratformat eignet sich gut für Social-Media-Beiträge und bestimmte Amazon KDP Innenformate. Die Erstellung von sowohl US-Letter- als auch A4-Versionen jedes Arbeitsblatts verdoppelt Ihre internationale Marktreichweite mit minimalem Aufwand.\n\nDer Hintergrund-Bereich bietet Kontrollen für visuellen Feinschliff:\n\nSeitenfarbe legt die Basis-Hintergrundfarbe fest. Weiß ist Standard für gedruckte Arbeitsblätter. Helle Pastelltöne können digital genutzten Produkten Wärme verleihen, ohne die Bildsichtbarkeit zu beeinträchtigen.\n\nHintergrundthema ermöglicht die Auswahl eines dekorativen Musters aus der Bildbibliothek. Dieses füllt die Seite hinter Ihren Übungen und verleiht visuelle Textur und ein professionelles Aussehen. Die Hintergrund-Deckkraft steuert, wie prominent das Muster erscheint — niedrigere Werte (0,1–0,3) erzeugen subtile Wasserzeicheneffekte, während höhere Werte (0,5–0,8) den Hintergrund zu einem sichtbaren Designelement machen.\n\nRahmenthema fügt dekorative Rahmen um die gesamte Seite hinzu. Wie Hintergrundthemen verfügen Rahmen über unabhängige Deckkraft-Kontrollen. Ein thematischer Rahmen mit passendem Hintergrund schafft einen stimmigen, professionell gestalteten Look, der Ihre Produkte von schlichten Arbeitsblättern abhebt.\n\nDiese visuellen Gestaltungsoptionen sind wichtig für die Marktplatz-Wettbewerbsfähigkeit. Käufer, die auf Etsy oder Gumroad stöbern, vergleichen Dutzende ähnlicher Produkte, und Arbeitsblätter mit polierten Hintergründen und koordinierten Rahmen ziehen durchgehend mehr Klicks und Verkäufe an als schlichte weiße Seiten.`,
     },
     {
-      heading: 'Fügen Sie Text hinzu und passen Sie das Layout an',
+      heading: `Fügen Sie Text hinzu und passen Sie das Layout an`,
       content: `Der Textwerkzeuge-Bereich ermöglicht das Hinzufügen von Titeln, Anweisungen, Name-und-Datum-Feldern und benutzerdefinierten Beschriftungen zu Ihrem Arbeitsblatt. Während die Übungen selbst textfrei sind (nur Bilder), können Sie Textelemente um sie herum für Struktur und Branding hinzufügen.\n\nHäufige Textergänzungen umfassen Arbeitsblatt-Titel („Größenvergleich-Übung" oder „Kreise das Große ein"), Name- und Datumsfelder für den Bildungsmarkt und benutzerdefinierte Anweisungen zur Aufgabenbeschreibung. Das Kontrollkästchen Name-und-Datum-Felder fügt formatierte Zeilen oben auf dem Arbeitsblatt hinzu — Käufer bevorzugen Arbeitsblätter mit diesen Feldern deutlich.\n\nDie Schriftauswahl bietet fünf Familien: Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Fredoka und Baloo 2 sind verspielt und leserfreundlich, ideal für Vorschul- und Kindergartenprodukte. Lexend Deca und Nunito sind klar und modern, geeignet für Produkte, die ältere Kinder oder den Bildungsmarkt ansprechen.\n\nTextumrandung fügt einen farbigen Rand um jeden Buchstaben hinzu und verbessert die Lesbarkeit, wenn Text nahe an belebten Bereichen des Arbeitsblatts steht. Wählen Sie eine Umrandungsfarbe, die sowohl zur Textfarbe als auch zum Hintergrund kontrastiert. Die Umrandungsbreite reicht von dezent (1–2) bis kräftig (3–4).\n\nDie vollständige Fabric.js-Arbeitsfläche gibt Ihnen komplette Kontrolle über die Elementpositionierung. Ziehen, skalieren, drehen und positionieren Sie jedes Element neu. Ausrichtungswerkzeuge rasten Elemente in präzise Positionen ein. Sperr-Kontrollen schützen fertige Elemente, während Sie andere weiter bearbeiten. Unbegrenztes Rückgängigmachen und Wiederherstellen ermöglicht freies Experimentieren ohne Risiko.\n\nDenken Sie daran: Der von Ihnen hinzugefügte Text ist ergänzend — die Kernübungen bleiben vollständig visuell ohne Text in den generierten Übungsbereichen. Jeder Anleitungstext, den Sie hinzufügen, ist optional und außerhalb des Übungsrasters positioniert.`,
     },
     {
-      heading: 'Generieren und überprüfen Sie das Arbeitsblatt',
+      heading: `Generieren und überprüfen Sie das Arbeitsblatt`,
       content: `Klicken Sie mit Ihren konfigurierten Einstellungen auf die Schaltfläche Generieren, um Ihr Arbeitsblatt zu erstellen. Der Generator platziert Bilder gemäß Ihren Aufgabentyp-, Bildmodus-, Übungsanzahl- und Bilder-pro-Übung-Einstellungen auf der Arbeitsfläche.\n\nÜberprüfen Sie die Vorschau sorgfältig vor dem Export:\n\nGrößenunterschiede prüfen: Sind die Größenunterschiede zwischen den Bildern klar und eindeutig? Bei Kreise das Große ein — ist das größte Bild offensichtlich größer? Bei Kreise das Mittlere ein — ist die mittlere Größe deutlich von der größten und kleinsten unterscheidbar? Wenn die Größenunterschiede zu subtil sind, könnten die Nutzer Schwierigkeiten haben oder falsche Antworten geben.\n\nSchwierigkeitsausrichtung prüfen: Passt die kognitive Herausforderung zur Zielgruppe? Ein Vorschul-Arbeitsblatt sollte offensichtliche Größenunterschiede mit 2 Bildern haben. Ein Kindergarten-Arbeitsblatt kann subtilere Unterschiede mit 3 Bildern aufweisen. Überprüfen Sie, indem Sie sich fragen, ob ein Kind im Zielgruppenalter die Übung mit konzentrierter Anstrengung, aber ohne Frustration lösen könnte.\n\nLayout-Dichte prüfen: Sind die Übungen klar voneinander getrennt mit genug Platz für die Nutzer, um ihre Antworten einzukreisen oder zu nummerieren? Sind die Bilder groß genug, um Details klar zu erkennen? Wenn die Seite überladen wirkt, reduzieren Sie die Übungsanzahl pro Seite.\n\nBildmodus-Konsistenz prüfen: Wenn Sie Identische Bilder gewählt haben, überprüfen Sie, ob jede Übung dasselbe Bild in verschiedenen Größen zeigt. Wenn Sie Verschiedene Bilder gewählt haben, überprüfen Sie, ob verschiedene Objekte in deutlich unterschiedlichen Maßstäben erscheinen.\n\nWenn etwas nicht stimmt, passen Sie Ihre Einstellungen an und generieren Sie neu. Die Arbeitsfläche aktualisiert sich sofort, sodass Sie schnell verschiedene Konfigurationen durchprobieren können, bis Sie das Layout finden, das am besten für Ihr Produkt aussieht.`,
     },
     {
-      heading: 'Lösungsschlüssel generieren und exportieren',
+      heading: `Lösungsschlüssel generieren und exportieren`,
       content: `Jedes mit dem Groß-und-Klein-Arbeitsblatt-Ersteller erstellte Arbeitsblatt enthält einen automatischen Lösungsschlüssel. Klicken Sie auf Lösungsschlüssel generieren, um eine gelöste Version zu erstellen, in der korrekte Antworten hervorgehoben und eingekreist sind, für sofortige visuelle Überprüfung. Bei Einkreis-Aufgaben markiert der Lösungsschlüssel das korrekte Bild. Bei Nummerierungsaufgaben zeigt er die korrekte Größenreihenfolge an. Dies eliminiert die Notwendigkeit, Antwort-Overlays manuell zu erstellen.\n\nErwägen Sie vor dem Export den Graustufen-Umschalter. Dieses Kontrollkästchen konvertiert Ihr gesamtes Arbeitsblatt in Schwarz-Weiß. Graustufen-Arbeitsblätter kosten deutlich weniger beim Drucken und erfüllen die Amazon KDP Innenanforderungen für Standard-Bücher (ohne Premium-Farbe). Erwägen Sie die Erstellung sowohl von Farb- als auch Graustufen-Versionen jedes Produkts — sie bedienen unterschiedliche Käuferbedürfnisse und können separat eingestellt oder als Bundle angeboten werden.\n\nDas Kontrollkästchen Name-und-Datum-Felder fügt Namens- und Datumszeilen zum Arbeitsblatt hinzu. Aktivieren Sie dies immer für Produkte, die auf den Bildungsmarkt abzielen.\n\nVier Export-Schaltflächen stehen zur Verfügung:\n\nArbeitsblatt JPEG: Hochauflösende Bilddatei mit 300 DPI. Verwenden Sie diese für Eintrag-Vorschaubilder, Social-Media-Marketing und digitale Download-Produkte.\n\nArbeitsblatt PDF: Professionelles druckfertiges Format. PDF ist das Standard-Lieferformat für druckbare Produktverkäufe auf allen Marktplätzen.\n\nLösungsschlüssel JPEG und Lösungsschlüssel PDF: Separate Exporte für den Lösungsschlüssel in beiden Formaten.\n\nDie kostenlose Testversion mit Wasserzeichen erzeugt voll funktionsfähige Exporte mit einem Wasserzeichen-Overlay. Dies ermöglicht Ihnen, die Druckqualität zu bewerten, die Formatierung zu überprüfen und Testdrucke zu erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Exporten und erzeugt saubere Dateien, die verkaufsbereit sind.\n\nExportieren Sie immer sowohl das Arbeitsblatt als auch den Lösungsschlüssel. Auf jedem Marktplatz ist „mit Lösungsschlüssel" ein häufig gesuchter Zusatz, der die Sichtbarkeit und den wahrgenommenen Wert Ihres Eintrags verbessert.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Größenvergleich-Arbeitsblätter auf Etsy verkaufen',
+      heading: `Größenvergleich-Arbeitsblätter auf Etsy verkaufen`,
       content: `Etsy ist der stärkste Marktplatz für druckbare Arbeitsblätter, und Größenvergleichsprodukte haben ein klares Publikum aus Eltern, Käufern und Frühkäufer.\n\nTiteloptimierung: Setzen Sie Ihr primäres Keyword an den Anfang und fügen Sie differenzierende Details hinzu. Starke Beispiele: „Größenvergleich-Arbeitsblätter — Kreise das Große ein — Bauernhoftiere Thema — Vorschule Druckvorlage mit Lösungsschlüssel" oder „Groß-und-Klein-Aktivitätsblätter — Größenanordnung 1–2–3 — Kindergarten visuelles Lernen — Kein Text nötig." Nutzen Sie alle 140 Zeichen, die Etsy erlaubt.\n\nTags: Verwenden Sie alle 13 Tags. Mischen Sie breite und spezifische: „Größenvergleich-Arbeitsblätter," „Groß-und-Klein-Druckvorlage," „Kreise das Große ein," „Größenanordnung Aktivität," „Vorschule visuelles Lernen," „Kindergarten Mathematik," „Größenunterscheidung," „druckbare Aktivität für Kinder," „textfreie Arbeitsblätter," „visuelle Arbeitsblätter international," „Heimprodukterstellung Vorschule," „Frühförderung Druckvorlage," „Kleinkind-Aktivität."\n\nTextfrei-Vorteil: Betonen Sie in Ihrer Eintragsbeschreibung, dass diese Arbeitsblätter weltweit ohne Übersetzung funktionieren. Käufer aus jedem Land können sie sofort kaufen und verwenden. Dies ist ein echtes Unterscheidungsmerkmal, das die meisten konkurrierenden Arbeitsblatt-Verkäufer nicht bieten können.\n\nPreisgestaltung: Einzelne Arbeitsblätter mit Lösungsschlüssel verkaufen sich für 1,49–2,49 $. Themen-Bundles mit 10–15 Arbeitsblättern verkaufen sich für 3,99–6,99 $. Aufgabentyp-Progressions-Bundles (alle fünf Typen in einem Thema) verkaufen sich für 5,99–9,99 $. Komplettsammlungen über mehrere Themen verkaufen sich für 12,99–19,99 $.`,
     },
     {
@@ -85,11 +85,11 @@ const content: GuideContent = {
       content: `Die Preisgestaltung für Größenvergleich-Arbeitsblätter folgt vorhersehbaren Mustern auf allen Marktplätzen. Die fünf Aufgabentypen und zwei Bildmodi schaffen natürliche Produktstufen, die verschiedene Preispunkte unterstützen.\n\nEinzelne Arbeitsblätter mit Lösungsschlüssel: 1,49–2,49 $. Diese dienen als Einstiegsprodukte, die Ihre Qualität und Themenvielfalt zeigen. Niedriger Preis, hohes Volumenpotenzial.\n\nAufgabentyp-Mini-Pakete (5–10 Arbeitsblätter, ein Aufgabentyp): 2,99–4,99 $. Ein „Kreise das Große ein — Bauernhoftiere"-Paket mit 8 Arbeitsblättern bei zunehmender Übungsdichte ist ein fokussiertes, suchbares Produkt.\n\nThemen-Bundles mit allen fünf Aufgabentypen (15–20 Arbeitsblätter): 5,99–9,99 $. Dies sind der optimale Punkt für die meisten Verkäufer. Käufer erhalten eine komplette Progression von einfacher Identifikation zu mehrstufiger Reihenfolge innerhalb eines einzigen Themas.\n\nDual-Modus-Bundles (Identische + Verschiedene Bilder, gleiches Thema und Aufgabentypen): 7,99–12,99 $. Die Verdopplung des Bildmodus schafft doppelte Übungsvielfalt und rechtfertigt einen Premiumpreis.\n\nKomplettsammlungen (40–60+ Arbeitsblätter über mehrere Themen): 14,99–24,99 $. Positionieren Sie diese als Ganzjahres-Bildungsmarkt-Ressourcen oder umfassende Frühförderpakete. Das textfreie Format und die fünf Aufgabentypen machen diese zu wirklich umfassenden Produkten.\n\nUnterbieten Sie nicht den Markt. Preise unter 0,99 $ signalisieren niedrige Qualität und machen es nahezu unmöglich, nach Marktplatzgebühren bedeutendes Einkommen zu erzielen. Beginnen Sie mit wettbewerbsfähigen Mittelklasse-Preisen und passen Sie basierend auf Verkaufsdaten an.`,
     },
     {
-      heading: 'Bündelungsstrategien mit Aufgabentypen',
+      heading: `Bündelungsstrategien mit Aufgabentypen`,
       content: `Die fünf Aufgabentypen im Groß-und-Klein-Generator schaffen natürliche Bündelungsmöglichkeiten, die andere Größenvergleichswerkzeuge nicht bieten können.\n\nSchwierigkeits-Progressions-Bundles: Bündeln Sie alle fünf Aufgabentypen innerhalb eines einzigen Themas als Fähigkeits-Aufbauset. Beginnen Sie mit Kreise das Große ein (einfachster), steigern Sie über Kreise das Kleine ein und Kreise das Mittlere ein, und schließen Sie mit Nummeriere 1–2–3 (schwierigster) ab. Vermarkten Sie diese als „Komplette Größenfähigkeiten" oder „Progressive Größenvergleich"-Pakete, die mit dem Kind mitwachsen.\n\nBildmodus-Vergleichs-Bundles: Erstellen Sie jedes Thema in beiden Bildmodi — Identische und Verschiedene Bilder. Verkaufen Sie sie separat oder bündeln Sie beide Modi zusammen zu einem Premiumpreis. Zwei wirklich unterschiedliche Übungserfahrungen aus demselben Thema schaffen echten Wert für Käufer.\n\nAltersgestufte Bundles: Gruppieren Sie Arbeitsblätter nach Zielgruppe statt nach Thema. Ein „Kleinkind-Größenbewusstseins-Paket" (2–3 Jahre) mit Kreise das Große ein, 2 Bildern, Modus Identische Bilder. Ein „Vorschule-Größenvergleichs-Paket" (3–5 Jahre) mit gemischten Einkreis-Aufgaben, 2–3 Bildern. Ein „Kindergarten-Größenanordnungs-Paket" (5–6 Jahre) mit Nummerierungsübungen, 3 Bildern, Modus Verschiedene Bilder.\n\nProduktübergreifende Bundles: Kombinieren Sie Größenvergleich-Arbeitsblätter mit anderen Produkten zur visuellen Unterscheidung — Zuordnungsarbeitsblätter, Wer ist anders, Mustererkennung. Ein „Komplett-Bundle Visuelles Lernen", das mehrere visuelle Fähigkeiten kombiniert, erzielt Premiumpreise und zielt auf die breite Suchkategorie „Frühförderung" ab.\n\nStellen Sie immer sowohl Einzelprodukte als auch Bundles ein. Einzeleinträge verbessern die Suchsichtbarkeit Ihres Shops (mehr Einträge bedeuten mehr indexierte Keywords), während Bundles höhere Einnahmen pro Transaktion erzielen.`,
     },
     {
-      heading: 'Den Textfrei-Vorteil maximieren',
+      heading: `Den Textfrei-Vorteil maximieren`,
       content: `Die textfreie Ausgabe der Groß-und-Klein-Arbeitsblätter ist Ihr stärkster Wettbewerbsvorteil und sollte Ihre Produktstrategie bestimmen.\n\nInternationale Marktplatz-Expansion: Stellen Sie exakt dieselbe Produktdatei in Etsy-Shops auf jedem unterstützten Markt ein — USA, Vereinigtes Königreich, Deutschland, Frankreich, Spanien, Italien, Australien und mehr. Keine Übersetzung, keine separaten Dateiversionen, keine zusätzliche Erstellungsarbeit. Ein Arbeitsblatt bedient jeden Käufer weltweit. Die meisten Arbeitsblatt-Verkäufer bedienen nur englischsprachige Märkte, weil ihre Produkte englischen Text enthalten. Sie umgehen diese Einschränkung vollständig.\n\nMehrsprachige Produktbeschreibungen: Obwohl das Arbeitsblatt selbst keine Übersetzung benötigt, sollten Ihr Etsy-Eintragstitel, Ihre Beschreibung und Ihre Tags in der Sprache des Zielmarktes verfasst sein. Schreiben Sie marktplatzspezifischen Eintragstext für Ihre wichtigsten Märkte. Die Produktdatei bleibt gleich; nur der Schaufenstertext ändert sich.\n\nVorlese-freie Zielgruppe: Größenvergleich-Arbeitsblätter funktionieren für Kinder, die noch nicht lesen können. Dies erweitert Ihre Zielgruppe auf Kleinkinder (2–3 Jahre) und Kinder mit Leseschwierigkeiten oder Lernbehinderungen. Betonen Sie „kein Lesen erforderlich" und „nur visuelle Aktivitäten" in Ihren Produktbeschreibungen.\n\nInklusivität im Bildungsmarkt: In mehrsprachigen Shops brauchen Käufer Aktivitäten, die jeder Nutzer unabhängig vom Sprachhintergrund absolvieren kann. Positionieren Sie Ihre Arbeitsblätter als „sprachunabhängig" und „mehrsprachig einsetzbar" auf Gumroad.\n\nDieser Textfrei-Vorteil gilt für jedes Produkt, das Sie mit dem Groß-und-Klein-Arbeitsblatt-Ersteller erstellen. Integrieren Sie ihn von Anfang an in Ihre Produkttitel, Beschreibungen und Ihr Marketing. Es ist ein echtes Unterscheidungsmerkmal, das sich über Ihren gesamten Katalog potenziert.`,
     },
   ],
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Hier sind konkrete Produktbeispiele, organisiert nach den fünf Aufgabentypen und ihren Zielgruppen.\n\nKreise das Große ein (2–4 Jahre): Stellen Sie 2 Bilder pro Übung ein, 2–3 Übungen pro Seite, Modus Identische Bilder. Verwenden Sie leicht erkennbare Themen wie Bauernhoftiere, Obst oder Fahrzeuge. Große Bilder mit offensichtlichen Größenunterschieden machen die Aufgabe für Kleinkinder zugänglich. Titelbeispiel: „Kreise das Große ein — Bauernhoftiere — Kleinkind Größenvergleich Druckvorlage mit Lösungsschlüssel."\n\nKreise das Kleine ein (3–5 Jahre): Stellen Sie 2–3 Bilder pro Übung ein, 4–6 Übungen pro Seite, Modus Identische oder Verschiedene Bilder. Etwas schwieriger, weil „kleinstes" einen sorgfältigeren Vergleich erfordert. Titelbeispiel: „Finde das Kleine — Meerestiere Größenarbeitsblätter — Vorschule visuelles Lernen."\n\nKreise das Mittlere ein (4–6 Jahre): Erfordert 3 Bilder pro Übung. Stellen Sie 4–6 Übungen pro Seite ein, Modus Verschiedene Bilder für zusätzliche Herausforderung. Die Nutzer müssen beide Extreme eliminieren, um die mittlere Größe zu finden. Titelbeispiel: „Kreise das Mittlere ein — Dinosaurier Größenvergleich — Kindergarten visuelle Unterscheidung."\n\nNummeriere 1–2–3 Klein nach Groß (5–7 Jahre): Stellen Sie 3 Bilder pro Übung ein, 6–8 Übungen pro Seite. Die Nutzer beschriften Bilder in aufsteigender Größenordnung. Diese mehrstufige Aufgabe eignet sich für Kindergarten bis erste Klasse. Titelbeispiel: „Größenanordnungs-Arbeitsblätter — Nummeriere Klein nach Groß — 30 Seiten mit Lösungsschlüsseln."\n\nNummeriere 1–2–3 Groß nach Klein (5–7 Jahre): Gleiche Einstellungen wie aufsteigend, aber umgekehrt. Verhindert auswendiges Lernen und stellt echtes Größendenken sicher. Bündeln Sie aufsteigende und absteigende Versionen für ein komplettes Anordnungsprodukt.`,
     },
     {
-      heading: 'Hochwertige Bundles mit Bildmodi und Themen',
+      heading: `Hochwertige Bundles mit Bildmodi und Themen`,
       content: `Die Kombination aus fünf Aufgabentypen, zwei Bildmodi und 104 Themen schafft eine enorme Produktmatrix. Hier sind die wertvollsten Bundle-Strategien.\n\nDual-Modus-Themenpakete: Erstellen Sie ein „Bauernhoftiere Größenvergleich — Komplettpaket", das alle fünf Aufgabentypen in beiden Bildmodi enthält — Identische und Verschiedene Bilder. Dies produziert 10 verschiedene Arbeitsblattstile aus einem Thema. Bepreisen Sie das kombinierte Paket mit 7,99–12,99 $ oder verkaufen Sie jeden Modus separat für 4,99–6,99 $.\n\nProgressive Schwierigkeits-Arbeitshefte: Strukturieren Sie ein Arbeitsheft mit Progression durch alle fünf Aufgabentypen. Kapitel 1: Kreise das Große ein mit 2 identischen Bildern (einfachster). Kapitel 2: Kreise das Kleine ein mit 2 verschiedenen Bildern. Kapitel 3: Kreise das Mittlere ein mit 3 Bildern. Kapitel 4: Nummeriere Klein nach Groß. Kapitel 5: Nummeriere Groß nach Klein. Dies schafft eine strukturierte Lernreise, die Eltern und Käufer hoch schätzen.\n\nSaisonale Sammlungen: Verwenden Sie Feiertags- und Saisonthemen für zeitabhängige Produkte. Ein „Halloween Größensortierung"-Paket mit Kürbis-, Geister- und Fledermaus-Bildern in allen fünf Aufgabentypen. „Weihnachten Groß & Klein" mit Ornamenten und Schneeflocken. Stellen Sie diese 4–6 Wochen vor jedem Feiertag ein für maximale Sichtbarkeit. Saisonale Produkte haben vorhersehbare jährliche Nachfragespitzen.\n\nVisuelles Lernen Mega-Bundles: Kombinieren Sie Größenvergleich-Arbeitsblätter mit Produkten aus anderen Generatoren für visuelles Lernen — Zuordnungsarbeitsblätter, Wer ist anders, Mustererkennung, Schattenvergleich. Ein „Komplett-Bundle Visuelle Fähigkeiten" mit 50–80 Arbeitsblättern über mehrere visuelle Unterscheidungsfähigkeiten erzielt 19,99–29,99 $ und zielt auf die breite Suchkategorie „Frühförderung" ab.\n\nMulti-Themen-Klassenpakete: Erstellen Sie 5–8 Arbeitsblätter pro Thema über 10 Themen, alle beim selben Aufgabentyp und Schwierigkeitsgrad. Ein „Kreise das Große ein — 10 Themen — 80 Arbeitsblätter"-Paket gibt Käufern genug Material für ein ganzes Jahr wöchentlicher Größenvergleichs-Übung. Bepreisen Sie mit 14,99–19,99 $.`,
     },
   ],
@@ -115,11 +115,11 @@ const content: GuideContent = {
       answer: `Der Modus Identische Bilder zeigt dasselbe Bild in verschiedenen Größen und isoliert die reine Größenwahrnehmung ohne verwirrende Variablen. Der Modus Verschiedene Bilder zeigt unterschiedliche Objekte in verschiedenen Größen und erfordert relatives Größendenken. Die beiden Modi schaffen grundlegend unterschiedliche Übungen und verdoppeln effektiv Ihre Produktvielfalt mit einem Werkzeug. Verwenden Sie den Modus Identische Bilder für jüngere Lernende und den Modus Verschiedene Bilder für fortgeschrittene Übung.`,
     },
     {
-      question: 'Warum haben die Arbeitsblätter keinen Text?',
+      question: `Warum haben die Arbeitsblätter keinen Text?`,
       answer: `Groß-und-Klein-Arbeitsblätter sind konzeptionell vollständig visuell. Nur Bilder und visuelle Indikatoren erscheinen auf der Ausgabe — keine geschriebenen Wörter. Dies macht Arbeitsblätter universell verwendbar, unabhängig von Sprache oder Leseniveau. Kleinkinder ohne Lesefähigkeit können sie absolvieren. Für Verkäufer bedeutet textfreie Ausgabe, dass dasselbe Produkt weltweit ohne Übersetzung verkauft wird — ein Eintrag bedient jeden Markt auf Etsy, Amazon und Gumroad.`,
     },
     {
-      question: 'Kann ich 2 oder 3 Bilder pro Übung einstellen?',
+      question: `Kann ich 2 oder 3 Bilder pro Übung einstellen?`,
       answer: `Ja. Mit 2 Bildern treffen die Nutzer einen einfachen Größer/Kleiner-Vergleich. Mit 3 Bildern wird eine mittlere Option eingeführt, die den Aufgabentyp Kreise das Mittlere ein ermöglicht und Nummerierungsübungen mit drei zu ordnenden Elementen schwieriger macht. Beginnen Sie mit 2 Bildern für jüngere Lernende und steigern Sie auf 3 für fortgeschrittene Übung. Sie können auch 1–10 Übungen pro Seite für flexible Arbeitsblattdichte einstellen.`,
     },
     {
@@ -127,7 +127,7 @@ const content: GuideContent = {
       answer: `Ja. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel. Bei Einkreis-Aufgaben wird das korrekte Bild visuell hervorgehoben und eingekreist. Bei Nummerierungsaufgaben wird die korrekte Größenreihenfolge angezeigt. Der Lösungsschlüssel wird als separate PDF- und JPEG-Dateien exportiert. Das Einschließen von Lösungsschlüsseln erhöht den wahrgenommenen Produktwert und wird von Käufern auf Etsy, Gumroad und KDP erwartet.`,
     },
     {
-      question: 'Wie viele thematische Bildersets sind verfügbar?',
+      question: `Wie viele thematische Bildersets sind verfügbar?`,
       answer: `Die Bildbibliothek umfasst 104 Themensammlungen mit über 3.100 Illustrationen aus den Bereichen Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe, Sport und Dutzende weitere Kategorien. Jedes Thema erzeugt unterschiedliche Produkte mit verschiedenen Suchbegriffen auf Marktplätzen. Sie können auch eigene Bilder für Nischenthemen hochladen, die über die integrierte Bibliothek hinausgehen.`,
     },
     {
@@ -138,28 +138,28 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
+      slug: `groessenvergleich-arbeitsblaetter-erstellen`,
       title: `Mehr-oder-Weniger-Vergleichs-Arbeitsblätter erstellen`,
       description: `Die natürliche Ergänzung zum Größenvergleich. Mehr-oder-Weniger-Arbeitsblätter vergleichen Mengen (größer als, kleiner als, gleich), während Groß & Klein visuelle Größen vergleicht.`,
     },
     {
-      slug: 'muster-arbeitsblaetter-erstellen',
-      title: 'Mustererkennung-Arbeitsblätter erstellen',
+      slug: `muster-arbeitsblaetter-erstellen`,
+      title: `Mustererkennung-Arbeitsblätter erstellen`,
       description: `Eine weitere Fähigkeit zur visuellen Unterscheidung, die sich gut mit Größenvergleich kombinieren lässt. Muster-Arbeitsblätter entwickeln Sequenzerkennung und logisches Denken.`,
     },
     {
-      slug: 'zuordnungs-arbeitsblaetter-erstellen',
-      title: 'Zuordnungs-Arbeitsblätter erstellen',
+      slug: `zuordnungs-arbeitsblaetter-erstellen`,
+      title: `Zuordnungs-Arbeitsblätter erstellen`,
       description: `Erweitern Sie Ihre Produktlinie für visuelles Lernen mit Zuordnungs-Arbeitsblättern, die visuelle Zuordnungsfähigkeiten neben Ihren Größenunterscheidungsprodukten entwickeln.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
     { pageType: 'app', slug: 'gross-klein-arbeitsblaetter', anchorText: `Groß-und-Klein-Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: `Mehr-oder-Weniger-Vergleichs-Generator — Alle Details` },
     { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: `Den Groß-und-Klein-Arbeitsblatt-Ersteller ausprobieren` },
@@ -168,12 +168,12 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'big-small',
-      title: 'Groß-und-Klein-Arbeitsblatt-Generator',
+      title: `Groß-und-Klein-Arbeitsblatt-Generator`,
       description: `Das primäre Werkzeug für diese Anleitung. Erstellen Sie Größenvergleich-Arbeitsblätter mit fünf Aufgabentypen, zwei Bildmodi, textfreier Ausgabe, konfigurierbarer Übungsdichte und automatischen Lösungsschlüsseln.`,
     },
     {
       appId: 'more-less',
-      title: 'Mehr-oder-Weniger-Vergleichs-Generator',
+      title: `Mehr-oder-Weniger-Vergleichs-Generator`,
       description: `Mengenvergleichs-Begleiter, der Größer-als-, Kleiner-als- und Gleich-Arbeitsblätter erstellt. Kombiniert sich natürlich mit Größenvergleichsprodukten für umfassende Bundles zum visuellen Lernen in der Frühmathematik.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern in verschiedenen Größen für Vorschul-Übungen zum Kreise das Große ein' },
+    heroImage: { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: `Größenvergleich-Arbeitsblatt mit thematischen Bildern in verschiedenen Größen für Vorschul-Übungen zum Kreise das Große ein` },
     samples: [
-      { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: 'Groß-und-Klein Größenvergleich-Arbeitsblatt mit thematischen Bildern und fünf Aufgabentypen', caption: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern und automatisch generierten Antwortindikatoren' },
-      { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: 'Kreise das Große ein Arbeitsblatt mit verschiedenen Tierbildern in unterschiedlichen Größen', caption: 'Modus Kreise das Große ein mit thematischen Bildern für visuelle Größenunterscheidungsübung' },
+      { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: `Groß-und-Klein Größenvergleich-Arbeitsblatt mit thematischen Bildern und fünf Aufgabentypen`, caption: `Größenvergleich-Arbeitsblatt mit thematischen Bildern und automatisch generierten Antwortindikatoren` },
+      { src: `/samples/german/big small/big-small-worksheet_worksheet.webp`, alt: `Kreise das Große ein Arbeitsblatt mit verschiedenen Tierbildern in unterschiedlichen Größen`, caption: `Modus Kreise das Große ein mit thematischen Bildern für visuelle Größenunterscheidungsübung` },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: `So erstellen Sie Größenvergleich-Arbeitsblätter — Komplettes Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
+    { src: `/image-library/fruits/apple.webp`, alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Aprikose — thematisches Lernbild`, caption: 'Aprikose' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — thematisches Lernbild`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banane — thematisches Lernbild`, caption: 'Banane' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Brombeere — thematisches Lernbild`, caption: 'Brombeere' },
   ],
 };
 

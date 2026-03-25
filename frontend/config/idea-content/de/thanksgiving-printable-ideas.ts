@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'erntedankfest-druckvorlagen',
     secondaryKeywords: [
-      'Thanksgiving-Arbeitsblätter auf Etsy erstellen',
-      'Herbst-Erntedank-Druckvorlagen auf KDP',
-      'November-Feiertags-Aktivitätsblätter für Gumroad',
-      'Truthahn-Ernte-Lernmaterialien für Shops',
+      `Thanksgiving-Arbeitsblätter auf Etsy erstellen`,
+      `Herbst-Erntedank-Druckvorlagen auf KDP`,
+      `November-Feiertags-Aktivitätsblätter für Gumroad`,
+      `Truthahn-Ernte-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'November-Nachfragespitze saisonale Druckvorlagen',
-      'Erntedank-Nische Arbeitsblätter Etsy-Markt',
-      'Herbst-Feiertags-Thema Lernmaterialien',
+      `November-Nachfragespitze saisonale Druckvorlagen`,
+      `Erntedank-Nische Arbeitsblätter Etsy-Markt`,
+      `Herbst-Feiertags-Thema Lernmaterialien`,
     ],
-    titleTag: 'Erntedankfest-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Erntedankfest-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Erntedankfest-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Thanksgiving-Produktkonzepte und saisonale Strategien. Plattformtipps für Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -44,7 +44,7 @@ Um maximalen Thanksgiving-Umsatz zu erzielen, entwickeln Sie Produkte über mehr
       appId: 'find-count',
     },
     {
-      title: 'Thanksgiving-Wortsuchrätsel zum Online-Verkauf',
+      title: `Thanksgiving-Wortsuchrätsel zum Online-Verkauf`,
       description: `Erntevokabular-Wortsuchen ziehen Verkäufer an, die November-Shopaktivitäten planen, und Eltern, die lehrreiche Unterhaltung während der Thanksgiving-Feiertagszeit suchen. Erstellen Sie Rätsel mit Thanksgiving-spezifischem Vokabular wie Truthahn, Pilger, Ernte, Dankbarkeit, Füllhorn, Festmahl und Kürbis sowie breiteren Herbstfeierbegriffen. Der Wortsuche-Generator ermöglicht Ihnen die Steuerung von Rastergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Thanksgiving-Begriffen für ältere Nutzer an. Variationen wie Erntevokabular, Dankbarkeitswörter und Thanksgiving-Dinner-Terminologie erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der Herbst-Saison-Nische zu erfassen.`,
       appId: 'wordsearch',
     },
@@ -79,7 +79,7 @@ Um maximalen Thanksgiving-Umsatz zu erzielen, entwickeln Sie Produkte über mehr
       appId: 'pattern-worksheet',
     },
     {
-      title: 'Thanksgiving-Buchstabenrätsel für Vokabelprodukte',
+      title: `Thanksgiving-Buchstabenrätsel für Vokabelprodukte`,
       description: `Buchstabenrätsel fördern Rechtschreib- und Vokabelfähigkeiten und festigen gleichzeitig Thanksgiving-Terminologie, der Kinder im November in Geschichten, Dekorationen und Shopgesprächen begegnen. Verwenden Sie den Buchstabenrätsel-Generator, um Rätsel mit Erntevokabular, Dankbarkeitswörtern und Thanksgiving-Feierbegriffen auf verschiedenen Schwierigkeitsstufen zu erstellen. Einfache Rätsel mit drei bis fünf Buchstaben wie Mais und Ernte funktionieren für Leseanfänger, während Wörter mit sieben bis neun Buchstaben wie Dankbarkeit und Füllhorn ältere Nutzer herausfordern. Lösungsschlüssel in jedes Produkt einschließen. Buchstabenrätsel-Sets lassen sich natürlich mit Wortsuchprodukten zu vokabelfokussierten Thanksgiving-Paketen kombinieren, die Käufern einen überzeugenden Grund geben, mehrere Artikel aus Ihrem Herbst-Druckvorlagen-Shop während des Oktober-November-Saisonverkaufsfensters zu kaufen.`,
       appId: 'word-scramble',
     },
@@ -93,7 +93,7 @@ Um maximalen Thanksgiving-Umsatz zu erzielen, entwickeln Sie Produkte über mehr
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Thanksgiving-Druckvorlagen auf Etsy verkaufen',
+      title: `Thanksgiving-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität für Thanksgiving-Druckvorlagen-Angebote, und die Herbst-Einkaufssaison erzeugt einen erheblichen Traffic-Schub für lehrreiche digitale Downloads. Veröffentlichen Sie Ihre Thanksgiving-Angebote bis Mitte September, damit die Etsy-Suchalgorithmen Zeit haben, Ihre Produkte zu indexieren und zu ranken, bevor der Oktober-Nachfrageanstieg beginnt. Nutzen Sie alle dreizehn Tags mit Variationen, die Thanksgiving-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Thanksgiving counting worksheets preschool", „harvest word search kindergarten" und „turkey coloring pages toddler" zielen auf spezifische Käufersuchen weit effektiver ab als breite Tags wie „Thanksgiving worksheets". Erstellen Sie feierorientierte Angebotsvarianten, die Aktivitätspakete als Shop-Thanksgiving-Partypakete oder Feiertagsreise-Unterhaltungssets positionieren. Angebotsbilder, die gedruckte Thanksgiving-Arbeitsblätter in herbstlich dekorierten Umgebungen mit saisonalen Requisiten wie Kürbissen, Blättern und Erntedekorationen zeigen, übertreffen flache digitale Vorschauen und erfassen die festliche Stimmung, die den Herbstverkehr antreibt. Positionieren Sie Ihre Thanksgiving-Produkte neben breiteren Herbst-Angeboten, um Käufer zu erfassen, die nach allgemeinen saisonalen Inhalten suchen und möglicherweise auch feiertagsspezifische Artikel kaufen.`,
     },
     {
@@ -147,18 +147,18 @@ Um maximalen Thanksgiving-Umsatz zu erzielen, entwickeln Sie Produkte über mehr
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -167,33 +167,33 @@ Um maximalen Thanksgiving-Umsatz zu erzielen, entwickeln Sie Produkte über mehr
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'weihnachten-druckvorlagen-ideen',
-      anchorText: 'Weihnachten-Druckvorlagen-Geschäftsideen',
+      slug: `weihnachten-druckvorlagen-ideen`,
+      anchorText: `Weihnachten-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Blaubeere — thematisches Lernbild', caption: 'Blaubeere' },
+    { src: `/image-library/fruits/apple.webp`, alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Aprikose — thematisches Lernbild`, caption: 'Aprikose' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — thematisches Lernbild`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banane — thematisches Lernbild`, caption: 'Banane' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Brombeere — thematisches Lernbild`, caption: 'Brombeere' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Blaubeere — thematisches Lernbild`, caption: 'Blaubeere' },
   ],
 
 

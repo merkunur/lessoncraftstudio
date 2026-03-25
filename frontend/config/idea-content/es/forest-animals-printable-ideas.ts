@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles de Animales del Bosque — Guía`,
     metaDescription: `Ideas rentables de imprimibles con temática de animales del bosque para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos, estrategias por plataforma.`,
 
-    primaryKeyword: 'ideas de imprimibles de animales del bosque',
+    primaryKeyword: `ideas de imprimibles de animales del bosque`,
     secondaryKeywords: [
-      'fichas animales bosque para vender',
-      'negocio imprimibles temática bosque',
+      `fichas animales bosque para vender`,
+      `negocio imprimibles temática bosque`,
       `fichas actividades animales bosque para vendedores`,
-      'vender imprimibles animales bosque en línea',
+      `vender imprimibles animales bosque en línea`,
     ],
     lsiKeywords: [
-      'fichas educativas criaturas del bosque',
-      'actividades hábitats naturaleza para niños',
-      'imprimibles vida silvestre para venta en línea',
+      `fichas educativas criaturas del bosque`,
+      `actividades hábitats naturaleza para niños`,
+      `imprimibles vida silvestre para venta en línea`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ El análisis de precios muestra que los productos imprimibles de animales del bo
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras del Bosque para Vender en Línea',
+      title: `Sopas de Letras del Bosque para Vender en Línea`,
       description: `Las sopas de letras con vocabulario de animales del bosque atraen a padres y vendedores que buscan desarrollar habilidades lingüísticas en torno a temas de naturaleza y hábitats. Crea puzzles con nombres de animales del bosque, vocabulario de hábitats forestales, terminología de hibernación y palabras estacionales de la naturaleza. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras, facilitando la producción de versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más palabras para usuarios mayores. Las variaciones estacionales como animales del bosque en otoño, vocabulario de hibernación y crías del bosque en primavera expanden tu catálogo de productos y captan compradores durante todo el año.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ El análisis de precios muestra que los productos imprimibles de animales del bo
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Animales del Bosque en Etsy',
+      title: `Vender Imprimibles de Animales del Bosque en Etsy`,
       description: `Etsy recompensa la especificidad en los listados de imprimibles de animales del bosque, y la estética del bosque te da una poderosa ventaja visual en los resultados de búsqueda. En lugar de títulos genéricos como «Fichas de Animales», apunta a palabras clave de cola larga como «fichas de conteo animales bosque preescolar» o «sopa de letras del bosque imprimible jardín de infantes». Utiliza las trece etiquetas con variaciones que combinen especies del bosque, tipo de habilidad y grupo de edad. Incluye etiquetas que hagan referencia a la tendencia de decoración infantil de bosque, ya que los padres que decoraron con esa estética buscan activamente productos imprimibles a juego. Las imágenes de listados mostrando fichas del bosque impresas en entornos acogedores con temática de naturaleza superan significativamente las vistas previas digitales planas. Programa nuevos listados para coincidir con los picos de demanda de otoño en septiembre a noviembre cuando los vendedores planifican unidades de hábitats y hibernación, y lanzamientos de primavera en marzo y abril para temas de crías de animales y despertar de la naturaleza.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades del Bosque en KDP',
+      title: `Publicar Libros de Actividades del Bosque en KDP`,
       description: `Amazon KDP funciona mejor para los imprimibles de animales del bosque cuando compilas fichas individuales en libros de actividades cohesivos que ofrecen variedad y valor dentro de la temática del bosque. Un libro de actividades de animales del bosque de cuarenta a sesenta páginas que combine conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo funciona bien en la categoría de libros de actividades para niños. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades animales bosque para niños», «fichas del bosque preescolar» y términos específicos por especie como «libro para colorear de osos» o «actividades de zorros para niños». Fija el precio entre cuatro y siete dólares para márgenes de regalías óptimos. Considera crear libros estacionales de animales del bosque junto con libros generales de actividades del bosque para captar a los compradores que buscan actividades de otoño, temas de hibernación o contenido de crías de animales en primavera.`,
     },
     {
@@ -154,18 +154,18 @@ El análisis de precios muestra que los productos imprimibles de animales del bo
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -174,12 +174,12 @@ El análisis de precios muestra que los productos imprimibles de animales del bo
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -190,17 +190,17 @@ El análisis de precios muestra que los productos imprimibles de animales del bo
     {
       pageType: 'idea',
       slug: 'insectos-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Insectos',
+      anchorText: `Ideas de Negocio de Imprimibles de Insectos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Tejón — imagen educativa temática', caption: 'Tejón' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagen educativa temática', caption: 'Castor' },
-    { src: '/image-library/forest%20creatures/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Tejón — imagen educativa temática`, caption: 'Tejón' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagen educativa temática`, caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
   ],
 
 

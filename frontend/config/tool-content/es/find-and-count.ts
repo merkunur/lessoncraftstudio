@@ -4,8 +4,8 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'generador fichas yo espío',
     secondaryKeywords: [
-      'creador fichas busca y cuenta uso comercial',
-      'generador fichas objetos ocultos para Etsy y KDP',
+      `creador fichas busca y cuenta uso comercial`,
+      `generador fichas objetos ocultos para Etsy y KDP`,
       `herramienta fichas yo espío identificación de letras`,
       `crear fichas busca y encuentra imprimibles para vendedores`,
     ],
@@ -19,16 +19,16 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Generador de Fichas Busca y Cuenta',
+    title: `Generador de Fichas Busca y Cuenta`,
     tagline: `Generador yo espío de doble modo con modo Objeto Oculto (cuadrícula de imágenes dispersas con hasta 4 objetos objetivo) y modo Identificación de Letras (cuadrícula de alfabeto específica por idioma con letras acentuadas), cuatro tipos de tarea combinables (rodear, cuadrado, tachar, contar) asignables por objeto objetivo, etiquetas de nombres de imágenes localizadas en 11 idiomas vía el sistema de Vocabulario de Imágenes, densidad de cuadrícula configurable de 5×5 a 10×10, claves de respuesta autogeneradas con anotaciones rojas de círculo/cuadrado/cruz y conteos de cantidad, y fichas sensibles al idioma donde las etiquetas de imágenes cambian según el idioma seleccionado`,
     description: `Crea fichas profesionales de yo espío y busca y cuenta donde los usuarios buscan en una escena de imágenes dispersas para encontrar, rodear, tachar o contar objetos específicos. El generador ofrece dos modos de actividad distintos en una sola herramienta. El modo Objeto Oculto dispersa imágenes en una cuadrícula configurable (5–10 filas × 5–10 columnas, predeterminado 6×6) y te permite asignar hasta 4 objetos objetivo con tipos de tarea individuales — rodear con un círculo, poner un cuadrado alrededor, tachar o contar cuántos aparecen. Cada celda muestra una imagen con un tamaño máximo de 80px. Los objetos objetivo se distribuyen aleatoriamente con 1–5 instancias cada uno, y las celdas restantes se rellenan con imágenes distractoras del tema. El modo Identificación de Letras muestra una cuadrícula de alfabeto específica por idioma con letras acentuadas — inglés A–Z (26 letras), alemán A–Z + ÄÖÜ (29 letras), español A–Z + Ñ (27 letras), sueco/finlandés A–Z + ÅÄÖ (29 letras), danés/noruego A–Z + ÆØÅ (29 letras) — renderizada en 7 columnas con ajuste automático de filas. Los usuarios seleccionan una letra y el generador crea una escena yo espío usando imágenes que empiezan con esa letra en el idioma seleccionado. El Generador de Busca y Cuenta es sensible al idioma: las etiquetas de nombres de imágenes en la ficha se muestran en el idioma seleccionado a través del sistema de Vocabulario de Imágenes. «Cat» se muestra como «Katze» en alemán, «Chat» en francés, «Gato» en español — y las primeras letras en Identificación de Letras se actualizan en consecuencia. El nivel Comercial incluye solo inglés; el Acceso Completo desbloquea los 11 idiomas para etiquetas localizadas. El sistema de doble lienzo genera tanto una pestaña de ficha como una pestaña de clave de respuesta simultáneamente. La clave de respuesta reproduce el diseño exacto de la ficha y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Un encabezado autogenerado muestra «Yo Espío» o «Identificación de Letras» (dependiendo del modo) con un borde azul (#2196F3), acento interior amarillo y título e instrucciones localizados en las fuentes Fredoka y Quicksand en los 11 idiomas compatibles. La aplicación autogenera al cargar la página con el tema de animales, 4 imágenes aleatorias, tipos de tarea aleatorios y una cuadrícula de 6×6 para una vista previa instantánea. Explora 104 colecciones temáticas con más de 3100 ilustraciones o sube imágenes personalizadas. Aplica temas de fondo y borde con controles de opacidad independientes. Añade texto personalizado con 7 opciones de fuente y contorno de texto de 0 a 10. Activa campos de nombre y fecha para identificación del usuario. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Predeterminado (800×1000), Carta, A4, Cuadrado (1200×1200) o dimensiones personalizadas. Activa escala de grises para impresión que ahorra tinta. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.`,
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas Yo Espío en 8 Pasos',
+    title: `Cómo Crear Fichas Yo Espío en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Generador de Fichas Busca y Cuenta',
+        title: `Abre el Generador de Fichas Busca y Cuenta`,
         description: `Haz clic en «Prueba Gratis Ahora» para abrir el generador de fichas yo espío en tu navegador. La herramienta carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuesta. La aplicación autogenera una ficha yo espío completa al cargar la página usando el tema de animales, 4 imágenes seleccionadas aleatoriamente, tipos de tarea asignados aleatoriamente y una cuadrícula de 6×6 — dándote una vista previa instantánea de lo que produce la herramienta. Sin crear cuenta, sin descargar software, sin instalación necesaria.`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Haz clic en Generar para construir la escena yo espío con tus ajustes personalizados. La cuadrícula de imágenes dispersas se llena con objetos objetivo distribuidos aleatoriamente (1–5 instancias cada uno) entre imágenes distractoras del tema. Un encabezado estilizado aparece en la parte superior con un borde azul (#2196F3), acento interior amarillo y título e instrucciones localizados en las fuentes Fredoka y Quicksand. Activa campos de nombre y fecha para fichas del mercado. Haz clic en Generar de nuevo para reconstruir con distribuciones aleatorias diferentes — mismas imágenes, mismos ajustes, diseño yo espío completamente diferente.`,
       },
       {
-        title: 'Revisa la Clave de Respuesta Autogenerada',
+        title: `Revisa la Clave de Respuesta Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuesta para ver las anotaciones autogeneradas. La clave de respuesta reproduce el diseño exacto de la ficha y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Alterna entre las pestañas de Ficha y Clave de Respuesta para comparar. La clave de respuesta se genera simultáneamente con la ficha — sin marcado manual, sin crear un archivo separado, sin posibilidad de respuestas que no coincidan.`,
       },
       {
@@ -84,14 +84,14 @@ const content: ToolContent = {
       description: `Crea fichas yo espío de conteo listas para venta en línea con campos de nombre/fecha y claves de respuesta impresas para estaciones de autocorrección. El tipo de tarea contar pide a los usuarios escribir cuántas instancias de cada objeto encuentran — combinando búsqueda visual con práctica de aritmética en una sola ficha. Crea conjuntos alineados con el catálogo de productos: conteo de animales de granja para ciencias, identificación de ayudantes comunitarios para estudios sociales, conteo de grupos de alimentos para nutrición y conteo de objetos estacionales para unidades de festividades. Cada ficha se exporta con su clave de respuesta autogenerada, eliminando el tiempo de preparación del vendedor para crear páginas de soluciones separadas.`,
     },
     {
-      title: 'Packs Multiformato de Busca y Encuentra',
+      title: `Packs Multiformato de Busca y Encuentra`,
       description: `Combina fichas yo espío con rompecabezas de objetos ocultos, actividades de sopa de letras, desafíos de crucigramas y fichas de búsqueda del tesoro usando temas coordinados en múltiples generadores. Yo espío desarrolla escaneo visual, identificación de objetos y habilidades de conteo. La sopa de letras construye reconocimiento de letras y vocabulario. Los crucigramas desafían ortografía y conocimiento de definiciones. Cada formato apunta a una habilidad cognitiva diferente mientras mantiene consistencia temática. Los packs multiformato obtienen precios premium porque padres y vendedores pagan más por colecciones completas de busca y encuentra que por packs de actividad individual.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Tienda de Actividades Yo Espío Temáticas en Etsy',
+      title: `Tienda de Actividades Yo Espío Temáticas en Etsy`,
       description: `Abre una tienda Etsy especializada en packs de actividades yo espío organizados por tema usando las 104 colecciones de imágenes. Yo espío de animales, yo espío de festividades, yo espío de granja, yo espío del océano — cada tema se convierte en un listado separado con tipos de tarea combinados (rodear, cuadrado, tachar, contar) y claves de respuesta autogeneradas. Cuatro tipos de tarea de cada tema cuadruplican la variedad de fichas dentro de un solo pack. La distribución aleatoria de imágenes significa que cada generación produce un diseño único, así que crear más de 20 fichas únicas por tema lleva minutos. Fija packs temáticos individuales a $3–$5 por 15–20 fichas con claves de respuesta y packs premium multi-tema a $7–$12 para colecciones de dificultad progresiva.`,
       platform: 'Etsy',
     },
@@ -106,12 +106,12 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Embudo de Tráfico de Fichas Yo Espío en Pinterest',
+      title: `Embudo de Tráfico de Fichas Yo Espío en Pinterest`,
       description: `Las fichas yo espío crean pines de Pinterest visualmente impactantes — cuadrículas de imágenes dispersas coloridas con el encabezado con borde azul «Yo Espío» crean contenido imprimible inmediatamente reconocible que padres y vendedores hacen clic. Publica fichas de muestra mostrando ambos modos: Objeto Oculto con tipos de tarea combinados e Identificación de Letras con cuadrículas de alfabeto. Crea series de pines separadas para «fichas yo espío para niños», «actividades imprimibles de busca y cuenta» y «fichas de identificación de letras del alfabeto». Las imágenes de vista previa de la clave de respuesta con anotaciones rojas demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Gumroad para conversión directa.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Actividades Yo Espío en Gumroad',
+      title: `Kit Completo de Actividades Yo Espío en Gumroad`,
       description: `Reúne fichas yo espío de los 104 temas, ambos modos de actividad y los cuatro tipos de tarea en un kit completo en Gumroad. Incluye más de 300 fichas que abarcan el modo Objeto Oculto con cada combinación de tipo de tarea y el modo Identificación de Letras con cobertura completa A–Z en múltiples idiomas. Cada ficha incluye su clave de respuesta autogenerada con anotaciones rojas, duplicando el conteo de archivos a más de 600 archivos totales. Las etiquetas sensibles al idioma, los alfabetos específicos por idioma y los modos de actividad dual producen más variedad que cualquier competidor que ofrezca un solo formato de yo espío. El formato de kit justifica precios premium.`,
       platform: 'Gumroad',
     },
@@ -155,7 +155,7 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: '¿Hay una prueba gratuita disponible?',
+      question: `¿Hay una prueba gratuita disponible?`,
       answer: `Sí. La herramienta ofrece una prueba gratuita con marca de agua con todas las funciones desbloqueadas — ambos modos de actividad (Objeto Oculto e Identificación de Letras), los cuatro tipos de tarea (rodear, cuadrado, tachar, contar), alfabetos específicos por idioma con letras acentuadas, densidad de cuadrícula configurable (5×5 a 10×10), la clave de respuesta autogenerada con anotaciones rojas, etiquetas de imágenes localizadas en 11 idiomas, las 104 colecciones de imágenes temáticas con más de 3100 ilustraciones, carga de imágenes personalizadas, temas de fondo y borde con opacidad independiente, campos de nombre/fecha, escala de grises y todos los formatos de descarga. Sin registro, sin tarjeta de crédito. Las descargas de prueba gratuita incluyen una marca de agua. Compra una licencia comercial para eliminar la marca de agua y desbloquear derechos de venta.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `El generador usa un sistema de doble lienzo con una pestaña de Ficha y una pestaña de Clave de Respuesta. La ficha muestra la escena de imágenes dispersas sin marcas — los usuarios buscan y completan las tareas ellos mismos. La clave de respuesta reproduce el diseño idéntico y superpone anotaciones visuales rojas: círculos alrededor de objetos con tarea de rodear, cuadrados alrededor de objetos con tarea de cuadrado, cruces sobre objetos con tarea de tachar y conteos de cantidad para objetos con tarea de contar. Descarga cada versión independientemente usando cuatro botones dedicados: ficha JPEG, ficha PDF, clave de respuesta JPEG y clave de respuesta PDF.`,
     },
     {
-      question: '¿Cuál es el diseño del encabezado autogenerado?',
+      question: `¿Cuál es el diseño del encabezado autogenerado?`,
       answer: `Cada ficha incluye un encabezado estilizado que cambia entre «Yo Espío» e «Identificación de Letras» según el modo activo. El encabezado presenta un borde azul (#2196F3) con un acento interior amarillo. El título se renderiza en la fuente Fredoka y las instrucciones en la fuente Quicksand. El texto del encabezado está localizado en los 11 idiomas compatibles — inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés.`,
     },
     {
@@ -199,35 +199,35 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes todos los derechos para vender fichas yo espío como descargas digitales en Etsy, cuadernos yo espío impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma, etiquetas de imágenes localizadas en 11 idiomas, densidad de cuadrícula configurable, claves de respuesta autogeneradas con anotaciones rojas, carga de imágenes personalizadas y 104 colecciones de imágenes temáticas te dan todo lo necesario para crear productos yo espío profesionales que compitan en categorías de busca y cuenta en todos los principales marketplaces.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita con marca de agua — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de comprar. Dado que la prueba gratuita te da acceso completo a ambos modos de actividad, los cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma, densidad de cuadrícula configurable, la clave de respuesta autogenerada con anotaciones rojas, etiquetas de imágenes localizadas en 11 idiomas, los 104 temas, carga de imágenes personalizadas, temas de fondo y borde, campos de nombre/fecha, escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencia. Asegúrate de que la herramienta se ajuste a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'buscar-contar-fichas', anchorText: `Actividades Yo Espío Busca y Cuenta — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-busca-objetos', anchorText: 'Generador de Fichas de Buscar Objetos' },
-    { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Generador de Crucigramas con Imágenes' },
-    { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: 'Generador de Búsqueda del Tesoro' },
+    { pageType: 'tool', slug: 'generador-busca-objetos', anchorText: `Generador de Fichas de Buscar Objetos` },
+    { pageType: 'tool', slug: `generador-crucigramas-imagenes`, anchorText: `Generador de Crucigramas con Imágenes` },
+    { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: `Generador de Búsqueda del Tesoro` },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: 'Generador de Recorrido de Imágenes' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Emparejamiento' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: `Generador de Recorrido de Imágenes` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Generador de Fichas de Emparejamiento` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Generador de Páginas para Colorear` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/find and count/Veo Veo 1.webp',
+      primary: `/samples/spanish/find and count/Veo Veo 1.webp`,
       primaryAlt: `Ficha yo espío busca y cuenta con imágenes dispersas en una cuadrícula configurable, borde de encabezado azul e instrucciones de cuatro tipos de tarea para rodear, cuadrado, tachar y contar`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/find and count/Veo Veo 1.webp',
+        src: `/samples/spanish/find and count/Veo Veo 1.webp`,
         alt: `Ficha yo espío busca y cuenta en modo retrato con cuadrícula de imágenes dispersas e imágenes temáticas entre objetos distractores`,
         caption: `Modo Objeto Oculto — yo espío clásico con tipos de tarea rodear, cuadrado, tachar y contar en una cuadrícula de imágenes dispersas`,
       },
       {
-        src: '/samples/spanish/find and count/Veo Veo 2.webp',
+        src: `/samples/spanish/find and count/Veo Veo 2.webp`,
         alt: `Clave de respuesta busca y cuenta con anotaciones rojas de círculo, cuadrado y cruz sobre objetos objetivo correctos y conteos de cantidad`,
         caption: `Clave de respuesta autogenerada — anotaciones rojas marcan círculos, cuadrados, cruces y totales de conteo para cada objeto objetivo`,
       },

@@ -2,19 +2,19 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas de conteo y gráficos',
+    primaryKeyword: `crear fichas de conteo y gráficos`,
     secondaryKeywords: [
-      'generador de fichas de gráficos pictóricos',
-      'crear fichas de conteo y gráficos para imprimir',
+      `generador de fichas de gráficos pictóricos`,
+      `crear fichas de conteo y gráficos para imprimir`,
       `fichas imprimibles de gráficos de imágenes para vender`,
-      'generador de fichas de gráfico de barras y conteo',
+      `generador de fichas de gráfico de barras y conteo`,
     ],
     lsiKeywords: [
       `actividad de conteo en cuadrícula de imágenes dispersas`,
       `fichas de gráficos con clave de respuestas automática`,
       `herramienta de representación de datos con lienzo dual`,
-      'vender fichas de gráficos en Etsy',
-      'Amazon KDP libros de habilidades de datos',
+      `vender fichas de gráficos en Etsy`,
+      `Amazon KDP libros de habilidades de datos`,
       `generador de gráficos pictóricos con licencia comercial`,
     ],
     titleTag: `Crear fichas de conteo y gráficos — Guía paso a paso`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Cómo crear fichas de conteo y gráficos',
+    title: `Cómo crear fichas de conteo y gráficos`,
     tagline: `Un tutorial paso a paso para crear fichas de gráficos pictóricos con cuadrículas de imágenes dispersas, claves de respuestas autogeneradas y gráficos de barras que puedes vender en Etsy, Amazon KDP y Gumroad`,
     description: `Las fichas de conteo y gráficos enseñan dos habilidades matemáticas fundamentales en una sola actividad: la recopilación de datos (contar imágenes dispersas) y la representación de datos (completar un gráfico de barras). Este formato de doble habilidad es un estándar de productos en las tiendas de educación primaria temprana en todo el mundo, creando una demanda sostenida durante todo el año en todos los marketplaces. Esta guía te acompaña en todo el proceso de creación usando el Generador de fichas de gráficos y conteo — desde elegir imágenes y generar la cuadrícula de imágenes dispersas hasta revisar la clave de respuestas autogenerada y exportar archivos listos para imprimir. Ya sea que estés lanzando tu primer producto de habilidades de datos o ampliando un catálogo existente de fichas de matemáticas, tendrás una ficha de gráfico pictórico terminada con su clave de respuestas correspondiente lista para publicar al final de este tutorial.`,
   },
@@ -31,23 +31,23 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Abre el Generador de fichas de gráficos y conteo',
+      heading: `Abre el Generador de fichas de gráficos y conteo`,
       content: `Navega al Generador de fichas de gráficos y conteo y haz clic en «Prueba gratis ahora» para lanzar el generador en tu navegador. La herramienta se carga al instante con una barra lateral de configuración a la izquierda y un lienzo dual con pestañas a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación necesaria.\n\nEl lienzo dual con pestañas es una característica distintiva de este generador. A diferencia de las herramientas de fichas con un solo lienzo, el Generador de fichas de gráficos y conteo produce simultáneamente tanto la ficha del usuario como la clave de respuestas del vendedor en la misma sesión. Trabajarás principalmente en la pestaña de Ficha durante la creación, y luego cambiarás a la pestaña de Clave de respuestas para revisar la solución autogenerada antes de exportar ambas.\n\nTómate un momento para familiarizarte con las secciones de la barra lateral: Configuración de página para dimensiones y decoraciones, Biblioteca de imágenes para seleccionar tus 6 tipos de imágenes, y Herramientas de texto para añadir títulos e instrucciones personalizados. El área del lienzo soporta edición completa de arrastrar y soltar con controles de zoom del 25% al 300%.`,
     },
     {
-      heading: 'Configura el diseño de página y el fondo',
+      heading: `Configura el diseño de página y el fondo`,
       content: `En la sección de Configuración de página, selecciona el tamaño de tu página. Las opciones incluyen Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Cuadrado (1200×1200) y dimensiones personalizadas. Carta es el estándar para compradores norteamericanos, mientras que A4 sirve a los mercados europeos e internacionales. Crear ambas versiones duplica tu alcance en el mercado con un esfuerzo adicional mínimo.\n\nEstablece un color de fondo de página — el blanco es el predeterminado para fichas limpias y aptas para impresión. Para productos de uso digital o paquetes premium, un pastel claro puede añadir calidez visual.\n\nEl generador ofrece tanto temas de fondo como temas de borde de la biblioteca incorporada, cada uno controlado por un deslizador de opacidad independiente (0–1, paso 0,05). Establece un fondo sutil de acuarela al 15–25% de opacidad para añadir textura sin distraer de la cuadrícula de imágenes y el gráfico de barras. Aplica un borde decorativo al 80–100% de opacidad para un marco pulido. Los temas de fondo y borde funcionan independientemente, así que puedes mezclar y combinar para crear un aspecto profesional del producto. Un estilo consistente en todo un paquete crea una identidad de marca cohesiva que los compradores reconocen y a la que vuelven.`,
     },
     {
-      heading: 'Elige la fuente de tus imágenes',
+      heading: `Elige la fuente de tus imágenes`,
       content: `El Generador de fichas de gráficos y conteo ofrece dos flujos de trabajo distintos para seleccionar los 6 tipos de imágenes que aparecerán en tu ficha.\n\nModo automático: Usa el desplegable de Fuente de imágenes de la ficha para seleccionar un tema como Animales, Comida o Vehículos. La aplicación elige aleatoriamente 6 imágenes de esa colección. Este es el flujo de trabajo más rápido para construir paquetes grandes — selecciona un tema, genera, repite. Con 104 colecciones temáticas que contienen más de 3.100 ilustraciones, tienes una enorme variedad sin ninguna selección manual.\n\nModo manual: Explora la Biblioteca de imágenes por tema o busca por palabra clave, luego haz clic exactamente en 6 imágenes. Las imágenes seleccionadas aparecen en una tira de vista previa donde puedes hacer clic para eliminar y reemplazar selecciones individuales. La selección manual te da un control preciso sobre qué tipos de imágenes aparecen juntos — útil para crear fichas alineadas con el catálogo de productos donde importan elementos específicos (solo animales de granja, solo criaturas del océano o grupos de alimentos específicos).\n\nTambién puedes subir imágenes personalizadas en PNG, JPG o GIF usando el botón de carga para gráficos pictóricos de temas específicos, contenido con marca o temas de nicho no cubiertos por la biblioteca incorporada.\n\nAmbos modos garantizan exactamente 6 tipos de imágenes por ficha, lo cual es esencial para el formato de gráfico de barras de 6 columnas. La elección estratégica entre automático y manual depende de tu producto: automático para creación rápida de paquetes, manual para productos educativos seleccionados.`,
     },
     {
-      heading: 'Genera la ficha de gráfico pictórico',
+      heading: `Genera la ficha de gráfico pictórico`,
       content: `Haz clic en Generar para crear tu ficha. La aplicación realiza varias operaciones simultáneamente:\n\nPrimero, distribuye 20 iconos dispersos de tus 6 tipos de imágenes seleccionados en una cuadrícula de 4×5 con un borde discontinuo en la parte superior de la página. Cada tipo de imagen aparece de 1 a 5 veces en una distribución aleatoria, así que cada generación produce un desafío de conteo único. La distribución dispersa evita que los usuarios simplemente cuenten filas o columnas — deben escanear visualmente e identificar cada tipo de imagen individualmente.\n\nDebajo de la cuadrícula, aparece un gráfico de barras de 6 columnas × 5 filas con columnas etiquetadas por cada tipo de imagen y filas numeradas del 1 al 5 de abajo hacia arriba. Los usuarios cuentan cuántos de cada tipo de imagen aparecen en la cuadrícula de arriba, y luego colorean o rellenan el número correspondiente de celdas en la columna correspondiente.\n\nUn encabezado autogenerado muestra el título localizado de «Gráfico pictórico» e instrucciones de conteo en una pastilla amarilla estilizada (#FFD93D) con un marco de borde naranja. Este encabezado se adapta automáticamente a los 11 idiomas soportados cuando cambias el idioma de la interfaz.\n\nExamina la ficha generada cuidadosamente. Verifica que los 6 tipos de imágenes sean claramente distinguibles en la cuadrícula. Comprueba que las etiquetas del gráfico de barras coincidan con las imágenes dispersas de arriba. Si quieres una distribución aleatoria diferente, simplemente haz clic en Generar de nuevo — la aplicación produce una disposición completamente nueva cada vez.`,
     },
     {
-      heading: 'Revisa la clave de respuestas autogenerada',
+      heading: `Revisa la clave de respuestas autogenerada`,
       content: `Haz clic en la pestaña de Clave de respuestas junto a la pestaña de Ficha para ver la solución autogenerada. La clave de respuestas muestra la misma cuadrícula de imágenes y gráfico de barras, pero las celdas correctas están rellenadas con resaltado amarillo (#FFC857) que muestra exactamente cuántos de cada tipo de imagen aparecen en la cuadrícula.\n\nLa clave de respuestas se genera simultáneamente con la ficha. No hay un paso de creación separado, no hay conteo manual y no hay posibilidad de error. Cuando haces clic en Generar en la pestaña de Ficha, la pestaña de Clave de respuestas se actualiza al mismo tiempo con la solución correspondiente.\n\nEste sistema de lienzo dual es tu mayor ventaja de producción. Los vendedores competidores que crean fichas de gráficos manualmente deben contar cada imagen y rellenar cada celda de la clave de respuestas a mano — un proceso tedioso y propenso a errores. El Generador de fichas de gráficos y conteo elimina esto por completo. Puedes generar de 15 a 20 fichas únicas por sesión temática, cada una con una clave de respuestas verificada, en el tiempo que tomaría crear y verificar manualmente una sola ficha.\n\nLos vendedores buscan específicamente fichas de gráficos «con clave de respuestas» en todos los marketplaces. Incluir la clave de respuestas con cada producto no es opcional — es una expectativa básica. La función de generación automática asegura que nunca envíes un producto sin ella.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender fichas de gráficos pictóricos en Etsy',
+      heading: `Vender fichas de gráficos pictóricos en Etsy`,
       content: `Etsy es el marketplace más grande para fichas educativas imprimibles, y las fichas de gráficos pictóricos ocupan un nicho creciente dentro de la categoría de matemáticas.\n\nOptimización de títulos: Incluye tu palabra clave principal al principio. Ejemplos fuertes: «Fichas de conteo y gráficos — Tema de animales — Gráfico pictórico con clave de respuestas — PDF imprimible» o «Fichas de actividades de gráficos pictóricos — Representación de datos — Rincón de matemáticas de infantil». Los títulos de Etsy pueden tener hasta 140 caracteres — usa el espacio completo para capturar tanto palabras clave amplias (fichas de conteo, fichas de gráficos) como específicas (gráfico pictórico, actividad de gráfico de barras).\n\nEtiquetas: Usa las 13 etiquetas disponibles. Combina amplias y específicas: «fichas de conteo», «gráfico pictórico», «actividad de gráficos», «representación de datos», «ficha de gráfico de barras», «matemáticas de infantil», «actividad para rincón de matemáticas», «fichas de matemáticas imprimibles», «conteo y gráficos», «matemáticas para trabajo desde casa», «fichas para venta en línea con clave de respuestas», «actividad visual de matemáticas» y variaciones similares.\n\nImágenes del listado: Sube de 5 a 10 imágenes. Incluye una vista previa de la ficha completa, un primer plano de la cuadrícula de imágenes dispersas, la sección del gráfico de barras, la clave de respuestas con celdas resaltadas en amarillo y una maqueta mostrando la ficha impresa y en uso. La imagen de la clave de respuestas es un fuerte argumento de venta — los compradores pueden ver exactamente cómo luce la solución.\n\nPrecios: Fichas individuales de gráficos pictóricos con clave de respuestas se venden a 1,49–2,99 $. Paquetes temáticos de 15–20 fichas se venden a 4,99–8,99 $. Mega-paquetes de múltiples temas de 50+ fichas se venden a 14,99–24,99 $.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Amazon KDP sirve al mercado de cuadernos, y los cuadernos de habilidades de datos son un nicho poco explotado dentro de la categoría de libros de actividades. En lugar de vender fichas PDF individuales, compilas múltiples fichas de gráficos pictóricos en un formato de libro encuadernado.\n\nFormato del producto: Crea un cuaderno con 60–100 fichas de gráficos pictóricos organizadas por tema, con páginas de clave de respuestas al final de cada sección. Usa el interruptor de escala de grises para un resultado apto para impresión en tinta que se reproduce perfectamente en impresión en blanco y negro. KDP requiere formato específico de PDF interior — 8,5×11 pulgadas es el tamaño de corte estándar para cuadernos de actividades.\n\nTítulo y subtítulo: KDP permite un título y un subtítulo. Ejemplo de título: «Fichas de conteo y gráficos para niños». Ejemplo de subtítulo: «100 actividades de gráficos pictóricos con cuadrículas de imágenes dispersas, gráficos de barras y claves de respuestas para edades de 4 a 7 años».\n\nPalabras clave: KDP proporciona 7 espacios de palabras clave. Usa frases específicas: «fichas de gráficos pictóricos para niños», «libro de actividades de conteo y gráficos», «cuaderno de representación de datos», «práctica de gráfico de barras preescolar», «fichas de conteo visual», «actividades de gráficos para rincón de matemáticas», «habilidades de datos infantil».\n\nVentaja global: Las fichas de gráficos pictóricos usan elementos visuales universales — celdas numeradas e imágenes. El mismo interior de KDP funciona de forma idéntica en todos los marketplaces internacionales de Amazon sin traducción. Un cuaderno sirve a todos los países.`,
     },
     {
-      heading: 'Vender fichas de gráficos pictóricos en Gumroad',
+      heading: `Vender fichas de gráficos pictóricos en Gumroad`,
       content: `Gumroad (Gumroad) es donde los emprendedores buscan específicamente recursos alineados con el catálogo de productos, y los gráficos pictóricos son un objetivo de aprendizaje estándar en los catálogos de productos de matemáticas de educación primaria temprana.\n\nLas descripciones de productos en Gumroad deben hacer referencia a habilidades específicas: recopilación de datos, representación de datos, gráficos pictóricos, gráficos de barras, conteo y gráficos. Menciona el nivel de grado (infantil a segundo), el número de fichas y claves de respuestas incluidas, y la alineación con los estándares de datos y medición.\n\nArchivos de vista previa: Gumroad te permite subir un archivo de vista previa. Incluye 2–3 fichas de muestra mostrando la cuadrícula de imágenes dispersas y el gráfico de barras, más una clave de respuestas mostrando las celdas resaltadas en amarillo. Los compradores necesitan ver el formato de doble componente (cuadrícula de conteo + gráfico) y la clave de respuestas incluida antes de comprar.\n\nPosicionamiento para rincón de matemáticas: Los vendedores compran mucho los recursos etiquetados como «actividades para rincón de matemáticas». Las fichas de gráficos pictóricos con campos de nombre y fecha incorporados son ideales para rincones de matemáticas independientes donde los usuarios trabajan en actividades de conteo y gráficos a su propio ritmo. Posiciona tus productos como «listos para rincón de matemáticas» o «imprimir y usar» para capturar este tráfico de búsqueda.\n\nPalabras clave específicas de Gumroad: «rincón de matemáticas», «datos y gráficos», «actividad de gráfico pictórico», «conteo y gráficos», «representación de datos», «trabajo matutino», «evaluación» y «práctica independiente». Estos términos coinciden con la forma en que los vendedores piensan y buscan recursos para venta en línea.\n\nAgrupación en Gumroad: Los vendedores compran paquetes para unidades completas. Un «Paquete completo de gráficos de infantil» con 50 fichas de gráficos pictóricos que cubren múltiples temas con claves de respuestas para cada una es un producto fuerte en Gumroad.`,
     },
   ],
@@ -96,11 +96,11 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Variaciones de producto por tema y dificultad',
+      heading: `Variaciones de producto por tema y dificultad`,
       content: `Aquí tienes ejemplos concretos de productos que puedes crear con el Generador de fichas de gráficos y conteo, organizados por categoría temática y público objetivo.\n\nTemas de animales para infantil (5–6 años): Usa el modo automático para seleccionar entre animales de granja, criaturas del océano, animales de la selva, mascotas, aves, insectos y animales del bosque. Cada tema genera fichas con 6 tipos de animales reconocibles en la cuadrícula de imágenes dispersas. Los animales son la categoría más buscada para productos imprimibles infantiles. Crea de 15 a 20 fichas por tema de animales — la distribución aleatoria asegura que cada ficha presente un desafío de conteo único.\n\nTemas de comida para preescolar (3–5 años): Frutas, verduras, productos horneados y snacks proporcionan imágenes instantáneamente reconocibles para los usuarios más pequeños. La cuadrícula de 4×5 con imágenes dispersas de alimentos grandes y coloridos hace que el conteo sea intuitivo para niños que apenas están aprendiendo a identificar y cuantificar objetos. Mantén los paquetes más pequeños (10–15 fichas) para este grupo de edad ya que padres y vendedores compran menos volumen para actividades de preescolar.\n\nTemas de vehículos para primer grado (6–7 años): Coches, camiones, aviones, barcos, vehículos de construcción y vehículos de emergencia atraen a un público específico y crean productos que destacan de la estética típica de fichas. Los usuarios de primer grado pueden manejar el formato completo de 6 tipos y 20 iconos y están listos para practicar habilidades de gráficos de barras de forma independiente.\n\nTemas de naturaleza y estacionales para productos multigrado: Iconos de clima, flores, árboles, hojas y elementos estacionales funcionan en todos los niveles de grado. Estos temas crean productos que puedes vender durante todo el año y actualizar con variaciones estacionales (flores de primavera, hojas de otoño, copos de nieve de invierno, elementos de playa de verano).`,
     },
     {
-      heading: 'Crear paquetes educativos multiformato',
+      heading: `Crear paquetes educativos multiformato`,
       content: `Los productos imprimibles de mayor valor combinan múltiples formatos de fichas en paquetes educativos integrales. Las fichas de gráficos pictóricos sirven como pieza central de paquetes de habilidades de datos que enseñan conteo, gráficos, comparación y análisis visual.\n\nPack de inicio de habilidades de datos de infantil: Combina 20 fichas de gráficos pictóricos (conteo y gráficos) con 10 fichas de asociación (discriminación visual) y 10 fichas de comparación mayor o menor, todo usando temas coordinados de animales. Precio del paquete a 12,99–16,99 $. Cada formato enseña una habilidad cognitiva diferente mientras mantiene la consistencia temática.\n\nPaquete de unidad de gráficos de primer grado: Compila 30 fichas de gráficos pictóricos que abarquen 6 temas diferentes con claves de respuestas para cada ficha. Añade una página de portada, una página de instrucciones y una hoja de seguimiento del usuario. Este producto listo para vender se posiciona como una unidad completa de gráficos que los vendedores pueden usar durante 4–6 semanas de instrucción en matemáticas. Precio a 14,99–19,99 $.\n\nLibro de actividades de conteo de Amazon KDP: Reúne 80 fichas de gráficos pictóricos organizadas en capítulos temáticos (animales, comida, vehículos, naturaleza, festividades) con páginas de clave de respuestas al final de cada capítulo. Activa la escala de grises para un resultado apto para impresión en tinta. Añade un índice y una portada sencilla. Los libros de actividades de KDP con esta cantidad de páginas se venden a 6,99–9,99 $ y generan regalías continuas sin trabajo de envío.\n\nMega-paquete de Etsy: Combina fichas de todos los temas disponibles en una colección de más de 100 fichas con claves de respuestas completas. Comercialízalo como el «paquete definitivo de gráficos pictóricos» o la «colección completa de conteo y gráficos». Precio a 24,99–34,99 $. Este se convierte en tu producto insignia que ancla tu tienda y captura a compradores que buscan recursos integrales.`,
     },
   ],
@@ -115,7 +115,7 @@ const content: GuideContent = {
       answer: `Cuando haces clic en Generar, la aplicación crea simultáneamente una clave de respuestas correspondiente en una pestaña de lienzo separada. La clave de respuestas muestra la misma cuadrícula de imágenes y gráfico de barras, pero las celdas correctas están rellenadas con resaltado amarillo (#FFC857) que muestra el conteo exacto para cada tipo de imagen. Cambia entre las pestañas de Ficha y Clave de respuestas para comparar. Descarga cada versión independientemente como JPEG y PDF. La clave de respuestas automática elimina el conteo manual y asegura la precisión en paquetes grandes de fichas.`,
     },
     {
-      question: '¿Puedo elegir qué imágenes aparecen en la ficha?',
+      question: `¿Puedo elegir qué imágenes aparecen en la ficha?`,
       answer: `Sí. El generador ofrece dos modos de selección de imágenes. El modo automático selecciona un tema del desplegable y la aplicación elige aleatoriamente 6 imágenes de esa colección. El modo manual te permite explorar la Biblioteca de imágenes por tema o palabra clave, luego hacer clic exactamente en 6 imágenes con una tira de vista previa mostrando tus selecciones. También puedes subir imágenes personalizadas en PNG, JPG o GIF. Ambos modos garantizan exactamente 6 tipos de imágenes por ficha para un formato consistente del gráfico de barras.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `La Biblioteca de imágenes incluye 104 colecciones temáticas con más de 3.100 ilustraciones coloridas que cubren animales, comida, vehículos, naturaleza, festividades, profesiones, deportes, estaciones, artículos del hogar y decenas de categorías más. Cada tema proporciona suficientes imágenes para que la aplicación seleccione aleatoriamente 6 tipos por ficha. Con 104 temas disponibles, puedes crear catálogos extensos de productos donde cada paquete usa un tema visual diferente.`,
     },
     {
-      question: '¿Las fichas son sensibles al idioma?',
+      question: `¿Las fichas son sensibles al idioma?`,
       answer: `No. Las imágenes dispersas y las celdas numeradas del gráfico de barras usan elementos visuales universales — las imágenes y los números funcionan de forma idéntica en todos los idiomas. El encabezado autogenerado traduce automáticamente el título de «Gráfico pictórico» y las instrucciones de conteo al idioma activo de la interfaz (11 idiomas soportados). El contenido de la ficha en sí no requiere traducción, así que un conjunto de productos sirve a un mercado global.`,
     },
     {
@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: `El conteo lleva naturalmente a la suma. Crea fichas de suma temáticas que complementen tus productos de gráficos pictóricos para paquetes integrales de matemáticas tempranas.`,
     },
     {
-      slug: 'crear-fichas-comparacion-tamanos',
+      slug: `crear-fichas-comparacion-tamanos`,
       title: 'Crear fichas de mayor o menor',
       description: `Extiende el conteo a la comparación de cantidades. Las fichas de mayor o menor se combinan perfectamente con los gráficos pictóricos para una colección completa de habilidades de datos y comparación.`,
     },
@@ -155,20 +155,20 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'graficos-conteo-fichas', anchorText: `Generador de fichas de gráficos y conteo — Todos los detalles` },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de suma — Todos los detalles' },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de fichas de suma — Todos los detalles` },
     { pageType: 'tool', slug: 'generador-graficos-imagenes', anchorText: `Prueba el Generador de fichas de gráficos y conteo` },
   ],
 
   toolsRecommended: [
     {
       appId: 'chart-count',
-      title: 'Generador de fichas de gráficos y conteo',
+      title: `Generador de fichas de gráficos y conteo`,
       description: `La herramienta principal de esta guía. Crea fichas de gráficos pictóricos con cuadrículas de imágenes dispersas, claves de respuestas automáticas de gráficos de barras y 104 colecciones de imágenes temáticas.`,
     },
     {
@@ -178,32 +178,32 @@ const content: GuideContent = {
     },
     {
       appId: 'more-less',
-      title: 'Generador de fichas de mayor o menor',
+      title: `Generador de fichas de mayor o menor`,
       description: `Extiende el conteo a la comparación de cantidades. Los usuarios que pueden contar imágenes dispersas están listos para comparar «¿qué grupo tiene más?» en fichas estructuradas de comparación.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de asociación',
+      title: `Generador de fichas de asociación`,
       description: `Complemento de discriminación visual. Las actividades de asociación se combinan naturalmente con las fichas de gráficos pictóricos — los usuarios deben reconocer imágenes idénticas antes de poder contarlas con precisión.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/chart count/Gráfico de Dibujos 1.webp`, alt: 'Ficha de gráfico pictórico con cuadrícula de 4×5 de imágenes dispersas y gráfico de barras para práctica de conteo y gráficos' },
+    heroImage: { src: `/samples/spanish/chart count/Gráfico de Dibujos 1.webp`, alt: `Ficha de gráfico pictórico con cuadrícula de 4×5 de imágenes dispersas y gráfico de barras para práctica de conteo y gráficos` },
     samples: [
-      { src: `/samples/spanish/chart count/Gráfico de Dibujos 1.webp`, alt: 'Ficha de gráfico pictórico con 20 iconos dispersos en una cuadrícula de 4×5 y gráfico de barras de 6 columnas debajo', caption: 'Ficha completa de gráfico pictórico con cuadrícula de imágenes dispersas y gráfico de barras para práctica de conteo del usuario' },
-      { src: `/samples/spanish/chart count/Gráfico de Dibujos 1 answer_key.webp`, alt: 'Clave de respuestas de gráfico pictórico con celdas resaltadas en amarillo mostrando los conteos correctos', caption: 'Clave de respuestas autogenerada con celdas resaltadas en amarillo (#FFC857) mostrando el conteo correcto para cada tipo de imagen' },
+      { src: `/samples/spanish/chart count/Gráfico de Dibujos 1.webp`, alt: `Ficha de gráfico pictórico con 20 iconos dispersos en una cuadrícula de 4×5 y gráfico de barras de 6 columnas debajo`, caption: `Ficha completa de gráfico pictórico con cuadrícula de imágenes dispersas y gráfico de barras para práctica de conteo del usuario` },
+      { src: `/samples/spanish/chart count/Gráfico de Dibujos 1 answer_key.webp`, alt: `Clave de respuestas de gráfico pictórico con celdas resaltadas en amarillo mostrando los conteos correctos`, caption: `Clave de respuestas autogenerada con celdas resaltadas en amarillo (#FFC857) mostrando el conteo correcto para cada tipo de imagen` },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: `Cómo crear fichas de conteo y gráficos — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — imagen educativa temática', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagen educativa temática', caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — imagen educativa temática`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagen educativa temática`, caption: 'Bisonte' },
   ],
 };
 

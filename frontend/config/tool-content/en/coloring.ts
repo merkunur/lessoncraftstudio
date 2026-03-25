@@ -3,17 +3,17 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'custom coloring page maker',
     secondaryKeywords: [
-      'coloring page maker for sellers',
-      'custom coloring worksheets to sell online',
-      'coloring page creator for Etsy sellers',
-      'printable coloring pages commercial use',
+      `coloring page maker for sellers`,
+      `custom coloring worksheets to sell online`,
+      `coloring page creator for Etsy sellers`,
+      `printable coloring pages commercial use`,
     ],
     lsiKeywords: [
-      'coloring page designer for printable business',
-      'grayscale coloring worksheet for printing',
-      'freehand drawing coloring activity maker',
+      `coloring page designer for printable business`,
+      `grayscale coloring worksheet for printing`,
+      `freehand drawing coloring activity maker`,
     ],
-    titleTag: 'Custom Coloring Page Maker — Create Pages Online',
+    titleTag: `Custom Coloring Page Maker — Create Pages Online`,
     metaDescription: `Create custom coloring pages to sell on Etsy and KDP. Free-form canvas, 3,100+ illustrations, 104 themes, freehand drawing, grayscale export.`,
     },
 
@@ -24,26 +24,26 @@ const content: ToolContent = {  seo: {
   },
 
   tutorial: {
-    title: 'How to Create Custom Coloring Pages in 8 Steps',
+    title: `How to Create Custom Coloring Pages in 8 Steps`,
     steps: [
       {
         title: 'Open the Coloring Page Maker',
         description: `Click "Try Free Now" to launch the coloring page generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building coloring pages immediately on the free-form canvas.`,
       },
       {
-        title: 'Set Your Page Layout and Border',
+        title: `Set Your Page Layout and Border`,
         description: `In the Page Setup section, select your page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or enter a custom dimension. Choose a page background color — white is the default for clean coloring pages. Select a decorative border theme from the border library with adjustable opacity to frame your page with a professional, polished look before adding any content.`,
       },
       {
-        title: 'Browse the Image Library and Add Images',
+        title: `Browse the Image Library and Add Images`,
         description: `Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Use the theme dropdown to filter by category or type in the search box to find specific images across all themes. Click any image to place it directly on your canvas as a fully movable, resizable object. Upload your own custom PNG, JPG, or GIF images alongside library content for maximum creative flexibility.`,
       },
       {
-        title: 'Arrange Images on the Free-Form Canvas',
+        title: `Arrange Images on the Free-Form Canvas`,
         description: `Drag images anywhere on the open canvas — no grid snapping, no template restrictions, no predetermined slots. Resize by dragging corner handles, rotate to any angle, and overlap images to create layered compositions. Use layer controls to manage stacking order, lock finished elements to prevent accidental moves, and zoom from 25% to 300% for precision placement. Undo and redo up to 20 states with Ctrl+Z and Ctrl+Y so you can experiment freely with every layout.`,
       },
       {
-        title: 'Sketch with the Freehand Drawing Tool',
+        title: `Sketch with the Freehand Drawing Tool`,
         description: `Switch to Drawing mode and sketch directly on the canvas with the freehand brush. Choose any brush color using the color picker and adjust the brush size from 1 to 50 pixels. Draw custom borders, add decorative doodles, create original illustrations, or sketch connector lines between images. The freehand tool creates hybrid coloring pages that blend library images with your own original artwork — a powerful differentiator for sellers who want truly unique products.`,
       },
       {
@@ -55,7 +55,7 @@ const content: ToolContent = {  seo: {
         description: `Open the Download panel and toggle the grayscale option to convert your colorful composition into ink-friendly coloring pages — the library images are colorful during design, but grayscale export converts them for print-ready output. Download as a high-resolution JPEG or print-ready PDF at 300 DPI. Files are production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files with no post-processing needed.`,
       },
       {
-        title: 'Batch Create with Theme Variations',
+        title: `Batch Create with Theme Variations`,
         description: `Repeat the process with different themes for rapid product creation. Clear the canvas, select a new theme from the 104 available collections, arrange fresh images on the free-form canvas, and export. Each theme produces visually distinct coloring pages. Combine this workflow with the freehand drawing tool and name and date helpers to create diverse product lines — themed coloring bundles, themed activity packs, and coloring book interiors — all from the same generator.`,
       },
     ],
@@ -63,7 +63,7 @@ const content: ToolContent = {  seo: {
 
   whatYouCanCreate: [
     {
-      title: 'Free-Form Themed Coloring Page Bundles',
+      title: `Free-Form Themed Coloring Page Bundles`,
       description: `Create themed coloring page bundles with 15–30 unique pages per set using the free-form canvas to arrange images in original compositions that template tools cannot replicate. Animals, ocean creatures, dinosaurs, vehicles, food, and holiday themes each become distinct product listings. The free-form layout means every page has a unique arrangement even within the same theme — no two pages look alike. Toggle grayscale for ink-friendly output, add decorative borders for a polished look, and export at 300 DPI. Themed bundles are the bread and butter of coloring page sellers on Etsy, with strong repeat buyers who collect multiple themes.`,
     },
     {
@@ -71,46 +71,46 @@ const content: ToolContent = {  seo: {
       description: `Compile 40–80 coloring pages into complete book interiors for Amazon KDP. The grayscale export toggle converts colorful compositions into ink-friendly pages that reproduce perfectly in standard black-and-white printing, keeping production costs low. Structure books by theme (animals, seasons, holidays), by age group (simple layouts for toddlers, detailed compositions for older children), or by activity type (coloring only, coloring with name fields, coloring with handwriting lines). The purely visual output publishes identically across all international KDP marketplaces without translation — one interior serves every country.`,
     },
     {
-      title: 'Structured Coloring Activity Sheets',
+      title: `Structured Coloring Activity Sheets`,
       description: `Use the one-click name and date helpers to create coloring pages with built-in name fields and handwriting practice lines. The name field adds "Name: ____" at the top for identification. The handwriting lines add solid-dashed-solid practice lines at the bottom. These two additions transform standard coloring pages into structured structured activities that Gumroad buyers specifically search for. Create themed sets aligned with curriculum topics — farm animals for science, community helpers for social studies, seasonal themes for holiday activities — each pack with name and date helpers pre-built.`,
     },
     {
-      title: 'Hybrid Illustration Coloring Pages',
+      title: `Hybrid Illustration Coloring Pages`,
       description: `Combine library images with freehand drawings to create coloring pages that blend curated illustrations with original artwork. Sketch custom borders, add decorative doodles around library images, draw connecting elements between themes, or create entirely original illustrations alongside curated content. This hybrid approach produces coloring pages that are impossible to duplicate — no one else has your exact combination of library selections and freehand artwork. Product originality is a critical competitive advantage in crowded coloring page categories on Etsy and KDP.`,
     },
     {
-      title: 'Seasonal and Holiday Coloring Collections',
+      title: `Seasonal and Holiday Coloring Collections`,
       description: `Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine's Day, summer, autumn, and winter themes each support dedicated coloring page packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The free-form canvas lets you combine multiple seasonal images on a single page for rich, detailed compositions that stand out from single-image coloring sheets. Seasonal products drive recurring annual revenue as buyers return each year.`,
     },
     {
-      title: 'Cross-Format Visual Activity Bundles',
+      title: `Cross-Format Visual Activity Bundles`,
       description: `Pair coloring pages with drawing lines worksheets, draw and color exercises, matching activities, and pattern worksheets using coordinated themes. Coloring pages build color recognition and creative expression. Drawing lines train pencil control. Draw and color develops spatial reproduction. Each format exercises a different visual-motor skill while maintaining thematic consistency. Multi-format bundles sell for significantly more than single-format packs and give learners varied practice across a unified theme.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Themed Coloring Page Shop on Etsy',
+      title: `Themed Coloring Page Shop on Etsy`,
       description: `Open an Etsy shop specializing in coloring page bundles organized by theme using the 104 themed image collections as your product catalog foundation. Animals, vehicles, food, nature, holidays, and professions each become separate listings. The free-form canvas means every page has a unique layout that competitors using template tools cannot match. Add name and date helpers to differentiate from generic coloring pages. Price individual theme packs at $3–$5 for 15–20 pages and premium collections at $8–$12 for 30–50 pages with decorative borders and name and date fields.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Coloring Book Series',
-      description: `Compile 50–80 coloring pages into themed books for Amazon KDP. The grayscale export produces ink-friendly pages that print perfectly in standard black-and-white. Structure a series by audience: toddler coloring books with simple large images, preschool books with moderate detail, and kids' books with complex multi-image compositions. The purely visual output publishes identically across all international KDP marketplaces — one interior serves every country without translation. Freehand drawings mixed with library images create original content that passes KDP's content differentiation requirements.`,
+      title: `Amazon KDP Coloring Book Series`,
+      description: `Compile 50–80 coloring pages into themed books for Amazon KDP. The grayscale export produces ink-friendly pages that print perfectly in standard black-and-white. Structure a series by audience: toddler coloring books with simple large images, preschool books with moderate detail, and kids` books with complex multi-image compositions. The purely visual output publishes identically across all international KDP marketplaces — one interior serves every country without translation. Freehand drawings mixed with library images create original content that passes KDP`s content differentiation requirements.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Coloring Activity Packs',
+      title: `Gumroad Coloring Activity Packs`,
       description: `Upload coloring page packs to Gumroad with name and date helpers as the key selling point. Every page includes a name field and handwriting practice lines — features that buyers specifically search for. Organize by theme: farm animals, community helpers, weather and seasons, shapes and patterns. The structured format commands higher prices than generic coloring pages because buyers pay a premium for print-and-go resources that include identification fields and writing practice.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Coloring Page Traffic Funnel',
+      title: `Pinterest Coloring Page Traffic Funnel`,
       description: `Coloring pages make visually striking Pinterest pins that drive traffic to your Etsy shop or landing page. Pin sample coloring pages with watermark showing the free-form compositions, themed image arrangements, and name and date helpers. Create separate pin series for "animal coloring pages," "holiday coloring worksheets," and "coloring activity worksheets." The purely visual format appeals to parents and buyers in every country. Link each pin to your product listings and build an email list of coloring page buyers for new release announcements.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Complete Coloring Toolkit',
+      title: `Gumroad Complete Coloring Toolkit`,
       description: `Bundle coloring pages with freehand drawing illustrations, themed activity sheets, and seasonal collections for a comprehensive coloring toolkit on Gumroad. Include 200+ coloring pages spanning all major themes with name and date helpers pre-built on every page. The toolkit format justifies premium pricing because buyers get a complete library rather than individual packs. Add new seasonal collections quarterly to drive repeat purchases from existing customers who want the latest additions.`,
       platform: 'Gumroad',
     },
@@ -127,23 +127,23 @@ const content: ToolContent = {  seo: {
       description: `The open canvas with no grid or template constraints is your biggest competitive advantage. Every coloring page you create has a unique layout that template-based generators cannot reproduce. Overlap images, rotate at unusual angles, cluster elements into scenes, and leave intentional white space for drawing practice. Original layouts stand out in Etsy search results and pass KDP's content differentiation requirements where template-generated pages may not.`,
     },
     {
-      title: 'Use Grayscale Export Strategically',
+      title: `Use Grayscale Export Strategically`,
       description: `Design with colorful images for an engaging editing experience, then toggle grayscale at export for ink-friendly output. Use grayscale for KDP interiors and bulk printing where black-and-white reproduction keeps costs low. Keep colorful versions for Etsy listing preview images where vibrant visuals drive clicks in search results. The same composition serves both purposes — one design session produces assets for multiple sales channels.`,
     },
     {
-      title: 'Add Layout Helpers to Command Higher Prices',
+      title: `Add Layout Helpers to Command Higher Prices`,
       description: `Coloring pages with name fields and handwriting lines sell for more than generic coloring pages because they serve a functional practical purpose. Buyers on Gumroad specifically search for "structured" coloring activities with identification areas. Adding these one-click helpers takes seconds but transforms your product from a simple coloring page into a structured learning activity that justifies premium pricing.`,
     },
     {
-      title: 'Combine Freehand Drawing with Library Images',
+      title: `Combine Freehand Drawing with Library Images`,
       description: `Use the freehand drawing tool to add original sketches alongside library images. Draw custom borders, connecting elements, decorative doodles, or entirely original illustrations. This hybrid approach creates coloring pages that no other seller can exactly duplicate — your freehand additions are unique intellectual property. Highlight "hand-drawn elements" in product descriptions to appeal to buyers who value artisan quality over mass-produced templates.`,
     },
     {
-      title: 'Build Seasonal Collections for Recurring Revenue',
+      title: `Build Seasonal Collections for Recurring Revenue`,
       description: `Create holiday and seasonal coloring page packs using themed collections from the library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.`,
     },
     {
-      title: 'Leverage Zero-Text Visual Output for Global Sales',
+      title: `Leverage Zero-Text Visual Output for Global Sales`,
       description: `Coloring pages contain no text on the output — they are purely visual. The same product file works in every country without translation. Create one set of coloring pages and sell worldwide across multiple Etsy shops, all KDP marketplaces, and international Gumroad. This eliminates translation costs and per-language maintenance, maximizing revenue from every design session.`,
     },
     {
@@ -162,19 +162,19 @@ const content: ToolContent = {  seo: {
       answer: `The Coloring Page Maker gives you a completely open canvas with no grids, no templates, no slots, and no predetermined layouts. Every image is placed exactly where you drag it. You can overlap images, rotate them to any angle, resize freely, and create layered compositions. Template tools lock you into fixed positions and produce identical-looking output. The free-form approach means every coloring page you create is unique and impossible to replicate with template generators.`,
     },
     {
-      question: 'How does the grayscale export work?',
+      question: `How does the grayscale export work?`,
       answer: `The image library contains colorful illustrations that you use during design for an engaging editing experience. When you are ready to export, toggle the grayscale option in the Download panel to convert your colorful composition into ink-friendly coloring pages. The grayscale conversion happens at export time — your canvas stays colorful while working. This approach is ideal for KDP interiors and bulk printing where black-and-white reproduction keeps costs low.`,
     },
     {
-      question: 'What are the name and date helpers?',
+      question: `What are the name and date helpers?`,
       answer: `Two one-click buttons add structured elements. The Name Field button places a formatted "Name: ____" text block at the top of the page for identification. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom for handwriting practice. These helpers transform coloring pages into structured structured activities without manual text formatting — a key selling point for Gumroad resources.`,
     },
     {
-      question: 'How does the freehand drawing tool work?',
+      question: `How does the freehand drawing tool work?`,
       answer: `Switch to Drawing mode and sketch directly on the canvas using the freehand brush. Choose any brush color with the color picker and adjust the brush size from 1 to 50 pixels. Freehand strokes become canvas objects that you can layer with library images. Draw custom borders, decorative doodles, original illustrations, or connecting elements. The freehand tool creates hybrid coloring pages that combine curated library content with your own original artwork.`,
     },
     {
-      question: 'Are the coloring pages language-sensitive?',
+      question: `Are the coloring pages language-sensitive?`,
       answer: `No. The Coloring Page Maker produces purely visual output with no text on the coloring page itself. Changing the language in the generator only affects the UI labels, not the exported worksheet. This makes your coloring pages universally sellable without translation. One product file serves every market worldwide.`,
     },
     {
@@ -182,7 +182,7 @@ const content: ToolContent = {  seo: {
       answer: `Coloring is a creative activity with no correct answer. Users choose their own colors and express their own artistic vision. There is no right or wrong way to color a page, so an answer key would be meaningless. This also simplifies your product creation workflow — every export is the final product with no separate answer file to manage.`,
     },
     {
-      question: 'What image themes and file formats are available?',
+      question: `What image themes and file formats are available?`,
       answer: `The image library includes 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Upload custom PNG, JPG, or GIF images alongside library content. Export as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output.`,
     },
     {
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Pages — Full Product Details' },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: `Coloring Pages — Full Product Details` },
     { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },
     { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Drawing Lines Maker' },
     { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big & Small Worksheet Maker' },

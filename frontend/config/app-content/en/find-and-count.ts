@@ -6,13 +6,13 @@ const content: AppContent = {
     secondaryKeywords: [
       `printable find and count worksheet maker for Etsy sellers`,
       `hidden object I spy activity generator for KDP publishers`,
-      'I spy worksheet creator with commercial license',
-      'sell find and count worksheets on Gumroad',
+      `I spy worksheet creator with commercial license`,
+      `sell find and count worksheets on Gumroad`,
     ],
     lsiKeywords: [
-      'digital I spy printables online business',
-      'commercial use hidden object worksheet generator',
-      'printable counting activity business tools',
+      `digital I spy printables online business`,
+      `commercial use hidden object worksheet generator`,
+      `printable counting activity business tools`,
     ],
     titleTag: `I Spy Worksheet Generator | Create Count Printables`,
     metaDescription: `Create I Spy counting worksheets to sell on Etsy, KDP & Gumroad. 4 task types, Letter Spotting mode, auto answer key, 104 themes. Try free — license available.`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create I Spy Worksheets in 5 Steps',
+    title: `How to Create I Spy Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -39,7 +39,7 @@ const content: AppContent = {
           `Select between two modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a grid where solvers search for specific objects. Letter Spotting mode activates a locale-specific alphabet grid with accented letters and generates scenes using images that begin with the selected letter. The header automatically switches between "I Spy" and "Letter Spotting" (localized in all 11 languages) based on your selection.`,
       },
       {
-        title: 'Select Images and Assign Task Types',
+        title: `Select Images and Assign Task Types`,
         description:
           `In Hidden Object mode, choose up to 4 target objects from the Image Library's 104 themed collections. For each selected image, assign a task type from the dropdown: circle (draw a circle around it), square (put a square around it), cross (cross it out), or count (count how many appear). The grid fills remaining cells with random distractor images from the theme. In Letter Spotting mode, click a letter from the alphabet grid to automatically populate target images and distractors.`,
       },
@@ -49,7 +49,7 @@ const content: AppContent = {
           `The app auto-generates on page load with the animals theme, 4 random images, and random task types. Click Generate to rebuild with your custom settings. The scattered image scene fills the grid with target objects distributed randomly (1–5 instances each) among distractor images. A styled header appears at the top with a blue border (#2196F3), yellow inner accent, and localized title and instructions in Fredoka and Quicksand fonts.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see auto-generated annotations: red circles around circled objects, red squares around squared objects, red crosses over crossed-out objects, and quantity count displays for counted objects. Download both versions using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: `Locale-Specific Alphabets with Accented Letters for Letter Spotting`,
         description:
-          `Letter Spotting mode displays an alphabet grid tailored to each language's character set. German includes Ä, Ö, and Ü alongside the standard 26 letters. Spanish adds Ñ. Swedish and Finnish include Å, Ä, and Ö. Danish and Norwegian add Æ, Ø, and Å. The alphabet grid renders in 7 columns and automatically adjusts row count based on the locale's letter count. Select a letter, and the generator creates an I Spy scene using images that begin with that letter in the selected language.`,
+          `Letter Spotting mode displays an alphabet grid tailored to each language`s character set. German includes Ä, Ö, and Ü alongside the standard 26 letters. Spanish adds Ñ. Swedish and Finnish include Å, Ä, and Ö. Danish and Norwegian add Æ, Ø, and Å. The alphabet grid renders in 7 columns and automatically adjusts row count based on the locale`s letter count. Select a letter, and the generator creates an I Spy scene using images that begin with that letter in the selected language.`,
       },
       {
         title: `Localized Image Name Labels in 11 Languages via Image Vocabulary`,
@@ -103,22 +103,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell I Spy Worksheets Online',
+    title: `How to Sell I Spy Worksheets Online`,
     cases: [
       {
-        title: 'Themed I Spy Activity Bundles on Etsy',
+        title: `Themed I Spy Activity Bundles on Etsy`,
         description:
           `Create themed I Spy worksheet packs using the 104 image collections — animal I Spy, holiday I Spy, food I Spy, vehicle I Spy, and dozens more. Mix all four task types within each bundle for variety: circle worksheets for fine motor practice, count worksheets for numeracy, cross-out worksheets for visual discrimination, and square worksheets for following directions. Package 10–20 I Spy worksheets per theme with answer keys included, and sell at $3–$7 per bundle. The auto-generated answer key eliminates the biggest time sink in I Spy worksheet production.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'I Spy Activity Workbooks on Amazon KDP',
+        title: `I Spy Activity Workbooks on Amazon KDP`,
         description:
           `Compile 40–80 I Spy worksheets into a printed workbook formatted for Amazon KDP. Structure your book by progressive difficulty: early chapters use 5×5 grids with 2 target objects, middle chapters increase to 7×7 grids with 3 targets, and advanced chapters use 10×10 grids with all 4 targets and mixed task types. Include answer keys at the back of the book using the auto-generated answer key feature. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'I Spy Counting Activity Packs on Gumroad',
+        title: `I Spy Counting Activity Packs on Gumroad`,
         description:
           `Build ready-to-use I Spy counting worksheets where solvers search, find, and count objects in a scattered scene. Buyers searching for counting activities value worksheets that combine visual search with numeracy practice. The count task type asks users to write how many instances of each object they find — a natural extension of I Spy into math skills. Create themed sets: farm animal counting, community helper counting, ocean creature counting, and seasonal object counting. Each set includes worksheets and answer keys in both PDF and JPEG formats.`,
         platform: 'Gumroad (gumroad.com)',
@@ -127,13 +127,13 @@ const content: AppContent = {
         title: `Letter Spotting and Phonics Bundles for Alphabet Awareness`,
         description:
           `Leverage Letter Spotting mode to create I Spy worksheets focused on beginning letter recognition. Each worksheet targets a specific letter — solvers find all objects starting with that letter in a scattered image scene. Create a complete A–Z Letter Spotting bundle with 26 worksheets (one per letter) and answer keys. The locale-specific alphabets with accented letters let you create language-specific phonics bundles for German (ÄÖÜ), Spanish (Ñ), and Nordic markets (ÅÄÖ/ÆØÅ) that competitors using English-only tools cannot match.`,
-        platform: 'Etsy / Gumroad (literacy market)',
+        platform: `Etsy / Gumroad (literacy market)`,
       },
       {
-        title: 'Multilingual I Spy Collections for Global Markets',
+        title: `Multilingual I Spy Collections for Global Markets`,
         description:
           `Leverage the language-sensitive image name labels to create I Spy worksheets in 11 languages. The same images produce different labeling when you switch languages — image names, Letter Spotting first letters, and header text all update automatically. Create multilingual I Spy bundles where each language version uses the same themed images but localized labels. This is valuable for sellers targeting bilingual markets and repeat buyers who need multiple language versions. Sell language-specific bundles or multilingual mega-packs at premium prices.`,
-        platform: 'Etsy / Gumroad (multilingual market)',
+        platform: `Etsy / Gumroad (multilingual market)`,
       },
     ],
   },
@@ -155,27 +155,27 @@ const content: AppContent = {
         `Letter Spotting mode displays a locale-specific alphabet grid tailored to each language's character set. English shows A–Z (26 letters), German adds Ä, Ö, and Ü (29 letters), Spanish adds Ñ (27 letters), Swedish and Finnish add Å, Ä, and Ö (29 letters), and Danish and Norwegian add Æ, Ø, and Å (29 letters). The grid renders in 7 columns with automatic row adjustment. When you select a letter, the generator shows images starting with that letter in the selected language and fills remaining cells with distractors.`,
     },
     {
-      question: 'How do localized image name labels work?',
+      question: `How do localized image name labels work?`,
       answer:
         `The Find & Count Generator is language-sensitive. Image name labels are rendered in the selected language via the Image Vocabulary system (image-vocabulary.js). For example, a cat image displays "Cat" in English, "Katze" in German, "Chat" in French, and "Gato" in Spanish. In Letter Spotting mode, first letters also change with the language — a cat starts with "C" in English but "K" in German and "G" in Spanish. The Commercial tier supports English only; Full Access unlocks all 11 languages.`,
     },
     {
-      question: 'How does the configurable grid density work?',
+      question: `How does the configurable grid density work?`,
       answer:
         `In the Page Setup panel, set rows from 5 to 10 and columns from 5 to 10. The default is 6×6 (36 cells). A smaller grid like 5×5 (25 cells) creates easier worksheets with larger images — ideal for beginner-level products. A larger grid like 10×10 (100 cells) creates dense, challenging scenes for advanced-level products. Each cell displays one image at a maximum size of 80px. Target objects appear 1–5 times each, with remaining cells filled by random distractor images from the theme.`,
     },
     {
-      question: 'Why is there a limit of 4 objects per worksheet?',
+      question: `Why is there a limit of 4 objects per worksheet?`,
       answer:
         `The generator enforces a maximum of 4 target objects per worksheet to maintain clear, focused I Spy activities. With 4 objects and 4 different task types, a single worksheet can contain 4 distinct search-and-do tasks — enough variety to challenge solvers without overwhelming them. The Hidden Object Questions panel shows a selected count display and provides a Clear Selection button to reset your choices. This limit ensures every worksheet remains visually scannable and commercially effective.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the scattered image scene without markings — solvers search and complete the tasks themselves. The answer key reproduces the identical layout and overlays red visual annotations: circles around circle-task objects, squares around square-task objects, crosses over cross-task objects, and quantity count displays for count-task objects. Both versions export separately using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.`,
     },
     {
-      question: 'Does the worksheet auto-generate on page load?',
+      question: `Does the worksheet auto-generate on page load?`,
       answer:
         `Yes. The app automatically generates a complete I Spy worksheet when you open it — using the animals theme, 4 randomly selected images, and randomly assigned task types on a 6×6 grid. This gives you an instant preview of what the tool produces. From there, you can customize the theme, grid dimensions, target objects, task types, and activity mode, then click Generate to rebuild with your settings.`,
     },
@@ -205,7 +205,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
+      anchorText: `Find Objects Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -215,22 +215,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'treasure-hunt-worksheets',
-      anchorText: 'Treasure Hunt Worksheet Generator',
+      anchorText: `Treasure Hunt Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'chart-count-worksheets',
-      anchorText: 'Chart & Count Worksheet Generator',
+      anchorText: `Chart & Count Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
+      anchorText: `Picture Path Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
+      anchorText: `Word Search Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,27 +240,27 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'How to Create I Spy Books for Amazon KDP',
+      anchorText: `How to Create I Spy Books for Amazon KDP`,
     },
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+      anchorText: `Camping Printable Ideas for Outdoor Learning`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+      anchorText: `Ocean Animals Printable Ideas for Marine Themes`,
     },
     {
       pageType: 'start',
       slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: `Marketing Your Printable Business`,
     },
     {
       pageType: 'guide',
       slug: 'create-counting-worksheets',
-      anchorText: 'How to Create Find & Count Worksheets',
+      anchorText: `How to Create Find & Count Worksheets`,
     },
   ],
 

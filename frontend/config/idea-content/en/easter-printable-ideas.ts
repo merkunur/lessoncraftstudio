@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Easter Printable Ideas to Sell — Niche Guide',
+    titleTag: `Easter Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover Easter printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Spring holiday product concepts, seasonal strategies, and platform tips for sellers.`,
 
     primaryKeyword: 'easter printable ideas',
     secondaryKeywords: [
       'Easter worksheets to sell',
-      'Easter themed printable business',
-      'Easter activity sheets for sellers',
-      'sell Easter printables on Etsy',
+      `Easter themed printable business`,
+      `Easter activity sheets for sellers`,
+      `sell Easter printables on Etsy`,
     ],
     lsiKeywords: [
-      'spring holiday educational worksheets',
-      'egg hunt themed activity pages',
-      'seasonal Easter printable resources',
+      `spring holiday educational worksheets`,
+      `egg hunt themed activity pages`,
+      `seasonal Easter printable resources`,
     ],
   },
   hero: {
-    title: 'Easter Printable Business Ideas for Sellers',
+    title: `Easter Printable Business Ideas for Sellers`,
     description: `Easter creates a vibrant spring selling window for printable entrepreneurs, with demand climbing from February through April as buyers plan spring educational activities and parents search for educational Easter basket fillers and egg hunt supplements. The niche offers delightful sub-theme variety including bunnies, decorated eggs, chicks, lambs, baskets, spring flowers, tulips, carrots, and egg hunts, providing sellers with a cheerful visual vocabulary that resonates strongly with younger buyers and their families. Church groups and community organizations add another buyer segment, seeking printable activities for Easter events and spring celebrations. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Easter niche combines predictable annual demand with a festive spring aesthetic that photographs beautifully for product listings and marketing materials. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a profitable Easter printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The Easter printable niche occupies a prime position in the spring selling calendar, delivering concentrated seasonal demand during a period when few other holidays compete for buyer attention. buyers begin planning spring educational activities and pre-Easter celebrations in February and early March, searching for themed worksheets that blend holiday charm with genuine educational outcomes. Parents seek age-appropriate Easter activities that serve double duty as Easter basket inserts and educational entertainment during the excitement-filled days leading up to the holiday. Church groups, Sunday school coordinators, and community event organizers purchase themed activity sheets for Easter egg hunts, spring festivals, and family-friendly celebrations that need structured activities for young participants.
@@ -36,17 +36,17 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
 
   productIdeas: [
     {
-      title: 'Easter Counting Worksheets for Printable Sellers',
+      title: `Easter Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring eggs, bunnies, chicks, flowers, and carrots bring spring excitement to early math practice that sellers and buyers eagerly purchase throughout the Easter season. Use the Find and Count generator to create Easter scenes where children locate and tally specific items among decorated baskets, flower gardens, and egg hunt landscapes. Offer sets targeting multiple ability levels: count spring objects up to five for preschool-age buyers, count and write numbers to ten for kindergarten-age buyers, and skip-counting with rows of decorated eggs or groups of baby chicks for first-grade-level buyers. Bundle by difficulty or combine all levels into a comprehensive Easter counting pack for tiered spring product bundles.`,
       appId: 'find-count',
     },
     {
-      title: 'Easter Word Search Puzzles to Sell Online',
+      title: `Easter Word Search Puzzles to Sell Online`,
       description: `Spring vocabulary word searches attract buyers planning March and April educational activities and parents seeking educational entertainment during the Easter celebration period. Create puzzles featuring Easter-specific vocabulary like bunny, basket, chick, lamb, tulip, bonnet, and chocolate alongside broader spring celebration terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more Easter terms for older users. Variations like egg hunt vocabulary, spring animal words, and Easter celebration terminology expand your catalog to capture different buyer interests within the spring seasonal niche.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Easter Matching Activities for Educational Shops',
+      title: `Easter Matching Activities for Educational Shops`,
       description: `Matching worksheets using Easter themes work across multiple skill areas, making them versatile products that appeal to the broadest possible spring buyer audience. Create sets where children match decorated eggs to baskets, pair spring animals like chicks with nests and bunnies with carrots, or connect Easter items to their matching patterns. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to preschool and kindergarten buyers planning Easter product packs where structured activities keep excited children focused and engaged. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the cheerful spring theme drives purchases throughout the February-April selling window.`,
       appId: 'matching',
     },
@@ -56,7 +56,7 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
       appId: 'addition',
     },
     {
-      title: 'Easter Coloring Pages for Etsy and KDP Sellers',
+      title: `Easter Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for Easter printable shops because spring coloring appeals to virtually every family with young children and generates early reviews that boost your shop visibility during peak seasonal traffic. The Coloring Page generator creates detailed outlines of Easter bunnies, decorated eggs, spring flowers, baby chicks, lambs, baskets overflowing with treats, and cheerful garden scenes. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as egg decorating patterns or spring animal characters. For KDP, compile thirty to fifty coloring pages into Easter activity books positioned as basket fillers or spring gifts. Add educational elements like Easter vocabulary labels, counting prompts, or letter practice alongside the coloring images to differentiate from purely decorative options.`,
       appId: 'coloring',
     },
@@ -90,12 +90,12 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Easter Printables on Etsy',
+      title: `Selling Easter Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for Easter printable listings, and the spring shopping season creates a significant traffic surge for educational digital downloads. Publish your Easter listings by late January to allow Etsy search algorithms time to index and rank your products before the February demand ramp begins. Use all thirteen tags with variations combining Easter sub-themes, skill types, and age groups: "Easter counting worksheets preschool," "spring word search kindergarten," and "bunny coloring pages toddler" target specific buyer searches far more effectively than broad tags like "Easter worksheets." Create celebration-oriented listing variations positioning activity bundles as product line Easter party packs or Easter basket fillers. Listing images showing printed Easter worksheets in spring-themed settings with seasonal props like pastel decorations and spring flowers outperform flat digital previews and capture the festive mindset that drives spring traffic.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Easter Activity Books on KDP',
+      title: `Publishing Easter Activity Books on KDP`,
       description: `Amazon KDP excels for Easter printables because parents and gift buyers naturally add activity books to their Amazon carts alongside Easter baskets, chocolate eggs, and spring toys. Compile individual Easter worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around spring themes. Use KDP keyword fields strategically: include "Easter activity book for kids," "spring worksheets preschool," and sub-theme terms like "bunny coloring book" or "egg hunt activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as Easter basket inserts or spring product line gifts. Publish by early February to ensure your books are indexed and available before the March planning phase intensifies, and consider creating multiple books targeting different age groups and sub-themes to capture varied search queries during the Easter rush.`,
     },
     {
@@ -145,32 +145,32 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
     {
       pageType: 'idea',
       slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween Printable Business Ideas',
+      anchorText: `Halloween Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
-    { src: '/image-library/spring/bird.webp', alt: 'Bird — themed educational image', caption: 'Bird' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Birdhouse — themed educational image', caption: 'Birdhouse' },
-    { src: '/image-library/spring/bud.webp', alt: 'Bud — themed educational image', caption: 'Bud' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Bunny — themed educational image', caption: 'Bunny' },
+    { src: `/image-library/spring/bee.webp`, alt: `Bee — themed educational image`, caption: 'Bee' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Bicycle — themed educational image`, caption: 'Bicycle' },
+    { src: `/image-library/spring/bird.webp`, alt: `Bird — themed educational image`, caption: 'Bird' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Birdhouse — themed educational image`, caption: 'Birdhouse' },
+    { src: `/image-library/spring/bud.webp`, alt: `Bud — themed educational image`, caption: 'Bud' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Bunny — themed educational image`, caption: 'Bunny' },
   ],
 
 

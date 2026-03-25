@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Primavera — Guia de Nicho`,
     metaDescription: `Descobre ideias de imprimíveis de primavera para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos sazonais, estratégias de março a maio e dicas úteis.`,
 
-    primaryKeyword: 'ideias de imprimíveis de primavera',
+    primaryKeyword: `ideias de imprimíveis de primavera`,
     secondaryKeywords: [
-      'fichas temática primavera para vender',
+      `fichas temática primavera para vender`,
       'negócio imprimíveis primavera',
-      'fichas atividades primavera para vendedores',
-      'vender imprimíveis de primavera no Etsy',
+      `fichas atividades primavera para vendedores`,
+      `vender imprimíveis de primavera no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas flores e jardim',
-      'páginas atividades natureza sazonal',
-      'imprimíveis temática primavera para a loja',
+      `fichas educativas flores e jardim`,
+      `páginas atividades natureza sazonal`,
+      `imprimíveis temática primavera para a loja`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Para maximizar as receitas de primavera, começa a publicar o teu catálogo comp
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Primavera para Vender Online',
+      title: `Sopas de Letras de Primavera para Vender Online`,
       description: `As sopas de letras com vocabulário de primavera atraem vendedores que planificam atividades de março a maio para a loja e pais que procuram entretenimento educativo durante a estação em que as crianças estão ansiosas por explorar a natureza e os temas ao ar livre. Cria puzzles com vocabulário específico de primavera como borboleta, jardim, arco-íris, lagarta, joaninha, florescência e guarda-chuva juntamente com termos mais amplos de natureza e clima. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de primavera para usuários mais velhos. As variações como vocabulário de jardim, palavras do clima e terminologia de animais de primavera expandem o teu catálogo para captar diferentes interesses de compradores ao longo da janela sazonal prolongada.`,
       appId: 'wordsearch',
     },
@@ -90,12 +90,12 @@ Para maximizar as receitas de primavera, começa a publicar o teu catálogo comp
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Primavera no Etsy',
+      title: `Vender Imprimíveis de Primavera no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis de primavera, e a janela sazonal prolongada de março a maio cria tráfego sustentado para as transferências digitais educativas que supera os picos de festividades de um único dia. Publica os teus anúncios de primavera no final de janeiro para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em fevereiro quando os vendedores iniciam o planeamento do catálogo de produtos de primavera. Utiliza as treze etiquetas com variações que combinem subtemas de primavera, tipos de competência e grupos etários: «fichas contagem primavera pré-escolar», «sopa de letras borboletas jardim de infância» e «páginas colorir jardim infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas primavera». Posiciona os produtos de primavera como recursos de aprendizagem de natureza e companheiros de atividades ao ar livre em vez de decorações puramente sazonais. As imagens de anúncios mostrando fichas de primavera impressas em ambientes com temática de natureza e acessórios sazonais como plantas em vaso, ferramentas de jardim e flores coloridas superam as pré-visualizações digitais planas e captam a energia fresca sazonal que impulsiona o tráfego de primavera durante todo o período de vendas prolongado.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Primavera no KDP',
+      title: `Publicar Livros de Atividades de Primavera no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de primavera porque os pais e vendedores naturalmente adicionam livros de atividades aos seus carrinhos da Amazon juntamente com material de jardim, brinquedos para exteriores e roupa de primavera durante a época de compras de março a maio. Compila fichas individuais de primavera em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas de natureza. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades primavera para crianças», «fichas natureza pré-escolar» e termos de subtemas como «livro colorir borboletas» ou «atividades jardim para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como companheiros de aprendizagem ao ar livre ou alternativas para cestas de Páscoa que proporcionam entretenimento sem ecrã durante os meses mais quentes. Publica no início de fevereiro para garantir que os teus livros estejam indexados e disponíveis antes de a procura de compras de março se intensificar, e considera criar múltiplos livros dirigidos a diferentes grupos etários para captar consultas de pesquisa variadas durante o período primaveril.`,
     },
     {
@@ -144,18 +144,18 @@ Para maximizar as receitas de primavera, começa a publicar o teu catálogo comp
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ Para maximizar as receitas de primavera, começa a publicar o teu catálogo comp
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,27 +180,27 @@ Para maximizar as receitas de primavera, começa a publicar o teu catálogo comp
     {
       pageType: 'idea',
       slug: 'verao-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Verão',
+      anchorText: `Ideias de Negócio de Imprimíveis de Verão`,
     },
     {
       pageType: 'idea',
       slug: 'pascoa-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Páscoa',
+      anchorText: `Ideias de Negócio de Imprimíveis de Páscoa`,
     },
     {
       pageType: 'idea',
       slug: 'insetos-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Insetos',
+      anchorText: `Ideias de Negócio de Imprimíveis de Insetos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/spring/bird.webp', alt: 'Pássaro — imagem educativa temática', caption: 'Pássaro' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Casa de Pássaro — imagem educativa temática', caption: 'Casa de Pássaro' },
-    { src: '/image-library/spring/bud.webp', alt: 'Rebento — imagem educativa temática', caption: 'Rebento' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Coelhinho — imagem educativa temática', caption: 'Coelhinho' },
+    { src: `/image-library/spring/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/spring/bird.webp`, alt: `Pássaro — imagem educativa temática`, caption: 'Pássaro' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Casa de Pássaro — imagem educativa temática`, caption: 'Casa de Pássaro' },
+    { src: `/image-library/spring/bud.webp`, alt: `Rebento — imagem educativa temática`, caption: 'Rebento' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Coelhinho — imagem educativa temática`, caption: 'Coelhinho' },
   ],
 
 

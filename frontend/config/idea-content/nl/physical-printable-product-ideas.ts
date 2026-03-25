@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fysieke Printable Producten Verkopen — Nichegids',
+    titleTag: `Fysieke Printable Producten Verkopen — Nichegids`,
     metaDescription: `Fysieke printable productideeën voor Etsy en marktverkopers. Bouw een premium business op met gedrukte, gelamineerde en gebonden werkblad producten en sets.`,
 
-    primaryKeyword: 'fysieke printable product ideeën',
+    primaryKeyword: `fysieke printable product ideeën`,
     secondaryKeywords: [
-      'gedrukte werkblad productbusiness',
-      'fysieke printable producten verkopen',
-      'tastbare printable business ideeën',
-      'gedrukte werkbladen verkopen offline',
+      `gedrukte werkblad productbusiness`,
+      `fysieke printable producten verkopen`,
+      `tastbare printable business ideeën`,
+      `gedrukte werkbladen verkopen offline`,
     ],
     lsiKeywords: [
-      'print-en-verzend educatieve producten',
+      `print-en-verzend educatieve producten`,
       'fysiek werkboek uitgeven',
-      'tastbare printbare producten verkoop',
+      `tastbare printbare producten verkoop`,
     ],
   },
   hero: {
@@ -36,32 +36,32 @@ Het jaarronde karakter van de vraag naar fysieke educatieve producten is sterk m
 
   productIdeas: [
     {
-      title: 'Gelamineerde Telactiviteiten Sets voor Verkopers',
+      title: `Gelamineerde Telactiviteiten Sets voor Verkopers`,
       description: `Gelamineerde telactiviteiten sets zijn een van de sterkste fysieke productcategorieën omdat de lamineerlaag herhaald gebruik mogelijk maakt met uitwisbare stiften — kinderen schrijven het antwoord, wissen het uit, en gebruiken het werkblad opnieuw. Gebruik de Zoek en Tel-generator om tien tot vijftien thematische telscènes te produceren, print op kwaliteitskarton, lamineer elke pagina, en bundel met een uitwisbare stift als compleet activiteitenstation. Verkoop voor vijftien tot vijfentwintig euro per set. De herbruikbaarheid rechtvaardigt de premiumpijs en maakt het product bijzonder aantrekkelijk voor verkopers die zoeken naar duurzame klasmaterialen. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Fysieke Woordzoeker Puzzelpakketten Verkopen',
+      title: `Fysieke Woordzoeker Puzzelpakketten Verkopen`,
       description: `Fysieke woordzoekerpakketten bieden een tastbare puzzelervaring die digitale bestanden niet kunnen evenaren. Gebruik de Woordzoeker-generator om twintig tot dertig thematische puzzels te produceren, print op kwaliteitspapier, en bind tot een professioneel puzzelboekje met spiraalband voor plat openliggen. Bied thematische pakketten aan per seizoen of per vocabulairegebied. Fysieke puzzelboekjes verkopen sterk als cadeaus en als reisvermaak. Verkoop voor tien tot achttien euro per boekje — de tastbare ervaring en de cadeauwaardigheid rechtvaardigen het premium prijspunt.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Gelamineerde Koppelkaarten Sets voor Winkels',
+      title: `Gelamineerde Koppelkaarten Sets voor Winkels`,
       description: `Gelamineerde koppelkaarten sets transformeren werkbladen in een interactief leerspel dat kinderen op tafel leggen, koppelen en herschikken. Print koppelparen op stevig karton, lamineer elke kaart, en snij tot individuele kaartjes die kinderen kunnen manipuleren. Bundel in een aantrekkelijke opbergdoos of -zakje. De Koppelen-generator produceert de afbeeldingen en labels die je op kaarten print. Gelamineerde koppelkaarten sets verkopen voor vijftien tot vijfentwintig euro en zijn bijzonder populair bij kinderdagverblijven en therapeuten die tastbare, manipulatieve leermaterialen zoeken.`,
       appId: 'matching',
     },
     {
-      title: 'Gebonden Rekenoefen Werkboeken voor Verkopers',
+      title: `Gebonden Rekenoefen Werkboeken voor Verkopers`,
       description: `Gebonden rekenoefen werkboeken bieden een professioneel alternatief voor thuisgeprinte werkbladen. Gebruik de Optellen-generator om vijftig tot zeventig pagina's rekenoefening te produceren op progressieve moeilijkheid, print op kwaliteitspapier, en bind met professionele spiraalband of stiftrugbinding. Verkoop per niveaucategorie voor twaalf tot twintig euro per werkboek. De professionele binding en printkwaliteit creëren een product dat visueel en tactiel superieur is aan thuisgeprinte alternatieven, wat ouders bijzonder waarderen als cadeau of als dagelijks oefenroutine-instrument.`,
       appId: 'addition',
     },
     {
       title: `Gelamineerde Kleuractiviteiten Stations voor Verkopers`,
-      description: `Gelamineerde kleuractiviteiten stations bieden herbruikbare kleurpagina's die kinderen invullen met uitwisbare stiften en steeds opnieuw kunnen gebruiken — een duurzaam alternatief voor wegwerpkleurboeken. De Kleuren-generator maakt gedetailleerde contouren die na laminering perfect werken met uitwisbare markers. Bundel tien tot vijftien gelamineerde kleurpagina's met een set uitwisbare stiften in een aantrekkelijke verpakking. Verkoop voor vijftien tot twintig euro per set. Dit product spreekt milieubewuste ouders aan en kinderdagverblijven die zoeken naar duurzame, herbruikbare activiteitenmaterialen.`,
+      description: `Gelamineerde kleuractiviteiten stations bieden herbruikbare kleurpagina`s die kinderen invullen met uitwisbare stiften en steeds opnieuw kunnen gebruiken — een duurzaam alternatief voor wegwerpkleurboeken. De Kleuren-generator maakt gedetailleerde contouren die na laminering perfect werken met uitwisbare markers. Bundel tien tot vijftien gelamineerde kleurpagina`s met een set uitwisbare stiften in een aantrekkelijke verpakking. Verkoop voor vijftien tot twintig euro per set. Dit product spreekt milieubewuste ouders aan en kinderdagverblijven die zoeken naar duurzame, herbruikbare activiteitenmaterialen.`,
       appId: 'coloring',
     },
     {
-      title: 'Fysieke Bingospellen in Doos voor Verkopers',
+      title: `Fysieke Bingospellen in Doos voor Verkopers`,
       description: `Fysieke bingospellen in een aantrekkelijke doos bieden een premium spelervaring die digitale bingokaarten niet kunnen evenaren. De Plaatjesbingo-generator produceert unieke kaarten die je print op stevig karton en lamineert voor duurzaamheid. Bundel vijfentwintig tot dertig gelamineerde bingokaarten met een leeskaart, fiches en spelinstructies in een mooie opbergdoos. Verkoop voor twintig tot vijfendertig euro per spel. Fysieke bingospellen zijn bijzonder populair als cadeau en als klassikale groepsactiviteit. De presentatie in een aantrekkelijke doos versterkt de cadeauwaardigheid.`,
       appId: 'bingo',
     },
@@ -90,17 +90,17 @@ Het jaarronde karakter van de vraag naar fysieke educatieve producten is sterk m
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Fysieke Educatieve Producten Verkopen op Etsy',
+      title: `Fysieke Educatieve Producten Verkopen op Etsy`,
       description: `Etsy is het sterkste platform voor fysieke printable producten dankzij de handgemaakte esthetiek die het platform kenmerkt en de bereidheid van Etsy-kopers om premium te betalen voor artisanale kwaliteit. Configureer je vermeldingen als fysieke producten met verzendopties in plaats van digitale downloads. Gebruik alle dertien tags met termen als "gelamineerd werkblad," "herbruikbaar printbare producten" en "handgemaakt educatief spel." Productfoto's zijn cruciaal voor fysieke producten — toon het product in gebruik, de verpakking, de lamineerglans, de materiaaldikte. De Nederlandse markt via Etsy.nl biedt kansen door het beperkte aanbod van Nederlandstalige handgemaakte educatieve materialen. Bied zowel binnenlandse verzending als EU-verzending aan voor maximaal bereik.`,
     },
     {
-      platform: 'Ambachtsmarkten en Onderwijs beurzen',
-      title: 'Fysieke Producten Verkopen op Markten en Beurzen',
+      platform: `Ambachtsmarkten en Onderwijs beurzen`,
+      title: `Fysieke Producten Verkopen op Markten en Beurzen`,
       description: `Ambachtsmarkten, kinderbeurzen en onderwijsbeurzen bieden unieke face-to-face verkoopkansen waar fysieke educatieve producten uitzonderlijk goed presteren. De NOT (Nationale Onderwijstentoonstelling) is de grootste onderwijsbeurs van Nederland waar duizenden verkopers educatieve materialen ontdekken en kopen. Lokale ambachtsmarkten en kerstmarkten trekken ouders en cadeaukopers aan die tastbare educatieve producten zoeken. Het tactiele element van fysieke producten — kopers kunnen het materiaal voelen, de kwaliteit beoordelen, en de pagina's doorbladeren — creëert aanzienlijk hogere conversiepercentages dan online verkoop. Bied demonstratie-exemplaren aan die bezoekers kunnen uitproberen.`,
     },
     {
       platform: 'Directe Schoolverkoop',
-      title: 'Fysieke Producten Verkopen Direct aan Scholen',
+      title: `Fysieke Producten Verkopen Direct aan Scholen`,
       description: `Directe verkoop aan scholen en kinderdagverblijven genereert de hoogste per-transactie omzet van alle verkoopkanalen omdat institutionele kopers in grotere hoeveelheden kopen met hogere budgetten per aankoop. Bied cataloguspakketten aan per niveaucategorie en per vaardigheidsgebied die verkopers en locatiemanagers kunnen bestellen voor hun hele groep of locatie. Maak professionele productfolders die je kunt achterlaten bij scholen, kinderdagverblijven en bijlescentra. Overweeg een "proefpakket" aan te bieden tegen gereduceerd tarief zodat verkopers de kwaliteit kunnen ervaren voordat ze een grotere bestelling plaatsen. Facturering op naam van de school — mogelijk via het schoolbestuur — is essentieel voor institutionele verkoop.`,
     },
     {
@@ -145,62 +145,62 @@ Het jaarronde karakter van de vraag naar fysieke educatieve producten is sterk m
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken',
+      anchorText: `Professionele kleurplaten maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'print-on-demand-printable-ideas',
-      anchorText: 'Print-on-demand printable businessideeën',
+      slug: `print-on-demand-printable-ideas`,
+      anchorText: `Print-on-demand printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
+      slug: `digital-download-printable-ideas`,
+      anchorText: `Digitale download printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'party-supply-printable-ideas',
-      anchorText: 'Feestartikelen printable businessideeën',
+      anchorText: `Feestartikelen printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

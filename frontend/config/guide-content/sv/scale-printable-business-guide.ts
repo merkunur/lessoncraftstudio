@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skala upp utskriftsbart företag',
+    primaryKeyword: `skala upp utskriftsbart företag`,
     secondaryKeywords: [
-      'hur man skalar upp ett utskriftsbart företag',
-      'växa utskriftsbar arbetsbladsverksamhet',
-      'tillväxtstrategi utskriftsbart företag',
-      'skala upp pedagogisk utskriftsbar försäljning',
+      `hur man skalar upp ett utskriftsbart företag`,
+      `växa utskriftsbar arbetsbladsverksamhet`,
+      `tillväxtstrategi utskriftsbart företag`,
+      `skala upp pedagogisk utskriftsbar försäljning`,
     ],
     lsiKeywords: [
       `företagstillväxt intäktsskalning automatisering outsourcing produktkatalogexpansion`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Hur du skalar upp ditt utskriftsbara företag',
+    title: `Hur du skalar upp ditt utskriftsbara företag`,
     tagline: `En komplett guide till att skala upp ditt utskriftsbara företag bortom sidoprojektintäkter — inklusive bedömning av skalningsberedskap och identifiering av flaskhalsar, batchproduktionssystem för konsekvent utdata, multiplattformsexpansionsstrategi, katalogtillväxt genom produktlinjeförlängningar, flerspråkig marknadsexpansion, automatisering av repetitiva uppgifter och tillväxtmått som driver strategiska beslut`,
     description: `Skillnaden mellan ett utskriftsbart sidoprojekt och en skalbar utskriftsbar verksamhet är inte talang, tur eller att arbeta hårdare. Det är system. Varje säljare som har vuxit från en handfull produkter med sporadisk försäljning till en katalog som genererar konsekvent månatlig intäkt gjorde det genom att ersätta manuellt arbete med repeterbara processer, expandera strategiskt över plattformar och marknader, och bygga en produktionspipeline som multiplicerar utdatan utan att multiplicera arbetade timmar. Denna guide leder dig genom det kompletta skalningsramverket — från att inse när ditt företag är redo att skala, genom att bygga systemen som gör tillväxt hållbar.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Innan du bygger skalningssystem behöver du förstå exakt var din tid går och vilka aktiviteter som faktiskt genererar intäkt. De flesta säljare av utskriftsbara produkter upptäcker att en överraskande andel av deras arbetstimmar går till uppgifter som kan elimineras, automatiseras eller komprimeras dramatiskt.\n\nSpåra din tid under en hel vecka över varje affärsaktivitet. Bryt ned ditt arbete i kategorier: produktskapande (design, formatering, generering av arbetsblad), listningsskapande (skriva titlar, beskrivningar, taggar, ladda upp filer), marknadsföring (sociala medier, e-post, annonser), administrativa uppgifter (svara på meddelanden, hantera beställningar, bokföring) och strategiskt arbete (marknadsundersökning, planering, konkurrensanalys). De flesta säljare upptäcker att produktskapande och listningshantering förbrukar 70% till 80% av deras tid, och lämnar nästan inget för det strategiska arbete som faktiskt driver tillväxt.\n\nIdentifiera de 20% av din ansträngning som producerar 80% av dina resultat. Titta på din försäljningsdata: vilka produkter genererar mest intäkt? Vilka plattformar producerar den mest konsekventa försäljningen? Vilka produkttyper har de högsta konverteringsgraderna? Denna analys avslöjar var ytterligare investering av tid och resurser producerar den högsta avkastningen. Om dina mattearbetsblad outsäljer dina målarsidor tre till ett kommer skalning av din mattearbetsbladproduktion att generera mer intäkt per investerad timme.\n\nKartlägg din produktskapandeprocess steg för steg och tidsbestäm varje steg. En typisk manuell arbetsbladsskapandeprocess kan se ut så här: undersök ämnet och standarderna (30 minuter), designa layouten (45 minuter), skapa innehållet (60 minuter), formatera för utskrift (30 minuter), skapa facit (20 minuter), designa omslagssidan (20 minuter), exportera och kvalitetskontrollera (15 minuter). Det är ungefär 3,5 timmar per produkt. Identifiera nu vilka steg som kan komprimeras eller elimineras med bättre verktyg och processer. Arbetsbladgeneratorer kan minska skapande-, formaterings- och facetstegen från över två timmar till under 20 minuter. Den enda förändringen tredubblar din produktionskapacitet utan att lägga till en enda arbetstimme.\n\nIdentifiera repetitiva uppgifter som följer samma mönster varje gång. Listningsskapande innebär ofta att skriva liknande beskrivningar, välja liknande taggar och ladda upp filer i samma format. Dessa uppgifter är kandidater för mallar och batchbearbetning. Om du skriver unika listningsbeskrivningar från grunden för varje produkt sparar byte till ett mallsystem där du anpassar en beprövad struktur 15 till 20 minuter per listning. Över 50 produkter är det 12 till 16 sparade timmar.\n\nLeta efter uppgifter du kan eliminera helt. Spenderar du tid på sociala medieplattformar som genererar noll försäljning? Spårar du manuellt lager som din försäljningsplattform redan spårar? Eliminering är den mest kraftfulla effektivitetsvinsten eftersom den frigör tid med noll kvalitetsavvägning.`,
     },
     {
-      heading: 'Bygg system för batchinnehållsproduktion',
+      heading: `Bygg system för batchinnehållsproduktion`,
       content: `Batchproduktion är den enskilt mest påverkande skalningstekniken för utskriftsbara företag. Istället för att skapa produkter en åt gången från start till slut grupperar du liknande uppgifter tillsammans och bearbetar dem i bulk. Detta minskar överheaden för kontextbyte, utnyttjar momentum och ökar dramatiskt utdatan per timme.\n\nDesigna ett batchskapandearbetsflöde kring dina arbetsbladgeneratorer. Snarare än att skapa ett additionsarbetsbladpaket, generera det, lista det och sedan gå vidare till ett subtraktionspaket, batcha ditt skapande: konfigurera och generera fem till tio arbetsbladpaket i en session, batcha sedan ditt listningsskapande för alla, batcha sedan din marknadsföring för gruppen. Varje uppgiftstyp kräver ett annorlunda mentalt läge — kreativt läge för innehållsbeslut, administrativt läge för listningsdetaljer, marknadsföringsläge för reklaminnehåll. Att stanna i ett läge för flera produkter är långt mer effektivt än att byta läge för varje produkt.\n\nEn praktisk batchproduktionssession kan fungera så här. Blockera två timmar för innehållsgenerering. Öppna din arbetsbladgenerator och skapa en tematisk serie: djur-additionsarbetsblad, djur-subtraktionsarbetsblad, djur-ordsökning, djur-matchningsspel, djur-målarsidor. Det delade temat innebär att du fattar liknande kreativa beslut över alla fem produkter, och generatorn hanterar formateringen och layouten automatiskt. Under två timmars fokuserad batchskapning kan du producera fem till åtta kompletta arbetsbladpaket som skulle ha tagit 15 till 20 timmar med manuella metoder.\n\nSkapa mallsystem för varje repeterbar aspekt av din verksamhet. Listningsbeskrivningsmallar med ifyllningsblanketter för produktspecifika detaljer. Tagglistor organiserade efter produkttyp, tema och årskurs. Prissättningsriktlinjer per produktkategori så att du inte räknar om prissättning för varje ny listning. Omslagssidemallar som bara kräver att byta titel och temabild. Varje mall eliminerar beslutsfattandetid och säkerställer konsistens genom din katalog, vilket stärker ditt varumärke och köparförtroende.\n\nSchemalägg batchproduktionssessioner på en regelbunden kadens. Veckovisa eller varannan-vecka produktionssessioner skapar en förutsägbar rytm: en session för att generera innehåll, en för att skapa listningar, en för marknadsföringsuppgifter. Denna kadens förvandlar produktskapande från en ad-hoc-aktivitet till en systematisk pipeline.\n\nDokumentera din batchprocess som en standardrutin. Skriv ned varje steg: vilka generatorinställningar att använda för varje produkttyp, hur filer organiseras, var utdata sparas, vilka namnkonventioner att följa. Denna dokumentation har två fördelar: den säkerställer konsistens när du producerar stora batcher, och den skapar en process som så småningom kan delegeras till en assistent om din verksamhet växer till den punkten.`,
     },
     {
@@ -47,15 +47,15 @@ const content: GuideContent = {
       content: `Multiplattformsförsäljning är en av de mest hävstångsrika skalningsstrategierna eftersom den placerar samma produkter framför helt annorlunda köparpooler. Ett arbetsbladpaket listat bara på Etsy når Etsy-shoppare. Samma paket listat på Etsy, Amazon KDP, Gumroad, Gumroad och Creative Fabrica når köpare på fem plattformar utan ytterligare skapandekostnad — bara listningsansträngningen, som minskar med övning och mallar.\n\nBörja din expansion med den plattform som bäst matchar din produkttyp. Om du säljer pedagogiska arbetsblad som främst används av säljare är Gumroad en naturlig andra plattform efter Etsy eftersom dess publik specifikt söker produktlinjesresurser. Om dina produkter riktar sig mot föräldrar och hemundervisare når Amazon KDP en massiv föräldrapublik genom Amazon-sökning. Om du har en e-postlista eller följarskara på sociala medier låter Gumroad dig sälja direkt till din publik med lägre avgifter. Välj din andra plattform baserat på köparanpassning, inte plattformspopularitet.\n\nAnpassa dina listningar snarare än att skapa dem från grunden. Dina Etsy-listningsbeskrivningar, bilder och prissättningsforskning ger grunden för listningar på andra plattformar. Varje plattform har annorlunda beskrivningsformat, tagggränser och bildkrav, men kärnvärdeerbjudandet och produktdetaljerna förblir desamma. Skapa ett huvudproduktdokument för varje produkt som innehåller all information någon plattformlistning kan behöva: full beskrivning, punktlistor, funktionslista, specifikationer, nyckelord och bildtillgångar. Anpassa sedan från detta huvuddokument för varje plattform.\n\nHantera multiplattformslager och prissättning med ett spårningssystem. Ett enkelt kalkylblad fungerar för de flesta utskriftsbara säljare: en rad per produkt, kolumner för varje plattform inklusive listnings-URL, pris, datum listat och månatlig försäljning. Detta kalkylblad blir ditt kommandocenter för multiplattformshantering.\n\nExpandera din plattformsnärvaro gradvis snarare än att lista allt överallt samtidigt. Börja med att lista dina fem bäst presterande produkter på din andra plattform. Övervaka prestanda under en till två månader. Om dessa produkter får dragkraft, expandera genom att lista din nästa batch. Denna gradvisa approach förhindrar överväldigande, låter dig lära dig varje plattform innan du satsar hela din katalog och ger prestandadata för att guida dina expansionsprioriteringar.\n\nRäkna in plattformsspecifika avgifter i din prissättningsstrategi för varje marknadsplats. Samma produkt kan behöva annorlunda priser på annorlunda plattformar för att bibehålla konsekventa vinstmarginaler. Din prissättningsguide bör ta hänsyn till Etsy-avgifter (ungefär 10% plus $0,45), Amazon KDP-royalty (60% vid standardprissättning), Gumroad-provisionsstruktur (20% till 45%) och Gumroad-avgifter (10% plus bearbetning). Prissätt varje produkt på varje plattform för att nå din mål-nettointäkt.`,
     },
     {
-      heading: 'Skala din katalog med produktlinjeförlängningar',
+      heading: `Skala din katalog med produktlinjeförlängningar`,
       content: `Produktlinjeförlängningar är det mest effektiva sättet att växa din katalog eftersom varje ny produkt utnyttjar forskningen, designbesluten och marknadskunskapen från dina befintliga produkter. Istället för att börja från noll med varje ny idé förlänger du systematiskt det som redan fungerar till nya variationer som betjänar samma köparbas.\n\nFörläng efter tema först eftersom det kräver minst ny forskning. Om dina djur-additionsarbetsblad säljer bra, skapa djur-subtraktion, djur-multiplikation, djur-ordsökning och djur-målarsidor. Temat är bevisat populärt, dina bildtillgångar finns redan och din köparpublik för djurtematiserat pedagogiskt innehåll är etablerad. Ett bevisat tema kan stödja 5 till 10 produktvariationer över olika arbetsbladtyper, var och en som tar en bråkdel av tiden att skapa jämfört med att undersöka och validera ett nytt tema från grunden.\n\nFörläng efter årskurs för att fånga angränsande köparsegment. Om dina första-klass mattearbetsblad presterar bra, skapa dagis- och andra-klassversioner. Ämnesexpertisen överförs, och föräldrar och köpare som köper en årskurs behöver ofta resurser för användare på angränsande nivåer. Årskursförlängningar skapar också naturliga paketmöjligheter: ett "Dagis till klass 2 mattepaket" som kombinerar tre årskurser till ett paket med premiumpris.\n\nFörläng efter svårighetsnivå inom befintliga produkter. Erbjud lätta, medel- och svåra versioner av dina mest populära arbetsblad. Denna förlängning tjänar flera syften: den skapar fler produkter från samma innehållsramverk, den ger köpare en anledning att köpa flera versioner och den möjliggör nivågrupperade paket (ett "Komplett svårighetsset"-paket). Arbetsbladgeneratorerna stöder svårighetskonfiguration, vilket gör det enkelt att producera tre svårighetsvarianter från ett enda produktkoncept med minimal extra tid.\n\nFörläng efter format för att betjäna olika användningsfall. Ditt arbetsbladinnehåll kan omformateras till flashkort, aktivitetsböcker, bedömningspaket eller produktlinjesdisplaymaterial. Varje format betjänar ett något annorlunda köparbehov samtidigt som det utnyttjar samma ämnesexpertis och innehållsforskning.\n\nPlanera dina förlängningar systematiskt med en produktlinjematris. Skapa ett rutnät med produkttyper (arbetsblad, ordsökning, matchning, målarsida) som kolumner och teman eller ämnen som rader. Fyll i cellerna där du har befintliga produkter och identifiera de tomma cellerna som expansionsmöjligheter. Prioritera cellerna intill dina starkaste säljare — dessa är förlängningarna som mest sannolikt lyckas eftersom de delar publik och marknadsvalidering med dina beprövade produkter.`,
     },
     {
-      heading: 'Implementera flerspråkig expansion',
+      heading: `Implementera flerspråkig expansion`,
       content: `Flerspråkig expansion är en av de mest underutnyttjade skalningsstrategierna i den utskriftsbara branschen. De flesta engelskspråkiga säljare överväger aldrig att översätta sina produkter, vilket innebär att de icke-engelska marknaderna är dramatiskt mindre konkurrensutsatta. Samma arbetsblad som konkurrerar med hundratals engelskspråkiga alternativ kan möta bara en handfull konkurrenter på tyska, franska, spanska eller portugisiska.\n\nArbetsbladgeneratorerna stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska. Detta innebär att du kan skapa professionellt formaterade arbetsblad med korrekt språkspecifik formatering, teckenstöd och pedagogisk standardanpassning för var och en av dessa marknader utan någon översättningsexpertis. Generatorn hanterar de språkspecifika elementen automatiskt.\n\nPrioritera språk baserat på marknadsstorlek och konkurrensnivå. Tyska och franska marknader har stora köparpopulationer över Europa med stark efterfrågan på pedagogiska utskriftsbara produkter. Spanska betjänar både europeiska och latinamerikanska köpare, vilket representerar en enorm kombinerad marknad. Portugisiska når Brasilien, en av de största ekonomierna i världen, plus Portugal. Börja med de ett eller två språk som representerar de största adresserbara marknaderna för din produkttyp, expandera sedan till ytterligare språk när du etablerar ditt flerspråkiga arbetsflöde.\n\nSkapa ditt flerspråkiga arbetsflöde som en batchprocess. När du producerar ett nytt engelskt arbetsbladpaket, skapa omedelbart samma produkt på dina prioritetsspråk under samma produktionssession. Innehållsbesluten är redan fattade — du tillämpar dem över språk, inte fattar nya kreativa beslut. En batch som producerar en engelsk produkt på 20 minuter kan producera samma produkt på tre ytterligare språk på ytterligare 30 till 40 minuter, vilket fyrdubblar din katalogutdata från ett enda innehållskoncept.\n\nLista flerspråkiga produkter på plattformsmarknadsplatser som betjänar dessa språkgemenskaper. Etsy har starka marknader i Tyskland, Frankrike och andra europeiska länder. Amazon har separata marknadsplatser för Tyskland, Frankrike, Spanien, Italien och andra länder. Undersök var köpare på varje språk primärt handlar pedagogiska utskriftsbara produkter och lista dina produkter på dessa specifika marknadsplatser.\n\nFlerspråkig expansion multiplicerar värdet av varje produktkoncept i din katalog. Ett enda arbetsblad skapat på 4 språk över 3 produkttyper producerar 12 produkter från ett kärnkoncept. Om varje produkt genererar ens blygsam intäkt adderar det sammanlagda beloppet över språk och typer upp avsevärt. Säljare som omfamnar flerspråkig produktion finner ofta att deras icke-engelska produkter kollektivt genererar mer intäkt än enbart deras engelska produkter, helt enkelt för att konkurrensen är så mycket lägre på icke-engelska marknader.`,
     },
     {
-      heading: 'Automatisera repetitiva affärsuppgifter',
+      heading: `Automatisera repetitiva affärsuppgifter`,
       content: `Automatisering eliminerar de repetitiva uppgifterna som förbrukar timmar utan att bidra till produktskapande, marknadsexpansion eller strategisk tillväxt. Varje timme du spenderar på uppgifter som kunde automatiseras är en timme som inte spenderas på aktiviteter som skalar din verksamhet.\n\nSkapa listningsmallar som minimerar manuell inmatning för varje plattform. En väldesignad listningsmall för Etsy, till exempel, innehåller din standardbeskrivningsstruktur, din standardtagguppsättning organiserad efter kategori, dina prissättningsriktlinjer och dina frakt- och policysektioner — allt förskrivet. När du listar en ny produkt anpassar du bara de produktspecifika sektionerna (titel, specifika funktioner, unika taggar) snarare än att skriva allt från grunden. Detta minskar listningstiden från 30 till 45 minuter till 10 till 15 minuter per produkt. Över en 20-produktbatch sparar det 6 till 10 timmar.\n\nBygg ett nyckelords- och taggbibliotek organiserat efter produkttyp, tema, årskurs och plattform. Istället för att undersöka taggar för varje ny listning, hämta från ditt förbyggda bibliotek. En "första klass matte"-tagguppsättning kan innehålla 20 beprövade taggar som du blandar och matchar för varje ny första-klass matteprodukt. En "skogsdjur"-tematagguppsättning lägger till temaspecifika taggar till ämnestaggar. Att kombinera förbyggda tagguppsättningar ger dig optimerade taggar på sekunder snarare än att undersöka dem för varje produkt individuellt.\n\nKonfigurera schemaläggning av sociala medier om sociala plattformar driver meningsfull trafik till dina listningar. Batchskapa inlägg för sociala medier under en dedikerad session — en timme per månad att skapa och schemalägga inlägg är långt mer effektivt än dagligt ad-hoc-postande.\n\nSkapa kundresponsmallar för vanliga frågor och interaktioner. Köpare ställer ofta samma frågor: "Vilken pappersstorlek är detta?" "Inkluderar det facit?" "Kan jag använda detta i mitt produktlinje?" Förskrivna svar som du kan anpassa med produktspecifika detaljer sparar avsevärd tid.\n\nAutomatisera din analysgranskning med en standardiserad månatlig incheck. Skapa en checklista eller kalkylbladsmall som fångar nyckelvärdena för varje plattform: intäkt, sålda enheter, konverteringsgrad, bäst presterande produkter och underpresterande produkter. En strukturerad månatlig granskning tar 30 till 60 minuter och ersätter timmar av ad-hoc-analyskontroll under månaden.\n\nAnvänd filorganiseringssystem som stöder batcharbetsflöden. Skapa en mappstruktur som speglar din produktionspipeline: en "utkast"-mapp för produkter under arbete, en "redo att lista"-mapp för färdiga produkter som väntar på listning, en "listad"-mapp organiserad efter plattform. Konsekventa filnamnkonventioner (produkttyp_tema_årskurs_språk) gör det möjligt att snabbt hitta, sortera och hantera hundratals produkter.`,
     },
     {
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `När din katalog växer multipliceras paketeringsmöjligheter exponentiellt. Tio enskilda produkter stöder dussintals möjliga paketkombinationer: ämnespaket, temapaket, årskurspaket, formatpaket och megasamlingar som kombinerar flera dimensioner. Varje paket är en ny produktlistning som inte kräver ytterligare innehållsskapande — bara förpacknings- och listningsarbete. En katalog med 30 enskilda produkter kan stödja 10 till 15 paket, vilket effektivt lägger till 33% till 50% fler listningar från befintligt innehåll. Paket genererar vanligtvis högre intäkt per transaktion än enskilda produkter, så de ökar oproportionerligt ditt genomsnittliga ordervärde. Planera ditt enskilda produktskapande med framtida paket i åtanke, och skapa produkter som grupperas naturligt i övertygande samlingar.`,
     },
     {
-      heading: 'Öka kundlivstidsvärde genom katalogdjup',
+      heading: `Öka kundlivstidsvärde genom katalogdjup`,
       content: `En djup, välorganiserad katalog förvandlar engångsköpare till återkommande kunder. När en säljare köper dina första-klass additionsarbetsblad och upptäcker att du också erbjuder första-klass subtraktion, multiplikation, ordproblem och ett komplett mattepaket ökar sannolikheten för ett andra köp dramatiskt. Skala din katalog strategiskt kring köparresor: om någon köper en produkt, vad skulle de logiskt behöva härnäst? Skapa dessa produkter och korsreferera dem i varje listning. När din katalog växer drar varje ny produkt du lägger till nytta av trafiken och förtroendet som genereras av varje befintlig produkt, vilket skapar en ackumulerande effekt där varje ytterligare produkt är mer värdefull än den förra.`,
     },
     {
@@ -138,34 +138,34 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'skapa-utskriftsbar-produktlinje',
-      title: 'Hur du skapar en utskriftsbar produktlinje',
+      slug: `skapa-utskriftsbar-produktlinje`,
+      title: `Hur du skapar en utskriftsbar produktlinje`,
       description: `Djupdykning i produktlinjestrategi — bygga sammanhängande samlingar som driver återköp och stöder det katalogdjup som behövs för effektiv skalning.`,
     },
     {
       slug: 'skapa-arbetsblad-paket',
-      title: 'Hur du skapar arbetsbladpaket som säljer',
+      title: `Hur du skapar arbetsbladpaket som säljer`,
       description: `Paketskapandestrategier som multiplicerar intäktsvärdet av din katalog — väsentligt för att maximera avkastningen på din skalningsinvestering.`,
     },
     {
-      slug: 'komplett-guide-utskriftsbart-foeretag',
+      slug: `komplett-guide-utskriftsbart-foeretag`,
       title: `Komplett guide till att starta utskriftsbart företag`,
       description: `Hörnstensguiden som täcker innehållsskapande, kommersiell licensiering, multiplattformsstrategi och att bygga en hållbar utskriftsbar verksamhet från grunden.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Hur du skapar arbetsbladpaket som säljer' },
-    { pageType: 'guide', slug: 'skapa-utskriftsbar-produktlinje', anchorText: 'Hur du skapar en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'prissaettning-pedagogiskt-material', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'nischval-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'undersoek-loenesamma-nischer', anchorText: 'Hur du undersöker lönsamma utskriftsbara nischer' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
+    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: `Hur du skapar arbetsbladpaket som säljer` },
+    { pageType: 'guide', slug: `skapa-utskriftsbar-produktlinje`, anchorText: `Hur du skapar en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: `prissaettning-pedagogiskt-material`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'nischval-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: 'undersoek-loenesamma-nischer', anchorText: `Hur du undersöker lönsamma utskriftsbara nischer` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
     { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: `Hur du startar en Etsy utskriftsbar butik från grunden` },
-    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: 'Hur du skapar additionsarbetsblad' },
-    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: 'Hur du skapar ordsökningspussel med bilder' },
-    { pageType: 'guide', slug: 'skapa-maelarsidor', anchorText: 'Hur du skapar målarsidor från tematiska bilder' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: `Hur du skapar additionsarbetsblad` },
+    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: `Hur du skapar ordsökningspussel med bilder` },
+    { pageType: 'guide', slug: 'skapa-maelarsidor', anchorText: `Hur du skapar målarsidor från tematiska bilder` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
   ],
 
@@ -187,28 +187,28 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Matchnings Arbetsblad Generator',
+      title: `Matchnings Arbetsblad Generator`,
       description: `Temamångfald visar hur tematiserat innehåll möjliggör systematisk katalogexpansion — ett matchningskoncept applicerat över dussintals teman skapar en heltäckande produktlinje.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: 'Professionellt additionsarbetsblad som demonstrerar produktkvaliteten som stöder skalbar utskriftsbar företagstillväxt' },
+    heroImage: { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: `Professionellt additionsarbetsblad som demonstrerar produktkvaliteten som stöder skalbar utskriftsbar företagstillväxt` },
     samples: [
-      { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: 'Additionsarbetsblad med tematiserade bilder som visar produktdiversitet för katalogskalning', caption: 'Tematiska arbetsbladsvariationer demonstrerar hur ett produktkoncept skalar till flera listningar över teman, årskurser och språk' },
-      { src: `/samples/swedish/wordsearch/ordletning%20portrait.webp`, alt: 'Ordsökningspussel som visar flerspråkig skalningspotential', caption: 'Ordsökningspussel skapade på 11 språk multiplicerar din katalog utan att multiplicera kreativ ansträngning — samma koncept når internationella marknader' },
-      { src: '/samples/swedish/matching/Matchningsspel.webp', alt: `Matchningsarbetsblad som demonstrerar systematisk katalogexpansion genom temavariationer`, caption: 'Matchningsarbetsblad över teman visar systematisk produktlinjeförlängning — varje nytt tema adderar produkter med beprövade format och befintliga bildtillgångar' },
+      { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: `Additionsarbetsblad med tematiserade bilder som visar produktdiversitet för katalogskalning`, caption: `Tematiska arbetsbladsvariationer demonstrerar hur ett produktkoncept skalar till flera listningar över teman, årskurser och språk` },
+      { src: `/samples/swedish/wordsearch/ordletning%20portrait.webp`, alt: `Ordsökningspussel som visar flerspråkig skalningspotential`, caption: `Ordsökningspussel skapade på 11 språk multiplicerar din katalog utan att multiplicera kreativ ansträngning — samma koncept når internationella marknader` },
+      { src: `/samples/swedish/matching/Matchningsspel.webp`, alt: `Matchningsarbetsblad som demonstrerar systematisk katalogexpansion genom temavariationer`, caption: `Matchningsarbetsblad över teman visar systematisk produktlinjeförlängning — varje nytt tema adderar produkter med beprövade format och befintliga bildtillgångar` },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: `Hur du skapar målarsidor med Rita & Färglägg — Demonstrerar kreativt omfång för katalogskalning`,
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Flygplan — tematisk pedagogisk bild', caption: 'Flygplan' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulans — tematisk pedagogisk bild', caption: 'Ambulans' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Cykel — tematisk pedagogisk bild', caption: 'Cykel' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Båt — tematisk pedagogisk bild', caption: 'Båt' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — tematisk pedagogisk bild', caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Flygplan — tematisk pedagogisk bild`, caption: 'Flygplan' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulans — tematisk pedagogisk bild`, caption: 'Ambulans' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Cykel — tematisk pedagogisk bild`, caption: 'Cykel' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Båt — tematisk pedagogisk bild`, caption: 'Båt' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — tematisk pedagogisk bild`, caption: 'Bulldozer' },
   ],
 };
 

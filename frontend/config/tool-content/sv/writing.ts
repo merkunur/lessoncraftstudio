@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skrivövningar arbetsblad generator',
+    primaryKeyword: `skrivövningar arbetsblad generator`,
     secondaryKeywords: [
-      'skrivövningar arbetsblad skapare för säljare',
-      'skapa bokstavsspårning arbetsblad att sälja',
+      `skrivövningar arbetsblad skapare för säljare`,
+      `skapa bokstavsspårning arbetsblad att sälja`,
       `utskrivbara skrivövningar arbetsblad kommersiellt bruk`,
-      'skrivövningar generator för KDP',
+      `skrivövningar generator för KDP`,
     ],
     lsiKeywords: [
       `streckordnings pil skrivövningar utskriftsbara för Etsy`,
       `toningar spårning bokstavsövning arbetsblad verktyg`,
-      'kursiv och tryckstil skrivövnings generator',
+      `kursiv och tryckstil skrivövnings generator`,
     ],
     titleTag: `Skrivövningar Arbetsblad Generator | Skapa och Sälj`,
     metaDescription: `Generera skrivövningar arbetsblad med tre övningslägen, fem typsnittsstilar, pilguidad streckordning, toningsguider, 104 teman. Gratis provversion med vattenstämpel.`,
   },
 
   hero: {
-    title: 'Skrivövningar Arbetsblad Generator',
+    title: `Skrivövningar Arbetsblad Generator`,
     tagline: `Skapa bokstavsövningsblad med tre progressiva lägen, pilguidad streckordning och tonande bokstavsguider som bygger skrivflyt från full spårning till självständig skrivning`,
     description: `Designa professionella skrivövnings arbetsblad byggda på ett treläges progressionssystem: Spåra-läget ger fasta bokstavskonturer för nybörjare att följa direkt, Tonande Spårning reducerar progressivt bokstavsopaciteten över raden så användarna övergår från stöttad spårning till självständig åtekallelse inom en enda rad, och Guidad Kopiering erbjuder en svag kontur för nästintill självständig skrivning med minimalt visuellt stöd. Fem typsnittsstilar ger dig fullständig kontroll över bokstavspresentationen — Tryck Vanlig för standardblockbokstäver, Tryck Vanlig Pil med numrerade riktningspilar som visar exakt streckordningsformation, Tryck Spårning för prickade konturerbokstäver designade för spårningsövningar, Tryck Spårning Pil som kombinerar prickade konturer med streckordningspilar, och Kursiv (Great Vibes) för flytande skriptövning. Den pilguidade streckordningen är den utmärkande funktionen: numrerade riktningspilar på varje bokstav visar användarna exakt hur de ska forma varje streck i rätt sekvens, och förvandlar en grundläggande spårningssida till ett instruktionsverktyg. Varje rad på arbetsbladet är oberoende konfigurerbar — eget övningsläge, typsnittsstil, innehållskälla och versalkonfiguration — så en enda sida kan blanda Spåra-läge för nya bokstäver, Tonande Spårning för övade bokstäver och Guidad Kopiering för repetition. Innehållskällor inkluderar Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar (Begynnelsebokstav eller Hela Filnamn-lägen), Anpassad Text för valfritt ord eller fras, och Tom för blanka linjerade rader. Förskrivningsstreckövningar (vertikala linjer, horisontella linjer, cirklar, sicksack-linjer) bygger finmotoriska grunder före bokstavsformation. Exportera tryckfärdiga PDF:er och JPEG-bilder med ~300 DPI via en 6× renderingsmultiplikator i Letter, A4 eller anpassade storlekar. Välj bland 7 typsnitt för textöverlägg, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.`,
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: `Hur du Skapar Skrivövnings Arbetsblad i 8 Enkla Steg`,
     steps: [
       {
-        title: 'Öppna Skrivövnings Arbetsblad Skaparen',
+        title: `Öppna Skrivövnings Arbetsblad Skaparen`,
         description: `Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga skrivövnings arbetsblad omedelbart.`,
       },
       {
@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: `I avsnittet Sidinställningar väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, eller ange en anpassad storlek. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet från 104-tema bildbiblioteket och välj en dekorativ ramkant med oberoende opacitetskontroll. Dessa layoutval ger dina arbetsblad ett polerat, professionellt utseende.`,
       },
       {
-        title: 'Lägg till rader och välj övningsläge för varje',
+        title: `Lägg till rader och välj övningsläge för varje`,
         description: `Varje skrivövnings arbetsblad byggs rad för rad, och varje rad har sina egna oberoende inställningar. För varje rad, välj ett av tre övningslägen: Spåra ger fasta bokstavskonturer som användarna följer direkt med fullt visuellt stöd. Tonande Spårning börjar med fasta bokstäver till vänster som progressivt tonar ut över raden, bygger självständighet med varje upprepning. Guidad Kopiering visar en svag kontur för nästintill självständig skrivning med minimalt visuellt stöd.`,
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {
         description: `Välj bland fem typsnittsstilar för varje rad: Tryck Vanlig för standardblockbokstäver, Tryck Vanlig Pil med numrerade riktningspilar som visar exakt streckordningsformation, Tryck Spårning för prickade konturerbokstäver designade för spårningsövningar, Tryck Spårning Pil som kombinerar prickade konturer med streckordningspilar, och Kursiv (Great Vibes) för flytande skriptövning. De pilguidade typsnitten är den utmärkande funktionen — numrerade pilar på varje bokstav visar användarna exakt hur de ska forma varje streck i rätt sekvens.`,
       },
       {
-        title: 'Ställ in innehållskälla och bokstavsläge',
+        title: `Ställ in innehållskälla och bokstavsläge`,
         description: `Konfigurera vad varje rad övar. Bildbibliotek — Begynnelsebokstav-läge använder första bokstaven av varje bildnamn med bilden som visuell referens. Bildbibliotek — Hela Filnamn-läge skriver det kompletta ordet. Anpassad Text-läge låter dig skriva valfritt ord, fras eller mening. Tom-läge skapar blanka linjerade rader med trelinje-guidesystemet. Ställ sedan in bokstavsläge: Versaler, Gemener eller Inledande Versal per rad.`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `För yngre användare eller finmotorisk utveckling, lägg till förskrivningsstreckövningar: vertikala linjer (uppifrån-och-ner dragning), horisontella linjer (vänster-till-höger svepning), cirklar (kontinuerlig kurvkontroll) och sicksack-linjer (riktningsbyte övning). Dessa övningar bygger grundläggande penngreppsstyrka och hand-öga-koordination som behövs före bokstavsformation. Placera förskrivningsrader överst på arbetsbladet som uppvärmning före bokstavsövningsrader.`,
       },
       {
-        title: 'Anpassa text, typsnitt och arbetsytelayout',
+        title: `Anpassa text, typsnitt och arbetsytelayout`,
         description: `Använd panelen Textverktyg för att lägga till en arbetsblads-titel, namn- och datumfält eller anpassade instruktioner. Välj bland 7 typsnittsfamiljer för textöverlägg: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Använd Fabric.js arbetsyteverktyg för att dra, ändra storlek, rotera och flytta varje element på sidan. Justeringsverktyg, lås- och upplåsningskontroller, och obegränsad ångra och gör om låter dig finjustera layouten exakt.`,
       },
       {
@@ -72,15 +72,15 @@ const content: ToolContent = {
       description: `Sammanställ 80–120 skrivövningssidor till en tryckt arbetsbok för Amazon KDP. Strukturera boken som en inlärningsprogression: förskrivningsstreck i Kapitel 1, versaler med pilstreckordning i Spåra-läge i Kapitel 2, versaler i Tonande Spårning i Kapitel 3, gemener i Kapitel 4, och Guidad Kopiering med kompletta ord i Kapitel 5. Använd per-rad-oberoende för att blanda lägen inom kapitel för variation. Skrivövnings arbetsböcker säljer konsekvent året runt.`,
     },
     {
-      title: 'nivågrupperade skrivstationer för produktlinje',
+      title: `nivågrupperade skrivstationer för produktlinje`,
       description: `Bygg nivåindelade skrivövningsset med de tre övningslägena som differentieringsnivåer. Nivå 1: Spåra-läge med pilstreckordning för användare som lär sig bokstavsformation. Nivå 2: Tonande Spårning för användare som bygger självständighet. Nivå 3: Guidad Kopiering för användare som närmar sig flyt. Nivå 4: Tomma linjer för självständig skrivning. Använd per-rad-oberoende för att skapa blandade lägesarbetsblad där varje rad riktar sig mot en annorlunda färdighetsnivå.`,
     },
     {
-      title: 'Förskrivningsstreck övningsset',
+      title: `Förskrivningsstreck övningsset`,
       description: `Skapa dedikerade förskrivningsstreck övningssidor med vertikala linjer, horisontella linjer, cirklar och sicksack-linjer. Dessa finmotoriska övningar riktar sig mot en distinkt målgrupp: arbetsterapeuter, förskolesäljare och föräldrar till barn i förskoleåldern som utvecklar pennkontroll före formell bokstavsundervisning. Paketera strecktyper individuellt eller som en komplett motorisk färdighetsprogression.`,
     },
     {
-      title: 'Tematiska vokabulär skrivövningsblad',
+      title: `Tematiska vokabulär skrivövningsblad`,
       description: `Använd Bildbiblioteket med 104 tematiska samlingar för att skapa skrivövnings arbetsblad som kombinerar bokstavsövning med vokabulärbyggande. I Begynnelsebokstav-läge övar användarna den första bokstaven av varje bildnamn (A för Apa, B för Björn). I Hela Filnamn-läge skriver användarna det kompletta ordet. Gruppera arbetsblad efter tema — bondgårdsdjur, havsdjur, dinosaurier, fordon — för säsongsbetonade och nischspecifika marknadsplatsannonser.`,
     },
     {
@@ -91,12 +91,12 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Streckordnings skrivövningsbutik på Etsy',
+      title: `Streckordnings skrivövningsbutik på Etsy`,
       description: `Öppna en Etsy-butik specialiserad på pilguidade streckordnings skrivövnings arbetsblad. De numrerade riktningspilarna på varje bokstav är en genuin differentieringspunkt — de flesta skrivövningssäljare erbjuder enkla spårningslinjer utan streckordningsinstruktion. Skapa separata annonser för versaler alfabetsuppsättningar, gemener, sifferformation och kompletta A–Ö progressionspaket. Streckordningsprodukter motiverar premiumpriser eftersom de lär ut korrekt teknik.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP skrivövnings arbetsboksserie',
+      title: `Amazon KDP skrivövnings arbetsboksserie`,
       description: `Publicera en serie skrivövnings arbetsböcker på Amazon KDP, var och en riktad mot ett specifikt stadium: «Förskrivningsstreck för Finmotorisk Utveckling», «Tryckbokstäver med Pilstreckordning», «Tonande Spårning Bokstavsövning», «Kursiv Skrivövning för Nybörjare». Varje bok använder 80–120 sidor med progressiv svårighetsstruktur. Använd gråskaleläge för lägre utskriftskostnader.`,
       platform: 'Amazon KDP',
     },
@@ -106,7 +106,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Finmotorisk utveckling nischbutik',
+      title: `Finmotorisk utveckling nischbutik`,
       description: `Skapa en fokuserad produktlinje kring förskrivningsstreck och tidig skrivutveckling. Vertikala linjer, horisontella linjer, cirklar och sicksack-linjer riktar sig mot arbetsterapeuter, förskolesäljare och föräldrar till förskolebarn. Detta är en distinkt köpargrupp från grundskoleskrivning — de söker efter «finmotoriska arbetsblad» och «förskrivningsaktiviteter».`,
       platform: 'Etsy',
     },
@@ -116,7 +116,7 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad komplett skrivövningsproduktkatalog',
+      title: `Gumroad komplett skrivövningsproduktkatalog`,
       description: `Paketera förskrivningsstreck, tryckbokstäver med streckordning, tonande spårningsövning, guidad kopiering och kursiv skrivövning till en omfattande skrivövningsproduktkatalog på Gumroad. Inkludera alla fem typsnittsstilar, alla tre övningslägen och tematiska bildvariationer. Ett flerstegs skrivprogram motiverar ett premiumpris. Para ihop med alfabetståg och rita linjer arbetsblad för ett komplett tidigt litteracitets- och motoriskt färdighetspaket.`,
       platform: 'Gumroad',
     },
@@ -132,15 +132,15 @@ const content: ToolContent = {
       description: `Typsnittsstilarna Tryck Vanlig Pil och Tryck Spårning Pil med numrerade riktningspilar är unika bland skrivövningsgeneratorer. De flesta konkurrenter erbjuder enkla spårningslinjer utan formationsinstruktion. Led med pilstreckordning i dina annonstitlar och miniatyrer — det förvandlar ett standardspårningsarbetsblad till en instruktionsprodukt som säljare och föräldrar betalar mer för.`,
     },
     {
-      title: 'Blanda lägen per rad för maximal flexibilitet',
+      title: `Blanda lägen per rad för maximal flexibilitet`,
       description: `Per-rad-oberoende innebär att varje rad har eget övningsläge, typsnittsstil, innehållskälla och versalkonfiguration. Placera pilguidad Spårning överst för instruktion, Tonande Spårning i mitten för övning och Guidad Kopiering längst ner för bedömning — allt på en sida. Detta skapar arbetsblad som mallbaserade konkurrenter inte kan replikera.`,
     },
     {
-      title: 'Led med förskrivningsstreck för unga användare',
+      title: `Led med förskrivningsstreck för unga användare`,
       description: `Placera förskrivningsstreckrader (vertikala linjer, horisontella linjer, cirklar, sicksack) överst på arbetsblad som riktar sig mot förskolebarn och dagisbarn. Dessa uppvärmningsövningar bygger penngrepp och motorisk kontroll innan användarna försöker bokstavsformation. Förskrivningsstreck skapar också en distinkt produktnisch.`,
     },
     {
-      title: 'Använd gråskala för KDP och volymutskrift',
+      title: `Använd gråskala för KDP och volymutskrift`,
       description: `Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut och guidelinjer förblir skarpa. Spara färgläge för Etsy-annonseringsminiatyrer och digitala nedladdningar.`,
     },
     {
@@ -155,27 +155,27 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Verktyget erbjuder en gratis provversion med alla funktioner — alla tre övningslägen (Spåra, Tonande Spårning, Guidad Kopiering), alla fem typsnittsstilar inklusive pilguidad streckordning, förskrivningsstreck, bildbiblioteket, per-rad-konfiguration, anpassad textinmatning och alla exportformat. Ingen registrering, inget kreditkort krävs. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.`,
     },
     {
-      question: 'Vilka är de tre övningslägena?',
+      question: `Vilka är de tre övningslägena?`,
       answer: `Spåra-läge ger fasta bokstavskonturer som användarna följer direkt — fullt visuellt stöd för nya bokstäver. Tonande Spårning börjar med fasta bokstäver på vänster sida av raden och reducerar progressivt opaciteten över raden, bygger självständighet med varje upprepning. Guidad Kopiering visar en svag bokstavskontur för nästintill självständig skrivning med minimalt visuellt stöd. Dessa tre lägen skapar en naturlig progression från fullt stöd till självständig skrivning.`,
     },
     {
-      question: 'Hur fungerar den pilguidade streckordningen?',
+      question: `Hur fungerar den pilguidade streckordningen?`,
       answer: `Typsnittsstilarna Tryck Vanlig Pil och Tryck Spårning Pil lägger numrerade riktningspilar på varje bokstav. Pil 1 visar var man börjar det första strecket och vilken riktning man rör sig, pil 2 anger det andra strecket, och så vidare. användarna lär sig den korrekta formationssekvensen för varje bokstav — inte bara hur bokstaven ser ut, utan exakt hur man ritar den. Detta förvandlar ett grundläggande spårningsarbetsblad till ett instruktionsverktyg.`,
     },
     {
-      question: 'Vilka är de fem typsnittsstilarna?',
+      question: `Vilka är de fem typsnittsstilarna?`,
       answer: `Tryck Vanlig ger standardblockbokstäver för allmän skrivövning. Tryck Vanlig Pil lägger till numrerade riktningspilar som visar exakt streckordning. Tryck Spårning visar prickade konturerbokstäver designade för spårningsövningar. Tryck Spårning Pil kombinerar prickade konturer med streckordningspilar för guidad spårning med formationsinstruktion. Kursiv (Great Vibes) ger flytande skriptbokstäver för kursiv skrivövning.`,
     },
     {
-      question: 'Vad är förskrivningsstreck och vem är de för?',
+      question: `Vad är förskrivningsstreck och vem är de för?`,
       answer: `Förskrivningsstreck är grundläggande linjeövningar som utvecklar finmotorisk kontroll: vertikala linjer (uppifrån-och-ner dragning), horisontella linjer (vänster-till-höger svepning), cirklar (kontinuerlig kurvövning) och sicksack-linjer (riktningsbyte kontroll). De riktar sig mot användare som ännu inte är redo för bokstavsformation — bygger penngreppsstyrka, hand-öga-koordination och de specifika muskelrörelserna som används vid skrivning.`,
     },
     {
-      question: 'Hur fungerar per-rad-oberoende?',
+      question: `Hur fungerar per-rad-oberoende?`,
       answer: `Varje rad på arbetsbladet har sina egna oberoende inställningar för övningsläge, typsnittsstil, innehållskälla och bokstavsläge. Rad 1 kan vara Spåra-läge med Tryck Pil-typsnitt som övar versalt A, Rad 2 kan vara Tonande Spårning med Tryck Spårning-typsnitt som övar gement a, och Rad 3 kan vara Guidad Kopiering med Kursiv-typsnitt för ett komplett ord — allt på samma arbetsblad.`,
     },
     {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: `Skrivövnings arbetsblad är övningsaktiviteter, inte pussel med dolda lösningar. Spåra- och Tonande Spårning-lägena i sig fungerar som guiden — användarna spårar direkt över eller bredvid de tillhandahållna bokstavsformerna. Det finns inget dolt svar att avslöja.`,
     },
     {
-      question: 'Är Skrivövnings-generatorn språkkänslig?',
+      question: `Är Skrivövnings-generatorn språkkänslig?`,
       answer: `Nej. Skrivövnings-generatorn är ett visuellt bokstavsövningsverktyg — bokstavsformer, streckordningspilar och övningslägen ändras inte efter språk. Gränssnittsetiketterna översätts till alla 11 stödda språk, och bildbiblioteket ger lokaliserade bildnamn för innehållskällor, men kärnfunktionaliteten för skrivövning är densamma oavsett språk.`,
     },
     {
@@ -195,7 +195,7 @@ const content: ToolContent = {
       answer: `Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga så du kan fullt utvärdera verktyget innan du köper. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.`,
     },
   ],
@@ -208,17 +208,17 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Skapare' },
     { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Skapare' },
     { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Skapare' },
-    { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Skapare' },
+    { pageType: 'tool', slug: `prepositioner-arbetsblad-skapare`, anchorText: `Prepositioner Arbetsblad Skapare` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/writing/writing.webp',
+      primary: `/samples/swedish/writing/writing.webp`,
       primaryAlt: `Skrivövnings arbetsblad med spåra, tonande spårning och guidad kopiering lägen som visar pilguidade streckordningsbokstäver`,
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/writing/writing.webp',
+        src: `/samples/swedish/writing/writing.webp`,
         alt: `Skrivövnings arbetsblad med tre progressiva övningslägen och tematisk bildintegrering`,
         caption: `Tre övningslägen på ett arbetsblad — Spåra, Tonande Spårning och Guidad Kopiering med per-rad-oberoende`,
       },
@@ -228,7 +228,7 @@ const content: ToolContent = {
         caption: `Pilguidad streckordning — numrerade riktningspilar visar exakt bokstavsformationssekvens`,
       },
       {
-        src: '/samples/swedish/writing/writing%20custom.webp',
+        src: `/samples/swedish/writing/writing%20custom.webp`,
         alt: `Skrivövnings arbetsblad i tonande spårning-läge med bokstäver som progressivt tonar ut över varje rad`,
         caption: `Tonande Spårning-läge — bokstäver tonar progressivt ut för att bygga självständigt skrivförtroende`,
       },

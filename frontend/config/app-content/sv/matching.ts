@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matchnings arbetsblad generator',
+    primaryKeyword: `matchnings arbetsblad generator`,
     secondaryKeywords: [
       `utskrivbar matchningsaktivitet skapare för Etsy-säljare`,
       `dra-ett-streck matchnings arbetsblad generator för KDP`,
       `bildmatchnings arbetsblad skapare kommersiell licens`,
-      'sälja matchnings arbetsblad på Gumroad',
+      `sälja matchnings arbetsblad på Gumroad`,
     ],
     lsiKeywords: [
       `digitala matchnings utskriftsbara produkter onlineföretag`,
-      'kommersiellt bruk matchnings arbetsblad generator',
-      'utskrivbar matchningsaktivitet affärsverktyg',
+      `kommersiellt bruk matchnings arbetsblad generator`,
+      `utskrivbar matchningsaktivitet affärsverktyg`,
     ],
-    titleTag: 'Matchnings Arbetsblad Generator | Skapa och Sälj',
+    titleTag: `Matchnings Arbetsblad Generator | Skapa och Sälj`,
     metaDescription:
       `Skapa matchnings arbetsblad att sälja på Etsy, KDP och Gumroad. 4 matchningslägen, automatiskt facit, 104 teman, konfigurerbara par. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Matchnings Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Matchnings Arbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -35,7 +35,7 @@ const content: AppContent = {
           `Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Dessa layoutval ramar in ditt matchnings arbetsblad innan du konfigurerar något innehåll.`,
       },
       {
-        title: 'Konfigurera arbetsbladsinställningar',
+        title: `Konfigurera arbetsbladsinställningar`,
         description:
           `Öppna panelen Arbetsbladskonfiguration och välj ditt matchningsläge: Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat eller Anpassat Ord. Ställ in maximalt antal par till 4, 5 eller 6 (standard är 6). Växla kryssrutan «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer längst ner på sidan. Växla «Inkludera artikelnummer» (standard PÅ) för att lägga till siffror före varje par, och «Visa punktmarkeringar» (standard PÅ) för att visa dekorativa punkter bredvid artiklarna. För Begynnelsebokstav-läget, välj mellan versaler och gemener och välj ett underläge: Slumpmässigt Tema och Bilder, Slumpmässigt från Valt Tema, eller Välj Specifika Bilder.`,
       },
@@ -45,7 +45,7 @@ const content: AppContent = {
           `Öppna panelen Bildbibliotek och bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer — djur, mat, fordon, natur, högtider och dussintals fler. Filtrera efter tema med dropdownen eller sök med nyckelord. Klicka på bilder för att välja dem till ditt arbetsblad. I Begynnelsebokstav-läget med «Välj Specifika Bilder» väljer du manuellt exakt 6 bilder. I Bild+Ord och Anpassat Ord-lägena använder du panelen Artikelkonfiguration för att ställa in alternativ per rad. Du kan också ladda upp egna PNG-, JPG- eller GIF-bilder att använda bredvid biblioteksinnehåll.`,
       },
       {
-        title: 'Generera matchnings arbetsbladet',
+        title: `Generera matchnings arbetsbladet`,
         description:
           `Klicka på Generera för att skapa den tvåkolumniga matchningslayouten. Appen arrangerar dina valda bilder och text i vänster och höger kolumn med det konfigurerade parantalet. En stiliserad «Para ihop!»-rubrik visas längst upp med en gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50) och lokaliserad titel och instruktioner renderade i Fredoka och Quicksand-typsnitt. Artikelnummer och punktmarkeringar visas baserat på dina växlingsinställningar. Arbetsbladfliken visar övningsversionen utan kopplingslinjer — redo för användarna att rita sina egna.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Matchnings Arbetsblad Online',
+    title: `Hur du Säljer Matchnings Arbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska matchnings arbetsbladspaket på Etsy',
+        title: `Tematiska matchnings arbetsbladspaket på Etsy`,
         description:
           `Skapa tematiska matchningsaktivitetspaket med de 104 bildsamlingarna — djurmatchning, matmatchning, fordonsmatchning, högtidsmatchning och dussintals fler. Varje tema ger tillräckligt med illustrationer för flera unika matchnings arbetsblad över olika lägen. Paketera 10–20 matchnings arbetsblad per tema med facit inkluderade, och sälj till 30–70 SEK per paket. Blanda lägen inom ett enda paket för variation: Begynnelsebokstav-arbetsblad för bokstavsigenkänning, Bild+Ord-arbetsblad för vokabulär och Anpassat Ord-arbetsblad för stavningsövning. Det automatiskt genererade facit eliminerar den största tidsslösaren i matchnings arbetsbladsproduktion.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Tidiga läs- och skrivarbetsböcker på Amazon KDP',
+        title: `Tidiga läs- och skrivarbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 matchnings arbetsblad till en tryckt arbetsbok formaterad för Amazon KDP. Begynnelsebokstav-läget är idealiskt för tidig läsning — användarna matchar bilder med deras första bokstäver över flera teman, och bygger fonemisk medvetenhet med varje sida. Strukturera din bok efter svårighetsgrad: Kapitel 1 använder 4 par för nybörjare, Kapitel 2 använder 5 par och Kapitel 3 använder 6 par för avancerade användare. Inkludera facitsidor i slutet av boken med den automatiskt genererade facitfunktionen. Gråskaleväxlingen producerar bläckvänliga sidor redo för svartvita bokinteriörer.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Matchningsstationsaktiviteter för Gumroad',
+        title: `Matchningsstationsaktiviteter för Gumroad`,
         description:
           `Bygg färdiga matchningsstationsarbetsblad med namn/datum-fält, artikelnummer och tryckta facit. köpare som söker på Gumroad efter matchningsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga — namnfältet säkerställer spårbarhet, artikelnummer gör ficitkontroll effektiv under gruppgenomgång, och det automatiskt genererade facit sparar säljarens förberedelsetid. Skapa produktkatalogsanpassade set: samhällshjälpare matchning, matgrupper matchning, vädervokabulär matchning och livsmiljö djurmatchning. Varje set inkluderar arbetsblad och facit i både PDF- och JPEG-format.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Vokabulärmatchnings arbetsblad på flera språk',
+        title: `Vokabulärmatchnings arbetsblad på flera språk`,
         description:
           `Utnyttja de språkkänsliga Begynnelsebokstav- och Bild+Ord-lägena för att skapa matchnings arbetsblad på 11 språk. Samma bilder producerar olika matchningsinnehåll när du byter språk — bildnamn, första bokstäver och rubriktext uppdateras alla automatiskt. Skapa flerspråkiga vokabulärpaket där varje språkversion använder samma tematiska bilder men lokaliserade ord. Detta är särskilt värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.`,
-        platform: 'Etsy / Gumroad (flerspråkig marknad)',
+        platform: `Etsy / Gumroad (flerspråkig marknad)`,
       },
       {
-        title: 'Säsongsbetonade matchningsaktivitets-samlingar',
+        title: `Säsongsbetonade matchningsaktivitets-samlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade matchnings arbetsbladssamlingar som sammanfaller med toppshoppingperioder. Släpp halloween-matchningspaket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Inkludera alla fyra matchningslägen i varje säsongsset för maximalt värde. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
     ],
   },
@@ -146,42 +146,42 @@ const content: AppContent = {
         `Generatorn erbjuder fyra distinkta lägen. Begynnelsebokstav-läget placerar bilder till vänster och deras första bokstäver till höger — användarna matchar varje bild med bokstaven den börjar på. Bild+Ord-läget visar märkta bildpar på båda sidor för vokabulärmatchning. Bild/Ord Blandat-läget använder dropdown-väljare per rad så varje sida kan visa en bild eller ett ord oberoende, vilket skapar varierad svårighetsgrad inom ett enda arbetsblad. Anpassat Ord-läget parar bilder med dina egna inskrivna ord för stavning, vokabulär eller språkövningar. Varje läge producerar en annorlunda inlärningsaktivitet från samma bildbibliotek.`,
     },
     {
-      question: 'Hur fungerar det konfigurerbara parantalet?',
+      question: `Hur fungerar det konfigurerbara parantalet?`,
       answer:
         `I panelen Arbetsbladskonfiguration väljer du 4, 5 eller 6 från dropdownmenyn för maximalt antal par. Standard är 6 par. Färre par skapar arbetsblad med större bilder och mer avstånd — idealiskt för yngre användare eller arbetsblad med längre ord. Fler par ökar svårighetsgraden och innehållsdensiteten. Parantalet gäller konsekvent över alla fyra matchningslägen.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar den tvåkolumniga layouten utan kopplingslinjer — användarna ritar sina egna linjer för att matcha par. Facit återskapar den identiska layouten och lägger till horisontella kopplingslinjer (#555 färg, streckbredd 2) mellan varje korrekt par. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: worksheet.jpeg, worksheet.pdf, answer_key.jpeg och answer_key.pdf.`,
     },
     {
-      question: 'Vilka är Begynnelsebokstav-underlägena?',
+      question: `Vilka är Begynnelsebokstav-underlägena?`,
       answer:
         `Begynnelsebokstav-läget erbjuder tre underlägen för bildval. «Slumpmässigt Tema och Bilder» väljer ett slumpmässigt tema och 6 slumpmässiga bilder från det. «Slumpmässigt från Valt Tema» låter dig välja ett specifikt tema och väljer sedan slumpmässiga bilder från det temat. «Välj Specifika Bilder» öppnar Bildbiblioteket så du kan manuellt välja exakt 6 bilder. Du kan också välja mellan versaler och gemener med bokstavstypsknapparna.`,
     },
     {
-      question: 'Vad är panelen Artikelkonfiguration?',
+      question: `Vad är panelen Artikelkonfiguration?`,
       answer:
         `Panelen Artikelkonfiguration visas för Bild+Ord, Bild/Ord Blandat och Anpassat Ord-lägen. Den erbjuder dynamiska kontroller per rad för att konfigurera varje matchningspar. I Bild/Ord Blandat-läget låter dropdown-väljare dig välja om varje sida av varje rad visar en bild eller ett ord. I Anpassat Ord-läget låter textfält dig skriva matchningsordet för varje bild. Denna panel ger dig finkornig kontroll över varje enskilt par i arbetsbladet.`,
     },
     {
-      question: 'Hur fungerar artikelnummer och punktmarkeringar?',
+      question: `Hur fungerar artikelnummer och punktmarkeringar?`,
       answer:
         `Två växlingar i panelen Arbetsbladskonfiguration kontrollerar formateringen. «Inkludera artikelnummer» (standard PÅ) lägger till siffror före varje par — användbart för facit-kontroll och produktlinjesdiskussion. «Visa punktmarkeringar» (standard PÅ) lägger till dekorativa punkter bredvid artiklarna för visuell tydlighet. Båda alternativen är oberoende: du kan ha bara nummer, bara punkter, båda, eller ingen av dem beroende på din arbetsbladsstil och målgrupp.`,
     },
     {
-      question: 'Hur fungerar den lokaliserade rubriken?',
+      question: `Hur fungerar den lokaliserade rubriken?`,
       answer:
         `Varje genererat arbetsblad inkluderar en stiliserad «Para ihop!»-rubrik med gul pillerbakgrund (#FFD700), vit inre piller och korall ramkant (#FF7F50, 8px streck). Titeln och beskrivningstexten översätts automatiskt till det valda språket — alla 11 språk stöds: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska. Titeln använder typsnittet Fredoka (vikt 700) och beskrivningen använder Quicksand (vikt 500).`,
     },
     {
-      question: 'Är Matchnings Arbetsblad Generatorn språkkänslig?',
+      question: `Är Matchnings Arbetsblad Generatorn språkkänslig?`,
       answer:
         `Ja. Begynnelsebokstav- och Bild+Ord-lägen använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar orden och de första bokstäverna som visas på arbetsbladet. Till exempel visar en kattbild «K» på svenska i Begynnelsebokstav-läget, «C» på engelska (Cat) och «K» på tyska (Katze). Den lokaliserade «Para ihop!»-rubriken ändras också med det valda språket. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — alla fyra matchningslägen, konfigurerbara parantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, artikelnummer, punktmarkeringar och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina matchnings arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De fyra matchningslägena, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara matchningsaktivitetsprodukter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla fyra matchningslägen, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, artikelnummer, punktmarkeringar och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'rutnatsmatching-arbetsblad',
-      anchorText: 'Rutnatsmatchning Arbetsblad Generator',
+      anchorText: `Rutnatsmatchning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'skuggmatchning-arbetsblad',
-      anchorText: 'Skuggmatchning Arbetsblad Generator',
+      anchorText: `Skuggmatchning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildlotto-arbetsblad',
-      anchorText: 'Bildlotto Arbetsblad Generator',
+      anchorText: `Bildlotto Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildsortering-arbetsblad',
-      anchorText: 'Bildsortering Arbetsblad Generator',
+      anchorText: `Bildsortering Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'stort-litet-arbetsblad',
-      anchorText: 'Stort och Litet Arbetsblad Generator',
+      anchorText: `Stort och Litet Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'ordsokning-arbetsblad',
-      anchorText: 'Ordsökning Arbetsblad Generator',
+      anchorText: `Ordsökning Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -241,28 +241,28 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'forskola-utskriftsbara-ideer',
-      anchorText: 'Förskola Utskriftsbara Idéer för Tidiga användare',
+      anchorText: `Förskola Utskriftsbara Idéer för Tidiga användare`,
     },
     {
       pageType: 'idea',
       slug: 'dagis-utskriftsbara-ideer',
-      anchorText: 'Dagis Utskriftsbara Idéer för unga användare',
+      anchorText: `Dagis Utskriftsbara Idéer för unga användare`,
     },
     {
       pageType: 'start',
-      slug: 'utskriftsbart-foeretag-ritning',
-      anchorText: 'Din Utskriftsbart Företag Ritning',
+      slug: `utskriftsbart-foeretag-ritning`,
+      anchorText: `Din Utskriftsbart Företag Ritning`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-matchnings-arbetsblad',
-      anchorText: 'Hur du Skapar Matchnings Arbetsblad som Säljer',
+      anchorText: `Hur du Skapar Matchnings Arbetsblad som Säljer`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/matching/Matchningsspel.webp',
+      primary: `/samples/swedish/matching/Matchningsspel.webp`,
       primaryAlt: `Dra-ett-streck matchnings arbetsblad med tematiska bilder arrangerade i två kolumner med lokaliserad Para ihop-rubrik och artikelnummer`,
     },
     sampleGallery: [

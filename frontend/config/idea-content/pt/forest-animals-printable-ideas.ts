@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis Animais da Floresta — Guia',
+    titleTag: `Ideias de Imprimíveis Animais da Floresta — Guia`,
     metaDescription: `Ideias rentáveis de imprimíveis de animais da floresta para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos, estratégias por plataforma e nicho.`,
 
-    primaryKeyword: 'ideias de imprimíveis animais da floresta',
+    primaryKeyword: `ideias de imprimíveis animais da floresta`,
     secondaryKeywords: [
-      'fichas animais da floresta para vender',
-      'negócio imprimíveis tema floresta',
+      `fichas animais da floresta para vender`,
+      `negócio imprimíveis tema floresta`,
       `fichas atividades animais da floresta para vendedores`,
-      'vender imprimíveis animais da floresta online',
+      `vender imprimíveis animais da floresta online`,
     ],
     lsiKeywords: [
-      'fichas educativas criaturas da floresta',
-      'atividades habitats natureza para crianças',
-      'imprimíveis vida selvagem para a loja',
+      `fichas educativas criaturas da floresta`,
+      `atividades habitats natureza para crianças`,
+      `imprimíveis vida selvagem para a loja`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ A análise de preços mostra que os produtos imprimíveis de animais da floresta
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras da Floresta para Vender Online',
+      title: `Sopas de Letras da Floresta para Vender Online`,
       description: `As sopas de letras com vocabulário de animais da floresta atraem pais e vendedores que procuram desenvolver competências linguísticas em torno de temas de natureza e habitats. Cria puzzles com nomes de animais da floresta, vocabulário de habitats florestais, terminologia de hibernação e palavras sazonais da natureza. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras, facilitando a produção de versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais palavras para compradores mais velhos. As variações sazonais como animais da floresta no outono, vocabulário de hibernação e crias da floresta na primavera ampliam o teu catálogo de produtos e captam compradores durante todo o ano.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ A análise de preços mostra que os produtos imprimíveis de animais da floresta
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Animais da Floresta no Etsy',
+      title: `Vender Imprimíveis de Animais da Floresta no Etsy`,
       description: `O Etsy recompensa a especificidade nas listagens de imprimíveis de animais da floresta, e a estética do bosque confere-te uma poderosa vantagem visual nos resultados de pesquisa. Em vez de títulos genéricos como «Fichas de Animais», aponta para palavras-chave de cauda longa como «fichas de contagem animais floresta pré-escolar» ou «sopa de letras floresta imprimível jardim de infância». Utiliza as treze etiquetas com variações que combinem espécies da floresta, tipo de competência e grupo etário. Inclui etiquetas que façam referência à tendência de decoração infantil de bosque, já que os pais que decoraram com essa estética procuram ativamente materiais educativos a combinar. As imagens de listagens mostrando fichas da floresta impressas em ambientes acolhedores com temática de natureza superam significativamente as pré-visualizações digitais planas. Programa novas listagens para coincidir com os picos de procura de outono em setembro a novembro quando os vendedores planificam unidades de habitats e hibernação, e lançamentos de primavera em março e abril para temas de crias de animais e despertar da natureza.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades da Floresta no KDP',
+      title: `Publicar Livros de Atividades da Floresta no KDP`,
       description: `A Amazon KDP funciona melhor para os imprimíveis de animais da floresta quando compilas fichas individuais em livros de atividades coesos que oferecem variedade e valor dentro da temática do bosque. Um livro de atividades de animais da floresta de quarenta a sessenta páginas que combine contagem, colorir, emparelhamento, sopas de letras e atividades de desenho funciona bem na categoria de livros de atividades para crianças. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades animais floresta para crianças», «fichas do bosque pré-escolar» e termos específicos por espécie como «livro para colorir de ursos» ou «atividades de raposas para crianças». Fixa o preço entre quatro e sete dólares para margens de royalties ótimas. Considera criar livros sazonais de animais da floresta ao lado de livros gerais de atividades do bosque para captar compradores que procuram atividades de outono, temas de hibernação ou conteúdo de crias de animais na primavera.`,
     },
     {
@@ -154,18 +154,18 @@ A análise de preços mostra que os produtos imprimíveis de animais da floresta
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -179,7 +179,7 @@ A análise de preços mostra que os produtos imprimíveis de animais da floresta
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -190,17 +190,17 @@ A análise de preços mostra que os produtos imprimíveis de animais da floresta
     {
       pageType: 'idea',
       slug: 'insetos-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Insetos',
+      anchorText: `Ideias de Negócio de Imprimíveis de Insetos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Formiga — imagem educativa temática', caption: 'Formiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Texugo — imagem educativa temática', caption: 'Texugo' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagem educativa temática', caption: 'Castor' },
-    { src: '/image-library/forest%20creatures/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Formiga — imagem educativa temática`, caption: 'Formiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Texugo — imagem educativa temática`, caption: 'Texugo' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagem educativa temática`, caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
   ],
 
 

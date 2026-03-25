@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar fichas de objetos ocultos',
+    primaryKeyword: `criar fichas de objetos ocultos`,
     secondaryKeywords: [
-      'gerador de cenas de objetos ocultos',
-      'fichas de busca e encontra para crianças',
-      'fichas imprimíveis de encontra o intruso',
-      'criar puzzles de objetos ocultos para vender',
+      `gerador de cenas de objetos ocultos`,
+      `fichas de busca e encontra para crianças`,
+      `fichas imprimíveis de encontra o intruso`,
+      `criar puzzles de objetos ocultos para vender`,
     ],
     lsiKeywords: [
-      'fichas de pesquisa visual para pré-escolar',
-      'fichas de encontrar a imagem escondida',
-      'páginas imprimíveis de busca e encontra',
-      'vender fichas de objetos ocultos no Etsy',
+      `fichas de pesquisa visual para pré-escolar`,
+      `fichas de encontrar a imagem escondida`,
+      `páginas imprimíveis de busca e encontra`,
+      `vender fichas de objetos ocultos no Etsy`,
       `Amazon KDP livros de atividades de busca e encontra`,
-      'gerador de objetos ocultos com licença comercial',
+      `gerador de objetos ocultos com licença comercial`,
     ],
     titleTag: `Criar fichas de objetos ocultos — Guia passo a passo`,
     metaDescription: `Como criar fichas de objetos ocultos com 2 modos de jogo: busca e encontra e encontra o intruso. Crie cenas temáticas, gere chaves de respostas e venda no.`,
   },
 
   hero: {
-    title: 'Como criar fichas de cenas de objetos ocultos',
+    title: `Como criar fichas de cenas de objetos ocultos`,
     tagline: `Um tutorial passo a passo para criar fichas de busca e encontra e encontra o intruso que pode vender no Etsy, Amazon KDP e Gumroad`,
     description: `As fichas de objetos ocultos são dos produtos imprimíveis mais envolventes que pode criar. As crianças adoram o desafio de procurar objetos específicos numa cena, e pais e vendedores adoram a atenção concentrada que estas atividades exigem. Este guia acompanha-o na criação de fichas profissionais de cenas de objetos ocultos usando o Gerador de buscar objetos — desde escolher entre os modos de jogo Busca e encontra e Encontra o intruso até construir cenas personalizadas com imagens em camadas, gerar chaves de respostas automáticas e exportar ficheiros prontos para imprimir. Quer esteja a lançar o seu primeiro produto imprimível ou a adicionar uma nova categoria a uma loja existente, terá fichas terminadas prontas para publicar no final deste tutorial.`,
   },
@@ -31,19 +31,19 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Escolha o seu modo de atividade',
+      heading: `Escolha o seu modo de atividade`,
       content: `O Gerador de buscar objetos oferece dois modos de jogo que criam produtos de fichas fundamentalmente diferentes. A sua primeira decisão é qual modo usar para o projeto atual.\n\nO modo Busca e encontra é o formato clássico de objetos ocultos. Seleciona de 8 a 12 imagens distratoras que formam a cena de fundo, depois escolhe de 1 a 5 objetos ocultos que as crianças devem encontrar dentro dessa cena. As imagens distratoras criam ruído visual, e os objetos ocultos são colocados entre elas em vários tamanhos e posições. As crianças examinam a cena, localizam cada objeto oculto e marcam-no ou rodeiam-no com um círculo. Este modo desenvolve a exploração visual, a atenção sustentada e a discriminação figura-fundo.\n\nO modo Encontra o intruso adota uma abordagem diferente. Configura de 8 a 12 pares de imagens iguais (criando de 16 a 24 elementos no total na página) e depois adiciona de 1 a 3 imagens sem par — os intrusos. As crianças examinam a cena para encontrar quais imagens não têm um par correspondente. Este modo desenvolve o reconhecimento de padrões, a comparação visual e a dedução lógica.\n\nAmbos os modos produzem chaves de respostas automaticamente, e ambos exportam nos mesmos formatos. A diferença está na competência cognitiva que exercitam e na categoria de produto em que encaixam nos marketplaces. As fichas de Busca e encontra competem nas categorias de pesquisa «objetos ocultos» e «busca e encontra». As fichas de Encontra o intruso competem nas categorias de «encontra o intruso» e «encontra a diferença». Criar produtos em ambos os modos duplica a sua cobertura nos marketplaces a partir da mesma ferramenta.`,
     },
     {
-      heading: 'Selecione um tema e construa a sua cena',
+      heading: `Selecione um tema e construa a sua cena`,
       content: `Com o modo de jogo selecionado, o passo seguinte é escolher as imagens que irão preencher a sua cena. O Gerador de buscar objetos dá acesso a uma biblioteca de imagens temáticas com mais de 100 categorias que cobrem animais, comida, veículos, natureza, festividades, desportos, profissões e muito mais.\n\nUse o menu suspenso de temas para filtrar a biblioteca de imagens por categoria. Depois de selecionar um tema, as imagens disponíveis aparecem no painel de seleção. Para o modo Busca e encontra, escolhe dois grupos de imagens: imagens distratoras (8–12) que formam a cena de fundo movimentada, e objetos ocultos (1–5) que as crianças devem encontrar. Para o modo Encontra o intruso, seleciona as imagens emparelhadas (8–12 pares) e os elementos ímpares sem par (1–3).\n\nTambém pode usar a pesquisa por palavras-chave para encontrar imagens específicas em todos os temas. Isto é útil quando quer misturar imagens de diferentes categorias para criar cenas mais interessantes — por exemplo, combinando animais e alimentos numa única cena de quinta.\n\nA seleção de tema é uma decisão estratégica de produto. Cada tema cria um produto único que pode publicar separadamente nos marketplaces. Uma ficha de «Busca e encontra — Animais do zoo» e uma ficha de «Busca e encontra — Criaturas do oceano» apontam a termos de pesquisa completamente diferentes apesar de usarem o mesmo gerador. Com mais de 100 temas disponíveis, pode construir um catálogo extenso sem se repetir.\n\nO seletor de idioma na biblioteca de imagens controla as etiquetas de apresentação das imagens na interface, mas dado que as fichas de objetos ocultos são produtos exclusivamente visuais, o idioma selecionado não afeta o resultado final da ficha. As suas cenas terminadas funcionam para qualquer público independentemente do idioma.`,
     },
     {
-      heading: 'Carregue imagens personalizadas (opcional)',
+      heading: `Carregue imagens personalizadas (opcional)`,
       content: `O Gerador de buscar objetos permite carregar imagens personalizadas, o que lhe possibilita criar cenas únicas de marca que nenhum outro vendedor pode replicar. Esta é uma vantagem competitiva significativa em marketplaces saturados onde a diferenciação impulsiona as vendas.\n\nClique na área de carregamento para selecionar múltiplos ficheiros de imagem do seu computador. As imagens carregadas são armazenadas na sua sessão do navegador e aparecem junto às imagens da biblioteca no painel de seleção. Pode misturar imagens carregadas com imagens da biblioteca livremente — use as suas próprias ilustrações para os objetos principais e imagens da biblioteca para preenchimentos de fundo, ou vice-versa.\n\nOs carregamentos personalizados são particularmente valiosos para três cenários:\n\nLinhas de produtos de marca: Se cria as suas próprias ilustrações ou clip art, carregue-as para construir cenas com um estilo visual consistente que se torne a assinatura da sua marca em todos os seus anúncios.\n\nTrabalho para clientes: Se cria fichas personalizadas para escolas ou centros de explicações, carregue as imagens específicas deles (mascotes, logótipos, elementos visuais do catálogo de produtos) para criar produtos personalizados.\n\nTemas de nicho: Se a biblioteca de imagens não cobre um nicho específico que queira atingir (monumentos locais, profissões especializadas, celebrações culturais), carregue as suas próprias imagens para preencher essa lacuna.\n\nAs imagens carregadas são baseadas em sessão, o que significa que persistem enquanto o seu separador do navegador estiver aberto mas não são armazenadas permanentemente no servidor. Guarde as suas imagens personalizadas localmente para poder recarregá-las em sessões futuras.`,
     },
     {
-      heading: 'Configure o tamanho de página e o fundo',
+      heading: `Configure o tamanho de página e o fundo`,
       content: `A configuração de página determina as dimensões físicas e o estilo visual da sua ficha.\n\nAs opções de tamanho de página incluem Carta vertical, Carta horizontal, A4 vertical, A4 horizontal e dimensões personalizadas. Carta é o padrão para compradores norte-americanos. A4 é o padrão para os mercados europeus e internacionais. Criar ambas as versões duplica o seu alcance internacional com um esforço mínimo. A orientação horizontal funciona bem para cenas com composições panorâmicas amplas, enquanto a orientação vertical é adequada para cenas com camadas verticais.\n\nA secção de fundo disponibiliza vários controlos para o acabamento visual:\n\nDecorações infantis: Esta caixa de verificação (ativada por predefinição) adiciona elementos decorativos subtis em torno da área da bordadura da sua ficha. Estas decorações dão à página um aspeto lúdico e profissional que atrai pais e vendedores que navegam pelos anúncios do marketplace.\n\nTema de fundo: Selecione um padrão de fundo temático da biblioteca. Este preenche a página atrás dos objetos da sua cena, adicionando textura visual e contexto à cena.\n\nOpacidade do fundo: Controle quão proeminente o padrão de fundo aparece. Uma opacidade baixa (0,1–0,3) cria um efeito subtil de marca d'água. Uma opacidade alta (0,5–0,8) torna o fundo numa parte proeminente da cena. Para fichas de objetos ocultos, uma opacidade moderada costuma funcionar melhor — visível o suficiente para adicionar atmosfera mas não tão forte que dificulte a procura de objetos.\n\nCor de reserva: Uma cor sólida que aparece onde nenhum tema de fundo é aplicado. O branco é a predefinição e funciona bem para a maioria das fichas impressas. Tons pastel claros podem adicionar calor a produtos de uso digital.\n\nTema de bordadura e opacidade: Selecione bordaduras decorativas que emoldurem toda a página. Estas adicionam um aspeto polido e acabado que distingue os seus produtos de fichas simples.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `A calibração de dificuldade é crítica para as fichas de objetos ocultos. Demasiado fácil e as crianças terminam em segundos sem envolvimento. Demasiado difícil e frustram-se e desistem. A dificuldade certa depende do grupo etário alvo.\n\nPara pré-escolar (3–5 anos): Use menos imagens distratoras (8–10), objetos ocultos maiores e sobreposição mínima. Os objetos ocultos devem ser claramente visíveis com alguma pesquisa mas não instantaneamente óbvios. Use temas de alto contraste onde os objetos ocultos se destaquem das distratoras em cor ou forma.\n\nPara jardim de infância (5–6 anos): Aumente as distratoras para 10–12 e use sobreposição moderada. Os objetos ocultos podem estar parcialmente ocultos por outras imagens. Introduza alguma semelhança visual entre os objetos ocultos e as distratoras para exigir uma inspeção mais detalhada.\n\nPara ensino básico inicial (6–8 anos): Use o intervalo completo de 12 distratoras com sobreposição e camadas significativas. Os objetos ocultos podem ser mais pequenos em relação às distratoras. Use temas onde as imagens partilhem cores e formas semelhantes para aumentar o desafio visual.\n\nAproxime com o zoom para inspecionar a visibilidade de cada objeto oculto. Consegue encontrá-lo em poucos segundos de pesquisa concentrada? Se lhe leva mais de 10 segundos, pode ser demasiado difícil para crianças pequenas. Se o deteta instantaneamente sem procurar, pode ser demasiado fácil.\n\nItere reposicionando objetos, ajustando tamanhos e modificando as camadas até que a dificuldade pareça correta. As ferramentas do ecrã tornam este processo rápido — desbloqueie um objeto, arraste-o para uma nova posição, bloqueie-o novamente e reavalie.\n\nPara o modo Encontra o intruso, verifique que as imagens emparelhadas sejam claramente identificáveis como pares e que os elementos intrusos sejam genuinamente ímpares. Confirme que os pares de imagens não estão colocados diretamente um ao lado do outro, o que tornaria a atividade demasiado fácil.`,
     },
     {
-      heading: 'Gere a chave de respostas e exporte',
-      content: `Cada ficha criada com o Gerador de buscar objetos inclui uma chave de respostas automática. Clique no separador Chave de respostas para a visualizar. No modo Busca e encontra, a chave de respostas destaca as localizações dos objetos ocultos dentro da cena. No modo Encontra o intruso, marca as imagens sem par. Isto poupa-lhe criar manualmente sobreposições de respostas — o gerador gere tudo automaticamente.\n\nAntes de exportar, verifique o interruptor de escala de cinzentos. Esta caixa de verificação converte toda a sua ficha para escala de cinzentos para uma impressão que poupa tinta. As fichas em escala de cinzentos são populares entre escolas e pais que imprimem frequentemente e querem reduzir o custo de tinta. Considere criar versões a cores e em escala de cinzentos de cada produto — atraem diferentes segmentos de compradores e podem ser publicadas como produtos separados ou agrupadas.\n\nA caixa de verificação de campos de Nome e Data adiciona linhas para o nome e a data na ficha. Ative-a para produtos dirigidos ao uso online.\n\nQuatro botões de exportação estão disponíveis:\n\nJPEG da ficha: Ficheiro de imagem de alta resolução a 300 PPP com qualidade de impressão. Use para imagens de pré-visualização de anúncios, marketing nas redes sociais e produtos de descarregamento digital.\n\nPDF da ficha: Formato profissional pronto para imprimir. Este é o entregável padrão para vendas de produtos imprimíveis em todos os marketplaces.\n\nJPEG da chave de respostas e PDF da chave de respostas: Exportações separadas para a chave de respostas em ambos os formatos.\n\nO teste grátis com marca d'água produz exportações totalmente funcionais com uma marca d'água sobreposta. Isto permite-lhe avaliar a qualidade de impressão, testar o formato e criar amostras impressas antes de comprar uma licença comercial. A licença comercial remove a marca d'água de todas as exportações.`,
+      heading: `Gere a chave de respostas e exporte`,
+      content: `Cada ficha criada com o Gerador de buscar objetos inclui uma chave de respostas automática. Clique no separador Chave de respostas para a visualizar. No modo Busca e encontra, a chave de respostas destaca as localizações dos objetos ocultos dentro da cena. No modo Encontra o intruso, marca as imagens sem par. Isto poupa-lhe criar manualmente sobreposições de respostas — o gerador gere tudo automaticamente.\n\nAntes de exportar, verifique o interruptor de escala de cinzentos. Esta caixa de verificação converte toda a sua ficha para escala de cinzentos para uma impressão que poupa tinta. As fichas em escala de cinzentos são populares entre escolas e pais que imprimem frequentemente e querem reduzir o custo de tinta. Considere criar versões a cores e em escala de cinzentos de cada produto — atraem diferentes segmentos de compradores e podem ser publicadas como produtos separados ou agrupadas.\n\nA caixa de verificação de campos de Nome e Data adiciona linhas para o nome e a data na ficha. Ative-a para produtos dirigidos ao uso online.\n\nQuatro botões de exportação estão disponíveis:\n\nJPEG da ficha: Ficheiro de imagem de alta resolução a 300 PPP com qualidade de impressão. Use para imagens de pré-visualização de anúncios, marketing nas redes sociais e produtos de descarregamento digital.\n\nPDF da ficha: Formato profissional pronto para imprimir. Este é o entregável padrão para vendas de produtos imprimíveis em todos os marketplaces.\n\nJPEG da chave de respostas e PDF da chave de respostas: Exportações separadas para a chave de respostas em ambos os formatos.\n\nO teste grátis com marca d`água produz exportações totalmente funcionais com uma marca d`água sobreposta. Isto permite-lhe avaliar a qualidade de impressão, testar o formato e criar amostras impressas antes de comprar uma licença comercial. A licença comercial remove a marca d'água de todas as exportações.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Vender fichas de objetos ocultos no Etsy',
+      heading: `Vender fichas de objetos ocultos no Etsy`,
       content: `O Etsy é o marketplace mais forte para fichas imprimíveis de objetos ocultos. As categorias de pesquisa «busca e encontra» e «objetos ocultos» têm audiências dedicadas de compradores entre pais, vendedores e famílias que fazem ensino doméstico.\n\nOtimização de títulos: Coloque a sua palavra-chave principal no início. Exemplos fortes: «Fichas imprimíveis de busca e encontra — Tema animais do zoo — Pesquisa de objetos ocultos — Com chave de respostas» ou «Pack de fichas de encontra o intruso — Animais do oceano — Atividade de discriminação visual — PDF imprimível». Use todos os 140 caracteres que o Etsy permite.\n\nEtiquetas: Use as 13 etiquetas. Misture amplas e específicas: «fichas de busca e encontra», «objetos ocultos imprimível», «atividade de busca e encontra», «ficha de encontra o intruso», «discriminação visual», «imprimível para pré-escolar», «atividade para jardim de infância», «busca e encontra», «puzzles imprimíveis para crianças», «atividade para a loja», «ficha para ensino doméstico», «atividade para crianças pequenas», «encontra a diferença».\n\nImagens do anúncio: Carregue de 5 a 10 imagens. Inclua a página completa da ficha, um pormenor em grande plano mostrando o detalhe da cena, a chave de respostas com os objetos ocultos destacados, e se possível uma imagem de uma criança a trabalhar na ficha impressa. A primeira imagem é a sua miniatura — torne a cena colorida e visualmente densa para captar a atenção nos resultados de pesquisa.\n\nPreços: Fichas individuais de Busca e encontra vendem-se a 1,49–2,99 $. Pacotes temáticos de 8–12 cenas vendem-se a 4,99–8,99 $. Mega pacotes combinando ambos os modos de jogo em múltiplos temas vendem-se a 12,99–19,99 $.`,
     },
     {
@@ -74,14 +74,14 @@ const content: GuideContent = {
       content: `O Amazon KDP é ideal para conteúdo de objetos ocultos porque o formato preenche naturalmente páginas de livros de atividades. Os compradores na Amazon procuram ativamente «livros de busca e encontra para crianças» e «livros de atividades de pesquisa de objetos».\n\nFormato do produto: Compile de 30 a 60 cenas de objetos ocultos num livro de atividades encadernado. Inclua as chaves de respostas no final. Organize as cenas por dificuldade — comece simples e aumente a complexidade ao longo do livro. O KDP exige tamanhos de corte específicos; 8,5×11 polegadas funciona bem para cenas detalhadas.\n\nTítulo e subtítulo: Exemplo de título: «Livro de atividades de busca e encontra para crianças dos 3 aos 6 anos». Exemplo de subtítulo: «50 cenas divertidas de objetos ocultos com animais do zoo, criaturas do oceano e amigos da quinta — Inclui chaves de respostas».\n\nPalavras-chave: O KDP disponibiliza 7 espaços de palavras-chave. Use frases específicas: «livro de busca e encontra para crianças pequenas», «livro de atividades de objetos ocultos para crianças», «livro de busca e encontra para pré-escolar», «livro de puzzles de pesquisa visual», «páginas de atividades de encontrar o objeto», «livro de busca e encontra para jardim de infância», «livro de busca e encontra de animais».\n\nDesign da capa: Mostre uma cena de exemplo na capa com alguns objetos ocultos rodeados ou destacados. Isto comunica imediatamente o conceito do livro. Use imagens brilhantes e coloridas que se destaquem nos resultados de pesquisa da Amazon em tamanho de miniatura.\n\nPreços: Os livros de atividades do KDP com 30–60 páginas vendem-se a 5,99–8,99 $. Os livros com 80–100 páginas atingem 8,99–12,99 $. A Amazon fica com uma parte significativa dos royalties, por isso defina preços que mantenham pelo menos 2–3 $ de lucro por venda.`,
     },
     {
-      heading: 'Vender fichas de objetos ocultos no Gumroad',
+      heading: `Vender fichas de objetos ocultos no Gumroad`,
       content: `Os compradores do Gumroad (Gumroad) procuram fichas de objetos ocultos como atividades de discriminação visual, exercícios para desenvolver a atenção e atividades de recompensa para usuários que terminam mais cedo.\n\nAs descrições de produtos no Gumroad devem incluir: o modo de jogo específico (Busca e encontra ou Encontra o intruso), o intervalo etário e nível escolar, o número de cenas incluídas, se chaves de respostas estão incluídas, e as competências de desenvolvimento que são praticadas (discriminação visual, atenção ao detalhe, perceção figura-fundo, reconhecimento de padrões).\n\nFicheiros de pré-visualização: O Gumroad permite um ficheiro de pré-visualização. Inclua 2–3 cenas de amostra — uma mostrando a ficha completa e outra mostrando a chave de respostas. As pré-visualizações aumentam drasticamente as taxas de conversão porque os vendedores podem avaliar a qualidade antes de comprar.\n\nPosicionamento específico para Gumroad: Apresente os seus produtos usando vocabulário educativo. As fichas de objetos ocultos desenvolvem «discriminação visual» e «perceção figura-fundo». As fichas de Encontra o intruso desenvolvem «competências de classificação» e «raciocínio lógico». Estes termos correspondem à forma como os vendedores pesquisam e justificam a compra de recursos para a loja.\n\nAgrupamento no Gumroad: Os vendedores compram em grande quantidade para o ano letivo. Um «Pack de atividades de pesquisa visual para o ano inteiro» com 40–60 cenas organizadas por tema e dificuldade é um produto forte no Gumroad. Inclua um índice e uma visão geral das competências trabalhadas para ajudar os vendedores a planear a utilização.\n\nConexão com terapia ocupacional: As fichas de objetos ocultos são utilizadas por terapeutas ocupacionais que trabalham competências de perceção visual. Mencionar «adequado para terapia ocupacional» ou «atividade de perceção visual» na sua descrição e etiquetas abre um segmento adicional de compradores.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Preços de produtos de fichas de objetos ocultos',
+      heading: `Preços de produtos de fichas de objetos ocultos`,
       content: `As fichas de objetos ocultos têm preços ligeiramente mais altos do que as fichas padrão porque cada cena requer um design e disposição intencionais. Os compradores percebem o esforço criativo envolvido na construção de uma cena visualmente complexa.\n\nFichas de cena individual com chave de respostas: 1,99–2,99 $. Estas funcionam como produtos de entrada que demonstram a qualidade das suas cenas.\n\nMini-pacotes temáticos (5–8 cenas): 3,99–6,99 $. Cada cena do pacote usa o mesmo tema mas com diferentes disposições de imagens, criando variedade dentro de um produto coeso.\n\nPacotes de modo duplo (Busca e encontra + Encontra o intruso, mesmo tema): 5,99–9,99 $. Oferecer ambos os modos de jogo sobre o mesmo tema proporciona um valor excecional e aponta a duas categorias de pesquisa simultaneamente.\n\nColeções completas (20–40 cenas em múltiplos temas): 12,99–24,99 $. Posicione estas como packs de atividades para a loja ou suplementos para o ano inteiro. Inclua uma mistura de níveis de dificuldade e ambos os modos de jogo.\n\nPacotes a cores + escala de cinzentos: Ofereça as mesmas cenas a cores e em escala de cinzentos com um pequeno suplemento sobre o preço do formato individual. As escolas com orçamentos limitados de tinta apreciam a opção em escala de cinzentos, enquanto os pais que imprimem em casa costumam preferir a versão a cores.`,
     },
     {
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Aqui estão exemplos concretos de produtos de Busca e encontra que pode criar com o Gerador de buscar objetos.\n\nBusca e encontra para pré-escolar (3–5 anos): Use 8 imagens distratoras grandes e coloridas com alto contraste entre objetos. Coloque 2 objetos ocultos de forma proeminente — sobrepondo-os parcialmente com uma ou duas distratoras mas ainda claramente visíveis com uma pesquisa concentrada. Use temas com imagens instantaneamente reconhecíveis: animais da quinta, frutas, veículos. Exemplo de título: «Busca e encontra — Animais da quinta — Pesquisa visual fácil para pré-escolar — Atividade imprimível com chave de respostas».\n\nBusca e encontra para jardim de infância (5–6 anos): Use 10 distratoras com variação moderada de tamanho e 3 objetos ocultos. Permita alguma semelhança visual entre os objetos ocultos e as distratoras (uma maçã vermelha oculta entre morangos vermelhos). Os temas de animais do oceano, dinossauros e comida funcionam bem. Exemplo de título: «Fichas de busca e encontra — Animais do oceano — Imprimível para crianças de 5–6 anos».\n\nBusca e encontra para ensino básico inicial (6–8 anos): Use 12 distratoras com sobreposição e camadas significativas. Coloque de 4 a 5 objetos ocultos em vários tamanhos, alguns parcialmente obscurecidos. Use temas visualmente complexos onde as imagens partilhem cores semelhantes. Exemplo de título: «Desafio de busca e encontra na selva — Fichas de objetos ocultos para crianças de 6–8 anos — 12 cenas com chaves de respostas».\n\nBusca e encontra sazonal: Crie cenas com temas festivos usando abóboras para o Halloween, enfeites para o Natal, corações para o Dia dos Namorados e ovos para a Páscoa. Os produtos sazonais têm janelas de procura previsíveis. Publique-os 4 a 6 semanas antes de cada festividade para máxima visibilidade.`,
     },
     {
-      heading: 'Variações de produtos de Encontra o intruso',
+      heading: `Variações de produtos de Encontra o intruso`,
       content: `As fichas de Encontra o intruso apontam a uma categoria de pesquisa e necessidade de comprador diferente das de Busca e encontra. Aqui estão exemplos de produtos específicos.\n\nEncontra o intruso básico (3–5 anos): Use 8 pares de imagens iguais (16 no total) com 1 elemento intruso claramente diferente. Escolha temas onde as imagens tenham formas e cores distintas para que os pares sejam fáceis de identificar. Os animais da quinta funcionam bem: duas vacas, dois porcos, duas galinhas, dois cavalos — e um trator independente. Exemplo de título: «Atividade de encontra o intruso — Animais da quinta — Ficha imprimível de discriminação visual».\n\nEncontra o intruso intermédio (5–7 anos): Use 10 pares com 2 elementos intrusos. Introduza alguma semelhança visual entre diferentes tipos de imagens (um cão entre gatos, uma cenoura entre frutas). A complexidade acrescida exige um exame mais cuidadoso. Exemplo de título: «Encontra o intruso — 10 cenas de animais — Fichas de pensamento visual para jardim de infância».\n\nEncontra o intruso avançado (7–9 anos): Use 12 pares com 3 elementos intrusos. Use temas onde as imagens partilhem cores ou formas semelhantes para aumentar a dificuldade. As crianças devem comparar cuidadosamente para distinguir os elementos emparelhados dos não emparelhados. Exemplo de título: «Puzzles desafiantes de encontra o intruso — Discriminação visual avançada para 7–9 anos».\n\nPacotes mistos: Combine fichas de Busca e encontra e Encontra o intruso num único pacote temático. Isto duplica a variedade de atividades e permite-lhe apontar aos termos de pesquisa de «objetos ocultos» e «encontra o intruso» com um único anúncio. Estes pacotes mistos têm preços premium porque oferecem dois tipos de atividade distintos.`,
     },
   ],
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Sim. Cada ficha inclui uma chave de respostas automática. No modo Busca e encontra, a chave de respostas destaca as localizações dos objetos ocultos dentro da cena. No modo Encontra o intruso, marca as imagens sem par. As chaves de respostas são exportadas como ficheiros PDF e JPEG separados. Incluir chaves de respostas é essencial para produtos educativos e um critério de pesquisa comum nos marketplaces.`,
     },
     {
-      question: 'Como funcionam as ferramentas de edição do ecrã?',
+      question: `Como funcionam as ferramentas de edição do ecrã?`,
       answer: `O gerador disponibiliza controlos de camadas (trazer para a frente, enviar para o fundo), ferramentas de alinhamento (esquerda, centro, direita, cima, baixo, alinhar à página) e bloquear/desbloquear para objetos individuais. Estes permitem-lhe posicionar com precisão cada imagem na sua cena. Também dispõe de desfazer/refazer (Ctrl+Z/Ctrl+Y) e controlos de zoom para inspeção detalhada. Estas ferramentas dão-lhe controlo de disposição profissional sem necessitar de software de design externo.`,
     },
     {
@@ -139,12 +139,12 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'criar-fichas-buscar-contar',
-      title: 'Criar fichas de buscar e contar',
+      title: `Criar fichas de buscar e contar`,
       description: `O complemento natural das cenas de objetos ocultos. Buscar e contar combina a pesquisa visual com a prática de contagem para um produto de ficha de dupla competência.`,
     },
     {
       slug: 'criar-fichas-labirintos',
-      title: 'Criar fichas de labirintos com imagens',
+      title: `Criar fichas de labirintos com imagens`,
       description: `Outro formato de pesquisa visual onde as crianças navegam por labirintos temáticos de imagens. Expanda a sua linha de produtos de busca e encontra para a categoria de labirintos.`,
     },
     {
@@ -155,30 +155,30 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como criar fichas profissionais que vendem' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como criar fichas profissionais que vendem` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass de negócio de imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de negócio de livros de atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
     { pageType: 'app', slug: 'encontrar-objetos-fichas', anchorText: `Gerador de cenas de buscar objetos — Todos os detalhes` },
     { pageType: 'app', slug: 'labirinto-caminhos-fichas', anchorText: `Gerador de labirintos com imagens — Todos os detalhes` },
-    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: 'Experimente o Gerador de cenas de objetos ocultos' },
+    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: `Experimente o Gerador de cenas de objetos ocultos` },
   ],
 
   toolsRecommended: [
     {
       appId: 'find-objects',
-      title: 'Gerador de cenas de buscar objetos',
+      title: `Gerador de cenas de buscar objetos`,
       description: `A ferramenta principal deste guia. Crie fichas de cenas de objetos ocultos nos modos Busca e encontra e Encontra o intruso com imagens temáticas, carregamentos personalizados, ferramentas de edição do ecrã e chaves de respostas automáticas.`,
     },
     {
       appId: 'find-and-count',
-      title: 'Gerador de fichas de buscar e contar',
+      title: `Gerador de fichas de buscar e contar`,
       description: `Um complemento de busca e encontra que combina a pesquisa visual com a prática de contagem. Combina bem com produtos de objetos ocultos para uma linha completa de produtos de pesquisa visual.`,
     },
     {
       appId: 'picture-path',
-      title: 'Gerador de labirintos com imagens',
+      title: `Gerador de labirintos com imagens`,
       description: `Cria labirintos temáticos de imagens onde as crianças navegam caminhos através de imagens. Outro formato de pesquisa visual que expande o seu catálogo de produtos para a categoria de labirintos.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/find objects/Encontra o Diferente (1).webp`, alt: 'Ficha de cena de objetos ocultos mostrando imagens temáticas dispostas para as crianças encontrarem objetos específicos' },
+    heroImage: { src: `/samples/portuguese/find objects/Encontra o Diferente (1).webp`, alt: `Ficha de cena de objetos ocultos mostrando imagens temáticas dispostas para as crianças encontrarem objetos específicos` },
     samples: [
-      { src: `/samples/portuguese/find objects/Encontra o Diferente (2).webp`, alt: 'Ficha de objetos ocultos tipo busca e encontra com cena temática para atividade de pesquisa visual', caption: 'Cena de Busca e encontra com imagens temáticas e objetos distratores para prática de pesquisa visual' },
-      { src: `/samples/portuguese/find objects/Encontra o Diferente (3).webp`, alt: 'Chave de respostas de ficha de objetos ocultos destacando as localizações dos elementos escondidos', caption: 'Chave de respostas automática gerada para cada ficha de cena de objetos ocultos' },
+      { src: `/samples/portuguese/find objects/Encontra o Diferente (2).webp`, alt: `Ficha de objetos ocultos tipo busca e encontra com cena temática para atividade de pesquisa visual`, caption: `Cena de Busca e encontra com imagens temáticas e objetos distratores para prática de pesquisa visual` },
+      { src: `/samples/portuguese/find objects/Encontra o Diferente (3).webp`, alt: `Chave de respostas de ficha de objetos ocultos destacando as localizações dos elementos escondidos`, caption: `Chave de respostas automática gerada para cada ficha de cena de objetos ocultos` },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: `Como criar fichas de cenas de objetos ocultos — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/camping/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Binóculos — imagem educativa temática', caption: 'Binóculos' },
-    { src: '/image-library/camping/boots.webp', alt: 'Botas — imagem educativa temática', caption: 'Botas' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabana — imagem educativa temática', caption: 'Cabana' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/camping/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Binóculos — imagem educativa temática`, caption: 'Binóculos' },
+    { src: `/image-library/camping/boots.webp`, alt: `Botas — imagem educativa temática`, caption: 'Botas' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabana — imagem educativa temática`, caption: 'Cabana' },
   ],
 };
 

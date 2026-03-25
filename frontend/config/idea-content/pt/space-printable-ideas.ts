@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Espaço — Guia de Nicho',
+    titleTag: `Ideias de Imprimíveis de Espaço — Guia de Nicho`,
     metaDescription: `Descobre ideias de imprimíveis de espaço para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos do espaço exterior, estratégias STEM e dicas de nicho.`,
 
-    primaryKeyword: 'ideias de imprimíveis de espaço',
+    primaryKeyword: `ideias de imprimíveis de espaço`,
     secondaryKeywords: [
-      'fichas temática espacial para vender',
-      'negócio imprimíveis temática espacial',
-      'fichas atividades espaço para vendedores',
-      'vender imprimíveis de espaço no Etsy',
+      `fichas temática espacial para vender`,
+      `negócio imprimíveis temática espacial`,
+      `fichas atividades espaço para vendedores`,
+      `vender imprimíveis de espaço no Etsy`,
     ],
     lsiKeywords: [
       'fichas educativas astronomia',
-      'atividades planetas e foguetões',
-      'imprimíveis sistema solar para a loja',
+      `atividades planetas e foguetões`,
+      `imprimíveis sistema solar para a loja`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Para maximizar as tuas receitas com imprimíveis de espaço, desenvolve produtos
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras Espaciais para Vender Online',
+      title: `Sopas de Letras Espaciais para Vender Online`,
       description: `As sopas de letras com vocabulário do sistema solar atraem vendedores que planeiam unidades de ciências e pais que procuram entretenimento educativo que canalize o entusiasmo dos seus filhos pelo espaço no desenvolvimento de competências de literacia. Cria puzzles com vocabulário específico do espaço como planeta, foguetão, astronauta, órbita, galáxia, cometa, telescópio e satélite juntamente com termos mais amplos de astronomia. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos espaciais para compradores mais velhos. As variações como pesquisas de nomes de planetas, vocabulário de exploração espacial e terminologia de astronautas ampliam o teu catálogo para captar diferentes interesses de compradores dentro do nicho de educação em astronomia.`,
       appId: 'wordsearch',
     },
@@ -90,17 +90,17 @@ Para maximizar as tuas receitas com imprimíveis de espaço, desenvolve produtos
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Espaço no Etsy',
+      title: `Vender Imprimíveis de Espaço no Etsy`,
       description: `O Etsy recompensa o nicho espacial com uma vantagem significativa de listagens durante todo o ano sobre os concorrentes sazonais, porque os teus imprimíveis de espaço geram impressões diárias consistentes sem os vales de procura que as lojas dependentes de festividades experienciam entre janelas de venda. Utiliza as treze etiquetas com variações que combinem subtemas espaciais, tipos de competência e grupos etários: «fichas contagem espaço pré-escolar», «sopa de letras sistema solar jardim de infância» e «páginas colorir foguetões crianças pequenas» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas amplas como «fichas espaço». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade STEM» e «prenda amante da ciência» nos teus títulos e descrições. As imagens de listagens que mostram fichas espaciais impressas junto a foguetões de brincar, decorações com temática de estrelas ou kits de ciência superam as pré-visualizações digitais planas e captam a mentalidade impulsionada pela imaginação que traz as famílias amantes do espaço ao Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades Espaciais no KDP',
+      title: `Publicar Livros de Atividades Espaciais no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de espaço porque os pais e compradores de prendas naturalmente adicionam livros de atividades aos seus carrinhos da Amazon junto a telescópios, brinquedos espaciais, kits STEM e livros de ciência para crianças curiosas. Compila fichas individuais de espaço em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas do sistema solar e da exploração espacial. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades espaço para crianças», «fichas sistema solar pré-escolar» e termos de subtemas como «livro colorir foguetões» ou «atividades astronauta para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como prendas STEM, prendas para crianças amantes da ciência ou complementos para unidades de astronomia online. Os livros de atividades espaciais beneficiam da procura durante todo o ano com picos modestos durante a temporada de regresso às aulas e o período de compras de prendas de inverno.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos Espaciais para a loja no Gumroad',
+      title: `Criar Recursos Espaciais para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores online que procuram material complementar para unidades de ciências, estações de atividades STEM e recursos multicurriculares que integrem temas espaciais na instrução de matemática, literacia e arte com um tempo mínimo de preparação necessário. Os imprimíveis de espaço no Gumroad funcionam melhor quando empacotados como soluções prontas a usar online: estações de atividades para unidades do sistema solar, pacotes de trabalho matinal com temática espacial ou pacotes de vocabulário de astronomia para trabalhos de casa com cartas de instrução para os pais. Inclui objetivos de aprendizagem claros vinculados aos padrões de ciências e matemática para que os vendedores possam justificar as atividades com temática espacial perante os administradores e coordenadores de catálogo de produtos. A função de agrupamento do Gumroad permite-te oferecer produtos individuais de espaço e um mega-pacote STEM com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em recursos completos para unidades espaciais que abrangem múltiplas semanas de instrução.`,
     },
     {
@@ -144,18 +144,18 @@ Para maximizar as tuas receitas com imprimíveis de espaço, desenvolve produtos
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ Para maximizar as tuas receitas com imprimíveis de espaço, desenvolve produtos
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -179,18 +179,18 @@ Para maximizar as tuas receitas com imprimíveis de espaço, desenvolve produtos
     },
     {
       pageType: 'idea',
-      slug: 'transportes-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Transportes',
+      slug: `transportes-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Transportes`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — imagem educativa temática', caption: 'Asteroide' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronauta — imagem educativa temática', caption: 'Astronauta' },
-    { src: '/image-library/space/comet.webp', alt: 'Cometa — imagem educativa temática', caption: 'Cometa' },
-    { src: '/image-library/space/earth.webp', alt: 'Terra — imagem educativa temática', caption: 'Terra' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Galáxia — imagem educativa temática', caption: 'Galáxia' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Júpiter — imagem educativa temática', caption: 'Júpiter' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroide — imagem educativa temática`, caption: 'Asteroide' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronauta — imagem educativa temática`, caption: 'Astronauta' },
+    { src: `/image-library/space/comet.webp`, alt: `Cometa — imagem educativa temática`, caption: 'Cometa' },
+    { src: `/image-library/space/earth.webp`, alt: `Terra — imagem educativa temática`, caption: 'Terra' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Galáxia — imagem educativa temática`, caption: 'Galáxia' },
+    { src: `/image-library/space/jupiter.webp`, alt: `Júpiter — imagem educativa temática`, caption: 'Júpiter' },
   ],
 
 

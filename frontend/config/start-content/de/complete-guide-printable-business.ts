@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'druckvorlagen-geschäft starten',
+    primaryKeyword: `druckvorlagen-geschäft starten`,
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft für Anfänger',
-      'Arbeitsblätter online verkaufen',
+      `Druckvorlagen-Geschäft für Anfänger`,
+      `Arbeitsblätter online verkaufen`,
       'Druckvorlagen-Shop aufbauen',
-      'Druckvorlagen-Geschäft Startleitfaden',
+      `Druckvorlagen-Geschäft Startleitfaden`,
     ],
     lsiKeywords: [
-      'digitaler Download Geschäftsmodell',
-      'Arbeitsblatt-Generator für Verkäufer',
-      'Etsy Druckvorlagen-Shop einrichten',
+      `digitaler Download Geschäftsmodell`,
+      `Arbeitsblatt-Generator für Verkäufer`,
+      `Etsy Druckvorlagen-Shop einrichten`,
       'Amazon KDP Aktivitätsbücher',
       'Gumroad Arbeitsblätter',
-      'kommerzielle Lizenz Druckvorlagen-Werkzeuge',
+      `kommerzielle Lizenz Druckvorlagen-Werkzeuge`,
     ],
     titleTag: `Druckvorlagen-Geschäft starten — Komplettanleitung`,
     metaDescription: `Druckvorlagen-Geschäft starten. Schritt-für-Schritt-Anleitung für Etsy, KDP und Gumroad mit Arbeitsblatt-Generatoren für Produkte, die sich.`,
@@ -31,7 +31,7 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: 'Was ist ein Druckvorlagen-Geschäft?',
+      heading: `Was ist ein Druckvorlagen-Geschäft?`,
       content: `Ein Druckvorlagen-Geschäft verkauft digitale Dateien, die Kunden herunterladen und zu Hause, im Shop oder in einem Copyshop ausdrucken. Sie erstellen das Produkt einmal — eine PDF- oder hochauflösende Bilddatei — und verkaufen es unbegrenzt oft. Es gibt kein Inventar zu verwalten, keinen Versand zu organisieren und kein physisches Produkt herzustellen.\n\nDie häufigsten Kategorien für druckbare Arbeitsblätter umfassen Rechenübungen, Leseaktivitäten, Malvorlagen, Rätsel-Arbeitsblätter, Zuordnungsspiele und Mustererkennungsübungen. Diese Produkte bedienen Eltern, Käufer, Homeschool-Familien, Geschäftskunden und Kindertagesstätten.\n\nWas dieses Geschäftsmodell besonders attraktiv macht, ist die Kombination aus niedrigen Betriebskosten und wiederkehrender Nachfrage. Ein gut gemachtes Additions-Arbeitsblatt verkauft sich im September und es verkauft sich im März. Eine Malvorlage mit Feiertagsthema verkauft sich jedes Jahr, wenn dieser Feiertag naht. Ihr Katalog wächst kumulativ — jedes neue Produkt, das Sie hinzufügen, erhöht das Gesamtverdienstpotenzial Ihres Shops, ohne Ihre laufenden Kosten zu erhöhen.`,
     },
     {
@@ -47,15 +47,15 @@ const content: StartContent = {
       content: `Professionelle Arbeitsblätter erfordern konsistente Layouts, saubere Typografie, präzise Lösungsschlüssel und visuell ansprechende Designs. Diese manuell in Grafikdesign-Software zu erstellen ist zeitaufwändig und fehleranfällig.\n\nArbeitsblatt-Generatoren lösen dieses Problem. Sie übernehmen das Layout, die Rechenlogik, die Lösungsschlüssel-Erstellung und das visuelle Design automatisch. Sie wählen die Parameter — Schwierigkeitsgrad, Zahlenbereich, Thema, Bilderset, Seitengröße — und der Generator erzeugt in Sekunden eine druckfertige Datei.\n\nLessonCraftStudio bietet 33 spezialisierte Arbeitsblatt-Generatoren in sechs Kategorien: Mathe und Zahlen, Buchstaben und Wörter, Zeichnen und Kunst, visuelles Lernen, Zuordnen und Sortieren sowie Rätsel und Spiele. Jeder Generator enthält über 100 thematische Bildersets, mehrere Seitengrößen, konfigurierbare Schwierigkeitsgrade und automatische Lösungsschlüssel-Erstellung.\n\nJeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie die Ausgabequalität bewerten, verschiedene Konfigurationen testen und Muster-Arbeitsblätter erstellen können, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz erlaubt Ihnen, die erstellten Arbeitsblätter auf jeder Plattform zu verkaufen — Etsy.de, Amazon KDP, Gumroad, Gumroad oder Ihre eigene Website.\n\nDer praktische Vorteil von Generatoren ist Geschwindigkeit. Ein Verkäufer, der manuelle Design-Tools nutzt, verbringt möglicherweise 30–60 Minuten mit einem einzigen Arbeitsblatt. Mit einem Generator können Sie ein poliertes, druckfertiges Arbeitsblatt in unter zwei Minuten erstellen. Dieser Geschwindigkeitsunterschied ist es, der Verkäufer mit großen Katalogen von denen trennt, die bei einer Handvoll Produkte stecken bleiben.`,
     },
     {
-      heading: 'Ihr erstes Druckvorlagen-Produkt erstellen',
+      heading: `Ihr erstes Druckvorlagen-Produkt erstellen`,
       content: `Ihr erstes Produkt sollte einfach, bewährt und schnell zu erstellen sein. Beginnen Sie nicht mit dem komplexesten Arbeitsblatt-Typ — starten Sie mit etwas, das Sie in einer einzigen Sitzung fertigstellen und am selben Tag listen können.\n\nWortsuche-Arbeitsblätter sind ein hervorragendes erstes Produkt. Sie sind universell verständlich, sprechen eine breite Altersgruppe an und haben ein starkes Suchvolumen auf jedem Marktplatz. So geht der Prozess:\n\n1. Öffnen Sie den Wortsuche-Generator und wählen Sie ein Thema (zum Beispiel „Tiere").\n2. Wählen Sie den gewünschten Schwierigkeitsgrad: Rastergröße, Wortanzahl und Wortrichtungen einstellen.\n3. Wählen Sie ein Seitenformat (US Letter oder A4) und entscheiden Sie, ob ein Lösungsschlüssel enthalten sein soll.\n4. Generieren Sie Ihr Arbeitsblatt. Überprüfen Sie die Ausgabe auf visuelle Qualität und Layout.\n5. Laden Sie die PDF- und JPEG-Versionen herunter.\n6. Erstellen Sie 3–5 Variationen mit verschiedenen Themen oder Schwierigkeitsgraden für ein kleines Paket.\n\nPakete verkaufen sich besser als einzelne Blätter. Ein Paket „10 Tier-Wortsuchrätsel" für $3,99 verkauft sich besser als ein einzelnes Rätsel für $0,99, weil Käufer mehr Wert wahrnehmen und der Stückpreis niedriger erscheint.\n\nÜberprüfen Sie vor dem Listen die Qualität: Drucken Sie ein Testexemplar, bestätigen Sie, dass das Layout sauber ist, und lösen Sie das Arbeitsblatt selbst, um die Richtigkeit zu prüfen. Der erste Eindruck zählt — ein einziges falsch ausgerichtetes Element oder ein fehlerhafter Lösungsschlüssel bringt eine negative Bewertung, die zukünftige Verkäufe beeinträchtigt.`,
     },
     {
-      heading: 'Wo Sie Ihre Druckvorlagen online verkaufen können',
+      heading: `Wo Sie Ihre Druckvorlagen online verkaufen können`,
       content: `Vier Plattformen dominieren den Verkauf von Druckvorlagen-Arbeitsblättern, und jede hat eigene Vorteile.\n\nEtsy.de ist der größte Marktplatz für druckbare Downloads. Er hat massiven eingebauten Traffic von Käufern, die aktiv nach druckbaren Arbeitsblättern suchen. Die Listing-Gebühr beträgt $0,20 pro Artikel, und Etsy nimmt einen Prozentsatz von jedem Verkauf. Die Plattform bevorzugt Verkäufer mit großen Katalogen und guter SEO. Ihre Hauptkonkurrenz sind andere Etsy-Verkäufer, und Differenzierung kommt durch Qualität, Nischenfokus und Listing-Optimierung.\n\nAmazon KDP (Kindle Direct Publishing) bedient den Markt für Aktivitätsbücher und Arbeitsbücher. KDP-Produkte werden auf Bestellung gedruckt und von Amazon versandt, aber Sie können auch Low-Content- und No-Content-Bücher als Druckvorlagen-Produkte veröffentlichen. KDP gibt Ihnen Zugang zu Amazons enormer Kundenbasis. Der Kompromiss ist weniger Kontrolle über Preisgestaltung und Präsentation im Vergleich zu Etsy.\n\nGumroad ist auf Bildungsressourcen spezialisiert. Das Publikum besteht hauptsächlich aus Käufern und Homeschool-Familien. Käufer auf dem Gumroad erwarten marktorientierte, standardreferenzierte Produkte. Wenn Ihre Arbeitsblätter auf bestimmte Altersstufen und Lernziele abzielen, ist der Gumroad eine natürliche Wahl. Die Plattform nimmt eine Provision bei jedem Verkauf.\n\nGumroad bietet die einfachste Einrichtung für den Direktverkauf digitaler Downloads. Sie kontrollieren das gesamte Kundenerlebnis, legen Ihre eigenen Preise fest und behalten einen größeren Anteil an jedem Verkauf. Der Kompromiss ist, dass Gumroad keinen eingebauten Marktplatz-Traffic hat — Sie müssen Ihre eigenen Besucher über soziale Medien, E-Mail-Listen oder Content-Marketing anziehen.\n\nDer empfohlene Ansatz: Starten Sie auf Etsy.de für sofortigen Zugang zu Käufern, dann erweitern Sie auf KDP und Gumroad, wenn Ihr Katalog wächst. Nutzen Sie Gumroad oder Ihre eigene Website für Direktverkäufe, sobald Sie ein Publikum haben.`,
     },
     {
-      heading: 'Preisstrategien für Druckvorlagen-Produkte',
+      heading: `Preisstrategien für Druckvorlagen-Produkte`,
       content: `Die Preisgestaltung für druckbare Arbeitsblätter ist sowohl Kunst als auch Wissenschaft. Zu niedrig kalkuliert, entwerten Sie Ihre Arbeit und ziehen Schnäppchenjäger an, die selten zu Stammkunden werden. Zu hoch ohne etablierte Glaubwürdigkeit, und Käufer scrollen weiter.\n\nHier sind die Preisbereiche, die derzeit auf den großen Plattformen gut funktionieren:\n\nEinzelne Arbeitsblätter: $1,49–$2,99. Am besten für einfache, einseitige Produkte. In dieser Preisklasse sind Impulskäufe häufig.\n\nKleine Pakete (5–10 Seiten): $2,99–$5,99. Die beliebteste Preisklasse für Arbeitsblatt-Pakete auf Etsy. Käufer haben das Gefühl, einen guten Wert pro Seite zu erhalten.\n\nGroße Pakete (15–30+ Seiten): $5,99–$12,99. Diese funktionieren am besten, wenn das Paket ein klares Thema oder einen Produktkatalogfokus hat, wie „Komplettes Kindergarten-Mathe-Paket" oder „Ganzjährige Malvorlagen-Sammlung".\n\nMega-Pakete (50+ Seiten): $14,99–$29,99. Höchster Umsatz pro Transaktion, aber geringstes Volumen. Diese sprechen Käufer und Homeschool-Eltern an, die umfassende Ressourcen wollen.\n\nRecherchieren Sie Ihre spezifische Nische, bevor Sie Preise festlegen. Suchen Sie auf Etsy.de nach vergleichbaren Produkten, notieren Sie die Preisspanne der Top-Verkäufer und positionieren Sie sich wettbewerbsfähig. Es ist in der Regel besser, in der Mitte des Marktes zu starten und basierend auf tatsächlichen Verkaufsdaten anzupassen, als zu raten.\n\nEine entscheidende Preis-Erkenntnis: Pakete übertreffen einzelne Arbeitsblätter durchweg beim Gesamtumsatz. Ein Verkäufer mit 10 einzelnen Blättern à $1,99 wird fast immer weniger verdienen als derselbe Verkäufer, der diese 10 Blätter als $6,99-Paket anbietet. Erstellen Sie beide Optionen — Einzellistings für Sichtbarkeit und Pakete für Umsatz.`,
     },
     {
@@ -67,7 +67,7 @@ const content: StartContent = {
       content: `Ein Produkt ist ein Test. Zehn Produkte sind ein Shop. Fünfzig Produkte sind ein Geschäft. Die Verkäufer, die konstantes Einkommen mit Druckvorlagen erzielen, sind diejenigen, die große, gut organisierte Kataloge aufbauen.\n\nBeginnen Sie mit Ihrer Kernnische und expandieren Sie systematisch. Wenn Ihre ersten Produkte Additions-Arbeitsblätter sind, ist der natürliche Expansionspfad: Subtraktions-Arbeitsblätter, gemischte Mathe-Pakete, dann breitere Mathe-Kategorien wie Multiplikation und Division. Jede Expansion nutzt Ihre vorhandene Expertise und zieht Wiederkäufer an, die Ihrer Qualität vertrauen.\n\nSaisonale Produkte verdienen einen Platz in jedem Katalog. Schulanfangs-Pakete im August, Halloween-Arbeitsblätter im Oktober, Feiertags-Aktivitätspakete im Dezember — diese zeitgebundenen Produkte schaffen vorhersagbare Umsatzspitzen das ganze Jahr über. Erstellen Sie sie in ruhigeren Monaten, damit sie bereit sind, wenn die Nachfrage steigt.\n\nKategorieübergreifende Pakete sind leistungsstarke Umsatztreiber. Ein „Komplettes Vorschul-Lernpaket", das Mathe-Arbeitsblätter, Malvorlagen, Zuordnungsspiele und Musteraktivitäten aus Ihrem gesamten Katalog enthält, erzielt einen höheren Preis als jedes einzelne Kategorie-Paket.\n\nVerfolgen Sie, was sich verkauft. Jeder Marktplatz bietet Analysen, die zeigen, welche Produkte Aufrufe, Klicks und Käufe erhalten. Verdoppeln Sie bei dem, was funktioniert. Wenn Ihre Malvorlagen mit Tierethema alles andere übertreffen, erstellen Sie mehr Tierthemen, mehr Malvariationen und Tierthemen-Pakete. Daten sollten Ihre Katalog-Erweiterung steuern, nicht Vermutungen.\n\nNicht-englischsprachige Märkte sind deutlich unterversorgt. Die meisten Druckvorlagen-Verkäufer erstellen ausschließlich englische Produkte. Wenn Sie Arbeitsblätter auf Deutsch, Französisch, Spanisch oder in anderen Sprachen erstellen können, sehen Sie sich weniger Konkurrenz gegenüber und können ähnliche Preise verlangen. Rein visuelle Arbeitsblätter — wie Zuordnung, Ausmalen und Musteraktivitäten — funktionieren in jeder Sprache ohne Änderung und geben Ihnen sofortigen Zugang zu internationalen Käufern.`,
     },
     {
-      heading: 'Häufige Fehler neuer Druckvorlagen-Verkäufer',
+      heading: `Häufige Fehler neuer Druckvorlagen-Verkäufer`,
       content: `Nach der Beobachtung Tausender Druckvorlagen-Verkäufer beim Start und Wachstum (oder Stillstand und Aufgabe) treten mehrere Muster regelmäßig auf.\n\nUnterpreisgestaltung ist der häufigste Fehler. Neue Verkäufer setzen Arbeitsblätter auf $0,99 oder verschenken Produkte sogar für Sichtbarkeit. Dies trainiert Käufer, niedrige Preise zu erwarten, macht es nahezu unmöglich, ein bedeutsames Einkommen zu erzielen, und positioniert Ihre Marke als Budget-Segment. Kalkulieren Sie basierend auf dem gelieferten Wert, nicht auf Unsicherheit darüber, neu zu sein.\n\nDünne Produktvielfalt tötet Shops. Ein Shop mit fünf Listings sieht aus wie ein Hobby. Ein Shop mit fünfzig sieht aus wie ein Geschäft. Käufer kaufen weit eher bei einem Verkäufer, der sich eindeutig auf ihre Nische spezialisiert hat und umfassende Abdeckung bietet. Verpflichten Sie sich, regelmäßig neue Produkte hinzuzufügen — selbst zwei bis drei pro Woche summieren sich auf über 100 Produkte in einem Jahr.\n\nNicht-englischsprachige Märkte zu ignorieren ist eine verpasste Chance. Die deutschen, französischen, spanischen und portugiesischen Märkte für Bildungs-Druckvorlagen wachsen schnell, bleiben aber unterversorgt. Die meisten Arbeitsblatt-Generatoren auf LessonCraftStudio unterstützen 11 Sprachen, was es unkompliziert macht, mehrsprachige Produkte ohne Übersetzungskenntnisse zu erstellen.\n\nSchlechte Listing-Qualität untergräbt gute Produkte. Unscharfe Vorschaubilder, keyword-überladene Titel und vage Beschreibungen signalisieren Amateur-Qualität, selbst wenn die tatsächlichen Arbeitsblätter ausgezeichnet sind. Investieren Sie Zeit in professionelle Listing-Präsentation — sie beeinflusst direkt, ob Käufer klicken und kaufen.\n\nSchließlich ist es ein Rezept für Enttäuschung, dies als passives Nebenprojekt statt als aktives Geschäft zu behandeln. Erfolgreiche Druckvorlagen-Verkäufer erstellen regelmäßig Produkte, optimieren Listings basierend auf Daten, reagieren auf Kundenfeedback und passen sich an Markttrends an. Das Geschäft kann nach der Etablierung sehr effizient werden, aber die Aufbauphase erfordert konstante Arbeit und Aufmerksamkeit.`,
     },
   ],
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Öffnen Sie 2–3 Generatoren, die für Ihre Nische relevant sind, und erstellen Sie Muster-Arbeitsblätter mit der kostenlosen Testversion mit Wasserzeichen. Bewerten Sie die Ausgabequalität, Anpassungsoptionen und Benutzerfreundlichkeit, bevor Sie sich für eine Lizenz entscheiden.`,
     },
     {
-      step: 'Ihr erstes Produktpaket erstellen',
+      step: `Ihr erstes Produktpaket erstellen`,
       description: `Generieren Sie 5–10 thematische Arbeitsblätter mit einem Generator. Variieren Sie den Schwierigkeitsgrad, das Thema oder die Konfiguration für jede Seite. Verpacken Sie sie als zusammenhängendes Paket mit einem klaren Titel und einheitlichem visuellen Stil.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Schreiben Sie einen keyword-reichen Titel, füllen Sie alle 13 Tags, erstellen Sie ein sauberes Vorschaubild-Mockup und schreiben Sie eine Beschreibung, die klar angibt, was enthalten ist, für wen es ist und welche Dateiformate bereitgestellt werden.`,
     },
     {
-      step: '5–10 Produkte in Ihrer ersten Woche listen',
+      step: `5–10 Produkte in Ihrer ersten Woche listen`,
       description: `Dynamik ist auf Etsy wichtig. Neue Shops mit mehreren Listings erhalten mehr Sichtbarkeit als Shops mit einem einzigen Produkt. Erstellen und listen Sie mindestens 5 Produkte in Ihrer ersten Woche.`,
     },
     {
-      step: 'Einen Produkterstellungsplan aufstellen',
+      step: `Einen Produkterstellungsplan aufstellen`,
       description: `Verpflichten Sie sich, 2–3 neue Produkte pro Woche hinzuzufügen. Blocken Sie Zeit in Ihrem Kalender speziell für die Produkterstellung. Konsistenz ist der wichtigste Einzelfaktor für langfristigen Erfolg im Druckvorlagen-Verkauf.`,
     },
     {
-      step: 'Nach 30 Tagen analysieren und optimieren',
+      step: `Nach 30 Tagen analysieren und optimieren`,
       description: `Überprüfen Sie Ihre Etsy-Analysen nach dem ersten Monat. Identifizieren Sie, welche Listings die meisten Aufrufe und Verkäufe erhalten. Erstellen Sie mehr Produkte in den Kategorien, die gut abschneiden. Aktualisieren Sie schwache Listings mit besseren Vorschaubildern und Keywords.`,
     },
     {
-      step: 'Auf weitere Plattformen expandieren',
+      step: `Auf weitere Plattformen expandieren`,
       description: `Sobald Sie 20+ Produkte und konstante Etsy-Verkäufe haben, expandieren Sie auf Amazon KDP und Gumroad. Passen Sie Ihre bestehenden Produkte an das Format und die Erwartungen des jeweiligen Publikums an.`,
     },
     {
-      step: 'Ihre erste saisonale Kollektion planen',
+      step: `Ihre erste saisonale Kollektion planen`,
       description: `Identifizieren Sie die nächste große saisonale Gelegenheit (Schulanfang, Halloween, Weihnachten, Valentinstag) und erstellen Sie eine thematische Produktkollektion mindestens 4–6 Wochen vor der Spitzennachfrage.`,
     },
   ],
@@ -123,7 +123,7 @@ const content: StartContent = {
     },
     {
       appId: 'addition-worksheets',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Mathe-Arbeitsblätter sind zeitlose Verkaufsschlager. Erstellen Sie bildbasierte Additionsaufgaben mit konfigurierbarem Schwierigkeitsgrad, thematischen Bildersets und vier verschiedenen Aufgabenmodi für maximale Produktvielfalt.`,
     },
     {
@@ -133,7 +133,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Rein visuelle Arbeitsblätter, die in jeder Sprache ohne Änderung funktionieren. Zuordnungsaktivitäten sprechen Vorschul- und Kindergarten-Käufer an und lassen sich schnell in großen Mengen produzieren.`,
     },
     {
@@ -143,7 +143,7 @@ const content: StartContent = {
     },
     {
       appId: 'crossword-worksheets',
-      title: 'Bilderkreuzworträtsel-Generator',
+      title: `Bilderkreuzworträtsel-Generator`,
       description: `Sprachsensitive Kreuzworträtsel, die 11 Sprachen unterstützen. Eine starke Wahl für Verkäufer, die mehrsprachige Märkte bedienen oder internationale Produktkataloge aufbauen.`,
     },
   ],
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
-      title: 'Arbeitsblätter erstellen, die sich verkaufen',
+      slug: `arbeitsblaetter-erstellen-die-verkaufen`,
+      title: `Arbeitsblätter erstellen, die sich verkaufen`,
       description: `Tiefgehender Einblick in die Produkterstellung: Qualitätsstandards, Differenzierungsstrategien und die spezifischen Techniken, die generische Arbeitsblätter in Produkte verwandeln, die Käufer der Konkurrenz vorziehen.`,
     },
     {
       slug: 'etsy-druckvorlagen-geschaeft',
-      title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+      title: `Etsy Druckvorlagen-Geschäft Masterclass`,
       description: `Plattformspezifische Anleitung für Etsy-Verkäufer mit Shop-Einrichtung, SEO-Optimierung, Listing-Strategien und Skalierungstechniken, zugeschnitten auf den Etsy-Marktplatz.`,
     },
     {
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      title: 'Amazon KDP Aktivitätsbuch-Leitfaden',
+      title: `Amazon KDP Aktivitätsbuch-Leitfaden`,
       description: `Alles, was Sie über die Veröffentlichung von Aktivitätsbüchern auf Amazon KDP wissen müssen: Formatierungsanforderungen, Cover-Design, Keyword-Recherche und Kategorieauswahl.`,
     },
     {
@@ -207,36 +207,36 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäftsleitfaden' },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäftsleitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz — Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Druckvorlagen-Geschäft Bauplan' },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: `Malvorlagen-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: `zuordnungs-arbeitsblatt-ersteller`, anchorText: `Zuordnungs-Arbeitsblatt-Ersteller ausprobieren` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Druckvorlagen-Geschäft Bauplan` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio Generator` },
+    heroImage: { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio Generator` },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Druckbares Wortsuche-Arbeitsblatt mit Tierthema', caption: 'Wortsuche — Tierthema' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt mit bildbasierten Matheaufgaben`, caption: 'Addition — Bildbasierte Aufgaben' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlagen-Arbeitsblatt mit thematischen Illustrationen`, caption: 'Malvorlage — Thematische Illustrationen' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt mit visuellen Paar-Aktivitäten`, caption: 'Zuordnung — Visuelle Paar-Aktivität' },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Druckbares Wortsuche-Arbeitsblatt mit Tierthema`, caption: 'Wortsuche — Tierthema' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt mit bildbasierten Matheaufgaben`, caption: `Addition — Bildbasierte Aufgaben` },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlagen-Arbeitsblatt mit thematischen Illustrationen`, caption: `Malvorlage — Thematische Illustrationen` },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt mit visuellen Paar-Aktivitäten`, caption: `Zuordnung — Visuelle Paar-Aktivität` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Wortsuche-Arbeitsblätter erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
   ],
 };
 

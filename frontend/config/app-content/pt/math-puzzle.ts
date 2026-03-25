@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de puzzles matemáticos',
+    primaryKeyword: `gerador de puzzles matemáticos`,
     secondaryKeywords: [
       `fichas de puzzles matemáticos imprimíveis para Etsy`,
-      'gerador de puzzles de imagens para Amazon KDP',
-      'vender fichas de puzzles matemáticos no Gumroad',
-      'fichas de puzzles matemáticos licença comercial',
+      `gerador de puzzles de imagens para Amazon KDP`,
+      `vender fichas de puzzles matemáticos no Gumroad`,
+      `fichas de puzzles matemáticos licença comercial`,
     ],
     lsiKeywords: [
       `produtos digitais de puzzles matemáticos para empreendedores`,
-      'negócio de fichas de puzzles imprimíveis',
-      'gerador de puzzles matemáticos uso comercial',
+      `negócio de fichas de puzzles imprimíveis`,
+      `gerador de puzzles matemáticos uso comercial`,
     ],
-    titleTag: 'Gerador de Puzzles Matemáticos | Criar e Vender',
+    titleTag: `Gerador de Puzzles Matemáticos | Criar e Vender`,
     metaDescription:
       `Crie fichas de puzzles matemáticos para Etsy, KDP e Gumroad. Puzzles com imagens, adição e subtração, quadrículas ajustáveis. Teste grátis com marca d'água.`,
   },
@@ -35,17 +35,17 @@ const content: AppContent = {
           `Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Ficha por defeito (800×1000) ou Quadrado (1200×1200). Selecione uma cor de fundo, escolha um tema decorativo da biblioteca de imagens e ajuste a opacidade para manter a quadrícula do puzzle legível. Adicione uma moldura de borda combinante para dar às suas fichas um aspeto profissional e polido.`,
       },
       {
-        title: 'Configure a quadrícula e a operação matemática',
+        title: `Configure a quadrícula e a operação matemática`,
         description:
           `Abra o painel de Configuração do Puzzle e defina o número de linhas (2–4) e colunas (2–4) para determinar quantas peças formam o puzzle — desde uma simples quadrícula 2×2 com 4 peças até uma desafiante 4×4 com 16 peças. Selecione a operação: Adição gera problemas onde dois números somam o valor da peça, Subtração cria problemas onde um número menos outro é igual à solução, e o modo Adição e Subtração misto mistura ambas as operações em toda a quadrícula. As soluções são uma sequência desordenada de 2 a N (onde N é o total de peças), garantindo que cada resposta seja única.`,
       },
       {
-        title: 'Escolha uma imagem da biblioteca temática',
+        title: `Escolha uma imagem da biblioteca temática`,
         description:
           `Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e alimentos até veículos e festividades. Use a barra de pesquisa para encontrar imagens instantaneamente. Selecione a imagem que deseja como imagem do puzzle; o gerador divide-a automaticamente nas células da quadrícula que configurou. Também pode carregar as suas próprias imagens personalizadas para criar puzzles completamente únicos que combinem com a sua marca, tema de loja ou linha de produtos sazonais.`,
       },
       {
-        title: 'Adicione texto, títulos e personalização',
+        title: `Adicione texto, títulos e personalização`,
         description:
           `Use o painel de Ferramentas de Texto para adicionar um título à ficha, campos de nome e data do usuário, instruções ou qualquer texto personalizado. Escolha entre sete fontes, incluindo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste tamanho, cor e contorno para máxima legibilidade. Use o canvas Fabric.js para arrastar, redimensionar e reposicionar cada elemento com precisão — com controlos de camadas, guias de alinhamento, bloquear/desbloquear e desfazer e refazer ilimitados.`,
       },
@@ -61,7 +61,7 @@ const content: AppContent = {
     title: `Características Principais do Gerador de Puzzles Matemáticos`,
     features: [
       {
-        title: 'Formato puzzle-imagem com problemas de matemática',
+        title: `Formato puzzle-imagem com problemas de matemática`,
         description:
           `Cada ficha apresenta uma imagem selecionada dividida numa quadrícula de células, com cada célula contendo um problema de matemática. Abaixo da quadrícula, as peças do puzzle aparecem desordenadas e numeradas para que os usuários as combinem resolvendo cada problema. Este formato em duas fases — resolver as operações e depois montar o puzzle — transforma a aritmética básica num desafio visual motivador que mantém os usuários empenhados em completar cada problema da página.`,
       },
@@ -71,17 +71,17 @@ const content: AppContent = {
           `Defina as linhas de 2 a 4 e as colunas de 2 a 4 para criar puzzles que vão desde uma quadrícula 2×2 para iniciantes (4 peças) até uma desafiante 4×4 (16 peças). As quadrículas pequenas funcionam perfeitamente para a pré-escola e o jardim de infância onde são necessários menos problemas por página, enquanto as quadrículas grandes proporcionam prática prolongada para o primeiro e segundo ano. O tamanho da quadrícula controla diretamente a quantidade de problemas, tornando a diferenciação de dificuldade tão simples como ajustar dois deslizadores.`,
       },
       {
-        title: 'Três operações matemáticas para cada nível',
+        title: `Três operações matemáticas para cada nível`,
         description:
           `Escolha Adição para gerar problemas onde dois números somam o valor da peça, Subtração para problemas onde um número menos outro é igual à resposta, ou o modo Adição e Subtração misto para misturar ambas as operações na quadrícula. As soluções são geradas automaticamente como uma sequência desordenada de 2 a N (onde N é o total de peças), garantindo que cada resposta seja única e que cada problema tenha uma única correspondência correta com a sua peça do puzzle.`,
       },
       {
-        title: '104 temas visuais com mais de 3100 imagens',
+        title: `104 temas visuais com mais de 3100 imagens`,
         description:
           `Explore uma biblioteca de mais de 3100 ilustrações em alta resolução organizadas em 104 temas que incluem animais da quinta, vida marinha, veículos, espaço, alimentos, desportos, dinossauros, festividades e muito mais. Selecione qualquer imagem como imagem do puzzle — o gerador encarrega-se da divisão automaticamente. Como o formato é completamente visual, as suas fichas funcionam perfeitamente em qualquer idioma e em qualquer loja do mundo sem necessidade de modificação.`,
       },
       {
-        title: 'Geração automática de gabarito',
+        title: `Geração automática de gabarito`,
         description:
           `Clique num botão para gerar um gabarito completo que mostra a quadrícula resolvida com todos os problemas corretamente respondidos junto à imagem completamente montada. O gabarito proporciona verificação visual instantânea — usuários e vendedores podem ver tanto as soluções matemáticas como a imagem completa de relance. Exporte o gabarito como ficheiro JPEG ou PDF separado para edições do vendedor, guias para pais ou pacotes de produtos na Etsy.`,
       },
@@ -96,7 +96,7 @@ const content: AppContent = {
           `Vá além da biblioteca integrada carregando as suas próprias imagens PNG ou JPEG diretamente no gerador. Ideal para fichas de puzzles de marca, conteúdo sazonal, mascotes de loja ou clipart personalizado que diferencia os seus produtos imprimíveis da concorrência. As imagens carregadas integram-se perfeitamente com o sistema de quadrícula, dividindo-se conforme a configuração de linhas e colunas que escolher.`,
       },
       {
-        title: 'Edição completa do canvas com desfazer e refazer',
+        title: `Edição completa do canvas com desfazer e refazer`,
         description:
           `O canvas Fabric.js integrado permite-lhe arrastar, redimensionar, rodar e reposicionar cada elemento da página — texto, quadrículas de puzzle, bordas e fundos. Use os controlos de camadas para gerir o empilhamento de elementos, as ferramentas de alinhamento para uma colocação precisa e o bloquear/desbloquear para proteger elementos posicionados enquanto edita outros. Desfazer e refazer ilimitados permitem-lhe experimentar livremente, oferecendo-lhe a flexibilidade de uma ferramenta de design gráfico dentro de um gerador de puzzles.`,
       },
@@ -104,28 +104,28 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Puzzles Matemáticos Online',
+    title: `Como Vender Fichas de Puzzles Matemáticos Online`,
     cases: [
       {
-        title: 'Pacotes temáticos de puzzles matemáticos na Etsy',
+        title: `Pacotes temáticos de puzzles matemáticos na Etsy`,
         description:
           `Crie conjuntos de 10 a 20 fichas de puzzles matemáticos agrupadas por tema — animais da quinta, dinossauros, vida marinha, festividades — e publique-os como downloads instantâneos na Etsy. Inclua os gabaritos como ficheiros adicionais. O formato puzzle destaca-se das fichas de exercícios padrão, atraindo pais que procuram prática matemática motivadora e vendedores que procuram atividades criativas para a loja. Defina o preço de pacotes temáticos individuais entre $3–$5 e de mega-pacotes entre $12–$18. As coleções sazonais em torno do regresso às aulas, Halloween e férias da primavera tendem a disparar o tráfego de pesquisa, portanto planeie o seu calendário de publicações em torno destas janelas de alta procura para maximizar a visibilidade e as conversões.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Livros de puzzles matemáticos na Amazon KDP',
+        title: `Livros de puzzles matemáticos na Amazon KDP`,
         description:
           `Compile de 50 a 100 fichas de puzzles matemáticos num livro de atividades impresso em formato Amazon KDP. Use dificuldade progressiva — comece com puzzles 2×2 só de adição e avance até quadrículas 4×4 com operações mistas — para criar um percurso de aprendizagem estruturado que mantenha as crianças empenhadas ao longo de dezenas de páginas. Adicione uma capa, instruções que expliquem o formato do puzzle e uma secção de gabaritos no final. Os livros de puzzles matemáticos ocupam um nicho menos saturado do que os livros de fichas padrão, dando-lhe uma vantagem competitiva. Considere publicar volumes separados para cada ano escolar ou tipo de operação, já que títulos específicos posicionam-se melhor nos resultados de pesquisa da Amazon.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemática diferenciados para Gumroad',
+        title: `Centros de matemática diferenciados para Gumroad`,
         description:
           `Crie conjuntos de puzzles por níveis usando o tamanho da quadrícula como eixo de dificuldade: Nível 1 (2×2 adição, 4 peças), Nível 2 (2×3 adição, 6 peças), Nível 3 (3×3 subtração, 9 peças) e Nível 4 (4×4 misto, 16 peças). Empacote cada nível com gabaritos e uma folha de acompanhamento. Os compradores do Gumroad pagam preços premium por recursos diferenciados que se ajustam diretamente a grupos de competências e podem ser usados imediatamente como rotações em centros de matemática.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Conteúdo de subscrição para a sua própria loja',
+        title: `Conteúdo de subscrição para a sua própria loja`,
         description:
           `Use o gerador para produzir pacotes semanais de puzzles matemáticos e distribua-os através da sua própria loja no Shopify, Gumroad ou Payhip. Um modelo de subscrição — novo pacote temático de puzzles a cada semana — gera receitas recorrentes e fideliza uma base de clientes de famílias que educam em casa e centros de explicações. Com três operações, tamanhos de quadrícula variáveis e 104 temas, tem combinações suficientes para anos de conteúdo único sem repetir. Oferecer um pacote de amostras de teste grátis na página da sua loja permite que potenciais subscritores experimentem a qualidade do puzzle antes de se comprometerem, o que melhora significativamente as taxas de conversão.`,
         platform: 'Gumroad / Shopify / Payhip',
@@ -134,14 +134,14 @@ const content: AppContent = {
         title: `Ferramenta de envolvimento para loja e explicações`,
         description:
           `Gere puzzles matemáticos personalizados adaptados ao nível atual de cada usuário. Imprima puzzles simples 2×2 de adição para iniciantes e puzzles complexos 4×4 com operações mistas para usuários avançados — tudo na mesma sessão. A mecânica de revelação da imagem motiva os usuários a completarem cada problema para verem a imagem completa, reduzindo a resistência que muitas crianças sentem perante fichas de exercícios repetitivas. O gabarito automático poupa valor percebido.`,
-        platform: 'loja / Explicações / Ensino doméstico',
+        platform: `loja / Explicações / Ensino doméstico`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Como funciona o formato de puzzle matemático?',
+      question: `Como funciona o formato de puzzle matemático?`,
       answer:
         `Uma imagem selecionada é dividida numa quadrícula de células. Cada célula contém um problema de matemática (adição, subtração ou misto). Abaixo da quadrícula, as mesmas peças da imagem aparecem desordenadas e numeradas. Os usuários resolvem cada problema e depois combinam a resposta com a peça correta — quando todas as peças estão corretamente combinadas, o puzzle está resolvido e a imagem completa é revelada. Esta mecânica de revelação acrescenta uma camada de motivação que as fichas de exercícios padrão não têm, fazendo com que os usuários fiquem ansiosos por completar cada problema em vez de abandonar a ficha a meio.`,
     },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `O gerador suporta três modos de operação: Adição (dois números que somam a solução), Subtração (um número menos outro é igual à solução) e modo Adição e Subtração misto (ambas as operações misturadas na quadrícula). Isto permite trabalhar competências específicas ou criar prática variada numa única ficha. Os vendedores que oferecem os três modos de operação como produtos separados ou os agrupam numa coleção completa de puzzles matemáticos podem cobrir uma gama mais ampla de necessidades dos compradores.`,
     },
     {
-      question: 'Como são gerados os números dos problemas?',
+      question: `Como são gerados os números dos problemas?`,
       answer:
         `As soluções são uma sequência desordenada de 2 a N, onde N é igual ao número total de peças do puzzle (linhas × colunas). Para a adição, são gerados dois operandos cuja soma dá o valor da solução. Para a subtração, os operandos são gerados de modo que um menos o outro é igual à solução. Cada resposta é única, garantindo que cada peça corresponde exatamente a um único problema.`,
     },
@@ -166,7 +166,7 @@ const content: AppContent = {
         `Sim, cada puzzle usa uma imagem que é dividida em células da quadrícula. Pode selecionar qualquer imagem da biblioteca integrada de mais de 3100 ilustrações em 104 temas, ou carregar a sua própria imagem personalizada. O gerador encarrega-se da divisão automaticamente conforme as dimensões de quadrícula escolhidas.`,
     },
     {
-      question: 'O gerador cria gabaritos para os puzzles?',
+      question: `O gerador cria gabaritos para os puzzles?`,
       answer:
         `Sim. Clique no botão Gerar Gabarito para criar uma versão resolvida que mostra a quadrícula completa com todas as respostas junto à imagem completamente montada. Pode pré-visualizá-la no ecrã e descarregá-la como ficheiro JPEG ou PDF separado para incluir em edições do vendedor ou pacotes de produtos.`,
     },
@@ -188,15 +188,15 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — as três operações, todos os tamanhos de quadrícula, a biblioteca completa de imagens, a geração de gabaritos e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — as três operações, todos os tamanhos de quadrícula, a biblioteca completa de imagens, a geração de gabaritos e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
-      question: 'O que inclui a licença comercial?',
+      question: `O que inclui a licença comercial?`,
       answer:
         `A licença comercial remove a marca d'água de todos os downloads e concede-lhe direitos ilimitados para vender as fichas que criar — na Etsy, Amazon KDP, Gumroad, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de puzzles que produzir ou vender. Mantém a propriedade total de cada ficha que gerar, e pode publicar produtos em múltiplas plataformas simultaneamente sem quaisquer custos ou restrições adicionais de licenciamento.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada operação, cada tamanho de quadrícula, cada tema e cada formato de exportação antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.`,
     },
@@ -211,17 +211,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'subtracao-fichas',
-      anchorText: 'Gerador de Fichas de Subtração',
+      anchorText: `Gerador de Fichas de Subtração`,
     },
     {
       pageType: 'app',
       slug: 'adicao-codigo-fichas',
-      anchorText: 'Gerador de Fichas de Adição Codificada',
+      anchorText: `Gerador de Fichas de Adição Codificada`,
     },
     {
       pageType: 'app',
       slug: 'maior-menor-fichas',
-      anchorText: 'Gerador de Fichas Maior ou Menor',
+      anchorText: `Gerador de Fichas Maior ou Menor`,
     },
     {
       pageType: 'bundle',
@@ -231,17 +231,17 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vender-fichas-matematica-etsy',
-      anchorText: 'Guia para Vender Fichas de Matemática na Etsy',
+      anchorText: `Guia para Vender Fichas de Matemática na Etsy`,
     },
     {
       pageType: 'idea',
-      slug: 'bases-matematica-ideias-imprimiveis',
+      slug: `bases-matematica-ideias-imprimiveis`,
       anchorText: `Ideias de imprimíveis de matemática para vendedores e vendedores`,
     },
     {
       pageType: 'idea',
-      slug: 'regresso-aulas-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de regresso às aulas',
+      slug: `regresso-aulas-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de regresso às aulas`,
     },
     {
       pageType: 'start',

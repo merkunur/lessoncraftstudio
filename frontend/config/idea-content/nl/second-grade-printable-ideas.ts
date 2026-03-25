@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Groep 4 Printables Verkopen — Nichegids',
+    titleTag: `Groep 4 Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende groep 4 printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Basisschool productconcepten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'groep 4 printable ideeën',
     secondaryKeywords: [
       'groep 4 werkbladen verkopen',
-      'basisschool printable business ideeën',
-      'groep 4 activiteiten voor verkopers',
-      'groep 4 printables verkopen op Gumroad',
+      `basisschool printable business ideeën`,
+      `groep 4 activiteiten voor verkopers`,
+      `groep 4 printables verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'basisschool reken en taal werkbladen',
-      'groep 4 productcatalogus printables',
+      `basisschool reken en taal werkbladen`,
+      `groep 4 productcatalogus printables`,
       'leeftijd 7-8 leeractiviteiten',
     ],
   },
   hero: {
-    title: 'Groep 4 Printable Businessideeën voor Verkopers',
+    title: `Groep 4 Printable Businessideeën voor Verkopers`,
     description: `Groep 4 printables bezetten een uniek winstgevende positie op de educatieve markt omdat groep 4 het jaar is waarin de academische complexiteit dramatisch versnelt over elk vakgebied, met rekenen dat uitbreidt van enkelvoudige bewerkingen naar meercijferige optelling en aftrekking, lezen dat verschuift van decoderen naar echt begrip en vloeiendheid, en schrijven dat vordert van eenvoudige zinnen naar georganiseerde alinea's met hoofdgedachte en ondersteunende details. Deze academische sprong creëert intense vraag van verkopers die gedifferentieerd materiaal nodig hebben op meerdere vaardigheidsniveaus omdat de gereedheidkloof tussen gebruikers aanzienlijk verbreedt in groep 4. Ouders worden steeds gemotiveerdere kopers omdat toetsresultaten intensiveren met meer formele beoordelingen en rapportcijfers specifieke niveaucategorieproficiëntie weergeven. Het productcatalogusbereik van groep 4 omvat een buitengewoon scala aan vaardigheden waaronder twee- en driecijferig optellen en aftrekken, positiewaardebegrip tot honderdtallen, klokkijken, geld tellen, meten, gegevens verzamelen met grafieken, leesvloeiendheid, begrijpend lezen, woordenschatontwikkeling, grammaticaconventies en alineaopbouw. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De groep 4 printable-markt vertegenwoordigt een van de sterkste omzetkansen in de educatieve niche omdat groep 4 zich bevindt op het kritische kruispunt waar academische verwachtingen intensiveren terwijl vaardigheidskloven tussen gebruikers verbreden, wat dubbele koopdruk creëert van verkopers die hun instructie moeten differentiëren over steeds diversere productlijnen en ouders die geconfronteerd worden met verhoogde verantwoordelijkheid voor de academische voortgang van hun kind via meer formele toetsrapportages en niveaucategorieproficiëntiestandaarden. Het rekenproductcatalogus alleen al stimuleert enorme printable-vraag omdat groep-4-rekenen de overgang maakt van de enkelvoudige bewerkingen die in groep 3 werden beheerst naar meercijferige berekeningen die strategieën voor splitsen, lenen en positiewaardebegrip vereisen.
@@ -40,12 +40,12 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
 
   productIdeas: [
     {
-      title: 'Groep 4 Telwerkbladen voor Printable Verkopers',
+      title: `Groep 4 Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen voor groep 4 richten zich op uitgebreid getalbegrip met hoeveelheden tot honderd en het werken met tientallen en honderdtallen. Gebruik de Zoek en Tel-generator om complexere scènes te maken waarin kinderen grotere aantallen voorwerpen lokaliseren en tellen, groeperen in tientallen, en eenvoudige vermenigvuldigingsconcepten verkennen via herhaald optellen. Bied sets aan op progressieve moeilijkheidsniveaus die het schooljaar volgen. Combineer met thema's die aansluiten bij de interesses van zeven- tot achtjarigen voor maximale zoekwoorddekking. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Groep 4 Woordzoekpuzzels Online Verkopen',
+      title: `Groep 4 Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers voor groep 4 trekken verkopers en ouders aan die spelling- en woordenschatvaardigheden willen versterken op het niveau van voortgezet technisch lezen en begin-begrijpend lezen. Maak puzzels met woorden van vier tot acht letters die aansluiten bij het groep-4-spellingniveau — medeklinkerclusters, meerlettergrepige woorden en thematische vocabulaire uit de zaakvakken. De Woordzoeker-generator laat je rasters maken met tien tot vijftien woorden die het juiste uitdagingsniveau bieden voor zeven- tot achtjarigen. Variaties per vakgebied — rekentermen, aardrijkskundewoorden, natuurvocabulaire — verbreden je catalogus.`,
       appId: 'wordsearch',
     },
@@ -55,12 +55,12 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
       appId: 'matching',
     },
     {
-      title: 'Groep 4 Optelwerkbladen voor Rekenverkopers',
+      title: `Groep 4 Optelwerkbladen voor Rekenverkopers`,
       description: `Optelwerkbladen voor groep 4 zijn een van de meest gevraagde producttypes omdat optellen tot honderd met en zonder lenen een kerndoel is. Gebruik de Optellen-generator om werkbladen te maken met tweecijferige sommen voor het eerste halfjaar en driecijferige sommen met leenstrategieën voor het tweede halfjaar. De automatisering van rekenfeiten en het ontwikkelen van rekenstrategieën zijn cruciale groep-4-doelen. Combineer met thematische illustraties voor visuele aantrekkelijkheid terwijl de nadruk op de rekeninhoud ligt.`,
       appId: 'addition',
     },
     {
-      title: 'Groep 4 Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Groep 4 Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten voor groep 4 bevatten doorgaans educatieve instructies zoals kleur-bij-som, kleur-bij-tafeluitkomst of kleur-bij-spellingregel die de kleuractiviteit transformeren in een reken- of taaloefening. De Kleuren-generator maakt gedetailleerde contouren met het juiste complexiteitsniveau voor zeven- tot achtjarigen. Voor Etsy verkoop je samengestelde sets met educatieve kleurinstructies. Voor KDP compileer je dertig tot vijftig pagina's in groep-4-activiteitenboeken die kleuren combineren met reken- en taaloefeningen.`,
       appId: 'coloring',
     },
@@ -71,7 +71,7 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
     },
     {
       title: `Groep 4 Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelwerkbladen voor groep 4 bieden complexere visuele discriminatieuitdagingen met subtielere vormverschillen die passen bij het cognitieve ontwikkelingsniveau van zeven- tot achtjarigen. Gebruik de Schaduw Koppelen-generator om pagina's te maken met thematische beelden en hun silhouetten op gevorderd niveau. Combineer met populaire thema\'s die aansluiten bij de interesses van groep 4 gebruikers. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelwerkbladen voor groep 4 bieden complexere visuele discriminatieuitdagingen met subtielere vormverschillen die passen bij het cognitieve ontwikkelingsniveau van zeven- tot achtjarigen. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met thematische beelden en hun silhouetten op gevorderd niveau. Combineer met populaire thema's die aansluiten bij de interesses van groep 4 gebruikers. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -94,12 +94,12 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Groep 4 Printables Verkopen op Etsy',
+      title: `Groep 4 Printables Verkopen op Etsy`,
       description: `Etsy is effectief voor groep-4-printables omdat ouders actief zoeken naar aanvullend oefeningsmateriaal wanneer de academische complexiteit toeneemt en Cito-toetsresultaten eventuele achterstanden zichtbaar maken. Richt je op long-tail zoekwoorden die specifieke vaardigheden en het niveaucategorie combineren: "groep 4 rekenwerkblad optellen tot 100," "tafels oefenen werkblad" of "begrijpend lezen groep 4." Gebruik alle dertien tags. Positioneer je producten als "thuisoefen-ondersteuning" en "Cito-voorbereiding" — dit resoneert bij ouders die concrete resultaatverbetering zoeken. De Nederlandse markt via Etsy.nl biedt kansen door de groeiende ouderlijke bezorgdheid rond groep-4-toetsresultaten.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Groep 4 Activiteitenboeken Publiceren op KDP',
+      title: `Groep 4 Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is effectief voor groep-4-printables omdat ouders oefenboeken kopen als thuisoefen- en vakantiemateriaal. Compileer groep-4-werkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die reken-, taal-, lees- en schrijfactiviteiten combineren op progressieve moeilijkheidsniveaus. Gebruik KDP-zoekwoordvelden strategisch: voeg "groep 4 oefenboek," "tafels leren werkbladen," en vaardigheidsspecifieke termen toe als "optellen tot 100 oefenboek" of "begrijpend lezen werkbladen." Prijs tussen vier en acht euro. Overweeg ook Amazon.nl en Bol.com — bijzonder relevant voor Nederlandse groep-4-oefenboeken.`,
     },
     {
@@ -149,62 +149,62 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-subtraction-worksheets',
-      anchorText: 'Professionele aftrekwerkbladen maken',
+      anchorText: `Professionele aftrekwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
+      anchorText: `Groep 3 printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'third-grade-printable-ideas',
-      anchorText: 'Groep 5 printable businessideeën',
+      anchorText: `Groep 5 printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
+      anchorText: `Rekenfeiten printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rugzak — educatieve thema-afbeelding groep 4', caption: 'Rugzak' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — educatieve thema-afbeelding groep 4', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding groep 4', caption: 'Boek' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding groep 4', caption: 'Kast' },
-    { src: '/image-library/classroom/calculator.webp', alt: `Rekenmachine — educatieve thema-afbeelding groep 4`, caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding groep 4', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding groep 4`, caption: 'Rugzak' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — educatieve thema-afbeelding groep 4`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: `Boek — educatieve thema-afbeelding groep 4`, caption: 'Boek' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Kast — educatieve thema-afbeelding groep 4`, caption: 'Kast' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Rekenmachine — educatieve thema-afbeelding groep 4`, caption: 'Rekenmachine' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — educatieve thema-afbeelding groep 4`, caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

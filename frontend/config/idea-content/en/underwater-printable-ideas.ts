@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Underwater Printable Ideas to Sell — Niche Guide',
+    titleTag: `Underwater Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover underwater printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Ocean-themed product concepts, deep-sea worksheets, and niche tips for sellers.`,
 
     primaryKeyword: 'underwater printable ideas',
     secondaryKeywords: [
       'underwater worksheets to sell',
-      'deep sea printable business ideas',
-      'underwater activity sheets for sellers',
-      'sell underwater printables on Etsy',
+      `deep sea printable business ideas`,
+      `underwater activity sheets for sellers`,
+      `sell underwater printables on Etsy`,
     ],
     lsiKeywords: [
-      'deep sea creature educational worksheets',
+      `deep sea creature educational worksheets`,
       'coral reef activity pages',
       'aquatic themed printables',
     ],
   },
   hero: {
-    title: 'Underwater Printable Business Ideas for Sellers',
-    description: `Underwater themes represent one of the most visually rich and reliably evergreen niches for printable entrepreneurs because children maintain a deep, enduring fascination with ocean life, marine creatures, and the mysterious world beneath the waves that drives consistent purchasing behavior across every season and calendar quarter. The extraordinary diversity of sea creatures and underwater environments creates an emotional connection that captivates children and motivates parents and buyers to seek out ocean-themed educational materials for home learning, homeschool content libraries, and home learning enrichment. The underwater theme offers remarkable sub-theme depth including fish, shark, dolphin, whale, octopus, jellyfish, seahorse, starfish, coral reef, turtle, crab, lobster, stingray, submarine, seaweed, anchor, shipwreck, treasure chest, pearl, oyster, clam, squid, eel, and anemone, giving sellers a visual vocabulary of unmatched variety that connects to children's natural curiosity about what lives beneath the ocean surface and the colorful ecosystems that thrive in coral reefs, deep sea trenches, and coastal tide pools. Cross-curricular versatility makes underwater printables especially valuable because marine concepts connect naturally to science through marine biology, ocean ecosystems, habitats, and animal classification, math through counting sea creatures, grouping marine animals by category, and ocean measurement activities, literacy through ocean vocabulary building, marine life descriptions, and underwater adventure story comprehension, and geography through ocean mapping, underwater exploration concepts, and understanding marine habitats around the world. For printable sellers on Etsy, Amazon KDP, and Gumroad, the underwater niche combines strong year-round demand with extraordinary visual diversity that resonates with science-focused buyers planning marine biology and ocean habitat units, buyers integrating nature and animal studies, homeschool families exploring ocean science and marine ecology topics, aquarium education programs building complementary activity materials, and parents looking for educational printables that channel their child's natural wonder about dolphins, sharks, whales, and the colorful creatures of the coral reef into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable underwater printable product line using our worksheet generator tools.`,
+    title: `Underwater Printable Business Ideas for Sellers`,
+    description: `Underwater themes represent one of the most visually rich and reliably evergreen niches for printable entrepreneurs because children maintain a deep, enduring fascination with ocean life, marine creatures, and the mysterious world beneath the waves that drives consistent purchasing behavior across every season and calendar quarter. The extraordinary diversity of sea creatures and underwater environments creates an emotional connection that captivates children and motivates parents and buyers to seek out ocean-themed educational materials for home learning, homeschool content libraries, and home learning enrichment. The underwater theme offers remarkable sub-theme depth including fish, shark, dolphin, whale, octopus, jellyfish, seahorse, starfish, coral reef, turtle, crab, lobster, stingray, submarine, seaweed, anchor, shipwreck, treasure chest, pearl, oyster, clam, squid, eel, and anemone, giving sellers a visual vocabulary of unmatched variety that connects to children`s natural curiosity about what lives beneath the ocean surface and the colorful ecosystems that thrive in coral reefs, deep sea trenches, and coastal tide pools. Cross-curricular versatility makes underwater printables especially valuable because marine concepts connect naturally to science through marine biology, ocean ecosystems, habitats, and animal classification, math through counting sea creatures, grouping marine animals by category, and ocean measurement activities, literacy through ocean vocabulary building, marine life descriptions, and underwater adventure story comprehension, and geography through ocean mapping, underwater exploration concepts, and understanding marine habitats around the world. For printable sellers on Etsy, Amazon KDP, and Gumroad, the underwater niche combines strong year-round demand with extraordinary visual diversity that resonates with science-focused buyers planning marine biology and ocean habitat units, buyers integrating nature and animal studies, homeschool families exploring ocean science and marine ecology topics, aquarium education programs building complementary activity materials, and parents looking for educational printables that channel their child`s natural wonder about dolphins, sharks, whales, and the colorful creatures of the coral reef into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable underwater printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The underwater printable niche occupies a uniquely powerful position for printable sellers because children\'s fascination with ocean life and marine creatures operates as a genuine year-round evergreen interest that never depends on weather, holidays, or calendar timing. Unlike seasonal themes that concentrate demand into narrow windows, the underwater niche benefits from the simple reality that children are captivated by sharks, dolphins, whales, octopuses, and the colorful world of coral reefs during every month of the year. Aquarium visits, ocean documentaries, marine animal toys, and underwater-themed media maintain a constant stream of engagement that translates directly into parent and buyer demand for ocean-themed educational materials. This consistent demand pattern makes underwater printables a reliable revenue foundation without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -41,7 +41,7 @@ The aquarium visit connection represents a particularly valuable audience driver
       appId: 'find-count',
     },
     {
-      title: 'Underwater Word Search Puzzles to Sell Online',
+      title: `Underwater Word Search Puzzles to Sell Online`,
       description: `Ocean vocabulary word searches attract science-focused buyers planning marine biology units and parents seeking educational entertainment that channels their child's natural fascination with sharks, dolphins, and coral reef ecosystems into productive vocabulary expansion and spelling skill development across multiple ocean-themed categories. Create puzzles featuring marine-specific vocabulary like dolphin, octopus, jellyfish, seahorse, coral, submarine, anemone, stingray, lobster, and shipwreck alongside broader ocean terms like current, habitat, ecosystem, and migration. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more marine terms for older children exploring ocean science vocabulary and marine biology terminology.`,
       appId: 'wordsearch',
     },
@@ -61,7 +61,7 @@ The aquarium visit connection represents a particularly valuable audience driver
       appId: 'coloring',
     },
     {
-      title: 'Underwater Bingo Cards for Group Activities',
+      title: `Underwater Bingo Cards for Group Activities`,
       description: `Ocean bingo cards serve buyers running marine biology units and buyers seeking interactive group activities that reinforce marine vocabulary and sea creature identification more effectively than individual worksheets alone in engaging group and learning center settings. The Bingo generator creates unique card variations from your ocean vocabulary list, ensuring no two cards are identical for group play sessions. Sell group sets of twenty-five to thirty cards with a caller sheet and marine vocabulary reference guide included. For the family market, create bingo kits featuring different ocean zones, sea creatures, coral reef elements, deep sea animals, and underwater exploration equipment that families can play during ocean learning sessions or after aquarium visits when marine enthusiasm runs especially high.`,
       appId: 'bingo',
     },
@@ -90,17 +90,17 @@ The aquarium visit connection represents a particularly valuable audience driver
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Underwater Printables on Etsy',
-      description: `Etsy rewards the underwater niche with consistent year-round listing performance because children's fascination with ocean creatures and marine life never pauses and parents of ocean-loving kids actively search for themed educational materials that support their child's marine curiosity across every season. Use all thirteen tags with variations combining marine elements, skill areas, and age groups: "ocean counting worksheets preschool," "underwater coloring pages toddler," and "shark word search kindergarten" target specific buyer searches far more effectively than broad tags like "ocean worksheets." Position your products for both educational and gift-buyer searches by including terms like "young marine biologist activity" and "ocean lover printable" in your titles and descriptions. Listing images showing printed underwater worksheets alongside toy sea creatures, shell collections, or aquarium souvenirs outperform flat digital previews and capture the hands-on enthusiasm that brings parents of ocean-fascinated children to Etsy searching for marine-themed educational resources. Target mermaid and ocean birthday party searches year-round, as underwater themes remain one of the most popular celebration choices for children who dream of exploring the deep blue sea.`,
+      title: `Selling Underwater Printables on Etsy`,
+      description: `Etsy rewards the underwater niche with consistent year-round listing performance because children`s fascination with ocean creatures and marine life never pauses and parents of ocean-loving kids actively search for themed educational materials that support their child`s marine curiosity across every season. Use all thirteen tags with variations combining marine elements, skill areas, and age groups: "ocean counting worksheets preschool," "underwater coloring pages toddler," and "shark word search kindergarten" target specific buyer searches far more effectively than broad tags like "ocean worksheets." Position your products for both educational and gift-buyer searches by including terms like "young marine biologist activity" and "ocean lover printable" in your titles and descriptions. Listing images showing printed underwater worksheets alongside toy sea creatures, shell collections, or aquarium souvenirs outperform flat digital previews and capture the hands-on enthusiasm that brings parents of ocean-fascinated children to Etsy searching for marine-themed educational resources. Target mermaid and ocean birthday party searches year-round, as underwater themes remain one of the most popular celebration choices for children who dream of exploring the deep blue sea.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Underwater Activity Books on KDP',
-      description: `Amazon KDP excels for underwater printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children's marine animal encyclopedias, ocean storybooks, shark toys, and aquarium exploration kits that fuel children' passion for understanding what lives beneath the ocean surface. Compile individual underwater worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around coral reef and deep sea themes. Use KDP keyword fields strategically: include "ocean activity book for kids," "underwater worksheets preschool," and sub-theme terms like "shark coloring book" or "coral reef activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for young marine enthusiasts, companions to aquarium visits, or supplements to ocean science learning materials. Underwater activity books benefit from year-round demand with notable boosts during summer beach vacation season when families seek ocean-themed entertainment for coastal travel.`,
+      title: `Publishing Underwater Activity Books on KDP`,
+      description: `Amazon KDP excels for underwater printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children`s marine animal encyclopedias, ocean storybooks, shark toys, and aquarium exploration kits that fuel children` passion for understanding what lives beneath the ocean surface. Compile individual underwater worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around coral reef and deep sea themes. Use KDP keyword fields strategically: include "ocean activity book for kids," "underwater worksheets preschool," and sub-theme terms like "shark coloring book" or "coral reef activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for young marine enthusiasts, companions to aquarium visits, or supplements to ocean science learning materials. Underwater activity books benefit from year-round demand with notable boosts during summer beach vacation season when families seek ocean-themed entertainment for coastal travel.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Underwater Resources for Your Own Store',
+      title: `Creating Underwater Resources for Your Own Store`,
       description: `Buyers are science-focused sellers searching for marine biology themed educational supplements, ocean vocabulary activities, and cross-curricular resources that integrate marine science concepts into math, literacy, and geography instruction with minimal preparation time required. Underwater printables perform best when packaged as ready-to-use activity solutions: ocean-themed morning work packets, marine vocabulary activity stations, or World Oceans Day companion worksheets with clear learning objectives that connect marine science themes to academic skill development. Include learning objectives mapping to science, math, literacy, and geography standards so buyers can justify ocean-themed activities to program coordinators reviewing instructional material purchases. Gumroad's bundling feature lets you offer individual marine creature products and a discounted ocean mega-bundle simultaneously, capturing both budget-conscious buyers purchasing single items and those investing in comprehensive marine science unit resources for ocean habitat studies, Earth Day environmental lessons, and nature-themed themed units throughout the academic year.`,
     },
     {
@@ -113,7 +113,7 @@ The aquarium visit connection represents a particularly valuable audience driver
   faq: [
     {
       question: `How profitable is the underwater printable niche for sellers?`,
-      answer: `The underwater printable niche offers strong profit potential because it delivers consistent year-round demand driven by children's universal and enduring fascination with ocean creatures, coral reefs, and the mysterious world beneath the waves that never goes out of style. Science-focused buyers purchase marine-themed worksheets for ocean habitat and marine biology units, general buyers use them for nature and animal studies integration, and parents buy them to channel their child's marine enthusiasm into productive learning experiences. Unlike seasonal niches with narrow demand windows, underwater themes maintain steady relevance because children engage with ocean creatures, marine documentaries, and aquarium experiences during every season regardless of weather or calendar events. Profitability compounds as your catalog grows because each new creature-specific or habitat-focused product captures additional long-tail searches and cross-sells effectively with your existing ocean listings. Sellers who build deep catalogs covering multiple marine creatures across different skill areas and age groups typically see reliable baseline revenue with predictable demand patterns that remain consistent throughout the academic year and beyond.`,
+      answer: `The underwater printable niche offers strong profit potential because it delivers consistent year-round demand driven by children`s universal and enduring fascination with ocean creatures, coral reefs, and the mysterious world beneath the waves that never goes out of style. Science-focused buyers purchase marine-themed worksheets for ocean habitat and marine biology units, general buyers use them for nature and animal studies integration, and parents buy them to channel their child`s marine enthusiasm into productive learning experiences. Unlike seasonal niches with narrow demand windows, underwater themes maintain steady relevance because children engage with ocean creatures, marine documentaries, and aquarium experiences during every season regardless of weather or calendar events. Profitability compounds as your catalog grows because each new creature-specific or habitat-focused product captures additional long-tail searches and cross-sells effectively with your existing ocean listings. Sellers who build deep catalogs covering multiple marine creatures across different skill areas and age groups typically see reliable baseline revenue with predictable demand patterns that remain consistent throughout the academic year and beyond.`,
     },
     {
       question: `Is the underwater printable niche seasonal or year-round?`,
@@ -145,32 +145,32 @@ The aquarium visit connection represents a particularly valuable audience driver
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ The aquarium visit connection represents a particularly valuable audience driver
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Business Ideas',
+      anchorText: `Camping Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fish — themed educational image', caption: 'Fish' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Angelfish — themed educational image`, caption: 'Angelfish' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfish — themed educational image`, caption: 'Clownfish' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — themed educational image`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Crab — themed educational image`, caption: 'Crab' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Fish — themed educational image`, caption: 'Fish' },
   ],
 
 

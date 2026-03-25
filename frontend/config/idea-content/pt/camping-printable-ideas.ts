@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Campismo — Guia de Nicho',
+    titleTag: `Ideias de Imprimíveis de Campismo — Guia de Nicho`,
     metaDescription: `Ideias de imprimíveis de campismo para vender no Etsy, Amazon KDP e Gumroad. Produtos com temática ao ar livre, estratégias por plataforma e dicas de nicho.`,
 
-    primaryKeyword: 'ideias de imprimíveis de campismo',
+    primaryKeyword: `ideias de imprimíveis de campismo`,
     secondaryKeywords: [
-      'fichas de campismo para vender',
-      'fichas atividades campismo para vendedores',
-      'negócio imprimíveis temática campismo',
-      'vender imprimíveis de campismo no Etsy',
+      `fichas de campismo para vender`,
+      `fichas atividades campismo para vendedores`,
+      `negócio imprimíveis temática campismo`,
+      `vender imprimíveis de campismo no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas aventuras ao ar livre',
-      'atividades temáticas de natureza',
-      'imprimíveis de campo de férias',
+      `fichas educativas aventuras ao ar livre`,
+      `atividades temáticas de natureza`,
+      `imprimíveis de campo de férias`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ O mercado de preparação para campos de férias representa uma audiência parti
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Campismo para Vender Online',
+      title: `Sopas de Letras de Campismo para Vender Online`,
       description: `As sopas de letras com vocabulário de campismo atraem vendedores focados em literacia que planificam unidades de educação ao ar livre e pais que procuram entretenimento educativo que canalize a fascinação natural dos seus filhos pelas fogueiras, tendas e aventuras de caminhada no desenvolvimento produtivo de competências de vocabulário e ortografia em múltiplas categorias temáticas de campismo. Cria puzzles com vocabulário específico de campismo como tenda, bússola, candeeiro, cantil, binóculos, marshmallow, fogueira, saco-cama, caminhada e trilho junto com termos mais amplos de natureza como fauna selvagem, natureza selvagem, explorar e aventura. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de campismo para usuários mais velhos que exploram vocabulário ao ar livre e terminologia da natureza.`,
       appId: 'wordsearch',
     },
@@ -90,17 +90,17 @@ O mercado de preparação para campos de férias representa uma audiência parti
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Campismo no Etsy',
+      title: `Vender Imprimíveis de Campismo no Etsy`,
       description: `O Etsy recompensa o nicho do campismo com fortes picos sazonais durante a primavera e o verão quando as famílias preparam ativamente aventuras ao ar livre, mais uma procura base consistente durante todo o ano de pais de crianças amantes da natureza que procuram materiais educativos temáticos que apoiem a curiosidade ao ar livre dos seus filhos em todas as estações. Utiliza as treze etiquetas com variações que combinem elementos de campismo, áreas de competência e grupos etários: «fichas contagem campismo pré-escolar», «páginas colorir fogueira crianças» e «sopa de letras caminhada jardim de infância» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas campismo». Posiciona os teus produtos tanto para pesquisas educativas como de preparação de viagens incluindo termos como «atividade viagem de carro» e «imprimível amante do campismo» nos teus títulos e descrições. As imagens de anúncios que mostram fichas de campismo impressas junto a lanternas de brinquedo, mini mochilas ou acessórios de bússola superam as pré-visualizações digitais planas e captam o entusiasmo prático que traz os pais de crianças amantes do ar livre ao Etsy à procura de recursos educativos com temática de aventura. Aponta às pesquisas de festas de aniversário com temática de campismo durante todo o ano, já que os temas de campismo e glamping se tornaram opções de celebração cada vez mais populares para crianças que procuram atividades de festa com aventuras ao ar livre.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Campismo no KDP',
+      title: `Publicar Livros de Atividades de Campismo no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de campismo porque os pais e compradores de prendas naturalmente adicionam livros de atividades aos seus carrinhos da Amazon juntamente com equipamento infantil de campismo, guias de campo de natureza, livros de histórias de aventuras ao ar livre e acessórios de equipamento de campismo que alimentam a paixão dos jovens exploradores pela descoberta da natureza selvagem e brincadeiras de aventura ao ar livre. Compila fichas individuais de campismo em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas de fogueira e natureza. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades campismo para crianças», «fichas aventuras ao ar livre pré-escolar» e termos de subtemas como «livro colorir fogueiras» ou «atividades de caminhada para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como prendas para jovens campistas, complementos a compras de equipamento de campismo ou suplementos a materiais de aprendizagem de natureza e ciências. Os livros de atividades de campismo beneficiam de uma potente procura de verão com picos notáveis durante a época de viagens de carro, mais compras estáveis durante todo o ano durante as épocas de prendas natalícias e os períodos de regresso às aulas quando o catálogo de produtos de educação ao ar livre impulsiona as compras dos vendedores.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos de Campismo para a loja no Gumroad',
+      title: `Criar Recursos de Campismo para a loja no Gumroad`,
       description: `Os compradores de Gumroad são vendedores de loja e coordenadores de ciências que procuram material complementar educativo com temática de campismo, atividades de vocabulário ao ar livre e recursos multicurriculares que integrem conceitos de natureza na instrução de matemática, literacia e ciências com um tempo mínimo de preparação. Os imprimíveis de campismo no Gumroad funcionam melhor quando empacotados como soluções prontas a usar online: pacotes de trabalho matinal com temática de campismo, estações de atividades de vocabulário ao ar livre ou fichas de celebração de fim de ano sobre campismo com objetivos de aprendizagem claros que liguem os temas de aventura ao ar livre ao desenvolvimento de competências académicas. Inclui objetivos de aprendizagem vinculados aos padrões de ciências, matemática, literacia e geografia para que os vendedores possam justificar as atividades com temática de campismo perante os administradores e coordenadores de catálogo de produtos que reveem os materiais de instrução. A funcionalidade de agrupamento do Gumroad permite-te oferecer produtos individuais por elemento ao ar livre e um megapacote de campismo com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em recursos integrais de unidades de natureza para educação ao ar livre, atividades do Dia da Terra e unidades temáticas de loja de escola de verão durante todo o ano letivo.`,
     },
     {
@@ -144,18 +144,18 @@ O mercado de preparação para campos de férias representa uma audiência parti
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ O mercado de preparação para campos de férias representa uma audiência parti
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,17 +180,17 @@ O mercado de preparação para campos de férias representa uma audiência parti
     {
       pageType: 'idea',
       slug: 'verao-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Verão',
+      anchorText: `Ideias de Negócio de Imprimíveis de Verão`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/camping/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Binóculos — imagem educativa temática', caption: 'Binóculos' },
-    { src: '/image-library/camping/boots.webp', alt: 'Botas — imagem educativa temática', caption: 'Botas' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabana — imagem educativa temática', caption: 'Cabana' },
-    { src: '/image-library/camping/camper.webp', alt: 'Autocaravana — imagem educativa temática', caption: 'Autocaravana' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/camping/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Binóculos — imagem educativa temática`, caption: 'Binóculos' },
+    { src: `/image-library/camping/boots.webp`, alt: `Botas — imagem educativa temática`, caption: 'Botas' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabana — imagem educativa temática`, caption: 'Cabana' },
+    { src: `/image-library/camping/camper.webp`, alt: `Autocaravana — imagem educativa temática`, caption: 'Autocaravana' },
   ],
 
 

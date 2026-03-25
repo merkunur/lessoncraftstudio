@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: [
       `cómo crear libros de sopas de letras para Amazon KDP`,
       `guía de publicación de libros de puzles de sopas de letras`,
-      'libros de sopas de letras letra grande Amazon',
+      `libros de sopas de letras letra grande Amazon`,
       `libros de sopas de letras temáticas publicación KDP`,
     ],
     lsiKeywords: [
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `serie libros sopas letras volúmenes compra recurrente catálogo`,
       `mercado sopas letras adultos niños audiencia formateo cuadrícula`,
     ],
-    titleTag: 'Crear libros sopas letras KDP — Guía',
+    titleTag: `Crear libros sopas letras KDP — Guía`,
     metaDescription: `Crea libros de sopas de letras KDP con listas de palabras temáticas, formatos de letra grande y estrategia de series. Tamaño de cuadrícula, segmentación.`,
   },
 
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `Los libros de sopas de letras tienen una posición única en Amazon KDP — tienen la mayor demanda de cualquier subcategoría de libros de puzles y también la mayor competencia. Comprender los segmentos del mercado dentro de las sopas de letras te ayuda a dirigir tus esfuerzos editoriales donde serán más efectivos en lugar de competir frontalmente contra miles de títulos genéricos.\n\nEl mercado de sopas de letras para adultos es el segmento más grande por mucho. Los compradores adultos adquieren libros de sopas de letras por varias razones distintas: entretenimiento diario y relajación, actividades de viaje y desplazamiento, ejercicio cerebral y mantenimiento cognitivo, y alivio del estrés. Cada una de estas motivaciones se mapea a diferentes términos de búsqueda de Amazon, lo que significa que un libro de sopas de letras bien posicionado puede posicionar para múltiples intenciones de comprador simultáneamente. El mercado adulto se divide además en formato estándar y formato de letra grande, con el de letra grande teniendo su propia base de compradores dedicada.\n\nLos libros de sopas de letras en letra grande merecen atención especial porque esta subcategoría opera casi como un mercado separado. Los compradores de letra grande son intensamente leales — una vez que encuentran un editor cuyo formateo cumple sus necesidades, compran volumen tras volumen. Buscan específicamente «sopa de letras letra grande» y rara vez navegan resultados de formato estándar. La subcategoría de letra grande también soporta precios de venta más altos porque los compradores asocian el formato con valor de accesibilidad y son menos sensibles al precio que los compradores de formato estándar. Los editores que sirven bien a esta subcategoría pueden construir ingresos excepcionalmente estables con fuertes tasas de compra recurrente.\n\nEl mercado de sopas de letras infantiles es más pequeño pero significativamente menos competitivo. Los padres y vendedores buscan términos específicos por edad como «sopa de letras para niños de 8 a 10 años» o «sopas de letras para segundo grado». Los libros de sopas de letras infantiles requieren contenido fundamentalmente diferente — vocabulario apropiado para la edad, tamaños de cuadrícula más simples, temas atractivos que atraigan a los niños y mayor espaciado de letras. El patrón de demanda estacional para libros de sopas de letras infantiles difiere del de adultos: la compra de actividades de verano, la vuelta al cole y los períodos de regalos festivos crean picos de tráfico predecibles.\n\nAntes de crear contenido, analiza los 20 primeros resultados de Amazon para tus términos de búsqueda objetivo. Anota sus números de puzles, precios, números de páginas y puntuaciones de reseñas. Presta especial atención a las quejas recurrentes en reseñas de 1 y 2 estrellas — estas revelan exactamente dónde los libros de sopas de letras existentes no cumplen las expectativas del comprador. Las quejas comunes incluyen cuadrículas demasiado pequeñas, listas de palabras aleatorias sin tema, claves de respuestas faltantes y mala calidad de impresión. Cada queja que abordes en tu libro se convierte en una ventaja competitiva.`,
     },
     {
-      heading: 'Elige tu audiencia y formato de sopa de letras',
+      heading: `Elige tu audiencia y formato de sopa de letras`,
       content: `Tu elección de audiencia determina cada decisión posterior — complejidad del vocabulario, dimensiones de la cuadrícula, tamaño de las letras, número de páginas, precios y palabras clave de Amazon. Intentar servir a todas las audiencias en un solo libro produce un producto que no satisface bien a ninguna. Comprométete con un segmento de audiencia específico para cada título.\n\nLos libros de sopas de letras generales para adultos se dirigen a la audiencia más amplia. Usan formateo estándar de 8,5 × 11 pulgadas con cuadrículas de 15×15 a 20×20, vocabulario que incluye palabras moderadamente desafiantes, y números de puzles de 80 a 120 por volumen. Los libros generales para adultos compiten en cantidad de puzles, calidad del tema y precio. Este segmento tiene el mayor volumen pero también la competencia más directa.\n\nLos libros de sopas de letras en letra grande para adultos sirven a lectores que necesitan o prefieren texto más grande. El requisito clave de formateo es un tamaño de fuente mínimo de 16 puntos para las letras de la cuadrícula, con 18 a 20 puntos preferido. Esto limita el tamaño práctico de la cuadrícula a 12×12 o 15×15 en una página de 8,5 × 11 porque cada letra necesita más espacio físico. Los libros de letra grande típicamente contienen de 60 a 80 puzles por volumen porque el formateo más grande usa más espacio de página por puzle. La contrapartida vale la pena — los libros de letra grande soportan precios de venta de 1 a 3 dólares más altos que el formato estándar porque los compradores perciben el formateo accesible como valor añadido.\n\nLas colecciones temáticas de sopas de letras para adultos se centran en un solo tema a lo largo de todo el libro — «Sopas de letras para amantes de los gatos», «Sopas de letras de viajes», «Sopas de letras para amantes de la comida». Las colecciones temáticas capturan tráfico de búsqueda de cola larga que los libros genéricos no pueden alcanzar. Un comprador buscando específicamente «sopa de letras animales» elegirá un libro dedicado de tema animal sobre una colección genérica siempre. Las ediciones temáticas también son compras de regalo más fuertes porque el tema señala relevancia personal para el destinatario.\n\nLos libros de sopas de letras infantiles requieren vocabulario específico por edad, letras de cuadrícula más grandes (mínimo 14 puntos, 16 puntos preferido), cuadrículas más simples (10×10 a 14×14), y temas que resuenen con los niños (animales, dinosaurios, espacio, deportes). El vocabulario debe coincidir con el nivel de lectura de tu grupo de edad objetivo — un libro de sopas de letras para edades 6 a 8 debería usar palabras que un usuario de segundo grado pueda leer. La dificultad inapropiada del vocabulario es una de las quejas más comunes en las reseñas de libros de sopas de letras infantiles.`,
     },
     {
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Los compradores de sopas de letras en Amazon usan términos de búsqueda muy específicos, y tu anuncio debe coincidir con su lenguaje precisamente. El término «sopa de letras» tiene múltiples variaciones comunes — «sopa de letras», «buscar palabras», «encontrar palabras» — y tus palabras clave deberían cubrir todas ellas para capturar máximo tráfico de búsqueda.\n\nEl título de tu libro tiene el mayor peso de búsqueda en Amazon. Estructura tu título para incluir el tipo de puzle, la audiencia, las características diferenciadoras y el número de puzles: «Sopas de letras para adultos: 100 puzles temáticos en letra grande con soluciones completas». El subtítulo expande con palabras clave secundarias: «Fácil a difícil — Animales, viajes, alimentos, naturaleza y más — Volumen 1». Esta estructura de título coincide con múltiples términos de búsqueda de alto tráfico naturalmente mientras permanece legible y profesional.\n\nUsa los 7 campos de palabras clave estratégicamente, con cada campo apuntando a una intención de comprador diferente o variación de búsqueda. Campos de palabras clave efectivos para un libro de sopas de letras para adultos incluyen: «sopas letras puzles adultos letra grande fácil», «libros buscar palabras adultos entretenimiento relajación», «libro sopas letras mayores fácil leer grande», «libros puzles adultos juegos palabras ejercicio cerebral», «sopa letras letra grande actividades viaje sin conexión», «libro puzles palabras alivio estrés temático», y «juegos cerebrales sopa letras adultos fácil medio difícil». Cada campo usa una combinación diferente de términos centrales y modificadores de intención.\n\nPara libros de sopas de letras infantiles, los campos de palabras clave deberían enfatizar rangos de edad y valor educativo: «sopa letras niños edades 8 10 12», «sopas letras puzles niños libro actividades», «libro sopas letras infantil educativo divertido», «sopas letras buscar palabras niños edades 6 8 fácil», «libro sopas letras segundo grado tercer grado». Los padres incluyen rangos de edad en sus búsquedas mucho más frecuentemente que los compradores adultos de puzles, así que las palabras clave específicas por edad son esenciales para títulos infantiles.\n\nLa selección de categoría apunta a subcategorías específicas de sopas de letras. Empieza con Libros de actividades de puzles y juegos como tu categoría principal, luego solicita colocaciones adicionales en Juegos de palabras, Sopas de letras y subcategorías específicas por edad a través del soporte de KDP después de la publicación. La subcategoría «Sopas de letras» tiene menos competencia que la categoría padre «Libros de puzles», dando a tu libro mejor visibilidad en la ruta de navegación más segmentada.\n\nLa descripción de tu libro debería reforzar tus palabras clave de Amazon mientras vende el libro a los compradores que navegan. Empieza con el número de puzles y formato: «100 sopas de letras temáticas organizadas en secciones de dificultad Fácil, Media y Difícil». Continúa con puntos de venta específicos: contenido temático, soluciones incluidas, tamaños de cuadrícula y la audiencia a la que sirve el libro. Cierra con una llamada a la acción que enfatice el libro como opción de regalo o compra de entretenimiento personal.`,
     },
     {
-      heading: 'Escala con una serie de libros de sopas de letras',
+      heading: `Escala con una serie de libros de sopas de letras`,
       content: `Los libros de sopas de letras tienen la dinámica de compra recurrente más fuerte de cualquier categoría KDP. Una vez que un solucionador completa un libro de sopas de letras, cada puzle ha sido usado — hay cero valor de repetición en impresión. El solucionador debe comprar un nuevo libro para contenido fresco. Este ciclo de consumo hace de las series multivolumen tu estrategia de ingresos más poderosa.\n\nLanza tu serie con un Volumen 1 fuerte que establezca tu formateo, estándar de calidad e identidad de marca. El Volumen 1 es tu escaparate — necesita ser impecable porque las primeras reseñas en el Volumen 1 determinan si los compradores confían en tu serie lo suficiente para comprar el Volumen 2. Invierte tiempo extra en control de calidad para tu primer volumen: verifica cada puzle, revisa cada lista de palabras, y prueba la usabilidad física de tu formateo resolviendo páginas de ejemplo impresas.\n\nPublica nuevos volúmenes en un calendario consistente, idealmente cada 4 a 6 semanas. La publicación consistente construye expectativa del comprador y favor del algoritmo de Amazon. Cuando Amazon detecta que un editor lanza nuevos títulos en una cadencia regular y esos títulos generan ventas consistentes, el motor de recomendación promociona tanto los títulos nuevos como los existentes más agresivamente. La publicación errática con brechas de meses entre volúmenes debilita esta relación algorítmica.\n\nConstruye series spin-off temáticas junto a tus volúmenes numerados. Mientras «Sopas de letras para adultos Volumen 1 al 10» sirve a compradores generales de sopas de letras, las colecciones temáticas capturan tráfico de búsqueda completamente diferente. «Sopas de letras navideñas» captura tráfico de regalos festivos durante 6 a 8 semanas cada año. «Sopas de letras para amantes de los gatos» se dirige a compradores por intereses todo el año. «Libro de sopas de letras de viaje» vende fuertemente durante períodos de planificación de vacaciones. Cada título temático expande el alcance de tu catálogo a términos de búsqueda que tus volúmenes numerados no pueden apuntar.\n\nCrea versiones segmentadas por edad de tu contenido con mejor rendimiento. Tu contenido de sopas de letras para adultos puede reformatearse en una edición de letra grande para mayores aumentando el tamaño de letra, reduciendo las dimensiones de la cuadrícula, y ajustando el vocabulario hacia palabras más familiares. Puede convertirse en una edición infantil reemplazando vocabulario sofisticado con palabras apropiadas para la edad y aumentando el tamaño de las letras. Cada versión apunta a términos de búsqueda de Amazon completamente diferentes y sirve un segmento de audiencia distinto. Un solo ciclo de creación de contenido puede producir tres libros separados sirviendo tres mercados.\n\nHaz promoción cruzada entre todos tus libros de sopas de letras y cualquier otro tipo de puzle que publiques. Incluye una página de «Más libros de este autor» en las páginas finales de cada libro listando todos tus títulos organizados por serie y tipo. Referencia tus libros de crucigramas y sudoku en las páginas finales de tus sopas de letras, y viceversa. Configura una Página de autor de Amazon que muestre tu catálogo completo. Cuando un comprador satisfecho de sopas de letras descubre tus títulos de crucigramas, la tasa de conversión es dramáticamente mayor que adquirir un cliente nuevo desde los resultados de búsqueda.`,
     },
   ],
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'libros-sudoku-kdp',
-      title: 'Crear libros de sudoku para Amazon KDP',
+      title: `Crear libros de sudoku para Amazon KDP`,
       description: `Explora el nicho de libros de sudoku en KDP. Cubre sudoku con imágenes para niños, sudoku numérico para adultos, progresión de dificultad y requisitos de formateo específicos de sudoku para publicación en impresión.`,
     },
     {
       slug: 'publicar-libros-puzzles-kdp',
-      title: 'Publicar libros de puzles en Amazon KDP',
+      title: `Publicar libros de puzles en Amazon KDP`,
       description: `La guía más amplia de publicación de libros de puzles cubriendo sopas de letras, crucigramas, sudoku y libros de variedad. Incluye estrategia de catálogo multi-tipo y promoción cruzada entre formatos de puzles.`,
     },
     {
-      slug: 'ganar-dinero-kdp-libros-actividades',
-      title: 'Ganar dinero con libros de actividades KDP',
+      slug: `ganar-dinero-kdp-libros-actividades`,
+      title: `Ganar dinero con libros de actividades KDP`,
       description: `La guía completa de ingresos para editores KDP. Cubre estrategia de precios, economía de catálogo, publicación estacional y enfoques multiplataforma para maximizar los ingresos de libros de actividades.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'libros-actividades-matematicas-kdp', anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
-    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: 'Cómo publicar libros de puzles en Amazon KDP' },
-    { pageType: 'guide', slug: 'libros-sudoku-kdp', anchorText: 'Cómo crear libros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'ganar-dinero-kdp-libros-actividades', anchorText: 'Cómo ganar dinero con libros de actividades KDP' },
-    { pageType: 'guide', slug: 'formato-kdp-fichas', anchorText: 'Guía de formateo KDP para libros de fichas' },
-    { pageType: 'guide', slug: 'mejores-nichos-kdp-libros-actividades', anchorText: 'Mejores nichos de libros de actividades KDP' },
-    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'Amazon KDP o Etsy: Dónde vender imprimibles' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: `libros-actividades-matematicas-kdp`, anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
+    { pageType: 'guide', slug: 'publicar-libros-puzzles-kdp', anchorText: `Cómo publicar libros de puzles en Amazon KDP` },
+    { pageType: 'guide', slug: 'libros-sudoku-kdp', anchorText: `Cómo crear libros de sudoku para Amazon KDP` },
+    { pageType: 'guide', slug: `ganar-dinero-kdp-libros-actividades`, anchorText: `Cómo ganar dinero con libros de actividades KDP` },
+    { pageType: 'guide', slug: 'formato-kdp-fichas', anchorText: `Guía de formateo KDP para libros de fichas` },
+    { pageType: 'guide', slug: `mejores-nichos-kdp-libros-actividades`, anchorText: `Mejores nichos de libros de actividades KDP` },
+    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: `Amazon KDP o Etsy: Dónde vender imprimibles` },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de sopas de letras — Todos los detalles` },
   ],
 
   toolsRecommended: [
@@ -181,28 +181,28 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Generador de fichas de puzles matemáticos',
+      title: `Generador de fichas de puzles matemáticos`,
       description: `Crea puzles de cuadrícula basados en números que complementan los libros de sopas de letras en un catálogo de puzles más amplio. Los puzles matemáticos sirven a compradores que disfrutan tanto de desafíos de palabras como de números.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras mostrando cuadrícula de palabras temática adecuada para páginas interiores de libros de sopas de letras Amazon KDP` },
+    heroImage: { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras mostrando cuadrícula de palabras temática adecuada para páginas interiores de libros de sopas de letras Amazon KDP` },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras temática de animales formateada para libro de sopas de letras KDP`, caption: 'Sopa de letras temática de animales — las listas de palabras temáticas crean contenido atractivo que supera a las colecciones de palabras aleatorias en reseñas de compradores' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 3.webp', alt: `Sopa de letras temática de alimentos para libro KDP`, caption: 'Sopa de letras temática de alimentos — las secciones temáticas añaden estructura editorial que distingue los libros profesionales de las compilaciones amateur' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Crucigrama para catálogo compañero de puzles KDP', caption: 'Crucigrama — tipo de puzle compañero para diversificación de catálogo y promoción cruzada con títulos de sopas de letras' },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras temática de animales formateada para libro de sopas de letras KDP`, caption: `Sopa de letras temática de animales — las listas de palabras temáticas crean contenido atractivo que supera a las colecciones de palabras aleatorias en reseñas de compradores` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 3.webp`, alt: `Sopa de letras temática de alimentos para libro KDP`, caption: `Sopa de letras temática de alimentos — las secciones temáticas añaden estructura editorial que distingue los libros profesionales de las compilaciones amateur` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Crucigrama para catálogo compañero de puzles KDP`, caption: `Crucigrama — tipo de puzle compañero para diversificación de catálogo y promoción cruzada con títulos de sopas de letras` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Cómo crear sopas de letras para libros Amazon KDP — Tutorial paso a paso`,
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/camping/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Prismáticos — imagen educativa temática', caption: 'Prismáticos' },
-    { src: '/image-library/camping/boots.webp', alt: 'Botas — imagen educativa temática', caption: 'Botas' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabaña — imagen educativa temática', caption: 'Cabaña' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/camping/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Prismáticos — imagen educativa temática`, caption: 'Prismáticos' },
+    { src: `/image-library/camping/boots.webp`, alt: `Botas — imagen educativa temática`, caption: 'Botas' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabaña — imagen educativa temática`, caption: 'Cabaña' },
   ],
 };
 

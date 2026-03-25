@@ -1,33 +1,33 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'kruiswoordpuzzel maken voor de winkel',
+    primaryKeyword: `kruiswoordpuzzel maken voor de winkel`,
     secondaryKeywords: [
-      'kruiswoordpuzzel maker voor verkopers',
-      'plaatjes kruiswoordpuzzels voor kinderen',
-      'printbare kruiswoordpuzzels voor school',
-      'woordenschat kruiswoordpuzzel voor gebruikers',
+      `kruiswoordpuzzel maker voor verkopers`,
+      `plaatjes kruiswoordpuzzels voor kinderen`,
+      `printbare kruiswoordpuzzels voor school`,
+      `woordenschat kruiswoordpuzzel voor gebruikers`,
     ],
     lsiKeywords: [
-      'kruiswoordpuzzel met visuele aanwijzingen',
+      `kruiswoordpuzzel met visuele aanwijzingen`,
       `gelokaliseerde kruiswoordpuzzel generator voor de winkel`,
-      'automatisch antwoordblad kruiswoordpuzzel',
+      `automatisch antwoordblad kruiswoordpuzzel`,
     ],
-    titleTag: 'Kruiswoordpuzzel Maken — Voor de winkel',
+    titleTag: `Kruiswoordpuzzel Maken — Voor de winkel`,
     metaDescription: `Maak plaatjes kruiswoordpuzzels voor de winkel. 15x15 raster, vier invoermethoden, automatisch antwoordblad. Gratis proefversie met watermerk.`,
     },
 
   hero: {
     title: 'Kruiswoordpuzzel Maker',
     tagline: `Plaatjes kruiswoordpuzzel generator met afbeeldingsaanwijzingen op een vast 15×15 raster, vier invoermethoden (snel thema genereren, handmatige afbeeldingsnaam bewerking, aangepaste woordenlijst met aanwijzingen, en eigen afbeeldingen uploaden), automatisch gegenereerd antwoordblad met ingevuld raster via dubbel-canvas systeem, taalgebonden puzzelwoorden in 11 talen via Beeldwoordenschat, en een gelokaliseerde blauwe koptekst (#5B9BD5) met Fredoka-titel en Quicksand-beschrijving over 104 thematische beeldcollecties`,
-    description: `Maak professionele plaatjes kruiswoordpuzzels waarbij kleurrijke afbeeldingen de traditionele tekstaanwijzingen vervangen. Acht afbeeldingen genereren acht woorden op een vast 15×15 raster — het algoritme extraheert woorden uit afbeeldingsnamen, verwijdert spaties, converteert naar hoofdletters, schudt, sorteert op lengte (langste eerst) en plaatst woorden met optimale kruising bij gedeelde letters. Genummerde aanwijzingsposities markeren het begin van elk woord, en afbeeldingsaanwijzingen verschijnen naast het raster met overeenkomende nummers. Kies uit vier invoermethoden die verschillende kruiswoordbehoeften bedienen. Snel Thema Genereren selecteert automatisch 8 willekeurige afbeeldingen uit elk van de 104 thematische collecties en genereert direct — de snelste weg naar een voltooide puzzel. Handmatige Afbeeldingsnaam Bewerking laat je individuele afbeeldingen aanklikken en hernoemen vóór generatie, waardoor je precieze controle hebt over de woorden in het raster. Aangepaste Woordenlijst met Aanwijzingen schakelt over naar traditionele tekstaanwijzing-kruiswoordpuzzels met een WOORD: aanwijzing-formaat voor vakspecifieke woordenschatpuzzels zonder afbeeldingen. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. De Kruiswoordpuzzel Maker is taalgebonden: puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem. Het wisselen van inhoudstaal verandert de daadwerkelijke kruiswoordwoorden — een katafbeelding genereert "KAT" in het Nederlands maar "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans, waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit dezelfde afbeeldingen. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde puzzelwoorden. Het dubbele canvassysteem genereert zowel een puzzeltabblad als een antwoordbladtabblad — het antwoordblad toont het ingevulde raster met alle correcte antwoorden zichtbaar in de cellen. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwe achtergrond (#5B9BD5), witte pil, Fredoka-titel met dynamische grootte (48px voor korte titels tot 28px voor langere vertalingen) en Quicksand-beschrijving. Staande modus toont een koptekst over de volle breedte (220px hoogte); liggende modus gebruikt een compacte gecentreerde indeling (145px hoogte). Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen afbeeldingen. Pas achtergrondthema's en kaderthema's toe met onafhankelijke dekkingsregelaars. Exporteer printklare PDF's en JPEG's op 300 DPI (6× vermenigvuldiger) in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.`,
+    description: `Maak professionele plaatjes kruiswoordpuzzels waarbij kleurrijke afbeeldingen de traditionele tekstaanwijzingen vervangen. Acht afbeeldingen genereren acht woorden op een vast 15×15 raster — het algoritme extraheert woorden uit afbeeldingsnamen, verwijdert spaties, converteert naar hoofdletters, schudt, sorteert op lengte (langste eerst) en plaatst woorden met optimale kruising bij gedeelde letters. Genummerde aanwijzingsposities markeren het begin van elk woord, en afbeeldingsaanwijzingen verschijnen naast het raster met overeenkomende nummers. Kies uit vier invoermethoden die verschillende kruiswoordbehoeften bedienen. Snel Thema Genereren selecteert automatisch 8 willekeurige afbeeldingen uit elk van de 104 thematische collecties en genereert direct — de snelste weg naar een voltooide puzzel. Handmatige Afbeeldingsnaam Bewerking laat je individuele afbeeldingen aanklikken en hernoemen vóór generatie, waardoor je precieze controle hebt over de woorden in het raster. Aangepaste Woordenlijst met Aanwijzingen schakelt over naar traditionele tekstaanwijzing-kruiswoordpuzzels met een WOORD: aanwijzing-formaat voor vakspecifieke woordenschatpuzzels zonder afbeeldingen. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. De Kruiswoordpuzzel Maker is taalgebonden: puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem. Het wisselen van inhoudstaal verandert de daadwerkelijke kruiswoordwoorden — een katafbeelding genereert "KAT" in het Nederlands maar "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans, waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit dezelfde afbeeldingen. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde puzzelwoorden. Het dubbele canvassysteem genereert zowel een puzzeltabblad als een antwoordbladtabblad — het antwoordblad toont het ingevulde raster met alle correcte antwoorden zichtbaar in de cellen. Elke puzzel bevat een automatisch gegenereerde gelokaliseerde koptekst met een blauwe achtergrond (#5B9BD5), witte pil, Fredoka-titel met dynamische grootte (48px voor korte titels tot 28px voor langere vertalingen) en Quicksand-beschrijving. Staande modus toont een koptekst over de volle breedte (220px hoogte); liggende modus gebruikt een compacte gecentreerde indeling (145px hoogte). Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen afbeeldingen. Pas achtergrondthema's en kaderthema`s toe met onafhankelijke dekkingsregelaars. Exporteer printklare PDF`s en JPEG's op 300 DPI (6× vermenigvuldiger) in Letter Staand, Letter Liggend, A4 Staand, A4 Liggend of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.`,
   },
 
   tutorial: {
-    title: 'Plaatjes Kruiswoordpuzzels Maken in 8 Stappen',
+    title: `Plaatjes Kruiswoordpuzzels Maken in 8 Stappen`,
     steps: [
       {
-        title: 'Open de Kruiswoordpuzzel Maker',
+        title: `Open de Kruiswoordpuzzel Maker`,
         description: `Klik op "Gratis proefversie" om de plaatjes kruiswoordpuzzel generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een dubbel-tabblad canvas rechts — één tabblad voor het kruiswoordwerkblad, één voor het antwoordblad. Geen account aanmaken, geen software downloaden, geen installatie nodig — begin onmiddellijk met het maken van plaatjes kruiswoordpuzzels.`,
       },
       {
@@ -39,7 +39,7 @@ const content: ToolContent = {  seo: {
         description: `Bepaal hoe je de 8 woorden voor je kruiswoordpuzzel aanlevert. Snel Thema Genereren (standaard) selecteert automatisch 8 willekeurige afbeeldingen uit het gekozen thema en genereert direct. Handmatige Afbeeldingsnaam Bewerking laat je afbeeldingen aanklikken en hun weergavenamen bewerken vóór generatie, waardoor je precieze woordenschatcontrole hebt. Aangepaste Woordenlijst met Aanwijzingen schakelt een tekstveld in waar je WOORD: aanwijzing-paren invoert voor traditionele tekstaanwijzing-kruiswoordpuzzels zonder afbeeldingen. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. Elke methode gebruikt hetzelfde 15×15 rasterplaatsingsalgoritme.`,
       },
       {
-        title: 'Selecteer of configureer je 8 items',
+        title: `Selecteer of configureer je 8 items`,
         description: `Blader voor themagestuurde generatie door 104 thematische collecties met meer dan 3.100 kleurrijke illustraties — dieren, voedsel, voertuigen, natuur, feestdagen, beroepen, sport, seizoenen en tientallen meer. Filter op thema met het dropdown of zoek op trefwoord. Voor handmatige bewerking klik je individuele afbeeldingen aan en bewerk je hun weergavenamen in de bewerkingsinterface. Voor aangepaste woordenlijsten typ je 8 of meer WOORD: aanwijzing-items in het tekstveld. Voor uploads voeg je JPEG-, PNG-, GIF- of WebP-bestanden toe. De generator vereist minimaal 8 items om het kruiswoordraster samen te stellen.`,
       },
       {
@@ -47,11 +47,11 @@ const content: ToolContent = {  seo: {
         description: `Selecteer de inhoudstaal om de woorden te bepalen die in het kruiswoordraster verschijnen. De Kruiswoordpuzzel Maker is taalgebonden — puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen via het Beeldwoordenschat-systeem. Dezelfde katafbeelding genereert "KAT" in het Nederlands, "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans, waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit identieke afbeeldingsselecties. Het Commerciële abonnement bevat Engels; Volledige Toegang ontgrendelt alle 11 talen. Deze meertalige mogelijkheid laat je kruiswoordproducten maken en verkopen voor internationale markten vanuit dezelfde afbeeldingensets.`,
       },
       {
-        title: 'Genereer de plaatjes kruiswoordpuzzel',
+        title: `Genereer de plaatjes kruiswoordpuzzel`,
         description: `Klik op Genereren om de kruiswoordpuzzel te maken op een vast 15×15 raster. Het algoritme extraheert woorden uit je 8 afbeeldingsnamen (of aangepaste woordenlijst), verwijdert spaties, converteert naar hoofdletters, schudt en sorteert op lengte (langste eerst), en plaatst woorden in het raster voor optimale kruising bij gedeelde letters. Genummerde aanwijzingsposities markeren het begin van elk woord, en afbeeldings- of tekstaanwijzingen verschijnen naast het raster met overeenkomende nummers. Een gestileerde koptekst verschijnt bovenaan met een blauwe achtergrond (#5B9BD5), witte pil, gelokaliseerde Fredoka-titel met dynamische grootte (48px→28px) en Quicksand-beschrijving.`,
       },
       {
-        title: 'Bekijk het automatisch gegenereerde antwoordblad',
+        title: `Bekijk het automatisch gegenereerde antwoordblad`,
         description: `Klik op het tabblad Antwoordblad om het ingevulde raster te zien met alle kruiswoordantwoorden zichtbaar in de cellen. Het antwoordblad reproduceert de exacte puzzelindeling en vult elke cel met de correcte letters — geen handmatige antwoordcreatie, geen apart ontwerpproces, geen kans op niet-overeenkomende oplossingen. Schakel tussen de tabbladen Werkblad en Antwoordblad om te vergelijken. Het antwoordblad wordt tegelijkertijd met de puzzel gegenereerd, dus elke kruiswoordpuzzel die je maakt komt met zijn kant-en-klare oplossingspagina. Dit dubbele canvassysteem bespaart aanzienlijke productietijd bij het maken van kruiswoordbundels.`,
       },
       {
@@ -79,11 +79,11 @@ const content: ToolContent = {  seo: {
       description: `Stel 40–80 plaatjes kruiswoordpuzzels samen in gedrukte werkboeken voor Amazon KDP. Organiseer hoofdstukken per thema — dieren, voedsel, natuur, feestdagen, beroepen — met verschillende beeldcollecties per hoofdstuk. Neem antwoordbladpagina's op achterin met de automatisch gegenereerde ingevulde rasters. Schakel grijstinten in voor inktvriendelijke uitvoer geoptimaliseerd voor zwart-wit boekbinnenwerken. Plaatjes kruiswoordpuzzels vullen een unieke niche in de activiteitenboekmarkt: ze combineren de visuele aantrekkingskracht van beeldpuzzels met de woordoplosuitdaging van traditionele kruiswoordpuzzels, wat een breder leeftijdsbereik aanspreekt dan alleen-tekst kruiswoordboeken.`,
     },
     {
-      title: 'Seizoensgebonden Plaatjes Kruiswoordcollecties',
+      title: `Seizoensgebonden Plaatjes Kruiswoordcollecties`,
       description: `Bouw roterende seizoenscollecties met feestdagen- en thematische beeldcollecties. Kerst plaatjes kruiswoordpuzzels, Sinterklaas kruiswoordpuzzels, Halloween kruiswoordactiviteiten, Pasen kruiswoorden, terug-naar-school woorduitdagingen en zomerthema kruiswoordsets ondersteunen elk speciale seizoenspakketten. De visuele aard van plaatjes kruiswoordpuzzels maakt seizoensthema's bijzonder overtuigend — feestdagenafbeeldingen als aanwijzingen creëren directe seizoensaantrekkingskracht in marktplaatsvermeldingen. Breng elke collectie 4–6 weken voor de feestdag uit voor piekzichtbaarheid.`,
     },
     {
-      title: 'Gemengd-Formaat Woordpuzzel Megabundels',
+      title: `Gemengd-Formaat Woordpuzzel Megabundels`,
       description: `Koppel plaatjes kruiswoordpuzzels aan woordzoeker werkbladen, woordscramble-activiteiten, woordraad-uitdagingen en cryptogram puzzels met gecoördineerde thema's over meerdere generators. Plaatjes kruiswoordpuzzels bouwen woordenschat door afbeelding-naar-woord associatie. Woordzoekers ontwikkelen letterpatroon herkenning. Woordscrambles daagen spelling en anagram-oplossing uit. Elk formaat richt zich op een andere taalvaardigheid terwijl thematische consistentie behouden blijft. Multi-formaat woordpuzzelbundels brengen premiumprijzen op omdat ouders en verkopers meer betalen voor uitgebreide woordenschatopbouwende collecties.`,
     },
   ],
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: `Amazon KDP Plaatjes Kruiswoordpuzzel Werkboekserie`,
-      description: `Stel 40–80 plaatjes kruiswoordpuzzels samen in thematische werkboeken voor Amazon KDP. Structureer een serie per categorie: "Dieren Plaatjes Kruiswoordpuzzels" met dierenthema's, "Feestdagen Kruiswoordavonturen" met seizoenscollecties, en "Ultieme Plaatjes Kruiswoorduitdaging" met gemengde thema\'s over hoofdstukken. Neem antwoordbladpagina's op achterin met ingevulde rasters die alle correcte letters tonen. Schakel grijstinten in voor inktvriendelijke uitvoer. Plaatjes kruiswoordpuzzels combineren visuele aantrekkingskracht met woordoplosuitdaging en vullen een unieke niche tussen kleurboeken en traditionele kruiswoordcollecties in de KDP-activiteitenboekmarkt.`,
+      description: `Stel 40–80 plaatjes kruiswoordpuzzels samen in thematische werkboeken voor Amazon KDP. Structureer een serie per categorie: "Dieren Plaatjes Kruiswoordpuzzels" met dierenthema`s, "Feestdagen Kruiswoordavonturen" met seizoenscollecties, en "Ultieme Plaatjes Kruiswoorduitdaging" met gemengde thema's over hoofdstukken. Neem antwoordbladpagina`s op achterin met ingevulde rasters die alle correcte letters tonen. Schakel grijstinten in voor inktvriendelijke uitvoer. Plaatjes kruiswoordpuzzels combineren visuele aantrekkingskracht met woordoplosuitdaging en vullen een unieke niche tussen kleurboeken en traditionele kruiswoordcollecties in de KDP-activiteitenboekmarkt.`,
       platform: 'Amazon KDP',
     },
     {
@@ -147,7 +147,7 @@ const content: ToolContent = {  seo: {
       description: `Neem zowel plaatjes kruiswoordpuzzels (met thematische afbeeldingsaanwijzingen) als tekstaanwijzing-kruiswoordpuzzels (met aangepaste woordenlijsten) op in dezelfde bundel voor maximale variatie. Plaatjes kruiswoordpuzzels richten zich op visuele gebruikers en jongere gebruikers die reageren op afbeeldingsgebaseerde aanwijzingen. Tekstaanwijzing-kruiswoordpuzzels richten zich op oudere gebruikers en vakspecifieke woordenschatherhaling. Het bundelen van beide formaten verdubbelt je inhoudsvariatie en dekt meerdere leerstijlen in één product, wat hogere prijzen rechtvaardigt dan enkelvoudige-formaat kruiswoordpakketten.`,
     },
     {
-      title: 'Gebruik grijstinten voor KDP en klasproducten',
+      title: `Gebruik grijstinten voor KDP en klasproducten`,
       description: `Schakel grijstinten in om inktvriendelijke kruiswoordpuzzels te maken specifiek voor KDP print-on-demand binnenwerken en het printen online. Kleurendruk kost aanzienlijk meer bij KDP, en veel verkopers printen op zwart-wit printers. Maak dubbel-formaat bundels die zowel kleurversies (voor digitale downloads) als grijstintenversies (voor druk) bevatten — kopers ervaren dit als dubbele waarde. Het kruiswoordraster, genummerde aanwijzingsposities en afbeeldingsaanwijzingen renderen allemaal helder in grijstinten.`,
     },
   ],
@@ -162,11 +162,11 @@ const content: ToolContent = {  seo: {
       answer: `Een plaatjes kruiswoordpuzzel vervangt traditionele tekstaanwijzingen door afbeeldingsaanwijzingen. In plaats van een geschreven definitie te lezen en het antwoord in te vullen, kijken oplossers naar een kleurrijke afbeelding en schrijven het woord dat het voorstelt in het kruiswoordraster. De generator plaatst 8 van afbeeldingen afgeleide woorden op een vast 15×15 raster met genummerde posities die elke afbeelding verbinden met de startcel. Het algoritme extraheert woorden uit afbeeldingsnamen, verwijdert spaties, converteert naar hoofdletters, schudt en sorteert op lengte (langste eerst), en plaatst woorden met optimale kruising bij gedeelde letters. Dit formaat maakt kruiswoordpuzzels toegankelijk voor jongere oplossers en taalleerders terwijl de woordplaatsingsuitdaging van traditionele kruiswoordpuzzels behouden blijft.`,
     },
     {
-      question: 'Wat zijn de vier invoermethoden?',
+      question: `Wat zijn de vier invoermethoden?`,
       answer: `Snel Thema Genereren (standaard) selecteert automatisch 8 willekeurige afbeeldingen uit het gekozen thema en genereert direct — de snelste weg naar een voltooide puzzel. Handmatige Afbeeldingsnaam Bewerking laat je individuele afbeeldingen aanklikken en hun weergavenamen hernoemen vóór generatie voor precieze woordenschatcontrole. Aangepaste Woordenlijst met Aanwijzingen schakelt een tekstveld in waar je WOORD: aanwijzing-paren invoert voor traditionele tekstaanwijzing-kruiswoordpuzzels zonder afbeeldingen. Upload Aangepaste Afbeeldingen laat je eigen JPEG-, PNG-, GIF- of WebP-bestanden toevoegen naast bibliotheekinhoud. Elke methode gebruikt hetzelfde 15×15 rasterplaatsingsalgoritme.`,
     },
     {
-      question: 'Waarom is het raster vast op 15×15 cellen?',
+      question: `Waarom is het raster vast op 15×15 cellen?`,
       answer: `Het 15×15 raster biedt voldoende ruimte voor 8 kruisende woorden van variërende lengtes terwijl schone visuele proporties behouden blijven op zowel Letter- als A4-paginaformaten. De rastergrootte is geoptimaliseerd voor het plaatsingsalgoritme — grotere rasters zouden te veel lege ruimte overlaten met 8 woorden, terwijl kleinere rasters langere woorden niet zouden laten passen. De vaste grootte garandeert consistente, professioneel ogende kruiswoordpuzzels over alle thema's en talen.`,
     },
     {
@@ -174,7 +174,7 @@ const content: ToolContent = {  seo: {
       answer: `De generator gebruikt een dubbel canvassysteem met een tabblad Werkblad (de lege puzzel) en een tabblad Antwoordblad (het ingevulde raster). Het werkblad toont het kruiswoordraster met genummerde posities en afbeeldings- of tekstaanwijzingen — klaar voor oplossers om in te vullen. Het antwoordblad reproduceert de identieke indeling en vult elke cel met de correcte letters. Beide versies exporteren apart met vier speciale downloadknoppen. Het antwoordblad wordt tegelijkertijd met de puzzel gegenereerd, dus er is geen handmatige antwoordcreatiestap en geen kans op niet-overeenkomende oplossingen.`,
     },
     {
-      question: 'Is de Kruiswoordpuzzel Maker taalgebonden?',
+      question: `Is de Kruiswoordpuzzel Maker taalgebonden?`,
       answer: `Ja. Puzzelwoorden komen uit gelokaliseerde afbeeldingsnamen geladen via het Beeldwoordenschat-systeem. Het wisselen van de inhoudstaal verandert de daadwerkelijke woorden die in het kruiswoordraster worden geplaatst. Een katafbeelding genereert "KAT" in het Nederlands maar "CAT" in het Engels, "KATZE" in het Duits, "CHAT" in het Frans en "GATTO" in het Italiaans — waardoor volledig verschillende kruiswoordpuzzels ontstaan vanuit identieke afbeeldingsselecties. De gelokaliseerde koptekst verandert ook mee met de geselecteerde taal. Het Commerciële abonnement bevat Engelse inhoud; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde puzzelwoorden.`,
     },
     {
@@ -191,7 +191,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wat is het restitutiebeleid?',
-      answer: `Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren voordat je een aankoop doet. Omdat de gratis proefversie je volledige toegang geeft tot alle vier invoermethoden, de 15×15 rastergenerator, het automatisch gegenereerde antwoordblad met ingevuld raster, alle 104 thema's, eigen afbeeldingen uploaden, taalselectie, achtergrond- en kaderthema's, grijstintenexport en elk downloadformaat, bieden wij geen restituties aan op licentieaankopen. Zorg dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.`,
+      answer: `Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren voordat je een aankoop doet. Omdat de gratis proefversie je volledige toegang geeft tot alle vier invoermethoden, de 15×15 rastergenerator, het automatisch gegenereerde antwoordblad met ingevuld raster, alle 104 thema`s, eigen afbeeldingen uploaden, taalselectie, achtergrond- en kaderthema`s, grijstintenexport en elk downloadformaat, bieden wij geen restituties aan op licentieaankopen. Zorg dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.`,
     },
   ],
 
@@ -202,7 +202,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Woordraad Werkblad Maker' },
     { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Maker' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Zoek & Tel Werkblad Maker' },
-    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Werkblad Maker' },
+    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: `Zoek Voorwerpen Werkblad Maker` },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Werkblad Maker' },
   ],
 

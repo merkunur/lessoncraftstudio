@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ganhar dinheiro livros atividades KDP',
+    primaryKeyword: `ganhar dinheiro livros atividades KDP`,
     secondaryKeywords: [
-      'como ganhar dinheiro com livros de atividades KDP',
+      `como ganhar dinheiro com livros de atividades KDP`,
       `estratégias de rendimento livros de atividades KDP`,
       `otimização de receitas livros de atividades Amazon KDP`,
-      'publicação rentável de livros de atividades KDP',
+      `publicação rentável de livros de atividades KDP`,
     ],
     lsiKeywords: [
       `cálculo de royalties KDP custo de impressão estratégia de preços`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Como ganhar dinheiro com livros de atividades KDP',
+    title: `Como ganhar dinheiro com livros de atividades KDP`,
     tagline: `Um guia completo de rendimentos para editores de livros de atividades na Amazon KDP — incluindo cálculo de royalties e pontos ideais de preço, economia de catálogo que acumula rendimentos mensais, estratégias de publicação sazonal para picos de receitas em festividades, otimização de palavras-chave da Amazon para máximas vendas, escalamento da produção em múltiplos tipos de livros de atividades, acompanhamento do desempenho para reforçar os vencedores, e expansão multiplataforma para Etsy e Gumroad como fontes de rendimento adicionais`,
     description: `Publicar livros de atividades na Amazon KDP é simples. Gerar rendimentos consistentes e crescentes a partir deles requer uma estratégia de negócio deliberada. Este guia não é sobre como criar livros de atividades — os nossos outros guias KDP cobrem livros de atividades de matemática, livros de puzzles, livros de caça-palavras e formatação em detalhe. Este guia é sobre o dinheiro: como os royalties KDP realmente funcionam para livros de atividades, como definir preços para lucro máximo em vez de vendas máximas, porque é que um catálogo de 10 livros rende muito mais do que 10 vezes o que um único livro rende, e como construir um negócio editorial que gera rendimentos mensais compostos em vez de vendas únicas.`,
   },
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `As receitas escalam mais rapidamente quando diversifica entre múltiplos tipos de livros de atividades em vez de publicar apenas um formato. Cada tipo de livro de atividades visa diferentes termos de pesquisa da Amazon, serve diferentes demografias de compradores e tem diferentes dinâmicas competitivas. Um editor com títulos em matemática, caça-palavras, palavras cruzadas, sudoku, colorir e desenho alcança muito mais potenciais compradores do que um que publica apenas cadernos de matemática.\n\nA categoria de matemática inclui cadernos de adição, subtração, multiplicação, divisão e operações mistas segmentados por nível escolar. Cada nível escolar e tipo de operação é um mercado de pesquisa separado na Amazon. O gerador de Fichas de Matemática cria conteúdo direcionado para operações específicas e níveis de dificuldade, enquanto o gerador de Adição produz conteúdo focado em operação única para cadernos específicos por ano escolar. Um editor pode criar 15 a 20 títulos de matemática distintos apenas combinando diferentes operações com diferentes níveis escolares.\n\nA categoria de puzzles abrange caça-palavras, palavras cruzadas, sudoku e formatos variados para públicos adultos e infantis. Só o caça-palavras suporta dezenas de títulos através de edições temáticas, volumes numerados e versões segmentadas por idade. O gerador de Caça-Palavras trata da criação de grelhas temáticas, e o gerador de Sudoku produz puzzles baseados em imagens para livros infantis. Cada tipo de puzzle visa pesquisas da Amazon completamente diferentes, portanto um livro de caça-palavras e um livro de palavras cruzadas não competem entre si — alcançam diferentes compradores e fazem promoção cruzada através da sua página de autor.\n\nO gerador de Colorir cria conteúdo para livros de colorir, que representa uma das maiores categorias individuais na KDP. Livros de colorir infantis, livros de colorir de relaxamento para adultos e livros de colorir temáticos representam cada um mercados distintos. O gerador de Desenho cria livros de atividades de desenho guiado que ensinam ilustração passo a passo, servindo tanto o mercado de criatividade infantil como o mercado de hobbies para adultos.\n\nO princípio-chave de receitas é a multiplicação de formatos: um único tema de conteúdo (animais, por exemplo) pode originar um caderno de matemática de animais, um livro de caça-palavras de animais, um livro de colorir de animais, um livro de desenho de animais e um livro de atividades variadas de animais. Cinco livros a partir de um tema, cada um visando diferentes categorias da Amazon e pesquisas de compradores. Esta abordagem maximiza a sua produção de cada sessão de planeamento de conteúdo enquanto constrói a amplitude do catálogo em múltiplos mercados de livros de atividades.`,
     },
     {
-      heading: 'Acompanhar o desempenho e reforçar os vencedores',
+      heading: `Acompanhar o desempenho e reforçar os vencedores`,
       content: `A KDP fornece relatórios de vendas que a maioria dos editores subutiliza. Tratar o seu catálogo de livros de atividades como um negócio significa analisar dados de desempenho regularmente e tomar decisões com base no que os números mostram, em vez daquilo que assume.\n\nO painel KDP mostra vendas diárias, royalties mensais e unidades vendidas por título. A métrica mais importante para a otimização do catálogo é a receita por título por mês. Calcule isto para cada livro do seu catálogo. Descobrirá tipicamente que 20 a 30 por cento dos seus títulos geram 60 a 70 por cento da sua receita total. Estes vencedores merecem mais investimento: mais volumes na mesma série, variações temáticas, versões segmentadas por idade e edições sazonais.\n\nQuando um título tem bom desempenho, pergunte o que está especificamente a impulsionar o seu sucesso. Está a posicionar-se para uma palavra-chave de alto tráfego que os seus outros livros não estão a visar? Está numa subcategoria menos competitiva onde o seu posicionamento é mais forte? Tem mais avaliações do que os seus outros títulos? O design da capa é mais apelativo em tamanho de miniatura? Cada resposta sugere uma ação específica: replique a estratégia de palavras-chave, vise a mesma subcategoria com novos títulos, aplique a abordagem de design da capa a livros com desempenho inferior.\n\nOs títulos com desempenho inferior precisam de avaliação honesta. Um livro que rende menos de 10 dólares por mês após 90 dias tem um problema que não se resolverá sozinho. Causas comuns incluem: segmentação fraca de palavras-chave que falha as pesquisas dos compradores, uma capa que não compete em tamanho de miniatura, preço que elimina o royalty, ou colocação de categoria num segmento excessivamente competitivo. Por vezes o valor percebido é simples — atualizar palavras-chave ou solicitar uma mudança de categoria. Outras vezes, o formato de conteúdo em si não tem procura suficiente, e o seu esforço é melhor empregue na publicação de novos títulos em categorias comprovadas.\n\nReveja o desempenho do seu catálogo mensalmente. Acompanhe as tendências mês a mês para cada título e para a receita total do catálogo. Catálogos saudáveis mostram tendências graduais ascendentes à medida que novos títulos contribuem e os títulos existentes acumulam contagens de avaliações e histórico de posicionamento. Se a receita total estagna apesar de adicionar novos títulos, examine se os novos livros estão a visar categorias saturadas ou se os títulos mais antigos estão a perder posicionamento para novos concorrentes.`,
     },
     {
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Reinvista as receitas iniciais em design de capas',
+      heading: `Reinvista as receitas iniciais em design de capas`,
       content: `A melhor utilização dos seus primeiros ganhos KDP é o design profissional de capas para os seus livros existentes e futuros. A qualidade da capa é o principal impulsionador das taxas de clique nos resultados de pesquisa da Amazon, e uma capa desenhada profissionalmente custa tipicamente 30 a 75 dólares por livro. Se os seus títulos iniciais estão a render 50 a 100 dólares mensais com capas feitas por si, investir 200 a 300 dólares em capas profissionais para os seus 4 a 5 melhores títulos pode aumentar as taxas de clique e vendas o suficiente para recuperar o investimento em 1 a 2 meses. À medida que o catálogo cresce, o efeito de composição de melhores capas em mais títulos amplifica este retorno.`,
     },
     {
@@ -138,45 +138,45 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'livros-atividades-matematica-kdp',
+      slug: `livros-atividades-matematica-kdp`,
       title: `Criar livros de atividades de matemática para Amazon KDP`,
       description: `O guia completo para criar livros de atividades de matemática para KDP. Cobre a criação de conteúdo, formatação e fundamentos KDP que complementam as estratégias de receitas deste guia.`,
     },
     {
-      slug: 'melhores-nichos-kdp-livros-atividades',
-      title: 'Melhores nichos de livros de atividades KDP',
+      slug: `melhores-nichos-kdp-livros-atividades`,
+      title: `Melhores nichos de livros de atividades KDP`,
       description: `Descubra quais nichos de livros de atividades têm a melhor relação procura/concorrência na KDP. Leitura essencial para decidir onde concentrar a sua estratégia de catálogo.`,
     },
     {
       slug: 'criar-pacotes-fichas-etsy',
-      title: 'Criar pacotes de fichas no Etsy',
+      title: `Criar pacotes de fichas no Etsy`,
       description: `Aprenda a empacotar o conteúdo dos seus livros de atividades como pacotes de download digital no Etsy, adicionando um segundo fluxo de rendimento ao seu conteúdo existente.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
-    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: 'Como publicar livros de puzzles na Amazon KDP' },
+    { pageType: 'guide', slug: `livros-atividades-matematica-kdp`, anchorText: `Como criar livros de atividades de matemática para Amazon KDP` },
+    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: `Como publicar livros de puzzles na Amazon KDP` },
     { pageType: 'guide', slug: 'livros-caca-palavras-kdp', anchorText: `Como criar livros de caça-palavras para Amazon KDP` },
-    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: 'Guia de formatação KDP para livros de fichas' },
-    { pageType: 'guide', slug: 'melhores-nichos-kdp-livros-atividades', anchorText: 'Melhores nichos de livros de atividades KDP' },
-    { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: 'Como criar livros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-etsy', anchorText: 'Como criar pacotes de fichas no Etsy' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: `Guia de formatação KDP para livros de fichas` },
+    { pageType: 'guide', slug: `melhores-nichos-kdp-livros-atividades`, anchorText: `Melhores nichos de livros de atividades KDP` },
+    { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: `Como criar livros de sudoku para Amazon KDP` },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: `Amazon KDP ou Etsy: Onde vender imprimíveis` },
+    { pageType: 'guide', slug: 'criar-pacotes-fichas-etsy', anchorText: `Como criar pacotes de fichas no Etsy` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de caça-palavras — Todos os detalhes' },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de caça-palavras — Todos os detalhes` },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Gerador de fichas de matemática',
+      title: `Gerador de fichas de matemática`,
       description: `Cria conteúdo direcionado para cadernos de matemática KDP — fichas de adição, subtração, multiplicação e divisão segmentadas por nível escolar. Os cadernos de matemática são uma categoria KDP de alta procura com vendas fortes durante todo o ano.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Gerador de fichas de caça-palavras',
+      title: `Gerador de fichas de caça-palavras`,
       description: `Gera grelhas de puzzles de caça-palavras temáticos para livros de puzzles KDP. O caça-palavras é a maior categoria individual de livros de puzzles na Amazon, tornando-o essencial para qualquer estratégia de catálogo de livros de atividades.`,
     },
     {
@@ -186,7 +186,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Cria conteúdo de livros de colorir para uma das categorias de maior volume na KDP. Livros de colorir infantis e livros de colorir de relaxamento para adultos são vendedores consistentemente fortes durante todo o ano.`,
     },
     {
@@ -197,22 +197,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: 'Ficha de puzzle de sudoku a demonstrar conteúdo de livros de atividades KDP para geração de receitas' },
+    heroImage: { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: `Ficha de puzzle de sudoku a demonstrar conteúdo de livros de atividades KDP para geração de receitas` },
     samples: [
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 2.webp`, alt: 'Puzzle de sudoku formatado para páginas interiores de livros de atividades KDP', caption: 'Puzzles de sudoku — uma categoria de livros de atividades consistentemente rentável na Amazon KDP com compradores fiéis recorrentes' },
-      { src: `/samples/portuguese/math worksheet/Folha de Matemática 1.webp`, alt: 'Ficha de matemática formatada para páginas interiores de cadernos KDP', caption: 'Cadernos de matemática — categoria KDP de alta procura com oportunidades naturais de expansão do catálogo por nível escolar' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Puzzle de caça-palavras para diversificação do catálogo de livros de puzzles KDP', caption: 'Livros de caça-palavras — a maior categoria de livros de puzzles na Amazon com forte potencial de receitas em séries de múltiplos volumes' },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 2.webp`, alt: `Puzzle de sudoku formatado para páginas interiores de livros de atividades KDP`, caption: `Puzzles de sudoku — uma categoria de livros de atividades consistentemente rentável na Amazon KDP com compradores fiéis recorrentes` },
+      { src: `/samples/portuguese/math worksheet/Folha de Matemática 1.webp`, alt: `Ficha de matemática formatada para páginas interiores de cadernos KDP`, caption: `Cadernos de matemática — categoria KDP de alta procura com oportunidades naturais de expansão do catálogo por nível escolar` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Puzzle de caça-palavras para diversificação do catálogo de livros de puzzles KDP`, caption: `Livros de caça-palavras — a maior categoria de livros de puzzles na Amazon com forte potencial de receitas em séries de múltiplos volumes` },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: `Como criar livros de atividades de sudoku para Amazon KDP — Tutorial de construção de receitas`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Formiga — imagem educativa temática', caption: 'Formiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Texugo — imagem educativa temática', caption: 'Texugo' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagem educativa temática', caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Formiga — imagem educativa temática`, caption: 'Formiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Texugo — imagem educativa temática`, caption: 'Texugo' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagem educativa temática`, caption: 'Castor' },
   ],
 };
 

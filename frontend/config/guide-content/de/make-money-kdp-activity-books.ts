@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'geld verdienen mit kdp aktivitätsbüchern',
+    primaryKeyword: `geld verdienen mit kdp aktivitätsbüchern`,
     secondaryKeywords: [
       `mit KDP Aktivitätsbüchern Geld verdienen Anleitung`,
-      'KDP Aktivitätsbuch Einnahmen Strategien',
-      'Amazon KDP Aktivitätsbuch Umsatzoptimierung',
-      'profitabel Aktivitätsbücher veröffentlichen KDP',
+      `KDP Aktivitätsbuch Einnahmen Strategien`,
+      `Amazon KDP Aktivitätsbuch Umsatzoptimierung`,
+      `profitabel Aktivitätsbücher veröffentlichen KDP`,
     ],
     lsiKeywords: [
       `KDP Tantiemen Berechnung Druckkosten Preisstrategie`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Wie Sie mit KDP Aktivitätsbüchern Geld verdienen',
+    title: `Wie Sie mit KDP Aktivitätsbüchern Geld verdienen`,
     tagline: `Ein umfassender Umsatz-Leitfaden für Amazon-KDP-Aktivitätsbuch-Verleger — mit Tantiemen-Rechnung und optimalen Preispunkten, Katalogökonomie die monatliche Einnahmen steigert, saisonalen Veröffentlichungsstrategien für Feiertags-Umsatzspitzen, Amazon-Keyword-Optimierung für maximale Verkäufe, Produktionsskalierung über verschiedene Aktivitätsbuch-Typen, Leistungsverfolgung um auf Gewinner zu setzen, und Multi-Plattform-Expansion zu Etsy und Gumroad für zusätzliche Einnahmeströme`,
     description: `Aktivitätsbücher auf Amazon KDP zu veröffentlichen ist unkompliziert. Damit konstante, wachsende Einnahmen zu erzielen, erfordert eine durchdachte Geschäftsstrategie. Dieser Leitfaden behandelt nicht die Erstellung von Aktivitätsbüchern — unsere anderen KDP-Leitfäden decken Mathe-Aktivitätsbücher, Rätselbücher, Wortsuchbücher und Formatierung im Detail ab. Dieser Leitfaden dreht sich ums Geld: wie KDP-Tantiemen bei Aktivitätsbüchern tatsächlich funktionieren, wie Sie für maximalen Gewinn statt maximale Verkaufszahlen bepreisen, warum ein Katalog von 10 Büchern weit mehr als das Zehnfache eines einzelnen Buches verdient, und wie Sie ein Verlagsgeschäft aufbauen, das steigende monatliche Einnahmen statt einmaliger Verkäufe generiert.`,
   },
@@ -31,15 +31,15 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'KDP-Aktivitätsbuch-Ökonomie verstehen',
+      heading: `KDP-Aktivitätsbuch-Ökonomie verstehen`,
       content: `KDP zahlt Tantiemen auf Taschenbuch-Aktivitätsbücher nach einer einfachen Formel: 60 Prozent des Listenpreises minus Druckkosten. Die Druckkosten hängen von der Seitenzahl, dem Tintentyp (Schwarzweiß oder Farbe) und dem Marktplatz ab. Das Verständnis dieser Formel ist die Grundlage jeder Preis- und Produktionsentscheidung, die Sie als Verleger treffen werden.\n\nFür ein Buch mit Schwarzweiß-Innenteil, das auf dem US-Marktplatz verkauft wird, beträgt die Druckkostenformel ungefähr 0,85 Dollar Fixkosten plus 0,012 Dollar pro Seite. Ein 60-seitiges Aktivitätsbuch kostet ungefähr 1,57 Dollar im Druck. Ein 100-seitiges Buch kostet ungefähr 2,05 Dollar. Ein 150-seitiges Buch kostet ungefähr 2,65 Dollar. Farbige Innenteile kosten dramatisch mehr — ungefähr 0,85 Dollar plus 0,07 Dollar pro Seite — wodurch ein 60-seitiges Farbbuch etwa 5,05 Dollar im Druck kostet, was Ihre Tantieme bei wettbewerbsfähigen Preispunkten erheblich einschränkt.\n\nHier wird die Rechnung wichtig. Für ein 60-seitiges Schwarzweiß-Aktivitätsbuch (Druckkosten 1,57 Dollar) ergibt sich Ihre Tantieme bei verschiedenen Preispunkten: Bei 5,99 Dollar Listenpreis beträgt die Tantieme 60 Prozent von 5,99 minus 1,57, also 2,02 Dollar. Bei 7,99 Dollar beträgt die Tantieme 3,22 Dollar. Bei 9,99 Dollar beträgt die Tantieme 4,42 Dollar. Der Sprung von 5,99 auf 9,99 Dollar verdoppelt Ihren Verdienst pro Verkauf mehr als. Viele neue Verleger setzen den Preis zu niedrig an, weil sie befürchten, höhere Preise würden die Verkäufe reduzieren, aber Aktivitätsbuch-Käufer auf Amazon sind im Bereich von 6 bis 12 Dollar relativ preisunempfindlich — ihnen sind Inhaltsqualität, Seitenzahl und Bewertungen wichtiger als ein Preisunterschied von 2 bis 3 Dollar.\n\nFarbige Innenteile verändern diese Berechnung dramatisch. Dasselbe 60-seitige Buch mit Farbdruck kostet 5,05 Dollar im Druck. Bei einem Listenpreis von 9,99 Dollar sinkt Ihre Tantieme auf nur 0,94 Dollar pro Verkauf, verglichen mit 4,42 Dollar für die Schwarzweiß-Version. Deshalb gestaltet die überwiegende Mehrheit der profitablen Aktivitätsbuch-Verleger für Schwarzweiß-Innenteile. Ausmalbücher sind die bemerkenswerte Ausnahme, aber selbst dort verwenden viele Verleger Schwarzweiß-Strichzeichnungen statt farbiger Seiten.\n\nDie zentrale Erkenntnis ist, dass Seitenzahl und Tintentyp keine reinen Produktionsentscheidungen sind — es sind Gewinnentscheidungen. Jede zusätzliche Seite erhöht die Kosten, und jeder Dollar zusätzlicher Kosten geht direkt von Ihrer Tantieme ab. Gestalten Sie Ihre Bücher von Anfang an mit der Tantiemen-Rechnung im Hinterkopf, nicht als nachträglichen Gedanken.`,
     },
     {
-      heading: 'Aktivitätsbücher für maximale Tantiemen bepreisen',
+      heading: `Aktivitätsbücher für maximale Tantiemen bepreisen`,
       content: `Die Preisgestaltung ist die einzelne Entscheidung mit dem größten Hebel in Ihrem KDP-Aktivitätsbuch-Geschäft. Eine 2-Dollar-Preiserhöhung bei einem Buch, das 50 Exemplare pro Monat verkauft, bedeutet 60 Dollar zusätzliche monatliche Tantiemen — ohne jeglichen Mehraufwand. Dennoch verbringen die meisten Verleger Stunden mit der Perfektionierung ihrer Inhalte und Sekunden mit der Preisfestlegung.\n\nDer optimale Preisbereich für die meisten Aktivitätsbücher liegt zwischen 7,99 und 9,99 Dollar für Standard-Seitenzahlen (50 bis 80 Seiten). Bücher in diesem Bereich generieren bedeutende Tantiemen und bleiben gleichzeitig wettbewerbsfähig mit anderen Aktivitätsbüchern in den Amazon-Suchergebnissen. Unter 6,99 Dollar fällt Ihre Tantieme pro Verkauf oft unter 2 Dollar, was bedeutet, dass Sie enormes Verkaufsvolumen brauchen, um nennenswerte Einnahmen zu erzielen. Über 12,99 Dollar begegnen Sie Käuferwiderstand, es sei denn, Ihr Buch bietet klaren Premium-Mehrwert wie höhere Seitenzahlen oder spezialisierte Inhalte.\n\nDie Seitenzahl bestimmt Ihren Mindestpreis. Ein 40-seitiges Aktivitätsbuch kann bei 6,99 Dollar profitabel bepreist werden, weil die Druckkosten niedrig sind. Ein 120-seitiges Rätselbuch muss auf 9,99 Dollar oder höher bepreist werden, um angemessene Tantiemen zu erzielen, da die Druckkosten erheblich höher sind. Berechnen Sie zuerst Ihre Ziel-Tantieme und setzen Sie dann den Preis fest, um sie zu erreichen. Wenn Sie mindestens 3 Dollar Tantieme pro Verkauf bei einem 80-seitigen Schwarzweiß-Buch (Druckkosten ungefähr 1,81 Dollar) erzielen wollen, brauchen Sie einen Listenpreis von mindestens 8,02 Dollar — also ist 8,99 Dollar Ihr praktischer Mindestpreis.\n\nPremium-Positionierung kann höhere Preise rechtfertigen. Großdruck-Aktivitätsbücher erzielen 1 bis 3 Dollar mehr als das Standardformat, weil die Zielgruppe (typischerweise Senioren) die Verbesserung der Benutzerfreundlichkeit schätzt. Thematische Feiertagsbücher können in der Hochsaison 1 bis 2 Dollar über generischen Äquivalenten bepreist werden. Bücher mit höheren Seitenzahlen unterstützen natürlich höhere Preise, weil Käufer mehr Wert wahrnehmen. Ein 150-Rätsel-Wortsuchbuch für 11,99 Dollar erscheint angemessen, wenn konkurrierende Bücher 80 Rätsel für 8,99 Dollar anbieten.\n\nVermeiden Sie den Preiskampf nach unten. Neue Verleger setzen den Preis manchmal auf 4,99 Dollar und hoffen auf Volumen, aber die Konversionsraten von KDP-Aktivitätsbüchern werden primär von Cover-Qualität, Bewertungen und Suchranking bestimmt — nicht davon, die billigste Option zu sein. Ein gut gemachtes 8,99-Dollar-Buch mit starken Bewertungen wird ein mittelmäßiges 4,99-Dollar-Buch in fast jedem Szenario übertreffen, und jeder Verkauf wird 2 bis 3 Mal mehr an Tantiemen wert sein.`,
     },
     {
-      heading: 'Katalogstrategie für wachsende Einnahmen aufbauen',
+      heading: `Katalogstrategie für wachsende Einnahmen aufbauen`,
       content: `Das wichtigste Konzept in der KDP-Aktivitätsbuch-Ökonomie ist der Katalog-Zinseszinseffekt. Ein einzelnes Buch hat eine feste Obergrenze: Es kann nur in einer begrenzten Anzahl von Suchergebnissen erscheinen, ein begrenztes Publikum ansprechen und eine begrenzte Anzahl von Verkäufen pro Monat erzielen. Ein Katalog verwandter Bücher durchbricht diese Obergrenze, weil Amazons Empfehlungsalgorithmus Ihre Titel miteinander verknüpft.\n\nSo funktioniert der Zinseszinseffekt in der Praxis. Wenn ein Käufer Ihr Mathe-Arbeitsheft für Kinder: Klasse 1 kauft, beginnt Amazons Algorithmus, ihm Ihre anderen Titel im Abschnitt „Kunden kauften auch", im Abschnitt „Mehr von diesem Autor" und in Empfehlungs-E-Mails anzuzeigen. Wenn Sie ein Arbeitsheft für Klasse 2, eines für Klasse 3 und ein Mathe-Rätselbuch haben, hat dieser einzelne Käufer mehrere Gelegenheiten zum Wiederkauf — ohne dass Sie etwas für zusätzliches Marketing oder Werbung ausgeben. Jeder Titel in Ihrem Katalog wird zum Entdeckungskanal für jeden anderen Titel.\n\nDie Rechnung ist überzeugend. Wenn ein einzelnes Buch 80 Dollar pro Monat verdient, würden Sie erwarten, dass 10 Bücher 800 Dollar verdienen. Aber 10 gut vernetzte Bücher in derselben Kategorie verdienen oft 1.000 bis 1.500 Dollar monatlich wegen der Kreuzentdeckung. Der Empfehlungsalgorithmus-Effekt wird stärker, je mehr Ihr Katalog wächst — 20 Bücher verdienen nicht das Doppelte von 10 Büchern, sondern oft das 2,5- bis 3-Fache, weil die Anzahl der Kreuz-Promotionsverbindungen mit jedem neuen Titel exponentiell wächst.\n\nStrukturieren Sie Ihren Katalog für maximale Kreuz-Promotion. Erstellen Sie Serien mit nummerierten Bänden (Wortsuche Band 1, 2, 3), damit Amazon sie automatisch auf einer Serienseite verknüpft. Erstellen Sie Altersgruppen-Sequenzen (Klasse 1, Klasse 2, Klasse 3) für Bildungsbücher. Erstellen Sie thematische Sammlungen, die eine visuelle Markenidentität teilen. Jedes Buch sollte im Nachspann Ihre anderen Titel mit deren Amazon-Seitenlinks auflisten.\n\nDie praktische Konsequenz ist, dass ein Buch pro Monat über 12 Monate fast immer mehr Umsatz generiert als 12 Monate an einem einzigen Buch zu perfektionieren. Die Qualitätsanforderung ist nicht niedrig — jedes Buch muss wirklich nützlich und gut formatiert sein. Aber ein gutes Buch, das heute veröffentlicht wird, trägt sofort zum Katalog-Zinseszinseffekt bei, während ein etwas besseres Buch, das 6 Monate später erscheint, 6 Monate verpassten Zinseszinseffekt bedeutet.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Der Umsatz skaliert am schnellsten, wenn Sie über verschiedene Aktivitätsbuch-Typen diversifizieren, anstatt nur ein Format zu veröffentlichen. Jeder Aktivitätsbuch-Typ zielt auf andere Amazon-Suchbegriffe ab, bedient andere Käufer-Demografien und hat andere Wettbewerbsdynamiken. Ein Verleger mit Titeln in Mathe, Wortsuche, Kreuzworträtsel, Sudoku, Ausmalen und Zeichnen erreicht weit mehr potenzielle Käufer als einer, der nur Mathe-Arbeitshefte veröffentlicht.\n\nDie Mathe-Kategorie umfasst Addition, Subtraktion, Multiplikation, Division und gemischte Rechenoperationen, segmentiert nach Altersgruppe. Jede Altersgruppe und jeder Rechentyp ist ein separater Amazon-Suchmarkt. Der Mathe-Arbeitsblatt-Generator erstellt zielgerichtete Inhalte für bestimmte Rechenoperationen und Schwierigkeitsgrade, während der Additions-Generator fokussierte Einzel-Operationsinhalte für klassenspezifische Arbeitshefte produziert. Ein Verleger kann 15 bis 20 verschiedene Mathe-Titel erstellen, indem er verschiedene Rechenoperationen mit verschiedenen Altersgruppen kombiniert.\n\nDie Rätsel-Kategorie umfasst Wortsuche, Kreuzworträtsel, Sudoku und Mischformate für Erwachsene und Kinder. Wortsuche allein unterstützt Dutzende von Titeln durch thematische Ausgaben, nummerierte Bände und alterssegmentierte Versionen. Der Wortsuche-Generator erstellt thematische Gitter, und der Sudoku-Generator produziert bildbasierte Rätsel für Kinderbücher. Jeder Rätseltyp zielt auf völlig andere Amazon-Suchen ab, sodass ein Wortsuchbuch und ein Kreuzworträtselbuch nicht miteinander konkurrieren — sie erreichen verschiedene Käufer und fördern sich gegenseitig über Ihre Autorenseite.\n\nDer Ausmalbild-Generator erstellt Ausmalbuch-Inhalte, die eine der größten Einzelkategorien auf KDP repräsentieren. Kinder-Ausmalbücher, Entspannungs-Ausmalbücher für Erwachsene und thematische Ausmalbücher stellen jeweils eigene Märkte dar. Der Zeichnungs-Generator erstellt Schritt-für-Schritt-Zeichenbücher, die sowohl den Kinder-Kreativitätsmarkt als auch den Hobby-Markt für Erwachsene bedienen.\n\nDas zentrale Umsatzprinzip ist die Format-Multiplikation: Ein einzelnes Inhaltsthema (zum Beispiel Tiere) kann ein Mathe-Arbeitsheft mit Tieren, ein Tier-Wortsuchbuch, ein Tier-Ausmalbuch, ein Tier-Zeichenbuch und ein Tier-Aktivitätsbuch-Mix ergeben. Fünf Bücher aus einem Thema, die jeweils auf verschiedene Amazon-Kategorien und Käufersuchen abzielen. Dieser Ansatz maximiert Ihren Output aus jeder Inhaltsplanungssitzung und baut gleichzeitig Katalogbreite über mehrere Aktivitätsbuch-Märkte auf.`,
     },
     {
-      heading: 'Leistung verfolgen und auf Gewinner setzen',
+      heading: `Leistung verfolgen und auf Gewinner setzen`,
       content: `KDP bietet Verkaufsberichte, die die meisten Verleger unzureichend nutzen. Ihren Aktivitätsbuch-Katalog als Geschäft zu behandeln bedeutet, Leistungsdaten regelmäßig zu analysieren und Entscheidungen auf Basis der Zahlen zu treffen, anstatt auf Basis von Annahmen.\n\nDas KDP-Dashboard zeigt tägliche Verkäufe, monatliche Tantiemen und verkaufte Einheiten nach Titel. Die wichtigste Kennzahl für die Katalogoptimierung ist der Umsatz pro Titel pro Monat. Berechnen Sie dies für jedes Buch in Ihrem Katalog. Sie werden typischerweise feststellen, dass 20 bis 30 Prozent Ihrer Titel 60 bis 70 Prozent Ihres Gesamtumsatzes generieren. Diese Gewinner verdienen mehr Investition: mehr Bände in derselben Serie, thematische Variationen, alterssegmentierte Versionen und saisonale Ausgaben.\n\nWenn ein Titel gut abschneidet, fragen Sie, was genau seinen Erfolg antreibt. Rankt er für ein stark frequentiertes Keyword, das Ihre anderen Bücher nicht ansprechen? Ist er in einer weniger wettbewerbsintensiven Unterkategorie, in der Ihr Ranking stärker ist? Hat er mehr Bewertungen als Ihre anderen Titel? Ist das Cover-Design in der Miniaturansicht überzeugender? Jede Antwort legt eine bestimmte Maßnahme nahe: die Keyword-Strategie replizieren, dieselbe Unterkategorie mit neuen Titeln ansprechen, den Cover-Design-Ansatz auf unterdurchschnittliche Bücher anwenden.\n\nUnterdurchschnittliche Titel brauchen eine ehrliche Bewertung. Ein Buch, das nach 90 Tagen weniger als 10 Dollar pro Monat verdient, hat ein Problem, das sich nicht von selbst löst. Häufige Ursachen sind: schlechte Keyword-Ausrichtung, die Käufersuchen verfehlt, ein Cover, das in der Miniaturansicht nicht konkurrenzfähig ist, eine Preisgestaltung, die die Tantieme eliminiert, oder eine Kategorieplatzierung in einem übermäßig wettbewerbsintensiven Segment. Manchmal ist die Lösung einfach — Keywords aktualisieren oder eine Kategorieänderung beantragen. In anderen Fällen hat das Inhaltsformat selbst nicht genügend Nachfrage, und Ihr Aufwand ist besser in neuen Titeln in bewährten Kategorien investiert.\n\nÜberprüfen Sie Ihre Katalogleistung monatlich. Verfolgen Sie Monat-für-Monat-Trends für jeden Titel und für Ihren Gesamtkatalog-Umsatz. Gesunde Kataloge zeigen allmählich steigende Trends, da neue Titel beitragen und bestehende Titel Bewertungen und Ranking-Historie aufbauen. Wenn der Gesamtumsatz trotz Hinzufügen neuer Titel stagniert, prüfen Sie, ob Ihre neuen Bücher auf gesättigte Kategorien abzielen oder ob Ihre älteren Titel durch neue Wettbewerber Ranking verlieren.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Tantiemen vor der Seitenzahl-Festlegung berechnen',
+      heading: `Tantiemen vor der Seitenzahl-Festlegung berechnen`,
       content: `Legen Sie die Seitenzahl eines Buches niemals fest, ohne die Tantiemen-Rechnung bei Ihrem Zielpreis durchzuführen. Jede zusätzliche Seite erhöht die Druckkosten, die direkt von Ihrer Tantieme abgezogen werden. Ein 100-seitiges Buch zum Preis von 8,99 Dollar verdient eine deutlich andere Tantieme als ein 120-seitiges Buch zum selben Preis. Manchmal erhöht eine Reduzierung der Seitenzahl um 10 bis 20 Seiten — bei weiterhin exzellentem Mehrwert — Ihren Gewinn pro Verkauf genug, um insgesamt mehr Umsatz zu erzielen, selbst wenn etwas weniger Käufer das Buch wählen. Nutzen Sie den KDP-Druckkostenrechner, um Szenarien zu modellieren, bevor Sie sich auf die Produktion festlegen.`,
     },
     {
@@ -81,11 +81,11 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Erste Einnahmen in Cover-Design reinvestieren',
+      heading: `Erste Einnahmen in Cover-Design reinvestieren`,
       content: `Die einzelne beste Verwendung Ihrer ersten KDP-Einnahmen ist professionelles Cover-Design für Ihre bestehenden und zukünftigen Bücher. Cover-Qualität ist der primäre Treiber der Klickraten in den Amazon-Suchergebnissen, und ein professionell gestaltetes Cover kostet typischerweise 30 bis 75 Dollar pro Buch. Wenn Ihre frühen Titel 50 bis 100 Dollar monatlich mit selbst gestalteten Covern verdienen, kann eine Investition von 200 bis 300 Dollar in professionelle Cover für Ihre Top 4 bis 5 Titel deren Klickraten und Verkäufe genug steigern, um die Investition innerhalb von 1 bis 2 Monaten zurückzuverdienen. Mit wachsendem Katalog verstärkt der Zinseszinseffekt besserer Cover über mehr Titel diese Rendite weiter.`,
     },
     {
-      heading: 'Mehrere Preisstufen aus einem Inhaltstyp aufbauen',
+      heading: `Mehrere Preisstufen aus einem Inhaltstyp aufbauen`,
       content: `Ein einzelner Aktivitätsbuch-Typ kann gleichzeitig Einnahmen auf mehreren Preisstufen generieren, ohne Verkäufe zu kannibalisieren. Ein Standard-60-Seiten-Mathe-Arbeitsheft für 7,99 Dollar bedient den Kernmarkt. Eine Premium-150-Seiten-Version für 12,99 Dollar bedient Käufer, die maximalen Wert in einem Kauf wollen. Eine Großdruck-Version für 9,99 Dollar bedient den Barrierefreiheits-Markt. Eine thematische Feiertagsausgabe für 8,99 Dollar erfasst saisonale Käufer. Jede Version zielt auf andere Suchbegriffe und Käufermotivationen ab, sodass sie in Ihrem Katalog koexistieren statt zu konkurrieren. Dieser gestufte Ansatz vervielfacht Ihre Kataloggröße und den gesamten adressierbaren Markt aus jedem Inhaltserstellungsaufwand.`,
     },
     {
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Ein Verleger erstellt 10 Mathe-Arbeitshefte über 5 Monate, 2 pro Monat. Jedes Buch zielt auf eine bestimmte Altersgruppe und Rechenoperation ab: Klasse 1 Addition, Klasse 1 Subtraktion, Klasse 2 Addition, Klasse 2 Subtraktion, Klasse 2 Multiplikation, Klasse 3 Multiplikation, Klasse 3 Division, Klasse 3 Gemischte Rechenoperationen, ein Sommer-Mathe-Übungsbuch und ein Weihnachts-Mathe-Aktivitätsbuch. Alle Bücher verwenden Schwarzweiß-Innenteile mit 60 Seiten im 8,5-mal-11-Zoll-Format. Die Druckkosten pro Buch betragen ungefähr 1,57 Dollar. Die Bücher werden auf 8,99 Dollar bepreist, was eine Tantieme von ungefähr 3,82 Dollar pro Verkauf ergibt. Monat 1 mit 2 Titeln verdient ungefähr 40 bis 60 Dollar insgesamt. Bis Monat 5 mit allen 10 Titeln live und aktivem Katalog-Zinseszinseffekt erreicht der monatliche Umsatz 300 bis 500 Dollar. Die saisonalen Titel (Sommer-Mathe, Weihnachts-Mathe) tragen den größten Teil des Jahres Basiseinnahmen bei und steigen in ihren Spitzenzeiten auf das 3- bis 5-Fache. Nachspann-Kreuz-Promotion in jedem Buch treibt Wiederholungskäufe über den gesamten Katalog. Die gesamte Inhaltserstellung nutzte den Mathe-Arbeitsblatt- und Additions-Generator, wobei jedes Buch ungefähr 3 bis 4 Stunden Inhaltserstellung, Formatierung und Listing-Erstellung erforderte.`,
     },
     {
-      heading: 'Beispiel: Multi-Format-Rätselbuch-Portfolio',
+      heading: `Beispiel: Multi-Format-Rätselbuch-Portfolio`,
       content: `Ein Verleger baut ein Rätselbuch-Portfolio über 3 Formate in 6 Monaten auf. Die ersten 3 Monate konzentrieren sich auf Wortsuche: Wortsuche für Erwachsene Band 1 (100 Rätsel, 110 Seiten), Wortsuche für Erwachsene Band 2 (100 Rätsel, 110 Seiten) und Wortsuche für Kinder 6–10 Jahre (60 Rätsel, 70 Seiten). Alle verwenden 8,5-mal-11-Zoll-Schwarzweiß-Format. Die Erwachsenen-Bände werden auf 9,99 Dollar bepreist (Druckkosten ungefähr 2,17 Dollar, Tantieme ungefähr 3,82 Dollar pro Verkauf). Das Kinderbuch wird auf 7,99 Dollar bepreist (Druckkosten ungefähr 1,69 Dollar, Tantieme ungefähr 3,10 Dollar pro Verkauf). In den Monaten 4 bis 6 kommen ein Kreuzworträtsel-Buch für Erwachsene (75 Rätsel, 90 Seiten, 9,99 Dollar), ein Kinder-Misch-Rätselbuch (60 Rätsel, 80 Seiten, 8,99 Dollar) und eine Weihnachts-Wortsuche-Sammlung (80 Rätsel, 90 Seiten, 9,99 Dollar) hinzu. Bis Monat 6 verdient der 6-Titel-Katalog 250 bis 450 Dollar monatlich von KDP, wobei der Weihnachtstitel in Q4 hochschnellt. Der Verleger listet gleichzeitig digitale PDF-Versionen seines Wortsuch-Inhalts auf Etsy als druckbare Pakete für 3,99 bis 5,99 Dollar und erzielt zusätzlich 50 bis 100 Dollar monatliche Digitalverkäufe. Die Inhaltserstellung nutzte den Wortsuche-Generator (primär), Kreuzworträtsel-Generator, Sudoku-Generator und Mathe-Rätsel-Generator für das Mischbuch.`,
     },
   ],
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'mathe-aktivitaetsbuecher-kdp',
-      title: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen',
+      title: `Mathe-Aktivitätsbücher für Amazon KDP erstellen`,
       description: `Der vollständige Leitfaden zur Erstellung von Mathe-Aktivitätsbüchern für KDP. Deckt Inhaltserstellung, Formatierung und KDP-Grundlagen ab, die die Umsatzstrategien in diesem Leitfaden ergänzen.`,
     },
     {
-      slug: 'beste-kdp-aktivitaetsbuch-nischen',
-      title: 'Beste KDP-Aktivitätsbuch-Nischen',
+      slug: `beste-kdp-aktivitaetsbuch-nischen`,
+      title: `Beste KDP-Aktivitätsbuch-Nischen`,
       description: `Entdecken Sie, welche Aktivitätsbuch-Nischen das beste Verhältnis von Nachfrage zu Wettbewerb auf KDP haben. Wichtige Lektüre für die Entscheidung, worauf Sie Ihre Katalogstrategie konzentrieren.`,
     },
     {
-      slug: 'etsy-arbeitsblatt-pakete-erstellen',
-      title: 'Etsy-Arbeitsblatt-Pakete erstellen',
+      slug: `etsy-arbeitsblatt-pakete-erstellen`,
+      title: `Etsy-Arbeitsblatt-Pakete erstellen`,
       description: `Erfahren Sie, wie Sie Ihren Aktivitätsbuch-Inhalt als digitale Download-Pakete für Etsy verpacken und einen zweiten Einnahmestrom aus Ihren bestehenden Inhalten schaffen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'raetselbuecher-veroeffentlichen-kdp', anchorText: 'Rätselbücher auf Amazon KDP veröffentlichen' },
-    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: 'Wortsuchbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'kdp-formatierung-arbeitsblaetter', anchorText: `KDP-Formatierungsleitfaden für Arbeitsblatt-Bücher` },
-    { pageType: 'guide', slug: 'beste-kdp-aktivitaetsbuch-nischen', anchorText: 'Beste KDP-Aktivitätsbuch-Nischen' },
-    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: 'Sudoku-Bücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'etsy-arbeitsblatt-pakete-erstellen', anchorText: 'Etsy-Arbeitsblatt-Pakete erstellen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Arbeitsblatt-Generator — Alle Details' },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `raetselbuecher-veroeffentlichen-kdp`, anchorText: `Rätselbücher auf Amazon KDP veröffentlichen` },
+    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: `Wortsuchbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `kdp-formatierung-arbeitsblaetter`, anchorText: `KDP-Formatierungsleitfaden für Arbeitsblatt-Bücher` },
+    { pageType: 'guide', slug: `beste-kdp-aktivitaetsbuch-nischen`, anchorText: `Beste KDP-Aktivitätsbuch-Nischen` },
+    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: `Sudoku-Bücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: `etsy-arbeitsblatt-pakete-erstellen`, anchorText: `Etsy-Arbeitsblatt-Pakete erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Arbeitsblatt-Generator — Alle Details` },
   ],
 
   toolsRecommended: [
@@ -176,7 +176,7 @@ const content: GuideContent = {
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Generiert thematische Wortsuchrätsel-Gitter für KDP-Rätselbücher. Wortsuche ist die einzelne größte Rätselbuch-Kategorie auf Amazon und damit unverzichtbar für jede Aktivitätsbuch-Katalogstrategie.`,
     },
     {
@@ -191,28 +191,28 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Produziert fokussierte Einzel-Operations-Mathe-Arbeitsblätter für klassenspezifische KDP-Arbeitshefte. Altersgruppen-spezifische Additionsbücher bedienen eine präzise Käufersuche und bilden natürlich eine Mehrstufen-Katalogserie.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: `Sudoku-Rätsel-Arbeitsblatt als Beispiel für KDP-Aktivitätsbuch-Inhalte zur Umsatzgenerierung` },
+    heroImage: { src: `/samples/german/sudoku/sudoku_worksheet.webp`, alt: `Sudoku-Rätsel-Arbeitsblatt als Beispiel für KDP-Aktivitätsbuch-Inhalte zur Umsatzgenerierung` },
     samples: [
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: `Sudoku-Rätsel formatiert für KDP-Aktivitätsbuch-Innenseiten`, caption: 'Sudoku-Rätsel — eine durchgehend profitable Aktivitätsbuch-Kategorie auf Amazon KDP mit treuen Wiederholungskäufern' },
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: `Mathe-Arbeitsblatt formatiert für KDP-Arbeitsheft-Innenseiten`, caption: 'Mathe-Arbeitshefte — stark nachgefragte KDP-Kategorie mit natürlichen Altersgruppen-Erweiterungsmöglichkeiten' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuchrätsel für KDP-Rätselbuch-Katalog-Diversifizierung`, caption: 'Wortsuchbücher — die größte Rätselbuch-Kategorie auf Amazon mit starkem Potenzial für Mehrbänder-Serieneinnahmen' },
+      { src: `/samples/german/sudoku/sudoku_worksheet.webp`, alt: `Sudoku-Rätsel formatiert für KDP-Aktivitätsbuch-Innenseiten`, caption: `Sudoku-Rätsel — eine durchgehend profitable Aktivitätsbuch-Kategorie auf Amazon KDP mit treuen Wiederholungskäufern` },
+      { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Mathe-Arbeitsblatt formatiert für KDP-Arbeitsheft-Innenseiten`, caption: `Mathe-Arbeitshefte — stark nachgefragte KDP-Kategorie mit natürlichen Altersgruppen-Erweiterungsmöglichkeiten` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuchrätsel für KDP-Rätselbuch-Katalog-Diversifizierung`, caption: `Wortsuchbücher — die größte Rätselbuch-Kategorie auf Amazon mit starkem Potenzial für Mehrbänder-Serieneinnahmen` },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: `Wie Sie Sudoku-Aktivitätsbücher für Amazon KDP erstellen — Tutorial zur Umsatzsteigerung`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Ameise — thematisches Lernbild`, caption: 'Ameise' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
   ],
 };
 

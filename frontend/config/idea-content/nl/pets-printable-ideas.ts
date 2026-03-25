@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Huisdieren Printables Verkopen — Nichegids',
+    titleTag: `Huisdieren Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende huisdieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Honden, katten en kleine huisdieren productconcepten voor.`,
 
     primaryKeyword: 'huisdieren printable ideeën',
     secondaryKeywords: [
-      'huisdierenthema werkbladen verkopen',
+      `huisdierenthema werkbladen verkopen`,
       'huisdieren printable business',
-      'huisdier activiteiten voor verkopers',
-      'huisdieren printables verkopen op Etsy',
+      `huisdier activiteiten voor verkopers`,
+      `huisdieren printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'educatieve werkbladen huisdieren',
-      'katten en honden thema activiteiten',
-      'dierenverzorging printbare producten printables',
+      `educatieve werkbladen huisdieren`,
+      `katten en honden thema activiteiten`,
+      `dierenverzorging printbare producten printables`,
     ],
   },
   hero: {
@@ -40,7 +40,7 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
 
   productIdeas: [
     {
-      title: 'Huisdieren Telwerkbladen voor Verkopers',
+      title: `Huisdieren Telwerkbladen voor Verkopers`,
       description: `Telwerkbladen met honden, katten, vissen en hamsters spelen in op een van de sterkste vraaggebieden voor huisdieren printables. Maak sets waarin kinderen huisdieren tellen in geïllustreerde scènes op progressieve moeilijkheidsniveaus: tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en groepstellen met meerdere huisdiersoorten voor kinderen in groep 3. De Zoek en Tel-generator produceert boeiende scènes waarin kinderen specifieke huisdieren lokaliseren en tellen. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid huisdieren-telpakket dat verkopers kunnen gebruiken in productlijnen met gemengde vaardigheidsniveaus. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
@@ -51,7 +51,7 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
     },
     {
       title: `Huisdieren Koppelactiviteiten voor Printable Winkels`,
-      description: `Koppelwerkbladen met huisdierenthema's werken in meerdere vaardigheidsgebieden en trekken consistente kopersbelangstelling aan. Maak sets waarin kinderen huisdieren koppelen aan hun voedsel, huisdieren aan hun verblijven zoals aquariums, kooien en mandjes, huisdieren aan verzorgingsartikelen zoals borstels, bakjes en speelgoed, of volwassen dieren aan hun jongen. De Koppelen-generator produceert schone, professionele lay-outs die goed printen op standaard papierformaten. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die boeiend leermateriaal met huisdierenthema willen. Sets van acht tot twaalf koppelpagina's bundelen goed in de prijsklasse van vijf tot acht euro op zowel Etsy als Gumroad.`,
+      description: `Koppelwerkbladen met huisdierenthema`s werken in meerdere vaardigheidsgebieden en trekken consistente kopersbelangstelling aan. Maak sets waarin kinderen huisdieren koppelen aan hun voedsel, huisdieren aan hun verblijven zoals aquariums, kooien en mandjes, huisdieren aan verzorgingsartikelen zoals borstels, bakjes en speelgoed, of volwassen dieren aan hun jongen. De Koppelen-generator produceert schone, professionele lay-outs die goed printen op standaard papierformaten. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die boeiend leermateriaal met huisdierenthema willen. Sets van acht tot twaalf koppelpagina`s bundelen goed in de prijsklasse van vijf tot acht euro op zowel Etsy als Gumroad.`,
       appId: 'matching',
     },
     {
@@ -60,7 +60,7 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
       appId: 'addition',
     },
     {
-      title: 'Huisdieren Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Huisdieren Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten met huisdieren zijn een ideaal instapproduct voor het opbouwen van een printable-winkel met huisdierenthema omdat ze impulsaankopen aantrekken en snel eerste beoordelingen genereren. De Kleuren-generator maakt gedetailleerde contouren van honden, katten, konijnen, hamsters, vissen in aquariums en vogels in kooien. Voor Etsy verkoop je individuele pagina's of samengestelde sets van tien tot vijftien met verschillende huisdiersoorten. Voor KDP compileer je dertig tot vijftig kleurplaten in activiteitenboeken georganiseerd per diertype. Voeg huisdiernamen, raslabels of eenvoudige verzorgingsweetjes toe naast elke afbeelding om je te onderscheiden van simpele kleurplaten en hogere prijzen te rechtvaardigen.`,
       appId: 'coloring',
     },
@@ -70,8 +70,8 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
       appId: 'bingo',
     },
     {
-      title: 'Huisdieren Schaduwkoppelwerkbladen Verkopen',
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die cruciaal zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen huisdieren koppelen aan hun silhouetten. De variatie aan huisdiervormen van langoorige konijnen tot krulstaarthonden biedt een natuurlijke moeilijkheidsprogressie. Deze werkbladen printen schoon in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent in de prijsklasse van drie tot vijf euro op alle platforms.`,
+      title: `Huisdieren Schaduwkoppelwerkbladen Verkopen`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die cruciaal zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen huisdieren koppelen aan hun silhouetten. De variatie aan huisdiervormen van langoorige konijnen tot krulstaarthonden biedt een natuurlijke moeilijkheidsprogressie. Deze werkbladen printen schoon in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die vaak in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent in de prijsklasse van drie tot vijf euro op alle platforms.`,
       appId: 'shadow-match',
     },
     {
@@ -94,12 +94,12 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Huisdierenthema Printables Verkopen op Etsy',
+      title: `Huisdierenthema Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in huisdieren printable-vermeldingen, dus richt je op long-tail zoekwoorden in plaats van brede termen. In plaats van "huisdieren werkbladen" optimaliseer je voor zoekopdrachten zoals "honden telwerkblad kleuters" of "katten kleurplaten peuters printable." Gebruik alle dertien tags met variaties die huisdiersoort, vaardigheidstype en leeftijdsgroep combineren. Mockup-afbeeldingen die geprinte werkbladen tonen naast huisdierspeelgoed, knuffeldieren of in gezinssettings presteren aanzienlijk beter dan platte digitale voorbeelden. Rasspecifieke producten zoals "golden retriever kleurplaten" of "cyperse kat telwerkbladen" trekken toegewijde huisdierenliefhebbers aan die op ras zoeken. Plan nieuwe vermeldingen rond Dierendag in oktober en het terug-naar-schoolseizoen. De Nederlandse markt via Etsy.nl biedt extra kansen door het beperkte aanbod van Nederlandstalige huisdierenwerkbladen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Huisdieren Activiteitenboeken Publiceren op KDP',
+      title: `Huisdieren Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP werkt het beste voor huisdieren printables wanneer je individuele werkbladen compileert tot thematische activiteitenboeken. Een activiteitenboek met huisdieren van veertig tot zestig pagina's dat tel-, kleur-, koppel- en overtrekactiviteiten combineert, presteert goed in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch: voeg "huisdieren activiteitenboek voor kinderen," "honden en katten werkbladen" en leeftijdsspecifieke termen toe als "kleuter huisdierenboek." Overweeg soortspecifieke boeken te maken zoals "Alles over Honden Activiteitenboek" naast algemene huisdierencompilaties om zowel brede als nichezoekopdrachten vast te leggen. Prijs tussen vier en zeven euro voor optimale royaltytarieven en bestel altijd een proefexemplaar voordat je publiceert. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
@@ -149,62 +149,62 @@ De huisdierenniche biedt uitzonderlijke bundel- en cross-sellingmogelijkheden om
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'safari-animals-printable-ideas',
-      anchorText: 'Safaridieren printable businessideeën',
+      slug: `safari-animals-printable-ideas`,
+      anchorText: `Safaridieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'Boerderijdieren printable businessideeën',
+      anchorText: `Boerderijdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Kat — educatieve thema-afbeelding huisdieren', caption: 'Kat' },
-    { src: '/image-library/pets/chinchilla.webp', alt: `Chinchilla — educatieve thema-afbeelding huisdieren`, caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: `Valkparkiet — educatieve thema-afbeelding huisdieren`, caption: 'Valkparkiet' },
-    { src: '/image-library/pets/dog.webp', alt: 'Hond — educatieve thema-afbeelding huisdieren', caption: 'Hond' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Fret — educatieve thema-afbeelding huisdieren', caption: 'Fret' },
-    { src: '/image-library/pets/finch.webp', alt: 'Vink — educatieve thema-afbeelding huisdieren', caption: 'Vink' },
+    { src: '/image-library/pets/cat.webp', alt: `Kat — educatieve thema-afbeelding huisdieren`, caption: 'Kat' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — educatieve thema-afbeelding huisdieren`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Valkparkiet — educatieve thema-afbeelding huisdieren`, caption: 'Valkparkiet' },
+    { src: '/image-library/pets/dog.webp', alt: `Hond — educatieve thema-afbeelding huisdieren`, caption: 'Hond' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Fret — educatieve thema-afbeelding huisdieren`, caption: 'Fret' },
+    { src: `/image-library/pets/finch.webp`, alt: `Vink — educatieve thema-afbeelding huisdieren`, caption: 'Vink' },
   ],
 
   youtubeId: '0cOPi7eajLs',

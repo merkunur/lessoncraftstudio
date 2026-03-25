@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'prepositions worksheet generator',
+    primaryKeyword: `prepositions worksheet generator`,
     secondaryKeywords: [
-      'prepositions worksheet maker for sellers',
-      'create prepositions worksheets to sell',
+      `prepositions worksheet maker for sellers`,
+      `create prepositions worksheets to sell`,
       `printable spatial prepositions worksheets commercial use`,
-      'prepositions generator for KDP',
+      `prepositions generator for KDP`,
     ],
     lsiKeywords: [
-      'spatial preposition printables for Etsy',
+      `spatial preposition printables for Etsy`,
       'position words worksheet tool',
-      'multilingual prepositions activity generator',
+      `multilingual prepositions activity generator`,
     ],
     titleTag: `Prepositions Worksheet Generator | Sell Printables`,
     metaDescription: `Generate preposition worksheets with fill-in-the-blank and multiple choice modes, shape replacement, 104 themes, 11 languages. Try free — license available.`,
   },
 
   hero: {
-    title: 'Prepositions Worksheet Generator',
+    title: `Prepositions Worksheet Generator`,
     tagline: `Create spatial preposition worksheets with two exercise modes in 11 languages`,
     description: `Build position-word exercises that engage solvers through image-based scenes. This tool generates prepositions worksheets where learners identify spatial relationships — on, under, above, beside, between, inside, outside — by studying image scenes and filling in or selecting the correct preposition. Choose between two exercise modes: Fill-in-the-Blank, where solvers write the correct preposition themselves, or Multiple Choice, where they pick from a set of options with a customizable instruction line. Set 1–8 exercises per worksheet and select exactly which prepositions to include using the checkbox grid. The tool's standout feature is Shape Replacement — a separate image layer lets you swap scene shapes independently, creating far more visual combinations than a single image set could offer. Language sensitivity is built in: switch from English to any of the 11 supported languages and every preposition word updates to its native equivalent. German uses „auf, unter, über, neben, zwischen, drinnen, draußen"; French uses «sur, sous, au-dessus, à côté, entre, dedans, dehors». One worksheet design becomes 11 unique language products. Browse 3,100+ images across 104 themes, upload your own PNG or JPEG for branded designs, and choose from multiple templates and 7 font families. Export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.`,
   },
@@ -28,11 +28,11 @@ const content: ToolContent = {
     title: `How to Create Prepositions Worksheets in 8 Easy Steps`,
     steps: [
       {
-        title: 'Open the Prepositions Worksheet Maker',
+        title: `Open the Prepositions Worksheet Maker`,
         description: `Click "Try Free Now" to launch the generator. The tool opens instantly in your browser with a settings sidebar on the left and a live preview canvas on the right. No account, download, or installation required.`,
       },
       {
-        title: 'Set the Page Layout and Template',
+        title: `Set the Page Layout and Template`,
         description: `In the "Page Setup" section, select your page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or enter a custom size. Choose a worksheet template from the template selector — each template arranges exercises differently on the page. Set your page color, add a themed background with adjustable opacity, and pick a decorative border.`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Shape Replacement is unique to the prepositions tool. It adds a separate image layer for scene shapes — the objects that define the spatial context (a box, a table, a shelf). Choose shapes via Manual Selection from a theme or load All Themes. Combining different main images with different shapes multiplies the visual variety of your worksheets without needing more source images.`,
       },
       {
-        title: 'Customize Text, Fonts, and Layout',
+        title: `Customize Text, Fonts, and Layout`,
         description: `Set the exercise count from 1 to 8 exercises per page. Choose from 7 font families: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, or Verdana. Toggle Name and Date fields on or off. Use the Fabric.js canvas tools to reposition, align, lock, or unlock individual elements. The undo/redo buttons let you experiment safely.`,
       },
       {
@@ -72,15 +72,15 @@ const content: ToolContent = {
       description: `Generate 50–100 preposition pages with progressive structure: Multiple Choice exercises in the opening chapter for warm-up, then Fill-in-the-Blank for the main section. Export as high-resolution PDFs and publish as a low-content activity workbook on Amazon KDP. Use grayscale mode for lower printing costs. The visual scene format photographs well for listing images because each page looks like a puzzle, not a drill.`,
     },
     {
-      title: 'Differentiated Exercise Mode Sets',
+      title: `Differentiated Exercise Mode Sets`,
       description: `Generate two versions of each themed worksheet: Multiple Choice for younger or struggling learners, and Fill-in-the-Blank for those ready for independent recall. Sell both versions as a differentiated pack at a premium price point on Etsy or Gumroad.`,
     },
     {
-      title: 'Multilingual Preposition Products',
+      title: `Multilingual Preposition Products`,
       description: `Switch the language setting and regenerate the same worksheet template in all 11 supported languages. Every preposition word updates to its native equivalent — "on" becomes "auf" in German, "sur" in French, "sobre" in Spanish. One design session produces 11 distinct products, each ready to list on its local marketplace. Language-specific preposition worksheets are dramatically underserved outside English.`,
     },
     {
-      title: 'Custom-Image Branded Worksheets',
+      title: `Custom-Image Branded Worksheets`,
       description: `Upload your own illustrations, mascots, or licensed artwork to create preposition worksheets no other seller can replicate. Combine custom main images with custom shape replacements for a fully branded visual identity. Homeschool content creators can use familiar objects, and Etsy sellers can build a distinctive store aesthetic across their entire product line.`,
     },
     {
@@ -91,12 +91,12 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Multilingual Prepositions Shop on Etsy',
+      title: `Multilingual Prepositions Shop on Etsy`,
       description: `Open an Etsy shop specializing in spatial preposition worksheets across all 11 supported languages. Most preposition printable sellers only serve English — you can list identical worksheet designs on Etsy Germany, France, Spain, Italy, Sweden, and more. Each language version uses native preposition words and language-correct grammar. One afternoon of design work produces 11 listings, each targeting a different buyer market with minimal competition. Use the free trial to test your designs and workflow before purchasing a commercial license, so you can launch with confidence knowing your product quality meets marketplace standards.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Spatial Language Workbooks',
+      title: `Amazon KDP Spatial Language Workbooks`,
       description: `Compile 60+ preposition pages into a physical activity book for Amazon KDP. Structure chapters by preposition: "on" exercises first, then "under," then mixed prepositions for the challenge section. Include both exercise modes so the book offers variety. Use grayscale mode for lower printing costs. Publish separate editions for each language to multiply your catalog with genuinely different products.`,
       platform: 'Amazon KDP',
     },
@@ -106,17 +106,17 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Gumroad Dual-Mode Preposition Kits',
+      title: `Gumroad Dual-Mode Preposition Kits`,
       description: `Create premium preposition kits on Gumroad that include both Fill-in-the-Blank and Multiple Choice versions of every worksheet, plus answer keys and a usage guide. Bundle 5–11 language versions into a single multilingual product. Target ESL buyers, bilingual families, and international homeschool markets who need spatial language materials across multiple languages.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Preposition Scene Funnel',
+      title: `Pinterest Preposition Scene Funnel`,
       description: `The colorful image-scene format makes eye-catching pins — a cat sitting ON a box or a ball UNDER a table is instantly recognizable and scroll-stopping. Pin a free 3-page sampler with both exercise modes, collect email addresses, then upsell your full themed and multilingual bundles. Scene-based preposition images get significantly more saves than plain text grammar worksheets.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Shape Replacement Variety Packs on Etsy',
+      title: `Shape Replacement Variety Packs on Etsy`,
       description: `Leverage the Shape Replacement feature to create massive variety packs. Combine 10 main images with 10 different shapes to produce 100 unique exercise scenes from just 20 source images. Sell these as "100-Page Preposition Mega Packs" on Etsy — the sheer volume justifies a premium price, and the visual variety keeps solvers engaged across the entire workbook.`,
       platform: 'Etsy',
     },
@@ -124,31 +124,31 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Use Fill-in-the-Blank for Advanced Products',
+      title: `Use Fill-in-the-Blank for Advanced Products`,
       description: `Fill-in-the-Blank mode requires active recall — solvers must produce the correct preposition from memory, not just recognize it. This suits the K-2 product market and ESL learners who already know the position words but need writing practice. It also makes worksheets harder to guess, increasing perceived value. On Etsy and Gumroad, listings that emphasize recall-based learning consistently attract buyers looking for rigorous spatial language practice rather than simple recognition drills, so highlighting this mode in your product descriptions can boost conversions.`,
     },
     {
-      title: 'Use Multiple Choice for Beginners',
+      title: `Use Multiple Choice for Beginners`,
       description: `Multiple Choice mode gives younger learners or early ESL users a scaffolded experience. They see the correct answer among options, reducing frustration. Customize the instruction text to match your product style. Start with 3–4 exercises per page to avoid overwhelming new learners. This scaffolded format is especially popular with parents buying printables for home use, making it a strong seller on Etsy where family-oriented educational materials consistently rank well in search results.`,
     },
     {
-      title: 'Go Multilingual for 11x Product Range',
+      title: `Go Multilingual for 11x Product Range`,
       description: `Every prepositions worksheet you design can become 11 products by switching the language. Preposition words update automatically: "on" becomes "auf" (German), "sur" (French), "sobre" (Spanish), "på" (Swedish). Language-specific preposition worksheets are a dramatically underserved niche outside English.`,
     },
     {
-      title: 'Bundle Both Modes in One Product',
+      title: `Bundle Both Modes in One Product`,
       description: `Combine Fill-in-the-Blank and Multiple Choice worksheets into a single bundle. Buyers love differentiated packs covering multiple levels. A "Complete Prepositions Pack" with both modes, answer keys, and a usage guide commands a higher price than either mode sold separately. Dual-mode bundles also reduce refund requests because buyers feel they are getting comprehensive coverage, and the included answer keys add perceived value — a selling point worth emphasizing in your listing copy.`,
     },
     {
-      title: 'Use Grayscale for KDP and Bulk Printing',
+      title: `Use Grayscale for KDP and Bulk Printing`,
       description: `Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white scenes cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images attract clicks. Many experienced KDP sellers publish both a color digital edition and a grayscale print edition of the same workbook, effectively doubling their catalog from a single design session without creating any new content.`,
     },
     {
-      title: 'Upload Custom Images for Branding',
+      title: `Upload Custom Images for Branding`,
       description: `Upload your own illustrations or licensed artwork to create preposition worksheets no competitor can replicate. Custom images combined with custom shape replacements give you a fully unique visual identity across your Etsy shop that builds brand recognition with returning customers.`,
     },
     {
-      title: 'Pair with Other Literacy Tools',
+      title: `Pair with Other Literacy Tools`,
       description: `Combine preposition worksheets with word search puzzles, handwriting practice, matching worksheets, and alphabet activities to create comprehensive language bundles. A "Complete Spatial Language" pack with multiple activity types sells for more than any single worksheet format alone.`,
     },
   ],
@@ -159,11 +159,11 @@ const content: ToolContent = {
       answer: `Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.`,
     },
     {
-      question: 'How do the two exercise modes work?',
+      question: `How do the two exercise modes work?`,
       answer: `Fill-in-the-Blank mode shows an image scene with a blank line where solvers write the correct preposition (on, under, above, etc.). Multiple Choice mode presents the same scene but with selectable options to pick the right answer. You can customize the instruction text in Multiple Choice mode to match your product style.`,
     },
     {
-      question: 'How does preposition selection work?',
+      question: `How does preposition selection work?`,
       answer: `The tool displays a checkbox grid with all available prepositions for the selected language. Check the ones you want to include: on, under, above, beside, between, inside, outside. You can select all for comprehensive practice or focus on a specific subset for targeted lessons.`,
     },
     {
@@ -171,15 +171,15 @@ const content: ToolContent = {
       answer: `Shape Replacement is a feature unique to the prepositions tool. It adds a separate image layer for scene shapes — the objects that create spatial context (a box, a table, a shelf). You can swap shapes independently from main images, multiplying the number of unique exercise scenes you can generate from the same image set. For sellers, this means you can produce high-volume variety packs without needing hundreds of source images — ten main images combined with ten shapes yield one hundred distinct scenes.`,
     },
     {
-      question: 'How does the language sensitivity work?',
+      question: `How does the language sensitivity work?`,
       answer: `When you switch languages, every preposition word on the worksheet updates to its native equivalent. English "on, under, above" becomes German "auf, unter, über," French "sur, sous, au-dessus," Spanish "sobre, debajo, encima," and so on across all 11 supported languages. The exercise format stays identical — only the position words change.`,
     },
     {
-      question: 'Which languages are supported?',
+      question: `Which languages are supported?`,
       answer: `The tool supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Each language uses its correct native preposition words. Switch languages to create the same worksheet design with different position words for each market.`,
     },
     {
-      question: 'How many exercises can I put on one page?',
+      question: `How many exercises can I put on one page?`,
       answer: `You can set 1 to 8 exercises per worksheet. Fewer exercises per page give each scene more visual space, which works well for the early-learner niche. More exercises per page create denser worksheets suitable for older learners or timed practice. The layout adapts automatically to the exercise count and page size. Sellers often create two versions of the same pack — a spacious 3-exercise layout for younger age groups and a compact 6-exercise layout for older learners — then bundle both versions together at a premium price point.`,
     },
     {
@@ -187,11 +187,11 @@ const content: ToolContent = {
       answer: `Yes. Click the "Upload Image" button to use your own PNG or JPEG files for both main images and shape replacements. Custom images let you create branded worksheets with your own illustrations or licensed artwork that no other seller can replicate.`,
     },
     {
-      question: 'Can I use the worksheets for commercial purposes?',
+      question: `Can I use the worksheets for commercial purposes?`,
       answer: `The free trial with watermark is for personal use only. To sell worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.`,
     },
     {
-      question: 'What file formats can I download?',
+      question: `What file formats can I download?`,
       answer: `You can download worksheets as high-resolution JPEG images or print-optimized PDF files. Both the worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing and KDP upload; JPEGs work great for product mockups and social media posts.`,
     },
     {
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositions Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: `Prepositions Worksheets — Full Product Details` },
     { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
     { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
     { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },

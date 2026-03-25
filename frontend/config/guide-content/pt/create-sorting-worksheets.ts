@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fichas de classificação por categorias',
+    primaryKeyword: `fichas de classificação por categorias`,
     secondaryKeywords: [
-      'criar fichas de classificação para crianças',
-      'gerador de fichas de classificação de imagens',
-      'fichas imprimíveis de classificação para vender',
-      'fichas de classificação em duas categorias',
+      `criar fichas de classificação para crianças`,
+      `gerador de fichas de classificação de imagens`,
+      `fichas imprimíveis de classificação para vender`,
+      `fichas de classificação em duas categorias`,
     ],
     lsiKeywords: [
-      'fichas de recortar e classificar para pré-escolar',
-      'gerador de atividades de classificação de imagens',
-      'fichas de classificação com chave de respostas',
-      'vender fichas de classificação no Etsy',
-      'Amazon KDP cadernos de classificação',
-      'ferramenta de classificação com licença comercial',
+      `fichas de recortar e classificar para pré-escolar`,
+      `gerador de atividades de classificação de imagens`,
+      `fichas de classificação com chave de respostas`,
+      `vender fichas de classificação no Etsy`,
+      `Amazon KDP cadernos de classificação`,
+      `ferramenta de classificação com licença comercial`,
     ],
-    titleTag: 'Fichas de classificação por categorias — Guia',
+    titleTag: `Fichas de classificação por categorias — Guia`,
     metaDescription: `Crie fichas de classificação com modo de temas em duas categorias, 4–12 imagens, grelhas de recortáveis misturados e chaves de respostas automáticas. Guia.`,
   },
 
   hero: {
-    title: 'Como criar fichas de classificação por categorias',
+    title: `Como criar fichas de classificação por categorias`,
     tagline: `Um tutorial passo a passo para criar fichas de recortar e classificar em duas categorias com modos de seleção por tema e manual, chaves de respostas autogeradas e suporte multilingue que pode vender no Etsy, Amazon KDP e Gumroad`,
     description: `A classificação por categorias é uma das primeiras competências cognitivas que as crianças desenvolvem, e as fichas de classificação mantêm uma procura elevada em todos os marketplaces educativos. Os pais precisam delas para a aprendizagem prática em casa. Os vendedores precisam delas para atividades de classificação e cantinhos de aprendizagem. Os centros de explicações utilizam-nas para a prática de categorização visual. Este guia acompanha-o em todo o processo de criação usando o Gerador de fichas de classificação de imagens — desde escolher o seu modo de seleção e configurar a quantidade de imagens até gerar grelhas de recortáveis misturados com chaves de respostas automáticas. Quer esteja a criar o seu primeiro produto de classificação ou a expandir um catálogo existente de fichas de classificação, terá um produto terminado pronto para publicar no final deste tutorial.`,
   },
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `O painel de Biblioteca de imagens dá-lhe acesso a cento e quatro coleções temáticas com mais de três mil e cem ilustrações. As categorias abrangem animais, comida, veículos, natureza, festividades, profissões, desportos e dezenas mais.\n\nNo modo de tema, selecionar um tema para cada categoria é tudo o que precisa — a aplicação trata da seleção de imagens automaticamente. Navegue pelos temas usando o menu suspenso ou pesquise por palavra-chave para encontrar o emparelhamento correto.\n\nNo modo manual, navegue ou pesquise imagens individuais e clique para as adicionar à sua ficha. Ao selecionar cada imagem, atribua-a à categoria esquerda ou direita. É aqui que o modo manual brilha: pode misturar imagens de diferentes temas para criar atividades de classificação entre categorias que seriam impossíveis no modo de tema.\n\nTambém pode carregar imagens personalizadas em formato PNG, JPG ou GIF para criar fichas de classificação personalizadas. Os carregamentos personalizados funcionam no modo manual, onde atribui cada imagem carregada a uma categoria. Isto é valioso para criar fichas de classificação com fotografias da loja, ilustrações específicas da sua marca ou arte personalizada que nenhum concorrente pode replicar.\n\nA biblioteca de imagens é sensível ao idioma. As etiquetas de categoria usam nomes de imagens localizados, por isso mudar o idioma da aplicação muda o texto na sua ficha. Uma imagem de gato aparece como «Cat» em inglês, «Katze» em alemão e «Chat» em francês. Isto torna a criação de produtos multilingues sem esforço.`,
     },
     {
-      heading: 'Configure o esquema de página e as decorações',
+      heading: `Configure o esquema de página e as decorações`,
       content: `Na secção de Configuração de página, selecione o seu tamanho de página. As opções incluem Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Quadrado (mil e duzentos por mil e duzentos píxeis) e dimensões personalizadas. Carta é o padrão para compradores norte-americanos. A4 é o padrão para mercados europeus e internacionais. Criar ambas as versões duplica o seu alcance no mercado com um esforço adicional mínimo.\n\nOs temas de fundo e moldura funcionam de forma independente, cada um com o seu próprio controlo deslizante de opacidade que vai de zero a um em incrementos de zero vírgula zero cinco. Aplique um padrão de fundo subtil a quinze ou vinte e cinco por cento de opacidade para calor visual sem distrair do conteúdo de classificação. Sobreponha uma moldura decorativa a oitenta ou cem por cento de opacidade para um enquadramento polido. As combinações consistentes de fundo e moldura em todo um pacote criam um aspeto de produto coeso que os compradores associam com qualidade.\n\nMarque a caixa «Incluir campos de nome/data» para adicionar linhas de nome e data do usuário à ficha. Os vendedores preferem firmemente as fichas com estes campos para a gestão da loja. Inclua-os sempre em produtos dirigidos ao uso online.\n\nPersonalize o texto com sete opções de fonte incluindo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Adicione um contorno de texto de zero a dez para estilização adicional. Estas opções permitem-lhe adicionar títulos, instruções ou marca personalizada às suas fichas de classificação.`,
     },
     {
@@ -55,26 +55,26 @@ const content: GuideContent = {
       content: `Clique em Gerar para criar o esquema de classificação em duas partes. O gerador organiza o seu conteúdo em duas secções distintas.\n\nNa parte superior, dois quadros de categoria com moldura tracejada lado a lado servem como destinos de classificação. Cada quadro tem um preenchimento de fundo claro e uma etiqueta de categoria que identifica o que pertence lá dentro. Os usuários colocarão as suas imagens recortadas no quadro correto durante a atividade de classificação.\n\nAbaixo dos quadros de categoria, uma grelha de recortáveis misturados mostra todas as imagens selecionadas em ordem aleatória. As imagens aparecem em células brancas com molduras tracejadas e cantos arredondados, organizadas em três a quatro colunas conforme a quantidade total de imagens. Cada imagem ocupa oitenta e cinco por cento da sua célula, deixando margens visíveis para recortar. A mistura assegura que os usuários devam classificar ativamente cada imagem em vez de copiar um padrão posicional.\n\nUm cabeçalho estilizado é renderizado automaticamente no topo da página com um fundo verde menta, título em azul-petróleo com fonte Fredoka Bold e descrição em laranja com fonte Quicksand. O texto do cabeçalho é traduzido automaticamente para os onze idiomas suportados.\n\nUma moldura exterior em azul-petróleo enquadra toda a página, dando à ficha uma aparência polida e profissional. Examine a pré-visualização com cuidado: verifique que as imagens são claramente visíveis na grelha de recortáveis, que as etiquetas de categoria são legíveis e que o esquema geral parece equilibrado. Se algo precisar de ajuste, modifique a sua configuração e regenere instantaneamente.`,
     },
     {
-      heading: 'Reveja a chave de respostas autogerada',
+      heading: `Reveja a chave de respostas autogerada`,
       content: `Clique no separador de Chave de respostas para ver a solução autogerada. A chave de respostas mostra duas caixas de categoria, uma por categoria e de largura igual, com as imagens classificadas no seu grupo correto. As imagens na chave de respostas são renderizadas a seis vezes o tamanho das células da grelha de recortáveis, tornando-as grandes e fáceis de ler para uma verificação rápida.\n\nCada caixa de categoria usa um máximo de duas colunas com um preenchimento claro, traço tracejado e raio de moldura arredondado. O esquema torna imediatamente claro que imagens pertencem a cada categoria. Alterne entre os separadores de Ficha e Chave de respostas para comparar e verificar que a solução de classificação coincide com a sua intenção.\n\nA chave de respostas é gerada simultaneamente com a ficha — sem passo de criação manual, sem processo de design separado, sem possibilidade de respostas que não coincidam. Esta geração simultânea poupa um tempo significativo. Criar chaves de respostas manualmente para fichas de classificação é tedioso e propenso a erros, especialmente para pacotes grandes. A chave de respostas autogerada elimina este passo por completo.\n\nPara os anúncios de produtos, a chave de respostas é um argumento de venda. Os produtos que incluem chaves de respostas superam consistentemente em vendas os anúncios de apenas fichas porque os vendedores e pais querem materiais de autoavaliação. Mencione sempre «inclui chave de respostas» nos títulos e descrições dos seus anúncios.`,
     },
     {
-      heading: 'Descarregue os quatro ficheiros',
-      content: `O Gerador de fichas de classificação de imagens produz quatro ficheiros por sessão: ficha JPEG, ficha PDF, chave de respostas JPEG e chave de respostas PDF. Cada separador tem o seu próprio par de botões de descarregamento. Todos os ficheiros são renderizados a trezentos PPP para uma saída pronta para impressão.\n\nAtive a escala de cinzentos antes de descarregar para versões económicas em tinta, ideais para a impressão online e interiores de Amazon KDP. As fichas de classificação em escala de cinzentos mantêm a clareza visual enquanto reduzem os custos de impressão para os vendedores e mantêm baixos os gastos de impressão em KDP.\n\nPara anúncios em marketplaces, exporte tanto o PDF (como o seu produto entregável) como um JPEG (para imagens de pré-visualização do anúncio). Os compradores querem ver exatamente o que estão a comprar antes de adquirir. Mostre tanto a ficha como a chave de respostas nas imagens do seu anúncio.\n\nPara construir um pacote de produtos completo, mude de temas, ajuste as quantidades de imagens ou alterne entre os modos de tema e manual e regenere. Cada geração produz um novo conjunto de quatro ficheiros. Dez sessões de geração dão-lhe quarenta ficheiros prontos para produção — um pacote completo de fichas de classificação pronto para publicar.\n\nImportante: o teste grátis com marca d'água produz exportações completamente funcionais com uma marca d'água sobreposta visível. Isto permite-lhe avaliar a qualidade de impressão, verificar o formato e criar provas de impressão antes de adquirir uma licença comercial. A licença comercial remove a marca d'água de todas as exportações, produzindo ficheiros limpos prontos para a venda.`,
+      heading: `Descarregue os quatro ficheiros`,
+      content: `O Gerador de fichas de classificação de imagens produz quatro ficheiros por sessão: ficha JPEG, ficha PDF, chave de respostas JPEG e chave de respostas PDF. Cada separador tem o seu próprio par de botões de descarregamento. Todos os ficheiros são renderizados a trezentos PPP para uma saída pronta para impressão.\n\nAtive a escala de cinzentos antes de descarregar para versões económicas em tinta, ideais para a impressão online e interiores de Amazon KDP. As fichas de classificação em escala de cinzentos mantêm a clareza visual enquanto reduzem os custos de impressão para os vendedores e mantêm baixos os gastos de impressão em KDP.\n\nPara anúncios em marketplaces, exporte tanto o PDF (como o seu produto entregável) como um JPEG (para imagens de pré-visualização do anúncio). Os compradores querem ver exatamente o que estão a comprar antes de adquirir. Mostre tanto a ficha como a chave de respostas nas imagens do seu anúncio.\n\nPara construir um pacote de produtos completo, mude de temas, ajuste as quantidades de imagens ou alterne entre os modos de tema e manual e regenere. Cada geração produz um novo conjunto de quatro ficheiros. Dez sessões de geração dão-lhe quarenta ficheiros prontos para produção — um pacote completo de fichas de classificação pronto para publicar.\n\nImportante: o teste grátis com marca d`água produz exportações completamente funcionais com uma marca d`água sobreposta visível. Isto permite-lhe avaliar a qualidade de impressão, verificar o formato e criar provas de impressão antes de adquirir uma licença comercial. A licença comercial remove a marca d'água de todas as exportações, produzindo ficheiros limpos prontos para a venda.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Vender fichas de classificação no Etsy',
+      heading: `Vender fichas de classificação no Etsy`,
       content: `O Etsy é um marketplace forte para fichas de classificação porque os pais e vendedores procuram emparelhamentos de categorias específicos. Títulos como «Fichas de classificação animais vs comida — Atividade de recortar e classificar — Classificação pré-escolar — Com chave de respostas» capturam tráfego de pesquisa segmentado.\n\nNomeie os seus produtos usando o emparelhamento de categorias real em vez de títulos genéricos. «Pack de classificação animais de quinta vs animais selvagens» supera «Fichas de classificação para crianças» porque coincide com consultas de pesquisa específicas dos compradores. Cada emparelhamento de categorias torna-se num anúncio distinto que visa palavras-chave únicas.\n\nEtiquetas: use as treze etiquetas do Etsy. Combine termos amplos e específicos: «fichas de classificação», «atividade de classificação», «recortar e classificar», «classificação pré-escolar», «fichas de categorias», «atividade imprimível de classificação», «cantinho de classificação», «classificação jardim de infância» e variações que coincidam com o seu emparelhamento de categorias específico.\n\nImagens do anúncio: mostre a ficha completa com quadros de categoria e grelha de recortáveis, um primeiro plano das imagens misturadas, a chave de respostas com imagens ampliadas nas caixas de categoria e um mockup da ficha impressa em uso. O esquema de duas categorias com quadros lado a lado é visualmente distintivo e cria miniaturas impactantes.\n\nPreços: conjuntos individuais de fichas de classificação de cinco a dez folhas vendem-se a dois dólares e noventa e nove cêntimos a cinco dólares e noventa e nove cêntimos. Pacotes de emparelhamentos temáticos de quinze a vinte fichas vendem-se a seis dólares e noventa e nove cêntimos a doze dólares e noventa e nove cêntimos. Coleções completas com múltiplos emparelhamentos temáticos vendem-se a catorze dólares e noventa e nove cêntimos a vinte e quatro dólares e noventa e nove cêntimos.`,
     },
     {
-      heading: 'Vender fichas de classificação no Amazon KDP',
+      heading: `Vender fichas de classificação no Amazon KDP`,
       content: `O Amazon KDP serve o mercado de cadernos de classificação. Compile de cinquenta a oitenta fichas de classificação num formato de livro de atividades encadernado com dificuldade progressiva.\n\nEstruture o seu caderno em capítulos por dificuldade: os capítulos iniciais usam de quatro a seis imagens com diferenças de categoria óbvias como animais versus veículos, os capítulos intermédios usam de oito a dez imagens com distinções mais subtis como animais de quinta versus animais selvagens, e os capítulos avançados usam doze imagens com classificações desafiantes como comida saudável versus guloseimas. Inclua páginas de chave de respostas no final de cada capítulo.\n\nTítulo e subtítulo: exemplo de título: «Fichas de classificação por categorias para pré-escolar». Exemplo de subtítulo: «80 atividades de recortar e classificar com chaves de respostas para crianças dos 3–6 anos — Temas de animais, comida, veículos e natureza».\n\nPalavras-chave: o KDP fornece sete espaços de palavras-chave. Use frases específicas: «fichas de classificação pré-escolar», «livro de atividades de classificação», «fichas de recortar e classificar para crianças», «fichas imprimíveis de categorias», «atividades de cantinho de classificação», «caderno de classificação jardim de infância», «exercícios de classificação de imagens».\n\nAtive a escala de cinzentos para uma saída económica em tinta que se imprime de forma limpa a preto e branco e mantém baixos os custos de impressão em KDP. O esquema de classificação com quadros de moldura tracejada e grelha de recortáveis reproduz-se bem em escala de cinzentos porque a estrutura depende de molduras e espaçamento em vez de cor.`,
     },
     {
-      heading: 'Vender fichas de classificação no Gumroad',
+      heading: `Vender fichas de classificação no Gumroad`,
       content: `O Gumroad é ideal para fichas de classificação porque a classificação é uma competência curricular fundamental em múltiplas disciplinas. Os vendedores de ciências precisam de atividades de classificação de seres vivos versus não vivos. Os vendedores de saúde precisam de classificação de alimentos saudáveis versus não saudáveis. Os vendedores de estudos sociais precisam de ajudantes da comunidade versus outras ocupações.\n\nAs descrições de produtos no Gumroad devem incluir: nível de escolaridade, competências específicas de classificação praticadas, número de fichas, se chaves de respostas estão incluídas, emparelhamentos de categorias cobertos e alinhamento com padrões curriculares. Mencione que as fichas incluem campos de nome e data para a gestão da loja.\n\nFicheiros de pré-visualização: o Gumroad permite-lhe carregar um ficheiro de pré-visualização. Inclua de duas a três fichas de classificação de amostra e uma página de chave de respostas do seu conjunto. Mostre tanto a grelha de recortáveis como os quadros de categoria para que os vendedores possam ver o formato completo da atividade de classificação.\n\nAgrupamento no Gumroad: os vendedores compram pacotes para unidades completas. Um «Pacote completo de atividades de classificação» com fichas de classificação que cobrem ciências, nutrição, natureza e objetos do quotidiano dá aos vendedores recursos para múltiplas lições. Crie conjuntos alinhados com o catálogo de produtos usando o modo manual para uma seleção precisa de imagens.\n\nPalavras-chave específicas do Gumroad: «cantinho de classificação», «atividade de classificação», «recortar e colar classificação», «classificação por categorias», «classificação de ciências», «classificação de matemática», «trabalho matinal de classificação». Estes termos coincidem com a forma como os vendedores pesquisam recursos de classificação.`,
     },
   ],
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Os pacotes são onde estão as receitas reais em fichas de classificação. O formato de duas categorias cria oportunidades naturais de agrupamento baseadas em emparelhamentos de categorias.\n\nPacotes de emparelhamento de categorias: agrupe de dez a quinze fichas que partilham um único emparelhamento temático. «Pack de classificação animais vs comida — 15 fichas com chaves de respostas» é um produto claro e fácil de pesquisar.\n\nPacotes de progressão de dificuldade: combine fichas de quatro, oito e doze imagens para o mesmo emparelhamento temático. Comercialize estes como «conjuntos completos de classificação» que crescem com a criança desde o pré-escolar até ao ensino primário.\n\nPacotes por área temática: compile fichas de classificação por área curricular. «Pacote de classificação de ciências» inclui seres vivos versus não vivos, terra versus água, e animais diurnos versus noturnos. «Pacote de classificação de nutrição» inclui comida saudável versus não saudável, frutas versus legumes, e bebidas versus lanches.\n\nPacotes multilingues: gere as mesmas fichas de classificação em múltiplos idiomas usando as etiquetas de categoria sensíveis ao idioma. Um «Pack de classificação trilingue» em inglês, espanhol e francês dirige-se a salas de aula bilingues e compradores internacionais.\n\nPublique sempre tanto conjuntos individuais como pacotes. Os anúncios individuais melhoram a visibilidade de pesquisa da sua loja ao capturar mais combinações específicas de palavras-chave, enquanto os pacotes geram maiores receitas por transação.`,
     },
     {
-      heading: 'Estratégias multilingues e sazonais',
+      heading: `Estratégias multilingues e sazonais`,
       content: `O Gerador de fichas de classificação de imagens é sensível ao idioma — mudar o idioma da aplicação muda as etiquetas de categoria e o texto do cabeçalho em cada ficha. Isto cria uma vantagem competitiva significativa para os vendedores dispostos a criar produtos multilingues.\n\nGere um conjunto temático de classificação em inglês, depois mude para alemão, francês, espanhol ou qualquer um dos onze idiomas suportados e regenere com o mesmo emparelhamento de categorias. Obtém um produto de classificação multilingue completo a partir de imagens idênticas sem nenhum esforço de redesenho. Os pacotes de classificação multilingues estão pouco servidos na maioria dos marketplaces, o que significa menos concorrência e maior visibilidade para os seus anúncios.\n\nAs oportunidades sazonais seguem padrões previsíveis para fichas de classificação. Dia das Bruxas: classificar disfarces versus guloseimas, animais assustadores versus animais simpáticos. Natal: classificar decorações versus comida, presentes versus roupa. Dia dos Namorados: classificar corações versus flores, doces versus lanches salgados. Primavera: classificar flores versus folhas, insetos versus pássaros.\n\nA chave do sucesso sazonal é a preparação. Crie os seus produtos de classificação sazonais durante os períodos calmos e publique-os de quatro a seis semanas antes de cada festividade. Isto dá tempo aos algoritmos de pesquisa do marketplace para indexar os seus anúncios antes de os compradores começarem a pesquisar. As fichas de classificação sazonais com chaves de respostas autogeradas criam produtos atrativos porque o formato de recortar e classificar adiciona envolvimento tátil à aprendizagem temática de festividades.`,
     },
   ],
@@ -155,9 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como criar fichas profissionais que vendem' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como criar fichas profissionais que vendem` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass de negócio de imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de negócio de livros de atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
     { pageType: 'app', slug: 'classificacao-imagens-fichas', anchorText: `Gerador de fichas de classificação de imagens — Todos os detalhes` },
@@ -168,12 +168,12 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'picture-sort',
-      title: 'Gerador de fichas de classificação de imagens',
+      title: `Gerador de fichas de classificação de imagens`,
       description: `A ferramenta principal deste guia. Cria fichas de classificação em duas categorias com modos de seleção por tema e manual, grelhas de recortáveis misturados e chaves de respostas autogeradas com imagens ampliadas nas caixas de categoria.`,
     },
     {
       appId: 'matching',
-      title: 'Gerador de fichas de associação',
+      title: `Gerador de fichas de associação`,
       description: `Um complemento de classificação que cria atividades de emparelhamento. As fichas de associação complementam as fichas de classificação para uma linha completa de produtos de classificação dirigida ao mesmo público comprador.`,
     },
     {
@@ -189,21 +189,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/picture sort/Classificação de Imagens 1.webp`, alt: 'Ficha de classificação em duas categorias com quadros de categoria de moldura tracejada e grelha de recortáveis misturados para atividades de classificação' },
+    heroImage: { src: `/samples/portuguese/picture sort/Classificação de Imagens 1.webp`, alt: `Ficha de classificação em duas categorias com quadros de categoria de moldura tracejada e grelha de recortáveis misturados para atividades de classificação` },
     samples: [
-      { src: `/samples/portuguese/picture sort/Classificação de Imagens 2.webp`, alt: 'Ficha de classificação de imagens mostrando dois quadros de categoria lado a lado e grelha de recortáveis misturados abaixo', caption: 'Ficha de classificação em duas categorias com quadros de categoria lado a lado e grelha de recortáveis misturados' },
-      { src: `/samples/portuguese/picture sort/Classificação de Imagens 3.webp`, alt: 'Chave de respostas autogerada com imagens ampliadas classificadas nas caixas de categoria corretas', caption: 'Chave de respostas autogerada com imagens apresentadas a seis vezes o tamanho da célula da grelha de recortáveis' },
+      { src: `/samples/portuguese/picture sort/Classificação de Imagens 2.webp`, alt: `Ficha de classificação de imagens mostrando dois quadros de categoria lado a lado e grelha de recortáveis misturados abaixo`, caption: `Ficha de classificação em duas categorias com quadros de categoria lado a lado e grelha de recortáveis misturados` },
+      { src: `/samples/portuguese/picture sort/Classificação de Imagens 3.webp`, alt: `Chave de respostas autogerada com imagens ampliadas classificadas nas caixas de categoria corretas`, caption: `Chave de respostas autogerada com imagens apresentadas a seis vezes o tamanho da célula da grelha de recortáveis` },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: `Como criar fichas de classificação por categorias — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchila — imagem educativa temática', caption: 'Chinchila' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Caturra — imagem educativa temática', caption: 'Caturra' },
-    { src: '/image-library/pets/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Furão — imagem educativa temática', caption: 'Furão' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchila — imagem educativa temática`, caption: 'Chinchila' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Caturra — imagem educativa temática`, caption: 'Caturra' },
+    { src: '/image-library/pets/dog.webp', alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Furão — imagem educativa temática`, caption: 'Furão' },
   ],
 };
 

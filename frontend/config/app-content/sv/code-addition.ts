@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kodadditions arbetsblad generator',
+    primaryKeyword: `kodadditions arbetsblad generator`,
     secondaryKeywords: [
-      'utskrivbara mattepussel arbetsblad för Etsy',
-      'kodadditions arbetsblad för Amazon KDP',
-      'mattepussel generator för Gumroad säljare',
-      'kodadditions arbetsblad kommersiell licens',
+      `utskrivbara mattepussel arbetsblad för Etsy`,
+      `kodadditions arbetsblad för Amazon KDP`,
+      `mattepussel generator för Gumroad säljare`,
+      `kodadditions arbetsblad kommersiell licens`,
     ],
     lsiKeywords: [
-      'pedagogiska pussel printables affärsidéer',
+      `pedagogiska pussel printables affärsidéer`,
       'mattepussel sälja online',
-      'mattepussel arbetsbok generator',
+      `mattepussel arbetsbok generator`,
     ],
-    titleTag: 'Kodaddition Generator | Mattepussel att Knäcka',
+    titleTag: `Kodaddition Generator | Mattepussel att Knäcka`,
     metaDescription:
       `Skapa kodadditions arbetsblad för Etsy, KDP och Gumroad. Avslöja Ord läge, 104 teman, 11 språk, facit, 400+ DPI. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Kodadditions Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Kodadditions Arbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Konfigurera sidlayouten',
@@ -35,17 +35,17 @@ const content: AppContent = {
           `Öppna panelen Sidinställning och välj ett format: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad storlek. Välj en bakgrundsfärg eller välj ett dekorativt tema från bildbiblioteket och justera genomskinligheten så att ekvationerna förblir läsbara. Lägg till en matchande ram för att ge dina arbetsblad ett professionellt och välvårdat utseende innan du börjar lägga till innehåll.`,
       },
       {
-        title: 'Välj läge och konfigurera koden',
+        title: `Välj läge och konfigurera koden`,
         description:
           `Öppna Övningsinställningarna och välj Klassiskt Läge för ren kodknäckning eller Avslöja Ord Läge för att införliva ett hemligt ord. I Klassiskt Läge ställer du in minimum- och maximumvärden för additionstermerna (1–20) och väljer hur många unika bildsymboler som ska finnas per arbetsblad (2–5). I Avslöja Ord Läge skriver du ett hemligt ord på upp till tio bokstäver — appen genererar en ekvation för varje bokstav vars summa motsvarar den bokstaven, plus tre vilseledande ekvationer med felaktiga summor för att höja utmaningen. Om talintervallet inte kan producera tillräckligt med unika summor för ordet utökar appen automatiskt intervallet.`,
       },
       {
-        title: 'Välj bilder från temabiblioteket',
+        title: `Välj bilder från temabiblioteket`,
         description:
           `Öppna panelen Bildbibliotek och utforska 104 teman — från djur och dinosaurier till rymden och högtider. Använd sökfältet för att hitta specifika bilder direkt. Bilderna du väljer blir kodsymbolerna på ditt arbetsblad: varje bild motsvarar ett dolt nummer som användarna måste ta reda på. Du kan också ladda upp dina egna PNG- eller JPEG-bilder för personliga och säsongsbetonade pussel.`,
       },
       {
-        title: 'Lägg till text, titlar och alternativ',
+        title: `Lägg till text, titlar och alternativ`,
         description:
           `Använd panelen Textverktyg för att lägga till en titel, fält för namn och datum, instruktioner eller anpassad text. Välj bland sju tydliga typsnitt, inklusive Lexend Deca, Baloo 2, Fredoka och Quicksand. Aktivera eller inaktivera uppgiftsnummer, visa eller dölj rubrik och ram, och aktivera gråskaleläget för kostnadseffektiv utskrift. Varje inställning uppdaterar arbetsytans förhandsgranskning i realtid så att du kan justera layouten innan du exporterar.`,
       },
@@ -58,35 +58,35 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nyckelfunktioner i Kodadditions Generatorn',
+    title: `Nyckelfunktioner i Kodadditions Generatorn`,
     features: [
       {
-        title: 'Kodknäckningsmekanik — bilder som dolda nummer',
+        title: `Kodknäckningsmekanik — bilder som dolda nummer`,
         description:
           `Det utmärkande elementet i denna generator är den kryptaritmetiska motorn. Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer. användarna löser additionsuppgifter där additionstermerna och summorna visas som bilder istället för siffror, och använder sedan logisk deduktion för att upptäcka vilket nummer varje bild föreställer. Detta förvandlar en rutinmässig additionsövning till ett detektivpussel som utvecklar högre ordnings tänkande vid sidan av grundläggande räknefärdighet. Eftersom pusslen kräver att användarna tänker igenom flera ekvationer samtidigt bygger de problemlösningsfärdigheter som går långt bortom enkel memorering.`,
       },
       {
-        title: 'Avslöja Ord läge med hemliga ord',
+        title: `Avslöja Ord läge med hemliga ord`,
         description:
           `Aktivera Avslöja Ord läget och skriv ett hemligt ord på upp till tio bokstäver. Generatorn skapar en additionsuppgift för varje bokstav i ordet — summan av varje ekvation motsvarar en specifik bokstav i en avkodningstabell. användarna löser ekvationerna, slår upp varje summa i tabellen och formar det dolda ordet. Tre vilseledande ekvationer med felaktiga summor läggs till automatiskt, vilket ger användarna extra övningsuppgifter som inte motsvarar en bokstav och tvingar dem att kontrollera varje svar. Om talintervallet inte kan producera tillräckligt med unika summor för alla bokstäver anpassar appen sig intelligent genom att utöka intervallet eller öka antalet additionstermer från två till fyra.`,
       },
       {
-        title: 'Språkspecifika alfabet för 11 språk',
+        title: `Språkspecifika alfabet för 11 språk`,
         description:
           `Avslöja Ord läget är fullständigt anpassat för varje språk. På svenska innehåller alfabetet å, ä och ö. Tyskan lägger till Ä, Ö, Ü och ß. Franskan inkluderar à, â, ç, è, é och andra tecken med accenter. Vart och ett av de elva stödda språken — svenska, engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, danska, norska och finska — använder sitt eget korrekta alfabet så att hemliga ord med diakritiska tecken fungerar naturligt. Detta gör Kodaddition till den enda arbetsblad generatorn på marknaden som producerar flerspråkiga kodknäckningspussel, vilket öppnar en enorm möjlighet för säljare som betjänar icke-engelsktalande marknader.`,
       },
       {
-        title: 'Konfigurerbara talintervall och symbolantal',
+        title: `Konfigurerbara talintervall och symbolantal`,
         description:
           `Ställ in minimum- och maximumvärden för additionstermerna från 1 till 20 för att styra uppgifternas svårighetsgrad. Välj mellan två och fem unika bildsymboler per arbetsblad för att anpassa deduktionens komplexitet — två symboler skapar ett tillgängligt pussel för yngre användare, medan fem symboler kräver att användarna håller reda på flera okända genom många ekvationer. Kombinationen av talintervall och symbolantal ger dig exakt kontroll över svårighetsgraden, så att du kan skapa progressiva arbetsbladsuppsättningar från lätt till avancerat på några minuter.`,
       },
       {
-        title: '104 visuella teman med mer än 3 100 bilder',
+        title: `104 visuella teman med mer än 3 100 bilder`,
         description:
           `Utforska ett bibliotek med mer än 3 100 noggrant utvalda illustrationer, organiserade i 104 teman, inklusive bondgårdsdjur, havsdjur, fordon, rymden, mat, sport, dinosaurier, högtider och mycket mer. Varje bild har hög upplösning och är designad för skarpa, tydliga utskrifter. I Kodaddition fungerar bilderna som kodsymbolerna själva — användarna ser en katt, en raket och en muffin och måste sluta sig till att katten är 3, raketen 7 och muffinen 5. Tematiska pussel är oemotståndliga för barn och mycket säljbara som utskrivbara produkter.`,
       },
       {
-        title: 'Automatiskt facit med nummeröverlager',
+        title: `Automatiskt facit med nummeröverlager`,
         description:
           `Generera ett komplett facit med ett klick. Facit återger arbetsbladsdesignen och lägger det dolda numret direkt ovanpå varje bildsymbol, vilket gör lösningen omedelbart tydlig. I Avslöja Ord läget visar facit även det avkodade ordet och anger vilka ekvationer som var vilseledande. Exportera facit som en separat fil för enkel inkludering i facitversioner, föräldrahandledningar eller kommersiella produktpaket.`,
       },
@@ -96,7 +96,7 @@ const content: AppContent = {
           `Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument. Exportmotorn renderar med en 6x-multiplikator, vilket ger mer än 400 DPI i standardformat. Aktivera gråskaleläget för versioner som skrivs ut perfekt i svartvitt utan att förlora bildskärpa. Letter, A4, Kvadrat och anpassade format stöds alla, vilket täcker alla vanliga utskriftsformat för både hem- och kommersiellt bruk.`,
       },
       {
-        title: 'Full arbetsyteredigering med ångra och gör om',
+        title: `Full arbetsyteredigering med ångra och gör om`,
         description:
           `Den integrerade Fabric.js-arbetsytan låter dig dra, skala, rotera och flytta varje sidelement — text, bilder, uppgiftsblock, ramar och bakgrunder. Zooma in och ut med procentindikator för exakt placering, och använd Ctrl+Z och Ctrl+Y för obegränsad ångra och gör om. Lås element på plats när de är positionerade, eller lås upp allt för spontan omdesign. Lagerordning, justeringsverktyg och objektgruppering ger dig flexibiliteten hos ett grafiskt designprogram inuti en arbetsblad generator.`,
       },
@@ -104,44 +104,44 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Kodadditions Arbetsblad Online',
+    title: `Hur du Säljer Kodadditions Arbetsblad Online`,
     cases: [
       {
-        title: 'Kodknäckningspusselpaket på Etsy.se',
+        title: `Kodknäckningspusselpaket på Etsy.se`,
         description:
           `Skapa tematiska paket med 10–20 kodadditionspussel — dinosauriedetektiver, havsutforskare, rymduppdrag — och erbjud dem som direktnedladdning på Etsy.se. Varje paket innehåller arbetsbladen plus facit som separata filer. Kodknäckningsformatet sticker ut visuellt i sökresultat och särskiljer sig från vanliga additionsarbetsblad. Inkludera både Klassiskt Läge och Avslöja Ord pussel i varje paket för mer variation. Prissätt enskilda paket per tema mellan 30–50 kr och megapaket med flera teman mellan 120–180 kr.`,
         platform: 'Etsy (etsy.se)',
       },
       {
-        title: 'Pusselarbetsböcker på Amazon KDP',
+        title: `Pusselarbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 50 till 100 kodadditionspussel till en aktivitetsbok formaterad för Amazon KDP. Bygg boken med progressiv svårighetsgrad: börja med två symboler och låga intervall (1–5), gå vidare till fem symboler med intervall upp till 20, och avsluta med Avslöja Ord utmaningar. Lägg till omslag, instruktioner om hur man löser pusslen och en komplett facitsektion baktill. Matematiska kodknäckningspusselböcker upptar en nisch med mindre konkurrens än vanliga additionsarbetsböcker, och pusselformatet lockar föräldrar som söker engagerande alternativ till repetitiva övningar.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Nivågrupperade matteprodukter för Gumroad',
+        title: `Nivågrupperade matteprodukter för Gumroad`,
         description:
           `Skapa kodadditionsuppsättningar i nivåer: Nivå 1 (två symboler med summor under 10), Nivå 2 (tre symboler med summor under 15), Nivå 3 (fyra eller fem symboler med summor till 20) och en bonusnivå Avslöja Ord där användarna avkodar ordförrådstermer. Varje nivå med facit och framstegsregistrering. Kodmekaniken differentierar naturligt — fler symboler och högre intervall ökar svårigheten utan att ändra aktivitetsformatet, så alla användare i en mattestation gör samma typ av uppgift på sin egen nivå.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Flerspråkiga pusselpaket för din egen webbshop',
+        title: `Flerspråkiga pusselpaket för din egen webbshop`,
         description:
           `Utnyttja den flerspråkiga Avslöja Ord funktionen för att skapa kodadditionspaket på olika språk och sälj dem via Gumroad, Shopify eller Payhip. Ett svenskt paket använder det korrekta svenska alfabetet med å, ä, ö; ett tyskt paket innehåller Umlauten. Detta är en marknadsmöjlighet — praktiskt taget ingen konkurrerande generator erbjuder kodknäckningspussel anpassade för varje språk. Rikta dig mot tvåspråkiga familjer, hemundervisningsgemenskap och internationella skolor med språkspecifika paket som ingen konkurrent enkelt kan kopiera.`,
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Engagemang online och lekfullt räknande',
+        title: `Engagemang online och lekfullt räknande`,
         description:
           `Använd kodadditions arbetsblad för att förvandla den dagliga matteövningen till ett spel. Dela ut ett Klassiskt Läge pussel som uppvärmningsutmaning där den första användaren som knäcker koden vinner ett pris. Använd Avslöja Ord läget för att koda ett ordförrådsord, ett faktum eller ett motiverande meddelande som användarna upptäcker genom att lösa alla ekvationer. Pusselformatet förvandlar ett rutinmässigt övningsblad till en mysterieaktivitet som håller användarna fokuserade och motiverade. Automatiska facit sparar upplevt värde, och den justerbara svårighetsgraden betyder att en enda generator täcker från förskolan till årskurs 5.`,
-        platform: 'Online / Privatundervisning / Hemundervisning',
+        platform: `Online / Privatundervisning / Hemundervisning`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Hur fungerar kodknäckningsmekaniken?',
+      question: `Hur fungerar kodknäckningsmekaniken?`,
       answer:
         `Varje bild på arbetsbladet representerar i hemlighet ett specifikt nummer. Arbetsbladet visar additionsuppgifter där additionstermerna och summorna visas som bilder istället för siffror. användarna löser ekvationerna med logik och deduktion: om en katt plus en hund är sju och en katt plus en katt är sex, då är katten tre och hunden fyra. Pusslet kräver att man tänker igenom flera ekvationer samtidigt, vilket utvecklar både räknefärdighet och kritiskt tänkande.`,
     },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `Avslöja Ord läget låter dig skriva ett hemligt ord på upp till tio bokstäver. Generatorn skapar en ekvation för varje bokstav — summan av varje ekvation motsvarar en specifik bokstav i en avkodningstabell. användarna löser ekvationerna, slår upp varje summa i tabellen och formar det dolda ordet. Tre vilseledande ekvationer med felaktiga summor läggs till automatiskt, så att användarna måste kontrollera varje svar. Det kombinerar matteövning med stavning och ordförråd i en engagerande aktivitet.`,
     },
     {
-      question: 'Hur motsvarar bildsymbolerna nummer?',
+      question: `Hur motsvarar bildsymbolerna nummer?`,
       answer:
         `När du genererar ett arbetsblad tilldelar appen slumpmässigt ett unikt nummer till varje vald bild. Till exempel, med tre bilder och ett intervall på 1–10 kan katten vara 3, raketen 7 och stjärnan 5. Tilldelningen är slumpmässig vid varje generering, så även med samma bilder och konfiguration ger varje arbetsblad ett annorlunda pussel. Facit avslöjar kopplingen genom att lägga varje nummer ovanpå sin bild.`,
     },
@@ -181,12 +181,12 @@ const content: AppContent = {
         `Facit återger arbetsbladsdesignen och lägger det dolda numret direkt ovanpå varje bildsymbol. I Avslöja Ord läget visar facit även det avkodade ordet och anger vilka ekvationer som var vilseledande. Du kan exportera facit som en separat JPEG- eller PDF-fil, vilket gör det enkelt att inkludera i kommersiella produktpaket eller dela ut till föräldrar.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du har tillgång till alla funktioner — båda lägena, alla symbolantal, det kompletta bildbiblioteket, Avslöja Ord på alla elva språk, facitgenerering och alla exportformat — utan att skapa ett konto, ange ett kreditkort eller installera programvara. Nedladdningar från den gratis provversionen innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Vad ingår i den kommersiella licensen?',
+      question: `Vad ingår i den kommersiella licensen?`,
       answer:
         `Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och ingen gräns för antalet arbetsblad du producerar eller säljer.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du alla rättigheter att sälja dina kodadditions arbetsblad som digitala nedladdningar på Etsy.se, som pusselböcker på Amazon KDP, som pedagogiska resurser på Gumroad eller via vilken annan försäljningskanal som helst. Kodknäckningsformatet är en beprövad produkt eftersom det sticker ut bland vanliga additionsarbetsblad i marknadsplatsernas sökresultat.`,
     },
     {
-      question: 'Behöver jag installera programvara?',
+      question: `Behöver jag installera programvara?`,
       answer:
         `Nej. Kodadditions Arbetsblad Generatorn körs helt i din webbläsare. Det finns inget att ladda ner, installera eller uppdatera. Den fungerar på alla moderna webbläsare, inklusive Chrome, Firefox, Safari och Edge. Öppna bara sidan och börja skapa matematiska kodknäckningspussel.`,
     },
@@ -211,32 +211,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'addition-arbetsblad',
-      anchorText: 'Additions Arbetsblad Generator',
+      anchorText: `Additions Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'subtraktion-arbetsblad',
-      anchorText: 'Subtraktions Arbetsblad Generator',
+      anchorText: `Subtraktions Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'mattepussel-arbetsblad',
-      anchorText: 'Mattepussel Arbetsblad Generator',
+      anchorText: `Mattepussel Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'matematik-maestar-paket',
-      anchorText: 'Matematik Mästarpaket — Alla Matte-Appar',
+      anchorText: `Matematik Mästarpaket — Alla Matte-Appar`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-additions-arbetsblad',
-      anchorText: 'Hur du Skapar Additions Arbetsblad som Säljer',
+      anchorText: `Hur du Skapar Additions Arbetsblad som Säljer`,
     },
     {
       pageType: 'guide',
       slug: 'saelja-mattearbetsblad-etsy',
-      anchorText: 'Guide för att Sälja Mattearbetsblad på Etsy',
+      anchorText: `Guide för att Sälja Mattearbetsblad på Etsy`,
     },
     {
       pageType: 'idea',
@@ -245,12 +245,12 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'mattefakta-utskriftsbara-ideer',
+      slug: `mattefakta-utskriftsbara-ideer`,
       anchorText: `Mattefakta utskriftsbara idéer för säljare och säljare`,
     },
     {
       pageType: 'idea',
-      slug: 'tillbaka-till-skolan-utskriftsbara-ideer',
+      slug: `tillbaka-till-skolan-utskriftsbara-ideer`,
       anchorText: `Tillbaka till skolan utskriftsbara idéer som säljer`,
     },
     {

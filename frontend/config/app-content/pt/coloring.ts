@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `gerador de páginas para colorir imprimíveis para vendedores Etsy`,
       `criador de fichas para colorir para editores Amazon KDP`,
-      'vender páginas para colorir no Gumroad',
-      'gerador de páginas para colorir licença comercial',
+      `vender páginas para colorir no Gumroad`,
+      `gerador de páginas para colorir licença comercial`,
     ],
     lsiKeywords: [
       `produtos digitais páginas para colorir para empreendedores`,
-      'livros para colorir imprimíveis uso comercial',
+      `livros para colorir imprimíveis uso comercial`,
       `gerador de páginas para colorir com canvas livre e desenho à mão livre`,
     ],
-    titleTag: 'Gerador Páginas para Colorir | Criar e Vender',
+    titleTag: `Gerador Páginas para Colorir | Criar e Vender`,
     metaDescription:
       `Crie páginas para colorir para Etsy, KDP e Gumroad. Canvas de forma livre, 104 temas, desenho à mão livre, escala de cinzentos. Teste grátis com marca d'água.`,
   },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Use o painel Ferramentas de Texto para adicionar títulos, instruções ou etiquetas com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste o tamanho da fonte, a cor e a largura do contorno de texto (0 a 10 com granularidade de 0,5) para máxima legibilidade. Clique nos Auxiliares de loja para adicionar um campo de nome («Nome: ____») ou linhas de prática de caligrafia com um único clique. Mude para a Ferramenta de Desenho para desenhar ilustrações à mão livre diretamente no canvas — escolha uma cor de pincel e ajuste o tamanho do pincel de 1 a 50 píxeis.`,
       },
       {
-        title: 'Ative a escala de cinzentos e descarregue',
+        title: `Ative a escala de cinzentos e descarregue`,
         description:
           `Abra o painel Descarregar e ative a opção de escala de cinzentos para converter a sua composição colorida em páginas para colorir económicas em tinta — perfeitas para fichas impressas e livros para colorir. Exporte como JPEG de alta resolução ou PDF pronto para impressão a 300 DPI. Os ficheiros são guardados como coloring_page.jpeg ou coloring_page.pdf para organização fácil. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad — sem necessidade de pós-processamento.`,
       },
@@ -107,13 +107,13 @@ const content: AppContent = {
     title: `Como Vender Páginas para Colorir Personalizadas Online`,
     cases: [
       {
-        title: 'Pacotes temáticos de páginas para colorir na Etsy',
+        title: `Pacotes temáticos de páginas para colorir na Etsy`,
         description:
           `Crie pacotes de páginas para colorir temáticas usando as 104 coleções de imagens — animais da quinta, criaturas marinhas, dinossauros, fauna da selva, celebrações festivas e dezenas mais. Cada tema fornece ilustrações suficientes para 10 a 20 páginas para colorir únicas. Ative a exportação em escala de cinzentos para uma saída pronta para impressão, adicione bordas decorativas para um aspeto cuidado e inclua páginas com linhas de caligrafia para valor educativo acrescentado. Ofereça temas como pacotes individuais a $3–$5 cada, ou combine vários temas em megapacotes a $12–$18. O canvas de forma livre garante que cada página é original e impossível de recriar com geradores baseados em modelos.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Livros para colorir na Amazon KDP',
+        title: `Livros para colorir na Amazon KDP`,
         description:
           `Compile 60 a 100 páginas para colorir num livro impresso formatado para a Amazon KDP. A exportação em escala de cinzentos produz páginas económicas em tinta prontas para interiores de livros a preto e branco. Estruture o seu livro por tema: o capítulo 1 cobre animais da quinta, o capítulo 2 vida marinha, o capítulo 3 veículos, e assim por diante. Use a ferramenta de desenho à mão livre para adicionar páginas de título personalizadas e separadores de secção. O canvas de forma livre permite-lhe controlar a densidade de imagens por página — uma imagem grande para públicos mais jovens, várias imagens mais pequenas para coloristas mais velhos. Os livros para colorir têm procura durante todo o ano com picos sazonais nas festividades.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,7 +122,7 @@ const content: AppContent = {
         title: `Fichas de atividades para colorir online para Gumroad`,
         description:
           `Construa fichas para colorir prontas para a loja com os auxiliares integrados. Adicione um campo de nome para que os usuários identifiquem o seu trabalho e inclua linhas de prática de caligrafia na parte inferior para prática de literacia integrada. Os vendedores que procuram atividades para colorir no Gumroad valorizam fichas que vão além do simples colorir — o campo de nome e as linhas de caligrafia fazem do seu produto uma ficha de atividade multicompetências. Crie conjuntos temáticos ligados a unidades curriculares: o clima, as estações, os ajudantes da comunidade, os grupos alimentares e os habitats. A saída puramente visual funciona para cada usuário independentemente do idioma ou nível de leitura.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Páginas para colorir personalizadas com desenho à mão livre`,
@@ -134,7 +134,7 @@ const content: AppContent = {
         title: `Coleções sazonais e festivas de páginas para colorir`,
         description:
           `As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão, festas de inverno e muito mais. Crie coleções de páginas para colorir por época alinhadas com os picos de compra. Lance os pacotes de Halloween em setembro, as coleções de Natal em outubro e os pacotes do Dia dos Namorados em janeiro. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes da mesma base de clientes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
     ],
   },
@@ -166,12 +166,12 @@ const content: AppContent = {
         `Abra o painel Biblioteca de Imagens, selecione um tema no menu suspenso ou escreva um termo de pesquisa na barra de pesquisa. As imagens aparecem numa grelha — clique em qualquer imagem para adicioná-la diretamente ao seu canvas. A imagem aparece como um objeto do canvas móvel e redimensionável que pode arrastar, rodar e sobrepor com outros elementos. A biblioteca contém mais de 3100 ilustrações coloridas em 104 coleções temáticas. Também pode carregar imagens personalizadas PNG, JPG ou GIF.`,
     },
     {
-      question: 'Posso carregar as minhas próprias imagens?',
+      question: `Posso carregar as minhas próprias imagens?`,
       answer:
         `Sim. O painel Biblioteca de Imagens inclui um botão de importação personalizada que aceita ficheiros PNG, JPG e GIF. As imagens carregadas são adicionadas ao canvas tal como as imagens da biblioteca — completamente móveis, redimensionáveis e rotáveis. Combine as suas próprias criações com as ilustrações da biblioteca para páginas para colorir completamente originais. As imagens personalizadas são especialmente úteis para páginas para colorir específicas de uma marca ou temas não cobertos pelas coleções integradas.`,
     },
     {
-      question: 'Como funcionam os temas de bordas decorativas?',
+      question: `Como funcionam os temas de bordas decorativas?`,
       answer:
         `No painel de Configuração de Página, selecione um tema de borda a partir da biblioteca de bordas. A borda emoldura o seu canvas e adiciona um acabamento visual à página para colorir terminada. As bordas são aplicadas como elementos do canvas visíveis no editor. Definem o limite visual da página sem interferir com as suas imagens, texto ou desenhos. Diferentes temas de bordas adaptam-se a diferentes públicos — bordas lúdicas para páginas para colorir infantis, bordas elegantes para livros para colorir de adultos.`,
     },
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — o canvas de forma livre, todas as ferramentas de desenho, a biblioteca de imagens, os auxiliares de loja, os temas de bordas, a exportação em escala de cinzentos e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — o canvas de forma livre, todas as ferramentas de desenho, a biblioteca de imagens, os auxiliares de loja, os temas de bordas, a exportação em escala de cinzentos e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `O Gerador de Páginas para Colorir é sensível ao idioma?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas páginas para colorir como downloads digitais na Etsy, como livros para colorir impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. O canvas de forma livre, a ferramenta de desenho à mão livre e as 104 coleções de imagens temáticas oferecem-lhe as ferramentas criativas para produzir produtos de páginas para colorir originais e vendáveis.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar o canvas de forma livre, cada ferramenta de desenho, a biblioteca de imagens completa, os auxiliares de loja, os temas de bordas, a exportação em escala de cinzentos e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,12 +206,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Gerador de Fichas Grande e Pequeno',
+      anchorText: `Gerador de Fichas Grande e Pequeno`,
     },
     {
       pageType: 'app',
       slug: 'trem-padroes-fichas',
-      anchorText: 'Gerador de Fichas Trem de Padrões',
+      anchorText: `Gerador de Fichas Trem de Padrões`,
     },
     {
       pageType: 'app',
@@ -221,17 +221,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'desenho-grade-fichas',
-      anchorText: 'Gerador de Fichas de Desenho em Grelha',
+      anchorText: `Gerador de Fichas de Desenho em Grelha`,
     },
     {
       pageType: 'app',
       slug: 'tracar-linhas-fichas',
-      anchorText: 'Gerador de Fichas de Grafomotricidade',
+      anchorText: `Gerador de Fichas de Grafomotricidade`,
     },
     {
       pageType: 'app',
       slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      anchorText: `Gerador de Fichas de Gráfico Pictórico`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'verao-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de verão para crianças',
+      anchorText: `Ideias de imprimíveis de verão para crianças`,
     },
     {
       pageType: 'idea',
@@ -251,12 +251,12 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'negocio-imprimiveis-etsy',
-      anchorText: 'Lance seu negócio de imprimíveis na Etsy',
+      anchorText: `Lance seu negócio de imprimíveis na Etsy`,
     },
     {
       pageType: 'guide',
       slug: 'criar-paginas-colorir',
-      anchorText: 'Criar páginas de colorir que vendem',
+      anchorText: `Criar páginas de colorir que vendem`,
     },
   ],
 

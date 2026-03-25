@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Homeschool Printable Ideas to Sell — Niche Guide',
+    titleTag: `Homeschool Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover homeschool printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Niche strategies for sellers targeting parents who build homeschool curricula.`,
 
     primaryKeyword: 'homeschool printable ideas',
     secondaryKeywords: [
       'homeschool worksheets to sell',
-      'homeschool printable business ideas',
-      'homeschool activity sheets for sellers',
-      'sell homeschool printables online',
+      `homeschool printable business ideas`,
+      `homeschool activity sheets for sellers`,
+      `sell homeschool printables online`,
     ],
     lsiKeywords: [
-      'home education learning worksheets',
-      'parent-led learning printable resources',
-      'homeschool co-op activity pages',
+      `home education learning worksheets`,
+      `parent-led learning printable resources`,
+      `homeschool co-op activity pages`,
     ],
   },
   hero: {
-    title: 'Homeschool Printable Business Ideas for Sellers',
+    title: `Homeschool Printable Business Ideas for Sellers`,
     description: `Homeschool printables represent one of the most lucrative niches in the educational marketplace because homeschool families purchase printable learning supplements, practice worksheets, activity-based learning resources, and unit study materials at significantly higher per-family rates than traditional school parents. The fundamental reason is straightforward: homeschool parents are the sole content decision-makers who build entire educational programs from purchased resources rather than relying on district-provided textbooks and workbooks. This purchasing dynamic creates a buyer who spends across every subject area and every grade level simultaneously, especially in multi-grade households where siblings spanning preschool through middle school all need age-appropriate materials for every instructional block throughout the year. The homeschool population has expanded dramatically over the past decade, creating a large and dedicated buyer base that continues growing as families discover the flexibility and personalization that home-based education provides. Unlike traditional school purchasing which follows rigid academic calendars with predictable summer drop-offs, homeschool families purchase year-round because many follow flexible or year-round schedules where learning continues through summer months, holiday breaks, and non-traditional calendar arrangements that keep demand consistent across all twelve months. The diversity of homeschool methodologies including classical education, Charlotte Mason, Montessori-inspired, unschooling, eclectic, and unit study approaches creates demand for varied product styles because each philosophy emphasizes different learning formats, assessment methods, and instructional priorities that require distinct printable designs rather than one-size-fits-all worksheet templates. Homeschool co-ops and community groups create powerful word-of-mouth distribution channels where a single recommendation from a trusted homeschool parent can drive dozens of purchases from group members who share learning resources and activity ideas. The homeschool buyer is typically sophisticated, research-driven, and exceptionally loyal to sellers who demonstrate genuine understanding of homeschool needs, creating repeat purchase relationships that compound revenue over time as families return for new materials across subjects and grade levels. For printable sellers and entrepreneurs, the homeschool niche combines high per-family spending with year-round demand, strong community-driven discovery, and a growing population base, creating diversified revenue opportunities across Etsy, Amazon KDP, Gumroad, and direct sales platforms. This guide covers specific product ideas built around our worksheet generator tools, platform strategies for reaching homeschool buyers, and niche positioning approaches to help you build a profitable homeschool printable product line.`,
   },
   marketOverview: `The homeschool printable market represents a premium revenue opportunity because homeschool families function as complete institutional buyers who must source every educational resource independently rather than supplementing materials already provided by a school district. While a traditional school parent might purchase occasional practice worksheets to reinforce daily instruction, a homeschool parent purchases the entire learning foundation including core skill practice, enrichment activities, assessment materials, and creative learning resources across every subject area for every child in the household. This fundamental purchasing difference means homeschool families spend substantially more per household on educational printables than any other buyer segment in the marketplace, with multi-grade households multiplying that spending across two, three, or more children at different developmental levels who all need age-appropriate materials simultaneously.
@@ -37,7 +37,7 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
       appId: 'addition',
     },
     {
-      title: 'Homeschool Word Search Puzzles to Sell Online',
+      title: `Homeschool Word Search Puzzles to Sell Online`,
       description: `Word search puzzles featuring vocabulary from cross-curricular unit studies attract homeschool families who integrate learning across subjects through thematic exploration of topics like ancient civilizations, nature study, world cultures, and scientific discovery. Use the Word Search generator to create puzzles with spelling words organized by phonics progression for self-paced advancement at each learner's pace, thematic vocabulary matching popular homeschool unit study topics including ocean life, space exploration, world geography, and historical periods, science terminology reinforcing concepts from hands-on experiments and nature observations that Charlotte Mason and science-focused homeschoolers emphasize, and multi-level grids from beginner to advanced accommodating multi-age family use during shared learning time. These puzzles serve as engaging independent activities while the parent provides direct instruction to another child.`,
       appId: 'wordsearch',
     },
@@ -86,17 +86,17 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Homeschool Printables on Etsy',
+      title: `Selling Homeschool Printables on Etsy`,
       description: `Etsy captures the homeschool parent buyer segment who are among the platform's most active educational printable purchasers, searching with specific terms like "homeschool worksheets," "homeschool printables," "unit study activities," "homeschool learning supplement," and "multi-grade learning pack" throughout all twelve months with no summer demand drop-off. Use all thirteen tags with variations combining homeschool methodology terms, subject areas, age ranges, and activity formats to capture the diverse buyer segments within the homeschool community who search differently based on their educational philosophy. Bundle products by unit study theme or multi-grade skill progression to increase average order value: a nature study cross-curricular pack, a multi-grade math practice family bundle, and a seasonal unit study collection each serve distinct homeschool family needs while encouraging multiple purchases from the same buyer. Multi-grade family packs command premium pricing because parents willingly pay more for a single product serving all their children simultaneously rather than purchasing separate grade-level products individually. The strong community word-of-mouth within homeschool groups drives organic discovery as satisfied buyers recommend products in Facebook groups, co-op meetings, and homeschool convention discussions.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Homeschool Activity Books on KDP',
+      title: `Publishing Homeschool Activity Books on KDP`,
       description: `Amazon KDP excels for homeschool printables because parents actively purchase comprehensive workbooks and activity book compilations as learning supplements, adding educational books to their regular Amazon orders alongside homeschool supplies, manipulatives, and living books throughout the year. Compile individual worksheets into cohesive eighty to one hundred twenty page activity books organized by subject area or unit study theme, creating focused workbooks like "homeschool math practice" covering multiple grade levels in a single volume, "unit study companion" activity books organized around popular themes like ocean life, ancient Egypt, or space exploration, multi-grade skill books covering kindergarten through third grade ranges for multi-age family use, and Charlotte Mason or classical education aligned workbooks targeting specific methodology communities. Position books strategically using KDP keyword fields with terms like "homeschool workbook," "homeschool activity book," "homeschool learning supplement," "multi-grade worksheets," and "unit study activities" to capture the homeschool parent demographic that purchases educational books year-round rather than only during traditional back-to-school seasons.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Homeschool Resources for Your Own Store',
+      title: `Creating Homeschool Resources for Your Own Store`,
       description: `Homeschool families represent a growing and increasingly important demographic for printable sellers, with distinctly different needs and expectations that create opportunities for sellers who specifically address homeschool requirements. Label products explicitly as "homeschool friendly" with self-directed instructions enabling independent use, comprehensive answer keys for parent grading, and clear scope-and-sequence suggestions helping parents integrate materials into their chosen educational approach. Include multiple difficulty levels within single products to serve multi-grade households where one purchase needs to accommodate children spanning two to four grade levels working at different paces. Unit study packs integrating multiple subjects around a single theme command premium pricing because homeschool families value cross-curricular resources that reduce the planning burden of sourcing separate materials for each subject area. Secular labeling expands audience reach across the diverse homeschool community while methodology-specific tags like "Charlotte Mason compatible" or "classical education" help targeted buyers find resources designed for their preferred instructional approach.`,
     },
     {
@@ -116,7 +116,7 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
       answer: `The homeschool printable niche delivers genuinely year-round demand that is more consistent across all twelve months than virtually any other educational niche. Unlike traditional school markets that follow rigid September-through-June academic calendars with predictable summer purchasing drop-offs, homeschool families operate on flexible schedules with many following year-round learning approaches, starting new academic years at various points throughout the calendar, and purchasing materials for summer enrichment, holiday integration, and interest-led exploration during months when traditional school purchasing declines significantly. January and February see strong purchasing as many homeschool families begin fresh semester plans and launch new unit studies. Spring months bring steady demand for outdoor learning, nature study, and science exploration resources. Summer months maintain purchasing as families continue instruction or launch enrichment projects. Back-to-school periods in July through September generate the strongest concentrated demand as families begin new academic years regardless of their specific start dates. Fall and winter bring themed unit study purchasing around harvest, holidays, and seasonal topics. This consistent year-round demand smooths revenue curves and rewards sellers who maintain active listings across all seasons.`,
     },
     {
-      question: 'What types of homeschool printables sell best?',
+      question: `What types of homeschool printables sell best?`,
       answer: `The highest-demand homeschool printable categories reflect the unique needs of families building complete educational programs from purchased resources rather than supplementing existing school instruction. Multi-grade family packs covering two to four difficulty levels within a single product consistently rank among the strongest sellers because they address the practical reality that most homeschool families teach multiple children at different levels simultaneously and strongly prefer products that serve all their children with one purchase. Cross-curricular unit study packs integrating math, reading, writing, science, and art activities around popular themes like ocean life, ancient civilizations, space exploration, and nature study command premium pricing because they reduce the planning burden that homeschool parents face when sourcing individual subject materials separately. Self-directed activity packs with clear instructions and answer keys sell well because they enable independent use while the parent provides direct instruction to other children. Methodology-specific resources designed for Charlotte Mason, classical education, or Montessori-inspired approaches attract dedicated buyers within those communities who seek materials aligned with their educational philosophy.`,
     },
     {
@@ -141,32 +141,32 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -176,17 +176,17 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
     {
       pageType: 'idea',
       slug: 'third-grade-printable-ideas',
-      anchorText: 'Third Grade Printable Business Ideas',
+      anchorText: `Third Grade Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
-    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Backpack — themed educational image`, caption: 'Backpack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Binder — themed educational image`, caption: 'Binder' },
+    { src: `/image-library/classroom/book.webp`, alt: `Book — themed educational image`, caption: 'Book' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Cabinet — themed educational image`, caption: 'Cabinet' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculator — themed educational image`, caption: 'Calculator' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calender — themed educational image`, caption: 'Calender' },
   ],
 
 

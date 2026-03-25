@@ -4,18 +4,18 @@ const content: StartContent = {
   seo: {
     primaryKeyword: `mejores herramientas para vendedores de imprimibles`,
     secondaryKeywords: [
-      'herramientas negocio imprimibles checklist',
+      `herramientas negocio imprimibles checklist`,
       `generadores de fichas herramientas para vendedores`,
-      'herramientas para vender imprimibles en línea',
-      'conjunto herramientas producción imprimibles',
+      `herramientas para vender imprimibles en línea`,
+      `conjunto herramientas producción imprimibles`,
     ],
     lsiKeywords: [
-      'herramientas vendedor Etsy descargas digitales',
+      `herramientas vendedor Etsy descargas digitales`,
       `herramientas producción libros actividades Amazon KDP`,
-      'software creación fichas para emprendedores',
-      'automatización flujo trabajo negocio imprimibles',
-      'herramientas generador fichas multilingües',
-      'producción fichas licencia comercial',
+      `software creación fichas para emprendedores`,
+      `automatización flujo trabajo negocio imprimibles`,
+      `herramientas generador fichas multilingües`,
+      `producción fichas licencia comercial`,
     ],
     titleTag: `Mejores Herramientas para Vendedores de Imprimibles — Guía`,
     metaDescription: `Mejores herramientas para vendedores de imprimibles: generadores de fichas, herramientas de diseño, utilidades de plataforma y flujos de trabajo.`,
@@ -39,11 +39,11 @@ const content: StartContent = {
       content: `Un generador de fichas es la herramienta más importante en el conjunto de herramientas de un vendedor de imprimibles. Reemplaza el proceso manual de diseñar fichas individuales desde cero — un proceso que típicamente lleva de dos a cuatro horas por ficha en software de diseño tradicional — con un flujo de trabajo automatizado que produce resultados completos y listos para imprimir en minutos.\n\nLo que hace esencial a un generador de fichas es la combinación de velocidad, calidad y variedad que ofrece. Velocidad: en lugar de diseñar manualmente cada elemento, seleccionas parámetros (tema, dificultad, número de páginas) y el generador produce la ficha terminada. Calidad: el resultado es un PDF a 300 DPI listo para imprimir o entrega digital, con diseños profesionales, formato consistente y contenido preciso. Variedad: cada generador produce docenas o cientos de variaciones únicas mediante diferentes combinaciones de tema, dificultad y configuración.\n\nLa característica más crítica a evaluar en cualquier generador de fichas es la generación de claves de respuestas. Fichas de matemáticas, sopas de letras, crucigramas y otros tipos de puzzles requieren claves de respuestas precisas. Crear claves de respuestas manualmente es tedioso y propenso a errores. Los generadores que producen claves de respuestas automáticamente ahorran horas de trabajo de verificación y eliminan el riesgo de enviar respuestas incorrectas a los compradores — una fuente garantizada de reseñas negativas.\n\nLas bibliotecas de temas son la segunda característica más importante. Las fichas temáticas (animales, comida, vehículos, estaciones) permiten la segmentación por nichos en los marketplaces. Un generador con 10 temas produce 10 nichos potenciales de productos. Uno con más de 100 temas produce más de 100 nichos. La amplitud de tu biblioteca de temas determina directamente la amplitud de tu catálogo de productos.\n\nLa prueba gratis con marca de agua te permite evaluar cada aspecto — calidad del resultado, velocidad de generación, variedad de temas, precisión de las claves de respuestas — antes de comprar cualquier licencia. Úsala para cronometrar tu flujo de trabajo de producción real y calcular cuántos productos puedes crear por hora de forma realista.`,
     },
     {
-      heading: 'Seis Categorías de Generadores de Fichas',
+      heading: `Seis Categorías de Generadores de Fichas`,
       content: `Los generadores de fichas abarcan seis categorías, cada una dirigida a diferentes segmentos de compradores y nichos de marketplace. Entender lo que produce cada categoría te ayuda a ajustar tu selección de herramientas a tu mercado objetivo.\n\nLos generadores de Matemáticas y Números producen fichas de aritmética, puzzles numéricos y hojas de práctica matemática. Esta categoría incluye generadores de suma, resta, multiplicación, división y operaciones mixtas, además de herramientas especializadas como Sudoku. El contenido matemático se vende durante todo el año a padres que buscan práctica complementaria y vendedores que construyen recursos para venta en línea. Es independiente del idioma, lo que significa que las mismas fichas funcionan en cualquier mercado del mundo.\n\nLos generadores de Letras y Palabras producen contenido basado en el lenguaje: sopas de letras, crucigramas, anagramas, fichas de ortografía y actividades de vocabulario. Esta categoría depende del idioma — los generadores que admiten múltiples idiomas te permiten crear contenido para mercados internacionales. Los libros de sopas de letras y crucigramas se encuentran entre las categorías de libros de actividades más vendidas en Amazon KDP.\n\nLos generadores de Fichas de Actividades producen actividades educativas estructuradas: ejercicios de asociación, tareas de identificación de imágenes, fichas de trazado y actividades de categorización. Estos se dirigen al mercado de educación infantil — padres y vendedores de preescolar e infantil que necesitan contenido apropiado para el desarrollo.\n\nLos generadores de Dibujo y Arte producen páginas para colorear, indicaciones de dibujo y fichas de creatividad visual. Los libros para colorear son una de las categorías de mayor volumen en Amazon KDP. Dado que el contenido es puramente visual, no requiere traducción y funciona de manera idéntica en todos los mercados de idiomas — convirtiéndolo en el tipo de producto más portable internacionalmente.\n\nLos generadores de Puzzles y Juegos producen laberintos, Sudoku, puzzles lógicos y contenido similar basado en desafíos. Los libros de puzzles tienen una audiencia dedicada de compradores en Amazon y se venden de manera consistente durante todo el año. Los puzzles basados en números como Sudoku no requieren ninguna localización lingüística.\n\nLos generadores de Patrones y Lógica producen fichas de reconocimiento de patrones, secuenciación y pensamiento lógico. Estos se dirigen al mercado educativo con contenido que desarrolla habilidades de pensamiento crítico — una categoría en crecimiento a medida que los padres buscan actividades de aprendizaje sin pantalla para los niños.`,
     },
     {
-      heading: 'Herramientas de Diseño y Formato',
+      heading: `Herramientas de Diseño y Formato`,
       content: `Una vez que tu herramienta de creación de contenido está en su lugar, las herramientas de diseño y formato se encargan del empaquetado que hace que tus productos estén listos para el mercado. Estas herramientas son complementarias a los generadores de fichas, no sustitutos de ellos.\n\nEl diseño de portadas es esencial para libros de Amazon KDP. Cada libro en rústica requiere una portada delantera, lomo y contraportada que cumpla con los requisitos dimensionales específicos de KDP. Canva ofrece plantillas de portadas para KDP en su nivel gratuito. Adobe Express ofrece una funcionalidad similar. Book Bolt es una herramienta especializada que incluye plantillas de portadas para KDP con cálculos de lomo precisos basados en el número de páginas. Los generadores de fichas se encargan del contenido interior; las herramientas de diseño de portadas se encargan del empaquetado exterior.\n\nLas imágenes de mockup son críticas para las publicaciones de Etsy. Los compradores no pueden inspeccionar físicamente las descargas digitales, así que tus imágenes de publicación sirven como la señal principal de calidad. Los generadores de mockups colocan las páginas de tus fichas en escenas realistas — sobre un escritorio, en las manos de un niño, junto a crayones — que ayudan a los compradores a visualizar el producto. Canva, Placeit y herramientas similares ofrecen plantillas de mockup específicamente para productos imprimibles.\n\nLas herramientas de formato PDF se vuelven relevantes cuando empaquetas múltiples fichas en paquetes más grandes. Combinar fichas PDF individuales en un único documento de varias páginas, agregar un índice o insertar una página de portada requiere manipulación de PDF. Herramientas gratuitas como PDF Merger, iLovePDF y servicios web similares manejan esto. Para vendedores que crean paquetes grandes regularmente, los editores de PDF de escritorio ofrecen más control.\n\nEl punto clave sobre las herramientas de diseño: los generadores de fichas producen PDFs completos y listos para imprimir. No necesitas software de diseño para crear las fichas en sí. Las herramientas de diseño son exclusivamente para portadas, imágenes de publicación y empaquetado de paquetes. Esta distinción ahorra a los nuevos vendedores una cantidad significativa de dinero — una cuenta gratuita de Canva más herramientas gratuitas de PDF es suficiente para la mayoría de los vendedores que están empezando.`,
     },
     {
@@ -78,15 +78,15 @@ const content: StartContent = {
       description: `Abre generadores de diferentes categorías y usa la prueba gratis con marca de agua para producir fichas de muestra. Cronometra tu velocidad de producción, evalúa la calidad del resultado y anota qué generadores crean productos mejor adaptados a tu mercado objetivo.`,
     },
     {
-      step: 'Identifica Tu Herramienta Principal de Producción',
+      step: `Identifica Tu Herramienta Principal de Producción`,
       description: `Basándote en tu experiencia de prueba, selecciona el generador que produce el resultado de mayor calidad para tu nicho objetivo. Este se convierte en tu primera inversión en herramientas y la base de tu catálogo inicial de productos.`,
     },
     {
-      step: 'Configura Tu Primera Plataforma de Venta',
+      step: `Configura Tu Primera Plataforma de Venta`,
       description: `Elige una plataforma para empezar: Etsy para descargas digitales, Amazon KDP para libros de actividades o Gumroad para recursos del mercado. Crea tu cuenta de vendedor y familiarízate con el proceso de publicación antes de subir productos.`,
     },
     {
-      step: 'Crea Tus Primeros 15 a 20 Productos',
+      step: `Crea Tus Primeros 15 a 20 Productos`,
       description: `Usando tu generador elegido, produce fichas con tres a cinco temas en múltiples niveles de dificultad. Cada combinación de tema y dificultad crea una publicación distinta, construyendo tu catálogo inicial desde una sola herramienta.`,
     },
     {
@@ -114,7 +114,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'matching-worksheets',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Demuestra la versatilidad de la herramienta con modos de asociación imagen-palabra e imagen-imagen. Las bibliotecas de imágenes temáticas convierten un generador en docenas de productos de nicho — asociación de animales, asociación de comida, asociación de vehículos — cada uno dirigido a diferentes búsquedas de compradores.`,
     },
     {
@@ -124,12 +124,12 @@ const content: StartContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de Fichas de Matemáticas',
+      title: `Generador de Fichas de Matemáticas`,
       description: `Cubre múltiples tipos de operaciones (suma, resta, multiplicación, división, mixtas) con niveles de dificultad configurables. Demuestra la profundidad de personalización disponible — un generador produce cientos de configuraciones únicas de fichas.`,
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Resultado puramente visual sin ninguna dependencia de idioma. Las páginas para colorear funcionan de forma idéntica en todos los mercados del mundo, convirtiendo esto en la herramienta de producción más portable internacionalmente. Categoría de alto volumen en Amazon KDP con demanda constante durante todo el año.`,
     },
     {
@@ -139,7 +139,7 @@ const content: StartContent = {
     },
     {
       appId: 'sudoku-worksheets',
-      title: 'Generador de Puzzles de Sudoku',
+      title: `Generador de Puzzles de Sudoku`,
       description: `Puzzles basados en números con atractivo universal y cero requisitos de localización. Los libros de Sudoku se venden de manera idéntica en todos los marketplaces de Amazon del mundo — la herramienta de producción definitiva, agnóstica de plataforma e idioma.`,
     },
   ],
@@ -181,18 +181,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía base completa que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas Que Se Venden',
+      title: `Cómo Crear Fichas Que Se Venden`,
       description: `Inmersión profunda en estándares de calidad de productos, técnicas de diferenciación y los métodos específicos que hacen que las fichas destaquen frente a la competencia en cada marketplace.`,
     },
     {
       slug: 'crear-fichas-multilingues',
-      title: 'Cómo Crear Fichas en 11 Idiomas',
+      title: `Cómo Crear Fichas en 11 Idiomas`,
       description: `La guía completa de producción multilingüe de fichas — selección de idiomas, verificación de calidad y estrategias de mercado internacional usando un único conjunto de herramientas generadoras.`,
     },
     {
@@ -203,38 +203,38 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales Que Se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales Que Se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
     { pageType: 'start', slug: 'ingresos-negocio-imprimibles', anchorText: `Ingresos del Negocio de Imprimibles: Expectativas Realistas` },
-    { pageType: 'start', slug: 'crear-fichas-multilingues', anchorText: 'Cómo Crear Fichas en 11 Idiomas' },
+    { pageType: 'start', slug: 'crear-fichas-multilingues', anchorText: `Cómo Crear Fichas en 11 Idiomas` },
     { pageType: 'app', slug: 'relacionar-fichas', anchorText: `Generador de Fichas de Asociación — Todos los Detalles` },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Prueba el Generador de Fichas de Asociación' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Todos los Detalles` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Prueba el Generador de Fichas de Asociación` },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación demostrando la versatilidad de la herramienta y el resultado de la biblioteca de imágenes temáticas' },
+    heroImage: { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación demostrando la versatilidad de la herramienta y el resultado de la biblioteca de imágenes temáticas` },
     samples: [
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación mostrando emparejamiento imagen-palabra con ilustraciones temáticas', caption: 'Asociación — Herramienta Versátil con Múltiples Modos' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de puzzle de sopa de letras demostrando generación sensible al idioma`, caption: 'Sopa de Letras — El Generador de Puzzles Más Popular' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear mostrando calidad de diseño sin dependencia de idioma', caption: 'Colorear — Contenido Visual Universal' },
-      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: 'Puzzle de crucigrama demostrando capacidades de generación multilingüe', caption: 'Crucigrama — Herramienta de Puzzles Multilingüe' },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación mostrando emparejamiento imagen-palabra con ilustraciones temáticas`, caption: `Asociación — Herramienta Versátil con Múltiples Modos` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de puzzle de sopa de letras demostrando generación sensible al idioma`, caption: `Sopa de Letras — El Generador de Puzzles Más Popular` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear mostrando calidad de diseño sin dependencia de idioma`, caption: `Colorear — Contenido Visual Universal` },
+      { src: `/samples/spanish/crossword/Crucigrama con Dibujos 1.webp`, alt: `Puzzle de crucigrama demostrando capacidades de generación multilingüe`, caption: `Crucigrama — Herramienta de Puzzles Multilingüe` },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: `Cómo Crear Fichas de Asociación para Tu Negocio de Imprimibles — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Mariposa — imagen educativa temática', caption: 'Mariposa' },
-    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Oruga — imagen educativa temática', caption: 'Oruga' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Ciempiés — imagen educativa temática', caption: 'Ciempiés' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Mariposa — imagen educativa temática`, caption: 'Mariposa' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: `Oruga — imagen educativa temática`, caption: 'Oruga' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Ciempiés — imagen educativa temática`, caption: 'Ciempiés' },
   ],
 };
 

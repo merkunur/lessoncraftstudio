@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-Demand Worksheet Ideas to Sell — Guide',
+    titleTag: `Print-on-Demand Worksheet Ideas to Sell — Guide`,
     metaDescription: `Print-on-demand worksheet ideas for Etsy, KDP, and Shopify sellers. Build a zero-inventory printable business with workbooks, activity packs, and puzzle.`,
 
-    primaryKeyword: 'print-on-demand worksheet ideas',
+    primaryKeyword: `print-on-demand worksheet ideas`,
     secondaryKeywords: [
       'POD printable business ideas',
-      'print-on-demand educational products',
-      'sell worksheets with print-on-demand',
+      `print-on-demand educational products`,
+      `sell worksheets with print-on-demand`,
       'POD worksheet business model',
     ],
     lsiKeywords: [
-      'automated printing and fulfillment',
-      'on-demand educational product sales',
-      'zero-inventory worksheet business',
+      `automated printing and fulfillment`,
+      `on-demand educational product sales`,
+      `zero-inventory worksheet business`,
     ],
   },
   hero: {
@@ -88,7 +88,7 @@ Print-on-demand also enables rapid product testing and iteration because launchi
   platformTips: [
     {
       platform: 'Amazon KDP',
-      title: 'Selling POD Workbooks on Amazon KDP',
+      title: `Selling POD Workbooks on Amazon KDP`,
       description: `Amazon KDP is the dominant print-on-demand platform for educational workbooks with massive organic traffic from parents and buyers searching for printed educational materials by grade level, subject, and activity type. KDP handles all printing, fulfillment, and customer service while you focus exclusively on content creation and keyword optimization that drives organic discovery within Amazon search results. Create workbooks of eighty to one hundred twenty pages organized by subject and grade level using KDP paperback format, which provides the page count that buyers expect from printed educational workbooks while keeping production costs reasonable for competitive pricing with healthy royalty margins. Optimize titles and subtitles with specific grade levels, subjects, and activity types that match the exact search queries parents and buyers use when shopping for printed practice materials on Amazon. Use KDP category selections strategically to appear in relevant educational workbook browsing paths where buyers discover new products through category exploration rather than direct keyword searches. The royalty structure rewards higher page counts and competitive pricing, so experiment with different workbook lengths and price points to find the optimal combination that maximizes per-unit royalty while maintaining the competitive positioning that drives consistent sales volume in your target educational categories.`,
     },
     {
@@ -98,7 +98,7 @@ Print-on-demand also enables rapid product testing and iteration because launchi
     },
     {
       platform: 'Shopify + Gelato/Printify',
-      title: 'Building a POD Worksheet Brand on Shopify',
+      title: `Building a POD Worksheet Brand on Shopify`,
       description: `Shopify storefronts with POD integration through Gelato or Printify enable branded worksheet product lines with complete control over pricing, presentation, customer experience, and brand identity that marketplace platforms cannot provide. Build a professional educational product brand with printed workbooks, activity packs, and worksheet sets that POD partners produce and ship directly to customers under your brand name with custom packaging options that reinforce brand recognition and professionalism. The direct-to-consumer model eliminates marketplace fees that reduce margins on Etsy and Amazon, and builds customer relationships through your own email list, branded communications, and personalized shopping experiences that foster repeat purchases and brand loyalty over time. Combine printed POD products with digital downloads on the same storefront for maximum product variety, allowing customers to choose between instant digital delivery and professionally printed physical products based on their preferences and use case requirements. Shopify subscription apps also enable recurring orders for customers who want monthly or quarterly printed worksheet deliveries, creating predictable revenue streams from loyal customers who prefer automated reordering over manual repurchasing. The initial setup investment for a Shopify storefront is higher than marketplace alternatives, but the long-term economics favor direct sales as your customer base grows because you retain the customer relationship, avoid marketplace commission fees, and build a brand asset with lasting value beyond any single platform.`,
     },
     {
@@ -143,32 +143,32 @@ Print-on-demand also enables rapid product testing and iteration because launchi
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -177,18 +177,18 @@ Print-on-demand also enables rapid product testing and iteration because launchi
     },
     {
       pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Worksheet Subscription Box Business Ideas',
+      slug: `subscription-box-printable-ideas`,
+      anchorText: `Worksheet Subscription Box Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

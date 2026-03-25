@@ -4,16 +4,16 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'math worksheet bundle',
     secondaryKeywords: [
-      'math printable bundle for sellers',
-      'math worksheet generator pack commercial use',
-      'printable math activities bundle for Etsy',
-      'math worksheet toolkit for KDP sellers',
+      `math printable bundle for sellers`,
+      `math worksheet generator pack commercial use`,
+      `printable math activities bundle for Etsy`,
+      `math worksheet toolkit for KDP sellers`,
     ],
     lsiKeywords: [
-      'addition subtraction worksheet pack',
-      'math puzzle printable collection',
-      'commercial license math worksheets',
-      'bulk math worksheet creation tool',
+      `addition subtraction worksheet pack`,
+      `math puzzle printable collection`,
+      `commercial license math worksheets`,
+      `bulk math worksheet creation tool`,
     ],
     titleTag: `Math Worksheet Bundle — 6 Generators | Math Mastery`,
     metaDescription: `Get 6 math worksheet generators in one bundle. Create addition, subtraction, code puzzles, comparison, and algebra worksheets to sell on Etsy, KDP & Gumroad.`,
@@ -31,19 +31,19 @@ const content: BundleContent = {
       description: `Create image-based addition worksheets in four distinct modes: Image + Image counting, Image + Number hybrid problems, Find the Addend missing-value challenges, and Mixed mode that combines all three on a single page. Solvers count themed pictures to solve each equation, making abstract addition concrete and engaging. Set the number range from 1 to 99, choose between 4, 6, 8, or 12 problems per page, and select images from over 100 themed sets including animals, food, vehicles, and seasonal categories. Every worksheet generates a matching answer key automatically. Choose from multiple page sizes, add decorative borders and themed backgrounds, and download as print-ready PDF or JPEG.`,
     },
     {
-      title: 'Subtraction Worksheet Generator',
+      title: `Subtraction Worksheet Generator`,
       description: `Generate visual subtraction worksheets with four modes including the unique Cross Out approach — users physically mark through images to find the difference, building intuitive understanding of subtraction as removal. Additional modes cover Image - Image, Image - Number, and Mixed formats. Configurable number ranges, problem counts, and themed image sets give you the same flexibility as the addition generator, with subtraction-specific design built in. The Cross Out mode is particularly popular because it turns subtraction into a hands-on activity that users can physically interact with on the printed page.`,
     },
     {
-      title: 'Code Addition Worksheet Generator',
+      title: `Code Addition Worksheet Generator`,
       description: `Produce cryptarithmetic code-breaker puzzles where solvers complete addition equations to decode letters and reveal hidden words. This is the only app in the bundle with a language-sensitive feature: Word Reveal mode draws from vocabulary lists in all 11 supported languages, so the decoded words match the worksheet language. Standard Code mode uses simple letter-to-number mapping and works identically across all languages. Set difficulty with number ranges and equation count per puzzle. The code-breaker format combines math practice with word discovery, making it a standout product in any math worksheet shop — buyers consistently rate puzzle-style worksheets higher than standard drill sheets.`,
     },
     {
-      title: 'More or Less Worksheet Generator',
+      title: `More or Less Worksheet Generator`,
       description: `Build greater-than, less-than, and equal-to comparison worksheets in three modes. Compare Groups mode shows two image clusters for visual counting comparison. Compare Numbers mode presents bare numerals for faster, abstract practice. The unique Check & Cross Groups mode asks solvers to check the larger group and cross the smaller one — a tactile, proven exercise that reinforces comparison concepts through physical interaction with the page. Configurable number ranges and themed images keep worksheets varied across product listings. Comparison worksheets are a staple early-learner product that every math printable shop should carry.`,
     },
     {
-      title: 'Math Puzzle Worksheet Generator',
+      title: `Math Puzzle Worksheet Generator`,
       description: `Create jigsaw-grid image puzzles where solvers complete a math equation on each puzzle piece to assemble the full picture. Grids scale from 2x2 (4 pieces) for beginners up to 4x4 (16 pieces) for advanced users. Each piece shows an equation — the answer tells the solver where to place it. Choose addition, subtraction, or mixed operations and set the number range to match your target grade level. The reveal image comes from the themed library or your own uploads. The puzzle format makes math feel like a game rather than a drill — solvers are motivated to complete every equation because the reward is seeing the completed picture.`,
     },
     {
@@ -66,11 +66,11 @@ const content: BundleContent = {
       description: `Every generator in the bundle produces a corresponding answer key with each worksheet. Answer keys are a top buyer expectation on Etsy and Gumroad — this bundle delivers them automatically, saving hours of manual work.`,
     },
     {
-      title: 'Consistent Professional Quality',
+      title: `Consistent Professional Quality`,
       description: `All six generators share the same design engine: matching borders, backgrounds, fonts, and layout options. Your worksheets look like they belong to a cohesive brand, not six different tools stitched together.`,
     },
     {
-      title: 'Sell Worldwide Without Translation',
+      title: `Sell Worldwide Without Translation`,
       description: `Five of the six apps produce purely visual worksheets — images and numbers only, no language on the page. Sell the same PDF to buyers in any country. Code Addition adds optional language-aware Word Reveal for sellers targeting specific-language markets.`,
     },
     {
@@ -104,39 +104,39 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Tutoring and Homeschool Materials',
+      title: `Tutoring and Homeschool Materials`,
       description: `Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so users never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for the younger audience and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle. Tutors who serve multiple learners can generate personalized worksheet sets tailored to each person's current skill level and interests, creating a differentiated approach that parents value and are willing to pay premium tutoring rates for. Homeschool families benefit from the variety across six generators because it prevents the repetitive worksheet fatigue that often derails at-home math practice.`,
     },
     {
-      title: 'Bulk Licensing to Schools and Districts',
+      title: `Bulk Licensing to Schools and Districts`,
       description: `Schools and districts purchase supplemental math materials in bulk. Create grade-aligned worksheet packs and offer them directly through your website or online store. The commercial license lets you sell to institutions without per-copy restrictions. Package worksheets from all six generators into comprehensive grade-level kits that cover the full scope of elementary math standards. District-level sales are particularly lucrative because a single purchase decision can cover multiple grades and programs, generating significantly higher revenue per transaction than individual consumer sales. The six generators in this bundle provide enough variety to create complete math supplement packages spanning multiple grade levels.`,
     },
     {
-      title: 'International Market Expansion',
+      title: `International Market Expansion`,
       description: `Reach buyers in non-English markets without translating your products. Five of the six generators produce worksheets with images and numbers only — no language on the page. List the same PDF on international Etsy shops, localized KDP marketplaces, or regional educational platforms. The Full Access tier adds 11 interface languages for Code Addition Word Reveal, letting you create language-specific puzzle products for targeted markets.`,
     },
   ],
 
   featureComparison: [
-    { feature: 'All 6 math worksheet generators', commercial: 'Yes', fullAccess: 'Yes' },
+    { feature: `All 6 math worksheet generators`, commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Themed image sets', commercial: '10 themes', fullAccess: '104 themes' },
-    { feature: 'Custom image uploads (PNG/JPEG)', commercial: 'Yes', fullAccess: 'Yes' },
+    { feature: `Custom image uploads (PNG/JPEG)`, commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Automatic answer keys', commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'PDF and JPEG download', commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Commercial selling rights', commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Interface languages', commercial: 'English only', fullAccess: '11 languages' },
-    { feature: 'Code Addition Word Reveal languages', commercial: 'English only', fullAccess: '11 languages' },
+    { feature: `Code Addition Word Reveal languages`, commercial: 'English only', fullAccess: '11 languages' },
     { feature: 'Watermark-free downloads', commercial: 'Yes', fullAccess: 'Yes' },
     { feature: 'Lifetime updates', commercial: 'Yes', fullAccess: 'Yes' },
   ],
 
   whoIsThisFor: [
     {
-      title: 'Etsy and KDP Printable Sellers',
+      title: `Etsy and KDP Printable Sellers`,
       description: `You sell digital downloads on Etsy or publish workbooks on Amazon KDP and want a fast, reliable way to produce professional math worksheets at scale. The bundle gives you six generators and hundreds of theme combinations to build a diverse product catalog without design skills or expensive software. Create new listings in minutes rather than hours and keep your shop stocked with fresh, seasonal content year-round. The six-generator approach means you never hit a creative wall — when one generator has produced enough addition worksheets for your catalog, switch to subtraction, puzzles, or comparison activities and create entirely new product listings with minimal effort. Seasonal theme rotations using the built-in image library let you refresh your shop appearance monthly without creating products from scratch.`,
     },
     {
-      title: 'Gumroad and Independent Store Sellers',
+      title: `Gumroad and Independent Store Sellers`,
       description: `You sell digital products on Gumroad or your own website and need tools that match buyer expectations. Each generator produces polished worksheets with automatic answer keys and multiple difficulty settings — exactly what buyers expect from premium math resources. The four difficulty levels per generator make it easy to create differentiated product packs organized by grade level and skill. Buyers expect ready-to-use materials with consistent visual presentation across a product line — the shared design engine across all six generators ensures your math resources maintain a cohesive professional appearance that builds brand credibility and earns repeat purchases from buyers who trust your quality standards.`,
     },
     {
@@ -151,7 +151,7 @@ const content: BundleContent = {
 
   faq: [
     {
-      question: 'Can I try the generators before buying?',
+      question: `Can I try the generators before buying?`,
       answer: `Yes. Every generator in the bundle offers a free trial with full functionality. You can configure settings, preview worksheets, and download files. Trial downloads include a watermark. Purchasing a license removes the watermark so you can sell commercially.`,
     },
     {
@@ -159,7 +159,7 @@ const content: BundleContent = {
       answer: `Each generator produces print-ready PDF and high-resolution JPEG files. You can choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or enter a custom size. PDF is ideal for multi-page worksheet packs on Etsy and Gumroad. JPEG works well for KDP interior pages and social media previews. All files download at print resolution — no upscaling or post-processing needed.`,
     },
     {
-      question: 'Do the worksheets include answer keys?',
+      question: `Do the worksheets include answer keys?`,
       answer: `Yes. All six generators automatically create a corresponding answer key for every worksheet. Answer keys are a top expectation for buyers on Etsy and Gumroad, and they save you the time of solving every problem manually.`,
     },
     {
@@ -175,11 +175,11 @@ const content: BundleContent = {
       answer: `Both tiers include all six generators with watermark-free downloads and commercial selling rights. Commercial gives you 10 themed image sets and English-only interface. Full Access unlocks all 104 themed image sets and all 11 interface languages, including Code Addition vocabulary in every supported language.`,
     },
     {
-      question: 'Can I sell the worksheets I create?',
+      question: `Can I sell the worksheets I create?`,
       answer: `Yes. Both the Commercial and Full Access licenses include commercial selling rights. You can sell the worksheets you generate on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. You sell the worksheets — the generator tool itself is not transferable.`,
     },
     {
-      question: 'How many worksheets can I create?',
+      question: `How many worksheets can I create?`,
       answer: `There is no limit. Once licensed, you can generate as many worksheets as you want across all six generators. There are no per-download fees, monthly caps, or usage restrictions. Many sellers generate dozens of worksheets per session to build themed product packs. With six generators and 100+ image themes, the number of unique worksheet combinations is practically unlimited.`,
     },
     {
@@ -201,44 +201,44 @@ const content: BundleContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Publish Math Activity Books on Amazon KDP' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Worksheets That Sell' },
-    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math Facts Printable Ideas for Sellers' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: `Addition Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: `Subtraction Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: `Code Addition Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'more-less-worksheets', anchorText: `More or Less Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: `Math Puzzle Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'math-worksheets', anchorText: `Math Worksheet Generator — Full Details` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `How to Sell Math Worksheets on Etsy` },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: `Publish Math Activity Books on Amazon KDP` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Worksheets That Sell` },
+    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: `Math Facts Printable Ideas for Sellers` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/Addition Fun 1.webp',
+      primary: `/samples/english/addition/Addition Fun 1.webp`,
       primaryAlt: `Addition worksheet with themed images showing visual counting problems`,
     },
     sampleGallery: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with themed animal images', caption: 'Addition Worksheet' },
-      { src: `/samples/english/subtraction/Subtraction Fun 1.webp`, alt: 'Subtraction worksheet with cross-out counting', caption: 'Subtraction Worksheet' },
-      { src: `/samples/english/code addition/Code Breaker Addition 1.webp`, alt: 'Code addition puzzle with letter decoding', caption: 'Code Addition Puzzle' },
-      { src: '/samples/english/more less/More Less (10).webp', alt: 'Greater than less than comparison worksheet', caption: 'More or Less Worksheet' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Jigsaw grid math puzzle with equations', caption: 'Math Puzzle Worksheet' },
-      { src: `/samples/english/math worksheet/Math Worksheet 10.webp`, alt: 'Visual algebra puzzle with image variables', caption: 'Math Worksheet Puzzle' },
+      { src: `/samples/english/addition/Addition Fun 1.webp`, alt: `Addition worksheet with themed animal images`, caption: 'Addition Worksheet' },
+      { src: `/samples/english/subtraction/Subtraction Fun 1.webp`, alt: `Subtraction worksheet with cross-out counting`, caption: 'Subtraction Worksheet' },
+      { src: `/samples/english/code addition/Code Breaker Addition 1.webp`, alt: `Code addition puzzle with letter decoding`, caption: 'Code Addition Puzzle' },
+      { src: `/samples/english/more less/More Less (10).webp`, alt: `Greater than less than comparison worksheet`, caption: 'More or Less Worksheet' },
+      { src: `/samples/english/math puzzle/Math Puzzles.webp`, alt: `Jigsaw grid math puzzle with equations`, caption: 'Math Puzzle Worksheet' },
+      { src: `/samples/english/math worksheet/Math Worksheet 10.webp`, alt: `Visual algebra puzzle with image variables`, caption: 'Math Worksheet Puzzle' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Math Mastery Bundle — See All 6 Generators in Action`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Circle — themed educational image', caption: 'Circle' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cone — themed educational image', caption: 'Cone' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cube — themed educational image', caption: 'Cube' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — themed educational image', caption: 'Cylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamond — themed educational image', caption: 'Diamond' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Heart — themed educational image', caption: 'Heart' },
-    { src: '/image-library/shapes/heptagon.webp', alt: 'Heptagon — themed educational image', caption: 'Heptagon' },
-    { src: '/image-library/shapes/hexagon.webp', alt: 'Hexagon — themed educational image', caption: 'Hexagon' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Circle — themed educational image`, caption: 'Circle' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cone — themed educational image`, caption: 'Cone' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cube — themed educational image`, caption: 'Cube' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cylinder — themed educational image`, caption: 'Cylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamond — themed educational image`, caption: 'Diamond' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Heart — themed educational image`, caption: 'Heart' },
+    { src: `/image-library/shapes/heptagon.webp`, alt: `Heptagon — themed educational image`, caption: 'Heptagon' },
+    { src: `/image-library/shapes/hexagon.webp`, alt: `Hexagon — themed educational image`, caption: 'Hexagon' },
   ],
 };
 

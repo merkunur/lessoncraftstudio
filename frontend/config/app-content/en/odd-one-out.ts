@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `printable odd one out puzzle maker for Etsy sellers`,
       `find the different picture worksheet generator for KDP publishers`,
-      'odd one out activity creator commercial license',
-      'sell odd one out puzzles on Gumroad',
+      `odd one out activity creator commercial license`,
+      `sell odd one out puzzles on Gumroad`,
     ],
     lsiKeywords: [
-      'digital odd one out printables online business',
+      `digital odd one out printables online business`,
       `commercial use visual discrimination worksheet generator`,
       `printable find the different puzzle business tools`,
     ],
-    titleTag: 'Odd One Out Generator | Create & Sell Worksheets',
+    titleTag: `Odd One Out Generator | Create & Sell Worksheets`,
     metaDescription: `Create odd one out worksheets to sell on Etsy, KDP & Gumroad. Two puzzle modes, auto answer key with red circles, 104 themes. Try free — license available.`,
   },
 
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Odd One Out Worksheets in 5 Steps',
+    title: `How to Create Odd One Out Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -44,12 +44,12 @@ const content: AppContent = {
           `Open the Image Library panel and choose Theme A from the dropdown — this provides the three common images in Similar mode. Choose Theme B for the odd item in Similar mode (e.g., Theme A = animals, Theme B = food). Browse 104 themed collections with 3,100+ colorful illustrations, or search by keyword. In Identical mode, only one theme is needed since both the common and odd images come from the same collection. You can also upload custom PNG, JPG, or GIF images to use alongside library content.`,
       },
       {
-        title: 'Generate the Odd One Out Worksheet',
+        title: `Generate the Odd One Out Worksheet`,
         description:
           `Click Generate to create the exercise cards. Each card displays four images in a horizontal row — three common items and one odd item with its position randomly shuffled. The app arranges cards in 1–2 columns depending on page orientation and exercise count (2 columns for landscape or portrait with 7+ exercises). A styled "Find the Odd One Out" header appears at the top with a coral outer border (#FF6B6B, 8px stroke), amber inner border (#FFB84D, 3px stroke), and turquoise background (#4ECDC4) — with the title in dark teal Fredoka (#1A535C) and instructions in red Quicksand (#E63946).`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see the auto-generated answer key with a red circle drawn around the odd item in each exercise row. The circle's stroke width scales with image size (max of imageSize × 0.04 or 3px) for consistent visibility across page sizes. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -80,7 +80,7 @@ const content: AppContent = {
           `Similar mode uses a two-theme system that makes cross-category discrimination puzzles effortless to create. Select Theme A from the dropdown for the three common images in each exercise, then select Theme B for the single odd item. Pair animals with food, vehicles with nature, professions with sports — any combination from the 104 available themes. This system guarantees that the odd item is always thematically distinct, creating clear and well-structured puzzles without manual image selection for each exercise.`,
       },
       {
-        title: 'Auto-Generated Answer Key with Red Circle Markers',
+        title: `Auto-Generated Answer Key with Red Circle Markers`,
         description:
           `Every odd one out worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact worksheet layout and draws a red circle outline around the odd item in each exercise row. The circle's stroke width scales dynamically with image size — calculated as the maximum of imageSize × 0.04 or 3 pixels — ensuring consistent visibility across all page sizes and exercise counts. No manual marking, no separate file creation — the answer key stays in sync with the worksheet automatically.`,
       },
@@ -103,46 +103,46 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Odd One Out Worksheets Online',
+    title: `How to Sell Odd One Out Worksheets Online`,
     cases: [
       {
-        title: 'Themed Odd One Out Puzzle Bundles on Etsy',
+        title: `Themed Odd One Out Puzzle Bundles on Etsy`,
         description:
           `Create themed visual discrimination bundles using the two-theme system — animals vs. food, vehicles vs. nature, holidays vs. sports, and dozens more cross-theme combinations. Each theme pairing produces enough unique exercises for multiple worksheets with both Identical and Similar modes. Package 10–20 odd one out worksheets per bundle with answer keys included, and sell at $3–$7 per set. The visual-only format means every bundle works for any language market without modification, expanding your customer base globally.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Visual Discrimination Workbooks on Amazon KDP',
+        title: `Visual Discrimination Workbooks on Amazon KDP`,
         description:
           `Compile 40–80 odd one out worksheets into a printed workbook formatted for Amazon KDP. Structure your book with progressive difficulty: early chapters use Identical mode (spot the non-clone), middle chapters use Similar mode with obvious theme contrasts, and advanced chapters use Similar mode with subtler distinctions. Use the per-exercise mode override to create mixed-difficulty pages that challenge solvers to switch between visual strategies. Include answer keys at the back using the auto-generated red-circle answer key. The grayscale toggle produces ink-friendly pages for black-and-white book interiors.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Niche Store Critical Thinking Products on Gumroad',
+        title: `Niche Store Critical Thinking Products on Gumroad`,
         description:
           `Build ready-to-use odd one out worksheets with name and date fields, exercise numbers, and printed answer keys. Buyers browsing Gumroad for critical thinking activities value worksheets that arrive polished — the name field adds a professional touch, exercise numbers make referencing easy, and the red-circle answer key adds perceived value. Create themed sets: animal classification challenges, food group discrimination, community helper identification, and seasonal awareness puzzles. Each set includes worksheets and answer keys in both PDF and JPEG formats.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal and Holiday Puzzle Collections',
+        title: `Seasonal and Holiday Puzzle Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited odd one out collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine's Day packs in January. Mix Identical and Similar modes within each seasonal set for variety and perceived value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine`s Day, back-to-school, summer vacation, and more. Create time-limited odd one out collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine`s Day packs in January. Mix Identical and Similar modes within each seasonal set for variety and perceived value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
-        title: 'Global Market Appeal with Visual-Only Puzzles',
+        title: `Global Market Appeal with Visual-Only Puzzles`,
         description:
           `Because odd one out worksheets are entirely visual — no text appears on the puzzle itself — every worksheet works in any language without modification. The auto-generated header translates into all 11 supported languages, but the puzzle content requires zero localization. This makes odd one out worksheets uniquely efficient for sellers targeting international markets. Create one set of worksheets and list it in multiple language-specific Etsy shops or Amazon KDP marketplaces. The same product serves English, German, French, Spanish, and every other market simultaneously.`,
-        platform: 'Etsy / Amazon KDP (global market)',
+        platform: `Etsy / Amazon KDP (global market)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'How does the odd one out mechanic work?',
+      question: `How does the odd one out mechanic work?`,
       answer:
-        `Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn't belong, and circle it. The odd item's position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.`,
+        `Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn`t belong, and circle it. The odd item`s position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.`,
     },
     {
       question: `What is the difference between Identical and Similar modes?`,
@@ -150,7 +150,7 @@ const content: AppContent = {
         `Identical mode places three clones of the exact same image alongside one different image from the same theme — solvers spot the non-duplicate. Similar mode draws three images from Theme A (e.g., animals) and one image from Theme B (e.g., food) — solvers identify the thematic outlier. Identical mode is easier because solvers compare visual duplicates. Similar mode is harder because all four images are different and the distinction is categorical rather than visual.`,
     },
     {
-      question: 'How does the per-exercise mode override work?',
+      question: `How does the per-exercise mode override work?`,
       answer:
         `Each exercise row includes its own mode dropdown that lets you override the global mode setting. Set the global mode to Similar, then switch individual exercises to Identical — or vice versa. This creates mixed-difficulty worksheets where some exercises are easier (Identical) and others are harder (Similar) on the same page. A "Clear Selections" button resets all per-exercise overrides back to the global setting.`,
     },
@@ -185,7 +185,7 @@ const content: AppContent = {
         `Yes. You can access every feature — both generation modes, per-exercise overrides, configurable exercise counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.`,
     },
     {
-      question: 'Are odd one out worksheets language-sensitive?',
+      question: `Are odd one out worksheets language-sensitive?`,
       answer:
         `No. Unlike apps that display words on the worksheet, odd one out puzzles are entirely visual — no text appears on the puzzle content itself. The auto-generated header ("Find the Odd One Out") translates into all 11 supported languages, but the actual exercises contain only images. This means every worksheet works in any language without modification, making odd one out puzzles ideal for global marketplace sales.`,
     },
@@ -205,7 +205,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
+      anchorText: `Missing Pieces Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -215,17 +215,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'picture-path-worksheets',
-      anchorText: 'Picture Path Worksheet Generator',
+      anchorText: `Picture Path Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
+      anchorText: `Shadow Match Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
+      anchorText: `Find and Count Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -235,7 +235,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'create-odd-one-out-puzzles',
-      anchorText: 'How to Create Odd One Out Puzzles That Sell',
+      anchorText: `How to Create Odd One Out Puzzles That Sell`,
     },
     {
       pageType: 'idea',
@@ -245,17 +245,17 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'First Grade Printable Ideas for Primary Education',
+      anchorText: `First Grade Printable Ideas for Primary Education`,
     },
     {
       pageType: 'idea',
       slug: 'second-grade-printable-ideas',
-      anchorText: 'Second Grade Printable Ideas for Growing Learners',
+      anchorText: `Second Grade Printable Ideas for Growing Learners`,
     },
     {
       pageType: 'start',
       slug: 'amazon-kdp-activity-books',
-      anchorText: 'Publish Activity Books on Amazon KDP',
+      anchorText: `Publish Activity Books on Amazon KDP`,
     },
   ],
 

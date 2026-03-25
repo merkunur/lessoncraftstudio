@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rätselbücher auf amazon kdp veröffentlichen',
+    primaryKeyword: `rätselbücher auf amazon kdp veröffentlichen`,
     secondaryKeywords: [
       `Rätselbücher auf Amazon KDP veröffentlichen Anleitung`,
-      'KDP Rätselbuch Veröffentlichung Leitfaden',
-      'Wortsuchbücher für Amazon erstellen',
-      'Amazon KDP Kreuzworträtsel Sudoku Rätselbücher',
+      `KDP Rätselbuch Veröffentlichung Leitfaden`,
+      `Wortsuchbücher für Amazon erstellen`,
+      `Amazon KDP Kreuzworträtsel Sudoku Rätselbücher`,
     ],
     lsiKeywords: [
       `Wortsuche Kreuzworträtsel Sudoku Rätselbuch Innenseiten`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Rätselbücher auf Amazon KDP veröffentlichen',
+    title: `Rätselbücher auf Amazon KDP veröffentlichen`,
     tagline: `Ein vollständiger Leitfaden zum Erstellen und Veröffentlichen von Rätselbüchern auf Amazon KDP — mit Wortsuche, Kreuzworträtsel, Sudoku, Mathe-Rätseln und visuellen Rätseltypen, Aufbau von Einzeltyp- und Variety-Rätselbüchern, rätselspezifischer Formatierung für den Druck mit ausreichendem Gitterabstand und Lösungsteilen, dem dualen Markt für Erwachsene und Kinder, Amazon-Keyword-Optimierung für Rätselsuchanfragen, Schwierigkeitssteigerung über Leicht-Mittel-Schwer-Abschnitte, Aufbau mehrbändiger Rätselbuchserien und Katalogstrategien, die Amazons Cross-Promotion nutzen, um den Umsatz über Ihr gesamtes Rätselbuch-Sortiment zu steigern`,
     description: `Rätselbücher gehören zu den größten und beständig profitabelsten Kategorien auf Amazon KDP. Im Gegensatz zu Mathe-Aktivitätsbüchern, die hauptsächlich Eltern und Käufer kleiner Kinder ansprechen, bedienen Rätselbücher einen riesigen dualen Markt — Erwachsene, die Wortsuche-, Kreuzworträtsel- und Sudoku-Bücher als tägliche Unterhaltung genießen, sowie Kinder, die sich mit visuellen Rätseln, Bilderpfaden und thematischen Wortsuchspielen beschäftigen. Dieser Leitfaden führt Sie durch die Erstellung professioneller Rätselbücher — von der Inhaltsgenerierung bis zur Amazon-Veröffentlichung — mit besonderem Augenmerk auf das, was Rätselbücher von anderen Aktivitätsbuch-Kategorien unterscheidet: höhere Seitenzahlen, die Wahl zwischen Einzeltyp- und Variety-Formaten, rätselspezifische Formatierungsanforderungen und die bandbasierte Katalogstrategie, die langfristigen KDP-Umsatz generiert.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Den KDP-Rätselbuch-Markt verstehen',
+      heading: `Den KDP-Rätselbuch-Markt verstehen`,
       content: `Rätselbücher nehmen auf Amazon eine grundlegend andere Marktposition ein als praktische Aktivitätsbücher. Während Mathe-Arbeitsbücher Eltern und Käufer ansprechen, die nach bestimmten Lernergebnissen suchen, bedienen Rätselbücher zwei unterschiedliche Käufersegmente mit verschiedenen Motivationen. Erwachsene Rätselbuch-Käufer — das größere Segment — kaufen zur Unterhaltung, Entspannung, zum Stressabbau und zur geistigen Fitness. Sie kaufen Wortsuchbücher für Reisen, Kreuzworträtsel-Sammlungen für die tägliche Routine und Sudoku-Bücher als Offline-Alternative zu Handy-Spielen. Käufer von Kinder-Rätselbüchern sind typischerweise Eltern, die nach ansprechenden bildschirmfreien Aktivitäten suchen, die auch Problemlösungsfähigkeiten entwickeln.\n\nDieser duale Markt bedeutet, dass Sie Ihre primäre Zielgruppe festlegen müssen, bevor Sie Inhalte erstellen. Wortsuche- und Kreuzworträtsel-Bücher für Erwachsene sind die umsatzstärksten Rätselkategorien auf Amazon mit einer konstanten Nachfrage, die nicht saisonal schwankt wie bei Lernbüchern für Kinder. Kinder-Rätselbücher haben niedrigere individuelle Verkaufszahlen, aber weniger Wettbewerb und stärkere saisonale Spitzen im Sommer, an Feiertagen und zur Schulanfangszeit. Viele erfolgreiche Rätselbuch-Verleger bedienen beide Zielgruppen mit separaten Buchlinien.\n\nDie Wettbewerbslandschaft variiert dramatisch je nach Rätseltyp. Wortsuchbücher haben die höchste Nachfrage, aber auch den meisten Wettbewerb mit Tausenden aktiver Titel. Kreuzworträtsel-Bücher haben eine starke Nachfrage bei moderatem Wettbewerb. Sudoku-Bücher (besonders Bilder-Sudoku für Kinder) besetzen eine kleinere, aber treue Nische. Variety-Rätselbücher — Sammlungen mit verschiedenen Rätseltypen — stehen vor weniger direktem Wettbewerb, weil sie schwerer direkt mit Einzeltyp-Büchern vergleichbar sind. Visuelle Rätseltypen wie Bilderpfade, Fehlersuche und Fehlende-Teile-Rätsel haben den geringsten Wettbewerb, aber auch das spezialisierteste Publikum.\n\nBevor Sie veröffentlichen, verbringen Sie Zeit damit, die Top-20-Ergebnisse für Ihre Ziel-Suchbegriffe auf Amazon zu analysieren. Notieren Sie Seitenzahlen, Preise, Cover-Designs und Bewertungszahlen. Achten Sie besonders auf Bücher mit vielen Bewertungen, aber mittelmäßigen Sternebewertungen — deren negative Rezensionen zeigen genau, was Käufer in dieser Kategorie erwarten und wo bestehende Bücher Schwächen haben. Diese Lücken sind Ihre Veröffentlichungsmöglichkeiten.`,
     },
     {
@@ -39,19 +39,19 @@ const content: GuideContent = {
       content: `Die erste strategische Entscheidung ist, ob Sie ein Einzeltyp-Rätselbuch oder ein Variety-Rätselbuch erstellen. Jedes Format hat unterschiedliche Vorteile für die Amazon-Auffindbarkeit und Käuferzufriedenheit.\n\nEinzeltyp-Bücher (nur Wortsuche, nur Kreuzworträtsel, nur Sudoku) ranken besser für spezifische Keyword-Suchanfragen, weil ihre Titel und Beschreibungen lasergenau auf einen Rätseltyp fokussiert sein können. Ein Buch mit dem Titel „Wortsuche-Rätsel für Erwachsene: 100 Großdruck-Rätsel" konkurriert direkt um den hochfrequentierten Suchbegriff „Wortsuchbuch". Einzeltyp-Bücher ziehen auch Wiederholungskäufer an, die eine starke Präferenz für ein Rätselformat haben — ein Wortsuche-Enthusiast wird mehrere Wortsuche-Bände kaufen, aber möglicherweise ein Variety-Buch mit nur 20 Wortsuchen zwischen anderen Rätseltypen überspringen.\n\nVariety-Rätselbücher (gemischte Rätseltypen) sprechen Käufer an, die vielfältige Unterhaltung in einem Kauf wünschen. Sie eignen sich auch hervorragend als Geschenke, da der Beschenkte entdecken kann, welche Rätseltypen ihm am meisten Spaß machen. Variety-Bücher haben breitere Anziehungskraft, aber schwächeres Keyword-Targeting — sie ranken teilweise für viele Rätseltyp-Suchanfragen, dominieren aber keine. Die Strategie funktioniert am besten, wenn Sie eine wirklich diverse Mischung bieten können: Wortsuche, Kreuzworträtsel, Sudoku, Mathe-Rätsel, visuelle Rätsel und Labyrinth-Inhalte in einem Buch.\n\nFür die Rätsel-Inhaltserstellung passen Sie Ihre Generatoren an Ihr gewähltes Format an. Der Wortsuche-Generator ist unverzichtbar für jedes Rätselbuch-Projekt — Wortsuche ist der beliebteste Rätseltyp auf KDP. Der Kreuzworträtsel-Generator erstellt thematische Kreuzworträtsel, die sowohl für Erwachsenen- als auch Kinderbücher funktionieren. Der Sudoku-Generator produziert bildbasierte Sudoku-Rätsel, ideal für Kinder-Variety-Bücher. Mathe-Rätsel erstellt gitterbasierte Zahlenrätsel, die mathematische Abwechslung hinzufügen. Bilderpfad generiert Labyrinth-ähnliche visuelle Rätsel, die bei jüngeren Zielgruppen beliebt sind. Fehlende Teile erstellt visuelle Ergänzungsrätsel, die ein Kinder-Variety-Buch abrunden.\n\nErwägen Sie, beide Formate aus demselben Inhaltserstellungs-Aufwand zu erstellen. Generieren Sie 80 Wortsuchen, verwenden Sie 60 für ein dediziertes Wortsuchbuch und verteilen Sie die restlichen 20 auf Variety-Rätselbücher neben Inhalten aus anderen Generatoren. Dieser Ansatz maximiert die Rendite Ihrer Inhaltserstellungszeit.`,
     },
     {
-      heading: 'Seitenzahl und Schwierigkeitssteigerung planen',
+      heading: `Seitenzahl und Schwierigkeitssteigerung planen`,
       content: `Rätselbücher erfordern höhere Seitenzahlen als Standard-Aktivitätsbücher, weil jedes Rätsel für die Benutzerfreundlichkeit eine volle Seite einnehmen muss. Käufer schreiben physisch in Rätselbüchern — sie umkreisen Wörter in Wortsuchen, füllen Buchstaben in Kreuzworträtsel, schreiben Zahlen in Sudoku-Gitter — daher frustriert das Zusammendrängen mehrerer Rätsel auf eine Seite die Nutzer und erzeugt negative Bewertungen. Planen Sie ein Rätsel pro Seite als Grundlage.\n\nFür Einzeltyp-Rätselbücher für Erwachsene sind 80 bis 120 Rätselseiten der Marktstandard. Ein „100 Wortsuche-Rätsel"-Buch kommuniziert sofort substantiellen Wert. Für Kinder-Rätselbücher funktionieren 40 bis 80 Rätselseiten gut, weil Kinder langsamer durch Rätsel arbeiten und das Buch länger in Gebrauch bleibt. Für Variety-Rätselbücher bieten 60 bis 100 Rätselseiten genug Platz, um aussagekräftige Mengen jedes Rätseltyps einzubeziehen.\n\nOrganisieren Sie jedes Rätselbuch mit klarer Schwierigkeitssteigerung. Teilen Sie Ihr Buch in drei Abschnitte: Leicht, Mittel und Schwer. Diese Struktur erfüllt mehrere Zwecke. Sie lässt Anfänger mit zugänglichen Rätseln starten und Selbstvertrauen aufbauen. Sie gibt erfahrenen Rätsel-Lösern die Möglichkeit, zu anspruchsvollen Inhalten vorzuspringen. Und sie verlängert die Nutzungsdauer jedes Buches dramatisch, weil Käufer es progressiv durcharbeiten, anstatt schnell alle interessanten Rätsel zu lösen und den Rest aufzugeben.\n\nBei Wortsuchbüchern bedeutet Schwierigkeitssteigerung: größere Gitter (von 12 × 12 auf 20 × 20), längere Wortlisten und schwierigeres Vokabular. Bei Kreuzworträtseln skaliert die Schwierigkeit durch Hinweis-Komplexität und Gitterdichte. Bei Sudoku sind Standardschwierigkeitsgrade von Leicht bis Experte etabliert. Bei Variety-Büchern wechseln Sie bei jeder Schwierigkeitsstufe durch die Rätseltypen — ein leichtes Wortsuche-Rätsel, gefolgt von einem leichten Kreuzworträtsel, gefolgt von einem leichten Sudoku, dann den Zyklus auf mittlerer Schwierigkeit wiederholen.\n\nFügen Sie immer einen Lösungsteil am Ende des Buches ein. Lösungen sind bei Rätselbüchern nicht verhandelbar — Käufer erwähnen Lösungen konstant in Bewertungen, und fehlende Lösungen sind die häufigste Beschwerde in negativen Rätselbuch-Rezensionen. Beschriften Sie jede Lösung mit der entsprechenden Rätsel-Seitenzahl. Der Lösungsteil fügt Seiten zu Ihrem Buch hinzu, ist aber unverzichtbar für die Käuferzufriedenheit.`,
     },
     {
-      heading: 'Vielfältige Rätselinhalte generieren',
+      heading: `Vielfältige Rätselinhalte generieren`,
       content: `Mit Ihrem geplanten Format und Seitenumfang nutzen Sie die Rätsel-Generatoren, um Ihre Inhalte systematisch zu erstellen. Arbeiten Sie jeden Rätseltyp und jede Schwierigkeitsstufe methodisch durch, um eine gleichbleibende Qualität im gesamten Buch zu gewährleisten.\n\nFür Wortsuche-Inhalte erstellt der Wortsuche-Generator thematische Rätselgitter mit anpassbaren Wortlisten, Gittergrößen und visueller Gestaltung. Erstellen Sie thematische Wortsuchen für zusammenhängende Abschnitte — einen Tier-Themenabschnitt, einen Essen-Themenabschnitt, einen Reise-Themenabschnitt. Thematische Gruppierungen verleihen eine wahrgenommene redaktionelle Qualität, die Ihr Buch von Wettbewerbern unterscheidet, die zufällige, themenlose Wortlisten veröffentlichen. Für Erwachsenenbücher verwenden Sie größere Gitter (18 × 18 oder 20 × 20) mit längerem, anspruchsvollerem Vokabular. Für Kinderbücher verwenden Sie kleinere Gitter (10 × 10 bis 15 × 15) mit altersgerechten Wortlisten.\n\nDer Kreuzworträtsel-Generator erstellt thematische Kreuzworträtsel mit Hinweisen und Lösungsgittern. Kreuzworträtsel verleihen jedem Rätselbuch erheblichen Mehrwert, da sie mehr Engagement erfordern als Wortsuchen. Generieren Sie Kreuzworträtsel auf mehreren Schwierigkeitsstufen, indem Sie die Hinweis-Direktheit variieren — einfache Definitionshinweise für leichte Abschnitte, kryptischere oder assoziative Hinweise für schwere Abschnitte. Generieren Sie immer den entsprechenden Lösungsschlüssel für jedes Kreuzworträtsel.\n\nFür Kinder-Variety-Bücher erstellt der Sudoku-Generator bildbasierte Rätsel, die logisches Denken lehren, ohne Mathematikkenntnisse zu erfordern. Bilderpfad liefert Labyrinth-Inhalte, die jüngere Kinder besonders ansprechend finden. Fehlende Teile fügt visuelle Ergänzungsherausforderungen hinzu. Mathe-Rätsel steuert zahlenbasierte Gitterrätsel bei, die die Brücke zwischen reiner Unterhaltung und praktischem Inhalt schlagen.\n\nGenerieren Sie 20 bis 30 Prozent mehr Inhalt als Ihre Ziel-Seitenzahl. Dieser Überschuss gibt Ihnen die Flexibilität, die stärksten Rätsel für jeden Abschnitt auszuwählen und dabei eine gleichbleibende Qualität beizubehalten. Heben Sie ungenutzte Rätsel für nachfolgende Bände auf — dieser Vorsprung bei zukünftigen Büchern kostet Sie keine zusätzliche Erstellungszeit und beschleunigt Ihre Katalogaufbau-Strategie.`,
     },
     {
-      heading: 'Rätselseiten für KDP Print formatieren',
+      heading: `Rätselseiten für KDP Print formatieren`,
       content: `Rätselbücher haben Formatierungsanforderungen, die über Standard-KDP-Manuskriptspezifikationen hinausgehen. Die zentrale Herausforderung besteht darin, sicherzustellen, dass Rätselgitter groß genug für eine komfortable physische Interaktion sind — Wörter umkreisen, Buchstaben schreiben, Zahlen eintragen — während sie KDPs Rand- und Beschnittanforderungen einhalten.\n\nDas Buchformat ist Ihre wichtigste Formatierungsentscheidung für Rätselbücher. Das 8,5 × 11 Zoll-Format bietet maximalen Gitterraum und ist der Standard für Wortsuche- und Kreuzworträtsel-Bücher für Erwachsene. Diese Größe ermöglicht große, komfortable Gitter, die Lesern mit unterschiedlicher Sehstärke und Motorik entgegenkommen — besonders wichtig für die Großdruck-Rätselbuch-Unterkategorie, die eigenständig eine stark nachgefragte Nische darstellt. Für tragbare Rätselbücher, die für Reisen oder Pendeln vermarktet werden, funktioniert 6 × 9 Zoll, erfordert aber kleinere Gitter, die manche Nutzer als beengt empfinden. Das 8 × 10 Zoll-Format bietet einen Mittelweg.\n\nDer Gitterabstand ist entscheidend für die Rätsel-Benutzerfreundlichkeit. Wortsuchgitter brauchen genug Platz zwischen den Buchstaben, damit Leser Wörter umkreisen können, ohne benachbarte Buchstaben zu überlappen. Ein Mindestabstand von 0,6 cm zwischen Buchstabenzentren hält Gitter lesbar und nutzbar. Kreuzworträtsel-Gitter brauchen Zellen, die groß genug sind, um einen vollständigen Buchstaben bequem zu schreiben — mindestens 0,9 cm pro Zelle für Erwachsenenbücher, 1,3 cm oder größer für Kinderbücher. Testen Sie Ihre Gittergrößen, indem Sie Beispielseiten drucken und die Rätsel physisch selbst lösen.\n\nVerwenden Sie großzügige Ränder über die KDP-Mindestmaße hinaus. KDP-Standardmindestmaße (0,6 cm außen, 1,0 cm Bundsteg) sind zu eng für Rätselbücher, in denen Nutzer nahe an den Rändern schreiben. Verwenden Sie 1,3 bis 1,9 cm Ränder auf allen Seiten, mit einem vollen 1,9 cm Bundsteg. Dies verhindert, dass Inhalte in der Bindung verschwinden, und gibt Nutzern komfortablen Arbeitsraum über die gesamte Seite.\n\nFür detaillierte KDP-Formatierungsspezifikationen einschließlich Beschnitteinstellungen, PDF-Exportauflösung, Seitenzahlanforderungen und den vollständigen Manuskript-Zusammenstellungsprozess verweisen wir auf den Leitfaden für Mathe-Aktivitätsbücher auf KDP und den KDP-Formatierungsleitfaden, die diese Grundlagen umfassend behandeln. Die Formatierungsprinzipien sind identisch — Rätselbücher erfordern lediglich größere Arbeitsbereiche innerhalb derselben technischen Spezifikationen.`,
     },
     {
-      heading: 'Cover gestalten, die den Rätseltyp signalisieren',
+      heading: `Cover gestalten, die den Rätseltyp signalisieren`,
       content: `Rätselbuch-Cover müssen auf Thumbnail-Größe drei Dinge kommunizieren: den Rätseltyp, den Schwierigkeitsgrad oder die Zielgruppe und die Bandnummer bei Serien. Amazon-Käufer, die durch Suchergebnisse scrollen, treffen Klick-Entscheidungen in Bruchteilen einer Sekunde, daher ist visuelle Klarheit bei kleinen Größen wichtiger als aufwendiges Design.\n\nFügen Sie ein Beispielrätsel auf Ihrem Frontcover ein. Dies ist Standardpraxis in der Rätselbuch-Kategorie und kommuniziert sofort, was der Käufer im Inneren erhält. Für Wortsuchbücher zeigen Sie ein kleines gelöstes oder teilweise gelöstes Wortsuchgitter. Für Kreuzworträtsel-Bücher zeigen Sie ein erkennbares Kreuzworträtsel-Gittermuster. Für Variety-Bücher zeigen Sie eine Collage verschiedener Rätseltyp-Vorschauen. Das Beispielrätsel muss in Cover-Größe nicht lösbar sein — es dient als visueller Typ-Indikator, nicht als tatsächlicher Inhalt.\n\nUnterscheiden Sie Kinder- und Erwachsenen-Cover durch Designsprache. Rätselbuch-Cover für Erwachsene verwenden typischerweise saubere, anspruchsvolle Designs mit gedämpften oder kräftigen Volltonfarben, großer klarer Typografie und minimaler Illustration. Kinder-Rätselbuch-Cover verwenden helle Primärfarben, verspielte Schriften, Cartoon-Illustrationen und Figuren-Kunst. Eine Diskrepanz zwischen Cover-Stil und Zielgruppe ist einer der häufigsten Fehler neuer Rätselbuch-Verleger — ein Wortsuche-Buch für Erwachsene mit einem kindlichen Cover wird seinen Zielkäufer nicht ansprechen, unabhängig von der Inhaltsqualität.\n\nFür Serien-Branding erstellen Sie eine Cover-Vorlage, die über alle Bände hinweg konsistent bleibt. Verwenden Sie dasselbe Layout, Farbschema und dieselben Schriftarten für jeden Band und ändern Sie nur die Bandnummer und möglicherweise eine Akzentfarbe. Wenn alle Ihre Wortsuchbücher ein erkennbares Branding teilen, kann ein Käufer, der Band 1 genossen hat, die Bände 2 bis 10 auf Ihrer Autorenseite oder in Suchergebnissen sofort identifizieren. Diese visuelle Konsistenz steigert die Cross-Purchase-Raten erheblich.\n\nDie Rückseite sollte die Rätselanzahl, den Schwierigkeitsbereich, die Seitenzahl und besondere Merkmale wie Großdruck oder thematische Inhalte auflisten. Fügen Sie 3 bis 5 Aufzählungspunkte ein, die Verkaufsargumente hervorheben: „100 thematische Wortsuche-Rätsel", „Leicht-, Mittel- und Schwer-Abschnitte", „Vollständige Lösungen im Anhang", „Großes 8,5 × 11 Zoll-Format für komfortables Lösen." Denken Sie daran, die Barcode-Zone im unteren rechten Bereich der Rückseite freizuhalten.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Strategisch zwischen Variety und Einzeltyp wählen',
+      heading: `Strategisch zwischen Variety und Einzeltyp wählen`,
       content: `Raten Sie nicht, welches Format in Ihrem Zielmarkt besser abschneidet — testen Sie beides. Veröffentlichen Sie Ihr erstes Buch als Einzeltyp-Titel (z. B. 100 Wortsuche-Rätsel) und Ihr zweites als Variety-Buch mit einer Mischung aus Wortsuche, Kreuzworträtsel und anderen Rätseltypen. Vergleichen Sie die Verkaufsleistung über 60 bis 90 Tage. Einzeltyp-Bücher ranken typischerweise besser für spezifische Suchbegriffe und ziehen Wiederholungskäufer an, die ein Rätselformat bevorzugen. Variety-Bücher ziehen Geschenkkäufer und Gelegenheitsrätsler an, die vielfältige Unterhaltung wünschen. Die meisten erfolgreichen Rätsel-Verleger pflegen beide Formate — Einzeltyp-Bände als Katalog-Rückgrat und Variety-Bücher als Einstiegspunkt für neue Kunden.`,
     },
     {
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Die Band-Strategie für Wiederholungskäufe nutzen',
+      heading: `Die Band-Strategie für Wiederholungskäufe nutzen`,
       content: `Rätselbücher haben einen eingebauten Wiederholungskauf-Mechanismus, der den meisten KDP-Kategorien fehlt. Einmal gelöst, kann ein Rätsel nicht erneut gelöst werden — der Käufer muss ein neues Buch für frischen Inhalt kaufen. Dieser Verbrauchszyklus macht nummerierte Bände zu Ihrem zuverlässigsten Umsatztreiber. Ein Käufer, der Ihre Wortsuche Band 1 genießt, hat einen starken natürlichen Anreiz, Band 2 zu kaufen. Gestalten Sie Ihren Anhang so, dass er dies fördert: Fügen Sie eine „Mehr vom Autor"-Seite ein, die alle verfügbaren Bände mit ihren Titeln auflistet. Verleger, die konsequent alle 4 bis 6 Wochen neue Bände veröffentlichen, bauen eine treue Leserschaft auf, die vorhersagbares monatliches Umsatzwachstum generiert.`,
     },
     {
@@ -139,39 +139,39 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'wortsuchbuecher-kdp',
-      title: 'Wortsuchbücher für Amazon KDP erstellen',
+      title: `Wortsuchbücher für Amazon KDP erstellen`,
       description: `Tauchen Sie tiefer in die beliebteste Rätselbuch-Kategorie auf KDP ein. Behandelt wortsuchspezifische Inhaltsstrategien, thematische Wortlistenerstellung, Gittergrößen für verschiedene Zielgruppen und den Aufbau eines mehrbändigen Wortsuche-Katalogs.`,
     },
     {
       slug: 'sudoku-buecher-kdp',
-      title: 'Sudoku-Bücher für Amazon KDP erstellen',
+      title: `Sudoku-Bücher für Amazon KDP erstellen`,
       description: `Erkunden Sie die Sudoku-Buch-Nische auf KDP. Behandelt Bilder-Sudoku für Kinder, Zahlen-Sudoku für Erwachsene, Schwierigkeitssteigerung und die einzigartigen Formatierungsanforderungen der Sudoku-Gitter-Veröffentlichung.`,
     },
     {
-      slug: 'geld-verdienen-kdp-aktivitaetsbuecher',
-      title: 'Geld verdienen mit KDP-Aktivitätsbüchern',
+      slug: `geld-verdienen-kdp-aktivitaetsbuecher`,
+      title: `Geld verdienen mit KDP-Aktivitätsbüchern`,
       description: `Der umfassende Umsatzleitfaden für KDP-Verleger. Behandelt Preisstrategie, Katalog-Wirtschaftlichkeit, saisonales Veröffentlichen und Multi-Plattform-Ansätze zur Maximierung des Einkommens aus Aktivitätsbüchern.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: 'Wortsuchbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: 'Sudoku-Bücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-aktivitaetsbuecher', anchorText: 'Geld verdienen mit KDP-Aktivitätsbüchern' },
-    { pageType: 'guide', slug: 'kdp-formatierung-arbeitsblaetter', anchorText: 'KDP-Formatierungsleitfaden für Arbeitsbücher' },
-    { pageType: 'guide', slug: 'beste-kdp-aktivitaetsbuch-nischen', anchorText: 'Die besten KDP-Aktivitätsbuch-Nischen' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Kreuzworträtsel-Generator ausprobieren' },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: `Wortsuchbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: `Sudoku-Bücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `geld-verdienen-kdp-aktivitaetsbuecher`, anchorText: `Geld verdienen mit KDP-Aktivitätsbüchern` },
+    { pageType: 'guide', slug: `kdp-formatierung-arbeitsblaetter`, anchorText: `KDP-Formatierungsleitfaden für Arbeitsbücher` },
+    { pageType: 'guide', slug: `beste-kdp-aktivitaetsbuch-nischen`, anchorText: `Die besten KDP-Aktivitätsbuch-Nischen` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'tool', slug: `bilderkreuzwortraetsel-ersteller`, anchorText: `Kreuzworträtsel-Generator ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Das unverzichtbare Werkzeug für die Rätselbuch-Veröffentlichung auf KDP. Wortsuche ist die beliebteste Rätselbuch-Kategorie auf Amazon, und dieser Generator erstellt thematische Wortsuchgitter mit anpassbaren Größen, Wortlisten und Schwierigkeitsgraden für Erwachsenen- und Kinderbücher.`,
     },
     {
@@ -186,7 +186,7 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Mathe-Rätsel-Arbeitsblatt-Generator',
+      title: `Mathe-Rätsel-Arbeitsblatt-Generator`,
       description: `Erstellt gitterbasierte Zahlenrätsel, die mathematische Abwechslung in Rätselsammlungen bringen. Mathe-Rätsel schlagen die Brücke zwischen Unterhaltung und Bildung und sind damit wertvoll für Kinder-Variety-Bücher und gemischte Rätselsammlungen für Erwachsene.`,
     },
     {
@@ -202,22 +202,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt mit thematischem Wortgitter für Amazon KDP Rätselbuch-Innenseiten` },
+    heroImage: { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt mit thematischem Wortgitter für Amazon KDP Rätselbuch-Innenseiten` },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel mit Tierthema formatiert für KDP-Rätselbuch`, caption: 'Wortsuche mit Tierthema — der beliebteste Rätseltyp für KDP-Bücher für Erwachsene und Kinder' },
-      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: 'Kreuzworträtsel mit thematischen Hinweisen für KDP-Rätselbuch', caption: 'Kreuzworträtsel — verleiht Rätselbüchern und Variety-Sammlungen auf Amazon erheblichen Engagement-Wert' },
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: `Bilder-Sudoku-Rätsel für Kinder-Variety-Rätselbuch auf KDP`, caption: 'Bilder-Sudoku — visuelle Logikrätsel, die Kinder-Variety-Rätselbücher vielfältiger und ansprechender machen' },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel mit Tierthema formatiert für KDP-Rätselbuch`, caption: `Wortsuche mit Tierthema — der beliebteste Rätseltyp für KDP-Bücher für Erwachsene und Kinder` },
+      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: `Kreuzworträtsel mit thematischen Hinweisen für KDP-Rätselbuch`, caption: `Kreuzworträtsel — verleiht Rätselbüchern und Variety-Sammlungen auf Amazon erheblichen Engagement-Wert` },
+      { src: `/samples/german/sudoku/sudoku_worksheet.webp`, alt: `Bilder-Sudoku-Rätsel für Kinder-Variety-Rätselbuch auf KDP`, caption: `Bilder-Sudoku — visuelle Logikrätsel, die Kinder-Variety-Rätselbücher vielfältiger und ansprechender machen` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Wortsuche-Rätsel für Amazon KDP Rätselbücher erstellen — Schritt-für-Schritt-Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroid — thematisches Lernbild', caption: 'Asteroid' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematisches Lernbild', caption: 'Astronaut' },
-    { src: '/image-library/space/comet.webp', alt: 'Komet — thematisches Lernbild', caption: 'Komet' },
-    { src: '/image-library/space/earth.webp', alt: 'Erde — thematisches Lernbild', caption: 'Erde' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Galaxie — thematisches Lernbild', caption: 'Galaxie' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroid — thematisches Lernbild`, caption: 'Asteroid' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronaut — thematisches Lernbild`, caption: 'Astronaut' },
+    { src: `/image-library/space/comet.webp`, alt: 'Komet — thematisches Lernbild', caption: 'Komet' },
+    { src: `/image-library/space/earth.webp`, alt: 'Erde — thematisches Lernbild', caption: 'Erde' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Galaxie — thematisches Lernbild`, caption: 'Galaxie' },
   ],
 };
 

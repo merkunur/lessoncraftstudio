@@ -4,17 +4,17 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'generador de fichas de suma',
     secondaryKeywords: [
-      'fichas de suma imprimibles para Etsy',
+      `fichas de suma imprimibles para Etsy`,
       `generador de fichas de matemáticas para Amazon KDP`,
-      'vender fichas de suma en Gumroad',
-      'fichas de suma licencia comercial',
+      `vender fichas de suma en Gumroad`,
+      `fichas de suma licencia comercial`,
     ],
     lsiKeywords: [
       `productos digitales de matemáticas para emprendedores`,
-      'negocio de fichas imprimibles en línea',
-      'generador de fichas de uso comercial',
+      `negocio de fichas imprimibles en línea`,
+      `generador de fichas de uso comercial`,
     ],
-    titleTag: 'Generador de Fichas de Suma | Crear y Vender',
+    titleTag: `Generador de Fichas de Suma | Crear y Vender`,
     metaDescription:
       `Crea fichas de suma para vender en Etsy, KDP y Gumroad. 104 temas, 4 modos de ejercicio, claves incluidas, export 400+ DPI. Prueba gratis con marca de agua.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Suma en 5 Pasos',
+    title: `Cómo Crear Fichas de Suma en 5 Pasos`,
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -40,17 +40,17 @@ const content: AppContent = {
           `Abre la Configuración de Ejercicios y selecciona uno de los cuatro modos. Imagen + Imagen muestra dos grupos de imágenes que los usuarios cuentan y suman. Imagen + Número asocia un grupo de imágenes con un número. Encontrar el Sumando revela el total y un grupo, desafiando a los usuarios a encontrar la parte que falta. El Modo Mixto mezcla los tres para una práctica variada. Establece el mínimo y máximo de elementos por grupo (1–10) y elige cuántos ejercicios aparecen por página (1–10).`,
       },
       {
-        title: 'Elige imágenes de la biblioteca temática',
+        title: `Elige imágenes de la biblioteca temática`,
         description:
           `Abre el panel de Biblioteca de Imágenes y explora 104 temas — desde animales y comida hasta vehículos y festividades. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Haz clic para seleccionar las imágenes que deseas; cada ejercicio usa tu selección. También puedes subir tus propias imágenes personalizadas para un look único que coincida con tu marca o tema de clase.`,
       },
       {
-        title: 'Añade texto, títulos y toques personalizados',
+        title: `Añade texto, títulos y toques personalizados`,
         description:
           `Usa el panel de Herramientas de Texto para añadir un título de ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes claros, incluyendo Lexend Deca, Baloo 2, Fredoka y Quicksand. Ajusta el tamaño, color y contorno de la fuente para una legibilidad óptima. Activa o desactiva los números de ejercicio, el signo de suma entre los grupos de imágenes y la casilla de respuesta atractivo según tus necesidades.`,
       },
       {
-        title: 'Genera la clave de respuesta y descarga',
+        title: `Genera la clave de respuesta y descarga`,
         description:
           `Ve a la pestaña de Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear automáticamente una versión completada de tu ficha. Luego abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Cada exportación se renderiza a más de 400 DPI, garantizando una nitidez perfecta tanto para impresión doméstica como para envío a una imprenta profesional o subida como producto digital en Etsy o Amazon KDP.`,
       },
@@ -61,22 +61,22 @@ const content: AppContent = {
     title: `Características Principales del Generador de Fichas de Suma`,
     features: [
       {
-        title: 'Cuatro modos de ejercicio distintos',
+        title: `Cuatro modos de ejercicio distintos`,
         description:
           `Elige el modo que mejor se adapte al nivel de tus usuarios. El modo Imagen + Imagen usa dos grupos de imágenes para conteo puramente visual — perfecto para preescolares que empiezan a sumar. El modo Imagen + Número combina imágenes con números para conectar el pensamiento concreto y abstracto. El modo Encontrar el Sumando muestra la suma y un grupo, desarrollando el razonamiento algebraico temprano. El Modo Mixto combina los tres para una práctica variada y sin repetición.`,
       },
       {
-        title: 'Rangos de números configurables',
+        title: `Rangos de números configurables`,
         description:
           `Establece el mínimo y máximo de elementos por grupo de 1 a 10, con control total sobre la dificultad. Crea fichas sencillas de 1+1 a 3+3 para los más pequeños, ejercicios estándar de 1–10 para infantil, o problemas más difíciles cercanos a diez para primer y segundo grado. El ajuste se hace con un solo clic, permitiéndote diferenciar la oferta para toda una clase en minutos.`,
       },
       {
-        title: '104 temas visuales con más de 3100 imágenes',
+        title: `104 temas visuales con más de 3100 imágenes`,
         description:
           `Explora una biblioteca de más de 3100 ilustraciones seleccionadas en 104 temas: animales de granja, vida marina, vehículos, espacio, comida, deportes, dinosaurios, festividades y más. Cada imagen es de alta resolución y diseñada para una impresión clara y atractivo. Como las imágenes llevan el contenido matemático — no el texto — tus fichas funcionan perfectamente en cualquier idioma y en cualquier tienda del mundo.`,
       },
       {
-        title: 'Generación automática de clave de respuesta',
+        title: `Generación automática de clave de respuesta`,
         description:
           `Haz clic en un botón para generar una clave de respuesta completa que reproduce el diseño de tu ficha con todas las soluciones completadas. La pestaña de clave de respuesta muestra una vista previa en vivo para verificar la exactitud antes de descargar. Exporta la clave de respuesta como archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.`,
       },
@@ -91,7 +91,7 @@ const content: AppContent = {
           `Ve más allá de la biblioteca integrada subiendo tus propias imágenes PNG o JPEG directamente en la aplicación. Ideal para fichas de marca, clipart personalizado, mascotas de clase o contenido estacional que diferencia tus productos imprimibles de la competencia. Las imágenes subidas se integran perfectamente con cada modo de ejercicio, manteniendo un control creativo total.`,
       },
       {
-        title: 'Marcos decorativos y temas de fondo',
+        title: `Marcos decorativos y temas de fondo`,
         description:
           `Transforma tus fichas de simples a profesionales con marcos decorativos e imágenes de fondo de la misma biblioteca de 104 temas. Ajusta la opacidad del marco y del fondo independientemente para que los elementos visuales enriquezcan el diseño sin distraer del contenido matemático. Combinar un marco estacional con un fondo tintado crea conjuntos temáticos que se venden a precios más altos en Etsy y Gumroad.`,
       },
@@ -104,10 +104,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Suma en Línea',
+    title: `Cómo Vender Fichas de Suma en Línea`,
     cases: [
       {
-        title: 'Paquetes temáticos de fichas de suma en Etsy',
+        title: `Paquetes temáticos de fichas de suma en Etsy`,
         description:
           `Crea conjuntos de 10 a 20 fichas de suma agrupadas por tema — animales de granja, dinosaurios, vida marina, festividades — y ofrécelos como descarga instantánea en Etsy. Incluye la clave de respuesta como archivo extra. Los paquetes temáticos atraen a padres que buscan intereses específicos y a vendedores que necesitan material listo para usar. Fija el precio de temas individuales entre $3–$5 y de mega-paquetes entre $12–$18 para un valor promedio de pedido sólido.`,
         platform: 'Etsy (etsy.com)',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: `Centros de matemáticas diferenciados para Gumroad`,
         description:
           `Crea conjuntos de suma por niveles usando los cuatro modos de ejercicio: Nivel 1 (Imagen + Imagen, rango 1–3), Nivel 2 (Imagen + Número, rango 1–5), Nivel 3 (Encontrar el Sumando, rango 1–7) y Nivel 4 (Mixto, rango 1–10). Cada nivel con claves de respuesta y hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados que pueden usar inmediatamente en múltiples grupos de nivel.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Contenido de suscripción para tu propia tienda',
+        title: `Contenido de suscripción para tu propia tienda`,
         description:
           `Usa el generador para producir paquetes semanales de fichas de suma y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático cada semana — genera ingresos recurrentes y fideliza una clientela de emprendedores y centros de tutoría. Los cuatro modos de ejercicio y 104 temas ofrecen suficiente variedad para años de contenido único.`,
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Fichas de práctica para venta en línea y tutoría',
+        title: `Fichas de práctica para venta en línea y tutoría`,
         description:
           `Genera fichas de suma personalizadas adaptadas al nivel actual de cada usuario. Imprime fichas de Imagen + Imagen para principiantes y fichas de Encontrar el Sumando para usuarios avanzados — todo en la misma sesión. La clave de respuesta automática ahorra valor percibido. Ya sea que dirijas un centro de tutoría, enseñes en infantil o eduques en casa, el generador reemplaza horas de creación manual por unos pocos clics.`,
-        platform: 'Tienda / Tutoría / Educación en casa',
+        platform: `Tienda / Tutoría / Educación en casa`,
       },
     ],
   },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `Puedes establecer el mínimo y máximo de elementos por grupo de 1 a 10. Esto te permite crear problemas fáciles como 1+1 para preescolar o sumas más difíciles cercanas a 10+10 para primer y segundo grado. El ajuste se realiza con dos entradas simples en el panel de Configuración de Ejercicios. Este control preciso facilita la creación de líneas de productos por nivel — un paquete preescolar en 1–3, un paquete infantil en 1–5 y un paquete de primer grado en 1–10.`,
     },
     {
-      question: '¿Cuántas imágenes y temas hay disponibles?',
+      question: `¿Cuántas imágenes y temas hay disponibles?`,
       answer:
         `La biblioteca de imágenes integrada contiene más de 3100 ilustraciones organizadas en 104 temas, incluyendo animales, vehículos, comida, festividades, deportes, espacio, naturaleza y más. También puedes subir tus propias imágenes si necesitas gráficos específicos de tu marca o de temporada. Todas las imágenes son de alta resolución y se reproducen nítidamente tanto en impresoras domésticas como profesionales.`,
     },
@@ -166,7 +166,7 @@ const content: AppContent = {
         `Elige entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Exporta como JPEG de alta resolución o PDF listo para imprimir. Todas las exportaciones se renderizan a más de 400 DPI, garantizando calidad de impresión profesional. La variedad de tamaños te permite crear productos para diferentes mercados — Carta para compradores de América del Norte, A4 para clientes europeos y latinoamericanos.`,
     },
     {
-      question: '¿Las fichas de suma dependen del idioma?',
+      question: `¿Las fichas de suma dependen del idioma?`,
       answer:
         `No. Las fichas de suma son puramente visuales — el contenido matemático usa imágenes y números, no palabras. Una ficha creada en un idioma funciona en todos los idiomas. La configuración de idioma solo cambia las etiquetas de la interfaz de la aplicación, no el contenido de la ficha, lo que hace que tus productos sean vendibles instantáneamente en todo el mundo sin ningún esfuerzo de traducción.`,
     },
@@ -181,7 +181,7 @@ const content: AppContent = {
         `Sí. Puedes acceder a todas las funciones del generador — los cuatro modos de ejercicio, la biblioteca completa de imágenes, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.`,
     },
     {
-      question: '¿Qué incluye la licencia comercial?',
+      question: `¿Qué incluye la licencia comercial?`,
       answer:
         `La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.`,
     },
@@ -191,12 +191,12 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de suma como descargas digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar cada modo, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia. La prueba con marca de agua te da acceso ilimitado para explorar todas las funciones a tu propio ritmo sin límite de tiempo — úsala todo el tiempo que necesites para evaluar si la herramienta se ajusta a tu flujo de producción.`,
     },
     {
-      question: '¿Necesito instalar algún software?',
+      question: `¿Necesito instalar algún software?`,
       answer:
         `No. El Generador de Fichas de Suma funciona completamente en tu navegador web. No hay nada que descargar, instalar ni actualizar. Funciona en cualquier navegador de escritorio moderno, incluyendo Chrome, Firefox, Safari y Edge. Solo abre la página y empieza a crear. Este enfoque garantiza que puedas evaluar cada función, formato de exportación y combinación de temas antes de tomar una decisión de compra, dándote total confianza en tu inversión.`,
     },
@@ -211,12 +211,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'suma-codigo-fichas',
-      anchorText: 'Generador de Fichas de Suma Codificada',
+      anchorText: `Generador de Fichas de Suma Codificada`,
     },
     {
       pageType: 'app',
       slug: 'acertijos-matematicos-fichas',
-      anchorText: 'Generador de Acertijos Matemáticos',
+      anchorText: `Generador de Acertijos Matemáticos`,
     },
     {
       pageType: 'bundle',
@@ -226,48 +226,48 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'crear-fichas-suma',
-      anchorText: 'Cómo Crear Fichas de Suma que se Venden',
+      anchorText: `Cómo Crear Fichas de Suma que se Venden`,
     },
     {
       pageType: 'guide',
-      slug: 'vender-fichas-matematicas-etsy',
-      anchorText: 'Guía para Vender Fichas de Matemáticas en Etsy',
+      slug: `vender-fichas-matematicas-etsy`,
+      anchorText: `Guía para Vender Fichas de Matemáticas en Etsy`,
     },
     {
       pageType: 'idea',
-      slug: 'bases-matematicas-ideas-imprimibles',
+      slug: `bases-matematicas-ideas-imprimibles`,
       anchorText: `Ideas de imprimibles de matemáticas para emprendedores y vendedores`,
     },
     {
       pageType: 'idea',
-      slug: 'vuelta-al-cole-ideas-imprimibles',
+      slug: `vuelta-al-cole-ideas-imprimibles`,
       anchorText: `Ideas de imprimibles de vuelta al cole que se venden`,
     },
     {
       pageType: 'start',
       slug: 'crear-fichas-que-se-venden',
-      anchorText: 'Cómo crear fichas que se vendan',
+      anchorText: `Cómo crear fichas que se vendan`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/addition/Suma Divertida 1.webp',
+      primary: `/samples/spanish/addition/Suma Divertida 1.webp`,
       primaryAlt: `Ficha de suma con imágenes coloridas de animales en modo Imagen + Imagen`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma vertical en modo Imagen + Imagen con tema de animales`,
         caption: `Modo Imagen + Imagen — los usuarios cuentan dos grupos de imágenes y escriben la suma`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 2.webp',
+        src: `/samples/spanish/addition/Suma Divertida 2.webp`,
         alt: `Ficha de suma horizontal en modo Imagen + Número con tema de comida`,
         caption: `Modo Imagen + Número — combina grupos de imágenes con números para habilidades de transición`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 3.webp',
+        src: `/samples/spanish/addition/Suma Divertida 3.webp`,
         alt: `Ficha de suma en modo Encontrar el Sumando con tema de vehículos`,
         caption: `Modo Encontrar el Sumando — los usuarios descubren el grupo que falta para álgebra temprana`,
       },

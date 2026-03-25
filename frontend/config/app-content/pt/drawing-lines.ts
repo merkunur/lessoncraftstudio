@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas grafomotricidade',
+    primaryKeyword: `gerador fichas grafomotricidade`,
     secondaryKeywords: [
       `gerador de fichas de traçar linhas imprimíveis para vendedores Etsy`,
       `criador de fichas de grafomotricidade para editores Amazon KDP`,
-      'vender fichas de traçar linhas no Gumroad',
+      `vender fichas de traçar linhas no Gumroad`,
       `gerador de fichas de grafomotricidade licença comercial`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `fichas de motricidade fina imprimíveis uso comercial`,
       `gerador de fichas grafomotricidade com modelos SVG`,
     ],
-    titleTag: 'Gerador Fichas Grafomotricidade | Criar e Vender',
+    titleTag: `Gerador Fichas Grafomotricidade | Criar e Vender`,
     metaDescription:
       `Crie fichas de grafomotricidade para Etsy, KDP e Gumroad. Modelos de linhas SVG, emparelhamento de imagens, 104 coleções temáticas. Teste grátis com marca d'água.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Grafomotricidade em 5 Passos',
+    title: `Como Criar Fichas de Grafomotricidade em 5 Passos`,
     steps: [
       {
         title: 'Configure o layout da página',
@@ -45,7 +45,7 @@ const content: AppContent = {
           `Explore 104 coleções de imagens temáticas com mais de 3100 ilustrações coloridas — animais, alimentos, veículos, natureza e dezenas mais — ou carregue as suas próprias imagens personalizadas. Cada tema fornece imagens coordenadas que funcionam juntas visualmente. Use o preenchimento automático para atribuir aleatoriamente pares de imagens emparelhadas a partir do tema selecionado ou de todos os temas de uma só vez, preenchendo instantaneamente cada espaço de par no modelo. O preenchimento automático poupa tempo considerável ao criar múltiplas fichas em lote.`,
       },
       {
-        title: 'Adicione decorações de texto e personalize',
+        title: `Adicione decorações de texto e personalize`,
         description:
           `Use o painel Ferramentas de Texto para adicionar um título de ficha, campos de nome e data do usuário (Fredoka 18px) ou instruções personalizadas com fontes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Ajuste o tamanho da fonte, a cor e a largura do contorno de texto (0 a 10 com granularidade de 0,5). Arraste, redimensione, rode e reposicione cada elemento no canvas completo Fabric.js com controlos de camadas, bloqueio/desbloqueio, ferramentas de alinhamento e zoom de 25 % a 400 %. Anule e refaça até 100 estados de histórico com Ctrl+Z e Ctrl+Y.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `Cada modelo coloca pares de imagens emparelhadas de cada lado do caminho da linha — os usuários veem uma imagem no início e a sua correspondente no final, criando um objetivo visual que motiva o traçado de linhas. O preenchimento automático atribui aleatoriamente pares de imagens a partir do tema selecionado ou de todos os 104 temas de uma só vez, preenchendo instantaneamente cada espaço de par na página. Isto torna a criação de fichas em lote ultrarrápida: selecione um tema, clique em preenchimento automático e o modelo está pronto para exportar. Mude de tema e repita para gerar dezenas de fichas únicas em minutos. Cada tema fornece imagens coordenadas que funcionam juntas visualmente, criando oportunidades naturais de agrupamento em pacotes temáticos.`,
       },
       {
-        title: 'Orientação de página determinada pelo modelo',
+        title: `Orientação de página determinada pelo modelo`,
         description:
           `Cada modelo define automaticamente a orientação de página ideal para o seu tipo de linha. Os modelos de curvas passam por predefinição para o formato horizontal, dando às linhas amplas espaço para se curvarem na dimensão mais larga da página. Os modelos de diagonais, horizontal e vertical usam formato vertical para prática concentrada de cima para baixo. Esta mudança automática de orientação garante que cada tipo de linha dispõe do espaço máximo sem ajustes manuais. Os modelos de curvas colocam 4 pares de imagens por página; os modelos de diagonais e horizontal colocam 5; os modelos verticais usam 4 pares — cada quantidade otimizada para o espaço disponível nessa orientação.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Grafomotricidade Online',
+    title: `Como Vender Fichas de Grafomotricidade Online`,
     cases: [
       {
         title: `Pacotes de atividades de traçado de linhas na Etsy`,
@@ -113,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de motricidade fina na Amazon KDP',
+        title: `Cadernos de motricidade fina na Amazon KDP`,
         description:
           `Compile 60 a 100 exercícios de traçado de linhas num caderno impresso estruturado como um programa progressivo de motricidade fina. O capítulo 1 cobre as linhas horizontais para as bases do controlo direcional. O capítulo 2 introduz as linhas verticais para a prática do traço descendente. O capítulo 3 avança para os modelos de curvas para a flexibilidade do pulso. O capítulo 4 desafia os usuários com as diagonais que requerem coordenação cruzada. Cada capítulo usa diferentes temas de imagens para manter o interesse ao longo de mais de 60 páginas. O formato completamente visual significa que não é necessária tradução para os mercados KDP internacionais — publique o mesmo interior em cada país. Os cadernos de motricidade fina preenchem um nicho específico de aprendizagem precoce com procura constante durante todo o ano por parte de pais e vendedores de infância.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Centros de pré-escrita e preparação para a escrita para Gumroad`,
         description:
           `Construa estações de preparação para a escrita por níveis usando o tipo de linha como eixo de progressão: Estação 1 (linhas horizontais para acompanhamento da esquerda para a direita), Estação 2 (linhas verticais para traços de cima para baixo), Estação 3 (curvas para movimentos de formação de letras) e Estação 4 (diagonais para formas de letras angulares). Cada estação trabalha uma competência de pré-escrita específica que se transfere diretamente para a formação de letras. Agrupe cada estação com exercícios temáticos e cartões de instruções para o vendedor. O formato visual sem texto funciona em qualquer loja independentemente do idioma dos usuários, tornando estes recursos valiosos para contextos inclusivos, multilingues e de educação especial.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Fichas visuais multilingues para mercados globais',
+        title: `Fichas visuais multilingues para mercados globais`,
         description:
           `Como as fichas de Grafomotricidade não contêm texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Os usuários traçam linhas entre os pares de imagens sem necessidade de ler — o traçado visual em si fornece todo o guiamento necessário. Crie um conjunto de exercícios de traçado de linhas e venda-o em todo o mundo sem tradução nem versões em idiomas separados para manter. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. Um único fluxo de trabalho produz um produto universalmente vendível.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
         title: `Ferramenta de motricidade fina para a loja e terapia`,
         description:
           `Carregue imagens personalizadas para criar fichas de traçado de linhas orientadas para objetivos terapêuticos ou educativos específicos. Os terapeutas ocupacionais podem selecionar os tipos de linhas conforme as necessidades de desenvolvimento da motricidade fina de cada paciente — curvas para a mobilidade do pulso, diagonais para a coordenação bilateral, linhas retas para o controlo direcional. Os vendedores podem criar fichas de traçado temáticas onde os usuários ligam pares de imagens relacionadas enquanto desenvolvem o controlo do lápis. Ajuste a seleção de modelo e os temas de imagens conforme o nível de competência e interesses de cada usuário. Imprima séries personalizadas em minutos para sessões de terapia individuais, pequenos grupos ou turmas completas.`,
-        platform: 'loja / Terapia / Ensino doméstico',
+        platform: `loja / Terapia / Ensino doméstico`,
       },
     ],
   },
@@ -176,14 +176,14 @@ const content: AppContent = {
         `Sim. A função de carregamento de imagens personalizadas permite-lhe adicionar qualquer imagem às suas fichas de traçado de linhas. Carregue fotos, ilustrações ou gráficos relevantes para o seu tema ou público específico. As imagens personalizadas aparecem junto às imagens da biblioteca e funcionam com os oito modelos e a função de preenchimento automático. Isto é útil para criar fichas sobre temas específicos ou produtos de marca que vão além da biblioteca temática integrada.`,
     },
     {
-      question: 'Posso adicionar campos de nome e data à ficha?',
+      question: `Posso adicionar campos de nome e data à ficha?`,
       answer:
         `Sim. Ative os campos de nome e data a partir do painel Conteúdo. Aparecem em fonte Fredoka a 18px em cinzento escuro (#333). Também pode adicionar texto personalizado com o painel Ferramentas de Texto usando qualquer fonte disponível — Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand — e reposicioná-los em qualquer lugar do canvas.`,
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — os oito modelos de linhas, a biblioteca de imagens completa, o preenchimento automático, todos os formatos de exportação e as ferramentas de edição completas do canvas — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — os oito modelos de linhas, a biblioteca de imagens completa, o preenchimento automático, todos os formatos de exportação e as ferramentas de edição completas do canvas — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `O gerador de Grafomotricidade é sensível ao idioma?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de traçado de linhas como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os oito modelos de linhas, os 104 temas de imagens e o formato completamente visual conferem-lhe uma forte diferenciação e vendibilidade global nas categorias de fichas.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modelo de linha, cada tema de imagens, o preenchimento automático, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,12 +206,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Gerador de Fichas Grande e Pequeno',
+      anchorText: `Gerador de Fichas Grande e Pequeno`,
     },
     {
       pageType: 'app',
       slug: 'trem-padroes-fichas',
-      anchorText: 'Gerador de Fichas Trem de Padrões',
+      anchorText: `Gerador de Fichas Trem de Padrões`,
     },
     {
       pageType: 'app',
@@ -221,17 +221,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'desenho-grade-fichas',
-      anchorText: 'Gerador de Fichas de Desenho em Grelha',
+      anchorText: `Gerador de Fichas de Desenho em Grelha`,
     },
     {
       pageType: 'app',
       slug: 'desenhos-colorir-fichas',
-      anchorText: 'Gerador de Fichas para Colorir',
+      anchorText: `Gerador de Fichas para Colorir`,
     },
     {
       pageType: 'app',
       slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      anchorText: `Gerador de Fichas de Gráfico Pictórico`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'verao-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de verão para crianças',
+      anchorText: `Ideias de imprimíveis de verão para crianças`,
     },
     {
       pageType: 'idea',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'negocio-imprimiveis-etsy',
-      anchorText: 'Lance seu negócio de imprimíveis na Etsy',
+      anchorText: `Lance seu negócio de imprimíveis na Etsy`,
     },
     {
       pageType: 'guide',

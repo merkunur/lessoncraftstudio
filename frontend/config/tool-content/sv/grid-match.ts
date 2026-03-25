@@ -4,13 +4,13 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'rutnätsmatchning arbetsblad',
     secondaryKeywords: [
-      'rutnätsmatchning arbetsblad skapare för säljare',
-      'skapa rutmatchningspussel att sälja',
+      `rutnätsmatchning arbetsblad skapare för säljare`,
+      `skapa rutmatchningspussel att sälja`,
       `utskrivbar rutnätspussel generator kommersiellt bruk`,
       `bildplattor matchning arbetsblad skapare för KDP och Etsy`,
     ],
     lsiKeywords: [
-      'enbild rutnätspussel plattor matchningsverktyg',
+      `enbild rutnätspussel plattor matchningsverktyg`,
       `automatiskt facit numrerad cirkelöverlägg generator`,
       `konfigurerbar ledtrådscell svårighet rutnätsskapare`,
     ],
@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: `Öppna panelen Rutnätsalternativ och ställ in antal rader (2–4, standard 3) och kolumner (2–4, standard 3) oberoende. Ett 2×2-rutnät skapar 4 plattor för enkla introduktionspussel. Ett 3×3-rutnät producerar 9 plattor för balanserad svårighet. Ett 4×4-rutnät levererar 16 plattor för avancerade rumsliga resonemangutmaningar. Du kan också blanda rader och kolumner — ett 2×4-rutnät skapar ett brett rektangulärt pussel med 8 plattor.`,
       },
       {
-        title: 'Ställ in ledtrådscellantalet för svårighet',
+        title: `Ställ in ledtrådscellantalet för svårighet`,
         description: `Justera ledtrådscell-reglaget från 1 till 5 (standard 1). Ledtrådsceller är rutnätspositioner där den faktiska bildplattan förblir synlig som ett tips. Med ett 3×3-rutnät och 1 ledtråd måste användarna matcha 8 blandade plattor — en genuin utmaning. Med 5 ledtrådar på samma rutnät är bara 4 plattor dolda — en tillgänglig uppvärmning. Denna enda kontroll förvandlar samma bild till pussel som spänner från lätt till avancerad svårighet.`,
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {
         description: `Öppna panelen Bildbibliotek och bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer — djur, mat, fordon, natur, högtider, yrken och dussintals fler. Alternativt ladda upp egna PNG-, JPG- eller GIF-filer för personaliserade rutnätspussel — familjefoton, anpassat konstverk, varumärkesbilder eller produktlinjesspecifikt innehåll.`,
       },
       {
-        title: 'Ställ in sidlayout och dekorationer',
+        title: `Ställ in sidlayout och dekorationer`,
         description: `I avsnittet Sidinställningar väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande eller anpassad dimension. Rutmatchning stöder inte Kvadratformat. Välj sidbakgrundsfärg. Välj dekorativt bakgrundstema och ramtema med oberoende opacitetsreglage (0–1, steg 0,05).`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Klicka på Generera. Appen delar upp din valda bild i det konfigurerade rutnätet, visar ledtrådscellerna med faktiska bildplattor synliga och markerar återstående celler med «?»-platshållare. Alla dolda plattor blandas med Fisher-Yates-randomisering och visas som en numrerad palett. Den responsiva layouten anpassas automatiskt efter sidorientering. En stiliserad rubrik med cyan bakgrund (#00BCD4), djuplila titel (#6A1B9A) och orange ramkant (#FF8C42) visar «Rutmatchning» och instruktioner.`,
       },
       {
-        title: 'Granska det automatiskt genererade facit',
+        title: `Granska det automatiskt genererade facit`,
         description: `Klicka på fliken Facit för att se lösningen. Facit visar den kompletta oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell — gul bakgrund (#ffffe0) cirklar med svarta konturer och Fredoka-typsnittsnummer som visar vilken palettplatta som hör var. Facit genereras samtidigt med arbetsbladet.`,
       },
       {
@@ -68,35 +68,35 @@ const content: ToolContent = {
       description: `Skapa rutnätsmatchningspussel-paket organiserade efter tema och svårighet med de 104 bildsamlingarna. Varje tema producerar flera svårighetsnivåer: lätta pussel (2×2 rutnät med 3 ledtrådar), medel (3×3 med 2 ledtrådar) och svåra (4×4 med 1 ledtråd). Paketera 15–20 pussel per svårighetsnivå per tema med autogenererade facit. Fisher-Yates-randomisering innebär att varje generering producerar annorlunda plattordning.`,
     },
     {
-      title: 'KDP visuell perception pusselarbetsböcker',
+      title: `KDP visuell perception pusselarbetsböcker`,
       description: `Sammanställ 60–80 rutnätsmatchningspussel till tryckta arbetsböcker för Amazon KDP. Strukturera kapitel efter progressiv svårighet: Kapitel 1 använder 2×2-rutnät med 3 ledtrådar för nybörjare, Kapitel 2 använder 3×3-rutnät med 2 ledtrådar för mellannivå, Kapitel 3 använder 4×4-rutnät med 1 ledtråd för avancerade utmaningar. Facitsidor i slutet av varje kapitel. Det rent visuella formatet kräver ingen översättning.`,
     },
     {
-      title: 'produktlinjes snabbsluts-pusselaktiviteter',
+      title: `produktlinjes snabbsluts-pusselaktiviteter`,
       description: `Bygg produktlinjesfärdiga rutnätspussel för morgonarbete, tidiga slutförare och berikningstationer. Skapa produktkatalogsangränsande set. Den konfigurerbara svårigheten låter dig differentiera inom en enda produkt — inkludera 2×2-pussel för kämpande användare och 4×4-pussel för avancerade användare. Varje pussel exporteras med sitt autogenererade facit. Det rent visuella formatet fungerar för alla användare oavsett läsnivå.`,
     },
     {
-      title: 'Anpassade foto rutnätspussel-produkter',
+      title: `Anpassade foto rutnätspussel-produkter`,
       description: `Använd funktionen Ladda Upp Egna Bilder för att skapa rutnätspussel från valfritt foto. Familjefotopussel blir unika personliga presenter. säljare kan ladda upp klassfoton. Det konfigurerbara rutnätsstorleken och ledtrådsantalet låter dig justera svårigheten för valfri publik.`,
     },
     {
-      title: 'Säsongsbetonade rutnätspussel-samlingar',
+      title: `Säsongsbetonade rutnätspussel-samlingar`,
       description: `Bygg roterande säsongssamlingar med högtids- och naturteman. Jul, halloween, påsk, alla hjärtans dag, skolstart och sommarteman stöder var och en dedikerade rutnätspussel-paket. Inkludera flera rutnätsstorlekar och ledtrådsantal i varje säsongsset för maximal variation.`,
     },
     {
-      title: 'Flerformats visuella inlärningspaket',
+      title: `Flerformats visuella inlärningspaket`,
       description: `Para rutnätsmatchningspussel med matchningsarbetsblad, saknade bitar aktiviteter, skuggmatchningsövningar och bildsorteringsblad med koordinerade teman. Rutnätspussel lär ut rumsligt resonemang och visuell analys. Matchning bygger visuell diskriminering. Saknade bitar utvecklar del-till-hel-perception. Flerformats paket säljer för mer.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Tematisk rutnätspussel-butik på Etsy',
+      title: `Tematisk rutnätspussel-butik på Etsy`,
       description: `Öppna en Etsy-butik specialiserad på rutnätsmatchningspussel-paket organiserade efter tema med de 104 bildsamlingarna. Djur, fordon, natur, mat, högtider och yrken blir var och en separata annonser med lätta, medel och svåra svårighetsversioner. Varje pussel inkluderar det autogenererade facit med numrerade cirkelöverlägg. Prissätt enskilda temapaket till 30–50 SEK för 15–20 pussel med facit och premium multisvårighets-paket till 80–120 SEK.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP visuell perception arbetsboksserie',
+      title: `Amazon KDP visuell perception arbetsboksserie`,
       description: `Sammanställ 60–80 rutnätsmatchningspussel till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter svårighetsprogression: «Enkla Rutnätspussel» använder 2×2-rutnät med 3 ledtrådar, «Medel Rutnätspussel» använder 3×3-rutnät med 2 ledtrådar, «Avancerade Rutnätspussel» använder 4×4-rutnät med 1 ledtråd. Facitsidor med numrerade cirkelöverlägg i slutet. Det rent visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.`,
       platform: 'Amazon KDP',
     },
@@ -106,17 +106,17 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest rutnätspussel trafiktratt',
+      title: `Pinterest rutnätspussel trafiktratt`,
       description: `Rutnätsmatchningspussel gör visuellt slående Pinterest-pins — det uppdelade bildrutnätet med numrerad plattpalett och färgglad rubrik skapar ett direkt igenkännbart utbildningsformat. Pinna provpussel som visar olika rutnätsstorlekar. Det rent visuella formatet tilltalar föräldrar och säljare i varje land.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad komplett rutnätspussel verktygskit',
+      title: `Gumroad komplett rutnätspussel verktygskit`,
       description: `Paketera rutnätsmatchningspussel över alla 104 teman och alla svårighetsnivåer till ett omfattande verktygskit på Gumroad. Inkludera 300+ pussel med autogenererade facit — 600+ totala filer. Trestegs svårighetssystemet (2×2, 3×3, 4×4 rutnät) med variabla ledtrådsantal ger enorm variation.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Global visuell pussel produktlinje',
+      title: `Global visuell pussel produktlinje`,
       description: `Rutmatchning producerar rent visuella pussel — bildplattor och siffror är universella. Samma produktfiler fungerar i varje land utan översättning. En skapandesession producerar en globalt säljbar katalog. Sälj identiska filer globalt utan översättningskostnader.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -148,26 +148,26 @@ const content: ToolContent = {
       description: `Det oberoende bakgrunds- och ramtemasystemet med separata opacitetsreglage låter dig skapa en konsekvent visuell identitet. Ställ in en subtil bakgrund vid 15–25% opacitet och lagra en dekorativ ram vid 80–100%. Konsekvent stil genom ett paket skapar ett sammanhängande produktutseende.`,
     },
     {
-      title: 'Välj rätt rutnätsstorlek för din målgrupp',
+      title: `Välj rätt rutnätsstorlek för din målgrupp`,
       description: `Matcha rutnätskonfiguration till köparförväntningar. För Gumroad produktlinjesresurser som riktar sig mot dagis till första klass, använd 2×2 och 2×3 rutnät. För Etsy aktivitetspaket, använd 3×3 rutnät. För KDP pusselarbetsböcker som riktar sig mot äldre användare, använd 4×3 och 4×4 rutnät.`,
     },
   ],
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Verktyget erbjuder en gratis provversion med alla funktioner upplåsta — alla rutnätsstorlekar från 2×2 till 4×4, justerbara ledtrådsceller (1–5), Fisher-Yates plattorandomisering, det autogenererade facit med numrerade cirkelöverlägg, alla 104 tematiska bildsamlingar, anpassad bilduppladdning, bakgrunds- och ramteman, gråskaleväxling och alla nedladdningsformat. Ingen registrering, inget kreditkort krävs. Gratis provversion-nedladdningar innehåller en vattenstämpel.`,
     },
     {
-      question: 'Hur fungerar rutnätsmatchningspusslet?',
+      question: `Hur fungerar rutnätsmatchningspusslet?`,
       answer: `Arbetsbladet visar en enda bild uppdelad i ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar «?»-platshållare. Bredvid eller under rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. användarna granskar de synliga ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör i varje tom rutnätsposition. Konfigurera rutnätet från 2×2 (4 plattor) till 4×4 (16 plattor) och ställ in 1–5 ledtrådsceller.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer: `När du genererar ett arbetsblad skapar appen samtidigt ett facit på en separat flik. Facit visar den kompletta oskapade bilden med numrerade cirklar överlagrade på varje rutnätscell — gul bakgrund (#ffffe0), svarta konturer, Fredoka-typsnittsnummer. Ladda ner varje version oberoende — fyra produktionsklara filer från en enda generering.`,
     },
     {
-      question: 'Vilka rutnätsstorlekar finns tillgängliga?',
+      question: `Vilka rutnätsstorlekar finns tillgängliga?`,
       answer: `Generatorn stöder 2–4 rader och 2–4 kolumner, konfigurerade oberoende. Detta skapar rutnät från 2×2 (4 plattor) upp till 4×4 (16 plattor). Standard är 3×3 (9 plattor). Du kan ställa in rader och kolumner till olika värden för rektangulära pussel.`,
     },
     {
@@ -179,7 +179,7 @@ const content: ToolContent = {
       answer: `Ja. Varje gång du klickar på Generera blandar appen plattorna med Fisher-Yates-randomisering. Ledtrådscellernas positioner ändras också. Du kan skapa flera distinkta pussel från en enda bild utan att ändra inställningar.`,
     },
     {
-      question: 'Kan jag ladda upp egna bilder för rutnätspussel?',
+      question: `Kan jag ladda upp egna bilder för rutnätspussel?`,
       answer: `Ja. Panelen Ladda Upp Egna Bilder låter dig ladda upp PNG-, JPG- eller GIF-filer. Uppladdade bilder visas i ett galleri. Klicka valfri bild för att välja den som din pusselkälla.`,
     },
     {
@@ -187,7 +187,7 @@ const content: ToolContent = {
       answer: `Generatorn detekterar automatiskt din sidorientering. Stående sidor placerar rutnätet överst (45% av höjden) med paletten nedanför. Liggande sidor positionerar rutnätet till vänster (48% av bredden) med paletten till höger. Denna automatiska ompositionering säkerställer att pussel ser balanserade ut i båda orienteringarna.`,
     },
     {
-      question: 'Är Rutmatchning Skaparen språkkänslig?',
+      question: `Är Rutmatchning Skaparen språkkänslig?`,
       answer: `Nej. Rutmatchning är rent visuellt — pusselutmatningen innehåller bara bildplattor och siffror, utan lokaliserat ordinnehåll. Appgränssnittet stöder alla 11 språk, men det genererade pusslet fungerar identiskt oavsett språkval. Detta gör rutnätsmatchningspussel universellt säljbara utan översättning.`,
     },
     {
@@ -199,7 +199,7 @@ const content: ToolContent = {
       answer: `Ja. Med en kommersiell licens har du fulla rättigheter att sälja rutnätsmatchningspussel som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.`,
     },
   ],

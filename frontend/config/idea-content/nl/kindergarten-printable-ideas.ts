@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kleuterschool Printables Verkopen — Nichegids',
+    titleTag: `Kleuterschool Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende kleuterschool printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Groep 1-2 productconcepten en nichestrategieën voor verkopers.`,
 
-    primaryKeyword: 'kleuterschool printable ideeën',
+    primaryKeyword: `kleuterschool printable ideeën`,
     secondaryKeywords: [
-      'kleuterschool werkbladen verkopen',
+      `kleuterschool werkbladen verkopen`,
       'groep 1-2 printable business',
-      'kleuter activiteiten voor verkopers',
-      'kleuter printables verkopen op Gumroad',
+      `kleuter activiteiten voor verkopers`,
+      `kleuter printables verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'vroegkinderlijk educatieve werkbladen',
+      `vroegkinderlijk educatieve werkbladen`,
       'kleuter leeractiviteiten',
-      'leeftijd 4-6 printbare producten printables',
+      `leeftijd 4-6 printbare producten printables`,
     ],
   },
   hero: {
@@ -38,12 +38,12 @@ Het jaarronde karakter van de vraag naar kleutermateriaal is een van de sterkste
 
   productIdeas: [
     {
-      title: 'Kleuter Telwerkbladen voor Printable Verkopers',
+      title: `Kleuter Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen voor kleuters behoren tot de meest gevraagde printable producten voor groep 1 en 2. Gebruik de Zoek en Tel-generator om kleurrijke thematische scènes te maken waarin kleuters specifieke voorwerpen lokaliseren en tellen tot tien of twintig. Bied sets aan op progressieve moeilijkheidsniveaus: voorwerpen tellen tot vijf voor jonge kleuters in groep 1, getallen tot tien herkennen en schrijven voor oudere kleuters, en tellen tot twintig met getallenlijn voor groep 2 gebruikers die richting groep 3 gaan. Combineer telactiviteiten met populaire thema's om zowel het vaardigheids- als het thematische zoekwoord vast te leggen. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Kleuter Woordzoekpuzzels Online Verkopen',
+      title: `Kleuter Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers voor kleuters trekken verkopers van groep 1-2 en ouders aan die letterherkenning en begin-lezen vaardigheden willen opbouwen. Maak puzzels met eenvoudige woorden van drie tot vijf letters die aansluiten bij het kleuterwoordenschatniveau, gecombineerd met kleurrijke afbeeldingen die de woordbetekenis versterken. De Woordzoeker-generator laat je aangepaste rasters maken met grote letters die geschikt zijn voor het beginnende leesniveau. Bied eenvoudige rasters met vier tot zes woorden voor groep 1 en uitdagende rasters met acht tot tien woorden voor groep 2. Thematische variaties — boerderijdieren, seizoenen, voertuigen — verbreden je catalogus terwijl ze aansluiten bij gangbare kleuterthema's.`,
       appId: 'wordsearch',
     },
@@ -53,12 +53,12 @@ Het jaarronde karakter van de vraag naar kleutermateriaal is een van de sterkste
       appId: 'matching',
     },
     {
-      title: 'Kleuter Optelwerkbladen voor Rekenverkopers',
+      title: `Kleuter Optelwerkbladen voor Rekenverkopers`,
       description: `Optelwerkbladen voor kleuters introduceren het concept van samenvoegen met visuele ondersteuning die past bij het ontwikkelingsniveau van groep 1 en 2 gebruikers. Gebruik de Optellen-generator om werkbladen te maken met sommen tot tien, geïllustreerd met kleurrijke thema-afbeeldingen die abstract tellen concreet maken. Richt je op groep 2 gebruikers die richting groep 3 gaan met eenvoudige optellingen waarbij kinderen groepen tellen en het totaal schrijven. Optellen met beelden vormt een cruciaal brugconcept tussen concreet tellen en abstract rekenen dat verkopers en ouders bijzonder waarderen als groep-3-gereedheidmateriaal.`,
       appId: 'addition',
     },
     {
-      title: 'Kleuter Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Kleuter Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten voor kleuters zijn een instapproduct met hoog volume omdat ze het breedste koperspubliek aanspreken en vroege beoordelingen genereren. De Kleuren-generator maakt contouren met een passend detailniveau voor het kleuterniveau — complexer dan peuterkleurplaten maar met voldoende grote vlakken voor vier- tot zesjarigen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per thema. Voor KDP compileer je dertig tot vijftig kleurplaten in kleuter-activiteitenboeken. Voeg educatieve elementen toe zoals kleur-bij-getal instructies, tellopdrachten of begin-letterherkenning naast elke afbeelding om je te onderscheiden van generieke kleurboeken.`,
       appId: 'coloring',
     },
@@ -69,7 +69,7 @@ Het jaarronde karakter van de vraag naar kleutermateriaal is een van de sterkste
     },
     {
       title: `Kleuter Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelwerkbladen voor kleuters ontwikkelen visuele discriminatievaardigheden op een hoger niveau dan peuterversies, met meer vergelijkbare vormen en complexere silhouetten die het juiste uitdagingsniveau bieden voor vier- tot zesjarigen. Gebruik de Schaduw Koppelen-generator om pagina's te maken met thematische beelden en hun silhouetten. Varieer de moeilijkheid met drie niveaus: basis met sterk contrasterende vormen voor groep 1, gemiddeld voor midden-kleuters, en uitdagend met subtielere vormverschillen voor groep 2 gebruikers die richting groep 3 gaan. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelwerkbladen voor kleuters ontwikkelen visuele discriminatievaardigheden op een hoger niveau dan peuterversies, met meer vergelijkbare vormen en complexere silhouetten die het juiste uitdagingsniveau bieden voor vier- tot zesjarigen. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met thematische beelden en hun silhouetten. Varieer de moeilijkheid met drie niveaus: basis met sterk contrasterende vormen voor groep 1, gemiddeld voor midden-kleuters, en uitdagend met subtielere vormverschillen voor groep 2 gebruikers die richting groep 3 gaan. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -92,12 +92,12 @@ Het jaarronde karakter van de vraag naar kleutermateriaal is een van de sterkste
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Kleuter Printables Verkopen op Etsy',
+      title: `Kleuter Printables Verkopen op Etsy`,
       description: `Etsy is een sterk platform voor kleuterprintables omdat ouders — het primaire koopsegment naast verkopers — Etsy gebruiken voor educatieve digitale downloads. Richt je op long-tail zoekwoorden die specifieke vaardigheden en niveaucategories combineren: "kleuter telwerkblad groep 1," "letters overtrekken groep 2," of "vormen koppelen kleuterschool." Gebruik alle dertien tags met variaties die ontwikkelingsvaardigheden, leeftijdsgroepen en visuele thema's combineren. Vermeldingsafbeeldingen die geprinte werkbladen tonen naast kleurpotloden of in een merkthema-setting presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten als "groep-3-gereedheid" voor oudere kleuters — dit resoneert bijzonder sterk bij ouders van vijfjarigen. De Nederlandse markt via Etsy.nl biedt sterke kansen door de groeiende vraag naar Nederlandstalig kleutermateriaal.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Kleuter Activiteitenboeken Publiceren op KDP',
+      title: `Kleuter Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is effectief voor kleuterprintables omdat ouders en familieleden activiteitenboeken als educatieve cadeaus kopen bij verjaardagen en feestdagen. Compileer kleuterwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, patroon- en schrijfoefenactiviteiten combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "kleuter activiteitenboek," "werkbladen groep 1-2," en vaardigheidsspecifieke termen toe als "letters leren werkbladen" of "rekenen groep 2." Prijs tussen vier en acht euro voor optimale royaltymarges. Kleuterboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com — bijzonder relevant voor de Nederlandse markt.`,
     },
     {
@@ -147,62 +147,62 @@ Het jaarronde karakter van de vraag naar kleutermateriaal is een van de sterkste
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
+      anchorText: `Professionele optelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Peuterspeelzaal printable businessideeën',
+      anchorText: `Peuterspeelzaal printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
+      anchorText: `Groep 3 printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Terug naar school printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: `Vliegtuig — educatieve thema-afbeelding kleuterschool`, caption: 'Vliegtuig' },
-    { src: '/image-library/toys/baby.webp', alt: 'Baby — educatieve thema-afbeelding kleuterschool', caption: 'Baby' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: `Babymeisje — educatieve thema-afbeelding kleuterschool`, caption: 'Babymeisje' },
-    { src: '/image-library/toys/ball.webp', alt: 'Bal — educatieve thema-afbeelding kleuterschool', caption: 'Bal' },
-    { src: '/image-library/toys/balloon.webp', alt: `Ballon — educatieve thema-afbeelding kleuterschool`, caption: 'Ballon' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Fiets — educatieve thema-afbeelding kleuterschool', caption: 'Fiets' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Vliegtuig — educatieve thema-afbeelding kleuterschool`, caption: 'Vliegtuig' },
+    { src: '/image-library/toys/baby.webp', alt: `Baby — educatieve thema-afbeelding kleuterschool`, caption: 'Baby' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Babymeisje — educatieve thema-afbeelding kleuterschool`, caption: 'Babymeisje' },
+    { src: '/image-library/toys/ball.webp', alt: `Bal — educatieve thema-afbeelding kleuterschool`, caption: 'Bal' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Ballon — educatieve thema-afbeelding kleuterschool`, caption: 'Ballon' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Fiets — educatieve thema-afbeelding kleuterschool`, caption: 'Fiets' },
   ],
 
   youtubeId: '0cOPi7eajLs',

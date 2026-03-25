@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias Imprimíveis Educação Especial — Guia de Nicho`,
     metaDescription: `Descubra ideias de imprimíveis de educação especial para vender no Etsy, KDP e Gumroad. Produtos SPED para vendedores, terapeutas e pais de aprendizes diversos.`,
-    primaryKeyword: 'ideias imprimíveis educação especial',
+    primaryKeyword: `ideias imprimíveis educação especial`,
     secondaryKeywords: [
-      'fichas educação especial para vender',
-      'ideias negócio imprimíveis SPED',
+      `fichas educação especial para vender`,
+      `ideias negócio imprimíveis SPED`,
       `fichas atividades necessidades especiais para vendedores`,
-      'vender imprimíveis educação especial no Gumroad',
+      `vender imprimíveis educação especial no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas aprendizagem diferenciada',
-      'páginas atividades adaptadas para a loja',
-      'recursos imprimíveis alinhados com o PEI',
+      `fichas aprendizagem diferenciada`,
+      `páginas atividades adaptadas para a loja`,
+      `recursos imprimíveis alinhados com o PEI`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ A publicação cruzada de imprimíveis de educação especial em múltiplas plat
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Educação Especial no Etsy',
+      title: `Vender Imprimíveis de Educação Especial no Etsy`,
       description: `O Etsy capta vendedores de educação especial, terapeutas e pais que pesquisam com termos altamente específicos como «fichas educação especial», «fichas adaptadas», «imprimíveis SPED», «fichas autismo», «fichas competências para a vida», «apoios visuais», «fichas matemáticas modificadas» e «atividades objetivos do PEI» durante os doze meses sem quebra de procura sazonal. Utiliza as treze etiquetas com variações que combinem categorias de deficiência, tipos de adaptação, áreas de objetivos do PEI e papéis profissionais para captar os diversos segmentos de compradores dentro da comunidade de educação especial que pesquisam de forma diferente conforme as suas populações específicas de usuários e especialidades terapêuticas. Agrupa produtos por área de objetivos do PEI ou categoria de deficiência para aumentar o valor médio da encomenda: um pacote de fundamentos de matemática adaptada, um pacote de competências para a vida diária e uma coleção de aprendizagem socioemocional servem cada um necessidades profissionais distintas enquanto incentivam múltiplas compras do mesmo comprador. Os preços premium estão justificados pelo esforço de design especializado porque os compradores de educação especial reconhecem que os materiais devidamente adaptados requerem compreensão dos princípios de adaptação que as fichas de educação geral não possuem. As fortes redes comunitárias profissionais entre os vendedores de educação especial e terapeutas impulsionam a descoberta orgânica boca a boca quando os compradores satisfeitos recomendam produtos em grupos de Facebook, comunidades de desenvolvimento profissional e discussões de conferências de educação especial.`,
     },
     {
@@ -145,18 +145,18 @@ A publicação cruzada de imprimíveis de educação especial em múltiplas plat
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -170,7 +170,7 @@ A publicação cruzada de imprimíveis de educação especial em múltiplas plat
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,28 +180,28 @@ A publicação cruzada de imprimíveis de educação especial em múltiplas plat
     },
     {
       pageType: 'idea',
-      slug: 'ensino-domestico-ideias-imprimiveis',
+      slug: `ensino-domestico-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Ensino Doméstico`,
     },
     {
       pageType: 'idea',
-      slug: 'pre-escolar-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis Pré-Escolares',
+      slug: `pre-escolar-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis Pré-Escolares`,
     },
     {
       pageType: 'idea',
       slug: 'ple-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis PLE',
+      anchorText: `Ideias de Negócio de Imprimíveis PLE`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagem educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cone — imagem educativa temática', caption: 'Cone' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagem educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagem educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — imagem educativa temática', caption: 'Diamante' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Coração — imagem educativa temática', caption: 'Coração' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagem educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cone — imagem educativa temática`, caption: 'Cone' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagem educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagem educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — imagem educativa temática`, caption: 'Diamante' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Coração — imagem educativa temática`, caption: 'Coração' },
   ],
 
 

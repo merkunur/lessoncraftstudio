@@ -2,22 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hoeveel kun je verdienen met printables verkopen',
+    primaryKeyword: `hoeveel kun je verdienen met printables verkopen`,
     secondaryKeywords: [
-      'printable bedrijf inkomensverwachtingen',
-      'realistische printable verkoop inkomsten',
-      'werkbladen online verkopen inkomen',
-      'printable bedrijf omzetfactoren',
+      `printable bedrijf inkomensverwachtingen`,
+      `realistische printable verkoop inkomsten`,
+      `werkbladen online verkopen inkomen`,
+      `printable bedrijf omzetfactoren`,
     ],
     lsiKeywords: [
-      'etsy printable verkoper verdiensten factoren',
-      'amazon kdp activiteitenboek omzet variabelen',
-      'werkblad bedrijf catalogusgrootte inkomen',
-      'printable prijsstrategie marktplaats kosten',
-      'digitale download bedrijf tijdsinvestering',
-      'meerdere inkomstenstromen printable producten',
+      `etsy printable verkoper verdiensten factoren`,
+      `amazon kdp activiteitenboek omzet variabelen`,
+      `werkblad bedrijf catalogusgrootte inkomen`,
+      `printable prijsstrategie marktplaats kosten`,
+      `digitale download bedrijf tijdsinvestering`,
+      `meerdere inkomstenstromen printable producten`,
     ],
-    titleTag: 'Hoeveel Kun Je Verdienen met Printables Verkopen?',
+    titleTag: `Hoeveel Kun Je Verdienen met Printables Verkopen?`,
     metaDescription: `Hoeveel kun je verdienen met printables verkopen? Realistische inkomensverwachtingen, platformkostenstructuren, prijsstrategieën en de variabelen die je.`,
   },
 
@@ -39,16 +39,16 @@ const content: StartContent = {
       content: `Printable bedrijfsinkomsten zijn het product van verschillende meetbare variabelen. Elk begrijpen laat je identificeren waar je inspanning de meeste impact heeft.\n\nCatalogusgrootte is de meest fundamentele variabele. Elke productvermelding is een ingangspunt voor potentiële kopers. Een winkel met 10 vermeldingen heeft 10 kansen om in zoekresultaten te verschijnen. Een winkel met 200 vermeldingen heeft 200 kansen. Meer vermeldingen garanderen niet meer verkoop, maar ze vergroten dramatisch de kans om ontdekt te worden.\n\nProductkwaliteit bepaalt het conversiepercentage. Wanneer een koper op je vermelding klikt, bepaalt de kwaliteit van je productafbeeldingen, beschrijvingen en de daadwerkelijke werkbladinhoud of ze kopen. Hoogwaardige werkbladen met professionele indelingen, duidelijke opmaak en passende moeilijkheidsniveaus zetten browsers om in kopers.\n\nPrijzen beïnvloeden zowel omzet per verkoop als totaal verkoopvolume. Te hoog geprijsd en minder mensen kopen. Te laag geprijsd en je laat omzet op tafel liggen. De optimale prijs hangt af van je specifieke product, je doelmarkt en wat concurrenten vragen voor vergelijkbare items.\n\nPlatformselectie bepaalt je publieksgrootte en kostenstructuur. Nicheselectie beïnvloedt het concurrentieniveau. Tijdsinvestering groeit samen over maanden. Een verkoper die vijf producten per week toevoegt gedurende zes maanden heeft 130 vermeldingen. Een die vijf per maand toevoegt heeft 30. Het verschil in ontdekkingspotentieel is aanzienlijk.`,
     },
     {
-      heading: 'Platformeconomie: De Kostenstructuren Begrijpen',
-      content: `Elke marktplaats neemt een deel van je verkoop. De werkelijke kostenstructuren begrijpen laat je je echte omzet per verkoop berekenen — niet de vermeldingsprijs, maar het bedrag dat op je rekening komt.\n\nEtsy rekent een vermeldingsvergoeding van $0,20 per item (vernieuwd elke vier maanden of bij verkoop), een transactievergoeding van 6,5% over de verkoopprijs inclusief verzending, en betalingsverwerkingskosten van ongeveer 3% plus $0,25 per transactie. Voor een digitale download van €4,99 is de geschatte netto na alle kosten ruwweg €4,15–€4,30. Dit zijn Etsy's publiek vermelde tarieven per begin 2026.\n\nAmazon KDP gebruikt een royaltymodel voor paperback boeken: 60% van de catalogusprijs minus drukkosten. Drukkosten hangen af van pagina-aantal, inkttype (zwart-wit versus kleur) en marktplaats. Een zwart-wit activiteitenboek van 100 pagina's met een catalogusprijs van $6,99 op Amazon.com heeft drukkosten van ongeveer $2,15, wat een royalty oplevert van ongeveer $2,04 per verkoop. KDP biedt een royaltycalculator zodat je exacte cijfers kunt modelleren.\n\nGumroad biedt een royaltypercentage van 55% op het basisplan en 80% op het premiumplan ($59,95 per jaar). Gumroad, Payhip en vergelijkbare platforms rekenen variërende kosten afhankelijk van het abonnementsniveau. Directe verkoop via je eigen website (Shopify, WooCommerce) omvat betalingsverwerkingskosten van ongeveer 2,9% plus €0,30 per transactie maar geen marktplaatscommissie.\n\nDit zijn feitelijke, publiek beschikbare platformtarieven. Het zijn geen inkomensvoorspellingen — het zijn de kostenstructuren die je werkelijke per-verkoop omzet op elk platform bepalen.`,
+      heading: `Platformeconomie: De Kostenstructuren Begrijpen`,
+      content: `Elke marktplaats neemt een deel van je verkoop. De werkelijke kostenstructuren begrijpen laat je je echte omzet per verkoop berekenen — niet de vermeldingsprijs, maar het bedrag dat op je rekening komt.\n\nEtsy rekent een vermeldingsvergoeding van $0,20 per item (vernieuwd elke vier maanden of bij verkoop), een transactievergoeding van 6,5% over de verkoopprijs inclusief verzending, en betalingsverwerkingskosten van ongeveer 3% plus $0,25 per transactie. Voor een digitale download van €4,99 is de geschatte netto na alle kosten ruwweg €4,15–€4,30. Dit zijn Etsy`s publiek vermelde tarieven per begin 2026.\n\nAmazon KDP gebruikt een royaltymodel voor paperback boeken: 60% van de catalogusprijs minus drukkosten. Drukkosten hangen af van pagina-aantal, inkttype (zwart-wit versus kleur) en marktplaats. Een zwart-wit activiteitenboek van 100 pagina`s met een catalogusprijs van $6,99 op Amazon.com heeft drukkosten van ongeveer $2,15, wat een royalty oplevert van ongeveer $2,04 per verkoop. KDP biedt een royaltycalculator zodat je exacte cijfers kunt modelleren.\n\nGumroad biedt een royaltypercentage van 55% op het basisplan en 80% op het premiumplan ($59,95 per jaar). Gumroad, Payhip en vergelijkbare platforms rekenen variërende kosten afhankelijk van het abonnementsniveau. Directe verkoop via je eigen website (Shopify, WooCommerce) omvat betalingsverwerkingskosten van ongeveer 2,9% plus €0,30 per transactie maar geen marktplaatscommissie.\n\nDit zijn feitelijke, publiek beschikbare platformtarieven. Het zijn geen inkomensvoorspellingen — het zijn de kostenstructuren die je werkelijke per-verkoop omzet op elk platform bepalen.`,
     },
     {
-      heading: 'Prijsstrategieën voor Printbare Werkbladen',
+      heading: `Prijsstrategieën voor Printbare Werkbladen`,
       content: `Prijzen zijn een van de weinige inkomensvariabelen die je direct controleert, en observeren hoe de printable markt producten prijst helpt je je eigen vermeldingen concurrerend te positioneren.\n\nOp Etsy worden individuele werkblad downloads doorgaans vermeld in het bereik van €1,99–€5,99. Eénpagina werkbladen neigen naar het lagere uiteinde. Meerpagina pakketten van 5–10 werkbladen worden vaak vermeld voor €3,99–€5,99. Grotere bundels van 20–50 pagina's worden regelmatig vermeld voor €6,99–€14,99. Dit zijn observationele bereiken gebaseerd op marktplaatsvermeldingen, geen aanbevelingen of garanties van verkoop op enig specifiek prijspunt.\n\nOp Amazon KDP worden activiteitenboek paperbacks doorgaans vermeld voor $4,99–$9,99. De prijs moet rekening houden met drukkosten, die je royalty verminderen.\n\nBundeling is de meest voorkomende prijsstrategie om de gemiddelde bestelwaarde te verhogen. In plaats van tien individuele werkbladen te verkopen voor €2,99 elk, bundelen verkopers ze vaak in een themapakket voor €9,99.\n\nGelaagde prijzen laten je verschillende koperssegmenten bedienen. Bied een klein proefpakket aan voor een lage prijs voor prijsgevoelige kopers, een standaardbundel tegen een middenprijs voor de meeste kopers, en een uitgebreid megapakket tegen een premiumprijs voor kopers die alles willen.\n\nConcurrentieonderzoek is essentieel voordat je prijzen instelt. Zoek je doelzoekwoorden op Etsy en Amazon, noteer de prijsbereiken van best-verkopende vermeldingen en positioneer je producten competitief.`,
     },
     {
       heading: `De Catalogusgrootte Factor: Waarom Meer Vermeldingen Ertoe Doen`,
-      content: `Platformalgoritmen op Etsy, Amazon en Gumroad delen allemaal één fundamenteel kenmerk: ze tonen producten van verkopers met grotere, actieve catalogi vaker dan producten van verkopers met een handvol vermeldingen. Dit is geen geheime algoritme-hack — het is basismarktplaats-wiskunde. Meer vermeldingen creëren meer indexeerbare pagina's, meer zoekwoorddoelen en meer mogelijkheden voor het algoritme om je producten te koppelen aan koperszoekopdrachten.\n\nElke vermelding die je maakt is een onafhankelijk ingangspunt voor ontdekking. Een woordzoeker puzzel met dierenthema richt zich op andere zoekopdrachten dan een met eten, voertuigen of feestdagenthema. Een rekenwerkblad voor groep 3 richt zich op andere zoekopdrachten dan een voor groep 5. Elke variatie die je maakt richt zich op een nieuw cluster van koperszoekopdrachten.\n\nWerkblad generators versnellen catalogusopbouw dramatisch omdat elke generator tientallen unieke productvariaties kan produceren. Overweeg één voorbeeld: de woordzoeker generator met 10 beschikbare thema's en 3 moeilijkheidsniveaus produceert 30 verschillende productconfiguraties. Voeg 3 verschillende pagina-aantallen toe en je hebt 90 potentiële Etsy-vermeldingen vanuit één generator.\n\nDe praktische conclusie: je catalogus consistent opbouwen in de loop der tijd — wekelijks nieuwe producten toevoegen in plaats van in een enkele burst — is een van de sterkste voorspellers van uiteindelijke verkoop. Platformalgoritmen belonen verkopers die doorlopende activiteit demonstreren.\n\nDe gratis proefversie met watermerk laat je testen hoe snel je variaties kunt produceren voordat je een licentie aanschaft.`,
+      content: `Platformalgoritmen op Etsy, Amazon en Gumroad delen allemaal één fundamenteel kenmerk: ze tonen producten van verkopers met grotere, actieve catalogi vaker dan producten van verkopers met een handvol vermeldingen. Dit is geen geheime algoritme-hack — het is basismarktplaats-wiskunde. Meer vermeldingen creëren meer indexeerbare pagina`s, meer zoekwoorddoelen en meer mogelijkheden voor het algoritme om je producten te koppelen aan koperszoekopdrachten.\n\nElke vermelding die je maakt is een onafhankelijk ingangspunt voor ontdekking. Een woordzoeker puzzel met dierenthema richt zich op andere zoekopdrachten dan een met eten, voertuigen of feestdagenthema. Een rekenwerkblad voor groep 3 richt zich op andere zoekopdrachten dan een voor groep 5. Elke variatie die je maakt richt zich op een nieuw cluster van koperszoekopdrachten.\n\nWerkblad generators versnellen catalogusopbouw dramatisch omdat elke generator tientallen unieke productvariaties kan produceren. Overweeg één voorbeeld: de woordzoeker generator met 10 beschikbare thema`s en 3 moeilijkheidsniveaus produceert 30 verschillende productconfiguraties. Voeg 3 verschillende pagina-aantallen toe en je hebt 90 potentiële Etsy-vermeldingen vanuit één generator.\n\nDe praktische conclusie: je catalogus consistent opbouwen in de loop der tijd — wekelijks nieuwe producten toevoegen in plaats van in een enkele burst — is een van de sterkste voorspellers van uiteindelijke verkoop. Platformalgoritmen belonen verkopers die doorlopende activiteit demonstreren.\n\nDe gratis proefversie met watermerk laat je testen hoe snel je variaties kunt produceren voordat je een licentie aanschaft.`,
     },
     {
       heading: `Tijdsinvestering: Hoe de Eerste 90 Dagen Eruitzien`,
@@ -67,14 +67,14 @@ const content: StartContent = {
       content: `De printable bedrijfsruimte trekt meer misleidende inkomensclaims aan dan de meeste online bedrijfsniches. De meest voorkomende mythes herkennen beschermt je tegen onrealistische verwachtingen.\n\nMythe: je kunt direct een groot terugkerend inkomen verdienen met minimale inspanning. Realiteit: een printable bedrijf opbouwen dat consistente verkoop genereert vereist aanhoudende inspanning over maanden.\n\nMythe: één product kan transformatief inkomen genereren. Realiteit: printable bedrijfsinkomsten zijn bijna altijd verdeeld over veel producten. Succesvolle verkopers hebben doorgaans tientallen of honderden vermeldingen.\n\nMythe: het bedrijf draait zichzelf na de initiële opzet. Realiteit: actieve verkopers die producten blijven toevoegen, vermeldingen optimaliseren en op markttrends reageren presteren beter dan degenen die een winkel opzetten en weglopen.\n\nMythe: elke printable verkoopt als je het vermeldt. Realiteit: marktonderzoek, nicheselectie en productgetrapte productpakketten zijn enorm belangrijk.\n\nMythe: toolkeuze bepaalt inkomen. Realiteit: de tool is een productieversneller, geen inkomensgarantie. Een hoogwaardige werkblad generator maakt je efficiënter, maar efficiëntie zonder strategie produceert meer producten die mogelijk niet verkopen.`,
     },
     {
-      heading: 'Je Eigen Realistische Inkomensdoelen Stellen',
+      heading: `Je Eigen Realistische Inkomensdoelen Stellen`,
       content: `De meest effectieve inkomensdoelen voor een printable bedrijf richten zich op inputs die je controleert in plaats van outputs die je niet controleert. Omzet hangt af van kopersgedrag, algoritmeveranderingen, seizoensvraag en concurrentiedynamiek — niets waarvan je directe controle hebt. Maar de activiteiten die omzet aandrijven liggen volledig binnen je controle.\n\nInputgerichte doelen klinken als: "Vermeld 5 nieuwe producten deze week." "Maak vermeldingen op 2 nieuwe platforms deze maand." "Test 3 nieuwe niches dit kwartaal." "Optimaliseer titels en tags op 10 onderpresterende vermeldingen." Deze zijn concreet, meetbaar en haalbaar ongeacht externe factoren.\n\nOutputgerichte doelen klinken als: "Verdien een specifiek bedrag deze maand." Het probleem met outputdoelen is niet dat ze verkeerd zijn om te wensen — iedereen start een bedrijf met de wens naar omzet. Het probleem is dat ze frustratie creëren wanneer externe factoren resultaten vertragen, en die frustratie leidt tot stoppen voordat het bedrijf kritieke massa bereikt.\n\nEen praktisch doelraamwerk voor nieuwe printable verkopers: Week 1–4, richt je op het grondig leren van één generator en het maken van je eerste 15–20 productvermeldingen. Week 5–8, breid uit naar een tweede producttype of een tweede platform. Week 9–12, analyseer je verkeers- en verkoopdata om te identificeren welke producten en niches tractie tonen, verdubbel dan op die gebieden. Aan het eind van 90 dagen is je doel een catalogus van 50+ vermeldingen met genoeg data om weloverwogen beslissingen te nemen.\n\nVolg je inputs wekelijks en je omzet maandelijks. De inputs zullen in het begin langzaam voelen. De omzet zal langzamer voelen. Maar verkopers die consistente input handhaven over zes tot twaalf maanden zijn degenen die printable bedrijven bouwen die betekenisvol, duurzaam inkomen genereren.`,
     },
   ],
 
   actionSteps: [
     {
-      step: 'Test Productiesnelheid met de Gratis Proefversie',
+      step: `Test Productiesnelheid met de Gratis Proefversie`,
       description: `Open een werkblad generator en gebruik de gratis proefversie met watermerk. Meet hoe lang het duurt om een compleet, printklaar product te genereren. Dit geeft je een concreet datapunt voor het inschatten hoe snel je je catalogus kunt opbouwen.`,
     },
     {
@@ -90,7 +90,7 @@ const content: StartContent = {
       description: `Kies één primair platform om te starten: Etsy voor digitale downloads, Amazon KDP voor activiteitenboeken, of Gumroad voor printbare producten. Beheers één platform voordat je uitbreidt naar andere.`,
     },
     {
-      step: 'Stel een 30-Dagen Catalogusdoel',
+      step: `Stel een 30-Dagen Catalogusdoel`,
       description: `Verbind je tot een specifiek aantal nieuwe vermeldingen voor je eerste maand — 15 tot 20 is een realistisch startdoel. Richt je op consistente wekelijkse productie in plaats van een enkele burst.`,
     },
     {
@@ -98,15 +98,15 @@ const content: StartContent = {
       description: `Genereer je eerste set werkbladen over 3–5 thema's op 2–3 moeilijkheidsniveaus. Dit creëert 6–15 unieke productvariaties vanuit één generator — genoeg voor een betekenisvolle initiële catalogusaanwezigheid.`,
     },
     {
-      step: 'Vermeld op een Tweede Platform',
+      step: `Vermeld op een Tweede Platform`,
       description: `Na het vestigen van je aanwezigheid op één platform, pas je producten aan voor een tweede. Een Etsy digitale download kan een KDP paperback of Gumroad-materiaal worden met minimaal extra werk. Meerdere platforms betekenen meerdere inkomstenstromen.`,
     },
     {
-      step: 'Volg Inputs Wekelijks, Omzet Maandelijks',
+      step: `Volg Inputs Wekelijks, Omzet Maandelijks`,
       description: `Leg je wekelijkse activiteit vast: vermeldingen gemaakt, producten gegenereerd, platforms gebruikt. Controleer omzet maandelijks in plaats van dagelijks. Wekelijkse input-tracking houdt je verantwoordelijk voor de inspanningsvariabelen die je controleert.`,
     },
     {
-      step: 'Beoordeel en Optimaliseer na 90 Dagen',
+      step: `Beoordeel en Optimaliseer na 90 Dagen`,
       description: `Na drie maanden consistente inspanning, analyseer je data. Welke producten krijgen de meeste weergaven? Welke converteren naar verkoop? Welke niches tonen belofte? Gebruik deze data om je productietijd te richten op bewezen producttypen.`,
     },
   ],
@@ -181,59 +181,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-gids-printable-bedrijf',
+      slug: `complete-gids-printable-bedrijf`,
       title: `Complete Gids voor het Starten van een Printable Bedrijf`,
       description: `De uitgebreide basisgids die nicheselectie, productcreatie, platformvergelijking, prijsstrategie en catalogusopbouw behandelt voor alle printable marktplaatsen.`,
     },
     {
       slug: 'werkbladen-maken-die-verkopen',
-      title: 'Hoe Werkbladen te Maken Die Verkopen',
+      title: `Hoe Werkbladen te Maken Die Verkopen`,
       description: `Diepgaande kijk op productkwaliteit: ontwerpnormen, getrapte productpakkettentechnieken en de methoden die werkbladen laten opvallen bij concurrenten op elke marktplaats.`,
     },
     {
       slug: 'etsy-printable-bedrijf',
-      title: 'Etsy Printable Bedrijf Masterclass',
+      title: `Etsy Printable Bedrijf Masterclass`,
       description: `De Etsy-specifieke gids voor digitale printable downloads. Behandelt winkelopzet, vermeldingsoptimalisatie, prijsstrategie en het bouwen van een winstgevend Etsy werkblad bedrijf.`,
     },
     {
       slug: 'amazon-kdp-activiteitenboeken',
-      title: 'Amazon KDP Activiteitenboeken Bedrijfsgids',
+      title: `Amazon KDP Activiteitenboeken Bedrijfsgids`,
       description: `Het KDP-specifieke draaiboek voor het publiceren van activiteitenboeken op Amazon. Binnenwerk opmaak, omslagontwerp, zoekwoordonderzoek, prijzen en internationale marktplaatsuitbreiding.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
+    { pageType: 'start', slug: `complete-gids-printable-bedrijf`, anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
     { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: `Hoe Professionele Werkbladen te Maken Die Verkopen` },
     { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: `Etsy Printable Bedrijf Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: `Amazon KDP Activiteitenboeken Bedrijfsgids` },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: `Commerciële Licentie Gids voor Printable Verkopers` },
-    { pageType: 'start', slug: 'meertalige-werkbladen-maken', anchorText: 'Hoe Werkbladen te Maken in 11 Talen' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Rekenwerkblad Generator — Volledig Overzicht' },
+    { pageType: 'start', slug: 'meertalige-werkbladen-maken', anchorText: `Hoe Werkbladen te Maken in 11 Talen` },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: `Woordzoeker Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: `Rekenwerkblad Generator — Volledig Overzicht` },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Probeer de Rekenwerkblad Maker' },
+    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: `Probeer de Rekenwerkblad Maker` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/dutch/math%20worksheet/Wiskundeblad%201.webp`, alt: 'Rekenwerkblad dat professionele uitvoerkwaliteit demonstreert van werkblad generators' },
+    heroImage: { src: `/samples/dutch/math%20worksheet/Wiskundeblad%201.webp`, alt: `Rekenwerkblad dat professionele uitvoerkwaliteit demonstreert van werkblad generators` },
     samples: [
-      { src: `/samples/dutch/math%20worksheet/Wiskundeblad%201.webp`, alt: 'Rekenwerkblad met professionele indeling en 300 DPI printkwaliteit', caption: 'Rekenwerkblad — Veelzijdige Omzetbouwer' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: `Woordzoeker puzzel werkblad voor Etsy en Amazon KDP verkoop`, caption: 'Woordzoeker — Best-Verkopende Puzzelcategorie' },
-      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: 'Kleurplaat voor KDP activiteitenboek publicatie', caption: 'Kleurplaat — Hoog-Volume KDP Categorie' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: `Sudoku puzzel werkblad met universele internationale aantrekkingskracht`, caption: 'Sudoku — Universele Marktaantrekkingskracht' },
+      { src: `/samples/dutch/math%20worksheet/Wiskundeblad%201.webp`, alt: `Rekenwerkblad met professionele indeling en 300 DPI printkwaliteit`, caption: `Rekenwerkblad — Veelzijdige Omzetbouwer` },
+      { src: `/samples/dutch/wordsearch/Woordzoeker%201.webp`, alt: `Woordzoeker puzzel werkblad voor Etsy en Amazon KDP verkoop`, caption: `Woordzoeker — Best-Verkopende Puzzelcategorie` },
+      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: `Kleurplaat voor KDP activiteitenboek publicatie`, caption: `Kleurplaat — Hoog-Volume KDP Categorie` },
+      { src: `/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp`, alt: `Sudoku puzzel werkblad met universele internationale aantrekkingskracht`, caption: `Sudoku — Universele Marktaantrekkingskracht` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Hoe Rekenwerkbladen te Maken voor Je Printable Bedrijf — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Maanvis — thematische educatieve afbeelding', caption: 'Maanvis' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownvis — thematische educatieve afbeelding', caption: 'Clownvis' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koraal — thematische educatieve afbeelding', caption: 'Koraal' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krab — thematische educatieve afbeelding', caption: 'Krab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolfijn — thematische educatieve afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Maanvis — thematische educatieve afbeelding`, caption: 'Maanvis' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownvis — thematische educatieve afbeelding`, caption: 'Clownvis' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koraal — thematische educatieve afbeelding`, caption: 'Koraal' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krab — thematische educatieve afbeelding`, caption: 'Krab' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Dolfijn — thematische educatieve afbeelding`, caption: 'Dolfijn' },
   ],
 };
 

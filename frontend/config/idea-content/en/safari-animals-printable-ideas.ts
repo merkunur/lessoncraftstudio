@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Safari Animals Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover profitable safari animals printable ideas to sell on Etsy, Amazon KDP, and Gumroad. African wildlife product concepts and platform tips for sellers.`,
 
-    primaryKeyword: 'safari animals printable ideas',
+    primaryKeyword: `safari animals printable ideas`,
     secondaryKeywords: [
-      'safari animal worksheets to sell',
-      'safari themed printable business',
-      'jungle activity sheets for sellers',
-      'sell safari printables on Etsy',
+      `safari animal worksheets to sell`,
+      `safari themed printable business`,
+      `jungle activity sheets for sellers`,
+      `sell safari printables on Etsy`,
     ],
     lsiKeywords: [
-      'African wildlife educational worksheets',
-      'jungle and savanna activity pages',
-      'exotic animal themed printables',
+      `African wildlife educational worksheets`,
+      `jungle and savanna activity pages`,
+      `exotic animal themed printables`,
     ],
   },
   hero: {
@@ -65,12 +65,12 @@ The safari theme also performs exceptionally well in the nursery and early child
       appId: 'coloring',
     },
     {
-      title: 'Safari Bingo Cards for Sellers and Event Planners',
+      title: `Safari Bingo Cards for Sellers and Event Planners`,
       description: `Safari-themed bingo cards serve both buyers running wildlife science units and parents planning jungle-themed birthday parties or zoo visit activities. The Bingo generator creates unique card variations from your safari vocabulary list, ensuring no two cards are identical for group play. Sell group sets of twenty-five to thirty cards with a calling sheet and optional markers page included. For the party and event market, create printable safari bingo kits with vibrant African animal illustrations. Bingo products generate repeat purchases since buyers and event planners need fresh themes each term or event cycle.`,
       appId: 'bingo',
     },
     {
-      title: 'Safari Animal Shadow Matching Worksheets to Sell',
+      title: `Safari Animal Shadow Matching Worksheets to Sell`,
       description: `Shadow matching develops visual discrimination skills essential for reading readiness, making these worksheets popular with preschool buyers and parents of three to five year olds. Use the Shadow Match generator to create pages where children match African safari animals to their silhouettes. The distinctive body shapes of safari creatures like giraffes, elephants, rhinos, and flamingos make shadow matching naturally varied and engaging. These worksheets print beautifully in both color and grayscale, which matters for buyers who often print in black and white. Safari shadow matching sets of ten to fifteen pages sell consistently at three to five dollars.`,
       appId: 'shadow-match',
     },
@@ -94,17 +94,17 @@ The safari theme also performs exceptionally well in the nursery and early child
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Safari Animal Printables on Etsy',
+      title: `Selling Safari Animal Printables on Etsy`,
       description: `Etsy rewards specificity in safari animal printable listings. Target long-tail keywords like "safari animals counting worksheet preschool" or "African animals coloring pages toddler" rather than broad generic titles. Use all thirteen tags with combinations of theme, skill, age group, and occasion such as zoo visits or birthday parties. Mockup images showing printed safari worksheets alongside toy animals, savanna-themed backgrounds, or learning displays significantly outperform flat digital previews. Time new listings to coincide with spring zoo season from March through May when parent and buyer interest in safari themes peaks. Offer both individual worksheets at two to four dollars and themed bundles at eight to fifteen dollars, since Etsy buyers often start with a low-cost purchase and return for larger safari packs after confirming your quality.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Safari Animal Activity Books on KDP',
+      title: `Publishing Safari Animal Activity Books on KDP`,
       description: `Amazon KDP works well for safari-themed printables compiled into cohesive activity books. A forty to sixty page safari animals activity book combining counting, coloring, matching, and word activities performs strongly in the children's activity book category. Use KDP keyword fields strategically with terms like "safari animals activity book," "African wildlife worksheets for kids," and age-specific phrases like "preschool safari book." Price between four and seven dollars for optimal royalty rates. Safari books perform particularly well as gifts and travel activities, so include gift-friendly language in your description. Always order a proof copy to verify that animal illustrations and savanna backgrounds print clearly before publishing.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Safari Unit Resources on Gumroad',
+      title: `Selling Safari Unit Resources on Gumroad`,
       description: `Gumroad buyers seek educationally aligned resources for immediate use in their lessons. Safari animal printables on Gumroad perform best when packaged as complete mini-units with clear learning objectives, science standards alignment on habitats and animal classification, and usage notes. Include answer keys, suggested activity sequences connecting safari animals to geography and science concepts, and tiered product options for mixed-ability groups. Safari themes align naturally with Next Generation Science Standards on animal adaptations and ecosystems. Use Gumroad's bundling feature to offer individual safari products and a discounted bundle simultaneously. Detailed product previews showing four to six sample pages convert significantly better than single-image listings.`,
     },
     {
@@ -149,32 +149,32 @@ The safari theme also performs exceptionally well in the nursery and early child
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -184,17 +184,17 @@ The safari theme also performs exceptionally well in the nursery and early child
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Business Ideas',
+      anchorText: `Ocean Animals Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — themed educational image', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — themed educational image', caption: 'Bison' },
-    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — themed educational image`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Bear — themed educational image`, caption: 'Bear' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bison — themed educational image`, caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
   ],
 
 

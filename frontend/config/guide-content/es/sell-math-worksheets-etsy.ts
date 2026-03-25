@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender fichas de matemáticas en Etsy',
+    primaryKeyword: `vender fichas de matemáticas en Etsy`,
     secondaryKeywords: [
-      'cómo vender fichas de matemáticas en Etsy',
-      'configurar tienda Etsy fichas matemáticas',
-      'fichas de matemáticas imprimibles negocio Etsy',
-      'vender imprimibles educativos en Etsy',
+      `cómo vender fichas de matemáticas en Etsy`,
+      `configurar tienda Etsy fichas matemáticas`,
+      `fichas de matemáticas imprimibles negocio Etsy`,
+      `vender imprimibles educativos en Etsy`,
     ],
     lsiKeywords: [
       `Etsy descarga digital actividades matemáticas optimización anuncios`,
       `estrategia precios paquetes fichas matemáticas vendedores Etsy`,
-      'etiquetas SEO Etsy fichas imprimibles educativas',
-      'vender fichas sumas restas tienda Etsy',
+      `etiquetas SEO Etsy fichas imprimibles educativas`,
+      `vender fichas sumas restas tienda Etsy`,
       `vuelta al cole matemáticas imprimibles Etsy estrategia estacional`,
       `fotos anuncios mockups productos fichas matemáticas Etsy`,
     ],
-    titleTag: 'Vender fichas de matemáticas en Etsy — Guía',
+    titleTag: `Vender fichas de matemáticas en Etsy — Guía`,
     metaDescription: `Vende fichas de matemáticas en Etsy con 6 generadores. SEO Etsy, optimización de anuncios, precios, estrategias de paquetes y timing estacional para.`,
   },
 
   hero: {
-    title: 'Cómo vender fichas de matemáticas en Etsy',
+    title: `Cómo vender fichas de matemáticas en Etsy`,
     tagline: `Una guía completa de plataforma para construir una tienda Etsy rentable vendiendo fichas de matemáticas creadas con 6 generadores especializados — que cubre configuración de tienda Etsy, optimización SEO con las 13 etiquetas, títulos y descripciones de anuncios que se posicionan para términos de búsqueda de compradores, fotografía de productos y mockups, estrategias de precios para fichas individuales y paquetes, timing estacional para picos de vuelta al cole y festividades, planificación de catálogo de sumas, restas, puzles de códigos, comparación, puzles de cuadrícula y ejercicios numéricos, y optimización continua de tienda usando Estadísticas de Etsy y analítica de búsqueda`,
     description: `Las fichas de matemáticas están entre los imprimibles educativos de mayor demanda en Etsy. Los padres que buscan complementos para los deberes, los vendedores que buscan actividades listas para venta en línea y las emprendedores que construyen recursos de productoses recurren a Etsy para materiales de matemáticas descargables. Esta guía te muestra cómo construir una tienda Etsy que atienda a estos tres segmentos de compradores usando fichas creadas con nuestros 6 generadores de matemáticas: Sumas, Restas, Código de sumas, Más o menos, Puzle matemático y Ficha de matemáticas.\n\nA diferencia de las guías de creación de productos que te enseñan a usar una aplicación específica, esta guía de plataforma se enfoca en estrategias de venta específicas de Etsy. Aprenderás a investigar la demanda de fichas de matemáticas en Etsy, planificar un catálogo de productos que cubra múltiples habilidades y niveles de dificultad, escribir anuncios que se posicionen en la búsqueda de Etsy, crear fotos de anuncios que conviertan visitantes en compradores, fijar precios que equilibren competitividad con rentabilidad y optimizar tu tienda con el tiempo usando la analítica integrada de Etsy.\n\nCada uno de los 6 generadores de matemáticas produce un tipo diferente de ficha, dándote una variedad de productos que la mayoría de vendedores con una sola herramienta no pueden igualar. Los generadores de Sumas y Restas crean problemas basados en imágenes donde los usuarios cuentan ilustraciones temáticas. El de Código de sumas produce puzles matemáticos de código secreto que combinan aritmética con descifrado. Más o menos genera fichas de comparación para conceptos de mayor que y menor que. Puzle matemático crea desafíos basados en cuadrícula que desarrollan el pensamiento lógico junto con las habilidades de cálculo. Ficha de matemáticas produce ejercicios numéricos para usuarios que necesitan práctica aritmética enfocada. Juntas, estas 6 herramientas te permiten construir un catálogo completo de fichas de matemáticas desde un solo kit.\n\nTodas las funciones de los 6 generadores están disponibles en la prueba gratis con marca de agua para que puedas crear fichas completas, evaluar la calidad del resultado y planificar tu catálogo de productos antes de comprar licencias comerciales. La licencia comercial elimina las marcas de agua y otorga derechos completos para vender las fichas generadas en Etsy y cualquier otro marketplace.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Un catálogo planificado supera a la creación aleatoria de anuncios porque asegura que cubras los términos de búsqueda que los compradores realmente usan mientras construyes oportunidades naturales de venta cruzada entre tus productos. Usa tu investigación del paso uno para trazar tu línea de productos inicial.\n\nComienza con una matriz de productos. Lista tus 6 generadores de matemáticas en la parte superior: Sumas, Restas, Código de sumas, Más o menos, Puzle matemático y Ficha de matemáticas. En el lateral, lista las variables que puedes controlar: tema (animales, alimentos, vehículos, festividades, estaciones), nivel de dificultad (jardín de infantes, primer grado, segundo grado), formato (fichas individuales, paquetes temáticos, mega packs) y tamaño de página (Carta, A4, ambos). Cada intersección de generador y variable es un anuncio potencial de Etsy.\n\nPrioriza tus primeros 20 anuncios basándote en la investigación. Un catálogo inicial fuerte podría incluir: 5 paquetes de fichas de sumas temáticas (animales, alimentos, vehículos, festividades, vuelta al cole), 3 paquetes temáticos de restas que complementen los de sumas, 3 paquetes de puzles de código de sumas apuntando al nicho de formato único, 3 sets de comparación más o menos para la palabra clave de productos específica, 3 packs de puzles de cuadrícula matemática apuntando al comprador que busca puzles, y 3 packs de ejercicios numéricos para usuarios mayores. Esto te da 20 anuncios en los 6 formatos, maximizando tu cobertura de búsqueda desde el primer día.\n\nPlanifica las ventas adicionales de paquetes desde el principio. Para cada set temático que crees, anota cómo se combinará después en un paquete más grande. Tus 5 paquetes individuales de sumas se convierten en una «Colección completa de fichas de sumas». Tus sets de sumas y restas del mismo tema se convierten en un «Paquete de operaciones matemáticas». Planificar estas conexiones ahora significa que creas las fichas componentes pensando en la agrupación.`,
     },
     {
-      heading: 'Crea tu inventario de fichas de matemáticas',
+      heading: `Crea tu inventario de fichas de matemáticas`,
       content: `Con tu plan de catálogo en mano, trabaja con cada generador sistemáticamente para construir tu inventario inicial. El objetivo es la eficiencia de producción — crear fichas por lotes por generador en lugar de cambiar constantemente entre herramientas.\n\nComienza con el Generador de fichas de sumas. Selecciona tu primer tema, configura el tamaño de página (crea versiones Carta y A4 si apuntas a compradores internacionales), elige un estilo de fuente y decoración que sea consistente con tu marca, y genera tu número objetivo de fichas. Exporta cada una como PDF (el producto entregable) y JPEG (para las fotos del anuncio). Genera las claves de respuestas correspondientes. Repite para cada tema en tu plan de catálogo de sumas.\n\nPasa al Generador de fichas de restas y aplica los mismos ajustes de tema y estilo para mantener la consistencia visual. Los compradores que vean tus anuncios de sumas y restas uno al lado del otro deben reconocer inmediatamente que provienen de la misma tienda. El branding consistente entre formatos de matemáticas genera confianza en el comprador y fomenta las compras múltiples.\n\nTrabaja con los generadores de Código de sumas, Más o menos, Puzle matemático y Ficha de matemáticas siguiendo el mismo enfoque sistemático. Para tutoriales detallados sobre las funciones específicas de cada generador, consulta las guías de creación de productos vinculadas — esta guía de plataforma se enfoca en la estrategia de venta en Etsy en lugar de instrucciones específicas de la aplicación.\n\nOrganiza tus archivos exportados en una estructura de carpetas clara: una carpeta por anuncio de producto, cada una conteniendo el PDF entregable, el PDF de la clave de respuestas y las imágenes de vista previa en JPEG. Esta organización previene confusiones cuando comiences a crear anuncios en Etsy y asegura que cada producto tenga sus archivos necesarios listos.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `El algoritmo de búsqueda de Etsy compara las consultas de los compradores con el título, las etiquetas, la descripción y los atributos de tu anuncio. Optimizar cada campo correctamente es lo más impactante que puedes hacer por la visibilidad de tu tienda.\n\nTítulos: Etsy da el mayor peso de búsqueda a los títulos de los anuncios. Coloca las palabras clave más importantes al inicio. «Fichas de sumas para jardín de infantes — 20 actividades de matemáticas con imágenes y claves de respuestas — PDF imprimible» es mucho más efectivo que «Fichas de mates bonitas con animales». Incluye el tipo de operación, el nivel de grado, la cantidad, la característica clave (claves de respuestas) y el formato (PDF imprimible) en cada título.\n\nEtiquetas: Etsy proporciona 13 espacios de etiquetas por anuncio — úsalos todos cada vez. Las etiquetas deben incluir variaciones de tu palabra clave principal, términos de búsqueda relacionados y frases de cola larga. Para un anuncio de fichas de sumas, etiquetas efectivas incluyen: «fichas de sumas», «fichas matemáticas infantil», «actividades matemáticas imprimibles», «sumas primer grado», «hojas de práctica matemáticas», «imprimibles educativos», «matemáticas trabajo desde casa», «recursos vendedores matemáticas», «sumas con dibujos», «fichas matemáticas con respuestas», «fichas imprimibles PDF», «descarga digital matemáticas», «actividades matemáticas tienda». No repitas palabras exactas entre etiquetas — Etsy combina las etiquetas con tu título para el emparejamiento, así que diversifica tu cobertura de palabras clave.\n\nDescripciones: aunque el algoritmo de Etsy da más peso a títulos y etiquetas que a las descripciones, la descripción es donde conviertes visitantes en compradores. Empieza con lo que el comprador obtiene: número de fichas, habilidad matemática cubierta, nivel de grado, si incluyen claves de respuestas. Luego describe el formato: PDF, tamaño de página, listo para imprimir a 300 DPI. Incluye una sección sobre cómo usar las fichas. Termina con información sobre la entrega por descarga digital instantánea. Escribe de forma natural — saturar la descripción de palabras clave perjudica la legibilidad sin mejorar el posicionamiento.\n\nAtributos: completa todos los campos de atributos que Etsy proporciona para descargas digitales. Selecciona la categoría apropiada (Impresiones digitales > Educativo), tipo de archivo (PDF) y cualquier otro atributo disponible. La información completa de atributos mejora la puntuación de calidad de tu anuncio en el algoritmo de Etsy.`,
     },
     {
-      heading: 'Crea fotos de anuncio que conviertan',
+      heading: `Crea fotos de anuncio que conviertan`,
       content: `Etsy es un marketplace visual. La miniatura de tu anuncio es lo primero que ven los compradores en los resultados de búsqueda, y determina si hacen clic en tu anuncio o pasan de largo. Las fotos de anuncios de fichas de matemáticas necesitan comunicar el contenido del producto claramente mientras lucen profesionales y atractivas.\n\nTu primera imagen del anuncio (la miniatura) debe mostrar 2 a 3 páginas de fichas desplegadas o superpuestas, lo suficientemente grandes como para que el contenido matemático sea parcialmente legible incluso en tamaño miniatura. Usa las exportaciones JPEG de tus generadores como base. Colócalas sobre un fondo limpio y claro — blanco, crema o un pastel suave. Añade una sombra sutil para dar dimensión a las fichas. Incluye un texto superpuesto con el punto de venta clave: «20 fichas + claves de respuestas» o «Sumas jardín de infantes».\n\nSegunda imagen: muestra una sola página de ficha a tamaño completo para que los compradores puedan ver exactamente cómo es el contenido. Esto genera confianza mostrando el producto real en lugar de solo un mockup estilizado.\n\nTercera imagen: muestra la clave de respuestas junto a la ficha. Los vendedores y padres buscan específicamente claves de respuestas incluidas, y ver la clave de respuestas en las fotos del anuncio comunica esta función instantáneamente sin necesidad de leer la descripción.\n\nCuarta imagen: muestra la variedad dentro del paquete. Si tu producto contiene fichas con diferentes temas o niveles de dificultad, muestra una cuadrícula de 6 a 9 miniaturas de fichas mostrando la variedad de contenido incluido.\n\nQuinta imagen: incluye una infografía de «qué se incluye» listando el contenido, número de páginas, características (claves de respuestas, múltiples temas, PDF listo para imprimir) y cualquier extra. Esta imagen sirve a compradores que navegan por las fotos sin leer las descripciones.\n\nEvita usar fotos con filtros pesados u excesivamente estilizadas que oculten el contenido real de las fichas. Los compradores de Etsy que adquieren imprimibles educativos quieren ver lo que van a obtener. La claridad y el profesionalismo convierten mejor que el estilismo artístico para esta categoría de productos.`,
     },
     {
@@ -59,7 +59,7 @@ const content: GuideContent = {
       content: `Fijar precios para fichas de matemáticas en Etsy requiere equilibrar competitividad con rentabilidad. Tu investigación del paso uno te da el panorama competitivo — ahora aplica una estrategia de precios que posicione tus productos apropiadamente.\n\nAnuncios de fichas individuales (5 a 10 páginas con claves de respuestas): $2,99 a $4,99. Estos sirven como productos de entrada que atraen compradores primerizos a tu tienda. Mantén el precio accesible porque estos anuncios funcionan como herramientas de captación de clientes. Un comprador que adquiere un pack de sumas a $3,99 y tiene una experiencia positiva probablemente volverá por restas, puzles y eventualmente paquetes.\n\nPaquetes temáticos (15 a 25 fichas con claves de respuestas): $4,99 a $7,99. Los paquetes son tus productos principales de ingresos. El valor percibido de obtener 20 fichas por $5,99 es fuerte, y el coste de producción para ti es mínimo ya que los generadores crean fichas rápidamente. Fija precios consistentes para los paquetes temáticos — si tu paquete de sumas de animales cuesta $5,99, tu paquete de sumas de alimentos también debería costar $5,99. Los precios consistentes simplifican las decisiones de compra.\n\nMega packs y colecciones (40 a 100+ fichas): $9,99 a $19,99. Estos productos premium sirven a compradores que quieren un recurso completo. Una «Colección completa de fichas de matemáticas» que contenga fichas de los 6 generadores en múltiples temas a $14,99–$19,99 ofrece un valor percibido excepcional mientras genera tus mayores ingresos por transacción.\n\nEvita competir bajando precios hasta el fondo. Las fichas creadas con generadores profesionales a 300 DPI con claves de respuestas, decoraciones temáticas y múltiples tamaños de página son productos premium. Fijar precios por debajo de $2,99 para paquetes señala baja calidad a los compradores de Etsy y atrae a cazadores de descuentos que dejan reseñas exigentes. Fija precios acordes a la calidad que entregas.\n\nEtsy cobra una tarifa de publicación de $0,20 más comisiones por transacción (6,5 % del precio de venta). Incluye estos costes en tus precios para que cada venta sea rentable después de las comisiones.`,
     },
     {
-      heading: 'Lanza tu tienda y optimiza con el tiempo',
+      heading: `Lanza tu tienda y optimiza con el tiempo`,
       content: `Lanza con al menos 15 a 20 anuncios para dar a tu tienda suficiente superficie de búsqueda. Una tienda con solo 3 a 5 anuncios tiene dificultades para ganar tracción porque hay muy pocos puntos de entrada para que la búsqueda de Etsy los compare con las consultas de los compradores. Tu catálogo planificado del paso dos debería darte suficientes productos para un lanzamiento fuerte.\n\nLa cadencia de publicación después del lanzamiento importa para el algoritmo de Etsy. La plataforma favorece a las tiendas que añaden nuevos anuncios regularmente sobre las tiendas que publican todo de golpe y quedan inactivas. Después de tu lanzamiento inicial, añade de 2 a 3 nuevos anuncios por semana. Esta cadencia constante señala una tienda activa y te da impulsos regulares en el factor de recencia de búsqueda de Etsy.\n\nUsa las Estadísticas de Etsy para rastrear qué anuncios obtienen más vistas, favoritos y ventas. Las Estadísticas te muestran exactamente qué términos de búsqueda usaron los compradores para encontrar tus anuncios — estos datos son invaluables para optimizar anuncios existentes y planificar nuevos productos. Si ves tráfico viniendo de un término de búsqueda que no apuntaste específicamente, crea un nuevo anuncio optimizado para ese término.\n\nMonitorea tu tasa de conversión (el porcentaje de vistas de anuncios que resultan en ventas). Si un anuncio obtiene muchas vistas pero pocas ventas, las fotos o la descripción del anuncio pueden necesitar mejoras. Si un anuncio obtiene pocas vistas pero una alta tasa de conversión, el producto es fuerte pero necesita mejor SEO — actualiza el título y las etiquetas para captar más tráfico de búsqueda.\n\nLa optimización estacional es crítica para fichas de matemáticas. Actualiza tus anuncios y crea productos estacionales 4 a 6 semanas antes de los períodos pico. La vuelta al cole (julio a septiembre) es el mayor pico estacional para imprimibles educativos. Enero trae un pico secundario cuando los padres establecen metas de aprendizaje de año nuevo. Crea fichas de matemáticas temáticas para Halloween, Navidad, San Valentín y Pascua para captar tráfico adyacente a festividades. Los anuncios estacionales con temas festivos a menudo generan tantas ventas en su ventana de 6 semanas como los anuncios perennes generan en todo el año.\n\nFomenta las reseñas incluyendo una nota de agradecimiento en tu PDF de descarga digital con una solicitud amable de comentarios. Las reseñas son una señal de confianza importante en Etsy — los anuncios con más reseñas se posicionan más arriba en la búsqueda y convierten a tasas más altas. Responde a cada reseña, positiva o negativa, para demostrar una gestión activa de la tienda.`,
     },
   ],
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Usa cada etiqueta para una variación de frase diferente que los compradores podrían buscar. No repitas las mismas palabras en múltiples etiquetas ya que Etsy ya combina tus etiquetas con tu título para el emparejamiento. Para un anuncio de fichas de sumas, ejemplo de etiquetas: «fichas de sumas», «fichas matemáticas infantil», «actividades matemáticas primer grado», «hojas de matemáticas imprimibles», «fichas educativas PDF», «recursos matemáticos trabajo desde casa», «imprimibles vendedores tienda», «hojas práctica números», «matemáticas con dibujos», «fichas descarga instantánea», «actividades centros matemáticos», «fichas de conteo», «ayuda deberes matemáticas». Cada etiqueta captura un ángulo de búsqueda diferente.`,
     },
     {
-      question: '¿Debo ofrecer ambos tamaños Carta y A4 en Etsy?',
+      question: `¿Debo ofrecer ambos tamaños Carta y A4 en Etsy?`,
       answer: `Sí. Etsy tiene una base de compradores global, y los compradores internacionales usan papel A4 (210 × 297 mm) en lugar de Carta EE. UU. (8,5 × 11 pulgadas). Incluir ambos tamaños en tu descarga digital previene la fuente más común de reseñas negativas de compradores internacionales: fichas que se imprimen incorrectamente en su papel. Los 6 generadores de matemáticas admiten exportaciones tanto en Carta como en A4, así que crear productos de doble tamaño requiere esfuerzo extra mínimo. Menciona «tamaños Carta y A4 incluidos» en el título o descripción de tu anuncio para señalar compatibilidad internacional.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'vender-sopas-letras-etsy',
-      title: 'Vender sopas de letras en Etsy',
+      title: `Vender sopas de letras en Etsy`,
       description: `Expande tu tienda Etsy hacia la categoría de sopas de letras y artes del lenguaje. Las sopas de letras complementan los productos de matemáticas y atraen un segmento de compradores diferente, ampliando la cobertura de búsqueda de tu tienda.`,
     },
     {
@@ -148,21 +148,21 @@ const content: GuideContent = {
       description: `La guía detallada de creación de producto para el Generador de fichas de sumas. Aprende cada función, configuración y técnica de producción para crear las fichas de sumas basadas en imágenes referenciadas en esta guía de venta en Etsy.`,
     },
     {
-      slug: 'crear-fichas-puzzles-matematicos',
-      title: 'Crear fichas de puzles matemáticos',
+      slug: `crear-fichas-puzzles-matematicos`,
+      title: `Crear fichas de puzles matemáticos`,
       description: `La guía de creación de producto para el Generador de puzles matemáticos. Aprende cómo crear los puzles matemáticos basados en cuadrícula únicos que diferencian tus anuncios de Etsy de los competidores de fichas estándar.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de sumas' },
     { pageType: 'guide', slug: 'crear-fichas-resta', anchorText: 'Cómo crear fichas de restas' },
-    { pageType: 'guide', slug: 'crear-fichas-puzzles-matematicos', anchorText: 'Cómo crear fichas de puzles matemáticos' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de sumas — Todos los detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el generador de fichas de sumas' },
+    { pageType: 'guide', slug: `crear-fichas-puzzles-matematicos`, anchorText: `Cómo crear fichas de puzles matemáticos` },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de fichas de sumas — Todos los detalles` },
+    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: `Prueba el generador de fichas de sumas` },
   ],
 
   toolsRecommended: [
@@ -178,33 +178,33 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Generador de fichas de puzles matemáticos',
+      title: `Generador de fichas de puzles matemáticos`,
       description: `Crea puzles matemáticos basados en cuadrícula únicos que diferencian tus anuncios de Etsy de los competidores de fichas estándar. El formato distintivo tiene menos competencia y capta la atención en los resultados de búsqueda.`,
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Produce ejercicios de cálculo numérico limpios para usuarios mayores que necesitan práctica aritmética enfocada. Apunta a un segmento de compradores diferente al de las fichas basadas en imágenes, ampliando la audiencia de tu tienda.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas con ilustraciones temáticas mostrando problemas de matemáticas basados en imágenes para vender en Etsy` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas con ilustraciones temáticas mostrando problemas de matemáticas basados en imágenes para vender en Etsy` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas con tema de animales creada para anuncio de descarga digital en Etsy`, caption: 'Ficha de sumas con tema de animales — problemas de matemáticas basados en imágenes que crean fotos de anuncio llamativas en Etsy' },
-      { src: `/samples/spanish/subtraction/Restas Divertidas 2.webp`, alt: 'Ficha de restas complementando productos de sumas en una tienda Etsy de fichas de matemáticas', caption: 'Ficha de restas — compañera natural de venta cruzada para anuncios de sumas en tu tienda Etsy' },
-      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 2.webp`, alt: 'Ficha de puzle de cuadrícula matemática mostrando formato único que diferencia anuncios de Etsy', caption: 'Puzle de cuadrícula matemática — formato único con menos competencia en Etsy que las fichas estándar' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas con tema de animales creada para anuncio de descarga digital en Etsy`, caption: `Ficha de sumas con tema de animales — problemas de matemáticas basados en imágenes que crean fotos de anuncio llamativas en Etsy` },
+      { src: `/samples/spanish/subtraction/Restas Divertidas 2.webp`, alt: `Ficha de restas complementando productos de sumas en una tienda Etsy de fichas de matemáticas`, caption: `Ficha de restas — compañera natural de venta cruzada para anuncios de sumas en tu tienda Etsy` },
+      { src: `/samples/spanish/math puzzle/Rompecabezas Matemáticos 2.webp`, alt: `Ficha de puzle de cuadrícula matemática mostrando formato único que diferencia anuncios de Etsy`, caption: `Puzle de cuadrícula matemática — formato único con menos competencia en Etsy que las fichas estándar` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo crear fichas de sumas para vender en Etsy — Tutorial paso a paso`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagen educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cono — imagen educativa temática', caption: 'Cono' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagen educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagen educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — imagen educativa temática', caption: 'Diamante' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagen educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cono — imagen educativa temática`, caption: 'Cono' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagen educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagen educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — imagen educativa temática`, caption: 'Diamante' },
   ],
 };
 

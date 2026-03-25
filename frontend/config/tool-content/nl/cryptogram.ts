@@ -4,15 +4,15 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'cryptogram werkblad generator',
     secondaryKeywords: [
-      'plaatjes cijferpuzzel maker voor verkopers',
-      'cryptogram werkbladen maken om te verkopen',
+      `plaatjes cijferpuzzel maker voor verkopers`,
+      `cryptogram werkbladen maken om te verkopen`,
       `printbare cryptogram puzzels met commerciële licentie`,
       'cryptogram generator voor KDP',
     ],
     lsiKeywords: [
       `afbeelding-naar-letter cijfer printables voor Etsy`,
-      'codekraak werkblad generator tool',
-      'meertalige plaatjes cryptogram maker',
+      `codekraak werkblad generator tool`,
+      `meertalige plaatjes cryptogram maker`,
     ],
     titleTag: `Cryptogram Werkblad Maker | Maak & Verkoop Puzzels`,
     metaDescription: `Genereer cryptogram werkbladen met plaatjescijfer-codering, moeilijkheidsschuifregelaar, automatische toewijzing, antwoordbladen in 11 talen.`,
@@ -28,15 +28,15 @@ const content: ToolContent = {
     title: `Cryptogram Werkbladen Maken in 8 Eenvoudige Stappen`,
     steps: [
       {
-        title: 'Open de cryptogram werkblad maker',
+        title: `Open de cryptogram werkblad maker`,
         description: `Klik op "Gratis proefversie" om de generator te starten in je browser. De tool laadt direct met een instellingenzijbalk links en een live voorbeeldcanvas rechts. Geen account, geen software-download, geen installatie nodig — begin onmiddellijk met het bouwen van plaatjescijfer-puzzels.`,
       },
       {
-        title: 'Stel de pagina-indeling en het sjabloon in',
+        title: `Stel de pagina-indeling en het sjabloon in`,
         description: `In het gedeelte Pagina-instelling selecteer je je paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend of een aangepaste afmeting. Stel je paginakleur in, voeg een thematisch achtergrondbeeld toe met instelbare dekking uit de 104-thema afbeeldingenbibliotheek, en kies een decoratief kaderframe met onafhankelijke dekkingsregeling.`,
       },
       {
-        title: 'Voer je geheime zin in en selecteer de taal',
+        title: `Voer je geheime zin in en selecteer de taal`,
         description: `Typ de zin of het woord dat je wilt dat gebruikers ontcijferen. Dit is de geheime boodschap die als plaatjescijfer wordt gecodeerd. Selecteer de doeltaal uit 11 ondersteunde talen — de beschikbare alfabetset past zich automatisch aan per taal. Nederlands gebruikt het standaard alfabet, Duits voegt ä, ö, ü, ß toe, en Frans voegt geaccentueerde tekens zoals é, è, ç, à toe. Elke letter in je zin wordt aan een afbeelding gekoppeld.`,
       },
       {
@@ -44,19 +44,19 @@ const content: ToolContent = {
         description: `Gebruik Automatische Toewijzing om direct willekeurige afbeeldingen uit het geselecteerde thema aan alle niet-toegewezen alfabetletters te koppelen met één klik — de snelste manier om een volledige cijfercode te bouwen. Gebruik anders Handmatige Toewijzing om specifiek te kiezen welke afbeelding welke letter voorstelt, met een visueel overzicht van alle huidige koppelingen. Je kunt ook eigen afbeeldingen uploaden en aan elke letter toewijzen voor volledige creatieve controle.`,
       },
       {
-        title: 'Kies een thema en kleur- of zwart-witfilter',
+        title: `Kies een thema en kleur- of zwart-witfilter`,
         description: `Blader door 104 thematische beeldcollecties met meer dan 3100 illustraties — dieren, voedsel, voertuigen, natuur, feestdagen, beroepen en tientallen meer. Gebruik het Kleur vs Zwart-wit filter om te wisselen tussen kleurrijke illustraties voor levendige digitale producten en zwart-wit lijntekeningen voor inktbesparend klassikaal printen en KDP-puzzelboek binnenwerken.`,
       },
       {
-        title: 'Stel moeilijkheid in met Letters Onthullen',
+        title: `Stel moeilijkheid in met Letters Onthullen`,
         description: `Pas de schuifregelaar Letters Onthullen aan van 0 tot 10 om te bepalen hoeveel letter-naar-afbeelding koppelingen vooraf als hints op het werkblad zijn opgelost. Nul onthullingen creëert een pure codekraak-uitdaging waarbij gebruikers zonder informatie beginnen. Tien onthullingen biedt zware ondersteuning voor jongere of minder ervaren oplossers. Deze enkele instelling creëert een soepel moeilijkheidsverloop en dient als de primaire getrapte productpakkettenasis voor genivelleerde productbundels.`,
       },
       {
-        title: 'Pas lettertypen, tekst en canvas aan',
+        title: `Pas lettertypen, tekst en canvas aan`,
         description: `Kies uit 5 lettertypefamilies: Lexend Deca, Baloo 2, Nunito, Quicksand en Fredoka. Voeg een werkbladtitel, naam- en datumvelden, aangepaste instructies of tekstoverlay toe. Gebruik de Fabric.js canvastools om elk element op de pagina te slepen, vergroten, roteren en herpositioneren. Uitlijntools, vergrendelen/ontgrendelen besturing en onbeperkt ongedaan maken/opnieuw laten je de indeling nauwkeurig afstemmen.`,
       },
       {
-        title: 'Genereer letterlegenda antwoordblad en download',
+        title: `Genereer letterlegenda antwoordblad en download`,
         description: `Schakel naar het Antwoordblad-tabblad en genereer een opgeloste versie die een volledige letterlegenda bevat — elke alfabetletter gekoppeld aan de toegewezen afbeelding in gesorteerde volgorde voor definitieve referentie. Schakel de Grijstinten-schakelaar in voor inktbesparende zwart-wit uitvoer. Download zowel het werkblad als het antwoordblad als printklare PDF of hoge-resolutie JPEG op 400+ DPI met een 6× renderingvermenigvuldiger.`,
       },
     ],
@@ -64,7 +64,7 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Thematische Plaatjescijfer Puzzelpakketten',
+      title: `Thematische Plaatjescijfer Puzzelpakketten`,
       description: `Maak sets van 10–20 cryptogram werkbladen gegroepeerd per afbeeldingsthema — boerderijdieren, zeedieren, voertuigen, voedsel, feestdagen en meer. Gebruik Automatische Toewijzing om thematische afbeeldingen aan het alfabet te koppelen en varieer de instelling Letters Onthullen over de set voor progressieve moeilijkheid: begin bij 8 onthullingen voor opwarmpuzzels en bouw af naar 0 onthullingen voor expert-uitdagingen. Voeg letterlegenda antwoordbladen toe voor elke puzzel. Het visuele cijferformaat met thematische afbeeldingen valt op vergeleken met standaard woordzoeker- of kruiswoordpuzzel-vermeldingen. Positioneer op €3–€5 per thema.`,
     },
     {
@@ -72,7 +72,7 @@ const content: ToolContent = {
       description: `Genereer 50–100 cryptogrampagina's met progressieve moeilijkheidsstructuur. Open met zwaar ondersteunde puzzels op 8–10 Letters Onthullen als opwarming, ga door naar 3–5 onthullingen voor de middelhoofdstukken, en eindig met nul-onthulling expert-uitdagingen. Groepeer hoofdstukken per thema voor bladervariatie en neem letterlegenda antwoordbladen achterin op. Gebruik grijstinten voor lagere drukkosten. Plaatjes cryptogram puzzelboeken bezetten een minder concurrerende KDP-niche dan woordzoeker- of kruiswoordpuzzelboeken.`,
     },
     {
-      title: 'Gedifferentieerde Codekraak-Centra',
+      title: `Gedifferentieerde Codekraak-Centra`,
       description: `Bouw genivelleerde cryptogram oefeningsets met Letters Onthullen als getrapte productpakkettenasis. Niveau 1: 8 onthullingen, korte zinnen, thematische afbeeldingen voor beginnende lezers. Niveau 2: 5 onthullingen, middellange zinnen voor ontwikkelende decodeurs. Niveau 3: 2 onthullingen, langere zinnen voor zelfverzekerde oplossers. Niveau 4: 0 onthullingen, volledige codekraak-uitdaging voor gevorderde gebruikers. Verpak elk niveau met letterlegenda antwoordbladen en een voortgangsregistratieblad.`,
     },
     {
@@ -80,23 +80,23 @@ const content: ToolContent = {
       description: `Schakel de taal om en regenereer hetzelfde cryptogramontwerp in alle 11 ondersteunde talen. Zowel de geheime boodschaptekst als de beschikbare alfabetset veranderen per taal — een Duits cryptogram codeert een Duitse zin met ä, ö, ü, ß in het alfabet, een Frans cryptogram gebruikt é, è, ç, à. Elke taalversie is een oprecht andere cijferpuzzel met verschillende woorden, andere letterkoppelingen en een andere oplossingservaring. Eén ontwerpsessie produceert 11 onderscheidende producten.`,
     },
     {
-      title: 'Aangepaste Woordenschat Cijferwerkbladen',
+      title: `Aangepaste Woordenschat Cijferwerkbladen`,
       description: `Codeer vakspecifieke zinnen als cryptogrampuzzels voor gericht leren: wetenschappelijke definities, historische feiten, motiverende citaten, wekelijkse spellingwoorden gerangschikt in een zin, of vreemde taal oefenzinnen. Typ elke zin als geheime boodschap en de tool bouwt de plaatjescijfer automatisch. Het codekraakformaat transformeert routine-woordenschatherhaling in een boeiende puzzelactiviteit.`,
     },
     {
-      title: 'Seizoens- en Feestdag Cijferbundels',
-      description: `Gebruik feestdag- en seizoensthema's om tijdgebonden cryptogrambundels te maken. Een "Sinterklaas Geheime Boodschappen" pakket met pepernoten-thema cijferafbeeldingen verkoopt sterk in november. Kerstmis, terug-naar-school, Valentijnsdag en zomerthema's hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad. Combineer ondersteunde puzzels op 6–8 onthullingen voor jongere gebruikers met nul-onthulling expertpuzzels voor oudere kinderen in één seizoensbundel.`,
+      title: `Seizoens- en Feestdag Cijferbundels`,
+      description: `Gebruik feestdag- en seizoensthema`s om tijdgebonden cryptogrambundels te maken. Een "Sinterklaas Geheime Boodschappen" pakket met pepernoten-thema cijferafbeeldingen verkoopt sterk in november. Kerstmis, terug-naar-school, Valentijnsdag en zomerthema`s hebben elk hun eigen piekverkoopperioden op Etsy.nl en Gumroad. Combineer ondersteunde puzzels op 6–8 onthullingen voor jongere gebruikers met nul-onthulling expertpuzzels voor oudere kinderen in één seizoensbundel.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Moeilijkheid-Gegradueerde Cijferwinkel op Etsy',
+      title: `Moeilijkheid-Gegradueerde Cijferwinkel op Etsy`,
       description: `Open een Etsy-winkel gespecialiseerd in cryptogram werkbladen georganiseerd per moeilijkheidsniveau met Letters Onthullen als graderingsas. Beginnerpakketten (7–10 onthullingen) bieden zware ondersteuning voor jonge decodeurs. Gemiddelde pakketten (3–6 onthullingen) dagen ontwikkelende oplossers uit. Expertpakketten (0–2 onthullingen) bieden pure codekraak-uitdagingen. De meeste puzzelverkopers bieden generieke één-moeilijkheid producten — moeilijkheid-gegradueerde cryptogrammen laten kopers precies het juiste uitdagingsniveau vinden.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Thematische Cijferboekserie',
+      title: `Amazon KDP Thematische Cijferboekserie`,
       description: `Stel 80+ plaatjes cryptogrampuzzels samen in een thematisch puzzelboek voor Amazon KDP. Structureer een serie rond populaire thema's: "Dieren Geheime Boodschappen", "Voedsel & Keuken Cijferpuzzels", "Natuur Codekraak Avonturen". Elk boek gebruikt progressieve Letters Onthullen moeilijkheid van zwaar ondersteund naar nul hints met letterlegenda antwoordbladen achterin. Cryptogram puzzelboeken zijn een dramatisch onderbedeelde niche op KDP vergeleken met woordzoekers en kruiswoordpuzzels.`,
       platform: 'Amazon KDP',
     },
@@ -111,12 +111,12 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Pinterest Cijferpuzzel Trechter',
+      title: `Pinterest Cijferpuzzel Trechter`,
       description: `Het plaatjescijfer-formaat is inherent visueel en pin-waardig — een raster van kleurrijke afbeeldingen die letters vervangen in een gecodeerde boodschap is direct intrigerend en anders dan alles in de werkbladcategorie. Pin een gratis 3-pagina sampler met watermerk, verzamel e-mailadressen en verkoop vervolgens volledige thematische en meertalige cijferbundels. Cryptogram werkbladen krijgen hoge opslagpercentages op Pinterest omdat het visuele cijferformaat nieuwsgierigheid wekt.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Complete Codekraak Toolkit',
+      title: `Gumroad Complete Codekraak Toolkit`,
       description: `Bundel cryptogram werkbladen met woordzoekers, letterpuzzels, raad-het-woord en koppelwerkbladen om een uitgebreide geletterdheids-puzzel toolkit te maken op Gumroad. Elk formaat oefent een andere cognitieve vaardigheid: cryptogram bouwt deductie en patroonherkenning door codekraken, woordzoeker oefent visueel scannen, letterpuzzel oefent letterherschikking, raad-het-woord test spellingoproeping. Een multi-formaat puzzelkit rechtvaardigt een premiumprijspunt van €12–€19.`,
       platform: 'Gumroad',
     },
@@ -140,11 +140,11 @@ const content: ToolContent = {
       description: `Elke themacollectie is beschikbaar in kleur- en zwart-witvarianten. Maak een "Kleur Editie" voor digitale downloads en levendige Etsy-vermeldingen, regenereer dan hetzelfde ontwerp in zwart-wit voor inktbesparend klassikaal printen en KDP-puzzelboek binnenwerken. Twee productvarianten vanuit één ontwerpsessie zonder extra inhoudelijk werk.`,
     },
     {
-      title: 'Ga Meertalig voor 11× Productbereik',
+      title: `Ga Meertalig voor 11× Productbereik`,
       description: `Omdat Cryptogram taalgebonden is, verandert het wisselen van taal zowel de geheime boodschap als de alfabetset. Een Duits cryptogram bevat ä, ö, ü, ß; een Frans cryptogram bevat é, è, ç, à; een Nederlands cryptogram gebruikt het Nederlandse alfabet met de geheime boodschap in het Nederlands. Elke versie is een fundamenteel ander cijferproduct. Eén ontwerpworkflow produceert 11 onderscheidende vermeldingen voor 11 verschillende kopersmarkten.`,
     },
     {
-      title: 'Gebruik Grijstinten voor KDP en Bulkdruk',
+      title: `Gebruik Grijstinten voor KDP en Bulkdruk`,
       description: `Schakel de grijstinten-schakelaar in voor werkbladen bedoeld voor Amazon KDP-binnenwerken of klassikale bulkdruk. Zwart-wit uitvoer is aanzienlijk goedkoper om te printen. Bewaar kleurmodus voor Etsy-vermeldingsvoorbeelden en digitale downloads waar levendige thematische afbeeldingen klikken genereren en conversies stimuleren.`,
     },
     {
@@ -159,7 +159,7 @@ const content: ToolContent = {
       answer: `Ja. De tool biedt een gratis proefversie met volledige functies — Automatische Toewijzing, Handmatige Toewijzing, eigen afbeelding uploaden, Letters Onthullen (0–10), alle 104 afbeeldingsthema's, de letterlegenda antwoordblad en alle exportformaten. Geen registratie, geen creditcard nodig. Gratis proefversie downloads bevatten een watermerk. Koop een commerciële licentie om het watermerk te verwijderen en verkooprechten te ontgrendelen.`,
     },
     {
-      question: 'Hoe werkt de plaatjes cryptogram cijfercode?',
+      question: `Hoe werkt de plaatjes cryptogram cijfercode?`,
       answer: `Elke alfabetletter is gekoppeld aan een unieke afbeelding. Je geheime zin wordt weergegeven als een reeks afbeeldingen die elke letter vervangen. gebruikers bestuderen de afbeeldingenreeks, leiden af welke afbeelding welke letter voorstelt met patroonherkenning en contextuele aanwijzingen, en schrijven de gedecodeerde letters op om de oorspronkelijke boodschap te onthullen. Spaties en leestekens blijven behouden, zodat woordgrenzen zichtbaar zijn.`,
     },
     {
@@ -179,11 +179,11 @@ const content: ToolContent = {
       answer: `Cryptogram is een plaatjescijfer — gebruikers decoderen een afbeeldingenreeks terug naar tekst door letter-naar-afbeelding koppelingen af te leiden over een hele zin. Woordzoeker laat gebruikers verborgen woorden in een letterraster vinden. Letterpuzzel geeft gehusselde lettertegels om te herschikken. Raad het Woord toont lege plekken die gebruikers invullen. Cryptogram is het enige formaat dat deductie en codekraaklogica oefent, waardoor het een unieke toevoeging is aan elke geletterdheids-productbundel.`,
     },
     {
-      question: 'Hoe werkt het taalgebonden alfabet?',
+      question: `Hoe werkt het taalgebonden alfabet?`,
       answer: `Wanneer je een taal selecteert, past de beschikbare alfabetset zich automatisch aan. Nederlands gebruikt het standaard alfabet. Duits voegt ä, ö, ü, ß toe. Frans voegt é, è, ç, à en andere geaccentueerde tekens toe. Zowel de geheime boodschaptekst als het cijferalfabet veranderen per taal, zodat elke taalversie een oprecht ander cijferproduct is met verschillende woorden, andere letterkoppelingen en een andere oplossingservaring.`,
     },
     {
-      question: 'Wat toont de letterlegenda antwoordblad?',
+      question: `Wat toont de letterlegenda antwoordblad?`,
       answer: `Het antwoordblad bevat een volledige letterlegenda die elke alfabetletter toont gekoppeld aan de toegewezen afbeelding in gesorteerde alfabetische volgorde. Dit is de definitieve referentie voor het controleren van oplossingen — gebruikers of verkopers kunnen elke afbeelding opzoeken om te bevestigen welke letter deze voorstelt. Het antwoordblad toont ook de volledig gedecodeerde zin voor snelle verificatie.`,
     },
     {
@@ -191,8 +191,8 @@ const content: ToolContent = {
       answer: `De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de cryptogram werkbladen die je maakt.`,
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: `Download werkbladen en antwoordbladen als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden op 400+ DPI met een 6× renderingvermenigvuldiger. Ondersteunde paginaformaten zijn Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en aangepaste afmetingen. Schakel grijstinten in voor inktbesparende uitvoer. PDF's zijn ideaal voor direct printen en KDP-upload; JPEG's werken uitstekend voor productmockups en social media berichten.`,
+      question: `Welke bestandsformaten kan ik downloaden?`,
+      answer: `Download werkbladen en antwoordbladen als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden op 400+ DPI met een 6× renderingvermenigvuldiger. Ondersteunde paginaformaten zijn Letter Staand, Letter Liggend, A4 Staand, A4 Liggend en aangepaste afmetingen. Schakel grijstinten in voor inktbesparende uitvoer. PDF`s zijn ideaal voor direct printen en KDP-upload; JPEG`s werken uitstekend voor productmockups en social media berichten.`,
     },
     {
       question: 'Wat is het restitutiebeleid?',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: `Cryptogram Werkbladen — Volledige Productdetails` },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
     { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Raad het Woord Maker' },
     { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Letterpuzzel Maker' },

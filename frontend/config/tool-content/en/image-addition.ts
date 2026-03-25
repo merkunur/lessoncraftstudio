@@ -1,17 +1,17 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'addition worksheet maker to sell online',
+    primaryKeyword: `addition worksheet maker to sell online`,
     secondaryKeywords: [
-      'addition worksheet creator for Etsy sellers',
-      'math addition worksheets for printable business',
-      'printable addition practice sheets',
+      `addition worksheet creator for Etsy sellers`,
+      `math addition worksheets for printable business`,
+      `printable addition practice sheets`,
       `image addition worksheets for the early-learner niche`,
     ],
     lsiKeywords: [
-      'visual math worksheets to sell online',
-      'picture-based addition practice printables',
-      'early-learner math printables for sellers',
+      `visual math worksheets to sell online`,
+      `picture-based addition practice printables`,
+      `early-learner math printables for sellers`,
     ],
     titleTag: `Addition Worksheet Maker — Math Sheets to Sell Online`,
     metaDescription: `Create addition worksheets with themed images to sell on Etsy & KDP. 104 themes, 4 exercise modes, answer keys, print-ready PDFs. Try with watermark — no signup.`,
@@ -24,7 +24,7 @@ const content: ToolContent = {  seo: {
   },
 
   tutorial: {
-    title: 'How to Create Addition Worksheets in 8 Easy Steps',
+    title: `How to Create Addition Worksheets in 8 Easy Steps`,
     steps: [
       {
         title: 'Open the Worksheet Generator',
@@ -39,7 +39,7 @@ const content: ToolContent = {  seo: {
         description: `Adjust "Min items per group" and "Max items per group" sliders to control the numbers used. For the beginner tier, try 1–3. For the early-learner niche, use 1–5. The K-2 product market can handle 1–10. You can also set the number of exercises per worksheet (1 to 10).`,
       },
       {
-        title: 'Select a Theme from the Image Library',
+        title: `Select a Theme from the Image Library`,
         description: `Open the "Image Library" panel and browse over 100 themed image sets: animals, food, vehicles, sea creatures, space, sports, and many more. Use the search bar to find specific themes. Click individual images to select exactly which ones appear on your worksheet.`,
       },
       {
@@ -63,7 +63,7 @@ const content: ToolContent = {  seo: {
 
   whatYouCanCreate: [
     {
-      title: 'Themed Addition Activity Packs',
+      title: `Themed Addition Activity Packs`,
       description: `Create a set of 10–20 worksheets around a single theme — dinosaurs, farm animals, or ocean creatures. Bundle them as a PDF activity pack and sell on Etsy or Gumroad. Buyers love themed packs because they keep learners engaged longer. Each theme in the library contains enough variety to fill an entire pack without repeating images, which means buyers get genuine visual diversity in every download. Position your packs at $3 to $5 for individual themes and $8 to $12 for mega-bundles that combine multiple themes with a progressive difficulty curve from simple counting to challenging multi-addend problems.`,
     },
     {
@@ -105,12 +105,12 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Homeschool Curriculum Supplement',
+      title: `Homeschool Curriculum Supplement`,
       description: `Create a structured 12-week addition curriculum with progressive difficulty. Sell it as a digital download on your own website or Gumroad. Homeschool parents actively seek hands-on, visual math materials. Structure the curriculum with clear learning objectives per week, starting with single-digit addends and progressing to double-digit challenges by week twelve. Include instruction sheets explaining how to use each set of worksheets and what math concepts they reinforce. Homeschool buyers pay premium prices for well-organized curriculum materials.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Tutoring Center Resource Library',
+      title: `Tutoring Center Resource Library`,
       description: `If you run a tutoring business, generate custom worksheets for each session. The image-based format keeps young learners engaged while you track which number ranges they struggle with. Use the answer key for instant grading. Track learner progress by saving worksheet configurations and regenerating similar exercises at slightly higher difficulty levels as they improve. The instant answer key generation eliminates grading time between sessions, allowing tutors to focus entirely on instruction and interaction during limited tutoring windows.`,
     },
     {
@@ -121,11 +121,11 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Use Mixed Mode for Maximum Value',
+      title: `Use Mixed Mode for Maximum Value`,
       description: `When creating products to sell, always include at least a few Mixed Mode worksheets in your bundles. Mixed Mode combines Image + Image, Image + Number, and Find Addend on a single page, giving buyers more variety and making your product feel more complete compared to competitors who only offer one style. Marketplace shoppers often compare bundles side by side before purchasing, and Mixed Mode pages demonstrate breadth of content at a glance, which increases conversion rates and justifies premium pricing on your listings.`,
     },
     {
-      title: 'Match Theme to Season for Best Sales',
+      title: `Match Theme to Season for Best Sales`,
       description: `Seasonal products outperform evergreen ones during peak windows. Create pumpkin-themed addition packs in September, snowman-themed packs in November, and flower-themed packs in March. List them 2–3 weeks before the season starts to catch early shoppers. Track which seasonal themes generate the most favorites and purchases so you can prioritize restocking and expanding those collections the following year for compounding returns on your creative effort.`,
     },
     {
@@ -145,7 +145,7 @@ const content: ToolContent = {  seo: {
       description: `Use the Text Tools to add your shop name, a copyright notice, or a motivational message at the bottom of each worksheet. This subtle branding helps build recognition if a customer shares your worksheet with others.`,
     },
     {
-      title: 'Leverage the Border and Background Library',
+      title: `Leverage the Border and Background Library`,
       description: `A plain white worksheet and a worksheet with a themed border and subtle background look completely different in product listings. Adding visual polish takes 30 seconds and can justify a higher price point. Adjust background opacity to keep exercises readable. Consistent border choices across an entire bundle create a professional, branded look that signals quality to buyers and encourages them to purchase your complete collection rather than a single worksheet from a competing shop.`,
     },
   ],
@@ -156,19 +156,19 @@ const content: ToolContent = {  seo: {
       answer: `Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.`,
     },
     {
-      question: 'What file formats can I download?',
+      question: `What file formats can I download?`,
       answer: `You can download worksheets as high-resolution JPEG images or print-optimized PDF files. Both the worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing; JPEGs work great for creating product mockups and social media posts. For KDP publishing, export PDFs at the highest available resolution to meet Amazon print quality requirements. For social media marketing, the JPEG format produces shareable images that display correctly across Instagram, Pinterest, and Facebook platforms.`,
     },
     {
-      question: 'Can I use the worksheets for commercial purposes?',
+      question: `Can I use the worksheets for commercial purposes?`,
       answer: `The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.`,
     },
     {
-      question: 'How many image themes are available?',
+      question: `How many image themes are available?`,
       answer: `The image library includes over 100 themed collections covering animals, food, vehicles, sports, nature, holidays, school supplies, and much more. Each theme contains multiple individual images so your worksheets always look varied, even within a single theme. New themes are periodically added to the library to keep the collection fresh and aligned with current seasonal and educational trends. Each theme is carefully illustrated with consistent art style so worksheets look professionally designed.`,
     },
     {
-      question: 'What exercise modes does the generator support?',
+      question: `What exercise modes does the generator support?`,
       answer: `There are four modes: Image + Image (both addends as picture groups), Image + Number (pictures plus a numeral), Find Addend (one addend is hidden), and Mixed Mode (randomly combines all three on one worksheet). Mixed Mode is especially popular for creating engaging, varied activity pages. Sellers often use different modes to create tiered difficulty bundles, offering each mode as a separate product line or combining all four into a premium collection.`,
     },
     {
@@ -176,7 +176,7 @@ const content: ToolContent = {  seo: {
       answer: `Yes. The generator supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Switch the content language to generate worksheets with image labels and instructions in your chosen language.`,
     },
     {
-      question: 'Do I need to install any software?',
+      question: `Do I need to install any software?`,
       answer: `No. The generator runs entirely in your web browser. It works on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create.`,
     },
     {
@@ -184,7 +184,7 @@ const content: ToolContent = {  seo: {
       answer: `Yes. After generating a worksheet, click "Generate Answer Key" to create a matching solution sheet with all answers filled in. You can download the answer key as a separate JPEG or PDF file. This is especially useful for sellers who want to include answer keys in their products. Buyers on Etsy and Gumroad consistently leave higher ratings for listings that include answer keys, so always generate and bundle them with every worksheet pack you sell.`,
     },
     {
-      question: 'What page sizes are supported?',
+      question: `What page sizes are supported?`,
       answer: `The generator supports US Letter (portrait and landscape), A4 (portrait and landscape), Square (1200×1200 px), and fully custom dimensions. Square format is ideal for social media content and Amazon KDP activity books.`,
     },
     {
@@ -194,7 +194,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: `Addition Worksheets — Full Product Details` },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
     { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
     { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
@@ -206,24 +206,24 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/Addition Fun 1.webp',
+      primary: `/samples/english/addition/Addition Fun 1.webp`,
       primaryAlt: `Addition worksheet with animal images showing picture-based math exercises`,
     },
     sampleGallery: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: `/samples/english/addition/Addition Fun 1.webp`,
         alt: `Image addition worksheet with animal theme showing Image + Image mode`,
-        caption: 'Image + Image mode with animal theme',
+        caption: `Image + Image mode with animal theme`,
       },
       {
         src: `/samples/english/addition/addition_worksheet portrait.webp`,
         alt: `Addition worksheet using food images in Find Addend mode`,
-        caption: 'Find Addend mode with food theme',
+        caption: `Find Addend mode with food theme`,
       },
       {
-        src: '/samples/english/addition/image and number.webp',
+        src: `/samples/english/addition/image and number.webp`,
         alt: `Mixed mode addition worksheet with vehicle images and decorative border`,
-        caption: 'Mixed mode with vehicles and border decoration',
+        caption: `Mixed mode with vehicles and border decoration`,
       },
     ],
     youtubeId: '6O5aCzHkh8M',

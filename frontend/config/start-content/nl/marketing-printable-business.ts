@@ -2,27 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printable werkbladen marketing strategie',
+    primaryKeyword: `printable werkbladen marketing strategie`,
     secondaryKeywords: [
-      'marketingstrategieën voor printable verkopers',
-      'printable werkbladen online promoten',
-      'marketingplan voor printable bedrijf',
-      'meer werkbladen verkopen op etsy',
+      `marketingstrategieën voor printable verkopers`,
+      `printable werkbladen online promoten`,
+      `marketingplan voor printable bedrijf`,
+      `meer werkbladen verkopen op etsy`,
     ],
     lsiKeywords: [
-      'etsy seo voor digitale downloads',
-      'pinterest marketing voor printable producten',
-      'e-mailmarketing voor werkblad verkopers',
+      `etsy seo voor digitale downloads`,
+      `pinterest marketing voor printable producten`,
+      `e-mailmarketing voor werkblad verkopers`,
       `seizoensgebonden marketing kalender voor printables`,
-      'marktplaats optimalisatie voor activiteitenboeken',
-      'contentmarketing voor printable ondernemers',
+      `marktplaats optimalisatie voor activiteitenboeken`,
+      `contentmarketing voor printable ondernemers`,
     ],
-    titleTag: 'Printable Werkbladen Marketing — Verkopers Gids',
+    titleTag: `Printable Werkbladen Marketing — Verkopers Gids`,
     metaDescription: `Hoe je printable werkbladen online op de markt brengt: platform-SEO, Pinterest-strategie, e-mailmarketing, seizoenstiming en merkopbouw voor printable.`,
   },
 
   hero: {
-    title: 'Marketing voor Je Printable Bedrijf Online',
+    title: `Marketing voor Je Printable Bedrijf Online`,
     tagline: `Bewezen marketingstrategieën voor printable verkopers — van platform-SEO en Pinterest tot e-mailmarketing en seizoenstiming, elk kanaal dat je nodig hebt om verkeer en verkoop te genereren`,
     description: `Geweldige werkbladen verkopen zichzelf niet. De kloof tussen het maken van professionele printable producten en het genereren van consistente verkoop wordt overbrugd door marketing — het bewuste, herhaalbare proces om je producten voor de kopers te plaatsen die ze nodig hebben. Deze gids behandelt elk marketingkanaal dat relevant is voor printable ondernemers: platform-SEO die bestaande koopintentie vastlegt, Pinterest-strategieën die langdurig verkeer genereren, e-mailmarketing die terugkerende klanten opbouwt, contentmarketing die autoriteit vestigt, en seizoenstiming die je catalogus afstemt op koopgedragcycli. Elke strategie is uitvoerbaar zonder dure marketingtools. De gratis proefversie met watermerk op elke werkbladgenerator geeft je direct producten om te vermarkten, zodat je deze strategieën kunt implementeren terwijl je ze leest.`,
   },
@@ -31,39 +31,39 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: 'Waarom Geweldige Producten Zichzelf Niet Verkopen',
+      heading: `Waarom Geweldige Producten Zichzelf Niet Verkopen`,
       content: `De meest voorkomende misvatting onder nieuwe printable verkopers is dat productkwaliteit alleen de verkoop stimuleert. Dat doet het niet. Kwaliteit bepaalt of kopers terugkomen en positieve recensies achterlaten na aankoop. Maar kwaliteit heeft nul invloed op of kopers je producten überhaupt vinden. Ontdekking en kwaliteit werken op verschillende tijdlijnen — ontdekking gebeurt vóór de aankoop, kwaliteit is belangrijk erna.\n\nMarktplaatsalgoritmen controleren ontdekking. Etsy-zoekresultaten, Amazon KDP-aanbevelingen en Gumroad-browseresultaten gebruiken allemaal algoritmen die producten rangschikken op basis van specifieke signalen: zoekwoordrelevantie, volledigheid van de vermelding, verkoopsnelheid, aantal recensies, klikfrequentie en conversiepercentage. Een vijfsterren werkblad begraven op pagina acht van de zoekresultaten genereert minder verkoop dan een driesterren werkblad op pagina één. Het algoritme evalueert niet je PDF — het evalueert je vermelding.\n\nDit creëert een versterkende cyclus. Producten die goed ranken krijgen meer weergaven, wat meer verkoop genereert, wat hun ranking verbetert, wat nog meer weergaven genereert. Producten die slecht ranken krijgen minder weergaven, minder verkoop en blijven slecht ranken. De kloof tussen zichtbare en onzichtbare producten wordt na verloop van tijd groter. Marketing is de interventie die je in de positieve cyclus brengt.\n\nDe praktische implicatie is duidelijk: besteed tijd aan marketing, niet alleen aan productie. Een verkoper die 10 goed vermarkte producten maakt zal altijd meer verkopen dan een verkoper die 100 slecht vermarkte producten maakt. Productie en marketing zijn geen concurrerende prioriteiten — het zijn complementaire vaardigheden die parallel moeten worden ontwikkeld. Deze gids geeft je de marketingkant van die vergelijking.`,
     },
     {
-      heading: 'Platform-SEO: De Basis van Printable Marketing',
+      heading: `Platform-SEO: De Basis van Printable Marketing`,
       content: `Platform-SEO is de marketingactiviteit met het hoogste rendement voor printable verkopers omdat het bestaande koopintentie vastlegt. Wanneer iemand "optelwerkbladen voor groep 3" zoekt op Etsy, is die persoon klaar om te kopen. Jouw taak is ervoor te zorgen dat jouw product in dat zoekresultaat verschijnt. Geen overtuiging nodig — alleen zichtbaarheid.\n\nElk verkoopplatform heeft zijn eigen zoekalgoritme, en elk algoritme weegt verschillende signalen. Etsy gebruikt vermeldingstitels, tags (13 per vermelding), categorieën en attributen. Amazon KDP gebruikt zeven zoekwoordvelden, BISAC-categorieën, ondertitels en serie-informatie. Gumroad gebruikt vak, niveaucategorie en productbeschrijvingen. Begrijpen welke signalen jouw platform prioriteert is de eerste stap in effectieve platform-SEO.\n\nZoekwoordonderzoek voor printable producten begint met de zoekbalk van het platform zelf. Typ het begin van een zoekfrase en observeer de autocomplete-suggesties — dit zijn daadwerkelijke zoekopdrachten die echte kopers uitvoeren. "Optelwerkbladen" kan autocompleten naar "optelwerkbladen voor kleuterschool," "optelwerkbladen met afbeeldingen," of "optelwerkbladen printbare PDF." Elke autocomplete-suggestie is een potentieel optimalisatiedoel voor je vermelding.\n\nDe meest effectieve platform-SEO-strategie is specificiteit. "Werkbladen" is te breed. "Rekenwerkbladen" is iets beter. "Optelwerkbladen voor groep 3 met antwoordsleutel" is een long-tail zoekwoord dat aansluit bij een specifieke kopersbehoefte met weinig concurrentie. Long-tail zoekwoorden genereren individueel minder verkeer, maar converteren tegen hogere percentages omdat ze precies aansluiten bij wat de koper zoekt. Een catalogus van 50 producten die elk een specifiek long-tail zoekwoord targeten zal beter presteren dan 50 producten die allemaal concurreren om hetzelfde brede zoekwoord.`,
     },
     {
-      heading: 'Etsy-SEO voor Printable Werkbladen',
+      heading: `Etsy-SEO voor Printable Werkbladen`,
       content: `Etsy-zoekresultaten zijn het primaire ontdekkingsmechanisme voor digitale download printables op het platform. Begrijpen hoe Etsy vermeldingen koppelt aan kopersquery's bepaalt of jouw producten op pagina één of pagina twintig verschijnen.\n\nEtsy geeft elke vermelding 13 tags, en elke tag is een rangschikkingskans. Gebruik ze allemaal. Elke tag moet een meerwoorrige zin zijn die overeenkomt met een realistische koperszoekterm, geen enkel generiek woord. "woordzoeker" is een tag. "woordzoeker puzzels voor kinderen" is een betere tag omdat het overeenkomt met een specifiekere kopersquery. "woordzoeker puzzels voor kinderen printbaar" is nog beter omdat het exact overeenkomt met de manier waarop kopers zoeken naar digitale downloads.\n\nTitels wegen zwaar in Etsy-zoekresultaten. Plaats je belangrijkste zoekwoorden vooraan — de eerste paar woorden van je titel dragen het meeste rankinggewicht. Een titel als "Woordzoeker Puzzelboek voor Kinderen — 50 Thema Puzzels met Antwoordsleutel, Printbare PDF, Klas Activiteit" plaatst het primaire zoekwoord eerst, voegt specificiteit toe en bevat secundaire zoekwoorden die aansluiten bij aanvullende zoekopdrachten.\n\nCategorie- en attributenselectie verfijnen je vermeldingszichtbaarheid. Selecteer de meest specifieke beschikbare categorie — "Printbare Werkbladen" in plaats van alleen "Digitale Downloads." Vul elk attributenveld in dat Etsy biedt: leeftijdsgroep, gelegenheid, materiaal en alle andere relevante attributen. Elk attribuut is een extra zoekfilter dat Etsy helpt je vermelding te koppelen aan de juiste kopers.\n\nSeizoengebonden zoekwoordrotatie houdt je vermeldingen het hele jaar relevant. Werk twee tot drie tags per vermelding bij om komende seizoenen of feestdagen weer te geven. In augustus voeg je "terug naar school" tags toe. In oktober wissel je naar "Halloween" zoekwoorden. Dit betekent niet dat je je product verandert — het betekent dat je de tags bijwerkt die kopers helpen het te vinden tijdens seizoensgebonden vraagpieken. Etsy beloont vermeldingen die actief worden onderhouden boven vermeldingen die worden ingesteld en vergeten.`,
     },
     {
-      heading: 'Amazon KDP-Marketingstrategieën',
-      content: `Amazon KDP werkt op een fundamenteel ander ontdekkingsmodel dan Etsy. Etsy-kopers zoeken naar specifieke items en vinden vermeldingen. Amazon-kopers bladeren door categorieën, volgen aanbevelingen en ontdekken boeken via Amazon's geavanceerde aanbevelingsengine. Je KDP-marketingstrategie moet rekening houden met zowel zoek- als algoritmische ontdekking.\n\nKDP geeft je zeven zoekwoordvelden, elk met maximaal 50 tekens. Deze velden zijn onzichtbaar voor kopers maar cruciaal voor Amazon's zoekalgoritme. Gebruik ze voor zoekwoorden die niet al in je titel of ondertitel staan. Herhaal geen zoekwoorden over velden — Amazon indexeert elk zoekwoord één keer, ongeacht hoe vaak je het invoert. Vul elk teken van elk veld. Lege zoekwoordvelden zijn verspilde ontdekkingskansen.\n\nBISAC-categorieën bepalen waar je boek verschijnt in Amazon's bladerstructuur. Je kunt twee categorieën selecteren tijdens publicatie, maar Amazon staat er maximaal tien toe via hun klantenserviceportaal. Meer categorieën betekent meer bladerpaden die naar je boek leiden. "Activiteitenboeken voor Kinderen" is één categorie. "Puzzelboeken voor Kinderen" is een andere. Elke categorie waarin je boek rankt is een apart ontdekkingskanaal.\n\nPrijsstelling op Amazon KDP is een marketinghefboom, niet alleen een omzetbeslissing. Amazon's algoritme weegt verkoopsnelheid mee in de ranking — boeken die meer eenheden verkopen ranken hoger, wat meer verkoop stimuleert. Een lagere prijs genereert meer verkoopvolume, wat je organische ranking verbetert, wat nog meer verkoop genereert. Veel succesvolle KDP-uitgevers prijzen hun eerste boeken competitief om verkoopsnelheid en rankingpositie op te bouwen, en passen de prijsstelling geleidelijk naar boven aan naarmate de organische zichtbaarheid toeneemt.\n\nSerie-creatie is een onderbenut KDP-marketingstrategie. Amazon toont serie-informatie prominent en kruislinkt boeken binnen een serie. Een "Rekenwerkbladen voor Kinderen" serie met vijf boeken in verschillende bewerkingstypen stimuleert kruisaankopen tussen titels. Een koper die je optelboek vindt, ontdekt je aftrek-, vermenigvuldigings- en deelboeken via de serieverbinding — ingebouwde kruismarketing zonder extra inspanning.`,
+      heading: `Amazon KDP-Marketingstrategieën`,
+      content: `Amazon KDP werkt op een fundamenteel ander ontdekkingsmodel dan Etsy. Etsy-kopers zoeken naar specifieke items en vinden vermeldingen. Amazon-kopers bladeren door categorieën, volgen aanbevelingen en ontdekken boeken via Amazon`s geavanceerde aanbevelingsengine. Je KDP-marketingstrategie moet rekening houden met zowel zoek- als algoritmische ontdekking.\n\nKDP geeft je zeven zoekwoordvelden, elk met maximaal 50 tekens. Deze velden zijn onzichtbaar voor kopers maar cruciaal voor Amazon`s zoekalgoritme. Gebruik ze voor zoekwoorden die niet al in je titel of ondertitel staan. Herhaal geen zoekwoorden over velden — Amazon indexeert elk zoekwoord één keer, ongeacht hoe vaak je het invoert. Vul elk teken van elk veld. Lege zoekwoordvelden zijn verspilde ontdekkingskansen.\n\nBISAC-categorieën bepalen waar je boek verschijnt in Amazon`s bladerstructuur. Je kunt twee categorieën selecteren tijdens publicatie, maar Amazon staat er maximaal tien toe via hun klantenserviceportaal. Meer categorieën betekent meer bladerpaden die naar je boek leiden. "Activiteitenboeken voor Kinderen" is één categorie. "Puzzelboeken voor Kinderen" is een andere. Elke categorie waarin je boek rankt is een apart ontdekkingskanaal.\n\nPrijsstelling op Amazon KDP is een marketinghefboom, niet alleen een omzetbeslissing. Amazon`s algoritme weegt verkoopsnelheid mee in de ranking — boeken die meer eenheden verkopen ranken hoger, wat meer verkoop stimuleert. Een lagere prijs genereert meer verkoopvolume, wat je organische ranking verbetert, wat nog meer verkoop genereert. Veel succesvolle KDP-uitgevers prijzen hun eerste boeken competitief om verkoopsnelheid en rankingpositie op te bouwen, en passen de prijsstelling geleidelijk naar boven aan naarmate de organische zichtbaarheid toeneemt.\n\nSerie-creatie is een onderbenut KDP-marketingstrategie. Amazon toont serie-informatie prominent en kruislinkt boeken binnen een serie. Een "Rekenwerkbladen voor Kinderen" serie met vijf boeken in verschillende bewerkingstypen stimuleert kruisaankopen tussen titels. Een koper die je optelboek vindt, ontdekt je aftrek-, vermenigvuldigings- en deelboeken via de serieverbinding — ingebouwde kruismarketing zonder extra inspanning.`,
     },
     {
       heading: `Pinterest: De Visuele Marketing Motor voor Printables`,
-      content: `Pinterest is het meest effectieve sociale-mediaplatform voor printable verkopers om drie redenen: de content is inherent visueel, het platform functioneert als zoekmachine (niet als sociale feed), en pins hebben een levensduur die in maanden wordt gemeten in plaats van uren.\n\nIn tegenstelling tot Instagram of Facebook waar berichten binnen 24 uur uit feeds verdwijnen, blijft een Pinterest-pin zes tot twaalf maanden na plaatsing verkeer genereren. Een goed geoptimaliseerde pin kan jarenlang klikken en verkoop genereren. Deze lange contentlevensduur maakt Pinterest het sociale kanaal met de hoogste ROI voor printable verkopers — het werk dat je vandaag doet, betaalt zich volgend jaar nog uit.\n\nPin-ontwerp voor printable producten moet de daadwerkelijke werkbladuitvoer tonen. Maak hoge verticale afbeeldingen (1000×1500 pixels is de standaardverhouding) die je werkblad duidelijk tonen met een tekstoverlay die het product beschrijft. "50 Woordzoeker Puzzels voor Kinderen — Printbare PDF met Antwoordsleutels" als tekst over een afbeelding van je daadwerkelijke werkblad geeft Pinterest-gebruikers alles wat ze nodig hebben om te beslissen of ze willen klikken.\n\nBordstrategie organiseert je pins voor ontdekking. Maak borden rond specifieke niches: "Rekenwerkbladen voor Basisschool," "Printbare Puzzelboeken voor Kinderen," "Educatieve Activiteiten voor Kleuters." Elk bord target een andere zoekcluster op Pinterest. Bordtitels en beschrijvingen moeten de zoekwoorden bevatten die je doelgroepkopers zoeken.\n\nPinterest-SEO werkt vergelijkbaar met marktplaats-SEO. Pinbeschrijvingen moeten relevante zoekwoorden op natuurlijke wijze bevatten: "Dit printbare woordzoeker puzzelboek bevat 50 themapuzzels met antwoordsleutels. Perfect voor gebruik online, thuisonderwijs-activiteiten of rustige tijd. Directe download PDF." Pinterest's zoekalgoritme koppelt pinbeschrijvingen aan gebruikersquery's, dus zoekwoordrijke beschrijvingen verbeteren direct je pinzichtbaarheid.\n\nConsistentie is belangrijker dan volume. Drie tot vijf pins per dag plaatsen met consistente kwaliteit presteert beter dan 50 pins in één keer per maand plaatsen. Gebruik een planningtool om consistente dagelijkse pinactiviteit te handhaven zonder dagelijkse handmatige inspanning.`,
+      content: `Pinterest is het meest effectieve sociale-mediaplatform voor printable verkopers om drie redenen: de content is inherent visueel, het platform functioneert als zoekmachine (niet als sociale feed), en pins hebben een levensduur die in maanden wordt gemeten in plaats van uren.\n\nIn tegenstelling tot Instagram of Facebook waar berichten binnen 24 uur uit feeds verdwijnen, blijft een Pinterest-pin zes tot twaalf maanden na plaatsing verkeer genereren. Een goed geoptimaliseerde pin kan jarenlang klikken en verkoop genereren. Deze lange contentlevensduur maakt Pinterest het sociale kanaal met de hoogste ROI voor printable verkopers — het werk dat je vandaag doet, betaalt zich volgend jaar nog uit.\n\nPin-ontwerp voor printable producten moet de daadwerkelijke werkbladuitvoer tonen. Maak hoge verticale afbeeldingen (1000×1500 pixels is de standaardverhouding) die je werkblad duidelijk tonen met een tekstoverlay die het product beschrijft. "50 Woordzoeker Puzzels voor Kinderen — Printbare PDF met Antwoordsleutels" als tekst over een afbeelding van je daadwerkelijke werkblad geeft Pinterest-gebruikers alles wat ze nodig hebben om te beslissen of ze willen klikken.\n\nBordstrategie organiseert je pins voor ontdekking. Maak borden rond specifieke niches: "Rekenwerkbladen voor Basisschool," "Printbare Puzzelboeken voor Kinderen," "Educatieve Activiteiten voor Kleuters." Elk bord target een andere zoekcluster op Pinterest. Bordtitels en beschrijvingen moeten de zoekwoorden bevatten die je doelgroepkopers zoeken.\n\nPinterest-SEO werkt vergelijkbaar met marktplaats-SEO. Pinbeschrijvingen moeten relevante zoekwoorden op natuurlijke wijze bevatten: "Dit printbare woordzoeker puzzelboek bevat 50 themapuzzels met antwoordsleutels. Perfect voor gebruik online, thuisonderwijs-activiteiten of rustige tijd. Directe download PDF." Pinterest`s zoekalgoritme koppelt pinbeschrijvingen aan gebruikersquery`s, dus zoekwoordrijke beschrijvingen verbeteren direct je pinzichtbaarheid.\n\nConsistentie is belangrijker dan volume. Drie tot vijf pins per dag plaatsen met consistente kwaliteit presteert beter dan 50 pins in één keer per maand plaatsen. Gebruik een planningtool om consistente dagelijkse pinactiviteit te handhaven zonder dagelijkse handmatige inspanning.`,
     },
     {
       heading: 'Contentmarketing Zonder Blog',
       content: `Contentmarketing voor printable verkopers vereist geen blog, podcast of YouTube-kanaal. De meest effectieve contentmarketing voor dit bedrijfsmodel vindt plaats binnen de platforms waar je al verkoopt — en via de producten zelf.\n\nJe productvermeldingen zijn contentmarketing. Elke Etsy-vermeldingsbeschrijving, elke KDP-boekbeschrijving en elke Gumroad-productpagina is een kans om kopers te informeren over wat je product biedt en waarom het belangrijk is. Een productbeschrijving die uitlegt "Deze optelling werkbladenset bevat oefeningen met hergroepering voor groep 4 gebruikers die overgaan van eencijferige naar tweecijferige optelling" doet meer marketing dan een blogpost over rekenonderwijs. Het adresseert een specifieke kopersbehoefte op het exacte moment dat ze een aankoop overwegen.\n\nDe gratis proefversie met watermerk is je krachtigste contentmarketing-instrument. Het laat potentiële kopers de productkwaliteit uit eerste hand ervaren voordat ze kopen. Elk werkblad dat tijdens de proefperiode wordt gegenereerd demonstreert de uitvoerkwaliteit, themavariatie en professionele opmaak die jouw producten onderscheiden. Dit is geen hypothetische marketing — het is ervaringsmarketing waarbij het product zichzelf verkoopt.\n\nPlatformrecensies functioneren tegelijkertijd als sociaal bewijs en contentmarketing. Elke positieve recensie vertelt toekomstige kopers wat ze kunnen verwachten en valideert hun aankoopbeslissing. Moedig recensies aan door uitstekende productkwaliteit te leveren en een vriendelijk recensieverzoek op te nemen in je digitale downloadverpakking. Stimuleer of fabriceer nooit recensies — authentieke recensies van echte kopers zijn het enige sociale bewijs dat blijvend vertrouwen opbouwt.\n\nJe winkel "Over"-sectie is merkverhaal vertellen. Leg uit wie deze werkbladen maakt, waarom kwaliteit en nauwkeurigheid voor jou belangrijk zijn, en wat kopers kunnen verwachten van elk product in je winkel. Kopers die zich verbinden met je merkverhaal worden terugkerende klanten en bevelen je winkel aan bij anderen.`,
     },
     {
-      heading: 'E-mailmarketing voor Printable Bedrijven',
+      heading: `E-mailmarketing voor Printable Bedrijven`,
       content: `E-mail is het enige marketingkanaal dat je volledig bezit. Etsy kan zijn algoritme veranderen. Pinterest kan zijn rangschikkingsfactoren bijwerken. Amazon kan zijn aanbevelingsengine aanpassen. Maar je e-maillijst is van jou, en geen enkel platformbeleid kan die afpakken.\n\nHet opbouwen van een e-maillijst als printable verkoper vereist een leadmagneet — iets dat waardevol genoeg is dat potentiële kopers bereidwillig hun e-mailadres ervoor inwisselen. Effectieve leadmagneten voor werkbladverkopers zijn samplepakketten (drie tot vijf werkbladen uit verschillende categorieën), planningssjablonen (een thuisonderwijs-rooster of winkel-activiteitenplanner), of educatieve gidsen (een korte PDF over het kiezen van leeftijdsgeschikte werkbladen). De leadmagneet moet je productkwaliteit demonstreren terwijl het een echt probleem oplost voor je doelgroep.\n\nPlatformregels rond e-mailverzameling variëren. Etsy staat je toe om inserts bij digitale downloads te voegen die je e-maillijst vermelden, maar verbiedt het gebruik van Etsy-berichten voor lijstopbouw. KDP-paperbacks kunnen een pagina bevatten die lezers naar je website leidt. Gumroad staat verkoperscommunicatie via het platform toe. Werk binnen het communicatiebeleid van elk platform terwijl je geïnteresseerde kopers naar je onafhankelijk gehoste e-maillijst leidt.\n\nE-mailsequenties voor printable verkopers moeten zich richten op drie doelen: verwelkom nieuwe abonnees met directe waarde, kondig nieuwe producten aan bij bestaande kopers, en breng seizoensproducten opnieuw onder de aandacht tijdens relevante vraagperiodes. Een welkomstsequentie kan de leadmagneet leveren, je productcatalogus introduceren en je best presterende producten uitlichten over drie tot vier e-mails verspreid over twee weken.\n\nNieuwe productaankondigingen aan bestaande klanten zijn het best converterende e-mailtype voor printable verkopers. Deze abonnees hebben al bij je gekocht, vertrouwen je kwaliteit en zijn geïnteresseerd in je productcategorie. Een eenvoudige e-mail die aankondigt "Nieuw Dierenthema Woordzoeker Boek — 50 Puzzels met Antwoordsleutels" met een directe link naar de vermelding converteert tegen percentages die elk koud-verkeerskanaal overtreffen.`,
     },
     {
-      heading: 'Seizoensmarketing en Producttiming',
+      heading: `Seizoensmarketing en Producttiming`,
       content: `De markt voor printable werkbladen volgt voorspelbare seizoensgebonden vraagcycli die elk jaar terugkeren. Het afstemmen van je productlanceringen en marketingpushes op deze cycli verbetert je verkooptraject drastisch vergeleken met willekeurige timing.\n\nHet terug-naar-schoolseizoen (juli tot september) is de periode met de hoogste vraag naar educatieve printables. Ouders en verkopers zoeken actief naar aanvullende werkbladen, winkelactiviteiten en oefenmaterialen. Producten die gericht zijn op specifieke niveaucategories zien de scherpste vraagstijgingen tijdens dit venster. Marketinginspanning geconcentreerd in deze periode bereikt het grootste publiek van gemotiveerde kopers in het hele jaar.\n\nHet feestdagenseizoen (oktober tot december) stimuleert de vraag naar thematische printables: Halloween-activiteitenbladen, Sinterklaas-werkbladen, Kerst-kleurboeken en feestdagenthema puzzelboeken. Thematische content kan premiumprijzen afdwingen tijdens seizoenspieken omdat kopers specifieke seizoensproducten zoeken en meer willen betalen voor goed gerichte opties.\n\nNieuwjaar en nieuw semester (januari tot februari) brengt vraag van ouders die thuisonderwijsprogramma's starten en verkopers die resetten voor het tweede semester. Rekenoefenmaterialen en gestructureerde leerwerkbladen presteren bijzonder goed omdat ouders en verkopers educatieve doelen stellen voor de nieuwe periode.\n\nVoorjaarstoetsvoorbereiding (maart tot mei) stimuleert de vraag naar oefenwerkbladen afgestemd op gestandaardiseerde toetsinhoud. Rekenbewerkingen, leesbegrip en logicapuzzels zien verhoogd zoekvolume naarmate ouders aanvullende voorbereidingsmaterialen zoeken.\n\nZomeractiviteitenvraag (juni tot augustus) verschuift van academische werkbladen naar entertainmentgerichte printables: puzzelboeken, kleurplaten, activiteitenbladen voor reizen en rustige tijd. Ouders zoeken naar schermvrije activiteiten om kinderen bezig te houden tijdens de zomervakantie.\n\nHet cruciale timing-inzicht: maak seizoensproducten zes tot acht weken vóór de vraagpiek, niet tijdens. Een Halloween-kleurboek dat in september wordt geplaatst heeft weken om weergaven, verkoop en recensies te verzamelen vóór de vraagpiek in oktober. Een Halloween-kleurboek dat in oktober wordt geplaatst concurreert tegen gevestigde vermeldingen met bestaande verkoopgeschiedenis. Vroeg plaatsen is een marketingvoordeel dat niets kost.`,
     },
     {
-      heading: 'Een Merk Opbouwen in de Printable Markt',
+      heading: `Een Merk Opbouwen in de Printable Markt`,
       content: `Merkopbouw in de printable markt gaat niet over logo's of kleurenschema's. Het gaat over consistentie — consistente productkwaliteit, consistente visuele presentatie en consistente koperservaring bij elk product en op elk platform waar je verkoopt.\n\nProductkwaliteitsconsistentie is de basis van merkreputatie. Elk werkblad dat je winkel verlaat versterkt of ondermijnt je merk. Een koper die drie producten koopt en consistente opmaak, nauwkeurige inhoud en professionele lay-outs vindt bij alle drie wordt een terugkerende klant. Een koper die één uitstekend product en één middelmatig product krijgt verliest het vertrouwen in het merk volledig. Werkbladgeneratoren dwingen automatisch consistentie af — elke uitvoer volgt dezelfde professionele opmaakstandaarden, waardoor de kwaliteitsvariatie die handmatige productie plaagt wordt geëlimineerd.\n\nVisuele presentatieconsistentie over vermeldingen heen laat je winkel er professioneel en doelgericht uitzien. Gebruik vergelijkbare mockup-stijlen, consistente titelopmaak en een herkenbare visuele aanpak voor al je productafbeeldingen. Wanneer een koper die Etsy doorzoekt drie van je vermeldingen in zoekresultaten ziet, signaleert consistente visuele presentatie een professionele winkel die het verkennen waard is. Inconsistente presentatie signaleert een hobbyverkoper.\n\nCross-platform merkconsistentie betekent het handhaven van dezelfde winkelnaam, vergelijkbare beschrijvingen en overeenkomende kwaliteitsstandaarden of je nu op Etsy, KDP, Gumroad of je eigen website verkoopt. Kopers die je producten op meerdere platforms vinden ontwikkelen sterkere merkherkenning. Een koper die je woordzoeker boek op Amazon koopt en later je bijpassende werkbladen op Etsy vindt herkent de kwaliteitsstandaard en koopt met vertrouwen.\n\nMerkreputatie groeit exponentieel na verloop van tijd. Elke positieve interactie — een vijfsterren recensie, een herhaalaankoop, een aanbeveling aan een collega — draagt bij aan je merkwaarde. Dit versterkende effect is waarom consistentie belangrijker is dan perfectie. Een verkoper die consistent goede producten levert over 100 vermeldingen bouwt een sterker merk op dan een verkoper die vijf perfecte producten en 95 inconsistente producten levert.`,
     },
     {
@@ -74,7 +74,7 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Audit Je Huidige Vermelding-SEO',
+      step: `Audit Je Huidige Vermelding-SEO`,
       description: `Bekijk je bestaande productvermeldingen op elk platform. Controleer of alle 13 Etsy-tags gevuld zijn met meerwoordige zinnen, alle 7 KDP-zoekwoordvelden gemaximaliseerd zijn, en elke titel het belangrijkste zoekwoord vooraan plaatst. Repareer hiaten voordat je nieuwe producten maakt.`,
     },
     {
@@ -86,15 +86,15 @@ const content: StartContent = {
       description: `Stel een Pinterest zakelijk account in voor toegang tot analyses. Maak vijf borden gericht op je primaire productniches met zoekwoordrijke bordtitels en beschrijvingen. Pin drie tot vijf productafbeeldingen op elk bord met geoptimaliseerde beschrijvingen.`,
     },
     {
-      step: 'Ontwerp Pin-Sjablonen voor Je Producten',
+      step: `Ontwerp Pin-Sjablonen voor Je Producten`,
       description: `Maak twee tot drie herbruikbare pin-sjablonen (1000×1500 pixels) die je werkbladuitvoer tonen met tekstoverlays. Gebruik deze sjablonen consistent voor alle productpins om visuele merkherkenning op Pinterest op te bouwen.`,
     },
     {
-      step: 'Stel een Leadmagneet en E-mailverzameling In',
+      step: `Stel een Leadmagneet en E-mailverzameling In`,
       description: `Maak een samplepakket van drie tot vijf werkbladen als leadmagneet. Stel een gratis e-mailserviceaccount en een eenvoudige landingspagina in. Vermeld je e-maillijst in je digitale downloadverpakking op elk platform.`,
     },
     {
-      step: 'Bouw een Seizoensgebonden Marketing Kalender',
+      step: `Bouw een Seizoensgebonden Marketing Kalender`,
       description: `Breng de vijf grote vraagperiodes (terug-naar-school, feestdagen, nieuwjaar, voorjaarstoetsen, zomeractiviteiten) in kaart per maand. Plan productcreatie zes tot acht weken vóór elke vraagpiek en vermeldingsoptimalisatie twee weken ervoor.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-gids-printable-bedrijf',
+      slug: `complete-gids-printable-bedrijf`,
       title: `Complete Gids voor het Starten van een Printable Bedrijf`,
       description: `De uitgebreide basisgids over nicheselectie, productcreatie, platformvergelijking, prijsstrategie en catalogusopbouw voor alle printable marktplaatsen.`,
     },
     {
       slug: 'etsy-printable-bedrijf',
-      title: 'Etsy Printable Bedrijf Masterclass',
+      title: `Etsy Printable Bedrijf Masterclass`,
       description: `Diepgaande duik in het verkopen van printables specifiek op Etsy — winkelinrichting, vermeldingsoptimalisatie, digitale levering en de Etsy-specifieke strategieën die zichtbaarheid en verkoop stimuleren.`,
     },
     {
       slug: 'amazon-kdp-activiteitenboeken',
-      title: 'Amazon KDP Activiteitenboeken Bedrijfsgids',
+      title: `Amazon KDP Activiteitenboeken Bedrijfsgids`,
       description: `Alles wat je moet weten over het publiceren van activiteitenboeken op Amazon KDP — opmaak, prijsstelling, categorieselectie en de KDP-specifieke marketingstrategieën die organische ontdekking stimuleren.`,
     },
     {
@@ -207,38 +207,38 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
-    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Professionele Werkbladen Maken Die Verkopen' },
+    { pageType: 'start', slug: `complete-gids-printable-bedrijf`, anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
+    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: `Professionele Werkbladen Maken Die Verkopen` },
     { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: `Etsy Printable Bedrijf Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: `Amazon KDP Activiteitenboeken Bedrijfsgids` },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: `Commerciële Licentie Gids voor Printable Verkopers` },
     { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: `Printable Bedrijf Inkomen: Realistische Verwachtingen` },
-    { pageType: 'start', slug: 'tools-voor-printable-bedrijf', anchorText: 'Essentiële Tools voor Printable Ondernemers' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledige Details' },
-    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Bingokaarten Generator — Volledige Details' },
+    { pageType: 'start', slug: 'tools-voor-printable-bedrijf', anchorText: `Essentiële Tools voor Printable Ondernemers` },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: `Woordzoeker Generator — Volledige Details` },
+    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: `Bingokaarten Generator — Volledige Details` },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Probeer de Bingokaarten Maker' },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: `Bingokaart werkblad dat zeer deelbaar printable productontwerp demonstreert` },
+    heroImage: { src: `/samples/dutch/bingo/Plaatjesbingo%201.webp`, alt: `Bingokaart werkblad dat zeer deelbaar printable productontwerp demonstreert` },
     samples: [
-      { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: `Bingokaart met evenementgedreven marketingpotentieel voor feesten en winkels`, caption: 'Bingo — Zeer Deelbaar voor Evenementen en Feestdagen' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: `Woordzoeker puzzel met sterk marktplaats-SEO-potentieel`, caption: 'Woordzoeker — Meest Gezocht Puzzeltype' },
-      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: 'Kleurplaat met visuele aantrekkingskracht voor Pinterest-marketing', caption: 'Kleurplaat — Pinterest-Klare Visuele Content' },
-      { src: `/samples/dutch/matching/Zoek%20de%20Paren%201.webp`, alt: 'Koppelwerkblad met seizoensgebonden thema marketing veelzijdigheid', caption: 'Koppelen — Veelzijdige Seizoensmarketing' },
+      { src: `/samples/dutch/bingo/Plaatjesbingo%201.webp`, alt: `Bingokaart met evenementgedreven marketingpotentieel voor feesten en winkels`, caption: `Bingo — Zeer Deelbaar voor Evenementen en Feestdagen` },
+      { src: `/samples/dutch/wordsearch/Woordzoeker%201.webp`, alt: `Woordzoeker puzzel met sterk marktplaats-SEO-potentieel`, caption: `Woordzoeker — Meest Gezocht Puzzeltype` },
+      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: `Kleurplaat met visuele aantrekkingskracht voor Pinterest-marketing`, caption: `Kleurplaat — Pinterest-Klare Visuele Content` },
+      { src: `/samples/dutch/matching/Zoek%20de%20Paren%201.webp`, alt: `Koppelwerkblad met seizoensgebonden thema marketing veelzijdigheid`, caption: `Koppelen — Veelzijdige Seizoensmarketing` },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: `Bingokaarten Maken voor Je Printable Bedrijf — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Vliegtuig — educatieve thema-afbeelding', caption: 'Vliegtuig' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulance — educatieve thema-afbeelding', caption: 'Ambulance' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Fiets — educatieve thema-afbeelding', caption: 'Fiets' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Boot — educatieve thema-afbeelding', caption: 'Boot' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — educatieve thema-afbeelding', caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Vliegtuig — educatieve thema-afbeelding`, caption: 'Vliegtuig' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulance — educatieve thema-afbeelding`, caption: 'Ambulance' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Fiets — educatieve thema-afbeelding`, caption: 'Fiets' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Boot — educatieve thema-afbeelding`, caption: 'Boot' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — educatieve thema-afbeelding`, caption: 'Bulldozer' },
   ],
 };
 

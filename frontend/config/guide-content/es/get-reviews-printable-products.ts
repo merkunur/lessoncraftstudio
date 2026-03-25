@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'obtener reseñas productos imprimibles',
+    primaryKeyword: `obtener reseñas productos imprimibles`,
     secondaryKeywords: [
-      'estrategia reseñas productos imprimibles',
-      'reseñas etsy productos digitales',
-      'reseñas clientes negocio fichas',
-      'aumentar reseñas tienda imprimibles',
+      `estrategia reseñas productos imprimibles`,
+      `reseñas etsy productos digitales`,
+      `reseñas clientes negocio fichas`,
+      `aumentar reseñas tienda imprimibles`,
     ],
     lsiKeywords: [
       `valor percibido por estrellas comentarios comprador solicitud de reseña generación de reseñas prueba social`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `reseñas orgánicas comentarios auténticos volumen de reseñas posicionamiento marketplace`,
       `optimización de listado establecimiento de expectativas comunicación con comprador experiencia post-compra`,
     ],
-    titleTag: 'Obtener Reseñas Productos Imprimibles — Guía',
+    titleTag: `Obtener Reseñas Productos Imprimibles — Guía`,
     metaDescription: `Estrategias probadas para obtener reseñas de productos imprimibles. Construye prueba social, gana comentarios auténticos y aumenta la credibilidad del.`,
   },
 
   hero: {
-    title: 'Cómo Obtener Reseñas para Productos Imprimibles',
+    title: `Cómo Obtener Reseñas para Productos Imprimibles`,
     tagline: `Una guía completa para obtener reseñas auténticas de productos imprimibles — que cubre cómo ofrecer experiencias de producto dignas de reseña, optimizar la calidad de descarga y uso, incluir solicitudes de reseña profesionales, hacer seguimiento con los compradores en el momento adecuado, responder a todas las reseñas de forma constructiva, establecer expectativas precisas en los listados, generar volumen de reseñas mediante el crecimiento del catálogo y crear ciclos de retroalimentación que mejoren tus productos con el tiempo`,
     description: `Las reseñas son la señal de confianza más poderosa en los marketplaces de productos digitales. Para los vendedores de imprimibles, donde los compradores no pueden examinar físicamente el producto antes de comprarlo, las reseñas sirven como la evidencia principal de que tus fichas cumplen lo que prometen. Un producto con 50 reseñas positivas vende más que un producto idéntico con cero reseñas porque los compradores usan la prueba social para reducir el riesgo percibido de comprar a un vendedor desconocido. Esta guía te muestra cómo obtener sistemáticamente reseñas auténticas que construyan credibilidad, mejoren la visibilidad en el marketplace y generen un crecimiento constante de ventas.`,
   },
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `El momento oportuno es la variable más importante en la efectividad de las solicitudes de reseña. Una solicitud que llega antes de que el comprador haya usado el producto se siente prematura y se descarta fácilmente. Una solicitud que llega semanas después de la compra, cuando el comprador ha olvidado los detalles de su experiencia, carece del impulso emocional que motiva a alguien a escribir una reseña. La ventana de tiempo óptima es cuando el comprador ha tenido suficiente tiempo para descargar, imprimir y usar el producto al menos una vez — pero lo suficientemente reciente para que la experiencia siga fresca y las impresiones positivas estén presentes.\n\nPara la mayoría de productos imprimibles, esta ventana óptima cae entre 5 y 10 días después de la compra. Este período permite el recorrido típico del comprador: descargar el archivo dentro de un día o dos de la compra, imprimirlo en los días siguientes y usarlo al menos una vez en línea o en casa antes de que llegue la solicitud de reseña. Algunos tipos de productos pueden justificar ventanas más largas — un cuaderno de trabajo completo que un vendedor planea usar durante varias semanas podría merecer un retraso de 14 días para permitir un uso significativo, mientras que una actividad de una sola página para colorear podría usarse dentro de un día de la compra, haciendo apropiado un seguimiento de 3 días.\n\nUsa las funciones de mensajería del marketplace para enviar mensajes de seguimiento donde los términos de la plataforma lo permitan. No todas las plataformas permiten o fomentan la comunicación post-compra iniciada por el vendedor, así que verifica los términos de servicio actuales de cada marketplace antes de implementar mensajes de seguimiento. Donde esté permitido, tu mensaje de seguimiento debe comenzar con valor en lugar de una solicitud de reseña. Abre con un chequeo genuino: "Quería asegurarme de que tu [nombre del producto] se descargó correctamente y está funcionando bien para tu clase." Continúa con un consejo de uso específico o sugerencia relacionada con el producto. Cierra con una mención natural de las reseñas: "Si tienes un momento, me encantaría saber cómo funcionaron las fichas para tus usuarios — tus comentarios me ayudan a crear mejores recursos y ayudan a otros vendedores a encontrar lo que necesitan."\n\nEl tono de tu comunicación de seguimiento impacta directamente en si genera una respuesta positiva o molestia. Escribe como una persona real teniendo una conversación genuina, no como un negocio ejecutando un plan de marketing. Usa el nombre del comprador si está disponible. Haz referencia al producto específico que compraron en lugar de usar una plantilla genérica que se siente producida en masa. Expresa interés genuino en cómo funcionó el producto para su situación específica. Los compradores pueden distinguir inmediatamente entre un vendedor que se preocupa por su experiencia y un vendedor que solicita reseñas mecánicamente — y responden en consecuencia.\n\nNunca envíes más de un mensaje de seguimiento por compra. Un solo seguimiento bien cronometrado y orientado al valor es profesional y apreciado. Un segundo mensaje repitiendo la solicitud de reseña cruza al territorio de la insistencia y puede generar sentimiento negativo que resulte en una reseña molesta o un abandono de tu tienda. Si el comprador no responde a tu seguimiento o no deja una reseña, acepta ese resultado con gracia. La mayoría de los compradores nunca dejarán reseñas independientemente de cuán perfectamente ejecutes tu estrategia de reseñas — tu objetivo es aumentar el porcentaje que lo hace, no lograr una tasa de reseñas del 100%, que no es realista ni necesaria para el éxito del negocio.`,
     },
     {
-      heading: 'Responde a Cada Reseña — Positiva y Negativa',
+      heading: `Responde a Cada Reseña — Positiva y Negativa`,
       content: `Las respuestas a las reseñas son visibles no solo para el reseñador sino para cada comprador potencial que lee las reseñas de tu producto antes de tomar una decisión de compra. Un vendedor que responde reflexivamente a las reseñas demuestra compromiso activo, profesionalismo y atención al cliente — cualidades que reducen la duda de compra para los compradores indecisos. Las investigaciones muestran consistentemente que los productos con respuestas del vendedor a las reseñas convierten a tasas más altas que los productos con reseñas sin responder, porque las respuestas señalan que una persona real respalda el producto y estará disponible si el comprador necesita ayuda.\n\nPara reseñas positivas, responde con gratitud específica que haga referencia a lo que el reseñador mencionó. Si un reseñador dice "A mis usuarios les encantó el tema de animales," responde con algo como "Muchas gracias por compartir eso — el tema de animales es uno de nuestros más populares, y es maravilloso saber que tus usuarios lo disfrutaron." Esta especificidad muestra que realmente leíste la reseña en lugar de publicar una respuesta genérica de "¡Gracias por tu reseña!" a cada comentario. Las respuestas específicas también crean un contenido adicional que refuerza las fortalezas del producto para los compradores potenciales que están leyendo las reseñas para evaluar el producto.\n\nLas reseñas negativas requieren una estrategia de respuesta más cuidadosa, pero son igualmente importantes de abordar — y en algunos aspectos más valiosas como oportunidades de construcción de confianza. Cuando un comprador deja una reseña negativa, los compradores potenciales observan cómo la manejas. Una respuesta defensiva, desdeñosa o argumentativa confirma la queja del reseñador negativo y señala que el vendedor es difícil de tratar. Una respuesta constructiva, empática y orientada a soluciones puede realmente construir más confianza de la que la reseña negativa dañó, porque demuestra responsabilidad y compromiso con el cliente.\n\nResponde a las reseñas negativas siguiendo una estructura consistente: reconoce la preocupación sin ponerte a la defensiva, asume responsabilidad donde sea apropiado, ofrece una solución específica y expresa disposición para resolver las cosas. Por ejemplo: "Gracias por tus comentarios. Lamento que el nivel de dificultad no coincidiera con lo que necesitabas para tu clase. Estaré encantado de recomendarte un conjunto diferente que podría ser más adecuado para el nivel de tus usuarios, o puedo darte sugerencias para adaptar estas fichas. No dudes en contactarme directamente para que pueda ayudarte." Esta respuesta valida la experiencia del comprador, ofrece asistencia concreta y demuestra a todos los lectores que tomas en serio la satisfacción del cliente.\n\nUsa los temas de las reseñas negativas como datos de diagnóstico en lugar de crítica personal. Si múltiples reseñas mencionan el mismo problema — instrucciones confusas, desajuste del nivel de dificultad, problemas de impresión en papel A4 — eso es retroalimentación accionable que señala una oportunidad genuina de mejora del producto. Aborda el problema recurrente en el producto mismo (actualiza instrucciones, agrega orientación sobre el nivel de dificultad, incluye formato compatible con A4), luego responde a las reseñas mencionando que el problema ha sido abordado. Este ciclo visible de mejora demuestra a los compradores potenciales que tus productos mejoran con el tiempo basándose en comentarios reales de usuarios, lo cual es una señal de confianza poderosa que los listados genéricos de productos no pueden transmitir.\n\nEstablece un horario para revisar y responder reseñas en todas las plataformas donde vendes. Una revisión diaria de 5 minutos asegura que nunca dejes reseñas sin responder por períodos prolongados. Las respuestas oportunas son más impactantes que las tardías porque el reseñador todavía está comprometido con la interacción, y los compradores potenciales ven participación activa del vendedor en lugar de comentarios sin responder de semanas de antigüedad. Muchos marketplaces también notifican a los reseñadores cuando un vendedor responde, creando un punto de contacto adicional que refuerza la asociación positiva del comprador con tu marca.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Las reseñas en Amazon tienen un peso enorme porque el sistema de reseñas de la plataforma es confiado por los compradores en todas las categorías de productos. Para los editores de fichas en KDP, el desafío es que el proceso de reseña de Amazon requiere que los compradores regresen a la página del producto y naveguen a la sección de reseñas — un paso que crea suficiente fricción para reducir significativamente las tasas de reseñas comparado con plataformas con flujos de reseña más simples. Dentro de tus cuadernos de trabajo publicados, incluye una página de solicitud de reseña que explique exactamente cómo dejar una reseña en Amazon en términos simples, paso a paso. Posiciona esta página cerca del final del cuaderno de trabajo donde los compradores la encuentran después de usar el contenido. Las directrices de reseñas de Amazon prohíben incentivar las reseñas, así que tu enfoque debe centrarse completamente en hacer el proceso de reseña fácil y enmarcarlo como ayudar a otros emprendedores a encontrar recursos de calidad. La calidad del producto y la precisión de la descripción son especialmente críticas en Amazon porque los compradores que sienten que el listado los engañó tienden a usar el sistema de reseñas agresivamente para advertir a otros.`,
     },
     {
-      heading: 'Cultura de Reseñas y Mejores Prácticas en Gumroad',
+      heading: `Cultura de Reseñas y Mejores Prácticas en Gumroad`,
       content: `Gumroad tiene la cultura de reseñas más fuerte entre los marketplaces de imprimibles educativos porque los vendedores usan activamente las reseñas para evaluar recursos antes de comprar. El sistema de reseñas de Gumroad incluye tanto una valor percibido por estrellas como una sección de comentarios detallados, y muchos vendedores escriben reseñas exhaustivas que evalúan el valor educativo, la facilidad de uso y la calidad de impresión. Aprovecha esta cultura de reseñas creando productos que aborden específicamente los criterios de evaluación que importan a los vendedores: objetivos de aprendizaje claros, alineación con estándares educativos, opciones de diferenciación y claves de respuestas completas. Gumroad permite a los vendedores dejar comentarios para los compradores, creando un intercambio recíproco que fomenta la participación en las reseñas. Incluye un breve mensaje en tus archivos de productos dirigido específicamente a colegas emprendedores: "Tu reseña ayuda a otros vendedores a encontrar recursos que ahorran tiempo de preparación y mantienen a sus usuarios comprometidos — leo cada reseña y uso tus comentarios para mejorar futuros recursos." La orientación comunitaria de Gumroad hace que este enfoque entre pares sea particularmente efectivo.`,
     },
   ],
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `No. Cada marketplace importante prohíbe explícitamente las reseñas incentivadas, incluyendo ofrecer descuentos, cupones, productos futuros o cualquier otro beneficio a cambio de una reseña. Violar esta política puede resultar en eliminación de reseñas, suspensión del listado o terminación permanente de la cuenta. Más allá del cumplimiento de políticas, las reseñas incentivadas socavan la confianza que hace que las reseñas sean valiosas en primer lugar. Si los compradores sospechan que las reseñas positivas fueron compradas o incentivadas en lugar de ganadas, las reseñas pierden su poder persuasivo. Enfócate exclusivamente en ganar reseñas orgánicas a través de la calidad del producto, expectativas claras, seguimiento profesional y hacer que el proceso de reseña sea fácil. Las reseñas auténticas de compradores genuinamente satisfechos son más persuasivas y sostenibles que cualquier cantidad de comentarios incentivados.`,
     },
     {
-      question: '¿Qué tan rápido debo responder a las reseñas?',
+      question: `¿Qué tan rápido debo responder a las reseñas?`,
       answer: `Responde a todas las reseñas dentro de 24 a 48 horas. Las respuestas oportunas demuestran compromiso activo del vendedor y muestran a los compradores potenciales que monitoreas y te preocupas por los comentarios de los clientes. Para las reseñas negativas, las respuestas oportunas son especialmente importantes porque limitan la ventana durante la cual un comprador potencial ve una queja sin responder. Una reseña negativa con una respuesta constructiva del vendedor publicada el mismo día se lee muy diferente a una reseña negativa que permaneció sin respuesta durante dos semanas. Establece una rutina diaria de revisar reseñas en todas las plataformas, tomando no más de 5 minutos por día. Esta pequeña inversión de tiempo genera retornos desproporcionados en confianza del comprador y credibilidad de la tienda.`,
     },
     {
@@ -137,29 +137,29 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'soporte-cliente-productos-digitales', anchorText: `Soporte al Cliente para Negocios de Productos Digitales` },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo Vender Fichas de Matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles Imprimible' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
+    { pageType: 'guide', slug: `soporte-cliente-productos-digitales`, anchorText: `Soporte al Cliente para Negocios de Productos Digitales` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo Vender Fichas de Matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles Imprimible` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
     { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de Precios para productos imprimibles Imprimible` },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo Crear Paquetes de Fichas que Vendan' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas que Vendan` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
     { pageType: 'guide', slug: 'email-marketing-imprimibles', anchorText: `Email Marketing para Vendedores de Productos Imprimibles` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de Selección de Nicho para Negocios de Imprimibles` },
-    { pageType: 'guide', slug: 'estandares-calidad-fichas-ejercicios', anchorText: 'Estándares de Calidad para Fichas Profesionales' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `estandares-calidad-fichas-ejercicios`, anchorText: `Estándares de Calidad para Fichas Profesionales` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Generador de Fichas de Emparejamiento',
+      title: `Generador de Fichas de Emparejamiento`,
       description: `Tipo de producto visual y atractivo que genera fuertes reacciones positivas de los compradores y reseñas detalladas. Las fichas de emparejamiento demuestran calidad a través de temas coloridos y diseños intuitivos sobre los que a los compradores les encanta dar su opinión.`,
     },
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Productos altamente visuales donde la calidad es inmediatamente aparente para los compradores. Los resultados profesionales de páginas para colorear impulsan reseñas porque padres y vendedores pueden ver y apreciar instantáneamente la calidad del diseño.`,
     },
     {
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Las páginas para colorear profesionales generan reseñas porque los compradores pueden ver y apreciar inmediatamente la calidad del diseño`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras mostrando el formato de producto popular que genera alto volumen de reseñas`,
         caption: `Las sopas de letras generan alto volumen de ventas y tasas de reseñas positivas consistentes en todos los grupos de edad`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagen educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — imagen educativa temática', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — imagen educativa temática', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campanilla — imagen educativa temática', caption: 'Campanilla' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagen educativa temática', caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagen educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — imagen educativa temática`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — imagen educativa temática`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campanilla — imagen educativa temática`, caption: 'Campanilla' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagen educativa temática`, caption: 'Ranúnculo' },
   ],
 };
 

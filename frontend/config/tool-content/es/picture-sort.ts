@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador clasificación de imágenes',
+    primaryKeyword: `generador clasificación de imágenes`,
     secondaryKeywords: [
       `creador de fichas de clasificación para vendedores uso comercial`,
       `crear fichas de clasificación para vender en Etsy y KDP`,
@@ -14,21 +14,21 @@ const content: ToolContent = {
       `creador de fichas de clasificación con clave de respuestas automática`,
       `actividades de clasificación en dos categorías con imágenes temáticas`,
     ],
-    titleTag: 'Generador Clasificación de Imágenes | Vender',
+    titleTag: `Generador Clasificación de Imágenes | Vender`,
     metaDescription: `Crea fichas de clasificación con dos categorías, cuadrícula de recortes barajada, clave de respuestas automática y 104 temas. Prueba con marca de agua.`,
   },
 
   hero: {
-    title: 'Generador de Clasificación de Imágenes',
+    title: `Generador de Clasificación de Imágenes`,
     tagline: `Generador de fichas de clasificación en dos categorías con modos de selección temático y manual, cuadrículas de recortes barajadas de 4–12 imágenes en 3–4 columnas autoajustables, marcos de categoría con borde discontinuo para destinos de clasificación izquierdo y derecho, claves de respuestas autogeneradas con imágenes 6× más grandes en cajas de categoría, encabezado localizado de Clasificación de Imágenes en 11 idiomas y 104 colecciones temáticas de imágenes para fichas de clasificación que se venden en todo el mundo`,
     description: `Crea fichas de clasificación profesionales donde los usuarios recortan imágenes de una cuadrícula barajada y las clasifican en dos categorías — izquierda y derecha. Elige el modo temático para rellenar categorías automáticamente desde la biblioteca de imágenes: selecciona un tema para la izquierda y otro para la derecha, y la aplicación extrae 4–6 imágenes aleatorias por tema. O cambia al modo manual para seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha. Cada ficha presenta dos marcos de categoría con borde discontinuo en la parte superior con relleno #FAFAFA para destinos de clasificación y una cuadrícula de recortes barajada debajo con celdas blancas, bordes discontinuos #666, esquinas redondeadas de 4px y 3–4 columnas según el número total de imágenes. Cada imagen ocupa el 85% de su celda. Configura de 4 a 12 imágenes totales con 2–10 por categoría — menos imágenes crean tareas de clasificación más simples para usuarios más jóvenes, más imágenes aumentan la dificultad y la densidad de contenido. El sistema de doble lienzo genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La clave de respuestas muestra las imágenes a 6× el tamaño de las celdas de la cuadrícula de recortes, organizadas en cajas de categoría con un máximo de 2 columnas por caja, relleno #FAFAFA, trazo #444 y radio de borde de 12px — sin necesidad de crear la clave de respuestas manualmente. El Generador de Clasificación de Imágenes es sensible al idioma: las etiquetas de categoría usan nombres localizados de imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualiza el texto en la ficha. Un encabezado localizado se renderiza automáticamente con fondo verde menta (#4DB6AC), contenedor blanco en forma de pastilla, título verde azulado (#00796B) en Fredoka Bold y descripción naranja (#FF7043) en Quicksand. Las fichas verticales muestran un encabezado de 100px con título de 28–48px; las fichas horizontales usan un encabezado de 70px con título de 24–36px. Un borde exterior verde azulado (#26A69A, trazo de 8px, radio de 12px) enmarca toda la página. Navega 104 colecciones temáticas con más de 3.100 ilustraciones o sube tus propias imágenes PNG, JPG o GIF. Aplica fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade campos de nombre y fecha para responsabilidad en línea. Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo de Fabric.js con 6 opciones de alineación más centrar en página, capas, bloqueo/desbloqueo, zoom 25%–300% y deshacer/rehacer 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.`,
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Clasificación en 8 Pasos',
+    title: `Cómo Crear Fichas de Clasificación en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Generador de Clasificación de Imágenes',
+        title: `Abre el Generador de Clasificación de Imágenes`,
         description: `Haz clic en "Prueba Gratis Ahora" para abrir el generador de fichas de clasificación en tu navegador. La herramienta carga instantáneamente con una barra lateral de ajustes a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha de clasificación y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear fichas de clasificación de inmediato.`,
       },
       {
@@ -44,15 +44,15 @@ const content: ToolContent = {
         description: `Abre el panel de Biblioteca de Imágenes y navega 104 colecciones temáticas con más de 3.100 ilustraciones a color — animales, comida, vehículos, naturaleza, festividades, profesiones y docenas más. Filtra por tema usando el menú desplegable o busca por palabra clave. Haz clic en las imágenes para añadirlas a tu ficha. En el modo manual, asigna cada imagen seleccionada a la categoría izquierda o derecha. Alternativamente, sube imágenes personalizadas PNG, JPG o GIF para crear fichas de clasificación personalizadas con tus propias fotos, ilustraciones o contenido específico del mercado.`,
       },
       {
-        title: 'Configura el Diseño de Página y las Decoraciones',
+        title: `Configura el Diseño de Página y las Decoraciones`,
         description: `En la sección Configuración de Página, selecciona tu tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o introduce una dimensión personalizada. Elige un color de fondo de página. Selecciona un fondo decorativo temático y un borde decorativo temático de la biblioteca integrada, cada uno con un control de opacidad independiente (0–1, paso 0,05). Los fondos y bordes temáticos funcionan de forma independiente, permitiéndote combinar un fondo sutil con un borde decorativo llamativo. Marca "Incluir Campos de Nombre/Fecha" para añadir líneas de nombre y fecha del usuario para responsabilidad en línea.`,
       },
       {
-        title: 'Genera la Ficha de Clasificación',
+        title: `Genera la Ficha de Clasificación`,
         description: `Haz clic en Generar para crear el diseño de clasificación en dos partes. La aplicación organiza tu contenido en dos marcos de categoría con borde discontinuo en la parte superior con relleno #FAFAFA para destinos de clasificación y una cuadrícula de recortes barajada debajo con celdas blancas, bordes discontinuos #666 y esquinas redondeadas de 4px. Las imágenes aparecen en orden aleatorio en 3–4 columnas, cada una ocupando el 85% de su celda. Un encabezado estilizado se renderiza en la parte superior con fondo verde menta (#4DB6AC), contenedor blanco en forma de pastilla, título verde azulado (#00796B) en Fredoka Bold y descripción naranja (#FF7043) en Quicksand. Un borde exterior verde azulado (#26A69A, trazo de 8px, radio de 12px) enmarca toda la página. Los usuarios recortan las imágenes y las clasifican en el marco de categoría correcto.`,
       },
       {
-        title: 'Revisa la Clave de Respuestas Autogenerada',
+        title: `Revisa la Clave de Respuestas Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuestas para ver la solución autogenerada. La clave de respuestas muestra dos cajas de categoría (una por categoría, ancho igual) con las imágenes clasificadas en su grupo correcto — renderizadas a 6× el tamaño de las celdas de la cuadrícula de recortes para una verificación clara y fácil de leer. Cada caja de categoría usa un máximo de 2 columnas con relleno #FAFAFA, trazo discontinuo #444 y radio de borde de 12px. Alterna entre las pestañas de Ficha y Clave de Respuestas para comparar. La clave de respuestas se genera simultáneamente con la ficha — sin paso de creación manual, sin proceso de diseño separado, sin posibilidad de respuestas que no coincidan.`,
       },
       {
@@ -80,7 +80,7 @@ const content: ToolContent = {
       description: `El Generador de Clasificación de Imágenes es sensible al idioma — las etiquetas de categoría usan nombres localizados de imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualiza el texto en la ficha. Crea fichas de clasificación en inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés desde las mismas imágenes sin reconstruir nada. El encabezado localizado de Clasificación de Imágenes también se traduce automáticamente. Vende paquetes de clasificación en idiomas específicos dirigidos a tiendas Etsy internacionales y compradores multilingües de Gumroad, o crea actividades de clasificación ESL/EFL donde las etiquetas bilingües de categoría refuerzan la adquisición de vocabulario.`,
     },
     {
-      title: 'Fichas de Clasificación con Fotos Personalizadas',
+      title: `Fichas de Clasificación con Fotos Personalizadas`,
       description: `Usa la función de Subir Imágenes Personalizadas para crear fichas de clasificación con tus propias fotos o ilustraciones. Actividades de clasificación familiares donde los niños clasifican fotos en categorías como "Personas" vs "Lugares", tareas de clasificación específicas del mercado usando fotos tomadas por los usuarios, actividades de clasificación con marca para empresas educativas o fichas personalizadas para educación especial con imágenes familiares. El modo manual te permite asignar cada imagen subida a la categoría izquierda o derecha. Combinadas con la clave de respuestas autogenerada, las fichas de clasificación con fotos personalizadas se convierten en productos únicos e imposibles de replicar por la competencia.`,
     },
     {
@@ -91,12 +91,12 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Tienda Etsy de Fichas de Clasificación Temáticas',
+      title: `Tienda Etsy de Fichas de Clasificación Temáticas`,
       description: `Abre una tienda Etsy especializada en paquetes de actividades de clasificación organizados por emparejamiento de categorías usando las 104 colecciones de imágenes. Animales vs Comida, Tierra vs Agua, Frutas vs Verduras, Interior vs Exterior y docenas más — cada emparejamiento se convierte en un listado separado con 15–20 fichas de clasificación y claves de respuestas incluidas. El selector de categorías basado en temas facilita la generación rápida de fichas con agrupaciones izquierda/derecha naturales, y la clave de respuestas autogenerada con imágenes 6× más grandes en cajas de categoría elimina el mayor cuello de botella en la producción. Varía la cantidad de imágenes entre fichas (4–12) para dificultad progresiva dentro de cada paquete. Precio de paquetes individuales por tema a $3–$5 y paquetes premium multi-tema a $8–$15.`,
       platform: 'Etsy',
     },
     {
-      title: 'Serie de Cuadernos de Clasificación en Amazon KDP',
+      title: `Serie de Cuadernos de Clasificación en Amazon KDP`,
       description: `Compila 50–80 fichas de clasificación en cuadernos temáticos de actividades para Amazon KDP. Estructura una serie por tema: "Puzzles de Clasificación de Animales", "Actividades de Clasificación de Alimentos", "Cuaderno de Clasificación de la Naturaleza" y "Clasificación de Objetos Cotidianos". Cada libro progresa desde clasificaciones simples de 4 imágenes hasta tareas desafiantes de 12 imágenes. Incluye páginas de clave de respuestas al final con imágenes 6× más grandes organizadas en cajas de categoría para verificación clara. Activa la escala de grises para salida con ahorro de tinta que mantiene bajos los costos de impresión de KDP. Los cuadernos de clasificación sirven a una audiencia amplia desde preescolar hasta primaria y se venden durante todo el año en la categoría de cuadernos de actividades.`,
       platform: 'Amazon KDP',
     },
@@ -128,7 +128,7 @@ const content: ToolContent = {
       description: `El modo temático selecciona automáticamente 4–6 imágenes aleatorias por categoría desde la biblioteca de imágenes. Selecciona un tema izquierdo y un tema derecho, haz clic en Generar y la aplicación produce una ficha de clasificación completa con cuadrícula de recortes barajada y marcos de categoría en segundos. Como la selección de imágenes es aleatoria, hacer clic en Generar de nuevo con los mismos temas crea una ficha diferente con imágenes diferentes. Usa esto para llenar paquetes grandes rápidamente — genera 10–15 fichas únicas por emparejamiento de temas, luego multiplica a través de docenas de combinaciones naturales de categorías para catálogos masivos con esfuerzo mínimo.`,
     },
     {
-      title: 'Usa el Modo Manual para Precisión de productos',
+      title: `Usa el Modo Manual para Precisión de productos`,
       description: `El modo manual te permite seleccionar imágenes individualmente y asignar cada una a la categoría izquierda o derecha. Esto es esencial para crear actividades de clasificación específicas del catálogo de productos donde las imágenes exactas importan — selecciona solo los animales de un hábitat específico, solo los alimentos de una unidad de nutrición o solo los objetos relevantes para una lección de ciencias. Las fichas del modo manual consiguen precios más altos en Gumroad porque demuestran alineación de productos intencional en lugar de selección aleatoria de temas.`,
     },
     {
@@ -159,7 +159,7 @@ const content: ToolContent = {
       answer: `Sí. La herramienta ofrece una prueba gratuita con todas las funciones — ambos modos de selección (temático y manual), cantidad configurable de imágenes de 4 a 12, la clave de respuestas autogenerada con imágenes 6× más grandes en cajas de categoría, las 104 colecciones temáticas de imágenes con más de 3.100 ilustraciones, subida de imágenes personalizadas, fondos y bordes temáticos con opacidad independiente, campos de nombre/fecha, el encabezado localizado de Clasificación de Imágenes en 11 idiomas, opción de escala de grises y todos los formatos de descarga. Sin registro, sin tarjeta de crédito. Las descargas de la prueba gratuita incluyen una marca de agua. Compra una licencia comercial para eliminar la marca de agua y desbloquear derechos de venta.`,
     },
     {
-      question: '¿Cuáles son los dos modos de selección?',
+      question: `¿Cuáles son los dos modos de selección?`,
       answer: `El generador ofrece modo temático y modo manual. El modo temático te permite elegir un tema para la categoría izquierda y otro tema para la categoría derecha — la aplicación selecciona automáticamente 4–6 imágenes aleatorias por tema desde la biblioteca de imágenes, creando fichas con 8–12 imágenes en total. El modo manual te da control completo: selecciona imágenes individualmente de cualquier tema y asigna cada una a la categoría izquierda o derecha. El modo temático es más rápido para producción masiva; el modo manual es ideal para crear actividades de clasificación específicas y alineadas con el catálogo de productos con selección precisa de imágenes.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `Sí. Las etiquetas de categoría usan nombres localizados de imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualiza el texto en la ficha. Por ejemplo, una imagen de gato aparece como "Cat" en inglés pero "Katze" en alemán y "Chat" en francés. El encabezado localizado de "Clasificación de Imágenes" y su descripción también se traducen automáticamente a los 11 idiomas soportados: inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés. Esto facilita la creación de productos de clasificación multilingüe desde las mismas imágenes.`,
     },
     {
-      question: '¿Cómo se ve el encabezado localizado?',
+      question: `¿Cómo se ve el encabezado localizado?`,
       answer: `Cada ficha generada incluye un encabezado estilizado con fondo verde menta (#4DB6AC), contenedor blanco en forma de pastilla, título verde azulado (#00796B) en fuente Fredoka Bold y descripción naranja (#FF7043) en fuente Quicksand. Las fichas verticales muestran un encabezado de 100px con tamaño de título dinámico (28–48px); las fichas horizontales usan un encabezado compacto de 70px con título de 24–36px. El título "Clasificación de Imágenes" y la descripción se traducen automáticamente a los 11 idiomas soportados. Un borde exterior verde azulado (#26A69A, trazo de 8px, radio de 12px) enmarca toda la página.`,
     },
     {
@@ -199,20 +199,20 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes derechos completos para vender fichas de clasificación como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los dos modos de selección, la cantidad configurable de imágenes, las claves de respuestas autogeneradas con imágenes 6× más grandes, las etiquetas de categoría sensibles al idioma, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de clasificación que compiten en categorías de actividades de clasificación en todos los principales mercados.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de comprar. Debido a que la prueba gratuita te da acceso completo a ambos modos de selección, cantidad configurable de imágenes de 4 a 12, la clave de respuestas autogenerada, los 104 temas, subida de imágenes personalizadas, fondos y bordes temáticos, campos de nombre/fecha, el encabezado localizado en 11 idiomas, exportación en escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencias. Asegúrate de que la herramienta se adapta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'clasificar-imagenes-fichas', anchorText: `Fichas de Clasificación de Imágenes — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Asociación' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Generador de Puzzle de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Generador de Discriminación Visual' },
-    { pageType: 'tool', slug: 'generador-tarjetas-bingo', anchorText: 'Generador de Tarjetas de Bingo' },
-    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Generador de Fichas de Asociación` },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: `Generador de Puzzle de Cuadrícula` },
+    { pageType: 'tool', slug: `generador-discriminacion-visual`, anchorText: `Generador de Discriminación Visual` },
+    { pageType: 'tool', slug: 'generador-tarjetas-bingo', anchorText: `Generador de Tarjetas de Bingo` },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: `Generador de Fichas del Intruso` },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Generador de Páginas para Colorear` },
   ],
 
   visuals: {

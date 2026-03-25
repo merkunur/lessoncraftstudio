@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'ostern-druckvorlagen-ideen zum verkaufen',
+    primaryKeyword: `ostern-druckvorlagen-ideen zum verkaufen`,
     secondaryKeywords: [
-      'Oster-Arbeitsblätter auf Etsy erstellen',
-      'Frühlings-Ostern-Aktivitätsblätter auf KDP',
+      `Oster-Arbeitsblätter auf Etsy erstellen`,
+      `Frühlings-Ostern-Aktivitätsblätter auf KDP`,
       `saisonale Oster-Druckvorlagen auf Gumroad verkaufen`,
       `Osterhase-Thema Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Frühlings-Saison Osternachfrage Druckvorlagen',
-      'März-April-Verkaufsspitze Lernmaterialien',
-      'Oster-Nische saisonaler Arbeitsblatt-Markt',
+      `Frühlings-Saison Osternachfrage Druckvorlagen`,
+      `März-April-Verkaufsspitze Lernmaterialien`,
+      `Oster-Nische saisonaler Arbeitsblatt-Markt`,
     ],
     titleTag: `Ostern-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden`,
     metaDescription: `Ostern-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Frühlings-Produktkonzepte, saisonale Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
-    title: 'Ostern-Druckvorlagen-Geschäftsideen für Verkäufer',
+    title: `Ostern-Druckvorlagen-Geschäftsideen für Verkäufer`,
     description: `Ostern eröffnet ein lebendiges Frühlings-Verkaufsfenster für Druckvorlagen-Unternehmer — die Nachfrage steigt von Februar bis April stetig an, wenn Verkäufer Frühlings-Gruppenaktivitäten planen und Eltern nach lehrreichen Oster-Beschäftigungen, Eiersuche-Ergänzungen und kreativen Osternest-Füllern suchen. Ostern gehört in den deutschsprachigen Ländern zu den wichtigsten Feiertagen des Jahres, mit tief verwurzelten Traditionen wie dem Eierfärben, der Eiersuche im Garten, dem Schmücken des Osterstrauchs mit bemalten Eiern und dem Osterlamm-Backen, die Familien und Schulen gleichermaßen begeistern. Die Nische bietet eine wunderbar vielfältige Themenwelt mit Osterhasen, verzierten Ostereiern, Osterküken, Osterlämmern, Osterkörben, Frühlingsblumen, Tulpen, Karotten, Osterglocken und Osternestern — ein fröhliches visuelles Vokabular, das bei jungen Lernenden und ihren Familien starken Anklang findet. Kirchengemeinden, Kindergärten und Gemeinschaftsorganisationen bilden ein weiteres Käufersegment mit Bedarf an druckbaren Aktivitäten für Osterfeiern und Frühlingsfeste. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verbindet die Ostern-Nische vorhersagbare jährliche Nachfrage mit einer festlichen Frühlingsästhetik, die sich hervorragend für Produktbilder und Marketingmaterialien eignet. Dieser Leitfaden behandelt konkrete Produktideen, Plattformstrategien und Timing-Ansätze, die Ihnen beim Aufbau einer profitablen Ostern-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools helfen.`,
   },
   marketOverview: `Die Ostern-Druckvorlagen-Nische nimmt eine erstklassige Position im Frühlings-Verkaufskalender ein und liefert konzentrierte saisonale Nachfrage in einem Zeitraum, in dem wenige andere Feiertage um die Aufmerksamkeit der Käufer konkurrieren. Verkäufer beginnen bereits im Februar und Anfang März mit der Planung von Frühlings-Gruppenaktivitäten und Oster-Feiern und suchen nach thematischen Arbeitsblättern, die Feiertagscharme mit echtem lehrreichen Mehrwert verbinden. Eltern suchen altersgerechte Osteraktivitäten, die als Osternest-Ergänzung und lehrreiche Unterhaltung in den aufregenden Tagen vor dem Fest dienen. In den deutschsprachigen Ländern hat Ostern eine besonders tiefe kulturelle Bedeutung — traditionelle Bräuche wie das Eierfärben, die Eiersuche im Garten, das Schmücken des Osterstrauchs und das Backen von Osterlamm und Osterzopf verbinden Generationen und schaffen reichhaltigen thematischen Stoff für Lernmaterialien. Kirchengemeinden, Kindergartengruppen und Gemeinschaftsorganisationen kaufen thematische Aktivitätsblätter für Osterfeiern, Frühlingsfeste und familienfreundliche Veranstaltungen.
@@ -40,7 +40,7 @@ Um maximalen Oster-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere Unt
       appId: 'find-count',
     },
     {
-      title: 'Oster-Wortsuchrätsel zum Online-Verkaufen',
+      title: `Oster-Wortsuchrätsel zum Online-Verkaufen`,
       description: `Frühlings-Vokabel-Wortsuchrätsel ziehen Verkäufer an, die März- und April-Gruppenaktivitäten planen, und Eltern, die lehrreiche Unterhaltung während der Oster-Feierzeit suchen. Erstellen Sie Rätsel mit Oster-spezifischem Vokabular wie Osterhase, Osterkorb, Küken, Osterlamm, Tulpe, Osterei und Schokolade sowie breiteren Frühlings-Feier-Begriffen. Der Wortsuchrätsel-Generator ermöglicht die Steuerung von Gittergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Gitter mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Gitter mit fünfzehn oder mehr Oster-Begriffen für ältere Nutzer. Variationen wie Eiersuche-Vokabular, Frühlings-Tierwörter und Oster-Feier-Terminologie erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der Frühlings-Saison-Nische anzusprechen.`,
       appId: 'wordsearch',
     },
@@ -55,7 +55,7 @@ Um maximalen Oster-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere Unt
       appId: 'addition',
     },
     {
-      title: 'Oster-Ausmalbilder für Etsy- und KDP-Verkäufer',
+      title: `Oster-Ausmalbilder für Etsy- und KDP-Verkäufer`,
       description: `Ausmalbilder sind das absatzstärkste Einstiegsprodukt für Oster-Druckvorlagen-Shops, weil Frühlings-Ausmalen praktisch jede Familie mit kleinen Kindern anspricht und frühe Bewertungen generiert, die Ihre Shop-Sichtbarkeit während des saisonalen Spitzenverkehrs steigern. Der Ausmalbilder-Generator erstellt detaillierte Umrisse von Osterhasen, verzierten Ostereiern, Frühlingsblumen, Osterküken, Osterlämmern, überquellenden Osterkörben und fröhlichen Gartenszenen. Für Etsy verkaufen Sie kuratierte Sets von zehn bis fünfzehn Seiten, gruppiert nach Unterthema wie Osterei-Verzierungsmuster oder Frühlings-Tierfiguren. Für KDP kompilieren Sie dreißig bis fünfzig Ausmalbilder zu Oster-Aktivitätsbüchern, die als Osternest-Füller oder Frühlingsgeschenke positioniert werden. Fügen Sie lehrreiche Elemente wie Oster-Vokabelbeschriftungen, Zählaufforderungen oder Buchstabenübungen neben den Ausmalbildern hinzu, um sich von rein dekorativen Optionen abzuheben.`,
       appId: 'coloring',
     },
@@ -89,12 +89,12 @@ Um maximalen Oster-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere Unt
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Oster-Druckvorlagen auf Etsy verkaufen',
+      title: `Oster-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität für Oster-Druckvorlagen-Angebote, und die Frühlings-Einkaufssaison erzeugt einen erheblichen Traffic-Anstieg für lehrreiche digitale Downloads. Veröffentlichen Sie Ihre Oster-Angebote bis Ende Januar, damit die Etsy-Suchalgorithmen Zeit haben, Ihre Produkte zu indexieren und zu ranken, bevor der Februar-Nachfrageanstieg beginnt. Nutzen Sie alle dreizehn Tags mit Variationen, die Oster-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Oster-Zählarbeitsblätter Vorschule", „Frühlings-Wortsuchrätsel Kindergarten" und „Osterhasen-Ausmalbilder Kleinkinder" sprechen spezifische Käufersuchen weit effektiver an als breite Tags wie „Oster-Arbeitsblätter". Erstellen Sie feierorientierte Angebotsvariationen, die Aktivitätspakete als Oster-Party-Aktivitätspakete oder Osternest-Füller positionieren. Angebotsbilder, die gedruckte Oster-Arbeitsblätter in frühlingshaft dekorierten Umgebungen mit saisonalen Requisiten wie Pastelldekorationen und Frühlingsblumen zeigen, übertreffen flache digitale Vorschauen und erfassen die festliche Stimmung, die den Frühlingsverkehr antreibt.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Oster-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Oster-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP eignet sich hervorragend für Oster-Druckvorlagen, weil Eltern und Geschenkkäufer Aktivitätsbücher natürlich zusammen mit Osternestern, Schokohasen und Frühlingsspielzeug in ihren Amazon-Warenkorb legen. Kompilieren Sie einzelne Oster-Arbeitsblätter zu zusammenhängenden Aktivitätsbüchern mit vierzig bis sechzig Seiten, die Zählen, Ausmalen, Zuordnen, Wortsuchrätsel und Zeichenaktivitäten rund um Frühlingsthemen kombinieren. Nutzen Sie die KDP-Keyword-Felder strategisch: Verwenden Sie Begriffe wie „Oster-Aktivitätsbuch für Kinder", „Frühlings-Arbeitsblätter Vorschule" und Unterthemen-Begriffe wie „Osterhasen-Malbuch" oder „Eiersuche-Aktivitäten für Kinder". Setzen Sie den Preis zwischen vier und acht Dollar für optimale Tantiemen und positionieren Sie Ihre Bücher als Osternest-Einlagen oder Frühlings-Gruppengeschenke. Veröffentlichen Sie bis Anfang Februar, um sicherzustellen, dass Ihre Bücher in den Suchergebnissen erscheinen, bevor die März-Kaufphase sich intensiviert, und erwägen Sie, mehrere Bücher für verschiedene Altersgruppen und Unterthemen zu erstellen, um vielfältige Suchanfragen während des Oster-Ansturms abzudecken.`,
     },
     {
@@ -143,18 +143,18 @@ Um maximalen Oster-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere Unt
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Um maximalen Oster-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere Unt
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'halloween-druckvorlagen-ideen',
-      anchorText: 'Halloween-Druckvorlagen-Geschäftsideen',
+      anchorText: `Halloween-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
-    { src: '/image-library/spring/bird.webp', alt: 'Vogel — thematisches Lernbild', caption: 'Vogel' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Vogelhaus — thematisches Lernbild', caption: 'Vogelhaus' },
-    { src: '/image-library/spring/bud.webp', alt: 'Knospe — thematisches Lernbild', caption: 'Knospe' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Häschen — thematisches Lernbild', caption: 'Häschen' },
+    { src: `/image-library/spring/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
+    { src: `/image-library/spring/bird.webp`, alt: 'Vogel — thematisches Lernbild', caption: 'Vogel' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Vogelhaus — thematisches Lernbild`, caption: 'Vogelhaus' },
+    { src: `/image-library/spring/bud.webp`, alt: `Knospe — thematisches Lernbild`, caption: 'Knospe' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Häschen — thematisches Lernbild`, caption: 'Häschen' },
   ],
 
 

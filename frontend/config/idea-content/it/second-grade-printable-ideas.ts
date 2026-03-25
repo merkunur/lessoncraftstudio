@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Idee Stampabili per la Seconda Classe | Guida di Nicchia`,
     metaDescription: `Idee di stampabili per la seconda classe da vendere su Etsy, Amazon KDP e Gumroad. Concetti di prodotto e strategie per venditori nella seconda elementare online.`,
-    primaryKeyword: 'idee stampabili seconda classe',
+    primaryKeyword: `idee stampabili seconda classe`,
     secondaryKeywords: [
-      'schede seconda elementare da vendere',
-      'idee business stampabili seconda classe',
-      'schede attività seconda elementare per venditori',
-      'vendere stampabili seconda classe su Gumroad',
+      `schede seconda elementare da vendere`,
+      `idee business stampabili seconda classe`,
+      `schede attività seconda elementare per venditori`,
+      `vendere stampabili seconda classe su Gumroad`,
     ],
     lsiKeywords: [
-      'schede matematica e lettura scuola primaria',
-      'stampabili catalogo prodotti seconda elementare',
-      'pagine attività apprendimento 7-8 anni',
+      `schede matematica e lettura scuola primaria`,
+      `stampabili catalogo prodotti seconda elementare`,
+      `pagine attività apprendimento 7-8 anni`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ Il segmento di acquirenti genitori cresce significativamente durante la seconda 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vendere Stampabili per la Seconda Classe su Etsy',
+      title: `Vendere Stampabili per la Seconda Classe su Etsy`,
       description: "Etsy cattura il grande e sempre più motivato segmento di acquirenti genitori che cerca materiali di pratica per la seconda classe con termini ad alta intenzione come \"schede matematica seconda classe,\" \"comprensione del testo seconda elementare,\" \"esercizi seconda classe\" e \"aiuto compiti seconda elementare\" durante l\'intero anno scolastico. Usa tutti i tredici tag con variazioni che combinano obiettivi di competenza specifici, identificatori di livello scolastico e formati di attività per catturare acquirenti motivati che cercano con precisione perché le pagelle della seconda classe identificano specifiche lacune di competenza che vogliono affrontare. Raggruppa i prodotti per progressione di competenze per aumentare il valore medio dell\'ordine: un pacchetto di padronanza del riporto che copre addizione e sottrazione a due cifre con e senza riporto, un pacchetto di fluidità nella lettura con brani di comprensione a molteplici livelli di testo, e un pacchetto di abilità grammaticali e di scrittura servono ciascuno esigenze distinte dei genitori incoraggiando acquisti multipli. La domanda aumenta fortemente a metà anno in gennaio e febbraio quando i genitori ricevono le pagelle del primo semestre che mostrano specifici livelli di competenza, e la preparazione ai test standardizzati crea un picco secondario di acquisti in marzo e aprile quando i genitori cercano materiali di ripasso mirati per le valutazioni che i bambini di seconda classe affrontano sempre più frequentemente.",
     },
     {
@@ -139,18 +139,18 @@ Il segmento di acquirenti genitori cresce significativamente durante la seconda 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
-      anchorText: 'Come Creare Pacchetti di Schede che Vendono',
+      slug: `creare-pacchetti-schede-esercizi`,
+      anchorText: `Come Creare Pacchetti di Schede che Vendono`,
     },
     {
       pageType: 'guide',
@@ -159,33 +159,33 @@ Il segmento di acquirenti genitori cresce significativamente durante la seconda 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: "Guida Completa per Avviare un\'Attività di Stampabili",
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
-      slug: 'prima-elementare-idee-stampabili',
+      slug: `prima-elementare-idee-stampabili`,
       anchorText: `Idee di Business con Stampabili per la Prima Classe`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Zaino — immagine educativa tematica', caption: 'Zaino' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Raccoglitore — immagine educativa tematica', caption: 'Raccoglitore' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — immagine educativa tematica', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armadio — immagine educativa tematica', caption: 'Armadio' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calcolatrice — immagine educativa tematica', caption: 'Calcolatrice' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — immagine educativa tematica', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Zaino — immagine educativa tematica`, caption: 'Zaino' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Raccoglitore — immagine educativa tematica`, caption: 'Raccoglitore' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — immagine educativa tematica`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armadio — immagine educativa tematica`, caption: 'Armadio' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calcolatrice — immagine educativa tematica`, caption: 'Calcolatrice' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — immagine educativa tematica`, caption: 'Calendario' },
   ],
 
 

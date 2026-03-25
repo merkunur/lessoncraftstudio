@@ -7,12 +7,12 @@ const content: AppContent = {
       `printbare doolhof activiteit maker voor Etsy verkopers`,
       `afbeeldingspad werkblad generator voor KDP uitgevers`,
       `doolhof werkblad maker commerciële licentie Gumroad`,
-      'pad puzzel werkbladen verkopen op Etsy en Amazon',
+      `pad puzzel werkbladen verkopen op Etsy en Amazon`,
     ],
     lsiKeywords: [
-      'digitale doolhof printables online bedrijf',
-      'commercieel gebruik pad werkblad generator',
-      'printbare puzzel activiteit business tools',
+      `digitale doolhof printables online bedrijf`,
+      `commercieel gebruik pad werkblad generator`,
+      `printbare puzzel activiteit business tools`,
     ],
     titleTag: `Doolhof Werkblad Generator | Maak & Verkoop Pad-Printables`,
     metaDescription:
@@ -24,11 +24,11 @@ const content: AppContent = {
     tagline:
       `Drie spelmodi in één generator — Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad — aangedreven door een LPF-algoritme (Langste Pad Eerst) met automatisch gegenereerde antwoordbladen, wandaanpassing en puur visueel ontwerp dat wereldwijd werkt zonder vertaling.`,
     description:
-      `Maak professionele doolhof- en padwerkbladen met drie verschillende spelmodi. Afbeeldingspad maakt een raster van afbeeldingen waarbij gebruikers het juiste pad volgen van start tot finish door padafbeeldingen te herkennen tussen afleidingen. Klassiek Doolhof genereert wandgebaseerde doolhoven met het LPF-algoritme (Langste Pad Eerst) met verzamelobjecten verspreid door het labyrint — configureer rasterformaten van 15×15 tot 20×20, stel 1 tot 3 paden in met doodlopende-pad-blokkering, en pas wandkleur, wanddikte (1–10px) en wanddekking (10–100%) aan. Kies het Juiste Pad presenteert driepad-doolhoven met vier richtingsopties (onder-naar-boven, boven-naar-onder, links-naar-rechts, rechts-naar-links) waarbij gebruikers het enige juiste pad identificeren tussen twee afleidende routes. Elke modus genereert een bijbehorend antwoordblad op een apart canvastabblad — oplossingspaden worden gemarkeerd met roze cirkels langs de juiste route, en Kies het Juiste Pad voegt een "✓ JUIST PAD"-label toe. Wijs afbeeldingen toe aan vijf verschillende rollen: Start, Einde, Pad, Afleiding en Decoratie. Blader door 104 thematische collecties met meer dan 3100 illustraties of upload je eigen afbeeldingen. De automatisch gegenereerde "Afbeeldingspad"-koptekst met oranje kader rendert gelokaliseerde titels en instructies in alle 11 ondersteunde talen. Voeg achtergrondthema's en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg naam- en datumvelden toe, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Afbeeldingspad is volledig visueel — doolhoven vereisen geen leesvaardigheid of taalbegrip, waardoor elk werkblad direct verkoopbaar is op elke markt wereldwijd zonder aanpassing. Volledige Toegang ontgrendelt alle 104 thema's met meer dan 3100 illustraties en alle 11 UI-talen. Of je nu thematische doolhofbundels verkoopt op Etsy.nl, pad-puzzelwerkboeken samenstelt voor Amazon KDP, of logica-activiteiten maakt voor Gumroad — deze generator levert productieklare doolhoven in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Maak professionele doolhof- en padwerkbladen met drie verschillende spelmodi. Afbeeldingspad maakt een raster van afbeeldingen waarbij gebruikers het juiste pad volgen van start tot finish door padafbeeldingen te herkennen tussen afleidingen. Klassiek Doolhof genereert wandgebaseerde doolhoven met het LPF-algoritme (Langste Pad Eerst) met verzamelobjecten verspreid door het labyrint — configureer rasterformaten van 15×15 tot 20×20, stel 1 tot 3 paden in met doodlopende-pad-blokkering, en pas wandkleur, wanddikte (1–10px) en wanddekking (10–100%) aan. Kies het Juiste Pad presenteert driepad-doolhoven met vier richtingsopties (onder-naar-boven, boven-naar-onder, links-naar-rechts, rechts-naar-links) waarbij gebruikers het enige juiste pad identificeren tussen twee afleidende routes. Elke modus genereert een bijbehorend antwoordblad op een apart canvastabblad — oplossingspaden worden gemarkeerd met roze cirkels langs de juiste route, en Kies het Juiste Pad voegt een "✓ JUIST PAD"-label toe. Wijs afbeeldingen toe aan vijf verschillende rollen: Start, Einde, Pad, Afleiding en Decoratie. Blader door 104 thematische collecties met meer dan 3100 illustraties of upload je eigen afbeeldingen. De automatisch gegenereerde "Afbeeldingspad"-koptekst met oranje kader rendert gelokaliseerde titels en instructies in alle 11 ondersteunde talen. Voeg achtergrondthema`s en kaderthema's toe met onafhankelijke dekkingsregelaars, voeg naam- en datumvelden toe, en exporteer printklare PDF's en JPEG's op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Afbeeldingspad is volledig visueel — doolhoven vereisen geen leesvaardigheid of taalbegrip, waardoor elk werkblad direct verkoopbaar is op elke markt wereldwijd zonder aanpassing. Volledige Toegang ontgrendelt alle 104 thema`s met meer dan 3100 illustraties en alle 11 UI-talen. Of je nu thematische doolhofbundels verkoopt op Etsy.nl, pad-puzzelwerkboeken samenstelt voor Amazon KDP, of logica-activiteiten maakt voor Gumroad — deze generator levert productieklare doolhoven in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Doolhof Werkbladen in 5 Stappen',
+    title: `Hoe Maak Je Doolhof Werkbladen in 5 Stappen`,
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -36,22 +36,22 @@ const content: AppContent = {
           `Open het paneel Pagina-instellingen en kies een paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een volledig aangepaste afmeting. Kies een paginakleur met de kleurkiezer. Selecteer een achtergrondthema en pas de dekking aan, kies vervolgens een kaderthema met een eigen onafhankelijke dekkingsregelaar. Deze indelingskeuzes vormen het kader van je doolhofwerkblad voordat je een spelmodus configureert.`,
       },
       {
-        title: 'Kies je spelmodus en configureer de instellingen',
+        title: `Kies je spelmodus en configureer de instellingen`,
         description:
           `Open het paneel Padconfiguratie en selecteer een van de drie spelmodi. Afbeeldingspad maakt een raster van afbeeldingen met één juist pad van start tot finish. Klassiek Doolhof genereert wandgebaseerde doolhoven met het LPF-algoritme — stel rasterformaat in (15×15 tot 20×20), aantal paden (1, 2 of 3), verzamelobjecten en kopieën, wandkleur, wanddikte (1–10px) en wanddekking (10–100%). Kies het Juiste Pad maakt driepad-doolhoven met vier richtingsopties. Schakel "Naam-/Datumvelden opnemen" in om naam- en datumlijnen toe te voegen.`,
       },
       {
-        title: 'Selecteer afbeeldingen per rol uit de bibliotheek',
+        title: `Selecteer afbeeldingen per rol uit de bibliotheek`,
         description:
           `Open het paneel Afbeeldingenbibliotheek en wijs afbeeldingen toe aan vijf verschillende rollen met de rolselector: Startafbeelding (ingangspuntmarkering), Eindafbeelding (bestemming — 1 voor Afbeeldingspad/Doolhof, 3 voor Kies het Juiste Pad), Padafbeeldingen (juiste route of verzamelobjecten), Afleidingsafbeeldingen (verkeerde cellen of niet-pad opvulling) en Decoratie (vrije canvasplaatsing). Blader door 104 thematische collecties met meer dan 3100 illustraties, filter op thema of zoek op trefwoord. Upload eigen PNG-, JPG- of GIF-afbeeldingen om naast bibliotheekinhoud te gebruiken.`,
       },
       {
-        title: 'Genereer het doolhof- of padwerkblad',
+        title: `Genereer het doolhof- of padwerkblad`,
         description:
           `Klik op Genereren om de doolhofindeling voor je geselecteerde spelmodus te maken. Afbeeldingspad rangschikt afbeeldingen in een raster met één juist pad gemarkeerd door padafbeeldingen tussen afleidingen. Klassiek Doolhof bouwt wandgebaseerde gangen met verzamelobjecten geplaatst langs paden. Kies het Juiste Pad construeert drie verschillende routes met één juist pad en twee afleidende alternatieven. De automatisch gegenereerde "Afbeeldingspad"-koptekst verschijnt bovenaan met een oranje buitenkader, gelokaliseerde titel en instructies in de geselecteerde taal.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description:
           `Schakel naar het tabblad Antwoordblad om de automatisch gegenereerde oplossing te zien. Het antwoordblad markeert het juiste pad met roze cirkels langs de route. Kies het Juiste Pad voegt een "✓ JUIST PAD"-label toe op het juiste pad. Klassiek Doolhof bevat een verzamellegenda met afbeeldingsaantallen. Download met vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.`,
       },
@@ -89,7 +89,7 @@ const content: AppContent = {
       {
         title: `Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties`,
         description:
-          `Blader door 104 thematische beeldcollecties met dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt gecoördineerde illustraties die samenwerken in doolhofactiviteiten — dieren-doolhoven waarbij gebruikers katten volgen door een raster van dierenafleidingen, feestdagen-doolhoven met seizoensgebonden verzamelobjecten en meer. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De Commerciële licentie bevat 10 kleurrijke thema's en alle 11 talen (alleen UI, want doolhoven zijn puur visueel) om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema's voor maximale creatieve variatie over alle drie spelmodi. Upload ook eigen afbeeldingen (PNG, JPG, GIF) voor volledige creatieve vrijheid.`,
+          `Blader door 104 thematische beeldcollecties met dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt gecoördineerde illustraties die samenwerken in doolhofactiviteiten — dieren-doolhoven waarbij gebruikers katten volgen door een raster van dierenafleidingen, feestdagen-doolhoven met seizoensgebonden verzamelobjecten en meer. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De Commerciële licentie bevat 10 kleurrijke thema`s en alle 11 talen (alleen UI, want doolhoven zijn puur visueel) om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema`s voor maximale creatieve variatie over alle drie spelmodi. Upload ook eigen afbeeldingen (PNG, JPG, GIF) voor volledige creatieve vrijheid.`,
       },
       {
         title: `Printklare PDF- en JPEG-Export op 300 DPI met Grijstinten-Schakelaar`,
@@ -105,16 +105,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Doolhof Werkbladen Online Verkoopt',
+    title: `Hoe Je Doolhof Werkbladen Online Verkoopt`,
     cases: [
       {
-        title: 'Thematische Doolhof Activiteitenbundels op Etsy',
+        title: `Thematische Doolhof Activiteitenbundels op Etsy`,
         description:
           `Maak thematische doolhofpakketten met de 104 beeldcollecties — dieren-doolhoven, feestdagen-doolhoven, boerderij-doolhoven, oceaan-doolhoven en tientallen meer. Elk thema biedt genoeg illustraties voor meerdere unieke doolhofwerkbladen over alle drie spelmodi. Verpak 10–20 doolhofwerkbladen per thema met antwoordbladen inbegrepen, mix Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad voor afwisseling binnen elke bundel. Varieer de moeilijkheid door rasterformaten en padaantallen aan te passen. Verkoop voor €3–€7 per bundel op Etsy.nl. Het automatisch gegenereerde antwoordblad elimineert de grootste tijdverspilling bij doolhofwerkbladproductie. De drie spelmodi in één generator betekenen dat je met één thematische afbeeldingsset drie keer zoveel unieke werkbladen kunt produceren als met een enkele-modus generator.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Doolhof Activiteitenwerkboeken op Amazon KDP',
+        title: `Doolhof Activiteitenwerkboeken op Amazon KDP`,
         description:
           `Stel 40–80 doolhofwerkbladen samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer je boek met progressieve moeilijkheid: begin met Afbeeldingspad-doolhoven voor beginners, ga verder met Klassiek Doolhof met 15×15 rasters en 1 pad, en verhoog vervolgens naar 20×20 rasters met 3 paden voor gevorderde oplossers. Neem antwoordbladen op achterin het boek. De grijstinten-schakelaar produceert inktbesparende pagina's voor zwart-wit boekbinnenwerken. Doolhofboeken zijn een bewezen KDP-categorie — het puur visuele formaat betekent dat elk boek kopers wereldwijd aanspreekt zonder vertaling. Eén doolhofwerkboek verkoopt op elke Amazon-marktplaats — publiceer voor Amazon.nl, Amazon.de, Amazon.fr en Amazon.com zonder aanpassingen aan de doolhofinhoud zelf.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -123,13 +123,13 @@ const content: AppContent = {
         title: `Logica en Probleemoplossingsactiviteiten voor het winkel op Gumroad`,
         description:
           `Maak kant-en-klare doolhofwerkbladen met naam-/datumvelden en afgedrukte antwoordbladen voor klassikaal gebruik. verkopers die Gumroad doorzoeken voor logica-activiteiten waarderen werkbladen die ruimtelijk redeneren en probleemoplossend vermogen ontwikkelen. Maak productcatalogusgerichte sets: dierenhabitat-padactiviteiten, seizoensgebonden doolhofcollecties en progressieve moeilijkheidspakketten. Klassiek Doolhof met verzamelobjecten voegt telpraktijk toe naast padvinderactiviteiten. Elke set bevat gebruikerswerkbladen en antwoordbladen in zowel PDF- als JPEG-formaat voor flexibel klassikaal gebruik. Voor het Nederlandse basisonderwijs zijn doolhofwerkbladen bijzonder geschikt voor groep 3–6 waar ruimtelijk inzicht en logisch redeneren centraal staan in het productcatalogus.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Seizoens- en Feestdagen Doolhofcollecties',
+        title: `Seizoens- en Feestdagen Doolhofcollecties`,
         description:
           `De 104 thematische beeldcollecties dekken elk seizoens- en feestdagenmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, Sinterklaas, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden doolhofcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-doolhofbundels uit in september, Sinterklaas-collecties in oktober, Kerstcollecties in november en Valentijnspakketten in januari. Neem alle drie spelmodi op in elke seizoenscollectie voor maximale waarde. Seizoensproducten vragen hogere prijzen tijdens hun piekperiode — een Sinterklaas doolhofbundel met 15 werkbladen (5 per spelmodus) en antwoordbladen voor €5–€7 op Etsy.nl is bijzonder aantrekkelijk voor Nederlandse ouders en verkopers die zoeken naar creatieve feestdagactiviteiten.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
+        platform: `Etsy / Amazon KDP / Gumroad (seizoensgebonden)`,
       },
       {
         title: `Wereldwijde Marktaantrekkingskracht met Puur Visueel Doolhofontwerp`,
@@ -142,12 +142,12 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Wat zijn de drie spelmodi en hoe verschillen ze?',
+      question: `Wat zijn de drie spelmodi en hoe verschillen ze?`,
       answer:
         `De generator biedt drie verschillende modi. Afbeeldingspad maakt een raster van afbeeldingen waarbij gebruikers het juiste pad volgen van start tot finish door padafbeeldingen te herkennen tussen afleidingen. Klassiek Doolhof genereert wandgebaseerde doolhoven met het LPF-algoritme met verzamelobjecten, configureerbare rasterformaten (15×15 tot 20×20) en 1 tot 3 paden met doodlopende-pad-blokkering. Kies het Juiste Pad presenteert driepad-doolhoven met vier richtingsopties waarbij gebruikers de enige juiste route identificeren. Elke modus levert een andere ruimtelijke redeneeruitdaging vanuit dezelfde afbeeldingenbibliotheek.`,
     },
     {
-      question: 'Hoe werkt het LPF doolhof-algoritme?',
+      question: `Hoe werkt het LPF doolhof-algoritme?`,
       answer:
         `Het Langste Pad Eerst (LPF) algoritme is een professioneel wandgebaseerd doolhofgeneratiesysteem. Het gebruikt een gang-celstructuur met dynamische wandplaatsing om uitdagende maar oplosbare doolhoven te maken. Padkwaliteitsscore evalueert bochten, lengte en blokkeringen. Meervoudige-padondersteuning genereert 1, 2 of 3 paden met automatische doodlopende-pad-blokkering op onjuiste routes. Je kunt minimale en maximale padlengte configureren (4–30 cellen, standaard 8–12), rasterformaten van 15×15 tot 20×20, en wandbewuste start-/eindpositionering zorgt voor schone in- en uitgangspunten.`,
     },
@@ -177,7 +177,7 @@ const content: AppContent = {
         `De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad en een Antwoordblad-tabblad. Het antwoordblad reproduceert de exacte doolhofindeling en markeert het juiste oplossingspad met roze cirkels geplaatst langs de route. Kies het Juiste Pad voegt een "✓ JUIST PAD"-label toe op de juiste route. Klassiek Doolhof bevat een verzamellegenda. Download beide versies apart met vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF.`,
     },
     {
-      question: 'Hoe werkt de automatisch gegenereerde koptekst?',
+      question: `Hoe werkt de automatisch gegenereerde koptekst?`,
       answer:
         `Elk werkblad bevat een gestileerde koptekst met een oranje buitenkader (8px lijndikte) en 34px marges. De titel "Afbeeldingspad" en beschrijving "Volg het pad van start tot finish!" worden automatisch vertaald in alle 11 ondersteunde talen. Staande werkbladen tonen een koptekst van 240px; liggende werkbladen gebruiken een compact formaat van 165px. De koptekst rendert in gelokaliseerde tekst voor Nederlands, Duits (Bilderpfad), Frans (Chemin d'Images), Spaans (Camino de Imágenes) en alle andere ondersteunde talen.`,
     },
@@ -187,7 +187,7 @@ const content: AppContent = {
         `Ja. Je hebt toegang tot elke functie — alle drie spelmodi, het LPF doolhof-algoritme, vijf afbeeldingsrollen, wandaanpassing, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema's, naam-/datumvelden en alle downloadformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Gratis proefversie downloads bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.`,
     },
     {
-      question: 'Zijn Afbeeldingspad werkbladen taalgevoelig?',
+      question: `Zijn Afbeeldingspad werkbladen taalgevoelig?`,
       answer:
         `Nee. In tegenstelling tot woordgebaseerde generators zijn Afbeeldingspad werkbladen volledig visueel. gebruikers navigeren doolhoven en volgen afbeeldingspaden zonder tekst te lezen. De automatisch gegenereerde koptekst vertaalt in 11 talen, maar de doolhofinhoud zelf vereist geen taalbegrip. Dit maakt elk werkblad direct bruikbaar en verkoopbaar op elke markt wereldwijd zonder aanpassing.`,
     },
@@ -206,28 +206,28 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'ontbrekende-puzzelstukjes-werkbladen',
-      anchorText: 'Ontbrekende Stukjes Werkblad Generator',
+      slug: `ontbrekende-puzzelstukjes-werkbladen`,
+      anchorText: `Ontbrekende Stukjes Werkblad Generator`,
     },
     {
       pageType: 'app',
-      slug: 'welke-hoort-niet-bij-werkbladen',
-      anchorText: 'Welke Hoort Er Niet Bij Werkblad Generator',
+      slug: `welke-hoort-niet-bij-werkbladen`,
+      anchorText: `Welke Hoort Er Niet Bij Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'sudoku-werkbladen',
-      anchorText: 'Plaatjes Sudoku Werkblad Generator',
+      anchorText: `Plaatjes Sudoku Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Zoek en Tel Werkblad Generator',
+      anchorText: `Zoek en Tel Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'schattenjacht-werkbladen',
-      anchorText: 'Schattenjacht Werkblad Generator',
+      anchorText: `Schattenjacht Werkblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -242,7 +242,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+      anchorText: `Camping printable ideeën voor buitenonderwijs`,
     },
     {
       pageType: 'idea',
@@ -252,7 +252,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: `Marketing voor je printable bedrijf`,
     },
   ],
 

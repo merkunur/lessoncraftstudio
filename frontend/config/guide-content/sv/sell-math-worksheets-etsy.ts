@@ -4,25 +4,25 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'sälj mattearbetsblad på Etsy',
     secondaryKeywords: [
-      'hur man säljer mattearbetsblad på Etsy',
-      'Etsy mattearbetsblad butiksuppsättning',
-      'utskrivbara mattearbetsblad Etsy företag',
-      'sälj pedagogiska utskrifter på Etsy',
+      `hur man säljer mattearbetsblad på Etsy`,
+      `Etsy mattearbetsblad butiksuppsättning`,
+      `utskrivbara mattearbetsblad Etsy företag`,
+      `sälj pedagogiska utskrifter på Etsy`,
     ],
     lsiKeywords: [
       `Etsy digital nedladdning matteaktiviteter annonsoptimering`,
-      'mattearbetsblad paket prisstrategi Etsy-säljare',
+      `mattearbetsblad paket prisstrategi Etsy-säljare`,
       `Etsy SEO-taggar för pedagogiska utskriftsbara arbetsblad`,
-      'sälj additions subtraktions arbetsblad Etsy butik',
-      'skolstart matte utskrifter Etsy säsongsstrategi',
+      `sälj additions subtraktions arbetsblad Etsy butik`,
+      `skolstart matte utskrifter Etsy säsongsstrategi`,
       `Etsy annonsfoton mockups för mattearbetsblad produkter`,
     ],
-    titleTag: 'Sälj Mattearbetsblad på Etsy — Guide',
+    titleTag: `Sälj Mattearbetsblad på Etsy — Guide`,
     metaDescription: `Sälj mattearbetsblad på Etsy med 6 generatorer. Etsy SEO, annonsoptimering, prissättning, paketstrategier och säsongstajming för utskriftssäljare.`,
   },
 
   hero: {
-    title: 'Hur du säljer mattearbetsblad på Etsy',
+    title: `Hur du säljer mattearbetsblad på Etsy`,
     tagline: `En komplett plattformsguide för att bygga en lönsam Etsy-butik som säljer mattearbetsblad skapade med 6 specialiserade generatorer — täcker Etsy butiksuppsättning, SEO-optimering med alla 13 taggar, annostitlar och beskrivningar som rankar för köpares söktermer, produktfotografering och mockups, prisstrategier för enskilda arbetsblad och paket, säsongstajming för skolstart och högtidstoppar, katalogplanering över addition, subtraktion, kodpussel, jämförelse, rutnätspussel och talövningar, samt löpande butiksoptimering med Etsy Stats och sökanalys`,
     description: `Mattearbetsblad är bland de mest efterfrågade pedagogiska utskrifterna på Etsy. Föräldrar som söker hemläxas-komplement, köpare som letar efter produktlinjesklara aktiviteter och hemundervisningsfamiljer som bygger produktkatalog vänder sig alla till Etsy för nedladdningsbara mattematerial. Denna guide visar dig hur du bygger en Etsy-butik som betjänar alla tre köparsegment med arbetsblad skapade med våra 6 mattegeneratorer: Addition, Subtraktion, Kodaddition, Mer eller Mindre, Mattepussel och Matematik Arbetsblad.\n\nTill skillnad från produktskapande-guider som lär dig hur du använder en specifik app, fokuserar denna plattformsguide på Etsy-specifika säljstrategier. Du kommer att lära dig hur du researchar efterfrågan på mattearbetsblad på Etsy, planerar en produktkatalog som täcker flera mattefärdigheter och svårighetsnivåer, skriver annonser som rankar i Etsy-sökning, skapar annonsfoton som konverterar besökare till köpare, sätter priser som balanserar konkurrenskraft med lönsamhet och optimerar din butik över tid med Etsys inbyggda analyser.\n\nVarje funktion i alla 6 generatorer finns tillgänglig i den kostnadsfria provversionen med vattenstämpel så att du kan skapa kompletta arbetsblad, utvärdera utskriftskvalitet och planera din produktkatalog innan du köper kommersiella licenser. Den kommersiella licensen tar bort vattenstämplar och ger fulla rättigheter att sälja genererade arbetsblad på Etsy och alla andra marknadsplatser.`,
   },
@@ -31,19 +31,19 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Researcha efterfrågan på mattearbetsblad på Etsy',
+      heading: `Researcha efterfrågan på mattearbetsblad på Etsy`,
       content: `Innan du skapar ett enda arbetsblad, researcha vad köpare av mattearbetsblad faktiskt söker efter på Etsy. Öppna etsy.com och skriv "math worksheets" i sökfältet. Etsys autokompletteringsförslag avslöjar de mest populära söktermerna — dessa är riktiga frågor från riktiga köpare. Notera vad som dyker upp: "math worksheets for kindergarten," "addition worksheets printable," "subtraction practice sheets," "math puzzle worksheets." Varje autokompletteringsförslag representerar en produktmöjlighet.\n\nBläddra igenom toppresultaten för varje sökterm. Notera annostitlar, prisnivåer, antal recensioner och hur många försäljningar toppäljarna har samlat. Var uppmärksam på vilka format som dyker upp oftast (enskilda arbetsblad, paket, arbetsböcker) och vilka årskurser som dominerar. Leta efter luckor — söktermer där resultaten är glesa, låg kvalitet eller dominerade av bara en eller två säljare. Dessa luckor representerar dina bästa ingångspunkter.\n\nSök specifikt efter de 6 matteformat dina generatorer producerar: "image addition worksheets," "secret code math puzzles," "greater than less than worksheets," "math grid puzzles," "math drills printable." Vissa av dessa format har märkbart mindre konkurrens. Mindre konkurrens innebär att dina annonser rankar snabbare och fångar en större andel av söktrafiken.\n\nDokumentera din research i ett enkelt kalkylblad: sökterm, antal konkurrerande annonser, prisintervall för toppäljare, genomsnittligt antal recensioner och din bedömning av kvalitetsnivå.`,
     },
     {
-      heading: 'Planera din produktkatalog för mattearbetsblad',
+      heading: `Planera din produktkatalog för mattearbetsblad`,
       content: `En planerad katalog presterar bättre än slumpmässig annonskapning eftersom den säkerställer att du täcker de söktermer köpare faktiskt använder samtidigt som den bygger naturliga korsförsäljningsmöjligheter mellan dina produkter.\n\nBörja med en produktmatris. Lista dina 6 mattegeneratorer överst: Addition, Subtraktion, Kodaddition, Mer eller Mindre, Mattepussel och Matematik Arbetsblad. Nedåt, lista variablerna du kan kontrollera: tema (djur, mat, fordon, högtider, årstider), svårighetsnivå (dagis, årskurs 1, årskurs 2), format (enskilda blad, tematiska paket, megapaket) och sidstorlek (Letter, A4, båda). Varje skärningspunkt mellan generator och variabel är en potentiell Etsy-annons.\n\nPrioritera dina första 20 annonser baserat på research. En stark initial katalog kan inkludera: 5 tematiska additionsarbetsbladspaket, 3 tematiska subtraktionspaket som kompletterar additionsuppsättningarna, 3 kodadditionspusselpaket som riktar sig mot den unika formatnischen, 3 jämförelseuppsättningar för det specifika produktkatalogsnyckerlsoordet, 3 mattepusselrutnätspaket och 3 talövningspaket för äldre användare. Detta ger dig 20 annonser över alla 6 format.\n\nPlanera paketuppgraderingar från start. För varje tematisk uppsättning du skapar, notera hur den senare kombineras till ett större paket.`,
     },
     {
-      heading: 'Skapa ditt mattearbetsblads-lager',
+      heading: `Skapa ditt mattearbetsblads-lager`,
       content: `Med din katalogplan i hand, arbeta genom varje generator systematiskt för att bygga ditt initiala lager. Målet är produktionseffektivitet — batchskapa arbetsblad per generator snarare än att ständigt växla mellan verktyg.\n\nBörja med Additions Arbetsblad Generator. Välj ditt första tema, konfigurera sidstorlek (skapa både Letter och A4 om du riktar dig mot internationella köpare), välj en typsnitt och dekorationsstil som kommer att vara konsekvent över ditt varumärke och generera ditt målantal arbetsblad. Exportera varje som PDF (leveransprodukten) och JPEG (för annonsfoton). Generera matchande facit.\n\nFlytta till Subtraktions Arbetsblad Generator och tillämpa samma tema och stilinställningar för visuell konsekvens. Köpare som ser dina additions- och subtraktionsannonser sida vid sida ska omedelbart känna igen dem som från samma butik.\n\nArbeta genom Kodaddition, Mer eller Mindre, Mattepussel och Matematik Arbetsblad-generatorerna med samma systematiska tillvägagångssätt. Organisera dina exporterade filer i en tydlig mappstruktur: en mapp per produktannons.`,
     },
     {
-      heading: 'Formatera arbetsblad för Etsys digitala leverans',
+      heading: `Formatera arbetsblad för Etsys digitala leverans`,
       content: `Etsys digitala nedladdningar har specifika formateringskrav som påverkar köparnöjdhet och din butiks recensionsbetyg. Att få leveransformatet rätt förhindrar den vanligaste källan till negativa recensioner: köparförvirring om vad de köpte och hur de använder det.\n\nPaketera varje produkt som en enda PDF-fil som innehåller alla arbetsblad i annonsen, följt av alla facit. Köpare förväntar sig att ladda ner en fil och hitta allt inuti. Om din annons lovar "20 additionsarbetsblad med facit" ska PDF:en innehålla 20 arbetsbladsidor följt av 20 facitsidor, tydligt märkta. En försättsblad i början som listar innehållet och en kort "Hur man skriver ut"-instruktionssida lägger till professionalism.\n\nFilnamn spelar roll för köparupplevelsen. Namnge dina filer beskrivande: "Djur-Addition-Arbetsblad-20-Pack-Med-Facit.pdf" talar om för köparna exakt vad de laddade ner.\n\nSkapa både Letter- och A4-versioner om du riktar dig mot internationella köpare. Inkludera båda storlekarna i nedladdningen och märk tydligt vilken som är vilken. Internationella köpare lämnar ofta negativa recensioner när arbetsblad bara kommer i Letter-storlek.`,
     },
     {
@@ -51,22 +51,22 @@ const content: GuideContent = {
       content: `Etsys sökalgoritm matchar köparfrågor mot din annosstitel, taggar, beskrivning och attribut. Att optimera varje fält korrekt är det enskilt mest påverkande du kan göra för din butiks synlighet.\n\nTitlar: Etsy ger mest sökvikt till annostitlar. Frontladda de viktigaste nyckelorden. "Additionsarbetsblad för dagis — 20 bildbaserade matteaktiviteter med facit — Utskrivbar PDF" är långt mer effektivt än "Söta djur mattearbetsblad." Inkludera mattetyp, årskurs, kvantitet, nyckelfunktion (facit) och format (utskrivbar PDF) i varje titel.\n\nTaggar: Etsy ger 13 tagplatser per annons — använd alla 13 varje gång. Taggar bör inkludera variationer av ditt primära nyckelord, relaterade söktermer och long-tail-fraser. Upprepa inte exakta ord över taggar — Etsy kombinerar taggar med din titel för matchning, så diversifiera din nyckelordstäckning.\n\nBeskrivningar: led med vad köparen får: antal arbetsblad, mattefärdighet, årskurs, om facit är inkluderade. Beskriv sedan formatet: PDF, sidstorlek, utskriftsklar i 300 DPI. Skriv naturligt — nyckelordsfyllning i beskrivningar skadar läsbarhet.\n\nAttribut: fyll i varje attributfält Etsy tillhandahåller för digitala nedladdningar. Fullständig attributinformation förbättrar din annons kvalitetspoäng i Etsys algoritm.`,
     },
     {
-      heading: 'Skapa annonsfoton som konverterar',
+      heading: `Skapa annonsfoton som konverterar`,
       content: `Etsy är en visuell marknadsplats. Din annonsminiatyr är det första köpare ser i sökresultaten, och den avgör om de klickar sig vidare till din annons eller scrollar förbi.\n\nDin första annonsbild (miniatyren) bör visa 2 till 3 arbetsbladsidor fläktade ut eller överlappande, tillräckligt stora för att matteinnehållet ska vara delvis läsbart även i miniatyrstorlek. Använd JPEG-exporterna från dina generatorer som bas. Placera dem på en ren, ljus bakgrund. Lägg till en subtil skugga. Inkludera en textöverlagring med den viktigaste försäljningspunkten: "20 Arbetsblad + Facit" eller "Dagis Addition."\n\nAndra bilden: visa en enda arbetsbladsida i full storlek så att köpare kan se exakt hur innehållet ser ut.\n\nTredje bilden: visa facit bredvid arbetsbladet. säljare och föräldrar letar specifikt efter inkluderade facit.\n\nFjärde bilden: visa variationen inom paketet med ett rutnät av 6 till 9 arbetsbladsminiatyrer.\n\nFemte bilden: inkludera en "vad ingår"-infografik som listar innehåll, sidantal, funktioner och eventuella bonusar.\n\nAnvänd konsekvent styling över alla dina annonser — samma bakgrundsfärg, samma skuggstil, samma textöverlagringstypsnitt.`,
     },
     {
-      heading: 'Sätt din prisstrategi för matte-utskrifter',
+      heading: `Sätt din prisstrategi för matte-utskrifter`,
       content: `Att prissätta mattearbetsblad på Etsy kräver balans mellan konkurrenskraft och lönsamhet.\n\nEnskilda arbetsbladsannonser (5 till 10 sidor med facit): 29–49 kr. Dessa fungerar som ingångsprodukter som lockar förstagångsköpare. Håll priset tillgängligt eftersom dessa annonser fungerar som kundanskaffningsverktyg. En köpare som köper ett 39 kr additionspaket och har en positiv upplevelse kommer sannolikt tillbaka för subtraktion, pussel och till slut paket.\n\nTematiska paket (15 till 25 arbetsblad med facit): 49–79 kr. Paket är dina primära intäktsprodukter. Det upplevda värdet av att få 20 arbetsblad för 59 kr är starkt.\n\nMegapaket och samlingar (40 till 100+ arbetsblad): 99–199 kr. Dessa premiumprodukter betjänar köpare som vill ha en heltäckande resurs.\n\nUndvik att rusa mot botten på pris. Arbetsblad skapade med professionella generatorer i 300 DPI med facit, tematiska dekorationer och flera sidstorlekar är premiumprodukter. Prissättning under 29 kr för paket signalerar låg kvalitet.\n\nEtsy tar ut en annonsavgift på $0,20 plus transaktionsavgifter (6,5% av försäljningspriset). Räkna in dessa i din prissättning.`,
     },
     {
-      heading: 'Lansera din butik och optimera över tid',
+      heading: `Lansera din butik och optimera över tid`,
       content: `Lansera med minst 15 till 20 annonser för att ge din butik tillräckligt med sökyteområde. En butik med bara 3 till 5 annonser kämpar med att få fäste.\n\nAnnonskaddens efter lansering spelar roll för Etsys algoritm. Plattformen föredrar butiker som lägger till nya annonser regelbundet framför butiker som publicerar allt på en gång och blir inaktiva. Lägg till 2 till 3 nya annonser per vecka efter din initiala lansering.\n\nAnvänd Etsy Stats för att spåra vilka annonser som får flest visningar, favoriter och försäljningar. Stats visar dig exakt vilka söktermer köpare använde för att hitta dina annonser — dessa data är ovärderliga för att optimera befintliga annonser och planera nya produkter.\n\nÖvervaka din konverteringsgrad (andelen annonsvisningar som resulterar i försäljning). Om en annons får många visningar men få försäljningar kan annonsfoton eller beskrivningen behöva förbättras. Om en annons får få visningar men hög konverteringsgrad är produkten stark men behöver bättre SEO.\n\nSäsongsoptimering är kritisk för mattearbetsblad. Uppdatera dina annonser 4 till 6 veckor före toppperioder. Skolstart (juli till september) är den största säsongstoppen. Skapa tematiska mattearbetsblad för halloween, jul, alla hjärtans dag och påsk. Säsongsannonser med högtidsteman genererar ofta lika många försäljningar under sitt 6-veckors fönster som vintergröna annonser genererar hela året.\n\nUppmuntra recensioner genom att inkludera ett tackbrev i din digitala nedladdning-PDF. Recensioner är en viktig förtroendesignal på Etsy.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Etsy SEO-specifikt för mattearbetsblad-säljare',
+      heading: `Etsy SEO-specifikt för mattearbetsblad-säljare`,
       content: `Etsys sökalgoritm fungerar annorlunda från Googles, och att förstå dessa skillnader är väsentligt.\n\nEtsys algoritm använder annonsens kvalitetspoäng, som kombinerar klickfrekvens, favoritfrekvens och konverteringsgrad. En annons som klickas ofta från sökresultat och konverterar dessa klick till försäljningar rankar högre över tid. Det innebär att din annonsminiatyr och titel inte bara är marknadsföringsverktyg — de påverkar direkt din sökrankning.\n\nTaggmatchning på Etsy är frasbaserad, inte nyckelordsbaserad. Taggen "math worksheets kindergarten" matchar sökningar efter "math worksheets for kindergarten" och "kindergarten math worksheets" men inte "worksheets for math."\n\nEtsy ger en tillfällig rankningsboost till nya och förnyade annonser. Använd denna boost klokt genom att lansera annonser med optimerade titlar, alla 13 taggar ifyllda, professionella foton och fullständiga beskrivningar.\n\nButiksektioner hjälper Etsy att förstå din butiks kategorifokus. Skapa sektioner som "Additionsarbetsblad," "Subtraktionsarbetsblad," "Mattepussel," "Jämförelsearbetsblad" och "Talövningar."`,
     },
     {
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Här är ett konkret exempel på hur du strukturerar en Etsy mattearbetsbladbutik med 30 initiala annonser organiserade över 6 butikssektioner.\n\nButikssektion ett — Additionsarbetsblad (6 annonser): Djur Additionspaket (10 arbetsblad, 39 kr), Mat Additionspaket (10 arbetsblad, 39 kr), Fordon Additionspaket (10 arbetsblad, 39 kr), Högtids Additionspaket (20 arbetsblad, 59 kr), Addition Megapaket (50 arbetsblad, 99 kr) och Addition och Subtraktion Kombo (30 arbetsblad, 79 kr).\n\nButikssektion två — Subtraktionsarbetsblad (5 annonser): följer samma temastruktur som addition.\n\nButikssektion tre — Mattepussel och Koder (6 annonser): Kodaddition Djurpussel, Kodaddition Högtidspussel, Mattepussel Rutnätspaket Djur, Mattepussel Blandat Tema, Kod och Pussel Kombo och Hemlig Kod Mattesamling.\n\nButikssektion fyra — Jämförelsearbetsblad (4 annonser): Mer eller Mindre Djurpaket, Mer eller Mindre Blandat Tema, Större Än Mindre Än Övning och Jämförelsefärdigheter Komplett.\n\nButikssektion fem — Talövningar (4 annonser): Additionsövningar Årskurs 1, Subtraktionsövningar Årskurs 1, Blandade Operationer Övningar och Talövningar Komplett Paket.\n\nButikssektion sex — Kompletta Samlingar (5 annonser): Dagis Matte Komplett, Årskurs 1 Matte Komplett, Komplett Mattebibliotek, Säsongsbetonad Matte Årspaket och Hemundervisning Matteproduktkatalogspaket.\n\nDenna 30-annonsernade katalog täcker flera söktermer, prisnivåer och köparsegment.`,
     },
     {
-      heading: 'Exempel på säsongskalender för mattearbetsblad',
+      heading: `Exempel på säsongskalender för mattearbetsblad`,
       content: `Januari: publicera "Nyårsmål Matte"-paket och vintertema arbetsblad. Förnya skolstartsannonser.\n\nFebruari: skapa alla hjärtans dag-tema mattearbetsblad. Börja skapa påsk- och vårtema produkter.\n\nMars–april: publicera påskmattearbetsblad och vårpaket. Skapa nya vintergröna produkter.\n\nMaj–juni: skapa sommarlärandeförhindringsprodukter. Börja bygga ditt skolstartslager.\n\nJuli: lansera alla skolstartsprodukter. Publicera dina starkaste produkter, största paket och årskurssamlingar. Optimera alla annostitlar och taggar.\n\nAugusti–september: bibehåll skolstartsmomentum med ytterligare annonser. Skapa lärarvänliga produkter.\n\nOktober: publicera halloweenmattearbetsblad 4 till 6 veckor före högtiden.\n\nNovember: övergå till jul och vinterhelgteman. Publicera högtidsmattepaket. Skapa gavpositioneringsannonser.\n\nDecember: bibehåll högtidsannonser. Börja planera januariproduktuppdateringar. Granska helårsanalys.\n\nDenna kalender säkerställer att din butik alltid har säsongsmässigt relevanta produkter.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `Lansera med minst 15 till 20 annonser för att ge din butik tillräckligt med sökyteområde. En butik med bara 3 till 5 annonser har för få ingångspunkter. Dina 6 mattegeneratorer gör det enkelt att snabbt skapa 20 distinkta produkter: 3 till 4 annonser per generatorformat. Lägg till 2 till 3 nya annonser per vecka efter lansering.`,
     },
     {
-      question: 'Vilket mattearbetsbladformat säljer bäst på Etsy?',
+      question: `Vilket mattearbetsbladformat säljer bäst på Etsy?`,
       answer: `Additions- och subtraktionsarbetsblad har högst sökvolym eftersom de riktar sig mot den bredaste publiken. Men specialiserade format som kodadditionspussel och matterutnätspussel har ofta högre vinstmarginaler på grund av mindre konkurrens. Den mest lönsamma metoden är att ha alla 6 format: högvolymbasics för stadig försäljning och specialiserade format för differentiering och premiumprissättning.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'saelja-ordsoek-etsy',
-      title: 'Sälj ordsökningsarbetsblad på Etsy',
+      title: `Sälj ordsökningsarbetsblad på Etsy`,
       description: `Expandera din Etsy-butik till ordsöknings- och språkkonst-kategorin. Ordsökningsarbetsblad kompletterar matteprodukter och attraherar ett annat köparsegment, vilket breddar din butiks söktäckning.`,
     },
     {
@@ -155,56 +155,56 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
-    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: 'Etsy utskriftsbart företag mästarklass' },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: `Etsy utskriftsbart företag mästarklass` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
-    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: 'Hur du skapar additionsarbetsblad' },
-    { pageType: 'guide', slug: 'skapa-subtraktions-arbetsblad', anchorText: 'Hur du skapar subtraktionsarbetsblad' },
-    { pageType: 'guide', slug: 'skapa-mattepussel-arbetsblad', anchorText: 'Hur du skapar mattepussel-arbetsblad' },
+    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: `Hur du skapar additionsarbetsblad` },
+    { pageType: 'guide', slug: 'skapa-subtraktions-arbetsblad', anchorText: `Hur du skapar subtraktionsarbetsblad` },
+    { pageType: 'guide', slug: 'skapa-mattepussel-arbetsblad', anchorText: `Hur du skapar mattepussel-arbetsblad` },
     { pageType: 'app', slug: 'addition-arbetsblad', anchorText: `Addition Arbetsblad Generator — Fullständig information` },
-    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Prova Additions Arbetsblad Skaparen' },
+    { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: `Prova Additions Arbetsblad Skaparen` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions Arbetsblad Generator',
+      title: `Additions Arbetsblad Generator`,
       description: `Kärnan mattearbetsblad-generator för Etsy-säljare. Skapar bildbaserade additionsarbetsblad med tematiska illustrationer, automatiska facit och 300 DPI-exporter — det mest efterfrågade matte-utskriftsformatet på Etsy.`,
     },
     {
       appId: 'subtraction',
-      title: 'Subtraktions Arbetsblad Generator',
+      title: `Subtraktions Arbetsblad Generator`,
       description: `Det naturliga komplementet till additionsarbetsblad. Köpare som köper additionsarbetsblad köper ofta subtraktion från samma butik, vilket gör denna generator väsentlig för korsförsäljning på Etsy.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Mattepussel Arbetsblad Generator',
+      title: `Mattepussel Arbetsblad Generator`,
       description: `Skapar unika rutnätsbaserade mattepussel som differentierar dina Etsy-annonser från standard arbetsbladskonkurrenter. Det distinkta formatet har mindre konkurrens och fångar uppmärksamhet i sökresultat.`,
     },
     {
       appId: 'math-worksheet',
-      title: 'Matematik Arbetsblad Generator',
+      title: `Matematik Arbetsblad Generator`,
       description: `Producerar rena talövningar för äldre användare som behöver fokuserad aritmetikpraktik. Riktar sig mot ett annat köparsegment än bildbaserade arbetsblad, vilket breddar din butiks publik.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: 'Additionsarbetsblad med tematiska illustrationer som visar bildbaserade matteuppgifter för försäljning på Etsy' },
+    heroImage: { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: `Additionsarbetsblad med tematiska illustrationer som visar bildbaserade matteuppgifter för försäljning på Etsy` },
     samples: [
-      { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: 'Djurtematiserat additionsarbetsblad skapat för Etsy digital nedladdningsannons', caption: 'Additionsarbetsblad med djurtema — bildbaserade matteuppgifter som skapar iögonfallande Etsy-annonsfoton' },
-      { src: `/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp`, alt: 'Subtraktionsarbetsblad som kompletterar additionsprodukter i en Etsy mattearbetsbladbutik', caption: 'Subtraktionsarbetsblad — naturlig korsförsäljningskompanjon till additionsannonser i din Etsy-butik' },
-      { src: '/samples/swedish/math puzzle/Mattepussel%201.webp', alt: `Mattepussel rutnätsarbetsblad som visar unikt format som differentierar Etsy-annonser`, caption: 'Mattepussel rutnät — unikt format med mindre Etsy-konkurrens än standardarbetsblad' },
+      { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: `Djurtematiserat additionsarbetsblad skapat för Etsy digital nedladdningsannons`, caption: `Additionsarbetsblad med djurtema — bildbaserade matteuppgifter som skapar iögonfallande Etsy-annonsfoton` },
+      { src: `/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp`, alt: `Subtraktionsarbetsblad som kompletterar additionsprodukter i en Etsy mattearbetsbladbutik`, caption: `Subtraktionsarbetsblad — naturlig korsförsäljningskompanjon till additionsannonser i din Etsy-butik` },
+      { src: `/samples/swedish/math puzzle/Mattepussel%201.webp`, alt: `Mattepussel rutnätsarbetsblad som visar unikt format som differentierar Etsy-annonser`, caption: `Mattepussel rutnät — unikt format med mindre Etsy-konkurrens än standardarbetsblad` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Hur du skapar additionsarbetsblad för försäljning på Etsy — steg-för-steg-guide`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Cirkel — tematisk pedagogisk bild', caption: 'Cirkel' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kon — tematisk pedagogisk bild', caption: 'Kon' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Kub — tematisk pedagogisk bild', caption: 'Kub' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — tematisk pedagogisk bild', caption: 'Cylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamant — tematisk pedagogisk bild', caption: 'Diamant' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Cirkel — tematisk pedagogisk bild`, caption: 'Cirkel' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Kon — tematisk pedagogisk bild`, caption: 'Kon' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Kub — tematisk pedagogisk bild`, caption: 'Kub' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cylinder — tematisk pedagogisk bild`, caption: 'Cylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamant — tematisk pedagogisk bild`, caption: 'Diamant' },
   ],
 };
 

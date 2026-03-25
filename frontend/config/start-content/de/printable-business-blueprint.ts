@@ -4,18 +4,18 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'druckvorlagen-geschäft ideen',
     secondaryKeywords: [
-      'Druckvorlagen-Geschäftsplan für Verkäufer',
-      'profitable Druckvorlagen-Produktideen',
-      'Druckvorlagen-Produktlinie starten',
-      'Druckvorlagen-Geschäft Bauplan erstellen',
+      `Druckvorlagen-Geschäftsplan für Verkäufer`,
+      `profitable Druckvorlagen-Produktideen`,
+      `Druckvorlagen-Produktlinie starten`,
+      `Druckvorlagen-Geschäft Bauplan erstellen`,
     ],
     lsiKeywords: [
-      'Etsy.de Druckvorlagen-Shop Planung',
+      `Etsy.de Druckvorlagen-Shop Planung`,
       'Amazon KDP Produktstrategie',
-      'Arbeitsblatt-Geschäft Umsatzziele',
-      'Druckvorlagen-Katalog Erweiterung',
-      'Produktlinien-Planung für Verkäufer',
-      'Druckvorlagen-Geschäft Start-Checkliste',
+      `Arbeitsblatt-Geschäft Umsatzziele`,
+      `Druckvorlagen-Katalog Erweiterung`,
+      `Produktlinien-Planung für Verkäufer`,
+      `Druckvorlagen-Geschäft Start-Checkliste`,
     ],
     titleTag: `Druckvorlagen-Geschäft Ideen — Bauplan zum Einkommen`,
     metaDescription: `Druckvorlagen-Geschäftsideen in einen Bauplan verwandeln. Produktlinie planen, Plattformen wählen, Preise setzen und mit Arbeitsblatt-Generatoren.`,
@@ -43,7 +43,7 @@ const content: StartContent = {
       content: `Recherche sagt Ihnen, was sich verkaufen könnte. Validierung sagt Ihnen, was sich speziell für Sie verkaufen wird. Der Unterschied ist wichtig, denn Recherche spiegelt den gesamten Markt wider, während Validierung Ihre Fähigkeit testet, darin zu bestehen.\n\nDie schnellste Validierungsmethode ist, 3–5 Testprodukte mit einer kostenlosen Testversion mit Wasserzeichen zu erstellen und die Ausgabe mit bestehenden Marktplatz-Listings zu vergleichen. Öffnen Sie einen Arbeitsblatt-Generator, erstellen Sie Musterprodukte in Ihrer gewählten Nische und vergleichen Sie sie direkt mit den meistverkauften Produkten auf Etsy.de. Fragen Sie sich: Entspricht meine Ausgabe der Qualität dessen, was sich derzeit verkauft, oder übertrifft sie diese? Wenn ja, haben Sie eine tragfähige Idee. Wenn nein, brauchen Sie eine andere Nische oder einen anderen Ansatz.\n\nDie Wettbewerbsdichte bestimmt, wie schwer es sein wird, Sichtbarkeit zu erlangen. Suchen Sie Ihre exakten Ziel-Keywords auf Etsy.de und zählen Sie die Ergebnisse. Weniger als 5.000 Ergebnisse weisen auf eine Nische mit Platz für neue Verkäufer hin. Zwischen 5.000 und 20.000 bedeutet moderater Wettbewerb, bei dem Qualität und SEO die Gewinner differenzieren. Über 50.000 Ergebnisse bedeutet, dass Sie außergewöhnliche Differenzierung oder eine spezifischere Unter-Nische benötigen.\n\nDie Preispunkt-Validierung stellt sicher, dass Ihre Produkte bedeutsamen Umsatz generieren können. Wenn die Top-Verkäufer in Ihrer Nische Pakete mit $3,99–$7,99 bepreisen, wissen Sie, dass der Markt diese Preise trägt. Wenn alles unter $1,99 liegt, müssen Sie entweder deutlich mehr Wert bieten (größere Pakete, einzigartige Themen) oder eine Nische mit gesünderer Preisgestaltung finden.\n\nDie Validierungsphase sollte ein bis zwei Tage dauern, nicht Wochen. Sie versuchen nicht zu beweisen, dass die Idee definitiv Erfolg haben wird — Sie filtern Ideen heraus, die eindeutig nicht tragfähig sind, bevor Sie Wochen in die Produkterstellung investieren. Wenn Ihre Idee den Qualitätstest, den Wettbewerbstest und den Preistest besteht, gehen Sie voran. Sie lernen mehr durch das Einstellen echter Produkte als durch zusätzliche Recherche.`,
     },
     {
-      heading: 'Ihre Produktlinie von Tag eins an planen',
+      heading: `Ihre Produktlinie von Tag eins an planen`,
       content: `Die Produktlinien-Planung ist der Schritt, den die meisten neuen Verkäufer überspringen, und es ist der Schritt, der den größten Wettbewerbsvorteil schafft. Planen bedeutet, Ihre ersten 20–50 Produkte festzulegen, bevor Sie eines davon erstellen.\n\nBeginnen Sie mit Ihrem Kern-Produkttyp. Wenn Sie Mathe-Arbeitsblätter als Nische gewählt haben, könnte Ihr Kerntyp Additions-Arbeitsblätter sein. Von diesem einzigen Ausgangspunkt planen Sie Ihre Expansion entlang dreier Achsen: Themenvariationen, Schwierigkeitsstufungen und Format-Pakete.\n\nThemenvariationen vervielfachen Ihren Katalog mit minimalem Zusatzaufwand. Eine Additions-Arbeitsblatt-Vorlage mit fünf verschiedenen Bildthemen (Tiere, Dinosaurier, Ozean, Fahrzeuge, Lebensmittel) produziert fünf eigenständige Produkte, die jeweils unterschiedliche Suchanfragen und Käuferinteressen ansprechen. Mit über 100 thematischen Bildersets, die in den LessonCraftStudio-Generatoren verfügbar sind, kann allein die Themenvariation Dutzende einzigartiger Produkte generieren.\n\nSchwierigkeitsstufungen bedienen verschiedene Altersgruppen und Fähigkeitsniveaus mit demselben Kerntyp. Leichte Addition (Summen bis 10) richtet sich an Vorschulkinder. Mittlere Addition (Summen bis 20) richtet sich an Kindergartenkinder. Fortgeschrittene Addition (zweistellige Zahlen) richtet sich an die erste und zweite Klasse. Jede Schwierigkeitsstufe ist eine separate Produktlinie, die ein anderes Käufersegment bedient.\n\nFormat-Pakete kombinieren einzelne Produkte zu höherwertigen Angeboten. Ihre Produktlinien-Karte sollte einzelne Arbeitsblätter (für Marktplatz-Sichtbarkeit), kleine Pakete (5–10 Seiten, Ihr Hauptumsatztreiber), große Pakete (20–30 Seiten, Premium-Preise) und Mega-Pakete (50+ Seiten, maximaler Umsatz pro Transaktion) umfassen.\n\nEine praktische Produktlinien-Karte für ein Mathe-Arbeitsblatt-Geschäft könnte so aussehen: 5 Themen × 3 Schwierigkeitsstufen × 4 Paketgrößen = 60 geplante Produkte aus einem einzigen Arbeitsblatt-Typ. Fügen Sie Subtraktion als zweiten Typ hinzu und Sie haben 120 geplante Produkte. Dies ist nicht theoretisch — Arbeitsblatt-Generatoren machen die Erstellung dieser Variationen schnell und konsistent.\n\nSchreiben Sie Ihre Produktlinien-Karte in eine Tabelle. Listen Sie jedes geplante Produkt mit Thema, Schwierigkeitsgrad, Paketgröße und Zielpreis auf. Dieses Dokument wird Ihr Produktions-Fahrplan für die nächsten drei bis sechs Monate.`,
     },
     {
@@ -63,11 +63,11 @@ const content: StartContent = {
       content: `Ihre Preisstrategie sollte Teil Ihres Bauplans sein, bevor Sie Ihr erstes Produkt erstellen, nicht ein nachträglicher Einfall, wenn Sie bereit zum Listen sind. Preisgestaltung beeinflusst alles: Ihren Umsatz pro Verkauf, Ihre Position in den Marktplatz-Suchergebnissen, Ihre wahrgenommene Qualität und Ihre langfristige Marke.\n\nDer Markt für druckbare Arbeitsblätter hat etablierte Preisbereiche, die je nach Produktgröße und Plattform variieren. Einzelne Arbeitsblätter (1–3 Seiten) verkaufen sich typischerweise für $1,49–$2,99. Kleine Pakete (5–10 Seiten) verkaufen sich für $2,99–$5,99. Große Pakete (15–30 Seiten) verkaufen sich für $5,99–$12,99. Mega-Pakete (50+ Seiten) verkaufen sich für $14,99–$29,99. Diese Bereiche spiegeln aktuelle Etsy.de-Marktplatzdaten wider und können je nach Nische variieren.\n\nPlattformgebühren reduzieren Ihren Nettoerlös aus jedem Verkauf. Etsy.de berechnet eine $0,20 Listing-Gebühr, eine 6,5 % Transaktionsgebühr und Zahlungsverarbeitungsgebühren von ungefähr 3 % + $0,25. Bei einem Verkauf von $4,99 beträgt Ihr Nettoerlös nach Gebühren ungefähr $4,09. Amazon KDP-Tantiemen liegen zwischen 35 % und 60 %, abhängig von Listenpreis und Vertriebsoptionen, was zu niedrigerem Pro-Stück-Umsatz, aber null Abwicklungsarbeit führt.\n\nPreisankerung ist eine wirkungsvolle Strategie für Druckvorlagen-Verkäufer. Wenn Käufer Ihr 10-Seiten-Paket für $4,99 und Ihr 30-Seiten-Paket für $9,99 sehen, erscheint das größere Paket als Schnäppchen. Der Pro-Seiten-Preis sinkt von $0,50 auf $0,33, sodass die teurere Option als besseres Angebot wirkt. Strukturieren Sie Ihre Preisstufen so, dass Käufer zur Paketgröße mit dem höchsten Gesamtumsatz gelenkt werden.\n\nWettbewerbsfähige Positionierung zählt mehr als der absolute Preis. Wenn die drei Top-Verkäufer in Ihrer Nische 10-Seiten-Pakete mit $4,99, $5,49 und $5,99 bepreisen, zieht ein Preis von $1,99 nicht mehr Käufer an — er signalisiert niedrigere Qualität. Bepreisen Sie innerhalb des etablierten Bereichs und konkurrieren Sie stattdessen über Produktqualität, Themen-Einzigartigkeit und Listing-Präsentation.\n\nVermeiden Sie den Wettlauf nach unten. Neue Verkäufer unterbieten sich oft aus Unsicherheit und kämpfen dann damit, die Preise später zu erhöhen. Starten Sie in der Mitte des Preisbereichs Ihrer Nische und passen Sie basierend auf tatsächlichen Verkaufsdaten nach 30 Tagen an.`,
     },
     {
-      heading: 'Start-Checkliste für Ihr Druckvorlagen-Geschäft',
+      heading: `Start-Checkliste für Ihr Druckvorlagen-Geschäft`,
       content: `Ihr Bauplan ist erstellt, Ihre Produkte sind fertig und Ihre Preise stehen fest. Diese Checkliste stellt sicher, dass beim Start nichts vergessen wird.\n\nDie Shop-Einrichtung kommt zuerst. Wählen Sie einen Shop-Namen, der Ihre Nische widerspiegelt und leicht zu merken ist. Schreiben Sie eine Shop-Beschreibung, die Sie als Spezialist in Ihrer gewählten Kategorie positioniert. Laden Sie ein professionell wirkendes Shop-Banner und Profilbild hoch. Vervollständigen Sie Ihre Shop-Richtlinien einschließlich Bearbeitungszeit (sofort bei digitalen Downloads), Rückgaberichtlinie und Lizenzbedingungen.\n\nListen Sie Ihre ersten 10 Produkte innerhalb Ihrer ersten Woche. Marktplatz-Algorithmen bevorzugen neue Shops, die Aktivität zeigen. Jedes Listing braucht einen keyword-reichen Titel, der die wichtigsten Suchbegriffe am Anfang platziert. Nutzen Sie alle 13 Etsy-Tags mit einzigartigen, käuferrelevanten Phrasen. Schreiben Sie Beschreibungen, die klar angeben, was enthalten ist, für wen das Produkt gedacht ist, welche Altersgruppe es anspricht und welche Dateiformate bereitgestellt werden.\n\nDie Qualität des Vorschaubilds bestimmt, ob Käufer auf Ihr Listing klicken. Zeigen Sie das tatsächliche Arbeitsblatt in einer sauberen, hellen Präsentation. Fügen Sie eine kleine Textüberlagerung hinzu, die die Seitenanzahl oder Paketgröße angibt. Vermeiden Sie überladene Vorschaubilder mit zu vielen Schriftarten, Farben oder dekorativen Elementen. Das Arbeitsblatt sollte der Held des Bildes sein.\n\nErstellen Sie eine Beschreibungsvorlage für Konsistenz. Ihre Vorlage sollte enthalten: Produkttitel, Seitenanzahl, Altersbereich, Fähigkeitsfokus, was enthalten ist, Dateiformat, Druckanleitungen und Lizenzinformationen. Die Verwendung einer Vorlage stellt sicher, dass jedes Listing vollständig ist, und spart erheblich Zeit, wenn Sie mehrere Produkte listen.\n\nRichten Sie Ihre Analyse-Verfolgung von Tag eins ein. Etsy.de bietet eingebaute Analysen, die Aufrufe, Favoriten und Konversionsraten pro Listing zeigen. Setzen Sie ein Lesezeichen für Ihre Statistik-Seite und überprüfen Sie sie wöchentlich. Nach 30 Tagen haben Sie genug Daten, um zu identifizieren, welche Produkte und Keywords am besten abschneiden.\n\nBereiten Sie Ihren Kundenservice-Ansatz vor. Entscheiden Sie, wie schnell Sie auf Nachrichten antworten, wie Ihr Rückerstattungsprozess aussieht und wie Sie mit besonderen Wünschen umgehen. Diese Antworten vor der ersten Kundennachricht parat zu haben, verhindert reaktive, inkonsistente Antworten.`,
     },
     {
-      heading: 'Fortschritt messen und Ihren Bauplan anpassen',
+      heading: `Fortschritt messen und Ihren Bauplan anpassen`,
       content: `Ein Bauplan ohne Messung ist nur eine Wunschliste. Überprüfungs-Checkpoints in Ihren Plan einzubauen stellt sicher, dass Sie datengestützte Anpassungen vornehmen, anstatt auf Vermutungen zu arbeiten.\n\nWöchentliche Überprüfungen sollten 15 Minuten dauern. Prüfen Sie drei Zahlen: Gesamtaufrufe Ihres Shops, Gesamtfavoriten und Gesamtbestellungen. Aufrufe sagen Ihnen, ob Ihre SEO funktioniert. Favoriten zeigen Käuferinteresse an, das noch nicht konvertiert hat. Bestellungen sagen Ihnen, was sich tatsächlich verkauft. Ein Listing mit vielen Aufrufen aber keinen Verkäufen braucht bessere Vorschaubilder oder Preisgestaltung. Ein Listing mit wenigen Aufrufen braucht bessere Keywords.\n\nMonatliche Überprüfungen gehen tiefer. Berechnen Sie Ihre Konversionsrate (Bestellungen geteilt durch Aufrufe) für jedes Listing. Identifizieren Sie Ihre drei besten und Ihre drei schlechtesten Listings. Erstellen Sie mehr Produkte ähnlich Ihren Top-Performern. Aktualisieren oder überarbeiten Sie Ihre schwächsten Listings mit besseren Vorschaubildern, Beschreibungen oder Keywords, bevor Sie komplett neue Produkte erstellen.\n\nUmsatz pro Listing ist die Kennzahl, die Katalogerweiterungsentscheidungen antreibt. Teilen Sie Ihren monatlichen Umsatz durch die Gesamtzahl Ihrer aktiven Listings. Wenn Sie $300 mit 30 Listings verdienen, beträgt Ihr Umsatz pro Listing $10 pro Monat. Nun können Sie prognostizieren: 20 weitere Listings in derselben Qualität hinzuzufügen sollte ungefähr $200 pro Monat bringen. Diese Kennzahl zeigt auch, wenn die Qualität nachlässt — wenn der Umsatz pro Listing sinkt, während Sie Produkte hinzufügen, entsprechen Ihre neuesten Produkte nicht der Qualität Ihrer frühen Arbeiten.\n\nDer Zeitpunkt für die Plattformerweiterung hängt von der Leistung Ihrer Hauptplattform ab. Fügen Sie keine zweite Plattform hinzu, bis Sie mindestens 30 Listings auf Ihrer ersten Plattform und ein klares Verständnis davon haben, was sich verkauft. Zu früh den Fokus aufzuteilen bedeutet mittelmäßige Ergebnisse auf mehreren Plattformen statt starker Ergebnisse auf einer.\n\nDie wichtigste Anpassung ist zu wissen, wann Sie verdoppeln und wann Sie umschwenken sollten. Wenn sich Ihre Mathe-Arbeitsblätter konsistent verkaufen und Ihre Malvorlagen nicht, sagt der Bauplan: Erstellen Sie mehr Mathe-Produkte, nicht mehr Malvorlagen. Wenn ein bestimmtes Thema andere bei Weitem übertrifft, erstellen Sie jede mögliche Variation dieses Themas, bevor Sie neue erkunden. Daten sollten Ihre Katalogerweiterung steuern, nicht persönliche Vorlieben oder Annahmen darüber, was sich verkaufen sollte.\n\nÜberprüfen Sie Ihren Bauplan vierteljährlich. Aktualisieren Sie Ihre Produktlinien-Karte basierend auf dem, was Sie gelernt haben. Passen Sie Ihre Umsatzziele basierend auf tatsächlichen Leistungsdaten an. Fügen Sie neue Produkttypen hinzu, die Ihre Marktrecherche nahelegt. Entfernen Sie geplante Produkte, die Ihre Daten als wahrscheinlich erfolglos zeigen. Der Bauplan ist ein lebendes Dokument, kein starrer Vertrag.`,
     },
   ],
@@ -82,11 +82,11 @@ const content: StartContent = {
       description: `Öffnen Sie relevante Arbeitsblatt-Generatoren und erstellen Sie 3–5 Musterprodukte mit der kostenlosen Testversion mit Wasserzeichen. Vergleichen Sie Ihre Ausgabe mit den meistverkauften Marktplatz-Listings. Bestätigen Sie, dass Ihre Produkte den aktuellen Qualitätsstandards entsprechen oder diese übertreffen.`,
     },
     {
-      step: 'Ihre ersten 50 Produkte planen',
+      step: `Ihre ersten 50 Produkte planen`,
       description: `Erstellen Sie eine Tabelle mit Ihren geplanten Produkten über Themenvariationen, Schwierigkeitsstufen und Paketgrößen hinweg. Geben Sie Zielpreis und Plattform für jedes Produkt an. Dies wird Ihr Produktions-Fahrplan.`,
     },
     {
-      step: 'Ihre Plattformstrategie festlegen',
+      step: `Ihre Plattformstrategie festlegen`,
       description: `Wählen Sie Ihre primäre Plattform (Etsy.de empfohlen für neue Verkäufer) und planen Sie Ihren Expansionszeitplan. Notieren Sie die Listing-Anforderungen, Gebührenstrukturen und Optimierungsbedürfnisse für jede geplante Plattform.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Recherchieren Sie die Preisgestaltung der Wettbewerber in Ihrer Nische und setzen Sie Preise für einzelne Arbeitsblätter, kleine Pakete, große Pakete und Mega-Pakete. Berechnen Sie Ihren Nettoerlös nach Plattformgebühren für jede Stufe.`,
     },
     {
-      step: 'Ihre erste 10-Produkte-Kollektion erstellen',
+      step: `Ihre erste 10-Produkte-Kollektion erstellen`,
       description: `Erstellen Sie Ihren Kern-Arbeitsblatt-Typ in 2–3 Themen auf 2–3 Schwierigkeitsstufen. Generieren Sie Seiten, stellen Sie Pakete mit Titelseiten zusammen und laden Sie sowohl PDF- als auch JPEG-Formate herunter. Qualitätstest für jedes Produkt vor dem Listen.`,
     },
     {
-      step: 'Ihren Shop mit optimierten Listings starten',
+      step: `Ihren Shop mit optimierten Listings starten`,
       description: `Richten Sie Ihr Marktplatz-Konto ein, vervollständigen Sie das Shop-Branding und listen Sie Ihre ersten 10 Produkte mit keyword-reichen Titeln, allen verfügbaren Tags, sauberen Vorschaubildern und vollständigen Beschreibungen unter Verwendung einer einheitlichen Vorlage.`,
     },
     {
-      step: 'Ihren wöchentlichen Produktionsplan aufstellen',
+      step: `Ihren wöchentlichen Produktionsplan aufstellen`,
       description: `Blocken Sie Zeit für die Erstellung und das Listen von 3–5 neuen Produkten pro Woche. Folgen Sie Ihrer Produktlinien-Karte, anstatt Produkte zufällig zu erstellen. Konsistenz baut sowohl Kataloggröße als auch Marktplatz-Autorität auf.`,
     },
     {
-      step: 'Ihre erste 30-Tage-Überprüfung durchführen',
+      step: `Ihre erste 30-Tage-Überprüfung durchführen`,
       description: `Analysieren Sie nach 30 Tagen die Pro-Listing-Aufrufe, Favoriten und Konversionsraten. Identifizieren Sie Ihre besten und schlechtesten Performer. Erstellen Sie mehr Produkte ähnlich den Gewinnern. Aktualisieren oder verbessern Sie die Schwächsten.`,
     },
     {
-      step: 'Basierend auf Daten expandieren',
+      step: `Basierend auf Daten expandieren`,
       description: `Nutzen Sie Ihre monatlichen Überprüfungsdaten, um die nächste Phase zu planen: mehr Variationen von Top-Performern, Expansion in angrenzende Produkttypen, saisonale Kollektionen oder Hinzufügen einer zweiten Plattform. Lassen Sie Verkaufsdaten jede Expansionsentscheidung leiten.`,
     },
   ],
@@ -133,12 +133,12 @@ const content: StartContent = {
     },
     {
       appId: 'addition-worksheets',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Mathe-Grundlage mit ganzjähriger Nachfrage. Kombiniert sich natürlich mit Subtraktion für eine Paketstrategie. Konfigurierbare Schwierigkeitsstufen von Vorschule bis zweite Klasse mit thematischen Bildern und automatischen Lösungsschlüsseln.`,
     },
     {
       appId: 'matching-worksheets',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Rein visuelle Arbeitsblätter, die internationalen Marktzugang demonstrieren. Kein Text bedeutet keine Übersetzung nötig — ein Produkt bedient Käufer in jeder Sprache. Ideal zur gleichzeitigen Validierung der Nachfrage in mehreren Märkten.`,
     },
     {
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Die Ergebnisse variieren erheblich je nach Nische, Produktqualität, Listing-Optimierung und Kataloggröße. Die meisten neuen Etsy-Verkäufer sehen ihre ersten Verkäufe innerhalb der ersten 30–60 Tage, wenn sie mindestens 10 gut optimierte Listings haben. Konstanter Umsatz erfordert typischerweise 30+ aktive Listings und mehrere Monate Marktplatzpräsenz. Konzentrieren Sie sich auf den Katalogaufbau und die Listing-Qualität, anstatt die täglichen Verkaufszahlen zu beobachten.`,
     },
     {
-      question: 'Muss ich Produkte in mehreren Sprachen erstellen?',
+      question: `Muss ich Produkte in mehreren Sprachen erstellen?`,
       answer: `Nein, aber mehrsprachige Produkte sind ein bedeutender Wettbewerbsvorteil. Nicht-englischsprachige Märkte für Bildungs-Druckvorlagen sind unterversorgt, was weniger Wettbewerb bei ähnlichen Preispunkten bedeutet. Rein visuelle Arbeitsblätter wie Malvorlagen, Zuordnungs- und Musteraktivitäten funktionieren in jeder Sprache ohne Änderung. Alle LessonCraftStudio-Generatoren unterstützen 11 Sprachen für textbasierte Arbeitsblätter.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der grundlegende Leitfaden, der jeden Aspekt der Gründung eines Druckvorlagen-Geschäfts abdeckt. Starten Sie hier, wenn Sie umfassende Schritt-für-Schritt-Anleitungen von null bis zum ersten Verkauf benötigen.`,
     },
     {
-      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
+      slug: `arbeitsblaetter-erstellen-die-verkaufen`,
       title: `Professionelle Arbeitsblätter erstellen, die sich verkaufen`,
       description: `Tiefgehender Einblick in die Produkterstellungsqualität: was Arbeitsblätter professionell aussehen lässt, wie Sie Generatoren effektiv nutzen und die spezifischen Techniken, die generische Arbeitsblätter in Produkte verwandeln, die Käufer bevorzugen.`,
     },
     {
       slug: 'etsy-druckvorlagen-geschaeft',
-      title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+      title: `Etsy Druckvorlagen-Geschäft Masterclass`,
       description: `Plattformspezifische Anleitung für Etsy-Verkäufer mit Shop-Einrichtung, Listing-SEO, Tag-Optimierung und Skalierungstechniken, zugeschnitten auf den Etsy-Marktplatz.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäftsleitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäftsleitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz — Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-einkommen', anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
-    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Rätsel-Generator — Alle Details' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller ausprobieren' },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-einkommen`, anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
+    { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: `Mathe-Rätsel-Generator — Alle Details` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: `Mathe-Rätsel-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: `Malvorlagen-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: `Mathe-Rätsel-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator` },
+    heroImage: { src: `/samples/german/math puzzle/Mathe-Rätsel 1.webp`, alt: `Mathe-Rätsel-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator` },
     samples: [
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: `Mathe-Rätsel-Arbeitsblatt mit konfigurierbarer Ausgabevielfalt`, caption: 'Mathe-Rätsel — Konfigurierbarer Schwierigkeitsgrad' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlagen-Arbeitsblatt mit thematischen Illustrationen`, caption: 'Malvorlage — Visuelle Anziehungskraft' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: `Zuordnungs-Arbeitsblatt im rein visuellen internationalen Format`, caption: 'Zuordnung — Funktioniert in jeder Sprache' },
+      { src: `/samples/german/math puzzle/Mathe-Rätsel 1.webp`, alt: `Mathe-Rätsel-Arbeitsblatt mit konfigurierbarer Ausgabevielfalt`, caption: `Mathe-Rätsel — Konfigurierbarer Schwierigkeitsgrad` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Arbeitsblatt mit thematischer Wortliste`, caption: `Wortsuche — Thematisches Rätsel` },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlagen-Arbeitsblatt mit thematischen Illustrationen`, caption: `Malvorlage — Visuelle Anziehungskraft` },
+      { src: `/samples/german/matching/Paare Finden 1.webp`, alt: `Zuordnungs-Arbeitsblatt im rein visuellen internationalen Format`, caption: `Zuordnung — Funktioniert in jeder Sprache` },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: `Mathe-Rätsel-Arbeitsblätter erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
+    { src: `/image-library/flowers/aster.webp`, alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalee — thematisches Lernbild`, caption: 'Azalee' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonie — thematisches Lernbild`, caption: 'Begonie' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Glockenblume — thematisches Lernbild`, caption: 'Glockenblume' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Butterblume — thematisches Lernbild`, caption: 'Butterblume' },
   ],
 };
 

@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles de Halloween para Vender — Guía`,
     metaDescription: `Descubre ideas de imprimibles de Halloween para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos espeluznantes, estrategias estacionales y consejos.`,
 
-    primaryKeyword: 'ideas de imprimibles de halloween para vender',
+    primaryKeyword: `ideas de imprimibles de halloween para vender`,
     secondaryKeywords: [
-      'fichas de Halloween para vender',
+      `fichas de Halloween para vender`,
       'negocio imprimibles Halloween',
-      'fichas actividades Halloween para vendedores',
-      'vender imprimibles de Halloween en Etsy',
+      `fichas actividades Halloween para vendedores`,
+      `vender imprimibles de Halloween en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática espeluznante',
-      'actividades tienda octubre Halloween',
-      'imprimibles temática calabazas y disfraces',
+      `fichas educativas temática espeluznante`,
+      `actividades tienda octubre Halloween`,
+      `imprimibles temática calabazas y disfraces`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Para capturar los máximos ingresos de Halloween, desarrolla productos en múlti
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Halloween para Vender en Línea',
+      title: `Sopas de Letras de Halloween para Vender en Línea`,
       description: `Las sopas de letras con vocabulario espeluznante atraen a vendedores que planifican actividades del mercado de octubre y a padres que buscan entretenimiento educativo durante la temporada de Halloween. Crea puzzles con vocabulario específico de Halloween como calabaza, esqueleto, vampiro, hombre lobo, caldero, escoba y lápida junto con términos más amplios de celebraciones otoñales. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos de Halloween para usuarios mayores. Las variaciones como vocabulario de monstruos, palabras de casas embrujadas y terminología de truco o trato expanden tu catálogo para captar diferentes intereses de compradores dentro del nicho estacional espeluznante.`,
       appId: 'wordsearch',
     },
@@ -90,7 +90,7 @@ Para capturar los máximos ingresos de Halloween, desarrolla productos en múlti
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Halloween en Etsy',
+      title: `Vender Imprimibles de Halloween en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de Halloween, y la temporada de compras de octubre crea un importante pico de tráfico para las descargas digitales educativas. Publica tus listados de Halloween a mediados de agosto para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en septiembre. Utiliza las trece etiquetas con variaciones que combinen subtemas de Halloween, tipos de habilidad y grupos de edad: «fichas conteo Halloween preescolar», «sopa de letras espeluznante jardín de infantes» y «páginas colorear calabaza infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas Halloween». Crea variaciones de listados orientadas a fiestas posicionando los paquetes de actividades como paquetes para fiestas de Halloween en línea o rellenos de bolsas de truco o trato. Las imágenes de listados mostrando fichas de Halloween impresas en entornos con temática espeluznante y accesorios estacionales superan las vistas previas digitales planas y captan la mentalidad festiva que impulsa el tráfico de octubre.`,
     },
     {
@@ -144,18 +144,18 @@ Para capturar los máximos ingresos de Halloween, desarrolla productos en múlti
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -164,12 +164,12 @@ Para capturar los máximos ingresos de Halloween, desarrolla productos en múlti
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -180,17 +180,17 @@ Para capturar los máximos ingresos de Halloween, desarrolla productos en múlti
     {
       pageType: 'idea',
       slug: 'navidad-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Navidad',
+      anchorText: `Ideas de Negocio de Imprimibles de Navidad`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 
 

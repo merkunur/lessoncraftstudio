@@ -2,19 +2,19 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fichas de discriminación visual con sombras',
+    primaryKeyword: `fichas de discriminación visual con sombras`,
     secondaryKeywords: [
-      'crear fichas de asociación de sombras para vender',
-      'generador de fichas de siluetas para emparejar',
-      'fichas imprimibles de sombras para Etsy y KDP',
+      `crear fichas de asociación de sombras para vender`,
+      `generador de fichas de siluetas para emparejar`,
+      `fichas imprimibles de sombras para Etsy y KDP`,
       `fichas de completa la imagen con mitades divididas`,
     ],
     lsiKeywords: [
       `generación de siluetas a nivel de píxel para fichas`,
-      'generador de actividades de percepción visual',
+      `generador de actividades de percepción visual`,
       `fichas de asociación de sombras con clave de respuestas`,
-      'vender fichas de sombras en Etsy',
-      'Amazon KDP cuadernos de percepción visual',
+      `vender fichas de sombras en Etsy`,
+      `Amazon KDP cuadernos de percepción visual`,
       `herramienta de asociación de sombras con licencia comercial`,
     ],
     titleTag: `Fichas de discriminación visual con sombras — Guía`,
@@ -47,15 +47,15 @@ const content: GuideContent = {
       content: `Abre el panel de Biblioteca de imágenes y navega por ciento cuatro colecciones temáticas con más de tres mil cien ilustraciones coloridas. Las categorías abarcan animales, comida, vehículos, naturaleza, festividades, profesiones, deportes y decenas más. Filtra por tema usando el menú desplegable o busca por palabra clave para encontrar las imágenes adecuadas.\n\nAmbos modos de ejercicio siempre usan exactamente cuatro imágenes por ficha. Haz clic en las imágenes para seleccionarlas — el contador muestra tu progreso hacia las cuatro requeridas. Una vista previa de imágenes seleccionadas confirma tus elecciones antes de generar.\n\nPara el modo Asociación de sombras, elige imágenes con siluetas distintivas. Los animales con formas corporales únicas (jirafa, elefante, pulpo), los vehículos con perfiles claros (avión, bicicleta, barco) y los objetos con contornos identificables (guitarra, paraguas, corona) producen los puzles de sombras más reconocibles y atractivos. Evita imágenes con formas rectangulares similares que producirían siluetas casi idénticas.\n\nPara el modo Completa la imagen, elige imágenes con detalles distribuidos en ambas mitades. Una imagen con todos los rasgos distintivos concentrados en un lado produce un puzle fácil porque una mitad es obviamente única. Las imágenes con detalle visual equilibrado en ambas mitades crean desafíos de asociación más fuertes.\n\nTambién puedes subir imágenes personalizadas en formato PNG, JPG o GIF para crear fichas de asociación de sombras personalizadas. Las cargas personalizadas funcionan para ambos modos — la generación de siluetas a nivel de píxel procesa cualquier imagen subida, y Completa la imagen divide cualquier imagen a lo largo de la dirección de corte elegida. Fotos familiares, ilustraciones personalizadas o imágenes específicas del mercado se convierten en productos únicos que ningún competidor puede replicar.`,
     },
     {
-      heading: 'Configura el diseño de página y las decoraciones',
+      heading: `Configura el diseño de página y las decoraciones`,
       content: `En la sección de Configuración de página, selecciona tu tamaño de página. Las opciones incluyen Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Cuadrado (mil doscientos por mil doscientos píxeles) y dimensiones personalizadas. El diseño se adapta automáticamente a la orientación de tu página: las páginas horizontales organizan los elementos en dos filas de cuatro elementos, mientras que las páginas verticales usan dos columnas de cuatro elementos.\n\nCarta es el estándar para compradores norteamericanos. A4 es el estándar para mercados europeos e internacionales. Crear ambas versiones duplica tu alcance en el mercado con un esfuerzo adicional mínimo. El formato puramente visual significa que el tamaño de página es la única variable que necesitas ajustar para diferentes mercados.\n\nLos temas de fondo y borde funcionan de forma independiente, cada uno con su propio deslizador de opacidad que va de cero a uno en incrementos de cero coma cero cinco. Aplica un patrón de fondo sutil al quince o veinticinco por ciento de opacidad para calidez visual sin distraer del contenido de asociación de sombras. Superpón un borde decorativo al ochenta o cien por ciento de opacidad para un marco pulido. Las combinaciones consistentes de fondo y borde en todo un paquete crean un aspecto de producto cohesivo que los compradores asocian con calidad.\n\nPersonaliza el texto con siete opciones de fuente incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Añade un contorno de texto de cero a diez para estilización adicional. Un encabezado estilizado se renderiza automáticamente con un fondo ámbar, contenedor blanco tipo pastilla y borde ámbar mostrando el título del ejercicio y las instrucciones.`,
     },
     {
-      heading: 'Genera la ficha de asociación de sombras',
+      heading: `Genera la ficha de asociación de sombras`,
       content: `Haz clic en Generar para crear la ficha de asociación. Lo que sucede a continuación depende del modo seleccionado.\n\nEn el modo Asociación de sombras, la aplicación procesa cada imagen a nivel de píxel. Carga cada imagen en un lienzo, extrae los datos de píxeles mediante getImageData y convierte cada píxel con alfa mayor de diez a negro puro. Esto produce siluetas precisas que preservan detalles finos — el perfil de transparencia exacto de cada imagen fuente se convierte en su contorno de sombra. Cuatro imágenes a color aparecen en una sección y cuatro siluetas negras aparecen en otra, organizadas según la orientación de tu página.\n\nEn el modo Completa la imagen, las imágenes se dividen a lo largo de la dirección de corte elegida en mitades etiquetadas. Los cortes horizontales producen mitades superior e inferior. Los cortes verticales producen mitades izquierda y derecha. Las primeras mitades muestran identificadores de A a D, las segundas mitades muestran identificadores de uno a cuatro.\n\nAmbos modos aplican el algoritmo de desordenamiento Fisher-Yates para garantizar que ningún elemento aparezca en su posición original. En el modo Asociación de sombras, ninguna silueta se sitúa directamente debajo de su imagen correspondiente. En el modo Completa la imagen, ninguna segunda mitad aparece adyacente a su primera mitad correspondiente. Esto elimina la posibilidad de que los usuarios adivinen correctamente solo por posición y asegura que cada ficha presente un desafío genuino de asociación. El algoritmo de desordenamiento recalcula en cada generación, así que hacer clic en Generar de nuevo con las mismas imágenes produce una disposición diferente.\n\nExamina la vista previa con cuidado: comprueba que las siluetas sean claramente reconocibles, que las mitades divididas tengan bordes limpios y que el diseño general se vea equilibrado. Si algo necesita ajuste, modifica tu configuración y regenera instantáneamente.`,
     },
     {
-      heading: 'Revisa la clave de respuestas autogenerada',
+      heading: `Revisa la clave de respuestas autogenerada`,
       content: `Haz clic en la pestaña de Clave de respuestas para ver la solución autogenerada. La clave de respuestas se muestra de forma diferente para cada modo.\n\nEn el modo Asociación de sombras, cada celda muestra la imagen original junto a su silueta con una etiqueta como «A coincide con dos», indicando el emparejamiento correcto. Los usuarios y vendedores pueden verificar las respuestas de un vistazo comparando los pares letra-número en la clave de respuestas con las respuestas del usuario en la ficha.\n\nEn el modo Completa la imagen, cada celda muestra la imagen original completa con su etiqueta de emparejamiento, confirmando qué mitades van juntas. La cuadrícula usa cuatro columnas con espaciado consistente para un diseño de solución limpio y legible.\n\nAlterna entre las pestañas de Ficha y Clave de respuestas para comparar y verificar la solución de asociación. La clave de respuestas se genera simultáneamente con la ficha — sin paso de creación manual, sin proceso de diseño separado, sin posibilidad de respuestas que no coincidan. Esta generación simultánea ahorra un tiempo significativo al producir paquetes de asociación de sombras. Crear claves de respuestas manualmente para puzles de asociación visual es tedioso y propenso a errores. La clave de respuestas autogenerada elimina este paso por completo.\n\nPara los listados de productos, la clave de respuestas es un argumento de venta. Los productos que incluyen claves de respuestas superan consistentemente en ventas a los listados de solo puzles porque los vendedores y padres quieren materiales de autoevaluación. Siempre menciona «incluye clave de respuestas» en los títulos y descripciones de tus listados.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender fichas de asociación de sombras en Etsy',
+      heading: `Vender fichas de asociación de sombras en Etsy`,
       content: `Etsy es un marketplace fuerte para fichas de asociación de sombras porque los padres y vendedores buscan actividades de percepción visual por formato específico. Títulos como «Fichas de asociación de sombras — Puzles de siluetas — Actividad de percepción visual — Con clave de respuestas» capturan tráfico de búsqueda segmentado.\n\nNombra tus productos usando el formato de actividad específico en lugar de títulos genéricos. «Puzles de asociación de sombras de animales con clave de respuestas» supera a «Fichas visuales para niños» porque coincide con consultas de búsqueda específicas de los compradores. Cada combinación de modo y tema se convierte en un listado distinto que apunta a palabras clave únicas.\n\nEtiquetas: usa las trece etiquetas de Etsy. Combina términos amplios y específicos: «fichas de asociación de sombras», «puzles de siluetas», «actividad de percepción visual», «puzles de sombras para niños», «fichas de completa la imagen», «actividad imprimible de asociación», «discriminación visual», «asociación de sombras preescolar» y variaciones que coincidan con tu tema específico.\n\nImágenes del listado: muestra la ficha completa de asociación de sombras con imágenes a color y siluetas negras, un primer plano de las siluetas a nivel de píxel, la clave de respuestas con etiquetas de letra a número y una ficha de Completa la imagen mostrando mitades de imagen dividida. El contraste entre imágenes coloridas y siluetas negras es visualmente impactante y crea miniaturas atractivas.\n\nPrecios: conjuntos individuales de asociación de sombras de diez a quince fichas con claves de respuestas se venden a dos dólares noventa y nueve centavos a cinco dólares noventa y nueve centavos. Paquetes temáticos combinando ambos modos con veinte a treinta fichas se venden a seis dólares noventa y nueve centavos a doce dólares noventa y nueve centavos. Colecciones completas de percepción visual con cuarenta o más fichas en múltiples temas se venden a catorce dólares noventa y nueve centavos a veinticuatro dólares noventa y nueve centavos.`,
     },
     {
@@ -74,14 +74,14 @@ const content: GuideContent = {
       content: `Amazon KDP atiende el mercado de cuadernos de percepción visual. Compila de cincuenta a ochenta fichas de asociación de sombras en un formato de libro de actividades encuadernado con dificultad progresiva.\n\nEstructura tu cuaderno por tipo de actividad: los capítulos iniciales usan el modo Asociación de sombras con animales y objetos que tienen siluetas muy distintivas, los capítulos intermedios usan el modo Completa la imagen con cortes horizontales para un reensamblaje espacial directo, y los capítulos avanzados usan el modo Completa la imagen con cortes verticales y fichas de Asociación de sombras con diferencias de silueta más sutiles. Incluye páginas de clave de respuestas al final de cada capítulo mostrando los emparejamientos correctos de letra a número.\n\nTítulo y subtítulo: ejemplo de título: «Puzles de asociación de sombras para niños». Ejemplo de subtítulo: «80 actividades de percepción visual con asociación de siluetas, puzles de Completa la imagen y claves de respuestas para niños de 3–7 años — Temas de animales, vehículos, naturaleza y festividades».\n\nPalabras clave: KDP proporciona siete espacios de palabras clave. Usa frases específicas: «fichas de asociación de sombras preescolar», «libro de actividades de puzles de siluetas», «fichas de percepción visual para niños», «puzles de completa la imagen», «cuaderno de puzles de sombras», «actividades de asociación jardín de infancia», «ejercicios de discriminación visual».\n\nEl formato puramente visual es una ventaja importante para KDP. Un solo archivo interior se publica de forma idéntica en todos los marketplaces internacionales de Amazon sin traducción. Tu cuaderno de asociación de sombras se vende en Estados Unidos, Alemania, Japón y cualquier otro mercado de KDP a partir de una sola carga. Activa la escala de grises para una salida económica en tinta que mantiene bajos los costes de impresión en KDP preservando la calidad completa del puzle de sombras.`,
     },
     {
-      heading: 'Vender fichas de asociación de sombras en Gumroad',
+      heading: `Vender fichas de asociación de sombras en Gumroad`,
       content: `Gumroad es ideal para fichas de asociación de sombras porque la percepción visual y la discriminación visual son habilidades de productoses que se pueden buscar. Los vendedores de educación especial necesitan actividades de asociación visual para objetivos de IEP. Los terapeutas ocupacionales buscan fichas de percepción visual. Los vendedores de preescolar y jardín de infancia necesitan actividades de rincones de asociación.\n\nLas descripciones de productos en Gumroad deben incluir: nivel de grado, habilidades específicas de percepción visual practicadas (reconocimiento de siluetas, razonamiento espacial, percepción parte-todo), número de fichas, si se incluyen claves de respuestas, los dos modos de ejercicio disponibles y el interruptor de etiquetas para paquetes escalonados por nivel. Menciona que las fichas incluyen campos de nombre y fecha para la gestión del mercado.\n\nArchivos de vista previa: Gumroad te permite subir un archivo de vista previa. Incluye de dos a tres fichas de muestra mostrando los modos Asociación de sombras y Completa la imagen, más una página de clave de respuestas. Muestra tanto versiones con etiquetas como sin etiquetas para que los vendedores puedan ver las opciones de diferenciación.\n\nAgrupación en Gumroad: los vendedores compran paquetes para unidades completas. Un «Paquete completo de actividades de percepción visual» con asociación de sombras, puzles de siluetas y fichas de imagen dividida en múltiples temas da a los vendedores recursos para semanas de práctica de discriminación visual. Crea conjuntos alineados con el catálogo de productos usando temas específicos que coincidan con unidades de ciencias, estudios sociales o actividades estacionales.\n\nPalabras clave específicas de Gumroad: «fichas de percepción visual», «actividad de asociación de sombras», «puzles de siluetas», «discriminación visual», «rincón de asociación», «completa la imagen», «asociación visual terapia ocupacional», «puzles visuales trabajo matutino». Estos términos coinciden con la forma en que los vendedores y terapeutas buscan recursos de percepción visual.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Precios de tus productos de asociación de sombras',
+      heading: `Precios de tus productos de asociación de sombras`,
       content: `Los precios de las fichas de asociación de sombras siguen patrones predecibles en todos los marketplaces. Estos son los rangos que funcionan bien:\n\nConjuntos de un solo tema con diez a quince fichas combinando ambos modos y claves de respuestas: dos dólares noventa y nueve centavos a cinco dólares noventa y nueve centavos. Estos sirven como productos de entrada que atraen compradores a tu tienda. Cada conjunto se enfoca en un tema con una mezcla de puzles de siluetas del modo Asociación de sombras y puzles de imagen dividida del modo Completa la imagen.\n\nPaquetes temáticos multimodo con veinte a treinta fichas en tres a cuatro temas con ambos modos y ambas direcciones de corte: seis dólares noventa y nueve centavos a doce dólares noventa y nueve centavos. Los compradores perciben un valor fuerte porque obtienen asociación de siluetas, puzles de corte horizontal y puzles de corte vertical dentro de una sola compra.\n\nColecciones completas de percepción visual con cuarenta a sesenta fichas cubriendo ocho a diez temas con todas las combinaciones de modo y dirección de corte: catorce dólares noventa y nueve centavos a veinticuatro dólares noventa y nueve centavos. Posiciona estos como bibliotecas completas de actividades de percepción visual para todo el año escolar.\n\nNo rebajes el mercado. Las fichas de asociación de sombras con claves de respuestas autogeneradas, dos modos de ejercicio y etiquetas activables/desactivables para paquetes escalonados por nivel son un producto premium. La generación de siluetas a nivel de píxel y el algoritmo de desordenamiento producen resultados de calidad profesional que justifican precios con confianza.`,
     },
     {
@@ -144,7 +144,7 @@ const content: GuideContent = {
     },
     {
       slug: 'crear-fichas-clasificacion',
-      title: 'Crear fichas de clasificación por categorías',
+      title: `Crear fichas de clasificación por categorías`,
       description: `Otra herramienta de clasificación visual. Las fichas de clasificación usan las mismas colecciones de imágenes temáticas, convirtiéndolas en compañeras naturales de paquete con productos de asociación de sombras.`,
     },
     {
@@ -155,55 +155,55 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'asociacion-sombras-fichas', anchorText: `Generador de fichas de discriminación visual — Todos los detalles` },
     { pageType: 'app', slug: 'relacionar-fichas', anchorText: `Generador de fichas de asociación — Todos los detalles` },
-    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: `Prueba el Generador de fichas de discriminación visual` },
+    { pageType: 'tool', slug: `generador-discriminacion-visual`, anchorText: `Prueba el Generador de fichas de discriminación visual` },
   ],
 
   toolsRecommended: [
     {
       appId: 'shadow-match',
-      title: 'Generador de fichas de discriminación visual',
+      title: `Generador de fichas de discriminación visual`,
       description: `La herramienta principal de esta guía. Crea fichas de asociación de sombras de doble modo con generación de siluetas a nivel de píxel, mitades de imagen dividida en Completa la imagen, algoritmo de desordenamiento Fisher-Yates, etiquetas activables/desactivables y claves de respuestas autogeneradas.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de asociación',
+      title: `Generador de fichas de asociación`,
       description: `Un complemento de asociación visual que crea actividades de emparejamiento trazando líneas. Las fichas de asociación complementan la asociación de sombras para una línea completa de productos de percepción visual dirigida al mismo público comprador.`,
     },
     {
       appId: 'picture-sort',
-      title: 'Generador de fichas de clasificación de imágenes',
+      title: `Generador de fichas de clasificación de imágenes`,
       description: `Un complemento de clasificación que usa las mismas colecciones de imágenes temáticas. Las fichas de clasificación se emparejan naturalmente con productos de asociación de sombras en paquetes de actividades temáticas que atraen a vendedores y padres.`,
     },
     {
       appId: 'odd-one-out',
-      title: 'Generador de fichas de intruso',
+      title: `Generador de fichas de intruso`,
       description: `Una prima de discriminación visual donde los usuarios identifican elementos que no pertenecen. Las fichas de intruso refuerzan las mismas habilidades de percepción que la asociación de sombras y se agrupan juntas para packs completos de aprendizaje visual.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/shadow match/Empareja las Sombras 2.webp`, alt: 'Ficha de asociación de sombras con imágenes a color y siluetas negras autogeneradas a nivel de píxel para actividad de percepción visual' },
+    heroImage: { src: `/samples/spanish/shadow match/Empareja las Sombras 2.webp`, alt: `Ficha de asociación de sombras con imágenes a color y siluetas negras autogeneradas a nivel de píxel para actividad de percepción visual` },
     samples: [
-      { src: `/samples/spanish/shadow match/Empareja las Sombras 2.webp`, alt: 'Ficha de asociación de sombras mostrando cuatro imágenes a color emparejadas con cuatro siluetas negras a nivel de píxel con etiquetas de letras y números', caption: 'Modo Asociación de sombras con cuatro imágenes a color y sus siluetas negras autogeneradas' },
-      { src: `/samples/spanish/shadow match/Empareja las Sombras 1 answer-key.webp`, alt: 'Clave de respuestas autogenerada mostrando imágenes originales junto a siluetas con etiquetas correctas de emparejamiento letra a número', caption: 'Clave de respuestas autogenerada con emparejamientos letra a número para verificación rápida' },
+      { src: `/samples/spanish/shadow match/Empareja las Sombras 2.webp`, alt: `Ficha de asociación de sombras mostrando cuatro imágenes a color emparejadas con cuatro siluetas negras a nivel de píxel con etiquetas de letras y números`, caption: `Modo Asociación de sombras con cuatro imágenes a color y sus siluetas negras autogeneradas` },
+      { src: `/samples/spanish/shadow match/Empareja las Sombras 1 answer-key.webp`, alt: `Clave de respuestas autogenerada mostrando imágenes originales junto a siluetas con etiquetas correctas de emparejamiento letra a número`, caption: `Clave de respuestas autogenerada con emparejamientos letra a número para verificación rápida` },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: `Cómo crear fichas de discriminación visual con sombras — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — imagen educativa temática', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagen educativa temática', caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — imagen educativa temática`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagen educativa temática`, caption: 'Bisonte' },
   ],
 };
 

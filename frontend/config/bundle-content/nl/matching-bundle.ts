@@ -6,14 +6,14 @@ const content: BundleContent = {
     secondaryKeywords: [
       `koppelen sorteren werkblad generator bundel voor verkopers`,
       `printbare koppelactiviteit toolkit commercieel gebruik`,
-      'bingokaart generator bundel voor Etsy',
-      'sorteer werkblad generators voor KDP verkopers',
+      `bingokaart generator bundel voor Etsy`,
+      `sorteer werkblad generators voor KDP verkopers`,
     ],
     lsiKeywords: [
-      'koppelen sorteren bingo werkblad pakket',
-      'schaduw koppelen rasterpuzzel printbare collectie',
-      'commerciële licentie koppelwerkbladen',
-      'bulk koppelwerkblad creatie tool',
+      `koppelen sorteren bingo werkblad pakket`,
+      `schaduw koppelen rasterpuzzel printbare collectie`,
+      `commerciële licentie koppelwerkbladen`,
+      `bulk koppelwerkblad creatie tool`,
     ],
     titleTag: `Koppelwerkbladen Bundel — 5 Sorteren & Koppelen Generators`,
     metaDescription: `Krijg 5 koppel werkblad generators in één bundel. Maak koppelen, rasterpuzzel, schaduw koppelen, bingo en sorteer werkbladen om te verkopen op Etsy, KDP &.`,
@@ -54,7 +54,7 @@ const content: BundleContent = {
       description: `Elke app apart kopen kost aanzienlijk meer. De bundel verpakt alle vijf koppel- en sorteergenerators voor een fractie van het individuele totaal, waardoor je maximale productvariatie krijgt voor een enkele investering. Je krijgt koppelwerkbladen, rastergebaseerd koppelen, schaduw koppelen, bingokaartsets en afbeeldingen sorteren — elk kern koppel- en sorteer activiteitstype waar vroeg-leren kopers naar zoeken — in één voordelig pakket.`,
     },
     {
-      title: 'Hybride Visuele en Taal Bundel',
+      title: `Hybride Visuele en Taal Bundel`,
       description: `Drie van de vijf generators — Verbindingswerkblad, Plaatjesbingo en Sorteer Werkblad — zijn taalgevoelig en produceren werkbladen met woordenschatlabels en categorienamen in elk van de 11 ondersteunde talen. De andere twee — Rasterpuzzel en Schaduw Koppelen — zijn puur visueel zonder tekst op de pagina, wereldwijd verkoopbaar zonder vertaling. Deze hybride mix laat je zowel taalspecifieke markten bedienen met gelokaliseerde koppel- en sorteerwerkbladen als universele markten met puur visuele producten, allemaal vanuit één toolkit.`,
     },
     {
@@ -62,11 +62,11 @@ const content: BundleContent = {
       description: `De Plaatjesbingo generator is de enige app over alle zes bundels die batch ZIP-exports van meerdere unieke kaarten produceert in één download. Elke kaart in de batch gebruikt hetzelfde thema maar een andere willekeurige rangschikking, zodat elke speler een unieke kaart krijgt. Dit is een gamechanger voor verkopers gericht op klas- en groepsgebruik — kopers betalen premiumprijzen voor kant-en-klare bingosets met 20, 30 of 50 unieke kaarten, en je genereert de hele set in seconden.`,
     },
     {
-      title: 'Antwoordbladen voor 4 van 5 Generators',
+      title: `Antwoordbladen voor 4 van 5 Generators`,
       description: `Verbindingswerkblad, Rasterpuzzel, Schaduw Koppelen en Sorteer Werkblad produceren allemaal automatische antwoordbladen bij elk werkblad. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad — automatische generatie bespaart uren handmatig werk. Plaatjesbingo is de enige uitzondering: als spelkaart-generator met willekeurige indelingen is er geen enkel correct antwoord.`,
     },
     {
-      title: 'Cognitieve Vaardigheidsvariatie',
+      title: `Cognitieve Vaardigheidsvariatie`,
       description: `Elke generator richt zich op een andere cognitieve vaardigheid binnen de koppel- en sorteercategorie. Verbindingswerkblad bouwt woordenschat-associatie en letterherkenning. Rasterpuzzel ontwikkelt ruimtelijk redeneren en coördinaatvaardigheden. Schaduw Koppelen versterkt visuele discriminatie en aandacht voor detail. Plaatjesbingo combineert visueel scannen met sociale interactie. Sorteer Werkblad leert classificatie en logisch denken. Producten vermelden van alle vijf generators laat je het volledige koppel-en-sorteer vaardigheidsspectrum dekken.`,
     },
     {
@@ -85,13 +85,13 @@ const content: BundleContent = {
 
   businessUseCases: [
     {
-      title: 'Etsy Koppelen & Sorteren Activiteiten Winkel',
+      title: `Etsy Koppelen & Sorteren Activiteiten Winkel`,
       description: `Bouw een Etsy-winkel rond koppel- en sorteer printables — een van de meest gezochte activiteitstypen voor kleuter- en kleuterschoolkopers. Vermeld koppelwerkbladpakketten, schaduw koppelen bundels, rasterpuzzel sets, sorteeractiviteiten en bingokaart collecties als aparte producten. De vijf generators geven je vijf verschillende productcategorieën vanaf dag één. Gebruik de 100+ thematische beeldsets om seizoensgebonden vermeldingen te maken: Halloween schaduw koppelen, Kerst bingokaarten, lente dieren sorteren.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Koppelactiviteiten Boeken',
-      description: `Combineer werkbladen van meerdere generators in thematische KDP-activiteitenboeken: "Kleuter Koppelen & Sorteren Werkboek" met koppelpagina's, schaduw koppelen oefeningen en sorteeractiviteiten, of "winkel Bingo & Koppelen Collectie" die bingokaarten mixt met rasterpuzzels. De consistente ontwerp-engine garandeert dat elke pagina er professioneel uniform uitziet. De twee puur visuele generators produceren taalonafhankelijke pagina's die op elke Amazon-marktplaats wereldwijd verkopen.`,
+      title: `Amazon KDP Koppelactiviteiten Boeken`,
+      description: `Combineer werkbladen van meerdere generators in thematische KDP-activiteitenboeken: "Kleuter Koppelen & Sorteren Werkboek" met koppelpagina`s, schaduw koppelen oefeningen en sorteeractiviteiten, of "winkel Bingo & Koppelen Collectie" die bingokaarten mixt met rasterpuzzels. De consistente ontwerp-engine garandeert dat elke pagina er professioneel uniform uitziet. De twee puur visuele generators produceren taalonafhankelijke pagina`s die op elke Amazon-marktplaats wereldwijd verkopen.`,
       platform: 'Amazon KDP',
     },
     {
@@ -100,11 +100,11 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Kleuter Koppel productcataloguspakketten',
+      title: `Kleuter Koppel productcataloguspakketten`,
       description: `Kleuter- en kinderdagverblijfprogramma's hebben een constante aanvoer van koppel- en sorteeractiviteiten nodig voor dagelijkse centra en wekelijkse lesplannen. De vijf generators dekken elk koppelvaardigheidtype: woordenschat-afbeelding associatie, ruimtelijk-raster koppelen, visueel-silhouet discriminatie, sociale groepsspellen en categorisch sorteren. Genereer thematische wekelijkse activiteitenpakketten afgestemd op klasonderwerpen — dieren de ene week, voertuigen de volgende, eten de week daarna — met antwoordbladen inbegrepen.`,
     },
     {
-      title: 'Bingokaartsets voor Evenementen en Feesten',
+      title: `Bingokaartsets voor Evenementen en Feesten`,
       description: `De batch bingo-export opent een productcategorie voorbij onderwijs: thematische bingokaartsets voor verjaardagsfeesten, feestdagenevents, babyshowers en bedrijfs teamactiviteiten. Upload eigen afbeeldingen passend bij het evenementthema, genereer een set van 30 tot 50 unieke kaarten, en verkoop de ZIP als feest-printable. Evenementenbingo is een veelgevraagd seizoensproduct op Etsy met aanzienlijk minder concurrentie dan educatieve printables.`,
     },
     {
@@ -114,10 +114,10 @@ const content: BundleContent = {
   ],
 
   featureComparison: [
-    { feature: 'Alle 5 koppelen & sorteren generators', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Alle 5 koppelen & sorteren generators`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Thematische beeldsets', commercial: '10 thema\'s', fullAccess: '104 thema\'s' },
-    { feature: 'Eigen afbeeldingen uploaden (PNG/JPEG)', commercial: 'Ja', fullAccess: 'Ja' },
-    { feature: 'Automatische antwoordbladen (4 van 5 apps)', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Eigen afbeeldingen uploaden (PNG/JPEG)`, commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Automatische antwoordbladen (4 van 5 apps)`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Bingo batch ZIP-export', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'PDF en JPEG download', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Commerciële verkooprechten', commercial: 'Ja', fullAccess: 'Ja' },
@@ -129,7 +129,7 @@ const content: BundleContent = {
 
   whoIsThisFor: [
     {
-      title: 'Etsy en KDP Printable Verkopers',
+      title: `Etsy en KDP Printable Verkopers`,
       description: `Je verkoopt digitale downloads op Etsy of publiceert activiteitenboeken op Amazon KDP en wilt een snelle, betrouwbare manier om professionele koppel- en sorteerwerkbladen op schaal te produceren. De bundel geeft je vijf generators en honderden themacombinaties om een diverse productcatalogus op te bouwen. De batch bingo-export alleen opent een hele productcategorie — klasklare bingosets brengen premiumprijzen op en zijn sneller te produceren dan elk ander printable type.`,
     },
     {
@@ -137,18 +137,18 @@ const content: BundleContent = {
       description: `Je maakt en verkoopt educatieve materialen op Gumroad en hebt tools nodig die voldoen aan platformverwachtingen voor kwaliteit en volledigheid. Vier van de vijf generators produceren automatisch antwoordbladen. De Verbindingswerkblad generator biedt vier verschillende modi voor getrapte productpakketten. De batch bingo-export maakt klasklare sets van 30+ unieke kaarten in seconden — een premium Gumroad-producttype waar kopers specifiek naar zoeken. De taalgevoelige apps laten je materialen maken voor NT2 en tweetalige winkels in 11 talen.`,
     },
     {
-      title: 'Kleuter- en Kleuterschool verkopers',
+      title: `Kleuter- en Kleuterschool verkopers`,
       description: `Je geeft les aan jonge kinderen en hebt een constante aanvoer van koppel- en sorteeractiviteiten nodig die fundamentele cognitieve vaardigheden opbouwen. Verbindingswerkblad ontwikkelt woordenschat en letterherkenning. Rasterpuzzel introduceert ruimtelijk redeneren. Schaduw Koppelen versterkt visuele discriminatie. Sorteer Werkblad leert categorisatie en logisch denken. Plaatjesbingo voegt sociale interactie en groepsspel toe aan je lesplannen. Elke generator biedt een gratis proefversie met watermerk.`,
     },
     {
-      title: 'Evenement en Feest Printable Makers',
+      title: `Evenement en Feest Printable Makers`,
       description: `Je maakt printbare feestbenodigdheden, evenementactiviteiten of thematische entertainment producten. De Plaatjesbingo generator met batch ZIP-export is specifiek ontworpen voor groepsgebruik — genereer unieke kaarten voor elke gast bij een verjaardagsfeest, babyshower, feestdagenbijeenkomst of teambuilding evenement. Upload eigen afbeeldingen passend bij elk thema. De koppel- en sorteergenerators vullen bingo aan met extra feestactiviteiten.`,
     },
   ],
 
   faq: [
     {
-      question: 'Kan ik de generators proberen voordat ik koop?',
+      question: `Kan ik de generators proberen voordat ik koop?`,
       answer: `Ja. Elke generator in de bundel biedt een gratis proefversie met volledige functionaliteit. Je kunt alle instellingen configureren, werkbladen bekijken en bestanden downloaden. Proefdownloads bevatten een watermerk. Het aanschaffen van een licentie verwijdert het watermerk zodat je commercieel kunt verkopen. We raden aan om elk van de vijf generators te testen voordat je koopt.`,
     },
     {
@@ -156,11 +156,11 @@ const content: BundleContent = {
       answer: `Drie van de vijf generators zijn taalgevoelig: Verbindingswerkblad (woordenschatlabels in letter- en afbeelding-naam modi), Plaatjesbingo (optionele afbeeldingslabels) en Sorteer Werkblad (categorienamen). Deze produceren werkbladen met tekst in de geselecteerde taal uit de 11 ondersteunde talen. De andere twee — Rasterpuzzel en Schaduw Koppelen — zijn puur visueel zonder tekst op de pagina, dus elk werkblad dat ze produceren werkt in elke taal wereldwijd zonder aanpassing.`,
     },
     {
-      question: 'Hoe werkt de bingo batch-export?',
+      question: `Hoe werkt de bingo batch-export?`,
       answer: `De Plaatjesbingo generator maakt meerdere unieke bingokaarten in één bewerking. Je kiest het thema, rastergrootte, aantal kaarten en of je labels wilt, en downloadt vervolgens een ZIP-bestand met alle kaarten. Elke kaart gebruikt dezelfde afbeeldingenpool maar een andere willekeurige rangschikking, zodat elke speler een unieke kaart krijgt. Deze batchmogelijkheid is ontworpen voor klas- en groepsgebruik — genereer 20, 30 of 50 unieke kaarten in seconden.`,
     },
     {
-      question: 'Bevatten de generators antwoordbladen?',
+      question: `Bevatten de generators antwoordbladen?`,
       answer: `Vier van de vijf generators produceren automatische antwoordbladen: Verbindingswerkblad, Rasterpuzzel, Schaduw Koppelen en Sorteer Werkblad. Plaatjesbingo is de enige uitzondering — als spelkaart-generator met willekeurige indelingen is er geen enkel correct antwoord om een sleutel voor te bieden. Antwoordbladen zijn een topverwachting van kopers op Etsy en Gumroad.`,
     },
     {
@@ -168,7 +168,7 @@ const content: BundleContent = {
       answer: `Schaduw Koppelen gebruikt een vaste indeling van 4 items per werkblad. Elk werkblad toont 4 gekleurde objecten aan de ene kant en hun bijbehorende silhouetten aan de andere, waarbij gebruikers lijnen trekken om de paren te verbinden. Het vaste aantal houdt de activiteit gericht en leeftijdsgeschikt voor het kleuter- en kleuterschoolpubliek.`,
     },
     {
-      question: 'Welke formaten kan ik downloaden?',
+      question: `Welke formaten kan ik downloaden?`,
       answer: `Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. Kies uit Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant of een aangepast formaat. De Plaatjesbingo generator exporteert bovendien een ZIP-bestand met meerdere unieke kaarten. Alle bestanden downloaden op printresolutie — geen opschaling of nabewerking nodig.`,
     },
     {
@@ -180,7 +180,7 @@ const content: BundleContent = {
       answer: `Ja. Zowel de Commerciële als Volledige Toegang licenties bevatten commerciële verkooprechten. Je kunt de werkbladen en bingokaartsets die je genereert verkopen op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Je verkoopt de gegenereerde producten — de generatortool zelf is niet overdraagbaar.`,
     },
     {
-      question: 'Hoeveel werkbladen kan ik maken?',
+      question: `Hoeveel werkbladen kan ik maken?`,
       answer: `Er is geen limiet. Eenmaal gelicentieerd kun je zoveel werkbladen en bingokaartsets genereren als je wilt over alle vijf generators. Er zijn geen per-download kosten, maandelijkse limieten of gebruiksbeperkingen. Met vijf generators en 100+ afbeeldingsthema's is het aantal unieke koppel- en sorteerproducten dat je kunt maken praktisch onbeperkt.`,
     },
     {
@@ -191,14 +191,14 @@ const content: BundleContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: `Verbindingswerkblad Generator — Volledig Overzicht` },
-    { pageType: 'app', slug: 'raster-puzzel-werkbladen', anchorText: 'Rasterpuzzel Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Schaduw Koppelen Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjesbingo Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Sorteer Werkblad Generator — Volledig Overzicht' },
+    { pageType: 'app', slug: 'raster-puzzel-werkbladen', anchorText: `Rasterpuzzel Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: `Schaduw Koppelen Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: `Plaatjesbingo Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: `Sorteer Werkblad Generator — Volledig Overzicht` },
     { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Koppel werkbladen maken' },
-    { pageType: 'guide', slug: 'schaduw-koppelen-werkbladen-maken', anchorText: 'Schaduw-koppelen werkbladen maken' },
-    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk voor je printable bedrijf' },
-    { pageType: 'idea', slug: 'peuterspeelzaal-printable-ideen', anchorText: `Peuteronderwijs printable ideeën voor vroege ontwikkeling` },
+    { pageType: 'guide', slug: `schaduw-koppelen-werkbladen-maken`, anchorText: `Schaduw-koppelen werkbladen maken` },
+    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: `Blauwdruk voor je printable bedrijf` },
+    { pageType: 'idea', slug: `peuterspeelzaal-printable-ideen`, anchorText: `Peuteronderwijs printable ideeën voor vroege ontwikkeling` },
   ],
 
   visuals: {
@@ -207,25 +207,25 @@ const content: BundleContent = {
       primaryAlt: `Koppelwerkblad met thematische afbeeldingen die paar-koppeloefening tonen`,
     },
     sampleGallery: [
-      { src: `/samples/dutch/matching/Zoek%20de%20Paren%201.webp`, alt: 'Koppelwerkblad met vier koppelmodi en thematische afbeeldingen', caption: 'Koppelwerkblad' },
-      { src: '/samples/dutch/grid%20match/Rasterpuzzel%201.webp', alt: `Rasterpuzzel met coördinaatgebaseerd koppelen op gestructureerd raster`, caption: 'Rasterpuzzel Werkblad' },
-      { src: `/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp`, alt: 'Schaduw koppelen werkblad met silhouet koppeling en trek-een-lijn formaat', caption: 'Schaduw Koppelen Werkblad' },
-      { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: `Bingokaart met thematische afbeeldingen in willekeurige rasterindeling`, caption: 'Plaatjesbingo Kaart' },
-      { src: `/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp`, alt: 'Sorteer werkblad met twee-categorieën classificatie oefening', caption: 'Sorteer Werkblad' },
+      { src: `/samples/dutch/matching/Zoek%20de%20Paren%201.webp`, alt: `Koppelwerkblad met vier koppelmodi en thematische afbeeldingen`, caption: 'Koppelwerkblad' },
+      { src: `/samples/dutch/grid%20match/Rasterpuzzel%201.webp`, alt: `Rasterpuzzel met coördinaatgebaseerd koppelen op gestructureerd raster`, caption: 'Rasterpuzzel Werkblad' },
+      { src: `/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp`, alt: `Schaduw koppelen werkblad met silhouet koppeling en trek-een-lijn formaat`, caption: 'Schaduw Koppelen Werkblad' },
+      { src: `/samples/dutch/bingo/Plaatjesbingo%201.webp`, alt: `Bingokaart met thematische afbeeldingen in willekeurige rasterindeling`, caption: 'Plaatjesbingo Kaart' },
+      { src: `/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp`, alt: `Sorteer werkblad met twee-categorieën classificatie oefening`, caption: 'Sorteer Werkblad' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: `Matchen & Sorteren Pakket — Bekijk Alle 5 Generators in Actie`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bij — thematische educatieve afbeelding', caption: 'Bij' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematische educatieve afbeelding', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalf — thematische educatieve afbeelding', caption: 'Kalf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Kuiken — thematische educatieve afbeelding', caption: 'Kuiken' },
-    { src: '/image-library/farm%20animals/chicken.webp', alt: 'Kip — thematische educatieve afbeelding', caption: 'Kip' },
-    { src: '/image-library/farm%20animals/cow.webp', alt: 'Koe — thematische educatieve afbeelding', caption: 'Koe' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Bij — thematische educatieve afbeelding`, caption: 'Bij' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Stier — thematische educatieve afbeelding`, caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Kalf — thematische educatieve afbeelding`, caption: 'Kalf' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Kat — thematische educatieve afbeelding`, caption: 'Kat' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Kat 2 — thematische educatieve afbeelding`, caption: 'Kat 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: `Kuiken — thematische educatieve afbeelding`, caption: 'Kuiken' },
+    { src: `/image-library/farm%20animals/chicken.webp`, alt: `Kip — thematische educatieve afbeelding`, caption: 'Kip' },
+    { src: `/image-library/farm%20animals/cow.webp`, alt: `Koe — thematische educatieve afbeelding`, caption: 'Koe' },
   ],
 };
 

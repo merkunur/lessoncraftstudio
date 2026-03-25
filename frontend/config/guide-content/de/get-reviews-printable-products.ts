@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Bewertungen Druckvorlagen-Produkte',
+    primaryKeyword: `Bewertungen Druckvorlagen-Produkte`,
     secondaryKeywords: [
-      'Bewertungsstrategie Druckvorlagen-Produkte',
-      'Etsy Bewertungen digitale Produkte',
-      'Kundenbewertungen Arbeitsblatt-Geschäft',
-      'Bewertungen steigern Druckvorlagen-Shop',
+      `Bewertungsstrategie Druckvorlagen-Produkte`,
+      `Etsy Bewertungen digitale Produkte`,
+      `Kundenbewertungen Arbeitsblatt-Geschäft`,
+      `Bewertungen steigern Druckvorlagen-Shop`,
     ],
     lsiKeywords: [
       `Sternebewertung Käuferfeedback Produktbewertung Bewertungsanfrage Bewertungsgenerierung sozialer Beweis`,
@@ -43,7 +43,7 @@ const content: GuideContent = {
       content: `Eine Dankesbeilage ist eine gebrandete Seite in Ihrem digitalen Download, die drei Zwecke erfüllt: Sie dankt dem Käufer für seinen Kauf, liefert hilfreichen Nutzungskontext und enthält eine höfliche Bewertungsanfrage. Diese Beilage ist Ihr zuverlässigster Bewertungsanstoß, weil sie jeden einzelnen Käufer in dem Moment erreicht, in dem er sich mit Ihrem Produkt beschäftigt — anders als Nachverfolgungs-E-Mails, die verpasst, gefiltert oder ignoriert werden können. Eine gut gestaltete Beilage fühlt sich wie ein natürlicher Teil des Produkts an und nicht wie eine separate Marketingbotschaft, was die Bewertungsanfrage aufrichtig statt transaktional wirken lässt.\n\nGestalten Sie Ihre Beilageseite so, dass sie zur visuellen Qualität und zum Branding des restlichen Produkts passt. Verwenden Sie dasselbe Farbschema, dieselben Schriftarten und Designelemente wie Ihre Arbeitsblätter, damit die Beilage als zusammenhängender Teil des Produkts wahrgenommen wird und nicht als nachträgliche Ergänzung. Fügen Sie Ihr Markenlogo, eine herzliche Dankesnachricht und ein oder zwei spezifische Nutzungstipps ein, die für den Produkttyp relevant sind. Eine Beilage für Mathematik-Arbeitsblätter könnte vorschlagen: „Für beste Ergebnisse beginnen Sie mit den ersten fünf Seiten als Aufwärmübung und gehen dann zu den anspruchsvolleren Aufgaben über." Eine Beilage für Malvorlagen könnte vorschlagen: „Diese Designs funktionieren wunderbar mit Buntstiften, Wachsmalern oder Filzstiften — Druck auf dickerem Papier verhindert Durchbluten bei Filzstiften." Diese Tipps demonstrieren Fachwissen und Sorgfalt, während sie dem Käufer einen umsetzbaren Mehrwert bieten.\n\nFormulieren Sie Ihre Bewertungsanfrage so, dass sie anderen Käufern hilft, statt Ihrem Geschäft. Käufer sind deutlich empfänglicher für „Ihre ehrliche Bewertung hilft anderen Käufern, Ressourcen zu finden, die für ihre Bildungsmarkt funktionieren" als für „Bitte hinterlassen Sie eine 5-Sterne-Bewertung, um unseren Shop zu unterstützen." Die erste Formulierung positioniert den Käufer als hilfreiches Gemeinschaftsmitglied, das seine Erfahrung teilt. Die zweite Formulierung positioniert ihn als jemanden, der einem Unternehmen einen Gefallen tut — was transaktional wirkt und die Bewertungswahrscheinlichkeit tatsächlich verringern kann. Bitten Sie nie gezielt um eine positive Bewertung oder eine bestimmte Sternebewertung. Bitten Sie um ehrliches Feedback und vertrauen Sie darauf, dass Ihre Produktqualität die positive Stimmung natürlich verdient.\n\nFügen Sie einen direkten Link oder klare Anweisungen ein, wie man eine Bewertung auf der spezifischen Plattform hinterlässt, auf der der Käufer das Produkt erworben hat. Auf Etsy bedeutet das, ihn zu seiner Kaufhistorie zu leiten, wo die Bewertungsoption erscheint. Auf Amazon bedeutet das, ihn daran zu erinnern, dass er auf der Produktseite eine Bewertung hinterlassen kann. Auf Gumroad bedeutet das, ihn auf den Bewertungsbereich des Produkt-Listings hinzuweisen. Den Aufwand für das Hinterlassen einer Bewertung zu reduzieren, ist eine der effektivsten Methoden, die Bewertungsrate zu erhöhen — viele Käufer, die beabsichtigen, eine Bewertung zu hinterlassen, führen die Aktion nie aus, einfach weil sie sich nicht daran erinnern, wie sie zum Bewertungsformular navigieren, wenn der Impuls aufkommt.\n\nPositionieren Sie Ihre Dankesbeilage strategisch innerhalb der Produktdatei. Sie auf die allererste Seite zu setzen bedeutet, dass Käufer sie sehen, bevor sie sich mit dem Produkt beschäftigen, wenn sie noch keine Erfahrung haben, die sie bewerten könnten. Sie auf die allerletzte Seite zu setzen bedeutet, dass Käufer sie möglicherweise nie erreichen, wenn sie nur die Seiten drucken, die sie brauchen. Die effektivste Position ist typischerweise die zweite Seite — nach einer Titelseite, aber vor dem eigentlichen Arbeitsblattinhalt. Diese Platzierung stellt sicher, dass Käufer die Beilage früh sehen, die Nutzungstipps aufnehmen, bevor sie mit den Arbeitsblättern beginnen, und die Bewertungsanfrage begegnen, während sie in einer positiven, vorfreudigen Stimmung über das gerade gekaufte Produkt sind.`,
     },
     {
-      heading: 'Käufer zum richtigen Zeitpunkt nachverfolgen',
+      heading: `Käufer zum richtigen Zeitpunkt nachverfolgen`,
       content: `Timing ist die wichtigste Variable für die Wirksamkeit von Bewertungsanfragen. Eine Anfrage, die eintrifft, bevor der Käufer das Produkt verwendet hat, fühlt sich verfrüht an und wird leicht abgetan. Eine Anfrage, die Wochen nach dem Kauf eintrifft, wenn der Käufer die Details seiner Erfahrung vergessen hat, hat nicht die emotionale Dynamik, die jemanden zum Schreiben einer Bewertung antreibt. Das optimale Zeitfenster liegt dann, wenn der Käufer genug Zeit hatte, das Produkt herunterzuladen, auszudrucken und mindestens einmal zu verwenden — aber kürzlich genug, dass die Erfahrung noch frisch ist und die positiven Eindrücke präsent sind.\n\nFür die meisten Druckvorlagen-Produkte liegt dieses optimale Zeitfenster zwischen 5 und 10 Tagen nach dem Kauf. Dieser Zeitrahmen berücksichtigt die typische Käuferreise: das Herunterladen der Datei innerhalb von ein oder zwei Tagen nach dem Kauf, das Ausdrucken in den folgenden Tagen und die mindestens einmalige Nutzung im Bildungsmarkt oder zu Hause, bevor die Bewertungsanfrage eintrifft. Einige Produkttypen können längere Zeitfenster rechtfertigen — ein umfassendes Arbeitsheft, das ein Käufer über mehrere Wochen verwenden möchte, verdient möglicherweise eine 14-tägige Verzögerung für eine sinnvolle Nutzung, während eine einzelne Malvorlage innerhalb eines Tages nach dem Kauf verwendet werden kann, was eine 3-tägige Nachverfolgung angemessen macht.\n\nNutzen Sie die Messaging-Funktionen der Marktplätze, um Nachverfolgungs-Nachrichten zu senden, wo es die Plattformbedingungen erlauben. Nicht alle Plattformen erlauben oder fördern vom Verkäufer initiierte Nachkauf-Kommunikation, also überprüfen Sie die aktuellen Nutzungsbedingungen für jeden Marktplatz, bevor Sie die Nachverfolgungskommunikation implementieren. Wo erlaubt, sollte Ihre Nachverfolgungsnachricht mit Mehrwert beginnen statt mit einer Bewertungsanfrage. Eröffnen Sie mit einer aufrichtigen Nachfrage: „Ich wollte sicherstellen, dass Ihr [Produktname] korrekt heruntergeladen wurde und gut für Ihre Klasse funktioniert." Folgen Sie mit einem spezifischen Nutzungstipp oder Vorschlag zum Produkt. Schließen Sie mit einer natürlichen Erwähnung von Bewertungen: „Wenn Sie einen Moment Zeit haben, würde ich gerne hören, wie die Arbeitsblätter für Ihre Nutzer funktioniert haben — Ihr Feedback hilft mir, bessere Ressourcen zu erstellen, und hilft anderen Käufern, das zu finden, was sie brauchen."\n\nDer Ton Ihrer Nachverfolgungskommunikation beeinflusst direkt, ob sie eine positive Reaktion oder Verärgerung erzeugt. Schreiben Sie als echte Person in einem aufrichtigen Gespräch, nicht als Unternehmen, das ein Marketing-Konzept umsetzt. Verwenden Sie den Vornamen des Käufers, wenn verfügbar. Beziehen Sie sich auf das spezifische Produkt, das er gekauft hat, anstatt eine generische Vorlage zu verwenden, die massenproduziert wirkt. Drücken Sie echtes Interesse daran aus, wie das Produkt in seiner spezifischen Situation funktioniert hat. Käufer können sofort unterscheiden, ob sich ein Verkäufer wirklich für ihre Erfahrung interessiert oder ob er mechanisch Bewertungen einholt — und sie reagieren entsprechend.\n\nSenden Sie nie mehr als eine Nachverfolgungsnachricht pro Kauf. Eine einzelne, gut getimte, mehrwertorientierte Nachverfolgung ist professionell und wird geschätzt. Eine zweite Nachricht, die die Bewertungsanfrage wiederholt, überschreitet die Grenze zur Belästigung und kann negative Stimmung erzeugen, die entweder zu einer verärgerten Bewertung oder einem Entfolgen Ihres Shops führt. Wenn der Käufer nicht auf Ihre Nachverfolgung reagiert oder keine Bewertung hinterlässt, akzeptieren Sie dieses Ergebnis mit Anstand. Die Mehrheit der Käufer wird nie eine Bewertung hinterlassen, unabhängig davon, wie perfekt Sie Ihre Bewertungsstrategie umsetzen — Ihr Ziel ist es, den Prozentsatz derer zu erhöhen, die es tun, nicht eine 100%ige Bewertungsrate zu erreichen, die weder realistisch noch für den Geschäftserfolg notwendig ist.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Amazon-Bewertungen haben enormes Gewicht, weil das Bewertungssystem der Plattform von Käufern in allen Produktkategorien als vertrauenswürdig angesehen wird. Für KDP-Arbeitsblatt-Verleger besteht die Herausforderung darin, dass Amazons Bewertungsprozess erfordert, dass Käufer zur Produktseite zurückkehren und zum Bewertungsbereich navigieren — ein Schritt, der genug Reibung erzeugt, um die Bewertungsraten im Vergleich zu Plattformen mit einfacheren Bewertungsabläufen deutlich zu senken. Fügen Sie in Ihre veröffentlichten Arbeitsbücher eine Bewertungsanfrage-Seite ein, die genau erklärt, wie man eine Amazon-Bewertung hinterlässt — in einfachen Schritt-für-Schritt-Begriffen. Positionieren Sie diese Seite gegen Ende des Arbeitsbuchs, wo Käufer sie nach der Nutzung des Inhalts begegnen. Amazons Bewertungsrichtlinien verbieten die Incentivierung von Bewertungen, daher muss Ihr Ansatz sich vollständig darauf konzentrieren, den Bewertungsprozess einfach zu machen und ihn als Hilfe für andere Käufer zu rahmen, die Qualitätsressourcen finden möchten. Produktqualität und Beschreibungsgenauigkeit sind auf Amazon besonders kritisch, weil Käufer, die sich durch das Listing getäuscht fühlen, das Bewertungssystem aggressiv nutzen, um andere zu warnen.`,
     },
     {
-      heading: 'Gumroad Bewertungskultur und bewährte Praktiken',
+      heading: `Gumroad Bewertungskultur und bewährte Praktiken`,
       content: `Gumroad hat die stärkste Bewertungskultur unter den Marktplätzen für Lernmaterial-Druckvorlagen, weil Käufer aktiv Bewertungen nutzen, um Ressourcen vor dem Kauf zu bewerten. Gumroads Bewertungssystem umfasst sowohl eine Sternebewertung als auch einen detaillierten Feedbackbereich, und viele Käufer schreiben gründliche Bewertungen, die praktischen Wert, Benutzerfreundlichkeit und Druckqualität evaluieren. Nutzen Sie diese Bewertungskultur, indem Sie Produkte erstellen, die speziell die Bewertungskriterien ansprechen, die Käufern wichtig sind: klare Lernziele, Ausrichtung an Bildungsstandards, Abstufungsoptionen und umfassende Lösungsschlüssel. Gumroad erlaubt Verkäufern, Feedback für Käufer zu hinterlassen, was einen gegenseitigen Austausch schafft, der zur Bewertungsbeteiligung ermutigt. Fügen Sie eine kurze Nachricht in Ihre Produktdateien ein, die sich speziell an Kolleginnen und Kollegen richtet: „Ihre Bewertung hilft anderen Käufern, Ressourcen zu finden, die Vorbereitungszeit sparen und ihre Nutzer motivieren — ich lese jede Bewertung und nutze Ihr Feedback zur Verbesserung zukünftiger Ressourcen." Gumroads Gemeinschaftsorientierung macht diese Peer-to-Peer-Rahmung besonders effektiv.`,
     },
   ],
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Die Beziehung zwischen Bewertungsanzahl und Konversionsrate folgt einer vorhersagbaren Kurve. Produkte mit null Bewertungen konvertieren mit der niedrigsten Rate, weil Käufern jeglicher sozialer Beweis fehlt, um ihre Kaufentscheidung zu validieren. Die ersten 5 bis 10 Bewertungen erzeugen die dramatischste Konversionsverbesserung, weil sie das Produkt in der Wahrnehmung des potenziellen Käufers von „unvalidiert" zu „käufer-geprüft" verschieben. Jede weitere Bewertung verbessert die Konversion weiter, aber mit abnehmendem Grenznutzen — der Unterschied zwischen 50 Bewertungen und 55 Bewertungen ist kleiner als der Unterschied zwischen 0 Bewertungen und 5 Bewertungen. Für Druckvorlagen-Verkäufer bedeutet dies, dass der prioritätshöchste Bewertungsgenerierungsaufwand darauf abzielen sollte, neue Produkte so schnell wie möglich über die Null-Bewertungen-Schwelle zu bringen, da diese anfängliche Bewertungsdynamik den größten proportionalen Einfluss auf den Umsatz hat.`,
     },
     {
-      heading: 'Bewertungen als Marktplatz-Suchranking-Faktor',
+      heading: `Bewertungen als Marktplatz-Suchranking-Faktor`,
       content: `Marktplatz-Suchalgorithmen behandeln Bewertungen als Produktqualitätssignal, das die Listing-Sichtbarkeit beeinflusst. Auf Etsy, Amazon und Gumroad tendieren Produkte mit mehr positiven Bewertungen dazu, höher in den Suchergebnissen für relevante Anfragen zu ranken. Dies schafft eine kumulative Wachstumsdynamik: höhere Rankings generieren mehr Aufrufe, mehr Aufrufe produzieren mehr Verkäufe, mehr Verkäufe generieren mehr Bewertungen, und mehr Bewertungen verbessern das Ranking weiter. Verkäufer, die frühzeitig im Lebenszyklus eines Produkts in legitime Bewertungsgenerierungsstrategien investieren, gewinnen einen Sichtbarkeitsvorteil bei der Suche, der mit zunehmender Bewertungslücke für Wettbewerber immer schwieriger zu überwinden wird. Jede positive Bewertung ist nicht nur sozialer Beweis für den einzelnen Käufer, der sie liest — sie ist auch ein Input für den Algorithmus, der bestimmt, wie viele zukünftige Käufer Ihr Produkt überhaupt in den Suchergebnissen sehen werden.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Nein. Jeder große Marktplatz verbietet ausdrücklich anreizbasierte Bewertungen, einschließlich des Anbietens von Rabatten, Gutscheinen, zukünftigen Produkten oder anderen Vorteilen im Austausch für eine Bewertung. Ein Verstoß gegen diese Richtlinie kann zur Entfernung von Bewertungen, Listing-Sperrung oder dauerhafter Kontokündigung führen. Über die Richtlinieneinhaltung hinaus untergraben anreizbasierte Bewertungen das Vertrauen, das Bewertungen erst wertvoll macht. Wenn Käufer vermuten, dass positive Bewertungen gekauft oder incentiviert wurden statt verdient, verlieren die Bewertungen ihre Überzeugungskraft. Konzentrieren Sie sich ausschließlich darauf, organische Bewertungen durch Produktqualität, klare Erwartungen, professionelle Nachverfolgung und die Vereinfachung des Bewertungsprozesses zu verdienen. Authentische Bewertungen von aufrichtig zufriedenen Käufern sind überzeugender und nachhaltiger als jede Menge incentiviertes Feedback.`,
     },
     {
-      question: 'Wie schnell sollte ich auf Bewertungen reagieren?',
+      question: `Wie schnell sollte ich auf Bewertungen reagieren?`,
       answer: `Reagieren Sie auf alle Bewertungen innerhalb von 24 bis 48 Stunden. Zeitnahe Antworten demonstrieren aktives Verkäuferengagement und zeigen potenziellen Käufern, dass Sie Kundenfeedback überwachen und ernst nehmen. Bei negativen Bewertungen sind zeitnahe Antworten besonders wichtig, weil sie das Zeitfenster begrenzen, in dem ein potenzieller Käufer eine unbeantwortete Beschwerde sieht. Eine negative Bewertung mit einer konstruktiven Verkäuferantwort am selben Tag liest sich sehr anders als eine negative Bewertung, die zwei Wochen unbeantwortet blieb. Legen Sie eine tägliche Routine fest, um Bewertungen auf allen Plattformen zu überprüfen — nicht mehr als 5 Minuten pro Tag. Diese kleine Zeitinvestition bringt überproportionale Erträge in Käufervertrauen und Shop-Glaubwürdigkeit.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'kundensupport-digitale-produkte', anchorText: 'Kundensupport für digitale Produktunternehmen' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für Lernmaterial-Druckvorlagen' },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Eine Druckvorlagen-Produktlinie erstellen' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lernmaterial-Druckvorlagen' },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'Ihr Druckvorlagen-Geschäft skalieren' },
-    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: 'E-Mail-Marketing für Druckvorlagen-Verkäufer' },
+    { pageType: 'guide', slug: `kundensupport-digitale-produkte`, anchorText: `Kundensupport für digitale Produktunternehmen` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: `Etsy SEO für Lernmaterial-Druckvorlagen` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Eine Druckvorlagen-Produktlinie erstellen` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lernmaterial-Druckvorlagen` },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `Ihr Druckvorlagen-Geschäft skalieren` },
+    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: `E-Mail-Marketing für Druckvorlagen-Verkäufer` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischenauswahl-Leitfaden für Druckvorlagen-Unternehmen` },
-    { pageType: 'guide', slug: 'qualitaetsstandards-arbeitsblaetter', anchorText: `Qualitätsstandards für professionelle Arbeitsblätter` },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'guide', slug: `qualitaetsstandards-arbeitsblaetter`, anchorText: `Qualitätsstandards für professionelle Arbeitsblätter` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Visueller, ansprechender Produkttyp, der starke positive Käuferreaktionen und detaillierte Bewertungen generiert. Zuordnungsarbeitsblätter zeigen Qualität durch farbenfrohe Themen und intuitive Layouts, über die Käufer gerne Feedback geben.`,
     },
     {
@@ -169,29 +169,29 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Zeitloser Matheinhalt, bei dem Genauigkeit, klare Formatierung und professionelle Lösungsschlüssel Käufervertrauen verdienen und positive Bewertungen von Käufern auslösen, die zuverlässige Ressourcen schätzen.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/Paare Finden 1.webp',
+      src: `/samples/german/matching/Paare Finden 1.webp`,
       alt: `Professionelles Zuordnungsarbeitsblatt, das die Produktqualität demonstriert, die positive Käuferbewertungen verdient`,
     },
     samples: [
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: `/samples/german/matching/Paare Finden 1.webp`,
         alt: `Zuordnungsarbeitsblatt, das visuelle Qualität zeigt, die positive Käuferbewertungen antreibt`,
         caption: `Hochwertige Zuordnungsarbeitsblätter verdienen natürlich positive Bewertungen durch visuelle Attraktivität und praktischen Wert`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Malvorlage, die professionelle Designqualität demonstriert, die Käuferfeedback motiviert`,
         caption: `Professionelle Malvorlagen generieren Bewertungen, weil Käufer die Designqualität sofort sehen und schätzen können`,
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wörtersuchrätsel, das das beliebte Produktformat zeigt, das hohes Bewertungsvolumen generiert`,
         caption: `Wörtersuchrätsel generieren hohes Verkaufsvolumen und konsistente positive Bewertungsraten über Altersgruppen hinweg`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
+    { src: `/image-library/flowers/aster.webp`, alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalee — thematisches Lernbild`, caption: 'Azalee' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonie — thematisches Lernbild`, caption: 'Begonie' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Glockenblume — thematisches Lernbild`, caption: 'Glockenblume' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Butterblume — thematisches Lernbild`, caption: 'Butterblume' },
   ],
 };
 

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Thanksgiving Printables Verkopen — Nichegids',
+    titleTag: `Thanksgiving Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende Thanksgiving printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Oogstthema productconcepten en seizoenstips voor verkopers.`,
 
     primaryKeyword: 'thanksgiving printable ideeën',
     secondaryKeywords: [
-      'Thanksgiving werkbladen verkopen',
-      'Thanksgiving printable business ideeën',
-      'Thanksgiving activiteiten voor verkopers',
-      'Thanksgiving printables verkopen op Etsy',
+      `Thanksgiving werkbladen verkopen`,
+      `Thanksgiving printable business ideeën`,
+      `Thanksgiving activiteiten voor verkopers`,
+      `Thanksgiving printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'oogst en dankbaarheid educatieve werkbladen',
+      `oogst en dankbaarheid educatieve werkbladen`,
       'november klasactiviteiten',
-      'kalkoen en herfstthema printables',
+      `kalkoen en herfstthema printables`,
     ],
   },
   hero: {
@@ -45,17 +45,17 @@ Om maximale Thanksgivingomzet te behalen, ontwikkel je producten over meerdere s
       appId: 'find-and-count',
     },
     {
-      title: 'Thanksgiving Woordzoekpuzzels Online Verkopen',
+      title: `Thanksgiving Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met oogstvocabulaire trekken verkopers aan die novemberactiviteiten plannen en ouders die educatief vermaak zoeken tijdens de Thanksgivingvieringsperiode. Maak puzzels met Thanksgivingspecifiek vocabulaire zoals turkey, pumpkin, harvest, pilgrim, gratitude, cornucopia en feast naast bredere herfstvieringstermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer Thanksgivingtermen voor oudere gebruikers. Variaties zoals oogstvocabulaire, dankbaarheidswoorden en herfstnatuurterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Thanksgiving Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met Thanksgivingthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het brede novemberkoperspubliek aanspreken. Maak sets waarin kinderen oogstvoedsel koppelen aan hun bron, Thanksgivingsymbolen combineren met hun betekenis, herfstbladeren matchen met hun boomsoort, of kalkoenen verbinden met bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die novembervieringen online plannen waar gestructureerde activiteiten opgewonden kinderen gefocust houden. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met Thanksgivingthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het brede novemberkoperspubliek aanspreken. Maak sets waarin kinderen oogstvoedsel koppelen aan hun bron, Thanksgivingsymbolen combineren met hun betekenis, herfstbladeren matchen met hun boomsoort, of kalkoenen verbinden met bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die novembervieringen online plannen waar gestructureerde activiteiten opgewonden kinderen gefocust houden. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Thanksgiving Optelwerkbladen voor Rekenverkopers',
+      title: `Thanksgiving Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met oogstillustraties transformeren routinematige rekenoefeningen in feestelijke activiteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens de gezellige novemberweken. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen pompoenen op het veld optellen, kalkoenthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met maïskolven, eikels en herfstbladeren. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met Thanksgivingvisuele context. Thanksgiving-rekenwerkbladen zijn sterk gevraagd omdat verkopers productgerichte oefeningen nodig hebben die passen bij de seizoensenergie in hun productlijnen.`,
       appId: 'addition',
     },
@@ -94,13 +94,13 @@ Om maximale Thanksgivingomzet te behalen, ontwikkel je producten over meerdere s
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Thanksgiving Printables Verkopen op Etsy',
+      title: `Thanksgiving Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor Thanksgiving printable-vermeldingen, en het herfstwinkelseizoen creëert een aanzienlijke verkeerspiek voor educatieve digitale downloads. Publiceer je Thanksgivingvermeldingen tegen half september om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de oktobervraagsurge begint. Gebruik alle dertien tags met variaties die Thanksgivingsubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "Thanksgiving counting worksheets preschool," "harvest word search kindergarten" en "turkey coloring pages toddler" richten zich op specifieke koperszoekopdrachten. Let op: gebruik Engelse zoekwoorden voor Etsy.com omdat het koperspubliek overwegend Amerikaans is. Nederlandse verkopers hebben het voordeel dat ze buiten de Amerikaanse feestdagendrukte kunnen werken aan catalogusoptimalisatie.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Thanksgiving Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor Thanksgivingprintables omdat Amerikaans ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast Thanksgivingdecoraties en -benodigdheden. Compileer individuele Thanksgivingwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond oogstthema's combineren. Gebruik KDP-zoekwoordvelden strategisch met Engelse termen: "Thanksgiving activity book for kids," "harvest worksheets preschool" en "turkey coloring book." Prijs tussen vier en acht dollar voor optimale royaltymarges, en positioneer je boeken als reisvermaak voor Thanksgivingautotrips en gezinsbijeenkomstactiviteiten. Publiceer tegen half september om je boeken geïndexeerd en beschikbaar te hebben vóór de oktoberkoopgolf.`,
+      title: `Thanksgiving Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor Thanksgivingprintables omdat Amerikaans ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast Thanksgivingdecoraties en -benodigdheden. Compileer individuele Thanksgivingwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond oogstthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch met Engelse termen: "Thanksgiving activity book for kids," "harvest worksheets preschool" en "turkey coloring book." Prijs tussen vier en acht dollar voor optimale royaltymarges, en positioneer je boeken als reisvermaak voor Thanksgivingautotrips en gezinsbijeenkomstactiviteiten. Publiceer tegen half september om je boeken geïndexeerd en beschikbaar te hebben vóór de oktoberkoopgolf.`,
     },
     {
       platform: 'Gumroad',
@@ -133,7 +133,7 @@ Om maximale Thanksgivingomzet te behalen, ontwikkel je producten over meerdere s
     },
     {
       question: `Welke Thanksgiving subthema's verkopen het beste?`,
-      answer: `De bestverkopende Thanksgiving subthema's zijn kalkoenen, pompoenen, dankbaarheidsactiviteiten en oogstscènes. Kalkoenen zijn het meest iconische Thanksgivingsymbool en werken voor alle leeftijdsgroepen. Pompoenen overbruggen Thanksgiving en het bredere herfstseizoen en genereren verkopen over een langere periode. Dankbaarheidsactiviteiten — schrijfopdrachten, dankbaarheidsbomen en gratitude journals — zijn bijzonder populair bij verkopers omdat ze sociaal-emotioneel leren integreren met het feestdagenthema. Oogstscènes bieden visuele rijkdom voor tel- en koppelactiviteiten. Voor maximale omzet bied je producten aan in al deze subthema's en bundel je ze in uitgebreide Thanksgivingpakketten.`,
+      answer: `De bestverkopende Thanksgiving subthema`s zijn kalkoenen, pompoenen, dankbaarheidsactiviteiten en oogstscènes. Kalkoenen zijn het meest iconische Thanksgivingsymbool en werken voor alle leeftijdsgroepen. Pompoenen overbruggen Thanksgiving en het bredere herfstseizoen en genereren verkopen over een langere periode. Dankbaarheidsactiviteiten — schrijfopdrachten, dankbaarheidsbomen en gratitude journals — zijn bijzonder populair bij verkopers omdat ze sociaal-emotioneel leren integreren met het feestdagenthema. Oogstscènes bieden visuele rijkdom voor tel- en koppelactiviteiten. Voor maximale omzet bied je producten aan in al deze subthema`s en bundel je ze in uitgebreide Thanksgivingpakketten.`,
     },
     {
       question: `Hoe maak ik efficiënt Thanksgiving werkbladen met generator tools?`,
@@ -149,62 +149,62 @@ Om maximale Thanksgivingomzet te behalen, ontwikkel je producten over meerdere s
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween printable businessideeën',
+      anchorText: `Halloween printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Kerst printable businessideeën',
+      anchorText: `Kerst printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Terug naar school printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Appel — educatieve thema-afbeelding Thanksgiving', caption: 'Appel' },
-    { src: '/image-library/fruits/apricot.webp', alt: `Abrikoos — educatieve thema-afbeelding Thanksgiving`, caption: 'Abrikoos' },
-    { src: '/image-library/fruits/avocado.webp', alt: `Avocado — educatieve thema-afbeelding Thanksgiving`, caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banaan — educatieve thema-afbeelding Thanksgiving', caption: 'Banaan' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Braam — educatieve thema-afbeelding Thanksgiving', caption: 'Braam' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Bosbes — educatieve thema-afbeelding Thanksgiving', caption: 'Bosbes' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Appel — educatieve thema-afbeelding Thanksgiving`, caption: 'Appel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Abrikoos — educatieve thema-afbeelding Thanksgiving`, caption: 'Abrikoos' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — educatieve thema-afbeelding Thanksgiving`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banaan — educatieve thema-afbeelding Thanksgiving`, caption: 'Banaan' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Braam — educatieve thema-afbeelding Thanksgiving`, caption: 'Braam' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Bosbes — educatieve thema-afbeelding Thanksgiving`, caption: 'Bosbes' },
   ],
 
   youtubeId: '0cOPi7eajLs',

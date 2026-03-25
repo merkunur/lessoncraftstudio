@@ -4,7 +4,7 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'alfabetståg arbetsblad',
     secondaryKeywords: [
-      'skapa alfabetståg arbetsblad att sälja',
+      `skapa alfabetståg arbetsblad att sälja`,
       `alfabetståg arbetsblad generator kommersiellt bruk`,
       `utskriftsbart bokstavsigenkänning tåg-skapare för Etsy och KDP`,
       `språkkänsliga bokstavsmatchnings-arbetsblad med facit`,
@@ -13,16 +13,16 @@ const content: GuideContent = {
       `elva färgglada tågvagnar bokstav-bild matchning arbetsblad-skapare`,
       `automatiskt skapa manuellt val två skapandelägen alfabetgenerator`,
       `konfigurerbart tre till elva ledtrådsantal svårighetsskalning skapare`,
-      'sälja alfabetståg arbetsblad på Etsy',
-      'Amazon KDP bokstavsigenkänning tåg-arbetsböcker',
-      'kommersiell licens alfabetståg verktyg',
+      `sälja alfabetståg arbetsblad på Etsy`,
+      `Amazon KDP bokstavsigenkänning tåg-arbetsböcker`,
+      `kommersiell licens alfabetståg verktyg`,
     ],
-    titleTag: 'Alfabetståg arbetsblad — Guide',
+    titleTag: `Alfabetståg arbetsblad — Guide`,
     metaDescription: `Hur du skapar alfabetståg-arbetsblad med tågvagnar, två skapandelägen, konfigurerbar svårighet och 104 temabildsamlingar. Sälj på Etsy, KDP och Gumroad.`,
   },
 
   hero: {
-    title: 'Hur du skapar alfabetståg-arbetsblad',
+    title: `Hur du skapar alfabetståg-arbetsblad`,
     tagline: `En steg-för-steg-guide för att skapa bokstavsigenkännings-arbetsblad med 11 färgglada tågvagnar som bär bokstäver och matchande illustrationer, två skapandelägen (Automatisk skapning för slumpmässig generering och Manuellt val för produktkatalogsanpassade bokstavsgrupper), konfigurerbart ledtrådsantal från 3 till 11 för inbyggd svårighetsskalning, språkkänslig bokstavsmatchning över 11 inhemska alfabet där samma bild paras med olika bokstäver per språk, och automatiskt genererade facit du kan sälja över hela världen på Etsy, Amazon KDP och Gumroad`,
     description: `Alfabetståg-arbetsblad är en visuellt distinkt bokstavsigenkänningsaktivitet där användare matchar utspridda ledtrådsbilder till rätt tågvagn baserat på vilken bokstav varje bild börjar med. Till skillnad från platta bokstavsövningsblad som smälter samman i marknadsplatslistningar är den färgglada 11-vagns tåglayouten omedelbart igenkännbar och scrollstoppande. Alfabetståg-skaparen erbjuder två skapandelägen — Automatisk skapning för snabb massproduktion och Manuellt val för handplockade bokstavsgrupper — plus ett konfigurerbart ledtrådsreglage från 3 till 11 som skapar naturliga svårighetsnivåer. Den verkliga konkurrensfördelen är språkkänslig bokstavsmatchning: samma bild paras med olika bokstäver beroende på valt språk, så en hundbild matchar D på engelska men H på tyska (Hund), C på franska (Chien) och P på spanska (Perro). Detta innebär att en designsession producerar genuint annorlunda pusselinnehåll på 11 språk.`,
   },
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Öppna Bildbibliotekspanelen och bläddra bland 104 temasamlingar med över 3 100 färgglada illustrationer. Kategorier spänner över djur, mat, fordon, natur, högtider, yrken, sport, årstider och dussintals fler.\n\nVarje bild paras automatiskt med rätt bokstav baserat på det valda språket. Detta är det språkkänsliga matchningssystemet. En hundbild paras med D på engelska eftersom "dog" börjar med D. Byt till tyska, och samma hund paras med H för "Hund." Byt till franska, och den paras med C för "Chien." Samma bilduppsättning producerar autentiskt annorlunda arbetsblad på varje språk.\n\nLadda upp dina egna PNG- eller JPEG-bilder för varumärkesdesigner. Anpassade uppladdningar skapar unika produkter som ingen konkurrent kan replikera.\n\nBilder med färgglada, distinkta illustrationer fungerar bäst eftersom varje bild måste vara omedelbart igenkännbar.`,
     },
     {
-      heading: 'Konfigurera ledtrådsantal och namn/datumfält',
+      heading: `Konfigurera ledtrådsantal och namn/datumfält`,
       content: `Ledtrådsreglaget är det inbyggda svårighetssystemet. Justera mellan 3 och 11 för att kontrollera hur många matchande ledtrådsbilder som visas.\n\nVid 3 ledtrådar har bara 3 av 11 vagnar en matchningsuppgift. Resterande 8 vagnar visar bokstäver utan matchning. Enklaste nivån, idealisk för förskolebarn.\n\nVid 5–7 ledtrådar har ungefär hälften av vagnarna matchningsuppgifter. Mellannivå för förskoleklass till årskurs 1.\n\nVid 9–11 ledtrådar kräver nästan varje vagn en matchning. Svåraste nivån, fungerar som utvärdering.\n\nDetta trestegssystem översätts direkt till produktdesign. Skapa samma tematiska arbetsblad vid 3, 7 och 11 ledtrådar för enkel, medium och svår version på sekunder. Paketera alla tre som ett nivågrupperat set.\n\nVäxla namn- och datumfält beroende på din målmarknad. produktlinjesarbetsblad gynnas av namn/datumfält. Digitala nedladdningar ser ofta renare ut utan dem.`,
     },
     {
@@ -66,26 +66,26 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Sälja alfabetståg-arbetsblad på Etsy',
+      heading: `Sälja alfabetståg-arbetsblad på Etsy`,
       content: `Etsy är en stark marknadsplats eftersom föräldrar och säljare aktivt söker bokstavsigenkänningsaktiviteter. Titlar som "Alfabetståg arbetsblad — Bokstavsigenkänningsaktiviteter — Tågvagnsmatchning — Med facit" fångar riktad söktrafik.\n\nNamnge produkter med specifikt ledtrådsantal och tema. "Djur alfabetståg arbetsblad — 15 bokstavsmatchningsaktiviteter — Enkel medium svår svårighetsnivåer — Utskriftsbar med facit" överträffar "Alfabetsarbetsblad för barn."\n\nTaggar: använd alla 13. Kombinera brett och specifikt. Listningsbilder: visa det kompletta arbetsblad med alla 11 färgglada vagnar tydligt synliga.\n\nPrissättning: enskilda tematiska set med 10–15 arbetsblad vid en svårighetsnivå $2,99–$5,99. nivågrupperade set med enkel, medium och svår $6,99–$9,99. Kompletta samlingar med flera svårigheter, teman och språk $14,99–$24,99.`,
     },
     {
-      heading: 'Sälja alfabetståg-arbetsblad på Amazon KDP',
+      heading: `Sälja alfabetståg-arbetsblad på Amazon KDP`,
       content: `Amazon KDP betjänar bokstavsigenkännings-aktivitetsboksmarknaden. Samla 50–80 arbetsblad till en bunden bok med progressiv svårighet.\n\nStrukturera din arbetsbok i kapitel efter svårighet: öppningskapitel använder 3 ledtrådar med bekanta teman, mittkapitel ökar till 5–7, och slutkapitel använder 9–11 för omfattande utmaning. Inkludera facit per kapitel.\n\nTitel och undertitel: exempeltitel: "Alphabet Train Activity Book for Kids." Exempel-undertitel: "80 Letter Recognition Worksheets with Answer Keys for Ages 3–7 — Three Difficulty Levels."\n\nVäxla gråskala för bläcksnål utskrift som håller KDP-tryckningskostnader låga.`,
     },
     {
-      heading: 'Sälja alfabetståg-arbetsblad på Gumroad',
+      heading: `Sälja alfabetståg-arbetsblad på Gumroad`,
       content: `Gumroad är idealisk eftersom bokstavsigenkänning övas dagligen i förskola till årskurs 1. Tågformatet gör att användare uppfattar aktiviteten som ett spel snarare än en drill.\n\nProduktbeskrivningar bör inkludera: målålder, specifika färdigheter (bokstavsigenkänning, initialljudsidentifiering), antal arbetsblad per svårighetsnivå, om facit ingår, skapandeläge (specificera om produktkatalogsanpassat via Manuellt val), teman och språktillgänglighet.\n\nFörhandsgranskningsfiler: inkludera 2–3 exempel som visar olika ledtrådsantal och ett facit.\n\nPaketering: "Komplett alfabetståg-paket" med alla tre svårighetsnivåer över 4–5 teman. Skapa produktkatalogsanpassade set med Manuellt val som matchar populära fonologiprogram.\n\nGumroad-nyckelord: "alfabetståg arbetsblad," "bokstavsigenkänning matchning," "initialljud aktiviteter," "nivågrupperade bokstavsarbetsblad," "morgonarbete alfabet," "läscentra bokstavsmatchning."`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Prissättning av dina alfabetståg-produkter',
+      heading: `Prissättning av dina alfabetståg-produkter`,
       content: `Enstaka svårighetsnivåns tematiska set med 10–15 arbetsblad: $2,99–$5,99. Instegsprodukter.\n\nnivågrupperade set med enkel, medium och svår versioner: $6,99–$12,99. Köpare uppfattar starkt värde med tre svårighetsnivåer och facit.\n\nKompletta samlingar med 40–60 arbetsblad över flera svårigheter, teman och språk: $14,99–$24,99. Positionera som heltäckande bokstavsigenkänningsbibliotek.\n\nAlfalfabetståg-arbetsblad med 11 färgglada vagnar, två skapandelägen, konfiguerbart ledtrådsantal, språkkänslig matchning och automatiska facit är en premiumprodukt. Prissätt därefter.`,
     },
     {
-      heading: 'Paketeringsstrategier efter svårighet och tema',
+      heading: `Paketeringsstrategier efter svårighet och tema`,
       content: `Svårighetsnivåpaket: gruppera arbetsblad efter ledtrådsantal. "Enkla alfabetståg" med 3 ledtrådar. "Utmanande alfabetståg" med 9–11 ledtrådar.\n\nnivågrupperade paket: kombinera alla tre svårighetsnivåer för samma tema. "nivågrupperat djur-alfabetståg-paket" med 5 enkla (3 ledtrådar), 5 medium (7 ledtrådar) och 5 svåra (11 ledtrådar) med facit för alla 15. Kommenderar premiumpriser.\n\nTemabaserade paket: samla per bildkategori. "Havsdjur alfabetsamling" med marintemaillustrationer vid flera svårighetsnivåer.\n\nFlerspråkiga paket: skapa en temauppsättning och generera sedan samma teman på engelska, tyska, franska, spanska och fler. Eftersom bokstav-bild-kopplingarna ändras per språk är varje version en legitimt annorlunda produkt. "Flerspråkiga alfabetståg" till $12,99–$19,99 betjänar ESL-säljare, tvåspråkiga familjer och internationella program.\n\nLista alltid både enskilda set och paket.`,
     },
     {
@@ -111,15 +111,15 @@ const content: GuideContent = {
       answer: `Automatiskt skapandeläge väljer slumpmässigt 11 bokstäver och tilldelar matchande bilder — idealiskt för snabb massproduktion. Manuellt valläge visar hela alfabetsrutnätet och låter dig handplocka exakt 11 bokstäver — bäst för produktkatalogsanpassade produkter riktade mot specifika bokstavsgrupper som bara vokaler, bara konsonanter, eller bokstäver som matchar en viss veckas fonologiundervisning.`,
     },
     {
-      question: 'Hur fungerar ledtrådsantalets svårighetssystem?',
+      question: `Hur fungerar ledtrådsantalets svårighetssystem?`,
       answer: `Ledtrådsreglaget kontrollerar hur många matchande ledtrådsbilder som visas bredvid de 11 tågvagnarna. Vid 3 ledtrådar har bara 3 vagnar en matchningsuppgift (enklaste nivån). Vid 5–7 kräver ungefär hälften matchning (mellannivå). Vid 9–11 har nästan varje vagn en matchningsbild (svåraste nivån). Denna enda kontroll låter dig producera enkel, medium och svår version på sekunder.`,
     },
     {
-      question: 'Hur fungerar språkkänslig bokstavsmatchning?',
+      question: `Hur fungerar språkkänslig bokstavsmatchning?`,
       answer: `Varje bild paras med den bokstav dess namn börjar med på det valda språket. En hundbild matchar D på engelska, H på tyska (Hund), C på franska (Chien) och P på spanska (Perro). Att byta språk producerar genuint annorlunda pusselinnehåll där olika vagnar bär olika bokstäver och olika ledtråds-vagn-kopplingar visas.`,
     },
     {
-      question: 'Vilka språk och alfabet stöds?',
+      question: `Vilka språk och alfabet stöds?`,
       answer: `Verktyget stöder 11 språk med inhemska alfabet: engelska (26 bokstäver), tyska (30 inklusive Ä, Ö, Ü, ß), svenska (29 inklusive Å, Ä, Ö), spanska (inklusive Ñ), franska, portugisiska, italienska, nederländska, danska, norska och finska. Varje språk använder sin korrekta inhemska bokstavsordning.`,
     },
     {
@@ -155,56 +155,56 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'skapa-arbetsblad-som-saeljer', anchorText: `Hur du skapar professionella arbetsblad som säljer` },
-    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: 'Etsy utskriftsbart företag masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitetsboecker', anchorText: 'Amazon KDP aktivitetsboks-företagsguide' },
+    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: `Etsy utskriftsbart företag masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitetsboecker', anchorText: `Amazon KDP aktivitetsboks-företagsguide` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
     { pageType: 'app', slug: 'alfabettag-arbetsblad', anchorText: `Alfabetståg Arbetsblad Generator — Fullständig information` },
     { pageType: 'app', slug: 'skrivovningar-arbetsblad', anchorText: `Skrivövningar Arbetsblad Generator — Fullständig information` },
-    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: 'Prova Alfabetståg Arbetsblad-skaparen' },
+    { pageType: 'tool', slug: 'alfabetstaag-skapare', anchorText: `Prova Alfabetståg Arbetsblad-skaparen` },
   ],
 
   toolsRecommended: [
     {
       appId: 'alphabet-train',
-      title: 'Alfabetståg Arbetsblad Generator',
+      title: `Alfabetståg Arbetsblad Generator`,
       description: `Det primära verktyget för denna guide. Skapa bokstavsigenkänningsarbetsblad med 11 färgglada tågvagnar, två skapandelägen, konfigurerbart ledtrådsantal från 3 till 11, och språkkänslig bokstavsmatchning över 11 inhemska alfabet med automatiska facit.`,
     },
     {
       appId: 'writing-app',
-      title: 'Skrivövningar Arbetsblad Generator',
+      title: `Skrivövningar Arbetsblad Generator`,
       description: `En läskunnighetskompanjon som skapar guidad bokstavsformningsövning. användare som känner igen bokstäver genom alfabetståg kan gå vidare till att spåra och skriva samma bokstäver.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Ordsökning Arbetsblad Generator',
+      title: `Ordsökning Arbetsblad Generator`,
       description: `En ordnivå läskunnighetskompanjon som skapar dolda-ord-pussel. användare avancerar från bokstavsnivå till ordnivå.`,
     },
     {
       appId: 'pattern-train',
-      title: 'Mönster-tåg Arbetsblad Generator',
+      title: `Mönster-tåg Arbetsblad Generator`,
       description: `Samma färgglada tågvagnsformat tillämpat på mönsterigenkänning. Paketera alfabet- och mönster-tåg-arbetsblad till en sammanhängande "Tågaktiviteter"-produktlinje.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg`, alt: 'Alfabetståg-arbetsblad med 11 färgglada tågvagnar med bokstäver och matchande ledtrådsbilder' },
+    heroImage: { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg`, alt: `Alfabetståg-arbetsblad med 11 färgglada tågvagnar med bokstäver och matchande ledtrådsbilder` },
     samples: [
-      { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg`, alt: 'Färgglada alfabetståg-arbetsblad med 11 vagnar och bokstav-bild matchning', caption: 'Alfabetståg-arbetsblad med 11 färgglada vagnar och bokstav-bild matchningsuppgifter' },
-      { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%202.jpeg`, alt: 'Alfabetståg med tematiska bilder och flera matchningsuppgifter vid mellannivå', caption: 'Tematiskt alfabetståg med konfigurerbart ledtrådsantal för svårighetsskalning' },
-      { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%203.jpeg`, alt: 'Avancerat alfabetståg med 11 ledtrådar för maximal svårighetsgrad', caption: 'Full 11-ledtrådssvårighet för avancerad bokstavsigenkänningsövning' },
+      { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg`, alt: `Färgglada alfabetståg-arbetsblad med 11 vagnar och bokstav-bild matchning`, caption: `Alfabetståg-arbetsblad med 11 färgglada vagnar och bokstav-bild matchningsuppgifter` },
+      { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%202.jpeg`, alt: `Alfabetståg med tematiska bilder och flera matchningsuppgifter vid mellannivå`, caption: `Tematiskt alfabetståg med konfigurerbart ledtrådsantal för svårighetsskalning` },
+      { src: `/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%203.jpeg`, alt: `Avancerat alfabetståg med 11 ledtrådar för maximal svårighetsgrad`, caption: `Full 11-ledtrådssvårighet för avancerad bokstavsigenkänningsövning` },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: `Hur du skapar alfabetståg-arbetsblad — Komplett guide`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bi — tematisk pedagogisk bild', caption: 'Bi' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Tjur — tematisk pedagogisk bild', caption: 'Tjur' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pedagogisk bild', caption: 'Kalv' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katt 2 — tematisk pedagogisk bild', caption: 'Katt 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Bi — tematisk pedagogisk bild', caption: 'Bi' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Tjur — tematisk pedagogisk bild`, caption: 'Tjur' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Kalv — tematisk pedagogisk bild`, caption: 'Kalv' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katt 2 — tematisk pedagogisk bild`, caption: 'Katt 2' },
   ],
 };
 

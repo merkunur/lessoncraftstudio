@@ -1,17 +1,17 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'size comparison worksheet maker',
+    primaryKeyword: `size comparison worksheet maker`,
     secondaryKeywords: [
-      'big and small worksheets to sell',
-      'size comparison creator for Etsy sellers',
-      'printable size ordering worksheets commercial use',
-      'big small medium worksheets for KDP and Etsy',
+      `big and small worksheets to sell`,
+      `size comparison creator for Etsy sellers`,
+      `printable size ordering worksheets commercial use`,
+      `big small medium worksheets for KDP and Etsy`,
     ],
     lsiKeywords: [
-      'visual size discrimination worksheet generator',
-      'zero-text size comparison printable',
-      'big small ordering activity maker',
+      `visual size discrimination worksheet generator`,
+      `zero-text size comparison printable`,
+      `big small ordering activity maker`,
     ],
     titleTag: `Size Comparison Worksheet Maker — Sell on Etsy & KDP`,
     metaDescription: `Create size comparison worksheets with five question types, identical and different image modes, 104 themes. Try free — license available.`,
@@ -27,11 +27,11 @@ const content: ToolContent = {  seo: {
     title: `How to Create Size Comparison Worksheets in 8 Easy Steps`,
     steps: [
       {
-        title: 'Open the Big & Small Worksheet Maker',
+        title: `Open the Big & Small Worksheet Maker`,
         description: `Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building size comparison worksheets immediately.`,
       },
       {
-        title: 'Set the Page Layout and Background',
+        title: `Set the Page Layout and Background`,
         description: `In the Page Setup section, select your page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or enter a custom size. Choose a background color, select a decorative background theme from the image library with adjustable opacity, and add a border frame with independent opacity control. These layout settings give your worksheets a polished, branded look before you add any exercises.`,
       },
       {
@@ -43,19 +43,19 @@ const content: ToolContent = {  seo: {
         description: `Choose between two fundamentally different exercise styles. Identical Images mode displays the same picture at different sizes, isolating pure size perception with no confusing variables — ideal for beginner-tier products. Different Images mode shows distinct objects at different sizes, requiring solvers to compare unlike items and reason about relative size. Switching between modes doubles your product variety without changing any other settings.`,
       },
       {
-        title: 'Configure Exercise Count and Images Per Exercise',
+        title: `Configure Exercise Count and Images Per Exercise`,
         description: `Set the number of exercises per page from 1 to 10. Choose 2 or 3 images per exercise. Two images create straightforward bigger/smaller comparisons. Three images add the medium option, enable the Circle the Medium question type, and make numbering exercises more challenging with three items to order. Fewer large exercises per page suit focused practice for the beginner tier; more exercises create denser activity sheets.`,
       },
       {
-        title: 'Browse Themes or Upload Custom Images',
+        title: `Browse Themes or Upload Custom Images`,
         description: `Browse 104 themed image collections with 3,100+ illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Each theme provides visually coordinated images that work together in size comparison exercises. Or upload your own custom images for subject-specific worksheets. Toggle exercise numbers and answer indicator boxes on or off to customize the worksheet layout.`,
       },
       {
-        title: 'Add Text and Customize the Canvas',
+        title: `Add Text and Customize the Canvas`,
         description: `Use the Text Tools panel to add a worksheet title, name and date fields, or custom instructions. Choose from fonts including Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas. Alignment tools snap elements into position, lock and unlock controls protect finished elements while you edit others, and unlimited undo and redo let you experiment freely.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description: `Click Generate Answer Key to create a solved version where correct answers are highlighted and circled for instant visual verification. Toggle grayscale for ink-friendly black-and-white output. Download both the worksheet and answer key as a print-ready PDF or high-resolution JPEG at 300 DPI. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
     ],
@@ -71,11 +71,11 @@ const content: ToolContent = {  seo: {
       description: `Compile 60–100 size comparison exercises into a printed workbook for Amazon KDP. Structure chapters as a skill progression: Chapter 1 covers 2-image Circle the Big One with identical images, Chapter 2 switches to different images, Chapter 3 introduces Circle the Small One, Chapter 4 adds Circle the Medium with 3 images, and Chapter 5 advances to numbering exercises. Answer keys at the back. The zero-text visual format needs no translation for international KDP marketplaces — publish the same interior everywhere.`,
     },
     {
-      title: 'Tiered Visual Learning Product Bundles',
+      title: `Tiered Visual Learning Product Bundles`,
       description: `Build leveled size discrimination practice sets using question type as the differentiation axis. Level 1: Circle the Big One, 2 images, identical mode. Level 2: Circle the Small One, 2 images, different mode. Level 3: Circle the Medium, 3 images. Level 4: Number 1–2–3 ordering, 3 images. Each level targets a progressively harder skill — from simple identification to multi-step sequencing. Package with answer keys for a complete product. Buyers pay premium prices for tiered resources that cover multiple ability levels.`,
     },
     {
-      title: 'Zero-Text Global Sellability Products',
+      title: `Zero-Text Global Sellability Products`,
       description: `Because Big & Small worksheets contain only images with no text on the output, the exact same product works in every language without modification. Create one set of size comparison exercises and sell it to buyers worldwide — no translation, no separate language versions, no duplicate listings to maintain. This is a concrete advantage over text-based worksheet generators where every product needs localization. One creation session produces a universally sellable product for every marketplace.`,
     },
     {
@@ -83,39 +83,39 @@ const content: ToolContent = {  seo: {
       description: `Double your product range by creating each theme in both image modes. An "Identical Images" pack shows the same animal, vehicle, or food item at different sizes for pure size perception exercises. A "Different Images" pack shows distinct objects at different sizes for relative size reasoning challenges. Sell them separately or bundle both modes together at a premium. Two fundamentally different exercise experiences from the same theme with no additional content creation.`,
     },
     {
-      title: 'Seasonal and Holiday Size Activity Sets',
+      title: `Seasonal and Holiday Size Activity Sets`,
       description: `Use seasonal and holiday image themes to create time-limited size comparison bundles. A "Halloween Size Sorting" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple Circle the Big One warm-ups with advanced Number 1–2–3 ordering exercises in each seasonal set to cover multiple skill levels and maximize your buyer audience.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Question-Type-Graded Size Comparison Shop on Etsy',
+      title: `Question-Type-Graded Size Comparison Shop on Etsy`,
       description: `Open an Etsy shop specializing in size comparison worksheets organized by question type difficulty. Beginner packs feature Circle the Big One with 2 identical images — the simplest size discrimination task. Intermediate packs use Circle the Small One and Circle the Medium with 3 different images. Advanced packs feature Number 1–2–3 ordering exercises requiring multi-step sequencing. Most worksheet sellers offer generic one-difficulty products. Question-type grading lets buyers find the exact challenge level they need, improving reviews and driving repeat purchases.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Size Discrimination Workbook Series',
+      title: `Amazon KDP Size Discrimination Workbook Series`,
       description: `Compile 80+ size comparison exercises into themed workbooks for Amazon KDP. Structure a series by theme: "Animal Size Sorting," "Vehicle Big & Small," "Food Size Ordering." Each book progresses from simple 2-image identification to complex 3-image ordering with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Size comparison workbooks fill a specific early learning niche with year-round demand from buyers worldwide.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Visual Discrimination Product Packs',
+      title: `Gumroad Visual Discrimination Product Packs`,
       description: `Upload size comparison worksheet packs to Gumroad organized by skill level and theme. Include four difficulty tiers per theme using question type as the differentiation axis. Package with auto-generated answer keys for a complete product. The zero-text format works for any buyer regardless of language — especially valuable for international sales. Buyers search for "size comparison activities" and "big and small worksheets" and find limited quality options.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Visual Size Activity Funnel',
+      title: `Pinterest Visual Size Activity Funnel`,
       description: `Size comparison worksheets with colorful themed images are inherently pin-worthy — the visual format grabs attention in Pinterest feeds where most worksheet pins are text-heavy and visually dull. Pin sample worksheets showing the five question types with watermark, link to your shop or landing page, and collect email addresses for your subscriber list. Upsell full themed bundles and workbooks. The zero-text format means pins appeal to buyers in every country, not just English speakers.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Complete Visual Learning Toolkit',
+      title: `Gumroad Complete Visual Learning Toolkit`,
       description: `Bundle size comparison worksheets with matching worksheets, odd one out, shadow match, pattern train, and drawing lines to create a comprehensive visual learning toolkit on Gumroad. Each format exercises a different visual cognitive skill: Big & Small builds size discrimination, matching builds visual pairing, odd one out builds classification, shadow match builds shape recognition. A multi-format visual toolkit justifies a premium price point and gives users varied practice with coordinated themed images across every activity type.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Dual-Mode Product Line for Maximum Variety',
+      title: `Dual-Mode Product Line for Maximum Variety`,
       description: `Create every theme in both Identical Images and Different Images modes and sell them as separate products or premium bundles. Identical Images targets pure size perception for the beginner tier. Different Images targets relative size reasoning for more advanced products. This doubles your product catalog from one set of themes — 104 themes times two modes equals 208 potential product listings. Each mode genuinely exercises a different cognitive skill, so the differentiation is real and defensible in product descriptions.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -123,7 +123,7 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Use Question Type as Your Primary Difficulty Axis',
+      title: `Use Question Type as Your Primary Difficulty Axis`,
       description: `The five question types create a natural difficulty progression. Circle the Big One is easiest — solvers spot the obviously largest image. Circle the Small One is slightly harder because "smallest" requires more careful comparison. Circle the Medium is the hardest identification task because solvers must eliminate both extremes. Number 1–2–3 ordering requires multi-step sequencing. Use this progression to create graded product bundles from one design session.`,
     },
     {
@@ -131,15 +131,15 @@ const content: ToolContent = {  seo: {
       description: `Every theme can produce two fundamentally different exercise sets. Identical Images isolates pure size perception — the same cat at three different sizes. Different Images requires relative size reasoning — a dog, a bird, and a fish at different scales. Create both modes for the same theme and sell them separately or bundled together. Two genuinely different products from one design workflow.`,
     },
     {
-      title: 'Emphasize Zero-Text for Global Sellability',
+      title: `Emphasize Zero-Text for Global Sellability`,
       description: `Big & Small worksheets contain no text on the output — only images and visual indicators. This is your strongest competitive advantage for marketplace listings. Explicitly state "no translation needed — works worldwide" in every product description. Buyers from any country can purchase without worrying about language compatibility. List the same product on multiple international Etsy shops with identical files.`,
     },
     {
-      title: 'Match Exercise Count to Your Target Age Group',
+      title: `Match Exercise Count to Your Target Age Group`,
       description: `For the toddler market (ages 2–4), use 2–3 large exercises per page with 2 images each for maximum clarity. For the early-learner niche (ages 4–6), use 4–6 exercises with 2 or 3 images. For the K-2 product market and beyond, 6–10 exercises per page create efficient activity sheets. Specify the target age in your product titles and descriptions for better marketplace search targeting.`,
     },
     {
-      title: 'Use Grayscale for KDP and Bulk Printing',
+      title: `Use Grayscale for KDP and Bulk Printing`,
       description: `Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white output costs significantly less to print and meets KDP interior requirements for standard (non-premium color) books. Save color mode for Etsy listing previews and digital downloads where vibrant themed images attract clicks.`,
     },
     {
@@ -147,7 +147,7 @@ const content: ToolContent = {  seo: {
       description: `Pair size comparison worksheets with matching worksheets, odd one out, shadow match, and pattern activities. Each tool exercises a different visual discrimination skill: Big & Small covers size perception, matching covers visual pairing, odd one out covers classification, shadow match covers shape recognition. Multi-format visual bundles sell for more than any single activity type alone.`,
     },
     {
-      title: 'Upload Custom Images for Niche Markets',
+      title: `Upload Custom Images for Niche Markets`,
       description: `Use the custom image upload to create size comparison worksheets for niche audiences beyond the built-in library. Compare building sizes for architecture themes, food portions for health-themed products, or planet sizes for science-themed bundles. Custom images let you target specific buyer niches on Etsy and Gumroad where themed library images alone may not fit.`,
     },
   ],
@@ -158,7 +158,7 @@ const content: ToolContent = {  seo: {
       answer: `Yes. The tool offers a free trial with full features — all five question types, both image modes, adjustable exercise count, the image library, answer key generation, and all export formats. No signup, no credit card required. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.`,
     },
     {
-      question: 'What are the five question types?',
+      question: `What are the five question types?`,
       answer: `Circle the Big One asks solvers to find the largest image. Circle the Small One targets the smallest. Circle the Medium One requires identifying the middle-sized image (needs 3 images per exercise). Number 1–2–3 Small to Big asks solvers to label images in ascending size order. Number 1–2–3 Big to Small reverses to descending. The circle questions test identification; the numbering questions test multi-step sequencing.`,
     },
     {
@@ -166,7 +166,7 @@ const content: ToolContent = {  seo: {
       answer: `Identical Images mode shows the same picture at different sizes — for example, three copies of a cat at small, medium, and large scales. This isolates pure size perception. Different Images mode shows distinct objects at different sizes, requiring relative size reasoning. The two modes create fundamentally different exercises and effectively double your product variety from one tool.`,
     },
     {
-      question: 'Why do worksheets have no text on them?',
+      question: `Why do worksheets have no text on them?`,
       answer: `Big & Small worksheets are fully visual by design. Only images and visual indicators appear on the output — no written words. This makes worksheets universally usable regardless of language or reading level. Pre-literate users complete them without reading. For sellers, zero-text output means the same product sells worldwide without translation — one listing serves every market.`,
     },
     {
@@ -178,7 +178,7 @@ const content: ToolContent = {  seo: {
       answer: `The auto-generated answer key creates a solved version of your worksheet. For circle-type questions, the correct image is visually highlighted and circled. For numbering questions, the correct size order is displayed. The answer key downloads as a separate file alongside the worksheet. Including answer keys increases perceived product value and is expected by buyers on Etsy, Gumroad, and KDP.`,
     },
     {
-      question: 'Can I set 2 or 3 images per exercise?',
+      question: `Can I set 2 or 3 images per exercise?`,
       answer: `Yes. With 2 images, solvers make a straightforward bigger/smaller comparison. With 3 images, a medium option is introduced, enabling Circle the Medium and making numbering exercises harder with three items to order. Start with 2 images for the beginner tier and progress to 3 for more advanced products. You can also set 1–10 exercises per page for flexible worksheet density.`,
     },
     {
@@ -186,7 +186,7 @@ const content: ToolContent = {  seo: {
       answer: `Yes. Custom image upload lets you add any picture to your size comparison exercises. Upload photos, illustrations, or graphics relevant to your subject or audience. Custom images work with all five question types and both image modes. This is useful for niche topics like comparing building sizes, food portions, or planet sizes beyond the built-in 104-theme library.`,
     },
     {
-      question: 'What file formats and page sizes are available?',
+      question: `What file formats and page sizes are available?`,
       answer: `Download as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. PDFs are ideal for direct printing and KDP upload; JPEGs work for product mockups and social media.`,
     },
     {
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: `Big & Small Worksheets — Full Product Details` },
     { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
     { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Pattern Worksheet Maker' },
     { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },

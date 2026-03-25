@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'elterntag-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Muttertag-Arbeitsblätter auf Etsy erstellen',
-      'Vatertag-Druckvorlagen auf KDP verkaufen',
-      'Elterntag-Aktivitätsblätter auf Gumroad anbieten',
-      'Familien-Feiertags-Lernmaterialien für Shops',
+      `Muttertag-Arbeitsblätter auf Etsy erstellen`,
+      `Vatertag-Druckvorlagen auf KDP verkaufen`,
+      `Elterntag-Aktivitätsblätter auf Gumroad anbieten`,
+      `Familien-Feiertags-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'saisonale Mai-Juni-Nachfrage Druckvorlagen',
-      'Muttertag-Vatertag-Nische Arbeitsblätter',
-      'Familienfest-Thema Lernmaterialien Etsy',
+      `saisonale Mai-Juni-Nachfrage Druckvorlagen`,
+      `Muttertag-Vatertag-Nische Arbeitsblätter`,
+      `Familienfest-Thema Lernmaterialien Etsy`,
     ],
-    titleTag: 'Elterntag-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Elterntag-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Entdecken Sie Muttertag- und Vatertag-Druckvorlagen-Ideen für Etsy, Amazon KDP und Gumroad. Produktkonzepte zur Elternwürdigung und Plattformtipps für Verkäufer.`,
   },
   hero: {
@@ -42,7 +42,7 @@ Um maximalen Umsatz aus beiden Feiertagen zu erzielen, entwickeln Sie Produkte �
       appId: 'find-count',
     },
     {
-      title: 'Elterntag Wortsuch-Rätsel zum Online-Verkauf',
+      title: `Elterntag Wortsuch-Rätsel zum Online-Verkauf`,
       description: `Familienwürdigungs-Wortschatz-Wortsuchen ziehen Käufer an, die Mai- und Juni-Geschenkbastelaktivitäten planen, sowie Eltern, die während der Elternwürdigungszeit lehrreiche Unterhaltung suchen. Erstellen Sie Rätsel mit wertschätzungsspezifischem Vokabular wie Herz, Familie, Fürsorge, Dankbar, Umarmungen, Blumen und Feiern sowie breiteren Familienbeziehungsbegriffen. Der Wortsuch-Generator lässt Sie Rastergröße und Wortanzahl steuern, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Wertschätzungsbegriffen für ältere Nutzer an. Erstellen Sie separate Muttertag- und Vatertag-Versionen mit geschlechtsspezifischem Vokabular, um Ihren Produktkatalog mit minimalem Zusatzaufwand zu verdreifachen.`,
       appId: 'wordsearch',
     },
@@ -62,7 +62,7 @@ Um maximalen Umsatz aus beiden Feiertagen zu erzielen, entwickeln Sie Produkte �
       appId: 'coloring',
     },
     {
-      title: 'Elterntag Bingo-Karten für Shop-Feiern',
+      title: `Elterntag Bingo-Karten für Shop-Feiern`,
       description: `Elternwürdigungs-Bingokarten dienen Käufern bei Shop-Feiern und Familien, die Muttertags-Brunch-Aktivitäten oder Vatertags-Feier-Unterhaltung während der Frühlings-Feiertagssaison organisieren. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Familienvokabular-Liste, wodurch keine zwei Karten für Gruppenspiele identisch sind. Verkaufen Sie Shop-Sets von fünfundzwanzig bis dreißig Karten mit einem Ansagerblatt und einem Familienwürdigungs-Vokabular-Referenzleitfaden. Für den Familienmarkt erstellen Sie Bingo-Kits mit Wertschätzungssymbolen, Familienbeziehungswörtern und Feiervokabular, die Gruppen bei Partys und Feiertagsessen spielen können. Bingo-Produkte erzeugen starke saisonale Nachfrage, weil Shop-Wertschätzungsfeiern strukturierte Gruppenaktivitäten benötigen, die Nutzer engagiert halten.`,
       appId: 'bingo',
     },
@@ -91,7 +91,7 @@ Um maximalen Umsatz aus beiden Feiertagen zu erzielen, entwickeln Sie Produkte �
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Elterntag-Druckvorlagen auf Etsy verkaufen',
+      title: `Elterntag-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität für Elternwürdigungs-Druckvorlagen-Angebote, und die Doppel-Feiertags-Frühlingssaison erzeugt zwei bedeutende Besucherspitzen für lehrreiche digitale Downloads. Veröffentlichen Sie Ihre Muttertag-Angebote bis Anfang März und Vatertag-Angebote bis Ende April, damit Etsys Suchalgorithmen Zeit haben, Ihre Produkte vor jedem Nachfragepeak zu indexieren und zu ranken. Nutzen Sie alle dreizehn Tags mit Variationen, die Wertschätzungs-Unterthemen, Kompetenztypen und Altersgruppen kombinieren: „Muttertag Arbeitsblätter Vorschule", „Vatertag Ausmalbilder Kindergarten" und „Elternwürdigungs-Aktivitäten Shop" zielen auf spezifische Käufersuchen viel effektiver als breite Tags. Erstellen Sie geschenkorientierte Angebotsvariationen, die Aktivitäts-Sets als Shop-Geschenkbastel-Ressourcen oder druckbare Wertschätzungsgeschenke positionieren, die Kinder selbst personalisieren. Angebotsbilder, die gedruckte Arbeitsblätter mit Blumen, Herzen oder Familienfotos inszeniert zeigen, übertreffen flache digitale Vorschauen und erfassen die emotionale Geschenk-Stimmung, die Frühlings-Wertschätzungs-Traffic antreibt.`,
     },
     {
@@ -145,13 +145,13 @@ Um maximalen Umsatz aus beiden Feiertagen zu erzielen, entwickeln Sie Produkte �
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -165,38 +165,38 @@ Um maximalen Umsatz aus beiden Feiertagen zu erzielen, entwickeln Sie Produkte �
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'erntedankfest-druckvorlagen-ideen',
-      anchorText: 'Erntedankfest Druckvorlagen-Geschäftsideen',
+      slug: `erntedankfest-druckvorlagen-ideen`,
+      anchorText: `Erntedankfest Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Nelke — thematisches Lernbild', caption: 'Nelke' },
+    { src: `/image-library/flowers/aster.webp`, alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalee — thematisches Lernbild`, caption: 'Azalee' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonie — thematisches Lernbild`, caption: 'Begonie' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Glockenblume — thematisches Lernbild`, caption: 'Glockenblume' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Butterblume — thematisches Lernbild`, caption: 'Butterblume' },
+    { src: `/image-library/flowers/carnation.webp`, alt: 'Nelke — thematisches Lernbild', caption: 'Nelke' },
   ],
 
 
   youtubeId: '0cOPi7eajLs',
-  videoTitle: 'Muttertag & Vatertag Druckvorlagen — Produktdemo',
+  videoTitle: `Muttertag & Vatertag Druckvorlagen — Produktdemo`,
 };
 
 export default content;

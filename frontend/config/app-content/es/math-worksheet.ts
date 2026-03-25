@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puzzles algebraicos ilustrados',
+    primaryKeyword: `puzzles algebraicos ilustrados`,
     secondaryKeywords: [
       `fichas de puzzles algebraicos imprimibles para Etsy`,
       `generador de acertijos algebraicos para Amazon KDP`,
-      'vender fichas de puzzles algebraicos en Gumroad',
+      `vender fichas de puzzles algebraicos en Gumroad`,
       `fichas de puzzles algebraicos ilustrados licencia comercial`,
     ],
     lsiKeywords: [
       `productos digitales de álgebra visual para emprendedores`,
       `negocio de fichas de puzzles algebraicos imprimibles`,
-      'generador de acertijos algebraicos uso comercial',
+      `generador de acertijos algebraicos uso comercial`,
     ],
-    titleTag: 'Puzzles Algebraicos Ilustrados | Crear y Vender',
+    titleTag: `Puzzles Algebraicos Ilustrados | Crear y Vender`,
     metaDescription:
       `Crea puzzles algebraicos ilustrados para Etsy, KDP y Gumroad. Imágenes como variables, 4 niveles, solución única, 104 temas. Prueba gratis con marca de agua.`,
   },
@@ -40,17 +40,17 @@ const content: AppContent = {
           `Abre el panel de Configuración de Ejercicios y selecciona un nivel de dificultad. Muy Fácil y Fácil utilizan dos símbolos-imagen en un sistema de ecuaciones. Medio eleva el desafío a tres símbolos y tres ecuaciones vinculadas, requiriendo una deducción más compleja. Difícil presenta cuatro incógnitas simultáneas en cuatro ecuaciones. Elige entre Solo Suma o Suma y Resta para controlar las operaciones. Establece los valores mínimo y máximo (por defecto 0–20) y activa la opción Permitir Resultados Negativos para usuarios avanzados. Selecciona cuántos puzzles aparecen por página — de 1 a 6 — con optimización automática de orientación vertical u horizontal.`,
       },
       {
-        title: 'Elige imágenes para tus símbolos algebraicos',
+        title: `Elige imágenes para tus símbolos algebraicos`,
         description:
           `Abre el panel de Biblioteca de Imágenes y explora 104 temas — desde animales y comida hasta vehículos y festividades. Usa la barra de búsqueda para encontrar imágenes específicas al instante. Elige tu modo de selección: Seleccionar Imágenes Individualmente para elegir al menos 8 imágenes específicas, o Usar Tema Completo para incluir todas las imágenes de un tema. Cada puzzle toma de tu selección para asignar imágenes como símbolos de variables. También puedes subir tus propias imágenes personalizadas para un diseño único que se adapte a tu marca o línea de productos.`,
       },
       {
-        title: 'Añade texto, títulos y numeración de puzzles',
+        title: `Añade texto, títulos y numeración de puzzles`,
         description:
           `Usa el panel de Herramientas de Texto para añadir un título a la ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Personaliza la numeración de los puzzles con tu propio texto de etiqueta (por ejemplo, «Puzzle», «Problema», «Desafío») y establece el número de inicio. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento — con controles de capas, guías de alineación, bloqueo/desbloqueo, y deshacer y rehacer ilimitados.`,
       },
       {
-        title: 'Genera la clave de respuesta y descarga',
+        title: `Genera la clave de respuesta y descarga`,
         description:
           `Cambia a la pestaña Clave de Respuesta y haz clic en Generar Clave de Respuesta para crear una versión resuelta que muestra el valor numérico de cada imagen. Abre el menú de Descarga y exporta tanto la ficha como su clave de respuesta en JPEG de alta resolución o PDF listo para imprimir. Activa la exportación en escala de grises para versiones que ahorran tinta. Cada exportación se renderiza a más de 400 DPI para que tus puzzles algebraicos se vean nítidos ya sea impresos en casa, subidos a Etsy o incluidos en un cuaderno de actividades de Amazon KDP.`,
       },
@@ -61,7 +61,7 @@ const content: AppContent = {
     title: `Características Principales del Generador de Puzzles Algebraicos`,
     features: [
       {
-        title: 'Formato de puzzle algebraico ilustrado',
+        title: `Formato de puzzle algebraico ilustrado`,
         description:
           `Cada ficha presenta un sistema de ecuaciones vinculadas donde las imágenes sirven como variables desconocidas. En lugar de letras abstractas como x, y y z, los usuarios ven imágenes familiares — animales, vehículos, comida — que hacen que el concepto de variables sea tangible y accesible. Los usuarios analizan las relaciones entre ecuaciones, deducen el valor numérico de cada imagen y escriben sus respuestas. Este formato introduce un pensamiento algebraico genuino a una edad temprana, mucho más allá de los simples ejercicios de aritmética.`,
       },
@@ -86,7 +86,7 @@ const content: AppContent = {
           `Establece los valores mínimo y máximo para las soluciones de 0 a 20 por defecto, con control preciso sobre la dificultad de los problemas. Para usuarios más jóvenes, mantén los números pequeños y positivos. Para usuarios avanzados, activa la opción Permitir Resultados Negativos para introducir aritmética con signo en los sistemas de ecuaciones. El ajuste del rango se hace en un solo clic, permitiéndote producir versiones de principiante y avanzado del mismo conjunto de puzzles en minutos.`,
       },
       {
-        title: 'Generación automática de clave de respuesta',
+        title: `Generación automática de clave de respuesta`,
         description:
           `Haz clic en un botón para generar una clave de respuesta completa que revela el valor numérico asignado a cada símbolo-imagen. La pestaña de clave de respuesta muestra una vista previa en vivo para verificar la corrección antes de descargar. Exporta la clave de respuesta como un archivo JPEG o PDF separado, ideal para ediciones del vendedor, guías para padres o paquetes de productos en Etsy sin ningún trabajo manual.`,
       },
@@ -107,25 +107,25 @@ const content: AppContent = {
     title: `Cómo Vender Fichas de Puzzles Algebraicos Ilustrados en Línea`,
     cases: [
       {
-        title: 'Paquetes temáticos de puzzles algebraicos en Etsy',
+        title: `Paquetes temáticos de puzzles algebraicos en Etsy`,
         description:
           `Crea conjuntos de 10 a 20 fichas de puzzles algebraicos ilustrados clasificadas por dificultad — de Muy Fácil a Difícil — y publícalas como descargas instantáneas en Etsy. Incluye las claves de respuesta como archivos adicionales. El formato de puzzle algebraico destaca frente a las fichas de ejercicios aritméticos estándar, atrayendo a padres y vendedores que buscan actividades de resolución de problemas motivadoras. Fija el precio de los paquetes por nivel entre 4 $ y 6 $ y los mega-paquetes que cubren los cuatro niveles entre 14 $ y 20 $.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de puzzles algebraicos en Amazon KDP',
+        title: `Cuadernos de puzzles algebraicos en Amazon KDP`,
         description:
           `Compila de 50 a 100 puzzles algebraicos en un cuaderno de actividades impreso con formato para Amazon KDP. Usa dificultad progresiva — comienza con puzzles Muy Fácil de dos símbolos en suma y avanza hasta sistemas Difícil de cuatro símbolos con operaciones mixtas — para crear un recorrido de aprendizaje estructurado. Añade una portada, instrucciones que expliquen el formato de álgebra ilustrada y una sección de claves de respuesta al final. Los cuadernos de álgebra ilustrada ocupan un nicho menos saturado que los cuadernos de matemáticas estándar, dándote una ventaja competitiva en los resultados de búsqueda.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de matemáticas diferenciados para Gumroad',
+        title: `Centros de matemáticas diferenciados para Gumroad`,
         description:
           `Crea conjuntos de puzzles algebraicos por niveles usando los cuatro niveles de dificultad: Nivel 1 (Muy Fácil, 2 símbolos, suma), Nivel 2 (Fácil, 2 símbolos, operaciones mixtas), Nivel 3 (Medio, 3 símbolos) y Nivel 4 (Difícil, 4 símbolos). Empaqueta cada nivel con claves de respuesta y una hoja de seguimiento de progreso. Los compradores de Gumroad pagan precios premium por recursos diferenciados que se ajustan directamente a grupos de habilidades e introducen el razonamiento algebraico sin notación abstracta.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Contenido de suscripción para tu propia tienda',
+        title: `Contenido de suscripción para tu propia tienda`,
         description:
           `Usa el generador para producir paquetes semanales de puzzles algebraicos y distribúyelos a través de tu propia tienda en Shopify, Gumroad o Payhip. Un modelo de suscripción — nuevo paquete temático de puzzles cada semana — genera ingresos recurrentes y fideliza una base de clientes de emprendedores y centros de tutoría. Con cuatro niveles de dificultad, dos modos de operación, rangos de números configurables y 104 temas, tienes suficientes combinaciones para años de contenido único.`,
         platform: 'Gumroad / Shopify / Payhip',
@@ -134,7 +134,7 @@ const content: AppContent = {
         title: `Herramienta de participación para venta en línea y tutoría`,
         description:
           `Genera puzzles algebraicos personalizados adaptados al nivel actual de cada usuario. Imprime fichas Muy Fácil de dos símbolos para principiantes y sistemas Difícil de cuatro símbolos para usuarios avanzados — todo en la misma sesión. El formato de álgebra ilustrada hace que el pensamiento algebraico temprano sea accesible para usuarios jóvenes que aún no están preparados para la notación abstracta x-e-y, mientras que la mecánica de puzzle los motiva a resolver cada ecuación. La clave de respuesta automática ahorra valor percibido.`,
-        platform: 'Tienda / Tutoría / Educación en casa',
+        platform: `Tienda / Tutoría / Educación en casa`,
       },
     ],
   },
@@ -146,12 +146,12 @@ const content: AppContent = {
         `Cada puzzle presenta un sistema de ecuaciones vinculadas donde las imágenes representan variables desconocidas. Por ejemplo, un puzzle de dos símbolos podría mostrar: manzana + manzana = 6, manzana + plátano = 8. Los usuarios deducen que cada manzana vale 3 y cada plátano vale 5. Los niveles superiores añaden más símbolos y más ecuaciones, creando auténticos puzzles algebraicos multi-variable — todo sin notación abstracta con letras.`,
     },
     {
-      question: '¿Qué significan los cuatro niveles de dificultad?',
+      question: `¿Qué significan los cuatro niveles de dificultad?`,
       answer:
         `Los niveles Muy Fácil y Fácil utilizan dos símbolos-imagen en un pequeño sistema de ecuaciones — ideal para introducir el concepto. Medio añade un tercer símbolo con tres ecuaciones vinculadas, requiriendo más pasos de deducción. Difícil presenta cuatro símbolos en cuatro ecuaciones simultáneas, desafiando a los usuarios a rastrear múltiples incógnitas. Cada nivel produce un sistema que el solucionador del generador ha verificado como que tiene exactamente una solución. Para vendedores, esta estructura de cuatro niveles permite crear conjuntos por nivel o paquetes progresivos que guíen a los usuarios de principiante a avanzado, maximizando el número de productos distintos que puedes publicar.`,
     },
     {
-      question: '¿Qué operaciones matemáticas están disponibles?',
+      question: `¿Qué operaciones matemáticas están disponibles?`,
       answer:
         `Puedes elegir Solo Suma, que genera ecuaciones usando únicamente la suma, o Suma y Resta, que mezcla ambas operaciones dentro del mismo puzzle. Solo Suma es ideal para usuarios más jóvenes, mientras que las operaciones mixtas añaden complejidad para usuarios avanzados y crean estructuras de ecuaciones más variadas. Ofrecer ambos modos de operación en tus publicaciones da a los compradores una diferenciación clara y te permite posicionar productos separados para principiantes y para usuarios preparados para desafíos algebraicos multi-operación.`,
     },
@@ -186,7 +186,7 @@ const content: AppContent = {
         `Sí. Puedes acceder a todas las funciones — los cuatro niveles de dificultad, ambos modos de operación, la biblioteca completa de imágenes, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, introducir tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratis incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.`,
     },
     {
-      question: '¿Qué incluye la licencia comercial?',
+      question: `¿Qué incluye la licencia comercial?`,
       answer:
         `La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Gumroad, tu propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántas fichas produces o vendes.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles algebraicos como descargas digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como productos imprimibles en Gumroad o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes clasificados por dificultad y cuadernos de álgebra progresiva que generan ingresos constantes. Prueba todas las funciones con la prueba gratis antes de comprar — la prueba incluye todos los niveles de dificultad, temas y formatos de exportación para que puedas evaluar la calidad del producto de primera mano.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratis te da acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar cada nivel de dificultad, cada modo de operación, cada tema y cada formato de exportación antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se ajusta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -216,17 +216,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'suma-codigo-fichas',
-      anchorText: 'Generador de Fichas de Suma con Código',
+      anchorText: `Generador de Fichas de Suma con Código`,
     },
     {
       pageType: 'app',
       slug: 'mayor-menor-fichas',
-      anchorText: 'Generador de Fichas Más o Menos',
+      anchorText: `Generador de Fichas Más o Menos`,
     },
     {
       pageType: 'app',
-      slug: 'rompecabezas-matematicos-fichas',
-      anchorText: 'Generador de Fichas de Puzzles Matemáticos',
+      slug: `rompecabezas-matematicos-fichas`,
+      anchorText: `Generador de Fichas de Puzzles Matemáticos`,
     },
     {
       pageType: 'bundle',
@@ -235,23 +235,23 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'vender-fichas-matematicas-etsy',
-      anchorText: 'Guía para Vender Fichas de Matemáticas en Etsy',
+      slug: `vender-fichas-matematicas-etsy`,
+      anchorText: `Guía para Vender Fichas de Matemáticas en Etsy`,
     },
     {
       pageType: 'idea',
-      slug: 'bases-matematicas-ideas-imprimibles',
+      slug: `bases-matematicas-ideas-imprimibles`,
       anchorText: `Ideas de imprimibles de matemáticas para emprendedores y vendedores`,
     },
     {
       pageType: 'idea',
-      slug: 'vuelta-al-cole-ideas-imprimibles',
+      slug: `vuelta-al-cole-ideas-imprimibles`,
       anchorText: `Ideas de imprimibles de vuelta al cole que se venden`,
     },
     {
       pageType: 'start',
       slug: 'crear-fichas-que-se-venden',
-      anchorText: 'Cómo crear fichas que se vendan',
+      anchorText: `Cómo crear fichas que se vendan`,
     },
   ],
 

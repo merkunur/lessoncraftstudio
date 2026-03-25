@@ -2,22 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'vender imprimíveis: quanto se ganha no etsy?',
+    primaryKeyword: `vender imprimíveis: quanto se ganha no etsy?`,
     secondaryKeywords: [
-      'expetativas de rendimentos negócio de imprimíveis',
-      'rendimentos realistas a vender fichas imprimíveis',
-      'vender fichas online quanto se ganha',
-      'fatores de rendimentos negócio de imprimíveis',
+      `expetativas de rendimentos negócio de imprimíveis`,
+      `rendimentos realistas a vender fichas imprimíveis`,
+      `vender fichas online quanto se ganha`,
+      `fatores de rendimentos negócio de imprimíveis`,
     ],
     lsiKeywords: [
-      'fatores de ganhos vendedor Etsy de imprimíveis',
+      `fatores de ganhos vendedor Etsy de imprimíveis`,
       `variáveis de rendimentos livros atividades Amazon KDP`,
-      'tamanho de catálogo rendimentos negócio de fichas',
+      `tamanho de catálogo rendimentos negócio de fichas`,
       `estratégia de preços imprimíveis comissões marketplace`,
       `investimento de tempo negócio de transferências digitais`,
       `múltiplas fontes de rendimentos produtos imprimíveis`,
     ],
-    titleTag: 'Vender Imprimíveis: Quanto Se Ganha no Etsy?',
+    titleTag: `Vender Imprimíveis: Quanto Se Ganha no Etsy?`,
     metaDescription: `Quanto se ganha a vender imprimíveis? Expetativas realistas de rendimentos, estrutura de comissões, estratégias de preços e as variáveis que os determinam.`,
   },
 
@@ -43,7 +43,7 @@ const content: StartContent = {
       content: `Cada marketplace fica com uma parte das tuas vendas. Compreender as estruturas reais de comissões permite-te calcular os teus rendimentos reais por venda — não o preço de publicação, mas o montante que chega à tua conta.\n\nO Etsy cobra uma taxa de publicação de 0,20 $ por artigo (renovada a cada quatro meses ou após cada venda), uma comissão por transação de 6,5 % sobre o preço de venda incluindo envio, e taxas de processamento de pagamento de aproximadamente 3 % mais 0,25 $ por transação. Se participares nos anúncios externos do Etsy, aplica-se uma comissão adicional de 12–15 % às vendas geradas através desses anúncios. Para uma transferência digital de 4,99 $, o valor líquido aproximado após todas as comissões é de cerca de 4,15–4,30 $, dependendo da tua situação específica de comissões. Estas são as taxas publicadas pelo Etsy no início de 2026.\n\nO Amazon KDP usa um modelo de royalties para livros em papel: 60 % do preço de tabela menos os custos de impressão. Os custos de impressão dependem do número de páginas, do tipo de tinta (preto e branco vs cor) e do marketplace. Um livro de atividades de 100 páginas a preto e branco com preço de 6,99 $ no Amazon.com tem um custo de impressão de aproximadamente 2,15 $ (taxa atual da calculadora do KDP), o que produz uma royalty de aproximadamente 2,04 $ por venda. Os interiores a cores custam significativamente mais a imprimir, reduzindo a royalty. O KDP disponibiliza uma calculadora de royalties para que possas modelar valores exatos para as especificações do teu livro.\n\nO Gumroad oferece uma taxa de royalty de 55 % no plano básico e de 80 % no plano premium (59,95 $ por ano). Para um produto de 4,99 $, isso traduz-se em aproximadamente 2,74 $ (plano básico) ou 3,99 $ (plano premium) por venda.\n\nO Gumroad, o Payhip e plataformas semelhantes cobram comissões variáveis conforme o nível do plano. As vendas diretas através do teu próprio site (Shopify, WooCommerce) envolvem taxas de processamento de pagamento de aproximadamente 2,9 % mais 0,30 $ por transação, mas sem comissão de marketplace.\n\nEstas são taxas de plataforma factuais e públicas. Não são previsões de rendimentos — são as estruturas de custos que determinam os teus rendimentos reais por venda em cada plataforma.`,
     },
     {
-      heading: 'Estratégias de preços para fichas imprimíveis',
+      heading: `Estratégias de preços para fichas imprimíveis`,
       content: `O preço é uma das poucas variáveis de rendimentos que controlas diretamente, e observar como o mercado de imprimíveis fixa preços ajuda-te a posicionar as tuas próprias publicações de forma competitiva.\n\nNo Etsy, as transferências individuais de fichas publicam-se tipicamente no intervalo de 1,99–5,99 $. As fichas de uma única página tendem para o extremo inferior. Os pacotes de várias páginas de 5–10 fichas publicam-se frequentemente a 3,99–5,99 $. Os pacotes maiores de 20–50 páginas publicam-se frequentemente a 6,99–14,99 $. Estes são intervalos observacionais baseados em publicações do marketplace, não recomendações nem garantias de vendas a qualquer preço específico.\n\nNo Amazon KDP, os livros de atividades em papel publicam-se tipicamente entre 4,99 e 9,99 $. O preço deve ter em conta os custos de impressão, que reduzem a tua royalty. Um maior número de páginas significa maiores custos de impressão mas também justifica preços de tabela mais elevados. A calculadora de royalties do KDP é a ferramenta definitiva para modelar os teus rendimentos específicos por livro a diferentes preços.\n\nAgrupar produtos é a estratégia de preços mais comum para aumentar o valor médio por encomenda. Em vez de venderes dez fichas individuais a 2,99 $ cada, os vendedores frequentemente agrupam-nas num pacote temático a 9,99 $. O comprador perceciona maior valor, e o vendedor ganha mais por transação sem custo de produção adicional.\n\nOs preços escalonados permitem-te servir diferentes segmentos de compradores. Oferece um pequeno pacote de amostra a um preço baixo para compradores sensíveis ao preço, um pacote padrão a um preço médio para a maioria dos compradores e um mega-pacote integral a um preço premium para compradores que querem tudo. Cada escalão captura um segmento diferente da procura.\n\nA investigação competitiva é essencial antes de fixar preços. Pesquisa as tuas palavras-chave alvo no Etsy e Amazon, anota os intervalos de preços das publicações mais vendidas e posiciona os teus produtos dentro desse intervalo conforme a qualidade do teu conteúdo e o número de páginas. Fixar preços significativamente acima ou abaixo da norma do mercado requer uma justificação clara — mais páginas, melhor qualidade, temas únicos ou uma marca mais forte.`,
     },
     {
@@ -74,7 +74,7 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Testa a velocidade de produção com o teste grátis',
+      step: `Testa a velocidade de produção com o teste grátis`,
       description: `Abre qualquer gerador de fichas e usa o teste grátis com marca d'água. Cronometra quanto tempo demoras a gerar um produto completo, pronto a imprimir. Isto dá-te um dado concreto para estimar a rapidez com que podes construir o teu catálogo.`,
     },
     {
@@ -82,23 +82,23 @@ const content: StartContent = {
       description: `Pesquisa as tuas palavras-chave alvo no Etsy e Amazon. Conta quantas publicações concorrentes existem, anota os seus intervalos de preços, lê as suas avaliações e identifica lacunas onde a procura existe mas a oferta é fraca. A seleção de nicho afeta diretamente a rapidez com que as tuas publicações ganham tração.`,
     },
     {
-      step: 'Calcula os teus rendimentos por venda',
+      step: `Calcula os teus rendimentos por venda`,
       description: `Usa as calculadoras de comissões das plataformas (calculadora de taxas do Etsy, calculadora de royalties do KDP) para determinar o teu montante líquido real a diferentes preços. Conhecer os teus rendimentos reais por venda permite-te definir preços e metas de produção informadas.`,
     },
     {
-      step: 'Escolhe a tua plataforma inicial',
+      step: `Escolhe a tua plataforma inicial`,
       description: `Seleciona uma plataforma principal para começar: Etsy para transferências digitais, Amazon KDP para livros de atividades ou Gumroad para recursos de loja. Domina uma plataforma antes de expandires para outras. Cada plataforma tem requisitos únicos de publicação e práticas de SEO.`,
     },
     {
-      step: 'Estabelece uma meta de catálogo para 30 dias',
+      step: `Estabelece uma meta de catálogo para 30 dias`,
       description: `Compromete-te com um número específico de novas publicações para o teu primeiro mês — de 15 a 20 é um objetivo inicial realista. Concentra-te numa produção semanal constante em vez de numa única rajada. Cada publicação é uma nova oportunidade de descoberta para compradores potenciais.`,
     },
     {
-      step: 'Cria o teu primeiro lote de produtos',
+      step: `Cria o teu primeiro lote de produtos`,
       description: `Gera o teu primeiro conjunto de fichas cobrindo de 3 a 5 temas com 2–3 níveis de dificuldade. Isto cria de 6 a 15 variações de produto únicas a partir de um único gerador — suficiente para uma presença inicial significativa na tua plataforma escolhida.`,
     },
     {
-      step: 'Publica numa segunda plataforma',
+      step: `Publica numa segunda plataforma`,
       description: `Depois de estabeleceres a tua presença numa plataforma, adapta os teus produtos para uma segunda. Uma transferência digital do Etsy pode tornar-se um livro em papel do KDP ou um recurso do Gumroad com um trabalho adicional mínimo. Múltiplas plataformas significam múltiplas fontes de rendimentos do mesmo conteúdo.`,
     },
     {
@@ -114,7 +114,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Gerador de Fichas de Matemática',
+      title: `Gerador de Fichas de Matemática`,
       description: `Gerador versátil de conteúdo matemático que abrange múltiplos tipos de operações e níveis de dificuldade. As fichas de matemática vendem-se durante todo o ano em todas as plataformas, e a variedade de opções de personalização permite-te criar dezenas de variações de produto únicas com uma única ferramenta.`,
     },
     {
@@ -124,7 +124,7 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Os livros para colorir são uma das categorias de livros de atividades de maior volume no Amazon KDP. O resultado exclusivamente visual significa que cada página funciona em qualquer mercado linguístico sem tradução, maximizando a tua audiência potencial com uma única licença.`,
     },
     {
@@ -181,7 +181,7 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
       description: `O guia fundamental abrangente que cobre seleção de nicho, criação de produtos, comparação de plataformas, estratégia de preços e construção de catálogo para todos os marketplaces de imprimíveis.`,
     },
@@ -192,7 +192,7 @@ const content: StartContent = {
     },
     {
       slug: 'negocio-imprimiveis-etsy',
-      title: 'Masterclass Negócio de Imprimíveis no Etsy',
+      title: `Masterclass Negócio de Imprimíveis no Etsy`,
       description: `O guia específico do Etsy para transferências digitais de imprimíveis. Abrange a configuração da loja, otimização de publicações, estratégia de preços e como construir um negócio rentável de fichas no Etsy.`,
     },
     {
@@ -203,37 +203,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como Criar Fichas Profissionais que Vendem' },
-    { pageType: 'start', slug: 'plano-negocio-imprimiveis', anchorText: 'Plano de Negócio de Imprimíveis' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass Negócio de Imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como Criar Fichas Profissionais que Vendem` },
+    { pageType: 'start', slug: 'plano-negocio-imprimiveis', anchorText: `Plano de Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass Negócio de Imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de Negócio de Livros de Atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: `Guia de Licença Comercial para Vendedores de Imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-multilingues', anchorText: 'Como Criar Fichas em 11 Idiomas' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras — Todos os Detalhes' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Soma — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimenta o Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimenta o Gerador de Fichas de Soma' },
+    { pageType: 'start', slug: 'criar-fichas-multilingues', anchorText: `Como Criar Fichas em 11 Idiomas` },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de Caça-Palavras — Todos os Detalhes` },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: `Gerador de Fichas de Soma — Todos os Detalhes` },
+    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: `Experimenta o Gerador de Caça-Palavras` },
+    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: `Experimenta o Gerador de Fichas de Soma` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/math worksheet/Folha de Matemática 1.webp`, alt: 'Ficha de matemática que demonstra a qualidade profissional de resultado dos geradores de fichas' },
+    heroImage: { src: `/samples/portuguese/math worksheet/Folha de Matemática 1.webp`, alt: `Ficha de matemática que demonstra a qualidade profissional de resultado dos geradores de fichas` },
     samples: [
-      { src: `/samples/portuguese/math worksheet/Folha de Matemática 2.webp`, alt: 'Ficha de matemática com design profissional e qualidade de impressão de 300 PPP', caption: 'Ficha de Matemática — Construtor de Rendimentos Versátil' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha de caça-palavras para vendas no Etsy e Amazon KDP', caption: 'Caça-Palavras — Categoria de Puzzles Mais Vendida' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir para publicação de livros de atividades no KDP', caption: 'Colorir — Categoria de Grande Volume no KDP' },
-      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: 'Ficha de Sudoku com apelo universal internacional', caption: 'Sudoku — Apelo Universal no Mercado' },
+      { src: `/samples/portuguese/math worksheet/Folha de Matemática 2.webp`, alt: `Ficha de matemática com design profissional e qualidade de impressão de 300 PPP`, caption: `Ficha de Matemática — Construtor de Rendimentos Versátil` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha de caça-palavras para vendas no Etsy e Amazon KDP`, caption: `Caça-Palavras — Categoria de Puzzles Mais Vendida` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir para publicação de livros de atividades no KDP`, caption: `Colorir — Categoria de Grande Volume no KDP` },
+      { src: `/samples/portuguese/sudoku/Sudoku de Imagens 1.webp`, alt: `Ficha de Sudoku com apelo universal internacional`, caption: `Sudoku — Apelo Universal no Mercado` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Como Criar Fichas de Matemática para o Teu Negócio de Imprimíveis — Demo LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Peixe-anjo — imagem educativa temática', caption: 'Peixe-anjo' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Peixe-palhaço — imagem educativa temática', caption: 'Peixe-palhaço' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagem educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Caranguejo — imagem educativa temática', caption: 'Caranguejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Peixe-anjo — imagem educativa temática`, caption: 'Peixe-anjo' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Peixe-palhaço — imagem educativa temática`, caption: 'Peixe-palhaço' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagem educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Caranguejo — imagem educativa temática`, caption: 'Caranguejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 };
 

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Lente Printables Verkopen — Nichegids',
+    titleTag: `Lente Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende lente printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Seizoensproductconcepten, maart-mei strategieën en tips voor verkopers.`,
 
     primaryKeyword: 'lente printable ideeën',
     secondaryKeywords: [
       'lente werkbladen verkopen',
       'lentethema printable business',
-      'lente activiteiten voor verkopers',
-      'lente printables verkopen op Etsy',
+      `lente activiteiten voor verkopers`,
+      `lente printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'bloemen en tuin educatieve werkbladen',
-      'seizoensgebonden natuur activiteiten',
-      'voorjaar printbare producten printables',
+      `bloemen en tuin educatieve werkbladen`,
+      `seizoensgebonden natuur activiteiten`,
+      `voorjaar printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Lente Printable Businessideeën voor Verkopers',
-    description: `De lente opent een ruim verkoopvenster van maart tot mei terwijl productlijnen overgaan naar natuurgerichte thema's en gezinnen buitenleren omarmen na maanden van winterroutines. De niche omvat een rijke variatie aan subthema\'s waaronder vlinders, bloemen, tuinen, regenbogen, rupsen, lieveheersbeestjes, vogels, nesten, regen en paraplu's, wat verkopers een uitgebreid visueel vocabulaire geeft dat van nature aansluit bij het wetenschapsproductcatalogus, buitenverkenning en het universele gevoel van vernieuwing dat het seizoen definieert. verkopers zoeken actief naar vers lentemateriaal om gebruikers te re-energiseren tijdens de tweede helft van het schooljaar, terwijl thuisonderwijzende gezinnen en kinderdagverblijven seizoensvariatie zoeken die binnen- en buitenleerervaringen overbrugt. Voor printable-ondernemers op Etsy, Amazon KDP en Gumroad biedt de lente een brede niet-feestdagencategorie met verlengde relevantie die de smalle vraagpieken van eendaagse feestdagen vermijdt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
+    title: `Lente Printable Businessideeën voor Verkopers`,
+    description: `De lente opent een ruim verkoopvenster van maart tot mei terwijl productlijnen overgaan naar natuurgerichte thema`s en gezinnen buitenleren omarmen na maanden van winterroutines. De niche omvat een rijke variatie aan subthema's waaronder vlinders, bloemen, tuinen, regenbogen, rupsen, lieveheersbeestjes, vogels, nesten, regen en paraplu`s, wat verkopers een uitgebreid visueel vocabulaire geeft dat van nature aansluit bij het wetenschapsproductcatalogus, buitenverkenning en het universele gevoel van vernieuwing dat het seizoen definieert. verkopers zoeken actief naar vers lentemateriaal om gebruikers te re-energiseren tijdens de tweede helft van het schooljaar, terwijl thuisonderwijzende gezinnen en kinderdagverblijven seizoensvariatie zoeken die binnen- en buitenleerervaringen overbrugt. Voor printable-ondernemers op Etsy, Amazon KDP en Gumroad biedt de lente een brede niet-feestdagencategorie met verlengde relevantie die de smalle vraagpieken van eendaagse feestdagen vermijdt. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De lente printable-niche neemt een uniek voordelige positie in op de educatieve marktkalender omdat het functioneert als een brede seizoenscategorie in plaats van een eendaagse feestdag, wat verkopers een verlengd vraagvenster van drie maanden geeft dat loopt van begin maart tot eind mei. verkopers die uit de winterdip komen zoeken actief naar vers, natuurthema materiaal dat gebruikers opnieuw betrekt die het moe zijn van alleen-binnen-thema\'s, en lentebeeldmateriaal biedt de perfecte overgang wanneer productlijnen verschuiven naar wetenschapsgeïntegreerde content over levenscycli, weerpatronen, plantengroei en dierhabitats. Deze natuurlijke aansluiting tussen lentethema\'s en kernvakgebieden betekent dat kopers lente-aankopen kunnen rechtvaardigen als educatieve investeringen in plaats van puur decoratieve seizoenstoevoegingen.
 
@@ -40,28 +40,28 @@ De breedte van lentesubthema\'s creëert uitzonderlijke productdiversificatiemog
 
   productIdeas: [
     {
-      title: 'Lente Telwerkbladen voor Printable Verkopers',
+      title: `Lente Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met vlinders, bloemen, lieveheersbeestjes en vogels brengen de energie van lentetuinen in vroege rekenoefeningen die verkopers en ouders gretig kopen gedurende het maart-meiverkoopvenster. Gebruik de Zoek en Tel-generator om lentescènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen bloementuinen, vlinderweiden en regenachtige landschappen. Bied sets aan op meerdere vaardigheidsniveaus: lentevoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen bloemen of groepjes lieveheersbeestjes voor kinderen in groep 3. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid lente-telpakket voor productlijnen die overgaan naar natuurthema's. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Lente Woordzoekpuzzels Online Verkopen',
+      title: `Lente Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met lentevocabulaire trekken verkopers aan die maart-aprilactiviteiten plannen en ouders die educatief vermaak zoeken tijdens het seizoen van hernieuwing en buitenactiviteiten. Maak puzzels met lentespecifiek vocabulaire zoals vlinder, regenboog, bloesem, rups, tulp, lieveheersbeestje en nestkastje naast bredere voorjaarsnatuurterminologie. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer lentetermne voor oudere gebruikers. Variaties zoals tuinvocabulaire, lenteweerwoorden en vlinderlevenscyclusterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Lente Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met lentethema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede lentekoperspubliek. Maak sets waarin kinderen bloemen koppelen aan hun kleuren, vlinders aan hun levenscyclusstadia, tuingereedschap aan hun functies, of lentedieren aan hun habitats. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die lenteunits plannen waar gestructureerde werkbladen de overgang naar natuurthema\'s ondersteunen. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad.`,
+      title: `Lente Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met lentethema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede lentekoperspubliek. Maak sets waarin kinderen bloemen koppelen aan hun kleuren, vlinders aan hun levenscyclusstadia, tuingereedschap aan hun functies, of lentedieren aan hun habitats. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die lenteunits plannen waar gestructureerde werkbladen de overgang naar natuurthema's ondersteunen. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad.`,
       appId: 'matching',
     },
     {
-      title: 'Lentethema Optelwerkbladen voor Rekenverkopers',
+      title: `Lentethema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met lente-illustraties transformeren routinematige rekenoefeningen in vrolijke seizoensactiviteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens de vernieuwende voorjaarsmaanden. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen vlinders op bloemen optellen, tuinthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met lieveheersbeestjes, tulpen en regenbogen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met lentevisuele context. Lente-rekenwerkbladen zijn bijzonder waardevol omdat ze de seizoensenergie kanaliseren die gebruikers voelen wanneer het buiten warmer en groener wordt.`,
       appId: 'addition',
     },
     {
-      title: 'Lente Kleurplaten voor Etsy en KDP Verkopers',
-      description: `Kleurplaten zijn een uitstekend instapproduct voor lente printable-winkels omdat voorjaarsthema kleuren gezinnen aanspreekt die blij zijn de winter achter zich te laten en vroege beoordelingen genereert die je winkelzichtbaarheid verhogen. De Kleuren-generator maakt gedetailleerde contouren van vlinders, bloementuinen, lieveheersbeestjes, regenbogen, vogelnesten, rupsen, paraplu's en lenteweerlandschappen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals tuinbloemen of lentedieren. Voor KDP compileer je dertig tot vijftig kleurplaten in lente-activiteitenboeken gepositioneerd als buitenleermateriaal of seizoenscadeaus. Voeg educatieve elementen toe zoals bloemennamen, levenscycluslabels of seizoensvocabulaire naast de kleurafbeeldingen.`,
+      title: `Lente Kleurplaten voor Etsy en KDP Verkopers`,
+      description: `Kleurplaten zijn een uitstekend instapproduct voor lente printable-winkels omdat voorjaarsthema kleuren gezinnen aanspreekt die blij zijn de winter achter zich te laten en vroege beoordelingen genereert die je winkelzichtbaarheid verhogen. De Kleuren-generator maakt gedetailleerde contouren van vlinders, bloementuinen, lieveheersbeestjes, regenbogen, vogelnesten, rupsen, paraplu`s en lenteweerlandschappen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina`s gegroepeerd per subthema zoals tuinbloemen of lentedieren. Voor KDP compileer je dertig tot vijftig kleurplaten in lente-activiteitenboeken gepositioneerd als buitenleermateriaal of seizoenscadeaus. Voeg educatieve elementen toe zoals bloemennamen, levenscycluslabels of seizoensvocabulaire naast de kleurafbeeldingen.`,
       appId: 'coloring',
     },
     {
@@ -71,7 +71,7 @@ De breedte van lentesubthema\'s creëert uitzonderlijke productdiversificatiemog
     },
     {
       title: `Lente Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en lentevoorwerpen zijn perfect geschikt omdat hun onderscheidende silhouetten vrolijk en zeer herkenbaar zijn. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen lente-items koppelen aan hun silhouetten: vlinders, bloemen, lieveheersbeestjes, regenbogen, vogels, nestkastjes en paraplu's hebben elk duidelijk verschillende contouren die boeiende puzzels maken zelfs voor zeer jonge gebruikers. Verhoog de moeilijkheid door voorwerpen met vergelijkbare vormen op te nemen in gevorderde versies, zoals verschillende bloemsoorten of diverse vlindervormen. Deze werkbladen printen prachtig in zowel kleur als grijstinten.`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en lentevoorwerpen zijn perfect geschikt omdat hun onderscheidende silhouetten vrolijk en zeer herkenbaar zijn. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen lente-items koppelen aan hun silhouetten: vlinders, bloemen, lieveheersbeestjes, regenbogen, vogels, nestkastjes en paraplu`s hebben elk duidelijk verschillende contouren die boeiende puzzels maken zelfs voor zeer jonge gebruikers. Verhoog de moeilijkheid door voorwerpen met vergelijkbare vormen op te nemen in gevorderde versies, zoals verschillende bloemsoorten of diverse vlindervormen. Deze werkbladen printen prachtig in zowel kleur als grijstinten.`,
       appId: 'shadow-match',
     },
     {
@@ -94,18 +94,18 @@ De breedte van lentesubthema\'s creëert uitzonderlijke productdiversificatiemog
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Lente Printables Verkopen op Etsy',
-      description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor lente printable-vermeldingen, en het voorjaarswinkelseizoen levert een gestage verkeerspiek van maart tot mei die vermeldingen de tijd geeft om beoordelingen op te bouwen. Publiceer je lentevermeldingen tegen eind januari om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren vóór de februarivroege-kopersvraag begint. Gebruik alle dertien tags met variaties die lentesubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "lente telwerkbladen kleuters," "vlinder woordzoeker kleuterschool" en "bloemen kleurplaten peuters" richten zich op specifieke koperszoekopdrachten effectiever dan brede tags. Positioneer je lenteproducten als productcatalogus-afgestemd natuurmateriaal — dit resoneert sterker bij verkoperkopers dan puur seizoensgebonden decoratieve content. De Nederlandse markt via Etsy.nl biedt extra kansen door Koningsdag, tulpenthema's en de sterke Nederlandse tuincultuur.`,
+      title: `Lente Printables Verkopen op Etsy`,
+      description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor lente printable-vermeldingen, en het voorjaarswinkelseizoen levert een gestage verkeerspiek van maart tot mei die vermeldingen de tijd geeft om beoordelingen op te bouwen. Publiceer je lentevermeldingen tegen eind januari om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren vóór de februarivroege-kopersvraag begint. Gebruik alle dertien tags met variaties die lentesubthema`s, vaardigheidstypen en leeftijdsgroepen combineren: "lente telwerkbladen kleuters," "vlinder woordzoeker kleuterschool" en "bloemen kleurplaten peuters" richten zich op specifieke koperszoekopdrachten effectiever dan brede tags. Positioneer je lenteproducten als productcatalogus-afgestemd natuurmateriaal — dit resoneert sterker bij verkoperkopers dan puur seizoensgebonden decoratieve content. De Nederlandse markt via Etsy.nl biedt extra kansen door Koningsdag, tulpenthema`s en de sterke Nederlandse tuincultuur.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Lente Activiteitenboeken Publiceren op KDP',
+      title: `Lente Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP werkt goed voor lenteprintables wanneer je werkbladen compileert tot samenhangende activiteitenboeken die als buitenleermateriaal en seizoenscadeaus worden gepositioneerd. Een activiteitenboek met lentethema van veertig tot zestig pagina's dat tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten combineert, presteert goed naast tuinsets, buitenspeelgoed en natuurboeken in ouderlijke winkelwagens. Gebruik KDP-zoekwoordvelden strategisch: voeg "lente activiteitenboek voor kinderen," "vlinder werkbladen kleuters" en subthematermen toe als "bloemen kleurboek" of "tuin activiteiten." Prijs tussen vier en acht euro. Publiceer tegen begin februari. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
       title: `Lente printbare producten Maken voor Gumroad Verkopers`,
-      description: `Gumroad-kopers zoeken in maart tot mei actief naar verse merkthema's die gebruikers opnieuw energiseren tijdens de tweede helft van het schooljaar. Lente printables op Gumroad presteren het beste wanneer ze aansluiten bij wetenschapsproductcatalogusverbindingen — levenscycli, plantengroei, weerpatronen en dierhabitats bieden sterke pedagogische kaders voor seizoensgebonden werkbladen. Verpak als complete lente-minilessen met duidelijke productdoelen, wetenschapsverbindingen en opties voor getrapte productpakketten. Voeg antwoordsleutels en instructieaanwijzingen toe. De bundelfunctie van Gumroad laat je individuele lenteproducten en een lente-megabundel met korting gelijktijdig aanbieden. Voor het Nederlandse onderwijs kun je aansluiten bij de productspecificaties voor wereldoriëntatie, natuur en techniek rond lentethema's zoals de vlinderlevenscyclus en plantengroei.`,
+      description: `Gumroad-kopers zoeken in maart tot mei actief naar verse merkthema`s die gebruikers opnieuw energiseren tijdens de tweede helft van het schooljaar. Lente printables op Gumroad presteren het beste wanneer ze aansluiten bij wetenschapsproductcatalogusverbindingen — levenscycli, plantengroei, weerpatronen en dierhabitats bieden sterke pedagogische kaders voor seizoensgebonden werkbladen. Verpak als complete lente-minilessen met duidelijke productdoelen, wetenschapsverbindingen en opties voor getrapte productpakketten. Voeg antwoordsleutels en instructieaanwijzingen toe. De bundelfunctie van Gumroad laat je individuele lenteproducten en een lente-megabundel met korting gelijktijdig aanbieden. Voor het Nederlandse onderwijs kun je aansluiten bij de productspecificaties voor wereldoriëntatie, natuur en techniek rond lentethema`s zoals de vlinderlevenscyclus en plantengroei.`,
     },
     {
       platform: 'Gumroad en Shopify',
@@ -132,7 +132,7 @@ De breedte van lentesubthema\'s creëert uitzonderlijke productdiversificatiemog
       answer: `Ja, verkopen op meerdere platforms is een van de meest effectieve strategieën om de lente printable-omzet te maximaliseren. Elk platform bereikt een ander kopersegment: Etsy trekt ouders en thuisonderwijzers aan die seizoensactiviteiten en buitenleermateriaal zoeken, Gumroad bereikt klasverkopers die maart-meiproductcatalogusmateriaal met wetenschapsverbindingen plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken als lentecadeaus of buitenvermaak. Gumroad en Shopify helpen je een eigen publiek op te bouwen. Cross-listing vermenigvuldigt je lentezichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke lentesubthema\'s verkopen het beste?',
+      question: `Welke lentesubthema's verkopen het beste?`,
       answer: `De bestverkopende lentesubthema's zijn vlinders, bloemen, tuindieren en regenbogen, die elk sterke visuele aantrekkingskracht en productcatalogusrelevantie combineren. Vlinders zijn het onbetwiste lentethema-topproduct dankzij de universeel onderwezen levenscyclus die direct aansluit bij wetenschapsstandaarden in groep 1 tot en met groep 5. Bloemen verbinden met plantenwetenschappen en bieden eindeloze visuele variatie. Tuindieren inclusief lieveheersbeestjes, bijen en rupsen spreken het natuurobservatie-productcatalogus aan. Regenbogen bieden een unieke brug tussen weer-wetenschappen en kleurleeractiviteiten. In Nederland zijn tulpenthema activiteiten bijzonder aantrekkelijk vanwege de sterke culturele associatie, en Koningsdag-gerelateerde materialen bieden een unieke nichekans voor de Nederlandse markt.`,
     },
     {
@@ -149,62 +149,62 @@ De breedte van lentesubthema\'s creëert uitzonderlijke productdiversificatiemog
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'easter-printable-ideas',
-      anchorText: 'Pasen printable businessideeën',
+      anchorText: `Pasen printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'insects-printable-ideas',
-      anchorText: 'Insecten printable businessideeën',
+      anchorText: `Insecten printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
+      anchorText: `Zomer printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Bij — educatieve thema-afbeelding lente', caption: 'Bij' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Fiets — educatieve thema-afbeelding lente', caption: 'Fiets' },
-    { src: '/image-library/spring/bird.webp', alt: 'Vogel — educatieve thema-afbeelding lente', caption: 'Vogel' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Vogelhuisje — educatieve thema-afbeelding lente', caption: 'Vogelhuisje' },
-    { src: '/image-library/spring/bud.webp', alt: 'Knop — educatieve thema-afbeelding lente', caption: 'Knop' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Konijntje — educatieve thema-afbeelding lente', caption: 'Konijntje' },
+    { src: `/image-library/spring/bee.webp`, alt: `Bij — educatieve thema-afbeelding lente`, caption: 'Bij' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Fiets — educatieve thema-afbeelding lente`, caption: 'Fiets' },
+    { src: `/image-library/spring/bird.webp`, alt: `Vogel — educatieve thema-afbeelding lente`, caption: 'Vogel' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Vogelhuisje — educatieve thema-afbeelding lente`, caption: 'Vogelhuisje' },
+    { src: `/image-library/spring/bud.webp`, alt: `Knop — educatieve thema-afbeelding lente`, caption: 'Knop' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Konijntje — educatieve thema-afbeelding lente`, caption: 'Konijntje' },
   ],
 
   youtubeId: '0cOPi7eajLs',

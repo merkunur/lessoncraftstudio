@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear paquetes de fichas que se vendan',
+    primaryKeyword: `crear paquetes de fichas que se vendan`,
     secondaryKeywords: [
-      'estrategia paquetes fichas ejercicios',
+      `estrategia paquetes fichas ejercicios`,
       'creación paquetes imprimibles',
-      'cómo agrupar fichas para vender',
-      'precios paquetes fichas ejercicios',
+      `cómo agrupar fichas para vender`,
+      `precios paquetes fichas ejercicios`,
     ],
     lsiKeywords: [
       `tipos paquetes materia nivel escolar tema estacional formato mega valor percibido`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `packaging paquete maqueta vista previa branding organización archivos convenciones nombre`,
       `multi-plataforma anuncios paquetes estrategia universal venta multi-canal`,
     ],
-    titleTag: 'Crear paquetes de fichas que se vendan — Guía',
+    titleTag: `Crear paquetes de fichas que se vendan — Guía`,
     metaDescription: `Cómo crear paquetes de fichas que se vendan en cualquier plataforma. Tipos de paquetes, psicología de precios, apilamiento de valor y packaging profesional.`,
   },
 
@@ -43,11 +43,11 @@ const content: GuideContent = {
       content: `Los productos que incluyas en un paquete determinan si los compradores lo perciben como una colección curada por la que vale la pena pagar o un surtido aleatorio de sobrantes. La selección de productos es donde la mayoría de creadores de paquetes cometen sus mayores errores — ya sea incluyendo muy pocos productos (haciendo que el paquete parezca pobre), demasiados productos superpuestos (haciendo que parezca inflado) o niveles de calidad inconsistentes (haciendo que todo el paquete parezca poco fiable).\n\nEmpieza con productos complementarios, no superpuestos. Un paquete de matemáticas que contiene «Fichas de práctica de suma», «Más práctica de suma» y «Aún más fichas de suma» parece el mismo producto tres veces. Un paquete de matemáticas que contiene «Práctica de suma», «Fundamentos de resta», «Actividades de sentido numérico» y «Problemas matemáticos» cubre habilidades distintas que funcionan juntas como un programa integral de matemáticas. Cada producto en el paquete debe abordar una necesidad diferente mientras contribuye al mismo objetivo general.\n\nApunta a 8 a 15 productos individuales o 60 a 150 páginas en un paquete estándar. Por debajo de 8 productos, el paquete no ofrece suficientes ahorros percibidos sobre la compra individual. Por encima de 15 productos, el paquete se vuelve tan grande que los compradores cuestionan si realmente usarán todo, lo que crea indecisión de compra. La excepción son los megapaquetes, que deliberadamente incluyen todo y usan el valor total como su principal argumento de venta.\n\nMantén una calidad consistente en cada producto del paquete. Un pack de fichas de baja calidad en un paquete por lo demás excelente daña la percepción del comprador de toda la colección. Antes de agrupar, revisa cada producto para verificar formato consistente, diseño profesional, instrucciones claras y contenido preciso. Si algún producto individual no cumple tus estándares de calidad actuales, actualízalo antes de incluirlo en un paquete. Los generadores de fichas ayudan a mantener la consistencia porque aplican los mismos estándares profesionales de formato y diseño a cada resultado.\n\nEvita el contenido de relleno. Cada producto del paquete debe ser algo que venderías con confianza de forma individual. Incluir productos que solo existen para inflar el número de páginas o productos del paquete socava la confianza del comprador. Si necesitas más productos para alcanzar un tamaño de paquete atractivo, crea contenido nuevo de calidad usando los generadores en lugar de incluir productos débiles que diluyen el valor general del paquete.\n\nConsidera el patrón de uso del comprador. Un vendedor que compra un paquete por nivel escolar lo usará durante todo el año escolar. ¿Son los productos que has seleccionado suficientes para ese período? Un padre que compra un paquete de práctica de verano lo usará durante 10 a 12 semanas. ¿Contiene el paquete suficiente variedad para mantener el compromiso durante ese período? Alinear el contenido del paquete con patrones de uso realistas hace que el paquete se sienta intencionado en lugar de arbitrario.`,
     },
     {
-      heading: 'Estructura tu paquete para máximo valor percibido',
+      heading: `Estructura tu paquete para máximo valor percibido`,
       content: `Cómo presentas los contenidos de tu paquete determina su valor percibido — y el valor percibido impulsa las decisiones de compra más que el valor real. Dos paquetes con contenidos idénticos pueden convertir a tasas muy diferentes basándose únicamente en cómo se comunica el valor. El apilamiento de valor es el proceso sistemático de presentar cada componente de tu paquete de forma que maximice la percepción del comprador sobre lo que está obteniendo.\n\nDetalla cada componente individualmente. En lugar de «50 fichas de matemáticas», lista «20 fichas de práctica de suma, 15 fichas de práctica de resta, 10 actividades de sentido numérico y 5 sets de problemas matemáticos». En lugar de «Claves de respuestas incluidas», lista «Claves de respuestas completas para las 50 fichas — Corrección instantánea para práctica independiente». Desglosar el paquete en componentes específicos y nombrados hace que la colección se sienta más grande y completa, aunque el contenido total sea idéntico.\n\nMuestra la comparación de precio individual versus paquete de forma prominente. Si los cinco productos de tu paquete se venden a $10 cada uno individualmente, el anuncio del paquete debe indicar claramente: «Valor individual: $50 — Precio del paquete: $35 — Ahorras $15 (30%)». Esta técnica de anclaje enmarca el precio del paquete frente al total individual más alto, haciendo que el paquete se perciba como una oportunidad en lugar de un gasto. Calcula y muestra siempre la cantidad exacta en dólares ahorrada, no solo el porcentaje, porque «$15 de ahorro» es más concreto y motivador que «30% de descuento».\n\nIncluye materiales bonus que añadan valor percibido sin un coste de creación significativo. Claves de respuestas, gráficos de seguimiento de progreso, guías de planificación, hojas de consejos para padres y páginas de sugerencias de uso mejoran la propuesta de valor del paquete con un esfuerzo mínimo de creación. Una guía de una página «Cómo usar este paquete» y una «Plantilla de planificación semanal» añaden dos elementos más a tu apilamiento de valor con casi ningún coste. Estos bonus también mejoran la experiencia real del comprador con el paquete, lo que lleva a mejores reseñas y compras repetidas.\n\nCrea una página de portada profesional y una tabla de contenidos. Estos elementos señalan calidad y organización que distinguen tu paquete de una colección aleatoria de PDFs. La página de portada debe incluir el título del paquete, una vista previa visual de los contenidos, el nivel escolar o rango de edad, y el número total de páginas. La tabla de contenidos debe listar cada sección con números de página para que los compradores puedan navegar eficientemente a las fichas específicas que necesitan. Estos elementos estructurales toman 15 minutos en crearse pero impactan significativamente en cómo los compradores perciben la profesionalidad del paquete.\n\nOrganiza los archivos del paquete de forma lógica. Ya sea que entregues el paquete como un solo PDF o como múltiples archivos, la organización clara importa. Para paquetes en un solo PDF, ordena los contenidos en una secuencia lógica de enseñanza con divisores de sección claros. Para paquetes de múltiples archivos, usa nombres descriptivos que indiquen a los compradores exactamente qué contiene cada archivo: «01-Suma-Un-Dígito-20paginas.pdf» es inmediatamente útil, mientras que «pack-fichas-3.pdf» requiere que el comprador abra e inspeccione cada archivo.`,
     },
     {
-      heading: 'Diseña un packaging profesional para el paquete',
+      heading: `Diseña un packaging profesional para el paquete`,
       content: `El packaging del paquete — la presentación visual en tu anuncio — es lo que convierte a los navegadores en compradores. La imagen de portada, los archivos de vista previa y la presentación visual de un paquete deben comunicar «completo, profesional, vale el precio» en segundos desde que un comprador ve el anuncio. Un packaging pobre hace que incluso un contenido excelente parezca trabajo de aficionado, mientras que un packaging profesional eleva la percepción y justifica precios premium.\n\nCrea una imagen de portada que muestre el alcance del paquete. Las imágenes de portada de paquete más efectivas muestran múltiples fichas de la colección dispuestas para mostrar variedad: un abanico de 6 a 8 páginas diferentes, mostradas en disposición flat-lay, o presentadas en un entorno realista del mercado o escritorio. Este enfoque visual comunica inmediatamente «vas a obtener mucho contenido» de una forma que una vista previa de una sola ficha no puede. Incluye el título del paquete, el número total de páginas y el nivel escolar directamente en la imagen de portada para que los compradores obtengan información clave de un vistazo incluso en vistas de miniatura pequeñas.\n\nDiseña imágenes de maqueta mostrando el paquete en contexto. Una pila de fichas impresas en un escritorio, fichas en una carpeta o archivador, un niño trabajando en una de las fichas, o fichas mostradas en un tablón de anuncios del mercado — estas imágenes contextuales ayudan a los compradores a visualizar el uso del paquete en su propio entorno. Puedes crear maquetas efectivas usando plantillas de maqueta digitales o imprimiendo páginas de muestra y fotografiándolas en entornos realistas. De tres a cinco imágenes de maqueta dan a tu anuncio la profundidad visual que convence a los compradores de que tu paquete es un producto profesional.\n\nCrea un archivo o imágenes de vista previa que muestren variedad. Los compradores necesitan evaluar la calidad antes de comprar, y para paquetes esto significa ver muestras de diferentes secciones de la colección. Muestra una página de cada sección principal del paquete — una página de suma, una de resta, una actividad de sentido numérico, una página de problemas — en lugar de cuatro páginas de la misma sección. Cada página de vista previa debe demostrar formato claro, diseño profesional y contenido apropiado para la edad. Añade una marca de agua o sello de «VISTA PREVIA» a las páginas de muestra para prevenir el uso no autorizado mientras permites la evaluación de calidad.\n\nMantén un branding consistente en todos los componentes del paquete. Usa las mismas fuentes, colores, estilos de encabezado y patrones de diseño en cada ficha del paquete. Cuando los compradores hojean un paquete y ven un lenguaje de diseño consistente en todas las páginas, refuerza la percepción de un producto profesional y cohesivo en lugar de una colección de fichas aleatorias tomadas de diferentes fuentes. Los generadores de fichas producen resultados con formato consistente por defecto, lo que da a tus paquetes cohesión visual inherente.\n\nNombra los archivos de tu paquete de forma clara para la satisfacción post-compra. La experiencia del comprador no termina en el pago — el momento en que descargan y abren tus archivos es cuando forman su impresión duradera. Archivos bien organizados con nombres claros crean una primera impresión positiva que lleva a buenas reseñas y compras repetidas. Archivos mal organizados con nombres confusos crean frustración que lleva a solicitudes de reembolso y comentarios negativos independientemente de la calidad del contenido.`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'crear-paquetes-fichas-etsy',
-      title: 'Cómo crear paquetes de fichas en Etsy',
+      title: `Cómo crear paquetes de fichas en Etsy`,
       description: `Tácticas de paquetes específicas para Etsy — cubriendo optimización de anuncios, etiquetas, fotos y entrega de paquetes dentro del marketplace de Etsy.`,
     },
     {
       slug: 'precios-imprimibles-etsy',
-      title: 'Cómo fijar precios de tus imprimibles en Etsy',
+      title: `Cómo fijar precios de tus imprimibles en Etsy`,
       description: `Estrategias detalladas de precios para productos individuales y paquetes en Etsy, incluyendo análisis competitivo y métodos de prueba de precios.`,
     },
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía completa para iniciar un negocio de imprimibles`,
       description: `La guía fundamental de negocios cubriendo creación de contenido, licencias comerciales, estrategia multi-plataforma y construcción de un negocio sostenible de imprimibles.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: 'Cómo crear paquetes de fichas en Etsy' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Cómo fijar precios de imprimibles en Etsy' },
-    { pageType: 'guide', slug: 'vender-imprimibles-gumroad', anchorText: 'Cómo vender imprimibles en Gumroad' },
+    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: `Cómo crear paquetes de fichas en Etsy` },
+    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: `Cómo fijar precios de imprimibles en Etsy` },
+    { pageType: 'guide', slug: 'vender-imprimibles-gumroad', anchorText: `Cómo vender imprimibles en Gumroad` },
     { pageType: 'guide', slug: 'vender-creative-fabrica', anchorText: `Cómo vender recursos educativos en Creative Fabrica` },
-    { pageType: 'guide', slug: 'crear-vender-recursos-tpt', anchorText: 'Cómo crear y vender recursos en Gumroad' },
+    { pageType: 'guide', slug: 'crear-vender-recursos-tpt', anchorText: `Cómo crear y vender recursos en Gumroad` },
     { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de suma' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: `Cómo crear páginas para colorear con imágenes temáticas` },
-    { pageType: 'guide', slug: 'crear-fichas-asociacion', anchorText: 'Cómo crear fichas de asociación para preescolar' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'crear-fichas-asociacion', anchorText: `Cómo crear fichas de asociación para preescolar` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
@@ -182,33 +182,33 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Crea páginas para colorear visualmente llamativas que combinan naturalmente con otros tipos de actividad en paquetes temáticos. Productos de alta demanda que hacen las imágenes de vista previa de los paquetes más atractivas visualmente.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de asociación',
+      title: `Generador de fichas de asociación`,
       description: `Genera actividades de asociación que complementan otros tipos de fichas en paquetes de formato y temáticos. Añade la variedad que mantiene los paquetes interesantes para los usuarios a lo largo de múltiples sesiones.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de matemáticas lista para agrupar en un paquete de fichas de alto valor` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de matemáticas lista para agrupar en un paquete de fichas de alto valor` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de suma para creación de paquetes de fichas de matemáticas`, caption: 'Las fichas de matemáticas están entre los productos más populares para creación de paquetes — combina suma, resta y sentido numérico para paquetes integrales' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras para paquete temático de fichas', caption: `Las sopas de letras añaden variedad a los paquetes temáticos y funcionan en paquetes por materia, nivel escolar y estacionales` },
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de asociación para colección de paquetes imprimibles', caption: 'Las actividades de asociación complementan otros tipos de fichas en paquetes por formato — la variedad mantiene a los usuarios comprometidos a lo largo de múltiples sesiones' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de suma para creación de paquetes de fichas de matemáticas`, caption: `Las fichas de matemáticas están entre los productos más populares para creación de paquetes — combina suma, resta y sentido numérico para paquetes integrales` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras para paquete temático de fichas`, caption: `Las sopas de letras añaden variedad a los paquetes temáticos y funcionan en paquetes por materia, nivel escolar y estacionales` },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de asociación para colección de paquetes imprimibles`, caption: `Las actividades de asociación complementan otros tipos de fichas en paquetes por formato — la variedad mantiene a los usuarios comprometidos a lo largo de múltiples sesiones` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo crear fichas de suma para agrupar en colecciones de alto valor`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Tejón — imagen educativa temática', caption: 'Tejón' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagen educativa temática', caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Tejón — imagen educativa temática`, caption: 'Tejón' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagen educativa temática`, caption: 'Castor' },
   ],
 };
 

@@ -2,27 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'mehrsprachiger Arbeitsblatt-Generator',
+    primaryKeyword: `mehrsprachiger Arbeitsblatt-Generator`,
     secondaryKeywords: [
-      'Arbeitsblätter in mehreren Sprachen erstellen',
-      'mehrsprachige druckbare Arbeitsblätter',
+      `Arbeitsblätter in mehreren Sprachen erstellen`,
+      `mehrsprachige druckbare Arbeitsblätter`,
       `Arbeitsblätter auf Deutsch Französisch Spanisch verkaufen`,
-      'mehrsprachiger Aktivitätsbuch-Generator',
+      `mehrsprachiger Aktivitätsbuch-Generator`,
     ],
     lsiKeywords: [
-      'sprachsensitiver Arbeitsblatt-Generator',
-      'Arbeitsblätter in 11 Sprachen erstellen',
-      'nicht-englischer Druckvorlagen-Markt Etsy',
-      'mehrsprachiger Wortsuche-Generator',
-      'internationales Druckvorlagen-Geschäft',
-      'Arbeitsblätter auf Etsy.de Etsy.fr verkaufen',
+      `sprachsensitiver Arbeitsblatt-Generator`,
+      `Arbeitsblätter in 11 Sprachen erstellen`,
+      `nicht-englischer Druckvorlagen-Markt Etsy`,
+      `mehrsprachiger Wortsuche-Generator`,
+      `internationales Druckvorlagen-Geschäft`,
+      `Arbeitsblätter auf Etsy.de Etsy.fr verkaufen`,
     ],
     titleTag: `Mehrsprachiger Arbeitsblatt-Generator — 11 Sprachen`,
     metaDescription: `Arbeitsblätter in 11 Sprachen erstellen und auf internationalen Märkten verkaufen. Deutsche, französische und spanische Käufer auf Etsy und KDP erreichen.`,
   },
 
   hero: {
-    title: 'Arbeitsblätter in 11 Sprachen erstellen',
+    title: `Arbeitsblätter in 11 Sprachen erstellen`,
     tagline: `Internationale Käufer auf Etsy und Amazon KDP mit professionell lokalisierten Arbeitsblatt-Inhalten erreichen — keine Übersetzungskenntnisse erforderlich`,
     description: `Die meisten Druckvorlagen-Verkäufer konkurrieren ausschließlich auf dem englischsprachigen Markt und ignorieren Millionen von Käufern, die auf Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch und in anderen Sprachen suchen. Dieser Leitfaden zeigt Ihnen, wie Sie mehrsprachige Arbeitsblatt-Generatoren nutzen, um authentische, sprachspezifische Inhalte für 11 Sprachen zu erstellen und sie auf internationalen Marktplätzen zu verkaufen. Sie lernen den entscheidenden Unterschied zwischen sprachsensitiven und rein visuellen Generatoren, verstehen die Marktchancen in jeder unterstützten Sprache und entwickeln eine systematische Strategie zur internationalen Expansion Ihres Druckvorlagen-Geschäfts.`,
   },
@@ -51,7 +51,7 @@ const content: StartContent = {
       content: `Der schnellste Weg zu Ihrem ersten mehrsprachigen Produkt beginnt mit einem sprachsensitiven Generator und einem nachfragestarken Thema.\n\nSchritt eins: Wählen Sie einen sprachsensitiven Generator. Wortsuche ist der stärkste Ausgangspunkt, weil sie die beliebteste Rätsel-Arbeitsblatt-Kategorie auf Etsy und Amazon ist und Sprachunterschiede am deutlichsten demonstriert. Die versteckten Wörter sind in jeder Sprache völlig verschieden, wodurch jede Version ein wirklich einzigartiges Produkt ist.\n\nSchritt zwei: Wählen Sie Ihre Zielsprache. Wenn dies Ihr erstes nicht-englisches Produkt ist, beginnen Sie mit Deutsch. Amazon.de ist der größte nicht-englische Marktplatz, und die deutsche Nachfrage nach Bildungs-Druckvorlagen ist gut etabliert. Sie können die Benutzeroberfläche auf Englisch erkunden, während Sie deutschsprachige Ausgaben generieren.\n\nSchritt drei: Wählen Sie ein beliebtes Thema. Tiere, Essen und Fahrzeuge sind universell starke Themen über alle Sprachen und Altersgruppen hinweg. Wählen Sie Ihr Thema, und der Generator verwendet automatisch die deutschen Übersetzungen aus seiner Vokabeldatenbank.\n\nSchritt vier: Generieren und überprüfen. Erstellen Sie Ihre Wortsuche-Rätsel und untersuchen Sie die Ausgabe. Sie werden deutsche Wörter im Rätselgitter sehen, mit deutschen Wortlisten für den Löser. Auch wenn Sie kein Deutsch sprechen, können Sie überprüfen, ob die Ausgabe professionell und vollständig aussieht.\n\nSchritt fünf: Erstellen Sie ein komplettes Produkt. Generieren Sie 15–25 Rätselseiten für ein herunterladbares PDF-Paket (Etsy) oder 50–100 Seiten für ein Aktivitätsbuch-Innenteil (Amazon KDP). Fügen Sie eine Titelseite mit dem Produktnamen in der Zielsprache hinzu.\n\nSchritt sechs: Wiederholen Sie für weitere Sprachen. Sobald Sie Ihre deutsche Version haben, erstellen Sie dasselbe Produkt auf Französisch und Spanisch. Jede Generierung dauert Minuten, weil der Workflow identisch ist — nur die Sprachauswahl ändert sich. Sie haben jetzt vier Produkte (Englisch, Deutsch, Französisch, Spanisch) aus einem einzigen Workflow.\n\nDenken Sie daran: Nutzen Sie die kostenlose Testversion mit Wasserzeichen, um Ihre mehrsprachige Ausgabe zu testen, bevor Sie sich für eine kommerzielle Lizenz entscheiden. Generieren Sie Musterseiten in mehreren Sprachen, um zu bestätigen, dass die Qualität Ihren Standards entspricht.`,
     },
     {
-      heading: 'Mehrsprachige Arbeitsblätter auf Etsy verkaufen',
+      heading: `Mehrsprachige Arbeitsblätter auf Etsy verkaufen`,
       content: `Etsy betreibt regionale Domains, die Käufer in ihrer Muttersprache bedienen, und das Verständnis der Optimierung für diese Märkte ist für mehrsprachige Verkäufer unerlässlich.\n\nEtsy.de bedient deutschsprachige Käufer. Etsy.fr bedient französischsprachige Käufer. Etsy.com bedient primär englischsprachige Käufer, hat aber auch signifikanten spanischsprachigen Traffic. Wenn Sie Angebote erstellen, zeigt Etsy diese auf der regionalen Domain an, die zur Angebotssprache und zum Standort des Käufers passt.\n\nFür die Angebotsoptimierung auf nicht-englischen Märkten schreiben Sie Ihren Titel, Ihre Tags und Ihre Beschreibung in der Zielsprache. Ein deutsches Wortsuche-Angebot sollte den Titel „Wortsuche Rätsel für Kinder — Tiere Thema — 20 Seiten" haben statt „German Word Search Puzzles for Kids". Käufer auf Etsy.de suchen auf Deutsch, daher muss Ihr Angebot deutsche Keywords enthalten, um in deren Suchergebnissen zu erscheinen.\n\nWenn Sie die Zielsprache nicht sprechen, verwenden Sie Übersetzungstools für Ihren Angebotstext (nicht für Ihren Arbeitsblatt-Inhalt — das übernimmt der Generator). Angebots-Titel und -Beschreibungen sind kurz genug, dass Übersetzungstools akzeptable Ergebnisse liefern, besonders wenn Sie einer Vorlagenstruktur folgen.\n\nPaket-Strategien funktionieren außergewöhnlich gut für mehrsprachige Produkte auf Etsy. „Deutsches Wortsuche Paket — 20 Rätsel" bietet klaren Mehrwert in einem einzigen Kauf. Erstellen Sie themenspezifische Pakete: Tiere, Essen, Feiertage, Schulfächer. Bepreisen Sie Pakete mit einem moderaten Aufschlag gegenüber einzelnen Arbeitsblättern.\n\nQuerverweise zwischen Sprachversionen erzeugen einen Katalogeffekt. Erwähnen Sie in Ihrer englischen Angebotsbeschreibung „Auch verfügbar auf Deutsch, Französisch und Spanisch" mit Links zu diesen Angeboten. Zweisprachige Käufer und internationale Schulen kaufen oft mehrere Sprachversionen desselben Arbeitsblatt-Sets.\n\nEtsys digitales Download-Format ist ideal für mehrsprachige Arbeitsblätter, weil es keine Versandkomplexität gibt. Ein Käufer in Deutschland lädt ein PDF sofort herunter, genau wie ein Käufer in den USA. Ihre Betriebskosten sind identisch, unabhängig davon, aus welchem Land der Käufer stammt.`,
     },
     {
@@ -98,7 +98,7 @@ const content: StartContent = {
       description: `Nehmen Sie Ihre bestehenden Ausmalseiten, Mathe-Arbeitsblätter und andere rein visuelle Produkte. Erstellen Sie neue Angebote mit deutschen Titeln und Beschreibungen unter Verwendung derselben PDF-Dateien. Keine neue Inhaltsgenerierung erforderlich.`,
     },
     {
-      step: 'Auf Französisch und Spanisch expandieren',
+      step: `Auf Französisch und Spanisch expandieren`,
       description: `Sobald Ihre deutschen Angebote live und optimiert sind, wiederholen Sie den Prozess für Französisch (Amazon.fr, Etsy.fr) und Spanisch (Amazon.es, hispanischer US-Markt). Verwenden Sie denselben Workflow: sprachsensitive Produkte zuerst, dann rein visuelle Neu-Listungen.`,
     },
     {
@@ -106,7 +106,7 @@ const content: StartContent = {
       description: `Erstellen Sie Band 2 und Band 3 Ihrer bestperformenden mehrsprachigen Produkte. Serien über Sprachen hinweg vervielfachen Ihre Katalogpräsenz: 3 Bände in 4 Sprachen ergeben 12 separate Produkte aus einer Inhaltsstrategie.`,
     },
     {
-      step: 'Leistung nach Sprache und Marktplatz verfolgen',
+      step: `Leistung nach Sprache und Marktplatz verfolgen`,
       description: `Überwachen Sie Verkaufsdaten für jede Sprachversion separat. Identifizieren Sie, welche Sprachen und Marktplätze die stärksten Erträge generieren, und priorisieren Sie dann den zusätzlichen Katalogaufbau in diesen Märkten.`,
     },
   ],
@@ -134,7 +134,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Im Wort-Zuordnungsmodus ändern sich Vokabelbeschriftungen pro Sprache. Ordnen Sie Bilder ihren deutschen, französischen oder spanischen Namen zu, mit authentisch lokalisierten Inhalten aus der integrierten Übersetzungsdatenbank.`,
     },
     {
@@ -181,59 +181,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der umfassende Grundlagen-Leitfaden zu Nischenauswahl, Produkterstellung, Plattformvergleich, Preisstrategie und Katalogaufbau für alle Druckvorlagen-Marktplätze.`,
     },
     {
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      title: 'Amazon KDP Aktivitätsbuch-Geschäftsleitfaden',
+      title: `Amazon KDP Aktivitätsbuch-Geschäftsleitfaden`,
       description: `Der KDP-spezifische Leitfaden für die Veröffentlichung von Aktivitätsbüchern auf Amazon. Behandelt Innenformatierung, Cover-Design, Keyword-Recherche, Preisgestaltung und die Skalierung Ihres KDP-Katalogs international.`,
     },
     {
       slug: 'etsy-druckvorlagen-geschaeft',
-      title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+      title: `Etsy Druckvorlagen-Geschäft Masterclass`,
       description: `Der Etsy-spezifische Leitfaden für digitale Druckvorlagen-Downloads. Behandelt Shop-Einrichtung, Etsy SEO, Angebotsoptimierung und wie Sie internationale Käufer über Etsys regionale Domains erreichen.`,
     },
     {
-      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
-      title: 'Arbeitsblätter erstellen, die sich verkaufen',
+      slug: `arbeitsblaetter-erstellen-die-verkaufen`,
+      title: `Arbeitsblätter erstellen, die sich verkaufen`,
       description: `Tiefgehender Einblick in die Qualität der Produkterstellung: Design-Standards, Differenzierungstechniken und die Methoden, die Ihre mehrsprachigen Arbeitsblätter von der Konkurrenz abheben.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Druckvorlagen-Geschäft Bauplan' },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäftsleitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Druckvorlagen-Geschäft Bauplan` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäftsleitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz-Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-einkommen', anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Kreuzworträtsel-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Kreuzworträtsel-Ersteller ausprobieren' },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-einkommen`, anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'app', slug: `bilderkreuzwortraetsel-arbeitsblaetter`, anchorText: `Kreuzworträtsel-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: `bilderkreuzwortraetsel-ersteller`, anchorText: `Kreuzworträtsel-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt zeigt mehrsprachige Arbeitsblatt-Generierung in 11 Sprachen` },
+    heroImage: { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt zeigt mehrsprachige Arbeitsblatt-Generierung in 11 Sprachen` },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular`, caption: 'Wortsuche — Beste mehrsprachige Demonstration' },
-      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: 'Kreuzworträtsel mit lokalisierten Hinweisen und Antworten', caption: 'Kreuzworträtsel — Vollständig lokalisierte Rätsel' },
-      { src: `/samples/german/word scramble/Buchstabensala 1.webp`, alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
-      { src: '/samples/german/alphabet train/worksheet.webp', alt: `Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze`, caption: 'Buchstabenzug — Angepasste Zeichensätze' },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular`, caption: `Wortsuche — Beste mehrsprachige Demonstration` },
+      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: `Kreuzworträtsel mit lokalisierten Hinweisen und Antworten`, caption: `Kreuzworträtsel — Vollständig lokalisierte Rätsel` },
+      { src: `/samples/german/word scramble/Buchstabensala 1.webp`, alt: `Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular`, caption: `Buchstabensalat — Sprachsensitive Ausgabe` },
+      { src: `/samples/german/alphabet train/worksheet.webp`, alt: `Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze`, caption: `Buchstabenzug — Angepasste Zeichensätze` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Wortsuche-Arbeitsblätter in mehreren Sprachen erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — thematisches Lernbild', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Nashornvogel — thematisches Lernbild', caption: 'Nashornvogel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Strauß — thematisches Lernbild', caption: 'Strauß' },
+    { src: `/image-library/birds/eagle.webp`, alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — thematisches Lernbild`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Nashornvogel — thematisches Lernbild`, caption: 'Nashornvogel' },
+    { src: `/image-library/birds/macaw.webp`, alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Strauß — thematisches Lernbild`, caption: 'Strauß' },
   ],
 };
 

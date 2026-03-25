@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas de Imprimibles de Pascua para Vender — Guía',
+    titleTag: `Ideas de Imprimibles de Pascua para Vender — Guía`,
     metaDescription: `Descubre ideas de imprimibles de Pascua para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos primaverales, estrategias estacionales y consejos.`,
 
-    primaryKeyword: 'ideas de imprimibles de pascua para vender',
+    primaryKeyword: `ideas de imprimibles de pascua para vender`,
     secondaryKeywords: [
       'fichas de Pascua para vender',
       'negocio imprimibles Pascua',
-      'fichas actividades Pascua para vendedores',
-      'vender imprimibles de Pascua en Etsy',
+      `fichas actividades Pascua para vendedores`,
+      `vender imprimibles de Pascua en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática primaveral',
-      'actividades búsqueda huevos de Pascua',
-      'imprimibles estacionales tienda primavera',
+      `fichas educativas temática primaveral`,
+      `actividades búsqueda huevos de Pascua`,
+      `imprimibles estacionales tienda primavera`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Para capturar los máximos ingresos de Pascua, desarrolla productos en múltiple
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Pascua para Vender en Línea',
+      title: `Sopas de Letras de Pascua para Vender en Línea`,
       description: `Las sopas de letras con vocabulario primaveral atraen a vendedores que planifican actividades del mercado de marzo y abril y a padres que buscan entretenimiento educativo durante el período de celebración de Pascua. Crea puzzles con vocabulario específico de Pascua como conejito, cesta, pollito, cordero, tulipán, sombrero y chocolate junto con términos más amplios de celebraciones primaverales. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos de Pascua para usuarios mayores. Las variaciones como vocabulario de búsqueda de huevos, palabras de animales primaverales y terminología de celebraciones de Pascua expanden tu catálogo para captar diferentes intereses de compradores dentro del nicho estacional primaveral.`,
       appId: 'wordsearch',
     },
@@ -90,12 +90,12 @@ Para capturar los máximos ingresos de Pascua, desarrolla productos en múltiple
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Pascua en Etsy',
+      title: `Vender Imprimibles de Pascua en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de Pascua, y la temporada de compras de primavera crea un importante pico de tráfico para las descargas digitales educativas. Publica tus listados de Pascua a finales de enero para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en febrero. Utiliza las trece etiquetas con variaciones que combinen subtemas de Pascua, tipos de habilidad y grupos de edad: «fichas conteo Pascua preescolar», «sopa de letras primavera jardín de infantes» y «páginas colorear conejito infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas Pascua». Crea variaciones de listados orientadas a celebraciones posicionando los paquetes de actividades como paquetes para fiestas de Pascua en línea o rellenos de cestas de Pascua. Las imágenes de listados mostrando fichas de Pascua impresas en entornos con temática primaveral y accesorios estacionales como decoraciones en tonos pastel y flores de primavera superan las vistas previas digitales planas y captan la mentalidad festiva que impulsa el tráfico primaveral.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades de Pascua en KDP',
+      title: `Publicar Libros de Actividades de Pascua en KDP`,
       description: `Amazon KDP destaca para los imprimibles de Pascua porque los padres y compradores de regalos naturalmente añaden libros de actividades a sus carritos de Amazon junto con cestas de Pascua, huevos de chocolate y juguetes primaverales. Compila fichas individuales de Pascua en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas primaverales. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades Pascua para niños», «fichas primaverales preescolar» y términos de subtemas como «libro colorear conejitos» o «actividades búsqueda huevos para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como rellenos de cestas de Pascua o regalos primaverales para venta en línea. Publica a principios de febrero para asegurarte de que tus libros estén indexados y disponibles antes de que la fase de planificación de marzo se intensifique, y considera crear múltiples libros dirigidos a diferentes grupos de edad y subtemas para captar consultas de búsqueda variadas durante el apuro de Pascua.`,
     },
     {
@@ -144,18 +144,18 @@ Para capturar los máximos ingresos de Pascua, desarrolla productos en múltiple
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -164,12 +164,12 @@ Para capturar los máximos ingresos de Pascua, desarrolla productos en múltiple
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -180,17 +180,17 @@ Para capturar los máximos ingresos de Pascua, desarrolla productos en múltiple
     {
       pageType: 'idea',
       slug: 'halloween-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Halloween',
+      anchorText: `Ideas de Negocio de Imprimibles de Halloween`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Abeja — imagen educativa temática', caption: 'Abeja' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/spring/bird.webp', alt: 'Pájaro — imagen educativa temática', caption: 'Pájaro' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Casita para Pájaros — imagen educativa temática', caption: 'Casita para Pájaros' },
-    { src: '/image-library/spring/bud.webp', alt: 'Capullo — imagen educativa temática', caption: 'Capullo' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Conejito — imagen educativa temática', caption: 'Conejito' },
+    { src: `/image-library/spring/bee.webp`, alt: `Abeja — imagen educativa temática`, caption: 'Abeja' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/spring/bird.webp`, alt: `Pájaro — imagen educativa temática`, caption: 'Pájaro' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Casita para Pájaros — imagen educativa temática`, caption: 'Casita para Pájaros' },
+    { src: `/image-library/spring/bud.webp`, alt: `Capullo — imagen educativa temática`, caption: 'Capullo' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Conejito — imagen educativa temática`, caption: 'Conejito' },
   ],
 
 

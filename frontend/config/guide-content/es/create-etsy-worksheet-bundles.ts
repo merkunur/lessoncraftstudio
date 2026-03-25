@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'paquetes de fichas Etsy',
     secondaryKeywords: [
-      'cómo crear paquetes de fichas Etsy',
+      `cómo crear paquetes de fichas Etsy`,
       `estrategia de anuncios de paquetes imprimibles Etsy`,
-      'vender paquetes de fichas en Etsy',
-      'creación de paquetes de descargas digitales Etsy',
+      `vender paquetes de fichas en Etsy`,
+      `creación de paquetes de descargas digitales Etsy`,
     ],
     lsiKeywords: [
       `optimización de anuncios Etsy organización de archivos paquetes estrategia`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `entrega digital Etsy archivos múltiples estructura de paquetes`,
       `estrategia de tienda Etsy paquetes vs anuncios individuales canibalización`,
     ],
-    titleTag: 'Crear paquetes de fichas Etsy — Guía',
+    titleTag: `Crear paquetes de fichas Etsy — Guía`,
     metaDescription: `Crea paquetes de fichas Etsy que aumentan el valor medio del pedido. Tipos de paquetes, organización de archivos, imágenes de vista previa, optimización.`,
   },
 
   hero: {
-    title: 'Cómo crear paquetes de fichas Etsy',
+    title: `Cómo crear paquetes de fichas Etsy`,
     tagline: `Una guía completa para crear, estructurar, publicar y optimizar paquetes de fichas para Etsy — incluyendo selección de tipo de paquete por asignatura, grado, tema, temporada y formato, selección de productos para máximo valor percibido, organización de archivos dentro de los límites de entrega de Etsy, imágenes de vista previa específicas para paquetes y diseño de miniaturas, títulos y etiquetas de anuncios optimizados para términos de búsqueda de paquetes, estrategias de precios con valor apilado y descuentos de anclaje, y seguimiento del rendimiento para identificar tus combinaciones de paquetes con mejor resultado`,
     description: `Los paquetes de fichas están entre los anuncios de mayor ingreso en Etsy para vendedores de imprimibles educativos. Esta guía te acompaña en todo el flujo de trabajo de creación de paquetes — desde elegir qué productos combinar hasta escribir anuncios que comuniquen el valor del paquete y hacer seguimiento del rendimiento a lo largo del tiempo.`,
   },
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `Los paquetes de productos digitales tienen ventajas estructurales en Etsy que los paquetes de productos físicos no tienen. Comprender estas ventajas te ayuda a construir paquetes que maximicen su potencial.\n\nMayor valor percibido: Los compradores evalúan los paquetes comparando el precio del paquete con la suma de los precios de los productos individuales. Un paquete de ocho fichas con un precio de $12 cuando las fichas individuales se venden a $3 cada una representa un valor individual de $24 — un ahorro del 50 %. Este descuento percibido impulsa las decisiones de compra incluso cuando el comprador podría haber comprado solo dos o tres artículos individuales. La clave es que cada artículo del paquete debe ser algo que el comprador plausiblemente querría.\n\nMayor valor medio de pedido: La métrica más importante para la rentabilidad de una tienda de imprimibles es el ingreso por transacción. Etsy cobra tarifas de anuncio y de procesamiento de pagos por transacción, así que ganar $12 de una venta es significativamente más rentable que ganar $12 de cuatro ventas separadas de $3. Los paquetes impulsan naturalmente esta métrica al alza.\n\nMejor posicionamiento en búsquedas para palabras clave de paquetes: Los compradores que buscan términos con «paquete» o «pack» tienen mayor intención de compra. Ya han decidido que quieren múltiples productos y están comparando opciones de paquetes. La competencia por palabras clave específicas de paquetes también es típicamente menor que para palabras clave de productos individuales, dando a las tiendas nuevas un camino realista hacia la visibilidad en búsquedas.\n\nCero coste marginal de producción: A diferencia de los paquetes de productos físicos donde los costes de envío y embalaje aumentan con el tamaño del paquete, los paquetes digitales no cuestan nada extra para entregar. Una vez que has creado las fichas individuales, combinarlas en un paquete requiere solo organización de archivos y un nuevo anuncio. Esto significa que cada dólar de ingreso del paquete por encima de los componentes individuales es margen puro.\n\nReducción de la fatiga de decisión del comprador: Los vendedores y padres que compran productos imprimibles a menudo se sienten abrumados por las opciones. Un paquete seleccionado que dice «todo lo que necesitas para matemáticas de jardín de infantes» elimina la necesidad de evaluar y seleccionar productos individuales. Este factor de conveniencia es un argumento de venta genuino que justifica el precio del paquete.`,
     },
     {
-      heading: 'Elige tu tipo y tema de paquete',
+      heading: `Elige tu tipo y tema de paquete`,
       content: `No todos los paquetes se estructuran de la misma manera. El tipo de paquete que creas determina qué compradores atraes y cómo posicionas el anuncio. Hay cinco tipos principales de paquetes para imprimibles educativos, cada uno sirviendo una necesidad diferente del comprador.\n\nPaquetes por asignatura: Combinan fichas de la misma área temática. Un «Paquete de fichas de matemáticas» podría incluir fichas de sumas, restas, comparación, puzles numéricos y fichas de lógica con cuadrícula. Los paquetes por asignatura atraen a vendedores y padres que buscan cobertura integral de un tema. Estos son tu tipo de paquete de mayor volumen porque la búsqueda basada en asignaturas es el comportamiento más común en Etsy.\n\nPaquetes por nivel de grado: Combinan fichas de diferentes asignaturas, todas apropiadas para el mismo nivel de grado. Un «Paquete de actividades de jardín de infantes» podría incluir sumas simples, trazado de letras, páginas para colorear y puzles de sopa de letras. Los paquetes por nivel de grado atraen a padres y emprendedores de trabajo desde casa que quieren una compra que cubra múltiples áreas temáticas para el nivel de su hijo.\n\nPaquetes temáticos: Combinan fichas que comparten un tema visual en diferentes asignaturas y formatos. Un «Paquete de fichas con tema de animales» podría incluir sumas con tema de animales, sopas de letras de animales, páginas para colorear de animales y fichas de vocabulario de animales. Los paquetes temáticos atraen a compradores que quieren materiales cohesivos para venta en línea o la trabajo desde casa con un estilo visual unificado.\n\nPaquetes estacionales: Combinan fichas programadas para temporadas o eventos específicos. Un «Paquete de fichas de vuelta al cole» se dirige al pico de compras de agosto-septiembre. Un «Paquete de actividades de fiestas de invierno» se dirige a noviembre-diciembre. Los paquetes estacionales capitalizan picos de demanda predecibles y pueden rotarse a lo largo del año.\n\nPaquetes por formato: Combinan fichas del mismo tipo de formato en diferentes asignaturas y temas. Un «Paquete de actividades de puzles» podría incluir sopas de letras, sudoku, puzles matemáticos y fichas de lógica con cuadrícula. Los paquetes por formato atraen a compradores que saben que a sus usuarios les gusta un tipo de actividad particular y quieren variedad dentro de ese formato.\n\nElegir el tipo adecuado: Empieza con paquetes por asignatura — tienen el atractivo más amplio y la segmentación de palabras clave más clara. Una vez que tengas dos o tres paquetes por asignatura funcionando bien, expande a paquetes por nivel de grado y temáticos usando muchos de los mismos componentes de fichas. Esto te permite crear múltiples paquetes a partir de inventario superpuesto sin producir contenido totalmente nuevo.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Los anuncios de paquetes requieren estrategias de palabras clave y estructuras de descripción diferentes a los anuncios de productos individuales. Los compradores que buscan paquetes usan diferentes términos de búsqueda y evalúan los anuncios de forma diferente.\n\nFórmula del título del paquete: [Asignatura/Tema] [Tipo de producto] Paquete | [Nivel de grado/Edad] [Formato] | [Señal de contenido]\n\nEjemplos:\n• «Paquete fichas matemáticas jardín de infantes | Sumas restas imprimible pack | 50 páginas descarga digital»\n• «Paquete actividades tema animales | Colorear sopa letras fichas matemáticas | Pack imprimible tienda»\n• «Paquete fichas vuelta al cole primer grado | Mates lectoescritura actividades pack | Descarga digital PDF»\n\nIncluye «paquete» o «pack» en la primera mitad de tu título. Los compradores que filtran resultados por paquetes a menudo incluyen estas palabras en su búsqueda, y Etsy da más peso a las palabras que aparecen antes en los títulos.\n\nEstrategia de etiquetas para paquetes: Tus 13 etiquetas deberían cubrir términos específicos de paquetes que los anuncios individuales no usarían. Distribuye las etiquetas en estas categorías:\n\n1. Términos de paquete (3 etiquetas): «paquete fichas», «pack imprimible», «set de actividades»\n2. Asignatura/tema (3 etiquetas): «fichas matemáticas», «práctica sumas», «actividades restas»\n3. Grado/edad (2 etiquetas): «matemáticas jardín infantes», «primer grado»\n4. Caso de uso (2 etiquetas): «paquete educación casa», «materiales tienda»\n5. Formato (1 etiqueta): «descarga digital»\n6. Estacional o comprador (2 etiquetas): «recursos vendedores», «vuelta al cole»\n\nEstructura de descripción para paquetes: Las descripciones de paquetes necesitan comunicar claramente todo lo incluido. Estructura tu descripción en este orden:\n\n1. Apertura (primeros 160 caracteres): Palabra clave principal, número de artículos, nivel de grado y declaración instantánea de valor\n2. Qué incluye: Lista numerada de cada artículo del paquete con número de páginas\n3. Detalles del paquete: Número total de páginas, formato de archivo, rango de dificultad, confirmación de clave de respuestas\n4. Para quién es: Perfiles de comprador específicos (vendedores, padres de trabajo desde casa, tutores)\n5. Cómo usarlo: Instrucciones de impresión, ritmo sugerido o calendario\n6. Detalles técnicos: Formato de archivo, número de archivos, resolución, compatibilidad de tamaño de papel\n\nPara técnicas detalladas de SEO en Etsy incluyendo métodos de investigación de etiquetas y optimización de anuncios, consulta nuestra guía completa de SEO en Etsy para imprimibles educativos.`,
     },
     {
-      heading: 'Fija precios de paquetes para máximos ingresos',
+      heading: `Fija precios de paquetes para máximos ingresos`,
       content: `La fijación de precios de paquetes es tanto un arte como una ciencia. El objetivo es establecer un precio que se sienta como un descuento significativo comparado con comprar artículos individualmente mientras maximiza tus ingresos por transacción.\n\nEl principio de precio de anclaje: La fijación de precios de paquetes solo funciona cuando los compradores pueden comparar el precio del paquete con los precios de los artículos individuales. Esto significa que deberías tener anuncios individuales para al menos algunos de los artículos de tu paquete, con precio a su tarifa individual. La diferencia de precio visible entre comprar artículos individualmente versus comprar el paquete crea el ahorro percibido que impulsa las compras de paquetes.\n\nRango de descuento: La mayoría de los paquetes exitosos de imprimibles educativos en Etsy ofrecen del 25 al 40 por ciento de descuento sobre la suma de los precios individuales. Menos del 25 por ciento se siente como un descuento insignificante. Más del 40 por ciento puede hacer que los compradores cuestionen el valor de tus anuncios individuales o la calidad del contenido del paquete. El punto ideal para la mayoría de vendedores es del 30 al 35 por ciento de descuento.\n\nEstrategia escalonada de paquetes: Ofrece paquetes en múltiples niveles de tamaño para captar diferentes segmentos de compradores:\n\n• Pack de inicio (3–4 artículos): Precio de entrada, atrae compradores cautelosos, 20–25 % de descuento\n• Paquete estándar (6–8 artículos): Tu paquete principal, mejor propuesta de valor, 30–35 % de descuento\n• Mega paquete (12–15+ artículos): Precio premium, máximo valor percibido, 35–40 % de descuento\n\nEste enfoque escalonado crea su propia fijación de precio de anclaje — el mega paquete hace que el paquete estándar parezca asequible, y el paquete estándar hace que el pack de inicio parezca una primera compra razonable.\n\nCuándo no descontar: Algunos tipos de paquetes justifican precio completo o descuentos mínimos. Los paquetes estacionales lanzados durante demanda pico (paquetes de vuelta al cole en agosto) soportan precios más altos porque la temporalidad genera urgencia. Los paquetes exclusivos que contienen artículos no disponibles individualmente pueden tener precio sin referencia a los valores de artículos individuales.\n\nComunicación del precio en anuncios: Indica explícitamente el ahorro en la descripción y fotos de tu anuncio. «Este paquete incluye 8 fichas valoradas en $24 individualmente — ahorra un 50 % con el precio del paquete». Haz las cuentas fáciles de verificar para los compradores. Para un desglose completo de estrategias de precios, consulta nuestra guía sobre cómo fijar precios de tus imprimibles Etsy.`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'precios-imprimibles-etsy',
-      title: 'Cómo fijar precios de tus imprimibles Etsy',
+      title: `Cómo fijar precios de tus imprimibles Etsy`,
       description: `Estrategias detalladas de precios para fichas individuales y paquetes, incluyendo análisis de costes, posicionamiento competitivo y técnicas de precios psicológicos que complementan la visión general de precios de paquetes en esta guía.`,
     },
     {
       slug: 'seo-etsy-material-educativo',
-      title: 'SEO en Etsy para imprimibles educativos',
+      title: `SEO en Etsy para imprimibles educativos`,
       description: `La guía completa de SEO en Etsy que cubre investigación de palabras clave, optimización de títulos, las 13 etiquetas y factores de posicionamiento. Aplica estas técnicas para optimizar tus anuncios de paquetes para máxima visibilidad en búsquedas.`,
     },
     {
-      slug: 'vender-material-educativo-etsy',
-      title: 'Vender imprimibles educativos en Etsy',
+      slug: `vender-material-educativo-etsy`,
+      title: `Vender imprimibles educativos en Etsy`,
       description: `La guía completa de ventas en Etsy que cubre configuración de tienda, fotografía de productos, atención al cliente y planificación de catálogo — operaciones esenciales para gestionar una tienda enfocada en paquetes.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: 'Cómo vender sopas de letras en Etsy' },
-    { pageType: 'guide', slug: 'vender-material-educativo-etsy', anchorText: 'Cómo vender imprimibles educativos en Etsy' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Cómo fijar precios de tus imprimibles Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para imprimibles educativos' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: `Cómo vender sopas de letras en Etsy` },
+    { pageType: 'guide', slug: `vender-material-educativo-etsy`, anchorText: `Cómo vender imprimibles educativos en Etsy` },
+    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: `Cómo fijar precios de tus imprimibles Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para imprimibles educativos` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de sumas — Todos los detalles' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el generador de fichas de sumas' },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Generador de fichas de sumas — Todos los detalles` },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de sopas de letras — Todos los detalles` },
+    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: `Prueba el generador de fichas de sumas` },
   ],
 
   toolsRecommended: [
@@ -186,28 +186,28 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Crea páginas para colorear en docenas de temas visuales, proporcionando el componente creativo y artístico para paquetes temáticos y paquetes por nivel de grado. Las páginas para colorear amplían el atractivo del paquete más allá de los compradores estrictamente académicos.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas mostrando un componente clave de paquetes de imprimibles educativos para vendedores de Etsy` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas mostrando un componente clave de paquetes de imprimibles educativos para vendedores de Etsy` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas con tema de animales como componente de paquete de matemáticas para Etsy`, caption: 'Ficha de sumas con tema de animales — un componente clave para paquetes por asignatura de matemáticas en Etsy' },
-      { src: `/samples/spanish/subtraction/Restas Divertidas 1.webp`, alt: 'Ficha de restas con tema de animales complementando sumas en paquetes de matemáticas Etsy', caption: 'Ficha de restas con tema de animales — se empareja con fichas de sumas para paquetes completos de matemáticas' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras de animales añadiendo variedad multi-categoría a paquetes de fichas Etsy`, caption: 'Sopa de letras con tema de animales — añade valor de lectoescritura a paquetes temáticos multi-categoría' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas con tema de animales como componente de paquete de matemáticas para Etsy`, caption: `Ficha de sumas con tema de animales — un componente clave para paquetes por asignatura de matemáticas en Etsy` },
+      { src: `/samples/spanish/subtraction/Restas Divertidas 1.webp`, alt: `Ficha de restas con tema de animales complementando sumas en paquetes de matemáticas Etsy`, caption: `Ficha de restas con tema de animales — se empareja con fichas de sumas para paquetes completos de matemáticas` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras de animales añadiendo variedad multi-categoría a paquetes de fichas Etsy`, caption: `Sopa de letras con tema de animales — añade valor de lectoescritura a paquetes temáticos multi-categoría` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo crear fichas de sumas para paquetes Etsy — Estrategia de paquetes multi-producto`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — imagen educativa temática', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — imagen educativa temática', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — imagen educativa temática', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campanilla — imagen educativa temática', caption: 'Campanilla' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagen educativa temática', caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Aster — imagen educativa temática`, caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — imagen educativa temática`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — imagen educativa temática`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campanilla — imagen educativa temática`, caption: 'Campanilla' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagen educativa temática`, caption: 'Ranúnculo' },
   ],
 };
 

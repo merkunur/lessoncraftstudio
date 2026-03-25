@@ -2,12 +2,12 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'patroontrein werkbladen generator',
+    primaryKeyword: `patroontrein werkbladen generator`,
     secondaryKeywords: [
       `printbare patroonreeks werkbladen voor Etsy-verkopers`,
       `patroontrein werkbladen generator voor Amazon KDP-uitgevers`,
-      'patronenherkenning werkbladen verkopen op Gumroad',
-      'patroontrein werkbladen commerciële licentie',
+      `patronenherkenning werkbladen verkopen op Gumroad`,
+      `patroontrein werkbladen commerciële licentie`,
     ],
     lsiKeywords: [
       `digitale patroonvoltooiing printables online bedrijf`,
@@ -22,11 +22,11 @@ const content: AppContent = {
     title: `Patroontrein Werkbladen Generator voor Herhalende Reeksen Oefeningen`,
     tagline: `Vijf patroontypen — AB, AAB, ABB, ABC, AABB — weergegeven over 11 thematische treinwagons met instelbaar aantal aanwijzingen van 4 tot 10 voor nauwkeurige moeilijkheidsregeling.`,
     description:
-      `Ontwerp professionele patronenherkenning werkbladen waarbij gebruikers herhalende reeksen identificeren en voltooien, weergegeven als afbeeldingen op een thematische trein met 11 wagons. Vijf verschillende patroontypen dekken elk niveau van reekscomplexiteit: AB wisselt twee items af, AAB groepeert twee van het ene gevolgd door één van het andere, ABB keert die groepering om, ABC roteert drie verschillende items, en AABB koppelt twee van elk voordat het herhaalt. De treinindeling rangschikt 11 wagons over drie rijen (5 + 3 + 3), waarbij elke wagon één afbeelding uit het herhalende patroon bevat. Eén wagon wordt leeg gelaten — gebruikers identificeren het patroon en bepalen het ontbrekende item. Pas het aantal aanwijzingen aan van 4 tot 10 om de moeilijkheidsgraad te beheersen: 10 aanwijzingen tonen maakt het patroon duidelijk zichtbaar, terwijl slechts 4 aanwijzingen tonen echte patroonredenering vereist omdat de eerste 3 wagons altijd zichtbaar zijn. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema's. Een apart antwoordblad-tabblad toont alle 11 wagons gevuld met de juiste patroonreeks voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema's en alle 11 interfacetalen. Exporteer printklare PDF's en JPEG's op hoge DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Elk werkblad is volledig visueel met uitsluitend afbeeldingen op treinwagons en nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Of je nu patronenherkenning bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde wiskundecentra maakt voor Gumroad, de Patroontrein Werkbladen Generator levert unieke treinformaat producten in enkele minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Ontwerp professionele patronenherkenning werkbladen waarbij gebruikers herhalende reeksen identificeren en voltooien, weergegeven als afbeeldingen op een thematische trein met 11 wagons. Vijf verschillende patroontypen dekken elk niveau van reekscomplexiteit: AB wisselt twee items af, AAB groepeert twee van het ene gevolgd door één van het andere, ABB keert die groepering om, ABC roteert drie verschillende items, en AABB koppelt twee van elk voordat het herhaalt. De treinindeling rangschikt 11 wagons over drie rijen (5 + 3 + 3), waarbij elke wagon één afbeelding uit het herhalende patroon bevat. Eén wagon wordt leeg gelaten — gebruikers identificeren het patroon en bepalen het ontbrekende item. Pas het aantal aanwijzingen aan van 4 tot 10 om de moeilijkheidsgraad te beheersen: 10 aanwijzingen tonen maakt het patroon duidelijk zichtbaar, terwijl slechts 4 aanwijzingen tonen echte patroonredenering vereist omdat de eerste 3 wagons altijd zichtbaar zijn. De inhoud komt uit de ingebouwde Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema`s. Een apart antwoordblad-tabblad toont alle 11 wagons gevuld met de juiste patroonreeks voor directe verificatie. Volledige Toegang ontgrendelt alle 104 thema`s en alle 11 interfacetalen. Exporteer printklare PDF's en JPEG's op hoge DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Elk werkblad is volledig visueel met uitsluitend afbeeldingen op treinwagons en nul tekst op de uitvoer, waardoor producten universeel verkoopbaar zijn zonder vertaling. Of je nu patronenherkenning bundels verkoopt op Etsy.nl, vroeg-leren werkboeken samenstelt voor Amazon KDP, of gedifferentieerde wiskundecentra maakt voor Gumroad, de Patroontrein Werkbladen Generator levert unieke treinformaat producten in enkele minuten — gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Patroontrein Werkbladen in 5 Stappen',
+    title: `Hoe Maak Je Patroontrein Werkbladen in 5 Stappen`,
     steps: [
       {
         title: 'Stel de pagina-indeling in',
@@ -44,12 +44,12 @@ const content: AppContent = {
           `Stel het aantal zichtbare aanwijzingen in van 4 tot 10 om de werkbladmoeilijkheid te beheersen. De eerste 3 wagons worden altijd getoond, en de ontbrekende wagon wordt dynamisch geplaatst tussen de overige posities. 10 aanwijzingen tonen laat slechts 1 lege wagon over tussen 10 gevulde wagons — ideaal voor beginners. Slechts 4 aanwijzingen tonen dwingt gebruikers om het patroon te herkennen uit minimale informatie — een echte redeneringsuitdaging. Schakel optionele naam- en datum-uitknipvelden in of uit voor gebruikeridentificatie op geprinte werkbladen.`,
       },
       {
-        title: 'Selecteer afbeeldingen en voeg decoraties toe',
+        title: `Selecteer afbeeldingen en voeg decoraties toe`,
         description:
           `Verken 104 thematische afbeeldingencollecties met meer dan 3.100 illustraties — dieren, voedsel, voertuigen, natuur en tientallen meer — of laat het thema automatisch bijpassende afbeeldingen kiezen, selecteer handmatig uit de bibliotheek, of upload je eigen aangepaste afbeeldingen. Elk thema biedt gecoördineerde visuals die samenhangend ogen over de treinwagons. Gebruik het paneel Tekstgereedschappen om een werkbladtitel, instructies of decoratieve tekst toe te voegen met lettertypen waaronder Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Sleep, vergroot, verklein en herpositioneer elk element op het volledige Fabric.js-canvas.`,
       },
       {
-        title: 'Bekijk het antwoordblad en download',
+        title: `Bekijk het antwoordblad en download`,
         description:
           `Schakel over naar het Antwoordblad-tabblad om de voltooide trein te zien met alle 11 wagons gevuld — de ontbrekende positie toont nu het juiste patroonitem. Zowel het werkblad als het antwoordblad zijn onafhankelijk bewerkbaar op aparte canvassen. Schakel grijstintenexport in voor inktvriendelijke versies. Download vervolgens elk als een JPEG met hoge resolutie of printklare PDF. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden — het werkblad en antwoordblad worden als aparte bestanden gedownload voor een compleet productpakket.`,
       },
@@ -82,15 +82,15 @@ const content: AppContent = {
       {
         title: `Afbeeldingenbibliotheek met 104 thematische collecties`,
         description:
-          `Toegang tot meer dan 3.100 illustraties in 104 thematische collecties — dieren, voedsel, voertuigen, natuur, beroepen, feestdagen en tientallen meer. Elk thema biedt een gecoördineerde set afbeeldingen die samenhangend ogen over de treinwagons. Het Commerciële abonnement bevat 10 kleurrijke thema's om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema's voor maximale productvariatie. De thematische bibliotheek creëert natuurlijke bundelkansen: boerderijdieren patroontrein oefeningen, oceaandieren reeksen, dinosaurus patronenherkenning — elk thema wordt een aparte productvermelding met directe visuele aantrekkingskracht.`,
+          `Toegang tot meer dan 3.100 illustraties in 104 thematische collecties — dieren, voedsel, voertuigen, natuur, beroepen, feestdagen en tientallen meer. Elk thema biedt een gecoördineerde set afbeeldingen die samenhangend ogen over de treinwagons. Het Commerciële abonnement bevat 10 kleurrijke thema`s om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema`s voor maximale productvariatie. De thematische bibliotheek creëert natuurlijke bundelkansen: boerderijdieren patroontrein oefeningen, oceaandieren reeksen, dinosaurus patronenherkenning — elk thema wordt een aparte productvermelding met directe visuele aantrekkingskracht.`,
       },
       {
-        title: 'Dubbel canvassysteem met apart antwoordblad',
+        title: `Dubbel canvassysteem met apart antwoordblad`,
         description:
           `Het werkblad en antwoordblad bevinden zich op aparte, onafhankelijk bewerkbare canvassen die toegankelijk zijn via tabbladen. Het werkblad toont de trein met één lege wagon; het antwoordblad toont alle 11 wagons gevuld met de juiste patroonreeks. Elk canvas ondersteunt volledige bewerking — tekst toevoegen, layout aanpassen, elementen herpositioneren — zodat je zowel het gebruikerswerkblad als het verkopersantwoordblad onafhankelijk kunt aanpassen. Beide worden als aparte bestanden gedownload, waardoor kopers een compleet productpakket ontvangen. Het meeleveren van geverifieerde antwoordbladen verhoogt de waargenomen waarde en wordt verwacht door kopers op Etsy, Gumroad en KDP.`,
       },
       {
-        title: 'Printklare PDF- en JPEG-export op hoge DPI',
+        title: `Printklare PDF- en JPEG-export op hoge DPI`,
         description:
           `Download werkbladen en antwoordbladen als JPEG-afbeeldingen met hoge resolutie of als printklare PDF-documenten gerenderd met een 6x-vermenigvuldiger voor scherpe, gedetailleerde uitvoer. Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) en aangepaste formaten worden allemaal ondersteund. Schakel grijstintenexport in voor inktvriendelijke versies die ideaal zijn voor het printen online of voor zwart-wit werkboeken. Elke export is productierijp voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden — geen nabewerking nodig.`,
       },
@@ -103,16 +103,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Patroontrein Werkbladen Online Verkoopt',
+    title: `Hoe Je Patroontrein Werkbladen Online Verkoopt`,
     cases: [
       {
-        title: 'Patronenherkenning bundels op Etsy',
+        title: `Patronenherkenning bundels op Etsy`,
         description:
           `Maak thematische patroontrein pakketten met progressieve moeilijkheid opgebouwd uit twee onafhankelijke assen: patroontype en aantal aanwijzingen. Begin met AB-patronen met 10 aanwijzingen voor het eenvoudigste niveau, verminder dan het aantal aanwijzingen naar 6 of 4 voor moeilijkere variaties van hetzelfde patroon. Ga verder naar AAB-, ABB-, ABC- en AABB-patronen op elk aanwijzingenniveau. Verpak boerderijdieren, dinosaurussen, oceaandieren en voertuigen als aparte themabundels met 15–25 werkbladen elk plus antwoordbladen. Het unieke treinwagonformaat valt op tussen rastergebaseerde concurrenten in Etsy-zoekresultaten. Prijs individuele themapakketten op €3–€5 en multi-thema progressieve bundels op €12–€18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Vroeg-leren werkboeken op Amazon KDP',
+        title: `Vroeg-leren werkboeken op Amazon KDP`,
         description:
           `Stel 60–100 patroontrein oefeningen samen tot een gedrukt werkboek voor Amazon KDP. Structureer het boek als een patrooncomplexiteit progressie: Hoofdstuk 1 behandelt AB-patronen met veel aanwijzingen, Hoofdstuk 2 introduceert AAB en ABB, Hoofdstuk 3 gaat verder met ABC drievoudige patronen, Hoofdstuk 4 presenteert AABB verlengde reeksen, en Hoofdstuk 5 vermindert het aantal aanwijzingen over alle patroontypen voor uitdagingspagina's. Het volledig visuele formaat met uitsluitend afbeeldingen op treinwagons en nul tekst betekent dat er geen vertaling nodig is voor internationale KDP-marktplaatsen — publiceer hetzelfde binnenwerk in elk land. Patroontrein werkboeken vullen een specifieke vroeg-wiskunde niche met consistente vraag het hele jaar door.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -121,19 +121,19 @@ const content: AppContent = {
         title: `Gedifferentieerde wiskunde- en visuele centra voor Gumroad`,
         description:
           `Bouw gedifferentieerde patronenherkenning oefensets met patrooncomplexiteit als getrapte productpakkettenlaag: Niveau 1 (AB-patronen, 8–10 aanwijzingen), Niveau 2 (AAB/ABB-patronen, 6–8 aanwijzingen), Niveau 3 (ABC-patronen, 5–6 aanwijzingen), en Niveau 4 (AABB-patronen, 4–5 aanwijzingen). Elk niveau richt zich op een andere cognitieve vaardigheid — van het herkennen van eenvoudige afwisseling tot het identificeren van complexe meervoudige reeksen uit beperkte informatie. Het treinwagonformaat creëert een aantrekkelijk visueel thema dat werkt als een klassikale centrumactiviteit. Verpak elk niveau met thematische oefeningen en aparte antwoordbladen voor het gemak van de verkoper.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Meertalige visuele werkbladen voor wereldwijde markten`,
         description:
           `Omdat Patroontrein werkbladen uitsluitend afbeeldingen op treinwagons bevatten met nul tekst op de uitvoer, werkt hetzelfde product in elke taal zonder aanpassing. Maak één set patroontrein oefeningen en verkoop deze wereldwijd — geen vertaling nodig, geen aparte taalversies om bij te houden. Het wijzigen van de inhoudstaal beïnvloedt alleen de afbeeldingenbibliotheek-labels in de generator, niet het geprinte werkblad. Vermeld identieke producten in Etsy-winkels die verschillende landen bedienen, of publiceer hetzelfde KDP-binnenwerk op alle internationale Amazon-marktplaatsen. Eén workflow produceert een universeel verkoopbaar product.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (wereldwijd)',
+        platform: `Etsy / Amazon KDP / Gumroad (wereldwijd)`,
       },
       {
-        title: 'Patroonconcepten voor klas en bijles',
+        title: `Patroonconcepten voor klas en bijles`,
         description:
           `Upload eigen afbeeldingen om patroontrein werkbladen te maken voor elk vak of concept — gebruik plantgroeistadia voor een natuurles, historische voorwerpen voor geschiedenisles, of muzieknootsymbolen voor een muziekles. De vijf patroontypen laten je de oefening afstemmen op het leerdoel: AB voor introductie, ABC en AABB voor toetsing. Pas het aantal aanwijzingen aan op het niveau van elke gebruiker — meer aanwijzingen voor gebruikers die extra ondersteuning nodig hebben, minder aanwijzingen voor gevorderde gebruikers. Print aangepaste sets in enkele minuten voor kleine groepen of een hele productlijn. Het aparte antwoordblad-tabblad bespaart waargenomen waarde, en het visuele treinformaat spreekt gebruikers aan die rastergebaseerde werkbladen eentonig vinden.`,
-        platform: 'Klas / Bijles / Thuisonderwijs',
+        platform: `Klas / Bijles / Thuisonderwijs`,
       },
     ],
   },
@@ -185,9 +185,9 @@ const content: AppContent = {
         `Ja. Je hebt toegang tot elke functie — alle vijf patroontypen, instelbaar aantal aanwijzingen, de afbeeldingenbibliotheek, antwoordblad generatie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.`,
     },
     {
-      question: 'Is de Patroontrein generator taalgevoelig?',
+      question: `Is de Patroontrein generator taalgevoelig?`,
       answer:
-        `Nee. Patroontrein is een volledig visuele app — werkbladen bevatten uitsluitend afbeeldingen op treinwagons met nul tekst op de uitvoer, dus ze zijn identiek in elke taal. Het wijzigen van de taal beïnvloedt alleen de UI-labels in de generatorinterface en de inhoudstaal van de afbeeldingenbibliotheek, niet het werkblad zelf. Het Commerciële abonnement bevat 10 kleurrijke thema's; Volledige Toegang ontgrendelt alle 104 thema's en alle 11 interfacetalen.`,
+        `Nee. Patroontrein is een volledig visuele app — werkbladen bevatten uitsluitend afbeeldingen op treinwagons met nul tekst op de uitvoer, dus ze zijn identiek in elke taal. Het wijzigen van de taal beïnvloedt alleen de UI-labels in de generatorinterface en de inhoudstaal van de afbeeldingenbibliotheek, niet het werkblad zelf. Het Commerciële abonnement bevat 10 kleurrijke thema`s; Volledige Toegang ontgrendelt alle 104 thema`s en alle 11 interfacetalen.`,
     },
     {
       question: `Mag ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?`,
@@ -205,7 +205,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'groot-klein-werkbladen',
-      anchorText: 'Groot & Klein Werkbladen Generator',
+      anchorText: `Groot & Klein Werkbladen Generator`,
     },
     {
       pageType: 'app',
@@ -215,22 +215,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'rastertekenen-werkbladen',
-      anchorText: 'Rastertekenen Werkbladen Generator',
+      anchorText: `Rastertekenen Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'lijnen-trekken-werkbladen',
-      anchorText: 'Lijnen Trekken Werkbladen Generator',
+      anchorText: `Lijnen Trekken Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkbladen Generator',
+      anchorText: `Kleurplaten Werkbladen Generator`,
     },
     {
       pageType: 'app',
       slug: 'telgrafieken-werkbladen',
-      anchorText: 'Telgrafieken Werkbladen Generator',
+      anchorText: `Telgrafieken Werkbladen Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
+      anchorText: `Groep 3 printable ideeën voor basisonderwijs`,
     },
     {
       pageType: 'idea',
@@ -250,7 +250,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+      anchorText: `Activiteitenboeken uitgeven op Amazon KDP`,
     },
     {
       pageType: 'guide',
@@ -261,17 +261,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/pattern train/Patroontje%201.webp',
+      primary: `/samples/dutch/pattern train/Patroontje%201.webp`,
       primaryAlt: `Patroontrein werkblad met thematische treinwagons die een AB herhalend patroon tonen met één ontbrekende wagon voor gebruikers om te voltooien`,
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/pattern train/Patroontje%202.webp',
+        src: `/samples/dutch/pattern train/Patroontje%202.webp`,
         alt: `Patroontrein werkblad in AB afwisselend patroon modus met dierenafbeeldingen over 11 thematische treinwagons`,
         caption: `AB-patroon met dierenthema — gebruikers herkennen de afwisselende reeks en vullen de ontbrekende wagon in`,
       },
       {
-        src: '/samples/dutch/pattern train/Patroontje%205.webp',
+        src: `/samples/dutch/pattern train/Patroontje%205.webp`,
         alt: `Patroontrein werkblad in ABC drievoudig patroon modus met voertuigafbeeldingen over thematische treinwagons`,
         caption: `ABC-patroon met voertuigenthema — drie roterende items creëren een complexere herhalende reeks`,
       },

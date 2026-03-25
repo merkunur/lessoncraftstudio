@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'padrões de qualidade para fichas',
+    primaryKeyword: `padrões de qualidade para fichas`,
     secondaryKeywords: [
-      'lista verificação qualidade imprimíveis',
-      'padrões design profissional fichas exercícios',
-      'controlo qualidade fichas exercícios venda',
-      'formatação fichas exercícios prontas a imprimir',
+      `lista verificação qualidade imprimíveis`,
+      `padrões design profissional fichas exercícios`,
+      `controlo qualidade fichas exercícios venda`,
+      `formatação fichas exercícios prontas a imprimir`,
     ],
     lsiKeywords: [
       `qualidade impressão resolução DPI definições margem alinhamento fonte legibilidade`,
@@ -21,7 +21,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Padrões de Qualidade para Fichas de Exercícios',
+    title: `Padrões de Qualidade para Fichas de Exercícios`,
     tagline: `Um guia completo sobre os padrões de qualidade que os vendedores de fichas precisam para resultados profissionais — abrangendo padrões de resolução e formato de ficheiro, requisitos de design de página e margens, regras de tipografia e legibilidade, consistência de cor e visual, verificação de grelhas de respostas, listas de verificação de controlo de qualidade pré-publicação, testes de impressão em diferentes dispositivos e manutenção de qualidade em todo o catálogo`,
     description: `A qualidade é o único fator que separa os vendedores de fichas de exercícios que constroem negócios sustentáveis daqueles que lutam com avaliações negativas, pedidos de reembolso e vendas em declínio. Uma ficha que parece profissional no ecrã mas imprime com margens cortadas, texto desfocado ou elementos desalinhados cria uma experiência negativa para o comprador que prejudica permanentemente a reputação da sua loja. Este guia fornece uma lista de verificação completa de padrões de qualidade concebida especificamente para vendedores de fichas de exercícios imprimíveis — desde padrões de resolução e formatação até tipografia, precisão de grelhas de respostas, testes de impressão e manutenção da qualidade à medida que o catálogo cresce.`,
   },
@@ -73,7 +73,7 @@ const content: GuideContent = {
       content: `O Amazon KDP tem requisitos técnicos específicos que diferem de outras plataformas de imprimíveis. O KDP exige ficheiros PDF com fontes incorporadas, definições de sangramento específicas (3mm se for usado sangramento) e dimensões de página exatas que correspondam ao tamanho de corte selecionado. O processo de revisão automatizado do KDP rejeita ficheiros que não cumprem os padrões técnicos, incluindo imagens de baixa resolução, fontes em falta e contagens de páginas incorretas. Antes de submeter ao KDP, use a ferramenta Print Previewer para verificar exatamente como o seu caderno aparecerá na impressão. Preste particular atenção à área do dorso para cadernos encadernados, garantindo que nenhum conteúdo essencial caia na margem de gotela onde as páginas se encontram com a encadernação.`,
     },
     {
-      heading: 'Expectativas de Qualidade do Gumroad',
+      heading: `Expectativas de Qualidade do Gumroad`,
       content: `Os compradores do Gumroad são predominantemente vendedores profissionais que exigem altos padrões de qualidade nos produtos imprimíveis. Os vendedores esperam conteúdo alinhado com o catálogo de produtos com grelhas de respostas precisas, formatação adequada à idade e texto de instrução claro. O sistema de classificação do Gumroad pondera fortemente a qualidade do produto, e os produtos com problemas de qualidade recebem classificações baixas que reduzem significativamente a visibilidade nas pesquisas. Inclua uma descrição detalhada do produto que liste cada página e componente incluído. Forneça versões tanto em A4 como em US Letter quando possível, uma vez que o Gumroad serve uma audiência internacional de vendedores. Os compradores do Gumroad frequentemente mencionam a qualidade de impressão e a precisão das grelhas de respostas nas avaliações, tornando estas duas áreas prioridades críticas de qualidade para a plataforma.`,
     },
   ],
@@ -84,7 +84,7 @@ const content: GuideContent = {
       content: `As classificações de avaliações são o fator mais influente nas taxas de conversão de mercados de imprimíveis, e a qualidade do produto é o principal motor das classificações de avaliações. Uma ficha de exercícios que imprime na perfeição, contém conteúdo preciso e corresponde à descrição do anúncio gera avaliações positivas que melhoram o seu ranking de pesquisa, aumentam as taxas de cliques nos resultados de pesquisa e constroem a prova social que convence novos compradores a comprar. O efeito composto é significativo: maior qualidade leva a melhores avaliações, melhores avaliações levam a um posicionamento mais elevado nas pesquisas, um posicionamento mais elevado leva a mais vendas, e mais vendas geram avaliações adicionais. Os vendedores com classificações consistentemente altas no seu catálogo ganham a confiança do comprador que se estende a novos anúncios — um comprador que comprou três fichas de qualidade da sua loja vai comprar uma quarta sem avaliação extensa porque o seu historial de qualidade reduz o risco percebido.`,
     },
     {
-      heading: 'Preços Premium Através de Qualidade Demonstrada',
+      heading: `Preços Premium Através de Qualidade Demonstrada`,
       content: `Os padrões de qualidade permitem preços premium ao fornecer justificação tangível para pontos de preço mais elevados. Uma ficha de exercícios com preço de 4-5€ que entrega formatação profissional, grelhas de respostas verificadas, versões para ambos os tamanhos de papel e um design visual polido é percebida como melhor valor do que uma ficha de 2€ com formatação básica e precisão de conteúdo incerta. Os compradores nos mercados de imprimíveis educativos estão dispostos a pagar mais por produtos em que confiam que vão funcionar corretamente sem esforço adicional da sua parte. Os vendedores valorizam especialmente a fiabilidade — não se podem dar ao luxo de descobrir erros nas grelhas de respostas enquanto os usuários estão a trabalhar nos problemas. Ao documentar o seu processo de qualidade (mencionando "grelhas de respostas verificadas" e "testado na impressão em múltiplos dispositivos" nos seus anúncios), comunica padrões de qualidade que justificam um posicionamento premium num mercado competitivo.`,
     },
     {
@@ -136,17 +136,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'digital-ou-fisico-imprimiveis', anchorText: 'Produtos digitais ou físicos: Qual escolher' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'suporte-cliente-produtos-digitais', anchorText: `Suporte ao cliente para negócios de produtos digitais` },
-    { pageType: 'guide', slug: 'direitos-autor-vendedores-imprimiveis', anchorText: 'Direitos de autor para vendedores de imprimíveis' },
-    { pageType: 'guide', slug: 'obter-avaliacoes-produtos-imprimiveis', anchorText: 'Como obter avaliações para produtos imprimíveis' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimiveis', anchorText: 'Como automatizar o seu negócio de imprimíveis' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'digital-ou-fisico-imprimiveis', anchorText: `Produtos digitais ou físicos: Qual escolher` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para imprimíveis educativos` },
+    { pageType: 'guide', slug: `suporte-cliente-produtos-digitais`, anchorText: `Suporte ao cliente para negócios de produtos digitais` },
+    { pageType: 'guide', slug: `direitos-autor-vendedores-imprimiveis`, anchorText: `Direitos de autor para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: `obter-avaliacoes-produtos-imprimiveis`, anchorText: `Como obter avaliações para produtos imprimíveis` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimiveis`, anchorText: `Como automatizar o seu negócio de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
@@ -163,12 +163,12 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Gera páginas para colorir com espessuras de linha consistentes, qualidade de impressão otimizada e saída visual limpa. Demonstra padrões de qualidade para produtos visuais incluindo otimização de escala de cinzentos e formatação de ilustração profissional.`,
     },
     {
       appId: 'math-worksheet',
-      title: 'Gerador de Fichas de Matemática',
+      title: `Gerador de Fichas de Matemática`,
       description: `Cria fichas de matemática complexas com múltiplos elementos que mostram controlo de qualidade em problemas, grelhas de respostas e formatação de página. Demonstra como os geradores mantêm padrões de qualidade consistentes em tipos variados de conteúdo matemático.`,
     },
   ],
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchila — imagem educativa temática', caption: 'Chinchila' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Catatua — imagem educativa temática', caption: 'Catatua' },
-    { src: '/image-library/pets/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Furão — imagem educativa temática', caption: 'Furão' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchila — imagem educativa temática`, caption: 'Chinchila' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Catatua — imagem educativa temática`, caption: 'Catatua' },
+    { src: '/image-library/pets/dog.webp', alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Furão — imagem educativa temática`, caption: 'Furão' },
   ],
 };
 

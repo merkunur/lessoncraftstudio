@@ -14,7 +14,7 @@ const content: AppContent = {
       `generador de rompecabezas de piezas faltantes a uso comercial`,
       `actividades de puzzles imprimibles para negocio en línea`,
     ],
-    titleTag: 'Generador Piezas Faltantes | Crear y Vender',
+    titleTag: `Generador Piezas Faltantes | Crear y Vender`,
     metaDescription: `Crea puzzles de piezas faltantes para vender en Etsy, KDP y Gumroad. 6 formas, dificultad configurable, clave de respuestas automática, 104 temas. Prueba gratis.`,
   },
 
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Puzzles de Piezas Faltantes en 5 Pasos',
+    title: `Cómo Crear Puzzles de Piezas Faltantes en 5 Pasos`,
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -49,7 +49,7 @@ const content: AppContent = {
           `La aplicación recorta automáticamente huecos de la imagen seleccionada usando extracción inteligente de piezas. El algoritmo intenta hasta 150 colocaciones para encontrar piezas con suficiente varianza de color (varianza de brillo mínima de 15) y al menos 250 píxeles de distancia entre piezas para evitar superposición. Huecos blancos con trazo negro (2px) aparecen en las ubicaciones originales. Las opciones de solución numeradas — piezas correctas más distractoras — se muestran con etiquetas numéricas resaltadas en amarillo. Los diseños verticales colocan la imagen del puzzle arriba con las opciones debajo; los diseños horizontales dividen la vista 50/50.`,
       },
       {
-        title: 'Genera la clave de respuestas y descarga',
+        title: `Genera la clave de respuestas y descarga`,
         description:
           `Cambia a la pestaña Clave de Respuestas para ver la clave generada automáticamente. La misma imagen del puzzle aparece con los huecos, y etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco muestran el índice de la opción correcta. Descarga ambas versiones usando cuatro botones dedicados: JPEG de la Ficha, JPEG de la Clave, PDF de la Ficha y PDF de la Clave — todos renderizados a 300 DPI con calidad JPEG 1.0. Activa escala de grises para versiones que ahorran tinta. Cada exportación está lista para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.`,
       },
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Puzzles de Piezas Faltantes en Línea',
+    title: `Cómo Vender Puzzles de Piezas Faltantes en Línea`,
     cases: [
       {
         title: `Paquetes Temáticos de Puzzles de Piezas Faltantes en Etsy`,
@@ -112,7 +112,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Libros de Puzzles Visuales en Amazon KDP',
+        title: `Libros de Puzzles Visuales en Amazon KDP`,
         description:
           `Compila 50–100 puzzles de piezas faltantes en un libro de trabajo impreso formateado para Amazon KDP. Estructura tu libro con dificultad progresiva: el Capítulo 1 usa 1 pieza faltante con 2 opciones para principiantes, el Capítulo 2 usa 3 piezas faltantes con 4 opciones para nivel intermedio, y el Capítulo 3 usa 5 piezas faltantes con 6 opciones incluyendo distractoras para resolvedores avanzados. Incluye claves de respuestas al final del libro usando la función de clave automática. La opción de escala de grises produce páginas optimizadas para tinta, listas para interiores de libros en blanco y negro. Los puzzles puramente visuales no requieren traducción, haciendo que un solo libro sea vendible en todos los mercados.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -121,19 +121,19 @@ const content: AppContent = {
         title: `Actividades de Puzzles para venta en línea en Gumroad`,
         description:
           `Crea actividades listas para usar de discriminación visual y pensamiento crítico para Gumroad. Los puzzles de piezas faltantes fortalecen el razonamiento espacial, el análisis visual y la atención al detalle — habilidades valoradas en los catálogos de productos de educación infantil y primaria. Crea conjuntos alineados con el catálogo de productos: puzzles de hábitats de animales, puzzles de escenas estacionales, puzzles de ayudantes comunitarios y puzzles de grupos de alimentos. Cada conjunto incluye fichas para usuarios y claves de respuestas en formatos PDF y JPEG. La dificultad configurable te permite crear versiones diferenciadas del mismo puzzle para tiendas con niveles mixtos.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Colecciones de Puzzles Estacionales y Festivos',
+        title: `Colecciones de Puzzles Estacionales y Festivos`,
         description:
           `Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, Día de San Valentín, vuelta al colegio, vacaciones de verano y más. Crea colecciones de puzzles de disponible ahora que se alineen con los períodos de mayor demanda comercial. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Varía las formas de pieza y los niveles de dificultad dentro de cada conjunto estacional para máximo valor. Los productos estacionales obtienen precios más altos durante sus ventanas de mayor demanda y crean razones naturales para compras recurrentes de tu base de clientes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: `Etsy / Amazon KDP / Gumroad (estacional)`,
       },
       {
         title: `Alcance en el Mercado Global — Los Puzzles Visuales No Necesitan Traducción`,
         description:
           `Los puzzles de Piezas Faltantes son puramente visuales sin contenido de texto en la ficha — sin palabras, sin letras, sin elementos dependientes del idioma. Un puzzle creado en inglés funciona idénticamente para clientes en Alemania, Francia, Japón o Brasil. Esto hace que tus productos de puzzles sean instantáneamente vendibles en todos los mercados internacionales sin crear versiones en diferentes idiomas. Publica el mismo paquete de puzzles en Etsy con títulos y descripciones multilingües para captar tráfico de búsqueda global. Un producto, todos los mercados — máximo alcance sin trabajo de producción adicional.`,
-        platform: 'Mercados globales (todas las plataformas)',
+        platform: `Mercados globales (todas las plataformas)`,
       },
     ],
   },
@@ -145,12 +145,12 @@ const content: AppContent = {
         `El generador toma una imagen de la biblioteca (o tu imagen subida) y recorta 1–5 piezas, dejando huecos blancos con contornos de trazo negro en las ubicaciones originales. Luego muestra 2–6 opciones de solución numeradas debajo o al lado del puzzle — las piezas correctas más piezas distractoras extraídas de otras áreas de la misma imagen. Los usuarios examinan los huecos y las opciones numeradas, luego identifican qué opción rellena cada espacio basándose en color, patrón y detalle visual.`,
     },
     {
-      question: '¿Cuáles son las 6 formas de pieza disponibles?',
+      question: `¿Cuáles son las 6 formas de pieza disponibles?`,
       answer:
         `Puedes elegir entre cuadrado (predeterminado), círculo, rectángulo vertical (80% ancho, 100% alto), rectángulo horizontal (100% ancho, 80% alto), elipse vertical (80% rx, 100% ry) y elipse horizontal (100% rx, 80% ry). Cada forma crea un desafío visual diferente. Cuadrado y círculo ofrecen cortes geométricos limpios, mientras que las variantes de rectángulo y elipse crean formas alargadas o curvas que interactúan de manera diferente con la imagen fuente.`,
     },
     {
-      question: '¿Cómo funcionan los ajustes de dificultad?',
+      question: `¿Cómo funcionan los ajustes de dificultad?`,
       answer:
         `La dificultad se controla con dos configuraciones independientes. El número de piezas faltantes (1–5) determina cuántos huecos se recortan de la imagen — más piezas significa más razonamiento espacial. El número de opciones de solución (2–6) determina cuántas opciones numeradas evalúan los usuarios — cuando las opciones exceden las piezas faltantes, las extras son distractoras que requieren comparación visual cuidadosa. Un puzzle con 1 pieza faltante y 2 opciones es fácil; 5 piezas faltantes con 6 opciones es desafiante.`,
     },
@@ -175,7 +175,7 @@ const content: AppContent = {
         `No. Piezas Faltantes es un formato de puzzle puramente visual sin contenido de texto en la ficha — sin palabras, sin letras, sin elementos dependientes del idioma. El único elemento dependiente del idioma es el texto del encabezado generado automáticamente ("Piezas Faltantes" / "¡Encuentra y coloca las piezas faltantes!"), que está localizado en los 11 idiomas soportados. El puzzle en sí funciona idénticamente en cualquier idioma, haciéndolo ideal para mercados globales.`,
     },
     {
-      question: '¿Cómo funciona el sistema de doble borde?',
+      question: `¿Cómo funciona el sistema de doble borde?`,
       answer:
         `Cada puzzle generado presenta dos bordes decorativos. El borde exterior usa verde azulado brillante (#14B8A6) con un trazo de 8px, márgenes de 34px y radio de borde de 12px. El borde interior usa rosa intenso (#EC4899) con un trazo de 3px, márgenes de 46,5px, radio de borde de 8px y un ligero desplazamiento de 2px a la derecha y 3px hacia abajo. Juntos crean un marco pulido y profesional que aumenta la calidad visual de tus fichas de puzzles para listados en tiendas en línea.`,
     },
@@ -195,7 +195,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes plenos derechos para vender tus puzzles de piezas faltantes como descargas digitales en Etsy, como libros de trabajo impresos en Amazon KDP, como recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Las 6 formas de pieza, la dificultad configurable, las claves de respuestas automáticas y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles originales y vendibles.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratis te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar las 6 formas de pieza, los ajustes de dificultad configurables, la clave de respuestas automática, la biblioteca de imágenes completa, los temas de fondo y de borde, y todos los formatos de descarga antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapte a tus necesidades antes de adquirir una licencia.`,
     },
@@ -210,7 +210,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'encuentra-el-diferente-fichas',
-      anchorText: 'Generador de Fichas de Encuentra el Diferente',
+      anchorText: `Generador de Fichas de Encuentra el Diferente`,
     },
     {
       pageType: 'app',
@@ -220,22 +220,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'laberintos-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Laberintos de Imágenes',
+      anchorText: `Generador de Fichas de Laberintos de Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'buscar-contar-fichas',
-      anchorText: 'Generador de Fichas de Buscar y Contar',
+      anchorText: `Generador de Fichas de Buscar y Contar`,
     },
     {
       pageType: 'app',
       slug: 'asociacion-sombras-fichas',
-      anchorText: 'Generador de Fichas de Asociación de Sombras',
+      anchorText: `Generador de Fichas de Asociación de Sombras`,
     },
     {
       pageType: 'app',
       slug: 'sopa-letras-fichas',
-      anchorText: 'Generador de Fichas de Sopa de Letras',
+      anchorText: `Generador de Fichas de Sopa de Letras`,
     },
     {
       pageType: 'bundle',
@@ -244,23 +244,23 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'crear-puzzles-piezas-faltantes',
-      anchorText: 'Cómo Crear y Vender Fichas de Puzzles en Línea',
+      slug: `crear-puzzles-piezas-faltantes`,
+      anchorText: `Cómo Crear y Vender Fichas de Puzzles en Línea`,
     },
     {
       pageType: 'idea',
-      slug: 'primer-grado-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para primer grado',
+      slug: `primer-grado-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para primer grado`,
     },
     {
       pageType: 'idea',
-      slug: 'segundo-grado-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para segundo grado',
+      slug: `segundo-grado-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para segundo grado`,
     },
     {
       pageType: 'start',
       slug: 'libros-actividades-amazon-kdp',
-      anchorText: 'Publicar libros de actividades en Amazon KDP',
+      anchorText: `Publicar libros de actividades en Amazon KDP`,
     },
   ],
 

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'First Grade Printable Ideas to Sell — Niche Guide',
+    titleTag: `First Grade Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover first grade printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts and niche strategies for sellers targeting first grade academics.`,
 
     primaryKeyword: 'first grade printable ideas',
     secondaryKeywords: [
-      'first grade worksheets to sell',
-      'grade 1 printable business ideas',
-      'first grade activity sheets for sellers',
-      'sell first grade printables on Gumroad',
+      `first grade worksheets to sell`,
+      `grade 1 printable business ideas`,
+      `first grade activity sheets for sellers`,
+      `sell first grade printables on Gumroad`,
     ],
     lsiKeywords: [
-      'early elementary educational worksheets',
-      'grade 1 product catalog printables',
-      'age 6-7 learning activity pages',
+      `early elementary educational worksheets`,
+      `grade 1 product catalog printables`,
+      `age 6-7 learning activity pages`,
     ],
   },
   hero: {
-    title: 'First Grade Printable Business Ideas for Sellers',
+    title: `First Grade Printable Business Ideas for Sellers`,
     description: `First grade printables represent one of the highest-demand and most academically intensive niches in the educational printable marketplace because first grade is the pivotal year where children transition from foundational readiness skills to genuine academic mastery, creating extraordinary demand from buyers who need multi-level practice materials for product lines with wide skill ranges and parents who invest heavily in supplementary resources because first grade is where reading fluency, math fact automaticity, and written communication are expected to reach measurable benchmarks. The academic skills that define first grade product catalog span a critical range of competencies including addition and subtraction within twenty, place value understanding with tens and ones, sight word fluency across expanded word lists, CVC and CVCe word decoding, consonant blends and digraphs, reading comprehension of simple passages, writing complete sentences with proper grammar and punctuation, telling time to the hour and half hour, identifying and counting coins, measurement comparisons, and data collection with simple graphing. This academic intensity creates a powerful dual buyer base where buyers on Gumroad spend heavily on supplementary materials because the jump from kindergarten expectations to first grade benchmarks requires extensive multi-level practice across every skill strand, and parents on Etsy and Amazon actively purchase home practice worksheets because first grade report cards, standardized assessments, and reading level evaluations make academic progress highly visible and actionable for families. For printable sellers and entrepreneurs, the first grade niche combines massive year-round institutional demand with strong parent purchasing motivation, creating multiple revenue streams across every major marketplace platform. This guide covers specific product ideas built around our worksheet generator tools, platform-specific strategies for reaching first grade buyers, and niche positioning approaches to help you build a profitable first grade printable product line.`,
   },
   marketOverview: `The first grade printable niche occupies a premium position in the educational marketplace because it serves the grade level where academic expectations increase most dramatically, driving the highest per-buyer spending on supplementary materials of any primary grade. Unlike kindergarten where learning goals focus on exposure and readiness, first grade product catalog demands measurable mastery of specific skills including reading fluency at defined words-per-minute benchmarks, addition and subtraction fact automaticity within twenty, and written sentence construction with correct capitalization and punctuation. This mastery orientation means sellers and buyers purchase printable practice materials with clear academic purpose and urgency that translates directly into motivated buying behavior across every marketplace.
@@ -37,7 +37,7 @@ The competitive landscape in first grade printables rewards sellers who understa
       appId: 'addition',
     },
     {
-      title: 'First Grade Word Search Puzzles to Sell Online',
+      title: `First Grade Word Search Puzzles to Sell Online`,
       description: `Word search puzzles designed for first grade readers attract sellers and buyers searching for engaging literacy activities that reinforce the expanded sight word vocabulary, spelling patterns, and subject-area terminology that first-grade-level buyers encounter across their increasingly complex academic product catalog. Create puzzles featuring high-frequency sight words from the Dolch and Fry first grade lists, spelling words organized by phonics patterns like consonant blends and digraphs, vocabulary from science and social studies units, and thematic word collections that reinforce cross-curricular learning. The Word Search generator lets you create grade-appropriate grids with twelve to sixteen words at medium to large sizes suited for first-grade-level buyers who can track letters confidently across rows, columns, and diagonals while building the visual scanning skills that support reading fluency development.`,
       appId: 'wordsearch',
     },
@@ -86,18 +86,18 @@ The competitive landscape in first grade printables rewards sellers who understa
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling First Grade Printables on Etsy',
+      title: `Selling First Grade Printables on Etsy`,
       description: `Etsy captures the large and motivated parent buyer segment searching for first grade home practice materials with high-intent terms like "first grade worksheets," "1st grade math practice," "sight word activities grade 1," and "first grade reading comprehension" throughout the entire academic year. Use all thirteen tags with variations combining specific skill targets, grade identifiers, and activity formats to capture motivated buyers who know exactly what skill their child needs to practice. Bundle products by subject strand to increase average order value: a first grade math facts pack covering addition and subtraction within twenty, a reading fluency pack with sight words, word searches, and comprehension activities, and a writing skills pack with sentence construction and vocabulary exercises each serve distinct parent needs while encouraging multiple purchases from the same shop. Back-to-school season in August and September creates the largest demand surge, but mid-year purchasing peaks strongly in January and February when parents receive first semester report cards showing specific skill gaps, creating a secondary buying wave of targeted practice materials that sellers with skill-specific product titles capture effectively.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing First Grade Activity Books on KDP',
+      title: `Publishing First Grade Activity Books on KDP`,
       description: `Amazon KDP excels for first grade printables because parents and family members naturally add educational workbooks to their Amazon carts alongside school supplies, chapter books, and learning materials during back-to-school shopping and throughout the academic year when skill-specific practice needs arise. Compile individual first grade worksheets into cohesive sixty to eighty page activity books organized by academic strand, creating focused workbooks for addition and subtraction mastery, reading comprehension practice, sight word fluency building, and writing skills development. Position books strategically using KDP keyword fields with terms like "first grade workbook ages 6-7," "1st grade math practice book," "sight word activity book grade 1," and "summer bridge kindergarten to first grade" or "first grade to second grade" to capture the bridge-book market. The homework helper angle performs exceptionally well for first grade because parents actively seek supplementary practice materials that align with product line instruction, and the educational gift market provides additional revenue from grandparents, aunts, uncles, and family friends purchasing birthday and holiday presents with academic value.`,
     },
     {
       platform: 'Gumroad',
       title: `Creating First Grade printable resources for Gumroad`,
-      description: `Gumroad is the most critical marketplace for first grade printable sellers because first grade buyers are among the platform's highest-spending demographics, purchasing supplementary materials extensively due to the dramatic increase in academic expectations from kindergarten and the wide range of skill-level levels that demand tiered product bundles across every skill area. First grade printables on Gumroad perform best when packaged as ready-to-use instructional solutions: morning work packets with daily tiered math and literacy practice, math center rotations covering addition facts, subtraction facts, place value, and measurement, literacy station activities targeting sight words, phonics patterns, reading comprehension, and writing conventions, weekly homework packets aligned to Common Core pacing guides, and quarterly assessment preparation materials that buyers can use for progress monitoring and report card documentation. Include learning objectives, Common Core standard alignment codes, answer keys, and differentiation suggestions for below-level, on-level, and above-level learners so buyers can justify purchases to administrators and demonstrate instructional rigor in their planning documentation. Gumroad's bundling feature lets you offer individual skill products alongside discounted first grade mega-bundles covering entire quarters or semesters.`,
+      description: `Gumroad is the most critical marketplace for first grade printable sellers because first grade buyers are among the platform`s highest-spending demographics, purchasing supplementary materials extensively due to the dramatic increase in academic expectations from kindergarten and the wide range of skill-level levels that demand tiered product bundles across every skill area. First grade printables on Gumroad perform best when packaged as ready-to-use instructional solutions: morning work packets with daily tiered math and literacy practice, math center rotations covering addition facts, subtraction facts, place value, and measurement, literacy station activities targeting sight words, phonics patterns, reading comprehension, and writing conventions, weekly homework packets aligned to Common Core pacing guides, and quarterly assessment preparation materials that buyers can use for progress monitoring and report card documentation. Include learning objectives, Common Core standard alignment codes, answer keys, and differentiation suggestions for below-level, on-level, and above-level learners so buyers can justify purchases to administrators and demonstrate instructional rigor in their planning documentation. Gumroad`s bundling feature lets you offer individual skill products alongside discounted first grade mega-bundles covering entire quarters or semesters.`,
     },
     {
       platform: 'Gumroad and Shopify',
@@ -141,32 +141,32 @@ The competitive landscape in first grade printables rewards sellers who understa
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -176,17 +176,17 @@ The competitive landscape in first grade printables rewards sellers who understa
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Business Ideas',
+      anchorText: `Kindergarten Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/product line/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
-    { src: '/image-library/product line/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/product line/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: `/image-library/product line/backpack.webp`, alt: `Backpack — themed educational image`, caption: 'Backpack' },
+    { src: `/image-library/product line/binder.webp`, alt: `Binder — themed educational image`, caption: 'Binder' },
+    { src: `/image-library/product line/book.webp`, alt: `Book — themed educational image`, caption: 'Book' },
+    { src: `/image-library/product line/cabinet.webp`, alt: `Cabinet — themed educational image`, caption: 'Cabinet' },
+    { src: `/image-library/product line/calculator.webp`, alt: `Calculator — themed educational image`, caption: 'Calculator' },
+    { src: `/image-library/product line/calender.webp`, alt: `Calender — themed educational image`, caption: 'Calender' },
   ],
 
 

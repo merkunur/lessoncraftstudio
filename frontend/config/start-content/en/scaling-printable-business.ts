@@ -4,18 +4,18 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'scale printable business',
     secondaryKeywords: [
-      'grow printable business full time',
+      `grow printable business full time`,
       'scaling etsy printable shop',
-      'printable business expansion strategy',
-      'side hustle to full time printables',
+      `printable business expansion strategy`,
+      `side hustle to full time printables`,
     ],
     lsiKeywords: [
-      'catalog expansion for printable sellers',
-      'multi-platform distribution for worksheets',
-      'bundling strategy for digital downloads',
-      'production workflow optimization printables',
-      'multilingual market expansion printables',
-      'reinvestment strategy for printable business',
+      `catalog expansion for printable sellers`,
+      `multi-platform distribution for worksheets`,
+      `bundling strategy for digital downloads`,
+      `production workflow optimization printables`,
+      `multilingual market expansion printables`,
+      `reinvestment strategy for printable business`,
     ],
     titleTag: `Scale Printable Business — Side Hustle to Full-Time`,
     metaDescription: `How to scale your printable business from side hustle to full-time. Covers catalog expansion, multi-platform distribution, bundling, and workflow automation.`,
@@ -31,11 +31,11 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: 'The Difference Between Starting and Scaling',
+      heading: `The Difference Between Starting and Scaling`,
       content: `Starting a printable business requires one product and one platform. You design a worksheet, list it on Etsy, and see if anyone buys it. The skills that matter are creativity, product design, and the willingness to publish something imperfect. Starting is about validation — proving that someone will pay for what you create.\n\nScaling requires entirely different skills. Process optimization replaces individual creativity as the primary driver. Data-driven decisions replace intuition. Production discipline replaces sporadic inspiration. The seller who scales successfully is not necessarily more talented than the seller who plateaus — they are more systematic.\n\nThe most common plateau happens between 20 and 50 listings. Sellers who reached this point through individual effort hit a wall because their approach does not multiply. Creating each product from scratch, writing each listing description individually, uploading to one platform at a time — these starting activities have a linear relationship between effort and output. Scaling activities have an exponential relationship: one worksheet generator with 100 themes produces 100 distinct product lines. One listing template applied to 50 products saves 50 hours of individual description writing.\n\nRecognizing which phase you are in determines which activities deserve your time. If you have fewer than 10 listings, you are still starting — focus on product quality and market validation. If you have 10 to 50 listings and your growth has flattened, you are ready to shift from starting activities to scaling activities. This guide covers that shift in detail, providing the operational playbook for each subsequent growth phase.`,
     },
     {
-      heading: 'Growth Milestones: Side Hustle to Full-Time',
+      heading: `Growth Milestones: Side Hustle to Full-Time`,
       content: `Concrete milestones replace vague goals. Rather than aiming to "grow your business," this framework defines four operational phases with specific priorities and challenges at each stage.\n\nPhase 1: Validation (1 to 25 listings). Your priority is learning which products resonate with buyers and which platforms work for your niche. List on one platform only. Experiment with different product types, themes, and price points. Track which listings get views, which get clicks, and which convert to sales. The goal is not revenue — it is pattern recognition. By the end of this phase, you should know your two or three strongest product categories and your primary platform.\n\nPhase 2: Catalog Building (25 to 100 listings). Your priority shifts from experimentation to systematic production in your validated categories. Batch-produce products using templates and generators rather than creating each one individually. Establish your listing template — a reusable description format, consistent title structure, and standardized mockup style. Begin cross-listing to a second platform. The goal is production velocity without sacrificing quality.\n\nPhase 3: System Optimization (100 to 300 listings). Your priority is efficiency and multi-platform presence. Optimize existing listings using analytics data. Expand to three or four platforms. Implement seasonal keyword rotation across your catalog. Begin multilingual expansion into your strongest non-English markets. The goal is maximizing revenue from your existing catalog while continuing to add products strategically.\n\nPhase 4: Full-Time Assessment (300 or more listings). Your priority is evaluating sustainability. Review six or more months of consistent revenue data. Assess platform diversification — no single platform should represent more than 60 percent of your revenue. Evaluate whether your production systems can maintain catalog growth alongside listing maintenance. The decision to go full-time depends on operational readiness, not a single revenue milestone.`,
     },
     {
@@ -51,7 +51,7 @@ const content: StartContent = {
       content: `Bundling increases average order value without requiring new product creation. You already have the products — bundling packages them in ways that appeal to buyers who want comprehensive solutions rather than individual items.\n\nTheme bundles group all activities around a single theme. An animal theme bundle might include animal word searches, animal crosswords, animal coloring pages, and animal matching worksheets. Parents planning an animal-themed party or buyers building an animal unit buy the bundle rather than searching for each activity type individually. Theme bundles work because buyers think in themes, not in product categories.\n\nCategory bundles group all variations within a product type. A complete word search bundle includes every theme, every difficulty level, and every page count available. Buyers who want a year-long supply of word search activities buy the bundle at a premium price rather than purchasing individually throughout the year. Category bundles work because they eliminate future purchasing decisions.\n\nGrade-level bundles package activities appropriate for a specific age group across all product types. A kindergarten mega bundle includes math worksheets, letter tracing, coloring pages, matching activities, and simple puzzles — everything a kindergarten buyer or homeschool parent needs. Grade-level bundles command the highest prices because they solve the broadest problem.\n\nPricing psychology follows a standard pattern: individual worksheets at three to five dollars, theme or category bundles at 15 to 25 dollars, and mega bundles at 30 to 50 dollars. The bundle price should represent a clear discount compared to buying individually, but still generate more revenue per transaction than a single product sale. A buyer who would have purchased one five-dollar product instead buys a 20-dollar bundle — quadrupling your revenue from that transaction.\n\nInvesting in category tool bundles mirrors this product bundling strategy. Having generators across multiple categories gives you the production capacity to create bundles that span product types, themes, and difficulty levels.`,
     },
     {
-      heading: 'Production Workflow Optimization',
+      heading: `Production Workflow Optimization`,
       content: `At scale, your production workflow determines your profitability more than your product quality. A seller who spends three hours creating one product has a fundamentally different business than a seller who spends three hours creating ten products of equal quality. The difference is workflow, not talent.\n\nBatch production is the single highest-impact workflow change. Instead of creating one product, listing it, then creating the next, batch each step. Session one: generate 10 worksheet sets using your generator tools. Session two: create product mockups and listing images for all 10. Session three: write and upload all 10 listings. Batching eliminates the context-switching cost of moving between creation, design, and listing tasks within a single product cycle.\n\nTemplate-based listing creation eliminates repetitive writing. Create a master listing template for each product category with placeholders for theme, difficulty level, page count, and other variables. When listing a new word search product, fill in the placeholders rather than writing a description from scratch. Consistent descriptions also improve your brand perception — professional shops have consistent listing quality across their entire catalog.\n\nWorksheet generators are the production multiplier that makes scaling possible. Manual worksheet creation — designing each page individually in a design tool — limits you to perhaps two or three unique products per hour. Generator-based production delivers dozens of unique products per hour because the tool handles layout, formatting, answer keys, and theme application automatically. The free trial with watermark demonstrates this production speed difference immediately.\n\nTime tracking reveals your actual bottlenecks. Track how long each production step takes across a batch of 10 products: content generation, mockup creation, listing writing, platform uploading. The step that takes the longest is your constraint. Optimizing your constraint step produces the largest overall productivity gain. Often the constraint is not product creation but listing image creation or platform uploading — steps that feel secondary but consume the most time.`,
     },
     {
@@ -59,30 +59,30 @@ const content: StartContent = {
       content: `Expanding beyond English is one of the most underused scaling levers for printable sellers. Non-English markets have significantly less competition while maintaining strong buyer demand. The same production tools that create English products can create products in additional languages, making international expansion a configuration change rather than a capability change.\n\nThe European market represents the largest opportunity for English-speaking sellers expanding internationally. German is the largest European language market for educational printables, followed by French, Spanish, and Italian. Each language market has its own Etsy presence, its own Amazon KDP marketplace, and its own buyer base searching in their native language.\n\nLanguage-by-language expansion is more effective than trying to launch in all markets simultaneously. Start with one additional language — German or French for the largest immediate opportunity. Create your top-performing product types in that language. List them on the appropriate marketplace (Amazon.de, Etsy with German tags and descriptions). Evaluate performance over two to three months before adding another language.\n\nMultilingual worksheet generators eliminate the traditional barrier to international expansion. Without multilingual tools, creating products in a new language requires either fluency in that language or expensive translation services for every product. Generators that produce content in 11 languages make each new language market accessible through configuration rather than translation. The free trial with watermark lets you generate sample output in any supported language to evaluate quality before committing to a new market.\n\nInternational expansion also creates bundling opportunities that do not exist in a single-language catalog. A "European Language Pack" containing the same worksheet in five or six languages appeals to multilingual families, international schools, and language buyers — buyer segments that single-language sellers cannot serve at all.`,
     },
     {
-      heading: 'When to Go Full-Time: Decision Framework',
+      heading: `When to Go Full-Time: Decision Framework`,
       content: `The decision to go full-time with a printable business should be based on a framework of operational criteria, not a single revenue number. Revenue varies by region, living costs, and personal circumstances — but the operational indicators of readiness are universal.\n\nConsistency over time is the primary indicator. A business that generated strong revenue for two months is not ready for full-time commitment. A business that has generated consistent revenue across six or more months, including seasonal dips, demonstrates stability. Track your monthly revenue trend line, not individual months. The trend matters more than any single data point.\n\nPlatform diversification reduces the risk of going full-time. If 90 percent of your revenue comes from Etsy, one algorithm change could cut your income dramatically. Before going full-time, ensure no single platform represents more than 60 percent of your revenue. Multi-platform distribution is not just a growth strategy — it is a prerequisite for full-time viability.\n\nGrowth trajectory versus plateau matters for the timing decision. A business with revenue that has been flat for four months is at its current ceiling. Going full-time does not automatically break through that ceiling — it just removes your backup income. A business with revenue that is still growing month over month has momentum that additional time investment can accelerate.\n\nThe side hustle advantage should not be underestimated. Operating without financial pressure allows better decision-making. You can experiment with new product categories, test new platforms, and weather seasonal dips without existential stress. The optimal transition point is not when you need full-time income from printables — it is when your printable business generates enough to cover your expenses with a meaningful buffer, and your growth trajectory suggests that additional time investment will accelerate that trend.\n\nPractical prerequisites include an emergency fund covering three to six months of expenses, a plan for health insurance and benefits if applicable, and documented systems that can handle your current production volume without heroic individual effort.`,
     },
     {
-      heading: 'Reinvestment Strategy for Growth',
+      heading: `Reinvestment Strategy for Growth`,
       content: `How you reinvest your printable business revenue determines your growth rate. The order of reinvestment priorities matters because each level builds on the one before it.\n\nPriority one: production capacity. Additional generator licenses or category bundles directly increase the number and variety of products you can create. A seller with generators across six categories can produce bundles, cross-category packs, and themed collections that a seller with one generator cannot. Production capacity is the foundation of everything else — you cannot market products you cannot create, and you cannot scale a catalog you cannot expand.\n\nPriority two: platform optimization tools. Keyword research tools, marketplace analytics, and listing optimization services help you extract more revenue from your existing catalog. These tools are valuable only after you have a catalog large enough to optimize. Spending on optimization tools when you have 15 listings is premature. Spending on optimization tools when you have 150 listings and conversion data to analyze is a high-return investment.\n\nPriority three: design and presentation tools. Professional mockup generators, cover design software, and image editing tools improve your listing presentation. Better listing images increase click-through rates and conversion rates. These tools matter most when your catalog is large enough that presentation improvements compound across hundreds of listings.\n\nPriority four: paid advertising on proven products only. Never advertise a product that has not already demonstrated organic sales. Paid advertising amplifies what already works — it does not fix what does not. Identify your top-converting products through organic sales data, then test small advertising budgets on those specific products. Scale advertising spend only on products with proven positive return on ad spend.\n\nThe common mistake is inverting this order — spending on advertising before having enough products, buying optimization tools before having data to optimize, or investing in design upgrades before establishing a production workflow. Follow the priority order and each investment builds on the previous one.`,
     },
     {
-      heading: 'Avoiding Common Scaling Mistakes',
+      heading: `Avoiding Common Scaling Mistakes`,
       content: `The most damaging scaling mistakes are not about individual products — they are about strategic errors that waste months of effort and investment.\n\nSpreading too thin across too many platforms before mastering one. Each platform has its own algorithm, its own listing requirements, and its own buyer behavior patterns. A seller with 50 well-optimized listings on Etsy will outperform a seller with 15 mediocre listings on four platforms. Master your primary platform to the point where you understand what drives sales there, then expand to additional platforms with that knowledge.\n\nNeglecting existing listings while chasing new products. Your existing catalog is a revenue-generating asset that requires maintenance. Seasonal keyword rotation, listing optimization based on analytics data, and periodic mockup refreshes keep existing listings competitive. A seller who creates 10 new products per month while ignoring 200 existing listings is leaving revenue on the table.\n\nIgnoring analytics and continuing to produce content that does not sell. Not every product type or theme resonates with buyers. Analytics reveal which products convert and which sit with zero sales after months of exposure. Double down on what works and stop producing what does not. Emotional attachment to underperforming product types is the enemy of efficient scaling.\n\nCopying competitors instead of differentiating. When you see a successful seller, the temptation is to create identical products. But identical products compete on price alone — a race to the bottom. Instead, study what makes competitors successful and then tier: different themes, different difficulty levels, different formatting, different bundling. Compete on unique value rather than identical products at lower prices.\n\nTreating production volume as a vanity metric. Five hundred mediocre products lose to 100 excellent products every time. Each product in your catalog either strengthens your brand through quality and consistency, or weakens it through mediocrity and inconsistency. Worksheet generators maintain quality at volume because the formatting, layout, and professional standards are built into the tool. Quality at scale is the ultimate competitive advantage and the hardest thing for competitors to replicate.`,
     },
   ],
 
   actionSteps: [
     {
-      step: 'Identify Your Current Growth Phase',
+      step: `Identify Your Current Growth Phase`,
       description: `Count your active listings and review your revenue trend over the past three months. Determine whether you are in Phase 1 (validation, 1-25 listings), Phase 2 (catalog building, 25-100), Phase 3 (system optimization, 100-300), or Phase 4 (full-time assessment, 300+). Each phase has different priorities.`,
     },
     {
-      step: 'Audit Your Catalog for Depth and Breadth Gaps',
+      step: `Audit Your Catalog for Depth and Breadth Gaps`,
       description: `Map your existing products by category and theme. Identify where you have depth (many variations in one category) and where you have gaps. Prioritize filling depth gaps in your proven categories before expanding to new ones.`,
     },
     {
-      step: 'Establish a Batch Production Workflow',
+      step: `Establish a Batch Production Workflow`,
       description: `Replace one-at-a-time production with batched sessions. Dedicate separate sessions to content generation, mockup creation, listing writing, and platform uploading. Track time per step to identify your production bottleneck.`,
     },
     {
@@ -94,15 +94,15 @@ const content: StartContent = {
       description: `If you currently sell on one platform, choose a second platform and adapt your top 10 products for it. Etsy sellers should consider Amazon KDP for paperback activity books. KDP sellers should consider Etsy for digital download PDFs.`,
     },
     {
-      step: 'Create Your First Product Bundle',
+      step: `Create Your First Product Bundle`,
       description: `Select five to eight related products from your catalog and package them as a themed or category bundle. Price the bundle at a clear discount versus individual purchase but higher than your average single product price.`,
     },
     {
-      step: 'Test One Non-English Language Market',
+      step: `Test One Non-English Language Market`,
       description: `Generate sample products in German or French using multilingual worksheet generators. Create five listings in your chosen language on the appropriate marketplace. Evaluate performance over 60 to 90 days before expanding to additional languages.`,
     },
     {
-      step: 'Review Analytics and Double Down on Winners',
+      step: `Review Analytics and Double Down on Winners`,
       description: `Identify your five highest-converting listings using platform analytics. Study what makes them work: title structure, keywords, price point, product type. Create more products that match these winning patterns.`,
     },
     {
@@ -110,7 +110,7 @@ const content: StartContent = {
       description: `Allocate a percentage of monthly revenue for reinvestment following the priority order: production capacity first, then optimization tools, then design improvements, then paid advertising on proven products only.`,
     },
     {
-      step: 'Set a Six-Month Scaling Target',
+      step: `Set a Six-Month Scaling Target`,
       description: `Based on your current growth phase, set a specific operational target for six months: a listing count goal, a platform count goal, and a bundle count goal. Review progress monthly and adjust production priorities based on what the data reveals.`,
     },
   ],
@@ -162,7 +162,7 @@ const content: StartContent = {
       answer: `Go deep first, then go broad. Exhaust the major theme and variation opportunities in your proven product categories before expanding to new ones. A catalog with 50 word search variations across different themes, difficulties, and languages generates more total revenue than 10 products each in five different categories. Depth builds authority and cross-selling opportunities within a niche.`,
     },
     {
-      question: 'How do I price product bundles effectively?',
+      question: `How do I price product bundles effectively?`,
       answer: `Price bundles at a clear discount compared to buying each item individually, but ensure the bundle price still exceeds your average single product price by three to five times. If individual products sell for three to five dollars, theme bundles should be 15 to 25 dollars and mega bundles 30 to 50 dollars. The discount motivates the bundle purchase while the higher total price increases your revenue per transaction.`,
     },
     {
@@ -185,60 +185,60 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Guide to Starting a Printable Business`,
       description: `The comprehensive foundation guide covering niche selection, product creation, platform comparison, pricing strategy, and catalog building for all printable marketplaces.`,
     },
     {
       slug: 'marketing-printable-business',
-      title: 'Marketing Your Printable Business Online',
+      title: `Marketing Your Printable Business Online`,
       description: `Proven marketing strategies for every channel: platform SEO, Pinterest, email marketing, seasonal timing, and brand building to drive traffic and sales at scale.`,
     },
     {
       slug: 'printable-business-income',
-      title: 'Printable Business Income: Realistic Expectations',
+      title: `Printable Business Income: Realistic Expectations`,
       description: `Honest revenue expectations and the operational factors that determine income at each growth stage, so you can make informed decisions about going full-time.`,
     },
     {
       slug: 'tools-for-printable-business',
-      title: 'Essential Tools for Printable Business Owners',
+      title: `Essential Tools for Printable Business Owners`,
       description: `The complete toolkit for running a printable business at scale: worksheet generators, design tools, analytics, and platform management tools organized by growth phase.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
     { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing Your Printable Business Online' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'Essential Tools for Printable Business Owners' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Draw & Color Generator — Full Details' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: `Marketing Your Printable Business Online` },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: `Printable Business Income: Realistic Expectations` },
+    { pageType: 'start', slug: 'tools-for-printable-business', anchorText: `Essential Tools for Printable Business Owners` },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Generator — Full Details` },
+    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: `Draw & Color Generator — Full Details` },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Try the Draw & Color Maker' },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/draw and color/grid-drawing_worksheet.webp`, alt: 'Draw and color worksheet demonstrating creative range for printable business scaling' },
+    heroImage: { src: `/samples/english/draw and color/grid-drawing_worksheet.webp`, alt: `Draw and color worksheet demonstrating creative range for printable business scaling` },
     samples: [
-      { src: `/samples/english/draw and color/grid-drawing_worksheet.webp`, alt: 'Draw and color worksheet showing theme variety for catalog expansion', caption: 'Draw & Color — Creative Range for Catalog Depth' },
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search puzzle demonstrating high-volume scalability across themes', caption: 'Word Search — Highest Volume Scaling Potential' },
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page showing language-independent international scalability', caption: 'Coloring — International Scaling Without Translation' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: `Sudoku puzzle demonstrating platform-agnostic product distribution`, caption: 'Sudoku — Platform-Agnostic Distribution' },
+      { src: `/samples/english/draw and color/grid-drawing_worksheet.webp`, alt: `Draw and color worksheet showing theme variety for catalog expansion`, caption: `Draw & Color — Creative Range for Catalog Depth` },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search puzzle demonstrating high-volume scalability across themes`, caption: `Word Search — Highest Volume Scaling Potential` },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page showing language-independent international scalability`, caption: `Coloring — International Scaling Without Translation` },
+      { src: `/samples/english/sudoku/sudoku_worksheet.webp`, alt: `Sudoku puzzle demonstrating platform-agnostic product distribution`, caption: `Sudoku — Platform-Agnostic Distribution` },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: `How to Create Draw & Color Worksheets for Your Printable Business — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apple — themed educational image', caption: 'Apple' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Apricot — themed educational image', caption: 'Apricot' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — themed educational image', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banana — themed educational image', caption: 'Banana' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Blackberry — themed educational image', caption: 'Blackberry' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Apple — themed educational image`, caption: 'Apple' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Apricot — themed educational image`, caption: 'Apricot' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — themed educational image`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banana — themed educational image`, caption: 'Banana' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Blackberry — themed educational image`, caption: 'Blackberry' },
   ],
 };
 

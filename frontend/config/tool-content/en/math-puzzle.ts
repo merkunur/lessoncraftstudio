@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'math puzzle maker to sell online',
+    primaryKeyword: `math puzzle maker to sell online`,
     secondaryKeywords: [
-      'jigsaw math worksheets for Etsy sellers',
-      'math puzzle creator for printable business',
-      'picture math puzzles to sell online',
+      `jigsaw math worksheets for Etsy sellers`,
+      `math puzzle creator for printable business`,
+      `picture math puzzles to sell online`,
       `printable math puzzle worksheets for commercial use`,
     ],
     lsiKeywords: [
-      'image grid math puzzle for sellers',
-      'jigsaw-style math activity printable',
-      'configurable math puzzle worksheet creator',
+      `image grid math puzzle for sellers`,
+      `jigsaw-style math activity printable`,
+      `configurable math puzzle worksheet creator`,
     ],
     titleTag: `Math Puzzle Maker — Jigsaw Worksheets to Sell Online`,
     metaDescription: `Create jigsaw-style math puzzles to sell on Etsy & KDP. Image grid puzzles with addition and subtraction, configurable grids, answer keys. Try with watermark.`,
     },
 
   hero: {
-    title: 'Math Puzzle Worksheet Generator',
+    title: `Math Puzzle Worksheet Generator`,
     tagline: `Create jigsaw-style image puzzles with math equations in under 60 seconds`,
     description: `Turn math practice into an engaging visual puzzle that looks nothing like a standard worksheet. This tool splits a chosen image into a grid of cells, each containing a math equation. Scrambled puzzle pieces with answer numbers appear below — solvers complete each equation and match the correct piece to reconstruct the picture. Choose from three operation modes: Addition, Subtraction, or Mixed (both operations randomly combined). Adjust grid size from 2×2 (4 pieces, easiest) up to 4×4 (16 pieces, hardest) to match any skill level. Upload your own PNG or JPEG images for branded, seasonal, or niche puzzles, or browse the built-in library of 3,100+ images across 104 themes. The jigsaw format creates an instantly recognizable product that stands out in marketplace search results — buyers scrolling through rows of identical worksheets will stop at a colorful image puzzle. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.`,
   },
 
   tutorial: {
-    title: 'How to Create Math Puzzles in 8 Easy Steps',
+    title: `How to Create Math Puzzles in 8 Easy Steps`,
     steps: [
       {
         title: 'Open the Puzzle Generator',
@@ -75,11 +75,11 @@ const content: ToolContent = {  seo: {
       description: `Upload your own images — logo designs, hand-drawn illustrations, or licensed artwork — to create branded puzzle worksheets that no competitor can replicate. Perfect for sellers who want branded designs, personalized curriculum products, or a distinctive visual brand that stands out on marketplaces.`,
     },
     {
-      title: 'Differentiated Difficulty Sets',
+      title: `Differentiated Difficulty Sets`,
       description: `Generate three versions of the same themed puzzle at different levels: easy (2×2 grid, Addition only), medium (3×3 grid, Addition or Subtraction), and hard (4×4 grid, Mixed operations). Buyers get the right level for every skill range. Sell as a differentiated pack at a premium price point.`,
     },
     {
-      title: 'Seasonal and Holiday Puzzle Bundles',
+      title: `Seasonal and Holiday Puzzle Bundles`,
       description: `Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Math Puzzle" pack with festive images sells strongly in November–December. Halloween, Valentine's Day, and back-to-school puzzles each have their own peak sales windows on Etsy and Gumroad.`,
     },
     {
@@ -95,7 +95,7 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Math Puzzle Activity Books',
+      title: `Amazon KDP Math Puzzle Activity Books`,
       description: `Compile 60+ pages of math puzzles into a physical activity book. Mix grid sizes and operations for variety across chapters. Use grayscale mode to keep KDP printing costs low. Price at $6.99–$9.99 and let Amazon handle printing and fulfillment. The puzzle format photographs especially well for KDP listing images because it looks nothing like competing workbooks.`,
       platform: 'Amazon KDP',
     },
@@ -105,7 +105,7 @@ const content: ToolContent = {  seo: {
       platform: 'Gumroad',
     },
     {
-      title: 'Gumroad Custom-Image Puzzle Kits',
+      title: `Gumroad Custom-Image Puzzle Kits`,
       description: `Create a premium puzzle kit on Gumroad that includes 30+ puzzles using hand-picked or custom-uploaded images. Target buyers who want visually engaging math materials. Include a guide explaining how to use puzzles at each difficulty level for a structured curriculum.`,
       platform: 'Gumroad',
     },
@@ -115,7 +115,7 @@ const content: ToolContent = {  seo: {
       platform: 'Pinterest',
     },
     {
-      title: 'Multilingual Math Puzzle Seller',
+      title: `Multilingual Math Puzzle Seller`,
       description: `Math puzzles use only images, numbers, and equations — no text required. A single puzzle PDF works identically in every language. List the same product on Etsy Germany, France, Spain, Italy, and any other market without translation. Most competitors only serve English-speaking buyers, giving you a 5–10x market advantage. Creating math puzzles in German, French, and Spanish opens international marketplace opportunities where English-dominant sellers have minimal presence. The visual nature of jigsaw puzzles means they require minimal text translation, making multilingual expansion faster and more cost-effective than text-heavy educational products.`,
       platform: 'Etsy',
     },
@@ -123,27 +123,27 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Start with 2×2 for Young Learners',
+      title: `Start with 2×2 for Young Learners`,
       description: `A 2×2 grid has only 4 puzzle pieces and 4 equations — manageable for the beginner tier just learning addition. Increase to 3×3 for the early-learner niche and 4×4 for the K-2 product market and above. Matching grid size to age group is the easiest way to create differentiated products. When selling on marketplaces, clearly label the recommended age range in your product title and description. Buyers filter by age, so a listing titled "Beginner Math Puzzles — 2×2 Grid Addition" will reach the right audience faster than a generic "Math Puzzles" title.`,
     },
     {
-      title: 'Use Mixed Mode for Maximum Variety',
+      title: `Use Mixed Mode for Maximum Variety`,
       description: `The "Addition & Subtraction" mode randomly mixes both operations in a single puzzle. This creates review worksheets that test both skills simultaneously and prevents solvers from falling into a repetitive pattern. Mixed mode puzzles also have higher perceived value in marketplace listings. Etsy and Gumroad buyers searching for "math review" or "comprehensive practice" activities specifically look for mixed-operation resources, so tagging your listings with these terms captures a distinct buyer segment that single-operation sellers miss entirely.`,
     },
     {
-      title: 'Upload Custom Images for Brand Recognition',
+      title: `Upload Custom Images for Brand Recognition`,
       description: `Upload your own illustrations, logos, or licensed artwork to create puzzles no competitor can replicate. Buyers who recognize your visual style will return to your shop. Custom images also let you create niche puzzles (specific animals, cultural themes, seasonal art) that the built-in library may not cover.`,
     },
     {
-      title: 'Use Grayscale for Ink Savings and KDP',
+      title: `Use Grayscale for Ink Savings and KDP`,
       description: `Enable the grayscale toggle for worksheets intended for bulk printing or KDP workbooks. Black-and-white puzzles cost significantly less to print and KDP charges lower fees for grayscale interiors. Save color mode for digital products and Etsy listing previews where vibrant images drive clicks.`,
     },
     {
-      title: 'Pair with Regular Math Worksheets',
+      title: `Pair with Regular Math Worksheets`,
       description: `Create matching puzzle and standard worksheet sets using the Addition and Subtraction generators with the same number range and theme. Sell them individually and as a combined "Math Practice + Puzzle" bundle. The puzzle adds a game element that makes the bundle more appealing than worksheets alone. This cross-product strategy also increases your average order value — buyers who find your puzzle listing may click through to your standard worksheet listing and purchase both. On Etsy, linking related products in your listing descriptions builds internal shop traffic and encourages multi-item carts.`,
     },
     {
-      title: 'Showcase the Puzzle Format in Thumbnails',
+      title: `Showcase the Puzzle Format in Thumbnails`,
       description: `The jigsaw grid is visually unique and instantly recognizable. Use your JPEG downloads as product thumbnails on Etsy and Gumroad. A colorful image split into numbered puzzle pieces catches the eye far more effectively than a plain worksheet preview.`,
     },
     {
@@ -158,15 +158,15 @@ const content: ToolContent = {  seo: {
       answer: `Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights. The free trial lets you test every setting — all grid sizes, all three operation modes, image upload, page layout options, grayscale toggle, and answer key generation — so you can fully evaluate the output quality before committing to a purchase.`,
     },
     {
-      question: 'How does the math puzzle format work?',
+      question: `How does the math puzzle format work?`,
       answer: `The tool splits a chosen image into a grid of cells. Each cell displays a math equation (addition, subtraction, or both). Below the grid, scrambled puzzle pieces show answer numbers. Solvers complete each equation, find the matching piece, and place it in the correct cell to reconstruct the full image.`,
     },
     {
-      question: 'What grid sizes are available?',
+      question: `What grid sizes are available?`,
       answer: `You can set rows from 2 to 4 and columns from 2 to 4, producing grids from 2×2 (4 pieces) to 4×4 (16 pieces). Common configurations include 2×2 (easiest, 4 pieces), 2×3 or 3×2 (6 pieces), 3×3 (9 pieces, medium), 3×4 or 4×3 (12 pieces), and 4×4 (16 pieces, hardest).`,
     },
     {
-      question: 'What are the three operation modes?',
+      question: `What are the three operation modes?`,
       answer: `Addition mode fills every cell with an addition equation. Subtraction mode uses subtraction equations. Addition & Subtraction mode randomly mixes both operations across the grid, creating review puzzles that test both skills in a single activity. For product sellers, offering all three modes within a single bundle increases perceived value because buyers get focused practice sheets and comprehensive review sheets in one purchase. Listing each mode as a separate product also works well, giving you three distinct listings from the same design template.`,
     },
     {
@@ -174,11 +174,11 @@ const content: ToolContent = {  seo: {
       answer: `Yes. Click the "Upload Image" button to use your own PNG or JPEG file as the puzzle picture. This lets you create branded puzzles with your own illustrations, logos, seasonal designs, or niche artwork that no other seller can replicate.`,
     },
     {
-      question: 'What does the grayscale toggle do?',
+      question: `What does the grayscale toggle do?`,
       answer: `Enabling grayscale converts the puzzle image to black and white. This produces ink-friendly worksheets that cost less to print in bulk. It is especially useful for Amazon KDP workbooks where grayscale interiors have lower printing fees than color.`,
     },
     {
-      question: 'Can I use the puzzles for commercial purposes?',
+      question: `Can I use the puzzles for commercial purposes?`,
       answer: `The free trial with watermark is for personal use only. To sell puzzles on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create. There is no limit on how many puzzles you can generate or sell once licensed. You own the output files and can list them on multiple platforms simultaneously — the same puzzle pack can appear on Etsy, Gumroad, and KDP without additional fees.`,
     },
     {
@@ -186,7 +186,7 @@ const content: ToolContent = {  seo: {
       answer: `Yes. Math puzzles use only images, numbers, and equations — no text. The puzzles you create work identically in all languages. You can sell the same product to buyers in any country without translation, instantly multiplying your addressable market.`,
     },
     {
-      question: 'What file formats can I download?',
+      question: `What file formats can I download?`,
       answer: `You can download puzzles as high-resolution JPEG images or print-optimized PDF files. Both the puzzle worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing; JPEGs work great for creating product mockups and social media posts.`,
     },
     {
@@ -196,7 +196,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: `Math Puzzle Worksheets — Full Product Details` },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
     { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
@@ -208,14 +208,14 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/Math Puzzles.webp',
+      primary: `/samples/english/math puzzle/Math Puzzles.webp`,
       primaryAlt: `Math puzzle worksheet showing a jigsaw-style image grid with addition equations and scrambled answer pieces`,
     },
     sampleGallery: [
       {
         src: `/samples/english/math puzzle/Math Puzzles (1).webp`,
         alt: `Jigsaw math puzzle worksheet with addition equations in a colorful image grid`,
-        caption: 'Addition mode with themed image puzzle',
+        caption: `Addition mode with themed image puzzle`,
       },
       {
         src: `/samples/english/math puzzle/Math Puzzles (5).webp`,

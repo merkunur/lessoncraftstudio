@@ -7,19 +7,19 @@ const content: IdeaContent = {
 
     primaryKeyword: 'kindergarten printable ideas',
     secondaryKeywords: [
-      'kindergarten worksheets to sell',
-      'K-level printable business ideas',
-      'kindergarten activity sheets for sellers',
-      'sell kindergarten printables on Gumroad',
+      `kindergarten worksheets to sell`,
+      `K-level printable business ideas`,
+      `kindergarten activity sheets for sellers`,
+      `sell kindergarten printables on Gumroad`,
     ],
     lsiKeywords: [
-      'pre-K and K educational worksheets',
-      'early childhood learning printables',
+      `pre-K and K educational worksheets`,
+      `early childhood learning printables`,
       'age 5-6 group activity pages',
     ],
   },
   hero: {
-    title: 'Kindergarten Printable Business Ideas for Sellers',
+    title: `Kindergarten Printable Business Ideas for Sellers`,
     description: `Kindergarten printables occupy one of the most powerful and consistently profitable niches in the educational printable marketplace because kindergarten represents the universal transition year where every child in the country enters formal schooling, creating an enormous dual buyer base of buyers who need supplementary materials for increasingly rigorous academic standards and parents who want to support their child's learning at home during this critical foundational year. The academic skills that define kindergarten curriculum span a remarkable breadth of competencies including sight word recognition, number sense from one to one hundred, addition and subtraction within ten, CVC word decoding, beginning phonics and blending, letter formation and handwriting practice, measurement concepts, shape identification and attributes, sorting and classifying by multiple criteria, comparing quantities using greater than and less than, and early reading comprehension strategies that build the bridge between decoding individual words and understanding simple sentences. This bridge year between play-based preschool and structured first grade academics creates unique demand because kindergarten buyers face the challenge of meeting children at vastly different readiness levels while advancing all learners toward rigorous end-of-year benchmarks, driving consistent need for differentiated practice materials across every skill strand throughout the entire academic year. For printable sellers on Etsy, Amazon KDP, and Gumroad, the kindergarten niche combines massive year-round demand with the broadest possible institutional buyer base because kindergarten is compulsory or near-universal in every state, meaning virtually every elementary school employs kindergarten buyers who purchase supplementary supplementary materials, every family with a five or six year old seeks home practice resources, homeschool families building complete kindergarten programs purchase extensively across all skill areas, and tutoring centers serving struggling early readers need structured intervention worksheets. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable kindergarten printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The kindergarten printable niche holds a uniquely dominant position in the educational marketplace because it serves the second-largest age-group buyer segment with the most academically intensive and standards-driven skill set of any early childhood grade level. Unlike preschool where learning goals are developmental and flexible, kindergarten curriculum is defined by state standards and Common Core benchmarks that create specific, measurable skill targets every buyer must address and every parent can understand, making kindergarten printables inherently more targeted and easier to position for search-driven sales on every marketplace.
@@ -43,7 +43,7 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
       appId: 'find-count',
     },
     {
-      title: 'Kindergarten Word Search Puzzles to Sell Online',
+      title: `Kindergarten Word Search Puzzles to Sell Online`,
       description: `Word search puzzles designed for kindergarten readers attract buyers and parents searching for engaging literacy center activities that reinforce sight word recognition, CVC word decoding, and vocabulary development in a motivating game format that keeps five and six year olds focused during independent practice rotations. Create puzzles featuring high-frequency sight words from the Dolch and Fry lists like "the," "and," "is," "can," "we," and "like," CVC word families like cat, hat, mat, and sat, and color words and number words that reinforce cross-curricular vocabulary. The Word Search generator lets you control grid size and word length to create age-appropriate versions with eight to twelve words in medium grids suited for emerging readers who can identify individual letters and track them across rows and columns.`,
       appId: 'wordsearch',
     },
@@ -63,7 +63,7 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
       appId: 'coloring',
     },
     {
-      title: 'Kindergarten Bingo Cards for Group Activities',
+      title: `Kindergarten Bingo Cards for Group Activities`,
       description: `Bingo cards designed around kindergarten academic concepts serve buyers running literacy centers, math stations, and whole-group review activities with interactive engagement that reinforces learning more effectively than silent worksheet completion alone in learning settings with energetic five and six year olds. The Bingo generator creates unique card variations ensuring no duplicates for group sessions with twenty or more learners. Create targeted academic sets including sight word bingo using Dolch pre-primer and primer lists, number bingo covering one to twenty with numeral and dot pattern recognition, shape bingo featuring two-dimensional and three-dimensional geometric forms, and CVC word bingo for phonics-focused literacy center rotations. Bingo products command premium pricing because the interactive group format and ready-to-use design save buyers significant preparation time.`,
       appId: 'bingo',
     },
@@ -92,12 +92,12 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Kindergarten Printables on Etsy',
+      title: `Selling Kindergarten Printables on Etsy`,
       description: `Etsy captures the massive parent buyer segment searching for kindergarten home practice materials with terms like "kindergarten worksheets," "K readiness activities," "sight word practice printable," and "kindergarten math worksheets" throughout every month of the academic year and beyond. Use all thirteen tags with variations combining specific skill targets, grade identifiers, and activity formats: "kindergarten addition worksheets within 10," "sight word practice kindergarten printable," and "K-1 reading activities" target motivated buyers far more effectively than generic educational printable tags. Bundle products by academic subject to increase average order value: a kindergarten math pack covering counting, addition, and patterns, a reading pack with sight words, word searches, and CVC activities, and a writing readiness pack with letter formation and drawing activities each serve distinct parent needs while encouraging multiple purchases. Back-to-school season in August and September creates the single largest demand surge, but year-round demand from parents supplementing daily instruction and homeschool families building complete kindergarten programs maintains strong baseline sales every month.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Kindergarten Activity Books on KDP',
+      title: `Publishing Kindergarten Activity Books on KDP`,
       description: `Amazon KDP excels for kindergarten printables because parents, grandparents, and family members naturally add educational workbooks to their Amazon carts alongside school supplies, children's books, and learning materials during back-to-school shopping and throughout the academic year. Compile individual kindergarten worksheets into cohesive sixty to eighty page activity books combining addition practice, sight word activities, counting exercises, pattern work, and handwriting practice into comprehensive kindergarten skill-building workbooks. Use KDP keyword fields strategically with terms like "kindergarten workbook ages 5-6," "K math practice book," "sight word activity book kindergarten," and skill-specific phrases that capture buyer and parent search intent. Position your books as kindergarten prep resources for the summer before K, homework supplements during the school year, and summer bridge review books between kindergarten and first grade to capture three distinct purchasing windows throughout every calendar year.`,
     },
     {
@@ -147,32 +147,32 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -182,17 +182,17 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Business Ideas',
+      anchorText: `Preschool Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Airplane — themed educational image', caption: 'Airplane' },
-    { src: '/image-library/toys/baby.webp', alt: 'Baby — themed educational image', caption: 'Baby' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Baby Girl — themed educational image', caption: 'Baby Girl' },
-    { src: '/image-library/toys/ball.webp', alt: 'Ball — themed educational image', caption: 'Ball' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Balloon — themed educational image', caption: 'Balloon' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Airplane — themed educational image`, caption: 'Airplane' },
+    { src: '/image-library/toys/baby.webp', alt: `Baby — themed educational image`, caption: 'Baby' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Baby Girl — themed educational image`, caption: 'Baby Girl' },
+    { src: '/image-library/toys/ball.webp', alt: `Ball — themed educational image`, caption: 'Ball' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Balloon — themed educational image`, caption: 'Balloon' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicycle — themed educational image`, caption: 'Bicycle' },
   ],
 
 

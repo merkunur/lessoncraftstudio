@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias Imprimíveis Ensino Doméstico — Guia de Nicho`,
     metaDescription: `Descubra ideias de imprimíveis de ensino doméstico para vender no Etsy, Amazon KDP e Gumroad. Estratégias de nicho para vendedores dirigidos a pais vendedores.`,
-    primaryKeyword: 'ideias imprimíveis ensino doméstico',
+    primaryKeyword: `ideias imprimíveis ensino doméstico`,
     secondaryKeywords: [
-      'fichas ensino doméstico para vender',
-      'negócio imprimíveis ensino em casa',
+      `fichas ensino doméstico para vender`,
+      `negócio imprimíveis ensino em casa`,
       `fichas atividades ensino doméstico para vendedores`,
-      'vender imprimíveis ensino doméstico online',
+      `vender imprimíveis ensino doméstico online`,
     ],
     lsiKeywords: [
-      'fichas catálogo de produtos ensino doméstico',
+      `fichas catálogo de produtos ensino doméstico`,
       `recursos imprimíveis aprendizagem dirigida por pais`,
-      'páginas atividades cooperativa ensino doméstico',
+      `páginas atividades cooperativa ensino doméstico`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ O padrão de compra durante todo o ano das famílias que praticam ensino domést
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Ensino Doméstico no Etsy',
+      title: `Vender Imprimíveis de Ensino Doméstico no Etsy`,
       description: `O Etsy capta o segmento de compradores pais de ensino doméstico que se encontram entre os compradores mais ativos de imprimíveis educativos na plataforma, pesquisando com termos específicos como «fichas ensino doméstico», «imprimíveis ensino em casa», «atividades estudo por unidades», «suplemento curricular ensino doméstico» e «pacote aprendizagem múltiplos anos» durante os doze meses sem queda de procura no verão. Utiliza as treze etiquetas com variações que combinem termos de metodologia de ensino doméstico, áreas temáticas, faixas etárias e formatos de atividade para captar os diversos segmentos de compradores dentro da comunidade de ensino doméstico que pesquisam de forma diferente conforme a sua filosofia educativa. Agrupa produtos por tema de estudo por unidades ou progressão de competências de múltiplos anos para aumentar o valor médio da encomenda: um pacote interdisciplinar de estudo da natureza, um pacote familiar de múltiplos anos de prática de matemática e uma coleção de estudo por unidades sazonal servem cada um necessidades distintas das famílias de ensino doméstico enquanto encorajam múltiplas compras do mesmo comprador. Os pacotes familiares de múltiplos anos obtêm preços premium porque os pais pagam de bom grado mais por um único produto que sirva todos os seus filhos simultaneamente em vez de comprarem produtos separados por ano de escolaridade individualmente. A forte recomendação de boca em boca dentro dos grupos de ensino doméstico impulsiona a descoberta orgânica já que os compradores satisfeitos recomendam produtos em grupos do Facebook, reuniões de cooperativa e discussões de convenções de ensino doméstico.`,
     },
     {
@@ -95,7 +95,7 @@ O padrão de compra durante todo o ano das famílias que praticam ensino domést
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos de Ensino Doméstico para o Gumroad',
+      title: `Criar Recursos de Ensino Doméstico para o Gumroad`,
       description: `As famílias de ensino doméstico representam uma demografia crescente e cada vez mais importante no Gumroad, comprando juntamente com vendedores de loja tradicionais mas com necessidades e expetativas claramente diferentes que criam oportunidades para vendedores que abordam especificamente os requisitos do ensino doméstico. Etiqueta os produtos explicitamente como «adequado para ensino doméstico» com instruções autodirigidas que permitam o trabalho independente do usuário, chaves de resposta integrais para o valor percebido dos pais, e sugestões claras de âmbito e sequência que ajudem os pais a integrar os materiais na sua abordagem curricular escolhida. Inclui múltiplos níveis de dificuldade dentro de produtos individuais para servir lares de múltiplos anos de escolaridade onde uma única compra precisa de acomodar crianças que abrangem dois a quatro anos de escolaridade trabalhando a diferentes ritmos. Os pacotes de estudo por unidades integrando múltiplas disciplinas em torno de um único tema obtêm preços premium no Gumroad porque as famílias de ensino doméstico valorizam os recursos interdisciplinares que reduzem a carga de planeamento de obter materiais separados para cada área temática. A etiquetagem secular amplia o alcance da audiência através da diversa comunidade de ensino doméstico enquanto etiquetas específicas de metodologia como «compatível com Charlotte Mason» ou «educação clássica» ajudam os compradores dirigidos a encontrar recursos concebidos para a sua abordagem instrucional preferida.`,
     },
     {
@@ -139,18 +139,18 @@ O padrão de compra durante todo o ano das famílias que praticam ensino domést
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -164,7 +164,7 @@ O padrão de compra durante todo o ano das famílias que praticam ensino domést
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -174,18 +174,18 @@ O padrão de compra durante todo o ano das famílias que praticam ensino domést
     },
     {
       pageType: 'idea',
-      slug: 'pre-escolar-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis Pré-Escolares',
+      slug: `pre-escolar-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis Pré-Escolares`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Dossier — imagem educativa temática', caption: 'Dossier' },
-    { src: '/image-library/classroom/book.webp', alt: 'Livro — imagem educativa temática', caption: 'Livro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armário — imagem educativa temática', caption: 'Armário' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagem educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Dossier — imagem educativa temática`, caption: 'Dossier' },
+    { src: `/image-library/classroom/book.webp`, alt: `Livro — imagem educativa temática`, caption: 'Livro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armário — imagem educativa temática`, caption: 'Armário' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagem educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendário — imagem educativa temática`, caption: 'Calendário' },
   ],
 
 

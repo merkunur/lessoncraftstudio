@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Inverno para Vender — Guia`,
     metaDescription: `Ideias de imprimíveis de inverno para vender no Etsy, Amazon KDP e Gumroad. Produtos de clima frio com forte procura de novembro a fevereiro para vendedores.`,
 
-    primaryKeyword: 'ideias de imprimíveis de inverno para vender',
+    primaryKeyword: `ideias de imprimíveis de inverno para vender`,
     secondaryKeywords: [
-      'fichas temática inverno para vender',
+      `fichas temática inverno para vender`,
       'negócio imprimíveis inverno',
-      'fichas atividades inverno para vendedores',
-      'vender imprimíveis de inverno no Etsy',
+      `fichas atividades inverno para vendedores`,
+      `vender imprimíveis de inverno no Etsy`,
     ],
     lsiKeywords: [
       'fichas educativas neve e gelo',
       'páginas atividades clima frio',
-      'imprimíveis temática inverno para a loja',
+      `imprimíveis temática inverno para a loja`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ A vantagem competitiva nos imprimíveis de inverno provém da qualidade visual e
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Inverno para Vender Online',
+      title: `Sopas de Letras de Inverno para Vender Online`,
       description: `As sopas de letras com vocabulário de clima frio atraem vendedores que planificam atividades de janeiro e fevereiro para a loja e pais que procuram entretenimento educativo de interior durante os meses de inverno. Cria puzzles com vocabulário específico de inverno como floco de neve, luva, estalactite de gelo, pinguim, iglu, geada e tempestade de neve junto com termos mais amplos de atividades de clima frio. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de inverno para usuários mais velhos. As variações como vocabulário de animais árticos, palavras de roupa de inverno e terminologia de ciências do clima frio expandem o teu catálogo para captar diferentes interesses de compradores dentro do nicho sazonal de inverno.`,
       appId: 'wordsearch',
     },
@@ -96,17 +96,17 @@ A vantagem competitiva nos imprimíveis de inverno provém da qualidade visual e
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Inverno no Etsy',
+      title: `Vender Imprimíveis de Inverno no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis de inverno, e a prolongada época de compras de clima frio cria tráfego sustentado para as transferências digitais educativas de novembro a fevereiro. Publica os teus anúncios de inverno no final de setembro ou início de outubro para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em novembro. Utiliza as treze etiquetas com variações que combinem subtemas de inverno, tipos de competência e grupos etários: «fichas contagem inverno pré-escolar», «sopa de letras flocos de neve jardim de infância» e «páginas colorir pinguins infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas inverno». Posiciona os teus produtos como alternativas sazonais não confessionais, destacando explicitamente que funcionam para todas as salas de aula independentemente das celebrações festivas. As imagens de anúncios mostrando fichas de inverno impressas com estilismo sazonal acolhedor e acessórios de clima frio superam as pré-visualizações digitais planas e captam a mentalidade sazonal que impulsiona o tráfego de inverno.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Inverno no KDP',
+      title: `Publicar Livros de Atividades de Inverno no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de inverno porque os pais e compradores de prendas procuram naturalmente soluções de atividades de interior durante os meses frios, adicionando livros de atividades aos seus carrinhos da Amazon juntamente com roupa de inverno, equipamento para a neve e entretenimento de interior. Compila fichas individuais de inverno em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas de clima frio. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades inverno para crianças», «fichas dia de neve pré-escolar» e termos de subtemas como «livro colorir pinguins» ou «atividades boneco de neve para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como entretenimento para dias de neve, soluções para o clima de interior ou recursos para a loja de janeiro e fevereiro. Publica no início de outubro para garantir que os teus livros estejam indexados e disponíveis antes de a época de compras de novembro começar, e considera criar múltiplos livros dirigidos a diferentes grupos etários para captar consultas de pesquisa variadas durante os meses de inverno.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos de Inverno para a loja no Gumroad',
+      title: `Criar Recursos de Inverno para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores de loja que procuram atividades para o catálogo de produtos de janeiro e fevereiro, temas para a loja pós-festividades e recursos educativos com temática de inverno que possam implementar com mínima preparação durante a transição de regresso das férias de inverno. Os imprimíveis de inverno no Gumroad funcionam melhor quando empacotados como soluções prontas a usar: estações de atividades para recreio de interior, pacotes de trabalho matinal de inverno ou pacotes de trabalhos de casa com temática de clima frio com cartas de instruções para os pais. Inclui objetivos de aprendizagem claros para que os vendedores possam justificar as atividades sazonais perante as direções, e adiciona opções de diferenciação para salas de aula de inverno com competências mistas onde manter o foco académico após as férias requer conteúdo temático envolvente. Destaca que os temas de inverno são não confessionais e funcionam para todas as salas de aula, posicionando os teus produtos como a ponte perfeita entre as atividades de festividades de dezembro e os temas de primavera. A funcionalidade de agrupamento do Gumroad permite-te oferecer produtos individuais de inverno e um megapacote sazonal com desconto simultaneamente, captando tanto os vendedores com orçamento limitado como os que investem em recursos completos de inverno para a loja.`,
     },
     {
@@ -150,18 +150,18 @@ A vantagem competitiva nos imprimíveis de inverno provém da qualidade visual e
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -175,7 +175,7 @@ A vantagem competitiva nos imprimíveis de inverno provém da qualidade visual e
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -186,17 +186,17 @@ A vantagem competitiva nos imprimíveis de inverno provém da qualidade visual e
     {
       pageType: 'idea',
       slug: 'natal-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Natal',
+      anchorText: `Ideias de Negócio de Imprimíveis de Natal`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/winter/boots.webp', alt: 'Botas — imagem educativa temática', caption: 'Botas' },
-    { src: '/image-library/winter/cabin.webp', alt: 'Cabana — imagem educativa temática', caption: 'Cabana' },
-    { src: '/image-library/winter/coat.webp', alt: 'Casaco — imagem educativa temática', caption: 'Casaco' },
-    { src: '/image-library/winter/cocoa.webp', alt: 'Chocolate — imagem educativa temática', caption: 'Chocolate' },
-    { src: '/image-library/winter/earmuffs.webp', alt: 'Protetores de Ouvidos — imagem educativa temática', caption: 'Protetores de Ouvidos' },
-    { src: '/image-library/winter/evergreen.webp', alt: 'Árvore Perene — imagem educativa temática', caption: 'Árvore Perene' },
+    { src: `/image-library/winter/boots.webp`, alt: `Botas — imagem educativa temática`, caption: 'Botas' },
+    { src: `/image-library/winter/cabin.webp`, alt: `Cabana — imagem educativa temática`, caption: 'Cabana' },
+    { src: `/image-library/winter/coat.webp`, alt: `Casaco — imagem educativa temática`, caption: 'Casaco' },
+    { src: `/image-library/winter/cocoa.webp`, alt: `Chocolate — imagem educativa temática`, caption: 'Chocolate' },
+    { src: `/image-library/winter/earmuffs.webp`, alt: `Protetores de Ouvidos — imagem educativa temática`, caption: 'Protetores de Ouvidos' },
+    { src: `/image-library/winter/evergreen.webp`, alt: `Árvore Perene — imagem educativa temática`, caption: 'Árvore Perene' },
   ],
 
 

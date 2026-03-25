@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'essen & kochen druckvorlagen',
     secondaryKeywords: [
-      'Koch-Arbeitsblätter auf Etsy erstellen',
-      'Lebensmittel-Aktivitätsblätter auf KDP verkaufen',
-      'Küchen-Thema Druckvorlagen auf Gumroad anbieten',
-      'Rezept-Lernmaterialien für Druckvorlagen-Shops',
+      `Koch-Arbeitsblätter auf Etsy erstellen`,
+      `Lebensmittel-Aktivitätsblätter auf KDP verkaufen`,
+      `Küchen-Thema Druckvorlagen auf Gumroad anbieten`,
+      `Rezept-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Ernährungs-Bildungsthema Druckvorlagen-Nische',
-      'Kochen-Lebensmittel Arbeitsblätter Etsy-Markt',
-      'Hauswirtschaft-Thema Lernmaterialien Verkauf',
+      `Ernährungs-Bildungsthema Druckvorlagen-Nische`,
+      `Kochen-Lebensmittel Arbeitsblätter Etsy-Markt`,
+      `Hauswirtschaft-Thema Lernmaterialien Verkauf`,
     ],
-    titleTag: 'Essen & Kochen Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Essen & Kochen Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Essen- und Koch-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Rezeptthemen-Produktkonzepte und Plattformstrategien für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -40,12 +40,12 @@ Kulturelle Inklusivität durch internationale Küche stellt einen wertvollen Dif
       appId: 'find-count',
     },
     {
-      title: 'Essen-Wortsuchrätsel zum Online-Verkaufen',
+      title: `Essen-Wortsuchrätsel zum Online-Verkaufen`,
       description: `Lebensmittelvokabular-Wortsuchrätsel ziehen Verkäufer an, die Ernährungseinheiten planen, und Eltern, die lehrreiche Unterhaltung suchen, die die natürliche Neugier ihres Kindes auf Mahlzeiten, Snacks und Kochen in produktive Lese- und Schreibkompetenzentwicklung und Wortschatzerweiterung kanalisiert. Erstellen Sie Rätsel mit lebensmittelspezifischem Vokabular wie Apfel, Brot, Pizza, Keks, Karotte, Käse, Banane, Tomate, Kuchen und Salat zusammen mit breiteren Kochbegriffen wie Rezept, Küche und Zutat. Der Wortsuchrätsel-Generator ermöglicht es Ihnen, Rastergröße und Wortanzahl zu steuern, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lerner und anspruchsvolle Raster mit fünfzehn oder mehr Lebensmittelbegriffen für ältere Nutzer an. Variationen wie Obstsuchen, Gemüsevokabular, Backterminologie und Küchengeräte-Identifikation erweitern Ihren Katalog.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Essen-Zuordnungsaktivitäten für lehrreiche Shops',
+      title: `Essen-Zuordnungsaktivitäten für lehrreiche Shops`,
       description: `Zuordnungsarbeitsblätter mit Essen- und Kochthemen funktionieren über mehrere Fähigkeitsbereiche hinweg, was sie zu vielseitigen Produkten macht, die Verkäufer mit Ernährungseinheiten und Eltern ansprechen, die lehrreiche Bibliotheken für junge Lerner aufbauen, die die Welt des Essens und der gesunden Ernährung erkunden. Erstellen Sie Sets, in denen Kinder Lebensmittel ihren Lebensmittelgruppen zuordnen, Küchenutensilien mit ihren Verwendungszwecken verbinden oder Zutaten den Rezepten zuordnen, zu denen sie gehören. Der Zuordnungs-Generator erstellt saubere, professionelle Layouts, die auf Standardpapier wunderschön drucken. Diese Aktivitäten sprechen besonders Vorschul- und Kindergarten-Produktkäufer an, die Ernährungs- und gesunde Essgewohnheiten-Themen integrieren, bei denen visuelles Zuordnen Beobachtungs- und Kategorisierungsfähigkeiten aufbaut. Sets von acht bis zwölf Zuordnungsseiten lassen sich effektiv zum Preispunkt von fünf bis acht Dollar bündeln, und das immergrüne Essen-Thema treibt konsistente Käufe das ganze Jahr über an.`,
       appId: 'matching',
     },
@@ -55,12 +55,12 @@ Kulturelle Inklusivität durch internationale Küche stellt einen wertvollen Dif
       appId: 'addition',
     },
     {
-      title: 'Essen-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Essen-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Ausmalseiten sind das Einstiegsprodukt mit dem höchsten Volumen für Essen-Druckvorlagen-Shops, da Essen-Ausmalen praktisch jedes Kind anspricht, das gerne Obst zeichnet, Cupcakes dekoriert und bunte Küchenszenen gestaltet, was frühe Bewertungen generiert, die Ihre Shop-Sichtbarkeit über alle Ihre lebensmittelthematischen Auflistungen hinweg steigern. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Obstkörben voller Äpfel und Bananen, Cupcakes mit geschwungener Glasur, Pizza mit schmelzendem Käse, Gemüsegärten voller Erzeugnisse und Kochfiguren, die Mahlzeiten in geschäftigen Küchen zubereiten. Für Etsy verkaufen Sie kuratierte Sets von zehn bis fünfzehn Seiten, gruppiert nach Lebensmittelart wie Obst und Gemüse oder Backwaren und Leckereien. Für KDP stellen Sie dreißig bis fünfzig Ausmalseiten zu Essen-Aktivitätsbüchern zusammen, positioniert als Geschenke für aufstrebende kleine Köche. Fügen Sie lehrreiche Elemente wie Lebensmittelnamen-Beschriftungen, Lebensmittelgruppen-Identifikation oder Zählaufforderungen hinzu, um sich von einfachen Ausmalwettbewerbern zu unterscheiden.`,
       appId: 'coloring',
     },
     {
-      title: 'Essen-Bingokarten für Gruppenaktivitäten',
+      title: `Essen-Bingokarten für Gruppenaktivitäten`,
       description: `Essen-Bingokarten dienen Verkäufern, die Ernährungseinheiten und Lektionen über gesundes Essen durchführen, bei denen interaktive Gruppenaktivitäten Lebensmittelvokabular und Lebensmittelgruppen-Identifikation effektiver verstärken als einzelne Arbeitsblätter allein in ansprechenden Nutzungsumgebungen. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Lebensmittelvokabelliste und stellt sicher, dass keine zwei Karten für Gruppen- oder Einzelspiele identisch sind. Verkaufen Sie Gruppensets von fünfundzwanzig bis dreißig Karten mit einem Ansageblatt und einem Lebensmittelvokabular-Nachschlagewerk. Für den Familienmarkt erstellen Sie Bingo-Kits mit Obst, Gemüse, Milchprodukten, Getreide und Proteinlebensmitteln, die Familien während Mahlzeit-Lernaktivitäten oder Ernährungsthemen-Spieleabenden zu Hause spielen können. Bingo-Produkte generieren zuverlässige Nachfrage, da jede Ernährungseinheit von strukturierten Wiederholungsspielen profitiert, die Konzepte für gesundes Essen verstärken.`,
       appId: 'bingo',
     },
@@ -89,7 +89,7 @@ Kulturelle Inklusivität durch internationale Küche stellt einen wertvollen Dif
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Essen- und Koch-Druckvorlagen auf Etsy verkaufen',
+      title: `Essen- und Koch-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Essen- und Koch-Nische mit konsistenter ganzjähriger Auflistungsleistung, da jedes Kind isst, was kontinuierliche Elternsuchen nach ansprechenden lehrreichen Aktivitäten sicherstellt, die mit Mahlzeiten, Ernährung und Küchenentdeckung verbunden sind, unabhängig von Saison oder Feiertagskalender. Verwenden Sie alle dreizehn Tags mit Variationen, die Essen-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Essen Zählarbeitsblätter Vorschule", „Obst Ausmalseiten Kleinkind" und „gesundes Essen Wortsuchrätsel Kindergarten" zielen auf spezifische Käufersuchen viel effektiver ab als breite Tags wie „Essen Arbeitsblätter". Positionieren Sie Ihre Produkte sowohl für lehrreiche als auch für Geschenkkäufer-Suchen, indem Sie Begriffe wie „kleiner Koch Aktivität" und „Kochthema Druckvorlage" in Ihre Titel und Beschreibungen aufnehmen. Auflistungsbilder, die gedruckte Essen-Arbeitsblätter neben Spielküchen-Sets, Spielzeugobst oder kochthematischer Dekoration zeigen, übertreffen flache digitale Vorschauen und erfassen die begeisterungsgetriebene Denkweise, die Eltern auf der Suche nach Ernährungs- und Koch-Bildungsressourcen zu Etsy bringt.`,
     },
     {
@@ -143,13 +143,13 @@ Kulturelle Inklusivität durch internationale Küche stellt einen wertvollen Dif
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Kulturelle Inklusivität durch internationale Küche stellt einen wertvollen Dif
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'fahrzeuge-druckvorlagen-ideen',
-      anchorText: 'Fahrzeuge Druckvorlagen-Geschäftsideen',
+      anchorText: `Fahrzeuge Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Blaubeere — thematisches Lernbild', caption: 'Blaubeere' },
+    { src: `/image-library/fruits/apple.webp`, alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Aprikose — thematisches Lernbild`, caption: 'Aprikose' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — thematisches Lernbild`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banane — thematisches Lernbild`, caption: 'Banane' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Brombeere — thematisches Lernbild`, caption: 'Brombeere' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Blaubeere — thematisches Lernbild`, caption: 'Blaubeere' },
   ],
 
 

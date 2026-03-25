@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Forest Animals Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Explore forest animal printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Woodland product concepts, platform tips, and niche strategies for sellers.`,
 
-    primaryKeyword: 'forest animals printable ideas',
+    primaryKeyword: `forest animals printable ideas`,
     secondaryKeywords: [
-      'forest animal worksheets to sell',
-      'woodland themed printable business',
-      'forest activity sheets for sellers',
-      'sell forest animal printables online',
+      `forest animal worksheets to sell`,
+      `woodland themed printable business`,
+      `forest activity sheets for sellers`,
+      `sell forest animal printables online`,
     ],
     lsiKeywords: [
-      'woodland creature educational worksheets',
-      'nature habitat activities for kids',
-      'wildlife themed group printables',
+      `woodland creature educational worksheets`,
+      `nature habitat activities for kids`,
+      `wildlife themed group printables`,
     ],
   },
   hero: {
@@ -34,7 +34,7 @@ Pricing in the forest animal niche follows established educational printable tie
 
 To build a sustainable forest animal printable business, develop products that span multiple species and skill areas. Start with the most beloved woodland animals that children recognize instantly, then expand into seasonal groupings and content-specific products. Cross-list across Etsy, Gumroad, KDP, and direct sales platforms to reach the full spectrum of parents, buyers, homeschoolers, and nature education enthusiasts who purchase woodland-themed educational materials.
 
-The forest animals niche benefits from strong alignment with popular children\'s media and literature. Characters like Bambi, the Gruffalo, Goldilocks' bears, and Red Riding Hood\'s wolf create cultural familiarity that draws parents to forest-themed educational content. While sellers cannot use copyrighted characters, the underlying forest animal archetypes — wise owls, clever foxes, gentle deer, busy squirrels, and sleeping bears — carry these same emotional associations and appeal. This cultural resonance means forest animal printables often receive higher engagement rates in marketplace search results compared to themes without such strong narrative connections.
+The forest animals niche benefits from strong alignment with popular children\`s media and literature. Characters like Bambi, the Gruffalo, Goldilocks` bears, and Red Riding Hood\'s wolf create cultural familiarity that draws parents to forest-themed educational content. While sellers cannot use copyrighted characters, the underlying forest animal archetypes — wise owls, clever foxes, gentle deer, busy squirrels, and sleeping bears — carry these same emotional associations and appeal. This cultural resonance means forest animal printables often receive higher engagement rates in marketplace search results compared to themes without such strong narrative connections.
 
 Forest ecosystems provide natural interdisciplinary learning connections that make forest animal printables particularly attractive to buyers planning thematic units. A forest animal unit naturally integrates science concepts like habitats, food chains, hibernation, and seasonal adaptation alongside math skills through counting woodland creatures, comparison activities with different animal sizes, and pattern work using leaf and animal sequences. Literacy connections through forest vocabulary, animal fact reading passages, and creative writing prompts about woodland adventures add further educational depth. This interdisciplinary richness means a single forest animals product line can serve buyers across multiple subject-area searches, dramatically increasing the discoverability of your listings.
 
@@ -47,7 +47,7 @@ Pricing analysis shows that forest animals printable products command a slight p
       appId: 'find-count',
     },
     {
-      title: 'Woodland Word Search Puzzles to Sell Online',
+      title: `Woodland Word Search Puzzles to Sell Online`,
       description: `Forest animal vocabulary word searches attract parents and buyers who want to build language skills around nature and habitat themes. Create puzzles featuring woodland animal names, forest habitat vocabulary, hibernation terminology, and seasonal nature words. The Word Search generator lets you control grid size and word count, making it straightforward to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more words for older children. Seasonal variations like autumn forest animals, hibernation vocabulary, and spring woodland baby animals expand your product catalog and capture buyers throughout the year.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ Pricing analysis shows that forest animals printable products command a slight p
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Forest Animal Printables on Etsy',
+      title: `Selling Forest Animal Printables on Etsy`,
       description: `Etsy rewards specificity in forest animal printable listings, and the woodland aesthetic gives you a powerful visual advantage in search results. Instead of broad titles like "Animal Worksheets," target long-tail keywords such as "forest animal counting worksheets preschool" or "woodland word search printable kindergarten." Use all thirteen tags with variations combining forest species, skill type, and age group. Include tags referencing the woodland nursery trend, as parents who decorated with that aesthetic actively search for matching educational materials. Listing images showing printed woodland worksheets in cozy, nature-themed settings outperform flat digital previews significantly. Schedule new listings to coincide with autumn demand peaks in September through November when buyers plan habitat and hibernation units, and spring releases in March through April for baby animal and nature awakening themes.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Woodland Activity Books on KDP',
+      title: `Publishing Woodland Activity Books on KDP`,
       description: `Amazon KDP works best for forest animal printables when you compile individual worksheets into cohesive activity books that offer variety and value within the woodland theme. A forty to sixty page forest animal activity book combining counting, coloring, matching, word searches, and drawing activities performs well in the children's activity book category. Use KDP keyword fields strategically: include "forest animal activity book for kids," "woodland worksheets preschool," and species-specific terms like "bear coloring book" or "fox activities for children." Price between four and seven dollars for optimal royalty margins. Consider creating seasonal forest animal books alongside general woodland activity books to capture buyers searching for autumn activities, hibernation themes, or spring baby animal content.`,
     },
     {
@@ -155,32 +155,32 @@ Pricing analysis shows that forest animals printable products command a slight p
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -190,17 +190,17 @@ Pricing analysis shows that forest animals printable products command a slight p
     {
       pageType: 'idea',
       slug: 'insects-printable-ideas',
-      anchorText: 'Insects Printable Business Ideas',
+      anchorText: `Insects Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
-    { src: '/image-library/forest%20creatures/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Ant — themed educational image`, caption: 'Ant' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Badger — themed educational image`, caption: 'Badger' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Bear — themed educational image`, caption: 'Bear' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Beaver — themed educational image`, caption: 'Beaver' },
+    { src: `/image-library/forest%20creatures/bee.webp`, alt: `Bee — themed educational image`, caption: 'Bee' },
   ],
 
 

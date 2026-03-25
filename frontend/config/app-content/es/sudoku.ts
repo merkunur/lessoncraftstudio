@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de sudoku con imágenes',
+    primaryKeyword: `generador de sudoku con imágenes`,
     secondaryKeywords: [
-      'fichas de sudoku infantil imprimibles para Etsy',
-      'generador de sudoku con imágenes para Amazon KDP',
-      'vender fichas de sudoku infantil en Gumroad',
-      'fichas de sudoku con imágenes licencia comercial',
+      `fichas de sudoku infantil imprimibles para Etsy`,
+      `generador de sudoku con imágenes para Amazon KDP`,
+      `vender fichas de sudoku infantil en Gumroad`,
+      `fichas de sudoku con imágenes licencia comercial`,
     ],
     lsiKeywords: [
       `productos digitales de sudoku infantil para emprendedores`,
-      'negocio de fichas de puzzles lógicos imprimibles',
-      'generador de sudoku con imágenes uso comercial',
+      `negocio de fichas de puzzles lógicos imprimibles`,
+      `generador de sudoku con imágenes uso comercial`,
     ],
-    titleTag: 'Generador de Sudoku con Imágenes | Crear y Vender',
+    titleTag: `Generador de Sudoku con Imágenes | Crear y Vender`,
     metaDescription:
       `Crea fichas de sudoku con imágenes para vender en Etsy, KDP y Gumroad. Cuadrícula 4×4, tres dificultades, 104 temas, clave de respuesta automática. Prueba gratis.`,
   },
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Abre el panel de Sudoku Infantil y selecciona una dificultad del menú desplegable: Fácil, Medio o Difícil. Fácil elimina 4 celdas de la cuadrícula 4×4, dejando 12 rellenadas y 4 para que el usuario resuelva. Medio elimina 6 celdas para un desafío moderado. Difícil elimina 8 celdas — exactamente la mitad de la cuadrícula — requiriendo un razonamiento lógico más avanzado. El sistema selecciona al azar qué celdas quedan vacías, así que regenerar la misma dificultad produce configuraciones de puzzle diferentes cada vez.`,
       },
       {
-        title: 'Selecciona exactamente 4 imágenes',
+        title: `Selecciona exactamente 4 imágenes`,
         description:
           `Abre el panel de Biblioteca de Imágenes y elige cómo seleccionar tus 4 imágenes para el puzzle. La selección por tema elige un tema del menú desplegable y el sistema selecciona automáticamente 4 imágenes al azar de esa colección. La selección manual te permite explorar 104 colecciones temáticas con más de 3100 ilustraciones, filtrar por tema o buscar por palabra clave para elegir exactamente 4 imágenes. También puedes subir imágenes personalizadas. La aplicación requiere exactamente 4 imágenes — ni más, ni menos — ya que una cuadrícula de sudoku 4×4 usa 4 símbolos únicos.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Haz clic en Generar para crear la cuadrícula de sudoku con imágenes 4×4. La aplicación coloca tus 4 imágenes seleccionadas en una disposición válida de sudoku donde cada imagen aparece exactamente una vez por fila y una vez por columna, luego elimina el número configurado de celdas según tu ajuste de dificultad. La cuadrícula premium muestra colores de bloque alternos en azul claro (#F8F9FC) y rosa claro (#FFF5F7), con divisores centrales en negrita, sombras multicapa y un borde exterior índigo (#667EEA) con esquinas redondeadas. Un encabezado estilizado de «Sudoku con Imágenes» aparece sobre la cuadrícula con fondo púrpura (#5E35B1) y texto del título localizado.`,
       },
       {
-        title: 'Genera la clave de respuesta y descarga',
+        title: `Genera la clave de respuesta y descarga`,
         description:
           `Cambia a la pestaña Clave de Respuesta para ver la cuadrícula completa con las 16 celdas rellenadas — sin espacios vacíos. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se exportan como sudoku_worksheet.jpeg/pdf y sudoku_answer_key.jpeg/pdf a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para publicar en Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.`,
       },
@@ -61,7 +61,7 @@ const content: AppContent = {
     title: `Características Principales del Generador de Sudoku con Imágenes`,
     features: [
       {
-        title: 'Sudoku 4×4 con imágenes en lugar de números',
+        title: `Sudoku 4×4 con imágenes en lugar de números`,
         description:
           `Cada puzzle usa una cuadrícula 4×4 con 4 imágenes coloridas únicas que reemplazan los números tradicionales. Los usuarios aplican las mismas reglas lógicas que el sudoku clásico — cada imagen debe aparecer exactamente una vez en cada fila y una vez en cada columna — pero el formato visual hace que los puzzles sean accesibles para pre-lectores y usuarios pequeños que aún no dominan los números. El formato basado en imágenes también hace que cada puzzle sea universalmente comprensible independientemente del idioma, ya que ningún texto aparece dentro de la cuadrícula. Este diseño exclusivamente visual es el diferenciador clave que abre mercados mundiales para tus productos imprimibles.`,
       },
@@ -107,34 +107,34 @@ const content: AppContent = {
     title: `Cómo Vender Fichas de Sudoku con Imágenes en Línea`,
     cases: [
       {
-        title: 'Paquetes temáticos de sudoku con imágenes en Etsy',
+        title: `Paquetes temáticos de sudoku con imágenes en Etsy`,
         description:
           `Crea paquetes de puzzles de sudoku temáticos usando las 104 colecciones de imágenes — sudoku de animales, sudoku de comida, sudoku de vehículos, sudoku del océano y docenas más. Cada tema proporciona suficientes ilustraciones para generar múltiples puzzles únicos con diferentes combinaciones de imágenes y configuraciones de celdas. Empaqueta de 15 a 30 puzzles de sudoku por tema con claves de respuesta incluidas, y véndelos entre 3 $ y 7 $ por paquete. Mezcla niveles de dificultad dentro de cada paquete: comienza con puzzles Fácil para calentamiento y progresa hasta Difícil para un conjunto completo de desafío lógico. La clave de respuesta automática elimina el mayor consumo de tiempo en la producción de puzzles.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de lógica infantil en Amazon KDP',
+        title: `Cuadernos de lógica infantil en Amazon KDP`,
         description:
           `Compila de 50 a 100 puzzles de sudoku con imágenes en un cuaderno impreso con formato para Amazon KDP. Estructura tu libro por dificultad progresiva: el Capítulo 1 usa puzzles Fácil (4 celdas vacías) para principiantes que aprenden lógica de filas y columnas, el Capítulo 2 aumenta a Medio (6 celdas vacías), y el Capítulo 3 desafía con puzzles Difícil (8 celdas vacías). Usa temas diferentes por capítulo o mezcla temas a lo largo del libro para variedad visual. Incluye claves de respuesta al final del libro. La opción de escala de grises produce páginas que ahorran tinta listas para interiores en blanco y negro, y el formato exclusivamente visual significa que tu cuaderno atrae a compradores en todo el mundo sin costes de traducción.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Actividades de lógica y razonamiento para Gumroad',
+        title: `Actividades de lógica y razonamiento para Gumroad`,
         description:
           `Crea fichas de razonamiento lógico listas para usar con claves de respuesta impresas para uso comercial. Los vendedores que buscan en Gumroad actividades de pensamiento crítico valoran el sudoku con imágenes porque desarrolla la deducción lógica en un formato accesible para usuarios pequeños. Crea conjuntos alineados con el catálogo de productos organizados por tema: puzzles lógicos de animales de granja, actividades de razonamiento de grupos de alimentos, fichas de resolución de problemas de profesiones. Cada conjunto incluye fichas para usuarios en múltiples niveles de dificultad y claves de respuesta para el vendedor en formatos PDF y JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Colecciones de sudoku de temporada y festividades',
+        title: `Colecciones de sudoku de temporada y festividades`,
         description:
           `Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de sudoku de disponible ahora que se alineen con los períodos de mayor demanda. Lanza paquetes de sudoku de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres niveles de dificultad en cada conjunto de temporada para máximo valor. Los productos de temporada tienen precios más altos durante sus ventanas pico y crean razones naturales para compras repetidas a lo largo del año.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (temporada)',
+        platform: `Etsy / Amazon KDP / Gumroad (temporada)`,
       },
       {
         title: `Alcance global con puzzles exclusivamente visuales`,
         description:
           `El sudoku con imágenes es completamente visual — ninguna palabra, letra o número aparece dentro de la cuadrícula del puzzle. Esto significa que cada ficha que crees funciona de forma idéntica para compradores en cualquier país y en cualquier idioma. Un solo paquete de sudoku sirve para los mercados en inglés, alemán, francés, español y todos los demás sin modificación. Publica el mismo producto en múltiples tiendas de Etsy o mercados regionales de Amazon KDP sin crear versiones en idiomas separados. Esta ventaja exclusivamente visual aumenta drásticamente tu mercado potencial manteniendo el esfuerzo de producción constante.`,
-        platform: 'Mercados globales (todas las plataformas)',
+        platform: `Mercados globales (todas las plataformas)`,
       },
     ],
   },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `Las imágenes hacen que el sudoku sea accesible para pre-lectores y usuarios pequeños que aún no dominan los números. El formato visual atrae a los usuarios con ilustraciones temáticas coloridas mientras desarrolla las mismas habilidades de razonamiento lógico que el sudoku basado en números. Los puzzles con imágenes también son universalmente comprensibles — no se requiere conocimiento de idioma o sistema numérico — lo que hace tus productos vendibles en todo el mundo sin traducción.`,
     },
     {
-      question: '¿Qué controlan los tres niveles de dificultad?',
+      question: `¿Qué controlan los tres niveles de dificultad?`,
       answer:
         `La dificultad determina cuántas celdas quedan vacías para que el usuario las resuelva. Fácil elimina 4 celdas de la cuadrícula de 16 celdas, dejando 12 pistas para una resolución directa. Medio elimina 6 celdas, requiriendo una deducción lógica más cuidadosa. Difícil elimina 8 celdas — exactamente la mitad de la cuadrícula — exigiendo razonamiento en varios pasos. El sistema selecciona al azar qué celdas quedan vacías, así que regenerar la misma dificultad crea un diseño de puzzle diferente cada vez.`,
     },
@@ -176,7 +176,7 @@ const content: AppContent = {
         `La cuadrícula de sudoku presenta fondos de bloques 2×2 alternos en azul claro (#F8F9FC) y rosa claro (#FFF5F7) que ayudan a los usuarios a identificar los límites de los bloques. Divisores centrales en negrita (#7C8DB5, trazo de 3px) separan los cuatro cuadrantes mientras líneas internas más finas (#D1D9E6, 1,5px) definen las celdas individuales. Un borde exterior índigo (#667EEA) con esquinas redondeadas de 18px enmarca toda la cuadrícula, y tres sombras multicapa a diferentes desplazamientos añaden profundidad profesional. Las imágenes se muestran al 65% del tamaño de la celda para una separación visual clara.`,
     },
     {
-      question: '¿Los puzzles son únicos cada vez que genero uno?',
+      question: `¿Los puzzles son únicos cada vez que genero uno?`,
       answer:
         `Sí. La aplicación baraja las imágenes de forma aleatoria antes de poblar la cuadrícula 4×4, y luego selecciona al azar qué celdas quedan vacías según el nivel de dificultad. Incluso con las mismas 4 imágenes y el mismo ajuste de dificultad, regenerar produce una disposición de sudoku válida diferente con posiciones de celdas vacías distintas. Esta aleatorización te permite crear grandes colecciones de puzzles únicos a partir de un pequeño conjunto de imágenes temáticas.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes derechos completos para vender tus fichas de sudoku con imágenes como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, las 104 colecciones de imágenes temáticas y el formato exclusivamente visual te dan las herramientas creativas para producir productos de sudoku originales y vendibles globalmente.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratis te da acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar los tres niveles de dificultad, selección por tema y manual, la clave de respuesta automática, la biblioteca completa de imágenes, temas de fondo y borde, herramientas de texto y todos los formatos de descarga antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se ajusta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'piezas-faltantes-fichas',
-      anchorText: 'Generador de Fichas de Piezas Faltantes',
+      anchorText: `Generador de Fichas de Piezas Faltantes`,
     },
     {
       pageType: 'app',
       slug: 'encuentra-el-diferente-fichas',
-      anchorText: 'Generador de Fichas de Encuentra el Diferente',
+      anchorText: `Generador de Fichas de Encuentra el Diferente`,
     },
     {
       pageType: 'app',
       slug: 'laberintos-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Laberintos con Imágenes',
+      anchorText: `Generador de Fichas de Laberintos con Imágenes`,
     },
     {
       pageType: 'app',
-      slug: 'rompecabezas-matematicos-fichas',
-      anchorText: 'Generador de Fichas de Rompecabezas Matemáticos',
+      slug: `rompecabezas-matematicos-fichas`,
+      anchorText: `Generador de Fichas de Rompecabezas Matemáticos`,
     },
     {
       pageType: 'app',
       slug: 'fichas-patrones',
-      anchorText: 'Generador de Fichas de Patrones',
+      anchorText: `Generador de Fichas de Patrones`,
     },
     {
       pageType: 'bundle',
@@ -240,39 +240,39 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'primer-grado-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para primer grado',
+      slug: `primer-grado-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para primer grado`,
     },
     {
       pageType: 'idea',
-      slug: 'segundo-grado-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para segundo grado',
+      slug: `segundo-grado-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para segundo grado`,
     },
     {
       pageType: 'start',
       slug: 'libros-actividades-amazon-kdp',
-      anchorText: 'Publicar libros de actividades en Amazon KDP',
+      anchorText: `Publicar libros de actividades en Amazon KDP`,
     },
     {
       pageType: 'guide',
       slug: 'crear-sudoku-imagenes',
-      anchorText: 'Crear sudoku de imágenes para niños',
+      anchorText: `Crear sudoku de imágenes para niños`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp',
+      primary: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`,
       primaryAlt: `Ficha de sudoku con imágenes 4×4 con ilustraciones temáticas en una cuadrícula premium con colores de bloque alternos y encabezado de Sudoku con Imágenes`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 2.webp',
+        src: `/samples/spanish/sudoku/Sudoku de Imágenes 2.webp`,
         alt: `Sudoku con imágenes de dificultad Fácil con 4 celdas vacías y 12 celdas rellenadas en una cuadrícula 4×4`,
         caption: `Dificultad Fácil — 4 celdas vacías para principiantes que aprenden lógica de filas y columnas`,
       },
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 3.webp',
+        src: `/samples/spanish/sudoku/Sudoku de Imágenes 3.webp`,
         alt: `Sudoku con imágenes de dificultad Difícil con 8 celdas vacías y 8 celdas rellenadas en una cuadrícula 4×4`,
         caption: `Dificultad Difícil — 8 celdas vacías que requieren razonamiento lógico en varios pasos`,
       },

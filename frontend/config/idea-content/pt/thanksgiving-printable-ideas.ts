@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Ação de Graças — Guia de Nicho',
+    titleTag: `Ideias Imprimíveis Ação de Graças — Guia de Nicho`,
     metaDescription: `Ideias de imprimíveis de Ação de Graças para vender no Etsy, Amazon KDP e Gumroad. Produtos temáticos de colheita, estratégias sazonais e dicas para vendedores.`,
 
-    primaryKeyword: 'ideias imprimíveis ação de graças',
+    primaryKeyword: `ideias imprimíveis ação de graças`,
     secondaryKeywords: [
-      'fichas ação de graças para vender',
-      'negócio imprimíveis ação de graças',
-      'fichas atividades ação de graças para vendedores',
-      'vender imprimíveis de ação de graças no Etsy',
+      `fichas ação de graças para vender`,
+      `negócio imprimíveis ação de graças`,
+      `fichas atividades ação de graças para vendedores`,
+      `vender imprimíveis de ação de graças no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas colheita e gratidão',
-      'páginas atividades temática novembro para loja',
-      'imprimíveis temática peru e peregrinos',
+      `fichas educativas colheita e gratidão`,
+      `páginas atividades temática novembro para loja`,
+      `imprimíveis temática peru e peregrinos`,
     ],
   },
   hero: {
@@ -92,7 +92,7 @@ Para capturar as receitas máximas de Ação de Graças, desenvolve produtos em 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Ação de Graças no Etsy',
+      title: `Vender Imprimíveis de Ação de Graças no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis de Ação de Graças, e a época de compras de outono cria um aumento significativo de tráfego para as transferências digitais educativas. Publica os teus anúncios de Ação de Graças em meados de setembro para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em outubro. Utiliza as treze etiquetas com variações que combinem subtemas de Ação de Graças, tipos de competência e grupos etários: «fichas contagem ação de graças pré-escolar», «sopa de letras colheita jardim de infância» e «páginas colorir peru infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas ação de graças». Cria variações de anúncios orientadas para celebrações posicionando os pacotes de atividades como kits para festas de Ação de Graças online ou kits de entretenimento para viagens festivas. As imagens de anúncios mostrando fichas de Ação de Graças impressas em ambientes com temática outonal e acessórios sazonais como abóboras, folhas e decorações de colheita superam as pré-visualizações digitais planas e captam a mentalidade festiva que impulsiona o tráfego de outono. Posiciona os teus produtos de Ação de Graças junto com anúncios mais amplos de outono para captar compradores que procuram conteúdo sazonal geral e que também possam comprar artigos específicos da festividade.`,
     },
     {
@@ -146,18 +146,18 @@ Para capturar as receitas máximas de Ação de Graças, desenvolve produtos em 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -171,7 +171,7 @@ Para capturar as receitas máximas de Ação de Graças, desenvolve produtos em 
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -182,17 +182,17 @@ Para capturar as receitas máximas de Ação de Graças, desenvolve produtos em 
     {
       pageType: 'idea',
       slug: 'natal-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Natal',
+      anchorText: `Ideias de Negócio de Imprimíveis de Natal`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Maçã — imagem educativa temática', caption: 'Maçã' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Alperce — imagem educativa temática', caption: 'Alperce' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Abacate — imagem educativa temática', caption: 'Abacate' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banana — imagem educativa temática', caption: 'Banana' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Amora — imagem educativa temática', caption: 'Amora' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Mirtilo — imagem educativa temática', caption: 'Mirtilo' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Maçã — imagem educativa temática`, caption: 'Maçã' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Alperce — imagem educativa temática`, caption: 'Alperce' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Abacate — imagem educativa temática`, caption: 'Abacate' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banana — imagem educativa temática`, caption: 'Banana' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Amora — imagem educativa temática`, caption: 'Amora' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Mirtilo — imagem educativa temática`, caption: 'Mirtilo' },
   ],
 
 

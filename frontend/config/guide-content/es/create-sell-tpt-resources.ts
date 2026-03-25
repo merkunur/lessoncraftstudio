@@ -5,8 +5,8 @@ const content: GuideContent = {
     primaryKeyword: 'vender recursos Gumroad',
     secondaryKeywords: [
       'cómo vender en Gumroad',
-      'crear recursos Gumroad para vendedores',
-      'guía de vendedor Gumroad para fichas imprimibles',
+      `crear recursos Gumroad para vendedores`,
+      `guía de vendedor Gumroad para fichas imprimibles`,
       'configurar tienda Gumroad',
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `algoritmo búsqueda Gumroad etiquetas título descripción visibilidad posicionamiento`,
       `paquete fichas unidad de productos packs actividades estrategia precios`,
     ],
-    titleTag: 'Crear y vender recursos Gumroad — Guía',
+    titleTag: `Crear y vender recursos Gumroad — Guía`,
     metaDescription: `Cómo crear y vender recursos Gumroad. Configuración de cuenta, formateo de recursos, optimización de anuncios, precios y cómo construir impulso en Gumroad.`,
   },
 
   hero: {
-    title: 'Cómo crear y vender recursos en Gumroad',
+    title: `Cómo crear y vender recursos en Gumroad`,
     tagline: `Una guía completa para vender recursos educativos en Gumroad — incluyendo configuración de cuenta y tienda, creación de recursos listos para Gumroad con formateo adecuado, empaquetado de archivos para subida, escritura de anuncios que posicionen en búsquedas de vendedores, creación de vistas previas y miniaturas efectivas, estrategia de precios para el marketplace educativo, y lanzamiento de tus primeros recursos para construir impulso de tienda e ingresos consistentes`,
     description: `Gumroad (Gumroad) es un marketplace de vendedor a comprador donde los vendedores compran y venden recursos educativos originales. A diferencia de marketplaces generales como Etsy o plataformas de impresión bajo demanda como Amazon KDP, cada comprador en Gumroad es un emprendedor buscando activamente materiales listos para vender. Esto crea una audiencia excepcionalmente segmentada con necesidades específicas: contenido alineado con estándares, actividades apropiadas para el nivel de grado, y recursos que funcionen en tiendas reales con preparación mínima. Esta guía te acompaña en todo el recorrido desde configurar tu cuenta de vendedor Gumroad hasta publicar tus primeros recursos y construir el impulso que convierte una tienda nueva en una fuente de ingresos consistente.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Gumroad es un marketplace de vendedor a comprador donde los vendedores crean, comparten y venden recursos educativos originales. Fundado en 2006 por un vendedor de Nueva York, Gumroad ha crecido hasta convertirse en el marketplace más grande específicamente para productos imprimibles. La plataforma alberga millones de recursos en cada asignatura, nivel de grado y tipo de recurso, y la base de compradores consiste casi enteramente en emprendedores — vendedores del mercado, profesionales de educación especial, coordinadores de catálogo de productos, centros de tutoría y emprendedores.\n\nEsta audiencia centrada en emprendedores es lo que hace Gumroad fundamentalmente diferente de los marketplaces generales. Cuando publicas una ficha de matemáticas en Etsy, compite con decoración del hogar, materiales de manualidades y miles de productos no educativos por la atención del comprador. Cuando publicas la misma ficha en Gumroad, cada persona que navega la plataforma está buscando productos imprimibles. La intención de búsqueda es precisa: los vendedores buscan «fichas de sumas de primer grado con reagrupación» o «actividades de palabras frecuentes de jardín de infantes», y esperan resultados que coincidan con sus necesidades exactas del mercado.\n\nGumroad opera con un modelo basado en comisiones con dos niveles de vendedor. El plan Básico no cuesta nada para unirse y da a los vendedores el 45 % de cada precio de venta, con Gumroad llevándose el 55 % como comisión. El plan Premium cuesta $59,95 al año y aumenta la parte del vendedor al 80 %, con Gumroad llevándose solo el 20 %. Las cuentas son directas: si vendes un recurso de $5 en el plan Básico, ganas $2,25. En el plan Premium, ganas $4,00. El plan Premium se amortiza después de aproximadamente $150 en ventas totales, lo que la mayoría de vendedores activos alcanzan en sus primeros meses. El pago se emite mensualmente por las ganancias del mes anterior, con un umbral mínimo antes de tu primer pago.\n\nLa plataforma proporciona herramientas específicamente diseñadas para contenido imprimible: etiquetado de alineación con estándares, filtrado por nivel de grado, categorización por asignatura, clasificación por tipo de recurso, y un sistema de vista previa que permite a los compradores examinar páginas de ejemplo antes de comprar. Estas no son funciones genéricas de marketplace — están construidas alrededor de cómo los vendedores realmente descubren y evalúan materiales para venta en línea. Comprender y usar estas funciones correctamente es lo que separa las tiendas de Gumroad que generan ventas consistentes de aquellas que languidecen con cero visibilidad.`,
     },
     {
-      heading: 'Configura tu cuenta de vendedor y tienda Gumroad',
+      heading: `Configura tu cuenta de vendedor y tienda Gumroad`,
       content: `Crear una cuenta de vendedor Gumroad empieza en el sitio web de Gumroad donde te registras como vendedor. Necesitas una dirección de correo válida, un nombre de tienda e información básica de perfil. Elige tu nombre de tienda cuidadosamente — se convierte en tu identidad de marca en la plataforma y aparece en cada recurso que vendes. Los nombres efectivos de tiendas Gumroad son profesionales, memorables y a menudo sugieren tu especialidad de productos o enfoque de grado. Evita nombres excesivamente genéricos que se mezclan con miles de otras tiendas, y evita nombres que limiten tu expansión futura (llamarte «Tienda de mates de primero» te restringe si luego creas recursos para otros grados o asignaturas).\n\nTu perfil de tienda es tu primera impresión con compradores potenciales. Escribe una descripción clara y profesional que establezca tus credenciales profesionales y enfoque de contenido. Los vendedores que compran en Gumroad quieren saber que están comprando a alguien que entiende las necesidades del mercado. Si tienes experiencia en el mercado, menciónala. Si te especializas en un rango de grado o área temática particular, déjalo claro. Incluye qué tipos de recursos pueden esperar los compradores de tu tienda y qué hace tus materiales efectivos para el uso comercial.\n\nConfigura las políticas de tu tienda, incluyendo tus términos de uso para los recursos comprados. La mayoría de vendedores de Gumroad incluyen una página estándar de términos de uso en cada descarga que especifica que el recurso es para uso en una sola tienda por el comprador, prohíbe la redistribución o reventa, y explica la diferencia entre licencias de usuario único y de centro. Esto protege tu propiedad intelectual mientras establece expectativas claras para los compradores.\n\nConfigura tu información de pago para recibir pagos mensuales. Gumroad procesa los pagos mensualmente por las ganancias del mes anterior. Verifica que tus datos de pago sean correctos antes de empezar a vender — los problemas de pago son más fáciles de prevenir que de resolver después de que las ventas se hayan acumulado. Si esperas ganar más de $150 al año en ventas (lo cual es probable si te comprometes a construir tu tienda), actualiza al plan Premium inmediatamente. Cada venta en el plan Básico te cuesta un 35 % más en comisiones comparado con el plan Premium, y esos ingresos perdidos se acumulan rápidamente una vez que tu tienda gana tracción.`,
     },
     {
-      heading: 'Crea recursos educativos listos para Gumroad',
+      heading: `Crea recursos educativos listos para Gumroad`,
       content: `Los recursos que se venden consistentemente en Gumroad comparten características específicas que los distinguen de las fichas imprimibles genéricas. Los compradores de Gumroad son emprendedores evaluando tu recurso con una mirada profesional: ¿Funcionará esto en mi tienda? ¿Se alinea con lo que estoy enseñando? ¿Puedo usarlo con preparación mínima? Tus recursos deben responder «sí» a las tres preguntas.\n\nEmpieza con objetivos de aprendizaje claros. Cada recurso de Gumroad debería apuntar a una habilidad o concepto específico que los vendedores están enseñando activamente. «Práctica de sumas» es demasiado vago. «Sumas de dos dígitos con reagrupación para primer grado» apunta a una habilidad específica a un nivel de grado específico que los vendedores están buscando. Cuanto más precisamente tu recurso apunte a una necesidad de productos real, más probable es que los vendedores lo compren. Usa los generadores de fichas para crear contenido alineado con habilidades específicas — el generador de sumas, por ejemplo, te permite configurar rangos de números exactos, tipos de operación y niveles de dificultad que coincidan con los estándares de nivel de grado.\n\nFormatea tus recursos con consistencia profesional. Cada recurso de Gumroad debería incluir: una portada con el título del recurso, nivel de grado, asignatura y marca de tu tienda; un índice para recursos de varias páginas; instrucciones claras para los usuarios en cada página de actividad; una clave de respuestas para todas las fichas y actividades; y una página de términos de uso. Los generadores de fichas producen contenido a 300 DPI de calidad de impresión con formateo limpio y profesional que cumple las expectativas de los compradores de Gumroad. Exporta tus fichas generadas como PDFs, luego compílalas con tu portada y páginas complementarias en un paquete de recurso completo.\n\nIncluye notas de uso que expliquen cómo usar el recurso en un entorno comercial. Una sección de una página «Cómo usar este recurso» al principio aumenta dramáticamente el valor percibido y la utilidad práctica. Sugiere ideas de implementación: usar como trabajo matutino, centros de matemáticas, deberes, actividades para los que terminan temprano o herramientas de evaluación. Los vendedores aprecian los recursos que vienen con sugerencias de implementación porque reduce su tiempo de producción — que es la razón principal por la que compran recursos en Gumroad.\n\nConsidera opciones de diferenciación dentro de un solo recurso. Incluir una versión más fácil y una más desafiante de la misma actividad permite a los vendedores usar tu recurso con usuarios en diferentes niveles. Este enfoque multinivel aumenta el valor percibido del recurso y lo hace útil para una gama más amplia del mercados, lo que se traduce en mayor atractivo y más ventas.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `Tu miniatura de producto es lo que los vendedores ven en los resultados de búsqueda, y determina si hacen clic en tu anuncio o pasan de largo. Los resultados de búsqueda de Gumroad muestran las miniaturas como el elemento visual principal junto al título y el precio. Una miniatura profesional y clara que comunique inmediatamente qué es el recurso y a qué nivel de grado se dirige aumenta dramáticamente tu tasa de clics desde los resultados de búsqueda.\n\nDiseña miniaturas que sean visualmente limpias y legibles a tamaños pequeños. Incluye el título del recurso, nivel de grado y una vista previa visual de una página de actividad. Usa marca consistente (colores, fuentes, diseño) en todas tus miniaturas para que tus recursos sean reconocibles como un conjunto cuando aparecen juntos en los resultados de búsqueda. Evita miniaturas recargadas con demasiado texto o demasiados elementos visuales — a tamaño miniatura, los diseños ocupados se convierten en manchas ilegibles que los vendedores saltan.\n\nLa vista previa del producto es tu herramienta de conversión más poderosa en Gumroad. Los vendedores en esta plataforma son evaluadores especialmente exhaustivos — quieren ver exactamente lo que están comprando antes de comprometer su presupuesto del mercado. Tu PDF de vista previa debería mostrar la calidad y el alcance de tu recurso sin regalar el producto completo. Incluye tu portada, una muestra de una o dos páginas de actividad que demuestren la calidad y el formato, una página que liste todo lo incluido en el recurso completo, y opcionalmente una página mostrando el formato de la clave de respuestas.\n\nMarca de agua tus páginas de vista previa si quieres evitar que sean usadas sin compra, pero mantén la marca de agua lo suficientemente sutil para que los vendedores aún puedan evaluar la calidad del contenido. Una marca de agua diagonal «VISTA PREVIA» al 20 a 30 por ciento de opacidad permite a los vendedores leer el contenido dejando claro que este no es el producto final. Algunos vendedores eligen no poner marca de agua en las vistas previas, razonando que los vendedores que usan páginas de vista previa gratuitas difícilmente habrían sido clientes de pago de todos modos, y una vista previa limpia convierte mejor que una con marca de agua.\n\nActualiza tus vistas previas cuando actualices tus recursos. Si mejoras el formateo, añades páginas o refinas el contenido de un recurso, actualiza la vista previa para reflejar la versión actual. Las vistas previas desactualizadas que no coinciden con la descarga real llevan a compradores decepcionados y reseñas negativas. Trata tu vista previa como un documento de ventas vivo que siempre represente el estado actual de tu recurso con precisión.`,
     },
     {
-      heading: 'Fija precios de recursos Gumroad para tu mercado',
+      heading: `Fija precios de recursos Gumroad para tu mercado`,
       content: `Los precios en Gumroad requieren entender lo que los vendedores esperan pagar por diferentes tipos de recursos. Investiga recursos comparables en tu nivel de grado y área temática antes de fijar precios. Navega los resultados de búsqueda de Gumroad para tus palabras clave objetivo y anota el rango de precios de recursos con indicadores fuertes de ventas (altas calificaciones, muchas reseñas). Esto te da una imagen realista de lo que el mercado soporta.\n\nLos rangos comunes de precios en Gumroad por tipo de recurso siguen patrones predecibles. Las fichas individuales y actividades de una página típicamente se venden a $1 a $3. Los paquetes de fichas de 5 a 15 páginas con un tema o habilidad consistente se venden a $3 a $6. Los paquetes de actividades que contienen de 15 a 30 páginas de actividades variadas sobre un tema se venden a $6 a $12. Las unidades de productoses completas con 30 o más páginas de lecciones, actividades, evaluaciones y guías para el vendedor se venden a $12 a $25. Estos rangos no son reglas rígidas pero reflejan expectativas de comprador establecidas en Gumroad. Fijar precios significativamente fuera de estos rangos — ya sea demasiado alto o demasiado bajo — puede reducir las ventas.\n\nEvita fijar precios demasiado bajos para tus recursos. Los nuevos vendedores de Gumroad a menudo fijan precios demasiado bajos esperando atraer compradores con ofertas. Esto es contraproducente por dos razones. Primero, los precios muy bajos ($0,50 a $1,00 para recursos de varias páginas) señalan baja calidad a los compradores experimentados de Gumroad que asocian el precio con el valor de producción. Segundo, los precios bajos reducen tus ingresos por venta al punto donde incluso un fuerte volumen de ventas produce ingresos mínimos, especialmente en el plan Básico donde Gumroad se lleva el 55 %. Un paquete de fichas de 10 páginas a $1 en el plan Básico te genera $0,45 por venta. El mismo paquete a $4 en el plan Premium te genera $3,20 por venta — más de siete veces los ingresos por transacción.\n\nGumroad ofrece una función de paquetes personalizados que permite a los compradores seleccionar múltiples recursos de tu tienda con un descuento. Esto fomenta compras más grandes ofreciendo precios por volumen. Tú estableces el porcentaje de descuento (típicamente del 15 al 25 por ciento sobre los precios individuales combinados), y los compradores pueden mezclar y combinar cualquiera de tus recursos en un paquete personalizado. Esta función recompensa a los clientes recurrentes y aumenta tu valor medio de pedido sin requerir que crees anuncios de paquetes separados.\n\nConsidera ofrecer algunos recursos como prueba gratis con marca de agua para construir la credibilidad de tu tienda y atraer tráfico inicial. Gumroad tiene una gran sección de recursos sin coste que genera descargas significativas. Los vendedores que descubren tu tienda a través de un recurso de prueba gratis con marca de agua de alta calidad y les gusta lo que ven a menudo vuelven para comprar tus recursos de pago. Esta es una estrategia probada de adquisición de clientes en Gumroad — usa tu mejor trabajo como tu oferta de prueba gratis con marca de agua, no tu trabajo más débil.`,
     },
     {
-      heading: 'Lanza tus primeros recursos y construye impulso',
+      heading: `Lanza tus primeros recursos y construye impulso`,
       content: `Tu estrategia de lanzamiento en Gumroad debería centrarse en construir un catálogo mínimo viable antes de esperar ventas consistentes. Un solo anuncio de recurso, por muy excelente que sea, genera visibilidad limitada porque el algoritmo de búsqueda de Gumroad y las funciones de navegación favorecen a las tiendas con múltiples recursos. Apunta a publicar tus primeros 5 a 10 recursos antes de evaluar el rendimiento de tu tienda. Esto le da al algoritmo suficiente contenido para mostrar tu tienda en resultados de búsqueda variados y da a los vendedores visitantes suficientes opciones para encontrar algo que coincida con sus necesidades específicas.\n\nElige tus recursos iniciales estratégicamente. Empieza con tu contenido de mayor calidad en un área temática de alta demanda. Las fichas de matemáticas, las actividades de lectoescritura y los recursos de ciencias consistentemente se clasifican entre las categorías más buscadas en Gumroad. Usa los generadores de fichas para crear recursos de calidad profesional eficientemente — los generadores de sumas, sopas de letras, asociación y páginas para colorear producen tipos de contenido que tienen demanda constante de los vendedores de Gumroad. Exporta a 300 DPI para resultados de calidad de impresión y compila en paquetes de recursos correctamente formateados.\n\nPromociona tus recursos a través de las funciones sociales integradas de Gumroad. Gumroad tiene un sistema de seguidores donde los vendedores pueden seguir tu tienda y recibir notificaciones cuando publiques nuevos recursos. Anima a los compradores a seguir tu tienda incluyendo un recordatorio «Sigue mi tienda» en tus archivos de recurso. Los vendedores que siguen tu tienda ven tus nuevos recursos en su feed de Gumroad, creando un canal promocional integrado que crece a medida que tu base de clientes se expande.\n\nResponde a las preguntas y retroalimentación de los compradores de forma rápida y profesional. Los compradores de Gumroad pueden hacer preguntas en las páginas de anuncios de tus productos y dejar reseñas después de comprar. La comunicación receptiva y útil construye la reputación de tu tienda y señala a los compradores potenciales que eres un vendedor fiable. Cuando recibas retroalimentación constructiva sobre un recurso, úsala para mejorar el producto y actualizar el anuncio — los vendedores notan y aprecian a los vendedores que refinan activamente sus recursos basándose en retroalimentación del mercado.\n\nEl algoritmo de búsqueda de Gumroad recompensa la consistencia. Las tiendas que publican nuevos recursos regularmente mantienen mayor visibilidad en búsquedas que las tiendas que suben un lote de recursos y luego se quedan inactivas. Establece una cadencia de publicación sostenible — ya sea un recurso nuevo por semana o dos al mes — y mantenla. Cada nuevo recurso le da a tu tienda nueva consideración del algoritmo de búsqueda y da a los seguidores existentes una razón para volver a tu tienda. Los generadores de fichas hacen esta cadencia alcanzable reduciendo el tiempo requerido para crear cada nuevo recurso, permitiéndote enfocar tu esfuerzo en el empaquetado, la optimización del anuncio y la creación de vistas previas en lugar del diseño de contenido desde cero.`,
     },
   ],
@@ -107,11 +107,11 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: '¿Cuánto cuesta empezar a vender en Gumroad?',
+      question: `¿Cuánto cuesta empezar a vender en Gumroad?`,
       answer: `Crear una cuenta de vendedor Gumroad no cuesta nada. El plan de vendedor Básico no tiene costes iniciales — Gumroad se lleva el 55 % de cada venta como comisión. El plan Premium cuesta $59,95 al año y reduce la comisión de Gumroad al 20 %, lo que significa que te quedas con el 80 % de cada venta. El plan Premium se amortiza después de aproximadamente $150 en ventas totales. La mayoría de vendedores que planean construir activamente su tienda encuentran que el plan Premium vale la pena desde el principio porque los mayores ingresos por venta se acumulan con cada transacción. No hay tarifas de anuncio, tarifas de subida por producto ni costes más allá de la suscripción opcional Premium.`,
     },
     {
-      question: '¿Qué tipos de recursos se venden en Gumroad?',
+      question: `¿Qué tipos de recursos se venden en Gumroad?`,
       answer: `Gumroad admite virtualmente cada tipo de recurso educativo: fichas, paquetes de actividades, planes de lección, evaluaciones, cuadernos interactivos, tarjetas de tareas, juegos, materiales de tablón de anuncios, decoración del mercado y unidades de productoses. Entre los recursos imprimibles, las fichas de matemáticas, las actividades de lectoescritura, los recursos de ciencias y los paquetes de actividades estacionales consistentemente se clasifican entre las categorías más compradas. Los recursos que incluyen objetivos de aprendizaje claros, alineación con estándares, claves de respuestas y notas de implementación para el vendedor se venden mejor que las fichas independientes sin contexto. Los generadores de fichas crean contenido en varias de estas categorías de alta demanda incluyendo fichas de matemáticas, sopas de letras, actividades de asociación y páginas para colorear.`,
     },
     {
@@ -144,11 +144,11 @@ const content: GuideContent = {
     },
     {
       slug: 'kdp-o-etsy-imprimibles',
-      title: 'Amazon KDP o Etsy: Dónde vender imprimibles',
+      title: `Amazon KDP o Etsy: Dónde vender imprimibles`,
       description: `Comparación directa de las otras dos plataformas principales para vendedores de imprimibles. Estructuras de comisiones, formatos de producto, mecánicas de tráfico y estrategia multiplataforma.`,
     },
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía completa para iniciar un negocio de imprimibles`,
       description: `La guía fundamental de negocio que cubre creación de contenido, licencias comerciales, estrategia multiplataforma y construcción de un negocio de imprimibles sostenible desde cero.`,
     },
@@ -156,16 +156,16 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'optimizacion-tienda-tpt', anchorText: `Guía de configuración y optimización de tienda Gumroad` },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'Amazon KDP o Etsy: Dónde vender imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: 'Cómo crear paquetes de fichas Etsy' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Cómo fijar precios de tus imprimibles Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para imprimibles educativos' },
-    { pageType: 'guide', slug: 'libros-actividades-matematicas-kdp', anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
-    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de sumas para niños' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: `Amazon KDP o Etsy: Dónde vender imprimibles` },
+    { pageType: 'guide', slug: 'crear-paquetes-fichas-etsy', anchorText: `Cómo crear paquetes de fichas Etsy` },
+    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: `Cómo fijar precios de tus imprimibles Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para imprimibles educativos` },
+    { pageType: 'guide', slug: `libros-actividades-matematicas-kdp`, anchorText: `Cómo crear libros de actividades de matemáticas para Amazon KDP` },
+    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: `Cómo crear fichas de sumas para niños` },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
@@ -182,33 +182,33 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de asociación',
+      title: `Generador de fichas de asociación`,
       description: `Crea actividades de asociación versátiles para múltiples asignaturas y niveles de grado. Un tipo de actividad del mercado fundamental que los vendedores de Gumroad buscan en todas las áreas temáticas.`,
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Produce actividades de colorear atractivas populares para centros, actividades para los que terminan temprano y uso complementario en línea. Tipo de recurso de alta demanda en Gumroad para emprendedores de primaria.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Recurso de fichas de sumas adecuado para vender en el marketplace Gumroad` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Recurso de fichas de sumas adecuado para vender en el marketplace Gumroad` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de sumas de matemáticas para recurso del mercado Gumroad`, caption: 'Las fichas de matemáticas están entre los tipos de recursos más buscados en Gumroad — los vendedores necesitan práctica alineada con estándares para cada habilidad' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Actividad de sopa de letras para anuncio de tienda Gumroad`, caption: 'Las sopas de letras funcionan en todos los niveles de grado en Gumroad como constructores de vocabulario, actividades de centros y trabajo para los que terminan temprano' },
-      { src: `/samples/spanish/matching/Encuentra Parejas 2.webp`, alt: 'Ficha de actividad de asociación para emprendedores Gumroad', caption: 'Las actividades de asociación son recursos Gumroad versátiles que los vendedores usan para evaluación, práctica y repaso en múltiples asignaturas' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de sumas de matemáticas para recurso del mercado Gumroad`, caption: `Las fichas de matemáticas están entre los tipos de recursos más buscados en Gumroad — los vendedores necesitan práctica alineada con estándares para cada habilidad` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Actividad de sopa de letras para anuncio de tienda Gumroad`, caption: `Las sopas de letras funcionan en todos los niveles de grado en Gumroad como constructores de vocabulario, actividades de centros y trabajo para los que terminan temprano` },
+      { src: `/samples/spanish/matching/Encuentra Parejas 2.webp`, alt: `Ficha de actividad de asociación para emprendedores Gumroad`, caption: `Las actividades de asociación son recursos Gumroad versátiles que los vendedores usan para evaluación, práctica y repaso en múltiples asignaturas` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Cómo crear fichas educativas para Gumroad — Tutorial paso a paso`,
   },
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
   ],
 };
 

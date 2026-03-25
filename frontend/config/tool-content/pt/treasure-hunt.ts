@@ -14,21 +14,21 @@ const content: ToolContent = {
       `pistas direcionais localizadas 11 idiomas conteúdo imagens sensível`,
       `gabarito célula tesouro realçada sistema duplo canvas criador`,
     ],
-    titleTag: 'Gerador Caça ao Tesouro — Fichas para Vender',
+    titleTag: `Gerador Caça ao Tesouro — Fichas para Vender`,
     metaDescription: `Crie fichas de caça ao tesouro em grelha 5×5 com dois tipos de direção, pistas localizadas em 11 idiomas, gabarito automático e 104 temas. Teste grátis.`,
   },
 
   hero: {
-    title: 'Gerador de Fichas de Caça ao Tesouro',
+    title: `Gerador de Fichas de Caça ao Tesouro`,
     tagline: `Gerador de fichas de caça ao tesouro com procura de caminhos numa grelha fixa de coordenadas 5×5 (linhas A–E, colunas 1–5), dois tipos de direção (Básico: cima/baixo/esquerda/direita para pré-escolar até 1.º ano, e Cardinal: norte/sul/este/oeste para 2.º ano em diante), 6 imagens temáticas como pontos de referência, exatamente 4 movimentos direcionais por puzzle, gabarito autogerado com célula do tesouro realçada em amarelo pálido mediante sistema de duplo canvas, pistas direcionais completamente localizadas em 11 idiomas, e cabeçalho temático de tesouro verde-azulado (#2C8C7C) com título dourado em Fredoka em 104 coleções temáticas de imagens`,
-    description: `Crie fichas profissionais de caça ao tesouro onde os usuários seguem pistas direcionais sequenciais para localizar o tesouro escondido numa grelha de coordenadas 5×5 etiquetada com linhas de letras (A–E) e colunas de números (1–5). Cada puzzle distribui 6 imagens temáticas pela grelha como pontos de referência visuais, depois gera uma posição de início e exatamente 4 movimentos direcionais que conduzem à célula do tesouro. A ficha mostra 5 linhas de instruções: «Começa em [célula]» seguido de 4 pistas «Move-te [direção] [número] casa(s)», terminando com «Onde está o tesouro?» Escolha entre dois tipos de direção que servem diferentes grupos etários e objetivos de aprendizagem. O modo Básico usa cima, baixo, esquerda e direita — palavras direcionais familiares ideais para aprendizes de pré-escolar até 1.º ano que constroem vocabulário espacial fundamental. O modo Cardinal usa norte, sul, este e oeste — direções de bússola adequadas para 2.º ano em diante, introduzindo competências de leitura de mapas e orientação geográfica. Ambos os tipos de direção produzem a mesma estrutura de puzzle de 4 movimentos na mesma grelha 5×5, permitindo-lhe criar conjuntos de dificuldade progressiva dentro de um só pacote. O Gerador de Caça ao Tesouro é sensível ao idioma de duas formas: o texto das pistas direcionais e o conteúdo das imagens mudam quando altera o idioma. Todas as direções estão completamente traduzidas para os 11 idiomas suportados — «Começa em», «Move-te», «casa(s)» e «Onde está o tesouro?» são localizados juntamente com o vocabulário de direções Básicas e Cardinais. Isto produz fichas de caça ao tesouro autênticas no idioma nativo, não puzzles em inglês com cabeçalhos traduzidos. O sistema de duplo canvas gera tanto um separador de Ficha como um separador de Gabarito. O gabarito reproduz o layout exato do puzzle e realça a célula final do tesouro em amarelo pálido (rgba(255, 250, 205, 0.8)) com um traço cinzento escuro — sem necessidade de marcação manual. Cada puzzle inclui um cabeçalho temático de tesouro autogerado com fundo verde-azulado (#2C8C7C), moldura exterior âmbar (#D4A574), moldura interior bege areia (#F4E4C1) e título dourado (#D4A017) em fonte Fredoka (peso 700, tamanho adaptável 36–48 px). A descrição é renderizada em castanho escuro (#5C4033) em Quicksand (peso 500). O modo vertical mostra um cabeçalho completo (100 px de altura); o modo horizontal usa um layout compacto (70 px de altura). O texto do cabeçalho é traduzido automaticamente para os 11 idiomas — «Caça ao Tesouro» e «Segue as pistas e encontra o tesouro!» no idioma selecionado. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas mediante três métodos de entrada: Gerar a partir do Tema (autoseleciona 6), Seleção Manual de Imagens (explorar e clicar) e Carregar Imagens Personalizadas (JPEG/PNG/GIF/WebP). Aplique temas de fundo e temas de moldura com controlos de opacidade independentes (0–1, passo 0,05). Exporte PDF prontos para impressão (multiplicador 3×) e JPEG (multiplicador 6×) a 300 DPI em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. O teste grátis inclui todas as funcionalidades com uma marca d'água nos downloads. Adquira uma licença para remover a marca d'água e vender comercialmente.`,
+    description: `Crie fichas profissionais de caça ao tesouro onde os usuários seguem pistas direcionais sequenciais para localizar o tesouro escondido numa grelha de coordenadas 5×5 etiquetada com linhas de letras (A–E) e colunas de números (1–5). Cada puzzle distribui 6 imagens temáticas pela grelha como pontos de referência visuais, depois gera uma posição de início e exatamente 4 movimentos direcionais que conduzem à célula do tesouro. A ficha mostra 5 linhas de instruções: «Começa em [célula]» seguido de 4 pistas «Move-te [direção] [número] casa(s)», terminando com «Onde está o tesouro?» Escolha entre dois tipos de direção que servem diferentes grupos etários e objetivos de aprendizagem. O modo Básico usa cima, baixo, esquerda e direita — palavras direcionais familiares ideais para aprendizes de pré-escolar até 1.º ano que constroem vocabulário espacial fundamental. O modo Cardinal usa norte, sul, este e oeste — direções de bússola adequadas para 2.º ano em diante, introduzindo competências de leitura de mapas e orientação geográfica. Ambos os tipos de direção produzem a mesma estrutura de puzzle de 4 movimentos na mesma grelha 5×5, permitindo-lhe criar conjuntos de dificuldade progressiva dentro de um só pacote. O Gerador de Caça ao Tesouro é sensível ao idioma de duas formas: o texto das pistas direcionais e o conteúdo das imagens mudam quando altera o idioma. Todas as direções estão completamente traduzidas para os 11 idiomas suportados — «Começa em», «Move-te», «casa(s)» e «Onde está o tesouro?» são localizados juntamente com o vocabulário de direções Básicas e Cardinais. Isto produz fichas de caça ao tesouro autênticas no idioma nativo, não puzzles em inglês com cabeçalhos traduzidos. O sistema de duplo canvas gera tanto um separador de Ficha como um separador de Gabarito. O gabarito reproduz o layout exato do puzzle e realça a célula final do tesouro em amarelo pálido (rgba(255, 250, 205, 0.8)) com um traço cinzento escuro — sem necessidade de marcação manual. Cada puzzle inclui um cabeçalho temático de tesouro autogerado com fundo verde-azulado (#2C8C7C), moldura exterior âmbar (#D4A574), moldura interior bege areia (#F4E4C1) e título dourado (#D4A017) em fonte Fredoka (peso 700, tamanho adaptável 36–48 px). A descrição é renderizada em castanho escuro (#5C4033) em Quicksand (peso 500). O modo vertical mostra um cabeçalho completo (100 px de altura); o modo horizontal usa um layout compacto (70 px de altura). O texto do cabeçalho é traduzido automaticamente para os 11 idiomas — «Caça ao Tesouro» e «Segue as pistas e encontra o tesouro!» no idioma selecionado. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue imagens personalizadas mediante três métodos de entrada: Gerar a partir do Tema (autoseleciona 6), Seleção Manual de Imagens (explorar e clicar) e Carregar Imagens Personalizadas (JPEG/PNG/GIF/WebP). Aplique temas de fundo e temas de moldura com controlos de opacidade independentes (0–1, passo 0,05). Exporte PDF prontos para impressão (multiplicador 3×) e JPEG (multiplicador 6×) a 300 DPI em Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou dimensões personalizadas. Ative escala de cinzentos para impressão que poupa tinta. O teste grátis inclui todas as funcionalidades com uma marca d`água nos downloads. Adquira uma licença para remover a marca d`água e vender comercialmente.`,
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Caça ao Tesouro em 8 Passos',
+    title: `Como Criar Fichas de Caça ao Tesouro em 8 Passos`,
     steps: [
       {
-        title: 'Abra o Gerador de Caça ao Tesouro',
+        title: `Abra o Gerador de Caça ao Tesouro`,
         description: `Clique em «Teste Grátis Agora» para abrir o gerador de fichas de caça ao tesouro no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de definições à esquerda e um canvas com dois separadores à direita — um separador para a ficha de caça ao tesouro e outro para o gabarito. Sem necessidade de criar conta, descarregar software nem instalar nada — comece a criar puzzles de caça ao tesouro imediatamente.`,
       },
       {
@@ -40,15 +40,15 @@ const content: ToolContent = {
         description: `Alterne entre dois vocabulários de direção no painel de Configuração do Puzzle. O modo Básico usa cima, baixo, esquerda e direita — palavras direcionais familiares ideais para aprendizes de pré-escolar até 1.º ano que constroem vocabulário espacial fundamental. O modo Cardinal usa norte, sul, este e oeste — direções de bússola adequadas para 2.º ano em diante, introduzindo competências de leitura de mapas e orientação geográfica. Ambos os tipos de direção geram a mesma estrutura de puzzle de 4 movimentos na mesma grelha 5×5, pelo que pode criar conjuntos de dificuldade progressiva começando com Básico e avançando para Cardinal.`,
       },
       {
-        title: 'Selecione o Idioma do Conteúdo',
+        title: `Selecione o Idioma do Conteúdo`,
         description: `Escolha o idioma do conteúdo para controlar o texto das pistas direcionais que aparece na ficha. O Gerador de Caça ao Tesouro é sensível ao idioma — todas as direções estão completamente traduzidas para os 11 idiomas suportados. «Começa em», «Move-te», «casa(s)» e «Onde está o tesouro?» são localizados juntamente com o vocabulário de direções Básicas e Cardinais. O conteúdo de imagens também se atualiza conforme o idioma selecionado. O nível Comercial inclui conteúdo em inglês; o Acesso Completo desbloqueia os 11 idiomas para fichas de caça ao tesouro autênticas no idioma nativo que pode vender em mercados internacionais.`,
       },
       {
-        title: 'Selecione Imagens para a Grelha 5×5',
+        title: `Selecione Imagens para a Grelha 5×5`,
         description: `Escolha como preencher a grelha de coordenadas com 6 imagens temáticas de pontos de referência usando um de três métodos de entrada. Gerar a partir do Tema (predefinido) autoseleciona 6 imagens aleatórias do tema escolhido e distribui-as pela grelha — o caminho mais rápido para um puzzle concluído. Seleção Manual de Imagens permite-lhe explorar 104 coleções temáticas com mais de 3100 ilustrações coloridas — animais, comida, veículos, natureza, festividades, profissões, desportos, estações e dezenas mais — e clicar para selecionar exatamente 6 imagens. Carregar Imagens Personalizadas permite-lhe adicionar os seus próprios ficheiros JPEG, PNG, GIF ou WebP junto ao conteúdo da biblioteca.`,
       },
       {
-        title: 'Gere o Puzzle de Caça ao Tesouro',
+        title: `Gere o Puzzle de Caça ao Tesouro`,
         description: `Clique em Gerar para criar o puzzle de procura de caminhos na grelha de coordenadas 5×5 (linhas A–E, colunas 1–5). O gerador distribui as suas 6 imagens selecionadas pelas 25 células como pontos de referência visuais, escolhe uma célula de início aleatória e cria exatamente 4 movimentos direcionais que permanecem dentro dos limites da grelha. A ficha mostra 5 linhas de instruções: «Começa em [célula]» seguido de 4 pistas «Move-te [direção] [número] casa(s)», terminando com «Onde está o tesouro?» Um cabeçalho temático de tesouro aparece no topo com fundo verde-azulado (#2C8C7C), título dourado (#D4A017) em Fredoka e descrição em castanho escuro (#5C4033) em Quicksand. Clique em Gerar novamente para produzir um novo puzzle com diferente distribuição aleatória de imagens, posição de início e sequência de movimentos.`,
       },
       {
@@ -56,7 +56,7 @@ const content: ToolContent = {
         description: `Clique no separador Gabarito para ver a solução com a célula final do tesouro realçada em amarelo pálido (rgba(255, 250, 205, 0.8)) e um traço cinzento escuro. O gabarito reproduz o layout exato do puzzle — a mesma grelha, as mesmas imagens distribuídas, o mesmo cabeçalho — e marca o destino do tesouro claramente. Sem marcação manual, sem criação de ficheiros separados, sem possibilidade de soluções que não coincidam. Alterne entre os separadores Ficha e Gabarito para comparar. O gabarito é gerado simultaneamente com o puzzle, pelo que cada caça ao tesouro que cria vem com a sua página de solução pronta a imprimir.`,
       },
       {
-        title: 'Descarregue os Quatro Ficheiros',
+        title: `Descarregue os Quatro Ficheiros`,
         description: `Ative a escala de cinzentos para versões que poupam tinta, ideais para impressão em volume e interiores de KDP. Descarregue os quatro ficheiros de uma só sessão: JPEG de ficha, JPEG de gabarito, PDF de ficha e PDF de gabarito — todos renderizados a 300 DPI (multiplicador JPEG 6×, multiplicador PDF 3×). Cada separador tem o seu próprio par de botões de descarga no menu suspenso. Todas as exportações estão prontas para produção em listagens da Etsy, interiores de Amazon KDP e ficheiros de produtos Gumroad sem necessidade de pós-processamento. Mude temas, idiomas e tipos de direção, depois gere novamente para criação rápida de variedade nas 104 coleções temáticas.`,
       },
     ],
@@ -68,7 +68,7 @@ const content: ToolContent = {
       description: `Crie pacotes de caça ao tesouro organizados por tema usando as 104 coleções de imagens — caças ao tesouro de animais, do oceano, do espaço, de dinossauros, de festividades e dezenas mais. Gerar a partir do Tema autoseleciona 6 imagens aleatórias e cria posições de início e sequências de movimento únicas por geração, pelo que cada clique produz um puzzle completamente diferente do mesmo tema. Empacote 10–20 fichas de caça ao tesouro por tema com gabaritos autogerados incluídos. Misture tipos de direção Básico e Cardinal dentro de cada pacote para dificuldade progressiva que cresce com o aprendiz.`,
     },
     {
-      title: 'Cadernos Progressivos de Competências Direcionais',
+      title: `Cadernos Progressivos de Competências Direcionais`,
       description: `Construa cadernos estruturados que ensinam vocabulário direcional através de puzzles de caça ao tesouro. Comece com fichas de direção Básica (cima, baixo, esquerda, direita) para vocabulário espacial fundamental, depois avance para fichas de direção Cardinal (norte, sul, este, oeste) para preparação em leitura de bússola. A mesma grelha 5×5 e o formato de puzzle de 4 movimentos mantêm-se consistentes em ambos os tipos de direção, para que os usuários construam sobre mecânicas familiares enquanto aprendem novo vocabulário direcional. Organize os capítulos por tipo de direção e tema para um catálogo de produtos completo de competências direcionais que pais e vendedores valorizam.`,
     },
     {
@@ -80,7 +80,7 @@ const content: ToolContent = {
       description: `Compile 40–80 fichas de caça ao tesouro em cadernos impressos para Amazon KDP. A grelha de coordenadas 5×5 com letras e números (linhas A–E, colunas 1–5) introduz os usuários nas competências de referência de grelha usadas em geografia, matemática e ciências. Estruture os capítulos por progressão: os capítulos iniciais usam direções Básicas com temas familiares, os capítulos avançados usam direções Cardinais com coleções variadas. Inclua páginas de gabarito no final com células do tesouro realçadas em amarelo pálido. Ative a escala de cinzentos para produção que poupa tinta, otimizada para interiores de livros a preto e branco. Os cadernos de procura de caminhos preenchem um nicho único no mercado de livros de atividades de KDP.`,
     },
     {
-      title: 'Coleções Sazonais de Caça ao Tesouro',
+      title: `Coleções Sazonais de Caça ao Tesouro`,
       description: `Construa coleções sazonais rotativas usando temas de festividades e natureza da biblioteca de 104 temas. Caças ao tesouro de Natal, puzzles de procura de caminhos de Halloween, atividades de caça ao tesouro de Páscoa, desafios de coordenadas do Dia dos Namorados, fichas de direção de regresso às aulas e conjuntos temáticos de verão — cada um alimenta pacotes sazonais dedicados. Inclua ambos os tipos de direção Básico e Cardinal em cada coleção sazonal para máxima variedade. Lance cada coleção 4–6 semanas antes da festividade para máxima visibilidade no marketplace. O formato de caça ao tesouro adiciona um elemento narrativo envolvente aos produtos sazonais de fichas.`,
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Negócio de Vocabulário Direcional Multilingue',
+      title: `Negócio de Vocabulário Direcional Multilingue`,
       description: `As pistas direcionais completamente localizadas criam puzzles de caça ao tesouro autênticos no idioma nativo quando muda de idioma. Todo o texto de instruções — «Começa em», «Move-te», palavras de direção, «casa(s)» e «Onde está o tesouro?» — é traduzido para os 11 idiomas suportados. Crie pacotes de caça ao tesouro específicos por idioma para vendedores de ESL/EFL que praticam vocabulário direcional, programas de educação bilingue e famílias internacionais de ensino doméstico. Venda em lojas Etsy dirigidas a países específicos, liste no Gumroad para vendedores internacionais ou construa mega-pacotes multilingues a preços premium. Um design de puzzle gera 11 produtos vendáveis por idioma.`,
       platform: 'Etsy / Gumroad',
     },
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Existe um teste grátis disponível?',
-      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades desbloqueadas — ambos os tipos de direção (Básico e Cardinal), a grelha de coordenadas 5×5, geração de puzzles com 6 imagens e exatamente 4 movimentos direcionais, o gabarito autogerado com célula do tesouro realçada em amarelo pálido, a biblioteca completa de imagens com 104 coleções temáticas e mais de 3100 ilustrações, três métodos de entrada de imagens, temas de fundo e moldura com opacidade independente, seleção de idioma para 11 conjuntos de direções localizadas, escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d'água. Adquira uma licença comercial para remover a marca d'água e desbloquear direitos de venda.`,
+      question: `Existe um teste grátis disponível?`,
+      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades desbloqueadas — ambos os tipos de direção (Básico e Cardinal), a grelha de coordenadas 5×5, geração de puzzles com 6 imagens e exatamente 4 movimentos direcionais, o gabarito autogerado com célula do tesouro realçada em amarelo pálido, a biblioteca completa de imagens com 104 coleções temáticas e mais de 3100 ilustrações, três métodos de entrada de imagens, temas de fundo e moldura com opacidade independente, seleção de idioma para 11 conjuntos de direções localizadas, escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d`água. Adquira uma licença comercial para remover a marca d`água e desbloquear direitos de venda.`,
     },
     {
       question: `O que é uma ficha de caça ao tesouro e como funciona o puzzle?`,
@@ -167,7 +167,7 @@ const content: ToolContent = {
       answer: `O modo Básico usa cima, baixo, esquerda e direita — palavras direcionais familiares ideais para aprendizes de pré-escolar até 1.º ano que constroem vocabulário espacial fundamental. O modo Cardinal usa norte, sul, este e oeste — direções de bússola adequadas para 2.º ano em diante, introduzindo competências de leitura de mapas e orientação geográfica. Ambos os tipos de direção geram a mesma estrutura de puzzle de 4 movimentos na mesma grelha 5×5. O seletor de tipo de direção permite-lhe criar dificuldade progressiva: comece com fichas de direção Básica e avance para fichas de direção Cardinal usando temas e imagens idênticos.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer: `O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. A ficha mostra a grelha 5×5 com imagens distribuídas e pistas direcionais — pronta para os usuários seguirem. O gabarito reproduz o layout idêntico e realça a célula final do tesouro em amarelo pálido (rgba(255, 250, 205, 0.8)) com um traço cinzento escuro, tornando o destino imediatamente visível. Ambas as versões são exportadas separadamente usando quatro botões de descarga dedicados: JPEG de ficha, JPEG de gabarito, PDF de ficha e PDF de gabarito. O gabarito é gerado simultaneamente com o puzzle, pelo que não há passo de marcação manual e não há possibilidade de soluções que não coincidam.`,
     },
     {
@@ -179,11 +179,11 @@ const content: ToolContent = {
       answer: `A estrutura consistente de 4 movimentos numa grelha fixa de 5×5 (linhas A–E, colunas 1–5) cria um formato de puzzle padronizado que funciona de forma fiável para atividades de procura de caminhos. Quatro movimentos proporcionam complexidade suficiente para desafios direcionais significativos sem sobrecarregar os aprendizes mais novos. Cada puzzle segue o mesmo formato de 5 linhas de instruções: posição de início, 4 movimentos sequenciais e a pergunta «Onde está o tesouro?». Esta consistência torna as fichas de caça ao tesouro previsíveis para os usuários e fáceis de empacotar em conjuntos de atividades estruturados para vendedores.`,
     },
     {
-      question: 'Quais são os três métodos de entrada de imagens?',
+      question: `Quais são os três métodos de entrada de imagens?`,
       answer: `Gerar a partir do Tema (predefinido) autoseleciona 6 imagens aleatórias do tema escolhido e distribui-as pela grelha 5×5 como pontos de referência visuais — o caminho mais rápido para um puzzle concluído. Seleção Manual de Imagens permite-lhe explorar 104 coleções temáticas com mais de 3100 ilustrações e clicar para escolher exatamente 6 imagens para controlo preciso do conteúdo da grelha. Carregar Imagens Personalizadas permite-lhe adicionar os seus próprios ficheiros JPEG, PNG, GIF ou WebP junto ao conteúdo da biblioteca. Os três métodos preenchem a mesma grelha de coordenadas 5×5 com 6 imagens de pontos de referência.`,
     },
     {
-      question: 'Como funciona o cabeçalho temático de tesouro?',
+      question: `Como funciona o cabeçalho temático de tesouro?`,
       answer: `Cada ficha gerada inclui um cabeçalho temático de tesouro com fundo verde-azulado (#2C8C7C), moldura exterior âmbar (#D4A574), moldura interior bege areia (#F4E4C1) e título dourado (#D4A017) em fonte Fredoka (peso 700, tamanho adaptável 36–48 px). A descrição é renderizada em castanho escuro (#5C4033) usando Quicksand (peso 500). O modo vertical mostra um cabeçalho completo (100 px de altura); o modo horizontal usa um layout compacto (70 px de altura). O título «Caça ao Tesouro» e a descrição «Segue as pistas e encontra o tesouro!» são traduzidos automaticamente para os 11 idiomas suportados.`,
     },
     {
@@ -195,20 +195,20 @@ const content: ToolContent = {
       answer: `Sim. Com uma licença comercial, tem todos os direitos para vender fichas de caça ao tesouro como downloads digitais na Etsy, cadernos impressos na Amazon KDP, recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os dois tipos de direção, a grelha de coordenadas 5×5, as pistas direcionais completamente localizadas em 11 idiomas, os gabaritos autogerados com células do tesouro realçadas, três métodos de entrada de imagens e as 104 coleções temáticas dão-lhe tudo o necessário para criar produtos profissionais de caça ao tesouro que competem em categorias de fichas de atividades em todos os principais marketplaces.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Experimente antes de comprar com o nosso teste grátis — todas as funcionalidades estão disponíveis para que possa avaliar completamente a ferramenta antes de adquirir uma licença. Como o teste grátis lhe dá acesso completo a ambos os tipos de direção, a grelha de coordenadas 5×5, geração de puzzles com 6 imagens e 4 movimentos direcionais, o gabarito autogerado com célula do tesouro realçada, os 104 temas, três métodos de entrada de imagens, temas de fundo e moldura, seleção de idioma para 11 conjuntos de direções localizadas, exportação em escala de cinzentos e todos os formatos de descarga, não oferecemos reembolsos em compras de licenças. Certifique-se de que a ferramenta se adapta às suas necessidades usando o teste grátis antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'caca-ao-tesouro-fichas', anchorText: `Fichas de Caça ao Tesouro — Detalhes Completos do Produto` },
-    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: 'Gerador de Palavras Cruzadas com Imagens' },
-    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: 'Gerador de Fichas Encontra e Conta' },
-    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: 'Gerador de Fichas de Objetos Ocultos' },
+    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: `Gerador de Palavras Cruzadas com Imagens` },
+    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: `Gerador de Fichas Encontra e Conta` },
+    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: `Gerador de Fichas de Objetos Ocultos` },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Gerador de Percursos com Imagens' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
-    { pageType: 'tool', slug: 'gerador-puzzles-matematicos', anchorText: 'Gerador de Puzzles Matemáticos' },
+    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: `Gerador de Percursos com Imagens` },
+    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: `Gerador de Fichas de Associação` },
+    { pageType: 'tool', slug: 'gerador-puzzles-matematicos', anchorText: `Gerador de Puzzles Matemáticos` },
   ],
 
   visuals: {

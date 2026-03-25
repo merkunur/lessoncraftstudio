@@ -4,8 +4,8 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'versteckte-objekte-generator',
     secondaryKeywords: [
-      'druckbarer Suchbild-Generator für Etsy-Verkäufer',
-      'Versteckte-Objekte-Ersteller für KDP-Verleger',
+      `druckbarer Suchbild-Generator für Etsy-Verkäufer`,
+      `Versteckte-Objekte-Ersteller für KDP-Verleger`,
       `Ich-sehe-was-Arbeitsblatt-Generator kommerzielle Lizenz`,
       `Welches-passt-nicht-Arbeitsblätter auf Etsy.de und Amazon verkaufen`,
     ],
@@ -14,7 +14,7 @@ const content: AppContent = {
       `kommerzieller Versteckte-Objekte-Generator mit Lösungsschlüssel`,
       `Druckvorlagen-Geschäft visuelle Suchaktivitäten Werkzeuge`,
     ],
-    titleTag: 'Versteckte-Objekte-Generator | Suchbilder',
+    titleTag: `Versteckte-Objekte-Generator | Suchbilder`,
     metaDescription: `Versteckte-Objekte-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Suchbild- und Was-passt-nicht-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -39,7 +39,7 @@ const content: AppContent = {
           `Wählen Sie zwischen zwei Modi im Objektauswahl-Panel. Der Ich-sehe-was-Modus (Standard) erstellt Suchszenen mit frei verteilten Objekten — Bilder werden über die Seite verteilt mithilfe eines überlappungsfreien Platzierungsalgorithmus, kein Raster, sondern eine natürlich wirkende Bilderszene. Der Welches-passt-nicht-Modus ordnet gepaarte Bilder in Reihen an, mit unpaaren Elementen dazwischen, für visuelle Unterscheidungs-Aktivitäten. Jeder Modus erzeugt aus derselben Bildbibliothek einen anderen Arbeitsblatt-Typ.`,
       },
       {
-        title: 'Bilder auswählen und Objektanzahlen konfigurieren',
+        title: `Bilder auswählen und Objektanzahlen konfigurieren`,
         description:
           `Durchsuchen Sie 104 thematische Bildsammlungen mit über 3.100 farbenfrohen Illustrationen im Bildbibliothek-Panel. Filtern Sie nach Thema oder suchen Sie per Stichwort. Im Ich-sehe-was-Modus konfigurieren Sie 1–5 versteckte Objekte (die Suchobjekte) und 8–12 Ablenkungsbilder (die umgebenden Bilder, die die Szene füllen). Im Welches-passt-nicht-Modus stellen Sie 8–12 gepaarte Bilder und 1–5 unpaare Elemente ohne Partner ein. Sie können auch eigene PNG-, JPG- oder GIF-Bilder hochladen und zusammen mit den Bibliotheksinhalten verwenden.`,
       },
@@ -49,7 +49,7 @@ const content: AppContent = {
           `Klicken Sie auf Generieren, um das Arbeitsblatt zu erstellen. Im Ich-sehe-was-Modus platziert der überlappungsfreie Algorithmus jedes Bild durch Testen von 50 zufälligen Positionen und wählt die Platzierung mit der geringsten Überlappung — die Bildgröße wird adaptiv reduziert, wenn der Platz knapp wird. Eine Legende erscheint am unteren Rand und zeigt, welche Objekte gefunden werden müssen. Im Welches-passt-nicht-Modus werden Bilder in Reihen mit gepaarten und unpaaren Elementen angeordnet. Der automatisch angepasste Header rendert Ihren Titel in Fredoka-Schrift mit dekorativen Kapsel-Dekorelementen — die Schriftgröße passt sich automatisch basierend auf der Textlänge an (18–32px).`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um die automatisch generierten Markierungen zu sehen: rote Kreise um versteckte Objekte (Ich-sehe-was-Modus) oder unpaare Elemente (Welches-passt-nicht-Modus), 3–5px größer als das Objekt für deutliche Sichtbarkeit. Laden Sie über die vier dedizierten Buttons im Dropdown-Menü herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -80,7 +80,7 @@ const content: AppContent = {
           `Im Ich-sehe-was-Modus zeigt eine Legende am unteren Rand des Arbeitsblatts (120px unterer Abstand) die Suchobjekte an, die gefunden werden müssen. Diese visuelle Referenz zeigt jedes versteckte Objekt, sodass sofort erkennbar ist, wonach gesucht wird — das macht Arbeitsblätter zugänglich ohne schriftliche Anweisungen. Die Legende wird automatisch basierend auf den ausgewählten versteckten Objekten generiert. Der Welches-passt-nicht-Modus verwendet einen kompakten unteren Abstand von 50px ohne Legende, da die unpaaren Elemente durch visuellen Vergleich entdeckt werden, nicht durch eine Referenzliste.`,
       },
       {
-        title: 'Namens- und Datumsfelder mit Schalter-Steuerung',
+        title: `Namens- und Datumsfelder mit Schalter-Steuerung`,
         description:
           `Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:" und „Datum:"-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten, bei denen Nutzerinformationen auf dem Umschlag stehen. Die Felder werden sauber neben dem automatisch generierten Header und der Legende gerendert.`,
       },
@@ -106,7 +106,7 @@ const content: AppContent = {
     title: `Versteckte-Objekte-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Suchbild-Aktivitätspakete auf Etsy',
+        title: `Thematische Suchbild-Aktivitätspakete auf Etsy`,
         description:
           `Erstellen Sie thematische Ich-sehe-was-Pakete mithilfe der 104 Bildsammlungen — Tier-Suchbilder, Feiertags-Suchszenen, Meerestier-Suchbilder, Dinosaurier-Suchbilder und Dutzende mehr. Jedes Thema bietet genug Illustrationen für mehrere einzigartige Suchszenen mit unterschiedlichem Schwierigkeitsgrad. Verpacken Sie 10–20 Versteckte-Objekte-Arbeitsblätter pro Thema mit beigelegten Lösungsschlüsseln und verkaufen Sie zu 3–7 € pro Paket. Steigern Sie den Schwierigkeitsgrad innerhalb des Pakets, indem Sie mehr versteckte Objekte (1 → 5) und mehr Ablenkungsbilder (8 → 12) hinzufügen, je weiter die Seiten voranschreiten.`,
         platform: 'Etsy (etsy.de)',
@@ -124,16 +124,16 @@ const content: AppContent = {
         platform: 'Gumroad',
       },
       {
-        title: 'Saisonale Suchbild-Aktivitätssammlungen',
+        title: `Saisonale Suchbild-Aktivitätssammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie aktuell verfügbare Suchbild-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Suchbild-Pakete im September, Weihnachts-Suchbild-Sammlungen im Oktober und Valentinstag-Suchszenen im Januar. Kombinieren Sie sowohl Ich-sehe-was- als auch Welches-passt-nicht-Arbeitsblätter in jedem saisonalen Set für maximalen Mehrwert und breitere Kundenzielgruppe.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
         title: `Gemischte Ich-sehe-was- und Welches-passt-nicht-Vielfaltspakete`,
         description:
           `Kombinieren Sie beide Aktivitätsmodi in Premium-Vielfaltspaketen. Jedes Paket enthält Ich-sehe-was-Suchszenen, in denen bestimmte Objekte in einer verteilten Szene gefunden werden, sowie Welches-passt-nicht-Arbeitsblätter, bei denen unpaare Elemente unter gepaarten Sets identifiziert werden. Diese Kombination zielt auf zwei verschiedene kognitive Fähigkeiten ab — visuelle Suche und visuelle Unterscheidung — in einem einzigen Produkt. Gemischte Pakete erzielen höhere Preise, weil sie mehr Aktivitätsvielfalt bieten und mehr Lernziele abdecken als Produkte mit nur einem Modus. Ideal für Dinosaurier-, Weltraum- oder Unterwasser-Themen als Premium-Komplettpakete.`,
-        platform: 'Etsy / Gumroad (Vielfaltspakete)',
+        platform: `Etsy / Gumroad (Vielfaltspakete)`,
       },
     ],
   },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `Im Ich-sehe-was-Modus können Sie 1–5 versteckte Objekte (die Suchobjekte, die gefunden werden müssen) und 8–12 Ablenkungsbilder (die umgebenden Bilder, die die Szene füllen) konfigurieren. Beginnen Sie mit 1–2 versteckten Objekten und 8 Ablenkungsbildern für einfachere Arbeitsblätter und steigern Sie auf 5 versteckte Objekte unter 12 Ablenkungsbildern für anspruchsvolle Szenen. Die Legende am unteren Rand des Arbeitsblatts zeigt, welche Objekte gefunden werden müssen.`,
     },
     {
-      question: 'Wie funktioniert der Welches-passt-nicht-Modus?',
+      question: `Wie funktioniert der Welches-passt-nicht-Modus?`,
       answer:
         `Der Welches-passt-nicht-Modus ordnet Bilder in Reihen mit gepaarten und unpaaren Elementen an. Konfigurieren Sie 8–12 gepaarte Bilder (jedes erscheint zweimal im Layout) und 1–5 unpaare Elemente, die nur einmal vorkommen. Die Aufgabe ist, in jeder Reihe das Bild zu finden, das keinen passenden Partner hat. Bilder werden 50 % größer als im Ich-sehe-was-Modus gerendert für deutlicheren visuellen Vergleich. Am unteren Rand gibt es keine Legende, da die unpaaren Elemente durch visuellen Vergleich entdeckt werden, nicht durch eine Referenzliste.`,
     },
@@ -180,7 +180,7 @@ const content: AppContent = {
         `Jedes Arbeitsblatt enthält einen automatisch angepassten Titel, gerendert in Fredoka-Schrift (#4A4A4A Dunkelgrau) mit animierten dekorativen weißen Kapsel-Dekorelementen und Schatten. Die Titel-Schriftgröße passt sich automatisch basierend auf der Textlänge an: 32px für kurze Titel (unter 12 Zeichen), herunterskaliert auf 18px für längere Titel (über 22 Zeichen). Sie können auch ein Beschreibungsfeld unterhalb des Titels hinzufügen. Das Header-System gewährleistet professionell wirkende Arbeitsblätter unabhängig von der Titel-Länge.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — beide Aktivitätsmodi, konfigurierbare Suchobjekt- und Ablenkungsbild-Anzahlen, den überlappungsfreien Platzierungsalgorithmus, den automatisch generierten Lösungsschlüssel mit roten Kreisen, die vollständige Bildbibliothek mit 104 Themen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, Namens- und Datumsfelder und alle Download-Formate in 300 DPI — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -204,33 +204,33 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'suchen-und-zaehlen-arbeitsblaetter',
-      anchorText: 'Suchen-und-Zählen-Arbeitsblatt-Generator',
+      slug: `suchen-und-zaehlen-arbeitsblaetter`,
+      anchorText: `Suchen-und-Zählen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
-      anchorText: 'Kreuzworträtsel-Arbeitsblatt-Generator',
+      slug: `bilderkreuzwortraetsel-arbeitsblaetter`,
+      anchorText: `Kreuzworträtsel-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'schatzsuche-arbeitsblaetter',
-      anchorText: 'Schatzsuche-Arbeitsblatt-Generator',
+      anchorText: `Schatzsuche-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilder-sortieren-arbeitsblaetter',
-      anchorText: 'Bilder-Sortieren-Arbeitsblatt-Generator',
+      slug: `bilder-sortieren-arbeitsblaetter`,
+      anchorText: `Bilder-Sortieren-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'zuordnungs-arbeitsblaetter',
-      anchorText: 'Zuordnungs-Arbeitsblatt-Generator',
+      anchorText: `Zuordnungs-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'was-passt-nicht-arbeitsblaetter',
-      anchorText: 'Was-passt-nicht-Arbeitsblatt-Generator',
+      slug: `was-passt-nicht-arbeitsblaetter`,
+      anchorText: `Was-passt-nicht-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,22 +240,22 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'camping-druckvorlagen-ideen',
-      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+      anchorText: `Camping-Druckvorlagen-Ideen für Outdoor-Lernen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
       anchorText: `Meerestiere-Druckvorlagen-Ideen für maritime Themen`,
     },
     {
       pageType: 'start',
-      slug: 'marketing-druckvorlagen-geschaeft',
-      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+      slug: `marketing-druckvorlagen-geschaeft`,
+      anchorText: `Marketing für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'guide',
-      slug: 'suchbilder-arbeitsblaetter-erstellen',
-      anchorText: 'Suchbilder-Arbeitsblätter erstellen',
+      slug: `suchbilder-arbeitsblaetter-erstellen`,
+      anchorText: `Suchbilder-Arbeitsblätter erstellen`,
     },
   ],
 

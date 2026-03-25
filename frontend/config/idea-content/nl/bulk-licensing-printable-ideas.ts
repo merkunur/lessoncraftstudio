@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bulklicenties Printables Verkopen — Nichegids',
+    titleTag: `Bulklicenties Printables Verkopen — Nichegids`,
     metaDescription: `Bulklicentie printable businessideeën voor het verkopen van werkbladcollecties aan scholen en organisaties. Volume-licentiestrategieën voor verkopers.`,
 
-    primaryKeyword: 'bulklicenties printable ideeën',
+    primaryKeyword: `bulklicenties printable ideeën`,
     secondaryKeywords: [
-      'bulklicentie werkblad business',
-      'schooldistrict printable licenties',
-      'groothandel printable werkblad verkoop',
-      'bulk educatieve printable deals',
+      `bulklicentie werkblad business`,
+      `schooldistrict printable licenties`,
+      `groothandel printable werkblad verkoop`,
+      `bulk educatieve printable deals`,
     ],
     lsiKeywords: [
-      'volumelicenties digitale producten',
-      'institutionele printable overeenkomsten',
-      'schoolbrede werkblad pakketten',
+      `volumelicenties digitale producten`,
+      `institutionele printable overeenkomsten`,
+      `schoolbrede werkblad pakketten`,
     ],
   },
   hero: {
@@ -45,7 +45,7 @@ De combinatie van het bulklicentiemodel met andere businessmodellen creëert een
       appId: 'addition',
     },
     {
-      title: 'Bulklicentie Woordzoeker Collecties Verkopen',
+      title: `Bulklicentie Woordzoeker Collecties Verkopen`,
       description: `Licentieerbare woordzoeker collecties per vakgebied en niveaucategorie bieden scholen thematische vocabulaire-oefenmaterialen die alle verkopers van een schoolbestuur consistent kunnen inzetten. Gebruik de Woordzoeker-generator om bibliotheken van vijftig tot honderd woordzoekpuzzels te produceren georganiseerd per thema en moeilijkheidsniveau. Bied niveaucategorielicenties aan voor honderdvijftig tot tweehonderdvijftig euro per school per jaar. Schoolbesturen waarderen vocabulairecollecties die consistent taalonderwijs ondersteunen over alle scholen binnen het bestuur.`,
       appId: 'wordsearch',
     },
@@ -93,23 +93,23 @@ De combinatie van het bulklicentiemodel met andere businessmodellen creëert een
 
   platformTips: [
     {
-      platform: 'Directe Institutionele Verkoop',
+      platform: `Directe Institutionele Verkoop`,
       title: `Bulklicenties Verkopen Direct aan Scholen en Besturen`,
       description: `Directe institutionele verkoop is het primaire kanaal voor bulklicenties omdat institutionele kopers verwachten om rechtstreeks met leveranciers te communiceren over licentievoorwaarden, prijzen en contentvereisten. Maak een professionele servicebrochure die je licentieaanbod beschrijft — welke contentbibliotheken beschikbaar zijn, welke niveaucategories en vakgebieden worden gedekt, wat de licentievoorwaarden zijn en wat de prijsniveaus zijn per schoolgrootte en bestuursomvang. Benader schoolbesturen via de contactgegevens op hun websites — de afdeling onderwijs of ICT is doorgaans verantwoordelijk voor materiaalinkoop. Bied een gratis proeflicentie aan van dertig dagen zodat instellingen je content kunnen evalueren voordat ze een jaarlicentie afsluiten. Nederlandse schoolbesturen hebben doorgaans inkoopbudgetten voor aanvullende leermaterialen die los staan van hun methodebudgetten.`,
     },
     {
       platform: 'Gumroad School Access',
-      title: 'Bulklicenties Aanbieden via Gumroad School Access',
+      title: `Bulklicenties Aanbieden via Gumroad School Access`,
       description: `Gumroad biedt een "School Access" programma waarmee scholen licenties kunnen kopen die alle verkopers van een school toegang geven tot geselecteerde Gumroad-content. Dit programma biedt een bestaande infrastructuur voor institutionele verkoop zonder dat je zelf contractbeheer en betalingsverwerking hoeft op te zetten. Positioneer je Gumroad-producten als schoollicentie-geschikt door bundels te creëren die specifiek zijn ontworpen voor schoolbrede inzet — complete niveaucategoriepakketten die alle verkopers van dat niveaucategorie kunnen gebruiken. Gumroad School Access biedt lagere marges dan directe verkoop maar vereenvoudigt het verkoopproces aanzienlijk.`,
     },
     {
       platform: 'Shopify met Licentiesysteem',
-      title: 'Een Licentieplatform Opzetten via Shopify',
+      title: `Een Licentieplatform Opzetten via Shopify`,
       description: `Shopify met een licentiebeheersysteem laat je een professioneel licentieplatform opzetten waar instellingen licenties kopen en hun medewerkers geautoriseerde toegang geven tot je contentbibliotheken. Gebruik Shopify-apps voor digitale productlevering gecombineerd met een lidmaatschapssysteem dat institutionele accounts beheert. De integratie met iDEAL en facturering op naam van de instelling maakt Shopify bijzonder geschikt voor de Nederlandse institutionele markt waar scholen en besturen verwachten om op factuur te betalen met betaaltermijnen van dertig dagen. Bouw een professionele webwinkel die je licentieaanbod presenteert met duidelijke prijsniveaus per organisatiegrootte.`,
     },
     {
-      platform: 'Onderwijsbeurzen en Conferenties',
-      title: 'Bulklicenties Promoten op Onderwijsbeurzen',
+      platform: `Onderwijsbeurzen en Conferenties`,
+      title: `Bulklicenties Promoten op Onderwijsbeurzen`,
       description: `Onderwijsbeurzen en -conferenties bieden face-to-face verkoopkansen waar je institutionele beslissers ontmoet die licentiebeslissingen nemen voor hun organisaties. De NOT (Nationale Onderwijstentoonstelling) is de grootste onderwijsbeurs in Nederland waar duizenden schoolbestuurders, directeuren en beleidsmakers educatieve materialen ontdekken. Regionale onderwijsconferenties en schoolbestuurbijeenkomsten bieden kleinschaligere maar meer gerichte verkoopkansen. Maak een professionele beursstand of informatiepakket met voorbeeldmateriaal, prijslijsten en contactformulieren. Face-to-face presentaties van je contentbibliotheken aan beslissers converteren aanzienlijk hoger dan digitale marketingbenaderingen voor institutionele verkoop.`,
     },
   ],
@@ -149,62 +149,62 @@ De combinatie van het bulklicentiemodel met andere businessmodellen creëert een
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'price-etsy-printables',
-      anchorText: 'Hoe je Etsy printables juist prijst',
+      anchorText: `Hoe je Etsy printables juist prijst`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'custom-worksheet-service-ideas',
-      anchorText: 'Werkblad service op maat businessideeën',
+      slug: `custom-worksheet-service-ideas`,
+      anchorText: `Werkblad service op maat businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
+      slug: `digital-download-printable-ideas`,
+      anchorText: `Digitale download printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Abonnementbox printable businessideeën',
+      slug: `subscription-box-printable-ideas`,
+      anchorText: `Abonnementbox printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

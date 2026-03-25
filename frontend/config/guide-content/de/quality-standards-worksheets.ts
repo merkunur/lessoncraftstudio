@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'qualitätsstandards arbeitsblätter für verkäufer',
+    primaryKeyword: `qualitätsstandards arbeitsblätter für verkäufer`,
     secondaryKeywords: [
-      'Druckvorlagen Qualitätscheckliste',
-      'professionelle Arbeitsblatt-Designstandards',
-      'Arbeitsblatt Qualitätskontrolle Verkauf',
-      'druckfertige Arbeitsblatt-Formatierung',
+      `Druckvorlagen Qualitätscheckliste`,
+      `professionelle Arbeitsblatt-Designstandards`,
+      `Arbeitsblatt Qualitätskontrolle Verkauf`,
+      `druckfertige Arbeitsblatt-Formatierung`,
     ],
     lsiKeywords: [
       `Druckqualität Auflösung DPI Einstellungen Seitenränder Ausrichtung Schriftart Lesbarkeit`,
@@ -21,7 +21,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Qualitätsstandards für Arbeitsblätter',
+    title: `Qualitätsstandards für Arbeitsblätter`,
     tagline: `Ein vollständiger Leitfaden zu Qualitätsstandards für Arbeitsblätter, die Verkäufer für professionelle Ergebnisse brauchen — mit Auflösungs- und Dateiformatstandards, Seitenlayout- und Randanforderungen, Typografie- und Lesbarkeitregeln, Farb- und visueller Konsistenz, Lösungsschlüssel-Überprüfung, Qualitätskontroll-Checklisten vor der Veröffentlichung, druckerübergreifenden Tests und katalogweiter Qualitätspflege`,
     description: `Qualität ist der entscheidende Faktor, der Arbeitsblatt-Verkäufer mit nachhaltigem Geschäft von denen unterscheidet, die mit schlechten Bewertungen, Rückerstattungsanfragen und sinkenden Verkäufen kämpfen. Ein Arbeitsblatt, das am Bildschirm professionell aussieht, aber mit abgeschnittenen Rändern, unscharfem Text oder falsch ausgerichteten Elementen gedruckt wird, erzeugt eine negative Käufererfahrung, die Ihren Shop-Ruf dauerhaft schädigt. Dieser Leitfaden bietet eine vollständige Qualitätsstandards-Checkliste speziell für Verkäufer druckbarer Arbeitsblätter — von Auflösungs- und Formatierungsstandards über Typografie, Lösungsschlüssel-Genauigkeit, Drucktests bis hin zur Qualitätspflege bei wachsendem Katalog.`,
   },
@@ -136,18 +136,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für praktische Druckvorlagen' },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'Ihr Druckvorlagen-Geschäft skalieren' },
-    { pageType: 'guide', slug: 'digital-oder-physisch-druckvorlagen', anchorText: 'Digitale vs. physische Druckvorlagen' },
-    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für praktische Druckvorlagen' },
-    { pageType: 'guide', slug: 'kundensupport-digitale-produkte', anchorText: 'Kundensupport für digitale Produkte' },
-    { pageType: 'guide', slug: 'urheberrecht-druckvorlagen-verkaeufer', anchorText: 'Urheberrecht für Druckvorlagen-Verkäufer' },
-    { pageType: 'guide', slug: 'bewertungen-druckvorlagen-produkte', anchorText: 'Bewertungen für Druckvorlagen-Produkte erhalten' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-automatisieren', anchorText: 'Ihr Druckvorlagen-Geschäft automatisieren' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung zum Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für praktische Druckvorlagen` },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `Ihr Druckvorlagen-Geschäft skalieren` },
+    { pageType: 'guide', slug: `digital-oder-physisch-druckvorlagen`, anchorText: `Digitale vs. physische Druckvorlagen` },
+    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: `Etsy SEO für praktische Druckvorlagen` },
+    { pageType: 'guide', slug: `kundensupport-digitale-produkte`, anchorText: `Kundensupport für digitale Produkte` },
+    { pageType: 'guide', slug: `urheberrecht-druckvorlagen-verkaeufer`, anchorText: `Urheberrecht für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `bewertungen-druckvorlagen-produkte`, anchorText: `Bewertungen für Druckvorlagen-Produkte erhalten` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-automatisieren`, anchorText: `Ihr Druckvorlagen-Geschäft automatisieren` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
@@ -158,7 +158,7 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erzeugt Mathe-Arbeitsblätter mit präziser Zahlenausrichtung, klarer Typografie und automatisch berechneten Lösungsschlüsseln. Demonstriert Qualitätsstandards für mathematische Inhaltsgenauigkeit, konsistente Abstände und professionelle Druckformatierung.`,
     },
     {
@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: `/samples/german/wordsearch/Worter suchen 1.webp`,
       alt: `Wortsuchrätsel-Arbeitsblatt mit professionellen Qualitätsstandards, sauberem Layout und präziser Formatierung`,
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuchrätsel mit professioneller druckfertiger Formatierung und präziser Rasterausrichtung`,
         caption: `Professionelle Wortsuchrätsel-Ausgabe demonstriert sauberes Layout, lesbare Typografie und präzise Rasterausrichtung`,
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: `/samples/german/addition/Additionsspa 1.webp`,
         alt: `Additions-Arbeitsblatt mit Qualitätsstandards für Zahlenausrichtung und Lösungsschlüssel-Genauigkeit`,
         caption: `Mathe-Arbeitsblätter erfordern präzise Ausrichtung, klare Typografie und überprüfte Lösungsschlüssel für professionelle Qualität`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Ausmalseite mit visuellen Qualitätsstandards, konsistenten Linienstärken und Druckoptimierung`,
         caption: `Visuelle Produkte erfordern konsistente Linienstärken, Graustufen-Optimierung und professionelle Druckqualität`,
       },
@@ -201,10 +201,10 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/pets/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — thematisches Lernbild', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Nymphensittich — thematisches Lernbild', caption: 'Nymphensittich' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — thematisches Lernbild`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Nymphensittich — thematisches Lernbild`, caption: 'Nymphensittich' },
     { src: '/image-library/pets/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Frettchen — thematisches Lernbild', caption: 'Frettchen' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Frettchen — thematisches Lernbild`, caption: 'Frettchen' },
   ],
 };
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'saisonales Marketing Druckvorlagen',
+    primaryKeyword: `saisonales Marketing Druckvorlagen`,
     secondaryKeywords: [
-      'saisonale Druckvorlagen-Geschäftsstrategie',
-      'Feiertagsarbeitsblätter Marketing',
-      'Schulanfang Druckvorlagen Verkauf',
-      'saisonaler Produktkalender Verkäufer',
+      `saisonale Druckvorlagen-Geschäftsstrategie`,
+      `Feiertagsarbeitsblätter Marketing`,
+      `Schulanfang Druckvorlagen Verkauf`,
+      `saisonaler Produktkalender Verkäufer`,
     ],
     lsiKeywords: [
       `Feiertagsnachfrage Zyklus saisonale Produktplanung Hauptverkaufszeiten`,
@@ -55,7 +55,7 @@ const content: GuideContent = {
     },
     {
       heading: `Vorjahresleistung analysieren, um den Kalender zu verfeinern`,
-      content: `Führen Sie nach jedem saisonalen Zyklus eine strukturierte Überprüfung durch, die Leistungsdaten erfasst und spezifische Verbesserungen für das folgende Jahr generiert. Dieser Verfeinerungsprozess von Jahr zu Jahr ist das wertvollste Element der saisonalen Planung, weil er Vermutungen durch historische Daten ersetzt, die spezifisch für Ihre Produkte, Zielgruppe und Marktplatzposition sind.\n\nÜberprüfen Sie vier Kategorien saisonaler Leistungsdaten. Erstens, Produktleistung: Welche saisonalen Produkte generierten den höchsten Umsatz, die meisten verkauften Einheiten und die besten Gewinnmargen? Welche Produkte blieben hinter den Erwartungen zurück im Verhältnis zum investierten Erstellungsaufwand? Zweitens, Timing-Leistung: Wann begann der saisonale Verkehr, wann erreichte er seinen Höhepunkt und wann ging er zurück? Wurden Ihre Produkte früh genug eingestellt, um das gesamte Nachfragefenster zu erfassen, oder haben Sie Frühsaison-Käufer verpasst? Drittens, Marketing-Leistung: Welche Werbekanäle (E-Mail, Social Media, Marktplatz-Anzeigen) generierten den meisten saisonalen Verkehr und die meisten Konversionen? Welche Kampagnen erbrachten den besten Zeitaufwand-Ertrag? Viertens, Schlüsselwort-Leistung: Welche saisonalen Suchbegriffe trieben die meisten Listing-Aufrufe und Verkäufe an? Welche Schlüsselwörter haben Sie verpasst, die Wettbewerber erfasst haben?\n\nDokumentieren Sie spezifische, umsetzbare Erkenntnisse statt vager Beobachtungen. Statt „Halloween lief gut" zu notieren, dokumentieren Sie „Halloween-Wortsuchaufgaben generierten 340 € im Oktober und übertrafen Halloween-Mathearbeitsblätter um das 3:1. Halloween-Produkte, die vor dem 15. September gelistet wurden, generierten 60 % mehr Umsatz als Produkte, die nach dem 15. September gelistet wurden. Das Schlüsselwort ‚Halloween Bildungsmarktaktivitäten' trieb mehr Verkehr als ‚Halloween-Arbeitsblätter' — aktualisiere Titel für nächstes Jahr." Diese spezifischen Erkenntnisse übersetzen sich direkt in verbesserte Entscheidungen für den saisonalen Kalender des folgenden Jahres.\n\nVergleichen Sie die tatsächliche Leistung mit Ihrem geplanten Kalender, um festzustellen, wo die Planung genau war und wo sie angepasst werden muss. Haben Sie den richtigen Produktionsaufwand für jede saisonale Spitze eingeplant? Haben Ihre Listungsfristen den Produkten genug Vorlaufzeit für die Indexierung gegeben? Wurden Ihre Marketingkampagnen zum richtigen Zeitpunkt relativ zur Nachfrage gestartet? Diese Vergleiche zeigen systematische Verbesserungen auf: Wenn Sie konsequent die Frühsaison-Nachfrage verpassen, verschieben Sie alle Produktionsfristen um zwei Wochen nach vorne. Wenn bestimmte saisonale Themen konsequent unterdurchschnittlich abschneiden, reduzieren Sie Ihre Investition in diese Themen und lenken Sie die Anstrengungen auf leistungsstärkere Saisons um.\n\nPflegen Sie ein saisonales Leistungsarchiv, das über die Jahre Daten sammelt. Saisonale Daten des ersten Jahres bieten eine Grundlinie. Daten des zweiten Jahres zeigen, ob Ihre Verbesserungen wirken. Ab dem dritten Jahr und darüber hinaus wird Ihr saisonaler Kalender zunehmend präzise, weil er auf mehreren Jahren tatsächlicher Leistungsdaten basiert statt auf allgemeinen Branchenratschlägen. Dieser sich kumulierende Datenvorteil ist ein bedeutender Wettbewerbsvorsprung, den neuere Verkäufer ohne historische Aufzeichnungen nicht replizieren können.`,
+      content: `Führen Sie nach jedem saisonalen Zyklus eine strukturierte Überprüfung durch, die Leistungsdaten erfasst und spezifische Verbesserungen für das folgende Jahr generiert. Dieser Verfeinerungsprozess von Jahr zu Jahr ist das wertvollste Element der saisonalen Planung, weil er Vermutungen durch historische Daten ersetzt, die spezifisch für Ihre Produkte, Zielgruppe und Marktplatzposition sind.\n\nÜberprüfen Sie vier Kategorien saisonaler Leistungsdaten. Erstens, Produktleistung: Welche saisonalen Produkte generierten den höchsten Umsatz, die meisten verkauften Einheiten und die besten Gewinnmargen? Welche Produkte blieben hinter den Erwartungen zurück im Verhältnis zum investierten Erstellungsaufwand? Zweitens, Timing-Leistung: Wann begann der saisonale Verkehr, wann erreichte er seinen Höhepunkt und wann ging er zurück? Wurden Ihre Produkte früh genug eingestellt, um das gesamte Nachfragefenster zu erfassen, oder haben Sie Frühsaison-Käufer verpasst? Drittens, Marketing-Leistung: Welche Werbekanäle (E-Mail, Social Media, Marktplatz-Anzeigen) generierten den meisten saisonalen Verkehr und die meisten Konversionen? Welche Kampagnen erbrachten den besten Zeitaufwand-Ertrag? Viertens, Schlüsselwort-Leistung: Welche saisonalen Suchbegriffe trieben die meisten Listing-Aufrufe und Verkäufe an? Welche Schlüsselwörter haben Sie verpasst, die Wettbewerber erfasst haben?\n\nDokumentieren Sie spezifische, umsetzbare Erkenntnisse statt vager Beobachtungen. Statt „Halloween lief gut" zu notieren, dokumentieren Sie „Halloween-Wortsuchaufgaben generierten 340 € im Oktober und übertrafen Halloween-Mathearbeitsblätter um das 3:1. Halloween-Produkte, die vor dem 15. September gelistet wurden, generierten 60 % mehr Umsatz als Produkte, die nach dem 15. September gelistet wurden. Das Schlüsselwort ‚Halloween Bildungsmarktaktivitäten` trieb mehr Verkehr als ‚Halloween-Arbeitsblätter` — aktualisiere Titel für nächstes Jahr." Diese spezifischen Erkenntnisse übersetzen sich direkt in verbesserte Entscheidungen für den saisonalen Kalender des folgenden Jahres.\n\nVergleichen Sie die tatsächliche Leistung mit Ihrem geplanten Kalender, um festzustellen, wo die Planung genau war und wo sie angepasst werden muss. Haben Sie den richtigen Produktionsaufwand für jede saisonale Spitze eingeplant? Haben Ihre Listungsfristen den Produkten genug Vorlaufzeit für die Indexierung gegeben? Wurden Ihre Marketingkampagnen zum richtigen Zeitpunkt relativ zur Nachfrage gestartet? Diese Vergleiche zeigen systematische Verbesserungen auf: Wenn Sie konsequent die Frühsaison-Nachfrage verpassen, verschieben Sie alle Produktionsfristen um zwei Wochen nach vorne. Wenn bestimmte saisonale Themen konsequent unterdurchschnittlich abschneiden, reduzieren Sie Ihre Investition in diese Themen und lenken Sie die Anstrengungen auf leistungsstärkere Saisons um.\n\nPflegen Sie ein saisonales Leistungsarchiv, das über die Jahre Daten sammelt. Saisonale Daten des ersten Jahres bieten eine Grundlinie. Daten des zweiten Jahres zeigen, ob Ihre Verbesserungen wirken. Ab dem dritten Jahr und darüber hinaus wird Ihr saisonaler Kalender zunehmend präzise, weil er auf mehreren Jahren tatsächlicher Leistungsdaten basiert statt auf allgemeinen Branchenratschlägen. Dieser sich kumulierende Datenvorteil ist ein bedeutender Wettbewerbsvorsprung, den neuere Verkäufer ohne historische Aufzeichnungen nicht replizieren können.`,
     },
     {
       heading: `Evergreen-Produkte neben saisonalen Veröffentlichungen pflegen`,
@@ -65,7 +65,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Etsy-Saisonstrategie für Druckvorlagen-Verkäufer',
+      heading: `Etsy-Saisonstrategie für Druckvorlagen-Verkäufer`,
       content: `Etsys Suchalgorithmus belohnt Listings, die während saisonaler Perioden Relevanz und Aktualität zeigen. Erneuern oder aktualisieren Sie Ihre saisonalen Listings 6–8 Wochen vor jeder Spitze, um dem Suchranking-System von Etsy Frische zu signalisieren. Nutzen Sie alle 13 Etsy-Tags für saisonale Schlüsselwörter während der Spitzenzeiten und rotieren Sie saisonale Tags ein und aus, wenn sich die Nachfrage im Jahresverlauf verschiebt. Erstellen Sie eigene saisonale Abschnitte in Ihrem Etsy-Shop, die Feiertags- und Saisonprodukte für einfaches Stöbern organisieren. Wenn Etsy saisonale Verkaufsaktionen oder Werbezeiträume durchführt, nehmen Sie teil, um vom erhöhten plattformweiten Verkehr zu profitieren. Überwachen Sie Etsys Trendsuchfunktion, um aufkommende saisonale Begriffe zu identifizieren, die Sie ansprechen können, bevor sich der Wettbewerb verschärft.`,
     },
     {
@@ -84,7 +84,7 @@ const content: GuideContent = {
       content: `Saisonale Planung verwandelt einen statischen Produktkatalog in eine dynamische Umsatzmaschine, die das ganze Jahr über mehrere Nachfragespitzen erfasst. Ein Verkäufer mit 30 Evergreen-Mathearbeitsblättern generiert konsistenten, aber gleichbleibenden monatlichen Umsatz. Derselbe Verkäufer mit diesen 30 Evergreen-Arbeitsblättern plus 20 saisonalen Varianten seiner leistungsstärksten Produkte erfasst zusätzlichen Umsatz bei jeder großen Nachfragespitze, ohne den Gesamtproduktionsaufwand wesentlich zu erhöhen. Jede saisonale Variante ist ein neues Listing mit eigener Suchsichtbarkeit, das saisonale Schlüsselwörter anspricht, für die die Evergreen-Version nicht rankt. Eine einzelne Evergreen-Additionsarbeitsblattvorlage, die Halloween-, Weihnachts-, Valentinstag-, Oster- und Schulanfangsvarianten hervorbringt, schafft 5 zusätzliche Listing-Möglichkeiten, die jeweils während ihres jeweiligen saisonalen Fensters Umsatz generieren. Der Produktionsaufwand pro Variante ist minimal, wenn bestehende Vorlagen und Arbeitsblatt-Generatoren verwendet werden, während der kumulative Umsatzbeitrag über alle saisonalen Spitzen hinweg erheblich ist.`,
     },
     {
-      heading: 'Frühsaison-Premiumpreise nutzen',
+      heading: `Frühsaison-Premiumpreise nutzen`,
       content: `Verkäufer, die saisonale Produkte früh einstellen — bevor die Mehrheit der Wettbewerber ihre saisonalen Angebote erstellt hat — profitieren von reduziertem Wettbewerb und höherem Umsatz pro Einheit während der frühen Nachfragephase. Wenn ein Käufer im September nach Halloween-Mathearbeitsblättern sucht und nur eine Handvoll qualitativ hochwertiger Optionen findet, erfassen diese früh gelisteten Produkte Verkäufe zum vollen Preis ohne Rabattdruck. Bis Oktober, wenn Dutzende Wettbewerber ihre Halloween-Produkte eingestellt haben, verschärft sich der Preiswettbewerb und Käufer haben mehr Alternativen. Der Vorteil des frühen Einstellens geht über die Preisgestaltung hinaus: Frühe Verkäufe generieren Bewertungen, die das Suchranking verbessern, und etablierte Listings mit Verkaufshistorie ranken höher als neu eingestellte Konkurrenzprodukte. Die Ausrichtung Ihres Produktionskalenders auf frühe Listungsfristen positioniert Sie als etablierte Option, wenn die Spitzennachfrage eintrifft, statt als Neueinsteiger, der gegen Verkäufer konkurriert, die sich früher vorbereitet haben.`,
     },
     {
@@ -136,18 +136,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-druckvorlagen-marketing', anchorText: `Social-Media-Marketing für Druckvorlagen-Verkäufer` },
-    { pageType: 'guide', slug: 'pinterest-marketing-arbeitsblaetter', anchorText: 'Pinterest-Marketing für Arbeitsblatt-Unternehmen' },
-    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: 'E-Mail-Marketing für Druckvorlagen-Verkäufer' },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Eine Druckvorlagen-Produktlinie erstellen' },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
+    { pageType: 'guide', slug: `social-media-druckvorlagen-marketing`, anchorText: `Social-Media-Marketing für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `pinterest-marketing-arbeitsblaetter`, anchorText: `Pinterest-Marketing für Arbeitsblatt-Unternehmen` },
+    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: `E-Mail-Marketing für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Eine Druckvorlagen-Produktlinie erstellen` },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
     { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy-SEO für Lernmaterialien' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lernmaterialien' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'Druckvorlagen-Geschäft skalieren' },
-    { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: 'Nischenauswahl für Druckvorlagen-Unternehmen' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung für das Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lernmaterialien` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `Druckvorlagen-Geschäft skalieren` },
+    { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischenauswahl für Druckvorlagen-Unternehmen` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für das Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
   ],
 
   toolsRecommended: [
@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/bingo/bilder-bingo 1.webp',
+      src: `/samples/german/bingo/bilder-bingo 1.webp`,
       alt: `Bingokarten-Arbeitsblatt als Beispiel für ein saisonales Druckvorlagen-Produkt für Feiertags-Marketingkampagnen`,
     },
     samples: [
       {
-        src: '/samples/german/bingo/bilder-bingo 1.webp',
+        src: `/samples/german/bingo/bilder-bingo 1.webp`,
         alt: `Bingokarte als saisonales Druckvorlagen-Produkt für Feiertagsveranstaltungen und Feiern`,
         caption: `Bingokarten passen sich an jedes saisonale Thema an und sind damit ideale Produkte für ganzjähriges saisonales Marketing`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Malvorlage als saisonaler Druckvorlagen-Inhalt für Feiertags-Marktplatz-Listings`,
         caption: `Saisonale Malvorlagen sind konstante Top-Verkäufer während der Feiertags-Nachfragespitzen auf allen Druckvorlagen-Marktplätzen`,
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuchrätsel als saisonale Vokabel-Druckvorlage für Feiertags-Marketing`,
         caption: `Thematische Wortsuchaufgaben verbinden saisonale Attraktivität mit praktischem Wert für starke saisonale Marktplatzleistung`,
       },
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Engel — thematisches Lernbild', caption: 'Engel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Glocke — thematisches Lernbild', caption: 'Glocke' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Kerze — thematisches Lernbild', caption: 'Kerze' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Zuckerstange — thematisches Lernbild', caption: 'Zuckerstange' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Schornstein — thematisches Lernbild', caption: 'Schornstein' },
+    { src: `/image-library/christmas/angel.webp`, alt: 'Engel — thematisches Lernbild', caption: 'Engel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Glocke — thematisches Lernbild`, caption: 'Glocke' },
+    { src: `/image-library/christmas/candle.webp`, alt: 'Kerze — thematisches Lernbild', caption: 'Kerze' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Zuckerstange — thematisches Lernbild`, caption: 'Zuckerstange' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Schornstein — thematisches Lernbild`, caption: 'Schornstein' },
   ],
 };
 

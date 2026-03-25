@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'auteursrecht printable verkopers',
+    primaryKeyword: `auteursrecht printable verkopers`,
     secondaryKeywords: [
       'copyright werkbladen verkopen',
-      'auteursrecht digitale producten',
-      'printable intellectueel eigendom',
+      `auteursrecht digitale producten`,
+      `printable intellectueel eigendom`,
       'licentie werkbladen',
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `auteursrechteigendom automatische bescherming registratievoordelen wettelijke schadevergoeding`,
       `creatieve keuzes expressie versus ideeën feiten standaardmethoden educatieve inhoud`,
     ],
-    titleTag: 'Auteursrecht voor Printable Verkopers — Gids',
+    titleTag: `Auteursrecht voor Printable Verkopers — Gids`,
     metaDescription: `Begrijp het auteursrecht dat printable verkopers moeten kennen: welke werkbladelementen beschermbaar zijn, registratievoordelen, handhaving en.`,
   },
 
   hero: {
-    title: 'Auteursrecht voor Printable Verkopers',
+    title: `Auteursrecht voor Printable Verkopers`,
     tagline: `Een complete gids over auteursrecht als printable ondernemer — wat auteursrecht beschermt in werkbladen, wat wel en niet beschermbaar is in educatieve producten, je originele ontwerpen beschermen, fair use begrijpen, publiek domein bronnen gebruiken, omgaan met inbreuk, auteursrechtfouten vermijden en auteursrechtbewustzijn opbouwen in je bedrijfsvoering`,
     description: `Auteursrecht is het juridische kader dat je originele creatieve werk beschermt en bepaalt wat je wel en niet mag gebruiken van anderen. Als printable verkoper is het begrijpen van auteursrechtbasiskennis om twee redenen essentieel: het beschermen van de werkbladen en ontwerpen die je maakt tegen ongeautoriseerd kopiëren, en het waarborgen dat je eigen producten geen inbreuk maken op andermans rechten. Deze gids biedt praktische auteursrechtkennis specifiek voor printable verkopers — welke elementen van je werkbladen beschermbaar zijn, hoe je je juridische positie versterkt, wat te doen wanneer iemand je werk kopieert, en hoe je veelvoorkomende auteursrechtfouten vermijdt die kunnen leiden tot marktplaatsverwijderingen of juridische aansprakelijkheid. Let op: deze gids is educatieve informatie, geen juridisch advies. Raadpleeg een gekwalificeerde advocaat voor begeleiding bij specifieke situaties.`,
   },
@@ -39,11 +39,11 @@ const content: GuideContent = {
       content: `Educatieve werkbladen bevinden zich in een bijzondere auteursrechtzone waar veel van de inhoud feitelijk of methodologisch is, maar de creatieve presentatie van die inhoud zeer origineel kan zijn. Leren herkennen welke elementen van je werkbladen beschermbare creatieve expressie vertegenwoordigen, helpt je zowel je werk effectief te beschermen als de grenzen van die bescherming te begrijpen.\n\nElementen die NIET auteursrechtelijk beschermbaar zijn in educatieve werkbladen omvatten: basisrekensommen en hun antwoorden, standaard lettervorminggidsen, gangbare fonetische regels en spelpatronen, standaard educatieve beoordelingsformaten zoals meerkeuze of invullen, basiswoordenschat op elk niveau, gangbare educatieve instructies zoals \"omcirkel het juiste antwoord\" of \"schrijf het ontbrekende getal\", en alle inhoud afkomstig uit standaard productcataloguskaders die zelf overheidswerken in het publiek domein zijn.\n\nElementen die WÉL auteursrechtelijk beschermbaar zijn omvatten: je specifieke combinatie en creatieve rangschikking van opgaven op een pagina, originele thematische inhoud waarbij je educatieve inhoud selecteert en rangschikt rond een creatief concept (dieren in een bos die rekensommen oplossen, bijvoorbeeld), unieke instructietekst die verder gaat dan standaardinstructies, originele illustraties, decoratieve elementen en karakterontwerpen, creatieve paginalay-outs die esthetische keuzes weerspiegelen in plaats van pure functionaliteit, en originele verhaallijnen of verhalende contexten die je creëert om educatieve oefeningen te kaderen.\n\nHet principe van creatieve rangschikking is bijzonder belangrijk voor werkbladverkopers. Zelfs wanneer individuele elementen (rekensommen, woordenschatwoorden, letterovertrekgidsen) op zichzelf niet auteursrechtelijk beschermbaar zijn, kan een voldoende creatieve selectie en rangschikking van die elementen dat wel zijn. Een werkblad dat 20 specifieke optelsommen in een bepaalde volgorde rangschikt, combineert met specifieke thematische illustraties, kaart binnen een originele verhaalcontext, en presenteert in een onderscheidende visuele lay-out weerspiegelt genoeg creatieve keuze om auteursrechtbescherming te rechtvaardigen — ook al is elke individuele optelsom een niet-beschermbaar feit.\n\nDaarom produceren werkbladgeneratoren die professionele lay-outs met thematische beelden en creatieve rangschikkingen produceren uitvoer met betekenisvolle auteursrechtbescherming. De generator helpt je creatieve keuzes te maken — themaselectie, opgavebereiken, lay-outopties, beeldcombinaties — die resulteren in originele creatieve expressie. De uitvoer weerspiegelt je creatieve beslissingen geïmplementeerd via het hulpmiddel, vergelijkbaar met hoe een foto de creatieve keuzes van de fotograaf weerspiegelt geïmplementeerd via een camera. Je kunt elke generator uitproberen als gratis proefversie met watermerk om te zien hoe creatieve rangschikkingskeuzes originele, beschermbare werkbladontwerpen opleveren.`,
     },
     {
-      heading: 'Bescherm Je Originele Werkbladontwerpen',
+      heading: `Bescherm Je Originele Werkbladontwerpen`,
       content: `Auteursrechtbescherming bestaat automatisch op het moment dat je een origineel werk maakt en vastlegt in tastbare vorm — het opslaan van een werkblad als PDF-bestand is voldoende vastlegging. Je hoeft niet te registreren, papierwerk in te dienen of een auteursrechtvermelding toe te voegen voor basisbescherming. Echter, verschillende praktische stappen versterken je juridische positie aanzienlijk en maken handhaving makkelijker als er inbreuk plaatsvindt.\n\nVoeg een auteursrechtvermelding toe aan elk product dat je maakt. Het standaardformaat is het auteursrechtsymbool gevolgd door het creatiejaar en je naam of bedrijfsnaam. Hoewel een auteursrechtvermelding niet vereist is voor bescherming, elimineert het de \"onschuldige inbreuk\"-verdediging — een inbreukmaker kan niet beweren dat ze niet wisten dat het werk auteursrechtelijk beschermd was als er een duidelijke vermelding op het product staat. Plaats de vermelding op elke werkbladpagina of op een speciale auteursrechtpagina in de PDF.\n\nOverweeg je meest waardevolle werken te registreren bij het relevante auteursrechtbureau in je land (zoals het Benelux-Bureau voor de Intellectuele Eigendom of nationale equivalenten). Registratie is niet vereist voor het bestaan van auteursrecht, maar biedt cruciale juridische voordelen. Registratie vóór inbreuk maakt het mogelijk om wettelijke schadevergoeding en advocaatkosten te vorderen in een inbreukprocedure. Zonder registratie kun je alleen werkelijke schade vorderen, wat voor een werkbladpakket van €5 vaak te weinig is om juridische actie te rechtvaardigen. Registratie maakt je auteursrecht in praktische zin handhaafbaar.\n\nHoud georganiseerde administratie bij van je creatieproces. Bewaar originele ontwerpbestanden, brondocumenten, generatorinstellingen en creatietijdstempels. Als je ooit moet bewijzen dat je een werk eerder hebt gemaakt dan een inbreukmaker, is gedocumenteerde creatieadministratie van onschatbare waarde. Cloudopslagdiensten zoals Google Drive en Dropbox voorzien bestanden automatisch van tijdstempels, wat verificatie door derden biedt van creatiedata zonder extra moeite van jouw kant.\n\nDocumenteer de commerciële waarde van je producten door verkoopgegevens per product bij te houden. Als er inbreuk plaatsvindt, versterkt het aantonen van de commerciële waarde van het geschonden werk elke verwijderingsverzoek of juridische claim. Een product met aanzienlijke verkopen en positieve beoordelingen is makkelijker te verdedigen dan een product zonder verkoopgeschiedenis, omdat je zowel commerciële schade als de marktwaarde van je creatieve werk kunt aantonen.`,
     },
     {
-      heading: 'Begrijp Fair Use en de Grenzen Ervan',
+      heading: `Begrijp Fair Use en de Grenzen Ervan`,
       content: `Fair use is een van de meest misverstane concepten in het auteursrecht, en het verkeerd begrijpen ervan creëert aanzienlijk risico voor printable verkopers. Fair use is een juridische verdediging die beperkt gebruik van auteursrechtelijk beschermd materiaal zonder toestemming toestaat voor doeleinden zoals kritiek, commentaar, nieuwsverslaggeving, onderwijs, wetenschap en onderzoek. Het is géén algehele toestemming om auteursrechtelijk beschermde inhoud te gebruiken in commerciële producten.\n\nHet cruciale punt voor printable verkopers is dat fair use een verdediging is, geen licentie. Het verleent niet vooraf toestemming — het is een argument dat je kunt aanvoeren in de rechtbank als je wordt aangeklaagd voor auteursrechtinbreuk. Rechters beoordelen fair use per geval aan de hand van vier factoren: het doel en de aard van het gebruik (commercieel gebruik kwalificeert minder snel), de aard van het auteursrechtelijk beschermde werk, de hoeveelheid van het auteursrechtelijk beschermde werk dat wordt gebruikt, en het effect van het gebruik op de markt voor het originele werk.\n\nVoor printable verkopers is fair use zelden van toepassing op de typische manieren waarop je auteursrechtelijk beschermde inhoud zou willen gebruiken. Het maken van werkbladen die auteursrechtelijk beschermde personages, illustraties of substantiële tekst uit auteursrechtelijk beschermde werken bevatten is vrijwel zeker géén fair use, zelfs wanneer het eindproduct educatief is. Het educatieve doelfactor overschrijft niet de commerciële aard van het verkopen van de resulterende werkbladen. Een werkblad met auteursrechtelijk beschermde stripfiguren verkocht op Etsy zou falen op de fair use-analyse op meerdere factoren: het is commercieel gebruik, het gebruikt het creatieve hart van de beschermde personages, en het concurreert potentieel met officieel gelicenseerde educatieve producten met diezelfde personages.\n\nDe \"educatieve\" uitzondering die veel verkopers denken te kennen werkt niet zoals ze denken. verkopers online hebben bredere fair use-rechten voor materialen die worden gebruikt binnen hun eigen klassikale instructie. Maar het maken van educatieve materialen voor commerciële verkoop is niet hetzelfde als klassikaal gebruik. Wanneer je werkbladen maakt om te verkopen, ben je bezig met commerciële activiteit ongeacht de educatieve aard van de inhoud. De educatieve verdediging beschermt een verkoper die een gedicht fotokopieert voor een klassikale bespreking, niet een verkoper die auteursrechtelijk beschermde inhoud verwerkt in producten voor verkoop.\n\nDe praktische regel voor printable verkopers is eenvoudig: verwerk geen auteursrechtelijk beschermde inhoud van andere bronnen in producten die je wilt verkopen. Gebruik originele inhoud die je zelf maakt, publiek domein materialen, of bronnen met expliciete commerciële gebruikslicenties. Deze aanpak elimineert fair use-vragen volledig omdat je andermans auteursrechtelijk beschermd materiaal helemaal niet gebruikt.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Publiek domein bronnen en correct gelicenseerde materialen bieden legitieme, risicovrije inhoudsbronnen voor je printable producten. Het begrijpen van de verschillen tussen publiek domein, Creative Commons en commerciële licenties waarborgt dat je bronnen legaal gebruikt en onbedoelde inbreuk vermijdt.\n\nPubliek domein werken zijn niet beschermd door auteursrecht en kunnen vrij worden gebruikt door iedereen voor elk doel, inclusief commerciële producten. Werken komen in het publiek domein op verschillende manieren: verlopen van auteursrecht (in Nederland doorgaans 70 jaar na het overlijden van de maker), bewuste toewijding door de maker (CC0 of \"geen rechten voorbehouden\"-aanduidingen), en overheidswerken die in veel landen niet in aanmerking komen voor auteursrechtbescherming. Publiek domein bronnen vereisen geen naamsvermelding, geen licentiekosten en geen toestemming — ze behoren aan iedereen.\n\nCreative Commons-licenties zijn niet hetzelfde als publiek domein, en het specifieke licentietype is van groot belang. CC0 (Creative Commons Zero) is functioneel gelijk aan publiek domein — geen beperkingen. CC-BY (Naamsvermelding) staat commercieel gebruik toe maar vereist naamsvermelding van de maker. CC-BY-SA (Naamsvermelding-GelijkDelen) staat commercieel gebruik toe met naamsvermelding maar vereist dat je afgeleide werk dezelfde licentie draagt. CC-BY-NC (Naamsvermelding-NietCommercieel) verbiedt commercieel gebruik volledig — je mag CC-BY-NC inhoud niet gebruiken in producten die je verkoopt, ongeacht of het product educatief is. CC-BY-ND (Naamsvermelding-GeenAfgeleideWerken) verbiedt het maken van gewijzigde versies. Controleer altijd de specifieke Creative Commons-licentie voordat je CC-gelicenseerde inhoud gebruikt in je commerciële producten.\n\nBij het gebruik van werkbladgeneratoren met ingebouwde beeldbibliotheken, controleer de licentievoorwaarden van het hulpmiddel met betrekking tot de opgenomen beelden. Commerciële licenties die de gegenereerde uitvoer dekken, inclusief ingebedde afbeeldingen, bieden de schoonste juridische basis voor het verkopen van werkbladen. Controleer of de licentie alle beoogde gebruiken dekt — digitale downloads, print-on-demand, marktplaatsvermeldingen en multi-platform distributie. Een generator die een commerciële licentie voor de uitvoer bevat, inclusief alle ingebouwde beelden, elimineert de noodzaak om visuele elementen apart te licentiëren voor elk werkblad dat je maakt.\n\nStockafbeelding- en illustratiebronnen vereisen zorgvuldige licentieverificatie. Een royaltyvrije licentie betekent niet kosteloos of onbeperkt — het betekent geen per-gebruik royalty's na de initiële licentieaankoop. Veel stocklicenties beperken het aantal kopieën, verbieden gebruik in print-on-demand producten, of vereisen uitgebreide licenties voor digitale producten die in hoeveelheid worden verkocht. Lees de werkelijke licentievoorwaarden in plaats van aan te nemen dat een royaltyvrije aanduiding onbeperkt gebruik betekent.`,
     },
     {
-      heading: 'Ga Om met Auteursrechtinbreuk op Je Producten',
+      heading: `Ga Om met Auteursrechtinbreuk op Je Producten`,
       content: `Wanneer iemand je werkbladen kopieert en verkoopt als hun eigen werk, heb je verschillende handhavingsopties variërend van informeel contact tot formele juridische procedures. Een duidelijke handhavingsaanpak bespaart tijd en emotionele energie wanneer inbreuk plaatsvindt — en in een digitale marktplaats zal dat onvermijdelijk gebeuren.\n\nControleer vóór het ondernemen van actie of er daadwerkelijk inbreuk heeft plaatsgevonden. Twee werkbladen over hetzelfde educatieve onderwerp met vergelijkbare inhoud zijn niet noodzakelijk inbreukmakend — onthoud dat feiten, ideeën en standaardmethoden niet auteursrechtelijk beschermbaar zijn. Zoek naar kopiëring van je specifieke creatieve expressie: identieke of bijna identieke lay-outs, gekopieerde originele illustraties, gedupliceerde instructietekst, of gereproduceerde ontwerpelementen die je bijzondere creatieve keuzes weerspiegelen. Een concurrerend optelwerkblad dat dezelfde rekensommen gebruikt is geen inbreuk. Een concurrerend werkblad dat je specifieke lay-out, illustraties en tekstrangschikkingen reproduceert is dat wel.\n\nDocumenteer de inbreuk grondig voordat je actie onderneemt. Maak screenshots met tijdstempels van de inbreukmakende vermelding, inclusief de verkoopnaam, vermeldings-URL, productafbeeldingen en eventuele zichtbare productinhoud. Vergelijk deze met je eigen originele product, waarbij je specifieke gekopieerde elementen noteert. Download beschikbare voorbeelden van het inbreukmakende product. Deze documentatie dient als bewijs voor elke handhavingsactie die je onderneemt en beschermt je voor het geval de inbreukmakende vermelding later wordt gewijzigd of verwijderd.\n\nBegin met een direct bericht aan de inbreukmakende verkoper. Veel inbreukgevallen betreffen verkopers die auteursrecht niet begrijpen of die je product hebben gekocht en doorverkocht zonder te beseffen dat het kopen van een digitaal product niet het recht op doorverkoop omvat. Een beleefd maar vastberaden bericht dat het geschonden werk identificeert, uitlegt dat de inhoud je auteursrechtelijk beschermd materiaal is, en verwijdering verzoekt, lost het probleem vaak op zonder verdere escalatie. Voeg links toe naar je originele vermelding en vermeld de creatiedatum die vóór de inbreukmakende vermelding ligt.\n\nAls direct contact faalt of niet mogelijk is, dien een DMCA-verwijderingsverzoek in bij het platform dat de inbreukmakende inhoud host. Elke grote marktplaats — Etsy, Amazon, Gumroad, Creative Fabrica, Gumroad — heeft een DMCA-indieningsproces, doorgaans toegankelijk via hun helpcentrum of pagina voor intellectueel eigendom rapportage. Een geldig DMCA-verzoek vereist: identificatie van het auteursrechtelijk beschermde werk, identificatie van het inbreukmakende materiaal, je contactgegevens, een verklaring dat je te goeder trouw gelooft dat het gebruik niet geautoriseerd is, en een verklaring onder strafbedreiging dat je melding juist is. Het platform is wettelijk verplicht te reageren op geldige DMCA-verzoeken door de inbreukmakende inhoud te verwijderen of ontoegankelijk te maken.\n\nBij aanhoudende of grootschalige inbreuk, raadpleeg een auteursrechtadvocaat. Als dezelfde verkoper doorgaat met inbreuk na DMCA-verwijderingen, of als je producten systematisch worden gekopieerd op meerdere platforms, kan professionele juridische bijstand gerechtvaardigd zijn. Het vooraf registreren van je auteursrechten versterkt je juridische positie in deze situaties aanzienlijk.`,
     },
     {
@@ -63,7 +63,7 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: `Bescherm Je Producten op Etsy met Proactief IE-Beheer`,
-      content: `Etsy biedt een Intellectueel Eigendomsbeleid en een speciaal rapportagehulpmiddel voor auteursrechtinbreuk. Maak je vertrouwd met Etsy's IE-inbreukrapportageproces vóórdat je het nodig hebt, zodat je snel kunt reageren wanneer inbreuk plaatsvindt. Dien meldingen in via Etsy's officiële IE-rapportageformulier in plaats van de algemene ondersteuningskanalen, aangezien IE-meldingen prioriteitsbehandeling krijgen. Voeg specifiek bewijs toe: de URL van je originele vermelding met publicatiedatum, de URL van de inbreukmakende vermelding, en een duidelijke beschrijving van welke auteursrechtelijk beschermde elementen zijn gekopieerd. Etsy staat je ook toe om afzonderlijk handelsmerkinbreuk te melden als een verkoper je bedrijfsnaam of merk gebruikt. Wees je ervan bewust dat het indienen van een valse of overdreven IE-melding kan leiden tot sancties tegen je eigen account, dus zorg voor een legitieme basis voor elke melding. Controleer regelmatig de zoekresultaten voor je productcategorieën om kopieën vroegtijdig te detecteren. Sla bewijsmateriaal op van elke inbreukmelding die je indient, inclusief de reactie van Etsy en de uitkomst, zodat je een dossier opbouwt dat je positie versterkt bij herhaalde inbreuk door dezelfde verkoper.`,
+      content: `Etsy biedt een Intellectueel Eigendomsbeleid en een speciaal rapportagehulpmiddel voor auteursrechtinbreuk. Maak je vertrouwd met Etsy`s IE-inbreukrapportageproces vóórdat je het nodig hebt, zodat je snel kunt reageren wanneer inbreuk plaatsvindt. Dien meldingen in via Etsy`s officiële IE-rapportageformulier in plaats van de algemene ondersteuningskanalen, aangezien IE-meldingen prioriteitsbehandeling krijgen. Voeg specifiek bewijs toe: de URL van je originele vermelding met publicatiedatum, de URL van de inbreukmakende vermelding, en een duidelijke beschrijving van welke auteursrechtelijk beschermde elementen zijn gekopieerd. Etsy staat je ook toe om afzonderlijk handelsmerkinbreuk te melden als een verkoper je bedrijfsnaam of merk gebruikt. Wees je ervan bewust dat het indienen van een valse of overdreven IE-melding kan leiden tot sancties tegen je eigen account, dus zorg voor een legitieme basis voor elke melding. Controleer regelmatig de zoekresultaten voor je productcategorieën om kopieën vroegtijdig te detecteren. Sla bewijsmateriaal op van elke inbreukmelding die je indient, inclusief de reactie van Etsy en de uitkomst, zodat je een dossier opbouwt dat je positie versterkt bij herhaalde inbreuk door dezelfde verkoper.`,
     },
     {
       heading: `Navigeer Amazon KDP-Auteursrechtvereisten voor Printable Producten`,
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Auteursrechteigendom opent de deur naar het licentiëren van je originele ontwerpen aan andere bedrijven voor extra inkomsten. Als je originele karakterontwerpen, unieke werkbladformaten of onderscheidende visuele stijlen maakt, kun je deze licentiëren aan andere verkopers, scholen of educatieve uitgevers terwijl je het eigendom behoudt. Licentiëren genereert inkomsten uit creatieve activa zonder dat je zelf afgewerkte producten hoeft te produceren en te verkopen. Een originele set thematische karakterillustraties kan bijvoorbeeld worden gelicenseerd aan meerdere werkbladmakers voor gebruik in hun producten, wat licentiekosten genereert uit elke overeenkomst. Dit is een gevorderde strategie die voortbouwt op een fundament van sterke auteursrechtpraktijken en duidelijk gedocumenteerd eigendom van je creatieve activa. Begin met het opbouwen van een portfolio van onderscheidende ontwerpelementen die je consistent gebruikt in je productlijn. Wanneer je stijl herkenbaar wordt en je catalogus groeit, wordt het licentiëren van je ontwerpen een haalbare aanvullende inkomstenstroom die de waarde van je intellectueel eigendom maximaliseert.`,
     },
     {
-      heading: 'Bouw Merkwaarde Door Consistente Originele Inhoud',
+      heading: `Bouw Merkwaarde Door Consistente Originele Inhoud`,
       content: `Elk origineel werkblad dat je maakt voegt toe aan je portfolio van auteursrechtelijk beschermde activa, die samen de intellectuele eigendomswaarde van je merk vertegenwoordigen. Een catalogus van 100 originele werkbladontwerpen, elk met beschermbare creatieve expressie, vertegenwoordigt een aanzienlijk creatief activaportfolio. Dit portfolio heeft waarde voorbij individuele productverkopen — het toont creatieve capaciteit aan potentiële zakelijke partners, biedt een fundament voor licentieonderhandelingen, en creëert toetredingsbarrières voor concurrenten die je onderscheidende aanpak niet simpelweg kunnen kopiëren. Verkopers die investeren in originele, auteursrechtelijk beschermbare creatieve expressie bouwen bedrijven met verdedigbare marktposities, terwijl verkopers die vertrouwen op generieke, onbeschermbare inhoud uitsluitend concurreren op prijs en distributie. Een sterk merk gebouwd op originele inhoud trekt ook samenwerkingsmogelijkheden aan — andere verkopers, educatieve platforms en uitgevers zoeken partners met bewezen creatieve capaciteit en een herkenbare, beschermde stijl.`,
     },
   ],
@@ -97,7 +97,7 @@ const content: GuideContent = {
     },
     {
       heading: `Voorbeeld: Reageren op Auteursrechtinbreuk Across Platforms`,
-      content: `Een werkbladverkoper ontdekt dat drie van zijn woordzoekproducten verschijnen in een concurrerende Etsy-winkel onder een andere verkopersnaam. De producten gebruiken zijn exacte PDF-bestanden — identieke lay-outs, identieke woordselecties, identieke thematische illustraties, en zelfs zijn auteursrechtvermelding nog zichtbaar onderaan elke pagina. Hij volgt een systematische handhavingsaanpak. Eerst documenteert hij alles: screenshots van zowel zijn originele vermeldingen (met hun eerdere publicatiedata en verzamelde beoordelingen) als de inbreukmakende vermeldingen, zij-aan-zij vergelijkingen die identieke inhoud tonen, en zijn originele productiebestanden met creatietijdstempels die maanden eerder dateren dan de inbreukmakende vermeldingen. Ten tweede stuurt hij een kort, professioneel bericht naar de inbreukmakende verkoper via Etsy's berichtensysteem, waarin hij zijn originele producten identificeert en verwijdering binnen 48 uur verzoekt. Wanneer de verkoper niet binnen die termijn reageert, dient hij DMCA-verwijderingsverzoeken in via Etsy's IE-rapportagetool voor elke inbreukmakende vermelding, voorzien van het gedocumenteerde bewijs. Etsy verwijdert de vermeldingen binnen drie werkdagen. Vervolgens monitort hij de winkel van de verkoper wekelijks gedurende twee maanden om te waarborgen dat de producten niet opnieuw worden geplaatst. Hij voert ook een bredere zoektocht uit op Amazon, Gumroad en andere platforms naar zijn producttitels en onderscheidende zinnen, waarbij hij één extra inbreukmakende vermelding vindt op een ander platform, die hij aanpakt via het IE-rapportageproces van dat platform. Het gehele handhavingsproces, hoewel het enkele uren documentatie en opvolging vereist, verwijdert met succes alle ongeautoriseerde kopieën van zijn werk.`,
+      content: `Een werkbladverkoper ontdekt dat drie van zijn woordzoekproducten verschijnen in een concurrerende Etsy-winkel onder een andere verkopersnaam. De producten gebruiken zijn exacte PDF-bestanden — identieke lay-outs, identieke woordselecties, identieke thematische illustraties, en zelfs zijn auteursrechtvermelding nog zichtbaar onderaan elke pagina. Hij volgt een systematische handhavingsaanpak. Eerst documenteert hij alles: screenshots van zowel zijn originele vermeldingen (met hun eerdere publicatiedata en verzamelde beoordelingen) als de inbreukmakende vermeldingen, zij-aan-zij vergelijkingen die identieke inhoud tonen, en zijn originele productiebestanden met creatietijdstempels die maanden eerder dateren dan de inbreukmakende vermeldingen. Ten tweede stuurt hij een kort, professioneel bericht naar de inbreukmakende verkoper via Etsy`s berichtensysteem, waarin hij zijn originele producten identificeert en verwijdering binnen 48 uur verzoekt. Wanneer de verkoper niet binnen die termijn reageert, dient hij DMCA-verwijderingsverzoeken in via Etsy`s IE-rapportagetool voor elke inbreukmakende vermelding, voorzien van het gedocumenteerde bewijs. Etsy verwijdert de vermeldingen binnen drie werkdagen. Vervolgens monitort hij de winkel van de verkoper wekelijks gedurende twee maanden om te waarborgen dat de producten niet opnieuw worden geplaatst. Hij voert ook een bredere zoektocht uit op Amazon, Gumroad en andere platforms naar zijn producttitels en onderscheidende zinnen, waarbij hij één extra inbreukmakende vermelding vindt op een ander platform, die hij aanpakt via het IE-rapportageproces van dat platform. Het gehele handhavingsproces, hoewel het enkele uren documentatie en opvolging vereist, verwijdert met succes alle ongeautoriseerde kopieën van zijn werk.`,
     },
   ],
 
@@ -134,34 +134,34 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'understanding-commercial-licenses',
-      title: 'Commerciële Licenties Begrijpen',
+      slug: `understanding-commercial-licenses`,
+      title: `Commerciële Licenties Begrijpen`,
       description: `Leer het verschil tussen persoonlijke en commerciële licenties, wat een commerciële licentie je toestaat en hoe je de juiste licentie kiest voor je printable bedrijf.`,
     },
     {
       slug: 'create-printable-product-line',
-      title: 'Een Printable Productlijn Maken',
+      title: `Een Printable Productlijn Maken`,
       description: `Ontdek hoe je een samenhangende productlijn opbouwt met originele, auteursrechtelijk beschermbare ontwerpen die je merk versterken en klanten aantrekken.`,
     },
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Gids Printable Bedrijf',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Gids Printable Bedrijf`,
       description: `Bekijk de volledige gids voor het starten en laten groeien van een printable bedrijf, van nicheselectie tot marketing en van productcreatie tot marktplaatsoptimalisatie.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'understanding-commercial-licenses', anchorText: 'Commerciële Gebruikslicenties Begrijpen' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Hoe een Printable Productlijn Te Maken' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nicheselectie Gids voor Printable Bedrijven' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor Educatieve Printables' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy Printable Winkel Starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekpuzzels Maken voor Verkoop' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten Maken van Thematische Afbeeldingen' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
+    { pageType: 'guide', slug: `understanding-commercial-licenses`, anchorText: `Commerciële Gebruikslicenties Begrijpen` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Hoe een Printable Productlijn Te Maken` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nicheselectie Gids voor Printable Bedrijven` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prijsstrategieën voor Educatieve Printables` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Rekenwerkbladen Verkopen op Etsy` },
+    { pageType: 'guide', slug: `sell-educational-printables-etsy`, anchorText: `Educatieve Printables Verkopen op Etsy` },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: `Een Etsy Printable Winkel Starten` },
+    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: `Printables Verkopen op Gumroad` },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: `Woordzoekpuzzels Maken voor Verkoop` },
+    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: `Kleurplaten Maken van Thematische Afbeeldingen` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commerciële Licentie Gids' },
   ],
 
@@ -190,36 +190,36 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/writing/writing.webp',
+      src: `/samples/dutch/writing/writing.webp`,
       alt: `Professioneel schrijfwerkblad dat originele creatieve ontwerpelementen toont die auteursrechtelijk beschermbaar zijn`,
     },
     samples: [
       {
-        src: '/samples/dutch/writing/writing.webp',
+        src: `/samples/dutch/writing/writing.webp`,
         alt: `Schrijfwerkblad met originele instructietekst en creatieve lay-outkeuzes`,
         caption: `Schrijfwerkbladen bevatten substantieel originele creatieve expressie in hun instructietekst en ontwerp`,
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`,
         alt: `Woordzoekpuzzel met thematische beelden die creatieve rangschikking van educatieve inhoud demonstreert`,
         caption: `Woordzoekpuzzels demonstreren beschermbare creatieve rangschikking van woordenschatelementen`,
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: `/samples/dutch/coloring/coloring portrait 1.webp`,
         alt: `Kleurplaat met origineel thematisch illustratieontwerp`,
         caption: `Kleurplaten hebben sterke auteursrechtposities vanwege de visuele originaliteit van hun ontwerpen`,
       },
     ],
     youtubeId: '36keBFzJbPo',
-    videoTitle: 'Auteursrecht Basiskennis voor Printable Verkopers',
+    videoTitle: `Auteursrecht Basiskennis voor Printable Verkopers`,
   },
 
   themeImages: [
-    { src: '/image-library/activities/guitar.webp', alt: 'Gitaar — thematische educatieve afbeelding', caption: 'Gitaar' },
-    { src: '/image-library/activities/piano.webp', alt: 'Piano — thematische educatieve afbeelding', caption: 'Piano' },
-    { src: '/image-library/music/drum.webp', alt: 'Trommel — thematische educatieve afbeelding', caption: 'Trommel' },
-    { src: '/image-library/activities/violin.webp', alt: 'Viool — thematische educatieve afbeelding', caption: 'Viool' },
-    { src: '/image-library/music/flute.webp', alt: 'Fluit — thematische educatieve afbeelding', caption: 'Fluit' },
+    { src: `/image-library/activities/guitar.webp`, alt: `Gitaar — thematische educatieve afbeelding`, caption: 'Gitaar' },
+    { src: `/image-library/activities/piano.webp`, alt: `Piano — thematische educatieve afbeelding`, caption: 'Piano' },
+    { src: `/image-library/music/drum.webp`, alt: `Trommel — thematische educatieve afbeelding`, caption: 'Trommel' },
+    { src: `/image-library/activities/violin.webp`, alt: `Viool — thematische educatieve afbeelding`, caption: 'Viool' },
+    { src: `/image-library/music/flute.webp`, alt: `Fluit — thematische educatieve afbeelding`, caption: 'Fluit' },
   ],
 };
 

@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'escalar negocio imprimibles',
     secondaryKeywords: [
-      'cómo escalar un negocio de imprimibles',
-      'hacer crecer negocio de fichas imprimibles',
-      'estrategia de crecimiento negocio imprimibles',
-      'escalar ventas de imprimibles educativos',
+      `cómo escalar un negocio de imprimibles`,
+      `hacer crecer negocio de fichas imprimibles`,
+      `estrategia de crecimiento negocio imprimibles`,
+      `escalar ventas de imprimibles educativos`,
     ],
     lsiKeywords: [
       `crecimiento empresarial ingresos escalamiento automatización subcontratación expansión catálogo productos`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `crecimiento catálogo ingreso por producto diversificación plataformas cuello de botella escalamiento`,
       `sistemas empresariales procesos repetibles pipeline producción multiplicación contenido`,
     ],
-    titleTag: 'Escalar negocio imprimibles — Guía crecimiento',
+    titleTag: `Escalar negocio imprimibles — Guía crecimiento`,
     metaDescription: `Cómo escalar tu negocio de imprimibles con producción por lotes, expansión multiplataforma, crecimiento del catálogo, mercados multilingües y automatización.`,
   },
 
   hero: {
-    title: 'Cómo escalar tu negocio de imprimibles',
+    title: `Cómo escalar tu negocio de imprimibles`,
     tagline: `Una guía completa para escalar tu negocio de imprimibles más allá de los ingresos de un proyecto secundario — cubriendo evaluación de preparación para escalar e identificación de cuellos de botella, sistemas de producción por lotes para una producción consistente, estrategia de expansión multiplataforma, crecimiento del catálogo mediante extensiones de línea de productos, expansión a mercados multilingües, automatización de tareas repetitivas y métricas de crecimiento que impulsan decisiones estratégicas`,
     description: `La diferencia entre un proyecto secundario de imprimibles y un negocio de imprimibles escalable no es el talento, la suerte ni trabajar más duro. Son los sistemas. Cada vendedor que ha pasado de un puñado de productos con ventas esporádicas a un catálogo que genera ingresos mensuales consistentes lo logró reemplazando el esfuerzo manual con procesos repetibles, expandiéndose estratégicamente a través de plataformas y mercados, y construyendo un pipeline de producción que multiplica la producción sin multiplicar las horas trabajadas. Esta guía te lleva a través del marco completo de escalamiento — desde reconocer cuándo tu negocio está listo para escalar, hasta construir los sistemas que hacen el crecimiento sostenible.`,
   },
@@ -51,11 +51,11 @@ const content: GuideContent = {
       content: `Las extensiones de línea de productos son la forma más eficiente de hacer crecer tu catálogo porque cada nuevo producto aprovecha la investigación, las decisiones de diseño y el conocimiento de mercado de tus productos existentes. En lugar de empezar desde cero con cada nueva idea, extiendes sistemáticamente lo que ya funciona en nuevas variaciones que sirven a la misma base de compradores.\n\nExtiende por tema primero porque requiere la menor investigación nueva. Si tus fichas de suma de animales se venden bien, crea resta de animales, multiplicación de animales, sopa de letras de animales y páginas para colorear de animales. El tema está probado como popular, tus recursos de imágenes ya existen, y tu audiencia de compradores de contenido imprimible con temática animal está establecida. Un tema probado puede soportar de 5 a 10 variaciones de productos a través de diferentes tipos de fichas, cada una tomando una fracción del tiempo para crear comparado con investigar y validar un tema nuevo desde cero.\n\nExtiende por nivel escolar para capturar segmentos de compradores adyacentes. Si tus fichas de matemáticas de primer grado rinden bien, crea versiones de preescolar y segundo grado. La experiencia en la materia se traslada, y los padres y vendedores que compran un nivel escolar a menudo necesitan recursos para usuarios en niveles adyacentes. Las extensiones por nivel escolar también generan oportunidades naturales de paquetes: un «Paquete de Matemáticas de Preescolar a 2.° Grado» combinando tres niveles escolares en un paquete a precio premium.\n\nExtiende por nivel de dificultad dentro de los productos existentes. Ofrece versiones fácil, medio y difícil de tus fichas más populares. Esta extensión sirve múltiples propósitos: crea más productos del mismo marco de contenido, da a los compradores una razón para comprar múltiples versiones, y permite paquetes diferenciados (un paquete «Conjunto Completo de Dificultad»). Los generadores de fichas soportan configuración de dificultad, lo que hace sencillo producir tres variantes de dificultad de un solo concepto de producto en tiempo adicional mínimo.\n\nExtiende por formato para servir diferentes casos de uso. Tu contenido de fichas puede reformatearse en sets de tarjetas didácticas, libros de actividades, paquetes de evaluación o materiales de exhibición para venta en línea. Cada formato sirve una necesidad ligeramente diferente del comprador mientras aprovecha la misma experiencia en la materia e investigación de contenido. Un conjunto de fichas de suma, tarjetas didácticas de suma y un paquete de evaluación de suma creados desde el mismo marco de contenido proporcionan tres productos por una inversión de investigación.\n\nPlanifica tus extensiones sistemáticamente usando una matriz de línea de productos. Crea una cuadrícula con tipos de productos (ficha, sopa de letras, emparejamiento, colorear) como columnas y temas o materias como filas. Completa las celdas donde tienes productos existentes e identifica las celdas vacías como oportunidades de expansión. Prioriza las celdas adyacentes a tus productos más vendidos — estas son las extensiones con más probabilidad de éxito porque comparten audiencia y validación de mercado con tus productos probados. Esta vista de matriz transforma el crecimiento del catálogo de creación aleatoria de productos en una estrategia de expansión deliberada donde cada nuevo producto fortalece tu catálogo general.`,
     },
     {
-      heading: 'Implementar la expansión multilingüe',
+      heading: `Implementar la expansión multilingüe`,
       content: `La expansión multilingüe es una de las estrategias de escalamiento más subutilizadas en el negocio de imprimibles. La mayoría de los vendedores de habla inglesa nunca consideran traducir sus productos, lo que significa que los mercados en otros idiomas son dramáticamente menos competitivos. La misma ficha que compite con cientos de alternativas en inglés puede enfrentar solo un puñado de competidores en alemán, francés, español o portugués.\n\nLos generadores de fichas soportan 11 idiomas: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés. Esto significa que puedes crear fichas con formato profesional con el formato correcto específico del idioma, soporte de caracteres y alineación con estándares educativos para cada uno de estos mercados sin ninguna experiencia en traducción. El generador maneja los elementos específicos del idioma automáticamente.\n\nPrioriza los idiomas según el tamaño del mercado y el nivel de competencia. Los mercados alemán y francés tienen grandes poblaciones de compradores en Europa con fuerte demanda de imprimibles educativos. El español sirve tanto a compradores europeos como latinoamericanos, representando un mercado combinado enorme. El portugués alcanza Brasil, una de las economías más grandes del mundo, además de Portugal. Comienza con uno o dos idiomas que representen los mayores mercados alcanzables para tu tipo de producto, y luego expande a idiomas adicionales a medida que estableces tu flujo de trabajo multilingüe.\n\nCrea tu flujo de trabajo multilingüe como un proceso por lotes. Cuando produces un nuevo pack de fichas en inglés, crea inmediatamente el mismo producto en tus idiomas prioritarios durante la misma sesión de producción. Las decisiones de contenido ya están tomadas — las estás aplicando a través de idiomas, no tomando nuevas decisiones creativas. Un lote que produce un producto en inglés en 20 minutos puede producir el mismo producto en tres idiomas adicionales en otros 30 a 40 minutos, cuadruplicando la producción de tu catálogo a partir de un solo concepto de contenido.\n\nLista los productos multilingües en los marketplaces de plataformas que sirven a esas comunidades lingüísticas. Etsy tiene mercados fuertes en Alemania, Francia y otros países europeos. Amazon tiene marketplaces separados para Alemania, Francia, España, Italia y otros países. Investiga dónde los compradores de cada idioma compran principalmente imprimibles educativos y lista tus productos en esos marketplaces específicos o en esas categorías de idioma.\n\nLa expansión multilingüe multiplica el valor de cada concepto de producto en tu catálogo. Un solo tema de ficha creado en 4 idiomas a través de 3 tipos de productos produce 12 productos a partir de un concepto central. Si cada producto genera incluso ingresos modestos, el agregado a través de idiomas y tipos suma sustancialmente. Los vendedores que adoptan la producción multilingüe a menudo descubren que sus productos en otros idiomas colectivamente generan más ingresos que sus productos en inglés solo, simplemente porque la competencia es mucho menor en los mercados de habla no inglesa.`,
     },
     {
-      heading: 'Automatizar las tareas repetitivas del negocio',
+      heading: `Automatizar las tareas repetitivas del negocio`,
       content: `La automatización elimina las tareas repetitivas que consumen horas sin contribuir a la creación de productos, la expansión de mercado o el crecimiento estratégico. Cada hora que pasas en tareas que podrían automatizarse es una hora no invertida en actividades que escalan tu negocio.\n\nCrea plantillas de listados que minimicen la entrada manual para cada plataforma. Una plantilla de listado bien diseñada para Etsy, por ejemplo, contiene tu estructura de descripción estándar, tu conjunto de etiquetas predeterminadas organizadas por categoría, tus pautas de precios y tus secciones de envío y políticas — todo pre-escrito. Cuando listas un nuevo producto, personalizas solo las secciones específicas del producto (título, características específicas, etiquetas únicas) en lugar de escribir todo desde cero. Esto reduce el tiempo de listado de 30 a 45 minutos a 10 a 15 minutos por producto. A lo largo de un lote de 20 productos, eso ahorra de 6 a 10 horas.\n\nConstruye una biblioteca de palabras clave y etiquetas organizada por tipo de producto, tema, nivel escolar y plataforma. En lugar de investigar etiquetas para cada nuevo listado, toma de tu biblioteca pre-construida. Un conjunto de etiquetas de «matemáticas de primer grado», por ejemplo, podría contener 20 etiquetas probadas que mezclas y combinas para cada nuevo producto de matemáticas de primer grado. Un conjunto de etiquetas de tema «animales del bosque» añade etiquetas específicas del tema a las etiquetas de la materia. Combinar conjuntos de etiquetas pre-construidos te da etiquetas optimizadas en segundos en lugar de investigarlas para cada producto individualmente.\n\nConfigura la programación de redes sociales si las plataformas sociales generan tráfico significativo hacia tus listados. Crea publicaciones de redes sociales por lotes durante una sesión dedicada — una hora al mes creando y programando publicaciones es mucho más eficiente que publicar de forma ad hoc diariamente. Concéntrate en las plataformas que demuestren generar tráfico y ventas para tus productos en lugar de intentar mantener una presencia en todas partes.\n\nCrea plantillas de respuesta al cliente para preguntas e interacciones comunes. Los compradores frecuentemente hacen las mismas preguntas: «¿Qué tamaño de papel es?» «¿Incluye hojas de respuestas?» «¿Puedo usarlo en mi tienda?» Las respuestas pre-escritas que puedes personalizar con detalles específicos del producto ahorran tiempo significativo si manejas mensajes de clientes regularmente. Las plantillas aseguran una comunicación consistente y profesional mientras reducen el tiempo dedicado a cada interacción.\n\nAutomatiza tu revisión de analíticas con un chequeo mensual estandarizado. Crea una lista de verificación o plantilla de hoja de cálculo que capture las métricas clave para cada plataforma: ingresos, unidades vendidas, tasa de conversión, productos de mejor rendimiento y productos de bajo rendimiento. Revisar las mismas métricas en el mismo formato cada mes te permite detectar tendencias rápidamente, identificar productos que necesitan atención y tomar decisiones basadas en datos sobre dónde invertir tu próximo lote de producción. Una revisión mensual estructurada toma de 30 a 60 minutos y reemplaza horas de revisión de analíticas ad hoc a lo largo del mes.\n\nUsa sistemas de organización de archivos que soporten flujos de trabajo por lotes. Crea una estructura de carpetas que refleje tu pipeline de producción: una carpeta «borradores» para productos en progreso, una carpeta «listos para listar» para productos completados esperando listado, una carpeta «listados» organizada por plataforma. Las convenciones de nomenclatura consistentes (tipo-producto_tema_grado_idioma) hacen posible encontrar, ordenar y gestionar cientos de productos rápidamente sin buscar en carpetas desorganizadas.`,
     },
     {
@@ -138,34 +138,34 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'crear-linea-productos-imprimibles',
-      title: 'Cómo crear una línea de productos imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      title: `Cómo crear una línea de productos imprimibles`,
       description: `Profundización en la estrategia de línea de productos — construir colecciones cohesivas que impulsen las compras recurrentes y soporten la profundidad de catálogo necesaria para un escalamiento efectivo.`,
     },
     {
-      slug: 'crear-paquetes-fichas-ejercicios',
-      title: 'Cómo crear paquetes de fichas que se vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      title: `Cómo crear paquetes de fichas que se vendan`,
       description: `Estrategias de creación de paquetes que multiplican el valor de ingresos de tu catálogo — esencial para maximizar el retorno de tu inversión en escalamiento.`,
     },
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía completa para iniciar un negocio de imprimibles`,
       description: `La guía empresarial fundamental que cubre creación de contenido, licencias comerciales, estrategia multiplataforma y la construcción de un negocio de imprimibles sostenible desde cero.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo crear paquetes de fichas que se vendan' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo crear una línea de productos imprimibles' },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo crear paquetes de fichas que se vendan` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo crear una línea de productos imprimibles` },
     { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de precios para imprimibles educativos` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de selección de nicho para negocios de imprimibles` },
-    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: 'Cómo investigar nichos rentables de imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: `Cómo investigar nichos rentables de imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda de imprimibles en Etsy desde cero` },
     { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de suma' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: `Cómo crear páginas para colorear con imágenes temáticas` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
@@ -177,7 +177,7 @@ const content: GuideContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Capacidad de producción rápida para la creación de contenido por lotes a escala. Crea fichas de matemáticas profesionales en minutos, permitiendo la producción de alto volumen que requiere el escalamiento.`,
     },
     {
@@ -187,28 +187,28 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de emparejamiento',
+      title: `Generador de fichas de emparejamiento`,
       description: `La versatilidad temática muestra cómo el contenido temático permite la expansión sistemática del catálogo — un concepto de emparejamiento aplicado a docenas de temas crea una línea de productos integral.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de suma profesional demostrando la calidad de producto que respalda el crecimiento escalable de un negocio de imprimibles` },
+    heroImage: { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de suma profesional demostrando la calidad de producto que respalda el crecimiento escalable de un negocio de imprimibles` },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: `Ficha de suma con imágenes temáticas mostrando la diversidad de productos para el escalamiento del catálogo`, caption: 'Las variaciones temáticas de fichas demuestran cómo un concepto de producto escala en múltiples listados a través de temas, grados e idiomas' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras mostrando el potencial de escalamiento multilingüe`, caption: 'Las sopas de letras creadas en 11 idiomas multiplican tu catálogo sin multiplicar el esfuerzo creativo — el mismo concepto alcanza mercados internacionales' },
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Ficha de emparejamiento demostrando la expansión sistemática del catálogo a través de variaciones temáticas', caption: 'Las fichas de emparejamiento a través de temas muestran la extensión sistemática de línea de productos — cada nuevo tema añade productos usando formatos probados y recursos de imágenes existentes' },
+      { src: `/samples/spanish/addition/Suma Divertida 1.webp`, alt: `Ficha de suma con imágenes temáticas mostrando la diversidad de productos para el escalamiento del catálogo`, caption: `Las variaciones temáticas de fichas demuestran cómo un concepto de producto escala en múltiples listados a través de temas, grados e idiomas` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras mostrando el potencial de escalamiento multilingüe`, caption: `Las sopas de letras creadas en 11 idiomas multiplican tu catálogo sin multiplicar el esfuerzo creativo — el mismo concepto alcanza mercados internacionales` },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Ficha de emparejamiento demostrando la expansión sistemática del catálogo a través de variaciones temáticas`, caption: `Las fichas de emparejamiento a través de temas muestran la extensión sistemática de línea de productos — cada nuevo tema añade productos usando formatos probados y recursos de imágenes existentes` },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: `Cómo crear páginas para colorear con Dibujar y Colorear — Demostrando la gama creativa para el escalamiento del catálogo`,
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Avión — imagen educativa temática', caption: 'Avión' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulancia — imagen educativa temática', caption: 'Ambulancia' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Barco — imagen educativa temática', caption: 'Barco' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Excavadora — imagen educativa temática', caption: 'Excavadora' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Avión — imagen educativa temática`, caption: 'Avión' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulancia — imagen educativa temática`, caption: 'Ambulancia' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Barco — imagen educativa temática`, caption: 'Barco' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Excavadora — imagen educativa temática`, caption: 'Excavadora' },
   ],
 };
 

@@ -5,9 +5,9 @@ const content: GuideContent = {
     primaryKeyword: 'email marketing printables',
     secondaryKeywords: [
       'email list printable sellers',
-      'newsletter for worksheet business',
-      'email marketing digital products',
-      'printable business email strategy',
+      `newsletter for worksheet business`,
+      `email marketing digital products`,
+      `printable business email strategy`,
     ],
     lsiKeywords: [
       `subscriber list lead magnet opt-in freebie welcome sequence email automation`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `automated sequences re-engagement campaign list hygiene sender reputation`,
       `content calendar email analytics A/B testing personalization tags`,
     ],
-    titleTag: 'Email Marketing Printables — Seller Strategy',
+    titleTag: `Email Marketing Printables — Seller Strategy`,
     metaDescription: `Email marketing strategies for printable sellers. Build your subscriber list, create lead magnets, automate sequences, and drive repeat sales across.`,
   },
 
   hero: {
-    title: 'Email Marketing for Printable Product Sellers',
+    title: `Email Marketing for Printable Product Sellers`,
     tagline: `A complete guide to email marketing for printable sellers — covering how to choose an email service provider, create compelling lead magnets, build high-converting landing pages, design welcome sequences, develop broadcast content strategies, segment your subscriber list, automate seasonal campaigns, and track metrics for continuous optimization`,
     description: `Email is the only marketing channel you fully own and control. Social media algorithms change, marketplace search rankings fluctuate, and advertising costs rise — but your email list belongs to you. Every subscriber represents a direct line to a potential buyer who has already expressed interest in your products. For printable sellers, email marketing transforms one-time marketplace customers into repeat buyers who purchase directly, recommend your products, and engage with every new release you announce.`,
   },
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: `Build a Landing Page That Converts Visitors to Subscribers`,
-      content: `A landing page is a focused, single-purpose page designed to convert visitors into email subscribers. Unlike your shop page or social media profile, which offer multiple paths and distractions, a landing page presents one clear action: enter your email address to receive the lead magnet. This focus is what makes landing pages significantly more effective at capturing email addresses than embedding opt-in forms in multi-purpose pages where they compete with product listings, navigation menus, and other content for the visitor's attention.\n\nThe essential elements of a high-converting landing page for printable sellers are: a headline that states the specific benefit of the lead magnet ("Get 10 Kindergarten Addition Worksheets with Answer Keys"), a visual preview showing what the subscriber will receive (screenshot or mockup of the worksheets), three to five bullet points listing specific contents and benefits, a simple email opt-in form (name and email address fields only), and a brief statement about what to expect after subscribing ("You'll receive your worksheet pack immediately, plus weekly teaching tips and new product announcements"). Every element on the page should support the single goal of converting visitors to subscribers.\n\nRemove anything from the landing page that does not directly support the opt-in conversion. Navigation menus, sidebar content, footer links to other pages, social media widgets, and product advertisements all give visitors reasons to leave the page without subscribing. The most effective landing pages are visually clean with a single column layout, prominent headline, preview image, brief benefits list, and opt-in form. Each additional element you add dilutes focus and typically reduces conversion rates rather than improving them.\n\nPlace your landing page link everywhere your target audience encounters your brand. Include it in your Etsy shop announcement section, your social media bios on every platform, your Pinterest profile and relevant pin descriptions, inside your digital product files as a branded footer or resource page, and in any blog posts or guest content you create. Every touchpoint between your brand and a potential buyer should include a path to your email list. A customer who finds your products through Etsy search today might not return tomorrow — but if they join your email list, you can reach them directly with every new product release.\n\nCreate a landing page variant for each distinct lead magnet you offer. If you have a math worksheet sampler and a word search sampler, each should have its own dedicated landing page with messaging tailored to that specific audience segment. The math page speaks to buyers looking for math practice resources. The word search page speaks to those seeking vocabulary and spelling activities. Tailored messaging converts at higher rates than generic messaging because it directly addresses the specific need that brought the visitor to the page.`,
+      content: `A landing page is a focused, single-purpose page designed to convert visitors into email subscribers. Unlike your shop page or social media profile, which offer multiple paths and distractions, a landing page presents one clear action: enter your email address to receive the lead magnet. This focus is what makes landing pages significantly more effective at capturing email addresses than embedding opt-in forms in multi-purpose pages where they compete with product listings, navigation menus, and other content for the visitor`s attention.\n\nThe essential elements of a high-converting landing page for printable sellers are: a headline that states the specific benefit of the lead magnet ("Get 10 Kindergarten Addition Worksheets with Answer Keys"), a visual preview showing what the subscriber will receive (screenshot or mockup of the worksheets), three to five bullet points listing specific contents and benefits, a simple email opt-in form (name and email address fields only), and a brief statement about what to expect after subscribing ("You`ll receive your worksheet pack immediately, plus weekly teaching tips and new product announcements"). Every element on the page should support the single goal of converting visitors to subscribers.\n\nRemove anything from the landing page that does not directly support the opt-in conversion. Navigation menus, sidebar content, footer links to other pages, social media widgets, and product advertisements all give visitors reasons to leave the page without subscribing. The most effective landing pages are visually clean with a single column layout, prominent headline, preview image, brief benefits list, and opt-in form. Each additional element you add dilutes focus and typically reduces conversion rates rather than improving them.\n\nPlace your landing page link everywhere your target audience encounters your brand. Include it in your Etsy shop announcement section, your social media bios on every platform, your Pinterest profile and relevant pin descriptions, inside your digital product files as a branded footer or resource page, and in any blog posts or guest content you create. Every touchpoint between your brand and a potential buyer should include a path to your email list. A customer who finds your products through Etsy search today might not return tomorrow — but if they join your email list, you can reach them directly with every new product release.\n\nCreate a landing page variant for each distinct lead magnet you offer. If you have a math worksheet sampler and a word search sampler, each should have its own dedicated landing page with messaging tailored to that specific audience segment. The math page speaks to buyers looking for math practice resources. The word search page speaks to those seeking vocabulary and spelling activities. Tailored messaging converts at higher rates than generic messaging because it directly addresses the specific need that brought the visitor to the page.`,
     },
     {
       heading: `Design a Welcome Email Sequence That Builds Trust and Showcases Products`,
@@ -66,8 +66,8 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Capture Etsy Customers for Your Email List',
-      content: `Etsy does not provide customer email addresses for marketing purposes, so you must create pathways that motivate buyers to voluntarily join your list. Include a professionally designed insert page in every digital download that offers a lead magnet and your landing page link: "Get 5 bonus worksheets when you join our email list at [landing page URL]." Add your landing page link in the Etsy shop announcement section that appears at the top of your shop page. Mention your email list and lead magnet offer in product descriptions where appropriate. Use Etsy's "Message to Buyers" feature to thank customers and mention the bonus resource available through your email list. Each of these touchpoints converts a small percentage of Etsy buyers into direct subscribers, gradually building a customer base you can reach independent of Etsy's platform.`,
+      heading: `Capture Etsy Customers for Your Email List`,
+      content: `Etsy does not provide customer email addresses for marketing purposes, so you must create pathways that motivate buyers to voluntarily join your list. Include a professionally designed insert page in every digital download that offers a lead magnet and your landing page link: "Get 5 bonus worksheets when you join our email list at [landing page URL]." Add your landing page link in the Etsy shop announcement section that appears at the top of your shop page. Mention your email list and lead magnet offer in product descriptions where appropriate. Use Etsy`s "Message to Buyers" feature to thank customers and mention the bonus resource available through your email list. Each of these touchpoints converts a small percentage of Etsy buyers into direct subscribers, gradually building a customer base you can reach independent of Etsy`s platform.`,
     },
     {
       heading: `Use Amazon KDP Author Pages and Product Inserts to Build Your List`,
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `The most engaging printable seller emails are value-focused content that helps subscribers use educational materials more effectively. Share teaching tips: how to use worksheets for tiered product bundles, how to incorporate printables into learning centers, or how to adapt worksheets for different skill levels. Offer seasonal activity ideas that connect to your product themes. Provide behind-the-scenes content about your creation process. Curate collections of your existing products organized by a new angle (products for rainy day activities, products for morning work routines, products for assessment preparation). Subscribers stay engaged when your emails consistently provide ideas and resources they can use, regardless of whether you are releasing new products that week.`,
     },
     {
-      question: 'How do I prevent my emails from going to spam?',
+      question: `How do I prevent my emails from going to spam?`,
       answer: `Email deliverability depends on several factors you can actively manage. Use a reputable email service provider with strong infrastructure and deliverability monitoring. Send emails only to subscribers who opted in willingly — never purchase email lists or add addresses without consent. Maintain consistent sending patterns rather than long silences followed by high-volume sends. Include a clear unsubscribe link in every email (required by law and beneficial for list quality). Remove inactive subscribers who have not opened emails in 90 days, as they signal to email providers that your content is unwanted. Avoid spam trigger words in subject lines and email content. Authenticate your sending domain with SPF, DKIM, and DMARC records, which your email service provider typically guides you through during setup.`,
     },
     {
@@ -128,7 +128,7 @@ const content: GuideContent = {
     },
     {
       question: `Can I use email marketing if I only sell on Etsy and do not have my own website?`,
-      answer: `Yes. You can build and operate a complete email marketing system using only your email service provider's built-in tools. Most providers include a landing page builder for creating opt-in pages (no separate website needed), digital file delivery for sending lead magnets automatically, and email templates for composing broadcasts. Your landing page URL can be linked from your Etsy shop announcement, social media profiles, product inserts, and anywhere else you connect with potential subscribers. When linking to products in your emails, link directly to your Etsy listings. While having your own website provides additional email capture opportunities and direct sales capability, it is not a prerequisite for effective email marketing. Many successful printable sellers build substantial email lists and drive significant Etsy sales entirely through their email provider's landing pages.`,
+      answer: `Yes. You can build and operate a complete email marketing system using only your email service provider`s built-in tools. Most providers include a landing page builder for creating opt-in pages (no separate website needed), digital file delivery for sending lead magnets automatically, and email templates for composing broadcasts. Your landing page URL can be linked from your Etsy shop announcement, social media profiles, product inserts, and anywhere else you connect with potential subscribers. When linking to products in your emails, link directly to your Etsy listings. While having your own website provides additional email capture opportunities and direct sales capability, it is not a prerequisite for effective email marketing. Many successful printable sellers build substantial email lists and drive significant Etsy sales entirely through their email provider`s landing pages.`,
     },
     {
       question: `What is the refund policy for commercial licenses?`,
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: 'Social Media Marketing for Printable Sellers' },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest Marketing for Worksheet Businesses' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'How to Scale Your Printable Business' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'How to Create a Printable Product Line' },
-    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: 'Seasonal Marketing Calendar for Printable Sellers' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Niche Selection Guide for Printable Businesses' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'How to Create Worksheet Bundles That Sell' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'How to Automate Your Printable Business' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Pricing Strategies for Educational Printables' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
+    { pageType: 'guide', slug: `social-media-printable-marketing`, anchorText: `Social Media Marketing for Printable Sellers` },
+    { pageType: 'guide', slug: `pinterest-marketing-worksheets`, anchorText: `Pinterest Marketing for Worksheet Businesses` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `How to Scale Your Printable Business` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `How to Sell Math Worksheets on Etsy` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `How to Create a Printable Product Line` },
+    { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: `Seasonal Marketing Calendar for Printable Sellers` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Niche Selection Guide for Printable Businesses` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `How to Create Worksheet Bundles That Sell` },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: `How to Automate Your Printable Business` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Pricing Strategies for Educational Printables` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
   ],
 
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Visually striking products drive higher click-through rates in email campaigns`,
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: `/samples/english/addition/Addition Fun 1.webp`,
         alt: `Addition worksheet demonstrating evergreen content for automated email sequences`,
         caption: `Evergreen math content powers automated seasonal email campaigns year-round`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Eagle — themed educational image', caption: 'Eagle' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — themed educational image', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Hornbill — themed educational image', caption: 'Hornbill' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Macaw — themed educational image', caption: 'Macaw' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Ostrich — themed educational image', caption: 'Ostrich' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Eagle — themed educational image`, caption: 'Eagle' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — themed educational image`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Hornbill — themed educational image`, caption: 'Hornbill' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Macaw — themed educational image`, caption: 'Macaw' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Ostrich — themed educational image`, caption: 'Ostrich' },
   ],
 };
 

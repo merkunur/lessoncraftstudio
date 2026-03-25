@@ -4,7 +4,7 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'fichas de preposiciones',
     secondaryKeywords: [
-      'crear fichas de preposiciones para vender',
+      `crear fichas de preposiciones para vender`,
       `generador de fichas de preposiciones uso comercial`,
       `fichas imprimibles de lenguaje espacial para Etsy y KDP`,
       `fichas de preposiciones sensibles al idioma con claves de respuestas`,
@@ -13,16 +13,16 @@ const content: GuideContent = {
       `dos modos de ejercicio completar espacios opción múltiple creador fichas preposiciones`,
       `reemplazo de formas capa de imagen separada combinaciones de escenas generador`,
       `cuadrícula de casillas de preposiciones siete palabras de posición práctica dirigida creador`,
-      'vender fichas de preposiciones en Etsy',
+      `vender fichas de preposiciones en Etsy`,
       `Amazon KDP cuadernos de actividades de lenguaje espacial`,
       `herramienta de fichas de preposiciones con licencia comercial`,
     ],
-    titleTag: 'Fichas de preposiciones — Guía',
+    titleTag: `Fichas de preposiciones — Guía`,
     metaDescription: `Crea fichas de preposiciones con dos modos de ejercicio, Reemplazo de Formas para variedad de escenas, cuadrícula de 7 preposiciones y palabras nativas.`,
   },
 
   hero: {
-    title: 'Cómo crear fichas de preposiciones',
+    title: `Cómo crear fichas de preposiciones`,
     tagline: `Un tutorial paso a paso para crear fichas de lenguaje espacial con dos modos de ejercicio (Completar Espacios en Blanco para recuerdo activo y Opción Múltiple para práctica guiada), Reemplazo de Formas que multiplica las combinaciones de escenas mediante una capa de imagen separada, una cuadrícula de casillas de preposiciones para seleccionar exactamente qué palabras de posición incluir, de 1 a 8 ejercicios configurables por página, palabras de preposición sensibles al idioma que se traducen a equivalentes nativos en 11 idiomas, y claves de respuestas generadas automáticamente que puedes vender en todo el mundo en Etsy, Amazon KDP y Gumroad`,
     description: `Las fichas de preposiciones son una actividad de lenguaje espacial visualmente atractiva donde los usuarios identifican la palabra de posición correcta estudiando escenas de imágenes que muestran objetos en relaciones espaciales. A diferencia de los ejercicios abstractos de gramática que dependen de oraciones solo de texto para completar, el formato basado en escenas ofrece a los usuarios un contexto visual concreto — un gato sentado sobre una caja, una pelota debajo de una mesa, un pájaro encima de una cerca — haciendo que el concepto espacial sea inmediatamente comprensible. El Generador de Fichas de Preposiciones ofrece dos modos de ejercicio que sirven a diferentes niveles de aprendizaje: el modo Completar Espacios en Blanco presenta una escena con una línea vacía donde los usuarios escriben la preposición correcta de memoria, probando el recuerdo activo ideal para usuarios mayores y aprendices intermedios de ESL. El modo Opción Múltiple muestra la misma escena con opciones seleccionables, proporcionando práctica guiada para principiantes y usuarios más jóvenes, con una línea de instrucciones personalizable que los vendedores pueden editar para adaptarse a su estilo de enseñanza. La característica destacada es el Reemplazo de Formas — una capa de imagen separada para las formas de escena (caja, mesa, estante, cesta) que puedes intercambiar independientemente de las imágenes principales. Combinar 10 imágenes principales con 10 formas diferentes produce 100 escenas de ejercicio únicas, multiplicando la variedad de tu producto sin necesitar imágenes fuente adicionales. La cuadrícula de casillas de preposiciones te permite seleccionar exactamente cuáles de las 7 palabras de posición incluir: sobre, debajo, encima, al lado, entre, dentro y fuera. Selecciona todas para práctica completa o enfócate en un subconjunto para lecciones dirigidas que aborden conceptos espaciales específicos. Configura de 1 a 8 ejercicios por página para controlar la densidad de la ficha, con menos ejercicios dando a cada escena más espacio visual para usuarios más jóvenes y más ejercicios creando fichas más densas para práctica cronometrada. La verdadera ventaja competitiva son las palabras de preposición sensibles al idioma: cambiar de idioma no solo traduce la interfaz — cada palabra de posición en la ficha se actualiza a su equivalente nativo. El inglés "on" se convierte en el alemán "auf", el francés "sur", el español "sobre" y el sueco "på". Esto significa que un diseño de ficha produce 11 productos de idiomas genuinamente diferentes con palabras de posición auténticamente localizadas. Los padres usan fichas de preposiciones para la práctica de vocabulario espacial en casa. Los vendedores las usan para la instrucción gramatical y la evaluación del lenguaje espacial. Los programas de ESL las usan como materiales de productoses fundamentales donde las preposiciones son un tema notoriamente difícil para los aprendices de idiomas. Esta guía te acompaña en todo el proceso de creación — desde elegir un modo de ejercicio y configurar la cuadrícula de preposiciones hasta aprovechar el Reemplazo de Formas para variedad visual y exportar archivos listos para producción. Ya sea que estés construyendo tu primer producto de alfabetización o expandiendo un catálogo existente de fichas de gramática, tendrás un producto terminado listo para publicar al final de este tutorial.`,
   },
@@ -31,11 +31,11 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Abrir el Generador de Fichas de Preposiciones',
+      heading: `Abrir el Generador de Fichas de Preposiciones`,
       content: `Navega a la página del Generador de Fichas de Preposiciones y haz clic en el botón de inicio para abrir el generador en tu navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de vista previa en vivo a la derecha. Sin necesidad de crear cuenta, sin descarga de software, sin instalación.\n\nEl lienzo muestra la vista previa de la ficha de preposiciones que se actualiza a medida que cambias los ajustes. La barra lateral de configuración contiene todos los controles que necesitas: selección de modo de ejercicio, cuadrícula de casillas de preposiciones, configuración de imágenes y formas, opciones de diseño de página, conteo de ejercicios, ajustes de fuentes y texto, y controles de exportación. Tómate un momento para explorar los paneles de la barra lateral y familiarizarte con las opciones disponibles antes de comenzar tu primera ficha.\n\nEl Generador de Fichas de Preposiciones usa un lienzo Fabric.js que proporciona herramientas de diseño profesional incluyendo opciones de alineación más centrado en página, capas con bloqueo y desbloqueo para elementos individuales, zoom del 25 al 300 por ciento, y deshacer/rehacer. Estas herramientas te dan un control preciso sobre el diseño final de la ficha sin necesidad de software de diseño externo.`,
     },
     {
-      heading: 'Configurar el diseño de página y la plantilla',
+      heading: `Configurar el diseño de página y la plantilla`,
       content: `En la sección de Configuración de Página, selecciona el tamaño de tu página. Las opciones incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200 por 1200 píxeles) y dimensiones personalizadas. Carta es el estándar para compradores norteamericanos en Etsy y Gumroad. A4 es el estándar para mercados europeos e internacionales. Crear ambas versiones duplica tu mercado potencial con un esfuerzo adicional mínimo.\n\nElige una plantilla de ficha del selector de plantillas. Cada plantilla organiza los ejercicios de manera diferente en la página, dándote variedad visual entre fichas sin cambiar el contenido subyacente. Diferentes plantillas se adaptan mejor a diferentes conteos de ejercicios — algunas disposiciones funcionan mejor con 2 a 3 ejercicios mientras que otras acomodan de 6 a 8 ejercicios de forma limpia.\n\nEstablece el color de fondo de tu página para el lienzo base. Luego añade un patrón de fondo temático de la biblioteca de fondos con un control deslizante de opacidad ajustable. Un fondo sutil al 15 a 25 por ciento de opacidad añade calidez visual sin competir con las escenas de imágenes. Agrega un borde decorativo de la biblioteca de bordes para un marco pulido. Los temas de fondo y borde funcionan independientemente, así que puedes mezclar y combinar combinaciones libremente. Combinaciones consistentes de fondo y borde a través de un paquete de productos crean un aspecto cohesivo que los compradores asocian con calidad.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Abre el panel de Biblioteca de Imágenes y explora 104 colecciones temáticas con más de 3100 ilustraciones coloridas. Las categorías abarcan animales, comida, vehículos, naturaleza, festividades, profesiones, deportes, estaciones y docenas más. Usa la barra de búsqueda para encontrar temas específicos rápidamente.\n\nCada imagen aparece en un contexto de escena que demuestra la relación espacial seleccionada. Una imagen de gato podría aparecer sobre una caja, debajo de una mesa, al lado de una silla o entre dos estantes — la ubicación espacial cambia según la preposición que apunta el ejercicio. Esto significa que la misma biblioteca de imágenes produce escenas de ejercicio variadas a medida que cambias las selecciones de preposiciones, multiplicando tu contenido visual sin necesitar imágenes adicionales.\n\nUsa la Selección Manual para elegir imágenes específicas de un tema cuando quieras un control preciso sobre qué ilustraciones aparecen en cada ejercicio. Selecciona Todos los Temas para dejar que la herramienta elija automáticamente de toda la biblioteca para máxima variedad. La Selección Manual es ideal para productos temáticos donde cada imagen corresponde a una categoría específica (todos animales, todos vehículos, todos alimentos), mientras que Todos los Temas funciona bien para fichas de práctica general con contenido visual diverso.\n\nSube tus propias imágenes PNG o JPEG junto con el contenido de la biblioteca para diseños personalizados. Las subidas personalizadas crean productos únicos que ningún competidor puede replicar: fichas de preposiciones con mascota de clase, materiales escolares de marca y fichas de actividades personalizadas se convierten en productos exclusivos imposibles de encontrar en otro lugar. Las imágenes personalizadas funcionan tanto para la imagen principal como para la capa de reemplazo de formas, dándote control total sobre cada elemento visual.`,
     },
     {
-      heading: 'Configurar el Reemplazo de Formas',
+      heading: `Configurar el Reemplazo de Formas`,
       content: `El Reemplazo de Formas es la característica que distingue al Generador de Fichas de Preposiciones de cualquier herramienta de lenguaje espacial competidora. Añade una capa de imagen separada para las formas de escena — los objetos que definen el contexto espacial de cada ejercicio. Mientras que la imagen principal es el sujeto (un gato, una pelota, un libro), la forma es el objeto de referencia que establece la relación espacial (una caja, una mesa, un estante, una cesta).\n\nIntercambia formas independientemente de las imágenes principales para multiplicar tu variedad visual. Un gato sobre una caja, un gato sobre una mesa, un gato sobre un estante y un gato sobre una cesta son cuatro escenas de ejercicio visualmente distintas de la misma imagen de gato. Escala esto a tu conjunto completo de imágenes: 10 imágenes principales combinadas con 10 formas diferentes producen 100 escenas de ejercicio únicas. Este efecto multiplicador es la clave para crear grandes paquetes de productos y cuadernos completos sin necesitar una biblioteca de imágenes fuente proporcionalmente grande.\n\nElige formas mediante Selección Manual de un tema específico para combinaciones de escenas curadas, o selecciona Todos los Temas para acceder a la biblioteca completa de formas. La capa de formas usa las mismas 104 colecciones temáticas que la biblioteca de imágenes principal, dándote miles de combinaciones posibles. También puedes subir imágenes de formas personalizadas en formato PNG o JPEG para elementos de escena de marca.\n\nPara la creación de productos, la selección estratégica de formas amplifica significativamente el tamaño de tus paquetes. Un paquete de «Preposiciones del Hogar» podría usar formas de muebles (mesa, silla, estante, cama) con varias imágenes de objetos. Un paquete de «Preposiciones de Naturaleza» podría usar formas al aire libre (árbol, roca, estanque, cerca) con imágenes de animales. Cada combinación temática de imágenes principales y formas crea un producto distinto con su propia identidad visual, aunque los ejercicios de preposiciones subyacentes y el valor educativo permanecen consistentes.`,
     },
     {
@@ -66,15 +66,15 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender fichas de preposiciones en Etsy',
+      heading: `Vender fichas de preposiciones en Etsy`,
       content: `Etsy es un excelente marketplace para fichas de preposiciones porque los padres, vendedores e instructores de ESL buscan activamente actividades de lenguaje espacial con formatos visuales. Títulos como «Fichas de Preposiciones — Actividades de Lenguaje Espacial — Completar Espacios y Opción Múltiple — Con Claves de Respuestas» capturan tráfico de búsqueda dirigido y describen exactamente lo que el comprador recibe.\n\nNombra tus productos usando el modo de ejercicio específico, el enfoque de preposiciones y el tema en lugar de títulos genéricos. «Fichas de Preposiciones de Animales — 15 Actividades de Lenguaje Espacial Completar Espacios — Sobre Debajo Encima Al Lado Entre — Imprimibles con Claves de Respuestas» supera a «Fichas de Gramática para Niños» porque coincide con consultas de búsqueda específicas de compradores y comunica el formato visual basado en escenas.\n\nEtiquetas: usa las 13 etiquetas de Etsy. Combina términos amplios y específicos: «fichas de preposiciones», «actividades de lenguaje espacial», «imprimibles de palabras de posición», «preposiciones completar espacios», «fichas de gramática opción múltiple», «fichas dónde está», «actividades de preposiciones ESL», «imprimibles de conciencia espacial», y variaciones que coincidan con tu tema específico, modo de ejercicio y enfoque de preposiciones.\n\nImágenes del listado: muestra la ficha completa con las escenas de imágenes claramente visibles, un primer plano de ejercicios individuales mostrando la relación espacial, las versiones de Completar Espacios y Opción Múltiple si tu producto incluye ambas, la clave de respuestas, y un mockup de la ficha impresa y en uso. El formato visual basado en escenas crea miniaturas que llaman la atención y destacan frente a los listados de gramática en texto simple.\n\nPrecios: conjuntos temáticos individuales de 10 a 15 fichas con claves de respuestas en un solo modo de ejercicio se venden a 2,99 $ a 5,99 $. Conjuntos diferenciados con las versiones de Completar Espacios y Opción Múltiple de los mismos temas se venden a 6,99 $ a 9,99 $. Colecciones temáticas completas que cubren múltiples modos de ejercicio, subconjuntos de preposiciones e idiomas se venden a 14,99 $ a 24,99 $.`,
     },
     {
-      heading: 'Vender fichas de preposiciones en Amazon KDP',
+      heading: `Vender fichas de preposiciones en Amazon KDP`,
       content: `Amazon KDP atiende el mercado de cuadernos de actividades de lenguaje espacial. Compila de 50 a 80 fichas de preposiciones en un formato de libro de actividades encuadernado con dificultad progresiva estructurada por modo de ejercicio y complejidad de preposiciones.\n\nEstructura tu cuaderno en capítulos por progresión de dificultad: los capítulos iniciales usan el modo Opción Múltiple con preposiciones básicas (sobre, debajo, dentro) y de 2 a 3 ejercicios por página para una introducción suave. Los capítulos intermedios aumentan al modo Completar Espacios con preposiciones ampliadas (encima, al lado, entre, fuera) y de 4 a 5 ejercicios por página. Los capítulos finales usan Completar Espacios con las 7 preposiciones y de 6 a 8 ejercicios por página para desafíos completos de lenguaje espacial. Incluye páginas de clave de respuestas al final de cada capítulo mostrando las preposiciones correctas. Esta estructura progresiva crea un cuaderno que crece con el aprendiz, justificando el precio del libro físico.\n\nTítulo y subtítulo: ejemplo de título: «Cuaderno de Actividades de Preposiciones para Niños». Ejemplo de subtítulo: «80 Fichas de Lenguaje Espacial con Claves de Respuestas para Edades 4 a 8 — Completar Espacios y Opción Múltiple, Siete Palabras de Posición, Ejercicios con Escenas de Imágenes».\n\nPalabras clave: KDP proporciona 7 espacios de palabras clave. Usa frases específicas: «fichas de preposiciones», «cuaderno de actividades de lenguaje espacial», «ejercicios de palabras de posición para niños», «preposiciones completar espacios», «cuaderno de gramática dónde está», «actividades de conciencia espacial», «fichas de preposiciones con claves de respuestas».\n\nActiva la escala de grises para una salida que ahorra tinta y se imprime limpiamente en blanco y negro, manteniendo bajos los costos de impresión de KDP. El formato basado en escenas con objetos en relaciones espaciales se renderiza claramente en escala de grises porque el ejercicio depende del posicionamiento de objetos, no del color.`,
     },
     {
-      heading: 'Vender fichas de preposiciones en Gumroad',
+      heading: `Vender fichas de preposiciones en Gumroad`,
       content: `Gumroad es ideal para fichas de preposiciones porque la instrucción del lenguaje espacial es una necesidad recurrente desde preescolar hasta primaria y un componente central de todo catálogo de productos de ESL. El formato visual basado en escenas añade un valor de participación que las fichas de gramática solo de texto no tienen — los usuarios estudian escenas de imágenes reales en lugar de oraciones abstractas, haciendo que los conceptos espaciales sean concretos y memorables.\n\nLas descripciones de productos en Gumroad deben incluir: edad y nivel escolar objetivo, habilidades específicas practicadas (identificación de preposiciones espaciales, vocabulario de palabras de posición, razonamiento visual espacial, gramática en contexto), número de fichas en cada modo de ejercicio, si se incluyen claves de respuestas, qué preposiciones se cubren, temas usados y disponibilidad de idiomas. Menciona los dos modos de ejercicio (Completar Espacios y Opción Múltiple) y explica cómo crean una diferenciación de dificultad.\n\nArchivos de vista previa: Gumroad te permite subir un archivo de vista previa. Incluye de 2 a 3 fichas de preposiciones de muestra mostrando ambos modos de ejercicio (una de Completar Espacios, una de Opción Múltiple), una página de clave de respuestas y una comparación visual explicando los dos modos. Los vendedores quieren ver exactamente cómo funciona la diferenciación antes de comprar.\n\nAgrupación en Gumroad: los vendedores compran paquetes para unidades de gramática completas. Un «Paquete Completo de Preposiciones» con fichas que cubran las 7 palabras de posición en ambos modos de ejercicio a múltiples niveles de densidad da a los vendedores recursos para semanas de instrucción de lenguaje espacial. Crea conjuntos agrupados por preposiciones (preposiciones verticales, preposiciones de proximidad, preposiciones de contención) que coincidan con cómo se enseñan típicamente los conceptos espaciales en secuencia.\n\nPalabras clave específicas de Gumroad: «fichas de preposiciones», «actividades de lenguaje espacial», «gramática de palabras de posición», «fichas dónde está», «preposiciones completar espacios», «actividades de preposiciones ESL», «fichas de gramática diferenciadas», «imprimibles de conciencia espacial». Estos términos coinciden con cómo los vendedores buscan recursos de gramática y lenguaje espacial.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `El modo Completar Espacios en Blanco presenta una escena con una línea vacía donde los usuarios escriben la preposición correcta de memoria — este formato de recuerdo activo es adecuado para usuarios mayores y aprendices intermedios de ESL. El modo Opción Múltiple muestra la misma escena con opciones seleccionables para que los usuarios elijan la respuesta correcta — este formato guiado funciona mejor para principiantes y usuarios más jóvenes. El modo Opción Múltiple también incluye una línea de instrucciones personalizable que puedes editar para adaptarla a tu contexto de enseñanza.`,
     },
     {
-      question: '¿Qué es el Reemplazo de Formas y cómo funciona?',
+      question: `¿Qué es el Reemplazo de Formas y cómo funciona?`,
       answer: `El Reemplazo de Formas es una función única de la herramienta de preposiciones. Añade una capa de imagen separada para las formas de escena — los objetos que crean el contexto espacial (una caja, una mesa, un estante, una cesta). Puedes intercambiar formas independientemente de las imágenes principales, multiplicando la variedad visual. Combinar 10 imágenes principales con 10 formas diferentes produce 100 escenas de ejercicio únicas a partir de solo 20 imágenes fuente. Las formas pueden provenir de las 104 colecciones temáticas o de tus propias subidas personalizadas.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `Cuando cambias de idioma, cada palabra de preposición en la ficha se actualiza a su equivalente nativo. El inglés «on, under, above, beside, between, inside, outside» se convierte en alemán en «auf, unter, über, neben, zwischen, drinnen, draußen», en francés en «sur, sous, au-dessus, à côté, entre, dedans, dehors», en español en «sobre, debajo, encima, al lado, entre, dentro, fuera», y así sucesivamente en los 11 idiomas compatibles. El formato de ejercicio permanece idéntico — solo las palabras de posición cambian.`,
     },
     {
-      question: '¿Cuántos ejercicios puedo poner en una página?',
+      question: `¿Cuántos ejercicios puedo poner en una página?`,
       answer: `Puedes establecer de 1 a 8 ejercicios por página de ficha. Menos ejercicios (1 a 3) dan a cada escena más espacio visual, ideal para aprendices más jóvenes que necesitan imágenes grandes y claras. Más ejercicios (6 a 8) crean fichas más densas adecuadas para usuarios mayores o práctica cronometrada. El diseño se adapta automáticamente al conteo de ejercicios seleccionado y al tamaño de página.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'crear-fichas-abecedario',
-      title: 'Crear fichas de tren del abecedario',
+      title: `Crear fichas de tren del abecedario`,
       description: `Un complemento de alfabetización para las fichas de preposiciones. Las fichas de tren del abecedario usan pares de correspondencia letra-imagen con disposiciones espaciales, desarrollando tanto el reconocimiento de letras como el vocabulario espacial juntos.`,
     },
     {
@@ -155,56 +155,56 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de cuadernos de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'preposiciones-fichas', anchorText: `Generador de Fichas de Preposiciones — Detalles completos` },
     { pageType: 'app', slug: 'tren-alfabeto-fichas', anchorText: `Generador de Fichas de Tren del Abecedario — Detalles completos` },
-    { pageType: 'tool', slug: 'generador-fichas-preposiciones', anchorText: 'Probar el Generador de Fichas de Preposiciones' },
+    { pageType: 'tool', slug: `generador-fichas-preposiciones`, anchorText: `Probar el Generador de Fichas de Preposiciones` },
   ],
 
   toolsRecommended: [
     {
       appId: 'prepositions',
-      title: 'Generador de Fichas de Preposiciones',
+      title: `Generador de Fichas de Preposiciones`,
       description: `La herramienta principal de esta guía. Crea fichas de lenguaje espacial con dos modos de ejercicio (Completar Espacios en Blanco y Opción Múltiple), Reemplazo de Formas para combinaciones de escenas multiplicadas, una cuadrícula de 7 preposiciones para práctica dirigida, de 1 a 8 ejercicios configurables por página y palabras de posición sensibles al idioma en 11 idiomas con claves de respuestas generadas automáticamente.`,
     },
     {
       appId: 'alphabet-train',
-      title: 'Generador de Fichas de Tren del Abecedario',
+      title: `Generador de Fichas de Tren del Abecedario`,
       description: `Un complemento de alfabetización que crea fichas de correspondencia letra-imagen con disposiciones espaciales de vagones de tren. Los usuarios que practican preposiciones espaciales se benefician de los trenes del abecedario que refuerzan tanto el reconocimiento de letras como el vocabulario espacial en un formato visual atractivo.`,
     },
     {
       appId: 'word-guess',
-      title: 'Generador de Fichas de Adivinanzas de Palabras',
+      title: `Generador de Fichas de Adivinanzas de Palabras`,
       description: `Un complemento lingüístico que crea rompecabezas de ampliación de vocabulario. Los usuarios que dominan las preposiciones espaciales pueden expandir aún más su vocabulario con actividades de adivinanzas de palabras que ponen a prueba el conocimiento léxico a través de pistas basadas en imágenes.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de Fichas de Asociación',
+      title: `Generador de Fichas de Asociación`,
       description: `Un complemento de asociación visual que crea fichas de conciencia espacial. Las actividades de asociación desarrollan las mismas habilidades de comparación visual y razonamiento espacial utilizadas en los ejercicios de escenas de preposiciones, creando una línea de productos de alfabetización cohesiva.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/prepositions/Preposiciones 1.webp`, alt: 'Ficha de preposiciones mostrando escenas de imágenes con ejercicios de relaciones espaciales para práctica de palabras de posición' },
+    heroImage: { src: `/samples/spanish/prepositions/Preposiciones 1.webp`, alt: `Ficha de preposiciones mostrando escenas de imágenes con ejercicios de relaciones espaciales para práctica de palabras de posición` },
     samples: [
-      { src: `/samples/spanish/prepositions/Preposiciones 1.webp`, alt: 'Ficha de preposiciones con ejercicios de completar espacios usando escenas de imágenes coloridas mostrando relaciones espaciales', caption: 'Ejercicios de preposiciones para completar espacios con escenas de imágenes' },
-      { src: `/samples/spanish/prepositions/Preposiciones 2.webp`, alt: 'Ficha de preposiciones con ejercicios de opción múltiple de relaciones espaciales para práctica guiada', caption: 'Modo de opción múltiple para práctica guiada apta para principiantes' },
-      { src: `/samples/spanish/prepositions/Preposiciones 3.webp`, alt: 'Ficha avanzada de preposiciones con reemplazo de formas creando combinaciones de escenas únicas', caption: 'El reemplazo de formas multiplica las combinaciones visuales para variedad de productos' },
+      { src: `/samples/spanish/prepositions/Preposiciones 1.webp`, alt: `Ficha de preposiciones con ejercicios de completar espacios usando escenas de imágenes coloridas mostrando relaciones espaciales`, caption: `Ejercicios de preposiciones para completar espacios con escenas de imágenes` },
+      { src: `/samples/spanish/prepositions/Preposiciones 2.webp`, alt: `Ficha de preposiciones con ejercicios de opción múltiple de relaciones espaciales para práctica guiada`, caption: `Modo de opción múltiple para práctica guiada apta para principiantes` },
+      { src: `/samples/spanish/prepositions/Preposiciones 3.webp`, alt: `Ficha avanzada de preposiciones con reemplazo de formas creando combinaciones de escenas únicas`, caption: `El reemplazo de formas multiplica las combinaciones visuales para variedad de productos` },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: `Cómo crear fichas de preposiciones — Tutorial completo`,
   },
 
   themeImages: [
-    { src: `/image-library/around%20the%20house/alarm%20clock.webp`, alt: 'Despertador — imagen educativa temática', caption: 'Despertador' },
-    { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Sillón — imagen educativa temática', caption: 'Sillón' },
-    { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Bañera — imagen educativa temática', caption: 'Bañera' },
-    { src: '/image-library/around%20the%20house/bed.webp', alt: 'Cama — imagen educativa temática', caption: 'Cama' },
-    { src: '/image-library/around%20the%20house/blender.webp', alt: 'Licuadora — imagen educativa temática', caption: 'Licuadora' },
+    { src: `/image-library/around%20the%20house/alarm%20clock.webp`, alt: `Despertador — imagen educativa temática`, caption: 'Despertador' },
+    { src: `/image-library/around%20the%20house/armchair.webp`, alt: `Sillón — imagen educativa temática`, caption: 'Sillón' },
+    { src: `/image-library/around%20the%20house/bathtub.webp`, alt: `Bañera — imagen educativa temática`, caption: 'Bañera' },
+    { src: `/image-library/around%20the%20house/bed.webp`, alt: `Cama — imagen educativa temática`, caption: 'Cama' },
+    { src: `/image-library/around%20the%20house/blender.webp`, alt: `Licuadora — imagen educativa temática`, caption: 'Licuadora' },
   ],
 };
 

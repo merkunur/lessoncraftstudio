@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Caja Suscripción — Guía de Nicho`,
     metaDescription: `Ideas de imprimibles de caja de suscripción para vender en Etsy, Gumroad y Patreon. Construye ingresos recurrentes con paquetes mensuales curados de fichas.`,
-    primaryKeyword: 'ideas imprimibles caja suscripción',
+    primaryKeyword: `ideas imprimibles caja suscripción`,
     secondaryKeywords: [
-      'negocio suscripción imprimibles educativos',
-      'modelo suscripción fichas mensuales',
-      'servicio entrega recurrente imprimibles',
-      'vender suscripciones imprimibles en línea',
+      `negocio suscripción imprimibles educativos`,
+      `modelo suscripción fichas mensuales`,
+      `servicio entrega recurrente imprimibles`,
+      `vender suscripciones imprimibles en línea`,
     ],
     lsiKeywords: [
-      'productos entrega educativa mensual',
-      'modelo ingresos recurrentes fichas',
-      'servicio paquetes imprimibles curados',
+      `productos entrega educativa mensual`,
+      `modelo ingresos recurrentes fichas`,
+      `servicio paquetes imprimibles curados`,
     ],
   },
   hero: {
@@ -94,17 +94,17 @@ El modelo de suscripción funciona en múltiples plataformas incluyendo Gumroad 
     },
     {
       platform: 'Patreon',
-      title: 'Gestionar una Suscripción de Fichas en Patreon',
+      title: `Gestionar una Suscripción de Fichas en Patreon`,
       description: `El modelo de membresía basado en niveles de Patreon se adapta naturalmente a las suscripciones de fichas imprimibles con múltiples niveles de contenido que sirven diferentes necesidades y preferencias de presupuesto de los suscriptores mientras crean caminos claros de mejora que aumentan los ingresos promedio por suscriptor con el tiempo. Ofrece un nivel básico con un paquete mensual de fichas cubriendo una sola área temática, un nivel medio con múltiples paquetes abarcando varias materias y niveles de grado, y un nivel premium con contenido exclusivo, acceso anticipado a nuevos materiales, privilegios de solicitud de contenido y compartición del proceso de creación entre bastidores que construye conexión personal con los suscriptores. Las funciones comunitarias de Patreon incluyendo publicaciones, encuestas, comentarios y mensajería directa ayudan a construir participación de suscriptores más allá de las entregas mensuales de fichas en sí, creando la profundidad de relación y el sentido de pertenencia que transforma suscriptores pasivos en miembros activos de la comunidad invertidos en tu éxito continuo. La plataforma maneja toda la facturación, notificaciones de entrega, procesamiento de pagos y gestión de suscriptores reduciendo la sobrecarga técnica para vendedores que quieren concentrarse en la creación de contenido en lugar de la infraestructura de suscripción. Utiliza encuestas de Patreon para permitir que los suscriptores voten sobre los próximos temas mensuales, creando participación que da a los miembros propiedad sobre la dirección del contenido y aumenta su inversión en mantener su suscripción porque ayudaron a definir lo que viene a continuación.`,
     },
     {
       platform: 'Etsy',
-      title: 'Crear Ventas Estilo Suscripción en Etsy',
+      title: `Crear Ventas Estilo Suscripción en Etsy`,
       description: `Aunque Etsy carece de funcionalidad nativa de facturación de suscripción, los vendedores creativos de imprimibles construyen negocios estilo suscripción a través de renovaciones mensuales de listados, paquetes promocionales de «suscríbete y ahorra» y programas de cultivo de clientes recurrentes que simulan ingresos recurrentes dentro de las restricciones de la plataforma. Lista paquetes mensuales individuales de fichas como productos separados mientras promocionas la serie continua prominentemente en cada descripción de listado, animando a los compradores que adquieren un paquete mensual a regresar en meses subsiguientes destacando la continuidad temática y la dificultad progresiva que conecta entregas mensuales consecutivas en un programa educativo coherente. Utiliza los mensajes automatizados al comprador de Etsy para invitar a compradores únicos a suscribirse para futuros meses a través de enlaces de compra directa o uniéndose a tu lista de correo donde puedes ofrecer precios de suscriptor y entrega mensual automática fuera de la plataforma Etsy. Construye una lista de correo electrónico a partir de clientes de Etsy para transicionar compradores interesados a plataformas directas como Gumroad o Shopify donde la facturación recurrente está automatizada y la gestión de suscripciones es fluida, usando Etsy como un canal de adquisición de clientes que alimenta tu negocio de suscripción con compradores calificados que ya han demostrado disposición a comprar tu contenido de fichas. Crea paquetes anuales a precio con descuento que funcionen como suscripciones prepagadas, entregando paquetes de contenido mensual durante todo el año mientras cobras el pago completo por adelantado para ingresos predecibles y riesgo reducido de cancelación.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Construir Ingresos Estilo Suscripción en Gumroad',
+      title: `Construir Ingresos Estilo Suscripción en Gumroad`,
       description: `Gumroad soporta paquetes en crecimiento que funcionan de manera similar a las suscripciones donde creas un paquete de año completo con un precio premium que recibe adiciones mensuales durante todo el año escolar, y los compradores tempranos obtienen el mejor valor a medida que el paquete crece cada mes con nuevas adiciones de contenido que reciben automáticamente a través del sistema de notificaciones de la plataforma. Gumroad automáticamente alerta a los compradores anteriores del paquete cuando se agrega nuevo contenido, creando participación estilo suscripción donde los vendedores reciben notificaciones mensuales sobre materiales frescos añadidos a su paquete comprado sin ningún pago adicional requerido después de la compra inicial. Las membresías anuales de fichas para venta en línea alineadas con el calendario escolar de septiembre a junio crean ciclos naturales de suscripción que coinciden con los patrones de compra de los vendedores, con el precio del paquete en crecimiento aumentando a medida que se agrega más contenido mensual durante el año, recompensando a los compradores tempranos que compraron cuando el paquete era más pequeño y menos costoso. Estructura tu paquete en crecimiento con un calendario claro de contenido mensual publicado en la descripción del producto para que los vendedores puedan ver exactamente qué temas y materias se cubrirán en cada próximo mes, construyendo anticipación y ayudando a los vendedores a planificar sus horarios instruccionales alrededor de tu cronograma de entrega de contenido. Incluye un elemento comunitario estilo suscriptor creando una sección dedicada de retroalimentación en tu tienda de Gumroad donde los compradores del paquete pueden solicitar temas o materias específicos para las próximas adiciones mensuales, construyendo la participación que fortalece las relaciones a largo plazo con los clientes y anima a los vendedores a recomendar tu paquete en crecimiento a colegas.`,
     },
   ],
@@ -143,18 +143,18 @@ El modelo de suscripción funciona en múltiples plataformas incluyendo Gumroad 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ El modelo de suscripción funciona en múltiples plataformas incluyendo Gumroad 
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -178,18 +178,18 @@ El modelo de suscripción funciona en múltiples plataformas incluyendo Gumroad 
     },
     {
       pageType: 'idea',
-      slug: 'bases-matematicas-ideas-imprimibles',
+      slug: `bases-matematicas-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Bases Matemáticas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 
 

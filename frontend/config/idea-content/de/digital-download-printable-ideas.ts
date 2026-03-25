@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'digitale download-arbeitsblatt-ideen',
+    primaryKeyword: `digitale download-arbeitsblatt-ideen`,
     secondaryKeywords: [
-      'sofort lieferbare Lern-PDFs auf Etsy erstellen',
+      `sofort lieferbare Lern-PDFs auf Etsy erstellen`,
       `Digital-Download-Druckvorlagen auf Gumroad verkaufen`,
       `druckfertige Arbeitsblätter ohne Lagerhaltung anbieten`,
-      'digitale Bildungsprodukte auf Gumroad und Etsy',
+      `digitale Bildungsprodukte auf Gumroad und Etsy`,
     ],
     lsiKeywords: [
-      'lagerloses Druckvorlagen-Geschäftsmodell',
-      'sofortige Lieferung digitale Lernmaterialien',
-      'PDF-Arbeitsblätter skalierbares Einkommen online',
+      `lagerloses Druckvorlagen-Geschäftsmodell`,
+      `sofortige Lieferung digitale Lernmaterialien`,
+      `PDF-Arbeitsblätter skalierbares Einkommen online`,
     ],
-    titleTag: 'Digitale Download-Arbeitsblatt-Ideen — Leitfaden',
+    titleTag: `Digitale Download-Arbeitsblatt-Ideen — Leitfaden`,
     metaDescription: `Digitale Download-Arbeitsblatt-Ideen für Etsy, Gumroad und Gumroad. Druckvorlagen-Geschäft ohne Lagerhaltung mit sofort lieferbaren Lern-PDFs für Verkäufer.`,
   },
   hero: {
@@ -141,18 +141,18 @@ Digitale Produkte bieten auch einzigartigen Mehrwert nach dem Verkauf durch die 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -161,33 +161,33 @@ Digitale Produkte bieten auch einzigartigen Mehrwert nach dem Verkauf durch die 
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'print-on-demand-druckvorlagen-ideen',
-      anchorText: 'Print-on-Demand Arbeitsblatt-Geschäftsideen',
+      slug: `print-on-demand-druckvorlagen-ideen`,
+      anchorText: `Print-on-Demand Arbeitsblatt-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 
 

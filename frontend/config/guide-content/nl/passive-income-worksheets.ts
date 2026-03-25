@@ -7,7 +7,7 @@ const content: GuideContent = {
       'passief inkomen printables',
       'werkbladen verkopen passief',
       'digitaal passief inkomen',
-      'printable passief inkomen strategie',
+      `printable passief inkomen strategie`,
     ],
     lsiKeywords: [
       `automatische digitale levering downloadbare werkbladen terugkerende verkoop passief verdienen`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `e-mailmarketing automatisering verkoopfunnel klantenlijst herhaalaankopen`,
       `bundelstrategie upselling cross-selling gemiddelde orderwaarde verhogen`,
     ],
-    titleTag: 'Passief Inkomen met Werkbladen — Complete Gids',
+    titleTag: `Passief Inkomen met Werkbladen — Complete Gids`,
     metaDescription: `Leer hoe je passief inkomen opbouwt met printbare werkbladen. Van productcreatie tot automatisering, ontdek bewezen strategieën voor duurzame digitale.`,
   },
 
   hero: {
-    title: 'Passief Inkomen Opbouwen met Werkbladen',
+    title: `Passief Inkomen Opbouwen met Werkbladen`,
     tagline: `Een uitgebreide gids voor het creëren van duurzame inkomstenstromen met printbare werkbladen en educatief materiaal — van eerste productcreatie tot volledige automatisering van je digitale printable bedrijf, inclusief platformkeuze, bundelstrategieën, e-mailmarketingautomatisering, seizoensplanning voor stabiel jaarrond inkomen en schaalbare groeimodellen voor langetermijn financiële vrijheid`,
     description: `Passief inkomen met printbare werkbladen is geen fantasie — het is een bewezen bedrijfsmodel dat duizenden ondernemers wereldwijd succesvol toepassen. Het concept is eenvoudig maar krachtig: je creëert één keer een hoogwaardig werkblad of educatief materiaal, publiceert het op één of meerdere verkoopplatformen, en verdient telkens opnieuw wanneer iemand het downloadt. Anders dan fysieke producten zijn er geen voorraadkosten, geen verzendlogistiek en geen productielimieten. Een PDF-werkblad dat je vandaag maakt kan over vijf jaar nog steeds dagelijks verkopen zonder dat je er iets aan hoeft te doen. Deze gids neemt je stap voor stap mee door het volledige proces: van het kiezen van je eerste niche en het maken van professionele werkbladen met onze generatoren (beschikbaar als gratis proefversie met watermerk), tot het opzetten van geautomatiseerde verkoopfunnels die 24 uur per dag, 7 dagen per week voor je werken. Of je nu een fulltime inkomen wilt opbouwen of een betrouwbare bijverdienste zoekt, printbare werkbladen bieden een van de meest toegankelijke wegen naar echt passief inkomen in de digitale economie.`,
   },
@@ -40,7 +40,7 @@ const content: GuideContent = {
     },
     {
       heading: `Publiceer op Meerdere Platformen voor Gespreide Inkomsten`,
-      content: `Platformdiversificatie is cruciaal voor stabiel passief inkomen. Afhankelijkheid van één verkoopkanaal maakt je kwetsbaar voor beleidswijzigingen, algoritme-updates en platformspecifieke risico's. De meest succesvolle passieve inkomen verdieners publiceren hun werkbladen op meerdere platformen tegelijk, waardoor ze meerdere onafhankelijke inkomstenstromen creëren die samen stabieler zijn dan elk platform afzonderlijk.\n\nEtsy is voor veel werkbladverkopers het eerste en belangrijkste platform. Het enorme organische zoekverkeer van Etsy betekent dat goed geoptimaliseerde werkbladen kopers aantrekken zonder actieve marketing. Miljoenen shoppers zoeken maandelijks naar educatieve printables, en met de juiste zoekwoorden, tags en productfoto's verschijnen je werkbladen automatisch in relevante zoekresultaten. Het nadeel is de groeiende concurrentie en de commissiestructuur die 15% tot 25% van je omzet kan bedragen. Onze gids over een Etsy printable winkel starten behandelt de complete opzet.\n\nGumroad (Gumroad) is het gespecialiseerde platform voor educatief materiaal. verkopers die actief zoeken naar printbare producten vormen een hoogwaardige doelgroep die bereid is te betalen voor kwalitatieve werkbladen. Gumroad's doelgroep is kleiner dan Etsy's maar veel gerichter, wat resulteert in hogere conversiepercentages. De commissie van 40% (of 20% voor premium leden) is hoger dan Etsy, maar de gemiddelde orderwaarde compenseert dit vaak. Onze gids over Gumroad-resources verkopen legt de optimale aanpak uit.\n\nAmazon KDP biedt een unieke mogelijkheid voor werkbladen in boekvorm. Door je werkbladen te bundelen in activiteitenboeken kun je ze publiceren als print-on-demand producten op Amazon. Je ontvangt royalty's op elke verkoop zonder voorraadrisico. Het voordeel is Amazon's enorme bereik en geloofwaardigheid; het nadeel is de lagere marge en minder controle over presentatie. Combineer KDP met je digitale verkoop voor maximale marktdekking.\n\nGumroad en eigen verkoopkanalen bieden de hoogste marges en volledige controle over de klantrelatie. Op Gumroad houd je 90% van elke verkoop en verzamel je e-mailadressen van kopers voor directe marketing. Hoewel je zelf verkeer moet genereren, is elk verkoopkanaal dat je volledig controleert een waardevolle aanvulling op platformafhankelijke inkomsten. Onze gids over printables verkopen op Gumroad behandelt de complete strategie.\n\nCreative Fabrica richt zich op de creatieve markt en biedt een groeiend publiek voor educatieve printables. Het abonnementsmodel van Creative Fabrica betekent dat je verdient op basis van downloads door abonnees, wat kan leiden tot consistente maandelijkse inkomsten zonder directe verkopen. Combineer dit met je directe verkoopkanalen voor een extra passieve inkomstenstroom.\n\nPlan je platformstrategie zorgvuldig. Publiceer niet blindelings overal tegelijk — begin met twee platformen, optimaliseer je vermeldingen volledig en breid dan geleidelijk uit. Zorg dat je productbeschrijvingen, zoekwoorden en afbeeldingen per platform zijn geoptimaliseerd; kopieer niet simpelweg dezelfde vermelding naar elk platform. Elk platform heeft zijn eigen algoritme, doelgroep en beste praktijken.`,
+      content: `Platformdiversificatie is cruciaal voor stabiel passief inkomen. Afhankelijkheid van één verkoopkanaal maakt je kwetsbaar voor beleidswijzigingen, algoritme-updates en platformspecifieke risico`s. De meest succesvolle passieve inkomen verdieners publiceren hun werkbladen op meerdere platformen tegelijk, waardoor ze meerdere onafhankelijke inkomstenstromen creëren die samen stabieler zijn dan elk platform afzonderlijk.\n\nEtsy is voor veel werkbladverkopers het eerste en belangrijkste platform. Het enorme organische zoekverkeer van Etsy betekent dat goed geoptimaliseerde werkbladen kopers aantrekken zonder actieve marketing. Miljoenen shoppers zoeken maandelijks naar educatieve printables, en met de juiste zoekwoorden, tags en productfoto`s verschijnen je werkbladen automatisch in relevante zoekresultaten. Het nadeel is de groeiende concurrentie en de commissiestructuur die 15% tot 25% van je omzet kan bedragen. Onze gids over een Etsy printable winkel starten behandelt de complete opzet.\n\nGumroad (Gumroad) is het gespecialiseerde platform voor educatief materiaal. verkopers die actief zoeken naar printbare producten vormen een hoogwaardige doelgroep die bereid is te betalen voor kwalitatieve werkbladen. Gumroad`s doelgroep is kleiner dan Etsy`s maar veel gerichter, wat resulteert in hogere conversiepercentages. De commissie van 40% (of 20% voor premium leden) is hoger dan Etsy, maar de gemiddelde orderwaarde compenseert dit vaak. Onze gids over Gumroad-resources verkopen legt de optimale aanpak uit.\n\nAmazon KDP biedt een unieke mogelijkheid voor werkbladen in boekvorm. Door je werkbladen te bundelen in activiteitenboeken kun je ze publiceren als print-on-demand producten op Amazon. Je ontvangt royalty`s op elke verkoop zonder voorraadrisico. Het voordeel is Amazon`s enorme bereik en geloofwaardigheid; het nadeel is de lagere marge en minder controle over presentatie. Combineer KDP met je digitale verkoop voor maximale marktdekking.\n\nGumroad en eigen verkoopkanalen bieden de hoogste marges en volledige controle over de klantrelatie. Op Gumroad houd je 90% van elke verkoop en verzamel je e-mailadressen van kopers voor directe marketing. Hoewel je zelf verkeer moet genereren, is elk verkoopkanaal dat je volledig controleert een waardevolle aanvulling op platformafhankelijke inkomsten. Onze gids over printables verkopen op Gumroad behandelt de complete strategie.\n\nCreative Fabrica richt zich op de creatieve markt en biedt een groeiend publiek voor educatieve printables. Het abonnementsmodel van Creative Fabrica betekent dat je verdient op basis van downloads door abonnees, wat kan leiden tot consistente maandelijkse inkomsten zonder directe verkopen. Combineer dit met je directe verkoopkanalen voor een extra passieve inkomstenstroom.\n\nPlan je platformstrategie zorgvuldig. Publiceer niet blindelings overal tegelijk — begin met twee platformen, optimaliseer je vermeldingen volledig en breid dan geleidelijk uit. Zorg dat je productbeschrijvingen, zoekwoorden en afbeeldingen per platform zijn geoptimaliseerd; kopieer niet simpelweg dezelfde vermelding naar elk platform. Elk platform heeft zijn eigen algoritme, doelgroep en beste praktijken.`,
     },
     {
       heading: `Automatiseer Je Verkoopproces voor Echt Passief Inkomen`,
@@ -52,7 +52,7 @@ const content: GuideContent = {
     },
     {
       heading: `Plan Seizoensgebonden Content voor Jaarrond Passief Inkomen`,
-      content: `Hoewel evergreen werkbladen de basis vormen van je passieve inkomen, kan seizoensgebonden content je maandelijkse inkomsten aanzienlijk stabiliseren en pieken creëren die je totale jaaromzet verhogen. De sleutel is vooruit plannen: maak seizoensgebonden werkbladen ruim vóór het seizoen zodat ze geoptimaliseerd en geïndexeerd zijn wanneer de vraag piekt.\n\nHet schooljaar creëert de belangrijkste seizoenspatronen voor educatieve werkbladen. Augustus en september zijn topmaanden voor werkbladen gericht op het begin van het schooljaar: introductie van nieuwe vaardigheden, diagnostische toetsen en basisoefeningen. Oktober tot december ziet stijgende vraag naar werkbladen met herfst- en winterthema's plus eindejaarsevaluaties. Januari brengt een tweede piek door goede voornemens van ouders en verkopers die extra oefenmateriaal zoeken. Maart tot mei toont groeiende vraag naar werkbladen voor toetsvoorbereiding en eindejaarsherhaling. De zomermaanden juni tot augustus zijn traditioneel rustiger maar tonen stijgende vraag naar zomeractiviteiten en vakantiepakketten.\n\nPlan je productiecyclus minstens twee maanden voor elk seizoen. Als je herfstthema werkbladen wilt verkopen in oktober, moeten ze uiterlijk begin augustus gepubliceerd en geoptimaliseerd zijn. Platformalgoritmen hebben tijd nodig om nieuwe producten te indexeren en te ranken, en kopers beginnen vroeg met zoeken. Een product dat je in oktober publiceert voor de kerstperiode mist de vroege shoppers die in november al hun materiaal inkopen.\n\nCreëer een jaarkalender voor seizoensgebonden werkbladen die je elk jaar hergebruikt. Maak in januari werkbladen voor Valentijnsdag en voorjaar, in maart voor Pasen en zomer, in juni voor back-to-school en herfst, in september voor Halloween en winter, en in november voor kerst en nieuwjaar. Dit ritme zorgt ervoor dat je altijd iets nieuws hebt om te promoten terwijl je bestaande seizoensproducten elk jaar opnieuw verkopen zonder bijkomend werk.\n\nThematische werkbladen combineren seizoensgebonden aantrekkelijkheid met educatieve waarde. Een optelwerkblad met pompoenen is net zo educatief als een standaard optelwerkblad, maar het seizoensgebonden thema maakt het aantrekkelijker voor kopers die hun lessen willen laten aansluiten bij het seizoen. Door dezelfde educatieve content te verpakken in verschillende seizoensgebonden thema's vermenigvuldig je je catalogus zonder nieuwe educatieve concepten te hoeven ontwikkelen.\n\nVergeet niet dat seizoensgebonden producten in opvolgende jaren opnieuw verkopen. Een Halloween woordzoeker die je in 2025 maakt, verkoopt ook in 2026, 2027 en daarna. Dit is de essentie van passief inkomen: de eenmalige productie-inspanning levert jaarlijks terugkerende inkomsten op. Na drie jaar seizoensgebonden productie heb je een catalogus opgebouwd die in elke maand van het jaar relevante producten bevat, waardoor je maandelijkse inkomen stabieler en voorspelbaarder wordt.`,
+      content: `Hoewel evergreen werkbladen de basis vormen van je passieve inkomen, kan seizoensgebonden content je maandelijkse inkomsten aanzienlijk stabiliseren en pieken creëren die je totale jaaromzet verhogen. De sleutel is vooruit plannen: maak seizoensgebonden werkbladen ruim vóór het seizoen zodat ze geoptimaliseerd en geïndexeerd zijn wanneer de vraag piekt.\n\nHet schooljaar creëert de belangrijkste seizoenspatronen voor educatieve werkbladen. Augustus en september zijn topmaanden voor werkbladen gericht op het begin van het schooljaar: introductie van nieuwe vaardigheden, diagnostische toetsen en basisoefeningen. Oktober tot december ziet stijgende vraag naar werkbladen met herfst- en winterthema`s plus eindejaarsevaluaties. Januari brengt een tweede piek door goede voornemens van ouders en verkopers die extra oefenmateriaal zoeken. Maart tot mei toont groeiende vraag naar werkbladen voor toetsvoorbereiding en eindejaarsherhaling. De zomermaanden juni tot augustus zijn traditioneel rustiger maar tonen stijgende vraag naar zomeractiviteiten en vakantiepakketten.\n\nPlan je productiecyclus minstens twee maanden voor elk seizoen. Als je herfstthema werkbladen wilt verkopen in oktober, moeten ze uiterlijk begin augustus gepubliceerd en geoptimaliseerd zijn. Platformalgoritmen hebben tijd nodig om nieuwe producten te indexeren en te ranken, en kopers beginnen vroeg met zoeken. Een product dat je in oktober publiceert voor de kerstperiode mist de vroege shoppers die in november al hun materiaal inkopen.\n\nCreëer een jaarkalender voor seizoensgebonden werkbladen die je elk jaar hergebruikt. Maak in januari werkbladen voor Valentijnsdag en voorjaar, in maart voor Pasen en zomer, in juni voor back-to-school en herfst, in september voor Halloween en winter, en in november voor kerst en nieuwjaar. Dit ritme zorgt ervoor dat je altijd iets nieuws hebt om te promoten terwijl je bestaande seizoensproducten elk jaar opnieuw verkopen zonder bijkomend werk.\n\nThematische werkbladen combineren seizoensgebonden aantrekkelijkheid met educatieve waarde. Een optelwerkblad met pompoenen is net zo educatief als een standaard optelwerkblad, maar het seizoensgebonden thema maakt het aantrekkelijker voor kopers die hun lessen willen laten aansluiten bij het seizoen. Door dezelfde educatieve content te verpakken in verschillende seizoensgebonden thema`s vermenigvuldig je je catalogus zonder nieuwe educatieve concepten te hoeven ontwikkelen.\n\nVergeet niet dat seizoensgebonden producten in opvolgende jaren opnieuw verkopen. Een Halloween woordzoeker die je in 2025 maakt, verkoopt ook in 2026, 2027 en daarna. Dit is de essentie van passief inkomen: de eenmalige productie-inspanning levert jaarlijks terugkerende inkomsten op. Na drie jaar seizoensgebonden productie heb je een catalogus opgebouwd die in elke maand van het jaar relevante producten bevat, waardoor je maandelijkse inkomen stabieler en voorspelbaarder wordt.`,
     },
     {
       heading: `Monitor, Optimaliseer en Schaal Je Passieve Inkomstenstromen`,
@@ -62,22 +62,22 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Etsy als Passieve Inkomen Machine Inrichten',
-      content: `Etsy is het krachtigste platform voor passief inkomen met werkbladen dankzij het enorme organische zoekverkeer. Miljoenen kopers zoeken maandelijks naar educatieve printables, en met de juiste SEO-strategie verschijnen je werkbladen automatisch in relevante zoekresultaten zonder dat je actief verkeer hoeft te genereren. De sleutel tot passief inkomen op Etsy is zoekwoordoptimalisatie die je producten vindbaar maakt voor jarenlange periodes.\n\nOptimaliseer je producttitels met long-tail zoekwoorden die specifiek beschrijven wat je aanbiedt. \"Optellen Werkbladen Groep 3 Hergroepering 50 Pagina's met Antwoorden\" presteert beter dan \"Rekenwerkbladen\" omdat het specifiekere zoekopdrachten beantwoordt met hogere koopintentie. Gebruik alle 13 beschikbare tags en vul ze met variaties van je belangrijkste zoekwoorden.\n\nAutoriseer Etsy's Star Seller programma als passief inkomen versneller. Star Seller status verbetert je zichtbaarheid in zoekresultaten en verhoogt het vertrouwen van kopers. De criteria — berichtresponstijd, verzendsnelheid en vijfsterrenbeoordelingen — zijn voor digitale producten relatief eenvoudig te behalen. Automatische levering zorgt voor "verzending" binnen seconden, en kwalitatieve werkbladen genereren positieve beoordelingen. Onze gids over je Etsy printable winkel starten behandelt de complete Etsy-strategie.`,
+      heading: `Etsy als Passieve Inkomen Machine Inrichten`,
+      content: `Etsy is het krachtigste platform voor passief inkomen met werkbladen dankzij het enorme organische zoekverkeer. Miljoenen kopers zoeken maandelijks naar educatieve printables, en met de juiste SEO-strategie verschijnen je werkbladen automatisch in relevante zoekresultaten zonder dat je actief verkeer hoeft te genereren. De sleutel tot passief inkomen op Etsy is zoekwoordoptimalisatie die je producten vindbaar maakt voor jarenlange periodes.\n\nOptimaliseer je producttitels met long-tail zoekwoorden die specifiek beschrijven wat je aanbiedt. \"Optellen Werkbladen Groep 3 Hergroepering 50 Pagina`s met Antwoorden\" presteert beter dan \"Rekenwerkbladen\" omdat het specifiekere zoekopdrachten beantwoordt met hogere koopintentie. Gebruik alle 13 beschikbare tags en vul ze met variaties van je belangrijkste zoekwoorden.\n\nAutoriseer Etsy`s Star Seller programma als passief inkomen versneller. Star Seller status verbetert je zichtbaarheid in zoekresultaten en verhoogt het vertrouwen van kopers. De criteria — berichtresponstijd, verzendsnelheid en vijfsterrenbeoordelingen — zijn voor digitale producten relatief eenvoudig te behalen. Automatische levering zorgt voor "verzending" binnen seconden, en kwalitatieve werkbladen genereren positieve beoordelingen. Onze gids over je Etsy printable winkel starten behandelt de complete Etsy-strategie.`,
     },
     {
-      heading: 'Amazon KDP voor Langetermijn Passief Inkomen',
+      heading: `Amazon KDP voor Langetermijn Passief Inkomen`,
       content: `Amazon KDP biedt een uniek voordeel voor passief inkomen dat geen enkel ander platform kan evenaren: het print-on-demand model elimineert niet alleen voorraadrisico maar maakt je werkbladen beschikbaar als fysieke boeken in het grootste online winkelcentrum ter wereld. Ouders en verkopers die liever een gebonden activiteitenboek kopen dan een PDF downloaden, bereik je uitsluitend via KDP.\n\nDe sleutel tot passief inkomen op KDP is volumeproductie van activiteitenboeken in bewezen niches. Elk boek moet minimaal 50 tot 80 pagina's bevatten voor een bevredigend product, en je hebt een catalogus van tientallen boeken nodig om betekenisvolle maandelijkse inkomsten te genereren. De gemiddelde KDP royalty per boek ligt tussen €1,50 en €3 per verkoop, dus je hebt volume nodig om significant passief inkomen op te bouwen.\n\nOptimaliseer je boekmetadata obsessief: titel, ondertitel, zoekwoorden en categorieën bepalen of Amazon je boek toont aan potentiële kopers. Gebruik A+ Content voor een rijkere productpagina, kies de juiste BISAC-categorieën voor maximale zichtbaarheid en schrijf boekbeschrijvingen die zowel ouders als verkopers aanspreken. Onze gids over wiskundeactiviteitenboeken op KDP behandelt de complete KDP-strategie voor werkbladen.`,
     },
     {
       heading: `Directe Verkoopkanalen voor Maximale Passieve Marge`,
-      content: `Directe verkoopkanalen zoals Gumroad en een eigen webshop bieden de hoogste marges en volledige controle over je klantrelatie, wat ze essentieel maakt voor langetermijn passief inkomen. Hoewel je zelf verkeer moet genereren, is elke directe verkoop winstgevender dan een platformverkoop en bouw je tegelijkertijd een eigen klantenbestand op dat onafhankelijk is van platformalgoritmen.\n\nGumroad's 10% vaste commissie resulteert in 90% nettomarge — vergelijk dat met Etsy\'s effectieve 20-25% of KDP\'s 40-65% inhouding. Bij een werkbladpakket van €15 houd je op Gumroad €13,50 versus €11,25 op Etsy. Over honderden verkopen wordt dit verschil duizenden euro\'s per jaar. Bovendien verzamel je e-mailadressen van elke koper, wat directe marketing mogelijk maakt zonder platformafhankelijkheid.\n\nPinterest is het belangrijkste gratis verkeerskanaal voor directe werkbladverkoop. Creëer visueel aantrekkelijke pins die je werkbladen tonen en link ze naar je Gumroad productpagina's. Pinterest-content heeft een lange levensduur — een pin die je vandaag plaatst kan maanden later nog verkeer genereren, wat perfect past bij het passieve inkomen model. Plan 30 tot 50 pins vooruit met Tailwind en laat de automatische scheduling je verkeer genereren terwijl jij je focust op andere zaken. Onze gids over printables verkopen op Gumroad behandelt de volledige directe verkoopstrategie.`,
+      content: `Directe verkoopkanalen zoals Gumroad en een eigen webshop bieden de hoogste marges en volledige controle over je klantrelatie, wat ze essentieel maakt voor langetermijn passief inkomen. Hoewel je zelf verkeer moet genereren, is elke directe verkoop winstgevender dan een platformverkoop en bouw je tegelijkertijd een eigen klantenbestand op dat onafhankelijk is van platformalgoritmen.\n\nGumroad`s 10% vaste commissie resulteert in 90% nettomarge — vergelijk dat met Etsy's effectieve 20-25% of KDP's 40-65% inhouding. Bij een werkbladpakket van €15 houd je op Gumroad €13,50 versus €11,25 op Etsy. Over honderden verkopen wordt dit verschil duizenden euro's per jaar. Bovendien verzamel je e-mailadressen van elke koper, wat directe marketing mogelijk maakt zonder platformafhankelijkheid.\n\nPinterest is het belangrijkste gratis verkeerskanaal voor directe werkbladverkoop. Creëer visueel aantrekkelijke pins die je werkbladen tonen en link ze naar je Gumroad productpagina`s. Pinterest-content heeft een lange levensduur — een pin die je vandaag plaatst kan maanden later nog verkeer genereren, wat perfect past bij het passieve inkomen model. Plan 30 tot 50 pins vooruit met Tailwind en laat de automatische scheduling je verkeer genereren terwijl jij je focust op andere zaken. Onze gids over printables verkopen op Gumroad behandelt de volledige directe verkoopstrategie.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Prijsstrategieën voor Maximaal Passief Inkomen',
+      heading: `Prijsstrategieën voor Maximaal Passief Inkomen`,
       content: `De juiste prijsstrategie kan het verschil maken tussen bescheiden bijverdiensten en serieus passief inkomen. Veel werkbladverkopers onderprijzen hun producten uit angst dat hogere prijzen kopers afschrikken, maar onderzoek toont consistent aan dat de prijs zelden de doorslaggevende factor is voor educatieve printables. Kopers zoeken waarde, niet de laagste prijs, en een goed geprijsd product communiceert hogere kwaliteit.\n\nHanteer een prijsstructuur gebaseerd op productomvang en licentietier. Individuele werkbladen: €2 tot €5. Kleine pakketten (10-20 werkbladen): €7 tot €12. Standaardpakketten (30-50 werkbladen): €15 tot €22. Premium pakketten (60+ werkbladen met bonusmateriaal): €25 tot €35. Commerciële licenties: twee tot drie keer de persoonlijke prijs. Deze prijspunten zijn gebaseerd op marktonderzoek en de prijzen van succesvolle verkopers op Etsy en Gumroad.\n\nExperimenteer met pay-what-you-want prijsstelling voor leadgeneratie. Bied een gratis proefpakket aan (5-10 werkbladen) via Gumroad met een minimumprijs van €0. Kopers die het pakket downloaden komen op je e-maillijst, en je geautomatiseerde e-mailsequentie biedt ze vervolgens je betaalde pakketten aan. Deze strategie converteert consistent beter dan directe verkoop aan koude bezoekers. Onze gids over prijzen voor educatieve printables behandelt prijsoptimalisatie gedetailleerd.`,
     },
     {
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Naast eenmalige verkopen kun je terugkerende inkomstenstromen opzetten die je passief inkomen nog voorspelbaarder maken. Bundels vormen de brug tussen individuele producten en terugkerende modellen: ze verhogen de onmiddellijke transactiewaarde en creëren gewenning bij kopers die vervolgens ontvankelijker zijn voor abonnementsaanbiedingen.\n\nMegabundels zijn een krachtig instrument voor high-ticket passief inkomen. Wanneer je catalogus groot genoeg is (100+ werkbladen), bied je een complete collectie aan voor een fractie van de individuele totaalprijs. Een megabundel van 150 werkbladen voor €49 (individueel €400+) is aantrekkelijk voor verkopers die een compleet jaarprogramma zoeken. De marge is hoog omdat de productiekosten al gemaakt zijn, en elke verkoop genereert significante omzet.\n\nMaandelijkse lidmaatschappen op Gumroad bieden de ultieme vorm van terugkerend passief inkomen. Leden betalen een vast maandbedrag (€5 tot €15) en ontvangen maandelijks nieuwe werkbladen plus toegang tot je volledige archief. Het opzetten vereist meer inspanning dan eenmalige producten — je moet consistent nieuwe content leveren — maar de voorspelbaarheid van maandelijks terugkerende inkomsten is van onschatbare waarde voor financiële planning. Onze gids over printable bedrijf inkomsten behandelt alle verdienmodellen inclusief terugkerende structuren.`,
     },
     {
-      heading: 'Passief Inkomen Diversificatie Buiten Werkbladen',
+      heading: `Passief Inkomen Diversificatie Buiten Werkbladen`,
       content: `Hoewel werkbladen de kern vormen van je printable bedrijf, bieden gerelateerde productcategorieën extra passieve inkomstenstromen die je totale portefeuille versterken. Diversificatie binnen de printable markt vermindert risico en opent nieuwe klantsegmenten aan.\n\nPlanners en organisatiemateriaal vormen een natuurlijke uitbreiding voor werkbladverkopers. Lesplanners, oefenmateriaalplanners, beloningssystemen en voortgangsregistraties delen dezelfde doelgroep als educatieve werkbladen maar vullen een andere behoefte. Een verkoper die je rekenwerkbladen koopt, is ook geïnteresseerd in een lesplanner of beloningskaarten. Door deze producten toe te voegen aan je catalogus vergroot je de cross-selling mogelijkheden en verhoog je de levensduurwaarde per klant.\n\nWandposters en winkelmateriaal zijn premium printables met hogere prijspunten. Een set wandposters met het alfabet, cijfers of wetenschappelijke concepten verkoopt voor €10 tot €20 en vereist vergelijkbare productie-inspanning als een werkbladpakket. Flashcards, geheugenspellen en bordspellen zijn andere productcategorieën die je met dezelfde tools en vaardigheden kunt creëren.\n\nDigitale cursussen die je werkbladexpertise monetariseren zijn een geavanceerde diversificatiestrategie. Een minicursus over hoe verkopers je werkbladen effectief kunnen inzetten in hun les, of een cursus voor andere ondernemers over het starten van een werkbladbedrijf, kan aanzienlijk passief inkomen genereren tegen premium prijzen. Het vereist meer productietijd maar de marges zijn uitzonderlijk hoog.`,
     },
   ],
@@ -135,33 +135,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'automate-printable-business',
-      title: 'Printable Bedrijf Automatiseren',
+      title: `Printable Bedrijf Automatiseren`,
       description: `Leer hoe je elk aspect van je printable bedrijf automatiseert voor maximaal passief inkomen zonder dagelijkse betrokkenheid.`,
     },
     {
-      slug: 'scale-printable-business-guide',
+      slug: `scale-printable-business-guide`,
       title: 'Printable Bedrijf Opschalen',
       description: `Ontdek strategieën om je werkbladbedrijf op te schalen van bijverdienste naar fulltime passief inkomen met bewezen groeimodellen.`,
     },
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Gids Printable Bedrijf',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Gids Printable Bedrijf`,
       description: `De allesomvattende gids voor het starten en laten groeien van een winstgevend printable bedrijf — van eerste product tot gevestigde onderneming.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'je printable bedrijf automatiseren' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'je printable bedrijf opschalen' },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: `je printable bedrijf automatiseren` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `je printable bedrijf opschalen` },
     { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'nicheselectie voor printables' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijzen voor educatieve printables' },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `prijzen voor educatieve printables` },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'werkbladbundels maken' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'je Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen op Gumroad' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `rekenwerkbladen verkopen op Etsy` },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: `je Etsy printable winkel starten` },
+    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: `printables verkopen op Gumroad` },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoeker puzzels maken' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'optelwerkbladen maken' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `complete gids printable bedrijf` },
     { pageType: 'start', slug: 'printable-business-income', anchorText: 'printable bedrijf inkomsten' },
   ],
 
@@ -190,23 +190,23 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/math puzzle/Wiskundepuzzels 1.webp',
+      src: `/samples/dutch/math puzzle/Wiskundepuzzels 1.webp`,
       alt: `Wiskundepuzzel werkblad voorbeeld voor passief inkomen met printables`,
     },
     samples: [
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
-        alt: 'Optelwerkblad voor passief inkomen verkoop',
+        src: `/samples/dutch/addition/Optellen is Leuk 1.webp`,
+        alt: `Optelwerkblad voor passief inkomen verkoop`,
         caption: `Professioneel optelwerkblad — gegenereerd met de gratis proefversie met watermerk`,
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
-        alt: 'Woordzoeker puzzel voor passief inkomen op Etsy',
+        src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`,
+        alt: `Woordzoeker puzzel voor passief inkomen op Etsy`,
         caption: `Thematische woordzoeker — een van de best verkopende werkbladtypen voor passief inkomen`,
       },
       {
         src: `/samples/dutch/crossword/Plaatjes Kruiswoord 1.webp`,
-        alt: 'Doolhof werkblad voor passief inkomen catalogus',
+        alt: `Doolhof werkblad voor passief inkomen catalogus`,
         caption: `Doolhof werkblad — populair bij kinderen en consistent verkopend op alle platformen`,
       },
     ],
@@ -216,28 +216,28 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/dinosaurs/tyrannosaurus rex.webp',
+      src: `/image-library/dinosaurs/tyrannosaurus rex.webp`,
       alt: `Tyrannosaurus illustratie voor dinosaurus werkbladen`,
       caption: `Tyrannosaurus — het populairste dinosaurusthema voor kinderwerkbladen`,
     },
     {
-      src: '/image-library/dinosaurs/triceratops.webp',
+      src: `/image-library/dinosaurs/triceratops.webp`,
       alt: `Triceratops illustratie voor thematische werkbladen`,
       caption: `Triceratops — geliefd bij kinderen voor kleurplaten en woordzoekers`,
     },
     {
-      src: '/image-library/dinosaurs/stegosaurus.webp',
+      src: `/image-library/dinosaurs/stegosaurus.webp`,
       alt: `Stegosaurus illustratie voor educatieve printables`,
       caption: `Stegosaurus — herkenbare dinosaurus voor sorteer- en telwerkbladen`,
     },
     {
-      src: '/image-library/dinosaurs/deinonychus.webp',
-      alt: 'Pteranodon illustratie voor puzzelwerkbladen',
+      src: `/image-library/dinosaurs/deinonychus.webp`,
+      alt: `Pteranodon illustratie voor puzzelwerkbladen`,
       caption: `Pteranodon — vliegende dinosaurus voor doolhoven en zoekactiviteiten`,
     },
     {
-      src: '/image-library/dinosaurs/brachiosaurus.webp',
-      alt: 'Brachiosaurus illustratie voor werkbladthema',
+      src: `/image-library/dinosaurs/brachiosaurus.webp`,
+      alt: `Brachiosaurus illustratie voor werkbladthema`,
       caption: `Brachiosaurus — imposante plantenetende dinosaurus voor vergelijkings- en meetwerkbladen`,
     },
   ],

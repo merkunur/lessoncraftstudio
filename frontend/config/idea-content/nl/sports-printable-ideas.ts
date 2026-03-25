@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sport Printables Verkopen — Nichegids',
+    titleTag: `Sport Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende sport printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Sportthema productconcepten en platformstrategieën voor verkopers.`,
 
     primaryKeyword: 'sport printable ideeën',
     secondaryKeywords: [
-      'sportthema werkbladen verkopen',
-      'sport printable business ideeën',
-      'sportactiviteiten voor verkopers',
-      'sport printables verkopen op Etsy',
+      `sportthema werkbladen verkopen`,
+      `sport printable business ideeën`,
+      `sportactiviteiten voor verkopers`,
+      `sport printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'teamsport educatieve werkbladen',
-      'balspel thema activiteitenpagina\'s',
-      'lichamelijke opvoeding printbare producten',
+      `teamsport educatieve werkbladen`,
+      `balspel thema activiteitenpagina's`,
+      `lichamelijke opvoeding printbare producten`,
     ],
   },
   hero: {
-    title: 'Sport Printable Businessideeën voor Verkopers',
+    title: `Sport Printable Businessideeën voor Verkopers`,
     description: `Sport is een van de meest universeel boeiende thema's voor kinderen van alle leeftijden, waardoor het een uitzonderlijke altijdgroene niche is voor printable-ondernemers die consistente jaarronde omzet zoeken aangedreven door seizoensgebonden sportrotatie en brede vakoverschrijdende aantrekkingskracht. Het sportthema biedt opmerkelijke subthemadiepte waaronder voetbal, basketbal, honkbal, tennis, hockey, volleybal, zwemmen, hardlopen, turnen, Olympische Spelen, balspellen, teamsporten en individuele sporten, wat verkopers een enorm visueel vocabulaire geeft dat aansluit bij de actieve interesses van vrijwel elk kind — of ze nu op georganiseerde teams spelen, achtertuinspelletjes doen, of hun favoriete atleten bekijken op televisie. Vakoverschrijdende veelzijdigheid maakt sportprintables bijzonder waardevol omdat atletiek van nature aansluit bij rekenen via scores en statistieken, taalvaardigheid via sportvocabulaire, lichamelijke opvoeding via bewegingsmotivatie, en sociale vaardigheden via teamwork en sportiviteit. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De sport printable-niche neemt een uniek krachtige positie in voor printable-verkopers omdat vrijwel elk kind een directe, persoonlijke band heeft met sport via spelen in teams, wedstrijden kijken met het gezin, sportplaatjes verzamelen, teamshirts dragen, of deelnemen aan gymlessen en buitenspel. In tegenstelling tot seizoensthema\'s die de vraag concentreren in smalle kalendervensters, profiteert de sportniche van natuurlijke seizoensrotatie: voetbal domineert het hele jaar in Nederland en Europa, basketbal en schaatsen stimuleren de wintervraag, tennis piekt rond Wimbledon en Roland Garros, en zwemmen en atletiek bereiken hun hoogtepunt tijdens de zomermaanden en Olympische jaren. Deze roterende cyclus zorgt ervoor dat sportthema educatief materiaal het hele jaar door consistent relevant blijft in plaats van afhankelijk te zijn van een enkel piekseizoen.
@@ -38,27 +38,27 @@ Genderinclusieve aantrekkingskracht vertegenwoordigt een waardevolle kracht van 
 
   productIdeas: [
     {
-      title: 'Sport Telwerkbladen voor Printable Verkopers',
+      title: `Sport Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met voetballen, basketballen, tennisballen, medailles en trofeeën brengen sportieve opwinding in vroege rekenoefeningen die verkopers en ouders het hele schooljaar door kopen voor sportunits en dagelijkse rekenles. Gebruik de Zoek en Tel-generator om drukke sportscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen sportvelden, gymzalen, zwembaden en atletiekbanen. Bied sets aan op meerdere vaardigheidsniveaus: sportartikelen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen voetballen of groepjes medailles voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Sport Woordzoekpuzzels Online Verkopen',
+      title: `Sport Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met sportvocabulaire trekken gymverkopers, klasverkopers en ouders aan die educatief vermaak zoeken dat aansluit bij de sportinteresses van kinderen. Maak puzzels met sportnamen, atletische termen zoals wedstrijd, score, team, coach en training, en sportregelvocabulaire. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer sporttermen voor oudere gebruikers. Variaties zoals voetbalvocabulaire, Olympische sportnamen en zwemtermninologie verbreden je catalogus het hele jaar door.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Sport Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met sportthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede sportkoperspubliek. Maak sets waarin kinderen sporten koppelen aan hun uitrusting, sportballen matchen met het juiste speelveld, atleten verbinden met hun sport, of sporttrofeeën koppelen aan de bijbehorende wedstrijd. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die sportunits plannen waar gestructureerde werkbladen sportconcepten toegankelijk maken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      title: `Sport Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met sportthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede sportkoperspubliek. Maak sets waarin kinderen sporten koppelen aan hun uitrusting, sportballen matchen met het juiste speelveld, atleten verbinden met hun sport, of sporttrofeeën koppelen aan de bijbehorende wedstrijd. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die sportunits plannen waar gestructureerde werkbladen sportconcepten toegankelijk maken. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Sportthema Optelwerkbladen voor Rekenverkopers',
+      title: `Sportthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met sportillustraties transformeren routinematige rekenoefeningen in spannende wedstrijdavonturen die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen voetballen optellen, scorebordthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met medailles, trofeeën en sportuitrusting. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met sportvisuele context. Sport-rekenwerkbladen bedienen zowel rekendoelen als het bewegingsonderwijs-productcatalogus tegelijkertijd, waardoor ze dubbel waardevol zijn voor verkopers.`,
       appId: 'addition',
     },
     {
-      title: 'Sport Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Sport Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een uitstekend instapproduct voor sport printable-winkels omdat het sportthema universeel aanspreekt en vroege beoordelingen genereert die je winkelzichtbaarheid het hele jaar door verhogen. De Kleuren-generator maakt gedetailleerde contouren van voetballers, basketballers, tennissers, zwemmers, turners, hardlopers, sportuitrusting, trofeeën, medailles en stadionscènes. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per sporttype zoals balsporten of watersporten. Voor KDP compileer je dertig tot vijftig kleurplaten in sport-activiteitenboeken gepositioneerd als cadeaus voor jonge sportfans naast sportuitrusting en teamartikelen.`,
       appId: 'coloring',
     },
@@ -92,13 +92,13 @@ Genderinclusieve aantrekkingskracht vertegenwoordigt een waardevolle kracht van 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Sport Printables Verkopen op Etsy',
+      title: `Sport Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in sport printable-vermeldingen, en de seizoensrotatie van verschillende sporten betekent dat je vermeldingen het hele jaar door relevant blijven met verschillende piekmomenten. Richt je op long-tail zoekwoorden zoals "voetbal telwerkblad kleuters" of "sport woordzoeker kleuterschool" in plaats van brede tags als "sport werkbladen." Gebruik alle dertien tags met variaties die sporttypen, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte sportwerkbladen tonen naast sportuitrusting of in een actieve setting presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten genderinclusief door diverse sporten en atleten te tonen. De Nederlandse markt via Etsy.nl biedt kansen door de sterke Nederlandse sportcultuur en het relatief beperkte Nederlandstalige sportwerkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Sport Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor sportprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast sportuitrusting, teamartikelen en kindersportboeken. Compileer individuele sportwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond sportthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "sport activiteitenboek voor kinderen," "voetbal werkbladen kleuters" en subthematermen toe als "Olympische Spelen activiteiten" of "bal sport kleurboek." Prijs tussen vier en acht euro voor optimale royaltymarges. Sportboeken verkopen het hele jaar door dankzij seizoensrotatie. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Sport Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor sportprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast sportuitrusting, teamartikelen en kindersportboeken. Compileer individuele sportwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond sportthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "sport activiteitenboek voor kinderen," "voetbal werkbladen kleuters" en subthematermen toe als "Olympische Spelen activiteiten" of "bal sport kleurboek." Prijs tussen vier en acht euro voor optimale royaltymarges. Sportboeken verkopen het hele jaar door dankzij seizoensrotatie. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -130,12 +130,12 @@ Genderinclusieve aantrekkingskracht vertegenwoordigt een waardevolle kracht van 
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de sportniche omdat de seizoensrotatie van verschillende sporten betekent dat je vermeldingen het hele jaar door relevant blijven op elk platform. Etsy trekt ouders aan die activiteiten zoeken voor sportgeobsedeerde kinderen, Gumroad bereikt gymverkopers en klasverkopers die sportunits plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken als cadeaus naast sportuitrusting. Gumroad en Shopify helpen je een eigen sportpubliek op te bouwen. Cross-listing vermenigvuldigt je jaarronde zichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke sportsubthema\'s verkopen het beste?',
-      answer: `De bestverkopende sportsubthema's zijn voetbal, basketbal, zwemmen en de Olympische Spelen. Voetbal is veruit het populairste sportthema wereldwijd en bijzonder dominant in Nederland, waar miljoenen kinderen wekelijks trainen bij lokale clubs. Basketbal spreekt een breed internationaal publiek aan en genereert sterke wintervraag. Zwemmen combineert sportthema met het populaire zomerthema. Olympische Spelen genereren elke twee jaar een krachtige vraagpiek die alle sportsubthema\'s tegelijkertijd stimuleert. In Nederland bieden schaatsen, hockey en de Koningsspelen unieke culturele sportthema's die internationale concurrenten niet kunnen evenaren met Nederlandstalig materiaal.`,
+      question: `Welke sportsubthema's verkopen het beste?`,
+      answer: `De bestverkopende sportsubthema`s zijn voetbal, basketbal, zwemmen en de Olympische Spelen. Voetbal is veruit het populairste sportthema wereldwijd en bijzonder dominant in Nederland, waar miljoenen kinderen wekelijks trainen bij lokale clubs. Basketbal spreekt een breed internationaal publiek aan en genereert sterke wintervraag. Zwemmen combineert sportthema met het populaire zomerthema. Olympische Spelen genereren elke twee jaar een krachtige vraagpiek die alle sportsubthema's tegelijkertijd stimuleert. In Nederland bieden schaatsen, hockey en de Koningsspelen unieke culturele sportthema`s die internationale concurrenten niet kunnen evenaren met Nederlandstalig materiaal.`,
     },
     {
       question: `Hoe maak ik efficiënt sportwerkbladen met generator tools?`,
-      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe sportcatalogus kunt opbouwen die meerdere sportsubthema's omvat. Selecteer een generator die past bij je doelactiviteitstype, kies sportthema's en atletisch vocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
+      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe sportcatalogus kunt opbouwen die meerdere sportsubthema`s omvat. Selecteer een generator die past bij je doelactiviteitstype, kies sportthema`s en atletisch vocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
     },
     {
       question: `Wat is het retourbeleid voor commerciële licenties?`,
@@ -147,62 +147,62 @@ Genderinclusieve aantrekkingskracht vertegenwoordigt een waardevolle kracht van 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-counting-worksheets',
-      anchorText: 'Professionele telwerkbladen maken',
+      anchorText: `Professionele telwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'transportation-printable-ideas',
-      anchorText: 'Voertuigen printable businessideeën',
+      slug: `transportation-printable-ideas`,
+      anchorText: `Voertuigen printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
+      anchorText: `Zomer printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Terug naar school printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/sports%20bw/badminton.webp', alt: 'Badminton — educatieve thema-afbeelding sport', caption: 'Badminton' },
-    { src: '/image-library/sports%20bw/baseball.webp', alt: 'Honkbal — educatieve thema-afbeelding sport', caption: 'Honkbal' },
-    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Honkbal 2 — educatieve thema-afbeelding sport', caption: 'Honkbal 2' },
-    { src: '/image-library/sports%20bw/basketball.webp', alt: 'Basketbal — educatieve thema-afbeelding sport', caption: 'Basketbal' },
-    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Strandbal — educatieve thema-afbeelding sport', caption: 'Strandbal' },
-    { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Fiets — educatieve thema-afbeelding sport', caption: 'Fiets' },
+    { src: `/image-library/sports%20bw/badminton.webp`, alt: `Badminton — educatieve thema-afbeelding sport`, caption: 'Badminton' },
+    { src: `/image-library/sports%20bw/baseball.webp`, alt: `Honkbal — educatieve thema-afbeelding sport`, caption: 'Honkbal' },
+    { src: `/image-library/sports%20bw/baseball%202.webp`, alt: `Honkbal 2 — educatieve thema-afbeelding sport`, caption: 'Honkbal 2' },
+    { src: `/image-library/sports%20bw/basketball.webp`, alt: `Basketbal — educatieve thema-afbeelding sport`, caption: 'Basketbal' },
+    { src: `/image-library/sports%20bw/beach%20ball.webp`, alt: `Strandbal — educatieve thema-afbeelding sport`, caption: 'Strandbal' },
+    { src: `/image-library/sports%20bw/bicycle.webp`, alt: `Fiets — educatieve thema-afbeelding sport`, caption: 'Fiets' },
   ],
 
   youtubeId: '0cOPi7eajLs',

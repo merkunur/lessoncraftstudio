@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Was-passt-nicht-Arbeitsblätter erstellen',
+    primaryKeyword: `Was-passt-nicht-Arbeitsblätter erstellen`,
     secondaryKeywords: [
-      'Was-passt-nicht-Rätsel zum Verkaufen erstellen',
-      'visuelle Unterscheidung Arbeitsblatt-Generator',
+      `Was-passt-nicht-Rätsel zum Verkaufen erstellen`,
+      `visuelle Unterscheidung Arbeitsblatt-Generator`,
       `druckbare Was-passt-nicht-Ersteller kommerzielle Nutzung`,
-      'Ausreißer-Rätsel für Etsy und KDP finden',
+      `Ausreißer-Rätsel für Etsy und KDP finden`,
     ],
     lsiKeywords: [
       `Dual-Modus Identisch Ähnlich Was-passt-nicht-Generator`,
-      'pro-Übung Modusüberschreibung visuelle Rätsel',
+      `pro-Übung Modusüberschreibung visuelle Rätsel`,
       `automatischer Lösungsschlüssel roter Kreis Arbeitsblatt-Ersteller`,
-      'Was-passt-nicht-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP visuelle Unterscheidung Arbeitsbücher',
-      'kommerzielle Lizenz Was-passt-nicht-Tool',
+      `Was-passt-nicht-Arbeitsblätter auf Etsy verkaufen`,
+      `Amazon KDP visuelle Unterscheidung Arbeitsbücher`,
+      `kommerzielle Lizenz Was-passt-nicht-Tool`,
     ],
     titleTag: `Was-passt-nicht-Arbeitsblätter erstellen — Anleitung`,
     metaDescription: `Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration und Lösungsschlüssel. Rein visuelles Format für Etsy.`,
   },
 
   hero: {
-    title: 'So erstellen Sie Was-passt-nicht-Rätsel',
+    title: `So erstellen Sie Was-passt-nicht-Rätsel`,
     tagline: `Eine Schritt-für-Schritt-Anleitung zur Erstellung visueller Unterscheidungs-Arbeitsblätter mit zwei Generierungsmodi, pro-Übung-Überschreibungen, automatisch erstellten Lösungsschlüsseln mit roter Kreis-Markierung und rein visuellen Rätseln, die Sie weltweit auf Etsy, Amazon KDP und Gumroad verkaufen können`,
     description: `Was-passt-nicht-Rätsel gehören zu den universell zugänglichsten praktischen Aktivitäten, denn sie erfordern kein Lesen, kein Sprachverständnis und keine Mathematikkenntnisse. Die Nutzer betrachten vier Bilder und identifizieren dasjenige, das nicht dazugehört. Dieses rein visuelle Format macht Was-passt-nicht-Arbeitsblätter in jedem Land ohne Übersetzung verkaufbar. Eltern nutzen sie für die visuelle Wahrnehmungsübung zu Hause. Käufer nutzen sie für Aufwärmübungen zum kritischen Denken und Klassifikationsaktivitäten. Selbststudiumzentren nutzen sie für kognitive Entwicklungsübungen. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Was-passt-nicht-Arbeitsblatt-Generator — von der Wahl zwischen Identisch- und Ähnlich-Generierungsmodus über die Konfiguration von pro-Übung-Überschreibungen, die Erstellung automatischer Lösungsschlüssel mit roter Kreis-Markierung bis zum Export produktionsfertiger Dateien. Ob Sie Ihr erstes visuelles Rätselprodukt erstellen oder einen bestehenden Arbeitsblattkatalog erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt, das Sie sofort listen können.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Den Was-passt-nicht-Ersteller öffnen',
+      heading: `Den Was-passt-nicht-Ersteller öffnen`,
       content: `Navigieren Sie zur Seite des Was-passt-nicht-Erstellers und klicken Sie auf die Startschaltfläche, um den Generator in Ihrem Browser zu öffnen. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Leinwand rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich.\n\nDie Dual-Tab-Leinwand ist das Herzstück des Was-passt-nicht-Generators. Der Arbeitsblatt-Tab zeigt die Übungskarten, die die Nutzer verwenden werden, während der Lösungsschlüssel-Tab dasselbe Layout mit roter Kreis-Markierung zeigt, die das unpassende Element in jeder Reihe identifiziert. Beide Tabs werden gleichzeitig generiert, wenn Sie auf Generieren klicken, sodass Sie nie manuell Lösungsschlüssel erstellen müssen.\n\nNehmen Sie sich einen Moment Zeit, um die Seitenleisten-Panels zu erkunden. Das Übungskonfigurationspanel steuert Ihren Generierungsmodus, die Übungsanzahl und pro-Übung-Überschreibungen. Das Bildbibliothekspanel bietet Zugang zu thematischen Sammlungen mit dem Zwei-Themen-Auswahlsystem. Das Seiteneinrichtungspanel verwaltet Layout- und Dekorationsoptionen. Diese drei Panels enthalten alles, was Sie für die Konfiguration eines vollständigen Was-passt-nicht-Arbeitsblatts benötigen.`,
     },
     {
@@ -47,11 +47,11 @@ const content: GuideContent = {
       content: `Das Bildbibliothekspanel gibt Ihnen Zugang zu einhundertvier thematischen Sammlungen mit über dreitausendeinhundert Illustrationen. Im Ähnlich-Modus macht das Zwei-Themen-System kategoriübergreifende Rätsel mühelos. Wählen Sie Thema A aus dem Dropdown für die drei gemeinsamen Bilder und Thema B für das einzelne unpassende Element. Kombinieren Sie Tiere mit Essen, Fahrzeuge mit Natur, Berufe mit Sport — jede Kombination aus den verfügbaren Themen erzeugt einen einzigartigen Rätselsatz.\n\nIm Identisch-Modus wird nur ein Thema benötigt, da sowohl die gemeinsamen Klone als auch das unpassende Bild aus derselben Sammlung stammen. Der Generator wählt automatisch drei Kopien eines Bildes und ein anderes Bild aus diesem Thema aus.\n\nDurchsuchen Sie Themen über das Dropdown-Menü oder suchen Sie nach Schlüsselwörtern, um die richtige Paarung zu finden. Für den Ähnlich-Modus wählen Sie Themenpaarungen mit offensichtlichen kategorialen Unterschieden für jüngere Lernende — Tiere versus Fahrzeuge, Essen versus Werkzeuge. Für fortgeschrittene Produkte verwenden Sie subtilere Paarungen, bei denen Themen visuelle Ähnlichkeiten teilen — Bauernhoftiere versus Zootiere, Obst versus Gemüse.\n\nSie können auch eigene PNG-, JPG- oder GIF-Bilder hochladen, um personalisierte Was-passt-nicht-Rätsel zu erstellen. Eigene Uploads ermöglichen Ihnen die Erstellung von Arbeitsblättern mit Klassenfotos, markenspezifischen Illustrationen oder individueller Kunst, die kein Wettbewerber replizieren kann. Dies ist besonders wertvoll für die Erstellung von Nischenprodukten, die auf spezifische Lehrpläne oder praktische Themen abzielen, die nicht von der integrierten Bibliothek abgedeckt werden.`,
     },
     {
-      heading: 'Seitenlayout und Dekorationen festlegen',
+      heading: `Seitenlayout und Dekorationen festlegen`,
       content: `Wählen Sie im Abschnitt Seiteneinrichtung Ihr Seitenformat. Die Optionen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (zwölfhundert mal zwölfhundert Pixel) und benutzerdefinierte Maße. Letter ist Standard für nordamerikanische Käufer. A4 ist Standard für europäische und internationale Märkte. Die Erstellung beider Versionen verdoppelt Ihre Marktreichweite mit minimalem Zusatzaufwand.\n\nHintergrund- und Rahmenthemen arbeiten unabhängig voneinander, jeweils mit eigenem Deckkraftregler von null bis eins in Schritten von null Komma null fünf. Wenden Sie ein dezentes Hintergrundmuster bei fünfzehn bis fünfundzwanzig Prozent Deckkraft an für visuelle Wärme, ohne vom Rätselinhalt abzulenken. Legen Sie einen dekorativen Rahmen bei achtzig bis einhundert Prozent Deckkraft darüber für ein poliertes Erscheinungsbild. Einheitliche Hintergrund- und Rahmenkombinationen innerhalb eines Bundles schaffen ein kohärentes Produktbild, das Käufer mit Qualität assoziieren.\n\nPassen Sie Text mit sieben Schriftoptionen an, darunter Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Fügen Sie eine Textumrandung von null bis zehn für zusätzliche Gestaltung hinzu. Diese Optionen ermöglichen es Ihnen, benutzerdefinierte Titel oder Branding zu Ihren Was-passt-nicht-Arbeitsblättern hinzuzufügen. Die Fabric.js-Leinwand bietet sechs Ausrichtungsoptionen plus Seitenmitte, Ebenen mit Sperren und Entsperren, Zoom von fünfundzwanzig bis dreihundert Prozent sowie Rückgängig und Wiederherstellen mit zwanzig Zuständen.`,
     },
     {
-      heading: 'Das Was-passt-nicht-Arbeitsblatt generieren',
+      heading: `Das Was-passt-nicht-Arbeitsblatt generieren`,
       content: `Klicken Sie auf Generieren, um die Übungskarten zu erstellen. Jede Karte zeigt vier Bilder in einer horizontalen Reihe — drei gemeinsame Elemente und ein unpassendes Element mit zufällig gemischter Position. Die zufällige Mischung wird bei jeder Generierung neu berechnet, sodass das erneute Generieren mit denselben Einstellungen unterschiedliche Positionen des unpassenden Elements erzeugt.\n\nDas Layout passt sich automatisch basierend auf Seitenausrichtung und Übungsanzahl an. Hochformatseiten mit sieben oder mehr Übungen wechseln zu einem Zwei-Spalten-Layout für optimalen Abstand. Querformatseiten verwenden immer zwei Spalten. Seiten mit fünf bis sechs Übungen im Hochformat verwenden ein Einzel-Spalten-Layout mit größeren Bildkarten. Dieses adaptive System gewährleistet saubere, gut lesbare Arbeitsblätter unabhängig von Ihrer Übungsanzahl und Seitengrößenkombination.\n\nEin gestalteter Header wird automatisch oben auf der Seite mit dem Text „Finde den Ausreißer" gerendert, mit korallfarbenem Außenrahmen, bernsteinfarbenem Innenbereich und türkisfarbenem Hintergrund. Der Titel erscheint in dunkeltürkiser Fredoka-Schrift und die Anweisungen in roter Quicksand-Schrift. Der Header-Text wird automatisch in alle elf unterstützten Sprachen übersetzt, aber der Rätselinhalt selbst bleibt rein visuell — nur Bilder, kein sprachspezifischer Text.\n\nÜberprüfen Sie die Vorschau sorgfältig: Stellen Sie sicher, dass die Bilder in jeder Übungsreihe deutlich sichtbar sind, das unpassende Element sich wirklich von den gemeinsamen Elementen unterscheidet und das Gesamtlayout ausgewogen wirkt. Wenn etwas angepasst werden muss, ändern Sie Ihre Einstellungen und generieren Sie sofort neu.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und zeichnet eine rote Kreisumrandung um das unpassende Element in jeder Übungsreihe. Die Strichstärke des Kreises skaliert dynamisch mit der Bildgröße — berechnet als Maximum aus Bildgröße multipliziert mit null Komma null vier oder drei Pixel — was eine konsistente Sichtbarkeit über alle Seitengrößen von Quadrat bis Letter Querformat gewährleistet.\n\nWechseln Sie zwischen den Tabs Arbeitsblatt und Lösungsschlüssel, um zu vergleichen und zu überprüfen, ob das richtige Element in jeder Reihe markiert ist. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manueller Erstellungsschritt, kein separater Designprozess, keine Möglichkeit nicht übereinstimmender Antworten. Diese gleichzeitige Generierung spart erheblich Zeit bei der Erstellung großer Bundles.\n\nFür Produktlistungen ist der Lösungsschlüssel ein starkes Verkaufsargument. Produkte mit Lösungsschlüsseln mit deutlichen visuellen Markierungen übertreffen durchweg reine Rätsel-Listings, weil Käufer und Eltern Materialien zur Selbstkontrolle wünschen. Die roten Kreis-Markierungen sind sofort erkennbar und machen die Überprüfung augenblicklich. Erwähnen Sie immer „inklusive Lösungsschlüssel mit roter Kreis-Markierung" in Ihren Listungstiteln und Beschreibungen, um sich von Wettbewerbern abzuheben, die Rätsel ohne Lösungen verkaufen.`,
     },
     {
-      heading: 'Alle vier Dateien herunterladen',
+      heading: `Alle vier Dateien herunterladen`,
       content: `Der Was-passt-nicht-Ersteller erzeugt vier Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Alle Dateien werden mit dreihundert DPI für druckfertige Ausgabe gerendert.\n\nAktivieren Sie Graustufen vor dem Herunterladen für tintenfreundliche Versionen, ideal für den Bildungsmarktdruck und Amazon KDP-Innenseiten. Graustufen-Was-passt-nicht-Arbeitsblätter behalten die visuelle Klarheit bei, da die Rätsel auf Form- und Gestaltunterschieden statt auf Farbe basieren, was sie besonders gut für Schwarz-Weiß-Druck geeignet macht.\n\nFür Marktplatz-Listings exportieren Sie sowohl das PDF (als Ihr Lieferprodukt) als auch ein JPEG (für Listing-Vorschaubilder). Zeigen Sie sowohl das Arbeitsblatt als auch den Lösungsschlüssel mit roter Kreis-Markierung in Ihren Listing-Bildern, damit Käufer genau sehen können, was sie kaufen.\n\nUm ein komplettes Produktbundle zu erstellen, wechseln Sie Themen, passen Sie Übungsanzahlen an, schalten Sie zwischen Identisch- und Ähnlich-Modus um oder verwenden Sie pro-Übung-Überschreibungen und generieren Sie neu. Jede Generierung erzeugt einen frischen Satz von vier Dateien mit neuer zufälliger Mischung der Positionen des unpassenden Elements. Zehn Generierungssitzungen ergeben vierzig produktionsfertige Dateien — ein komplettes Was-passt-nicht-Rätsel-Bundle bereit zur Listung.\n\nWichtig: Die kostenlose Testversion mit Wasserzeichen erzeugt voll funktionsfähige Exporte mit einem sichtbaren Wasserzeichen-Overlay. Dies ermöglicht es Ihnen, die Druckqualität zu bewerten, die Formatierung zu überprüfen und Testdrucke zu erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Exporten und erzeugt saubere Dateien, die zum Verkauf bereit sind.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Was-passt-nicht-Arbeitsblätter auf Etsy verkaufen',
+      heading: `Was-passt-nicht-Arbeitsblätter auf Etsy verkaufen`,
       content: `Etsy ist ein starker Marktplatz für Was-passt-nicht-Arbeitsblätter, weil Eltern und Käufer nach spezifischen Rätseltypen suchen. Titel wie „Was-passt-nicht-Arbeitsblätter — Finde den Ausreißer — Visuelle Unterscheidungsrätsel — Mit Lösungsschlüssel" erfassen gezielten Suchverkehr.\n\nBenennen Sie Ihre Produkte nach dem Rätselmodus und der Themenpaarung statt mit generischen Titeln. „Tiere vs. Essen Was-passt-nicht-Rätsel — 20 Arbeitsblätter mit Lösungsschlüsseln" übertrifft „Was-passt-nicht für Kinder", weil es spezifische Käufersuchanfragen entspricht und genau kommuniziert, was das Produkt enthält.\n\nTags: Verwenden Sie alle dreizehn Etsy-Tags. Kombinieren Sie breite und spezifische Begriffe: „Was-passt-nicht-Arbeitsblätter", „Finde den Ausreißer", „visuelle Unterscheidung", „Unterschiede-finden-Rätsel", „kritisches Denken Arbeitsblätter", „Vorschulrätsel", „druckbare Rätsel für Kinder", „Klassifikationsaktivität" und Variationen, die zu Ihrer spezifischen Themenpaarung passen.\n\nListing-Bilder: Zeigen Sie das vollständige Arbeitsblatt mit Vier-Bilder-Übungsreihen, eine Nahaufnahme des gestalteten Koralle-Bernstein-Türkis-Headers, den Lösungsschlüssel mit deutlich sichtbarer roter Kreis-Markierung und ein Mockup des gedruckten und verwendeten Arbeitsblatts. Das Vier-Bilder-in-einer-Reihe-Format ist visuell unverwechselbar und ergibt starke Vorschaubilder.\n\nPreisgestaltung: Einzelne Was-passt-nicht-Sets mit zehn bis fünfzehn Arbeitsblättern und Lösungsschlüsseln verkaufen sich für zwei Dollar neunundneunzig bis fünf Dollar neunundneunzig. Modusspezifische Bundles mit zwanzig bis dreißig Arbeitsblättern verkaufen sich für sechs Dollar neunundneunzig bis zwölf Dollar neunundneunzig. Komplettsammlungen mit beiden Modi über mehrere Themen verkaufen sich für vierzehn Dollar neunundneunzig bis vierundzwanzig Dollar neunundneunzig.`,
     },
     {
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Preisgestaltung für Ihre Was-passt-nicht-Produkte',
+      heading: `Preisgestaltung für Ihre Was-passt-nicht-Produkte`,
       content: `Die Preisgestaltung für Was-passt-nicht-Arbeitsblätter folgt vorhersehbaren Mustern über Marktplätze hinweg. Hier sind die Bereiche, die gut funktionieren:\n\nEinzelmodus-Sets mit zehn bis fünfzehn Arbeitsblättern und Lösungsschlüsseln: zwei Dollar neunundneunzig bis fünf Dollar neunundneunzig. Diese dienen als Einstiegsprodukte. Jedes Set konzentriert sich auf einen Generierungsmodus und ein bis zwei Themenpaarungen, wie Identisch-Modus Tier-Rätsel oder Ähnlich-Modus Tiere-versus-Essen-Rätsel.\n\nDual-Modus-Bundles mit zwanzig bis dreißig Arbeitsblättern, die sowohl Identisch- als auch Ähnlich-Modus über drei bis vier Themenpaarungen abdecken: sechs Dollar neunundneunzig bis zwölf Dollar neunundneunzig. Käufer nehmen starken Mehrwert wahr, weil sie zwei verschiedene Aktivitätstypen mit Lösungsschlüsseln für jedes Arbeitsblatt erhalten.\n\nKomplettsammlungen mit vierzig bis sechzig Arbeitsblättern, die beide Modi, mehrere Themenpaarungen und progressive Schwierigkeit mit pro-Übung-Überschreibungen abdecken: vierzehn Dollar neunundneunzig bis vierundzwanzig Dollar neunundneunzig. Positionieren Sie diese als umfassende visuelle Unterscheidungsbibliotheken für ein ganzes Schuljahr.\n\nUnterbieten Sie nicht den Markt. Was-passt-nicht-Arbeitsblätter mit automatisch generierten Lösungsschlüsseln mit roter Kreis-Markierung sind ein Premiumprodukt. Die zwei Generierungsmodi und das pro-Übung-Überschreibungssystem schaffen echte Vielfalt, die Wettbewerber mit einfacheren Tools nicht erreichen können. Bepreisen Sie entsprechend.`,
     },
     {
@@ -89,14 +89,14 @@ const content: GuideContent = {
       content: `Bundles sind der Bereich, in dem der Umsatz mit Was-passt-nicht-Produkten skaliert. Das Dual-Modus-System schafft natürliche Bündelungsmöglichkeiten, die Ihre Produktvielfalt vervielfachen.\n\nModusspezifische Bundles: Gruppieren Sie fünfzehn bis zwanzig Arbeitsblätter nach Generierungsmodus. „Identisch-Modus Was-passt-nicht — Finde-das-Nicht-Duplikat-Rätsel" und „Ähnlich-Modus Was-passt-nicht — Kategoriübergreifende Unterscheidungsrätsel" bedienen unterschiedliche Käuferbedürfnisse mit klarer Produktpositionierung.\n\nSchwierigkeitsprogressions-Bundles: Kombinieren Sie Identisch-Modus-Arbeitsblätter mit fünf Übungen, Ähnlich-Modus-Arbeitsblätter mit acht Übungen und Gemischt-Modus-Seiten mit progressiver Schwierigkeit und zehn Übungen. Vermarkten Sie diese als „komplette visuelle Unterscheidungssets", die mit dem Kind von der Vorschule bis zur Grundschule mitwachsen.\n\nThemenpaarungs-Bundles: Kompilieren Sie Was-passt-nicht-Arbeitsblätter nach Kategoriekombination. „Tiersammlung" umfasst Tiere versus Essen, Tiere versus Fahrzeuge, Bauernhof versus Wild und Haustiere versus Zoo. Jede Themenpaarung erzeugt einzigartige Unterscheidungsherausforderungen.\n\nGlobale Bundles: Da Was-passt-nicht-Arbeitsblätter rein visuell sind und keinen sprachspezifischen Text auf der Ausgabe enthalten, verkauft sich jedes Arbeitsblatt weltweit identisch. Erstellen Sie ein Bundle und listen Sie es auf mehreren internationalen Marktplätzen ohne Übersetzung.\n\nListen Sie immer sowohl einzelne Sets als auch Bundles. Einzelne Listings erfassen spezifische Schlüsselwortkombinationen, während Bundles höheren Umsatz pro Transaktion erzielen.`,
     },
     {
-      heading: 'Globaler Verkauf ohne Übersetzung',
+      heading: `Globaler Verkauf ohne Übersetzung`,
       content: `Das rein visuelle Format von Was-passt-nicht-Arbeitsblättern schafft einen erheblichen Wettbewerbsvorteil, den die meisten Verkäufer übersehen. Jedes Arbeitsblatt, das Sie erstellen, enthält nur Bilder — vier Bilder pro Reihe ohne sprachspezifischen Text auf dem Rätselinhalt selbst. Der automatisch generierte Header übersetzt in alle elf unterstützten Sprachen, aber die Übungen sind universell lesbar.\n\nDas bedeutet, dass eine Erstellungssitzung ein global verkaufbares Produkt erzeugt. Dieselbe PDF-Datei funktioniert für englischsprachige Käufer in den Vereinigten Staaten, deutschsprachige Käufer in Europa, japanischsprachige Käufer in Asien und jeden anderen Markt. Keine separaten Sprachversionen, keine Übersetzungskosten, keine Wartung pro Sprache.\n\nUm diesen Vorteil zu nutzen: Listen Sie dieselben Was-passt-nicht-Produkte in Etsy-Shops, die auf verschiedene Länder ausgerichtet sind. Übersetzen Sie nur Ihre Listing-Titel und Beschreibungen (nicht das Produkt selbst), um lokale Suchbegriffe zu treffen. Veröffentlichen Sie dieselben KDP-Innenseiten auf allen internationalen Amazon-Marktplätzen. Listen Sie auf Gumroad für internationale Käufer, die sprachunabhängige Aktivitäten benötigen.\n\nWährend Wettbewerber, die textlastige Arbeitsblätter erstellen, separate Versionen für jeden Sprachmarkt produzieren müssen, bedienen Ihre visuellen Rätsel jeden Käufer aus einem einzigen Dateisatz. Dies reduziert die Produktionszeit pro Markt drastisch und ermöglicht es Ihnen, international mit null zusätzlichem Erstellungsaufwand zu expandieren.`,
     },
   ],
 
   examples: [
     {
-      heading: 'Produktvariationen nach Modus und Übungsanzahl',
+      heading: `Produktvariationen nach Modus und Übungsanzahl`,
       content: `Hier sind konkrete Produktbeispiele, die Sie mit dem Was-passt-nicht-Ersteller erstellen können, organisiert nach Generierungsmodus und Übungsanzahl.\n\nVorschulniveau — Identisch-Modus mit fünf Übungen: Verwenden Sie jeweils ein Thema mit gut erkennbaren Bildern. Drei identische Katzen und ein Hund, drei identische Äpfel und ein Auto. Fünf Übungen pro Seite mit großen Bildkarten geben jungen Lernenden ausreichend visuellen Raum, um das Nicht-Duplikat zu identifizieren. Das Einzel-Spalten-Layout auf Hochformatseiten schafft klare, übersichtliche Arbeitsblätter. Verpacken Sie acht bis zehn Arbeitsblätter pro Set mit enthaltenen Lösungsschlüsseln.\n\nKindergartenniveau — Ähnlich-Modus mit sechs bis sieben Übungen: Verwenden Sie offensichtliche Themenpaarungen wie Tiere versus Fahrzeuge oder Essen versus Werkzeuge. Drei Tiere und ein Fahrzeug pro Reihe schafft eine kategoriale Denkherausforderung, die für Fünf- bis Sechsjährige zugänglich ist. Sechs bis sieben Übungen erhöhen die Inhaltsdichte, während die Bildgrößen komfortabel bleiben. Verpacken Sie zwölf bis fünfzehn Arbeitsblätter pro Set mit progressiven Themenpaarungen.\n\nGrundschulniveau — Gemischter Modus mit acht bis zehn Übungen: Verwenden Sie pro-Übung-Überschreibungen, um mit drei Identisch-Reihen zum Aufwärmen zu beginnen, dann zu fünf bis sieben Ähnlich-Reihen mit subtileren Themenpaarungen wie Bauernhoftiere versus Zootiere oder Obst versus Gemüse überzugehen. Acht bis zehn Übungen auf Hochformatseiten lösen das Zwei-Spalten-Layout für maximale Inhaltsdichte aus. Verpacken Sie fünfzehn bis zwanzig Arbeitsblätter mit gemischter Schwierigkeit pro Set, vermarktet als progressive visuelle Unterscheidungsherausforderungen.`,
     },
     {
@@ -138,72 +138,72 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'schatten-zuordnung-arbeitsblaetter-erstellen',
+      slug: `schatten-zuordnung-arbeitsblaetter-erstellen`,
       title: `Schattenbilder-Zuordnungs-Arbeitsblätter erstellen`,
       description: `Ein visuelles Wahrnehmungs-Begleitmaterial zu Was-passt-nicht. Schattenbilder-Zuordnungs-Arbeitsblätter entwickeln Silhouetten-Erkennungsfähigkeiten und ergänzen den visuellen Unterscheidungsfokus von Was-passt-nicht-Rätseln.`,
     },
     {
-      slug: 'fehlende-teile-raetsel-erstellen',
-      title: 'Fehlende-Teile-Rätsel erstellen',
+      slug: `fehlende-teile-raetsel-erstellen`,
+      title: `Fehlende-Teile-Rätsel erstellen`,
       description: `Ein weiteres visuelles Unterscheidungsformat. Fehlende-Teile-Arbeitsblätter fordern die Nutzer heraus, herauszufinden, was in einem Bild fehlt, und trainieren damit verwandte Beobachtungsfähigkeiten.`,
     },
     {
-      slug: 'sortier-arbeitsblaetter-erstellen',
-      title: 'Sortier-Arbeitsblätter erstellen',
+      slug: `sortier-arbeitsblaetter-erstellen`,
+      title: `Sortier-Arbeitsblätter erstellen`,
       description: `Ein Klassifikations-Begleitmaterial zu Was-passt-nicht. Sortier-Arbeitsblätter fordern die Nutzer auf, Bilder in Gruppen zu kategorisieren und verstärken damit dieselben kategorialen Denkfähigkeiten, die im Ähnlich-Modus verwendet werden.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Meisterklasse' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Anleitung' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
-    { pageType: 'app', slug: 'was-passt-nicht-arbeitsblaetter', anchorText: `Was-passt-nicht-Arbeitsblatt-Generator — Alle Details` },
-    { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: `Schattenbilder-Zuordnung Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Meisterklasse` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Anleitung` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
+    { pageType: 'app', slug: `was-passt-nicht-arbeitsblaetter`, anchorText: `Was-passt-nicht-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: `schattenbilder-zuordnen-arbeitsblaetter`, anchorText: `Schattenbilder-Zuordnung Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: `Den Was-passt-nicht-Arbeitsblatt-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'odd-one-out',
-      title: 'Was-passt-nicht-Arbeitsblatt-Generator',
+      title: `Was-passt-nicht-Arbeitsblatt-Generator`,
       description: `Das Hauptwerkzeug für diese Anleitung. Erstellen Sie Dual-Modus Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Generierungsmodi, pro-Übung-Überschreibungen für gemischte Schwierigkeit und automatisch generierten Lösungsschlüsseln mit roter Kreis-Markierung, die an die Bildgröße angepasst ist.`,
     },
     {
       appId: 'shadow-match',
-      title: 'Schattenbilder-Zuordnung Arbeitsblatt-Generator',
+      title: `Schattenbilder-Zuordnung Arbeitsblatt-Generator`,
       description: `Ein visuelles Wahrnehmungs-Begleittool, das Silhouetten-Zuordnungsaktivitäten erstellt. Schattenbilder-Zuordnung zielt auf verwandte kognitive Fähigkeiten ab und lässt sich natürlich mit Was-passt-nicht-Rätseln für umfassende visuelle Unterscheidungs-Produktlinien bündeln.`,
     },
     {
       appId: 'missing-pieces',
-      title: 'Fehlende-Teile-Arbeitsblatt-Generator',
+      title: `Fehlende-Teile-Arbeitsblatt-Generator`,
       description: `Ein visuelles Unterscheidungs-Verwandter, bei dem die Nutzer fehlende Teile von Bildern finden. Fehlende-Teile-Übungen entwickeln ähnliche Beobachtungsfähigkeiten und passen gut zu Was-passt-nicht-Rätseln in Bundles zur visuellen Wahrnehmung.`,
     },
     {
       appId: 'picture-sort',
-      title: 'Bilder-Sortierung Arbeitsblatt-Generator',
+      title: `Bilder-Sortierung Arbeitsblatt-Generator`,
       description: `Ein Klassifikations-Begleittool, das Zwei-Kategorien-Sortierungsaktivitäten erstellt. Sortierung nach Kategorie steht in direktem Zusammenhang mit der themenbasierten Unterscheidung des Ähnlich-Modus und macht Sortier- und Was-passt-nicht-Arbeitsblätter zu natürlichen Bundle-Partnern.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/german/odd one out/Finde das Andere 2.webp`, alt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Elementen und einem unpassenden Element mit Koralle-Bernstein-Türkis-Header' },
+    heroImage: { src: `/samples/german/odd one out/Finde das Andere 2.webp`, alt: `Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Elementen und einem unpassenden Element mit Koralle-Bernstein-Türkis-Header` },
     samples: [
-      { src: `/samples/german/odd one out/Finde das Andere 2.webp`, alt: 'Was-passt-nicht-Arbeitsblatt mit Übungskarten mit vier Bildern pro Reihe und gestaltetem Finde-den-Ausreißer-Header', caption: 'Was-passt-nicht-Arbeitsblatt mit Vier-Bilder-Übungsreihen und adaptivem Spaltenlayout' },
-      { src: `/samples/german/odd one out/Finde das Andere 1 answer-key.webp`, alt: 'Automatisch generierter Lösungsschlüssel mit roten Kreisumrandungen um das unpassende Element in jeder Übungsreihe', caption: 'Automatisch generierter Lösungsschlüssel mit roter Kreis-Markierung zur Identifizierung des unpassenden Elements in jeder Reihe' },
+      { src: `/samples/german/odd one out/Finde das Andere 2.webp`, alt: `Was-passt-nicht-Arbeitsblatt mit Übungskarten mit vier Bildern pro Reihe und gestaltetem Finde-den-Ausreißer-Header`, caption: `Was-passt-nicht-Arbeitsblatt mit Vier-Bilder-Übungsreihen und adaptivem Spaltenlayout` },
+      { src: `/samples/german/odd one out/Finde das Andere 1 answer-key.webp`, alt: `Automatisch generierter Lösungsschlüssel mit roten Kreisumrandungen um das unpassende Element in jeder Übungsreihe`, caption: `Automatisch generierter Lösungsschlüssel mit roter Kreis-Markierung zur Identifizierung des unpassenden Elements in jeder Reihe` },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: `So erstellen Sie Was-passt-nicht-Rätsel — Komplettes Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/vegetables/asparagus.webp', alt: 'Spargel — thematisches Lernbild', caption: 'Spargel' },
-    { src: '/image-library/vegetables/beetroot.webp', alt: 'Rote Bete — thematisches Lernbild', caption: 'Rote Bete' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — thematisches Lernbild', caption: 'Paprika' },
-    { src: '/image-library/vegetables/broccoli.webp', alt: 'Brokkoli — thematisches Lernbild', caption: 'Brokkoli' },
-    { src: '/image-library/vegetables/cabbage.webp', alt: 'Kohl — thematisches Lernbild', caption: 'Kohl' },
+    { src: `/image-library/vegetables/asparagus.webp`, alt: `Spargel — thematisches Lernbild`, caption: 'Spargel' },
+    { src: `/image-library/vegetables/beetroot.webp`, alt: `Rote Bete — thematisches Lernbild`, caption: 'Rote Bete' },
+    { src: `/image-library/vegetables/bell%20pepper.webp`, alt: `Paprika — thematisches Lernbild`, caption: 'Paprika' },
+    { src: `/image-library/vegetables/broccoli.webp`, alt: `Brokkoli — thematisches Lernbild`, caption: 'Brokkoli' },
+    { src: `/image-library/vegetables/cabbage.webp`, alt: 'Kohl — thematisches Lernbild', caption: 'Kohl' },
   ],
 };
 

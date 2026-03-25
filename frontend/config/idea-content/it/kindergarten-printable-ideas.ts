@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Idee Stampabili per la Scuola Materna | Guida di Nicchia`,
     metaDescription: `Idee di stampabili per la scuola materna da vendere su Etsy, Amazon KDP e Gumroad. Concetti per il livello materna e strategie di nicchia per venditori online.`,
-    primaryKeyword: 'idee stampabili scuola materna',
+    primaryKeyword: `idee stampabili scuola materna`,
     secondaryKeywords: [
-      'schede scuola materna da vendere',
-      'idee business stampabili livello scuola materna',
-      'schede attività scuola materna per venditori',
-      'vendere stampabili scuola materna su Gumroad',
+      `schede scuola materna da vendere`,
+      `idee business stampabili livello scuola materna`,
+      `schede attività scuola materna per venditori`,
+      `vendere stampabili scuola materna su Gumroad`,
     ],
     lsiKeywords: [
-      'schede educative prescuola e scuola materna',
-      'stampabili apprendimento prima infanzia',
-      'pagine attività per il negozio 5-6 anni',
+      `schede educative prescuola e scuola materna`,
+      `stampabili apprendimento prima infanzia`,
+      `pagine attività per il negozio 5-6 anni`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ Il segmento di acquirenti della scuola materna include anche una proporzione sos
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vendere Stampabili per la Scuola Materna su Etsy',
+      title: `Vendere Stampabili per la Scuola Materna su Etsy`,
       description: "Etsy cattura il massiccio segmento di acquirenti genitori che cerca materiali per la pratica a casa della scuola materna con termini come \"schede scuola materna,\" \"attività prontezza scuola materna,\" \"pratica parole a vista stampabile\" e \"schede matematica scuola materna\" durante ogni mese dell\'anno scolastico e oltre. Usa tutti i tredici tag con variazioni che combinano competenze specifiche, identificatori di livello scolastico e formati di attività: \"kindergarten addition worksheets within 10,\" \"sight word practice kindergarten printable\" e \"K-1 reading activities\" mirano ad acquirenti motivati in modo molto più efficace di tag generici per stampabili educativi. Raggruppa i prodotti per materia accademica per aumentare il valore medio dell\'ordine: un pacchetto matematica per la scuola materna che copre conteggio, addizione e sequenze, un pacchetto lettura con parole a vista, ricerche di parole e attività CVC, e un pacchetto prontezza alla scrittura con formazione delle lettere e attività di disegno servono ciascuno esigenze distinte dei genitori incoraggiando acquisti multipli. La stagione del rientro a scuola in agosto e settembre crea il più grande picco di domanda, ma la domanda annuale da parte dei genitori che integrano l\'istruzione online e delle famiglie che praticano l\'istruzione domestica che costruiscono programmi completi per la scuola materna mantiene forti vendite di base ogni mese.",
     },
     {
@@ -145,18 +145,18 @@ Il segmento di acquirenti della scuola materna include anche una proporzione sos
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
-      anchorText: 'Come Creare Pacchetti di Schede che Vendono',
+      slug: `creare-pacchetti-schede-esercizi`,
+      anchorText: `Come Creare Pacchetti di Schede che Vendono`,
     },
     {
       pageType: 'guide',
@@ -165,33 +165,33 @@ Il segmento di acquirenti della scuola materna include anche una proporzione sos
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: `Guida Completa per Avviare un'Attività di Stampabili`,
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
       slug: 'prescuola-idee-stampabili',
-      anchorText: 'Idee di Business con Stampabili per la Prescuola',
+      anchorText: `Idee di Business con Stampabili per la Prescuola`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Aereo — immagine educativa tematica', caption: 'Aereo' },
-    { src: '/image-library/toys/baby.webp', alt: 'Bambino — immagine educativa tematica', caption: 'Bambino' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Bambina — immagine educativa tematica', caption: 'Bambina' },
-    { src: '/image-library/toys/ball.webp', alt: 'Palla — immagine educativa tematica', caption: 'Palla' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Palloncino — immagine educativa tematica', caption: 'Palloncino' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicicletta — immagine educativa tematica', caption: 'Bicicletta' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Aereo — immagine educativa tematica`, caption: 'Aereo' },
+    { src: '/image-library/toys/baby.webp', alt: `Bambino — immagine educativa tematica`, caption: 'Bambino' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Bambina — immagine educativa tematica`, caption: 'Bambina' },
+    { src: '/image-library/toys/ball.webp', alt: `Palla — immagine educativa tematica`, caption: 'Palla' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Palloncino — immagine educativa tematica`, caption: 'Palloncino' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicicletta — immagine educativa tematica`, caption: 'Bicicletta' },
   ],
 
 

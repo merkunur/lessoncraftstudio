@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'email marketing imprimibles',
     secondaryKeywords: [
-      'lista de correo vendedores de imprimibles',
-      'newsletter para negocio de fichas',
-      'email marketing productos digitales',
-      'estrategia email negocio imprimibles',
+      `lista de correo vendedores de imprimibles`,
+      `newsletter para negocio de fichas`,
+      `email marketing productos digitales`,
+      `estrategia email negocio imprimibles`,
     ],
     lsiKeywords: [
       `lista de suscriptores lead magnet regalo de suscripción secuencia de bienvenida automatización de email`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `secuencias automatizadas campaña de reactivación higiene de la lista reputación del remitente`,
       `calendario de contenido analíticas de email pruebas A/B etiquetas de personalización`,
     ],
-    titleTag: 'Email Marketing Imprimibles — Estrategia Vendedor',
+    titleTag: `Email Marketing Imprimibles — Estrategia Vendedor`,
     metaDescription: `Estrategias de email marketing para vendedores de imprimibles. Construye tu lista de suscriptores, crea lead magnets, automatiza secuencias y genera ventas.`,
   },
 
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Captura Clientes de Etsy para Tu Lista de Correo',
+      heading: `Captura Clientes de Etsy para Tu Lista de Correo`,
       content: `Etsy no proporciona direcciones de email de clientes para fines de marketing, así que debes crear caminos que motiven a los compradores a unirse voluntariamente a tu lista. Incluye una página de inserción diseñada profesionalmente en cada descarga digital que ofrezca un lead magnet y el enlace de tu página de aterrizaje: "Obtén 5 fichas extra cuando te unas a nuestra lista de correo en [URL de la página de aterrizaje]." Agrega el enlace de tu página de aterrizaje en la sección de anuncio de tu tienda de Etsy que aparece en la parte superior de tu página de tienda. Menciona tu lista de correo y la oferta del lead magnet en las descripciones de productos donde sea apropiado. Usa la función "Mensaje a Compradores" de Etsy para agradecer a los clientes y mencionar el recurso extra disponible a través de tu lista de correo. Cada uno de estos puntos de contacto convierte un pequeño porcentaje de compradores de Etsy en suscriptores directos, construyendo gradualmente una base de clientes a la que puedes llegar independientemente de la plataforma de Etsy.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Los emails más atractivos de vendedores de imprimibles son contenido enfocado en valor que ayuda a los suscriptores a usar productos imprimibles de manera más efectiva. Comparte consejos de enseñanza: cómo usar fichas para paquetes escalonados por nivel, cómo incorporar imprimibles en centros de aprendizaje o cómo adaptar fichas para diferentes niveles de habilidad. Ofrece ideas de actividades estacionales que se conecten con los temas de tus productos. Proporciona contenido detrás de cámaras sobre tu proceso de creación. Selecciona colecciones de tus productos existentes organizados desde un nuevo ángulo (productos para actividades de días lluviosos, productos para rutinas matutinas, productos para preparación de evaluaciones). Los suscriptores permanecen comprometidos cuando tus emails consistentemente proporcionan ideas y recursos que pueden usar, independientemente de si estás lanzando nuevos productos esa semana.`,
     },
     {
-      question: '¿Cómo evito que mis emails vayan a spam?',
+      question: `¿Cómo evito que mis emails vayan a spam?`,
       answer: `La entregabilidad del email depende de varios factores que puedes gestionar activamente. Usa un proveedor de servicios de email de buena reputación con infraestructura sólida y monitoreo de entregabilidad. Envía emails solo a suscriptores que se suscribieron voluntariamente — nunca compres listas de email ni agregues direcciones sin consentimiento. Mantén patrones de envío consistentes en lugar de largos silencios seguidos de envíos de alto volumen. Incluye un enlace de cancelación de suscripción claro en cada email (requerido por ley y beneficioso para la calidad de la lista). Elimina a los suscriptores inactivos que no han abierto emails en 90 días, ya que señalan a los proveedores de email que tu contenido no es deseado. Evita palabras que activen filtros de spam en las líneas de asunto y el contenido del email. Autentica tu dominio de envío con registros SPF, DKIM y DMARC, que tu proveedor de servicios de email típicamente te guía durante la configuración.`,
     },
     {
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-redes-sociales-imprimibles', anchorText: `Marketing en Redes Sociales para Vendedores de Imprimibles` },
-    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: 'Marketing en Pinterest para Negocios de Fichas' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo Vender Fichas de Matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
-    { pageType: 'guide', slug: 'marketing-estacional-imprimibles', anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: `marketing-redes-sociales-imprimibles`, anchorText: `Marketing en Redes Sociales para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: `Marketing en Pinterest para Negocios de Fichas` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo Vender Fichas de Matemáticas en Etsy` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
+    { pageType: 'guide', slug: `marketing-estacional-imprimibles`, anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de Selección de Nicho para Negocios de Imprimibles` },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo Crear Paquetes de Fichas que Venden' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimibles', anchorText: 'Cómo Automatizar Tu Negocio de Imprimibles' },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas que Venden` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimibles`, anchorText: `Cómo Automatizar Tu Negocio de Imprimibles` },
     { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de Precios para productos imprimibles Imprimible` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
@@ -159,7 +159,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Productos visualmente impactantes que se muestran excepcionalmente bien en campañas de email. Las imágenes de vista previa de páginas para colorear impulsan altas tasas de clics en emails de anuncio de productos.`,
     },
     {
@@ -169,19 +169,19 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Generador de Fichas de Emparejamiento',
+      title: `Generador de Fichas de Emparejamiento`,
       description: `Actividades de emparejamiento temáticas que demuestran la variedad del catálogo en exhibiciones por email. Presenta diferentes temas de emparejamiento en los emails de difusión para destacar la amplitud de tu línea de productos.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
       alt: `Ficha profesional de sopa de letras demostrando calidad de lead magnet para campañas de email marketing`,
     },
     samples: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Ficha de sopa de letras ideal para lead magnets de email que atraen compradores de imprimibles`,
         caption: `Las sopas de letras son lead magnets atractivos que atraen a tu audiencia compradora objetivo`,
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Los productos visualmente impactantes impulsan mayores tasas de clics en campañas de email`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma demostrando contenido perenne para secuencias de email automatizadas`,
         caption: `El contenido de matemáticas perenne impulsa campañas de email estacionales automatizadas todo el año`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Águila — imagen educativa temática', caption: 'Águila' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamenco — imagen educativa temática', caption: 'Flamenco' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Cálao — imagen educativa temática', caption: 'Cálao' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Guacamayo — imagen educativa temática', caption: 'Guacamayo' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagen educativa temática', caption: 'Avestruz' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Águila — imagen educativa temática`, caption: 'Águila' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamenco — imagen educativa temática`, caption: 'Flamenco' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Cálao — imagen educativa temática`, caption: 'Cálao' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Guacamayo — imagen educativa temática`, caption: 'Guacamayo' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Avestruz — imagen educativa temática`, caption: 'Avestruz' },
   ],
 };
 

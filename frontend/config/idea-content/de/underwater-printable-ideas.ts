@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'unterwasser-druckvorlagen-ideen',
+    primaryKeyword: `unterwasser-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
-      'Ozean-Druckvorlagen auf KDP verkaufen',
-      'Meereslebewesen-Aktivitätsblätter für Gumroad',
-      'Korallen-Fisch-Lernmaterialien für Etsy-Shops',
+      `Unterwasserwelt-Arbeitsblätter auf Etsy erstellen`,
+      `Ozean-Druckvorlagen auf KDP verkaufen`,
+      `Meereslebewesen-Aktivitätsblätter für Gumroad`,
+      `Korallen-Fisch-Lernmaterialien für Etsy-Shops`,
     ],
     lsiKeywords: [
-      'Unterwasser-Ozean-Nische Druckvorlagen',
-      'Meeresbiologie-Thema Arbeitsblätter Etsy',
-      'Unterwasserwelt Ganzjahres-Lernmaterialien',
+      `Unterwasser-Ozean-Nische Druckvorlagen`,
+      `Meeresbiologie-Thema Arbeitsblätter Etsy`,
+      `Unterwasserwelt Ganzjahres-Lernmaterialien`,
     ],
-    titleTag: 'Unterwasser-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Unterwasser-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Unterwasser-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Ozean-Produktkonzepte und Nischenstrategien für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -40,7 +40,7 @@ Die Aquariumbesuch-Verbindung stellt einen besonders wertvollen Zielgruppen-Trei
       appId: 'find-count',
     },
     {
-      title: 'Unterwasser-Wortsuchspiele zum Online-Verkauf',
+      title: `Unterwasser-Wortsuchspiele zum Online-Verkauf`,
       description: `Ozean-Wortschatz-Wortsuchspiele ziehen naturwissenschaftsorientierte Käufer an, die Meeresbiologie-Einheiten planen, und Eltern, die lehrreiche Unterhaltung suchen, die die natürliche Faszination ihres Kindes für Haie, Delfine und Korallenriff-Ökosysteme in produktive Wortschatzerweiterung und Rechtschreibfähigkeitsentwicklung über mehrere ozean-thematische Kategorien hinweg kanalisiert. Erstellen Sie Rätsel mit meeresspezifischem Vokabular wie Delfin, Oktopus, Qualle, Seepferdchen, Koralle, U-Boot, Seeanemone, Stachelrochen, Hummer und Schiffswrack sowie breiteren Ozean-Begriffen wie Strömung, Lebensraum, Ökosystem und Wanderung. Der Wortsuch-Generator ermöglicht die Kontrolle über Rastergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Meeresbegriffen für ältere Nutzer an, die Ozean-Wissenschaftsvokabular und Meeresbiologie-Terminologie erkunden.`,
       appId: 'wordsearch',
     },
@@ -60,7 +60,7 @@ Die Aquariumbesuch-Verbindung stellt einen besonders wertvollen Zielgruppen-Trei
       appId: 'coloring',
     },
     {
-      title: 'Unterwasser-Bingo-Karten für Shopaktivitäten',
+      title: `Unterwasser-Bingo-Karten für Shopaktivitäten`,
       description: `Ozean-Bingo-Karten bedienen Naturwissenschaftslehrkräfte, die Meeresbiologie-Einheiten durchführen, und Produktkäufer, die interaktive Gruppenaktivitäten suchen, die Meeresvokabular und Meereskreatur-Identifikation effektiver als einzelne Arbeitsblätter allein in ansprechenden Shop- und Lernzentrum-Umgebungen verstärken. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Ozean-Wortschatzliste und stellt sicher, dass keine zwei Karten für Shop- oder Gruppenspiel-Sitzungen identisch sind. Verkaufen Sie Shop-Sets mit fünfundzwanzig bis dreißig Karten mit einem Ausrufblatt und einem Meeres-Wortschatz-Referenzleitfaden inklusive. Für den Familienmarkt erstellen Sie Bingo-Kits mit verschiedenen Ozeanzonen, Meereskreaturen, Korallenriff-Elementen, Tiefseetieren und Unterwasser-Erkundungsausrüstung, die Familien während Ozean-Lernsitzungen oder nach Aquariumbesuchen spielen können, wenn die Meeres-Begeisterung besonders hoch ist.`,
       appId: 'bingo',
     },
@@ -89,7 +89,7 @@ Die Aquariumbesuch-Verbindung stellt einen besonders wertvollen Zielgruppen-Trei
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Unterwasser-Druckvorlagen auf Etsy verkaufen',
+      title: `Unterwasser-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Unterwasser-Nische mit konsistenter ganzjähriger Listing-Performance, da die Faszination von Kindern für Ozean-Kreaturen und Meeresleben nie pausiert und Eltern von ozean-begeisterten Kindern aktiv nach thematischen Lernmaterialien suchen, die die Meeres-Neugier ihres Kindes über jede Jahreszeit hinweg unterstützen. Nutzen Sie alle dreizehn Tags mit Variationen, die Meeres-Elemente, Kompetenzbereiche und Altersgruppen kombinieren: „Ozean-Zählarbeitsblätter Vorschule", „Unterwasser-Ausmalseiten Kleinkind" und „Hai-Wortsuchspiel Kindergarten" zielen auf spezifische Käufersuchen weitaus effektiver als breite Tags wie „Ozean-Arbeitsblätter". Positionieren Sie Ihre Produkte sowohl für Bildungs- als auch Geschenkkäufersuchen, indem Sie Begriffe wie „Aktivität für junge Meeresbiologen" und „Ozean-Liebhaber-Druckvorlage" in Ihre Titel und Beschreibungen aufnehmen. Listing-Bilder, die gedruckte Unterwasser-Arbeitsblätter neben Spielzeug-Meerestieren, Muschelsammlungen oder Aquarium-Souvenirs zeigen, übertreffen flache digitale Vorschauen und fangen die praktische Begeisterung ein, die Eltern von ozean-faszinierten Kindern zu Etsy bringt, um nach meeres-thematischen Bildungsressourcen zu suchen. Sprechen Sie Meerjungfrauen- und Ozean-Geburtstagsparty-Suchen das ganze Jahr über an, da Unterwasser-Themen zu den beliebtesten Feierauswahlmöglichkeiten für Kinder gehören, die davon träumen, das tiefe blaue Meer zu erkunden.`,
     },
     {
@@ -99,7 +99,7 @@ Die Aquariumbesuch-Verbindung stellt einen besonders wertvollen Zielgruppen-Trei
     },
     {
       platform: 'Gumroad',
-      title: 'Unterwasser-Shopressourcen für Gumroad erstellen',
+      title: `Unterwasser-Shopressourcen für Gumroad erstellen`,
       description: `Gumroad-Käufer sind Produktkäufer und Naturwissenschaftskoordinatoren, die nach Meeresbiologie-thematischen Bildungsergänzungen, Ozean-Wortschatz-Aktivitäten und fächerübergreifenden Ressourcen suchen, die Meereswissenschaftskonzepte in Mathematik-, Lese- und Schreib- sowie Geografie-Produkterstellung mit minimalem Vorbereitungsaufwand integrieren. Unterwasser-Druckvorlagen auf Gumroad funktionieren am besten, wenn sie als einsatzbereite Gruppenaktivitätslösungen verpackt sind: ozean-thematische Morgenarbeitspakete, Marine-Wortschatz-Aktivitätsstationen oder Welttag-der-Ozeane-Begleitarbeitsblätter mit klaren Lernzielen, die Meereswissenschafts-Themen mit akademischer Kompetenzentwicklung verbinden. Fügen Sie Lernzielzuordnungen zu Naturwissenschafts-, Mathematik-, Lese- und Schreib- sowie Geografiestandards hinzu, damit Käufer ozean-thematische Aktivitäten gegenüber Schulleitungen und Produktkatalogkoordinatoren rechtfertigen können, die Druckproduktkäufe überprüfen. Die Bündelungsfunktion von Gumroad ermöglicht es Ihnen, einzelne Meereskreatur-Produkte und ein vergünstigtes Ozean-Mega-Paket gleichzeitig anzubieten, und spricht sowohl budgetbewusste Käufer an, die Einzelartikel kaufen, als auch solche, die in umfassende Meereswissenschafts-Einheitsressourcen für Ozean-Lebensraum-Studien, Umwelttag-Lektionen und naturthematische Shopeinheiten während des gesamten Schuljahres investieren.`,
     },
     {
@@ -143,13 +143,13 @@ Die Aquariumbesuch-Verbindung stellt einen besonders wertvollen Zielgruppen-Trei
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Die Aquariumbesuch-Verbindung stellt einen besonders wertvollen Zielgruppen-Trei
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'camping-druckvorlagen-ideen',
-      anchorText: 'Camping-Druckvorlagen-Geschäftsideen',
+      anchorText: `Camping-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Kaiserfisch — thematisches Lernbild`, caption: 'Kaiserfisch' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfisch — thematisches Lernbild`, caption: 'Clownfisch' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koralle — thematisches Lernbild`, caption: 'Koralle' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krabbe — thematisches Lernbild`, caption: 'Krabbe' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
   ],
 
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja pedagogiska resurser på Creative Fabrica',
+    primaryKeyword: `sälja pedagogiska resurser på Creative Fabrica`,
     secondaryKeywords: [
-      'hur man säljer på Creative Fabrica',
+      `hur man säljer på Creative Fabrica`,
       'Creative Fabrica för säljare',
-      'sälja printables på Creative Fabrica',
-      'Creative Fabrica Classroom resurser',
+      `sälja printables på Creative Fabrica`,
+      `Creative Fabrica Classroom resurser`,
     ],
     lsiKeywords: [
       `designmarknadsplats hantverkspublik prenumerationsmodell digitala nedladdningar pedagogiska printables`,
@@ -35,15 +35,15 @@ const content: GuideContent = {
       content: `Creative Fabrica grundades som en plattform för typsnitt och grafiska designtillgångar, och detta arv formar allt från målgruppsdemografi till sökalgoritm. Den typiska besökaren är en hantverkare som använder en Cricut eller Silhouette skärmaskin, en grafisk designer som söker kommersiella tillgångar, eller en kreativ professionell som letar efter typsnitt och illustrationer. säljare representerar ett växande men fortfarande sekundärt segment.\n\nDenna målgruppssammansättning är faktiskt en fördel. När en hantverkare som bläddrar SVG-filer upptäcker högkvalitativa målarbilder i Classroom-sektionen blir hon en köpare du aldrig hade nått på Gumroad. När en förälder som handlar inbjudningsmallar hittar dina tematiska matchningsaktiviteter har du fångat uppmärksamhet utan att konkurrera mot tusentals pedagogiska säljare.\n\nClassroom-sektionen är där pedagogiska resurser bor. Den är organiserad efter årskurs, ämnesområde och resurstyp. Produkter listade i Classroom visas både i Classroom-navigeringsupplevelsen och i generella Creative Fabrica-sökresultat, vilket ger dig dubbel upptäckbarhet.\n\nPrenumerationsmodellen förändrar fundamentalt hur du tänker om produktstrategi. På Etsy eller Gumroad behöver varje produkt generera direktförsäljning. På Creative Fabrica kan produkter med hög prenumerationsnedladdning tjäna intäkt från prenumerationspoolen även om de aldrig säljer som enskilda köp. Produkter med bred attraktionskraft som attraherar frekventa nedladdningar kan vara mer värdefulla än nischprodukter med högre individuella priser men lägre nedladdningsvolym.`,
     },
     {
-      heading: 'Sätt upp ditt Creative Fabrica designerkonto',
+      heading: `Sätt upp ditt Creative Fabrica designerkonto`,
       content: `Att bli säljare på Creative Fabrica kräver att ansöka om ett designerkonto, vilket är en separat process från att skapa ett standard köparkonto. Navigera till "Become a Designer"-sektionen. Ansökan kräver grundläggande information och exempel på ditt kreativa arbete. Creative Fabrica granskar ansökningar för att upprätthålla kvalitetsstandarder — inkludera exempel på dina bästa produkter. Godkännande tar typiskt några arbetsdagar.\n\nSätt upp din designerprofil noggrant. Välj ett butiksnamn som reflekterar ditt varumärke. Skriv en biografi som kommunicerar vilka typer av resurser du skapar. Om du säljer på andra plattformar, bibehåll konsekvent varumärke.\n\nKonfigurera dina betalningsinställningar. Creative Fabrica betalar via PayPal eller banköverföring.\n\nLadda upp en professionell profilbild och omslagsbanner. Creative Fabricas designersidor visar dessa framträdande.\n\nFamiliarisera dig med instrumentpanelen som visar försäljningsdata, prenumerationsnedladdningsstatistik, intäktsfördelningar och produktprestandamått.`,
     },
     {
-      heading: 'Skapa och ladda upp pedagogiska resurser',
+      heading: `Skapa och ladda upp pedagogiska resurser`,
       content: `Produktskapande på Creative Fabrica följer ett strukturerat arbetsflöde. Du behöver produktfiler (PDF-arbetsblad), en omslagsbild, en titel, en beskrivning, taggar och kategorival.\n\nFörbered dina produktfiler i de format köpare förväntar sig. För pedagogiska arbetsblad är PDF det primära formatet. Säkerställ 300 DPI upplösning. Om ditt arbetsbladspaket inkluderar flera sidor, kombinera dem till en enda PDF. Inkludera facit där det är tillämpligt.\n\nDin omslagsbild är det enskilt viktigaste konverteringselementet. Creative Fabrica visar produkter som visuella miniatyrbilder. Skapa en omslagsbild som tydligt visar vad produkten innehåller: en mockup av utskrivna arbetsblad, ett collage som visar flera sidor, eller ett stylat fotografi. Inkludera textöverlägg som anger sidantal, årskurs och tema.\n\nSkriv en produkttitel som är både beskrivande och nyckelordsrik: "Djurtematiserade additionsarbetsblad för förskoleklass — 40 sidor med facit." Undvik vaga titlar.\n\nDin produktbeskrivning bör följa en tydlig struktur: översikt, målgrupp, användningsområden och filformatsinformation.\n\nVälj kategorier noggrant. För pedagogiska resurser, välj Classroom-kategorin och de mest specifika underkategorierna. Lägg också till bredare kategorier om din produkt har korsappeal — en målarbild kan passa både Classroom och en hantverkskategori.`,
     },
     {
-      heading: 'Optimera listningar för Creative Fabrica-sökning',
+      heading: `Optimera listningar för Creative Fabrica-sökning`,
       content: `Creative Fabricas sökalgoritm förlitar sig tungt på taggar, titelnyckelord och kategoritilldelningar.\n\nTaggar är ditt primära sökoptimeringsverktyg. Använd alla tillgängliga taggplatser. Inkludera en mix av specifika och breda termer: "additionsarbetsblad" och "matteprintables" täcker olika sökfrågor. Tänk på vad olika köparsegment söker — en säljare söker "first grade math practice" medan en förälder söker "addition worksheets for kids" och en hemundervisare söker "K–1 math printable activities."\n\nKategorival påverkar både sök- och navigeringsupptäckbarhet. Produkter tilldelade till Classroom-sektionen visas i pedagogiska kategorisidor, men Creative Fabrica visar också produkter i relaterade kategorier baserat på taggar.\n\nStudera sökresultat för dina målnyckelord innan du slutför din listning. Analysera vad som rankar högt. Notera titlar, omslagsbilder och taggmönster.\n\nUppdatera dina taggar periodiskt baserat på prestandadata. Creative Fabricas instrumentpanel visar vilka söktermer som för besökare till dina produkter. Om en produkt inte visas för termer du förväntade, granska dina taggar. Sökoptimering är en pågående process.`,
     },
     {
@@ -51,15 +51,15 @@ const content: GuideContent = {
       content: `Creative Fabricas dubbla intäktsmodell kräver en prisstrategi som beaktar både enskilda försäljningar och prenumerationsnedladdningsintäkter. Priset du sätter gäller köpare som köper individuellt — utanför prenumeration. Prenumerationsmedlemmar får tillgång genom sitt medlemskap, och du tjänar från prenumerationspoolen baserat på nedladdningsvolym.\n\nFör enskild försäljningsprissättning, undersök jämförbara produkter. pedagogiska printable-paket prissätts typiskt $3–$15. Ett 10-sidors arbetsbladspaket kan prissättas $4–$6, medan en omfattande 50-sidors resurs kan ta $10–$15.\n\nPrenumerationsintäkt kräver en volymoriented inställning. Varje gång en prenumerant laddar ner din produkt tjänar du en andel. Produkter med bred attraktionskraft som attraherar många nedladdningar genererar meningsfull prenumerationsintäkt. Ett arbetsbladspaket nedladdat 200 gånger per månad genererar konsekvent prenumerationsinkomst oavsett dess individuella försäljningspris.\n\nBalansera din strategi. Sätt individuella priser till vad de är värda — prenumerationsmodellen hanterar volymbaserad intäkt som en separat ström.\n\nÖverväg att skapa både premium- och standardproduktsnivåer. En omfattande 80-sidors mattearbetsbok till $12 betjänar individuella köpare, medan en fokuserad 15-sidors uppsättning till $4 mer sannolikt attraherar prenumerationsnedladdningar.`,
     },
     {
-      heading: 'Utnyttja Creative Fabricas hantverkspublik',
+      heading: `Utnyttja Creative Fabricas hantverkspublik`,
       content: `Den unika möjligheten är korsningen mellan hantverks- och designpubliken och pedagogiskt innehåll. Miljontals användare är hantverkare, Cricut-ägare, scrapbookers och DIY-entusiaster — och många av dem är också föräldrar och vårdnadshavare.\n\nVisuell kvalitet spelar större roll på Creative Fabrica än på någon annan pedagogisk plattform. Kärnpubliken bedömer produkter efter designkvalitet först. Ett mattearbetsblad med attraktiva illustrationer och ren layout överträffar ett texttunga arbetsblad. Använd generatorerna för att skapa visuellt övertygande resurser.\n\nSkapa produkter som tjänar både pedagogiska och kreativa syften. En uppsättning djurtematiserade målarbilder fungerar som produktlinjesaktivitet, hemundervisningskonst, regnig-dag-aktivitet och lugn-stund-resurs. Positionera med beskrivningar och taggar som talar till båda målgrupperna.\n\nSäsongsbetonade och högtidsteman presterar exceptionellt bra eftersom hantverkspubliken är starkt säsongsbetonad. Skolstartsresurser, Halloweenaktiviteter, jularbetsblad, Alla hjärtans dag — varje fönster för hantverksköpare som redan är i köpläge.\n\nTematiska arbetsbladspaket med koppling till populära hantverkskategorier (djur, natur, fordon, mat, rymd) skapar naturliga upptäcktsvägar. En förälder som bläddrar djur-SVG:er kan upptäcka dina djurtematiserade matchningsarbetsblad.`,
     },
     {
-      heading: 'Marknadsför dina Creative Fabrica-produkter',
+      heading: `Marknadsför dina Creative Fabrica-produkter`,
       content: `Medan Creative Fabrica ger inbyggd marknadsplatsupptäckt accelererar extern marknadsföring din tillväxt.\n\nPinterest är den mest naturliga externa kanalen. Pinterests visuella format matchar Creative Fabricas designcentrerade estetik, och Pinterest-användare söker aktivt efter printables. Skapa pins som visar dina arbetsblad med stylade fotografier eller attraktiva mockups. Länka direkt till dina Creative Fabrica-produktsidor.\n\nSociala medier bör betona visuell attraktionskraft. Instagram-reels som visar ett genomblädder av ditt arbetsbladspaket, TikTok-videos som demonstrerar hur ett barn använder dina aktiviteter, eller Facebook-inlägg i föräldra- och hemundervisningsgrupper.\n\nKorsmarknadsför mellan Creative Fabrica och andra plattformar. Nämn din Creative Fabrica-närvaro i sociala medieprofiler (men länka aldrig direkt inom Etsy- eller Gumroad-listningar). Vissa köpare föredrar prenumerationsmodellen.\n\nBygg en e-postlista oberoende av enskilda plattformar. Annonsera nya Creative Fabrica-uppladdningar och säsongsbetonade produktsamlingar till prenumeranter.`,
     },
     {
-      heading: 'Skala ditt Creative Fabrica-företag',
+      heading: `Skala ditt Creative Fabrica-företag`,
       content: `Att skala innebär att expandera din katalog strategiskt, skapa produktpaket och potentiellt sälja över flera Creative Fabrica-kategorier.\n\nBygg en omfattande katalog inom din pedagogiska nisch innan du expanderar. Om du börjar med mattearbetsblad, skapa resurser för flera årskurser, färdighetsområden och teman. Djup inom en kategori sammansätter din synlighet.\n\nSkapa produktpaket som erbjuder värde. Kombinera relaterade paket — ett "Komplett förskoleklass mattepaket" eller en "Säsongsbetonad aktivitetssamling." Prissätt paket 30–40% under det kombinerade individuella priset.\n\nExpandera till angränsande Creative Fabrica-kategorier. Om dina målarbilder presterar bra i Classroom, överväg att ladda upp designfokuserade versioner i bredare kategorier. Tvärkategorinärvaro multiplicerar din synlighet.\n\nAnvänd generatorerna för konsekvent publiceringsschema. Målarbild-generatorn skapar hantverksvänliga printables. Ordsökningsgeneratorn producerar mångsidiga pussel. Matchningsgeneratorn skapar engagerande aktiviteter. Rita linjer-generatorn producerar kreativa arbetsblad som passar naturligt i en designcentrerad marknadsplats. Publicera 2–4 nya produkter per vecka.\n\nÖvervaka din analys. Spåra vilka produkter som genererar mest prenumerationsnedladdningar kontra enskilda försäljningar. Identifiera vilka teman och produkttyper som presterar starkast.`,
     },
   ],
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Prenumerationsintäkt är proportionell mot hur många gånger prenumeranter laddar ner dina produkter. Istället för att maximera pris per produkt vill du maximera totala nedladdningar. Produkter med bred attraktionskraft — tematiska målarbilder, mångsidiga arbetsbladspaket, säsongsbetonade aktiviteter — genererar fler prenumerationsnedladdningar. Ett "50 djurmålarbilder"-paket som tilltalar föräldrar, säljare, hantverkare och mor/farföräldrar attraherar fler nedladdningar än ett "Årskurs 3 Modul 7 Common Core bråkövning." Bygg din katalog med en mix av bredappeal-produkter för prenumerationsvolym och riktade produkter för enskild försäljning.`,
     },
     {
-      heading: 'Skapa en flernivå produktkatalog',
+      heading: `Skapa en flernivå produktkatalog`,
       content: `Strukturera din katalog med produkter på flera omfångsnivåer. Små fokuserade produkter (10–15 sidor, $3–$5) betjänar prenumeranter och impulsköpare. Mellanstora paket (30–50 sidor, $7–$10) ger substantiellt värde för individuella köpare. Stora paket (80+ sidor, $12–$15) riktar sig mot engagerade köpare. Varje nivå attraherar olika segment, och prenumerationsmodellen innebär att även lågprisade produkter genererar intäkt genom medlemsnedladdningar.`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'saelja-printables-gumroad',
-      title: 'Hur du säljer printables på Gumroad',
+      title: `Hur du säljer printables på Gumroad`,
       description: `En skapar-direkt-plattform för att sälja printables med noll månadsavgifter, inbyggd e-postmarknadsföring och 90% intäktsbehållning.`,
     },
     {
       slug: 'kdp-eller-etsy-printables',
-      title: 'Amazon KDP vs Etsy: Var du säljer printables',
+      title: `Amazon KDP vs Etsy: Var du säljer printables`,
       description: `En detaljerad jämförelse av de två största marknadsplatsplattformarna, med avgifter, trafik, kontroll och intäktspotential.`,
     },
     {
-      slug: 'komplett-guide-utskriftsbart-foeretag',
+      slug: `komplett-guide-utskriftsbart-foeretag`,
       title: `Komplett guide till att starta utskriftsbart företag`,
       description: `Hörnstensguiden som täcker innehållsskapande, kommersiell licensiering, flerplattformsstrategi och att bygga ett hållbart utskriftsbart företag.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'saelja-printables-gumroad', anchorText: 'Hur du säljer printables på Gumroad' },
-    { pageType: 'guide', slug: 'skapa-saelja-tpt-resurser', anchorText: 'Hur du skapar och säljer Gumroad-resurser' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: 'Hur du startar en Etsy printables-butik' },
-    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Var du säljer printables' },
-    { pageType: 'guide', slug: 'etsy-printables-prissaettning', anchorText: 'Hur du prissätter dina Etsy printables' },
-    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: 'Etsy SEO för pedagogiska printables' },
-    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: 'Hur du skapar ordsökningspussel med bilder' },
-    { pageType: 'guide', slug: 'skapa-maelarsidor', anchorText: 'Hur du skapar målarbilder från tematiska bilder' },
-    { pageType: 'guide', slug: 'skapa-matchnings-arbetsblad', anchorText: 'Hur du skapar matchningsarbetsblad för förskolan' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: 'saelja-printables-gumroad', anchorText: `Hur du säljer printables på Gumroad` },
+    { pageType: 'guide', slug: 'skapa-saelja-tpt-resurser', anchorText: `Hur du skapar och säljer Gumroad-resurser` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: `Hur du startar en Etsy printables-butik` },
+    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: `Amazon KDP vs Etsy: Var du säljer printables` },
+    { pageType: 'guide', slug: 'etsy-printables-prissaettning', anchorText: `Hur du prissätter dina Etsy printables` },
+    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: `Etsy SEO för pedagogiska printables` },
+    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: `Hur du skapar ordsökningspussel med bilder` },
+    { pageType: 'guide', slug: 'skapa-maelarsidor', anchorText: `Hur du skapar målarbilder från tematiska bilder` },
+    { pageType: 'guide', slug: 'skapa-matchnings-arbetsblad', anchorText: `Hur du skapar matchningsarbetsblad för förskolan` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
   ],
 
@@ -177,38 +177,38 @@ const content: GuideContent = {
     },
     {
       appId: 'matching-app',
-      title: 'Matchnings Arbetsblad Generator',
+      title: `Matchnings Arbetsblad Generator`,
       description: `Producerar illustrerade matchningsaktiviteter populära i Creative Fabricas Classroom-sektion. Tematiska matchningsarbetsblad tilltalar både säljare- och föräldrarpublik.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Ordsökning Arbetsblad Generator',
+      title: `Ordsökning Arbetsblad Generator`,
       description: `Genererar tematiska ordsökningspussel med bred attraktionskraft över Creative Fabricas mångfaldiga publik. En mångsidig produkttyp som attraherar prenumerationsnedladdningar och enskilda försäljningar.`,
     },
     {
       appId: 'drawing-lines',
-      title: 'Rita linjer Arbetsblad Generator',
+      title: `Rita linjer Arbetsblad Generator`,
       description: `Skapar kreativa övnings- och ritarbetsblad som passar naturligt i en designfokuserad marknadsplats. Ritaktiviteternas konstnärliga natur resonerar med Creative Fabricas hantverksorienterade köpare.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Utskriftsbar printable för att sälja pedagogiska resurser på Creative Fabrica' },
+    heroImage: { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Utskriftsbar printable för att sälja pedagogiska resurser på Creative Fabrica` },
     samples: [
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: `Matchningsarbetsblad aktivitet för Creative Fabrica pedagogiska produkter`, caption: 'Tematiska matchningsaktiviteter är högefterfrågade resurser i Creative Fabricas Classroom-sektion' },
-      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Ordsökningspussel printable för Creative Fabrica marknadsplats', caption: 'Ordsökningspussel attraherar prenumerationsnedladdningar från både säljare och föräldrar' },
-      { src: `/samples/swedish/drawing%20lines/rita%20linjer.jpeg`, alt: 'Ritarbetsblad för Creative Fabrica designmarknadsplats', caption: 'Ritarbetsblad passar naturligt i Creative Fabricas designcentrerade marknadsplats' },
+      { src: `/samples/swedish/matching/Matchningsspel.jpeg`, alt: `Matchningsarbetsblad aktivitet för Creative Fabrica pedagogiska produkter`, caption: `Tematiska matchningsaktiviteter är högefterfrågade resurser i Creative Fabricas Classroom-sektion` },
+      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Ordsökningspussel printable för Creative Fabrica marknadsplats`, caption: `Ordsökningspussel attraherar prenumerationsnedladdningar från både säljare och föräldrar` },
+      { src: `/samples/swedish/drawing%20lines/rita%20linjer.jpeg`, alt: `Ritarbetsblad för Creative Fabrica designmarknadsplats`, caption: `Ritarbetsblad passar naturligt i Creative Fabricas designcentrerade marknadsplats` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Hur du skapar pedagogiska arbetsblad för Creative Fabrica`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bi — tematisk pedagogisk bild', caption: 'Bi' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Tjur — tematisk pedagogisk bild', caption: 'Tjur' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pedagogisk bild', caption: 'Kalv' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katt 2 — tematisk pedagogisk bild', caption: 'Katt 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Bi — tematisk pedagogisk bild', caption: 'Bi' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Tjur — tematisk pedagogisk bild`, caption: 'Tjur' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Kalv — tematisk pedagogisk bild`, caption: 'Kalv' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katt 2 — tematisk pedagogisk bild`, caption: 'Katt 2' },
   ],
 };
 

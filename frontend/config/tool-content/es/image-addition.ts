@@ -1,19 +1,19 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear fichas de suma para venta en línea',
+    primaryKeyword: `crear fichas de suma para venta en línea`,
     secondaryKeywords: [
-      'creador de fichas de suma para vendedores',
-      'fichas de suma matemáticas para niños',
-      'ejercicios de suma imprimibles',
-      'fichas de suma con imágenes para preescolar',
+      `creador de fichas de suma para vendedores`,
+      `fichas de suma matemáticas para niños`,
+      `ejercicios de suma imprimibles`,
+      `fichas de suma con imágenes para preescolar`,
     ],
     lsiKeywords: [
-      'fichas matemáticas visuales para venta en línea',
-      'ejercicios de suma con imágenes para niños',
-      'fichas matemáticas preescolar para vendedores',
+      `fichas matemáticas visuales para venta en línea`,
+      `ejercicios de suma con imágenes para niños`,
+      `fichas matemáticas preescolar para vendedores`,
     ],
-    titleTag: 'Crear Fichas de Suma — para vendedores y Padres',
+    titleTag: `Crear Fichas de Suma — para vendedores y Padres`,
     metaDescription: `Crea fichas de suma con imágenes temáticas para venta en línea. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de.`,
     },
 
@@ -24,7 +24,7 @@ const content: ToolContent = {  seo: {
   },
 
   tutorial: {
-    title: 'Cómo Crear Fichas de Suma en 8 Pasos Sencillos',
+    title: `Cómo Crear Fichas de Suma en 8 Pasos Sencillos`,
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
@@ -35,15 +35,15 @@ const content: ToolContent = {  seo: {
         description: `Abre el panel «Configuración de Ejercicios» y selecciona entre cuatro modos: Imagen + Imagen (ambos sumandos como grupos de imágenes), Imagen + Número (un grupo de imágenes más un número), Encontrar el Sumando (uno de los sumandos está oculto y el niño debe adivinarlo), o Modo Mixto (combina los tres estilos de forma aleatoria en una misma ficha).`,
       },
       {
-        title: 'Ajustar el Rango de Dificultad',
+        title: `Ajustar el Rango de Dificultad`,
         description: `Ajusta los controles «Mínimo de elementos por grupo» y «Máximo de elementos por grupo» para controlar los números utilizados. Para preescolar, prueba con 1–3. Para infantil, usa 1–5. Los usuarios de 1.º de primaria pueden manejar 1–10. También puedes definir el número de ejercicios por ficha (de 1 a 10).`,
       },
       {
-        title: 'Seleccionar un Tema de la Biblioteca de Imágenes',
+        title: `Seleccionar un Tema de la Biblioteca de Imágenes`,
         description: `Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.`,
       },
       {
-        title: 'Personalizar el Diseño de Página',
+        title: `Personalizar el Diseño de Página`,
         description: `En la sección «Configuración de Página», elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.`,
       },
       {
@@ -51,7 +51,7 @@ const content: ToolContent = {  seo: {
         description: `Usa el panel «Herramientas de Texto» para añadir un título, un campo de nombre o instrucciones. Elige entre fuentes adaptadas para niños como Fredoka, Baloo 2, Quicksand y Nunito. Ajusta el tamaño, color y contorno opcional del texto para mejorar la legibilidad sobre los fondos.`,
       },
       {
-        title: 'Ajustar las Opciones de la Ficha',
+        title: `Ajustar las Opciones de la Ficha`,
         description: `Perfecciona tu ficha con las casillas de verificación: activa los campos Nombre/Fecha en la parte superior, muestra u oculta el signo más entre los grupos de imágenes, incluye números de ejercicio y cambia el estilo del cuadro de respuesta atractivo. Cada opción actualiza la vista previa en tiempo real.`,
       },
       {
@@ -63,19 +63,19 @@ const content: ToolContent = {  seo: {
 
   whatYouCanCreate: [
     {
-      title: 'Packs de Actividades de Suma Temáticos',
+      title: `Packs de Actividades de Suma Temáticos`,
       description: `Crea un conjunto de 10 a 20 fichas en torno a un solo tema — dinosaurios, animales de granja o criaturas marinas. Agrúpalas como un pack PDF y véndelas en Etsy o Gumroad. A los padres les encantan los packs temáticos porque mantienen a los niños interesados durante más tiempo. Cada tema de la biblioteca contiene suficiente variedad para completar un pack entero sin repetir imágenes, lo que significa que los compradores obtienen una verdadera diversidad visual en cada descarga. Fija el precio entre 3 $ y 5 $ para temas individuales y entre 8 $ y 12 $ para mega-packs que combinen varios temas con una curva de dificultad progresiva.`,
     },
     {
-      title: 'Conjuntos de Tareas Diferenciados',
+      title: `Conjuntos de Tareas Diferenciados`,
       description: `Genera tres versiones de la misma ficha con diferentes niveles de dificultad: fácil (1–3), medio (1–5) y difícil (1–10). Los vendedores pueden entregar el nivel adecuado a cada usuario sin gastar tiempo extra de preparación. Este enfoque funciona especialmente bien en Gumroad donde los emprendedores buscan específicamente material diferenciado que ahorra tiempo de producción. Agrupa los tres niveles de dificultad como un solo listing entre 4 $ y 6 $, e incluye una guía vendedor explicando qué nivel se adapta a cada perfil de usuario.`,
     },
     {
-      title: 'Packs de Matemáticas Estacionales',
+      title: `Packs de Matemáticas Estacionales`,
       description: `Usa temas de fiestas y temporadas (Navidad, Halloween, flores de primavera, playa de verano) para crear packs de edición limitada. Los productos estacionales se venden especialmente bien en Etsy porque los compradores los buscan en ventanas específicas. Pon el precio de cada pack estacional entre 4 $ y 7 $ y aprovecha el pico de ventas anual que ocurre aproximadamente dos o tres semanas antes de cada festividad. Planifica tu catálogo estacional con al menos seis semanas de antelación para captar a los compradores precoces.`,
     },
     {
-      title: 'Cuadernos de Actividades de Matemáticas para KDP',
+      title: `Cuadernos de Actividades de Matemáticas para KDP`,
       description: `Genera de 50 a 100 páginas de fichas de suma en modos mixtos, exporta como PDF de alta resolución y publica como cuaderno de actividades low-content en Amazon KDP. El formato cuadrado (1200×1200) es ideal para cuadernos de actividades KDP. Usa un tema coherente a lo largo del libro o alterna temas por capítulo para darle un aspecto profesional cohesivo. Incluye un índice, una página de introducción con instrucciones para los padres y una sección de clave de respuestas completa al final. Fija el precio de tus cuadernos KDP entre 5,99 $ y 8,99 $ para retornos óptimos de regalías.`,
     },
     {
@@ -83,7 +83,7 @@ const content: ToolContent = {  seo: {
       description: `Prepara un mes de calentamientos diarios de suma. Cada ficha toma de 5 a 10 minutos, ideal para el trabajo de entrada por la mañana. Incluye la clave de respuestas para que los usuarios se autocorrijan. Los paquetes de ejercicios matutinos se venden de forma constante en Etsy y Gumroad porque los vendedores los compran al inicio de cada curso escolar. Crea packs mensuales de 20 a 25 fichas entre 5 $ y 8 $, y ofrece un pack de año completo con descuento entre 35 $ y 45 $ para maximizar los ingresos por cliente.`,
     },
     {
-      title: 'Fichas de Matemáticas Bilingües',
+      title: `Fichas de Matemáticas Bilingües`,
       description: `Cambia el idioma del contenido para crear fichas con etiquetas de imágenes en alemán, francés, portugués o cualquiera de los 11 idiomas disponibles. Ideal para clases de español como lengua extranjera, familias bilingües que trabajan desde casa o vendedores en mercados internacionales. La capacidad multilingüe abre oportunidades en marketplaces internacionales que la mayoría de los competidores ignoran por completo. Las fichas de matemáticas en alemán y francés enfrentan significativamente menos competencia en Etsy que las fichas en español, lo que se traduce en mayor visibilidad en búsquedas y mejores tasas de conversión.`,
     },
   ],
@@ -100,17 +100,17 @@ const content: ToolContent = {  seo: {
       platform: 'Gumroad',
     },
     {
-      title: 'Cuadernos de Actividades en Amazon KDP',
+      title: `Cuadernos de Actividades en Amazon KDP`,
       description: `Compila más de 50 páginas de ejercicios de suma con imágenes en un cuaderno de actividades físico. Usa los modos mixtos y varios temas para añadir variedad. Fija el precio entre 6,99 $ y 9,99 $ y deja que Amazon se encargue de la impresión y el envío. Investiga los cuadernos de la competencia en tu categoría objetivo para identificar vacíos en la cobertura temática o en el rango de dificultad que tu libro pueda llenar. La calidad interior importa: asegura márgenes consistentes, ajustes de sangrado correctos y numeración de páginas profesional.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Complemento de productos para Educación en Casa',
+      title: `Complemento de productos para Educación en Casa`,
       description: `Crea un programa de suma estructurado de 12 semanas con dificultad progresiva. Véndelo como descarga digital en tu propio sitio web o en Gumroad. Los emprendedores buscan activamente materiales de matemáticas visuales y prácticos. Estructura el programa con objetivos de aprendizaje claros por semana, comenzando con sumandos de un dígito y progresando hacia desafíos de dos dígitos en la duodécima semana. Incluye hojas de instrucciones para los padres explicando cómo usar cada conjunto de fichas y qué conceptos matemáticos refuerzan.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Biblioteca de Recursos para Centros de Tutoría',
+      title: `Biblioteca de Recursos para Centros de Tutoría`,
       description: `Si diriges un centro de tutoría, genera fichas personalizadas para cada sesión con los usuarios. El formato basado en imágenes mantiene a los usuarios jóvenes interesados mientras tú haces seguimiento de los rangos numéricos que les resultan difíciles. Usa la clave de respuestas para una corrección instantánea. Haz seguimiento del progreso de cada usuario guardando las configuraciones y regenerando ejercicios similares con un nivel de dificultad ligeramente mayor a medida que mejoran.`,
     },
     {
@@ -121,15 +121,15 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Usa el Modo Mixto para Máximo Valor',
+      title: `Usa el Modo Mixto para Máximo Valor`,
       description: `Al crear productos para vender, incluye siempre al menos algunas fichas en Modo Mixto en tus packs. El Modo Mixto combina Imagen + Imagen, Imagen + Número y Encontrar el Sumando en una sola página, ofreciendo a los compradores más variedad y haciendo que tu producto se vea más completo en comparación con competidores que solo ofrecen un estilo. Los compradores en los marketplaces suelen comparar packs lado a lado, y las páginas en Modo Mixto demuestran la amplitud del contenido de un vistazo, lo que aumenta las tasas de conversión.`,
     },
     {
-      title: 'Adapta el Tema a la Temporada para Mejores Ventas',
+      title: `Adapta el Tema a la Temporada para Mejores Ventas`,
       description: `Los productos estacionales superan a los permanentes durante los picos de ventas. Crea packs de suma con tema de calabaza en septiembre, muñeco de nieve en noviembre y flores en marzo. Publícalos 2 a 3 semanas antes del inicio de la temporada para captar a los compradores anticipados. Haz seguimiento de qué temas estacionales generan más favoritos y compras para priorizar su reposición y expansión el año siguiente.`,
     },
     {
-      title: 'Incluye Siempre la Clave de Respuestas',
+      title: `Incluye Siempre la Clave de Respuestas`,
       description: `Haz clic en «Generar Clave de Respuestas» antes de descargar. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Toma solo 10 segundos adicionales y mejora significativamente tus reseñas y las compras repetidas. Una clave de respuestas también hace que tu producto sea adecuado para emprendedores donde los padres necesitan verificar el trabajo rápidamente.`,
     },
     {
@@ -137,15 +137,15 @@ const content: ToolContent = {  seo: {
       description: `El PDF es ideal para impresión directa, pero el JPEG te permite crear imágenes de maqueta para tus listings de tienda. Descarga ambos formatos. Usa el JPEG para miniaturas de productos y vistas previas en redes sociales, e incluye el PDF como el producto entregable real.`,
     },
     {
-      title: 'Comienza con Rangos de Números Bajos',
+      title: `Comienza con Rangos de Números Bajos`,
       description: `Para productos destinados a preescolar e infantil, mantén el máximo de elementos por grupo en 3–5. Los niños pequeños se abruman con números grandes. Crea versiones separadas «fácil» y «desafío» de cada ficha para que los padres y vendedores puedan elegir el nivel adecuado.`,
     },
     {
-      title: 'Añade Texto Personalizado para tu Marca',
+      title: `Añade Texto Personalizado para tu Marca`,
       description: `Usa las Herramientas de Texto para añadir el nombre de tu tienda, un aviso de derechos de autor o un mensaje motivador en la parte inferior de cada ficha. Este branding sutil ayuda a construir reconocimiento si un cliente comparte tu ficha con otro padre o vendedor.`,
     },
     {
-      title: 'Aprovecha la Biblioteca de Bordes y Fondos',
+      title: `Aprovecha la Biblioteca de Bordes y Fondos`,
       description: `Una ficha blanca simple y una ficha con un marco temático y un fondo sutil se ven completamente diferentes en los listings de productos. Añadir un toque visual toma 30 segundos y puede justificar un precio más alto. Ajusta la opacidad del fondo para mantener los ejercicios legibles. Elecciones de bordes consistentes en todo un pack crean un look profesional y cuidado que motiva a los compradores a adquirir tu colección completa.`,
     },
   ],
@@ -156,19 +156,19 @@ const content: ToolContent = {  seo: {
       answer: `Sí. La herramienta ofrece una prueba gratuita con todas las funciones — sin registro, sin tarjeta de crédito. Puedes crear, previsualizar y descargar tantas fichas como quieras. Las descargas de la prueba gratuita incluyen una marca de agua. Compra una licencia comercial para eliminar la marca de agua y desbloquear los derechos de venta.`,
     },
     {
-      question: '¿En qué formatos de archivo puedo descargar?',
+      question: `¿En qué formatos de archivo puedo descargar?`,
       answer: `Puedes descargar las fichas como imágenes JPEG de alta resolución o archivos PDF optimizados para impresión. Tanto la ficha como su clave de respuestas están disponibles en ambos formatos. Los PDF son ideales para impresión directa; los JPEG son perfectos para crear maquetas de productos y publicaciones en redes sociales. Para publicación en KDP, exporta los PDF a la resolución más alta disponible para cumplir con los requisitos de calidad de impresión de Amazon.`,
     },
     {
-      question: '¿Puedo usar las fichas con fines comerciales?',
+      question: `¿Puedo usar las fichas con fines comerciales?`,
       answer: `La prueba gratuita con marca de agua es solo para uso personal y educativo. Para vender fichas en Etsy, Gumroad, Amazon KDP o cualquier otro marketplace, necesitas una licencia comercial. La licencia comercial elimina la marca de agua y otorga derechos completos de reventa para las fichas que crees.`,
     },
     {
-      question: '¿Cuántos temas de imágenes hay disponibles?',
+      question: `¿Cuántos temas de imágenes hay disponibles?`,
       answer: `La biblioteca de imágenes incluye más de 100 colecciones temáticas que cubren animales, comida, vehículos, deportes, naturaleza, festividades, material escolar y mucho más. Cada tema contiene múltiples imágenes individuales para que tus fichas siempre se vean variadas, incluso dentro de un solo tema. Se añaden nuevos temas periódicamente a la biblioteca. Cada tema está cuidadosamente ilustrado con un estilo artístico coherente para un acabado profesional.`,
     },
     {
-      question: '¿Qué modos de ejercicio admite el generador?',
+      question: `¿Qué modos de ejercicio admite el generador?`,
       answer: `Hay cuatro modos: Imagen + Imagen (ambos sumandos como grupos de imágenes), Imagen + Número (imágenes más un número), Encontrar el Sumando (un sumando está oculto) y Modo Mixto (combina aleatoriamente los tres en una misma ficha). El Modo Mixto es especialmente popular para crear páginas de actividades variadas y atractivas. Los vendedores suelen usar diferentes modos para crear packs de dificultad escalonada.`,
     },
     {
@@ -176,58 +176,58 @@ const content: ToolContent = {  seo: {
       answer: `Sí. El generador admite 11 idiomas: español, inglés, alemán, francés, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés. Cambia el idioma del contenido para generar fichas con etiquetas de imágenes e instrucciones en el idioma que prefieras.`,
     },
     {
-      question: '¿Necesito instalar algún software?',
+      question: `¿Necesito instalar algún software?`,
       answer: `No. El generador funciona completamente en tu navegador web. Es compatible con cualquier dispositivo moderno — Windows, Mac, Chromebook, iPad o tableta Android. No hay nada que instalar, no se requieren plugins y no necesitas crear una cuenta.`,
     },
     {
-      question: '¿Puedo generar una clave de respuestas?',
+      question: `¿Puedo generar una clave de respuestas?`,
       answer: `Sí. Después de generar una ficha, haz clic en «Generar Clave de Respuestas» para crear una hoja de soluciones con todas las respuestas completadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente. Esto es especialmente útil para vendedores y para vendedores que quieren incluir claves de respuestas en sus productos. Los compradores en Etsy y Gumroad dejan sistemáticamente mejores calificaciones en listings que incluyen claves de respuestas.`,
     },
     {
-      question: '¿Qué tamaños de página son compatibles?',
+      question: `¿Qué tamaños de página son compatibles?`,
       answer: `El generador admite US Letter (vertical y horizontal), A4 (vertical y horizontal), Cuadrado (1200×1200 px) y dimensiones totalmente personalizadas. El formato cuadrado es ideal para contenido en redes sociales y cuadernos de actividades de Amazon KDP.`,
     },
     {
-      question: '¿Cuál es su política de reembolso?',
+      question: `¿Cuál es su política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de la compra. Como la prueba gratuita te da acceso completo, no ofrecemos reembolsos en la compra de licencias. Asegúrate de que la herramienta se adapta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'suma-fichas', anchorText: 'Fichas de Suma — Detalles Completos del Producto' },
+    { pageType: 'app', slug: 'suma-fichas', anchorText: `Fichas de Suma — Detalles Completos del Producto` },
     { pageType: 'tool', slug: 'generador-fichas-resta', anchorText: 'Generador de Fichas de Resta' },
-    { pageType: 'tool', slug: 'generador-ejercicios-matematicas', anchorText: 'Generador de Ejercicios de Matemáticas' },
+    { pageType: 'tool', slug: `generador-ejercicios-matematicas`, anchorText: `Generador de Ejercicios de Matemáticas` },
     { pageType: 'tool', slug: 'generador-suma-codificada', anchorText: 'Generador de Suma Codificada' },
-    { pageType: 'tool', slug: 'generador-comparacion-cantidades', anchorText: 'Generador de Comparación de Cantidades' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Asociación' },
+    { pageType: 'tool', slug: `generador-comparacion-cantidades`, anchorText: `Generador de Comparación de Cantidades` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Generador de Fichas de Asociación` },
     { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Generador de Busca y Cuenta' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Generador de Páginas para Colorear` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/addition/Suma Divertida 1.webp',
+      primary: `/samples/spanish/addition/Suma Divertida 1.webp`,
       primaryAlt: `Ficha de suma con imágenes de animales mostrando ejercicios de matemáticas basados en imágenes`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma con tema de animales en modo Imagen + Imagen`,
-        caption: 'Modo Imagen + Imagen con tema de animales',
+        caption: `Modo Imagen + Imagen con tema de animales`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma con imágenes de comida en modo Encontrar el Sumando`,
-        caption: 'Modo Encontrar el Sumando con tema de comida',
+        caption: `Modo Encontrar el Sumando con tema de comida`,
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 4.webp',
+        src: `/samples/spanish/addition/Suma Divertida 4.webp`,
         alt: `Ficha de suma en modo mixto con imágenes de vehículos y borde decorativo`,
-        caption: 'Modo mixto con vehículos y borde decorativo',
+        caption: `Modo mixto con vehículos y borde decorativo`,
       },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'Cómo Crear Fichas de Suma — Tutorial en Vídeo',
+    videoTitle: `Cómo Crear Fichas de Suma — Tutorial en Vídeo`,
   },
 };
 

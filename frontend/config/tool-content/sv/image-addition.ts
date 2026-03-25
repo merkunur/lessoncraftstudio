@@ -2,30 +2,30 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'additions arbetsblad skapare för säljare',
+    primaryKeyword: `additions arbetsblad skapare för säljare`,
     secondaryKeywords: [
-      'additions arbetsblad skapare online',
-      'matte additions arbetsblad för barn',
-      'utskrivbara additions övningsblad',
-      'bild additions arbetsblad för dagis',
+      `additions arbetsblad skapare online`,
+      `matte additions arbetsblad för barn`,
+      `utskrivbara additions övningsblad`,
+      `bild additions arbetsblad för dagis`,
     ],
     lsiKeywords: [
-      'visuella matte arbetsblad online',
-      'bildbaserad additions övning för barn',
-      'dagis matte utskriftsbara för säljare',
+      `visuella matte arbetsblad online`,
+      `bildbaserad additions övning för barn`,
+      `dagis matte utskriftsbara för säljare`,
     ],
     titleTag: `Additions Arbetsblad Skapare — Matteblad för Klass`,
     metaDescription: `Skapa additions arbetsblad med tematiska bilder för ditt produktlinje. 104 teman, 4 övningslägen, facit, tryckfärdiga PDF:er. Gratis provversion med vattenstämpel.`,
   },
 
   hero: {
-    title: 'Additions Arbetsblad Generator',
+    title: `Additions Arbetsblad Generator`,
     tagline: `Skapa vackra, bildbaserade additions arbetsblad på under 60 sekunder`,
     description: `Förvandla matteövning till ett visuellt äventyr. Detta verktyg låter dig skapa anpassade additions arbetsblad med tematiska bilder som barn verkligen vill arbeta med. Välj bland mer än 100 bildteman, ställ in din svårighetsgrad, välj din sidlayout och ladda ner tryckfärdiga PDF:er eller högupplösta JPEG-bilder. Perfekt för säljare som bygger nivågrupperade läxpaket, föräldrar som kompletterar produktlinjesundervisning, och Etsy-säljare som skapar utskrivbara matteprodukter. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.`,
   },
 
   tutorial: {
-    title: 'Hur du Skapar Additions Arbetsblad i 8 Enkla Steg',
+    title: `Hur du Skapar Additions Arbetsblad i 8 Enkla Steg`,
     steps: [
       {
         title: 'Öppna arbetsblad-generatorn',
@@ -40,7 +40,7 @@ const content: ToolContent = {
         description: `Justera «Min antal per grupp» och «Max antal per grupp» reglagen för att kontrollera de siffror som används. För förskolebarn, prova 1–3. För dagis, använd 1–5. Första klass-användare klarar 1–10. Du kan också ställa in antalet övningar per arbetsblad (1 till 10).`,
       },
       {
-        title: 'Välj ett tema från bildbiblioteket',
+        title: `Välj ett tema från bildbiblioteket`,
         description: `Öppna panelen «Bildbibliotek» och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, havsdjur, rymden, sport och många fler. Använd sökfältet för att hitta specifika teman. Klicka på enskilda bilder för att välja exakt vilka som visas på ditt arbetsblad.`,
       },
       {
@@ -64,11 +64,11 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Tematiska additions aktivitetspaket',
+      title: `Tematiska additions aktivitetspaket`,
       description: `Skapa en uppsättning av 10–20 arbetsblad kring ett enda tema — dinosaurier, bondgårdsdjur eller havsdjur. Paketera dem som ett PDF-aktivitetspaket och sälj på Etsy eller Gumroad. Föräldrar älskar tematiska paket eftersom de håller barn engagerade längre. Varje tema i biblioteket innehåller tillräckligt med variation för att fylla ett helt paket utan att upprepa bilder, vilket innebär att köpare får äkta visuell mångfald i varje nedladdning. Positionera dina paket till 30–50 SEK för enskilda teman och 80–120 SEK för megapaket som kombinerar flera teman med en progressiv svårighetskurva från enkel räkning till utmanande flertermsuppgifter.`,
     },
     {
-      title: 'nivågrupperade läxuppsättningar',
+      title: `nivågrupperade läxuppsättningar`,
       description: `Generera tre versioner av samma arbetsblad på olika svårighetsnivåer: lätt (1–3), medel (1–5) och svår (1–10). säljare kan ge rätt nivå till varje användare utan att lägga extra förberedelsetid. Denna metod fungerar särskilt bra på Gumroad där säljare specifikt söker efter nivågrupperat material som sparar produktlinjesförberedelsetid. Paketera de tre svårighetsversionerna tillsammans som en enda annons till 40–60 SEK, och inkludera en lärarguide som förklarar vilken nivå som passar vilken profil för maximalt upplevt värde och starkare kundrecensioner.`,
     },
     {
@@ -106,12 +106,12 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Hemundervisning produktkatalogsupplement',
+      title: `Hemundervisning produktkatalogsupplement`,
       description: `Skapa en strukturerad 12-veckors additions produktkatalog med progressiv svårighet. Sälj den som en digital nedladdning på din egen webbplats eller Gumroad. Hemundervisande föräldrar söker aktivt efter praktiska, visuella mattemetaterial. Strukturera produktkatalogen med tydliga lärandemål per vecka, som börjar med ensiffriga termer och avancerar till tvåsiffriga utmaningar vid vecka tolv.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Lektionscenter resursbibliotek',
+      title: `Lektionscenter resursbibliotek`,
       description: `Om du driver en lektionsverksamhet, generera anpassade arbetsblad för varje användaresession. Det bildbaserade formatet håller unga användare engagerade medan du spårar vilka talområden de har svårt med. Använd facit för omedelbar bedömning. Spåra varje användares framsteg genom att spara arbetsbladskonfigurationer och regenerera liknande övningar på något högre svårighetsnivåer allt eftersom de förbättras.`,
     },
     {
@@ -122,11 +122,11 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Använd Blandat Läge för maximalt värde',
+      title: `Använd Blandat Läge för maximalt värde`,
       description: `När du skapar produkter att sälja, inkludera alltid åtminstone några Blandat Läge-arbetsblad i dina paket. Blandat Läge kombinerar Bild + Bild, Bild + Tal och Hitta Term på en enda sida, vilket ger köparna mer variation och gör din produkt mer komplett jämfört med konkurrenter som bara erbjuder en stil. Marknadsplatsköpare jämför ofta paket sida vid sida innan köp, och Blandat Läge-sidor demonstrerar innehållsbredd med en blick.`,
     },
     {
-      title: 'Matcha tema med säsong för bästa försäljning',
+      title: `Matcha tema med säsong för bästa försäljning`,
       description: `Säsongsprodukter överpresterar vintergröna under toppfönster. Skapa pumpatemade additionspaket i september, snögubbeteman i november och blomtemana i mars. Lista dem 2–3 veckor innan säsongen börjar för att fånga tidiga köpare. Spåra vilka säsongsteman som genererar mest favoriter och köp så du kan prioritera lagerpåfyllning och expansion av de samlingarna följande år.`,
     },
     {
@@ -142,22 +142,22 @@ const content: ToolContent = {
       description: `För förskole- och dagisprodukter, håll max antal per grupp vid 3–5. Små barn överväldigas av stora tal. Skapa separata «lätt» och «utmaning» versioner av varje arbetsblad så föräldrar och säljare kan välja rätt nivå.`,
     },
     {
-      title: 'Lägg till anpassad text för varumärkning',
+      title: `Lägg till anpassad text för varumärkning`,
       description: `Använd Textverktygen för att lägga till ditt butiksnamn, en upphovsrättsnotis eller ett motiverande meddelande längst ner på varje arbetsblad. Denna subtila varumärkning hjälper till att bygga igenkänning om en kund delar ditt arbetsblad med en annan förälder eller säljare.`,
     },
     {
-      title: 'Utnyttja ram- och bakgrundsbiblioteket',
+      title: `Utnyttja ram- och bakgrundsbiblioteket`,
       description: `Ett vanligt vitt arbetsblad och ett arbetsblad med en tematisk ram och subtil bakgrund ser helt annorlunda ut i produktannonser. Att lägga till visuell polish tar 30 sekunder och kan motivera ett högre pris. Justera bakgrundsopacitet för att hålla övningarna läsbara. Konsekventa ramval genom ett helt paket skapar ett professionellt, varumärkt utseende som signalerar kvalitet till köpare.`,
     },
   ],
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Verktyget erbjuder en gratis provversion med alla funktioner — ingen registrering, inget kreditkort krävs. Du kan skapa, förhandsgranska och ladda ner så många arbetsblad du vill. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.`,
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
+      question: `Vilka filformat kan jag ladda ner?`,
       answer: `Du kan ladda ner arbetsblad som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer. Både arbetsbladet och dess matchande facit finns tillgängliga i båda format. PDF:er är idealiska för direkt utskrift; JPEG:er fungerar utmärkt för att skapa produktmockups och sociala medier-inlägg. För KDP-publicering, exportera PDF:er med högsta tillgängliga upplösning för att uppfylla Amazons utskriftskvalitetskrav.`,
     },
     {
@@ -165,11 +165,11 @@ const content: ToolContent = {
       answer: `Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.`,
     },
     {
-      question: 'Hur många bildteman finns tillgängliga?',
+      question: `Hur många bildteman finns tillgängliga?`,
       answer: `Bildbiblioteket inkluderar mer än 100 tematiska samlingar som täcker djur, mat, fordon, sport, natur, högtider, skolmaterial och mycket mer. Varje tema innehåller flera enskilda bilder så dina arbetsblad alltid ser varierade ut, även inom ett enda tema.`,
     },
     {
-      question: 'Vilka övningslägen stöder generatorn?',
+      question: `Vilka övningslägen stöder generatorn?`,
       answer: `Det finns fyra lägen: Bild + Bild (båda termerna som bildgrupper), Bild + Tal (bilder plus en siffra), Hitta Term (en term är dold), och Blandat Läge (kombinerar slumpmässigt alla tre på ett arbetsblad). Blandat Läge är särskilt populärt för att skapa engagerande, varierade aktivitetssidor.`,
     },
     {
@@ -177,7 +177,7 @@ const content: ToolContent = {
       answer: `Ja. Generatorn stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska. Byt innehållsspråk för att generera arbetsblad med bildetiketter och instruktioner på ditt valda språk.`,
     },
     {
-      question: 'Behöver jag installera någon programvara?',
+      question: `Behöver jag installera någon programvara?`,
       answer: `Nej. Generatorn körs helt i din webbläsare. Den fungerar på alla moderna enheter — Windows, Mac, Chromebook, iPad eller Android-surfplatta. Det finns inget att installera, inga tillägg krävs och inget konto att skapa.`,
     },
     {
@@ -189,17 +189,17 @@ const content: ToolContent = {
       answer: `Generatorn stöder US Letter (stående och liggande), A4 (stående och liggande), Kvadrat (1200×1200 px) och helt anpassade dimensioner. Kvadratformat är idealiskt för sociala medier-innehåll och Amazon KDP-aktivitetsböcker.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga så du kan fullt utvärdera verktyget innan du köper. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'additions-arbetsblad', anchorText: `Additions Arbetsblad — Fullständiga Produktdetaljer` },
-    { pageType: 'tool', slug: 'subtraktions-arbetsblad-skapare', anchorText: 'Subtraktions Arbetsblad Skapare' },
+    { pageType: 'tool', slug: `subtraktions-arbetsblad-skapare`, anchorText: `Subtraktions Arbetsblad Skapare` },
     { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'kodadditions-arbetsblad-skapare', anchorText: 'Kodadditions Arbetsblad Skapare' },
-    { pageType: 'tool', slug: 'mer-eller-mindre-arbetsblad-skapare', anchorText: 'Mer eller Mindre Arbetsblad Skapare' },
+    { pageType: 'tool', slug: `kodadditions-arbetsblad-skapare`, anchorText: `Kodadditions Arbetsblad Skapare` },
+    { pageType: 'tool', slug: `mer-eller-mindre-arbetsblad-skapare`, anchorText: `Mer eller Mindre Arbetsblad Skapare` },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Skapare' },
     { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Skapare' },
     { pageType: 'tool', slug: 'malarbilder-skapare', anchorText: 'Målarbilder Skapare' },
@@ -217,14 +217,14 @@ const content: ToolContent = {
         caption: 'Bild + Bild-läge med djurtema',
       },
       {
-        src: '/samples/swedish/addition/hitta%20term.webp',
+        src: `/samples/swedish/addition/hitta%20term.webp`,
         alt: `Additions arbetsblad med mattema i Hitta Term-läge`,
         caption: 'Hitta Term-läge med mattema',
       },
       {
         src: `/samples/swedish/addition/blandat%20l%C3%A4ge.webp`,
         alt: `Blandat läge additions arbetsblad med fordonsbilder och dekorativ ram`,
-        caption: 'Blandat läge med fordon och ramdekorati',
+        caption: `Blandat läge med fordon och ramdekorati`,
       },
     ],
     youtubeId: '6O5aCzHkh8M',

@@ -4,10 +4,10 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'dolda objekt arbetsblad',
     secondaryKeywords: [
-      'dolda objekt arbetsblad skapare för säljare',
-      'skapa sökbild dolda objekt arbetsblad att sälja',
+      `dolda objekt arbetsblad skapare för säljare`,
+      `skapa sökbild dolda objekt arbetsblad att sälja`,
       `utskrivbar dolda objekt generator kommersiellt bruk`,
-      'dolda objekt pussel skapare för KDP och Etsy',
+      `dolda objekt pussel skapare för KDP och Etsy`,
     ],
     lsiKeywords: [
       `sökning hitta udda bilden dubbelläges aktivitet skapare`,
@@ -25,7 +25,7 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'Hur du Skapar Dolda Objekt Arbetsblad i 8 Steg',
+    title: `Hur du Skapar Dolda Objekt Arbetsblad i 8 Steg`,
     steps: [
       {
         title: 'Öppna Dolda Objekt Skaparen',
@@ -40,19 +40,19 @@ const content: ToolContent = {
         description: `Sökning (standard) — fria dolda objekt-scener med noll-överlappningsalgoritm. Hitta Udda Bilden — parade bilder med oparade objekt renderade 50% större. Varje läge producerar en annorlunda typ av sök-arbetsblad.`,
       },
       {
-        title: 'Konfigurera objektantal för svårighetskontroll',
+        title: `Konfigurera objektantal för svårighetskontroll`,
         description: `Sökning: 1–5 dolda objekt och 8–12 distraktorer. Hitta Udda Bilden: 8–12 parade och 1–5 oparade. Objektantal är din primära svårighetskontroll.`,
       },
       {
-        title: 'Välj bilder från temabiblioteket',
+        title: `Välj bilder från temabiblioteket`,
         description: `Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Varje tema fungerar för både dolda objekt och distraktorer eller parade och oparade objekt. Ladda upp egna bilder.`,
       },
       {
-        title: 'Generera den dolda objekt-scenen',
+        title: `Generera den dolda objekt-scenen`,
         description: `Klicka på Generera. Sökning: noll-överlappningsalgoritmen sprider bilder med adaptiv storlek. Legend längst ner visar målobjekt. Hitta Udda Bilden: bilder arrangeras i rader. Autorubriken renderar i Fredoka med autostorlek 32–18px. Växla namn/datum-fält.`,
       },
       {
-        title: 'Granska det automatiskt genererade facit',
+        title: `Granska det automatiskt genererade facit`,
         description: `Klicka på fliken Facit. Röda cirklar runt dolda objekt (Sökning) eller oparade objekt (Hitta Udda Bilden), dimensionerade 3–5px större. Facit genereras samtidigt med arbetsbladet.`,
       },
       {
@@ -64,7 +64,7 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Tematiska sökning dolda objekt aktivitetspaket',
+      title: `Tematiska sökning dolda objekt aktivitetspaket`,
       description: `Skapa sökarbetsbladpaket med de 104 bildsamlingarna. Paketera 15–20 arbetsblad per tema med autogenererade facit. Öka svårighet genom att lägga till fler dolda objekt och distraktorer. Noll-överlappningsalgoritmen producerar unik layout varje gång.`,
     },
     {
@@ -80,18 +80,18 @@ const content: ToolContent = {
       description: `Dedikerade Hitta Udda Bilden-set med 8–12 parade bilder och 1–5 oparade, renderade 50% större. Skapa produktkatalogsangränsande set. Varje arbetsblad exporteras med autogenererat facit.`,
     },
     {
-      title: 'Säsongsbetonade dolda objekt aktivitetssamlingar',
+      title: `Säsongsbetonade dolda objekt aktivitetssamlingar`,
       description: `Jul, halloween, påsk, skolstart och sommarteman stöder var och en dedikerade säsongspaket. Inkludera båda lägena. Släpp 4–6 veckor före högtiden. Det visuella formatet säljer i alla länder.`,
     },
     {
-      title: 'Flerformats sök- och hitta megapaket',
+      title: `Flerformats sök- och hitta megapaket`,
       description: `Para dolda objekt med ordsökning, hitta och räkna, korsord och skattjakt med koordinerade teman. Flerformats paket motiverar premiumpriser.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Tematisk dolda objekt aktivitetsbutik på Etsy',
+      title: `Tematisk dolda objekt aktivitetsbutik på Etsy`,
       description: `Öppna en Etsy-butik med dolda objekt-paket organiserade efter tema med de 104 bildsamlingarna. Varje paket inkluderar autogenererade facit med röda cirklar. Noll-överlappningsalgoritmen genererar unika layouter snabbt. Prissätt till 30–50 SEK och premium flertempaket till 70–120 SEK.`,
       platform: 'Etsy',
     },
@@ -106,7 +106,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest dolda objekt arbetsblad trafiktratt',
+      title: `Pinterest dolda objekt arbetsblad trafiktratt`,
       description: `Dolda objekt scener med färgglada spridda bilder och facitförhandsvisningar med röda cirklar skapar engagerande Pinterest-pins. Det visuella formatet tilltalar alla länder.`,
       platform: 'Pinterest',
     },
@@ -116,7 +116,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Global visuell pussel produktlinje',
+      title: `Global visuell pussel produktlinje`,
       description: `Dolda Objekt Skaparen producerar rent visuella pussel — ingen språkspecifik text på arbetsbladets innehåll. Sökningslegenden använder bilder, inte ord. Samma produktfiler fungerar i varje land. En skapandesession producerar en globalt säljbar katalog.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -136,7 +136,7 @@ const content: ToolContent = {
       description: `Dolda objekt arbetsblad innehåller bara bilder — ingen språkspecifik text. Sökningslegenden visar målobjekt visuellt. Varje pussel är direkt säljbart globalt utan översättning.`,
     },
     {
-      title: 'Inkludera båda aktivitetslägena i varje paket',
+      title: `Inkludera båda aktivitetslägena i varje paket`,
       description: `Sökning utvecklar visuellt sökande. Hitta Udda Bilden bygger visuell diskriminering. Att inkludera båda fördubblar variation och motiverar högre pris.`,
     },
     {
@@ -144,7 +144,7 @@ const content: ToolContent = {
       description: `Sökningslegenden visar målobjekt visuellt — ingen läsning krävs. Framhäv denna tillgänglighet i dina annonser för förskole- och småbarnsmarknaden.`,
     },
     {
-      title: 'Använd gråskala för budgetvänliga produkter',
+      title: `Använd gråskala för budgetvänliga produkter`,
       description: `Växla gråskala för bläckvänliga arbetsblad. Skapa dubbelformatspaket med färg och gråskala. KDP interiörer drar nytta av gråskaleoptimering.`,
     },
     {
@@ -155,11 +155,11 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Alla funktioner upplåsta — båda aktivitetslägena, konfigurerbara objekt- och distraktorantal, noll-överlappningsalgoritmen, autogenererat facit med röda cirklar, legendvisning, alla 104 temabilder, anpassad bilduppladdning, bakgrunds- och ramteman, namn/datum-fält, gråskaleväxling och alla nedladdningsformat. Ingen registrering, inget kreditkort. Vattenstämpel på nedladdningar.`,
     },
     {
-      question: 'Vilka är de två aktivitetslägena?',
+      question: `Vilka är de två aktivitetslägena?`,
       answer: `Sökning (standard) — fria dolda objekt-scener med 1–5 mål bland 8–12 distraktorer med noll-överlappningsalgoritm och bottenlegend. Hitta Udda Bilden — 8–12 parade bilder med 1–5 oparade objekt renderade 50% större. Varje läge producerar en fundamentalt annorlunda kognitiv utmaning.`,
     },
     {
@@ -167,7 +167,7 @@ const content: ToolContent = {
       answer: `findBestPosition() testar 50 slumpmässiga positioner per bild och väljer placeringen med minst överlappning. Vid trångt utrymme minskas bildstorleken adaptivt. Skapar naturliga scener istället för förutsägbara rutnätslayouter. Varje generering producerar en annorlunda layout.`,
     },
     {
-      question: 'Hur fungerar legendvisningen i Sökning-läget?',
+      question: `Hur fungerar legendvisningen i Sökning-läget?`,
       answer: `En legend i den nedre marginalen (120px) visar målobjekten visuellt — ingen läsning krävs. Gör arbetsbladen tillgängliga för föreläsare och flerspråkiga produktlinje. Hitta Udda Bilden har en kompakt 50px marginal utan legend.`,
     },
     {
@@ -175,23 +175,23 @@ const content: ToolContent = {
       answer: `Sökning: 1–5 dolda objekt, 8–12 distraktorer. Hitta Udda Bilden: 8–12 parade bilder, 1–5 oparade. Objektantal är den primära svårighetskontrollen.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer: `Dubbelarbetsyte-system. Facit återskapar layouten och ritar röda cirklar runt dolda objekt (Sökning) eller oparade objekt (Hitta Udda Bilden), dimensionerade 3–5px större. Fyra nedladdningsfiler per generering.`,
     },
     {
-      question: 'Hur fungerar den automatiskt genererade rubriken?',
+      question: `Hur fungerar den automatiskt genererade rubriken?`,
       answer: `Autostorlek Fredoka-titel — 32px för korta titlar, skalas ner till 18px. Dekorativa vita pillercontainrar och skuggor. Beskrivningsfält tillgängligt. Professionellt utseende oavsett titellängd.`,
     },
     {
-      question: 'Är Dolda Objekt Skaparen språkkänslig?',
+      question: `Är Dolda Objekt Skaparen språkkänslig?`,
       answer: `Nej. Rent visuellt format — inga lokaliserade bildnamn på arbetsbladets innehåll. Sökningslegenden visar bilder, inte text. Språkinställningar påverkar bara gränssnittsetiketter. Universellt säljbart utan översättning.`,
     },
     {
-      question: 'Vilka sidstorlekar och exportformat finns?',
+      question: `Vilka sidstorlekar och exportformat finns?`,
       answer: `Letter, A4, Kvadrat (1200×1200) och anpassade dimensioner. JPEG eller PDF med 300 DPI. Växla gråskala. Fyra filer per generering.`,
     },
     {
-      question: 'Vilka arbetsyteredigeringsverktyg finns?',
+      question: `Vilka arbetsyteredigeringsverktyg finns?`,
       answer: `Fabric.js — dra, ändra storlek, rotera, flytta. Lagerkontroller med lås/upplåsning. 7 typsnitt, textkontur 0–10. Sex justeringsalternativ plus centrera-på-sidan. Zoom 25%–300%. 20 ångra/gör om steg.`,
     },
     {
@@ -199,7 +199,7 @@ const content: ToolContent = {
       answer: `Ja. Med en kommersiell licens har du fulla rättigheter att sälja som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom valfri annan kanal.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår gratis provversion — alla funktioner tillgängliga. Eftersom provversionen ger fullständig tillgång erbjuder vi inte återbetalning. Se till att verktyget passar dina behov med provversionen.`,
     },
   ],

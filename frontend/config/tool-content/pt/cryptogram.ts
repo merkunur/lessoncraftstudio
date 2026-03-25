@@ -7,36 +7,36 @@ const content: ToolContent = {
       `criar fichas de criptogramas imprimíveis para vender`,
       `gerador de puzzles cifrados com imagens uso comercial`,
       `fichas de criptogramas com cifra por imagens para KDP`,
-      'ferramenta para criar criptogramas imprimíveis',
+      `ferramenta para criar criptogramas imprimíveis`,
     ],
     lsiKeywords: [
-      'cifra por imagens imprimível para Etsy',
-      'gerador de fichas de decifração de códigos',
-      'criptogramas multilingues com imagens temáticas',
+      `cifra por imagens imprimível para Etsy`,
+      `gerador de fichas de decifração de códigos`,
+      `criptogramas multilingues com imagens temáticas`,
     ],
-    titleTag: 'Gerador Criptogramas | Criar e Vender',
+    titleTag: `Gerador Criptogramas | Criar e Vender`,
     metaDescription: `Gere criptogramas com cifra por imagens, Letras a Revelar 0–10, atribuição automática, gabarito e legenda de letras em 11 idiomas.`,
   },
 
   hero: {
-    title: 'Gerador de Criptogramas com Imagens',
+    title: `Gerador de Criptogramas com Imagens`,
     tagline: `Crie puzzles de cifra onde cada letra do alfabeto se associa a uma imagem e os usuários decifram frases secretas completas através do reconhecimento de padrões`,
-    description: `Desenhe fichas profissionais de criptogramas baseadas numa cifra por imagens: cada letra do alfabeto se associa a uma imagem única, e a sua frase secreta é apresentada como uma sequência de imagens que os usuários devem decifrar para converter em texto legível. Ao contrário das caça-palavras ou das palavras embaralhadas que trabalham com palavras individuais, o gerador de criptogramas codifica frases e orações completas — os usuários decifram o código deduzindo qual imagem representa cada letra, usando pistas contextuais de palavras comuns como «o», «e», «é» para acelerar a decifração. O controlo Letras a Revelar (0–10) é o ajuste principal de dificuldade: defina zero para um desafio puro de decifração sem informação inicial, ou suba até dez para orientação progressiva intensa onde muitas correspondências letra-imagem já estão resolvidas como pistas. A Atribuição Automática extrai imagens aleatórias de qualquer uma das 104 coleções temáticas (mais de 3100 ilustrações) para preencher toda a cifra com um único clique, enquanto a Atribuição Manual permite escolher manualmente qual imagem específica representa cada letra específica com uma pré-visualização visual completa de todas as correspondências. Carregue imagens próprias para controlo criativo total. O gabarito inclui uma legenda de letras que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética — a referência definitiva para a solução. A sensibilidade linguística está integrada: mude de idioma e tanto o texto da mensagem secreta como o alfabeto mudam. Os criptogramas em alemão codificam frases alemãs com ä, ö, ü, ß no alfabeto; os criptogramas em francês usam é, è, ç, à; os criptogramas em português incluem ã, õ, ç, â, á, é, í, ó, ú. Cada versão linguística é um produto de cifra genuinamente diferente. Exporte PDFs e imagens JPEG prontos para impressão a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Escolha entre 5 fontes, ative a escala de cinzentos para economia de tinta e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d'água nos downloads. Adquira uma licença para remover a marca d'água e vender com uso comercial.`,
+    description: `Desenhe fichas profissionais de criptogramas baseadas numa cifra por imagens: cada letra do alfabeto se associa a uma imagem única, e a sua frase secreta é apresentada como uma sequência de imagens que os usuários devem decifrar para converter em texto legível. Ao contrário das caça-palavras ou das palavras embaralhadas que trabalham com palavras individuais, o gerador de criptogramas codifica frases e orações completas — os usuários decifram o código deduzindo qual imagem representa cada letra, usando pistas contextuais de palavras comuns como «o», «e», «é» para acelerar a decifração. O controlo Letras a Revelar (0–10) é o ajuste principal de dificuldade: defina zero para um desafio puro de decifração sem informação inicial, ou suba até dez para orientação progressiva intensa onde muitas correspondências letra-imagem já estão resolvidas como pistas. A Atribuição Automática extrai imagens aleatórias de qualquer uma das 104 coleções temáticas (mais de 3100 ilustrações) para preencher toda a cifra com um único clique, enquanto a Atribuição Manual permite escolher manualmente qual imagem específica representa cada letra específica com uma pré-visualização visual completa de todas as correspondências. Carregue imagens próprias para controlo criativo total. O gabarito inclui uma legenda de letras que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética — a referência definitiva para a solução. A sensibilidade linguística está integrada: mude de idioma e tanto o texto da mensagem secreta como o alfabeto mudam. Os criptogramas em alemão codificam frases alemãs com ä, ö, ü, ß no alfabeto; os criptogramas em francês usam é, è, ç, à; os criptogramas em português incluem ã, õ, ç, â, á, é, í, ó, ú. Cada versão linguística é um produto de cifra genuinamente diferente. Exporte PDFs e imagens JPEG prontos para impressão a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Escolha entre 5 fontes, ative a escala de cinzentos para economia de tinta e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d`água nos downloads. Adquira uma licença para remover a marca d`água e vender com uso comercial.`,
   },
 
   tutorial: {
     title: `Como Criar Criptogramas com Imagens em 8 Passos Simples`,
     steps: [
       {
-        title: 'Abrir o Gerador de Criptogramas',
+        title: `Abrir o Gerador de Criptogramas`,
         description: `Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar puzzles de cifra por imagens imediatamente.`,
       },
       {
-        title: 'Configurar o Layout da Página e o Modelo',
+        title: `Configurar o Layout da Página e o Modelo`,
         description: `Na secção de Configuração de Página, selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável da biblioteca de 104 temas e escolha uma moldura decorativa com controlo de opacidade independente.`,
       },
       {
-        title: 'Escrever a Frase Secreta e Selecionar o Idioma',
+        title: `Escrever a Frase Secreta e Selecionar o Idioma`,
         description: `Escreva a frase ou oração que pretende que os usuários decifrem. Esta é a mensagem secreta que será codificada como cifra por imagens. Selecione o idioma de destino entre os 11 disponíveis — o conjunto de letras do alfabeto ajusta-se automaticamente conforme o idioma. O inglês usa 26 letras, o alemão inclui ä, ö, ü, ß, o francês inclui caracteres acentuados como é, è, ç, à, e o português inclui ã, õ, ç, â, á, é, í, ó, ú. Cada letra da sua frase será associada a uma imagem.`,
       },
       {
@@ -44,19 +44,19 @@ const content: ToolContent = {
         description: `Use a Atribuição Automática para associar instantaneamente imagens aleatórias do tema selecionado a todas as letras do alfabeto não atribuídas com um único clique — a forma mais rápida de construir uma cifra completa. Em alternativa, use a Atribuição Manual para escolher manualmente qual imagem específica representa cada letra, com uma vista geral de todas as correspondências atuais. Também pode carregar imagens próprias e atribuí-las a qualquer letra para controlo criativo total.`,
       },
       {
-        title: 'Escolher um Tema e o Filtro Cor ou Preto e Branco',
+        title: `Escolher um Tema e o Filtro Cor ou Preto e Branco`,
         description: `Explore 104 coleções temáticas com mais de 3100 ilustrações — animais, alimentos, veículos, natureza, festividades, profissões e muitos mais. Use o filtro Cor vs Preto e Branco para alternar entre ilustrações a cores para produtos digitais vibrantes e desenho de traço a preto e branco para impressão económica online e interiores de livros KDP.`,
       },
       {
-        title: 'Ajustar a Dificuldade com Letras a Revelar',
+        title: `Ajustar a Dificuldade com Letras a Revelar`,
         description: `Ajuste o controlo Letras a Revelar de 0 a 10 para determinar quantas correspondências letra-imagem estão pré-resolvidas como pistas na ficha. Zero revelações cria um desafio puro de decifração onde os usuários começam sem informação. Dez revelações fornece orientação progressiva intensa para usuários mais novos ou menos experientes. Este único controlo cria um gradiente de dificuldade progressivo e serve como eixo principal de diferenciação para pacotes de produtos por níveis.`,
       },
       {
-        title: 'Personalizar Fontes, Texto e Canvas',
+        title: `Personalizar Fontes, Texto e Canvas`,
         description: `Escolha entre 5 famílias tipográficas: Lexend Deca, Baloo 2, Nunito, Quicksand e Fredoka. Adicione um título à ficha, campos de nome e data do usuário, instruções personalizadas ou qualquer texto sobreposto. Use as ferramentas do canvas Fabric.js para arrastar, redimensionar, rodar e reposicionar cada elemento na página. As ferramentas de alinhamento, os controlos de bloqueio e desbloqueio, e a função ilimitada de desfazer e refazer permitem-lhe afinar o design com precisão.`,
       },
       {
-        title: 'Gerar a Legenda de Letras e Descarregar',
+        title: `Gerar a Legenda de Letras e Descarregar`,
         description: `Vá ao separador de Gabarito e gere uma versão resolvida que inclui uma legenda de letras completa — cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética para referência definitiva. Ative o modo Escala de Cinzentos para impressão económica. Descarregue tanto a ficha como o gabarito como PDF pronto para impressão ou JPEG de alta resolução a mais de 400 DPI com um multiplicador de renderização 6x.`,
       },
     ],
@@ -64,15 +64,15 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Pacotes de Puzzles de Cifra por Tema',
+      title: `Pacotes de Puzzles de Cifra por Tema`,
       description: `Crie conjuntos de 10 a 20 fichas de criptogramas agrupadas por tema de imagem — animais da quinta, criaturas marinhas, veículos, alimentos, festividades e mais. Use a Atribuição Automática para associar imagens temáticas ao alfabeto e varie o ajuste de Letras a Revelar ao longo do conjunto para dificuldade progressiva: comece com 8 revelações para puzzles de aquecimento e desça até 0 revelações para desafios de especialista. Inclua legendas de letras com gabarito para cada puzzle. O formato de cifra visual com imagens temáticas destaca-se face às listagens de palavras cruzadas ou caça-palavras clássicos na Etsy e Gumroad.`,
     },
     {
-      title: 'Livros de Criptogramas para KDP',
+      title: `Livros de Criptogramas para KDP`,
       description: `Gere de 50 a 100 páginas de criptogramas com estrutura de dificuldade progressiva. Comece com puzzles com muita orientação de 8 a 10 Letras a Revelar para aquecimento, avance por 3–5 revelações para os capítulos intermédios e termine com desafios de especialista com zero revelações. Agrupe os capítulos por tema para variedade navegável e inclua legendas de letras com gabaritos no final. Use o modo escala de cinzentos para custos de impressão mais baixos. Os livros de criptogramas com imagens ocupam um nicho menos competitivo na KDP do que os livros de caça-palavras ou palavras cruzadas, dando-lhe maior visibilidade com menor investimento em publicidade.`,
     },
     {
-      title: 'Centros de Decifração de Códigos Diferenciados',
+      title: `Centros de Decifração de Códigos Diferenciados`,
       description: `Crie conjuntos de prática de criptogramas por níveis usando Letras a Revelar como eixo de diferenciação. Nível 1: 8 revelações, frases curtas, imagens temáticas para leitores emergentes. Nível 2: 5 revelações, frases médias para decifradores em desenvolvimento. Nível 3: 2 revelações, orações mais longas para usuários confiantes. Nível 4: 0 revelações, desafio completo de decifração para avançados. Acompanhe cada nível com legendas de letras e um guia de acompanhamento do progresso. Os vendedores pagam preços premium por recursos diferenciados que podem usar com múltiplos níveis de capacidade.`,
     },
     {
@@ -80,28 +80,28 @@ const content: ToolContent = {
       description: `Mude o idioma e regenere o mesmo design de criptograma nos 11 idiomas disponíveis. Tanto o texto da mensagem secreta como o conjunto de letras do alfabeto mudam conforme o idioma — um criptograma em alemão codifica uma frase alemã com ä, ö, ü, ß no alfabeto; um criptograma em francês usa é, è, ç, à; um em português inclui ã, õ, ç, â, á, é, í, ó, ú. Cada versão linguística é um puzzle de cifra genuinamente diferente com palavras distintas, correspondências de letras diferentes e uma experiência de resolução diferente. Uma sessão de design produz 11 produtos distintos.`,
     },
     {
-      title: 'Fichas de Cifra com Vocabulário Personalizado',
+      title: `Fichas de Cifra com Vocabulário Personalizado`,
       description: `Codifique orações específicas por disciplina como puzzles de criptogramas para aprendizagem dirigida: definições de ciências, factos históricos, citações motivadoras, palavras de ortografia semanal organizadas numa frase, ou orações de prática de idiomas estrangeiros. Escreva qualquer frase como mensagem secreta e a ferramenta constrói a cifra por imagens automaticamente. O formato de decifração transforma a revisão rotineira de vocabulário numa atividade de puzzle motivadora que os usuários querem resolver ativamente.`,
     },
     {
-      title: 'Pacotes de Cifra Sazonais e Festivos',
+      title: `Pacotes de Cifra Sazonais e Festivos`,
       description: `Use temas de imagens festivas e sazonais para criar pacotes de criptogramas de edição limitada. Um pacote de «Mensagens Secretas de Halloween» com imagens de cifra temáticas vende-se muito bem em outubro. Natal, regresso às aulas, São Valentim e temas de verão têm as suas próprias janelas de vendas pico na Etsy e Gumroad. Combine puzzles com orientação de 6 a 8 revelações para usuários mais novos com puzzles de especialista de zero revelações para mais velhos num único pacote sazonal para maximizar a sua audiência de compradores.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Loja de Cifras por Nível de Dificuldade na Etsy',
+      title: `Loja de Cifras por Nível de Dificuldade na Etsy`,
       description: `Abra uma loja Etsy especializada em fichas de criptogramas organizadas por nível de dificuldade usando Letras a Revelar como eixo de graduação. Os pacotes para principiantes (7–10 revelações) fornecem orientação intensa para decifradores jovens. Os pacotes intermédios (3–6 revelações) desafiam usuários em desenvolvimento. Os pacotes de especialista (0–2 revelações) oferecem desafios puros de decifração. A maioria dos vendedores de puzzles oferece produtos genéricos de um único nível — os criptogramas graduados por dificuldade permitem aos compradores encontrar exatamente o nível de desafio adequado para os seus usuários, gerando melhores avaliações e compras repetidas.`,
       platform: 'Etsy',
     },
     {
-      title: 'Série de Livros de Cifra Temáticos na Amazon KDP',
+      title: `Série de Livros de Cifra Temáticos na Amazon KDP`,
       description: `Compile mais de 80 puzzles de criptogramas com imagens num livro temático para Amazon KDP. Estruture uma série em torno de temas populares: «Mensagens Secretas de Animais», «Puzzles de Cifra de Cozinha», «Aventuras de Decifração na Natureza». Cada livro usa dificuldade progressiva de Letras a Revelar desde muita orientação até zero pistas com legendas de letras no final. Os livros de puzzles de criptogramas são um nicho dramaticamente pouco explorado na KDP em comparação com caça-palavras e palavras cruzadas, dando-lhe vantagem de primeiro a chegar na categoria.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Centros de Decifração no Gumroad',
+      title: `Centros de Decifração no Gumroad`,
       description: `Carregue pacotes de fichas de criptogramas na Gumroad organizados por tema e nível de dificuldade. Inclua quatro níveis de dificuldade por tema usando Letras a Revelar como eixo de diferenciação. Acompanhe com legendas de letras e folhas de acompanhamento do progresso do usuário. A mecânica da cifra é intrinsecamente motivadora — os usuários experimentam uma verdadeira emoção de decifração quando cada letra descodificada desbloqueia mais da mensagem secreta. Os vendedores procuram «atividades de decifração de códigos» e «fichas de cifra» e encontram muito poucas opções de qualidade.`,
       platform: 'Gumroad',
     },
@@ -111,12 +111,12 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Funil de Puzzles de Cifra no Pinterest',
+      title: `Funil de Puzzles de Cifra no Pinterest`,
       description: `O formato de cifra por imagens é inerentemente visual e perfeito para pines — uma grelha de imagens coloridas substituindo letras numa mensagem codificada é instantaneamente intrigante e diferente de tudo na categoria de fichas educativas. Partilhe uma amostra com marca d'água de 3 páginas, recolha endereços de email na sua página de destino e depois ofereça pacotes completos de cifra temáticos e multilingues. As fichas de criptogramas obtêm taxas de guardados elevadas no Pinterest porque o formato visual da cifra desperta curiosidade — os espectadores querem decifrar a mensagem eles próprios.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Decifração de Códigos no Gumroad',
+      title: `Kit Completo de Decifração de Códigos no Gumroad`,
       description: `Combine fichas de criptogramas com caça-palavras, palavras embaralhadas, adivinhar palavras e fichas de associação para criar um kit completo de puzzles de literacia no Gumroad. Cada formato exercita uma competência cognitiva diferente: o criptograma desenvolve a dedução e o reconhecimento de padrões através da decifração, o caça-palavras exercita a exploração visual, as palavras embaralhadas praticam a reorganização de letras, adivinhar palavras avalia a memória ortográfica. Um kit de puzzles multiformato justifica um preço premium e oferece aos usuários prática variada com os mesmos temas de vocabulário.`,
       platform: 'Gumroad',
     },
@@ -156,14 +156,14 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — Atribuição Automática, Atribuição Manual, carregamento de imagens próprias, Letras a Revelar (0–10), os 104 temas de imagens, a legenda de letras do gabarito e todos os formatos de exportação. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d'água. Adquira uma licença comercial para remover a marca d'água e desbloquear os direitos de venda.`,
+      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — Atribuição Automática, Atribuição Manual, carregamento de imagens próprias, Letras a Revelar (0–10), os 104 temas de imagens, a legenda de letras do gabarito e todos os formatos de exportação. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d`água. Adquira uma licença comercial para remover a marca d`água e desbloquear os direitos de venda.`,
     },
     {
-      question: 'Como funciona a cifra por imagens do criptograma?',
+      question: `Como funciona a cifra por imagens do criptograma?`,
       answer: `Cada letra do alfabeto é associada a uma imagem única. A sua frase secreta é apresentada como uma sequência de imagens que substituem cada letra. Os usuários estudam a sequência de imagens, deduzem qual imagem representa cada letra usando reconhecimento de padrões e pistas contextuais, e escrevem as letras descodificadas para revelar a mensagem original. Os espaços e a pontuação são conservados, para que os limites entre palavras sejam visíveis.`,
     },
     {
-      question: 'O que faz o controlo Letras a Revelar (0–10)?',
+      question: `O que faz o controlo Letras a Revelar (0–10)?`,
       answer: `Letras a Revelar controla quantas correspondências letra-imagem estão pré-resolvidas como pistas na ficha. Com 0, os usuários começam sem letras descodificadas e devem decifrar todo o código desde o início. Com 10, dez correspondências já estão reveladas, proporcionando orientação intensa para principiantes. Este ajuste é o controlo principal de dificuldade e o eixo natural de diferenciação para pacotes de produtos por níveis.`,
     },
     {
@@ -179,23 +179,23 @@ const content: ToolContent = {
       answer: `O criptograma é uma cifra por imagens — os usuários descodificam uma sequência de imagens reconvertendo-a em texto ao deduzir as correspondências letra-imagem ao longo de toda uma frase. O caça-palavras faz os usuários encontrar palavras ocultas numa grelha de letras. As palavras embaralhadas dão peças de letras misturadas para reorganizar. Adivinhar palavras mostra espaços em branco para os usuários preencherem. O criptograma é o único formato que exercita a dedução e a lógica de decifração, tornando-o uma adição única a qualquer pacote de produtos de literacia.`,
     },
     {
-      question: 'Como funciona o alfabeto adaptado ao idioma?',
+      question: `Como funciona o alfabeto adaptado ao idioma?`,
       answer: `Quando seleciona um idioma, o conjunto de letras do alfabeto disponível ajusta-se automaticamente. O inglês usa 26 letras. O alemão adiciona ä, ö, ü, ß. O francês adiciona é, è, ç, à e outros caracteres acentuados. O português adiciona ã, õ, ç, â, á, é, í, ó, ú. Tanto o texto da mensagem secreta como o alfabeto da cifra mudam conforme o idioma, para que cada versão linguística seja um produto de cifra genuinamente diferente com palavras distintas, correspondências de letras distintas e uma experiência de resolução distinta.`,
     },
     {
-      question: 'O que mostra a legenda de letras do gabarito?',
+      question: `O que mostra a legenda de letras do gabarito?`,
       answer: `O gabarito inclui uma legenda de letras completa que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética. É a referência definitiva para verificar as soluções — os usuários ou os vendedores podem procurar qualquer imagem para confirmar qual letra ela representa. O gabarito também mostra a frase completamente descodificada para verificação rápida.`,
     },
     {
       question: `Posso vender fichas criadas com esta ferramenta para fins comerciais?`,
-      answer: `O teste grátis com marca d'água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d'água e concede direitos completos de revenda para os criptogramas que criar.`,
+      answer: `O teste grátis com marca d`água é apenas para uso pessoal e educativo. Para vender fichas na Etsy, Gumroad, Amazon KDP ou qualquer outro marketplace, precisa de uma licença comercial. A licença comercial remove a marca d`água e concede direitos completos de revenda para os criptogramas que criar.`,
     },
     {
-      question: 'Em que formatos de ficheiro posso descarregar?',
+      question: `Em que formatos de ficheiro posso descarregar?`,
       answer: `Descarregue fichas e gabaritos como imagens JPEG de alta resolução ou ficheiros PDF otimizados para impressão a mais de 400 DPI com um multiplicador de renderização 6x. Os tamanhos de página disponíveis incluem Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal e dimensões personalizadas. Ative a escala de cinzentos para impressão económica. Os PDFs são ideais para impressão direta e carregamento na KDP; os JPEGs são perfeitos para maquetas de produtos e publicações em redes sociais.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Teste antes de comprar com o nosso teste grátis — todas as funcionalidades estão disponíveis para que possa avaliar completamente a ferramenta antes da compra. Como o teste grátis dá-lhe acesso completo, não oferecemos reembolsos na compra de licenças. Certifique-se de que a ferramenta se adapta às suas necessidades usando o teste grátis antes de comprar.`,
     },
   ],
@@ -204,11 +204,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'criptograma-imagens-fichas', anchorText: `Fichas de Criptograma com Imagens — Detalhes Completos do Produto` },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-adivinhar-palavras', anchorText: 'Gerador de Adivinhar Palavras' },
-    { pageType: 'tool', slug: 'gerador-palavras-embaralhadas', anchorText: 'Gerador de Palavras Embaralhadas' },
+    { pageType: 'tool', slug: 'gerador-palavras-embaralhadas', anchorText: `Gerador de Palavras Embaralhadas` },
     { pageType: 'tool', slug: 'gerador-trem-alfabeto', anchorText: 'Gerador de Trem do Alfabeto' },
-    { pageType: 'tool', slug: 'gerador-fichas-preposicoes', anchorText: 'Gerador de Fichas de Preposições' },
+    { pageType: 'tool', slug: 'gerador-fichas-preposicoes', anchorText: `Gerador de Fichas de Preposições` },
     { pageType: 'tool', slug: 'gerador-fichas-escrita', anchorText: 'Gerador de Fichas de Escrita' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
+    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: `Gerador de Fichas de Associação` },
   ],
 
   visuals: {

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador fichas de rompecabezas',
+    primaryKeyword: `creador fichas de rompecabezas`,
     secondaryKeywords: [
       `creador de fichas de piezas faltantes para vendedores Etsy`,
       `crear puzzles de piezas faltantes imprimibles para vender`,
@@ -14,12 +14,12 @@ const content: ToolContent = {
       `creador de fichas de rompecabezas seis formas con clave de respuestas`,
       `piezas distractoras puzzle visual generador de fichas imprimibles`,
     ],
-    titleTag: 'Creador Fichas de Rompecabezas | para Vender',
+    titleTag: `Creador Fichas de Rompecabezas | para Vender`,
     metaDescription: `Crea fichas de rompecabezas con 6 formas de pieza, dificultad configurable, extracción inteligente con piezas distractoras, 104 temas.`,
   },
 
   hero: {
-    title: 'Creador de Fichas de Rompecabezas',
+    title: `Creador de Fichas de Rompecabezas`,
     tagline: `Generador de fichas de rompecabezas estilo puzzle con 6 formas de pieza (cuadrado, círculo, rectángulo vertical/horizontal, elipse vertical/horizontal), 1–5 piezas faltantes con 2–6 opciones de solución incluyendo distractoras, extracción inteligente de piezas con detección de varianza de color y separación mínima de 250px, claves de respuestas autogeneradas con etiquetas numéricas resaltadas en amarillo, doble borde decorativo en turquesa y rosa intenso, y 104 colecciones temáticas de imágenes para fichas de rompecabezas que se venden en todo el mundo`,
     description: `Crea fichas profesionales de rompecabezas donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas intenta hasta 150 colocaciones para encontrar piezas con suficiente varianza de color (varianza de brillo mínima de 15), manteniendo al menos 250 píxeles de distancia entre piezas para evitar superposición. El tamaño de pieza se calcula como el 12% del ancho de la imagen con un mínimo de 50 píxeles. Elige entre 6 formas de pieza que cambian el carácter visual de cada puzzle: cuadrado (predeterminado) y círculo ofrecen cortes geométricos limpios, rectángulo vertical (80% ancho, 100% alto) y rectángulo horizontal (100% ancho, 80% alto) crean huecos alargados, y elipse vertical y elipse horizontal ofrecen cortes curvos más suaves con las mismas proporciones dimensionales. Configura la dificultad con dos controles independientes: establece 1–5 piezas faltantes para controlar cuántos huecos aparecen en la imagen, y establece 2–6 opciones de solución para controlar cuántas opciones numeradas evalúan los usuarios. Cuando las opciones de solución exceden las piezas faltantes, las opciones extra son piezas distractoras — extraídas de áreas no superpuestas de la misma imagen usando hasta 200 intentos de colocación cada una. Las distractoras evitan que los usuarios resuelvan por eliminación, obligando a una comparación visual cuidadosa de colores, patrones y detalles. El sistema de doble lienzo genera simultáneamente una pestaña de ficha y una pestaña de clave de respuestas. La clave de respuestas muestra la misma imagen del puzzle con huecos y coloca etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) dentro de cada hueco mostrando el índice de opción correcto basado en 1. El tamaño de fuente se escala al 60% del tamaño de la pieza para legibilidad clara. Un encabezado autogenerado muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, trazo 8px, márgenes 34px, radio 12px) y borde interior rosa intenso (#EC4899, trazo 3px, márgenes 46,5px, radio 8px, desplazamiento 2px derecha y 3px abajo). Piezas Faltantes NO es sensible al idioma — los puzzles son puramente visuales sin contenido dependiente del idioma en la ficha, haciendo cada puzzle universalmente vendible sin traducción. El único elemento localizado es el texto del encabezado, traducido a los 11 idiomas soportados. Las fichas verticales colocan la imagen del puzzle arriba con las opciones debajo en fila horizontal (75% del tamaño máximo); las fichas horizontales dividen la vista 50/50 con las opciones a la derecha. Navega 104 colecciones temáticas con más de 3.100 ilustraciones coloridas o sube tus propias imágenes PNG, JPG o GIF. Aplica fondos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporta cuatro archivos por sesión: ficha JPEG, ficha PDF, clave de respuestas JPEG y clave de respuestas PDF — todo a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. Edita todo en el lienzo Fabric.js con 6 opciones de alineación más centrado en página, capas, bloqueo/desbloqueo, zoom 25%–300% en incrementos del 25%, y deshacer/rehacer 50 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.`,
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: `Cómo Crear Fichas de Rompecabezas de Piezas Faltantes en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Creador de Fichas de Rompecabezas',
+        title: `Abre el Creador de Fichas de Rompecabezas`,
         description: `Haz clic en "Prueba Gratis Ahora" para abrir el generador de fichas de rompecabezas en tu navegador. La herramienta carga instantáneamente con una barra lateral de ajustes a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear fichas de rompecabezas de piezas faltantes de inmediato.`,
       },
       {
@@ -36,7 +36,7 @@ const content: ToolContent = {
         description: `Abre el panel de Configuración del Puzzle y establece dos ejes de dificultad independientes. Primero, establece el número de piezas faltantes de 1 a 5 — esto controla cuántos huecos se recortan de la imagen fuente, afectando directamente la demanda de razonamiento espacial. Segundo, establece el número de opciones de solución de 2 a 6 — esto controla cuántas opciones numeradas evalúan los usuarios, incluyendo tanto piezas correctas como piezas distractoras. Un puzzle con 1 pieza faltante y 2 opciones es accesible para los más pequeños; 5 piezas faltantes con 6 opciones crea un desafío genuino de discriminación visual. Ajusta ambos ejes independientemente para calibrar la dificultad para cualquier grupo de edad o nivel de producto.`,
       },
       {
-        title: 'Selecciona una Forma de Pieza entre 6 Opciones',
+        title: `Selecciona una Forma de Pieza entre 6 Opciones`,
         description: `Elige una forma de pieza que define el carácter visual de cada hueco y opción de solución. Las formas cuadrado (predeterminado) y círculo ofrecen cortes geométricos limpios con bordes inmediatamente reconocibles. Las formas rectángulo vertical (80% ancho, 100% alto) y rectángulo horizontal (100% ancho, 80% alto) crean huecos alargados que revelan proporciones diferentes de la imagen fuente. Las formas elipse vertical y elipse horizontal ofrecen cortes curvos más suaves con las mismas proporciones dimensionales que sus equivalentes rectangulares. Cada forma interactúa de manera diferente con la ilustración fuente, de modo que la misma imagen produce seis experiencias de puzzle distintas con todas las formas disponibles.`,
       },
       {
@@ -44,15 +44,15 @@ const content: ToolContent = {
         description: `Abre el panel de Biblioteca de Imágenes y navega 104 colecciones temáticas con más de 3.100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, festividades, profesiones y docenas más. Filtra por tema usando el menú desplegable o busca por palabra clave. Haz clic en una imagen para seleccionarla como fuente de tu puzzle. Las imágenes con colores variados y regiones distintas producen las fichas de rompecabezas más atractivas porque el algoritmo inteligente de extracción encuentra piezas con mayor varianza de color. Alternativamente, usa el panel de Subir Imágenes Personalizadas para cargar tus propios archivos PNG, JPG o GIF para diseños de puzzles personalizados — fotos familiares, arte propio, contenido de marca o imágenes específicas del mercado.`,
       },
       {
-        title: 'Configura el Diseño de Página y las Decoraciones',
+        title: `Configura el Diseño de Página y las Decoraciones`,
         description: `En la sección de Configuración de Página, selecciona tu tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o introduce una dimensión personalizada. Elige un color de fondo de página. Selecciona un fondo decorativo temático y un borde decorativo temático de la biblioteca integrada, cada uno con un control de opacidad independiente (0–1, paso 0,05). Los fondos y bordes temáticos funcionan de forma independiente, permitiéndote combinar un fondo sutil con un borde decorativo llamativo o cualquier combinación que se ajuste al estilo de tu producto.`,
       },
       {
-        title: 'Genera la Ficha de Rompecabezas',
+        title: `Genera la Ficha de Rompecabezas`,
         description: `Haz clic en Generar para crear el puzzle de piezas faltantes. El algoritmo inteligente de extracción de piezas intenta hasta 150 colocaciones para encontrar piezas con suficiente varianza de color (varianza de brillo mínima de 15), manteniendo al menos 250 píxeles de distancia entre piezas. Huecos blancos con trazo negro (2px) aparecen en las ubicaciones originales de la imagen fuente. Las opciones de solución numeradas — piezas correctas más distractoras — se muestran con etiquetas numéricas resaltadas en amarillo. Las fichas verticales colocan la imagen del puzzle arriba con las opciones debajo en fila horizontal (75% del tamaño máximo); las fichas horizontales dividen la vista 50/50 con las opciones a la derecha. El encabezado autogenerado muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en doble borde — exterior verde azulado (#14B8A6, 8px) e interior rosa intenso (#EC4899, 3px).`,
       },
       {
-        title: 'Revisa la Clave de Respuestas Autogenerada',
+        title: `Revisa la Clave de Respuestas Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuestas para ver la solución generada automáticamente. La misma imagen del puzzle aparece con los huecos, y etiquetas numéricas resaltadas en amarillo (rgba(255,255,0,0.7)) se colocan dentro de cada hueco mostrando el índice de opción correcto basado en 1. El tamaño de fuente se escala al 60% del tamaño de la pieza para legibilidad clara. Alterna entre las pestañas de Ficha y Clave de Respuestas para comparar. La clave de respuestas se genera simultáneamente con la ficha — sin creación manual, sin proceso de diseño separado, sin posibilidad de respuestas incorrectas. Este sistema de doble lienzo es tu mayor ahorro de tiempo al crear paquetes de fichas de rompecabezas.`,
       },
       {
@@ -80,18 +80,18 @@ const content: ToolContent = {
       description: `Usa la función de Subir Imágenes Personalizadas para crear fichas de rompecabezas a partir de cualquier foto u obra de arte. Los puzzles de piezas faltantes con fotos familiares son regalos personalizados únicos — los niños encuentran las piezas recortadas de imágenes familiares. Puzzles con fotos de mascotas, fotos grupales del mercado y puzzles con imágenes de marca se convierten en productos únicos imposibles de replicar por los competidores. El algoritmo inteligente de extracción funciona con cualquier imagen subida, encontrando áreas con suficiente varianza de color para puzzles resolubles. Mezcla formas de pieza en sets de fotos personalizadas para máxima variedad.`,
     },
     {
-      title: 'Colecciones Estacionales de Piezas Faltantes',
+      title: `Colecciones Estacionales de Piezas Faltantes`,
       description: `Crea colecciones estacionales rotativas usando temas de festividades y naturaleza de la biblioteca de 104 temas. Rompecabezas de Navidad, actividades de piezas faltantes de Halloween, fichas de puzzles de Pascua, desafíos visuales de San Valentín, puzzles de vuelta al cole y sets de temas de verano — cada uno soporta paquetes estacionales dedicados. Incluye múltiples formas de pieza y niveles de dificultad dentro de cada colección estacional para máximo rango de edades. Publica cada colección 4–6 semanas antes de la festividad para máxima visibilidad en el mercado. Las piezas distractoras añaden desafío genuino que diferencia tus productos de puzzles estacionales de alternativas más simples.`,
     },
     {
-      title: 'Paquetes de Percepción Visual Multi-Formato',
+      title: `Paquetes de Percepción Visual Multi-Formato`,
       description: `Combina fichas de rompecabezas con actividades de asociación de sombras, puzzles de cuadrícula, fichas de encuentra el intruso y fichas de clasificación de imágenes usando temas coordinados en múltiples generadores. Los puzzles de piezas faltantes desarrollan discriminación visual y razonamiento parte-todo. La asociación de sombras desarrolla reconocimiento de siluetas. El puzzle de cuadrícula desafía la colocación espacial de piezas. Cada formato ejercita una habilidad cognitiva diferente mientras mantiene consistencia temática. Los paquetes multi-formato se venden a precios premium y brindan a los usuarios práctica variada de percepción visual a través de un tema unificado — padres y vendedores pagan más por colecciones integrales de desarrollo de habilidades.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Tienda Etsy de Rompecabezas Temáticos',
+      title: `Tienda Etsy de Rompecabezas Temáticos`,
       description: `Abre una tienda Etsy especializada en paquetes de fichas de rompecabezas organizados por tema usando las 104 colecciones de imágenes. Animales, vehículos, naturaleza, comida, festividades y profesiones se convierten en listados separados con 15–25 puzzles de piezas faltantes y claves de respuestas incluidas. Las seis formas de pieza te permiten crear productos visuales distintos de los mismos temas — paquetes de piezas cuadradas, paquetes de piezas circulares y paquetes de variedad con formas mixtas. La clave de respuestas autogenerada con etiquetas numéricas resaltadas en amarillo elimina la mayor pérdida de tiempo en producción. Varía la dificultad desde 1 pieza faltante con 2 opciones hasta 5 piezas faltantes con 6 distractoras para desafío progresivo. Precio de paquetes individuales por tema a $3–$5 y paquetes premium de formas mixtas a $8–$12.`,
       platform: 'Etsy',
     },
@@ -106,17 +106,17 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Embudo de Tráfico con Rompecabezas en Pinterest',
+      title: `Embudo de Tráfico con Rompecabezas en Pinterest`,
       description: `Las fichas de rompecabezas crean pines visualmente impactantes en Pinterest — la imagen con huecos recortados y opciones de solución numeradas debajo crea un formato inmediatamente llamativo que padres y vendedores reconocen como educativo. Publica fichas de muestra mostrando diferentes formas de pieza: cortes cuadrados con temas de animales, cortes circulares con temas de festividades, cortes de elipse para variedad. Crea series de pines separadas para "fichas de rompecabezas para niños", "puzzles de piezas faltantes para preescolar" y "actividades de discriminación visual". El formato puramente visual atrae a padres y vendedores en todos los países. Enlaza cada pin a tus listados de productos en Etsy o Gumroad.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Rompecabezas en Gumroad',
+      title: `Kit Completo de Rompecabezas en Gumroad`,
       description: `Agrupa fichas de rompecabezas de los 104 temas, las 6 formas de pieza y todos los niveles de dificultad en un kit integral en Gumroad. Incluye más de 400 puzzles abarcando formas cuadrada, circular, rectangular y elíptica a cada combinación de dificultad desde 1 pieza con 2 opciones hasta 5 piezas con 6 opciones. Cada puzzle incluye su clave de respuestas autogenerada, duplicando tu conteo de archivos. El sistema de seis formas y dificultad en dos ejes proporciona enorme variedad de cada conjunto temático de imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de rompecabezas en lugar de paquetes individuales.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Línea de Productos de Puzzles Visuales Globales',
+      title: `Línea de Productos de Puzzles Visuales Globales`,
       description: `Piezas Faltantes produce puzzles puramente visuales — imágenes con huecos, opciones de solución numeradas y etiquetas de respuestas resaltadas en amarillo son universales sin texto específico de idioma en la salida de la ficha. Los mismos archivos de producto funcionan en todos los países sin traducción ni modificación. Una sesión de creación produce un catálogo vendible globalmente. Vende archivos idénticos en tiendas Etsy dirigidas a diferentes países, publica los mismos interiores de KDP en todos los mercados internacionales de Amazon y lista en Gumroad para vendedores internacionales. Sin versiones separadas por idioma, sin costos de traducción, sin mantenimiento por región. La función de subir imágenes personalizadas también permite servicios de personalización localizados sin cambiar el formato básico del puzzle.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -163,7 +163,7 @@ const content: ToolContent = {
       answer: `El generador toma una imagen de la biblioteca o tu imagen subida y recorta 1–5 piezas, dejando huecos blancos con contornos de trazo negro (2px) en las ubicaciones originales. Luego muestra 2–6 opciones de solución numeradas — las piezas correctas más piezas distractoras extraídas de otras áreas no superpuestas de la misma imagen. Los usuarios examinan los huecos y las opciones numeradas, luego identifican qué opción rellena cada espacio basándose en color, patrón y detalle visual. La clave de respuestas muestra etiquetas numéricas resaltadas en amarillo dentro de cada hueco indicando la coincidencia correcta.`,
     },
     {
-      question: '¿Cuáles son las 6 formas de pieza disponibles?',
+      question: `¿Cuáles son las 6 formas de pieza disponibles?`,
       answer: `Puedes elegir entre cuadrado (predeterminado), círculo, rectángulo vertical (80% ancho, 100% alto), rectángulo horizontal (100% ancho, 80% alto), elipse vertical y elipse horizontal. Cada forma crea un desafío visual diferente. Cuadrado y círculo ofrecen cortes geométricos limpios, mientras que las variantes de rectángulo y elipse crean formas alargadas o curvas que interactúan de manera diferente con la imagen fuente. Cada forma interactúa de manera única con la misma ilustración, por lo que una imagen fuente produce seis experiencias de puzzle distintas con todas las formas disponibles.`,
     },
     {
@@ -199,20 +199,20 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes derechos completos para vender fichas de rompecabezas como descargas digitales en Etsy, cuadernos impresos de puzzles visuales en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Las 6 formas de pieza, el sistema de dificultad en dos ejes, la extracción inteligente de piezas, las piezas distractoras, las claves de respuestas autogeneradas con etiquetas resaltadas en amarillo, la subida de imágenes personalizadas y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de rompecabezas que compiten en categorías de puzzles visuales en todos los principales mercados.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de comprar. Debido a que la prueba gratuita te da acceso completo a las 6 formas de pieza, 1–5 piezas faltantes, 2–6 opciones de solución con distractoras, la clave de respuestas autogenerada, los 104 temas, la subida de imágenes personalizadas, fondos y bordes temáticos, el sistema de doble borde, la exportación en escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencias. Asegúrate de que la herramienta se adapta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'piezas-faltantes-fichas', anchorText: `Puzzles de Piezas Faltantes — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
-    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Generador de Asociación de Sombras' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Generador de Puzzle de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Asociación' },
-    { pageType: 'tool', slug: 'generador-clasificacion-imagenes', anchorText: 'Generador de Clasificación de Imágenes' },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: `Generador de Fichas del Intruso` },
+    { pageType: 'tool', slug: `generador-discriminacion-visual`, anchorText: `Generador de Asociación de Sombras` },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: `Generador de Puzzle de Cuadrícula` },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Generador de Fichas de Asociación` },
+    { pageType: 'tool', slug: `generador-clasificacion-imagenes`, anchorText: `Generador de Clasificación de Imágenes` },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Generador de Páginas para Colorear` },
   ],
 
   visuals: {

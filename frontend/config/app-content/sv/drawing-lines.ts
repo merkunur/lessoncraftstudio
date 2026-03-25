@@ -4,17 +4,17 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'rita linjer generator',
     secondaryKeywords: [
-      'linjespårning arbetsblad sälja på Etsy',
-      'rita linjer arbetsblad generator för Amazon KDP',
-      'linjespårning arbetsblad kommersiell licens',
+      `linjespårning arbetsblad sälja på Etsy`,
+      `rita linjer arbetsblad generator för Amazon KDP`,
+      `linjespårning arbetsblad kommersiell licens`,
       `utskrivbara linjespårningsövningar skapa för Gumroad`,
     ],
     lsiKeywords: [
-      'digitala linjespårning produkter onlineföretag',
-      'utskrivbara finmotoriska arbetsblad företag',
-      'rita linjer generator kommersiellt bruk',
+      `digitala linjespårning produkter onlineföretag`,
+      `utskrivbara finmotoriska arbetsblad företag`,
+      `rita linjer generator kommersiellt bruk`,
     ],
-    titleTag: 'Rita Linjer Generator | Skapa Spårningsarbetsblad',
+    titleTag: `Rita Linjer Generator | Skapa Spårningsarbetsblad`,
     metaDescription:
       `Skapa linjespårningsarbetsblad att sälja på Etsy, KDP och Gumroad. Åtta SVG-mallar, bildparmatchning, 104 tematiska samlingar. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Rita Linjer-Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Rita Linjer-Arbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -40,12 +40,12 @@ const content: AppContent = {
           `Välj bland åtta SVG-baserade linjemallar i panelen Innehåll. Fyra kurvmallar skapar flödande, svepande linjebanor i liggande format med 4 bildpar vardera. Två diagonalmallar producerar vinklade linjer i stående format med 5 par. En horisontell mall genererar raka vänster-till-höger-linjer i stående format med 5 par. En vertikal mall skapar uppifrån-och-ner-linjer i stående format med 4 par. Varje malltyp riktar sig mot en annorlunda finmotorisk färdighet — kurvor utvecklar handledsflexibilitet, diagonaler bygger korssidig koordination och raka linjer förstärker riktningskontroll.`,
       },
       {
-        title: 'Välj temabilder eller auto-fyll par',
+        title: `Välj temabilder eller auto-fyll par`,
         description:
           `Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer — djur, mat, fordon, natur och dussintals fler — eller ladda upp dina egna bilder. Varje tema ger koordinerade bilder som fungerar visuellt tillsammans. Använd Auto-Fyll för att slumpmässigt tilldela matchande bildpar från det valda temat eller över alla teman samtidigt, och fyll direkt varje parplats på mallen. Auto-fyll-funktionen sparar betydande tid vid batchproduktion av flera arbetsblad.`,
       },
       {
-        title: 'Lägg till textdekorationer och anpassa',
+        title: `Lägg till textdekorationer och anpassa`,
         description:
           `Använd panelen Textverktyg för att lägga till en arbetsbladstitel, fält för namn och datum (Fredoka 18px), eller anpassade instruktioner med typsnitt inklusive Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand. Justera teckenstorlek, färg och textkonturbredd (0–10 med 0,5-stegs granularitet). Dra, ändra storlek, rotera och flytta varje element på den inbyggda Fabric.js-arbetsytan med lagerkontroller, lås/lås upp, justeringsverktyg och zoom från 25% till 400%. Ångra och gör om upp till 100 historiksteg.`,
       },
@@ -66,7 +66,7 @@ const content: AppContent = {
           `Åtta distinkta SVG-baserade mallar täcker fyra linjetyper för heltäckande finmotorisk utveckling. Fyra kurvmallar skapar flödande, svepande banor som utvecklar handledsflexibilitet och flytande rörelse — varje kurvvariant erbjuder en annorlunda form för visuell variation. Två diagonalmallar producerar vinklade linjer som bygger korssidig koordination när användarna spårar från ett hörn till ett annat. En horisontell mall genererar raka vänster-till-höger-linjer för riktningskontroll. En vertikal mall skapar uppifrån-och-ner-linjer för nedåtgående strecksövning. Variationen av linjetyper låter dig skapa progressiva svårighetspaket: börja med raka horisontella linjer, avancera till kurvor och avsluta med diagonaler för ett komplett finmotoriskt produktkatalog.`,
       },
       {
-        title: 'Bildparmatchning med auto-fyll från 104 teman',
+        title: `Bildparmatchning med auto-fyll från 104 teman`,
         description:
           `Varje mall placerar matchande bildpar på motsatta sidor av linjebanan — användarna ser en bild vid starten och dess match vid slutet, vilket skapar ett visuellt mål som motiverar linjespårning. Auto-fyll tilldelar slumpmässigt bildpar från det valda temat eller över alla 104 teman samtidigt, och fyller direkt varje parplats på sidan. Detta gör batchproduktion snabb: välj ett tema, klicka auto-fyll och mallen är redo för export. Byt tema och upprepa för att generera dussintals unika arbetsblad på minuter. Varje tema ger koordinerade bilder som fungerar visuellt tillsammans, vilket skapar naturliga paketringsmöjligheter för tematiska produktpaket.`,
       },
@@ -76,7 +76,7 @@ const content: AppContent = {
           `Varje mall ställer automatiskt in den optimala sidorienteringen för sin linjetyp. Kurvmallar använder liggande format, vilket ger svepande linjer utrymme att svepa över sidans bredare dimension. Diagonal-, horisontell- och vertikalmallar använder stående format för fokuserad uppifrån-och-ner-övning. Denna automatiska orienteringsväxling säkerställer att varje linjetyp får maximalt utrymme utan manuell justering. Kurvmallar placerar 4 bildpar per sida; diagonal- och horisontellmallar rymmer 5 par; vertikalmallar använder 4 par — varje antal optimerat för det tillgängliga utrymmet i den orienteringen.`,
       },
       {
-        title: 'Helt visuella arbetsblad med noll textresultat',
+        title: `Helt visuella arbetsblad med noll textresultat`,
         description:
           `Varje arbetsblad innehåller bara bilder, linjebanor och dekorativa ramar — ingen text visas på det genererade resultatet. användarna spårar linjer mellan bildpar utan att behöva läsa några instruktioner. Detta gör Rita Linjer-arbetsblad universellt användbara oavsett språk, läsnivå eller läskunnighetsstatus. Före-läsande användare, andraspråksanvändare och användare med särskilda behov genomför alla övningarna genom att följa den visuella linjebanan. För säljare innebär noll-text-resultat att samma arbetsblad säljer världen över utan översättning — en enda produktannons betjänar varje marknad.`,
       },
@@ -91,7 +91,7 @@ const content: AppContent = {
           `Varje arbetsblad inkluderar en automatiskt genererad rubrik med en livfull grön bakgrund och djupt skogsgrön titel. Standardtiteln «Linjespårningsövning» och undertexten «Rita linjer för att koppla samman de matchande bilderna!» lokaliseras på alla 11 språk. Stående format visar en fullbredd rubrik; liggande format använder ett kompakt centrerat format. En korallröd yttre ram och solguld inre ram ramar in varje sida med rundade hörn. Rubrikelement kan redigeras fritt — välj, flytta och ändra storlek för att matcha ditt varumärke.`,
       },
       {
-        title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI',
+        title: `Tryckfärdig PDF- och JPEG-export med 300 DPI`,
         description:
           `Ladda ner arbetsblad som högupplösta JPEG-bilder (kvalitet 1.0) eller tryckfärdiga PDF-dokument renderade med 300 DPI via en 6x-renderingsmultiplikator. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för volymutskrift eller svartvita arbetsböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Rita Linjer-Arbetsblad Online',
+    title: `Hur du Säljer Rita Linjer-Arbetsblad Online`,
     cases: [
       {
         title: 'Linjespårningspaket på Etsy',
@@ -113,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Finmotoriska arbetsböcker på Amazon KDP',
+        title: `Finmotoriska arbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 60–100 linjespårningsövningar till en tryckt arbetsbok strukturerad som ett progressivt finmotoriskt produktkatalog. Kapitel 1 täcker horisontella linjer för grundläggande riktningskontroll. Kapitel 2 introducerar vertikala linjer för nedåtgående strecksövning. Kapitel 3 avancerar till kurvmallar för handledsflexibilitet. Kapitel 4 utmanar användarna med diagonala linjer som kräver korssidig koordination. Varje kapitel använder olika bildteman för att behålla engagemanget över 60+ sidor. Det helt visuella formatet innebär att ingen översättning behövs för internationella KDP-marknadsplatser — publicera samma interiör via Amazon.se och internationella Amazon-butiker.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -128,13 +128,13 @@ const content: AppContent = {
         title: `Flerspråkiga visuella arbetsblad för globala marknader`,
         description:
           `Eftersom Rita Linjer-arbetsblad innehåller noll text på resultatet fungerar samma produkt på varje språk utan modifiering. användarna spårar linjer mellan bildpar utan att behöva läsa — den visuella linjebanan i sig ger all vägledning som behövs. Skapa en uppsättning linjespårningsövningar och sälj den världen över utan översättning eller separata språkversioner att underhålla. Lista identiska produkter på Etsy-butiker som riktar sig mot olika länder, eller publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (globalt)',
+        platform: `Etsy / Amazon KDP / Gumroad (globalt)`,
       },
       {
-        title: 'produktlinjes- och terapiverktyg för finmotorik',
+        title: `produktlinjes- och terapiverktyg för finmotorik`,
         description:
           `Ladda upp egna bilder för att skapa riktade linjespårningsarbetsblad för specifika terapeutiska eller pedagogiska mål. Arbetsterapeuter kan välja linjetyper som matchar varje patients finmotoriska utvecklingsbehov — kurvor för handledsrörlighet, diagonaler för bilateral koordination, raka linjer för riktningskontroll. säljare kan skapa ämnesinriktade spårningsark där användarna kopplar samman relaterade bildpar medan de utvecklar pennkontroll. Justera mallval och bildteman för att matcha varje användares förmågenivå och intressen. Skriv ut anpassade set på minuter för individuella terapisessioner, smågrupper eller hela klasser.`,
-        platform: 'produktlinje / Terapi / Hemundervisning',
+        platform: `produktlinje / Terapi / Hemundervisning`,
       },
     ],
   },
@@ -151,12 +151,12 @@ const content: AppContent = {
         `Kurvade linjer utvecklar handledsflexibilitet och flytande rörelse när användarna följer svepande bågar. Diagonala linjer bygger korssidig koordination med vinklade spårningsbanor. Horisontella linjer förstärker vänster-till-höger riktningskontroll — samma spårningsriktning som används vid läsning och skrivning. Vertikala linjer övar uppifrån-och-ner streck som är väsentliga för bokstavsformning. Tillsammans täcker dessa fyra linjetyper de grundläggande finmotoriska färdigheter som behövs för skrivberedskap.`,
     },
     {
-      question: 'Hur fungerar bildparmatchning på varje mall?',
+      question: `Hur fungerar bildparmatchning på varje mall?`,
       answer:
         `Varje mall placerar matchande bildpar på motsatta sidor av linjebanan. En bild visas vid linjens start och dess match visas vid slutet. användarna spårar längs den guidade linjebanan för att koppla samman de matchande bilderna. Mallar rymmer 4 eller 5 par beroende på linjetyp — kurv- och vertikalmallar använder 4 par, diagonal- och horisontellmallar använder 5. De matchande bilderna ger användarna ett visuellt mål som motiverar dem att fullfölja varje linje.`,
     },
     {
-      question: 'Hur fungerar auto-fyll-funktionen?',
+      question: `Hur fungerar auto-fyll-funktionen?`,
       answer:
         `Auto-fyll tilldelar slumpmässigt bildpar från det valda temat eller över alla tillgängliga teman samtidigt. Klicka på auto-fyll-knappen och varje parplats på den aktuella mallen fylls direkt med matchande bilder. Detta är särskilt användbart för batchproduktion — välj ett tema, auto-fyll, exportera, byt sedan tema och upprepa för att generera dussintals unika arbetsblad på minuter utan att manuellt placera varje bild.`,
     },
@@ -181,12 +181,12 @@ const content: AppContent = {
         `Ja. Aktivera namn- och datumfält från panelen Innehåll. De visas i Fredoka-typsnitt vid 18px i en mörkgrå färg. Du kan också lägga till anpassad text med panelen Textverktyg med valfritt tillgängligt typsnitt — Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand — och flytta dem var som helst på arbetsytan.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — alla åtta linjemallar, hela bildbiblioteket, auto-fyll, alla exportformat och de kompletta arbetsyteredigeringsverktygen — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Är Rita Linjer-generatorn språkkänslig?',
+      question: `Är Rita Linjer-generatorn språkkänslig?`,
       answer:
         `Nej. Rita Linjer är en rent visuell app — arbetsbladen innehåller bara bilder, linjebanor och dekorativa ramar med noll text på resultatet, så de är identiska på varje språk. Att byta språk påverkar bara gränssnittsetiketterna och bildbiblioteksetiketterna i generatorn, inte arbetsbladsinnehållet. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina linjespårningsarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De åtta linjemallarna, 104 bildtemana och det helt visuella formatet ger dig stark differentiering och global säljbarhet i marknadsplatskategorier.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje linjemall, varje bildtema, auto-fyll-funktionen, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,12 +206,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'stort-litet-arbetsblad',
-      anchorText: 'Stort och Litet Arbetsblad Generator',
+      anchorText: `Stort och Litet Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'monster-tag-arbetsblad',
-      anchorText: 'Mönstertåg Arbetsblad Generator',
+      anchorText: `Mönstertåg Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -221,17 +221,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'rutritning-arbetsblad',
-      anchorText: 'Rutritning Arbetsblad Generator',
+      anchorText: `Rutritning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'malarbilder-arbetsblad',
-      anchorText: 'Målarbilder Arbetsblad Generator',
+      anchorText: `Målarbilder Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'diagram-rakning-arbetsblad',
-      anchorText: 'Diagram och Räkning Arbetsblad Generator',
+      anchorText: `Diagram och Räkning Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -241,33 +241,33 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'sommar-utskriftsbara-ideer',
-      anchorText: 'Sommar Utskriftsbara Idéer för Barnaktiviteter',
+      anchorText: `Sommar Utskriftsbara Idéer för Barnaktiviteter`,
     },
     {
       pageType: 'idea',
       slug: 'jul-utskriftsbara-ideer',
-      anchorText: 'Jul Utskriftsbara Idéer för Säsongsförsäljning',
+      anchorText: `Jul Utskriftsbara Idéer för Säsongsförsäljning`,
     },
     {
       pageType: 'start',
       slug: 'etsy-utskriftsbart-foeretag',
-      anchorText: 'Bygg Ditt Etsy Utskriftsbart Företag',
+      anchorText: `Bygg Ditt Etsy Utskriftsbart Företag`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-ritnings-arbetsblad',
-      anchorText: 'Hur du Skapar Ritnings- och Spårningsarbetsblad',
+      anchorText: `Hur du Skapar Ritnings- och Spårningsarbetsblad`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/drawing%20lines/kurva%201.webp',
+      primary: `/samples/swedish/drawing%20lines/kurva%201.webp`,
       primaryAlt: `Linjespårningsarbetsblad med kurvad linjemall som kopplar samman matchande djurbildpar i liggande format`,
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/drawing%20lines/kurva%201.webp',
+        src: `/samples/swedish/drawing%20lines/kurva%201.webp`,
         alt: `Linjespårningsarbetsblad med kurvmall som kopplar samman matchande bildpar i liggande orientering`,
         caption: `Kurvmall — användarna spårar flödande kurvade linjer för att koppla samman matchande bildpar`,
       },
@@ -277,7 +277,7 @@ const content: AppContent = {
         caption: `Diagonalmall — vinklade linjer med 5 bildpar för korssidig koordinationsövning`,
       },
       {
-        src: '/samples/swedish/drawing%20lines/horizontell.webp',
+        src: `/samples/swedish/drawing%20lines/horizontell.webp`,
         alt: `Linjespårningsarbetsblad med horisontell mall som kopplar samman bildpar med raka linjer i stående format`,
         caption: `Horisontell mall — raka vänster-till-höger-linjer med tematiska bilder`,
       },

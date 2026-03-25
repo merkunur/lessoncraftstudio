@@ -5,29 +5,29 @@ const content: StartContent = {
     primaryKeyword: 'sell printables on etsy',
     secondaryKeywords: [
       'etsy printable business',
-      'etsy shop for printable worksheets',
-      'how to sell worksheets on etsy',
-      'etsy digital downloads business',
+      `etsy shop for printable worksheets`,
+      `how to sell worksheets on etsy`,
+      `etsy digital downloads business`,
     ],
     lsiKeywords: [
-      'etsy seo for printable sellers',
-      'etsy listing optimization worksheets',
-      'etsy shop setup digital products',
-      'etsy tags for printable worksheets',
-      'worksheet generator for etsy sellers',
-      'etsy printable pricing strategy',
+      `etsy seo for printable sellers`,
+      `etsy listing optimization worksheets`,
+      `etsy shop setup digital products`,
+      `etsy tags for printable worksheets`,
+      `worksheet generator for etsy sellers`,
+      `etsy printable pricing strategy`,
     ],
-    titleTag: 'Sell Printables on Etsy — Business Masterclass',
+    titleTag: `Sell Printables on Etsy — Business Masterclass`,
     metaDescription: `How to sell printables on Etsy step by step. Covers shop setup, Etsy SEO, listing optimization, pricing strategy, and scaling with worksheet generators.`,
   },
 
   hero: {
-    title: 'Etsy Printable Business Masterclass',
+    title: `Etsy Printable Business Masterclass`,
     tagline: `The platform-specific guide to building a profitable printable worksheet shop on Etsy`,
     description: `Etsy is the single largest marketplace for printable digital downloads. This masterclass covers everything you need to build a profitable printable worksheet shop on the platform — from initial shop setup and Etsy-specific SEO to listing optimization, pricing strategy, advertising, and scaling beyond your first 50 products. Every strategy in this guide is tailored specifically to how Etsy works, not generic advice that applies to any marketplace.`,
   },
 
-  introduction: `Etsy processes billions of dollars in digital download sales every year, and printable worksheets are one of the platform's fastest-growing categories. Unlike selling on your own website where you must generate every visitor yourself, Etsy delivers buyers who are already searching for exactly what you create. Parents type "printable addition worksheets" into Etsy search. Buyers search for "kindergarten coloring pages bundle." Homeschool families look for "first grade math practice sheets." Your job is to be the shop they find.\n\nBut Etsy is also crowded. Thousands of sellers list printable worksheets, and the platform's search algorithm decides who gets visibility and who gets buried. Succeeding on Etsy requires understanding how the platform's search works, what makes buyers click on your listing instead of a competitor's, and how to structure your shop for maximum discoverability.\n\nThis masterclass is Etsy-specific from start to finish. Generic printable business advice appears in our Complete Guide to Starting a Printable Business. This guide assumes you have decided Etsy is your platform and you want the tactical, platform-level knowledge to make it work.\n\nOne note before we dive in: every worksheet generator mentioned in this guide offers a free trial with watermark. You can create sample products, test Etsy listings, and validate your niche before purchasing a commercial license.`,
+  introduction: `Etsy processes billions of dollars in digital download sales every year, and printable worksheets are one of the platform`s fastest-growing categories. Unlike selling on your own website where you must generate every visitor yourself, Etsy delivers buyers who are already searching for exactly what you create. Parents type "printable addition worksheets" into Etsy search. Buyers search for "kindergarten coloring pages bundle." Homeschool families look for "first grade math practice sheets." Your job is to be the shop they find.\n\nBut Etsy is also crowded. Thousands of sellers list printable worksheets, and the platform`s search algorithm decides who gets visibility and who gets buried. Succeeding on Etsy requires understanding how the platform`s search works, what makes buyers click on your listing instead of a competitor`s, and how to structure your shop for maximum discoverability.\n\nThis masterclass is Etsy-specific from start to finish. Generic printable business advice appears in our Complete Guide to Starting a Printable Business. This guide assumes you have decided Etsy is your platform and you want the tactical, platform-level knowledge to make it work.\n\nOne note before we dive in: every worksheet generator mentioned in this guide offers a free trial with watermark. You can create sample products, test Etsy listings, and validate your niche before purchasing a commercial license.`,
 
   mainContent: [
     {
@@ -40,7 +40,7 @@ const content: StartContent = {
     },
     {
       heading: `Etsy SEO for Printable Sellers: Titles, Tags, and Descriptions`,
-      content: `Etsy search is how the vast majority of buyers discover your products. Understanding how Etsy's search algorithm works is non-negotiable for any serious seller.\n\nEtsy\'s search matches buyer queries against your listing's title, tags, categories, and attributes. The algorithm then ranks results based on listing quality score, which factors in click-through rate, conversion rate, recency, and shop completeness.\n\nTitles are your primary ranking signal. Front-load the most important keywords. "Printable Addition Worksheets for Kindergarten — Math Practice Bundle with Answer Keys" places high-value search terms at the beginning where they carry the most weight. Etsy displays roughly the first 55–60 characters in search results, so your core keyword phrase must appear within that window.\n\nTags are your secondary ranking signal. Etsy gives you 13 tags per listing, and you should use every single one. Each tag can be up to 20 characters. The critical rule: do not repeat words that already appear in your title. Etsy combines title and tag keywords when matching searches. If your title says "addition worksheets," use tags for related terms like "math practice sheets," "number activities," "counting exercises," and "kindergarten math."\n\nDescriptions do not directly affect Etsy search ranking — Etsy has confirmed this publicly. However, descriptions influence whether a visitor converts to a buyer, which in turn improves your listing quality score. Write descriptions for humans: state what is included, who it is for, what formats are provided, and how to use the product.`,
+      content: `Etsy search is how the vast majority of buyers discover your products. Understanding how Etsy`s search algorithm works is non-negotiable for any serious seller.\n\nEtsy's search matches buyer queries against your listing`s title, tags, categories, and attributes. The algorithm then ranks results based on listing quality score, which factors in click-through rate, conversion rate, recency, and shop completeness.\n\nTitles are your primary ranking signal. Front-load the most important keywords. "Printable Addition Worksheets for Kindergarten — Math Practice Bundle with Answer Keys" places high-value search terms at the beginning where they carry the most weight. Etsy displays roughly the first 55–60 characters in search results, so your core keyword phrase must appear within that window.\n\nTags are your secondary ranking signal. Etsy gives you 13 tags per listing, and you should use every single one. Each tag can be up to 20 characters. The critical rule: do not repeat words that already appear in your title. Etsy combines title and tag keywords when matching searches. If your title says "addition worksheets," use tags for related terms like "math practice sheets," "number activities," "counting exercises," and "kindergarten math."\n\nDescriptions do not directly affect Etsy search ranking — Etsy has confirmed this publicly. However, descriptions influence whether a visitor converts to a buyer, which in turn improves your listing quality score. Write descriptions for humans: state what is included, who it is for, what formats are provided, and how to use the product.`,
     },
     {
       heading: `Creating Etsy Listings That Convert for Printable Products`,
@@ -56,19 +56,19 @@ const content: StartContent = {
     },
     {
       heading: `Building Your Etsy Printable Catalog for Maximum Visibility`,
-      content: `Etsy's algorithm rewards active shops. Sellers who list new products regularly receive a temporary visibility boost for each new listing. This "new listing boost" is one of Etsy's most important but least understood ranking factors.\n\nThe practical implication: adding 2–3 new listings per week keeps your shop in the algorithm's favor. A shop that lists 10 products once and never adds more will see declining visibility over time, even if those 10 products are excellent.\n\nOrganize your catalog using Etsy's shop sections feature. Sections function like categories within your shop — "Math Worksheets," "Coloring Pages," "Word Search Bundles," "Holiday Activities." Buyers who click into your shop can quickly find what interests them. Well-organized sections also signal professionalism and specialization.\n\nCross-listing is a powerful Etsy strategy. Take the same 10 worksheets and list them three ways: as individual worksheets ($1.99 each), as a themed bundle ($5.99), and as part of a larger mega-bundle ($14.99). Each listing targets different buyer intents and keywords, tripling your search visibility from the same core products.\n\nBundle strategy on Etsy works differently than on other platforms. Etsy buyers respond strongly to bundles that solve a complete need: "Complete Kindergarten Math Pack" or "Year-Round Coloring Pages Set." The more comprehensive the bundle title sounds, the more it appeals to buyers who want a single purchase rather than assembling pieces.\n\nUse worksheet generators to build catalog depth efficiently. A single coloring page generator session can produce 20+ unique worksheets across different themes in under an hour. That output becomes 20 individual listings, 4 themed bundles, and 1 mega-bundle — 25 total listings from one creation session.`,
+      content: `Etsy`s algorithm rewards active shops. Sellers who list new products regularly receive a temporary visibility boost for each new listing. This "new listing boost" is one of Etsy`s most important but least understood ranking factors.\n\nThe practical implication: adding 2–3 new listings per week keeps your shop in the algorithm`s favor. A shop that lists 10 products once and never adds more will see declining visibility over time, even if those 10 products are excellent.\n\nOrganize your catalog using Etsy`s shop sections feature. Sections function like categories within your shop — "Math Worksheets," "Coloring Pages," "Word Search Bundles," "Holiday Activities." Buyers who click into your shop can quickly find what interests them. Well-organized sections also signal professionalism and specialization.\n\nCross-listing is a powerful Etsy strategy. Take the same 10 worksheets and list them three ways: as individual worksheets ($1.99 each), as a themed bundle ($5.99), and as part of a larger mega-bundle ($14.99). Each listing targets different buyer intents and keywords, tripling your search visibility from the same core products.\n\nBundle strategy on Etsy works differently than on other platforms. Etsy buyers respond strongly to bundles that solve a complete need: "Complete Kindergarten Math Pack" or "Year-Round Coloring Pages Set." The more comprehensive the bundle title sounds, the more it appeals to buyers who want a single purchase rather than assembling pieces.\n\nUse worksheet generators to build catalog depth efficiently. A single coloring page generator session can produce 20+ unique worksheets across different themes in under an hour. That output becomes 20 individual listings, 4 themed bundles, and 1 mega-bundle — 25 total listings from one creation session.`,
     },
     {
       heading: `Etsy Advertising and Promotion for Printable Sellers`,
-      content: `Etsy Ads is the platform's built-in advertising system. It places your listings at the top of relevant search results in exchange for a per-click fee. Understanding when and how to use Etsy Ads separates profitable sellers from those who waste money on ineffective campaigns.\n\nStart with a small daily budget — $1 to $5 per day. Etsy Ads uses a cost-per-click model where you pay only when someone clicks your ad. The click cost varies by competition level in your niche, typically ranging from $0.10 to $0.50 per click for printable worksheets.\n\nThe key metric is return on ad spend (ROAS). If you spend $5 on ads and generate $20 in sales, your ROAS is 4:1 — excellent. If you spend $5 and generate $3, your ads are losing money. Check your Etsy Ads dashboard weekly and disable ads on listings that do not convert profitably.\n\nDo not advertise every listing. Focus Etsy Ads on your best-converting products — the listings with the highest click-through and conversion rates. Advertising a listing that already converts well amplifies its success. Advertising a listing with poor conversion wastes budget on clicks that do not result in sales.\n\nBeyond Etsy Ads, use Etsy's built-in promotional tools. Sales and coupons can re-engage past visitors. Etsy shows a "sale" badge on discounted listings, which increases click-through rates in search results. Run occasional 15–20% off sales during peak seasons like back-to-school and holiday periods.\n\nSocial media drives external traffic to your Etsy shop. Pinterest is particularly effective for printable worksheets — create pins showing your worksheet designs and link directly to your Etsy listings. Instagram works for building a following around your brand. Focus on one or two social channels rather than spreading thin across all of them.`,
+      content: `Etsy Ads is the platform`s built-in advertising system. It places your listings at the top of relevant search results in exchange for a per-click fee. Understanding when and how to use Etsy Ads separates profitable sellers from those who waste money on ineffective campaigns.\n\nStart with a small daily budget — $1 to $5 per day. Etsy Ads uses a cost-per-click model where you pay only when someone clicks your ad. The click cost varies by competition level in your niche, typically ranging from $0.10 to $0.50 per click for printable worksheets.\n\nThe key metric is return on ad spend (ROAS). If you spend $5 on ads and generate $20 in sales, your ROAS is 4:1 — excellent. If you spend $5 and generate $3, your ads are losing money. Check your Etsy Ads dashboard weekly and disable ads on listings that do not convert profitably.\n\nDo not advertise every listing. Focus Etsy Ads on your best-converting products — the listings with the highest click-through and conversion rates. Advertising a listing that already converts well amplifies its success. Advertising a listing with poor conversion wastes budget on clicks that do not result in sales.\n\nBeyond Etsy Ads, use Etsy`s built-in promotional tools. Sales and coupons can re-engage past visitors. Etsy shows a "sale" badge on discounted listings, which increases click-through rates in search results. Run occasional 15–20% off sales during peak seasons like back-to-school and holiday periods.\n\nSocial media drives external traffic to your Etsy shop. Pinterest is particularly effective for printable worksheets — create pins showing your worksheet designs and link directly to your Etsy listings. Instagram works for building a following around your brand. Focus on one or two social channels rather than spreading thin across all of them.`,
     },
     {
-      heading: 'Managing Customer Reviews and Service on Etsy',
+      heading: `Managing Customer Reviews and Service on Etsy`,
       content: `Reviews are currency on Etsy. They directly influence your listing quality score, your search ranking, and buyer trust. A shop with dozens of five-star reviews converts at a significantly higher rate than a shop with no reviews or mixed feedback.\n\nThe best way to earn positive reviews is to deliver products that exceed expectations. Professional worksheet quality, accurate descriptions, clean file formatting, and included extras like answer keys all contribute to buyer satisfaction. When buyers feel they received more value than they paid for, reviews follow naturally.\n\nRespond to every review, positive or negative. Thank positive reviewers briefly. For negative reviews, respond professionally and offer a solution — a corrected file, a refund, or a different product. Your response is visible to all future buyers, and a professional, solution-oriented reply to a negative review often builds more trust than the review itself damages.\n\nHandle refund requests promptly and graciously. Etsy's digital download policy allows sellers to set their own refund terms, but the platform strongly favors buyer satisfaction. A refund on a $4.99 product costs you $4.99; a negative review can cost you dozens of future sales. When the refund request is reasonable, process it quickly.\n\nPrevent negative reviews proactively. Include a "How to Use" section in your listing description and in the downloaded file itself. Specify clearly what file formats are included, what printer settings work best, and how to contact you if any issues arise. Most negative reviews for printable products stem from buyer confusion, not product quality.\n\nAfter accumulating 10+ reviews, your shop enters a self-reinforcing cycle. More reviews mean higher rankings, which mean more sales, which mean more reviews. Getting through the first 10 reviews is the hardest part — consider pricing your initial products competitively to maximize early sales volume.`,
     },
     {
       heading: `Scaling Your Etsy Printable Shop Beyond the First 50 Listings`,
-      content: `Reaching 50 listings marks a transition point. Your shop now has enough catalog depth to generate consistent daily views and sales. The strategies that got you to 50 listings are different from the strategies that will take you to 200 or 500.\n\nExpand into adjacent product categories. If you built your shop around math worksheets, add literacy activities, coloring pages, or puzzle worksheets. Each new category attracts a different buyer segment while cross-selling opportunities increase. A buyer who finds your addition worksheets might also purchase your coloring page bundle if they see it in your shop.\n\nSeasonal planning becomes critical at scale. Map out the entire year: Valentine's Day (February), Easter (March–April), back-to-school (August), Halloween (October), Thanksgiving (November), Christmas (December). Create seasonal collections 4–6 weeks before peak demand. Seasonal products can account for 30–40% of annual revenue for printable sellers.\n\nMulti-language expansion is a significant growth lever. Most Etsy printable sellers create English-only products, leaving non-English markets dramatically underserved. Worksheet generators on LessonCraftStudio support 11 languages. A German-language coloring page bundle faces a fraction of the competition that an English version faces, often at the same price point. Visual-only worksheets like matching and pattern activities require zero translation and sell internationally without modification.\n\nAnalyze your Etsy stats to identify growth opportunities. The Stats dashboard shows which listings get the most views, favorites, and sales. It also shows which search terms drive traffic to your shop. Use this data to create more products targeting your highest-performing search terms and to optimize underperforming listings.\n\nConsider listing on additional platforms once your Etsy shop is stable. Amazon KDP for activity book formats and Gumroad for store-focused products extend your reach without requiring new product creation — you adapt existing worksheets to each platform's format requirements.`,
+      content: `Reaching 50 listings marks a transition point. Your shop now has enough catalog depth to generate consistent daily views and sales. The strategies that got you to 50 listings are different from the strategies that will take you to 200 or 500.\n\nExpand into adjacent product categories. If you built your shop around math worksheets, add literacy activities, coloring pages, or puzzle worksheets. Each new category attracts a different buyer segment while cross-selling opportunities increase. A buyer who finds your addition worksheets might also purchase your coloring page bundle if they see it in your shop.\n\nSeasonal planning becomes critical at scale. Map out the entire year: Valentine`s Day (February), Easter (March–April), back-to-school (August), Halloween (October), Thanksgiving (November), Christmas (December). Create seasonal collections 4–6 weeks before peak demand. Seasonal products can account for 30–40% of annual revenue for printable sellers.\n\nMulti-language expansion is a significant growth lever. Most Etsy printable sellers create English-only products, leaving non-English markets dramatically underserved. Worksheet generators on LessonCraftStudio support 11 languages. A German-language coloring page bundle faces a fraction of the competition that an English version faces, often at the same price point. Visual-only worksheets like matching and pattern activities require zero translation and sell internationally without modification.\n\nAnalyze your Etsy stats to identify growth opportunities. The Stats dashboard shows which listings get the most views, favorites, and sales. It also shows which search terms drive traffic to your shop. Use this data to create more products targeting your highest-performing search terms and to optimize underperforming listings.\n\nConsider listing on additional platforms once your Etsy shop is stable. Amazon KDP for activity book formats and Gumroad for store-focused products extend your reach without requiring new product creation — you adapt existing worksheets to each platform`s format requirements.`,
     },
   ],
 
@@ -78,11 +78,11 @@ const content: StartContent = {
       description: `Search Etsy for your target worksheet category. Study the top 10 results: note their pricing, page counts, thumbnail styles, and review counts. Identify gaps where you can offer something the current top sellers do not.`,
     },
     {
-      step: 'Create Sample Products with Free Trials',
+      step: `Create Sample Products with Free Trials`,
       description: `Use the free trial with watermark on 2–3 worksheet generators to create sample products in your chosen niche. Evaluate the output quality and test different themes, difficulty levels, and page configurations.`,
     },
     {
-      step: 'Set Up Your Etsy Seller Account',
+      step: `Set Up Your Etsy Seller Account`,
       description: `Create your Etsy shop with a niche-relevant name. Complete your shop description, policies, payment setup, and upload a professional banner showing sample worksheets.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Write a keyword-rich title with primary search terms front-loaded. Fill all 13 tags with unique keyword phrases. Create a clean thumbnail mockup showing the actual product. Write a structured description.`,
     },
     {
-      step: 'List 10 Products in Your First Week',
+      step: `List 10 Products in Your First Week`,
       description: `Create both individual listings and bundles from your initial worksheet output. Cross-list the same worksheets in different groupings to maximize search visibility and take advantage of Etsy's new listing boost.`,
     },
     {
-      step: 'Set Up Etsy Ads on Your Best Listing',
+      step: `Set Up Etsy Ads on Your Best Listing`,
       description: `Start with a $1–$2 daily budget on your highest-quality listing. Monitor click-through rate and conversion rate for one week. Pause ads if ROAS is below 2:1.`,
     },
     {
-      step: 'Establish a Weekly Listing Schedule',
+      step: `Establish a Weekly Listing Schedule`,
       description: `Commit to adding 2–3 new listings per week. Use worksheet generators to create products efficiently — one generator session can produce enough output for a full week of new listings.`,
     },
     {
-      step: 'Review Analytics After 30 Days',
+      step: `Review Analytics After 30 Days`,
       description: `Check your Etsy Stats dashboard for views, favorites, and sales by listing. Identify your top performers and create more products in those categories. Optimize underperforming listings with better thumbnails and keywords.`,
     },
     {
-      step: 'Plan Your First Seasonal Collection',
+      step: `Plan Your First Seasonal Collection`,
       description: `Identify the next seasonal opportunity (back-to-school, Halloween, Christmas) and create a themed worksheet collection at least 4–6 weeks before peak demand. Seasonal products drive significant revenue spikes on Etsy.`,
     },
   ],
@@ -158,7 +158,7 @@ const content: StartContent = {
       answer: `Etsy charges $0.20 per listing and takes 6.5% of each sale plus payment processing fees. There is no monthly subscription required. Your main investment is a commercial license for your worksheet generators. Many sellers start with a single generator license and reinvest early sales revenue to add more tools.`,
     },
     {
-      question: 'How long does it take to get my first Etsy sale?',
+      question: `How long does it take to get my first Etsy sale?`,
       answer: `Most printable sellers who list 10+ optimized products in their first week and use proper Etsy SEO techniques see their first sale within 2–4 weeks. Shops with fewer listings or poor keyword optimization may take longer. Etsy Ads can accelerate early sales by placing your listings in front of more buyers.`,
     },
     {
@@ -170,7 +170,7 @@ const content: StartContent = {
       answer: `A single generator can produce dozens of unique listings. Create individual worksheet listings, themed bundles of 5–10 pages, and larger mega-bundles of 20–30+ pages. Cross-listing the same worksheets in different groupings is a proven Etsy strategy that multiplies your search visibility.`,
     },
     {
-      question: 'Can I sell non-English worksheets on Etsy?',
+      question: `Can I sell non-English worksheets on Etsy?`,
       answer: `Absolutely. All generators support 11 languages including German, French, Spanish, and Portuguese. Non-English printable markets on Etsy are significantly underserved, meaning less competition and similar pricing. Visual-only worksheets like coloring and matching sell internationally without any translation needed.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Guide to Starting a Printable Business`,
       description: `The comprehensive foundation guide covering niche selection, product creation, platform comparison, pricing strategy, and catalog building for all printable marketplaces.`,
     },
     {
       slug: 'create-worksheets-that-sell',
-      title: 'How to Create Worksheets That Sell',
+      title: `How to Create Worksheets That Sell`,
       description: `Deep dive into product quality: design standards, tiered difficulty techniques, and the specific methods that make buyers choose your worksheets over competitors.`,
     },
     {
       slug: 'amazon-kdp-activity-books',
-      title: 'Amazon KDP Activity Book Guide',
+      title: `Amazon KDP Activity Book Guide`,
       description: `Expand beyond Etsy with activity books on Amazon KDP. Covers formatting requirements, cover design, keyword research, and category selection for the Amazon marketplace.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
     { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Guide` },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: `Commercial License Guide for Printable Sellers` },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: `Printable Business Income: Realistic Expectations` },
+    { pageType: 'app', slug: 'coloring-worksheets', anchorText: `Coloring Page Generator — Full Details` },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Generator — Full Details` },
     { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Try the Find & Count Maker' },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page worksheet example created with LessonCraftStudio generator for Etsy sellers' },
+    heroImage: { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page worksheet example created with LessonCraftStudio generator for Etsy sellers` },
     samples: [
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page worksheet for Etsy printable shop', caption: 'Coloring Page — Etsy Top Category' },
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search printable worksheet for Etsy listing', caption: 'Word Search — High Search Volume' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with image-based math problems', caption: 'Addition — Evergreen Math Category' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet for international Etsy buyers', caption: 'Matching — No-Text Visual Activity' },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page worksheet for Etsy printable shop`, caption: `Coloring Page — Etsy Top Category` },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search printable worksheet for Etsy listing`, caption: `Word Search — High Search Volume` },
+      { src: `/samples/english/addition/Addition Fun 1.webp`, alt: `Addition worksheet with image-based math problems`, caption: `Addition — Evergreen Math Category` },
+      { src: `/samples/english/matching/matching portrait.webp`, alt: `Matching worksheet for international Etsy buyers`, caption: `Matching — No-Text Visual Activity` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `How to Create Coloring Page Worksheets — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — themed educational image', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Cockatiel — themed educational image', caption: 'Cockatiel' },
-    { src: '/image-library/pets/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Ferret — themed educational image', caption: 'Ferret' },
+    { src: '/image-library/pets/cat.webp', alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — themed educational image`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Cockatiel — themed educational image`, caption: 'Cockatiel' },
+    { src: '/image-library/pets/dog.webp', alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Ferret — themed educational image`, caption: 'Ferret' },
   ],
 };
 

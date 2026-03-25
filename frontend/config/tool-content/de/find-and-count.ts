@@ -4,7 +4,7 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'suchen-und-zählen-ersteller',
     secondaryKeywords: [
-      'Suchen-und-Zählen-Ersteller für Verkäufer',
+      `Suchen-und-Zählen-Ersteller für Verkäufer`,
       `Ich-sehe-was-Rätsel online erstellen und verkaufen`,
       `druckbare Suchbild-Aktivitäten kommerziell erstellen`,
       `Suchbild-Generator mit Buchstabenerkennung und automatischem Lösungsschlüssel für KDP`,
@@ -14,7 +14,7 @@ const content: ToolContent = {
       `vier Aufgabentypen Einkreisen Umrahmen Durchstreichen Zählen mischbar`,
       `sprachspezifische Alphabete Umlaute ÄÖÜ Suchbild-Generator`,
     ],
-    titleTag: 'Suchen-und-Zählen-Ersteller | Suchbild-Generator',
+    titleTag: `Suchen-und-Zählen-Ersteller | Suchbild-Generator`,
     metaDescription: `Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi und vier Aufgabentypen erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit.`,
   },
 
@@ -25,10 +25,10 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'Suchbild-Arbeitsblätter erstellen in 8 Schritten',
+    title: `Suchbild-Arbeitsblätter erstellen in 8 Schritten`,
     steps: [
       {
-        title: 'Suchen-und-Zählen-Ersteller öffnen',
+        title: `Suchen-und-Zählen-Ersteller öffnen`,
         description: `Klicken Sie auf „Kostenlos testen", um den Suchbild-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Die App generiert beim Laden automatisch ein vollständiges Suchbild-Arbeitsblatt mit dem Thema Tiere, 4 zufällig ausgewählten Bildern, zufällig zugewiesenen Aufgabentypen und einem 6×6-Raster — eine sofortige Vorschau der Generierungsergebnisse. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich.`,
       },
       {
@@ -44,19 +44,19 @@ const content: ToolContent = {
         description: `Stellen Sie die Rastermaße über Zeilen (5–10) und Spalten (5–10) ein — Standard ist 6×6 (36 Zellen). Ein 5×5-Raster (25 Zellen) erstellt einfachere Arbeitsblätter mit größeren, deutlich sichtbaren Bildern für jüngere Lernende. Ein 10×10-Raster (100 Zellen) erstellt dichte, herausfordernde Suchbild-Szenen für fortgeschrittene Nutzer. Jede Zelle zeigt ein Bild mit einer Maximalgröße von 80px, mit einer 5%igen Größenreduzierung im Buchstabenerkennung-Modus. Rastergröße ist Ihre primäre Schwierigkeitskontrolle — kleinere Raster für Vorschul-Produkte, größere Raster für Grundschule und darüber.`,
       },
       {
-        title: 'Zielbilder auswählen und Aufgabentypen zuweisen',
+        title: `Zielbilder auswählen und Aufgabentypen zuweisen`,
         description: `Im Suchbild-Modus öffnen Sie das Bildbibliothek-Panel und wählen Sie bis zu 4 Zielobjekte aus den 104 thematischen Sammlungen mit über 3.100 Illustrationen. Für jedes ausgewählte Bild weisen Sie einen Aufgabentyp über das Dropdown-Menü zu: Einkreisen (einen Kreis darum zeichnen), Umrahmen (ein Quadrat darum zeichnen), Durchstreichen (das Objekt durchstreichen) oder Zählen (zählen, wie oft es vorkommt). Mischen Sie alle vier Aufgabentypen auf einem Arbeitsblatt für vielfältige kognitive Herausforderungen oder verwenden Sie einen einzelnen Typ für fokussierte Übung. Im Buchstabenerkennung-Modus klicken Sie auf einen Buchstaben aus dem Alphabet-Raster, um Zielbilder und Ablenkungsbilder automatisch zu generieren.`,
       },
       {
-        title: 'Suchbild-Arbeitsblatt generieren',
+        title: `Suchbild-Arbeitsblatt generieren`,
         description: `Klicken Sie auf Generieren, um die Suchbild-Szene mit Ihren benutzerdefinierten Einstellungen zu erstellen. Das verteilte Bildraster füllt sich mit Zielobjekten, die zufällig verteilt werden (1–5 Instanzen pro Objekt), zwischen Ablenkungsbildern aus dem Thema. Ein gestalteter Header erscheint oben mit blauem Rahmen (#2196F3), gelbem innerem Akzent und lokalisiertem Titel und Anweisungen in Fredoka- und Quicksand-Schriften. Schalten Sie Name- und Datumsfelder für Shop-Arbeitsblätter um. Klicken Sie erneut auf Generieren, um mit anderen zufälligen Verteilungen neu zu erstellen — gleiche Bilder, gleiche Einstellungen, völlig anderes Suchbild-Layout.`,
       },
       {
-        title: 'Automatisch generierten Lösungsschlüssel prüfen',
+        title: `Automatisch generierten Lösungsschlüssel prüfen`,
         description: `Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierten Markierungen zu sehen. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und überlagert rote visuelle Markierungen: Kreise um Einkreis-Aufgaben-Objekte, Rahmen um Umrahmen-Aufgaben-Objekte, Kreuze über Durchstreich-Aufgaben-Objekte und Anzahl-Anzeigen für Zähl-Aufgaben-Objekte. Wechseln Sie zwischen Arbeitsblatt- und Lösungsschlüssel-Tabs zum Vergleichen. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manuelles Markieren, keine separate Dateierstellung, keine Möglichkeit nicht übereinstimmender Antworten.`,
       },
       {
-        title: 'Alle vier Dateien herunterladen',
+        title: `Alle vier Dateien herunterladen`,
         description: `Aktivieren Sie Graustufen für tintenschonende Versionen, ideal für Shopdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle gerendert mit 300 DPI (6× Multiplikator). Jeder Tab hat sein eigenes Paar Download-Buttons. Alle Exporte sind produktionsfertig für Etsy-Listings, Amazon-KDP-Innenteile und Gumroad-Ressourcen ohne Nachbearbeitung. Wechseln Sie Themen, passen Sie die Rasterdichte an, ändern Sie Aufgabentypen und generieren Sie erneut für schnelle Variantenerstellung über 104 thematische Sammlungen.`,
       },
     ],
@@ -80,23 +80,23 @@ const content: ToolContent = {
       description: `Nutzen Sie die sprachabhängigen Bildbezeichnungen, um Suchbild-Arbeitsblätter in 11 Sprachen aus derselben Bildbibliothek zu erstellen. Dieselben Bilder erzeugen unterschiedliche Beschriftungen beim Sprachwechsel — „Cat" wird zu „Katze" (Deutsch), „Chat" (Französisch), „Gato" (Spanisch), und die Buchstabenerkennung-Anfangsbuchstaben aktualisieren sich entsprechend. Erstellen Sie mehrsprachige Suchbild-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder verwendet, aber vollständig lokalisierte Bezeichnungen und Anweisungen enthält. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen.`,
     },
     {
-      title: 'Shop-Beobachtungs- und Zählaktivitätspakete',
+      title: `Shop-Beobachtungs- und Zählaktivitätspakete`,
       description: `Erstellen Sie unterrichtsfertige Suchbild-Zähl-Arbeitsblätter mit Name-/Datumsfeldern und gedruckten Lösungsschlüsseln für Selbstkontrollstationen. Der Zähl-Aufgabentyp fordert Nutzer auf, alle Instanzen eines Zielobjekts zu finden (1–5 erscheinen zufällig) und die Gesamtzahl aufzuschreiben — visuelle Suche mit Zahlenkompetenz-Übung in einem Arbeitsblatt kombiniert. Erstellen Sie lehrplanbezogene Sets: Bauernhoftier-Zählen für Sachunterricht, Lebensmittelgruppen-Zählen für Ernährungslehre, und saisonale Objekt-Zählaktivitäten für Feiertagseinheiten. Jedes Arbeitsblatt exportiert mit seinem automatisch generierten Lösungsschlüssel und eliminiert Vorbereitungszeit für Verkäufer.`,
     },
     {
-      title: 'Multi-Format-Such- und Find-Pakete',
+      title: `Multi-Format-Such- und Find-Pakete`,
       description: `Kombinieren Sie Suchbild-Arbeitsblätter mit Suchbilder-Rätseln, Wortsuche-Aktivitäten, Kreuzworträtsel-Herausforderungen und Schatzsuche-Arbeitsblättern unter Verwendung koordinierter Themen über mehrere Generatoren. Suchbild-Arbeitsblätter entwickeln visuelles Scannen, Objekterkennung und Zählfähigkeiten. Wortsuche fördert Buchstabenerkennung und Wortschatz. Kreuzworträtsel fordern Rechtschreibung und Definitionswissen. Jedes Format zielt auf eine andere kognitive Fähigkeit ab und behält thematische Konsistenz bei. Multi-Format-Pakete erzielen Premium-Preise, weil Eltern und Verkäufer mehr für umfassende Such-und-Find-Sammlungen zahlen als für Einzelaktivitätspakete.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Thematischer Suchbild-Aktivitäten-Shop auf Etsy',
+      title: `Thematischer Suchbild-Aktivitäten-Shop auf Etsy`,
       description: `Eröffnen Sie einen Etsy-Shop, der auf Suchbild-Aktivitätspakete spezialisiert ist, organisiert nach Thema unter Verwendung der 104 Bildsammlungen. Tier-Suchbilder, Feiertags-Suchbilder, Bauernhof-Suchbilder, Ozean-Suchbilder — jedes Thema wird zu einem separaten Listing mit gemischten Aufgabentypen (Einkreisen, Umrahmen, Durchstreichen, Zählen) und automatisch generierten Lösungsschlüsseln. Vier Aufgabentypen aus jedem Thema vervierfachen Ihre Arbeitsblatt-Vielfalt innerhalb eines einzelnen Pakets. Die zufällige Bildverteilung bedeutet, dass jede Generierung ein einzigartiges Layout erzeugt, sodass der Aufbau von über 20 einzigartigen Arbeitsblättern pro Thema Minuten dauert. Preisgestaltung: einzelne Themenpakete bei 3–5 € für 15–20 Arbeitsblätter mit Lösungsschlüsseln und Premium-Multi-Themen-Pakete bei 7–12 € für progressive Schwierigkeitsgrad-Sammlungen.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon-KDP-Suchbild-Aktivitäts-Arbeitsbuch-Reihe',
+      title: `Amazon-KDP-Suchbild-Aktivitäts-Arbeitsbuch-Reihe`,
       description: `Stellen Sie 50–80 Suchbild-Arbeitsblätter zu thematischen Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Reihe nach Schwierigkeitsgrad und Modus: „Leichte Suchbilder für Anfänger" mit 5×5-Rastern und 2 Zielen, „Suchbild-Zählabenteuer" mit dem Zähl-Aufgabentyp über 7×7-Rastern, „Fortgeschrittene Suchbild-Herausforderungen" mit 10×10-Rastern und allen 4 Aufgabentypen, und „A–Z Buchstabenerkennung" mit dem Buchstabenerkennung-Modus für phonikfokussierte Arbeitsbücher. Fügen Sie Lösungsschlüssel-Seiten am Ende ein mit roten Markierungen. Graustufen-Schalter für tintenschonende Ausgabe. Die sprachabhängigen Bildbezeichnungen bedeuten, dass Sie lokalisierte Ausgaben für den deutschen, französischen und spanischen KDP-Marktplatz veröffentlichen können.`,
       platform: 'Amazon KDP',
     },
@@ -106,12 +106,12 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest-Suchbild-Arbeitsblatt-Traffic-Trichter',
+      title: `Pinterest-Suchbild-Arbeitsblatt-Traffic-Trichter`,
       description: `Suchbild-Arbeitsblätter ergeben visuell ansprechende Pinterest-Pins — bunte verteilte Bildraster mit dem blauumrahmten „Ich sehe was"-Header erzeugen sofort erkennbaren pädagogischen Inhalt, den Eltern und Verkäufer anklicken. Pinnen Sie Beispiel-Arbeitsblätter, die beide Modi zeigen: Suchbild-Modus mit gemischten Aufgabentypen und Buchstabenerkennung-Modus mit Alphabet-Rastern. Erstellen Sie separate Pin-Serien für „Suchbild-Arbeitsblätter für Kinder", „druckbare Suchen-und-Zählen-Aktivitäten" und „Buchstabenerkennung-Alphabet-Arbeitsblätter". Die Lösungsschlüssel-Vorschaubilder mit roten Markierungen demonstrieren professionelle Qualität. Verlinken Sie jeden Pin zu Ihren Etsy- oder Gumroad-Produktlistings für direkte Konversion.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad-Komplett-Suchbild-Aktivitäts-Toolkit',
+      title: `Gumroad-Komplett-Suchbild-Aktivitäts-Toolkit`,
       description: `Bündeln Sie Suchbild-Arbeitsblätter über alle 104 Themen, beide Aktivitätsmodi und alle vier Aufgabentypen in ein umfassendes Toolkit auf Gumroad. Enthält über 300 Arbeitsblätter über den Suchbild-Modus mit jeder Aufgabentyp-Kombination und den Buchstabenerkennung-Modus mit vollständiger A–Z-Abdeckung in mehreren Sprachen. Jedes Arbeitsblatt enthält seinen automatisch generierten Lösungsschlüssel mit roten Markierungen, was Ihre Dateianzahl auf über 600 Gesamtdateien verdoppelt. Die sprachabhängigen Bildbezeichnungen, sprachspezifischen Alphabete und Dual-Aktivitätsmodi erzeugen mehr Vielfalt als jeder Wettbewerber, der ein einzelnes Suchbild-Format anbietet. Das Toolkit-Format rechtfertigt Premium-Preise.`,
       platform: 'Gumroad',
     },
@@ -144,7 +144,7 @@ const content: ToolContent = {
       description: `Der automatisch generierte Lösungsschlüssel mit roten Kreis-, Rahmen-, Kreuz- und Zähl-Markierungen ist Ihr stärkstes Verkaufs-Differenzierungsmerkmal. Zeigen Sie Lösungsschlüssel-Vorschaubilder immer in Ihren Marktplatz-Listings — präsentieren Sie die roten Markierungen deutlich in Produktfotos. Produkte mit Lösungsschlüsseln verkaufen sich konstant besser als reine Rätsel-Listings, weil Verkäufer und Shop-Betreiber Selbstkontroll-Materialien wollen, die wahrgenommenen Mehrwert sparen. Das Dual-Canvas-System generiert beide Versionen gleichzeitig, sodass das Einfügen des Lösungsschlüssels Sie keine zusätzliche Produktionszeit kostet.`,
     },
     {
-      title: 'Zähl-Aufgabentyp für mathe-nahe Produkte nutzen',
+      title: `Zähl-Aufgabentyp für mathe-nahe Produkte nutzen`,
       description: `Der Zähl-Aufgabentyp verwandelt das Suchbild von einer visuellen Suchaktivität in eine Zähl- und Beobachtungsübung. Nutzer suchen alle Instanzen eines Zielobjekts (1–5 erscheinen zufällig) und schreiben die Gesamtzahl auf. Dies positioniert Ihre Suchbild-Arbeitsblätter in den Kategorien „visuelle Suche" und „Zählen/Zahlenkompetenz" auf Marktplätzen. Erstellen Sie dedizierte Zähl-Suchbild-Pakete, bei denen jedes Zielobjekt den Zähl-Aufgabentyp verwendet — Käufer, die nach „Zähl-Arbeitsblätter" und „Suchbild-Arbeitsblätter" suchen, finden beide Ihr Produkt.`,
     },
     {
@@ -155,7 +155,7 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer: `Ja. Das Tool bietet eine kostenlose Testversion mit allen freigeschalteten Funktionen — beide Aktivitätsmodi (Suchbild-Modus und Buchstabenerkennung), alle vier Aufgabentypen (Einkreisen, Umrahmen, Durchstreichen, Zählen), sprachspezifische Alphabete mit Sonderbuchstaben, konfigurierbare Rasterdichte (5×5 bis 10×10), der automatisch generierte Lösungsschlüssel mit roten Markierungen, lokalisierte Bildbezeichnungen in 11 Sprachen, alle 104 thematischen Bildsammlungen mit über 3.100 Illustrationen, eigene Bild-Uploads, Hintergrund- und Rahmenthemen mit unabhängiger Deckkraft, Name-/Datumsfelder, Graustufen-Schalter und alle Download-Formate. Keine Anmeldung, keine Kreditkarte erforderlich. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Verkaufsrechte freizuschalten.`,
     },
     {
@@ -199,19 +199,19 @@ const content: ToolContent = {
       answer: `Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Suchbild-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Suchbild-Arbeitsbücher auf Amazon KDP, Shop-Ressourcen auf Gumroad oder über jeden anderen Verkaufskanal zu verkaufen. Die zwei Aktivitätsmodi, vier Aufgabentypen, Buchstabenerkennung mit sprachspezifischen Alphabeten, lokalisierte Bildbezeichnungen in 11 Sprachen, konfigurierbare Rasterdichte, automatisch generierte Lösungsschlüssel mit roten Markierungen, eigene Bild-Uploads und 104 thematische Bildsammlungen geben Ihnen alles, was Sie brauchen, um professionelle Suchbild-Produkte zu erstellen, die in Suchen-und-Zählen-Kategorien auf jedem großen Marktplatz konkurrieren.`,
     },
     {
-      question: 'Wie lautet Ihre Rückerstattungsrichtlinie?',
+      question: `Wie lautet Ihre Rückerstattungsrichtlinie?`,
       answer: `Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vor dem Kauf vollständig bewerten können. Da die kostenlose Testversion Ihnen vollständigen Zugang zu beiden Aktivitätsmodi, allen vier Aufgabentypen, Buchstabenerkennung mit sprachspezifischen Alphabeten, konfigurierbarer Rasterdichte, dem automatisch generierten Lösungsschlüssel mit roten Markierungen, lokalisierten Bildbezeichnungen in 11 Sprachen, allen 104 Themen, eigenen Bild-Uploads, Hintergrund- und Rahmenthemen, Name-/Datumsfeldern, Graustufen-Export und jedem Download-Format gewährt, bieten wir keine Rückerstattungen auf Lizenzkauf an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'suchen-und-zaehlen-arbeitsblaetter', anchorText: `Suchbild- und Suchen-und-Zählen-Aktivitäten — Vollständige Produktdetails` },
+    { pageType: 'app', slug: `suchen-und-zaehlen-arbeitsblaetter`, anchorText: `Suchbild- und Suchen-und-Zählen-Aktivitäten — Vollständige Produktdetails` },
     { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Ersteller' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Ersteller' },
+    { pageType: 'tool', slug: `bilderkreuzwortraetsel-ersteller`, anchorText: `Bilderkreuzworträtsel-Ersteller` },
     { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Ersteller' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
-    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Labyrinth-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: `Bilderpfad-Labyrinth-Ersteller` },
+    { pageType: 'tool', slug: `zuordnungs-arbeitsblatt-ersteller`, anchorText: `Zuordnungs-Arbeitsblatt-Ersteller` },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller' },
   ],
 

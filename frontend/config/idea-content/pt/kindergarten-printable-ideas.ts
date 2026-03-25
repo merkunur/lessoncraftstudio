@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias Imprimíveis Jardim de Infância — Guia de Nicho`,
     metaDescription: `Ideias de imprimíveis de jardim de infância para vender no Etsy, Amazon KDP e Gumroad. Produtos nível pré-primária e estratégias de nicho para vendedores.`,
 
-    primaryKeyword: 'ideias imprimíveis jardim de infância',
+    primaryKeyword: `ideias imprimíveis jardim de infância`,
     secondaryKeywords: [
-      'fichas jardim de infância para vender',
-      'negócio imprimíveis nível pré-primária',
+      `fichas jardim de infância para vender`,
+      `negócio imprimíveis nível pré-primária`,
       `fichas atividades jardim de infância para vendedores`,
-      'vender imprimíveis jardim de infância no Gumroad',
+      `vender imprimíveis jardim de infância no Gumroad`,
     ],
     lsiKeywords: [
       `fichas educativas pré-escolar e jardim de infância`,
-      'imprimíveis aprendizagem primeira infância',
-      'páginas atividades loja idades 5-6',
+      `imprimíveis aprendizagem primeira infância`,
+      `páginas atividades loja idades 5-6`,
     ],
   },
   hero: {
@@ -92,7 +92,7 @@ O segmento de compradores do jardim de infância também inclui uma proporção 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Jardim de Infância no Etsy',
+      title: `Vender Imprimíveis de Jardim de Infância no Etsy`,
       description: `O Etsy capta o enorme segmento de compradores pais que procuram materiais de prática em casa de jardim de infância com termos como «fichas jardim de infância», «atividades preparação pré-primária», «fichas prática palavras de uso frequente» e «fichas matemática jardim de infância» durante cada mês do ano letivo e para além dele. Utiliza as treze etiquetas com variações que combinem objetivos de competências específicas, identificadores de nível escolar e formatos de atividade: «fichas soma até 10 jardim de infância», «prática palavras de uso frequente pré-primária imprimível» e «atividades leitura K-1» apontam a compradores motivados muito mais eficazmente do que etiquetas genéricas de imprimíveis educativos. Agrupa produtos por disciplina académica para aumentar o valor médio da encomenda: um pacote de matemática de jardim de infância que cubra contagem, soma e padrões, um pacote de leitura com palavras de uso frequente, sopas de letras e atividades de palavras CVC, e um pacote de preparação para a escrita com formação de letras e atividades de desenho servem cada um necessidades distintas dos pais enquanto encorajam múltiplas compras. A época de regresso às aulas em agosto e setembro cria o maior pico de procura, mas a procura durante todo o ano de pais que complementam a instrução da loja e famílias que praticam ensino doméstico a construir programas completos de jardim de infância mantém fortes vendas de base todos os meses.`,
     },
     {
@@ -146,18 +146,18 @@ O segmento de compradores do jardim de infância também inclui uma proporção 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -171,7 +171,7 @@ O segmento de compradores do jardim de infância também inclui uma proporção 
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -181,18 +181,18 @@ O segmento de compradores do jardim de infância também inclui uma proporção 
     },
     {
       pageType: 'idea',
-      slug: 'pre-escolar-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis Pré-Escolares',
+      slug: `pre-escolar-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis Pré-Escolares`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: 'Avião — imagem educativa temática', caption: 'Avião' },
-    { src: '/image-library/toys/baby.webp', alt: 'Bebé — imagem educativa temática', caption: 'Bebé' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: 'Bebé Menina — imagem educativa temática', caption: 'Bebé Menina' },
-    { src: '/image-library/toys/ball.webp', alt: 'Bola — imagem educativa temática', caption: 'Bola' },
-    { src: '/image-library/toys/balloon.webp', alt: 'Balão — imagem educativa temática', caption: 'Balão' },
-    { src: '/image-library/toys/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Avião — imagem educativa temática`, caption: 'Avião' },
+    { src: '/image-library/toys/baby.webp', alt: `Bebé — imagem educativa temática`, caption: 'Bebé' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Bebé Menina — imagem educativa temática`, caption: 'Bebé Menina' },
+    { src: '/image-library/toys/ball.webp', alt: `Bola — imagem educativa temática`, caption: 'Bola' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Balão — imagem educativa temática`, caption: 'Balão' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
   ],
 
 

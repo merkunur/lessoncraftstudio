@@ -5,24 +5,24 @@ const content: GuideContent = {
     primaryKeyword: 'create maze worksheets',
     secondaryKeywords: [
       'maze worksheet generator',
-      'printable maze activity sheets',
+      `printable maze activity sheets`,
       'maze puzzles for kids to sell',
-      'custom maze worksheets with answer keys',
+      `custom maze worksheets with answer keys`,
     ],
     lsiKeywords: [
       'picture pathway worksheets',
-      'spatial reasoning activities for kids',
-      'printable puzzle worksheets Etsy',
-      'Amazon KDP maze activity books',
-      'maze worksheets with themed images',
-      'commercial license maze generator',
+      `spatial reasoning activities for kids`,
+      `printable puzzle worksheets Etsy`,
+      `Amazon KDP maze activity books`,
+      `maze worksheets with themed images`,
+      `commercial license maze generator`,
     ],
     titleTag: `How to Create Maze Worksheets — Step-by-Step Guide`,
     metaDescription: `How to create maze worksheets with 3 game modes, themed images, and answer keys. Generate printable maze activity sheets to sell on Etsy and Amazon KDP.`,
   },
 
   hero: {
-    title: 'How to Create Maze Worksheets and Activity Sheets',
+    title: `How to Create Maze Worksheets and Activity Sheets`,
     tagline: `A step-by-step tutorial for creating themed maze worksheets across three distinct game modes — ready to sell on Etsy, Amazon KDP, and Gumroad`,
     description: `Mazes are one of the most universally appealing puzzle formats for children. They build spatial reasoning, problem-solving skills, and patience — and they sell consistently across every printable marketplace. This guide walks you through the entire creation process using the Picture Path Maze Generator, which offers three fundamentally different game modes: Picture Pathway for visual path-following, Classic Maze for wall-based navigation with collectible counting, and Choose the Right Path for directional decision-making. Each mode produces a distinct product type from a single tool. You will learn how to configure grid sizes, assign themed image roles, customize wall appearance, and export print-ready PDFs with automatic answer keys. Whether you are building your first maze product or expanding a puzzle worksheet catalog, this tutorial covers every setting and strategy you need.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Grid size is the primary difficulty control for all three maze modes. The generator offers six grid sizes: 15x15, 16x16, 17x17, 18x18, 19x19, and 20x20. Larger grids produce more complex mazes with longer paths and more dead-ends.\n\nFor younger children (ages 3–5), start with 15x15 or 16x16. These grids create mazes that are challenging enough to be engaging without being frustrating. The paths are shorter and the overall structure is easier to visually parse.\n\nFor elementary-age children (ages 6–8), 17x17 through 19x19 grids provide appropriate challenge. The additional cells create more branching points and longer corridors.\n\nFor older children or advanced puzzlers (ages 8+), 20x20 grids produce the most complex mazes. These work well for group challenge activities and gifted solver enrichment.\n\nClassic Maze and Choose the Right Path modes offer additional difficulty controls beyond grid size. Number of Paths sets how many route options appear in the maze: 1, 2, or 3. With 1 path, there is a single correct route. With 2 or 3 paths, additional dead-end paths are generated, increasing the decision-making required. Path Length Min and Max controls (ranging from 4 to 30 cells) let you fine-tune how long the solution path is relative to the grid.\n\nChoose the Right Path mode adds a Direction selector with four orientations: bottom-to-top, top-to-bottom, left-to-right, and right-to-left. Varying direction across worksheets in a bundle creates additional challenge and prevents children from developing a single-direction solving habit.\n\nFor product bundles, include a progression of grid sizes. A "Maze Activity Book" that starts at 15x15 and works up to 20x20 over 30 pages gives buyers a built-in difficulty curve that keeps children engaged across the entire product.`,
     },
     {
-      heading: 'Select a Theme and Assign Image Roles',
+      heading: `Select a Theme and Assign Image Roles`,
       content: `Theme selection transforms generic mazes into visually distinctive products that target specific search keywords on marketplaces. The generator includes a theme library with over 100 themed image sets covering animals, food, vehicles, nature, holidays, occupations, sports, and dozens more categories.\n\nWhat makes image selection in the maze generator more nuanced than other tools is the five distinct image roles:\n\nStart Image marks the maze entry point. Choose an image that clearly signals "beginning" for your theme — a house for a neighborhood theme, a ship for an ocean theme, a rocket on the launch pad for a space theme.\n\nEnd Image marks the maze exit or destination. Pick an image that represents a goal or destination — a treasure chest, a finish flag, a home, or a specific character the child is trying to reach.\n\nPath Images are the collectible items in Classic Maze mode. These images appear along the maze corridors, and children count how many they find. You can assign 1 to 4 unique collectible images, with configurable minimum and maximum copies of each (1–3 minimum, 1–10 maximum). Count labels appear on each collectible. The answer key automatically tallies the correct count per image type.\n\nDistractor Images appear as wrong-answer elements or visual noise. In Picture Pathway mode, these images sit along incorrect paths to test whether children can distinguish the correct route. In Classic Maze mode, they appear in dead-end corridors.\n\nDecoration Images add aesthetic richness without affecting gameplay. They fill empty spaces around the maze, making the worksheet visually appealing and theme-consistent.\n\nTheme selection is a product strategy decision. Each theme creates a different searchable product. "Dinosaur Maze Worksheets" and "Ocean Animal Maze Worksheets" are separate products targeting separate buyer searches. With 100+ themes available under the Full Access license, you can create an extensive catalog from a single generator tool.`,
     },
     {
@@ -59,48 +59,48 @@ const content: GuideContent = {
       content: `After generating the maze, enhance the worksheet with text, backgrounds, and borders to create a polished, professional product.\n\nText Tools let you add custom titles, instructions, or difficulty labels anywhere on the canvas. The generator offers 7 font families, adjustable font size and color, and text outline options. Add a title like "Dinosaur Maze Adventure" or instructions like "Find the path from the rocket to the planet." Position text above or below the maze grid to keep the puzzle area clear.\n\nBackground Themes apply a subtle decorative pattern behind the entire worksheet. The background opacity control lets you adjust how prominent the pattern is — keep it subtle (20–40% opacity) so it adds visual richness without interfering with maze readability.\n\nBorder Themes frame the worksheet with a decorative border. Match the border theme to your maze theme for visual consistency. A space-themed border around a space maze, or a floral border around a garden maze, makes the product look intentionally designed rather than generically generated.\n\nThe locale selector at the top of the generator supports 11 languages, which automatically translates the worksheet header text. This is valuable for creating products for international markets without manual translation work.\n\nCanvas tools provide additional control: layers for ordering elements, alignment helpers for precise positioning, lock/unlock to prevent accidental moves, undo/redo for experimentation, and group/ungroup for managing multiple elements together. These tools let you fine-tune the layout to professional standards.`,
     },
     {
-      heading: 'Generate Answer Key and Export',
+      heading: `Generate Answer Key and Export`,
       content: `Every maze worksheet includes an automatic answer key that shows the correct solution path highlighted from start to finish.\n\nFor Classic Maze mode, the answer key includes an additional feature: collectible image counts. Each unique collectible image appears with its total count along the solution path. This makes the answer key a grading tool for both navigation accuracy and counting accuracy — two skills assessed on a single worksheet.\n\nThe export section provides four download buttons:\n\nWorksheet JPEG: High-resolution image for listing previews, social media marketing, or digital delivery.\n\nWorksheet PDF: Print-ready format that maintains exact layout across all printers and devices. This is the standard deliverable for printable product sales.\n\nAnswer Key JPEG: Image version of the solution for quick reference.\n\nAnswer Key PDF: Print-ready answer key for inclusion in product bundles.\n\nFor marketplace listings, export both formats. Use the JPEG for your listing preview images (buyers want to see exactly what they are purchasing) and deliver the PDF as the actual product file.\n\nImportant: the free trial with watermark produces fully functional exports with a visible watermark overlay. You can evaluate print quality, verify path solutions, and test every setting before purchasing a commercial license. The commercial license removes the watermark, producing clean files ready for sale.\n\nWhen building activity books for Amazon KDP, export each maze as a separate PDF, then compile all pages into a single interior file using your preferred PDF editor. Include the answer key section at the back of the book, with answer keys grouped by page number for easy reference.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Selling Maze Worksheets on Etsy',
+      heading: `Selling Maze Worksheets on Etsy`,
       content: `Maze worksheets perform well on Etsy because they appeal to both educational and entertainment buyers. Parents search for "maze worksheets for kids" and "printable maze activities" as engaging offline activities, while buyers search for "maze puzzles group" and "spatial reasoning worksheets."\n\nTitle optimization: Front-load your primary keyword and include mode, theme, and age group. Strong examples: "Maze Worksheets for Kids Ages 4–7 — Dinosaur Theme — 30 Printable Mazes with Answer Keys" or "Picture Pathway Activity Sheets — Ocean Animals — Preschool Puzzle Worksheets PDF."\n\nTags: Use all 13 Etsy tags. Mix broad and specific: "maze worksheets," "printable mazes for kids," "maze activity book," "spatial reasoning worksheets," "preschool puzzles," "picture maze printable," "maze with answer key," "kids puzzle worksheets," and theme-specific tags.\n\nListing images: Show the maze clearly in your first image — the full worksheet at a slight angle with a pencil nearby for context. Include a second image showing the answer key with the solution path highlighted. Add close-ups of collectible counting (Classic Maze) or directional choices (Choose Path) as additional images. For bundles, show a spread of multiple maze pages to communicate volume.\n\nPricing: Individual maze worksheets (1–3 pages): $1.49–$2.49. Themed mini-bundles (10–15 mazes): $3.99–$6.99. Complete maze activity books (30–50 mazes): $7.99–$14.99. Multi-mode mega bundles: $16.99–$24.99.`,
     },
     {
-      heading: 'Selling Maze Activity Books on Amazon KDP',
-      content: `Amazon KDP is ideal for maze products because mazes naturally compile into activity books. A 50-page maze activity book with progressive difficulty is a strong KDP product that competes well in the children's activity book category.\n\nProduct structure: Start with easier mazes (15x15 grid, Picture Pathway mode) and progress to harder mazes (20x20 grid, Classic Maze with multiple paths). Place all answer keys at the back. Include a simple introduction page explaining each maze type. This difficulty progression adds perceived value and makes the book suitable for extended use.\n\nTitle and subtitle: KDP allows detailed metadata. Example title: "Maze Activity Book for Kids Ages 4–8." Example subtitle: "50 Themed Picture Mazes, Classic Mazes, and Path Puzzles with Answer Keys — Dinosaur, Ocean, and Space Adventures."\n\nKeywords: KDP provides 7 keyword slots. Use phrases buyers search for: "maze book for kids," "printable maze activity book," "picture maze puzzles," "kids puzzle book ages 4–8," "maze worksheets with answers," "spatial reasoning activities children," "no-screen activity book."\n\nInterior formatting: Use 8.5x11 inch trim size for maximum maze area. Ensure walls print clearly at standard book resolution (300 DPI). Test print before publishing — thin walls and low-opacity settings may not reproduce well in paperback format.\n\nPricing: KDP maze activity books (50–80 pages) sell well at $5.99–$8.99. Thicker books (100+ pages) can command $9.99–$12.99. Amazon's print-on-demand model means no inventory risk.`,
+      heading: `Selling Maze Activity Books on Amazon KDP`,
+      content: `Amazon KDP is ideal for maze products because mazes naturally compile into activity books. A 50-page maze activity book with progressive difficulty is a strong KDP product that competes well in the children`s activity book category.\n\nProduct structure: Start with easier mazes (15x15 grid, Picture Pathway mode) and progress to harder mazes (20x20 grid, Classic Maze with multiple paths). Place all answer keys at the back. Include a simple introduction page explaining each maze type. This difficulty progression adds perceived value and makes the book suitable for extended use.\n\nTitle and subtitle: KDP allows detailed metadata. Example title: "Maze Activity Book for Kids Ages 4–8." Example subtitle: "50 Themed Picture Mazes, Classic Mazes, and Path Puzzles with Answer Keys — Dinosaur, Ocean, and Space Adventures."\n\nKeywords: KDP provides 7 keyword slots. Use phrases buyers search for: "maze book for kids," "printable maze activity book," "picture maze puzzles," "kids puzzle book ages 4–8," "maze worksheets with answers," "spatial reasoning activities children," "no-screen activity book."\n\nInterior formatting: Use 8.5x11 inch trim size for maximum maze area. Ensure walls print clearly at standard book resolution (300 DPI). Test print before publishing — thin walls and low-opacity settings may not reproduce well in paperback format.\n\nPricing: KDP maze activity books (50–80 pages) sell well at $5.99–$8.99. Thicker books (100+ pages) can command $9.99–$12.99. Amazon`s print-on-demand model means no inventory risk.`,
     },
     {
-      heading: 'Selling Maze Worksheets on Gumroad',
+      heading: `Selling Maze Worksheets on Gumroad`,
       content: `Gumroad (Gumroad) buyers value maze worksheets as spatial reasoning activities that align with early math and geometry standards. Mazes also serve as group brain breaks — short puzzle activities that give solvers a mental reset between academic lessons.\n\nProduct descriptions on Gumroad should include: grade level range, specific skills practiced (spatial reasoning, counting, directional awareness, problem-solving), number of maze pages, maze modes included, whether answer keys are included, and any alignment to educational standards (spatial reasoning appears in geometry standards across most frameworks).\n\nPreview files: Gumroad allows preview uploads. Include 2–3 sample maze pages showing different modes — one Picture Pathway, one Classic Maze, and one Choose the Right Path. This demonstrates the variety in your product and helps buyers see exactly what they are buying.\n\nGumroad-specific positioning: Frame mazes as "problem-solving centers" or "spatial reasoning stations." Buyers search for activities to fill specific group needs: "early finisher activities," "brain break puzzles," "indoor recess activities," "sub tub fillers," and "morning work." Maze worksheets fit all of these use cases.\n\nBundling on Gumroad: Create themed bundles by season or subject. A "Fall Maze Activity Pack" with harvest, pumpkin, and forest themes, or a "Transportation Maze Bundle" with vehicles, planes, and boats. Buyers purchase bundles to stock their resource libraries for extended periods.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Pricing Maze Worksheet Products',
+      heading: `Pricing Maze Worksheet Products`,
       content: `Maze worksheets command competitive pricing because they are perceived as premium puzzle content — more complex than standard fill-in-the-blank worksheets and more replayable than single-use activities.\n\nSingle maze worksheets with answer key: $1.49–$2.49. These work as entry-point products to attract buyers to your shop. Each worksheet should include one maze and its corresponding answer key.\n\nThemed mini-bundles (8–15 mazes): $3.99–$6.99. Group mazes by theme and include multiple grid sizes for difficulty variety. A "Space Explorer Maze Pack — 12 Mazes with Answer Keys" is a clear, searchable product.\n\nMode-specific bundles (20–30 mazes): $7.99–$12.99. Create bundles focused on a single game mode across multiple themes. "Classic Maze Collection — 25 Wall Mazes with Collectible Counting" targets buyers who want a specific puzzle type.\n\nComplete activity books (40–60+ mazes): $12.99–$24.99. Include all three modes, progressive difficulty, multiple themes, and full answer key sections. Position these as comprehensive resources that last weeks or months.\n\nDo not underprice your maze products. Mazes involve algorithmic complexity that buyers cannot easily replicate with basic online tools. The collectible counting feature, directional variants, and themed imagery add genuine value that justifies mid-range pricing.`,
     },
     {
-      heading: 'Bundling Strategies for Maze Products',
+      heading: `Bundling Strategies for Maze Products`,
       content: `The three game modes in the Picture Path Maze Generator create natural bundling opportunities that other maze tools cannot match.\n\nMode variety bundles: Include all three maze types in a single product. "3-in-1 Maze Activity Pack: Picture Pathways + Classic Mazes + Path Challenges" offers genuine variety that justifies premium pricing. Each mode exercises different cognitive skills, making the bundle more educationally comprehensive.\n\nTheme bundles: Group 10–20 mazes sharing a theme across all modes. "Dinosaur Maze Adventure — Picture Pathways, Classic Mazes, and Path Challenges" creates a themed product with depth.\n\nDifficulty progression bundles: Start with 15x15 grids and simple paths, progressing to 20x20 grids with multiple paths and longer routes. Market these as "leveled maze books" for group differentiation.\n\nCross-product bundles: Pair maze worksheets with other puzzle generators for comprehensive activity collections. Mazes plus word searches plus picture sudoku creates a "Puzzle Activity Super Bundle" that commands $19.99–$29.99.\n\nSeasonal collections: Halloween mazes (spooky themes, orange walls), Christmas mazes (winter themes, red and green walls), Valentine's Day mazes (heart decorations, pink walls). Seasonal products create urgency and tap into predictable demand spikes.\n\nAlways list individual mazes alongside bundles. Individual listings expand your keyword coverage across marketplace search, while bundles drive higher average order value.`,
     },
     {
-      heading: 'Maximizing Product Variety from One Tool',
+      heading: `Maximizing Product Variety from One Tool`,
       content: `The Picture Path Maze Generator offers more product variation potential than almost any other single worksheet tool. Here is how to systematically exploit this variety.\n\nThree modes times six grid sizes gives 18 base configurations before adding themes. With 100+ themes available under Full Access, the mathematical product count is staggering. In practice, focus on the 15–20 most searched themes and create products at 3–4 difficulty levels in each mode.\n\nDirectional variants in Choose the Right Path mode quadruple your output for that mode alone. A bottom-to-top maze and a left-to-right maze using the same theme and grid size are different products that test different spatial skills.\n\nCollectible configuration in Classic Maze mode adds another variation axis. A maze with 2 collectible images at 1–3 copies each creates a different counting challenge than one with 4 collectible images at 2–10 copies each. Vary collectible settings across worksheets within a bundle for built-in variety.\n\nWall appearance variations let you create visually distinct product lines. A "Pastel Maze Collection" with light-colored, thick walls targets a different aesthetic than a "Bold Maze Challenge" with dark, thin walls.\n\nPage size duplication: Create every product in both US Letter and A4 formats. This doubles your international market reach with no additional creative work — just change the page size setting and re-export.\n\nThe key is systematic production. Create a product matrix listing modes, themes, grid sizes, and page formats. Work through the matrix methodically, and you will build a large catalog efficiently.`,
     },
   ],
 
   examples: [
     {
-      heading: 'Preschool and Kindergarten Maze Products',
+      heading: `Preschool and Kindergarten Maze Products`,
       content: `Younger children need simpler mazes with larger visual elements and clear directional cues. Here are product configurations optimized for ages 3–6.\n\nPicture Pathway — Animals (Ages 3–5): Use 15x15 grid, farm animal theme. Assign a barn as the Start Image and a farmer as the End Image. Add animal Decoration images to fill space. Create 10 mazes per theme with simple, short paths. Bundle as "Farm Animal Maze Fun for the preschool-age market — 10 Picture Pathway Worksheets."\n\nPicture Pathway — Vehicles (Ages 4–6): Use 16x16 grid, vehicle theme. Start Image: garage. End Image: gas station. Distractor Images: traffic signs. Create a "Vehicle Adventure Maze Pack" with 12 mazes across cars, trucks, and planes sub-themes.\n\nClassic Maze — Easy (Ages 5–6): Use 15x15 grid with 1 path, path length 4–8. Assign 2 collectible images with 1–2 copies each. Wall thickness at 5–7px for clear visibility. Green walls on white background. This creates simple counting-plus-navigation activities perfect for kindergarten.\n\nChoose the Right Path — Introduction (Ages 5–6): Use 15x15 grid with 2 paths, bottom-to-top direction. Keep the maze simple with a clear correct choice. Theme with animals or food for maximum appeal. Bundle 8–10 worksheets as "Which Way? Path Puzzles for Kids."\n\nFor all preschool/kindergarten products, include large name fields, use thick walls, and keep grid sizes at 15x15 or 16x16. Simplicity and visual clarity are essential at these ages.`,
     },
     {
-      heading: 'Elementary and Advanced Maze Products',
+      heading: `Elementary and Advanced Maze Products`,
       content: `Older children and advanced puzzlers need denser mazes with more challenge and deeper cognitive engagement. Here are configurations for ages 6–10+.\n\nClassic Maze — Intermediate (Ages 6–8): Use 17x17 or 18x18 grid with 2 paths, path length 10–20. Assign 3 collectible images with 2–5 copies each. Wall thickness at 3–4px. Create themed bundles: "Ocean Explorer Maze Book — 20 Classic Mazes with Collectible Counting." The counting mechanic adds math practice to the navigation challenge.\n\nClassic Maze — Advanced (Ages 8+): Use 19x19 or 20x20 grid with 3 paths, path length 15–30. Assign 4 collectible images with 3–10 copies each. Thin walls (2–3px) at full opacity create dense, challenging corridor networks. Market as "Expert Maze Challenge — Advanced Puzzle Worksheets."\n\nChoose the Right Path — Multi-Direction Set (Ages 7–9): Create a bundle where each worksheet uses a different direction (bottom-to-top, top-to-bottom, left-to-right, right-to-left). Use 18x18 grid with 3 paths. Theme with adventure imagery (space, pirates, treasure). "Directional Maze Challenge — 4 Orientations, 20 Puzzles" differentiates your product from standard mazes.\n\nMulti-Mode Activity Books (Ages 5–9): Combine all three modes into a single book. Start with 10 Picture Pathway mazes (easiest), progress to 15 Classic Mazes (intermediate), and finish with 10 Choose the Right Path challenges (hardest). Include answer keys at the back. This structure creates a premium product that serves a wide age range and justifies higher pricing at $12.99–$19.99.\n\nFor group products, create sets of 25–30 identical-difficulty mazes in a single mode so buyers can distribute one per solver. Same theme, same grid size, but unique maze layouts thanks to the algorithmic generation.`,
     },
   ],
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `The generator offers six grid sizes: 15x15, 16x16, 17x17, 18x18, 19x19, and 20x20. Larger grids create more complex mazes. For Classic Maze and Choose the Right Path modes, you can also configure the number of paths (1, 2, or 3) and path length (4–30 cells). Direction can be set to four orientations in Choose the Right Path mode. These controls let you create mazes for any age group from preschool to advanced.`,
     },
     {
-      question: 'Can I customize the wall appearance in the mazes?',
+      question: `Can I customize the wall appearance in the mazes?`,
       answer: `Yes. Classic Maze and Choose the Right Path modes provide wall color (any color via color picker), wall thickness (1–10 pixels), and wall opacity (10–100%) controls. This lets you create themed wall styles: green for jungle mazes, blue for ocean mazes, orange for Halloween mazes. Wall customization helps your products stand out visually on marketplace listings.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'create-picture-sudoku',
-      title: 'Create Picture Sudoku Worksheets',
+      title: `Create Picture Sudoku Worksheets`,
       description: `Another puzzle-format product that pairs perfectly with mazes. Picture sudoku uses themed images in logic grid puzzles for a different cognitive challenge.`,
     },
     {
@@ -155,14 +155,14 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Generator — Full Details' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator — Full Details' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Try the Picture Path Maze Maker' },
+    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: `Picture Path Maze Generator — Full Details` },
+    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: `Picture Sudoku Generator — Full Details` },
+    { pageType: 'tool', slug: 'picture-path-maker', anchorText: `Try the Picture Path Maze Maker` },
   ],
 
   toolsRecommended: [
@@ -178,32 +178,32 @@ const content: GuideContent = {
     },
     {
       appId: 'treasure-hunt',
-      title: 'Treasure Hunt Worksheet Generator',
+      title: `Treasure Hunt Worksheet Generator`,
       description: `Grid-based path-finding activities with math operations. Combines navigation skills with arithmetic practice for a unique cross-category product.`,
     },
     {
       appId: 'find-objects',
-      title: 'Find Objects Worksheet Generator',
+      title: `Find Objects Worksheet Generator`,
       description: `Hidden object scene activities that develop visual search skills. Pairs with mazes for observation-focused activity bundles targeting the same spatial awareness audience.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/picture path/Picture Pathway.webp`, alt: 'Maze worksheet showing a themed picture path activity with start and end images for kids' },
+    heroImage: { src: `/samples/english/picture path/Picture Pathway.webp`, alt: `Maze worksheet showing a themed picture path activity with start and end images for kids` },
     samples: [
-      { src: `/samples/english/picture path/Picture Pathway.webp`, alt: 'Picture pathway maze worksheet with themed images for preschool and kindergarten', caption: 'Picture Pathway mode: children follow a visual path from start image to end image through themed decorations' },
-      { src: `/samples/english/picture path/Picture Pathway.webp`, alt: 'Classic maze worksheet with collectible counting and answer key', caption: 'Classic Maze mode with collectible images and automatic answer key showing solution path and counts' },
+      { src: `/samples/english/picture path/Picture Pathway.webp`, alt: `Picture pathway maze worksheet with themed images for preschool and kindergarten`, caption: `Picture Pathway mode: children follow a visual path from start image to end image through themed decorations` },
+      { src: `/samples/english/picture path/Picture Pathway.webp`, alt: `Classic maze worksheet with collectible counting and answer key`, caption: `Classic Maze mode with collectible images and automatic answer key showing solution path and counts` },
     ],
     youtubeId: 'Sl1o0uPBDCg',
-    videoTitle: 'How to Create Maze Worksheets — Complete Tutorial',
+    videoTitle: `How to Create Maze Worksheets — Complete Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
   ],
 };
 

@@ -5,16 +5,16 @@ const content: IdeaContent = {
     primaryKeyword: 'zweite-klasse-druckvorlagen',
     secondaryKeywords: [
       `K-2-Produktmarkt-Arbeitsblätter auf Etsy erstellen`,
-      'Grundschul-Druckvorlagen zweite Klasse KDP',
-      'Zweite-Klasse-Aktivitätsblätter auf Gumroad',
-      'Altersstufe-zwei-Lernmaterialien für Shops',
+      `Grundschul-Druckvorlagen zweite Klasse KDP`,
+      `Zweite-Klasse-Aktivitätsblätter auf Gumroad`,
+      `Altersstufe-zwei-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'Grundschul-Altersstufe Druckvorlagen-Nische',
-      'altersgerechte Lernmaterialien zweite Klasse',
-      'K-2-Produktmarkt-Arbeitsblätter Etsy-Markt',
+      `Grundschul-Altersstufe Druckvorlagen-Nische`,
+      `altersgerechte Lernmaterialien zweite Klasse`,
+      `K-2-Produktmarkt-Arbeitsblätter Etsy-Markt`,
     ],
-    titleTag: 'Zweite-Klasse-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Zweite-Klasse-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Zweite-Klasse-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und.`,
   },
   hero: {
@@ -36,7 +36,7 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
       appId: 'addition',
     },
     {
-      title: 'Zweite-Klasse-Wortsuchrätsel zum Online-Verkauf',
+      title: `Zweite-Klasse-Wortsuchrätsel zum Online-Verkauf`,
       description: `Wortsuchrätsel für Zweitklassleser sprechen Käufer und Eltern an, die ansprechende Lese-Aktivitäten suchen, die den erweiterten Wortschatz, fortgeschrittene Rechtschreibmuster und fachspezifische Terminologie festigen, denen K-2-Produktmarkt in ihrem zunehmend komplexen akademischen Produktkatalog begegnen. Erstellen Sie Rätsel mit Vokabeln aus Zweite-Klasse-Leseeinheiten einschließlich Wörtern mit Vorsilben wie un-, ver-, vor- und ent- sowie Nachsilben wie -lich, -los, -voll und -ung, Rechtschreibwörtern geordnet nach Lautmustern und Wortfamilien, sowie fachspezifischem Vokabular aus Sachkunde- und Gesellschaftskunde-Einheiten zu Lebensräumen, Gemeinschaften, Wettersystemen und historischen Themen. Der Wortsuche-Generator ermöglicht es Ihnen, altersgerechte Gitter mit fünfzehn bis zwanzig Wörtern in Größen zu erstellen, die für selbstsichere Zweitklassleser geeignet sind, die Buchstaben über mehrere Richtungen hinweg verfolgen und dabei visuelle Scanning- und Worterkennungsfähigkeiten aufbauen können, die die Leseflüssigkeitsentwicklung unterstützen.`,
       appId: 'wordsearch',
     },
@@ -51,7 +51,7 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
       appId: 'coloring',
     },
     {
-      title: 'Zweite-Klasse-Bingokarten für Gruppenaktivitäten',
+      title: `Zweite-Klasse-Bingokarten für Gruppenaktivitäten`,
       description: `Bingokarten rund um Zweite-Klasse-Lernkonzepte dienen Käufern bei Lese-Aktivitätsstationen, Mathe-Stationen und Ganzklass-Wiederholungseinheiten mit interaktiver Einbindung, die Lernen durch spielbasierte Übungsformate festigt und Sieben- und Achtjährige während Aktivitätsrotationen und Leistungsüberprüfungsphasen motiviert hält. Der Bingo-Generator erstellt einzigartige Kartenvariationen ohne Duplikate für Gruppensitzungen mit fünfundzwanzig oder mehr Nutzern. Erstellen Sie gezielte akademische Sets einschließlich Mathe-Fakten-Bingo mit zweistelliger Addition und Subtraktion mit Zehnerüberschreitung, Vokabel-Bingo mit Definitionen, die Verständnis von Vorsilben und Nachsilben erfordern, Uhrzeit-Bingo mit Zifferblättern in Fünf-Minuten-Intervallen und geschriebenen Zeiten, sowie Geld-Zähl-Bingo, bei dem Nutzer Münz- und Scheinkombinationen Euro- und Cent-Beträgen zuordnen. Bingo-Produkte erzielen Premium-Preise, weil das einsatzfertige interaktive Format Käufern erhebliche Vorbereitungszeit spart und gleichzeitig mehrere Lernmodalitäten anspricht.`,
       appId: 'bingo',
     },
@@ -85,7 +85,7 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Zweite-Klasse-Druckvorlagen auf Etsy verkaufen',
+      title: `Zweite-Klasse-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy erfasst das große und zunehmend motivierte Eltern-Käufersegment, das nach Zweite-Klasse-Übungsmaterialien mit kaufabsichtsstarken Suchbegriffen wie „Zweite-Klasse-Mathe-Arbeitsblätter", „Leseverständnis 2. Klasse", „Klasse 2 Übungsblätter" und „Zweite-Klasse-Hausaufgabenhilfe" über das gesamte Schuljahr hinweg sucht. Nutzen Sie alle dreizehn Tags mit Variationen, die spezifische Kompetenzziele, Gruppenbezeichnungen und Aktivitätsformate kombinieren, um motivierte Käufer zu erreichen, die präzise suchen, weil Zweite-Klasse-Zeugnisse spezifische Kompetenzlücken identifizieren, die sie beheben möchten. Bündeln Sie Produkte nach Kompetenzstufenfolgen, um den durchschnittlichen Bestellwert zu steigern: ein Zehnerüberschreitungs-Meisterpaket für zweistellige Addition und Subtraktion mit und ohne Zehnerüberschreitung, ein Leseflüssigkeitspaket mit Verständnistexten auf mehreren Textniveaus und ein Grammatik- und Schreibfähigkeiten-Paket bedienen jeweils unterschiedliche Elternbedürfnisse und fördern Mehrfachkäufe. Die Nachfrage steigt besonders stark in Januar und Februar, wenn Eltern Halbjahreszeugnisse mit spezifischen Kompetenzstufenbewertungen erhalten, und eine sekundäre Kaufspitze tritt im März und April auf, wenn Eltern gezielte Wiederholungsmaterialien für die Leistungserhebungen suchen, mit denen K-2-Produktmarkt zunehmend konfrontiert werden.`,
     },
     {
@@ -95,7 +95,7 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
     },
     {
       platform: 'Gumroad',
-      title: 'Zweite-Klasse-Druckprodukte für Gumroad erstellen',
+      title: `Zweite-Klasse-Druckprodukte für Gumroad erstellen`,
       description: `Gumroad ist der wichtigste Marktplatz für Zweite-Klasse-Druckvorlagen-Verkäufer, weil Zweite-Klasse-Käufer zu den ausgabefreudigsten Nutzergruppen der Plattform gehören und umfangreich Ergänzungsmaterialien kaufen — aufgrund der sich verschärfenden Herausforderung dramatisch gestiegener Produktkatalogkomplexität kombiniert mit den breitesten Leistungsspannen in den Grundschuljahren. Zweite-Klasse-Gruppen enthalten typischerweise Nutzer, die über eine Dreijahresspanne von spätem Erste-Klasse-Niveau bis frühem Dritte-Klasse-Niveau in verschiedenen Kompetenzbereichen arbeiten, was Käufer zwingt, gestufte Materialien auf mehreren Schwierigkeitsstufen für jedes Konzept zu kaufen. Druckvorlagen funktionieren am besten, wenn sie als einsatzfertige Lösungen verpackt sind: Morgenarbeit-Pakete mit täglicher gestufter Mathe- und Leseübung, Mathe-Aktivitätsstationen-Rotationen zu Zehnerüberschreitung, Stellenwert, Uhrzeit, Geld und Messen, Lese-Antwortaktivitäten mit Verständnisstrategien für mehrere Textniveaus, wöchentliche Hausaufgabenpakete abgestimmt auf Zweite-Klasse-Produktkatalogverläufe, sowie Materialien zur Vorbereitung auf die in der zweiten Klasse intensiver werdenden Leistungserhebungen. Fügen Sie Bildungsstandard-Zuordnungscodes prominent hinzu, weil Zweite-Klasse-Käufer Produkte nach unterrichtlicher Präzision bewerten, und bieten Sie Lösungsschlüssel und Differenzierungshinweise für unterdurchschnittliche, durchschnittliche und überdurchschnittliche Lerner an.`,
     },
     {
@@ -139,18 +139,18 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'Wie Sie eine Druckvorlagen-Produktlinie erstellen',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `Wie Sie eine Druckvorlagen-Produktlinie erstellen`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Lernmaterial-Druckvorlagen',
+      anchorText: `Etsy-SEO für Lernmaterial-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -159,33 +159,33 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'erste-klasse-druckvorlagen-ideen',
-      anchorText: 'Erste-Klasse-Druckvorlagen — Geschäftsideen',
+      slug: `erste-klasse-druckvorlagen-ideen`,
+      anchorText: `Erste-Klasse-Druckvorlagen — Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — thematisches Lernbild`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Schrank — thematisches Lernbild`, caption: 'Schrank' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Taschenrechner — thematisches Lernbild`, caption: 'Taschenrechner' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — thematisches Lernbild`, caption: 'Kalender' },
   ],
 
 

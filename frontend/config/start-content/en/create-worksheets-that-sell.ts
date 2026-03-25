@@ -2,17 +2,17 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to create worksheets to sell',
+    primaryKeyword: `how to create worksheets to sell`,
     secondaryKeywords: [
-      'create professional worksheets',
-      'make worksheets to sell on Etsy',
-      'worksheet creation for sellers',
-      'printable worksheet design tips',
+      `create professional worksheets`,
+      `make worksheets to sell on Etsy`,
+      `worksheet creation for sellers`,
+      `printable worksheet design tips`,
     ],
     lsiKeywords: [
       'worksheet quality standards',
       'answer key generation',
-      'printable product creation workflow',
+      `printable product creation workflow`,
       'worksheet bundle strategy',
       'themed worksheet images',
       'print-ready PDF worksheets',
@@ -22,7 +22,7 @@ const content: StartContent = {
   },
 
   hero: {
-    title: 'How to Create Professional Worksheets That Sell',
+    title: `How to Create Professional Worksheets That Sell`,
     tagline: `The product-creation playbook that separates worksheets buyers choose from worksheets buyers scroll past`,
     description: `This guide covers every step of creating printable worksheets that meet professional standards and sell consistently. You will learn what makes a worksheet look professional, how to use generators to eliminate design barriers, how to build bundles that maximize revenue, and how to test your products before listing. Whether you sell on Etsy, Amazon KDP, Gumroad, or Gumroad, the quality of your worksheets determines whether buyers click "add to cart" or keep scrolling.`,
   },
@@ -63,7 +63,7 @@ const content: StartContent = {
       content: `Themed images are the single most effective way to tier your worksheets from competitors. Two addition worksheets with identical math problems feel like completely different products when one features dinosaur images and the other features ocean animals.\n\nLessonCraftStudio generators include over 100 themed image sets spanning categories like animals, vehicles, food, nature, seasons, holidays, and more. Each image set contains multiple individual images, giving you variety within a theme and preventing repetitive-looking bundles.\n\nSeasonal themes create predictable revenue opportunities. Back-to-school themes sell in August and September. Halloween images drive October sales. Christmas and winter holiday themes peak in November and December. Valentine's Day, Easter, and summer themes each have their windows. Sellers who prepare seasonal products in advance capture demand that arrives on schedule every year.\n\nNiche themes help you reach specific buyer segments. Dinosaur-themed worksheets appeal to a dedicated audience of parents whose children are in a dinosaur phase. Space-themed products attract science-minded families. Farm and garden themes appeal to rural and homeschool communities. The more specific your theme, the less direct competition you face.\n\nThemed bundles command premium pricing. A generic "10 Addition Worksheets" bundle competes on price alone. A "Dinosaur Addition Adventure — 10 Themed Math Worksheets" bundle competes on uniqueness and emotional appeal. Parents buy the dinosaur bundle because their child loves dinosaurs, not because they compared per-page pricing across fifteen listings.\n\nA practical strategy: create your core worksheet content with 3–5 different themes. This multiplies your product catalog without multiplying your effort. The same 10-page addition bundle becomes 5 different products (animals, dinosaurs, ocean, vehicles, food), each targeting a different search query and a different buyer emotion.`,
     },
     {
-      heading: 'Answer Keys and Buyer-Friendly Features That Sell',
+      heading: `Answer Keys and Buyer-Friendly Features That Sell`,
       content: `Answer keys are not optional. They are a core product feature that directly affects whether buyers and parents purchase your worksheets. A listing that mentions "answer keys included" converts significantly better than one that does not.\n\nAutomatic answer key generation is one of the most valuable features of worksheet generators. Every math problem, every word search solution, every matching pair — the generator produces verified answer keys that match the worksheet exactly. This eliminates the most time-consuming and error-prone step of manual worksheet creation.\n\nBeyond answer keys, several buyer-friendly features increase the perceived value and usability of your worksheets.\n\nInstruction headers tell the user (or parent) exactly what to do. "Solve each addition problem" or "Find and circle all the hidden words" at the top of each page eliminates confusion and makes the worksheet truly ready to use without additional explanation.\n\nDifficulty labels help buyers select appropriate worksheets for different users. Marking pages as "Easy," "Medium," or "Hard" — or specifying the skill level like "Sums to 10" or "Sums to 20" — makes your product more useful in tiered product bundles settings.\n\nName and date lines are a small detail that signals professionalism. Buyers expect them. Parents appreciate them. A simple line at the top for the user's name and the date makes the worksheet feel ready-to-sell.\n\nPage numbers in bundles help buyers and parents navigate larger products. When a parent says "do pages 5 through 8 today," page numbers make that instruction simple.\n\nThese features individually seem minor. Together, they create the impression of a thoughtfully designed, professionally produced educational resource. That impression is what justifies premium pricing and generates the positive reviews that drive future sales.`,
     },
     {
@@ -74,19 +74,19 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Choose Your Worksheet Type and Target Market',
+      step: `Choose Your Worksheet Type and Target Market`,
       description: `Select one worksheet category (math, literacy, coloring, puzzles) and define your target buyer (buyers, homeschool parents, tutoring centers). Research existing products in your chosen niche on Etsy to understand quality expectations.`,
     },
     {
-      step: 'Explore Generators with Free Trials',
+      step: `Explore Generators with Free Trials`,
       description: `Open 2–3 generators relevant to your niche and create sample worksheets using the free trial with watermark. Evaluate layout quality, image sets, difficulty options, and answer key generation before committing to a license.`,
     },
     {
-      step: 'Define Your First Product Concept',
+      step: `Define Your First Product Concept`,
       description: `Write down exactly what you are creating before opening the generator: worksheet type, theme, difficulty level, page count, target age group, and bundle name. A clear concept prevents aimless experimentation.`,
     },
     {
-      step: 'Generate and Review Your First Worksheet',
+      step: `Generate and Review Your First Worksheet`,
       description: `Configure the generator with your chosen settings and create your first page. Review the output for layout quality, image placement, difficulty accuracy, and answer key correctness before generating additional pages.`,
     },
     {
@@ -94,11 +94,11 @@ const content: StartContent = {
       description: `Generate 9 more pages with the same theme and difficulty settings. Each generation produces unique content while maintaining visual consistency. Download both PDF and JPEG formats for all pages.`,
     },
     {
-      step: 'Assemble and Add Bundle Packaging',
+      step: `Assemble and Add Bundle Packaging`,
       description: `Combine individual pages into a single PDF. Add a cover page with the bundle title, age range, contents list, and your shop name. Place answer keys at the end of the bundle.`,
     },
     {
-      step: 'Run the Four-Point Quality Test',
+      step: `Run the Four-Point Quality Test`,
       description: `Print test (check margins and image clarity), solve test (complete every activity and verify answer keys), age-appropriateness review (confirm difficulty matches the label), and listing preview (view your listing as a buyer).`,
     },
     {
@@ -106,11 +106,11 @@ const content: StartContent = {
       description: `Repeat the creation process with different image themes. The same worksheet type with animals, dinosaurs, ocean, vehicles, and food themes gives you 5 unique products from a single workflow.`,
     },
     {
-      step: 'Build a Difficulty Progression Bundle',
+      step: `Build a Difficulty Progression Bundle`,
       description: `Create a second product line with the same theme but varying difficulty: easy, medium, and hard versions. Package them as a "Beginner to Advanced" progression bundle at a higher price point.`,
     },
     {
-      step: 'List and Optimize Your First Products',
+      step: `List and Optimize Your First Products`,
       description: `Create listings on your chosen platform with keyword-rich titles, complete tag usage, clean thumbnail images, and descriptions that clearly state page count, age range, format, and what is included.`,
     },
   ],
@@ -123,7 +123,7 @@ const content: StartContent = {
     },
     {
       appId: 'subtraction-worksheets',
-      title: 'Subtraction Worksheet Generator',
+      title: `Subtraction Worksheet Generator`,
       description: `Pairs naturally with addition for math bundle creation. Same professional layout engine with subtraction-specific problem types, themed images, and difficulty calibration from single-digit basics to multi-digit challenges.`,
     },
     {
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Professional worksheets have consistent margins (0.5 inch minimum), uniform spacing between elements, clean readable fonts sized for the target age group, crisp high-resolution images, accurate answer keys, and a cohesive visual style across all pages in a bundle. Amateur worksheets typically have inconsistent layouts, missing answer keys, low-resolution images, and mismatched styling between pages.`,
     },
     {
-      question: 'Should I sell individual worksheets or bundles?',
+      question: `Should I sell individual worksheets or bundles?`,
       answer: `Both, but bundles generate significantly more revenue. List individual worksheets for marketplace visibility and search ranking, then offer bundles at a per-page discount. A 10-page bundle at $4.99 earns more per transaction than a single page at $1.99, and buyers perceive better value. Most successful sellers earn the majority of their revenue from bundles.`,
     },
     {
@@ -174,7 +174,7 @@ const content: StartContent = {
       answer: `Yes. All generators support 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Visual-only worksheets like coloring, matching, and pattern activities work in any language without modification. Non-English markets are significantly underserved, offering less competition for multilingual sellers.`,
     },
     {
-      question: 'What file formats do the generators produce?',
+      question: `What file formats do the generators produce?`,
       answer: `Each generator produces print-ready PDF and high-resolution JPEG files. PDF is the standard format for printable products on Etsy and Gumroad. JPEG is needed for Amazon KDP interior pages and for creating listing thumbnails and mockups. Both formats are included with every download at 300 DPI print resolution.`,
     },
     {
@@ -185,59 +185,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Guide to Starting a Printable Business`,
       description: `The foundational guide covering niche selection, platform strategy, pricing, and catalog building. Start here if you have not yet launched your printable business.`,
     },
     {
       slug: 'etsy-printable-business',
-      title: 'Etsy Printable Business Masterclass',
+      title: `Etsy Printable Business Masterclass`,
       description: `Platform-specific strategies for Etsy sellers: shop setup, listing SEO, tag optimization, thumbnail best practices, and scaling techniques tailored to the Etsy marketplace.`,
     },
     {
       slug: 'amazon-kdp-activity-books',
-      title: 'Amazon KDP Activity Book Guide',
+      title: `Amazon KDP Activity Book Guide`,
       description: `Format your worksheets for Amazon KDP publication. Covers interior formatting, cover design requirements, keyword research, and category selection for activity books.`,
     },
     {
       slug: 'commercial-license-guide',
-      title: 'Commercial License Guide for Printable Sellers',
+      title: `Commercial License Guide for Printable Sellers`,
       description: `Understand what your commercial license covers, which platforms it applies to, and what rights you receive when selling worksheets created with LessonCraftStudio generators.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: `Commercial License Guide for Printable Sellers` },
     { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: `Addition Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: `Subtraction Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Generator — Full Details` },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: `Try the Addition Worksheet Maker` },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: `Professional addition worksheet created with LessonCraftStudio generator` },
+    heroImage: { src: `/samples/english/addition/Addition Fun 1.webp`, alt: `Professional addition worksheet created with LessonCraftStudio generator` },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: `Addition worksheet with themed image-based math problems`, caption: 'Addition — Image-Based Problems' },
-      { src: `/samples/english/subtraction/Subtraction Fun 1.webp`, alt: 'Subtraction worksheet with visual number problems', caption: 'Subtraction — Visual Math Practice' },
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search puzzle worksheet with themed word list', caption: 'Word Search — Themed Puzzle' },
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page — Themed Illustrations' },
+      { src: `/samples/english/addition/Addition Fun 1.webp`, alt: `Addition worksheet with themed image-based math problems`, caption: `Addition — Image-Based Problems` },
+      { src: `/samples/english/subtraction/Subtraction Fun 1.webp`, alt: `Subtraction worksheet with visual number problems`, caption: `Subtraction — Visual Math Practice` },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search puzzle worksheet with themed word list`, caption: 'Word Search — Themed Puzzle' },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page worksheet with themed illustrations`, caption: `Coloring Page — Themed Illustrations` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `How to Create Addition Worksheets — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Bee — themed educational image`, caption: 'Bee' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Bull — themed educational image`, caption: 'Bull' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Calf — themed educational image`, caption: 'Calf' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Cat 2 — themed educational image`, caption: 'Cat 2' },
   ],
 };
 

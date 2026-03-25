@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'NT2 Printables Verkopen — Nichegids',
+    titleTag: `NT2 Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende NT2 en taalleren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Meertalig printbare producten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'NT2 printable ideeën',
     secondaryKeywords: [
       'NT2 werkbladen verkopen',
-      'taalleren printable business ideeën',
-      'anderstaligen activiteiten verkopers',
-      'NT2 printables verkopen op Gumroad',
+      `taalleren printable business ideeën`,
+      `anderstaligen activiteiten verkopers`,
+      `NT2 printables verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'Nederlands als tweede taal werkbladen',
-      'meertalig educatief printbare producten',
-      'taalonderwijs nieuwkomers printables',
+      `Nederlands als tweede taal werkbladen`,
+      `meertalig educatief printbare producten`,
+      `taalonderwijs nieuwkomers printables`,
     ],
   },
   hero: {
-    title: 'NT2 Printable Businessideeën voor Verkopers',
+    title: `NT2 Printable Businessideeën voor Verkopers`,
     description: `NT2 printables (Nederlands als Tweede Taal) en ESL printables (English as a Second Language) vertegenwoordigen een grote en groeiende wereldwijde markt waar taalverkopers, NT2-verkopers, privétutors, taalscholen, gemeenschapsorganisaties en immigrant- en vluchtelingengezinnen het hele kalenderjaar door woordenschatopbouwwerkbladen, visueel ondersteunde activiteiten, gestaffelde oefenmaterialen en gespreksstartersbronnen kopen. De populaties van taalleerders breiden uit in schooldistricten wereldwijd naarmate migratiepatronen nieuwe gemeenschappen van gebruikers creëren die aanvullend materiaal nodig hebben dat specifiek is ontworpen voor niet-moedertaalsprekers. Het kopersbestand is uniek internationaal omdat NT2- en ESL-kopers uit tientallen landen komen, wat vraag creëert over tijdzones en seizoenen heen die deze niche isoleert van de kalendergedreven kooppatronen die veel educatieve printable-categorieën beperken. Visueel zwaar en vocabulairegericht materiaal brengt sterke prijzen op omdat taalleerders op alle vaardigheidsniveaus beeldondersteunde bronnen, gelabelde activiteiten en begripsteigers nodig hebben. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De NT2/ESL printable-markt vertegenwoordigt een substantiële en groeiende omzetkans omdat populaties van taalleerders snel toenemen terwijl internationale vraag vanuit taalscholen en tutors een wereldwijde kopersdimensie toevoegt die de meeste educatieve printable-niches volledig missen. In Nederland groeit het aantal nieuwkomers en statushouders dat NT2-onderwijs ontvangt gestaag, en basisscholen met schakelproductlijnen en taalproductlijnen zoeken voortdurend naar aanvullend werkbladmateriaal voor anderstalige gebruikers. Volwassen NT2-programma\'s breiden gelijktijdig uit naarmate inburgeringstrajecten, ROC-taalcursussen en gemeenschapsliteracyprogramma\'s groeiende populaties van volwassen taalleerders bedienen die praktische vocabulaire, werkgerelateerd Nederlands en dagelijkse levenstaalvaardigheden nodig hebben. Internationaal bedienen ESL-programma\'s vergelijkbare populaties in het Engels, wat een enorm aanvullend marktsegment creëert voor Engelstalige producten.
@@ -40,27 +40,27 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
 
   productIdeas: [
     {
-      title: 'NT2 Vocabulaire Telwerkbladen voor Verkopers',
+      title: `NT2 Vocabulaire Telwerkbladen voor Verkopers`,
       description: `Telwerkbladen voor taalleerders combineren getalherkenning met vocabulaireonderwijs door elk telobject te labelen met het nieuwe woord in de doeltaal. Gebruik de Zoek en Tel-generator om thematische scènes te maken — keukenvoorwerpen tellen en benoemen, kleding tellen en benoemen, of dieren tellen en benoemen — die gelijktijdig rekenvaardigheden en woordenschat opbouwen. Bied sets aan op meerdere taalniveaus: basis met alleen afbeeldingen en getallen voor absolute beginners, gemiddeld met woordlabels erbij, en gevorderd met zinnen. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'NT2 Woordzoekpuzzels Online Verkopen',
+      title: `NT2 Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers zijn bijzonder effectief voor taalonderwijs omdat ze spellingherkenning en vocabulaireverwerking oefenen in een speelse context die taalleerders motiveert. Maak puzzels met thematische woordenlijsten die aansluiten bij NT2-cursusthema's — dagelijks leven, school, boodschappen, vervoer, weer en beroepen. De Woordzoeker-generator laat je rasters maken met woorden van drie tot acht letters op meerdere moeilijkheidsniveaus. Voeg altijd een woordenbank met bijpassende afbeeldingen toe als visuele ondersteuning voor taalleerders. Variaties per thema en per taalniveau verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
-      title: 'NT2 Koppelactiviteiten voor Educatieve Winkels',
+      title: `NT2 Koppelactiviteiten voor Educatieve Winkels`,
       description: `Koppelwerkbladen zijn een van de meest waardevolle activiteitstypen voor taalonderwijs omdat ze woord-beeldassociaties versterken via een non-verbale activiteit die toegankelijk is voor beginnende taalleerders. Maak sets waarin gebruikers woorden koppelen aan bijpassende afbeeldingen, zinnen verbinden met illustraties, voorwerpen matchen met hun categorie, of vervoegde werkwoorden koppelen aan hun basisvorm. De Koppelen-generator produceert schone lay-outs met grote afbeeldingen die de woordbetekenis duidelijk communiceren. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'NT2 Optelwerkbladen voor Rekenverkopers',
+      title: `NT2 Optelwerkbladen voor Rekenverkopers`,
       description: `Optelwerkbladen voor taalleerders combineren rekenoefening met getalnamen in de doeltaal, waardoor gebruikers tegelijkertijd rekenvaardighedon en taalvaardigheid ontwikkelen. Gebruik de Optellen-generator om werkbladen te maken met visueel ondersteunde sommen waar elk getal ook als woord wordt geschreven — "drie plus twee is vijf" — zodat taalleerders de getalnamen in context leren. Richt je op eenvoudige sommen tot tien voor beginnende taalleerders. Thematische illustraties die dagelijkse voorwerpen tonen ondersteunen de vocabulaireopbouw.`,
       appId: 'addition',
     },
     {
-      title: 'NT2 Kleurplaten voor Etsy en KDP Verkopers',
+      title: `NT2 Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten voor taalleerders onderscheiden zich door woordlabeling bij elke afbeelding, zodat het kleuren tegelijkertijd een vocabulaire-oefening wordt. De Kleuren-generator maakt gedetailleerde contouren van thematische onderwerpen — keukengerei, kledingstukken, voedingsmiddelen, dieren — met elk object gelabeld in de doeltaal. Voor Etsy verkoop je thematische sets van tien tot vijftien gelabelde kleurplaten. Voor KDP compileer je dertig tot vijftig gelabelde kleurplaten in visuele woordenboekactiviteitenboeken die taalverkopers en ouders gebruiken als vocabulaire-opbouwmateriaal.`,
       appId: 'coloring',
     },
@@ -80,7 +80,7 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
       appId: 'pattern-worksheet',
     },
     {
-      title: 'NT2 Letterpuzzelactiviteiten voor Taalverkopers',
+      title: `NT2 Letterpuzzelactiviteiten voor Taalverkopers`,
       description: `Letterpuzzels zijn bijzonder waardevol voor taalonderwijs omdat ze spellingbewustzijn en letterherkenning in de doeltaal oefenen op een speelse manier. Gebruik de Letterpuzzel-generator om puzzels te maken met thematische vocabulaire op progressieve moeilijkheidsniveaus — eenvoudige woorden van drie tot vier letters voor beginners en langere woorden voor gevorderde taalleerders. Voeg altijd afbeeldingen en woordondersteuning toe als extra hulpmiddel voor taalleerders. Letterpuzzelsets combineren met woordzoek- en koppelproducten voor complete vocabulairebundels.`,
       appId: 'word-scramble',
     },
@@ -94,12 +94,12 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'NT2 Printables Verkopen op Etsy',
+      title: `NT2 Printables Verkopen op Etsy`,
       description: `Etsy is effectief voor NT2/ESL printables, vooral voor Engelstalige producten die het enorme internationale ESL-markt bereiken via Etsy.com. Richt je op zoekwoorden in beide talen: "NT2 werkbladen" en "NT2 materiaal" voor de Nederlandse markt, en "ESL worksheets," "ELL vocabulary activities" en "English learner printables" voor de internationale markt. Gebruik alle dertien tags. Vermeldingsafbeeldingen die de visuele ondersteuning en woordlabeling duidelijk tonen presteren bijzonder goed omdat ESL/NT2-kopers direct herkennen dat het materiaal specifiek voor taalleerders is ontworpen. De Nederlandse markt via Etsy.nl biedt kansen door het beperkte Nederlandstalige NT2-werkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'NT2 Activiteitenboeken Publiceren op KDP',
+      title: `NT2 Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is effectief voor NT2/ESL printables, vooral voor visuele woordenboekactiviteitenboeken die taalleerders en hun ouders kopen als dagelijks oefenmateriaal. Compileer gelabelde werkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's georganiseerd per vocabulairethema — voedsel, kleding, school, thuis, vervoer. Gebruik KDP-zoekwoordvelden strategisch: "ESL activity book," "English vocabulary workbook for beginners" voor de internationale markt, en "NT2 oefenboek" en "Nederlands leren werkbladen" voor de Nederlandse markt. Prijs tussen vijf en tien euro. Overweeg ook Amazon.nl en Bol.com — bijzonder relevant voor NT2-materiaal in Nederland.`,
     },
     {
@@ -121,10 +121,10 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
     },
     {
       question: `Moet ik NT2 materiaal in het Nederlands of ESL materiaal in het Engels maken?`,
-      answer: `De strategisch optimale benadering is beide markten te bedienen. Voor de Nederlandse markt maak je NT2-materiaal in het Nederlands dat anderstalige gebruikers helpt Nederlands te leren — met Nederlandse woordlabels, vereenvoudigde Nederlandse instructies en thema's die aansluiten bij het dagelijks leven in Nederland. Voor de internationale markt maak je ESL-materiaal in het Engels dat niet-Engelstalige gebruikers helpt Engels te leren — met Engelse woordlabels en universele thema's. De Nederlandse NT2-markt is kleiner maar heeft minder concurrentie. De internationale ESL-markt is enorm maar competitiever. Onze werkblad-generators ondersteunen beide talen, waardoor je dezelfde productconcepten in twee talen kunt aanbieden met de gratis proefversie met watermerk.`,
+      answer: `De strategisch optimale benadering is beide markten te bedienen. Voor de Nederlandse markt maak je NT2-materiaal in het Nederlands dat anderstalige gebruikers helpt Nederlands te leren — met Nederlandse woordlabels, vereenvoudigde Nederlandse instructies en thema`s die aansluiten bij het dagelijks leven in Nederland. Voor de internationale markt maak je ESL-materiaal in het Engels dat niet-Engelstalige gebruikers helpt Engels te leren — met Engelse woordlabels en universele thema`s. De Nederlandse NT2-markt is kleiner maar heeft minder concurrentie. De internationale ESL-markt is enorm maar competitiever. Onze werkblad-generators ondersteunen beide talen, waardoor je dezelfde productconcepten in twee talen kunt aanbieden met de gratis proefversie met watermerk.`,
     },
     {
-      question: 'Welke taalvaardigheidsniveaus moet ik targeten?',
+      question: `Welke taalvaardigheidsniveaus moet ik targeten?`,
       answer: `De meest winstgevende taalvaardigheidsniveaus om te targeten zijn beginnend en gemiddeld, die samen het grootste volume van de ESL/NT2-markt vertegenwoordigen. Beginnende taalleerders hebben het meest behoefte aan visueel ondersteund vocabulairemateriaal — woordkaarten met afbeeldingen, gelabelde kleurplaten en eenvoudige koppelactiviteiten die woord-beeldassociaties opbouwen. Gemiddelde taalleerders hebben behoefte aan context-rijke oefening — woordzoekers met thematische vocabulaire, letterpuzzels en begrijpend leesactiviteiten op vereenvoudigd taalniveau. Gevorderde taalleerders vormen een kleiner maar koopkrachtiger segment dat complexere grammatica- en compositiemateriaal zoekt.`,
     },
     {
@@ -132,8 +132,8 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de NT2/ESL-niche vanwege de internationale kopersdimensie. Gumroad is het sterkste platform voor ESL-verkopers wereldwijd — het grootste koopsegment voor Engelstalig taalmateriaal. Etsy.com bereikt ouders en tutors internationaal die individuele vocabulaireactiviteiten en woordkaarten zoeken. KDP bedient gezinnen en taalscholen die fysieke vocabulairewerkboeken en activiteitenboeken kopen. Gumroad en Shopify zijn ideaal voor het opbouwen van een eigen taalonderwijs merk. Voor de Nederlandse NT2-markt zijn Etsy.nl en Bol.com de meest relevante platforms.`,
     },
     {
-      question: 'Welke NT2/ESL thema\'s verkopen het beste?',
-      answer: `De bestverkopende vocabulairethema's voor NT2/ESL zijn dagelijks leven (eten, kleding, wonen), school en klas (schoolspullen, klasinstructies, vakken), boodschappen en winkelen (voedingsmiddelen, winkelinrichting, betalen), vervoer (voertuigen, richtingen, openbaar vervoer) en beroepen (beroepsnamen, werkplaatsen, gereedschap). Deze thema\'s sluiten aan bij de primaire communicatiebehoeften van beginnende taalleerders en worden universeel behandeld in NT2- en ESL-programma\'s wereldwijd. Seizoensthema\'s en feestdagenthema's voegen culturele taalverwerving toe die verkopers bijzonder waarderen.`,
+      question: `Welke NT2/ESL thema's verkopen het beste?`,
+      answer: `De bestverkopende vocabulairethema`s voor NT2/ESL zijn dagelijks leven (eten, kleding, wonen), school en klas (schoolspullen, klasinstructies, vakken), boodschappen en winkelen (voedingsmiddelen, winkelinrichting, betalen), vervoer (voertuigen, richtingen, openbaar vervoer) en beroepen (beroepsnamen, werkplaatsen, gereedschap). Deze thema's sluiten aan bij de primaire communicatiebehoeften van beginnende taalleerders en worden universeel behandeld in NT2- en ESL-programma's wereldwijd. Seizoensthema's en feestdagenthema`s voegen culturele taalverwerving toe die verkopers bijzonder waarderen.`,
     },
     {
       question: `Hoe maak ik efficiënt NT2/ESL werkbladen met generator tools?`,
@@ -149,62 +149,62 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-word-search-puzzles',
-      anchorText: 'Professionele woordzoekpuzzels maken',
+      anchorText: `Professionele woordzoekpuzzels maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'special-education-printable-ideas',
-      anchorText: 'speciale producten printable businessideeën',
+      slug: `special-education-printable-ideas`,
+      anchorText: `speciale producten printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Thuisonderwijs printable businessideeën',
+      anchorText: `Thuisonderwijs printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Peuterspeelzaal printable businessideeën',
+      anchorText: `Peuterspeelzaal printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rugzak — educatieve thema-afbeelding NT2', caption: 'Rugzak' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — educatieve thema-afbeelding NT2', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding NT2', caption: 'Boek' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding NT2', caption: 'Kast' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Rekenmachine — educatieve thema-afbeelding NT2', caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding NT2', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding NT2`, caption: 'Rugzak' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — educatieve thema-afbeelding NT2`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: `Boek — educatieve thema-afbeelding NT2`, caption: 'Boek' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Kast — educatieve thema-afbeelding NT2`, caption: 'Kast' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Rekenmachine — educatieve thema-afbeelding NT2`, caption: 'Rekenmachine' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — educatieve thema-afbeelding NT2`, caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

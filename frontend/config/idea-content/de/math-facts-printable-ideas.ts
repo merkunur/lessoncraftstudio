@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'mathe-grundlagen-druckvorlagen',
+    primaryKeyword: `mathe-grundlagen-druckvorlagen`,
     secondaryKeywords: [
       `Rechenflüssigkeit-Arbeitsblätter auf Etsy erstellen`,
-      'Mathe-Übungsblätter auf KDP verkaufen',
-      'Einmaleins-Druckvorlagen auf Gumroad anbieten',
-      'Grundrechenarten-Lernmaterialien für Verkäufer',
+      `Mathe-Übungsblätter auf KDP verkaufen`,
+      `Einmaleins-Druckvorlagen auf Gumroad anbieten`,
+      `Grundrechenarten-Lernmaterialien für Verkäufer`,
     ],
     lsiKeywords: [
-      'immergrüner Mathematik-Markt Druckvorlagen',
-      'Hochvolumen-Bildungsbereich Arbeitsblätter',
-      'Rechenübungen Grundschule Etsy-Nische',
+      `immergrüner Mathematik-Markt Druckvorlagen`,
+      `Hochvolumen-Bildungsbereich Arbeitsblätter`,
+      `Rechenübungen Grundschule Etsy-Nische`,
     ],
-    titleTag: 'Mathe-Grundlagen-Druckvorlagen — Verkäufer-Guide',
+    titleTag: `Mathe-Grundlagen-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Mathe-Grundlagen-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Rechenflüssigkeits-Arbeitsblätter für den immergrünen Hochvolumen-Bildungsmarkt. Verkäufer-Guide.`,
   },
   hero: {
@@ -89,7 +89,7 @@ Wettbewerb existiert in der Mathe-Grundlagen-Nische, aber die Nachfrage ist so k
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Mathe-Grundlagen-Druckvorlagen auf Etsy verkaufen',
+      title: `Mathe-Grundlagen-Druckvorlagen auf Etsy verkaufen`,
       description: `Verkäufer und Eltern suchen auf Etsy mit Begriffen wie „Mathe-Grundlagen-Arbeitsblätter", „Additionsübung", „Multiplikationsübungen", „Zeittests Mathe", „Rechenflüssigkeits-Arbeitsblätter", „Aufgabenfamilien-Aktivitäten" und „Mathe-Hausaufgabenpakete", was eine stetige ganzjährige Nachfrage mit einem moderaten Schuljahresanfangs-Anstieg im August und September erzeugt, wenn Verkäufer ihre Shop-Ressourcenbibliotheken für das kommende Schuljahr bestücken. Nutzen Sie alle dreizehn Tags mit Variationen, die spezifische Rechenarten, Altersstufen, Zahlenbereiche und Aktivitätsformate kombinieren, um die hochspezifischen Suchanfragen zu erfassen, die Mathe-Grundlagen-Käufer verwenden, wenn sie genau wissen, welche Rechenart, Schwierigkeitsstufe und welches Arbeitsblattformat sie für ihren bestimmten Nutzer oder ihr Shop benötigen. Bündeln Sie nach Rechenart und erstellen Sie umfassende Pakete wie „Additions-Grundlagen-Meisterungspaket" und „Multiplikations-Grundlagen-Komplettset", die Käufern dienen, die gründliche Abdeckung einer einzelnen Rechenart suchen, und bündeln Sie auch nach Altersstufe mit Sammlungen wie „K-2-Produktmarkt-Mathe-Grundlagen-Paket", die mehrere Rechenarten auf klassenstufengerechtem Schwierigkeitsniveau umfassen. Die Verbrauchsnatur der Mathe-Grundlagen-Übung bedeutet Stammkunden, die während des gesamten Schuljahres nach frischen Arbeitsblättern zurückkehren, was exzellente Produktqualität und klare Organisation zur Grundlage für den Aufbau eines treuen Kundenstamms macht, der wiederkehrende Einnahmen generiert, wenn dieselben Käufer zusätzliche Materialien kaufen, während ihre Nutzer durch Zahlenbereiche und Rechenarten fortschreiten.`,
     },
     {
@@ -99,7 +99,7 @@ Wettbewerb existiert in der Mathe-Grundlagen-Nische, aber die Nachfrage ist so k
     },
     {
       platform: 'Gumroad',
-      title: 'Mathe-Grundlagen-Ressourcen für Gumroad erstellen',
+      title: `Mathe-Grundlagen-Ressourcen für Gumroad erstellen`,
       description: `Mathe-Produktkäufer sind das größte Käufersegment auf Gumroad, und Rechenflüssigkeits-Ressourcen gehören zu den meistgesuchten Kategorien auf der Plattform, weil jeder Grundschul-Produktkäufer Rechenübungsmaterialien für den täglichen Produkteinsatz während des gesamten Schuljahres benötigt. Kennzeichnen Sie Produkte mit spezifischen Zahlenbereichen wie „Addition bis 10", „Subtraktion bis 20" und „Multiplikation 0-12" für gezielte Suchzuordnung, die Ihre Produkte mit Verkäufern verbindet, die genau die Fertigkeitsstufe und Rechenart suchen, die ihre aktuelle Produkteinheit erfordert. Tägliche Übungspakete und wöchentliche Hausaufgabensets erzeugen Wiederkäufe, weil Verkäufer Materialien während des gesamten Schuljahres verbrauchen und nach frischen Arbeitsblättern zurückkehren, die dieselben Zahlenbereiche in neuen Formaten abdecken, um das Nutzerengagement aufrechtzuerhalten und Übungsmüdigkeit zu vermeiden. Bündeln Sie Rechenflüssigkeits-Ressourcen über Rechenarten hinweg für umfassende Mathe-Übungssets, die Verkäufer ansprechen, die Komplettlösungen für ihr gesamtes Jahr des Rechenflüssigkeits-Programms suchen, anstatt einzelne Arbeitsblätter von verschiedenen Verkäufern zu kaufen. Fügen Sie Antwortschlüssel und Fortschrittsverfolgungsblätter hinzu, die Verkäufer für das Gruppenmanagement und die Elternkommunikation schätzen, da diese praktischen Ergänzungen Ihre Produkte von Wettbewerbern unterscheiden, die Arbeitsblätter ohne die unterstützenden Materialien bereitstellen, die eine nahtlose und effiziente Umsetzung im Shop für vielbeschäftigte Käufer ermöglichen.`,
     },
     {
@@ -143,18 +143,18 @@ Wettbewerb existiert in der Mathe-Grundlagen-Nische, aber die Nachfrage ist so k
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy-SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Wettbewerb existiert in der Mathe-Grundlagen-Nische, aber die Nachfrage ist so k
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'sommerlernen-druckvorlagen-ideen',
-      anchorText: 'Sommerlernen-Druckvorlagen — Geschäftsideen',
+      slug: `sommerlernen-druckvorlagen-ideen`,
+      anchorText: `Sommerlernen-Druckvorlagen — Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
+    { src: `/image-library/shapes/circle.webp`, alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: `/image-library/shapes/cone.webp`, alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Würfel — thematisches Lernbild`, caption: 'Würfel' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Zylinder — thematisches Lernbild`, caption: 'Zylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: `/image-library/shapes/heart.webp`, alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
   ],
 
 

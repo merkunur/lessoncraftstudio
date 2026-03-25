@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vogels Printables Verkopen — Nichegids',
+    titleTag: `Vogels Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende vogel printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, platformstrategieën en nichetips voor verkopers.`,
 
     primaryKeyword: 'vogels printable ideeën',
     secondaryKeywords: [
-      'vogelthema werkbladen verkopen',
-      'vogel printable business ideeën',
-      'vogel activiteiten verkopen online',
-      'vogel werkbladen niche voor verkopers',
+      `vogelthema werkbladen verkopen`,
+      `vogel printable business ideeën`,
+      `vogel activiteiten verkopen online`,
+      `vogel werkbladen niche voor verkopers`,
     ],
     lsiKeywords: [
       'natuur educatieve printables',
       'natuurobservatie werkbladen',
-      'ornithologie activiteiten voor kinderen',
+      `ornithologie activiteiten voor kinderen`,
     ],
   },
   hero: {
-    title: 'Vogels Printable Businessideeën voor Verkopers',
+    title: `Vogels Printable Businessideeën voor Verkopers`,
     description: `Vogels bieden een van de meest visueel diverse en universeel aantrekkelijke thema's op de markt voor educatieve printables. Van uilen en arenden tot papegaaien en pinguïns — de enorme variatie aan vogelsoorten geeft printable-verkopers een enorm creatief canvas voor productgetrapte productpakketten. Kinderen zijn van nature gefascineerd door vogels omdat ze vliegen, zingen en in levendige kleuren voorkomen, waardoor werkbladen met vogelthema inherent boeiend zijn voor jonge gebruikers. Voor verkopers op Etsy, Amazon KDP en Gumroad profiteert de vogelniche van sterke banden met wetenschapsproductcatalogusstandaarden rond habitats, migratie en levenscycli. Seizoensgebonden interessepieken tijdens het lentebroe seizoen en de herfsttrek, terwijl de crossover met vogelspotten volwassen kopers naar de markt brengt naast ouders en verkopers. Deze gids biedt specifieke productideeën, platformstrategieën en prijsbenaderingen om je te helpen een winstgevende productlijn met vogelthema op te bouwen met onze werkblad-generator tools. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De niche van vogel printables neemt een unieke positie in waar educatieve content samenkomt met natuurwaardering, waardoor vraag ontstaat vanuit meerdere koopsegmenten. Ouders zoeken werkbladen met vogelthema om achtertuin-vogelspotactiviteiten, natuurwandelingen en de wetenschappelijke nieuwsgierigheid van hun kinderen te complementeren. verkopers hebben printbare producten nodig voor ornithologielessen, habitatstudies en seizoensgebonden migratielessen die voorkomen in het productcatalogus voor jonge kinderen en de basisschool. Thuisonderwijzers bouwen regelmatig meerwekelijkse vogelstudieunits op die divers printbaar materiaal vereisen over meerdere vaardigheidsgebieden.
@@ -42,28 +42,28 @@ De vogelniche biedt ook sterke opties voor getrapte productpakketten door region
 
   productIdeas: [
     {
-      title: 'Vogel Telwerkbladen voor Printable Verkopers',
+      title: `Vogel Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met uilen, papegaaien, arenden en pinguïns spelen in op de natuurlijke fascinatie van kinderen voor vogels terwijl ze fundamentele rekenvaardigheden opbouwen. Maak sets gericht op verschillende vaardigheidsniveaus: vogels tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met vogelzwermen voor kinderen in groep 3. Gebruik de Zoek en Tel-generator om visueel rijke scènes te produceren waarin kinderen specifieke vogelsoorten lokaliseren en tellen in boom-, lucht- en vijversettings. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid vogel-telpakket voor verkopers die werken met groepen met gemengde vaardigheidsniveaus.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Vogel Woordzoekpuzzels Online Verkopen',
+      title: `Vogel Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met vogelvocabulaire trekken ouders en verkopers aan die taalvaardigheden willen opbouwen rond ornithologie- en natuurthema's. Maak puzzels met veelvoorkomende vogelnamen, habitatvocabulaire, vogellichaamsdelen en migratiterminologie. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen, waardoor het eenvoudig is om leeftijdsgeschikte versies te produceren voor verschillende niveaucategories. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer woorden voor oudere gebruikers. Seizoensvariaties zoals lentebroedvogels, winterachtertuinvogels en tropische vogel-woordzoekers verlengen je productcatalogus gedurende het hele jaar.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Vogel Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met vogelthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor printable-verkopers. Maak sets waarin kinderen vogels koppelen aan hun habitats, vogels aan het voedsel dat ze eten, vogels aan hun eieren, of volwassen vogels aan hun kuikenvormen. De Koppelen-generator produceert schone, professionele lay-outs die goed printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die thematisch leermateriaal waarderen. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer je zowel kleur- als grijstintenversies opneemt.`,
+      title: `Vogel Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met vogelthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor printable-verkopers. Maak sets waarin kinderen vogels koppelen aan hun habitats, vogels aan het voedsel dat ze eten, vogels aan hun eieren, of volwassen vogels aan hun kuikenvormen. De Koppelen-generator produceert schone, professionele lay-outs die goed printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterkopers aan die thematisch leermateriaal waarderen. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer je zowel kleur- als grijstintenversies opneemt.`,
       appId: 'matching',
     },
     {
-      title: 'Vogelthema Optelwerkbladen voor Rekenverkopers',
+      title: `Vogelthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen geïllustreerd met vogelbeelden transformeren routinematige rekenoefeningen in boeiende activiteiten die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen vogels op takken optellen, vogelthema verhaalopgaven oplossen of rekenopgaven met vogelillustraties invullen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen. Rekenwerkbladen met vogelthema brengen een lichte meerprijs op ten opzichte van generieke alternatieven omdat kopers een hogere betrokkenheidswaarde waarnemen wanneer het onderwerp aansluit bij wetenschaps- en natuuronderwerpen die hun gebruikers al verkennen.`,
       appId: 'addition',
     },
     {
-      title: 'Vogel Kleurplaten voor Etsy en KDP Verkopers',
-      description: `Kleurplaten zijn een ideaal instapproduct voor printable-winkels met vogelthema omdat ze eerste beoordelingen genereren en impulsaankopen aantrekken van een breed publiek. De Kleuren-generator maakt gedetailleerde contouren van uilen, papegaaien, arenden, flamingo's, kolibries, toekans en andere visueel opvallende soorten. Voor Etsy verkoop je individuele pagina's of samengestelde sets van tien tot vijftien vogels gegroepeerd per thema zoals tropische vogels of roofvogels. Voor KDP compileer je dertig tot vijftig kleurplaten in activiteitenboeken. Voeg educatieve elementen toe zoals soortnamen, leuke weetjes over elke vogel of habitatlabels naast de kleurafbeeldingen om je te onderscheiden van puur decoratieve opties en een hoger prijspunt te ondersteunen.`,
+      title: `Vogel Kleurplaten voor Etsy en KDP Verkopers`,
+      description: `Kleurplaten zijn een ideaal instapproduct voor printable-winkels met vogelthema omdat ze eerste beoordelingen genereren en impulsaankopen aantrekken van een breed publiek. De Kleuren-generator maakt gedetailleerde contouren van uilen, papegaaien, arenden, flamingo`s, kolibries, toekans en andere visueel opvallende soorten. Voor Etsy verkoop je individuele pagina`s of samengestelde sets van tien tot vijftien vogels gegroepeerd per thema zoals tropische vogels of roofvogels. Voor KDP compileer je dertig tot vijftig kleurplaten in activiteitenboeken. Voeg educatieve elementen toe zoals soortnamen, leuke weetjes over elke vogel of habitatlabels naast de kleurafbeeldingen om je te onderscheiden van puur decoratieve opties en een hoger prijspunt te ondersteunen.`,
       appId: 'coloring',
     },
     {
@@ -73,7 +73,7 @@ De vogelniche biedt ook sterke opties voor getrapte productpakketten door region
     },
     {
       title: `Vogel Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en vogels zijn bijzonder geschikt voor dit activiteitstype omdat hun onderscheidende silhouetten herkenbaar en gevarieerd zijn. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen vogels koppelen aan hun silhouetten. Arenden, flamingo\'s, pinguïns, uilen en toekans hebben elk dramatisch verschillende contouren die boeiende puzzels maken. Varieer de moeilijkheidsgraad door vogels met vergelijkbare vormen op te nemen in gevorderde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en vogels zijn bijzonder geschikt voor dit activiteitstype omdat hun onderscheidende silhouetten herkenbaar en gevarieerd zijn. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen vogels koppelen aan hun silhouetten. Arenden, flamingo's, pinguïns, uilen en toekans hebben elk dramatisch verschillende contouren die boeiende puzzels maken. Varieer de moeilijkheidsgraad door vogels met vergelijkbare vormen op te nemen in gevorderde versies. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor klasverkopers die in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -96,12 +96,12 @@ De vogelniche biedt ook sterke opties voor getrapte productpakketten door region
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vogel Printables Verkopen op Etsy',
+      title: `Vogel Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in vogel printable-vermeldingen. In plaats van brede titels zoals "Vogel Werkbladen" richt je je op long-tail zoekwoorden zoals "uil telwerkbladen kleuters" of "vogel woordzoeker printable kleuterschool." Gebruik alle dertien tags met variaties die vogelsoorten, vaardigheidstype en leeftijdsgroep combineren. Vermeldingsafbeeldingen die geprinte vogelwerkbladen tonen in klas- of natuurthema settings presteren aanzienlijk beter dan platte digitale voorbeelden. Plan nieuwe vermeldingen om samen te vallen met seizoensgebonden vraagpieken van maart tot mei voor lentevogelunits en september tot oktober voor herfstmigratiethema's. Bied zowel individuele vogelwerkbladen als soortthema bundels aan. De Nederlandse markt via Etsy.nl biedt extra kansen door het beperkte Nederlandstalige vogelwerkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Vogel Activiteitenboeken Publiceren op KDP',
+      title: `Vogel Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP werkt het beste voor printables met vogelthema wanneer je individuele werkbladen compileert tot samenhangende activiteitenboeken die variatie en waarde bieden. Een activiteitenboek met vogels van veertig tot zestig pagina's dat tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten combineert, presteert goed in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch: voeg "vogel activiteitenboek voor kinderen," "vogelwerkbladen kleuters" en soortspecifieke termen toe zoals "uil kleurboek" of "pinguïn activiteiten." Prijs tussen vier en zeven euro voor optimale royaltymarges. Overweeg soortgerichte miniboeken te maken naast algemene vogelactiviteitenboeken om kopers vast te leggen die zoeken naar specifieke vogels. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
@@ -135,7 +135,7 @@ De vogelniche biedt ook sterke opties voor getrapte productpakketten door region
     },
     {
       question: `Welke seizoenstrends beïnvloeden de verkoop van vogel printables?`,
-      answer: `Vogel printable-verkopen volgen onderscheidende seizoenspatronen gekoppeld aan natuurgebeurtenissen en schoolkalenders. De lente vertegenwoordigt de sterkste verkoopperiode wanneer vogels terugkeren van migratie, nesten bouwen en kuikens grootbrengen. verkopers plannen lentevogelunits van maart tot mei, en vogelspotevenementen stimuleren de publieke interesse. De herfsttrek in september en oktober creëert een tweede vraagpiek wanneer productlijnen vogelreispatronen en habitats bestuderen. De winter brengt interesse in vogelvoeractiviteiten en identificatie van koudweersoorten. Tropische vogelthema's zoals papegaaien, toekans en flamingo's verkopen het hele jaar door consistent ongeacht het seizoen. Het plannen van je productreleases en marketing rond deze natuurlijke cycli helpt je effectief piekvraagiperioden vast te leggen.`,
+      answer: `Vogel printable-verkopen volgen onderscheidende seizoenspatronen gekoppeld aan natuurgebeurtenissen en schoolkalenders. De lente vertegenwoordigt de sterkste verkoopperiode wanneer vogels terugkeren van migratie, nesten bouwen en kuikens grootbrengen. verkopers plannen lentevogelunits van maart tot mei, en vogelspotevenementen stimuleren de publieke interesse. De herfsttrek in september en oktober creëert een tweede vraagpiek wanneer productlijnen vogelreispatronen en habitats bestuderen. De winter brengt interesse in vogelvoeractiviteiten en identificatie van koudweersoorten. Tropische vogelthema`s zoals papegaaien, toekans en flamingo`s verkopen het hele jaar door consistent ongeacht het seizoen. Het plannen van je productreleases en marketing rond deze natuurlijke cycli helpt je effectief piekvraagiperioden vast te leggen.`,
     },
     {
       question: `Hoe maak ik efficiënt vogelthema werkbladen met generator tools?`,
@@ -151,62 +151,62 @@ De vogelniche biedt ook sterke opties voor getrapte productpakketten door region
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'insects-printable-ideas',
-      anchorText: 'Insecten printable businessideeën',
+      anchorText: `Insecten printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
-      anchorText: 'Bosdieren printable businessideeën',
+      slug: `forest-animals-printable-ideas`,
+      anchorText: `Bosdieren printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Arend — educatieve thema-afbeelding vogels', caption: 'Arend' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — educatieve thema-afbeelding vogels', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: `Neushoornvogel — educatieve thema-afbeelding vogels`, caption: 'Neushoornvogel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — educatieve thema-afbeelding vogels', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Struisvogel — educatieve thema-afbeelding vogels', caption: 'Struisvogel' },
-    { src: '/image-library/birds/owl.webp', alt: 'Uil — educatieve thema-afbeelding vogels', caption: 'Uil' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Arend — educatieve thema-afbeelding vogels`, caption: 'Arend' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — educatieve thema-afbeelding vogels`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Neushoornvogel — educatieve thema-afbeelding vogels`, caption: 'Neushoornvogel' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Ara — educatieve thema-afbeelding vogels`, caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Struisvogel — educatieve thema-afbeelding vogels`, caption: 'Struisvogel' },
+    { src: '/image-library/birds/owl.webp', alt: `Uil — educatieve thema-afbeelding vogels`, caption: 'Uil' },
   ],
 
   youtubeId: '0cOPi7eajLs',

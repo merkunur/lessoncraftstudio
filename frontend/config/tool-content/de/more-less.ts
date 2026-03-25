@@ -4,17 +4,17 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'Mehr-oder-Weniger-Ersteller',
     secondaryKeywords: [
-      'Größer-Kleiner-Arbeitsblatt Generator',
-      'Mengenvergleich-Übungen online erstellen',
-      'druckbare Vergleichs-Arbeitsblätter',
+      `Größer-Kleiner-Arbeitsblatt Generator`,
+      `Mengenvergleich-Übungen online erstellen`,
+      `druckbare Vergleichs-Arbeitsblätter`,
       `Ankreuzen-und-Durchstreichen-Arbeitsblatt Ersteller`,
     ],
     lsiKeywords: [
-      'visuelle Vergleichs-Druckvorlagen für Etsy',
-      'Mengenvergleich-Arbeitsblatt-Tool',
+      `visuelle Vergleichs-Druckvorlagen für Etsy`,
+      `Mengenvergleich-Arbeitsblatt-Tool`,
       `Ankreuzen-und-Durchstreichen-Aktivitäten Generator`,
     ],
-    titleTag: 'Mehr-oder-Weniger-Ersteller | Vergleichsübungen',
+    titleTag: `Mehr-oder-Weniger-Ersteller | Vergleichsübungen`,
     metaDescription: `Größer-als- und Kleiner-als-Arbeitsblätter mit Bildern erstellen. Drei Modi inkl. Ankreuzen und Durchstreichen. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: `Vergleichs-Arbeitsblätter erstellen in 8 einfachen Schritten`,
     steps: [
       {
-        title: 'Den Arbeitsblatt-Ersteller öffnen',
+        title: `Den Arbeitsblatt-Ersteller öffnen`,
         description: `Klicken Sie auf „Kostenlos testen", um den Mehr-oder-Weniger-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.`,
       },
       {
@@ -40,7 +40,7 @@ const content: ToolContent = {
         description: `Verwenden Sie die Min- und Max-Regler, um festzulegen, wie viele Elemente pro Gruppe erscheinen (Bereich: 1–10). Für Vorschulkinder halten Sie den Bereich eng (1–5). Kindergartenkinder bewältigen 1–10 problemlos. Die Anzahl der Aufgaben pro Seite passt sich automatisch an: 1–8 für Standardmodi und 1–3 für Ankreuzen und Durchstreichen aufgrund des größeren visuellen Platzbedarfs.`,
       },
       {
-        title: 'Die Symbolanzeige konfigurieren',
+        title: `Die Symbolanzeige konfigurieren`,
         description: `Wählen Sie zwischen Illustrationen und Normalen Symbolen für die Vergleichszeichen. Illustrationen zeigen farbenfrohe, ansprechende Versionen der Größer-als-, Kleiner-als- und Gleich-Symbole — ideal für Vorschul- und Kindergartenprodukte. Normale Symbole zeigen die Standard-Zeichen > < = für Fortgeschrittene, die zur konventionellen Mathematik-Notation übergehen.`,
       },
       {
@@ -48,7 +48,7 @@ const content: ToolContent = {
         description: `Wechseln Sie zwischen Gleichen Bildern und Verschiedenen Bildern. Der Modus Gleiche Bilder zeigt identische Elemente in beiden Gruppen (5 Katzen gegen 7 Katzen), sodass der Fokus rein auf der Menge liegt. Der Modus Verschiedene Bilder verwendet unterschiedliche Abbildungen pro Gruppe (5 Katzen gegen 7 Hunde), was visuelles Interesse erhöht und verhindert, dass Nutzer sich auf das Aussehen statt auf das Zählen verlassen.`,
       },
       {
-        title: 'Bilder aus der Themenbibliothek auswählen',
+        title: `Bilder aus der Themenbibliothek auswählen`,
         description: `Öffnen Sie das Panel „Bildbibliothek" und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Meeresbewohner, Weltraum, Sport und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Klicken Sie auf einzelne Bilder, um genau auszuwählen, welche auf Ihrem Arbeitsblatt erscheinen.`,
       },
       {
@@ -64,7 +64,7 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Größer-Kleiner-Aktivitätspakete',
+      title: `Größer-Kleiner-Aktivitätspakete`,
       description: `Erstellen Sie Sets mit 15–20 Arbeitsblättern im Bild-zu-Bild-Modus mit thematischen Bildergruppen. Bündeln Sie nach Thema — Dinosaurier, Bauernhoftiere, Ozeanlebewesen — und verkaufen Sie als visuelle Vergleichspakete auf Etsy.de oder Gumroad. Legen Sie sowohl illustrierte als auch Standard-Symbolversionen bei für maximale Produkterstellungsflexibilität.`,
     },
     {
@@ -84,14 +84,14 @@ const content: ToolContent = {
       description: `Nutzen Sie Feiertags- und Jahreszeitenthemen (Weihnachten, Halloween, Frühlingsblumen, Sommerstrand), um aktuell verfügbare Bündel zu erstellen. Saisonale Produkte verkaufen sich besonders gut auf Etsy, weil Käufer während bestimmter Zeiträume danach suchen. Ein „Halloween Mehr-oder-Weniger"-Paket mit gruseligen Bildern ist im Oktober ein garantierter Blickfang.`,
     },
     {
-      title: 'Sprachunabhängige globale Arbeitsblatt-Pakete',
+      title: `Sprachunabhängige globale Arbeitsblatt-Pakete`,
       description: `Da diese Arbeitsblätter nur Bilder, Zahlen und Vergleichszeichen verwenden, sind sie sprachunabhängig. Erstellen Sie ein Set und listen Sie es auf Englisch, Deutsch, Französisch, Spanisch und in jedem anderen Etsy-Markt. Keine Übersetzung nötig — die Arbeitsblätter funktionieren weltweit identisch und vervielfachen sofort Ihren erreichbaren Markt.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Vergleichs-Druckvorlagen-Shop auf Etsy.de',
+      title: `Vergleichs-Druckvorlagen-Shop auf Etsy.de`,
       description: `Eröffnen Sie einen Etsy-Shop, der sich auf Größer-als-, Kleiner-als- und Gleich-Arbeitsblätter spezialisiert. Das visuelle Format ist bei Eltern und Verkäufern sehr gefragt, weil es abstrakten Vergleich greifbar macht. Erstellen Sie 15–20 thematische Bündel zum Preis von 3–5 € pro Stück. Da die Arbeitsblätter rein bildbasiert sind, können Sie jedes Produkt ohne Übersetzung in mehreren Etsy-Märkten listen.`,
       platform: 'Etsy.de',
     },
@@ -101,12 +101,12 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Zahlenverständnis-Arbeitsbücher auf Amazon KDP',
+      title: `Zahlenverständnis-Arbeitsbücher auf Amazon KDP`,
       description: `Stellen Sie 60 oder mehr Seiten Vergleichs-Übungen zu einem physischen Aktivitäts-Arbeitsbuch zusammen. Mischen Sie Bild-zu-Bild-, Bild-zu-Zahl- und Ankreuzen-und-Durchstreichen-Modi für Abwechslung. Setzen Sie den Preis bei 6,99–9,99 € an und lassen Sie Amazon den Druck und Versand übernehmen. Das Ankreuzen-und-Durchstreichen-Format fotografiert besonders gut für KDP-Listing-Bilder, weil es visuell unverwechselbar ist.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Vergleichs-Produktkatalog-Paket auf Gumroad',
+      title: `Vergleichs-Produktkatalog-Paket auf Gumroad`,
       description: `Erstellen Sie ein strukturiertes 10-Wochen-Vergleichs-Produktkatalog mit progressiver Schwierigkeit — beginnen Sie mit Bild-zu-Bild bei Bereich 1–4, steigern Sie sich bis zu Ankreuzen und Durchstreichen bei Bereich 1–10. Verkaufen Sie als Premium-Download auf Gumroad. Homeschool-Familien suchen aktiv nach vollständigen, praxisorientierten Mathe-Programmen.`,
       platform: 'Gumroad',
     },
@@ -116,18 +116,18 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Pinterest-gesteuerte Gratisproben-Strategie',
+      title: `Pinterest-gesteuerte Gratisproben-Strategie`,
       description: `Bieten Sie eine kostenlose 5-seitige Vergleichs-Arbeitsblatt-Probe mit dem Ankreuzen-und-Durchstreichen-Modus als Lead-Magnet auf Pinterest an. Das einzigartige visuelle Format erzeugt auffällige Pins, die Klicks generieren. Sammeln Sie E-Mail-Adressen und verkaufen Sie dann Ihre vollständigen thematischen Bündel und KDP-Arbeitsbücher als Upsell.`,
     },
   ],
 
   proTips: [
     {
-      title: 'Illustrationen für jüngere Lernende verwenden',
+      title: `Illustrationen für jüngere Lernende verwenden`,
       description: `Die illustrierten Vergleichszeichen sind farbenfroh und ansprechend — ideal für Vorschul- und Kindergartenprodukte. Wechseln Sie zu Normalen Symbolen für die erste Klasse und darüber, oder legen Sie beide Versionen in Ihr Bündel bei, damit Verkäufer die passende Variante für ihre Klasse wählen können.`,
     },
     {
-      title: 'Schwierigkeit über die Bildvielfalt skalieren',
+      title: `Schwierigkeit über die Bildvielfalt skalieren`,
       description: `Der Modus Gleiche Bilder (5 Katzen gegen 7 Katzen) ist einfacher, weil Nutzer nur zählen müssen. Der Modus Verschiedene Bilder (5 Katzen gegen 7 Hunde) ist schwieriger, weil Nutzer zwei unterschiedliche Gruppen zählen und sich nicht vom Aussehen ablenken lassen dürfen. Nutzen Sie diesen Schalter, um einfache und anspruchsvolle Versionen aus denselben Einstellungen zu erstellen.`,
     },
     {
@@ -143,22 +143,22 @@ const content: ToolContent = {
       description: `Der Ankreuzen-und-Durchstreichen-Modus verwendet größere visuelle Boxen mit jeweils 8–20 durcheinander geworfenen Bildern. Mehr als 3 auf einer Seite lässt das Arbeitsblatt beengt wirken. Halten Sie es auf 1–2 für die Vorschule und 2–3 für den Kindergarten. Standardmodi können bis zu 8 Aufgaben pro Seite haben.`,
     },
     {
-      title: 'Sowohl PDF als auch JPEG exportieren',
+      title: `Sowohl PDF als auch JPEG exportieren`,
       description: `PDF ist am besten für direktes Drucken, aber JPEG ermöglicht Ihnen die Erstellung von Mockup-Bildern für Ihre Shop-Listings und Social-Media-Beiträge. Laden Sie beide Formate herunter. Verwenden Sie JPEG für Produkt-Vorschaubilder und Pinterest-Pins, und legen Sie die PDF als eigentliche Lieferdatei bei.`,
     },
     {
-      title: 'Immer den Lösungsschlüssel beilegen',
+      title: `Immer den Lösungsschlüssel beilegen`,
       description: `Klicken Sie auf „Lösungsschlüssel generieren" vor dem Herunterladen. Für Vergleichs-Arbeitsblätter zeigt der Lösungsschlüssel das korrekte Symbol (>, < oder =) für jede Aufgabe. Käufer auf Etsy und Gumroad bewerten Produkte durchgehend höher, wenn ein Lösungsschlüssel enthalten ist.`,
     },
   ],
 
   faq: [
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer: `Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt. Kundenfeedback und Bewertungen auf Bildungsmarktplätzen sind entscheidend für langfristigen Erfolg. Produkte mit konsistenter hoher Qualität, klaren Vorschaubildern und detaillierten Beschreibungen erhalten typischerweise bessere Bewertungen und erscheinen häufiger in Suchergebnissen.`,
     },
     {
-      question: 'Welche drei Übungsmodi gibt es?',
+      question: `Welche drei Übungsmodi gibt es?`,
       answer: `Der Generator unterstützt drei Modi: Bild zu Bild (zwei Bildergruppen nebeneinander — Nutzer zählen und vergleichen Mengen), Bild zu Zahl (eine Bildergruppe gepaart mit einer Ziffer — verbindet visuelles Zählen mit abstraktem Zahlenverständnis) und Ankreuzen und Durchstreichen (eine Box mit 8–20 gemischten Bildern aus zwei Kategorien durcheinander gewürfelt — Nutzer kreuzen die Mehrheitsgruppe an und streichen die Minderheitsgruppe durch). Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Kombination verschiedener Übungsformate innerhalb eines Bündels — etwa Zuordnung, Zählen, Muster und Wortsuche rund um ein gemeinsames Thema — schafft umfassende Lernpakete, die deutlich höhere Preise als einzelne Arbeitsblätter erzielen.`,
     },
     {
@@ -170,7 +170,7 @@ const content: ToolContent = {
       answer: `Illustrationen zeigen farbenfrohe, ansprechende Versionen der Größer-als-, Kleiner-als- und Gleich-Zeichen — perfekt für Vorschul- und Kindergarten-Arbeitsblätter. Normale Symbole zeigen die Standard-Zeichen > < = der konventionellen Mathematik-Notation. Verwenden Sie Illustrationen für jüngere Lernende und Normale Symbole für Fortgeschrittene. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Verkäufern und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.`,
     },
     {
-      question: 'Was bewirkt die Bildvielfalt-Einstellung?',
+      question: `Was bewirkt die Bildvielfalt-Einstellung?`,
       answer: `Der Modus Gleiche Bilder verwendet identische Abbildungen in beiden Gruppen (zum Beispiel 5 Katzen gegen 7 Katzen), sodass sich Nutzer rein auf die Menge konzentrieren. Der Modus Verschiedene Bilder verwendet unterschiedliche Abbildungen pro Gruppe (5 Katzen gegen 7 Hunde), was visuelles Interesse erhöht und verhindert, dass Nutzer nach Aussehen statt durch Zählen vergleichen. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.`,
     },
     {
@@ -182,11 +182,11 @@ const content: ToolContent = {
       answer: `Ja — und das ist ein großer Vorteil. Da Vergleichs-Arbeitsblätter ausschließlich Bilder, Zahlen und Symbole verwenden, sind sie vollständig sprachunabhängig. Die von Ihnen erstellten Arbeitsblätter funktionieren identisch in allen 11 unterstützten Sprachen. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.`,
     },
     {
-      question: 'Welche Dateiformate kann ich herunterladen?',
+      question: `Welche Dateiformate kann ich herunterladen?`,
       answer: `Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.`,
     },
     {
-      question: 'Muss ich Software installieren?',
+      question: `Muss ich Software installieren?`,
       answer: `Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.`,
     },
     {
@@ -197,33 +197,33 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: `Mehr-oder-Weniger-Arbeitsblätter — Vollständige Produktdetails` },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: `additions-arbeitsblatt-ersteller`, anchorText: `Additions-Arbeitsblatt-Ersteller` },
+    { pageType: 'tool', slug: `subtraktions-arbeitsblatt-ersteller`, anchorText: `Subtraktions-Arbeitsblatt-Ersteller` },
     { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
     { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
     { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: `zuordnungs-arbeitsblatt-ersteller`, anchorText: `Zuordnungs-Arbeitsblatt-Ersteller` },
     { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-und-Klein-Ersteller' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/more less/Mehr Weniger 1.webp',
+      primary: `/samples/german/more less/Mehr Weniger 1.webp`,
       primaryAlt: `Mehr-oder-Weniger-Arbeitsblatt mit Bildergruppen-Vergleich für Größer-als- und Kleiner-als-Übungen`,
     },
     sampleGallery: [
       {
-        src: '/samples/german/more less/Mehr Weniger 1.webp',
+        src: `/samples/german/more less/Mehr Weniger 1.webp`,
         alt: `Bild-zu-Bild-Vergleichs-Arbeitsblatt mit Tierthema und zwei Bildergruppen nebeneinander`,
-        caption: 'Bild-zu-Bild-Modus mit Tierthema',
+        caption: `Bild-zu-Bild-Modus mit Tierthema`,
       },
       {
-        src: '/samples/german/more less/Mehr Weniger 2.webp',
+        src: `/samples/german/more less/Mehr Weniger 2.webp`,
         alt: `Bild-zu-Zahl-Vergleichs-Arbeitsblatt, das visuelles Zählen mit geschriebenen Ziffern verbindet`,
-        caption: 'Bild-zu-Zahl-Modus — verbindet Bilder und Ziffern',
+        caption: `Bild-zu-Zahl-Modus — verbindet Bilder und Ziffern`,
       },
       {
-        src: '/samples/german/more less/Mehr Weniger 3.webp',
+        src: `/samples/german/more less/Mehr Weniger 3.webp`,
         alt: `Ankreuzen-und-Durchstreichen-Arbeitsblatt mit gemischten durcheinander geworfenen Bildern zum Sortieren und Vergleichen`,
         caption: `Ankreuzen und Durchstreichen — einzigartiger Sortier- und Vergleichsmodus`,
       },

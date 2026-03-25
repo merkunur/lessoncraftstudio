@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ingresos recurrentes fichas ejercicios',
+    primaryKeyword: `ingresos recurrentes fichas ejercicios`,
     secondaryKeywords: [
-      'negocio fichas ejercicios ingresos',
-      'ganar dinero vendiendo fichas ejercicios',
+      `negocio fichas ejercicios ingresos`,
+      `ganar dinero vendiendo fichas ejercicios`,
       'fichas imprimibles ingresos',
-      'ingresos continuos imprimibles educativos',
+      `ingresos continuos imprimibles educativos`,
     ],
     lsiKeywords: [
       `flujo ingresos producto digital ingresos productos perennes automatización ventas`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `multiplicación ingresos efectos catálogo descubrimiento orgánico ventas continuas`,
       `modelo ingresos escalable flujos ingresos fichas multi-plataforma ingresos`,
     ],
-    titleTag: 'Ingresos Recurrentes Fichas Ejercicios — Guía',
+    titleTag: `Ingresos Recurrentes Fichas Ejercicios — Guía`,
     metaDescription: `Construye ingresos recurrentes con fichas de ejercicios. Catálogos perennes, distribución multiplataforma, expansión lingüística y efectos de catálogo.`,
   },
 
@@ -35,15 +35,15 @@ const content: GuideContent = {
       content: `Las fichas de ejercicios ocupan una posición única en el panorama de productos digitales porque combinan demanda perenne con coste marginal cero y escalabilidad ilimitada. Comprender estas características es esencial para construir una estrategia de ingresos que aproveche al máximo estas ventajas.\n\nLa demanda de fichas de ejercicios educativas está vinculada a los calendarios escolares y a los hitos del desarrollo infantil, ambos se repiten predeciblemente cada año. Los usuarios de primer grado necesitan practicar sumas cada septiembre. Los niños de preescolar necesitan fichas de reconocimiento de letras cada año escolar. Los padres buscan actividades de aprendizaje de verano cada junio. Esta demanda cíclica y recurrente significa que una ficha que crees hoy atraerá compradores el próximo año, el siguiente y durante años después de eso. A diferencia de los productos de moda o artículos novedosos de tendencia, las fichas de ejercicios educativas no pasan de moda porque las necesidades educativas subyacentes son permanentes.\n\nEl coste marginal de cada venta es efectivamente cero. Una vez que creas un paquete de fichas, cada venta posterior genera ingresos sin ningún coste adicional de producción, envío o cumplimiento. Ya sea que vendas una copia o mil copias, tu inversión en creación sigue siendo la misma sesión única de trabajo. Esto es fundamentalmente diferente de los productos físicos donde cada venta requiere materiales, fabricación y envío. Con las fichas, el margen de beneficio en la centésima venta es idéntico al margen de beneficio en la primera venta — menos solo el porcentaje de comisión del marketplace.\n\nLa entrega digital es automática y funciona las 24 horas. Tus fichas están disponibles para comprar a las 3 de la madrugada un domingo en Tokio, durante la pausa del almuerzo en Berlín y después de dejar a los niños en la escuela en Chicago. Cada marketplace gestiona la entrega de la descarga automáticamente. No necesitas estar despierto, frente a tu ordenador ni siquiera saber que se produjo una venta. Esta disponibilidad 24/7 en todas las zonas horarias globales significa que tu catálogo genera ingresos durante horas en las que nunca podrías trabajar personalmente.\n\nLa naturaleza compuesta de un catálogo de fichas es quizás su característica más poderosa. Cada nuevo producto que agregas a tu catálogo no solo genera sus propias ventas — aumenta la descubribilidad y credibilidad de toda tu tienda. Los algoritmos de los marketplaces favorecen las tiendas con catálogos más amplios y en crecimiento activo. Los compradores que descubren uno de tus productos y encuentran un catálogo amplio de recursos relacionados tienen más probabilidades de realizar múltiples compras. Las reseñas se acumulan en toda tu línea de productos, construyendo confianza que beneficia a cada listado. Diez productos que generan $15 al mes cada uno producen $150 mensuales. Pero agregar 10 productos más no solo agrega otros $150 — el catálogo ampliado a menudo aumenta las ventas de los productos existentes también, porque tu tienda parece más autorizada y más de tus productos aparecen en los resultados de búsqueda.`,
     },
     {
-      heading: 'Construir un catálogo de productos perennes',
+      heading: `Construir un catálogo de productos perennes`,
       content: `La base de los ingresos recurrentes con fichas es un catálogo construido en torno a temas atemporales en lugar de tendencias pasajeras. Los productos perennes generan ventas constantes mes tras mes, año tras año, porque la demanda que atienden nunca desaparece.\n\nConcentra tu catálogo en materias de productoses básicas que las escuelas enseñan cada año sin cambios significativos. Las fichas de suma, resta, multiplicación y división sirven a millones de usuarios cada año escolar. Las fichas de reconocimiento de letras, fonética y lectura básica son necesarias para cada nueva ola de usuarios de preescolar y primer grado. Estas materias no cambian con las modas de productoses o las tendencias educativas — los usuarios necesitarán practicar sumas dentro de décadas igual que lo hacen hoy. Construir tu catálogo en torno a estas necesidades permanentes asegura que tus productos sigan siendo relevantes y vendibles indefinidamente.\n\nDiseña productos que se alineen con el ciclo de demanda del año escolar. La temporada de vuelta al colegio (agosto a septiembre) genera una fuerte demanda de recursos frescos para venta en línea. Enero trae un segundo repunte cuando los vendedores regresan de las vacaciones y necesitan nuevos materiales para el semestre de primavera. Los meses de verano atraen a padres que buscan práctica complementaria para prevenir la pérdida de aprendizaje. Al crear productos que sirvan a estos picos de demanda predecibles, puedes anticipar los patrones de ventas y planificar el crecimiento de tu catálogo en torno a ellos. Un paquete de fichas creado en julio para captar la demanda de vuelta al colegio captará esa misma ola de demanda cada año posterior.\n\nUsa generadores de fichas para construir profundidad de catálogo rápida y consistentemente. La velocidad de la creación basada en generadores es lo que hace práctico un catálogo perenne profundo. Crear un paquete de fichas de suma de calidad profesional manualmente podría llevar de dos a tres horas. Usando un generador, puedes producir la misma calidad en 15 a 20 minutos. Esto significa que puedes construir un catálogo de 50 productos en el mismo tiempo total que llevaría crear manualmente de 5 a 8 productos. La profundidad importa porque un catálogo de 50 productos perennes tiene mucha más superficie para el descubrimiento por parte de los compradores que un catálogo de 5, y el potencial de ingresos escala proporcionalmente.\n\nEvita productos dependientes de tendencias como base de tu catálogo. Las fichas vinculadas a películas específicas, personajes virales o momentos de la cultura pop pueden generar un breve pico de ventas pero se vuelven invendibles una vez que la tendencia pasa. Un producto de «fichas de matemáticas de personaje popular» podría venderse bien durante tres meses y luego desaparecer completamente de los resultados de búsqueda. Compara eso con un producto de «fichas de matemáticas de animales de granja» que se vende consistentemente durante años porque los animales de granja siempre son relevantes para los niños pequeños. Construye tu catálogo básico con temas atemporales — animales, estaciones, comida, vehículos, naturaleza, ayudantes de la comunidad — que mantienen su atractivo durante todo el año.\n\nMantén un formato atemporal y profesional. Los diseños de fichas limpios y bien organizados siguen siendo atractivos y funcionales independientemente de las tendencias de diseño. Evita diseños muy estilizados que puedan sentirse anticuados en uno o dos años. El formato profesional también señala calidad a los compradores, lo que apoya precios premium y genera reseñas positivas que se acumulan con el tiempo. Los generadores de fichas producen diseños limpios y profesionales por defecto, lo que asegura consistencia en todo tu catálogo. Puedes probar cualquier generador como prueba gratis con marca de agua para evaluar la calidad del resultado antes de adquirir una licencia comercial.`,
     },
     {
-      heading: 'Diversificar entre canales de ingresos',
+      heading: `Diversificar entre canales de ingresos`,
       content: `Un negocio de fichas en una sola plataforma tiene un único punto de fallo. Si esa plataforma cambia su algoritmo, aumenta sus tarifas o experimenta una caída en el tráfico, todo tu flujo de ingresos se ve afectado. Diversificar entre múltiples plataformas crea múltiples flujos de ingresos independientes del mismo catálogo de productos, aumentando dramáticamente tanto los ingresos totales como la estabilidad del negocio.\n\nPublica tus productos en cada plataforma importante donde compren tus compradores objetivo. Etsy atrae millones de compradores que buscan imprimibles educativos, con tráfico particularmente fuerte de padres y emprendedores. Amazon KDP llega a la enorme base de clientes de Amazon, donde padres y vendedores buscan recursos educativos junto con libros y suministros. Gumroad sirve a una audiencia dedicada de vendedores del mercado que buscan específicamente recursos de enseñanza. Gumroad y Creative Fabrica proporcionan escaparates adicionales con diferentes demografías de audiencia. Cada plataforma representa un grupo independiente de compradores potenciales que pueden nunca encontrar tus productos en otras plataformas.\n\nLas economías de la distribución multiplataforma son convincentes porque el trabajo más difícil — crear el producto — se hace una sola vez. Publicar el mismo paquete de fichas en una segunda plataforma lleva de 15 a 30 minutos de trabajo de adaptación del listado. Si ese listado genera incluso una venta al mes a $8, has ganado aproximadamente $96 en ingresos anuales por 20 minutos de trabajo. Con 30 productos publicados en 3 plataformas adicionales, incluso ventas modestas por producto se traducen en ingresos agregados significativos que no existirían con un enfoque de una sola plataforma.\n\nDesarrolla estrategias de listado específicas para cada plataforma en lugar de copiar listados literalmente. Cada plataforma tiene diferentes algoritmos de búsqueda, expectativas de los compradores y dinámicas competitivas. Un listado de Etsy optimizado para la búsqueda de Etsy puede funcionar mal en Amazon KDP sin adaptación. Investiga los listados con mejor rendimiento en cada plataforma para productos similares a los tuyos y observa cómo estructuran títulos, descripciones y palabras clave. Adapta tus listados para que coincidan con las convenciones y expectativas de los compradores de cada plataforma mientras mantienes la información central del producto.\n\nHaz seguimiento de los ingresos por plataforma para entender dónde funcionan mejor tus productos. Algunos tipos de productos naturalmente funcionan mejor en ciertas plataformas — los recursos enfocados en vendedores pueden tener mejor rendimiento en Gumroad mientras que las hojas de actividades enfocadas en padres pueden tener mejor rendimiento en Etsy o Amazon. Estos datos informan tanto tus prioridades de publicación (dónde publicar primero al lanzar nuevos productos) como tus prioridades de desarrollo de productos (qué crear basándote en los patrones de demanda específicos de cada plataforma). Una simple hoja de cálculo que rastree los ingresos mensuales por producto por plataforma proporciona la base de datos para estas decisiones estratégicas.\n\nConsidera construir un canal de ventas directas junto con los listados en marketplaces. Tu propio sitio web o una tienda en Gumroad te da control total sobre la relación con el comprador, márgenes de beneficio más altos por venta e independencia de los cambios de algoritmo de los marketplaces. Las ventas directas típicamente representan un porcentaje menor de los ingresos totales inicialmente, pero crecen con el tiempo a medida que construyes una audiencia y una lista de correo. Los generadores de fichas hacen práctico ofrecer productos exclusivos o paquetes especiales a través de tu canal directo, proporcionando a los compradores una razón para comprar directamente mientras construyes un flujo de ingresos completamente bajo tu control.`,
     },
     {
-      heading: 'Crear productos que se vendan año tras año',
+      heading: `Crear productos que se vendan año tras año`,
       content: `La diferencia entre una ficha que genera un mes de ventas y una que genera años de ingresos radica en cómo se diseña, posiciona y mantiene. Los productos construidos para la longevidad siguen generando ganancias mucho después del esfuerzo inicial de publicación, haciendo que cada hora invertida en su creación sea exponencialmente más valiosa con el tiempo.\n\nApunta a materias de productoses básicas con demanda consistente y alineada con estándares. Las operaciones matemáticas básicas, la comprensión lectora, la práctica de escritura y la ampliación de vocabulario se enseñan esencialmente de la misma manera año tras año. Las escuelas pueden adoptar nuevos libros de texto o métodos de enseñanza, pero los usuarios de primer grado aún necesitan aprender a sumar números de un dígito y los de tercer grado aún necesitan practicar la multiplicación. Los productos alineados con estas habilidades fundamentales enfrentan una demanda estable independientemente de los cambios de productoses o las políticas educativas.\n\nCrea productos para múltiples niveles escolares para extender el ciclo de vida de ingresos de cada concepto. Un concepto de suma que sirve desde preescolar hasta tercer grado abarca cuatro años escolares de demanda de una sola línea de productos. Un padre que compra tus fichas de suma de preescolar en septiembre puede volver a comprar tus fichas de primer grado en septiembre siguiente cuando su hijo avance. Este enfoque multigrado crea patrones naturales de retorno del cliente y maximiza el potencial de ingresos a lo largo del tiempo de cada concepto que desarrolles.\n\nDiseña listados de productos con descripciones perennes que no requieran actualizaciones estacionales. Evita hacer referencia a años específicos, eventos actuales o afirmaciones con límite de tiempo en las descripciones de tus listados. Una descripción que dice «alineado con estándares vigentes» siempre se sentirá actual, mientras que una que dice «actualizado para el año escolar 2026-2027» se sentirá desactualizada en cuestión de meses. Las descripciones perennes aseguran que tus listados sigan siendo precisos y atractivos sin mantenimiento continuo, lo cual es esencial cuando gestionas un catálogo de docenas o cientos de productos.\n\nActualiza los productos con mejor rendimiento anualmente para mantener la posición en las búsquedas. Los algoritmos de los marketplaces a menudo favorecen los listados actualizados recientemente. Una simple actualización — modificar algunas palabras clave, mejorar una imagen miniatura o ajustar un párrafo de descripción — señala a la plataforma que el producto se mantiene activamente. Esto no requiere recrear el producto, solo actualizaciones menores del listado que toman de cinco a diez minutos cada una. Programa un ciclo de actualización anual para tus 20 mejores productos e inviertes unas pocas horas al año para mantener años de posicionamiento acumulado en búsquedas y credibilidad de reseñas.\n\nEstablece precios para ingresos a largo plazo en lugar de volumen a corto plazo. Los productos con precios demasiado bajos atraen compradores cazadores de ofertas que rara vez regresan. Los productos con precios a valor justo de mercado atraen compradores que valoran la calidad y están dispuestos a pagar por recursos profesionales. Un paquete de fichas con precio de $4,99 que vende 8 copias al mes genera más ingresos y mejores compradores que el mismo paquete con precio de $1,99 vendiendo 12 copias al mes. Los precios justos también proporcionan margen para ventas y promociones periódicas que pueden impulsar la visibilidad durante temporadas clave de venta sin recortar tu rentabilidad base.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo escalar tu negocio de imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo crear paquetes de fichas que se vendan' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo crear una línea de productos imprimibles' },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo escalar tu negocio de imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo crear paquetes de fichas que se vendan` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo crear una línea de productos imprimibles` },
     { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de precios para imprimibles educativos` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de selección de nicho para negocios de imprimibles` },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda de imprimibles en Etsy desde cero` },
     { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de suma' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: `Cómo crear páginas para colorear con imágenes temáticas` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Produce rápidamente fichas de matemáticas profesionales que forman la base de un catálogo de gran volumen. Las fichas de matemáticas representan una de las categorías de mayor demanda con potencial de ventas constante durante todo el año en todos los niveles escolares.`,
     },
     {
@@ -169,24 +169,24 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de emparejamiento',
+      title: `Generador de fichas de emparejamiento`,
       description: `Crea actividades temáticas de emparejamiento que construyen profundidad de catálogo a través de la versatilidad temática. Las fichas de emparejamiento funcionan con docenas de temas, permitiendo una expansión rápida del catálogo que impulsa el efecto compuesto de descubrimiento.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/addition/Suma Divertida 1.webp',
+      src: `/samples/spanish/addition/Suma Divertida 1.webp`,
       alt: `Ficha de suma profesional que demuestra contenido imprimible perenne para ingresos recurrentes`,
     },
     samples: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de suma mostrando formato de calidad profesional para ventas en marketplaces`,
         caption: `Las fichas de matemáticas generan ingresos constantes durante todo el año como productos educativos perennes`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras disponible en múltiples idiomas para un alcance de mercado ampliado`,
         caption: `Las sopas de letras multilingües multiplican ingresos al alcanzar mercados internacionales desatendidos`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — imagen educativa temática', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagen educativa temática', caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — imagen educativa temática`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagen educativa temática`, caption: 'Bisonte' },
   ],
 };
 

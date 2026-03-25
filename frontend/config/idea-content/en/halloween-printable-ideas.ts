@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween Printable Ideas to Sell — Niche Guide',
+    titleTag: `Halloween Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Explore Halloween printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Spooky-themed product concepts, seasonal strategies, and tips for printable sellers.`,
 
     primaryKeyword: 'halloween printable ideas',
     secondaryKeywords: [
       'Halloween worksheets to sell',
-      'Halloween themed printable business',
-      'Halloween activity sheets for sellers',
-      'sell Halloween printables on Etsy',
+      `Halloween themed printable business`,
+      `Halloween activity sheets for sellers`,
+      `sell Halloween printables on Etsy`,
     ],
     lsiKeywords: [
-      'spooky themed educational worksheets',
-      'October themed printable activity pages',
-      'costume and pumpkin themed printables',
+      `spooky themed educational worksheets`,
+      `October themed printable activity pages`,
+      `costume and pumpkin themed printables`,
     ],
   },
   hero: {
-    title: 'Halloween Printable Business Ideas for Sellers',
+    title: `Halloween Printable Business Ideas for Sellers`,
     description: `Halloween delivers one of the most powerful seasonal demand surges in the printable marketplace, with search interest climbing sharply from late August through October as buyers and party planners seek spooky-themed educational content. The niche offers extraordinary sub-theme diversity including pumpkins, ghosts, witches, bats, spiders, skeletons, vampires, monsters, haunted houses, and jack-o-lanterns, giving sellers a rich visual palette for creating distinct products within a single holiday. Buyers plan October activities and Halloween parties weeks in advance, while parents look for age-appropriate spooky fun that keeps learning front and center. For printable sellers on Etsy, Amazon KDP, and Gumroad, the Halloween niche rewards early preparation with a concentrated but highly profitable sales window that returns predictably every year. This guide covers specific product ideas, platform strategies, and timing approaches to help you build a thriving Halloween printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The Halloween printable niche ranks as the second most valuable seasonal opportunity for educational product sellers, trailing only Christmas in total demand volume but offering a shorter, more concentrated sales window that makes timing especially important. Buyers begin planning October activities and Halloween parties in late August and early September, searching for themed worksheets that balance spooky fun with genuine educational value. Parents seek age-appropriate Halloween activities that transform screen time into creative learning experiences during the weeks of costume excitement and trick-or-treat anticipation. Party planners and event organizers purchase themed activity sheets for community events, trunk-or-treat gatherings, and family Halloween celebrations.
@@ -41,7 +41,7 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
       appId: 'find-count',
     },
     {
-      title: 'Halloween Word Search Puzzles to Sell Online',
+      title: `Halloween Word Search Puzzles to Sell Online`,
       description: `Spooky vocabulary word searches attract buyers planning October activities and parents seeking educational entertainment during the Halloween season. Create puzzles featuring Halloween-specific vocabulary like pumpkin, skeleton, vampire, werewolf, cauldron, broomstick, and tombstone alongside broader autumn celebration terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for the younger audience and challenging grids with fifteen or more Halloween terms for older solvers. Variations like monster vocabulary, haunted house words, and trick-or-treat terminology expand your catalog to capture different buyer interests within the spooky seasonal niche.`,
       appId: 'wordsearch',
     },
@@ -56,12 +56,12 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
       appId: 'addition',
     },
     {
-      title: 'Halloween Coloring Pages for Etsy and KDP Sellers',
+      title: `Halloween Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for Halloween printable shops because spooky coloring appeals to virtually every family with young children and generates early reviews that boost your shop visibility during peak October season. The Coloring Page generator creates detailed outlines of jack-o-lanterns, friendly ghosts, haunted houses, witches on broomsticks, black cats, bats, spiders, scarecrows, and monster characters. For Etsy, sell curated sets of ten to fifteen pages grouped by sub-theme such as haunted house scenes or trick-or-treat characters. For KDP, compile thirty to fifty coloring pages into Halloween activity books positioned as trick-or-treat bag fillers. Add educational elements like Halloween vocabulary labels, counting prompts, or letter practice alongside the coloring images to differentiate from purely decorative options.`,
       appId: 'coloring',
     },
     {
-      title: 'Halloween Bingo Cards for Parties and Events',
+      title: `Halloween Bingo Cards for Parties and Events`,
       description: `Halloween bingo cards serve parents organizing Halloween parties, trick-or-treat events, and family gatherings and family gatherings during the spooky season. The Bingo generator creates unique card variations from your Halloween vocabulary list, ensuring no two cards are identical for group play. Sell sets of twenty-five to thirty cards with a caller sheet and Halloween vocabulary reference guide included. For the family market, create bingo kits featuring Halloween symbols, costume characters, and trick-or-treat vocabulary that groups can play during parties and community events. Bingo products generate strong seasonal demand because every Halloween party needs structured group activities, and digital bingo cards can be purchased and printed minutes before the celebration begins.`,
       appId: 'bingo',
     },
@@ -90,17 +90,17 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Halloween Printables on Etsy',
+      title: `Selling Halloween Printables on Etsy`,
       description: `Etsy rewards early publishing and keyword specificity for Halloween printable listings, and the October shopping season creates a major traffic surge for educational digital downloads. Publish your Halloween listings by mid-August to allow Etsy search algorithms time to index and rank your products before the September demand ramp begins. Use all thirteen tags with variations combining Halloween sub-themes, skill types, and age groups: "Halloween counting worksheets preschool," "spooky word search kindergarten," and "pumpkin coloring pages toddler" target specific buyer searches far more effectively than broad tags like "Halloween worksheets." Create party-oriented listing variations positioning activity bundles as Halloween party packs or trick-or-treat bag fillers. Listing images showing printed Halloween worksheets in spooky-themed settings with seasonal props outperform flat digital previews and capture the festive mindset that drives October traffic.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Halloween Activity Books on KDP',
+      title: `Publishing Halloween Activity Books on KDP`,
       description: `Amazon KDP excels for Halloween printables because parents and gift buyers naturally add activity books to their Amazon carts alongside costumes, decorations, and trick-or-treat supplies. Compile individual Halloween worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around spooky themes. Use KDP keyword fields strategically: include "Halloween activity book for kids," "spooky worksheets preschool," and sub-theme terms like "pumpkin coloring book" or "monster activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as trick-or-treat bag inserts or October party favors. Publish by late August to ensure your books are indexed and available before the September planning phase intensifies, and consider creating multiple books targeting different age groups and sub-themes to capture varied search queries during the Halloween rush.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Halloween Resources on Your Own Store',
+      title: `Selling Halloween Resources on Your Own Store`,
       description: `Your own store on Gumroad or a similar platform lets you sell October-themed resources directly to buyers searching for Halloween party activities and spooky-themed educational resources they can use with minimal preparation during an already busy fall season. Halloween printables perform best when packaged as ready-to-use solutions: Halloween party activity stations, October morning activity packets, or spooky-themed homework packs with parent instruction letters. Include clear learning objectives and add tiered product bundles for mixed-ability October use where engagement naturally competes with costume excitement. Bundling lets you offer individual Halloween products and a discounted spooky mega-bundle simultaneously, capturing both budget-conscious buyers purchasing single items and those investing in comprehensive October entertainment solutions.`,
     },
     {
@@ -128,7 +128,7 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
       answer: `Yes, cross-platform selling is one of the most effective strategies for maximizing Halloween printable revenue because each platform reaches a different buyer segment during the spooky season. Etsy attracts parents, homeschoolers, and party planners searching for instant-download Halloween activities. Your own store reaches buyers planning October activities and Halloween party events. KDP serves families who prefer physical activity books positioned alongside costumes and trick-or-treat supplies. Gumroad and Shopify help you build an owned audience you can re-engage every Halloween season through email marketing. You can sell the same core content across all platforms with formatting adjustments for each. For KDP, compile worksheets into book format. For Gumroad, add usage notes and activity descriptions. For Etsy, create spooky-themed listing images with seasonal mockup photography. Cross-listing multiplies your October visibility without requiring entirely new products for each channel.`,
     },
     {
-      question: 'Do Halloween printables sell outside of October?',
+      question: `Do Halloween printables sell outside of October?`,
       answer: `Halloween printable sales are heavily concentrated in the September through October window, with the vast majority of revenue occurring during this two-month period. However, several factors create smaller sales outside the peak. Some buyers plan October activities during summer and purchase early. Homeschooling families following flexible schedules may use Halloween themes at non-traditional times. International buyers in different hemispheres or cultures may celebrate Halloween-adjacent holidays at various times. Additionally, sellers who build email lists during the Halloween season can market new products and updates throughout the year to engaged subscribers. While you should not expect significant year-round revenue from Halloween-specific products, the concentrated seasonal income combined with the relatively short production timeline makes this niche a highly efficient use of your product creation time.`,
     },
     {
@@ -145,32 +145,32 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ To capture maximum Halloween revenue, develop products across multiple sub-theme
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Business Ideas',
+      anchorText: `Christmas Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

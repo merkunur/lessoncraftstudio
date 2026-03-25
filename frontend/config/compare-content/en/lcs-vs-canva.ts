@@ -4,7 +4,7 @@ const content: CompareContent = {
   seo: {
     primaryKeyword: 'LessonCraftStudio vs Canva',
     secondaryKeywords: [
-      'Canva alternative for worksheets',
+      `Canva alternative for worksheets`,
       'Canva vs LessonCraftStudio',
       'best worksheet maker vs Canva',
       'Canva for printable sellers',
@@ -14,12 +14,12 @@ const content: CompareContent = {
     lsiKeywords: [
       'printable worksheet maker',
       'word search generator',
-      'Canva templates for printable sellers',
+      `Canva templates for printable sellers`,
       'educational printable design',
       'puzzle creation software',
-      'Etsy printable tools comparison',
+      `Etsy printable tools comparison`,
       'answer key generator',
-      'multilingual worksheet creator',
+      `multilingual worksheet creator`,
     ],
     titleTag: `LessonCraftStudio vs Canva — Which Is Better for Printable Sellers?`,
     metaDescription:
@@ -69,7 +69,7 @@ const content: CompareContent = {
     },
     {
       feature: 'Social Media & Marketing',
-      lcs: 'No social media or marketing tools.',
+      lcs: `No social media or marketing tools.`,
       competitor: `Full social media design suite — Instagram posts, Pinterest pins, Facebook ads, YouTube thumbnails, and more. Scheduling and publishing integrations available on Pro plan.`,
     },
     {
@@ -94,7 +94,7 @@ const content: CompareContent = {
     },
     {
       feature: 'Collaboration',
-      lcs: 'Single-user tool. No collaboration features.',
+      lcs: `Single-user tool. No collaboration features.`,
       competitor: `Real-time collaboration, shared folders, team permissions, and comment threads. Excellent for teams.`,
     },
     {
@@ -116,30 +116,30 @@ const content: CompareContent = {
         `Canva has its own set of genuine strengths that LessonCraftStudio does not match:\n\n**Template library.** Canva offers hundreds of thousands of professionally designed templates for virtually every use case — book covers, social media posts, marketing flyers, worksheet layouts, presentation slides, business cards, and more. If you need a polished design quickly and you are not a graphic designer, Canva templates are an enormous time-saver. LCS has no template library; every output starts from generator parameters.\n\n**Cover design.** If you sell on Etsy, KDP, or any marketplace, you need product images and book covers. Canva excels at this. KDP cover templates with correct trim sizes, Etsy listing images optimized for the platform, and Pinterest pins for marketing are all readily available. LCS focuses entirely on interior content and has no cover design capability.\n\n**Social media and marketing.** Canva is a complete marketing design tool. Instagram posts, Facebook ads, YouTube thumbnails, email headers, and more — all with templates, brand consistency, and scheduling integrations. If you run a printable business, your marketing materials probably come from Canva. LCS has no marketing or social media features.\n\n**Brand kit and consistency.** Canva Pro stores your brand colors, fonts, logos, and templates so every design looks consistent. This is valuable for building a recognizable brand on Etsy or your own website. LCS has no centralized brand management.\n\n**Collaboration.** If you work with a team — a VA who creates listings, a designer who does covers, a partner who handles social media — Canva supports real-time collaboration with shared folders and permissions. LCS is a single-user tool.\n\n**General-purpose flexibility.** Canva can do almost anything design-related. Need a price tag for a craft fair? A thank-you card insert for shipped orders? A media kit for wholesale inquiries? Canva has a template for it. This broad flexibility makes it a daily-use tool for most online sellers.`,
     },
     {
-      heading: 'Who Should Use LessonCraftStudio',
+      heading: `Who Should Use LessonCraftStudio`,
       content:
         `LessonCraftStudio is the right choice if your business revolves around generating puzzle and worksheet content:\n\n**You sell puzzle worksheets.** If your Etsy shop or website offers word search bundles, crossword packs, math worksheet sets, sudoku books, or activity page collections, you need a dedicated generator. Canva cannot create this content. LCS can, in 33 different formats.\n\n**You need answer keys.** Buyers expect answer keys with worksheet products. LCS generates them automatically for every applicable puzzle type. Building answer keys manually in any design tool is impractical for products with dozens of pages.\n\n**You create image-based educational content.** Picture math problems, visual vocabulary worksheets, image matching activities, find-and-count pages, and shadow matching worksheets all require an integrated image library. LCS provides 3,100+ themed images designed for this purpose.\n\n**You serve international markets.** If you sell in German, French, Spanish, Portuguese, Italian, Dutch, or Scandinavian markets, LCS is the only tool that generates locale-aware puzzle content. A German-language word search with correct umlauts in filler letters is not something any other tool produces.\n\n**You want to avoid subscription fatigue.** At $27 per generator or $79 per category bundle with no recurring costs, LCS fits well into a budget-conscious toolkit alongside other subscriptions you may already have.`,
     },
     {
       heading: 'Who Should Use Canva',
       content:
-        `Canva is the right choice for specific parts of the printable business workflow:\n\n**You need product covers and listing images.** Every Etsy listing, KDP book, and marketplace product needs eye-catching visuals. Canva templates make this fast, even if you are not a designer. This is probably the most common reason printable sellers use Canva.\n\n**You create simple, template-based worksheets.** If your products are tracing sheets, blank handwriting practice pages, simple checklists, or fill-in-the-blank activities that do not require algorithmic generation, Canva templates work fine. These are layout tasks, not generation tasks.\n\n**You run social media for your business.** Pinterest pins, Instagram posts, Facebook ads, and YouTube thumbnails drive traffic to your shop. Canva is purpose-built for creating these assets quickly and consistently.\n\n**You need brand consistency across products.** If your brand identity matters — consistent colors, fonts, logos, and visual style — Canva Pro's Brand Kit centralizes all of this. Your 50th product listing will look as on-brand as your first.\n\n**You collaborate with others.** Canva's team features make it easy to share work with VAs, designers, or business partners without sending files back and forth.`,
+        `Canva is the right choice for specific parts of the printable business workflow:\n\n**You need product covers and listing images.** Every Etsy listing, KDP book, and marketplace product needs eye-catching visuals. Canva templates make this fast, even if you are not a designer. This is probably the most common reason printable sellers use Canva.\n\n**You create simple, template-based worksheets.** If your products are tracing sheets, blank handwriting practice pages, simple checklists, or fill-in-the-blank activities that do not require algorithmic generation, Canva templates work fine. These are layout tasks, not generation tasks.\n\n**You run social media for your business.** Pinterest pins, Instagram posts, Facebook ads, and YouTube thumbnails drive traffic to your shop. Canva is purpose-built for creating these assets quickly and consistently.\n\n**You need brand consistency across products.** If your brand identity matters — consistent colors, fonts, logos, and visual style — Canva Pro`s Brand Kit centralizes all of this. Your 50th product listing will look as on-brand as your first.\n\n**You collaborate with others.** Canva`s team features make it easy to share work with VAs, designers, or business partners without sending files back and forth.`,
     },
     {
-      heading: 'Using Both Together — The Smart Approach',
+      heading: `Using Both Together — The Smart Approach`,
       content:
         `The most effective approach for many printable sellers is using both tools for what each does best. They complement each other naturally because their capabilities barely overlap.\n\n**A practical workflow:**\n\n1. **Generate content in LessonCraftStudio.** Create your word searches, crosswords, math worksheets, sudoku puzzles, or any of the 33 available types. Use the canvas editor to adjust fonts, colors, and layout. Export at 400+ DPI as PDF.\n\n2. **Design covers in Canva.** Create product covers for Etsy listings, KDP books, or your website. Use Canva's templates to match marketplace requirements (Etsy listing image dimensions, KDP cover trim sizes).\n\n3. **Create marketing materials in Canva.** Pinterest pins showcasing your worksheet products, Instagram carousel posts with sample pages, email headers for your newsletter — all using your Brand Kit for consistency.\n\n4. **Build simple complementary pages in Canva.** Coloring pages with custom illustrations, title pages, table of contents, and "about the author" pages can all come from Canva templates to round out your product bundles.\n\n**What this costs:**\n- LCS: $27–$79 one-time (depending on how many generators you need)\n- Canva: Free tier for basic work, or $12.99/month for Pro features\n- Total year-one cost: As low as $27 (LCS) + $0 (Canva free) = $27\n- Or with Canva Pro: $27 + $155.88 = $182.88 for the year\n\nThis combination gives you dedicated puzzle generation, automatic answer keys, multilingual support, professional cover design, social media marketing tools, and brand consistency — at a fraction of what a single professional design subscription costs.`,
     },
     {
-      heading: 'Common Mistakes Printable Sellers Make with Canva',
+      heading: `Common Mistakes Printable Sellers Make with Canva`,
       content:
-        `Canva is excellent at what it does, but some sellers try to force it into roles it was not designed for. These mistakes waste time and produce inferior products:\n\n**Trying to build puzzle grids manually.** Some sellers create word search grids in Canva by placing individual text boxes for each letter. This takes 30+ minutes per grid, produces inconsistent spacing, and makes answer keys nearly impossible. A dedicated generator creates the same grid in 3 seconds with a matching answer key.\n\n**Using the same templates as everyone else.** Canva's most popular worksheet templates are used by thousands of sellers. If your products look identical to others on Etsy, you have no visual differentiation. Generating unique puzzle content in LCS and then adding branded elements gives you a product that cannot be replicated by template users.\n\n**Skipping answer keys because they are too tedious.** Buyers expect answer keys. Sellers who skip them because manual creation in Canva takes too long are leaving money on the table and getting lower reviews. Automatic answer key generation removes this bottleneck entirely.\n\n**Paying for Canva Pro just for worksheet creation.** If you only use Canva for creating worksheets (not covers, not marketing, not social media), the Pro subscription may not be necessary. A one-time $27 LCS generator license handles the content creation, and Canva\'s free tier handles basic design needs.\n\n**Ignoring international markets.** If all your products are in English only, you are competing in the most crowded market segment. LCS's 11-language support lets you create localized products for less competitive markets — German, French, Spanish, and others — where fewer sellers compete but demand is real.`,
+        `Canva is excellent at what it does, but some sellers try to force it into roles it was not designed for. These mistakes waste time and produce inferior products:\n\n**Trying to build puzzle grids manually.** Some sellers create word search grids in Canva by placing individual text boxes for each letter. This takes 30+ minutes per grid, produces inconsistent spacing, and makes answer keys nearly impossible. A dedicated generator creates the same grid in 3 seconds with a matching answer key.\n\n**Using the same templates as everyone else.** Canva`s most popular worksheet templates are used by thousands of sellers. If your products look identical to others on Etsy, you have no visual differentiation. Generating unique puzzle content in LCS and then adding branded elements gives you a product that cannot be replicated by template users.\n\n**Skipping answer keys because they are too tedious.** Buyers expect answer keys. Sellers who skip them because manual creation in Canva takes too long are leaving money on the table and getting lower reviews. Automatic answer key generation removes this bottleneck entirely.\n\n**Paying for Canva Pro just for worksheet creation.** If you only use Canva for creating worksheets (not covers, not marketing, not social media), the Pro subscription may not be necessary. A one-time $27 LCS generator license handles the content creation, and Canva's free tier handles basic design needs.\n\n**Ignoring international markets.** If all your products are in English only, you are competing in the most crowded market segment. LCS`s 11-language support lets you create localized products for less competitive markets — German, French, Spanish, and others — where fewer sellers compete but demand is real.`,
     },
   ],
 
   faq: [
     {
-      question: 'Can Canva create word search puzzles?',
+      question: `Can Canva create word search puzzles?`,
       answer:
         `No. Canva cannot generate word search grids, crossword puzzles, sudoku boards, or any algorithmically created puzzle content. It is a design tool with templates, not a content generator. To create word search puzzles, you need a dedicated generator like LessonCraftStudio, which creates valid grids with hidden words, filler letters, and automatic answer keys. You could then import the generated puzzle into Canva for additional styling if needed.`,
     },
@@ -149,32 +149,32 @@ const content: CompareContent = {
         `They solve different problems. LessonCraftStudio is better for generating puzzle and worksheet content — 33 generator types, automatic answer keys, 11 languages, and a themed image library. Canva is better for design tasks — product covers, marketing graphics, social media posts, and template-based layouts. Most successful printable sellers use both: LCS for content generation and Canva for design and marketing.`,
     },
     {
-      question: 'Can I use Canva and LessonCraftStudio together?',
+      question: `Can I use Canva and LessonCraftStudio together?`,
       answer:
         `Yes, and this is the recommended approach for printable sellers. Generate your puzzle and worksheet content in LessonCraftStudio (word searches, crosswords, math worksheets, etc. with automatic answer keys). Then use Canva for product covers, Etsy listing images, social media marketing, and any template-based complementary pages. The two tools have almost no feature overlap, so using both gives you complete coverage.`,
     },
     {
-      question: 'Does Canva generate answer keys?',
+      question: `Does Canva generate answer keys?`,
       answer:
         `No. Canva has no answer key generation capability. If you create a worksheet in Canva, you must build the answer key manually by duplicating the design and filling in answers by hand. LessonCraftStudio automatically generates answer keys for every applicable puzzle type — word search (highlighted words), crossword (filled grid), math (solutions), sudoku (completed board), and more.`,
     },
     {
-      question: 'Which is cheaper — Canva or LessonCraftStudio?',
+      question: `Which is cheaper — Canva or LessonCraftStudio?`,
       answer:
         `It depends on usage. Canva has a generous free tier, while LessonCraftStudio offers a free trial with watermark on downloads. For paid plans: a single LCS generator costs $27 one-time (no recurring fees), while Canva Pro costs $12.99/month ($155.88/year). Over 12 months, one LCS generator is cheaper. Over 24 months, an entire LCS category bundle ($79) is still cheaper than Canva Pro ($311.76). However, Canva Pro includes design features (stock assets, Brand Kit, background remover) that LCS does not offer — so the comparison only applies to worksheet creation specifically.`,
     },
     {
-      question: 'Can I create worksheets in Canva?',
+      question: `Can I create worksheets in Canva?`,
       answer:
         `You can create simple, template-based worksheets in Canva — tracing sheets, blank handwriting lines, fill-in-the-blank activities, and checklists. Canva has worksheet templates that work well for layouts that do not require algorithmic content. However, you cannot create puzzles (word search, crossword, sudoku, mazes), randomized math problems, or any content that requires a generation algorithm. For those, you need a dedicated generator.`,
     },
     {
-      question: 'Does LessonCraftStudio have templates like Canva?',
+      question: `Does LessonCraftStudio have templates like Canva?`,
       answer:
         `No. LessonCraftStudio uses a generator approach rather than a template approach. Instead of starting with a pre-designed layout, you configure parameters (word lists, difficulty level, theme, page size) and the generator creates unique content. The post-generation canvas editor then lets you customize the visual layout. This means every output is unique to your settings, unlike templates that are shared among all users.`,
     },
     {
-      question: 'Can I design book covers with LessonCraftStudio?',
+      question: `Can I design book covers with LessonCraftStudio?`,
       answer:
         `No. LessonCraftStudio focuses entirely on interior content generation — puzzles, worksheets, and activity pages. It does not have cover design tools, templates, or spine calculators. For book covers, use Canva (easy templates for KDP and Etsy), Adobe InDesign (professional control), or Book Bolt (KDP-specific cover creator with spine calculation). Many sellers generate interior content in LCS and design covers in Canva.`,
     },
@@ -184,7 +184,7 @@ const content: CompareContent = {
     {
       pageType: 'app',
       slug: 'word-search-generator',
-      anchorText: 'Try the Word Search Generator free with watermark',
+      anchorText: `Try the Word Search Generator free with watermark`,
     },
     {
       pageType: 'app',
@@ -194,22 +194,22 @@ const content: CompareContent = {
     {
       pageType: 'app',
       slug: 'math-puzzle-generator',
-      anchorText: 'Try the Math Puzzle Generator free with watermark',
+      anchorText: `Try the Math Puzzle Generator free with watermark`,
     },
     {
       pageType: 'app',
       slug: 'sudoku-generator',
-      anchorText: 'Try the Sudoku Generator free with watermark',
+      anchorText: `Try the Sudoku Generator free with watermark`,
     },
     {
       pageType: 'app',
       slug: 'coloring-page-creator',
-      anchorText: 'Try the Coloring Page Creator free with watermark',
+      anchorText: `Try the Coloring Page Creator free with watermark`,
     },
     {
       pageType: 'app',
       slug: 'bingo-card-maker',
-      anchorText: 'Try the Bingo Card Maker free with watermark',
+      anchorText: `Try the Bingo Card Maker free with watermark`,
     },
     {
       pageType: 'app',
@@ -219,12 +219,12 @@ const content: CompareContent = {
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Guide: How to create a printable product line',
+      anchorText: `Guide: How to create a printable product line`,
     },
     {
       pageType: 'guide',
-      slug: 'sell-educational-printables-etsy',
-      anchorText: 'Guide: How to sell educational printables on Etsy',
+      slug: `sell-educational-printables-etsy`,
+      anchorText: `Guide: How to sell educational printables on Etsy`,
     },
     {
       pageType: 'guide',
@@ -234,23 +234,23 @@ const content: CompareContent = {
     {
       pageType: 'guide',
       slug: 'create-etsy-worksheet-bundles',
-      anchorText: 'Guide: How to create worksheet bundles for Etsy',
+      anchorText: `Guide: How to create worksheet bundles for Etsy`,
     },
     {
       pageType: 'compare',
       slug: 'lcs-vs-book-bolt',
-      anchorText: 'Comparison: LessonCraftStudio vs Book Bolt',
+      anchorText: `Comparison: LessonCraftStudio vs Book Bolt`,
     },
     {
       pageType: 'compare',
       slug: 'best-puzzle-book-software',
-      anchorText: 'Roundup: Best puzzle book software for sellers',
+      anchorText: `Roundup: Best puzzle book software for sellers`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/images/compare/lcs-vs-canva.webp',
+      src: `/images/compare/lcs-vs-canva.webp`,
       alt: `Side-by-side comparison of LessonCraftStudio puzzle generators and Canva design templates for printable sellers`,
     },
   },

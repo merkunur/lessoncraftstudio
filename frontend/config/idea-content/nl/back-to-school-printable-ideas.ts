@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Terug naar School Printables Verkopen — Nichegids',
+    titleTag: `Terug naar School Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende terug-naar-school printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. merkthema productconcepten en seizoenstips voor verkopers.`,
 
-    primaryKeyword: 'terug naar school printable ideeën',
+    primaryKeyword: `terug naar school printable ideeën`,
     secondaryKeywords: [
-      'terug naar school werkbladen verkopen',
-      'school printable business ideeën',
-      'terug naar school activiteiten verkopers',
-      'school printables verkopen op Etsy',
+      `terug naar school werkbladen verkopen`,
+      `school printable business ideeën`,
+      `terug naar school activiteiten verkopers`,
+      `school printables verkopen op Etsy`,
     ],
     lsiKeywords: [
       'winkel werkbladbundels',
-      'verkoper printbare producten printables',
-      'schoolspullen thema activiteiten',
+      `verkoper printbare producten printables`,
+      `schoolspullen thema activiteiten`,
     ],
   },
   hero: {
@@ -53,7 +53,7 @@ Vanuit een zoekwoordenperspectief splitsen terug-naar-school printable-zoekopdra
     },
     {
       title: `Terug naar School Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met schoolthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke terug-naar-schoolkoperspubliek aanspreken. Maak sets waarin kinderen schoolspullen koppelen aan rugzakken, klasartikelen combineren zoals potloden met puntenslijpers en boeken met boekenleggers, of schoolvoorwerpen verbinden met bijpassende kleuren en patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die eerste-weekklasactiviteiten plannen waar gestructureerde werkbladen opgewonden nieuwe gebruikers gefocust en productief houden. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met schoolthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke terug-naar-schoolkoperspubliek aanspreken. Maak sets waarin kinderen schoolspullen koppelen aan rugzakken, klasartikelen combineren zoals potloden met puntenslijpers en boeken met boekenleggers, of schoolvoorwerpen verbinden met bijpassende kleuren en patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die eerste-weekklasactiviteiten plannen waar gestructureerde werkbladen opgewonden nieuwe gebruikers gefocust en productief houden. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
@@ -96,13 +96,13 @@ Vanuit een zoekwoordenperspectief splitsen terug-naar-school printable-zoekopdra
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Terug naar School Printables Verkopen op Etsy',
+      title: `Terug naar School Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor terug-naar-school printable-vermeldingen, en het zomerwinkelseizoen creëert een grote verkeerspiek voor educatieve digitale downloads. Publiceer je terug-naar-schoolvermeldingen tegen eind juni om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de julivraagstijging begint. Gebruik alle dertien tags met variaties die terug-naar-schoolsubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "terug naar school telwerkbladen kleuters," "eerste schooldag woordzoeker groep 3" en "schoolspullen kleurplaten peuters" richten zich op specifieke koperszoekopdrachten veel effectiever dan brede tags. Maak schoolvoorbereidingsgerichte vermeldingsvariaties die activiteitenbundels positioneren als eerste-weekklaspakketten. De Nederlandse markt via Etsy.nl biedt sterke kansen door de gesprelde zomervakantie (noord, midden, zuid) die het verkoopvenster verlengt.`,
     },
     {
       platform: 'Amazon KDP',
       title: `Terug naar School Activiteitenboeken Publiceren op KDP`,
-      description: `Amazon KDP blinkt uit voor terug-naar-schoolprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast schoolspullen en rugzakaccessoires. Compileer individuele terug-naar-schoolwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond schoolthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "terug naar school activiteitenboek voor kinderen," "schoolgereedheid werkbladen kleuters" en subthematermen toe. Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als eerste-dagcadeaus of schoolgereedheidsvoorbereiding. Publiceer tegen eind juni. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
+      description: `Amazon KDP blinkt uit voor terug-naar-schoolprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast schoolspullen en rugzakaccessoires. Compileer individuele terug-naar-schoolwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond schoolthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "terug naar school activiteitenboek voor kinderen," "schoolgereedheid werkbladen kleuters" en subthematermen toe. Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als eerste-dagcadeaus of schoolgereedheidsvoorbereiding. Publiceer tegen eind juni. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
@@ -151,62 +151,62 @@ Vanuit een zoekwoordenperspectief splitsen terug-naar-school printable-zoekopdra
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
+      anchorText: `Professionele optelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
+      anchorText: `Zomer printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kleuterschool printable businessideeën',
+      anchorText: `Kleuterschool printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
+      anchorText: `Groep 3 printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: `Rugzak — educatieve thema-afbeelding terug naar school`, caption: 'Rugzak' },
-    { src: '/image-library/classroom/binder.webp', alt: `Ordner — educatieve thema-afbeelding terug naar school`, caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: `Boek — educatieve thema-afbeelding terug naar school`, caption: 'Boek' },
-    { src: '/image-library/classroom/cabinet.webp', alt: `Kast — educatieve thema-afbeelding terug naar school`, caption: 'Kast' },
-    { src: '/image-library/classroom/calculator.webp', alt: `Rekenmachine — educatieve thema-afbeelding terug naar school`, caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: `Kalender — educatieve thema-afbeelding terug naar school`, caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding terug naar school`, caption: 'Rugzak' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — educatieve thema-afbeelding terug naar school`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: `Boek — educatieve thema-afbeelding terug naar school`, caption: 'Boek' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Kast — educatieve thema-afbeelding terug naar school`, caption: 'Kast' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Rekenmachine — educatieve thema-afbeelding terug naar school`, caption: 'Rekenmachine' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — educatieve thema-afbeelding terug naar school`, caption: 'Kalender' },
   ],
 
   youtubeId: '0cOPi7eajLs',

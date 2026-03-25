@@ -4,15 +4,15 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'grid match puzzle generator',
     secondaryKeywords: [
-      'printable grid puzzle maker for Etsy sellers',
+      `printable grid puzzle maker for Etsy sellers`,
       `picture tile matching worksheet generator for KDP publishers`,
-      'grid match puzzle creator commercial license',
-      'sell grid picture puzzles on Etsy and Gumroad',
+      `grid match puzzle creator commercial license`,
+      `sell grid picture puzzles on Etsy and Gumroad`,
     ],
     lsiKeywords: [
-      'digital tile matching printables online business',
-      'commercial use grid puzzle worksheet generator',
-      'printable picture puzzle business tools',
+      `digital tile matching printables online business`,
+      `commercial use grid puzzle worksheet generator`,
+      `printable picture puzzle business tools`,
     ],
     titleTag: `Grid Match Puzzle Generator | Create & Sell Puzzles`,
     metaDescription: `Create grid match puzzles to sell on Etsy, KDP & Gumroad. Configurable grid size, adjustable clue cells, auto answer key, 104 themes.`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Grid Match Puzzles in 5 Steps',
+    title: `How to Create Grid Match Puzzles in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -44,12 +44,12 @@ const content: AppContent = {
           `Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, and dozens more. Filter by theme using the dropdown or search by keyword. Click an image to select it for your puzzle. The selected image preview shows your choice before generating. You can also upload custom PNG, JPG, or GIF images using the Upload Custom Images panel to create personalized grid puzzles from your own photos or artwork.`,
       },
       {
-        title: 'Generate the Grid Puzzle Worksheet',
+        title: `Generate the Grid Puzzle Worksheet`,
         description:
           `Click Generate to create the grid match puzzle. The app divides your selected image into the configured grid, reveals the clue cells with the actual image tiles visible, and marks remaining cells with "?" placeholders. All tiles are shuffled using Fisher-Yates randomization and displayed as a numbered palette. Portrait layouts place the grid on top with the palette below; landscape layouts position the grid on the left with the palette on the right. A styled header appears with a cyan background (#00BCD4), deep purple title (#6A1B9A), and orange border frame (#FF8C42) displaying "Grid Match" and instructions in the selected language.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see the auto-generated answer key. It displays the complete image with numbered circles overlaid on each grid cell — yellow background (#ffffe0) circles with black outlines showing which palette number belongs in each position. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Grid Match Puzzle Generator',
+    title: `Key Features of the Grid Match Puzzle Generator`,
     features: [
       {
         title: `Single-Image Grid Puzzle with Configurable Rows and Columns (2–4 × 2–4)`,
@@ -103,31 +103,31 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Grid Match Puzzles Online',
+    title: `How to Sell Grid Match Puzzles Online`,
     cases: [
       {
-        title: 'Themed Grid Puzzle Bundles on Etsy',
+        title: `Themed Grid Puzzle Bundles on Etsy`,
         description:
           `Create themed grid puzzle packs using the 104 image collections — animal grid puzzles, vehicle grid puzzles, holiday picture puzzles, and dozens more. Each theme provides enough illustrations for 20–30 unique puzzle worksheets at varying grid sizes and clue counts. Package 15–25 grid puzzles per theme with answer keys included, and sell at $3–$7 per bundle. Include a mix of easy (2×2 with 3 clues), medium (3×3 with 2 clues), and hard (4×4 with 1 clue) puzzles in every bundle for broad appeal. The auto-generated answer key with numbered overlays eliminates the most time-consuming part of puzzle creation.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Picture Puzzle Workbooks on Amazon KDP',
+        title: `Picture Puzzle Workbooks on Amazon KDP`,
         description:
           `Compile 50–100 grid match puzzles into a printed workbook formatted for Amazon KDP. Structure your book by progressive difficulty: Chapter 1 uses 2×2 grids with 3 clues for beginners, Chapter 2 uses 3×3 grids with 2 clues for intermediate, and Chapter 3 uses 4×4 grids with 1 clue for advanced solvers. Include answer keys at the back of the book using the auto-generated numbered circle overlays. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors. Visual perception puzzle books perform well in the activity book category year-round.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Grid Puzzle Activity Packs on Gumroad',
+        title: `Grid Puzzle Activity Packs on Gumroad`,
         description:
           `Build ready-to-use grid puzzle activities as quick-finish supplements, morning work add-ons, or enrichment extras. Buyers searching for visual perception activities value puzzles that arrive print-ready with answer keys. Create themed sets: animal picture puzzles, landmark puzzles, food puzzles, and more. The configurable difficulty lets you create tiered bundles within a single product — include easy, medium, and hard versions of the same themed puzzles so buyers choose by skill level.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal Grid Puzzle Collections',
+        title: `Seasonal Grid Puzzle Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited grid puzzle collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine's Day packs in January. Include multiple grid sizes and difficulty levels in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine`s Day, back-to-school, summer vacation, and more. Create time-limited grid puzzle collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine`s Day packs in January. Include multiple grid sizes and difficulty levels in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
         title: `Custom Photo Grid Puzzles for Personalized Products`,
@@ -145,22 +145,22 @@ const content: AppContent = {
         `The generator supports 2–4 rows and 2–4 columns, configured independently. This creates grids from 2×2 (4 tiles) up to 4×4 (16 tiles). The default is 3×3 (9 tiles). Smaller grids are easier and work well for beginner-level products; larger grids increase difficulty and visual complexity. You can set rows and columns to different values — for example, 2 rows × 4 columns creates a wide rectangular puzzle.`,
     },
     {
-      question: 'How do clue cells control puzzle difficulty?',
+      question: `How do clue cells control puzzle difficulty?`,
       answer:
         `Clue cells are grid positions where the image tile remains visible as a hint. Set 1–5 clue cells using the slider in the Grid Options panel (default is 1). More clues make the puzzle easier because solvers have more reference points. For a 3×3 grid with 1 clue, solvers must match 8 tiles — quite challenging. With 5 clues, only 4 tiles need matching — much more accessible. This single control lets you create graduated difficulty sets from the same image.`,
     },
     {
-      question: 'How does the grid match puzzle work?',
+      question: `How does the grid match puzzle work?`,
       answer:
         `The worksheet shows a grid where some cells display the actual image tile (clue cells) and remaining cells show "?" placeholders. Below or beside the grid, a numbered palette displays all the hidden tiles in shuffled order. Solvers examine the clue cells, study the numbered tiles, and determine which number belongs in each empty grid position. The answer requires spatial reasoning — matching tile content to its correct location in the overall image.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key displays the complete, uncut image with numbered circles overlaid on each grid cell. Each circle has a yellow background (#ffffe0) with a black outline and shows the palette number that belongs in that position. Numbers correspond to the shuffled tile order from the worksheet, making answer checking straightforward. Both versions export separately using four dedicated download buttons.`,
     },
     {
-      question: 'Can I use my own images for grid puzzles?',
+      question: `Can I use my own images for grid puzzles?`,
       answer:
         `Yes. The Upload Custom Images panel lets you upload PNG, JPG, or GIF files from your computer. Uploaded images appear in a gallery below the upload area. Click any uploaded image to select it as your puzzle source. This feature is ideal for creating personalized puzzles from photos, custom artwork, or branded images. You can use uploaded images alongside the built-in library — switch between them freely.`,
     },
@@ -210,27 +210,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
+      anchorText: `Shadow Match Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
+      anchorText: `Picture Bingo Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
+      anchorText: `Picture Sort Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'missing-pieces-worksheets',
-      anchorText: 'Missing Pieces Worksheet Generator',
+      anchorText: `Missing Pieces Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
+      anchorText: `Find Objects Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,38 +240,38 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Sellers',
+      anchorText: `Preschool Printable Ideas for Sellers`,
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Sellers',
+      anchorText: `Kindergarten Printable Ideas for Sellers`,
     },
     {
       pageType: 'start',
       slug: 'printable-business-blueprint',
-      anchorText: 'Your Printable Business Blueprint',
+      anchorText: `Your Printable Business Blueprint`,
     },
     {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
-      anchorText: 'How to Create Matching & Grid Worksheets',
+      anchorText: `How to Create Matching & Grid Worksheets`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match.webp',
+      primary: `/samples/english/grid match/Grid Match.webp`,
       primaryAlt: `Grid match picture puzzle worksheet with image tiles divided into a grid, clue cells revealed, and numbered tile palette for matching`,
     },
     sampleGallery: [
       {
-        src: '/samples/english/grid match/Grid Match (1).webp',
+        src: `/samples/english/grid match/Grid Match (1).webp`,
         alt: `Three by three grid match puzzle with one clue cell and eight numbered tiles in palette`,
         caption: `3×3 grid puzzle — one clue cell revealed, eight tiles to match from numbered palette`,
       },
       {
-        src: '/samples/english/grid match/Grid Match (5).webp',
+        src: `/samples/english/grid match/Grid Match (5).webp`,
         alt: `Four by four advanced grid match puzzle with sixteen tiles and minimal clues`,
         caption: `4×4 advanced puzzle — maximum grid size for challenging visual perception activities`,
       },

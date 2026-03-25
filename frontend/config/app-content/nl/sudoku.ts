@@ -7,12 +7,12 @@ const content: AppContent = {
       `printbare plaatjes sudoku maker voor Etsy verkopers`,
       `afbeelding sudoku puzzel generator voor KDP uitgevers`,
       `plaatjes sudoku werkblad maker commerciële licentie Gumroad`,
-      'sudoku puzzel werkbladen verkopen op Gumroad',
+      `sudoku puzzel werkbladen verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'digitale sudoku printables online bedrijf',
-      'commercieel gebruik plaatjes puzzel generator',
-      'printbare logica puzzel business tools',
+      `digitale sudoku printables online bedrijf`,
+      `commercieel gebruik plaatjes puzzel generator`,
+      `printbare logica puzzel business tools`,
     ],
     titleTag: `Plaatjes Sudoku Generator | Maak & Verkoop Werkbladen`,
     metaDescription:
@@ -24,7 +24,7 @@ const content: AppContent = {
     tagline:
       `Puur visuele 4×4 sudoku puzzels met afbeeldingen in plaats van cijfers — drie moeilijkheidsniveaus van 4 tot 8 lege cellen, automatisch gegenereerde antwoordbladen met volledig ingevulde rasters, en themagebonden beeldselectie uit 104 collecties voor puzzels die wereldwijd verkopen zonder vertaling.`,
     description:
-      `Maak professionele 4×4 plaatjes sudoku werkbladen waarbij gebruikers lege cellen invullen met de juiste afbeeldingen op basis van rij-en-kolom logica. Elke puzzel gebruikt precies 4 unieke afbeeldingen die elk exact één keer in elke rij en één keer in elke kolom moeten voorkomen — dezelfde regels als klassieke sudoku, maar met kleurrijke illustraties in plaats van cijfers. Kies uit drie moeilijkheidsniveaus: Makkelijk verwijdert 4 cellen, Gemiddeld verwijdert 6, en Moeilijk verwijdert 8 — de helft van het raster. Selecteer afbeeldingen via themagebonden automatische selectie die willekeurig 4 afbeeldingen kiest uit een van de 104 thematische collecties, of selecteer handmatig precies 4 afbeeldingen uit de bibliotheek, zoekfunctie of je eigen uploads. Het premium rasterontwerp bevat afwisselende 2×2 blokkleuren in lichtblauw en lichtroos, meerlaagse schaduwen en een indigo buitenkader met afgeronde hoeken. Elke puzzel bevat een automatisch gegenereerde "Plaatjes Sudoku" koptekst gelokaliseerd in alle 11 talen en een dubbel canvasantwoordblad met het volledig ingevulde raster met alle 16 cellen gevuld. Voeg achtergrondthema's en kaderthema\'s toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Omdat plaatjes sudoku volledig visueel is — er verschijnen geen woorden op het puzzelraster — werkt elk werkblad identiek in alle 11 talen, waardoor je producten wereldwijd verkoopbaar zijn zonder enige aanpassing. Volledige Toegang ontgrendelt alle 104 thema's met meer dan 3100 illustraties en alle 11 UI-talen. Of je nu thematische sudoku-bundels verkoopt op Etsy.nl, logica-werkboeken samenstelt voor Amazon KDP, of redeneeractiviteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Maak professionele 4×4 plaatjes sudoku werkbladen waarbij gebruikers lege cellen invullen met de juiste afbeeldingen op basis van rij-en-kolom logica. Elke puzzel gebruikt precies 4 unieke afbeeldingen die elk exact één keer in elke rij en één keer in elke kolom moeten voorkomen — dezelfde regels als klassieke sudoku, maar met kleurrijke illustraties in plaats van cijfers. Kies uit drie moeilijkheidsniveaus: Makkelijk verwijdert 4 cellen, Gemiddeld verwijdert 6, en Moeilijk verwijdert 8 — de helft van het raster. Selecteer afbeeldingen via themagebonden automatische selectie die willekeurig 4 afbeeldingen kiest uit een van de 104 thematische collecties, of selecteer handmatig precies 4 afbeeldingen uit de bibliotheek, zoekfunctie of je eigen uploads. Het premium rasterontwerp bevat afwisselende 2×2 blokkleuren in lichtblauw en lichtroos, meerlaagse schaduwen en een indigo buitenkader met afgeronde hoeken. Elke puzzel bevat een automatisch gegenereerde "Plaatjes Sudoku" koptekst gelokaliseerd in alle 11 talen en een dubbel canvasantwoordblad met het volledig ingevulde raster met alle 16 cellen gevuld. Voeg achtergrondthema`s en kaderthema's toe met onafhankelijke dekkingsregelaars, en exporteer printklare PDF's en JPEG's op 300 DPI in Letter-, A4- of aangepaste formaten. Omdat plaatjes sudoku volledig visueel is — er verschijnen geen woorden op het puzzelraster — werkt elk werkblad identiek in alle 11 talen, waardoor je producten wereldwijd verkoopbaar zijn zonder enige aanpassing. Volledige Toegang ontgrendelt alle 104 thema`s met meer dan 3100 illustraties en alle 11 UI-talen. Of je nu thematische sudoku-bundels verkoopt op Etsy.nl, logica-werkboeken samenstelt voor Amazon KDP, of redeneeractiviteiten maakt voor Gumroad — deze generator levert productieklare puzzels in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
@@ -41,7 +41,7 @@ const content: AppContent = {
           `Open het paneel Sudoku voor Kinderen en selecteer een moeilijkheid uit het dropdownmenu: Makkelijk, Gemiddeld of Moeilijk. Makkelijk verwijdert 4 cellen uit het 4×4 raster, waardoor 12 ingevulde cellen overblijven en 4 cellen voor de gebruiker om op te lossen. Gemiddeld verwijdert 6 cellen voor een matige uitdaging. Moeilijk verwijdert 8 cellen — precies de helft van het raster — wat meer geavanceerd logisch redeneren vereist. Het systeem selecteert willekeurig welke cellen leeg worden, dus het opnieuw genereren van dezelfde moeilijkheid produceert elke keer een andere puzzelconfiguratie.`,
       },
       {
-        title: 'Selecteer precies 4 afbeeldingen',
+        title: `Selecteer precies 4 afbeeldingen`,
         description:
           `Open het paneel Afbeeldingenbibliotheek en kies hoe je je 4 puzzelafbeeldingen selecteert. Themagebonden selectie kiest een thema uit het dropdownmenu en het systeem selecteert automatisch 4 willekeurige afbeeldingen uit die collectie. Handmatige selectie laat je door 104 thematische collecties met meer dan 3100 illustraties bladeren, filteren op thema of zoeken op trefwoord om precies 4 afbeeldingen zelf te kiezen. Je kunt ook eigen afbeeldingen uploaden (PNG, JPG, GIF). De app vereist precies 4 afbeeldingen — niet meer, niet minder — aangezien een 4×4 sudoku-raster precies 4 unieke symbolen gebruikt.`,
       },
@@ -51,7 +51,7 @@ const content: AppContent = {
           `Klik op Genereren om het 4×4 plaatjes sudoku-raster te maken. De app plaatst je 4 geselecteerde afbeeldingen in een geldige sudoku-rangschikking waarbij elke afbeelding precies één keer per rij en één keer per kolom verschijnt, en verwijdert vervolgens het geconfigureerde aantal cellen op basis van je moeilijkheidsinstelling. Het premium raster toont afwisselende 2×2 blokkleuren in lichtblauw (#F8F9FC) en lichtroos (#FFF5F7), met vetgedrukte centrumlijnverdelers (#7C8DB5, 3px lijndikte) die de vier kwadranten scheiden, terwijl lichtere binnenlijnen (#D1D9E6, 1,5px) individuele cellen definiëren. Een indigo buitenkader (#667EEA) met 18px afgeronde hoeken omlijst het volledige raster, en drie meerlaagse schaduwen voegen diepte toe. Een gestileerde "Plaatjes Sudoku" koptekst verschijnt boven het raster met een paarse achtergrond (#5E35B1) en gelokaliseerde titeltekst.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description:
           `Schakel naar het tabblad Antwoordblad om het volledig ingevulde raster te zien met alle 16 cellen gevuld — geen lege cellen. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF. Bestanden worden geëxporteerd als sudoku_worksheet.jpeg/pdf en sudoku_answer_key.jpeg/pdf op 300 DPI. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden.`,
       },
@@ -89,7 +89,7 @@ const content: AppContent = {
       {
         title: `Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties`,
         description:
-          `Blader door 104 thematische beeldcollecties met dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die visueel samenhangende sudoku-puzzels creëren. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. Klik op een afbeelding om deze aan je puzzel toe te voegen. De Commerciële licentie bevat 10 kleurrijke thema's en alle 11 talen (alleen UI, want puzzels zijn puur visueel) om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema's voor maximale creatieve variatie over al je sudoku-producten. Upload ook eigen afbeeldingen (PNG, JPG, GIF) voor volledige creatieve vrijheid.`,
+          `Blader door 104 thematische beeldcollecties met dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die visueel samenhangende sudoku-puzzels creëren. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. Klik op een afbeelding om deze aan je puzzel toe te voegen. De Commerciële licentie bevat 10 kleurrijke thema`s en alle 11 talen (alleen UI, want puzzels zijn puur visueel) om mee te beginnen; Volledige Toegang ontgrendelt alle 104 thema`s voor maximale creatieve variatie over al je sudoku-producten. Upload ook eigen afbeeldingen (PNG, JPG, GIF) voor volledige creatieve vrijheid.`,
       },
       {
         title: `Printklare PDF- en JPEG-Export op 300 DPI met Grijstinten-Schakelaar`,
@@ -105,44 +105,44 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Plaatjes Sudoku Werkbladen Online Verkoopt',
+    title: `Hoe Je Plaatjes Sudoku Werkbladen Online Verkoopt`,
     cases: [
       {
-        title: 'Thematische Plaatjes Sudoku Bundels op Etsy',
+        title: `Thematische Plaatjes Sudoku Bundels op Etsy`,
         description:
           `Maak thematische sudoku-puzzelpakketten met de 104 beeldcollecties — dieren-sudoku, voedsel-sudoku, voertuigen-sudoku, oceaan-sudoku en tientallen meer. Elk thema biedt genoeg illustraties om meerdere unieke puzzels te genereren met verschillende afbeeldingscombinaties en celconfiguraties. Verpak 15–30 sudoku-puzzels per thema met antwoordbladen inbegrepen, en verkoop voor €3–€7 per bundel op Etsy.nl. Mix moeilijkheidsniveaus binnen elke bundel: begin met Makkelijk puzzels als opwarming en ga door naar Moeilijk voor een complete logische uitdaging. Het automatisch gegenereerde antwoordblad elimineert de grootste tijdverspilling bij puzzelproductie. De themagebonden automatische selectie maakt het mogelijk om in enkele minuten tientallen puzzels per thema te genereren — selecteer een thema, kies een moeilijkheid, genereer en download.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Logica-Werkboeken voor Beginners op Amazon KDP',
+        title: `Logica-Werkboeken voor Beginners op Amazon KDP`,
         description:
-          `Stel 50–100 plaatjes sudoku-puzzels samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer je boek met progressieve moeilijkheid: Hoofdstuk 1 gebruikt Makkelijk puzzels (4 lege cellen) voor beginners die rij-en-kolom logica leren, Hoofdstuk 2 verhoogt naar Gemiddeld (6 lege cellen), en Hoofdstuk 3 daagt uit met Moeilijk puzzels (8 lege cellen). Gebruik verschillende thema's per hoofdstuk of mix thema\'s door het hele boek voor visuele afwisseling. Neem antwoordbladen op achterin het boek. De grijstinten-schakelaar produceert inktbesparende pagina's voor zwart-wit boekbinnenwerken, en het puur visuele formaat betekent dat je werkboek kopers wereldwijd aanspreekt zonder vertaalkosten. Eén werkboek verkoopt op elke Amazon-marktplaats — publiceer in het Nederlands, Duits, Frans en Engels zonder aanpassingen aan de puzzelinhoud.`,
+          `Stel 50–100 plaatjes sudoku-puzzels samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer je boek met progressieve moeilijkheid: Hoofdstuk 1 gebruikt Makkelijk puzzels (4 lege cellen) voor beginners die rij-en-kolom logica leren, Hoofdstuk 2 verhoogt naar Gemiddeld (6 lege cellen), en Hoofdstuk 3 daagt uit met Moeilijk puzzels (8 lege cellen). Gebruik verschillende thema`s per hoofdstuk of mix thema's door het hele boek voor visuele afwisseling. Neem antwoordbladen op achterin het boek. De grijstinten-schakelaar produceert inktbesparende pagina`s voor zwart-wit boekbinnenwerken, en het puur visuele formaat betekent dat je werkboek kopers wereldwijd aanspreekt zonder vertaalkosten. Eén werkboek verkoopt op elke Amazon-marktplaats — publiceer in het Nederlands, Duits, Frans en Engels zonder aanpassingen aan de puzzelinhoud.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: `Logisch Redeneren Activiteiten voor het winkel op Gumroad`,
         description:
           `Maak kant-en-klare logische redeneeractiviteiten met afgedrukte antwoordbladen voor klassikaal gebruik. verkopers die Gumroad doorzoeken voor kritisch denken activiteiten waarderen plaatjes sudoku omdat het logische deductie ontwikkelt in een formaat dat toegankelijk is voor jonge gebruikers. Maak productcatalogusgerichte sets georganiseerd per thema: boerderijdieren logica-puzzels, voedselgroep-redeneeractiviteiten, vervoer-probleemoplossingsbladen. Elke set bevat gebruikerswerkbladen op meerdere moeilijkheidsniveaus en antwoordbladen in zowel PDF- als JPEG-formaat. Voor het Nederlandse basisonderwijs zijn plaatjes sudoku werkbladen bijzonder geschikt voor groep 3–6, waar logisch redeneren en patroonherkenning centraal staan in het productcatalogus.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Seizoens- en Feestdagen Sudoku Puzzelcollecties',
+        title: `Seizoens- en Feestdagen Sudoku Puzzelcollecties`,
         description:
           `De 104 thematische beeldcollecties dekken elk seizoens- en feestdagenmoment — Kerstmis, Halloween, Pasen, Valentijnsdag, Sinterklaas, Koningsdag, terug-naar-school, zomervakantie en meer. Maak tijdgebonden sudoku-puzzelcollecties die aansluiten bij piekverkoopperiodes. Breng Halloween-sudoku-bundels uit in september, Sinterklaas-collecties in oktober, Kerstcollecties in november en Valentijnspakketten in januari. Neem alle drie moeilijkheidsniveaus op in elke seizoenscollectie voor maximale waarde. Seizoensproducten vragen hogere prijzen tijdens hun piekperiode — een Sinterklaas plaatjes sudoku bundel met 20 puzzels en antwoordbladen voor €5–€7 op Etsy.nl is bijzonder aantrekkelijk voor Nederlandse ouders en verkopers die zoeken naar creatieve feestdagactiviteiten.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
+        platform: `Etsy / Amazon KDP / Gumroad (seizoensgebonden)`,
       },
       {
         title: `Wereldwijde Marktaantrekkingskracht met Puur Visuele Puzzels`,
         description:
           `Plaatjes sudoku is volledig visueel — er verschijnen geen woorden, letters of cijfers op het puzzelraster. Dit betekent dat elk werkblad dat je maakt identiek werkt voor kopers in elk land en elke taal. Eén enkele sudoku-bundel bedient Nederlandse, Duitse, Franse, Spaanse en elke andere markt zonder aanpassing. Vermeld hetzelfde product in meerdere Etsy-winkels of op regionale Amazon KDP-marktplaatsen zonder aparte taalversies te maken. Dit puur visuele voordeel vergroot je adresseerbare markt dramatisch terwijl de productie-inspanning constant blijft. Voor Nederlandse verkopers die hun printable bedrijf willen opschalen: begin met de Nederlandse markt op Etsy.nl en breid vervolgens uit naar Etsy.com, Amazon.de, Amazon.fr en Amazon.es — allemaal met exact dezelfde puzzelbestanden.`,
-        platform: 'Wereldwijde marktplaatsen (alle platforms)',
+        platform: `Wereldwijde marktplaatsen (alle platforms)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Hoe werkt een 4×4 plaatjes sudoku puzzel?',
+      question: `Hoe werkt een 4×4 plaatjes sudoku puzzel?`,
       answer:
         `Een 4×4 plaatjes sudoku gebruikt een raster van 16 cellen verdeeld over 4 rijen en 4 kolommen. Vier unieke afbeeldingen vervangen traditionele cijfers. De regel is dezelfde als bij klassieke sudoku: elke afbeelding moet precies één keer in elke rij en precies één keer in elke kolom voorkomen. Sommige cellen beginnen gevuld met afbeeldingen (aanwijzingen) en de gebruiker vult de lege cellen in door logische eliminatie — controleren welke afbeelding ontbreekt in elke rij en kolom om de juiste plaatsing te bepalen.`,
     },
@@ -152,7 +152,7 @@ const content: AppContent = {
         `Afbeeldingen maken sudoku toegankelijk voor pre-lezers en jonge gebruikers die cijfers nog niet beheersen. Het visuele formaat betrekt gebruikers met kleurrijke thematische illustraties terwijl het dezelfde logische redeneervaardigheden ontwikkelt als cijfergebaseerde sudoku. Afbeeldingsgebaseerde puzzels zijn bovendien universeel begrijpelijk — geen taal- of getallenkennis vereist — waardoor je producten wereldwijd verkoopbaar zijn zonder vertaling. Voor het Nederlandse onderwijs zijn plaatjes sudoku bijzonder geschikt voor groep 1–4 waar visueel leren centraal staat.`,
     },
     {
-      question: 'Wat bepalen de drie moeilijkheidsniveaus precies?',
+      question: `Wat bepalen de drie moeilijkheidsniveaus precies?`,
       answer:
         `Moeilijkheid bepaalt hoeveel cellen leeg worden gelaten voor de gebruiker om op te lossen. Makkelijk verwijdert 4 cellen uit het raster van 16 cellen, waardoor 12 aanwijzingen overblijven voor eenvoudig oplossen. Gemiddeld verwijdert 6 cellen, wat zorgvuldigere logische deductie vereist. Moeilijk verwijdert 8 cellen — precies de helft van het raster — wat meerstaps redeneren vereist. Het systeem selecteert willekeurig welke cellen leeg worden gemaakt, dus het opnieuw genereren van dezelfde moeilijkheid creëert elke keer een andere puzzelindeling.`,
     },
@@ -167,12 +167,12 @@ const content: AppContent = {
         `Themagebonden selectie laat je een thema kiezen uit het dropdownmenu en het systeem selecteert automatisch 4 willekeurige afbeeldingen uit die collectie — ideaal voor snelle puzzelgeneratie. Handmatige selectie opent de volledige Afbeeldingenbibliotheek waar je door 104 thematische collecties bladert, filtert op thema of zoekt op trefwoord om precies 4 specifieke afbeeldingen te kiezen. Je kunt ook eigen afbeeldingen uploaden (PNG, JPG, GIF). Beide methoden resulteren in precies 4 afbeeldingen die in de puzzel worden gebruikt.`,
     },
     {
-      question: 'Hoe werkt het antwoordblad voor plaatjes sudoku?',
+      question: `Hoe werkt het antwoordblad voor plaatjes sudoku?`,
       answer:
         `De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad en een Antwoordblad-tabblad. Het werkblad toont het 4×4 raster met lege cellen waar gebruikers de juiste afbeeldingen moeten bepalen. Het antwoordblad toont exact hetzelfde raster maar met alle 16 cellen gevuld — elke lege cel is ingevuld met de juiste afbeelding. Beide versies worden apart geëxporteerd met vier speciale knoppen: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg en sudoku_answer_key.pdf.`,
     },
     {
-      question: 'Wat maakt het rasterontwerp premium?',
+      question: `Wat maakt het rasterontwerp premium?`,
       answer:
         `Het sudoku-raster bevat afwisselende 2×2 blokachtergronden in lichtblauw (#F8F9FC) en lichtroos (#FFF5F7) die gebruikers helpen blokgrenzen te identificeren. Vetgedrukte centrumlijnverdelers (#7C8DB5, 3px lijndikte) scheiden de vier kwadranten terwijl lichtere binnenlijnen (#D1D9E6, 1,5px) individuele cellen definiëren. Een indigo buitenkader (#667EEA) met 18px afgeronde hoeken omlijst het volledige raster, en drie meerlaagse schaduwen op verschillende offsets voegen professionele diepte toe. Afbeeldingen worden weergegeven op 65% van de celgrootte voor duidelijke visuele scheiding.`,
     },
@@ -187,7 +187,7 @@ const content: AppContent = {
         `Ja. Je hebt toegang tot elke functie — alle drie moeilijkheidsniveaus, themagebonden en handmatige beeldselectie, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema's, teksttools en alle downloadformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Gratis proefversie downloads bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.`,
     },
     {
-      question: 'Zijn plaatjes sudoku werkbladen taalgevoelig?',
+      question: `Zijn plaatjes sudoku werkbladen taalgevoelig?`,
       answer:
         `Nee. Plaatjes sudoku is volledig visueel — het puzzelraster bevat alleen afbeeldingen, geen woorden of cijfers. Dit maakt elk werkblad identiek werkend in alle 11 ondersteunde talen. Het enige gelokaliseerde element is de automatisch gegenereerde "Plaatjes Sudoku" koptekst boven het raster, die automatisch vertaalt wanneer je van taal wisselt. De puzzel zelf vereist nul aanpassing voor verschillende markten, waardoor plaatjes sudoku ideaal is voor wereldwijde verkoop — één bestand, elke markt.`,
     },
@@ -206,13 +206,13 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'ontbrekende-puzzelstukjes-werkbladen',
-      anchorText: 'Ontbrekende Stukjes Werkblad Generator',
+      slug: `ontbrekende-puzzelstukjes-werkbladen`,
+      anchorText: `Ontbrekende Stukjes Werkblad Generator`,
     },
     {
       pageType: 'app',
-      slug: 'welke-hoort-niet-bij-werkbladen',
-      anchorText: 'Welke Hoort Er Niet Bij Werkblad Generator',
+      slug: `welke-hoort-niet-bij-werkbladen`,
+      anchorText: `Welke Hoort Er Niet Bij Werkblad Generator`,
     },
     {
       pageType: 'app',
@@ -222,7 +222,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'rekenpuzzels-werkbladen',
-      anchorText: 'Rekenpuzzel Werkblad Generator',
+      anchorText: `Rekenpuzzel Werkblad Generator`,
     },
     {
       pageType: 'app',
@@ -242,7 +242,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'groep-3-printable-ideen',
-      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
+      anchorText: `Groep 3 printable ideeën voor basisonderwijs`,
     },
     {
       pageType: 'idea',
@@ -252,28 +252,28 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'amazon-kdp-activiteitenboeken',
-      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+      anchorText: `Activiteitenboeken uitgeven op Amazon KDP`,
     },
     {
       pageType: 'guide',
       slug: 'plaatjes-sudoku-maken',
-      anchorText: 'Plaatjes sudoku voor kinderen maken',
+      anchorText: `Plaatjes sudoku voor kinderen maken`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp',
+      primary: `/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp`,
       primaryAlt: `4×4 plaatjes sudoku werkblad met thematische afbeeldingen in een premium raster met afwisselende blokkleuren en automatisch gegenereerde Plaatjes Sudoku koptekst`,
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%202.webp',
+        src: `/samples/dutch/sudoku/Plaatjes%20Sudoku%202.webp`,
         alt: `Makkelijk moeilijkheidsniveau plaatjes sudoku met 4 lege cellen en 12 ingevulde cellen in een 4×4 raster`,
         caption: `Makkelijk moeilijkheidsniveau — 4 lege cellen voor beginners die rij-en-kolom logica leren`,
       },
       {
-        src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%203.webp',
+        src: `/samples/dutch/sudoku/Plaatjes%20Sudoku%203.webp`,
         alt: `Moeilijk plaatjes sudoku met 8 lege cellen en 8 ingevulde cellen in een 4×4 raster`,
         caption: `Moeilijk moeilijkheidsniveau — 8 lege cellen die meerstaps logisch redeneren vereisen`,
       },
@@ -283,7 +283,7 @@ const content: AppContent = {
         caption: `Automatisch gegenereerd antwoordblad — volledig ingevuld raster met alle afbeeldingen geplaatst`,
       },
       {
-        src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%204.webp',
+        src: `/samples/dutch/sudoku/Plaatjes%20Sudoku%204.webp`,
         alt: `Plaatjes sudoku werkblad met achtergrondthema en kaderthema voor professionele presentatie`,
         caption: `Professionele indeling met achtergrond- en kaderthema's voor marktplaatsvermeldingen`,
       },

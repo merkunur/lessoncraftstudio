@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Summer Learning Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover summer learning printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Seasonal product concepts for parents, buyers, and camp activity.`,
 
-    primaryKeyword: 'summer learning printable ideas',
+    primaryKeyword: `summer learning printable ideas`,
     secondaryKeywords: [
-      'summer learning worksheets to sell',
-      'summer slide printable business',
-      'summer practice sheets for sellers',
-      'sell summer learning printables on Gumroad',
+      `summer learning worksheets to sell`,
+      `summer slide printable business`,
+      `summer practice sheets for sellers`,
+      `sell summer learning printables on Gumroad`,
     ],
     lsiKeywords: [
-      'summer brain prevention worksheets',
-      'vacation learning activity pages',
-      'skill retention printable resources',
+      `summer brain prevention worksheets`,
+      `vacation learning activity pages`,
+      `skill retention printable resources`,
     ],
   },
   hero: {
@@ -49,12 +49,12 @@ The seasonal concentration of summer learning demand creates intense revenue win
       appId: 'matching',
     },
     {
-      title: 'Summer Coloring Pages for Etsy and KDP Sellers',
+      title: `Summer Coloring Pages for Etsy and KDP Sellers`,
       description: `Summer-themed coloring activities featuring beach scenes, pool parties, camping adventures, ice cream treats, sunshine, and outdoor play that provide screen-free creative entertainment while building fine motor skills and reinforcing seasonal vocabulary through labeled coloring designs. Use the Coloring Page generator to create color-by-number summer scenes combining math practice with creative activity, labeled summer vocabulary coloring pages where children read and learn seasonal words while coloring, summer camp activity coloring pages program coordinators use for structured creative time, and relaxing summer-themed designs parents purchase for restaurant outings, road trips, and rainy-day indoor activities.`,
       appId: 'coloring',
     },
     {
-      title: 'Summer Learning Bingo Cards for Activity Packs',
+      title: `Summer Learning Bingo Cards for Activity Packs`,
       description: `Summer-themed bingo cards featuring seasonal vocabulary, summer reading words, and vacation activity terms that provide interactive group learning experiences for summer camps, family game nights, library reading programs, and community recreation activities. Use the Bingo generator to create summer vocabulary bingo with beach, camping, garden, and outdoor adventure word sets, summer reading bingo where children mark off books and reading activities for library program participation, summer math review bingo reinforcing addition and number facts through gameplay, and summer camp activity bingo cards program directors use for group entertainment during structured recreation time.`,
       appId: 'bingo',
     },
@@ -88,12 +88,12 @@ The seasonal concentration of summer learning demand creates intense revenue win
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Summer Learning Printables on Etsy',
+      title: `Selling Summer Learning Printables on Etsy`,
       description: `Buyers search Etsy with terms like "summer worksheets," "summer learning packets," "summer bridge activities," "summer slide prevention," "summer camp printables," "road trip activities for kids," and "screen-free summer activities" during the concentrated May-through-July buying window that represents the peak revenue opportunity for seasonal printable sellers. Use all thirteen tags with variations combining grade levels, summer themes, activity types, and buyer personas to capture the diverse purchasing segments within the summer learning market who search differently based on whether they are parents preventing summer slide, buyers preparing end-of-year packets, or camp coordinators stocking activity supplies. Bundle products by grade level creating comprehensive summer bridge packets that cover math review, reading practice, vocabulary building, and creative activities for a single grade transition, because parents prefer purchasing one complete packet rather than assembling individual worksheets from multiple sellers. Summer camp coordinators purchase bulk activity packs requiring enough material for multiple sessions across the summer program duration, making large bundles with twenty-five to fifty worksheets particularly appealing to this institutional buyer segment. The buying window concentrates from late April through July with May and June representing the peak, so have products listed, optimized, and indexed by March or April to capture early searchers and build sales velocity before the competitive rush begins.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Summer Activity Books on KDP',
+      title: `Publishing Summer Activity Books on KDP`,
       description: `Amazon KDP serves the summer learning market effectively through comprehensive activity book compilations of sixty to one hundred pages that buyers purchase as complete summer practice solutions, adding summer workbooks to regular Amazon orders alongside school supplies, summer reading books, and vacation preparation items. Create focused compilations like "summer bridge workbooks" covering math and reading review for specific grade transitions, "summer learning activity books" combining multiple worksheet types into varied practice collections, "vacation activity books for kids" targeting the travel and road trip entertainment segment, summer math practice books organized by grade level for targeted skill retention, and summer reading and writing journals for library program participation and independent learning. Timing is critical for KDP summer products because Amazon search indexing and ranking algorithms need time to process new listings, meaning books must be published and live by March or April to be fully indexed and discoverable when the May-through-July purchasing wave arrives. Position books strategically using KDP keyword fields with terms like "summer bridge," "summer learning," "summer slide prevention," "vacation activities," and specific grade-level transitions to capture the targeted search queries buyers use when purchasing summer educational materials.`,
     },
     {
@@ -143,32 +143,32 @@ The seasonal concentration of summer learning demand creates intense revenue win
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -183,12 +183,12 @@ The seasonal concentration of summer learning demand creates intense revenue win
   ],
 
   themeImages: [
-    { src: '/image-library/summer/barbecue.webp', alt: 'Barbecue — themed educational image', caption: 'Barbecue' },
-    { src: '/image-library/summer/beach.webp', alt: 'Beach — themed educational image', caption: 'Beach' },
-    { src: '/image-library/summer/beach%20ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
-    { src: '/image-library/summer/bucket.webp', alt: 'Bucket — themed educational image', caption: 'Bucket' },
-    { src: '/image-library/summer/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
-    { src: '/image-library/summer/campfire.webp', alt: 'Campfire — themed educational image', caption: 'Campfire' },
+    { src: `/image-library/summer/barbecue.webp`, alt: `Barbecue — themed educational image`, caption: 'Barbecue' },
+    { src: `/image-library/summer/beach.webp`, alt: `Beach — themed educational image`, caption: 'Beach' },
+    { src: `/image-library/summer/beach%20ball.webp`, alt: `Beach Ball — themed educational image`, caption: 'Beach Ball' },
+    { src: `/image-library/summer/bucket.webp`, alt: `Bucket — themed educational image`, caption: 'Bucket' },
+    { src: `/image-library/summer/butterfly.webp`, alt: `Butterfly — themed educational image`, caption: 'Butterfly' },
+    { src: `/image-library/summer/campfire.webp`, alt: `Campfire — themed educational image`, caption: 'Campfire' },
   ],
 
 

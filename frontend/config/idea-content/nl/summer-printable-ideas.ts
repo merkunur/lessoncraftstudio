@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Zomer Printables Verkopen — Nichegids',
+    titleTag: `Zomer Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende zomer printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Strand- en zonthema productconcepten en seizoenstips voor verkopers.`,
 
     primaryKeyword: 'zomer printable ideeën',
     secondaryKeywords: [
-      'zomerthema werkbladen verkopen',
-      'zomer printable business ideeën',
-      'zomer activiteiten voor verkopers',
-      'zomer printables verkopen op Etsy',
+      `zomerthema werkbladen verkopen`,
+      `zomer printable business ideeën`,
+      `zomer activiteiten voor verkopers`,
+      `zomer printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'strand en zon educatieve werkbladen',
-      'warm weer activiteitenpagina\'s',
-      'vakantie thema printbare producten printables',
+      `strand en zon educatieve werkbladen`,
+      `warm weer activiteitenpagina's`,
+      `vakantie thema printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Zomer Printable Businessideeën voor Verkopers',
+    title: `Zomer Printable Businessideeën voor Verkopers`,
     description: `De zomer opent het langste aanhoudende verkoopvenster op de seizoensgebonden printable-kalender, met opbouwende vraag van mei tot augustus terwijl ouders zoeken naar gestructureerde activiteiten om zomers leerverlies tegen te gaan, kampen en kinderdagverblijven themawerkbladen inslaan, en gezinnen reisvermaak voorbereiden voor vakantie-autotrips. De niche biedt een uitgebreid scala aan subthema's waaronder strandscènes, zonneschijn, ijsjes, watermeloen, zandkastelen, zonnebloemen, zwembaden, zeesterren, schelpen en slippers, wat verkopers een levendig visueel vocabulaire geeft dat de energie en opwinding vastlegt die kinderen associëren met de warmste maanden. Thuisonderwijzende gezinnen die hun onderwijs voortzetten tijdens de zomermaanden voegen consistente vraag toe gedurende het hele venster. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de zomerniche verlengde seizoensgebonden vraag met universeel aantrekkelijk beeldmateriaal. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De zomer printable-niche onderscheidt zich van andere seizoenscategorieën door de enorme duur en de intensiteit van de ouderlijke vraag naar gestructureerde kinderactiviteiten. Terwijl de meeste feestdagniches geconcentreerde verkoopvensters van twee tot vier weken leveren, strekt de zomer zich uit over vier volledige maanden van actief kopen van mei tot augustus, met vroege verkopers en kampcoördinatoren die al in april beginnen met zoeken. Deze verlengde tijdlijn betekent dat zomer printable-vermeldingen meer tijd hebben om beoordelingen te verzamelen, zoekrangschikkingen te beklimmen en samengesteld organisch verkeer te genereren gedurende het hele seizoen. Ouders worden het dominante koopsegment tijdens de zomermaanden wanneer schoolroutines oplossen en de realiteit van het wekenlang betrokken, vermaakt en lerend houden van kinderen dringende zoekopdrachten stimuleert naar printbare activiteiten die structuur bieden zonder de starheid van formeel productcatalogus.
@@ -40,27 +40,27 @@ Platformanalyses tonen consistent aan dat zomer printable-zoekopdrachten vanaf h
 
   productIdeas: [
     {
-      title: 'Zomer Telwerkbladen voor Printable Verkopers',
+      title: `Zomer Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met schelpen, zeesterren, ijshoorntjes, strandballen en zandkastelen brengen warm-weer opwinding in vroege rekenoefeningen die ouders en kampcoördinatoren gretig kopen gedurende de zomermaanden. Gebruik de Zoek en Tel-generator om strandscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen oceaangolven, zandstranden en zwembadlandschappen. Bied sets aan op meerdere vaardigheidsniveaus: zomervoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen schelpen of groepjes tropische vissen voor kinderen in groep 3. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid zomer-telpakket voor gemengde leeftijdsgroepen in kampsettings. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Zomer Woordzoekpuzzels Online Verkopen',
+      title: `Zomer Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met strandvocabulaire trekken ouders aan die educatieve zomeractiviteiten zoeken en kampbegeleiders die binnenprogramma's plannen voor regenachtige dagen tijdens het lange zomerprogrammaseizoen. Maak puzzels met zomerspecifiek vocabulaire zoals oceaan, strand, zonneschijn, zandkasteel, zonnebrand, surfplank en limonade naast bredere warm-weer activiteitentermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer zomertermen voor oudere gebruikers. Variaties zoals strandvocabulaire, oceaandierenwoorden en zomersportterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Zomer Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met zomerthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede zomerkoperspubliek. Maak sets waarin kinderen strandartikelen koppelen aan hun functies, zomerdieren combineren met hun habitats, ijssmaken verbinden met hun kleuren, of zomersportuitrusting matchen met de bijbehorende activiteit. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk ouders en kampbegeleiders aan die gestructureerde maar leuke zomeractiviteiten zoeken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad.`,
+      title: `Zomer Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met zomerthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede zomerkoperspubliek. Maak sets waarin kinderen strandartikelen koppelen aan hun functies, zomerdieren combineren met hun habitats, ijssmaken verbinden met hun kleuren, of zomersportuitrusting matchen met de bijbehorende activiteit. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk ouders en kampbegeleiders aan die gestructureerde maar leuke zomeractiviteiten zoeken. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad.`,
       appId: 'matching',
     },
     {
-      title: 'Zomerthema Optelwerkbladen voor Rekenverkopers',
+      title: `Zomerthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met zomerillustraties transformeren routinematige rekenoefeningen in leuke vakantieactiviteiten die ouders verkiezen boven gewone getallenoefeningen wanneer ze proberen leerverlies tijdens de zomer te voorkomen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen schelpen op het strand optellen, ijsjesthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met zeesterren, strandballen en watermeloenen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met zomervisuele context. Zomer-rekenwerkbladen zijn bijzonder waardevol omdat ze rekenvaardighedenoefening vermommen als seizoensplezier.`,
       appId: 'addition',
     },
     {
-      title: 'Zomer Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Zomer Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn het instapproduct met het hoogste volume voor zomer printable-winkels omdat zomerthema kleuren vrijwel elk gezin met jonge kinderen aanspreekt en vroege beoordelingen genereert die de zichtbaarheid van je hele winkel verhogen gedurende het lange zomerverkoopseizoen. De Kleuren-generator maakt gedetailleerde contouren van stranddscènes, zonneschijn, zeesterren, schelpen, ijshoorntjes, watermeloenplakken, zwembadscènes en tropische bloemen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals strandscènes of tropische vruchten. Voor KDP compileer je dertig tot vijftig kleurplaten in zomer-activiteitenboeken gepositioneerd als reisentertainment of vakantiecadeaus.`,
       appId: 'coloring',
     },
@@ -94,13 +94,13 @@ Platformanalyses tonen consistent aan dat zomer printable-zoekopdrachten vanaf h
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Zomer Printables Verkopen op Etsy',
+      title: `Zomer Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor zomer printable-vermeldingen, en het zomerwinkelseizoen creëert een langdurige verkeerspiek voor educatieve digitale downloads die vier maanden aanhoudt. Publiceer je zomervermeldingen tegen half april om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de meivraagstijging begint. Gebruik alle dertien tags met variaties die zomersubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "zomer telwerkbladen kleuters," "strand woordzoeker kleuterschool" en "zeester kleurplaten peuters" richten zich op specifieke koperszoekopdrachten effectiever dan brede tags. Maak vakantie- en kampgerichte vermeldingsvariaties die activiteitenbundels positioneren als reisentertainment of zomerkamppakketten. De Nederlandse markt via Etsy.nl biedt kansen door de lange Nederlandse zomervakantie en de sterke traditie van vakantiewerkboekjes.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Zomer Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor zomerprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast strandspeelgoed, reisspellen en vakantie-entertainment. Compileer individuele zomerwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond zomerthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "zomer activiteitenboek voor kinderen," "vakantie werkbladen kleuters" en subthematermen toe als "strand kleurboek" of "oceaan activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Het zomerthema verkoopt bijzonder goed op KDP als reisvermaak voor autotrips en vliegreizen. Publiceer tegen begin april. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
+      title: `Zomer Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor zomerprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast strandspeelgoed, reisspellen en vakantie-entertainment. Compileer individuele zomerwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond zomerthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "zomer activiteitenboek voor kinderen," "vakantie werkbladen kleuters" en subthematermen toe als "strand kleurboek" of "oceaan activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Het zomerthema verkoopt bijzonder goed op KDP als reisvermaak voor autotrips en vliegreizen. Publiceer tegen begin april. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
@@ -149,62 +149,62 @@ Platformanalyses tonen consistent aan dat zomer printable-zoekopdrachten vanaf h
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Terug naar school printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Zeedieren printable businessideeën',
+      anchorText: `Zeedieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Kamperen printable businessideeën',
+      anchorText: `Kamperen printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/summer/barbecue.webp', alt: 'Barbecue — educatieve thema-afbeelding zomer', caption: 'Barbecue' },
-    { src: '/image-library/summer/beach.webp', alt: 'Strand — educatieve thema-afbeelding zomer', caption: 'Strand' },
-    { src: '/image-library/summer/beach%20ball.webp', alt: 'Strandbal — educatieve thema-afbeelding zomer', caption: 'Strandbal' },
-    { src: '/image-library/summer/bucket.webp', alt: 'Emmer — educatieve thema-afbeelding zomer', caption: 'Emmer' },
-    { src: '/image-library/summer/butterfly.webp', alt: 'Vlinder — educatieve thema-afbeelding zomer', caption: 'Vlinder' },
-    { src: '/image-library/summer/campfire.webp', alt: 'Kampvuur — educatieve thema-afbeelding zomer', caption: 'Kampvuur' },
+    { src: `/image-library/summer/barbecue.webp`, alt: `Barbecue — educatieve thema-afbeelding zomer`, caption: 'Barbecue' },
+    { src: `/image-library/summer/beach.webp`, alt: `Strand — educatieve thema-afbeelding zomer`, caption: 'Strand' },
+    { src: `/image-library/summer/beach%20ball.webp`, alt: `Strandbal — educatieve thema-afbeelding zomer`, caption: 'Strandbal' },
+    { src: `/image-library/summer/bucket.webp`, alt: `Emmer — educatieve thema-afbeelding zomer`, caption: 'Emmer' },
+    { src: `/image-library/summer/butterfly.webp`, alt: `Vlinder — educatieve thema-afbeelding zomer`, caption: 'Vlinder' },
+    { src: `/image-library/summer/campfire.webp`, alt: `Kampvuur — educatieve thema-afbeelding zomer`, caption: 'Kampvuur' },
   ],
 
   youtubeId: '0cOPi7eajLs',

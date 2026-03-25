@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas desenho em grelha',
+    primaryKeyword: `gerador fichas desenho em grelha`,
     secondaryKeywords: [
       `gerador de fichas de desenho em grelha imprimíveis para vendedores Etsy`,
       `criador de fichas de reprodução em grelha para Amazon KDP`,
-      'vender fichas de desenho em grelha no Gumroad',
+      `vender fichas de desenho em grelha no Gumroad`,
       `gerador de fichas de desenho e colorir licença comercial`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `fichas de reprodução célula por célula imprimíveis uso comercial`,
       `gerador de fichas de desenho em grelha com modos de simetria`,
     ],
-    titleTag: 'Gerador Fichas Desenho em Grelha | Criar e Vender',
+    titleTag: `Gerador Fichas Desenho em Grelha | Criar e Vender`,
     metaDescription:
       `Crie fichas de desenho em grelha para Etsy, KDP e Gumroad. Grelha dupla, percentagem de pistas ajustável, modos de simetria. Teste grátis com marca d'água.`,
   },
@@ -66,7 +66,7 @@ const content: AppContent = {
           `Cada imagem gera duas grelhas complementares que funcionam juntas como um exercício de desenho completo. A Grelha de Prática apresenta células vazias com contornos suaves onde os usuários desenham a sua reprodução. A Grelha de Pistas mostra uma fração configurável da imagem de referência — algumas células preenchidas, outras vazias — para que os usuários vejam pistas visuais parciais e completem o resto. Esta abordagem de grelha dupla ensina observação, raciocínio espacial e controlo da motricidade fina em simultâneo. Para os vendedores, o formato de duas grelhas cria um produto premium que se distingue das simples páginas para colorir, justificando preços mais altos na Etsy, Gumroad e KDP.`,
       },
       {
-        title: 'Percentagem de pistas ajustável de 10 % a 75 %',
+        title: `Percentagem de pistas ajustável de 10 % a 75 %`,
         description:
           `Um único deslizador controla que fração das células da grelha de pistas revela a imagem de referência. A 75 %, os usuários veem a maior parte da imagem e completam apenas o quarto em falta — perfeito para principiantes que ganham confiança. A 50 %, metade das células é visível para um desafio moderado. A 25 %, os usuários trabalham a partir de fragmentos dispersos, exigindo uma observação cuidadosa. A 10 %, quase nenhuma referência é visível e os usuários reconstroem a imagem praticamente do zero — um autêntico quebra-cabeças mesmo para adultos. Este controlo granular da dificuldade permite aos vendedores criar cadernos progressivos que avançam de 75 % a 10 % ao longo dos capítulos, ou agrupar versões fácil, médio e difícil do mesmo tema.`,
       },
@@ -81,7 +81,7 @@ const content: AppContent = {
           `Aceda a mais de 3000 ilustrações de contornos a preto e branco em mais de 100 coleções temáticas — animais, veículos, alimentos, natureza, profissões, festividades e dezenas mais. Ao contrário das bibliotecas de imagens coloridas usadas pela maioria das aplicações, o Desenho em Grelha usa contornos limpos a preto e branco concebidos especificamente para atividades de reprodução e colorir. Os usuários copiam o contorno na grelha de prática e podem colori-lo depois. A Licença Comercial inclui 10 temas de contornos a preto e branco para começar; o Acesso Completo desbloqueia todos os 100+ temas para máxima variedade de produtos. Cada tema torna-se numa listagem de produto distinta — desenho em grelha de animais da quinta, reprodução célula por célula de dinossauros, exercícios de simetria de criaturas marinhas.`,
       },
       {
-        title: 'Tamanho de grelha configurável de 3×3 a 10×10',
+        title: `Tamanho de grelha configurável de 3×3 a 10×10`,
         description:
           `Defina linhas (3 a 10) e colunas (3 a 10) de forma independente para criar grelhas que vão desde 3×3 com 9 células grandes até 10×10 com 100 células pequenas. As células grandes facilitam o desenho para usuários mais novos ou imagens simples; as células pequenas aumentam as exigências de precisão para usuários mais velhos ou ilustrações mais detalhadas. As grelhas não quadradas como 4×6 ou 8×5 adaptam-se a diferentes proporções de aspeto das imagens. O tamanho da grelha e a percentagem de pistas juntos definem dois eixos de dificuldade independentes: uma grelha 5×5 a 50 % de pistas é moderada, enquanto uma grelha 10×10 a 10 % de pistas é de nível perito. Isto cria dezenas de combinações de dificuldade distintas a partir de uma única imagem.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Desenho em Grelha Online',
+    title: `Como Vender Fichas de Desenho em Grelha Online`,
     cases: [
       {
         title: `Pacotes de atividades de desenho em grelha na Etsy`,
@@ -113,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de competências de desenho na Amazon KDP',
+        title: `Cadernos de competências de desenho na Amazon KDP`,
         description:
           `Compile 60 a 100 exercícios de desenho em grelha num caderno impresso em formato Amazon KDP. Estruture o livro como uma progressão de desenho: comece com grelhas 3×3 a 75 % de pistas para uma reprodução simples, avance com grelhas 5×5 a 50 % de pistas, e termine com grelhas 8×8 ou 10×10 a 10–15 % de pistas para desafios de nível perito. Cada capítulo aumenta a dificuldade nos dois eixos de tamanho da grelha e percentagem de pistas. As imagens de contornos a preto e branco são ideais para cadernos impressos — as linhas limpas reproduzem-se perfeitamente em impressão a preto e branco. Inclua uma breve introdução para pais/vendedores explicando o método célula por célula e como a percentagem de pistas controla a dificuldade. Os cadernos de desenho em grelha preenchem um nicho específico de motricidade fina com procura durante todo o ano.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,41 +122,41 @@ const content: AppContent = {
         title: `Centros de simetria e raciocínio espacial para Gumroad`,
         description:
           `Construa conjuntos de prática de raciocínio espacial por níveis usando o modo de simetria como ferramenta de ensino. O Nível 1 usa a colocação Aleatória de pistas para a prática geral do desenho. O Nível 2 introduz o modo Espelho Horizontal onde os usuários veem a metade esquerda e desenham a metade direita, ensinando simetria bilateral. O Nível 3 usa o modo Espelho Vertical para a simetria de cima para baixo. O Nível 4 combina uma percentagem de pistas baixa (10–15 %) com o modo espelho para o desafio definitivo. Cada nível foca uma competência espacial diferente. Estes recursos ligam os padrões de arte e matemática, tornando-os valiosos tanto para vendedores de arte como para especialistas em matemática no Gumroad.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Fichas visuais multilingues para mercados globais',
+        title: `Fichas visuais multilingues para mercados globais`,
         description:
           `Como as fichas de Desenho em Grelha contêm apenas imagens em grelha com zero texto na saída, o mesmo produto funciona em todos os idiomas sem modificação. Crie um conjunto de exercícios de desenho em grelha e venda-o em todo o mundo — sem tradução necessária, sem versões de idiomas separadas para manter. O estilo de contornos a preto e branco é culturalmente neutro e universalmente compreendido. Publique produtos idênticos em lojas Etsy dirigidas a diferentes países, ou publique o mesmo interior KDP em todos os mercados internacionais da Amazon. O cabeçalho autolocalizado gere automaticamente os títulos específicos de cada idioma. Um único fluxo de trabalho produz um produto universalmente vendível.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
         title: `Ferramenta de desenho para a loja de arte e terapia`,
         description:
           `Carregue imagens personalizadas para criar fichas de desenho em grelha para qualquer disciplina ou contexto terapêutico. Os vendedores de arte usam o desenho em grelha para ensinar a observação proporcional — o método célula por célula é uma técnica clássica usada no ensino das belas-artes. Os terapeutas ocupacionais usam os exercícios de reprodução em grelha para desenvolver o controlo da motricidade fina, a coordenação olho-mão e o processamento visuoespacial. A percentagem de pistas ajustável permite aos profissionais definir a dificuldade com precisão: comece a 75 % para pacientes que precisam de andaimes sólidos e reduza gradualmente as pistas à medida que as competências melhoram. Os modos de simetria acrescentam um componente explícito de raciocínio espacial às sessões de terapia.`,
-        platform: 'loja / Educação Artística / Terapia',
+        platform: `loja / Educação Artística / Terapia`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Como funciona o sistema de grelha dupla?',
+      question: `Como funciona o sistema de grelha dupla?`,
       answer:
         `Cada imagem que seleciona gera duas grelhas complementares. A Grelha de Prática tem células vazias com contornos suaves onde os usuários desenham a sua reprodução. A Grelha de Pistas mostra uma percentagem configurável da imagem de referência — algumas células preenchidas com partes da imagem, outras deixadas vazias. Os usuários olham para a grelha de pistas, identificam quais células mostram o conteúdo de referência e reproduzem a imagem completa célula por célula na grelha de prática. As duas grelhas aparecem juntas na página da ficha.`,
     },
     {
-      question: 'O que controla a percentagem de pistas?',
+      question: `O que controla a percentagem de pistas?`,
       answer:
         `A percentagem de pistas (10 %–75 %) determina que fração das células da grelha de pistas revela a imagem de referência. A 75 %, três quartos das células mostram a imagem e os usuários completam apenas o quarto restante. A 25 %, apenas um quarto das células é visível e os usuários reconstroem o resto a partir de pistas dispersas. A 10 %, quase nenhuma referência é visível para um desafio máximo. Uma percentagem de pistas mais baixa significa exercícios mais difíceis. Este deslizador é o controlo principal de dificuldade e permite-lhe criar progressões fluidas de fácil a perito dentro de um único pacote de fichas.`,
     },
     {
-      question: 'Que tamanhos de grelha posso configurar?',
+      question: `Que tamanhos de grelha posso configurar?`,
       answer:
         `As linhas e colunas são ajustáveis de forma independente de 3 a 10. Uma grelha 3×3 tem 9 células grandes — fácil para usuários pequenos. Uma grelha 10×10 tem 100 células pequenas — exigente para usuários avançados. As grelhas não quadradas como 4×6 ou 8×5 adaptam-se a diferentes proporções de aspeto das imagens. O tamanho da grelha e a percentagem de pistas criam dois eixos de dificuldade independentes, pelo que uma grelha 5×5 a 50 % de pistas é moderada enquanto uma grelha 10×10 a 10 % de pistas é de nível perito.`,
     },
     {
-      question: 'Como funcionam os modos de simetria e espelho?',
+      question: `Como funcionam os modos de simetria e espelho?`,
       answer:
         `Três modos controlam como as células de pistas são colocadas. Nenhum (Aleatório) dispersa as células de pistas em posições arbitrárias para a prática geral do desenho. Horizontal reflete as células de pistas da esquerda para a direita — os usuários veem um lado e devem desenhar a imagem espelhada no outro. Vertical reflete as células de pistas de cima para baixo. Quando Horizontal ou Vertical está selecionado, um seletor de parte a revelar permite-lhe escolher qual metade mostrar como pistas (esquerda/direita ou cima/baixo). Os modos espelho ensinam o reconhecimento da simetria em conjunto com as competências de desenho.`,
     },
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — todos os tamanhos de grelha, todas as percentagens de pistas, todos os modos de simetria, a biblioteca de temas de contornos a preto e branco, o carregamento de imagens personalizadas e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — todos os tamanhos de grelha, todas as percentagens de pistas, todos os modos de simetria, a biblioteca de temas de contornos a preto e branco, o carregamento de imagens personalizadas e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `O gerador de Desenho em Grelha é sensível ao idioma?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de desenho em grelha como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. O formato de grelha dupla, a percentagem de pistas ajustável, os modos de simetria e o estilo de contornos a preto e branco criam um produto distintivo que compete fortemente nas categorias de fichas de desenho e atividades.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada tamanho de grelha, cada percentagem de pistas, cada modo de simetria, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,12 +206,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Gerador de Fichas Grande e Pequeno',
+      anchorText: `Gerador de Fichas Grande e Pequeno`,
     },
     {
       pageType: 'app',
       slug: 'trem-padroes-fichas',
-      anchorText: 'Gerador de Fichas Trem de Padrões',
+      anchorText: `Gerador de Fichas Trem de Padrões`,
     },
     {
       pageType: 'app',
@@ -221,17 +221,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'tracar-linhas-fichas',
-      anchorText: 'Gerador de Fichas de Traçar Linhas',
+      anchorText: `Gerador de Fichas de Traçar Linhas`,
     },
     {
       pageType: 'app',
       slug: 'desenhos-colorir-fichas',
-      anchorText: 'Gerador de Fichas para Colorir',
+      anchorText: `Gerador de Fichas para Colorir`,
     },
     {
       pageType: 'app',
       slug: 'grafico-pictorico-fichas',
-      anchorText: 'Gerador de Fichas de Gráfico Pictórico',
+      anchorText: `Gerador de Fichas de Gráfico Pictórico`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'verao-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de verão para crianças',
+      anchorText: `Ideias de imprimíveis de verão para crianças`,
     },
     {
       pageType: 'idea',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'negocio-imprimiveis-etsy',
-      anchorText: 'Lance seu negócio de imprimíveis na Etsy',
+      anchorText: `Lance seu negócio de imprimíveis na Etsy`,
     },
     {
       pageType: 'guide',

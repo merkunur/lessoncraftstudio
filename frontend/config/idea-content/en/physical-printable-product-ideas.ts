@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Physical Printable Product Ideas to Sell — Guide',
+    titleTag: `Physical Printable Product Ideas to Sell — Guide`,
     metaDescription: `Physical printable product ideas for Etsy and craft fair sellers. Build a premium business printing, laminating, and shipping tangible worksheet products.`,
 
-    primaryKeyword: 'physical printable product ideas',
+    primaryKeyword: `physical printable product ideas`,
     secondaryKeywords: [
-      'printed worksheet product business',
-      'physical printable products to sell',
-      'tangible printable business ideas',
-      'sell printed worksheets offline',
+      `printed worksheet product business`,
+      `physical printable products to sell`,
+      `tangible printable business ideas`,
+      `sell printed worksheets offline`,
     ],
     lsiKeywords: [
-      'print-and-ship educational products',
+      `print-and-ship educational products`,
       'physical workbook publishing',
-      'tangible printed resource sales',
+      `tangible printed resource sales`,
     ],
   },
   hero: {
@@ -102,7 +102,7 @@ Physical products also serve the gift market in ways that digital downloads cann
       description: `Amazon Handmade provides access to the massive Amazon buyer base for handcrafted educational products, reaching customers who shop exclusively on Amazon and would never discover your products on Etsy or at local fairs because they rely entirely on the Amazon ecosystem for all purchasing decisions. The Handmade category distinguishes your professionally produced physical products from mass-manufactured items, giving buyers confidence in the artisan quality and personal attention that goes into each product while providing the familiar Amazon checkout experience, shipping expectations, and buyer protection policies that reduce purchase hesitation. Amazon fulfillment options including FBA allow you to scale physical product sales without personally packing and shipping every order, reducing the operational bottleneck that limits many physical product sellers who handle all fulfillment manually from their home workspace. Product listings benefit from Amazon SEO and sponsored product advertising capabilities that can drive significant targeted traffic to your educational product listings, reaching buyers searching for specific educational materials through the search engine that processes more product searches than any other platform.`,
     },
     {
-      platform: 'Direct School & Institution Sales',
+      platform: `Direct School & Institution Sales`,
       title: `Selling Physical Worksheet Products Directly to Schools and Institutions`,
       description: `Selling physical printed worksheet products directly to schools, daycares, tutoring centers, and homeschool co-ops provides the highest per-order revenue because institutional buyers purchase in group quantities at wholesale or retail pricing without marketplace commission fees reducing your margins on every transaction. Build relationships with local schools and educational institutions through sample deliveries, staff lounge displays, and PTA meeting presentations that showcase the professional quality and practical utility of your physical products in contexts where decision-makers can handle and evaluate materials before committing to purchases. Schools often have annual supply budgets specifically allocated for tangible instructional materials and prefer purchasing from local vendors who can provide personalized service, custom orders for specific needs, and quick reorders when materials need replenishment during the academic year. Create catalog sheets or order forms that make institutional purchasing simple and encourage repeat orders for new seasonal themes and subject area expansions, building ongoing vendor relationships that generate predictable recurring revenue throughout the school year without the marketing costs associated with acquiring new individual customers through marketplace advertising.`,
     },
@@ -143,32 +143,32 @@ Physical products also serve the gift market in ways that digital downloads cann
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -177,18 +177,18 @@ Physical products also serve the gift market in ways that digital downloads cann
     },
     {
       pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digital Download Printable Business Ideas',
+      slug: `digital-download-printable-ideas`,
+      anchorText: `Digital Download Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

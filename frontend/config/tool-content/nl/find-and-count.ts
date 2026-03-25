@@ -2,10 +2,10 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ik zie ik zie werkblad generator',
+    primaryKeyword: `ik zie ik zie werkblad generator`,
     secondaryKeywords: [
-      'ik zie ik zie werkblad generator voor verkopers',
-      'zoek en tel werkbladen maken om te verkopen',
+      `ik zie ik zie werkblad generator voor verkopers`,
+      `zoek en tel werkbladen maken om te verkopen`,
       `printbare ik zie ik zie activiteit maker commercieel gebruik`,
       `verborgen voorwerp werkblad generator voor KDP en Etsy`,
     ],
@@ -21,11 +21,11 @@ const content: ToolContent = {
   hero: {
     title: 'Zoek & Tel Maker',
     tagline: `Dubbele-modus ik zie ik zie werkblad generator met Verborgen Voorwerp modus (verstrooide afbeeldingsraster met tot 4 doelobjecten) en Letterherkenning modus (taalspecifiek alfabetraster met accentletters), vier mixbare taaktypen (omcirkel, vierkant, doorstrepen, tel) toewijsbaar per doelobject, gelokaliseerde afbeeldingsnaamlabels in 11 talen via Beeldwoordenschat-systeem, instelbare rasterdichtheid van 5×5 tot 10×10, automatisch gegenereerde antwoordbladen met rode cirkel/vierkant/kruis annotaties en telweergaven, en taalgebonden werkbladen waarbij afbeeldingslabels per taal veranderen`,
-    description: `Maak professionele ik zie ik zie en zoek-en-tel werkbladen waarbij gebruikers een verstrooide afbeeldingenscène doorzoeken om specifieke objecten te vinden, omcirkelen, doorstrepen of tellen. De generator biedt twee verschillende activiteitsmodi in één tool. Verborgen Voorwerp modus verstrooit afbeeldingen over een instelbaar raster (5–10 rijen × 5–10 kolommen, standaard 6×6) en laat je tot 4 doelobjecten toewijzen met individuele taaktypen — omcirkel het object, zet er een vierkant omheen, streep het door, of tel hoeveel er verschijnen. Elke cel toont één afbeelding op maximaal 80px. Doelobjecten worden willekeurig verdeeld met 1–5 exemplaren elk, en resterende cellen vullen met afleidingsafbeeldingen uit het thema. Letterherkenning modus toont een taalspecifiek alfabetraster met accentletters — Nederlands A–Z (26 letters), Duits A–Z + ÄÖÜ (29 letters), Spaans A–Z + Ñ (27 letters), Zweeds/Fins A–Z + ÅÄÖ (29 letters), Deens/Noors A–Z + ÆØÅ (29 letters) — weergegeven in 7 kolommen met automatische rijaanpassing. gebruikers selecteren een letter, en de generator maakt een ik zie ik zie scène met afbeeldingen die beginnen met die letter in de geselecteerde taal. De Zoek en Tel Generator is taalgebonden: afbeeldingsnaamlabels op het werkblad worden weergegeven in de geselecteerde taal via het Beeldwoordenschat-systeem. "Kat" verschijnt in het Nederlands, "Cat" in het Engels, "Katze" in het Duits, "Chat" in het Frans — en Letterherkenning beginletters passen dienovereenkomstig aan. Het Commerciële abonnement bevat alleen Engels; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde labels. Het dubbele canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad reproduceert de exacte werkbladindeling en legt rode visuele annotaties over: cirkels rondom omcirkel-taak objecten, vierkanten rondom vierkant-taak objecten, kruisen over doorstreep-taak objecten, en telweergaven voor tel-taak objecten. Een automatisch gegenereerde koptekst rendert "Ik Zie Ik Zie" of "Letterherkenning" (modusafhankelijk) met een blauw kader (#2196F3), geel binnenaccent, en gelokaliseerde titel en instructies in Fredoka- en Quicksand-lettertypen over alle 11 ondersteunde talen. De app genereert automatisch bij het laden met het dierenthema, 4 willekeurige afbeeldingen, willekeurige taaktypen en een 6×6 raster voor een directe preview. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen afbeeldingen. Pas achtergrondthema's en kaderthema's toe met onafhankelijke dekkingsregelaars. Voeg aangepaste tekst toe met 7 lettertype-opties en tekstomlijning 0–10. Schakel naam- en datumvelden in voor gebruikeridentificatie. Exporteer printklare PDF's en JPEG's op 300 DPI (6× vermenigvuldiger) in Standaard (800×1000), Letter, A4, Vierkant (1200×1200) of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.`,
+    description: `Maak professionele ik zie ik zie en zoek-en-tel werkbladen waarbij gebruikers een verstrooide afbeeldingenscène doorzoeken om specifieke objecten te vinden, omcirkelen, doorstrepen of tellen. De generator biedt twee verschillende activiteitsmodi in één tool. Verborgen Voorwerp modus verstrooit afbeeldingen over een instelbaar raster (5–10 rijen × 5–10 kolommen, standaard 6×6) en laat je tot 4 doelobjecten toewijzen met individuele taaktypen — omcirkel het object, zet er een vierkant omheen, streep het door, of tel hoeveel er verschijnen. Elke cel toont één afbeelding op maximaal 80px. Doelobjecten worden willekeurig verdeeld met 1–5 exemplaren elk, en resterende cellen vullen met afleidingsafbeeldingen uit het thema. Letterherkenning modus toont een taalspecifiek alfabetraster met accentletters — Nederlands A–Z (26 letters), Duits A–Z + ÄÖÜ (29 letters), Spaans A–Z + Ñ (27 letters), Zweeds/Fins A–Z + ÅÄÖ (29 letters), Deens/Noors A–Z + ÆØÅ (29 letters) — weergegeven in 7 kolommen met automatische rijaanpassing. gebruikers selecteren een letter, en de generator maakt een ik zie ik zie scène met afbeeldingen die beginnen met die letter in de geselecteerde taal. De Zoek en Tel Generator is taalgebonden: afbeeldingsnaamlabels op het werkblad worden weergegeven in de geselecteerde taal via het Beeldwoordenschat-systeem. "Kat" verschijnt in het Nederlands, "Cat" in het Engels, "Katze" in het Duits, "Chat" in het Frans — en Letterherkenning beginletters passen dienovereenkomstig aan. Het Commerciële abonnement bevat alleen Engels; Volledige Toegang ontgrendelt alle 11 talen voor gelokaliseerde labels. Het dubbele canvassysteem genereert zowel een werkblad-tabblad als een antwoordblad-tabblad tegelijkertijd. Het antwoordblad reproduceert de exacte werkbladindeling en legt rode visuele annotaties over: cirkels rondom omcirkel-taak objecten, vierkanten rondom vierkant-taak objecten, kruisen over doorstreep-taak objecten, en telweergaven voor tel-taak objecten. Een automatisch gegenereerde koptekst rendert "Ik Zie Ik Zie" of "Letterherkenning" (modusafhankelijk) met een blauw kader (#2196F3), geel binnenaccent, en gelokaliseerde titel en instructies in Fredoka- en Quicksand-lettertypen over alle 11 ondersteunde talen. De app genereert automatisch bij het laden met het dierenthema, 4 willekeurige afbeeldingen, willekeurige taaktypen en een 6×6 raster voor een directe preview. Blader door 104 thematische collecties met meer dan 3.100 illustraties of upload eigen afbeeldingen. Pas achtergrondthema's en kaderthema`s toe met onafhankelijke dekkingsregelaars. Voeg aangepaste tekst toe met 7 lettertype-opties en tekstomlijning 0–10. Schakel naam- en datumvelden in voor gebruikeridentificatie. Exporteer printklare PDF`s en JPEG's op 300 DPI (6× vermenigvuldiger) in Standaard (800×1000), Letter, A4, Vierkant (1200×1200) of aangepaste afmetingen. Schakel grijstinten in voor inktvriendelijke uitvoer. De gratis proefversie bevat alle functies met een watermerk op downloads. Koop een licentie om het watermerk te verwijderen en commercieel te verkopen.`,
   },
 
   tutorial: {
-    title: 'Ik Zie Ik Zie Werkbladen Maken in 8 Stappen',
+    title: `Ik Zie Ik Zie Werkbladen Maken in 8 Stappen`,
     steps: [
       {
         title: 'Open de Zoek & Tel Maker',
@@ -44,15 +44,15 @@ const content: ToolContent = {
         description: `Stel de rasterafmetingen in met rijen (5–10) en kolommen (5–10) — standaard is 6×6 (36 cellen). Een 5×5 raster (25 cellen) maakt gemakkelijkere werkbladen met grotere afbeeldingen voor jongere gebruikers. Een 10×10 raster (100 cellen) maakt dichte, uitdagende ik zie ik zie scènes voor gevorderde gebruikers. Elke cel toont één afbeelding op maximaal 80px, met een 5% formaatverlaging in Letterherkenning modus. Rastergrootte is je primaire moeilijkheidscontrole — kleinere rasters voor kleuterproducten, grotere rasters voor de basisschool en hoger.`,
       },
       {
-        title: 'Selecteer doelafbeeldingen en wijs taaktypen toe',
+        title: `Selecteer doelafbeeldingen en wijs taaktypen toe`,
         description: `In Verborgen Voorwerp modus open je het paneel Afbeeldingenbibliotheek en kies je tot 4 doelobjecten uit de 104 thematische collecties met meer dan 3.100 illustraties. Wijs voor elke geselecteerde afbeelding een taaktype toe uit het dropdownmenu: omcirkel (teken een cirkel eromheen), vierkant (zet er een vierkant omheen), doorstrepen (streep het door), of tel (tel hoeveel er verschijnen). Mix alle vier taaktypen op één werkblad voor gevarieerde cognitieve uitdagingen, of gebruik één enkel type voor gerichte oefening. In Letterherkenning modus klik je op een letter uit het alfabetraster om automatisch doelafbeeldingen en afleiders te laden.`,
       },
       {
-        title: 'Genereer het ik zie ik zie werkblad',
+        title: `Genereer het ik zie ik zie werkblad`,
         description: `Klik op Genereren om de ik zie ik zie scène te bouwen met je aangepaste instellingen. Het verstrooide afbeeldingsraster vult met doelobjecten willekeurig verdeeld (1–5 exemplaren elk) tussen afleidingsafbeeldingen uit het thema. Een gestileerde koptekst verschijnt bovenaan met een blauw kader (#2196F3), geel binnenaccent, en gelokaliseerde titel en instructies gerenderd in Fredoka- en Quicksand-lettertypen. Schakel naam- en datumvelden in voor klaswerkbladen. Klik opnieuw op Genereren om opnieuw op te bouwen met een andere willekeurige verdeling — dezelfde afbeeldingen, dezelfde instellingen, een volledig andere ik zie ik zie indeling.`,
       },
       {
-        title: 'Bekijk het automatisch gegenereerde antwoordblad',
+        title: `Bekijk het automatisch gegenereerde antwoordblad`,
         description: `Klik op het tabblad Antwoordblad om de automatisch gegenereerde annotaties te zien. Het antwoordblad reproduceert de exacte werkbladindeling en legt rode visuele annotaties over: cirkels rondom omcirkel-taak objecten, vierkanten rondom vierkant-taak objecten, kruisen over doorstreep-taak objecten, en telweergaven voor tel-taak objecten. Schakel tussen de tabbladen Werkblad en Antwoordblad om te vergelijken. Het antwoordblad wordt tegelijkertijd met het werkblad gegenereerd — geen handmatig markeren, geen apart bestand maken, geen kans op niet-overeenkomende antwoorden.`,
       },
       {
@@ -80,11 +80,11 @@ const content: ToolContent = {
       description: `Benut de taalgebonden afbeeldingsnaamlabels om ik zie ik zie werkbladen te maken in 11 talen vanuit dezelfde afbeeldingenbibliotheek. Dezelfde afbeeldingen produceren verschillende labeling wanneer je van taal wisselt — "Kat" wordt "Cat" (Engels), "Katze" (Duits), "Chat" (Frans), "Gato" (Spaans), en Letterherkenning beginletters passen dienovereenkomstig aan. Maak meertalige ik zie ik zie bundels waarbij elke taalversie dezelfde thema-afbeeldingen gebruikt maar volledig gelokaliseerde labels en instructies heeft. Dit is waardevol voor NT2-verkopers, tweetalige winkels en internationale thuisonderwijsgezinnen. Verkoop taalspecifieke bundels of meertalige megapakketten tegen premiumprijzen.`,
     },
     {
-      title: 'winkel Observatie en Telactiviteiten Pakketten',
+      title: `winkel Observatie en Telactiviteiten Pakketten`,
       description: `Bouw klasklare ik zie ik zie telwerkbladen met naam-/datumvelden en geprinte antwoordbladen voor zelfcontrolestations. Het taaktype tellen vraagt gebruikers om te schrijven hoeveel exemplaren van elk object ze vinden — visueel zoeken gecombineerd met rekenpraktijk in één werkblad. Maak lesstof-gerelateerde sets: boerderijdieren tellen voor biologie, beroepen identificatie voor maatschappijleer, voedselgroep tellen voor voedingsleer, en seizoensobjecten tellen voor feestdagen. Elk werkblad wordt geëxporteerd met zijn automatisch gegenereerd antwoordblad, wat productietijd voor verkopers elimineert.`,
     },
     {
-      title: 'Multi-Formaat Zoek en Vind Bundels',
+      title: `Multi-Formaat Zoek en Vind Bundels`,
       description: `Koppel ik zie ik zie werkbladen aan verborgen voorwerp puzzels, woordzoeker activiteiten, kruiswoorduitdagingen en schattenjacht werkbladen met gecoördineerde thema's over meerdere generators. Ik zie ik zie ontwikkelt visueel scannen, objectidentificatie en telvaardigheden. Woordzoekers bouwen letterherkenning en woordenschat. Kruiswoordpuzzels dagen spelling en definitiekennis uit. Elk formaat richt zich op een andere cognitieve vaardigheid terwijl thematische consistentie behouden blijft. Multi-formaat bundels brengen premiumprijzen op omdat ouders en verkopers meer betalen voor uitgebreide zoek-en-vind collecties dan voor pakketten met één activiteit.`,
     },
   ],
@@ -96,7 +96,7 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Ik Zie Ik Zie Activiteitenboekserie',
+      title: `Amazon KDP Ik Zie Ik Zie Activiteitenboekserie`,
       description: `Stel 50–80 ik zie ik zie werkbladen samen in thematische werkboeken voor Amazon KDP. Structureer een serie per moeilijkheid en modus: "Gemakkelijk Ik Zie Ik Zie voor Beginners" met 5×5 rasters en 2 doelen, "Ik Zie Ik Zie Telavonturen" met het taaktype tellen over 7×7 rasters, "Gevorderde Ik Zie Ik Zie Uitdagingen" met 10×10 rasters en alle 4 taaktypen, en "A–Z Letterherkenning" met de Letterherkenning modus voor fonetisch gerichte werkboeken. Neem antwoordbladpagina's op achterin met rode annotaties. Schakel grijstinten in voor inktvriendelijke uitvoer. De taalgebonden labels betekenen dat je gelokaliseerde edities kunt publiceren voor Duitse, Franse en Spaanse KDP-marktplaatsen.`,
       platform: 'Amazon KDP',
     },
@@ -106,7 +106,7 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Ik Zie Ik Zie Werkblad Verkeerstrechter',
+      title: `Pinterest Ik Zie Ik Zie Werkblad Verkeerstrechter`,
       description: `Ik zie ik zie werkbladen maken visueel opvallende Pinterest-pins — kleurrijke verstrooide afbeeldingsrasters met het blauw-omrande "Ik Zie Ik Zie" koptekst creëren direct herkenbare educatieve inhoud waar ouders en verkopers op klikken. Pin voorbeeldwerkbladen die beide modi tonen: Verborgen Voorwerp met gemengde taaktypen en Letterherkenning met alfabetrasters. Maak aparte pinseries voor "ik zie ik zie werkbladen voor kinderen", "printbare zoek en tel activiteiten" en "letterherkenning alfabet werkbladen". De antwoordblad-voorbeeldafbeeldingen met rode annotaties demonstreren professionele kwaliteit. Link elke pin naar je Etsy- of Gumroad-productvermeldingen.`,
       platform: 'Pinterest',
     },
@@ -196,13 +196,13 @@ const content: ToolContent = {
     },
     {
       question: 'Wat is het restitutiebeleid?',
-      answer: `Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren voordat je een aankoop doet. Omdat de gratis proefversie je volledige toegang geeft tot beide activiteitsmodi, alle vier taaktypen, Letterherkenning met taalspecifieke alfabetten, instelbare rasterdichtheid, het automatisch gegenereerde antwoordblad met rode annotaties, gelokaliseerde afbeeldingslabels in 11 talen, alle 104 thema's, eigen afbeeldingen uploaden, achtergrond- en kaderthema's, naam-/datumvelden, grijstintenexport en elk downloadformaat, bieden wij geen restituties aan op licentieaankopen. Zorg dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.`,
+      answer: `Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren voordat je een aankoop doet. Omdat de gratis proefversie je volledige toegang geeft tot beide activiteitsmodi, alle vier taaktypen, Letterherkenning met taalspecifieke alfabetten, instelbare rasterdichtheid, het automatisch gegenereerde antwoordblad met rode annotaties, gelokaliseerde afbeeldingslabels in 11 talen, alle 104 thema`s, eigen afbeeldingen uploaden, achtergrond- en kaderthema`s, naam-/datumvelden, grijstintenexport en elk downloadformaat, bieden wij geen restituties aan op licentieaankopen. Zorg dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'zoek-en-tel-werkbladen', anchorText: `Ik Zie Ik Zie Zoek & Tel Activiteiten — Volledig Productoverzicht` },
-    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Zoek Voorwerpen Werkblad Maker' },
+    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: `Zoek Voorwerpen Werkblad Maker` },
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Kruiswoordpuzzel Maker' },
     { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Schattenjacht Werkblad Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Maker' },

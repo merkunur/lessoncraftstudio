@@ -5,9 +5,9 @@ const content: GuideContent = {
     primaryKeyword: 'kwaliteitsnormen werkbladen',
     secondaryKeywords: [
       'werkblad kwaliteit verbeteren',
-      'professionele printables maken',
+      `professionele printables maken`,
       'kwaliteitscontrole werkbladen',
-      'printable kwaliteitsstandaarden',
+      `printable kwaliteitsstandaarden`,
     ],
     lsiKeywords: [
       `afdrukresolutie DPI instellingen marges uitlijning lettertype leesbaarheid`,
@@ -17,17 +17,17 @@ const content: GuideContent = {
       `beoordelingen kopervertrouwen productiechecklist kwaliteitsborging`,
       `correctielezen dubbelcontrole eindafwerking voorpublicatie verificatie printtest`,
     ],
-    titleTag: 'Kwaliteitsnormen voor Werkbladen — Verkopersgids',
+    titleTag: `Kwaliteitsnormen voor Werkbladen — Verkopersgids`,
     metaDescription: `Kwaliteitsnormen die werkbladverkopers nodig hebben voor professionele uitvoer. Behandelt resolutie, marges, typografie, antwoordsleutels en printtests.`,
   },
 
   hero: {
-    title: 'Kwaliteitsnormen voor Professionele Werkbladen',
+    title: `Kwaliteitsnormen voor Professionele Werkbladen`,
     tagline: `Een complete gids voor kwaliteitsnormen die werkbladverkopers nodig hebben voor professionele uitvoer — met resolutie- en bestandsformaatstandaarden, paginalay-out en marge-eisen, typografie en leesbaarheidsregels, kleur- en visuele consistentie, antwoordsleutelverificatie, voorpublicatie kwaliteitscontrolechecklists, cross-printer testen en catalogusbrede kwaliteitshandhaving`,
     description: `Kwaliteit is de enige factor die werkbladverkopers met duurzame bedrijven onderscheidt van verkopers die worstelen met slechte beoordelingen, terugbetalingsverzoeken en dalende verkoopcijfers. Een werkblad dat er professioneel uitziet op het scherm maar afdrukt met afgesneden marges, wazige tekst of verkeerd uitgelijnde elementen creëert een negatieve koperservaring die je winkelreputatie permanent beschadigt. Deze gids biedt een complete kwaliteitsnormenchecklist specifiek ontworpen voor verkopers van printbare werkbladen — van resolutie- en opmaakstandaarden tot typografie, antwoordsleutelnauwkeurigheid, printtesten en het handhaven van kwaliteit naarmate je catalogus groeit. Met de werkbladgeneratoren van LessonCraftStudio kun je professionele werkbladen maken als gratis proefversie met watermerk om je workflow te testen voordat je investeert in een volledige licentie.`,
   },
 
-  introduction: `Elk printbaar werkblad dat een koper downloadt vertegenwoordigt een belofte: dat het product correct zal afdrukken, er professioneel uit zal zien, zal functioneren zoals beschreven en de educatieve waarde zal leveren die in de vermeldingsafbeeldingen wordt getoond. Wanneer die belofte consequent wordt nagekomen, laten kopers positieve beoordelingen achter, bevelen ze de verkoper aan bij collega's, komen ze terug voor herhaalaankopen en betalen ze graag premiumprijzen. Wanneer de kwaliteit tekortschiet, stapelen de gevolgen zich snel op. Een enkel werkblad met verkeerd uitgelijnde marges of een foutieve antwoordsleutel genereert een negatieve beoordeling die zichtbaar is voor elke toekomstige potentiële koper. Die beoordeling verlaagt de conversieratio's op al je vermeldingen, niet alleen het problematische product, omdat kopers de betrouwbaarheid van verkopers beoordelen op basis van de algemene winkelfeedback.\n\nDe uitdaging voor printable-verkopers is dat kwaliteitsfouten vaak onopgemerkt blijven tijdens het creatieproces. Een werkblad dat perfect wordt weergegeven op een beeldscherm met hoge resolutie kan uitlijnproblemen onthullen wanneer het wordt afgedrukt op standaard thuisprinters. Kleuren die levendig lijken op het scherm kunnen afdrukken als troebele, vervaagde tinten op consumenteninkjetprinters. Lettergroottes die leesbaar lijken in een ontwerpprogramma worden vermoeiend wanneer ze worden afgedrukt op standaardpapier en op een normale leesafstand worden gehouden. Antwoordsleutels die correct lijken tijdens het maken kunnen fouten bevatten die pas duidelijk worden wanneer een verkoper of ouder de opgaven met een kind doorwerkt. Deze onzichtbare kwaliteitsproblemen worden pas zichtbaar nadat de koper heeft gedownload, afgedrukt en geprobeerd het product te gebruiken — op welk moment de schade aan je reputatie al is aangericht.\n\nProfessionele werkbladverkopers pakken deze kloof aan door systematische kwaliteitsnormen te implementeren die problemen opvangen voordat producten de kopers bereiken. In plaats van alleen op visuele inspectie te vertrouwen, volgen ze gedocumenteerde checklists die elke kwaliteitsdimensie verifiëren: resolutie, marges, typografie, kleurnauwkeurigheid, inhoudelijke correctheid, printcompatibiliteit en bestandsformaatcompliantie. Deze normen zijn geen willekeurige voorkeuren — het zijn specifieke, meetbare eisen die zijn afgeleid van de technische beperkingen van thuisafdrukken, de leesbaarheidseisen van verschillende leeftijdsgroepen en de bestandsformaatsverwachtingen van elk marktplaatsplatform.\n\nKwaliteitsnormen creëren ook efficiëntie naarmate je catalogus groeit. Zonder gedocumenteerde normen vereist elk nieuw product ad-hoc kwaliteitsbeslissingen: welke lettergrootte moet dit werkblad gebruiken? Hoe breed moeten de marges zijn? Welke resolutie moeten de afbeeldingen hebben? Met vastgestelde normen zijn deze beslissingen al genomen, zodat je je creatieve energie kunt richten op inhoud in plaats van herhaaldelijk technische vragen op te lossen. Normen zorgen ook voor consistentie in je productlijn, wat merkherkenning en kopervertrouwen opbouwt — klanten die één werkblad kopen en het professioneel opgemaakt vinden, verwachten dezelfde kwaliteit van elk product in je winkel.`,
+  introduction: `Elk printbaar werkblad dat een koper downloadt vertegenwoordigt een belofte: dat het product correct zal afdrukken, er professioneel uit zal zien, zal functioneren zoals beschreven en de educatieve waarde zal leveren die in de vermeldingsafbeeldingen wordt getoond. Wanneer die belofte consequent wordt nagekomen, laten kopers positieve beoordelingen achter, bevelen ze de verkoper aan bij collega`s, komen ze terug voor herhaalaankopen en betalen ze graag premiumprijzen. Wanneer de kwaliteit tekortschiet, stapelen de gevolgen zich snel op. Een enkel werkblad met verkeerd uitgelijnde marges of een foutieve antwoordsleutel genereert een negatieve beoordeling die zichtbaar is voor elke toekomstige potentiële koper. Die beoordeling verlaagt de conversieratio`s op al je vermeldingen, niet alleen het problematische product, omdat kopers de betrouwbaarheid van verkopers beoordelen op basis van de algemene winkelfeedback.\n\nDe uitdaging voor printable-verkopers is dat kwaliteitsfouten vaak onopgemerkt blijven tijdens het creatieproces. Een werkblad dat perfect wordt weergegeven op een beeldscherm met hoge resolutie kan uitlijnproblemen onthullen wanneer het wordt afgedrukt op standaard thuisprinters. Kleuren die levendig lijken op het scherm kunnen afdrukken als troebele, vervaagde tinten op consumenteninkjetprinters. Lettergroottes die leesbaar lijken in een ontwerpprogramma worden vermoeiend wanneer ze worden afgedrukt op standaardpapier en op een normale leesafstand worden gehouden. Antwoordsleutels die correct lijken tijdens het maken kunnen fouten bevatten die pas duidelijk worden wanneer een verkoper of ouder de opgaven met een kind doorwerkt. Deze onzichtbare kwaliteitsproblemen worden pas zichtbaar nadat de koper heeft gedownload, afgedrukt en geprobeerd het product te gebruiken — op welk moment de schade aan je reputatie al is aangericht.\n\nProfessionele werkbladverkopers pakken deze kloof aan door systematische kwaliteitsnormen te implementeren die problemen opvangen voordat producten de kopers bereiken. In plaats van alleen op visuele inspectie te vertrouwen, volgen ze gedocumenteerde checklists die elke kwaliteitsdimensie verifiëren: resolutie, marges, typografie, kleurnauwkeurigheid, inhoudelijke correctheid, printcompatibiliteit en bestandsformaatcompliantie. Deze normen zijn geen willekeurige voorkeuren — het zijn specifieke, meetbare eisen die zijn afgeleid van de technische beperkingen van thuisafdrukken, de leesbaarheidseisen van verschillende leeftijdsgroepen en de bestandsformaatsverwachtingen van elk marktplaatsplatform.\n\nKwaliteitsnormen creëren ook efficiëntie naarmate je catalogus groeit. Zonder gedocumenteerde normen vereist elk nieuw product ad-hoc kwaliteitsbeslissingen: welke lettergrootte moet dit werkblad gebruiken? Hoe breed moeten de marges zijn? Welke resolutie moeten de afbeeldingen hebben? Met vastgestelde normen zijn deze beslissingen al genomen, zodat je je creatieve energie kunt richten op inhoud in plaats van herhaaldelijk technische vragen op te lossen. Normen zorgen ook voor consistentie in je productlijn, wat merkherkenning en kopervertrouwen opbouwt — klanten die één werkblad kopen en het professioneel opgemaakt vinden, verwachten dezelfde kwaliteit van elk product in je winkel.`,
 
   tutorial: [
     {
@@ -36,7 +36,7 @@ const content: GuideContent = {
     },
     {
       heading: `Stel Consistente Paginalay-out en Margestandaarden In`,
-      content: `Paginalay-out en marges bepalen of de inhoud van je werkblad volledig zichtbaar afdrukt of wordt afgesneden door de printer. Thuisprinters kunnen niet afdrukken tot de absolute rand van het papier — ze vereisen een niet-afdrukbare margezone die varieert per printermodel, doorgaans van 6 mm tot 12 mm aan elke kant. Werkbladen die zijn ontworpen zonder adequate marges produceren een frustrerende koperservaring wanneer essentiële inhoud wordt bijgesneden tijdens het afdrukken.\n\nStel je standaardmarges in op minimaal 12 mm aan alle vier de zijden. Deze marge biedt een comfortabele veiligheidszone die de niet-afdrukbare ruimte van vrijwel alle consumentenprinters opvangt, terwijl het ook visuele ademruimte creëert die het werkblad er professioneel ontworpen uit laat zien in plaats van krap. Voor werkbladen gericht op jongere kinderen (kleuter en groep 1-2) vergroot je de marges tot 16 mm of meer om extra ruimte te bieden voor kleine handen en grotere schrijfgebieden. Inhoud die tot in de margezone reikt wordt op sommige printers bijgesneden zonder enige waarschuwing aan de koper.\n\nOntwerp voor zowel US Letter (8,5 x 11 inch) als A4 (210 x 297 mm) papierformaten, tenzij je marktplaats zich richt op een specifieke geografische regio. US Letter is standaard in Noord-Amerika; A4 is standaard in Europa, Australië en de meeste andere regio's. Het formaatverschil is aanzienlijk: A4 is smaller maar langer dan US Letter. Een werkblad dat exclusief is ontworpen voor US Letter zal inhoud aan de zijkanten laten bijsnijden wanneer het op A4-papier wordt afgedrukt, en vice versa. De eenvoudigste oplossing is ontwerpen binnen het veilige gebied dat voor beide formaten werkt: maak je inhoudsgebied binnen 190 x 254 mm, dat comfortabel op beide papierformaten past met adequate marges.\n\nHandhaaf consistente elementafstanden in al je werkbladen. Stel standaard afstandsregels vast voor je productlijn: de afstand tussen de paginakop en het eerste inhoudselement, de afstand tussen individuele opgaven of activiteiten, de ruimte tussen inhoudskolommen en de positie van paginanummers en voettekstinformatie. Consistente afstanden creëren een professionele uitstraling en zorgen ervoor dat inhoudselementen niet opeengepakt worden of ongemakkelijke gaten achterlaten. Documenteer deze afstandswaarden in je ontwerpsjabloon zodat ze automatisch worden toegepast op elk nieuw werkblad dat je maakt.\n\nVoor werkbladen met meerdere pagina's handhaaf je consistente kop- en voettekstpositionering op alle pagina's. Als je merknaam in de linkerbovenhoek van pagina één verschijnt, moet die op dezelfde positie verschijnen op elke volgende pagina. Inconsistente positionering tussen pagina's signaleert amateuristisch ontwerp en ondermijnt het vertrouwen van kopers in de productkwaliteit.`,
+      content: `Paginalay-out en marges bepalen of de inhoud van je werkblad volledig zichtbaar afdrukt of wordt afgesneden door de printer. Thuisprinters kunnen niet afdrukken tot de absolute rand van het papier — ze vereisen een niet-afdrukbare margezone die varieert per printermodel, doorgaans van 6 mm tot 12 mm aan elke kant. Werkbladen die zijn ontworpen zonder adequate marges produceren een frustrerende koperservaring wanneer essentiële inhoud wordt bijgesneden tijdens het afdrukken.\n\nStel je standaardmarges in op minimaal 12 mm aan alle vier de zijden. Deze marge biedt een comfortabele veiligheidszone die de niet-afdrukbare ruimte van vrijwel alle consumentenprinters opvangt, terwijl het ook visuele ademruimte creëert die het werkblad er professioneel ontworpen uit laat zien in plaats van krap. Voor werkbladen gericht op jongere kinderen (kleuter en groep 1-2) vergroot je de marges tot 16 mm of meer om extra ruimte te bieden voor kleine handen en grotere schrijfgebieden. Inhoud die tot in de margezone reikt wordt op sommige printers bijgesneden zonder enige waarschuwing aan de koper.\n\nOntwerp voor zowel US Letter (8,5 x 11 inch) als A4 (210 x 297 mm) papierformaten, tenzij je marktplaats zich richt op een specifieke geografische regio. US Letter is standaard in Noord-Amerika; A4 is standaard in Europa, Australië en de meeste andere regio`s. Het formaatverschil is aanzienlijk: A4 is smaller maar langer dan US Letter. Een werkblad dat exclusief is ontworpen voor US Letter zal inhoud aan de zijkanten laten bijsnijden wanneer het op A4-papier wordt afgedrukt, en vice versa. De eenvoudigste oplossing is ontwerpen binnen het veilige gebied dat voor beide formaten werkt: maak je inhoudsgebied binnen 190 x 254 mm, dat comfortabel op beide papierformaten past met adequate marges.\n\nHandhaaf consistente elementafstanden in al je werkbladen. Stel standaard afstandsregels vast voor je productlijn: de afstand tussen de paginakop en het eerste inhoudselement, de afstand tussen individuele opgaven of activiteiten, de ruimte tussen inhoudskolommen en de positie van paginanummers en voettekstinformatie. Consistente afstanden creëren een professionele uitstraling en zorgen ervoor dat inhoudselementen niet opeengepakt worden of ongemakkelijke gaten achterlaten. Documenteer deze afstandswaarden in je ontwerpsjabloon zodat ze automatisch worden toegepast op elk nieuw werkblad dat je maakt.\n\nVoor werkbladen met meerdere pagina`s handhaaf je consistente kop- en voettekstpositionering op alle pagina`s. Als je merknaam in de linkerbovenhoek van pagina één verschijnt, moet die op dezelfde positie verschijnen op elke volgende pagina. Inconsistente positionering tussen pagina`s signaleert amateuristisch ontwerp en ondermijnt het vertrouwen van kopers in de productkwaliteit.`,
     },
     {
       heading: `Definieer Typografie- en Leesbaarheidsnormen voor Alle Leeftijdsgroepen`,
@@ -67,10 +67,10 @@ const content: GuideContent = {
     },
     {
       heading: `Kwaliteitsverwachtingen voor Amazon KDP Activiteitenboeken`,
-      content: `Amazon KDP stelt strengere technische eisen aan werkbladen en activiteitenboeken dan digitale downloadplatformen, omdat KDP-producten fysiek worden gedrukt en verzonden als echte boeken. Kwaliteitsfouten die onopgemerkt blijven bij digitale downloads worden onmiddellijk zichtbaar in een gedrukt boek dat een koper in handen houdt. De kwaliteitsnormen voor KDP vereisen daarom extra aandacht voor drukspecifieke standaarden.\n\nBleedinstelling is een kritieke KDP-kwaliteitsfactor die geen equivalent heeft bij digitale downloads. Als je activiteitenboek illustraties of achtergrondkleuren heeft die tot aan de rand van de pagina moeten reiken, moet je ontwerp een bleed van 3,175 mm aan alle drie de niet-rugzijden bevatten. Zonder correcte bleed verschijnen witte randen rond rand-tot-rand ontwerpen, wat het product er goedkoop en onafgewerkt uit laat zien. Als je ontwerpen geen rand-tot-rand elementen bevatten, is het eenvoudiger om zonder bleed te werken en ruime binnenmarges aan te houden.\n\nDe rugmarge is cruciaal voor KDP-boeken en wordt vaak vergeten door verkopers die gewend zijn aan losbladige werkbladen. De rugzijde van het boek neemt een deel van de paginabreedte in beslag, afhankelijk van het totale paginaaantal. Een boek van 100 pagina's heeft een grotere rugmarge nodig dan een boek van 30 pagina's. KDP biedt een sjabloonberekening waarmee je de exacte rugmarge voor je paginaaantal kunt bepalen. Inhoud die te dicht bij de rug staat wordt onleesbaar omdat de koper de pagina niet ver genoeg kan openslaan.\n\nReview-exemplaren bestellen is een niet-onderhandelbare kwaliteitsstap voor KDP. Bestel altijd een fysiek exemplaar van je boek voordat je het publiceert of kort nadat je het beschikbaar hebt gemaakt. Bekijk het exemplaar kritisch: zijn alle pagina's correct afgedrukt? Is de tekst scherp? Zijn kleuren acceptabel? Zijn de marges voldoende? Een investering van enkele euro's in een preview-exemplaar kan voorkomen dat je tientallen negatieve beoordelingen ontvangt.`,
+      content: `Amazon KDP stelt strengere technische eisen aan werkbladen en activiteitenboeken dan digitale downloadplatformen, omdat KDP-producten fysiek worden gedrukt en verzonden als echte boeken. Kwaliteitsfouten die onopgemerkt blijven bij digitale downloads worden onmiddellijk zichtbaar in een gedrukt boek dat een koper in handen houdt. De kwaliteitsnormen voor KDP vereisen daarom extra aandacht voor drukspecifieke standaarden.\n\nBleedinstelling is een kritieke KDP-kwaliteitsfactor die geen equivalent heeft bij digitale downloads. Als je activiteitenboek illustraties of achtergrondkleuren heeft die tot aan de rand van de pagina moeten reiken, moet je ontwerp een bleed van 3,175 mm aan alle drie de niet-rugzijden bevatten. Zonder correcte bleed verschijnen witte randen rond rand-tot-rand ontwerpen, wat het product er goedkoop en onafgewerkt uit laat zien. Als je ontwerpen geen rand-tot-rand elementen bevatten, is het eenvoudiger om zonder bleed te werken en ruime binnenmarges aan te houden.\n\nDe rugmarge is cruciaal voor KDP-boeken en wordt vaak vergeten door verkopers die gewend zijn aan losbladige werkbladen. De rugzijde van het boek neemt een deel van de paginabreedte in beslag, afhankelijk van het totale paginaaantal. Een boek van 100 pagina`s heeft een grotere rugmarge nodig dan een boek van 30 pagina`s. KDP biedt een sjabloonberekening waarmee je de exacte rugmarge voor je paginaaantal kunt bepalen. Inhoud die te dicht bij de rug staat wordt onleesbaar omdat de koper de pagina niet ver genoeg kan openslaan.\n\nReview-exemplaren bestellen is een niet-onderhandelbare kwaliteitsstap voor KDP. Bestel altijd een fysiek exemplaar van je boek voordat je het publiceert of kort nadat je het beschikbaar hebt gemaakt. Bekijk het exemplaar kritisch: zijn alle pagina`s correct afgedrukt? Is de tekst scherp? Zijn kleuren acceptabel? Zijn de marges voldoende? Een investering van enkele euro`s in een preview-exemplaar kan voorkomen dat je tientallen negatieve beoordelingen ontvangt.`,
     },
     {
-      heading: 'Kwaliteitsstandaarden voor Gumroad Hulpbronnen',
+      heading: `Kwaliteitsstandaarden voor Gumroad Hulpbronnen`,
       content: `Gumroad heeft het meest veeleisende koperspubliek als het gaat om educatieve inhoudskwaliteit. Gumroad-kopers zijn voornamelijk professionele verkopers die werkbladen beoordelen op pedagogische waarde, productcatalogusconformiteit en directe bruikbaarheid online. Technische kwaliteit is een minimale drempeleis — wat Gumroad-kopers onderscheidt zijn de educatieve kwaliteitsnormen.\n\nproductcatalogusuitlijning is de belangrijkste kwaliteitsfactor op Gumroad. verkopers zoeken specifiek naar materialen die aansluiten bij de productdoelen en productspecificaties van hun niveaucategorie. Je werkbladen moeten duidelijk vermelden welke specifieke vaardigheden en productdoelen ze aanpakken. Een werkblad met de titel Optellen oefenbladen zonder specificatie van het vaardigheidsniveau, het getallenbereik of de productdoelen die het dekt, verliest de concurrentie van een werkblad dat vermeldt: Optellen tot 20 met overbrugging, Automatisering Groep 3, Geschikt voor kerndoel Rekenen en Wiskunde. De specificiteit signaleert professionele kwaliteit en helpt verkopers snel te beoordelen of het product in hun lesprogramma past.\n\nVoorbeeldafbeeldingen op Gumroad worden door verkopers met een getraind oog bekeken. Gumroad-kopers letten op details die particuliere kopers op Etsy mogelijk niet opmerken: zijn de instructies pedagogisch helder? Is de opbouw van moeilijkheidsgraad logisch? Zijn de antwoordruimtes geschikt voor de doelgroep? Zijn de visuele elementen afleidend of ondersteunend voor het leerproces? Investeer extra tijd in het perfectioneren van je Gumroad-voorbeeldafbeeldingen omdat ze de daadwerkelijke inhoudskwaliteit moeten weergeven, niet alleen een esthetisch aantrekkelijke presentatie.\n\nGumroad-kopers verwachten uitgebreide productbeschrijvingen die precies vertellen wat er in het pakket zit, voor wie het bedoeld is en hoe het in het productcatalogus past. Een kwaliteitsstandaard voor Gumroad-vermeldingen is het opnemen van: exact paginaaantal, leeftijds- of nichebereik, gedekte vaardigheden, benodigde materialen, instructies voor gebruik online en een beschrijving van de antwoordsleutel. Deze gedetailleerde beschrijving is zelf een kwaliteitssignaal dat professionele verkopers vertrouwen geeft in je product.`,
     },
   ],
@@ -134,35 +134,35 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'customer-support-digital-products',
-      title: 'Klantenservice Digitale Producten',
+      slug: `customer-support-digital-products`,
+      title: `Klantenservice Digitale Producten`,
       description: `Leer hoe je uitstekende klantenservice biedt voor digitale producten, van veelgestelde vragen tot het afhandelen van technische problemen en het omzetten van klachten in positieve ervaringen.`,
     },
     {
-      slug: 'get-reviews-printable-products',
-      title: 'Reviews Krijgen voor Printables',
+      slug: `get-reviews-printable-products`,
+      title: `Reviews Krijgen voor Printables`,
       description: `Ontdek bewezen strategieën om meer beoordelingen te krijgen voor je printbare producten, van opvolgemails tot verpakkingsinserts en het optimaliseren van de koperservaring voor positieve feedback.`,
     },
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Gids Printable Bedrijf',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Gids Printable Bedrijf`,
       description: `De allesomvattende gids voor het opbouwen van een winstgevend printable bedrijf, van productcreatie en marktonderzoek tot marketingstrategie, automatisering en schaalbaarheid.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Werkbladen maken met de generator' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `Werkbladen maken met de generator` },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekers maken' },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten genereren' },
     { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Werkblad bundels samenstellen' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy printable winkel starten' },
-    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: 'Prijsstrategie voor Etsy printables' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO voor educatieve printables' },
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Reken activiteitenboeken voor KDP' },
-    { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: 'Gumroad hulpbronnen maken en verkopen' },
-    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables verkopen op Gumroad' },
+    { pageType: 'guide', slug: `sell-educational-printables-etsy`, anchorText: `Educatieve printables verkopen op Etsy` },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: `Een Etsy printable winkel starten` },
+    { pageType: 'guide', slug: 'price-etsy-printables', anchorText: `Prijsstrategie voor Etsy printables` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO voor educatieve printables` },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: `Reken activiteitenboeken voor KDP` },
+    { pageType: 'guide', slug: 'create-sell-tpt-resources', anchorText: `Gumroad hulpbronnen maken en verkopen` },
+    { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: `Printables verkopen op Gumroad` },
   ],
 
   toolsRecommended: [
@@ -190,22 +190,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+      src: `/samples/dutch/addition/Optellen is Leuk 1.webp`,
       alt: `Kwaliteitsnormen voor professionele werkbladen — complete gids`,
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`,
         alt: `Voorpublicatie kwaliteitscontrolechecklist voor werkbladen`,
         caption: `Een systematische checklist garandeert dat elk werkblad voldoet aan je professionele kwaliteitsnormen`,
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: `/samples/dutch/coloring/coloring portrait 1.webp`,
         alt: `Vergelijking van correcte en onjuiste marges bij werkbladen`,
         caption: `Correcte marges van minimaal 12 mm voorkomen afgesneden inhoud op alle printertypen`,
       },
       {
-        src: '/samples/dutch/matching/Zoek de Paren 1.webp',
+        src: `/samples/dutch/matching/Zoek de Paren 1.webp`,
         alt: `Typografienormen per leeftijdsgroep voor werkbladen`,
         caption: `Leeftijdsgeschikte lettergroottes zijn essentieel voor leesbaarheid en bruikbaarheid`,
       },
@@ -216,28 +216,28 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/tools/hammer.webp',
+      src: `/image-library/tools/hammer.webp`,
       alt: `Vergelijking van 72 DPI en 300 DPI resolutie bij werkbladen`,
       caption: `Het verschil tussen 72 DPI en 300 DPI is duidelijk zichtbaar in afgedrukte werkbladen`,
     },
     {
-      src: '/image-library/tools/flashlight.webp',
+      src: `/image-library/tools/flashlight.webp`,
       alt: `Veilige margezone voor US Letter en A4 papierformaten`,
       caption: `Ontwerp binnen de veilige zone van 190 x 254 mm voor compatibiliteit met beide papierformaten`,
     },
     {
-      src: '/image-library/tools/nail.webp',
+      src: `/image-library/tools/nail.webp`,
       alt: `Voorbeeld van een consistent merkleurenpalet voor werkbladen`,
       caption: `Een gedocumenteerd kleurenpalet van 4-6 kleuren garandeert visuele consistentie`,
     },
     {
-      src: '/image-library/tools/screwdriver.webp',
+      src: `/image-library/tools/screwdriver.webp`,
       alt: `Resultaten van afdruktests op inkjet en laser printers`,
       caption: `Test altijd op zowel inkjet als laser printers om kwaliteitsverschillen te ontdekken`,
     },
     {
-      src: '/image-library/tools/bolt.webp',
-      alt: 'Dubbel verificatieproces voor antwoordsleutels',
+      src: `/image-library/tools/bolt.webp`,
+      alt: `Dubbel verificatieproces voor antwoordsleutels`,
       caption: `Een dubbel verificatieproces met tijdsscheiding vangt antwoordsleutelfouten op`,
     },
   ],

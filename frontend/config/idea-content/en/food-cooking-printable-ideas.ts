@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Food & Cooking Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover food and cooking printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Recipe-themed product concepts, platform strategies, and tips for sellers.`,
 
-    primaryKeyword: 'food & cooking printable ideas',
+    primaryKeyword: `food & cooking printable ideas`,
     secondaryKeywords: [
-      'food themed worksheets to sell',
-      'cooking printable business ideas',
-      'kitchen activity sheets for sellers',
+      `food themed worksheets to sell`,
+      `cooking printable business ideas`,
+      `kitchen activity sheets for sellers`,
       'sell food printables on Etsy',
     ],
     lsiKeywords: [
-      'culinary themed educational worksheets',
+      `culinary themed educational worksheets`,
       'nutrition activities for kids',
-      'recipe themed product line printables',
+      `recipe themed product line printables`,
     ],
   },
   hero: {
@@ -36,32 +36,32 @@ Cultural inclusivity through international foods represents a valuable different
 
   productIdeas: [
     {
-      title: 'Food Counting Worksheets for Printable Sellers',
+      title: `Food Counting Worksheets for Printable Sellers`,
       description: `Counting worksheets featuring fruits, vegetables, cookies, cupcakes, and pizza slices bring kitchen excitement to early math practice that sellers and homeschool parents purchase throughout the entire school year for nutrition units and everyday math instruction. Use the Find and Count generator to create busy food scenes where children locate and tally specific items among kitchen counters, grocery store shelves, bakery displays, fruit stands, and garden harvest panoramas. Offer sets targeting multiple ability levels: count fruits up to five for preschool-age buyers, count and write numbers to ten for kindergarten-age buyers, and skip-counting with rows of cookies or groups of vegetables for first-grade-level buyers. Bundle by difficulty or combine all levels into a comprehensive food counting pack for tiered product bundles.`,
       appId: 'find-count',
     },
     {
-      title: 'Food Word Search Puzzles to Sell Online',
+      title: `Food Word Search Puzzles to Sell Online`,
       description: `Food vocabulary word searches attract buyers planning nutrition units and parents seeking educational entertainment that channels their child's natural curiosity about meals, snacks, and cooking into productive literacy skill development and vocabulary expansion. Create puzzles featuring food-specific vocabulary like apple, bread, pizza, cookie, carrot, cheese, banana, tomato, cake, and salad alongside broader cooking terms like recipe, kitchen, and ingredient. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more food terms for older users. Variations like fruit searches, vegetable vocabulary, baking terminology, and kitchen tool identification expand your catalog.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Food Matching Activities for Educational Shops',
+      title: `Food Matching Activities for Educational Shops`,
       description: `Matching worksheets using food and cooking themes work across multiple skill areas, making them versatile products that appeal to buyers running nutrition units and parents building educational libraries for younger buyers exploring the world of food and healthy eating. Create sets where children match foods to their food groups, pair kitchen utensils to their uses, or connect ingredients to the recipes they belong in. The Matching generator produces clean, professional layouts that print beautifully on standard paper. These activities appeal strongly to preschool and kindergarten buyers integrating nutrition and healthy eating themes where visual matching builds observation and categorization skills. Sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point, and the evergreen food theme drives consistent purchases year-round.`,
       appId: 'matching',
     },
     {
-      title: 'Food Addition Worksheets for Math Printable Lines',
+      title: `Food Addition Worksheets for Math Printable Lines`,
       description: `Food-illustrated math worksheets transform routine arithmetic practice into kitchen-themed activities that buyers prefer over plain number drills when running cross-curricular nutrition and cooking units in their product lines during any month of the school year. Use the Addition generator to create worksheets where children add groups of apples in fruit bowls, solve cookie-themed story problems, or complete number sentences illustrated with pizza slices, cupcakes, and vegetables. Target kindergarten through second grade with problems ranging from single-digit sums to double-digit addition using colorful food visual contexts. Food math worksheets command strong year-round demand because buyers consistently seek themed practice sheets that make math engaging, and parents appreciate activities connecting arithmetic to familiar kitchen counting experiences.`,
       appId: 'addition',
     },
     {
-      title: 'Food Coloring Pages for Etsy and KDP Sellers',
+      title: `Food Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages are the highest-volume entry product for food printable shops because food coloring appeals to virtually every child who enjoys drawing fruits, decorating cupcakes, and creating colorful kitchen scenes, generating early reviews that boost your shop visibility across all your food-themed listings. The Coloring Page generator creates detailed outlines of fruit baskets overflowing with apples and bananas, cupcakes with swirled frosting, pizza with melting cheese, vegetable gardens bursting with produce, and chef characters preparing meals in busy kitchens. For Etsy, sell curated sets of ten to fifteen pages grouped by food type such as fruits and vegetables or bakery treats. For KDP, compile thirty to fifty coloring pages into food activity books positioned as gifts for aspiring little chefs. Add educational elements like food name labels, food group identification, or counting prompts to differentiate from basic coloring competitors.`,
       appId: 'coloring',
     },
     {
-      title: 'Food Bingo Cards for educational activities',
+      title: `Food Bingo Cards for educational activities`,
       description: `Food bingo cards serve buyers running nutrition units and healthy eating lessons where interactive group activities reinforce food vocabulary and food group identification more effectively than individual worksheets alone in engaging educational settings. The Bingo generator creates unique card variations from your food vocabulary list, ensuring no two cards are identical for product line or group play. Sell product line sets of twenty-five to thirty cards with a caller sheet and food vocabulary reference guide included. For the family market, create bingo kits featuring fruits, vegetables, dairy products, grains, and protein foods that families can play during mealtime learning activities or nutrition-themed game nights at home. Bingo products generate reliable demand because every nutrition unit benefits from structured review games that reinforce healthy eating concepts.`,
       appId: 'bingo',
     },
@@ -90,12 +90,12 @@ Cultural inclusivity through international foods represents a valuable different
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Food and Cooking Printables on Etsy',
+      title: `Selling Food and Cooking Printables on Etsy`,
       description: `Etsy rewards the food and cooking niche with consistent year-round listing performance because every child eats, ensuring continuous parental searches for engaging educational activities connected to meals, nutrition, and kitchen exploration regardless of season or holiday calendar. Use all thirteen tags with variations combining food sub-themes, skill types, and age groups: "food counting worksheets preschool," "fruit coloring pages toddler," and "healthy eating word search kindergarten" target specific buyer searches far more effectively than broad tags like "food worksheets." Position your products for both educational and gift-buyer searches by including terms like "little chef activity" and "cooking theme printable" in your titles and descriptions. Listing images showing printed food worksheets alongside play kitchen sets, toy fruits, or cooking-themed decor outperform flat digital previews and capture the enthusiasm-driven mindset that brings parents searching for nutrition and cooking educational resources to Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Food and Cooking Activity Books on KDP',
+      title: `Publishing Food and Cooking Activity Books on KDP`,
       description: `Amazon KDP excels for food printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children's cookbooks, play kitchen sets, toy food collections, and healthy eating picture books that inspire young aspiring chefs. Compile individual food worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around cooking themes. Use KDP keyword fields strategically: include "food activity book for kids," "cooking worksheets preschool," and sub-theme terms like "fruit coloring book" or "healthy eating activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for aspiring little chefs, companions to play kitchen sets, or supplements to product line nutrition units. Food activity books benefit from year-round demand with modest gift-buying spikes during birthdays, holidays, and back-to-school periods when parents stock up on educational resources.`,
     },
     {
@@ -113,7 +113,7 @@ Cultural inclusivity through international foods represents a valuable different
   faq: [
     {
       question: `How profitable is the food and cooking printable niche for sellers?`,
-      answer: `The food and cooking printable niche offers strong profit potential because it delivers consistent year-round demand driven by the universal relevance of food in every child's daily life and every product line's product catalog. buyers purchase food-themed worksheets for nutrition units, healthy eating lessons, and cross-curricular instruction throughout the entire school year. Parents and homeschool families buy them as educational resources connecting kitchen experiences to academic skill building through counting, vocabulary, and science activities. The evergreen nature of food means your listings accumulate reviews and search authority continuously rather than resetting each season. Profitability compounds as your catalog grows because each new food product captures additional long-tail searches and cross-sells effectively with your existing food and cooking listings. Sellers who build deep catalogs covering fruits, vegetables, baked goods, kitchen tools, and nutrition concepts across multiple skill areas typically see reliable baseline revenue from this universally appealing theme.`,
+      answer: `The food and cooking printable niche offers strong profit potential because it delivers consistent year-round demand driven by the universal relevance of food in every child`s daily life and every product line`s product catalog. buyers purchase food-themed worksheets for nutrition units, healthy eating lessons, and cross-curricular instruction throughout the entire school year. Parents and homeschool families buy them as educational resources connecting kitchen experiences to academic skill building through counting, vocabulary, and science activities. The evergreen nature of food means your listings accumulate reviews and search authority continuously rather than resetting each season. Profitability compounds as your catalog grows because each new food product captures additional long-tail searches and cross-sells effectively with your existing food and cooking listings. Sellers who build deep catalogs covering fruits, vegetables, baked goods, kitchen tools, and nutrition concepts across multiple skill areas typically see reliable baseline revenue from this universally appealing theme.`,
     },
     {
       question: `Is the food printable niche seasonal or year-round?`,
@@ -145,32 +145,32 @@ Cultural inclusivity through international foods represents a valuable different
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -179,18 +179,18 @@ Cultural inclusivity through international foods represents a valuable different
     },
     {
       pageType: 'idea',
-      slug: 'transportation-printable-ideas',
-      anchorText: 'Transportation Printable Business Ideas',
+      slug: `transportation-printable-ideas`,
+      anchorText: `Transportation Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apple — themed educational image', caption: 'Apple' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Apricot — themed educational image', caption: 'Apricot' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — themed educational image', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banana — themed educational image', caption: 'Banana' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Blackberry — themed educational image', caption: 'Blackberry' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Blueberry — themed educational image', caption: 'Blueberry' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Apple — themed educational image`, caption: 'Apple' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Apricot — themed educational image`, caption: 'Apricot' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — themed educational image`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banana — themed educational image`, caption: 'Banana' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Blackberry — themed educational image`, caption: 'Blackberry' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Blueberry — themed educational image`, caption: 'Blueberry' },
   ],
 
 

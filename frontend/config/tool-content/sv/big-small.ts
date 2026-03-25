@@ -2,24 +2,24 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'storleksjämförelse arbetsblad skapare för barn',
+    primaryKeyword: `storleksjämförelse arbetsblad skapare för barn`,
     secondaryKeywords: [
-      'stor och liten arbetsblad för förskolan',
-      'storleksjämförelse skapare online',
-      'utskrivbara storleksordning arbetsblad för barn',
-      'stor liten medium arbetsblad för dagis',
+      `stor och liten arbetsblad för förskolan`,
+      `storleksjämförelse skapare online`,
+      `utskrivbara storleksordning arbetsblad för barn`,
+      `stor liten medium arbetsblad för dagis`,
     ],
     lsiKeywords: [
       `visuell storleksdiskriminering arbetsblad för barn`,
-      'textfri storleksjämförelse utskriftsbar',
-      'stor liten ordning aktivitet för förskolan',
+      `textfri storleksjämförelse utskriftsbar`,
+      `stor liten ordning aktivitet för förskolan`,
     ],
-    titleTag: 'Storleksjämförelse Arbetsblad Skapare — För Barn',
+    titleTag: `Storleksjämförelse Arbetsblad Skapare — För Barn`,
     metaDescription: `Skapa storleksjämförelse arbetsblad för förskolan och dagis. Fem frågetyper, identiska och olika bildlägen, 104 teman. Gratis provversion med vattenstämpel.`,
   },
 
   hero: {
-    title: 'Stor och Liten Arbetsblad Skapare',
+    title: `Stor och Liten Arbetsblad Skapare`,
     tagline: `Generera storleksjämförelse arbetsblad med fem frågetyper, två bildlägen och helt visuell textfri utmatning som säljer globalt utan översättning`,
     description: `Skapa professionella storleksjämförelse arbetsblad där användarna identifierar större, mindre och mellanstora bilder eller numrerar dem i storleksordning. Fem frågetyper täcker varje storleksdiskrimineringsfärdighet: Ringa in den Stora, Ringa in den Lilla, Ringa in den Mellanstora, Numrera 1–2–3 Liten till Stor och Numrera 1–2–3 Stor till Liten. Två bildlägen skapar fundamentalt olika övningar från samma verktyg: Identiska Bilder visar samma bild i olika storlekar för ren storleksuppfattning, medan Olika Bilder visar distinkta objekt i olika storlekar för relativt storleksresonemang. Ställ in 1–10 övningar per sida med 2 eller 3 bilder per övning — två bilder för enkla större/mindre jämförelser, tre bilder för att introducera medium-alternativet och möjliggöra ordningsutmaningar. Varje arbetsblad är helt visuellt med noll text på utmatningen. Inga ord visas på den genererade sidan — bara bilder och visuella indikatorer. Detta gör dina arbetsblad universellt användbara oavsett språk, läsnivå eller litteracitetsstatus, och universellt säljbara utan översättning. En produktannons betjänar varje marknad i världen. Hämta från mer än 3 100 illustrationer i 104 tematiska samlingar eller ladda upp egna bilder. Det automatiskt genererade facit markerar och ringar in korrekta svar för omedelbar verifiering. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Växla gråskala för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.`,
   },
@@ -28,11 +28,11 @@ const content: ToolContent = {
     title: `Hur du Skapar Storleksjämförelse Arbetsblad i 8 Enkla Steg`,
     steps: [
       {
-        title: 'Öppna Stor och Liten Arbetsblad Skaparen',
+        title: `Öppna Stor och Liten Arbetsblad Skaparen`,
         description: `Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga storleksjämförelse arbetsblad omedelbart.`,
       },
       {
-        title: 'Ställ in sidlayout och bakgrund',
+        title: `Ställ in sidlayout och bakgrund`,
         description: `I avsnittet Sidinställningar väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200), eller ange en anpassad storlek. Välj bakgrundsfärg, välj ett dekorativt bakgrundstema från bildbiblioteket med justerbar opacitet och lägg till en ramkant med oberoende opacitetskontroll.`,
       },
       {
@@ -44,15 +44,15 @@ const content: ToolContent = {
         description: `Välj mellan två fundamentalt olika övningsstilar. Identiska Bilder-läget visar samma bild i olika storlekar, isolerar ren storleksuppfattning utan förvirrande variabler — idealiskt för yngre användare som bygger grundläggande storleksmedvetenhet. Olika Bilder-läget visar distinkta objekt i olika storlekar, kräver att användarna jämför olika föremål och resonerar om relativ storlek.`,
       },
       {
-        title: 'Konfigurera övningsantal och bilder per övning',
+        title: `Konfigurera övningsantal och bilder per övning`,
         description: `Ställ in antal övningar per sida från 1 till 10. Välj 2 eller 3 bilder per övning. Två bilder skapar enkla större/mindre jämförelser. Tre bilder lägger till medium-alternativet, aktiverar frågetypen Ringa in den Mellanstora och gör numreringsövningar mer utmanande med tre föremål att ordna.`,
       },
       {
-        title: 'Bläddra bland teman eller ladda upp egna bilder',
+        title: `Bläddra bland teman eller ladda upp egna bilder`,
         description: `Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 illustrationer — djur, mat, fordon, natur, högtider, yrken och dussintals fler. Varje tema ger visuellt koordinerade bilder som fungerar tillsammans i storleksjämförelseövningar. Eller ladda upp egna anpassade bilder för ämnesspecifika arbetsblad.`,
       },
       {
-        title: 'Lägg till text och anpassa arbetsytan',
+        title: `Lägg till text och anpassa arbetsytan`,
         description: `Använd panelen Textverktyg för att lägga till en arbetsblads-titel, namn- och datumfält eller anpassade instruktioner. Välj bland typsnitt som Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand. Dra, ändra storlek, rotera och flytta varje element på Fabric.js-arbetsytan. Justeringsverktyg, lås/upplåsningskontroller och obegränsad ångra/gör om låter dig experimentera fritt.`,
       },
       {
@@ -64,19 +64,19 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Tematiska storleksjämförelsepaket',
+      title: `Tematiska storleksjämförelsepaket`,
       description: `Skapa uppsättningar av 10–20 storleksjämförelse arbetsblad grupperade efter tema — bondgårdsdjur, dinosaurier, havsdjur, fordon, mat och fler. Variera frågetyp genom setet för progressiv svårighet: börja med 2-bilds Ringa in den Stora övningar med identiska bilder, avancera till 3-bilds Ringa in den Mellanstora med olika bilder och avsluta med Numrera 1–2–3 ordningsövningar. Inkludera autogenererade facit för varje arbetsblad. Det helt visuella textfria formatet innebär att varje paket säljer globalt utan översättning.`,
     },
     {
-      title: 'KDP tidigt lärande arbetsböcker',
+      title: `KDP tidigt lärande arbetsböcker`,
       description: `Sammanställ 60–100 storleksjämförelseövningar till en tryckt arbetsbok för Amazon KDP. Strukturera kapitel som en färdighetsprogression: Kapitel 1 täcker 2-bilds Ringa in den Stora med identiska bilder, Kapitel 2 växlar till olika bilder, Kapitel 3 introducerar Ringa in den Lilla, Kapitel 4 lägger till Ringa in den Mellanstora med 3 bilder och Kapitel 5 avancerar till numreringsövningar. Facit i slutet. Det textfria visuella formatet behöver ingen översättning för internationella KDP-marknadsplatser.`,
     },
     {
-      title: 'nivågrupperade visuella inlärningsstationer',
+      title: `nivågrupperade visuella inlärningsstationer`,
       description: `Bygg nivåindelade storleksdiskriminerings övningsset med frågetyp som differentieringsaxel. Nivå 1: Ringa in den Stora, 2 bilder, identiskt läge. Nivå 2: Ringa in den Lilla, 2 bilder, olika läge. Nivå 3: Ringa in den Mellanstora, 3 bilder. Nivå 4: Numrera 1–2–3 ordning, 3 bilder. Varje nivå riktar sig mot en progressivt svårare färdighet. Paketera med facit och framstegsspårare.`,
     },
     {
-      title: 'Textfria globalt säljbara produkter',
+      title: `Textfria globalt säljbara produkter`,
       description: `Eftersom Stor och Liten arbetsblad bara innehåller bilder utan text på utmatningen fungerar exakt samma produkt på alla språk utan modifiering. Skapa en uppsättning storleksjämförelseövningar och sälj den till köpare globalt — ingen översättning, inga separata språkversioner, inga dubblerade annonser att underhålla. En skapandesession producerar en universellt säljbar produkt för varje marknadsplats.`,
     },
     {
@@ -84,7 +84,7 @@ const content: ToolContent = {
       description: `Fördubbla ditt produktutbud genom att skapa varje tema i båda bildlägena. Ett «Identiska Bilder»-paket visar samma djur, fordon eller matföremål i olika storlekar för rena storleksuppfattningsövningar. Ett «Olika Bilder»-paket visar distinkta objekt i olika storlekar för relativt storleksresonemangsutmaningar. Sälj dem separat eller paketera båda lägena tillsammans till ett premiumpris.`,
     },
     {
-      title: 'Säsongsbetonade och högtids storleksaktivitetsset',
+      title: `Säsongsbetonade och högtids storleksaktivitetsset`,
       description: `Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade storleksjämförelsepaket. Ett «Halloween Storlekssortering»-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla Ringa in den Stora uppvärmningar med avancerade Numrera 1–2–3 ordningsövningar i varje säsongsset.`,
     },
   ],
@@ -96,27 +96,27 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP storleksdiskriminering arbetsboksserie',
+      title: `Amazon KDP storleksdiskriminering arbetsboksserie`,
       description: `Sammanställ 80+ storleksjämförelseövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter tema: «Djur Storlekssortering», «Fordon Stor och Liten», «Mat Storleksordning». Varje bok avancerar från enkel 2-bilds identifiering till komplex 3-bilds ordning med facit i slutet. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad visuella diskrimineringsstationer',
+      title: `Gumroad visuella diskrimineringsstationer`,
       description: `Ladda upp storleksjämförelse arbetsbladspaket till Gumroad organiserade efter färdighetsnivå och tema. Inkludera fyra svårighetsnivåer per tema med frågetyp som differentieringsaxel. Paketera med autogenererade facit och framstegsspårningsblad. Det textfria formatet fungerar i alla produktlinje oavsett användarnas språkbakgrund — särskilt värdefullt för flerspråkiga och inkluderande miljöer.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest visuell storleksaktivitetstratt',
+      title: `Pinterest visuell storleksaktivitetstratt`,
       description: `Storleksjämförelse arbetsblad med färgglada tematiska bilder är naturligt pinvärdiga — det visuella formatet fångar uppmärksamhet i Pinterest-flöden. Pinna provarbetsblad som visar de fem frågetyperna med vattenstämpel, länka till din butik eller landningssida och samla in e-postadresser. Det textfria formatet innebär att pins tilltalar föräldrar och säljare i alla länder.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad komplett visuellt inlärningsverktygskit',
+      title: `Gumroad komplett visuellt inlärningsverktygskit`,
       description: `Paketera storleksjämförelse arbetsblad med matchningsarbetsblad, hitta udda bilden, skuggmatchning, mönstertåg och rita linjer för att skapa ett omfattande visuellt inlärningsverktygskit på Gumroad. Varje format övar en annorlunda visuell kognitiv färdighet: Stor och Liten bygger storleksdiskriminering, matchning bygger visuell parning, hitta udda bilden bygger klassificering, skuggmatchning bygger formigenkänning. Ett flerformats visuellt verktygskit motiverar ett premiumpris.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Dubbelläges produktlinje för maximal variation',
+      title: `Dubbelläges produktlinje för maximal variation`,
       description: `Skapa varje tema i både Identiska Bilder och Olika Bilder-lägen och sälj dem som separata produkter eller premiumpaket. Identiska Bilder riktar sig mot ren storleksuppfattning för yngre användare. Olika Bilder riktar sig mot relativt storleksresonemang för mer avancerade användare. Detta fördubblar din produktkatalog från en uppsättning teman — 104 teman gånger två lägen ger 208 potentiella produktannonser.`,
       platform: 'Etsy / Amazon KDP',
     },
@@ -124,7 +124,7 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Använd frågetyp som din primära svårighetsaxel',
+      title: `Använd frågetyp som din primära svårighetsaxel`,
       description: `De fem frågetyperna skapar en naturlig svårighetsprogression. Ringa in den Stora är enklast — användarna upptäcker den uppenbart största bilden. Ringa in den Lilla är något svårare. Ringa in den Mellanstora är den svåraste identifieringsuppgiften. Numrera 1–2–3 ordning kräver flerstegs sekvensering. Använd denna progression för att skapa graderade produktpaket från en designsession.`,
     },
     {
@@ -132,15 +132,15 @@ const content: ToolContent = {
       description: `Varje tema kan producera två fundamentalt olika övningsset. Identiska Bilder isolerar ren storleksuppfattning — samma katt i tre olika storlekar. Olika Bilder kräver relativt storleksresonemang — en hund, en fågel och en fisk i olika skalor. Skapa båda lägena för samma tema och sälj dem separat eller i paket.`,
     },
     {
-      title: 'Framhäv textfrihet för global säljbarhet',
+      title: `Framhäv textfrihet för global säljbarhet`,
       description: `Stor och Liten arbetsblad innehåller ingen text på utmatningen — bara bilder och visuella indikatorer. Detta är din starkaste konkurrensfördel. Ange uttryckligen «ingen översättning behövs — fungerar globalt» i varje produktbeskrivning. Köpare från alla länder kan köpa utan att oroa sig för språkkompatibilitet.`,
     },
     {
-      title: 'Matcha övningsantal till din målåldersgrupp',
+      title: `Matcha övningsantal till din målåldersgrupp`,
       description: `För småbarn och förskolebarn (2–4 år), använd 2–3 stora övningar per sida med 2 bilder vardera för maximal tydlighet. För dagisbarn (4–6 år), använd 4–6 övningar med 2 eller 3 bilder. För första klass och uppåt, 6–10 övningar per sida skapar effektiva bedömningsblad.`,
     },
     {
-      title: 'Använd gråskala för KDP och bulkutskrift',
+      title: `Använd gråskala för KDP och bulkutskrift`,
       description: `Aktivera gråskaleväxlingen för arbetsblad avsedda för Amazon KDP-interiörer eller produktlinjesbulkutskrift. Svartvit utmatning kostar betydligt mindre att skriva ut. Spara färgläge för Etsy-annonseringsminiatyrer och digitala nedladdningar där livfulla tematiska bilder lockar klick.`,
     },
     {
@@ -148,14 +148,14 @@ const content: ToolContent = {
       description: `Para storleksjämförelse arbetsblad med matchningsarbetsblad, hitta udda bilden, skuggmatchning och mönsteraktiviteter. Varje verktyg övar en annorlunda visuell diskrimineringsfärdighet. Flerformats visuella paket säljer för mer än någon enskild aktivitetstyp ensam.`,
     },
     {
-      title: 'Ladda upp anpassade bilder för nischmarknader',
+      title: `Ladda upp anpassade bilder för nischmarknader`,
       description: `Använd den anpassade bilduppladdningen för att skapa storleksjämförelse arbetsblad för nischpubliker bortom det inbyggda biblioteket. Jämför byggnadsstorlekar för arkitekturlektioner, matportioner för hälsoutbildning eller planetstorlekar för naturvetenskapsenheter.`,
     },
   ],
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Verktyget erbjuder en gratis provversion med alla funktioner — alla fem frågetyper, båda bildlägen, justerbart övningsantal, bildbiblioteket, facitgenerering och alla exportformat. Ingen registrering, inget kreditkort krävs. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.`,
     },
     {
@@ -167,7 +167,7 @@ const content: ToolContent = {
       answer: `Identiska Bilder-läge visar samma bild i olika storlekar — till exempel tre kopior av en katt i liten, medel och stor skala. Detta isolerar ren storleksuppfattning. Olika Bilder-läge visar distinkta objekt i olika storlekar, kräver relativt storleksresonemang. De två lägena skapar fundamentalt olika övningar och fördubblar effektivt din produktvariation från ett verktyg.`,
     },
     {
-      question: 'Varför har arbetsbladen ingen text?',
+      question: `Varför har arbetsbladen ingen text?`,
       answer: `Stor och Liten arbetsblad är helt visuella av design. Bara bilder och visuella indikatorer visas på utmatningen — inga skrivna ord. Detta gör arbetsbladen universellt användbara oavsett språk eller läsnivå. Förlitterära användare slutför dem utan att läsa. För säljare innebär textfri utmatning att samma produkt säljer globalt utan översättning.`,
     },
     {
@@ -179,11 +179,11 @@ const content: ToolContent = {
       answer: `Det autogenererade facit skapar en löst version av ditt arbetsblad. För cirkeltyps-frågor markeras och ringas den korrekta bilden visuellt in. För numreringsfrågor visas den korrekta storleksordningen. Facit laddas ner som en separat fil bredvid arbetsbladet.`,
     },
     {
-      question: 'Kan jag ställa in 2 eller 3 bilder per övning?',
+      question: `Kan jag ställa in 2 eller 3 bilder per övning?`,
       answer: `Ja. Med 2 bilder gör användarna en enkel större/mindre jämförelse. Med 3 bilder introduceras ett medium-alternativ, vilket aktiverar Ringa in den Mellanstora och gör numreringsövningar svårare med tre föremål att ordna. Börja med 2 bilder för yngre användare och avancera till 3 för mer avancerad övning.`,
     },
     {
-      question: 'Kan jag ladda upp egna bilder?',
+      question: `Kan jag ladda upp egna bilder?`,
       answer: `Ja. Anpassad bilduppladdning låter dig lägga till valfri bild i dina storleksjämförelseövningar. Ladda upp foton, illustrationer eller grafik relevanta för ditt ämne eller din publik. Anpassade bilder fungerar med alla fem frågetyper och båda bildlägen.`,
     },
     {
@@ -195,7 +195,7 @@ const content: ToolContent = {
       answer: `Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga så du kan fullt utvärdera verktyget innan du köper. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.`,
     },
   ],

@@ -7,14 +7,14 @@ const content: IdeaContent = {
 
     primaryKeyword: 'ocean animals printable ideas',
     secondaryKeywords: [
-      'ocean animal worksheets to sell',
-      'sea creature printable business ideas',
-      'ocean activity sheets for sellers',
+      `ocean animal worksheets to sell`,
+      `sea creature printable business ideas`,
+      `ocean activity sheets for sellers`,
       'sell ocean printables on Etsy',
     ],
     lsiKeywords: [
-      'marine life educational worksheets',
-      'underwater themed activity pages',
+      `marine life educational worksheets`,
+      `underwater themed activity pages`,
       'sea creature group printables',
     ],
   },
@@ -45,7 +45,7 @@ Science education connections make ocean animal printables particularly valuable
       appId: 'find-count',
     },
     {
-      title: 'Marine Life Word Search Puzzles to Sell Online',
+      title: `Marine Life Word Search Puzzles to Sell Online`,
       description: `Ocean vocabulary word searches appeal to buyers and parents building language skills around marine themes. Create puzzles using animal names like dolphin, octopus, jellyfish, and seahorse alongside habitat terms like coral reef, tide pool, and deep sea. The Word Search generator lets you control grid size and word count for age-appropriate difficulty. Offer easy six-to-eight-word grids for younger learners and challenging fifteen-word grids for older learners. Seasonal variations like summer beach word searches and winter whale migration puzzles extend your product catalog across the full year.`,
       appId: 'wordsearch',
     },
@@ -70,7 +70,7 @@ Science education connections make ocean animal printables particularly valuable
       appId: 'bingo',
     },
     {
-      title: 'Sea Creature Shadow Matching Worksheets to Sell',
+      title: `Sea Creature Shadow Matching Worksheets to Sell`,
       description: `Shadow matching develops the visual discrimination skills essential for reading readiness, making these worksheets popular with preschool buyers and parents of three to five year olds. Use the Shadow Match generator to create pages where children match ocean animals to their silhouettes. The diverse body shapes of marine creatures like octopuses, seahorses, jellyfish, and crabs make ocean shadow matching naturally engaging and varied. These worksheets print beautifully in both color and grayscale, which matters for buyers who print in black and white. Shadow matching sets of ten to fifteen pages sell consistently at three to five dollars.`,
       appId: 'shadow-match',
     },
@@ -94,17 +94,17 @@ Science education connections make ocean animal printables particularly valuable
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Ocean Animal Printables on Etsy',
+      title: `Selling Ocean Animal Printables on Etsy`,
       description: `Etsy rewards specificity in ocean animal printable listings. Target long-tail keywords like "ocean animals counting worksheet preschool" or "sea creatures coloring pages toddler" rather than generic titles. Use all thirteen tags with combinations of theme, skill, age group, and season. Mockup images showing printed ocean worksheets alongside beach toys, blue backgrounds, or learning settings significantly outperform flat digital previews. Time new listings to coincide with summer demand peaks from May through August when ocean interest surges. Offer both individual worksheets at two to four dollars and themed bundles at eight to fifteen dollars, since Etsy buyers often start with a low-cost purchase and return for larger packs after verifying quality.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Ocean Animal Activity Books on KDP',
+      title: `Publishing Ocean Animal Activity Books on KDP`,
       description: `Amazon KDP is ideal for ocean-themed printables compiled into cohesive activity books. A forty to sixty page ocean animals activity book combining counting, coloring, matching, and word activities performs well in the children's activity book category. Use KDP keyword fields strategically with terms like "ocean animals activity book," "sea creatures worksheets for kids," and age-specific phrases like "preschool ocean book." Price between four and seven dollars for optimal royalty rates. The ocean niche performs particularly well on KDP during summer months when parents search for travel-friendly activity books for beach vacations and road trips. Always order a proof copy to verify print quality before publishing.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Creating Ocean Unit Resources for Gumroad Sellers',
+      title: `Creating Ocean Unit Resources for Gumroad Sellers`,
       description: `Buyers are seeking curriculum-aligned resources for immediate use. Ocean animal printables on Gumroad perform best when packaged as complete mini-units with clear learning objectives, science standards alignment, and instruction notes. Include answer keys, suggested lesson sequences, and differentiation options for mixed-ability groups. Ocean themes align naturally with Next Generation Science Standards on habitats and ecosystems, which makes standards tagging straightforward. Use The bundling feature on Gumroad to offer individual ocean products and a discounted bundle simultaneously. Detailed product previews showing four to six sample pages convert significantly better than single-image listings on this platform.`,
     },
     {
@@ -149,32 +149,32 @@ Science education connections make ocean animal printables particularly valuable
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -184,17 +184,17 @@ Science education connections make ocean animal printables particularly valuable
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Business Ideas',
+      anchorText: `Farm Animals Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fish — themed educational image', caption: 'Fish' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Angelfish — themed educational image`, caption: 'Angelfish' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfish — themed educational image`, caption: 'Clownfish' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — themed educational image`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Crab — themed educational image`, caption: 'Crab' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Fish — themed educational image`, caption: 'Fish' },
   ],
 
 

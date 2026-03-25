@@ -6,15 +6,15 @@ const content: IdeaContent = {
     metaDescription: `Ideas de negocio de licencias en volumen de imprimibles para vender colecciones de fichas a escuelas, distritos y organizaciones. Estrategias de licencias.`,
     primaryKeyword: 'licencias volumen imprimibles',
     secondaryKeywords: [
-      'negocio licencias fichas a granel',
-      'licencias imprimibles distritos escolares',
-      'ventas al por mayor fichas educativas',
-      'acuerdos licencias imprimibles educativos',
+      `negocio licencias fichas a granel`,
+      `licencias imprimibles distritos escolares`,
+      `ventas al por mayor fichas educativas`,
+      `acuerdos licencias imprimibles educativos`,
     ],
     lsiKeywords: [
-      'licencias en volumen productos digitales',
-      'acuerdos institucionales imprimibles',
-      'paquetes fichas a nivel de distrito',
+      `licencias en volumen productos digitales`,
+      `acuerdos institucionales imprimibles`,
+      `paquetes fichas a nivel de distrito`,
     ],
   },
   hero: {
@@ -92,7 +92,7 @@ El potencial de ingresos recurrentes de las licencias en volumen es particularme
 
   platformTips: [
     {
-      platform: 'Ventas Institucionales Directas',
+      platform: `Ventas Institucionales Directas`,
       title: `Vender Acuerdos de Licencias en Volumen Directamente a Escuelas y Organizaciones`,
       description: `Las ventas directas a escuelas, distritos escolares, cadenas de tutoría y organizaciones educativas representan el canal principal para acuerdos de licencias en volumen porque las decisiones de compra institucional involucran procesos de aprobación presupuestaria, procedimientos de adquisiciones y negociaciones contractuales que ocurren fuera de las plataformas de marketplace. Crea propuestas de licencia profesionales con estructuras claras de niveles que ofrezcan diferentes grados de cobertura desde licencias para una sola escuela hasta acuerdos a nivel de distrito a precios con descuento por volumen que reflejen la escala institucional de cada arreglo. Construye relaciones con coordinadores de productoses, jefes de departamento y administradores de compras que influyen en las decisiones de compra institucional y pueden promover tus acuerdos de licencia a través de los procesos internos de aprobación. Los ciclos de ventas institucionales son más largos que las transacciones del marketplace pero producen ingresos por operación dramáticamente mayores y crean relaciones de renovación plurianuales que proporcionan ingresos anuales predecibles. Prepara materiales de muestra, hojas de términos de licencia y calendarios de precios que los evaluadores institucionales puedan distribuir a través de sus cadenas de aprobación, porque los compradores institucionales necesitan documentación que puedan presentar a comités presupuestarios y administradores que toman las decisiones finales de compra.`,
     },
@@ -102,12 +102,12 @@ El potencial de ingresos recurrentes de las licencias en volumen es particularme
       description: `La funcionalidad de pedidos personalizados y el sistema de mensajería de Etsy permiten conversaciones sobre licencias en volumen con compradores institucionales que descubren tus listados estándar de productos y consultan sobre precios por volumen para uso organizacional. Crea listados dedicados que mencionen explícitamente la disponibilidad de licencias en volumen, precios institucionales y descuentos por volumen para atraer compradores organizacionales que buscan productos imprimibles a escala en Etsy. Utiliza el sistema de mensajería de Etsy para realizar consultas de licencia donde comprendas el alcance de la institución, negocies niveles de precios y entregues acuerdos de licencia junto con acceso en volumen a tus bibliotecas de contenido. Muchos compradores institucionales comienzan su búsqueda en Etsy porque los vendedores dentro de la organización recomiendan productos específicos que descubrieron personalmente, creando un camino natural de actualización desde compras individuales hasta licencias institucionales. Posiciona tus listados estándar de productos como puntos de entrada que demuestren calidad a vendedores individuales que luego aboguen por compras institucionales dentro de sus escuelas, creando un canal orgánico desde el descubrimiento en el marketplace hasta conversaciones de licencias institucionales.`,
     },
     {
-      platform: 'Asociaciones con Distribuidores Educativos',
+      platform: `Asociaciones con Distribuidores Educativos`,
       title: `Asociarse con Distribuidores Educativos para Canales de Ventas Institucionales`,
       description: `Los distribuidores de contenido imprimible, editoriales de catálogo de productos y empresas de suministros institucionales proporcionan canales establecidos para alcanzar escuelas y organizaciones que compran a través de relaciones con proveedores aprobados y sistemas de adquisiciones. Acércate a distribuidores educativos con tus colecciones de fichas posicionadas como materiales de productoses suplementarios que complementen sus catálogos de productos existentes, ofreciendo términos de licencia al por mayor que den a los distribuidores margen mientras mantienes tus objetivos de ingresos por licencia. Las asociaciones con distribuidores proporcionan acceso a infraestructura de ventas institucionales incluyendo catálogos, representantes de ventas e integraciones con sistemas de adquisiciones que serían prohibitivamente costosas para vendedores individuales construir de forma independiente. El modelo de distribución funciona especialmente bien para vendedores con bibliotecas de contenido completas que abarcan múltiples materias y niveles de grado que justifican la presencia en catálogo y la credibilidad institucional que los distribuidores requieren. Comienza con distribuidores regionales más pequeños que atiendan a distritos escolares locales y sean más receptivos a trabajar con creadores de contenido independientes antes de acercarte a distribuidores nacionales más grandes que requieren registros de ventas establecidos y catálogos de productos extensos.`,
     },
     {
-      platform: 'Marketing de Sitio Web y Portafolio',
+      platform: `Marketing de Sitio Web y Portafolio`,
       title: `Construir Credibilidad Profesional de Licencias a Través de Presencia Web y Portafolio`,
       description: `Un sitio web profesional que muestre tu colección completa de fichas, términos de licencia, descripciones de casos institucionales e información de contacto sirve como la base de credibilidad que los compradores institucionales requieren antes de participar en discusiones sobre licencias. Crea páginas detalladas de catálogo de productos organizadas por materia, nivel de grado y tipo de contenido que permitan a los evaluadores institucionales explorar tu oferta completa y evaluar la alineación con sus necesidades de productoses. Incluye información clara sobre licencias que describa las estructuras de acuerdo disponibles, niveles de precios, grados de cobertura y términos de renovación para que los responsables de decisiones institucionales puedan evaluar tu oferta contra su presupuesto y necesidades antes de iniciar contacto. El marketing profesional de portafolio a través de LinkedIn, participación en conferencias educativas y networking con administradores escolares construye la credibilidad y visibilidad institucional que impulsa el volumen de consultas sobre licencias en volumen de compradores organizacionales calificados. Tu sitio web funciona como tu material de ventas institucional que los compradores marcan como favorito, comparten con colegas y referencian durante discusiones de aprobación presupuestaria, haciendo que valga la pena invertir en presentación profesional y descripciones completas de contenido.`,
     },
@@ -147,18 +147,18 @@ El potencial de ingresos recurrentes de las licencias en volumen es particularme
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -167,12 +167,12 @@ El potencial de ingresos recurrentes de las licencias en volumen es particularme
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -182,18 +182,18 @@ El potencial de ingresos recurrentes de las licencias en volumen es particularme
     },
     {
       pageType: 'idea',
-      slug: 'servicio-fichas-personalizadas-ideas',
+      slug: `servicio-fichas-personalizadas-ideas`,
       anchorText: `Ideas de Negocio de Servicio de Fichas Personalizadas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 
 

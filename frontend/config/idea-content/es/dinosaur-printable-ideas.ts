@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideas de Imprimibles de Dinosaurios — Guía de Nicho`,
     metaDescription: `Ideas rentables de imprimibles de dinosaurios para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos, estrategias por plataforma y consejos de nicho.`,
 
-    primaryKeyword: 'ideas de imprimibles de dinosaurios',
+    primaryKeyword: `ideas de imprimibles de dinosaurios`,
     secondaryKeywords: [
-      'fichas temática dinosaurios para vender',
-      'negocio imprimibles dinosaurios',
-      'fichas actividades dinosaurios para vendedores',
-      'vender imprimibles dinosaurios en Etsy',
+      `fichas temática dinosaurios para vender`,
+      `negocio imprimibles dinosaurios`,
+      `fichas actividades dinosaurios para vendedores`,
+      `vender imprimibles dinosaurios en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática prehistórica',
-      'actividades paleontología para niños',
-      'imprimibles escolares temática Jurásica',
+      `fichas educativas temática prehistórica`,
+      `actividades paleontología para niños`,
+      `imprimibles escolares temática Jurásica`,
     ],
   },
   hero: {
@@ -96,7 +96,7 @@ Desde el punto de vista de la variedad de productos, el nicho de dinosaurios sop
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Dinosaurios en Etsy',
+      title: `Vender Imprimibles de Dinosaurios en Etsy`,
       description: `Etsy recompensa la especificidad en los listados de imprimibles de dinosaurios. En lugar de títulos genéricos como «Fichas de Dinosaurios», apunta a palabras clave de cola larga como «fichas de conteo de dinosaurios preescolar» o «páginas para colorear de T-Rex para niños pequeños imprimible». Utiliza las trece etiquetas con variaciones que combinen nombres de especies, habilidades y grupos de edad. Las imágenes de maqueta mostrando fichas de dinosaurios impresas en uso superan significativamente las vistas previas digitales planas. A diferencia de muchos nichos, los imprimibles de dinosaurios mantienen una demanda constante durante todo el año sin fuerte variación estacional, lo que significa un rendimiento consistente de los listados en todos los meses. Ofrece tanto fichas individuales como paquetes temáticos, ya que los compradores de Etsy a menudo comienzan con una compra individual antes de regresar por paquetes más grandes.`,
     },
     {
@@ -150,18 +150,18 @@ Desde el punto de vista de la variedad de productos, el nicho de dinosaurios sop
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -170,12 +170,12 @@ Desde el punto de vista de la variedad de productos, el nicho de dinosaurios sop
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -186,17 +186,17 @@ Desde el punto de vista de la variedad de productos, el nicho de dinosaurios sop
     {
       pageType: 'idea',
       slug: 'mascotas-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Mascotas',
+      anchorText: `Ideas de Negocio de Imprimibles de Mascotas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Alosaurio — imagen educativa temática', caption: 'Alosaurio' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Anquilosaurio — imagen educativa temática', caption: 'Anquilosaurio' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurio — imagen educativa temática', caption: 'Apatosaurio' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurio — imagen educativa temática', caption: 'Argentinosaurio' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Braquiosaurio — imagen educativa temática', caption: 'Braquiosaurio' },
-    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontosaurio — imagen educativa temática', caption: 'Brontosaurio' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Alosaurio — imagen educativa temática`, caption: 'Alosaurio' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Anquilosaurio — imagen educativa temática`, caption: 'Anquilosaurio' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurio — imagen educativa temática`, caption: 'Apatosaurio' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurio — imagen educativa temática`, caption: 'Argentinosaurio' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Braquiosaurio — imagen educativa temática`, caption: 'Braquiosaurio' },
+    { src: `/image-library/dinosaurs/brontosaurus.webp`, alt: `Brontosaurio — imagen educativa temática`, caption: 'Brontosaurio' },
   ],
 
 

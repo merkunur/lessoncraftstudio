@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'how to start a printable business',
+    primaryKeyword: `how to start a printable business`,
     secondaryKeywords: [
-      'printable business for beginners',
-      'sell printable worksheets online',
-      'start a printable worksheet shop',
-      'printable business startup guide',
+      `printable business for beginners`,
+      `sell printable worksheets online`,
+      `start a printable worksheet shop`,
+      `printable business startup guide`,
     ],
     lsiKeywords: [
-      'digital download business model',
-      'worksheet generator for sellers',
+      `digital download business model`,
+      `worksheet generator for sellers`,
       'Etsy printable shop setup',
       'Amazon KDP activity books',
       'Gumroad worksheets',
-      'commercial license printable tools',
+      `commercial license printable tools`,
     ],
     titleTag: `How to Start a Printable Business — Complete Guide`,
     metaDescription: `How to start a printable business from scratch. Step-by-step guide for Etsy, Amazon KDP, and Gumroad sellers using worksheet generators to create and sell.`,
@@ -31,7 +31,7 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: 'What Is a Printable Worksheet Business?',
+      heading: `What Is a Printable Worksheet Business?`,
       content: `A printable worksheet business sells digital files that customers download and print at home, in a product set, or at a print shop. You create the product once — a PDF or high-resolution image file — and sell it an unlimited number of times. There is no inventory to manage, no shipping to arrange, and no physical product to manufacture.\n\nThe most common printable worksheet categories include math practice sheets, literacy activities, coloring pages, puzzle worksheets, matching games, and pattern recognition exercises. These products serve parents, buyers, homeschool families, tutoring centers, and childcare providers.\n\nWhat makes this business model particularly attractive is the combination of low overhead and recurring demand. A well-made addition worksheet sells in September and it sells in March. A holiday-themed coloring page sells every year when that holiday approaches. Your catalog compounds — every new product you add increases your shop's total earning potential without increasing your ongoing costs.`,
     },
     {
@@ -47,11 +47,11 @@ const content: StartContent = {
       content: `Professional-quality worksheets require consistent layouts, clean typography, accurate answer keys, and visually appealing designs. Creating these manually in graphic design software is time-consuming and error-prone.\n\nWorksheet generators solve this problem. They handle the layout, the math logic, the answer key generation, and the visual design automatically. You choose the parameters — difficulty level, number range, theme, image set, page size — and the generator produces a print-ready file in seconds.\n\nLessonCraftStudio offers 33 specialized worksheet generators covering six categories: math and numbers, letters and words, drawing and art, visual learning, matching and sorting, and puzzles and games. Each generator includes over 100 themed image sets, multiple page sizes, configurable difficulty levels, and automatic answer key generation.\n\nEvery generator offers a free trial with watermark so you can evaluate the output quality, test different configurations, and create sample worksheets before purchasing a commercial license. The commercial license allows you to sell the generated worksheets on any platform — Etsy, Amazon KDP, Gumroad, Gumroad, or your own website.\n\nThe practical advantage of using generators is speed. A seller using manual design tools might spend 30–60 minutes on a single worksheet. With a generator, you can create a polished, print-ready worksheet in under two minutes. That speed difference is what separates sellers who build large catalogs from those who stall at a handful of products.`,
     },
     {
-      heading: 'Creating Your First Printable Worksheet Product',
+      heading: `Creating Your First Printable Worksheet Product`,
       content: `Your first product should be simple, proven, and fast to create. Do not start with the most complex worksheet type — start with something you can complete in a single session and list the same day.\n\nWord search worksheets are an excellent first product. They are universally understood, appeal to a wide age range, and have strong search volume on every marketplace. Here is the process:\n\n1. Open the Word Search generator and select a theme (for example, "animals").\n2. Choose your target difficulty: set the grid size, word count, and word directions.\n3. Select a page size (US Letter or A4) and decide whether to include an answer key.\n4. Generate your worksheet. Review the output for visual quality and layout.\n5. Download the PDF and JPEG versions.\n6. Create 3–5 variations with different themes or difficulty levels for a small bundle.\n\nBundles sell better than individual sheets. A "10 Animal Word Search Puzzles" bundle at $3.99 outsells a single puzzle at $0.99 because buyers perceive more value and the per-unit price feels lower.\n\nBefore listing, verify the quality: print a test copy, confirm the layout is clean, and solve the worksheet yourself to check accuracy. First impressions matter — a single misaligned element or incorrect answer key will earn a negative review that affects future sales.`,
     },
     {
-      heading: 'Where to Sell Your Printable Worksheets Online',
+      heading: `Where to Sell Your Printable Worksheets Online`,
       content: `Four platforms dominate printable worksheet sales, and each has distinct advantages.\n\nEtsy is the largest marketplace for printable downloads. It has massive built-in traffic from buyers actively searching for printable worksheets. The listing fee is $0.20 per item, and Etsy takes a percentage of each sale. The platform favors sellers with large catalogs and good SEO. Your main competition is other Etsy sellers, and tiered difficulty comes from quality, niche focus, and listing optimization.\n\nAmazon KDP (Kindle Direct Publishing) serves the activity book and workbook market. KDP products are printed on demand and shipped by Amazon, but you can also publish low-content and no-content books as printable-style products. KDP gives you access to Amazon's enormous customer base. The tradeoff is less control over pricing and presentation compared to Etsy.\n\nGumroad (Gumroad) specializes in educational resources. The audience is primarily buyers and homeschool sellers. Gumroad buyers expect skill-aligned, standards-referenced products. If your worksheets target specific grade levels and learning objectives, Gumroad is a natural fit. The platform takes a commission on each sale, with lower rates for premium seller accounts.\n\nGumroad offers the simplest setup for selling digital downloads directly. You control the entire customer experience, set your own prices, and keep a larger share of each sale. The tradeoff is that Gumroad has no built-in marketplace traffic — you need to drive your own visitors through social media, email lists, or content marketing.\n\nThe recommended approach: start on Etsy for immediate access to buyers, then expand to KDP and Gumroad as your catalog grows. Use Gumroad or your own website for direct sales once you have an audience.`,
     },
     {
@@ -63,7 +63,7 @@ const content: StartContent = {
       content: `Your worksheets can be excellent, but if buyers cannot find them, they will not sell. Marketplace SEO determines your visibility.\n\nOn Etsy, the three most important ranking factors are: title keywords, tags, and listing quality score (which includes click-through rate and conversion rate). Write titles that front-load the most important keywords. For example, "Printable Addition Worksheets for Kindergarten — Math Practice Bundle with Answer Keys" is far better than "Fun Math Worksheets for Kids."\n\nUse all 13 Etsy tags. Each tag should be a unique phrase that a buyer might search for. Mix broad terms ("printable math worksheets") with specific long-tail phrases ("kindergarten addition worksheets with pictures"). Do not repeat the same words across tags — Etsy combines title and tag keywords for search matching.\n\nYour thumbnail image is the single biggest factor in click-through rate. Show the actual worksheet in a clean, well-lit mockup. Include a small text overlay indicating the page count or bundle size. Avoid cluttered thumbnails with too many fonts or colors.\n\nWrite descriptions that serve buyers, not search engines. Lead with what the product includes (page count, topics covered, formats provided). Explain who it is for (age range, skill level). Mention the file format (PDF, JPEG) and printing instructions. End with your refund policy and license terms.\n\nOn Amazon KDP, optimize your book title, subtitle, and backend keywords. Your cover image must clearly communicate the book's content and age range. Use the description field to highlight what makes your activity book different from the hundreds of others in the category.`,
     },
     {
-      heading: 'Building a Profitable Printable Product Catalog',
+      heading: `Building a Profitable Printable Product Catalog`,
       content: `One product is a test. Ten products is a shop. Fifty products is a business. The sellers who earn consistent income from printables are the ones who build large, well-organized catalogs.\n\nStart with your core niche and expand systematically. If your first products are addition worksheets, the natural expansion path is: subtraction worksheets, mixed math bundles, then broader math categories like multiplication and division. Each expansion leverages your existing expertise and attracts return buyers who trust your quality.\n\nSeasonal products deserve a place in every catalog. Back-to-school bundles in August, Halloween-themed worksheets in October, holiday activity packs in December — these time-sensitive products create predictable revenue spikes throughout the year. Create them during off-peak months so they are ready to list when demand surges.\n\nCross-category bundles are powerful revenue drivers. A "Complete Preschool Learning Bundle" that includes math worksheets, coloring pages, matching games, and pattern activities from across your catalog commands a higher price than any individual category bundle.\n\nTrack what sells. Every marketplace provides analytics showing which products get views, clicks, and purchases. Double down on what works. If your animal-themed coloring pages outsell everything else, create more animal themes, more coloring variations, and animal-themed bundles. Data should drive your catalog expansion, not guesswork.\n\nNon-English markets are significantly underserved. Most printable sellers create English-only products. If you can produce worksheets in German, French, Spanish, or other languages, you face less competition and can charge similar prices. Visual-only worksheets — like matching, coloring, and pattern activities — work in any language without modification, giving you instant access to international buyers.`,
     },
     {
@@ -78,11 +78,11 @@ const content: StartContent = {
       description: `Pick one subject (math, literacy, coloring), one age group (preschool, kindergarten, first grade), and one buyer type (parents, buyers, homeschool). Research your niche on Etsy to verify demand and assess competition.`,
     },
     {
-      step: 'Test Worksheet Generators with Free Trials',
+      step: `Test Worksheet Generators with Free Trials`,
       description: `Open 2–3 generators relevant to your niche and create sample worksheets using the free trial with watermark. Evaluate output quality, customization options, and ease of use before committing to a license.`,
     },
     {
-      step: 'Create Your First Product Bundle',
+      step: `Create Your First Product Bundle`,
       description: `Generate 5–10 themed worksheets using one generator. Vary the difficulty, theme, or configuration for each page. Package them as a cohesive bundle with a clear title and consistent visual style.`,
     },
     {
@@ -94,23 +94,23 @@ const content: StartContent = {
       description: `Write a keyword-rich title, fill all 13 tags, create a clean thumbnail mockup, and write a description that clearly states what is included, who it is for, and what file formats are provided.`,
     },
     {
-      step: 'List 5–10 Products in Your First Week',
+      step: `List 5–10 Products in Your First Week`,
       description: `Momentum matters on Etsy. New shops with multiple listings get more visibility than shops with a single product. Create and list at least 5 products in your first week.`,
     },
     {
-      step: 'Set Up a Product Creation Schedule',
+      step: `Set Up a Product Creation Schedule`,
       description: `Commit to adding 2–3 new products per week. Block time on your calendar specifically for product creation. Consistency is the single biggest predictor of long-term success in printable selling.`,
     },
     {
-      step: 'Analyze and Optimize After 30 Days',
+      step: `Analyze and Optimize After 30 Days`,
       description: `Review your Etsy analytics after the first month. Identify which listings get the most views and sales. Create more products in the categories that perform well. Update underperforming listings with better thumbnails and keywords.`,
     },
     {
-      step: 'Expand to Additional Platforms',
+      step: `Expand to Additional Platforms`,
       description: `Once you have 20+ products and consistent Etsy sales, expand to Amazon KDP and Gumroad. Adapt your existing products to each platform's format and audience expectations.`,
     },
     {
-      step: 'Plan Your First Seasonal Collection',
+      step: `Plan Your First Seasonal Collection`,
       description: `Identify the next major seasonal opportunity (back-to-school, Halloween, Christmas, Valentine's Day) and create a themed product collection at least 4–6 weeks before peak demand.`,
     },
   ],
@@ -186,57 +186,57 @@ const content: StartContent = {
   nextSteps: [
     {
       slug: 'create-worksheets-that-sell',
-      title: 'How to Create Worksheets That Sell',
+      title: `How to Create Worksheets That Sell`,
       description: `Deep dive into product creation: quality standards, tiered difficulty strategies, and the specific techniques that turn generic worksheets into products buyers choose over competitors.`,
     },
     {
       slug: 'etsy-printable-business',
-      title: 'Etsy Printable Business Masterclass',
+      title: `Etsy Printable Business Masterclass`,
       description: `Platform-specific guide for Etsy sellers covering shop setup, SEO optimization, listing strategies, and scaling techniques tailored to the Etsy marketplace.`,
     },
     {
       slug: 'amazon-kdp-activity-books',
-      title: 'Amazon KDP Activity Book Guide',
+      title: `Amazon KDP Activity Book Guide`,
       description: `Everything you need to know about publishing activity books on Amazon KDP: formatting requirements, cover design, keyword research, and category selection.`,
     },
     {
       slug: 'commercial-license-guide',
-      title: 'Commercial License Guide for Printable Sellers',
+      title: `Commercial License Guide for Printable Sellers`,
       description: `Understand what a commercial license covers, how it applies to different platforms, and what rights you receive when you purchase a license for your worksheet generators.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: `Commercial License Guide for Printable Sellers` },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Generator — Full Details` },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: `Addition Worksheet Generator — Full Details` },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Try the Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: `Try the Matching Worksheet Maker` },
     { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search worksheet example created with LessonCraftStudio generator' },
+    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search worksheet example created with LessonCraftStudio generator` },
     samples: [
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search printable worksheet with animal theme', caption: 'Word Search — Animal Theme' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: `Addition worksheet with picture-based math problems`, caption: 'Addition — Image-Based Problems' },
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page — Themed Illustrations' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet with visual pair activities', caption: 'Matching — Visual Pair Activity' },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search printable worksheet with animal theme`, caption: 'Word Search — Animal Theme' },
+      { src: `/samples/english/addition/Addition Fun 1.webp`, alt: `Addition worksheet with picture-based math problems`, caption: `Addition — Image-Based Problems` },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page worksheet with themed illustrations`, caption: `Coloring Page — Themed Illustrations` },
+      { src: `/samples/english/matching/matching portrait.webp`, alt: `Matching worksheet with visual pair activities`, caption: `Matching — Visual Pair Activity` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `How to Create Word Search Worksheets — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
   ],
 };
 

@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'digital o físico imprimibles',
     secondaryKeywords: [
-      'modelo negocio imprimibles digitales',
-      'impresión bajo demanda o descarga digital',
-      'venta productos imprimibles físicos',
-      'estrategia descarga digital imprimibles',
+      `modelo negocio imprimibles digitales`,
+      `impresión bajo demanda o descarga digital`,
+      `venta productos imprimibles físicos`,
+      `estrategia descarga digital imprimibles`,
     ],
     lsiKeywords: [
       `descarga digital producto físico impresión bajo demanda modelo cumplimiento pedidos`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `ingresos recurrentes costos impresión empaquetado control calidad producto`,
       `selección formato comparación modelos negocio estrategia vendedor trayectoria crecimiento`,
     ],
-    titleTag: 'Digital o Físico Imprimibles — Guía Vendedor',
+    titleTag: `Digital o Físico Imprimibles — Guía Vendedor`,
     metaDescription: `Comparación digital vs físico para vendedores de imprimibles: márgenes de beneficio, escalabilidad, logística de envío y cómo elegir el formato ideal.`,
   },
 
   hero: {
-    title: 'Productos Imprimibles Digitales vs Físicos',
+    title: `Productos Imprimibles Digitales vs Físicos`,
     tagline: `Una guía completa sobre imprimibles digitales vs físicos — que cubre cómo comparar márgenes de beneficio, evaluar la escalabilidad, comprender las expectativas del cliente, elegir las plataformas adecuadas para cada formato, implementar un modelo híbrido, planificar flujos de trabajo de producción y hacer la transición entre formatos a medida que crece tu negocio`,
     description: `Todo vendedor de imprimibles enfrenta una decisión fundamental de modelo de negocio: vender descargas digitales que los compradores imprimen ellos mismos, vender productos físicos preimpresos que se envían a los compradores, u ofrecer ambos formatos. Cada enfoque conlleva diferentes estructuras de margen, requisitos operativos, características de escalabilidad y expectativas del cliente. Esta guía proporciona un marco de comparación exhaustivo para ayudarte a evaluar ambos formatos y elegir el enfoque que se adapte a tus recursos, objetivos y mercado objetivo.`,
   },
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Las expectativas del cliente varían significativamente entre compradores digitales y físicos, y cumplir o superar esas expectativas determina tus calificaciones de reseñas, tasas de recompra y reputación comercial a largo plazo. Malinterpretar lo que espera cada segmento de clientes es una fuente común de reseñas negativas y devoluciones que son completamente prevenibles.\n\nLos compradores de descargas digitales esperan entrega instantánea. El archivo debería estar disponible para descarga segundos después de completar la compra. Esperan que el archivo esté claramente formateado, listo para imprimir y compatible con impresoras domésticas estándar. Esperan instrucciones claras especificando el tamaño de papel recomendado, configuración de impresión (color vs. escala de grises, una cara vs. doble cara) y cualquier paso de ensamblaje. Aceptan que la calidad de impresión depende de su propia impresora y papel — pero no aceptan archivos mal formateados, con márgenes cortados o que se ven diferentes de las imágenes de vista previa del listado. Incluye una página de instrucciones de «cómo imprimir» en cada descarga digital para anticipar las preguntas de soporte más comunes.\n\nLos compradores de productos físicos esperan calidad profesional desde el momento en que abren el paquete. El papel debería sentirse sustancial, no endeble. Los colores deberían ser vibrantes y coincidir con las fotos del listado. Las páginas deberían estar alineadas, cortadas limpiamente y sin manchas o artefactos de impresión. Si el producto está encuadernado, la encuadernación debería ser segura y permitir que las páginas queden planas. El empaquetado debería proteger el producto durante el envío — llegar con esquinas dobladas o daño por agua por empaquetado inadecuado genera reseñas negativas inmediatas. Los compradores físicos pagan un precio premium específicamente porque esperan un producto terminado y profesional que supere lo que podrían producir en casa.\n\nLos patrones de devolución y quejas difieren entre formatos. Los compradores digitales rara vez solicitan reembolsos por problemas de calidad pero pueden quejarse de compatibilidad de formato de archivo, conteo de páginas inesperado o fotos del listado que no representan con precisión el contenido del producto. Los compradores físicos pueden solicitar devoluciones por daño en el envío, calidad de impresión por debajo de las expectativas o productos que difieren de las fotografías del listado. Las devoluciones digitales son más simples (no hay producto que devolver) pero algunos vendedores luchan con la intangibilidad — un comprador que afirma que el archivo «no se descargó correctamente» presenta un desafío de soporte que los vendedores físicos no enfrentan.\n\nEl comportamiento de recompra también varía por formato. Los compradores digitales que encuentran un vendedor cuyos productos se imprimen bien consistentemente y coinciden con las descripciones del listado se convierten en clientes leales de recompra porque confían en la calidad. Los compradores físicos que reciben un producto bellamente empaquetado e impreso profesionalmente desarrollan lealtad de marca reforzada por la experiencia tangible. Ambos formatos pueden construir relaciones sólidas de clientes recurrentes, pero los detonantes de lealtad son diferentes: la lealtad digital viene de la calidad confiable y amplitud del catálogo, mientras que la lealtad física viene de la experiencia premium y la comodidad de recibir productos listos para usar.`,
     },
     {
-      heading: 'Elegir las Plataformas Adecuadas para Tu Formato',
+      heading: `Elegir las Plataformas Adecuadas para Tu Formato`,
       content: `La selección de plataforma y la elección de formato están profundamente interconectadas porque diferentes mercados están diseñados alrededor de diferentes modelos de cumplimiento. Elegir la plataforma equivocada para tu formato significa luchar contra la infraestructura de la plataforma en lugar de aprovecharla.\n\nEtsy es el mercado dominante para descargas de imprimibles digitales. Su sistema de entrega digital maneja el alojamiento de archivos y la entrega automática a los compradores, haciendo que sea sencillo para los vendedores publicar y vender productos digitales. Etsy también soporta listados de productos físicos con compra integrada de etiquetas de envío y seguimiento. Muchos vendedores exitosos de imprimibles en Etsy ofrecen ambos formatos del mismo producto como listados separados, dejando que los compradores elijan su experiencia preferida. La audiencia de Etsy busca activamente tanto «fichas imprimibles» (digital) como «fichas impresas» (físico), haciéndolo viable para cualquier formato.\n\nAmazon KDP está diseñado específicamente para libros y cuadernos de trabajo bajo demanda. Si tus productos pueden formatearse como libros encuadernados — libros para colorear, cuadernos de actividades, compilaciones de puzzles, cuadernos educativos — KDP maneja la impresión, encuadernación, cumplimiento de pedidos y atención al cliente. Subes el PDF interior y el diseño de portada, fijas tu precio, y Amazon gestiona todo lo demás. Las regalías de KDP son menores que los márgenes de venta directa, pero la plataforma proporciona acceso a la enorme base de clientes de Amazon y una experiencia de pago de confianza. KDP es particularmente fuerte para productos con 50 o más páginas que justifican un formato de libro.\n\nShopify y plataformas independientes similares te dan control completo sobre ventas tanto digitales como físicas. Manejas tu propio marketing y generación de tráfico, pero mantienes márgenes más altos y eres dueño de la relación con el cliente. Las aplicaciones de entrega digital automatizan la distribución de archivos, y puedes integrar soluciones de envío para pedidos físicos. Una plataforma independiente funciona mejor para vendedores que ya han construido una audiencia a través de redes sociales, listas de correo u otros canales y quieren maximizar márgenes eliminando las tarifas del mercado.\n\nLas ferias de artesanías y mercados locales son exclusivamente lugares de venta de productos físicos que ofrecen los márgenes por unidad más altos y retroalimentación inmediata del cliente. Los vendedores que disfrutan la interacción cara a cara y tienen productos que se muestran bien en persona (sets de actividades laminados, cuadernos encuadernados, pósteres educativos enmarcados) pueden generar ingresos significativos en eventos locales. La limitación es el alcance geográfico y la inversión de tiempo — cada evento requiere presencia física, montaje de stand y transporte de inventario.\n\nGumroad es un mercado especializado para recursos educativos que soporta descargas digitales y es ampliamente utilizado por vendedores que buscan materiales para venta en línea. Si tus productos imprimibles están enfocados en educación, Gumroad proporciona acceso a una audiencia concentrada de compradores vendedores con presupuestos de compra. La audiencia de la plataforma espera entrega digital y está acostumbrada a descargar e imprimir recursos, haciéndolo un ajuste natural para imprimibles educativos en formato digital.`,
     },
     {
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Estrategias de Precios para productos imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo Crear Paquetes de Fichas que Vendan' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de Precios para productos imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas que Vendan` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de Selección de Nicho para Negocios de Imprimibles` },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles' },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles` },
     { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'KDP vs Etsy para Imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo Vender Fichas de Matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'soporte-cliente-productos-digitales', anchorText: 'Soporte al Cliente para Productos Digitales' },
-    { pageType: 'guide', slug: 'derechos-autor-vendedores-imprimibles', anchorText: `Guía de Derechos de Autor para Vendedores de Imprimibles` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo Vender Fichas de Matemáticas en Etsy` },
+    { pageType: 'guide', slug: `soporte-cliente-productos-digitales`, anchorText: `Soporte al Cliente para Productos Digitales` },
+    { pageType: 'guide', slug: `derechos-autor-vendedores-imprimibles`, anchorText: `Guía de Derechos de Autor para Vendedores de Imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
@@ -159,7 +159,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Produce páginas para colorear que están entre los productos más populares en formatos tanto digital como físico. Las páginas para colorear se venden como descargas digitales para impresión en casa y como libros para colorear impresos profesionalmente a través de impresión bajo demanda.`,
     },
     {
@@ -169,19 +169,19 @@ const content: GuideContent = {
     },
     {
       appId: 'bingo',
-      title: 'Generador de Tarjetas de Bingo',
+      title: `Generador de Tarjetas de Bingo`,
       description: `Crea tarjetas de bingo que demuestran productos que funcionan en ambas categorías de formato: tarjetas digitales de impresión instantánea para uso comercial y sets de suministros para fiestas preimpresos vendidos como productos físicos en ferias de artesanías y en línea.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/addition/Suma Divertida 1.webp',
+      src: `/samples/spanish/addition/Suma Divertida 1.webp`,
       alt: `Ficha de sumas profesional que demuestra la creación de productos imprimibles digitales para formatos de descarga digital e impresión física`,
     },
     samples: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: `/samples/spanish/addition/Suma Divertida 1.webp`,
         alt: `Ficha de sumas mostrando producto imprimible digital adecuado tanto para descarga como para impresión física`,
         caption: `Las fichas de matemáticas funcionan bien como descargas digitales y como páginas en cuadernos impresos`,
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Las páginas para colorear son las más vendidas tanto en descarga digital como en formato de libro impreso bajo demanda`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Sopa de letras mostrando producto ideal para venta híbrida digital y física`,
         caption: `Las sopas de letras se venden individualmente como descargas digitales y compiladas en libros de puzzles físicos`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Manzana — imagen educativa temática', caption: 'Manzana' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Albaricoque — imagen educativa temática', caption: 'Albaricoque' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Aguacate — imagen educativa temática', caption: 'Aguacate' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Plátano — imagen educativa temática', caption: 'Plátano' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Mora — imagen educativa temática', caption: 'Mora' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Manzana — imagen educativa temática`, caption: 'Manzana' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Albaricoque — imagen educativa temática`, caption: 'Albaricoque' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Aguacate — imagen educativa temática`, caption: 'Aguacate' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Plátano — imagen educativa temática`, caption: 'Plátano' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Mora — imagen educativa temática`, caption: 'Mora' },
   ],
 };
 

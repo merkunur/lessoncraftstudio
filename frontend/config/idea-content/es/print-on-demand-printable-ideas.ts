@@ -2,18 +2,18 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles Impresión Bajo Demanda — Guía',
+    titleTag: `Ideas Imprimibles Impresión Bajo Demanda — Guía`,
     metaDescription: `Ideas de fichas de impresión bajo demanda para vendedores de Etsy, KDP y Shopify. Construye un negocio de imprimibles sin inventario con cuadernos, paquetes.`,
-    primaryKeyword: 'ideas imprimibles impresión bajo demanda',
+    primaryKeyword: `ideas imprimibles impresión bajo demanda`,
     secondaryKeywords: [
       'negocio imprimibles POD ideas',
-      'productos educativos impresión bajo demanda',
-      'vender fichas con impresión bajo demanda',
+      `productos educativos impresión bajo demanda`,
+      `vender fichas con impresión bajo demanda`,
       'modelo negocio fichas POD',
     ],
     lsiKeywords: [
-      'impresión y gestión de pedidos automatizada',
-      'ventas productos educativos bajo demanda',
+      `impresión y gestión de pedidos automatizada`,
+      `ventas productos educativos bajo demanda`,
       'negocio fichas sin inventario',
     ],
   },
@@ -87,7 +87,7 @@ La impresión bajo demanda también permite pruebas e iteración rápidas de pro
   platformTips: [
     {
       platform: 'Amazon KDP',
-      title: 'Vender Cuadernos de Ejercicios POD en Amazon KDP',
+      title: `Vender Cuadernos de Ejercicios POD en Amazon KDP`,
       description: `Amazon KDP es la plataforma dominante de impresión bajo demanda para cuadernos educativos con enorme tráfico orgánico de padres y vendedores buscando productos imprimibles impresos por nivel escolar, materia y tipo de actividad. KDP maneja toda la impresión, gestión de pedidos y atención al cliente mientras tú te concentras exclusivamente en la creación de contenido y optimización de palabras clave que impulsa el descubrimiento orgánico dentro de los resultados de búsqueda de Amazon. Crea cuadernos de ochenta a ciento veinte páginas organizados por materia y nivel escolar usando el formato de libro de bolsillo de KDP, que proporciona el número de páginas que los compradores esperan de cuadernos educativos impresos mientras mantiene los costos de producción razonables para precios competitivos con márgenes saludables de regalías. Optimiza títulos y subtítulos con niveles escolares específicos, materias y tipos de actividades que coincidan con las consultas exactas de búsqueda que padres y vendedores usan cuando compran materiales de práctica impresos en Amazon. Usa las selecciones de categoría de KDP estratégicamente para aparecer en rutas de navegación relevantes de cuadernos educativos donde los compradores descubren nuevos productos a través de exploración por categoría en lugar de búsquedas directas por palabras clave. La estructura de regalías recompensa números de páginas más altos y precios competitivos, así que experimenta con diferentes longitudes de cuadernos y puntos de precio para encontrar la combinación óptima que maximice la regalía por unidad mientras mantiene el posicionamiento competitivo que impulsa un volumen de ventas consistente en tus categorías educativas objetivo.`,
     },
     {
@@ -97,7 +97,7 @@ La impresión bajo demanda también permite pruebas e iteración rápidas de pro
     },
     {
       platform: 'Shopify + Gelato/Printify',
-      title: 'Construir una Marca de Fichas POD en Shopify',
+      title: `Construir una Marca de Fichas POD en Shopify`,
       description: `Las tiendas Shopify con integración POD a través de Gelato o Printify permiten líneas de productos de fichas de marca con control completo sobre precios, presentación, experiencia del cliente e identidad de marca que las plataformas de marketplace no pueden proporcionar. Construye una marca profesional de productos educativos con cuadernos impresos, paquetes de actividades y conjuntos de fichas que los socios POD producen y envían directamente a los clientes bajo el nombre de tu marca con opciones de empaque personalizado que refuerzan el reconocimiento de marca y profesionalismo. El modelo directo al consumidor elimina las comisiones de marketplace que reducen márgenes en Etsy y Amazon, y construye relaciones con clientes a través de tu propia lista de correo, comunicaciones de marca y experiencias de compra personalizadas que fomentan compras recurrentes y lealtad de marca con el tiempo. Combina productos POD impresos con descargas digitales en la misma tienda para máxima variedad de productos, permitiendo a los clientes elegir entre entrega digital instantánea y productos físicos impresos profesionalmente según sus preferencias y requisitos de uso. Las aplicaciones de suscripción de Shopify también permiten pedidos recurrentes para clientes que quieren entregas de fichas impresas mensuales o trimestrales, creando flujos de ingresos predecibles de clientes leales que prefieren la recompra automatizada sobre la recompra manual. La inversión inicial de configuración para una tienda Shopify es mayor que las alternativas de marketplace, pero la economía a largo plazo favorece las ventas directas a medida que tu base de clientes crece porque retienes la relación con el cliente, evitas comisiones de marketplace y construyes un activo de marca con valor duradero más allá de cualquier plataforma individual.`,
     },
     {
@@ -141,18 +141,18 @@ La impresión bajo demanda también permite pruebas e iteración rápidas de pro
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -161,12 +161,12 @@ La impresión bajo demanda también permite pruebas e iteración rápidas de pro
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -176,18 +176,18 @@ La impresión bajo demanda también permite pruebas e iteración rápidas de pro
     },
     {
       pageType: 'idea',
-      slug: 'caja-suscripcion-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Caja de Suscripción de Fichas',
+      slug: `caja-suscripcion-ideas-imprimibles`,
+      anchorText: `Ideas de Negocio de Caja de Suscripción de Fichas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 
 

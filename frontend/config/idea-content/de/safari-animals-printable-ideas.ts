@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'safaritiere-druckvorlagen-ideen',
+    primaryKeyword: `safaritiere-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Safari-Arbeitsblätter auf Etsy erstellen',
-      'afrikanische Wildtier-Druckvorlagen auf KDP',
-      'Löwe-Elefant-Giraffe Aktivitätsblätter Gumroad',
-      'Safari-Lernmaterialien für Druckvorlagen-Shops',
+      `Safari-Arbeitsblätter auf Etsy erstellen`,
+      `afrikanische Wildtier-Druckvorlagen auf KDP`,
+      `Löwe-Elefant-Giraffe Aktivitätsblätter Gumroad`,
+      `Safari-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'afrikanische Tierwelt Druckvorlagen-Nische',
-      'Wildtier-Bildungsthema Arbeitsblätter Etsy',
-      'Savannen-Thema Lernmaterialien Verkauf',
+      `afrikanische Tierwelt Druckvorlagen-Nische`,
+      `Wildtier-Bildungsthema Arbeitsblätter Etsy`,
+      `Savannen-Thema Lernmaterialien Verkauf`,
     ],
-    titleTag: 'Safaritiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Safaritiere-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Safaritiere-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Afrikanische Wildtier-Produktkonzepte und Plattformstrategien für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -93,7 +93,7 @@ Das Safari-Thema schneidet auch außergewöhnlich gut im Kinderzimmer- und Früh
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Safaritier-Druckvorlagen auf Etsy verkaufen',
+      title: `Safaritier-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Safaritier-Druckvorlagen-Listings. Verwenden Sie Long-Tail-Keywords wie „Safaritiere Zählarbeitsblatt Vorschule" oder „afrikanische Tiere Ausmalseiten Kleinkind" statt generischer Titel. Nutzen Sie alle dreizehn Tags mit Kombinationen aus Thema, Kompetenz, Altersgruppe und Anlass wie Zoobesuche oder Geburtstagsfeiern. Mockup-Bilder, die gedruckte Safari-Arbeitsblätter neben Spielzeugtieren, Savannen-Hintergründen oder Shop-Settings zeigen, übertreffen schlichte digitale Vorschauen deutlich. Planen Sie neue Listings zeitlich auf die Frühlings-Zoo-Saison von März bis Mai, wenn das Interesse von Eltern und Käufern an Safari-Themen seinen Höhepunkt erreicht. Bieten Sie sowohl einzelne Arbeitsblätter für zwei bis vier Dollar als auch Themenpakete für acht bis fünfzehn Dollar an, da Etsy-Käufer oft mit einem günstigen Kauf beginnen und nach positiver Qualitätserfahrung für größere Safari-Pakete zurückkehren.`,
     },
     {
@@ -147,8 +147,8 @@ Das Safari-Thema schneidet auch außergewöhnlich gut im Kinderzimmer- und Früh
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'Druckvorlagen-Produktlinie erstellen',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `Druckvorlagen-Produktlinie erstellen`,
     },
     {
       pageType: 'guide',
@@ -158,7 +158,7 @@ Das Safari-Thema schneidet auch außergewöhnlich gut im Kinderzimmer- und Früh
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -167,33 +167,33 @@ Das Safari-Thema schneidet auch außergewöhnlich gut im Kinderzimmer- und Früh
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketingkalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
-      anchorText: 'Meerestiere Druckvorlagen-Geschäftsideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
+      anchorText: `Meerestiere Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
-    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gürteltier — thematisches Lernbild`, caption: 'Gürteltier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
   ],
 
 

@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hitta och räkna arbetsblad generator',
+    primaryKeyword: `hitta och räkna arbetsblad generator`,
     secondaryKeywords: [
       `utskrivbar hitta och räkna arbetsblad skapare för Etsy-säljare`,
       `dolda objekt sökaktivitet generator för KDP-publicerare`,
       `hitta och räkna arbetsblad skapare kommersiell licens`,
-      'sälja hitta och räkna arbetsblad på Gumroad',
+      `sälja hitta och räkna arbetsblad på Gumroad`,
     ],
     lsiKeywords: [
       `digitala sökarbetsblad utskriftsbara onlineföretag`,
       `kommersiellt bruk dolda objekt arbetsblad generator`,
-      'utskrivbar räkningsaktivitet affärsverktyg',
+      `utskrivbar räkningsaktivitet affärsverktyg`,
     ],
-    titleTag: 'Hitta och Räkna Generator | Skapa Sökarbetsblad',
+    titleTag: `Hitta och Räkna Generator | Skapa Sökarbetsblad`,
     metaDescription:
       `Skapa hitta och räkna arbetsblad att sälja på Etsy, KDP och Gumroad. 4 uppgiftstyper, Bokstavsletning, automatiskt facit, 104 teman. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Hitta och Räkna Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Hitta och Räkna Arbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -40,7 +40,7 @@ const content: AppContent = {
           `Välj mellan två lägen. Dolda Objekt-läget (standard) skapar klassiska sökscener — spridda bilder över ett rutnät där användarna söker efter specifika objekt. Bokstavsletning-läget aktiverar ett lokalspecifikt alfabet med accentuerade bokstäver och genererar scener med bilder som börjar på den valda bokstaven. Det svenska alfabetet inkluderar A–Z plus Å, Ä och Ö (29 bokstäver). Rubriken växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» (lokaliserad på alla 11 språk) baserat på ditt val.`,
       },
       {
-        title: 'Välj bilder och tilldela uppgiftstyper',
+        title: `Välj bilder och tilldela uppgiftstyper`,
         description:
           `I Dolda Objekt-läget, välj upp till 4 målobjekt från Bildbiblioteksets 104 tematiska samlingar. För varje vald bild, tilldela en uppgiftstyp från dropdownen: ringa in (rita en cirkel runt det), ruta (sätt en ruta runt det), stryk över (stryk över det), eller räkna (räkna hur många som finns). Rutnätet fyller återstående celler med slumpmässiga distraktorbilder från temat. I Bokstavsletning-läget, klicka på en bokstav från alfabetsrutnätet för att automatiskt fylla målbilder och distraktorer.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Hitta och Räkna Arbetsblad Online',
+    title: `Hur du Säljer Hitta och Räkna Arbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska sökaktivitetspaket på Etsy',
+        title: `Tematiska sökaktivitetspaket på Etsy`,
         description:
           `Skapa tematiska sökarbetsbladpaket med de 104 bildsamlingarna — djursökning, högtidssökning, matsökning, fordonssökning och dussintals fler. Mixa alla fyra uppgiftstyper inom varje paket för variation: ringa in-arbetsblad för finmotorik, räkna-arbetsblad för numerisk övning, stryk över-arbetsblad för visuell diskriminering och ruta-arbetsblad för instruktionsföljande. Paketera 10–20 sökarbetsblad per tema med facit inkluderade, och sälj till 30–70 SEK per paket. Det automatiskt genererade facit eliminerar den största tidsslösaren i sökarbetsbladsproduktion.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Sökaktivitets-arbetsböcker på Amazon KDP',
+        title: `Sökaktivitets-arbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 sökarbetsblad till en tryckt arbetsbok formaterad för Amazon KDP. Strukturera din bok efter progressiv svårighet: tidiga kapitel använder 5×5-rutnät med 2 målobjekt, mellankapitel ökar till 7×7-rutnät med 3 mål, och avancerade kapitel använder 10×10-rutnät med alla 4 mål och blandade uppgiftstyper. Inkludera facit i slutet av boken med den automatiskt genererade facitfunktionen. Gråskaleväxlingen producerar bläckvänliga sidor redo för svartvita bokinteriörer.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -128,13 +128,13 @@ const content: AppContent = {
         title: `Bokstavsletning och fonikpaket för alfabetsmedvetenhet`,
         description:
           `Utnyttja Bokstavsletning-läget för att skapa sökarbetsblad fokuserade på begynnelsebokstavsigenkänning. Varje arbetsblad riktar sig mot en specifik bokstav — användarna hittar alla objekt som börjar med den bokstaven i en spridd bildscen. Skapa ett komplett A–Ö Bokstavsletning-paket med 29 arbetsblad (ett per bokstav, inklusive Å, Ä, Ö) och facit. De lokalspecifika alfabeten med accentuerade bokstäver låter dig skapa språkspecifika fonikpaket för tyska (ÄÖÜ), spanska (Ñ) och nordiska marknader (ÅÄÖ/ÆØÅ) som konkurrenter med enbart engelska verktyg inte kan matcha.`,
-        platform: 'Etsy / Gumroad (litteracitetsmarknaden)',
+        platform: `Etsy / Gumroad (litteracitetsmarknaden)`,
       },
       {
-        title: 'Flerspråkiga söksamlingar för globala marknader',
+        title: `Flerspråkiga söksamlingar för globala marknader`,
         description:
           `Utnyttja de språkkänsliga bildnamnsetiketterna för att skapa sökarbetsblad på 11 språk. Samma bilder producerar olika etikettering när du byter språk — bildnamn, Bokstavsletning begynnelsebokstäver och rubriktext uppdateras alla automatiskt. Skapa flerspråkiga sökpaket där varje språkversion använder samma tematiska bilder men lokaliserade etiketter. Detta är värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser.`,
-        platform: 'Etsy / Gumroad (flerspråkig marknad)',
+        platform: `Etsy / Gumroad (flerspråkig marknad)`,
       },
     ],
   },
@@ -151,12 +151,12 @@ const content: AppContent = {
         `De fyra uppgiftstyperna är ringa in (rita en cirkel runt objektet), ruta (sätt en ruta runt objektet), stryk över (stryk över objektet) och räkna (räkna hur många instanser som finns och skriv numret). Ja, du kan tilldela en annorlunda uppgiftstyp till var och en av de upp till 4 målobjekten på ett enda arbetsblad. Till exempel kan ett arbetsblad be användarna ringa in alla katter, stryka över alla hundar, räkna alla fåglar och sätta en ruta runt alla fiskar.`,
     },
     {
-      question: 'Hur fungerar Bokstavsletning med olika språk?',
+      question: `Hur fungerar Bokstavsletning med olika språk?`,
       answer:
         `Bokstavsletning-läget visar ett lokalspecifikt alfabet anpassat till varje språks teckenuppsättning. Engelska visar A–Z (26 bokstäver), tyska lägger till Ä, Ö och Ü (29 bokstäver), spanska lägger till Ñ (27 bokstäver), svenska och finska lägger till Å, Ä och Ö (29 bokstäver), och danska och norska lägger till Æ, Ø och Å (29 bokstäver). Rutnätet renderas i 7 kolumner med automatisk radjustering. När du väljer en bokstav visar generatorn bilder som börjar med den bokstaven på det valda språket och fyller återstående celler med distraktorer.`,
     },
     {
-      question: 'Hur fungerar lokaliserade bildnamnsetiketter?',
+      question: `Hur fungerar lokaliserade bildnamnsetiketter?`,
       answer:
         `Hitta och Räkna Generatorn är språkkänslig. Bildnamnsetiketter renderas på det valda språket via bildvokabulärsystemet (image-vocabulary.js). Till exempel visar en kattbild «Katt» på svenska, «Cat» på engelska, «Katze» på tyska och «Chat» på franska. I Bokstavsletning-läget ändras också begynnelsebokstäver med språket — en katt börjar med «K» på svenska men «C» på engelska och «G» på spanska. Kommersiellt Paket stöder engelska; Full Access låser upp alla 11 språk.`,
     },
@@ -171,17 +171,17 @@ const content: AppContent = {
         `Generatorn tillämpar ett maximum av 4 målobjekt per arbetsblad för att bibehålla tydliga, fokuserade sökaktiviteter. Med 4 objekt och 4 olika uppgiftstyper kan ett enda arbetsblad innehålla 4 distinkta sök-och-gör-uppgifter — tillräckligt med variation för att utmana användarna utan att överväldiga dem. Panelen Dolda Objekt Frågor visar en räknare för valda och ger en Rensa Val-knapp för att återställa dina val. Denna gräns säkerställer att varje arbetsblad förblir visuellt överskådligt och pedagogiskt effektivt.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar den spridda bildscenen utan markeringar — användarna söker och slutför uppgifterna själva. Facit återskapar den identiska layouten och lägger till röda visuella annoteringer: cirklar runt ringa in-uppgiftobjekt, rutor runt ruta-uppgiftobjekt, kors över stryk över-uppgiftobjekt och kvantitetsvisningar för räkna-uppgiftobjekt. Båda versionerna exporteras separat med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF.`,
     },
     {
-      question: 'Autogenereras arbetsbladet vid sidladdning?',
+      question: `Autogenereras arbetsbladet vid sidladdning?`,
       answer:
         `Ja. Appen genererar automatiskt ett komplett sökarbetsblad när du öppnar den — med djurtemat, 4 slumpmässigt valda bilder och slumpmässigt tilldelade uppgiftstyper på ett 6×6-rutnät. Detta ger dig en omedelbar förhandsgranskning av vad verktyget producerar. Därifrån kan du anpassa tema, rutnätsdimensioner, målobjekt, uppgiftstyper och aktivitetsläge, och sedan klicka på Generera för att bygga om med dina inställningar.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — båda aktivitetslägena, alla fyra uppgiftstyper, Bokstavsletning med lokalspecifika alfabet, konfigurerbara rutnätsdimensioner, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina hitta och räkna arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två aktivitetslägena, fyra uppgiftstyper, Bokstavsletning med lokalspecifika alfabet och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sökprodukter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda aktivitetslägena, alla fyra uppgiftstyper, Bokstavsletning-läget, konfigurerbara rutnätsdimensioner, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,22 +206,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'hitta-foremal-arbetsblad',
-      anchorText: 'Hitta Föremål Arbetsblad Generator',
+      anchorText: `Hitta Föremål Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildkorsord-arbetsblad',
-      anchorText: 'Bildkorsord Arbetsblad Generator',
+      anchorText: `Bildkorsord Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'skattjakt-arbetsblad',
-      anchorText: 'Skattjakt Arbetsblad Generator',
+      anchorText: `Skattjakt Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'diagram-rakning-arbetsblad',
-      anchorText: 'Diagram och Räkning Arbetsblad Generator',
+      anchorText: `Diagram och Räkning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -231,37 +231,37 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'ordsokning-arbetsblad',
-      anchorText: 'Ordsökning Arbetsblad Generator',
+      anchorText: `Ordsökning Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'sok-hitta-paket',
-      anchorText: 'Sök och Hitta Paket — Alla Sökappar i Ett',
+      anchorText: `Sök och Hitta Paket — Alla Sökappar i Ett`,
     },
     {
       pageType: 'idea',
-      slug: 'bondgardsdjur-utskriftsbara-ideer',
-      anchorText: 'Hur du Skapar Sökböcker för Amazon KDP',
+      slug: `bondgardsdjur-utskriftsbara-ideer`,
+      anchorText: `Hur du Skapar Sökböcker för Amazon KDP`,
     },
     {
       pageType: 'idea',
       slug: 'camping-utskriftsbara-ideer',
-      anchorText: 'Camping Utskriftsbara Idéer för Utomhuslärande',
+      anchorText: `Camping Utskriftsbara Idéer för Utomhuslärande`,
     },
     {
       pageType: 'idea',
       slug: 'havsdjur-utskriftsbara-ideer',
-      anchorText: 'Havsdjur Utskriftsbara Idéer för Marina Teman',
+      anchorText: `Havsdjur Utskriftsbara Idéer för Marina Teman`,
     },
     {
       pageType: 'start',
-      slug: 'marknadsforing-utskriftsbart-foeretag',
-      anchorText: 'Marknadsföring av Ditt Utskriftsbart Företag',
+      slug: `marknadsforing-utskriftsbart-foeretag`,
+      anchorText: `Marknadsföring av Ditt Utskriftsbart Företag`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-rakne-arbetsblad',
-      anchorText: 'Hur du Skapar Hitta och Räkna Arbetsblad',
+      anchorText: `Hur du Skapar Hitta och Räkna Arbetsblad`,
     },
   ],
 

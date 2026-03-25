@@ -7,20 +7,20 @@ const content: IdeaContent = {
 
     primaryKeyword: 'construction printable ideas',
     secondaryKeywords: [
-      'construction worksheets to sell',
-      'building themed printable business',
-      'construction activity sheets for sellers',
-      'sell construction printables online',
+      `construction worksheets to sell`,
+      `building themed printable business`,
+      `construction activity sheets for sellers`,
+      `sell construction printables online`,
     ],
     lsiKeywords: [
-      'building site themed worksheets',
-      'STEM construction activities for kids',
-      'vehicle and machinery educational printables',
+      `building site themed worksheets`,
+      `STEM construction activities for kids`,
+      `vehicle and machinery educational printables`,
     ],
   },
   hero: {
-    title: 'Construction Printable Business Ideas for Sellers',
-    description: `Construction is one of the most universally captivating themes for young children, making it an outstanding evergreen niche for printable entrepreneurs seeking reliable year-round revenue driven by powerful STEM connections and the magnetic fascination that excavators, cranes, and building sites hold for kids of every background. The construction theme offers extraordinary sub-theme depth including excavator, crane, bulldozer, dump truck, cement mixer, hard hat, tools, hammer, wrench, nails, screws, blueprint, building blocks, bricks, construction site, scaffolding, safety vest, traffic cone, jackhammer, and wrecking ball, giving sellers a rich visual vocabulary that connects to nearly every child's daily observations of building projects in their neighborhoods, road work on their commutes, and construction play with toy vehicles and building block sets. Cross-curricular versatility makes construction printables especially valuable because building concepts connect naturally to math through measurement, counting, and geometric shapes in structures, literacy through construction vocabulary, tool identification, and job description comprehension, STEM learning through engineering principles, structural design, and problem-solving challenges, and fine motor development through building activities and construction-themed tracing exercises. For printable sellers on Etsy, Amazon KDP, and Gumroad, the construction niche combines strong year-round demand with universal child appeal that resonates with buyers planning community helpers and careers units, STEM-focused sellers integrating engineering concepts, homeschool families exploring building and construction topics, and parents looking for educational materials that channel their child's natural fascination with big machines and building projects into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable construction printable product line using our worksheet generator tools.`,
+    title: `Construction Printable Business Ideas for Sellers`,
+    description: `Construction is one of the most universally captivating themes for young children, making it an outstanding evergreen niche for printable entrepreneurs seeking reliable year-round revenue driven by powerful STEM connections and the magnetic fascination that excavators, cranes, and building sites hold for kids of every background. The construction theme offers extraordinary sub-theme depth including excavator, crane, bulldozer, dump truck, cement mixer, hard hat, tools, hammer, wrench, nails, screws, blueprint, building blocks, bricks, construction site, scaffolding, safety vest, traffic cone, jackhammer, and wrecking ball, giving sellers a rich visual vocabulary that connects to nearly every child`s daily observations of building projects in their neighborhoods, road work on their commutes, and construction play with toy vehicles and building block sets. Cross-curricular versatility makes construction printables especially valuable because building concepts connect naturally to math through measurement, counting, and geometric shapes in structures, literacy through construction vocabulary, tool identification, and job description comprehension, STEM learning through engineering principles, structural design, and problem-solving challenges, and fine motor development through building activities and construction-themed tracing exercises. For printable sellers on Etsy, Amazon KDP, and Gumroad, the construction niche combines strong year-round demand with universal child appeal that resonates with buyers planning community helpers and careers units, STEM-focused sellers integrating engineering concepts, homeschool families exploring building and construction topics, and parents looking for educational materials that channel their child`s natural fascination with big machines and building projects into productive learning experiences. This guide covers specific product ideas, platform strategies, and niche positioning approaches to help you build a profitable construction printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The construction printable niche occupies a uniquely powerful position for printable sellers because virtually every young child has a direct, visceral fascination with construction vehicles, building sites, and the visible transformation of structures taking shape in their neighborhoods and communities. Unlike seasonal themes that concentrate demand into narrow calendar windows, the construction niche benefits from genuine year-round relevance: building projects operate continuously regardless of season, children encounter construction equipment during daily routines, and construction play with toy vehicles and building blocks remains a perennial favorite activity that transcends weather and calendar events. This consistent demand pattern makes construction printables a reliable revenue source without the feast-or-famine cycles that challenge sellers in more seasonal niches.
 
@@ -41,7 +41,7 @@ The construction toy crossover market represents a particularly valuable audienc
       appId: 'find-count',
     },
     {
-      title: 'Construction Word Search Puzzles to Sell Online',
+      title: `Construction Word Search Puzzles to Sell Online`,
       description: `Construction vocabulary word searches attract STEM-focused buyers planning building units and parents seeking educational entertainment that channels their child's natural fascination with big machines and construction sites into productive literacy skill development and vocabulary expansion across multiple construction categories. Create puzzles featuring construction-specific vocabulary like excavator, crane, bulldozer, dump truck, cement mixer, hammer, wrench, blueprint, scaffolding, and hard hat alongside broader building terms like foundation, structure, beam, and demolition. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more construction terms for older children exploring vehicle types and building terminology.`,
       appId: 'wordsearch',
     },
@@ -61,7 +61,7 @@ The construction toy crossover market represents a particularly valuable audienc
       appId: 'coloring',
     },
     {
-      title: 'Construction Bingo Cards for Group Activities',
+      title: `Construction Bingo Cards for Group Activities`,
       description: `Construction bingo cards serve STEM-focused sellers running building and engineering lessons and buyers seeking interactive group activities that reinforce construction vocabulary and vehicle identification more effectively than individual worksheets alone in engaging group and learning center settings. The Bingo generator creates unique card variations from your construction vocabulary list, ensuring no two cards are identical for group play sessions. Sell group sets of twenty-five to thirty cards with a caller sheet and construction vocabulary reference guide included. For the family market, create bingo kits featuring different vehicles, tools, building materials, safety equipment, and worker roles that families can play during construction-themed learning sessions or rainy-day indoor activities when outdoor play is not an option.`,
       appId: 'bingo',
     },
@@ -90,13 +90,13 @@ The construction toy crossover market represents a particularly valuable audienc
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Construction Printables on Etsy',
-      description: `Etsy rewards the construction niche with consistent year-round listing performance because children's fascination with building machines never pauses and parents of construction-loving kids actively search for themed educational materials that support their child's mechanical curiosity across every season. Use all thirteen tags with variations combining vehicle types, skill areas, and age groups: "excavator counting worksheets preschool," "construction coloring pages toddler," and "dump truck word search kindergarten" target specific buyer searches far more effectively than broad tags like "construction worksheets." Position your products for both educational and gift-buyer searches by including terms like "young builder activity" and "construction lover printable" in your titles and descriptions. Listing images showing printed construction worksheets alongside toy vehicles, hard hats, or building blocks outperform flat digital previews and capture the hands-on enthusiasm that brings parents of construction-obsessed children to Etsy searching for vehicle-themed educational resources. Target construction birthday party searches year-round, as construction remains one of the most popular birthday themes for young children seeking vehicle-themed celebration activities.`,
+      title: `Selling Construction Printables on Etsy`,
+      description: `Etsy rewards the construction niche with consistent year-round listing performance because children`s fascination with building machines never pauses and parents of construction-loving kids actively search for themed educational materials that support their child`s mechanical curiosity across every season. Use all thirteen tags with variations combining vehicle types, skill areas, and age groups: "excavator counting worksheets preschool," "construction coloring pages toddler," and "dump truck word search kindergarten" target specific buyer searches far more effectively than broad tags like "construction worksheets." Position your products for both educational and gift-buyer searches by including terms like "young builder activity" and "construction lover printable" in your titles and descriptions. Listing images showing printed construction worksheets alongside toy vehicles, hard hats, or building blocks outperform flat digital previews and capture the hands-on enthusiasm that brings parents of construction-obsessed children to Etsy searching for vehicle-themed educational resources. Target construction birthday party searches year-round, as construction remains one of the most popular birthday themes for young children seeking vehicle-themed celebration activities.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Construction Activity Books on KDP',
-      description: `Amazon KDP excels for construction printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children's construction books, toy vehicles, building block sets, and engaging tool kits that fuel young builders' passion for creating structures and operating heavy machinery in their imaginative play. Compile individual construction worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around vehicle and building themes. Use KDP keyword fields strategically: include "construction activity book for kids," "excavator worksheets preschool," and sub-theme terms like "dump truck coloring book" or "building activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for young builders, companions to construction toy purchases from brands like LEGO and Tonka, or supplements to STEM learning materials. Construction activity books benefit from year-round demand with notable spikes during holiday gift seasons and birthday celebrations when construction-themed gifts are among the most popular choices for young children.`,
+      title: `Publishing Construction Activity Books on KDP`,
+      description: `Amazon KDP excels for construction printables because parents and gift buyers naturally add activity books to their Amazon carts alongside children`s construction books, toy vehicles, building block sets, and engaging tool kits that fuel young builders` passion for creating structures and operating heavy machinery in their imaginative play. Compile individual construction worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around vehicle and building themes. Use KDP keyword fields strategically: include "construction activity book for kids," "excavator worksheets preschool," and sub-theme terms like "dump truck coloring book" or "building activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for young builders, companions to construction toy purchases from brands like LEGO and Tonka, or supplements to STEM learning materials. Construction activity books benefit from year-round demand with notable spikes during holiday gift seasons and birthday celebrations when construction-themed gifts are among the most popular choices for young children.`,
     },
     {
       platform: 'Gumroad',
@@ -113,7 +113,7 @@ The construction toy crossover market represents a particularly valuable audienc
   faq: [
     {
       question: `How profitable is the construction printable niche for sellers?`,
-      answer: `The construction printable niche offers strong profit potential because it delivers consistent year-round demand driven by children's universal and enduring fascination with heavy machinery, building sites, and construction vehicles that never goes out of style. STEM-focused buyers purchase construction-themed worksheets for engineering and building units, general buyers use them for community helpers and careers content integration, and parents buy them to channel their child's construction enthusiasm into productive learning experiences. Unlike seasonal niches with narrow demand windows, construction maintains steady relevance because children encounter building projects, road work, and construction vehicles during daily routines regardless of time of year. Profitability compounds as your catalog grows because each new vehicle-specific or tool-focused product captures additional long-tail searches and cross-sells effectively with your existing construction listings. Sellers who build deep catalogs covering multiple vehicle types across different skill areas and age groups typically see reliable baseline revenue with predictable demand patterns that remain consistent throughout the academic year and beyond.`,
+      answer: `The construction printable niche offers strong profit potential because it delivers consistent year-round demand driven by children`s universal and enduring fascination with heavy machinery, building sites, and construction vehicles that never goes out of style. STEM-focused buyers purchase construction-themed worksheets for engineering and building units, general buyers use them for community helpers and careers content integration, and parents buy them to channel their child`s construction enthusiasm into productive learning experiences. Unlike seasonal niches with narrow demand windows, construction maintains steady relevance because children encounter building projects, road work, and construction vehicles during daily routines regardless of time of year. Profitability compounds as your catalog grows because each new vehicle-specific or tool-focused product captures additional long-tail searches and cross-sells effectively with your existing construction listings. Sellers who build deep catalogs covering multiple vehicle types across different skill areas and age groups typically see reliable baseline revenue with predictable demand patterns that remain consistent throughout the academic year and beyond.`,
     },
     {
       question: `Is the construction printable niche seasonal or year-round?`,
@@ -145,32 +145,32 @@ The construction toy crossover market represents a particularly valuable audienc
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ The construction toy crossover market represents a particularly valuable audienc
     {
       pageType: 'idea',
       slug: 'music-printable-ideas',
-      anchorText: 'Music Printable Business Ideas',
+      anchorText: `Music Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/tools/bolt.webp', alt: 'Bolt — themed educational image', caption: 'Bolt' },
-    { src: '/image-library/tools/caulking%20gun.webp', alt: 'Caulking Gun — themed educational image', caption: 'Caulking Gun' },
-    { src: '/image-library/tools/electric%20drill.webp', alt: 'Electric Drill — themed educational image', caption: 'Electric Drill' },
-    { src: '/image-library/tools/extension%20cord.webp', alt: 'Extension Cord — themed educational image', caption: 'Extension Cord' },
-    { src: '/image-library/tools/flashlight.webp', alt: 'Flashlight — themed educational image', caption: 'Flashlight' },
-    { src: '/image-library/tools/hammer.webp', alt: 'Hammer — themed educational image', caption: 'Hammer' },
+    { src: `/image-library/tools/bolt.webp`, alt: `Bolt — themed educational image`, caption: 'Bolt' },
+    { src: `/image-library/tools/caulking%20gun.webp`, alt: `Caulking Gun — themed educational image`, caption: 'Caulking Gun' },
+    { src: `/image-library/tools/electric%20drill.webp`, alt: `Electric Drill — themed educational image`, caption: 'Electric Drill' },
+    { src: `/image-library/tools/extension%20cord.webp`, alt: `Extension Cord — themed educational image`, caption: 'Extension Cord' },
+    { src: `/image-library/tools/flashlight.webp`, alt: `Flashlight — themed educational image`, caption: 'Flashlight' },
+    { src: `/image-library/tools/hammer.webp`, alt: `Hammer — themed educational image`, caption: 'Hammer' },
   ],
 
 

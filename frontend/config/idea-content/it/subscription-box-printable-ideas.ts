@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Stampabili per Box in Abbonamento | Guida di Nicchia`,
     metaDescription: `Idee di stampabili per box in abbonamento su Etsy, Gumroad e Patreon. Entrate ricorrenti con pacchetti mensili curati di schede didattiche e collezioni.`,
-    primaryKeyword: 'idee stampabili box in abbonamento',
+    primaryKeyword: `idee stampabili box in abbonamento`,
     secondaryKeywords: [
-      'business stampabili in abbonamento',
-      'modello abbonamento schede mensili',
-      'servizio consegna ricorrente stampabili',
-      'vendere abbonamenti stampabili online',
+      `business stampabili in abbonamento`,
+      `modello abbonamento schede mensili`,
+      `servizio consegna ricorrente stampabili`,
+      `vendere abbonamenti stampabili online`,
     ],
     lsiKeywords: [
-      'prodotti educativi consegna mensile',
-      'modello entrate ricorrenti schede didattiche',
-      'servizio pacchetti stampabili curati',
+      `prodotti educativi consegna mensile`,
+      `modello entrate ricorrenti schede didattiche`,
+      `servizio pacchetti stampabili curati`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Il modello in abbonamento funziona su molteplici piattaforme tra cui Gumroad che
     },
     {
       title: `Collezioni Mensili di Ricerca Parole Tematiche in Abbonamento per Business Educativi`,
-      description: "Pacchetti mensili di ricerca parole tematiche in abbonamento che consegnano puzzle di vocabolario curati organizzati attorno a temi mensili che costruiscono l\'aspettativa degli abbonati e forniscono coinvolgimento educativo costante durante tutto l\'anno con contenuti tematici freschi ad ogni consegna. Usa il generatore di Ricerca Parole per creare collezioni mensili di vocabolario tematico come 'Parole dell\'Oceano' per giugno, 'Parole del Raccolto' per ottobre e 'Parole Invernali' per gennaio, difficoltà progressiva all\'interno di ogni pacchetto mensile che serve più livelli scolastici in un unico abbonamento, puzzle bonus speciali per festività e stagioni che premiano la fedeltà degli abbonati, e dimensioni di griglia e conteggi di parole variati che mantengono l\'esperienza del puzzle fresca e coinvolgente attraverso le consegne mensili consecutive.",
+      description: "Pacchetti mensili di ricerca parole tematiche in abbonamento che consegnano puzzle di vocabolario curati organizzati attorno a temi mensili che costruiscono l\`aspettativa degli abbonati e forniscono coinvolgimento educativo costante durante tutto l'anno con contenuti tematici freschi ad ogni consegna. Usa il generatore di Ricerca Parole per creare collezioni mensili di vocabolario tematico come `Parole dell\'Oceano' per giugno, 'Parole del Raccolto' per ottobre e 'Parole Invernali' per gennaio, difficoltà progressiva all\'interno di ogni pacchetto mensile che serve più livelli scolastici in un unico abbonamento, puzzle bonus speciali per festività e stagioni che premiano la fedeltà degli abbonati, e dimensioni di griglia e conteggi di parole variati che mantengono l\'esperienza del puzzle fresca e coinvolgente attraverso le consegne mensili consecutive.",
       appId: 'wordsearch',
     },
     {
@@ -99,12 +99,12 @@ Il modello in abbonamento funziona su molteplici piattaforme tra cui Gumroad che
     },
     {
       platform: 'Etsy',
-      title: 'Creare Vendite in Stile Abbonamento su Etsy',
+      title: `Creare Vendite in Stile Abbonamento su Etsy`,
       description: "Sebbene Etsy non abbia funzionalità native di fatturazione in abbonamento, i venditori creativi di stampabili costruiscono attività in stile abbonamento attraverso rinnovi mensili delle inserzioni, pacchetti promozionali 'abbonati e risparmia' e programmi di coltivazione dei clienti abituali che simulano entrate ricorrenti all\'interno dei vincoli della piattaforma. Inserisci i pacchetti mensili di schede come prodotti separati promuovendo la serie continuativa in modo prominente in ogni descrizione dell\'inserzione, incoraggiando gli acquirenti che acquistano un pacchetto mensile a tornare per i mesi successivi evidenziando la continuità tematica e la difficoltà progressiva che collega le consegne mensili consecutive in un programma educativo coerente. Usa i messaggi automatici agli acquirenti di Etsy per invitare gli acquirenti singoli a abbonarsi per i mesi futuri attraverso link di acquisto diretto o unendosi alla tua lista email dove puoi offrire prezzi per abbonati e consegna mensile automatica al di fuori della piattaforma Etsy. Costruisci una lista email dai clienti Etsy per trasferire gli acquirenti interessati a piattaforme dirette come Gumroad o Shopify dove la fatturazione ricorrente è automatizzata e la gestione degli abbonamenti è fluida, usando Etsy come canale di acquisizione clienti che alimenta la tua attività in abbonamento con acquirenti qualificati che hanno già dimostrato disponibilità ad acquistare i tuoi contenuti di schede didattiche. Crea pacchetti annuali a prezzo scontato che funzionano come abbonamenti prepagati, consegnando pacchetti mensili di contenuti durante tutto l\'anno raccogliendo il pagamento completo in anticipo per entrate prevedibili e rischio ridotto di abbandono.",
     },
     {
       platform: 'Gumroad',
-      title: 'Costruire Entrate in Stile Abbonamento su Gumroad',
+      title: `Costruire Entrate in Stile Abbonamento su Gumroad`,
       description: "Gumroad supporta i pacchetti crescenti che funzionano in modo simile agli abbonamenti dove crei un pacchetto annuale a prezzo premium che riceve aggiunte mensili durante l\'anno scolastico, e gli acquirenti precoci ottengono il miglior valore man mano che il pacchetto cresce ogni mese con nuove aggiunte di contenuti che ricevono automaticamente attraverso il sistema di notifiche della piattaforma. Gumroad avvisa automaticamente i precedenti acquirenti del pacchetto quando vengono aggiunti nuovi contenuti, creando un coinvolgimento simile all\'abbonamento dove i venditori ricevono notifiche mensili sui materiali freschi aggiunti al pacchetto acquistato senza alcun pagamento aggiuntivo richiesto dopo l\'acquisto iniziale. Le iscrizioni annuali per il negozio allineate con il calendario scolastico da settembre a giugno creano cicli naturali di abbonamento che corrispondono ai modelli di acquisto dei venditori, con il prezzo del pacchetto crescente che aumenta man mano che vengono aggiunti più contenuti mensili durante l\'anno, premiando gli acquirenti precoci che hanno comprato quando il pacchetto era più piccolo e meno costoso. Struttura il tuo pacchetto crescente con un chiaro calendario mensile dei contenuti pubblicato nella descrizione del prodotto così i venditori possono vedere esattamente quali temi e materie saranno coperti in ogni mese futuro, costruendo aspettativa e aiutando i venditori a pianificare i loro programmi didattici attorno al tuo calendario di consegna dei contenuti. Includi un elemento di comunità in stile abbonamento creando una sezione di feedback dedicata nel tuo negozio Gumroad dove gli acquirenti del pacchetto possono richiedere temi o materie specifiche per le future aggiunte mensili, costruendo il coinvolgimento partecipativo che rafforza le relazioni a lungo termine con i clienti e incoraggia i venditori a raccomandare il tuo pacchetto crescente ai colleghi.",
     },
   ],
@@ -143,17 +143,17 @@ Il modello in abbonamento funziona su molteplici piattaforme tra cui Gumroad che
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
+      slug: `creare-pacchetti-schede-esercizi`,
       anchorText: `Come Creare Pacchetti di Schede Didattiche che Vendono`,
     },
     {
@@ -163,33 +163,33 @@ Il modello in abbonamento funziona su molteplici piattaforme tra cui Gumroad che
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: `Guida Completa per Avviare un Business di Stampabili`,
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
-      slug: 'basi-matematica-idee-stampabili',
+      slug: `basi-matematica-idee-stampabili`,
       anchorText: `Idee di Business con Stampabili sulle Operazioni Matematiche`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — immagine educativa tematica', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Pipistrello — immagine educativa tematica', caption: 'Pipistrello' },
-    { src: '/image-library/animals/camel.webp', alt: 'Cammello — immagine educativa tematica', caption: 'Cammello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gatto — immagine educativa tematica', caption: 'Gatto' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cane — immagine educativa tematica', caption: 'Cane' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfino — immagine educativa tematica', caption: 'Delfino' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — immagine educativa tematica`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Pipistrello — immagine educativa tematica`, caption: 'Pipistrello' },
+    { src: `/image-library/animals/camel.webp`, alt: `Cammello — immagine educativa tematica`, caption: 'Cammello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gatto — immagine educativa tematica`, caption: 'Gatto' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cane — immagine educativa tematica`, caption: 'Cane' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfino — immagine educativa tematica`, caption: 'Delfino' },
   ],
 
 

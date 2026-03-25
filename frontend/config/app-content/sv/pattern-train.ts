@@ -4,17 +4,17 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'mönstertåg generator',
     secondaryKeywords: [
-      'mönstersekvens arbetsblad sälja på Etsy',
-      'mönstertåg arbetsblad generator för Amazon KDP',
-      'mönsterigenkänning arbetsblad kommersiell licens',
-      'utskrivbara mönsterövningar skapa för Gumroad',
+      `mönstersekvens arbetsblad sälja på Etsy`,
+      `mönstertåg arbetsblad generator för Amazon KDP`,
+      `mönsterigenkänning arbetsblad kommersiell licens`,
+      `utskrivbara mönsterövningar skapa för Gumroad`,
     ],
     lsiKeywords: [
-      'digitala mönsterövning produkter onlineföretag',
+      `digitala mönsterövning produkter onlineföretag`,
       `utskrivbara visuella mönstersekvens arbetsblad företag`,
-      'mönstertåg generator kommersiellt bruk',
+      `mönstertåg generator kommersiellt bruk`,
     ],
-    titleTag: 'Mönstertåg Generator | Skapa Sekvensarbetsblad',
+    titleTag: `Mönstertåg Generator | Skapa Sekvensarbetsblad`,
     metaDescription:
       `Skapa mönstertåg-arbetsblad att sälja på Etsy, KDP och Gumroad. Fem mönstertyper, 11 tematiska tågvagnar, justerbart antal ledtrådar. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Mönstertåg-Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Mönstertåg-Arbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -40,12 +40,12 @@ const content: AppContent = {
           `Välj en av fem upprepande mönstertyper från panelen Innehåll. AB alternerar två element (A-B-A-B-A-B) för de enklaste sekvenserna. AAB grupperar två av ett element sedan ett av ett annat (A-A-B-A-A-B). ABB vänder den grupperingen (A-B-B-A-B-B). ABC roterar tre olika element (A-B-C-A-B-C) för mer komplex identifiering. AABB parar två av varje innan mönstret upprepas (A-A-B-B-A-A-B-B). Varje typ riktar sig mot en annorlunda nivå av mönsterigenkänningsfärdighet — från enkel tvåelements-alternering till flerselement-sekvenser.`,
       },
       {
-        title: 'Konfigurera antal ledtrådar och namn/datum-fält',
+        title: `Konfigurera antal ledtrådar och namn/datum-fält`,
         description:
           `Ställ in antalet synliga ledtrådar från 4 till 10 för att kontrollera arbetsbladssvårigheten. De första 3 vagnarna visas alltid, och den saknade vagnen placeras dynamiskt bland de återstående positionerna. Att visa 10 ledtrådar lämnar bara 1 tom bland 10 synliga element — mönstret är mycket uppenbart, idealiskt för nybörjare. Att visa bara 4 ledtrådar tvingar användarna att identifiera mönstret från minimal information — en genuin resonemangsutmaning. Växla valfria namn- och datumklippfält för identifiering på utskrivna arbetsblad.`,
       },
       {
-        title: 'Välj bilder och lägg till dekorationer',
+        title: `Välj bilder och lägg till dekorationer`,
         description:
           `Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 illustrationer — djur, mat, fordon, natur och dussintals fler — eller låt temat automatiskt välja matchande bilder, välj manuellt från biblioteket, eller ladda upp dina egna bilder. Varje tema ger koordinerade visuella element som ser sammanhängande ut över tågvagnarna. Använd panelen Textverktyg för att lägga till en arbetsbladstitel, instruktioner eller dekorativ text med typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand och Fredoka. Dra, ändra storlek och flytta varje element på den inbyggda Fabric.js-arbetsytan.`,
       },
@@ -61,7 +61,7 @@ const content: AppContent = {
     title: `Nyckelfunktioner i Mönstertåg Arbetsblad Generatorn`,
     features: [
       {
-        title: 'Tågvagnsformat med 11 tematiska vagnar',
+        title: `Tågvagnsformat med 11 tematiska vagnar`,
         description:
           `Mönster visas över ett tematiskt tåg med 11 vagnar arrangerade i tre rader (5 överst, 3 mitten-vänster, 3 mitten-höger). Varje vagn håller en bild från den upprepande sekvensen, vilket skapar ett visuellt engagerande format som skiljer sig från vanliga rutnätsbaserade mönsterarbetsblad. Tåglayouten ger produkterna ett distinkt utseende i marknadsplatsannonser — köpare som bläddrar på Etsy eller Gumroad ser omedelbart något annorlunda från de typiska rad-och-kolumn-mönsterövningarna. Den tematiska tågkonsten tillför produktionsvärde som motiverar premiumprissättning.`,
       },
@@ -81,17 +81,17 @@ const content: AppContent = {
           `Den tomma vagnspositionen väljs dynamiskt från position 3 till 10 baserat på det konfigurerade antalet ledtrådar, vilket säkerställer att det saknade elementet alltid faller inom mönstrets upprepande sektion snarare än vid den uppenbara starten. De första 3 positionerna fylls alltid för att etablera mönstret visuellt innan utmaningen presenteras. Denna intelligenta placering skapar rättvisa, lösbara pussel varje gång — användarna har tillräckligt med kontext för att identifiera mönstret innan de stöter på den tomma vagnen. Den dynamiska positioneringen innebär också att två arbetsblad med samma mönstertyp kan ha olika saknade positioner, vilket lägger till variation i produktpaket.`,
       },
       {
-        title: 'Bildbibliotek med 104 tematiska samlingar',
+        title: `Bildbibliotek med 104 tematiska samlingar`,
         description:
           `Få tillgång till mer än 3 100 illustrationer i 104 tematiska samlingar — djur, mat, fordon, natur, yrken, högtider och dussintals fler. Varje tema ger en koordinerad uppsättning bilder som ser sammanhängande ut över tågvagnarna. Kommersiellt Paket inkluderar 10 färgglada teman för att komma igång; Full Access låser upp alla 104 teman för maximal produktvariation. Det tematiska biblioteket skapar naturliga paketringsmöjligheter: bondgårdsdjur mönstertåg, havsdjur sekvenser, dinosaurie mönsterigenkänning — varje tema blir en distinkt produktannons med omedelbar visuell attraktionskraft.`,
       },
       {
-        title: 'Dubbelt arbetsytesystem med separat facit',
+        title: `Dubbelt arbetsytesystem med separat facit`,
         description:
           `Arbetsbladet och facit lever på separata, oberoende redigerbara arbetsytor som nås via flikar. Arbetsbladet visar tåget med en tom vagn; facit visar alla 11 vagnar fyllda med den korrekta mönstersekvensen. Varje arbetsyta stöder full redigering — lägg till text, justera layout, flytta element — så du kan anpassa både arbetsbladet och lärarfacit oberoende av varandra. Båda laddas ner som separata filer, vilket ger köpare ett komplett produktpaket med verifierade lösningar.`,
       },
       {
-        title: 'Tryckfärdig PDF- och JPEG-export med hög DPI',
+        title: `Tryckfärdig PDF- och JPEG-export med hög DPI`,
         description:
           `Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller tryckfärdiga PDF-dokument renderade med en 6x-multiplikator för skarpa, detaljerade resultat. Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) och anpassade storlekar stöds alla. Aktivera gråskaleexport för bläckvänliga versioner idealiska för volymutskrift eller svartvita arbetsböcker. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler — ingen efterbearbetning behövs.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Mönstertåg-Arbetsblad Online',
+    title: `Hur du Säljer Mönstertåg-Arbetsblad Online`,
     cases: [
       {
-        title: 'Mönsterigenkänningspaket på Etsy',
+        title: `Mönsterigenkänningspaket på Etsy`,
         description:
           `Skapa tematiska mönstertåg-paket med progressiv svårighet byggd från två oberoende axlar: mönstertyp och antal ledtrådar. Börja med AB-mönster som visar 10 ledtrådar för den enklaste nivån, minska sedan ledtrådarna till 6 eller 4 för svårare variationer av samma mönster. Avancera till AAB-, ABB-, ABC- och AABB-mönster vid varje ledtrådsnivå. Paketera bondgårdsdjur, dinosaurier, havsdjur och fordon som separata temapaket med 15–25 arbetsblad vardera plus facit. Det unika tågvagnsformatet sticker ut från rutnätsbaserade konkurrenter i Etsys sökresultat. Prissätt enskilda temapaket till 30–50 SEK och multipaket med progressiv svårighet till 120–180 SEK.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Tidiga inlärningsarbetsböcker på Amazon KDP',
+        title: `Tidiga inlärningsarbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 60–100 mönstertåg-övningar till en tryckt arbetsbok formaterad för Amazon KDP. Strukturera boken som en mönsterkomplexitetsprogression: Kapitel 1 täcker AB-mönster med högt antal ledtrådar, Kapitel 2 introducerar AAB och ABB, Kapitel 3 avancerar till ABC treelementsmönster, Kapitel 4 presenterar AABB utökade sekvenser och Kapitel 5 minskar antalet ledtrådar över alla mönstertyper för utmaningssidor. Det helt visuella formatet med bilder på tågvagnar och noll text innebär att ingen översättning behövs för internationella KDP-marknadsplatser — publicera samma interiör i varje land via Amazon.se. Mönstertåg-arbetsböcker fyller en specifik tidig mattehålnisch med helårsefterfrågan.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -128,13 +128,13 @@ const content: AppContent = {
         title: `Flerspråkiga visuella arbetsblad för globala marknader`,
         description:
           `Eftersom mönstertåg-arbetsblad enbart innehåller bilder på tågvagnar med noll text på resultatet fungerar samma produkt på varje språk utan modifiering. Skapa en uppsättning mönstertåg-övningar och sälj den världen över — ingen översättning behövs, inga separata språkversioner att underhålla. Att byta innehållsspråk påverkar bara bildbiblioteksetiketterna i generatorn, inte det utskrivna arbetsbladet. Lista identiska produkter på Etsy-butiker som riktar sig mot olika länder, eller publicera samma KDP-interiör på alla internationella Amazon-marknadsplatser. Ett enda arbetsflöde producerar en universellt säljbar produkt.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (globalt)',
+        platform: `Etsy / Amazon KDP / Gumroad (globalt)`,
       },
       {
         title: `produktlinjes- och privatundervisning i mönsterkoncept`,
         description:
           `Ladda upp egna bilder för att skapa mönstertåg-arbetsblad för valfritt ämne eller enhet — använd växtväxtstadier för en NO-lektion, historiska artefaktbilder för SO eller musiknotsymboler för en musiklektion. De fem mönstertyperna låter dig matcha övningen till lärandemålet: AB för introduktion, ABC och AABB för bedömning. Justera antalet ledtrådar för att matcha varje användares förmågenivå — fler ledtrådar för användare som behöver stöd, färre ledtrådar för avancerade användare. Skriv ut anpassade set på minuter för smågrupper eller hela klasser. Den separata facitfliken sparar upplevt värde, och det visuella tågformatet engagerar användare som tycker rutnätsbaserade arbetsblad är monotona.`,
-        platform: 'Online / Privatundervisning / Hemundervisning',
+        platform: `Online / Privatundervisning / Hemundervisning`,
       },
     ],
   },
@@ -146,27 +146,27 @@ const content: AppContent = {
         `AB alternerar två element (A-B-A-B) för det enklaste upprepande mönstret. AAB grupperar två av ett element sedan ett av ett annat (A-A-B-A-A-B). ABB vänder den grupperingen (A-B-B-A-B-B). ABC roterar tre olika element (A-B-C-A-B-C), vilket kräver att användarna håller reda på en längre upprepande enhet. AABB parar två av varje element (A-A-B-B-A-A-B-B) i en utökad cykel. Progressionen från AB till AABB skapar en naturlig svårighetsstege från enkel tvåelements-alternering till komplexa flerelement-sekvenser.`,
     },
     {
-      question: 'Hur styr antalet ledtrådar svårigheten?',
+      question: `Hur styr antalet ledtrådar svårigheten?`,
       answer:
         `Antalet ledtrådar bestämmer hur många av de 11 tågvagnarna som visar bilder. De första 3 vagnarna visas alltid för att etablera mönstret. Med 10 ledtrådar är bara 1 vagn tom bland 10 fyllda — mönstret är mycket uppenbart. Med 4 ledtrådar ser användarna minimal information och måste resonera noggrant för att identifiera sekvensen. Denna enda inställning förvandlar varje mönstertyp från en enkel övning till en genuin resonemangsutmaning, och multiplicerar effektivt produktvariationen från varje mönstertyp.`,
     },
     {
-      question: 'Hur är de 11 tågvagnarna arrangerade på sidan?',
+      question: `Hur är de 11 tågvagnarna arrangerade på sidan?`,
       answer:
         `Tåget visar 11 vagnar över tre rader: 5 vagnar på översta raden, 3 på mitten-vänster och 3 på mitten-höger. Varje vagn håller en bild från den upprepande mönstersekvensen. Den tematiska tågkonsten kopplar samman vagnarna visuellt, vilket skapar en engagerande layout som skiljer sig från vanliga rutnätsbaserade mönsterarbetsblad. Detta distinkta format hjälper produkter att sticka ut i sökresultat på marknadsplatser.`,
     },
     {
-      question: 'Hur bestäms den saknade vagnens position?',
+      question: `Hur bestäms den saknade vagnens position?`,
       answer:
         `Den tomma vagnen placeras dynamiskt bland positionerna 3 till 10 baserat på det konfigurerade antalet ledtrådar. De första 3 positionerna fylls alltid så att användarna ser tillräckligt av mönstret innan de stöter på den tomma vagnen. Denna intelligenta placering säkerställer att varje pussel är rättvist och lösbart. Två arbetsblad med samma mönstertyp kan ha olika saknade positioner, vilket lägger till naturlig variation i produktpaket.`,
     },
     {
-      question: 'Hur väljer jag bilder till tågvagnarna?',
+      question: `Hur väljer jag bilder till tågvagnarna?`,
       answer:
         `Tre alternativ finns tillgängliga: temaautomatik väljer koordinerade bilder från det valda temat automatiskt, manuellt urval låter dig bläddra i det 104-tema-stora biblioteket och välja specifika bilder, och anpassad uppladdning låter dig lägga till egna bilder. Varje tema ger en visuellt koordinerad uppsättning — djur, fordon, mat, natur och dussintals fler. Mönstertypen bestämmer hur många distinkta bilder som behövs: AB använder 2, AAB och ABB använder 2, ABC använder 3 och AABB använder 2.`,
     },
     {
-      question: 'Hur fungerar facit för mönstertåg-arbetsblad?',
+      question: `Hur fungerar facit för mönstertåg-arbetsblad?`,
       answer:
         `Facit lever på en separat arbetsyteflik som visar det kompletta tåget med alla 11 vagnar ifyllda — inklusive positionen som var tom på arbetsbladet. Båda arbetsytorna kan redigeras oberoende, så du kan anpassa facit separat. Arbetsbladet och facit laddas ner som separata filer, vilket ger köpare ett komplett produktpaket med verifierade lösningar.`,
     },
@@ -176,12 +176,12 @@ const content: AppContent = {
         `Mönstertåg visar sekvenser över ett tematiskt tåg med 11 vagnar i ett distinkt visuellt format, medan rutnätsbaserade mönsterarbetsblad använder vanliga rader och kolumner. Tågformatet är mer visuellt engagerande och skapar produkter som sticker ut i marknadsplatsannonser. Mönstertåg har också justerbart antal ledtrådar (4–10) för finkornig svårighetskontroll och dynamisk placering av den saknade vagnen — funktioner som inte finns i standardrutnätslayouter.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — alla fem mönstertyper, justerbart antal ledtrådar, bildbiblioteket, facitgenerering och alla exportformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Är Mönstertåg-generatorn språkkänslig?',
+      question: `Är Mönstertåg-generatorn språkkänslig?`,
       answer:
         `Nej. Mönstertåg är en rent visuell app — arbetsbladen innehåller enbart bilder på tågvagnar med noll text på resultatet, så de är identiska på varje språk. Att byta språk påverkar bara gränssnittsetiketterna i generatorn och bildbiblioteksspråket, inte arbetsbladet i sig. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.`,
     },
@@ -191,7 +191,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina mönstertåg-arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De fem mönstertyperna, det justerbara antalet ledtrådar och det unika tågvagnsformatet ger dig stark differentiering och global säljbarhet i marknadsplatskategorier.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje mönstertyp, varje ledtrådsinställning, varje tema, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -201,7 +201,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'stort-litet-arbetsblad',
-      anchorText: 'Stort och Litet Arbetsblad Generator',
+      anchorText: `Stort och Litet Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -211,22 +211,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'rutritning-arbetsblad',
-      anchorText: 'Rutritning Arbetsblad Generator',
+      anchorText: `Rutritning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'rita-linjer-arbetsblad',
-      anchorText: 'Rita Linjer Arbetsblad Generator',
+      anchorText: `Rita Linjer Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'malarbilder-arbetsblad',
-      anchorText: 'Målarbilder Arbetsblad Generator',
+      anchorText: `Målarbilder Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'diagram-rakning-arbetsblad',
-      anchorText: 'Diagram och Räkning Arbetsblad Generator',
+      anchorText: `Diagram och Räkning Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -235,23 +235,23 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'foersta-klass-utskriftsbara-ideer',
-      anchorText: 'Första Klass Utskriftsbara Idéer för Grundskolan',
+      slug: `foersta-klass-utskriftsbara-ideer`,
+      anchorText: `Första Klass Utskriftsbara Idéer för Grundskolan`,
     },
     {
       pageType: 'idea',
-      slug: 'andra-klass-utskriftsbara-ideer',
+      slug: `andra-klass-utskriftsbara-ideer`,
       anchorText: `Andra Klass Utskriftsbara Idéer för Växande användare`,
     },
     {
       pageType: 'start',
       slug: 'amazon-kdp-aktivitetsboecker',
-      anchorText: 'Publicera Aktivitetsböcker på Amazon KDP',
+      anchorText: `Publicera Aktivitetsböcker på Amazon KDP`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-moenster-arbetsblad',
-      anchorText: 'Hur du Skapar Mönsterarbetsblad som Säljer',
+      anchorText: `Hur du Skapar Mönsterarbetsblad som Säljer`,
     },
   ],
 

@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `fichas de caça-palavras imprimíveis para vendedores Etsy`,
       `gerador de grelhas de palavras ocultas para Amazon KDP`,
-      'vender fichas de caça-palavras no Gumroad',
+      `vender fichas de caça-palavras no Gumroad`,
       `fichas de caça-palavras com gabarito código de cores licença comercial`,
     ],
     lsiKeywords: [
       `produtos digitais de puzzles de palavras ocultas para empreendedores`,
       `negócio de fichas de sopa de letras imprimíveis online`,
-      'gerador de fichas de caça-palavras uso comercial',
+      `gerador de fichas de caça-palavras uso comercial`,
     ],
-    titleTag: 'Gerador Fichas Caça-Palavras | Criar e Vender',
+    titleTag: `Gerador Fichas Caça-Palavras | Criar e Vender`,
     metaDescription:
       `Crie fichas de caça-palavras para vender na Etsy, KDP e Gumroad. Grelha 5×5 a 30×30, direções diagonais, letras adaptadas ao idioma.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Caça-Palavras em 5 Passos',
+    title: `Como Criar Fichas de Caça-Palavras em 5 Passos`,
     steps: [
       {
         title: 'Configure o layout da página',
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Escolha entre três modos de exibição de palavras/imagens: Mostrar Palavras e Imagens (predefinição), Mostrar Apenas Imagens ou Mostrar Apenas Palavras. Cada modo controla o que aparece ao lado da grelha como pistas. Use o painel de Ferramentas de Texto para adicionar um título de ficha, campos de nome e data do usuário, instruções ou qualquer texto personalizado. Escolha entre sete fontes, incluindo Lexend Deca, Baloo 2, Fredoka e Quicksand. Ajuste o tamanho da fonte, a cor e o contorno para máxima legibilidade. Use o canvas Fabric.js para arrastar, redimensionar e reposicionar cada elemento.`,
       },
       {
-        title: 'Gere o gabarito com código de cores e descarregue',
+        title: `Gere o gabarito com código de cores e descarregue`,
         description:
           `Vá ao separador de Gabarito e clique em Gerar Gabarito para criar uma versão resolvida onde cada palavra oculta é destacada numa de seis cores alternadas — rosa, azul, verde, dourado, coral e lavanda — tornando cada palavra visualmente distinta. Ative a exportação em escala de cinzentos para versões económicas em tinta. Depois abra o menu de Download e exporte tanto a ficha como o seu gabarito em JPEG de alta resolução ou PDF pronto para impressão. Cada exportação é renderizada a mais de 400 DPI para uma nitidez perfeita, quer imprima em casa, carregue na Etsy ou inclua num livro de caça-palavras na Amazon KDP.`,
       },
@@ -66,7 +66,7 @@ const content: AppContent = {
           `Cada puzzle incorpora palavras ocultas dentro de uma grelha de letras de preenchimento aleatórias. Os usuários percorrem linhas, colunas e diagonais para encontrar cada palavra — o formato clássico de caça-palavras que estimula simultaneamente a perceção visual, o reconhecimento de padrões e a recordação de vocabulário. No modo Biblioteca de Imagens ou Edição Manual, as imagens aparecem ao lado da grelha como pistas visuais, ligando o reconhecimento de imagens à identificação de palavras. O modo Lista de Palavras Personalizada cria caça-palavras puramente textuais sem imagens, alargando o formato a qualquer tema ou conjunto de vocabulário.`,
       },
       {
-        title: 'Tamanho de grelha personalizável de 5×5 a 30×30',
+        title: `Tamanho de grelha personalizável de 5×5 a 30×30`,
         description:
           `Ajuste linhas e colunas de forma independente de 5 a 30, criando grelhas tão compactas como 5×5 (25 casas) ou tão expansivas como 30×30 (900 casas). Grelhas pequenas criam puzzles rápidos e acessíveis, ideais para usuários mais novos ou atividades de aquecimento. Grelhas grandes criam buscas densas e desafiantes que mantêm os resolvedores experientes ocupados durante mais tempo. A grelha predefinida de 12×12 equilibra a dificuldade e o espaço de página para a maioria das audiências. Esta gama permite-lhe criar pacotes com dificuldade progressiva — desde grelhas pequenas de iniciação até desafios massivos de nível especialista — tudo com a mesma ferramenta.`,
       },
@@ -104,49 +104,49 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Caça-Palavras Online',
+    title: `Como Vender Fichas de Caça-Palavras Online`,
     cases: [
       {
-        title: 'Pacotes temáticos de caça-palavras na Etsy',
+        title: `Pacotes temáticos de caça-palavras na Etsy`,
         description:
           `Crie conjuntos de 10 a 20 fichas de caça-palavras agrupadas por tema e dificuldade — animais da quinta numa grelha pequena 8×8 sem diagonais, criaturas marinhas numa grelha 15×15 com diagonais ativadas, dinossauros numa grelha 20×20 com palavras invertidas — e ofereça-os como download instantâneo na Etsy. Inclua os gabaritos com código de cores como ficheiros extra. O formato de grelha visual com pistas de imagem destaca-se face às simples listas de palavras nos resultados de pesquisa da Etsy. Defina o preço de pacotes temáticos individuais entre $3–$5 e mega-pacotes multi-tema com dificuldade progressiva entre $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Livros de caça-palavras na Amazon KDP',
+        title: `Livros de caça-palavras na Amazon KDP`,
         description:
           `Compile de 50 a 100 puzzles de caça-palavras num livro de puzzles impresso em formato Amazon KDP. Use tamanhos de grelha progressivos como curva de dificuldade: comece com grelhas 6×6 apenas horizontal, avance através de grelhas 12×12 com diagonais e termine com grelhas 25×25 com palavras invertidas ativadas. Agrupe os capítulos por tema (animais, alimentos, veículos, natureza) para uma variedade navegável. Adicione uma capa, um guia de dificuldade e uma secção de gabaritos com código de cores no final. Os livros de caça-palavras vendem-se de forma constante durante todo o ano com mínima publicidade.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de vocabulário diferenciados para Gumroad',
+        title: `Centros de vocabulário diferenciados para Gumroad`,
         description:
           `Construa conjuntos de prática de caça-palavras por níveis usando o tamanho da grelha e os controlos de direção como eixos de diferenciação: Nível 1 (8×8, apenas horizontal, 4 palavras), Nível 2 (12×12, horizontal e vertical, 6 palavras), Nível 3 (16×16, diagonais ativadas, 8 palavras) e Nível 4 (20×20, diagonais e invertidas, 8 palavras). Acompanhe cada nível com gabaritos com código de cores e uma folha de acompanhamento do progresso. Os compradores do Gumroad pagam preços premium por recursos de vocabulário diferenciados que podem usar imediatamente em múltiplos níveis de capacidade.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Produtos de caça-palavras multilingues com Acesso Completo`,
         description:
           `O Acesso Completo desbloqueia os 11 idiomas, e como Caça-Palavras é sensível ao idioma, as palavras ocultas E as letras de preenchimento da grelha mudam conforme o idioma. «Dog» em inglês torna-se «cão» em português numa grelha preenchida com caracteres portugueses como ã, õ, ç, â, á; «Hund» em alemão numa grelha com ä, ö, ü; «chien» em francês numa grelha com é, è, ç, à. Cada versão linguística é um produto genuinamente diferente com palavras diferentes, letras de preenchimento diferentes e uma experiência de resolução diferente. Crie séries temáticas idênticas em múltiplos idiomas e publique cada uma como um produto de Etsy ou um livro de KDP separado — onze fluxos de receita a partir de um único fluxo de trabalho.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingue)`,
       },
       {
-        title: 'Ferramenta de vocabulário para loja e explicações',
+        title: `Ferramenta de vocabulário para loja e explicações`,
         description:
           `Use o modo Lista de Palavras Personalizada para criar fichas de caça-palavras com qualquer lista de vocabulário — palavras do ditado semanal, termos de ciências, vocabulário de estudos sociais ou prática de idiomas estrangeiros. Escreva até 8 palavras diretamente sem precisar de imagens correspondentes. Ajuste o tamanho da grelha e os ativadores de direção conforme a capacidade de cada usuário: grelhas pequenas apenas horizontal para quem tem dificuldades na leitura, grelhas grandes com diagonais e inversões para os usuários avançados. Imprima séries personalizadas em minutos para grupos pequenos ou turmas inteiras. O gabarito com código de cores poupa valor percebido, e o formato clássico de caça-palavras mantém os usuários motivados.`,
-        platform: 'loja / Explicações / Ensino doméstico',
+        platform: `loja / Explicações / Ensino doméstico`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Como funciona o puzzle de caça-palavras?',
+      question: `Como funciona o puzzle de caça-palavras?`,
       answer:
         `As palavras ocultas estão incorporadas dentro de uma grelha de letras de preenchimento aleatórias. Os usuários percorrem linhas, colunas e opcionalmente diagonais para encontrar cada palavra. Quando encontrada, os usuários rodeiam ou destacam a palavra na grelha. As letras de preenchimento são geradas aleatoriamente cada vez que gera, por isso cada puzzle é único mesmo com a mesma lista de palavras. Podem ser colocadas até 8 palavras numa única grelha.`,
     },
     {
-      question: 'Que tamanhos de grelha estão disponíveis?',
+      question: `Que tamanhos de grelha estão disponíveis?`,
       answer:
         `Pode configurar linhas e colunas de forma independente de 5 a 30. A predefinição é 12×12. Uma grelha 5×5 cria um puzzle rápido e fácil com apenas 25 casas; uma grelha 30×30 cria uma busca densa e desafiante com 900 casas. Ajustar o tamanho da grelha é a forma principal de controlar a dificuldade, juntamente com os ajustes de direção das palavras.`,
     },
@@ -156,12 +156,12 @@ const content: AppContent = {
         `O ativador de diagonal permite que as palavras sejam colocadas ao longo de ambos os eixos diagonais além do horizontal e vertical. O ativador de invertida permite que as palavras sejam colocadas ao contrário em cada direção habilitada. Com ambos ativados, as palavras podem aparecer em oito direções possíveis. Com ambos desativados, as palavras só aparecem da esquerda para a direita horizontalmente e de cima para baixo verticalmente. Estes ativadores permitem-lhe afinar a dificuldade desde grelhas simples de duas direções até puzzles complexos de oito direções.`,
     },
     {
-      question: 'Quais são as três fontes de conteúdo?',
+      question: `Quais são as três fontes de conteúdo?`,
       answer:
         `O modo Biblioteca de Imagens usa ilustrações temáticas onde o nome da imagem se torna uma palavra oculta na grelha. O Modo Edição Manual permite-lhe selecionar imagens e depois personalizar os seus nomes de exibição antes de gerar — perfeito para vocabulário alternativo ou ortografias simplificadas. O modo Lista de Palavras Personalizada elimina as imagens por completo e permite-lhe escrever até 8 palavras diretamente, possibilitando fichas de caça-palavras para qualquer disciplina sem ilustrações correspondentes.`,
     },
     {
-      question: 'Quais são os três modos de exibição?',
+      question: `Quais são os três modos de exibição?`,
       answer:
         `Mostrar Palavras e Imagens (predefinição) apresenta tanto as pistas de imagem como as etiquetas de palavras ao lado da grelha. Mostrar Apenas Imagens apresenta as pistas de imagem sem etiquetas de texto, exigindo que os usuários identifiquem a imagem e encontrem a palavra por si mesmos. Mostrar Apenas Palavras apresenta as etiquetas de texto sem imagens, criando uma experiência de caça-palavras puramente textual. Cada modo controla o que aparece como referência de pistas junto à grelha.`,
     },
@@ -171,24 +171,24 @@ const content: AppContent = {
         `Quando seleciona um idioma, as letras de preenchimento da grelha mudam automaticamente para corresponder ao alfabeto desse idioma com distribuições de frequência ponderadas. As grelhas em alemão incluem ä, ö, ü e ß. As grelhas em francês incluem é, è, ç, à e outros caracteres acentuados. As grelhas em português incluem ã, õ, ç, â, á, é, í, ó e ú. Isto torna os puzzles linguisticamente autênticos — as letras de preenchimento parecem naturais em vez de obviamente geradas em inglês.`,
     },
     {
-      question: 'Como funciona o gabarito com código de cores?',
+      question: `Como funciona o gabarito com código de cores?`,
       answer:
         `O gabarito destaca cada palavra encontrada numa de seis cores alternadas: rosa, azul, verde, dourado, coral e lavanda. Cada palavra recebe uma cor distinta para ser visualmente distinguível mesmo quando as palavras se cruzam ou sobrepõem na grelha. Pode ativar a exportação em escala de cinzentos para versões de gabarito económicas em tinta. O gabarito é gerado como um ficheiro descarregável separado.`,
     },
     {
-      question: 'Qual é o número máximo de palavras por puzzle?',
+      question: `Qual é o número máximo de palavras por puzzle?`,
       answer:
         `Pode colocar até 8 palavras ou imagens numa única grelha de caça-palavras. Este limite garante que as palavras encaixam corretamente na grelha sem sobreposição excessiva. Para listas de palavras mais longas, crie várias fichas e agrupe-as como conjunto — isto também aumenta o valor percecionado dos seus pacotes de produtos.`,
     },
     {
-      question: 'O gerador de Caça-Palavras é sensível ao idioma?',
+      question: `O gerador de Caça-Palavras é sensível ao idioma?`,
       answer:
         `Sim. Como as palavras ocultas são os nomes das imagens no idioma selecionado, mudar o idioma altera completamente o conteúdo do puzzle. Além disso, as letras de preenchimento da grelha mudam para corresponder ao conjunto de caracteres do idioma-alvo com frequências ponderadas adequadas. «Dog» em inglês torna-se «cão» em português numa grelha com ã, õ, ç, â, á. A Licença Comercial é apenas em inglês; o Acesso Completo desbloqueia os 11 idiomas, fazendo de cada versão linguística um produto distinto com palavras diferentes e letras de preenchimento diferentes.`,
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — as três fontes de conteúdo, os três modos de exibição, a biblioteca completa de imagens, os tamanhos de grelha ajustáveis, os controlos de direção, os gabaritos com código de cores e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — as três fontes de conteúdo, os três modos de exibição, a biblioteca completa de imagens, os tamanhos de grelha ajustáveis, os controlos de direção, os gabaritos com código de cores e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de caça-palavras como downloads digitais na Etsy, como livros de puzzles impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os tamanhos de grelha ajustáveis, os controlos de direção e a capacidade multilingue oferecem-lhe uma forte diferenciação em categorias de mercado muito concorridas.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Oferecemos uma garantia de satisfação de 30 dias. Se não estiver satisfeito com a sua compra, contacte a nossa equipa de suporte para solicitar um reembolso completo — sem perguntas. A sua satisfação é a nossa prioridade.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'trem-alfabeto-fichas',
-      anchorText: 'Gerador de Fichas de Trem do Alfabeto',
+      anchorText: `Gerador de Fichas de Trem do Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'preposicoes-fichas',
-      anchorText: 'Gerador de Fichas de Preposições',
+      anchorText: `Gerador de Fichas de Preposições`,
     },
     {
       pageType: 'app',
       slug: 'adivinhar-palavras-fichas',
-      anchorText: 'Gerador de Fichas de Adivinhar Palavras',
+      anchorText: `Gerador de Fichas de Adivinhar Palavras`,
     },
     {
       pageType: 'app',
       slug: 'palavras-embaralhadas-fichas',
-      anchorText: 'Gerador de Fichas de Palavras Embaralhadas',
+      anchorText: `Gerador de Fichas de Palavras Embaralhadas`,
     },
     {
       pageType: 'app',
       slug: 'criptograma-imagens-fichas',
-      anchorText: 'Gerador de Fichas de Criptograma com Imagens',
+      anchorText: `Gerador de Fichas de Criptograma com Imagens`,
     },
     {
       pageType: 'bundle',
@@ -235,12 +235,12 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guia para Vender Material Educativo na Etsy',
+      slug: `vender-material-educativo-etsy`,
+      anchorText: `Guia para Vender Material Educativo na Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `O Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -250,13 +250,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'ensino-domestico-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para educação em casa',
+      slug: `ensino-domestico-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para educação em casa`,
     },
     {
       pageType: 'guide',
       slug: 'criar-caca-palavras',
-      anchorText: 'Criar caça-palavras que vendem',
+      anchorText: `Criar caça-palavras que vendem`,
     },
   ],
 

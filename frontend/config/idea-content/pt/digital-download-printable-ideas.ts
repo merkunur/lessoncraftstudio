@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Fichas Download Digital para Vender — Guia',
+    titleTag: `Ideias Fichas Download Digital para Vender — Guia`,
     metaDescription: `Ideias de fichas de download digital para vendedores de Etsy, Gumroad e Gumroad. Constrói um negócio de imprimíveis sem inventário com PDFs educativos para.`,
-    primaryKeyword: 'ideias fichas download digital',
+    primaryKeyword: `ideias fichas download digital`,
     secondaryKeywords: [
-      'negócio imprimíveis digitais transferências',
+      `negócio imprimíveis digitais transferências`,
       'vender fichas digitais online',
-      'ideias produtos imprimíveis descarregáveis',
-      'modelo negócio fichas descarregáveis',
+      `ideias produtos imprimíveis descarregáveis`,
+      `modelo negócio fichas descarregáveis`,
     ],
     lsiKeywords: [
-      'produtos educativos transferência instantânea',
-      'venda fichas PDF em marketplace',
-      'entrega automatizada produtos digitais',
+      `produtos educativos transferência instantânea`,
+      `venda fichas PDF em marketplace`,
+      `entrega automatizada produtos digitais`,
     ],
   },
   hero: {
@@ -87,17 +87,17 @@ Os produtos digitais também oferecem valor único pós-venda através da capaci
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Fichas de Download Digital no Etsy',
+      title: `Vender Fichas de Download Digital no Etsy`,
       description: `O Etsy é o marketplace dominante para imprimíveis de download digital com enorme tráfego orgânico de pesquisa de vendedores e pais a procurar ativamente PDFs de fichas educativas que podem comprar e imprimir imediatamente. O Etsy trata do processamento de pagamentos e da entrega instantânea de ficheiros através do seu sistema integrado de transferências digitais, significando que os compradores recebem os seus ficheiros adquiridos automaticamente em segundos após completar o pagamento sem qualquer intervenção manual do vendedor. Otimiza cada anúncio com palavras-chave específicas que coincidam com a intenção de pesquisa do comprador incluindo nível escolar, disciplina, tipo de atividade e contexto sazonal para capturar as consultas exatas que os teus compradores alvo escrevem na barra de pesquisa do Etsy. Usa as dez vagas de fotografias do anúncio para mostrar pré-visualizações das fichas que demonstrem a qualidade do conteúdo, variedade e formatação profissional porque os compradores avaliam produtos digitais inteiramente através de imagens de pré-visualização antes de tomar decisões de compra. Os anúncios sazonais alinhados com o calendário letivo e as tendências de pesquisa festivas geram vendas consistentes ao longo de todo o ano enquanto vendedores e pais procuram materiais oportunos que correspondam às suas necessidades instrucionais atuais. O programa Star Seller do Etsy recompensa vendedores consistentes de transferências digitais que mantêm altas classificações de avaliações, tempos de resposta rápidos e taxas de conclusão de encomendas com visibilidade melhorada nos resultados de pesquisa e um selo de confiança que aumenta a confiança do comprador e as taxas de conversão.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Vender Fichas de Download Digital no Gumroad',
+      title: `Vender Fichas de Download Digital no Gumroad`,
       description: `O Gumroad oferece a configuração mais simples para negócios de fichas de download digital com páginas de produto limpas, entrega instantânea de ficheiros, preços flexíveis incluindo opções de paga o que quiseres, e ferramentas integradas de email marketing que ajudam os vendedores a construir relações diretas com clientes fora dos algoritmos de marketplace. A plataforma cobra taxas por transação em vez de subscrições mensais, tornando-a acessível para novos vendedores que querem começar a vender sem custos fixos a reduzir as receitas iniciais antes de o volume de vendas crescer. Cria ofertas escalonadas de produtos desde pacotes individuais de fichas a preços mais baixos até pacotes completos a preços premium, permitindo aos compradores escolher o âmbito e nível de investimento que se ajuste às suas necessidades. As analíticas do Gumroad acompanham taxas de conversão, fontes de tráfego e tendências de receitas ajudando os vendedores a otimizar estratégias de preços e identificar quais produtos e canais de marketing geram os melhores retornos. A plataforma também suporta códigos de desconto para campanhas promocionais, programas de afiliados que incentivam outros criadores a promover os teus produtos por comissão, e preços de pacote para combinações estratégicas de produtos que aumentam o valor médio da encomenda. As páginas de produto do Gumroad são indexáveis independentemente pelos motores de pesquisa, dando aos teus produtos de fichas visibilidade orgânica no Google para além do que os vendedores exclusivos de marketplace podem alcançar apenas através de pesquisa dentro da plataforma.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Vender Fichas de Download Digital no Gumroad',
+      title: `Vender Fichas de Download Digital no Gumroad`,
       description: `O Gumroad proporciona acesso direto à maior comunidade de vendedores compradores que procuram especificamente transferências de fichas educativas organizadas por nível escolar, disciplina e alinhamento com padrões, tornando-o o marketplace mais direcionado para vendedores que criam materiais focados online. O sistema de avaliações da plataforma constrói prova social através de classificações verificadas de vendedores e avaliações escritas detalhadas que impulsionam a descoberta orgânica e aumentam as taxas de conversão porque os vendedores confiam nas recomendações de outros vendedores que usaram os materiais em contextos reais de loja. O algoritmo de pesquisa do Gumroad recompensa descrições completas de produtos com níveis escolares específicos, disciplinas, informação de alinhamento com padrões e descrições detalhadas de conteúdo que coincidam com as consultas precisas de pesquisa que os vendedores usam quando procuram materiais para apoiar lições e objetivos de aprendizagem específicos. As transferências digitais no Gumroad beneficiam da credibilidade e confiança da plataforma que os vendedores construíram ao longo de anos de compras no marketplace, reduzindo a hesitação do comprador que os novos vendedores em plataformas menos especializadas frequentemente enfrentam ao tentar estabelecer credibilidade. O Gumroad também oferece um programa de vendedor premium com taxas de comissão reduzidas para vendedores de alto volume, melhorando as margens de lucro à medida que as tuas vendas crescem e o teu catálogo de produtos se expande em múltiplos níveis escolares e áreas disciplinares.`,
     },
     {
@@ -141,18 +141,18 @@ Os produtos digitais também oferecem valor único pós-venda através da capaci
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -166,7 +166,7 @@ Os produtos digitais também oferecem valor único pós-venda através da capaci
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -176,28 +176,28 @@ Os produtos digitais também oferecem valor único pós-venda através da capaci
     },
     {
       pageType: 'idea',
-      slug: 'impressao-sob-demanda-ideias-imprimiveis',
+      slug: `impressao-sob-demanda-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Fichas de Impressão Sob Demanda`,
     },
     {
       pageType: 'idea',
-      slug: 'caixa-assinatura-ideias-imprimiveis',
+      slug: `caixa-assinatura-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Caixa de Assinatura de Fichas`,
     },
     {
       pageType: 'idea',
-      slug: 'produtos-impressos-fisicos-ideias',
-      anchorText: 'Ideias de Negócio de Produtos Impressos Físicos',
+      slug: `produtos-impressos-fisicos-ideias`,
+      anchorText: `Ideias de Negócio de Produtos Impressos Físicos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

@@ -2,17 +2,17 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Förderbedarf-Nische-druckvorlagen',
+    primaryKeyword: `Förderbedarf-Nische-druckvorlagen`,
     secondaryKeywords: [
-      'SPED-Arbeitsblätter auf Etsy erstellen',
-      'angepasste Lernmaterialien auf KDP verkaufen',
-      'visuelle Hilfen Förderbedarf-Nische auf Gumroad',
-      'inklusive Arbeitsblätter für Druckvorlagen-Shops',
+      `SPED-Arbeitsblätter auf Etsy erstellen`,
+      `angepasste Lernmaterialien auf KDP verkaufen`,
+      `visuelle Hilfen Förderbedarf-Nische auf Gumroad`,
+      `inklusive Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'unterversorgter SPED-Markt Druckvorlagen',
-      'Förderschul-Thema Arbeitsblätter Etsy-Nische',
-      'gestufte Lernmaterialien Förderbedarf-Nische',
+      `unterversorgter SPED-Markt Druckvorlagen`,
+      `Förderschul-Thema Arbeitsblätter Etsy-Nische`,
+      `gestufte Lernmaterialien Förderbedarf-Nische`,
     ],
     titleTag: `Förderbedarf-Nische-Druckvorlagen — Verkäufer-Guide`,
     metaDescription: `Förderbedarf-Nische-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Angepasste Arbeitsblätter und visuelle Hilfen für den unterversorgten SPED-Markt. Verkäufer-Guide.`,
@@ -42,12 +42,12 @@ Die plattformübergreifende Listung von inklusiven Druckvorlagen erreicht versch
       appId: 'addition',
     },
     {
-      title: 'Inklusive Wörtersuchrätsel zum Online-Verkauf',
+      title: `Inklusive Wörtersuchrätsel zum Online-Verkauf`,
       description: `Angepasste Wörtersuchrätsel mit vereinfachten Gittern, größerer Buchstabengröße, reduzierter Wortanzahl und kontrastreicher Formatierung dienen Nutzern mit visuellen Verarbeitungs- und Aufmerksamkeitsschwierigkeiten, die von weniger überwältigenden Aktivitätslayouts profitieren. Verwenden Sie den Wörtersuche-Generator, um funktionale Vokabelpuzzles zu erstellen, die auf Lebenspraxis-Wörter wie Sicherheitsschilder, Gemeindehelfer, Geldbegriffe und Alltagsvokabular abzielen, das an funktionale Akademik-IEP-Ziele angepasst ist, Sichtwortübungen auf Vor- bis Drittklassniveau für Nutzer, die unter dem Altersstufenniveau arbeiten, reizarme Layouts mit reduzierter visueller Ablenkung für Nutzer im Autismus-Spektrum und solche mit Aufmerksamkeitsschwierigkeiten, und thematische Vokabelsätze, die Sozialkompetenzen-Produkterstellung und gemeinschaftsbasierte Lernziele unterstützen.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Inklusive Zuordnungsaktivitäten für Bildungsshops',
+      title: `Inklusive Zuordnungsaktivitäten für Bildungsshops`,
       description: `Angepasste Zuordnungsarbeitsblätter mit reduzierter Elementanzahl pro Seite, größeren Bildern, vergrößertem Abstand zwischen Optionen und klaren visuellen Grenzen dienen Nutzern mit feinmotorischen Herausforderungen und visuellen Verarbeitungsschwierigkeiten, die mit dicht formatierten Standardarbeitsblättern Schwierigkeiten haben. Verwenden Sie den Zuordnungs-Generator, um funktionale Lebenspraxis-Zuordnungen zu erstellen, die reale Bilder mit Wörtern für den Alltagskompetenzen-Produkterstellung verbinden, sozial-emotionale Zuordnungen, die Gefühle mit Gesichtsausdrücken und Szenarien für die Sozialkompetenzen-Entwicklung in therapeutischen und Shopsettings verbinden, vereinfachte akademische Zuordnungen auf Grundlagenniveau zur IEP-Zielverstärkung über Lese- und Mathematikbereiche hinweg, und progressive Schwierigkeitsformate, die Förderbedarf-Käufern ermöglichen, Nutzer auf mehreren Fähigkeitsniveaus aus einem einzigen angepassten Produktset zu bedienen.`,
       appId: 'matching',
     },
@@ -57,7 +57,7 @@ Die plattformübergreifende Listung von inklusiven Druckvorlagen erreicht versch
       appId: 'coloring',
     },
     {
-      title: 'Inklusive Bingo-Karten für Shopaktivitäten',
+      title: `Inklusive Bingo-Karten für Shopaktivitäten`,
       description: `Angepasste Bingo-Karten mit weniger Feldern pro Karte, größeren Bildern und Text sowie visueller Unterstützung neben Wörtern dienen Nutzern mit Leseschwierigkeiten und Aufmerksamkeitsproblemen, die nicht an Standard-Bingo-Formaten teilnehmen können, die für Regelschulklassen konzipiert sind. Verwenden Sie den Bingo-Generator, um funktionales Vokabel-Bingo für Lebenspraxis-Produkterstellung zu erstellen, das Gemeindeschilder, Geldwerte, Uhrzeitablesen und Sicherheitsvokabular abdeckt und an funktionale Akademik-Ziele angepasst ist, Sozialkompetenzen-Bingo für Gruppentherapie und Sozialtraining-Sitzungen zur Verstärkung angemessener Interaktionsverhaltensweisen, vereinfachtes akademisches Bingo auf Grundlagenniveau für Kleingruppenunterricht in Förderräumen und Förderschulklassen, und Mehrformat-Karten, die die breite Fähigkeitsspanne in inklusiven Settings berücksichtigen.`,
       appId: 'bingo',
     },
@@ -91,7 +91,7 @@ Die plattformübergreifende Listung von inklusiven Druckvorlagen erreicht versch
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Inklusive Druckvorlagen auf Etsy verkaufen',
+      title: `Inklusive Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy erreicht Förderbedarf-Käufer, Therapeuten und Eltern, die mit hochspezifischen Begriffen wie „Förderbedarf-Nische-Arbeitsblätter", „angepasste Arbeitsblätter", „SPED-Druckvorlagen", „Autismus-Arbeitsblätter", „Lebenspraxis-Arbeitsblätter", „visuelle Hilfen", „modifizierte Mathematik-Arbeitsblätter" und „IEP-Ziel-Aktivitäten" alle zwölf Monate ohne saisonalen Nachfragerückgang suchen. Nutzen Sie alle dreizehn Tags mit Variationen, die Behinderungskategorien, Anpassungstypen, IEP-Zielbereiche und berufliche Rollen kombinieren, um die vielfältigen Käufersegmente innerhalb der inklusiven Gemeinschaft zu erreichen, die je nach ihren spezifischen Nutzerpopulationen und therapeutischen Spezialisierungen unterschiedlich suchen. Bündeln Sie Produkte nach IEP-Zielbereich oder Behinderungskategorie, um den durchschnittlichen Bestellwert zu erhöhen: ein angepasstes Mathematik-Grundlagen-Paket, ein Lebenspraxis-Alltagskompetenzen-Paket und eine Sozial-emotionales-Lernen-Kollektion bedienen jeweils unterschiedliche professionelle Bedürfnisse und fördern gleichzeitig Mehrfachkäufe desselben Käufers. Premium-Preise sind durch den spezialisierten Gestaltungsaufwand gerechtfertigt, weil inklusive Käufer erkennen, dass sachgerecht angepasste Materialien ein Verständnis von Anpassungsprinzipien erfordern, das allgemeinbildenden Arbeitsblättern fehlt. Die starken professionellen Gemeinschaftsnetzwerke unter Förderbedarf-Käufer und Therapeuten treiben die organische Mundpropaganda-Entdeckung voran, wenn zufriedene Käufer Produkte in Facebook-Gruppen, Fortbildungsgemeinschaften und bei Förderbedarf-Nische-Konferenzdiskussionen empfehlen.`,
     },
     {
@@ -101,7 +101,7 @@ Die plattformübergreifende Listung von inklusiven Druckvorlagen erreicht versch
     },
     {
       platform: 'Gumroad',
-      title: 'Inklusive Ressourcen für Gumroad erstellen',
+      title: `Inklusive Ressourcen für Gumroad erstellen`,
       description: `Förderbedarf-Käufer gehören zu den ausgabefreudigsten Demografien auf Gumroad und kaufen angepasste Materialien, die ihre Schulträger nicht bereitstellen, weil Standardlehrpläne durchweg keine Ressourcen enthalten, die für Nutzer mit vielfältigen behinderungsbedingten Anpassungen und Fähigkeitsniveaus geeignet sind. Kennzeichnen Sie Produkte mit spezifischen Behinderungskategorien und IEP-Zielbereichen, damit Käufer schnell Ressourcen identifizieren können, die zu den individuellen Plänen und Anpassungsanforderungen ihrer Nutzer passen. Fügen Sie Datenerfassungsbögen und Fortschrittsdokumentationstools neben Arbeitsblättern bei, weil inklusive Fachkräfte die Nutzerleistung bei IEP-Zielen dokumentieren müssen und Ressourcen schätzen, die Übungsmaterialien mit Bewertungsdokumentation integrieren. Differenzierte Niveaus innerhalb einzelner Produkte bedienen die breite Fähigkeitsspanne in inklusiven Shopn, wo Nutzer im selben Förderraum möglicherweise auf sehr unterschiedlichen Kompetenzniveaus über akademische Bereiche hinweg arbeiten. Förderraum-Pakete und Förderschulklassen-Sammlungen erzielen Premium-Preise, weil sie den umfassenden Materialbedarf von SPED-Fachkräften ansprechen, die Nutzer mit mehreren Anpassungstypen gleichzeitig während des gesamten Arbeitstages betreuen.`,
     },
     {
@@ -145,13 +145,13 @@ Die plattformübergreifende Listung von inklusiven Druckvorlagen erreicht versch
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'Wie man eine Druckvorlagen-Produktlinie erstellt',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `Wie man eine Druckvorlagen-Produktlinie erstellt`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lernmaterial-Druckvorlagen',
+      anchorText: `Etsy SEO für Lernmaterial-Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -165,33 +165,33 @@ Die plattformübergreifende Listung von inklusiven Druckvorlagen erreicht versch
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'heimunterricht-druckvorlagen-ideen',
-      anchorText: 'Heimunterricht-Druckvorlagen-Geschäftsideen',
+      slug: `heimunterricht-druckvorlagen-ideen`,
+      anchorText: `Heimunterricht-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
+    { src: `/image-library/shapes/circle.webp`, alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: `/image-library/shapes/cone.webp`, alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Würfel — thematisches Lernbild`, caption: 'Würfel' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Zylinder — thematisches Lernbild`, caption: 'Zylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: `/image-library/shapes/heart.webp`, alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
   ],
 
 

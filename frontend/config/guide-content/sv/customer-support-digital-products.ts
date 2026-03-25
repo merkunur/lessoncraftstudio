@@ -2,11 +2,11 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kundsupport digitala produkter',
+    primaryKeyword: `kundsupport digitala produkter`,
     secondaryKeywords: [
-      'kundservice digitala produkter',
+      `kundservice digitala produkter`,
       'utskriftsbart företag support',
-      'hantera kundklagomål arbetsblad',
+      `hantera kundklagomål arbetsblad`,
       'support digital nedladdning',
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `supportförebyggande vanliga problem lösningstid professionell kommunikation`,
       `skalbara supportsystem mallbibliotek mönsterspårning feedbackloopar`,
     ],
-    titleTag: 'Kundsupport digitala produkter — Guide',
+    titleTag: `Kundsupport digitala produkter — Guide`,
     metaDescription: `Kundsupportstrategier för digitala produktsäljare. Täcker förebyggande, svarsmallar, återbetalningshantering, recensionshantering och skalbarhet.`,
   },
 
   hero: {
-    title: 'Kundsupport för digitala produktföretag',
+    title: `Kundsupport för digitala produktföretag`,
     tagline: `En komplett guide till att bygga effektiva supportsystem för ditt utskriftsbara företag — inklusive de vanligaste supportproblemen för digitala produkter, förebygga supportförfrågningar genom bättre dokumentation, bygga självbetjänings-FAQ-system, skapa svarsmallar, hantera återbetalningar professionellt, förvandla support till affärsförbättringar, hantera recensioner konstruktivt och skala support när din katalog växer`,
     description: `Kundsupport för digitala produkter skiljer sig fundamentalt från support för fysiska produkter. Det finns inga leveransförseningar, inga skadade paket och inga storleksproblem. Istället hanterar säljare av digitala produkter nedladdningsproblem, filformatsförvirring, utskriftsfrågor och förväntningskonflikter. Den goda nyheten är att de flesta supportproblem för digitala produkter är förebyggbara — med tydliga produktbeskrivningar, heltäckande FAQ och proaktiv dokumentation kan du eliminera majoriteten av supportförfrågningar innan de uppstår. Denna guide ger ett praktiskt kundsupportramverk specifikt för säljare av utskriftsbara produkter, som täcker förebyggandestrategier, svarssystem och skalbara processer som bibehåller kvaliteten när din katalog växer.`,
   },
@@ -39,11 +39,11 @@ const content: GuideContent = {
       content: `Den mest effektiva kundsupportstrategin är att göra support onödig. Detaljerade, tydliga produktbeskrivningar eliminerar majoriteten av köparförvirring före köp, minskar supportvolymen samtidigt som konverteringsgraden förbättras eftersom köpare känner sig säkra på vad de köper.\n\nSpecificera exakt innehåll i varje listning. Skriv inte "Mattearbetsbladpaket" när du kan skriva "25 unika additionsarbetsblad, PDF-format, US Letter-storlek (8,5 × 11 tum), utskriftsbart i färg eller gråskala, årskurser dagis–2, täcker ensiffrig addition från 0+0 till 9+9." Den specifika beskrivningen besvarar sex potentiella supportfrågor innan de ställs: hur många arbetsblad, vilket format, vilken pappersstorlek, färgkrav, årskursanpassning och innehållsomfång. Varje detalj du inkluderar i beskrivningen är en supportförfrågning du aldrig kommer att få.\n\nLista filformat uttryckligen och förklara vilken programvara som öppnar dem. Snarare än att bara ange "PDF-filer inkluderade," skriv "PDF-filer — öppnas med Adobe Acrobat Reader (tillgängligt gratis), Förhandsvisning på Mac eller valfri webbläsare. Inte redigerbara — dessa är tryckfärdiga arbetsblad designade för omedelbar användning." Denna enda mening förebygger tre kategorier av supportfrågor: vilken programvara att använda, om filerna är redigerbara och vad "tryckfärdig" betyder.\n\nInkludera utskriftsinstruktioner direkt i produktbeskrivningen och som en separat sida i den nedladdade filen. Specificera den avsedda pappersstorleken (och notera kompatibilitet med alternativa storlekar), rekommenderade utskriftsinställningar (färg kontra gråskala, kvalitetsnivå, skalningsalternativ) och eventuella specialinstruktioner för kantlös utskrift eller dubbelsidig utskrift. För internationella säljare, adressera uttryckligen både US Letter- och A4-kompatibilitet. En notering som "Designad för US Letter (8,5 × 11 tum). Skrivs ut på A4 med minimal marginaljustering — välj Anpassa till sida i din utskriftsdialog" förebygger den vanligaste internationella utskriftssupportförfrågningen.\n\nAnvänd förhandsgranskningsbilder som korrekt representerar den faktiska produkten. Visa verkliga arbetsbladsidor, inte mockups eller livsstilsfoton som döljer det faktiska innehållet. Om din produkt innehåller 25 arbetsblad, visa minst 4–5 representativa sidor så köpare förstår stilen, svårighetsnivån och den visuella designen.\n\nAnge vad som INTE ingår lika tydligt som vad som ingår. Om ditt arbetsbladpaket inte inkluderar facit, säg det. Om produkten inte är redigerbar, ange det uttryckligen. Om bilder är enbart för personligt bruk och inte för kommersiell vidaredistribution, notera det i beskrivningen. Att uttryckligen adressera vad köpare inte hittar i produkten förebygger de besvikna "jag förväntade mig X men fick inte det"-supportmeddelanden som ofta leder till återbetalningsförfrågningar och negativa recensioner.`,
     },
     {
-      heading: 'Bygg ett FAQ- och självbetjäningssupportsystem',
+      heading: `Bygg ett FAQ- och självbetjäningssupportsystem`,
       content: `Självbetjäningssupport skalar oändligt medan personlig support bara skalar med din tid. Varje svar en köpare kan hitta utan att kontakta dig sparar tid för er båda och skapar en bättre upplevelse — studier visar konsekvent att köpare föredrar att hitta svar själva framför att vänta på svar från en säljare.\n\nSkapa ett heltäckande FAQ-dokument och inkludera det som en separat PDF i varje produktnedladdning. Täck de vanligaste frågorna specifika för din produkttyp: hur man laddar ner och kommer åt filer, vilken programvara att använda, utskriftsinstruktioner för olika pappersstorlekar och skrivartyper, användningsrättigheter och licensvillkor, och hur man kontaktar dig om de behöver ytterligare hjälp. Ett välorganiserat FAQ-dokument som besvarar 90% av vanliga frågor kostar dig inget att inkludera och minskar dramatiskt supportförfrågningar. Uppdatera denna FAQ när du får en ny fråga som andra köpare kanske också har.\n\nBygg din marknadsplatsbutiks FAQ eller Om-sektion med sökbara svar på vanliga frågor. De flesta marknadsplatsplattformar (Etsy, Gumroad, Creative Fabrica) tillhandahåller en butiks-FAQ eller Om-sektion där du kan publicera vanliga frågor. Köpare som besöker din butik kontrollerar ofta dessa sektioner före köp, så heltäckande butiks-FAQ tjänar dubbelt syfte: förebygga frågor före köp och minska supportbehov efter köp.\n\nÖverväg att skapa korta videotutorials för komplexa supportämnen. En tvåminuters skärminspelning som visar hur man laddar ner, öppnar och skriver ut ett arbetsblad eliminerar en hel kategori av supportförfrågningar och betjänar köpare som lär sig bättre från video än skriftliga instruktioner. Publicera dessa på YouTube (olistade om du föredrar) och länka till dem i ditt FAQ-dokument, produktbeskrivningar och supportsvarsmallar. En videotutorial kan ersätta hundratals individuella supportsvar under din butiks livstid.\n\nInkludera en "Kom igång"-sida som första sida i varje flersidorsprodukt. Denna sida bör ge nedladdningsbekräftelse ("Du har framgångsrikt köpt [Produktnamn]"), korta utskriftsinstruktioner, en notering om filformat och programvarukrav, din kontaktinformation för support och en förfrågan om att lämna en recension om de är nöjda. Denna enda sida sätter förväntningar omedelbart när köparen öppnar filen och ger supportresurser vid exakt det ögonblick de mest sannolikt behöver dem.`,
     },
     {
-      heading: 'Utveckla svarsmallar för vanliga supportscenarier',
+      heading: `Utveckla svarsmallar för vanliga supportscenarier`,
       content: `Svarsmallar säkerställer konsekvent, professionell kommunikation samtidigt som de dramatiskt minskar tiden du spenderar på varje supportinteraktion. Målet är inte att låta robotaktig utan att ha välformulerade startpunkter som du personanpassar för varje specifik situation.\n\nSkapa mallar för dina 10 vanligaste supportscenarier. Baserat på de vanliga ärendekategorierna behöver de flesta digitala produktsäljare mallar för: nedladdningsåtkomstproblem, filformatfrågor, utskriftsproblem, produktinnehållsfrågor, återbetalningsförfrågningar, licens- och användningsförfrågningar, positiv feedbackrespons, funktions- eller anpassningsförfrågningar, bulkköpsförfrågningar och fel-produkt eller missförståndssituationer. Att ha en mall för varje scenario innebär att du aldrig startar ett svar från noll, även när de specifika detaljerna varierar.\n\nStrukturera varje mall med tre element: erkännande, lösning och nästa steg. Börja med att erkänna vad köparen upplever ("Tack för att du kontaktar oss angående nedladdningsproblemet"). Ge sedan en tydlig lösning eller förklaring ("Så här kommer du åt dina filer på Etsy: gå till ditt konto, klicka Köp och recensioner, hitta denna beställning och klicka Ladda ner filer"). Avsluta med ett nästa steg som håller interaktionen rörlig mot lösning ("Om nedladdningsknappen inte visas, vänligen meddela mig så skickar jag filerna direkt till din e-post").\n\nFör nedladdningsproblem, skapa plattformsspecifika mallar. Ett nedladdningssupportsvar för en Etsy-köpare bör inkludera Etsy-specifika instruktioner (Köp och recensioner-sektionen, Ladda ner filer-knappen). Ett svar för en annorlunda plattform bör referera till den plattformens specifika nedladdningsprocess. Generiska instruktioner förvirrar köpare som inte kan hitta knapparna eller menyerna du beskriver.\n\nBygg en mall för scenariot "produkten matchar inte förväntningarna" som balanserar empati med tydlighet. Denna mall bör erkänna köparens besvikelse, fråga specifikt vad de förväntade sig kontra vad de fick, referera produktbeskrivningen där den relevanta informationen angavs och erbjuda en konstruktiv lösning (byte till en annorlunda produkt, vägledning om att använda produkten annorlunda eller återbetalning om lämpligt).\n\nSkapa en mall för positiv feedback som uppmuntrar recensioner. När en köpare meddelar dig att de älskar dina arbetsblad, svara med genuint tack och en vänlig uppmaning: "Tack så mycket för att du delar det! Det betyder mycket att höra att arbetsbladen fungerar bra för dina kunder. Om du har ett ögonblick skulle en recension på listningen vara otroligt hjälpsam för andra köpare som letar efter liknande resurser." Nöjda köpare som kontaktar dig är dina bästa potentiella recensenter.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `Varje supportinteraktion innehåller information om hur dina produkter, listningar eller processer kan förbättras. Säljare som behandlar support som ren kostnad missar förbättringssignalerna. Säljare som systematiskt analyserar supportmönster bygger allt bättre produkter och listningar som genererar färre supportförfrågningar över tid.\n\nSpåra varje supportförfrågning efter kategori och produkt. Ett enkelt kalkylblad med kolumner för datum, produkt, ärendekategori, lösning och tidsåtgång ger den data du behöver för att identifiera mönster. Efter en månads spårning ser du vilka produkter som genererar flest supportförfrågningar, vilka ärendekategorier som är vanligast och var din FAQ eller dokumentation har luckor. Denna data riktar dina förbättringsinsatser mot de mest påverkande förändringarna.\n\nNär flera köpare ställer samma fråga, uppdatera din produktbeskrivning och FAQ omedelbart. Om tre köpare frågar om dina arbetsblad fungerar på A4-papper, lägg till A4-kompatibilitetsinformation i varje relevant listning. Om två köpare frågar om årskurslämplighet, lägg till årskursspecifikationer i dina beskrivningar. Varje återkommande fråga representerar en lucka i din dokumentation som påverkar inte bara köparna som kontaktade dig utan också köparna som hade samma fråga och valde att inte köpa istället för att fråga.\n\nAnvänd supportkonversationer för att identifiera produktförbättringsmöjligheter. Om köpare ofta efterfrågar facit som du inte inkluderar, överväg att lägga till dem. Om köpare frågar efter redigerbara versioner, överväg att erbjuda en redigerbar nivå. Om köpare vill ha större paket, överväg att skapa dem. Supportförfrågningar där köpare frågar efter funktioner du inte erbjuder är direkt marknadsundersökning — de berättar vad köpare vill betala för.\n\nGranska negativ feedback för handlingsbara förbättringar snarare än att ta det personligt. En en-stjärnig recension som säger "arbetsbladen var för lätta för min andra-klassare" berättar att din årskursanpassning eller beskrivning behöver förtydligande. Ett klagomål om "tråkiga designer" kan indikera att din visuella presentation behöver uppdatering. Extrahera den handlingsbara informationen från negativ feedback, gör de relevanta förbättringarna och gå vidare.\n\nSkapa en kvartalsvis supportgranskningsprocess. Var tredje månad, analysera din supportdata för att identifiera trender, mät om tidigare förbättringar minskade supportvolymen i sina målkategorier och prioritera nästa omgång förbättringar. Denna systematiska approach säkerställer att din supportupplevelse förbättras kontinuerligt snarare än förblir statisk.`,
     },
     {
-      heading: 'Hantera recensioner och feedback konstruktivt',
+      heading: `Hantera recensioner och feedback konstruktivt`,
       content: `Recensioner är den offentliga ytan av din kundsupportkvalitet. Potentiella köpare läser recensioner inte bara för produktkvalitetsinformation utan för att bedöma hur du hanterar problem. Dina svar på recensioner — särskilt negativa — påverkar ofta köpbeslut mer än recensionerna själva.\n\nSvara på varje recension du kan svara på plattformen. Tacka positiva recensenter specifikt och personligt: "Tack för att du tog dig tid att dela detta! Jag är glad att djurtematiserade arbetsbladen fungerar bra i ditt produktlinje." Specifika svar visar genuint engagemang snarare än copy-paste-generiskt tack. De uppmuntrar också andra köpare att lämna recensioner eftersom de ser att säljaren faktiskt läser och uppskattar feedback.\n\nHantera negativa recensioner som en offentlig kundservicemöjlighet. Potentiella köpare som ser en negativ recension följd av ett professionellt, empatiskt, lösningsorienterat säljaresvar är ofta mer imponerade än de skulle vara av en listning med enbart positiva recensioner. Svara på negativa recensioner genom att erkänna problemet, förklara vad du har gjort eller kommer att göra för att adressera det och erbjuda att hjälpa till att lösa köparens specifika situation. Argumentera aldrig, skyll aldrig på köparen och bli aldrig defensiv. Ett svar som "Jag beklagar att nedladdningen inte fungerade smidigt. Jag har uppdaterat instruktionerna i listningen för att göra processen tydligare, och jag har skickat dig ett direktmeddelande med alternativa nedladdningslänkar. Tack för att du meddelade mig om detta problem" demonstrerar professionalism för varje framtida köpare som läser det.\n\nBe aldrig köpare att ändra eller ta bort negativa recensioner. Detta bryter mot de flesta marknadsplatsers policyer och slår nästan alltid tillbaka. Om du löser en köpares problem tillfredsställande kommer vissa frivilligt att uppdatera sin recension — men att be dem att göra det känns tvingande och kan skada interaktionen även efter en framgångsrik lösning. Fokusera på att lösa problemet genuint och låt recensionsuppdateringar ske naturligt.\n\nAnvänd recensionsmönster för att validera eller omdirigera dina produktutvecklingsprioriteringar. Om positiva recensioner konsekvent berömmer specifika funktioner (tematiserade designer, utskriftskvalitet, åldersanpassad svårighet) är dessa dina konkurrensstyrkor att betona i framtida produkter och marknadsföring. Om negativa recensioner konsekvent nämner samma problem (begränsad variation, otydliga instruktioner, för få sidor) är dessa dina prioriterade förbättringsområden.\n\nÖvervaka din övergripande recensionsprofilstatistik och sätt förbättringsmål. Spåra ditt genomsnittsbetyg, din kvot av fem-stjärniga till under-fem-stjärniga recensioner och de specifika problemen som nämns i lägre betygsatta recensioner. Sätt kvartalsvisa mål för förbättring: minska klagomålsfrekvensen för specifika problem, öka recensionssvarfrekvensen eller förbättra ditt genomsnittsbetyg genom att adressera de vanligaste negativa feedbackteman.`,
     },
     {
-      heading: 'Skala din support när din katalog växer',
+      heading: `Skala din support när din katalog växer`,
       content: `Ett supportsystem som fungerar för 10 produkter kan kollapsa under tyngden av 50 eller 100 produkter. Att bygga skalbara supportprocesser från början förhindrar den vanliga upplevelsen av säljare som blir överväldigade av supportvolym när deras kataloger växer och deras tidigare ad-hoc-approach bryter samman.\n\nStandardisera din produktdokumentation genom hela din katalog. Varje produkt bör inkludera samma supportinfrastruktur: en kom-igång-sida, utskriftsinstruktioner, FAQ-täckning, upphovsrätts- och användningsvillkor och din kontaktinformation. Skapa en huvudmall för dessa supportdokument och anpassa den för varje produkttyp. Standardisering innebär att köpare som köper flera produkter från dig möter en konsekvent supportupplevelse, och du kan uppdatera all supportdokumentation simultant när du förbättrar dina mallar.\n\nOrganisera dina svarsmallar efter produktkategori och ärendetyp. När din katalog växer blir generiska mallar mindre användbara eftersom olika produkttyper har olika supportbehov. Mattearbetsblads-supportproblem skiljer sig från målarsidors-supportproblem skiljer sig från ordsöknings-supportproblem. Bygg ett mallbibliotek organiserat efter produktkategori och ärendetyp så att du snabbt kan hitta rätt startmall för vilken supportinteraktion som helst.\n\nSätt och kommunicera realistiska svarstidsförväntningar. Publicera din typiska svarstid i din butiks FAQ och autosvar: "Jag svarar vanligtvis på meddelanden inom 24 timmar under arbetsdagar." Att sätta förväntningar förhindrar köparfrustration från osäkra väntetider. Uppfyll sedan konsekvent eller överträffa din utlovade svarstid. En säljare som lovar 24-timmarssvar och levererar på 12 timmar skapar ett bättre intryck än en säljare som lovar inget och svarar på 6 timmar, eftersom den första säljaren satte och överträffade en förväntan.\n\nBatcha din supportbearbetning för att skydda produktiv tid. Snarare än att svara på meddelanden när de anländer under dagen, utse specifika supportfönster (till exempel en gång på morgonen och en gång på kvällen) där du bearbetar alla väntande meddelanden. Denna approach låter dig bibehålla fokuserad produktskapandetid samtidigt som du fortfarande ger snabba svar. Brådskande meddelanden kan flaggas för omedelbar uppmärksamhet, men de flesta supportfrågor för digitala produkter är inte tidskritiska och kan vänta några timmar utan negativ effekt på köparnöjdheten.\n\nNär volymen ökar, identifiera vilka supportuppgifter som kan systematiseras ytterligare. Om utskriftsfrågor står för 30% av din supportvolym, skapa en heltäckande utskriftsguidevideo och länka till den i varje produkt, listning och initialt supportsvar. Om nedladdningsproblem är plattformsspecifika, skapa plattformsspecifika nedladdningsinstruktions-PDF som du kan skicka som bilagor. Målet är att minska tiden per supportinteraktion samtidigt som kvaliteten bibehålls, så att katalogtillväxt inte proportionellt ökar din dagliga supporttid.\n\nPlanera för eventuell delegering. Även om du hanterar all support personligen nu, bygg dina processer som om du så småningom kommer att lämna över dem. Dokumenterade procedurer, organiserade mallbibliotek, tydliga beslutskriterier för återbetalningar och eskaleringar samt spårad supportstatistik gör det alla möjligt att ta in en supportassistent när volymen motiverar det. Alternativet — att hålla allt i huvudet och hantera varje interaktion från grunden — gör delegering nästan omöjlig och håller dig permanent bunden till supportoperationer när din verksamhet växer.`,
     },
   ],
@@ -74,14 +74,14 @@ const content: GuideContent = {
       content: `Amazon KDP hanterar det mesta av kundsupporten genom Amazons egen kundtjänstinfrastruktur, vilket innebär att du har mindre direkt köparinteraktion än på andra plattformar. Dock visas negativa recensioner fortfarande på dina produktlistningar och kräver uppmärksamhet. Övervaka dina KDP-produktrecensioner regelbundet och använd "Kommentera"-funktionen för att svara professionellt på negativa recensioner. Amazon köpar-säljar-meddelanden är begränsade för KDP-produkter, så ditt primära supportverktyg är produktlistningen själv: gör dina produktbeskrivningar, A+-innehåll och förhandsgranskningsbilder så heltäckande och korrekta som möjligt för att förebygga problem före köp.`,
     },
     {
-      heading: 'Utnyttja Gumroad gemenskap och supportverktyg',
+      heading: `Utnyttja Gumroad gemenskap och supportverktyg`,
       content: `Gumroad tillhandahåller en Frågor och svar-sektion på varje produktlistning där köpare kan ställa frågor offentligt. Övervaka och svara på dessa frågor omgående eftersom dina svar är synliga för alla potentiella köpare, vilket gör varje svar till en form av offentlig supportdokumentation. Gumroad tillhandahåller också ett meddelandesystem för privat köpar-säljar-kommunikation. Gumroad-säljargemenskapen har starka normer kring kundtjänstkvalitet, och säljare med responsiva, hjälpsamma supportrykte genererar mer försäljning genom mun-till-mun-rekommendationer i säljares sociala mediegrupper och onlinegemenskaper. Inkludera detaljerade produktbeskrivningar med årskurs, standardanpassning, sidantal och formatinformation — Gumroad-köpare är säljare som värderar precision i dessa detaljer.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Förvandla supportinteraktioner till återköp',
+      heading: `Förvandla supportinteraktioner till återköp`,
       content: `Varje supportinteraktion är en direkt konversation med en betalande kund — en möjlighet som de flesta digitala produktsäljare slösar genom att behandla support rent som problemlösning. När du löser en köpares problem upplever de positivt engagemang med ditt varumärke i det ögonblick då din verksamhet har deras fulla uppmärksamhet. Efter att ha löst deras fråga, föreslå relaterade produkter från din katalog: "Eftersom du använder additionsarbetsbladen med dina förskoleklassare kanske du också gillar subtraktionssetet — det använder samma visuella stil så användarna kommer att tycka det är bekant." Detta är inte aggressiv merförsäljning; det är hjälpsam produktvägledning från någon som förstår deras behov baserat på konversationen. Köpare som får utmärkt support och relevanta produktförslag köper från samma säljare igen med betydligt högre frekvens än köpare som aldrig behövde support alls.`,
     },
     {
@@ -137,29 +137,29 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'skapa-utskriftsbar-produktlinje', anchorText: 'Hur du skapar en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'guide-skala-upp-printable-foeretag', anchorText: 'Hur du skalar upp ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'prissaettning-pedagogiskt-material', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: 'Hur du skapar arbetsbladpaket som säljer' },
-    { pageType: 'guide', slug: 'foerstaa-kommersiella-licenser', anchorText: 'Förstå kommersiella licenser' },
-    { pageType: 'guide', slug: 'upphovsraett-printable-saeljare', anchorText: `Upphovsrättsgrunder för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'faa-recensioner-printable-produkter', anchorText: `Hur du får recensioner för utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'nischval-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: `skapa-utskriftsbar-produktlinje`, anchorText: `Hur du skapar en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: `guide-skala-upp-printable-foeretag`, anchorText: `Hur du skalar upp ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: `prissaettning-pedagogiskt-material`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'skapa-arbetsblad-paket', anchorText: `Hur du skapar arbetsbladpaket som säljer` },
+    { pageType: 'guide', slug: `foerstaa-kommersiella-licenser`, anchorText: 'Förstå kommersiella licenser' },
+    { pageType: 'guide', slug: `upphovsraett-printable-saeljare`, anchorText: `Upphovsrättsgrunder för säljare av utskriftsbara produkter` },
+    { pageType: 'guide', slug: `faa-recensioner-printable-produkter`, anchorText: `Hur du får recensioner för utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'nischval-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Matchnings Arbetsblad Generator',
+      title: `Matchnings Arbetsblad Generator`,
       description: `Skapa mångsidiga matchningsarbetsblad som demonstrerar hur tydliga produktbeskrivningar och heltäckande dokumentation förebygger vanliga köparfrågor om innehållsomfång, svårighetsnivå och utskriftskrav.`,
     },
     {
       appId: 'addition',
-      title: 'Additions Arbetsblad Generator',
+      title: `Additions Arbetsblad Generator`,
       description: `Bygg professionella additionsarbetsblad där detaljerade produktspecifikationer (årskurs, uppgiftsintervall, sidantal, format) i listningar förebygger de vanligaste supportförfrågningarna om innehållslämplighet.`,
     },
     {
@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/matching/Matchningsspel.webp',
+      src: `/samples/swedish/matching/Matchningsspel.webp`,
       alt: `Professionellt matchningsarbetsblad som demonstrerar tydlig produktdesign som förebygger kundsupportproblem`,
     },
     samples: [
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: `/samples/swedish/matching/Matchningsspel.webp`,
         alt: `Matchningsarbetsblad med tydlig layout och instruktioner som minskar köparfrågor`,
         caption: `Tydlig arbetsbladdesign och heltäckande produktbeskrivningar förebygger vanliga supportförfrågningar`,
       },
@@ -197,15 +197,15 @@ const content: GuideContent = {
       },
     ],
     youtubeId: 'y3ghkjt_67s',
-    videoTitle: 'Kundsupport för digitala produktföretag',
+    videoTitle: `Kundsupport för digitala produktföretag`,
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — tematisk pedagogisk bild', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Nymfparakit — tematisk pedagogisk bild', caption: 'Nymfparakit' },
-    { src: '/image-library/pets/dog.webp', alt: 'Hund — tematisk pedagogisk bild', caption: 'Hund' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Iller — tematisk pedagogisk bild', caption: 'Iller' },
+    { src: '/image-library/pets/cat.webp', alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — tematisk pedagogisk bild`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Nymfparakit — tematisk pedagogisk bild`, caption: 'Nymfparakit' },
+    { src: '/image-library/pets/dog.webp', alt: `Hund — tematisk pedagogisk bild`, caption: 'Hund' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Iller — tematisk pedagogisk bild`, caption: 'Iller' },
   ],
 };
 

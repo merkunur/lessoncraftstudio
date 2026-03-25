@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador páginas para colorear',
+    primaryKeyword: `generador páginas para colorear`,
     secondaryKeywords: [
       `generador de páginas para colorear para vendedores Etsy`,
       `creador de fichas para colorear para editores Amazon KDP`,
-      'vender páginas para colorear en Gumroad',
+      `vender páginas para colorear en Gumroad`,
       `generador de páginas para colorear licencia comercial`,
     ],
     lsiKeywords: [
       `productos digitales páginas para colorear para emprendedores`,
-      'libros para colorear imprimibles uso comercial',
+      `libros para colorear imprimibles uso comercial`,
       `generador de páginas para colorear con lienzo libre y dibujo a mano alzada`,
     ],
-    titleTag: 'Generador Páginas para Colorear | Crear y Vender',
+    titleTag: `Generador Páginas para Colorear | Crear y Vender`,
     metaDescription:
       `Crea páginas para colorear para vender en Etsy, KDP y Gumroad. Lienzo libre, 104 temas, dibujo a mano alzada, escala de grises. Prueba gratis con marca de agua.`,
   },
@@ -30,7 +30,7 @@ const content: AppContent = {
     title: `Cómo Crear Páginas para Colorear Personalizadas en 5 Pasos`,
     steps: [
       {
-        title: 'Configurar el diseño de página',
+        title: `Configurar el diseño de página`,
         description:
           `Abre el panel Diseño de Página y elige un formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página con el selector de colores — el blanco es el valor predeterminado para páginas para colorear limpias. Elige un tema de borde decorativo desde la biblioteca de bordes para enmarcar tu página. Estas opciones de diseño establecen la base de tu ficha para colorear antes de añadir contenido.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Usa el panel Herramientas de Texto para añadir títulos, instrucciones o etiquetas con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5) para máxima legibilidad. Haz clic en las Ayudas para venta en línea para añadir un campo de nombre («Nombre: ____») o líneas de práctica de caligrafía con un solo clic. Cambia a la Herramienta de Dibujo para dibujar ilustraciones a mano alzada directamente en el lienzo — elige un color de pincel y ajusta el tamaño del pincel de 1 a 50 píxeles.`,
       },
       {
-        title: 'Activar la escala de grises y descargar',
+        title: `Activar la escala de grises y descargar`,
         description:
           `Abre el panel Descargar y activa la opción de escala de grises para convertir tu composición colorida en páginas para colorear de ahorro de tinta — perfectas para fichas impresas y libros para colorear. Exporta como JPEG de alta resolución o PDF listo para imprimir a 300 DPI. Los archivos se guardan como coloring_page.jpeg o coloring_page.pdf para una organización sencilla. Cada exportación está lista para producción: listados de Etsy, interiores de Amazon KDP y archivos de productos Gumroad — sin necesidad de postprocesamiento.`,
       },
@@ -107,13 +107,13 @@ const content: AppContent = {
     title: `Cómo Vender Páginas para Colorear Personalizadas en Línea`,
     cases: [
       {
-        title: 'Packs temáticos de páginas para colorear en Etsy',
+        title: `Packs temáticos de páginas para colorear en Etsy`,
         description:
           `Crea packs de páginas para colorear temáticas usando las 104 colecciones de imágenes — animales de granja, criaturas marinas, dinosaurios, fauna de la jungla, celebraciones festivas y docenas más. Cada tema proporciona suficientes ilustraciones para 10 a 20 páginas para colorear únicas. Activa la exportación en escala de grises para una salida lista para imprimir, añade bordes decorativos para un aspecto cuidado e incluye páginas con líneas de caligrafía para valor educativo añadido. Ofrece temas como packs individuales a 3 $–5 $ cada uno, o combina varios temas en megapacks a 12 $–18 $. El lienzo de formato libre garantiza que cada página sea original e imposible de recrear con generadores basados en plantillas.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Libros para colorear en Amazon KDP',
+        title: `Libros para colorear en Amazon KDP`,
         description:
           `Compila de 60 a 100 páginas para colorear en un libro impreso formateado para Amazon KDP. La exportación en escala de grises produce páginas de ahorro de tinta listas para interiores de libros en blanco y negro. Estructura tu libro por tema: el capítulo 1 cubre animales de granja, el capítulo 2 vida marina, el capítulo 3 vehículos, y así sucesivamente. Usa la herramienta de dibujo a mano alzada para añadir páginas de título personalizadas y separadores de sección. El lienzo de formato libre te permite controlar la densidad de imágenes por página — una imagen grande para públicos más jóvenes, varias imágenes más pequeñas para coloristas de mayor edad. Los libros para colorear tienen demanda durante todo el año con picos estacionales alrededor de las festividades.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,7 +122,7 @@ const content: AppContent = {
         title: `Fichas de actividades para colorear en la clase para Gumroad`,
         description:
           `Construye fichas para colorear listas para la clase con las ayudas integradas. Añade un campo de nombre para que los usuarios identifiquen su trabajo e incluye líneas de práctica de caligrafía en la parte inferior para práctica de lectoescritura integrada. Los vendedores que buscan actividades para colorear en Gumroad valoran fichas que van más allá del simple coloreo — el campo de nombre y las líneas de caligrafía hacen de tu producto una ficha de actividad multihabilidad. Crea conjuntos temáticos vinculados a unidades de productoses: el clima, las estaciones, los ayudantes de la comunidad, los grupos de alimentos y los hábitats. La salida puramente visual funciona para cada usuario sin importar el idioma o nivel de lectura.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Páginas para colorear personalizadas con dibujo a mano alzada`,
@@ -134,7 +134,7 @@ const content: AppContent = {
         title: `Colecciones de páginas para colorear estacionales y festivas`,
         description:
           `Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano, fiestas de invierno y mucho más. Crea colecciones de páginas para colorear por disponible ahora alineadas con los picos de compra. Lanza los packs de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Los productos estacionales alcanzan precios más altos durante sus ventanas de máxima demanda y crean razones naturales para compras recurrentes de la misma base de clientes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: `Etsy / Amazon KDP / Gumroad (estacional)`,
       },
     ],
   },
@@ -166,12 +166,12 @@ const content: AppContent = {
         `Abre el panel Biblioteca de Imágenes, selecciona un tema en el menú desplegable o escribe un término de búsqueda en la barra de búsqueda. Las imágenes aparecen en una cuadrícula — haz clic en cualquier imagen para añadirla directamente a tu lienzo. La imagen aparece como un objeto del lienzo movible y redimensionable que puedes arrastrar, rotar y superponer con otros elementos. La biblioteca contiene más de 3100 ilustraciones coloridas en 104 colecciones temáticas. También puedes subir imágenes personalizadas PNG, JPG o GIF.`,
     },
     {
-      question: '¿Puedo subir mis propias imágenes?',
+      question: `¿Puedo subir mis propias imágenes?`,
       answer:
         `Sí. El panel Biblioteca de Imágenes incluye un botón de importación personalizada que acepta archivos PNG, JPG y GIF. Las imágenes subidas se añaden al lienzo como las imágenes de la biblioteca — completamente movibles, redimensionables y rotables. Combina tus propias creaciones con las ilustraciones de la biblioteca para páginas para colorear completamente originales. Las imágenes personalizadas son especialmente útiles para páginas para colorear específicas de una marca o temas no cubiertos por las colecciones integradas.`,
     },
     {
-      question: '¿Cómo funcionan los temas de bordes decorativos?',
+      question: `¿Cómo funcionan los temas de bordes decorativos?`,
       answer:
         `En el panel Diseño de Página, selecciona un tema de borde desde la biblioteca de bordes. El borde enmarca tu lienzo y añade un acabado visual a la página para colorear terminada. Los bordes se aplican como elementos del lienzo visibles en el editor. Definen el límite visual de la página sin interferir con tus imágenes, texto o dibujos. Diferentes temas de bordes se adaptan a diferentes públicos — bordes lúdicos para páginas para colorear infantiles, bordes elegantes para libros para colorear de adultos.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus páginas para colorear como descargas digitales en Etsy, como libros para colorear impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. El lienzo de formato libre, la herramienta de dibujo a mano alzada y las 104 colecciones de imágenes temáticas te ofrecen las herramientas creativas para producir productos de páginas para colorear originales y vendibles.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar el lienzo de formato libre, cada herramienta de dibujo, la biblioteca de imágenes completa, las ayudas para venta en línea, los temas de bordes, la exportación en escala de grises y todos los formatos de descarga antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,32 +206,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-pequeno-fichas',
-      anchorText: 'Generador de Fichas Grande y Pequeño',
+      anchorText: `Generador de Fichas Grande y Pequeño`,
     },
     {
       pageType: 'app',
       slug: 'tren-patrones-fichas',
-      anchorText: 'Generador de Fichas Tren de Patrones',
+      anchorText: `Generador de Fichas Tren de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'fichas-patrones',
-      anchorText: 'Generador de Fichas de Patrones',
+      anchorText: `Generador de Fichas de Patrones`,
     },
     {
       pageType: 'app',
       slug: 'dibujo-cuadricula-fichas',
-      anchorText: 'Generador de Fichas de Dibujo en Cuadrícula',
+      anchorText: `Generador de Fichas de Dibujo en Cuadrícula`,
     },
     {
       pageType: 'app',
       slug: 'grafomotricidad-fichas',
-      anchorText: 'Generador de Fichas de Grafomotricidad',
+      anchorText: `Generador de Fichas de Grafomotricidad`,
     },
     {
       pageType: 'app',
       slug: 'graficos-conteo-fichas',
-      anchorText: 'Generador de Fichas de Gráficos de Conteo',
+      anchorText: `Generador de Fichas de Gráficos de Conteo`,
     },
     {
       pageType: 'bundle',
@@ -241,7 +241,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'verano-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles de verano para niños',
+      anchorText: `Ideas de imprimibles de verano para niños`,
     },
     {
       pageType: 'idea',
@@ -251,12 +251,12 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'negocio-imprimibles-etsy',
-      anchorText: 'Lanza tu negocio de imprimibles en Etsy',
+      anchorText: `Lanza tu negocio de imprimibles en Etsy`,
     },
     {
       pageType: 'guide',
       slug: 'crear-paginas-colorear',
-      anchorText: 'Crear páginas de colorear que se vendan',
+      anchorText: `Crear páginas de colorear que se vendan`,
     },
   ],
 

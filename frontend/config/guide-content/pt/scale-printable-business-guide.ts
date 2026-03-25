@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'escalar negócio imprimíveis',
     secondaryKeywords: [
-      'como escalar um negócio de imprimíveis',
-      'fazer crescer negócio de fichas imprimíveis',
-      'estratégia de crescimento negócio imprimíveis',
-      'escalar vendas de imprimíveis educativos',
+      `como escalar um negócio de imprimíveis`,
+      `fazer crescer negócio de fichas imprimíveis`,
+      `estratégia de crescimento negócio imprimíveis`,
+      `escalar vendas de imprimíveis educativos`,
     ],
     lsiKeywords: [
       `crescimento empresarial receitas escalabilidade automatização subcontratação expansão catálogo produtos`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `crescimento catálogo receita por produto diversificação plataformas estrangulamento escalabilidade`,
       `sistemas empresariais processos repetíveis pipeline produção multiplicação conteúdo`,
     ],
-    titleTag: 'Escalar negócio imprimíveis — Guia crescimento',
+    titleTag: `Escalar negócio imprimíveis — Guia crescimento`,
     metaDescription: `Como escalar o seu negócio de imprimíveis com produção em lote, expansão multiplataforma, crescimento do catálogo, mercados multilingues e automatização.`,
   },
 
   hero: {
-    title: 'Como escalar o seu negócio de imprimíveis',
+    title: `Como escalar o seu negócio de imprimíveis`,
     tagline: `Um guia completo para escalar o seu negócio de imprimíveis para além das receitas de projeto secundário — abrangendo avaliação de prontidão para escalar e identificação de estrangulamentos, sistemas de produção em lote para uma produção consistente, estratégia de expansão multiplataforma, crescimento do catálogo através de extensões de linha de produtos, expansão para mercados multilingues, automatização de tarefas repetitivas e métricas de crescimento que impulsionam decisões estratégicas`,
     description: `A diferença entre um projeto secundário de imprimíveis e um negócio de imprimíveis escalável não é o talento, a sorte ou trabalhar mais arduamente. São os sistemas. Cada vendedor que passou de um punhado de produtos com vendas esporádicas para um catálogo que gera receitas mensais consistentes conseguiu-o substituindo o esforço manual por processos repetíveis, expandindo-se estrategicamente por plataformas e mercados, e construindo um pipeline de produção que multiplica a produção sem multiplicar as horas de trabalho. Este guia conduz-o pelo enquadramento completo de escalabilidade — desde reconhecer quando o seu negócio está pronto para escalar, até construir os sistemas que tornam o crescimento sustentável.`,
   },
@@ -51,11 +51,11 @@ const content: GuideContent = {
       content: `As extensões de linha de produtos são a forma mais eficiente de fazer crescer o seu catálogo porque cada novo produto aproveita a investigação, as decisões de conceção e o conhecimento de mercado dos seus produtos existentes. Em vez de começar do zero com cada nova ideia, estende sistematicamente o que já funciona em novas variações que servem a mesma base de compradores.\n\nEstenda por tema em primeiro lugar porque requer menos nova investigação. Se as suas fichas de adição com animais se vendem bem, crie fichas de subtração com animais, multiplicação com animais, caça-palavras com animais e páginas para colorir com animais. O tema é comprovadamente popular, os seus recursos de imagem já existem e o seu público de compradores de conteúdo educativo com tema de animais está estabelecido. Um tema comprovado pode suportar 5 a 10 variações de produtos em diferentes tipos de fichas, cada um demorando uma fração do tempo a criar em comparação com investigar e validar um novo tema do zero.\n\nEstenda por nível de escolaridade para capturar segmentos de compradores adjacentes. Se as suas fichas de matemática do 1.º ano têm bom desempenho, crie versões para o pré-escolar e o 2.º ano. O conhecimento do assunto transfere-se e os pais e vendedores que compram um nível de escolaridade frequentemente precisam de recursos para usuários em níveis adjacentes. As extensões de nível de escolaridade também criam oportunidades naturais de pacotes: um "Pacote de Matemática do Pré-Escolar ao 2.º Ano" combinando três níveis num único pacote a um preço premium.\n\nEstenda por nível de dificuldade nos produtos existentes. Ofereça versões fácil, médio e difícil das suas fichas mais populares. Esta extensão serve múltiplos propósitos: cria mais produtos a partir do mesmo enquadramento de conteúdo, dá aos compradores uma razão para adquirir múltiplas versões e permite pacotes diferenciados (um pacote "Conjunto Completo de Dificuldades"). Os geradores de fichas suportam a configuração de dificuldade, tornando simples produzir três variantes de dificuldade a partir de um único conceito de produto em tempo adicional mínimo.\n\nEstenda por formato para servir diferentes casos de utilização. O seu conteúdo de fichas pode ser reformatado em conjuntos de cartões didáticos, livros de atividades, pacotes de avaliação ou materiais de exposição para a loja. Cada formato serve uma necessidade de comprador ligeiramente diferente enquanto aproveita o mesmo conhecimento de assunto e investigação de conteúdo. Um conjunto de fichas de adição, cartões didáticos de adição e um pacote de avaliação de adição criado a partir do mesmo enquadramento de conteúdo fornece três produtos por um investimento de investigação.\n\nPlaneie as suas extensões sistematicamente usando uma matriz de linha de produtos. Crie uma grelha com tipos de produtos (fichas, caça-palavras, correspondência, colorir) como colunas e temas ou assuntos como linhas. Preencha as células onde tem produtos existentes e identifique as células vazias como oportunidades de expansão. Priorize as células adjacentes aos seus melhores vendedores — estas são as extensões com maior probabilidade de sucesso porque partilham público e validação de mercado com os seus produtos comprovados. Esta visão de matriz transforma o crescimento do catálogo de criação aleatória de produtos numa estratégia de expansão deliberada onde cada novo produto reforça o seu catálogo geral.`,
     },
     {
-      heading: 'Implemente a expansão multilingue',
+      heading: `Implemente a expansão multilingue`,
       content: `A expansão multilingue é uma das estratégias de escalabilidade mais subutilizadas no negócio de imprimíveis. A maioria dos vendedores de língua inglesa nunca considera traduzir os seus produtos, o que significa que os mercados não anglófonos são dramaticamente menos competitivos. A mesma ficha que compete com centenas de alternativas em inglês pode enfrentar apenas um punhado de concorrentes em alemão, francês, espanhol ou português.\n\nOs geradores de fichas suportam 11 idiomas: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Isto significa que pode criar fichas com formatação profissional, suporte a caracteres específicos do idioma e alinhamento com os padrões educativos de cada um destes mercados sem qualquer conhecimento de tradução. O gerador trata automaticamente dos elementos específicos do idioma.\n\nPriorize idiomas com base no tamanho do mercado e no nível de concorrência. Os mercados alemão e francês têm grandes populações de compradores em toda a Europa com forte procura de imprimíveis educativos. O espanhol serve compradores europeus e latino-americanos, representando um mercado combinado enorme. O português chega ao Brasil, uma das maiores economias do mundo, mais Portugal. Comece com um ou dois idiomas que representem os maiores mercados endereçáveis para o seu tipo de produto, depois expanda para idiomas adicionais à medida que estabelece o seu fluxo de trabalho multilingue.\n\nCrie o seu fluxo de trabalho multilingue como um processo em lote. Quando produz um novo pacote de fichas em inglês, crie imediatamente o mesmo produto nos seus idiomas prioritários durante a mesma sessão de produção. As decisões de conteúdo já estão tomadas — está a aplicá-las em vários idiomas, não a tomar novas decisões criativas. Um lote que produz um produto em inglês em 20 minutos pode produzir o mesmo produto em três idiomas adicionais em mais 30 a 40 minutos, quadruplicando a sua produção de catálogo a partir de um único conceito de conteúdo.\n\nPublique produtos multilingues em plataformas de mercado que sirvam essas comunidades linguísticas. O Etsy tem mercados fortes na Alemanha, França e outros países europeus. A Amazon tem mercados separados para a Alemanha, França, Espanha, Itália e outros países. Investigue onde os compradores em cada idioma compram principalmente imprimíveis educativos e liste os seus produtos nesses mercados específicos ou nessas categorias linguísticas.\n\nA expansão multilingue multiplica o valor de cada conceito de produto no seu catálogo. Um único tema de fichas criado em 4 idiomas em 3 tipos de produtos produz 12 produtos a partir de um conceito central. Se cada produto gerar mesmo receitas modestas, o agregado em idiomas e tipos soma substancialmente. Os vendedores que adotam a produção multilingue descobrem frequentemente que os seus produtos não ingleses geram coletivamente mais receitas do que os seus produtos ingleses isoladamente, simplesmente porque a concorrência é muito menor nos mercados não anglófonos.`,
     },
     {
-      heading: 'Automatize tarefas repetitivas do negócio',
+      heading: `Automatize tarefas repetitivas do negócio`,
       content: `A automatização elimina as tarefas repetitivas que consomem horas sem contribuir para a criação de produtos, expansão de mercado ou crescimento estratégico. Cada hora que gasta em tarefas que poderiam ser automatizadas é uma hora não gasta em atividades que escalam o seu negócio.\n\nCrie modelos de publicação que minimizem a entrada manual para cada plataforma. Um modelo de publicação bem concebido para o Etsy, por exemplo, contém a sua estrutura padrão de descrição, o seu conjunto padrão de etiquetas organizado por categoria, as suas diretrizes de preços e as suas secções de expedição e política — tudo pré-escrito. Quando publica um novo produto, personaliza apenas as secções específicas do produto (título, características específicas, etiquetas únicas) em vez de escrever tudo do zero. Isto reduz o tempo de publicação de 30 a 45 minutos para 10 a 15 minutos por produto. Num lote de 20 produtos, isso poupa 6 a 10 horas.\n\nConstrua uma biblioteca de palavras-chave e etiquetas organizada por tipo de produto, tema, nível de escolaridade e plataforma. Em vez de investigar etiquetas para cada nova publicação, retire da sua biblioteca pré-construída. Um conjunto de etiquetas "matemática 1.º ano", por exemplo, pode conter 20 etiquetas comprovadas que mistura e combina para cada novo produto de matemática do 1.º ano. Um conjunto de etiquetas de tema "animais da floresta" adiciona etiquetas específicas do tema às etiquetas do assunto. Combinar conjuntos de etiquetas pré-construídos dá-lhe etiquetas otimizadas em segundos em vez de investigá-las para cada produto individualmente.\n\nConfigure o agendamento de redes sociais se as plataformas sociais geram tráfego significativo para as suas publicações. Crie publicações de redes sociais em lote durante uma sessão dedicada — uma hora por mês criando e agendando publicações é muito mais eficiente do que publicações ad-hoc diárias. Concentre-se nas plataformas que comprovadamente geram tráfego e vendas para os seus produtos em vez de tentar manter presença em todo o lado.\n\nCrie modelos de resposta ao cliente para perguntas e interações comuns. Os compradores fazem frequentemente as mesmas perguntas: "Qual o tamanho do papel?" "Inclui chaves de resposta?" "Posso usar isto na minha loja?" Respostas pré-escritas que pode personalizar com detalhes específicos do produto poupam tempo significativo se lida regularmente com mensagens de clientes. Os modelos garantem uma comunicação consistente e profissional enquanto reduzem o tempo gasto em cada interação.\n\nAutomatize a sua revisão de análises com um controlo mensal padronizado. Crie uma lista de verificação ou modelo de folha de cálculo que capture as métricas-chave para cada plataforma: receita, unidades vendidas, taxa de conversão, produtos com melhor desempenho e produtos com desempenho inferior. Rever as mesmas métricas no mesmo formato cada mês permite identificar tendências rapidamente, identificar produtos que precisam de atenção e tomar decisões baseadas em dados sobre onde investir o seu próximo lote de produção. Uma revisão mensal estruturada demora 30 a 60 minutos e substitui horas de verificação ad-hoc de análises ao longo do mês.\n\nUtilize sistemas de organização de ficheiros que suportem fluxos de trabalho em lote. Crie uma estrutura de pastas que espelhe o seu pipeline de produção: uma pasta "rascunhos" para produtos em progresso, uma pasta "pronto para publicar" para produtos concluídos a aguardar publicação, uma pasta "publicado" organizada por plataforma. Convenções consistentes de nomenclatura de ficheiros (tipo-produto_tema_nível_idioma) tornam possível encontrar, ordenar e gerir centenas de produtos rapidamente sem pesquisar em pastas desorganizadas.`,
     },
     {
@@ -132,40 +132,40 @@ const content: GuideContent = {
     },
     {
       question: `Qual é a política de reembolso para licenças comerciais usadas para criar imprimíveis para venda?`,
-      answer: `Cada gerador de fichas oferece um teste grátis com marca d'água para que possa avaliar totalmente a ferramenta antes de adquirir uma licença comercial. Crie fichas completas, teste cada configuração e tema, verifique a qualidade de impressão a 300 DPI e confirme que o resultado corresponde aos seus padrões de qualidade. Teste todo o seu fluxo de trabalho de produção com amostras com marca d'água antes de se comprometer. Como pode testar completamente cada funcionalidade antes de comprar, todas as vendas de licenças comerciais são definitivas. Esta é a prática padrão para ferramentas de produtos digitais onde a funcionalidade completa está disponível para avaliação antes da compra.`,
+      answer: `Cada gerador de fichas oferece um teste grátis com marca d`água para que possa avaliar totalmente a ferramenta antes de adquirir uma licença comercial. Crie fichas completas, teste cada configuração e tema, verifique a qualidade de impressão a 300 DPI e confirme que o resultado corresponde aos seus padrões de qualidade. Teste todo o seu fluxo de trabalho de produção com amostras com marca d`água antes de se comprometer. Como pode testar completamente cada funcionalidade antes de comprar, todas as vendas de licenças comerciais são definitivas. Esta é a prática padrão para ferramentas de produtos digitais onde a funcionalidade completa está disponível para avaliação antes da compra.`,
     },
   ],
 
   nextSteps: [
     {
-      slug: 'criar-linha-produtos-imprimiveis',
-      title: 'Como criar uma linha de produtos imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      title: `Como criar uma linha de produtos imprimíveis`,
       description: `Aprofundamento na estratégia de linha de produtos — construindo coleções coesas que impulsionam compras recorrentes e suportam a profundidade de catálogo necessária para uma escalabilidade eficaz.`,
     },
     {
-      slug: 'criar-pacotes-fichas-exercicios',
-      title: 'Como criar pacotes de fichas que vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      title: `Como criar pacotes de fichas que vendam`,
       description: `Estratégias de criação de pacotes que multiplicam o valor das receitas do seu catálogo — essenciais para maximizar o retorno do seu investimento em escalabilidade.`,
     },
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia completo para iniciar um negócio de imprimíveis`,
       description: `O guia de negócio central que abrange criação de conteúdo, licenciamento comercial, estratégia multiplataforma e construção de um negócio de imprimíveis sustentável de raiz.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos de imprimíveis rentáveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Como criar fichas de adição para crianças' },
-    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Como criar caça-palavras com imagens' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: 'Como criar páginas para colorir com imagens' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: `Como pesquisar nichos de imprimíveis rentáveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: `Como criar fichas de adição para crianças` },
+    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: `Como criar caça-palavras com imagens` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: `Como criar páginas para colorir com imagens` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
@@ -177,7 +177,7 @@ const content: GuideContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Gerador de Fichas de Matemática',
+      title: `Gerador de Fichas de Matemática`,
       description: `Capacidade de produção rápida para criação de conteúdo em lote à escala. Cria fichas de matemática profissionais em minutos, permitindo a produção de alto volume que a escalabilidade exige.`,
     },
     {
@@ -187,28 +187,28 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Gerador de Fichas de Correspondência',
+      title: `Gerador de Fichas de Correspondência`,
       description: `A versatilidade de temas mostra como o conteúdo temático permite a expansão sistemática do catálogo — um conceito de correspondência aplicado a dezenas de temas cria uma linha de produtos abrangente.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de adição profissional demonstrando a qualidade do produto que suporta o crescimento escalável de negócios de imprimíveis' },
+    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de adição profissional demonstrando a qualidade do produto que suporta o crescimento escalável de negócios de imprimíveis` },
     samples: [
-      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: 'Ficha de adição com imagens temáticas mostrando diversidade de produtos para escalabilidade do catálogo', caption: 'Variações temáticas de fichas demonstram como um conceito de produto escala para múltiplas publicações em temas, níveis e idiomas' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Caça-palavras mostrando o potencial de escalabilidade multilingue', caption: 'Caça-palavras criados em 11 idiomas multiplicam o seu catálogo sem multiplicar o esforço criativo — o mesmo conceito chega a mercados internacionais' },
-      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de correspondência demonstrando expansão sistemática do catálogo através de variações de tema', caption: 'Fichas de correspondência em vários temas mostram extensão sistemática da linha de produtos — cada novo tema adiciona produtos usando formatos comprovados e recursos de imagem existentes' },
+      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: `Ficha de adição com imagens temáticas mostrando diversidade de produtos para escalabilidade do catálogo`, caption: `Variações temáticas de fichas demonstram como um conceito de produto escala para múltiplas publicações em temas, níveis e idiomas` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Caça-palavras mostrando o potencial de escalabilidade multilingue`, caption: `Caça-palavras criados em 11 idiomas multiplicam o seu catálogo sem multiplicar o esforço criativo — o mesmo conceito chega a mercados internacionais` },
+      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de correspondência demonstrando expansão sistemática do catálogo através de variações de tema`, caption: `Fichas de correspondência em vários temas mostram extensão sistemática da linha de produtos — cada novo tema adiciona produtos usando formatos comprovados e recursos de imagem existentes` },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: `Como criar páginas para colorir com Desenho e Colorir — Demonstrando amplitude criativa para escalabilidade do catálogo`,
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Avião — imagem educativa temática', caption: 'Avião' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulância — imagem educativa temática', caption: 'Ambulância' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Barco — imagem educativa temática', caption: 'Barco' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — imagem educativa temática', caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Avião — imagem educativa temática`, caption: 'Avião' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulância — imagem educativa temática`, caption: 'Ambulância' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Barco — imagem educativa temática`, caption: 'Barco' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — imagem educativa temática`, caption: 'Bulldozer' },
   ],
 };
 

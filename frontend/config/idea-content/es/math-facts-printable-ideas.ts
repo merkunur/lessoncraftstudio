@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Bases Matemáticas — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de bases matemáticas para vender en Etsy, Amazon KDP y Gumroad. Estrategias de nicho para vendedores que atienden a vendedores y.`,
-    primaryKeyword: 'ideas imprimibles bases matemáticas',
+    primaryKeyword: `ideas imprimibles bases matemáticas`,
     secondaryKeywords: [
-      'fichas operaciones matemáticas para vender',
-      'negocio imprimibles ejercicios matemáticos',
-      'fichas actividades aritmética para vendedores',
+      `fichas operaciones matemáticas para vender`,
+      `negocio imprimibles ejercicios matemáticos`,
+      `fichas actividades aritmética para vendedores`,
       `vender imprimibles operaciones matemáticas en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas práctica fluidez numérica',
-      'páginas ejercicios matemáticos cronometrados',
-      'recursos imprimibles aritmética básica educativa',
+      `fichas práctica fluidez numérica`,
+      `páginas ejercicios matemáticos cronometrados`,
+      `recursos imprimibles aritmética básica educativa`,
     ],
   },
   hero: {
@@ -89,7 +89,7 @@ La competencia existe en el nicho de bases matemáticas pero la demanda es tan c
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Bases Matemáticas en Etsy',
+      title: `Vender Imprimibles de Bases Matemáticas en Etsy`,
       description: `Los vendedores y padres buscan en Etsy con términos como «fichas de operaciones matemáticas», «práctica de suma», «ejercicios de multiplicación», «pruebas cronometradas de matemáticas», «fichas de fluidez matemática», «actividades de familias de operaciones» y «paquetes de tarea de matemáticas» creando demanda constante durante todo el año con un modesto pico de regreso a clases en agosto y septiembre cuando los vendedores abastecen las bibliotecas de recursos del mercado para el próximo año académico. Utiliza las trece etiquetas con variaciones que combinen operaciones específicas, niveles de grado, rangos de operaciones y formatos de actividades para captar las consultas de búsqueda altamente específicas que los compradores de operaciones matemáticas usan cuando saben exactamente qué operación, nivel de dificultad y formato de ficha necesitan para su usuario o tienda particular. Agrupa por operación creando paquetes integrales como «paquete de dominio de operaciones de suma» y «conjunto completo de tablas de multiplicar» que sirvan a compradores que buscan cobertura exhaustiva de una sola operación, y también agrupa por nivel de grado creando colecciones de «paquete de operaciones matemáticas de segundo grado» que abarquen múltiples operaciones a niveles de dificultad apropiados al grado. La naturaleza consumible de la práctica de operaciones matemáticas significa que los clientes regresan por fichas frescas durante todo el año escolar, haciendo que la excelente calidad del producto y la organización clara sean la base para construir una base de clientes leales que genere ingresos recurrentes de los mismos compradores que adquieren materiales adicionales a medida que sus usuarios progresan a través de rangos de operaciones y tipos de operaciones.`,
     },
     {
@@ -99,7 +99,7 @@ La competencia existe en el nicho de bases matemáticas pero la demanda es tan c
     },
     {
       platform: 'Gumroad',
-      title: 'Crear Recursos de Bases Matemáticas para Gumroad',
+      title: `Crear Recursos de Bases Matemáticas para Gumroad`,
       description: `Los vendedores de matemáticas son el segmento de compradores más grande en Gumroad y los recursos de fluidez en operaciones matemáticas se clasifican entre las categorías más buscadas en la plataforma porque cada vendedor de primaria necesita materiales de práctica computacional para uso diario en línea durante todo el año académico. Etiqueta los productos con rangos de operaciones específicos como «operaciones de suma hasta 10», «operaciones de resta hasta 20» y «tablas de multiplicar 0-12» para coincidencia de búsqueda dirigida que conecte tus productos con vendedores que buscan precisamente el nivel de habilidad y operación que su unidad instruccional actual requiere. Los paquetes de práctica diaria y conjuntos de tarea semanal generan compras repetidas a medida que los vendedores consumen materiales durante todo el año escolar y regresan por fichas frescas cubriendo los mismos rangos de operaciones en nuevos formatos para mantener la participación del usuario y prevenir la fatiga de práctica. Agrupa recursos de fluidez en operaciones a través de las cuatro operaciones para conjuntos integrales de práctica matemática que atraigan a vendedores que buscan soluciones completas para todo su año de instrucción de fluidez computacional en lugar de comprar fichas individuales de múltiples vendedores. Incluye claves de respuestas y fichas de seguimiento de progreso que los vendedores valoran para la gestión del mercado y la comunicación con los padres, ya que estas adiciones prácticas diferencian tus productos de competidores que proporcionan fichas sin los materiales de apoyo que hacen que la implementación comercial sea fluida y eficiente para emprendedores ocupados.`,
     },
     {
@@ -143,18 +143,18 @@ La competencia existe en el nicho de bases matemáticas pero la demanda es tan c
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ La competencia existe en el nicho de bases matemáticas pero la demanda es tan c
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -178,18 +178,18 @@ La competencia existe en el nicho de bases matemáticas pero la demanda es tan c
     },
     {
       pageType: 'idea',
-      slug: 'aprendizaje-verano-ideas-imprimibles',
+      slug: `aprendizaje-verano-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Aprendizaje de Verano`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagen educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cono — imagen educativa temática', caption: 'Cono' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagen educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagen educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — imagen educativa temática', caption: 'Diamante' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Corazón — imagen educativa temática', caption: 'Corazón' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagen educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cono — imagen educativa temática`, caption: 'Cono' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagen educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagen educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — imagen educativa temática`, caption: 'Diamante' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Corazón — imagen educativa temática`, caption: 'Corazón' },
   ],
 
 

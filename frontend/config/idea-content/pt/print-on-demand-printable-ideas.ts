@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Impressão Sob Demanda — Guia',
+    titleTag: `Ideias Imprimíveis Impressão Sob Demanda — Guia`,
     metaDescription: `Ideias de fichas de impressão sob demanda para vendedores de Etsy, KDP e Shopify. Constrói um negócio de imprimíveis sem inventário com cadernos e pacotes.`,
 
-    primaryKeyword: 'ideias imprimíveis impressão sob demanda',
+    primaryKeyword: `ideias imprimíveis impressão sob demanda`,
     secondaryKeywords: [
-      'negócio imprimíveis POD ideias',
-      'produtos educativos impressão sob demanda',
-      'vender fichas com impressão sob demanda',
+      `negócio imprimíveis POD ideias`,
+      `produtos educativos impressão sob demanda`,
+      `vender fichas com impressão sob demanda`,
       'modelo negócio fichas POD',
     ],
     lsiKeywords: [
-      'impressão e gestão de encomendas automatizada',
-      'vendas produtos educativos sob demanda',
+      `impressão e gestão de encomendas automatizada`,
+      `vendas produtos educativos sob demanda`,
       'negócio fichas sem inventário',
     ],
   },
@@ -88,7 +88,7 @@ A impressão sob demanda também permite testes e iteração rápidos de produto
   platformTips: [
     {
       platform: 'Amazon KDP',
-      title: 'Vender Cadernos de Exercícios POD na Amazon KDP',
+      title: `Vender Cadernos de Exercícios POD na Amazon KDP`,
       description: `A Amazon KDP é a plataforma dominante de impressão sob demanda para cadernos educativos com enorme tráfego orgânico de pais e vendedores a procurar materiais educativos impressos por nível escolar, disciplina e tipo de atividade. O KDP trata de toda a impressão, gestão de encomendas e atendimento ao cliente enquanto te concentras exclusivamente na criação de conteúdo e otimização de palavras-chave que impulsiona a descoberta orgânica dentro dos resultados de pesquisa da Amazon. Cria cadernos de oitenta a cento e vinte páginas organizados por disciplina e nível escolar usando o formato de livro de bolso do KDP, que proporciona o número de páginas que os compradores esperam de cadernos educativos impressos enquanto mantém os custos de produção razoáveis para preços competitivos com margens saudáveis de royalties. Otimiza títulos e subtítulos com níveis escolares específicos, disciplinas e tipos de atividades que coincidam com as consultas exatas de pesquisa que pais e vendedores usam quando compram materiais de prática impressos na Amazon. Usa as seleções de categoria do KDP estrategicamente para aparecer em rutas de navegação relevantes de cadernos educativos onde os compradores descobrem novos produtos através de exploração por categoria em vez de pesquisas diretas por palavras-chave. A estrutura de royalties recompensa números de páginas mais altos e preços competitivos, por isso experimenta com diferentes comprimentos de cadernos e pontos de preço para encontrar a combinação ótima que maximize o royalty por unidade enquanto mantém o posicionamento competitivo que impulsiona um volume de vendas consistente nas tuas categorias educativas alvo.`,
     },
     {
@@ -98,12 +98,12 @@ A impressão sob demanda também permite testes e iteração rápidos de produto
     },
     {
       platform: 'Shopify + Gelato/Printify',
-      title: 'Construir uma Marca de Fichas POD no Shopify',
+      title: `Construir uma Marca de Fichas POD no Shopify`,
       description: `As lojas Shopify com integração POD através de Gelato ou Printify permitem linhas de produtos de fichas de marca com controlo completo sobre preços, apresentação, experiência do cliente e identidade de marca que as plataformas de marketplace não conseguem proporcionar. Constrói uma marca profissional de produtos educativos com cadernos impressos, pacotes de atividades e conjuntos de fichas que os parceiros POD produzem e enviam diretamente aos clientes sob o nome da tua marca com opções de embalagem personalizada que reforçam o reconhecimento de marca e profissionalismo. O modelo direto ao consumidor elimina as comissões de marketplace que reduzem margens no Etsy e na Amazon, e constrói relações com clientes através da tua própria lista de correio eletrónico, comunicações de marca e experiências de compra personalizadas que fomentam compras recorrentes e lealdade de marca ao longo do tempo. Combina produtos POD impressos com transferências digitais na mesma loja para máxima variedade de produtos, permitindo aos clientes escolher entre entrega digital instantânea e produtos físicos impressos profissionalmente segundo as suas preferências e requisitos de uso. As aplicações de subscrição do Shopify também permitem encomendas recorrentes para clientes que querem entregas de fichas impressas mensais ou trimestrais, criando fluxos de receitas previsíveis de clientes leais que preferem a reencomenda automatizada sobre a reencomenda manual. O investimento inicial de configuração para uma loja Shopify é maior do que as alternativas de marketplace, mas a economia a longo prazo favorece as vendas diretas à medida que a tua base de clientes cresce porque reténs a relação com o cliente, evitas comissões de marketplace e constróis um ativo de marca com valor duradouro para além de qualquer plataforma individual.`,
     },
     {
       platform: 'Lulu / Direct POD',
-      title: 'Produtos POD Premium com Lulu e Serviços Diretos',
+      title: `Produtos POD Premium com Lulu e Serviços Diretos`,
       description: `A Lulu e serviços similares de POD direto oferecem opções de impressão premium incluindo encadernação de capa dura, impressão interior a todo cor, tamanhos de formato grande e papéis especiais que a Amazon KDP e as integrações de marketplace podem não suportar, permitindo produtos educativos emblemáticos que obtêm preços premium. Usa POD premium para cadernos de atividades deluxe, dossiers de recursos para vendedores e pacotes completos de catálogo de produtos onde a apresentação premium justifica preços mais altos e diferencia os teus produtos dos cadernos de bolso padrão que competem em categorias de commodities na Amazon e no Etsy. Vende produtos POD premium através do teu próprio site, canais de venda direta ou venda por grosso a escolas e lojas de material educativo onde materiais impressos e encadernados profissionalmente obtêm preços institucionais que geram margens por unidade substancialmente mais altas do que as vendas em marketplace de consumo. A rede de distribuição global da Lulu também coloca livros na Amazon e noutros grandes retalhistas online juntamente com os teus títulos de KDP, dando aos produtos POD premium ampla visibilidade em marketplace enquanto mantém a qualidade de produção premium que o formato padrão de bolso do KDP não consegue igualar. Considera oferecer linhas de produtos escalonadas onde o KDP trata dos teus cadernos padrão de bolso a preços competitivos de consumo enquanto a Lulu produz as tuas edições premium de capa dura e encadernação em espiral a pontos de preço mais altos, cobrindo ambos os segmentos de mercado com qualidade de produção apropriada para cada nível de preço e expectativa do comprador. Os serviços de POD direto também oferecem encomendas por grosso a custos reduzidos por unidade para vendedores que querem cumprir as suas próprias encomendas em feiras de artesanato, conferências educativas e eventos de material escolar onde a venda presencial gera taxas de conversão mais altas e constrói relações pessoais com compradores institucionais que fazem encomendas recorrentes.`,
     },
   ],
@@ -142,18 +142,18 @@ A impressão sob demanda também permite testes e iteração rápidos de produto
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -167,7 +167,7 @@ A impressão sob demanda também permite testes e iteração rápidos de produto
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -177,28 +177,28 @@ A impressão sob demanda também permite testes e iteração rápidos de produto
     },
     {
       pageType: 'idea',
-      slug: 'caixa-assinatura-ideias-imprimiveis',
+      slug: `caixa-assinatura-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Caixa de Assinatura de Fichas`,
     },
     {
       pageType: 'idea',
-      slug: 'download-digital-ideias-imprimiveis',
+      slug: `download-digital-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Transferências Digitais de Fichas`,
     },
     {
       pageType: 'idea',
-      slug: 'produtos-impressos-fisicos-ideias',
-      anchorText: 'Ideias de Negócio de Produtos Impressos Físicos',
+      slug: `produtos-impressos-fisicos-ideias`,
+      anchorText: `Ideias de Negócio de Produtos Impressos Físicos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

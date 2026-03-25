@@ -4,17 +4,17 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'koppelwerkblad generator',
     secondaryKeywords: [
-      'koppelwerkblad maker voor verkopers',
+      `koppelwerkblad maker voor verkopers`,
       `trek-een-lijn verbindingswerkbladen maken om te verkopen`,
       `printbare koppelactiviteit generator commercieel gebruik`,
-      'afbeelding koppelwerkblad maker voor KDP en Etsy',
+      `afbeelding koppelwerkblad maker voor KDP en Etsy`,
     ],
     lsiKeywords: [
-      'vier-modus trek-een-lijn koppelwerkblad tool',
+      `vier-modus trek-een-lijn koppelwerkblad tool`,
       `automatisch antwoordblad koppelactiviteit generator`,
-      'beginletter afbeelding woord koppelen maker',
+      `beginletter afbeelding woord koppelen maker`,
     ],
-    titleTag: 'Koppelwerkblad Generator — Trek-een-Lijn Maker',
+    titleTag: `Koppelwerkblad Generator — Trek-een-Lijn Maker`,
     metaDescription: `Maak koppelwerkbladen met 4 modi, automatisch antwoordblad met verbindingslijnen, instelbare paren, 11 talen, 104 thema's. Gratis proefversie — licentie.`,
   },
 
@@ -25,7 +25,7 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'Koppelwerkbladen Maken in 8 Stappen',
+    title: `Koppelwerkbladen Maken in 8 Stappen`,
     steps: [
       {
         title: 'Open de Koppelwerkblad Maker',
@@ -36,15 +36,15 @@ const content: ToolContent = {
         description: `Open het paneel Werkbladconfiguratie en selecteer uit vier koppelmodi. Beginletter plaatst afbeeldingen links en hun eerste letters rechts — kies tussen drie submodi (Willekeurig Thema & Afbeeldingen, Willekeurig uit Gekozen Thema, Specifieke Afbeeldingen Selecteren) en schakel weergave in hoofdletters of kleine letters in. Afbeelding+Woord toont gelabelde afbeeldingsparen aan beide zijden voor woordenschatversterking. Afbeelding/Woord Gemengd gebruikt per-rij dropdown-keuzes zodat elke zijde onafhankelijk een afbeelding of woord toont, waardoor gevarieerde moeilijkheid binnen één werkblad ontstaat. Aangepast Woord koppelt afbeeldingen aan je eigen getypte termen voor spelling, woordenschat of vreemde-taal oefeningen.`,
       },
       {
-        title: 'Configureer paren, nummers en opmaak',
+        title: `Configureer paren, nummers en opmaak`,
         description: `Stel het aantal koppelparen in op 4, 5 of 6 met het dropdown (standaard 6). Minder paren creëren werkbladen met grotere afbeeldingen en meer ruimte voor jongere gebruikers; meer paren verhogen de moeilijkheid en inhoudsdichtheid. Schakel "Itemnummers opnemen" (standaard AAN) in om cijfers voor elk paar toe te voegen voor gemakkelijke controle online. Schakel "Opsommingstekens tonen" (standaard AAN) in om decoratieve punten naast items weer te geven. Vink "Naam-/Datumvelden opnemen" aan om naam- en datumregels onderaan de pagina toe te voegen. Beide opmaakschakelaars werken onafhankelijk voor volledige controle over de visuele structuur.`,
       },
       {
-        title: 'Selecteer afbeeldingen uit de bibliotheek',
+        title: `Selecteer afbeeldingen uit de bibliotheek`,
         description: `Open het paneel Afbeeldingenbibliotheek en blader door 104 thematische collecties met meer dan 3.100 kleurrijke illustraties — dieren, eten, voertuigen, natuur, feestdagen, beroepen en tientallen meer. Filter op thema met het dropdown of zoek op trefwoord. In Beginletter modus met Specifieke Afbeeldingen Selecteren kies je handmatig precies de gewenste afbeeldingen. In Afbeelding/Woord Gemengd modus gebruik je het paneel Itemconfiguratie met per-rij dropdown-keuzes om in te stellen of elke zijde een afbeelding of woord toont. In Aangepast Woord modus typ je je eigen koppeltermen in de tekstvelden. Upload eigen PNG-, JPG- of GIF-afbeeldingen naast bibliotheekinhoud.`,
       },
       {
-        title: 'Stel je pagina-indeling en decoraties in',
+        title: `Stel je pagina-indeling en decoraties in`,
         description: `In het gedeelte Pagina-instelling selecteer je je paginaformaat: Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant (1200×1200) of een aangepaste afmeting. Kies een paginakleur. Selecteer een decoratief achtergrondthema en een kaderthema uit de ingebouwde bibliotheek, elk met een onafhankelijke dekkingsregelaar (0–1, stap 0,05). Achtergrond- en kaderthema's werken onafhankelijk, waardoor je een subtiel patroon als achtergrond kunt combineren met een opvallend decoratief kader, of elke andere combinatie die bij je productstijl past.`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Klik op Genereren om de twee-kolommen koppelindeling te maken. De app rangschikt je geselecteerde afbeeldingen en tekst in linker- en rechterkolommen met het geconfigureerde aantal paren. Een gestileerde "Zoek de Paren!" koptekst verschijnt bovenaan met een gele pil-achtergrond (#FFD700), koraalrood kaderlijn (#FF7F50, 8px streek) en gelokaliseerde titel en instructies in Fredoka- en Quicksand-lettertypen. Itemnummers en opsommingstekens verschijnen op basis van je schakelarinstellingen. Het werkblad-tabblad toont de gebruikerversie zonder verbindingslijnen — klaar voor gebruikers om hun eigen koppellijnen te trekken.`,
       },
       {
-        title: 'Bekijk het automatisch gegenereerde antwoordblad',
+        title: `Bekijk het automatisch gegenereerde antwoordblad`,
         description: `Klik op het tabblad Antwoordblad om de automatisch gegenereerde oplossing te zien. Het antwoordblad reproduceert de exacte werkbladindeling en voegt horizontale verbindingslijnen (#555, streekbreedte 2) toe getekend tussen elk correct paar. Schakel tussen de tabbladen Werkblad en Antwoordblad om te vergelijken. Het antwoordblad wordt tegelijkertijd met het werkblad gegenereerd — geen handmatig lijnen tekenen, geen aparte creatiestap, geen kans op niet-overeenkomende antwoorden. Dit dubbele-canvassysteem is je grootste tijdsbesparing bij het maken van koppelactiviteitenbundels waarbij elk werkblad zijn eigen antwoordblad nodig heeft.`,
       },
       {
@@ -64,19 +64,19 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Thematische Koppelwerkblad Bundels per Modus',
+      title: `Thematische Koppelwerkblad Bundels per Modus`,
       description: `Maak koppelactiviteitenpakketten georganiseerd per modus en thema met de 104 beeldcollecties. Eén dierenthema produceert vier verschillende producttypen: Beginletter koppelen voor foneticoefening, Afbeelding+Woord koppelen voor woordenschatopbouw, Afbeelding/Woord Gemengd koppelen voor gevarieerde moeilijkheid, en Aangepast Woord koppelen voor spellingoefeningen. Verpak 15–20 werkbladen per modus per thema met automatisch gegenereerde antwoordbladen inbegrepen. Het vier-modus systeem betekent dat elk thema in de bibliotheek vier aparte productvermeldingen ondersteunt, elk gericht op een andere educatieve vaardigheid — waardoor je catalogus vanuit één set afbeeldingen wordt vermenigvuldigd.`,
     },
     {
-      title: 'KDP Vroege Geletterdheid Koppelwerkboeken',
-      description: `Stel 60–80 koppelwerkbladen samen in gedrukte werkboeken voor vroege geletterdheid voor Amazon KDP. Beginletter modus is ideaal voor fonemisch bewustzijn — gebruikers koppelen afbeeldingen aan hun eerste letters over thema's heen. Structureer hoofdstukken per moeilijkheid: Hoofdstuk 1 gebruikt 4 paren met hoofdletters voor beginners, Hoofdstuk 2 gebruikt 5 paren met kleine letters voor gemiddelde gebruikers, Hoofdstuk 3 gebruikt 6 paren voor gevorderde oefening. Neem antwoordbladpagina's op achterin elk hoofdstuk met het automatisch gegenereerde antwoordblad. De taalgevoelige uitvoer betekent dat je aparte edities kunt maken in meerdere talen vanuit dezelfde afbeeldingsselecties, elk met gelokaliseerde woorden en letters.`,
+      title: `KDP Vroege Geletterdheid Koppelwerkboeken`,
+      description: `Stel 60–80 koppelwerkbladen samen in gedrukte werkboeken voor vroege geletterdheid voor Amazon KDP. Beginletter modus is ideaal voor fonemisch bewustzijn — gebruikers koppelen afbeeldingen aan hun eerste letters over thema`s heen. Structureer hoofdstukken per moeilijkheid: Hoofdstuk 1 gebruikt 4 paren met hoofdletters voor beginners, Hoofdstuk 2 gebruikt 5 paren met kleine letters voor gemiddelde gebruikers, Hoofdstuk 3 gebruikt 6 paren voor gevorderde oefening. Neem antwoordbladpagina`s op achterin elk hoofdstuk met het automatisch gegenereerde antwoordblad. De taalgevoelige uitvoer betekent dat je aparte edities kunt maken in meerdere talen vanuit dezelfde afbeeldingsselecties, elk met gelokaliseerde woorden en letters.`,
     },
     {
-      title: 'winkel Koppelcentrum Activiteiten',
+      title: `winkel Koppelcentrum Activiteiten`,
       description: `Bouw klasklare koppelcentrum werkbladen met naam-/datumvelden, itemnummers en geprinte antwoordbladen waar Gumroad-kopers specifiek naar zoeken. Het naamveld garandeert gebruikerverantwoording, itemnummers maken antwoordcontrole efficiënt tijdens groepsbesprekingen, en het automatisch gegenereerde antwoordblad bespaart productietijd voor verkopers. Maak lesstof-gerelateerde sets: beroepen koppelen, voedselgroepen koppelen, weer woordenschat koppelen, en leefgebied dieren koppelen. verkopers waarderen koppelactiviteiten die direct bruikbaar zijn zonder extra opmaak — elk werkblad wordt geëxporteerd met alle klaselementen ingebouwd.`,
     },
     {
-      title: 'Meertalige Woordenschat Koppelcollecties',
+      title: `Meertalige Woordenschat Koppelcollecties`,
       description: `Benut de taalgevoelige modi Beginletter en Afbeelding+Woord om koppelwerkbladen te maken in alle 11 ondersteunde talen. Dezelfde dierenafbeeldingen produceren volledig andere koppelinhoud wanneer je wisselt van Nederlands naar Engels, Duits, Frans, Spaans of een andere taal — afbeeldingsnamen, eerste letters en de Zoek de Paren koptekst worden allemaal automatisch bijgewerkt. Maak meertalige woordenschatbundels waarbij elke taalversie dezelfde thema-afbeeldingen gebruikt maar gelokaliseerde woorden. Dit is waardevol voor NT2-verkopers, tweetalige winkels en internationale thuisonderwijsgezinnen die koppelactiviteiten in hun moedertaal nodig hebben.`,
     },
     {
@@ -84,34 +84,34 @@ const content: ToolContent = {
       description: `Gebruik Aangepast Woord modus om je eigen koppeltermen naast afbeeldingen te typen, waardoor spellingoefeningwerkbladen, woordenschattoetsen en vreemde-taal koppeloefeningen ontstaan. verkopers kunnen specifieke zichtwoorden, wekelijkse woordenlijsten of vakspecifieke terminologie targeten. Maak per-leerjaar spellingpakketten waarbij elk werkblad afbeeldingen koppelt aan progressief moeilijkere woorden. Aangepast Woord modus is het meest flexibele koppeltype omdat je elke afbeelding met elk woord kunt koppelen — de educatieve inhoud wordt alleen beperkt door wat je typt, niet door de ingebouwde labels van de bibliotheek.`,
     },
     {
-      title: 'Seizoensgebonden Koppelactiviteiten Collecties',
-      description: `Bouw roterende seizoenscollecties met feestdagen- en natuurthema's uit de 104-thema bibliotheek. Kerst, Sinterklaas, Halloween, Pasen, Valentijnsdag, terug-naar-school en zomerthema's ondersteunen elk speciale koppelwerkbladpakketten. Neem alle vier koppelmodi op in elke seizoensset voor maximale waarde — Beginletter voor fonetiek, Afbeelding+Woord voor woordenschat, Gemengd voor gevarieerde uitdaging, en Aangepast Woord voor feestdagspecifieke termen. Breng elke collectie 4–6 weken voor de feestdag uit voor piekmarktplaatszichtbaarheid. Seizoensgebonden koppelproducten genereren terugkerende jaarlijkse inkomsten omdat kopers elk jaar terugkomen.`,
+      title: `Seizoensgebonden Koppelactiviteiten Collecties`,
+      description: `Bouw roterende seizoenscollecties met feestdagen- en natuurthema`s uit de 104-thema bibliotheek. Kerst, Sinterklaas, Halloween, Pasen, Valentijnsdag, terug-naar-school en zomerthema`s ondersteunen elk speciale koppelwerkbladpakketten. Neem alle vier koppelmodi op in elke seizoensset voor maximale waarde — Beginletter voor fonetiek, Afbeelding+Woord voor woordenschat, Gemengd voor gevarieerde uitdaging, en Aangepast Woord voor feestdagspecifieke termen. Breng elke collectie 4–6 weken voor de feestdag uit voor piekmarktplaatszichtbaarheid. Seizoensgebonden koppelproducten genereren terugkerende jaarlijkse inkomsten omdat kopers elk jaar terugkomen.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Vier-Modus Koppelwerkblad Winkel op Etsy',
+      title: `Vier-Modus Koppelwerkblad Winkel op Etsy`,
       description: `Open een Etsy-winkel gespecialiseerd in koppelwerkbladen georganiseerd per modus en thema met de 104 beeldcollecties. Elk thema ondersteunt vier aparte productvermeldingen — Beginletter, Afbeelding+Woord, Gemengd en Aangepast Woord — waardoor je catalogus vanuit één set afbeeldingen wordt vermenigvuldigd. Verpak 15–20 koppelwerkbladen per vermelding met automatisch gegenereerde antwoordbladen in elke bundel inbegrepen. Het antwoordblad met verbindingslijnen is een cruciaal verkoopargument dat je vermeldingen onderscheidt van concurrenten die werkbladen zonder oplossingen verkopen. Prijs individuele moduspakketten op €3–€5 en multi-modus themabundels op €8–€12.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Vroege Geletterdheid Werkboekserie',
-      description: `Stel 60–80 koppelwerkbladen samen in thematische werkboeken voor Amazon KDP. Beginletter modus bouwt fonemisch bewustzijn terwijl gebruikers afbeeldingen aan hun eerste letters koppelen. Structureer een serie per thema: "Dieren Alfabet Koppelen" behandelt boerderij, oceaan, jungle en huisdierenthema's. "Dagelijkse Woorden Koppelen" behandelt eten, voertuigen, beroepen en huishoudelijke voorwerpen. Neem antwoordbladpagina's op achterin elk hoofdstuk. Schakel grijstinten in voor inktvriendelijke uitvoer die perfect in zwart-wit print. De taalgevoelige modi laten je aparte taaledities maken vanuit dezelfde afbeeldingen voor internationale KDP-marktplaatsen.`,
+      title: `Amazon KDP Vroege Geletterdheid Werkboekserie`,
+      description: `Stel 60–80 koppelwerkbladen samen in thematische werkboeken voor Amazon KDP. Beginletter modus bouwt fonemisch bewustzijn terwijl gebruikers afbeeldingen aan hun eerste letters koppelen. Structureer een serie per thema: "Dieren Alfabet Koppelen" behandelt boerderij, oceaan, jungle en huisdierenthema`s. "Dagelijkse Woorden Koppelen" behandelt eten, voertuigen, beroepen en huishoudelijke voorwerpen. Neem antwoordbladpagina`s op achterin elk hoofdstuk. Schakel grijstinten in voor inktvriendelijke uitvoer die perfect in zwart-wit print. De taalgevoelige modi laten je aparte taaledities maken vanuit dezelfde afbeeldingen voor internationale KDP-marktplaatsen.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad Koppelcentrum Activiteitenpakketten',
+      title: `Gumroad Koppelcentrum Activiteitenpakketten`,
       description: `Upload koppelcentrum activiteitenpakketten naar Gumroad met naam-/datumvelden, itemnummers en automatisch gegenereerde antwoordbladen als belangrijkste verkoopargumenten. verkopers die zoeken naar koppelcentrum-activiteiten waarderen werkbladen die verkoopklaar aankomen met gebruikeridentificatie en oplossingen ingebouwd. Organiseer per productcatalogusonderwerp: beroepen koppelen, voedselgroepen koppelen, weer woordenschat koppelen en leefgebied dieren koppelen. Elk werkblad bevat zijn eigen antwoordblad met verbindingslijnen, wat productietijd voor verkopers elimineert. De gelokaliseerde Zoek de Paren koptekst past zich aan 11 talen aan voor tweetalige en internationale winkels.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest Koppelwerkblad Verkeerstrechter',
+      title: `Pinterest Koppelwerkblad Verkeerstrechter`,
       description: `Koppelwerkbladen met hun twee-kolommen trek-een-lijn formaat maken visueel onderscheidende Pinterest-pins — de gestructureerde indeling met kleurrijke afbeeldingen, itemnummers en de Zoek de Paren koptekst creëert een direct herkenbaar educatief formaat. Pin voorbeeldwerkbladen die verschillende modi tonen: Beginletter voor fonetiekpins, Afbeelding+Woord voor woordenschatpins, Aangepast Woord voor spellingpins. Maak aparte pinseries voor "dieren koppelwerkbladen", "feestdagen koppelactiviteiten" en "vroege geletterdheid koppelen". Link elke pin naar je Etsy- of Gumroad-productvermeldingen.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Compleet Koppelactiviteiten Toolkit',
+      title: `Gumroad Compleet Koppelactiviteiten Toolkit`,
       description: `Bundel koppelwerkbladen over alle vier modi en alle 104 thema's tot een uitgebreid koppelactiviteiten toolkit op Gumroad. Neem 300+ werkbladen op die elk groot thema bestrijken, elk met zijn automatisch gegenereerd antwoordblad — 600+ bestanden totaal. De vier-modus variatie is de sleutelonderscheider: Beginletter werkbladen voor fonetiek, Afbeelding+Woord voor woordenschat, Gemengd voor flexibele moeilijkheid, en Aangepast Woord voor gepersonaliseerde inhoud. Het toolkit-formaat rechtvaardigt premiumprijzen omdat kopers een complete bibliotheek ontvangen in plaats van individuele pakketten.`,
       platform: 'Gumroad',
     },
@@ -136,7 +136,7 @@ const content: ToolContent = {
       description: `Maak gelaagde koppelbundels met het instelbare aantal paren. Begin met 4 paren voor kleuter- en kleuterschoolwerkbladen met grotere afbeeldingen en meer witruimte. Gebruik 5 paren voor groep 3 werkbladen die inhoud en leesbaarheid balanceren. Stel 6 paren in voor groep 4 en gevorderde gebruikers die hogere inhoudsdichtheid aankunnen. Gedifferentieerde bundels met progressieve moeilijkheid verkopen beter dan enkelvoudige-moeilijkheid pakketten omdat verkopers werkbladen nodig hebben voor gemengde winkels.`,
     },
     {
-      title: 'Benut taalgevoeligheid voor meertalige producten',
+      title: `Benut taalgevoeligheid voor meertalige producten`,
       description: `De modi Beginletter en Afbeelding+Woord zijn taalgevoelig — het wisselen van taal verandert automatisch de woorden en eerste letters. Genereer hetzelfde koppelwerkblad in 11 talen vanuit één afbeeldingsselectie. Dit creëert directe productvariaties voor internationale marktplaatsen zonder extra ontwerpwerk. Een 20-werkbladen Nederlands koppelpakket wordt een 20-werkbladen Duits pakket, Frans pakket, Spaans pakket en 8 meer taaledities door simpelweg van taal te wisselen en opnieuw te exporteren.`,
     },
     {
@@ -167,19 +167,19 @@ const content: ToolContent = {
       answer: `Wanneer je een werkblad genereert, maakt de app tegelijkertijd een koppelantwoordblad op een apart canvas-tabblad. Het antwoordblad reproduceert de exacte werkbladindeling en voegt horizontale verbindingslijnen (#555, streekbreedte 2) toe getekend tussen elk correct paar. Schakel tussen de tabbladen Werkblad en Antwoordblad om te vergelijken. Download elke versie onafhankelijk — werkblad-JPEG, werkblad-PDF, antwoordblad-JPEG en antwoordblad-PDF — waardoor je vier productieklare bestanden krijgt vanuit één generatie. Het automatische antwoordblad elimineert handmatig lijnen tekenen en garandeert perfecte nauwkeurigheid over grote koppelbundels.`,
     },
     {
-      question: 'Hoe werkt het instelbare aantal paren?',
+      question: `Hoe werkt het instelbare aantal paren?`,
       answer: `In het paneel Werkbladconfiguratie selecteer je 4, 5 of 6 uit het dropdown voor maximale paren. De standaard is 6 paren. Minder paren creëren werkbladen met grotere afbeeldingen en meer ruimte — ideaal voor jongere gebruikers of werkbladen met langere aangepaste woorden die extra ruimte nodig hebben. Meer paren verhogen de moeilijkheid en inhoudsdichtheid. Het aantal paren werkt consistent over alle vier koppelmodi, waardoor je controle hebt over werkbladmoeilijkheid en visuele dichtheid vanuit één instelling.`,
     },
     {
-      question: 'Wat zijn de Beginletter submodi?',
+      question: `Wat zijn de Beginletter submodi?`,
       answer: `Beginletter modus biedt drie submodi voor afbeeldingsselectie. Willekeurig Thema & Afbeeldingen kiest een willekeurig thema en afbeeldingen daaruit automatisch. Willekeurig uit Gekozen Thema laat je een specifiek thema selecteren en kiest dan willekeurige afbeeldingen uit die collectie. Specifieke Afbeeldingen Selecteren opent de Afbeeldingenbibliotheek zodat je handmatig precies de gewenste afbeeldingen kunt kiezen. Je kunt ook kiezen tussen weergave in hoofdletters en kleine letters met de lettertype-schakelaar — hoofdletters voor vroege gebruikers, kleine letters voor meer gevorderde foneticoefening.`,
     },
     {
-      question: 'Is de Koppelwerkblad Maker taalgevoelig?',
+      question: `Is de Koppelwerkblad Maker taalgevoelig?`,
       answer: `Ja. De modi Beginletter en Afbeelding+Woord gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de woorden en eerste letters die op het werkblad verschijnen. Een katafbeelding toont bijvoorbeeld K in de Nederlandse Beginletter modus maar C in het Engels (Cat) en K in het Duits (Katze). De gelokaliseerde Zoek de Paren koptekst verandert ook mee met de geselecteerde taal. Deze taalgevoeligheid laat je koppelwerkbladen maken in alle 11 ondersteunde talen vanuit dezelfde afbeeldingsselecties, waardoor je productcatalogus voor internationale markten wordt vermenigvuldigd.`,
     },
     {
-      question: 'Hoe werken itemnummers en opsommingstekens?',
+      question: `Hoe werken itemnummers en opsommingstekens?`,
       answer: `Twee onafhankelijke schakelaars in het paneel Werkbladconfiguratie regelen de visuele opmaak. Itemnummers opnemen (standaard AAN) voegt cijfers toe voor elk paar — handig voor antwoordcontrole en bespreking online. Opsommingstekens tonen (standaard AAN) voegt decoratieve punten toe naast items voor visuele duidelijkheid. Je kunt alleen nummers, alleen punten, beide of geen van beide hebben afhankelijk van je werkbladstijl en doelgroep. Beide instellingen gelden voor beide kolommen van het koppelwerkblad.`,
     },
     {
@@ -197,9 +197,9 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: 'Koppelwerkbladen — Volledig Productoverzicht' },
+    { pageType: 'app', slug: 'verbindings-werkbladen', anchorText: `Koppelwerkbladen — Volledig Productoverzicht` },
     { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Maker' },
+    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: `Schaduw Matching Werkblad Maker` },
     { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Plaatjesbingo Maker' },
     { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Maker' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Alfabet Trein Werkblad Maker' },

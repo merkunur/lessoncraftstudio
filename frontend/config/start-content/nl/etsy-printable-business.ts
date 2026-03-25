@@ -5,24 +5,24 @@ const content: StartContent = {
     primaryKeyword: 'printables verkopen op etsy',
     secondaryKeywords: [
       'etsy printable bedrijf',
-      'etsy winkel voor printbare werkbladen',
+      `etsy winkel voor printbare werkbladen`,
       'werkbladen verkopen op etsy',
-      'etsy digitale downloads bedrijf',
+      `etsy digitale downloads bedrijf`,
     ],
     lsiKeywords: [
-      'etsy seo voor printable verkopers',
-      'etsy vermelding optimalisatie werkbladen',
-      'etsy winkel opzetten digitale producten',
-      'etsy tags voor printbare werkbladen',
-      'werkblad generator voor etsy verkopers',
+      `etsy seo voor printable verkopers`,
+      `etsy vermelding optimalisatie werkbladen`,
+      `etsy winkel opzetten digitale producten`,
+      `etsy tags voor printbare werkbladen`,
+      `werkblad generator voor etsy verkopers`,
       'etsy printable prijsstrategie',
     ],
-    titleTag: 'Printables Verkopen op Etsy — Bedrijf Masterclass',
+    titleTag: `Printables Verkopen op Etsy — Bedrijf Masterclass`,
     metaDescription: `Hoe printables verkopen op Etsy stap voor stap. Behandelt winkelopzet, Etsy SEO, vermeldingsoptimalisatie, prijsstrategie en opschalen met werkblad.`,
   },
 
   hero: {
-    title: 'Etsy Printable Bedrijf Masterclass',
+    title: `Etsy Printable Bedrijf Masterclass`,
     tagline: `De platformspecifieke gids voor het bouwen van een winstgevende printbare werkbladen winkel op Etsy`,
     description: `Etsy is de grootste marktplaats voor printbare digitale downloads. Deze masterclass behandelt alles wat je nodig hebt om een winstgevende printbare werkbladen winkel op het platform te bouwen — van initiële winkelopzet en Etsy-specifieke SEO tot vermeldingsoptimalisatie, prijsstrategie, adverteren en opschalen voorbij je eerste 50 producten. Elke strategie in deze gids is specifiek afgestemd op hoe Etsy werkt, geen generiek advies dat op elke marktplaats van toepassing is.`,
   },
@@ -48,22 +48,22 @@ const content: StartContent = {
     },
     {
       heading: `Etsy Miniatuur Best Practices voor Printbare Werkbladen`,
-      content: `Je miniatuur is de belangrijkste factor in of een koper je vermelding aanklikt vanuit zoekresultaten. Etsy toont een raster van miniaturen met titels en prijzen — je hebt ongeveer twee seconden om een koper te laten kiezen voor de jouwe.\n\nToon het daadwerkelijke product. De meest effectieve printable miniaturen tonen een schone mockup van het werkblad op een vlak oppervlak of in een tablet/klembord mockup. Kopers willen zien wat ze krijgen, niet een abstracte grafiek of stockfoto.\n\nGebruik een tekstoverlay spaarzaam maar strategisch. De meest nuttige tekstoverlay communiceert het aantal pagina's of bundelgrootte: "25 Pagina\'s" of "10 Werkbladen + Antwoordbladen." Deze informatie helpt kopers waarde te evalueren voordat ze klikken. Vermijd het rommelig maken van de miniatuur met meerdere tekstelementen, decoratieve randen of concurrerende visuele elementen.\n\nJe eerste afbeelding is de miniatuur die verschijnt in zoekresultaten. Afbeeldingen 2–10 zijn de galerij die kopers zien nadat ze in je vermelding klikken. Gebruik de galerij om individuele werkbladpagina's te tonen, close-up details van de ontwerpkwaliteit, een geprint voorbeeld en het antwoordblad indien van toepassing.\n\nBehoud visuele consistentie over je winkel. Gebruik dezelfde mockupstijl, hetzelfde kleurenpalet en hetzelfde tekstoverlayformaat voor alle vermeldingen. Wanneer een koper je vermeldingen ziet in zoekresultaten, maakt visuele consistentie je merk herkenbaar en signaleert het professionaliteit.\n\nAfbeeldingsafmetingen voor Etsy-vermeldingen moeten minstens 2000 × 2000 pixels zijn. Gebruik een schone witte of lichtgekleurde achtergrond. Vermijd filters, zware schaduwen of effecten die het daadwerkelijke product verbergen.`,
+      content: `Je miniatuur is de belangrijkste factor in of een koper je vermelding aanklikt vanuit zoekresultaten. Etsy toont een raster van miniaturen met titels en prijzen — je hebt ongeveer twee seconden om een koper te laten kiezen voor de jouwe.\n\nToon het daadwerkelijke product. De meest effectieve printable miniaturen tonen een schone mockup van het werkblad op een vlak oppervlak of in een tablet/klembord mockup. Kopers willen zien wat ze krijgen, niet een abstracte grafiek of stockfoto.\n\nGebruik een tekstoverlay spaarzaam maar strategisch. De meest nuttige tekstoverlay communiceert het aantal pagina`s of bundelgrootte: "25 Pagina's" of "10 Werkbladen + Antwoordbladen." Deze informatie helpt kopers waarde te evalueren voordat ze klikken. Vermijd het rommelig maken van de miniatuur met meerdere tekstelementen, decoratieve randen of concurrerende visuele elementen.\n\nJe eerste afbeelding is de miniatuur die verschijnt in zoekresultaten. Afbeeldingen 2–10 zijn de galerij die kopers zien nadat ze in je vermelding klikken. Gebruik de galerij om individuele werkbladpagina`s te tonen, close-up details van de ontwerpkwaliteit, een geprint voorbeeld en het antwoordblad indien van toepassing.\n\nBehoud visuele consistentie over je winkel. Gebruik dezelfde mockupstijl, hetzelfde kleurenpalet en hetzelfde tekstoverlayformaat voor alle vermeldingen. Wanneer een koper je vermeldingen ziet in zoekresultaten, maakt visuele consistentie je merk herkenbaar en signaleert het professionaliteit.\n\nAfbeeldingsafmetingen voor Etsy-vermeldingen moeten minstens 2000 × 2000 pixels zijn. Gebruik een schone witte of lichtgekleurde achtergrond. Vermijd filters, zware schaduwen of effecten die het daadwerkelijke product verbergen.`,
     },
     {
       heading: `Je Printbare Werkbladen Prijzen voor de Etsy Marktplaats`,
-      content: `Etsy's kostenstructuur beïnvloedt direct je netto-omzet bij elke verkoop. Deze kosten begrijpen is essentieel voor winstgevend prijzen.\n\nDe kostenverdeling: €0,20 vermeldingskosten per item (in rekening gebracht bij vermelding en bij verlenging), 6,5% transactiekosten over de totale verkoopprijs inclusief verzending, en betalingsverwerkingskosten (doorgaans 3% + €0,25 voor Etsy Payments). Op een verkoop van €4,99 bedragen je kosten totaal ongeveer €0,20 + €0,32 + €0,40 = €0,92, waardoor je met ruwweg €4,07 netto-omzet overblijft.\n\nAls je Etsy Ads gebruikt, komen de advertentiekosten er bovenop. Reken dit vanaf het begin mee in je prijzen.\n\nPrijsstrategie voor Etsy specifiek: individuele werkbladen voor €1,49–€2,99 dienen als instappunten die eerste kopers aantrekken. Kleine bundels van 5–10 pagina's voor €3,99–€5,99 zijn het volume-sweetspot op Etsy. Grote bundels van 15–30 pagina's voor €7,99–€12,99 leveren hogere omzet per transactie. Megabundels van 50+ pagina's voor €14,99–€24,99 richten zich op toegewijde kopers als verkopers en thuisonderwijsouders.\n\nEen bewezen Etsy-prijstactiek: vermeld individuele werkbladen op €1,99 en dezelfde werkbladen als 10-pagina bundel op €5,99. De bundel ziet eruit als een duidelijk waardevoordeel, waardoor kopers naar de optie met hogere omzet worden geleid. Beide vermeldingen creëren ook meer zoekoppervlak voor je winkel.\n\nOnderzoek concurrentieprijzen in je specifieke niche voordat je prijzen instelt. Sorteer Etsy zoekresultaten op "top klantbeoordelingen" om te zien welke prijspunten de markt beloont. Positioneer jezelf concurrerend — niet het goedkoopst, niet het duurste, maar met duidelijke waarde ten opzichte van je prijs.`,
+      content: `Etsy`s kostenstructuur beïnvloedt direct je netto-omzet bij elke verkoop. Deze kosten begrijpen is essentieel voor winstgevend prijzen.\n\nDe kostenverdeling: €0,20 vermeldingskosten per item (in rekening gebracht bij vermelding en bij verlenging), 6,5% transactiekosten over de totale verkoopprijs inclusief verzending, en betalingsverwerkingskosten (doorgaans 3% + €0,25 voor Etsy Payments). Op een verkoop van €4,99 bedragen je kosten totaal ongeveer €0,20 + €0,32 + €0,40 = €0,92, waardoor je met ruwweg €4,07 netto-omzet overblijft.\n\nAls je Etsy Ads gebruikt, komen de advertentiekosten er bovenop. Reken dit vanaf het begin mee in je prijzen.\n\nPrijsstrategie voor Etsy specifiek: individuele werkbladen voor €1,49–€2,99 dienen als instappunten die eerste kopers aantrekken. Kleine bundels van 5–10 pagina`s voor €3,99–€5,99 zijn het volume-sweetspot op Etsy. Grote bundels van 15–30 pagina`s voor €7,99–€12,99 leveren hogere omzet per transactie. Megabundels van 50+ pagina`s voor €14,99–€24,99 richten zich op toegewijde kopers als verkopers en thuisonderwijsouders.\n\nEen bewezen Etsy-prijstactiek: vermeld individuele werkbladen op €1,99 en dezelfde werkbladen als 10-pagina bundel op €5,99. De bundel ziet eruit als een duidelijk waardevoordeel, waardoor kopers naar de optie met hogere omzet worden geleid. Beide vermeldingen creëren ook meer zoekoppervlak voor je winkel.\n\nOnderzoek concurrentieprijzen in je specifieke niche voordat je prijzen instelt. Sorteer Etsy zoekresultaten op "top klantbeoordelingen" om te zien welke prijspunten de markt beloont. Positioneer jezelf concurrerend — niet het goedkoopst, niet het duurste, maar met duidelijke waarde ten opzichte van je prijs.`,
     },
     {
       heading: `Je Etsy Printable Catalogus Bouwen voor Maximale Zichtbaarheid`,
-      content: `Etsy's algoritme beloont actieve winkels. Verkopers die regelmatig nieuwe producten vermelden ontvangen een tijdelijke zichtbaarheidsboost voor elke nieuwe vermelding. Deze "nieuwe vermelding boost" is een van Etsy's belangrijkste maar minst begrepen rankingfactoren.\n\nDe praktische implicatie: 2–3 nieuwe vermeldingen per week toevoegen houdt je winkel in de gunst van het algoritme. Een winkel die eenmalig 10 producten vermeldt en nooit meer toevoegt zal afnemende zichtbaarheid ervaren na verloop van tijd, zelfs als die 10 producten uitstekend zijn.\n\nOrganiseer je catalogus met Etsy's winkelsecties-functie. Secties functioneren als categorieën binnen je winkel — "Rekenwerkbladen," "Kleurplaten," "Woordzoeker Bundels," "Feestdagen Activiteiten." Kopers die in je winkel klikken kunnen snel vinden wat hen interesseert.\n\nCross-vermelden is een krachtige Etsy-strategie. Neem dezelfde 10 werkbladen en vermeld ze op drie manieren: als individuele werkbladen (€1,99 elk), als thematische bundel (€5,99) en als onderdeel van een grotere megabundel (€14,99). Elke vermelding richt zich op andere kopersintentie en zoekwoorden, waardoor je zoekzichtbaarheid verdrievoudigt vanuit dezelfde kernproducten.\n\nGebruik werkblad generators om catalogusdiepte efficiënt op te bouwen. Eén sessie met de kleurplaten generator kan 20+ unieke werkbladen produceren over verschillende thema's in minder dan een uur. Die uitvoer wordt 20 individuele vermeldingen, 4 thematische bundels en 1 megabundel — 25 totale vermeldingen vanuit één creatiesessie.`,
+      content: `Etsy`s algoritme beloont actieve winkels. Verkopers die regelmatig nieuwe producten vermelden ontvangen een tijdelijke zichtbaarheidsboost voor elke nieuwe vermelding. Deze "nieuwe vermelding boost" is een van Etsy`s belangrijkste maar minst begrepen rankingfactoren.\n\nDe praktische implicatie: 2–3 nieuwe vermeldingen per week toevoegen houdt je winkel in de gunst van het algoritme. Een winkel die eenmalig 10 producten vermeldt en nooit meer toevoegt zal afnemende zichtbaarheid ervaren na verloop van tijd, zelfs als die 10 producten uitstekend zijn.\n\nOrganiseer je catalogus met Etsy`s winkelsecties-functie. Secties functioneren als categorieën binnen je winkel — "Rekenwerkbladen," "Kleurplaten," "Woordzoeker Bundels," "Feestdagen Activiteiten." Kopers die in je winkel klikken kunnen snel vinden wat hen interesseert.\n\nCross-vermelden is een krachtige Etsy-strategie. Neem dezelfde 10 werkbladen en vermeld ze op drie manieren: als individuele werkbladen (€1,99 elk), als thematische bundel (€5,99) en als onderdeel van een grotere megabundel (€14,99). Elke vermelding richt zich op andere kopersintentie en zoekwoorden, waardoor je zoekzichtbaarheid verdrievoudigt vanuit dezelfde kernproducten.\n\nGebruik werkblad generators om catalogusdiepte efficiënt op te bouwen. Eén sessie met de kleurplaten generator kan 20+ unieke werkbladen produceren over verschillende thema`s in minder dan een uur. Die uitvoer wordt 20 individuele vermeldingen, 4 thematische bundels en 1 megabundel — 25 totale vermeldingen vanuit één creatiesessie.`,
     },
     {
       heading: `Etsy Adverteren en Promotie voor Printable Verkopers`,
       content: `Etsy Ads is het ingebouwde advertentiesysteem van het platform. Het plaatst je vermeldingen bovenaan relevante zoekresultaten in ruil voor een per-klik vergoeding. Begrijpen wanneer en hoe Etsy Ads te gebruiken scheidt winstgevende verkopers van degenen die geld verspillen aan ineffectieve campagnes.\n\nBegin met een klein dagbudget — €1 tot €5 per dag. Etsy Ads gebruikt een kosten-per-klik model waarbij je alleen betaalt wanneer iemand op je advertentie klikt. De klikkosten variëren per concurrentieniveau in je niche, doorgaans van €0,10 tot €0,50 per klik voor printbare werkbladen.\n\nDe belangrijkste metriek is rendement op advertentie-uitgaven (ROAS). Als je €5 besteedt aan advertenties en €20 aan verkoop genereert, is je ROAS 4:1 — uitstekend. Als je €5 besteedt en €3 genereert, verliezen je advertenties geld. Controleer je Etsy Ads dashboard wekelijks en schakel advertenties uit op vermeldingen die niet winstgevend converteren.\n\nAdverteer niet elke vermelding. Focus Etsy Ads op je best converterende producten — de vermeldingen met het hoogste doorklik- en conversiepercentage. Het adverteren van een vermelding die al goed converteert versterkt het succes. Het adverteren van een vermelding met slechte conversie verspilt budget aan klikken die niet tot verkoop leiden.\n\nNaast Etsy Ads, gebruik Etsy's ingebouwde promotietools. Uitverkoop en kortingsbonnen kunnen eerdere bezoekers opnieuw betrekken. Etsy toont een "uitverkoop" badge op afgeprijsde vermeldingen, wat doorklikpercentages verhoogt. Voer af en toe 15–20% kortingen uit tijdens piekperiodes.\n\nSociale media stuurt extern verkeer naar je Etsy-winkel. Pinterest is bijzonder effectief voor printbare werkbladen — maak pins die je werkbladontwerpen tonen en link direct naar je Etsy-vermeldingen. Richt je op één of twee sociale kanalen in plaats van je te spreiden over allemaal.`,
     },
     {
-      heading: 'Klantbeoordelingen en Service Beheren op Etsy',
+      heading: `Klantbeoordelingen en Service Beheren op Etsy`,
       content: `Beoordelingen zijn valuta op Etsy. Ze beïnvloeden direct je vermeldingskwaliteitsscore, je zoekranking en kopersvertrouwen. Een winkel met tientallen vijfsterren beoordelingen converteert met een aanzienlijk hoger percentage dan een winkel zonder beoordelingen of gemengde feedback.\n\nDe beste manier om positieve beoordelingen te verdienen is producten leveren die verwachtingen overtreffen. Professionele werkbladkwaliteit, nauwkeurige beschrijvingen, schone bestandsopmaak en inbegrepen extra's als antwoordbladen dragen allemaal bij aan koperstevredenheid. Wanneer kopers voelen dat ze meer waarde ontvingen dan ze betaalden, volgen beoordelingen vanzelf.\n\nReageer op elke beoordeling, positief of negatief. Bedank positieve beoordelaars kort. Reageer bij negatieve beoordelingen professioneel en bied een oplossing — een gecorrigeerd bestand, een restitutie of een ander product. Je reactie is zichtbaar voor alle toekomstige kopers, en een professionele, oplossingsgerichte reactie op een negatieve beoordeling bouwt vaak meer vertrouwen op dan de beoordeling zelf schaadt.\n\nVoorkom negatieve beoordelingen proactief. Voeg een "Hoe te Gebruiken" sectie toe in je vermeldingsbeschrijving en in het gedownloade bestand zelf. Specificeer duidelijk welke bestandsformaten inbegrepen zijn, welke printerinstellingen het best werken, en hoe contact met je op te nemen als er problemen zijn. De meeste negatieve beoordelingen voor printable producten komen voort uit kopersverwarring, niet productkwaliteit.\n\nNa het verzamelen van 10+ beoordelingen betreedt je winkel een zichzelf versterkende cyclus. Meer beoordelingen betekent hogere rankings, wat meer verkoop betekent, wat meer beoordelingen betekent. Door de eerste 10 beoordelingen heen komen is het moeilijkste deel.`,
     },
     {
@@ -78,11 +78,11 @@ const content: StartContent = {
       description: `Zoek op Etsy naar je doelwerkblad categorie. Bestudeer de top 10 resultaten: noteer hun prijzen, aantal pagina's, miniatuurstijlen en beoordelingsaantallen. Identificeer lacunes waar jij iets kunt bieden dat de huidige topverkopers niet hebben.`,
     },
     {
-      step: 'Maak Voorbeeldproducten met Gratis Proefversies',
+      step: `Maak Voorbeeldproducten met Gratis Proefversies`,
       description: `Gebruik de gratis proefversie met watermerk op 2–3 werkblad generators om voorbeeldproducten te maken in je gekozen niche. Evalueer de uitvoerkwaliteit en test verschillende thema's, moeilijkheidsniveaus en paginaconfiguraties.`,
     },
     {
-      step: 'Zet Je Etsy Verkopersaccount Op',
+      step: `Zet Je Etsy Verkopersaccount Op`,
       description: `Maak je Etsy-winkel met een nicherelevante naam. Vul je winkelbeschrijving, beleid, betalingsinstelling en upload een professionele banner die voorbeeldwerkbladen toont.`,
     },
     {
@@ -90,27 +90,27 @@ const content: StartContent = {
       description: `Genereer 8–10 werkbladen rond één thema met één generator. Verpak ze als een samenhangende bundel met consistente visuele stijl. Prijs het op €3,99–€5,99 voor je eerste vermelding.`,
     },
     {
-      step: 'Optimaliseer Je Eerste Vermelding',
+      step: `Optimaliseer Je Eerste Vermelding`,
       description: `Schrijf een zoekwoordrijke titel met primaire zoektermen vooraan geladen. Vul alle 13 tags met unieke zoekwoordfrasen. Maak een schone miniatuurmockup die het daadwerkelijke product toont. Schrijf een gestructureerde beschrijving.`,
     },
     {
-      step: 'Vermeld 10 Producten in Je Eerste Week',
+      step: `Vermeld 10 Producten in Je Eerste Week`,
       description: `Maak zowel individuele vermeldingen als bundels vanuit je initiële werkbladuitvoer. Cross-vermeld dezelfde werkbladen in verschillende groeperingen om zoekzichtbaarheid te maximaliseren en te profiteren van Etsy's nieuwe vermelding boost.`,
     },
     {
-      step: 'Zet Etsy Ads Op voor Je Beste Vermelding',
+      step: `Zet Etsy Ads Op voor Je Beste Vermelding`,
       description: `Begin met een dagbudget van €1–€2 op je hoogste kwaliteitsvermelding. Monitor doorklik- en conversiepercentage gedurende één week. Pauzeer advertenties als ROAS onder 2:1 is.`,
     },
     {
-      step: 'Stel een Wekelijks Vermeldingsschema Vast',
+      step: `Stel een Wekelijks Vermeldingsschema Vast`,
       description: `Verbind je ertoe om 2–3 nieuwe vermeldingen per week toe te voegen. Gebruik werkblad generators om producten efficiënt te maken — één generatorsessie kan genoeg uitvoer produceren voor een volle week nieuwe vermeldingen.`,
     },
     {
-      step: 'Beoordeel Analyses Na 30 Dagen',
+      step: `Beoordeel Analyses Na 30 Dagen`,
       description: `Controleer je Etsy Stats dashboard op weergaven, favorieten en verkoop per vermelding. Identificeer je toppresteerders en maak meer producten in die categorieën. Optimaliseer onderpresterende vermeldingen met betere miniaturen en zoekwoorden.`,
     },
     {
-      step: 'Plan Je Eerste Seizoenscollectie',
+      step: `Plan Je Eerste Seizoenscollectie`,
       description: `Identificeer de volgende seizoensmogelijkheid (terug-naar-school, Halloween, Sinterklaas, Kerst) en maak een thematische werkbladcollectie minstens 4–6 weken voor de piekvraag. Seizoensproducten genereren aanzienlijke omzetpieken op Etsy.`,
     },
   ],
@@ -167,7 +167,7 @@ const content: StartContent = {
     },
     {
       question: `Hoeveel Etsy-vermeldingen moet ik maken vanuit één werkblad generator?`,
-      answer: `Eén generator kan tientallen unieke vermeldingen produceren. Maak individuele werkbladvermeldingen, thematische bundels van 5–10 pagina's en grotere megabundels van 20–30+ pagina's. Cross-vermelding van dezelfde werkbladen in verschillende groeperingen is een bewezen Etsy-strategie die je zoekzichtbaarheid vermenigvuldigt.`,
+      answer: `Eén generator kan tientallen unieke vermeldingen produceren. Maak individuele werkbladvermeldingen, thematische bundels van 5–10 pagina`s en grotere megabundels van 20–30+ pagina`s. Cross-vermelding van dezelfde werkbladen in verschillende groeperingen is een bewezen Etsy-strategie die je zoekzichtbaarheid vermenigvuldigt.`,
     },
     {
       question: `Kan ik niet-Nederlandstalige werkbladen verkopen op Etsy?`,
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-gids-printable-bedrijf',
+      slug: `complete-gids-printable-bedrijf`,
       title: `Complete Gids voor het Starten van een Printable Bedrijf`,
       description: `De uitgebreide basisgids die nicheselectie, productcreatie, platformvergelijking, prijsstrategie en catalogusopbouw behandelt voor alle printable marktplaatsen.`,
     },
     {
       slug: 'werkbladen-maken-die-verkopen',
-      title: 'Hoe Werkbladen te Maken Die Verkopen',
+      title: `Hoe Werkbladen te Maken Die Verkopen`,
       description: `Diepgaande kijk op productkwaliteit: ontwerp standaarden, getrapte productpakkettentechnieken en de specifieke methoden die kopers ertoe brengen jouw werkbladen boven concurrenten te kiezen.`,
     },
     {
       slug: 'amazon-kdp-activiteitenboeken',
-      title: 'Amazon KDP Activiteitenboeken Gids',
+      title: `Amazon KDP Activiteitenboeken Gids`,
       description: `Breid uit voorbij Etsy met activiteitenboeken op Amazon KDP. Behandelt opmaakvereisten, omslagontwerp, zoekwoordonderzoek en categorieselectie voor de Amazon marktplaats.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
+    { pageType: 'start', slug: `complete-gids-printable-bedrijf`, anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
     { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: `Hoe Professionele Werkbladen te Maken Die Verkopen` },
     { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
+    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: `Amazon KDP Activiteitenboeken Bedrijfsgids` },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: `Commerciële Licentie Gids voor Printable Verkopers` },
     { pageType: 'start', slug: 'printable-bedrijf-inkomen', anchorText: `Printable Bedrijf Inkomen: Realistische Verwachtingen` },
-    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
+    { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: `Kleurplaten Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: `Woordzoeker Generator — Volledig Overzicht` },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Probeer de Zoek & Tel Maker' },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: 'Kleurplaat werkblad voorbeeld gemaakt met LessonCraftStudio generator voor Etsy verkopers' },
+    heroImage: { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: `Kleurplaat werkblad voorbeeld gemaakt met LessonCraftStudio generator voor Etsy verkopers` },
     samples: [
-      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: 'Kleurplaat werkblad voor Etsy printable winkel', caption: 'Kleurplaat — Etsy Top Categorie' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: `Woordzoeker printbaar werkblad voor Etsy vermelding`, caption: 'Woordzoeker — Hoog Zoekvolume' },
-      { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Groenblijvende Rekencategorie' },
-      { src: `/samples/dutch/matching/Zoek%20de%20Paren%201.webp`, alt: 'Koppelwerkblad voor internationale Etsy-kopers', caption: 'Koppelen — Puur Visuele Activiteit' },
+      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: `Kleurplaat werkblad voor Etsy printable winkel`, caption: `Kleurplaat — Etsy Top Categorie` },
+      { src: `/samples/dutch/wordsearch/Woordzoeker%201.webp`, alt: `Woordzoeker printbaar werkblad voor Etsy vermelding`, caption: 'Woordzoeker — Hoog Zoekvolume' },
+      { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: `Optelwerkblad met afbeeldingsgebaseerde rekenopgaven`, caption: `Optelling — Groenblijvende Rekencategorie` },
+      { src: `/samples/dutch/matching/Zoek%20de%20Paren%201.webp`, alt: `Koppelwerkblad voor internationale Etsy-kopers`, caption: `Koppelen — Puur Visuele Activiteit` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Hoe Kleurplaat Werkbladen te Maken — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — thematische educatieve afbeelding', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Valkparkiet — thematische educatieve afbeelding', caption: 'Valkparkiet' },
-    { src: '/image-library/pets/dog.webp', alt: 'Hond — thematische educatieve afbeelding', caption: 'Hond' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Fret — thematische educatieve afbeelding', caption: 'Fret' },
+    { src: '/image-library/pets/cat.webp', alt: `Kat — thematische educatieve afbeelding`, caption: 'Kat' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — thematische educatieve afbeelding`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Valkparkiet — thematische educatieve afbeelding`, caption: 'Valkparkiet' },
+    { src: '/image-library/pets/dog.webp', alt: `Hond — thematische educatieve afbeelding`, caption: 'Hond' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Fret — thematische educatieve afbeelding`, caption: 'Fret' },
   ],
 };
 

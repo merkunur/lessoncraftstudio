@@ -5,19 +5,19 @@ const content: StartContent = {
     primaryKeyword: 'printable business ideas',
     secondaryKeywords: [
       'printable business blueprint',
-      'printable business plan for sellers',
-      'profitable printable product ideas',
-      'start a printable product line',
+      `printable business plan for sellers`,
+      `profitable printable product ideas`,
+      `start a printable product line`,
     ],
     lsiKeywords: [
       'Etsy printable shop planning',
       'Amazon KDP product strategy',
-      'worksheet business revenue goals',
+      `worksheet business revenue goals`,
       'printable catalog expansion',
-      'product line mapping for sellers',
-      'printable business launch checklist',
+      `product line mapping for sellers`,
+      `printable business launch checklist`,
     ],
-    titleTag: 'Printable Business Ideas — Blueprint to Income',
+    titleTag: `Printable Business Ideas — Blueprint to Income`,
     metaDescription: `Turn printable business ideas into a structured blueprint. Plan your product line, choose platforms, set pricing, and launch with worksheet generators.`,
   },
 
@@ -36,14 +36,14 @@ const content: StartContent = {
     },
     {
       heading: `Identifying Profitable Printable Business Ideas for New Sellers`,
-      content: `Profitable printable business ideas share three characteristics: proven demand, manageable competition, and repeat purchase potential. Your job during the research phase is to find ideas that score well on all three.\n\nStart with marketplace research. Search Etsy for broad terms like "printable worksheets," "activity book pages," and "educational printables." Sort by most popular. Note the product types, themes, and price points that dominate the first two pages of results. These are proven sellers — products with demonstrated demand from real buyers.\n\nNext, look for gaps. Search for more specific terms: "preschool pattern worksheets," "multiplication coloring pages," "bilingual math activities." When specific searches return fewer results, you have found a gap between buyer demand and available supply. These gaps are your best opportunities as a new seller.\n\nAmazon KDP bestseller lists reveal what activity books sell in print format. Browse the "Children's Activity Books" and "Education & Teaching" categories. The titles and themes that rank consistently are reliable indicators of what parents and sellers buy.\n\nSeasonal trends add a timing dimension to your research. Google Trends shows when demand for specific printable types peaks. "Halloween worksheets" spikes in September and October. "Back to school worksheets" peaks in July and August. Planning seasonal products in advance lets you capture demand that arrives on schedule every year.\n\nAvoid ideas that rely on trending characters, licensed intellectual property, or fads with short lifespans. Educational printable business ideas built around core skills — math practice, reading comprehension, pattern recognition, coloring activities — have permanent demand. A well-made addition worksheet sells year after year. A worksheet based on this year's trending cartoon character sells for three months.`,
+      content: `Profitable printable business ideas share three characteristics: proven demand, manageable competition, and repeat purchase potential. Your job during the research phase is to find ideas that score well on all three.\n\nStart with marketplace research. Search Etsy for broad terms like "printable worksheets," "activity book pages," and "educational printables." Sort by most popular. Note the product types, themes, and price points that dominate the first two pages of results. These are proven sellers — products with demonstrated demand from real buyers.\n\nNext, look for gaps. Search for more specific terms: "preschool pattern worksheets," "multiplication coloring pages," "bilingual math activities." When specific searches return fewer results, you have found a gap between buyer demand and available supply. These gaps are your best opportunities as a new seller.\n\nAmazon KDP bestseller lists reveal what activity books sell in print format. Browse the "Children`s Activity Books" and "Education & Teaching" categories. The titles and themes that rank consistently are reliable indicators of what parents and sellers buy.\n\nSeasonal trends add a timing dimension to your research. Google Trends shows when demand for specific printable types peaks. "Halloween worksheets" spikes in September and October. "Back to school worksheets" peaks in July and August. Planning seasonal products in advance lets you capture demand that arrives on schedule every year.\n\nAvoid ideas that rely on trending characters, licensed intellectual property, or fads with short lifespans. Educational printable business ideas built around core skills — math practice, reading comprehension, pattern recognition, coloring activities — have permanent demand. A well-made addition worksheet sells year after year. A worksheet based on this year`s trending cartoon character sells for three months.`,
     },
     {
       heading: `Validating Your Printable Business Idea Before Investing Time`,
       content: `Research tells you what might sell. Validation tells you what will sell for you specifically. The difference matters because research reflects the entire market while validation tests your ability to compete in it.\n\nThe fastest validation method is creating 3–5 test products using a free trial with watermark and evaluating the output against existing marketplace listings. Open a worksheet generator, create sample products in your chosen niche, and compare them side-by-side with the top-selling products on Etsy. Ask yourself: does my output match or exceed the quality of what is currently selling? If yes, you have a viable idea. If no, you need a different niche or a different approach.\n\nCompetition density determines how hard it will be to gain visibility. Search your exact target keywords on Etsy and count the results. Fewer than 5,000 results indicates a niche with room for new sellers. Between 5,000 and 20,000 means moderate competition where quality and SEO tier winners. Above 50,000 results means you need exceptional tiered difficulty or a more specific sub-niche.\n\nPrice point validation ensures your products can generate meaningful revenue. If the top sellers in your niche price bundles at $3.99–$7.99, you know the market supports those prices. If everything is priced under $1.99, you either need to offer significantly more value (larger bundles, unique themes) or find a niche with healthier pricing.\n\nThe validation phase should take one to two days, not weeks. You are not trying to prove the idea will definitely succeed — you are screening out ideas that are clearly unviable before investing weeks of product creation time. If your idea passes the quality test, the competition test, and the price test, move forward. You will learn more from listing real products than from additional research.`,
     },
     {
-      heading: 'Mapping Your Product Line From Day One',
+      heading: `Mapping Your Product Line From Day One`,
       content: `Product line mapping is the step most new sellers skip, and it is the step that creates the biggest competitive advantage. Mapping means planning your first 20–50 products before creating any of them.\n\nStart with your core product type. If you chose math worksheets as your niche, your core type might be addition worksheets. From that single starting point, plan your expansion along three axes: theme variations, difficulty progressions, and format bundles.\n\nTheme variations multiply your catalog with minimal additional effort. One addition worksheet template with five different image themes (animals, dinosaurs, ocean, vehicles, food) produces five distinct products, each targeting different search queries and different buyer interests. With 100+ themed image sets available in LessonCraftStudio generators, theme variation alone can generate dozens of unique products.\n\nDifficulty progressions serve different age groups and skill levels from your same core type. Easy addition (sums to 10) targets preschool. Medium addition (sums to 20) targets kindergarten. Advanced addition (two-digit numbers) targets first and second grade. Each difficulty level is a separate product line serving a different buyer segment.\n\nFormat bundles combine individual products into higher-value packages. Your product line map should include individual worksheets (for marketplace visibility), small bundles (5–10 pages, your main revenue driver), large bundles (20–30 pages, premium pricing), and mega bundles (50+ pages, maximum revenue per transaction).\n\nA practical product line map for a math worksheet business might look like this: 5 themes × 3 difficulty levels × 4 bundle sizes = 60 planned products from a single worksheet type. Add subtraction as a second type and you have 120 planned products. This is not theoretical — worksheet generators make creating these variations fast and consistent.\n\nWrite your product line map in a spreadsheet. List every planned product with its theme, difficulty, bundle size, and target price. This document becomes your production roadmap for the next three to six months.`,
     },
     {
@@ -63,22 +63,22 @@ const content: StartContent = {
       content: `Your pricing strategy should be part of your blueprint before you create your first product, not an afterthought when you are ready to list. Pricing affects everything: your revenue per sale, your position in marketplace search results, your perceived quality, and your long-term brand.\n\nThe printable worksheet market has established price ranges that vary by product size and platform. Individual worksheets (1–3 pages) typically sell for $1.49–$2.99. Small bundles (5–10 pages) sell for $2.99–$5.99. Large bundles (15–30 pages) sell for $5.99–$12.99. Mega bundles (50+ pages) sell for $14.99–$29.99. These ranges reflect current Etsy marketplace data and may vary by niche.\n\nPlatform fees reduce your net revenue from each sale. Etsy charges a $0.20 listing fee, a 6.5% transaction fee, and payment processing fees of approximately 3% + $0.25. On a $4.99 sale, your net after fees is approximately $4.09. Amazon KDP royalties range from 35% to 60% depending on list price and distribution options, resulting in lower per-unit revenue but zero fulfillment work.\n\nPrice anchoring is a powerful strategy for printable sellers. When buyers see your 10-page bundle at $4.99 and your 30-page bundle at $9.99, the larger bundle looks like a bargain. The per-page price drops from $0.50 to $0.33, making the more expensive option feel like the better deal. Structure your pricing tiers to guide buyers toward the bundle size with the highest total revenue.\n\nCompetitive positioning matters more than absolute price. If the top three sellers in your niche price 10-page bundles at $4.99, $5.49, and $5.99, pricing yours at $1.99 does not attract more buyers — it signals lower quality. Price within the established range and compete on product quality, theme uniqueness, and listing presentation instead.\n\nAvoid the race to the bottom. New sellers often underprice out of insecurity, then struggle to raise prices later. Start at the middle of your niche's price range and adjust based on actual sales data after 30 days.`,
     },
     {
-      heading: 'Launch Checklist for Your Printable Business',
+      heading: `Launch Checklist for Your Printable Business`,
       content: `Your blueprint is mapped, your products are created, and your pricing is set. This checklist ensures nothing falls through the cracks during your launch.\n\nShop setup comes first. Choose a shop name that reflects your niche and is easy to remember. Write a shop description that positions you as a specialist in your chosen category. Upload a professional-looking shop banner and profile photo. Complete your shop policies including processing time (instant for digital downloads), refund policy, and licensing terms.\n\nList your first 10 products within your first week. Marketplace algorithms favor new shops that demonstrate activity. Each listing needs a keyword-rich title that front-loads the most important search terms. Use all 13 Etsy tags with unique, buyer-relevant phrases. Write descriptions that clearly state what is included, who the product is for, what age range it targets, and what file formats are provided.\n\nThumbnail quality determines whether buyers click your listing. Show the actual worksheet in a clean, bright presentation. Include a small text overlay indicating the page count or bundle size. Avoid cluttered thumbnails with too many fonts, colors, or decorative elements. The worksheet should be the hero of the image.\n\nCreate a description template for consistency. Your template should include: product title, page count, age range, skill focus, what is included, file format, printing instructions, and licensing information. Using a template ensures every listing is complete and saves significant time as you list multiple products.\n\nSet up your analytics tracking from day one. Etsy provides built-in analytics showing views, favorites, and conversion rates per listing. Bookmark your stats page and check it weekly. After 30 days, you will have enough data to identify which products and keywords perform best.\n\nPrepare your customer service approach. Decide how quickly you will respond to messages, what your refund process looks like, and how you will handle custom requests. Having these answers ready before your first customer message prevents reactive, inconsistent responses.`,
     },
     {
-      heading: 'Measuring Progress and Adjusting Your Blueprint',
+      heading: `Measuring Progress and Adjusting Your Blueprint`,
       content: `A blueprint without measurement is just a wish list. Building review checkpoints into your plan ensures you make data-driven adjustments instead of operating on guesswork.\n\nWeekly reviews should take 15 minutes. Check three numbers: total views across your shop, total favorites, and total orders. Views tell you whether your SEO is working. Favorites indicate buyer interest that has not yet converted. Orders tell you what is actually selling. A listing with high views but no sales needs better thumbnails or pricing. A listing with few views needs better keywords.\n\nMonthly reviews go deeper. Calculate your conversion rate (orders divided by views) for each listing. Identify your top three performers and your bottom three. Create more products similar to your top performers. Update or retire your bottom performers with better thumbnails, descriptions, or keywords before creating entirely new products.\n\nRevenue per listing is the metric that drives catalog expansion decisions. Divide your monthly revenue by your total active listings. If you earn $300 from 30 listings, your revenue per listing is $10/month. Now you can project: adding 20 more listings at the same quality should add approximately $200/month. This metric also reveals when quality is slipping — if revenue per listing drops as you add products, your newest products are not matching the quality of your early work.\n\nPlatform expansion timing depends on your primary platform performance. Do not add a second platform until you have at least 30 listings on your first platform and a clear understanding of what sells. Splitting focus too early means mediocre results on multiple platforms instead of strong results on one.\n\nThe most important adjustment is knowing when to double down versus when to pivot. If your math worksheets sell consistently and your coloring pages do not, the blueprint says: create more math products, not more coloring pages. If a specific theme outperforms others by a wide margin, create every possible variation of that theme before exploring new ones. Data should drive your catalog expansion, not personal preference or assumptions about what should sell.\n\nRevisit your blueprint quarterly. Update your product line map based on what you have learned. Adjust your revenue targets based on actual performance data. Add new product types that your marketplace research suggests. Remove planned products that your data shows are unlikely to succeed. The blueprint is a living document, not a rigid contract.`,
     },
   ],
 
   actionSteps: [
     {
-      step: 'Research and Select Your Printable Business Idea',
+      step: `Research and Select Your Printable Business Idea`,
       description: `Search Etsy for broad printable worksheet categories and identify 2–3 niches with proven demand and manageable competition. Note the top-selling product types, themes, and price points in each niche.`,
     },
     {
-      step: 'Validate Your Idea With Free Trial Products',
+      step: `Validate Your Idea With Free Trial Products`,
       description: `Open relevant worksheet generators and create 3–5 sample products using the free trial with watermark. Compare your output against top-selling marketplace listings. Confirm your products match or exceed current quality standards.`,
     },
     {
@@ -94,15 +94,15 @@ const content: StartContent = {
       description: `Research competitor pricing in your niche and set prices for individual worksheets, small bundles, large bundles, and mega bundles. Calculate your net revenue after platform fees for each tier.`,
     },
     {
-      step: 'Build Your First 10-Product Collection',
+      step: `Build Your First 10-Product Collection`,
       description: `Create your core worksheet type in 2–3 themes at 2–3 difficulty levels. Generate pages, assemble bundles with cover pages, and download both PDF and JPEG formats. Quality-test every product before listing.`,
     },
     {
-      step: 'Launch Your Shop With Optimized Listings',
+      step: `Launch Your Shop With Optimized Listings`,
       description: `Set up your marketplace account, complete shop branding, and list your first 10 products with keyword-rich titles, all available tags, clean thumbnails, and complete descriptions using a consistent template.`,
     },
     {
-      step: 'Establish Your Weekly Production Schedule',
+      step: `Establish Your Weekly Production Schedule`,
       description: `Block time for creating and listing 3–5 new products per week. Follow your product line map rather than creating products randomly. Consistency builds both catalog size and marketplace authority.`,
     },
     {
@@ -185,59 +185,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Guide to Starting a Printable Business`,
       description: `The foundational guide covering every aspect of launching a printable business. Start here if you need comprehensive, step-by-step guidance from zero to your first sale.`,
     },
     {
       slug: 'create-worksheets-that-sell',
-      title: 'How to Create Professional Worksheets That Sell',
+      title: `How to Create Professional Worksheets That Sell`,
       description: `Deep dive into product creation quality: what makes worksheets look professional, how to use generators effectively, and the specific techniques that turn generic worksheets into products buyers choose.`,
     },
     {
       slug: 'etsy-printable-business',
-      title: 'Etsy Printable Business Masterclass',
+      title: `Etsy Printable Business Masterclass`,
       description: `Platform-specific guide for Etsy sellers covering shop setup, listing SEO, tag optimization, and scaling techniques tailored to the Etsy marketplace.`,
     },
     {
       slug: 'commercial-license-guide',
-      title: 'Commercial License Guide for Printable Sellers',
+      title: `Commercial License Guide for Printable Sellers`,
       description: `Understand what your commercial license covers, which platforms it applies to, and what rights you receive when selling worksheets created with LessonCraftStudio generators.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Generator — Full Details' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: `Commercial License Guide for Printable Sellers` },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: `Printable Business Income: Realistic Expectations` },
+    { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: `Math Puzzle Generator — Full Details` },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Generator — Full Details` },
     { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Try the Math Puzzle Maker' },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: `Math puzzle worksheet example created with LessonCraftStudio generator` },
+    heroImage: { src: `/samples/english/math puzzle/Math Puzzles.webp`, alt: `Math puzzle worksheet example created with LessonCraftStudio generator` },
     samples: [
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: `Math puzzle worksheet showing configurable output variety`, caption: 'Math Puzzle — Configurable Difficulty' },
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search worksheet with themed word list', caption: 'Word Search — Themed Puzzle' },
-      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page — Visual Appeal' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: `Matching worksheet demonstrating visual-only international format`, caption: 'Matching — Works in Any Language' },
+      { src: `/samples/english/math puzzle/Math Puzzles.webp`, alt: `Math puzzle worksheet showing configurable output variety`, caption: `Math Puzzle — Configurable Difficulty` },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search worksheet with themed word list`, caption: 'Word Search — Themed Puzzle' },
+      { src: `/samples/english/coloring/coloring portrait 1.webp`, alt: `Coloring page worksheet with themed illustrations`, caption: 'Coloring Page — Visual Appeal' },
+      { src: `/samples/english/matching/matching portrait.webp`, alt: `Matching worksheet demonstrating visual-only international format`, caption: `Matching — Works in Any Language` },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: `How to Create Math Puzzle Worksheets — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — themed educational image', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — themed educational image', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — themed educational image', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Bluebell — themed educational image', caption: 'Bluebell' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Buttercup — themed educational image', caption: 'Buttercup' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Aster — themed educational image`, caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — themed educational image`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — themed educational image`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Bluebell — themed educational image`, caption: 'Bluebell' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Buttercup — themed educational image`, caption: 'Buttercup' },
   ],
 };
 

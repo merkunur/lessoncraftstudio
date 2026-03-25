@@ -2,27 +2,27 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'multilingual worksheet generator',
+    primaryKeyword: `multilingual worksheet generator`,
     secondaryKeywords: [
-      'create worksheets in multiple languages',
-      'multilingual printable worksheets',
-      'sell worksheets in german french spanish',
-      'multilingual activity book generator',
+      `create worksheets in multiple languages`,
+      `multilingual printable worksheets`,
+      `sell worksheets in german french spanish`,
+      `multilingual activity book generator`,
     ],
     lsiKeywords: [
-      'language-sensitive worksheet generator',
-      'create worksheets in 11 languages',
-      'non-english printable market etsy',
-      'multilingual word search generator',
-      'international printable business',
-      'sell worksheets on etsy.de etsy.fr',
+      `language-sensitive worksheet generator`,
+      `create worksheets in 11 languages`,
+      `non-english printable market etsy`,
+      `multilingual word search generator`,
+      `international printable business`,
+      `sell worksheets on etsy.de etsy.fr`,
     ],
-    titleTag: 'Multilingual Worksheet Generator — 11 Languages',
+    titleTag: `Multilingual Worksheet Generator — 11 Languages`,
     metaDescription: `Create and sell worksheets in 11 languages with a multilingual generator. Reach German, French, and Spanish buyers on Etsy, Amazon KDP, and global markets.`,
   },
 
   hero: {
-    title: 'How to Create Worksheets in 11 Languages',
+    title: `How to Create Worksheets in 11 Languages`,
     tagline: `Reach international buyers on Etsy and Amazon KDP with professionally localized worksheet content — no translation skills required`,
     description: `Most printable sellers compete exclusively in the English-language market, ignoring millions of buyers who search in German, French, Spanish, Portuguese, Italian, and other languages. This guide shows you how to use multilingual worksheet generators to create authentic, language-specific content for 11 languages and sell it across international marketplaces. You will learn the critical distinction between language-sensitive and visual-only generators, understand the market opportunity in each supported language, and build a systematic strategy for expanding your printable business internationally.`,
   },
@@ -51,12 +51,12 @@ const content: StartContent = {
       content: `The fastest path to your first multilingual product starts with a language-sensitive generator and a high-demand theme.\n\nStep one: choose a language-sensitive generator. Word search is the strongest starting point because it is the most popular puzzle worksheet category on both Etsy and Amazon, and it demonstrates language differences most visibly. The hidden words are entirely different in each language, making each version a genuinely unique product.\n\nStep two: select your target language. If this is your first non-English product, start with German. Amazon.de is the largest non-English marketplace, and German educational printable demand is well-established. You can explore the interface in English while generating German-language output.\n\nStep three: pick a popular theme. Animals, food, and vehicles are universally strong themes across all languages and age groups. Select your theme and the generator automatically uses the German translations from its vocabulary database.\n\nStep four: generate and review. Create your word search puzzles and examine the output. You will see German words in the puzzle grid, with German word lists for the solver. Even if you do not speak German, you can verify the output looks professional and complete.\n\nStep five: create a complete product. Generate 15–25 puzzle pages for a downloadable PDF bundle (Etsy) or 50–100 pages for an activity book interior (Amazon KDP). Add a title page with the product name in the target language.\n\nStep six: repeat for additional languages. Once you have your German version, create the same product in French and Spanish. Each generation takes minutes because the workflow is identical — only the language selection changes. You now have four products (English, German, French, Spanish) from one workflow.\n\nRemember: use the free trial with watermark to test your multilingual output before committing to a commercial license. Generate sample pages in multiple languages to confirm the quality meets your standards.`,
     },
     {
-      heading: 'Selling Multilingual Worksheets on Etsy',
-      content: `Etsy operates regional domains that serve buyers in their native language, and understanding how to optimize for these markets is essential for multilingual sellers.\n\nEtsy.de serves German-speaking buyers. Etsy.fr serves French-speaking buyers. Etsy.com serves primarily English-speaking buyers but also has significant Spanish-speaking traffic. When you create listings, Etsy displays them on the regional domain that matches the listing language and the buyer's location.\n\nFor listing optimization in non-English markets, write your title, tags, and description in the target language. A German word search listing should have the title "Wortsuche Rätsel für Kinder — Tiere Thema — 20 Seiten" rather than "German Word Search Puzzles for Kids." Buyers on Etsy.de search in German, so your listing must contain German keywords to appear in their search results.\n\nIf you do not speak the target language, use translation tools for your listing text (not your worksheet content — that is handled by the generator). Listing titles and descriptions are short enough that translation tools produce acceptable results, especially when you follow a template structure.\n\nBundle strategies work exceptionally well for multilingual products on Etsy. "Deutsches Wortsuche Paket — 20 Rätsel" (German Word Search Bundle — 20 Puzzles) offers clear value in a single purchase. Create theme-specific bundles: animals, food, holidays, school subjects. Price bundles at a modest premium over individual worksheets.\n\nCross-linking between language versions creates a catalog effect. In your English listing description, mention "Also available in German, French, and Spanish" with links to those listings. Bilingual buyers and international schools often purchase multiple language versions of the same worksheet set.\n\nEtsy's digital download format is ideal for multilingual worksheets because there is no shipping complexity. A buyer in Germany downloads a PDF instantly, just like a buyer in the United States. Your operating costs are identical regardless of which country the buyer is in.`,
+      heading: `Selling Multilingual Worksheets on Etsy`,
+      content: `Etsy operates regional domains that serve buyers in their native language, and understanding how to optimize for these markets is essential for multilingual sellers.\n\nEtsy.de serves German-speaking buyers. Etsy.fr serves French-speaking buyers. Etsy.com serves primarily English-speaking buyers but also has significant Spanish-speaking traffic. When you create listings, Etsy displays them on the regional domain that matches the listing language and the buyer`s location.\n\nFor listing optimization in non-English markets, write your title, tags, and description in the target language. A German word search listing should have the title "Wortsuche Rätsel für Kinder — Tiere Thema — 20 Seiten" rather than "German Word Search Puzzles for Kids." Buyers on Etsy.de search in German, so your listing must contain German keywords to appear in their search results.\n\nIf you do not speak the target language, use translation tools for your listing text (not your worksheet content — that is handled by the generator). Listing titles and descriptions are short enough that translation tools produce acceptable results, especially when you follow a template structure.\n\nBundle strategies work exceptionally well for multilingual products on Etsy. "Deutsches Wortsuche Paket — 20 Rätsel" (German Word Search Bundle — 20 Puzzles) offers clear value in a single purchase. Create theme-specific bundles: animals, food, holidays, school subjects. Price bundles at a modest premium over individual worksheets.\n\nCross-linking between language versions creates a catalog effect. In your English listing description, mention "Also available in German, French, and Spanish" with links to those listings. Bilingual buyers and international schools often purchase multiple language versions of the same worksheet set.\n\nEtsy`s digital download format is ideal for multilingual worksheets because there is no shipping complexity. A buyer in Germany downloads a PDF instantly, just like a buyer in the United States. Your operating costs are identical regardless of which country the buyer is in.`,
     },
     {
       heading: `Publishing Multilingual Activity Books on Amazon KDP`,
-      content: `Amazon KDP gives you direct access to marketplace-specific storefronts in multiple countries, each with its own buyer population searching in the local language.\n\nAmazon.de (Germany), Amazon.fr (France), Amazon.es (Spain), Amazon.it (Italy), Amazon.nl (Netherlands), and Amazon.se (Sweden) all accept KDP publications. When you publish a book, you select which marketplaces to distribute to. A German-language activity book published on Amazon.de competes only against other German-language titles on that marketplace.\n\nFor KDP keyword optimization in non-English markets, your book title, subtitle, and backend keywords must be in the target language. "Wortsuche Rätsel für Kinder — Tier Thema" performs on Amazon.de; "German Word Search Puzzles for Kids" does not. Backend keywords should also be in the target language: German buyers search in German.\n\nThe same interior file can serve multiple marketplaces if the content language matches. Your German word search interior works on Amazon.de, Amazon.at (Austria), and the German-language section of Amazon.com. Your French interior works on Amazon.fr, Amazon.ca (French Canada), and Amazon.be (Belgium).\n\nPricing requires marketplace-specific adjustments. Each Amazon marketplace uses its local currency — euros on Amazon.de, Amazon.fr, Amazon.es, and Amazon.it; Swedish kronor on Amazon.se. KDP lets you set independent prices for each marketplace. Research competitor pricing on each specific marketplace rather than converting your US price.\n\nCategory selection differs across marketplaces. The browse category structure on Amazon.de is not identical to Amazon.com. Explore each marketplace's category tree to find the most relevant placement for your activity book. "Kinderbücher > Rätsel & Spiele" (Children\'s Books > Puzzles & Games) on Amazon.de may be the right equivalent of "Children's Activity Books" on Amazon.com.\n\nA single KDP account manages all marketplaces. You do not need separate accounts for each country. Publish across all relevant marketplaces from one dashboard to maximize your international reach.`,
+      content: `Amazon KDP gives you direct access to marketplace-specific storefronts in multiple countries, each with its own buyer population searching in the local language.\n\nAmazon.de (Germany), Amazon.fr (France), Amazon.es (Spain), Amazon.it (Italy), Amazon.nl (Netherlands), and Amazon.se (Sweden) all accept KDP publications. When you publish a book, you select which marketplaces to distribute to. A German-language activity book published on Amazon.de competes only against other German-language titles on that marketplace.\n\nFor KDP keyword optimization in non-English markets, your book title, subtitle, and backend keywords must be in the target language. "Wortsuche Rätsel für Kinder — Tier Thema" performs on Amazon.de; "German Word Search Puzzles for Kids" does not. Backend keywords should also be in the target language: German buyers search in German.\n\nThe same interior file can serve multiple marketplaces if the content language matches. Your German word search interior works on Amazon.de, Amazon.at (Austria), and the German-language section of Amazon.com. Your French interior works on Amazon.fr, Amazon.ca (French Canada), and Amazon.be (Belgium).\n\nPricing requires marketplace-specific adjustments. Each Amazon marketplace uses its local currency — euros on Amazon.de, Amazon.fr, Amazon.es, and Amazon.it; Swedish kronor on Amazon.se. KDP lets you set independent prices for each marketplace. Research competitor pricing on each specific marketplace rather than converting your US price.\n\nCategory selection differs across marketplaces. The browse category structure on Amazon.de is not identical to Amazon.com. Explore each marketplace`s category tree to find the most relevant placement for your activity book. "Kinderbücher > Rätsel & Spiele" (Children's Books > Puzzles & Games) on Amazon.de may be the right equivalent of "Children`s Activity Books" on Amazon.com.\n\nA single KDP account manages all marketplaces. You do not need separate accounts for each country. Publish across all relevant marketplaces from one dashboard to maximize your international reach.`,
     },
     {
       heading: `Visual-Only Worksheets: Instant International Products`,
@@ -74,11 +74,11 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Test Multilingual Output with Free Trials',
+      step: `Test Multilingual Output with Free Trials`,
       description: `Open the Word Search generator and use the free trial with watermark. Generate a puzzle in English, then switch to German and generate the same theme. Compare the outputs to see how language-sensitive content changes across languages.`,
     },
     {
-      step: 'Identify Your Top-Performing English Products',
+      step: `Identify Your Top-Performing English Products`,
       description: `Review your existing English sales data (or research high-demand categories). The worksheet types and themes that sell best in English are your first candidates for multilingual expansion.`,
     },
     {
@@ -90,11 +90,11 @@ const content: StartContent = {
       description: `Search for equivalent products on Etsy.de and Amazon.de. Note competitor pricing, listing titles, and how they describe their products in German. Use this research to write your own listing text.`,
     },
     {
-      step: 'Create Your German Listing with Localized Text',
+      step: `Create Your German Listing with Localized Text`,
       description: `Write your listing title, description, and tags in German. For Etsy, create the listing on your existing shop. For Amazon KDP, publish to Amazon.de with German title, subtitle, and backend keywords.`,
     },
     {
-      step: 'Relist Visual-Only Products for the German Market',
+      step: `Relist Visual-Only Products for the German Market`,
       description: `Take your existing coloring pages, math worksheets, and other visual-only products. Create new listings with German titles and descriptions using the same PDF files. No new content generation required.`,
     },
     {
@@ -106,7 +106,7 @@ const content: StartContent = {
       description: `Create Volume 2 and Volume 3 of your best-performing multilingual products. Series across languages compound your catalog presence: 3 volumes in 4 languages equals 12 separate products from one content strategy.`,
     },
     {
-      step: 'Track Performance by Language and Marketplace',
+      step: `Track Performance by Language and Marketplace`,
       description: `Monitor sales data for each language version separately. Identify which languages and marketplaces generate the strongest returns, then prioritize additional catalog building in those markets.`,
     },
   ],
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Yes. Coloring pages, math worksheets, Sudoku puzzles, and other visual-only content use numbers, images, and shapes that are universal. You can list the same PDF file on Etsy.de, Etsy.fr, Amazon.de, and Amazon.fr with localized listing text. No new content generation is needed — only translated titles and descriptions.`,
     },
     {
-      question: 'Which non-English language should I start with?',
+      question: `Which non-English language should I start with?`,
       answer: `German is the recommended first expansion language for most sellers. Amazon.de is the second-largest Amazon marketplace globally, Etsy.de has an active buyer base for educational printables, and the competition in German-language educational worksheets is dramatically lower than in English. French is the recommended second language.`,
     },
     {
@@ -181,59 +181,59 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
-      title: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      title: `Complete Guide to Starting a Printable Business`,
       description: `The comprehensive foundation guide covering niche selection, product creation, platform comparison, pricing strategy, and catalog building for all printable marketplaces.`,
     },
     {
       slug: 'amazon-kdp-activity-books',
-      title: 'Amazon KDP Activity Book Business Guide',
+      title: `Amazon KDP Activity Book Business Guide`,
       description: `The KDP-specific playbook for publishing activity books on Amazon. Covers interior formatting, cover design, keyword research, pricing, and scaling your KDP catalog internationally.`,
     },
     {
       slug: 'etsy-printable-business',
-      title: 'Etsy Printable Business Masterclass',
+      title: `Etsy Printable Business Masterclass`,
       description: `The Etsy-specific guide for digital printable downloads. Covers shop setup, Etsy SEO, listing optimization, and how to reach international buyers through Etsy's regional domains.`,
     },
     {
       slug: 'create-worksheets-that-sell',
-      title: 'How to Create Worksheets That Sell',
+      title: `How to Create Worksheets That Sell`,
       description: `Deep dive into product creation quality: design standards, differentiation techniques, and the methods that make your multilingual worksheets stand out from competitors.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
     { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Printable Business Blueprint' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide for Printable Sellers' },
-    { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Crossword Generator — Full Details' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: `Commercial License Guide for Printable Sellers` },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: `Printable Business Income: Realistic Expectations` },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Generator — Full Details` },
+    { pageType: 'app', slug: 'crossword-worksheets', anchorText: `Crossword Generator — Full Details` },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Try the Crossword Maker' },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search puzzle worksheet demonstrating multilingual worksheet generation in 11 languages' },
+    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search puzzle worksheet demonstrating multilingual worksheet generation in 11 languages` },
     samples: [
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search puzzle worksheet with language-sensitive vocabulary', caption: 'Word Search — Best Multilingual Demo' },
-      { src: `/samples/english/crossword/crossword_worksheet.webp`, alt: 'Crossword puzzle with localized clues and answers', caption: 'Crossword — Fully Localized Puzzles' },
-      { src: `/samples/english/word scramble/word scramble portrait.webp`, alt: 'Word scramble worksheet with language-adapted vocabulary', caption: 'Word Scramble — Language-Sensitive Output' },
-      { src: `/samples/english/alphabet train/Alphabet Train 1.webp`, alt: 'Alphabet train worksheet showing language-specific letter sets', caption: 'Alphabet Train — Adapted Letter Sets' },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search puzzle worksheet with language-sensitive vocabulary`, caption: `Word Search — Best Multilingual Demo` },
+      { src: `/samples/english/crossword/crossword_worksheet.webp`, alt: `Crossword puzzle with localized clues and answers`, caption: `Crossword — Fully Localized Puzzles` },
+      { src: `/samples/english/word scramble/word scramble portrait.webp`, alt: `Word scramble worksheet with language-adapted vocabulary`, caption: `Word Scramble — Language-Sensitive Output` },
+      { src: `/samples/english/alphabet train/Alphabet Train 1.webp`, alt: `Alphabet train worksheet showing language-specific letter sets`, caption: `Alphabet Train — Adapted Letter Sets` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `How to Create Word Search Worksheets in Multiple Languages — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Eagle — themed educational image', caption: 'Eagle' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — themed educational image', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Hornbill — themed educational image', caption: 'Hornbill' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Macaw — themed educational image', caption: 'Macaw' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Ostrich — themed educational image', caption: 'Ostrich' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Eagle — themed educational image`, caption: 'Eagle' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — themed educational image`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Hornbill — themed educational image`, caption: 'Hornbill' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Macaw — themed educational image`, caption: 'Macaw' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Ostrich — themed educational image`, caption: 'Ostrich' },
   ],
 };
 

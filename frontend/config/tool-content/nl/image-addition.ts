@@ -1,30 +1,30 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'optellen werkbladen maken voor de winkel',
+    primaryKeyword: `optellen werkbladen maken voor de winkel`,
     secondaryKeywords: [
-      'optellen werkblad maker voor verkopers',
-      'rekenwerkbladen optellen voor kinderen',
+      `optellen werkblad maker voor verkopers`,
+      `rekenwerkbladen optellen voor kinderen`,
       'printbare opteloefeningen',
       `optellen werkbladen met afbeeldingen voor kleuters`,
     ],
     lsiKeywords: [
-      'visuele rekenwerkbladen voor de winkel',
-      'opteloefeningen met afbeeldingen voor kinderen',
-      'kleuterwiskunde werkbladen voor verkopers',
+      `visuele rekenwerkbladen voor de winkel`,
+      `opteloefeningen met afbeeldingen voor kinderen`,
+      `kleuterwiskunde werkbladen voor verkopers`,
     ],
-    titleTag: 'Optellen Werkbladen Maken — voor verkopers',
-    metaDescription: `Maak optelwerkbladen met thema-afbeeldingen voor de winkel. 104 thema's, 4 oefenmodi, antwoordblad en printklare PDF's. Gratis proefversie met watermerk.`,
+    titleTag: `Optellen Werkbladen Maken — voor verkopers`,
+    metaDescription: `Maak optelwerkbladen met thema-afbeeldingen voor de winkel. 104 thema`s, 4 oefenmodi, antwoordblad en printklare PDF`s. Gratis proefversie met watermerk.`,
     },
 
   hero: {
     title: 'Optellen Werkblad Maker',
     tagline: `Maak prachtige, beeldgebaseerde optelwerkbladen in minder dan 60 seconden`,
-    description: `Verander rekenoefen in een visueel avontuur dat kinderen daadwerkelijk willen maken en verkopers solide inkomsten oplevert. Met deze krachtige tool maak je aangepaste optelwerkbladen met thematische afbeeldingen die kinderen enthousiast houden. Kies uit meer dan 100 beeldthema's met meer dan 3100 handgeselecteerde illustraties, stel de moeilijkheidsgraad in via vier verschillende oefenmodi, bepaal je pagina-indeling tot in het kleinste detail en download printklare PDF\'s of hoge-resolutie JPEG's op 300 DPI. Ideaal voor Etsy.nl-verkopers die printbare rekenproducten maken en schaalbare inkomsten willen genereren, Amazon KDP-uitgevers die activiteitenboeken samenstellen, en Gumroad-aanbieders die gedifferentieerde oefenmaterialen nodig hebben voor verschillende niveaus. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en je werkbladen op elk platform commercieel te verkopen.`,
+    description: `Verander rekenoefen in een visueel avontuur dat kinderen daadwerkelijk willen maken en verkopers solide inkomsten oplevert. Met deze krachtige tool maak je aangepaste optelwerkbladen met thematische afbeeldingen die kinderen enthousiast houden. Kies uit meer dan 100 beeldthema`s met meer dan 3100 handgeselecteerde illustraties, stel de moeilijkheidsgraad in via vier verschillende oefenmodi, bepaal je pagina-indeling tot in het kleinste detail en download printklare PDF's of hoge-resolutie JPEG`s op 300 DPI. Ideaal voor Etsy.nl-verkopers die printbare rekenproducten maken en schaalbare inkomsten willen genereren, Amazon KDP-uitgevers die activiteitenboeken samenstellen, en Gumroad-aanbieders die gedifferentieerde oefenmaterialen nodig hebben voor verschillende niveaus. De gratis proefversie bevat een watermerk op downloads. Koop een commerciële licentie om het watermerk te verwijderen en je werkbladen op elk platform commercieel te verkopen.`,
   },
 
   tutorial: {
-    title: 'Optelwerkbladen Maken in 8 Eenvoudige Stappen',
+    title: `Optelwerkbladen Maken in 8 Eenvoudige Stappen`,
     steps: [
       {
         title: 'Open de werkblad maker',
@@ -63,11 +63,11 @@ const content: ToolContent = {  seo: {
 
   whatYouCanCreate: [
     {
-      title: 'Thematische Optel-Activiteitenpakketten',
-      description: `Maak een set van 10–20 werkbladen rondom een enkel thema — dinosaurussen, boerderijdieren of zeedieren. Bundel ze als PDF-activiteitenpakket en verkoop op Etsy.nl of Bol.com. Thematische pakketten zijn bij Nederlandse ouders en verkopers bijzonder populair omdat ze kinderen langer gemotiveerd houden en een duidelijk inhoudelijk kader bieden. Elk thema in de bibliotheek bevat genoeg variatie om een volledig pakket te vullen zonder afbeeldingen te herhalen, wat betekent dat kopers echte visuele diversiteit krijgen in elke download. Positioneer je pakketten op €3–€5 voor individuele thema's en €8–€12 voor megabundels die meerdere thema's combineren met een progressieve moeilijkheidscurve van eenvoudig tellen tot uitdagende meeroptellersom problemen.`,
+      title: `Thematische Optel-Activiteitenpakketten`,
+      description: `Maak een set van 10–20 werkbladen rondom een enkel thema — dinosaurussen, boerderijdieren of zeedieren. Bundel ze als PDF-activiteitenpakket en verkoop op Etsy.nl of Bol.com. Thematische pakketten zijn bij Nederlandse ouders en verkopers bijzonder populair omdat ze kinderen langer gemotiveerd houden en een duidelijk inhoudelijk kader bieden. Elk thema in de bibliotheek bevat genoeg variatie om een volledig pakket te vullen zonder afbeeldingen te herhalen, wat betekent dat kopers echte visuele diversiteit krijgen in elke download. Positioneer je pakketten op €3–€5 voor individuele thema`s en €8–€12 voor megabundels die meerdere thema`s combineren met een progressieve moeilijkheidscurve van eenvoudig tellen tot uitdagende meeroptellersom problemen.`,
     },
     {
-      title: 'Gedifferentieerde oefenmateriaalsets',
+      title: `Gedifferentieerde oefenmateriaalsets`,
       description: `Genereer drie versies van hetzelfde werkblad op verschillende moeilijkheidsniveaus: makkelijk (1–3), gemiddeld (1–5) en moeilijk (1–10). verkopers kunnen elke gebruiker het juiste niveau geven zonder extra productietijd. Deze aanpak werkt bijzonder goed op Gumroad waar onderwijzers specifiek zoeken naar gedifferentieerde materialen die klasvoorbereiding besparen. Bundel de drie moeilijkheidsniveaus samen als één vermelding geprijsd op €4–€6, en voeg een verkopershandleiding toe die uitlegt welk niveau bij welk gebruikerprofiel past voor maximale waargenomen waarde en sterkere klantbeoordelingen.`,
     },
     {
@@ -76,10 +76,10 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'KDP Reken-Activiteitenboeken',
-      description: `Genereer 50–100 pagina's optelwerkbladen in de Gemengde Modus met progressieve moeilijkheid, exporteer als hoge-resolutie PDF's en publiceer als low-content reken-werkboek op Amazon KDP. Het vierkante formaat (1200×1200 pixels) is uitstekend geschikt voor KDP-activiteitenboeken. Voeg een aantrekkelijke titelpagina, een handleiding met instructies voor ouders en een compleet antwoordgedeelte achterin toe. Prijzen voor KDP-rekenboeken liggen optimaal tussen €5,99 en €8,99 voor maximale royalty-opbrengst.`,
+      description: `Genereer 50–100 pagina`s optelwerkbladen in de Gemengde Modus met progressieve moeilijkheid, exporteer als hoge-resolutie PDF`s en publiceer als low-content reken-werkboek op Amazon KDP. Het vierkante formaat (1200×1200 pixels) is uitstekend geschikt voor KDP-activiteitenboeken. Voeg een aantrekkelijke titelpagina, een handleiding met instructies voor ouders en een compleet antwoordgedeelte achterin toe. Prijzen voor KDP-rekenboeken liggen optimaal tussen €5,99 en €8,99 voor maximale royalty-opbrengst.`,
     },
     {
-      title: 'winkel oefenactiviteit Pakketten',
+      title: `winkel oefenactiviteit Pakketten`,
       description: `Bouw een maand dagelijkse optel-opwarmers. Elk werkblad kost 5–10 minuten, waardoor het perfect is als oefenactiviteit bij binnenkomst. Voeg het antwoordblad toe zodat gebruikers zelf kunnen controleren. oefenactiviteit pakketten verkopen consistent op zowel Etsy.nl als Gumroad omdat verkopers ze aan het begin van elk schooljaar aanschaffen en vaak opnieuw bestellen wanneer ze op zijn. Maak maandpakketten met 20–25 werkbladen, geprijsd op €5–€8, en bied een gereduceerde jaarbundel aan voor €35–€45 voor maximale omzet per klant.`,
     },
     {
@@ -101,16 +101,16 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon KDP Activiteitenboeken',
-      description: `Stel 50+ pagina's beeldgebaseerde opteloefeningen samen in een fysiek activiteitenwerkboek. Gebruik gemengde modi en meerdere thema's voor afwisseling. Prijs op €6,99–€9,99 en laat Amazon druk en verzending afhandelen. Onderzoek concurrerende werkboeken in je doelcategorie om hiaten in themadekking of moeilijkheidsbereik te identificeren die jouw boek kan opvullen. Interieurkwaliteit is belangrijk: zorg voor consistente marges, juiste afloop-instellingen en professionele paginanummering. KDP-activiteitenboeken voor kinderen van 3–7 jaar verkopen het hele jaar door consistent.`,
+      description: `Stel 50+ pagina`s beeldgebaseerde opteloefeningen samen in een fysiek activiteitenwerkboek. Gebruik gemengde modi en meerdere thema`s voor afwisseling. Prijs op €6,99–€9,99 en laat Amazon druk en verzending afhandelen. Onderzoek concurrerende werkboeken in je doelcategorie om hiaten in themadekking of moeilijkheidsbereik te identificeren die jouw boek kan opvullen. Interieurkwaliteit is belangrijk: zorg voor consistente marges, juiste afloop-instellingen en professionele paginanummering. KDP-activiteitenboeken voor kinderen van 3–7 jaar verkopen het hele jaar door consistent.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Thuisonderwijs productcatalogus Aanvulling',
+      title: `Thuisonderwijs productcatalogus Aanvulling`,
       description: `Maak een gestructureerd 12-weken optellproductcatalogus met progressieve moeilijkheid. Verkoop het als digitale download op je eigen website of Gumroad. Thuisonderwijs-ouders zoeken actief naar praktische, visuele rekenmaterialen. Structureer het productcatalogus met duidelijke productdoelen per week, startend met enkelvoudige optellers en doorwerkend naar tweecijferige uitdagingen in week twaalf. Voeg ouderinstructiebladen toe die uitleggen hoe je elke set werkbladen gebruikt en welke rekenconcepten ze versterken.`,
       platform: 'Gumroad',
     },
     {
-      title: 'Bijlescentrum Bronnenbibliotheek',
+      title: `Bijlescentrum Bronnenbibliotheek`,
       description: `Als je een bijlesbedrijf runt, genereer je aangepaste werkbladen voor elke gebruikerssessie. Het beeldgebaseerde formaat houdt jonge gebruikers betrokken terwijl jij bijhoudt met welke getallenbereiken ze moeite hebben. Gebruik het antwoordblad voor directe beoordeling. Volg de voortgang van elke gebruiker door werkbladconfiguraties op te slaan en vergelijkbare oefeningen te regenereren op een iets hoger moeilijkheidsniveau naarmate ze verbeteren. Het directe antwoordblad elimineert beoordelingstijd tussen sessies.`,
     },
     {
@@ -121,15 +121,15 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Gebruik Gemengde Modus voor Maximale Waarde',
+      title: `Gebruik Gemengde Modus voor Maximale Waarde`,
       description: `Wanneer je producten maakt om te verkopen, voeg dan altijd minstens een paar Gemengde Modus werkbladen toe aan je bundels. Gemengde Modus combineert Afbeelding + Afbeelding, Afbeelding + Getal en Zoek de Opteller op één pagina, waardoor kopers meer variatie krijgen en je product vollediger aanvoelt vergeleken met concurrenten die slechts één stijl aanbieden. Marktplaatskopers vergelijken bundels vaak naast elkaar vóór aankoop, en Gemengde Modus pagina's tonen inhoudelijke breedte in één oogopslag.`,
     },
     {
-      title: 'Stem Thema af op Seizoen voor Beste Verkopen',
-      description: `Seizoensproducten presteren beter dan evergreen producten tijdens piekperioden. Maak pompoenenthema optelpakketten in september, Sinterklaas-pakketten in oktober, sneeuwpopthema's in november en lentebloemen in maart. Publiceer ze 2–3 weken voor het seizoen start om vroege kopers te bereiken. Houd bij welke seizoensthema's de meeste favorieten en aankopen genereren zodat je het volgende jaar prioriteit kunt geven aan het uitbreiden van die collecties.`,
+      title: `Stem Thema af op Seizoen voor Beste Verkopen`,
+      description: `Seizoensproducten presteren beter dan evergreen producten tijdens piekperioden. Maak pompoenenthema optelpakketten in september, Sinterklaas-pakketten in oktober, sneeuwpopthema`s in november en lentebloemen in maart. Publiceer ze 2–3 weken voor het seizoen start om vroege kopers te bereiken. Houd bij welke seizoensthema`s de meeste favorieten en aankopen genereren zodat je het volgende jaar prioriteit kunt geven aan het uitbreiden van die collecties.`,
     },
     {
-      title: 'Voeg Altijd het Antwoordblad Toe',
+      title: `Voeg Altijd het Antwoordblad Toe`,
       description: `Klik op "Genereer Antwoordblad" voordat je downloadt. Kopers op Etsy en Gumroad beoordelen producten consistent hoger wanneer een antwoordblad is inbegrepen. Het kost 10 extra seconden en verhoogt je beoordelingen en herhaalaankopen aanzienlijk. Een antwoordblad maakt je product ook geschikt voor thuisonderwijs-gezinnen waar ouders werk snel moeten controleren zonder elk probleem zelf op te lossen.`,
     },
     {
@@ -137,15 +137,15 @@ const content: ToolContent = {  seo: {
       description: `PDF is het beste voor direct printen, maar JPEG laat je mockup-afbeeldingen maken voor je winkelvermelding. Download beide formaten. Gebruik de JPEG voor productminiaturen en social media voorbeelden, en neem de PDF op als het daadwerkelijke leverbare product voor je klanten.`,
     },
     {
-      title: 'Begin met Lage Getallenbereiken',
+      title: `Begin met Lage Getallenbereiken`,
       description: `Maak voor kleuter- en groep 1-producten het maximum aantal per groep 3–5. Jonge kinderen raken overweldigd door grote getallen. Maak aparte "makkelijk" en "uitdaging" versies van elk werkblad zodat ouders en verkopers het juiste niveau kunnen kiezen voor hun gebruikers.`,
     },
     {
-      title: 'Voeg Aangepaste Tekst toe voor Branding',
+      title: `Voeg Aangepaste Tekst toe voor Branding`,
       description: `Gebruik de Teksttools om je shopnaam, een copyrightmelding of een motiverende boodschap onderaan elk werkblad toe te voegen. Deze subtiele branding helpt herkenning opbouwen als een klant je werkblad deelt met een andere ouder of verkoper in hun netwerk.`,
     },
     {
-      title: 'Benut de Kader- en Achtergrondbibliotheek',
+      title: `Benut de Kader- en Achtergrondbibliotheek`,
       description: `Een kaal wit werkblad en een werkblad met een thematisch kader en subtiele achtergrond zien er compleet anders uit in productvermeldingen. Visuele afwerking toevoegen kost 30 seconden en kan een hoger prijspunt rechtvaardigen. Pas de achtergronddekking aan om oefeningen leesbaar te houden. Consistente kaderkeuzes door een hele bundel creëren een professionele, merkgebonden uitstraling die kwaliteit uitstraalt naar kopers en hen aanmoedigt om je complete collectie te kopen.`,
     },
   ],
@@ -156,19 +156,19 @@ const content: ToolContent = {  seo: {
       answer: `Ja. De tool biedt een gratis proefversie met volledige functies — geen registratie, geen creditcard nodig. Je kunt zoveel werkbladen maken, bekijken en downloaden als je wilt. Gratis proefversie downloads bevatten een watermerk. Koop een commerciële licentie om het watermerk te verwijderen en verkooprechten te ontgrendelen.`,
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: `Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF's zijn ideaal voor direct printen; JPEG\'s werken uitstekend voor het maken van productmockups en social media berichten. Voor KDP-publicatie exporteer je PDF's op de hoogste beschikbare resolutie om aan Amazon-printkwaliteitsvereisten te voldoen.`,
+      question: `Welke bestandsformaten kan ik downloaden?`,
+      answer: `Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF`s zijn ideaal voor direct printen; JPEG's werken uitstekend voor het maken van productmockups en social media berichten. Voor KDP-publicatie exporteer je PDF`s op de hoogste beschikbare resolutie om aan Amazon-printkwaliteitsvereisten te voldoen.`,
     },
     {
-      question: 'Kan ik de werkbladen commercieel gebruiken?',
+      question: `Kan ik de werkbladen commercieel gebruiken?`,
       answer: `De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.`,
     },
     {
-      question: 'Hoeveel beeldthema\'s zijn er beschikbaar?',
+      question: `Hoeveel beeldthema's zijn er beschikbaar?`,
       answer: `De afbeeldingenbibliotheek bevat meer dan 100 thematische collecties met dieren, voedsel, voertuigen, sport, natuur, feestdagen, schoolspullen en nog veel meer. Elk thema bevat meerdere individuele afbeeldingen zodat je werkbladen er altijd gevarieerd uitzien, zelfs binnen één enkel thema. Nieuwe thema's worden periodiek aan de bibliotheek toegevoegd. Elk thema is zorgvuldig geïllustreerd met een consistente kunststijl zodat werkbladen er professioneel ontworpen uitzien.`,
     },
     {
-      question: 'Welke oefenmodi ondersteunt de generator?',
+      question: `Welke oefenmodi ondersteunt de generator?`,
       answer: `Er zijn vier modi: Afbeelding + Afbeelding (beide optellers als plaatjesgroepen), Afbeelding + Getal (plaatjes plus een cijfer), Zoek de Opteller (één opteller is verborgen), en Gemengde Modus (combineert alle drie willekeurig op één werkblad). Gemengde Modus is bijzonder populair voor het maken van boeiende, gevarieerde activiteitenpagina's. Verkopers gebruiken verschillende modi vaak om gelaagde moeilijkheidsbundels te maken.`,
     },
     {
@@ -180,11 +180,11 @@ const content: ToolContent = {  seo: {
       answer: `Nee. De generator draait volledig in je webbrowser. Het werkt op elk modern apparaat — Windows, Mac, Chromebook, iPad of Android-tablet. Er is niets te installeren, geen plug-ins nodig en geen account aan te maken.`,
     },
     {
-      question: 'Kan ik een antwoordblad genereren?',
+      question: `Kan ik een antwoordblad genereren?`,
       answer: `Ja. Na het genereren van een werkblad klik je op "Genereer Antwoordblad" om een bijpassend oplossingenblad te maken met alle antwoorden ingevuld. Je kunt het antwoordblad downloaden als apart JPEG- of PDF-bestand. Dit is bijzonder nuttig voor verkopers en voor verkopers die antwoordbladen willen opnemen in hun producten. Kopers op Etsy en Gumroad laten consistent hogere beoordelingen achter voor vermeldingen die antwoordbladen bevatten.`,
     },
     {
-      question: 'Welke paginaformaten worden ondersteund?',
+      question: `Welke paginaformaten worden ondersteund?`,
       answer: `De generator ondersteunt US Letter (staand en liggend), A4 (staand en liggend), Vierkant (1200×1200 px) en volledig aangepaste afmetingen. Het vierkante formaat is ideaal voor social media-inhoud en Amazon KDP-activiteitenboeken. Voor de Nederlandse markt is A4 het meestgebruikte formaat voor werkbladen.`,
     },
     {
@@ -194,7 +194,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkbladen — Volledige Productdetails' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: `Optellen Werkbladen — Volledige Productdetails` },
     { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Aftrekken Werkblad Maker' },
     { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Reken Werkblad Maker' },
     { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Code Optellen Werkblad Maker' },
@@ -213,21 +213,21 @@ const content: ToolContent = {  seo: {
       {
         src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`,
         alt: `Beeldgebaseerd optelwerkblad met dierenthema in Afbeelding + Afbeelding modus`,
-        caption: 'Afbeelding + Afbeelding modus met dierenthema',
+        caption: `Afbeelding + Afbeelding modus met dierenthema`,
       },
       {
         src: `/samples/dutch/addition/Optellen%20is%20Leuk%202.webp`,
         alt: `Optelwerkblad met voedselafbeeldingen in Zoek de Opteller modus`,
-        caption: 'Zoek de Opteller modus met voedselthema',
+        caption: `Zoek de Opteller modus met voedselthema`,
       },
       {
         src: `/samples/dutch/addition/Optellen%20is%20Leuk%203.webp`,
         alt: `Gemengde modus optelwerkblad met voertuigafbeeldingen en decoratief kader`,
-        caption: 'Gemengde modus met voertuigen en kaderversiering',
+        caption: `Gemengde modus met voertuigen en kaderversiering`,
       },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'Hoe Je Optelwerkbladen Maakt — Video Handleiding',
+    videoTitle: `Hoe Je Optelwerkbladen Maakt — Video Handleiding`,
   },
 };
 

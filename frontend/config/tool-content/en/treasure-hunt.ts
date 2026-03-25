@@ -4,10 +4,10 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'treasure hunt worksheet',
     secondaryKeywords: [
-      'treasure hunt worksheet maker for sellers',
-      'create directional path-finding puzzles to sell',
-      'printable treasure hunt generator commercial use',
-      'treasure hunt puzzle maker for KDP and Etsy',
+      `treasure hunt worksheet maker for sellers`,
+      `create directional path-finding puzzles to sell`,
+      `printable treasure hunt generator commercial use`,
+      `treasure hunt puzzle maker for KDP and Etsy`,
     ],
     lsiKeywords: [
       `two direction types basic cardinal coordinate grid maker`,
@@ -25,7 +25,7 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'How to Create Treasure Hunt Worksheets in 8 Steps',
+    title: `How to Create Treasure Hunt Worksheets in 8 Steps`,
     steps: [
       {
         title: 'Open the Treasure Hunt Maker',
@@ -44,15 +44,15 @@ const content: ToolContent = {
         description: `Choose the content language to control the directional clue text that appears on the worksheet. The Treasure Hunt Maker is language-sensitive — all directions are fully translated into 11 supported languages. "Start at," "Move," "square(s)," and "Where is the treasure?" all localize along with Basic and Cardinal direction vocabulary. Image content also updates based on the selected locale. The Commercial tier includes English content; Full Access unlocks all 11 languages for authentic native-language treasure hunt worksheets that you can sell in international markets.`,
       },
       {
-        title: 'Select Images for the 5×5 Grid',
+        title: `Select Images for the 5×5 Grid`,
         description: `Choose how to populate the coordinate grid with 6 themed landmark images using one of three input methods. Generate from Theme (default) auto-selects 6 random images from the chosen theme and scatters them across the grid. Manual Image Selection lets you browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, sports, seasons, and dozens more — and click to select exactly 6 images. Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content.`,
       },
       {
-        title: 'Generate the Treasure Hunt Puzzle',
+        title: `Generate the Treasure Hunt Puzzle`,
         description: `Click Generate to create the path-finding puzzle on the 5×5 coordinate grid (A–E rows, 1–5 columns). The generator scatters your 6 selected images across the 25 cells as visual landmarks, picks a random start cell, and creates exactly 4 directional moves that stay within grid bounds. The worksheet displays 5 instruction lines: "Start at [cell]" followed by 4 "Move [direction] [number] square(s)" clues, ending with "Where is the treasure?" A treasure-themed header appears at the top with a teal background (#2C8C7C), golden title (#D4A017) in Fredoka, and dark brown description (#5C4033) in Quicksand. Click Generate again to produce a new puzzle with different random image placement, start position, and move sequence.`,
       },
       {
-        title: 'Review the Auto-Generated Answer Key',
+        title: `Review the Auto-Generated Answer Key`,
         description: `Click the Answer Key tab to see the solution with the final treasure cell highlighted in pale yellow (rgba(255, 250, 205, 0.8)) and a dark gray stroke. The answer key reproduces the exact puzzle layout — same grid, same scattered images, same header — and marks the treasure destination clearly. No manual marking, no separate file creation, no possibility of mismatched solutions. Switch between Worksheet and Answer Key tabs to compare. The answer key generates simultaneously with the puzzle, so every treasure hunt you create comes with its ready-to-print solution page.`,
       },
       {
@@ -64,11 +64,11 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Themed Treasure Hunt Bundles by Image Collection',
+      title: `Themed Treasure Hunt Bundles by Image Collection`,
       description: `Create treasure hunt packs organized by theme using the 104 image collections — animal treasure hunts, ocean treasure hunts, space treasure hunts, dinosaur treasure hunts, holiday treasure hunts, and dozens more. Generate from Theme auto-selects 6 random images and creates unique start positions and move sequences per generation, so each click produces a completely different puzzle from the same theme. Package 10–20 treasure hunt worksheets per theme with auto-generated answer keys included. Mix Basic and Cardinal direction types within each bundle for progressive difficulty that grows with the learner.`,
     },
     {
-      title: 'Progressive Directional Skills Workbooks',
+      title: `Progressive Directional Skills Workbooks`,
       description: `Build structured workbooks that teach directional vocabulary through treasure hunt puzzles. Start with Basic direction worksheets (up, down, left, right) for foundational spatial vocabulary, then advance to Cardinal direction worksheets (north, south, east, west) for compass-reading readiness. The same 5×5 grid and 4-move puzzle format stays consistent across both direction types, so users build on familiar mechanics while learning new directional vocabulary. Organize chapters by direction type and theme for a complete directional skills product line that buyers value.`,
     },
     {
@@ -76,11 +76,11 @@ const content: ToolContent = {
       description: `Leverage the fully localized directional clues to create treasure hunt worksheets in all 11 supported languages from the same puzzle structures. Switching languages changes all directional text — "Start at," "Move," "square(s)," direction vocabulary, and "Where is the treasure?" — into authentic native-language content. Image content also updates per locale. Create language-specific treasure hunt bundles for ESL/EFL markets teaching directional vocabulary, bilingual families practicing compass directions, and international homeschool buyers. One puzzle design generates 11 sellable language versions.`,
     },
     {
-      title: 'KDP Coordinate Grid Activity Workbooks',
+      title: `KDP Coordinate Grid Activity Workbooks`,
       description: `Compile 40–80 treasure hunt worksheets into printed workbooks for Amazon KDP. The 5×5 letter-number coordinate grid (A–E rows, 1–5 columns) introduces solvers to grid reference skills used in geography, mathematics, and science. Structure chapters by progression: early chapters use Basic directions with familiar themes, advanced chapters use Cardinal directions with varied collections. Include answer key pages at the back with pale yellow highlighted treasure cells. Toggle grayscale for ink-friendly output optimized for black-and-white book interiors. Path-finding workbooks fill a unique niche in the KDP activity book market.`,
     },
     {
-      title: 'Seasonal Treasure Hunt Collections',
+      title: `Seasonal Treasure Hunt Collections`,
       description: `Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas treasure hunts, Halloween path-finding puzzles, Easter treasure hunt activities, Valentine's Day coordinate challenges, back-to-school direction worksheets, and summer themed sets each support dedicated seasonal packs. Include both Basic and Cardinal direction types in each seasonal collection for maximum variety. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The treasure hunt format adds a compelling narrative element to seasonal worksheet products.`,
     },
     {
@@ -91,12 +91,12 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Themed Treasure Hunt Activity Shop on Etsy',
+      title: `Themed Treasure Hunt Activity Shop on Etsy`,
       description: `Open an Etsy shop specializing in treasure hunt bundles organized by theme using the 104 image collections. Animal treasure hunts, holiday path-finding puzzles, ocean coordinate challenges — each theme becomes a separate listing with 10–20 unique puzzles including both Basic and Cardinal direction types. Every bundle includes auto-generated answer keys with pale yellow highlighted treasure cells. Generate from Theme produces unique puzzles on every click, making batch production fast. Price individual theme packs at $3–$5 and premium multi-theme bundles at $7–$12.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP Directional Skills Workbook Series',
+      title: `Amazon KDP Directional Skills Workbook Series`,
       description: `Compile 40–80 treasure hunt worksheets into themed workbooks for Amazon KDP. Structure a series by progression and topic: "Basic Direction Treasure Hunts" using up/down/left/right for early learners, "Cardinal Direction Adventures" using north/south/east/west for advanced puzzles, and "Ultimate Treasure Hunt Challenge" mixing both direction types across themed chapters. Include answer key pages at the back with highlighted treasure cells. Toggle grayscale for ink-friendly output. The two direction types and 104 themes provide enough variety for an extended workbook series.`,
       platform: 'Amazon KDP',
     },
@@ -106,17 +106,17 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Multilingual Directional Vocabulary Business',
+      title: `Multilingual Directional Vocabulary Business`,
       description: `The fully localized directional clues create authentic native-language treasure hunt puzzles when you switch languages. All instruction text — "Start at," "Move," direction words, "square(s)," and "Where is the treasure?" — translates into 11 supported languages. Create language-specific treasure hunt bundles for ESL/EFL markets, bilingual buyers, and international homeschool families. Sell on Etsy shops targeting specific countries, list on Gumroad for global buyers, or build multilingual mega-packs at premium pricing. One puzzle design generates 11 sellable language versions.`,
       platform: 'Etsy / Gumroad',
     },
     {
-      title: 'Pinterest Treasure Hunt Worksheet Traffic Funnel',
+      title: `Pinterest Treasure Hunt Worksheet Traffic Funnel`,
       description: `Treasure hunt worksheets with colorful coordinate grids and scattered themed images create visually compelling Pinterest pins that buyers click. Pin sample worksheets showing the 5×5 grid with directional clues and themed landmarks. Create separate pin series for "treasure hunt worksheets," "printable direction activities," and "coordinate grid puzzles." Include answer key preview images showing the pale yellow highlighted treasure cell. Link each pin to your Etsy or Gumroad product listings for direct conversion.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Complete Treasure Hunt Puzzle Toolkit',
+      title: `Gumroad Complete Treasure Hunt Puzzle Toolkit`,
       description: `Bundle treasure hunt puzzles across all 104 themes, both direction types, and multiple languages into a comprehensive toolkit on Gumroad. Include 200+ treasure hunt worksheets spanning Basic and Cardinal direction modes with progressive difficulty across themed collections. Each worksheet includes its auto-generated answer key with highlighted treasure cell, doubling your file count to 400+ total files. The two direction types, localized clues in 11 languages, and 104 themed collections produce more variety than any competitor offering simple direction worksheets. The toolkit format justifies premium pricing because buyers get a complete treasure hunt puzzle library.`,
       platform: 'Gumroad',
     },
@@ -167,11 +167,11 @@ const content: ToolContent = {
       answer: `Basic mode uses up, down, left, and right — familiar directional words ideal for pre-K through 1st grade learners building foundational spatial vocabulary. Cardinal mode uses north, south, east, and west — compass directions suited for 2nd grade and above, introducing map-reading skills and geographic orientation. Both direction types generate the same 4-move puzzle structure on the same 5×5 grid. The direction type toggle lets you create progressive difficulty: start with Basic direction treasure hunts and advance to Cardinal direction versions using identical themes and images.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer: `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the 5×5 grid with scattered images and directional clues — ready for solvers to follow. The answer key reproduces the identical layout and highlights the final treasure cell in pale yellow (rgba(255, 250, 205, 0.8)) with a dark gray stroke, making the destination immediately visible. Both versions export separately using four dedicated download buttons: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF. The answer key generates simultaneously with the puzzle, so there is no manual marking step and no possibility of mismatched solutions.`,
     },
     {
-      question: 'Is the Treasure Hunt Maker language-sensitive?',
+      question: `Is the Treasure Hunt Maker language-sensitive?`,
       answer: `Yes, in two ways. First, all directional clue text — "Start at," "Move," direction vocabulary (both Basic and Cardinal), "square(s)," and "Where is the treasure?" — is fully translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Second, image content loaded from the library updates based on the selected locale. Switching languages produces authentic native-language treasure hunt worksheets with localized directions and images — not English puzzles with translated headers. The Commercial tier includes English; Full Access unlocks all 11 languages.`,
     },
     {
@@ -179,15 +179,15 @@ const content: ToolContent = {
       answer: `The consistent 4-move structure on a fixed 5×5 grid (A–E rows, 1–5 columns) creates a standardized puzzle format that works reliably for path-finding activities. Four moves provide enough complexity for meaningful directional challenges without overwhelming younger learners. Every puzzle follows the same 5-line instruction format: start position, 4 sequential moves, and the "Where is the treasure?" question. This consistency makes treasure hunt worksheets predictable for solvers and easy to package into structured activity sets for sellers.`,
     },
     {
-      question: 'What are the three image input methods?',
+      question: `What are the three image input methods?`,
       answer: `Generate from Theme (default) auto-selects 6 random images from the chosen theme and scatters them across the 5×5 grid as visual landmarks — the fastest path to a finished puzzle. Manual Image Selection lets you browse 104 themed collections with 3,100+ illustrations and click to choose exactly 6 images for precise control over the grid content. Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content. All three methods populate the same 5×5 coordinate grid with 6 landmark images.`,
     },
     {
-      question: 'How does the treasure-themed header work?',
+      question: `How does the treasure-themed header work?`,
       answer: `Every generated worksheet includes a treasure-themed header with a teal background (#2C8C7C), amber outer border (#D4A574), sandy beige inner border (#F4E4C1), and golden title (#D4A017) in Fredoka font (weight 700, adaptive 36–48px sizing). The description renders in dark brown (#5C4033) using Quicksand (weight 500). Portrait mode displays a full header (100px height); landscape mode uses a compact layout (70px height). The title "Treasure Hunt" and description "Follow the clues and find the treasure!" translate automatically into all 11 supported languages.`,
     },
     {
-      question: 'What page sizes and export formats are available?',
+      question: `What page sizes and export formats are available?`,
       answer: `Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG (6× multiplier) or print-ready PDF (3× multiplier) at 300 DPI. Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.`,
     },
     {
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure Hunt Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: `Treasure Hunt Worksheets — Full Product Details` },
     { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Crossword Puzzle Maker' },
     { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find & Count Maker' },
     { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Hidden Object Maker' },
@@ -223,7 +223,7 @@ const content: ToolContent = {
         caption: `Cardinal direction mode — compass directions for advanced spatial reasoning and map-reading skills`,
       },
       {
-        src: '/samples/english/treasure hunt/north south.webp',
+        src: `/samples/english/treasure hunt/north south.webp`,
         alt: `Treasure hunt answer key with final treasure cell highlighted in pale yellow on the 5 by 5 coordinate grid`,
         caption: `Auto-generated answer key — pale yellow highlight marks the treasure destination for self-checking`,
       },

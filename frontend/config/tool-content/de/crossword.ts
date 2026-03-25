@@ -3,31 +3,31 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: `Kreuzworträtsel für die Produkterstellung erstellen`,
     secondaryKeywords: [
-      'Kreuzworträtsel-Ersteller für Verkäufer',
-      'Bild-Kreuzworträtsel für Kinder',
-      'druckbare Kreuzworträtsel für die Schule',
-      'Vokabel-Kreuzworträtsel für Nutzer',
+      `Kreuzworträtsel-Ersteller für Verkäufer`,
+      `Bild-Kreuzworträtsel für Kinder`,
+      `druckbare Kreuzworträtsel für die Schule`,
+      `Vokabel-Kreuzworträtsel für Nutzer`,
     ],
     lsiKeywords: [
-      'Bild-Hinweis-Kreuzworträtsel für Vokabelübung',
+      `Bild-Hinweis-Kreuzworträtsel für Vokabelübung`,
       `lokalisierter Kreuzworträtsel-Generator für die Klasse`,
-      'automatischer Lösungsschlüssel Kreuzworträtsel',
+      `automatischer Lösungsschlüssel Kreuzworträtsel`,
     ],
     titleTag: `Kreuzworträtsel Erstellen — Für die Produkterstellung`,
     metaDescription: `Bilderkreuzworträtsel für die Produkterstellung erstellen. 15x15-Raster, vier Eingabemethoden, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.`,
     },
 
   hero: {
-    title: 'Bilderkreuzworträtsel-Ersteller',
+    title: `Bilderkreuzworträtsel-Ersteller`,
     tagline: `Bilderkreuzworträtsel-Generator mit Bildhinweisen auf festem 15×15-Raster, vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste mit Hinweisen und Eigene Bilder hochladen), automatisch generiertem Lösungsschlüssel mit ausgefülltem Raster über Dual-Canvas-System, sprachabhängigen Kreuzwortwörtern in 11 Sprachen über das Bildvokabular-System und lokalisiertem blauen Header (#5B9BD5) mit Fredoka-Titel und Quicksand-Beschreibung über 104 thematische Bildsammlungen`,
     description: `Erstellen Sie professionelle Bilderkreuzworträtsel, bei denen farbenfrohe Bilder die traditionellen Text-Hinweise ersetzen. Acht Bilder erzeugen acht Wörter auf einem festen 15×15-Raster — der Platzierungsalgorithmus extrahiert Wörter aus Bildnamen, entfernt Leerzeichen, wandelt in Großbuchstaben um, mischt und sortiert nach Länge (längste zuerst) und platziert Wörter mit optimaler Kreuzung an gemeinsamen Buchstaben. Nummerierte Hinweispositionen markieren den Anfang jedes Wortes, und Bildhinweise erscheinen neben dem Raster mit passenden Nummern. Wählen Sie aus vier Eingabemethoden für unterschiedliche Erstellungsbedürfnisse. Schnelle Themen-Generierung wählt automatisch 8 zufällige Bilder aus einer der 104 thematischen Sammlungen und generiert sofort — der schnellste Weg zum fertigen Rätsel. Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und deren Anzeigenamen vor der Generierung umbenennen, was präzise Kontrolle über die Wörter im Raster gibt. Benutzerdefinierte Wortliste mit Hinweisen wechselt zu traditionellen Text-Hinweis-Kreuzworträtseln im WORT: Hinweis-Format für fachspezifische Vokabel-Rätsel ohne Bilder. Eigene Bilder hochladen ermöglicht das Hinzufügen eigener JPEG-, PNG-, GIF- oder WebP-Dateien neben Bibliotheksinhalten. Der Bilderkreuzworträtsel-Ersteller ist sprachabhängig: Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen über das Bildvokabular-System. Ein Sprachwechsel ändert die tatsächlichen Kreuzwortwörter — ein Katzenbild erzeugt „KATZE" auf Deutsch, „CAT" auf Englisch, „CHAT" auf Französisch und „GATTO" auf Italienisch, was völlig verschiedene Kreuzworträtsel aus denselben Bildern entstehen lässt. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen für lokalisierte Kreuzwortwörter frei. Das Dual-Canvas-System generiert sowohl ein Rätsel-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das ausgefüllte Raster mit allen korrekten Antworten in den Zellen sichtbar. Jedes Rätsel enthält einen automatisch generierten lokalisierten Header mit blauem Hintergrund (#5B9BD5), weißer Kapsel, Fredoka-Titel mit dynamischer Größenanpassung (48px für kurze Titel bis 28px für längere Übersetzungen) und Quicksand-Beschreibung. Hochformat zeigt einen ganzseitigen Header (220px Höhe); Querformat verwendet ein kompaktes zentriertes Layout (145px Höhe). Durchstöbern Sie 104 thematische Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene Bilder hoch. Wenden Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern an. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI (6× Multiplikator) in Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierten Maßen. Graustufen-Schalter für tintenschonende Ausgabe. Die kostenlose Testversion umfasst jede Funktion mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.`,
   },
 
   tutorial: {
-    title: 'Bilderkreuzworträtsel erstellen in 8 Schritten',
+    title: `Bilderkreuzworträtsel erstellen in 8 Schritten`,
     steps: [
       {
-        title: 'Den Bilderkreuzworträtsel-Ersteller öffnen',
+        title: `Den Bilderkreuzworträtsel-Ersteller öffnen`,
         description: `Klicken Sie auf „Kostenlos testen", um den Bilderkreuzworträtsel-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Canvas rechts — ein Tab für das Kreuzworträtsel-Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit dem Erstellen von Bilderkreuzworträtseln.`,
       },
       {
@@ -39,7 +39,7 @@ const content: ToolContent = {  seo: {
         description: `Entscheiden Sie, wie Sie die 8 Wörter für Ihr Kreuzworträtsel bereitstellen. Schnelle Themen-Generierung (Standard) wählt automatisch 8 zufällige Bilder aus dem gewählten Thema und generiert sofort. Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und umbenennen, bevor das Rätsel generiert wird. Benutzerdefinierte Wortliste mit Hinweisen aktiviert ein Textfeld, in dem Sie WORT: Hinweis-Paare für traditionelle Text-Hinweis-Kreuzworträtsel eingeben. Eigene Bilder hochladen ermöglicht das Hinzufügen eigener JPEG-, PNG-, GIF- oder WebP-Dateien neben Bibliotheksbildern. Jede Methode speist denselben 15×15-Raster-Platzierungsalgorithmus.`,
       },
       {
-        title: 'Bilder oder Wörter auswählen und konfigurieren',
+        title: `Bilder oder Wörter auswählen und konfigurieren`,
         description: `Für themenbasierte Generierung durchstöbern Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe, Sport, Jahreszeiten und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Für manuelle Bearbeitung klicken Sie einzelne Bilder an und bearbeiten deren Anzeigenamen in der Bearbeitungsoberfläche. Für benutzerdefinierte Wortlisten geben Sie mindestens 8 WORT: Hinweis-Einträge ein. Für Uploads fügen Sie JPEG-, PNG-, GIF- oder WebP-Dateien hinzu. Der Generator benötigt mindestens 8 Einträge, um das Kreuzwortraster zu erstellen.`,
       },
       {
@@ -47,7 +47,7 @@ const content: ToolContent = {  seo: {
         description: `Wählen Sie die Inhaltssprache, um die Wörter im Kreuzwortraster zu steuern. Der Bilderkreuzworträtsel-Ersteller ist sprachabhängig — Kreuzwortwörter stammen aus lokalisierten Bildbezeichnungen über das Bildvokabular-System. Dasselbe Katzenbild erzeugt „KATZE" auf Deutsch, „CAT" auf Englisch, „CHAT" auf Französisch und „GATTO" auf Italienisch, was völlig verschiedene Kreuzworträtsel aus identischen Bildauswahlen entstehen lässt. Die kommerzielle Lizenz umfasst englische Inhalte; Vollzugriff schaltet alle 11 Sprachen frei. Diese mehrsprachige Fähigkeit ermöglicht es Ihnen, Kreuzworträtsel-Produkte für internationale Märkte aus denselben Bildsets zu erstellen und zu verkaufen.`,
       },
       {
-        title: 'Bilderkreuzworträtsel generieren',
+        title: `Bilderkreuzworträtsel generieren`,
         description: `Klicken Sie auf Generieren, um das Kreuzworträtsel auf dem festen 15×15-Raster zu erstellen. Der Platzierungsalgorithmus extrahiert Wörter aus Ihren 8 Bildnamen (oder benutzerdefinierten Wortlisten), entfernt Leerzeichen, wandelt in Großbuchstaben um, mischt und sortiert nach Länge (längste zuerst) und platziert Wörter im Raster für optimale Kreuzung an gemeinsamen Buchstaben. Nummerierte Hinweispositionen markieren den Anfang jedes Wortes, und Bild- oder Text-Hinweise erscheinen neben dem Raster mit passenden Nummern. Ein stilvoller Header erscheint am oberen Rand mit blauem Hintergrund (#5B9BD5), weißer Kapsel, lokalisiertem Fredoka-Titel mit dynamischer Größenanpassung (48px→28px) und Quicksand-Beschreibung.`,
       },
       {
@@ -55,7 +55,7 @@ const content: ToolContent = {  seo: {
         description: `Wechseln Sie zum Lösungsschlüssel-Tab, um das ausgefüllte Raster mit allen sichtbaren Kreuzwortantworten zu sehen. Der Lösungsschlüssel reproduziert das exakte Rätsel-Layout und füllt jede Zelle mit den korrekten Buchstaben — kein manuelles Eintragen der Antworten, kein separater Erstellungsprozess, keine Möglichkeit abweichender Lösungen. Wechseln Sie zwischen Arbeitsblatt- und Lösungsschlüssel-Tab zum Vergleich. Der Lösungsschlüssel wird gleichzeitig mit dem Rätsel generiert, sodass jedes erstellte Kreuzworträtsel seine druckfertige Lösungsseite mitbringt. Dieses Dual-Canvas-System spart erhebliche Produktionszeit bei der Erstellung von Kreuzworträtsel-Paketen.`,
       },
       {
-        title: 'Alle vier Dateien herunterladen',
+        title: `Alle vier Dateien herunterladen`,
         description: `Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, ideal für Produkterstellungsdruck und KDP-Buchinhalte. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF — alle mit 300 DPI (6× Multiplikator) gerendert. Jeder Tab hat sein eigenes Paar Download-Buttons im Dropdown-Menü. Alle Exporte sind produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren für ein neues Kreuzworträtsel mit anderer Bildauswahl und Wortplatzierung, oder wechseln Sie Themen und Sprachen für schnelle Variantenproduktion.`,
       },
     ],
@@ -79,7 +79,7 @@ const content: ToolContent = {  seo: {
       description: `Stellen Sie 40–80 Bilderkreuzworträtsel zu gedruckten Arbeitsbüchern für Amazon KDP zusammen. Organisieren Sie Kapitel nach Thema — Tiere, Lebensmittel, Natur, Feiertage, Berufe — mit verschiedenen Bildsammlungen pro Kapitel. Fügen Sie Lösungsschlüssel-Seiten am Ende ein, generiert mit der automatischen Funktion für ausgefüllte Raster. Aktivieren Sie den Graustufen-Schalter für tintenschonende Ausgabe, optimiert für Schwarzweiß-Buchinhalte. Bilderkreuzworträtsel füllen eine einzigartige Nische im Aktivitätsbuch-Markt: Sie kombinieren die visuelle Anziehungskraft von Bildrätseln mit der Wortfindungs-Herausforderung traditioneller Kreuzworträtsel für eine breitere Altersgruppe als reine Text-Kreuzworträtsel.`,
     },
     {
-      title: 'Saisonale Bilderkreuzworträtsel-Sammlungen',
+      title: `Saisonale Bilderkreuzworträtsel-Sammlungen`,
       description: `Erstellen Sie rotierende saisonale Sammlungen mithilfe von Feiertags- und thematischen Bildsammlungen. Weihnachts-Bilderkreuzworträtsel, Halloween-Kreuzworträtsel, Oster-Kreuzworträtsel-Aktivitäten, Schulanfangs-Wort-Herausforderungen und Sommer-Kreuzworträtsel-Sets unterstützen jeweils eigene saisonale Pakete. Die visuelle Natur der Bilderkreuzworträtsel macht saisonale Themen besonders überzeugend — Feiertagsbilder als Hinweise erzeugen sofortige saisonale Anziehungskraft in Marktplatz-Listings. Veröffentlichen Sie jede Sammlung 4–6 Wochen vor dem Feiertag für maximale Sichtbarkeit.`,
     },
     {
@@ -90,7 +90,7 @@ const content: ToolContent = {  seo: {
 
   businessIdeas: [
     {
-      title: 'Thematischer Bilderkreuzworträtsel-Shop auf Etsy',
+      title: `Thematischer Bilderkreuzworträtsel-Shop auf Etsy`,
       description: `Eröffnen Sie einen Etsy-Shop, spezialisiert auf Bilderkreuzworträtsel-Pakete organisiert nach Thema mithilfe der 104 Bildsammlungen. Tier-Kreuzworträtsel, Lebensmittel-Kreuzworträtsel, Fahrzeug-Kreuzworträtsel, Feiertags-Kreuzworträtsel — jedes Thema wird ein separates Listing mit 15–20 einzigartigen Rätseln und Lösungsschlüsseln. Schnelle Themen-Generierung produziert bei jedem Klick einzigartige Kreuzworträtsel, was Stapelproduktion schnell macht. Das Bildhinweis-Format erzeugt visuell ansprechende Listing-Thumbnails, die sich von reinen Text-Kreuzworträtsel-Produkten abheben. Einzelne Themenpakete bei 3–5 € und Premium-Multi-Themen-Pakete bei 7–12 € positionieren.`,
       platform: 'Etsy',
     },
@@ -100,7 +100,7 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Gumroad-Vokabel-Kreuzworträtsel-Aktivitätspakete',
+      title: `Gumroad-Vokabel-Kreuzworträtsel-Aktivitätspakete`,
       description: `Laden Sie Vokabel-Kreuzworträtsel-Pakete auf Gumroad hoch, die sowohl Bilderkreuzworträtsel als auch den Modus Benutzerdefinierte Wortliste nutzen. Bilderkreuzworträtsel verwenden thematische Bilder für visuellen Wortschatzaufbau — Nutzer sehen ein Tier und schreiben seinen Namen ins Raster. Text-Hinweis-Kreuzworträtsel verwenden lehrerdefinierte Begriffe und Definitionen für lehrplanorientierte Wiederholungsaktivitäten. Fügen Sie automatisch generierte Lösungsschlüssel bei jedem Rätsel als zentrales Verkaufsargument bei. Erstellen Sie klassenstufenspezifische Sets für Naturwissenschaften, Sachunterricht, Deutsch und Mathematik-Vokabular.`,
       platform: 'Gumroad',
     },
@@ -110,12 +110,12 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy / Gumroad',
     },
     {
-      title: 'Pinterest-Bilderkreuzworträtsel-Traffic-Trichter',
+      title: `Pinterest-Bilderkreuzworträtsel-Traffic-Trichter`,
       description: `Bilderkreuzworträtsel ergeben visuell auffallende Pinterest-Pins — ein farbenfrohes Kreuzwortraster umgeben von Bildhinweisen erzeugt ein sofort ansprechendes Rätsel-Format, das Eltern und Verkäufer als pädagogisch erkennen. Pinnen Sie Beispiel-Kreuzworträtsel, die das Bildhinweis-Layout mit nummerierten Positionen zeigen, die Bilder mit Rasterpositionen verbinden. Erstellen Sie separate Pin-Serien für „Bilderkreuzworträtsel für Kinder", „druckbare Kreuzworträtsel-Aktivitäten" und „Vokabel-Kreuzworträtsel-Arbeitsblätter". Zeigen Sie Lösungsschlüssel-Vorschaubilder mit ausgefülltem Raster. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produkt-Listings für direkte Konversion.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad-Komplett-Bilderkreuzworträtsel-Toolkit',
+      title: `Gumroad-Komplett-Bilderkreuzworträtsel-Toolkit`,
       description: `Bündeln Sie Bilderkreuzworträtsel über alle 104 Themen und mehrere Sprachen in ein umfassendes Toolkit auf Gumroad. Beinhalten Sie über 300 Kreuzworträtsel, die thematische Bilderkreuzworträtsel, benutzerdefinierte Vokabel-Kreuzworträtsel und mehrsprachige Versionen umfassen — jedes mit seinem automatisch generierten Lösungsschlüssel, was Ihre Dateianzahl auf über 600 verdoppelt. Die vier Eingabemethoden und die sprachabhängige Generierung produzieren mehr Vielfalt als jeder Mitbewerber, der einfache Kreuzworträtsel-Vorlagen anbietet. Das Toolkit-Format rechtfertigt Premium-Preise, weil Käufer eine komplette Kreuzworträtsel-Bibliothek über jedes Thema und mehrere Sprachen erhalten.`,
       platform: 'Gumroad',
     },
@@ -139,7 +139,7 @@ const content: ToolContent = {  seo: {
       description: `Wechseln Sie zum Modus Benutzerdefinierte Wortliste mit Hinweisen für fachspezifische Kreuzworträtsel, nach denen Verkäufer auf Gumroad suchen. Geben Sie naturwissenschaftliche Begriffe mit Definitionen, Sachunterricht-Vokabular mit Kontexthinweisen oder Rechtschreibwörter mit Verwendungssätzen im WORT: Hinweis-Format ein. Text-Hinweis-Kreuzworträtsel zielen auf ein anderes Käuferpublikum als Bilderkreuzworträtsel — Verkäufer, die Kreuzworträtsel passend zu ihrem exakten Produktkatalog benötigen. Erstellen Sie klassenstufenspezifische Vokabel-Sets nach Fachbereich und versehen Sie Ihre Listings mit den behandelten Marktstandards.`,
     },
     {
-      title: 'Lösungsschlüssel in jeder Listing-Vorschau zeigen',
+      title: `Lösungsschlüssel in jeder Listing-Vorschau zeigen`,
       description: `Der automatisch generierte Lösungsschlüssel mit ausgefülltem Raster und allen sichtbaren Buchstaben ist Ihr stärkstes Alleinstellungsmerkmal. Zeigen Sie immer Lösungsschlüssel-Vorschaubilder in Ihren Marktplatz-Listings — das ausgefüllte Raster deutlich in den Produktfotos sichtbar. Produkte mit beigelegten Lösungsschlüsseln verkaufen sich durchgängig besser als Rätsel-only-Listings, weil Verkäufer und Eltern selbstüberprüfbare Materialien bevorzugen. Das Dual-Canvas-System generiert beide Versionen gleichzeitig, sodass der Lösungsschlüssel keine zusätzliche Produktionszeit kostet.`,
     },
     {
@@ -154,7 +154,7 @@ const content: ToolContent = {  seo: {
 
   faq: [
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer: `Ja. Sie können jede Funktion nutzen — alle vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste mit Hinweisen und Eigene Bilder hochladen), den 15×15-Raster-Platzierungsalgorithmus, den automatisch generierten Lösungsschlüssel mit ausgefülltem Raster, die vollständige Bildbibliothek mit 104 thematischen Sammlungen und über 3.100 Illustrationen, eigene Bild-Uploads, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, Sprachauswahl, Graustufen-Schalter und alle Download-Formate. Keine Anmeldung, keine Kreditkarte erforderlich. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Verkaufsrechte freizuschalten.`,
     },
     {
@@ -162,11 +162,11 @@ const content: ToolContent = {  seo: {
       answer: `Ein Bilderkreuzworträtsel ersetzt traditionelle Text-Hinweise durch Bildhinweise. Anstatt eine schriftliche Definition zu lesen und die Antwort einzutragen, betrachten Löser ein farbenfrohes Bild und schreiben das Wort, das es darstellt, in das Kreuzwortraster. Der Generator platziert 8 aus Bildern abgeleitete Wörter auf einem festen 15×15-Raster mit nummerierten Positionen, die jedes Bild mit seiner Startzelle verbinden. Der Platzierungsalgorithmus extrahiert Wörter aus Bildnamen, entfernt Leerzeichen, wandelt in Großbuchstaben um, mischt und sortiert nach Länge (längste zuerst) und platziert Wörter mit optimaler Kreuzung an gemeinsamen Buchstaben. Dieses Format macht Kreuzworträtsel zugänglich für jüngere Löser und Sprachlernende und bietet gleichzeitig die Wortplatzierungs-Herausforderung traditioneller Kreuzworträtsel.`,
     },
     {
-      question: 'Was sind die vier Eingabemethoden?',
+      question: `Was sind die vier Eingabemethoden?`,
       answer: `Schnelle Themen-Generierung (Standard) wählt automatisch 8 zufällige Bilder aus dem gewählten Thema und generiert sofort — der schnellste Weg zum fertigen Rätsel. Manuelle Bildnamen-Bearbeitung lässt Sie einzelne Bilder anklicken und deren Anzeigenamen vor der Generierung umbenennen, was präzise Vokabelkontrolle gibt. Benutzerdefinierte Wortliste mit Hinweisen aktiviert ein Textfeld, in dem Sie WORT: Hinweis-Paare für traditionelle Text-Hinweis-Kreuzworträtsel ohne Bilder eingeben. Eigene Bilder hochladen ermöglicht das Hinzufügen eigener JPEG-, PNG-, GIF- oder WebP-Dateien neben Bibliotheksbildern. Jede Methode speist denselben 15×15-Raster-Platzierungsalgorithmus.`,
     },
     {
-      question: 'Warum ist das Raster auf 15×15 Zellen festgelegt?',
+      question: `Warum ist das Raster auf 15×15 Zellen festgelegt?`,
       answer: `Das 15×15-Raster bietet genug Platz für 8 kreuzende Wörter unterschiedlicher Länge bei gleichzeitig sauberen visuellen Proportionen auf Letter- und A4-Seitengrößen. Die Rastergröße ist für den Platzierungsalgorithmus optimiert — größere Raster würden bei 8 Wörtern zu viel Leerraum hinterlassen, während kleinere Raster längere Wörter nicht aufnehmen könnten. Die feste Größe gewährleistet konsistente, professionell aussehende Kreuzworträtsel über alle Themen und Sprachen hinweg.`,
     },
     {
@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Bilderkreuzworträtsel — Alle Produktdetails' },
+    { pageType: 'app', slug: `bilderkreuzwortraetsel-arbeitsblaetter`, anchorText: `Bilderkreuzworträtsel — Alle Produktdetails` },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
     { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
     { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller' },

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'SEO Etsy material educativo imprimível',
+    primaryKeyword: `SEO Etsy material educativo imprimível`,
     secondaryKeywords: [
-      'SEO Etsy para fichas imprimíveis',
+      `SEO Etsy para fichas imprimíveis`,
       `pesquisa de palavras-chave Etsy produtos educativos`,
       `otimização de anúncios Etsy vendedores de imprimíveis`,
-      'estratégia de etiquetas Etsy para fichas',
+      `estratégia de etiquetas Etsy para fichas`,
     ],
     lsiKeywords: [
       `algoritmo de pesquisa Etsy fatores de posicionamento transferências digitais`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `relatório de termos de pesquisa Etsy Stats otimização de palavras-chave`,
       `categorias e atributos Etsy para produtos digitais educativos`,
     ],
-    titleTag: 'SEO Etsy material educativo imprimível — Guia',
+    titleTag: `SEO Etsy material educativo imprimível — Guia`,
     metaDescription: `Guia de SEO Etsy para material educativo imprimível. Pesquisa de palavras-chave, otimização de títulos, as 13 etiquetas e descrições de anúncios eficazes.`,
   },
 
   hero: {
-    title: 'SEO no Etsy para material educativo imprimível',
+    title: `SEO no Etsy para material educativo imprimível`,
     tagline: `Um guia completo de otimização de pesquisa no Etsy para vendedores de material educativo imprimível — incluindo metodologia de pesquisa de palavras-chave usando o preenchimento automático do Etsy e análise de concorrentes, fórmulas de otimização de títulos que equilibram posicionamento nas pesquisas com taxa de cliques, utilização estratégica das 13 etiquetas de anúncios para máxima cobertura de pesquisa, estrutura de descrição com os primeiros 160 caracteres otimizados para SEO, fatores de posicionamento do algoritmo de pesquisa do Etsy específicos para produtos digitais, seleção de categorias e atributos, bancos de palavras-chave específicos por categoria para fichas de matemática, literacia, puzzles, colorir, emparelhamento e encontrar-e-contar, sazonalidade de palavras-chave para picos de regresso às aulas e épocas festivas, e otimização contínua usando relatórios de termos de pesquisa do Etsy Stats`,
     description: `A pesquisa do Etsy é a principal fonte de tráfego para vendedores de material educativo imprimível. Este guia ensina-lhe o fluxo de trabalho completo de SEO no Etsy — desde pesquisar os termos de pesquisa dos compradores até otimizar cada elemento do seu anúncio para máxima visibilidade. Aprenderá a estrutura exata de títulos, a estratégia de etiquetas e o formato de descrição que ajudam os anúncios de material educativo imprimível a aparecer nos resultados de pesquisa do Etsy.`,
   },
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Descoberta de pacotes impulsionada por SEO',
+      heading: `Descoberta de pacotes impulsionada por SEO`,
       content: `A otimização estratégica de palavras-chave impulsiona naturalmente as vendas de pacotes. Quando um comprador pesquisa «fichas de matemática jardim de infância» e encontra a sua ficha individual de adição, frequentemente navega pela sua loja à procura de produtos relacionados. Otimizar os seus anúncios de pacotes para termos mais amplos («pacote fichas matemática jardim de infância») enquanto os anúncios individuais apontam a termos específicos («fichas de adição jardim de infância animais») cria um funil onde as pesquisas específicas levam a produtos individuais, e a navegação da loja leva a compras de pacotes. Inclua «consulte o nosso pacote completo» nas descrições de anúncios individuais para guiar este fluxo.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `A secção «Mais desta loja» do Etsy mostra os seus outros anúncios a compradores que já estão numa das suas páginas de produto. Otimizar produtos relacionados para palavras-chave complementares aumenta a probabilidade de os compradores adquirirem múltiplos artigos. Se a sua ficha de adição posiciona para «matemática jardim de infância», otimize a sua ficha de subtração para «prática subtração jardim de infância» em vez da mesma etiqueta genérica «matemática jardim de infância». Isto evita a auto-competição enquanto assegura que ambos os produtos aparecem para pesquisas relacionadas mas distintas.`,
     },
     {
-      heading: 'Monetização de palavras-chave de cauda longa',
+      heading: `Monetização de palavras-chave de cauda longa`,
       content: `As palavras-chave de cauda longa — frases específicas de várias palavras como «fichas de adição com tema de animais para pré-escolar» — têm menor volume de pesquisa mas taxas de conversão significativamente maiores. Os compradores que usam pesquisas de cauda longa sabem exatamente o que querem e estão prontos para comprar. Criar anúncios que apontem a palavras-chave de cauda longa específicas com títulos, etiquetas e conteúdo de produto que correspondam atrai compradores com forte intenção de compra. Um gerador de fichas com opções de tema torna prático criar múltiplos anúncios que apontem a diferentes combinações de cauda longa a partir do mesmo produto base.`,
     },
   ],
@@ -138,34 +138,34 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'vender-material-educativo-etsy',
-      title: 'Vender material educativo imprimível no Etsy',
+      slug: `vender-material-educativo-etsy`,
+      title: `Vender material educativo imprimível no Etsy`,
       description: `O guia completo de vendas no Etsy para material educativo imprimível. Cobre configuração de loja, fotografia de produtos, preços, apoio ao cliente e planeamento de catálogo — todas as operações comerciais que complementam as estratégias de SEO deste guia.`,
     },
     {
       slug: 'precos-imprimiveis-etsy',
-      title: 'Definir preços dos imprimíveis Etsy',
+      title: `Definir preços dos imprimíveis Etsy`,
       description: `A estratégia de preços afeta diretamente a sua taxa de conversão e a pontuação de qualidade do anúncio. Aprenda a definir preços de fichas individuais e pacotes para máxima rentabilidade mantendo um posicionamento competitivo nos resultados de pesquisa do Etsy.`,
     },
     {
       slug: 'criar-paginas-colorir-etsy',
-      title: 'Criar páginas para colorir Etsy que vendem',
+      title: `Criar páginas para colorir Etsy que vendem`,
       description: `As páginas para colorir representam uma categoria de alta procura no Etsy com padrões de palavras-chave distintivos. Aprenda as estratégias de criação de produtos e anúncios específicas desta categoria, aplicando os princípios de SEO deste guia.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: 'Como vender caça-palavras no Etsy' },
-    { pageType: 'guide', slug: 'vender-material-educativo-etsy', anchorText: 'Como vender material educativo imprimível no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: 'Como definir preços dos seus imprimíveis Etsy' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: 'Como criar páginas para colorir Etsy que vendem' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para começar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: `Como vender caça-palavras no Etsy` },
+    { pageType: 'guide', slug: `vender-material-educativo-etsy`, anchorText: `Como vender material educativo imprimível no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: `Como definir preços dos seus imprimíveis Etsy` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: `Como criar páginas para colorir Etsy que vendem` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para começar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de caça-palavras — Detalhes completos' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de fichas de adição — Detalhes completos' },
-    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimentar o Gerador de Caça-Palavras' },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de caça-palavras — Detalhes completos` },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: `Gerador de fichas de adição — Detalhes completos` },
+    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: `Experimentar o Gerador de Caça-Palavras` },
   ],
 
   toolsRecommended: [
@@ -181,7 +181,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Crie páginas para colorir em dezenas de temas visuais, apoiando uma estratégia de palavras-chave centrada em termos de pesquisa específicos por tema. Cada variação de tema torna-se num anúncio separado que aponta a palavras-chave distintas como «páginas para colorir animais» ou «folhas para colorir sazonais».`,
     },
     {
@@ -192,22 +192,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha de caça-palavras mostrando produto educativo imprimível multi-palavras-chave para otimização SEO Etsy' },
+    heroImage: { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha de caça-palavras mostrando produto educativo imprimível multi-palavras-chave para otimização SEO Etsy` },
     samples: [
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 2.webp`, alt: 'Caça-palavras temático de animais demonstrando segmentação de palavras-chave por tema no Etsy', caption: 'Caça-palavras com tema de animais — cada variação de idioma e tema aponta a diferentes palavras-chave de pesquisa no Etsy' },
-      { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de adição temática de animais apontando a palavras-chave de alto volume de material educativo de matemática no Etsy', caption: 'Ficha de adição com tema de animais — aponta a palavras-chave de alto volume de material educativo de matemática no Etsy' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir de animais mostrando estratégia de palavras-chave por tema no Etsy para vendedores de imprimíveis', caption: 'Página para colorir com tema de animais — as palavras-chave específicas por tema geram tráfego de pesquisa segmentado no Etsy' },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 2.webp`, alt: `Caça-palavras temático de animais demonstrando segmentação de palavras-chave por tema no Etsy`, caption: `Caça-palavras com tema de animais — cada variação de idioma e tema aponta a diferentes palavras-chave de pesquisa no Etsy` },
+      { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de adição temática de animais apontando a palavras-chave de alto volume de material educativo de matemática no Etsy`, caption: `Ficha de adição com tema de animais — aponta a palavras-chave de alto volume de material educativo de matemática no Etsy` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir de animais mostrando estratégia de palavras-chave por tema no Etsy para vendedores de imprimíveis`, caption: `Página para colorir com tema de animais — as palavras-chave específicas por tema geram tráfego de pesquisa segmentado no Etsy` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `Como criar fichas de caça-palavras para SEO Etsy — Estratégia de produtos multi-palavras-chave`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Bezerro — imagem educativa temática', caption: 'Bezerro' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Touro — imagem educativa temática`, caption: 'Touro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Bezerro — imagem educativa temática`, caption: 'Bezerro' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagem educativa temática`, caption: 'Gato 2' },
   ],
 };
 

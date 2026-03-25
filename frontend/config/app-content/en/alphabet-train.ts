@@ -4,15 +4,15 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'alphabet train generator',
     secondaryKeywords: [
-      'printable alphabet train maker for Etsy sellers',
+      `printable alphabet train maker for Etsy sellers`,
       `letter recognition worksheet generator for KDP publishers`,
-      'sell alphabet worksheets on Gumroad',
-      'alphabet train printables commercial license',
+      `sell alphabet worksheets on Gumroad`,
+      `alphabet train printables commercial license`,
     ],
     lsiKeywords: [
       `digital letter recognition products online business`,
-      'printable alphabet worksheet business',
-      'commercial use alphabet train generator',
+      `printable alphabet worksheet business`,
+      `commercial use alphabet train generator`,
     ],
     titleTag: `Alphabet Train Generator | Create Literacy Printables`,
     metaDescription: `Create alphabet train worksheets to sell on Etsy, KDP & Gumroad. Train-car letter-image matching across 11 languages, 104 themes. Try free — license available.`,
@@ -39,17 +39,17 @@ const content: AppContent = {
           `Open the Alphabet Train configuration and select your creation mode. Auto Create instantly generates a worksheet with 11 randomly chosen letters and matching images from your selected theme — perfect for quick batch production. Manual mode displays the full alphabet for the selected language and lets you hand-pick exactly 11 letters, giving you precise control for targeted practice sets like vowels-only, consonant clusters, or beginning-of-alphabet sequences.`,
       },
       {
-        title: 'Select Images from the Theme Library',
+        title: `Select Images from the Theme Library`,
         description:
           `Open the Image Library panel and browse 104 themes — from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Each letter wagon displays an image whose name starts with that letter, reinforcing the letter-sound connection. You can also upload your own custom images to create branded worksheets or match a specific product line theme.`,
       },
       {
-        title: 'Configure Clues and Text Styling',
+        title: `Configure Clues and Text Styling`,
         description:
           `Set the number of clues from 3 to 11 — these are image hints shown separately that solvers match to the correct letter wagon. Fewer clues create an easier worksheet; more clues increase the challenge. Toggle name and date fields on or off. Use the Text Tools panel to add a title, instructions, or custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana with adjustable size, color, and outline.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab and click Generate Answer Key to create a solved version showing every letter wagon with its correct image match and all clues resolved. Then open the Download menu and export both the worksheet and its answer key as high-resolution JPEG or print-ready PDF. Toggle grayscale export for ink-friendly versions. Every export renders at 400+ DPI so your alphabet trains look crisp whether printed at home, listed on Etsy, or included in an Amazon KDP literacy book.`,
       },
@@ -85,7 +85,7 @@ const content: AppContent = {
           `Browse a curated library of over 3,100 high-resolution illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is mapped to the letter it starts with in each language, so theme selection automatically populates letter-image pairings. You can also upload your own custom images for completely unique worksheets that match your brand or seasonal product line.`,
       },
       {
-        title: 'Automatic Answer Key Generation',
+        title: `Automatic Answer Key Generation`,
         description:
           `Click one button to generate a complete answer key that shows every train wagon with its correct letter-image pairing and all clues resolved. The answer key tab displays a live preview so you can verify accuracy before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in Etsy bundles, KDP appendices, or Gumroad product packs without any manual assembly.`,
       },
@@ -95,7 +95,7 @@ const content: AppContent = {
           `Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions perfect for black-and-white activity books or cost-effective bulk printing. Letter, A4, and Square sizes are all supported for maximum flexibility across print-on-demand platforms and home printers.`,
       },
       {
-        title: 'Full Canvas Editing with Undo and Redo',
+        title: `Full Canvas Editing with Undo and Redo`,
         description:
           `The built-in Fabric.js canvas lets you drag, resize, rotate, and reposition every element on the page — text, train wagons, borders, and backgrounds. Use layer controls to manage element stacking, alignment tools for pixel-perfect placement, and lock/unlock to protect positioned elements while editing others. Undo and redo (up to 20 steps) let you experiment freely, giving you the layout flexibility of a graphic design tool inside a literacy worksheet generator.`,
       },
@@ -103,34 +103,34 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Alphabet Train Worksheets Online',
+    title: `How to Sell Alphabet Train Worksheets Online`,
     cases: [
       {
-        title: 'Themed Alphabet Train Bundles on Etsy',
+        title: `Themed Alphabet Train Bundles on Etsy`,
         description:
           `Create sets of 10–20 alphabet train worksheets grouped by theme — farm animals, ocean creatures, vehicles, food — and list them as instant-download bundles on Etsy. Each worksheet features different letter selections and matching images, so every page in the bundle is unique. Include answer keys as bonus files. The train format is visually distinctive and stands out in Etsy search results compared to standard letter tracing sheets. Price individual theme packs at $3–$5 and multi-theme bundles at $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Alphabet Activity Books on Amazon KDP',
+        title: `Alphabet Activity Books on Amazon KDP`,
         description:
           `Compile 50–100 alphabet train worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty by starting with 3 clues per page and advancing to 11, introducing letter groups sequentially from A–K through L–V to full alphabet coverage. Add a title page, instructions explaining the train format, and an answer key section at the back. Alphabet activity books for ages 3–6 sell consistently year-round and the train theme differentiates your book from generic letter worksheets. Consider publishing separate theme editions — an ocean animals alphabet train book, a dinosaurs edition, a farm edition — so each title targets a distinct keyword niche and attracts buyers searching for specific interests.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Tiered Difficulty Bundles on Gumroad',
+        title: `Tiered Difficulty Bundles on Gumroad`,
         description:
           `Build leveled alphabet train sets using clue count as the difficulty axis: Level 1 (3 clues, common letters), Level 2 (5 clues, mixed letters), Level 3 (8 clues, including less common letters like Q, X, Z), and Level 4 (11 clues, full matching challenge). Package each level with answer keys and a progress tracking sheet. Buyers pay premium prices for tiered bundles they can use immediately, and the built-in difficulty range lets you sell easy, medium, and hard packs separately or as a complete set.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Multilingual Alphabet Products with Full Access',
+        title: `Multilingual Alphabet Products with Full Access`,
         description:
           `Full Access unlocks all 11 languages with their native alphabets. Create German alphabet trains with Ä/Ö/Ü wagons, Swedish trains with Å/Ä/Ö, Spanish trains with Ñ, and more. Each language version is a separate product you can list on Etsy, Gumroad, or Amazon KDP — effectively multiplying your catalog eleven-fold from the same workflow. Multilingual literacy products face less competition and attract international buyers searching in their native language.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingual)`,
       },
       {
-        title: 'Pinterest Funnel to Drive Repeat Buyers',
+        title: `Pinterest Funnel to Drive Repeat Buyers`,
         description:
           `Pin eye-catching alphabet train samples on Pinterest — the train format is inherently visual and gets strong engagement. Link each pin to your Etsy listing or Gumroad product page. Create boards for each theme (animals, food, vehicles) and each difficulty level to capture search traffic across multiple keywords. The distinctive train layout stops scrollers in their feed, and buyers who purchase one theme pack frequently return for others — building a repeat-buyer base from a single product line.`,
         platform: 'Pinterest → Etsy / Gumroad',
@@ -140,27 +140,27 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What is the alphabet train worksheet format?',
+      question: `What is the alphabet train worksheet format?`,
       answer:
         `Each worksheet features 11 colorful train wagons. Every wagon contains one letter paired with a matching image whose name starts with that letter. Below or beside the train, clue images are displayed for solvers to match to the correct wagon. The format combines letter recognition with visual matching, making it more engaging than standard alphabet drill sheets.`,
     },
     {
-      question: 'What are the two creation modes?',
+      question: `What are the two creation modes?`,
       answer:
         `Auto Create mode generates a complete worksheet instantly by randomly selecting 11 letters and pairing each with a matching image from your chosen theme. Manual mode displays the full alphabet for the selected language and lets you hand-pick exactly 11 letters, giving you precise control over which letters appear on each worksheet.`,
     },
     {
-      question: 'How does the clue system work?',
+      question: `How does the clue system work?`,
       answer:
         `Clues are image hints shown separately from the train wagons. Solvers look at each clue image, identify what it represents, determine its starting letter, and match it to the correct wagon. You can set anywhere from 3 to 11 clues per worksheet — fewer clues make the activity easier, while more clues increase the challenge. For sellers, this adjustable clue range lets you create tiered difficulty packs from one tool — bundle easy, medium, and hard versions together and charge a premium for the complete set.`,
     },
     {
-      question: 'Why are there always 11 letters per worksheet?',
+      question: `Why are there always 11 letters per worksheet?`,
       answer:
         `The train format uses 11 wagons to balance visual impact with readability on a single page. Eleven letters provide substantial coverage without overcrowding, and the odd number prevents solving by simple elimination at the end. Each worksheet covers nearly half the English alphabet, so two complementary worksheets can cover all 26 letters.`,
     },
     {
-      question: 'Is the Alphabet Train app language-sensitive?',
+      question: `Is the Alphabet Train app language-sensitive?`,
       answer:
         `Yes. Unlike visual-only math apps, the Alphabet Train changes fundamentally based on the selected language. Each language has its own alphabet and letter count — English has 26 letters, German has 29 with Ä/Ö/Ü, Swedish has 29 with Å/Ä/Ö, Spanish has 27 with Ñ. Image labels are translated so each letter pairs with an image whose translated name starts with that letter. The Commercial tier is English-only; Full Access unlocks all 11 languages.`,
     },
@@ -170,7 +170,7 @@ const content: AppContent = {
         `Every image in the library has translated labels for all 11 languages. When you select a language, the generator pairs each letter with an image whose name starts with that letter in that specific language. For example, a dog image pairs with D in English but with H in German (Hund). This ensures linguistically accurate worksheets in every supported language.`,
     },
     {
-      question: 'What page sizes are available?',
+      question: `What page sizes are available?`,
       answer:
         `Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, or Square (1200×1200). All sizes export at 400+ DPI for professional print quality. The Square format works well for social media previews and digital product thumbnails on Etsy.`,
     },
@@ -185,7 +185,7 @@ const content: AppContent = {
         `Yes. You can access every feature — both creation modes, the full image library, all clue settings, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.`,
     },
     {
-      question: 'What does the commercial license include?',
+      question: `What does the commercial license include?`,
       answer:
         `The Commercial license provides watermark-free English exports with full selling rights. The Full Access license adds all 11 languages with their native alphabets, multiplying your product catalog. Both tiers grant unlimited rights to sell on Etsy, Amazon KDP, Gumroad, your own store, or any other platform — no per-sale royalties, no monthly fees, and no production limits.`,
     },
@@ -205,27 +205,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'prepositions-worksheets',
-      anchorText: 'Prepositions Worksheet Generator',
+      anchorText: `Prepositions Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
+      anchorText: `Word Guess Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
+      anchorText: `Word Scramble Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'word-search-worksheets',
-      anchorText: 'Word Search Worksheet Generator',
+      anchorText: `Word Search Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
+      anchorText: `Cryptogram Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -235,27 +235,27 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Alphabet Worksheets on Etsy',
+      anchorText: `Guide to Selling Alphabet Worksheets on Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `The Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'idea',
       slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
+      anchorText: `ESL Printable Ideas for Language Learning`,
     },
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Sellers',
+      anchorText: `Homeschool Printable Ideas for Sellers`,
     },
     {
       pageType: 'guide',
       slug: 'create-alphabet-worksheets',
-      anchorText: 'How to Create Alphabet Worksheets',
+      anchorText: `How to Create Alphabet Worksheets`,
     },
   ],
 

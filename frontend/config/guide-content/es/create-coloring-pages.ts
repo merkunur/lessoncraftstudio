@@ -5,17 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'crear páginas para colorear',
     secondaryKeywords: [
       `generador de páginas para colorear a partir de imágenes`,
-      'páginas para colorear imprimibles para vender',
+      `páginas para colorear imprimibles para vender`,
       `generador de páginas para colorear en escala de grises`,
-      'fichas personalizadas para colorear para niños',
+      `fichas personalizadas para colorear para niños`,
     ],
     lsiKeywords: [
-      'páginas para colorear temáticas para Etsy',
-      'páginas de libros para colorear para Amazon KDP',
-      'diseñador de páginas para colorear de forma libre',
-      'convertir imágenes en páginas para colorear',
-      'fichas de actividades para colorear en línea',
-      'herramienta para colorear con licencia comercial',
+      `páginas para colorear temáticas para Etsy`,
+      `páginas de libros para colorear para Amazon KDP`,
+      `diseñador de páginas para colorear de forma libre`,
+      `convertir imágenes en páginas para colorear`,
+      `fichas de actividades para colorear en línea`,
+      `herramienta para colorear con licencia comercial`,
     ],
     titleTag: `Crear páginas para colorear a partir de imágenes — Guía`,
     metaDescription: `Cómo crear páginas para colorear a partir de más de 3100 imágenes temáticas. Lienzo de forma libre con exportación en escala de grises, dibujo a mano alzada.`,
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Elige el tamaño de página y el fondo',
+      heading: `Elige el tamaño de página y el fondo`,
       content: `Comienza seleccionando las dimensiones de página para tu página para colorear. Las opciones de Tamaño de página incluyen Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Cuadrado y dimensiones personalizadas.\n\nCarta vertical (8,5 × 11 pulgadas) es el estándar para páginas para colorear imprimibles vendidas a compradores norteamericanos. A4 vertical funciona para mercados europeos e internacionales. Crear ambas versiones a partir del mismo diseño duplica tu alcance de mercado con un esfuerzo adicional mínimo.\n\nEl formato Cuadrado es único para imprimibles creativos. Las páginas para colorear cuadradas funcionan bien para desafíos de colorear en redes sociales, publicaciones de Instagram y productos digitales para colorear donde la relación de aspecto se adapta a la visualización en pantalla. Considera este formato para líneas de productos exclusivamente digitales.\n\nLa orientación horizontal funciona para composiciones de escenas amplias — paisajes, panorámicas de vehículos o escenas oceánicas donde el espacio horizontal mejora el diseño.\n\nUna vez que hayas establecido el tamaño de página, configura el fondo. Las opciones de Tema de fondo te permiten añadir bordes y marcos decorativos sutiles con opacidad ajustable. Para páginas para colorear, un fondo blanco limpio es lo estándar para productos impresos, pero un tema de borde ligero con baja opacidad puede añadir un efecto de enmarcado profesional. Usa el selector de Tema de borde y el control de Opacidad para ajustar el aspecto sin sobrecargar la zona principal para colorear.`,
     },
     {
@@ -39,15 +39,15 @@ const content: GuideContent = {
       content: `La biblioteca de imágenes contiene más de 3100 ilustraciones organizadas en 104 temas. Haz clic en el panel de la biblioteca de imágenes para explorar los temas por categoría — animales, comida, vehículos, naturaleza, festividades, profesiones, deportes, fantasía y docenas más.\n\nUsa el campo de búsqueda para encontrar imágenes específicas rápidamente. Buscar «gato» muestra todas las ilustraciones de gatos en múltiples temas. Buscar «dinosaurio» muestra criaturas prehistóricas. La búsqueda funciona a través de nombres de imágenes y categorías de temas.\n\nLa selección de tema es tu decisión estratégica de producto más importante. Cada tema crea una línea de productos completamente distinta. Una tienda con 20 paquetes de páginas para colorear temáticos de animales, 15 paquetes temáticos de vehículos y 10 paquetes temáticos de festividades tiene 45 listados de productos únicos con una sola herramienta — cada uno dirigido a diferentes palabras clave de búsqueda y segmentos de compradores.\n\nPara añadir una imagen a tu lienzo, simplemente haz clic en ella en el panel de la biblioteca. La imagen aparece en tu lienzo donde puedes posicionarla libremente. Añade tantas imágenes como quieras para construir tu composición. Una sola imagen grande centrada en la página crea una página para colorear clásica. Múltiples imágenes más pequeñas dispuestas en un collage crean un diseño más cargado y atractivo para niños mayores.\n\nCon una licencia comercial, tienes acceso a 10 conjuntos de imágenes temáticas. La licencia de Acceso completo desbloquea los 104 temas con la biblioteca completa de más de 3100 ilustraciones, dándote un potencial de creación de productos prácticamente ilimitado.`,
     },
     {
-      heading: 'Coloca y organiza las imágenes en el lienzo',
+      heading: `Coloca y organiza las imágenes en el lienzo`,
       content: `El Generador de páginas para colorear usa un lienzo de forma libre — no hay cuadrículas, plantillas ni ranuras predeterminadas. Tienes completa libertad creativa para colocar imágenes en cualquier parte de la página.\n\nUna vez que una imagen está en el lienzo, puedes:\n\nArrastrarla a cualquier posición haciendo clic y moviendo. Coloca un animal grande en el centro, mete uno más pequeño en una esquina, o distribuye las imágenes uniformemente por la página.\n\nCambiar el tamaño arrastrando las manijas de las esquinas. Haz que una sola imagen llene la mayor parte de la página para una página para colorear simple, o reduce múltiples imágenes para crear un diseño tipo collage.\n\nRotar las imágenes para crear composiciones dinámicas. Inclinar ligeramente las imágenes previene ese aspecto rígido de cuadrícula de clip art que delata las páginas para colorear amateur.\n\nSuperponer imágenes ajustando su orden. Coloca elementos de fondo detrás de los sujetos en primer plano. Los controles de capas te permiten enviar imágenes al fondo o traerlas al frente.\n\nBloquear las imágenes en su sitio una vez posicionadas. Esto previene movimientos accidentales mientras continúas añadiendo y organizando otros elementos.\n\nUsar los controles de zoom (25 % a 300 %) para trabajar a diferentes niveles de detalle. Acerca para afinar el posicionamiento, aleja para ver la composición general.\n\nDeshacer y rehacer (hasta 20 estados) te permite experimentar libremente. Prueba diferentes disposiciones y revierte instantáneamente si un diseño no funciona.\n\nLas mejores páginas para colorear tienen composiciones intencionales. Evita colocar imágenes al azar — piensa en el equilibrio visual, el espaciado y cómo se verá la página cuando se imprima. Deja suficiente espacio en blanco entre las imágenes para colorear cómodamente, especialmente para niños más pequeños que usan crayones gruesos o rotuladores.`,
     },
     {
-      heading: 'Añade elementos de dibujo a mano alzada',
+      heading: `Añade elementos de dibujo a mano alzada`,
       content: `La herramienta de dibujo a mano alzada te permite combinar elementos dibujados a mano con imágenes de la biblioteca, creando páginas para colorear híbridas que son genuinamente únicas e imposibles de replicar solo con imágenes de la biblioteca.\n\nActiva la herramienta de dibujo desde la barra de herramientas. Configura el color del pincel y el tamaño del pincel (de 1 a 50 píxeles). Los tamaños de pincel más pequeños (1–5 px) funcionan para detalles finos como hierba, bigotes o gotas de lluvia. Los tamaños más grandes (10–50 px) funcionan para contornos gruesos, bordes y elementos decorativos.\n\nUsos prácticos del dibujo a mano alzada en páginas para colorear:\n\nAñadir elementos de conexión entre las imágenes de la biblioteca. Dibuja una línea de suelo bajo los animales, olas bajo un barco, o una rama de árbol para que un pájaro se pose. Estos detalles transforman clip art desconectado en una escena cohesiva.\n\nDibujar bordes y marcos. Un marco dibujado a mano alrededor de la zona para colorear añade un toque personalizado que distingue tus productos de los competidores generados por computadora.\n\nAñadir detalles decorativos. Estrellas, corazones, flores, espirales y patrones simples llenan el espacio vacío y dan a la página más contenido para colorear. Estas pequeñas adiciones pueden duplicar el tiempo que un niño pasa en una sola página.\n\nCrear elementos de fondo originales. Las imágenes de la biblioteca proporcionan los sujetos principales, pero las nubes, montañas, casas o caminos dibujados a mano crean escenas únicas que no se pueden encontrar en ningún otro lugar.\n\nLa herramienta de dibujo usa el mismo lienzo que la biblioteca de imágenes, así que los elementos dibujados se integran perfectamente con las imágenes colocadas. Cuando se activa el botón de escala de grises, tus dibujos se convierten en contornos junto con todo lo demás.`,
     },
     {
-      heading: 'Añade texto, títulos e instrucciones',
+      heading: `Añade texto, títulos e instrucciones`,
       content: `Las herramientas de texto te permiten añadir títulos, instrucciones y etiquetas a tus páginas para colorear. Haz clic en la herramienta de texto para añadir un elemento de texto al lienzo.\n\nLas opciones de fuente incluyen siete tipografías: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Para páginas para colorear dirigidas a niños, Fredoka y Baloo 2 ofrecen formas de letras redondeadas y divertidas. Para fichas de actividades profesionales, Lexend Deca y Nunito proporcionan una legibilidad limpia.\n\nPersonaliza el texto con controles de color, color de contorno y grosor de contorno. Para páginas para colorear, considera usar texto solo con contorno (establece el relleno en blanco o transparente y usa un contorno oscuro). Esto crea texto que los niños pueden colorear junto con las imágenes — un elemento interactivo adicional.\n\nAdiciones de texto comunes para páginas para colorear:\n\nTítulos: «Colorea los animales de la granja» o «Página para colorear del fondo del mar». Posiciona en la parte superior de la página para identificar claramente el tema.\n\nInstrucciones: «Colorea cada animal usando tus colores favoritos» o «¿Puedes encontrar y colorear las cinco mariposas?». Las instrucciones añaden valor educativo o interactivo.\n\nEtiquetas: Nombra cada imagen de la página. «Caballo», «Vaca», «Cerdo» junto a cada animal convierte una simple página para colorear en una actividad de desarrollo de vocabulario. Este formato híbrido atrae a vendedores y emprendedores.\n\nNúmeros de página: Esenciales para libros para colorear con múltiples páginas vendidos en Amazon KDP.\n\nLos elementos de texto se pueden arrastrar, redimensionar y reposicionar como las imágenes, dándote control total sobre el diseño final.`,
     },
     {
@@ -66,22 +66,22 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender páginas para colorear en Etsy',
+      heading: `Vender páginas para colorear en Etsy`,
       content: `Las páginas para colorear son una de las categorías de productos imprimibles más populares en Etsy, con una demanda fuerte durante todo el año y picos masivos durante las temporadas festivas.\n\nOptimización de títulos: Lidera con frases específicas y buscables. Ejemplos fuertes: «Páginas para colorear de animales de la granja para niños — Fichas de actividades imprimibles — 10 páginas PDF» o «Páginas de libro para colorear de dinosaurios — Fichas para colorear temáticas — Actividad para venta en línea». Los títulos de Etsy pueden tener hasta 140 caracteres — usa cada carácter con descripciones ricas en palabras clave.\n\nEtiquetas: Usa las 13 etiquetas de Etsy. Combina amplias y específicas: «páginas para colorear», «fichas para colorear imprimibles», «páginas para colorear para niños», «colorear animales de granja», «actividad para colorear en línea», «páginas para colorear trabajo desde casa», «páginas de libro para colorear», «fichas de actividades para niños», «colorear preescolar», «actividad infantil» y etiquetas específicas por tema.\n\nImágenes del listado: Muestra la página para colorear tanto en escala de grises (lo que imprimen) como en color (cómo podría verse cuando esté terminada). Incluye imágenes de maquetas de las páginas impresas. Muestra un primer plano de las imágenes individuales para resaltar la calidad de la ilustración. La primera imagen es tu miniatura — hazla colorida e instantáneamente clara en tamaños pequeños.\n\nPrecios: Las páginas para colorear individuales se venden a 1,29–1,99 $. Los mini paquetes de 5–10 páginas se venden a 2,99–4,99 $. Los libros para colorear completos de 20–50 páginas se venden a 6,99–14,99 $. Los mega paquetes de más de 100 páginas se venden a 19,99–29,99 $.`,
     },
     {
-      heading: 'Vender páginas para colorear en Amazon KDP',
+      heading: `Vender páginas para colorear en Amazon KDP`,
       content: `Amazon KDP es el marketplace principal para libros para colorear físicos. En lugar de vender archivos digitales individuales, compilas páginas para colorear en un libro encuadernado que Amazon imprime y envía bajo demanda.\n\nFormato del producto: Crea un libro para colorear con 30–60 páginas para colorear en torno a un tema consistente. La impresión a una cara es el estándar para libros para colorear (para evitar que los rotuladores traspasen). KDP requiere un formato interior de PDF específico con tamaños de recorte apropiados (8,5 × 11 pulgadas es el estándar para libros para colorear).\n\nTítulo y subtítulo: Ejemplo de título: «Libro para colorear de animales de la granja para niños». Ejemplo de subtítulo: «50 divertidas páginas para colorear de animales para niños pequeños, preescolar e infantil — Letra grande, fácil de colorear».\n\nPalabras clave: KDP proporciona 7 espacios de palabras clave. Usa frases específicas: «libro para colorear para niños de 3–5 años», «páginas para colorear de animales niños pequeños», «libro para colorear preescolar», «páginas para colorear fáciles infantil», «libro para colorear letra grande niños», «libro de actividades para niños», «actividades sin pantallas para niños».\n\nDiseño de portada: La portada es tu principal motor de ventas en Amazon. Muestra 3–4 páginas para colorear de muestra en la portada (a color, como si ya estuvieran coloreadas) para que los compradores puedan visualizar el contenido. Una portada colorida y profesional rinde dramáticamente mejor que un diseño simple.\n\nPrecios: Los libros para colorear en KDP típicamente se venden a 5,99–8,99 $ por 30–60 páginas. Las colecciones temáticas premium pueden alcanzar 9,99–12,99 $. Las tasas de regalías de Amazon varían según tamaño de recorte, número de páginas y marketplace.`,
     },
     {
-      heading: 'Vender páginas para colorear en Gumroad',
+      heading: `Vender páginas para colorear en Gumroad`,
       content: `Gumroad (Gumroad) valora las páginas para colorear que sirven un propósito en línea más allá del simple colorear. Los productos para colorear más exitosos en Gumroad son fichas de actividades que combinan colorear con elementos educativos.\n\nPosicionamiento del producto: Presenta tus páginas para colorear como herramientas para venta en línea, no solo como actividades artísticas. «Ficha de vocabulario y para colorear de animales de la granja» funciona mejor que «Página para colorear de animales de la granja» porque señala valor educativo. Usa las ayudas para venta en línea (campo de nombre, líneas de escritura) y añade etiquetas o instrucciones para crear recursos de doble propósito.\n\nLas descripciones de productos en Gumroad deben incluir: nivel de grado, habilidades trabajadas (motricidad fina, vocabulario, escritura, identificación temática), número de páginas, si se incluyen campos de nombre, y usos sugeridos en línea (calentamiento matutino, actividad para los que terminan temprano, ficha de recompensa, planes para sustitutos).\n\nArchivos de vista previa: Gumroad permite un archivo de vista previa que los compradores examinan antes de comprar. Incluye 2–3 páginas para colorear de muestra en tu vista previa. Mostrar tanto la versión imprimible en escala de grises como un ejemplo coloreado genera confianza en el comprador.\n\nPaquetes en Gumroad: Los paquetes de colorear por temporada se venden excepcionalmente bien. Un «Paquete de actividades para colorear de otoño — 40 páginas con campos de nombre» atrae a vendedores que planifican de septiembre a noviembre. Crea paquetes para cada temporada, cada festividad y cada tema principal.\n\nPalabras clave específicas para Gumroad: «actividad para colorear», «para los que terminan temprano», «planes para sustitutos», «trabajo matutino», «práctica de motricidad fina», «ficha para colorear», «colorear por tema». Estos términos coinciden con cómo los vendedores buscan recursos para colorear en línea.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Precios de tus productos de páginas para colorear',
+      heading: `Precios de tus productos de páginas para colorear`,
       content: `Las páginas para colorear siguen niveles de precios bien establecidos en los marketplaces. Estos son los rangos que funcionan bien:\n\nPáginas para colorear individuales: 0,99–1,99 $. Estas sirven como productos de entrada y generadores de tráfico a la tienda. Los compradores que adquieren una sola página y les gusta a menudo regresan por paquetes.\n\nMini paquetes temáticos (5–10 páginas): 2,99–4,99 $. El punto óptimo para vendedores de Etsy. Suficientes páginas para sentir el valor, con un precio lo bastante bajo para compras impulsivas. «Paquete para colorear de animales de la granja — 10 páginas» es un formato fuerte.\n\nLibros para colorear completos (20–50 páginas): 6,99–14,99 $. Aquí es donde comienzan los ingresos serios. Posiciona estos como colecciones completas en torno a un tema. «Libro para colorear completo de animales del océano — 40 páginas» con una portada profesional e índice.\n\nMega paquetes (más de 100 páginas): 19,99–34,99 $. Los productos de mayor ingreso. Combina múltiples temas o crea un producto de «un año de colorear» con temas estacionales y festivos.\n\nLas fichas de actividades para venta en línea con elementos educativos (campos de nombre, líneas de escritura, etiquetas de vocabulario) obtienen precios un 20–40 % más altos que las páginas para colorear básicas porque sirven un doble propósito. Un paquete de 10 páginas de «Actividades de colorear y escribir» a 4,99–6,99 $ se vende bien en Gumroad.\n\nPara libros físicos en Amazon KDP, el precio depende del número de páginas y el tamaño de recorte debido a los costos de impresión. Los libros para colorear estándar (30–60 páginas) típicamente se venden a 5,99–8,99 $.`,
     },
     {
@@ -89,14 +89,14 @@ const content: GuideContent = {
       content: `Las páginas para colorear son quizás el producto imprimible más fácil de agrupar en paquetes, porque no requieren progresión de dificultad ni secuenciación de habilidades — solo coherencia temática.\n\nPaquetes temáticos: Agrupa de 10 a 20 páginas para colorear que comparten un solo tema. «Páginas para colorear de animales del océano — 15 fichas imprimibles» es un producto claro y buscable. Cada uno de los 104 temas disponibles puede producir un paquete distinto.\n\nPaquetes por edad: Diseña para grupos de edad específicos. Las páginas para colorear de niños pequeños tienen imágenes grandes y simples con contornos gruesos. Las páginas para niños en edad escolar tienen más detalle. Las páginas para colorear de adultos presentan composiciones intrincadas. El mismo tema, diferente complejidad, tres productos distintos.\n\nPaquetes estacionales: Crea colecciones de páginas para colorear para cada festividad y temporada importante. Halloween, Navidad, San Valentín, Pascua, verano, vuelta al cole. Lista cada paquete de 4 a 6 semanas antes de la temporada correspondiente. Estos productos tienen picos de demanda anuales predecibles.\n\nPaquetes de actividades: Combina páginas para colorear básicas con versiones de actividades para venta en línea (con campos de nombre, líneas de escritura y etiquetas de vocabulario). Comercializa como «Paquete de actividades de colorear y aprender» para mayor valor percibido.\n\nPaquetes de productos cruzados: Combina páginas para colorear con productos relacionados de otros generadores. Un «Paquete completo de actividades de animales de la granja» con páginas para colorear, sopas de letras y fichas de dibujo crea un paquete de alto valor con múltiples herramientas.\n\nSiempre lista tanto paquetes de páginas individuales como paquetes integrales. Los listados individuales generan visibilidad en búsquedas y tráfico. Los paquetes convierten ese tráfico en ventas de mayor valor.`,
     },
     {
-      heading: 'Oportunidades estacionales y de tendencia',
+      heading: `Oportunidades estacionales y de tendencia`,
       content: `Las páginas para colorear tienen los patrones de demanda estacional más fuertes de cualquier categoría de productos imprimibles. Entender estos patrones te permite preparar inventario antes de los picos de demanda.\n\nPicos festivos (4–6 semanas antes de cada festividad): Las páginas para colorear de Halloween ven una demanda masiva en septiembre y octubre. Las páginas para colorear de Navidad alcanzan su pico en noviembre y diciembre. Las páginas para colorear de San Valentín tienen un pico en enero y febrero. Las páginas para colorear de Pascua se venden fuertemente en marzo y abril. Crea paquetes temáticos de páginas para colorear y publícalos al menos un mes antes de cada festividad.\n\nVuelta al cole (agosto–septiembre): Los vendedores se abastecen de actividades para colorear en línea. Posiciona tus productos como recursos para venta en línea con campos de nombre y elementos educativos. «Actividad para colorear del primer día de clase» y «Ficha para colorear de conociéndonos» funcionan bien.\n\nActividades de verano (junio–agosto): Los padres buscan actividades sin pantallas para mantener ocupados a los niños. «Libro para colorear de verano para niños» y «Páginas para colorear de viaje» capturan esta demanda. El formato de página Cuadrado funciona particularmente bien para páginas para colorear de viaje que caben en bolsas más pequeñas.\n\nDías de lluvia y actividades de interior: Demanda perenne que aumenta durante los meses de invierno y las temporadas de lluvia. Posiciona los paquetes para colorear como «paquetes de actividades de interior» para padres.\n\nTendencia de colorear para adultos: Los libros para colorear de adultos siguen siendo un mercado significativo en Amazon KDP. Composiciones intrincadas y detalladas con temas de naturaleza, mandalas y patrones se venden a un público completamente diferente al de las páginas para colorear infantiles. La misma herramienta crea ambos tipos de productos.`,
     },
   ],
 
   examples: [
     {
-      heading: 'Variaciones de productos por tema y formato',
+      heading: `Variaciones de productos por tema y formato`,
       content: `Aquí tienes ejemplos concretos de productos que puedes crear con el Generador de páginas para colorear, organizados por tema y formato.\n\nPáginas para colorear clásicas con una sola imagen: Coloca una imagen temática grande centrada en una página Carta vertical. Añade un título en la parte superior («Colorea el león») y deja mucho espacio en blanco para colorear. Estas funcionan mejor para niños pequeños y preescolares que necesitan imágenes grandes y claras. Crea de 10 a 20 por tema para un mini paquete.\n\nPáginas para colorear estilo collage: Dispón de 4 a 8 imágenes más pequeñas por la página en una composición equilibrada. Usa el dibujo a mano alzada para añadir elementos de conexión como líneas de suelo, hierba o detalles de fondo. Estas páginas más cargadas son adecuadas para niños de infantil en adelante que quieren más contenido para colorear. Una «Escena de animales de la granja» con granero, valla y múltiples animales crea una experiencia rica para colorear.\n\nFichas de actividad de colorear y etiquetar: Coloca imágenes temáticas por la página y añade etiquetas de texto junto a cada una. Incluye el campo de nombre y las líneas de escritura en la parte inferior. Los vendedores compran estas como actividades combinadas de vocabulario y escritura. «Animales del océano — Colorea y etiqueta» con ilustraciones de ballena, delfín, pulpo y estrella de mar más etiquetas es un producto fuerte para Gumroad.\n\nPáginas para colorear digitales en formato cuadrado: Usa el tamaño de página Cuadrado para páginas para colorear diseñadas para compartir digitalmente. Estas funcionan como desafíos de colorear en redes sociales, actividades de proyector en línea o aplicaciones de colorear en tabletas. El formato cuadrado también encaja bien en publicaciones de Instagram para promocionar tus productos.`,
     },
     {
@@ -149,31 +149,31 @@ const content: GuideContent = {
     },
     {
       slug: 'crear-fichas-escritura',
-      title: 'Crear fichas de práctica de escritura',
+      title: `Crear fichas de práctica de escritura`,
       description: `Las fichas de práctica de escritura son un complemento natural de las páginas para colorear, especialmente para paquetes de actividades para venta en línea dirigidos a usuarios de educación infantil.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'dibujos-colorear-fichas', anchorText: `Generador de páginas para colorear — Todos los detalles` },
     { pageType: 'app', slug: 'dibujo-cuadricula-fichas', anchorText: `Generador de dibujar y colorear — Todos los detalles` },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el generador de páginas para colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Prueba el generador de páginas para colorear` },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `La herramienta principal de esta guía. Un diseñador de lienzo de forma libre con más de 3100 imágenes temáticas, dibujo a mano alzada, ayudas para venta en línea y exportación en escala de grises con un solo clic para crear páginas para colorear listas para imprimir.`,
     },
     {
       appId: 'draw-and-color',
-      title: 'Generador de dibujar y colorear',
+      title: `Generador de dibujar y colorear`,
       description: `Un compañero avanzado de dibujo e ilustración con herramientas creativas adicionales. Combínalo con el Generador de páginas para colorear para productos artísticos más complejos.`,
     },
     {
@@ -183,27 +183,27 @@ const content: GuideContent = {
     },
     {
       appId: 'pattern-worksheet',
-      title: 'Generador de fichas de patrones',
+      title: `Generador de fichas de patrones`,
       description: `Fichas de reconocimiento de patrones visuales que complementan las páginas para colorear en paquetes educativos. Combina ejercicios de patrones con páginas para colorear temáticas para líneas de productos enfocadas en el aprendizaje.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear creada a partir de imágenes temáticas mostrando la conversión a escala de grises para fichas para colorear listas para imprimir' },
+    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear creada a partir de imágenes temáticas mostrando la conversión a escala de grises para fichas para colorear listas para imprimir` },
     samples: [
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear temática con ilustraciones de animales dispuestas en un lienzo de forma libre', caption: 'Página para colorear creada usando imágenes temáticas de la biblioteca con colocación en lienzo de forma libre' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear en escala de grises lista para imprimir con contornos limpios en blanco y negro', caption: 'La exportación en escala de grises convierte diseños coloridos en páginas para colorear listas para imprimir' },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear temática con ilustraciones de animales dispuestas en un lienzo de forma libre`, caption: `Página para colorear creada usando imágenes temáticas de la biblioteca con colocación en lienzo de forma libre` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear en escala de grises lista para imprimir con contornos limpios en blanco y negro`, caption: `La exportación en escala de grises convierte diseños coloridos en páginas para colorear listas para imprimir` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Cómo crear páginas para colorear a partir de imágenes temáticas — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Alosaurio — imagen educativa temática', caption: 'Alosaurio' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Anquilosaurio — imagen educativa temática', caption: 'Anquilosaurio' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurio — imagen educativa temática', caption: 'Apatosaurio' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurio — imagen educativa temática', caption: 'Argentinosaurio' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Braquiosaurio — imagen educativa temática', caption: 'Braquiosaurio' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Alosaurio — imagen educativa temática`, caption: 'Alosaurio' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Anquilosaurio — imagen educativa temática`, caption: 'Anquilosaurio' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurio — imagen educativa temática`, caption: 'Apatosaurio' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurio — imagen educativa temática`, caption: 'Argentinosaurio' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Braquiosaurio — imagen educativa temática`, caption: 'Braquiosaurio' },
   ],
 };
 

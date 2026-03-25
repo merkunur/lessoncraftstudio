@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Abonnementbox Printables Verkopen — Nichegids',
+    titleTag: `Abonnementbox Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek werkblad abonnementbox ideeën om te verkopen op Etsy, Gumroad en Patreon. Bouw terugkerende omzet op met maandelijkse werkbladpakketten en bundels.`,
 
-    primaryKeyword: 'abonnementbox printable ideeën',
+    primaryKeyword: `abonnementbox printable ideeën`,
     secondaryKeywords: [
-      'printable abonnement business model',
-      'maandelijks werkblad abonnement',
-      'terugkerende printable leveringsservice',
-      'printable abonnementen verkopen online',
+      `printable abonnement business model`,
+      `maandelijks werkblad abonnement`,
+      `terugkerende printable leveringsservice`,
+      `printable abonnementen verkopen online`,
     ],
     lsiKeywords: [
-      'maandelijkse educatieve leveringsproducten',
-      'terugkerend werkblad omzetmodel',
-      'gecureerd printable pakketservice',
+      `maandelijkse educatieve leveringsproducten`,
+      `terugkerend werkblad omzetmodel`,
+      `gecureerd printable pakketservice`,
     ],
   },
   hero: {
@@ -40,12 +40,12 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
 
   productIdeas: [
     {
-      title: 'Maandelijks Rekenpakket Abonnement voor Verkopers',
+      title: `Maandelijks Rekenpakket Abonnement voor Verkopers`,
       description: `Een maandelijks rekenpakket abonnement levert elke maand vijftien tot twintig verse rekenwerkbladen op progressief toenemende moeilijkheid die het schooljaarproductcatalogus volgt. Gebruik de Optellen-generator en andere rekentools om werkbladen te produceren die elke maand iets complexer worden — september start met herhalingsoefeningen, december introduceert nieuwe concepten, maart biedt verdieping, en juni sluit af met toetsvoorbereiding. Bied niveaus aan per groep zodat abonnees het passende pakket selecteren voor hun kind of klas. Dit abonnementsmodel converteert de dagelijkse behoefte aan rekenoefening in voorspelbare maandelijkse omzet. Probeer de gratis proefversie met watermerk.`,
       appId: 'addition',
     },
     {
-      title: 'Thematisch Maandpakket Abonnement Online Verkopen',
+      title: `Thematisch Maandpakket Abonnement Online Verkopen`,
       description: `Een thematisch maandpakket abonnement levert elke maand een complete set werkbladen rond een seizoens- of themagebonden onderwerp — dieren in september, herfst in oktober, kerst in december, ruimte in januari. Gebruik de Woordzoeker-generator om woordzoekers te maken die elke maand een ander thematisch vocabulaire behandelen, gecombineerd met bijpassende tel-, koppel- en kleuractiviteiten uit de andere generators. Dit abonnementsmodel spreekt verkopers bijzonder aan die elke maand vers thematisch materiaal nodig hebben voor hun klasactiviteiten.`,
       appId: 'wordsearch',
     },
@@ -55,7 +55,7 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
       appId: 'matching',
     },
     {
-      title: 'Kleuterklas Maandpakket Abonnement voor Verkopers',
+      title: `Kleuterklas Maandpakket Abonnement voor Verkopers`,
       description: `Een kleuterklas maandpakket abonnement levert elke maand vijftien tot twintig werkbladen specifiek ontworpen voor groep 1-2 verkopers die vers thematisch materiaal nodig hebben voor hun kleuterproductlijnen. Gebruik de Zoek en Tel-generator om elke maand verse telscènes te maken rond het seizoensthema — peuterspeelzaal niveau in september oplopend naar schoolgereedheid in juni. Combineer met koppel-, patroon- en kleuractiviteiten uit andere generators. Dit abonnement bedient het meest loyale verkopersegment dat jaarrond vers materiaal koopt.`,
       appId: 'find-and-count',
     },
@@ -65,27 +65,27 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
       appId: 'coloring',
     },
     {
-      title: 'Feestdagen en Seizoenen Abonnement voor Verkopers',
+      title: `Feestdagen en Seizoenen Abonnement voor Verkopers`,
       description: `Een feestdagen en seizoenen abonnement levert elke maand een complete set werkbladen rond de feestdag of het seizoen van die maand. Gebruik de Plaatjesbingo-generator om maandelijkse bingospellen te maken rond seizoensthema's — Halloweenbingo in oktober, Kerstbingo in december, Lentebingo in maart — gecombineerd met bijpassende werkbladen uit andere generators. Dit abonnement spreekt verkopers en ouders aan die seizoensgebonden materiaal waarderen maar geen tijd hebben om het elke maand zelf te zoeken.`,
       appId: 'bingo',
     },
     {
-      title: 'Visuele Discriminatie Maandtraining Abonnement',
+      title: `Visuele Discriminatie Maandtraining Abonnement`,
       description: `Een visuele discriminatie maandtraining abonnement levert elke maand tien tot vijftien verse schaduwkoppelwerkbladen op progressief toenemende moeilijkheid die visuele waarnemingsvaardigheden systematisch opbouwt. Gebruik de Schaduw Koppelen-generator om elke maand een nieuwe thematische set te produceren met geleidelijk subtielere vormverschillen. Dit gespecialiseerde abonnement bedient therapeuten, speciale productenverkopers en ouders die een gestructureerd programma voor visuele discriminatieontwikkeling zoeken.`,
       appId: 'shadow-match',
     },
     {
-      title: 'Patroondenken Maandprogramma Abonnement',
+      title: `Patroondenken Maandprogramma Abonnement`,
       description: `Een patroondenken maandprogramma abonnement levert elke maand tien tot vijftien patronenwerkbladen op progressief toenemende complexiteit die wiskundig denken systematisch ontwikkelt. De Patronenwerkblad-generator maakt reeksen die elke maand een iets complexer patroonniveau introduceren — van AB-patronen in september tot getallenpatronen met sprongen in juni. Dit abonnement spreekt verkopers en thuisonderwijzende ouders aan die een gestructureerd opbouwprogramma waarderen.`,
       appId: 'pattern-worksheet',
     },
     {
-      title: 'Woordenschat Maandverrijking Abonnement',
+      title: `Woordenschat Maandverrijking Abonnement`,
       description: `Een woordenschat maandverrijking abonnement levert elke maand tien tot vijftien letterpuzzels en woordactiviteiten rond een nieuw thematisch vocabulaire. Gebruik de Letterpuzzel-generator om puzzels te maken die elke maand een ander woordenschatgebied verkennen — dierenwoorden, lichaamsdelen, beroepen, voedsel — op progressieve moeilijkheid. Dit abonnement spreekt taalverkopers en ouders aan die systematische woordenschatverrijking zoeken.`,
       appId: 'word-scramble',
     },
     {
-      title: 'Creatieve Kunst Maandpakket Abonnement',
+      title: `Creatieve Kunst Maandpakket Abonnement`,
       description: `Een creatieve kunst maandpakket abonnement levert elke maand acht tot twaalf begeleide tekenactiviteiten rond een seizoensgebonden of thematisch onderwerp. De Tekenen en Kleuren-generator maakt gestructureerde tekenwerkbladen die elke maand een nieuw thema verkennen — dieren in september, herfstlandschappen in oktober, winterscènes in december. Dit abonnement spreekt ouders en verkopers aan die creatieve pauzes en kunstactiviteiten zoeken als aanvulling op academische werkbladen.`,
       appId: 'draw-and-color',
     },
@@ -99,12 +99,12 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
     },
     {
       platform: 'Shopify',
-      title: 'Abonnementswinkels Opzetten op Shopify',
+      title: `Abonnementswinkels Opzetten op Shopify`,
       description: `Shopify biedt robuuste abonnementsoplossingen via apps als Recharge, Bold Subscriptions en PayWhirl die terugkerende betalingen en automatische contentlevering mogelijk maken. Bouw een complete abonnementswebwinkel op met maandelijkse, kwartaal- en jaarplannen op verschillende prijspunten. De integratie met iDEAL maakt Shopify bijzonder geschikt voor de Nederlandse markt waar automatische incasso een vertrouwde betaalmethode is. Bied een gratis proefmaand aan om potentiële abonnees de contentkwaliteit te laten ervaren voordat ze zich verbinden aan een doorlopend abonnement.`,
     },
     {
       platform: 'Etsy',
-      title: 'Abonnementsachtige Producten Verkopen op Etsy',
+      title: `Abonnementsachtige Producten Verkopen op Etsy`,
       description: `Hoewel Etsy geen native abonnementsfunctionaliteit biedt, kun je abonnementsachtige producten creëren via maandelijkse geprogrammeerde vermeldingen en "groeiende bundels" die kopers aanmoedigen om maandelijks terug te keren. Bied een "Januari Werkbladpakket," "Februari Werkbladpakket" enzovoort aan als afzonderlijke vermeldingen die kopers maandelijks kopen. Gebruik Etsy's "instant download" format voor directe digitale levering. De trouwe kopers die elke maand terugkeren voor je volgende pakket functioneren effectief als informele abonnees. Combineer met e-mailmarketing via je eigen website om kopers te herinneren wanneer je volgende maandpakket beschikbaar is.`,
     },
     {
@@ -121,7 +121,7 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
     },
     {
       question: `Hoeveel content moet ik maandelijks leveren voor een abonnement?`,
-      answer: `De optimale maandelijkse contentomvang is vijftien tot twintig werkbladpagina's voor een standaard abonnement en dertig tot veertig pagina's voor een premium abonnement. Dit volume biedt voldoende waarde om de maandelijkse abonnementsprijs te rechtvaardigen — typisch vijf tot tien euro voor standaard en tien tot vijftien euro voor premium — terwijl het producteerbaar blijft binnen een redelijke creatietijdinvestering per maand. Gebruik onze werkblad-generator tools met de gratis proefversie om te testen hoeveel content je efficiënt kunt produceren voordat je je abonnement lanceert. De antwoordsleutelgeneratie bespaart aanzienlijke creatietijd per werkblad.`,
+      answer: `De optimale maandelijkse contentomvang is vijftien tot twintig werkbladpagina`s voor een standaard abonnement en dertig tot veertig pagina`s voor een premium abonnement. Dit volume biedt voldoende waarde om de maandelijkse abonnementsprijs te rechtvaardigen — typisch vijf tot tien euro voor standaard en tien tot vijftien euro voor premium — terwijl het producteerbaar blijft binnen een redelijke creatietijdinvestering per maand. Gebruik onze werkblad-generator tools met de gratis proefversie om te testen hoeveel content je efficiënt kunt produceren voordat je je abonnement lanceert. De antwoordsleutelgeneratie bespaart aanzienlijke creatietijd per werkblad.`,
     },
     {
       question: `Hoe verminder ik churn en behoud ik mijn abonnees?`,
@@ -149,62 +149,62 @@ De schaalbaarheidsmogelijkheden van het abonnementsmodel zijn bijzonder aantrekk
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
+      anchorText: `Professionele optelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'digital-download-printable-ideas',
-      anchorText: 'Digitale download printable businessideeën',
+      slug: `digital-download-printable-ideas`,
+      anchorText: `Digitale download printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Rekenfeiten printable businessideeën',
+      anchorText: `Rekenfeiten printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Thuisonderwijs printable businessideeën',
+      anchorText: `Thuisonderwijs printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

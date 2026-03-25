@@ -10,11 +10,11 @@ const content: AppContent = {
       `data graphing worksheet creator commercial license`,
     ],
     lsiKeywords: [
-      'digital pictograph printables online business',
-      'printable data representation worksheet business',
-      'commercial use picture graph generator',
+      `digital pictograph printables online business`,
+      `printable data representation worksheet business`,
+      `commercial use picture graph generator`,
     ],
-    titleTag: 'Picture Graph Generator | Create Chart Worksheets',
+    titleTag: `Picture Graph Generator | Create Chart Worksheets`,
     metaDescription: `Create picture graph worksheets to sell on Etsy, KDP & Gumroad. Auto answer key with highlights, 104 themes, 6 image types per sheet.`,
   },
 
@@ -26,10 +26,10 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Picture Graph Worksheets in 5 Steps',
+    title: `How to Create Picture Graph Worksheets in 5 Steps`,
     steps: [
       {
-        title: 'Set Your Page Layout and Identification Fields',
+        title: `Set Your Page Layout and Identification Fields`,
         description:
           `Open the Page Setup panel and choose a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Pick a page color using the color picker — white is the default for clean worksheets. Check the Include Name/Date box to add formatted "Name: ____" and "Date: ____" fields at the bottom of the page for a professional worksheet layout. Select a background theme and a border theme from the built-in library, each with an independent opacity slider (0–1, step 0.05) for subtle or bold decorative framing.`,
       },
@@ -39,17 +39,17 @@ const content: AppContent = {
           `Open the Image Library panel and select an image source from the Worksheet Image Source dropdown. Choose a theme like Animals, Food, or Vehicles for automatic selection — the app randomly picks 6 images from that theme. Alternatively, switch to manual mode: browse the Image Library by theme or search, then click exactly 6 images to select them. Selected images appear in a preview strip where you can click to remove and replace individual picks. With no theme selected, the app picks 6 random images from all available collections.`,
       },
       {
-        title: 'Generate the Picture Graph Worksheet',
+        title: `Generate the Picture Graph Worksheet`,
         description:
           `Click Generate to create the worksheet. The app arranges 20 scattered icons from your 6 selected image types in a 4×5 grid with a dashed border at the top of the page. Below the grid, a 6-column × 5-row bar chart appears with each column labeled by one of the 6 image types. Rows are numbered 1–5 from bottom to top. An auto-generated header displays a localized "Picture Graph" title and counting instructions in a styled yellow pill with orange border frame. The worksheet canvas shows empty chart cells ready to be filled in.`,
       },
       {
-        title: 'Customize with Text Tools and Canvas Editing',
+        title: `Customize with Text Tools and Canvas Editing`,
         description:
           `Use the Text Tools panel to add titles, labels, or instructions with seven font choices: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, text color, outline color, and outline width (0–10 with 0.5-step granularity) for readable headings. Drag, resize, rotate, and reposition elements anywhere on the Fabric.js canvas. Use layer controls to manage stacking order, lock finished elements, and zoom from 25% to 300% for precision. Undo and redo up to 20 history states with Ctrl+Z and Ctrl+Y.`,
       },
       {
-        title: 'Generate the Answer Key and Download Everything',
+        title: `Generate the Answer Key and Download Everything`,
         description:
           `Switch to the Answer Key tab to see the auto-generated solution — the bar chart cells are filled with yellow (#FFC857) highlighting showing the correct count for each image type. Toggle the grayscale option for ink-friendly versions. Download all four files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI. Files are named worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf for easy organization. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -65,12 +65,12 @@ const content: AppContent = {
           `Each generated worksheet combines two interconnected elements: a 4×5 grid containing 20 scattered icons from 6 different image types, and a 6-column × 5-row bar chart where each column corresponds to one image type. The image types each appear 1–5 times in the grid (maximum 5 per type, randomly distributed), creating a unique counting challenge every time you generate. Solvers count how many of each image type appear in the grid, then color the matching number of cells in the chart below. This two-part format covers data collection and data representation simultaneously — the core of early graphing skills.`,
       },
       {
-        title: 'Auto-Generated Answer Key with Filled Chart Cells',
+        title: `Auto-Generated Answer Key with Filled Chart Cells`,
         description:
           `Every worksheet generates a matching answer key simultaneously on a separate canvas tab. The answer key displays the same image grid and bar chart, but with the correct cells filled in yellow (#FFC857) highlighting. At a glance, the answer key shows how many of each image type should appear in the chart. Switch between the Worksheet and Answer Key tabs to compare. Download both versions independently — worksheet JPEG/PDF and answer key JPEG/PDF — giving you four production-ready files from a single generation. The automatic answer key eliminates manual counting and ensures accuracy across large worksheet bundles.`,
       },
       {
-        title: 'Automatic and Manual Image Selection Modes',
+        title: `Automatic and Manual Image Selection Modes`,
         description:
           `The Worksheet Image Source dropdown provides two approaches to choosing the 6 images that appear on each worksheet. In automatic mode, select a theme (Animals, Food, Vehicles, and 101 more) and the app randomly picks 6 images from that collection. In manual mode, browse the Image Library by theme or search by keyword, then click exactly 6 images to select them — a preview strip shows your selections with click-to-remove functionality. With no theme selected, the app draws 6 random images from all available collections. Both modes guarantee exactly 6 image types per worksheet for consistent chart formatting.`,
       },
@@ -103,74 +103,74 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Graph Worksheets Online',
+    title: `How to Sell Picture Graph Worksheets Online`,
     cases: [
       {
-        title: 'Themed Picture Graph Bundles on Etsy',
+        title: `Themed Picture Graph Bundles on Etsy`,
         description:
           `Create themed picture graph packs using the 104 image collections — animal counting graphs, food data charts, vehicle tallying sheets, nature observation graphs, and dozens more. Each theme provides enough images for 10–20 unique worksheets with different random distributions. Include the auto-generated answer key with every worksheet for buyer convenience. Package themes as individual bundles at $3–$5 each, or combine multiple themes into mega packs at $12–$18. The scattered image grid with 6 types per sheet ensures every worksheet is unique and impossible to recreate manually, giving your products genuine originality.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Data Skills Workbooks on Amazon KDP',
+        title: `Data Skills Workbooks on Amazon KDP`,
         description:
           `Compile 60–100 picture graph worksheets into a printed data skills workbook formatted for Amazon KDP. Structure chapters by theme: Chapter 1 covers animal counting, Chapter 2 food graphs, Chapter 3 vehicle data, and so on. Toggle grayscale export for ink-friendly pages ready for black-and-white book interiors. Include answer key pages at the back of each chapter as reference pages. The dual-canvas generation produces both worksheet and answer key automatically, so building a 100-page workbook with complete solutions takes a fraction of the time compared to manual creation.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Tiered Data Skills Bundles for Your Store',
+        title: `Tiered Data Skills Bundles for Your Store`,
         description:
           `Build tiered product lines around picture graphs — offer a starter pack with 10 worksheets at a low entry price, a standard pack with 30 worksheets at mid-range, and a premium bundle with 80+ worksheets covering all themes. The name/date checkbox makes every worksheet print-ready with no additional formatting needed. Each worksheet comes with its own answer key, eliminating production time. Tiered pricing lets buyers self-select, increases average order value, and gives you natural upsell paths across your store.`,
-        platform: 'Etsy / Gumroad / Your Own Store',
+        platform: `Etsy / Gumroad / Your Own Store`,
       },
       {
-        title: 'Seasonal Graphing Collections for Maximum Sales',
+        title: `Seasonal Graphing Collections for Maximum Sales`,
         description:
           `Picture graphs pair naturally with seasonal themes for year-round product releases. Use animal themes for spring collections, food themes for Thanksgiving bundles, vehicle themes for back-to-school packs, and holiday themes for peak Q4 sales. The 104 themed collections cover virtually every popular content category, letting you create data representation worksheets that match trending search terms throughout the year. Sell seasonal bundles that appeal to buyers looking for timely, themed activities — a proven strategy for consistent revenue on all major platforms.`,
         platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
-        title: 'Seasonal Counting and Graphing Collections',
+        title: `Seasonal Counting and Graphing Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine's hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine's data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine`s hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine`s data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'How does the picture graph worksheet work?',
+      question: `How does the picture graph worksheet work?`,
       answer:
         `Each worksheet has two parts. The top section displays a 4×5 grid containing 20 scattered icons from 6 different image types — each type appears 1–5 times, randomly distributed. The bottom section shows a 6-column × 5-row bar chart with columns labeled by each image type and rows numbered 1–5 from bottom to top. Solvers count how many of each image type appear in the grid, then color or fill the corresponding number of cells in the matching column. This covers both data collection (counting) and data representation (graphing) in a single activity.`,
     },
     {
-      question: 'How does the automatic image selection work?',
+      question: `How does the automatic image selection work?`,
       answer:
         `Open the Image Library panel and use the Worksheet Image Source dropdown to select a theme. The app randomly picks 6 images from that theme's collection. If you prefer manual control, switch to manual mode: browse themes or search by keyword, then click exactly 6 images. Selected images appear in a preview strip where you can click any image to remove it and pick a replacement. With no theme selected, the app draws 6 random images from all available collections. Every mode guarantees exactly 6 image types per worksheet.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `When you generate a worksheet, the app simultaneously creates a matching answer key on a separate canvas tab. The answer key shows the same image grid and bar chart, but the correct cells in the chart are filled with yellow (#FFC857) highlighting. Switch between the Worksheet and Answer Key tabs to compare. Download each version independently using the four download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. The answer key is generated automatically — no manual counting required.`,
     },
     {
-      question: 'What is the localized header on each worksheet?',
+      question: `What is the localized header on each worksheet?`,
       answer:
         `Every generated worksheet includes a styled header with a yellow pill background (#FFD93D), white inner pill, and orange border frame. The header displays a "Picture Graph" title and counting instructions that automatically translate into whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. The header adapts for landscape mode with a compact layout. You do not need to create or format the header manually.`,
     },
     {
-      question: 'How do the name and date fields work?',
+      question: `How do the name and date fields work?`,
       answer:
         `In the Page Setup panel, check the Include Name/Date box to add formatted "Name: ____" and "Date: ____" fields at the bottom of the worksheet page. The fields use Fredoka font at 18px in #333 color. The worksheet includes identification fields for a professional layout. This makes worksheets immediately print-ready without any additional formatting. Uncheck the box to remove the fields for products that do not need identification lines.`,
     },
     {
-      question: 'How do background and border themes work?',
+      question: `How do background and border themes work?`,
       answer:
         `The Page Setup panel offers both background themes and border themes loaded from the built-in theme library. Each has an independent opacity slider (0–1, step 0.05), so you can set a subtle background at low opacity while keeping a bold border at full strength, or any combination you prefer. Background themes fill the page area behind the image grid and chart, while border themes frame the outer edge. Together they add decorative polish without interfering with the worksheet content.`,
     },
     {
-      question: 'How does the grayscale toggle work?',
+      question: `How does the grayscale toggle work?`,
       answer:
         `The grayscale toggle in the Download panel converts your entire worksheet or answer key to grayscale at export time. Your canvas remains in full color for easy visual editing — grayscale is only applied to the exported file. This produces ink-friendly output for bulk printing where color ink is expensive or unavailable, and for Amazon KDP book interiors that require black-and-white pages. The grayscale toggle works independently for both worksheet and answer key exports.`,
     },
@@ -185,7 +185,7 @@ const content: AppContent = {
         `Yes. You can access every feature — the dual canvas, image grid generation, bar chart creation, auto answer key, image library, background and border themes, name/date fields, grayscale export, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.`,
     },
     {
-      question: 'Is the Chart Count Generator language-sensitive?',
+      question: `Is the Chart Count Generator language-sensitive?`,
       answer:
         `No. The Chart Count Generator produces visual counting worksheets where users count images and fill bar chart cells — numbers and pictures are universal. Changing the language only affects the UI labels in the generator interface, the auto-generated header title and instructions, and the image library content labels. The worksheet output itself works identically in every language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.`,
     },
@@ -205,12 +205,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'big-small-worksheets',
-      anchorText: 'Big & Small Worksheet Generator',
+      anchorText: `Big & Small Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'pattern-train-worksheets',
-      anchorText: 'Pattern Train Worksheet Generator',
+      anchorText: `Pattern Train Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -220,12 +220,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'draw-and-color-worksheets',
-      anchorText: 'Draw & Color Worksheet Generator',
+      anchorText: `Draw & Color Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'drawing-lines-worksheets',
-      anchorText: 'Drawing Lines Worksheet Generator',
+      anchorText: `Drawing Lines Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -240,38 +240,38 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids\' Activities',
+      anchorText: `Summer Printable Ideas for Kids' Activities`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
+      anchorText: `Christmas Printable Ideas for Seasonal Sales`,
     },
     {
       pageType: 'start',
       slug: 'etsy-printable-business',
-      anchorText: 'Build Your Etsy Printable Business',
+      anchorText: `Build Your Etsy Printable Business`,
     },
     {
       pageType: 'guide',
       slug: 'create-chart-count-worksheets',
-      anchorText: 'How to Create Chart & Count Worksheets',
+      anchorText: `How to Create Chart & Count Worksheets`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/chart count/chart count.webp',
+      primary: `/samples/english/chart count/chart count.webp`,
       primaryAlt: `Picture graph worksheet with scattered image grid and bar chart — count and graph 6 image types`,
     },
     sampleGallery: [
       {
-        src: '/samples/english/chart count/Picture Graph 1.webp',
+        src: `/samples/english/chart count/Picture Graph 1.webp`,
         alt: `Animal theme picture graph worksheet with 20 scattered animal icons and empty bar chart`,
         caption: `Animal theme picture graph — 6 animal types scattered across the grid with bar chart below`,
       },
       {
-        src: '/samples/english/chart count/Picture Graph 5.webp',
+        src: `/samples/english/chart count/Picture Graph 5.webp`,
         alt: `Picture graph answer key with yellow highlighted cells showing correct counts for each image type`,
         caption: `Auto-generated answer key — yellow-filled cells show the correct count for each image type`,
       },

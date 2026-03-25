@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Zeedieren Printables Verkopen — Nichegids',
+    titleTag: `Zeedieren Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende zeedieren printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Productconcepten, platformstrategieën en tips voor verkopers.`,
 
     primaryKeyword: 'zeedieren printable ideeën',
     secondaryKeywords: [
       'zeedieren werkbladen verkopen',
-      'oceaanthema printable business',
-      'zee activiteiten voor verkopers',
-      'oceaan printables verkopen op Etsy',
+      `oceaanthema printable business`,
+      `zee activiteiten voor verkopers`,
+      `oceaan printables verkopen op Etsy`,
     ],
     lsiKeywords: [
       'mariene educatieve werkbladen',
-      'onderwaterthema activiteitenpagina\'s',
-      'zeeleven printbare producten printables',
+      `onderwaterthema activiteitenpagina's`,
+      `zeeleven printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Zeedieren Printable Businessideeën voor Verkopers',
+    title: `Zeedieren Printable Businessideeën voor Verkopers`,
     description: `Zeedieren boeien kinderen van alle leeftijdsgroepen, waardoor het zeeleven een van de meest veelzijdige thema's is op de markt voor educatieve printables. Van peuters die kleurrijke vissen koppelen tot kinderen in groep 4 die walvisthema rekenopgaven oplossen — de onderwaterwereld wekt nieuwsgierigheid en betrokkenheid die zorgt voor consistente kopersvraag. Voor printable-verkopers biedt de oceaanniche het hele jaar door basisverkopen met een krachtige zomerse seizoenspiek wanneer strandvakanties, bezoeken aan het aquarium en marien-wetenschapskampen gezinsactiviteiten domineren. Het thema sluit ook natuurlijk aan bij lesplannen over habitats, ecosystemen en dierclassificatie, waardoor Gumroad-verkopers een sterke positie hebben bij klasverkopers. Of je nu gespecialiseerd bent in rekenwerkbladen, taalactiviteiten of creatieve kunstprintables, zeedieren bieden rijk visueel materiaal en divers vocabulaire dat zich vertaalt in overtuigende producten op elk platform. Deze gids beschrijft specifieke productideeën, platformstrategieën en nichepositionering om je te helpen een bloeiende printable business met oceaanthema op te bouwen met onze werkblad-generator tools. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De niche van zeedieren printables profiteert van een unieke combinatie van educatieve relevantie, visuele aantrekkingskracht en emotionele fascinatie die weinig andere thema\'s kunnen evenaren. Kinderen worden van nature aangetrokken tot zeewezens vanwege hun exotische vormen, levendige kleuren en het mysterie van onderwateromgevingen. Deze intrinsieke interesse betekent dat ouders en verkopers onwillige gebruikers niet hoeven te overtuigen om zich bezig te houden met materiaal met oceaanthema, wat zich direct vertaalt in positieve beoordelingen en herhaalaankopen voor verkopers die kwaliteitsproducten leveren.
@@ -38,27 +38,27 @@ Verbindingen met het wetenschapsonderwijs maken zeedieren printables bijzonder w
 
   productIdeas: [
     {
-      title: 'Zeedieren Telwerkbladen voor Printable Verkopers',
+      title: `Zeedieren Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met vissen, walvissen, dolfijnen, zeesterren en zeeschildpadden behoren tot de meest gevraagde oceaan-printables voor de peuter- en kleutermarkt. Gebruik de Zoek en Tel-generator om onderwaterscènes te maken waarin kinderen specifieke zeewezens lokaliseren en tellen. Produceer sets op meerdere moeilijkheidsniveaus: tellen tot vijf voor peuters, tellen tot tien voor kleuters en sprongtellen met zeedieren voor kinderen in groep 3. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid oceaan-telpakket dat verkopers kunnen inzetten in productlijnen met gemengde vaardigheidsniveaus gedurende hun zeelevenlesunit. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen voordat je een licentie aanschaft.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Zeeleven Woordzoekpuzzels Online Verkopen',
+      title: `Zeeleven Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met oceaanvocabulaire spreken verkopers en ouders aan die taalvaardigheden opbouwen rond mariene thema's. Maak puzzels met diernamen zoals dolfijn, octopus, kwal en zeepaardje naast habitattermen zoals koraalrif, getijdenpoel en diepzee. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen voor leeftijdsgeschikte moeilijkheidsgraden. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien woorden voor oudere gebruikers. Seizoensvariaties zoals zomerse strand-woordzoekers en winterse walvismigratie-puzzels verlengen je productcatalogus over het hele jaar.`,
       appId: 'wordsearch',
     },
     {
       title: `Zeewezens Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met oceaanthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige verkopers zijn voor peuter- en kleuterdoelgroepen. Maak sets waarin kinderen zeedieren koppelen aan hun habitats, oceaanwezens aan hun silhouetten, mariene dieren aan hun namen, of vissen aan hun voedselbronnen. De Koppelen-generator produceert schone, professionele lay-outs geschikt voor zowel kleuren- als grijstintenafdrukken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer georganiseerd op moeilijkheidsprogressie van eenvoudig naar complex.`,
+      description: `Koppelwerkbladen met oceaanthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige verkopers zijn voor peuter- en kleuterdoelgroepen. Maak sets waarin kinderen zeedieren koppelen aan hun habitats, oceaanwezens aan hun silhouetten, mariene dieren aan hun namen, of vissen aan hun voedselbronnen. De Koppelen-generator produceert schone, professionele lay-outs geschikt voor zowel kleuren- als grijstintenafdrukken. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad, vooral wanneer georganiseerd op moeilijkheidsprogressie van eenvoudig naar complex.`,
       appId: 'matching',
     },
     {
-      title: 'Oceaanthema Optelwerkbladen voor Rekenverkopen',
+      title: `Oceaanthema Optelwerkbladen voor Rekenverkopen`,
       description: `Rekenwerkbladen geïllustreerd met zeewezens transformeren routinematige opteloefeningen in boeiende activiteiten die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen vissen optellen, onderwaterverhaalopgaven oplossen of oceaanthema rekenopgaven invullen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen. Rekenprintables met oceaanthema brengen een meerprijs op ten opzichte van generieke alternatieven omdat kopers mariene illustraties associëren met hogere betrokkenheid en leermotivatie voor jonge gebruikers.`,
       appId: 'addition',
     },
     {
-      title: 'Zeedieren Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Zeedieren Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn het ideale instapproduct voor een printable-winkel met oceaanthema omdat ze impulsaankopen aantrekken en snelle eerste beoordelingen genereren. De Kleuren-generator maakt gedetailleerde contouren van dolfijnen, walvissen, zeeschildpadden, koraalrifscènes en tropische vissen. Voor Etsy verkoop je individuele pagina's of samengestelde sets van tien tot vijftien. Voor KDP compileer je dertig tot vijftig oceaankleurplaten in activiteitenboeken gericht op de categorie kinderkleurboeken. Voeg educatieve elementen toe zoals soortnamen, oceaanweetjes of letterovertrekken naast elke afbeelding om je te onderscheiden van puur decoratieve opties en een hoger prijspunt te ondersteunen.`,
       appId: 'coloring',
     },
@@ -68,8 +68,8 @@ Verbindingen met het wetenschapsonderwijs maken zeedieren printables bijzonder w
       appId: 'bingo',
     },
     {
-      title: 'Zeewezens Schaduwkoppelwerkbladen Verkopen',
-      description: `Schaduwkoppelen ontwikkelt de visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen zeedieren koppelen aan hun silhouetten. De diverse lichaamsvormen van zeewezens zoals octopussen, zeepaardjes, kwallen en krabben maken oceaan-schaduwkoppelen van nature boeiend en gevarieerd. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor verkopers die in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      title: `Zeewezens Schaduwkoppelwerkbladen Verkopen`,
+      description: `Schaduwkoppelen ontwikkelt de visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, waardoor deze werkbladen populair zijn bij kleuterverkopers en ouders van kinderen van drie tot vijf jaar. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen zeedieren koppelen aan hun silhouetten. De diverse lichaamsvormen van zeewezens zoals octopussen, zeepaardjes, kwallen en krabben maken oceaan-schaduwkoppelen van nature boeiend en gevarieerd. Deze werkbladen printen prachtig in zowel kleur als grijstinten, wat belangrijk is voor verkopers die in zwart-wit printen. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -92,18 +92,18 @@ Verbindingen met het wetenschapsonderwijs maken zeedieren printables bijzonder w
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Zeedieren Printables Verkopen op Etsy',
+      title: `Zeedieren Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in zeedieren printable-vermeldingen. Richt je op long-tail zoekwoorden zoals "oceaan dieren telwerkblad kleuters" of "zeedieren kleurplaten peuters" in plaats van generieke titels. Gebruik alle dertien tags met combinaties van thema, vaardigheid, leeftijdsgroep en seizoen. Mockup-afbeeldingen die geprinte oceaanwerkbladen tonen naast strandspeelgoed, blauwe achtergronden of klasinstellingen presteren aanzienlijk beter dan platte digitale voorbeelden. Plan nieuwe vermeldingen om samen te vallen met de zomerse vraagpieken van mei tot augustus wanneer de interesse in oceaanthema's piekt. Bied zowel individuele werkbladen aan voor twee tot vier euro als themabundels voor acht tot vijftien euro, aangezien Etsy-kopers vaak beginnen met een goedkope aankoop en terugkomen voor grotere pakketten na het verifiëren van de kwaliteit. De Nederlandse markt via Etsy.nl biedt extra kansen door het relatief beperkte aanbod van Nederlandstalige zeedieren werkbladen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Zeedieren Activiteitenboeken Publiceren op KDP',
+      title: `Zeedieren Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is ideaal voor printables met oceaanthema die worden gecompileerd tot samenhangende activiteitenboeken. Een activiteitenboek met zeedieren van veertig tot zestig pagina's dat tel-, kleur-, koppel- en woordactiviteiten combineert, presteert goed in de categorie kinderactiviteitenboeken. Gebruik KDP-zoekwoordvelden strategisch met termen als "zeedieren activiteitenboek," "oceaan werkbladen voor kinderen" en leeftijdsspecifieke zinnen als "kleuter oceaanboek." Prijs tussen vier en zeven euro voor optimale royaltytarieven. De oceaanniche presteert bijzonder goed op KDP tijdens de zomermaanden wanneer ouders zoeken naar reisvriendelijke activiteitenboeken voor strandvakanties en autotrips. Bestel altijd een proefexemplaar om de printkwaliteit te verifiëren voordat je publiceert. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
       title: `Oceaanprintbare producten Maken voor Gumroad Verkopers`,
-      description: `Gumroad-kopers zijn klasverkopers die productcatalogus-afgestemd printbare producten zoeken voor direct gebruik. Zeedieren printables op Gumroad presteren het beste wanneer ze worden verpakt als complete minilessen met duidelijke productdoelen, aansluiting bij wetenschapsstandaarden en instructieaanwijzingen voor verkopers. Voeg antwoordsleutels, voorgestelde lesplannen en opties voor getrapte productpakketten voor productlijnen met gemengde vaardigheidsniveaus toe. Oceaanthema's sluiten natuurlijk aan bij wetenschapsstandaarden over habitats en ecosystemen, wat het taggen van standaarden eenvoudig maakt. Gebruik de bundelfunctie van Gumroad om individuele oceaanproducten en een bundel met korting gelijktijdig aan te bieden. Gedetailleerde productvoorbeelden die vier tot zes voorbeeldpagina's tonen converteren aanzienlijk beter dan vermeldingen met één afbeelding. Voor het Nederlandse onderwijs kun je aansluiten bij de productspecificaties voor wereldoriëntatie en natuur.`,
+      description: `Gumroad-kopers zijn klasverkopers die productcatalogus-afgestemd printbare producten zoeken voor direct gebruik. Zeedieren printables op Gumroad presteren het beste wanneer ze worden verpakt als complete minilessen met duidelijke productdoelen, aansluiting bij wetenschapsstandaarden en instructieaanwijzingen voor verkopers. Voeg antwoordsleutels, voorgestelde lesplannen en opties voor getrapte productpakketten voor productlijnen met gemengde vaardigheidsniveaus toe. Oceaanthema`s sluiten natuurlijk aan bij wetenschapsstandaarden over habitats en ecosystemen, wat het taggen van standaarden eenvoudig maakt. Gebruik de bundelfunctie van Gumroad om individuele oceaanproducten en een bundel met korting gelijktijdig aan te bieden. Gedetailleerde productvoorbeelden die vier tot zes voorbeeldpagina`s tonen converteren aanzienlijk beter dan vermeldingen met één afbeelding. Voor het Nederlandse onderwijs kun je aansluiten bij de productspecificaties voor wereldoriëntatie en natuur.`,
     },
     {
       platform: 'Gumroad en Shopify',
@@ -115,7 +115,7 @@ Verbindingen met het wetenschapsonderwijs maken zeedieren printables bijzonder w
   faq: [
     {
       question: `Hoe winstgevend is de zeedieren printable-niche voor verkopers?`,
-      answer: `De zeedieren-niche biedt sterk winstpotentieel dankzij jaarronde vraag met een krachtige zomerse seizoenspiek. Het zeeleven verschijnt in lesprogramma's op meerdere niveaucategories en in verschillende seizoenen, wat zorgt voor consistente basisverkopen buiten de piekmaanden. De zomer brengt een aanzienlijke vraagpiek wanneer gezinnen strandvakanties plannen, zomerkampen mariene thema's introduceren en ouders schermvrije oceaanactiviteiten zoeken. De winstgevendheid neemt toe naarmate je productvariatie opbouwt over meerdere prijspunten en platforms. Begin met individuele werkbladen om beoordelingen en geloofwaardigheid op te bouwen, en breid dan uit naar bundels en KDP-activiteitenboeken om je gemiddelde bestelwaarde gestaag te laten groeien.`,
+      answer: `De zeedieren-niche biedt sterk winstpotentieel dankzij jaarronde vraag met een krachtige zomerse seizoenspiek. Het zeeleven verschijnt in lesprogramma`s op meerdere niveaucategories en in verschillende seizoenen, wat zorgt voor consistente basisverkopen buiten de piekmaanden. De zomer brengt een aanzienlijke vraagpiek wanneer gezinnen strandvakanties plannen, zomerkampen mariene thema`s introduceren en ouders schermvrije oceaanactiviteiten zoeken. De winstgevendheid neemt toe naarmate je productvariatie opbouwt over meerdere prijspunten en platforms. Begin met individuele werkbladen om beoordelingen en geloofwaardigheid op te bouwen, en breid dan uit naar bundels en KDP-activiteitenboeken om je gemiddelde bestelwaarde gestaag te laten groeien.`,
     },
     {
       question: `Welke leeftijdsgroepen kopen zeedieren werkbladen het vaakst?`,
@@ -147,62 +147,62 @@ Verbindingen met het wetenschapsonderwijs maken zeedieren printables bijzonder w
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'Boerderijdieren printable businessideeën',
+      anchorText: `Boerderijdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'underwater-printable-ideas',
-      anchorText: 'Onderwaterwereld printable businessideeën',
+      anchorText: `Onderwaterwereld printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'safari-animals-printable-ideas',
-      anchorText: 'Safaridieren printable businessideeën',
+      slug: `safari-animals-printable-ideas`,
+      anchorText: `Safaridieren printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Maanvis — educatieve thema-afbeelding zeedieren', caption: 'Maanvis' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownvis — educatieve thema-afbeelding zeedieren', caption: 'Clownvis' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koraal — educatieve thema-afbeelding zeedieren', caption: 'Koraal' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krab — educatieve thema-afbeelding zeedieren', caption: 'Krab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding zeedieren', caption: 'Dolfijn' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Vis — educatieve thema-afbeelding zeedieren', caption: 'Vis' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Maanvis — educatieve thema-afbeelding zeedieren`, caption: 'Maanvis' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownvis — educatieve thema-afbeelding zeedieren`, caption: 'Clownvis' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koraal — educatieve thema-afbeelding zeedieren`, caption: 'Koraal' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krab — educatieve thema-afbeelding zeedieren`, caption: 'Krab' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding zeedieren`, caption: 'Dolfijn' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Vis — educatieve thema-afbeelding zeedieren`, caption: 'Vis' },
   ],
 
   youtubeId: '0cOPi7eajLs',

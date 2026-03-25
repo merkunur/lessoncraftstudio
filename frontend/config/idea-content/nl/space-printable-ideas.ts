@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ruimte Printables Verkopen — Nichegids',
+    titleTag: `Ruimte Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende ruimte printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Ruimtethema productconcepten, STEM-strategieën en tips voor verkopers.`,
 
     primaryKeyword: 'ruimte printable ideeën',
     secondaryKeywords: [
-      'ruimtethema werkbladen verkopen',
-      'ruimte printable business ideeën',
-      'ruimte activiteiten voor verkopers',
-      'ruimte printables verkopen op Etsy',
+      `ruimtethema werkbladen verkopen`,
+      `ruimte printable business ideeën`,
+      `ruimte activiteiten voor verkopers`,
+      `ruimte printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'sterrenkunde educatieve werkbladen',
-      'planeten en raketten activiteiten',
-      'zonnestelsel printbare producten printables',
+      `sterrenkunde educatieve werkbladen`,
+      `planeten en raketten activiteiten`,
+      `zonnestelsel printbare producten printables`,
     ],
   },
   hero: {
-    title: 'Ruimte Printable Businessideeën voor Verkopers',
+    title: `Ruimte Printable Businessideeën voor Verkopers`,
     description: `De ruimte is een van de meest universeel fascinerende thema's voor kinderen, waardoor het een krachtige altijdgroene niche is voor printable-ondernemers die consistente jaarronde verkopen willen zonder seizoensafhankelijkheid. Het ruimtethema biedt buitengewone subthemavariatie waaronder planeten, raketten, astronauten, sterren, de maan, zonnestelselmodellen, melkwegen, buitenaardse wezens, ruimtevaartuigen, sterrenbeelden, kometen, telescopen en ruimtestations, wat verkopers een diep visueel vocabulaire geeft dat verbeelding en nieuwsgierigheid opwekt bij jonge gebruikers. STEM-onderwijsaansluiting maakt ruimteprintables bijzonder waardevol voor verkopers die wetenschapsconcepten integreren in reken-, taal- en kunstactiviteiten over het hele productcatalogus. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de ruimteniche sterke jaarronde vraag met vakoverschrijdende educatieve aantrekkingskracht die resoneert bij zowel klasverkopers als thuisonderwijzende gezinnen die investeren in wetenschapsrijk leermateriaal. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De ruimte printable-niche neemt een uniek voordelige positie in voor printable-verkopers omdat het consistente jaarronde vraag levert zonder de hausse-en-baissecycli die seizoensniches kenmerken. De fascinatie van kinderen voor de ruimte is diep universeel en overschrijdt leeftijdsgroepen, culturen en onderwijsfilosofieën. Peuters zijn gefascineerd door raketten en sterren, kleuters houden van het leren van planetennamen en astronautenavonturen, en basisschoolgebruikers duiken gretig in feiten over het zonnestelsel, sterrenbeeldidentificatie en ruimteverkenningsgeschiedenis. Deze brede leeftijdsaantrekkingskracht betekent dat verkopers producten kunnen maken gericht op meerdere niveaucategories vanuit een enkel thema, waardoor hun catalogusdiepte wordt vermenigvuldigd zonder van onderwerp te wisselen.
@@ -38,27 +38,27 @@ In Nederland is ruimtevaart een bijzonder aansprekend thema dankzij de nationale
 
   productIdeas: [
     {
-      title: 'Ruimte Telwerkbladen voor Printable Verkopers',
+      title: `Ruimte Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met planeten, raketten, sterren, astronauten en manen brengen STEM-opwinding in vroege rekenoefeningen die verkopers en thuisonderwijzende ouders gretig kopen gedurende het hele schooljaar. Gebruik de Zoek en Tel-generator om ruimtescènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen raketlanceerplatforms, zonnestelsel-panorama's en sterrenveldlandschappen. Bied sets aan op meerdere vaardigheidsniveaus: ruimtevoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen planeten of groepjes sterren voor kinderen in groep 3. Bundel per moeilijkheidsgraad of combineer alle niveaus in een uitgebreid ruimte-telpakket voor STEM-gerichte productlijnen. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Ruimte Woordzoekpuzzels Online Verkopen',
+      title: `Ruimte Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met sterrenkunde vocabulaire trekken verkopers aan die STEM-units plannen en ouders die educatief vermaak zoeken dat het ruimte-enthousiasme van hun kind benut. Maak puzzels met ruimtespecifiek vocabulaire zoals planeet, raket, astronaut, komeet, maan, telescoop en melkweg naast bredere wetenschapstermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer ruimtetermen voor oudere gebruikers. Variaties zoals planetennamen, sterrenbeeldvocabulaire en ruimteverkenningsterminologie verbreden je catalogus gedurende het hele jaar.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Ruimte Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met ruimtethema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede STEM-koperspubliek. Maak sets waarin kinderen planeten koppelen aan hun positie in het zonnestelsel, ruimtevaartuigen verbinden met hun missies, astronauten matchen met hun uitrusting, of sterrenbeelden koppelen aan hun namen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die wetenschapsunits plannen waar gestructureerde werkbladen ruimteconcepten toegankelijk maken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad.`,
+      title: `Ruimte Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met ruimtethema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede STEM-koperspubliek. Maak sets waarin kinderen planeten koppelen aan hun positie in het zonnestelsel, ruimtevaartuigen verbinden met hun missies, astronauten matchen met hun uitrusting, of sterrenbeelden koppelen aan hun namen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die wetenschapsunits plannen waar gestructureerde werkbladen ruimteconcepten toegankelijk maken. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro op Etsy en Gumroad.`,
       appId: 'matching',
     },
     {
-      title: 'Ruimtethema Optelwerkbladen voor Rekenverkopers',
+      title: `Ruimtethema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met ruimte-illustraties transformeren routinematige rekenoefeningen in kosmische avonturen die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen sterren optellen, raketthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met planeten, astronauten en ruimteschepen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met ruimtevisuele context. Ruimte-rekenwerkbladen zijn bijzonder waardevol omdat ze zowel rekendoelen als wetenschapsproductcatalogus gelijktijdig bedienen, waardoor verkopers twee vliegen in één klap slaan.`,
       appId: 'addition',
     },
     {
-      title: 'Ruimte Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Ruimte Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een uitstekend instapproduct voor ruimte printable-winkels omdat het kosmische thema kinderen van alle leeftijden aanspreekt en vroege beoordelingen genereert die je winkelzichtbaarheid het hele jaar door verhogen. De Kleuren-generator maakt gedetailleerde contouren van raketten, astronauten, planeten, het zonnestelsel, sterrenbeelden, ruimtestations, kometen en melkwegen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals het zonnestelsel of ruimteverkenning. Voor KDP compileer je dertig tot vijftig kleurplaten in ruimte-activiteitenboeken gepositioneerd naast telescopen en wetenschapskits. Voeg educatieve elementen toe zoals planetennamen, ruimteweetjes of wetenschapsvocabulaire naast de kleurafbeeldingen.`,
       appId: 'coloring',
     },
@@ -92,13 +92,13 @@ In Nederland is ruimtevaart een bijzonder aansprekend thema dankzij de nationale
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Ruimte Printables Verkopen op Etsy',
+      title: `Ruimte Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in ruimte printable-vermeldingen, en het altijdgroene karakter van het ruimtethema betekent dat je vermeldingen het hele jaar door verkopen genereren zonder seizoensafhankelijkheid. Richt je op long-tail zoekwoorden zoals "ruimte telwerkbladen kleuters" of "planeten woordzoeker kleuterschool" in plaats van brede tags. Gebruik alle dertien tags met variaties die ruimtesubthema's, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte ruimtewerkbladen tonen met donkerblauwe achtergronden, sterrenthema styling of naast ruimtespeelgoed presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je ruimteproducten als STEM-printbare producten — dit resoneert sterker bij verkoperkopers dan puur thematisch vermaak. De Nederlandse markt via Etsy.nl biedt kansen door het relatief beperkte Nederlandstalige STEM-werkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Ruimte Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor ruimteprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast telescopen, ruimtespeelgoed en wetenschapskits. Compileer individuele ruimtewerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond kosmische thema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "ruimte activiteitenboek voor kinderen," "planeten werkbladen kleuters" en subthematermen toe als "zonnestelsel kleurboek" of "raket activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Ruimteboeken verkopen het hele jaar door consistent zonder seizoenspieken, wat een stabiele basislijnomzet oplevert. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Ruimte Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor ruimteprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast telescopen, ruimtespeelgoed en wetenschapskits. Compileer individuele ruimtewerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond kosmische thema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "ruimte activiteitenboek voor kinderen," "planeten werkbladen kleuters" en subthematermen toe als "zonnestelsel kleurboek" of "raket activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Ruimteboeken verkopen het hele jaar door consistent zonder seizoenspieken, wat een stabiele basislijnomzet oplevert. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -147,62 +147,62 @@ In Nederland is ruimtevaart een bijzonder aansprekend thema dankzij de nationale
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-math-puzzle-worksheets',
-      anchorText: 'Professionele rekenpuzzelwerkbladen maken',
+      anchorText: `Professionele rekenpuzzelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'transportation-printable-ideas',
-      anchorText: 'Voertuigen printable businessideeën',
+      slug: `transportation-printable-ideas`,
+      anchorText: `Voertuigen printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'construction-printable-ideas',
-      anchorText: 'Bouwplaats printable businessideeën',
+      anchorText: `Bouwplaats printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroïde — educatieve thema-afbeelding ruimte', caption: 'Asteroïde' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — educatieve thema-afbeelding ruimte', caption: 'Astronaut' },
-    { src: '/image-library/space/comet.webp', alt: 'Komeet — educatieve thema-afbeelding ruimte', caption: 'Komeet' },
-    { src: '/image-library/space/Earth.webp', alt: 'Aarde — educatieve thema-afbeelding ruimte', caption: 'Aarde' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Melkweg — educatieve thema-afbeelding ruimte', caption: 'Melkweg' },
-    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — educatieve thema-afbeelding ruimte', caption: 'Jupiter' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroïde — educatieve thema-afbeelding ruimte`, caption: 'Asteroïde' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronaut — educatieve thema-afbeelding ruimte`, caption: 'Astronaut' },
+    { src: `/image-library/space/comet.webp`, alt: `Komeet — educatieve thema-afbeelding ruimte`, caption: 'Komeet' },
+    { src: `/image-library/space/Earth.webp`, alt: `Aarde — educatieve thema-afbeelding ruimte`, caption: 'Aarde' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Melkweg — educatieve thema-afbeelding ruimte`, caption: 'Melkweg' },
+    { src: `/image-library/space/Jupiter.webp`, alt: `Jupiter — educatieve thema-afbeelding ruimte`, caption: 'Jupiter' },
   ],
 
   youtubeId: '0cOPi7eajLs',

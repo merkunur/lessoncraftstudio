@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'melhores ferramentas para vendedores imprimíveis',
+    primaryKeyword: `melhores ferramentas para vendedores imprimíveis`,
     secondaryKeywords: [
-      'ferramentas negócio imprimíveis checklist',
-      'geradores de fichas ferramentas para vendedores',
-      'ferramentas para vender imprimíveis online',
-      'conjunto ferramentas produção imprimíveis',
+      `ferramentas negócio imprimíveis checklist`,
+      `geradores de fichas ferramentas para vendedores`,
+      `ferramentas para vender imprimíveis online`,
+      `conjunto ferramentas produção imprimíveis`,
     ],
     lsiKeywords: [
-      'ferramentas vendedor Etsy descargas digitais',
-      'ferramentas produção livros atividades Amazon KDP',
-      'software criação fichas para empreendedores',
-      'automatização fluxo trabalho negócio imprimíveis',
-      'ferramentas gerador fichas multilingues',
-      'produção fichas licença comercial',
+      `ferramentas vendedor Etsy descargas digitais`,
+      `ferramentas produção livros atividades Amazon KDP`,
+      `software criação fichas para empreendedores`,
+      `automatização fluxo trabalho negócio imprimíveis`,
+      `ferramentas gerador fichas multilingues`,
+      `produção fichas licença comercial`,
     ],
     titleTag: `Melhores Ferramentas para Vendedores Imprimíveis — Guia`,
     metaDescription: `Melhores ferramentas para vendedores de imprimíveis: geradores de fichas, ferramentas de design, utilitários de plataforma e fluxos de trabalho profissionais.`,
@@ -39,19 +39,19 @@ const content: StartContent = {
       content: `Um gerador de fichas é a ferramenta mais importante no conjunto de ferramentas de um vendedor de imprimíveis. Substitui o processo manual de desenhar fichas individuais do zero — um processo que tipicamente demora duas a quatro horas por ficha em software de design tradicional — por um fluxo de trabalho automatizado que produz resultados completos e prontos a imprimir em minutos.\n\nO que torna um gerador de fichas essencial é a combinação de velocidade, qualidade e variedade que oferece. Velocidade: em vez de desenhar manualmente cada elemento, seleciona parâmetros (tema, dificuldade, número de páginas) e o gerador produz a ficha terminada. Qualidade: o resultado é um PDF a 300 DPI pronto para impressão ou entrega digital, com layouts profissionais, formatação consistente e conteúdo preciso. Variedade: cada gerador produz dezenas ou centenas de variações únicas através de diferentes combinações de tema, dificuldade e configuração.\n\nA característica mais crítica a avaliar em qualquer gerador de fichas é a geração de chaves de resposta. Fichas de matemática, sopas de letras, palavras cruzadas e outros tipos de puzzles requerem chaves de resposta precisas. Criar chaves de resposta manualmente é tedioso e propenso a erros. Os geradores que produzem chaves de resposta automaticamente poupam horas de trabalho de verificação e eliminam o risco de enviar respostas incorretas aos compradores — uma fonte garantida de avaliações negativas.\n\nAs bibliotecas de temas são a segunda característica mais importante. As fichas temáticas (animais, comida, veículos, estações) permitem a segmentação por nichos nos marketplaces. Um gerador com 10 temas produz 10 nichos potenciais de produtos. Um com mais de 100 temas produz mais de 100 nichos. A amplitude da sua biblioteca de temas determina diretamente a amplitude do seu catálogo de produtos.\n\nO teste grátis com marca d'água permite-lhe avaliar cada aspeto — qualidade do resultado, velocidade de geração, variedade de temas, precisão das chaves de resposta — antes de comprar qualquer licença. Use-o para cronometrar o seu fluxo de trabalho de produção real e calcular quantos produtos pode criar por hora de forma realista.`,
     },
     {
-      heading: 'Seis Categorias de Geradores de Fichas',
+      heading: `Seis Categorias de Geradores de Fichas`,
       content: `Os geradores de fichas abrangem seis categorias, cada uma dirigida a diferentes segmentos de compradores e nichos de marketplace. Compreender o que cada categoria produz ajuda-o a ajustar a sua seleção de ferramentas ao seu mercado-alvo.\n\nOs geradores de Matemática e Números produzem fichas de aritmética, puzzles numéricos e folhas de prática matemática. Esta categoria inclui geradores de soma, subtração, multiplicação, divisão e operações mistas, além de ferramentas especializadas como Sudoku. O conteúdo matemático vende-se durante todo o ano a pais que procuram prática complementar e vendedores que constroem recursos para a loja. É independente da língua, o que significa que as mesmas fichas funcionam em qualquer mercado do mundo.\n\nOs geradores de Letras e Palavras produzem conteúdo baseado na linguagem: sopas de letras, palavras cruzadas, anagramas, fichas de ortografia e atividades de vocabulário. Esta categoria depende da língua — os geradores que suportam múltiplas línguas permitem-lhe criar conteúdo para mercados internacionais. Os livros de sopas de letras e palavras cruzadas estão entre as categorias de livros de atividades mais vendidas no Amazon KDP.\n\nOs geradores de Fichas de Atividades produzem atividades educativas estruturadas: exercícios de associação, tarefas de identificação de imagens, fichas de traçado e atividades de categorização. Estes dirigem-se ao mercado de educação infantil — pais e vendedores de pré-escolar e jardim de infância que precisam de conteúdo apropriado para o desenvolvimento.\n\nOs geradores de Desenho e Arte produzem páginas para colorir, propostas de desenho e fichas de criatividade visual. Os livros para colorir são uma das categorias de maior volume no Amazon KDP. Dado que o conteúdo é puramente visual, não requer tradução e funciona de forma idêntica em todos os mercados linguísticos — tornando-o no tipo de produto mais portátil internacionalmente.\n\nOs geradores de Puzzles e Jogos produzem labirintos, Sudoku, puzzles lógicos e conteúdo semelhante baseado em desafios. Os livros de puzzles têm uma audiência dedicada de compradores na Amazon e vendem-se de forma consistente durante todo o ano. Os puzzles baseados em números como Sudoku não requerem qualquer localização linguística.\n\nOs geradores de Padrões e Lógica produzem fichas de reconhecimento de padrões, sequenciação e pensamento lógico. Estes dirigem-se ao mercado educativo com conteúdo que desenvolve competências de pensamento crítico — uma categoria em crescimento à medida que os pais procuram atividades de aprendizagem sem ecrã para as crianças.`,
     },
     {
-      heading: 'Ferramentas de Design e Formatação',
+      heading: `Ferramentas de Design e Formatação`,
       content: `Uma vez que a sua ferramenta de criação de conteúdo esteja em funcionamento, as ferramentas de design e formatação tratam do empacotamento que torna os seus produtos prontos para o mercado. Estas ferramentas são complementares aos geradores de fichas, não substitutos deles.\n\nO design de capas é essencial para livros de Amazon KDP. Cada livro de capa mole requer uma capa frontal, lombada e contracapa que cumpra os requisitos dimensionais específicos do KDP. O Canva oferece modelos de capas para KDP no seu nível gratuito. O Adobe Express oferece funcionalidade semelhante. O Book Bolt é uma ferramenta especializada que inclui modelos de capas para KDP com cálculos de lombada precisos baseados no número de páginas. Os geradores de fichas tratam do conteúdo interior; as ferramentas de design de capas tratam do empacotamento exterior.\n\nAs imagens de mockup são críticas para as publicações de Etsy. Os compradores não podem inspecionar fisicamente as descargas digitais, pelo que as suas imagens de publicação servem como o sinal principal de qualidade. Os geradores de mockups colocam as páginas das suas fichas em cenas realistas — sobre uma secretária, nas mãos de uma criança, junto a lápis de cor — que ajudam os compradores a visualizar o produto. O Canva, o Placeit e ferramentas semelhantes oferecem modelos de mockup especificamente para produtos imprimíveis.\n\nAs ferramentas de formatação PDF tornam-se relevantes quando empacota múltiplas fichas em pacotes maiores. Combinar fichas PDF individuais num único documento de várias páginas, adicionar um índice ou inserir uma página de capa requer manipulação de PDF. Ferramentas gratuitas como PDF Merger, iLovePDF e serviços web semelhantes tratam disto. Para vendedores que criam pacotes grandes regularmente, os editores de PDF de secretária oferecem mais controlo.\n\nO ponto-chave sobre as ferramentas de design: os geradores de fichas produzem PDFs completos e prontos a imprimir. Não precisa de software de design para criar as fichas em si. As ferramentas de design são exclusivamente para capas, imagens de publicação e empacotamento de pacotes. Esta distinção poupa aos novos vendedores uma quantia significativa de dinheiro — uma conta gratuita de Canva mais ferramentas gratuitas de PDF é suficiente para a maioria dos vendedores que estão a começar.`,
     },
     {
-      heading: 'Ferramentas e Recursos Específicos por Plataforma',
+      heading: `Ferramentas e Recursos Específicos por Plataforma`,
       content: `Cada plataforma de venda tem o seu próprio ecossistema de ferramentas para otimização de publicações, pesquisa de palavras-chave e acompanhamento do desempenho. Estas são ferramentas de categoria três — valiosas para a otimização mas só úteis depois de ter produtos para vender.\n\nOs vendedores de Etsy beneficiam de ferramentas de pesquisa de palavras-chave como eRank e Marmalead. Estas ferramentas analisam o volume de pesquisa do Etsy, os níveis de concorrência e as palavras-chave em tendência para ajudá-lo a escrever títulos e etiquetas que correspondam ao que os compradores realmente procuram. A aplicação Etsy Seller proporciona acesso móvel às analíticas da loja, gestão de encomendas e mensagens com clientes. O painel de analíticas integrado do Etsy mostra visualizações, favoritos e taxas de conversão para cada publicação — dados essenciais para identificar que produtos expandir e quais melhorar.\n\nOs editores de Amazon KDP usam o painel do KDP para gestão de livros, acompanhamento de vendas e monitorização de royalties. A calculadora de royalties do KDP permite-lhe modelar receitas em diferentes pontos de preço e contagens de páginas antes de publicar. A pesquisa de palavras-chave para KDP difere do Etsy — ferramentas como Publisher Rocket analisam o volume de pesquisa da Amazon e a concorrência para palavras-chave específicas de livros. O Author Central da Amazon fornece analíticas adicionais e gestão da página de autor.\n\nO Gumroad tem o seu próprio painel de vendedor com analíticas, acompanhamento de ganhos e gestão de produtos. O Gumroad Seller Tools oferece informações sobre desempenho e dados de comportamento de compradores. O marketplace do Gumroad tem um algoritmo de pesquisa distinto que recompensa descrições completas de produtos, pré-visualizações detalhadas e carregamentos consistentes.\n\nA ideia crítica sobre as ferramentas de plataforma é esta: as ferramentas de produção (os seus geradores de fichas) são agnósticas de plataforma. O mesmo gerador produz conteúdo adequado para Etsy, KDP, Gumroad, Gumroad ou o seu próprio site. Mas as ferramentas de otimização de publicações são específicas de cada plataforma. Uma estratégia de palavras-chave do Etsy não se transfere para o KDP, e uma análise de preços do KDP não se aplica ao Gumroad. Distribua os seus investimentos em ferramentas de plataforma conforme as plataformas em que vende ativamente, não aquelas que algum dia poderá usar.`,
     },
     {
-      heading: 'Como os Geradores de Fichas Aceleram a Produção',
+      heading: `Como os Geradores de Fichas Aceleram a Produção`,
       content: `A diferença de velocidade de produção entre a criação manual de fichas e a produção baseada em geradores é o fator mais importante na escalabilidade de um negócio de imprimíveis. Compreender esta diferença em termos concretos ajuda-o a avaliar o retorno de investimento de qualquer licença de gerador.\n\nA criação manual de fichas em software de design tradicional segue um processo de múltiplos passos: procurar ou criar ilustrações, desenhar a disposição da página, escrever e formatar o conteúdo, assegurar a precisão (problemas matemáticos, colocação de palavras, resolução do puzzle), gerar uma chave de resposta resolvendo cada problema pessoalmente, exportar para PDF pronto a imprimir e verificar a qualidade do resultado. Para uma única página de ficha, este processo demora uma a quatro horas dependendo da complexidade. Um livro de sopas de letras de 20 páginas criado manualmente pode consumir 20 a 40 horas de tempo de produção.\n\nA produção baseada em geradores comprime isto para minutos. Selecione os seus parâmetros — tema, nível de dificuldade, tamanho de grelha, número de palavras — e o gerador produz a ficha completa com chave de resposta incluída. O resultado é um PDF a 300 DPI imediatamente pronto a imprimir com formatação profissional. Um livro de sopas de letras de 20 páginas demora minutos em vez de dias.\n\nMultiplique esta diferença pelo tamanho-alvo do seu catálogo para compreender o impacto no negócio. Um vendedor que visa 100 publicações no Etsy enfrenta 200 a 400 horas de tempo de produção manual — aproximadamente 5 a 10 semanas de trabalho a tempo inteiro. Com geradores, os mesmos 100 produtos requerem uma fração desse tempo, libertando horas para otimização de publicações, marketing e expansão a outras plataformas.\n\nO teste grátis com marca d'água permite-lhe medir a sua própria velocidade de produção. Abra qualquer gerador, configure os seus parâmetros e cronometre o processo desde o início até ao PDF terminado. Essa medição concreta diz-lhe exatamente quantos produtos pode produzir por hora — a métrica operacional mais importante num negócio de imprimíveis. Produção mais rápida significa crescimento do catálogo mais rápido, o que significa acesso mais rápido aos algoritmos de descoberta dos marketplaces que favorecem catálogos maiores.`,
     },
     {
@@ -68,7 +68,7 @@ const content: StartContent = {
     },
     {
       heading: `Construir o Seu Conjunto Completo de Ferramentas: Um Roteiro Prático`,
-      content: `Montar o seu conjunto de ferramentas para o negócio de imprimíveis deve seguir uma sequência deliberada. Comprar tudo de uma vez desperdiça dinheiro em ferramentas de que pode não precisar. Construir demasiado devagar atrasa os seus primeiros produtos. Este roteiro equilibra velocidade com investimento estratégico.\n\nA fase um é avaliação. Use o teste grátis com marca d'água para testar três a cinco geradores de fichas de diferentes categorias. Gere fichas de amostra, avalie a qualidade do resultado, cronometre a sua velocidade de produção e identifique que geradores produzem produtos que correspondem ao seu mercado-alvo. Esta fase não custa nada e dá-lhe dados concretos sobre em que ferramentas investir. Duração: uma a duas semanas.\n\nA fase dois é primeira produção. Compre uma licença de gerador para o seu tipo de produto principal — o gerador que produziu o melhor resultado para o seu nicho-alvo durante a fase de teste. Configure a sua primeira conta numa plataforma de venda (Etsy, KDP ou Gumroad). Crie e publique os seus primeiros 15 a 20 produtos usando esse único gerador. Esta fase estabelece o seu fluxo de trabalho de produção e coloca produtos à frente dos compradores. Os seus únicos investimentos em ferramentas: uma licença de gerador (27 $ ou 47 $) e uma conta na plataforma (sem custo ou custo mínimo).\n\nA fase três é expansão. Com base nos seus primeiros dados de vendas e analíticas da plataforma, adicione um segundo gerador ou atualize para um pacote por categoria se precisar de cobertura mais ampla dentro da mesma categoria. Adicione uma segunda plataforma de venda para alcançar diferentes segmentos de compradores. Introduza ferramentas de design conforme necessário — uma conta de Canva para capas de KDP, uma ferramenta de mockup para imagens de publicações de Etsy. O seu conjunto de ferramentas cresce em resposta a necessidades reais do negócio, não hipotéticas.\n\nA fase quatro é otimização. Adicione ferramentas específicas de plataforma: pesquisa de palavras-chave para a sua plataforma principal, ferramentas de analítica para acompanhar o desempenho, ferramentas de empacotamento PDF para criar packs de valor. Considere pacotes por categoria ou geradores individuais adicionais segundo os tipos de produtos que mostram tração nos seus dados de vendas.\n\nO princípio ao longo de tudo: nunca compre ferramentas de forma especulativa. Deixe que a sua estratégia de produtos e dados de vendas guiem cada compra de ferramentas. O teste grátis com marca d'água existe especificamente para prevenir gastos especulativos — use-o para tomar decisões informadas sobre cada investimento em ferramentas.`,
+      content: `Montar o seu conjunto de ferramentas para o negócio de imprimíveis deve seguir uma sequência deliberada. Comprar tudo de uma vez desperdiça dinheiro em ferramentas de que pode não precisar. Construir demasiado devagar atrasa os seus primeiros produtos. Este roteiro equilibra velocidade com investimento estratégico.\n\nA fase um é avaliação. Use o teste grátis com marca d`água para testar três a cinco geradores de fichas de diferentes categorias. Gere fichas de amostra, avalie a qualidade do resultado, cronometre a sua velocidade de produção e identifique que geradores produzem produtos que correspondem ao seu mercado-alvo. Esta fase não custa nada e dá-lhe dados concretos sobre em que ferramentas investir. Duração: uma a duas semanas.\n\nA fase dois é primeira produção. Compre uma licença de gerador para o seu tipo de produto principal — o gerador que produziu o melhor resultado para o seu nicho-alvo durante a fase de teste. Configure a sua primeira conta numa plataforma de venda (Etsy, KDP ou Gumroad). Crie e publique os seus primeiros 15 a 20 produtos usando esse único gerador. Esta fase estabelece o seu fluxo de trabalho de produção e coloca produtos à frente dos compradores. Os seus únicos investimentos em ferramentas: uma licença de gerador (27 $ ou 47 $) e uma conta na plataforma (sem custo ou custo mínimo).\n\nA fase três é expansão. Com base nos seus primeiros dados de vendas e analíticas da plataforma, adicione um segundo gerador ou atualize para um pacote por categoria se precisar de cobertura mais ampla dentro da mesma categoria. Adicione uma segunda plataforma de venda para alcançar diferentes segmentos de compradores. Introduza ferramentas de design conforme necessário — uma conta de Canva para capas de KDP, uma ferramenta de mockup para imagens de publicações de Etsy. O seu conjunto de ferramentas cresce em resposta a necessidades reais do negócio, não hipotéticas.\n\nA fase quatro é otimização. Adicione ferramentas específicas de plataforma: pesquisa de palavras-chave para a sua plataforma principal, ferramentas de analítica para acompanhar o desempenho, ferramentas de empacotamento PDF para criar packs de valor. Considere pacotes por categoria ou geradores individuais adicionais segundo os tipos de produtos que mostram tração nos seus dados de vendas.\n\nO princípio ao longo de tudo: nunca compre ferramentas de forma especulativa. Deixe que a sua estratégia de produtos e dados de vendas guiem cada compra de ferramentas. O teste grátis com marca d`água existe especificamente para prevenir gastos especulativos — use-o para tomar decisões informadas sobre cada investimento em ferramentas.`,
     },
   ],
 
@@ -82,11 +82,11 @@ const content: StartContent = {
       description: `Com base na sua experiência de teste, selecione o gerador que produz o resultado de maior qualidade para o seu nicho-alvo. Este torna-se o seu primeiro investimento em ferramentas e a base do seu catálogo inicial de produtos.`,
     },
     {
-      step: 'Configure a Sua Primeira Plataforma de Venda',
+      step: `Configure a Sua Primeira Plataforma de Venda`,
       description: `Escolha uma plataforma para começar: Etsy para descargas digitais, Amazon KDP para livros de atividades ou Gumroad para recursos de loja. Crie a sua conta de vendedor e familiarize-se com o processo de publicação antes de carregar produtos.`,
     },
     {
-      step: 'Crie os Seus Primeiros 15 a 20 Produtos',
+      step: `Crie os Seus Primeiros 15 a 20 Produtos`,
       description: `Usando o seu gerador escolhido, produza fichas com três a cinco temas em múltiplos níveis de dificuldade. Cada combinação de tema e dificuldade cria uma publicação distinta, construindo o seu catálogo inicial a partir de uma única ferramenta.`,
     },
     {
@@ -94,7 +94,7 @@ const content: StartContent = {
       description: `Configure uma conta gratuita de Canva para design de capas (se vende no KDP) e guarde nos favoritos uma ferramenta de fusão de PDF para criar pacotes. Estas ferramentas gratuitas cobrem todas as necessidades de design e formatação para a maioria dos vendedores que estão a começar.`,
     },
     {
-      step: 'Pesquise Palavras-Chave Específicas da Plataforma',
+      step: `Pesquise Palavras-Chave Específicas da Plataforma`,
       description: `Use a pesquisa integrada da sua plataforma para encontrar palavras-chave relevantes para os seus produtos. Pesquise os seus termos-alvo, anote as sugestões de preenchimento automático e estude como os concorrentes mais vendidos intitulam e etiquetam as suas publicações. Pesquisa de palavras-chave gratuita antes de ferramentas pagas.`,
     },
     {
@@ -114,7 +114,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'matching-worksheets',
-      title: 'Gerador de Fichas de Associação',
+      title: `Gerador de Fichas de Associação`,
       description: `Demonstra a versatilidade da ferramenta com modos de associação imagem-palavra e imagem-imagem. As bibliotecas de imagens temáticas transformam um gerador em dezenas de produtos de nicho — associação de animais, associação de comida, associação de veículos — cada um dirigido a diferentes pesquisas de compradores.`,
     },
     {
@@ -124,12 +124,12 @@ const content: StartContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Gerador de Fichas de Matemática',
+      title: `Gerador de Fichas de Matemática`,
       description: `Cobre múltiplos tipos de operações (soma, subtração, multiplicação, divisão, mistas) com níveis de dificuldade configuráveis. Demonstra a profundidade de personalização disponível — um gerador produz centenas de configurações únicas de fichas.`,
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Resultado puramente visual sem qualquer dependência linguística. As páginas para colorir funcionam de forma idêntica em todos os mercados do mundo, tornando esta a ferramenta de produção mais portátil internacionalmente. Categoria de alto volume no Amazon KDP com procura constante durante todo o ano.`,
     },
     {
@@ -181,7 +181,7 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
       description: `O guia base completo que cobre seleção de nicho, criação de produtos, comparação de plataformas, estratégia de preços e construção de catálogo para todos os marketplaces de imprimíveis.`,
     },
@@ -192,7 +192,7 @@ const content: StartContent = {
     },
     {
       slug: 'criar-fichas-multilingues',
-      title: 'Como Criar Fichas em 11 Línguas',
+      title: `Como Criar Fichas em 11 Línguas`,
       description: `O guia completo de produção multilingue de fichas — seleção de línguas, verificação de qualidade e estratégias de mercado internacional usando um único conjunto de ferramentas geradoras.`,
     },
     {
@@ -203,38 +203,38 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como Criar Fichas Profissionais que Vendem' },
-    { pageType: 'start', slug: 'plano-negocio-imprimiveis', anchorText: 'Plano de Negócio de Imprimíveis' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass Negócio de Imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como Criar Fichas Profissionais que Vendem` },
+    { pageType: 'start', slug: 'plano-negocio-imprimiveis', anchorText: `Plano de Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass Negócio de Imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de Negócio de Livros de Atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: `Guia de Licença Comercial para Vendedores de Imprimíveis` },
-    { pageType: 'start', slug: 'rendimentos-negocio-imprimiveis', anchorText: `Rendimentos do Negócio de Imprimíveis: Expectativas Realistas` },
-    { pageType: 'start', slug: 'criar-fichas-multilingues', anchorText: 'Como Criar Fichas em 11 Línguas' },
+    { pageType: 'start', slug: `rendimentos-negocio-imprimiveis`, anchorText: `Rendimentos do Negócio de Imprimíveis: Expectativas Realistas` },
+    { pageType: 'start', slug: 'criar-fichas-multilingues', anchorText: `Como Criar Fichas em 11 Línguas` },
     { pageType: 'app', slug: 'ligar-fichas', anchorText: `Gerador de Fichas de Associação — Todos os Detalhes` },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Sopas de Letras — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Experimente o Gerador de Fichas de Associação' },
-    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimente o Gerador de Sopas de Letras' },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de Sopas de Letras — Todos os Detalhes` },
+    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: `Experimente o Gerador de Fichas de Associação` },
+    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: `Experimente o Gerador de Sopas de Letras` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de associação demonstrando a versatilidade da ferramenta e o resultado da biblioteca de imagens temáticas' },
+    heroImage: { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de associação demonstrando a versatilidade da ferramenta e o resultado da biblioteca de imagens temáticas` },
     samples: [
-      { src: `/samples/portuguese/matching/Encontre os Pares 2.webp`, alt: 'Ficha de associação mostrando emparelhamento imagem-palavra com ilustrações temáticas', caption: 'Associação — Ferramenta Versátil com Múltiplos Modos' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha de puzzle de sopa de letras demonstrando geração sensível à língua', caption: 'Sopa de Letras — O Gerador de Puzzles Mais Popular' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir mostrando qualidade de design sem dependência linguística', caption: 'Colorir — Conteúdo Visual Universal' },
-      { src: `/samples/portuguese/crossword/Palavras Cruzadas 1.webp`, alt: 'Puzzle de palavras cruzadas demonstrando capacidades de geração multilingue', caption: 'Palavras Cruzadas — Ferramenta de Puzzles Multilingue' },
+      { src: `/samples/portuguese/matching/Encontre os Pares 2.webp`, alt: `Ficha de associação mostrando emparelhamento imagem-palavra com ilustrações temáticas`, caption: `Associação — Ferramenta Versátil com Múltiplos Modos` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha de puzzle de sopa de letras demonstrando geração sensível à língua`, caption: `Sopa de Letras — O Gerador de Puzzles Mais Popular` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir mostrando qualidade de design sem dependência linguística`, caption: `Colorir — Conteúdo Visual Universal` },
+      { src: `/samples/portuguese/crossword/Palavras Cruzadas 1.webp`, alt: `Puzzle de palavras cruzadas demonstrando capacidades de geração multilingue`, caption: `Palavras Cruzadas — Ferramenta de Puzzles Multilingue` },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: `Como Criar Fichas de Associação para o Seu Negócio de Imprimíveis — Demonstração LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Formiga — imagem educativa temática', caption: 'Formiga' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Borboleta — imagem educativa temática', caption: 'Borboleta' },
-    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Lagarta — imagem educativa temática', caption: 'Lagarta' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Centopeia — imagem educativa temática', caption: 'Centopeia' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Formiga — imagem educativa temática`, caption: 'Formiga' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Borboleta — imagem educativa temática`, caption: 'Borboleta' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: `Lagarta — imagem educativa temática`, caption: 'Lagarta' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Centopeia — imagem educativa temática`, caption: 'Centopeia' },
   ],
 };
 

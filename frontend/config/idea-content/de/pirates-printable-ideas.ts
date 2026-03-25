@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'piraten-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Piraten-Arbeitsblätter auf Etsy erstellen',
-      'Seeräuber-Druckvorlagen auf KDP verkaufen',
-      'Abenteuer-Piraten-Aktivitätsblätter für Gumroad',
+      `Piraten-Arbeitsblätter auf Etsy erstellen`,
+      `Seeräuber-Druckvorlagen auf KDP verkaufen`,
+      `Abenteuer-Piraten-Aktivitätsblätter für Gumroad`,
       `Schatzkarte-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Abenteuer-Thema Druckvorlagen-Nische',
-      'Piratenschiff-Bildungsthema Arbeitsblätter',
-      'Schatzkarte-Thema Lernmaterialien Etsy',
+      `Abenteuer-Thema Druckvorlagen-Nische`,
+      `Piratenschiff-Bildungsthema Arbeitsblätter`,
+      `Schatzkarte-Thema Lernmaterialien Etsy`,
     ],
-    titleTag: 'Piraten-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Piraten-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Entdecken Sie Piraten-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und Gumroad. Piratenthema-Produktkonzepte, Plattformtipps und Strategien für.`,
   },
   hero: {
@@ -40,7 +40,7 @@ Der Piraten-Kindergeburtstag-Crossover-Markt stellt ein besonders wertvolles Pub
       appId: 'find-count',
     },
     {
-      title: 'Piraten-Wortsuch-Rätsel zum Online-Verkauf',
+      title: `Piraten-Wortsuch-Rätsel zum Online-Verkauf`,
       description: `Piraten-Vokabel-Wortsuchrätsel ziehen lesefokussierte Verkäufer an, die Abenteuer-Einheiten planen, sowie Eltern, die lehrreiche Unterhaltung suchen, die die natürliche Faszination ihres Kindes für Schatzsuchen und Piratenschiffe in produktive Vokabelerweiterung und Rechtschreibfähigkeitsentwicklung über mehrere piratenthematische Kategorien hinweg umwandelt. Erstellen Sie Rätsel mit piratenspezifischem Vokabular wie Schatz, Kompass, Anker, Kanone, Fernrohr, Papagei, Insel, Kapitän, Planke und Jolly Roger neben breiteren Abenteuerbegriffen wie Reise, Navigieren, Entdecken und Erkunden. Der Wortsuche-Generator ermöglicht die Steuerung von Gittergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Gitter mit sechs bis acht Wörtern für jüngere Lerner und anspruchsvolle Gitter mit fünfzehn oder mehr Piratenbegriffen für ältere Nutzer an, die Abenteuervokabular und nautische Terminologie erkunden.`,
       appId: 'wordsearch',
     },
@@ -55,12 +55,12 @@ Der Piraten-Kindergeburtstag-Crossover-Markt stellt ein besonders wertvolles Pub
       appId: 'addition',
     },
     {
-      title: 'Piraten-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Piraten-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Ausmalseiten sind das volumenstärkste Einstiegsprodukt für Piraten-Druckvorlagen-Shops, weil Abenteuer-Ausmalen praktisch jedes Kind anspricht, das sich vorstellt, die Meere zu befahren, verborgene Schätze zu entdecken oder eine Piraten-Besatzung zu kommandieren, was frühe Bewertungen generiert, die Ihre Shop-Sichtbarkeit über alle piratenthematischen Listungen hinweg steigern. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Piratenschiffen, die stürmische Meere befahren, Schatzkarten-Expeditionen durch tropische Dschungel, Papageien auf Schultern, Schatztruhen voller Gold und Inselszenen voller Abenteuer- und Erkundungsmöglichkeiten. Für Etsy verkaufen Sie kuratierte Sets von zehn bis fünfzehn Seiten, gruppiert nach Szenentyp wie Schiff-Abenteuer oder Schatzentdeckungen. Für KDP kompilieren Sie dreißig bis fünfzig Ausmalseiten in Piraten-Aktivitätsbücher, positioniert als Geschenke für junge Abenteurer. Fügen Sie lehrreiche Elemente wie Piraten-Vokabelbeschriftungen, Schatzgegenstände-Identifikation oder Zählaufforderungen hinzu, um Ihre Produkte zu differenzieren.`,
       appId: 'coloring',
     },
     {
-      title: 'Piraten-Bingo-Karten für Gruppenaktivitäten',
+      title: `Piraten-Bingo-Karten für Gruppenaktivitäten`,
       description: `Piraten-Bingo-Karten dienen Lese-Produktkäufern, die Abenteuer-Lerneinheiten durchführen, und Produktkäufern, die interaktive Gruppenaktivitäten suchen, die Piratenvokabular und Schatzidentifikation effektiver verstärken als einzelne Arbeitsblätter allein in ansprechenden Shop- und Lernzentren-Umgebungen. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Piraten-Vokabelliste und stellt sicher, dass keine zwei Karten identisch sind für Gruppen- oder Spielsitzungen. Verkaufen Sie Gruppensätze von fünfundzwanzig bis dreißig Karten mit einem Ansager-Blatt und einem Piraten-Vokabel-Nachschlagewerk inklusive. Für den Familienmarkt erstellen Sie Bingo-Sets mit verschiedenen Piratenfiguren, Schatzgegenständen, Schiffsteilen, Meereswesen und Inselelementen, die Familien während piratenthematischer Lernsitzungen oder Talk Like a Pirate Day-Feiern spielen können, wenn die Abenteuerbegeisterung besonders hoch ist.`,
       appId: 'bingo',
     },
@@ -89,17 +89,17 @@ Der Piraten-Kindergeburtstag-Crossover-Markt stellt ein besonders wertvolles Pub
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Piraten-Druckvorlagen auf Etsy verkaufen',
+      title: `Piraten-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Piraten-Nische mit konsistenter Ganzjahres-Listungsperformance, weil die Faszination von Kindern für Schatzsuchen und Piratenabenteuer niemals pausiert und Eltern von abenteuerlustigen Kindern aktiv nach thematischen Bildungsmaterialien suchen, die die fantasievolle Neugierde ihres Kindes in jeder Jahreszeit unterstützen. Nutzen Sie alle dreizehn Tags mit Variationen, die Piratenelemente, Kompetenzbereiche und Altersgruppen kombinieren: „Piraten Zählarbeitsblätter Vorschule", „Schatzkarte Ausmalseiten Kleinkind" und „Piraten Wortsuche Kindergarten" zielen auf spezifische Käufersuchen viel effektiver ab als breite Tags wie „Piraten Arbeitsblätter". Positionieren Sie Ihre Produkte sowohl für lehrreiche als auch Geschenk-Käufer-Suchen, indem Sie Begriffe wie „junger Abenteurer Aktivität" und „Piratenfan Druckvorlage" in Ihren Titeln und Beschreibungen einbeziehen. Listungsbilder, die gedruckte Piraten-Arbeitsblätter neben Spielzeug-Schiffen, Schatzmünzen oder Augenklappen zeigen, übertreffen flache digitale Vorschauen und erfassen den praktischen Enthusiasmus, der Eltern von piratenbegeisterten Kindern zu Etsy bringt, um abenteuerliche Bildungsressourcen zu suchen. Zielen Sie das ganze Jahr über auf Piraten-Kindergeburtstag-Suchen ab, da Piratenthemen eine der beliebtesten Kindergeburtstag-Feierwahlen für Kinder bleiben, die Schatzsuche-Feier-Aktivitäten suchen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Piraten-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Piraten-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP eignet sich hervorragend für Piraten-Druckvorlagen, weil Eltern und Geschenk-Käufer natürlich Aktivitätsbücher in ihren Amazon-Warenkorb neben Kinder-Piratengeschichtenbüchern, Spielzeug-Schiffen, Schatzsuche-Sets und Piratenkostüm-Zubehör legen, die die Leidenschaft junger Abenteurer für fantasievolle Erkundung und Schatzentdeckungsspiel befeuern. Kompilieren Sie einzelne Piraten-Arbeitsblätter in zusammenhängende Aktivitätsbücher mit vierzig bis sechzig Seiten, die Zählen, Ausmalen, Zuordnen, Wortsuch-Rätsel und Zeichenaktivitäten rund um Schatz- und Abenteuerthemen kombinieren. Nutzen Sie KDP-Schlüsselwortfelder strategisch: Verwenden Sie „Piraten Aktivitätsbuch für Kinder", „Schatzsuche Arbeitsblätter Vorschule" und Unterthemen-Begriffe wie „Piratenschiff Malbuch" oder „Schatztruhe Aktivitäten für Kinder". Preisen Sie zwischen vier und acht Dollar für optimale Gewinnmargen und positionieren Sie Ihre Bücher als Geschenke für junge Abenteurer, Begleiter zu Piraten-Spielzeugkäufen oder Ergänzungen zu Ozean- und Geographie-Lernmaterialien. Piraten-Aktivitätsbücher profitieren von Ganzjahresnachfrage mit bemerkenswerten Spitzen während der Weihnachtsgeschenk-Saison, Piraten-Kindergeburtstag-Feiern und Talk Like a Pirate Day im September, wenn die Abenteuerbegeisterung ihren Höhepunkt erreicht.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Piraten-Produktressourcen für Gumroad erstellen',
+      title: `Piraten-Produktressourcen für Gumroad erstellen`,
       description: `Gumroad-Käufer sind Produktkäufer und Leseförder-Koordinatoren, die nach piratenthematischen lehrreichen Ergänzungen, Abenteuer-Vokabelaktivitäten und fächerübergreifenden Ressourcen suchen, die fantasievolles Spiel in Mathematik-, Lese-, Geographie- und Schreibunterricht mit minimalem Vorbereitungsaufwand integrieren. Piraten-Druckvorlagen auf Gumroad funktionieren am besten, wenn sie als einsatzbereite Produktlösungen verpackt werden: piratenthematische Morgenarbeit-Pakete, Schatz-Vokabel-Aktivitätsstationen oder Talk Like a Pirate Day-Begleit-Arbeitsblätter mit klaren Lernzielen, die Abenteuer-Erzählthemen mit akademischer Kompetenzentwicklung verbinden. Fügen Sie Lernziele hinzu, die auf Mathematik-, Lese-, Geographie- und kreative Schreib-Standards abgestimmt sind, damit Verkäufer piratenthematische Aktivitäten gegenüber Schulleitung und Produktkatalog-Koordinatoren rechtfertigen können, die lehrreiche Materialeinkäufe prüfen. Die Bündelungsfunktion von Gumroad ermöglicht es Ihnen, einzelne Abenteuerelement-Produkte und ein vergünstigtes Piraten-Mega-Paket gleichzeitig anzubieten, wobei sowohl budgetbewusste Verkäufer, die Einzelartikel kaufen, als auch diejenigen angesprochen werden, die in umfassende Abenteuer-Einheitsressourcen für fantasievolles Spiel, Ozeanstudien und kreatives Schreiben im Produkterstellung investieren.`,
     },
     {
@@ -143,13 +143,13 @@ Der Piraten-Kindergeburtstag-Crossover-Markt stellt ein besonders wertvolles Pub
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Der Piraten-Kindergeburtstag-Crossover-Markt stellt ein besonders wertvolles Pub
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'baustelle-druckvorlagen-ideen',
-      anchorText: 'Baustelle Druckvorlagen-Geschäftsideen',
+      anchorText: `Baustelle Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Kaiserfisch — thematisches Lernbild`, caption: 'Kaiserfisch' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfisch — thematisches Lernbild`, caption: 'Clownfisch' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koralle — thematisches Lernbild`, caption: 'Koralle' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krabbe — thematisches Lernbild`, caption: 'Krabbe' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
   ],
 
 

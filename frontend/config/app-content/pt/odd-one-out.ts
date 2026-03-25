@@ -7,14 +7,14 @@ const content: AppContent = {
       `gerador de fichas do intruso imprimíveis para vendedores Etsy`,
       `criador de fichas de discriminação visual para editores Amazon KDP`,
       `gerador de fichas encontre o diferente com licença comercial`,
-      'vender fichas do intruso no Gumroad',
+      `vender fichas do intruso no Gumroad`,
     ],
     lsiKeywords: [
       `produtos digitais de fichas do intruso para empreendedores`,
       `gerador de fichas de discriminação visual uso comercial`,
       `fichas encontre o diferente imprimíveis para negócio online`,
     ],
-    titleTag: 'Gerador Fichas Intruso | Criar e Vender',
+    titleTag: `Gerador Fichas Intruso | Criar e Vender`,
     metaDescription:
       `Crie fichas do intruso para Etsy, KDP e Gumroad. Dois modos de geração, gabarito automático com círculos vermelhos, 104 temas. Teste grátis com marca d'água.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas do Intruso em 5 Passos',
+    title: `Como Criar Fichas do Intruso em 5 Passos`,
     steps: [
       {
         title: 'Configure o Layout de Página',
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas do Intruso Online',
+    title: `Como Vender Fichas do Intruso Online`,
     cases: [
       {
-        title: 'Packs Temáticos de Puzzles do Intruso na Etsy',
+        title: `Packs Temáticos de Puzzles do Intruso na Etsy`,
         description:
           `Crie packs de discriminação visual temáticos usando o sistema de dois temas — animais contra comida, veículos contra natureza, festividades contra desportos e dezenas mais de combinações entre categorias. Cada emparelhamento de temas produz exercícios únicos suficientes para múltiplas fichas com ambos os modos Idêntico e Similar. Empacote 10 a 20 fichas do intruso por pack com gabaritos incluídos, e venda a $3–$7 por conjunto. O formato puramente visual significa que cada pack funciona para qualquer mercado linguístico sem modificação, expandindo a sua base de clientes globalmente.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de Discriminação Visual na Amazon KDP',
+        title: `Cadernos de Discriminação Visual na Amazon KDP`,
         description:
           `Compile 40 a 80 fichas do intruso num caderno impresso formatado para Amazon KDP. Estruture o seu livro com dificuldade progressiva: os primeiros capítulos usam o modo Idêntico (encontrar o não-clone), os capítulos intermédios usam o modo Similar com contrastes de temas óbvios, e os capítulos avançados usam o modo Similar com distinções mais subtis. Use a substituição por exercício para criar páginas de dificuldade mista que desafiam os usuários a alternar entre estratégias visuais. Inclua os gabaritos no final usando o gabarito autogerado com círculos vermelhos. A opção de escala de cinzentos produz páginas que poupam tinta para interiores de livros a preto e branco.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,26 +122,26 @@ const content: AppContent = {
         title: `Atividades de Pensamento Crítico para loja no Gumroad`,
         description:
           `Crie fichas do intruso prontas a usar com campos de nome e data, números de exercício e gabaritos impressos. Os vendedores que procuram atividades de pensamento crítico no Gumroad valorizam fichas que chegam prontas para a loja — o campo de nome assegura a responsabilização do usuário, os números de exercício tornam a discussão em aula eficiente, e o gabarito com círculos vermelhos poupa valor percebido. Crie conjuntos alinhados com o catálogo de produtos: desafios de classificação animal, discriminação de grupos alimentares, identificação de ajudantes comunitários e puzzles de consciência sazonal. Cada conjunto inclui fichas do usuário e gabaritos em formatos PDF e JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Coleções de Puzzles Sazonais e Festivos',
+        title: `Coleções de Puzzles Sazonais e Festivos`,
         description:
           `As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções do intruso sazonais que se alinhem com os períodos de maior compra. Lance packs de puzzles de Halloween em setembro, coleções de Natal em outubro e packs de Dia dos Namorados em janeiro. Misture os modos Idêntico e Similar dentro de cada conjunto sazonal para variedade e valor percebido. Os produtos sazonais obtêm preços mais altos durante os seus períodos de pico e criam razões naturais para compras repetidas.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
       {
-        title: 'Alcance Global com Puzzles Puramente Visuais',
+        title: `Alcance Global com Puzzles Puramente Visuais`,
         description:
           `Como as fichas do intruso são totalmente visuais — não aparece nenhum texto no puzzle — cada ficha funciona em qualquer idioma sem modificação. O cabeçalho autogerado traduz-se para os 11 idiomas suportados, mas o conteúdo do puzzle não requer nenhuma localização. Isto torna as fichas do intruso excepcionalmente eficientes para vendedores que visam mercados internacionais. Crie um único conjunto de fichas e publique-o em múltiplas lojas da Etsy específicas por idioma ou marketplaces de Amazon KDP. O mesmo produto serve os mercados em inglês, alemão, francês, espanhol e todos os demais simultaneamente.`,
-        platform: 'Etsy / Amazon KDP (mercado global)',
+        platform: `Etsy / Amazon KDP (mercado global)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Como funciona a mecânica do intruso?',
+      question: `Como funciona a mecânica do intruso?`,
       answer:
         `Cada exercício mostra quatro imagens num cartão horizontal — três elementos comuns e um elemento intruso. Os usuários observam a fila, identificam qual imagem não pertence e rodeiam-na. A posição do elemento intruso é baralhada aleatoriamente dentro da fila, pelo que pode aparecer em qualquer das quatro posições. Os exercícios organizam-se verticalmente na página, com o layout a mudar para 2 colunas quando se usa orientação horizontal ou vertical com 7 ou mais exercícios.`,
     },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `Cada fila de exercício inclui o seu próprio menu suspenso de modo que lhe permite substituir o modo global. Defina o modo global como Similar, depois mude exercícios individuais para Idêntico — ou vice-versa. Isto cria fichas de dificuldade mista onde alguns exercícios são mais fáceis (Idêntico) e outros mais difíceis (Similar) na mesma página. Um botão «Limpar Seleções» repõe todas as substituições por exercício ao modo global.`,
     },
     {
-      question: 'Quantos exercícios posso incluir numa ficha?',
+      question: `Quantos exercícios posso incluir numa ficha?`,
       answer:
         `A quantidade de exercícios é configurável de 5 a 10, com o valor predefinido em 6. Cada exercício contém sempre exatamente 4 imagens (3 comuns + 1 intruso). Menos exercícios criam cartões de imagens maiores com mais espaço; mais exercícios aumentam a densidade de conteúdo. O layout adapta-se automaticamente — páginas verticais com 7+ exercícios e todas as páginas horizontais usam um layout de 2 colunas para um espaçamento ótimo.`,
     },
@@ -176,17 +176,17 @@ const content: AppContent = {
         `Sim. Ative a opção «Incluir Campos de Nome/Data» no painel de Configuração de Exercícios para adicionar linhas de nome e data do usuário. Estes campos posicionam-se de forma adaptável conforme o layout da página. Os campos de nome e data tornam as fichas prontas para a loja — os vendedores podem acompanhar o trabalho do usuário e os pais podem organizar as atividades concluídas por data.`,
     },
     {
-      question: 'Como funcionam os números de exercício?',
+      question: `Como funcionam os números de exercício?`,
       answer:
         `Ative a opção «Incluir Números de Exercício» no painel de Configuração de Exercícios para mostrar numerais no lado esquerdo de cada cartão de exercício. Os números usam uma largura de 25px com um espaçamento de 15px em relação ao conteúdo do cartão. Os números de exercício ajudam durante a revisão em aula e facilitam que os vendedores façam referência a exercícios específicos durante a discussão.`,
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — ambos os modos de geração, substituições por exercício, quantidades de exercícios configuráveis, o gabarito autogerado, a biblioteca de imagens completa, temas de fundo e moldura, campos de nome/data, números de exercício e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — ambos os modos de geração, substituições por exercício, quantidades de exercícios configuráveis, o gabarito autogerado, a biblioteca de imagens completa, temas de fundo e moldura, campos de nome/data, números de exercício e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
-      question: 'As fichas do intruso são sensíveis ao idioma?',
+      question: `As fichas do intruso são sensíveis ao idioma?`,
       answer:
         `Não. Ao contrário de aplicações que mostram palavras na ficha, os puzzles do intruso são totalmente visuais — não aparece nenhum texto no conteúdo do puzzle. O cabeçalho autogerado («Encontra o Diferente») traduz-se para os 11 idiomas suportados, mas os exercícios contêm apenas imagens. Isto significa que cada ficha funciona em qualquer idioma sem modificação, tornando os puzzles do intruso uma escolha ideal para vendas em marketplaces globais.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas do intruso como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja no Gumroad ou através de qualquer outro canal de venda. Os dois modos de geração, as substituições por exercício e as 104 coleções de imagens temáticas proporcionam-lhe as ferramentas criativas para produzir produtos de discriminação visual originais e vendáveis.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os modos de geração, o sistema de substituição por exercício, o gabarito autogerado, a biblioteca de imagens completa, temas de fundo e moldura, campos de nome/data, números de exercício e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,7 +206,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'pecas-faltantes-fichas',
-      anchorText: 'Gerador de Fichas de Peças Faltantes',
+      anchorText: `Gerador de Fichas de Peças Faltantes`,
     },
     {
       pageType: 'app',
@@ -216,17 +216,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'labirinto-caminhos-fichas',
-      anchorText: 'Gerador de Fichas de Labirinto de Caminhos',
+      anchorText: `Gerador de Fichas de Labirinto de Caminhos`,
     },
     {
       pageType: 'app',
       slug: 'combinar-sombras-fichas',
-      anchorText: 'Gerador de Fichas de Combinar Sombras',
+      anchorText: `Gerador de Fichas de Combinar Sombras`,
     },
     {
       pageType: 'app',
       slug: 'encontre-conte-fichas',
-      anchorText: 'Gerador de Fichas Encontra e Conta',
+      anchorText: `Gerador de Fichas Encontra e Conta`,
     },
     {
       pageType: 'bundle',
@@ -236,22 +236,22 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'criar-fichas-intruso',
-      anchorText: 'Como Criar Fichas do Intruso que Vendam',
+      anchorText: `Como Criar Fichas do Intruso que Vendam`,
     },
     {
       pageType: 'idea',
-      slug: 'primeiro-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para primeiro ano',
+      slug: `primeiro-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para primeiro ano`,
     },
     {
       pageType: 'idea',
-      slug: 'segundo-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para segundo ano',
+      slug: `segundo-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para segundo ano`,
     },
     {
       pageType: 'start',
       slug: 'livros-atividades-amazon-kdp',
-      anchorText: 'Publicar livros de atividades na Amazon KDP',
+      anchorText: `Publicar livros de atividades na Amazon KDP`,
     },
   ],
 

@@ -7,14 +7,14 @@ const content: AppContent = {
       `druckbarer Sortier-Arbeitsblatt-Generator für Etsy-Verkäufer`,
       `Zwei-Kategorien-Sortierung-Arbeitsblatt-Generator für KDP-Verleger`,
       `Klassifizierungs-Arbeitsblatt-Ersteller kommerzielle Lizenz`,
-      'Sortier-Aktivitäten auf Gumroad verkaufen',
+      `Sortier-Aktivitäten auf Gumroad verkaufen`,
     ],
     lsiKeywords: [
       `digitale Sortier-Druckvorlagen skalierbares Einkommen`,
       `kommerzieller Bilder-Sortieren-Generator mit Lösungsschlüssel`,
       `Druckvorlagen-Geschäft Klassifizierungs-Aktivitäten Werkzeuge`,
     ],
-    titleTag: 'Bilder-Sortieren-Generator | Sortier-Aktivitäten',
+    titleTag: `Bilder-Sortieren-Generator | Sortier-Aktivitäten`,
     metaDescription: `Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Zwei-Kategorien-Sortierung, 4–12 Bilder. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -44,12 +44,12 @@ const content: AppContent = {
           `Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf Bilder, um sie zu Ihrem Arbeitsblatt hinzuzufügen, und weisen Sie jedes der linken oder rechten Kategorie zu. Die Gesamtbildzahl reicht von 4 bis 12, mit 2–10 Bildern pro Kategorie. Sie können auch eigene PNG-, JPG- oder GIF-Bilder neben den Bibliotheksinhalten verwenden.`,
       },
       {
-        title: 'Sortier-Arbeitsblatt generieren',
+        title: `Sortier-Arbeitsblatt generieren`,
         description:
           `Klicken Sie auf „Generieren", um das zweiteilige Sortier-Layout zu erstellen. Die App ordnet Ihre Inhalte in Kategorierahmen oben an (zwei nebeneinander liegende, gestrichelt umrandete Rahmen mit #FAFAFA-Füllung) und ein gemischtes Ausschneidegitter unten (weiße Zellen mit gestrichelten #666-Rändern). Ein stilisierter „Bilder-Sortieren"-Header erscheint oben mit mintgrünem Hintergrund (#4DB6AC), blaugrünem Titel (#00796B) in Fredoka-Schrift und orangefarbener Beschreibung (#FF7043) in Quicksand-Schrift. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke) umrahmt die gesamte Seite. Das Ausschneidegitter zeigt alle Bilder in zufälliger Reihenfolge — sie werden ausgeschnitten und in den richtigen Kategorierahmen einsortiert.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um die automatisch generierte Lösung mit 6× größeren Bildern in ihren korrekten Kategorieboxen zu sehen, angezeigt in maximal 2 Spalten pro Box. Laden Sie beide Versionen über die vier dedizierten Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden mit 300 DPI und JPEG-Qualität 1.0 exportiert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -103,22 +103,22 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Bilder-Sortieren-Arbeitsblätter online verkaufen',
+    title: `Bilder-Sortieren-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Sortier-Arbeitsblatt-Pakete auf Etsy',
+        title: `Thematische Sortier-Arbeitsblatt-Pakete auf Etsy`,
         description:
           `Erstellen Sie thematische Sortier-Aktivitätspakete mit natürlichen Kategoriepaarungen aus den 104 Bildsammlungen — Tiere vs. Lebensmittel, Land vs. Wasser, Obst vs. Gemüse, drinnen vs. draußen und Dutzende mehr. Jede Themenpaarung erzeugt mehrere einzigartige Sortier-Arbeitsblätter durch variierende Bildauswahl und Anzahlen. Verpacken Sie 10–20 Sortier-Arbeitsblätter pro Paket mit beigelegten Lösungsschlüsseln und verkaufen Sie zu €3–€7 pro Paket. Die themenbasierte Kategorieauswahl macht es schnell, Arbeitsblätter mit klaren Links-/Rechts-Gruppierungen zu generieren, und der automatisch generierte Lösungsschlüssel eliminiert den größten Produktions-Engpass. Variieren Sie die Bildanzahl innerhalb eines einzigen Pakets — einfache Sortieraufgaben mit 4–6 Bildern für den Einstieg und anspruchsvollere Arbeitsblätter mit 10–12 Bildern für Fortgeschrittene — um Pakete mit Schwierigkeitsabstufungen zu erstellen, die ein breiteres Käuferpublikum auf Etsy.de ansprechen.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Klassifizierungs-Arbeitsbücher auf Amazon KDP',
+        title: `Klassifizierungs-Arbeitsbücher auf Amazon KDP`,
         description:
           `Stellen Sie 40–80 Sortier-Arbeitsblätter zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie nach Schwierigkeit: Frühe Kapitel verwenden 4–6 Bilder mit offensichtlichen Kategorieunterschieden (Tiere vs. Fahrzeuge), mittlere Kapitel verwenden 8–10 Bilder mit feineren Unterscheidungen (Haustiere vs. Wildtiere) und fortgeschrittene Kapitel verwenden 12 Bilder mit herausfordernden Kategorien (Obst vs. Gemüse, Käfer vs. Spinnen). Fügen Sie Lösungsschlüssel am Ende des Buches ein, erstellt mit der automatischen Lösungsschlüssel-Funktion. Der Graustufen-Schalter erzeugt tintenschonende Seiten, die als Schwarzweiß-Buchinhalte direkt verwendbar sind und Druckkosten niedrig halten. Klassifizierungs-Arbeitsbücher bedienen ein breites Publikum auf Amazon.de und performen ganzjährig zuverlässig. Nutzen Sie die Seitengröße-Optionen, um KDP-konforme Formate wie Letter oder A4 direkt zu exportieren, ohne nachträgliche Anpassungen vornehmen zu müssen.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Sortier-Aktivitäten für den Gumroad',
+        title: `Sortier-Aktivitäten für den Gumroad`,
         description:
           `Erstellen Sie sofort einsetzbare Sortier-Arbeitsblätter mit Name-/Datumsfeldern und gedruckten Lösungsschlüsseln für den Gumroad. Verkäufer, die nach Sortier-Aktivitäten suchen, schätzen Produkte, die sofort in der Produkterstellung einsatzbereit ankommen — die Name-Felder stellen die Zuordnung sicher, die Kategorierahmen bieten klare Sortierbereiche und der automatisch generierte Lösungsschlüssel spart Vorbereitungszeit. Erstellen Sie lehrplanorientierte Sets: lebend vs. nicht-lebend, gesundes vs. ungesundes Essen, Tages- vs. Nachttiere, warme vs. kalte Kleidung. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Kombinieren Sie verschiedene Bildanzahlen innerhalb eines Produkts für altersgerechte Differenzierung — einfache 4-Bilder-Sortierungen neben anspruchsvollen 12-Bilder-Klassifizierungen im selben Paket, damit Verkäufer Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten.`,
         platform: 'Gumroad',
@@ -127,20 +127,20 @@ const content: AppContent = {
         title: `Saisonale und feiertagsbezogene Sortier-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie saisonale Sortier-Arbeitsblätter, bei denen Bilder in Kategoriepaarungen klassifiziert werden: Weihnachtsdekoration vs. Weihnachtsessen, Halloween-Kostüme vs. Halloween-Süßigkeiten, Sommeraktivitäten vs. Winteraktivitäten. Veröffentlichen Sie Halloween-Sortier-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar für maximale Sichtbarkeit während der jeweiligen Hochsaison. Saisonale Produkte erzielen Premium-Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Sortier-Aktivitäten suchen. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das die wahrgenommene Qualität Ihrer Produkte steigert und Käufer auf den ersten Blick anspricht.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
         title: `Mehrsprachige Sortier-Arbeitsblätter für DaF und bilinguale Märkte`,
         description:
           `Nutzen Sie die sprachabhängigen Kategoriebeschriftungen, um Sortier-Arbeitsblätter in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen unterschiedliche Kategoriebeschriftungen, wenn Sie die Sprache wechseln — Bildnamen und der „Bilder-Sortieren"-Header aktualisieren sich automatisch. Erstellen Sie mehrsprachige Sortier-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder, aber lokalisierten Text verwendet. Dies ist besonders wertvoll für DaF-Verkäufer, bilinguale Produkterstellungsräume und internationale Familien, die zu Hause unterrichten. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Packs zu Premium-Preisen auf Etsy.de und dem Gumroad. Die Kombination aus visueller Sortierung und lokalisierten Kategoriebeschriftungen verwandelt jedes Sortier-Arbeitsblatt in eine Vokabelübung — ein einziger Generator bedient so gleichzeitig den Sortier-Markt und den Sprachlern-Markt, was Ihre Produktreichweite erheblich erweitert.`,
-        platform: 'Etsy / Gumroad (mehrsprachiger Markt)',
+        platform: `Etsy / Gumroad (mehrsprachiger Markt)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Wie funktioniert die Zwei-Kategorien-Sortierung?',
+      question: `Wie funktioniert die Zwei-Kategorien-Sortierung?`,
       answer:
         `Jedes Sortier-Arbeitsblatt hat genau zwei Kategorien — links und rechts. Das Arbeitsblatt zeigt oben zwei gestrichelt umrandete Kategorierahmen als Sortierbereiche und unten ein gemischtes Ausschneidegitter mit allen durcheinandergeworfenen Bildern. Die Bilder werden aus dem Gitter ausgeschnitten und in den richtigen Kategorierahmen einsortiert. Das Zwei-Kategorien-Format erzeugt eine klare binäre Klassifizierungsaufgabe, die für jedes Thema funktioniert — Tiere vs. Lebensmittel, Land vs. Wasser, lebend vs. nicht-lebend, Sommer vs. Winter und Tausende weitere Paarungen. Diese Zwei-Gruppen-Mechanik ist bewusst einfach gehalten und eignet sich hervorragend als Ausschneide- und Klebeaktivität, die sowohl feinmotorische Fähigkeiten als auch logisches Denken fördert.`,
     },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `Jedes Arbeitsblatt unterstützt 4 bis 12 Bilder insgesamt, wobei jede Kategorie zwischen 2 und 10 Bilder enthält. Der Themen-Modus zieht automatisch 4–6 Bilder pro Thema und erzeugt Arbeitsblätter mit 8–12 Bildern insgesamt. Der manuelle Modus erlaubt exakte Anzahlen pro Kategorie, sodass Sie asymmetrische Verteilungen wie 3 links und 7 rechts erstellen können. Das Ausschneidegitter passt sein Spaltenlayout (3–4 Spalten basierend auf der Gesamtanzahl) automatisch an, um saubere visuelle Abstände beizubehalten. Weniger Bilder schaffen einfachere Sortieraufgaben; mehr Bilder erhöhen den Schwierigkeitsgrad und die Inhaltsdichte des Arbeitsblatts.`,
     },
     {
-      question: 'Wie funktioniert das gemischte Ausschneidegitter?',
+      question: `Wie funktioniert das gemischte Ausschneidegitter?`,
       answer:
         `Das Ausschneidegitter belegt die unteren 55% des Inhaltsbereichs und zeigt alle ausgewählten Bilder in zufälliger Reihenfolge. Die Bilder erscheinen in weißen Zellen mit gestrichelten #666-Rändern und 4px abgerundeten Ecken, angeordnet in 3–4 Spalten basierend auf der Gesamtbildzahl. Jedes Bild füllt 85% seiner Zelle aus. Die Bilder werden entlang der gestrichelten Linien ausgeschnitten und in den richtigen Kategorierahmen oben einsortiert. Die Zufallsmischung stellt sicher, dass jedes Bild tatsächlich klassifiziert werden muss, anstatt ein Muster zu kopieren. Jedes Mal, wenn Sie ein Arbeitsblatt mit demselben Thema generieren, erhalten Sie eine andere zufällige Anordnung der Bilder im Gitter, sodass Sie schnell mehrere Varianten desselben Sortier-Themas für Ihre Produktpakete erstellen können.`,
     },
@@ -165,7 +165,7 @@ const content: AppContent = {
         `Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Der Lösungsschlüssel zeigt zwei Kategorieboxen (eine pro Kategorie, gleiche Breite) mit Bildern in ihrer korrekten Gruppe. Die Lösungsschlüssel-Bilder werden in 6-facher Größe der Ausschneidegitter-Zellen gerendert für klare Überprüfung, mit maximal 2 Spalten pro Kategoriebox. Jede Box verwendet #FAFAFA-Füllung mit #444-gestricheltem Strich und 12px Randradius. Beide Versionen werden über vier dedizierte Buttons separat exportiert: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Der Lösungsschlüssel bleibt automatisch mit dem Arbeitsblatt synchronisiert — jede Änderung an den Bildern oder Kategorien spiegelt sich sofort im Lösungsschlüssel wider, ohne dass Sie ihn manuell aktualisieren müssen.`,
     },
     {
-      question: 'Wie funktioniert der lokalisierte Header?',
+      question: `Wie funktioniert der lokalisierte Header?`,
       answer:
         `Jedes generierte Arbeitsblatt enthält einen stilisierten „Bilder-Sortieren"-Header mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Hochformat-Arbeitsblätter zeigen einen 100px-Header mit dynamischer Titelgröße (28–48px); Querformat-Arbeitsblätter verwenden einen kompakten 70px-Header mit 24–36px Titelgröße. Titel und Beschreibung werden automatisch in alle 11 unterstützten Sprachen übersetzt: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite und verleiht jedem Arbeitsblatt ein professionelles, einheitliches Erscheinungsbild.`,
     },
@@ -180,7 +180,7 @@ const content: AppContent = {
         `Ja. Aktivieren Sie das Kontrollkästchen „Name-/Datumsfelder einfügen" im Seiten-Setup-Panel, um Name- und Datumszeilen zum Arbeitsblatt hinzuzufügen. Diese Felder stellen sicher, dass Arbeitsblätter in der Produkterstellung zugeordnet und bewertet werden können, ohne zusätzliche Vorbereitung. Verkäufer, die Sortier-Aktivitäten für die Produkterstellung suchen, erwarten standardmäßig Name- und Datumszeilen — diese Option macht Ihre Produkte sofort in der Produkterstellung einsetzbar und erhöht ihren wahrgenommenen Wert auf Gumroad.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — themenbasierte und manuelle Kategorieauswahl, konfigurierbare Bildanzahlen von 4 bis 12, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek mit 104 Themen, Hintergrund- und Rahmenthemen mit Deckkraftreglern, Name-/Datumsfelder und alle Download-Formate einschließlich PDF und JPEG — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Der Generator läuft vollständig im Browser. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle erstellten Sortier-Arbeitsblätter.`,
     },
@@ -200,7 +200,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'zuordnungs-arbeitsblaetter',
-      anchorText: 'Zuordnungs-Arbeitsblatt-Generator',
+      anchorText: `Zuordnungs-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
@@ -209,8 +209,8 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'schattenbilder-zuordnen-arbeitsblaetter',
-      anchorText: 'Schattenbilder-Zuordnen-Generator',
+      slug: `schattenbilder-zuordnen-arbeitsblaetter`,
+      anchorText: `Schattenbilder-Zuordnen-Generator`,
     },
     {
       pageType: 'app',
@@ -219,13 +219,13 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'suchen-und-zaehlen-arbeitsblaetter',
-      anchorText: 'Zählen-und-Finden-Arbeitsblatt-Generator',
+      slug: `suchen-und-zaehlen-arbeitsblaetter`,
+      anchorText: `Zählen-und-Finden-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'malvorlagen-arbeitsblaetter',
-      anchorText: 'Ausmalbilder-Arbeitsblatt-Generator',
+      anchorText: `Ausmalbilder-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -235,27 +235,27 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'weltraum-druckvorlagen-ideen',
-      anchorText: 'Weltraum-Druckvorlagen-Ideen für Arbeitsblätter',
+      anchorText: `Weltraum-Druckvorlagen-Ideen für Arbeitsblätter`,
     },
     {
       pageType: 'idea',
       slug: 'camping-druckvorlagen-ideen',
-      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+      anchorText: `Camping-Druckvorlagen-Ideen für Outdoor-Lernen`,
     },
     {
       pageType: 'idea',
-      slug: 'meerestiere-druckvorlagen-ideen',
+      slug: `meerestiere-druckvorlagen-ideen`,
       anchorText: `Meerestiere-Druckvorlagen-Ideen für maritime Themen`,
     },
     {
       pageType: 'start',
-      slug: 'marketing-druckvorlagen-geschaeft',
-      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+      slug: `marketing-druckvorlagen-geschaeft`,
+      anchorText: `Marketing für Ihr Druckvorlagen-Geschäft`,
     },
     {
       pageType: 'guide',
-      slug: 'sortier-arbeitsblaetter-erstellen',
-      anchorText: 'Sortier-Arbeitsblätter erstellen',
+      slug: `sortier-arbeitsblaetter-erstellen`,
+      anchorText: `Sortier-Arbeitsblätter erstellen`,
     },
   ],
 

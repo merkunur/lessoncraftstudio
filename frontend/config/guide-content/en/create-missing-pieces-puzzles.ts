@@ -4,25 +4,25 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'jigsaw puzzle worksheets',
     secondaryKeywords: [
-      'create missing pieces puzzles to sell',
-      'jigsaw puzzle worksheet generator commercial use',
-      'printable missing pieces maker for Etsy and KDP',
-      'visual puzzle worksheets with answer keys',
+      `create missing pieces puzzles to sell`,
+      `jigsaw puzzle worksheet generator commercial use`,
+      `printable missing pieces maker for Etsy and KDP`,
+      `visual puzzle worksheets with answer keys`,
     ],
     lsiKeywords: [
       `smart piece extraction color variance puzzle generator`,
       `six shape jigsaw puzzle worksheet maker with distractor pieces`,
       `auto answer key yellow highlighting missing pieces creator`,
-      'sell missing pieces puzzles on Etsy',
-      'Amazon KDP jigsaw puzzle workbooks',
-      'commercial license missing pieces tool',
+      `sell missing pieces puzzles on Etsy`,
+      `Amazon KDP jigsaw puzzle workbooks`,
+      `commercial license missing pieces tool`,
     ],
-    titleTag: 'Jigsaw Puzzle Worksheets — Guide',
+    titleTag: `Jigsaw Puzzle Worksheets — Guide`,
     metaDescription: `Create jigsaw puzzle worksheets with 6 piece shapes, smart extraction, distractor pieces, and auto answer keys. Step-by-step selling guide for Etsy & KDP.`,
   },
 
   hero: {
-    title: 'How to Create Missing Pieces Puzzles',
+    title: `How to Create Missing Pieces Puzzles`,
     tagline: `A step-by-step tutorial for creating jigsaw puzzle worksheets with six piece shapes, smart piece extraction using brightness variance detection, distractor pieces for genuine challenge, two independent difficulty controls, auto-generated answer keys with yellow highlighting, and purely visual puzzles you can sell worldwide on Etsy, Amazon KDP, and Gumroad`,
     description: `Missing pieces puzzles are a uniquely engaging visual activity where solvers examine an image with holes cut out and identify which numbered option fills each gap. The format combines spatial reasoning with visual discrimination — solvers must analyze colors, patterns, and details to match pieces to their correct locations. Because the worksheet output contains only images, holes, and numbered options with no language-specific text, every puzzle you create is instantly sellable worldwide without translation. Parents use them for cognitive development activities at home. Sellers list them for visual perception exercises and critical thinking warm-ups. Tutoring centers use them for spatial reasoning practice. This guide walks you through the entire creation process using the Missing Pieces Worksheet Generator — from selecting piece shapes and configuring dual difficulty controls to understanding the smart extraction algorithm, generating distractor pieces, reviewing auto answer keys with yellow highlighting, and exporting production-ready files. Whether you are building your first jigsaw puzzle product or expanding an existing visual worksheet catalog, you will have a finished product ready to list by the end of this tutorial.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `The Missing Pieces Maker offers two independent difficulty axes, and adjusting them separately gives you precise control over the cognitive challenge your worksheet presents.\n\nThe first control sets the number of missing pieces from one to five. This determines how many holes are cut from the source image. One missing piece creates a simple identification task where solvers focus on a single gap. Five missing pieces creates a complex spatial reasoning challenge where solvers must track multiple holes simultaneously and compare each against the solution options. More missing pieces means more visual information to process and more opportunities for confusion between similar-looking gaps.\n\nThe second control sets the number of solution options from two to six. This determines how many numbered choices solvers evaluate for each hole. When solution options exceed missing pieces, the extra options are distractor pieces — fragments extracted from non-overlapping areas of the same image that look similar but do not fit any hole. Distractors prevent solvers from solving by elimination alone, forcing careful visual comparison of colors, patterns, and details.\n\nA puzzle with one missing piece and two options is accessible for the younger audience just developing visual discrimination. Three missing pieces with four options provides intermediate challenge suitable for kindergarten through early elementary. Five missing pieces with six options including distractors creates a genuinely demanding visual discrimination task for older solvers. Adjust both axes independently to fine-tune difficulty for any age group or product tier.`,
     },
     {
-      heading: 'Select a Piece Shape from Six Options',
+      heading: `Select a Piece Shape from Six Options`,
       content: `Choose a piece shape that defines the visual character of every hole and solution option in your puzzle. The Missing Pieces Maker offers six distinct shapes, each creating a different visual challenge from the same source image.\n\nSquare is the default shape, offering clean geometric cuts with immediately recognizable boundaries. Circle shapes produce rounded holes that interact differently with the underlying image, revealing circular fragments of the illustration. Rectangle portrait uses eighty percent width and one hundred percent height, creating tall narrow holes that show vertical slices of the image. Rectangle landscape uses one hundred percent width and eighty percent height, producing wide short holes that emphasize horizontal details. Ellipse portrait and ellipse landscape provide softer curved cuts with the same dimensional ratios as their rectangle counterparts, adding organic visual variety.\n\nEach shape interacts differently with the source illustration because the extracted region captures different proportions of the surrounding artwork. A square cut from a character illustration might show the character's face, while a rectangle landscape cut from the same position reveals more of the background context. This means the same image produces six genuinely distinct puzzle experiences across all available shapes.\n\nFor product creation, shape variety is a catalog multiplier. A single twenty-image theme produces up to one hundred twenty unique puzzles across all six shapes and multiple difficulty levels. Customers perceive different shapes as distinct products, so varying the piece shape is an efficient way to expand your puzzle catalog without needing additional source images.`,
     },
     {
@@ -47,15 +47,15 @@ const content: GuideContent = {
       content: `Open the Image Library panel and browse one hundred four themed collections with over three thousand one hundred colorful illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Filter by theme using the dropdown or search by keyword. Click an image to select it as the source for your puzzle.\n\nImages with varied colors and distinct regions produce the most engaging jigsaw puzzle worksheets. The smart extraction algorithm requires a minimum brightness variance of fifteen per piece, so illustrations with multiple colors, detailed patterns, and visually rich regions generate better puzzles. Colorful character illustrations, detailed scenes, and multi-element compositions work exceptionally well. Images with large uniform-color areas produce less distinctive pieces because extracted fragments from similar regions look too alike, making the puzzle less challenging.\n\nYou can also upload custom PNG, JPG, or GIF images to create personalized puzzle designs. Custom uploads open product possibilities that built-in libraries cannot match. Family photo puzzles become unique personalized gifts — children find the missing pieces cut from familiar images of pets, family members, or favorite places. Group photo puzzles, branded image puzzles, and custom artwork puzzles become one-of-a-kind products impossible for competitors to replicate. The smart extraction algorithm works on any uploaded image, finding areas with sufficient color variance for solvable puzzles regardless of the source.`,
     },
     {
-      heading: 'Set Your Page Layout and Decorations',
+      heading: `Set Your Page Layout and Decorations`,
       content: `In the Page Setup section, select your page size. Options include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (twelve hundred by twelve hundred pixels), and custom dimensions. Letter is standard for North American buyers. A4 is standard for European and international markets. Creating both versions doubles your market reach with minimal additional effort.\n\nPage orientation affects the puzzle layout significantly. Portrait layouts place the puzzle image on top with solution options below in a horizontal row at seventy-five percent of maximum size. Landscape layouts split the view fifty-fifty with the puzzle image on the left and solution options arranged on the right side. Choose the orientation that best showcases your source image and gives solution options adequate display space.\n\nBackground and border themes work independently, each with its own opacity slider ranging from zero to one in increments of zero point zero five. Apply a subtle background pattern at fifteen to twenty-five percent opacity for visual warmth without distracting from the puzzle content. Layer a decorative border at eighty to one hundred percent opacity for a polished frame. Consistent background and border combinations across a bundle create a cohesive product look that buyers associate with quality.\n\nCustomize text with seven font options including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Add a text outline from zero to ten for additional styling. Toggle name and date fields for group accountability. The Fabric.js canvas provides six alignment options plus center-on-page, layers with lock and unlock, zoom from twenty-five to three hundred percent, and undo and redo with fifty states.`,
     },
     {
-      heading: 'Generate the Jigsaw Puzzle Worksheet',
+      heading: `Generate the Jigsaw Puzzle Worksheet`,
       content: `Click Generate to create the missing pieces puzzle. The smart piece extraction algorithm activates, trying up to one hundred fifty placement attempts to find pieces with sufficient brightness variance (minimum threshold of fifteen). Each candidate piece location is tested for color variety to ensure the extracted fragment contains enough visual detail to be identifiable. Pieces maintain at least two hundred fifty pixels of distance from each other to prevent clustering and ensure holes are well-distributed across the image. Piece size is calculated as twelve percent of the image width with a minimum of fifty pixels.\n\nWhite holes with black stroke outlines (two pixels) appear at the original locations in the source image, clearly marking where pieces were extracted. Numbered solution options — correct pieces plus any distractor pieces — display below or beside the puzzle image depending on orientation. Each option shows a yellow-highlighted number label for identification.\n\nThe auto-generated header renders "Missing Pieces" in turquoise with a rose pink description, framed by the dual border system — a teal outer border with eight-pixel stroke, thirty-four pixel margins, and twelve pixel radius, plus a hot pink inner border with three-pixel stroke, forty-six point five pixel margins, eight pixel radius, and a slight offset. This professional framing increases perceived quality in marketplace listings.\n\nExamine the preview carefully: check that holes are well-distributed across the image, solution options show sufficient visual variety to be distinguishable, and distractor pieces (if present) are challenging but fair. If anything needs adjustment, modify your settings and regenerate instantly. The extraction algorithm recalculates on every generation, so regenerating with the same settings produces different piece placements.`,
     },
     {
-      heading: 'Review the Auto-Generated Answer Key',
+      heading: `Review the Auto-Generated Answer Key`,
       content: `Click the Answer Key tab to see the auto-generated solution. The same puzzle image appears with holes, and yellow-highlighted number labels are placed inside each hole showing the correct one-based option index. The yellow highlighting uses a semi-transparent background at seventy percent opacity, making the number clearly readable against any image content. The font size scales to sixty percent of the piece size for clear readability across all page sizes.\n\nSwitch between the Worksheet and Answer Key tabs to compare and verify the correct option is marked for each hole. The answer key generates simultaneously with the worksheet — no manual creation step, no separate design process, no possibility of mismatched answers. This simultaneous generation is a significant time saver when creating large jigsaw puzzle bundles where manually creating answer keys would be prohibitively slow.\n\nFor product listings, the answer key is a powerful selling point. Products that include answer keys with clear visual markers consistently outsell puzzles-only listings because buyers and parents want self-checking materials. The yellow-highlighted number labels are immediately recognizable and make verification instant — solvers or parents can check answers without any ambiguity. Always mention "includes auto-generated answer key with yellow highlighting" in your listing titles and descriptions to differentiate from competitors selling puzzles without solutions.`,
     },
     {
@@ -66,41 +66,41 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Selling Jigsaw Puzzle Worksheets on Etsy',
+      heading: `Selling Jigsaw Puzzle Worksheets on Etsy`,
       content: `Etsy is a strong marketplace for jigsaw puzzle worksheets because parents and buyers search for specific visual puzzle types. Titles like "Missing Pieces Puzzles — Jigsaw Puzzle Worksheets — Visual Discrimination Activities — With Answer Keys" capture targeted search traffic.\n\nName your products using the piece shape and difficulty level rather than generic titles. "Circle Shape Jigsaw Puzzle Worksheets — 20 Puzzles with Answer Keys — 3 Missing Pieces" outperforms "Puzzle Worksheets for Kids" because it matches specific buyer search queries and communicates exactly what the product contains.\n\nTags: use all thirteen Etsy tags. Combine broad and specific terms: "jigsaw puzzle worksheets," "missing pieces puzzles," "visual discrimination," "spatial reasoning activities," "critical thinking worksheets," "printable puzzles for kids," "puzzle worksheets with answers," "visual perception activities," and variations matching your specific piece shape and difficulty level.\n\nListing images: show the full worksheet with visible holes in the source image and numbered solution options below, a close-up of the turquoise-and-pink dual border header, the answer key with yellow-highlighted number labels clearly visible inside each hole, and a mockup of the worksheet printed and in use. The image-with-holes format is visually distinctive and makes strong thumbnails.\n\nPricing: individual jigsaw puzzle sets of ten to fifteen worksheets with answer keys sell at two dollars ninety-nine to five dollars ninety-nine. Shape-specific bundles of twenty to thirty worksheets sell at six dollars ninety-nine to twelve dollars ninety-nine. Complete collections across all six piece shapes and multiple difficulty levels sell at fourteen dollars ninety-nine to twenty-four dollars ninety-nine.`,
     },
     {
-      heading: 'Selling Jigsaw Puzzle Worksheets on Amazon KDP',
+      heading: `Selling Jigsaw Puzzle Worksheets on Amazon KDP`,
       content: `Amazon KDP serves the visual puzzle workbook market. Compile fifty to eighty jigsaw puzzle worksheets into a bound activity book format with progressive difficulty structured by missing piece count and solution options.\n\nStructure your workbook in chapters by difficulty: early chapters use one missing piece with two options for simple identification with large clear holes, middle chapters use three missing pieces with four options for intermediate spatial reasoning where solvers track multiple gaps, and advanced chapters use five missing pieces with six options including distractor pieces for complex visual discrimination. Include answer key pages at the back of each chapter showing the yellow-highlighted number labels inside each hole.\n\nTitle and subtitle: example title: "Missing Pieces Puzzles for Kids." Example subtitle: "80 Jigsaw Puzzle Worksheets with Answer Keys for Ages 3–8 — Find the Missing Piece, Visual Discrimination Activities, 6 Piece Shapes with Progressive Difficulty."\n\nKeywords: KDP provides seven keyword slots. Use specific phrases: "jigsaw puzzle worksheets," "missing pieces activity book," "visual discrimination puzzles kids," "spatial reasoning workbook," "find the missing piece activities," "visual perception puzzles," "critical thinking puzzles for kids."\n\nThe purely visual format is a major KDP advantage. One interior file works across every international Amazon marketplace without translation. Toggle grayscale for ink-friendly output that prints cleanly in black and white and keeps KDP printing costs low.`,
     },
     {
-      heading: 'Selling Jigsaw Puzzle Worksheets on Gumroad',
+      heading: `Selling Jigsaw Puzzle Worksheets on Gumroad`,
       content: `Gumroad is ideal for jigsaw puzzle worksheets because spatial reasoning and visual discrimination are cross-curricular skills valued across grade levels. Science sellers list missing pieces puzzles with animal and nature themes for observation warm-ups. Art sellers list them for visual analysis activities. Special education sellers list them for spatial perception development and fine motor coordination.\n\nProduct descriptions on Gumroad should include: grade level, specific cognitive skills practiced (spatial reasoning, visual discrimination, part-to-whole analysis), number of worksheets, whether answer keys are included, piece shapes used, difficulty levels covered (missing piece count and option count), and source themes. Mention that worksheets include name and date fields for group accountability.\n\nPreview files: Gumroad allows you to upload a preview file. Include two to three sample jigsaw puzzle worksheets showing different piece shapes and difficulty levels, plus one answer key page with yellow-highlighted number labels. Show the progression from easy (one missing piece, two options) to challenging (five missing pieces, six options with distractors).\n\nBundling on Gumroad: buyers purchase bundles for entire units. A "Complete Visual Perception Bundle" with missing pieces puzzles plus shadow match, odd one out, and grid match activities gives buyers resources for multiple spatial reasoning lessons. Create differentiated versions within each set — easy puzzles with fewer missing pieces for struggling learners and challenging puzzles with more pieces and distractors for advanced solvers.\n\nGumroad-specific keywords: "missing pieces puzzles," "jigsaw puzzle worksheets," "visual discrimination," "spatial reasoning activities," "morning work puzzles," "early finisher activities," "critical thinking warm-up." These terms match how buyers search for visual perception resources.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Pricing Your Jigsaw Puzzle Worksheet Products',
+      heading: `Pricing Your Jigsaw Puzzle Worksheet Products`,
       content: `Jigsaw puzzle worksheet pricing follows predictable patterns across marketplaces. Here are the ranges that perform well:\n\nSingle shape sets with ten to fifteen worksheets and answer keys: two dollars ninety-nine to five dollars ninety-nine. These serve as entry-point products. Each set focuses on one piece shape and one difficulty level, like square-cut animal puzzles with three missing pieces or circle-cut nature puzzles with two options.\n\nMulti-shape bundles with twenty to thirty worksheets covering three to four piece shapes across two difficulty levels: six dollars ninety-nine to twelve dollars ninety-nine. Buyers perceive strong value because they get visually distinct puzzle styles with answer keys for every worksheet. The six piece shapes create natural variety without requiring different source content.\n\nComplete collections with forty to sixty worksheets covering all six piece shapes, multiple difficulty levels from one missing piece to five, and distractor pieces at higher difficulty: fourteen dollars ninety-nine to twenty-four dollars ninety-nine. Position these as comprehensive jigsaw puzzle libraries for a full school year of spatial reasoning activities.\n\nDo not undercut the market. Jigsaw puzzle worksheets with smart extraction, distractor pieces, and auto-generated answer keys featuring yellow highlighting are a premium product. The six piece shapes and two-axis difficulty system create genuine variety that competitors using simpler tools cannot replicate. Price accordingly.`,
     },
     {
-      heading: 'Bundling Strategies by Shape and Difficulty',
+      heading: `Bundling Strategies by Shape and Difficulty`,
       content: `Bundles are where revenue scales for jigsaw puzzle products. The six piece shapes and two independent difficulty controls create natural bundling opportunities that multiply your product variety.\n\nShape-specific bundles: group fifteen to twenty worksheets by piece shape. "Square Cut Jigsaw Puzzles" and "Circle Cut Missing Pieces Activities" target different buyer preferences with clear product positioning. Each shape creates a visually distinct product line from the same source images.\n\nDifficulty progression bundles: combine easy puzzles with one missing piece and two options, intermediate puzzles with three missing pieces and four options, and challenging puzzles with five missing pieces with six options including distractors. Market these as "progressive jigsaw puzzle sets" that grow with the child from preschool through elementary.\n\nTheme-based bundles: compile jigsaw puzzle worksheets by image category. An "Animals Collection" includes puzzles across all six piece shapes using animal illustrations. A "Vehicles Collection" uses transportation images. Each themed bundle with shape variety provides dozens of unique puzzles from a focused content category.\n\nCustom photo puzzle packs: use uploaded images to create personalized jigsaw puzzle products that no competitor can replicate. Family photo puzzle books, pet photo puzzle sets, and custom illustration puzzles command premium prices because of their uniqueness.\n\nAlways list both individual sets and bundles. Individual listings capture specific keyword combinations while bundles drive higher revenue per transaction.`,
     },
     {
-      heading: 'Global Sales Without Translation',
+      heading: `Global Sales Without Translation`,
       content: `The purely visual format of missing pieces puzzles creates a significant competitive advantage that most sellers overlook. Every worksheet you create contains only images, holes, and numbered solution options — no language-specific text on the puzzle content itself. The auto-generated header translates into all eleven supported languages, but the exercises are universally readable regardless of the viewer's language.\n\nThis means one creation session produces a globally sellable product. The same PDF file works for English-speaking buyers in the United States, German-speaking buyers in Europe, Japanese-speaking buyers in Asia, and every other market. No separate language versions, no translation costs, no per-locale maintenance.\n\nTo capitalize on this advantage: list the same jigsaw puzzle products across Etsy shops targeting different countries. Translate only your listing titles and descriptions (not the product itself) to match local search terms. Publish the same KDP interiors across all international Amazon marketplaces. List on Gumroad for international buyers who need language-independent visual activities.\n\nThe custom image upload feature adds another dimension to global sales. Upload locally relevant images for specific markets while keeping the universal puzzle format. A set of puzzles using Japanese cultural images listed on a Japan-focused Etsy shop combines local visual appeal with the universal puzzle format. While competitors creating text-heavy worksheets must produce separate versions for each language market, your visual puzzles serve every buyer from a single file set with zero additional creation effort.`,
     },
   ],
 
   examples: [
     {
-      heading: 'Product Variations by Shape and Difficulty Level',
+      heading: `Product Variations by Shape and Difficulty Level`,
       content: `Here are concrete product examples you can create with the Missing Pieces Maker, organized by piece shape and difficulty configuration.\n\nPreschool level — square pieces with one missing piece and two options: use colorful animal or food illustrations with high visual contrast. One hole in the image with only two numbered options makes the identification task simple and confidence-building. The square shape creates clean geometric boundaries that are easy for the younger audience to visually parse. Package eight to ten worksheets per set with answer keys included. These entry-level products serve the largest buyer demographic.\n\nKindergarten level — circle pieces with three missing pieces and four options: three circular holes in the image create a moderate spatial reasoning challenge where solvers must track multiple gaps. Four solution options including one distractor prevent solving by elimination. The rounded circle shape adds visual variety compared to square cuts. Package twelve to fifteen worksheets per set with progressive themes.\n\nElementary level — mixed shapes with five missing pieces and six options: use rectangle and ellipse variants for elongated holes that reveal different proportions of the source image. Five holes with six options means one distractor piece that requires genuine visual discrimination. Mix piece shapes across worksheets within the bundle for maximum variety. Package fifteen to twenty worksheets per set, marketed as advanced visual perception challenges.\n\nPremium custom photo sets — any shape with varied difficulty: upload family photos, pet images, or group pictures to create personalized puzzle products. Custom photo puzzles command higher prices because they are unique and irreplicable. Offer multiple difficulty versions of the same photo for differentiated structured use.`,
     },
     {
-      heading: 'Progressive Workbook Design for KDP and Bundles',
+      heading: `Progressive Workbook Design for KDP and Bundles`,
       content: `The two independent difficulty controls enable progressive workbook designs that command premium pricing because they serve multiple skill levels within a single product.\n\nDesign pattern one — increasing missing pieces: keep solution options constant at four while increasing missing pieces from one to five across chapters. Chapter one presents single-hole puzzles for basic identification. Chapter two presents two-hole puzzles requiring dual tracking. Chapter three escalates to three holes, chapter four to four, and chapter five challenges solvers with five simultaneous gaps. This progression isolates the spatial reasoning variable while keeping the discrimination constant.\n\nDesign pattern two — increasing distractors: keep missing pieces constant at three while increasing solution options from three (no distractors) to six (three distractors). Early chapters present only correct options so solvers can solve by matching. Later chapters introduce one distractor, then two, then three, progressively demanding more careful visual comparison. This progression isolates the discrimination variable while keeping spatial demand constant.\n\nDesign pattern three — shape progression: move through piece shapes across chapters. Start with square cuts (clean geometric boundaries) for accessibility, progress to circle cuts (rounded challenges), then introduce rectangle and ellipse variants (elongated shapes revealing different image proportions). Each shape chapter uses the same difficulty settings so the only variable changing is the visual format of the holes.\n\nThese progressive designs are difficult to create manually but effortless with the two-axis difficulty system and six shape options. A single workbook using all three progression patterns across thirty to fifty pages creates a comprehensive spatial reasoning curriculum that justifies premium pricing on KDP and bundle marketplaces.`,
     },
   ],
@@ -143,8 +143,8 @@ const content: GuideContent = {
       description: `A visual discrimination companion to missing pieces. Odd one out worksheets ask solvers to identify the different item among four images, exercising related observation and comparison skills.`,
     },
     {
-      slug: 'create-shadow-matching-worksheets',
-      title: 'Create Shadow Matching Worksheets',
+      slug: `create-shadow-matching-worksheets`,
+      title: `Create Shadow Matching Worksheets`,
       description: `A visual perception cousin to missing pieces. Shadow matching exercises develop silhouette recognition and spatial analysis skills that complement jigsaw puzzle activities.`,
     },
     {
@@ -155,55 +155,55 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Missing Pieces Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Try the Missing Pieces Worksheet Maker' },
+    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: `Missing Pieces Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: `Odd One Out Worksheet Generator — Full Details` },
+    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: `Try the Missing Pieces Worksheet Maker` },
   ],
 
   toolsRecommended: [
     {
       appId: 'missing-pieces',
-      title: 'Missing Pieces Worksheet Generator',
+      title: `Missing Pieces Worksheet Generator`,
       description: `The primary tool for this guide. Create jigsaw puzzle worksheets with six piece shapes, smart extraction algorithm with brightness variance detection, one to five missing pieces with two to six solution options including distractor pieces, and auto-generated answer keys with yellow-highlighted number labels.`,
     },
     {
       appId: 'odd-one-out',
-      title: 'Odd One Out Worksheet Generator',
+      title: `Odd One Out Worksheet Generator`,
       description: `A visual discrimination companion that creates four-image puzzles where solvers identify the different item. Odd one out exercises develop related observation skills and bundle naturally with missing pieces puzzles for comprehensive visual perception product lines.`,
     },
     {
       appId: 'shadow-match',
-      title: 'Shadow Match Worksheet Generator',
+      title: `Shadow Match Worksheet Generator`,
       description: `A visual perception cousin that creates silhouette matching activities. Shadow matching targets spatial analysis skills closely related to jigsaw puzzle solving, making these two formats natural partners in visual reasoning bundles.`,
     },
     {
       appId: 'grid-match',
-      title: 'Grid Match Worksheet Generator',
+      title: `Grid Match Worksheet Generator`,
       description: `A spatial reasoning companion that creates grid-based matching puzzles. Grid match exercises develop part-to-whole spatial awareness that directly complements the spatial reasoning practiced in missing pieces activities.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/missing pieces/Missing Pieces (1).webp`, alt: 'Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing' },
+    heroImage: { src: `/samples/english/missing pieces/Missing Pieces (1).webp`, alt: `Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing` },
     samples: [
-      { src: `/samples/english/missing pieces/Missing Pieces (1).webp`, alt: 'Missing pieces puzzle worksheet showing an image with holes cut out and numbered solution options displayed below with dual border header', caption: 'Jigsaw puzzle worksheet with smart-extracted pieces and numbered solution options including distractors' },
-      { src: `/samples/english/missing pieces/Missing Pieces answer_key.webp`, alt: 'Auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option index', caption: 'Auto-generated answer key with yellow-highlighted labels showing correct option for each hole' },
+      { src: `/samples/english/missing pieces/Missing Pieces (1).webp`, alt: `Missing pieces puzzle worksheet showing an image with holes cut out and numbered solution options displayed below with dual border header`, caption: `Jigsaw puzzle worksheet with smart-extracted pieces and numbered solution options including distractors` },
+      { src: `/samples/english/missing pieces/Missing Pieces answer_key.webp`, alt: `Auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option index`, caption: `Auto-generated answer key with yellow-highlighted labels showing correct option for each hole` },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: `How to Create Missing Pieces Puzzles — Complete Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Bee — themed educational image`, caption: 'Bee' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Bull — themed educational image`, caption: 'Bull' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Calf — themed educational image`, caption: 'Calf' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Cat 2 — themed educational image`, caption: 'Cat 2' },
   ],
 };
 

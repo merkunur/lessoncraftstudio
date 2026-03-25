@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Fichas Descarga Digital para Vender — Guía',
+    titleTag: `Ideas Fichas Descarga Digital para Vender — Guía`,
     metaDescription: `Ideas de fichas de descarga digital para vendedores de Etsy, Gumroad y Gumroad. Construye un negocio de imprimibles sin inventario con PDFs educativos para.`,
     primaryKeyword: 'ideas fichas descarga digital',
     secondaryKeywords: [
-      'negocio imprimibles digitales descargas',
-      'vender fichas digitales online',
-      'ideas productos imprimibles descargables',
-      'modelo negocio fichas descargables',
+      `negocio imprimibles digitales descargas`,
+      `vender fichas digitales online`,
+      `ideas productos imprimibles descargables`,
+      `modelo negocio fichas descargables`,
     ],
     lsiKeywords: [
-      'productos educativos descarga instantánea',
-      'venta fichas PDF en marketplace',
-      'entrega automatizada productos digitales',
+      `productos educativos descarga instantánea`,
+      `venta fichas PDF en marketplace`,
+      `entrega automatizada productos digitales`,
     ],
   },
   hero: {
@@ -87,17 +87,17 @@ Los productos digitales también ofrecen valor único post-venta a través de la
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Fichas de Descarga Digital en Etsy',
+      title: `Vender Fichas de Descarga Digital en Etsy`,
       description: `Etsy es el marketplace dominante para imprimibles de descarga digital con enorme tráfico orgánico de búsqueda de vendedores y padres buscando activamente PDFs de fichas educativas que pueden comprar e imprimir inmediatamente. Etsy maneja el procesamiento de pagos y la entrega instantánea de archivos a través de su sistema integrado de descargas digitales, significando que los compradores reciben sus archivos adquiridos automáticamente en segundos tras completar el pago sin ninguna intervención manual del vendedor. Optimiza cada listado con palabras clave específicas que coincidan con la intención de búsqueda del comprador incluyendo nivel escolar, materia, tipo de actividad y contexto estacional para capturar las consultas exactas que tus compradores objetivo escriben en la barra de búsqueda de Etsy. Usa las diez ranuras de fotos del listado para mostrar vistas previas de las fichas que demuestren la calidad del contenido, variedad y formato profesional porque los compradores evalúan productos digitales enteramente a través de imágenes de vista previa antes de tomar decisiones de compra. Los listados estacionales alineados con el calendario académico y las tendencias de búsqueda festivas generan ventas consistentes durante todo el año mientras vendedores y padres buscan materiales oportunos que coincidan con sus necesidades instruccionales actuales. El programa Star Seller de Etsy recompensa a vendedores consistentes de descargas digitales que mantienen altas calificaciones de reseñas, tiempos de respuesta rápidos y tasas de completación de pedidos con visibilidad mejorada en resultados de búsqueda y una insignia de confianza que aumenta la confianza del comprador y las tasas de conversión.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Vender Fichas de Descarga Digital en Gumroad',
+      title: `Vender Fichas de Descarga Digital en Gumroad`,
       description: `Gumroad ofrece la configuración más sencilla para negocios de fichas de descarga digital con páginas de producto limpias, entrega instantánea de archivos, precios flexibles incluyendo opciones de paga lo que quieras, y herramientas integradas de email marketing que ayudan a los vendedores a construir relaciones directas con clientes fuera de los algoritmos de marketplace. La plataforma cobra tarifas por transacción en lugar de suscripciones mensuales, haciéndola accesible para nuevos vendedores que quieren comenzar a vender sin costos fijos reduciendo los ingresos iniciales antes de que el volumen de ventas crezca. Crea ofertas escalonadas de productos desde paquetes individuales de fichas a precios más bajos hasta paquetes completos a precios premium, permitiendo a los compradores elegir el alcance y nivel de inversión que se ajuste a sus necesidades. Los análisis de Gumroad rastrean tasas de conversión, fuentes de tráfico y tendencias de ingresos ayudando a los vendedores a optimizar estrategias de precios e identificar qué productos y canales de marketing generan los mejores retornos. La plataforma también soporta códigos de descuento para campañas promocionales, programas de afiliados que incentivan a otros creadores a promocionar tus productos por comisión, y precios de paquetes para combinaciones estratégicas de productos que aumentan el valor promedio del pedido. Las páginas de producto de Gumroad son indexables independientemente por los motores de búsqueda, dando a tus productos de fichas visibilidad orgánica en Google más allá de lo que los vendedores exclusivos de marketplace pueden lograr solo a través de búsqueda dentro de la plataforma.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Vender Fichas de Descarga Digital en Gumroad',
+      title: `Vender Fichas de Descarga Digital en Gumroad`,
       description: `Gumroad proporciona acceso directo a la mayor comunidad de vendedores compradores que buscan específicamente descargas de fichas educativas organizadas por nivel escolar, materia y alineación con estándares, haciéndolo el marketplace más dirigido para vendedores que crean materiales enfocados en línea. El sistema de reseñas de la plataforma construye prueba social a través de calificaciones verificadas de vendedores y reseñas escritas detalladas que impulsan el descubrimiento orgánico y aumentan las tasas de conversión porque los vendedores confían en las recomendaciones de otros emprendedores que han usado los materiales en entornos reales del mercado. El algoritmo de búsqueda de Gumroad recompensa descripciones completas de productos con niveles escolares específicos, materias, información de alineación con estándares y descripciones detalladas de contenido que coincidan con las consultas precisas de búsqueda que los vendedores usan cuando buscan materiales para apoyar lecciones y objetivos de aprendizaje específicos. Las descargas digitales en Gumroad se benefician de la credibilidad y confianza de la plataforma que los vendedores han construido a través de años de compras en el marketplace, reduciendo la hesitación del comprador que los nuevos vendedores en plataformas menos especializadas frecuentemente enfrentan al intentar establecer credibilidad. Gumroad también ofrece un programa de vendedor premium con tasas de comisión reducidas para vendedores de alto volumen, mejorando los márgenes de ganancia a medida que tus ventas crecen y tu catálogo de productos se expande en múltiples niveles escolares y áreas temáticas.`,
     },
     {
@@ -141,18 +141,18 @@ Los productos digitales también ofrecen valor único post-venta a través de la
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -161,12 +161,12 @@ Los productos digitales también ofrecen valor único post-venta a través de la
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -176,18 +176,18 @@ Los productos digitales también ofrecen valor único post-venta a través de la
     },
     {
       pageType: 'idea',
-      slug: 'impresion-bajo-demanda-ideas-imprimibles',
+      slug: `impresion-bajo-demanda-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Fichas de Impresión Bajo Demanda`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 
 

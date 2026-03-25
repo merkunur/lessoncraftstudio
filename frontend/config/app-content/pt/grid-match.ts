@@ -14,7 +14,7 @@ const content: AppContent = {
       `gerador de puzzles de peças de imagens uso comercial`,
       `atividades de perceção visual imprimíveis para negócio online`,
     ],
-    titleTag: 'Gerador Puzzles de Quadrícula | Criar e Vender',
+    titleTag: `Gerador Puzzles de Quadrícula | Criar e Vender`,
     metaDescription:
       `Crie puzzles de quadrícula para vender na Etsy, KDP e Gumroad. Grelha configurável, caselas-dica, gabarito automático, 104 temas. Teste grátis com marca d'água.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Puzzles de Quadrícula em 5 Passos',
+    title: `Como Criar Puzzles de Quadrícula em 5 Passos`,
     steps: [
       {
         title: 'Configure o Layout da Página',
@@ -45,7 +45,7 @@ const content: AppContent = {
           `Abra o painel Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações coloridas — animais, alimentos, veículos, natureza, festividades e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique numa imagem para selecioná-la para o seu puzzle. A pré-visualização da imagem selecionada mostra a sua escolha antes de gerar. Também pode carregar imagens personalizadas PNG, JPG ou GIF através do painel Carregar Imagens Personalizadas para criar puzzles de quadrícula a partir das suas próprias fotos ou ilustrações.`,
       },
       {
-        title: 'Gere a Ficha de Puzzle de Quadrícula',
+        title: `Gere a Ficha de Puzzle de Quadrícula`,
         description:
           `Clique em Gerar para criar o puzzle de quadrícula. A aplicação divide a imagem selecionada na grelha configurada, revela as caselas-dica com as peças de imagem reais visíveis e marca as células restantes com marcadores «?». Todas as peças são misturadas usando o algoritmo Fisher-Yates e apresentadas como paleta numerada. Os layouts verticais colocam a grelha no topo com a paleta abaixo; os layouts horizontais posicionam a grelha à esquerda com a paleta à direita. Um cabeçalho estilizado aparece com fundo ciano (#00BCD4), título violeta profundo (#6A1B9A) e moldura laranja (#FF8C42) mostrando «Puzzle Quadrícula» e instruções no idioma selecionado.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Puzzles de Quadrícula Online',
+    title: `Como Vender Puzzles de Quadrícula Online`,
     cases: [
       {
         title: `Pacotes de Puzzles de Quadrícula Temáticos na Etsy`,
@@ -113,28 +113,28 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de Puzzles de Imagens na Amazon KDP',
+        title: `Cadernos de Puzzles de Imagens na Amazon KDP`,
         description:
           `Compile 50–100 puzzles de quadrícula num caderno impresso formatado para a Amazon KDP. Estruture o seu livro por dificuldade progressiva: o Capítulo 1 usa grelhas 2×2 com 3 dicas para iniciantes, o Capítulo 2 usa grelhas 3×3 com 2 dicas para nível intermédio, e o Capítulo 3 usa grelhas 4×4 com 1 dica para nível avançado. Inclua os gabaritos no final do livro usando os círculos numerados gerados automaticamente. O modo escala de cinzentos produz páginas económicas em tinta prontas para interiores de livros a preto e branco. Os cadernos de puzzles de perceção visual vendem-se bem na categoria de livros de atividades durante todo o ano.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Puzzles para a loja no Gumroad',
+        title: `Atividades de Puzzles para a loja no Gumroad`,
         description:
           `Crie atividades de puzzles de quadrícula prontas para usar em preenchimentos de fim de aula, trabalho matinal ou centros de enriquecimento. Os vendedores que procuram atividades de perceção visual no Gumroad valorizam puzzles que chegam prontos para imprimir com gabaritos. Crie conjuntos alinhados com o catálogo de produtos: puzzles de imagens de animais para ciências, puzzles de monumentos para estudos sociais, puzzles de alimentos para nutrição. A dificuldade configurável permite-lhe diferenciar dentro de um único produto — inclua versões fáceis, médias e difíceis dos mesmos puzzles temáticos para que os vendedores possam atribuir conforme o nível do usuário.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Coleções de Puzzles de Quadrícula Sazonais',
+        title: `Coleções de Puzzles de Quadrícula Sazonais`,
         description:
           `As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de puzzles de quadrícula por época alinhadas com os picos de compra. Lance pacotes de puzzles de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua múltiplos tamanhos de grelha e níveis de dificuldade em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
       {
         title: `Puzzles de Quadrícula com Fotos Personalizadas para Produtos à Medida`,
         description:
           `Use a função Carregar Imagens Personalizadas para criar puzzles de quadrícula a partir de qualquer foto ou ilustração. Puzzles com fotos de família são presentes personalizados únicos. Os vendedores podem carregar fotos da turma para atividades de fim de ano. Puzzles com fotos de animais de estimação, de férias e de equipa criam produtos irrepetíveis. Ofereça a criação de puzzles de quadrícula personalizados como serviço premium na Etsy, onde os clientes enviam as suas fotos e recebem fichas de puzzles impressas com gabaritos — um produto personalizado de alta margem com tempo de produção mínimo.`,
-        platform: 'Etsy (produtos personalizados)',
+        platform: `Etsy (produtos personalizados)`,
       },
     ],
   },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `A ficha de trabalho mostra uma grelha onde algumas células apresentam a peça de imagem real (caselas-dica) e as células restantes mostram marcadores «?». Abaixo ou ao lado da grelha, uma paleta numerada apresenta todas as peças ocultas em ordem aleatória. Os usuários examinam as caselas-dica, estudam as peças numeradas e determinam qual número corresponde a cada posição vazia da grelha. O exercício requer raciocínio espacial — associar o conteúdo da peça à sua localização correta na imagem completa.`,
     },
     {
-      question: 'Como funciona o gabarito gerado automaticamente?',
+      question: `Como funciona o gabarito gerado automaticamente?`,
       answer:
         `O gerador usa um sistema de canvas duplo com um separador de Ficha de Trabalho e um separador de Gabarito. O gabarito apresenta a imagem completa, sem recortar, com círculos numerados sobrepostos em cada célula da grelha. Cada círculo tem um fundo amarelo (#ffffe0) com contorno preto e mostra o número da paleta que corresponde a essa posição. Os números correspondem à ordem misturada das peças da ficha de trabalho, tornando a verificação de respostas direta. Ambas as versões exportam-se separadamente com os quatro botões de descarga dedicados.`,
     },
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — todos os tamanhos de grelha, caselas-dica ajustáveis, o gabarito gerado automaticamente com círculos numerados, a biblioteca de imagens completa, os temas de fundo e de borda, o carregamento de imagens personalizadas, as ferramentas de texto e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — todos os tamanhos de grelha, caselas-dica ajustáveis, o gabarito gerado automaticamente com círculos numerados, a biblioteca de imagens completa, os temas de fundo e de borda, o carregamento de imagens personalizadas, as ferramentas de texto e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `O Gerador de Puzzles de Quadrícula é sensível ao idioma?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles de quadrícula como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os tamanhos de grelha configuráveis, as caselas-dica ajustáveis, os gabaritos gerados automaticamente e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de puzzles de quadrícula originais e vendáveis.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar todos os tamanhos de grelha, as configurações de caselas-dica, o gabarito gerado automaticamente com os círculos numerados, a biblioteca de imagens completa, os temas de fundo e de borda, o carregamento de imagens personalizadas, as ferramentas de texto e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,52 +206,52 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'ligar-fichas',
-      anchorText: 'Gerador de Fichas de Associação',
+      anchorText: `Gerador de Fichas de Associação`,
     },
     {
       pageType: 'app',
       slug: 'combinar-sombras-fichas',
-      anchorText: 'Gerador de Fichas de Combinar Sombras',
+      anchorText: `Gerador de Fichas de Combinar Sombras`,
     },
     {
       pageType: 'app',
       slug: 'bingo-ilustrado-fichas',
-      anchorText: 'Gerador de Fichas de Bingo Ilustrado',
+      anchorText: `Gerador de Fichas de Bingo Ilustrado`,
     },
     {
       pageType: 'app',
       slug: 'classificacao-imagens-fichas',
-      anchorText: 'Gerador de Fichas de Classificação de Imagens',
+      anchorText: `Gerador de Fichas de Classificação de Imagens`,
     },
     {
       pageType: 'app',
       slug: 'pecas-faltantes-fichas',
-      anchorText: 'Gerador de Fichas de Peças Faltantes',
+      anchorText: `Gerador de Fichas de Peças Faltantes`,
     },
     {
       pageType: 'app',
       slug: 'encontrar-objetos-fichas',
-      anchorText: 'Gerador de Fichas de Encontrar Objetos',
+      anchorText: `Gerador de Fichas de Encontrar Objetos`,
     },
     {
       pageType: 'bundle',
-      slug: 'pacote-associacao-classificacao',
+      slug: `pacote-associacao-classificacao`,
       anchorText: `Pacote Associação e Classificação — Todas as Aplicações de Associação num Pacote`,
     },
     {
       pageType: 'idea',
-      slug: 'pre-escolar-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para pré-escolar',
+      slug: `pre-escolar-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para pré-escolar`,
     },
     {
       pageType: 'idea',
-      slug: 'jardim-infancia-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis para jardim de infância',
+      slug: `jardim-infancia-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis para jardim de infância`,
     },
     {
       pageType: 'start',
       slug: 'plano-negocio-imprimiveis',
-      anchorText: 'Plano de negócio de imprimíveis',
+      anchorText: `Plano de negócio de imprimíveis`,
     },
     {
       pageType: 'guide',

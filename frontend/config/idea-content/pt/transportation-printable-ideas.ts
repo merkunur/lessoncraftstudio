@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Transportes — Guia de Nicho`,
     metaDescription: `Ideias lucrativas de imprimíveis de transportes para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos temáticos de veículos e dicas para o nicho.`,
 
-    primaryKeyword: 'ideias de imprimíveis de transportes',
+    primaryKeyword: `ideias de imprimíveis de transportes`,
     secondaryKeywords: [
-      'fichas temática transportes para vender',
+      `fichas temática transportes para vender`,
       'negócio imprimíveis veículos',
-      'fichas atividades transportes para vendedores',
-      'vender imprimíveis de transportes no Etsy',
+      `fichas atividades transportes para vendedores`,
+      `vender imprimíveis de transportes no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas carros e camiões',
-      'atividades temáticas de veículos',
-      'imprimíveis viagens e transportes para a loja',
+      `fichas educativas carros e camiões`,
+      `atividades temáticas de veículos`,
+      `imprimíveis viagens e transportes para a loja`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ O posicionamento neutro em termos de género é uma consideração estratégica 
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Transportes para Vender Online',
+      title: `Sopas de Letras de Transportes para Vender Online`,
       description: `As sopas de letras com vocabulário de veículos atraem vendedores que planeiam unidades de transportes e pais que procuram entretenimento educativo que canalize a obsessão dos seus filhos por veículos para o desenvolvimento produtivo de competências de literacia. Cria puzzles com vocabulário específico de transportes como carro, camião, comboio, avião, barco, autocarro, helicóptero, ambulância, trator, motor e roda juntamente com termos mais amplos de transportes. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de transportes para compradores mais velhos. As variações como pesquisas de veículos de emergência, vocabulário de equipamentos de construção e terminologia de transporte aéreo expandem o teu catálogo para captar diferentes interesses de compradores.`,
       appId: 'wordsearch',
     },
@@ -90,7 +90,7 @@ O posicionamento neutro em termos de género é uma consideração estratégica 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Transportes no Etsy',
+      title: `Vender Imprimíveis de Transportes no Etsy`,
       description: `O Etsy recompensa o nicho de transportes com um desempenho consistente de listagens durante todo o ano porque as crianças apaixonadas por veículos impulsionam pesquisas parentais contínuas de atividades educativas envolventes independentemente da estação ou do calendário de festividades. Utiliza as treze etiquetas com variações que combinem subtemas de veículos, tipos de competência e grupos etários: «fichas contagem transportes pré-escolar», «páginas colorir carros de bombeiros crianças pequenas» e «sopa de letras veículos construção jardim de infância» apontam a pesquisas específicas de compradores de forma muito mais eficaz do que etiquetas amplas como «fichas veículos». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade coisas que se movem» e «prenda amante de veículos» nos teus títulos e descrições. As imagens de listagens que mostram fichas de transportes impressas junto a carros de brinquedo, sets de construção ou decoração com temática de veículos superam as pré-visualizações digitais planas e captam a mentalidade impulsionada pelo entusiasmo que traz os pais de crianças amantes de veículos ao Etsy.`,
     },
     {
@@ -144,18 +144,18 @@ O posicionamento neutro em termos de género é uma consideração estratégica 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ O posicionamento neutro em termos de género é uma consideração estratégica 
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,27 +180,27 @@ O posicionamento neutro em termos de género é uma consideração estratégica 
     {
       pageType: 'idea',
       slug: 'espaco-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Espaço',
+      anchorText: `Ideias de Negócio de Imprimíveis de Espaço`,
     },
     {
       pageType: 'idea',
       slug: 'construcao-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Construção',
+      anchorText: `Ideias de Negócio de Imprimíveis de Construção`,
     },
     {
       pageType: 'idea',
       slug: 'piratas-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Piratas',
+      anchorText: `Ideias de Negócio de Imprimíveis de Piratas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Avião — imagem educativa temática', caption: 'Avião' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulância — imagem educativa temática', caption: 'Ambulância' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Barco — imagem educativa temática', caption: 'Barco' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — imagem educativa temática', caption: 'Bulldozer' },
-    { src: '/image-library/vehicles/bus.webp', alt: 'Autocarro — imagem educativa temática', caption: 'Autocarro' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Avião — imagem educativa temática`, caption: 'Avião' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulância — imagem educativa temática`, caption: 'Ambulância' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Barco — imagem educativa temática`, caption: 'Barco' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — imagem educativa temática`, caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/bus.webp`, alt: `Autocarro — imagem educativa temática`, caption: 'Autocarro' },
   ],
 
 

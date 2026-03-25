@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'preços imprimíveis educativos',
     secondaryKeywords: [
-      'como definir preços de fichas imprimíveis',
-      'guia de preços para imprimíveis educativos',
-      'estratégia de preços fichas de exercícios',
-      'preços de produtos imprimíveis',
+      `como definir preços de fichas imprimíveis`,
+      `guia de preços para imprimíveis educativos`,
+      `estratégia de preços fichas de exercícios`,
+      `preços de produtos imprimíveis`,
     ],
     lsiKeywords: [
       `ponto de preço valor percebido preços competitivos preços baseados em valor custo mais margem`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `preços sazonais ajuste de preços investigação de mercado disposição para pagar modelo de preços`,
       `estrutura de preços posicionamento de preços subvalorização sobrevalorização preços sustentáveis`,
     ],
-    titleTag: 'Preços imprimíveis educativos — Guia do vendedor',
+    titleTag: `Preços imprimíveis educativos — Guia do vendedor`,
     metaDescription: `Estratégias de preços para imprimíveis educativos. Psicologia de preços, análise competitiva, comissões de plataforma e margens de lucro para vendedores.`,
   },
 
   hero: {
-    title: 'Estratégias de preços para imprimíveis educativos',
+    title: `Estratégias de preços para imprimíveis educativos`,
     tagline: `Um guia completo de preços para imprimíveis educativos com foco em receitas máximas e crescimento sustentável — abrangendo investigação de mercado e análise competitiva, cálculo de custos e planeamento de margem de lucro, modelos de preços para diferentes tipos de produto, psicologia de preços e otimização de conversão, considerações de preços específicas por plataforma e testes sistemáticos de preços para melhoria contínua`,
     description: `Os preços são a decisão de maior impacto no seu negócio de imprimíveis. Um aumento de $3 no seu catálogo pode duplicar a sua margem de lucro de um dia para o outro, enquanto definir preços demasiado baixos por apenas alguns dólares deixa milhares de euros na mesa todos os anos. No entanto, a maioria dos vendedores de imprimíveis define preços por intuição ou copiando a concorrência sem compreender porque é que esses concorrentes escolheram os seus preços. Este guia abrange uma estrutura de preços completa que funciona no Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica e qualquer outra plataforma onde venda imprimíveis educativos.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Os preços não são apenas um número no seu anúncio — são um sinal que molda todos os aspetos de como os compradores percebem e interagem com os seus produtos. Compreender o impacto total das decisões de preços mudará a forma como aborda cada preço que define.\n\nO preço sinaliza qualidade na ausência de outras informações. Quando um comprador pesquisa «fichas de matemática de primeiro ano» e vê resultados entre $2 e $15, faz suposições instantâneas. O produto de $2 é assumido como básico, possivelmente de baixa qualidade, provavelmente criado rapidamente com esforço mínimo. O produto de $12 é assumido como abrangente, desenhado profissionalmente e digno do investimento. Estas suposições formam-se antes de o comprador clicar em qualquer anúncio. O seu preço é a primeira informação que a maioria dos compradores processa, e enquadra toda a avaliação que fazem do seu produto. Definir um preço demasiado baixo diz aos compradores que o seu produto não vale muito antes mesmo de o verem.\n\nOs preços afetam diretamente a sua margem de lucro, e pequenas alterações têm um efeito composto significativo. Se o seu pacote de fichas lhe custa $2 em comissões de plataforma e investimento de tempo por venda, definir o preço em $5 dá-lhe um lucro de $3 por venda. Definir o preço em $8 dá-lhe um lucro de $6 por venda — o dobro do lucro com um aumento de $3. Se vende 100 unidades por mês, esse aumento de $3 representa $300 extra mensais ou $3.600 anuais. A maioria dos vendedores de imprimíveis subestima o quanto um aumento modesto de preço afeta os seus resultados porque se focam na variação por unidade em vez do agregado anual.\n\nOs preços afetam a visibilidade no marketplace em muitas plataformas. O Etsy, a Amazon e o Gumroad têm em conta as receitas nos seus algoritmos de pesquisa em graus variáveis. Um produto que gera mais receitas por visualização (preço mais alto com conversão razoável) pode receber melhor posicionamento nas pesquisas do que um produto mais barato com vendas unitárias semelhantes ou mesmo superiores. Isto cria um ciclo de reforço: produtos com preço mais alto e boa conversão ganham melhor visibilidade, o que gera mais vendas, o que melhora ainda mais a visibilidade.\n\nA sua estratégia de preços determina que tipo de compradores atrai. Compradores sensíveis ao preço que compram o seu pacote de fichas de $3 comportam-se de forma diferente dos compradores que valorizam a qualidade e compram o seu pacote de $12. Os compradores de baixo orçamento têm mais probabilidade de deixar avaliações negativas por problemas menores, menos probabilidade de comprar produtos adicionais e mais probabilidade de pedir reembolsos. Os compradores conscientes do valor que pagam preços premium tendem a ficar mais satisfeitos, a deixar melhores avaliações e a tornar-se clientes recorrentes. O seu preço filtra a sua audiência, e atrair a audiência certa vale mais do que maximizar o volume de unidades.\n\nOs preços também definem o teto do crescimento do seu negócio. Se o seu preço médio de produto é $5, atingir $5.000 por mês em receitas exige 1.000 vendas. Se o seu preço médio é $12, as mesmas receitas exigem apenas 417 vendas — menos de metade do esforço de marketing, suporte a clientes e otimização de anúncios necessário. A estratégia de preços não diz respeito apenas a produtos individuais; determina a economia fundamental de todo o seu negócio.`,
     },
     {
-      heading: 'Investigue o panorama de preços do seu mercado',
+      heading: `Investigue o panorama de preços do seu mercado`,
       content: `Uma estratégia de preços eficaz começa por compreender o que os compradores no seu nicho já pagam, o que esperam a diferentes pontos de preço, e onde existem oportunidades para posicionar os seus produtos. A investigação de mercado evita os dois erros de preços mais comuns: definir preços no vácuo com base no que acha que o seu produto vale, e copiar cegamente o preço mais baixo da concorrência.\n\nPesquise o seu tipo de produto em cada plataforma onde planeia vender. Para um pacote de fichas de matemática, pesquise «fichas de adição de primeiro ano» no Etsy, na Amazon e no Gumroad. Documente o intervalo de preços que encontrar: os preços mais baixos, os mais altos, e onde a maioria dos produtos se agrupa. Tipicamente encontrará um intervalo amplo — $2 a $15 para pacotes individuais de fichas na maioria das plataformas. A distribuição é mais informativa do que o intervalo: se 60% dos produtos têm preços entre $6 e $10, essa é a zona de conforto do mercado para esse tipo de produto.\n\nAnalise o que diferencia os produtos a diferentes pontos de preço. Os produtos na gama baixa ($2 a $4) tipicamente têm menos páginas, formatação mais simples, sem grelhas de respostas e imagens genéricas ou sem tema. Os produtos na gama alta ($10 a $15) tipicamente oferecem mais páginas, design profissional, grelhas de respostas completas, múltiplos níveis de dificuldade e conteúdo visual temático. Documente estes diferenciadores porque revelam pelo que os compradores estão dispostos a pagar mais. Se os produtos com preços altos incluem consistentemente grelhas de respostas e imagens temáticas, essas características justificam preços premium no seu mercado.\n\nEstude os vendedores mais bem-sucedidos no seu nicho, não apenas os anúncios mais baratos. Ordene os resultados de pesquisa por «mais popular» ou «melhor avaliado» em cada plataforma. Registe os preços dos primeiros 10 a 20 resultados. Na maioria dos nichos de imprimíveis, os produtos com melhor desempenho não são os mais baratos — são os que oferecem o melhor valor percebido a um ponto de preço moderado ou premium. Um pacote de fichas de $9 com 500 avaliações e apresentação profissional vende mais do que um pacote de $3 com 12 avaliações porque os compradores confiam mais no produto de preço mais alto. O sucesso destes produtos de gama média a premium prova que o seu mercado suporta preços mais altos quando a proposta de valor é sólida.\n\nIdentifique lacunas e oportunidades de preços. Se a maioria dos concorrentes no seu nicho tem preços entre $4 e $8, pode existir uma oportunidade a $10 a $12 para um produto genuinamente premium com mais páginas, melhor design e grelhas de respostas abrangentes. Alternativamente, se o mercado está saturado a $8 a $12, um produto bem desenhado a $6 com forte comunicação de valor pode capturar o segmento consciente do valor. Procure pontos de preço onde poucos concorrentes operam mas a procura dos compradores existe — estas lacunas representam oportunidades de posicionamento.\n\nInvestigue os preços de pacotes e coleções separadamente dos preços de produtos individuais. Os pacotes na maioria dos nichos de imprimíveis vendem-se por $15 a $50 dependendo do âmbito e conteúdo. Compreender os preços de pacotes no seu mercado ajuda-o a definir preços de produtos individuais que fazem sentido tanto isoladamente como enquanto componentes de futuros pacotes. Se os pacotes no seu nicho se vendem por $25 a $35, produtos individuais com preço de $6 a $10 criam um desconto de pacote convincente nesse intervalo.`,
     },
     {
-      heading: 'Calcule os seus custos reais e margens de lucro',
+      heading: `Calcule os seus custos reais e margens de lucro`,
       content: `Muitos vendedores de imprimíveis saltam o cálculo de custos porque os produtos digitais não têm custo de fabrico físico. Mas os produtos digitais têm custos reais que determinam se o seu negócio é sustentável ou está lentamente a consumir o seu tempo e recursos sem retorno adequado. Compreender os seus custos reais define o patamar para os seus preços — o preço mínimo abaixo do qual está a perder dinheiro.\n\nAs comissões de plataforma são o seu custo mais visível e variam significativamente entre marketplaces. O Etsy cobra uma taxa de anúncio de $0,20, uma taxa de transação de 6,5% e uma taxa de processamento de pagamento de 3% mais $0,25 — aproximadamente 10% do preço de venda mais $0,45 por transação. A Amazon KDP fica com 40% do preço de lista para imprimíveis com preço inferior a $10 (fica com 60% de royalties). O Gumroad cobra aproximadamente 20% a 45% dependendo de se o comprador o encontrou através da pesquisa do Gumroad ou do seu link direto. O Gumroad cobra 10% mais processamento de pagamento. A Creative Fabrica tem o seu próprio modelo de partilha de receitas. Calcule as suas receitas líquidas por venda em cada plataforma subtraindo todas as comissões do preço de lista.\n\nO investimento de tempo é o seu maior custo oculto. Calcule quanto tempo demora a criar, formatar e listar um produto. Se gasta 3 horas a criar um pacote de fichas e o seu tempo vale $30 por hora, o custo de criação é $90. Precisa de vender unidades suficientes com lucro suficiente por unidade para recuperar esse investimento. Os geradores de fichas reduzem drasticamente o tempo de criação — produzindo um pacote completo e formatado profissionalmente em minutos em vez de horas — o que baixa o seu ponto de equilíbrio e torna mais pontos de preço viáveis.\n\nOs custos de ferramentas e software contribuem para o custo base de cada produto. As licenças comerciais para geradores de fichas, subscrições de software de design, licenças de imagens stock e ferramentas de otimização de anúncios fazem parte dos custos do seu negócio. Distribua estes custos pelo volume de vendas esperado para determinar o impacto por unidade. Uma licença comercial de $47 para um gerador de fichas que usa para criar 20 produtos acrescenta $2,35 ao custo base de cada produto — um investimento modesto que se paga com poucas vendas por produto.\n\nOs custos de marketing afetam a sua margem de lucro real. Se gastar $50 em anúncios Etsy que geram 10 vendas, o seu custo de marketing é $5 por venda. Este custo sai diretamente da sua margem de lucro. Um produto de $10 que gera $8,55 líquidos após comissões mas custa $5 em publicidade para vender gera apenas $3,55 de lucro real. Compreender o custo de aquisição de clientes garante que define preços suficientemente altos para manter uma margem saudável após todos os custos, não apenas as comissões de plataforma.\n\nDefina o seu preço mínimo viável com base na análise total de custos. Some as suas comissões de plataforma, o tempo de criação amortizado, os custos de ferramentas e os custos de marketing por venda. A soma é o seu patamar de custos — qualquer preço abaixo deste número significa que perde dinheiro em cada venda. O seu preço real deve estar substancialmente acima deste patamar para gerar lucro significativo. Se o seu patamar de custos é $4 por unidade, definir o preço em $5 dá-lhe uma margem de lucro de $1 (20%) que não sustentará o negócio. Definir o preço em $9 dá-lhe uma margem de $5 (56%) que financia o crescimento, o reinvestimento e torna o trabalho gratificante. A maioria dos vendedores bem-sucedidos de imprimíveis visa uma margem de lucro de 50% a 70% após todos os custos.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Cada plataforma onde vende imprimíveis tem diferentes estruturas de comissões, demografias de compradores e expectativas de preços. Os preços que maximizam as receitas no Etsy podem não ser ótimos na Amazon KDP ou no Gumroad.\n\nEtsy: os compradores do Etsy esperam preços de artesanato e produtos únicos. Isto suporta preços premium para imprimíveis profissionais. A estrutura de comissões do Etsy (aproximadamente 10% do preço de venda mais $0,45 por transação) significa que os preços mais altos têm melhor proporção de retenção de receitas. Os pacotes de nível médio ($6,99 a $12,99) e os pacotes premium ($14,99 a $29,99) têm bom desempenho no Etsy porque a base de compradores está condicionada a pagar preços premium por produtos de qualidade.\n\nAmazon KDP: a Amazon fica com 40% do preço de lista para livros de atividades com preço entre $2,99 e $9,99 (60% de royalties). Para livros com preço entre $10 e $250, a Amazon cobra 30% (70% de royalties). Isto cria um patamar de preço natural de $10 no KDP — aumentar o preço acima de $9,99 melhora tanto as receitas por unidade como a proporção de royalties. Os livros de atividades com preço de $12,99 a $17,99 obtêm frequentemente melhor desempenho líquido no KDP do que livros com preço de $7,99 a $9,99 apesar de potencialmente menores volumes de vendas.\n\nGumroad: os compradores do Gumroad são profissionais de educação que compram para uso online e frequentemente usam orçamentos escolares. Isto suporta preços mais altos do que o Etsy para produtos abrangentes — os recursos de loja, as coleções de nível escolar completo e os pacotes curriculares vendem-se a preços premium no Gumroad porque representam recursos profissionais em vez de produtos de entretenimento de consumidor.\n\nGumroad e vendas diretas: na sua própria loja ou através do Gumroad, não tem custos de descoberta por anúncio nem pressão de correspondência de preços da pesquisa no marketplace. Pode usar uma estratégia de preços de três níveis mais explícita com produtos de download único, acesso de membro e pacotes de licença. As vendas diretas suportam frequentemente preços mais altos porque os compradores que chegam através do seu marketing ou recomendações já confiam na sua marca.\n\nCreative Fabrica: os imprimíveis na Creative Fabrica competem em parte com produtos de subscrição, o que afeta as expectativas de preços. Os produtos individuais de alta qualidade que oferecem claramente mais do que produtos de subscrição genéricos sustentam preços premium. O foco na Creative Fabrica em recursos de fontes, design e arte inclina a sua base de compradores para criadores em vez de pais e vendedores, o que pode afetar que tipos de imprimíveis vendem melhor e a que preços.`,
     },
     {
-      heading: 'Teste e otimize os seus preços ao longo do tempo',
+      heading: `Teste e otimize os seus preços ao longo do tempo`,
       content: `Os preços ótimos não são estáticos — mudam com a maturidade do mercado, a acumulação de avaliações, mudanças de plataforma e evolução da sua linha de produtos. Construir um hábito de teste e otimização de preços é o que separa os vendedores que crescem constantemente os seus rendimentos dos que ficam presos aos seus preços iniciais.\n\nO Etsy Stats mostra-lhe visualizações, visitas, favoritos e encomendas de cada anúncio ao longo do tempo. A métrica-chave para a otimização de preços é a taxa de conversão: a percentagem de visitas que resultam numa compra. Um anúncio com 100 visitas e 3 vendas tem uma taxa de conversão de 3%. Um anúncio com 100 visitas e 5 vendas tem uma taxa de conversão de 5%.\n\nQuando subir preços: se um anúncio tem uma taxa de conversão sustentada acima de 4 a 5% durante 30 ou mais dias, pode estar com preço demasiado baixo. Os compradores estão a comprar a um ritmo que sugere que o preço não é uma barreira. Teste um aumento modesto ($1 a $2) e monitorize se a taxa de conversão desce, se mantém estável ou mal se altera. Se a conversão desce menos do que a percentagem de aumento de preço, o preço mais alto gera mais receitas totais.\n\nQuando baixar preços: se um anúncio tem contagens de visualizações fortes mas uma taxa de conversão abaixo de 1,5% após 30 ou mais dias, o preço pode ser uma barreira. Mas antes de baixar o preço, verifique primeiro as fotografias e a descrição do seu anúncio — uma conversão baixa com muitas visualizações indica mais frequentemente um problema de qualidade do anúncio do que um problema de preços. Se a qualidade do anúncio é forte e a conversão continua baixa, teste uma diminuição modesta e monitorize o impacto.\n\nAjustes sazonais de preços: suba preços em produtos sazonais durante a sua janela de pico quando a procura é mais alta. Os pacotes de regresso às aulas em agosto podem sustentar preços 15 a 20% mais altos do que os mesmos produtos em fevereiro. Os produtos com temas festivos em novembro e dezembro sustentam preços premium porque a urgência do comprador reduz a sensibilidade ao preço.\n\nRegiste as alterações de preço numa folha de cálculo simples: data, produto, preço anterior, preço novo, taxa de conversão antes e depois. Estes dados acumulam-se num manual de preços específico para a sua loja e categorias de produtos. Após 6 a 12 meses, terá evidência empírica dos pontos de preço ótimos em cada categoria e nível.\n\nEvite fazer múltiplas alterações de preço simultaneamente. Se sobe preços em 10 anúncios ao mesmo tempo, não consegue isolar quais alterações ajudaram e quais prejudicaram. Altere preços em 1 a 2 anúncios de cada vez, dê a cada alteração 2 a 4 semanas de dados, e depois aplique os ajustes bem-sucedidos a produtos semelhantes.`,
     },
   ],
@@ -66,18 +66,18 @@ const content: GuideContent = {
       content: `As comissões do Etsy criam dinâmicas específicas que tornam certos pontos de preço mais eficientes do que outros. Compreender a matemática das comissões orienta-o para pontos de preço que maximizam as receitas líquidas.\n\nA $1,99: taxa de anúncio $0,20, taxa de transação $0,13, taxa de processamento $0,31. Comissões totais: $0,64. Receita líquida: $1,35 (68% de retenção). A este preço está a ceder quase um terço de cada venda em comissões.\n\nA $3,99: taxa de anúncio $0,20, taxa de transação $0,26, taxa de processamento $0,37. Comissões totais: $0,83. Receita líquida: $3,16 (79% de retenção).\n\nA $7,99: taxa de anúncio $0,20, taxa de transação $0,52, taxa de processamento $0,49. Comissões totais: $1,21. Receita líquida: $6,78 (85% de retenção).\n\nA $14,99: taxa de anúncio $0,20, taxa de transação $0,97, taxa de processamento $0,70. Comissões totais: $1,87. Receita líquida: $13,12 (88% de retenção).\n\nA $24,99: taxa de anúncio $0,20, taxa de transação $1,62, taxa de processamento $1,00. Comissões totais: $2,82. Receita líquida: $22,17 (89% de retenção).\n\nO padrão é claro: quanto mais alto o ponto de preço, maior a percentagem de retenção. Por isso definir preços demasiado baixos é mais prejudicial do que a maioria dos vendedores imagina — preços baixos não significam apenas menos receitas por venda, significam uma pior proporção de receitas em cada venda.`,
     },
     {
-      heading: 'Royalties KDP e o limiar dos $9,99',
+      heading: `Royalties KDP e o limiar dos $9,99`,
       content: `A Amazon KDP tem uma estrutura de royalties que cria um incentivo de preços singular. Para livros de atividades impressos com preço entre $2,99 e $9,99, os royalties são de 60% do preço de lista. Para livros com preço de $10,00 ou mais (até $250), os royalties são de 70% do preço de lista. Isto significa que aumentar o preço de $9,99 para $10,00 aumenta tanto o preço de venda em $0,01 como melhora os royalties em 10 pontos percentuais. Um livro de atividades de $9,99 gera $5,99 de royalties (60%). O mesmo livro a $10,99 gera $7,69 de royalties (70%) — um aumento de $1,70 em royalties com um aumento de $1,00 no preço. Para maximizar as receitas do KDP, defina o preço dos livros de atividades em $10,99 ou mais para aceder ao limiar de royalties de 70%. Os $10,99 a $14,99 são normalmente o ponto ideal para livros de atividades de qualidade no KDP — suficientemente premium para aceder a royalties mais altos, mas competitivo para a procura de livros de atividades da Amazon.`,
     },
     {
-      heading: 'Preços em Gumroad por segmento de compradores',
+      heading: `Preços em Gumroad por segmento de compradores`,
       content: `Os compradores do Gumroad incluem vendedores, homeschoolers e pais, cada um com sensibilidade de preços e necessidades diferentes. Os vendedores comprando para salas de aula tipicamente têm acesso a orçamentos escolares, o que reduz a sensibilidade ao preço e aumenta a procura de produtos abrangentes. Os pacotes para salas de aula — coleções de nível de ano completo, pacotes de unidade temática ou recursos de diferenciação — sustentam preços mais altos no Gumroad do que no Etsy porque o comprador está a fazer uma aquisição profissional em vez de uma compra pessoal. Os pais comprando para homeschooling ou suplementação tendem a ter sensibilidade de preços semelhante à dos compradores do Etsy. Defina preços dos seus recursos do Gumroad com base no segmento de compradores pretendido: produtos específicos para loja a $8 a $20, recursos de homeschooling e parentalidade a $4 a $12.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Ancoragem de preços com pacotes premium',
+      heading: `Ancoragem de preços com pacotes premium`,
       content: `A ancoragem de preços é um princípio psicológico onde os compradores avaliam um preço em relação a outros preços visíveis. Na sua loja, o nível premium serve como âncora que faz os produtos de nível médio parecerem acessíveis em comparação.\n\nQuando um comprador vê o seu «Pack completo de primeiro ano — 120 páginas» a $24,99 e depois vê o seu «Pack de fichas de matemática — 40 páginas» a $9,99, os $9,99 parecem um bom preço em relação à âncora de $24,99. Sem a âncora premium, o mesmo produto de $9,99 poderia parecer caro comparado com fichas individuais de $2,99 da concorrência.\n\nCrie pelo menos 2 a 3 produtos de nível premium na sua loja mesmo que se vendam com pouca frequência. O seu papel principal é ancorar a perceção de preço dos compradores e fazer com que os seus produtos de nível médio — onde realmente vem a maioria das suas receitas — pareçam bem valorizados. Coloque os produtos premium no topo das secções relevantes da loja para que os compradores encontrem a âncora antes de ver as opções de preço inferior.`,
     },
     {
@@ -128,47 +128,47 @@ const content: GuideContent = {
     },
     {
       question: `Qual é a política de reembolso para licenças comerciais utilizadas para criar imprimíveis para venda?`,
-      answer: `Cada gerador de fichas oferece um teste grátis com marca d'água para que possa avaliar completamente a ferramenta antes de adquirir uma licença comercial. Crie fichas completas, teste cada configuração e tema, verifique a qualidade de impressão a 300 DPI, e confirme que o resultado cumpre os seus padrões de qualidade. Teste o seu fluxo completo de preços e anúncios com amostras com marca d'água antes de se comprometer. Como pode testar completamente cada funcionalidade antes de comprar, todas as vendas de licenças comerciais são definitivas. Esta é uma prática padrão para ferramentas de produtos digitais onde a funcionalidade completa está disponível para avaliação antes da compra.`,
+      answer: `Cada gerador de fichas oferece um teste grátis com marca d`água para que possa avaliar completamente a ferramenta antes de adquirir uma licença comercial. Crie fichas completas, teste cada configuração e tema, verifique a qualidade de impressão a 300 DPI, e confirme que o resultado cumpre os seus padrões de qualidade. Teste o seu fluxo completo de preços e anúncios com amostras com marca d`água antes de se comprometer. Como pode testar completamente cada funcionalidade antes de comprar, todas as vendas de licenças comerciais são definitivas. Esta é uma prática padrão para ferramentas de produtos digitais onde a funcionalidade completa está disponível para avaliação antes da compra.`,
     },
   ],
 
   nextSteps: [
     {
       slug: 'precos-imprimiveis-etsy',
-      title: 'Como definir preços dos seus imprimíveis Etsy',
+      title: `Como definir preços dos seus imprimíveis Etsy`,
       description: `Estratégias de preços específicas para o Etsy — abrangendo cálculos de comissões do Etsy, análise competitiva dentro da pesquisa do Etsy e métodos de teste de preços específicos da plataforma.`,
     },
     {
-      slug: 'criar-pacotes-fichas-exercicios',
-      title: 'Como criar pacotes de fichas que vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      title: `Como criar pacotes de fichas que vendam`,
       description: `Estratégias de criação de pacotes incluindo tipos de pacotes, acumulação de valor e psicologia de preços de pacotes para máximo rendimento por transação.`,
     },
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia completo para iniciar um negócio de imprimíveis`,
       description: `O guia de negócio fundamental que abrange criação de conteúdo, licenças comerciais, estratégia multiplataforma e construção de um negócio de imprimíveis sustentável.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos de imprimíveis rentáveis' },
-    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: 'Como definir preços de imprimíveis no Etsy' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Como criar fichas de adição para crianças' },
-    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Como criar caça-palavras com imagens' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: 'Como criar páginas para colorir com imagens' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: `Como pesquisar nichos de imprimíveis rentáveis` },
+    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: `Como definir preços de imprimíveis no Etsy` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: `Como criar fichas de adição para crianças` },
+    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: `Como criar caça-palavras com imagens` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: `Como criar páginas para colorir com imagens` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Gerador de fichas de matemática',
+      title: `Gerador de fichas de matemática`,
       description: `Cria fichas de matemática profissionais em minutos em vez de horas. Compreender a velocidade de produção é essencial para cálculos precisos do custo por produto que informam a sua estratégia de preços.`,
     },
     {
@@ -183,28 +183,28 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Gera páginas para colorir numa categoria de alto volume onde a estratégia de preços afeta significativamente as receitas. As páginas para colorir ilustram como a seleção de tema e a qualidade das imagens sustentam preços premium.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de adição profissional a demonstrar a qualidade que suporta estratégias de preços premium' },
+    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de adição profissional a demonstrar a qualidade que suporta estratégias de preços premium` },
     samples: [
-      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: 'Ficha de adição com imagens temáticas a suportar preços premium', caption: 'A formatação profissional e as imagens temáticas justificam pontos de preço mais altos — os compradores pagam mais por qualidade e apelo visual' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Caça-palavras a demonstrar diferenciação de características para preços', caption: 'Os caça-palavras com imagens temáticas exigem preços mais altos do que as versões básicas de apenas texto em todas as plataformas' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir a mostrar a qualidade que suporta preços competitivos', caption: 'As páginas para colorir de alta qualidade demonstram como a qualidade do produto permite diretamente preços premium em categorias competitivas' },
+      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: `Ficha de adição com imagens temáticas a suportar preços premium`, caption: `A formatação profissional e as imagens temáticas justificam pontos de preço mais altos — os compradores pagam mais por qualidade e apelo visual` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Caça-palavras a demonstrar diferenciação de características para preços`, caption: `Os caça-palavras com imagens temáticas exigem preços mais altos do que as versões básicas de apenas texto em todas as plataformas` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir a mostrar a qualidade que suporta preços competitivos`, caption: `As páginas para colorir de alta qualidade demonstram como a qualidade do produto permite diretamente preços premium em categorias competitivas` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Como criar fichas de matemática rapidamente — Produção eficiente para melhores margens de lucro`,
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Maçã — imagem educativa temática', caption: 'Maçã' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Alperce — imagem educativa temática', caption: 'Alperce' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Abacate — imagem educativa temática', caption: 'Abacate' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banana — imagem educativa temática', caption: 'Banana' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Amora — imagem educativa temática', caption: 'Amora' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Maçã — imagem educativa temática`, caption: 'Maçã' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Alperce — imagem educativa temática`, caption: 'Alperce' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Abacate — imagem educativa temática`, caption: 'Abacate' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banana — imagem educativa temática`, caption: 'Banana' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Amora — imagem educativa temática`, caption: 'Amora' },
   ],
 };
 

@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentijnsdag Printables Verkopen — Nichegids',
+    titleTag: `Valentijnsdag Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende Valentijnsdag printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Hartthema productconcepten en seizoenstips voor verkopers.`,
 
-    primaryKeyword: 'valentijnsdag printable ideeën',
+    primaryKeyword: `valentijnsdag printable ideeën`,
     secondaryKeywords: [
-      'Valentijnsdag werkbladen verkopen',
-      'valentijn printable business ideeën',
-      'valentijn activiteiten voor verkopers',
-      'valentijn printables verkopen op Etsy',
+      `Valentijnsdag werkbladen verkopen`,
+      `valentijn printable business ideeën`,
+      `valentijn activiteiten voor verkopers`,
+      `valentijn printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'hartthema educatieve werkbladen',
+      `hartthema educatieve werkbladen`,
       'februari klasactiviteiten',
-      'liefde en vriendschap thema printables',
+      `liefde en vriendschap thema printables`,
     ],
   },
   hero: {
@@ -42,27 +42,27 @@ Cross-promotionele mogelijkheden maken de Valentijnsdagniche bijzonder strategis
 
   productIdeas: [
     {
-      title: 'Valentijn Telwerkbladen voor Printable Verkopers',
+      title: `Valentijn Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met harten, rozen, snoep, kaarten en cupidopijlen brengen liefdethema-opwinding in vroege rekenoefeningen die verkopers en ouders gretig kopen gedurende het valentijnseizoen. Gebruik de Zoek en Tel-generator om valentijnscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen brievenbussen, snoepbakjes en vriendschapskaartencollecties. Bied sets aan op meerdere vaardigheidsniveaus: valentijnvoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen snoepharten of groepjes valentijnkaarten voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Valentijn Woordzoekpuzzels Online Verkopen',
+      title: `Valentijn Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met vriendschapsvocabulaire trekken verkopers aan die februariactiviteiten plannen en ouders die educatief vermaak zoeken tijdens de valentijnviering. Maak puzzels met valentijnspecifiek vocabulaire zoals hart, cupido, rozen, snoep, vriend, liefde en brievenbus naast bredere vriendschaps- en vriendelijkheidsterminologie. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer valentijntermen voor oudere gebruikers. Variaties zoals vriendschapsvocabulaire, liefdethemawoorden en valentijnvieringsterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Valentijn Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met valentijnthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke februarykoperspubliek aanspreken. Maak sets waarin kinderen harten koppelen aan enveloppen, valentijnitems combineren zoals snoep met geschenkdoosjes, of vriendschapssymbolen verbinden met bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die valentijnkaarten uitwisselen online plannen waar gestructureerde activiteiten opgewonden kinderen gefocust en betrokken houden. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met valentijnthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke februarykoperspubliek aanspreken. Maak sets waarin kinderen harten koppelen aan enveloppen, valentijnitems combineren zoals snoep met geschenkdoosjes, of vriendschapssymbolen verbinden met bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die valentijnkaarten uitwisselen online plannen waar gestructureerde activiteiten opgewonden kinderen gefocust en betrokken houden. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Valentijn Optelwerkbladen voor Rekenverkopers',
+      title: `Valentijn Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met hartillustraties transformeren routinematige rekenoefeningen in feestelijke activiteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens de vrolijke dagen in de aanloop naar Valentijnsdag. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen snoepharten in doosjes optellen, vriendschapsthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met rozen, kaarten en valentijnbrievenbussen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met valentijnsvisuele context. Valentijn-rekenwerkbladen zijn sterk gevraagd omdat verkopers productgerichte oefeningen nodig hebben die passen bij de seizoensenergie in hun productlijnen.`,
       appId: 'addition',
     },
     {
-      title: 'Valentijn Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Valentijn Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn het instapproduct met het hoogste volume voor valentijn printable-winkels omdat liefdethema kleuren vrijwel elk gezin met jonge kinderen aanspreekt en vroege beoordelingen genereert die de zichtbaarheid van je hele winkel verhogen tijdens piekseizoenverkeer. De Kleuren-generator maakt gedetailleerde contouren van harten, cupidopersonages, rozen, liefdebrieven, vriendschapsscènes, brievenbussen overlopend met valentijnkaarten en snoegarrangementen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals vriendschapspersonages of hartpatronen. Voor KDP compileer je dertig tot vijftig kleurplaten in valentijn-activiteitenboeken gepositioneerd als klasfeestgunsten of februaricadeaus.`,
       appId: 'coloring',
     },
@@ -96,13 +96,13 @@ Cross-promotionele mogelijkheden maken de Valentijnsdagniche bijzonder strategis
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Valentijn Printables Verkopen op Etsy',
+      title: `Valentijn Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor valentijn printable-vermeldingen, en het winterwinkelseizoen creëert een aanzienlijke verkeerspiek voor educatieve digitale downloads. Publiceer je valentijnvermeldingen tegen eind december of begin januari om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de januarivraagstijging begint. Gebruik alle dertien tags met variaties die valentijnsubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "valentijn telwerkbladen kleuters," "vriendschap woordzoeker kleuterschool" en "harten kleurplaten peuters" richten zich op specifieke koperszoekopdrachten veel effectiever dan brede tags. Maak vieringsgerichte vermeldingsvariaties die activiteitenbundels positioneren als valentijnkaart-alternatieven of klasfeestpakketten. De Nederlandse markt via Etsy.nl biedt groeiende kansen omdat Valentijnsdag steeds populairder wordt in Nederland.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Valentijn Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor valentijnprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast valentijnkaarten, snoep en kleine cadeautjes voor kinderen. Compileer individuele valentijnwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond liefde- en vriendschapsthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "valentijn activiteitenboek voor kinderen," "februari werkbladen kleuters" en subthematermen toe als "harten kleurboek" of "vriendschap activiteiten voor kinderen." Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als valentijncadeaus of klasfeestgunsten. Publiceer tegen begin januari. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Valentijn Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor valentijnprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast valentijnkaarten, snoep en kleine cadeautjes voor kinderen. Compileer individuele valentijnwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond liefde- en vriendschapsthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "valentijn activiteitenboek voor kinderen," "februari werkbladen kleuters" en subthematermen toe als "harten kleurboek" of "vriendschap activiteiten voor kinderen." Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als valentijncadeaus of klasfeestgunsten. Publiceer tegen begin januari. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -127,15 +127,15 @@ Cross-promotionele mogelijkheden maken de Valentijnsdagniche bijzonder strategis
     },
     {
       question: `Hoe maak ik valentijnprintables geschikt voor alle klassettings?`,
-      answer: `Het creëren van inclusieve valentijnprintables is essentieel om het breedst mogelijke koperspubliek te bereiken, vooral verkopers in diverse klassettings die materiaal nodig hebben dat werkt voor alle gebruikerspopulaties. Richt je op vriendschapsthema's en universele valentijnbeelden zoals harten, brievenbussen, snoep, kaarten en bloemen in plaats van romantische beelden die ongepast kunnen voelen voor jonge kinderen. Label producten als "vriendschap en valentijn" activiteiten om zowel valentijnvierende gezinnen als degenen die de voorkeur geven aan algemene vriendelijkheids- en vriendschapsthema's aan te spreken. Vermeld duidelijk in productbeschrijvingen het op vriendschap gerichte, leeftijdsgeschikte karakter van de activiteiten. Het aanbieden van zowel valentijnspecifieke als algemene vriendschapsversies van dezelfde werkbladtypes verdubbelt je catalogus.`,
+      answer: `Het creëren van inclusieve valentijnprintables is essentieel om het breedst mogelijke koperspubliek te bereiken, vooral verkopers in diverse klassettings die materiaal nodig hebben dat werkt voor alle gebruikerspopulaties. Richt je op vriendschapsthema`s en universele valentijnbeelden zoals harten, brievenbussen, snoep, kaarten en bloemen in plaats van romantische beelden die ongepast kunnen voelen voor jonge kinderen. Label producten als "vriendschap en valentijn" activiteiten om zowel valentijnvierende gezinnen als degenen die de voorkeur geven aan algemene vriendelijkheids- en vriendschapsthema`s aan te spreken. Vermeld duidelijk in productbeschrijvingen het op vriendschap gerichte, leeftijdsgeschikte karakter van de activiteiten. Het aanbieden van zowel valentijnspecifieke als algemene vriendschapsversies van dezelfde werkbladtypes verdubbelt je catalogus.`,
     },
     {
       question: `Kan ik dezelfde valentijnprintables op meerdere platforms verkopen?`,
       answer: `Ja, verkopen op meerdere platforms is een van de meest effectieve strategieën om de valentijn printable-omzet te maximaliseren omdat elk platform een ander kopersegment bereikt tijdens het februariseizoen. Etsy trekt ouders, thuisonderwijzers en vieringsplanners aan die directe-download valentijnactiviteiten zoeken. Gumroad bereikt klasverkopers die februariproductcatalogus en valentijnfeestactiviteiten plannen. KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken naast valentijnkaarten en snoep in winkelwagentjes. Gumroad en Shopify helpen je een eigen publiek op te bouwen dat je elk valentijnseizoen opnieuw kunt bereiken via e-mailmarketing. Cross-listing vermenigvuldigt je februarizichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Verkopen valentijnprintables ook buiten februari?',
-      answer: `Valentijn printable-verkopen zijn sterk geconcentreerd in het venster van januari tot februari, waarbij het overgrote deel van de omzet plaatsvindt tijdens deze zesperiode van zes weken. Er zijn echter factoren die kleinere verkopen buiten de piek creëren. Sommige verkopers plannen het februariproductcatalogus tijdens de kerstvakantie en kopen in december. Thuisonderwijzende gezinnen met flexibele schema's kunnen vriendschaps- en liefde-thema's op niet-traditionele momenten gebruiken. Op vriendschap gerichte werkbladen die harten en vriendelijkheidsvocabulaire gebruiken zonder exclusief valentijn-branded te zijn, kunnen bescheiden jaarronde verkopen genereren als algemeen sociaal-emotioneel leermateriaal. Hoewel je geen significante jaarronde omzet moet verwachten van valentijnspecifieke producten, maakt het geconcentreerde seizoensinkomen gecombineerd met de relatief korte productietijdlijn deze niche een zeer efficiënt gebruik van je productcreatietijd.`,
+      question: `Verkopen valentijnprintables ook buiten februari?`,
+      answer: `Valentijn printable-verkopen zijn sterk geconcentreerd in het venster van januari tot februari, waarbij het overgrote deel van de omzet plaatsvindt tijdens deze zesperiode van zes weken. Er zijn echter factoren die kleinere verkopen buiten de piek creëren. Sommige verkopers plannen het februariproductcatalogus tijdens de kerstvakantie en kopen in december. Thuisonderwijzende gezinnen met flexibele schema`s kunnen vriendschaps- en liefde-thema`s op niet-traditionele momenten gebruiken. Op vriendschap gerichte werkbladen die harten en vriendelijkheidsvocabulaire gebruiken zonder exclusief valentijn-branded te zijn, kunnen bescheiden jaarronde verkopen genereren als algemeen sociaal-emotioneel leermateriaal. Hoewel je geen significante jaarronde omzet moet verwachten van valentijnspecifieke producten, maakt het geconcentreerde seizoensinkomen gecombineerd met de relatief korte productietijdlijn deze niche een zeer efficiënt gebruik van je productcreatietijd.`,
     },
     {
       question: `Hoe maak ik efficiënt valentijnwerkbladen met generator tools?`,
@@ -151,62 +151,62 @@ Cross-promotionele mogelijkheden maken de Valentijnsdagniche bijzonder strategis
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'easter-printable-ideas',
-      anchorText: 'Pasen printable businessideeën',
+      anchorText: `Pasen printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'parents-day-printable-ideas',
-      anchorText: 'Ouderdag printable businessideeën',
+      anchorText: `Ouderdag printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Kerst printable businessideeën',
+      anchorText: `Kerst printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — educatieve thema-afbeelding Valentijnsdag', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: `Azalea — educatieve thema-afbeelding Valentijnsdag`, caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: `Begonia — educatieve thema-afbeelding Valentijnsdag`, caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: `Boshyacint — educatieve thema-afbeelding Valentijnsdag`, caption: 'Boshyacint' },
-    { src: '/image-library/flowers/buttercup.webp', alt: `Boterbloem — educatieve thema-afbeelding Valentijnsdag`, caption: 'Boterbloem' },
-    { src: '/image-library/flowers/carnation.webp', alt: 'Anjer — educatieve thema-afbeelding Valentijnsdag', caption: 'Anjer' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Aster — educatieve thema-afbeelding Valentijnsdag`, caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — educatieve thema-afbeelding Valentijnsdag`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — educatieve thema-afbeelding Valentijnsdag`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Boshyacint — educatieve thema-afbeelding Valentijnsdag`, caption: 'Boshyacint' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Boterbloem — educatieve thema-afbeelding Valentijnsdag`, caption: 'Boterbloem' },
+    { src: `/image-library/flowers/carnation.webp`, alt: `Anjer — educatieve thema-afbeelding Valentijnsdag`, caption: 'Anjer' },
   ],
 
   youtubeId: '0cOPi7eajLs',

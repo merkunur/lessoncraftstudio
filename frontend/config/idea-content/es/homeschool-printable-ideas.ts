@@ -4,12 +4,12 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Educación en Casa — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de trabajo desde casa para vender en Etsy, Amazon KDP y Gumroad. Estrategias de nicho para vendedores dirigidos a padres que educan.`,
-    primaryKeyword: 'ideas imprimibles trabajo desde casa',
+    primaryKeyword: `ideas imprimibles trabajo desde casa`,
     secondaryKeywords: [
-      'fichas trabajo desde casa para vender',
-      'negocio imprimibles homeschool',
+      `fichas trabajo desde casa para vender`,
+      `negocio imprimibles homeschool`,
       `fichas actividades educación en el hogar para vendedores`,
-      'vender imprimibles homeschool en línea',
+      `vender imprimibles homeschool en línea`,
     ],
     lsiKeywords: [
       `fichas catálogo de productos educación en el hogar`,
@@ -85,7 +85,7 @@ El patrón de compra durante todo el año de las emprendedores elimina la volati
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Educación en Casa en Etsy',
+      title: `Vender Imprimibles de Educación en Casa en Etsy`,
       description: `Etsy captura el segmento de compradores padres de trabajo desde casa que se encuentran entre los compradores más activos de imprimibles educativos en la plataforma, buscando con términos específicos como «fichas trabajo desde casa», «imprimibles homeschool», «actividades estudio por unidades», «suplemento de productos trabajo desde casa» y «paquete aprendizaje multigrado» durante los doce meses sin caída de demanda en verano. Utiliza las trece etiquetas con variaciones que combinen términos de metodología de trabajo desde casa, áreas temáticas, rangos de edad y formatos de actividad para captar los diversos segmentos de compradores dentro de la comunidad de trabajo desde casa que buscan de manera diferente según su filosofía educativa. Agrupa productos por tema de estudio por unidades o progresión de habilidades multigrado para aumentar el valor promedio del pedido: un paquete interdisciplinario de estudio de la naturaleza, un paquete familiar multigrado de práctica de matemáticas y una colección de estudio por unidades estacional sirven cada uno necesidades distintas de las familias de trabajo desde casa mientras fomentan múltiples compras del mismo comprador. Los paquetes familiares multigrado obtienen precios premium porque los padres pagan gustosamente más por un solo producto que sirve a todos sus hijos simultáneamente en lugar de comprar productos separados por nivel de grado individualmente. La fuerte recomendación de boca a boca dentro de los grupos de trabajo desde casa impulsa el descubrimiento orgánico ya que los compradores satisfechos recomiendan productos en grupos de Facebook, reuniones de cooperativa y discusiones de convenciones de trabajo desde casa.`,
     },
     {
@@ -95,7 +95,7 @@ El patrón de compra durante todo el año de las emprendedores elimina la volati
     },
     {
       platform: 'Gumroad',
-      title: 'Crear Recursos de Educación en Casa para Gumroad',
+      title: `Crear Recursos de Educación en Casa para Gumroad`,
       description: `Las familias de trabajo desde casa representan una demografía creciente e cada vez más importante en Gumroad, comprando junto a vendedores del mercado tradicionales pero con necesidades y expectativas claramente diferentes que crean oportunidades para vendedores que abordan específicamente los requisitos de trabajo desde casa. Etiqueta los productos explícitamente como «amigable para trabajo desde casa» con instrucciones autodirigidas que permitan el trabajo independiente del usuario, claves de respuestas integrales para la valor percibido de los padres, y sugerencias claras de alcance y secuencia que ayuden a los padres a integrar los materiales en su enfoque de productos elegido. Incluye múltiples niveles de dificultad dentro de productos individuales para servir hogares multigrado donde una sola compra necesita acomodar niños que abarcan dos a cuatro niveles de grado trabajando a diferentes ritmos. Los paquetes de estudio por unidades integrando múltiples materias alrededor de un solo tema obtienen precios premium en Gumroad porque las familias de trabajo desde casa valoran los recursos interdisciplinarios que reducen la carga de planificación de obtener materiales separados para cada área temática. El etiquetado secular amplía el alcance de la audiencia a través de la diversa comunidad de trabajo desde casa mientras etiquetas específicas de metodología como «compatible con Charlotte Mason» o «educación clásica» ayudan a los compradores dirigidos a encontrar recursos diseñados para su enfoque instruccional preferido.`,
     },
     {
@@ -139,18 +139,18 @@ El patrón de compra durante todo el año de las emprendedores elimina la volati
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -159,12 +159,12 @@ El patrón de compra durante todo el año de las emprendedores elimina la volati
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -174,18 +174,18 @@ El patrón de compra durante todo el año de las emprendedores elimina la volati
     },
     {
       pageType: 'idea',
-      slug: 'tercer-grado-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Tercer Grado',
+      slug: `tercer-grado-ideas-imprimibles`,
+      anchorText: `Ideas de Negocio de Imprimibles de Tercer Grado`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — imagen educativa temática`, caption: 'Calendario' },
   ],
 
 

@@ -7,15 +7,15 @@ const content: IdeaContent = {
 
     primaryKeyword: 'bulk licensing printable',
     secondaryKeywords: [
-      'bulk license worksheet business',
-      'school district printable licensing',
-      'wholesale printable worksheet sales',
-      'bulk educational printable deals',
+      `bulk license worksheet business`,
+      `school district printable licensing`,
+      `wholesale printable worksheet sales`,
+      `bulk educational printable deals`,
     ],
     lsiKeywords: [
-      'volume licensing for digital products',
-      'institutional printable agreements',
-      'district-wide worksheet packages',
+      `volume licensing for digital products`,
+      `institutional printable agreements`,
+      `district-wide worksheet packages`,
     ],
   },
   hero: {
@@ -100,10 +100,10 @@ The recurring revenue potential of bulk licensing is particularly compelling. Sc
     {
       platform: 'Etsy',
       title: `Using Etsy Custom Orders for Bulk Licensing Conversations`,
-      description: `Etsy's custom order functionality and messaging system enable bulk licensing conversations with institutional buyers who discover your standard product listings and inquire about volume pricing for organizational use. Create dedicated listings that explicitly mention bulk licensing availability, institutional pricing, and volume discounts to attract organizational buyers searching Etsy for educational materials at scale. Use Etsy\'s messaging system to conduct licensing consultations where you understand the institution's scope, negotiate pricing tiers, and deliver licensing agreements alongside bulk access to your content libraries. Many institutional buyers begin their search on Etsy because staff within the organization recommend specific products they discovered personally, creating a natural upgrade path from individual purchases to institutional licensing. Position your standard product listings as entry points that demonstrate quality to individual staff who then advocate for institutional purchases within their schools, creating an organic pipeline from marketplace discovery to institutional licensing conversations.`,
+      description: `Etsy`s custom order functionality and messaging system enable bulk licensing conversations with institutional buyers who discover your standard product listings and inquire about volume pricing for organizational use. Create dedicated listings that explicitly mention bulk licensing availability, institutional pricing, and volume discounts to attract organizational buyers searching Etsy for educational materials at scale. Use Etsy's messaging system to conduct licensing consultations where you understand the institution`s scope, negotiate pricing tiers, and deliver licensing agreements alongside bulk access to your content libraries. Many institutional buyers begin their search on Etsy because staff within the organization recommend specific products they discovered personally, creating a natural upgrade path from individual purchases to institutional licensing. Position your standard product listings as entry points that demonstrate quality to individual staff who then advocate for institutional purchases within their schools, creating an organic pipeline from marketplace discovery to institutional licensing conversations.`,
     },
     {
-      platform: 'Educational Distributor Partnerships',
+      platform: `Educational Distributor Partnerships`,
       title: `Partnering with Educational Distributors for Institutional Sales Channels`,
       description: `Educational content distributors, content publishers, and institutional supply companies provide established channels for reaching schools and organizations that purchase through approved vendor relationships and procurement systems. Approach educational distributors with your worksheet collections positioned as supplementary content materials that complement their existing product catalogs, offering wholesale licensing terms that give distributors margin while maintaining your per-license revenue targets. Distributor partnerships provide access to institutional sales infrastructure including catalogs, sales representatives, and procurement system integrations that would be prohibitively expensive for individual sellers to build independently. The distributor model works especially well for sellers with comprehensive content libraries spanning multiple subjects and grade levels that justify the catalog presence and institutional credibility distributors require. Start with smaller regional distributors who serve local school districts and are more receptive to working with independent content creators before approaching larger national distributors that require established sales track records and extensive product catalogs.`,
     },
@@ -149,32 +149,32 @@ The recurring revenue potential of bulk licensing is particularly compelling. Sc
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -183,18 +183,18 @@ The recurring revenue potential of bulk licensing is particularly compelling. Sc
     },
     {
       pageType: 'idea',
-      slug: 'custom-worksheet-service-ideas',
-      anchorText: 'Custom Worksheet Service Business Ideas',
+      slug: `custom-worksheet-service-ideas`,
+      anchorText: `Custom Worksheet Service Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

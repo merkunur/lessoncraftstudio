@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'Sudoku-Bücher KDP',
     secondaryKeywords: [
-      'Sudoku-Bücher für Amazon KDP erstellen',
-      'Bilder-Sudoku-Bücher für Kinder KDP',
-      'Sudoku-Rätselbuch Veröffentlichungsleitfaden',
-      'Sudoku-Buchserie Amazon Selbstverlag',
+      `Sudoku-Bücher für Amazon KDP erstellen`,
+      `Bilder-Sudoku-Bücher für Kinder KDP`,
+      `Sudoku-Rätselbuch Veröffentlichungsleitfaden`,
+      `Sudoku-Buchserie Amazon Selbstverlag`,
     ],
     lsiKeywords: [
       `Sudoku Raster Schwierigkeit leicht mittel schwer Experte Progression`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `Sudoku-Serie Bände Wiederholungskauf treue Löser Katalog`,
       `Sudoku Rätselzählung Seitenlayout Lösungsschlüssel Druck Beschnitt`,
     ],
-    titleTag: 'Sudoku-Bücher KDP — Veröffentlichungsleitfaden',
+    titleTag: `Sudoku-Bücher KDP — Veröffentlichungsleitfaden`,
     metaDescription: `Sudoku-Bücher für KDP erstellen. Bilder-Sudoku für Kinder und Zahlen-Sudoku für Erwachsene, Schwierigkeitsprogression, Rasterformatierung und Serienaufbau.`,
   },
 
   hero: {
-    title: 'Sudoku-Bücher für Amazon KDP erstellen',
+    title: `Sudoku-Bücher für Amazon KDP erstellen`,
     tagline: `Ein fokussierter Leitfaden zur Erstellung und Veröffentlichung von Sudoku-Rätselbüchern auf Amazon KDP — der den Doppelmarkt von Bilder-Sudoku für kleine Kinder und Zahlen-Sudoku für Erwachsene abdeckt, Schwierigkeitsprogressionsstrategien, die Löser von leicht bis Experte bei der Stange halten, Sudoku-spezifische Rasterformatierung für saubere Druckausgabe, Seitenlayout- und Lösungsschlüssel-Konventionen speziell für Sudoku-Bücher, den Serienaufbau-Ansatz, der das außergewöhnlich starke Wiederholungskaufverhalten von Sudoku-Lösern nutzt, und den Expansionspfad von einem Sudoku-Katalog in die breitere Rätselbuch-Veröffentlichung`,
     description: `Sudoku nimmt eine einzigartige Position unter KDP-Rätselbüchern ein. Anders als die meisten Rätselarten, die ein einzelnes Publikum bedienen, teilt sich Sudoku in zwei grundlegend verschiedene Produkte: Bilder-Sudoku für Kinder im Alter von 3 bis 7 Jahren, das frühe Logikfähigkeiten mit Bildern statt Zahlen entwickelt, und Zahlen-Sudoku für Erwachsene, das von entspannenden leichten Rastern bis zu anspruchsvollen Experten-Herausforderungen reicht. Jedes Format hat sein eigenes Publikum, eigene Suchbegriffe, Cover-Design-Konventionen und Wettbewerbslandschaft. Dieser Leitfaden konzentriert sich speziell darauf, was Sudoku-Buchveröffentlichung von allgemeiner Rätselbuch-Veröffentlichung unterscheidet: die Doppelmarkt-Chance, Schwierigkeitsprogression, die für Sudoku wichtiger ist als für jeden anderen Rätseltyp, Sudoku-spezifische Formatierungsanforderungen für den Druck und die Wiederholungskauf-Ökonomie, die Sudoku zu einer der zuverlässigsten Katalogaufbau-Kategorien auf KDP macht.`,
   },
@@ -31,11 +31,11 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Den Sudoku-Buchmarkt auf KDP verstehen',
+      heading: `Den Sudoku-Buchmarkt auf KDP verstehen`,
       content: `Sudoku-Bücher auf Amazon KDP bedienen zwei grundlegend verschiedene Zielgruppen, die separate Produkte, separate Listings und separate Marketingansätze erfordern. Das Verständnis dieser Marktteilung ist essentiell, bevor Sie Inhalte erstellen.\n\nZahlen-Sudoku für Erwachsene ist der primäre Markt nach Volumen. Erwachsene Sudoku-Käufer fallen in mehrere Segmente: Gelegenheitslöser, die ein oder zwei Rätsel pro Tag als Entspannungsritual bearbeiten, engagierte Enthusiasten, die Dutzende von Rastern wöchentlich lösen und mehrere Bücher pro Monat verbrauchen, Reisende, die Offline-Unterhaltung suchen, und Senioren, die Sudoku für kognitive Übung nutzen. Jedes Segment sucht auf Amazon anders — Gelegenheitslöser suchen nach „leichtes Sudoku" oder „Sudoku für Anfänger", Enthusiasten suchen nach „schweres Sudoku" oder „Experten-Sudoku 16×16", und Senioren suchen nach „Großdruck-Sudoku" oder „Sudoku für Senioren leicht". Ihr Buchtitel und Ihre Keywords müssen der spezifischen Sprache Ihres Zielsegments entsprechen.\n\nBilder-Sudoku für Kinder besetzt eine völlig separate Marktposition. Eltern und Vorschulkäufer suchen nach Begriffen wie „Bilder-Sudoku für Kinder", „Logikrätsel für Vorschulmarkt" und „Sudoku für den Kindergarten". Bilder-Sudoku verwendet Bilder statt Zahlen in vereinfachten Rastern — typischerweise 4×4 für Kinder von 3 bis 5 und 6×6 für Kinder von 5 bis 7 — und macht das Kernlogikrätsel für Kinder zugänglich, die Zahlen noch nicht gelernt haben. Der Wettbewerb bei Kinder-Bilder-Sudoku ist wesentlich geringer als bei Erwachsenen-Zahlen-Sudoku, was eine Chance für Verleger schafft, die bereit sind, ansprechende Inhalte mit ansprechenden Bildern und altersgerechter Formatierung zu erstellen.\n\nDie Großdruck-Sudoku-Unterkategorie verdient besondere Aufmerksamkeit. Großdruck-Sudoku-Käufer gehören zu den treuesten Wiederholungskäufern auf ganz Amazon KDP. Diese Käufer benötigen mindestens 16-Punkt-Schrift für Zellenzahlen, großzügige Linienstärke und klaren Kontrast zwischen Rasterlinien und Zellinhalten. Sobald ein Großdruck-Sudoku-Käufer einen Verlag findet, dessen Formatierung wirklich seinen Zugänglichkeitsbedürfnissen entspricht, kauft er Band um Band mit minimaler Preisempfindlichkeit. Die Unterkategorie unterstützt auch Einzelhandelspreise von 1 bis 3 Dollar über dem Standardformat, weil Käufer die Formatierungsanpassung schätzen.\n\nBevor Sie Inhalte erstellen, analysieren Sie die Top 20 Amazon-Ergebnisse für Ihre Zielsuchbegriffe. Notieren Sie Rätselzählungen, Schwierigkeitsbereiche, Preise, Seitenzahlen und Bewertungsmuster. Achten Sie besonders auf Beschwerden in 1-Stern- und 2-Stern-Bewertungen — häufige Probleme sind zu kleine Raster, fehlende oder falsche Lösungsschlüssel, schlechte Schwierigkeitskalibrierung, bei der „leichte" Rätsel tatsächlich schwer sind, und Druckqualitätsprobleme, bei denen Rasterlinien zu blass sind. Jede Beschwerde, die Sie beheben, wird zu einem Wettbewerbsvorteil für Ihr Buch.`,
     },
     {
-      heading: 'Zwischen Bilder-Sudoku und Zahlen-Sudoku wählen',
+      heading: `Zwischen Bilder-Sudoku und Zahlen-Sudoku wählen`,
       content: `Ihre Formatwahl bestimmt Ihren gesamten Veröffentlichungsansatz — Inhaltserstellungstools, Zielgruppe, Preisgestaltung, Keywords, Cover-Design und Wettbewerbslandschaft. Einige Verleger bedienen erfolgreich beide Märkte, aber jedes Format erfordert eine eigene Produktlinie.\n\nBilder-Sudoku für Kinder verwendet vereinfachte Raster, in denen Bilder Zahlen ersetzen. Ein 4×4-Bilder-Sudoku-Raster enthält 4 verschiedene Bilder (Tiere, Früchte, Fahrzeuge oder andere ansprechende Kategorien), die so angeordnet sind, dass jedes Bild genau einmal in jeder Zeile und jeder Spalte erscheint. Ein 6×6-Raster verwendet 6 verschiedene Bilder mit derselben Zeilen-und-Spalten-Bedingung. Der Bilder-Sudoku-Generator erstellt diese bildbasierten Raster mit anpassbaren Themen und ist damit das primäre Inhaltserstellungstool für Kinder-Sudoku-Bücher. Bilder-Sudoku-Bücher enthalten typischerweise 40 bis 60 Rätsel pro Band, verwenden große farbige Bilder und kosten zwischen 6,99 und 8,99 Dollar.\n\nZahlen-Sudoku für Erwachsene verwendet das klassische 9×9-Raster, das in neun 3×3-Boxen unterteilt ist, wobei jede Zeile, Spalte und Box die Ziffern 1 bis 9 genau einmal enthalten muss. Erwachsenen-Sudoku-Bücher enthalten typischerweise 100 bis 200 Rätsel pro Band, verwenden saubere minimalistische Formatierung und kosten zwischen 6,99 und 9,99 Dollar je nach Rätselzählung und Druckformat. Die Inhaltserstellung für Zahlen-Sudoku erfordert Rätselgenerierungssoftware, die gültige Raster mit einer einzelnen eindeutigen Lösung auf kalibrierten Schwierigkeitsstufen produziert.\n\nDer Marktgrößenvergleich bevorzugt Erwachsenen-Zahlen-Sudoku um etwa 8 zu 1 beim Suchvolumen, aber der Wettbewerb folgt einem ähnlichen Verhältnis. Kinder-Bilder-Sudoku hat eine geringere absolute Nachfrage, aber auch weit weniger konkurrierende Titel, was es für einen neuen Verlag einfacher machen kann, Sichtbarkeit und erste Verkäufe zu erzielen. Viele erfolgreiche Sudoku-Verleger beginnen mit einem Format und expandieren in das andere, sobald ihre erste Produktlinie etabliert ist.\n\nEin strategischer Ansatz für Verleger, die in den Sudoku-Markt einsteigen, ist, zuerst mit Kinder-Bilder-Sudoku zu starten. Der geringere Wettbewerb bedeutet schnelleres Ranking, die Inhalte sind schneller mit dem Bilder-Sudoku-Generator zu produzieren, und die kleinere Rätselzählung pro Buch bedeutet schnellere Veröffentlichungszeit. Einnahmen aus Kindertiteln können den intensiveren Inhaltserstellungsprozess finanzieren, der für Erwachsenen-Zahlen-Sudoku-Bücher mit ihrer höheren Rätselzählung und anspruchsvolleren Schwierigkeitskalibrierung erforderlich ist.`,
     },
     {
@@ -47,11 +47,11 @@ const content: GuideContent = {
       content: `Sudoku hat anspruchsvollere Druckformatierungsanforderungen als die meisten anderen Rätseltypen, weil Löser Zahlen in einzelne Zellen schreiben und präzise visuelle Grenzen benötigen. Schlechte Rasterformatierung — blasse Linien, enge Zellen, unklare Box-Grenzen — erzeugt negative Bewertungen bei Sudoku-Büchern schneller als in fast jeder anderen Kategorie.\n\nZellengröße ist der kritischste Formatierungsparameter. Für Standard-Erwachsenen-Sudoku-Bücher sollte jede Zelle mindestens 0,55 Zoll im Quadrat messen, um bequemes Handschreiben von Ziffern zu ermöglichen. Für Großdruck-Ausgaben sollten Zellen 0,7 bis 0,8 Zoll im Quadrat sein. Für Kinder-Bilder-Sudoku sollten Zellen mindestens 0,8 Zoll im Quadrat sein, um die Bilder aufzunehmen und Platz für Kinder zum Markieren ihrer Antworten zu lassen. Testen Sie Ihre Zellengröße, indem Sie eine Beispielseite drucken und Ziffern oder Markierungen in jede Zelle schreiben — wenn sich Ihre Handschrift beengt anfühlt, vergrößern Sie die Zellengröße.\n\nRasterlinien-Hierarchie ist für Sudoku essentiell, weil Löser einzelne Zellen innerhalb von 3×3-Boxen und Boxen innerhalb des Gesamtrasters visuell unterscheiden müssen. Verwenden Sie drei verschiedene Linienstärken: dünne Linien (0,5 bis 0,75 Punkt) für einzelne Zellgrenzen, mittlere Linien (1,5 bis 2 Punkt) für 3×3-Box-Grenzen und dicke Linien (2 bis 2,5 Punkt) für den äußeren Rasterrand. Diese visuelle Hierarchie lässt Löser Box-Grenzen sofort erkennen, ohne bewusste Anstrengung, was für den Lösungsfluss entscheidend ist. Bücher mit einheitlicher Linienstärke für alle Grenzen erhalten konsistente Beschwerden über die Rasterlesbarkeit.\n\nSeitenlayout für Sudoku-Bücher folgt einer Standardkonvention: ein Rätsel pro Seite für Standard- und Großdruck-Formate oder zwei Rätsel pro Seite für kompakte Reiseformate. Das Ein-pro-Seite-Layout wird von Käufern stark bevorzugt und sollte Ihr Standard sein. Platzieren Sie die Rätselnummer und den Schwierigkeitsgrad oben auf jeder Seite. Zentrieren Sie das Raster vertikal auf der Seite mit ausreichenden Rändern auf allen Seiten. Für 8,5 × 11 Zoll Beschnittgröße mit einem 9×9-Raster bei 0,55-Zoll-Zellen nimmt das Raster selbst etwa 5 × 5 Zoll ein und lässt großzügigen umgebenden Raum, der verhindert, dass die Seite überladen wirkt.\n\nLösungsschlüssel für Sudoku-Bücher sollten ausgefüllte Raster mit allen eingetragenen Ziffern zeigen und ein visuell deutlich unterscheidbares Format von den Rätselseiten verwenden — typischerweise kleinere Raster, 4 bis 6 pro Seite im Lösungsabschnitt gedruckt. Beschriften Sie jedes Lösungsraster mit der entsprechenden Rätselnummer. Platzieren Sie den kompletten Lösungsabschnitt am Ende des Buches. Fehlende oder falsche Lösungsschlüssel sind der häufigste Grund für 1-Stern-Sudoku-Buchbewertungen auf Amazon.`,
     },
     {
-      heading: 'Ihr Sudoku-Buch für maximalen Wert strukturieren',
+      heading: `Ihr Sudoku-Buch für maximalen Wert strukturieren`,
       content: `Die Gesamtstruktur Ihres Sudoku-Buches beeinflusst sowohl den wahrgenommenen Wert als auch die praktische Nutzbarkeit. Ein gut strukturiertes Buch wirkt professionell und durchdacht, während ein schlecht strukturiertes Buch wie eine zufällige Rätselsammlung wirkt, unabhängig von der Inhaltsqualität.\n\nDer Vorspann sollte eine Titelseite, ein Inhaltsverzeichnis mit den Schwierigkeitsabschnitten und Anfangsseitenzahlen sowie eine kurze Einleitung enthalten. Für Erwachsenenbücher sollte die Einleitung die enthaltenen Schwierigkeitsgrade und Lösetipps für jede Stufe beschreiben. Für Kinder-Bilder-Sudoku-Bücher sollte die Einleitung ein visuelles Tutorial enthalten, das zeigt, wie Bilder-Sudoku funktioniert, mit einem Schritt-für-Schritt gelösten Beispiel, das ein Elternteil mit seinem Kind durchgehen kann. Halten Sie den Vorspann knapp — Sudoku-Käufer wollen schnell zu den Rätseln gelangen.\n\nDie Rätselzählung bestimmt sowohl die physische Dicke Ihres Buches als auch seinen wahrgenommenen Wert. Für Erwachsenen-Zahlen-Sudoku-Bücher liegt der Marktstandard bei 100 bis 200 Rätseln. Bücher mit weniger als 80 Rätseln erhalten konsistent Beschwerden über unzureichenden Inhalt. Der optimale Bereich für einen ersten Band ist 100 bis 120 Rätsel — substanziell genug, um sich als starker Wert anzufühlen, aber handhabbar genug, um schnell zu produzieren und wettbewerbsfähig zu bepreisen. Für Kinder-Bilder-Sudoku-Bücher sind 40 bis 60 Rätsel Standard, weil Kinder langsamer durch Rätsel arbeiten und die größere Formatierung mehr Platz pro Seite benötigt.\n\nDie Seitenzahl beeinflusst sowohl die Druckkosten als auch den Einzelhandelspreis. Berechnen Sie Ihre Seitenzahl basierend auf Rätselzählung plus Vorspann plus Lösungsschlüssel. Für ein 120-Rätsel-Erwachsenenbuch mit einem Rätsel pro Seite: ungefähr 6 Seiten Vorspann, 120 Rätselseiten, Abschnittstrennseiten zwischen Schwierigkeitsstufen und 20 bis 25 Seiten Lösungsschlüssel (bei 6 Lösungen pro Seite), insgesamt ungefähr 150 bis 155 Seiten. Verwenden Sie den KDP-Druckkostenrechner, um Ihre Kosten pro Exemplar bei dieser Seitenzahl zu überprüfen und bestätigen Sie, dass Ihr angestrebter Einzelhandelspreis eine akzeptable Tantieme ergibt.\n\nDer Lösungsschlüssel-Abschnitt ist nicht verhandelbar und muss vollständig und korrekt sein. Überprüfen Sie jedes einzelne Lösungsraster gegen sein entsprechendes Rätsel vor der Veröffentlichung. Ein einziger falscher Lösungsschlüssel wird negative Bewertungen erzeugen und das Käufervertrauen in Ihre gesamte Serie untergraben. Formatieren Sie Lösungsschlüssel in reduzierter Größe (4 bis 6 Raster pro Seite), um den Lösungsabschnitt kompakt, aber lesbar zu halten. Nummerieren Sie jedes Lösungsraster klar und erwägen Sie, die Seitenzahl des entsprechenden Rätsels für einfache Querverweise einzufügen.\n\nDer Nachspann sollte eine „Weitere Bücher dieses Autors"-Seite enthalten, die alle Ihre veröffentlichten Titel auflistet, organisiert nach Serie und Schwierigkeitsgrad. Diese Cross-Promotion-Seite ist eines Ihrer wertvollsten Verkaufsinstrumente, weil Sudoku-Käufer, die Ihr Buch beenden und mehr Rätsel wollen, diese Seite prüfen, bevor sie auf Amazon nach einem anderen Verlag suchen.`,
     },
     {
-      heading: 'Amazon-Listings für Sudoku-Suchen optimieren',
+      heading: `Amazon-Listings für Sudoku-Suchen optimieren`,
       content: `Sudoku-Käufer auf Amazon verwenden sehr spezifische Suchbegriffe, und die präzise Übereinstimmung mit ihrer Sprache bestimmt, ob Ihr Buch in relevanten Suchergebnissen erscheint. Der Kernbegriff „Sudoku" ist essentiell, aber die ihn umgebenden Modifikatoren variieren dramatisch zwischen Zielgruppensegmenten.\n\nIhr Buchtitel sollte den Rätseltyp, Schwierigkeitsgrad, Zielgruppe und Rätselzählung enthalten: „Sudoku-Rätsel für Erwachsene: 120 Leichte bis Schwere Rätsel mit Vollständigen Lösungen — Band 1." Der Titel trifft mehrere Suchbegriffe natürlich und kommuniziert genau, was der Käufer erhalten wird. Für Kinderbücher: „Bilder-Sudoku für Kinder 4–7 Jahre: 50 Lustige Bilderlogik-Rätsel — Leicht bis Mittel." Für Großdruck: „Großdruck-Sudoku für Senioren: 100 Leichte Rätsel mit Großen Zahlen und Klaren Rastern."\n\nNutzen Sie alle 7 Keyword-Felder, um verschiedene Suchabsichten und Begriffsvarianten abzudecken. Effektive Keyword-Felder für ein Erwachsenen-Sudoku-Buch umfassen: „Sudoku Rätsel für Erwachsene leicht mittel schwer", „Sudoku Buch Großdruck leicht lesbar klar", „Gehirntraining Sudoku Erwachsene kognitive Übung", „Sudoku Rätselbuch Anfänger bis Fortgeschrittene", „Sudoku für Senioren Entspannung Gehirntraining", „Zahlenrätsel Erwachsene Logikspiele Buch" und „Sudoku Band Serie leicht schwer Experte". Jedes Feld zielt auf eine andere Kombination von Kernbegriffen und Käuferabsichts-Modifikatoren.\n\nFür Kinder-Bilder-Sudoku-Bücher betonen Keywords Altersspannen, das Bilderformat und Bildungsvorteile: „Bilder-Sudoku für Kinder 4 5 6 7 Jahre", „Logikrätsel Vorschule Kindergarten Aktivität", „Sudoku für Kinder Bilderrätsel leicht", „Kinder Gehirnspiele Logik Denkfähigkeiten" und „Vorschul-Rätselbuch praktisch Spaß Lernen". Eltern suchen mit Altersspannen und Bildungs-Keywords weit häufiger als mit generischen Begriffen.\n\nKategorieauswahl zielt auf rätselspezifische Unterkategorien. Beantragen Sie die Platzierung in Sudoku-spezifischen Kategorien, Rätsel- und Spielaktivitätsbüchern und altersgerechten Unterkategorien für Kindertitel über den KDP-Support nach der Veröffentlichung. Je spezifischer Ihre Kategorieplatzierung, desto weniger Wettbewerb haben Sie um Browsing-Sichtbarkeit.\n\nIhre Buchbeschreibung sollte mit konkreten Details beginnen: Rätselzählung, Schwierigkeitsbereich und Formatspezifikationen. Folgen Sie mit den wichtigsten Verkaufsargumenten, die Ihr Buch von Wettbewerbern unterscheiden: thematische Schwierigkeitsabschnitte mit klarer Progression, vollständige verifizierte Lösungsschlüssel, professionell formatierte Raster mit klarer Linienhierarchie und Serienkontinuität, falls zutreffend. Vermeiden Sie vage Behauptungen und konzentrieren Sie sich auf spezifische, überprüfbare Merkmale, die Käufern helfen, Ihr Buch gegen Alternativen zu bewerten.`,
     },
     {
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Umsatz durch nummerierte Bandserien aufbauen',
+      heading: `Umsatz durch nummerierte Bandserien aufbauen`,
       content: `Die nummerierte Bandserie ist die einzeln effektivste Umsatzstrategie für Sudoku-Buchverleger, und die Wirtschaftlichkeit verbessert sich mit jedem Band, den Sie hinzufügen. Ein Löser, der Band 1 beendet und die Erfahrung genossen hat, ist ein nahezu sicherer Käufer für Band 2. Amazon zeigt „Bücher in dieser Serie" auf der Produktseite jedes Bandes an und gibt jedem neuen Titel sofortige Sichtbarkeit bei Ihrem bestehenden Publikum. Wenn Ihre Serie wächst, erzeugt jeder neue Band schnellere Erstverkäufe, weil Ihre Wiederholungskäuferbasis mit jedem verkauften Band wächst. Strukturieren Sie Ihren Nachspann, um diesen Zinseszinseffekt zu maximieren: Listen Sie alle verfügbaren Bände auf den letzten Seiten auf, machen Sie Bandnummern auf Covern und Buchrücken prominent und halten Sie absolute Formatierungskonsistenz aufrecht, damit Käufer genau wissen, was sie erwartet. Eine 10-Band-Sudoku-Serie, bei der jeder Band bescheiden verkauft, schafft einen Katalog, der zuverlässige kombinierte monatliche Einnahmen weit über dem generiert, was ein einzelner Titel allein erreichen könnte.`,
     },
     {
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'wortsuchbuecher-kdp',
-      title: 'Wortsuchbücher für Amazon KDP erstellen',
+      title: `Wortsuchbücher für Amazon KDP erstellen`,
       description: `Expandieren Sie von Sudoku in Wortsuche, die volumenstärkste Rätselbuch-Kategorie auf Amazon KDP. Behandelt thematische Wortlisten, Rastergrößen, Großdruck-Formatierung und Serienstrategie für Wortsuchbücher.`,
     },
     {
-      slug: 'raetselbuecher-veroeffentlichen-kdp',
-      title: 'Rätselbücher auf Amazon KDP veröffentlichen',
+      slug: `raetselbuecher-veroeffentlichen-kdp`,
+      title: `Rätselbücher auf Amazon KDP veröffentlichen`,
       description: `Der umfassendere Rätselbuch-Veröffentlichungsleitfaden, der Sudoku, Wortsuche, Kreuzworträtsel und Mischbücher abdeckt. Enthält Multi-Typ-Katalogstrategie und Cross-Promotion zwischen Rätselformaten.`,
     },
     {
-      slug: 'geld-verdienen-kdp-aktivitaetsbuecher',
-      title: 'Geld verdienen mit KDP-Aktivitätsbüchern',
+      slug: `geld-verdienen-kdp-aktivitaetsbuecher`,
+      title: `Geld verdienen mit KDP-Aktivitätsbüchern`,
       description: `Der umfassende Umsatzleitfaden für KDP-Verleger. Behandelt Preisstrategie, Katalogökonomie, saisonale Veröffentlichung und Multi-Plattform-Ansätze zur Maximierung des Aktivitätsbuch-Einkommens.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'raetselbuecher-veroeffentlichen-kdp', anchorText: 'Rätselbücher auf Amazon KDP veröffentlichen' },
-    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: 'Wortsuchbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-aktivitaetsbuecher', anchorText: 'Geld verdienen mit KDP-Aktivitätsbüchern' },
-    { pageType: 'guide', slug: 'kdp-formatierung-arbeitsblaetter', anchorText: 'KDP-Formatierungsleitfaden für Arbeitsblatthefte' },
-    { pageType: 'guide', slug: 'beste-kdp-aktivitaetsbuch-nischen', anchorText: 'Top KDP-Aktivitätsbuch-Nischen' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'bilder-sudoku-erstellen', anchorText: 'Bilder-Sudoku für junge Lerner erstellen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'kinder-sudoku-arbeitsblaetter', anchorText: 'Sudoku-Rätselgenerator — Alle Details' },
+    { pageType: 'guide', slug: `raetselbuecher-veroeffentlichen-kdp`, anchorText: `Rätselbücher auf Amazon KDP veröffentlichen` },
+    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: `Wortsuchbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `geld-verdienen-kdp-aktivitaetsbuecher`, anchorText: `Geld verdienen mit KDP-Aktivitätsbüchern` },
+    { pageType: 'guide', slug: `kdp-formatierung-arbeitsblaetter`, anchorText: `KDP-Formatierungsleitfaden für Arbeitsblatthefte` },
+    { pageType: 'guide', slug: `beste-kdp-aktivitaetsbuch-nischen`, anchorText: `Top KDP-Aktivitätsbuch-Nischen` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: 'bilder-sudoku-erstellen', anchorText: `Bilder-Sudoku für junge Lerner erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'kinder-sudoku-arbeitsblaetter', anchorText: `Sudoku-Rätselgenerator — Alle Details` },
   ],
 
   toolsRecommended: [
@@ -176,12 +176,12 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Mathe-Rätsel-Arbeitsblattgenerator',
+      title: `Mathe-Rätsel-Arbeitsblattgenerator`,
       description: `Erstellt zahlenbasierte Logikrätsel, die Sudoku in Mischrätselbüchern ergänzen. Mathe-Rätsel bedienen dasselbe Publikum zahlenorientierter Rätselenthusiasten, die Sudoku genießen.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblattgenerator',
+      title: `Wortsuche-Arbeitsblattgenerator`,
       description: `Die natürlichste erste Expansion von Sudoku in wortbasierte Rätsel. Wortsuche ist die volumenstärkste Rätselbuch-Kategorie auf Amazon und bewirbt sich effektiv quer mit Sudoku-Titeln.`,
     },
     {
@@ -192,22 +192,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: `Bilder-Sudoku-Rätselarbeitsblatt mit thematischem Bildraster, geeignet für Amazon KDP Sudoku-Buch-Innenseiten` },
+    heroImage: { src: `/samples/german/sudoku/sudoku_worksheet.webp`, alt: `Bilder-Sudoku-Rätselarbeitsblatt mit thematischem Bildraster, geeignet für Amazon KDP Sudoku-Buch-Innenseiten` },
     samples: [
-      { src: '/samples/german/sudoku/Bilder-Sudoku 1.webp', alt: `Tierthema Bilder-Sudoku-Rätsel formatiert für KDP Kinder-Sudoku-Buch`, caption: 'Bilder-Sudoku mit Tierthema — bildbasierte Raster machen Sudoku-Logik für Kinder im Alter von 3 bis 7 zugänglich, die Zahlen noch nicht gelernt haben' },
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: `Bilder-Sudoku-Rätselarbeitsblatt für KDP-Buchinnenseiten`, caption: 'Bilder-Sudoku-Arbeitsblatt — 4×4-Raster mit klaren Bildern und großzügiger Zellengröße für bequemes Lösen durch kleine Kinder' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: `Mathe-Rätsel-Arbeitsblatt als Begleitung für KDP-Rätselkatalog`, caption: 'Mathe-Rätsel — zahlenbasierte Logikrätsel ergänzen Sudoku natürlich in Mischrätselbüchern und bewerben sich quer über Ihre Autorenseite' },
+      { src: `/samples/german/sudoku/Bilder-Sudoku 1.webp`, alt: `Tierthema Bilder-Sudoku-Rätsel formatiert für KDP Kinder-Sudoku-Buch`, caption: `Bilder-Sudoku mit Tierthema — bildbasierte Raster machen Sudoku-Logik für Kinder im Alter von 3 bis 7 zugänglich, die Zahlen noch nicht gelernt haben` },
+      { src: `/samples/german/sudoku/sudoku_worksheet.webp`, alt: `Bilder-Sudoku-Rätselarbeitsblatt für KDP-Buchinnenseiten`, caption: `Bilder-Sudoku-Arbeitsblatt — 4×4-Raster mit klaren Bildern und großzügiger Zellengröße für bequemes Lösen durch kleine Kinder` },
+      { src: `/samples/german/math puzzle/Mathe-Rätsel 2.webp`, alt: `Mathe-Rätsel-Arbeitsblatt als Begleitung für KDP-Rätselkatalog`, caption: `Mathe-Rätsel — zahlenbasierte Logikrätsel ergänzen Sudoku natürlich in Mischrätselbüchern und bewerben sich quer über Ihre Autorenseite` },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: `Bilder-Sudoku-Rätsel für Amazon KDP-Bücher erstellen — Schritt-für-Schritt-Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gürteltier — thematisches Lernbild`, caption: 'Gürteltier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
   ],
 };
 

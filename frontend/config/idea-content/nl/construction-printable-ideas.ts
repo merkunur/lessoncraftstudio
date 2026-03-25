@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bouwplaats Printables Verkopen — Nichegids',
+    titleTag: `Bouwplaats Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende bouwplaats printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Bouwvoertuig en gereedschap productconcepten en tips voor.`,
 
     primaryKeyword: 'bouwplaats printable ideeën',
     secondaryKeywords: [
-      'bouwplaats werkbladen verkopen',
+      `bouwplaats werkbladen verkopen`,
       'bouwthema printable business',
-      'constructie activiteiten voor verkopers',
-      'bouwplaats printables verkopen op Etsy',
+      `constructie activiteiten voor verkopers`,
+      `bouwplaats printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'bouwplaatsthema educatieve werkbladen',
-      'STEM bouwactiviteiten voor kinderen',
-      'voertuig en machines printbare producten',
+      `bouwplaatsthema educatieve werkbladen`,
+      `STEM bouwactiviteiten voor kinderen`,
+      `voertuig en machines printbare producten`,
     ],
   },
   hero: {
@@ -38,27 +38,27 @@ De bouwspeelgoedcrossovermarkt vertegenwoordigt een bijzonder waardevol publiek.
 
   productIdeas: [
     {
-      title: 'Bouwplaats Telwerkbladen voor Printable Verkopers',
+      title: `Bouwplaats Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met graafmachines, kranen, bulldozers, kiepwagens en bouwhelmen brengen bouwplaatsopwinding in vroege rekenoefeningen die verkopers en ouders het hele schooljaar door kopen voor bouwunits en dagelijkse rekenles. Gebruik de Zoek en Tel-generator om drukke bouwplaatsscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen bouwterreinen, wegwerkzaamheden en kraanpanorama's. Bied sets aan op meerdere vaardigheidsniveaus: bouwvoertuigen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen bakstenen of groepjes verkeerskegels voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Bouwplaats Woordzoekpuzzels Online Verkopen',
+      title: `Bouwplaats Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met bouwvocabulaire trekken verkopers aan die STEM-units of maatschappijleerunits over beroepen plannen en ouders die educatief vermaak zoeken voor bouwplaatsgeobsedeerde kinderen. Maak puzzels met bouwvoertuignamen, gereedschapstermen zoals hamer, zaag, boor en moersleutel, en bouwplaatsvocabulaire. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer bouwtermen voor oudere gebruikers. Variaties zoals bouwvoertuigenvocabulaire, gereedschapsnamen en veiligheidsuitrustingsterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
       title: `Bouwplaats Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met bouwthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede bouwkoperspubliek. Maak sets waarin kinderen bouwvoertuigen koppelen aan hun functie, gereedschap verbinden met het materiaal waarvoor het wordt gebruikt, bouwmaterialen matchen met hun vorm, of bouwwerkers koppelen aan hun veiligheidsuitrusting. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die STEM-units of maatschappijleerunits over beroepen plannen. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met bouwthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede bouwkoperspubliek. Maak sets waarin kinderen bouwvoertuigen koppelen aan hun functie, gereedschap verbinden met het materiaal waarvoor het wordt gebruikt, bouwmaterialen matchen met hun vorm, of bouwwerkers koppelen aan hun veiligheidsuitrusting. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die STEM-units of maatschappijleerunits over beroepen plannen. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Bouwthema Optelwerkbladen voor Rekenverkopers',
+      title: `Bouwthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met bouwitlustraties transformeren routinematige rekenoefeningen in spannende bouwplaatsavonturen die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen bakstenen optellen, kraanladingthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met bouwhelmen, verkeerskegels en gereedschap. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met bouwplaatsvisuele context. Bouw-rekenwerkbladen bedienen zowel rekendoelen als STEM-productcatalogusvereisten tegelijkertijd.`,
       appId: 'addition',
     },
     {
-      title: 'Bouwplaats Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Bouwplaats Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn een uitstekend instapproduct voor bouwplaats printable-winkels omdat het bouwthema bijzonder sterk resoneert bij jonge kinderen — vooral de peuter- en kleuterleeftijd wanneer de voertuigfascinatie op zijn hoogtepunt is. De Kleuren-generator maakt gedetailleerde contouren van graafmachines, kranen, bulldozers, kiepwagens, betonmixers, bouwhelmen, gereedschap en bouwplaatsscènes. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals bouwvoertuigen of gereedschap. Voor KDP compileer je dertig tot vijftig kleurplaten in bouw-activiteitenboeken als cadeaus voor jonge bouwers naast speelgoedvoertuigen en bouwblokken.`,
       appId: 'coloring',
     },
@@ -92,13 +92,13 @@ De bouwspeelgoedcrossovermarkt vertegenwoordigt een bijzonder waardevol publiek.
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Bouwplaats Printables Verkopen op Etsy',
+      title: `Bouwplaats Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in bouwplaats printable-vermeldingen, en het altijdgroene karakter van het bouwthema betekent dat je vermeldingen het hele jaar door verkopen genereren. Richt je op long-tail zoekwoorden zoals "graafmachine telwerkblad kleuters" of "bouwvoertuig kleurplaten peuters" in plaats van brede tags als "bouw werkbladen." Gebruik alle dertien tags met variaties die bouwvoertuigtypen, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte bouwwerkbladen tonen naast speelgoedgraafmachines of bouwblokken presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten als STEM-printbare producten. De Nederlandse markt via Etsy.nl biedt kansen door de actieve bouwsector in Nederland en het relatief beperkte Nederlandstalige bouwwerkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Bouwplaats Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor bouwprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast speelgoedgraafmachines, bouwblokkensets en kinderbouwboeken. Compileer individuele bouwwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond bouwthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "bouwplaats activiteitenboek voor kinderen," "graafmachine werkbladen kleuters" en subthematermen toe als "bouwvoertuigen kleurboek" of "gereedschap activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Bouwboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Bouwplaats Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor bouwprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast speelgoedgraafmachines, bouwblokkensets en kinderbouwboeken. Compileer individuele bouwwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond bouwthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "bouwplaats activiteitenboek voor kinderen," "graafmachine werkbladen kleuters" en subthematermen toe als "bouwvoertuigen kleurboek" of "gereedschap activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Bouwboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -130,12 +130,12 @@ De bouwspeelgoedcrossovermarkt vertegenwoordigt een bijzonder waardevol publiek.
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de bouwniche omdat het altijdgroene karakter van het thema betekent dat je vermeldingen het hele jaar door verkopen genereren op elk platform. Etsy trekt ouders aan die activiteiten zoeken voor bouwplaatsgeobsedeerde kinderen, Gumroad bereikt klasverkopers die STEM-units en maatschappijleerunits over beroepen plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken als cadeaus naast bouwspeelgoed. Gumroad en Shopify helpen je een eigen STEM-publiek op te bouwen. Cross-listing vermenigvuldigt je jaarronde zichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke bouwsubthema\'s verkopen het beste?',
+      question: `Welke bouwsubthema's verkopen het beste?`,
       answer: `De bestverkopende bouwsubthema's zijn graafmachines, kranen, bulldozers en bouwhelmen met veiligheidsuitrusting. Graafmachines zijn het meest gevraagde bouwvoertuig dankzij hun prominentie in kinderspeelgoed en de visuele dramatiek van hun gravende bewegingen. Kranen fascineren kinderen door hun enorme omvang en hijscapaciteit. Bulldozers spreken het publiek aan dat gefascineerd is door grondverzetwerk. Bouwhelmen en veiligheidsuitrusting verbinden het bouwthema met maatschappijleerunits over beroepen en veiligheid. In Nederland biedt de uitgebreide woningbouwactiviteit en infrastructuurvernieuwing extra culturele relevantie voor bouwthema werkbladen.`,
     },
     {
       question: `Hoe maak ik efficiënt bouwwerkbladen met generator tools?`,
-      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe bouwcatalogus kunt opbouwen die meerdere bouwsubthema's omvat. Selecteer een generator die past bij je doelactiviteitstype, kies bouwthema's en constructievocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
+      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe bouwcatalogus kunt opbouwen die meerdere bouwsubthema`s omvat. Selecteer een generator die past bij je doelactiviteitstype, kies bouwthema`s en constructievocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
     },
     {
       question: `Wat is het retourbeleid voor commerciële licenties?`,
@@ -147,62 +147,62 @@ De bouwspeelgoedcrossovermarkt vertegenwoordigt een bijzonder waardevol publiek.
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'transportation-printable-ideas',
-      anchorText: 'Voertuigen printable businessideeën',
+      slug: `transportation-printable-ideas`,
+      anchorText: `Voertuigen printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'space-printable-ideas',
-      anchorText: 'Ruimte printable businessideeën',
+      anchorText: `Ruimte printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/tools/bolt.webp', alt: 'Bout — educatieve thema-afbeelding bouwplaats', caption: 'Bout' },
-    { src: '/image-library/tools/caulking%20gun.webp', alt: `Kitpistool — educatieve thema-afbeelding bouwplaats`, caption: 'Kitpistool' },
-    { src: '/image-library/tools/electric%20drill.webp', alt: `Boormachine — educatieve thema-afbeelding bouwplaats`, caption: 'Boormachine' },
-    { src: '/image-library/tools/extension%20cord.webp', alt: `Verlengsnoer — educatieve thema-afbeelding bouwplaats`, caption: 'Verlengsnoer' },
-    { src: '/image-library/tools/flashlight.webp', alt: 'Zaklamp — educatieve thema-afbeelding bouwplaats', caption: 'Zaklamp' },
-    { src: '/image-library/tools/hammer.webp', alt: 'Hamer — educatieve thema-afbeelding bouwplaats', caption: 'Hamer' },
+    { src: `/image-library/tools/bolt.webp`, alt: `Bout — educatieve thema-afbeelding bouwplaats`, caption: 'Bout' },
+    { src: `/image-library/tools/caulking%20gun.webp`, alt: `Kitpistool — educatieve thema-afbeelding bouwplaats`, caption: 'Kitpistool' },
+    { src: `/image-library/tools/electric%20drill.webp`, alt: `Boormachine — educatieve thema-afbeelding bouwplaats`, caption: 'Boormachine' },
+    { src: `/image-library/tools/extension%20cord.webp`, alt: `Verlengsnoer — educatieve thema-afbeelding bouwplaats`, caption: 'Verlengsnoer' },
+    { src: `/image-library/tools/flashlight.webp`, alt: `Zaklamp — educatieve thema-afbeelding bouwplaats`, caption: 'Zaklamp' },
+    { src: `/image-library/tools/hammer.webp`, alt: `Hamer — educatieve thema-afbeelding bouwplaats`, caption: 'Hamer' },
   ],
 
   youtubeId: '0cOPi7eajLs',

@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'dolda objekt arbetsblad generator',
+    primaryKeyword: `dolda objekt arbetsblad generator`,
     secondaryKeywords: [
-      'utskrivbar sökbild skapare för Etsy-säljare',
+      `utskrivbar sökbild skapare för Etsy-säljare`,
       `hitta föremålen arbetsblad generator för KDP-publicerare`,
-      'dolda objekt aktivitet skapare kommersiell licens',
-      'sälja hitta föremålen arbetsblad på Gumroad',
+      `dolda objekt aktivitet skapare kommersiell licens`,
+      `sälja hitta föremålen arbetsblad på Gumroad`,
     ],
     lsiKeywords: [
-      'digitala dolda objekt utskriftsbara onlineföretag',
+      `digitala dolda objekt utskriftsbara onlineföretag`,
       `kommersiellt bruk hitta föremålen arbetsblad generator`,
-      'utskrivbar visuell sökaktivitet affärsverktyg',
+      `utskrivbar visuell sökaktivitet affärsverktyg`,
     ],
-    titleTag: 'Dolda Objekt Generator | Skapa Sökarbetsblad',
+    titleTag: `Dolda Objekt Generator | Skapa Sökarbetsblad`,
     metaDescription:
       `Skapa dolda objekt arbetsblad att sälja på Etsy, KDP och Gumroad. Sökning och Hitta Udda Bilden-lägen, noll-överlappning scener, automatiskt facit. Gratis provversion med vattenstämpel.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Dolda Objekt Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Dolda Objekt Arbetsblad i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -40,12 +40,12 @@ const content: AppContent = {
           `Välj mellan två lägen i panelen Objektval. Söknings-läget (standard) skapar fria dolda objekt-scener där objekt sprids över sidan med en noll-överlappningsalgoritm — inget rutnät, bara en naturligt utseende visuell scen. Hitta Udda Bilden-läget arrangerar parade bilder i rader med oparade objekt inblandade för visuella diskrimineringsaktiviteter. Varje läge producerar en annorlunda typ av sök-och-hitta arbetsblad från samma bildbibliotek.`,
       },
       {
-        title: 'Välj bilder och konfigurera objektantal',
+        title: `Välj bilder och konfigurera objektantal`,
         description:
           `Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer i Bildbibliotekspanelen. Filtrera efter tema eller sök med nyckelord. I Söknings-läget, konfigurera 1–5 dolda objekt att hitta och 8–12 distraktorobjekt som fyller scenen. I Hitta Udda Bilden-läget, ställ in 8–12 parade bilder och 1–5 oparade (udda) objekt. Du kan också ladda upp egna PNG-, JPG- eller GIF-bilder att använda bredvid biblioteksinnehåll.`,
       },
       {
-        title: 'Generera den dolda objekt-scenen',
+        title: `Generera den dolda objekt-scenen`,
         description:
           `Klicka på Generera för att skapa arbetsbladet. I Söknings-läget placerar noll-överlappningsalgoritmen varje bild genom att testa 50 slumpmässiga positioner och välja den med minst överlappning, och minskar adaptivt bildstorlek när utrymmet blir trångt. En legend visas längst ner som visar användarna vilka objekt de ska hitta. I Hitta Udda Bilden-läget arrangeras bilder i rader med parade och oparade objekt. Den automatiska rubriken renderar din titel i Fredoka-typsnitt med dekorativa pillercontainrar — teckenstorleken justeras automatiskt baserat på textlängd.`,
       },
@@ -81,7 +81,7 @@ const content: AppContent = {
           `I Söknings-läget visar en legend i den nedre marginalen (120px) målobjekten användarna behöver hitta. Denna visuella referens berättar för användarna exakt vad de ska leta efter utan skriftliga instruktioner — vilket gör arbetsbladen tillgängliga för föreläsare och flerspråkiga produktlinje. Legenden genereras automatiskt baserat på dina valda dolda objekt. Hitta Udda Bilden-läget inkluderar ingen legend eftersom användarna upptäcker de oparade objekten genom visuell jämförelse snarare än en referenslista.`,
       },
       {
-        title: 'Namn- och datumfält med växlingskontroll',
+        title: `Namn- och datumfält med växlingskontroll`,
         description:
           `En kryssruteväxling i panelen Text och Innehåll lägger till «Namn:» och «Datum:»-fält på arbetsbladet. Dessa identifieringslinjer säkerställer ansvar för produktlinjesanvändning och gör arbetsbladen professionellt formaterade för marknadsplatsannonser. Växla dem på för produktlinjesfärdiga produkter eller av för aktivitetsboksidor där namnuppgifter visas på omslaget. Fälten renderas rent tillsammans med den automatiskt genererade rubriken och legenden.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Dolda Objekt Arbetsblad Online',
+    title: `Hur du Säljer Dolda Objekt Arbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska dolda objekt-aktivitetspaket på Etsy',
+        title: `Tematiska dolda objekt-aktivitetspaket på Etsy`,
         description:
           `Skapa tematiska sökarbetsbladpaket med de 104 bildsamlingarna — djur dolda objekt, högtidssökning, havsdjurssökning, dinosaurieupptäckt och dussintals fler. Varje tema ger tillräckligt med illustrationer för flera unika dolda objekt-scener med varierande svårighet. Paketera 10–20 dolda objekt-arbetsblad per tema med facit inkluderade, och sälj till 30–70 SEK per paket. Öka svårigheten genom paketet genom att lägga till fler dolda objekt (1 → 5) och fler distraktorer (8 → 12) allt eftersom sidorna fortskrider.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Dolda objekt-aktivitetsarbetsböcker på Amazon KDP',
+        title: `Dolda objekt-aktivitetsarbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 dolda objekt-arbetsblad till en tryckt arbetsbok formaterad för Amazon KDP. Strukturera din bok efter progressiv svårighet: tidiga kapitel gömmer 1–2 objekt bland 8 distraktorer för nybörjare, mellankapitel ökar till 3–4 dolda objekt med 10 distraktorer, och avancerade kapitel använder 5 dolda objekt bland 12 distraktorer. Inkludera facit i slutet av boken. Gråskaleväxlingen producerar bläckvänliga sidor redo för svartvita bokinteriörer. Den visuella designen innebär att en arbetsbok fungerar för vilken språkmarknad som helst.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -125,16 +125,16 @@ const content: AppContent = {
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Säsongsbetonade dolda objekt-aktivitetssamlingar',
+        title: `Säsongsbetonade dolda objekt-aktivitetssamlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade dolda objekt-samlingar som sammanfaller med toppshoppingperioder. Släpp halloween sökpaket i september, juldolda objekt-samlingar i oktober och alla hjärtans dag sök-och-hitta-paket i januari. Inkludera både Söknings- och Hitta Udda Bilden-arbetsblad i varje säsongsset för maximalt värde.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
       {
-        title: 'Blandade läge sökning och Hitta Udda Bilden-paket',
+        title: `Blandade läge sökning och Hitta Udda Bilden-paket`,
         description:
           `Kombinera båda aktivitetslägena till premium variationspaket. Varje paket inkluderar Söknings dolda objekt-scener där användarna hittar specifika objekt i en spridd scen, plus Hitta Udda Bilden-arbetsblad där användarna identifierar oparade objekt bland matchade uppsättningar. Denna kombination riktar sig mot två olika kognitiva färdigheter — visuell sökning och visuell diskriminering — i en enda produkt. Blandade läge-paket motiverar högre priser eftersom de levererar mer aktivitetsvariation och täcker fler lärandemål än enkla läge-produkter.`,
-        platform: 'Etsy / Gumroad (variationspaket)',
+        platform: `Etsy / Gumroad (variationspaket)`,
       },
     ],
   },
@@ -156,17 +156,17 @@ const content: AppContent = {
         `I Söknings-läget kan du konfigurera 1–5 dolda objekt (målen användarna behöver hitta) och 8–12 distraktorobjekt (de omgivande bilderna som fyller scenen). Börja med 1–2 dolda objekt och 8 distraktorer för enklare arbetsblad, och öka till 5 dolda objekt bland 12 distraktorer för utmanande scener. Legenden längst ner på arbetsbladet visar användarna vilka objekt de ska hitta.`,
     },
     {
-      question: 'Hur fungerar Hitta Udda Bilden-läget?',
+      question: `Hur fungerar Hitta Udda Bilden-läget?`,
       answer:
         `Hitta Udda Bilden-läget arrangerar bilder i rader med parade och oparade objekt. Konfigurera 8–12 parade bilder (var och en visas två gånger i layouten) och 1–5 oparade (udda) objekt som bara visas en gång. användarna granskar varje rad och identifierar bilden som inte har en matchande partner. Bilder renderas 50% större än Söknings-läget för tydligare visuell jämförelse. Det finns ingen legend längst ner eftersom användarna upptäcker de oparade objekten genom visuell analys snarare än en referenslista.`,
     },
     {
-      question: 'Vad visar legenden längst ner på arbetsbladet?',
+      question: `Vad visar legenden längst ner på arbetsbladet?`,
       answer:
         `I Söknings-läget visar en legend i den nedre marginalen (120px) målobjekten användarna behöver hitta. Denna visuella referens visar varje dolt objekt så användarna vet exakt vad de ska leta efter — vilket gör arbetsbladen tillgängliga för föreläsare och flerspråkiga produktlinje utan att kräva skriftliga instruktioner. Hitta Udda Bilden-läget inkluderar ingen legend eftersom aktiviteten är självförklarande: hitta bilden utan en matchande partner.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. Arbetsbladet visar den dolda objekt-scenen utan markeringar — användarna söker och ringar in objekt själva. Facit återskapar den identiska layouten och ritar röda cirklar runt de korrekta objekten: dolda mål i Söknings-läget och oparade objekt i Hitta Udda Bilden-läget. Cirklar dimensioneras 3–5px större än objektet för tydlig synlighet. Båda versionerna exporteras separat med fyra nedladdningsknappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF.`,
     },
@@ -176,17 +176,17 @@ const content: AppContent = {
         `Ja. En kryssruteväxling i panelen Text och Innehåll lägger till «Namn:» och «Datum:»-fält på arbetsbladet. Dessa identifieringslinjer säkerställer ansvar för produktlinjesanvändning och gör dina arbetsblad professionellt formaterade för marknadsplatsannonser. Växla dem på för produktlinjesfärdiga produkter eller av för aktivitetsboksidor.`,
     },
     {
-      question: 'Hur fungerar den automatiskt genererade rubriken?',
+      question: `Hur fungerar den automatiskt genererade rubriken?`,
       answer:
         `Varje arbetsblad inkluderar en automatiskt storleksanpassad titel renderad i Fredoka-typsnitt (#4A4A4A mörkgrå) med animerade dekorativa vita pillercontainrar och skuggor. Titelns teckenstorlek justeras automatiskt baserat på textlängd: 32px för korta titlar (under 12 tecken), nedskalat till 18px för längre titlar (över 22 tecken). Du kan också lägga till ett beskrivningsfält under titeln. Rubriksystemet säkerställer professionellt utseende arbetsblad oavsett titellängd.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — båda aktivitetslägena, konfigurerbara antal dolda objekt och distraktorer, noll-överlappnings placeringsalgoritmen, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn- och datumfält och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Är Hitta Föremålen Generatorn språkkänslig?',
+      question: `Är Hitta Föremålen Generatorn språkkänslig?`,
       answer:
         `Nej. Hitta Föremålen Generatorn är visuell — den laddar inte lokaliserade bildnamn eller använder bildvokabulärsystemet. Språkinställningar påverkar bara gränssnittsetiketterna (knappar, paneltitlar, verktygstips), INTE innehållet på arbetsbladen själva. Detta innebär att varje genererat arbetsblad fungerar universellt på alla språk utan någon lokaliserad text på sidan, vilket gör dina produkter säljbara på vilken marknad som helst utan modifieringar.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina dolda objekt-arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två aktivitetslägena, noll-överlappning scengenerering och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara dolda objekt-produkter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda aktivitetslägena, noll-överlappnings placeringsalgoritmen, konfigurerbara objektantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn- och datumfält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,57 +206,57 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'hitta-och-rakna-arbetsblad',
-      anchorText: 'Hitta och Räkna Arbetsblad Generator',
+      anchorText: `Hitta och Räkna Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildkorsord-arbetsblad',
-      anchorText: 'Bildkorsord Arbetsblad Generator',
+      anchorText: `Bildkorsord Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'skattjakt-arbetsblad',
-      anchorText: 'Skattjakt Arbetsblad Generator',
+      anchorText: `Skattjakt Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildsortering-arbetsblad',
-      anchorText: 'Bildsortering Arbetsblad Generator',
+      anchorText: `Bildsortering Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'matchnings-arbetsblad',
-      anchorText: 'Matchnings Arbetsblad Generator',
+      anchorText: `Matchnings Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'hitta-udda-bilden-arbetsblad',
-      anchorText: 'Hitta Udda Bilden Arbetsblad Generator',
+      anchorText: `Hitta Udda Bilden Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'sok-hitta-paket',
-      anchorText: 'Sök och Hitta Paket — Alla Sökappar i Ett',
+      anchorText: `Sök och Hitta Paket — Alla Sökappar i Ett`,
     },
     {
       pageType: 'guide',
       slug: 'skapa-dolda-objekt-arbetsblad',
-      anchorText: 'Hur du Skapar Dolda Objekt Arbetsblad som Säljer',
+      anchorText: `Hur du Skapar Dolda Objekt Arbetsblad som Säljer`,
     },
     {
       pageType: 'idea',
       slug: 'camping-utskriftsbara-ideer',
-      anchorText: 'Camping Utskriftsbara Idéer för Utomhuslärande',
+      anchorText: `Camping Utskriftsbara Idéer för Utomhuslärande`,
     },
     {
       pageType: 'idea',
       slug: 'havsdjur-utskriftsbara-ideer',
-      anchorText: 'Havsdjur Utskriftsbara Idéer för Marina Teman',
+      anchorText: `Havsdjur Utskriftsbara Idéer för Marina Teman`,
     },
     {
       pageType: 'start',
-      slug: 'marknadsforing-utskriftsbart-foeretag',
-      anchorText: 'Marknadsföring av Ditt Utskriftsbart Företag',
+      slug: `marknadsforing-utskriftsbart-foeretag`,
+      anchorText: `Marknadsföring av Ditt Utskriftsbart Företag`,
     },
   ],
 

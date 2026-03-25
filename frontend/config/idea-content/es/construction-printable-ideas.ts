@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles de Construcción — Guía de Nicho',
+    titleTag: `Ideas Imprimibles de Construcción — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de construcción para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática de vehículos y herramientas, estrate.`,
-    primaryKeyword: 'ideas imprimibles de construcción',
+    primaryKeyword: `ideas imprimibles de construcción`,
     secondaryKeywords: [
-      'fichas temáticas construcción para vender',
-      'negocio imprimibles temática construcción',
-      'fichas actividades construcción para vendedores',
-      'vender imprimibles de construcción en Etsy',
+      `fichas temáticas construcción para vender`,
+      `negocio imprimibles temática construcción`,
+      `fichas actividades construcción para vendedores`,
+      `vender imprimibles de construcción en Etsy`,
     ],
     lsiKeywords: [
-      'fichas temáticas obra de construcción',
-      'actividades STEM construcción para niños',
-      'imprimibles educativos vehículos y maquinaria',
+      `fichas temáticas obra de construcción`,
+      `actividades STEM construcción para niños`,
+      `imprimibles educativos vehículos y maquinaria`,
     ],
   },
   hero: {
@@ -89,7 +89,7 @@ El mercado de intersección con juguetes de construcción representa una audienc
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Construcción en Etsy',
+      title: `Vender Imprimibles de Construcción en Etsy`,
       description: `Etsy recompensa el nicho de construcción con un rendimiento consistente de listados durante todo el año porque la fascinación de los niños por las máquinas de construcción nunca se detiene y los padres de niños amantes de la construcción buscan activamente productos imprimibles temáticos que apoyen la curiosidad mecánica de sus hijos en todas las estaciones. Utiliza las trece etiquetas con variaciones que combinen tipos de vehículos, áreas de habilidad y grupos de edad: «fichas conteo excavadora preescolar», «páginas colorear construcción niños pequeños» y «sopa de letras camión volquete jardín de infantes» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas construcción». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad joven constructor» e «imprimible amante de la construcción» en tus títulos y descripciones. Las imágenes de listados que muestran fichas de construcción impresas junto a vehículos de juguete, cascos de seguridad o bloques de construcción superan las vistas previas digitales planas y captan el entusiasmo práctico que trae a los padres de niños obsesionados con la construcción a Etsy buscando recursos educativos con temática de vehículos. Apunta a las búsquedas de fiestas de cumpleaños de construcción durante todo el año, ya que la construcción sigue siendo uno de los temas de cumpleaños más populares para niños pequeños que buscan actividades de celebración con temática de vehículos.`,
     },
     {
@@ -143,18 +143,18 @@ El mercado de intersección con juguetes de construcción representa una audienc
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ El mercado de intersección con juguetes de construcción representa una audienc
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -179,17 +179,17 @@ El mercado de intersección con juguetes de construcción representa una audienc
     {
       pageType: 'idea',
       slug: 'musica-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Música',
+      anchorText: `Ideas de Negocio de Imprimibles de Música`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/tools/bolt.webp', alt: 'Perno — imagen educativa temática', caption: 'Perno' },
-    { src: '/image-library/tools/caulking%20gun.webp', alt: 'Pistola de Calafateo — imagen educativa temática', caption: 'Pistola de Calafateo' },
-    { src: '/image-library/tools/electric%20drill.webp', alt: 'Taladro Eléctrico — imagen educativa temática', caption: 'Taladro Eléctrico' },
-    { src: '/image-library/tools/extension%20cord.webp', alt: 'Cable de Extensión — imagen educativa temática', caption: 'Cable de Extensión' },
-    { src: '/image-library/tools/flashlight.webp', alt: 'Linterna — imagen educativa temática', caption: 'Linterna' },
-    { src: '/image-library/tools/hammer.webp', alt: 'Martillo — imagen educativa temática', caption: 'Martillo' },
+    { src: `/image-library/tools/bolt.webp`, alt: `Perno — imagen educativa temática`, caption: 'Perno' },
+    { src: `/image-library/tools/caulking%20gun.webp`, alt: `Pistola de Calafateo — imagen educativa temática`, caption: 'Pistola de Calafateo' },
+    { src: `/image-library/tools/electric%20drill.webp`, alt: `Taladro Eléctrico — imagen educativa temática`, caption: 'Taladro Eléctrico' },
+    { src: `/image-library/tools/extension%20cord.webp`, alt: `Cable de Extensión — imagen educativa temática`, caption: 'Cable de Extensión' },
+    { src: `/image-library/tools/flashlight.webp`, alt: `Linterna — imagen educativa temática`, caption: 'Linterna' },
+    { src: `/image-library/tools/hammer.webp`, alt: `Martillo — imagen educativa temática`, caption: 'Martillo' },
   ],
 
 

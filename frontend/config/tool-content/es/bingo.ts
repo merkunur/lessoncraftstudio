@@ -1,24 +1,24 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'crear tarjetas de bingo para venta en línea',
+    primaryKeyword: `crear tarjetas de bingo para venta en línea`,
     secondaryKeywords: [
-      'creador de bingo con imágenes para la clase',
-      'creador de juegos de bingo para niños',
-      'tarjetas de bingo imprimibles para la escuela',
-      'generador de tarjetas bingo para vendedores',
+      `creador de bingo con imágenes para la clase`,
+      `creador de juegos de bingo para niños`,
+      `tarjetas de bingo imprimibles para la escuela`,
+      `generador de tarjetas bingo para vendedores`,
     ],
     lsiKeywords: [
       `generador de tarjetas bingo por lotes para la clase`,
-      'creador de bingo con imágenes y palabras',
-      'hoja de referencia bingo creador',
+      `creador de bingo con imágenes y palabras`,
+      `hoja de referencia bingo creador`,
     ],
-    titleTag: 'Crear Tarjetas de Bingo — para venta en línea',
+    titleTag: `Crear Tarjetas de Bingo — para venta en línea`,
     metaDescription: `Crea tarjetas de bingo con imágenes para venta en línea. Cuadrículas de 3x3 a 5x5, lotes de tarjetas únicas, hojas de referencia, 104 temas.`,
     },
 
   hero: {
-    title: 'Generador de Tarjetas de Bingo',
+    title: `Generador de Tarjetas de Bingo`,
     tagline: `Generador de tarjetas de bingo con imágenes con cuadrículas configurables de 3×3 a 5×5, generación por lotes de 1–10 tarjetas únicas por set, exportación ZIP de todas las tarjetas en una sola descarga, doble modo de relleno para celdas y fichas circulares de forma independiente, hoja de referencia dedicada con cuadrícula dinámica de palabras, selección personalizada de referencia con contador en vivo y 104 colecciones temáticas de imágenes para tarjetas de bingo que se venden en todo el mundo`,
     description: `Crea tarjetas de bingo profesionales con imágenes donde cada jugador recibe una tarjeta única con diferentes imágenes en diferentes posiciones — esencial para que el bingo funcione como juego. Configura filas de 3 a 5 y columnas de 3 a 5 de forma independiente, creando cuadrículas desde 3×3 (9 celdas) hasta 5×5 (25 celdas) con un valor por defecto de 4×4 (16 celdas). Genera de 1 a 10 tarjetas de bingo únicas por lote, cada una extrayendo una selección aleatoria diferente del conjunto de imágenes para que ninguna tarjeta comparta el mismo diseño. Exporta todas las tarjetas generadas como JPEGs individuales en un solo archivo bingo_cards.zip usando compresión JSZip — un clic descarga un set completo de tarjetas de bingo listo para empaquetar en productos de mercado. Elige relleno de Imagen o Palabra de forma independiente para las celdas de la tarjeta y las fichas circulares, creando cuatro estilos distintos de tarjeta de bingo desde un solo generador. El relleno de Imagen muestra ilustraciones temáticas; el relleno de Palabra muestra nombres localizados de las imágenes de la Biblioteca de Imágenes, haciendo que el Generador de Tarjetas de Bingo sea sensible al idioma — al cambiar de idioma se actualizan las palabras en tarjetas, fichas y la hoja de referencia. Las fichas circulares presentan bordes punteados (#666, strokeDashArray [5,5]) y se barajan usando el ordenamiento Fisher-Yates para que nunca reflejen la disposición de la cuadrícula de la tarjeta, asegurando un juego de bingo auténtico donde las fichas sirven como referencia de asociación en lugar de revelar posiciones. Una hoja de referencia dedicada en una pestaña separada muestra una cuadrícula dinámica de palabras para el cantante — las columnas se calculan según la longitud de la palabra más larga (2–6 columnas) con tamaño de fuente uniforme en todas las entradas para una legibilidad limpia. Activa la selección personalizada de referencia para elegir imágenes específicas para el conjunto de referencia con un contador en vivo que muestra tu recuento de selección, dándote control preciso de alineación de productos sobre qué elementos aparecen en el juego. Navega 104 colecciones temáticas con más de 3.100 ilustraciones o sube tus propias imágenes PNG, JPG o GIF. Aplica fondos temáticos y bordes temáticos con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto 0–10. Exporta ficha JPEG, hoja de referencia JPEG, ficha PDF y hoja de referencia PDF a 300 DPI (multiplicador 6×, calidad JPEG 1,0), más la exportación ZIP por lotes para todas las tarjetas. Elige Carta, A4, Cuadrado (1200×1200) o tamaños personalizados con opción de escala de grises para salida con ahorro de tinta. El área de la cuadrícula usa el 60% de la altura disponible del lienzo (límite de 500px) para proporciones óptimas de tarjeta. Edita todo en el lienzo de Fabric.js con herramientas de alineación, capas, bloqueo/desbloqueo, zoom 50%–200% en incrementos del 10% y deshacer/rehacer 20 estados. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.`,
   },
@@ -27,7 +27,7 @@ const content: ToolContent = {  seo: {
     title: `Cómo Crear Tarjetas de Bingo con Imágenes en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Generador de Tarjetas de Bingo',
+        title: `Abre el Generador de Tarjetas de Bingo`,
         description: `Haz clic en "Prueba Gratis Ahora" para abrir el generador de tarjetas de bingo en tu navegador. La herramienta carga instantáneamente con una barra lateral de ajustes a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la tarjeta de bingo con fichas y otra para la hoja de referencia. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear tarjetas de bingo de inmediato.`,
       },
       {
@@ -35,15 +35,15 @@ const content: ToolContent = {  seo: {
         description: `Abre el panel de Configuración de Tarjeta de Bingo y establece filas (3–5) y columnas (3–5) de forma independiente para definir el tamaño de tu cuadrícula — el valor por defecto es 4×4 con 16 celdas. Una cuadrícula de 3×3 es ideal para rondas rápidas de bingo con menos elementos a rastrear, mientras que una cuadrícula de 5×5 ofrece la experiencia clásica de bingo con 25 celdas. Establece la cantidad de tarjetas de 1 a 10 para generar por lotes múltiples tarjetas de bingo únicas. Cada tarjeta extrae una selección aleatoria diferente del conjunto de imágenes, garantizando que cada tarjeta del lote sea única — esencial para bingo donde cada jugador necesita una tarjeta diferente.`,
       },
       {
-        title: 'Elige los Modos de Relleno para Celdas y Fichas',
+        title: `Elige los Modos de Relleno para Celdas y Fichas`,
         description: `Selecciona el relleno de celdas (Imagen o Palabra) y el relleno de fichas (Imagen o Palabra) de forma independiente en el panel de Configuración de Tarjeta de Bingo. El relleno de Imagen muestra ilustraciones temáticas en las celdas de la cuadrícula o en las fichas circulares. El relleno de Palabra muestra nombres localizados de las imágenes como texto — al cambiar el idioma de la aplicación se actualizan todas las palabras en tarjetas, fichas y la hoja de referencia. Mezcla modos para variedad creativa: tarjetas con imágenes y fichas con palabras crean un desafío de asociación visual-a-texto, tarjetas con palabras y fichas con imágenes invierten la dinámica, y combinar ambos iguales crea una experiencia de bingo puramente visual o puramente textual. Cuatro estilos distintos de tarjeta de bingo desde un solo generador.`,
       },
       {
-        title: 'Selecciona Imágenes de la Biblioteca',
+        title: `Selecciona Imágenes de la Biblioteca`,
         description: `Abre el panel de Biblioteca de Imágenes y navega 104 colecciones temáticas con más de 3.100 ilustraciones a color — animales, comida, vehículos, naturaleza, festividades, profesiones y docenas más. Filtra por tema usando el menú desplegable o busca por palabra clave. Haz clic en las imágenes para seleccionarlas para tus tarjetas de bingo. Activa la casilla "Usar selección personalizada" para elegir imágenes específicas para el conjunto de referencia — un contador en vivo muestra tu recuento de selección mientras eliges. La selección personalizada de referencia te da control preciso sobre qué elementos aparecen en el juego de bingo, útil para actividades alineadas con el catálogo de productos o eventos temáticos.`,
       },
       {
-        title: 'Configura el Diseño de Página y las Decoraciones',
+        title: `Configura el Diseño de Página y las Decoraciones`,
         description: `En la sección Configuración de Página, selecciona tu tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o introduce una dimensión personalizada. Elige un color de fondo de página. Selecciona un fondo decorativo temático y un borde decorativo temático de la biblioteca integrada, cada uno con un control de opacidad independiente (0–1, paso 0,05). Los fondos y bordes temáticos funcionan de forma independiente, permitiéndote combinar un fondo sutil con un borde decorativo llamativo o cualquier combinación que se ajuste a tu estilo de producto. La hoja de referencia hereda los bordes y el fondo de la página del lienzo principal.`,
       },
       {
@@ -55,7 +55,7 @@ const content: ToolContent = {  seo: {
         description: `Haz clic en la pestaña de Hoja de Referencia para ver el acompañamiento para el cantante del bingo. La hoja de referencia muestra una cuadrícula dinámica de palabras con todos los elementos únicos del conjunto de imágenes — el cantante los lee en voz alta mientras los jugadores marcan sus tarjetas. Las columnas se calculan según la longitud de la palabra más larga (2–6 columnas) con tamaño de fuente uniforme en todas las entradas. La cuadrícula se centra en la página y hereda los bordes y el fondo de la página del lienzo principal. Esto no es una clave de respuestas — el bingo no tiene una sola respuesta correcta ya que cada tarjeta es diferente. La hoja de referencia es el documento de referencia para la persona que dirige el juego.`,
       },
       {
-        title: 'Descarga Tarjetas, Hoja de Referencia y Lote ZIP',
+        title: `Descarga Tarjetas, Hoja de Referencia y Lote ZIP`,
         description: `Activa la escala de grises para versiones con ahorro de tinta ideales para impresión en volumen e interiores de KDP. Descarga archivos individuales usando los cuatro botones dedicados: ficha JPEG, hoja de referencia JPEG, ficha PDF y hoja de referencia PDF — todo renderizado a 300 DPI (multiplicador 6×, calidad JPEG 1,0). Para exportación por lotes, haz clic en el botón de descarga ZIP para recibir todas las tarjetas de bingo generadas como JPEGs individuales en un solo archivo bingo_cards.zip. La exportación ZIP por lotes es esencial para vendedores que crean sets de bingo con múltiples tarjetas — genera 10 tarjetas únicas y empaquétalas en una sola descarga. Los archivos están listos para producción en listados de Etsy, interiores de Amazon KDP y archivos de productos de Gumroad.`,
       },
     ],
@@ -67,7 +67,7 @@ const content: ToolContent = {  seo: {
       description: `Crea paquetes de tarjetas de bingo organizados por tema y tamaño de cuadrícula usando las 104 colecciones de imágenes. Cada tema soporta múltiples configuraciones de cuadrícula: tarjetas rápidas de 3×3 con 9 celdas para rondas cortas, tarjetas estándar de 4×4 con 16 celdas para juego equilibrado y tarjetas clásicas de 5×5 con 25 celdas para sesiones extendidas. Genera por lotes 10 tarjetas únicas por tamaño de cuadrícula y luego combina los tres tamaños en un solo paquete de producto con hojas de referencia incluidas. La exportación ZIP por lotes empaqueta cada set para entrega inmediata. El barajado Fisher-Yates de fichas asegura que cada tarjeta presente un desafío genuino de bingo donde las fichas nunca reflejan la disposición de la cuadrícula.`,
     },
     {
-      title: 'Productos de Bingo de Vocabulario Multilingüe',
+      title: `Productos de Bingo de Vocabulario Multilingüe`,
       description: `El Generador de Tarjetas de Bingo es sensible al idioma — el modo de relleno de Palabra muestra nombres localizados de las imágenes de la Biblioteca de Imágenes, así que al cambiar de idioma se actualizan las palabras en tarjetas, fichas y la hoja de referencia. Crea sets de bingo en inglés, alemán, francés, español, portugués, italiano, holandés, sueco, danés, noruego y finlandés desde las mismas imágenes sin reconstruir nada. Una imagen de gato muestra "Cat" en inglés, "Katze" en alemán y "Chat" en francés. Vende productos de bingo de vocabulario en mercados internacionales generando cada versión de idioma en minutos. Las tarjetas con palabras y fichas con imágenes son herramientas de repaso de vocabulario especialmente efectivas.`,
     },
     {
@@ -75,7 +75,7 @@ const content: ToolContent = {  seo: {
       description: `Compila 40–80 tarjetas de bingo en cuadernos de actividades impresos para Amazon KDP. Estructura capítulos por tema: bingo de animales, bingo de comida, bingo de vehículos, bingo de festividades. Incluye hojas de referencia después de cada set para que el libro sea autosuficiente para jugar — los lectores pueden fotocopiar la página de referencia mientras los jugadores usan las páginas de tarjetas de bingo directamente. Mezcla tamaños de cuadrícula dentro de los capítulos para dificultad progresiva. Activa la escala de grises para salida con ahorro de tinta que mantiene bajos los costos de impresión de KDP. La función de generación por lotes produce 10 tarjetas únicas por set en segundos, haciendo eficientes las compilaciones grandes de cuadernos.`,
     },
     {
-      title: 'Kits de Juego de Bingo listos para vender',
+      title: `Kits de Juego de Bingo listos para vender`,
       description: `Construye kits completos de juego de bingo para uso comercial con 10 tarjetas únicas de jugador y una hoja de cantante por set. Los vendedores que buscan actividades de bingo valoran productos que llegan listos para jugar — imprime las tarjetas, distribúyelas y empieza el juego de inmediato. Usa el modo de relleno de Palabra con vocabulario de productos para repaso de lengua, relleno de Imagen para ejercicios de reconocimiento visual o modos mixtos para paquetes escalonados por nivel. La función de selección personalizada de referencia te permite curar exactamente qué elementos de vocabulario aparecen en el juego para alineación de productos precisa.`,
     },
     {
@@ -83,14 +83,14 @@ const content: ToolContent = {  seo: {
       description: `Construye colecciones estacionales rotativas usando temas de festividades y naturaleza de la biblioteca de 104 temas. Bingo de Navidad, bingo de Halloween, bingo de Pascua, bingo de San Valentín, bingo de vuelta al cole y bingo de verano soportan paquetes de productos dedicados. El bingo es un juego naturalmente social que alcanza su pico durante festividades cuando familias y tiendas buscan actividades grupales. Incluye múltiples tamaños de cuadrícula y variantes de relleno tanto de imagen como de palabra en cada set estacional para máximo valor. Publica cada colección 4–6 semanas antes de la festividad para máxima visibilidad en el mercado.`,
     },
     {
-      title: 'Sets de Tarjetas de Bingo para Eventos y Fiestas',
+      title: `Sets de Tarjetas de Bingo para Eventos y Fiestas`,
       description: `Crea sets de tarjetas de bingo para fiestas, baby showers, despedidas de soltera, eventos de team building y talleres educativos. Los tamaños de cuadrícula configurables y la biblioteca de imágenes temáticas producen juegos de bingo específicos para cada ocasión rápidamente — bingo de artículos de bebé para baby showers, bingo de comida para clases de cocina, bingo de animales para excursiones al zoo. Genera por lotes 10 tarjetas únicas por set de evento con una hoja de referencia, empaqueta como un paquete ZIP de descarga instantánea y vende en Etsy donde los organizadores de eventos buscan activamente juegos imprimibles para fiestas. La selección personalizada de referencia te permite curar los elementos exactos para cada ocasión.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Tienda Etsy de Tarjetas de Bingo Temáticas',
+      title: `Tienda Etsy de Tarjetas de Bingo Temáticas`,
       description: `Abre una tienda Etsy especializada en paquetes de tarjetas de bingo organizados por tema usando las 104 colecciones de imágenes. Animales, comida, vehículos, festividades, naturaleza y profesiones se convierten en listados separados con 10–30 tarjetas únicas por set y hojas de referencia incluidas. La función de generación por lotes crea 10 tarjetas únicas por clic y la exportación ZIP las empaqueta instantáneamente para entrega digital. Mezcla tamaños de cuadrícula dentro de los paquetes: tarjetas rápidas de 3×3, tarjetas estándar de 4×4 y tarjetas clásicas de 5×5 para variedad. Precio de paquetes individuales por tema a $3–$5 para 10–15 tarjetas con hojas de referencia y paquetes premium multi-tema a $8–$15.`,
       platform: 'Etsy',
     },
@@ -100,7 +100,7 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Paquetes de Actividades de Bingo para Gumroad',
+      title: `Paquetes de Actividades de Bingo para Gumroad`,
       description: `Sube paquetes de actividades de bingo para venta en línea a Gumroad con tarjetas únicas de jugador y hojas de cantante como puntos de venta clave. Los vendedores que buscan actividades de bingo valoran productos que llegan listos para jugar — imprime, distribuye y empieza el juego. Crea sets alineados con el catálogo de productos: bingo de vocabulario usando el modo de relleno de Palabra, bingo de reconocimiento visual usando relleno de Imagen y bingo de modos mixtos para paquetes escalonados por nivel. Incluye 10 tarjetas únicas por set con una hoja de referencia. El modo de relleno de Palabra con nombres localizados de imágenes convierte el bingo en una actividad de repaso de vocabulario que los vendedores pueden usar en lengua, vocabulario de ciencias y unidades temáticas.`,
       platform: 'Gumroad',
     },
@@ -110,7 +110,7 @@ const content: ToolContent = {  seo: {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Tarjetas de Bingo en Gumroad',
+      title: `Kit Completo de Tarjetas de Bingo en Gumroad`,
       description: `Agrupa tarjetas de bingo de los 104 temas, todos los tamaños de cuadrícula y ambos modos de relleno en un kit integral en Gumroad. Incluye más de 500 tarjetas de bingo únicas abarcando cuadrículas de 3×3, 4×4 y 5×5 con variantes de relleno de imagen y de palabra, más hojas de referencia para cada tema. La generación por lotes y la exportación ZIP hacen eficiente la producción a gran escala. El sistema de doble relleno produce cuatro estilos distintos de tarjeta por tema (imagen/imagen, imagen/palabra, palabra/imagen, palabra/palabra), multiplicando la variedad de cada conjunto de imágenes. El formato de kit justifica precios premium porque los compradores obtienen una biblioteca completa de juegos de bingo en lugar de paquetes individuales.`,
       platform: 'Gumroad',
     },
@@ -170,15 +170,15 @@ const content: ToolContent = {  seo: {
       answer: `Las celdas de la tarjeta y las fichas tienen un modo de relleno independiente: Imagen o Palabra. El relleno de celdas determina qué aparece en cada celda de la cuadrícula de bingo en la tarjeta. El relleno de fichas determina qué aparece en las fichas circulares con bordes punteados debajo de la tarjeta. Puedes mezclar modos libremente — tarjetas con imágenes y fichas con palabras crean un desafío de asociación visual-a-texto, tarjetas con palabras y fichas con imágenes invierten la dinámica, y combinar ambos iguales crea una experiencia de bingo completamente visual o completamente textual. Este sistema de doble relleno produce cuatro estilos distintos de tarjeta de bingo desde un solo generador.`,
     },
     {
-      question: '¿Cómo funcionan las fichas circulares?',
+      question: `¿Cómo funcionan las fichas circulares?`,
       answer: `Las fichas circulares aparecen debajo de la cuadrícula de la tarjeta de bingo con bordes punteados (#666, strokeDashArray [5,5]). Muestran imágenes o palabras según tu selección de modo de relleno de fichas. Las fichas se barajan usando el ordenamiento Fisher-Yates para que nunca reflejen la disposición de la cuadrícula de la tarjeta — esto asegura un juego de bingo auténtico donde las fichas sirven como referencia de asociación en lugar de revelar respuestas por posición. Los jugadores usan las fichas para identificar qué elementos se están cantando durante el juego.`,
     },
     {
-      question: '¿Qué es la hoja de referencia y cómo funciona?',
+      question: `¿Qué es la hoja de referencia y cómo funciona?`,
       answer: `La hoja de referencia es una página separada accesible a través de la pestaña de Hoja de Referencia que muestra una cuadrícula dinámica de palabras con todos los elementos únicos del conjunto de imágenes. El cantante lee estas palabras en voz alta mientras los jugadores marcan los elementos coincidentes en sus tarjetas de bingo. Las columnas se calculan según la longitud de la palabra más larga (2–6 columnas) con tamaño de fuente uniforme en todas las entradas para una legibilidad limpia. La cuadrícula se centra en la página y hereda los bordes y el fondo del lienzo principal. Esto no es una clave de respuestas — el bingo no tiene una sola respuesta correcta ya que cada tarjeta es diferente.`,
     },
     {
-      question: '¿Qué es la selección personalizada de referencia?',
+      question: `¿Qué es la selección personalizada de referencia?`,
       answer: `Activa la casilla "Usar selección personalizada" en el panel de Configuración de Tarjeta de Bingo para elegir qué imágenes específicas aparecen en el conjunto de referencia. Cuando está activada, haz clic en las imágenes de la Biblioteca de Imágenes para añadirlas a tu selección personalizada de referencia — un contador en vivo muestra tu recuento de selección mientras eliges. Esto te da control preciso sobre qué elementos aparecen en el juego de bingo, útil para actividades de vocabulario alineadas con el catálogo de productos, eventos temáticos o cualquier situación donde quieras curar los elementos exactos que los jugadores encontrarán durante el juego.`,
     },
     {
@@ -186,7 +186,7 @@ const content: ToolContent = {  seo: {
       answer: `Sí. Cuando usas el modo de relleno de Palabra para celdas o fichas, las palabras mostradas son nombres localizados de imágenes de la Biblioteca de Imágenes. Al cambiar el idioma en los Ajustes de la Ficha se actualizan las palabras en tarjetas, fichas y la hoja de referencia. Por ejemplo, una imagen de gato muestra "Cat" en inglés pero "Katze" en alemán y "Chat" en francés. Esto facilita la creación de productos de bingo de vocabulario multilingüe desde las mismas imágenes. El modo de relleno de Imagen no es sensible al idioma ya que muestra ilustraciones en lugar de palabras.`,
     },
     {
-      question: '¿Cómo funciona la exportación ZIP por lotes?',
+      question: `¿Cómo funciona la exportación ZIP por lotes?`,
       answer: `Después de generar múltiples tarjetas de bingo, haz clic en el botón de exportación por lotes para descargar todas las tarjetas como archivos JPEG individuales de alta resolución empaquetados en un solo archivo bingo_cards.zip usando compresión JSZip. Cada tarjeta se nombra secuencialmente dentro del ZIP para fácil organización. Esto elimina descargar tarjetas una por una — genera un set completo de 10 tarjetas únicas y expórtalas todas en un solo clic. La exportación ZIP funciona junto con los botones estándar de descarga individual JPEG y PDF para la tarjeta actualmente mostrada y la hoja de referencia.`,
     },
     {
@@ -198,35 +198,35 @@ const content: ToolContent = {  seo: {
       answer: `Sí. Con una licencia comercial, tienes derechos completos para vender tarjetas de bingo como descargas digitales en Etsy, cuadernos de actividades impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, la generación por lotes, la exportación ZIP, los modos de relleno duales, las hojas de referencia dedicadas, la selección personalizada de referencia, el relleno de palabras multilingüe y las 104 colecciones temáticas de imágenes te dan todo lo necesario para crear productos profesionales de bingo que compiten en categorías de juegos imprimibles en todos los principales mercados.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que puedas evaluar completamente la herramienta antes de comprar. Debido a que la prueba gratuita te da acceso completo a todos los tamaños de cuadrícula, generación por lotes de hasta 10 tarjetas, exportación ZIP, ambos modos de relleno para celdas y fichas, la hoja de referencia, selección personalizada de referencia, los 104 temas, subida de imágenes personalizadas, fondos y bordes temáticos, exportación en escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en compras de licencias. Asegúrate de que la herramienta se adapta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'bingo-fichas', anchorText: `Tarjetas de Bingo con Imágenes — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Asociación' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Generador de Puzzle de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Generador de Discriminación Visual' },
-    { pageType: 'tool', slug: 'generador-clasificacion-imagenes', anchorText: 'Generador de Clasificación de Imágenes' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: `Generador de Fichas de Asociación` },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: `Generador de Puzzle de Cuadrícula` },
+    { pageType: 'tool', slug: `generador-discriminacion-visual`, anchorText: `Generador de Discriminación Visual` },
+    { pageType: 'tool', slug: `generador-clasificacion-imagenes`, anchorText: `Generador de Clasificación de Imágenes` },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: `Generador de Fichas del Intruso` },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Generador de Páginas para Colorear` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+      primary: `/samples/spanish/bingo/Bingo de Imágenes 1.webp`,
       primaryAlt: `Tarjeta de bingo con imágenes temáticas en una cuadrícula configurable y fichas circulares con bordes punteados debajo para asociación durante el juego de bingo`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 2.webp',
+        src: `/samples/spanish/bingo/Bingo de Imágenes 2.webp`,
         alt: `Tarjeta de bingo con relleno de imagen mostrando ilustraciones temáticas a color en celdas de la cuadrícula y fichas circulares con imágenes y bordes punteados`,
         caption: `Modo de relleno de imagen — ilustraciones a color en celdas de la tarjeta y fichas circulares para bingo visual`,
       },
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 3.webp',
+        src: `/samples/spanish/bingo/Bingo de Imágenes 3.webp`,
         alt: `Tarjeta de bingo con relleno de palabra mostrando nombres localizados de imágenes en celdas de la cuadrícula y fichas con palabras para bingo de vocabulario`,
         caption: `Modo de relleno de palabra — nombres localizados de imágenes para productos de bingo de vocabulario multilingüe`,
       },

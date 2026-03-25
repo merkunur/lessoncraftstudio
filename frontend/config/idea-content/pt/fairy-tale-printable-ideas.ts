@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias de Imprimíveis de Contos de Fadas — Guia de Nicho`,
     metaDescription: `Descubra ideias de imprimíveis de contos de fadas para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos com temática de livros de histórias.`,
-    primaryKeyword: 'ideias de imprimíveis de contos de fadas',
+    primaryKeyword: `ideias de imprimíveis de contos de fadas`,
     secondaryKeywords: [
-      'fichas temáticas contos de fadas para vender',
-      'negócio imprimíveis temática contos de fadas',
-      'fichas atividades contos de fadas para vendedores',
-      'vender imprimíveis de contos de fadas no Etsy',
+      `fichas temáticas contos de fadas para vender`,
+      `negócio imprimíveis temática contos de fadas`,
+      `fichas atividades contos de fadas para vendedores`,
+      `vender imprimíveis de contos de fadas no Etsy`,
     ],
     lsiKeywords: [
       `fichas educativas temáticas de livros de histórias`,
-      'atividades de literacia com contos clássicos',
-      'imprimíveis temáticos de fantasia para a loja',
+      `atividades de literacia com contos clássicos`,
+      `imprimíveis temáticos de fantasia para a loja`,
     ],
   },
   hero: {
@@ -89,7 +89,7 @@ O mercado de interseção com festas de aniversário de princesas e cavaleiros r
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Contos de Fadas no Etsy',
+      title: `Vender Imprimíveis de Contos de Fadas no Etsy`,
       description: `O Etsy recompensa o nicho de contos de fadas com um desempenho consistente de listagens durante todo o ano porque a fascinação das crianças pelas princesas, pelos castelos e pelos reinos mágicos nunca para e os pais de crianças amantes de livros de histórias procuram ativamente materiais educativos temáticos que apoiem a curiosidade imaginativa dos seus filhos em todas as estações. Utiliza as treze etiquetas com variações que combinem elementos de contos de fadas, áreas de competência e grupos etários: «fichas contagem contos de fadas pré-escolar», «páginas colorir castelo de princesas crianças pequenas» e «sopa de letras contos de fadas jardim de infância» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas amplas como «fichas contos de fadas». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade amante de livros de histórias» e «imprimível de contos de fadas para crianças» nos teus títulos e descrições. As imagens de listagens que mostram fichas de contos de fadas impressas junto a castelos de brinquedo, figurinhas de princesas ou livros de histórias superam as pré-visualizações digitais planas e captam o entusiasmo prático que traz os pais de crianças obcecadas por contos de fadas ao Etsy à procura de recursos educativos com temática de livros de histórias. Aponta às pesquisas de festas de aniversário de princesas e cavaleiros durante todo o ano, já que os temas de contos de fadas continuam a ser um dos mais populares para festas de aniversário infantis que procuram atividades de celebração mágicas.`,
     },
     {
@@ -143,18 +143,18 @@ O mercado de interseção com festas de aniversário de princesas e cavaleiros r
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -168,7 +168,7 @@ O mercado de interseção com festas de aniversário de princesas e cavaleiros r
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -179,27 +179,27 @@ O mercado de interseção com festas de aniversário de princesas e cavaleiros r
     {
       pageType: 'idea',
       slug: 'piratas-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Piratas',
+      anchorText: `Ideias de Negócio de Imprimíveis de Piratas`,
     },
     {
       pageType: 'idea',
       slug: 'musica-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Música',
+      anchorText: `Ideias de Negócio de Imprimíveis de Música`,
     },
     {
       pageType: 'idea',
-      slug: 'dinossauros-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Dinossauros',
+      slug: `dinossauros-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Dinossauros`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

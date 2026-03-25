@@ -5,8 +5,8 @@ const content: GuideContent = {
     primaryKeyword: 'sälja Gumroad-resurser',
     secondaryKeywords: [
       'hur man säljer på Gumroad',
-      'skapa Gumroad-resurser för säljare',
-      'Gumroad säljarguide för utskriftsklara arbetsblad',
+      `skapa Gumroad-resurser för säljare`,
+      `Gumroad säljarguide för utskriftsklara arbetsblad`,
       'Gumroad butiksuppstart',
     ],
     lsiKeywords: [
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `Gumroad sökalgoritm taggar titel beskrivning upptäckbarhet rankning`,
       `arbetsbladspaket produktkatalog enhet aktivitetspaket prisstrategi`,
     ],
-    titleTag: 'Hur du skapar och säljer Gumroad-resurser — Guide',
+    titleTag: `Hur du skapar och säljer Gumroad-resurser — Guide`,
     metaDescription: `Hur du skapar och säljer Gumroad-resurser. Kontouppstart, resursformatering, listningsoptimering, prissättning och att bygga momentum på Gumroad.`,
   },
 
   hero: {
-    title: 'Hur du skapar och säljer Gumroad-resurser',
+    title: `Hur du skapar och säljer Gumroad-resurser`,
     tagline: `En komplett guide till att sälja pedagogiska resurser på Gumroad — täcker kontouppstart och butikskonfiguration, att skapa Gumroad-redo resurser med korrekt formatering, paketera filer för uppladdning, skriva listningar som rankar i lärarsökningar, skapa effektiva förhandsgranskningar och miniatyrbilder, prisstrategi för den pedagogiska marknadsplatsen, och att lansera dina första resurser för att bygga butiksmomentum och konsekvent intäkt`,
     description: `Gumroad (Gumroad) är en säljare-till-säljare-marknadsplats där säljare köper och säljer originella pedagogiska resurser. Till skillnad från generella marknadsplatser som Etsy eller print-on-demand-plattformar som Amazon KDP, är varje köpare på Gumroad en säljare som aktivt söker produktlinjesfärdiga material. Detta skapar en unikt riktad målgrupp med specifika behov: standardanpassat innehåll, årskursanpassade aktiviteter och resurser som fungerar i verkliga produktlinje med minimal förberedelse.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Gumroad är en säljare-till-säljare-marknadsplats grundad 2006 av en säljare i New York. Plattformen är värd för miljontals resurser inom alla ämnen, årskurser och resurstyper, och köparbasen består nästan helt av säljare.\n\nDenna säljarefokuserade målgrupp är vad som gör Gumroad fundamentalt annorlunda. Sökavsikten är exakt: säljare söker "first grade addition worksheets with regrouping" eller "kindergarten sight word activities" och förväntar sig resultat som matchar exakta produktlinjesbehov.\n\nGumroad fungerar på en provisionsbaserad modell med två säljarnivåer. Basic-planen kostar ingenting och ger säljare 45% av varje försäljningspris. Premium-planen kostar $59,95 per år och ökar säljarandelen till 80%. Matematiken är enkel: om du säljer en $5-resurs på Basic tjänar du $2,25. På Premium tjänar du $4,00. Premium betalar sig efter ungefär $150 i total försäljning.\n\nPlattformen tillhandahåller verktyg specifikt designade för pedagogiskt innehåll: standardanpassnings-taggning, årskursfiltrering, ämneskategorisering, resurstypsklassificering och ett förhandsgranskningssystem. Dessa är inte generiska marknadsplatsfunktioner — de är byggda kring hur säljare faktiskt upptäcker och utvärderar produktlinjesmaterial.`,
     },
     {
-      heading: 'Sätt upp ditt Gumroad-säljarkonto och din butik',
+      heading: `Sätt upp ditt Gumroad-säljarkonto och din butik`,
       content: `Att skapa ett Gumroad-säljarkonto börjar på Gumroad:s webbplats. Du behöver en giltig e-postadress, ett butiksnamn och grundläggande profilinformation. Välj ditt butiksnamn noggrant — det blir din varumärkesidentitet. Effektiva Gumroad-butiksnamn är professionella, minnesvärda och antyder ofta din undervisningsspecialitet. Undvik överdrivet generiska namn och namn som begränsar framtida expansion.\n\nDin butiksprofil är ditt första intryck. Skriv en tydlig, professionell beskrivning som etablerar dina pedagogiska meriter och innehållsfokus. köpare som köper på Gumroad vill veta att de köper från någon som förstår produktlinjesbehov.\n\nKonfigurera dina butiksvillkor, inklusive användarvillkor för köpta resurser. De flesta Gumroad-säljare inkluderar en standardvillkorssida i varje nedladdning som specificerar att resursen är för enkla-produktlinjesanvändning, förbjuder vidaredistribution och förklarar skillnaden mellan enkel- och platslicenser.\n\nSätt upp din betalningsinformation. Gumroad behandlar utbetalningar månadsvis. Om du förväntar dig att tjäna mer än $150 per år (troligt om du bygger din butik aktivt), uppgradera till Premium-planen omedelbart. Varje försäljning på Basic-planen kostar dig 35% mer i provision.`,
     },
     {
-      heading: 'Skapa Gumroad-redo pedagogiska resurser',
+      heading: `Skapa Gumroad-redo pedagogiska resurser`,
       content: `Resurser som säljer konsekvent på Gumroad delar specifika egenskaper. Gumroad-köpare är säljare som utvärderar genom en professionell lins: Fungerar detta i mitt produktlinje? Är det anpassat till vad jag undervisar? Kan jag använda det med minimal förberedelse?\n\nBörja med tydliga lärandemål. Varje Gumroad-resurs bör rikta sig mot en specifik färdighet. "Additionsövning" är för vagt. "Tvåsiffrig addition med omgruppering för årskurs 1" riktar sig mot en specifik färdighet som säljare söker efter. Använd arbetsbladsgeneratorerna för att skapa innehåll anpassat till specifika färdigheter.\n\nFormatera dina resurser med professionell konsistens. Varje Gumroad-resurs bör inkludera: en omslagssida med resurstitel, årskurs, ämne och butiksvarumärke; en innehållsförteckning för flersidoresurser; tydliga instruktioner på varje aktivitetssida; ett facit för alla arbetsblad; och en användarvillkorssida. Generatorerna producerar innehåll vid 300 DPI tryckkvalitet.\n\nInkludera lärarnoteringar som förklarar hur man använder resursen online. En "Hur man använder denna resurs"-sida ökar dramatiskt upplevt värde. Föreslå implementeringsidéer: använd som morgonarbete, mattecentra, hemläxa, tidiga slut-aktiviteter eller utvärderingsverktyg.\n\nÖverväg differentieringsalternativ. Att inkludera en enklare version och en mer utmanande version av samma aktivitet låter säljare använda din resurs med användare på olika nivåer.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `Din produktminiatyrbild är vad säljare ser i sökresultat och avgör om de klickar på din listning. Gumroad:s sökresultat visar miniatyrbilder som det primära visuella elementet. En professionell, tydlig miniatyrbild som omedelbart kommunicerar vad resursen är ökar dramatiskt din klickfrekvens.\n\nDesigna miniatyrbilder som är visuellt rena och läsbara i liten storlek. Inkludera resurstitel, årskurs och en visuell förhandsgranskning av en aktivitetssida. Använd konsekvent varumärke (färger, typsnitt, layout) över alla dina miniatyrbilder.\n\nProduktförhandsgranskningen är ditt mest kraftfulla konverteringsverktyg på Gumroad. säljare är särskilt grundliga utvärderare — de vill se exakt vad de köper. Din förhandsgransknings-PDF bör visa kvalitet och omfattning utan att ge bort hela produkten. Inkludera din omslagssida, en eller två exempel-aktivitetssidor och en sida som listar allt som ingår.\n\nVattenmärk dina förhandsgranskningssidor om du vill förhindra att de används utan köp. Håll vattenmärket subtilt nog att säljare fortfarande kan utvärdera kvaliteten — ett diagonalt "PREVIEW" vid 20–30% opacitet.\n\nUppdatera dina förhandsgranskningar när du uppdaterar dina resurser. Föråldrade förhandsgranskningar som inte matchar den faktiska nedladdningen leder till besvikna köpare.`,
     },
     {
-      heading: 'Prissätt Gumroad-resurser för din marknad',
+      heading: `Prissätt Gumroad-resurser för din marknad`,
       content: `Gumroad-prissättning kräver förståelse för vad säljare förväntar sig att betala. Undersök jämförbara resurser i din årskurs och ämnesområde innan du sätter priser.\n\nVanliga Gumroad-prisintervall: Enstaka arbetsblad $1–$3. Arbetsbladspaket med 5–15 sidor $3–$6. Aktivitetspaket med 15–30 sidor $6–$12. Omfattande produktkatalogenheter med 30+ sidor $12–$25.\n\nUndvik underprissättning. Nya Gumroad-säljare prissätter ofta för lågt. Detta slår tillbaka av två skäl. Först signalerar mycket låga priser ($0,50–$1,00 för flersidiga resurser) låg kvalitet. Sedan reduceras din intäkt per försäljning till en punkt där även stark försäljningsvolym producerar minimal inkomst. Ett 10-sidors arbetsbladspaket prissatt till $1 på Basic-planen tjänar $0,45 per försäljning. Samma paket prissatt till $4 på Premium tjänar $3,20 — över sju gånger mer.\n\nGumroad erbjuder en anpassade paket-funktion. Du sätter rabattprocenten (typiskt 15–25%) och köpare kan mixa och matcha dina resurser.\n\nÖverväg att erbjuda några resurser för gratis provversion med vattenstämpel. Gumroad:s gratisresurssektion genererar betydande nedladdningar. köpare som upptäcker din butik genom en kvalitets provresurs återvänder ofta för att köpa dina betalda resurser.`,
     },
     {
-      heading: 'Lansera dina första resurser och bygg momentum',
+      heading: `Lansera dina första resurser och bygg momentum`,
       content: `Din lanseringsstrategi bör fokusera på att bygga en minimum livskraftig katalog innan du förväntar dig konsekvent försäljning. En enda resurslistning genererar begränsad synlighet. Sikta på att publicera dina första 5 till 10 resurser innan du utvärderar.\n\nVälj dina initiala resurser strategiskt. Börja med ditt högsta kvalitetsinnehåll i ett högefterfrågat ämnesområde. Mattearbetsblad, läsaktiviteter och naturvetenskapsresurser rankar konsekvent bland de mest sökta. Arbetsbladsgeneratorerna skapar professionellt innehåll effektivt — Additions-, Ordsöknings-, Matchnings- och Målarbild-generatorerna producerar alla innehållstyper i konstant efterfrågan.\n\nFrämja dina resurser genom Gumroad:s inbyggda sociala funktioner. Gumroad har ett följarsystem. Uppmuntra köpare att följa din butik genom att inkludera en "Följ min butik"-påminnelse i dina resursfiler.\n\nSvara på köparfrågor och feedback snabbt och professionellt. Gumroad-köpare kan ställa frågor och lämna recensioner. Responsiv kommunikation bygger din butiksreputation.\n\nGumroad:s sökalgoritm belönar konsekvens. Butiker som publicerar nya resurser regelbundet bibehåller högre söksynlighet. Etablera en hållbar publiceringstakt — om det är en ny resurs per vecka eller två per månad — och bibehåll den. Varje ny resurs ger din butik förnyad algoritmisk uppmärksamhet.`,
     },
   ],
@@ -81,11 +81,11 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Skala intäkt genom systematiska resursserier',
+      heading: `Skala intäkt genom systematiska resursserier`,
       content: `De mest framgångsrika Gumroad-säljarna bygger intäkt genom serier av relaterade resurser. En "Årskurs 1 mattecentra"-serie med 10 månadspaket skapar återkommande köp från samma säljare genom hela läsåret. En "Förskoleklass ordbilder"-serie med progressiva svårighetsnivåer säljer till köpare som köper den första uppsättningen och återvänder för efterföljande nivåer. Serier skapar naturligt upprepat köpbeteende. Strukturera ditt innehållsskapande kring serier från början — planera sammankopplade uppsättningar istället för slumpmässiga enstaka arbetsblad.`,
     },
     {
-      heading: 'Fånga säsongsbetonad och skolstartsefterfrågan',
+      heading: `Fånga säsongsbetonad och skolstartsefterfrågan`,
       content: `Lärarköp på Gumroad följer förutsägbara säsongsmönster. Skolstarten (sent juli till september) genererar högst trafik och försäljning. Högtidstematiserade resurser (Halloween i september–oktober, vinterresurser i november, alla hjärtans dag i januari) ser koncentrerad efterfrågan. Slutet-av-läsåret-repetitionsmaterial säljer starkt i april och maj. Planera din resursskapandekalender för att ha säsongsinnehåll publicerat minst 3 till 4 veckor före varje topp.`,
     },
     {
@@ -107,11 +107,11 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Hur mycket kostar det att börja sälja på Gumroad?',
+      question: `Hur mycket kostar det att börja sälja på Gumroad?`,
       answer: `Att skapa ett Gumroad-säljarkonto kostar ingenting. Basic-planen har inga startkostnader — Gumroad tar 55% av varje försäljning som provision. Premium-planen kostar $59,95 per år och minskar Gumroad:s provision till 20%, så du behåller 80%. Premium betalar sig efter ungefär $150 i total försäljning. Det finns inga listningsavgifter eller per-produkt-uppladdningsavgifter.`,
     },
     {
-      question: 'Vilka typer av resurser säljer på Gumroad?',
+      question: `Vilka typer av resurser säljer på Gumroad?`,
       answer: `Gumroad stöder praktiskt taget alla typer av pedagogiska resurser: arbetsblad, aktivitetspaket, lektionsplaner, utvärderingar, interaktiva anteckningsböcker, uppgiftskort, spel, anslagstavlematerial, produktlinjesdekor och produktkatalogenheter. Bland utskriftsklara resurser rankar mattearbetsblad, läsaktiviteter, naturvetenskapsresurser och säsongsbundna aktivitetspaket konsekvent bland de mest köpta. Generatorerna skapar innehåll i flera av dessa högefterfrågade kategorier.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `Ja, du kan sälja liknande innehåll på Gumroad, Etsy och KDP simultant. Gumroad har inget exklusivitetskrav. Optimera dock ditt innehåll för varje plattform istället för att ladda upp identiska listningar. Din Gumroad-version bör inkludera standardanpassning, lärarnoteringar och produktlinjesimplementeringsförslag.`,
     },
     {
-      question: 'Hur lång tid tar det att börja tjäna på Gumroad?',
+      question: `Hur lång tid tar det att börja tjäna på Gumroad?`,
       answer: `De flesta nya Gumroad-säljare ser sina första försäljningar inom 2 till 6 veckor. Butiker med 5–10 väloptimerade resurser i ett högefterfrågat ämne genererar försäljning snabbare. Säljare som publicerar 2–4 nya resurser per månad och bibehåller hög listningskvalitet når typiskt $100–$300 per månad inom 6–12 månader.`,
     },
     {
@@ -139,50 +139,50 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'tpt-butik-optimering',
-      title: 'Gumroad butiksuppstart och optimeringguide',
+      title: `Gumroad butiksuppstart och optimeringguide`,
       description: `Avancerad Gumroad-optimering som täcker butiksvarumärke, sökalgoritmstrategi, recensionsgenerering, säsongsplanering och att skala din Gumroad-närvaro.`,
     },
     {
       slug: 'kdp-eller-etsy-printables',
-      title: 'Amazon KDP vs Etsy: Var du säljer printables',
+      title: `Amazon KDP vs Etsy: Var du säljer printables`,
       description: `Direkt jämförelse av de två andra stora plattformarna. Avgiftsstrukturer, produktformat, trafikmekanik och flerplattformsstrategi.`,
     },
     {
-      slug: 'komplett-guide-utskriftsbart-foeretag',
+      slug: `komplett-guide-utskriftsbart-foeretag`,
       title: `Komplett guide till att starta utskriftsbart företag`,
       description: `Hörnstensguiden som täcker innehållsskapande, kommersiell licensiering, flerplattformsstrategi och att bygga ett hållbart utskriftsbart företag.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'tpt-butik-optimering', anchorText: 'Gumroad butiksuppstart och optimeringguide' },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: 'Hur du startar en Etsy printables-butik' },
-    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Var du säljer printables' },
-    { pageType: 'guide', slug: 'skapa-etsy-arbetsblad-paket', anchorText: 'Hur du skapar Etsy arbetsbladspaket' },
-    { pageType: 'guide', slug: 'etsy-printables-prissaettning', anchorText: 'Hur du prissätter dina Etsy printables' },
-    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: 'Etsy SEO för pedagogiska printables' },
+    { pageType: 'guide', slug: 'tpt-butik-optimering', anchorText: `Gumroad butiksuppstart och optimeringguide` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'starta-etsy-printables-butik', anchorText: `Hur du startar en Etsy printables-butik` },
+    { pageType: 'guide', slug: 'kdp-eller-etsy-printables', anchorText: `Amazon KDP vs Etsy: Var du säljer printables` },
+    { pageType: 'guide', slug: 'skapa-etsy-arbetsblad-paket', anchorText: `Hur du skapar Etsy arbetsbladspaket` },
+    { pageType: 'guide', slug: 'etsy-printables-prissaettning', anchorText: `Hur du prissätter dina Etsy printables` },
+    { pageType: 'guide', slug: 'seo-etsy-pedagogiskt-material', anchorText: `Etsy SEO för pedagogiska printables` },
     { pageType: 'guide', slug: 'matte-aktivitetsboecker-kdp', anchorText: `Hur du skapar matteaktivitetsböcker för Amazon KDP` },
-    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: 'Hur du skapar additionsarbetsblad för barn' },
-    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: 'Hur du skapar ordsökningspussel med bilder' },
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'guide', slug: 'skapa-additions-arbetsblad', anchorText: `Hur du skapar additionsarbetsblad för barn` },
+    { pageType: 'guide', slug: 'skapa-ordsoek-pussel', anchorText: `Hur du skapar ordsökningspussel med bilder` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
   ],
 
   toolsRecommended: [
     {
       appId: 'image-addition',
-      title: 'Additions Arbetsblad Generator',
+      title: `Additions Arbetsblad Generator`,
       description: `Skapar matteadditionsarbetsblad i konstant efterfrågan på Gumroad. Konfigurera talintervall, svårighetsnivåer och format för att rikta specifika årskursstandarder.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Ordsökning Arbetsblad Generator',
+      title: `Ordsökning Arbetsblad Generator`,
       description: `Genererar tematiska ordsökningspussel populära över alla årskurser på Gumroad. Vokabulärbyggande aktiviteter som säljare använder för centra, tidiga slutare och kompletterande övning.`,
     },
     {
       appId: 'matching-app',
-      title: 'Matchnings Arbetsblad Generator',
+      title: `Matchnings Arbetsblad Generator`,
       description: `Skapar mångsidiga matchningsaktiviteter för flera ämnen och årskurser. En klassisk produktlinjesaktivitetstyp som Gumroad-säljare söker inom alla ämnesområden.`,
     },
     {
@@ -193,22 +193,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/addition/addition_%C3%B6vning.jpeg`, alt: 'Additionsarbetsblad lämpligt för att sälja på Gumroad marknadsplats' },
+    heroImage: { src: `/samples/swedish/addition/addition_%C3%B6vning.jpeg`, alt: `Additionsarbetsblad lämpligt för att sälja på Gumroad marknadsplats` },
     samples: [
-      { src: `/samples/swedish/addition/addition_%C3%B6vning.jpeg`, alt: 'Matteadditionsarbetsblad för Gumroad produktlinjesresurs', caption: 'Mattearbetsblad är bland de mest sökta resurstyperna på Gumroad — säljare behöver standardanpassad övning' },
-      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: 'Ordsökningspussel aktivitet för Gumroad butikslistning', caption: 'Ordsökningspussel fungerar över alla årskurser på Gumroad som vokabulärbyggare, centraaktiviteter och tidiga-slut-arbete' },
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: `Matchningsaktivitet arbetsblad för Gumroad-säljare`, caption: 'Matchningsaktiviteter är mångsidiga Gumroad-resurser som säljare använder för utvärdering, övning och repetition' },
+      { src: `/samples/swedish/addition/addition_%C3%B6vning.jpeg`, alt: `Matteadditionsarbetsblad för Gumroad produktlinjesresurs`, caption: `Mattearbetsblad är bland de mest sökta resurstyperna på Gumroad — säljare behöver standardanpassad övning` },
+      { src: `/samples/swedish/wordsearch/ordletning%20portrait.jpeg`, alt: `Ordsökningspussel aktivitet för Gumroad butikslistning`, caption: `Ordsökningspussel fungerar över alla årskurser på Gumroad som vokabulärbyggare, centraaktiviteter och tidiga-slut-arbete` },
+      { src: `/samples/swedish/matching/Matchningsspel.jpeg`, alt: `Matchningsaktivitet arbetsblad för Gumroad-säljare`, caption: `Matchningsaktiviteter är mångsidiga Gumroad-resurser som säljare använder för utvärdering, övning och repetition` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Hur du skapar pedagogiska arbetsblad för Gumroad — steg-för-steg-guide`,
   },
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Ryggsäck — tematisk pedagogisk bild', caption: 'Ryggsäck' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Pärm — tematisk pedagogisk bild', caption: 'Pärm' },
-    { src: '/image-library/classroom/book.webp', alt: 'Bok — tematisk pedagogisk bild', caption: 'Bok' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Skåp — tematisk pedagogisk bild', caption: 'Skåp' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Kalkylator — tematisk pedagogisk bild', caption: 'Kalkylator' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Ryggsäck — tematisk pedagogisk bild`, caption: 'Ryggsäck' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Pärm — tematisk pedagogisk bild`, caption: 'Pärm' },
+    { src: `/image-library/classroom/book.webp`, alt: `Bok — tematisk pedagogisk bild`, caption: 'Bok' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Skåp — tematisk pedagogisk bild`, caption: 'Skåp' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Kalkylator — tematisk pedagogisk bild`, caption: 'Kalkylator' },
   ],
 };
 

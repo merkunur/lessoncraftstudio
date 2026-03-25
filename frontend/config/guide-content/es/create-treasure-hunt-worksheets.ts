@@ -4,7 +4,7 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'fichas de búsqueda del tesoro',
     secondaryKeywords: [
-      'crear fichas de búsqueda del tesoro para vender',
+      `crear fichas de búsqueda del tesoro para vender`,
       `generador de fichas de búsqueda del tesoro uso comercial`,
       `fichas imprimibles de búsqueda del tesoro para Etsy y KDP`,
       `fichas de cuadrícula de coordenadas con claves de respuestas`,
@@ -13,16 +13,16 @@ const content: GuideContent = {
       `dos tipos de dirección básico cardinal cuadrícula de coordenadas generador`,
       `cuadrícula cinco por cinco letra-número pistas direccionales búsqueda de caminos creador`,
       `clave de respuestas automática amarillo pálido celda del tesoro generador doble lienzo`,
-      'vender fichas de búsqueda del tesoro en Etsy',
+      `vender fichas de búsqueda del tesoro en Etsy`,
       `Amazon KDP cuadernos de búsqueda de caminos direccionales`,
       `herramienta de búsqueda del tesoro con licencia comercial`,
     ],
-    titleTag: 'Fichas de búsqueda del tesoro — Guía',
+    titleTag: `Fichas de búsqueda del tesoro — Guía`,
     metaDescription: `Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con movimientos direccionales, referencias temáticas y claves de respuestas automáticas. Guía paso.`,
   },
 
   hero: {
-    title: 'Cómo crear fichas de búsqueda del tesoro',
+    title: `Cómo crear fichas de búsqueda del tesoro`,
     tagline: `Un tutorial paso a paso para crear fichas de búsqueda del tesoro con seguimiento de rutas en una cuadrícula de coordenadas de 5×5 con dos tipos de dirección (básico arriba/abajo/izquierda/derecha y cardinal norte/sur/este/oeste), exactamente 4 movimientos direccionales por puzle, 6 imágenes de referencia temáticas, claves de respuestas autogeneradas con celda del tesoro resaltada en amarillo pálido y pistas direccionales completamente localizadas en 11 idiomas que puedes vender en todo el mundo en Etsy, Amazon KDP y Gumroad`,
     description: `Las fichas de búsqueda del tesoro son una actividad de seguimiento de rutas excepcionalmente atractiva donde los usuarios siguen pistas direccionales secuenciales para localizar un tesoro oculto en una cuadrícula de coordenadas de 5×5 etiquetada con filas de letras (A–E) y columnas de números (1–5). El formato combina la alfabetización en coordenadas con el vocabulario direccional — los usuarios leen una posición de inicio, siguen exactamente 4 movimientos direccionales a través de la cuadrícula y determinan qué celda contiene el tesoro. Como el Generador de búsqueda del tesoro ofrece dos tipos de dirección — básico (arriba/abajo/izquierda/derecha) para aprendices más jóvenes y cardinal (norte/sur/este/oeste) para usuarios mayores — cada puzle se diferencia naturalmente por grupo de edad. Los padres los usan para practicar el razonamiento espacial en casa. Los vendedores los usan para introducir cuadrículas de coordenadas y lecciones de vocabulario direccional. Los centros de tutoría los usan para actividades de seguimiento de instrucciones secuenciales. Esta guía te lleva a través de todo el proceso de creación usando el Generador de búsqueda del tesoro — desde elegir un tipo de dirección y llenar la cuadrícula con 6 imágenes temáticas hasta revisar la clave de respuestas autogenerada con su celda del tesoro resaltada en amarillo pálido, aprovechar las pistas direccionales completamente localizadas en 11 idiomas para líneas de productos multilingües y exportar archivos listos para producción. Ya sea que estés creando tu primer producto de búsqueda de caminos o expandiendo un catálogo existente de fichas con actividades de cuadrícula de coordenadas, tendrás un producto terminado listo para publicar al final de este tutorial.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Abre el Generador de búsqueda del tesoro',
+      heading: `Abre el Generador de búsqueda del tesoro`,
       content: `Navega a la página del Generador de búsqueda del tesoro y haz clic en el botón de inicio para abrir el generador en tu navegador. La herramienta se carga instantáneamente con una barra lateral de ajustes a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha de búsqueda del tesoro y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación necesaria.\n\nEl lienzo de doble pestaña es el núcleo del generador de búsqueda del tesoro. La pestaña de la ficha muestra la cuadrícula de coordenadas de 5×5 con imágenes temáticas dispersas, las instrucciones de pistas direccionales y el encabezado temático de tesoro. La pestaña de la clave de respuestas muestra el mismo diseño de cuadrícula con la celda del tesoro resaltada en amarillo pálido para verificación instantánea. Ambas pestañas se generan simultáneamente al hacer clic en Generar, por lo que las claves de respuestas siempre están perfectamente sincronizadas con la ficha.\n\nTómate un momento para explorar los paneles de la barra lateral. El panel de Configuración del puzle controla tu tipo de dirección e idioma del contenido. El panel de Biblioteca de imágenes proporciona acceso a 104 colecciones temáticas con más de 3100 ilustraciones. El panel de Configuración de página maneja las opciones de diseño y decoración. Estos tres paneles contienen todo lo que necesitas para configurar una ficha de búsqueda del tesoro completa.`,
     },
     {
@@ -39,23 +39,23 @@ const content: GuideContent = {
       content: `El Generador de búsqueda del tesoro ofrece dos tipos de dirección, y seleccionar el correcto determina el vocabulario y la adecuación por edad de tu ficha.\n\nEl modo Básico usa arriba, abajo, izquierda y derecha. Estas palabras direccionales familiares son ideales para aprendices de preescolar hasta 1.º de primaria que están construyendo vocabulario espacial fundamental. Los usuarios jóvenes ya entienden estos términos por experiencia cotidiana, por lo que el desafío cognitivo se centra en seguir instrucciones secuenciales en una cuadrícula en lugar de aprender palabras direccionales nuevas. Las búsquedas del tesoro con dirección básica son excelentes actividades introductorias de seguimiento de rutas para tiendas de primera infancia y familias emprendedoras en casa.\n\nEl modo Cardinal usa norte, sur, este y oeste. Estas direcciones de brújula introducen habilidades de lectura de mapas y orientación geográfica, haciéndolas adecuadas para 2.º de primaria en adelante. Los usuarios deben mapear mentalmente las direcciones de brújula en la cuadrícula — norte es arriba, sur es abajo, este es derecha, oeste es izquierda — añadiendo una capa de traducción de vocabulario sobre el desafío de seguimiento de rutas. Las búsquedas del tesoro con dirección cardinal sirven para unidades de geografía, actividades de mapas en ciencias y cualquier catálogo de productos que incluya habilidades de brújula.\n\nAmbos tipos de dirección generan la misma estructura de puzle de 4 movimientos en la misma cuadrícula de coordenadas de 5×5. Esta consistencia es una ventaja de diseño de producto: puedes crear conjuntos de dificultad progresiva comenzando con fichas de dirección Básica y avanzando a versiones de dirección Cardinal usando temas e imágenes idénticos. Un solo paquete temático que contenga ambos tipos de dirección sirve a un rango de edad más amplio y proporciona más valor por compra.`,
     },
     {
-      heading: 'Configura la cuadrícula del puzle y el idioma',
+      heading: `Configura la cuadrícula del puzle y el idioma`,
       content: `Cada puzle de búsqueda del tesoro usa una cuadrícula de coordenadas fija de 5×5 con filas etiquetadas de la A a la E y columnas etiquetadas del 1 al 5. Este sistema de coordenadas letra-número enseña las mismas habilidades de referencia de cuadrícula utilizadas en geografía, matemáticas y lectura de mapas. Los usuarios practican leer coordenadas como «Empieza en B3» o «Mueve a D1», construyendo familiaridad con el formato de referencia fila-columna que encontrarán en contextos académicos posteriores.\n\nCada puzle contiene exactamente 4 movimientos direccionales. El generador elige una celda de inicio aleatoria y crea 4 movimientos secuenciales que se mantienen dentro de los límites de la cuadrícula, produciendo un puzle válido y resoluble cada vez. La ficha muestra 5 líneas de instrucciones: «Empieza en [celda]» seguido de 4 pistas «Mueve [dirección] [número] casilla(s)», terminando con «¿Dónde está el tesoro?» Esta estructura consistente hace que las fichas sean predecibles para los usuarios y fáciles de empaquetar en conjuntos de actividades estructurados.\n\nSelecciona el idioma del contenido para controlar el texto de las pistas direccionales. El Generador de búsqueda del tesoro es sensible al idioma — todas las direcciones se traducen completamente a 11 idiomas soportados: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés. «Empieza en», «Mueve», vocabulario de direcciones para ambos modos Básico y Cardinal, «casilla(s)» y «¿Dónde está el tesoro?» se localizan completamente. Esto produce fichas de búsqueda del tesoro auténticas en idioma nativo, no puzles en inglés con encabezados traducidos. Para vendedores que apuntan a mercados internacionales, cambiar de idioma genera un producto completamente nuevo vendible a partir del mismo diseño de puzle.`,
     },
     {
-      heading: 'Añade imágenes temáticas a la cuadrícula',
+      heading: `Añade imágenes temáticas a la cuadrícula`,
       content: `Abre el panel de Biblioteca de imágenes y elige cómo llenar la cuadrícula de coordenadas con 6 imágenes de referencia temáticas. Tres métodos de entrada te dan diferentes niveles de control sobre el contenido visual.\n\nGenerar desde tema es el método predeterminado y más rápido. Selecciona un tema de las 104 colecciones disponibles y el generador autoselecciona 6 imágenes aleatorias, dispersándolas por las 25 celdas de la cuadrícula como puntos de referencia visuales. Cada clic en Generar produce una disposición completamente diferente con imágenes diferentes del mismo tema. Este método es ideal para producción en lote rápida donde necesitas muchos puzles únicos rápidamente.\n\nSelección manual de imágenes te permite explorar 104 colecciones temáticas con más de 3100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, festividades, profesiones, deportes, estaciones y docenas más. Haz clic para elegir exactamente 6 imágenes para un control preciso sobre qué puntos de referencia aparecen en la cuadrícula. Este método es ideal cuando quieres contenido visual específico, como asegurar que un tema de dinosaurios muestre las especies más reconocibles.\n\nSubir imágenes personalizadas te permite añadir tus propios archivos JPEG, PNG, GIF o WebP junto al contenido de la biblioteca. Las subidas personalizadas crean productos únicos que ningún competidor puede replicar. Búsquedas del tesoro con mascotas de clase, puzles educativos con marca propia y fichas de actividades familiares personalizadas se convierten en productos exclusivos imposibles de encontrar en otro lugar.\n\nLas imágenes con ilustraciones coloridas y distintas funcionan mejor como puntos de referencia en la cuadrícula porque ayudan a los usuarios a orientarse visualmente mientras siguen las pistas direccionales. Las 6 imágenes dispersas sirven como puntos de referencia que hacen la cuadrícula atractiva y ayudan a los aprendices más jóvenes a rastrear su posición a través de los movimientos.`,
     },
     {
-      heading: 'Configura el diseño de página y las decoraciones',
+      heading: `Configura el diseño de página y las decoraciones`,
       content: `En la sección de Configuración de página, selecciona tu tamaño de página. Las opciones incluyen Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200 por 1200 píxeles) y dimensiones personalizadas. Carta es estándar para compradores norteamericanos. A4 es estándar para mercados europeos e internacionales. Crear ambas versiones duplica tu alcance de mercado con mínimo esfuerzo adicional.\n\nLa orientación de la página afecta el diseño del puzle. El modo vertical muestra un encabezado temático de tesoro completo a 100 píxeles de altura con la cuadrícula de coordenadas y las pistas debajo. El modo horizontal usa un encabezado compacto a 70 píxeles de altura para maximizar el espacio de la cuadrícula. Elige la orientación que mejor muestre la cuadrícula y dé a las pistas direccionales espacio de visualización adecuado.\n\nLos temas de fondo y borde funcionan independientemente, cada uno con su propio control deslizante de opacidad que va de 0 a 1 en incrementos de 0.05. Aplica un patrón de fondo sutil al 15 a 25 por ciento de opacidad para calidez visual sin distraer de la cuadrícula de coordenadas y las pistas direccionales. Superpón un borde decorativo al 80 a 100 por ciento de opacidad para un marco pulido. Combinaciones consistentes de fondo y borde a lo largo de un paquete crean una apariencia de producto cohesiva que los compradores asocian con calidad.\n\nPersonaliza el texto con 7 opciones de fuente incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Añade un contorno de texto de 0 a 10 para estilización adicional. Activa campos de nombre y fecha para responsabilidad en línea. El lienzo Fabric.js proporciona 6 opciones de alineación más centrado en página, capas con bloqueo y desbloqueo, zoom del 25 al 300 por ciento, y deshacer y rehacer con 50 estados.`,
     },
     {
-      heading: 'Genera la ficha de búsqueda del tesoro',
+      heading: `Genera la ficha de búsqueda del tesoro`,
       content: `Haz clic en Generar para crear el puzle de seguimiento de rutas en la cuadrícula de coordenadas de 5×5. El generador dispersa tus 6 imágenes seleccionadas por las 25 celdas como puntos de referencia visuales, elige una celda de inicio aleatoria y crea exactamente 4 movimientos direccionales que se mantienen dentro de los límites de la cuadrícula. La ficha muestra 5 líneas de instrucciones: «Empieza en [celda]» seguido de 4 pistas «Mueve [dirección] [número] casilla(s)» en tu tipo de dirección elegido, terminando con «¿Dónde está el tesoro?»\n\nEl encabezado temático de tesoro se renderiza automáticamente en la parte superior de la ficha con un fondo verde azulado (#2C8C7C), borde exterior ámbar (#D4A574), borde interior beige arena (#F4E4C1) y título dorado (#D4A017) en fuente Fredoka a peso 700 con tamaño adaptativo de 36 a 48 píxeles. La descripción aparece en marrón oscuro (#5C4033) usando Quicksand a peso 500. Este enmarcado profesional aumenta la calidad percibida en los listados de mercados.\n\nExamina la vista previa cuidadosamente: verifica que las imágenes estén bien distribuidas por la cuadrícula, que las pistas direccionales sean legibles y usen el tipo de dirección correcto (Básico o Cardinal), y que el texto del encabezado coincida con tu idioma seleccionado. Si algo necesita ajuste, modifica tus configuraciones y regenera instantáneamente. Haz clic en Generar de nuevo para producir un puzle completamente diferente con nueva ubicación aleatoria de imágenes, una nueva posición de inicio y una nueva secuencia de movimientos — incluso con el mismo tema y tipo de dirección seleccionados. Esta aleatorización permite la producción rápida en lote de puzles únicos.`,
     },
     {
-      heading: 'Revisa la clave de respuestas autogenerada',
+      heading: `Revisa la clave de respuestas autogenerada`,
       content: `Haz clic en la pestaña Clave de respuestas para ver la solución autogenerada. El mismo diseño de puzle aparece — la misma cuadrícula de 5×5, las mismas imágenes dispersas, el mismo encabezado — con la celda del tesoro final resaltada en amarillo pálido (rgba(255, 250, 205, 0.8)) y un trazo gris oscuro. El resaltado hace que el destino del tesoro sea inmediatamente visible sin ninguna ambigüedad.\n\nAlterna entre las pestañas de Ficha y Clave de respuestas para comparar y verificar la ubicación correcta del tesoro. La clave de respuestas se genera simultáneamente con la ficha — sin paso de marcado manual, sin proceso de diseño separado, sin posibilidad de respuestas que no coincidan. Esta generación simultánea es un ahorro de tiempo significativo al crear grandes paquetes de búsqueda del tesoro donde marcar claves de respuestas manualmente sería prohibitivamente lento.\n\nPara los listados de productos, la clave de respuestas es un argumento de venta poderoso. Los productos que incluyen claves de respuestas con marcadores visuales claros consistentemente superan en ventas a los listados de solo puzles porque los vendedores y padres quieren materiales con autoverificación. La celda del tesoro resaltada en amarillo pálido es inmediatamente reconocible y hace la verificación instantánea — los usuarios o padres pueden comprobar la respuesta sin ninguna ambigüedad. Siempre menciona «incluye clave de respuestas autogenerada con celda del tesoro resaltada» en los títulos y descripciones de tus listados para diferenciarte de competidores que venden puzles de seguimiento de rutas sin soluciones.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Vender fichas de búsqueda del tesoro en Etsy',
+      heading: `Vender fichas de búsqueda del tesoro en Etsy`,
       content: `Etsy es un mercado fuerte para fichas de búsqueda del tesoro porque los padres y vendedores buscan tipos de actividad específicos de seguimiento de rutas y cuadrícula de coordenadas. Títulos como «Fichas de búsqueda del tesoro — Actividades de cuadrícula de coordenadas — Puzles de seguimiento de rutas direccionales — Con claves de respuestas» capturan tráfico de búsqueda específico.\n\nNombra tus productos usando el tipo de dirección y el tema en lugar de títulos genéricos. «Fichas de búsqueda del tesoro con dirección Cardinal — 20 puzles de brújula con claves de respuestas — Tema animal» supera a «Actividades de búsqueda del tesoro para niños» porque coincide con consultas de búsqueda específicas de los compradores y comunica exactamente lo que contiene el producto.\n\nEtiquetas: usa las 13 etiquetas de Etsy. Combina términos amplios y específicos: «fichas de búsqueda del tesoro», «actividades de cuadrícula de coordenadas», «puzles direccionales para niños», «fichas de seguimiento de rutas», «actividades de dirección de brújula», «puzles imprimibles de búsqueda del tesoro», «fichas de razonamiento espacial», «actividades de habilidades de mapa» y variaciones que coincidan con tu tipo de dirección y tema específicos.\n\nImágenes del listado: muestra la ficha completa con la cuadrícula de coordenadas de 5×5, las imágenes temáticas dispersas y las pistas direccionales claramente visibles, un primer plano del encabezado temático de tesoro verde azulado y dorado, la clave de respuestas con la celda del tesoro resaltada en amarillo pálido, y una maqueta de la ficha impresa y en uso. El formato de cuadrícula de coordenadas es visualmente distintivo y crea miniaturas atractivas.\n\nPrecios: conjuntos individuales de búsqueda del tesoro de 10 a 15 fichas con claves de respuestas se venden a $2.99 a $5.99. Paquetes por tipo de dirección con 20 a 30 fichas cubriendo ambos modos Básico y Cardinal se venden a $6.99 a $12.99. Colecciones temáticas completas con ambos tipos de dirección, múltiples temas y múltiples idiomas se venden a $14.99 a $24.99.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Amazon KDP sirve al mercado de cuadernos de actividades de seguimiento de rutas. Compila 50 a 80 fichas de búsqueda del tesoro en un formato de libro de actividades encuadernado con dificultad progresiva estructurada por tipo de dirección.\n\nEstructura tu cuaderno en capítulos por tipo de dirección y tema: los capítulos iniciales usan direcciones Básicas (arriba, abajo, izquierda, derecha) con temas familiares de animales o comida para puzles introductorios accesibles, los capítulos intermedios usan direcciones Básicas con temas más variados para construir confianza, y los capítulos avanzados usan direcciones Cardinales (norte, sur, este, oeste) introduciendo vocabulario de brújula y habilidades de lectura de mapas. Incluye páginas de clave de respuestas al final de cada capítulo mostrando la celda del tesoro resaltada en amarillo pálido.\n\nTítulo y subtítulo: ejemplo de título: «Puzles de búsqueda del tesoro para niños». Ejemplo de subtítulo: «80 fichas de seguimiento de rutas en cuadrícula de coordenadas con claves de respuestas para edades de 3 a 8 — Sigue las pistas, dos tipos de dirección, actividades de cuadrícula 5×5 con dificultad progresiva».\n\nPalabras clave: KDP proporciona 7 espacios de palabras clave. Usa frases específicas: «fichas de búsqueda del tesoro», «libro de actividades de cuadrícula de coordenadas», «puzles direccionales para niños», «cuaderno de seguimiento de rutas», «actividades de dirección de brújula», «fichas de seguir las pistas», «puzles de razonamiento espacial para niños».\n\nActiva la escala de grises para salida económica en tinta que imprime limpiamente en blanco y negro y mantiene bajos los costos de impresión de KDP. La cuadrícula de coordenadas, las pistas direccionales y las imágenes temáticas se renderizan claramente en escala de grises.`,
     },
     {
-      heading: 'Vender fichas de búsqueda del tesoro en Gumroad',
+      heading: `Vender fichas de búsqueda del tesoro en Gumroad`,
       content: `Gumroad es ideal para fichas de búsqueda del tesoro porque las habilidades de cuadrícula de coordenadas y el vocabulario direccional son competencias transversales valoradas en todos los niveles escolares. Los vendedores de matemáticas usan búsquedas del tesoro para introducir pares de coordenadas. Los vendedores de geografía usan versiones con dirección Cardinal para practicar habilidades de brújula. Los vendedores de educación general los usan para actividades de seguimiento de instrucciones secuenciales y calentamientos matutinos.\n\nLas descripciones de productos en Gumroad deben incluir: nivel escolar y tipo de dirección, habilidades específicas practicadas (lectura de cuadrícula de coordenadas, vocabulario direccional, seguimiento de instrucciones secuenciales, razonamiento espacial), número de fichas, si se incluyen claves de respuestas con celdas del tesoro resaltadas, tipo de dirección utilizado (Básico o Cardinal o ambos), temas cubiertos y disponibilidad de idiomas. Menciona que las fichas incluyen campos de nombre y fecha para responsabilidad en línea.\n\nArchivos de vista previa: Gumroad te permite subir un archivo de vista previa. Incluye 2 a 3 fichas de búsqueda del tesoro de muestra mostrando diferentes temas y ambos tipos de dirección, más una página de clave de respuestas con la celda del tesoro resaltada en amarillo pálido. Muestra la progresión de direcciones Básicas (vocabulario familiar) a direcciones Cardinales (habilidades de brújula).\n\nPaquetes en Gumroad: los vendedores compran paquetes para unidades completas. Un «Paquete completo de habilidades espaciales» con búsquedas del tesoro más actividades de laberintos, fichas de correspondencia y puzles de objetos ocultos da a los vendedores recursos para múltiples lecciones de razonamiento espacial. Crea versiones diferenciadas dentro de cada conjunto — búsquedas del tesoro con dirección Básica para aprendices más jóvenes y versiones con dirección Cardinal para usuarios avanzados.\n\nPalabras clave específicas de Gumroad: «fichas de búsqueda del tesoro», «actividades de cuadrícula de coordenadas», «vocabulario direccional», «puzles de dirección de brújula», «actividades de seguimiento de rutas», «trabajo matutino espacial», «actividad de seguir instrucciones para terminar temprano». Estos términos coinciden con cómo los vendedores buscan recursos de razonamiento espacial y dirección.`,
     },
   ],
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'crear-fichas-objetos-ocultos',
-      title: 'Crear fichas de objetos ocultos',
+      title: `Crear fichas de objetos ocultos`,
       description: `Un complemento de búsqueda y localización para búsquedas del tesoro. Las fichas de objetos ocultos piden a los usuarios que escaneen escenas buscando elementos específicos, ejercitando habilidades de búsqueda visual y observación relacionadas.`,
     },
     {
@@ -155,9 +155,9 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas profesionales que se venden' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de negocio de imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo crear fichas profesionales que se venden` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de negocio de imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de negocio de libros de actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'busqueda-tesoro-fichas', anchorText: `Generador de fichas de búsqueda del tesoro — Detalles completos` },
@@ -168,17 +168,17 @@ const content: GuideContent = {
   toolsRecommended: [
     {
       appId: 'treasure-hunt',
-      title: 'Generador de fichas de búsqueda del tesoro',
+      title: `Generador de fichas de búsqueda del tesoro`,
       description: `La herramienta principal para esta guía. Crea fichas de búsqueda del tesoro con seguimiento de rutas en una cuadrícula de coordenadas de 5×5 con dos tipos de dirección (Básico y Cardinal), 6 imágenes de referencia temáticas, exactamente 4 movimientos direccionales por puzle y claves de respuestas autogeneradas con celdas del tesoro resaltadas en amarillo pálido.`,
     },
     {
       appId: 'hidden-objects',
-      title: 'Generador de fichas de objetos ocultos',
+      title: `Generador de fichas de objetos ocultos`,
       description: `Un complemento de búsqueda y localización que crea actividades de escaneo de escenas. Las fichas de objetos ocultos desarrollan habilidades de búsqueda visual relacionadas donde los usuarios escanean cuadrículas buscando elementos ocultos, complementando la exploración de cuadrícula de coordenadas en las búsquedas del tesoro.`,
     },
     {
       appId: 'maze',
-      title: 'Generador de fichas de laberintos',
+      title: `Generador de fichas de laberintos`,
       description: `Un primo de seguimiento de rutas que crea puzles de pasajes navegables. Las fichas de laberintos desarrollan habilidades de navegación espacial relacionadas que complementan el movimiento direccional y el seguimiento de rutas basado en cuadrícula practicado en las actividades de búsqueda del tesoro.`,
     },
     {
@@ -189,22 +189,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp`, alt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas de 5 por 5, 6 imágenes temáticas dispersas como puntos de referencia, pistas direccionales y encabezado temático verde azulado con título dorado en Fredoka' },
+    heroImage: { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp`, alt: `Ficha de búsqueda del tesoro con cuadrícula de coordenadas de 5 por 5, 6 imágenes temáticas dispersas como puntos de referencia, pistas direccionales y encabezado temático verde azulado con título dorado en Fredoka` },
     samples: [
-      { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp`, alt: 'Ficha de búsqueda del tesoro mostrando cuadrícula de coordenadas de 5 por 5 con imágenes temáticas dispersas e instrucciones de pistas direccionales debajo del encabezado temático', caption: 'Ficha de búsqueda del tesoro con pistas de dirección Básica en una cuadrícula de coordenadas de 5 por 5 con 6 imágenes de referencia temáticas' },
-      { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 2.webp`, alt: 'Ficha de búsqueda del tesoro con pistas de dirección Cardinal usando norte sur este y oeste en la cuadrícula de coordenadas de 5 por 5', caption: 'Modo de dirección Cardinal usando vocabulario de brújula para razonamiento espacial avanzado y habilidades de lectura de mapas' },
-      { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 1 answer_key.webp`, alt: 'Clave de respuestas autogenerada con celda del tesoro final resaltada en amarillo pálido en la cuadrícula de coordenadas de 5 por 5', caption: 'Clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido para verificación instantánea' },
+      { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp`, alt: `Ficha de búsqueda del tesoro mostrando cuadrícula de coordenadas de 5 por 5 con imágenes temáticas dispersas e instrucciones de pistas direccionales debajo del encabezado temático`, caption: `Ficha de búsqueda del tesoro con pistas de dirección Básica en una cuadrícula de coordenadas de 5 por 5 con 6 imágenes de referencia temáticas` },
+      { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 2.webp`, alt: `Ficha de búsqueda del tesoro con pistas de dirección Cardinal usando norte sur este y oeste en la cuadrícula de coordenadas de 5 por 5`, caption: `Modo de dirección Cardinal usando vocabulario de brújula para razonamiento espacial avanzado y habilidades de lectura de mapas` },
+      { src: `/samples/spanish/treasure hunt/Búsqueda del Tesoro 1 answer_key.webp`, alt: `Clave de respuestas autogenerada con celda del tesoro final resaltada en amarillo pálido en la cuadrícula de coordenadas de 5 por 5`, caption: `Clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido para verificación instantánea` },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: `Cómo crear fichas de búsqueda del tesoro — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/camping/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Prismáticos — imagen educativa temática', caption: 'Prismáticos' },
-    { src: '/image-library/camping/boots.webp', alt: 'Botas — imagen educativa temática', caption: 'Botas' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabaña — imagen educativa temática', caption: 'Cabaña' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/camping/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Prismáticos — imagen educativa temática`, caption: 'Prismáticos' },
+    { src: `/image-library/camping/boots.webp`, alt: `Botas — imagen educativa temática`, caption: 'Botas' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabaña — imagen educativa temática`, caption: 'Cabaña' },
   ],
 };
 

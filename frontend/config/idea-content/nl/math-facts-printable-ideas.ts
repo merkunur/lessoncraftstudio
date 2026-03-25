@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Rekenfeiten Printables Verkopen — Nichegids',
+    titleTag: `Rekenfeiten Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende rekenfeiten printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Rekenoefening productconcepten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'rekenfeiten printable ideeën',
     secondaryKeywords: [
-      'rekenfeiten werkbladen verkopen',
-      'rekenoefening printable business',
-      'rekenautomatisering activiteiten',
-      'rekenfeiten printables verkopen Gumroad',
+      `rekenfeiten werkbladen verkopen`,
+      `rekenoefening printable business`,
+      `rekenautomatisering activiteiten`,
+      `rekenfeiten printables verkopen Gumroad`,
     ],
     lsiKeywords: [
-      'getallenvloeiendheid oefenwerkbladen',
+      `getallenvloeiendheid oefenwerkbladen`,
       'tafels en sommen oefenbladen',
-      'basisrekenen educatief printbare producten',
+      `basisrekenen educatief printbare producten`,
     ],
   },
   hero: {
@@ -45,7 +45,7 @@ De eenvoud van rekenfeiten werkbladformaten maakt ze uitzonderlijk efficiënt om
       appId: 'find-and-count',
     },
     {
-      title: 'Rekenfeiten Woordzoekpuzzels Online Verkopen',
+      title: `Rekenfeiten Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met rekenvocabulaire trekken verkopers en ouders aan die wiskundige taalvaardigheid willen opbouwen naast berekeningsvloeiendheid. Maak puzzels met rekentermen zoals optellen, aftrekken, vermenigvuldigen, delen, som, verschil, product, quotiënt, factor en rest. De Woordzoeker-generator laat je rasters maken met wiskundig vocabulaire op meerdere niveaucategories. Bied eenvoudige versies voor groep 3-4 met basis rekentermen en uitdagendere versies voor groep 5-7 met gevorderde wiskundige terminologie. Variaties per bewerkingscategorie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
@@ -55,13 +55,13 @@ De eenvoud van rekenfeiten werkbladformaten maakt ze uitzonderlijk efficiënt om
       appId: 'matching',
     },
     {
-      title: 'Optelfeiten Werkbladen voor Rekenverkopers',
+      title: `Optelfeiten Werkbladen voor Rekenverkopers`,
       description: `Optelfeiten werkbladen zijn het fundament van de rekenfeiten-niche en bedienen het breedste niveaucategoriebereik van groep 1 tot en met groep 4. Gebruik de Optellen-generator om werkbladen te maken met progressieve moeilijkheid: sommen tot vijf voor groep 1, sommen tot tien voor groep 2, sommen tot twintig met tientaloverschrijding voor groep 3, en driecijferige sommen voor groep 4. De generator biedt automatische antwoordsleutelgeneratie die verkopers en ouders bijzonder waarderen. Dagelijkse "vijf-minuten-rekensprints" formaten zijn bijzonder populair voor automatiseringsoefening.`,
       appId: 'addition',
     },
     {
       title: `Rekenfeiten Kleurplaten voor Etsy en KDP Verkopers`,
-      description: `Kleur-bij-som kleurplaten transformeren rekenfeitenoefening in een creatieve activiteit die kinderen bereidwillig doen. De Kleuren-generator maakt gedetailleerde contouren met kleur-bij-optelsom, kleur-bij-aftreksom of kleur-bij-tafeluitkomst instructies per gekleurd vlak. Voor Etsy verkoop je sets van tien tot vijftien pagina's per bewerking en niveaucategorie. Voor KDP compileer je dertig tot vijftig kleur-bij-som pagina's in rekenfeiten-activiteitenboeken. Kleur-bij-som werkbladen zijn bijzonder populair als zelfstandig-werkstation in getrapte productpakkettenmomenten en als oefenmateriaal dat kinderen bereidwillig maken.`,
+      description: `Kleur-bij-som kleurplaten transformeren rekenfeitenoefening in een creatieve activiteit die kinderen bereidwillig doen. De Kleuren-generator maakt gedetailleerde contouren met kleur-bij-optelsom, kleur-bij-aftreksom of kleur-bij-tafeluitkomst instructies per gekleurd vlak. Voor Etsy verkoop je sets van tien tot vijftien pagina`s per bewerking en niveaucategorie. Voor KDP compileer je dertig tot vijftig kleur-bij-som pagina`s in rekenfeiten-activiteitenboeken. Kleur-bij-som werkbladen zijn bijzonder populair als zelfstandig-werkstation in getrapte productpakkettenmomenten en als oefenmateriaal dat kinderen bereidwillig maken.`,
       appId: 'coloring',
     },
     {
@@ -94,18 +94,18 @@ De eenvoud van rekenfeiten werkbladformaten maakt ze uitzonderlijk efficiënt om
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Rekenfeiten Printables Verkopen op Etsy',
+      title: `Rekenfeiten Printables Verkopen op Etsy`,
       description: `Etsy is effectief voor rekenfeiten printables omdat ouders — gedreven door Cito-toetsresultaten en verkoperaanbevelingen — actief zoeken naar thuisoefeningsmateriaal voor sommen en tafels. Richt je op long-tail zoekwoorden die specifieke bewerkingen en niveaucategories combineren: "tafels oefenen werkblad groep 5," "optellen tot 20 werkbladen groep 3" of "rekenautomatisering oefenbladen." Gebruik alle dertien tags. Positioneer je producten als "dagelijkse rekenoefening" en "Cito-voorbereiding" — dit resoneert bij bezorgde ouders. De Nederlandse markt via Etsy.nl biedt kansen door de landelijke aandacht voor basisvaardigheden in het rekenonderwijs en het relatief beperkte Nederlandstalige rekenfeiten-werkblad-aanbod vergeleken met de enorme vraag.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Rekenfeiten Oefenboeken Publiceren op KDP',
+      title: `Rekenfeiten Oefenboeken Publiceren op KDP`,
       description: `Amazon KDP is bijzonder sterk voor rekenfeiten printables omdat ouders fysieke oefenboeken kopen als dagelijks rekenroutine-instrument — een boek op de keukentafel werkt effectiever dan losse werkbladen voor dagelijkse oefening. Compileer rekenfeiten werkbladen tot samenhangende oefenboeken van zestig tot honderd pagina's per bewerking en niveaucategorie — "Tafels Oefenboek Groep 5" of "Optellen tot 100 Dagelijkse Oefening Groep 4." Gebruik KDP-zoekwoordvelden strategisch: "tafels oefenboek," "rekenfeiten werkbladen," "dagelijkse rekenoefening." Prijs tussen vier en acht euro. Rekenboeken verkopen het hele jaar door consistent zonder seizoenspieken. Overweeg ook Amazon.nl en Bol.com — bijzonder relevant voor de Nederlandse markt.`,
     },
     {
       platform: 'Gumroad',
       title: `Rekenfeiten printbare producten Maken voor Gumroad Verkopers`,
-      description: `Gumroad is het sterkste platform voor rekenfeiten printables dankzij het enorme verkopersegment dat dagelijks automatiseringsmateriaal nodig heeft. Rekenfeiten printables op Gumroad presteren het beste wanneer ze zijn georganiseerd per bewerking, per moeilijdheidsniveau en per oefenformaat — standaard oefenopdrachten, getimede sprints, getallenfamilies, kleur-bij-som en bingospellen. Verpak als complete automatiseringsprogramma's per niveaucategorie met verkoperinstructie, voortgangsregistratieformulieren en opties voor getrapte productpakketten voor drie niveaus. De bundelfunctie van Gumroad is bijzonder waardevol omdat verkopers complete jaarprogramma's kopen. Sluit aan bij de productspecificaties voor rekenen en de gangbare rekenmethodes.`,
+      description: `Gumroad is het sterkste platform voor rekenfeiten printables dankzij het enorme verkopersegment dat dagelijks automatiseringsmateriaal nodig heeft. Rekenfeiten printables op Gumroad presteren het beste wanneer ze zijn georganiseerd per bewerking, per moeilijdheidsniveau en per oefenformaat — standaard oefenopdrachten, getimede sprints, getallenfamilies, kleur-bij-som en bingospellen. Verpak als complete automatiseringsprogramma`s per niveaucategorie met verkoperinstructie, voortgangsregistratieformulieren en opties voor getrapte productpakketten voor drie niveaus. De bundelfunctie van Gumroad is bijzonder waardevol omdat verkopers complete jaarprogramma`s kopen. Sluit aan bij de productspecificaties voor rekenen en de gangbare rekenmethodes.`,
     },
     {
       platform: 'Gumroad en Shopify',
@@ -149,62 +149,62 @@ De eenvoud van rekenfeiten werkbladformaten maakt ze uitzonderlijk efficiënt om
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
+      anchorText: `Professionele optelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Groep 3 printable businessideeën',
+      anchorText: `Groep 3 printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'second-grade-printable-ideas',
-      anchorText: 'Groep 4 printable businessideeën',
+      anchorText: `Groep 4 printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'third-grade-printable-ideas',
-      anchorText: 'Groep 5 printable businessideeën',
+      anchorText: `Groep 5 printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Cirkel — educatieve thema-afbeelding rekenfeiten', caption: 'Cirkel' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — educatieve thema-afbeelding rekenfeiten', caption: 'Kegel' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Kubus — educatieve thema-afbeelding rekenfeiten', caption: 'Kubus' },
-    { src: '/image-library/shapes/cylinder.webp', alt: `Cilinder — educatieve thema-afbeelding rekenfeiten`, caption: 'Cilinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Ruit — educatieve thema-afbeelding rekenfeiten', caption: 'Ruit' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Hart — educatieve thema-afbeelding rekenfeiten', caption: 'Hart' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Cirkel — educatieve thema-afbeelding rekenfeiten`, caption: 'Cirkel' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Kegel — educatieve thema-afbeelding rekenfeiten`, caption: 'Kegel' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Kubus — educatieve thema-afbeelding rekenfeiten`, caption: 'Kubus' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilinder — educatieve thema-afbeelding rekenfeiten`, caption: 'Cilinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Ruit — educatieve thema-afbeelding rekenfeiten`, caption: 'Ruit' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Hart — educatieve thema-afbeelding rekenfeiten`, caption: 'Hart' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

@@ -2,22 +2,22 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'arbeitsblätter die sich verkaufen',
+    primaryKeyword: `arbeitsblätter die sich verkaufen`,
     secondaryKeywords: [
-      'professionelle Arbeitsblätter erstellen',
-      'Arbeitsblätter zum Verkaufen auf Etsy.de',
-      'Arbeitsblatt-Erstellung für Verkäufer',
-      'druckbare Arbeitsblätter Design-Tipps',
+      `professionelle Arbeitsblätter erstellen`,
+      `Arbeitsblätter zum Verkaufen auf Etsy.de`,
+      `Arbeitsblatt-Erstellung für Verkäufer`,
+      `druckbare Arbeitsblätter Design-Tipps`,
     ],
     lsiKeywords: [
-      'Arbeitsblatt Qualitätsstandards',
-      'Lösungsschlüssel automatisch erstellen',
-      'Druckvorlagen-Produkt Erstellungsprozess',
+      `Arbeitsblatt Qualitätsstandards`,
+      `Lösungsschlüssel automatisch erstellen`,
+      `Druckvorlagen-Produkt Erstellungsprozess`,
       'Arbeitsblatt-Paket Strategie',
-      'thematische Arbeitsblatt-Bilder',
-      'druckfertige PDF-Arbeitsblätter',
+      `thematische Arbeitsblatt-Bilder`,
+      `druckfertige PDF-Arbeitsblätter`,
     ],
-    titleTag: 'Arbeitsblätter die sich verkaufen — Profi-Tipps',
+    titleTag: `Arbeitsblätter die sich verkaufen — Profi-Tipps`,
     metaDescription: `Arbeitsblätter erstellen und auf Etsy, KDP und Gumroad verkaufen. Erstellungsprozess mit Generatoren, Bildern und Lösungsschlüsseln. Profi-Guide.`,
   },
 
@@ -31,7 +31,7 @@ const content: StartContent = {
 
   mainContent: [
     {
-      heading: 'Was ein Arbeitsblatt professionell macht',
+      heading: `Was ein Arbeitsblatt professionell macht`,
       content: `Käufer bewerten Arbeitsblätter in Sekunden. Bevor sie ein einziges Wort Ihrer Listing-Beschreibung lesen, beurteilen sie das Vorschaubild. Diese Beurteilung basiert auf visuellen Signalen der Professionalität — oder deren Fehlen.\n\nEin professionelles Arbeitsblatt hat konsistente Ränder, die verhindern, dass Inhalte beim Drucken abgeschnitten werden. Der Abstand zwischen Elementen ist gleichmäßig, nicht willkürlich. Schriften sind sauber und in der Zielaltsstufe gut lesbar — groß und einfach für Vorschulkinder, standardmäßig und klar für ältere Nutzer. Bilder sind scharf, angemessen dimensioniert und mit Absicht positioniert statt zufällig verstreut.\n\nLösungsschlüssel sind ein unverzichtbares Qualitätsmerkmal. Käufer und Eltern erwarten sie. Ein Arbeitsblatt ohne Lösungsschlüssel wirkt unvollständig und unprofessionell. Der Lösungsschlüssel sollte exakt dem Arbeitsblatt-Layout entsprechen, mit klar markierten Antworten, damit Eltern oder Käufer die Arbeit in Sekunden überprüfen können.\n\nKonsistenz über eine Produktlinie hinweg ist genauso wichtig wie Einzelqualität. Wenn ein Käufer Ihr Paket öffnet und jede Seite dieselbe Layout-Struktur hat, denselben Kopfzeilenstil, dasselbe professionelle Erscheinungsbild — dann signalisiert diese Kohärenz Qualität. Wenn jede Seite so aussieht, als wäre sie separat mit unterschiedlichen Schriften und Layouts gestaltet worden, signalisiert das ein übereiltes, amateurhaftes Produkt.`,
     },
     {
@@ -74,43 +74,43 @@ const content: StartContent = {
 
   actionSteps: [
     {
-      step: 'Arbeitsblatt-Typ und Zielgruppe wählen',
+      step: `Arbeitsblatt-Typ und Zielgruppe wählen`,
       description: `Wählen Sie eine Arbeitsblatt-Kategorie (Mathe, Lesen und Schreiben, Ausmalen, Rätsel) und definieren Sie Ihren Zielkäufer (Käufer, Homeschool-Eltern, Geschäftskunden). Recherchieren Sie bestehende Produkte in Ihrer gewählten Nische auf Etsy.de, um Qualitätserwartungen zu verstehen.`,
     },
     {
-      step: 'Generatoren mit kostenloser Testversion erkunden',
+      step: `Generatoren mit kostenloser Testversion erkunden`,
       description: `Öffnen Sie 2–3 Generatoren, die für Ihre Nische relevant sind, und erstellen Sie Muster-Arbeitsblätter mit der kostenlosen Testversion mit Wasserzeichen. Bewerten Sie Layout-Qualität, Bildersets, Schwierigkeitsoptionen und Lösungsschlüssel-Erstellung, bevor Sie sich für eine Lizenz entscheiden.`,
     },
     {
-      step: 'Ihr erstes Produktkonzept definieren',
+      step: `Ihr erstes Produktkonzept definieren`,
       description: `Notieren Sie genau, was Sie erstellen, bevor Sie den Generator öffnen: Arbeitsblatt-Typ, Thema, Schwierigkeitsgrad, Seitenanzahl, Zielgruppe und Paketname. Ein klares Konzept verhindert zielloses Experimentieren.`,
     },
     {
-      step: 'Ihr erstes Arbeitsblatt generieren und prüfen',
+      step: `Ihr erstes Arbeitsblatt generieren und prüfen`,
       description: `Konfigurieren Sie den Generator mit Ihren gewählten Einstellungen und erstellen Sie Ihre erste Seite. Überprüfen Sie die Ausgabe auf Layout-Qualität, Bildpositionierung, Schwierigkeitsgrad-Genauigkeit und Lösungsschlüssel-Korrektheit, bevor Sie weitere Seiten generieren.`,
     },
     {
-      step: 'Ein 10-seitiges thematisches Paket erstellen',
+      step: `Ein 10-seitiges thematisches Paket erstellen`,
       description: `Generieren Sie 9 weitere Seiten mit denselben Themen- und Schwierigkeitseinstellungen. Jede Generierung erzeugt einzigartige Inhalte bei gleichzeitiger visueller Konsistenz. Laden Sie sowohl PDF- als auch JPEG-Formate für alle Seiten herunter.`,
     },
     {
-      step: 'Paket zusammenstellen und Verpackung hinzufügen',
+      step: `Paket zusammenstellen und Verpackung hinzufügen`,
       description: `Kombinieren Sie die einzelnen Seiten zu einem einzigen PDF. Fügen Sie eine Deckseite mit Pakettitel, Altersbereich, Inhaltsverzeichnis und Ihrem Shop-Namen hinzu. Setzen Sie die Lösungsschlüssel ans Ende des Pakets.`,
     },
     {
-      step: 'Den Vier-Punkte-Qualitätstest durchführen',
+      step: `Den Vier-Punkte-Qualitätstest durchführen`,
       description: `Drucktest (Ränder und Bildschärfe prüfen), Lösungstest (jede Aktivität bearbeiten und Lösungsschlüssel verifizieren), Altersangemessenheitsprüfung (Schwierigkeitsgrad stimmt mit dem Label überein), und Listing-Vorschau (Ihr Listing aus Käufersicht betrachten).`,
     },
     {
-      step: '3–5 Themenvariationen erstellen',
+      step: `3–5 Themenvariationen erstellen`,
       description: `Wiederholen Sie den Erstellungsprozess mit verschiedenen Bildthemen. Derselbe Arbeitsblatt-Typ mit Tier-, Dinosaurier-, Ozean-, Fahrzeug- und Lebensmittel-Themen ergibt 5 einzigartige Produkte aus einem einzigen Arbeitsablauf.`,
     },
     {
-      step: 'Ein Schwierigkeitsstufung-Paket erstellen',
+      step: `Ein Schwierigkeitsstufung-Paket erstellen`,
       description: `Erstellen Sie eine zweite Produktlinie mit demselben Thema, aber verschiedenen Schwierigkeitsgraden: leichte, mittlere und schwere Versionen. Verpacken Sie sie als „Anfänger bis Fortgeschrittene"-Stufungspaket zu einem höheren Preis.`,
     },
     {
-      step: 'Ihre ersten Produkte listen und optimieren',
+      step: `Ihre ersten Produkte listen und optimieren`,
       description: `Erstellen Sie Listings auf Ihrer gewählten Plattform mit keyword-reichen Titeln, vollständiger Tag-Nutzung, sauberen Vorschaubildern und Beschreibungen, die klar Seitenanzahl, Altersbereich, Format und Inhalt angeben.`,
     },
   ],
@@ -118,12 +118,12 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'addition-worksheets',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Im Video-Tutorial dieses Leitfadens vorgestellt. Erstellen Sie bildbasierte Additionsaufgaben mit konfigurierbarem Schwierigkeitsgrad, vier verschiedenen Aufgabenmodi, thematischen Bildersets und automatischen Lösungsschlüsseln. Ideal zur Demonstration des vollständigen Erstellungsprozesses.`,
     },
     {
       appId: 'subtraction-worksheets',
-      title: 'Subtraktions-Arbeitsblatt-Generator',
+      title: `Subtraktions-Arbeitsblatt-Generator`,
       description: `Ergänzt Addition natürlich für die Erstellung von Mathe-Paketen. Dieselbe professionelle Layout-Engine mit subtraktionsspezifischen Aufgabentypen, thematischen Bildern und Schwierigkeitskalibrierung von einstelligen Grundlagen bis zu mehrstelligen Herausforderungen.`,
     },
     {
@@ -138,7 +138,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Rein visuelle Arbeitsblätter, die in jeder Sprache ohne Änderung funktionieren. Zuordnungsaktivitäten sind Grundpfeiler des Vorschul- und Kindergartenmarkts. Schnell in großen Mengen für die Paketerstellung produzierbar.`,
     },
     {
@@ -174,7 +174,7 @@ const content: StartContent = {
       answer: `Ja. Alle Generatoren unterstützen 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Rein visuelle Arbeitsblätter wie Ausmalen, Zuordnung und Musteraktivitäten funktionieren in jeder Sprache ohne Änderung. Nicht-deutschsprachige Märkte sind erheblich unterversorgt und bieten weniger Konkurrenz für mehrsprachige Verkäufer.`,
     },
     {
-      question: 'Welche Dateiformate erzeugen die Generatoren?',
+      question: `Welche Dateiformate erzeugen die Generatoren?`,
       answer: `Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. PDF ist das Standardformat für Druckvorlagen-Produkte auf Etsy.de und Gumroad. JPEG wird für Amazon KDP-Innenseiten und für Listing-Vorschaubilder und Mockups benötigt. Beide Formate sind bei jedem Download in 300 DPI Druckauflösung enthalten.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der grundlegende Leitfaden zu Nischenwahl, Plattformstrategie, Preisgestaltung und Katalogaufbau. Beginnen Sie hier, wenn Sie Ihr Druckvorlagen-Geschäft noch nicht gestartet haben.`,
     },
     {
       slug: 'etsy-druckvorlagen-geschaeft',
-      title: 'Etsy Druckvorlagen-Geschäft Masterclass',
+      title: `Etsy Druckvorlagen-Geschäft Masterclass`,
       description: `Plattformspezifische Strategien für Etsy-Verkäufer: Shop-Einrichtung, Listing-SEO, Tag-Optimierung, Vorschaubild-Best-Practices und Skalierungstechniken zugeschnitten auf den Etsy-Marktplatz.`,
     },
     {
       slug: 'amazon-kdp-aktivitaetsbuecher',
-      title: 'Amazon KDP Aktivitätsbuch-Leitfaden',
+      title: `Amazon KDP Aktivitätsbuch-Leitfaden`,
       description: `Formatieren Sie Ihre Arbeitsblätter für die Amazon KDP-Veröffentlichung. Abdeckung von Innenformatierung, Cover-Design-Anforderungen, Keyword-Recherche und Kategorieauswahl für Aktivitätsbücher.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäftsleitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäftsleitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz — Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Druckvorlagen-Geschäft Bauplan' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Druckvorlagen-Geschäft Bauplan` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'app', slug: 'subtraktion-arbeitsblaetter', anchorText: `Subtraktions-Arbeitsblatt-Generator — Alle Details` },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller ausprobieren' },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'tool', slug: `additions-arbeitsblatt-ersteller`, anchorText: `Additions-Arbeitsblatt-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: `Malvorlagen-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Professionelles Additions-Arbeitsblatt erstellt mit dem LessonCraftStudio Generator` },
+    heroImage: { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Professionelles Additions-Arbeitsblatt erstellt mit dem LessonCraftStudio Generator` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt mit thematischen bildbasierten Matheaufgaben`, caption: 'Addition — Bildbasierte Aufgaben' },
-      { src: '/samples/german/subtraction/worksheet.webp', alt: `Subtraktions-Arbeitsblatt mit visuellen Zahlenaufgaben`, caption: 'Subtraktion — Visuelle Matheübung' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel-Arbeitsblatt mit thematischer Wortliste`, caption: 'Wortsuche — Thematisches Rätsel' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: `Malvorlagen-Arbeitsblatt mit thematischen Illustrationen`, caption: 'Malvorlage — Thematische Illustrationen' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt mit thematischen bildbasierten Matheaufgaben`, caption: `Addition — Bildbasierte Aufgaben` },
+      { src: `/samples/german/subtraction/worksheet.webp`, alt: `Subtraktions-Arbeitsblatt mit visuellen Zahlenaufgaben`, caption: `Subtraktion — Visuelle Matheübung` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel-Arbeitsblatt mit thematischer Wortliste`, caption: `Wortsuche — Thematisches Rätsel` },
+      { src: `/samples/german/coloring/coloring portrait 1.webp`, alt: `Malvorlagen-Arbeitsblatt mit thematischen Illustrationen`, caption: `Malvorlage — Thematische Illustrationen` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Additions-Arbeitsblätter erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Katze 2 — thematisches Lernbild`, caption: 'Katze 2' },
   ],
 };
 

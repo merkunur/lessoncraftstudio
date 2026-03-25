@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles Segundo Grado — Guía de Nicho',
+    titleTag: `Ideas Imprimibles Segundo Grado — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de segundo grado para vender en Etsy, Amazon KDP y Gumroad. Productos educativos nivel segundo de primaria y estrategias de nicho.`,
-    primaryKeyword: 'ideas imprimibles segundo grado',
+    primaryKeyword: `ideas imprimibles segundo grado`,
     secondaryKeywords: [
-      'fichas segundo grado para vender',
+      `fichas segundo grado para vender`,
       'negocio imprimibles grado 2',
-      'fichas actividades segundo grado para vendedores',
-      'vender imprimibles segundo grado en Gumroad',
+      `fichas actividades segundo grado para vendedores`,
+      `vender imprimibles segundo grado en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas matemáticas y lectura primaria',
-      'imprimibles catálogo de productos grado 2',
-      'páginas actividades aprendizaje edades 7-8',
+      `fichas educativas matemáticas y lectura primaria`,
+      `imprimibles catálogo de productos grado 2`,
+      `páginas actividades aprendizaje edades 7-8`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ El segmento de compradores padres crece significativamente durante segundo grado
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Segundo Grado en Etsy',
+      title: `Vender Imprimibles de Segundo Grado en Etsy`,
       description: `Etsy captura el segmento grande y cada vez más motivado de compradores padres que buscan materiales de práctica de segundo grado con términos de alta intención como «fichas matemáticas segundo grado», «comprensión lectora segundo de primaria», «fichas práctica grado 2» y «ayuda con la tarea segundo grado» durante todo el año académico. Utiliza las trece etiquetas con variaciones que combinen objetivos de habilidades específicas, identificadores de grado y formatos de actividad para captar compradores motivados que buscan con precisión porque las boletas de calificaciones de segundo grado identifican brechas específicas de habilidades que quieren abordar. Agrupa productos por progresión de habilidades para aumentar el valor promedio del pedido: un paquete de dominio de reagrupación cubriendo suma y resta de dos dígitos con y sin reagrupación, un paquete de fluidez lectora con pasajes de comprensión a múltiples niveles de texto, y un paquete de habilidades de gramática y escritura sirven cada uno necesidades distintas de los padres mientras fomentan múltiples compras. La demanda de mitad de año aumenta fuertemente en enero y febrero cuando los padres reciben las boletas de calificaciones del primer semestre mostrando niveles específicos de competencia, y la preparación para evaluaciones estandarizadas impulsa un pico de compras secundario en marzo y abril cuando los padres buscan materiales de repaso dirigidos para las evaluaciones que los usuarios de segundo grado enfrentan cada vez más.`,
     },
     {
@@ -139,18 +139,18 @@ El segmento de compradores padres crece significativamente durante segundo grado
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -159,12 +159,12 @@ El segmento de compradores padres crece significativamente durante segundo grado
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -174,18 +174,18 @@ El segmento de compradores padres crece significativamente durante segundo grado
     },
     {
       pageType: 'idea',
-      slug: 'primer-grado-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Primer Grado',
+      slug: `primer-grado-ideas-imprimibles`,
+      anchorText: `Ideas de Negocio de Imprimibles de Primer Grado`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — imagen educativa temática`, caption: 'Calendario' },
   ],
 
 

@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Páscoa para Vender — Guia`,
     metaDescription: `Ideias de imprimíveis de Páscoa para vender no Etsy, Amazon KDP e Gumroad. Produtos primaverais, estratégias sazonais e dicas por plataforma para vendedores.`,
 
-    primaryKeyword: 'ideias de imprimíveis de páscoa para vender',
+    primaryKeyword: `ideias de imprimíveis de páscoa para vender`,
     secondaryKeywords: [
       'fichas de Páscoa para vender',
       'negócio imprimíveis Páscoa',
-      'fichas atividades Páscoa para vendedores',
-      'vender imprimíveis de Páscoa no Etsy',
+      `fichas atividades Páscoa para vendedores`,
+      `vender imprimíveis de Páscoa no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temática primaveril',
-      'atividades caça aos ovos de Páscoa',
-      'imprimíveis sazonais loja primavera',
+      `fichas educativas temática primaveril`,
+      `atividades caça aos ovos de Páscoa`,
+      `imprimíveis sazonais loja primavera`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Para capturar as receitas máximas de Páscoa, desenvolve produtos em múltiplos
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Páscoa para Vender Online',
+      title: `Sopas de Letras de Páscoa para Vender Online`,
       description: `As sopas de letras com vocabulário primaveril atraem vendedores que planificam atividades da loja de março e abril e pais que procuram entretenimento educativo durante o período de celebração de Páscoa. Cria puzzles com vocabulário específico de Páscoa como coelhinho, cesta, pintainho, cordeiro, túlipa, chapéu e chocolate junto com termos mais amplos de celebrações primaverais. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos de Páscoa para usuários mais velhos. As variações como vocabulário de caça aos ovos, palavras de animais primaverais e terminologia de celebrações de Páscoa expandem o teu catálogo para captar diferentes interesses de compradores dentro do nicho sazonal primaveril.`,
       appId: 'wordsearch',
     },
@@ -90,17 +90,17 @@ Para capturar as receitas máximas de Páscoa, desenvolve produtos em múltiplos
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Páscoa no Etsy',
+      title: `Vender Imprimíveis de Páscoa no Etsy`,
       description: `O Etsy recompensa a publicação antecipada e a especificidade de palavras-chave para os anúncios de imprimíveis de Páscoa, e a época de compras de primavera cria um importante pico de tráfego para as transferências digitais educativas. Publica os teus anúncios de Páscoa no final de janeiro para dar tempo aos algoritmos de pesquisa do Etsy de indexar e posicionar os teus produtos antes de o aumento de procura começar em fevereiro. Utiliza as treze etiquetas com variações que combinem subtemas de Páscoa, tipos de competência e grupos etários: «fichas contagem Páscoa pré-escolar», «sopa de letras primavera jardim de infância» e «páginas colorir coelhinho infantil» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas genéricas como «fichas Páscoa». Cria variações de anúncios orientadas para celebrações posicionando os pacotes de atividades como pacotes para festas de Páscoa online ou complementos para cestas de Páscoa. As imagens de anúncios mostrando fichas de Páscoa impressas em ambientes com temática primaveril e acessórios sazonais como decorações em tons pastel e flores de primavera superam as pré-visualizações digitais planas e captam a mentalidade festiva que impulsiona o tráfego primaveril.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Páscoa no KDP',
+      title: `Publicar Livros de Atividades de Páscoa no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de Páscoa porque os pais e compradores de prendas naturalmente adicionam livros de atividades aos seus carrinhos da Amazon juntamente com cestas de Páscoa, ovos de chocolate e brinquedos primaverais. Compila fichas individuais de Páscoa em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas primaverais. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades Páscoa para crianças», «fichas primaverais pré-escolar» e termos de subtemas como «livro colorir coelhinhos» ou «atividades caça aos ovos para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como complementos para cestas de Páscoa ou prendas primaverais para a loja. Publica no início de fevereiro para garantir que os teus livros estejam indexados e disponíveis antes de a fase de planificação de março se intensificar, e considera criar múltiplos livros dirigidos a diferentes grupos etários e subtemas para captar consultas de pesquisa variadas durante o período de Páscoa.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos de Páscoa para a loja no Gumroad',
+      title: `Criar Recursos de Páscoa para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores de loja que procuram material complementar para o catálogo de produtos de primavera, atividades para celebrações de Páscoa e recursos educativos com temática primaveril que possam implementar com mínima preparação durante um semestre de primavera já de si agitado. Os imprimíveis de Páscoa no Gumroad funcionam melhor quando empacotados como soluções prontas a usar online: estações de atividades para festas de Páscoa, pacotes de trabalho matinal de primavera ou pacotes de trabalhos de casa primaverais com cartas de instruções para os pais. Inclui objetivos de aprendizagem claros para que os vendedores possam justificar as atividades festivas perante as direções, e adiciona opções de diferenciação para salas de aula de primavera com diferentes níveis de competência onde o foco académico compete naturalmente com a emoção festiva. A funcionalidade de agrupamento do Gumroad permite-te oferecer produtos individuais de Páscoa e um megapacote primaveril com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em soluções completas de celebração para a loja de primavera.`,
     },
     {
@@ -144,18 +144,18 @@ Para capturar as receitas máximas de Páscoa, desenvolve produtos em múltiplos
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ Para capturar as receitas máximas de Páscoa, desenvolve produtos em múltiplos
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -180,17 +180,17 @@ Para capturar as receitas máximas de Páscoa, desenvolve produtos em múltiplos
     {
       pageType: 'idea',
       slug: 'halloween-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Halloween',
+      anchorText: `Ideias de Negócio de Imprimíveis de Halloween`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/spring/bird.webp', alt: 'Pássaro — imagem educativa temática', caption: 'Pássaro' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Casa de Pássaros — imagem educativa temática', caption: 'Casa de Pássaros' },
-    { src: '/image-library/spring/bud.webp', alt: 'Botão de Flor — imagem educativa temática', caption: 'Botão de Flor' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Coelhinho — imagem educativa temática', caption: 'Coelhinho' },
+    { src: `/image-library/spring/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/spring/bird.webp`, alt: `Pássaro — imagem educativa temática`, caption: 'Pássaro' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Casa de Pássaros — imagem educativa temática`, caption: 'Casa de Pássaros' },
+    { src: `/image-library/spring/bud.webp`, alt: `Botão de Flor — imagem educativa temática`, caption: 'Botão de Flor' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Coelhinho — imagem educativa temática`, caption: 'Coelhinho' },
   ],
 
 

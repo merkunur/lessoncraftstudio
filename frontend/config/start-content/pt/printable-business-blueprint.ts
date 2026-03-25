@@ -2,20 +2,20 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'ideias de negócio de imprimíveis',
+    primaryKeyword: `ideias de negócio de imprimíveis`,
     secondaryKeywords: [
-      'plano de negócio de imprimíveis',
-      'plano estratégico para vendedores de imprimíveis',
-      'ideias rentáveis de produtos imprimíveis',
-      'iniciar uma linha de produtos imprimíveis',
+      `plano de negócio de imprimíveis`,
+      `plano estratégico para vendedores de imprimíveis`,
+      `ideias rentáveis de produtos imprimíveis`,
+      `iniciar uma linha de produtos imprimíveis`,
     ],
     lsiKeywords: [
-      'planeamento de loja Etsy de imprimíveis',
-      'estratégia de produtos Amazon KDP',
-      'objetivos de rendimentos com fichas',
-      'expansão de catálogo de imprimíveis',
-      'mapa de linha de produtos para vendedores',
-      'checklist de lançamento de negócio de imprimíveis',
+      `planeamento de loja Etsy de imprimíveis`,
+      `estratégia de produtos Amazon KDP`,
+      `objetivos de rendimentos com fichas`,
+      `expansão de catálogo de imprimíveis`,
+      `mapa de linha de produtos para vendedores`,
+      `checklist de lançamento de negócio de imprimíveis`,
     ],
     titleTag: `Ideias de Negócio de Imprimíveis — Plano Estratégico`,
     metaDescription: `Transforma as tuas ideias de negócio de imprimíveis num plano estratégico estruturado. Planeia a linha de produtos, escolhe plataformas, define preços e.`,
@@ -56,7 +56,7 @@ const content: StartContent = {
     },
     {
       heading: `Construir a tua primeira coleção de produtos com geradores de fichas`,
-      content: `O teu plano estratégico existe no papel. Agora é hora de construir produtos. O objetivo para as tuas primeiras duas semanas é uma coleção focada de 10 a 15 produtos que estabeleçam a identidade da tua loja e deem ao algoritmo do marketplace dados suficientes para começar a mostrar as tuas publicações aos compradores.\n\nComeça com o teu tipo de produto principal e o teu tema mais forte. Se o teu mapa de linha de produtos começa com fichas de soma com tema de animais, esse é o teu primeiro produto. Abre o gerador, configura as definições (nível de dificuldade, tema de imagens, tamanho de página, chave de respostas) e cria a tua primeira página. Revê-a cuidadosamente — este primeiro produto define o padrão de qualidade para tudo o que vem a seguir.\n\nGera mais 9 páginas com o mesmo tema e definições de dificuldade. Cada geração produz conteúdo único mantendo a consistência visual. Transfere os formatos PDF e JPEG de todas as páginas. Compila as páginas num pacote com uma capa que liste os conteúdos, a faixa etária e o nome da tua loja.\n\nAgora cria variações temáticas. As mesmas definições de ficha de soma com diferentes temas de imagens (dinossauros, oceano, veículos, comida) produzem mais quatro produtos únicos em minutos. Cada um aponta a diferentes palavras-chave de pesquisa e interesses de compradores diferentes, mas todos mantêm o mesmo padrão de qualidade e estilo visual.\n\nAcrescenta uma progressão de dificuldade. Cria uma versão fácil (totais até 5) para pré-escolares, uma versão média (totais até 10) para jardim de infância e uma versão mais difícil (totais até 20) para primeiro ano. Estes três níveis de dificuldade aplicados aos teus cinco temas produzem 15 produtos.\n\nA tua primeira coleção deverá parecer coesa. Quando um comprador visita a tua loja e vê 15 pacotes de matemática com temas de animais, dinossauros e oceano em três níveis de dificuldade, vê um especialista. Essa perceção de especialização impulsiona as compras e as visitas recorrentes.\n\nCada gerador oferece um teste grátis com marca d'água durante este processo. Usa o teste para experimentar diferentes configurações e temas antes de te comprometeres com uma licença comercial. O resultado do teste mostra-te exatamente como será o produto final, sem a marca d'água.`,
+      content: `O teu plano estratégico existe no papel. Agora é hora de construir produtos. O objetivo para as tuas primeiras duas semanas é uma coleção focada de 10 a 15 produtos que estabeleçam a identidade da tua loja e deem ao algoritmo do marketplace dados suficientes para começar a mostrar as tuas publicações aos compradores.\n\nComeça com o teu tipo de produto principal e o teu tema mais forte. Se o teu mapa de linha de produtos começa com fichas de soma com tema de animais, esse é o teu primeiro produto. Abre o gerador, configura as definições (nível de dificuldade, tema de imagens, tamanho de página, chave de respostas) e cria a tua primeira página. Revê-a cuidadosamente — este primeiro produto define o padrão de qualidade para tudo o que vem a seguir.\n\nGera mais 9 páginas com o mesmo tema e definições de dificuldade. Cada geração produz conteúdo único mantendo a consistência visual. Transfere os formatos PDF e JPEG de todas as páginas. Compila as páginas num pacote com uma capa que liste os conteúdos, a faixa etária e o nome da tua loja.\n\nAgora cria variações temáticas. As mesmas definições de ficha de soma com diferentes temas de imagens (dinossauros, oceano, veículos, comida) produzem mais quatro produtos únicos em minutos. Cada um aponta a diferentes palavras-chave de pesquisa e interesses de compradores diferentes, mas todos mantêm o mesmo padrão de qualidade e estilo visual.\n\nAcrescenta uma progressão de dificuldade. Cria uma versão fácil (totais até 5) para pré-escolares, uma versão média (totais até 10) para jardim de infância e uma versão mais difícil (totais até 20) para primeiro ano. Estes três níveis de dificuldade aplicados aos teus cinco temas produzem 15 produtos.\n\nA tua primeira coleção deverá parecer coesa. Quando um comprador visita a tua loja e vê 15 pacotes de matemática com temas de animais, dinossauros e oceano em três níveis de dificuldade, vê um especialista. Essa perceção de especialização impulsiona as compras e as visitas recorrentes.\n\nCada gerador oferece um teste grátis com marca d`água durante este processo. Usa o teste para experimentar diferentes configurações e temas antes de te comprometeres com uma licença comercial. O resultado do teste mostra-te exatamente como será o produto final, sem a marca d`água.`,
     },
     {
       heading: `Estratégia de preços para o teu plano de produtos imprimíveis`,
@@ -78,35 +78,35 @@ const content: StartContent = {
       description: `Pesquisa no Etsy categorias amplas de fichas imprimíveis e identifica 2–3 nichos com procura comprovada e concorrência manejável. Anota os tipos de produtos mais vendidos, temas e preços em cada nicho.`,
     },
     {
-      step: 'Valida a tua ideia com produtos de teste grátis',
+      step: `Valida a tua ideia com produtos de teste grátis`,
       description: `Abre os geradores de fichas relevantes e cria de 3 a 5 produtos de amostra usando o teste grátis com marca d'água. Compara o teu resultado com as publicações mais vendidas do marketplace. Confirma que os teus produtos igualam ou superam os padrões de qualidade atuais.`,
     },
     {
-      step: 'Desenha os teus primeiros 50 produtos',
+      step: `Desenha os teus primeiros 50 produtos`,
       description: `Cria uma folha de cálculo com os teus produtos planeados segundo variações temáticas, níveis de dificuldade e tamanhos de pacote. Inclui o preço-alvo e a plataforma para cada produto. Isto torna-se a tua folha de rota de produção.`,
     },
     {
-      step: 'Define a tua estratégia de plataformas',
+      step: `Define a tua estratégia de plataformas`,
       description: `Escolhe a tua plataforma principal (Etsy recomendada para novos vendedores) e planeia o teu cronograma de expansão. Anota os requisitos de publicação, estruturas de comissões e necessidades de otimização para cada plataforma que planeies usar.`,
     },
     {
-      step: 'Estabelece os teus escalões de preços',
+      step: `Estabelece os teus escalões de preços`,
       description: `Investiga os preços da concorrência no teu nicho e define preços para fichas individuais, pacotes pequenos, pacotes grandes e mega pacotes. Calcula o teu rendimento líquido após comissões de plataforma para cada escalão.`,
     },
     {
-      step: 'Constrói a tua primeira coleção de 10 produtos',
+      step: `Constrói a tua primeira coleção de 10 produtos`,
       description: `Cria o teu tipo de ficha principal em 2–3 temas com 2–3 níveis de dificuldade. Gera as páginas, compila pacotes com capas e transfere os formatos PDF e JPEG. Verifica a qualidade de cada produto antes de publicá-lo.`,
     },
     {
-      step: 'Lança a tua loja com publicações otimizadas',
+      step: `Lança a tua loja com publicações otimizadas`,
       description: `Configura a tua conta no marketplace, completa o branding da tua loja e publica os teus primeiros 10 produtos com títulos ricos em palavras-chave, todas as etiquetas disponíveis, miniaturas limpas e descrições completas usando um modelo consistente.`,
     },
     {
-      step: 'Estabelece o teu calendário de produção semanal',
+      step: `Estabelece o teu calendário de produção semanal`,
       description: `Reserva tempo para criar e publicar de 3 a 5 produtos novos por semana. Segue o teu mapa de linha de produtos em vez de criares produtos ao acaso. A consistência constrói tanto o tamanho do catálogo como a autoridade no marketplace.`,
     },
     {
-      step: 'Faz a tua primeira revisão aos 30 dias',
+      step: `Faz a tua primeira revisão aos 30 dias`,
       description: `Após 30 dias, analisa as visualizações, favoritos e taxas de conversão por publicação. Identifica os teus melhores e piores resultados. Cria mais produtos semelhantes aos vencedores. Atualiza ou melhora os que têm baixo desempenho.`,
     },
     {
@@ -118,7 +118,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'math-puzzle-worksheets',
-      title: 'Gerador de Quebra-Cabeças Matemáticos',
+      title: `Gerador de Quebra-Cabeças Matemáticos`,
       description: `Destacado no vídeo deste guia. Cria puzzles matemáticos configuráveis com múltiplos níveis de dificuldade, imagens temáticas e chaves de respostas automáticas. Demonstra a variedade de resultados possível com um único gerador.`,
     },
     {
@@ -128,7 +128,7 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Categoria principal no Etsy com forte apelo visual para construir um portefólio. O formato puramente visual funciona em qualquer idioma, dando acesso ao mercado internacional. Mais de 100 conjuntos de imagens temáticas para máxima variedade de produtos.`,
     },
     {
@@ -138,7 +138,7 @@ const content: StartContent = {
     },
     {
       appId: 'matching-worksheets',
-      title: 'Gerador de Fichas de Associação',
+      title: `Gerador de Fichas de Associação`,
       description: `Fichas puramente visuais que demonstram o acesso ao mercado internacional. Sem texto significa que não necessitam de tradução — um produto serve compradores em todos os idiomas. Ideal para validar a procura em múltiplos mercados simultaneamente.`,
     },
     {
@@ -166,7 +166,7 @@ const content: StartContent = {
       answer: `Os resultados variam significativamente conforme o nicho, a qualidade do produto, a otimização de publicações e o tamanho do catálogo. A maioria dos novos vendedores do Etsy vê as primeiras vendas nos primeiros 30–60 dias se tiver pelo menos 10 publicações bem otimizadas. Rendimentos constantes tipicamente requerem 30+ publicações ativas e vários meses de presença no marketplace. Concentra-te em construir o teu catálogo e otimizar a qualidade das publicações em vez de vigiares os números de vendas diários.`,
     },
     {
-      question: 'Preciso de criar produtos em múltiplos idiomas?',
+      question: `Preciso de criar produtos em múltiplos idiomas?`,
       answer: `Não, mas os produtos multilingues são uma vantagem competitiva significativa. Os mercados em idiomas diferentes do inglês para imprimíveis educativos estão subaproveitados, o que significa menos concorrência e preços semelhantes. As fichas puramente visuais como colorir, associação e atividades de padrões funcionam em qualquer idioma sem modificação. Todos os geradores do LessonCraftStudio suportam 11 idiomas para fichas com texto.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
       description: `O guia fundamental que abrange todos os aspetos do lançamento de um negócio de imprimíveis. Começa aqui se precisas de orientação completa passo a passo desde o zero até à tua primeira venda.`,
     },
     {
       slug: 'criar-fichas-que-vendem',
-      title: 'Como Criar Fichas Profissionais que Vendem',
+      title: `Como Criar Fichas Profissionais que Vendem`,
       description: `Análise aprofundada da qualidade na criação de produtos: o que torna as fichas profissionais, como usar os geradores de forma eficaz e as técnicas específicas que transformam fichas genéricas em produtos que os compradores escolhem.`,
     },
     {
       slug: 'negocio-imprimiveis-etsy',
-      title: 'Masterclass Negócio de Imprimíveis no Etsy',
+      title: `Masterclass Negócio de Imprimíveis no Etsy`,
       description: `Guia específico de plataforma para vendedores do Etsy que abrange configuração de loja, SEO de publicações, otimização de etiquetas e técnicas de escalabilidade adaptadas ao marketplace do Etsy.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como Criar Fichas Profissionais que Vendem' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass Negócio de Imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como Criar Fichas Profissionais que Vendem` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass Negócio de Imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de Negócio de Livros de Atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: `Guia de Licença Comercial para Vendedores de Imprimíveis` },
-    { pageType: 'start', slug: 'rendimentos-negocio-imprimiveis', anchorText: `Rendimentos do Negócio de Imprimíveis: Expetativas Realistas` },
-    { pageType: 'app', slug: 'quebra-cabeca-matematica-fichas', anchorText: `Gerador de Quebra-Cabeças Matemáticos — Todos os Detalhes` },
-    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimenta o Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Experimenta o Gerador de Páginas para Colorir' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimenta o Gerador de Fichas de Soma' },
+    { pageType: 'start', slug: `rendimentos-negocio-imprimiveis`, anchorText: `Rendimentos do Negócio de Imprimíveis: Expetativas Realistas` },
+    { pageType: 'app', slug: `quebra-cabeca-matematica-fichas`, anchorText: `Gerador de Quebra-Cabeças Matemáticos — Todos os Detalhes` },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: `Gerador de Caça-Palavras — Todos os Detalhes` },
+    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: `Experimenta o Gerador de Caça-Palavras` },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: `Experimenta o Gerador de Páginas para Colorir` },
+    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: `Experimenta o Gerador de Fichas de Soma` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp`, alt: 'Exemplo de ficha de quebra-cabeças matemáticos criada com o gerador LessonCraftStudio' },
+    heroImage: { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp`, alt: `Exemplo de ficha de quebra-cabeças matemáticos criada com o gerador LessonCraftStudio` },
     samples: [
-      { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.webp`, alt: 'Ficha de quebra-cabeças matemáticos mostrando a variedade de resultados configuráveis', caption: 'Quebra-Cabeças Matemáticos — Dificuldade Configurável' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Ficha de caça-palavras com lista de palavras temáticas', caption: 'Caça-Palavras — Puzzle Temático' },
-      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Ficha para colorir com ilustrações temáticas', caption: 'Colorir — Apelo Visual' },
-      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de associação com formato internacional puramente visual', caption: 'Associação — Funciona em Qualquer Idioma' },
+      { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.webp`, alt: `Ficha de quebra-cabeças matemáticos mostrando a variedade de resultados configuráveis`, caption: `Quebra-Cabeças Matemáticos — Dificuldade Configurável` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Ficha de caça-palavras com lista de palavras temáticas`, caption: `Caça-Palavras — Puzzle Temático` },
+      { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Ficha para colorir com ilustrações temáticas`, caption: 'Colorir — Apelo Visual' },
+      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de associação com formato internacional puramente visual`, caption: `Associação — Funciona em Qualquer Idioma` },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: `Como Criar Fichas de Quebra-Cabeças Matemáticos — Demo LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagem educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azálea — imagem educativa temática', caption: 'Azálea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begónia — imagem educativa temática', caption: 'Begónia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campainha — imagem educativa temática', caption: 'Campainha' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagem educativa temática', caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagem educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azálea — imagem educativa temática`, caption: 'Azálea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begónia — imagem educativa temática`, caption: 'Begónia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campainha — imagem educativa temática`, caption: 'Campainha' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagem educativa temática`, caption: 'Ranúnculo' },
   ],
 };
 

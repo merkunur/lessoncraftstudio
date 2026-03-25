@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Insetos — Guia de Nicho',
+    titleTag: `Ideias de Imprimíveis de Insetos — Guia de Nicho`,
     metaDescription: `Ideias rentáveis de imprimíveis com temática de insetos para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos de bichos e borboletas, estratégias.`,
 
-    primaryKeyword: 'ideias de imprimíveis de insetos',
+    primaryKeyword: `ideias de imprimíveis de insetos`,
     secondaryKeywords: [
-      'fichas temática insetos para vender',
+      `fichas temática insetos para vender`,
       'negócio imprimíveis bichos',
-      'fichas atividades insetos para vendedores',
-      'vender imprimíveis insetos no Etsy',
+      `fichas atividades insetos para vendedores`,
+      `vender imprimíveis insetos no Etsy`,
     ],
     lsiKeywords: [
-      'atividades entomologia para crianças',
-      'fichas educativas temática bichos',
-      'imprimíveis insetos rasteiros para a loja',
+      `atividades entomologia para crianças`,
+      `fichas educativas temática bichos`,
+      `imprimíveis insetos rasteiros para a loja`,
     ],
   },
   hero: {
@@ -47,7 +47,7 @@ O alinhamento com a educação científica confere aos imprimíveis de insetos u
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Bichos para Vender Online',
+      title: `Sopas de Letras de Bichos para Vender Online`,
       description: `As sopas de letras com vocabulário de insetos atraem pais e vendedores que procuram desenvolver competências linguísticas em torno da entomologia e dos temas de natureza. Cria puzzles com nomes comuns de insetos, vocabulário de partes do corpo, terminologia de habitats e palavras de metamorfose como crisálida e casulo. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras, facilitando a produção de versões adequadas a cada idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais palavras para compradores mais velhos. As variações sazonais como sopas de letras de polinizadores de primavera, puzzles de insetos do jardim de verão e grelhas gerais de vocabulário de entomologia expandem o teu catálogo de produtos ao longo do ano.`,
       appId: 'wordsearch',
     },
@@ -96,12 +96,12 @@ O alinhamento com a educação científica confere aos imprimíveis de insetos u
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Insetos no Etsy',
+      title: `Vender Imprimíveis de Insetos no Etsy`,
       description: `O Etsy recompensa a especificidade nas listagens de imprimíveis de insetos. Em vez de títulos genéricos como «Fichas de Bichos», aponta para palavras-chave de cauda longa como «fichas de contagem de borboletas pré-escolar» ou «sopa de letras de insetos imprimível jardim de infância». Utiliza as treze etiquetas com variações que combinem espécies de insetos, tipo de competência e grupo etário. As imagens de maqueta que mostram fichas de insetos impressas em contextos de loja ou de natureza superam significativamente as pré-visualizações digitais planas. Programa as novas listagens para coincidir com os picos de procura sazonal de março a maio para as unidades de primavera de borboletas e polinizadores e de junho a agosto para os temas de exploração da natureza no verão. Oferece tanto fichas individuais de insetos como pacotes temáticos por espécie, já que os compradores do Etsy frequentemente começam com uma compra individual de baixo custo e regressam para pacotes maiores depois de experimentarem a qualidade do teu produto.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades de Insetos no KDP',
+      title: `Publicar Livros de Atividades de Insetos no KDP`,
       description: `A Amazon KDP funciona melhor para os imprimíveis com temática de insetos quando compilas fichas individuais em livros de atividades coesos que oferecem variedade e valor. Um livro de atividades de insetos de quarenta a sessenta páginas que combine contagem, colorir, emparelhamento, sopas de letras e atividades de desenho vende-se bem na categoria de livros de atividades para crianças. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro de atividades de insetos para crianças», «fichas de bichos pré-escolar» e termos específicos por espécie como «livro para colorir de borboletas» ou «atividades de joaninhas». Fixa o preço entre quatro e sete dólares para margens de royalties ótimas. Considera criar minilivros focados em espécies juntamente com livros gerais de atividades de insetos para captar os compradores que procuram bichos específicos que fascinam os seus filhos.`,
     },
     {
@@ -150,18 +150,18 @@ O alinhamento com a educação científica confere aos imprimíveis de insetos u
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -175,7 +175,7 @@ O alinhamento com a educação científica confere aos imprimíveis de insetos u
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -186,17 +186,17 @@ O alinhamento com a educação científica confere aos imprimíveis de insetos u
     {
       pageType: 'idea',
       slug: 'aves-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Aves',
+      anchorText: `Ideias de Negócio de Imprimíveis de Aves`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Formiga — imagem educativa temática', caption: 'Formiga' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Borboleta — imagem educativa temática', caption: 'Borboleta' },
-    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Lagarta — imagem educativa temática', caption: 'Lagarta' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Centopeia — imagem educativa temática', caption: 'Centopeia' },
-    { src: '/image-library/insects%20and%20bugs/cricket.webp', alt: 'Grilo — imagem educativa temática', caption: 'Grilo' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Formiga — imagem educativa temática`, caption: 'Formiga' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Borboleta — imagem educativa temática`, caption: 'Borboleta' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: `Lagarta — imagem educativa temática`, caption: 'Lagarta' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Centopeia — imagem educativa temática`, caption: 'Centopeia' },
+    { src: `/image-library/insects%20and%20bugs/cricket.webp`, alt: `Grilo — imagem educativa temática`, caption: 'Grilo' },
   ],
 
 

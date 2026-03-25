@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP Formatierung Arbeitsblätter',
+    primaryKeyword: `KDP Formatierung Arbeitsblätter`,
     secondaryKeywords: [
       `KDP Formatierungsanleitung für Arbeitsblatt-Bücher`,
       `Amazon KDP Manuskript-Formatierungsspezifikationen`,
       `KDP Beschnittgröße Seitenränder Beschnitt Arbeitsblatt-Bücher`,
-      'druckfertige PDF-Erstellung KDP Aktivitätsbücher',
+      `druckfertige PDF-Erstellung KDP Aktivitätsbücher`,
     ],
     lsiKeywords: [
       `KDP Beschnittgröße 8,5x11 6x9 8x10 Arbeitsblatt Innenteil Layout`,
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Die Beschnitteinstellung bestimmt, ob Ihre Inhalte bis zur äußersten Kante der gedruckten Seite reichen oder innerhalb eines weißen Randes enden. Diese Einstellung beeinflusst Ihre Manuskript-Dimensionen und ist eine der häufigsten Ursachen für KDP-Upload-Fehler.\n\nDie meisten Arbeitsblatt- und Aktivitätsbücher sollten die Nicht-Beschnitt-Einstellung verwenden. Nicht-Beschnitt bedeutet, dass Ihre Inhalte innerhalb der Ränder bleiben und Weißraum jede Seite umgibt. Dies ist die richtige Wahl für Mathe-Arbeitsblätter, Rätselgitter, Schreibübungen und jeden Aktivitätstyp, dessen Inhalte innerhalb von Rahmen oder Grenzen eigenständig sind. Nicht-Beschnitt ist einfacher einzurichten und lässt keinen Raum für Beschnittfehler, die Ihre Inhalte beeinträchtigen.\n\nBeschnitt ist erforderlich, wenn Designelemente absichtlich bis zur Seitenkante reichen sollen, ohne weißen Rand. Ausmalbücher mit randlosen Illustrationen, Aktivitätsseiten mit ganzseitigen Hintergrundmustern und dekorative Seiten, deren Design die gesamte Fläche füllt, brauchen Beschnitt. Bei aktiviertem Beschnitt verlangt KDP zusätzliche 0,125 Zoll an jeder Seitenkante — Ihre Manuskript-Dimensionen erhöhen sich um 0,25 Zoll in Breite und Höhe. Für eine 8,5 x 11 Zoll Beschnittgröße mit Beschnitt müssen Ihre Manuskriptseiten 8,75 x 11,25 Zoll groß sein.\n\nDie Beschnittzugabe ist die Zone, die bei der Buchherstellung abgeschnitten wird. Inhalte in dieser Zone können je nach Beschnittpräzision im Endprodukt erscheinen oder nicht. Platzieren Sie niemals wichtige Inhalte — Text, Antwortfelder, Rätselgitter oder Anweisungen — in der Beschnittzugabe. Erweitern Sie nur Hintergrundfarben, Muster oder dekorative Illustrationselemente in den Beschnittbereich.\n\nWenn Ihr Buch eine Mischung aus Beschnitt- und Nicht-Beschnitt-Seiten hat (zum Beispiel Ausmalseiten mit randlosen Illustrationen im Wechsel mit Rätselseiten mit weißen Rändern), stellen Sie das gesamte Manuskript auf Beschnitt ein und stellen Sie sicher, dass Ihre Nicht-Beschnitt-Seiten die Inhalte innerhalb der Standard-Randgrenzen positioniert haben. Sie können Beschnitteinstellungen innerhalb eines einzelnen Manuskripts nicht mischen — es ist entweder alles mit oder alles ohne Beschnitt.\n\nEin häufiger Fehler ist, Beschnitt zu aktivieren, aber Inhalte nicht bis zur Beschnittkante zu erweitern. Dies erzeugt einen ungleichmäßigen weißen Rand, der wie ein Druckfehler aussieht statt wie eine Designentscheidung. Wenn Sie Beschnitt aktivieren, stellen Sie sicher, dass jede Seite Inhalte hat, die vollständig in die Beschnittzugabe an allen Kanten reichen, wo Sie randlosen Druck wünschen.`,
     },
     {
-      heading: 'Druckfertige PDFs mit 300 DPI exportieren',
+      heading: `Druckfertige PDFs mit 300 DPI exportieren`,
       content: `KDP verlangt PDF-Dateien sowohl für den Innenteil als auch für das Cover. Das PDF muss bestimmte technische Standards für die Druckreproduktion erfüllen, und die Nichteinhaltung dieser Standards löst Upload-Fehler aus oder produziert schlechte Druckqualität.\n\nDie Auflösung muss mindestens 300 DPI (Punkte pro Zoll) für alle Bilder und grafischen Elemente betragen. Dies ist eine harte Anforderung für professionelle Druckqualität. Die Bildschirmauflösung beträgt typischerweise 72 oder 96 DPI, daher erscheinen Bilder, die auf Ihrem Monitor scharf aussehen, im Druck unscharf und pixelig, wenn sie nicht mit 300 DPI erstellt oder exportiert wurden. Wenn Sie Arbeitsblatt-Generatoren verwenden, exportieren Sie in der maximal verfügbaren Auflösung. Wenn Sie Bilder platzieren, überprüfen Sie deren tatsächliche DPI in der platzierten Größe — ein 300-DPI-Bild in Originalgröße wird zu 150 DPI, wenn Sie es auf die doppelte Breite skalieren.\n\nSchriften müssen im PDF eingebettet sein. Wenn Schriften nicht eingebettet sind, lehnt KDP die Datei entweder ab oder ersetzt Standardschriften, die Ihr Layout zerstören. Die meisten PDF-Export-Programme haben eine Option „Alle Schriften einbetten" — aktivieren Sie diese. Beim Export aus Design-Software suchen Sie nach einer Druck- oder Pressqualitäts-Exportvorgabe, die die Schrifteinbettung automatisch handhabt. Wenn Sie benutzerdefinierte oder ungewöhnliche Schriften verwenden, überprüfen Sie nach dem Export durch Öffnen des PDFs, dass der Text korrekt angezeigt wird.\n\nDer Farbmodus sollte Graustufen oder CMYK für Schwarzweiß-Innenteile sein. Der RGB-Farbmodus ist für Bildschirme, nicht für den Druck. Wenn Sie in RGB exportieren, können Farben beim Konvertieren durch KDP für den Druck unvorhersehbar abweichen. Für Schwarzweiß-Arbeitsblatt-Bücher exportieren Sie in Graustufen — dies erzeugt auch kleinere Dateigrößen. Für Bücher mit Farbelementen verwenden Sie den CMYK-Farbmodus. KDP akzeptiert RGB-Dateien, konvertiert sie aber intern zu CMYK, was zu Farbverschiebungen führen kann.\n\nDie PDF-Dateigröße hat ein praktisches Limit von 650 MB für die Innenteil-Datei und 40 MB für das Cover. Arbeitsblatt-Bücher nähern sich diesen Grenzen selten, aber Bücher mit vielen hochauflösenden Bildern können groß werden. Wenn Ihre Datei zu groß ist, prüfen Sie auf unnötig hochauflösende Dekorationselemente oder Bilder mit einer Auflösung weit über 300 DPI.\n\nReduzieren Sie alle Transparenzen vor dem Export. Transparenzeffekte (Schlagschatten, halbtransparente Überlagerungen, Mischmodi) können Darstellungsprobleme im Druck verursachen. Ihre PDF-Exporteinstellungen sollten eine Option zur Transparenzreduzierung enthalten — nutzen Sie diese. Ein reduziertes PDF enthält nur feste Elemente, die vorhersagbar drucken.\n\nÖffnen Sie nach dem Export Ihr PDF und überprüfen Sie jede Seite bei 100 Prozent Zoom. Prüfen Sie, dass Text scharf ist, Bilder klar sind, Ränder konsistent sind und keine Inhalte über Ihre beabsichtigten Grenzen hinausragen. Diese Überprüfung fängt Probleme ab, die nach dem Upload viel schwieriger zu beheben sind.`,
     },
     {
@@ -55,11 +55,11 @@ const content: GuideContent = {
       content: `KDP-Cover haben präzise Maßanforderungen, die aus der Beschnittgröße, Seitenzahl und Papierart Ihres Buches berechnet werden. Ein falsch dimensioniertes Cover ist der häufigste Grund für die Ablehnung von KDP-Manuskripten.\n\nDas Cover wird als einzelnes PDF eingereicht, das Rückencover, Buchrücken und Frontcover in einem durchgehenden Bild enthält. Die Gesamtbreite berechnet sich wie folgt: Rückencover-Breite plus Buchrückenbreite plus Frontcover-Breite plus 0,25 Zoll (für 0,125 Zoll Beschnitt auf jeder Seite). Die Gesamthöhe berechnet sich als Beschnitthöhe plus 0,25 Zoll (für 0,125 Zoll Beschnitt oben und unten). Cover-Beschnitt ist immer erforderlich, unabhängig von Ihrer Innenteil-Beschnitteinstellung.\n\nDie Buchrückenbreite hängt von Seitenzahl und Papierart ab. Für weißes Papier (Standard für die meisten Arbeitsblatt-Bücher) lautet die Formel: Seitenzahl multipliziert mit 0,002252 Zoll. Ein 60-Seiten-Buch hat eine Buchrückenbreite von ungefähr 0,135 Zoll. Ein 100-Seiten-Buch hat ungefähr 0,225 Zoll. Ein 150-Seiten-Buch hat ungefähr 0,338 Zoll. Für cremefarbenes Papier multiplizieren Sie stattdessen mit 0,0025. KDP bietet einen Cover-Rechner, der exakte Maße berechnet — verwenden Sie diesen statt manueller Berechnung, um Rundungsfehler zu vermeiden.\n\nFür ein 8,5 x 11 Zoll Buch mit 80 Seiten auf weißem Papier: Buchrückenbreite gleich 80 mal 0,002252, also ungefähr 0,18 Zoll. Gesamte Cover-Breite gleich 8,5 plus 0,18 plus 8,5 plus 0,25, also 17,43 Zoll. Gesamte Cover-Höhe gleich 11 plus 0,25, also 11,25 Zoll. Ihr Cover-PDF muss exakt diese Maße haben.\n\nSicherheitszonen auf dem Cover sind entscheidend. Halten Sie alle wesentlichen Text- und Designelemente mindestens 0,25 Zoll von den Beschnittkanten und mindestens 0,0625 Zoll vom Buchrückenfalz auf beiden Seiten entfernt. Der Buchrückenbereich selbst ist für Text bei Büchern unter 100 Seiten unzuverlässig, da der schmale Rücken die Textausrichtung bei der Herstellung unberechenbar macht. Für Bücher unter 79 Seiten erlaubt KDP überhaupt keinen Buchrückentext.\n\nDas Rückencover muss im unteren rechten Bereich eine freie Barcode-Zone belassen — ein Rechteck von ungefähr 2 Zoll Breite mal 1,2 Zoll Höhe. KDP platziert dort beim Drucken den ISBN-Barcode. Alle Designelemente unter dem Barcode werden verdeckt. Planen Sie Ihr Rückencover-Layout mit dieser reservierten Zone.\n\nExportieren Sie das Cover mit 300 DPI im CMYK-Farbmodus (Cover werden immer in Farbe gedruckt, auch bei Schwarzweiß-Innenteilen). Betten Sie alle Schriften ein. Das Cover-PDF sollte eine einzelne Seite sein, nicht mehrere Seiten.`,
     },
     {
-      heading: 'Das vollständige Manuskript zusammenstellen',
+      heading: `Das vollständige Manuskript zusammenstellen`,
       content: `Ein vollständiges KDP-Manuskript ist eine einzelne PDF-Datei, die jede Seite Ihres Buches in der richtigen Reihenfolge enthält. KDP druckt exakt das, was Sie einreichen — es gibt keine automatische Seiteneinfügung, Nummerierung oder Formatierung. Jedes Element muss in Ihrem PDF vorhanden sein.\n\nDie Manuskriptstruktur für ein Arbeitsblatt-Buch folgt dieser Standardreihenfolge: Titelseite (Seite 1), Impressumsseite (Seite 2), Inhaltsverzeichnis oder Nutzungsanleitung (Seite 3), optionale Einleitung oder Anweisungen (Seite 4), Aktivitätsseiten nach Abschnitten geordnet (der Hauptteil des Buches), Lösungs- oder Antwortschlüssel-Abschnitt (gegen Ende), und Nachspann einschließlich einer Über-den-Autor-Seite und einer Liste Ihrer anderen Titel (letzte Seiten).\n\nDie Titelseite sollte den Buchtitel, Untertitel und Autor- oder Verlagsnamen enthalten. Halten Sie sie sauber und professionell — dies ist die erste Seite, die ein Käufer sieht, wenn er Amazons Look-Inside-Vorschau nutzt. Die Impressumsseite enthält den Urheberrechtsvermerk, das Jahr, den Verlagsnamen und eine Erklärung zu Vervielfältigungsrechten. Wenn Ihr Buch Bilder aus Generatoren unter einer kommerziellen Lizenz verwendet, ist dies der Ort, um das zu vermerken.\n\nDas Inhaltsverzeichnis ist für nach Abschnitten gegliederte Bücher unerlässlich. Für ein Mathe-Arbeitsheft mit den Abschnitten Addition, Subtraktion und Gemischt listen Sie jeden Abschnitt mit seiner Anfangsseitenzahl auf. Für ein Rätselbuch mit den Abschnitten Leicht, Mittel und Schwer listen Sie die Schwierigkeitsstufen mit Seitenzahlen auf. Aktivitätsbuch-Käufer nutzen das Inhaltsverzeichnis, um direkt zum gewünschten Abschnitt zu navigieren, anstatt durch die Seiten zu blättern.\n\nSeitenzahl-Anforderungen für KDP-Taschenbücher sind mindestens 24 Seiten und maximal 828 Seiten. Die meisten Arbeitsblatt-Bücher liegen zwischen 40 und 150 Seiten. Die Seitenzahl muss gerade sein — wenn Ihr Inhalt eine ungerade Zahl ergibt, fügen Sie am Ende eine leere Seite hinzu. KDP zählt jede Seite im PDF einschließlich leerer Seiten, Titelei und Nachspann.\n\nDie Seitennummerierung sollte nach der Titelei beginnen. Titelseite, Impressum und Inhaltsverzeichnis werden typischerweise nicht nummeriert oder mit kleinen römischen Ziffern versehen. Aktivitätsseiten beginnen mit der arabischen Ziffer 1. Platzieren Sie Seitenzahlen einheitlich — zentriert am unteren Rand ist die gängigste Platzierung für Aktivitätsbücher. Gleichen Sie Lösungsseitenverweise mit den tatsächlichen Seitenzahlen in Ihrem fertigen PDF ab.\n\nÜberprüfen Sie vor dem Export Ihr Manuskript, indem Sie das gesamte PDF Seite für Seite durchscrollen. Bestätigen Sie, dass Seitenzahlen fortlaufend und korrekt sind, Lösungen auf die richtigen Seiten verweisen, Abschnittsüberschriften an den erwarteten Stellen erscheinen und keine leeren Seiten unbeabsichtigt mitten in Inhaltsabschnitten auftauchen.`,
     },
     {
-      heading: 'KDP-Formatierungsprobleme hochladen und beheben',
+      heading: `KDP-Formatierungsprobleme hochladen und beheben`,
       content: `Der KDP-Upload-Prozess validiert Ihr Manuskript gegen technische Spezifikationen und markiert Fehler vor der Veröffentlichung. Das Verständnis der häufigsten Fehler spart erheblich Zeit während des Upload- und Überprüfungszyklus.\n\nDer häufigste Ablehnungsgrund sind falsche Cover-Maße. Selbst ein Bruchteil eines Zolls Abweichung löst eine Ablehnung aus. Verwenden Sie immer KDPs Cover-Rechner, um exakte Maße für Ihre spezifische Seitenzahl und Papierart zu generieren. Wenn Sie Ihre Seitenzahl nach Erstellung des Covers ändern, müssen Sie das Cover neu berechnen und in der Größe anpassen, weil sich die Buchrückenbreite ändert.\n\nNiedrig aufgelöste Bilder verursachen Qualitätswarnungen. KDP markiert jedes Bild unter 300 DPI in seiner gedruckten Größe. Wenn Sie diese Warnung erhalten, identifizieren Sie die niedrig aufgelösten Bilder in Ihrem Manuskript, ersetzen Sie sie durch höher aufgelöste Versionen und exportieren Sie erneut. Ignorieren Sie Auflösungswarnungen nicht — niedrig aufgelöste Bilder sind im Druck sichtbar unscharf und erzeugen Käuferbeschwerden und Rücksendungen.\n\nRandverletzungen treten auf, wenn Inhalte in die Mindestrandzone hineinragen. KDPs automatische Prüfung hebt Seiten hervor, auf denen Text oder Bilder zu nah an der Kante sind. Wenn Sie großzügige Ränder wie in dieser Anleitung empfohlen eingerichtet haben, sollten Sie diesen Fehler nie bekommen. Falls doch, prüfen Sie auf Elemente, die sich während des Layouts versehentlich verschoben haben — ein leicht gedrehtes Textfeld oder ein Bild, das wenige Pixel außerhalb der Inhaltsgrenze platziert wurde.\n\nSchrifteinbettungsfehler zeigen sich als fehlender oder ersetzter Text in der KDP-Vorschau. Wenn Ihr hochgeladenes Manuskript andere Schriften zeigt als Ihre Quelldatei, exportieren Sie erneut mit aktivierter Option zum Einbetten aller Schriften. Manche Design-Programme erfordern als Alternative zur Einbettung das Konvertieren von Text in Pfade oder das Rastern von Schriften — dies wandelt Text in Vektorformen um, die keine Schriftdateien benötigen.\n\nVerwenden Sie nach dem Upload immer den KDP-Online-Vorschau-Viewer, um Ihr Manuskript Seite für Seite zu überprüfen. Die Vorschau zeigt exakt, wie Ihr Buch im Druck aussehen wird. Prüfen Sie die erste und letzte Seite, alle Abschnittsübergänge, Seiten mit Bildern und den Lösungsteil. Achten Sie besonders auf Seiten nahe dem Buchanfang und -ende, wo die Bindungskrümmung am stärksten ist.\n\nBestellen Sie ein Probeexemplar, bevor Sie die Veröffentlichung genehmigen. Das Probeexemplar ist ein physischer Druck Ihres tatsächlichen Buches zum Selbstkostenpreis (typischerweise 2 bis 5 Dollar plus Versand). Keine digitale Vorschau ersetzt das Halten des gedruckten Buches, das Aufschlagen und das physische Testen der Aktivitäten. Schreiben Sie in die Antwortfelder. Kreisen Sie Wörter in den Wortsuchgittern ein. Lösen Sie eine Matheaufgabe im vorgesehenen Bereich. Wenn sich irgendetwas beengt, schwer erreichbar oder schlecht ausgerichtet anfühlt, beheben Sie es vor der Veröffentlichung. Eine Probeexemplar-Investition von wenigen Dollar verhindert negative Bewertungen, die den Ruf Ihres Buches dauerhaft schädigen.`,
     },
   ],
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Erstellen Sie eine Mastervorlage für jede Beschnittgröße, in der Sie veröffentlichen. Die Vorlage sollte Ränder, Kopf- und Fußzeilen, Seitenzahlen und Inhaltsbereich-Hilfslinien bereits definiert haben. Für jedes neue Buch duplizieren Sie die Vorlage und platzieren Ihre Inhalte in den vordefinierten Bereichen. Dies eliminiert Rand- und Formatierungsfehler bei nachfolgenden Büchern und beschleunigt die Produktion dramatisch. Wenn Sie eine Serie veröffentlichen (Band 1, 2, 3), garantiert die Vorlage visuelle Konsistenz über alle Bände — Leser, die mehrere Bücher Ihrer Serie kaufen, erwarten identische Formatierung, und Inkonsistenz wirkt unprofessionell.`,
     },
     {
-      heading: 'Test-PDF vor dem finalen Export erstellen',
+      heading: `Test-PDF vor dem finalen Export erstellen`,
       content: `Erstellen Sie vor Ihrem finalen hochauflösenden Export ein schnelles niedrig aufgelöstes Test-PDF und laden Sie es als Entwurf bei KDP hoch. KDPs Validierungsprüfungen laufen sofort und markieren Dimensionsfehler, Randverletzungen und Seitenzahlprobleme innerhalb von Minuten. Beheben Sie markierte Probleme in Ihrer Quelldatei und führen Sie dann Ihren finalen hochauflösenden Export durch. Dieser Zwei-Durchgang-Ansatz fängt strukturelle Formatierungsprobleme früh ab, ohne Zeit für einen vollständigen 300-DPI-Export zu verschwenden, der möglicherweise wiederholt werden muss. Löschen Sie den Entwurf, nachdem Ihr finales Manuskript die Validierung bestanden hat.`,
     },
   ],
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'mathe-aktivitaetsbuecher-kdp',
-      title: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen',
+      title: `Mathe-Aktivitätsbücher für Amazon KDP erstellen`,
       description: `Die vollständige Anleitung zur Erstellung von Mathe-Aktivitätsbüchern für KDP. Behandelt Inhaltserstellung, Schwierigkeitsverlauf und KDP-Grundlagen, die die Formatierungsspezifikationen in dieser Anleitung ergänzen.`,
     },
     {
-      slug: 'raetselbuecher-veroeffentlichen-kdp',
-      title: 'Rätselbücher auf Amazon KDP veröffentlichen',
+      slug: `raetselbuecher-veroeffentlichen-kdp`,
+      title: `Rätselbücher auf Amazon KDP veröffentlichen`,
       description: `Behandelt rätselspezifische Inhaltsstrategien, Einzel- versus Mischformate und Katalogaufbau-Ansätze für Wortsuche-, Kreuzworträtsel- und Sudoku-Bücher auf Amazon.`,
     },
     {
-      slug: 'geld-verdienen-kdp-aktivitaetsbuecher',
-      title: 'Mit KDP-Aktivitätsbüchern Geld verdienen',
+      slug: `geld-verdienen-kdp-aktivitaetsbuecher`,
+      title: `Mit KDP-Aktivitätsbüchern Geld verdienen`,
       description: `Der umfassende Umsatz-Leitfaden für KDP-Verleger. Behandelt Preisstrategie, Katalogökonomie, saisonales Veröffentlichen und Multi-Plattform-Ansätze zur Maximierung der Aktivitätsbuch-Einnahmen.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'raetselbuecher-veroeffentlichen-kdp', anchorText: 'Rätselbücher auf Amazon KDP veröffentlichen' },
-    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: 'Wortsuchbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'geld-verdienen-kdp-aktivitaetsbuecher', anchorText: 'Mit KDP-Aktivitätsbüchern Geld verdienen' },
-    { pageType: 'guide', slug: 'beste-kdp-aktivitaetsbuch-nischen', anchorText: 'Beste KDP-Aktivitätsbuch-Nischen' },
-    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: 'Sudoku-Bücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: 'Additions-Arbeitsblätter für Kinder erstellen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung zum Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblatt-Generator — Alle Details' },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `raetselbuecher-veroeffentlichen-kdp`, anchorText: `Rätselbücher auf Amazon KDP veröffentlichen` },
+    { pageType: 'guide', slug: 'wortsuchbuecher-kdp', anchorText: `Wortsuchbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `geld-verdienen-kdp-aktivitaetsbuecher`, anchorText: `Mit KDP-Aktivitätsbüchern Geld verdienen` },
+    { pageType: 'guide', slug: `beste-kdp-aktivitaetsbuch-nischen`, anchorText: `Beste KDP-Aktivitätsbuch-Nischen` },
+    { pageType: 'guide', slug: 'sudoku-buecher-kdp', anchorText: `Sudoku-Bücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `Additions-Arbeitsblätter für Kinder erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: `Mathe-Arbeitsblatt-Generator — Alle Details` },
   ],
 
   toolsRecommended: [
@@ -176,17 +176,17 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Produziert saubere Einzelrechenart-Arbeitsblattseiten, die ein unkompliziertes KDP-Seitenlayout demonstrieren. Jedes Arbeitsblatt hat eine konsistente Rasterstruktur, die sich direkt in professionell aussehende KDP-Innenseiten übersetzt, wenn Ränder und Abstände korrekt eingestellt sind.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Generiert Wortsuchgitter, die Rasterabstandsanforderungen für die KDP-Rätselbuch-Formatierung illustrieren. Die anpassbaren Gittergrößen des Generators ermöglichen es, Zelldimensionen auf die gewählte Beschnittgröße und Randkonfiguration abzustimmen.`,
     },
     {
       appId: 'writing',
-      title: 'Schreibübungs-Arbeitsblatt-Generator',
+      title: `Schreibübungs-Arbeitsblatt-Generator`,
       description: `Erstellt linierte Schreibübungsseiten, die Linienabstand- und Nachspurbereich-Formatierung für KDP demonstrieren. Schreibübungsblätter haben die strengsten Abstandsanforderungen, da Lineaturen für die Ziel-Altersgruppe exakt bemessen sein müssen.`,
     },
     {
@@ -197,22 +197,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math worksheet/worksheet.webp', alt: `Mathe-Arbeitsblatt mit Rasterlayout und Abständen, formatiert für Amazon KDP Druckspezifikationen` },
+    heroImage: { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Mathe-Arbeitsblatt mit Rasterlayout und Abständen, formatiert für Amazon KDP Druckspezifikationen` },
     samples: [
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: `Mathe-Arbeitsblatt mit präzisen Rasterabständen zur Demonstration von KDP-Rand- und Layoutanforderungen`, caption: 'Mathe-Arbeitsblatt-Layout — rasterbasierte Formatierung mit ausreichender Zelldimensionierung für komfortables Schreiben innerhalb der KDP-Randspezifikationen' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuchrätsel-Gitter mit Buchstabenabstand, formatiert für KDP-Druck`, caption: 'Wortsuchgitter — konsistenter Buchstabenabstand bei 0,3-Zoll-Zellen gewährleistet komfortables Einkreisen und Lesbarkeit in gedruckten KDP-Büchern' },
-      { src: '/samples/german/addition/addition_worksheet.webp', alt: `Additions-Arbeitsblatt mit sauberem einseitigem KDP-Layout`, caption: 'Additions-Arbeitsblatt — sauberes Einzelrechenart-Layout mit klaren Antwortfeldern, das professionelle KDP-Innenteil-Formatierung demonstriert' },
+      { src: `/samples/german/math worksheet/worksheet.webp`, alt: `Mathe-Arbeitsblatt mit präzisen Rasterabständen zur Demonstration von KDP-Rand- und Layoutanforderungen`, caption: `Mathe-Arbeitsblatt-Layout — rasterbasierte Formatierung mit ausreichender Zelldimensionierung für komfortables Schreiben innerhalb der KDP-Randspezifikationen` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuchrätsel-Gitter mit Buchstabenabstand, formatiert für KDP-Druck`, caption: `Wortsuchgitter — konsistenter Buchstabenabstand bei 0,3-Zoll-Zellen gewährleistet komfortables Einkreisen und Lesbarkeit in gedruckten KDP-Büchern` },
+      { src: `/samples/german/addition/addition_worksheet.webp`, alt: `Additions-Arbeitsblatt mit sauberem einseitigem KDP-Layout`, caption: `Additions-Arbeitsblatt — sauberes Einzelrechenart-Layout mit klaren Antwortfeldern, das professionelle KDP-Innenteil-Formatierung demonstriert` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Druckfertige Mathe-Arbeitsblätter für Amazon KDP erstellen — Formatierungs-Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Kaiserfisch — thematisches Lernbild`, caption: 'Kaiserfisch' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Clownfisch — thematisches Lernbild`, caption: 'Clownfisch' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Koralle — thematisches Lernbild`, caption: 'Koralle' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Krabbe — thematisches Lernbild`, caption: 'Krabbe' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfin — thematisches Lernbild`, caption: 'Delfin' },
   ],
 };
 

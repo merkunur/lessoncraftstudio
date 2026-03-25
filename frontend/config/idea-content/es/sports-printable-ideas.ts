@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles de Deportes — Guía de Nicho',
+    titleTag: `Ideas Imprimibles de Deportes — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de deportes para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática deportiva, estrategias por plataforma.`,
     primaryKeyword: 'ideas imprimibles de deportes',
     secondaryKeywords: [
-      'fichas temáticas deportivas para vender',
-      'negocio imprimibles temática deportiva',
-      'fichas actividades deportes para vendedores',
-      'vender imprimibles de deportes en Etsy',
+      `fichas temáticas deportivas para vender`,
+      `negocio imprimibles temática deportiva`,
+      `fichas actividades deportes para vendedores`,
+      `vender imprimibles de deportes en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas deportes de equipo',
-      'actividades temáticas juegos con pelota',
-      'imprimibles educación física para venta en línea',
+      `fichas educativas deportes de equipo`,
+      `actividades temáticas juegos con pelota`,
+      `imprimibles educación física para venta en línea`,
     ],
   },
   hero: {
@@ -40,7 +40,7 @@ La inclusividad de género representa una valiosa fortaleza del nicho de imprimi
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Deportes para Vender en Línea',
+      title: `Sopas de Letras de Deportes para Vender en Línea`,
       description: `Las sopas de letras con vocabulario deportivo atraen a vendedores de educación física que planifican unidades deportivas y a padres que buscan entretenimiento educativo que canalice el entusiasmo natural de sus hijos por los juegos y la competición en el desarrollo productivo de habilidades de lectoescritura y expansión del vocabulario en múltiples categorías deportivas. Crea puzzles con vocabulario específico de deportes como fútbol, baloncesto, fútbol americano, béisbol, tenis, hockey, voleibol, natación, atletismo y gimnasia junto con términos deportivos más amplios como atleta, estadio, trofeo, entrenador y árbitro. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos deportivos para usuarios mayores que exploran posiciones de equipos y terminología de equipamiento.`,
       appId: 'wordsearch',
     },
@@ -89,12 +89,12 @@ La inclusividad de género representa una valiosa fortaleza del nicho de imprimi
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Deportes en Etsy',
+      title: `Vender Imprimibles de Deportes en Etsy`,
       description: `Etsy recompensa el nicho de deportes con un rendimiento consistente de listados durante todo el año porque la rotación deportiva estacional mantiene la demanda fluyendo continuamente mientras los padres buscan fichas de fútbol americano en otoño, actividades de baloncesto en invierno, imprimibles de béisbol en primavera y recursos de natación en verano sin ningún período prolongado de baja demanda. Utiliza las trece etiquetas con variaciones que combinen tipos de deporte, áreas de habilidad y grupos de edad: «fichas conteo fútbol preescolar», «páginas colorear baloncesto niños pequeños» y «sopa de letras fútbol americano jardín de infantes» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas deportes». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad joven atleta» e «imprimible aficionado al deporte» en tus títulos y descripciones. Las imágenes de listados que muestran fichas deportivas impresas junto a equipamiento deportivo, camisetas de equipos o decoración de habitación deportiva superan las vistas previas digitales planas y captan la mentalidad impulsada por el entusiasmo que trae a los padres de niños amantes del deporte que buscan recursos educativos temáticos a Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades Deportivas en KDP',
+      title: `Publicar Libros de Actividades Deportivas en KDP`,
       description: `Amazon KDP destaca para los imprimibles de deportes porque los padres y compradores de regalos naturalmente añaden libros de actividades a sus carritos de Amazon junto a libros infantiles de deportes, equipamiento deportivo, artículos de equipos y guías de entrenamiento que alimentan la pasión de los jóvenes atletas por la competición y el logro. Compila fichas deportivas individuales en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas deportivos. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades deportes para niños», «fichas baloncesto preescolar» y términos de subtemas como «libro colorear fútbol» o «actividades fútbol americano para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como regalos para jóvenes atletas, complementos a equipamiento deportivo o suplementos a recursos de educación física en línea. Los libros de actividades deportivas se benefician de la demanda durante todo el año con picos deportivos estacionales que rotan continuamente a lo largo del calendario.`,
     },
     {
@@ -143,18 +143,18 @@ La inclusividad de género representa una valiosa fortaleza del nicho de imprimi
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ La inclusividad de género representa una valiosa fortaleza del nicho de imprimi
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -178,18 +178,18 @@ La inclusividad de género representa una valiosa fortaleza del nicho de imprimi
     },
     {
       pageType: 'idea',
-      slug: 'cocina-alimentacion-ideas-imprimibles',
+      slug: `cocina-alimentacion-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Cocina y Alimentación`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/sports%20bw/badminton.webp', alt: 'Bádminton — imagen educativa temática', caption: 'Bádminton' },
-    { src: '/image-library/sports%20bw/baseball.webp', alt: 'Béisbol — imagen educativa temática', caption: 'Béisbol' },
-    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Béisbol 2 — imagen educativa temática', caption: 'Béisbol 2' },
-    { src: '/image-library/sports%20bw/basketball.webp', alt: 'Baloncesto — imagen educativa temática', caption: 'Baloncesto' },
-    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Pelota de Playa — imagen educativa temática', caption: 'Pelota de Playa' },
-    { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
+    { src: `/image-library/sports%20bw/badminton.webp`, alt: `Bádminton — imagen educativa temática`, caption: 'Bádminton' },
+    { src: `/image-library/sports%20bw/baseball.webp`, alt: `Béisbol — imagen educativa temática`, caption: 'Béisbol' },
+    { src: `/image-library/sports%20bw/baseball%202.webp`, alt: `Béisbol 2 — imagen educativa temática`, caption: 'Béisbol 2' },
+    { src: `/image-library/sports%20bw/basketball.webp`, alt: `Baloncesto — imagen educativa temática`, caption: 'Baloncesto' },
+    { src: `/image-library/sports%20bw/beach%20ball.webp`, alt: `Pelota de Playa — imagen educativa temática`, caption: 'Pelota de Playa' },
+    { src: `/image-library/sports%20bw/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
   ],
 
 

@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'baustelle druckvorlagen-ideen',
     secondaryKeywords: [
-      'Baufahrzeug-Arbeitsblätter auf Etsy erstellen',
+      `Baufahrzeug-Arbeitsblätter auf Etsy erstellen`,
       `Werkzeug-Baustellen-Druckvorlagen auf KDP verkaufen`,
-      'Bagger-und-Kran-Aktivitätsblätter für Gumroad',
+      `Bagger-und-Kran-Aktivitätsblätter für Gumroad`,
       `Baustellen-Thema Arbeitsblätter für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Jungen-Lieblingsthema Druckvorlagen-Nische',
-      'Fahrzeuge-Werkzeuge Lernmaterialien Etsy',
-      'Baustellen-Bildungsthema Arbeitsblatt-Markt',
+      `Jungen-Lieblingsthema Druckvorlagen-Nische`,
+      `Fahrzeuge-Werkzeuge Lernmaterialien Etsy`,
+      `Baustellen-Bildungsthema Arbeitsblatt-Markt`,
     ],
-    titleTag: 'Baustelle Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Baustelle Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Entdecken Sie Baustelle-Druckvorlagen-Ideen für Etsy, Amazon KDP und Gumroad. Fahrzeug- und Werkzeug-Produktkonzepte, Plattformtipps und Strategien für Verkäufer.`,
   },
   hero: {
@@ -40,7 +40,7 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
       appId: 'find-count',
     },
     {
-      title: 'Baustellen-Wortsuchrätsel zum Online-Verkauf',
+      title: `Baustellen-Wortsuchrätsel zum Online-Verkauf`,
       description: `Baustellen-Vokabular-Wortsuchrätsel ziehen STEM-orientierte Verkäufer an, die Baueinheiten planen, und Eltern, die nach lehrreicher Unterhaltung suchen, die die natürliche Faszination ihres Kindes für große Maschinen und Baustellen in produktive Lese- und Vokabelentwicklung über mehrere Baukategorien hinweg kanalisiert. Erstellen Sie Rätsel mit baustellenspezifischem Vokabular wie Bagger, Kran, Planierraupe, Kipplaster, Betonmischer, Hammer, Schraubenschlüssel, Bauplan, Gerüst und Schutzhelm zusammen mit breiteren Baubegriffen wie Fundament, Struktur, Balken und Abriss. Der Wortsuchrätsel-Generator lässt Sie Gittergröße und Wortanzahl steuern, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Gitter mit sechs bis acht Wörtern für jüngere Lerner und herausfordernde Gitter mit fünfzehn oder mehr Baubegriffen für ältere Nutzer, die Fahrzeugtypen und Bauterminologie erkunden.`,
       appId: 'wordsearch',
     },
@@ -60,7 +60,7 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
       appId: 'coloring',
     },
     {
-      title: 'Baustellen-Bingokarten für Gruppenaktivitäten',
+      title: `Baustellen-Bingokarten für Gruppenaktivitäten`,
       description: `Baustellen-Bingokarten dienen STEM-Verkäufern, die Bau- und Ingenieursunterricht durchführen, und Produktkäufern, die interaktive Gruppenaktivitäten suchen, die Baustellen-Vokabular und Fahrzeugerkennung effektiver verstärken als einzelne Arbeitsblätter allein in ansprechenden Gruppen- und Lernzentrumsumgebungen. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Baustellen-Vokabelliste und stellt sicher, dass keine zwei Karten für Gruppen- oder Einzelspiel identisch sind. Verkaufen Sie Gruppen-Sets von fünfundzwanzig bis dreißig Karten mit einem Ausruferblatt und einem Baustellen-Vokabular-Referenzführer. Für den Familienmarkt erstellen Sie Bingo-Kits mit verschiedenen Fahrzeugen, Werkzeugen, Baumaterialien, Sicherheitsausrüstung und Arbeiterrollen, die Familien während bau-thematischer Lernsitzungen oder Regentag-Innenaktivitäten spielen können, wenn Spielen im Freien nicht möglich ist.`,
       appId: 'bingo',
     },
@@ -75,7 +75,7 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
       appId: 'pattern-worksheet',
     },
     {
-      title: 'Baustellen-Buchstabensalat für Vokabular-Produkte',
+      title: `Baustellen-Buchstabensalat für Vokabular-Produkte`,
       description: `Buchstabensalat-Rätsel bauen Rechtschreib- und Vokabelfähigkeiten auf und verstärken gleichzeitig Baustellenterminologie, der Kinder bei Spaziergängen an Baustellen vorbei, beim Bauspiel mit Spielzeugfahrzeugen, in schulischen Gemeinschaftshelfer-Einheiten und bei alltäglichen Beobachtungen von Bauprojekten in jeder Jahreszeit begegnen. Verwenden Sie den Buchstabensalat-Generator, um Rätsel mit Fahrzeugnamen, Werkzeugbegriffen und Bauvokabular in verschiedenen Schwierigkeitsstufen für unterschiedliche Altersgruppen zu erstellen. Einfache Wörter mit drei bis fünf Buchstaben wie „Nagel" und „Kran" funktionieren für Leseanfänger, während Wörter mit sieben bis neun Buchstaben wie „Bulldozer" und „Bauhelm" ältere Nutzer herausfordern, die stärkere Rechtschreibfähigkeiten entwickeln. Fügen Sie jedem Produkt Lösungsschlüssel bei. Buchstabensalat-Sets paaren sich natürlich mit Wortsuchrätsel-Produkten für vokabelorientierte Baustellen-Pakete, die Käufern überzeugende Gründe geben, mehrere Artikel aus Ihrem Shop zu kaufen.`,
       appId: 'word-scramble',
     },
@@ -89,7 +89,7 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Baustellen-Druckvorlagen auf Etsy verkaufen',
+      title: `Baustellen-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Baustellen-Nische mit konsistenter ganzjähriger Angebotsleistung, weil die Faszination von Kindern für Baumaschinen nie pausiert und Eltern von bau-begeisterten Kindern aktiv nach thematischen Lernmaterialien suchen, die die mechanische Neugier ihres Kindes in jeder Jahreszeit unterstützen. Nutzen Sie alle dreizehn Tags mit Variationen, die Fahrzeugtypen, Kompetenzbereiche und Altersgruppen kombinieren: „Bagger Zählarbeitsblätter Vorschule", „Baustelle Ausmalbilder Kleinkind" und „Kipplaster Wortsuchrätsel Kindergarten" zielen auf spezifische Käufersuchen weit effektiver als breite Tags wie „Baustelle Arbeitsblätter". Positionieren Sie Ihre Produkte sowohl für Bildungs- als auch für Geschenkkäufer-Suchen, indem Sie Begriffe wie „junger Baumeister Aktivität" und „Baustelle Lernmaterial" in Ihre Titel und Beschreibungen aufnehmen. Angebotsbilder, die gedruckte Baustellen-Arbeitsblätter neben Spielzeugfahrzeugen, Schutzhelmen oder Bausteinen zeigen, übertreffen flache digitale Vorschauen und fangen die Hands-on-Begeisterung ein, die Eltern von bau-begeisterten Kindern zu Etsy bringt. Zielen Sie ganzjährig auf Baustellen-Geburtstagsfeiern, da Baustellen eines der beliebtesten Geburtstagsmotive für kleine Kinder bleiben.`,
     },
     {
@@ -143,18 +143,18 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Lern-Druckvorlagen',
+      anchorText: `Etsy SEO für Lern-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'musik-druckvorlagen-ideen',
-      anchorText: 'Musik Druckvorlagen-Geschäftsideen',
+      anchorText: `Musik Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/tools/bolt.webp', alt: 'Schraube — thematisches Lernbild', caption: 'Schraube' },
-    { src: '/image-library/tools/caulking%20gun.webp', alt: 'Kartuschenpistole — thematisches Lernbild', caption: 'Kartuschenpistole' },
-    { src: '/image-library/tools/electric%20drill.webp', alt: 'Bohrmaschine — thematisches Lernbild', caption: 'Bohrmaschine' },
-    { src: '/image-library/tools/extension%20cord.webp', alt: 'Verlängerungskabel — thematisches Lernbild', caption: 'Verlängerungskabel' },
-    { src: '/image-library/tools/flashlight.webp', alt: 'Taschenlampe — thematisches Lernbild', caption: 'Taschenlampe' },
-    { src: '/image-library/tools/hammer.webp', alt: 'Hammer — thematisches Lernbild', caption: 'Hammer' },
+    { src: `/image-library/tools/bolt.webp`, alt: `Schraube — thematisches Lernbild`, caption: 'Schraube' },
+    { src: `/image-library/tools/caulking%20gun.webp`, alt: `Kartuschenpistole — thematisches Lernbild`, caption: 'Kartuschenpistole' },
+    { src: `/image-library/tools/electric%20drill.webp`, alt: `Bohrmaschine — thematisches Lernbild`, caption: 'Bohrmaschine' },
+    { src: `/image-library/tools/extension%20cord.webp`, alt: `Verlängerungskabel — thematisches Lernbild`, caption: 'Verlängerungskabel' },
+    { src: `/image-library/tools/flashlight.webp`, alt: `Taschenlampe — thematisches Lernbild`, caption: 'Taschenlampe' },
+    { src: `/image-library/tools/hammer.webp`, alt: `Hammer — thematisches Lernbild`, caption: 'Hammer' },
   ],
 
 

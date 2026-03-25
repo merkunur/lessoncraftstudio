@@ -2,15 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede cerca e conta',
+    primaryKeyword: `generatore schede cerca e conta`,
     secondaryKeywords: [
       `creatore schede trova e conta stampabili per venditori Etsy`,
-      'generatore attività cerca e trova per editori KDP',
+      `generatore attività cerca e trova per editori KDP`,
       `creatore schede cerca oggetti nascosti licenza commerciale`,
-      'vendere schede cerca e conta su Gumroad',
+      `vendere schede cerca e conta su Gumroad`,
     ],
     lsiKeywords: [
-      'stampabili cerca e trova digitali business online',
+      `stampabili cerca e trova digitali business online`,
       `generatore schede conteggio oggetti uso commerciale`,
       `strumenti business attività cerca e conta stampabili`,
     ],
@@ -22,34 +22,34 @@ const content: AppContent = {
     title: `Generatore di Schede Cerca e Conta per Attività di Ricerca e Conteggio`,
     tagline: `Due modalità di attività in un unico generatore — Cerca Oggetti Nascosti e Cerca Lettere — con quattro tipi di compito mescolabili (cerchia, riquadra, barra, conta), alfabeti specifici per lingua con lettere accentate, etichette immagine localizzate in 11 lingue e chiavi di risposta auto-generate con annotazioni visive.`,
     description:
-      `Crea schede professionali Cerca e Conta dove gli utenti esplorano una scena di immagini sparse per trovare, cerchiare, barrare o contare oggetti specifici. Scegli tra due modalità di attività: la modalità Oggetti Nascosti disperde immagini su una griglia configurabile (5–10 righe × 5–10 colonne) e ti permette di assegnare fino a 4 oggetti bersaglio con tipi di compito individuali — cerchia l'oggetto, metti un riquadro attorno, barralo o conta quanti ne appaiono. La modalità Cerca Lettere visualizza una griglia alfabetica specifica per lingua con lettere accentate (tedesco ÄÖÜ, spagnolo Ñ, svedese ÅÄÖ, danese/norvegese ÆØÅ) e genera scene usando immagini che iniziano con la lettera selezionata. Ogni scheda include un\'intestazione auto-generata — "Cerca e Trova" o "Cerca Lettere" — localizzata in tutte le 11 lingue supportate con un bordo blu (#2196F3). Il sistema a doppio canvas genera sia una scheda attività che una chiave di risposta con annotazioni rosse di cerchi, riquadri, croci e conteggi. Il Generatore Cerca e Conta è sensibile alla lingua: le etichette con i nomi delle immagini sulla scheda vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini. L'Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per etichette localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di attività Cerca e Trova su Etsy, compili quaderni di oggetti nascosti per Amazon KDP o crei attività di conteggio per Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.`,
+      `Crea schede professionali Cerca e Conta dove gli utenti esplorano una scena di immagini sparse per trovare, cerchiare, barrare o contare oggetti specifici. Scegli tra due modalità di attività: la modalità Oggetti Nascosti disperde immagini su una griglia configurabile (5–10 righe × 5–10 colonne) e ti permette di assegnare fino a 4 oggetti bersaglio con tipi di compito individuali — cerchia l`oggetto, metti un riquadro attorno, barralo o conta quanti ne appaiono. La modalità Cerca Lettere visualizza una griglia alfabetica specifica per lingua con lettere accentate (tedesco ÄÖÜ, spagnolo Ñ, svedese ÅÄÖ, danese/norvegese ÆØÅ) e genera scene usando immagini che iniziano con la lettera selezionata. Ogni scheda include un'intestazione auto-generata — "Cerca e Trova" o "Cerca Lettere" — localizzata in tutte le 11 lingue supportate con un bordo blu (#2196F3). Il sistema a doppio canvas genera sia una scheda attività che una chiave di risposta con annotazioni rosse di cerchi, riquadri, croci e conteggi. Il Generatore Cerca e Conta è sensibile alla lingua: le etichette con i nomi delle immagini sulla scheda vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini. L`Accesso Completo sblocca tutti i 104 temi con oltre 3.100 illustrazioni e tutte le 11 lingue per etichette localizzate. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti ed esporta PDF e JPEG pronti da stampare a 300 DPI nei formati Letter, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di attività Cerca e Trova su Etsy, compili quaderni di oggetti nascosti per Amazon KDP o crei attività di conteggio per Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.`,
   },
 
   howItWorks: {
-    title: 'Come Creare Schede Cerca e Conta in 5 Passaggi',
+    title: `Come Creare Schede Cerca e Conta in 5 Passaggi`,
     steps: [
       {
-        title: 'Imposta il Layout della Pagina',
+        title: `Imposta il Layout della Pagina`,
         description:
           `Apri il pannello Impostazioni Pagina e scegli un formato: Predefinito (800×1000), Letter, A4, Quadrato (1200×1200) o qualsiasi dimensione personalizzata. Configura la densità della griglia con righe (5–10) e colonne (5–10) — il valore predefinito è 6×6. Scegli un colore di pagina con il selettore colori, seleziona un tema di sfondo e regola la sua opacità, poi scegli un tema di bordo con il proprio controllo di opacità indipendente. Queste scelte di layout incorniciano la tua scheda Cerca e Conta prima di aggiungere qualsiasi contenuto.`,
       },
       {
-        title: 'Scegli la Modalità di Attività',
+        title: `Scegli la Modalità di Attività`,
         description:
           `Seleziona tra due modalità. La modalità Oggetti Nascosti (predefinita) crea scene negoziche Cerca e Trova — immagini sparse su una griglia dove gli utenti cercano oggetti specifici. La modalità Cerca Lettere attiva una griglia alfabetica specifica per lingua con lettere accentate e genera scene usando immagini che iniziano con la lettera selezionata. L'intestazione passa automaticamente tra "Cerca e Trova" e "Cerca Lettere" (localizzata in tutte le 11 lingue) in base alla tua selezione.`,
       },
       {
-        title: 'Seleziona le Immagini e Assegna i Tipi di Compito',
+        title: `Seleziona le Immagini e Assegna i Tipi di Compito`,
         description:
           `In modalità Oggetti Nascosti, scegli fino a 4 oggetti bersaglio dalle 104 collezioni tematiche della Libreria Immagini. Per ogni immagine selezionata, assegna un tipo di compito dal menu a tendina: cerchia (disegna un cerchio attorno), riquadra (metti un riquadro attorno), barra (barralo) o conta (conta quanti ne appaiono). La griglia riempie le celle rimanenti con immagini distrattore casuali dal tema. In modalità Cerca Lettere, clicca una lettera dalla griglia alfabetica per popolare automaticamente immagini bersaglio e distrattori.`,
       },
       {
-        title: 'Genera la Scheda Cerca e Conta',
+        title: `Genera la Scheda Cerca e Conta`,
         description:
-          `L'app genera automaticamente una scheda al caricamento della pagina con il tema animali, 4 immagini casuali e tipi di compito casuali. Clicca Genera per ricostruire con le tue impostazioni personalizzate. La scena di immagini sparse riempie la griglia con oggetti bersaglio distribuiti casualmente (1–5 istanze ciascuno) tra immagini distrattore. Un'intestazione stilizzata appare in alto con un bordo blu (#2196F3), accento interno giallo e titolo e istruzioni localizzati nei font Fredoka e Quicksand.`,
+          `L`app genera automaticamente una scheda al caricamento della pagina con il tema animali, 4 immagini casuali e tipi di compito casuali. Clicca Genera per ricostruire con le tue impostazioni personalizzate. La scena di immagini sparse riempie la griglia con oggetti bersaglio distribuiti casualmente (1–5 istanze ciascuno) tra immagini distrattore. Un`intestazione stilizzata appare in alto con un bordo blu (#2196F3), accento interno giallo e titolo e istruzioni localizzati nei font Fredoka e Quicksand.`,
       },
       {
-        title: 'Genera la Chiave di Risposta e Scarica',
+        title: `Genera la Chiave di Risposta e Scarica`,
         description:
           `Passa alla scheda Chiave di Risposta per vedere le annotazioni generate automaticamente: cerchi rossi attorno agli oggetti da cerchiare, riquadri rossi attorno agli oggetti da riquadrare, croci rosse sugli oggetti da barrare e visualizzazione del conteggio per gli oggetti da contare. Scarica entrambe le versioni usando quattro pulsanti dedicati: Scheda JPEG, Chiave di Risposta JPEG, Scheda PDF e Chiave di Risposta PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio di inchiostro. Ogni esportazione è pronta per la produzione su Etsy, Amazon KDP e Gumroad.`,
       },
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: `Etichette Immagine Localizzate in 11 Lingue tramite Vocabolario Immagini`,
         description:
-          `Il Generatore Cerca e Conta è sensibile alla lingua. Le etichette con i nomi delle immagini sulla scheda vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini (image-vocabulary.js). Passando dall'inglese al tedesco, "cat" diventa "Katze", "dog" diventa "Hund", e le prime lettere si aggiornano di conseguenza nella modalità Cerca Lettere. Tutte le 11 lingue sono supportate: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Il livello Commerciale include solo l\'inglese; l'Accesso Completo sblocca tutte le 11 lingue per etichette localizzate.`,
+          `Il Generatore Cerca e Conta è sensibile alla lingua. Le etichette con i nomi delle immagini sulla scheda vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini (image-vocabulary.js). Passando dall`inglese al tedesco, "cat" diventa "Katze", "dog" diventa "Hund", e le prime lettere si aggiornano di conseguenza nella modalità Cerca Lettere. Tutte le 11 lingue sono supportate: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Il livello Commerciale include solo l'inglese; l`Accesso Completo sblocca tutte le 11 lingue per etichette localizzate.`,
       },
       {
         title: `Chiave di Risposta Auto-Generata con Annotazioni Visive e Visualizzazione Conteggi`,
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Come Vendere Schede Cerca e Conta Online',
+    title: `Come Vendere Schede Cerca e Conta Online`,
     cases: [
       {
         title: `Pacchetti di Attività Cerca e Trova Tematiche su Etsy`,
@@ -112,28 +112,28 @@ const content: AppContent = {
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Quaderni di Attività Cerca e Trova su Amazon KDP',
+        title: `Quaderni di Attività Cerca e Trova su Amazon KDP`,
         description:
           `Compila 40–80 schede Cerca e Conta in un quaderno stampato formattato per Amazon KDP. Struttura il tuo libro per difficoltà progressiva: i primi capitoli usano griglie 5×5 con 2 oggetti bersaglio, i capitoli intermedi aumentano a griglie 7×7 con 3 bersagli, e i capitoli avanzati usano griglie 10×10 con tutti e 4 i bersagli e tipi di compito misti. Includi le chiavi di risposta in fondo al libro usando la funzione chiave di risposta auto-generata. La modalità scala di grigi produce pagine a risparmio di inchiostro pronte per interni di libri in bianco e nero.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Attività di Osservazione e Conteggio per Gumroad',
+        title: `Attività di Osservazione e Conteggio per Gumroad`,
         description:
-          `Crea schede Cerca e Conta pronte all'uso dove gli utenti cercano, trovano e contano oggetti in una scena di immagini sparse. i venditori che cercano attività di conteggio su Gumroad apprezzano schede che combinano ricerca visiva e pratica di calcolo. Il tipo di compito conta chiede agli utenti di scrivere quante istanze di ogni oggetto trovano — un'estensione naturale del Cerca e Trova nelle competenze matematiche. Crea set allineati al mercato: conteggio animali della fattoria, conteggio aiutanti della comunità, conteggio creature marine e conteggio oggetti stagionali. Ogni set include schede utente e chiavi di risposta in formato PDF e JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+          `Crea schede Cerca e Conta pronte all`uso dove gli utenti cercano, trovano e contano oggetti in una scena di immagini sparse. i venditori che cercano attività di conteggio su Gumroad apprezzano schede che combinano ricerca visiva e pratica di calcolo. Il tipo di compito conta chiede agli utenti di scrivere quante istanze di ogni oggetto trovano — un`estensione naturale del Cerca e Trova nelle competenze matematiche. Crea set allineati al mercato: conteggio animali della fattoria, conteggio aiutanti della comunità, conteggio creature marine e conteggio oggetti stagionali. Ogni set include schede utente e chiavi di risposta in formato PDF e JPEG.`,
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Pacchetti Cerca Lettere e Fonetica per la Consapevolezza Alfabetica`,
         description:
           `Sfrutta la modalità Cerca Lettere per creare schede Cerca e Trova focalizzate sul riconoscimento della lettera iniziale. Ogni scheda si concentra su una lettera specifica — gli utenti trovano tutti gli oggetti che iniziano con quella lettera in una scena di immagini sparse. Crea un pacchetto completo A–Z di Cerca Lettere con 26 schede (una per lettera) e chiavi di risposta. Gli alfabeti specifici per lingua con lettere accentate ti permettono di creare pacchetti fonetici per il mercato tedesco (ÄÖÜ), spagnolo (Ñ) e nordico (ÅÄÖ/ÆØÅ) che i concorrenti con strumenti solo in inglese non possono eguagliare.`,
-        platform: 'Etsy / Gumroad (mercato alfabetizzazione)',
+        platform: `Etsy / Gumroad (mercato alfabetizzazione)`,
       },
       {
         title: `Collezioni Cerca e Trova Multilingue per Mercati Globali`,
         description:
           `Sfrutta le etichette immagine sensibili alla lingua per creare schede Cerca e Trova in 11 lingue. Le stesse immagini producono etichette diverse quando cambi lingua — i nomi delle immagini, le prime lettere in Cerca Lettere e il testo dell'intestazione si aggiornano automaticamente. Crea pacchetti Cerca e Trova multilingue dove ogni versione linguistica usa le stesse immagini tematiche ma con etichette localizzate. Questo è prezioso per venditori ESL/EFL, negozi bilingui e famiglie di homeschooling internazionali. Vendi pacchetti specifici per lingua o mega-pacchetti multilingue a prezzi premium.`,
-        platform: 'Etsy / Gumroad (mercato multilingue)',
+        platform: `Etsy / Gumroad (mercato multilingue)`,
       },
     ],
   },
@@ -147,7 +147,7 @@ const content: AppContent = {
     {
       question: `Quali sono i quattro tipi di compito e posso mescolarli su una scheda?`,
       answer:
-        `I quattro tipi di compito sono cerchia (disegna un cerchio attorno all'oggetto), riquadra (metti un riquadro attorno all\'oggetto), barra (barra l'oggetto) e conta (conta quante istanze appaiono e scrivi il numero). Sì, puoi assegnare un tipo di compito diverso a ciascuno dei 4 oggetti bersaglio su una singola scheda. Per esempio, una scheda può chiedere agli utenti di cerchiare tutti i gatti, barrare tutti i cani, contare tutti gli uccelli e mettere un riquadro attorno a tutti i pesci.`,
+        `I quattro tipi di compito sono cerchia (disegna un cerchio attorno all`oggetto), riquadra (metti un riquadro attorno all'oggetto), barra (barra l`oggetto) e conta (conta quante istanze appaiono e scrivi il numero). Sì, puoi assegnare un tipo di compito diverso a ciascuno dei 4 oggetti bersaglio su una singola scheda. Per esempio, una scheda può chiedere agli utenti di cerchiare tutti i gatti, barrare tutti i cani, contare tutti gli uccelli e mettere un riquadro attorno a tutti i pesci.`,
     },
     {
       question: `Come funziona la modalità Cerca Lettere con le diverse lingue?`,
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: `Come funzionano le etichette immagine localizzate?`,
       answer:
-        `Il Generatore Cerca e Conta è sensibile alla lingua. Le etichette con i nomi delle immagini vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini (image-vocabulary.js). Per esempio, un'immagine di gatto mostra "Cat" in inglese, "Katze" in tedesco, "Chat" in francese e "Gato" in spagnolo. Nella modalità Cerca Lettere, anche le prime lettere cambiano con la lingua — un gatto inizia con "C" in inglese ma "K" in tedesco e "G" in spagnolo. Il livello Commerciale supporta solo l\'inglese; l'Accesso Completo sblocca tutte le 11 lingue.`,
+        `Il Generatore Cerca e Conta è sensibile alla lingua. Le etichette con i nomi delle immagini vengono renderizzate nella lingua selezionata tramite il sistema Vocabolario Immagini (image-vocabulary.js). Per esempio, un`immagine di gatto mostra "Cat" in inglese, "Katze" in tedesco, "Chat" in francese e "Gato" in spagnolo. Nella modalità Cerca Lettere, anche le prime lettere cambiano con la lingua — un gatto inizia con "C" in inglese ma "K" in tedesco e "G" in spagnolo. Il livello Commerciale supporta solo l'inglese; l`Accesso Completo sblocca tutte le 11 lingue.`,
     },
     {
       question: `Come funziona la densità della griglia configurabile?`,
@@ -165,7 +165,7 @@ const content: AppContent = {
         `Nel pannello Impostazioni Pagina, imposta le righe da 5 a 10 e le colonne da 5 a 10. Il valore predefinito è 6×6 (36 celle). Una griglia più piccola come 5×5 (25 celle) crea schede più facili con immagini più grandi — ideale per i più piccoli. Una griglia più grande come 10×10 (100 celle) crea scene dense e impegnative per utenti avanzati. Ogni cella visualizza un'immagine alla dimensione massima di 80px. Gli oggetti bersaglio appaiono 1–5 volte ciascuno, con le celle rimanenti riempite da immagini distrattore casuali dal tema.`,
     },
     {
-      question: 'Perché c\'è un limite di 4 oggetti per scheda?',
+      question: `Perché c'è un limite di 4 oggetti per scheda?`,
       answer:
         `Il generatore impone un massimo di 4 oggetti bersaglio per scheda per mantenere attività Cerca e Trova chiare e focalizzate. Con 4 oggetti e 4 tipi di compito diversi, una singola scheda può contenere 4 compiti distinti di cerca-e-fai — abbastanza varietà per sfidare gli utenti senza sopraffarli. Il pannello Domande Oggetti Nascosti mostra un conteggio di selezione e fornisce un pulsante Cancella Selezione per reimpostare le scelte. Questo limite garantisce che ogni scheda rimanga visivamente scansionabile e pedagogicamente efficace.`,
     },
@@ -177,10 +177,10 @@ const content: AppContent = {
     {
       question: `La scheda si genera automaticamente al caricamento della pagina?`,
       answer:
-        `Sì. L'app genera automaticamente una scheda Cerca e Conta completa quando la apri — usando il tema animali, 4 immagini selezionate casualmente e tipi di compito assegnati casualmente su una griglia 6×6. Questo ti dà un'anteprima immediata di ciò che lo strumento produce. Da lì, puoi personalizzare il tema, le dimensioni della griglia, gli oggetti bersaglio, i tipi di compito e la modalità di attività, poi cliccare Genera per ricostruire con le tue impostazioni.`,
+        `Sì. L`app genera automaticamente una scheda Cerca e Conta completa quando la apri — usando il tema animali, 4 immagini selezionate casualmente e tipi di compito assegnati casualmente su una griglia 6×6. Questo ti dà un`anteprima immediata di ciò che lo strumento produce. Da lì, puoi personalizzare il tema, le dimensioni della griglia, gli oggetti bersaglio, i tipi di compito e la modalità di attività, poi cliccare Genera per ricostruire con le tue impostazioni.`,
     },
     {
-      question: 'È disponibile una prova gratuita?',
+      question: `È disponibile una prova gratuita?`,
       answer:
         `Sì. Puoi accedere a ogni funzionalità — entrambe le modalità di attività, tutti e quattro i tipi di compito, Cerca Lettere con alfabeti specifici per lingua, dimensioni griglia configurabili, la chiave di risposta auto-generata, la libreria completa di immagini, temi di sfondo e bordo e tutti i formati di download — senza creare un account, inserire una carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.`,
     },
@@ -195,7 +195,7 @@ const content: AppContent = {
         `Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede Cerca e Conta come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di attività, quattro tipi di compito, Cerca Lettere con alfabeti specifici per lingua e 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti Cerca e Trova originali e vendibili.`,
     },
     {
-      question: 'Qual è la politica di rimborso?',
+      question: `Qual è la politica di rimborso?`,
       answer:
         `Poiché la prova gratuita ti dà accesso a ogni funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambe le modalità di attività, tutti e quattro i tipi di compito, la modalità Cerca Lettere, le dimensioni griglia configurabili, la chiave di risposta auto-generata, la libreria completa di immagini, temi di sfondo e bordo e tutti i formati di download prima dell'acquisto. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.`,
     },
@@ -205,32 +205,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'trova-oggetti-schede',
-      anchorText: 'Generatore di Schede Trova Oggetti',
+      anchorText: `Generatore di Schede Trova Oggetti`,
     },
     {
       pageType: 'app',
       slug: 'cruciverba-immagini-schede',
-      anchorText: 'Generatore di Schede Cruciverba con Immagini',
+      anchorText: `Generatore di Schede Cruciverba con Immagini`,
     },
     {
       pageType: 'app',
       slug: 'caccia-tesoro-schede',
-      anchorText: 'Generatore di Schede Caccia al Tesoro',
+      anchorText: `Generatore di Schede Caccia al Tesoro`,
     },
     {
       pageType: 'app',
       slug: 'grafici-immagini-schede',
-      anchorText: 'Generatore di Schede Grafici e Conteggio',
+      anchorText: `Generatore di Schede Grafici e Conteggio`,
     },
     {
       pageType: 'app',
       slug: 'percorso-illustrato-schede',
-      anchorText: 'Generatore di Schede Percorso Illustrato',
+      anchorText: `Generatore di Schede Percorso Illustrato`,
     },
     {
       pageType: 'app',
       slug: 'cerca-parole-schede',
-      anchorText: 'Generatore di Schede Cerca Parole',
+      anchorText: `Generatore di Schede Cerca Parole`,
     },
     {
       pageType: 'bundle',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'creare-schede-conteggio',
-      anchorText: 'Come Creare e Vendere Schede di Conteggio',
+      anchorText: `Come Creare e Vendere Schede di Conteggio`,
     },
     {
       pageType: 'idea',
@@ -249,29 +249,29 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animali-marini-idee-stampabili',
-      anchorText: 'Idee di stampabili di animali marini',
+      slug: `animali-marini-idee-stampabili`,
+      anchorText: `Idee di stampabili di animali marini`,
     },
     {
       pageType: 'start',
       slug: 'marketing-attivita-stampabili',
-      anchorText: 'Marketing per la tua attività di stampabili',
+      anchorText: `Marketing per la tua attività di stampabili`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/find and count/Vedo Vedo 1.webp',
+      primary: `/samples/italian/find and count/Vedo Vedo 1.webp`,
       primaryAlt: `Scheda Cerca e Conta con immagini sparse su una griglia, bordo intestazione blu e istruzioni per quattro tipi di compito`,
     },
     sampleGallery: [
       {
-        src: '/samples/italian/find and count/Vedo Vedo 1.webp',
+        src: `/samples/italian/find and count/Vedo Vedo 1.webp`,
         alt: `Scheda modalità Oggetti Nascosti in formato verticale con immagini animali sparse e istruzioni dei compiti`,
         caption: `Modalità Oggetti Nascosti — Cerca e Trova negozico con compiti cerchia, riquadra, barra e conta`,
       },
       {
-        src: '/samples/italian/find and count/Vedo Vedo 2.webp',
+        src: `/samples/italian/find and count/Vedo Vedo 2.webp`,
         alt: `Scheda Cerca e Conta in formato orizzontale con layout griglia più ampio`,
         caption: `Formato orizzontale — layout griglia più ampio per più colonne e densità visiva variata`,
       },

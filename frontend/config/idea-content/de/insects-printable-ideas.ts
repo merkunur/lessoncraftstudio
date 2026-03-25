@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'insekten-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Insekten-Arbeitsblätter auf Etsy erstellen',
-      'Käfer-Schmetterling-Druckvorlagen auf KDP',
-      'Insekten-Aktivitätsblätter auf Gumroad verkaufen',
+      `Insekten-Arbeitsblätter auf Etsy erstellen`,
+      `Käfer-Schmetterling-Druckvorlagen auf KDP`,
+      `Insekten-Aktivitätsblätter auf Gumroad verkaufen`,
       `Krabbeltier-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'Naturwissenschaft-Thema Insekten-Druckvorlagen',
-      'Entomologie-Bildungsthema Arbeitsblätter Etsy',
-      'Frühling-Sommer-Insekten Lernmaterialien',
+      `Naturwissenschaft-Thema Insekten-Druckvorlagen`,
+      `Entomologie-Bildungsthema Arbeitsblätter Etsy`,
+      `Frühling-Sommer-Insekten Lernmaterialien`,
     ],
-    titleTag: 'Insekten-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Insekten-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Insekten-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Arbeitsblatt-Verkäufer und Druckvorlagen-Shops.`,
   },
   hero: {
@@ -46,7 +46,7 @@ Die Übereinstimmung mit naturwissenschaftlichen Bildungsstandards verleiht Inse
       appId: 'find-count',
     },
     {
-      title: 'Insekten-Wortsuche-Rätsel zum Online-Verkauf',
+      title: `Insekten-Wortsuche-Rätsel zum Online-Verkauf`,
       description: `Insekten-Vokabel-Wortsuchrätsel sprechen Eltern und Käufer an, die Sprachkenntnisse rund um Entomologie und Naturthemen aufbauen möchten. Erstellen Sie Rätsel mit gängigen Insektennamen, Körperteil-Vokabular, Lebensraum-Terminologie und Metamorphose-Wörtern wie Kokon und Puppe. Der Wortsuche-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Schwierigkeitsstufen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Wörtern für ältere Nutzer an. Saisonale Variationen wie Frühlings-Bestäuber-Wortsuchrätsel, Sommer-Garten-Insekten-Rätsel und allgemeine Entomologie-Vokabelraster erweitern Ihren Produktkatalog über das gesamte Jahr.`,
       appId: 'wordsearch',
     },
@@ -61,12 +61,12 @@ Die Übereinstimmung mit naturwissenschaftlichen Bildungsstandards verleiht Inse
       appId: 'addition',
     },
     {
-      title: 'Insekten-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Insekten-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Ausmalseiten sind ein ideales Einstiegsprodukt für insektenthematische Druckvorlagen-Shops, da sie erste Bewertungen generieren und Impulskäufe von einem breiten Publikum anziehen. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Schmetterlingen, Marienkäfern, Libellen, Käfern, Raupen, Bienen, Heuschrecken und anderen visuell markanten Arten. Für Etsy verkaufen Sie Einzelseiten oder kuratierte Sets von zehn bis fünfzehn Insekten, gruppiert nach Thema wie Gartenbestäuber oder Regenwald-Insekten. Für KDP stellen Sie dreißig bis fünfzig Ausmalseiten zu Aktivitätsbüchern zusammen. Fügen Sie lehrreiche Elemente wie Artnamen, interessante Fakten zu jedem Insekt oder Lebensraum-Beschriftungen neben den Ausmalbildern hinzu, um sich von rein dekorativen Optionen abzuheben und einen höheren Preis zu rechtfertigen.`,
       appId: 'coloring',
     },
     {
-      title: 'Insekten-Bingo-Karten für Shop und Naturgruppen',
+      title: `Insekten-Bingo-Karten für Shop und Naturgruppen`,
       description: `Insektenthematische Bingo-Karten bedienen Käufer, die Entomologie- oder Natureinheiten durchführen, und Eltern, die käferthematische Partys oder Pfadfinderaktivitäten organisieren. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Insekten-Vokabelliste und stellt sicher, dass keine zwei Karten für Gruppenspiele identisch sind. Verkaufen Sie Gruppensätze von fünfundzwanzig bis dreißig Karten mit einem Ausrufblatt und einer Insekten-Bildreferenz. Für den Naturbildungsmarkt erstellen Sie Bingo-Sets mit Garten-Insekten-Bestimmung, die Familien bei echten Outdoor-Erkundungsausflügen nutzen können. Bingo-Produkte generieren Wiederholungskäufe, da Käufer und Gruppenleiter das ganze Schuljahr über regelmäßig frische Themen benötigen.`,
       appId: 'bingo',
     },
@@ -95,12 +95,12 @@ Die Übereinstimmung mit naturwissenschaftlichen Bildungsstandards verleiht Inse
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Insekten-Druckvorlagen auf Etsy verkaufen',
+      title: `Insekten-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt Spezifität bei Insekten-Druckvorlagen-Angeboten. Statt breiter Titel wie „Insekten-Arbeitsblätter" zielen Sie auf Long-Tail-Keywords wie „Schmetterling Zählarbeitsblätter Vorschule" oder „Insekten Wortsuche Druckvorlage Kindergarten". Nutzen Sie alle dreizehn Tags mit Variationen, die Insektenarten, Fähigkeitstyp und Altersgruppe kombinieren. Angebotsbilder, die gedruckte Insekten-Arbeitsblätter in naturthematischen oder Shop-Settings zeigen, übertreffen flache digitale Vorschauen deutlich. Planen Sie neue Angebote so, dass sie mit saisonalen Nachfragespitzen von März bis Mai für Frühlings-Schmetterlings- und Bestäuber-Einheiten und von Juni bis August für Sommer-Naturerkundungsthemen zusammenfallen. Bieten Sie sowohl einzelne Insekten-Arbeitsblätter als auch artthematische Pakete an, da Etsy-Käufer oft mit einem einzelnen günstigen Kauf beginnen und nach Erfahrung mit Ihrer Produktqualität für größere Pakete zurückkehren.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Insekten-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Insekten-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP funktioniert am besten für insektenthematische Druckvorlagen, wenn Sie einzelne Arbeitsblätter zu zusammenhängenden Aktivitätsbüchern zusammenstellen, die Vielfalt und Mehrwert bieten. Ein Insekten-Aktivitätsbuch mit vierzig bis sechzig Seiten, das Zählen, Ausmalen, Zuordnen, Wortsuchrätsel und Zeichenaktivitäten kombiniert, schneidet in der Kategorie Kinder-Aktivitätsbücher gut ab. Nutzen Sie die KDP-Schlüsselwortfelder strategisch: Verwenden Sie „Insekten-Aktivitätsbuch für Kinder", „Käfer-Arbeitsblätter Vorschule" und artspezifische Begriffe wie „Schmetterling-Malbuch" oder „Marienkäfer-Aktivitäten". Setzen Sie den Preis zwischen vier und sieben Dollar für optimale Tantiemen an. Erwägen Sie, artspezifische Mini-Bücher neben allgemeinen Insekten-Aktivitätsbüchern zu erstellen, um Käufer anzusprechen, die nach bestimmten Insekten suchen, von denen ihre Kinder fasziniert sind.`,
     },
     {
@@ -149,18 +149,18 @@ Die Übereinstimmung mit naturwissenschaftlichen Bildungsstandards verleiht Inse
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -169,33 +169,33 @@ Die Übereinstimmung mit naturwissenschaftlichen Bildungsstandards verleiht Inse
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'voegel-druckvorlagen-ideen',
-      anchorText: 'Vögel-Druckvorlagen: Geschäftsideen',
+      anchorText: `Vögel-Druckvorlagen: Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
-    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Schmetterling — thematisches Lernbild', caption: 'Schmetterling' },
+    { src: `/image-library/insects%20and%20bugs/ant.webp`, alt: `Ameise — thematisches Lernbild`, caption: 'Ameise' },
+    { src: `/image-library/insects%20and%20bugs/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: `Schmetterling — thematisches Lernbild`, caption: 'Schmetterling' },
     { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Raupe — thematisches Lernbild', caption: 'Raupe' },
-    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Tausendfüßler — thematisches Lernbild', caption: 'Tausendfüßler' },
-    { src: '/image-library/insects%20and%20bugs/cricket.webp', alt: 'Grille — thematisches Lernbild', caption: 'Grille' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: `Tausendfüßler — thematisches Lernbild`, caption: 'Tausendfüßler' },
+    { src: `/image-library/insects%20and%20bugs/cricket.webp`, alt: `Grille — thematisches Lernbild`, caption: 'Grille' },
   ],
 
 

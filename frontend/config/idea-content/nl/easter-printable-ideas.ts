@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pasen Printables Verkopen — Nichegids',
+    titleTag: `Pasen Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende Pasen printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Lentefeest productconcepten, seizoensstrategieën en tips voor verkopers.`,
 
     primaryKeyword: 'pasen printable ideeën',
     secondaryKeywords: [
       'pasen werkbladen verkopen',
       'pasenthema printable business',
-      'pasen activiteiten voor verkopers',
-      'pasen printables verkopen op Etsy',
+      `pasen activiteiten voor verkopers`,
+      `pasen printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'lente feestdagen educatieve werkbladen',
-      'paaseieren zoeken activiteiten',
-      'seizoensgebonden paas printbare producten',
+      `lente feestdagen educatieve werkbladen`,
+      `paaseieren zoeken activiteiten`,
+      `seizoensgebonden paas printbare producten`,
     ],
   },
   hero: {
-    title: 'Pasen Printable Businessideeën voor Verkopers',
+    title: `Pasen Printable Businessideeën voor Verkopers`,
     description: `Pasen creëert een levendig lenteverkoopvenster voor printable-ondernemers, met stijgende vraag van februari tot april terwijl verkopers lente-klasactiviteiten plannen en ouders zoeken naar educatieve paasmandinvullers en eizoeksupplementen. De niche biedt verrukkelijke subthemavariatie waaronder konijntjes, versierde eieren, kuikens, lammetjes, mandjes, lentebloemen, tulpen, wortels en eierzoektochten, wat verkopers een vrolijk visueel vocabulaire geeft dat sterk resoneert bij jonge gebruikers en hun gezinnen. Kerkgroepen en gemeenschapsorganisaties vormen een extra koopsegment, op zoek naar printbare activiteiten voor paasevenementen en lentevieringen. Voor printable-verkopers op Etsy, Amazon KDP en Gumroad combineert de paasniche voorspelbare jaarlijkse vraag met een feestelijke lente-esthetiek die prachtig fotografeert voor productvermeldingen en marketingmaterialen. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig, alle functies beschikbaar.`,
   },
   marketOverview: `De pasen printable-niche neemt een uitstekende positie in op de lenteverkoopkalender en levert geconcentreerde seizoensgebonden vraag tijdens een periode waarin weinig andere feestdagen concurreren om kopersaandacht. verkopers beginnen in februari en begin maart met het plannen van lente-klasactiviteiten en paas-voorbereidingen, op zoek naar thematische werkbladen die feestelijke charme combineren met echte educatieve uitkomsten. Ouders zoeken leeftijdsgeschikte paasactiviteiten die dubbeldienst doen als paasmandinserts en educatief vermaak tijdens de opwindende dagen in de aanloop naar het feest. Kerkgroepen, zondagsschoolcoördinatoren en gemeenschapsevenementenorganisatoren kopen thematische activiteitenbladen voor paaseierzoektochten, lentefestivals en gezinsvriendelijke vieringen die gestructureerde activiteiten nodig hebben voor jonge deelnemers.
@@ -40,27 +40,27 @@ De paasniche biedt ook mogelijkheden voor premiumprijzen voor gespecialiseerde p
 
   productIdeas: [
     {
-      title: 'Pasen Telwerkbladen voor Printable Verkopers',
+      title: `Pasen Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met eieren, konijntjes, kuikens, bloemen en wortels brengen lente-opwinding in vroege rekenoefeningen die verkopers en ouders gretig kopen gedurende het paasseizoen. Gebruik de Zoek en Tel-generator om paasscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen versierde mandjes, bloementuinen en eierzoeklandschappen. Bied sets aan op meerdere vaardigheidsniveaus: lentevoorwerpen tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen versierde eieren of groepjes babykuikens voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Pasen Woordzoekpuzzels Online Verkopen',
+      title: `Pasen Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met lentevocabulaire trekken verkopers aan die maart- en aprilactiviteiten plannen en ouders die educatief vermaak zoeken tijdens de paasviering. Maak puzzels met paasspecifiek vocabulaire zoals konijn, mandje, kuiken, lammetje, tulp, chocolade en paasei naast bredere lentevieringstermen. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren voor verschillende niveaucategories. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer paastermen voor oudere gebruikers. Variaties zoals eierzoektochtvocabulaire, lentedierenwoorden en paasvieringsterminologie verbreden je catalogus.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Pasen Koppelactiviteiten voor Educatieve Winkels',
-      description: `Koppelwerkbladen met paasthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke lentekoperspubliek aanspreken. Maak sets waarin kinderen versierde eieren koppelen aan mandjes, lentedieren combineren zoals kuikens met nesten en konijntjes met wortels, of paasitems verbinden met bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die klasvieringen voor Pasen plannen waar gestructureerde activiteiten opgewonden kinderen gefocust en betrokken houden. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      title: `Pasen Koppelactiviteiten voor Educatieve Winkels`,
+      description: `Koppelwerkbladen met paasthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn die het breedst mogelijke lentekoperspubliek aanspreken. Maak sets waarin kinderen versierde eieren koppelen aan mandjes, lentedieren combineren zoals kuikens met nesten en konijntjes met wortels, of paasitems verbinden met bijpassende patronen. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die klasvieringen voor Pasen plannen waar gestructureerde activiteiten opgewonden kinderen gefocust en betrokken houden. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Pasen Optelwerkbladen voor Rekenverkopers',
+      title: `Pasen Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met lente-illustraties transformeren routinematige rekenoefeningen in feestelijke activiteiten die verkopers verkiezen boven gewone getallenoefeningen tijdens de vrolijke weken in de aanloop naar Pasen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen eieren in mandjes optellen, konijnthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met kuikens, wortels en lentebloemen. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met paasvisuele context. Paas-rekenwerkbladen zijn sterk gevraagd omdat verkopers productgerichte oefeningen nodig hebben die passen bij de seizoensenergie in hun productlijnen.`,
       appId: 'addition',
     },
     {
-      title: 'Pasen Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Pasen Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten zijn het instapproduct met het hoogste volume voor pasen printable-winkels omdat lentekleuren vrijwel elk gezin met jonge kinderen aanspreekt en vroege beoordelingen genereert die de zichtbaarheid van je hele winkel verhogen tijdens piekseizoenverkeer. De Kleuren-generator maakt gedetailleerde contouren van paaskonijnen, versierde eieren, lentebloemen, babykuikens, lammetjes, mandjes overlopend met lekkernijen en vrolijke tuinscènes. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals eierversieringspatronen of lentedierpersonages. Voor KDP compileer je dertig tot vijftig kleurplaten in paas-activiteitenboeken gepositioneerd als mandvullers of lentecadeaus.`,
       appId: 'coloring',
     },
@@ -94,13 +94,13 @@ De paasniche biedt ook mogelijkheden voor premiumprijzen voor gespecialiseerde p
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Pasen Printables Verkopen op Etsy',
+      title: `Pasen Printables Verkopen op Etsy`,
       description: `Etsy beloont vroeg publiceren en zoekwoordspecificiteit voor pasen printable-vermeldingen, en het lentewinkelseizoen creëert een aanzienlijke verkeerspiek voor educatieve digitale downloads. Publiceer je paasvermeldingen tegen eind januari om Etsy-zoekalgoritmen de tijd te geven je producten te indexeren en te ranken vóór de februarivraagstijging begint. Gebruik alle dertien tags met variaties die paassubthema's, vaardigheidstypen en leeftijdsgroepen combineren: "pasen telwerkbladen kleuters," "lente woordzoeker kleuterschool" en "konijn kleurplaten peuters" richten zich op specifieke koperszoekopdrachten veel effectiever dan brede tags. Maak vieringsgerichte vermeldingsvariaties die activiteitenbundels positioneren als klas-paasfeestpakketten of paasmandinvullers. De Nederlandse markt via Etsy.nl biedt sterke kansen gezien de populariteit van Pasen in Nederland en het beperkte Nederlandstalige aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Pasen Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP blinkt uit voor paasprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast chocolade-eieren, paasmandjes en lentespeelgoed. Compileer individuele paaswerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond lentethema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "pasen activiteitenboek voor kinderen," "lente werkbladen kleuters" en subthematermen toe als "konijn kleurboek" of "eierzoektocht activiteiten voor kinderen." Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als paasmandinvullers of lenteklascadeaus. Publiceer tegen begin februari. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
+      title: `Pasen Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP blinkt uit voor paasprintables omdat ouders en cadeaukopers op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast chocolade-eieren, paasmandjes en lentespeelgoed. Compileer individuele paaswerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond lentethema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "pasen activiteitenboek voor kinderen," "lente werkbladen kleuters" en subthematermen toe als "konijn kleurboek" of "eierzoektocht activiteiten voor kinderen." Prijs tussen vier en acht euro voor optimale royaltymarges, en positioneer je boeken als paasmandinvullers of lenteklascadeaus. Publiceer tegen begin februari. Overweeg ook Amazon.nl en Bol.com voor het Nederlandstalige marktsegment.`,
     },
     {
       platform: 'Gumroad',
@@ -133,7 +133,7 @@ De paasniche biedt ook mogelijkheden voor premiumprijzen voor gespecialiseerde p
     },
     {
       question: `Verkopen paasprintables ook buiten het lenteseizoen?`,
-      answer: `Pasen printable-verkopen zijn sterk geconcentreerd in het venster van februari tot april, waarbij het overgrote deel van de omzet plaatsvindt tijdens deze driemandsperiode. Er zijn echter factoren die kleinere verkopen buiten de piek creëren. Sommige verkopers plannen het lenteproductcatalogus tijdens de kerstvakantie en kopen vroeg. Thuisonderwijzende gezinnen met flexibele schema's kunnen paas- en lentethema\'s op niet-traditionele momenten gebruiken. Religieuze educatieprogramma's en zondagsscholen kunnen paasthema materiaal het hele jaar door gebruiken voor verschillende doeleinden. Hoewel je geen significante jaarronde omzet moet verwachten van paasspecifieke producten, kan het geconcentreerde seizoensinkomen gecombineerd met de relatief korte productietijdlijn deze niche een zeer efficiënt gebruik van je productcreatietijd maken.`,
+      answer: `Pasen printable-verkopen zijn sterk geconcentreerd in het venster van februari tot april, waarbij het overgrote deel van de omzet plaatsvindt tijdens deze driemandsperiode. Er zijn echter factoren die kleinere verkopen buiten de piek creëren. Sommige verkopers plannen het lenteproductcatalogus tijdens de kerstvakantie en kopen vroeg. Thuisonderwijzende gezinnen met flexibele schema`s kunnen paas- en lentethema's op niet-traditionele momenten gebruiken. Religieuze educatieprogramma`s en zondagsscholen kunnen paasthema materiaal het hele jaar door gebruiken voor verschillende doeleinden. Hoewel je geen significante jaarronde omzet moet verwachten van paasspecifieke producten, kan het geconcentreerde seizoensinkomen gecombineerd met de relatief korte productietijdlijn deze niche een zeer efficiënt gebruik van je productcreatietijd maken.`,
     },
     {
       question: `Hoe maak ik efficiënt paaswerkbladen met generator tools?`,
@@ -149,62 +149,62 @@ De paasniche biedt ook mogelijkheden voor premiumprijzen voor gespecialiseerde p
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-coloring-pages',
-      anchorText: 'Professionele kleurplaten maken om te verkopen',
+      anchorText: `Professionele kleurplaten maken om te verkopen`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Kerst printable businessideeën',
+      anchorText: `Kerst printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'spring-printable-ideas',
-      anchorText: 'Lente printable businessideeën',
+      anchorText: `Lente printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween printable businessideeën',
+      anchorText: `Halloween printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/easter/basket.webp', alt: 'Paasmandje — educatieve thema-afbeelding Pasen', caption: 'Paasmandje' },
-    { src: '/image-library/easter/bunny.webp', alt: 'Paashaas — educatieve thema-afbeelding Pasen', caption: 'Paashaas' },
-    { src: '/image-library/easter/butterfly.webp', alt: 'Vlinder — educatieve thema-afbeelding Pasen', caption: 'Vlinder' },
-    { src: '/image-library/easter/candy.webp', alt: 'Snoep — educatieve thema-afbeelding Pasen', caption: 'Snoep' },
-    { src: '/image-library/easter/carrot.webp', alt: 'Wortel — educatieve thema-afbeelding Pasen', caption: 'Wortel' },
-    { src: '/image-library/easter/chick.webp', alt: 'Kuiken — educatieve thema-afbeelding Pasen', caption: 'Kuiken' },
+    { src: `/image-library/easter/basket.webp`, alt: `Paasmandje — educatieve thema-afbeelding Pasen`, caption: 'Paasmandje' },
+    { src: `/image-library/easter/bunny.webp`, alt: `Paashaas — educatieve thema-afbeelding Pasen`, caption: 'Paashaas' },
+    { src: `/image-library/easter/butterfly.webp`, alt: `Vlinder — educatieve thema-afbeelding Pasen`, caption: 'Vlinder' },
+    { src: `/image-library/easter/candy.webp`, alt: `Snoep — educatieve thema-afbeelding Pasen`, caption: 'Snoep' },
+    { src: `/image-library/easter/carrot.webp`, alt: `Wortel — educatieve thema-afbeelding Pasen`, caption: 'Wortel' },
+    { src: `/image-library/easter/chick.webp`, alt: `Kuiken — educatieve thema-afbeelding Pasen`, caption: 'Kuiken' },
   ],
 
   youtubeId: '0cOPi7eajLs',

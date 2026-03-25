@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'licença comercial imprimíveis',
     secondaryKeywords: [
-      'licença comercial imprimíveis explicada',
+      `licença comercial imprimíveis explicada`,
       'vender fichas legalmente',
-      'direitos comerciais produtos digitais',
-      'licenciamento para vendedores de imprimíveis',
+      `direitos comerciais produtos digitais`,
+      `licenciamento para vendedores de imprimíveis`,
     ],
     lsiKeywords: [
       `propriedade intelectual direitos de uso uso pessoal vs comercial níveis de licença`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `erros de licenciamento restrições de plataforma requisitos de atribuição cláusulas de exclusividade`,
       `registos de licença documentação de licença licenciamento multiplataforma vantagem competitiva`,
     ],
-    titleTag: 'Licença Comercial Imprimíveis — Guia do Vendedor',
+    titleTag: `Licença Comercial Imprimíveis — Guia do Vendedor`,
     metaDescription: `Compreenda as licenças comerciais para imprimíveis antes de vender. Tipos de licença, erros comuns e como o licenciamento adequado protege o seu negócio.`,
   },
 
   hero: {
-    title: 'Compreender as licenças de uso comercial',
+    title: `Compreender as licenças de uso comercial`,
     tagline: `Um guia completo sobre licenciamento comercial para vendedores de imprimíveis — abrangendo a diferença entre uso pessoal e comercial, o que requer uma licença comercial, como avaliar as condições de licença, modelos de licença comuns na indústria de imprimíveis, erros de licenciamento a evitar, como construir um sistema de conformidade, gerir licenças em múltiplas plataformas e usar o conhecimento sobre licenças como vantagem competitiva`,
     description: `Todos os recursos que utiliza para criar produtos imprimíveis — geradores de fichas, clip art, tipos de letra, modelos e bibliotecas de imagens — vêm com condições de licença que determinam se pode legalmente vender o resultado. A maioria dos vendedores de imprimíveis ignora este passo, assumindo que comprar uma ferramenta concede automaticamente direitos comerciais. Essa suposição conduz a remoções de produtos, suspensões de conta e perda de receitas. Este guia explica como funciona o licenciamento comercial na indústria de imprimíveis, o que procurar nos contratos de licença e como construir um sistema de conformidade que protege o seu negócio à medida que cresce.`,
   },
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `A distinção mais fundamental no licenciamento é entre uso pessoal e uso comercial. Uso pessoal significa criar produtos para si próprio, para a sua loja ou para os seus filhos — sem intenção de vender, distribuir ou lucrar com o resultado. Uso comercial significa criar produtos que vende, distribui com fins lucrativos ou utiliza num contexto empresarial. Esta distinção aplica-se a todos os recursos no seu processo de produção: geradores, clip art, tipos de letra, modelos e imagens.\n\nMuitos recursos que parecem amplamente utilizáveis estão na verdade restritos a uso pessoal. Uma coleção de clip art rotulada como «download gratuito» num site de recursos quase certamente concede apenas direitos de uso pessoal, a menos que a licença declare explicitamente o contrário. Um tipo de letra descarregado de um site de fontes gratuitas pode permitir documentos pessoais mas proibir o uso em produtos que vende. Mesmo recursos pagos por vezes estão limitados a uso pessoal, com direitos comerciais disponíveis apenas como uma compra separada de nível superior. O rótulo «gratuito» ou «pago» não lhe diz nada sobre direitos comerciais — apenas as condições de licença o fazem.\n\nA distinção é importante porque os titulares de direitos aplicam ativamente as suas licenças, particularmente quando descobrem que os seus recursos estão a ser utilizados comercialmente sem autorização. Marketplaces digitais como o Etsy e o Amazon têm processos de remoção simplificados que permitem aos titulares de direitos remover anúncios infratores rapidamente. Um titular de direitos que procure uso comercial não autorizado do seu clip art pode apresentar avisos de remoção em todas as plataformas onde os produtos infratores aparecem. O vendedor não recebe qualquer aviso antes de os seus anúncios desaparecerem.\n\nAntes de usar qualquer recurso num produto que planeia vender, verifique se a licença concede explicitamente direitos de uso comercial. Procure linguagem específica como «licença comercial incluída», «pode ser usado em produtos para venda» ou «direitos de produção comercial concedidos». Se a licença não mencionar uso comercial ou utilizar expressões como «apenas uso pessoal», «uso não comercial» ou «proibida a revenda», não tem o direito de usar esse recurso em produtos que vende. Em caso de dúvida, contacte diretamente o fornecedor do recurso e solicite confirmação escrita dos direitos comerciais antes de incorporar o recurso no seu fluxo de trabalho.`,
     },
     {
-      heading: 'Identificar o que requer uma licença comercial',
+      heading: `Identificar o que requer uma licença comercial`,
       content: `Todos os elementos no seu processo de criação de produtos precisam de direitos comerciais verificados. Os vendedores frequentemente concentram-se na ferramenta principal que utilizam para criar fichas, ignorando os recursos complementares que também requerem licenciamento. Uma auditoria completa de licenciamento abrange todos os recursos que contribuem para o seu produto acabado.\n\nOs geradores de fichas são a ferramenta de criação principal para a maioria dos vendedores de imprimíveis, e o seu licenciamento determina se pode vender as fichas que produzem. Alguns geradores concedem direitos comerciais com uma compra básica, enquanto outros restringem o uso comercial a níveis premium. Os geradores do LessonCraft Studio oferecem dois níveis claros: uma licença Comercial de $27 para vender na sua plataforma principal e uma licença de Acesso Completo de $47 para vender em todas as plataformas com funcionalidades adicionais. Pode experimentar qualquer gerador como teste grátis com marca d'água para avaliar o resultado antes de adquirir uma licença comercial.\n\nAs bibliotecas de clip art e imagens requerem atenção de licenciamento separada porque são frequentemente a categoria mais vigorosamente aplicada dos recursos digitais. Ilustradores profissionais e fornecedores de imagens monitorizam ativamente os marketplaces em busca de uso comercial não autorizado das suas obras. Cada coleção de clip art, conjunto de ícones ou pacote de ilustrações que utiliza nos seus produtos deve ter direitos de uso comercial. Isto inclui imagens integradas nos geradores de fichas — verifique se a licença do gerador abrange as imagens incluídas para produção comercial.\n\nOs tipos de letra são um requisito de licenciamento frequentemente negligenciado. Muitos tipos de letra populares são licenciados apenas para uso pessoal, e utilizá-los em produtos comerciais sem uma licença comercial constitui infração. Isto aplica-se a tipos de letra utilizados em modelos de fichas, capas, miniaturas de produtos e qualquer outra produção comercial. As fundições tipográficas monitorizam cada vez mais o uso comercial dos seus tipos de letra e emitem avisos de remoção para produtos que utilizam fontes comercialmente sem licença.\n\nFicheiros de modelos, designs de bordas, padrões de fundo e elementos decorativos têm todos as suas próprias condições de licença. Uma borda de ficha lindamente concebida descarregada de um site de design pode estar restrita a uso pessoal. Um padrão de fundo de uma biblioteca de texturas pode ter uma taxa por produto para uso comercial. Cada elemento visual no seu produto acabado representa uma decisão de licenciamento, e cada decisão precisa de ser tomada conscientemente, não assumida.\n\nO princípio é simples: se aparece num produto que vende, precisa de direitos comerciais. Sem exceções. Um elemento sem licença num produto que de outra forma está devidamente licenciado cria responsabilidade para todo o produto. Crie o hábito de verificar as condições de licença antes de incorporar qualquer recurso no seu fluxo de trabalho, não depois de já ter construído produtos com base nele.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Um sistema de conformidade de licenciamento transforma o licenciamento de uma preocupação ocasional numa prática empresarial sistemática. À medida que o seu catálogo de produtos cresce, rastrear quais recursos utilizou em quais produtos torna-se cada vez mais importante — e cada vez mais difícil de fazer de memória.\n\nCrie um documento de rastreamento de licenças que registe todos os recursos e ferramentas que utiliza comercialmente. Para cada entrada, registe o nome do fornecedor, a descrição do recurso, o tipo de licença (livre de royalties, subscrição, etc.), o que a licença permite (plataformas, limites de produção, requisitos de atribuição), a data de compra, o preço de compra e onde o contrato de licença está armazenado. Uma folha de cálculo simples funciona bem para este propósito. O objetivo é um único documento de referência onde pode verificar rapidamente os seus direitos comerciais para qualquer recurso no seu fluxo de trabalho.\n\nGuarde cópias de todos os contratos de licença e comprovativos de compra numa pasta digital organizada. Quando um marketplace lhe pedir para verificar direitos comerciais para um produto específico, precisa de produzir documentação rapidamente. Uma estrutura de pastas organizada por nome do fornecedor, com subpastas contendo o PDF do contrato de licença e o recibo de compra de cada recurso, torna a recuperação simples. O armazenamento na nuvem garante que estes registos sobrevivem a falhas de hardware local.\n\nDocumente quais recursos entraram em quais produtos. Quando o seu catálogo cresce para além de 20 ou 30 produtos, recordar qual coleção de clip art utilizou num pacote de fichas específico torna-se difícil. Um registo simples que associe cada produto aos seus recursos componentes permite-lhe verificar rapidamente a conformidade de licenciamento para qualquer produto no seu catálogo. Esta documentação também ajuda quando um fornecedor de recursos altera as suas condições de licença — pode identificar imediatamente quais dos seus produtos são afetados.\n\nCrie uma lista de verificação de licenciamento para avaliar novas ferramentas e recursos antes de comprar. A lista de verificação deve confirmar: A licença concede explicitamente uso comercial? Existem restrições de plataforma? Existem limites de produção? A licença sobrevive ao cancelamento (para subscrições)? Existem requisitos de atribuição? Pode usar o resultado em produtos agrupados? A licença é transferível se vender o seu negócio? Percorrer esta lista de verificação antes de cada compra previne as surpresas de licenciamento que apanham vendedores desprevenidos.\n\nAgende uma revisão trimestral de licenças para auditar o seu sistema de conformidade. Verifique atualizações de condições de licença dos seus fornecedores de recursos, confirme que o seu documento de rastreamento está atualizado e assegure que a documentação está completa para quaisquer recursos adicionados desde a última revisão. Uma revisão trimestral de 30 minutos deteta potenciais problemas antes de se tornarem problemas e mantém o sistema de conformidade como uma base fiável para o seu negócio.\n\nO esforço investido na construção de um sistema de conformidade compensa-se a si próprio na primeira vez que um marketplace solicita verificação de licenciamento. Os vendedores com documentação organizada respondem rapidamente e mantêm os seus anúncios. Os vendedores sem documentação enfrentam períodos de revisão prolongados, remoções temporárias de anúncios e o stress de reconstruir o historial de compras sob pressão.`,
     },
     {
-      heading: 'Gerir o licenciamento em múltiplas plataformas',
+      heading: `Gerir o licenciamento em múltiplas plataformas`,
       content: `A venda multiplataforma multiplica o seu potencial de receitas, mas também multiplica a importância de compreender as regras de licenciamento específicas de cada plataforma. Cada marketplace tem as suas próprias políticas sobre propriedade intelectual, direitos comerciais e responsabilidades do vendedor. As suas licenças de recursos devem estar alinhadas com todas as plataformas onde lista produtos.\n\nVerifique se as suas licenças comerciais permitem distribuição multiplataforma. Algumas licenças restringem o uso comercial a uma plataforma específica ou a um número limitado de plataformas. Se comprar uma licença que permite vender apenas no Etsy, listar os mesmos produtos no Amazon KDP viola as suas condições de licença — mesmo que tenha pago por uma licença comercial. Antes de listar em qualquer nova plataforma, reveja cada licença de recurso para confirmar que a plataforma está coberta. As licenças agnósticas de plataforma (como o nível de Acesso Completo de $47 do LessonCraft Studio) eliminam inteiramente esta preocupação ao permitir uso comercial em qualquer plataforma.\n\nCompreenda as políticas de propriedade intelectual de cada plataforma. O Etsy tem um sistema robusto de reporte de infração de PI que permite aos titulares de direitos reportar uso não autorizado da sua propriedade intelectual. O Amazon KDP tem diretrizes de conteúdo que proíbem a venda de produtos contendo conteúdo de terceiros sem licença. O Gumroad exige que os vendedores confirmem que têm direitos comerciais sobre todos os elementos dos seus produtos. Cada plataforma pode remover os seus anúncios, suspender a sua conta ou terminar os seus privilégios de vendedor se determinar que está a vender produtos com conteúdo sem licença.\n\nOs requisitos de formatação específicos de cada plataforma não alteram os requisitos de licenciamento. Adaptar uma ficha para os requisitos de formatação de impressão do Amazon KDP não cria um produto novo com necessidades de licenciamento independentes — é o mesmo produto num formato diferente, e a mesma licença comercial aplica-se. No entanto, se adicionar novos recursos (imagens diferentes, novos tipos de letra, elementos decorativos adicionais) à versão específica da plataforma, esses novos recursos precisam da sua própria verificação de licenciamento comercial.\n\nAs plataformas de impressão sob demanda acrescentam outra consideração de licenciamento. Se vender versões físicas impressas das suas fichas através de serviços de impressão sob demanda, verifique se a sua licença comercial abrange vendas de produtos físicos além de downloads digitais. A maioria das licenças comerciais modernas para ferramentas de criação de imprimíveis abrange tanto a produção digital como a física, mas licenças mais antigas ou mais restritivas podem limitar o uso comercial apenas a entregas digitais.\n\nAo expandir internacionalmente, considere se a sua licença tem restrições geográficas. Algumas licenças limitam o uso comercial a países ou regiões específicos. Se listar produtos no Amazon.de (Alemanha), Amazon.fr (França) ou nos mercados europeus do Etsy, a sua licença deve cobrir atividade comercial nessas regiões. Mais uma vez, as licenças agnósticas de plataforma e sem restrições geográficas evitam esta questão ao conceder direitos comerciais sem limitação geográfica.`,
     },
     {
@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'guide', slug: 'rendimentos-passivos-fichas', anchorText: `Criar rendimentos recorrentes com fichas de exercícios` },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
     { pageType: 'guide', slug: 'criar-fichas-adicao', anchorText: 'Como criar fichas de adição' },
-    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Como criar caça-palavras com imagens' },
+    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: `Como criar caça-palavras com imagens` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
   ],
 
   toolsRecommended: [
@@ -164,12 +164,12 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Produza páginas para colorir temáticas com conteúdo de imagens devidamente licenciado incluído. As páginas para colorir mostram como as licenças comerciais que abrangem imagens integradas simplificam a conformidade para tipos de produtos com muitas imagens.`,
     },
     {
       appId: 'matching',
-      title: 'Gerador de fichas de correspondência',
+      title: `Gerador de fichas de correspondência`,
       description: `Crie atividades de correspondência em todos os temas disponíveis ao abrigo de uma única licença comercial. As fichas de correspondência demonstram como os direitos comerciais se estendem a todos os temas e variações sem custos de licenciamento adicionais.`,
     },
   ],
@@ -197,15 +197,15 @@ const content: GuideContent = {
       },
     ],
     youtubeId: '36keBFzJbPo',
-    videoTitle: 'Como criar caça-palavras com licença comercial',
+    videoTitle: `Como criar caça-palavras com licença comercial`,
   },
 
   themeImages: [
-    { src: '/image-library/weather/cloud.webp', alt: 'Nuvem — imagem educativa temática', caption: 'Nuvem' },
-    { src: '/image-library/weather/cloudy.webp', alt: 'Nublado — imagem educativa temática', caption: 'Nublado' },
-    { src: '/image-library/weather/cold.webp', alt: 'Frio — imagem educativa temática', caption: 'Frio' },
-    { src: '/image-library/weather/hot.webp', alt: 'Quente — imagem educativa temática', caption: 'Quente' },
-    { src: '/image-library/weather/mittens.webp', alt: 'Luvas — imagem educativa temática', caption: 'Luvas' },
+    { src: `/image-library/weather/cloud.webp`, alt: `Nuvem — imagem educativa temática`, caption: 'Nuvem' },
+    { src: `/image-library/weather/cloudy.webp`, alt: `Nublado — imagem educativa temática`, caption: 'Nublado' },
+    { src: `/image-library/weather/cold.webp`, alt: `Frio — imagem educativa temática`, caption: 'Frio' },
+    { src: `/image-library/weather/hot.webp`, alt: `Quente — imagem educativa temática`, caption: 'Quente' },
+    { src: `/image-library/weather/mittens.webp`, alt: `Luvas — imagem educativa temática`, caption: 'Luvas' },
   ],
 };
 

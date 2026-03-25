@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'sport-druckvorlagen-ideen zum verkaufen',
+    primaryKeyword: `sport-druckvorlagen-ideen zum verkaufen`,
     secondaryKeywords: [
-      'Sport-Arbeitsblätter auf Etsy erstellen',
-      'Ballsport-Druckvorlagen auf KDP verkaufen',
-      'Sportthema-Aktivitätsblätter auf Gumroad anbieten',
-      'Fußball-Basketball-Lernmaterialien für Shops',
+      `Sport-Arbeitsblätter auf Etsy erstellen`,
+      `Ballsport-Druckvorlagen auf KDP verkaufen`,
+      `Sportthema-Aktivitätsblätter auf Gumroad anbieten`,
+      `Fußball-Basketball-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'Sportthema Ganzjahres-Druckvorlagen-Nische',
-      'Bewegungs-Bildungsthema Arbeitsblätter',
-      'Sport-Lernmaterialien Etsy-Markt',
+      `Sportthema Ganzjahres-Druckvorlagen-Nische`,
+      `Bewegungs-Bildungsthema Arbeitsblätter`,
+      `Sport-Lernmaterialien Etsy-Markt`,
     ],
     titleTag: `Sport-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden`,
     metaDescription: `Entdecken Sie Sport-Druckvorlagen-Ideen für Etsy, Amazon KDP und Gumroad. Sportliche Produktkonzepte, Plattformstrategien und Tipps für diese ganzjährige Nische.`,
   },
   hero: {
-    title: 'Sport-Druckvorlagen-Geschäftsideen für Verkäufer',
+    title: `Sport-Druckvorlagen-Geschäftsideen für Verkäufer`,
     description: `Sport ist eines der universell ansprechendsten Themen für Kinder aller Altersgruppen und damit eine außergewöhnliche Evergreen-Nische für Druckvorlagen-Unternehmer, die konstante Ganzjahreseinnahmen durch saisonale Sportrotation und breite fächerübergreifende Attraktivität anstreben. Das Sportthema bietet bemerkenswerte Unterthemen-Tiefe einschließlich Fußball, Basketball, Football, Baseball, Tennis, Eishockey, Volleyball, Schwimmen, Laufen, Turnen, Olympische Spiele, Ballspiele, Mannschaftssport und Einzelsport, was Verkäufern ein umfangreiches visuelles Vokabular bietet, das nahezu jedes Kind in seinen aktiven Interessen anspricht — ob es in organisierten Mannschaften spielt, Gartenspiele genießt oder seine Lieblingssportler im Fernsehen anfeuert. Fächerübergreifende Vielseitigkeit macht Sport-Druckvorlagen besonders wertvoll, weil Leichtathletik natürlich mit Mathematik durch Punkte, Statistiken und Zählen, Lesen und Schreiben durch Sportvokabular und Mannschaftsterminologie, Sportunterricht durch Bewegungsmotivation und Gesundheitsbewusstsein sowie soziale Kompetenzen durch Teamarbeit und Sportgeist-Konzepte verbunden ist. Für Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad kombiniert die Sportnische starke Ganzjahresnachfrage mit universeller Relatabilität, die bei Sport-Produktkäufern für Sporteinheiten, Produktkäufern für ansprechende thematische Aktivitäten, Homeschool-Familien für sportliche Themen und Eltern, die nach Lernmaterialien suchen, die die Sportbegeisterung ihres Kindes in produktive Lernerfahrungen lenken, Anklang findet. Dieser Leitfaden behandelt spezifische Produktideen, Plattformstrategien und Nischenpositionierungsansätze, um Ihnen beim Aufbau einer profitablen Sport-Druckvorlagen-Produktlinie mit unseren Arbeitsblatt-Generator-Tools zu helfen.`,
   },
   marketOverview: `Die Sport-Druckvorlagen-Nische nimmt eine einzigartig starke Position für Druckvorlagen-Verkäufer ein, weil nahezu jedes Kind eine direkte, persönliche Verbindung zum Sport hat — ob durch Spielen in Mannschaften, gemeinsames Anschauen von Spielen mit der Familie, Sammeln von Sammelkarten, Tragen von Mannschaftstrikots oder Teilnahme am Sportunterricht und an Pausenaktivitäten. Anders als saisonale Themen, die die Nachfrage auf enge Kalenderfenster konzentrieren, profitiert die Sportnische von natürlicher saisonaler Rotation: Football dominiert die Herbstsuchen, Basketball und Eishockey treiben die Winternachfrage, Baseball und Fußball steigen im Frühling und Sommer, und Schwimmen und Leichtathletik erreichen in den warmen Monaten ihren Höhepunkt. Dieser rotierende Zyklus stellt sicher, dass sportbezogene Lernmaterialien das ganze Jahr über konsistent relevant bleiben, anstatt von einer einzelnen Hochsaison abhängig zu sein.
@@ -40,12 +40,12 @@ Geschlechterinklusive Attraktivität stellt eine wertvolle Stärke der Sport-Dru
       appId: 'find-count',
     },
     {
-      title: 'Sport-Wortsuchrätsel zum Online-Verkaufen',
+      title: `Sport-Wortsuchrätsel zum Online-Verkaufen`,
       description: `Sport-Wortschatz-Wortsuchrätsel ziehen Sport-Produktkäufer an, die Sporteinheiten planen, und Eltern, die lehrreiche Unterhaltung suchen, die die natürliche Begeisterung ihres Kindes für Spiele und Wettkampf in produktive Lese- und Schreibkompetenz sowie Wortschatzerweiterung über mehrere Sportkategorien lenkt. Erstellen Sie Rätsel mit sportspezifischem Vokabular wie Fußball, Basketball, Football, Baseball, Tennis, Eishockey, Volleyball, Schwimmen, Laufen und Turnen sowie breiteren sportlichen Begriffen wie Sportler, Stadion, Pokal, Trainer und Schiedsrichter. Der Wortsuch-Generator lässt Sie Rastergröße und Wortanzahl steuern, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Sportbegriffen für ältere Nutzer an, die Mannschaftspositionen und Ausrüstungsterminologie erkunden.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Sport-Zuordnungsaktivitäten für lehrreiche Shops',
+      title: `Sport-Zuordnungsaktivitäten für lehrreiche Shops`,
       description: `Zuordnungsarbeitsblätter mit Sportthemen funktionieren über mehrere Kompetenzbereiche hinweg und machen sie zu vielseitigen Produkten, die Sport-Produktkäufer, Produktkäufer für fächerübergreifende Sporteinheiten und Eltern ansprechen, die Lernbibliotheken für junge Lernende aufbauen, die Leichtathletik und Wettkampf lieben. Erstellen Sie Sets, in denen Kinder Sportler ihrer Ausrüstung zuordnen, Sportarten mit ihren Spielfeldern verbinden oder Bälle den Sportarten zuordnen, zu denen sie gehören. Der Zuordnungs-Generator erstellt saubere, professionelle Layouts, die auf Standardpapier wunderschön gedruckt werden. Diese Aktivitäten sprechen besonders Vorschul- und Kindergarten-Produktkäufer an, die Sportthemen integrieren, bei denen visuelle Zuordnung Beobachtungs- und Kategorisierungsfähigkeiten aufbaut. Sets von acht bis zwölf Zuordnungsseiten lassen sich effektiv zum Preis von fünf bis acht Dollar bündeln, und die immergrüne Sportrotation treibt konsistente Käufe das ganze Jahr über.`,
       appId: 'matching',
     },
@@ -55,12 +55,12 @@ Geschlechterinklusive Attraktivität stellt eine wertvolle Stärke der Sport-Dru
       appId: 'addition',
     },
     {
-      title: 'Sport-Ausmalbilder für Etsy- und KDP-Verkäufer',
+      title: `Sport-Ausmalbilder für Etsy- und KDP-Verkäufer`,
       description: `Ausmalbilder sind das umsatzstärkste Einstiegsprodukt für Sport-Druckvorlagen-Shops, weil sportliches Ausmalen praktisch jedes Kind anspricht, das sich vorstellt, Tore zu schießen, Rennen zu gewinnen und Siege zu feiern, was frühe Bewertungen generiert, die Ihre Shop-Sichtbarkeit über alle sportbezogenen Angebote hinweg steigern. Der Ausmalbilder-Generator erstellt detaillierte Umrisse von Sportlern in Aktionsposen, Sportausrüstungssammlungen, energiegeladenen Stadionszenen, Pokalfeiern und Mannschafts-Huddle-Momenten, die die Spannung des Wettbewerbs einfangen. Für Etsy verkaufen Sie kuratierte Sets von zehn bis fünfzehn Seiten, gruppiert nach Sportart wie Ballsport oder Wassersport. Für KDP kompilieren Sie dreißig bis fünfzig Ausmalbilder in Sport-Aktivitätsbücher, positioniert als Geschenke für junge Sportler. Fügen Sie lehrreiche Elemente wie Sportnamen-Beschriftungen, Ausrüstungsidentifikation oder Zählaufforderungen zur Differenzierung hinzu.`,
       appId: 'coloring',
     },
     {
-      title: 'Sport-Bingokarten für Gruppenaktivitäten',
+      title: `Sport-Bingokarten für Gruppenaktivitäten`,
       description: `Sport-Bingokarten dienen Sport-Produktkäufern, die sportliche Vokabel-Lektionen durchführen, und Produktkäufern, die interaktive Gruppenaktivitäten suchen, die Sportterminologie und Ausrüstungserkennung effektiver verstärken als einzelne Arbeitsblätter allein in ansprechenden Shop- und Turnhallen-Umgebungen. Der Bingo-Generator erstellt einzigartige Kartenvariationen aus Ihrer Sportvokabelliste und stellt sicher, dass keine zwei Karten für Gruppen- oder Einzelspiel identisch sind. Verkaufen Sie Gruppensätze von fünfundzwanzig bis dreißig Karten mit einem Ausrufblatt und einem Sportvokabular-Referenzleitfaden. Für den Familienmarkt erstellen Sie Bingo-Kits mit verschiedenen Sportarten, Ausrüstungstypen, sportlichen Positionen und Stadion-Elementen, die Familien während Sportübertragungen oder bei Regentagen spielen können, wenn Spielen im Freien nicht möglich ist.`,
       appId: 'bingo',
     },
@@ -89,17 +89,17 @@ Geschlechterinklusive Attraktivität stellt eine wertvolle Stärke der Sport-Dru
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Sport-Druckvorlagen auf Etsy verkaufen',
+      title: `Sport-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Sportnische mit konsistenter Ganzjahres-Listing-Leistung, weil saisonale Sportrotation die Nachfrage kontinuierlich fließen lässt, während Eltern im Herbst nach Football-Arbeitsblättern, im Winter nach Basketball-Aktivitäten, im Frühling nach Baseball-Druckvorlagen und im Sommer nach Schwimm-Ressourcen suchen, ohne längere Nachfragetiefen. Nutzen Sie alle dreizehn Tags mit Variationen, die Sportarten, Kompetenzbereiche und Altersgruppen kombinieren: „Fußball Zählarbeitsblätter Vorschule", „Basketball Ausmalbilder Kleinkind" und „Football Worträtsel Kindergarten" zielen auf spezifische Käufersuchen weitaus effektiver als breite Tags wie „Sportarbeitsblätter". Positionieren Sie Ihre Produkte sowohl für bildungsorientierte als auch für Geschenkkäufer, indem Sie Begriffe wie „junger Sportler Aktivität" und „Sportfan Druckvorlage" in Ihre Titel und Beschreibungen aufnehmen. Listing-Bilder, die gedruckte Sportarbeitsblätter neben Sportausrüstung, Mannschaftstrikots oder sportlicher Raumdekoration zeigen, übertreffen flache digitale Vorschauen und erfassen die begeisterungsgetriebene Denkweise, die Eltern sportbegeisterter Kinder zu Etsy bringt.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Sport-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Sport-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP eignet sich hervorragend für Sport-Druckvorlagen, weil Eltern und Geschenkkäufer natürlich Aktivitätsbücher zusammen mit Kindersportbüchern, Sportausrüstung, Mannschaftsmerchandise und Trainerleitfäden in ihren Amazon-Warenkorb legen, die die Leidenschaft junger Sportler für Wettkampf und Leistung befeuern. Kompilieren Sie einzelne Sportarbeitsblätter in zusammenhängende Aktivitätsbücher mit vierzig bis sechzig Seiten, die Zählen, Ausmalen, Zuordnen, Wortsuchrätsel und Zeichenaktivitäten rund um sportliche Themen kombinieren. Nutzen Sie KDP-Schlüsselwortfelder strategisch: Fügen Sie „Sport-Aktivitätsbuch für Kinder", „Basketball Arbeitsblätter Vorschule" und Unterthemen-Begriffe wie „Fußball Malbuch" oder „Football Aktivitäten für Kinder" ein. Kalkulieren Sie zwischen vier und acht Dollar für optimale Tantiemen-Margen und positionieren Sie Ihre Bücher als Geschenke für junge Sportler, Begleiter zu Sportausrüstung oder Ergänzungen zu Sportunterrichts-Ressourcen. Sport-Aktivitätsbücher profitieren von Ganzjahresnachfrage mit saisonalen Sportspitzen, die sich kontinuierlich durch das Kalenderjahr rotieren.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Sport-Produktressourcen für Gumroad erstellen',
+      title: `Sport-Produktressourcen für Gumroad erstellen`,
       description: `Gumroad-Käufer sind Produktkäufer und Sport-Produktkäufer, die nach sportbezogenen lehrreichen Ergänzungen, sportlichen Vokabel-Aktivitäten und fächerübergreifenden Ressourcen suchen, die Sportkonzepte mit minimalem Vorbereitungsaufwand in den Mathematik-, Lese- und Sportunterricht integrieren. Sport-Druckvorlagen auf Gumroad funktionieren am besten, wenn sie als sofort einsetzbare Produktlösungen verpackt sind: sportbezogene Morgenbeschäftigungspakete, sportliche Vokabel-Aktivitätsstationen oder Sportunterrichts-Begleitarbeitsblätter mit klaren Lernzielen, die Konzepte körperlicher Aktivität mit akademischer Kompetenzentwicklung verbinden. Fügen Sie Lernziel-Zuordnungen zu Sport-, Mathematik-, Lese- und Gesundheitsstandards hinzu, damit Verkäufer sportbezogene Aktivitäten gegenüber Administratoren und Produktkatalogkoordinatoren rechtfertigen können. Die Bündelungsfunktion von Gumroad ermöglicht es Ihnen, einzelne Sportprodukte und ein vergünstigtes Sport-Megapaket gleichzeitig anzubieten, um sowohl budgetbewusste Verkäufer als auch solche zu erreichen, die in umfassende Einheitsressourcen investieren.`,
     },
     {
@@ -143,18 +143,18 @@ Geschlechterinklusive Attraktivität stellt eine wertvolle Stärke der Sport-Dru
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'Wie Sie eine Druckvorlagen-Produktlinie erstellen',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `Wie Sie eine Druckvorlagen-Produktlinie erstellen`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Geschlechterinklusive Attraktivität stellt eine wertvolle Stärke der Sport-Dru
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'essen-kochen-druckvorlagen-ideen',
-      anchorText: 'Essen & Kochen Druckvorlagen-Geschäftsideen',
+      slug: `essen-kochen-druckvorlagen-ideen`,
+      anchorText: `Essen & Kochen Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/sports%20bw/badminton.webp', alt: 'Badminton — thematisches Lernbild', caption: 'Badminton' },
-    { src: '/image-library/sports%20bw/baseball.webp', alt: 'Baseball — thematisches Lernbild', caption: 'Baseball' },
-    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Baseball 2 — thematisches Lernbild', caption: 'Baseball 2' },
-    { src: '/image-library/sports%20bw/basketball.webp', alt: 'Basketball — thematisches Lernbild', caption: 'Basketball' },
-    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Wasserball — thematisches Lernbild', caption: 'Wasserball' },
-    { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
+    { src: `/image-library/sports%20bw/badminton.webp`, alt: `Badminton — thematisches Lernbild`, caption: 'Badminton' },
+    { src: `/image-library/sports%20bw/baseball.webp`, alt: `Baseball — thematisches Lernbild`, caption: 'Baseball' },
+    { src: `/image-library/sports%20bw/baseball%202.webp`, alt: `Baseball 2 — thematisches Lernbild`, caption: 'Baseball 2' },
+    { src: `/image-library/sports%20bw/basketball.webp`, alt: `Basketball — thematisches Lernbild`, caption: 'Basketball' },
+    { src: `/image-library/sports%20bw/beach%20ball.webp`, alt: `Wasserball — thematisches Lernbild`, caption: 'Wasserball' },
+    { src: `/image-library/sports%20bw/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
   ],
 
 

@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'schulanfang-druckvorlagen-ideen',
+    primaryKeyword: `schulanfang-druckvorlagen-ideen`,
     secondaryKeywords: [
-      'Einschulung-Arbeitsblätter für Etsy erstellen',
-      'Schulanfang-Aktivitäten auf KDP verkaufen',
-      'Back-to-School-Druckvorlagen auf Gumroad anbieten',
+      `Einschulung-Arbeitsblätter für Etsy erstellen`,
+      `Schulanfang-Aktivitäten auf KDP verkaufen`,
+      `Back-to-School-Druckvorlagen auf Gumroad anbieten`,
       `saisonale Schulstart-Produkte für Druckvorlagen-Verkäufer`,
     ],
     lsiKeywords: [
-      'Juli-September-Nachfragespitze Lernmaterialien',
-      'Grundschul-Arbeitsblätter saisonaler Verkauf',
-      'Schulbeginn-Nische Druckvorlagen-Geschäft',
+      `Juli-September-Nachfragespitze Lernmaterialien`,
+      `Grundschul-Arbeitsblätter saisonaler Verkauf`,
+      `Schulbeginn-Nische Druckvorlagen-Geschäft`,
     ],
-    titleTag: 'Schulanfang-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Schulanfang-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Schulanfang-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Einschulung-Produktkonzepte, Juli-September-Strategien und Plattformtipps für Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -50,7 +50,7 @@ Aus der Perspektive der Keyword-Recherche teilen sich Schulanfang-Druckvorlagen-
       appId: 'find-count',
     },
     {
-      title: 'Schulanfang-Wörtersuche-Rätsel zum Online-Verkauf',
+      title: `Schulanfang-Wörtersuche-Rätsel zum Online-Verkauf`,
       description: `Shop-Vokabel-Wörtersuchen sprechen Verkäufer an, die Erste-Woche-Aktivitäten planen, und Eltern, die lehrreiche Unterhaltung während der Schulübergangsphase suchen, wenn Kinder ansprechende akademische Aufwärmübungen brauchen. Erstellen Sie Rätsel mit schulspezifischem Vokabular wie Stift, Schulranzen, Verkäufer, Pause, Hausaufgabe, Buntstift und Schreibheft sowie breiteren akademischen Begriffen. Der Wörtersuche-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl für altersgerechte Versionen verschiedener Altersstufen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Raster mit fünfzehn oder mehr Schulbegriffen für ältere Nutzer an. Variationen wie Schulmaterial-Vokabular, Shopregeln-Wörter und Schulfach-Terminologie erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der Schulanfang-Nische anzusprechen.`,
       appId: 'wordsearch',
     },
@@ -99,7 +99,7 @@ Aus der Perspektive der Keyword-Recherche teilen sich Schulanfang-Druckvorlagen-
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Schulanfang-Druckvorlagen auf Etsy verkaufen',
+      title: `Schulanfang-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühzeitiges Veröffentlichen und Keyword-Spezifität bei Schulanfang-Druckvorlagen-Angeboten, und die Sommer-Einkaufssaison erzeugt einen massiven Verkehrsanstieg für lehrreiche digitale Downloads. Veröffentlichen Sie Ihre Schulanfang-Angebote bis Ende Juni, damit Etsys Suchalgorithmen Zeit haben, Ihre Produkte zu indexieren und zu ranken, bevor die Juli-Nachfrage steigt. Nutzen Sie alle dreizehn Tags mit Variationen, die Schul-Unterthemen, Kompetenztypen und Altersgruppen kombinieren: „Schulanfang Zählarbeitsblätter Vorschule", „Erster Schultag Wörtersuche Kindergarten" und „Einschulung Ausmalbilder K-2-Produktmarkt" zielen auf spezifische Käufersuchen deutlich effektiver ab als breite Tags wie „Schulanfang Arbeitsblätter". Für den DACH-Markt nutzen Sie zusätzlich deutsche Begriffe wie „Schultüte Bastelvorlage", „Einschulung Geschenk" und „Schulvorbereitung Arbeitsblätter". Erstellen Sie paketorientierte Angebote und positionieren Sie Aktivitätssammlungen als Erste-Woche-Gruppenpakete oder Schulvorbereitungs-Kits. Angebotsbilder, die gedruckte Arbeitsblätter in schulthematisierten Umgebungen mit saisonalen Requisiten wie Stiften, Äpfeln und Schulranzen zeigen, übertreffen flache digitale Vorschauen und erfassen die Vorbereitungsmentalität, die sommerliche Bildungskäufe antreibt.`,
     },
     {
@@ -157,18 +157,18 @@ Aus der Perspektive der Keyword-Recherche teilen sich Schulanfang-Druckvorlagen-
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Bildungs-Druckvorlagen',
+      anchorText: `Etsy-SEO für Bildungs-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -177,33 +177,33 @@ Aus der Perspektive der Keyword-Recherche teilen sich Schulanfang-Druckvorlagen-
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
-      slug: 'valentinstag-druckvorlagen-ideen',
-      anchorText: 'Valentinstag-Druckvorlagen-Geschäftsideen',
+      slug: `valentinstag-druckvorlagen-ideen`,
+      anchorText: `Valentinstag-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — thematisches Lernbild`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Schrank — thematisches Lernbild`, caption: 'Schrank' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Taschenrechner — thematisches Lernbild`, caption: 'Taschenrechner' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — thematisches Lernbild`, caption: 'Kalender' },
   ],
 
 

@@ -7,10 +7,10 @@ const content: AppContent = {
       `printbare sorteeractiviteit maker voor Etsy verkopers`,
       `twee-categorieën sorteer werkblad generator voor KDP uitgevers`,
       `afbeeldingen sorteren werkblad maker met commerciële licentie`,
-      'sorteer werkbladen verkopen op Gumroad',
+      `sorteer werkbladen verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'digitale sorteer-printables online bedrijf',
+      `digitale sorteer-printables online bedrijf`,
       `commercieel gebruik classificatie werkblad generator`,
       `printbare categoriseer sorteeractiviteit business tools`,
     ],
@@ -24,11 +24,11 @@ const content: AppContent = {
     tagline:
       `Twee-categorieën sorteren in één krachtige generator — themaselectie of handmatige beeldselectie — met automatisch gegenereerde antwoordbladen, 4–12 configureerbare afbeeldingen, een gelokaliseerde "Afbeeldingen Sorteren" koptekst in 11 talen en 104 thematische beeldcollecties.`,
     description:
-      `Maak professionele sorteer werkbladen waarbij gebruikers afbeeldingen classificeren in twee categorieën door uitgeknipte plaatjes in de juiste linker- of rechtergroep te sorteren. Kies themamodus om categorieën automatisch te vullen vanuit de afbeeldingenbibliotheek — selecteer een linkerthema en een rechterthema, en de app haalt 4–6 willekeurige afbeeldingen per thema op — of schakel naar handmatige modus om individuele afbeeldingen te selecteren en elk aan een categorie toe te wijzen. Elk werkblad bevat twee categoriekaders met stippelrand bovenaan als sorteerbestemmingen en een geschud uitknipraster onderaan met gemengde afbeeldingen klaar om uitgeknipt en gesorteerd te worden. Het dubbele canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad met 6× grotere afbeeldingen georganiseerd in categorievakken, zodat je nooit handmatig antwoordbladen hoeft te maken. De Sorteer Werkblad Generator is taalgevoelig: categorielabels gebruiken gelokaliseerde afbeeldingsnamen, dus het wisselen van taal verandert de tekst op het werkblad. Een gelokaliseerde "Afbeeldingen Sorteren" koptekst met mintgroene achtergrond en groenblauw titel wordt automatisch weergegeven in alle 11 ondersteunde talen. Volledige Toegang ontgrendelt alle 104 thema's met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde categorielabels. Voeg achtergrondthema\'s en kaderthema\'s toe met onafhankelijke dekkingsregelaars, voeg naam- en datumvelden toe voor verantwoording online, en exporteer printklare PDF\'s en JPEG's op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu sorteerbundels verkoopt op Etsy.nl, classificatie-werkboeken samenstelt voor Amazon KDP, of sorteeractiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
+      `Maak professionele sorteer werkbladen waarbij gebruikers afbeeldingen classificeren in twee categorieën door uitgeknipte plaatjes in de juiste linker- of rechtergroep te sorteren. Kies themamodus om categorieën automatisch te vullen vanuit de afbeeldingenbibliotheek — selecteer een linkerthema en een rechterthema, en de app haalt 4–6 willekeurige afbeeldingen per thema op — of schakel naar handmatige modus om individuele afbeeldingen te selecteren en elk aan een categorie toe te wijzen. Elk werkblad bevat twee categoriekaders met stippelrand bovenaan als sorteerbestemmingen en een geschud uitknipraster onderaan met gemengde afbeeldingen klaar om uitgeknipt en gesorteerd te worden. Het dubbele canvassysteem genereert zowel een werkbladtabblad als een antwoordbladtabblad met 6× grotere afbeeldingen georganiseerd in categorievakken, zodat je nooit handmatig antwoordbladen hoeft te maken. De Sorteer Werkblad Generator is taalgevoelig: categorielabels gebruiken gelokaliseerde afbeeldingsnamen, dus het wisselen van taal verandert de tekst op het werkblad. Een gelokaliseerde "Afbeeldingen Sorteren" koptekst met mintgroene achtergrond en groenblauw titel wordt automatisch weergegeven in alle 11 ondersteunde talen. Volledige Toegang ontgrendelt alle 104 thema`s met meer dan 3100 illustraties en alle 11 UI-talen voor gelokaliseerde categorielabels. Voeg achtergrondthema's en kaderthema's toe met onafhankelijke dekkingsregelaars, voeg naam- en datumvelden toe voor verantwoording online, en exporteer printklare PDF's en JPEG`s op 300 DPI in Letter-, A4-, Vierkant (1200×1200) of aangepaste formaten. Of je nu sorteerbundels verkoopt op Etsy.nl, classificatie-werkboeken samenstelt voor Amazon KDP, of sorteeractiviteiten maakt voor Gumroad — deze generator levert productieklare werkbladen in enkele minuten. Gratis proefversie met alle functies — geen registratie, geen creditcard. Downloads bevatten een watermerk; koop een licentie om het te verwijderen.`,
   },
 
   howItWorks: {
-    title: 'Hoe Maak Je Sorteer Werkbladen in 5 Stappen',
+    title: `Hoe Maak Je Sorteer Werkbladen in 5 Stappen`,
     steps: [
       {
         title: 'Stel je pagina-indeling in',
@@ -38,7 +38,7 @@ const content: AppContent = {
       {
         title: 'Kies je sorteercategorieën',
         description:
-          `Open het paneel Sorteercategorieën en selecteer twee thema's — één voor de linkercategorie en één voor de rechtercategorie. De app genereert automatisch 4–6 willekeurige afbeeldingen per thema uit de afbeeldingenbibliotheek. Kies bijvoorbeeld Dieren links en Voedsel rechts om een sorteer werkblad te maken waarbij gebruikers plaatjes in de juiste groep classificeren. Je kunt ook overschakelen naar handmatige modus om individuele afbeeldingen te selecteren en elk aan de linker- of rechtercategorie toe te wijzen. Natuurlijke categorieparen zijn bijzonder effectief: dieren versus voedsel, land versus water, fruit versus groente, binnen versus buiten — de 104 thema's bieden honderden logische combinaties voor sorteeractiviteiten.`,
+          `Open het paneel Sorteercategorieën en selecteer twee thema`s — één voor de linkercategorie en één voor de rechtercategorie. De app genereert automatisch 4–6 willekeurige afbeeldingen per thema uit de afbeeldingenbibliotheek. Kies bijvoorbeeld Dieren links en Voedsel rechts om een sorteer werkblad te maken waarbij gebruikers plaatjes in de juiste groep classificeren. Je kunt ook overschakelen naar handmatige modus om individuele afbeeldingen te selecteren en elk aan de linker- of rechtercategorie toe te wijzen. Natuurlijke categorieparen zijn bijzonder effectief: dieren versus voedsel, land versus water, fruit versus groente, binnen versus buiten — de 104 thema`s bieden honderden logische combinaties voor sorteeractiviteiten.`,
       },
       {
         title: `Selecteer afbeeldingen uit de bibliotheek of upload eigen afbeeldingen`,
@@ -51,7 +51,7 @@ const content: AppContent = {
           `Klik op Genereren om de tweedelige sorteerindeling te maken. De app rangschikt je inhoud in categoriekaders bovenaan (twee naast elkaar geplaatste kaders met stippelrand en #FAFAFA-vulling) en een geschud uitknipraster onderaan (witte cellen met stippel #666-randen). Een gestileerde "Afbeeldingen Sorteren" koptekst verschijnt bovenaan met een mintgroene achtergrond (#4DB6AC), groenblauwe titel (#00796B) in Fredoka-lettertype en oranje beschrijving (#FF7043) in Quicksand-lettertype. Een groenblauw buitenkader (#26A69A, 8px lijndikte) omlijst de gehele pagina. Het uitknipraster toont alle afbeeldingen in willekeurige volgorde — gebruikers knippen ze uit en sorteren ze in het juiste categoriekader.`,
       },
       {
-        title: 'Genereer het antwoordblad en download',
+        title: `Genereer het antwoordblad en download`,
         description:
           `Schakel naar het tabblad Antwoordblad om de automatisch gegenereerde oplossing te bekijken met 6× grotere afbeeldingen georganiseerd in hun juiste categorievakken, weergegeven in maximaal 2 kolommen per vak. Download beide versies met de vier speciale knoppen: Werkblad JPEG, Antwoordblad JPEG, Werkblad PDF en Antwoordblad PDF. Bestanden worden geëxporteerd op 300 DPI met JPEG-kwaliteit 1,0. Schakel grijstinten in voor inktbesparende versies. Elke export is productieklaar voor Etsy-vermeldingen, Amazon KDP-binnenwerken en Gumroad-productbestanden. Het automatische antwoordblad is een enorme tijdsbesparing — geen handmatig sorteren of apart bestand aanmaken nodig.`,
       },
@@ -84,10 +84,10 @@ const content: AppContent = {
       {
         title: `Afbeeldingenbibliotheek met 104 Thematische Collecties en 3100+ Illustraties`,
         description:
-          `Blader door 104 thematische beeldcollecties over dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die perfect werken als sorteercategorieën. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De themagestuurde categorieselectie maakt het eenvoudig om sorteer werkbladen te maken met natuurlijke categorieparen — landdieren vs zeedieren, gezond voedsel vs ongezond voedsel, zomeritems vs winteritems, boerderijdieren vs wilde dieren. De Commerciële licentie bevat 10 kleurrijke thema's met alleen Engels voor categorielabels; Volledige Toegang ontgrendelt alle 104 thema's voor maximale creatieve variëteit en alle 11 talen voor gelokaliseerde categorielabels. Voor Nederlandse verkopers die Etsy.nl en Gumroad bedienen, is de taalgevoelige functie bijzonder waardevol: sorteer werkbladen met Nederlandse categorielabels zijn direct bruikbaar in Nederlandse productlijnen.`,
+          `Blader door 104 thematische beeldcollecties over dieren, voedsel, voertuigen, natuur, beroepen, feestdagen, sport, seizoenen en tientallen meer. Elk thema biedt een gecoördineerde set kleurrijke illustraties die perfect werken als sorteercategorieën. Filter op thema met het dropdownmenu of zoek naar specifieke afbeeldingen op trefwoord. De themagestuurde categorieselectie maakt het eenvoudig om sorteer werkbladen te maken met natuurlijke categorieparen — landdieren vs zeedieren, gezond voedsel vs ongezond voedsel, zomeritems vs winteritems, boerderijdieren vs wilde dieren. De Commerciële licentie bevat 10 kleurrijke thema`s met alleen Engels voor categorielabels; Volledige Toegang ontgrendelt alle 104 thema`s voor maximale creatieve variëteit en alle 11 talen voor gelokaliseerde categorielabels. Voor Nederlandse verkopers die Etsy.nl en Gumroad bedienen, is de taalgevoelige functie bijzonder waardevol: sorteer werkbladen met Nederlandse categorielabels zijn direct bruikbaar in Nederlandse productlijnen.`,
       },
       {
-        title: 'Naam- en Datumvelden voor Verantwoording online',
+        title: `Naam- en Datumvelden voor Verantwoording online`,
         description:
           `Vink het selectievakje "Naam-/datumvelden toevoegen" aan in het paneel Pagina-instellingen om naam- en datumlijnen voor gebruikers toe te voegen aan het sorteer werkblad. Deze velden zorgen voor verantwoording van gebruikers online en maken werkbladen klaar voor inzameling en beoordeling door de verkoper zonder extra voorbereiding. verkopers die sorteeractiviteiten zoeken op Gumroad waarderen werkbladen die kant-en-klaar zijn voor de winkel — de naam-/datumoptie maakt je producten aantrekkelijker voor de onderwijsmarkt. In de Nederlandse basisschool worden sorteeractiviteiten veel gebruikt in groep 1–4 voor categoriseren en classificeren als onderdeel van het productcatalogus — werkbladen met naam-/datumvelden passen direct in bestaande lesroutines.`,
       },
@@ -105,44 +105,44 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hoe Je Sorteer Werkbladen Online Verkoopt',
+    title: `Hoe Je Sorteer Werkbladen Online Verkoopt`,
     cases: [
       {
-        title: 'Thematische Sorteerbundels op Etsy.nl',
+        title: `Thematische Sorteerbundels op Etsy.nl`,
         description:
           `Maak thematische sorteeractiviteitenpakketten met natuurlijke categorieparen uit de 104 beeldcollecties — dieren vs voedsel, land vs water, fruit vs groente, binnen vs buiten en tientallen meer. Elk themapaar produceert meerdere unieke sorteer werkbladen door beeldselecties en aantallen te variëren. Bundel 10–20 sorteer werkbladen per pakket met antwoordbladen inbegrepen, en verkoop voor €3–€7 per bundel. De themagestuurde categorieselector maakt het snel om werkbladen te genereren met duidelijke linker-/rechtergroeperingen, en het automatisch gegenereerde antwoordblad elimineert het grootste productieknelpunt. Seizoenspremies zijn haalbaar: Sinterklaas-sorteerbundels (Sinterklaas-snoep vs gewoon snoep, pakjes vs andere cadeaus) en Kerst-sorteerbundels brengen €5–€8 op tijdens piekperiodes. De handmatige modus laat je ook productcatalogus-specifieke sorteersets maken voor de Nederlandse onderwijsmarkt.`,
         platform: 'Etsy (etsy.nl)',
       },
       {
-        title: 'Classificatie-Werkboeken op Amazon KDP',
+        title: `Classificatie-Werkboeken op Amazon KDP`,
         description:
           `Stel 40–80 sorteer werkbladen samen in een gedrukt werkboek geformateerd voor Amazon KDP. Structureer op moeilijkheidsgraad: vroege hoofdstukken gebruiken 4–6 afbeeldingen met duidelijke categorieverschillen (dieren vs voertuigen), middenhoofdstukken gebruiken 8–10 afbeeldingen met subtielere onderscheidingen (boerderijdieren vs wilde dieren), en gevorderde hoofdstukken gebruiken 12 afbeeldingen met uitdagende categorieën (koude-klimaatdieren vs warme-klimaatdieren). Neem antwoordbladen op aan het eind van het boek met de automatische antwoordbladfunctie. De grijstintenmodus produceert inktbesparende pagina's klaar voor zwart-wit boekbinnenwerken. Sorteer werkboeken bedienen een breed publiek van kleuterschool tot en met de basisschool en zijn het hele jaar verkoopbaar — classificatie is een fundamentele cognitieve vaardigheid die in elke leeftijdsgroep wordt geoefend.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Kant-en-Klare Sorteeractiviteiten voor Gumroad',
+        title: `Kant-en-Klare Sorteeractiviteiten voor Gumroad`,
         description:
           `Maak kant-en-klare sorteercentrum-werkbladen met naam-/datumvelden en gedrukte antwoordbladen. verkopers die op Gumroad zoeken naar sorteeractiviteiten waarderen werkbladen die direct bruikbaar zijn online — de naamvelden zorgen voor verantwoording van gebruikers, de categoriekaders bieden duidelijke sorteerbestemmingen, en het automatisch gegenereerde antwoordblad bespaart waargenomen waarde. Maak productcatalogus-gerelateerde sets: levend vs niet-levend, gezond vs ongezond voedsel, dag- vs nachtdieren, warm vs koud weer kleding, boerderijdieren vs huisdieren. Elke set bevat werkbladen en antwoordbladen in zowel PDF- als JPEG-formaat. In het Nederlandse onderwijs passen sorteeractiviteiten perfect bij het productcatalogus voor groep 1–4 waar classificeren een kerndoel is — bied sets aan in het Nederlands met gelokaliseerde categorielabels voor directe bruikbaarheid.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Seizoensgebonden en Feestdagen Sorteercollecties',
+        title: `Seizoensgebonden en Feestdagen Sorteercollecties`,
         description:
           `De 104 thematische beeldcollecties dekken elk seizoen en elke feestdag — Kerstmis, Sinterklaas, Halloween, Pasen, Valentijnsdag, Koningsdag, terug-naar-school, zomervakantie en meer. Maak seizoensgebonden sorteer werkbladen waarbij gebruikers feestdag-items classificeren in categorieën: kerstversieringen vs kersteten, halloweenkostuums vs halloweensnoep, zomeractiviteiten vs winteractiviteiten, Sinterklaas-items vs kerstitems. Breng Halloween-sorteerbundels uit in september, Sinterklaas-collecties in oktober, Kerst-pakketten in november en Valentijnsdagsets in januari. Seizoensgebonden producten brengen hogere prijzen op tijdens piekperiodes en creëren natuurlijke redenen voor herhaalaankopen. Sinterklaas-sorteeractiviteiten zijn een unieke niche voor de Nederlandse en Belgische markt — weinig concurrentie, hoge vraag van Nederlandse verkopers en ouders.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seizoensgebonden)',
+        platform: `Etsy / Amazon KDP / Gumroad (seizoensgebonden)`,
       },
       {
         title: `Meertalige Sorteer Werkbladen voor Taalonderwijs en Internationale Markten`,
         description:
           `Benut de taalgevoelige categorielabels om sorteer werkbladen te maken in 11 talen. Dezelfde afbeeldingen produceren verschillende categorielabels wanneer je van taal wisselt — afbeeldingsnamen en de "Afbeeldingen Sorteren" koptekst worden allemaal automatisch bijgewerkt. Maak meertalige sorteerbundels waarbij elke taalversie dezelfde thematische afbeeldingen gebruikt maar met gelokaliseerde tekst. Dit is bijzonder waardevol voor NT2-verkopers (Nederlands als tweede taal), tweetalige productlijnen en internationale thuisonderwijsgezinnen. Verkoop taalspecifieke bundels of meertalige mega-pakketten tegen premiumprijzen op Etsy.nl en Gumroad. De combinatie van visueel sorteren en gelokaliseerde woordenschat maakt deze werkbladen dubbel educatief: gebruikers oefenen zowel classificatievaardigheden als woordenschat in de doeltaal.`,
-        platform: 'Etsy / Gumroad (meertalige markt)',
+        platform: `Etsy / Gumroad (meertalige markt)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Hoe werkt het twee-categorieën sorteermechanisme?',
+      question: `Hoe werkt het twee-categorieën sorteermechanisme?`,
       answer:
         `Elk sorteer werkblad heeft precies twee categorieën — links en rechts. Het werkblad toont twee categoriekaders met stippelrand bovenaan waar gebruikers hun afbeeldingen sorteren, en een geschud uitknipraster onderaan met alle afbeeldingen door elkaar gemengd. gebruikers knippen de afbeeldingen uit het raster en plaatsen elke afbeelding in het juiste categoriekader. Het twee-categorieën formaat creëert een duidelijke binaire classificatietaak die werkt voor elk onderwerp — dieren vs voedsel, land vs water, levend vs niet-levend, en duizenden andere combinaties. Dit eenvoudige maar effectieve mechanisme is geschikt voor gebruikers van kleuterschool tot en met groep 8.`,
     },
@@ -157,7 +157,7 @@ const content: AppContent = {
         `Elk werkblad ondersteunt 4 tot 12 afbeeldingen totaal, waarbij elke categorie tussen de 2 en 10 afbeeldingen bevat. Themamodus haalt automatisch 4–6 afbeeldingen per thema op. Handmatige modus laat je exacte aantallen per categorie instellen. Het uitknipraster past de kolomindeling aan (3–4 kolommen op basis van het totale aantal) om schone visuele afstanden te behouden. Minder afbeeldingen creëren eenvoudigere sorteertaken die geschikt zijn voor kleuters en groep 1–2; meer afbeeldingen verhogen de moeilijkheidsgraad voor gebruikers in groep 3–8.`,
     },
     {
-      question: 'Hoe werkt het geschude uitknipraster?',
+      question: `Hoe werkt het geschude uitknipraster?`,
       answer:
         `Het uitknipraster beslaat de onderste 55% van het inhoudsgebied en toont alle geselecteerde afbeeldingen in willekeurige volgorde. Afbeeldingen verschijnen in witte cellen met stippel #666-randen en 4px afgeronde hoeken, gerangschikt in 3–4 kolommen op basis van het totale aantal afbeeldingen. Elke afbeelding vult 85% van zijn cel. gebruikers knippen de afbeeldingen uit langs de stippellijnen en sorteren ze in het juiste categoriekader erboven. Het schudden zorgt ervoor dat gebruikers elke afbeelding daadwerkelijk moeten classificeren in plaats van een patroon te kopiëren — dit maakt het een echte cognitieve oefening.`,
     },
@@ -167,14 +167,14 @@ const content: AppContent = {
         `De generator gebruikt een dubbel canvassysteem met een Werkbladtabblad en een Antwoordbladtabblad. Het antwoordblad toont twee categorievakken (één per categorie, gelijke breedte) met afbeeldingen gesorteerd in hun juiste groep. Antwoordblad-afbeeldingen worden weergegeven op 6× de grootte van de uitkniprastercellen voor duidelijke verificatie, met maximaal 2 kolommen per categorievak. Elk vak gebruikt #FAFAFA-vulling met #444 stippellijn en 12px randradius. Beide versies worden afzonderlijk geëxporteerd met vier speciale downloadknoppen. Dit automatische antwoordblad is een enorme tijdsbesparing voor verkopers: geen handmatig sorteren van afbeeldingen nodig.`,
     },
     {
-      question: 'Hoe werkt de gelokaliseerde koptekst?',
+      question: `Hoe werkt de gelokaliseerde koptekst?`,
       answer:
         `Elk gegenereerd werkblad bevat een gestileerde "Afbeeldingen Sorteren" koptekst met een mintgroene achtergrond (#4DB6AC), witte capsule-container, groenblauwe titel (#00796B) in Fredoka Bold-lettertype en oranje beschrijving (#FF7043) in Quicksand-lettertype. Staande werkbladen tonen een koptekst van 100px; liggende werkbladen gebruiken een compacte koptekst van 70px. De titel en beschrijving worden automatisch vertaald in alle 11 ondersteunde talen: Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins. Een groenblauw buitenkader (#26A69A, 8px lijndikte, 12px radius) omlijst de gehele pagina.`,
     },
     {
-      question: 'Is de Sorteer Werkblad Generator taalgevoelig?',
+      question: `Is de Sorteer Werkblad Generator taalgevoelig?`,
       answer:
-        `Ja. Categorielabels gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de tekst op het werkblad. Bijvoorbeeld: een katafbeelding verschijnt als "Cat" in het Engels maar "Kat" in het Nederlands en "Katze" in het Duits. De gelokaliseerde "Afbeeldingen Sorteren" koptekst verandert ook mee met de geselecteerde taal. De Commerciële licentie bevat 10 kleurrijke thema's met alleen Engels; Volledige Toegang ontgrendelt alle 104 thema's en alle 11 talen voor gelokaliseerde categorielabels. Dit maakt de Volledige Toegang bijzonder waardevol voor verkopers die meerdere taalmarkten bedienen — 11 talen betekent 11 verschillende markten met dezelfde afbeeldingen.`,
+        `Ja. Categorielabels gebruiken gelokaliseerde afbeeldingsnamen uit de Afbeeldingenbibliotheek, dus het wisselen van taal verandert de tekst op het werkblad. Bijvoorbeeld: een katafbeelding verschijnt als "Cat" in het Engels maar "Kat" in het Nederlands en "Katze" in het Duits. De gelokaliseerde "Afbeeldingen Sorteren" koptekst verandert ook mee met de geselecteerde taal. De Commerciële licentie bevat 10 kleurrijke thema`s met alleen Engels; Volledige Toegang ontgrendelt alle 104 thema`s en alle 11 talen voor gelokaliseerde categorielabels. Dit maakt de Volledige Toegang bijzonder waardevol voor verkopers die meerdere taalmarkten bedienen — 11 talen betekent 11 verschillende markten met dezelfde afbeeldingen.`,
     },
     {
       question: `Kan ik naam- en datumvelden toevoegen aan sorteer werkbladen?`,
@@ -189,7 +189,7 @@ const content: AppContent = {
     {
       question: `Kan ik achtergrondthema's en kaderthema's toevoegen aan sorteer werkbladen?`,
       answer:
-        `Ja. Het paneel Pagina-instellingen bevat zowel een achtergrondthema-selector met een dekkingsschuifregelaar (0–1 in stappen van 0,05) als een kaderthema-selector met een eigen onafhankelijke dekkingsschuifregelaar. Achtergrondthema's voegen decoratieve patronen toe achter de sorteerinhoud, terwijl kaderthema's de pagina omlijsten. Beide hebben aparte dekkingsregelaars zodat je subtiele achtergronden kunt combineren met opvallende kaders, of elke andere combinatie die bij je ontwerp past. Seizoensgebonden achtergronden (herfstbladeren, sneeuwvlokken, bloemen) voegen visuele aantrekkingskracht toe aan je sorteerproducten.`,
+        `Ja. Het paneel Pagina-instellingen bevat zowel een achtergrondthema-selector met een dekkingsschuifregelaar (0–1 in stappen van 0,05) als een kaderthema-selector met een eigen onafhankelijke dekkingsschuifregelaar. Achtergrondthema`s voegen decoratieve patronen toe achter de sorteerinhoud, terwijl kaderthema`s de pagina omlijsten. Beide hebben aparte dekkingsregelaars zodat je subtiele achtergronden kunt combineren met opvallende kaders, of elke andere combinatie die bij je ontwerp past. Seizoensgebonden achtergronden (herfstbladeren, sneeuwvlokken, bloemen) voegen visuele aantrekkingskracht toe aan je sorteerproducten.`,
     },
     {
       question: `Kan ik sorteer werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?`,
@@ -212,27 +212,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'raster-puzzel-werkbladen',
-      anchorText: 'Rasterpuzzel Werkblad Generator',
+      anchorText: `Rasterpuzzel Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'schaduw-matching-werkbladen',
-      anchorText: 'Schaduw Koppelen Werkblad Generator',
+      anchorText: `Schaduw Koppelen Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'plaatjes-bingo-werkbladen',
-      anchorText: 'Plaatjesbingo Werkblad Generator',
+      anchorText: `Plaatjesbingo Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'zoek-en-tel-werkbladen',
-      anchorText: 'Tel en Vind Werkblad Generator',
+      anchorText: `Tel en Vind Werkblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'kleurplaten-werkbladen',
-      anchorText: 'Kleurplaten Werkblad Generator',
+      anchorText: `Kleurplaten Werkblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -242,12 +242,12 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'sorteer-werkbladen-maken',
-      anchorText: 'Hoe Maak en Verkoop Je Sorteer Werkbladen Online',
+      anchorText: `Hoe Maak en Verkoop Je Sorteer Werkbladen Online`,
     },
     {
       pageType: 'idea',
       slug: 'kamperen-printable-ideen',
-      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+      anchorText: `Camping printable ideeën voor buitenonderwijs`,
     },
     {
       pageType: 'idea',
@@ -257,7 +257,7 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'marketing-printable-bedrijf',
-      anchorText: 'Marketing voor je printable bedrijf',
+      anchorText: `Marketing voor je printable bedrijf`,
     },
   ],
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing estacional imprimibles',
+    primaryKeyword: `marketing estacional imprimibles`,
     secondaryKeywords: [
-      'estrategia negocio imprimibles estacional',
+      `estrategia negocio imprimibles estacional`,
       'marketing fichas festividades',
-      'ventas imprimibles vuelta al cole',
-      'calendario productos estacionales vendedores',
+      `ventas imprimibles vuelta al cole`,
+      `calendario productos estacionales vendedores`,
     ],
     lsiKeywords: [
       `ciclo demanda festividades planificación productos estacionales periodos máxima venta`,
@@ -16,7 +16,7 @@ const content: GuideContent = {
       `actividades Día de Acción de Gracias tendencias estacionales previsión demanda calendario producción`,
       `momento lanzamiento palabras clave estacionales análisis tendencias calendario contenido planificación trimestral`,
     ],
-    titleTag: 'Marketing Estacional Imprimibles — Calendario',
+    titleTag: `Marketing Estacional Imprimibles — Calendario`,
     metaDescription: `Planifica campañas de marketing estacional para imprimibles alineadas con ciclos de demanda. Calendario de vendedor con producción, palabras clave y estrateg.`,
   },
 
@@ -55,7 +55,7 @@ const content: GuideContent = {
     },
     {
       heading: `Analizar el Rendimiento del Año Anterior para Refinar Tu Calendario`,
-      content: `Después de cada ciclo estacional, realiza una revisión estructurada que capture datos de rendimiento y genere mejoras específicas para el año siguiente. Este proceso de refinamiento año tras año es el elemento más valioso de la planificación estacional porque reemplaza las conjeturas con datos históricos específicos de tus productos, audiencia y posición en el marketplace.\n\nRevisa cuatro categorías de datos de rendimiento estacional. Primero, rendimiento de productos: ¿qué productos estacionales generaron los mayores ingresos, las mayores unidades vendidas y los mejores márgenes de beneficio? ¿Qué productos tuvieron un rendimiento inferior en relación con el esfuerzo invertido en crearlos? Segundo, rendimiento de tiempos: ¿cuándo comenzó el tráfico estacional, cuándo alcanzó su pico y cuándo declinó? ¿Tus productos se lanzaron lo suficientemente temprano como para capturar la ventana de demanda completa, o perdiste compradores de principio de temporada? Tercero, rendimiento de marketing: ¿qué canales promocionales (email, redes sociales, anuncios del marketplace) generaron más tráfico estacional y conversiones? ¿Qué campañas generaron el mejor retorno de la inversión en tiempo? Cuarto, rendimiento de palabras clave: ¿qué términos de búsqueda estacionales generaron más vistas y ventas del listado? ¿Qué palabras clave te perdiste que los competidores capturaron?\n\nDocumenta hallazgos específicos y accionables en lugar de observaciones vagas. En lugar de anotar "Halloween fue bien", documenta "Las sopas de letras de Halloween generaron $340 en octubre, superando las fichas de matemáticas de Halloween 3:1. Los productos de Halloween publicados antes del 15 de septiembre generaron un 60% más de ingresos que los productos publicados después del 15 de septiembre. La palabra clave 'actividades del mercado Halloween' generó más tráfico que 'fichas Halloween' — actualizar títulos para el próximo año." Estos hallazgos específicos se traducen directamente en decisiones mejoradas para el calendario estacional del año siguiente.\n\nCompara el rendimiento real contra tu calendario planificado para identificar dónde la planificación fue precisa y dónde necesita ajuste. ¿Asignaste la cantidad correcta de tiempo de producción a cada pico estacional? ¿Tus plazos de publicación dieron a los productos suficiente tiempo de anticipación para la indexación? ¿Tus campañas de marketing se lanzaron en el momento correcto en relación con la demanda? Estas comparaciones revelan mejoras sistemáticas: si consistentemente pierdes demanda de principio de temporada, adelanta todos tus plazos de producción dos semanas. Si ciertos temas estacionales consistentemente tienen bajo rendimiento, reduce tu inversión en esos temas y redirige el esfuerzo hacia temporadas de mayor rendimiento.\n\nMantén un archivo de rendimiento estacional que acumule datos a lo largo de los años. Los datos estacionales del primer año proporcionan una línea base. Los datos del segundo año revelan si tus mejoras están funcionando. A partir del tercer año, tu calendario estacional se vuelve cada vez más preciso porque está construido sobre múltiples años de datos de rendimiento reales en lugar de consejos genéricos de la industria. Esta ventaja compuesta de datos es una barrera competitiva significativa que los vendedores más nuevos sin registros históricos no pueden replicar.`,
+      content: `Después de cada ciclo estacional, realiza una revisión estructurada que capture datos de rendimiento y genere mejoras específicas para el año siguiente. Este proceso de refinamiento año tras año es el elemento más valioso de la planificación estacional porque reemplaza las conjeturas con datos históricos específicos de tus productos, audiencia y posición en el marketplace.\n\nRevisa cuatro categorías de datos de rendimiento estacional. Primero, rendimiento de productos: ¿qué productos estacionales generaron los mayores ingresos, las mayores unidades vendidas y los mejores márgenes de beneficio? ¿Qué productos tuvieron un rendimiento inferior en relación con el esfuerzo invertido en crearlos? Segundo, rendimiento de tiempos: ¿cuándo comenzó el tráfico estacional, cuándo alcanzó su pico y cuándo declinó? ¿Tus productos se lanzaron lo suficientemente temprano como para capturar la ventana de demanda completa, o perdiste compradores de principio de temporada? Tercero, rendimiento de marketing: ¿qué canales promocionales (email, redes sociales, anuncios del marketplace) generaron más tráfico estacional y conversiones? ¿Qué campañas generaron el mejor retorno de la inversión en tiempo? Cuarto, rendimiento de palabras clave: ¿qué términos de búsqueda estacionales generaron más vistas y ventas del listado? ¿Qué palabras clave te perdiste que los competidores capturaron?\n\nDocumenta hallazgos específicos y accionables en lugar de observaciones vagas. En lugar de anotar "Halloween fue bien", documenta "Las sopas de letras de Halloween generaron $340 en octubre, superando las fichas de matemáticas de Halloween 3:1. Los productos de Halloween publicados antes del 15 de septiembre generaron un 60% más de ingresos que los productos publicados después del 15 de septiembre. La palabra clave `actividades del mercado Halloween` generó más tráfico que 'fichas Halloween' — actualizar títulos para el próximo año." Estos hallazgos específicos se traducen directamente en decisiones mejoradas para el calendario estacional del año siguiente.\n\nCompara el rendimiento real contra tu calendario planificado para identificar dónde la planificación fue precisa y dónde necesita ajuste. ¿Asignaste la cantidad correcta de tiempo de producción a cada pico estacional? ¿Tus plazos de publicación dieron a los productos suficiente tiempo de anticipación para la indexación? ¿Tus campañas de marketing se lanzaron en el momento correcto en relación con la demanda? Estas comparaciones revelan mejoras sistemáticas: si consistentemente pierdes demanda de principio de temporada, adelanta todos tus plazos de producción dos semanas. Si ciertos temas estacionales consistentemente tienen bajo rendimiento, reduce tu inversión en esos temas y redirige el esfuerzo hacia temporadas de mayor rendimiento.\n\nMantén un archivo de rendimiento estacional que acumule datos a lo largo de los años. Los datos estacionales del primer año proporcionan una línea base. Los datos del segundo año revelan si tus mejoras están funcionando. A partir del tercer año, tu calendario estacional se vuelve cada vez más preciso porque está construido sobre múltiples años de datos de rendimiento reales en lugar de consejos genéricos de la industria. Esta ventaja compuesta de datos es una barrera competitiva significativa que los vendedores más nuevos sin registros históricos no pueden replicar.`,
     },
     {
       heading: `Mantener Productos Perennes Junto con Lanzamientos Estacionales`,
@@ -73,7 +73,7 @@ const content: GuideContent = {
       content: `Amazon KDP requiere tiempos de anticipación más largos que otros marketplaces de imprimibles porque los nuevos listados tardan más en indexarse y posicionarse en los resultados de búsqueda de Amazon. Planifica los lanzamientos estacionales en KDP 8-10 semanas antes de los picos de demanda en lugar de las 6-8 semanas estándar. Usa los campos de palabras clave de Amazon estratégicamente con términos estacionales, y actualiza las descripciones de tus libros KDP para enfatizar la relevancia estacional durante los meses pico. Las recomendaciones de "Los clientes también compraron" de Amazon crean oportunidades de venta cruzada entre títulos estacionales y perennes de tu catálogo. Rastrea las tendencias de posición en el ranking de los más vendidos de tus títulos estacionales en KDP para identificar exactamente cuándo la demanda comienza a crecer y declinar para cada categoría estacional.`,
     },
     {
-      heading: 'Optimización Estacional en Gumroad',
+      heading: `Optimización Estacional en Gumroad`,
       content: `Gumroad tiene el ciclo de demanda más alineado con el calendario escolar de cualquier marketplace de imprimibles, haciendo que el momento estacional sea particularmente preciso. La demanda en Gumroad tiene picos durante la vuelta al cole (agosto), festividades de otoño (octubre-noviembre), preparación para vacaciones de invierno (diciembre), temporada de exámenes (marzo-abril) y fin de año (mayo-junio). Los vendedores de Gumroad se benefician al participar en eventos de ventas estacionales del sitio, que generan aumentos significativos de tráfico que benefician a todos los vendedores participantes. Crea vistas previas y miniaturas de productos estacionales que muestren prominentemente el tema estacional para capturar tráfico de navegación durante los eventos de ventas estacionales. La función de "Lista de Deseos" de Gumroad significa que los compradores pueden guardar tus productos estacionales semanas antes de comprar — la publicación temprana da a los compradores tiempo para descubrir y guardar tus productos antes de que llegue el momento de compra.`,
     },
   ],
@@ -136,29 +136,29 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-redes-sociales-imprimibles', anchorText: `Marketing en Redes Sociales para Vendedores de Imprimibles` },
-    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: 'Marketing en Pinterest para Negocios de Fichas' },
+    { pageType: 'guide', slug: `marketing-redes-sociales-imprimibles`, anchorText: `Marketing en Redes Sociales para Vendedores de Imprimibles` },
+    { pageType: 'guide', slug: 'marketing-pinterest-fichas', anchorText: `Marketing en Pinterest para Negocios de Fichas` },
     { pageType: 'guide', slug: 'email-marketing-imprimibles', anchorText: `Email Marketing para Vendedores de Productos Imprimibles` },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo Crear una Línea de Productos Imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles Imprimible' },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo Crear una Línea de Productos Imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo Crear Paquetes de Fichas que se Vendan` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles Imprimible` },
     { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de Precios para productos imprimibles Imprimible` },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo Escalar Tu Negocio de Imprimibles' },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo Escalar Tu Negocio de Imprimibles` },
     { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de Selección de Nicho para Negocios de Imprimibles` },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo Vender Fichas de Matemáticas en Etsy' },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo Vender Fichas de Matemáticas en Etsy` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de Licencia Comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'bingo',
-      title: 'Generador de Tarjetas de Bingo',
+      title: `Generador de Tarjetas de Bingo`,
       description: `Crea tarjetas de bingo temáticas perfectas para eventos estacionales y celebraciones festivas. Las tarjetas de bingo se adaptan naturalmente a cada tema estacional, desde Halloween hasta Navidad y San Valentín, haciéndolas productos ideales para la expansión del catálogo estacional.`,
     },
     {
       appId: 'coloring',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Produce páginas para colorear estacionales que están entre los productos imprimibles estacionales de mayor demanda. Las páginas para colorear festivas de Halloween, Navidad, Pascua y temas estacionales consistentemente se posicionan entre los más vendidos estacionales en marketplaces de imprimibles.`,
     },
     {
@@ -175,12 +175,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+      src: `/samples/spanish/bingo/Bingo de Imágenes 1.webp`,
       alt: `Tarjeta de bingo demostrando un producto imprimible estacional ideal para campañas de marketing de festividades`,
     },
     samples: [
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+        src: `/samples/spanish/bingo/Bingo de Imágenes 1.webp`,
         alt: `Tarjeta de bingo mostrando un producto imprimible estacional para eventos festivos y celebraciones`,
         caption: `Las tarjetas de bingo se adaptan a cada tema estacional, haciéndolas productos ideales para el marketing estacional durante todo el año`,
       },
@@ -190,7 +190,7 @@ const content: GuideContent = {
         caption: `Las páginas para colorear estacionales son consistentemente los más vendidos durante los picos de demanda festiva en todos los marketplaces de imprimibles`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Puzzle de sopa de letras mostrando imprimible de construcción de vocabulario estacional para marketing festivo`,
         caption: `Las sopas de letras temáticas combinan atractivo estacional con valor educativo para un fuerte rendimiento estacional en el marketplace`,
       },
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Ángel — imagen educativa temática', caption: 'Ángel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Campana — imagen educativa temática', caption: 'Campana' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Vela — imagen educativa temática', caption: 'Vela' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Bastón de Caramelo — imagen educativa temática', caption: 'Bastón de Caramelo' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Chimenea — imagen educativa temática', caption: 'Chimenea' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Ángel — imagen educativa temática`, caption: 'Ángel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Campana — imagen educativa temática`, caption: 'Campana' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Vela — imagen educativa temática`, caption: 'Vela' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Bastón de Caramelo — imagen educativa temática`, caption: 'Bastón de Caramelo' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Chimenea — imagen educativa temática`, caption: 'Chimenea' },
   ],
 };
 

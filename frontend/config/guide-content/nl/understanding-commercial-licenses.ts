@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'commerciële licenties begrijpen',
+    primaryKeyword: `commerciële licenties begrijpen`,
     secondaryKeywords: [
       'printable licentie uitleg',
-      'commercieel gebruik werkbladen',
-      'licentievoorwaarden printables',
-      'commerciële rechten digitale producten',
+      `commercieel gebruik werkbladen`,
+      `licentievoorwaarden printables`,
+      `commerciële rechten digitale producten`,
     ],
     lsiKeywords: [
       `intellectueel eigendom gebruiksrechten persoonlijk versus commercieel licentieniveaus`,
@@ -17,17 +17,17 @@ const content: GuideContent = {
       `licentiefouten platformbeperkingen toeschrijvingsvereisten exclusiviteitsclausules`,
       `licentieadministratie licentiedocumentatie multiplatform licenties concurrentievoordeel`,
     ],
-    titleTag: 'Commerciële Licenties Begrijpen — Gids',
+    titleTag: `Commerciële Licenties Begrijpen — Gids`,
     metaDescription: `Begrijp commerciële gebruikslicenties voor printables voordat je gaat verkopen. Leer licentietypen, veelgemaakte fouten en hoe goede licenties je bedrijf.`,
   },
 
   hero: {
-    title: 'Commerciële Licenties voor Printables Begrijpen',
+    title: `Commerciële Licenties voor Printables Begrijpen`,
     tagline: `Een complete gids over commerciële licenties voor printable verkopers — met het verschil tussen persoonlijk en commercieel gebruik, wat een commerciële licentie vereist, hoe licentievoorwaarden te beoordelen, veelvoorkomende licentiemodellen in de printable-industrie, licentiefouten om te vermijden, een nalevingssysteem opbouwen, multiplatform licenties beheren en licentiekennis als concurrentievoordeel gebruiken`,
     description: `Elk hulpmiddel dat je gebruikt om printable producten te maken — werkbladgeneratoren, clipart, lettertypen, sjablonen en afbeeldingenbibliotheken — komt met licentievoorwaarden die bepalen of je de uitvoer legaal mag verkopen. De meeste printable verkopers slaan deze stap volledig over en nemen aan dat het kopen van een tool automatisch commerciële rechten verleent. Die aanname leidt tot productverwijderingen, accountschorsingen en verloren omzet. Deze gids legt uit hoe commerciële licenties werken in de printable-industrie, waar je op moet letten in licentieovereenkomsten en hoe je een nalevingssysteem opbouwt dat je bedrijf beschermt naarmate het groeit. Of je nu verkoopt op Etsy, Amazon KDP, Gumroad, Gumroad of Creative Fabrica — licentiekennis is de fundering waarop elk succesvol printable bedrijf rust.`,
   },
 
-  introduction: `Commerciële licenties vormen de juridische basis van elk printable bedrijf, maar het blijft een van de meest verkeerd begrepen aspecten van het verkopen van digitale producten. De verwarring is begrijpelijk: licentievoorwaarden variëren enorm tussen tools, platformen en aanbieders van bronmateriaal. De ene clipart-bibliotheek verleent onbeperkt commercieel gebruik met een enkele aankoop. Een andere beperkt de uitvoer tot 500 exemplaren. Een derde staat commercieel gebruik op Etsy toe maar verbiedt Amazon KDP. Zonder deze verschillen te begrijpen bouwen verkopers onbewust hun bedrijf op onzekere juridische grond.\n\nDe gevolgen van licentiefouten lopen uiteen van ongemakkelijk tot verwoestend. In het mildste geval ontvangt een verkoper een verwijderingsverzoek voor een enkele vermelding en haalt die weg. In het ergste geval bouwt een verkoper een complete productlijn rond bronmateriaal waarvoor geen commerciële rechten bestaan, en de rechthebbende dient verwijderingsverzoeken in bij alle platformen tegelijk. Maanden werk en opgebouwde recensies verdwijnen van de ene dag op de andere. De verkoper moet helemaal opnieuw beginnen met correct gelicentieerde bronnen, terwijl zowel de producten als de marktplaatsgeloofwaardigheid die maanden kostte om op te bouwen verloren zijn.\n\nDe ironie is dat correcte commerciële licenties noch moeilijk noch duur zijn. De meeste professionele werkbladgeneratoren en bronbibliotheken bieden duidelijke commerciële licentieopties tegen redelijke eenmalige prijzen. De uitdaging is niet de kosten — het is de kennisvalkuil. Verkopers die commerciële licenties begrijpen nemen zelfverzekerde beslissingen over welke tools ze kopen, welke bronnen ze gebruiken en hoe ze hun rechten documenteren. Ze breiden uit naar meerdere platformen zonder angst voor verwijderingen omdat ze precies weten wat hun licenties toestaan.\n\nDeze gids behandelt commerciële licenties vanuit het perspectief van een printable verkoper die een echt bedrijf opbouwt. Je leert hoe je het verschil herkent tussen persoonlijke en commerciële gebruiksrechten, welke bronnen in je productieproces commerciële licenties vereisen, hoe je licentievoorwaarden beoordeelt vóór aankoop, de meest voorkomende licentiemodellen in de printable-industrie begrijpt, de fouten vermijdt die onvoorbereide verkopers vangen, een nalevingssysteem opbouwt dat meegroeit met je bedrijf, licenties beheert over meerdere verkoopplatformen en licentiekennis als oprecht concurrentievoordeel benut.\n\nHet doel is niet om je een licentiejurist te maken — het is om je de praktische kennis te geven voor geïnformeerde beslissingen, vermijdbare problemen te voorkomen en een printable bedrijf op een solide juridische basis te bouwen. Verkopers die een paar uur investeren in het begrijpen van licenties beschermen zichzelf tegen risico's die maanden werk en duizenden euro's aan potentiële omzet kunnen ontsporen.`,
+  introduction: `Commerciële licenties vormen de juridische basis van elk printable bedrijf, maar het blijft een van de meest verkeerd begrepen aspecten van het verkopen van digitale producten. De verwarring is begrijpelijk: licentievoorwaarden variëren enorm tussen tools, platformen en aanbieders van bronmateriaal. De ene clipart-bibliotheek verleent onbeperkt commercieel gebruik met een enkele aankoop. Een andere beperkt de uitvoer tot 500 exemplaren. Een derde staat commercieel gebruik op Etsy toe maar verbiedt Amazon KDP. Zonder deze verschillen te begrijpen bouwen verkopers onbewust hun bedrijf op onzekere juridische grond.\n\nDe gevolgen van licentiefouten lopen uiteen van ongemakkelijk tot verwoestend. In het mildste geval ontvangt een verkoper een verwijderingsverzoek voor een enkele vermelding en haalt die weg. In het ergste geval bouwt een verkoper een complete productlijn rond bronmateriaal waarvoor geen commerciële rechten bestaan, en de rechthebbende dient verwijderingsverzoeken in bij alle platformen tegelijk. Maanden werk en opgebouwde recensies verdwijnen van de ene dag op de andere. De verkoper moet helemaal opnieuw beginnen met correct gelicentieerde bronnen, terwijl zowel de producten als de marktplaatsgeloofwaardigheid die maanden kostte om op te bouwen verloren zijn.\n\nDe ironie is dat correcte commerciële licenties noch moeilijk noch duur zijn. De meeste professionele werkbladgeneratoren en bronbibliotheken bieden duidelijke commerciële licentieopties tegen redelijke eenmalige prijzen. De uitdaging is niet de kosten — het is de kennisvalkuil. Verkopers die commerciële licenties begrijpen nemen zelfverzekerde beslissingen over welke tools ze kopen, welke bronnen ze gebruiken en hoe ze hun rechten documenteren. Ze breiden uit naar meerdere platformen zonder angst voor verwijderingen omdat ze precies weten wat hun licenties toestaan.\n\nDeze gids behandelt commerciële licenties vanuit het perspectief van een printable verkoper die een echt bedrijf opbouwt. Je leert hoe je het verschil herkent tussen persoonlijke en commerciële gebruiksrechten, welke bronnen in je productieproces commerciële licenties vereisen, hoe je licentievoorwaarden beoordeelt vóór aankoop, de meest voorkomende licentiemodellen in de printable-industrie begrijpt, de fouten vermijdt die onvoorbereide verkopers vangen, een nalevingssysteem opbouwt dat meegroeit met je bedrijf, licenties beheert over meerdere verkoopplatformen en licentiekennis als oprecht concurrentievoordeel benut.\n\nHet doel is niet om je een licentiejurist te maken — het is om je de praktische kennis te geven voor geïnformeerde beslissingen, vermijdbare problemen te voorkomen en een printable bedrijf op een solide juridische basis te bouwen. Verkopers die een paar uur investeren in het begrijpen van licenties beschermen zichzelf tegen risico`s die maanden werk en duizenden euro`s aan potentiële omzet kunnen ontsporen.`,
 
   tutorial: [
     {
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `Het meest fundamentele onderscheid in licenties is dat tussen persoonlijk gebruik en commercieel gebruik. Persoonlijk gebruik betekent producten maken voor jezelf, je eigen winkel of je eigen kinderen — zonder de intentie om de uitvoer te verkopen, verspreiden of er winst mee te maken. Commercieel gebruik betekent producten maken die je verkoopt, verspreidt voor winst of gebruikt in een zakelijke context. Dit onderscheid geldt voor elke bron in je productieproces: generatoren, clipart, lettertypen, sjablonen en afbeeldingen.\n\nVeel bronnen die breed bruikbaar lijken zijn in werkelijkheid beperkt tot persoonlijk gebruik. Een clipartcollectie met het label \"gratis download\" op een bronnenwebsite verleent vrijwel zeker alleen persoonlijke gebruiksrechten, tenzij de licentie uitdrukkelijk anders vermeldt. Een lettertype gedownload van een gratis lettertypesite mag persoonlijke documenten toestaan maar het gebruik in producten die je verkoopt verbieden. Zelfs betaalde bronnen worden soms standaard geleverd met alleen persoonlijke gebruiksrechten, waarbij commerciële rechten alleen beschikbaar zijn als een apart, hoger geprijsd niveau. Het label \"gratis\" of \"betaald\" vertelt je niets over commerciële rechten — alleen de licentievoorwaarden doen dat.\n\nHet onderscheid is belangrijk omdat rechthebbenden actief hun licenties handhaven, vooral wanneer ze ontdekken dat hun bronmateriaal commercieel wordt gebruikt zonder toestemming. Digitale marktplaatsen zoals Etsy en Amazon hebben gestroomlijnde verwijderingsprocessen die rechthebbenden in staat stellen overtredende vermeldingen snel te verwijderen. Een rechthebbende die zoekt naar ongeautoriseerd commercieel gebruik van zijn clipart kan verwijderingsverzoeken indienen bij elk platform waar de overtredende producten verschijnen. De verkoper ontvangt geen waarschuwing voordat zijn vermeldingen verdwijnen.\n\nControleer vóór het gebruik van enige bron in een product dat je van plan bent te verkopen of de licentie uitdrukkelijk commerciële gebruiksrechten verleent. Zoek naar specifieke bewoordingen zoals \"commerciële licentie inbegrepen,\" \"mag worden gebruikt in producten voor verkoop,\" of \"commerciële outputrechten verleend.\" Als de licentie commercieel gebruik niet noemt of formuleringen gebruikt als \"alleen persoonlijk gebruik,\" \"niet-commercieel gebruik,\" of \"niet voor doorverkoop,\" heb je niet het recht die bron te gebruiken in producten die je verkoopt. Neem bij twijfel contact op met de bronaanbieder en vraag schriftelijke bevestiging van commerciële rechten voordat je hun bron in je productworkflow opneemt.`,
     },
     {
-      heading: 'Identificeer Wat een Commerciële Licentie Vereist',
+      heading: `Identificeer Wat een Commerciële Licentie Vereist`,
       content: `Elk element in je productcreatieproces heeft geverifieerde commerciële rechten nodig. Verkopers richten zich vaak op de primaire tool waarmee ze werkbladen maken terwijl ze de ondersteunende bronnen over het hoofd zien die ook licenties vereisen. Een complete licentie-audit dekt elke bron die bijdraagt aan je eindproduct.\n\nWerkbladgeneratoren zijn het primaire creatiehulpmiddel voor de meeste printable verkopers, en hun licentie bepaalt of je de werkbladen die ze produceren mag verkopen. Sommige generatoren verlenen commerciële rechten met een basisaankoop, terwijl andere commercieel gebruik beperken tot premiumniveaus. De LessonCraft Studio generatoren bieden twee duidelijke niveaus: een $27 Commerciële licentie voor verkoop op je primaire platform en een $47 Full Access licentie voor verkoop op alle platformen met extra functies. Je kunt elke generator als gratis proefversie met watermerk uitproberen om de uitvoer te beoordelen voordat je een commerciële licentie aanschaft.\n\nClipart en afbeeldingenbibliotheken vereisen afzonderlijke licentie-aandacht omdat ze vaak de meest streng gehandhaafde categorie van digitale bronnen zijn. Professionele illustratoren en beeldaanbieders monitoren marktplaatsen actief op ongeautoriseerd commercieel gebruik van hun kunstwerk. Elke clipartcollectie, iconenset of illustratiepakket dat je in je producten gebruikt moet commerciële gebruiksrechten dragen. Dit geldt ook voor afbeeldingen die zijn ingebed in werkbladgeneratoren — controleer of de licentie van de generator de inbegrepen beelden dekt voor commerciële uitvoer.\n\nLettertypen zijn een vaak over het hoofd gezien licentievereiste. Veel populaire lettertypen hebben een licentie alleen voor persoonlijk gebruik, en het gebruik ervan in commerciële producten zonder een commerciële lettertypelicentie vormt een inbreuk. Dit geldt voor lettertypen die worden gebruikt in werkbladsjablonen, omslagpagina's, productminiaturen en elke andere commerciële uitvoer. Lettertype-uitgevers monitoren in toenemende mate het commerciële gebruik van hun lettertypen en dienen verwijderingsverzoeken in voor producten die lettertypen zonder licentie commercieel gebruiken.\n\nSjabloonbestanden, randontwerpen, achtergrondpatronen en decoratieve elementen dragen allemaal hun eigen licentievoorwaarden. Een prachtig ontworpen werkbladrand gedownload van een ontwerpbronnensite kan beperkt zijn tot persoonlijk gebruik. Een achtergrondpatroon uit een textuurbibliotheek kan een vergoeding per product vereisen voor commercieel gebruik. Elk visueel element in je eindproduct vertegenwoordigt een licentiebeslissing, en elke beslissing moet bewust worden genomen in plaats van aangenomen.\n\nHet principe is eenvoudig: als het verschijnt in een product dat je verkoopt, heeft het commerciële rechten nodig. Geen uitzonderingen. Eén niet-gelicentieerd element in een verder correct gelicentieerd product creëert aansprakelijkheid voor het hele product. Bouw de gewoonte op om licentievoorwaarden te controleren vóór het opnemen van enige bron in je workflow, niet erna.`,
     },
     {
@@ -134,34 +134,34 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'auteursrecht-printable-verkopers',
-      title: 'Auteursrecht voor Printable Verkopers',
+      slug: `auteursrecht-printable-verkopers`,
+      title: `Auteursrecht voor Printable Verkopers`,
       description: `Verdiep je kennis van intellectueel eigendomsrechten die specifiek relevant zijn voor verkopers van printable producten, inclusief auteursrechtbescherming en handhaving.`,
     },
     {
       slug: 'printable-productlijn-maken',
-      title: 'Een Printable Productlijn Maken',
+      title: `Een Printable Productlijn Maken`,
       description: `Leer hoe je een samenhangende productlijn opbouwt met correct gelicentieerde tools, van individuele producten tot uitgebreide collecties die samen sterker verkopen.`,
     },
     {
-      slug: 'complete-gids-printable-bedrijf',
-      title: 'Complete Gids Printable Bedrijf',
+      slug: `complete-gids-printable-bedrijf`,
+      title: `Complete Gids Printable Bedrijf`,
       description: `Ontdek het complete stappenplan voor het starten en laten groeien van een winstgevend printable bedrijf, van niche-selectie tot multiplatform verkoop.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'auteursrecht-printable-verkopers', anchorText: 'Auteursrechtgids voor Printable Verkopers' },
-    { pageType: 'guide', slug: 'printable-productlijn-maken', anchorText: 'Hoe een Printable Productlijn Opbouwen' },
-    { pageType: 'guide', slug: 'niche-selectie-printables', anchorText: 'Niche-Selectiegids voor Printable Bedrijven' },
+    { pageType: 'guide', slug: `auteursrecht-printable-verkopers`, anchorText: `Auteursrechtgids voor Printable Verkopers` },
+    { pageType: 'guide', slug: 'printable-productlijn-maken', anchorText: `Hoe een Printable Productlijn Opbouwen` },
+    { pageType: 'guide', slug: 'niche-selectie-printables', anchorText: `Niche-Selectiegids voor Printable Bedrijven` },
     { pageType: 'guide', slug: 'prijzen-educatief-materiaal', anchorText: `Prijsstrategien voor Educatief Printable Materiaal` },
-    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
+    { pageType: 'guide', slug: `reken-werkbladen-verkopen-etsy`, anchorText: `Hoe Rekenwerkbladen Verkopen op Etsy` },
+    { pageType: 'guide', slug: `sell-educational-printables-etsy`, anchorText: `Hoe Educatieve Printables Verkopen op Etsy` },
     { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: `Hoe een Etsy Printable Winkel Starten vanuit Niets` },
-    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Hoe Printables Verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoekers Maken met Afbeeldingen' },
+    { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: `Hoe Printables Verkopen op Gumroad` },
+    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: `Hoe Woordzoekers Maken met Afbeeldingen` },
     { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: `Hoe Kleurplaten Maken van Thematische Afbeeldingen` },
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
+    { pageType: 'start', slug: `complete-gids-printable-bedrijf`, anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
   ],
 
@@ -190,22 +190,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+      src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`,
       alt: `Professioneel woordzoeker werkblad dat commercieel gelicentieerde printable uitvoer demonstreert`,
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: `/samples/dutch/wordsearch/Woordzoeker 1.webp`,
         alt: `Woordzoekpuzzel gemaakt met commerciële licentie voor multiplatform verkoop`,
         caption: `Woordzoekpuzzels gemaakt onder commerciële licentie kunnen op elk platform worden verkocht`,
       },
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+        src: `/samples/dutch/addition/Optellen is Leuk 1.webp`,
         alt: `Optellen werkblad gegenereerd met royaltyvrije commerciële licentie`,
         caption: `Eén commerciële licentie dekt onbeperkte optellen werkbladgeneratie zonder kosten per product`,
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: `/samples/dutch/coloring/coloring portrait 1.webp`,
         alt: `Kleurplaat met correct gelicentieerde thematische afbeeldingen voor commerciële verkoop`,
         caption: `Commerciële licenties die ingebedde beelden bevatten vereenvoudigen de naleving voor visuele producten`,
       },
@@ -215,11 +215,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/activities/soccer.webp', alt: 'Voetbal — thematische educatieve afbeelding', caption: 'Voetbal' },
-    { src: '/image-library/activities/basketball.webp', alt: 'Basketbal — thematische educatieve afbeelding', caption: 'Basketbal' },
-    { src: '/image-library/activities/tennis.webp', alt: 'Tennis — thematische educatieve afbeelding', caption: 'Tennis' },
-    { src: '/image-library/activities/swimming.webp', alt: 'Zwemmen — thematische educatieve afbeelding', caption: 'Zwemmen' },
-    { src: '/image-library/activities/running.webp', alt: 'Hardlopen — thematische educatieve afbeelding', caption: 'Hardlopen' },
+    { src: `/image-library/activities/soccer.webp`, alt: `Voetbal — thematische educatieve afbeelding`, caption: 'Voetbal' },
+    { src: `/image-library/activities/basketball.webp`, alt: `Basketbal — thematische educatieve afbeelding`, caption: 'Basketbal' },
+    { src: `/image-library/activities/tennis.webp`, alt: `Tennis — thematische educatieve afbeelding`, caption: 'Tennis' },
+    { src: `/image-library/activities/swimming.webp`, alt: `Zwemmen — thematische educatieve afbeelding`, caption: 'Zwemmen' },
+    { src: `/image-library/activities/running.webp`, alt: `Hardlopen — thematische educatieve afbeelding`, caption: 'Hardlopen' },
   ],
 };
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vender recursos educativos na creative fabrica',
+    primaryKeyword: `vender recursos educativos na creative fabrica`,
     secondaryKeywords: [
-      'como vender na Creative Fabrica',
-      'Creative Fabrica para vendedores',
-      'vender imprimíveis na Creative Fabrica',
-      'recursos Creative Fabrica Classroom',
+      `como vender na Creative Fabrica`,
+      `Creative Fabrica para vendedores`,
+      `vender imprimíveis na Creative Fabrica`,
+      `recursos Creative Fabrica Classroom`,
     ],
     lsiKeywords: [
       `marketplace design audiência artesanato modelo subscrição transferências digitais imprimíveis educativos`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `etiquetas produto categorias otimização pesquisa imagens capa descrição formatação`,
       `escalonamento catálogo pacotes promoção multicategoria fontes gráficos recursos educativos`,
     ],
-    titleTag: 'Vender recursos educativos na Creative Fabrica',
+    titleTag: `Vender recursos educativos na Creative Fabrica`,
     metaDescription: `Venda recursos educativos na Creative Fabrica. Ganhe com subscrições e vendas individuais, alcance audiências de artesanato e vendedores na secção Classroom.`,
   },
 
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Tornar-se vendedor na Creative Fabrica requer candidatar-se a uma conta de designer, que é um processo separado da criação de uma conta de comprador normal. Visite o website da Creative Fabrica e navegue até à secção "Become a Designer" ou "Sell Your Work". A candidatura requer informação básica sobre si e o seu trabalho criativo. A Creative Fabrica analisa as candidaturas para manter padrões de qualidade, por isso inclua exemplos dos seus melhores produtos imprimíveis na sua submissão de portfólio. A aprovação demora tipicamente alguns dias úteis.\n\nApós a aprovação, configure o seu perfil de designer com cuidado — esta é a face pública da sua loja na plataforma. Escolha um nome de loja que reflita a sua marca e seja fácil de lembrar e pesquisar para os compradores. Escreva uma biografia que comunique que tipo de recursos cria e para quem são. Se vende noutras plataformas, mantenha uma marca consistente em todas elas para que os compradores que o descobrem na Creative Fabrica reconheçam os seus produtos no Etsy ou vice-versa.\n\nConfigure as suas definições de pagamento para garantir que recebe os ganhos. A Creative Fabrica paga aos designers via PayPal ou transferência bancária, com pagamentos processados regularmente após atingir o limiar mínimo. Configure o seu método de pagamento preferido durante a configuração inicial da conta para evitar atrasos quando chegarem as primeiras vendas.\n\nCarregue uma imagem de perfil profissional e uma faixa de capa. As páginas de designer da Creative Fabrica exibem estas de forma proeminente, e contribuem para a primeira impressão que os compradores formam ao visitar a sua loja. Use elementos de design consistentes com a identidade da sua marca — se os seus produtos imprimíveis apresentam designs limpos e coloridos para jovens aprendentes, a marca da sua loja deve refletir essa mesma estética.\n\nFamiliarize-se com o painel de controlo da Creative Fabrica antes de carregar produtos. O painel mostra os seus dados de vendas, estatísticas de transferências por subscrição, desagregação de ganhos e métricas de desempenho de produtos. Saber onde encontrar estes dados desde o início ajuda-o a tomar decisões informadas sobre a estratégia de produtos à medida que o seu catálogo cresce.`,
     },
     {
-      heading: 'Criar e carregar recursos educativos',
+      heading: `Criar e carregar recursos educativos`,
       content: `A criação de produtos na Creative Fabrica segue um fluxo de trabalho estruturado. Navegue até ao seu painel de designer e selecione a opção para criar um novo produto. Terá de fornecer os seus ficheiros de produto (fichas em PDF), uma imagem de capa, um título, uma descrição, etiquetas e seleções de categoria.\n\nPrepare os seus ficheiros de produto nos formatos que os compradores da Creative Fabrica esperam. Para fichas educativas, o PDF é o formato principal. Certifique-se de que os seus PDFs estão formatados para tamanhos de papel standard (Carta US ou A4), com resolução de 300 DPI para qualidade de impressão nítida. Se o seu pack de fichas incluir múltiplas páginas, combine-as num único ficheiro PDF em vez de carregar ficheiros de página individuais. Inclua uma chave de respostas onde aplicável — este é um valor acrescentado significativo que diferencia recursos educativos profissionais de imprimíveis básicos.\n\nA imagem de capa é o elemento de conversão mais importante. A Creative Fabrica exibe os produtos como miniaturas visuais nos resultados de pesquisa e nas páginas de categoria, e os compradores tomam decisões em frações de segundo com base nessas imagens. Crie uma imagem de capa que mostre claramente o que o produto contém: uma maquete de fichas impressas, uma colagem mostrando várias páginas do pack, ou uma fotografia estilizada das fichas num contexto de loja ou aprendizagem em casa. As dimensões recomendadas pela Creative Fabrica são tipicamente quadradas ou quase quadradas — verifique as diretrizes atuais na documentação do designer.\n\nEscreva um título de produto que seja ao mesmo tempo descritivo e rico em palavras-chave. Inclua o tipo de recurso, o tema ou assunto e o nível escolar: "Fichas de Adição com Tema Animal para o Jardim de Infância — 40 Páginas com Chaves de Resposta" diz aos compradores exatamente o que vão receber. Evite títulos vagos como "Pack de Matemática" ou "Atividades Divertidas" que não fornecem informação útil para pesquisa ou navegação.\n\nA descrição do produto deve seguir uma estrutura clara. Comece com uma visão geral concisa do que está incluído (número de páginas, tipos de atividade, foco de competência). Siga com detalhes sobre o grupo etário ou nível escolar alvo, como o recurso pode ser usado (trabalho matinal, trabalho de casa, centros de aprendizagem, suplemento de catálogo de produtos de educação doméstica), e o que torna este recurso valioso. Termine com informação sobre o formato do ficheiro e quaisquer notas de utilização. Os compradores na Creative Fabrica leem as descrições antes de comprar, especialmente para recursos educativos onde precisam de confirmar a adequação ao nível escolar.\n\nSelecione as categorias com cuidado. Para recursos educativos, escolha a categoria Classroom e as subcategorias mais específicas disponíveis (matemática, literacia, ciências, etc.). Adicione também categorias mais amplas relevantes se o seu produto tiver apelo transversal — uma ficha com páginas para colorir pode caber tanto na categoria Classroom como numa categoria de colorir ou artesanato, maximizando a descoberta em diferentes segmentos de audiência.`,
     },
     {
@@ -55,18 +55,18 @@ const content: GuideContent = {
       content: `A oportunidade única na Creative Fabrica é o cruzamento entre a sua audiência de artesanato e design e o conteúdo educativo. Milhões de utilizadores da Creative Fabrica são artesãos, proprietários de Cricut, scrapbookers e entusiastas do DIY — e muitos deles são também pais, avós e cuidadores que valorizam atividades educativas para crianças. Alcançar esta audiência com imprimíveis educativos requer compreender o que ressoa com eles e posicionar os seus produtos em conformidade.\n\nA qualidade visual importa mais na Creative Fabrica do que em qualquer outra plataforma educativa. A audiência principal da Creative Fabrica julga os produtos pela qualidade do design em primeiro lugar. Uma ficha de matemática com ilustrações atraentes, layout limpo e esquemas de cores apelativas superará uma ficha com muito texto e formatação básica, mesmo que o conteúdo educativo seja idêntico. Use os geradores de fichas para criar recursos visualmente atraentes que correspondam às expectativas de design da audiência da Creative Fabrica. Páginas para colorir, atividades de correspondência ilustradas e caças-palavras visualmente temáticos alinham-se naturalmente com os padrões estéticos de um marketplace de design.\n\nCrie produtos que sirvam tanto fins educativos como criativos. Um conjunto de páginas para colorir com tema animal funciona como atividade de loja, aula de arte para educação doméstica, atividade para um dia chuvoso para pais criativos e recurso de tempo tranquilo para cuidadores. Posicione estes produtos com descrições e etiquetas que falem a ambas as audiências: "páginas para colorir educativas" capta pesquisas de vendedores, enquanto "imprimível de colorir para crianças" e "folhas de colorir com animais" captam audiências de artesanato e pais. O mesmo produto físico pode apelar a compradores fundamentalmente diferentes quando descrito através das suas perspetivas.\n\nOs temas sazonais e de festividades têm um desempenho excecional na Creative Fabrica porque a audiência de artesanato é muito sazonal. Recursos de regresso às aulas em agosto e setembro, atividades temáticas de Halloween em outubro, fichas de festividades em novembro e dezembro, atividades de Dia dos Namorados em janeiro e fevereiro — cada janela sazonal traz compradores de artesanato à Creative Fabrica que já estão em modo de compra para conteúdo temático. Os imprimíveis educativos com temas sazonais aproveitam este comportamento de compra existente.\n\nPacks de fichas temáticas que se ligam a categorias de artesanato populares criam caminhos de descoberta naturais. Fichas com animais, natureza, veículos, alimentos ou temas espaciais alinham-se com categorias de SVG e clipart que recebem muito tráfego na Creative Fabrica. Um pai a navegar por ficheiros SVG de animais para um projeto Cricut pode descobrir as suas fichas temáticas com correspondência de animais através de sugestões de produtos relacionados ou etiquetas partilhadas. Estes momentos de descoberta entre categorias são únicos da Creative Fabrica e representam tráfego que não consegue aceder através de plataformas exclusivamente educativas.`,
     },
     {
-      heading: 'Promover os seus produtos na Creative Fabrica',
+      heading: `Promover os seus produtos na Creative Fabrica`,
       content: `Embora a Creative Fabrica forneça descoberta integrada no marketplace (ao contrário do Gumroad, onde gera todo o tráfego por si mesmo), complementar a visibilidade orgânica com marketing externo acelera o seu crescimento. As estratégias de marketing que funcionam para produtos da Creative Fabrica diferem das eficazes no Etsy ou Gumroad porque está a alcançar uma audiência consciente do design através de uma plataforma que já tem fortes funcionalidades de pesquisa e navegação.\n\nO Pinterest é o canal de marketing externo mais natural para produtos da Creative Fabrica. O formato visual do Pinterest corresponde à estética centrada no design da Creative Fabrica, e os utilizadores do Pinterest procuram ativamente recursos imprimíveis, fichas e atividades educativas. Crie pins que mostrem as suas fichas com fotografia estilizada ou maquetes atraentes. Ligue os pins diretamente às páginas de produto da Creative Fabrica. Organize os seus quadros do Pinterest por tema (atividades com animais, fichas de matemática, imprimíveis sazonais) para criar um catálogo navegável que gera tráfego consistente ao longo do tempo.\n\nO marketing nas redes sociais deve enfatizar o apelo visual dos seus produtos. Reels de Instagram mostrando uma folheada do seu pack de fichas, vídeos de TikTok a demonstrar como uma criança usa as suas páginas de atividades, ou publicações no Facebook em grupos de parentalidade e educação doméstica a mostrar os seus recursos em situações de aprendizagem real — todos estes aproveitam a qualidade visual que a audiência da Creative Fabrica valoriza. Partilhe o processo de criação, os detalhes de design e os produtos acabados a ser usados em situações de aprendizagem real.\n\nFaça promoção cruzada entre a Creative Fabrica e outras plataformas onde vende. Se tem uma loja Etsy ou Gumroad estabelecida, mencione a sua presença na Creative Fabrica nas suas biografias de redes sociais e comunicações de email (mas nunca crie ligações diretas de dentro dos anúncios do Etsy ou Gumroad, pois isso viola os seus termos). Alguns compradores preferem o modelo de subscrição da Creative Fabrica em relação à compra por item, e direcioná-los para uma plataforma onde podem aceder ao seu conteúdo através da adesão existente aumenta o seu alcance total sem canibalizar as vendas individuais noutras plataformas.\n\nConstrua uma lista de email independentemente de qualquer plataforma. Quer use um serviço como o Mailchimp, ConvertKit ou um construtor de páginas de destino simples, recolher endereços de email da sua audiência dá-lhe um canal de marketing que nenhum algoritmo de plataforma pode restringir. Anuncie novos carregamentos na Creative Fabrica, partilhe coleções de produtos sazonais e ofereça pré-visualizações exclusivas aos subscritores. Uma lista de email que abrange várias plataformas permite-lhe direcionar tráfego para onde for mais valioso em qualquer dado momento.`,
     },
     {
-      heading: 'Escalonar o seu negócio na Creative Fabrica',
+      heading: `Escalonar o seu negócio na Creative Fabrica`,
       content: `Escalonar na Creative Fabrica significa expandir o seu catálogo estrategicamente, criar packs de produtos e potencialmente vender em múltiplas categorias da Creative Fabrica para maximizar a sua visibilidade e receitas tanto de vendas individuais como de transferências por subscrição.\n\nConstrua um catálogo abrangente dentro do seu nicho educativo antes de expandir para o exterior. Se começar com fichas de matemática, crie recursos que abranjam múltiplos níveis escolares, áreas de competência (adição, subtração, multiplicação, reconhecimento de números, contagem) e temas (animais, estações, festividades, veículos). Um catálogo aprofundado numa área de assunto estabelece-o como especialista, e a funcionalidade de produtos relacionados da Creative Fabrica exibirá os seus outros recursos de matemática para os compradores que descobrirem qualquer produto individual. A profundidade dentro de uma categoria multiplica a visibilidade de formas que produtos dispersos em categorias não relacionadas não conseguem.\n\nCrie packs de produtos que ofereçam valor para os compradores individuais. Combine packs de fichas relacionadas em pacotes maiores — um "Pack Completo de Matemática para o Jardim de Infância" contendo todos os seus recursos de matemática para o jardim de infância, ou uma "Coleção de Atividades Sazonais" abrangendo as quatro estações. Defina o preço dos pacotes entre 30% a 40% abaixo do preço individual combinado para criar um valor atraente. Os pacotes aumentam a sua receita média por comprador e oferecem aos subscritores uma única transferência que fornece conteúdo substancial, o que pode melhorar as suas métricas de receitas de subscrição.\n\nExpanda para categorias adjacentes da Creative Fabrica assim que o seu catálogo educativo estiver estabelecido. Se as suas páginas para colorir tiverem bom desempenho na secção Classroom, considere carregar páginas para colorir orientadas para o design nas categorias mais amplas de colorir ou artesanato da Creative Fabrica. Se as suas fichas temáticas usarem ilustrações atraentes, explore se essas ilustrações poderiam ser oferecidas como clipart ou elementos de design nas categorias gráficas da Creative Fabrica. A presença em várias categorias multiplica a sua visibilidade na plataforma e cria caminhos de descoberta entre os seus produtos educativos e criativos.\n\nUse os geradores de fichas para manter uma cadência de publicação consistente sem sacrificar a qualidade. O algoritmo da Creative Fabrica favorece designers ativos que carregam regularmente, e os subscritores são mais propensos a seguir designers que adicionam consistentemente novo conteúdo. O gerador de Páginas para Colorir cria imprimíveis amigos do artesanato que ressoam com a audiência de design da Creative Fabrica. O gerador de Caça-Palavras produz puzzles versáteis com apelo para artesãos e vendedores. O gerador de Correspondência cria atividades de grande envolvimento que funcionam em vários grupos etários. O gerador de Traçar Linhas produz fichas criativas que se encaixam naturalmente num marketplace centrado no design. Publicar 2 a 4 novos produtos por semana mantém a sua loja ativa e em crescimento sem exigir um esforço de produção insustentável.\n\nMonitorize as suas análises da Creative Fabrica para orientar decisões estratégicas. Acompanhe quais os produtos que geram mais transferências por subscrição versus vendas individuais — estes frequentemente diferem, e compreender o padrão ajuda-o a otimizar para ambos os fluxos de receitas. Identifique quais os temas, níveis escolares e tipos de produto com melhor desempenho, e aloce o seu esforço de produção em conformidade. Os produtos que geram muitas transferências por subscrição mas poucas vendas individuais podem beneficiar de preços diferentes, enquanto os produtos que vendem individualmente mas recebem poucas transferências por subscrição podem precisar de melhor etiquetagem para melhorar a sua visibilidade dentro da experiência de navegação de subscrição.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Criar imagens de capa para um marketplace visual',
+      heading: `Criar imagens de capa para um marketplace visual`,
       content: `A experiência de navegação da Creative Fabrica é intensamente visual — os compradores percorrem grelhas de miniaturas de produtos e tomam decisões em segundos. A sua imagem de capa precisa de comunicar qualidade do produto, tipo de conteúdo e valor educativo num único olhar. Use maquetes que mostrem as suas fichas impressas em contextos realistas (numa secretária, nas mãos de uma criança, dispostas em ordem colorida). Inclua sobreposições de texto na sua imagem de capa que indiquem o número de páginas, o nível escolar e o tema: "40 Páginas | J.I.–2.º Ano | Tema Animal" dá aos compradores três razões para clicar antes de lerem o título. Estude as imagens de capa dos produtos educativos mais vendidos na Creative Fabrica e note os padrões comuns em layout, uso de cores e hierarquia de informação.`,
     },
     {
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Quanto custa vender na Creative Fabrica?',
+      question: `Quanto custa vender na Creative Fabrica?`,
       answer: `Criar uma conta de designer na Creative Fabrica não tem custo de candidatura nem de manutenção. Não há mensalidades, taxas de anúncio nem encargos iniciais. A Creative Fabrica cobra uma comissão sobre as vendas individuais, e as transferências por subscrição pagam a partir do pool de receitas mensais de subscrições com base no volume de transferências. A estrutura exata de comissões e as taxas de pagamento estão detalhadas nos termos do designer da Creative Fabrica, que analisa durante o processo de candidatura. Compare os ganhos efetivos por venda com outras plataformas onde vende para determinar como a Creative Fabrica se enquadra na sua estratégia de preços em várias plataformas.`,
     },
     {
@@ -139,76 +139,76 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'vender-imprimiveis-gumroad',
-      title: 'Como vender imprimíveis no Gumroad',
+      title: `Como vender imprimíveis no Gumroad`,
       description: `Uma plataforma de venda direta entre criador e comprador para vender imprimíveis sem mensalidades, com marketing de email integrado e 90% de retenção de receitas.`,
     },
     {
       slug: 'kdp-ou-etsy-imprimiveis',
-      title: 'Amazon KDP ou Etsy: Onde vender imprimíveis',
+      title: `Amazon KDP ou Etsy: Onde vender imprimíveis`,
       description: `Uma comparação detalhada das duas maiores plataformas de marketplace para vendedores de imprimíveis, abrangendo taxas, tráfego, controlo e potencial de receitas.`,
     },
     {
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       title: `Guia completo para iniciar um negócio de imprimíveis`,
       description: `O guia de negócio central que abrange criação de conteúdo, licenciamento comercial, estratégia em várias plataformas e como construir um negócio de imprimíveis sustentável.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'vender-imprimiveis-gumroad', anchorText: 'Como vender imprimíveis no Gumroad' },
-    { pageType: 'guide', slug: 'criar-vender-recursos-tpt', anchorText: 'Como criar e vender recursos Gumroad' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: 'Como abrir uma loja Etsy de imprimíveis do zero' },
-    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
-    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: 'Como definir preços de imprimíveis no Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Como criar caça-palavras com imagens' },
-    { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: 'Como criar páginas para colorir com imagens' },
-    { pageType: 'guide', slug: 'criar-fichas-associacao', anchorText: 'Como criar fichas de associação para pré-escolar' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-imprimiveis-gumroad', anchorText: `Como vender imprimíveis no Gumroad` },
+    { pageType: 'guide', slug: 'criar-vender-recursos-tpt', anchorText: `Como criar e vender recursos Gumroad` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'abrir-loja-etsy-imprimiveis', anchorText: `Como abrir uma loja Etsy de imprimíveis do zero` },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: `Amazon KDP ou Etsy: Onde vender imprimíveis` },
+    { pageType: 'guide', slug: 'precos-imprimiveis-etsy', anchorText: `Como definir preços de imprimíveis no Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para imprimíveis educativos` },
+    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: `Como criar caça-palavras com imagens` },
+    { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: `Como criar páginas para colorir com imagens` },
+    { pageType: 'guide', slug: 'criar-fichas-associacao', anchorText: `Como criar fichas de associação para pré-escolar` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Cria páginas para colorir visualmente atraentes que se alinham perfeitamente com a audiência centrada no design da Creative Fabrica. Ideal para apelo transversal entre as categorias Classroom e artesanato.`,
     },
     {
       appId: 'matching',
-      title: 'Gerador de Fichas de Correspondência',
+      title: `Gerador de Fichas de Correspondência`,
       description: `Produz atividades de correspondência ilustradas populares na secção Classroom da Creative Fabrica. As fichas de correspondência temáticas apelam tanto à audiência de vendedores como de pais na plataforma.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Gerador de Fichas de Caça-Palavras',
+      title: `Gerador de Fichas de Caça-Palavras`,
       description: `Gera puzzles de caça-palavras temáticos com amplo apelo para a audiência diversificada da Creative Fabrica. Um tipo de produto versátil que atrai transferências por subscrição e vendas individuais.`,
     },
     {
       appId: 'drawing-lines',
-      title: 'Gerador de Fichas de Traçar Linhas',
+      title: `Gerador de Fichas de Traçar Linhas`,
       description: `Cria fichas criativas de traçado e desenho que se encaixam naturalmente num marketplace centrado no design. A natureza artística das atividades de desenho ressoa com os compradores de artesanato da Creative Fabrica.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: 'Página para colorir imprimível para vender recursos educativos no marketplace Creative Fabrica' },
+    heroImage: { src: `/samples/portuguese/coloring/coloring landscape 1.webp`, alt: `Página para colorir imprimível para vender recursos educativos no marketplace Creative Fabrica` },
     samples: [
-      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: 'Página para colorir imprimível para a secção Classroom da Creative Fabrica', caption: 'As páginas para colorir fazem a ponte entre artesanato e educação na Creative Fabrica — apelando a audiências de designers e vendedores' },
-      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: 'Ficha de atividade de correspondência para produtos educativos na Creative Fabrica', caption: 'As atividades de correspondência temáticas são recursos de grande procura na secção Classroom da Creative Fabrica' },
-      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: 'Puzzle de caça-palavras imprimível para o marketplace Creative Fabrica', caption: 'Os puzzles de caça-palavras atraem transferências por subscrição de vendedores e pais na Creative Fabrica' },
+      { src: `/samples/portuguese/coloring/coloring landscape 2.webp`, alt: `Página para colorir imprimível para a secção Classroom da Creative Fabrica`, caption: `As páginas para colorir fazem a ponte entre artesanato e educação na Creative Fabrica — apelando a audiências de designers e vendedores` },
+      { src: `/samples/portuguese/matching/Encontre os Pares 1.webp`, alt: `Ficha de atividade de correspondência para produtos educativos na Creative Fabrica`, caption: `As atividades de correspondência temáticas são recursos de grande procura na secção Classroom da Creative Fabrica` },
+      { src: `/samples/portuguese/wordsearch/Caça-Palavras 1.webp`, alt: `Puzzle de caça-palavras imprimível para o marketplace Creative Fabrica`, caption: `Os puzzles de caça-palavras atraem transferências por subscrição de vendedores e pais na Creative Fabrica` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Como criar fichas educativas para a Creative Fabrica`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Vitela — imagem educativa temática', caption: 'Vitela' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Touro — imagem educativa temática`, caption: 'Touro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Vitela — imagem educativa temática`, caption: 'Vitela' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagem educativa temática`, caption: 'Gato 2' },
   ],
 };
 

@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias Produtos Impressos Físicos para Vender — Guia`,
     metaDescription: `Ideias de produtos impressos físicos para vendedores de Etsy e feiras de artesanato. Constrói um negócio premium imprimindo, laminando e enviando fichas.`,
 
-    primaryKeyword: 'ideias produtos impressos físicos',
+    primaryKeyword: `ideias produtos impressos físicos`,
     secondaryKeywords: [
-      'negócio fichas impressas físicas',
-      'produtos imprimíveis físicos para vender',
-      'ideias negócio imprimíveis tangíveis',
-      'vender fichas impressas offline',
+      `negócio fichas impressas físicas`,
+      `produtos imprimíveis físicos para vender`,
+      `ideias negócio imprimíveis tangíveis`,
+      `vender fichas impressas offline`,
     ],
     lsiKeywords: [
-      'produtos educativos impressos e enviados',
-      'publicação cadernos físicos atividades',
-      'vendas recursos tangíveis para loja',
+      `produtos educativos impressos e enviados`,
+      `publicação cadernos físicos atividades`,
+      `vendas recursos tangíveis para loja`,
     ],
   },
   hero: {
@@ -92,7 +92,7 @@ Os produtos físicos também servem o mercado de presentes de formas que as tran
       description: `O Etsy é o marketplace dominante para produtos educativos artesanais e feitos à mão onde os materiais físicos de fichas impressas obtêm preços premium porque os compradores procuram especificamente produtos tangíveis acabados profissionalmente que não conseguem criar eles próprios ao mesmo nível de qualidade. A fotografia de produtos que mostra a qualidade física, a apresentação da embalagem e o contexto de uso dos teus materiais impressos impulsiona as taxas de conversão significativamente mais alto do que os anúncios que mostram apenas pré-visualizações digitais planas, por isso investe em fotografias de estilo de vida que mostrem o brilho da laminação, a espessura do papel, a qualidade da encadernação e a embalagem organizada que diferencia os teus produtos das alternativas digitais. O sistema de avaliações da plataforma constrói poderosa prova social através de compradores que descrevem a qualidade física e utilidade online dos produtos que receberam, e as avaliações detalhadas de cinco estrelas que mencionam qualidade de materiais, acabamento profissional e usabilidade imediata tornam-se na tua ferramenta de vendas mais forte para converter futuros visitantes em compradores. Os custos de envio são um fator na estratégia de preços de produtos físicos, por isso calcula os custos totais de materiais, impressão, embalagem e envio para assegurar margens saudáveis em cada venda, e considera oferecer descontos de envio combinado em encomendas de múltiplos artigos para aumentar o valor médio da encomenda enquanto mantém os custos de envio por artigo razoáveis para compradores que comparam os teus preços com anúncios de concorrentes.`,
     },
     {
-      platform: 'Feiras de Artesanato e Mercados Locais',
+      platform: `Feiras de Artesanato e Mercados Locais`,
       title: `Vender Produtos Físicos de Fichas em Feiras de Artesanato e Mercados Locais`,
       description: `As feiras de artesanato, mercados de vendedores, convenções de ensino doméstico e eventos locais de produtos educativos proporcionam oportunidades de venda presencial onde os compradores podem examinar fisicamente os teus produtos de fichas impressas antes de comprar, aumentando dramaticamente as taxas de conversão comparadas com vendas exclusivamente online onde os compradores avaliam produtos apenas através de fotografias. Expõe os teus produtos físicos em mesas bem organizadas mostrando a qualidade da cartolina, da laminação, da encadernação e da embalagem que diferencia os teus materiais das alternativas impressas em casa, e usa expositores verticais e estações de amostra onde os visitantes podem folhear cadernos e manipular cartões laminados para experimentar a qualidade do produto em primeira mão. Recolhe endereços de correio eletrónico em cada evento para vendas de seguimento e anúncios de novos produtos que convertam compradores ocasionais de feiras em clientes recorrentes online que repetem encomendas sazonalmente e recomendam a colegas. Os eventos de agradecimento a vendedores, feiras de regresso às aulas e espaços de vendedores em convenções de ensino doméstico são oportunidades de venda especialmente produtivas porque vendedores e pais comparecem especificamente à procura de novos materiais para a loja e a aprendizagem, chegando com intenção de compra em vez dos hábitos de navegação casual que caracterizam as feiras de artesanato gerais.`,
     },
@@ -102,7 +102,7 @@ Os produtos físicos também servem o mercado de presentes de formas que as tran
       description: `A Amazon Handmade proporciona acesso à enorme base de compradores da Amazon para produtos educativos artesanais, alcançando clientes que compram exclusivamente na Amazon e nunca descobririam os teus produtos no Etsy ou em feiras locais porque dependem inteiramente do ecossistema da Amazon para todas as suas decisões de compra. A categoria Handmade distingue os teus produtos físicos produzidos profissionalmente de artigos fabricados em massa, dando aos compradores confiança na qualidade artesanal e na atenção pessoal que entra em cada produto enquanto proporciona a experiência familiar de pagamento da Amazon, as expectativas de envio e as políticas de proteção ao comprador que reduzem a hesitação de compra. As opções de gestão de encomendas da Amazon incluindo FBA permitem-te escalar as vendas de produtos físicos sem embalar e enviar pessoalmente cada encomenda, reduzindo o estrangulamento operacional que limita muitos vendedores de produtos físicos que tratam de toda a gestão de encomendas manualmente a partir do seu espaço de trabalho em casa. Os anúncios de produtos beneficiam do SEO da Amazon e das capacidades de publicidade de produtos patrocinados que podem direcionar tráfego significativo e direcionado para os teus anúncios de produtos educativos, alcançando compradores que procuram materiais educativos específicos através do motor de pesquisa que processa mais pesquisas de produtos do que qualquer outra plataforma.`,
     },
     {
-      platform: 'Vendas Diretas a Escolas e Instituições',
+      platform: `Vendas Diretas a Escolas e Instituições`,
       title: `Vender Produtos Físicos de Fichas Diretamente a Escolas e Instituições`,
       description: `Vender produtos físicos de fichas impressas diretamente a escolas, infantários, centros de explicações e cooperativas de ensino doméstico proporciona as receitas mais altas por encomenda porque os compradores institucionais compram em quantidades de loja a preços de grosso ou retalho sem comissões de marketplace a reduzir as tuas margens em cada transação. Constrói relações com escolas locais e instituições educativas através de entregas de amostras, exposições em salas de vendedores e apresentações em reuniões de associações de pais que mostrem a qualidade profissional e a utilidade online dos teus produtos físicos em contextos onde os decisores podem manusear e avaliar materiais antes de se comprometerem a comprar. As escolas frequentemente têm orçamentos anuais de materiais especificamente alocados para materiais instrucionais tangíveis e preferem comprar a fornecedores locais que podem prestar serviço personalizado, encomendas personalizadas para necessidades específicas da loja e reposições rápidas quando os materiais precisam de reabastecimento durante o ano letivo. Cria folhas de catálogo ou formulários de encomenda que tornem as compras institucionais simples e fomentem encomendas recorrentes para novos temas sazonais e expansões de áreas temáticas, construindo relações contínuas com fornecedores que geram receitas recorrentes previsíveis durante todo o ano letivo sem os custos de marketing associados à aquisição de novos clientes individuais através de publicidade em marketplace.`,
     },
@@ -142,18 +142,18 @@ Os produtos físicos também servem o mercado de presentes de formas que as tran
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -167,7 +167,7 @@ Os produtos físicos também servem o mercado de presentes de formas que as tran
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -177,28 +177,28 @@ Os produtos físicos também servem o mercado de presentes de formas que as tran
     },
     {
       pageType: 'idea',
-      slug: 'impressao-sob-demanda-ideias-imprimiveis',
+      slug: `impressao-sob-demanda-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Fichas de Impressão Sob Demanda`,
     },
     {
       pageType: 'idea',
-      slug: 'download-digital-ideias-imprimiveis',
+      slug: `download-digital-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Transferências Digitais de Fichas`,
     },
     {
       pageType: 'idea',
-      slug: 'artigos-festa-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Artigos de Festa Imprimíveis',
+      slug: `artigos-festa-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Artigos de Festa Imprimíveis`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

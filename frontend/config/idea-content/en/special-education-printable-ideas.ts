@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Special Education Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Discover special education printable ideas to sell on Etsy, KDP, and Gumroad. SPED product concepts for sellers targeting therapists and parents of diverse learners.`,
 
-    primaryKeyword: 'special education printable ideas',
+    primaryKeyword: `special education printable ideas`,
     secondaryKeywords: [
-      'special education worksheets to sell',
+      `special education worksheets to sell`,
       'SPED printable business ideas',
-      'special needs activity sheets for sellers',
-      'sell special education printables on Gumroad',
+      `special needs activity sheets for sellers`,
+      `sell special education printables on Gumroad`,
     ],
     lsiKeywords: [
-      'differentiated learning worksheets',
-      'adaptive learning activity pages',
-      'IEP-aligned printable resources',
+      `differentiated learning worksheets`,
+      `adaptive learning activity pages`,
+      `IEP-aligned printable resources`,
     ],
   },
   hero: {
@@ -92,7 +92,7 @@ Cross-listing special education printables across platforms reaches different se
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Special Education Printables on Etsy',
+      title: `Selling Special Education Printables on Etsy`,
       description: `Etsy captures special education professionals, therapists, and parents who search with highly specific terms like "special education worksheets," "adapted worksheets," "SPED printables," "autism worksheets," "life skills worksheets," "visual supports," "modified math worksheets," and "IEP goal activities" throughout all twelve months with no seasonal demand drop-off. Use all thirteen tags with variations combining disability categories, accommodation types, IEP goal areas, and professional roles to capture the diverse buyer segments within the special education community who search differently based on their specific client populations and therapeutic specialties. Bundle products by IEP goal area or disability category to increase average order value: an adapted math foundations bundle, a life skills daily living pack, and a social-emotional learning collection each serve distinct professional needs while encouraging multiple purchases from the same buyer. Premium pricing is justified by the specialized design effort because special education buyers recognize that properly adapted materials require understanding of accommodation principles that general education worksheets lack. The strong professional community networks among special education professionals and therapists drive organic word-of-mouth discovery as satisfied buyers recommend products in Facebook groups, professional development communities, and special education conference discussions.`,
     },
     {
@@ -147,32 +147,32 @@ Cross-listing special education printables across platforms reaches different se
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -182,17 +182,17 @@ Cross-listing special education printables across platforms reaches different se
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Business Ideas',
+      anchorText: `Homeschool Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Circle — themed educational image', caption: 'Circle' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cone — themed educational image', caption: 'Cone' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cube — themed educational image', caption: 'Cube' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — themed educational image', caption: 'Cylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamond — themed educational image', caption: 'Diamond' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Heart — themed educational image', caption: 'Heart' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Circle — themed educational image`, caption: 'Circle' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cone — themed educational image`, caption: 'Cone' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cube — themed educational image`, caption: 'Cube' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cylinder — themed educational image`, caption: 'Cylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamond — themed educational image`, caption: 'Diamond' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Heart — themed educational image`, caption: 'Heart' },
   ],
 
 

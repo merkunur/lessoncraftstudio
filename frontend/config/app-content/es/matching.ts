@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas de asociación',
+    primaryKeyword: `generador fichas de asociación`,
     secondaryKeywords: [
       `generador de fichas de asociación imprimibles para vendedores Etsy`,
       `creador de fichas unir con líneas para editores Amazon KDP`,
@@ -11,10 +11,10 @@ const content: AppContent = {
     ],
     lsiKeywords: [
       `productos digitales de fichas de asociación para emprendedores`,
-      'generador de fichas de asociación uso comercial',
+      `generador de fichas de asociación uso comercial`,
       `actividades de asociación imprimibles para negocio en línea`,
     ],
-    titleTag: 'Generador Fichas de Asociación | Crear y Vender',
+    titleTag: `Generador Fichas de Asociación | Crear y Vender`,
     metaDescription:
       `Crea fichas de asociación para Etsy, KDP y Gumroad. 4 modos de asociación, clave de respuesta auto, 104 temas, pares configurables.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Asociación en 5 Pasos',
+    title: `Cómo Crear Fichas de Asociación en 5 Pasos`,
     steps: [
       {
         title: 'Configura el Diseño de Página',
@@ -35,12 +35,12 @@ const content: AppContent = {
           `Abre el panel Configuración de Página y elige un tamaño: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página mediante el selector de color como fondo de respaldo. Elige un tema de fondo y ajusta su opacidad (de 0 a 1 en pasos de 0,05), luego selecciona un tema de borde con su propio control de opacidad independiente. Estas opciones de diseño enmarcan tu ficha de asociación antes de configurar cualquier contenido.`,
       },
       {
-        title: 'Configura los Parámetros de la Ficha',
+        title: `Configura los Parámetros de la Ficha`,
         description:
           `Abre el panel Configuración de la Ficha y selecciona tu modo de asociación: Letra Inicial, Imagen+Palabra, Imagen/Palabra Mixto o Palabra Personalizada. Define el número máximo de pares a 4, 5 o 6 (el valor predeterminado es 6). Activa la casilla «Incluir campos de nombre/fecha» para agregar líneas de nombre y fecha en la parte inferior de la página. Activa «Incluir números de elemento» (activado por defecto) para añadir números delante de cada par, y «Mostrar viñetas/puntos» (activado por defecto) para mostrar puntos decorativos junto a los elementos. Para el modo Letra Inicial, elige entre visualización en mayúsculas y minúsculas, y selecciona un submodo: Tema e imágenes aleatorias, Aleatorio del tema elegido, o Seleccionar imágenes específicas.`,
       },
       {
-        title: 'Selecciona Imágenes de la Biblioteca',
+        title: `Selecciona Imágenes de la Biblioteca`,
         description:
           `Abre el panel Biblioteca de Imágenes y explora 104 colecciones temáticas con más de 3100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, festividades y muchas más. Filtra por tema usando el menú desplegable o busca por palabra clave. Haz clic en las imágenes para seleccionarlas para tu ficha. En el modo Letra Inicial con «Seleccionar imágenes específicas», eliges manualmente exactamente 6 imágenes. En los modos Imagen+Palabra y Palabra Personalizada, usa el panel Configuración de Elementos para definir las opciones por fila. También puedes subir tus propias imágenes PNG, JPG o GIF para usar junto al contenido de la biblioteca.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Haz clic en Generar para crear el diseño de asociación a dos columnas. La aplicación organiza tus imágenes y textos seleccionados en las columnas izquierda y derecha con el número de pares configurado. Un encabezado estilizado «¡Asocia!» aparece en la parte superior con un fondo de pastilla amarilla (#FFD700), un marco de borde coral (#FF7F50), y título e instrucciones localizados en las fuentes Fredoka y Quicksand. Los números de elemento y los puntos decorativos aparecen según tus ajustes. La pestaña de ficha de trabajo muestra la versión para el usuario sin líneas de conexión — lista para que los usuarios tracen sus propias líneas.`,
       },
       {
-        title: 'Genera la Clave de Respuesta y Descarga',
+        title: `Genera la Clave de Respuesta y Descarga`,
         description:
           `Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente con líneas de conexión horizontales (#555, grosor de trazo 2) trazadas entre cada correspondencia correcta. Descarga ambas versiones usando los cuatro botones dedicados: Ficha JPEG, Clave de Respuesta JPEG, Ficha PDF y Clave de Respuesta PDF. Los archivos se nombran worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción, ya sea para fichas en Etsy, interiores de Amazon KDP o recursos de Gumroad.`,
       },
@@ -104,10 +104,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Asociación en Línea',
+    title: `Cómo Vender Fichas de Asociación en Línea`,
     cases: [
       {
-        title: 'Packs de Fichas de Asociación Temáticas en Etsy',
+        title: `Packs de Fichas de Asociación Temáticas en Etsy`,
         description:
           `Crea packs de actividades de asociación temáticas usando las 104 colecciones de imágenes — asociación de animales, comida, vehículos, festividades y muchos más. Cada tema proporciona suficientes ilustraciones para múltiples fichas de asociación únicas en diferentes modos. Agrupa de 10 a 20 fichas de asociación por tema con claves de respuesta incluidas y vende entre $3 y $7 por pack. Mezcla modos dentro de un mismo pack para mayor variedad: fichas de Letra Inicial para reconocimiento de letras, fichas de Imagen+Palabra para vocabulario y fichas de Palabra Personalizada para práctica de ortografía. La clave de respuesta generada automáticamente elimina la tarea que más tiempo consume en la producción de fichas de asociación.`,
         platform: 'Etsy (etsy.com)',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Fichas para Centros de Asociación en Gumroad',
+        title: `Fichas para Centros de Asociación en Gumroad`,
         description:
           `Crea fichas de asociación listas para usar en centros de clase con campos de nombre/fecha, números de elemento y claves de respuesta impresas. Los vendedores que buscan actividades de asociación en Gumroad valoran fichas que llegan listas para venta en línea — el campo de nombre asegura la responsabilidad del usuario, los números de elemento hacen eficiente la corrección durante las revisiones grupales, y la clave de respuesta generada automáticamente ahorra tiempo de preparación. Crea conjuntos alineados con el catálogo de productos: asociación de animales de granja, grupos alimenticios, vocabulario del clima y animales por hábitat. Cada conjunto incluye fichas de trabajo y claves de respuesta en formatos PDF y JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Fichas de Asociación de Vocabulario en Múltiples Idiomas`,
         description:
           `Aprovecha los modos Letra Inicial e Imagen+Palabra sensibles al idioma para crear fichas de asociación en 11 idiomas. Las mismas imágenes producen contenido de asociación diferente cuando cambias de idioma — los nombres de las imágenes, las primeras letras y el texto del encabezado se actualizan automáticamente. Crea packs de vocabulario multilingüe donde cada versión en un idioma usa las mismas imágenes temáticas pero con palabras localizadas. Esto es particularmente valioso para vendedores de ELE, tiendas bilingües y familias de trabajo desde casa internacionales. Vende packs por idioma o mega-packs multilingües a precios premium.`,
-        platform: 'Etsy / Gumroad (mercado multilingüe)',
+        platform: `Etsy / Gumroad (mercado multilingüe)`,
       },
       {
-        title: 'Colecciones de Asociación Estacionales',
+        title: `Colecciones de Asociación Estacionales`,
         description:
           `Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de asociación de edición limitada alineadas con los picos de compra. Lanza packs de asociación de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye los cuatro modos de asociación en cada conjunto estacional para máximo valor. Los productos estacionales se venden a precios más altos durante sus periodos de pico y crean razones naturales para compras recurrentes.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: `Etsy / Amazon KDP / Gumroad (estacional)`,
       },
     ],
   },
@@ -146,7 +146,7 @@ const content: AppContent = {
         `El generador ofrece cuatro modos distintos. El modo Letra Inicial coloca las imágenes a la izquierda y su primera letra a la derecha — los usuarios asocian cada imagen con la letra por la que empieza. El modo Imagen+Palabra muestra pares de imágenes etiquetadas en ambos lados para asociación de vocabulario. El modo Imagen/Palabra Mixto usa selectores desplegables por fila para que cada lado pueda mostrar independientemente una imagen o una palabra, creando dificultad variada dentro de una misma ficha. El modo Palabra Personalizada asocia las imágenes con tus propias palabras escritas para ortografía, vocabulario o ejercicios de idiomas extranjeros. Cada modo produce una actividad de aprendizaje diferente a partir de la misma biblioteca de imágenes.`,
     },
     {
-      question: '¿Cómo funciona el número de pares configurable?',
+      question: `¿Cómo funciona el número de pares configurable?`,
       answer:
         `En el panel Configuración de la Ficha, selecciona 4, 5 o 6 en el menú desplegable de número máximo de pares. El valor predeterminado es 6 pares. Menos pares crean fichas con imágenes más grandes y más espaciado — ideal para usuarios más jóvenes o fichas con palabras más largas. Más pares aumentan la dificultad y la densidad de contenido. El número de pares se aplica de manera consistente en los cuatro modos de asociación.`,
     },
@@ -156,12 +156,12 @@ const content: AppContent = {
         `El generador usa un sistema de doble lienzo con una pestaña de Ficha de Trabajo y una pestaña de Clave de Respuesta. La ficha de trabajo muestra el diseño a dos columnas sin líneas de conexión — los usuarios trazan sus propias líneas para asociar los pares. La clave de respuesta reproduce el mismo diseño y añade líneas de conexión horizontales (color #555, grosor de trazo 2) entre cada correspondencia correcta. Ambas versiones se exportan por separado mediante cuatro botones de descarga dedicados: worksheet.jpeg, worksheet.pdf, answer_key.jpeg y answer_key.pdf.`,
     },
     {
-      question: '¿Cuáles son los submodos del modo Letra Inicial?',
+      question: `¿Cuáles son los submodos del modo Letra Inicial?`,
       answer:
         `El modo Letra Inicial ofrece tres submodos para la selección de imágenes. «Tema e imágenes aleatorias» elige un tema al azar y 6 imágenes aleatorias de ese tema. «Aleatorio del tema elegido» te permite seleccionar un tema específico y luego elige imágenes aleatorias de ese tema. «Seleccionar imágenes específicas» abre la Biblioteca de Imágenes para que puedas elegir manualmente exactamente 6 imágenes. También puedes elegir entre visualización en mayúsculas y minúsculas mediante los botones de tipo de letra.`,
     },
     {
-      question: '¿Qué es el panel Configuración de Elementos?',
+      question: `¿Qué es el panel Configuración de Elementos?`,
       answer:
         `El panel Configuración de Elementos aparece para los modos Imagen+Palabra, Imagen/Palabra Mixto y Palabra Personalizada. Proporciona controles dinámicos por fila para configurar cada par de asociación. En el modo Imagen/Palabra Mixto, selectores desplegables te permiten elegir si cada lado de cada fila muestra una imagen o una palabra. En el modo Palabra Personalizada, campos de texto te permiten escribir la palabra de asociación para cada imagen. Este panel te da un control preciso sobre cada par individual de la ficha.`,
     },
@@ -171,7 +171,7 @@ const content: AppContent = {
         `Dos controles de activación en el panel Configuración de la Ficha controlan el formato. «Incluir números de elemento» (activado por defecto) añade números delante de cada par — útil para la corrección y discusión en línea. «Mostrar viñetas/puntos» (activado por defecto) añade puntos decorativos junto a los elementos para mayor claridad visual. Ambas opciones son independientes: puedes tener solo los números, solo las viñetas, ambos o ninguno, según tu estilo de ficha y tu público objetivo.`,
     },
     {
-      question: '¿Cómo funciona el encabezado localizado?',
+      question: `¿Cómo funciona el encabezado localizado?`,
       answer:
         `Cada ficha generada incluye un encabezado estilizado «¡Asocia!» con un fondo de pastilla amarilla (#FFD700), una pastilla interior blanca y un marco de borde coral (#FF7F50, grosor 8px). El título y el texto descriptivo se traducen automáticamente al idioma seleccionado — los 11 idiomas están soportados: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés. El título usa la fuente Fredoka (peso 700) y la descripción usa Quicksand (peso 500).`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de asociación como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Gumroad o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de actividades de asociación originales y vendibles.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Dado que la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar los cuatro modos de asociación, la clave de respuesta generada automáticamente, la biblioteca de imágenes completa, los temas de fondo y de borde, los campos de nombre/fecha, los números de elemento, las viñetas decorativas y todos los formatos de descarga antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de comprar una licencia.`,
     },
@@ -205,28 +205,28 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'rompecabezas-cuadricula-fichas',
-      anchorText: 'Generador de Fichas de Rompecabezas Cuadrícula',
+      slug: `rompecabezas-cuadricula-fichas`,
+      anchorText: `Generador de Fichas de Rompecabezas Cuadrícula`,
     },
     {
       pageType: 'app',
       slug: 'asociacion-sombras-fichas',
-      anchorText: 'Generador de Fichas de Asociación de Sombras',
+      anchorText: `Generador de Fichas de Asociación de Sombras`,
     },
     {
       pageType: 'app',
       slug: 'bingo-fichas',
-      anchorText: 'Generador de Fichas de Bingo con Imágenes',
+      anchorText: `Generador de Fichas de Bingo con Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'clasificar-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Clasificar Imágenes',
+      anchorText: `Generador de Fichas de Clasificar Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'tren-alfabeto-fichas',
-      anchorText: 'Generador de Fichas de Tren del Alfabeto',
+      anchorText: `Generador de Fichas de Tren del Alfabeto`,
     },
     {
       pageType: 'app',
@@ -235,23 +235,23 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'paquete-asociacion-clasificacion',
+      slug: `paquete-asociacion-clasificacion`,
       anchorText: `Paquete Asociación y Clasificación — Todas las Apps de Asociación en Un Solo Paquete`,
     },
     {
       pageType: 'idea',
       slug: 'preescolar-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para preescolar',
+      anchorText: `Ideas de imprimibles para preescolar`,
     },
     {
       pageType: 'idea',
       slug: 'infantil-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para jardín de infancia',
+      anchorText: `Ideas de imprimibles para jardín de infancia`,
     },
     {
       pageType: 'start',
       slug: 'plan-negocio-imprimibles',
-      anchorText: 'Plan de negocio de imprimibles',
+      anchorText: `Plan de negocio de imprimibles`,
     },
     {
       pageType: 'guide',

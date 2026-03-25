@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-postmarknadsföring utskriftsbara produkter',
+    primaryKeyword: `e-postmarknadsföring utskriftsbara produkter`,
     secondaryKeywords: [
-      'e-postlista utskriftsbara säljare',
+      `e-postlista utskriftsbara säljare`,
       'nyhetsbrev arbetsbladsföretag',
-      'e-postmarknadsföring digitala produkter',
-      'utskriftsbart företag e-poststrategi',
+      `e-postmarknadsföring digitala produkter`,
+      `utskriftsbart företag e-poststrategi`,
     ],
     lsiKeywords: [
       `prenumerantlista lead magnet opt-in freebie välkomstsekvens e-postautomatisering`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `automatiserade sekvenser återaktiveringskampanj listhygien avsändarrykte`,
       `innehållskalender e-postanalys A/B-testning personalisering taggar`,
     ],
-    titleTag: 'E-postmarknadsföring utskriftsbara — Säljstrategi',
+    titleTag: `E-postmarknadsföring utskriftsbara — Säljstrategi`,
     metaDescription: `E-postmarknadsföringsstrategier för säljare av utskriftsbara produkter. Bygg din prenumerantlista, skapa lead magnets, automatisera sekvenser och driv försäljning.`,
   },
 
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `Din e-posttjänstleverantör är den operativa grunden för hela ditt e-postmarknadsföringssystem. Fel val skapar friktion vid varje steg — klumpiga automatiseringsverktyg, begränsade segmenteringsalternativ, dålig leveransbarhet eller prissättning som blir oöverkomlig när din lista växer. Rätt val gör varje efterföljande steg i denna guide enklare att implementera och mer effektivt i praktiken. Utvärdera leverantörer baserat på de specifika funktioner som spelar roll för säljare av utskriftsbara produkter snarare än att välja baserat på allmän popularitet eller varumärkeskännedom.\n\nDe funktioner som spelar störst roll för säljare av utskriftsbara produkter skiljer sig från de som spelar roll för bloggare, SaaS-företag eller e-handelsbutiker som säljer fysiska produkter. Prioritera dessa kapaciteter i din utvärdering: automatiseringsarbetsflödesbyggare (för välkomstsekvenser och produktlanseringssekvenser), prenumeranttaggning och segmentering (för att skicka riktade produktrekommendationer), landningssidebyggare (för att skapa opt-in-sidor för dina lead magnets), digital filleverans (för att automatiskt skicka lead magnets till nya prenumeranter), analysdashboard (för att spåra öppningsfrekvenser, klickfrekvenser och intäkter per e-post) och leveransbarhetsrykte (för att säkerställa att dina e-postmeddelanden når inkorgar snarare än skräppostmappar).\n\nPrisstruktur är en kritisk utvärderingsfaktor eftersom e-postmarknadsföringskostnader skalas med ditt prenumerantantal. Vissa leverantörer debiterar baserat på totala prenumeranter över alla listor, andra debiterar per unik prenumerant oavsett hur många listor de finns på, och andra debiterar baserat på skickade e-postmeddelanden snarare än prenumerantantal. För säljare av utskriftsbara produkter som typiskt skickar vecko- eller varannan vecka-utskick fungerar per-prenumerant-prissättning vanligtvis bättre än per-utskick-prissättning. Beräkna dina projekterade kostnader vid 1 000 prenumeranter, 5 000 prenumeranter och 10 000 prenumeranter för att identifiera leverantörer som förblir överkomliga när din lista växer. Vissa leverantörer erbjuder generösa ingångspriser som blir dyra i skala, medan andra börjar högre men har mer rimliga prisnivåer när du växer.\n\nTesta automatiseringsbyggaren specifikt innan du binder dig till en leverantör. Skapa en enkel testautomatisering: när någon prenumererar, skicka e-post 1 omedelbart, vänta 2 dagar, skicka e-post 2, vänta 2 dagar, kontrollera om de klickade på en länk i e-post 2 och förgrena sekvensen baserat på det klicket. Om denna grundläggande automatisering känns komplicerad eller kräver lösningar i leverantörens byggare kommer mer komplexa sekvenser vara frustrerande att bygga och underhålla. Automatiseringsbyggaren är verktyget du kommer att använda mest frekvent, så dess användbarhet påverkar direkt hur effektivt du kan implementera strategierna i resten av denna guide.\n\nUndvik att välja en leverantör enbart baserat på en jämförelsebloggpost eller rekommendation. De flesta jämförelseartiklar är affiliatedrivna och rankar leverantörer efter provisionsgrad snarare än faktisk funktionskvalitet. Registrera dig istället för provkonton hos två eller tre leverantörer som matchar dina funktionskrav och testa dem praktiskt. Skicka testmail till dig själv, bygg en enkel automatisering, skapa en landningssida och prova segmenteringsverktygen. Direkt erfarenhet med gränssnittet avslöjar användbarhetsproblem som ingen recensionsartikel kan kommunicera.`,
     },
     {
-      heading: 'Skapa en lead magnet som attraherar din målköpare',
+      heading: `Skapa en lead magnet som attraherar din målköpare`,
       content: `En lead magnet är det incitament du erbjuder i utbyte mot en e-postadress. För säljare av utskriftsbara produkter är de mest effektiva lead magnets exempelprodukter som demonstrerar kvaliteten och stilen i din betalda katalog samtidigt som de är genuint användbara på egen hand. Lead magneten fyller dubbel funktion: den växer din prenumerantlista och den förkvalificerar prenumeranter som personer som är intresserade av exakt den typ av produkter du säljer. En prenumerant som registrerar sig för ett mattearbetsbladpaket har demonstrerat intresse för mattearbetsblad — vilket gör dem till en högt kvalificerad prospekt för dina betalda matteprodukter.\n\nDesigna din lead magnet för att direkt relatera till din bäst presterande produktkategori. Om dina toppensäljare är additionsarbetsblad, skapa en lead magnet som visar upp additionsinnehåll: ett minipaket med 5 till 8 arbetsblad som täcker ett specifikt tema eller svårighetsnivå. Om ordsökspussel driver din försäljning, erbjud en tematisk ordsöksprovsamling. Lead magneten bör ge prenumeranter en genuin smak av din produktkvalitet, formateringsstil och pedagogiska approach. En prenumerant som får en högkvalitativ lead magnet utvecklar förtroende för ditt varumärke innan du någonsin ber dem göra ett köp.\n\nArbetsbladsgenratorer gör lead magnet-skapande effektivt och professionellt. Du kan skapa ett polerat exempelpaket på minuter genom att konfigurera en tematisk uppsättning arbetsblad på en specifik svårighetsnivå. Lead magneten bör demonstrera samma produktionskvalitet som dina betalda produkter — konsekvent formatering, tydliga instruktioner, professionell layout och korrekt innehåll. En lågkvalitativ lead magnet skadar förtroendet istället för att bygga det, så investera samma omsorg i din lead magnet som du skulle i en produkt du säljer. Du kan prova vilken arbetsbladsgenrator som helst som gratis provversion med vattenstämpel för att utvärdera outputkvaliteten innan du binder dig till ett produktionsarbetsflöde.\n\nGör din lead magnet specifik snarare än heltäckande. En "Komplett mattearbetsbladssamling" låter värdefull men attraherar en bred, ofokuserad publik. Ett "Förskole-djuradditionsövningspaket — 10 sidor med facit" attraherar en specifik köparpersona: säljare och föräldrar som arbetar med förskoleanvändare med tidig addition. Denna specificitet innebär att dina uppföljningsmeddelanden om matteproduker för förskolan är mycket relevanta för varje prenumerant, vilket driver högre öppningsfrekvenser, klickfrekvenser och i slutändan försäljning. Skapa flera lead magnets för olika publiksegment snarare än en generisk lead magnet för alla.\n\nLeveransmekanismen spelar lika stor roll som innehållet. Konfigurera din e-posttjänstleverantör att automatiskt skicka lead magnet-filen omedelbart efter prenumerationsbekräftelse. En prenumerant som väntar timmar eller dagar på sin utlovade resurs bildar ett negativt första intryck av ditt företag. Leveransmeddelandet bör inkludera nedladdningslänken framträdande, ett kort välkomstmeddelande och ett omnämnande av vad de kan förvänta sig från dina e-postmeddelanden framöver. Detta första e-postmeddelande sätter tonen för hela prenumerantrelationen — gör det professionellt, snabbt och genuint hjälpsamt.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Fånga Etsy-kunder för din e-postlista',
+      heading: `Fånga Etsy-kunder för din e-postlista`,
       content: `Etsy tillhandahåller inte kund-e-postadresser för marknadsföringssyften, så du måste skapa vägar som motiverar köpare att frivilligt gå med i din lista. Inkludera en professionellt designad infogssida i varje digital nedladdning som erbjuder en lead magnet och din landningssidelänk: "Få 5 bonusarbetsblad när du går med i vår e-postlista på [landningssidans URL]." Lägg till din landningssidelänk i Etsy-butikens meddelandesektion som visas högst upp på din butikssida. Nämn din e-postlista och lead magnet-erbjudande i produktbeskrivningar där det är lämpligt. Använd Etsys "Meddelande till köpare"-funktion för att tacka kunder och nämna bonusresursen som finns tillgänglig genom din e-postlista. Var och en av dessa kontaktpunkter konverterar en liten andel Etsy-köpare till direkta prenumeranter, och bygger gradvis en kundbas du kan nå oberoende av Etsys plattform.`,
     },
     {
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: `Marknadsföring i sociala medier för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest-marknadsföring för arbetsbladsföretag' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Så säljer du mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
+    { pageType: 'guide', slug: `social-media-printable-marketing`, anchorText: `Marknadsföring i sociala medier för säljare av utskriftsbara produkter` },
+    { pageType: 'guide', slug: `pinterest-marketing-worksheets`, anchorText: `Pinterest-marknadsföring för arbetsbladsföretag` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Så säljer du mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
     { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: `Säsongsmarknadsföringskalender för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'Så automatiserar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: `Så automatiserar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Matchningsarbetsblad-generator',
+      title: `Matchningsarbetsblad-generator`,
       description: `Tematiska matchningsaktiviteter som demonstrerar katalogvariation i e-postvisningar. Framhäv olika matchningsteman i utskick för att belysa bredden i din produktlinje.`,
     },
   ],
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: `Visuellt slående produkter driver högre klickfrekvenser i e-postkampanjer`,
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: `/samples/english/addition/Addition Fun 1.webp`,
         alt: `Additionsarbetsblad som demonstrerar vintergrönt innehåll för automatiserade e-postsekvenser`,
         caption: `Vintergrönt matteinnehåll driver automatiserade säsongs-e-postkampanjer året runt`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/birds/eagle.webp', alt: 'Örn — tematisk pedagogisk bild', caption: 'Örn' },
-    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — tematisk pedagogisk bild', caption: 'Flamingo' },
-    { src: '/image-library/birds/hornbill.webp', alt: 'Näshornsfågel — tematisk pedagogisk bild', caption: 'Näshornsfågel' },
-    { src: '/image-library/birds/macaw.webp', alt: 'Ara — tematisk pedagogisk bild', caption: 'Ara' },
-    { src: '/image-library/birds/ostrich.webp', alt: 'Struts — tematisk pedagogisk bild', caption: 'Struts' },
+    { src: `/image-library/birds/eagle.webp`, alt: `Örn — tematisk pedagogisk bild`, caption: 'Örn' },
+    { src: `/image-library/birds/flamingo.webp`, alt: `Flamingo — tematisk pedagogisk bild`, caption: 'Flamingo' },
+    { src: `/image-library/birds/hornbill.webp`, alt: `Näshornsfågel — tematisk pedagogisk bild`, caption: 'Näshornsfågel' },
+    { src: `/image-library/birds/macaw.webp`, alt: `Ara — tematisk pedagogisk bild`, caption: 'Ara' },
+    { src: `/image-library/birds/ostrich.webp`, alt: `Struts — tematisk pedagogisk bild`, caption: 'Struts' },
   ],
 };
 

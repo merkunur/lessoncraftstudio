@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'vender imprimibles en Gumroad',
     secondaryKeywords: [
-      'cómo vender imprimibles en Gumroad',
-      'configurar negocio de imprimibles Gumroad',
-      'vender descargas digitales en Gumroad',
-      'Gumroad para vendedores de imprimibles',
+      `cómo vender imprimibles en Gumroad`,
+      `configurar negocio de imprimibles Gumroad`,
+      `vender descargas digitales en Gumroad`,
+      `Gumroad para vendedores de imprimibles`,
     ],
     lsiKeywords: [
       `plataforma ventas directas creador descargas digitales entrega instantánea lista correo`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `tráfico redes sociales Pinterest Instagram blog contenido SEO promoción`,
       `paquetes productos membresías suscripciones ingresos recurrentes escalado catálogo`,
     ],
-    titleTag: 'Cómo vender imprimibles en Gumroad — Guía',
+    titleTag: `Cómo vender imprimibles en Gumroad — Guía`,
     metaDescription: `Cómo vender imprimibles en Gumroad sin cuotas mensuales. Configuración de tienda, estrategias de precios, email marketing y construcción de relaciones.`,
   },
 
   hero: {
-    title: 'Cómo vender imprimibles en Gumroad',
+    title: `Cómo vender imprimibles en Gumroad`,
     tagline: `Una guía completa para vender fichas imprimibles y recursos educativos directamente a compradores a través de Gumroad — cubriendo configuración de tienda, creación de productos, opciones de precios flexibles incluyendo paga lo que quieras, email marketing integrado para construcción de audiencia, estrategias de generación de tráfico para una plataforma directa del creador, optimización de páginas de producto para mayor conversión, y escalado con paquetes y membresías para ingresos recurrentes`,
     description: `Gumroad es fundamentalmente diferente de las plataformas de marketplace como Etsy, Amazon KDP o Gumroad. En esas plataformas, el tráfico de búsqueda integrado impulsa el descubrimiento — los compradores navegan el marketplace y encuentran tus productos a través de algoritmos. En Gumroad, tú eres el marketplace. Tú traes tu propia audiencia, posees la relación con el cliente y conservas las direcciones de correo de los compradores para marketing directo. Esta guía cubre todo lo que necesitas para vender imprimibles en Gumroad con éxito, desde la configuración inicial de la tienda hasta el escalado con paquetes y membresías.`,
   },
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Antes de configurar tu primer producto, comprende qué hace a Gumroad fundamentalmente diferente de cualquier otra plataforma cubierta en nuestras guías. Esto no es un marketplace con tráfico de compradores integrado — es una plataforma de infraestructura de ventas que maneja el checkout, la entrega y el pago mientras tú te encargas de todo lo demás. Comprender esta distinción temprano previene el error más común que cometen los nuevos vendedores de Gumroad: publicar productos y esperar ventas que nunca llegan porque no hay búsqueda de marketplace enviando compradores a tu tienda.\n\nEn Etsy, optimizas para el posicionamiento en búsquedas y el algoritmo te conecta con compradores. En Amazon KDP, optimizas los metadatos de tu libro y Amazon recomienda tus productos a lectores relevantes. En Gumroad, alineas los títulos de tus recursos con los términos de búsqueda de los vendedores y la plataforma entrega tráfico. En Gumroad, nada de eso existe. Tu tienda es una página independiente que recibe cero tráfico orgánico de Gumroad en sí. Cada visitante llega porque tú lo enviaste allí — a través de redes sociales, email marketing, contenido de blog, colaboraciones o publicidad de pago.\n\nEsto suena como una desventaja, y para vendedores que quieren publicar productos y olvidarse, lo es. Pero para vendedores dispuestos a construir una audiencia, el modelo directo del creador ofrece ventajas a las que los vendedores de marketplace no pueden acceder. Controlas la presentación de tu marca completamente. Fijas cualquier estructura de precios que quieras. Recopilas los correos de los compradores y construyes una relación directa. No compites contra miles de productos similares en resultados de búsqueda. Y no estás sujeto a cambios de algoritmo que pueden cortar tu visibilidad de la noche a la mañana.\n\nLa estructura de comisiones de Gumroad refuerza el modelo directo del creador. Hay cero cuotas mensuales, cero tarifas de anuncio y cero costes iniciales. Pagas una tarifa de transacción fija del 10 % cuando haces una venta, y eso incluye el procesamiento de pago. En una venta de imprimible de $10, te quedas con $9. Compara esto con Etsy donde la misma venta te dejaría aproximadamente $7,50 después de tarifas de anuncio, tarifas de transacción, procesamiento de pago y posibles costes de publicidad. A lo largo de cientos de ventas, esta diferencia se acumula significativamente.\n\nGumroad maneja la infraestructura técnica que de otra forma requeriría múltiples servicios: checkout seguro, entrega instantánea de archivos digitales, alojamiento de PDF, recopilación de correos, analíticas básicas y cumplimiento fiscal. Obtienes una experiencia de ventas profesional sin construir un sitio web, configurar una pila de comercio electrónico o gestionar la entrega de archivos manualmente. Para vendedores de imprimibles que quieren vender directamente sin la sobrecarga de un sitio de comercio electrónico completo, Gumroad proporciona el equilibrio adecuado de simplicidad y capacidad.`,
     },
     {
-      heading: 'Configura tu cuenta y tienda de Gumroad',
+      heading: `Configura tu cuenta y tienda de Gumroad`,
       content: `Crear una cuenta de Gumroad toma minutos, pero configurarla correctamente para un negocio de imprimibles requiere decisiones deliberadas que afectan el profesionalismo y la visibilidad de tu tienda. Empieza en la página de registro de Gumroad y crea tu cuenta con la dirección de correo que quieras asociar con tu negocio. Elige un nombre de usuario que refleje tu marca en lugar de un nombre personal — esto se convierte en parte de la URL de tu tienda (tunombredeusuario.gumroad.com) y debería ser reconocible, memorable y relevante para lo que vendes.\n\nConfigura tus ajustes de pago inmediatamente después de crear la cuenta. Gumroad procesa los pagos a través de Stripe Connect o PayPal, y conectar tu método de pago antes de publicar productos asegura que los compradores puedan completar compras desde el momento en que lances. Ve a Configuración, luego Pagos, y conecta tu método de pago preferido. Gumroad ofrece pagos instantáneos para cuentas verificadas, lo que significa que recibes fondos en horas desde una venta en lugar de esperar un ciclo de pago — una ventaja significativa de flujo de caja para un negocio en crecimiento.\n\nPersonaliza tu perfil de tienda para comunicar profesionalismo y relevancia. Sube una foto de perfil o logo que represente tu marca. Escribe una biografía que diga a los compradores potenciales qué tipo de imprimibles creas y para quién son. Sé específico: «Creo fichas de matemáticas imprimibles, puzles de palabras y actividades educativas para padres y vendedores de jardín de infantes a tercer grado» es mucho más útil que «Vendo descargas digitales». Tu biografía aparece en la parte superior de tu página de tienda y en los resultados de motores de búsqueda cuando la gente encuentra tu perfil de Gumroad, así que trátala como una introducción para compradores y como elemento SEO.\n\nOrganiza la apariencia de tu tienda antes de publicar productos. Gumroad te permite personalizar la presentación visual de tu tienda incluyendo color de fondo o imagen, colores de acento y diseño de visualización de productos. Elige un aspecto limpio y profesional que coincida con cualquier marca que uses en otras plataformas o redes sociales. La consistencia en tu tienda de Gumroad, tableros de Pinterest, feed de Instagram y otros canales de marketing refuerza el reconocimiento de marca cuando los compradores te encuentran en múltiples lugares.\n\nConsidera conectar un dominio personalizado si quieres que la URL de tu tienda coincida con tu identidad de marca. En lugar de tunombredeusuario.gumroad.com, puedes apuntar tu propio dominio (como imprimibles.tumarca.com) a tu tienda de Gumroad. Esto crea una apariencia más profesional y hace tu URL de tienda más fácil de compartir y recordar. Los dominios personalizados están disponibles en todas las cuentas de Gumroad sin coste adicional — solo necesitas poseer el dominio y configurar los ajustes DNS.`,
     },
     {
-      heading: 'Crea y sube productos imprimibles en Gumroad',
+      heading: `Crea y sube productos imprimibles en Gumroad`,
       content: `La creación de productos en Gumroad sigue un flujo de trabajo sencillo: crea el anuncio del producto, sube tus archivos PDF, escribe una descripción convincente, añade imágenes de portada y configura los ajustes de entrega. El proceso es más simple que la mayoría de las plataformas de marketplace porque Gumroad se centra en páginas de producto limpias y orientadas a la conversión en lugar de sistemas complejos de categorización y etiquetado.\n\nEmpieza haciendo clic en «Nuevo producto» desde tu panel. Selecciona «Producto digital» como tipo de producto. Nombra tu producto con un título claro y descriptivo que diga a los compradores exactamente lo que obtienen. «Fichas de sumas para primer grado — 50 páginas con claves de respuestas» comunica más valor que «Pack de mates vol. 1» y funciona mejor cuando se comparte en redes sociales o se descubre a través de motores de búsqueda.\n\nSube tus archivos PDF imprimibles en la sección de contenido. Gumroad admite archivos de hasta 16 GB por producto, que es más que suficiente para cualquier recurso imprimible. Para productos con múltiples archivos (como un paquete de fichas que incluye versiones en Carta EE. UU. y A4), puedes subir múltiples archivos que se entregan todos juntos cuando un comprador completa su compra. Organiza tus archivos con convenciones de nomenclatura claras para que los compradores entiendan lo que están descargando.\n\nLa imagen de portada es la primera impresión de tu producto y el elemento visual principal que los compradores ven antes de hacer clic en tu anuncio completo. Sube una imagen de portada de alta calidad (mínimo 1280 × 720 píxeles) que muestre tu imprimible de forma atractiva. Para paquetes de fichas, un mockup mostrando varias fichas desplegadas o mostradas en un contexto del mercado funciona bien. Gumroad muestra la imagen de portada en la cuadrícula de tu tienda, en la página del producto, en las vistas previas de enlaces de redes sociales y en las notificaciones por correo.\n\nEscribe la descripción de tu producto para vender el resultado, no solo describir el contenido. Los vendedores y padres que compran imprimibles quieren saber cómo el recurso ayuda a sus usuarios, no solo qué hay en el archivo. Empieza con el valor educativo: «Construye fluidez en sumas con 50 fichas cuidadosamente secuenciadas que progresan desde operaciones de un solo dígito hasta reagrupación de tres dígitos — completas con claves de respuestas para evaluación rápida y seguimiento del progreso». Continúa con una lista detallada de contenido para que los compradores sepan exactamente lo que están comprando.\n\nConfigura los ajustes de entrega. Gumroad entrega automáticamente los archivos digitales a los compradores inmediatamente después de la compra vía correo y una página de descarga. Activa la opción «Generar una clave de licencia única» si quieres rastrear compras individuales. Establece el producto como «Publicado» cuando tu anuncio esté completo y listo para compradores.`,
     },
     {
@@ -51,7 +51,7 @@ const content: GuideContent = {
       content: `Poseer tu lista de correos de clientes es la ventaja más valiosa de Gumroad sobre las plataformas de marketplace, y es la característica que separa a los vendedores de Gumroad que construyen negocios sostenibles de los que hacen ventas esporádicas. En Etsy, un cliente compra tu imprimible y desaparece en el ecosistema de Etsy — no puedes contactarle sobre tus nuevos productos, ofrecerle descuentos ni construir ninguna relación continua. En Gumroad, la dirección de correo de cada comprador es tuya para hacer marketing directamente.\n\nLas funciones de correo integradas de Gumroad manejan email marketing básico sin requerir un servicio separado. Puedes enviar actualizaciones de producto a todos los compradores de un producto específico, enviar correos a todos tus seguidores con anuncios, y configurar secuencias automatizadas post-compra. Para un negocio de imprimibles en sus primeras etapas, estas herramientas integradas son suficientes para construir y nutrir tu audiencia sin el coste y la complejidad de una plataforma de email marketing dedicada.\n\nEmpieza a construir tu lista de correo desde el día uno, incluso antes de tener productos para vender. Gumroad te permite crear una opción de «seguir» en tu tienda donde los visitantes pueden suscribirse a tus actualizaciones sin comprar nada. Promociona este enlace de seguir en tus perfiles de redes sociales, publicaciones de blog y otras plataformas donde tengas audiencia. Cada seguidor es un comprador potencial que recibe notificaciones cuando publicas nuevos productos.\n\nCrea un producto imán de leads a precio de $0 para acelerar la construcción de la lista. Podría ser un pequeño paquete de muestras de 5 a 10 fichas, una sola página para colorear de alta calidad, o una plantilla de planificación relacionada con tu nicho. El objetivo no son los ingresos — es la recopilación de correos. Cada persona que descarga tu producto de $0 se convierte en un suscriptor al que puedes hacer marketing cuando lances productos de pago. Un imán de leads que demuestra la calidad de tus recursos de pago es la ruta de conversión más efectiva: un padre descarga tu muestrario de prueba gratis con marca de agua de páginas para colorear, ve la calidad de impresión y el detalle de diseño, y está preparado para comprar tus colecciones completas de páginas para colorear cuando las anuncies.\n\nEnvía correos de actualización de productos estratégicamente. Cuando publiques un nuevo imprimible, envía un correo a tus compradores y seguidores existentes con un anuncio que incluya una breve descripción, una imagen de vista previa y un enlace directo a la página del producto. Programa estos correos para cuando tu audiencia es más probable que participe — para compradores padres, las tardes entre semana y las mañanas de fin de semana típicamente funcionan bien. Para compradores vendedores, las tardes de domingo y las primeras horas de los días laborables se alinean con los horarios de planificación de lecciones.\n\nSegmenta tu mensajería basándote en el historial de compras cuando tu lista crezca lo suficiente para justificarlo. Los compradores que adquirieron tus fichas de matemáticas tienen más probabilidad de interesarse por tus nuevos recursos de matemáticas que por tus páginas para colorear. Las herramientas de correo integradas de Gumroad permiten segmentación básica por producto comprado, y a medida que tu negocio crezca puedes exportar tu lista de correo a una plataforma de email marketing más sofisticada para segmentación avanzada, secuencias automatizadas y analíticas detalladas.`,
     },
     {
-      heading: 'Genera tráfico hacia tu tienda de Gumroad',
+      heading: `Genera tráfico hacia tu tienda de Gumroad`,
       content: `Ya que Gumroad proporciona cero tráfico de marketplace, cada venta depende de tu capacidad de llevar visitantes a tus páginas de producto. Esta es la habilidad decisiva para vendedores de Gumroad, y es donde la mayoría de los nuevos vendedores luchan después de la facilidad del descubrimiento en marketplace de plataformas como Etsy. La buena noticia es que las habilidades de generación de tráfico se acumulan con el tiempo — el contenido que creas hoy sigue generando tráfico meses y años después.\n\nPinterest es la plataforma social de mayor conversión para vendedores de imprimibles en Gumroad. Los usuarios de Pinterest buscan activamente recursos imprimibles, fichas, actividades y productos imprimibles — tienen intención de compra incorporada en su comportamiento de navegación. Crea pines que muestren tus productos imprimibles con imágenes claras y atractivas mostrando las fichas o actividades en contexto. Enlaza cada pin directamente a la página de producto de Gumroad. Construye tableros organizados por tipo de producto, nivel de grado o tema para crear un catálogo navegable de tu contenido. La consistencia importa más que el volumen: fijar de 5 a 10 pines de calidad por semana consistentemente supera ráfagas esporádicas de 50 pines seguidas de semanas de inactividad.\n\nInstagram funciona bien para construir conciencia de marca y mostrar tus imprimibles visualmente. Comparte fotos de tus fichas siendo usadas, reels cortos en vídeo mostrando el proceso de creación o un recorrido por un paquete de fichas, y publicaciones de carrusel que previsualizan múltiples páginas de un producto. Usa tu enlace de biografía para apuntar a tu tienda de Gumroad. Instagram no genera ventas directas tan efectivamente como Pinterest, pero construye la familiaridad de marca que hace a los seguidores más propensos a comprar cuando ven tus productos en otros lugares.\n\nEl contenido de blog crea tráfico orgánico a largo plazo a través de motores de búsqueda. Escribe artículos relacionados con tu nicho de imprimibles — «5 estrategias de práctica de sumas para primer grado» o «Cómo usar actividades de colorear para construir vocabulario» — e incluye enlaces naturales a tus productos de Gumroad dentro del contenido. Una publicación de blog que posiciona en Google para un término de búsqueda relevante envía tráfico a tu tienda de Gumroad durante meses o años sin ningún esfuerzo continuo. No necesitas un sitio web personalizado para esto: plataformas como Medium, Substack o WordPress.com ofrecen blogs sin coste que los motores de búsqueda indexan y posicionan.\n\nLa promoción cruzada desde otras plataformas amplifica tus ventas de Gumroad. Si ya vendes en Etsy o Gumroad, no puedes enlazar directamente a Gumroad desde esas plataformas (viola sus términos de servicio), pero puedes construir un seguimiento en redes sociales desde tu éxito en marketplaces y dirigir esa audiencia a Gumroad para productos exclusivos o mejores precios. Algunos vendedores usan plataformas de marketplace para descubrimiento y productos estándar mientras reservan sus ofertas más premium o únicas para Gumroad donde se quedan con un porcentaje mayor de la venta.\n\nLas colaboraciones con otros creadores en nichos adyacentes pueden introducir tus productos a audiencias establecidas. Un blogger de trabajo desde casa que reseña recursos educativos, un influencer de padres que comparte ideas de actividades, o un creador de contenido para vendedores que recomienda herramientas del mercado — estos son socios potenciales que pueden exponer tu tienda de Gumroad a compradores que ya confían en sus recomendaciones.`,
     },
     {
@@ -107,7 +107,7 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: '¿Cuánto cuesta vender imprimibles en Gumroad?',
+      question: `¿Cuánto cuesta vender imprimibles en Gumroad?`,
       answer: `Gumroad cobra cero cuotas mensuales, cero tarifas de anuncio y cero costes iniciales. Pagas una tarifa de transacción fija del 10 % solo cuando haces una venta, y esto incluye el procesamiento de pago. En una venta de imprimible de $10, te quedas con $9. No hay tarifas ocultas, no hay recargos de publicidad y no se requiere un nivel premium para acceder a las funciones principales. Esto hace de Gumroad una de las plataformas más rentables para vender productos digitales, particularmente comparada con plataformas de marketplace donde las comisiones, costes de publicidad y procesamiento de pago pueden consumir del 20 al 30 por ciento de tus ingresos.`,
     },
     {
@@ -144,11 +144,11 @@ const content: GuideContent = {
     },
     {
       slug: 'kdp-o-etsy-imprimibles',
-      title: 'Amazon KDP o Etsy: Dónde vender imprimibles',
+      title: `Amazon KDP o Etsy: Dónde vender imprimibles`,
       description: `Una comparación detallada de las dos plataformas de marketplace más grandes para vendedores de imprimibles, cubriendo comisiones, tráfico, control y potencial de ingresos.`,
     },
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía completa para iniciar un negocio de imprimibles`,
       description: `La guía fundamental de negocio que cubre creación de contenido, licencias comerciales, estrategia multiplataforma y construcción de un negocio de imprimibles sostenible.`,
     },
@@ -156,23 +156,23 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'vender-creative-fabrica', anchorText: `Cómo vender recursos educativos en Creative Fabrica` },
-    { pageType: 'guide', slug: 'crear-vender-recursos-tpt', anchorText: 'Cómo crear y vender recursos Gumroad' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: 'crear-vender-recursos-tpt', anchorText: `Cómo crear y vender recursos Gumroad` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: 'Amazon KDP o Etsy: Dónde vender imprimibles' },
-    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: 'Cómo fijar precios de tus imprimibles Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para imprimibles educativos' },
-    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Cómo crear sopas de letras con imágenes' },
-    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de sumas para niños' },
+    { pageType: 'guide', slug: 'kdp-o-etsy-imprimibles', anchorText: `Amazon KDP o Etsy: Dónde vender imprimibles` },
+    { pageType: 'guide', slug: 'precios-imprimibles-etsy', anchorText: `Cómo fijar precios de tus imprimibles Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para imprimibles educativos` },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: `Cómo crear sopas de letras con imágenes` },
+    { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: `Cómo crear fichas de sumas para niños` },
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: `Cómo crear páginas para colorear a partir de imágenes temáticas` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Crea páginas para colorear imprimibles visualmente impactantes que se fotografían perfectamente para marketing en redes sociales. Ideal para generar tráfico de Pinterest e Instagram hacia tu tienda Gumroad con imágenes de producto llamativas.`,
     },
     {
@@ -182,33 +182,33 @@ const content: GuideContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Genera fichas de práctica de matemáticas alineadas con el catálogo de productos sin requerir activos de imagen. El camino más simple desde la creación de contenido hasta el producto publicado en Gumroad para vendedores que entran al mercado de imprimibles educativos.`,
     },
     {
       appId: 'matching',
-      title: 'Generador de fichas de asociación',
+      title: `Generador de fichas de asociación`,
       description: `Crea actividades de asociación de alta demanda que atraen tanto a compradores padres como vendedores. Un tipo de actividad popular para construir colecciones de productos temáticos y paquetes en Gumroad.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear imprimible lista para vender en la tienda Gumroad' },
+    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear imprimible lista para vender en la tienda Gumroad` },
     samples: [
-      { src: `/samples/spanish/coloring/coloring portrait 2.webp`, alt: 'Página para colorear imprimible para ventas de productos digitales en Gumroad', caption: 'Las páginas para colorear crean imágenes de producto visualmente atractivas que generan tráfico de redes sociales hacia tu tienda Gumroad' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Sopa de letras imprimible para catálogo de tienda Gumroad`, caption: 'Las sopas de letras tienen amplio atractivo en audiencias de padres y vendedores — un tipo de producto versátil para Gumroad' },
-      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: 'Actividad de asociación para negocio de imprimibles en Gumroad', caption: 'Las actividades de asociación son imprimibles educativos de alta demanda que funcionan bien como productos individuales y en paquetes' },
+      { src: `/samples/spanish/coloring/coloring portrait 2.webp`, alt: `Página para colorear imprimible para ventas de productos digitales en Gumroad`, caption: `Las páginas para colorear crean imágenes de producto visualmente atractivas que generan tráfico de redes sociales hacia tu tienda Gumroad` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Sopa de letras imprimible para catálogo de tienda Gumroad`, caption: `Las sopas de letras tienen amplio atractivo en audiencias de padres y vendedores — un tipo de producto versátil para Gumroad` },
+      { src: `/samples/spanish/matching/Encuentra Parejas 1.webp`, alt: `Actividad de asociación para negocio de imprimibles en Gumroad`, caption: `Las actividades de asociación son imprimibles educativos de alta demanda que funcionan bien como productos individuales y en paquetes` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Cómo crear páginas para colorear para tu tienda de imprimibles en Gumroad`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pez ángel — imagen educativa temática', caption: 'Pez ángel' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pez payaso — imagen educativa temática', caption: 'Pez payaso' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagen educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Cangrejo — imagen educativa temática', caption: 'Cangrejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pez ángel — imagen educativa temática`, caption: 'Pez ángel' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pez payaso — imagen educativa temática`, caption: 'Pez payaso' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagen educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Cangrejo — imagen educativa temática`, caption: 'Cangrejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 };
 

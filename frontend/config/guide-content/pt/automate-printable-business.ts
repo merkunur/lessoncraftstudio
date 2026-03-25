@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatizar negócio imprimíveis',
+    primaryKeyword: `automatizar negócio imprimíveis`,
     secondaryKeywords: [
-      'automatização negócio imprimíveis',
-      'automatizar criação fichas exercícios',
-      'automatização fluxo trabalho produtos digitais',
-      'eficiência vendedores imprimíveis',
+      `automatização negócio imprimíveis`,
+      `automatizar criação fichas exercícios`,
+      `automatização fluxo trabalho produtos digitais`,
+      `eficiência vendedores imprimíveis`,
     ],
     lsiKeywords: [
       `produção em lote fluxo trabalho otimização sistemas modelos velocidade criação`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `fluxo trabalho racionalizado estandardização processos eficiência operativa agrupamento tarefas`,
       `sistemas produção processos escaláveis gestão catálogo desenho fluxo trabalho`,
     ],
-    titleTag: 'Automatizar negócio imprimíveis — Guia eficiência',
+    titleTag: `Automatizar negócio imprimíveis — Guia eficiência`,
     metaDescription: `Como automatizar o seu negócio de imprimíveis com produção em lote, sistemas de modelos e fluxos de trabalho sistemáticos. Poupe horas e escale a sua loja.`,
   },
 
   hero: {
-    title: 'Como automatizar o seu negócio de imprimíveis',
+    title: `Como automatizar o seu negócio de imprimíveis`,
     tagline: `Um guia completo para racionalizar o seu negócio de imprimíveis — cobrindo como identificar oportunidades de automatização, construir sistemas de modelos, agrupar tarefas de produção em lote, estandardizar anúncios, organizar ficheiros sistematicamente, automatizar o processamento de ficheiros, criar calendários de produção e escalar mediante variação sistemática`,
     description: `Os vendedores de imprimíveis mais bem-sucedidos não são necessariamente os mais criativos ou talentosos. São os mais sistemáticos. Construíram fluxos de trabalho que eliminam o esforço redundante, sistemas de modelos que evitam começar do zero, e processos de produção que convertem horas de trabalho em minutos. Este guia mostra-lhe como automatizar o seu negócio de imprimíveis mediante estratégias práticas e implementáveis — desde a produção em lote e os sistemas de modelos até aos anúncios estandardizados e a expansão sistemática do catálogo.`,
   },
@@ -31,27 +31,27 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Passo 1: Identificar tarefas que consomem tempo',
+      heading: `Passo 1: Identificar tarefas que consomem tempo`,
       content: `Antes de automatizar, precisa de saber onde vai realmente o seu tempo. Registe o seu fluxo de trabalho atual durante uma semana, rastreando quanto tempo cada tarefa exige. A maioria dos vendedores de imprimíveis descobre que o seu tempo se divide em categorias previsíveis: criação de fichas (frequentemente 40–60% do tempo total), escrita de descrições (15–20%), criação de miniaturas (10–15%), processamento e organização de ficheiros (5–10%), e publicação de anúncios (10–15%). Dentro de cada categoria, identifique quais componentes são criativos (requerem julgamento e variação) e quais são repetitivos (seguem o mesmo padrão de cada vez). A formatação de fichas é repetitiva — os geradores tratam disso. A escrita de descrições é semi-repetitiva — modelos tratam da estrutura enquanto você fornece os detalhes específicos do produto. A criação de miniaturas é semi-repetitiva — modelos tratam do layout enquanto você altera o conteúdo. A publicação de anúncios é principalmente repetitiva — a maioria dos campos é idêntica entre produtos semelhantes. Priorize a automatização das tarefas que consomem mais tempo e são mais repetitivas primeiro.`,
     },
     {
-      heading: 'Passo 2: Construir sistemas de modelos',
+      heading: `Passo 2: Construir sistemas de modelos`,
       content: `Os modelos eliminam a decisão mais dispendiosa em termos de tempo em trabalho criativo: começar de uma página em branco. Uma descrição de anúncio para uma ficha de matemáticas segue uma estrutura previsível: título do produto, faixa etária, conteúdo incluído, competências visadas, formato e especificações de impressão, e informação de licenciamento. Crie um modelo de descrição com campos de marcador de posição para cada secção. Quando criar um novo produto, preencha os marcadores em vez de compor do zero. Este processo transforma uma tarefa de escrita de 25 minutos numa tarefa de preenchimento de 7 minutos. Aplique o mesmo princípio a miniaturas de produtos — crie um modelo com zonas de imagem de produto, zona de texto para título, esquema de cores consistente e elementos de marca. Cada nova miniatura requer apenas trocar a imagem e o texto em vez de desenhar um layout do zero. Modelos de etiquetas de produtos, modelos de respostas de serviço ao cliente, e modelos de publicações de marketing nas redes sociais seguem todos a mesma lógica: defina a estrutura uma vez, personalize os detalhes para cada utilização.`,
     },
     {
-      heading: 'Passo 3: Agrupar produção em lote',
+      heading: `Passo 3: Agrupar produção em lote`,
       content: `A produção em lote significa agrupar tarefas semelhantes em sessões dedicadas em vez de completar cada produto do início ao fim antes de começar o próximo. Quando alterna entre tipos de tarefa — criar uma ficha, depois escrever a sua descrição, depois fazer a sua miniatura, depois publicar o anúncio — incorre num custo de troca de contexto de cada vez. O seu cérebro precisa de se reorientar para cada tipo de tarefa, o que tipicamente adiciona 5 a 15 minutos de sobrecarga por alternância. A produção em lote elimina esta sobrecarga ao manter o foco no mesmo tipo de tarefa durante uma sessão prolongada. Gere 10 a 15 fichas numa sessão de segunda-feira. Escreva todas as 10 a 15 descrições na sessão de terça-feira. Crie todas as miniaturas na sessão de quarta-feira. Publique todos os anúncios na sessão de quinta-feira. Cada sessão flui mais rapidamente porque o seu enquadramento mental, ferramentas e processos permanecem consistentes durante toda a sessão. A produção em lote também facilita a manutenção da qualidade — quando escreve 10 descrições seguidas, rapidamente repara inconsistências entre produtos porque o formato está fresco na sua memória.`,
     },
     {
-      heading: 'Passo 4: Estandardizar descrições e anúncios',
+      heading: `Passo 4: Estandardizar descrições e anúncios`,
       content: `Além dos modelos de descrição, estandardize cada elemento dos seus anúncios. Crie uma estrutura de etiquetas padrão para cada tipo de produto: as suas 13 etiquetas para fichas de matemáticas podem incluir o nível escolar, a operação matemática, o tema, e o formato do produto. Documente a sua lista de etiquetas padrão para que cada novo produto use etiquetas consistentes sem requerer pesquisa de palavras-chave para cada anúncio. Crie secções de descrição estandardizadas: uma secção fixa de especificações de impressão, uma secção fixa de informação de licenciamento, e uma secção fixa de instruções de utilização que se aplique a todos os produtos do mesmo tipo. Estas secções fixas são escritas uma vez e copiadas para cada novo anúncio, eliminando a reescrita de informação que nunca muda. A secção variável — o que torna este produto específico único — é a única parte que requer escrita nova para cada produto. A estandardização também melhora o SEO porque a utilização consistente de palavras-chave nas etiquetas e descrições reforça a relevância temática da sua loja.`,
     },
     {
-      heading: 'Passo 5: Organizar ficheiros sistematicamente',
+      heading: `Passo 5: Organizar ficheiros sistematicamente`,
       content: `A organização de ficheiros não parece automatização, mas uma nomenclatura caótica de ficheiros desperdiça tempo cumulativo significativo. Cada vez que procura um ficheiro, verifica se tem a versão correta, ou tenta encontrar o ficheiro fonte de um produto, perde tempo que uma convenção de nomenclatura consistente eliminaria. Adote um formato de nomenclatura padrão: [Tipo]-[Tema]-[NívelEscolar]-[Idioma]-[Versão]. Exemplo: MatematicaFichas-Animais-1Ano-PT-v2. Esta convenção torna cada ficheiro auto-descritivo e pesquisável. Crie uma estrutura de pastas que espelhe a organização da sua loja: pastas de nível superior por tipo de produto, subpastas por tema ou nível escolar, com subpastas consistentes dentro de cada uma para ficheiros fonte, exportações PDF e ativos de marketing. Quando o seu sistema de ficheiros é autoexplicativo, nunca perde tempo a perguntar qual é a versão mais recente ou onde um ficheiro particular está guardado.`,
     },
     {
-      heading: 'Passo 6: Automatizar processamento de ficheiros',
+      heading: `Passo 6: Automatizar processamento de ficheiros`,
       content: `O processamento de ficheiros — converter formatos, otimizar tamanhos de ficheiro, criar variações — é inerentemente repetitivo e ideal para automatização. Os geradores de fichas automatizam o passo de processamento mais substancial: criar PDFs profissionalmente formatados prontos para imprimir a partir de seleções de configuração. Em vez de desenhar manualmente o layout de cada ficha num editor gráfico, seleciona parâmetros (operação matemática, intervalo de dificuldade, tema, idioma) e o gerador produz o PDF finalizado. Este único passo de automatização tipicamente reduz o tempo de criação de fichas de 60 a 90 minutos para 10 a 15 minutos por produto. Para outras tarefas de processamento de ficheiros, considere ações em lote: redimensionar múltiplas imagens de uma vez, converter formatos em lote, e comprimir ficheiros em massa. Mesmo se estas tarefas não forem totalmente automatizadas, realizá-las em lote é significativamente mais rápido do que processá-las individualmente porque as ferramentas permanecem abertas e configuradas durante toda a sessão.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `Uma agenda de produção transforma a criação reativa em produção proativa. Em vez de decidir a cada dia o que criar, planeie as próximas 4 a 8 semanas de produção com base em pesquisa de mercado, padrões sazonais e lacunas do catálogo. Identifique que tipos de produtos vendem melhor em que épocas: fichas de regresso às aulas em julho e agosto, temas festivos em outubro e novembro, fichas de revisão de fim de ano em abril e maio. Planeie a produção 6 a 8 semanas antes dos períodos de pico de vendas. Uma agenda de produção também lhe permite agrupar eficientemente: se vai criar fichas de matemáticas com tema de Natal, planeie todos os níveis de dificuldade e variações na mesma semana de produção enquanto os ativos temáticos e modelos estão configurados. O calendário de conteúdo também previne o problema comum de criar o que sente vontade em vez do que o mercado precisa — certifica-se de que a sua produção se alinha com a procura e preenche lacunas estratégicas do catálogo.`,
     },
     {
-      heading: 'Passo 8: Escalar mediante variação sistemática',
+      heading: `Passo 8: Escalar mediante variação sistemática`,
       content: `A variação sistemática é a estratégia de automatização mais poderosa para crescimento de catálogo porque utiliza os seus sistemas existentes para criar novos produtos com esforço incremental mínimo. Depois de construir um sistema de produção eficiente para um tipo de produto — fichas de soma, por exemplo — aplique o mesmo sistema a tipos de produto adjacentes: resta, multiplicação, divisão. Cada variação utiliza o mesmo modelo de descrição, modelo de miniatura, estrutura de etiquetas, convenção de nomenclatura de ficheiros e fluxo de trabalho de publicação. O único elemento que muda é o conteúdo em si. Depois de cobrir variações de matéria, aplique variações de tema: as mesmas fichas de matemáticas em temas de animais, temas de veículos, temas sazonais. Depois variações de idioma: os mesmos produtos em português, inglês, alemão, francês, espanhol. Cada dimensão de variação multiplica o seu catálogo sem requerer novos sistemas. Um vendedor com 10 produtos de soma e um sistema bem construído pode sistematicamente expandir para 100 ou mais produtos aplicando variação de matéria, tema, nível de dificuldade e idioma — tudo usando os mesmos modelos, processos e fluxos de trabalho.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Dicas de automatização específicas para Etsy',
+      heading: `Dicas de automatização específicas para Etsy`,
       content: `O Etsy permite até 10 imagens por anúncio e 13 etiquetas — use todas para cada produto. Crie um conjunto de etiquetas padrão para cada tipo de produto e salve-o num documento de referência. Os modelos de descrição do Etsy devem incluir as etiquetas de secção do Etsy (que aparecem como cabeçalhos pesquisáveis) e respeitar o limite de 140 caracteres para o campo de subtítulo. Utilize a funcionalidade de secções de loja para organizar por tipo de produto ou nível escolar — esta organização espelha a sua estrutura de ficheiros e torna a gestão do catálogo mais eficiente. As ferramentas de análise do Etsy mostram quais etiquetas impulsionam o tráfego, permitindo-lhe refinar o seu modelo de etiquetas com base em dados reais em vez de suposições.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `A Amazon KDP exige requisitos de formatação específicos: tamanhos de página padronizados, margens específicas e formatos de ficheiro definidos. Incorpore estas especificações nos seus modelos para que cada produto esteja automaticamente em conformidade. Crie um modelo de descrição compatível com KDP que inclua campos de palavras-chave de back-end (7 campos de palavras-chave, cada um com até 50 caracteres) separados da descrição voltada para o cliente. A nomenclatura de ficheiros para carregamentos KDP deve incluir o ISBN ou ASIN para rastreamento. Os modelos de manuscrito KDP devem incluir as páginas frontal e traseira requeridas pela Amazon, para que estas não precisem de ser recriadas para cada publicação.`,
     },
     {
-      heading: 'Dicas de automatização específicas para Gumroad',
+      heading: `Dicas de automatização específicas para Gumroad`,
       content: `O Gumroad requer pré-visualizações e miniaturas que mostrem o conteúdo real do produto. Os modelos de pré-visualização devem incluir slides padrão: página de capa, exemplo de conteúdo, instruções de utilização e informação de licenciamento. Crie estes slides de modelo uma vez e atualize o conteúdo para cada novo produto. O Gumroad também permite pré-visualizações descarregáveis — crie um modelo de pré-visualização com marca d'água para que esta etapa esteja automatizada. Os modelos de descrição do Gumroad devem incluir as categorias de padrão e campos de alinhamento com o catálogo de produtos que são específicos desta plataforma.`,
     },
   ],
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-etsy', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'suporte-cliente-produtos-digitais', anchorText: `Suporte ao cliente para negócios de produtos digitais` },
-    { pageType: 'guide', slug: 'rendimentos-passivos-fichas', anchorText: 'Criar rendimento passivo com fichas de exercícios' },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para imprimíveis educativos` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para imprimíveis educativos` },
+    { pageType: 'guide', slug: 'criar-pacotes-fichas-etsy', anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `suporte-cliente-produtos-digitais`, anchorText: `Suporte ao cliente para negócios de produtos digitais` },
+    { pageType: 'guide', slug: 'rendimentos-passivos-fichas', anchorText: `Criar rendimento passivo com fichas de exercícios` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos rentáveis de imprimíveis' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: `Como pesquisar nichos rentáveis de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Gerador de fichas de matemática',
+      title: `Gerador de fichas de matemática`,
       description: `Demonstra a criação rápida e configurável de fichas que forma o núcleo de um fluxo de produção automatizado. Configure operações matemáticas, dificuldade, temas e idiomas para produzir PDFs prontos para imprimir em minutos em vez de horas.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Gerador de páginas para colorir',
+      title: `Gerador de páginas para colorir`,
       description: `Tipo de produto visual onde as variações temáticas sistemáticas escalam eficientemente. Crie páginas para colorir temáticas em múltiplas categorias para construir profundidade de catálogo com mínimo esforço incremental por produto.`,
     },
   ],
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Avião — imagem educativa temática', caption: 'Avião' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulância — imagem educativa temática', caption: 'Ambulância' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicicleta — imagem educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Barco — imagem educativa temática', caption: 'Barco' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Escavadora — imagem educativa temática', caption: 'Escavadora' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Avião — imagem educativa temática`, caption: 'Avião' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulância — imagem educativa temática`, caption: 'Ambulância' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicicleta — imagem educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Barco — imagem educativa temática`, caption: 'Barco' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Escavadora — imagem educativa temática`, caption: 'Escavadora' },
   ],
 };
 

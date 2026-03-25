@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Wiederkehrender Umsatz Arbeitsblätter',
+    primaryKeyword: `Wiederkehrender Umsatz Arbeitsblätter`,
     secondaryKeywords: [
-      'Arbeitsblatt-Geschäft Einkommen',
-      'Geld verdienen mit Arbeitsblättern',
-      'Druckvorlagen Arbeitsblatt Umsatz',
-      'Laufendes Einkommen mit Druckvorlagen',
+      `Arbeitsblatt-Geschäft Einkommen`,
+      `Geld verdienen mit Arbeitsblättern`,
+      `Druckvorlagen Arbeitsblatt Umsatz`,
+      `Laufendes Einkommen mit Druckvorlagen`,
     ],
     lsiKeywords: [
       `Umsatzstrom Digitalprodukt Einkommen immergrüne Produkte Verkaufsautomatisierung`,
@@ -35,11 +35,11 @@ const content: GuideContent = {
       content: `Arbeitsblätter nehmen eine einzigartige Position in der digitalen Produktlandschaft ein, weil sie immergrüne Nachfrage mit null Grenzkosten und unbegrenzter Skalierbarkeit kombinieren. Das Verständnis dieser Eigenschaften ist wesentlich für den Aufbau einer Umsatzstrategie, die sie voll ausnutzt.\n\nDie Nachfrage nach Bildungsarbeitsblättern ist an Schulkalender und kindliche Entwicklungsmeilensteine gebunden, die sich beide jedes Jahr vorhersagbar wiederholen. Erstklassmarkt brauchen jeden September Additionsübungen. Kindergartenkinder brauchen jedes Schuljahr Buchstabenerkennung-Arbeitsblätter. Eltern suchen jeden Juni nach Sommer-Lernaktivitäten. Diese zyklische, wiederkehrende Nachfrage bedeutet, dass ein heute erstelltes Arbeitsblatt nächstes Jahr, im Jahr darauf und noch Jahre danach Käufer anziehen wird. Anders als Modeprodukte oder trendige Neuheiten veralten Bildungsarbeitsblätter nicht, weil die zugrundeliegenden Bildungsbedürfnisse dauerhaft sind.\n\nDie Grenzkosten jedes Verkaufs sind effektiv null. Sobald Sie ein Arbeitsblatt-Paket erstellt haben, generiert jeder weitere Verkauf Umsatz ohne zusätzliche Produktions-, Versand- oder Abwicklungskosten. Ob Sie eine Kopie oder tausend Kopien verkaufen, Ihre Erstellungsinvestition bleibt die gleiche einzelne Arbeitssitzung. Dies unterscheidet sich grundlegend von physischen Produkten, bei denen jeder Verkauf Materialien, Herstellung und Versand erfordert. Bei Arbeitsblättern ist die Gewinnmarge beim hundertsten Verkauf identisch mit der Gewinnmarge beim ersten Verkauf — abzüglich nur des prozentualen Marktplatz-Gebührenanteils.\n\nDigitale Lieferung ist automatisch und funktioniert rund um die Uhr. Ihre Arbeitsblätter sind um 3 Uhr morgens an einem Sonntag in Tokio kaufbar, während der Mittagspause in Berlin und nach dem Schulabsetzen in Chicago. Jeder Marktplatz übernimmt die Download-Lieferung automatisch. Sie müssen nicht wach sein, am Computer sitzen oder auch nur wissen, dass ein Verkauf stattgefunden hat. Diese 24/7-Verfügbarkeit über globale Zeitzonen hinweg bedeutet, dass Ihr Katalog während Stunden Umsatz generiert, die Sie persönlich nie arbeiten könnten.\n\nDer Zusammensetzungseffekt eines Arbeitsblatt-Katalogs ist vielleicht seine kraftvollste Eigenschaft. Jedes neue Produkt, das Sie Ihrem Katalog hinzufügen, generiert nicht nur eigene Verkäufe — es erhöht die Auffindbarkeit und Glaubwürdigkeit Ihres gesamten Shops. Marktplatz-Algorithmen bevorzugen Shops mit größeren, aktiv wachsenden Katalogen. Käufer, die eines Ihrer Produkte entdecken und einen tiefen Katalog verwandter Materialien finden, tätigen eher Mehrfachkäufe. Bewertungen akkumulieren sich über Ihre Produktlinie und bauen Vertrauen auf, das jedem Listing zugute kommt. Zehn Produkte, die jeweils 15 Euro pro Monat einbringen, produzieren 150 Euro monatlich. Aber das Hinzufügen von 10 weiteren Produkten addiert nicht einfach weitere 150 Euro — der erweiterte Katalog steigert oft auch die Verkäufe bestehender Produkte, weil Ihr Shop autoritärer erscheint und mehr Ihrer Produkte in Suchergebnissen auftauchen.`,
     },
     {
-      heading: 'Bauen Sie einen immergrünen Produktkatalog auf',
+      heading: `Bauen Sie einen immergrünen Produktkatalog auf`,
       content: `Das Fundament wiederkehrender Arbeitsblatt-Umsätze ist ein Katalog, der um zeitlose Themen herum aufgebaut ist statt um flüchtige Trends. Immergrüne Produkte generieren konsistente Verkäufe Monat für Monat, Jahr für Jahr, weil die Nachfrage, der sie dienen, nie verschwindet.\n\nKonzentrieren Sie Ihren Katalog auf Kernfächer, die Schulen jedes Jahr ohne wesentliche Änderungen einsetzen. Additions-, Subtraktions-, Multiplikations- und Divisions-Arbeitsblätter dienen jedes Schuljahr Millionen von Nutzern. Buchstabenerkennung, Phonetik und grundlegende Lesearbeitsblätter werden von jeder neuen Welle von Kindergartenkindern und den Erstklassmarkt benötigt. Diese Fächer ändern sich nicht mit Produktkatalog-Moden oder Bildungstrends — Nutzer werden auch in Jahrzehnten Additionsübungen brauchen, genau wie heute. Den Katalog um diese permanenten Bedürfnisse herum aufzubauen stellt sicher, dass Ihre Produkte unbegrenzt relevant und verkaufbar bleiben.\n\nEntwerfen Sie Produkte, die sich am Schuljahr-Nachfragezyklus orientieren. Die Schulanfangs-Saison (August bis September) treibt starke Nachfrage nach frischen Druckprodukte. Januar bringt einen zweiten Aufschwung, wenn Käufer aus den Ferien zurückkehren und neue Materialien für das Frühjahrs-Semester brauchen. Sommermonate ziehen Eltern an, die Ergänzungsübungen suchen, um Lernverlust zu verhindern. Indem Sie Produkte erstellen, die diese vorhersagbaren Nachfragespitzen bedienen, können Sie Verkaufsmuster antizipieren und Ihr Katalogwachstum darauf abstimmen. Ein im Juli erstelltes Arbeitsblatt-Paket für die Schulanfangs-Nachfrage wird diese gleiche Nachfragewelle auch in jedem folgenden Jahr einfangen.\n\nNutzen Sie Arbeitsblatt-Generatoren, um schnell und konsistent Katalogtiefe aufzubauen. Die Geschwindigkeit der generatorbasierten Erstellung ist das, was einen tiefen immergrünen Katalog praktikabel macht. Ein professionelles Additions-Arbeitsblatt-Paket manuell zu erstellen könnte zwei bis drei Stunden dauern. Mit einem Generator können Sie die gleiche Qualität in 15 bis 20 Minuten produzieren. Das bedeutet, Sie können einen 50-Produkte-Katalog in der gleichen Gesamtzeit aufbauen, die es bräuchte, um manuell 5 bis 8 Produkte zu erstellen. Tiefe ist wichtig, weil ein Katalog mit 50 immergrünen Produkten weit mehr Oberfläche für Käuferentdeckung hat als einer mit 5, und das Umsatzpotenzial proportional skaliert.\n\nVermeiden Sie trendabhängige Produkte als Katalogfundament. Arbeitsblätter, die an bestimmte Filme, virale Charaktere oder Pop-Kultur-Momente gebunden sind, mögen einen kurzen Verkaufsschub erzeugen, werden aber unverkäuflich, sobald der Trend vorbeizieht. Ein Produkt mit Arbeitsblättern zu einem populären Charakter verkauft sich vielleicht drei Monate gut und verschwindet dann ganz aus den Suchergebnissen. Vergleichen Sie das mit einem Produkt „Bauernhoftiere Mathe-Arbeitsblätter", das sich über Jahre konsistent verkauft, weil Bauernhoftiere für junge Lernende immer relevant sind. Bauen Sie Ihren Kernkatalog mit zeitlosen Themen auf — Tiere, Jahreszeiten, Essen, Fahrzeuge, Natur, Gemeindehelfer — die ganzjährige Anziehungskraft behalten.\n\nHalten Sie die Formatierung zeitlos und professionell. Saubere, gut organisierte Arbeitsblatt-Layouts bleiben attraktiv und funktional, unabhängig von Designtrends. Vermeiden Sie stark stilisierte Designs, die innerhalb von ein oder zwei Jahren veraltet wirken könnten. Professionelle Formatierung signalisiert Käufern auch Qualität, was Premium-Preisgestaltung unterstützt und positive Bewertungen generiert, die sich über die Zeit zusammensetzen. Die Arbeitsblatt-Generatoren produzieren standardmäßig saubere, professionelle Layouts, was Konsistenz über Ihren gesamten Katalog sicherstellt. Sie können jeden Generator als kostenlose Testversion mit Wasserzeichen ausprobieren, um die Ausgabequalität vor dem Kauf einer kommerziellen Lizenz zu bewerten.`,
     },
     {
-      heading: 'Diversifizieren Sie über mehrere Umsatzkanäle',
+      heading: `Diversifizieren Sie über mehrere Umsatzkanäle`,
       content: `Ein Einplattform-Arbeitsblatt-Geschäft hat einen einzigen Ausfallpunkt. Wenn diese Plattform ihren Algorithmus ändert, ihre Gebühren erhöht oder einen Traffic-Rückgang erfährt, ist Ihr gesamter Umsatzstrom betroffen. Die Diversifizierung über mehrere Plattformen schafft mehrere unabhängige Umsatzströme aus dem gleichen Produktkatalog und steigert sowohl den Gesamtumsatz als auch die Geschäftsstabilität dramatisch.\n\nListen Sie Ihre Produkte auf jeder großen Plattform, auf der Ihre Zielkäufer einkaufen. Etsy zieht Millionen von Käufern an, die nach Bildungs-Druckvorlagen suchen, mit besonders starkem Traffic von Eltern und Homeschoolern. Amazon KDP erreicht die riesige Amazon-Kundenbasis, wo Eltern und Käufer neben Büchern und Schulbedarf nach Bildungsressourcen suchen. Gumroad bedient ein engagiertes Publikum von Käufern, die speziell nach Druckprodukte suchen. Gumroad und Creative Fabrica bieten zusätzliche Schaufenster mit unterschiedlichen Zielgruppen-Demografien. Jede Plattform repräsentiert einen unabhängigen Pool potenzieller Käufer, die Ihre Produkte auf anderen Plattformen möglicherweise nie entdecken würden.\n\nDie Wirtschaftlichkeit der Multiplattform-Verteilung ist überzeugend, weil die härteste Arbeit — das Erstellen des Produkts — einmal erledigt wird. Das gleiche Arbeitsblatt-Paket auf einer zweiten Plattform zu listen dauert 15 bis 30 Minuten Listing-Anpassungsarbeit. Wenn dieses Listing auch nur einen Verkauf pro Monat bei 8 Euro generiert, haben Sie ungefähr 96 Euro Jahresumsatz aus 20 Minuten Arbeit gewonnen. Über 30 Produkte auf 3 zusätzlichen Plattformen hinweg übersetzen sich selbst bescheidene Pro-Produkt-Verkäufe in signifikanten Gesamtumsatz, der mit einem Einplattform-Ansatz nicht existieren würde.\n\nEntwickeln Sie plattformspezifische Listing-Strategien statt Listings wörtlich zu kopieren. Jede Plattform hat unterschiedliche Suchalgorithmen, Käufererwartungen und Wettbewerbsdynamiken. Ein für die Etsy-Suche optimiertes Listing performt möglicherweise schlecht auf Amazon KDP ohne Anpassung. Recherchieren Sie die bestperformenden Listings auf jeder Plattform für Produkte ähnlich den Ihren und notieren Sie, wie Titel, Beschreibungen und Schlüsselwörter strukturiert sind. Passen Sie Ihre Listings an die Konventionen und Käufererwartungen jeder Plattform an, während Sie die Kernproduktinformationen beibehalten.\n\nVerfolgen Sie den Umsatz nach Plattform, um zu verstehen, wo Ihre Produkte am besten performen. Einige Produkttypen performen natürlich besser auf bestimmten Plattformen — lehrkraftorientierte Materialien übertreffen möglicherweise auf Gumroad, während elternorientierte Aktivitätsblätter auf Etsy oder Amazon besser abschneiden. Diese Daten informieren sowohl Ihre Listing-Prioritäten (wo zuerst listen, wenn neue Produkte lanciert werden) als auch Ihre Produktentwicklungsprioritäten (was erstellen basierend auf plattformspezifischen Nachfragemustern). Eine einfache Tabelle, die den monatlichen Umsatz pro Produkt pro Plattform verfolgt, liefert die Datengrundlage für diese strategischen Entscheidungen.\n\nErwägen Sie den Aufbau eines Direktvertriebskanals neben den Marktplatz-Listings. Ihre eigene Website oder ein Gumroad-Schaufenster gibt Ihnen volle Kontrolle über die Käuferbeziehung, höhere Gewinnmargen pro Verkauf und Unabhängigkeit von Marktplatz-Algorithmusänderungen. Direktverkäufe repräsentieren typischerweise anfangs einen kleineren Prozentsatz des Gesamtumsatzes, wachsen aber über die Zeit, wenn Sie ein Publikum und eine E-Mail-Liste aufbauen. Die Arbeitsblatt-Generatoren machen es praktikabel, exklusive Produkte oder spezielle Pakete über Ihren Direktkanal anzubieten, was Käufern einen Grund gibt, direkt zu kaufen, während Sie einen Umsatzstrom aufbauen, der vollständig unter Ihrer Kontrolle steht.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Jedes Produkt in Ihrem Katalog hat einen Umsatz-Lebenszyklus, den Sie aktiv steuern können, um Erträge zu verlängern und zu maximieren. Die Startphase generiert erste Verkäufe und Bewertungen. Die Wachstumsphase sieht zunehmende organische Entdeckung, da sich Suchranking verbessert und Bewertungen akkumulieren. Die Reifephase liefert stabilen, vorhersagbaren monatlichen Umsatz. Ohne Eingreifen treten Produkte schließlich in eine Rückgangsphase ein, wenn Wettbewerb zunimmt oder Suchrankings abrutschen. Aktives Lebenszyklus-Management — periodische Schlüsselwort-Auffrischungen, saisonale Tag-Aktualisierungen, Vorschaubild-Verbesserungen und Paket-Einbindung — verlängert die Wachstums- und Reifephasen, während der Rückgang verzögert oder verhindert wird. Eine 15-minütige jährliche Listing-Auffrischung kann das produktive Umsatzleben eines Produkts um Jahre verlängern.`,
     },
     {
-      heading: 'Bauen Sie Umsatzstabilität auf Portfolioebene auf',
+      heading: `Bauen Sie Umsatzstabilität auf Portfolioebene auf`,
       content: `Ein Portfolioansatz für Arbeitsblatt-Umsatz konzentriert sich auf die aggregierte Katalogleistung statt auf einzelne Produktergebnisse. Jedes einzelne Produkt kann einen schwachen Monat haben aufgrund saisonaler Muster, Algorithmusänderungen oder verstärktem Wettbewerb. Aber ein diversifiziertes Portfolio von 50 oder mehr Produkten über mehrere Fächer, Themen, Plattformen und Sprachen glättet diese Schwankungen, weil verschiedene Produkte zu verschiedenen Zeiten Spitzen erreichen. Überwachen Sie Kennzahlen auf Portfolioebene — monatlicher Gesamtumsatz, durchschnittlicher Umsatz pro Produkt und Plattformdiversifizierungsquoten — um die Gesundheit Ihres gesamten Umsatzsystems zu beurteilen. Das Ziel ist ein Portfolio, in dem kein einzelnes Produkt, keine einzelne Plattform und keine einzelne Sprache mehr als 15 bis 20 Prozent des Gesamtumsatzes ausmacht und so echte Stabilität und Widerstandsfähigkeit schafft.`,
     },
   ],
@@ -137,18 +137,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'So skalieren Sie Ihr Druckvorlagen-Geschäft' },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `So skalieren Sie Ihr Druckvorlagen-Geschäft` },
     { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `So erstellen Sie Arbeitsblatt-Pakete, die sich verkaufen` },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lern-Druckvorlagen' },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lern-Druckvorlagen` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischen-Auswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'So verkaufen Sie Mathe-Arbeitsblätter auf Etsy' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `So starten Sie einen Etsy-Druckvorlagen-Shop von Grund auf` },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: 'So erstellen Sie Additions-Arbeitsblätter' },
-    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'So erstellen Sie Wortsuche-Rätsel mit Bildern' },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `So verkaufen Sie Mathe-Arbeitsblätter auf Etsy` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `So starten Sie einen Etsy-Druckvorlagen-Shop von Grund auf` },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `So erstellen Sie Additions-Arbeitsblätter` },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: `So erstellen Sie Wortsuche-Rätsel mit Bildern` },
     { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: `So erstellen Sie Malvorlagen aus thematischen Bildern` },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
   ],
 
   toolsRecommended: [
@@ -159,7 +159,7 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erstellen Sie immergrüne Additions-Arbeitsblätter mit zeitloser praktischer Anziehungskraft. Addition gehört zu den am konsistentesten gesuchten Arbeitsblatt-Fächern und macht diese Produkte ideal für langfristigen wiederkehrenden Umsatz durch organische Entdeckung.`,
     },
     {
@@ -169,29 +169,29 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Erstellen Sie thematische Zuordnungsaktivitäten, die Katalogtiefe durch Themenvielseitigkeit aufbauen. Zuordnungs-Arbeitsblätter funktionieren über Dutzende von Themen und ermöglichen schnelle Katalogexpansion, die den zusammensetzenden Entdeckungseffekt antreibt.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/Additionsspa 1.webp',
+      src: `/samples/german/addition/Additionsspa 1.webp`,
       alt: `Professionelles Additions-Arbeitsblatt als Beispiel für immergrünen Bildungsinhalt für wiederkehrenden Umsatz`,
     },
     samples: [
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: `/samples/german/addition/Additionsspa 1.webp`,
         alt: `Additions-Arbeitsblatt mit professioneller Formatierung für Marktplatzverkauf`,
         caption: `Mathe-Arbeitsblätter generieren konsistenten ganzjährigen Umsatz als immergrüne Bildungsprodukte`,
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuche-Rätsel in mehreren Sprachen verfügbar für erweiterte Marktreichweite`,
         caption: `Mehrsprachige Wortsuchen multiplizieren den Umsatz durch Erreichen unterversorgter internationaler Märkte`,
       },
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: `/samples/german/matching/Paare Finden 1.webp`,
         alt: `Thematisches Zuordnungs-Arbeitsblatt als Beispiel für Katalogtiefe durch Themenvielseitigkeit`,
         caption: `Thematische Zuordnungsaktivitäten bauen Katalogtiefe auf, die zusammensetzende Auffindbarkeit antreibt`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Gürteltier — thematisches Lernbild`, caption: 'Gürteltier' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
   ],
 };
 

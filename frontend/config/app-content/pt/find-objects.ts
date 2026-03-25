@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador fichas objetos ocultos',
+    primaryKeyword: `gerador fichas objetos ocultos`,
     secondaryKeywords: [
       `gerador de fichas eu vejo imprimíveis para vendedores Etsy`,
       `criador de fichas de objetos ocultos para editores Amazon KDP`,
-      'gerador de fichas eu vejo com licença comercial',
-      'vender fichas encontra o diferente no Gumroad',
+      `gerador de fichas eu vejo com licença comercial`,
+      `vender fichas encontra o diferente no Gumroad`,
     ],
     lsiKeywords: [
       `produtos digitais de fichas de objetos ocultos para empreendedores`,
-      'gerador de fichas de busca visual a uso comercial',
-      'fichas eu vejo imprimíveis para negócio online',
+      `gerador de fichas de busca visual a uso comercial`,
+      `fichas eu vejo imprimíveis para negócio online`,
     ],
-    titleTag: 'Gerador Fichas Objetos Ocultos | para Vender',
+    titleTag: `Gerador Fichas Objetos Ocultos | para Vender`,
     metaDescription:
       `Crie fichas de objetos ocultos para Etsy, KDP e Gumroad. Modos Eu Vejo e Encontra o Diferente, cenas sem sobreposição, gabarito automático, 104 temas.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Como Criar Fichas de Objetos Ocultos em 5 Passos',
+    title: `Como Criar Fichas de Objetos Ocultos em 5 Passos`,
     steps: [
       {
         title: 'Configure o Layout de Página',
@@ -45,7 +45,7 @@ const content: AppContent = {
           `Explore 104 coleções temáticas de imagens com mais de 3100 ilustrações coloridas no painel Biblioteca de Imagens. Filtre por tema ou pesquise por palavra-chave. No modo Eu Vejo, configure de 1 a 5 objetos ocultos a encontrar e de 8 a 12 objetos distratores que preenchem a cena. No modo Encontra o Diferente, estabeleça de 8 a 12 imagens emparelhadas e de 1 a 5 elementos sem par. Também pode carregar imagens personalizadas em formato PNG, JPG ou GIF para usar junto ao conteúdo da biblioteca.`,
       },
       {
-        title: 'Gere a Cena de Objetos Ocultos',
+        title: `Gere a Cena de Objetos Ocultos`,
         description:
           `Clique em Gerar para criar a ficha. No modo Eu Vejo, o algoritmo sem sobreposição coloca cada imagem testando 50 posições aleatórias e selecionando a que tem menor sobreposição, reduzindo adaptativamente o tamanho da imagem quando o espaço é limitado. Uma legenda aparece na parte inferior mostrando aos usuários que objetos devem encontrar. No modo Encontra o Diferente, as imagens organizam-se em linhas com elementos emparelhados e sem par. O cabeçalho autoajustável mostra o seu título na fonte Fredoka com contentores decorativos tipo pílula — o tamanho de fonte ajusta-se automaticamente conforme a extensão do texto.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `O modo Eu Vejo usa um algoritmo de posicionamento sofisticado em vez de uma grelha fixa. A função findBestPosition() testa 50 posições aleatórias por imagem e seleciona a localização com menor sobreposição. Quando o espaço é limitado, o algoritmo reduz adaptativamente o tamanho da imagem para encaixar mais objetos sem saturar a cena. Isto cria cenas de objetos ocultos de aspeto natural onde as imagens se dispersam organicamente pela página — muito mais atrativas do que as alternativas baseadas em grelha onde os objetos se posicionam em linhas e colunas previsíveis.`,
       },
       {
-        title: 'Gabarito Autogerado com Anotações de Círculos',
+        title: `Gabarito Autogerado com Anotações de Círculos`,
         description:
           `Cada ficha de objetos ocultos gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito reproduz exatamente o layout da ficha e desenha círculos vermelhos à volta dos objetos corretos — alvos ocultos no modo Eu Vejo e elementos sem par no modo Encontra o Diferente. Os círculos são de 3 a 5 px maiores que o objeto para maior visibilidade. Sem marcação manual, sem criação de ficheiros separados — o gabarito está sempre sincronizado com a ficha. Esta abordagem de duplo canvas poupa tempo significativo de produção para vendedores que criam packs de objetos ocultos.`,
       },
@@ -81,7 +81,7 @@ const content: AppContent = {
           `No modo Eu Vejo, uma legenda na margem inferior de 120 px mostra os objetos-alvo que os usuários precisam de encontrar. Esta referência visual indica aos usuários exatamente o que procurar sem instruções escritas — tornando as fichas acessíveis para pré-leitores e salas de aula multilingues. A legenda é gerada automaticamente com base nos objetos ocultos selecionados. O modo Encontra o Diferente usa uma margem inferior compacta de 50 px, pois os usuários descobrem os elementos sem par através de comparação visual em vez de uma lista de referência.`,
       },
       {
-        title: 'Campos de Nome e Data com Controlo de Ativação',
+        title: `Campos de Nome e Data com Controlo de Ativação`,
         description:
           `Uma caixa de verificação no painel Texto e Conteúdo adiciona campos de «Nome:» e «Data:» à ficha. Estas linhas de identificação do usuário asseguram a responsabilidade para uso online e conferem às fichas um aspeto profissional para listagens em marketplaces. Ative-os para produtos prontos para loja ou desative-os para páginas de cadernos de atividades onde a informação do usuário aparece na capa. Os campos integram-se de forma limpa com o cabeçalho autogerado e a legenda.`,
       },
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Fichas de Objetos Ocultos Online',
+    title: `Como Vender Fichas de Objetos Ocultos Online`,
     cases: [
       {
         title: `Packs Temáticos de Atividades de Objetos Ocultos na Etsy`,
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Fichas de Discriminação Visual Encontra o Diferente para Gumroad`,
         description:
           `Crie fichas prontas a usar de Encontra o Diferente onde os usuários identificam elementos sem par entre conjuntos emparelhados. Os vendedores que procuram atividades de discriminação visual no Gumroad valorizam fichas que desenvolvem competências de observação e raciocínio lógico. Crie conjuntos alinhados com o catálogo de produtos: encontra o diferente de animais da quinta, reconhecimento de formas, classificação sazonal e classificação por habitats. Inclua campos de nome e data para responsabilidade do usuário, e forneça gabaritos que mostram que elementos não tinham par. Cada conjunto exporta-se em formato PDF e JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Coleções Sazonais de Atividades de Objetos Ocultos`,
         description:
           `As 104 coleções temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de fichas de objetos ocultos por época que se alinhem com os períodos de maior procura. Publique packs de Eu Vejo de Halloween em setembro, coleções de objetos ocultos de Natal em outubro, e packs de busca e encontra de Dia dos Namorados em janeiro. Inclua fichas tanto de Eu Vejo como de Encontra o Diferente em cada conjunto sazonal para máximo valor.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
       {
-        title: 'Packs Mistos de Eu Vejo e Encontra o Diferente',
+        title: `Packs Mistos de Eu Vejo e Encontra o Diferente`,
         description:
           `Combine ambos os modos de atividade em packs variados premium. Cada pack inclui cenas de Eu Vejo onde os usuários encontram objetos específicos numa cena dispersa, mais fichas de Encontra o Diferente onde os usuários identificam elementos sem par entre conjuntos emparelhados. Esta combinação trabalha duas competências cognitivas diferentes — busca visual e discriminação visual — num único produto. Os packs mistos têm preços mais altos porque oferecem mais variedade de atividades e cobrem mais objetivos de aprendizagem do que os produtos de um só modo.`,
-        platform: 'Etsy / Gumroad (packs variados)',
+        platform: `Etsy / Gumroad (packs variados)`,
       },
     ],
   },
@@ -156,7 +156,7 @@ const content: AppContent = {
         `No modo Eu Vejo, pode configurar de 1 a 5 objetos ocultos (os alvos que os usuários precisam de encontrar) e de 8 a 12 objetos distratores (as imagens circundantes que preenchem a cena). Comece com 1–2 objetos ocultos e 8 distratores para fichas mais fáceis, e aumente para 5 objetos ocultos entre 12 distratores para cenas desafiantes. A legenda na parte inferior da ficha mostra aos usuários que objetos devem encontrar.`,
     },
     {
-      question: 'Como funciona o modo Encontra o Diferente?',
+      question: `Como funciona o modo Encontra o Diferente?`,
       answer:
         `O modo Encontra o Diferente organiza imagens em linhas com elementos emparelhados e sem par. Configure de 8 a 12 imagens emparelhadas (cada uma aparece duas vezes no layout) e de 1 a 5 elementos sem par que aparecem apenas uma vez. Os usuários examinam cada linha e identificam a imagem que não tem um par correspondente. As imagens são exibidas 50% maiores do que no modo Eu Vejo para uma comparação visual mais clara. Não há legenda na parte inferior, pois os usuários descobrem os elementos sem par através de análise visual em vez de uma lista de referência.`,
     },
@@ -166,27 +166,27 @@ const content: AppContent = {
         `No modo Eu Vejo, uma legenda na margem inferior de 120 px mostra os objetos-alvo que os usuários precisam de encontrar. Esta referência visual indica a cada usuário exatamente o que procurar — tornando as fichas acessíveis para pré-leitores e salas de aula multilingues sem necessidade de instruções escritas. O modo Encontra o Diferente não inclui legenda, pois a atividade é autoexplicativa: encontrar a imagem sem um par correspondente.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer:
         `O gerador usa um sistema de duplo canvas com um separador de Ficha e um separador de Gabarito. A ficha mostra a cena de objetos ocultos sem marcas — os usuários procuram e circulam os objetos por si próprios. O gabarito reproduz o layout idêntico e desenha círculos vermelhos à volta dos objetos corretos: alvos ocultos no modo Eu Vejo e elementos sem par no modo Encontra o Diferente. Os círculos são de 3 a 5 px maiores que o objeto para maior visibilidade. Ambas as versões exportam-se separadamente usando quatro botões de descarga: JPEG de Ficha, JPEG de Gabarito, PDF de Ficha e PDF de Gabarito.`,
     },
     {
-      question: 'Posso adicionar campos de nome e data à ficha?',
+      question: `Posso adicionar campos de nome e data à ficha?`,
       answer:
         `Sim. Uma caixa de verificação no painel Texto e Conteúdo adiciona campos de «Nome:» e «Data:» à ficha. Estas linhas de identificação do usuário asseguram a responsabilidade para uso online e conferem às suas fichas um aspeto profissional para listagens em marketplaces. Ative-os para produtos prontos para loja ou desative-os para páginas de cadernos de atividades.`,
     },
     {
-      question: 'Como funciona o cabeçalho autogerado?',
+      question: `Como funciona o cabeçalho autogerado?`,
       answer:
         `Cada ficha inclui um título autoajustável na fonte Fredoka (#4A4A4A cinzento escuro) com contentores decorativos brancos tipo pílula animados e sombras. O tamanho de fonte do título ajusta-se automaticamente conforme a extensão do texto: 32 px para títulos curtos (menos de 12 caracteres), reduzindo-se até 18 px para títulos mais longos (mais de 22 caracteres). Também pode adicionar um campo de descrição abaixo do título. O sistema de cabeçalho assegura fichas de aspeto profissional independentemente da extensão do título.`,
     },
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — ambos os modos de atividade, quantidades configuráveis de objetos ocultos e distratores, o algoritmo de posicionamento sem sobreposição, o gabarito autogerado, a biblioteca completa de imagens, temas de fundo e de moldura, campos de nome e data, e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — ambos os modos de atividade, quantidades configuráveis de objetos ocultos e distratores, o algoritmo de posicionamento sem sobreposição, o gabarito autogerado, a biblioteca completa de imagens, temas de fundo e de moldura, campos de nome e data, e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
-      question: 'O gerador de objetos ocultos depende do idioma?',
+      question: `O gerador de objetos ocultos depende do idioma?`,
       answer:
         `Não. O gerador de objetos ocultos é puramente visual — não carrega nomes de imagem localizados nem usa o sistema de Vocabulário de Imagens. A configuração de idioma afeta apenas as etiquetas da interface (botões, títulos de painéis, tooltips), NÃO o conteúdo das fichas em si. Isto significa que cada ficha gerada funciona universalmente em todos os idiomas sem qualquer texto localizado na página, tornando os seus produtos vendáveis em qualquer mercado sem modificações.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de objetos ocultos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja no Gumroad, ou através de qualquer outro canal de venda. Os dois modos de atividade, a geração de cenas sem sobreposição e as 104 coleções temáticas de imagens dão-lhe as ferramentas criativas para produzir produtos de objetos ocultos originais e vendáveis.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os modos de atividade, o algoritmo de posicionamento sem sobreposição, as quantidades configuráveis de objetos, o gabarito autogerado, a biblioteca completa de imagens, temas de fundo e de moldura, campos de nome e data, e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,22 +206,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'encontre-conte-fichas',
-      anchorText: 'Gerador de Fichas Encontra e Conta',
+      anchorText: `Gerador de Fichas Encontra e Conta`,
     },
     {
       pageType: 'app',
-      slug: 'palavras-cruzadas-imagens-fichas',
-      anchorText: 'Gerador de Palavras Cruzadas com Imagens',
+      slug: `palavras-cruzadas-imagens-fichas`,
+      anchorText: `Gerador de Palavras Cruzadas com Imagens`,
     },
     {
       pageType: 'app',
       slug: 'caca-ao-tesouro-fichas',
-      anchorText: 'Gerador de Fichas de Caça ao Tesouro',
+      anchorText: `Gerador de Fichas de Caça ao Tesouro`,
     },
     {
       pageType: 'app',
       slug: 'classificacao-imagens-fichas',
-      anchorText: 'Gerador de Fichas de Classificação de Imagens',
+      anchorText: `Gerador de Fichas de Classificação de Imagens`,
     },
     {
       pageType: 'app',
@@ -231,7 +231,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'encontre-diferente-fichas',
-      anchorText: 'Gerador de Fichas de Encontre o Diferente',
+      anchorText: `Gerador de Fichas de Encontre o Diferente`,
     },
     {
       pageType: 'bundle',
@@ -241,22 +241,22 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'campismo-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+      anchorText: `Ideias de imprimíveis de camping e ar livre`,
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de animais marinhos',
+      slug: `animais-marinhos-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de animais marinhos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimiveis',
-      anchorText: 'Marketing para seu negócio de imprimíveis',
+      anchorText: `Marketing para seu negócio de imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'criar-fichas-objetos-ocultos',
-      anchorText: 'Criar fichas de objetos ocultos',
+      anchorText: `Criar fichas de objetos ocultos`,
     },
   ],
 

@@ -7,14 +7,14 @@ const content: AppContent = {
       `druckbarer Gitterzeichnungs-Arbeitsblatt-Generator für Etsy-Verkäufer`,
       `Rasterzeichnen-Generator mit Hinweisprozent für KDP-Verleger`,
       `Zeichenraster-Arbeitsblätter auf Gumroad verkaufen`,
-      'Rasterzeichnen-Druckvorlagen kommerzielle Lizenz',
+      `Rasterzeichnen-Druckvorlagen kommerzielle Lizenz`,
     ],
     lsiKeywords: [
       `digitale Gitterzeichnungs-Druckvorlagen skalierbares Einkommen`,
       `Druckvorlagen-Geschäft Zelle-für-Zelle-Zeichenraster`,
       `kommerzieller Rasterzeichnen-Arbeitsblatt-Generator`,
     ],
-    titleTag: 'Rasterzeichnen-Generator | Gitterzeichnungen',
+    titleTag: `Rasterzeichnen-Generator | Gitterzeichnungen`,
     metaDescription: `Rasterzeichnen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Duales Rastersystem, Hinweisprozent 10–75%. Kostenlos testen mit Wasserzeichen verfügbar.`,
   },
 
@@ -49,7 +49,7 @@ const content: AppContent = {
           `Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Name- und Datumsfelder oder Zeichenanweisungen hinzuzufügen mit Schriftarten wie Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Die automatisch generierte Kopfzeile erscheint mit lokalisiertem Text in der gewählten Sprache — auf Deutsch „Zeichnen & Ausmalen". Verschieben, skalieren, drehen und positionieren Sie jedes Element auf der vollständigen Fabric.js-Arbeitsfläche. Nutzen Sie Ebenensteuerung, Sperren/Entsperren, Ausrichtungswerkzeuge und Zoom von 25% bis 300% für Präzisionsplatzierung. Aktivieren Sie die Option Name/Datum-Felder einblenden für Identifikationsbereiche.`,
       },
       {
-        title: 'Übungsraster und Hinweisraster herunterladen',
+        title: `Übungsraster und Hinweisraster herunterladen`,
         description:
           `Aktivieren Sie den Graustufen-Export für tintenschonende Versionen, ideal für Klassenraumdruck. Öffnen Sie dann das Download-Menü und exportieren Sie Ihr Arbeitsblatt als hochauflösendes JPEG oder druckfertiges PDF mit 300 DPI. Jeder Download enthält sowohl das Übungsraster (leere Zellen zum Zeichnen) als auch das Hinweisraster (Referenzzellen mit dem teilweisen Bild). Ein separater Lösungsschlüssel ist nicht erforderlich — das Hinweisraster selbst dient als Lösungsreferenz. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Hauptfunktionen des Rasterzeichnen-Generators',
+    title: `Hauptfunktionen des Rasterzeichnen-Generators`,
     features: [
       {
         title: `Duales Rastersystem: Übungsraster und Hinweisraster`,
@@ -65,22 +65,22 @@ const content: AppContent = {
           `Jedes Bild erzeugt zwei zusammengehörige Raster, die als vollständige Zeichenübung zusammenwirken. Das Übungsraster präsentiert leere Zellen mit leichten Umrissen, in die Lernende ihre Reproduktion zeichnen. Das Hinweisraster zeigt einen konfigurierbaren Anteil des Referenzbildes — einige Zellen gefüllt, andere leer — sodass Lernende partielle visuelle Hinweise sehen und den Rest ergänzen. Dieser Dual-Raster-Ansatz fördert Beobachtung, räumliches Denken und Feinmotorik gleichzeitig. Für Verkäufer schafft das Zwei-Raster-Format ein Premium-Produkt, das sich deutlich von einfachen Malvorlagen abhebt und höhere Preise auf Etsy, Gumroad und Amazon KDP rechtfertigt.`,
       },
       {
-        title: 'Einstellbarer Hinweisprozentsatz von 10% bis 75%',
+        title: `Einstellbarer Hinweisprozentsatz von 10% bis 75%`,
         description:
           `Ein einzelner Regler steuert, welcher Anteil der Hinweisraster-Zellen das Referenzbild enthüllt. Bei 75% sehen Lernende den Großteil des Bildes und füllen nur das fehlende Viertel aus — perfekt für Anfänger zum Aufbau von Selbstvertrauen. Bei 50% ist die Hälfte der Zellen sichtbar für eine mittlere Herausforderung. Bei 25% arbeiten Lernende aus verstreuten Fragmenten und benötigen sorgfältige Beobachtung. Bei 10% ist kaum eine Referenz sichtbar und Lernende rekonstruieren das Bild fast von Grund auf — ein echtes Rätsel selbst für Erwachsene. Diese granulare Schwierigkeitssteuerung ermöglicht Verkäufern progressive Übungshefte, die von 75% bis 10% über Kapitel hinweg voranschreiten, oder Pakete mit leichten, mittleren und schweren Versionen desselben Themas.`,
       },
       {
-        title: 'Symmetrie- und Spiegelmodi für räumliches Lernen',
+        title: `Symmetrie- und Spiegelmodi für räumliches Lernen`,
         description:
           `Drei Symmetriemodi verwandeln Standard-Rasterzeichnen in eine räumliche Denkübung. Zufallsmodus verteilt Hinweiszellen an beliebigen Positionen für allgemeine Zeichenübung. Horizontalmodus spiegelt Hinweiszellen von links nach rechts und lehrt bilaterale Symmetrie — Lernende sehen eine Hälfte und rekonstruieren das Spiegelbild. Vertikalmodus spiegelt Hinweiszellen von oben nach unten für vertikale Symmetrieübungen. Jeder Spiegelmodus enthält einen Teilbereich-Selektor, mit dem Sie wählen, welche Hälfte als Hinweise angezeigt wird. Symmetrie-Arbeitsblätter verkaufen sich besonders gut in Mathematik- und Kunstkategorien, da sie visuelle Kunst mit mathematischen Konzepten verbinden.`,
       },
       {
-        title: 'S&W-Umriss-Bildbibliothek mit über 100 Sammlungen',
+        title: `S&W-Umriss-Bildbibliothek mit über 100 Sammlungen`,
         description:
           `Zugriff auf mehr als 3.000 Schwarz-Weiß-Umriss-Illustrationen in über 100 thematischen Sammlungen — Tiere, Fahrzeuge, Lebensmittel, Natur, Berufe, Feiertage und Dutzende mehr. Im Gegensatz zu farbigen Bildbibliotheken anderer Apps verwendet der Rasterzeichnen-Generator saubere S&W-Umrisse, die speziell für Reproduktions- und Malaktivitäten entworfen sind. Lernende kopieren den Umriss im Übungsraster und können ihn anschließend ausmalen. Die kommerzielle Lizenz umfasst 10 S&W-Themen zum Einstieg; Vollzugriff schaltet alle über 100 Themen für maximale Produktvielfalt frei. Jedes Thema wird ein eigenständiges Produkt-Listing — Bauernhof-Rasterzeichnen, Dinosaurier-Zelle-für-Zelle-Reproduktion, Meeresbewohner-Symmetrieübungen.`,
       },
       {
-        title: 'Konfigurierbare Rastergröße von 3×3 bis 10×10',
+        title: `Konfigurierbare Rastergröße von 3×3 bis 10×10`,
         description:
           `Zeilen (3–10) und Spalten (3–10) werden unabhängig eingestellt, um Raster von 3×3 mit 9 großen Zellen bis 10×10 mit 100 kleinen Zellen zu erzeugen. Größere Zellen erleichtern das Zeichnen für jüngere Lernende oder einfachere Bilder; kleinere Zellen erhöhen die Präzisionsanforderung für ältere Lernende oder detailliertere Illustrationen. Nicht-quadratische Raster wie 4×6 oder 8×5 passen sich verschiedenen Bild-Seitenverhältnissen an. Rastergröße und Hinweisprozent bilden zusammen zwei unabhängige Schwierigkeitsachsen: Ein 5×5-Raster bei 50% Hinweisen ist moderat, während ein 10×10-Raster bei 10% Hinweisen Expertenniveau erreicht. Das schafft Dutzende verschiedener Schwierigkeitskombinationen aus einem einzigen Bild.`,
       },
@@ -90,7 +90,7 @@ const content: AppContent = {
           `Jedes Arbeitsblatt enthält eine automatisch generierte Kopfzeile, die sich an die Seitenausrichtung anpasst. Im Hochformat erscheint eine große zentrierte Kopfzeile mit Magenta-Außenrahmen und rosa Innenrahmen. Im Querformat verwendet sie eine kompakte zentrierte Kopfzeile mit limegrünem Hintergrund und weißer Kapsel. Der Kopfzeilentext wird automatisch in alle 11 unterstützten Sprachen lokalisiert — „Zeichnen & Ausmalen" auf Deutsch, „Draw and Color" auf Englisch und so weiter. Kopfzeilen sind auf der Arbeitsfläche vollständig bearbeitbar: Auswählen, Verschieben, Skalieren oder Löschen. Diese automatische Lokalisierung ermöglicht Verkäufern mehrsprachige Produkte ohne manuelle Kopfzeilen-Übersetzung.`,
       },
       {
-        title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI',
+        title: `Druckfertiger PDF- und JPEG-Export mit 300 DPI`,
         description:
           `Laden Sie Arbeitsblätter als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI herunter. Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und benutzerdefinierte Größen werden alle unterstützt. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen, ideal für Klassenraumdruck oder Schwarzweiß-Übungshefte. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien — keine Nachbearbeitung erforderlich. Das duale Rasterlayout exportiert als einzelne zusammenhängende Seite mit Übungsraster und Hinweisraster gemeinsam positioniert.`,
       },
@@ -103,16 +103,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Rasterzeichnen-Arbeitsblätter online verkaufen',
+    title: `Rasterzeichnen-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Rasterzeichnen-Aktivitätspakete auf Etsy',
+        title: `Rasterzeichnen-Aktivitätspakete auf Etsy`,
         description:
           `Erstellen Sie thematische Rasterzeichnen-Pakete mit progressiver Schwierigkeit, wobei der Hinweisprozentsatz als Schwierigkeitsachse dient. Bündeln Sie jedes Thema in drei Stufen: Leicht (75% Hinweise, 4×4-Raster), Mittel (40% Hinweise, 6×6-Raster) und Schwer (15% Hinweise, 8×8-Raster). Verpacken Sie Bauernhoftiere, Dinosaurier, Meeresbewohner und Fahrzeuge als separate Themenpakete mit 15–25 Arbeitsblättern pro Paket. Das Dual-Raster-Format — Übungsraster plus Hinweisraster — schafft ein Premium-Produkt, das sich von einfachen Malvorlagen abhebt. Der S&W-Umrissstil lädt zum Ausmalen nach dem Zeichnen ein und fügt eine weitere Aktivitätsebene hinzu, die den wahrgenommenen Wert steigert. Einzelne Themenpakete kosten €3–€5, Multi-Themen-Progressionspakete €12–€18.`,
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Zeichenfähigkeits-Übungshefte auf Amazon KDP',
+        title: `Zeichenfähigkeits-Übungshefte auf Amazon KDP`,
         description:
           `Stellen Sie 60–100 Rasterzeichen-Übungen zu einem gedruckten Übungsheft im Amazon-KDP-Format zusammen. Strukturieren Sie das Buch als Zeichenprogression: Beginnen Sie mit 3×3-Rastern bei 75% Hinweisen für einfache Reproduktion, steigern Sie sich über 5×5-Raster bei 50% Hinweisen und enden Sie mit 8×8- oder 10×10-Rastern bei 10–15% Hinweisen für Herausforderungen auf Expertenniveau. Jedes Kapitel erhöht die Schwierigkeit entlang beider Achsen — Rastergröße und Hinweisprozent. Die S&W-Umrissbilder sind ideal für gedruckte Übungshefte — saubere Linien reproduzieren perfekt im Schwarzweiß-Druck. Fügen Sie eine kurze Eltern-/Verkäufereinführung hinzu, die die Zelle-für-Zelle-Methode und die Schwierigkeitssteuerung über den Hinweisprozentsatz erklärt. Rasterzeichnen-Übungshefte füllen eine spezifische Feinmotorik-Nische mit ganzjähriger Nachfrage.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -127,35 +127,35 @@ const content: AppContent = {
         title: `Mehrsprachige visuelle Arbeitsblätter für globale Märkte`,
         description:
           `Weil Rasterzeichnen-Arbeitsblätter ausschließlich Rasterbilder enthalten mit null Text auf der Ausgabe, funktioniert dasselbe Produkt in jeder Sprache ohne Änderung. Erstellen Sie einen Satz Rasterzeichen-Übungen und verkaufen Sie ihn weltweit — keine Übersetzung nötig, keine separaten Sprachversionen zu pflegen. Der S&W-Umrissstil ist kulturell neutral und universell verständlich. Listen Sie identische Produkte in Etsy-Shops, die verschiedene Länder ansprechen, oder veröffentlichen Sie denselben KDP-Buchinhalt auf allen internationalen Amazon-Marktplätzen. Die automatisch lokalisierte Kopfzeile übernimmt sprachspezifische Titel automatisch. Ein einziger Arbeitsablauf produziert ein universell verkaufbares Produkt.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (global)',
+        platform: `Etsy / Amazon KDP / Gumroad (global)`,
       },
       {
-        title: 'Zeichenwerkzeug für Kunstunterricht und Therapie',
+        title: `Zeichenwerkzeug für Kunstunterricht und Therapie`,
         description:
           `Laden Sie eigene Bilder hoch, um Rasterzeichnen-Arbeitsblätter für jedes Fach oder jeden therapeutischen Kontext zu erstellen. Kunstlehrkräfte nutzen Rasterzeichnen, um proportionales Beobachten zu lehren — die Zelle-für-Zelle-Methode ist eine klassische Technik aus der bildenden Kunst. Ergotherapeuten nutzen Raster-Reproduktionsübungen zur Förderung der Feinmotorik, Hand-Auge-Koordination und visuell-räumlichen Verarbeitung. Der einstellbare Hinweisprozentsatz ermöglicht präzise Schwierigkeitsanpassung: Beginnen Sie bei 75% für Klienten, die starke Unterstützung benötigen, und reduzieren Sie die Hinweise schrittweise mit zunehmendem Können. Die Symmetriemodi fügen eine explizite räumliche Denkkomponente zu Therapiesitzungen hinzu.`,
-        platform: 'Kunstunterricht / Ergotherapie / Shop',
+        platform: `Kunstunterricht / Ergotherapie / Shop`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Wie funktioniert das duale Rastersystem?',
+      question: `Wie funktioniert das duale Rastersystem?`,
       answer:
         `Jedes ausgewählte Bild erzeugt zwei zusammengehörige Raster. Das Übungsraster hat leere Zellen mit leichten Umrissen, in die Lernende ihre Reproduktion zeichnen. Das Hinweisraster zeigt einen konfigurierbaren Prozentsatz des Referenzbildes — einige Zellen mit Bildteilen gefüllt, andere leer gelassen. Lernende schauen auf das Hinweisraster, identifizieren welche Zellen Referenzinhalte zeigen, und reproduzieren das vollständige Bild Zelle für Zelle im Übungsraster. Die beiden Raster erscheinen gemeinsam auf der Arbeitsblattseite.`,
     },
     {
-      question: 'Was steuert der Hinweisprozentsatz?',
+      question: `Was steuert der Hinweisprozentsatz?`,
       answer:
         `Der Hinweisprozentsatz (10%–75%) bestimmt, welcher Anteil der Hinweisraster-Zellen das Referenzbild enthüllt. Bei 75% zeigen drei Viertel der Zellen das Bild und Lernende füllen nur das verbleibende Viertel aus. Bei 25% ist nur ein Viertel der Zellen sichtbar und Lernende rekonstruieren den Rest aus verstreuten Hinweisen. Bei 10% ist kaum eine Referenz sichtbar für maximale Herausforderung. Niedrigerer Hinweisprozentsatz bedeutet schwierigere Übungen. Dieser Regler ist die primäre Schwierigkeitssteuerung und ermöglicht stufenlose Progressionen von leicht bis Expertenniveau innerhalb eines einzelnen Arbeitsblattpakets.`,
     },
     {
-      question: 'Welche Rastergrößen kann ich konfigurieren?',
+      question: `Welche Rastergrößen kann ich konfigurieren?`,
       answer:
         `Zeilen und Spalten sind unabhängig von 3 bis 10 einstellbar. Ein 3×3-Raster hat 9 große Zellen — leicht für junge Lernende. Ein 10×10-Raster hat 100 kleine Zellen — anspruchsvoll für Fortgeschrittene. Nicht-quadratische Raster wie 4×6 oder 8×5 passen sich verschiedenen Bild-Seitenverhältnissen an. Rastergröße und Hinweisprozent bilden zwei unabhängige Schwierigkeitsachsen, sodass ein 5×5-Raster bei 50% Hinweisen moderat ist, während ein 10×10-Raster bei 10% Hinweisen Expertenniveau erreicht.`,
     },
     {
-      question: 'Wie funktionieren die Symmetrie- und Spiegelmodi?',
+      question: `Wie funktionieren die Symmetrie- und Spiegelmodi?`,
       answer:
         `Drei Modi steuern, wie Hinweiszellen platziert werden. Keine (Zufall) verteilt Hinweiszellen an beliebigen Positionen für allgemeine Zeichenübung. Horizontal spiegelt Hinweiszellen von links nach rechts — Lernende sehen eine Seite und müssen das Spiegelbild auf der anderen zeichnen. Vertikal spiegelt Hinweiszellen von oben nach unten. Wenn Horizontal oder Vertikal gewählt ist, können Sie mit einem Teilbereich-Selektor bestimmen, welche Hälfte als Hinweise angezeigt wird (links/rechts oder oben/unten). Spiegelmodi lehren Symmetrieerkennung neben Zeichenfähigkeiten.`,
     },
@@ -180,12 +180,12 @@ const content: AppContent = {
         `Ja. Aktivieren Sie die Option Name/Datum-Felder einblenden, um Identifikationsbereiche zu Ihrem Arbeitsblatt hinzuzufügen. Sie können auch das Textwerkzeug-Panel nutzen, um einen benutzerdefinierten Titel, Anweisungen oder beliebigen anderen Text mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana hinzuzufügen. Alle Textelemente sind auf der Arbeitsfläche vollständig bearbeitbar — verschieben, skalieren, drehen und neu positionieren nach Bedarf.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — alle Rastergrößen, alle Hinweisprozentsätze, alle Symmetriemodi, die S&W-Themenbibliothek, eigene Bild-Uploads und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle kommerzielle Verkaufsrechte.`,
     },
     {
-      question: 'Ist der Rasterzeichnen-Generator sprachabhängig?',
+      question: `Ist der Rasterzeichnen-Generator sprachabhängig?`,
       answer:
         `Nein. Der Rasterzeichnen-Generator ist eine rein visuelle App — Arbeitsblätter enthalten ausschließlich Rasterbilder mit null Text auf der Ausgabe, sodass sie in jeder Sprache identisch sind. Das Ändern der Sprache betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 S&W-Themen; Vollzugriff schaltet alle über 100 S&W-Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei.`,
     },
@@ -205,32 +205,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'gross-klein-arbeitsblaetter',
-      anchorText: 'Groß-Klein-Arbeitsblatt-Generator',
+      anchorText: `Groß-Klein-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'muster-zug-arbeitsblaetter',
-      anchorText: 'Muster-Zug-Arbeitsblatt-Generator',
+      anchorText: `Muster-Zug-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'muster-arbeitsblatt-arbeitsblaetter',
+      slug: `muster-arbeitsblatt-arbeitsblaetter`,
       anchorText: 'Muster-Arbeitsblatt-Generator',
     },
     {
       pageType: 'app',
       slug: 'linien-ziehen-arbeitsblaetter',
-      anchorText: 'Linien-Ziehen-Arbeitsblatt-Generator',
+      anchorText: `Linien-Ziehen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'malvorlagen-arbeitsblaetter',
-      anchorText: 'Malvorlagen-Arbeitsblatt-Generator',
+      anchorText: `Malvorlagen-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'bilddiagramm-arbeitsblaetter',
-      anchorText: 'Bilddiagramm-Arbeitsblatt-Generator',
+      anchorText: `Bilddiagramm-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,22 +240,22 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'sommer-druckvorlagen-ideen',
-      anchorText: 'Sommer-Druckvorlagen-Ideen für Kinderaktivitäten',
+      anchorText: `Sommer-Druckvorlagen-Ideen für Kinderaktivitäten`,
     },
     {
       pageType: 'idea',
-      slug: 'weihnachten-druckvorlagen-ideen',
+      slug: `weihnachten-druckvorlagen-ideen`,
       anchorText: `Weihnachts-Druckvorlagen-Ideen für saisonalen Verkauf`,
     },
     {
       pageType: 'start',
       slug: 'etsy-druckvorlagen-geschaeft',
-      anchorText: 'Ihr Etsy-Druckvorlagen-Geschäft aufbauen',
+      anchorText: `Ihr Etsy-Druckvorlagen-Geschäft aufbauen`,
     },
     {
       pageType: 'guide',
-      slug: 'zeichen-arbeitsblaetter-erstellen',
-      anchorText: 'Zeichen-Arbeitsblätter erstellen',
+      slug: `zeichen-arbeitsblaetter-erstellen`,
+      anchorText: `Zeichen-Arbeitsblätter erstellen`,
     },
   ],
 

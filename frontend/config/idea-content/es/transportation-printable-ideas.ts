@@ -4,16 +4,16 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles de Transporte para Vender — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de transporte para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática de vehículos, estrategias por platafor.`,
-    primaryKeyword: 'ideas imprimibles de transporte',
+    primaryKeyword: `ideas imprimibles de transporte`,
     secondaryKeywords: [
-      'fichas de transporte para vender',
-      'negocio imprimibles temática vehículos',
-      'fichas actividades transporte para vendedores',
-      'vender imprimibles de transporte en Etsy',
+      `fichas de transporte para vender`,
+      `negocio imprimibles temática vehículos`,
+      `fichas actividades transporte para vendedores`,
+      `vender imprimibles de transporte en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas coches y camiones',
-      'actividades temáticas de vehículos',
+      `fichas educativas coches y camiones`,
+      `actividades temáticas de vehículos`,
       `imprimibles viajes y transporte para venta en línea`,
     ],
   },
@@ -89,7 +89,7 @@ El posicionamiento de género neutro es una consideración estratégica importan
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Transporte en Etsy',
+      title: `Vender Imprimibles de Transporte en Etsy`,
       description: `Etsy recompensa el nicho de transporte con un rendimiento consistente de listados durante todo el año porque los niños apasionados por los vehículos impulsan búsquedas parentales continuas de actividades educativas atractivas independientemente de la temporada o el calendario de festividades. Utiliza las trece etiquetas con variaciones que combinen subtemas de vehículos, tipos de habilidad y grupos de edad: «fichas conteo transporte preescolar», «páginas colorear camiones bomberos niños pequeños» y «sopa de letras vehículos construcción jardín de infantes» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas vehículos». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad cosas que se mueven» y «regalo amante de los vehículos» en tus títulos y descripciones. Las imágenes de listados que muestran fichas de transporte impresas junto a coches de juguete, sets de construcción o decoración con temática de vehículos superan las vistas previas digitales planas y captan la mentalidad impulsada por el entusiasmo que trae a los padres de niños amantes de los vehículos a Etsy.`,
     },
     {
@@ -143,18 +143,18 @@ El posicionamiento de género neutro es una consideración estratégica importan
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ El posicionamiento de género neutro es una consideración estratégica importan
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -179,17 +179,17 @@ El posicionamiento de género neutro es una consideración estratégica importan
     {
       pageType: 'idea',
       slug: 'espacio-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Espacio',
+      anchorText: `Ideas de Negocio de Imprimibles de Espacio`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Avión — imagen educativa temática', caption: 'Avión' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulancia — imagen educativa temática', caption: 'Ambulancia' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicicleta — imagen educativa temática', caption: 'Bicicleta' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Barco — imagen educativa temática', caption: 'Barco' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — imagen educativa temática', caption: 'Bulldozer' },
-    { src: '/image-library/vehicles/bus.webp', alt: 'Autobús — imagen educativa temática', caption: 'Autobús' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Avión — imagen educativa temática`, caption: 'Avión' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulancia — imagen educativa temática`, caption: 'Ambulancia' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicicleta — imagen educativa temática`, caption: 'Bicicleta' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Barco — imagen educativa temática`, caption: 'Barco' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — imagen educativa temática`, caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/bus.webp`, alt: `Autobús — imagen educativa temática`, caption: 'Autobús' },
   ],
 
 

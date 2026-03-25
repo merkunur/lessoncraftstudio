@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Creador de Sudoku con Imágenes',
+    title: `Creador de Sudoku con Imágenes`,
     tagline: `Generador de puzzles de sudoku con imágenes 4×4 con tres niveles de dificultad (Fácil 4 celdas vacías, Medio 6 celdas vacías, Difícil 8 celdas vacías), claves de respuestas autogeneradas mostrando cuadrículas completas, selección de imágenes por tema y manual en 104 colecciones con más de 3100 ilustraciones, diseño premium de cuadrícula con colores de bloque alternos y sombras multicapa, y puzzles puramente visuales que se venden en todo el mundo sin traducción`,
     description: `Crea fichas profesionales de sudoku con imágenes donde los usuarios completan las celdas vacías con la imagen correcta usando lógica de filas y columnas en una cuadrícula 4×4. Cada puzzle usa exactamente 4 imágenes únicas que deben aparecer una vez en cada fila y una vez en cada columna — las mismas reglas que el sudoku clásico, pero con ilustraciones coloridas en lugar de números. Tres niveles de dificultad controlan el desafío: Fácil elimina 4 celdas, Medio elimina 6 y Difícil elimina 8 — la mitad de la cuadrícula. Selecciona imágenes mediante selección por tema que elige automáticamente 4 imágenes al azar de cualquiera de las 104 colecciones temáticas, o navega manualmente, busca y sube para elegir exactamente 4 imágenes. El diseño premium de la cuadrícula presenta colores de bloque 2×2 alternos en azul claro (#F8F9FC) y rosa claro (#FFF5F7), divisores centrales en negrita (#7C8DB5, trazo de 3px), líneas internas más finas (#D1D9E6, 1,5px), un borde exterior índigo (#667EEA) con esquinas redondeadas de 18px y tres sombras multicapa para profundidad. Las imágenes se muestran al 65% del tamaño de la celda para una separación visual clara. Cada puzzle genera un encabezado estilizado «Sudoku con Imágenes» con fondo púrpura (#5E35B1) y texto del título localizado en los 11 idiomas soportados. El sistema de doble lienzo crea simultáneamente una pestaña de ficha y una pestaña de clave de respuestas — la clave de respuestas muestra la cuadrícula 4×4 completa con las 16 celdas rellenadas. Aplica temas de fondo y temas de borde con controles de opacidad independientes (0–1, paso 0,05). Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) y contorno de texto de 0 a 10. Exporta PDF y JPEG listos para imprimir a 300 DPI (multiplicador 6×) en Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal o dimensiones personalizadas — sin tamaño Cuadrado en esta aplicación. Activa la escala de grises para impresión que ahorra tinta. Edita todo en el lienzo Fabric.js con 6 opciones de alineación más centrar en página, capas, bloquear/desbloquear, zoom del 25% al 300% en incrementos del 25%, y deshacer/rehacer con 50 estados. Como el sudoku con imágenes es completamente visual — ninguna palabra aparece en la cuadrícula del puzzle — cada ficha funciona de forma idéntica en los 11 idiomas, haciendo tus productos vendibles en todo el mundo. La prueba gratuita incluye todas las funciones con una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender comercialmente.`,
   },
@@ -28,7 +28,7 @@ const content: ToolContent = {
     title: `Cómo Crear Fichas de Sudoku con Imágenes en 8 Pasos`,
     steps: [
       {
-        title: 'Abre el Creador de Sudoku con Imágenes',
+        title: `Abre el Creador de Sudoku con Imágenes`,
         description: `Haz clic en «Prueba Gratis Ahora» para abrir el generador de sudoku con imágenes en tu navegador. La herramienta se carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear puzzles de sudoku con imágenes inmediatamente.`,
       },
       {
@@ -40,19 +40,19 @@ const content: ToolContent = {
         description: `Abre el panel de Sudoku Infantil y selecciona una dificultad del menú desplegable: Fácil, Medio o Difícil. Fácil elimina 4 celdas de la cuadrícula 4×4, dejando 12 rellenadas y 4 para que el usuario resuelva. Medio elimina 6 celdas para un desafío moderado. Difícil elimina 8 celdas — exactamente la mitad de la cuadrícula — requiriendo un razonamiento lógico más avanzado. El sistema selecciona al azar qué celdas quedan vacías, así que regenerar la misma dificultad produce una configuración de puzzle diferente cada vez.`,
       },
       {
-        title: 'Selecciona Exactamente 4 Imágenes',
+        title: `Selecciona Exactamente 4 Imágenes`,
         description: `Abre el panel de Biblioteca de Imágenes y elige cómo seleccionar tus 4 imágenes para el puzzle. La selección por tema elige un tema del menú desplegable y el sistema selecciona automáticamente 4 imágenes al azar de esa colección — perfecto para generación rápida de puzzles. La selección manual te permite explorar 104 colecciones temáticas con más de 3100 ilustraciones, filtrar por tema o buscar por palabra clave para elegir exactamente 4 imágenes. También puedes subir imágenes personalizadas en PNG, JPG o GIF. La aplicación requiere exactamente 4 imágenes — ni más, ni menos — ya que una cuadrícula de sudoku 4×4 usa 4 símbolos únicos.`,
       },
       {
-        title: 'Genera el Puzzle de Sudoku con Imágenes',
+        title: `Genera el Puzzle de Sudoku con Imágenes`,
         description: `Haz clic en Generar para crear la cuadrícula de sudoku con imágenes 4×4. La aplicación coloca tus 4 imágenes seleccionadas en una disposición válida de sudoku donde cada imagen aparece exactamente una vez por fila y una vez por columna, luego elimina el número configurado de celdas según tu ajuste de dificultad. La cuadrícula premium muestra colores de bloque 2×2 alternos en azul claro (#F8F9FC) y rosa claro (#FFF5F7), con divisores centrales en negrita (#7C8DB5, trazo de 3px), líneas internas más finas (#D1D9E6, 1,5px) y un borde exterior índigo (#667EEA) con esquinas redondeadas de 18px. Tres sombras multicapa añaden profundidad. Un encabezado estilizado «Sudoku con Imágenes» aparece sobre la cuadrícula con fondo púrpura (#5E35B1) y texto del título localizado.`,
       },
       {
-        title: 'Revisa la Clave de Respuestas Autogenerada',
+        title: `Revisa la Clave de Respuestas Autogenerada`,
         description: `Haz clic en la pestaña Clave de Respuestas para ver la cuadrícula 4×4 completa con las 16 celdas rellenadas — sin espacios vacíos. La clave de respuestas reproduce exactamente el mismo diseño de cuadrícula (colores de bloque alternos, divisores centrales, borde exterior) pero con cada celda mostrando la imagen correcta. Alterna entre las pestañas de Ficha y Clave de Respuestas para comparar. La clave de respuestas se genera simultáneamente con el puzzle — sin resolver manualmente, sin crear un diseño aparte, sin posibilidad de respuestas descoordinadas. Este sistema de doble lienzo es tu mayor ahorro de tiempo al crear paquetes de puzzles de sudoku.`,
       },
       {
-        title: 'Personaliza el Texto y los Elementos del Lienzo',
+        title: `Personaliza el Texto y los Elementos del Lienzo`,
         description: `Añade texto personalizado con 7 opciones de fuente (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), tamaño y color ajustables, y ancho de contorno de texto de 0 a 10 con granularidad de 0,5. Arrastra, redimensiona, rota y reposiciona cualquier elemento en el lienzo Fabric.js. Usa 6 opciones de alineación más centrar en página para organizar elementos con precisión. Los controles de capas gestionan el orden de apilamiento. Bloquea elementos para prevenir ediciones accidentales. Zoom del 25% al 300% en incrementos del 25% para trabajo de detalle. Deshaz y rehaz hasta 50 estados de historial con Ctrl+Z y Ctrl+Y para experimentar con confianza.`,
       },
       {
@@ -80,11 +80,11 @@ const content: ToolContent = {
       description: `El formato de cuadrícula 4×4 con imágenes en lugar de números hace del sudoku con imágenes la introducción ideal al razonamiento lógico para preescolar e infantil. La dificultad Fácil (4 celdas vacías con 12 pistas) proporciona una entrada guiada donde los usuarios resuelven una celda a la vez usando eliminación simple de filas y columnas. Crea conjuntos temáticos usando imágenes familiares — animales, comida, juguetes, vehículos — que captan la atención de los usuarios pequeños mientras desarrollan habilidades lógicas fundamentales. Los padres y emprendedores de primera infancia pagan precios premium por actividades que combinan desarrollo cognitivo con atractivo visual.`,
     },
     {
-      title: 'Colecciones de Sudoku con Imágenes de Temporada',
+      title: `Colecciones de Sudoku con Imágenes de Temporada`,
       description: `Crea colecciones de temporada rotativas usando temas de festividades y naturaleza de la biblioteca de 104 temas. Puzzles de sudoku con imágenes de Navidad, actividades lógicas de Halloween, fichas de razonamiento de Semana Santa, retos mentales de vuelta al cole y conjuntos temáticos de verano — cada uno apoya paquetes de temporada dedicados. Incluye los tres niveles de dificultad en cada colección de temporada para máximo valor y cobertura de rango de edad. La generación aleatoria de puzzles produce configuraciones únicas ilimitadas. Lanza cada colección de 4 a 6 semanas antes de la festividad para máxima visibilidad en los mercados.`,
     },
     {
-      title: 'Paquetes de Lógica Visual Multiformato',
+      title: `Paquetes de Lógica Visual Multiformato`,
       description: `Combina puzzles de sudoku con imágenes con actividades de coincidencia de cuadrículas, desafíos de piezas faltantes, fichas del intruso y hojas de reconocimiento de patrones usando temas coordinados entre varios generadores. El sudoku con imágenes desarrolla la deducción de filas y columnas. La coincidencia de cuadrículas construye el mapeo espacial. Las piezas faltantes entrenan el razonamiento de la parte al todo. Cada formato apunta a una habilidad cognitiva diferente manteniendo coherencia temática. Los paquetes multiformato alcanzan precios premium y ofrecen a los usuarios práctica lógica variada dentro de un tema unificado — los padres y vendedores pagan más por colecciones completas de desarrollo de habilidades.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: ToolContent = {
       platform: 'Pinterest',
     },
     {
-      title: 'Kit Completo de Sudoku con Imágenes en Gumroad',
+      title: `Kit Completo de Sudoku con Imágenes en Gumroad`,
       description: `Agrupa puzzles de sudoku con imágenes de los 104 temas y tres niveles de dificultad en un kit completo en Gumroad. Incluye más de 300 puzzles abarcando configuraciones Fácil, Medio y Difícil — tres variantes de dificultad de cada tema. Cada puzzle incluye su clave de respuestas autogenerada con la cuadrícula completa, duplicando tu recuento de archivos a más de 600 archivos totales. El sistema de generación aleatoria produce docenas de configuraciones únicas incluso de un solo tema, y los tres niveles de dificultad triplican la variedad de cada selección temática. El formato de kit completo justifica precios premium porque los compradores obtienen una biblioteca completa de puzzles de sudoku con imágenes.`,
       platform: 'Gumroad',
     },
@@ -148,7 +148,7 @@ const content: ToolContent = {
       description: `Activa la escala de grises para crear fichas de sudoku con imágenes que ahorran tinta específicamente para el mercado escolar y de trabajo desde casa. Muchos vendedores imprimen fichas en impresoras en blanco y negro y valoran productos optimizados para salida en escala de grises. Crea paquetes de formato doble que incluyan versiones a color y en escala de grises de los mismos puzzles — los compradores perciben esto como el doble de valor. Los interiores de impresión bajo demanda de KDP también se benefician de la optimización en escala de grises ya que la impresión a color cuesta significativamente más.`,
     },
     {
-      title: 'Regenera para Variedad Instantánea de Puzzles',
+      title: `Regenera para Variedad Instantánea de Puzzles`,
       description: `El sistema de generación aleatoria baraja las imágenes en diferentes disposiciones válidas de sudoku y selecciona al azar qué celdas quedan vacías — incluso con las mismas 4 imágenes y el mismo ajuste de dificultad, cada generación produce un puzzle diferente. Usa esto para crear colecciones grandes rápidamente: genera, descarga, genera de nuevo, descarga de nuevo. Diez clics producen diez puzzles únicos con ajustes idénticos. Esto es especialmente potente para dificultad Fácil (solo 4 celdas vacías de 16 celdas = 1820 combinaciones posibles de celdas vacías) y dificultad Difícil (8 celdas vacías = 12 870 combinaciones), asegurando que tus paquetes nunca se repitan.`,
     },
   ],
@@ -163,7 +163,7 @@ const content: ToolContent = {
       answer: `Un sudoku con imágenes 4×4 usa una cuadrícula de 16 celdas dispuestas en 4 filas y 4 columnas. Cuatro imágenes únicas reemplazan los números tradicionales. La regla es la misma que en el sudoku clásico: cada imagen debe aparecer exactamente una vez en cada fila y exactamente una vez en cada columna. Algunas celdas comienzan rellenadas con imágenes (pistas), y el usuario completa las celdas vacías usando eliminación lógica — comprobando qué imagen falta en cada fila y columna para determinar la colocación correcta. El formato basado en imágenes hace que los puzzles sean accesibles para pre-lectores que aún no dominan los números.`,
     },
     {
-      question: '¿Qué controlan los tres niveles de dificultad?',
+      question: `¿Qué controlan los tres niveles de dificultad?`,
       answer: `La dificultad determina cuántas celdas quedan vacías para que el usuario las resuelva. Fácil elimina 4 celdas de la cuadrícula de 16 celdas, dejando 12 pistas para una eliminación directa de filas y columnas. Medio elimina 6 celdas, requiriendo que los usuarios consideren múltiples restricciones simultáneamente. Difícil elimina 8 celdas — exactamente la mitad de la cuadrícula — exigiendo razonamiento lógico en varios pasos para completar. El sistema selecciona al azar qué celdas quedan vacías, así que regenerar la misma dificultad crea un diseño de puzzle diferente cada vez.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `La cuadrícula de sudoku presenta fondos de bloques 2×2 alternos en azul claro (#F8F9FC) y rosa claro (#FFF5F7) que ayudan a los usuarios a identificar los límites de los bloques. Divisores centrales en negrita (#7C8DB5, trazo de 3px) separan los cuatro cuadrantes mientras líneas internas más finas (#D1D9E6, 1,5px) definen las celdas individuales. Un borde exterior índigo (#667EEA) con esquinas redondeadas de 18px enmarca toda la cuadrícula, y tres sombras multicapa a diferentes desplazamientos añaden profundidad profesional. Las imágenes se muestran al 65% del tamaño de la celda para una separación visual clara dentro de cada celda.`,
     },
     {
-      question: '¿Los puzzles son únicos cada vez que genero uno?',
+      question: `¿Los puzzles son únicos cada vez que genero uno?`,
       answer: `Sí. La aplicación baraja las imágenes de forma aleatoria antes de poblar la cuadrícula 4×4, y luego selecciona al azar qué celdas quedan vacías según el nivel de dificultad. Incluso con las mismas 4 imágenes y el mismo ajuste de dificultad, regenerar produce una disposición de sudoku válida diferente con posiciones de celdas vacías distintas. Esta aleatorización te permite crear grandes colecciones de puzzles únicos a partir de un pequeño conjunto de imágenes temáticas — haz clic en Generar repetidamente para crear paquetes con docenas de configuraciones de puzzle únicas.`,
     },
     {
@@ -199,35 +199,35 @@ const content: ToolContent = {
       answer: `Sí. Con una licencia comercial, tienes derechos completos para vender fichas de sudoku con imágenes como descargas digitales en Etsy, cuadernos de lógica impresos en Amazon KDP, recursos para venta en línea en Gumroad o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, selección por tema y manual de imágenes, claves de respuestas autogeneradas con cuadrículas completas, subida de imágenes personalizadas, diseño premium de cuadrícula y 104 colecciones de imágenes temáticas te dan todo lo necesario para crear productos profesionales de sudoku con imágenes que compiten en categorías de puzzles lógicos en todos los principales mercados.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer: `Prueba antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que evalúes completamente la herramienta antes de adquirir una licencia. Como la prueba gratuita te da acceso completo a los tres niveles de dificultad, selección por tema y manual de imágenes, la clave de respuestas autogenerada con cuadrícula completa, los 104 temas, subida de imágenes personalizadas, el diseño premium de cuadrícula, temas de fondo y borde, herramientas de texto, exportación en escala de grises y todos los formatos de descarga, no ofrecemos reembolsos en las compras de licencia. Asegúrate de que la herramienta se ajusta a tus necesidades usando la prueba gratuita antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-fichas-ninos', anchorText: `Sudoku con Imágenes — Detalles Completos del Producto` },
-    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
+    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: `Creador de Fichas de Piezas Faltantes` },
     { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Creador de Fichas del Intruso' },
-    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: 'Creador de Laberintos con Imágenes' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Creador de Fichas de Coincidencia de Cuadrícula' },
+    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: `Creador de Laberintos con Imágenes` },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: `Creador de Fichas de Coincidencia de Cuadrícula` },
     { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Creador de Fichas de Parejas' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopas de Letras' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Creador de Páginas para Colorear` },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp',
+      primary: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`,
       primaryAlt: `Ficha de sudoku con imágenes 4×4 con ilustraciones temáticas en una cuadrícula premium con colores de bloque alternos en azul y rosa, divisores centrales en negrita y borde exterior índigo con esquinas redondeadas`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 2.webp',
+        src: `/samples/spanish/sudoku/Sudoku de Imágenes 2.webp`,
         alt: `Sudoku con imágenes de dificultad Fácil con 4 celdas vacías y 12 celdas rellenadas en una cuadrícula 4×4 con colores de bloque alternos`,
         caption: `Dificultad Fácil — 4 celdas vacías para principiantes que aprenden lógica de filas y columnas`,
       },
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 3.webp',
+        src: `/samples/spanish/sudoku/Sudoku de Imágenes 3.webp`,
         alt: `Sudoku con imágenes de dificultad Difícil con 8 celdas vacías y 8 celdas rellenadas en una cuadrícula 4×4 que requiere razonamiento en varios pasos`,
         caption: `Dificultad Difícil — 8 celdas vacías (la mitad de la cuadrícula) que requieren razonamiento lógico en varios pasos`,
       },

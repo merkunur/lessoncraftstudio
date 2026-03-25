@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generatore schede negozificazione immagini',
+    primaryKeyword: `generatore schede negozificazione immagini`,
     secondaryKeywords: [
       `generatore di schede di negozificazione stampabili per venditori Etsy`,
       `creatore di attività di negozificazione a due categorie per editori Amazon KDP`,
@@ -23,19 +23,19 @@ const content: AppContent = {
     title: `Generatore di Schede di negozificazione Immagini per Attività di negozificazione a Due Categorie`,
     tagline: `negozificazione a due categorie in un unico generatore potente — modalità tema o selezione manuale delle immagini — con fogli risposte autogenerati, da 4 a 12 immagini configurabili, intestazione localizzata «negozificazione Immagini» in 11 lingue e 104 collezioni di immagini tematiche.`,
     description:
-      `Crea schede di negozificazione professionali dove gli utenti negozificano le immagini in due categorie, collocando le immagini ritagliate nel gruppo corretto sinistro o destro. Scegli la modalità tema per popolare automaticamente le categorie dalla libreria immagini — seleziona un tema a sinistra e uno a destra, e l'app genera 4–6 immagini casuali per tema — oppure passa alla modalità manuale per selezionare le immagini singolarmente e assegnare ciascuna a una categoria. Ogni scheda presenta due cornici di categoria con bordo tratteggiato nella parte superiore come destinazioni di negozificazione e una griglia di ritagli mescolata in basso con immagini miste pronte da ritagliare e negozificare. Il sistema a doppio canvas genera sia una scheda di lavoro che un foglio risposte con immagini 6× più grandi organizzate in riquadri di categoria, così non devi mai creare fogli risposte manualmente. Il Generatore di negozificazione Immagini è sensibile alla lingua: le etichette di categoria utilizzano i nomi localizzati delle immagini, quindi cambiare lingua modifica il testo sulla scheda. Un\'intestazione localizzata «negozificazione Immagini» con sfondo verde menta e titolo verde acqua appare automaticamente in tutte le 11 lingue supportate. L'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia per etichette di categoria localizzate. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi campi nome e data per la responsabilità online, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di attività di negozificazione su Etsy, compili quaderni di negozificazione per Amazon KDP o crei attività per centri di negozificazione su Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.`,
+      `Crea schede di negozificazione professionali dove gli utenti negozificano le immagini in due categorie, collocando le immagini ritagliate nel gruppo corretto sinistro o destro. Scegli la modalità tema per popolare automaticamente le categorie dalla libreria immagini — seleziona un tema a sinistra e uno a destra, e l`app genera 4–6 immagini casuali per tema — oppure passa alla modalità manuale per selezionare le immagini singolarmente e assegnare ciascuna a una categoria. Ogni scheda presenta due cornici di categoria con bordo tratteggiato nella parte superiore come destinazioni di negozificazione e una griglia di ritagli mescolata in basso con immagini miste pronte da ritagliare e negozificare. Il sistema a doppio canvas genera sia una scheda di lavoro che un foglio risposte con immagini 6× più grandi organizzate in riquadri di categoria, così non devi mai creare fogli risposte manualmente. Il Generatore di negozificazione Immagini è sensibile alla lingua: le etichette di categoria utilizzano i nomi localizzati delle immagini, quindi cambiare lingua modifica il testo sulla scheda. Un'intestazione localizzata «negozificazione Immagini» con sfondo verde menta e titolo verde acqua appare automaticamente in tutte le 11 lingue supportate. L`Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia per etichette di categoria localizzate. Aggiungi temi di sfondo e di bordo con controlli di opacità indipendenti, includi campi nome e data per la responsabilità online, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato (1200×1200) o dimensioni personalizzate. Che tu venda pacchetti di attività di negozificazione su Etsy, compili quaderni di negozificazione per Amazon KDP o crei attività per centri di negozificazione su Gumroad, questo generatore produce schede pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.`,
   },
 
   howItWorks: {
     title: `Come Creare Schede di negozificazione Immagini in 5 Passaggi`,
     steps: [
       {
-        title: 'Configura il Layout della Pagina',
+        title: `Configura il Layout della Pagina`,
         description:
           `Apri il pannello Impostazione Pagina e scegli un formato: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o qualsiasi dimensione personalizzata. Seleziona un colore di sfondo con il selettore colori. Scegli un tema di sfondo e regola la sua opacità (da 0 a 1 in passi di 0,05), poi seleziona un tema di bordo con il proprio controllo di opacità indipendente. Spunta «Includi Campi Nome/Data» per aggiungere righe per nome e data dell'utente. Queste opzioni di layout incorniciano la tua scheda di negozificazione prima di configurare qualsiasi contenuto.`,
       },
       {
-        title: 'Scegli le Tue Categorie di negozificazione',
+        title: `Scegli le Tue Categorie di negozificazione`,
         description:
           `Apri il pannello Categorie di negozificazione e seleziona due temi — uno per la categoria sinistra e uno per la categoria destra. L'app genera automaticamente da 4 a 6 immagini casuali per tema dalla libreria immagini. Ad esempio, scegli Animali a sinistra e Cibi a destra per creare una scheda di negozificazione dove gli utenti negozificano le immagini nel gruppo corretto. Puoi anche passare alla modalità manuale per selezionare le immagini singolarmente e assegnare ciascuna alla categoria sinistra o destra.`,
       },
@@ -45,12 +45,12 @@ const content: AppContent = {
           `Apri il pannello Libreria Immagini ed esplora 104 collezioni tematiche con oltre 3100 illustrazioni colorate — animali, cibi, veicoli, natura, festività e decine di altri. Filtra per tema usando il menu a tendina o cerca per parola chiave. Clicca sulle immagini per aggiungerle alla tua scheda e assegna ciascuna alla categoria sinistra o destra. Il numero totale di immagini va da 4 a 12, con da 2 a 10 immagini per categoria. Puoi anche caricare immagini personalizzate PNG, JPG o GIF da usare insieme al contenuto della libreria.`,
       },
       {
-        title: 'Genera la Scheda di negozificazione',
+        title: `Genera la Scheda di negozificazione`,
         description:
-          `Clicca su Genera per creare il layout di negozificazione in due parti. L'app organizza il contenuto in cornici di categoria nella parte superiore (due cornici affiancate con bordo tratteggiato e riempimento #FAFAFA) e una griglia di ritagli mescolata in basso (celle bianche con bordi tratteggiati #666). Un\'intestazione stilizzata «negozificazione Immagini» appare in alto con sfondo verde menta (#4DB6AC), titolo verde acqua (#00796B) nel font Fredoka e descrizione arancione (#FF7043) nel font Quicksand. Un bordo esterno verde acqua (#26A69A, 8 px) incornicia l'intera pagina. La griglia di ritagli mostra tutte le immagini in ordine casuale — gli utenti le ritagliano e i negozificano nella cornice di categoria corretta.`,
+          `Clicca su Genera per creare il layout di negozificazione in due parti. L`app organizza il contenuto in cornici di categoria nella parte superiore (due cornici affiancate con bordo tratteggiato e riempimento #FAFAFA) e una griglia di ritagli mescolata in basso (celle bianche con bordi tratteggiati #666). Un'intestazione stilizzata «negozificazione Immagini» appare in alto con sfondo verde menta (#4DB6AC), titolo verde acqua (#00796B) nel font Fredoka e descrizione arancione (#FF7043) nel font Quicksand. Un bordo esterno verde acqua (#26A69A, 8 px) incornicia l`intera pagina. La griglia di ritagli mostra tutte le immagini in ordine casuale — gli utenti le ritagliano e i negozificano nella cornice di categoria corretta.`,
       },
       {
-        title: 'Genera il Foglio Risposte e Scarica',
+        title: `Genera il Foglio Risposte e Scarica`,
         description:
           `Passa alla scheda Foglio Risposte per visualizzare la soluzione autogenerata con immagini 6× più grandi organizzate nei riquadri di categoria corretti, visualizzate in un massimo di 2 colonne per riquadro. Scarica entrambe le versioni con quattro pulsanti dedicati: Scheda JPEG, Foglio Risposte JPEG, Scheda PDF e Foglio Risposte PDF. I file vengono esportati a 300 DPI con qualità JPEG 1.0. Attiva la scala di grigi per versioni a risparmio d'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.`,
       },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: `Intestazione Localizzata «negozificazione Immagini» con Design Verde Acqua in 11 Lingue`,
         description:
-          `Ogni scheda generata include un'intestazione stilizzata con sfondo verde menta (#4DB6AC), un contenitore a pillola bianco, un titolo verde acqua (#00796B) nel font Fredoka Bold e una descrizione arancione (#FF7043) nel font Quicksand. Le schede verticali presentano un'intestazione di 100 px con dimensione titolo dinamica (28–48 px); le schede orizzontali usano un'intestazione compatta di 70 px con titolo da 24–36 px. Il titolo «negozificazione Immagini» e la descrizione «negozifica le immagini nei gruppi corretti!» si traducono automaticamente in tutte le 11 lingue supportate. Un bordo esterno verde acqua (#26A69A, 8 px, raggio 12 px) incornicia l'intera pagina.`,
+          `Ogni scheda generata include un`intestazione stilizzata con sfondo verde menta (#4DB6AC), un contenitore a pillola bianco, un titolo verde acqua (#00796B) nel font Fredoka Bold e una descrizione arancione (#FF7043) nel font Quicksand. Le schede verticali presentano un`intestazione di 100 px con dimensione titolo dinamica (28–48 px); le schede orizzontali usano un`intestazione compatta di 70 px con titolo da 24–36 px. Il titolo «negozificazione Immagini» e la descrizione «negozifica le immagini nei gruppi corretti!» si traducono automaticamente in tutte le 11 lingue supportate. Un bordo esterno verde acqua (#26A69A, 8 px, raggio 12 px) incornicia l`intera pagina.`,
       },
       {
         title: `Libreria Immagini con 104 Collezioni Tematiche e Oltre 3100 Illustrazioni`,
@@ -86,7 +86,7 @@ const content: AppContent = {
           `Esplora 104 collezioni di immagini tematiche che coprono animali, cibi, veicoli, natura, professioni, festività, sport, stagioni e decine di altri. Ogni tema fornisce un set coordinato di illustrazioni colorate che funzionano come categorie di negozificazione. Filtra per tema usando il menu a tendina o cerca immagini specifiche per parola chiave. La selezione di categorie basata sui temi facilita la creazione di schede di negozificazione con abbinamenti di categorie naturali — animali terrestri vs animali marini, cibo sano vs cibo spazzatura, articoli estivi vs articoli invernali. La Licenza Commerciale include 10 temi colorati; l'Accesso Completo sblocca tutti i 104 temi per massima varietà creativa.`,
       },
       {
-        title: 'Campi Nome e Data per la Responsabilità online',
+        title: `Campi Nome e Data per la Responsabilità online`,
         description:
           `Spunta la casella «Includi Campi Nome/Data» nel pannello Impostazione Pagina per aggiungere righe per nome e data alla scheda di negozificazione. Questi campi assicurano la responsabilità degli utenti online e rendono le schede pronte per la raccolta e la valutazione senza alcuna preparazione aggiuntiva. i venditori che cercano attività di negozificazione apprezzano schede pronte all'uso, e l'opzione nome/data rende i tuoi prodotti più attraenti per il mercato educativo su Gumroad ed Etsy.`,
       },
@@ -113,7 +113,7 @@ const content: AppContent = {
         platform: 'Etsy (etsy.it)',
       },
       {
-        title: 'Quaderni di negozificazione su Amazon KDP',
+        title: `Quaderni di negozificazione su Amazon KDP`,
         description:
           `Compila da 40 a 80 schede di negozificazione in un quaderno stampato formattato per Amazon KDP. Struttura per difficoltà: i primi capitoli usano da 4 a 6 immagini con differenze di categoria evidenti (animali vs veicoli), i capitoli intermedi usano da 8 a 10 immagini con distinzioni più sottili (animali della fattoria vs animali selvatici), e i capitoli avanzati usano 12 immagini con categorie impegnative. Includi i fogli risposte alla fine del libro usando la funzione di foglio risposte autogenerato. La scala di grigi produce pagine a risparmio d'inchiostro pronte per interni di libri in bianco e nero. I quaderni di negozificazione servono un pubblico ampio dalla prima infanzia alla scuola primaria.`,
         platform: 'Amazon KDP (kdp.amazon.it)',
@@ -121,20 +121,20 @@ const content: AppContent = {
       {
         title: `Attività di negozificazione per il negozio su Gumroad`,
         description:
-          `Crea schede di negozificazione pronte all'uso con campi nome/data e fogli risposte stampati. i venditori che cercano attività di negozificazione su Gumroad apprezzano schede pronte per il negozio — il campo nome assicura la responsabilità dell'utente, le cornici di categoria forniscono destinazioni di negozificazione chiare, e il foglio risposte autogenerato fa risparmiare tempo di preparazione. Crea set allineati al mercato: vivo vs non vivo, cibo sano vs cibo spazzatura, animali diurni vs notturni, abbigliamento per tempo caldo vs freddo. Ogni set include schede per gli utenti e fogli risposte nei formati PDF e JPEG.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+          `Crea schede di negozificazione pronte all`uso con campi nome/data e fogli risposte stampati. i venditori che cercano attività di negozificazione su Gumroad apprezzano schede pronte per il negozio — il campo nome assicura la responsabilità dell`utente, le cornici di categoria forniscono destinazioni di negozificazione chiare, e il foglio risposte autogenerato fa risparmiare tempo di preparazione. Crea set allineati al mercato: vivo vs non vivo, cibo sano vs cibo spazzatura, animali diurni vs notturni, abbigliamento per tempo caldo vs freddo. Ogni set include schede per gli utenti e fogli risposte nei formati PDF e JPEG.`,
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Collezioni di negozificazione Stagionali e Festive`,
         description:
           `Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive e altro. Crea schede di negozificazione stagionali dove gli utenti negozificano articoli festivi in categorie: decorazioni di Natale vs cibo natalizio, costumi di Halloween vs dolcetti di Halloween, attività estive vs attività invernali. Pubblica pacchetti di negozificazione di Halloween a settembre, collezioni di Natale a ottobre e pacchetti di San Valentino a gennaio. I prodotti stagionali raggiungono prezzi più alti durante le finestre di massima domanda e creano ragioni naturali per acquisti ricorrenti.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
+        platform: `Etsy / Amazon KDP / Gumroad (stagionale)`,
       },
       {
         title: `Schede di negozificazione Multilingue per i Mercati ILS e Bilingue`,
         description:
           `Sfrutta le etichette di categoria sensibili alla lingua per creare schede di negozificazione in 11 lingue. Le stesse immagini producono etichette di categoria diverse quando cambi lingua — i nomi delle immagini e l'intestazione «negozificazione Immagini» si aggiornano automaticamente. Crea pacchetti di negozificazione multilingue dove ogni versione linguistica usa le stesse immagini tematiche ma con testo localizzato. Questo è particolarmente prezioso per venditori di italiano come lingua straniera, negozi bilingue e famiglie di istruzione domestica internazionali. Vendi pacchetti per lingua singola o mega-pacchetti multilingue a prezzi premium su Etsy e Gumroad.`,
-        platform: 'Etsy / Gumroad (mercato multilingue)',
+        platform: `Etsy / Gumroad (mercato multilingue)`,
       },
     ],
   },
@@ -156,24 +156,24 @@ const content: AppContent = {
         `Ogni scheda supporta da 4 a 12 immagini totali, con ciascuna categoria contenente tra 2 e 10 immagini. La modalità tema genera automaticamente da 4 a 6 immagini per tema. La modalità manuale ti permette di impostare quantità esatte per categoria. La griglia di ritagli regola la disposizione in colonne (da 3 a 4 colonne in base al numero) per mantenere una spaziatura visiva pulita. Meno immagini creano esercizi di negozificazione più semplici; più immagini aumentano la difficoltà.`,
     },
     {
-      question: 'Come funziona la griglia di ritagli mescolata?',
+      question: `Come funziona la griglia di ritagli mescolata?`,
       answer:
-        `La griglia di ritagli occupa il 55% inferiore dell'area di contenuto e mostra tutte le immagini selezionate in ordine casuale. Le immagini appaiono in celle bianche con bordi tratteggiati #666 e angoli arrotondati di 4 px, disposte in 3–4 colonne in base al numero totale di immagini. Ogni immagine occupa l'85% della sua cella. gli utenti ritagliano le immagini lungo le linee tratteggiate e i negozificano nella cornice di categoria corretta sopra. Il mescolamento casuale garantisce che gli utenti negozifichino effettivamente ogni immagine invece di copiare un pattern.`,
+        `La griglia di ritagli occupa il 55% inferiore dell`area di contenuto e mostra tutte le immagini selezionate in ordine casuale. Le immagini appaiono in celle bianche con bordi tratteggiati #666 e angoli arrotondati di 4 px, disposte in 3–4 colonne in base al numero totale di immagini. Ogni immagine occupa l`85% della sua cella. gli utenti ritagliano le immagini lungo le linee tratteggiate e i negozificano nella cornice di categoria corretta sopra. Il mescolamento casuale garantisce che gli utenti negozifichino effettivamente ogni immagine invece di copiare un pattern.`,
     },
     {
-      question: 'Come funziona il foglio risposte autogenerato?',
+      question: `Come funziona il foglio risposte autogenerato?`,
       answer:
         `Il generatore utilizza un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Foglio Risposte. Il foglio risposte mostra due riquadri di categoria (uno per categoria, larghezza uguale) con le immagini negozificate nel gruppo corretto. Le immagini del foglio risposte sono renderizzate a 6× la dimensione delle celle della griglia di ritagli per una verifica chiara, con un massimo di 2 colonne per riquadro di categoria. Ogni riquadro usa riempimento #FAFAFA con contorno tratteggiato #444 e raggio bordo di 12 px. Entrambe le versioni si esportano separatamente tramite quattro pulsanti dedicati.`,
     },
     {
-      question: 'Come funziona l\'intestazione localizzata?',
+      question: `Come funziona l'intestazione localizzata?`,
       answer:
-        `Ogni scheda generata include un'intestazione stilizzata «negozificazione Immagini» con sfondo verde menta (#4DB6AC), un contenitore a pillola bianco, un titolo verde acqua (#00796B) nel font Fredoka Bold e una descrizione arancione (#FF7043) nel font Quicksand. Le schede verticali presentano un\'intestazione di 100 px; le schede orizzontali usano un'intestazione compatta di 70 px. Il titolo e la descrizione si traducono automaticamente in tutte le 11 lingue supportate: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese.`,
+        `Ogni scheda generata include un`intestazione stilizzata «negozificazione Immagini» con sfondo verde menta (#4DB6AC), un contenitore a pillola bianco, un titolo verde acqua (#00796B) nel font Fredoka Bold e una descrizione arancione (#FF7043) nel font Quicksand. Le schede verticali presentano un'intestazione di 100 px; le schede orizzontali usano un`intestazione compatta di 70 px. Il titolo e la descrizione si traducono automaticamente in tutte le 11 lingue supportate: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese.`,
     },
     {
       question: `Il Generatore di negozificazione Immagini è sensibile alla lingua?`,
       answer:
-        `Sì. Le etichette di categoria utilizzano i nomi localizzati delle immagini dalla Libreria Immagini, quindi cambiare lingua modifica il testo sulla scheda. Ad esempio, un'immagine di un gatto appare come «Cat» in inglese ma «Katze» in tedesco e «Chat» in francese. Anche l\'intestazione localizzata «negozificazione Immagini» cambia con la lingua selezionata. La Licenza Commerciale include 10 temi colorati solo in inglese; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue per etichette di categoria localizzate.`,
+        `Sì. Le etichette di categoria utilizzano i nomi localizzati delle immagini dalla Libreria Immagini, quindi cambiare lingua modifica il testo sulla scheda. Ad esempio, un`immagine di un gatto appare come «Cat» in inglese ma «Katze» in tedesco e «Chat» in francese. Anche l'intestazione localizzata «negozificazione Immagini» cambia con la lingua selezionata. La Licenza Commerciale include 10 temi colorati solo in inglese; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue per etichette di categoria localizzate.`,
     },
     {
       question: `Posso includere campi nome e data nelle schede di negozificazione?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di negozificazione come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il meccanismo di negozificazione a due categorie, i fogli risposte autogenerati e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di attività di negozificazione originali e vendibili.`,
     },
     {
-      question: 'Qual è la politica di rimborso?',
+      question: `Qual è la politica di rimborso?`,
       answer:
         `Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare la selezione di categorie tematica e manuale, il numero di immagini configurabile, il foglio risposte autogenerato, la libreria immagini completa, i temi di sfondo e di bordo, i campi nome/data e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.`,
     },
@@ -206,42 +206,42 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'abbinamenti-schede',
-      anchorText: 'Generatore di Schede di Abbinamento',
+      anchorText: `Generatore di Schede di Abbinamento`,
     },
     {
       pageType: 'app',
       slug: 'griglia-abbinamento-schede',
-      anchorText: 'Generatore di Schede di Abbinamento a Griglia',
+      anchorText: `Generatore di Schede di Abbinamento a Griglia`,
     },
     {
       pageType: 'app',
       slug: 'abbinamento-ombre-schede',
-      anchorText: 'Generatore di Schede di Abbinamento Ombre',
+      anchorText: `Generatore di Schede di Abbinamento Ombre`,
     },
     {
       pageType: 'app',
       slug: 'bingo-immagini-schede',
-      anchorText: 'Generatore di Schede di Bingo Illustrato',
+      anchorText: `Generatore di Schede di Bingo Illustrato`,
     },
     {
       pageType: 'app',
       slug: 'trova-e-conta-schede',
-      anchorText: 'Generatore di Schede Trova e Conta',
+      anchorText: `Generatore di Schede Trova e Conta`,
     },
     {
       pageType: 'app',
       slug: 'disegni-da-colorare',
-      anchorText: 'Generatore di Disegni da Colorare',
+      anchorText: `Generatore di Disegni da Colorare`,
     },
     {
       pageType: 'bundle',
-      slug: 'pacchetto-abbinamento-negozificazione',
+      slug: `pacchetto-abbinamento-negozificazione`,
       anchorText: `Pacchetto Abbinamento e negozificazione — Tutte le App di negozificazione in un Pacchetto`,
     },
     {
       pageType: 'guide',
       slug: 'creare-schede-negozificazione',
-      anchorText: 'Come Creare Schede di negozificazione che Vendono',
+      anchorText: `Come Creare Schede di negozificazione che Vendono`,
     },
     {
       pageType: 'idea',
@@ -250,13 +250,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animali-marini-idee-stampabili',
-      anchorText: 'Idee di stampabili di animali marini',
+      slug: `animali-marini-idee-stampabili`,
+      anchorText: `Idee di stampabili di animali marini`,
     },
     {
       pageType: 'start',
       slug: 'marketing-attivita-stampabili',
-      anchorText: 'Marketing per la tua attività di stampabili',
+      anchorText: `Marketing per la tua attività di stampabili`,
     },
   ],
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Preisstrategien für Lernmaterial-Druckvorlagen',
+    primaryKeyword: `Preisstrategien für Lernmaterial-Druckvorlagen`,
     secondaryKeywords: [
-      'Druckvorlagen-Arbeitsblätter Preise festlegen',
+      `Druckvorlagen-Arbeitsblätter Preise festlegen`,
       `Preisgestaltung Lernmaterial-Druckvorlagen Leitfaden`,
       'Arbeitsblatt-Preisstrategie',
-      'Druckvorlagen-Produkt Preisgestaltung',
+      `Druckvorlagen-Produkt Preisgestaltung`,
     ],
     lsiKeywords: [
       `Preispunkt wahrgenommener Wert Wettbewerbspreise wertbasierte Preisgestaltung Kostenaufschlag`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Preisstrategien für Lernmaterial-Druckvorlagen',
+    title: `Preisstrategien für Lernmaterial-Druckvorlagen`,
     tagline: `Ein vollständiger Leitfaden zur Preisgestaltung von Lernmaterial-Druckvorlagen für maximalen Umsatz und nachhaltiges Wachstum — von Marktforschung und Wettbewerbsanalyse über Kostenberechnung und Gewinnmargenplanung, Preismodelle für verschiedene Produkttypen, Preispsychologie und Konversionsoptimierung, plattformspezifische Preisüberlegungen bis hin zu systematischen Preistests für kontinuierliche Verbesserung`,
     description: `Die Preisgestaltung ist die einzelne Entscheidung mit dem größten Hebel in Ihrem Druckvorlagen-Geschäft. Eine Preiserhöhung von 3 $ über Ihren gesamten Katalog kann Ihre Gewinnmarge über Nacht verdoppeln, während eine Unterbepreisung von nur wenigen Dollar jedes Jahr Tausende von Dollar auf dem Tisch liegen lässt. Dennoch setzen die meisten Druckvorlagen-Verkäufer ihre Preise nach Bauchgefühl fest oder kopieren Wettbewerber, ohne zu verstehen, warum diese Wettbewerber ihre Preise gewählt haben. Dieser Leitfaden behandelt ein vollständiges Preis-Framework, das auf Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica und jeder anderen Plattform funktioniert, auf der Sie Lernmaterial-Druckvorlagen verkaufen.`,
   },
@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: `Paket-Erstellungsstrategien einschließlich Pakettypen, Wertstapelung und Paket-Preispsychologie für maximalen Umsatz pro Transaktion.`,
     },
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
       description: `Der grundlegende Geschäftsleitfaden zu Inhaltserstellung, kommerzieller Lizenzierung, Multiplattform-Strategie und dem Aufbau eines nachhaltigen Druckvorlagen-Geschäfts.`,
     },
@@ -156,17 +156,17 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `So erstellen Sie Arbeitsblatt-Pakete, die sich verkaufen` },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie' },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischen-Auswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'profitable-nischen-recherchieren', anchorText: `So recherchieren Sie profitable Druckvorlagen-Nischen` },
+    { pageType: 'guide', slug: `profitable-nischen-recherchieren`, anchorText: `So recherchieren Sie profitable Druckvorlagen-Nischen` },
     { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: `So bepreisen Sie Ihre Etsy-Druckvorlagen-Arbeitsblätter` },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'So verkaufen Sie Mathe-Arbeitsblätter auf Etsy' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: `So starten Sie einen Etsy-Druckvorlagen-Shop von Null` },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: 'So erstellen Sie Additions-Arbeitsblätter' },
-    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'So erstellen Sie Wortsuch-Rätsel mit Bildern' },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `So verkaufen Sie Mathe-Arbeitsblätter auf Etsy` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `So starten Sie einen Etsy-Druckvorlagen-Shop von Null` },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `So erstellen Sie Additions-Arbeitsblätter` },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: `So erstellen Sie Wortsuch-Rätsel mit Bildern` },
     { pageType: 'guide', slug: 'malvorlagen-erstellen', anchorText: `So erstellen Sie Malvorlagen aus thematischen Bildern` },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
@@ -177,12 +177,12 @@ const content: GuideContent = {
     },
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Produziert einen der beliebtesten und wettbewerbsintensivsten Druckvorlagen-Produkttypen. Additions-Arbeitsblätter haben gut etablierte Preis-Benchmarks über Plattformen hinweg, was sie ideal für Preisrecherche und -vergleiche macht.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuche-Arbeitsblatt-Generator',
+      title: `Wortsuche-Arbeitsblatt-Generator`,
       description: `Erstellt Wortsuch-Rätsel mit breiter Preisvariation über Plattformen hinweg. Die Spanne von einfachen Nur-Text-Rätseln bis zu Premium-Themenversionen zeigt, wie Features und Qualität verschiedene Preispunkte rechtfertigen.`,
     },
     {
@@ -193,22 +193,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Professionelles Additions-Arbeitsblatt, das die Qualität zeigt, die Premium-Preisstrategien unterstützt` },
+    heroImage: { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Professionelles Additions-Arbeitsblatt, das die Qualität zeigt, die Premium-Preisstrategien unterstützt` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt mit thematischen Bildern für Premium-Preisgestaltung`, caption: 'Professionelle Formatierung und thematische Bilder rechtfertigen höhere Preispunkte — Käufer zahlen mehr für Qualität und visuelle Anziehungskraft' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuch-Rätsel, das Feature-Abstufung für Preisgestaltung demonstriert`, caption: 'Wortsuch-Rätsel mit thematischen Bildern erzielen höhere Preise als einfache Nur-Text-Versionen auf allen Plattformen' },
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: `Malvorlage, die Qualität zeigt, die wettbewerbsfähige Preisgestaltung unterstützt`, caption: 'Hochwertige Malvorlagen zeigen, wie Produktqualität direkt Premium-Preise in wettbewerbsintensiven Kategorien ermöglicht' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt mit thematischen Bildern für Premium-Preisgestaltung`, caption: `Professionelle Formatierung und thematische Bilder rechtfertigen höhere Preispunkte — Käufer zahlen mehr für Qualität und visuelle Anziehungskraft` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuch-Rätsel, das Feature-Abstufung für Preisgestaltung demonstriert`, caption: `Wortsuch-Rätsel mit thematischen Bildern erzielen höhere Preise als einfache Nur-Text-Versionen auf allen Plattformen` },
+      { src: `/samples/german/coloring/coloring portrait 2.webp`, alt: `Malvorlage, die Qualität zeigt, die wettbewerbsfähige Preisgestaltung unterstützt`, caption: `Hochwertige Malvorlagen zeigen, wie Produktqualität direkt Premium-Preise in wettbewerbsintensiven Kategorien ermöglicht` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `So erstellen Sie Mathe-Arbeitsblätter schnell — Effiziente Produktion für bessere Gewinnmargen`,
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
+    { src: `/image-library/fruits/apple.webp`, alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Aprikose — thematisches Lernbild`, caption: 'Aprikose' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — thematisches Lernbild`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banane — thematisches Lernbild`, caption: 'Banane' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Brombeere — thematisches Lernbild`, caption: 'Brombeere' },
   ],
 };
 

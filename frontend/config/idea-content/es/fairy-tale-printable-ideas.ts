@@ -4,15 +4,15 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles de Cuentos de Hadas — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de cuentos de hadas para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática de libros de cuentos, estrategia.`,
-    primaryKeyword: 'ideas imprimibles de cuentos de hadas',
+    primaryKeyword: `ideas imprimibles de cuentos de hadas`,
     secondaryKeywords: [
-      'fichas temáticas cuentos de hadas para vender',
-      'negocio imprimibles temática cuentos de hadas',
+      `fichas temáticas cuentos de hadas para vender`,
+      `negocio imprimibles temática cuentos de hadas`,
       `fichas actividades cuentos de hadas para vendedores`,
-      'vender imprimibles de cuentos de hadas en Etsy',
+      `vender imprimibles de cuentos de hadas en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temáticas de libros de cuentos',
+      `fichas educativas temáticas de libros de cuentos`,
       `actividades de lectoescritura con cuentos clásicos`,
       `imprimibles temáticos de fantasía para venta en línea`,
     ],
@@ -89,7 +89,7 @@ El mercado de intersección con fiestas de cumpleaños de princesas y caballeros
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Cuentos de Hadas en Etsy',
+      title: `Vender Imprimibles de Cuentos de Hadas en Etsy`,
       description: `Etsy recompensa el nicho de cuentos de hadas con un rendimiento consistente de listados durante todo el año porque la fascinación de los niños por las princesas, los castillos y los reinos mágicos nunca se detiene y los padres de niños amantes de los libros de cuentos buscan activamente productos imprimibles temáticos que apoyen la curiosidad imaginativa de sus hijos en todas las estaciones. Utiliza las trece etiquetas con variaciones que combinen elementos de cuentos de hadas, áreas de habilidad y grupos de edad: «fichas conteo cuentos de hadas preescolar», «páginas colorear castillo de princesas niños pequeños» y «sopa de letras cuentos de hadas jardín de infantes» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas cuentos de hadas». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad amante de libros de cuentos» e «imprimible de cuentos de hadas para niños» en tus títulos y descripciones. Las imágenes de listados que muestran fichas de cuentos de hadas impresas junto a castillos de juguete, figuritas de princesas o libros de cuentos superan las vistas previas digitales planas y captan el entusiasmo práctico que trae a los padres de niños obsesionados con los cuentos de hadas a Etsy buscando recursos educativos con temática de libros de cuentos. Apunta a las búsquedas de fiestas de cumpleaños de princesas y caballeros durante todo el año, ya que los temas de cuentos de hadas siguen siendo uno de los más populares para fiestas de cumpleaños infantiles que buscan actividades de celebración mágicas.`,
     },
     {
@@ -143,18 +143,18 @@ El mercado de intersección con fiestas de cumpleaños de princesas y caballeros
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ El mercado de intersección con fiestas de cumpleaños de princesas y caballeros
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -179,17 +179,17 @@ El mercado de intersección con fiestas de cumpleaños de princesas y caballeros
     {
       pageType: 'idea',
       slug: 'piratas-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Piratas',
+      anchorText: `Ideas de Negocio de Imprimibles de Piratas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camello — imagen educativa temática', caption: 'Camello' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camello — imagen educativa temática`, caption: 'Camello' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 
 

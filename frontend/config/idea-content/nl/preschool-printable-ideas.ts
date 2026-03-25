@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Peuterspeelzaal Printables Verkopen — Nichegids',
+    titleTag: `Peuterspeelzaal Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende peuterspeelzaal printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Vroeg-leren productconcepten en nichetips voor verkopers.`,
 
-    primaryKeyword: 'peuterspeelzaal printable ideeën',
+    primaryKeyword: `peuterspeelzaal printable ideeën`,
     secondaryKeywords: [
-      'peuterspeelzaal werkbladen verkopen',
-      'vroeg-leren printable business',
-      'peuter activiteiten voor verkopers',
-      'kleuter printables verkopen op Gumroad',
+      `peuterspeelzaal werkbladen verkopen`,
+      `vroeg-leren printable business`,
+      `peuter activiteiten voor verkopers`,
+      `kleuter printables verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'vroegkinderlijk educatieve werkbladen',
+      `vroegkinderlijk educatieve werkbladen`,
       'peuter leeractiviteiten',
-      'leeftijd 3-5 printbare producten printables',
+      `leeftijd 3-5 printbare producten printables`,
     ],
   },
   hero: {
@@ -38,27 +38,27 @@ Het jaarronde karakter van de vraag naar peutermateriaal is een van de sterkste 
 
   productIdeas: [
     {
-      title: 'Peuter Telwerkbladen voor Printable Verkopers',
+      title: `Peuter Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen voor peuters behoren tot de meest gevraagde printable producten op de gehele educatieve markt. Gebruik de Zoek en Tel-generator om kleurrijke scènes te maken waarin peuters specifieke voorwerpen lokaliseren en tellen tot vijf of tien. Bied sets aan op progressieve moeilijkheidsniveaus: voorwerpen aanwijzen en tellen tot drie voor jongere peuters, getallen tot vijf herkennen en tellen voor oudere peuters, en getallen tot tien tellen en schrijven voor schoolgereedheidsvoorbereiding. Combineer telactiviteiten met populaire visuele thema's zoals boerderijdieren, voertuigen of dinosaurussen om zowel het telzoekwoord als het themagebaseerde zoekwoord vast te leggen in marktplaats-zoekresultaten. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Peuter Woordzoekpuzzels Online Verkopen',
+      title: `Peuter Woordzoekpuzzels Online Verkopen`,
       description: `Vereenvoudigde woordzoekers voor peuters trekken ouders en peuterverkopers aan die letterherkenning en vroege geletterdheidsvaardigheden willen opbouwen. Maak puzzels met eenvoudige, korte woorden van twee tot vier letters die peuters kunnen herkennen, gecombineerd met bijpassende afbeeldingen die de woordbetekenis versterken. De Woordzoeker-generator laat je kleine rasters maken met grote letters die geschikt zijn voor jonge gebruikers die nog aan het wennen zijn aan lettervormen. Bied eenvoudige rasters met drie tot vijf woorden voor beginnende lezers aan. Variaties per thema — dieren, kleuren, vormen en voedsel — verbreden je catalogus terwijl ze aansluiten bij de meest gezochte peutervocabulaire.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Peuter Koppelactiviteiten voor Educatieve Winkels',
+      title: `Peuter Koppelactiviteiten voor Educatieve Winkels`,
       description: `Koppelwerkbladen zijn een van de meest essentiële peuterproducttypes omdat ze visuele discriminatie, cognitieve verbinding en fijne motoriek tegelijkertijd oefenen. Maak sets waarin peuters vormen koppelen aan hun namen, kleuren verbinden met voorwerpen van dezelfde kleur, dieren matchen met hun geluiden, of helften van symmetrische beelden combineren. De Koppelen-generator produceert schone, professionele lay-outs met grote, duidelijke afbeeldingen die geschikt zijn voor de kleinste gebruikers. Deze activiteiten spreken bijzonder sterk ouders en peuterverkopers aan die ontwikkelingsgerichte activiteiten zoeken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Peuter Optelwerkbladen voor Rekenverkopers',
+      title: `Peuter Optelwerkbladen voor Rekenverkopers`,
       description: `Basis-optelwerkbladen voor peuters introduceren het concept van samenvoegen met visuele ondersteuning die abstract tellen concreet maakt. Gebruik de Optellen-generator om werkbladen te maken waarin peuters groepen voorwerpen bij elkaar tellen met sommen tot vijf, geïllustreerd met kleurrijke dieren, fruit of speelgoed. Richt je op de leeftijdsgroep vier tot vijf jaar met eenvoudige optellingen waar kinderen groepen tellen en het totaal schrijven. Visuele optelwerkbladen vormen een brug tussen tellen en rekenen die ouders en verkopers bijzonder waarderen als schoolgereedheidsmateriaal.`,
       appId: 'addition',
     },
     {
-      title: 'Peuter Kleurplaten voor Etsy en KDP Verkopers',
+      title: `Peuter Kleurplaten voor Etsy en KDP Verkopers`,
       description: `Kleurplaten voor peuters zijn het instapproduct bij uitstek omdat ze het breedst mogelijke koperspubliek aanspreken — vrijwel elk gezin met een peuter koopt kleurplaten. De Kleuren-generator maakt gedetailleerde maar niet te complexe contouren met grote vlakken die geschikt zijn voor jonge kinderen die nog hun fijne motoriek ontwikkelen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per thema zoals boerderijdieren, voertuigen of fruit. Voor KDP compileer je dertig tot vijftig kleurplaten in peuter-activiteitenboeken. Voeg educatieve elementen toe zoals kleurnamen, getallen of vormen naast elke afbeelding om te differentiëren van generieke kleurboeken.`,
       appId: 'coloring',
     },
@@ -69,7 +69,7 @@ Het jaarronde karakter van de vraag naar peutermateriaal is een van de sterkste 
     },
     {
       title: `Peuter Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelen is een van de meest waardevolle peuteractiviteiten omdat het visuele discriminatievaardigheden ontwikkelt die essentieel zijn voor latere letterherkenning en leesgereedheid. Gebruik de Schaduw Koppelen-generator om pagina's te maken met grote, duidelijke afbeeldingen en hun silhouetten — ideaal voor peuters die hun visuele waarnemingsvaardigheden ontwikkelen. Kies voorwerpen met sterk contrasterende vormen voor beginnende niveaus en geleidelijk meer vergelijkbare vormen voor gevorderde niveaus. Deze werkbladen printen prachtig in zowel kleur als grijstinten. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelen is een van de meest waardevolle peuteractiviteiten omdat het visuele discriminatievaardigheden ontwikkelt die essentieel zijn voor latere letterherkenning en leesgereedheid. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met grote, duidelijke afbeeldingen en hun silhouetten — ideaal voor peuters die hun visuele waarnemingsvaardigheden ontwikkelen. Kies voorwerpen met sterk contrasterende vormen voor beginnende niveaus en geleidelijk meer vergelijkbare vormen voor gevorderde niveaus. Deze werkbladen printen prachtig in zowel kleur als grijstinten. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -92,12 +92,12 @@ Het jaarronde karakter van de vraag naar peutermateriaal is een van de sterkste 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Peuter Printables Verkopen op Etsy',
+      title: `Peuter Printables Verkopen op Etsy`,
       description: `Etsy is het sterkste platform voor peuterprintables omdat ouders — het primaire koopsegment — Etsy als eerste bestemming gebruiken voor educatieve digitale downloads. Richt je op long-tail zoekwoorden die specifieke vaardigheden en leeftijden combineren: "peuter telwerkblad leeftijd 3," "vormen koppelen kleuter," of "letters overtrekken peuters." Gebruik alle dertien tags met variaties die ontwikkelingsvaardigheden, leeftijdsgroepen en visuele thema's combineren. Vermeldingsafbeeldingen die geprinte werkbladen tonen naast kleurpotloden of in een aantrekkelijke setting presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten als "schoolgereedheid" — dit resoneert bijzonder sterk bij ouders van vierjarigen die hun kind voorbereiden op groep 1. De Nederlandse markt via Etsy.nl biedt enorme kansen door het relatief beperkte Nederlandstalige peuter-werkblad-aanbod vergeleken met de enorme vraag vanuit kinderdagverblijven en peuterspeelzalen.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Peuter Activiteitenboeken Publiceren op KDP',
+      title: `Peuter Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is bijzonder effectief voor peuterprintables omdat ouders en familieleden activiteitenboeken als ontwikkelingscadeaus kopen bij verjaardagen, feestdagen en spontane gelegenheden. Compileer peuterwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, patroon- en overtrekactiviteiten combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "peuter activiteitenboek," "werkbladen leeftijd 3-5," en vaardigheidsspecifieke termen toe als "letters overtrekken boek" of "getallen leren werkbladen." Prijs tussen vier en acht euro voor optimale royaltymarges. Peuterboeken verkopen het hele jaar door consistent zonder seizoenspieken of -dalen. Overweeg ook Amazon.nl en Bol.com — Bol.com is bijzonder relevant voor de Nederlandse markt als het grootste online verkoopplatform.`,
     },
     {
@@ -147,62 +147,62 @@ Het jaarronde karakter van de vraag naar peutermateriaal is een van de sterkste 
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-counting-worksheets',
-      anchorText: 'Professionele telwerkbladen maken',
+      anchorText: `Professionele telwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kleuterschool printable businessideeën',
+      anchorText: `Kleuterschool printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'Boerderijdieren printable businessideeën',
+      anchorText: `Boerderijdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaurus printable businessideeën',
+      anchorText: `Dinosaurus printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/toys/airplane.webp', alt: `Vliegtuig — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Vliegtuig' },
-    { src: '/image-library/toys/baby.webp', alt: `Baby — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Baby' },
-    { src: '/image-library/toys/baby%20girl.webp', alt: `Babymeisje — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Babymeisje' },
-    { src: '/image-library/toys/ball.webp', alt: 'Bal — educatieve thema-afbeelding peuterspeelzaal', caption: 'Bal' },
-    { src: '/image-library/toys/balloon.webp', alt: `Ballon — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Ballon' },
-    { src: '/image-library/toys/bicycle.webp', alt: `Fiets — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Fiets' },
+    { src: `/image-library/toys/airplane.webp`, alt: `Vliegtuig — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Vliegtuig' },
+    { src: '/image-library/toys/baby.webp`, alt: \`Baby — educatieve thema-afbeelding peuterspeelzaal\`, caption: `Baby' },
+    { src: `/image-library/toys/baby%20girl.webp`, alt: `Babymeisje — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Babymeisje' },
+    { src: '/image-library/toys/ball.webp', alt: `Bal — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Bal' },
+    { src: `/image-library/toys/balloon.webp`, alt: `Ballon — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Ballon' },
+    { src: `/image-library/toys/bicycle.webp`, alt: `Fiets — educatieve thema-afbeelding peuterspeelzaal`, caption: 'Fiets' },
   ],
 
   youtubeId: '0cOPi7eajLs',

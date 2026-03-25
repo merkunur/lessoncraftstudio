@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'fahrzeuge-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Fahrzeug-Arbeitsblätter auf Etsy erstellen',
-      'Transport-Druckvorlagen auf KDP verkaufen',
-      'Auto-Zug-Flugzeug-Aktivitätsblätter Gumroad',
-      'Verkehrsmittel-Lernmaterialien für Shops',
+      `Fahrzeug-Arbeitsblätter auf Etsy erstellen`,
+      `Transport-Druckvorlagen auf KDP verkaufen`,
+      `Auto-Zug-Flugzeug-Aktivitätsblätter Gumroad`,
+      `Verkehrsmittel-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'Fahrzeuge-Lieblingsthema Kinder-Druckvorlagen',
-      'Transportmittel-Bildungsthema Arbeitsblätter',
-      'Auto-Bus-Bahn Lernmaterialien Etsy-Nische',
+      `Fahrzeuge-Lieblingsthema Kinder-Druckvorlagen`,
+      `Transportmittel-Bildungsthema Arbeitsblätter`,
+      `Auto-Bus-Bahn Lernmaterialien Etsy-Nische`,
     ],
-    titleTag: 'Fahrzeuge-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Fahrzeuge-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Fahrzeuge-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Fahrzeugthemen-Produktkonzepte und Plattformstrategien. Nischentipps für Druckvorlagen-Verkäufer erklärt.`,
   },
   hero: {
@@ -40,7 +40,7 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
       appId: 'find-count',
     },
     {
-      title: 'Fahrzeuge-Wortsuchrätsel zum Online-Verkauf',
+      title: `Fahrzeuge-Wortsuchrätsel zum Online-Verkauf`,
       description: `Fahrzeug-Wortschatz-Wortsuchrätsel ziehen Verkäufer an, die Fahrzeug-Einheiten planen, und Eltern, die lehrreiche Unterhaltung suchen, die die Fahrzeugbegeisterung ihres Kindes in produktive Lesekompetenzentwicklung lenkt. Erstellen Sie Rätsel mit fahrzeugspezifischem Vokabular wie Auto, Lastwagen, Zug, Flugzeug, Boot, Bus, Hubschrauber, Krankenwagen, Traktor, Motor und Rad sowie breiteren Transportbegriffen. Der Wortsuchrätsel-Generator ermöglicht die Steuerung von Rastergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lerner und anspruchsvolle Raster mit fünfzehn oder mehr Fahrzeugbegriffen für ältere Nutzer an. Variationen wie Rettungsfahrzeug-Suchen, Baumaschinen-Vokabular und Luftfahrt-Terminologie erweitern Ihren Katalog, um vielfältige Käuferinteressen zu erfassen.`,
       appId: 'wordsearch',
     },
@@ -60,7 +60,7 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
       appId: 'coloring',
     },
     {
-      title: 'Fahrzeuge-Bingokarten für Gruppenaktivitäten',
+      title: `Fahrzeuge-Bingokarten für Gruppenaktivitäten`,
       description: `Fahrzeug-Bingokarten dienen Verkäufern bei Fahrzeug-Einheiten und Gemeindehelfer-Produkterstellung, wo interaktive Gruppenaktivitäten den Fahrzeug-Wortschatz und die Fahrzeugerkennung effektiver festigen als einzelne Arbeitsblätter allein. Der Bingo-Generator erstellt einzigartige Kartenvarianten aus Ihrer Fahrzeug-Wortschatzliste und stellt sicher, dass keine zwei Karten identisch sind für den Gruppen- oder Spielrunde. Verkaufen Sie Gruppensätze von fünfundzwanzig bis dreißig Karten mit einem Aufrufblatt und einem Fahrzeug-Wortschatz-Referenzleitfaden. Für den Familienmarkt erstellen Sie Bingo-Sets mit Autos, Lastwagen, Zügen, Flugzeugen, Booten und Rettungsfahrzeugen, die Familien bei Autofahrten oder fahrzeugthematischen Lernaktivitäten zu Hause spielen können. Bingo-Produkte erzeugen zuverlässige Nachfrage, weil jede Fahrzeug-Einheit von strukturierten Wiederholungsspielen profitiert.`,
       appId: 'bingo',
     },
@@ -89,7 +89,7 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Fahrzeuge-Druckvorlagen auf Etsy verkaufen',
+      title: `Fahrzeuge-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Fahrzeug-Nische mit konsistenter ganzjähriger Angebotsleistung, weil fahrzeugbegeisterte Kinder kontinuierliche elterliche Suchen nach ansprechenden lehrreichen Aktivitäten unabhängig von Saison oder Feiertagskalender antreiben. Nutzen Sie alle dreizehn Tags mit Variationen, die Fahrzeug-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Fahrzeuge Zählarbeitsblätter Vorschule", „Feuerwehrwagen Ausmalbilder Kleinkind" und „Baufahrzeuge Wortsuchrätsel Kindergarten" zielen auf spezifische Käufersuchen viel effektiver ab als breite Tags wie „Fahrzeug-Arbeitsblätter". Positionieren Sie Ihre Produkte sowohl für Bildungs- als auch für Geschenkkäufer-Suchen, indem Sie Begriffe wie „Fahrzeug-Aktivitäten" und „Geschenk für Fahrzeugfan" in Ihre Titel und Beschreibungen aufnehmen. Angebotsbilder, die gedruckte Fahrzeug-Arbeitsblätter neben Spielzeugfahrzeugen, Baukästen oder fahrzeugthematischer Zimmerdeko zeigen, übertreffen flache digitale Vorschauen und erfassen die begeisterungsgetriebene Denkweise, die Eltern fahrzeugbegeisterter Kinder zu Etsy bringt.`,
     },
     {
@@ -99,7 +99,7 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
     },
     {
       platform: 'Gumroad',
-      title: 'Fahrzeuge-Produktressourcen für Gumroad erstellen',
+      title: `Fahrzeuge-Produktressourcen für Gumroad erstellen`,
       description: `Gumroad-Käufer sind Produktkäufer, die nach Fahrzeug-Einheitsergänzungen, Gemeindehelfer-Druckprodukte und fächerübergreifenden Ressourcen suchen, die Fahrzeugthemen mit minimaler Vorbereitungszeit in Mathe-, Lese- und Sachkundeunterricht integrieren. Fahrzeug-Druckvorlagen auf Gumroad schneiden am besten ab, wenn sie als einsatzbereite Produktlösungen verpackt sind: fahrzeugthematische Morgenarbeitspakete, Gemeindehelfer-Aktivitätsstationen mit Feuerwehrwagen und Krankenwagen oder Fahrzeug-Wortschatz-Hausaufgabenpakete mit Eltern-Anleitungsbriefen. Fügen Sie klare Lernziele bei, die auf Mathe-, Lese- und Sachkunde-Standards abgebildet sind, damit Verkäufer fahrzeugthematische Aktivitäten gegenüber Schulleitungen und Produktkatalogkoordinatoren rechtfertigen können. Die Bündelungsfunktion von Gumroad ermöglicht es Ihnen, einzelne Fahrzeugprodukte und ein vergünstigtes Fahrzeuge-Megapaket gleichzeitig anzubieten, um sowohl budgetbewusste Verkäufer, die einzelne Artikel kaufen, als auch diejenigen anzusprechen, die in umfassende Einheitsressourcen investieren.`,
     },
     {
@@ -143,18 +143,18 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für lehrreiche Druckvorlagen',
+      anchorText: `Etsy SEO für lehrreiche Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'weltraum-druckvorlagen-ideen',
-      anchorText: 'Weltraum-Druckvorlagen-Geschäftsideen',
+      anchorText: `Weltraum-Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Krankenwagen — thematisches Lernbild', caption: 'Krankenwagen' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — thematisches Lernbild', caption: 'Bulldozer' },
-    { src: '/image-library/vehicles/bus.webp', alt: 'Bus — thematisches Lernbild', caption: 'Bus' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Flugzeug — thematisches Lernbild`, caption: 'Flugzeug' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Krankenwagen — thematisches Lernbild`, caption: 'Krankenwagen' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
+    { src: `/image-library/vehicles/boat.webp`, alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — thematisches Lernbild`, caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/bus.webp`, alt: 'Bus — thematisches Lernbild', caption: 'Bus' },
   ],
 
 

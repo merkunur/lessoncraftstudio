@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'weltraum-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Weltraum-Arbeitsblätter auf Etsy erstellen',
-      'Planeten-Raketen-Druckvorlagen auf KDP',
-      'STEM-Weltraum-Aktivitätsblätter auf Gumroad',
+      `Weltraum-Arbeitsblätter auf Etsy erstellen`,
+      `Planeten-Raketen-Druckvorlagen auf KDP`,
+      `STEM-Weltraum-Aktivitätsblätter auf Gumroad`,
       `Astronomie-Lernmaterialien für Druckvorlagen-Shops`,
     ],
     lsiKeywords: [
-      'STEM-Bildungsthema Druckvorlagen-Nische',
-      'Weltraum-Planeten Arbeitsblätter Etsy-Markt',
-      'Raumfahrt-Thema Lernmaterialien Verkauf',
+      `STEM-Bildungsthema Druckvorlagen-Nische`,
+      `Weltraum-Planeten Arbeitsblätter Etsy-Markt`,
+      `Raumfahrt-Thema Lernmaterialien Verkauf`,
     ],
-    titleTag: 'Weltraum-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Weltraum-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Weltraum-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Weltraum-Produktkonzepte, STEM-Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.`,
   },
   hero: {
@@ -40,12 +40,12 @@ Um Ihren Weltraum-Druckvorlagen-Umsatz zu maximieren, entwickeln Sie Produkte ü
       appId: 'find-count',
     },
     {
-      title: 'Weltraum-Wortsuchrätsel zum Online-Verkauf',
+      title: `Weltraum-Wortsuchrätsel zum Online-Verkauf`,
       description: `Sonnensystem-Vokabular-Wortsuchrätsel ziehen Käufer an, die Naturwissenschaftseinheiten planen, und Eltern, die unterhaltsame Bildungsaktivitäten suchen, die die Weltraumbegeisterung ihres Kindes in Lese- und Schreibkompetenz umwandeln. Erstellen Sie Rätsel mit weltraumspezifischem Vokabular wie Planet, Rakete, Astronaut, Umlaufbahn, Galaxie, Komet, Teleskop und Satellit sowie breiteren Astronomie-Begriffen. Der Wortsuchrätsel-Generator ermöglicht die Steuerung von Gittergröße und Wortanzahl, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Gitter mit sechs bis acht Wörtern für jüngere Lernende und anspruchsvolle Gitter mit fünfzehn oder mehr Weltraum-Begriffen für ältere Nutzer. Variationen wie Planetennamen-Suchen, Weltraumforschungs-Vokabular und Astronauten-Terminologie erweitern Ihren Katalog, um verschiedene Käuferinteressen innerhalb der Astronomie-Bildungsnische zu erfassen.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Weltraum-Zuordnungsaktivitäten für Bildungsshops',
+      title: `Weltraum-Zuordnungsaktivitäten für Bildungsshops`,
       description: `Zuordnungsarbeitsblätter mit Weltraum-Themen funktionieren über mehrere Kompetenzbereiche hinweg und sind damit vielseitige Produkte, die Käufer mit Naturwissenschaftseinheiten und Eltern ansprechen, die STEM-Lernbibliotheken für neugierige junge Weltraumbegeisterte aufbauen. Erstellen Sie Sets, in denen Kinder Planeten ihren Namen zuordnen, Astronauten mit Raumschiffen paaren oder Weltraumobjekte mit ihren Beschreibungen und Funktionen verbinden. Der Zuordnungs-Generator produziert saubere, professionelle Layouts, die auf Standardpapier wunderschön gedruckt werden. Diese Aktivitäten sprechen besonders Vorschul- und Kindergartenlehrkräfte an, die Weltraum-Themen in ihre Shop integrieren, wo visuelle Zuordnung die Beobachtungsfähigkeiten aufbaut, die für naturwissenschaftliches Lernen grundlegend sind. Sets mit acht bis zwölf Zuordnungsseiten lassen sich effektiv zum Preis von fünf bis acht Dollar bündeln, und das immergrüne Weltraum-Thema treibt Käufe das ganze Jahr über an.`,
       appId: 'matching',
     },
@@ -55,7 +55,7 @@ Um Ihren Weltraum-Druckvorlagen-Umsatz zu maximieren, entwickeln Sie Produkte ü
       appId: 'addition',
     },
     {
-      title: 'Weltraum-Ausmalseiten für Etsy- und KDP-Verkäufer',
+      title: `Weltraum-Ausmalseiten für Etsy- und KDP-Verkäufer`,
       description: `Ausmalseiten sind das volumenreichste Einstiegsprodukt für Weltraum-Druckvorlagen-Shops, denn Weltraum-Ausmalen spricht praktisch jedes Kind an, das von Raketen, Planeten und Astronauten fasziniert ist, und generiert frühe Bewertungen, die Ihre Shop-Sichtbarkeit bei allen Weltraum-Angeboten steigern. Der Ausmalseiten-Generator erstellt detaillierte Umrisse von Astronauten, die außerirdische Landschaften erkunden, Planeten mit Ringen und Kratern, Raketen, die durch Sternenfelder starten, Raumstationen im Erdorbit und Galaxien voller kosmischer Details. Für Etsy verkaufen Sie kuratierte Sets von zehn bis fünfzehn Seiten, gruppiert nach Unterthemen wie Sonnensystem-Planeten oder Weltraumfahrzeuge. Für KDP kompilieren Sie dreißig bis fünfzig Ausmalseiten in Weltraum-Aktivitätsbücher, positioniert als STEM-Geschenke oder Geschenke für naturwissenschaftsbegeisterte Kinder. Fügen Sie Bildungselemente wie Planetennamen-Beschriftungen, Weltraum-Vokabelbegriffe oder Zählaufforderungen neben den Ausmalbildern hinzu, um sich zu differenzieren.`,
       appId: 'coloring',
     },
@@ -89,12 +89,12 @@ Um Ihren Weltraum-Druckvorlagen-Umsatz zu maximieren, entwickeln Sie Produkte ü
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Weltraum-Druckvorlagen auf Etsy verkaufen',
+      title: `Weltraum-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt die Weltraum-Nische mit einem erheblichen ganzjährigen Angebotsvorteil gegenüber saisonalen Konkurrenten, da Ihre Weltraum-Druckvorlagen konsistente tägliche Impressionen generieren, ohne die Nachfragetäler, die feiertagsabhängige Shops zwischen Verkaufsfenstern erleben. Verwenden Sie alle dreizehn Tags mit Variationen, die Weltraum-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Weltraum Zählarbeitsblätter Vorschule", „Sonnensystem Wortsuchrätsel Kindergarten" und „Raketen Ausmalseiten Kleinkind" zielen auf spezifische Käufersuchen viel effektiver als breite Tags wie „Weltraum Arbeitsblätter". Positionieren Sie Ihre Produkte sowohl für Bildungs- als auch für Geschenkkäufer-Suchen, indem Sie Begriffe wie „STEM-Aktivität" und „Wissenschaftsliebhaber-Geschenk" in Ihren Titeln und Beschreibungen verwenden. Angebotsbilder, die gedruckte Weltraum-Arbeitsblätter neben Spielzeugraketen, sternenthematischer Dekoration oder Wissenschafts-Kits zeigen, übertreffen flache digitale Vorschauen und erfassen die fantasiegetriebene Denkweise, die weltraumbegeisterte Familien zu Etsy bringt.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Weltraum-Aktivitätsbücher auf KDP veröffentlichen',
+      title: `Weltraum-Aktivitätsbücher auf KDP veröffentlichen`,
       description: `Amazon KDP eignet sich hervorragend für Weltraum-Druckvorlagen, da Eltern und Geschenkkäufer natürlich Aktivitätsbücher in ihren Amazon-Warenkorb legen, zusammen mit Teleskopen, Weltraumspielzeug, STEM-Kits und Wissenschaftsbüchern für neugierige Kinder. Kompilieren Sie einzelne Weltraum-Arbeitsblätter in zusammenhängende Aktivitätsbücher mit vierzig bis sechzig Seiten, die Zählen, Ausmalen, Zuordnen, Wortsuchrätsel und Zeichenaktivitäten rund um Sonnensystem- und Weltraumforschungsthemen kombinieren. Nutzen Sie KDP-Schlüsselwortfelder strategisch: verwenden Sie „Weltraum Aktivitätsbuch für Kinder", „Sonnensystem Arbeitsblätter Vorschule" und Unterthemen-Begriffe wie „Raketen Malbuch" oder „Astronauten Aktivitäten für Kinder". Preise zwischen vier und acht Dollar für optimale Tantiemen-Margen, und positionieren Sie Ihre Bücher als STEM-Geschenke, Geschenke für naturwissenschaftsbegeisterte Kinder oder Begleiter für Shop-Astronomie-Einheiten. Weltraum-Aktivitätsbücher profitieren von ganzjähriger Nachfrage mit moderaten Spitzen während der Schulanfangssaison und der Winter-Geschenk-Kaufperiode.`,
     },
     {
@@ -143,18 +143,18 @@ Um Ihren Weltraum-Druckvorlagen-Umsatz zu maximieren, entwickeln Sie Produkte ü
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy-SEO für Bildungs-Druckvorlagen',
+      anchorText: `Etsy-SEO für Bildungs-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -163,33 +163,33 @@ Um Ihren Weltraum-Druckvorlagen-Umsatz zu maximieren, entwickeln Sie Produkte ü
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'elterntag-druckvorlagen-ideen',
-      anchorText: 'Mutter- & Vatertag Druckvorlagen-Geschäftsideen',
+      anchorText: `Mutter- & Vatertag Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/space/asteroid.webp', alt: 'Asteroid — thematisches Lernbild', caption: 'Asteroid' },
-    { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematisches Lernbild', caption: 'Astronaut' },
-    { src: '/image-library/space/comet.webp', alt: 'Komet — thematisches Lernbild', caption: 'Komet' },
-    { src: '/image-library/space/earth.webp', alt: 'Erde — thematisches Lernbild', caption: 'Erde' },
-    { src: '/image-library/space/galaxy.webp', alt: 'Galaxie — thematisches Lernbild', caption: 'Galaxie' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — thematisches Lernbild', caption: 'Jupiter' },
+    { src: `/image-library/space/asteroid.webp`, alt: `Asteroid — thematisches Lernbild`, caption: 'Asteroid' },
+    { src: `/image-library/space/astronaut.webp`, alt: `Astronaut — thematisches Lernbild`, caption: 'Astronaut' },
+    { src: `/image-library/space/comet.webp`, alt: 'Komet — thematisches Lernbild', caption: 'Komet' },
+    { src: `/image-library/space/earth.webp`, alt: 'Erde — thematisches Lernbild', caption: 'Erde' },
+    { src: `/image-library/space/galaxy.webp`, alt: `Galaxie — thematisches Lernbild`, caption: 'Galaxie' },
+    { src: `/image-library/space/jupiter.webp`, alt: `Jupiter — thematisches Lernbild`, caption: 'Jupiter' },
   ],
 
 

@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Stampabili Operazioni Matematiche da Vendere | Guida`,
     metaDescription: `Idee di stampabili sulle operazioni matematiche da vendere su Etsy, Amazon KDP e Gumroad. Strategie per venditori che puntano a venditori con schede pratiche.`,
-    primaryKeyword: 'idee stampabili operazioni matematiche',
+    primaryKeyword: `idee stampabili operazioni matematiche`,
     secondaryKeywords: [
-      'schede operazioni matematiche da vendere',
-      'idee business stampabili esercitazione aritmetica',
-      'schede attività aritmetiche per venditori',
+      `schede operazioni matematiche da vendere`,
+      `idee business stampabili esercitazione aritmetica`,
+      `schede attività aritmetiche per venditori`,
       `vendere stampabili operazioni matematiche su Gumroad`,
     ],
     lsiKeywords: [
-      'schede esercitazione fluenza numerica',
+      `schede esercitazione fluenza numerica`,
       `pagine stampabili esercitazione matematica a tempo`,
-      'risorse educative aritmetica di base',
+      `risorse educative aritmetica di base`,
     ],
   },
   hero: {
@@ -118,7 +118,7 @@ const content: IdeaContent = {
     },
     {
       question: `Come posso differenziare i miei stampabili sulle operazioni matematiche dalla concorrenza?`,
-      answer: "La differenziazione nella nicchia delle operazioni matematiche deriva dall\'organizzazione, dalla specificità e dal valore aggiunto pratico piuttosto che dal design appariscente perché venditori e genitori che acquistano materiali sulle operazioni matematiche danno priorità alla qualità funzionale e all\'allineamento didattico rispetto agli elementi decorativi. La strategia di differenziazione più efficace è l\'organizzazione precisa del prodotto per fascia di operazioni specifica, operazione e livello scolastico, creando prodotti esplicitamente etichettati con obiettivi di competenza esatti come «addizioni somme entro il 10» e «tabelline del 7 e dell'8» che corrispondono alle query di ricerca precise che i venditori usano quando selezionano materiali per specifici obiettivi didattici. Includi le chiavi di valore percepito con ogni prodotto perché i venditori valorizzano il risparmio di tempo nel non dover risolvere ogni problema da soli, e le chiavi di valore percepito differenziano i tuoi prodotti dai concorrenti che forniscono schede senza questa aggiunta pratica essenziale. Aggiungi schede di monitoraggio dei progressi e registri di valutazione che aiutano i venditori a monitorare la crescita degli utenti nel tempo, creando valore pratico oltre le schede stesse che incoraggia i venditori a costruire il loro programma di esercitazione attorno ai tuoi materiali piuttosto che mescolare risorse di molteplici venditori. Crea valutazioni diagnostiche di posizionamento che aiutano i venditori a identificare quali operazioni specifiche un utente deve esercitare, perché questo approccio mirato posiziona i tuoi materiali come un programma completo di fluenza piuttosto che semplici schede generiche di esercitazione. Formatta i prodotti come programmi di esercitazione quotidiana pronti all\'uso con programmi settimanali chiari e guide al ritmo, perché i venditori preferiscono materiali che possono implementare immediatamente senza dover organizzare singole schede in una sequenza di esercitazione coerente.",
+      answer: "La differenziazione nella nicchia delle operazioni matematiche deriva dall\`organizzazione, dalla specificità e dal valore aggiunto pratico piuttosto che dal design appariscente perché venditori e genitori che acquistano materiali sulle operazioni matematiche danno priorità alla qualità funzionale e all'allineamento didattico rispetto agli elementi decorativi. La strategia di differenziazione più efficace è l'organizzazione precisa del prodotto per fascia di operazioni specifica, operazione e livello scolastico, creando prodotti esplicitamente etichettati con obiettivi di competenza esatti come «addizioni somme entro il 10» e «tabelline del 7 e dell`8» che corrispondono alle query di ricerca precise che i venditori usano quando selezionano materiali per specifici obiettivi didattici. Includi le chiavi di valore percepito con ogni prodotto perché i venditori valorizzano il risparmio di tempo nel non dover risolvere ogni problema da soli, e le chiavi di valore percepito differenziano i tuoi prodotti dai concorrenti che forniscono schede senza questa aggiunta pratica essenziale. Aggiungi schede di monitoraggio dei progressi e registri di valutazione che aiutano i venditori a monitorare la crescita degli utenti nel tempo, creando valore pratico oltre le schede stesse che incoraggia i venditori a costruire il loro programma di esercitazione attorno ai tuoi materiali piuttosto che mescolare risorse di molteplici venditori. Crea valutazioni diagnostiche di posizionamento che aiutano i venditori a identificare quali operazioni specifiche un utente deve esercitare, perché questo approccio mirato posiziona i tuoi materiali come un programma completo di fluenza piuttosto che semplici schede generiche di esercitazione. Formatta i prodotti come programmi di esercitazione quotidiana pronti all\'uso con programmi settimanali chiari e guide al ritmo, perché i venditori preferiscono materiali che possono implementare immediatamente senza dover organizzare singole schede in una sequenza di esercitazione coerente.",
     },
     {
       question: `Come posso creare schede sulle operazioni matematiche in modo efficiente usando gli strumenti generatori?`,
@@ -133,18 +133,18 @@ const content: IdeaContent = {
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
-      anchorText: 'Come Creare Pacchetti di Schede che Vendono',
+      slug: `creare-pacchetti-schede-esercizi`,
+      anchorText: `Come Creare Pacchetti di Schede che Vendono`,
     },
     {
       pageType: 'guide',
@@ -153,33 +153,33 @@ const content: IdeaContent = {
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: "Guida Completa per Avviare un\'Attività di Stampabili",
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
-      slug: 'apprendimento-estivo-idee-stampabili',
+      slug: `apprendimento-estivo-idee-stampabili`,
       anchorText: `Idee di Business con Stampabili per l'Apprendimento Estivo`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Cerchio — immagine educativa tematica', caption: 'Cerchio' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cono — immagine educativa tematica', caption: 'Cono' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — immagine educativa tematica', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — immagine educativa tematica', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — immagine educativa tematica', caption: 'Diamante' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Cuore — immagine educativa tematica', caption: 'Cuore' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Cerchio — immagine educativa tematica`, caption: 'Cerchio' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cono — immagine educativa tematica`, caption: 'Cono' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — immagine educativa tematica`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — immagine educativa tematica`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — immagine educativa tematica`, caption: 'Diamante' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Cuore — immagine educativa tematica`, caption: 'Cuore' },
   ],
 
 

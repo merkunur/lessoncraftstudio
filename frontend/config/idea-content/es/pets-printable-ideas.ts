@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas de Imprimibles de Mascotas — Guía de Nicho',
+    titleTag: `Ideas de Imprimibles de Mascotas — Guía de Nicho`,
     metaDescription: `Ideas rentables de imprimibles de mascotas para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos de perros, gatos y animales domésticos con estrategi.`,
 
-    primaryKeyword: 'ideas de imprimibles de mascotas',
+    primaryKeyword: `ideas de imprimibles de mascotas`,
     secondaryKeywords: [
-      'fichas temática mascotas para vender',
+      `fichas temática mascotas para vender`,
       'negocio imprimibles mascotas',
-      'fichas actividades mascotas para vendedores',
-      'vender imprimibles mascotas en Etsy',
+      `fichas actividades mascotas para vendedores`,
+      `vender imprimibles mascotas en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas animales domésticos',
-      'actividades temática perros y gatos',
-      'imprimibles escolares mascotas del hogar',
+      `fichas educativas animales domésticos`,
+      `actividades temática perros y gatos`,
+      `imprimibles escolares mascotas del hogar`,
     ],
   },
   hero: {
@@ -99,7 +99,7 @@ El nicho de mascotas ofrece oportunidades excepcionales de empaquetamiento y ven
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades de Mascotas en KDP',
+      title: `Publicar Libros de Actividades de Mascotas en KDP`,
       description: `Amazon KDP funciona mejor para los imprimibles de mascotas cuando compilas fichas individuales en libros de actividades temáticos. Un libro de actividades de mascotas de cuarenta a sesenta páginas que combine conteo, colorear, emparejamiento y actividades de trazado funciona bien en la categoría de libros de actividades para niños. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro de actividades de mascotas para niños», «fichas de perros y gatos» y términos específicos por edad como «libro de mascotas preescolar». Considera crear libros específicos por especie como «Libro de Actividades Todo Sobre Perros» junto con compilaciones generales de mascotas para capturar tanto búsquedas amplias como de nicho. Fija el precio entre cuatro y siete dólares para tasas de regalías óptimas y siempre pide una copia de prueba antes de publicar para verificar la calidad de impresión.`,
     },
     {
@@ -148,18 +148,18 @@ El nicho de mascotas ofrece oportunidades excepcionales de empaquetamiento y ven
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -168,12 +168,12 @@ El nicho de mascotas ofrece oportunidades excepcionales de empaquetamiento y ven
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -183,18 +183,18 @@ El nicho de mascotas ofrece oportunidades excepcionales de empaquetamiento y ven
     },
     {
       pageType: 'idea',
-      slug: 'animales-safari-ideas-imprimibles',
+      slug: `animales-safari-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Animales de Safari`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagen educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — imagen educativa temática', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Cacatúa ninfa — imagen educativa temática', caption: 'Cacatúa ninfa' },
-    { src: '/image-library/pets/dog.webp', alt: 'Perro — imagen educativa temática', caption: 'Perro' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Hurón — imagen educativa temática', caption: 'Hurón' },
-    { src: '/image-library/pets/finch.webp', alt: 'Pinzón — imagen educativa temática', caption: 'Pinzón' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagen educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — imagen educativa temática`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Cacatúa ninfa — imagen educativa temática`, caption: 'Cacatúa ninfa' },
+    { src: '/image-library/pets/dog.webp', alt: `Perro — imagen educativa temática`, caption: 'Perro' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Hurón — imagen educativa temática`, caption: 'Hurón' },
+    { src: `/image-library/pets/finch.webp`, alt: `Pinzón — imagen educativa temática`, caption: 'Pinzón' },
   ],
 
 

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'livros atividades matemática KDP',
+    primaryKeyword: `livros atividades matemática KDP`,
     secondaryKeywords: [
       `como criar livros de atividades de matemática para Amazon KDP`,
-      'guia de publicação de cadernos de matemática KDP',
+      `guia de publicação de cadernos de matemática KDP`,
       `publicar livros de atividades de matemática na Amazon`,
-      'livro de fichas de matemática Amazon KDP',
+      `livro de fichas de matemática Amazon KDP`,
     ],
     lsiKeywords: [
       `formatação de manuscrito KDP tamanho de corte páginas interiores livro de atividades`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `número de páginas caderno matemática progressão de dificuldade chaves de respostas`,
       `processo de revisão publicação KDP prova de impressão cópias de autor`,
     ],
-    titleTag: 'Criar livros atividades matemática KDP — Guia',
+    titleTag: `Criar livros atividades matemática KDP — Guia`,
     metaDescription: `Aprenda a criar livros de atividades de matemática que os editores KDP usam para ganhar regalias. Formatação de manuscrito, design de capa e otimização.`,
   },
 
@@ -35,7 +35,7 @@ const content: GuideContent = {
       content: `Os livros de atividades de matemática ocupam um nicho estável e perene na Amazon. Ao contrário das categorias de novidade ou impulsionadas por tendências, a procura de cadernos de prática de matemática mantém-se consistente durante todo o ano com picos previsíveis durante a época de regresso às aulas em agosto e setembro, e novamente em janeiro quando os propósitos de Ano Novo impulsionam as compras educativas.\n\nOs livros de atividades de matemática mais bem-sucedidos no KDP dirigem-se a níveis de escolaridade ou áreas de competência específicos em vez de tentarem cobrir tudo. Um livro focado intitulado «Prática de adição para o pré-escolar» supera um genérico «Atividades de matemática para crianças» porque os pais e vendedores procuram competências específicas a níveis específicos. Esta especificidade também reduz a concorrência — compete contra menos títulos quando aponta a «caderno de subtração primeiro ano» do que a «livro de matemática para crianças».\n\nO modelo de impressão a pedido elimina os riscos da publicação tradicional. Não há tiragens mínimas de impressão, não há custos de armazém e não há inventário por vender. A Amazon imprime cada cópia quando um cliente a encomenda, envia-a diretamente e deposita a sua regalia. Isto significa que pode publicar múltiplos livros de matemática focados dirigidos a diferentes competências e níveis de escolaridade sem risco financeiro — se um título particular não vender bem, não lhe custa nada mantê-lo publicado.\n\nAntes de criar o seu livro, pesquise os mais vendidos na sua categoria-alvo. Observe os seus números de páginas (a maioria dos livros de atividades de matemática bem-sucedidos tem de 40 a 80 páginas interiores), os seus pontos de preço (tipicamente de 5,99 a 9,99 para livros de atividades padrão) e como estruturam o conteúdo. Anote como usam o título, subtítulo e capa para comunicar o nível de competência específico e a audiência-alvo.`,
     },
     {
-      heading: 'Planeie o conteúdo e a estrutura do seu livro',
+      heading: `Planeie o conteúdo e a estrutura do seu livro`,
       content: `Um livro de atividades de matemática bem estruturado necessita de um planeamento cuidadoso antes de gerar uma única página de fichas. Comece escolhendo o seu enfoque específico: uma única operação (apenas adição, apenas subtração), uma combinação de operações relacionadas (adição e subtração), ou uma revisão mista por ano de escolaridade. Os livros de operação única permitem-lhe criar conteúdo profundo com dificuldade progressiva, enquanto os livros de operações mistas atraem compradores que querem prática integral.\n\nO número de páginas afeta diretamente os custos de impressão, os preços e o valor percecionado. Para livros de atividades de matemática, de 40 a 80 páginas interiores é o ponto ideal. Abaixo de 40 páginas, os compradores sentem que o livro é demasiado fino e não vale o preço. Acima de 80 páginas, os custos de impressão consomem significativamente as suas regalias. Um caderno de adição de 50 páginas ou um livro de atividades de matemática mistas de 60 páginas proporciona conteúdo substancial enquanto mantém os custos de impressão manejáveis.\n\nOrganize o seu conteúdo com progressão de dificuldade clara. Comece com problemas mais fáceis que gerem confiança, depois aumente gradualmente a complexidade. Para um livro de atividades de adição, poderia estruturá-lo assim: páginas 1 a 15 com adições de um único dígito usando problemas baseados em imagens, páginas 16 a 30 com adições de duplo dígito, páginas 31 a 45 com dificuldade mista e puzzles temáticos, e páginas 46 a 50 como secção de revisão integral.\n\nPlaneie as páginas iniciais e finais. Inclua uma folha de rosto, uma breve introdução explicando como usar o livro e um índice. Coloque as chaves de respostas no final do livro — isto é o que os pais e vendedores esperam e evita que os usuários vejam acidentalmente as respostas enquanto trabalham as atividades. Uma página de direitos de autor com a sua informação editorial completa a apresentação profissional.\n\nConsidere a variedade dentro do seu enfoque escolhido. Um livro puramente de adição não deveria conter 50 páginas de aspeto idêntico. Misture problemas de adição baseados em imagens com exercícios apenas de números, puzzles matemáticos e atividades de comparação. Esta variedade mantém os usuários envolvidos e dá aos compradores a perceção de um produto mais rico e cuidadosamente desenhado.`,
     },
     {
@@ -43,23 +43,23 @@ const content: GuideContent = {
       content: `Com o seu plano de conteúdo pronto, use os geradores de fichas para criar atividades matemáticas diversas para as páginas do seu livro. Cinco geradores produzem conteúdo adequado para o formato de livro encadernado: Adição para problemas de adição baseados em imagens, Subtração para subtrações baseadas em imagens, Puzzles matemáticos para puzzles de matemática com grelha, Fichas de matemática para exercícios limpos apenas de números, e Mais ou menos para atividades de comparação.\n\nPara cada gerador, trabalhe a sua progressão de dificuldade sistematicamente. No gerador de adição, comece com intervalos de números de 1 a 5 para as primeiras páginas, aumente para 1 a 10 para as secções intermédias e use de 1 a 20 ou mais para as páginas avançadas. Selecione temas que criem variedade visual entre as páginas — animais para uma secção, alimentos para outra, veículos para uma terceira. Esta variedade visual torna o livro mais atrativo sem alterar a dificuldade matemática subjacente.\n\nGere chaves de respostas para cada página de atividades. Os pais e vendedores mencionam consistentemente as chaves de respostas como fator decisivo nas avaliações de compra. Cada gerador produz chaves de respostas correspondentes que pode compilar na secção de páginas finais do seu livro. Etiquete cada chave de respostas com o seu número de página correspondente para que os utilizadores possam encontrar rapidamente as soluções de que precisam.\n\nAo criar conteúdo para impressão, considere como as fichas aparecem numa página física. Use definições de alto contraste para que os problemas se mantenham claros após a impressão. Evite cores extremamente claras ou detalhes finos que possam não se reproduzir bem na impressão a preto e branco (o KDP imprime as páginas interiores a preto e branco por defeito para o menor custo de impressão). Teste as suas fichas geradas imprimindo-as numa impressora padrão para verificar a legibilidade.\n\nCrie mais páginas do que necessita. Se o seu objetivo é 50 páginas de atividades, gere de 60 a 70 opções. Isto dá-lhe flexibilidade para selecionar as melhores páginas e manter uma qualidade consistente ao longo do livro. Pode guardar as páginas não usadas para um volume de continuação, o que não lhe custa nada extra produzir.`,
     },
     {
-      heading: 'Formate o seu manuscrito para KDP Print',
+      heading: `Formate o seu manuscrito para KDP Print`,
       content: `O KDP tem requisitos de formatação específicos que diferem de criar PDFs de fichas individuais. O tamanho de corte mais comum para livros de atividades de matemática é 8,5 × 11 polegadas, que coincide com o tamanho carta padrão dos EUA e proporciona máximo espaço de trabalho para problemas matemáticos. Outras opções viáveis incluem 8 × 10 polegadas para um formato ligeiramente mais pequeno ou 7 × 10 polegadas para um caderno mais compacto.\n\nAs margens são críticas para livros encadernados. O KDP requer margens mínimas específicas que variam segundo o número de páginas. Para um livro de 8,5 × 11 polegadas com 50 a 80 páginas, necessita de pelo menos 0,25 polegadas nos bordos exterior, superior e inferior, mais uma margem interior (de costura) maior de pelo menos 0,375 polegadas. A margem de costura compensa a encadernação — sem espaço adequado de costura, o conteúdo perto da lombada torna-se difícil de ler ou usar. Para livros de atividades onde as crianças escrevem respostas, use margens ainda maiores (0,5 a 0,75 polegadas à volta) para que o conteúdo fique confortavelmente dentro da área utilizável.\n\nEscolha formatação sem sangria a menos que as suas páginas tenham elementos de design que se estendam até ao bordo. A maioria dos livros de atividades de matemática usa fundos brancos com conteúdo centrado na área segura, o que significa que sem sangria é a configuração apropriada. Sem sangria também é mais simples de formatar porque não necessita de estender elementos de fundo para além da linha de corte.\n\nExporte o seu manuscrito como um único ficheiro PDF. Cada página do seu livro — incluindo a folha de rosto, a página de direitos de autor, o índice, todas as páginas de atividades e as chaves de respostas — deve estar num PDF na ordem de páginas correta. O PDF deve ter uma resolução mínima de 300 DPI para uma impressão nítida. Assegure-se de que todos os tipos de letra estejam incorporados no PDF para que se representem corretamente independentemente do sistema que imprima o livro.\n\nO número de páginas deve ser par para os livros de capa mole do KDP. Se o seu conteúdo resultar num número ímpar de páginas, adicione uma página em branco ou uma página de notas no final. O KDP aceita manuscritos de entre 24 e 828 páginas para capa mole, mas lembre-se de que os custos de impressão aumentam com o número de páginas, reduzindo diretamente a sua regalia por venda.`,
     },
     {
-      heading: 'Desenhe uma capa de livro profissional',
+      heading: `Desenhe uma capa de livro profissional`,
       content: `A sua capa é o fator mais importante para que um cliente da Amazon que navega clique no seu livro. O KDP requer uma capa envolvente completa que inclua a parte dianteira, a lombada e a parte traseira — tudo num único ficheiro de imagem. Use a ferramenta Calculadora de capas do KDP no sítio web do KDP para gerar um modelo com dimensões exatas baseadas no seu tamanho de corte, número de páginas e tipo de papel.\n\nA capa dianteira deve comunicar três coisas instantaneamente: o que o livro ensina (competência de matemática), para quem é (nível de escolaridade ou faixa etária) e que tem aspeto profissional. Inclua um título claro com texto grande e legível, um subtítulo especificando a audiência-alvo e um design visualmente atrativo mas não sobrecarregado. Lembre-se de que a maioria dos clientes vê a sua capa primeiro como uma miniatura pequena nos resultados de pesquisa, por isso teste a legibilidade em tamanho miniatura. O texto a negrito, as cores de alto contraste e um design limpo funcionam melhor em tamanhos pequenos.\n\nA largura da lombada depende do seu número de páginas e tipo de papel. A Calculadora de capas do KDP fornece a largura exata da lombada. Para um livro típico de 50 páginas em papel branco, a lombada é de aproximadamente 0,13 polegadas — bastante estreita. Para livros com menos de 80 páginas aproximadamente, mantenha o texto da lombada ao mínimo ou omita-o completamente porque o texto torna-se ilegível a larguras de lombada muito estreitas. Para livros com 100 ou mais páginas, inclua o título e nome do autor na lombada.\n\nA parte traseira deveria incluir uma descrição convincente do livro, de 3 a 5 pontos destacando o que contém o livro, o nível de idade ou escolaridade alvo, e espaço para o código de barras da Amazon. O KDP coloca o código de barras automaticamente, mas necessita de deixar uma área designada (aproximadamente 2 × 1,2 polegadas) na porção inferior direita da parte traseira. Não coloque texto ou elementos de design importantes nesta zona do código de barras.\n\nEnvie a sua capa como PDF ou ficheiro de imagem de alta resolução. A resolução mínima é 300 DPI, e o espaço de cor deveria ser RGB para melhores resultados. O KDP converte para CMYK para a impressão, por isso evite cores néon extremamente vibrantes que possam mudar durante a conversão. Teste o seu design contra o modelo de capa do KDP para assegurar que todos os elementos ficam dentro das zonas seguras.`,
     },
     {
-      heading: 'Escreva um anúncio KDP que posicione na Amazon',
+      heading: `Escreva um anúncio KDP que posicione na Amazon`,
       content: `A pesquisa da Amazon funciona de maneira diferente do Etsy. No KDP, tem 7 campos de palavras-chave, cada um permitindo até 50 caracteres. Estes campos de palavras-chave não são visíveis para os clientes mas influenciam diretamente em que pesquisas o seu livro aparece. Use os 7 campos com frases específicas e relevantes que os pais e vendedores realmente escrevem na Amazon. Para um livro de atividades de adição para o pré-escolar, os seus campos de palavras-chave poderiam incluir: «caderno matemática pré-escolar prática adição», «livro atividades matemática idades 4 5 6», «fichas adição para crianças pré-escolar», «livro prática matemática educação casa infantil», «livro atividades educativo sentido numérico», «caderno competências matemática aprendizagem precoce» e «atividades matemática imprimíveis contagem adição».\n\nO seu título e subtítulo têm peso significativo na pesquisa da Amazon. O título deveria incluir a sua palavra-chave principal de forma natural: «Prática de adição para o pré-escolar: Um caderno de atividades de matemática com problemas com imagens, puzzles e chaves de respostas». O subtítulo expande as funcionalidades e inclui palavras-chave secundárias. A Amazon permite até 200 caracteres para o título, mas mantenha-o legível — o enchimento de palavras-chave prejudica as taxas de cliques mesmo se ajuda a visibilidade em pesquisas.\n\nA descrição do livro admite formatação básica semelhante a HTML. Use etiquetas de cabeçalho para estruturar a sua descrição e etiquetas de negrito para enfatizar os pontos de venda chave. Comece com o benefício principal (o que a criança aprenderá), continue com detalhes de conteúdo (número de páginas, tipos de atividade, intervalo de dificuldade) e feche com o que torna o seu livro diferente da concorrência. Mencione que as chaves de respostas estão incluídas — este é um critério de filtragem frequente para os pais.\n\nEscolha até duas categorias de pesquisa durante o processo de publicação. As categorias mais relevantes para livros de atividades de matemática incluem Livros de aritmética infantil, Livros de atividades de matemática infantis e Ensino de matemática. Selecionar categorias precisas assegura que o seu livro aparece nas secções de pesquisa corretas e qualifica para posicionamentos relevantes em categorias. Um livro que posiciona no top 20 de uma subcategoria específica ganha uma insígnia de mais vendido que aumenta significativamente as taxas de cliques nos resultados de pesquisa.`,
     },
     {
-      heading: 'Defina preços para máximas regalias KDP',
+      heading: `Defina preços para máximas regalias KDP`,
       content: `Os preços no KDP determinam diretamente o seu lucro por venda, e os cálculos são diretos mas têm limiares importantes. A Amazon oferece duas opções de regalias para capa mole: uma taxa de regalia de 60 por cento para livros vendidos no marketplace da Amazon onde o livro é publicado, e uma taxa menor para vendas de distribuição expandida. A fórmula real de regalias é: (Preço de catálogo × Taxa de regalia) menos Custo de impressão = A sua regalia.\n\nOs custos de impressão dependem do número de páginas, do tamanho de corte, do tipo de tinta e do marketplace. Para um livro de 8,5 × 11 polegadas com interior a preto e branco de 50 páginas vendido na Amazon EUA, o custo de impressão é aproximadamente 3,15 dólares. Se definir o preço deste livro a 6,99 dólares, o seu cálculo de regalia é: (6,99 × 0,60) menos 3,15, que é aproximadamente 1,04 dólares por venda. Subir o preço para 7,99 aumenta a sua regalia para aproximadamente 1,64 dólares — um aumento de 58 por cento na regalia por apenas uma mudança de preço de 1 dólar.\n\nO preço de catálogo mínimo deve cobrir o custo de impressão dividido pela taxa de regalia. Para um livro com um custo de impressão de 3,15 dólares a 60 por cento de taxa de regalia, o preço mínimo é aproximadamente 5,25 dólares. No entanto, definir o preço ao mínimo deixa-o com essencialmente zero regalia. Aponte para um preço de catálogo onde a sua regalia seja de pelo menos 1,50 a 3,00 dólares por venda para uma economia de publicação sustentável.\n\nPesquise os preços da concorrência na sua categoria específica antes de definir o seu preço. A maioria dos livros de atividades de matemática para crianças tem preços entre 5,99 e 9,99 dólares na Amazon. Definir preços demasiado baixos sinaliza baixa qualidade e gera regalias mínimas. Definir preços demasiado altos reduz o volume de vendas. Para um primeiro livro, definir preços entre 6,99 e 8,99 tipicamente equilibra competitividade com regalias adequadas. À medida que acumula avaliações e historial de vendas, pode testar preços mais altos.\n\nDefina preços para os marketplaces internacionais da Amazon separadamente. O KDP permite-lhe publicar na Amazon Reino Unido, Alemanha, França, Itália, Espanha e outros marketplaces. Converta o seu preço em USD para a moeda local e arredonde para um número psicologicamente atrativo (4,99 GBP, 7,99 EUR). Os marketplaces internacionais têm diferentes custos de impressão, por isso verifique a calculadora de regalias para cada marketplace.`,
     },
     {
-      heading: 'Publique, reveja provas e promova o seu livro',
+      heading: `Publique, reveja provas e promova o seu livro`,
       content: `Depois de carregar o seu manuscrito e capa, o KDP revê o seu livro antes de o disponibilizar para venda. O processo de revisão tipicamente demora de 24 a 72 horas, embora ocasionalmente possa demorar mais para editores estreantes. Durante a revisão, a Amazon verifica a qualidade do conteúdo, problemas de formatação e cumprimento de políticas. Assegure-se de que o seu livro não contenha páginas em branco involuntariamente, que todo o texto seja legível e que a sua capa corresponda ao conteúdo descrito.\n\nEncomende cópias de prova de autor antes de promover o seu livro amplamente. As provas são cópias impressas enviadas para si ao custo de impressão (sem regalia adicionada), para que possa verificar a qualidade de impressão, comprovar as margens, confirmar a legibilidade e detetar qualquer problema de formatação que poderia não ser visível na pré-visualização digital. Para livros de atividades de matemática, verifique que os números dos problemas, os símbolos de operações e as linhas de resposta se imprimam claramente. Comprove que a encadernação não corte o conteúdo na zona da costura. Se encontrar problemas, atualize o seu manuscrito e encomende outra prova — o pequeno custo vale a pena para assegurar a qualidade.\n\nDepois da publicação, pode atualizar o seu manuscrito, capa, descrição, palavras-chave e preços em qualquer momento sem retirar o livro da venda. As atualizações ao manuscrito e à capa passam por outro ciclo de revisão, mas as mudanças de metadados (descrição, palavras-chave, categorias) geralmente surtem efeito em poucas horas. Use esta flexibilidade para refinar o seu anúncio com base em dados reais de desempenho de pesquisa.\n\nConstrua uma série de livros de matemática relacionados para maximizar as funcionalidades de promoção cruzada do algoritmo da Amazon. Se o seu primeiro livro cobre adição para o pré-escolar, continue com subtração para o pré-escolar, depois operações mistas para o pré-escolar. A Amazon mostra «Livros desta série» e «Os clientes também compraram» de forma proeminente na página de cada livro. Criar uma série vinculada onde cada livro referencia os outros na sua descrição cria um efeito de catálogo onde cada novo título impulsiona as vendas dos títulos existentes.\n\nFaça promoção cruzada entre a Amazon KDP e outras plataformas. Se também vende fichas individuais no Etsy, mencione os seus livros da Amazon no anúncio da sua loja Etsy e crie ligação para a sua loja Etsy na sua página de autor da Amazon. Cada plataforma alcança um segmento de comprador diferente — os compradores do Etsy querem transferências digitais personalizáveis enquanto os compradores da Amazon querem livros físicos prontos a usar. Vender em ambas as plataformas maximiza o seu alcance a partir do mesmo conteúdo base.`,
     },
   ],
@@ -70,7 +70,7 @@ const content: GuideContent = {
       content: `O processo de revisão do KDP pode rejeitar livros por problemas que parecem menores mas são aplicados rigorosamente. As razões comuns de rejeição incluem texto de capa que se estende à zona de sangria ou código de barras, páginas interiores com conteúdo demasiado perto do bordo de corte, e discrepâncias de título entre a capa, a folha de rosto e os metadados. Antes de enviar, use o Pré-visualizador de impressão do KDP para rever o seu livro completo página por página. Corrija qualquer aviso amarelo ou vermelho no pré-visualizador — estes quase sempre resultam em rejeição ou problemas de impressão. Os editores estreantes devem esperar uma ou duas rondas de revisão enquanto aprendem os requisitos específicos do KDP.`,
     },
     {
-      heading: 'Encomende cópias de prova antes de promover',
+      heading: `Encomende cópias de prova antes de promover`,
       content: `Nunca promova um livro do KDP que não tenha tido fisicamente nas mãos. A pré-visualização digital mostra aproximadamente como o seu livro ficará, mas a qualidade de impressão, a precisão das cores, a adequação das margens e a sensação geral só podem ser avaliadas com uma cópia física. Encomende pelo menos uma cópia de prova e trabalhe várias páginas como um usuário faria — escreva nos espaços de resposta, verifique que os problemas sejam claramente legíveis, confirme que a encadernação não interfira com a usabilidade. As provas de autor custam apenas o preço de impressão sem acréscimo de regalia, tornando-as um passo de garantia de qualidade económico que previne avaliações negativas.`,
     },
     {
@@ -85,11 +85,11 @@ const content: GuideContent = {
       content: `Os ajustes pequenos de preço criam mudanças desproporcionadas nas regalias no KDP. Devido ao facto de os custos de impressão serem fixos por cópia, cada dólar que adiciona ao preço de catálogo gera aproximadamente 0,60 dólares em regalia adicional na taxa de 60 por cento. Um livro com preço de 7,99 em vez de 6,99 ganha aproximadamente 60 cêntimos mais por venda. Ao longo de 100 vendas por mês, esse aumento de preço de um único dólar adiciona 60 dólares em receitas mensais. Teste diferentes pontos de preço mensalmente e monitorize o impacto tanto no volume de vendas como nos ganhos totais de regalias. Muitos editores descobrem que aumentos moderados de preço (de 1 a 2 dólares acima da média da categoria) não reduzem significativamente o volume de vendas enquanto aumentam substancialmente o lucro por venda.`,
     },
     {
-      heading: 'Construa uma série para vendas acumulativas',
+      heading: `Construa uma série para vendas acumulativas`,
       content: `Um único livro de atividades de matemática gera uma única fonte de receitas. Uma série de 5 a 10 títulos relacionados gera receitas acumulativas através do motor de recomendação cruzada da Amazon. Quando um cliente compra o seu caderno de adição e a Amazon mostra «Os clientes também compraram» com os seus livros de subtração, multiplicação e operações mistas, cada título vende os outros automaticamente. Planeie a sua série antes de publicar o primeiro livro — use marca consistente, modelos de design de capa e convenções de nomenclatura para que a série seja imediatamente reconhecível. Mencione outros títulos na introdução e na descrição da parte traseira de cada livro.`,
     },
     {
-      heading: 'Venda o mesmo conteúdo em múltiplas plataformas',
+      heading: `Venda o mesmo conteúdo em múltiplas plataformas`,
       content: `O conteúdo de matemática que cria para livros KDP pode ser reutilizado para outros canais de receitas sem criação de conteúdo adicional. Venda fichas individuais como transferências digitais no Etsy para compradores que querem PDFs personalizáveis em vez de livros físicos. Crie pacotes temáticos para o seu próprio sítio web. Os geradores de fichas produzem conteúdo que funciona tanto em formatos de transferência digital como de livro encadernado. Esta abordagem multiplataforma significa que cada hora dedicada a criar conteúdo de matemática gera receitas na Amazon, no Etsy e em canais de venda direta simultaneamente. Consulte o guia sobre vender fichas de matemática no Etsy para estratégias de otimização específicas da plataforma.`,
     },
   ],
@@ -139,33 +139,33 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'publicar-livros-puzzles-kdp',
-      title: 'Publicar livros de puzzles no Amazon KDP',
+      title: `Publicar livros de puzzles no Amazon KDP`,
       description: `Expanda o seu catálogo KDP com livros de puzzles. As sopas de letras, palavras cruzadas e puzzles de lógica complementam os livros de atividades de matemática e atraem um segmento de comprador diferente, alargando o seu catálogo editorial na Amazon.`,
     },
     {
       slug: 'formatacao-kdp-fichas',
-      title: 'Guia de formatação KDP para livros de fichas',
+      title: `Guia de formatação KDP para livros de fichas`,
       description: `A referência detalhada de formatação para converter fichas em manuscritos prontos para KDP. Cobre tamanhos de corte, especificações de margens, configurações de sangria, exportação de PDF e resolução de rejeições comuns de formatação.`,
     },
     {
       slug: 'vender-fichas-matematica-etsy',
-      title: 'Vender fichas de matemática no Etsy',
+      title: `Vender fichas de matemática no Etsy`,
       description: `Reutilize o seu conteúdo de matemática para transferências digitais no Etsy. Vender as mesmas fichas como PDFs individuais no Etsy e como livros encadernados no KDP maximiza as receitas de cada peça de conteúdo que cria.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: 'Como publicar livros de puzzles no Amazon KDP' },
+    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: `Como publicar livros de puzzles no Amazon KDP` },
     { pageType: 'guide', slug: 'livros-caca-palavras-kdp', anchorText: `Como criar livros de caça-palavras para Amazon KDP` },
-    { pageType: 'guide', slug: 'ganhar-dinheiro-kdp-livros-atividades', anchorText: 'Como ganhar dinheiro com livros de atividades KDP' },
-    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: 'Guia de formatação KDP para livros de fichas' },
-    { pageType: 'guide', slug: 'melhores-nichos-kdp-livros-atividades', anchorText: 'Melhores nichos de livros de atividades KDP' },
-    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para começar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: `ganhar-dinheiro-kdp-livros-atividades`, anchorText: `Como ganhar dinheiro com livros de atividades KDP` },
+    { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: `Guia de formatação KDP para livros de fichas` },
+    { pageType: 'guide', slug: `melhores-nichos-kdp-livros-atividades`, anchorText: `Melhores nichos de livros de atividades KDP` },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: `Amazon KDP ou Etsy: Onde vender imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para começar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
-    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de fichas de adição — Detalhes completos' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimentar o Gerador de Fichas de Adição' },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: `Gerador de fichas de adição — Detalhes completos` },
+    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: `Experimentar o Gerador de Fichas de Adição` },
   ],
 
   toolsRecommended: [
@@ -176,43 +176,43 @@ const content: GuideContent = {
     },
     {
       appId: 'subtraction',
-      title: 'Gerador de fichas de subtração',
+      title: `Gerador de fichas de subtração`,
       description: `Companheiro essencial para cadernos de matemática multi-operação. As páginas de subtração combinadas com adição criam livros de atividades de matemática integrais que justificam maior número de páginas e pontos de preço na Amazon.`,
     },
     {
       appId: 'math-puzzle',
-      title: 'Gerador de fichas de puzzles matemáticos',
+      title: `Gerador de fichas de puzzles matemáticos`,
       description: `Adiciona variedade atrativa de puzzles aos livros de atividades para além das páginas padrão de exercícios. Os puzzles matemáticos com grelha quebram o formato de fichas e aumentam o valor percecionado, conduzindo a melhores avaliações na Amazon.`,
     },
     {
       appId: 'math-worksheet',
-      title: 'Gerador de fichas de matemática',
+      title: `Gerador de fichas de matemática`,
       description: `Produz exercícios de matemática limpos apenas com números para secções avançadas de livros de atividades. Ideal para páginas superiores numa progressão de dificuldade onde os usuários passam de operações baseadas em imagens a operações numéricas abstratas.`,
     },
     {
       appId: 'more-less',
-      title: 'Gerador de fichas Mais ou menos',
+      title: `Gerador de fichas Mais ou menos`,
       description: `Cria atividades de comparação de números que adicionam variedade matemática aos livros de atividades. Os problemas de comparação desenvolvem competências de sentido numérico a par da aritmética, tornando os livros mais integrais e atrativos para os vendedores.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: 'Ficha de adição mostrando problemas de matemática com imagens adequados para páginas interiores de livros de atividades Amazon KDP' },
+    heroImage: { src: `/samples/portuguese/addition/Adição Divertida 1.webp`, alt: `Ficha de adição mostrando problemas de matemática com imagens adequados para páginas interiores de livros de atividades Amazon KDP` },
     samples: [
-      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: 'Ficha de adição temática de animais formatada para livro de atividades de matemática KDP', caption: 'Ficha de adição com tema de animais — problemas de matemática baseados em imagens que criam atrativas páginas de livros de atividades KDP' },
-      { src: `/samples/portuguese/subtraction/Subtrações Divertidas 1.webp`, alt: 'Ficha de subtração para caderno de matemática multi-operação KDP', caption: 'Ficha de subtração — combina com páginas de adição para criar livros de atividades de matemática integrais na Amazon' },
-      { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp`, alt: 'Grelha de puzzle matemático adicionando variedade a livros de atividades KDP', caption: 'Grelha de puzzle matemático — adiciona variedade atrativa às páginas de livros de atividades para além dos exercícios padrão' },
+      { src: `/samples/portuguese/addition/Adição Divertida 2.webp`, alt: `Ficha de adição temática de animais formatada para livro de atividades de matemática KDP`, caption: `Ficha de adição com tema de animais — problemas de matemática baseados em imagens que criam atrativas páginas de livros de atividades KDP` },
+      { src: `/samples/portuguese/subtraction/Subtrações Divertidas 1.webp`, alt: `Ficha de subtração para caderno de matemática multi-operação KDP`, caption: `Ficha de subtração — combina com páginas de adição para criar livros de atividades de matemática integrais na Amazon` },
+      { src: `/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp`, alt: `Grelha de puzzle matemático adicionando variedade a livros de atividades KDP`, caption: `Grelha de puzzle matemático — adiciona variedade atrativa às páginas de livros de atividades para além dos exercícios padrão` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Como criar fichas de matemática para livros de atividades Amazon KDP — Tutorial passo a passo`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagem educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cone — imagem educativa temática', caption: 'Cone' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagem educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagem educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Losango — imagem educativa temática', caption: 'Losango' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagem educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cone — imagem educativa temática`, caption: 'Cone' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagem educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagem educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Losango — imagem educativa temática`, caption: 'Losango' },
   ],
 };
 

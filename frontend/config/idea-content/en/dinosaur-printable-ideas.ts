@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaur Printable Ideas to Sell — Niche Guide',
+    titleTag: `Dinosaur Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Explore profitable dinosaur printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Product concepts, platform strategies, and niche tips for printable sellers.`,
 
     primaryKeyword: 'dinosaur printable ideas',
     secondaryKeywords: [
       'dinosaur worksheets to sell',
-      'dinosaur themed printable business',
-      'dinosaur activity sheets for sellers',
-      'sell dinosaur printables on Etsy',
+      `dinosaur themed printable business`,
+      `dinosaur activity sheets for sellers`,
+      `sell dinosaur printables on Etsy`,
     ],
     lsiKeywords: [
-      'prehistoric themed educational worksheets',
-      'paleontology activities for kids',
-      'Jurassic themed product line printables',
+      `prehistoric themed educational worksheets`,
+      `paleontology activities for kids`,
+      `Jurassic themed product line printables`,
     ],
   },
   hero: {
-    title: 'Dinosaur Printable Business Ideas for Sellers',
+    title: `Dinosaur Printable Business Ideas for Sellers`,
     description: `Dinosaurs captivate children like few other subjects. The combination of massive creatures, mysterious extinction, and endless species variety creates a fascination that drives consistent demand for dinosaur-themed educational products. For printable sellers, this translates into a niche with powerful emotional appeal, strong parent and buyer interest, and year-round purchasing behavior. Unlike seasonal themes that fade after a few weeks, dinosaur enthusiasm persists across every month of the calendar. Whether you sell on Etsy, Amazon KDP, or Gumroad, dinosaur printables offer substantial room for product differentiation thanks to the sheer diversity of species, eras, and learning angles available. This guide covers specific product ideas, platform-specific strategies, and practical approaches to building a profitable dinosaur-themed printable product line using our worksheet generator tools.`,
   },
   marketOverview: `The dinosaur printable niche thrives on a simple truth: children are obsessed with dinosaurs. This obsession crosses gender lines, cultural boundaries, and age groups in ways that few other themes achieve. Parents recognize this passion and actively seek educational materials that channel dinosaur enthusiasm into productive learning. buyers leverage dinosaur fascination to teach vocabulary, counting, science concepts, and reading skills, knowing that engagement levels spike when prehistoric creatures are involved.
@@ -47,12 +47,12 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
       appId: 'find-count',
     },
     {
-      title: 'Dinosaur Word Search Puzzles to Sell Online',
+      title: `Dinosaur Word Search Puzzles to Sell Online`,
       description: `Dinosaur vocabulary word searches attract both parents building their child's language skills and buyers running paleontology or science units. Create puzzles featuring species names like tyrannosaurus, brachiosaurus, and pterodactyl alongside terms like fossil, extinct, herbivore, and carnivore. The Word Search generator lets you control grid size and word count for age-appropriate difficulty. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more words for older users. These products pair naturally with science product catalog resources and sell consistently across all platforms.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Dinosaur Matching Activities for Printable Shops',
+      title: `Dinosaur Matching Activities for Printable Shops`,
       description: `Matching worksheets work across multiple learning domains when paired with the dinosaur theme. Create sets where children match dinosaurs to their diet type, match species to their geological era, match dinosaurs to their habitats, or match adult dinosaurs to their names. The Matching generator produces clean, professional layouts that print well on standard paper sizes. These activities appeal strongly to preschool and kindergarten buyers, and sets of eight to twelve matching pages bundle effectively at the five to eight dollar price point on Etsy and Gumroad where parents and buyers actively seek dinosaur-themed learning materials.`,
       appId: 'matching',
     },
@@ -62,7 +62,7 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
       appId: 'addition',
     },
     {
-      title: 'Dinosaur Coloring Pages for Etsy and KDP Sellers',
+      title: `Dinosaur Coloring Pages for Etsy and KDP Sellers`,
       description: `Coloring pages serve as the ideal entry product for a dinosaur-themed printable shop because they attract impulse purchases and generate early reviews. The Coloring Page generator creates detailed outlines of popular dinosaurs including T-Rex, stegosaurus, triceratops, velociraptor, and pterodactyl in various poses and scenes. For Etsy, sell individual pages or curated sets of ten to fifteen. For KDP, compile thirty to fifty coloring pages into activity books targeting the children's dinosaur category. Add species names, fun facts, or tracing elements alongside each image to differentiate from purely decorative alternatives and support higher pricing.`,
       appId: 'coloring',
     },
@@ -72,7 +72,7 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
       appId: 'bingo',
     },
     {
-      title: 'Dinosaur Shadow Matching Worksheets to Sell',
+      title: `Dinosaur Shadow Matching Worksheets to Sell`,
       description: `Shadow matching develops visual discrimination skills essential for reading readiness, and dinosaur silhouettes create particularly engaging versions of this activity. Use the Shadow Match generator to create pages where children match dinosaurs to their shadows. The distinctive body shapes of different species, from the long neck of a brontosaurus to the armored plates of a stegosaurus, make dinosaur shadow matching both educational and visually interesting. Vary difficulty by including species with similar profiles in advanced versions. These worksheets print well in both color and grayscale, and sets of ten to fifteen pages sell consistently at three to five dollars.`,
       appId: 'shadow-match',
     },
@@ -96,12 +96,12 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Dinosaur Printables on Etsy',
+      title: `Selling Dinosaur Printables on Etsy`,
       description: `Etsy rewards specificity in dinosaur printable listings. Instead of generic titles like "Dinosaur Worksheets," target long-tail keywords such as "dinosaur counting worksheets preschool" or "T-Rex coloring pages toddler printable." Use all thirteen tags with variations combining species names, skills, and age groups. Mockup images showing printed dinosaur worksheets in use significantly outperform flat digital previews. Unlike many niches, dinosaur printables maintain steady demand year-round without strong seasonal variation, which means consistent listing performance across all months. Offer both individual worksheets and themed bundles, as Etsy buyers often start with a single purchase before returning for larger packs.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Dinosaur Activity Books on KDP',
+      title: `Publishing Dinosaur Activity Books on KDP`,
       description: `Amazon KDP excels for dinosaur printables when you compile worksheets into comprehensive activity books. A forty to sixty page dinosaur activity book combining counting, coloring, matching, word searches, and drawing activities performs strongly in the children's activity book category, where dinosaur terms generate high search volume. Use KDP keyword fields strategically with phrases like "dinosaur activity book for kids," "prehistoric animals worksheets," and age-specific terms. Price between four and seven dollars for optimal royalty rates. The dinosaur category on Amazon benefits from gift purchasing behavior, as relatives frequently buy dinosaur books for young enthusiasts, creating a secondary buyer market beyond parents.`,
     },
     {
@@ -151,32 +151,32 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -191,12 +191,12 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
   ],
 
   themeImages: [
-    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — themed educational image', caption: 'Allosaurus' },
-    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — themed educational image', caption: 'Ankylosaurus' },
-    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — themed educational image', caption: 'Apatosaurus' },
-    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — themed educational image', caption: 'Argentinosaurus' },
-    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — themed educational image', caption: 'Brachiosaurus' },
-    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontosaurus — themed educational image', caption: 'Brontosaurus' },
+    { src: `/image-library/dinosaurs/allosaurus.webp`, alt: `Allosaurus — themed educational image`, caption: 'Allosaurus' },
+    { src: `/image-library/dinosaurs/ankylosaurus.webp`, alt: `Ankylosaurus — themed educational image`, caption: 'Ankylosaurus' },
+    { src: `/image-library/dinosaurs/apatosaurus.webp`, alt: `Apatosaurus — themed educational image`, caption: 'Apatosaurus' },
+    { src: `/image-library/dinosaurs/argentinosaurus.webp`, alt: `Argentinosaurus — themed educational image`, caption: 'Argentinosaurus' },
+    { src: `/image-library/dinosaurs/brachiosaurus.webp`, alt: `Brachiosaurus — themed educational image`, caption: 'Brachiosaurus' },
+    { src: `/image-library/dinosaurs/brontosaurus.webp`, alt: `Brontosaurus — themed educational image`, caption: 'Brontosaurus' },
   ],
 
 

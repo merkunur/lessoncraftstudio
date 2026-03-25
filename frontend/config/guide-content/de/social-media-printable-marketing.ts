@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Social-Media-Marketing Druckvorlagen',
+    primaryKeyword: `Social-Media-Marketing Druckvorlagen`,
     secondaryKeywords: [
-      'Social Media für Druckvorlagen-Verkäufer',
-      'Druckvorlagen in sozialen Medien bewerben',
-      'Social-Media-Strategie Druckvorlagen-Geschäft',
-      'Arbeitsblätter online vermarkten',
+      `Social Media für Druckvorlagen-Verkäufer`,
+      `Druckvorlagen in sozialen Medien bewerben`,
+      `Social-Media-Strategie Druckvorlagen-Geschäft`,
+      `Arbeitsblätter online vermarkten`,
     ],
     lsiKeywords: [
       `Content-Marketing Produktwerbung visuelles Marketing Plattformstrategie`,
@@ -133,18 +133,18 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'pinterest-marketing-arbeitsblaetter', anchorText: 'Pinterest-Marketing für Arbeitsblatt-Geschäfte' },
-    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: 'E-Mail-Marketing für Druckvorlagen-Verkäufer' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'Wie Sie Ihr Druckvorlagen-Geschäft skalieren' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy-SEO für Lern-Druckvorlagen' },
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'Eine Druckvorlagen-Produktlinie erstellen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-automatisieren', anchorText: 'Ihr Druckvorlagen-Geschäft automatisieren' },
+    { pageType: 'guide', slug: `pinterest-marketing-arbeitsblaetter`, anchorText: `Pinterest-Marketing für Arbeitsblatt-Geschäfte` },
+    { pageType: 'guide', slug: 'email-marketing-druckvorlagen', anchorText: `E-Mail-Marketing für Druckvorlagen-Verkäufer` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `Wie Sie Ihr Druckvorlagen-Geschäft skalieren` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: `Etsy-SEO für Lern-Druckvorlagen` },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `Eine Druckvorlagen-Produktlinie erstellen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-automatisieren`, anchorText: `Ihr Druckvorlagen-Geschäft automatisieren` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischenauswahl-Leitfaden für Druckvorlagen-Geschäfte` },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lern-Druckvorlagen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lern-Druckvorlagen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
@@ -165,29 +165,29 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Erstellt thematische Zuordnungsaktivitäten mit illustrierten Inhalten, die in Social-Media-Feeds gut dargestellt werden. Zuordnungs-Arbeitsblätter über saisonale und praktische Themen bieten vielfältige, visuell ansprechende Inhalte für die Produktpräsentation.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/german/bingo/bilder-bingo 1.webp',
+      src: `/samples/german/bingo/bilder-bingo 1.webp`,
       alt: `Professionelle Bingo-Karte als Beispiel für visuell ansprechende Druckvorlagen-Produkte, ideal für Social-Media-Marketing`,
     },
     samples: [
       {
-        src: '/samples/german/bingo/bilder-bingo 1.webp',
+        src: `/samples/german/bingo/bilder-bingo 1.webp`,
         alt: `Bingo-Karte als teilbares Druckvorlagen-Produkt für Social-Media-Inhalte`,
         caption: `Visuell ansprechende Produkte wie Bingo-Karten erzeugen überzeugende Social-Media-Inhalte, die Engagement generieren`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Ausmalseite als fotogenes Druckvorlagen-Produkt für Instagram und Pinterest`,
         caption: `Ausmalseiten lassen sich wunderbar für Flat-Lay-Produktpräsentationen auf visuellen Plattformen fotografieren`,
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wortsuchrätsel als beliebter Druckvorlagen-Produkttyp mit starker Social-Media-Anziehungskraft`,
         caption: `Wortsuchrätsel ziehen breites Publikums-Engagement an und funktionieren gut über Social-Media-Plattformen hinweg`,
       },
@@ -197,11 +197,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — thematisches Lernbild`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/animals/camel.webp`, alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: `/image-library/animals/dog.webp`, alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
   ],
 };
 

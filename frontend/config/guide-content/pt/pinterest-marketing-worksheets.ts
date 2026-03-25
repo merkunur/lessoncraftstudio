@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'marketing pinterest fichas',
     secondaryKeywords: [
-      'pinterest para vendedores de imprimíveis',
+      `pinterest para vendedores de imprimíveis`,
       'vender fichas com pinterest',
-      'estratégia pinterest negócio imprimíveis',
-      'tráfego pinterest lojas de fichas',
+      `estratégia pinterest negócio imprimíveis`,
+      `tráfego pinterest lojas de fichas`,
     ],
     lsiKeywords: [
       `motor de pesquisa visual design de pins otimização de quadros descrições ricas em palavras-chave`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `otimização de pins formato vertical algoritmo do Pinterest pins novos`,
       `posicionamento em pesquisa taxa de guardado cliques de saída análise de audiência modelos de pins`,
     ],
-    titleTag: 'Marketing Pinterest Fichas — Estratégia Vendedor',
+    titleTag: `Marketing Pinterest Fichas — Estratégia Vendedor`,
     metaDescription: `Estratégia de marketing no Pinterest para vender fichas imprimíveis. Gere tráfego orgânico a longo prazo com pins e quadros otimizados e conteúdo sazonal.`,
   },
 
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'marketing-redes-sociais-imprimiveis', anchorText: `Marketing nas redes sociais para vendedores de imprimíveis` },
-    { pageType: 'guide', slug: 'email-marketing-imprimiveis', anchorText: 'Email marketing para vendedores de imprimíveis' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
+    { pageType: 'guide', slug: `marketing-redes-sociais-imprimiveis`, anchorText: `Marketing nas redes sociais para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: 'email-marketing-imprimiveis', anchorText: `Email marketing para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para imprimíveis educativos` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
     { pageType: 'guide', slug: 'marketing-sazonal-imprimiveis', anchorText: `Calendário de marketing sazonal para vendedores de imprimíveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'automatizar-negocio-imprimiveis', anchorText: 'Como automatizar o seu negócio de imprimíveis' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `automatizar-negocio-imprimiveis`, anchorText: `Como automatizar o seu negócio de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Cria páginas para colorir visualmente marcantes que produzem as imagens de pins mais chamativas no Pinterest. Os designs temáticos coloridos atraem naturalmente guardados e cliques no formato visual em primeiro lugar do Pinterest.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Gerador de Fichas de Correspondência',
+      title: `Gerador de Fichas de Correspondência`,
       description: `Cria atividades de correspondência visual temáticas que se apresentam lindamente no formato vertical do Pinterest. O layout rico em imagens e as cores vibrantes atraem naturalmente o envolvimento dos navegantes do Pinterest.`,
     },
   ],
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/camping/bear.webp', alt: 'Urso — imagem educativa temática', caption: 'Urso' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Binóculos — imagem educativa temática', caption: 'Binóculos' },
-    { src: '/image-library/camping/boots.webp', alt: 'Botas — imagem educativa temática', caption: 'Botas' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabana — imagem educativa temática', caption: 'Cabana' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/camping/bear.webp`, alt: `Urso — imagem educativa temática`, caption: 'Urso' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Binóculos — imagem educativa temática`, caption: 'Binóculos' },
+    { src: `/image-library/camping/boots.webp`, alt: `Botas — imagem educativa temática`, caption: 'Botas' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabana — imagem educativa temática`, caption: 'Cabana' },
   ],
 };
 

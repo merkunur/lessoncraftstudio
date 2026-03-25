@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       `utskrivbar hitta udda bilden pussel skapare för Etsy-säljare`,
       `hitta den som inte hör hemma arbetsblad generator för KDP`,
-      'udda bilden aktivitet skapare kommersiell licens',
-      'sälja hitta udda bilden pussel på Gumroad',
+      `udda bilden aktivitet skapare kommersiell licens`,
+      `sälja hitta udda bilden pussel på Gumroad`,
     ],
     lsiKeywords: [
       `digitala hitta udda bilden utskriftsbara onlineföretag`,
@@ -45,7 +45,7 @@ const content: AppContent = {
           `Öppna panelen Bildbibliotek och välj Tema A från dropdownen — detta ger de tre vanliga bilderna i Liknande läge. Välj Tema B för det udda objektet i Liknande läge (t.ex. Tema A = djur, Tema B = mat). Bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer, eller sök med nyckelord. I Identiskt läge behövs bara ett tema eftersom både de vanliga och de udda bilderna kommer från samma samling. Du kan också ladda upp egna PNG-, JPG- eller GIF-bilder att använda bredvid biblioteksinnehåll.`,
       },
       {
-        title: 'Generera hitta udda bilden arbetsbladet',
+        title: `Generera hitta udda bilden arbetsbladet`,
         description:
           `Klicka på Generera för att skapa övningskorten. Varje kort visar fyra bilder i en horisontell rad — tre vanliga objekt och ett udda objekt med sin position slumpmässigt blandad. Appen arrangerar kort i 1–2 kolumner beroende på sidorientering och övningsantal (2 kolumner för liggande eller stående med 7+ övningar). En stiliserad «Hitta den som inte hör hemma»-rubrik visas överst med korallfärgad yttre ram (#FF6B6B, 8px streck), bärnstensfärgad inre ram (#FFB84D, 3px streck) och turkos bakgrund (#4ECDC4) — med titeln i mörkblågrön Fredoka (#1A535C) och instruktioner i röd Quicksand (#E63946).`,
       },
@@ -104,10 +104,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Hitta Udda Bilden Arbetsblad Online',
+    title: `Hur du Säljer Hitta Udda Bilden Arbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska hitta udda bilden pusselpaket på Etsy',
+        title: `Tematiska hitta udda bilden pusselpaket på Etsy`,
         description:
           `Skapa tematiska visuella diskriminerings-paket med tvåtemasystemet — djur mot mat, fordon mot natur, högtider mot sport och dussintals fler temakombinationer. Varje temaparning producerar tillräckligt med unika övningar för flera arbetsblad med både Identiskt och Liknande läge. Paketera 10–20 hitta udda bilden arbetsblad per paket med facit inkluderade, och sälj till 30–70 SEK per set. Det visuella formatet innebär att varje paket fungerar för vilken språkmarknad som helst utan modifiering, vilket utökar din kundbas globalt.`,
         platform: 'Etsy (etsy.com)',
@@ -125,23 +125,23 @@ const content: AppContent = {
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Säsongsbetonade och högtidspussel-samlingar',
+        title: `Säsongsbetonade och högtidspussel-samlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Skapa tidsbegränsade hitta udda bilden-samlingar som sammanfaller med toppshoppingperioder. Släpp halloweenpussel-paket i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Blanda Identiskt och Liknande läge inom varje säsongsset för variation och upplevt värde. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
       {
         title: `Global marknadsattraktionskraft med visuella pussel`,
         description:
           `Eftersom hitta udda bilden arbetsblad är helt visuella — ingen text visas på själva pusslet — fungerar varje arbetsblad på vilket språk som helst utan modifiering. Den automatiskt genererade rubriken översätts till alla 11 stödda språk, men pusselinnehållet kräver noll lokalisering. Detta gör hitta udda bilden arbetsblad unikt effektiva för säljare som riktar sig mot internationella marknader. Skapa en uppsättning arbetsblad och lista dem i flera språkspecifika Etsy-butiker eller Amazon KDP-marknadsplatser. Samma produkt betjänar engelska, tyska, franska, spanska och varje annan marknad samtidigt.`,
-        platform: 'Etsy / Amazon KDP (global marknad)',
+        platform: `Etsy / Amazon KDP (global marknad)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Hur fungerar hitta udda bilden-mekaniken?',
+      question: `Hur fungerar hitta udda bilden-mekaniken?`,
       answer:
         `Varje övning visar fyra bilder i ett horisontellt kort — tre vanliga objekt och ett udda objekt. användarna tittar på raden, identifierar vilken bild som inte hör hemma och ringar in den. Det udda objektets position blandas slumpmässigt inom raden, så det kan visas i vilken av de fyra platserna som helst. Övningar arrangeras vertikalt på sidan, med layouten som växlar till 2 kolumner vid liggande orientering eller stående med 7 eller fler övningar.`,
     },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `Identiskt läge placerar tre kloner av exakt samma bild bredvid en annorlunda bild från samma tema — användarna hittar den som inte är dubblett. Liknande läge hämtar tre bilder från Tema A (t.ex. djur) och en bild från Tema B (t.ex. mat) — användarna identifierar den tematiska avvikaren. Identiskt läge är lättare eftersom användarna jämför visuella dubbletter. Liknande läge är svårare eftersom alla fyra bilderna är olika och distinktionen är kategorisk snarare än visuell.`,
     },
     {
-      question: 'Hur fungerar lägesöverskridning per övning?',
+      question: `Hur fungerar lägesöverskridning per övning?`,
       answer:
         `Varje övningsrad inkluderar sin egen läges-dropdown som låter dig överskriva den globala lägesinställningen. Ställ in det globala läget till Liknande, sedan växla enskilda övningar till Identiskt — eller tvärtom. Detta skapar arbetsblad med blandad svårighet där vissa övningar är lättare (Identiskt) och andra är svårare (Liknande) på samma sida. En «Rensa Val»-knapp återställer alla per-övning-överskridningar till den globala inställningen.`,
     },
@@ -161,7 +161,7 @@ const content: AppContent = {
         `Övningsantalet är konfigurerbart från 5 till 10, med standard satt till 6. Varje övning innehåller alltid exakt 4 bilder (3 vanliga + 1 udda). Färre övningar skapar större bildkort med mer avstånd; fler övningar ökar innehållsdensiteten. Layouten anpassas automatiskt — stående sidor med 7+ övningar och alla liggande sidor använder en 2-kolumnslayout för optimalt avstånd.`,
     },
     {
-      question: 'Hur fungerar tvåtemasystemet i Liknande läge?',
+      question: `Hur fungerar tvåtemasystemet i Liknande läge?`,
       answer:
         `I Liknande läge väljer du två teman från dropdown-menyerna. Tema A ger de tre vanliga bilderna för varje övning (t.ex. djur), och Tema B ger det enda udda objektet (t.ex. mat). Detta garanterar att det udda objektet alltid är tematiskt distinkt. Välj bland valfri kombination av de 104 tillgängliga temana. I Identiskt läge behövs bara ett tema eftersom både de vanliga klonerna och den udda bilden kommer från samma samling.`,
     },
@@ -181,12 +181,12 @@ const content: AppContent = {
         `Växla kryssrutan «Inkludera Övningsnummer» i panelen Övningskonfiguration för att visa siffror på vänster sida av varje övningskort. Nummer använder 25px bredd med 15px gap från kortinnehållet. Övningsnummer hjälper under produktlinjesgenomgång och gör det enkelt för säljare att referera till specifika övningar under diskussion.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — båda genereringslägena, per-övning-överskridningar, konfigurerbara övningsantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, övningsnummer och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Är hitta udda bilden arbetsblad språkkänsliga?',
+      question: `Är hitta udda bilden arbetsblad språkkänsliga?`,
       answer:
         `Nej. Till skillnad från appar som visar ord på arbetsbladet är hitta udda bilden-pussel helt visuella — ingen text visas på själva pusselinnehållet. Den automatiskt genererade rubriken («Hitta den som inte hör hemma») översätts till alla 11 stödda språk, men de faktiska övningarna innehåller bara bilder. Detta innebär att varje arbetsblad fungerar på vilket språk som helst utan modifiering, vilket gör hitta udda bilden-pussel idealiska för global marknadsplatsförsäljning.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina hitta udda bilden arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två genereringslägena, per-övning-överskridningar och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara visuella diskrimineringsprodukter.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda genereringslägena, per-övning-överskridningssystemet, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, övningsnummer och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,37 +206,37 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'saknade-bitar-arbetsblad',
-      anchorText: 'Saknade Bitar Arbetsblad Generator',
+      anchorText: `Saknade Bitar Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildsudoku-arbetsblad',
-      anchorText: 'Bildsudoku Arbetsblad Generator',
+      anchorText: `Bildsudoku Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildlabyrint-arbetsblad',
-      anchorText: 'Bildlabyrint Arbetsblad Generator',
+      anchorText: `Bildlabyrint Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'skuggmatchning-arbetsblad',
-      anchorText: 'Skuggmatchning Arbetsblad Generator',
+      anchorText: `Skuggmatchning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'hitta-och-rakna-arbetsblad',
-      anchorText: 'Hitta och Räkna Arbetsblad Generator',
+      anchorText: `Hitta och Räkna Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
       slug: 'pussel-logik-paket',
-      anchorText: 'Pussel och Logik Paket — Alla Pusselappar i Ett',
+      anchorText: `Pussel och Logik Paket — Alla Pusselappar i Ett`,
     },
     {
       pageType: 'guide',
-      slug: 'skapa-hitta-udda-bilden-pussel',
-      anchorText: 'Hur du Skapar Hitta Udda Bilden Pussel som Säljer',
+      slug: `skapa-hitta-udda-bilden-pussel`,
+      anchorText: `Hur du Skapar Hitta Udda Bilden Pussel som Säljer`,
     },
     {
       pageType: 'idea',
@@ -245,18 +245,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'forsta-klass-utskriftsbara-ideer',
+      slug: `forsta-klass-utskriftsbara-ideer`,
       anchorText: `Första Klass Utskriftsbara Idéer för Grundutbildning`,
     },
     {
       pageType: 'idea',
-      slug: 'andra-klass-utskriftsbara-ideer',
+      slug: `andra-klass-utskriftsbara-ideer`,
       anchorText: `Andra Klass Utskriftsbara Idéer för Växande användare`,
     },
     {
       pageType: 'start',
       slug: 'amazon-kdp-aktivitetsbocker',
-      anchorText: 'Publicera Aktivitetsböcker på Amazon KDP',
+      anchorText: `Publicera Aktivitetsböcker på Amazon KDP`,
     },
   ],
 

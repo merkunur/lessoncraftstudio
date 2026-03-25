@@ -4,9 +4,9 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'I spy worksheet generator',
     secondaryKeywords: [
-      'I spy worksheet generator for sellers',
-      'create find and count worksheets to sell',
-      'printable I spy activity maker commercial use',
+      `I spy worksheet generator for sellers`,
+      `create find and count worksheets to sell`,
+      `printable I spy activity maker commercial use`,
       `hidden object worksheet generator for KDP and Etsy`,
     ],
     lsiKeywords: [
@@ -25,7 +25,7 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'How to Create I Spy Worksheets in 8 Steps',
+    title: `How to Create I Spy Worksheets in 8 Steps`,
     steps: [
       {
         title: 'Open the Find & Count Maker',
@@ -40,11 +40,11 @@ const content: ToolContent = {
         description: `Select between two modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a configurable grid where solvers search for specific objects. Letter Spotting mode activates a locale-specific alphabet grid with accented letters and generates I Spy scenes using images that begin with the selected letter. The auto-generated header automatically switches between "I Spy" and "Letter Spotting" (localized in all 11 languages) based on your selection.`,
       },
       {
-        title: 'Configure Grid Density for Difficulty Control',
+        title: `Configure Grid Density for Difficulty Control`,
         description: `Set the grid dimensions using rows (5–10) and columns (5–10) — default is 6×6 (36 cells). A 5×5 grid (25 cells) creates easier worksheets with larger images for the beginner tier. A 10×10 grid (100 cells) creates dense, challenging I Spy scenes for advanced puzzles. Each cell displays one image at a maximum size of 80px, with a 5% size reduction applied in Letter Spotting mode. Grid size is your primary difficulty control — smaller grids for early-learner products, larger grids for intermediate and advanced.`,
       },
       {
-        title: 'Select Target Images and Assign Task Types',
+        title: `Select Target Images and Assign Task Types`,
         description: `In Hidden Object mode, open the Image Library panel and choose up to 4 target objects from the 104 themed collections with 3,100+ illustrations. For each selected image, assign a task type from the dropdown: circle (draw a circle around it), square (put a square around it), cross (cross it out), or count (count how many appear). Mix all four task types on one worksheet for varied cognitive challenges, or use a single type for focused practice. In Letter Spotting mode, click a letter from the alphabet grid to automatically populate target images and distractors.`,
       },
       {
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Click Generate to build the I Spy scene with your custom settings. The scattered image grid fills with target objects distributed randomly (1–5 instances each) among distractor images from the theme. A styled header appears at the top with a blue border (#2196F3), yellow inner accent, and localized title and instructions rendered in Fredoka and Quicksand fonts. Toggle name and date fields as needed. Click Generate again to rebuild with different random distributions — same images, same settings, entirely different I Spy layout.`,
       },
       {
-        title: 'Review the Auto-Generated Answer Key',
+        title: `Review the Auto-Generated Answer Key`,
         description: `Click the Answer Key tab to see auto-generated annotations. The answer key reproduces the exact worksheet layout and overlays red visual annotations: circles around circle-task objects, squares around square-task objects, crosses over cross-task objects, and quantity count displays for count-task objects. Switch between Worksheet and Answer Key tabs to compare. The answer key generates simultaneously with the worksheet — no manual marking, no separate file creation, no possibility of mismatched answers.`,
       },
       {
@@ -76,27 +76,27 @@ const content: ToolContent = {
       description: `Compile 50–80 I Spy worksheets into printed workbooks for Amazon KDP. Structure chapters by progressive difficulty: early chapters use 5×5 grids with 2 target objects and a single task type for beginners, middle chapters increase to 7×7 grids with 3 targets and mixed task types, and advanced chapters use 10×10 grids with all 4 targets and all four task types on every page. Include answer key pages at the back with red annotations showing circles, squares, crosses, and count displays. Toggle grayscale for ink-friendly output optimized for black-and-white book interiors.`,
     },
     {
-      title: 'Multilingual I Spy Collections for Global Markets',
+      title: `Multilingual I Spy Collections for Global Markets`,
       description: `Leverage the language-sensitive image name labels to create I Spy worksheets in 11 languages from the same image library. The same images produce different labeling when you switch languages — "Cat" becomes "Katze" (German), "Chat" (French), "Gato" (Spanish), and Letter Spotting first letters update accordingly. Create multilingual I Spy bundles where each language version uses the same themed images but fully localized labels and instructions. This is valuable for sellers targeting bilingual markets and international buyers. Sell language-specific bundles or multilingual mega-packs at premium prices.`,
     },
     {
-      title: 'Observation and Counting Activity Packs',
+      title: `Observation and Counting Activity Packs`,
       description: `Build ready-to-sell I Spy counting worksheets with name/date fields and printed answer keys for self-checking. The count task type asks solvers to write how many instances of each object they find — combining visual search with numeracy practice in one worksheet. Create themed sets: farm animal counting, community helper identification, food group counting, and seasonal object counting for holiday-themed packs. Every worksheet exports with its auto-generated answer key, saving you the time of creating separate solution pages.`,
     },
     {
-      title: 'Multi-Format Search and Find Bundles',
+      title: `Multi-Format Search and Find Bundles`,
       description: `Pair I Spy worksheets with hidden object puzzles, word search activities, crossword challenges, and treasure hunt worksheets using coordinated themes across multiple generators. I Spy develops visual scanning, object identification, and counting skills. Word search builds letter recognition and vocabulary. Crossword challenges spelling and definition knowledge. Each format targets a different cognitive skill while maintaining thematic consistency. Multi-format bundles command premium prices because buyers pay more for comprehensive search-and-find collections than single-activity packs.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Themed I Spy Activity Shop on Etsy',
+      title: `Themed I Spy Activity Shop on Etsy`,
       description: `Open an Etsy shop specializing in I Spy activity bundles organized by theme using the 104 image collections. Animal I Spy, holiday I Spy, farm I Spy, ocean I Spy — each theme becomes a separate listing with mixed task types (circle, square, cross, count) and auto-generated answer keys. Four task types from every theme quadruple your worksheet variety within a single bundle. The random image distribution means every generation produces a unique layout, so building 20+ unique worksheets per theme takes minutes. Price individual theme packs at $3–$5 for 15–20 worksheets with answer keys and premium multi-theme bundles at $7–$12 for progressive-difficulty collections.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP I Spy Activity Workbook Series',
+      title: `Amazon KDP I Spy Activity Workbook Series`,
       description: `Compile 50–80 I Spy worksheets into themed workbooks for Amazon KDP. Structure a series by difficulty and mode: "Easy I Spy for Beginners" using 5×5 grids with 2 targets, "I Spy Counting Adventures" using the count task type across 7×7 grids, "Advanced I Spy Challenges" using 10×10 grids with all 4 task types, and "A–Z Letter Spotting" using Letter Spotting mode for phonics-focused workbooks. Include answer key pages at the back with red annotations. Toggle grayscale for ink-friendly output. The language-sensitive labels mean you can publish localized editions for German, French, and Spanish KDP marketplaces.`,
       platform: 'Amazon KDP',
     },
@@ -106,12 +106,12 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest I Spy Worksheet Traffic Funnel',
+      title: `Pinterest I Spy Worksheet Traffic Funnel`,
       description: `I Spy worksheets make visually striking Pinterest pins — colorful scattered image grids with the blue-bordered "I Spy" header create immediately recognizable content that buyers click. Pin sample worksheets showing both modes: Hidden Object with mixed task types and Letter Spotting with alphabet grids. Create separate pin series for "I spy worksheets," "printable find and count activities," and "letter spotting alphabet worksheets." The answer key preview images with red annotations demonstrate professional quality. Link each pin to your Etsy or Gumroad product listings for direct conversion.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad Complete I Spy Activity Toolkit',
+      title: `Gumroad Complete I Spy Activity Toolkit`,
       description: `Bundle I Spy worksheets across all 104 themes, both activity modes, and all four task types into a comprehensive toolkit on Gumroad. Include 300+ worksheets spanning Hidden Object mode with every task type combination and Letter Spotting mode with full A–Z coverage in multiple languages. Each worksheet includes its auto-generated answer key with red annotations, doubling your file count to 600+ total files. The language-sensitive labels, locale-specific alphabets, and dual activity modes produce more variety than any competitor offering a single I Spy format. The toolkit format justifies premium pricing.`,
       platform: 'Gumroad',
     },
@@ -144,7 +144,7 @@ const content: ToolContent = {
       description: `The auto-generated answer key with red circle, square, cross, and count annotations is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the red annotations clearly in product photos. Products that include answer keys consistently outsell puzzle-only listings because buyers want self-checking materials that save time. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.`,
     },
     {
-      title: 'Use Count Task Type for Math-Adjacent Products',
+      title: `Use Count Task Type for Math-Adjacent Products`,
       description: `The count task type transforms I Spy from a visual search activity into a counting and observation exercise. Solvers search for all instances of a target object (1–5 appear randomly) and write the total. This positions your I Spy worksheets in both the "visual search" and "counting/numeracy" categories on marketplaces. Create dedicated counting I Spy bundles where every target object uses the count task type — buyers searching for "counting worksheets" and "I spy worksheets" both find your product.`,
     },
     {
@@ -171,7 +171,7 @@ const content: ToolContent = {
       answer: `Letter Spotting mode displays a locale-specific alphabet grid tailored to each language. English shows A–Z (26 letters), German adds Ä, Ö, and Ü (29 letters), Spanish adds Ñ (27 letters), Swedish and Finnish add Å, Ä, and Ö (29 letters), and Danish and Norwegian add Æ, Ø, and Å (29 letters). The grid renders in 7 columns with automatic row adjustment. When you select a letter, the generator shows images starting with that letter in the selected language — a cat starts with "C" in English but "K" in German and "G" in Spanish.`,
     },
     {
-      question: 'How do the localized image name labels work?',
+      question: `How do the localized image name labels work?`,
       answer: `The Find & Count Generator is language-sensitive. Image name labels are rendered in the selected language via the Image Vocabulary system. For example, a cat image displays "Cat" in English, "Katze" in German, "Chat" in French, and "Gato" in Spanish. In Letter Spotting mode, first letters also change with the language. The Commercial tier supports English only; Full Access unlocks all 11 languages (English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, Finnish) for localized labels.`,
     },
     {
@@ -179,15 +179,15 @@ const content: ToolContent = {
       answer: `Set rows from 5 to 10 and columns from 5 to 10 in the Page Setup panel. The default is 6×6 (36 cells). A 5×5 grid (25 cells) creates easier worksheets with larger images — ideal for the beginner tier. A 10×10 grid (100 cells) creates dense, challenging I Spy scenes for advanced puzzles. Each cell displays one image at a maximum size of 80px, with a 5% size reduction in Letter Spotting mode. Target objects appear 1–5 times each, with remaining cells filled by random distractor images from the theme.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer: `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the scattered image scene without markings — solvers search and complete the tasks themselves. The answer key reproduces the identical layout and overlays red visual annotations: circles around circle-task objects, squares around square-task objects, crosses over cross-task objects, and quantity count displays for count-task objects. Download each version independently using four dedicated buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.`,
     },
     {
-      question: 'What is the auto-generated header design?',
+      question: `What is the auto-generated header design?`,
       answer: `Every worksheet includes a styled header that switches between "I Spy" and "Letter Spotting" depending on the active mode. The header features a blue border (#2196F3) with a yellow inner accent. The title renders in Fredoka font and instructions in Quicksand font. The header text is localized across all 11 supported languages — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.`,
     },
     {
-      question: 'What page sizes and export formats are available?',
+      question: `What page sizes and export formats are available?`,
       answer: `Page sizes include Default (800×1000), Letter, A4, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.`,
     },
     {

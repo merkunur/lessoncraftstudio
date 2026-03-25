@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Schatzsuche-Arbeitsblätter erstellen',
+    primaryKeyword: `Schatzsuche-Arbeitsblätter erstellen`,
     secondaryKeywords: [
       `Schatzsuche-Arbeitsblätter zum Verkaufen erstellen`,
       `Schatzsuche-Arbeitsblatt-Generator kommerzielle Nutzung`,
-      'druckbare Schatzsuche erstellen für Etsy und KDP',
+      `druckbare Schatzsuche erstellen für Etsy und KDP`,
       `Koordinatenraster Pfadfindungs-Arbeitsblätter mit Lösungsschlüsseln`,
     ],
     lsiKeywords: [
       `zwei Richtungstypen Grundrichtungen Himmelsrichtungen Koordinatenraster Arbeitsblatt-Ersteller`,
       `fünf mal fünf Buchstaben-Zahlen-Raster Richtungshinweise Pfadfindungs-Generator`,
       `automatischer Lösungsschlüssel blassgelb hervorgehobene Schatzzelle Doppel-Leinwand-Generator`,
-      'Schatzsuche-Arbeitsblätter auf Etsy verkaufen',
-      'Amazon KDP Richtungs-Pfadfindungs-Arbeitsbücher',
-      'kommerzielle Lizenz Schatzsuche-Werkzeug',
+      `Schatzsuche-Arbeitsblätter auf Etsy verkaufen`,
+      `Amazon KDP Richtungs-Pfadfindungs-Arbeitsbücher`,
+      `kommerzielle Lizenz Schatzsuche-Werkzeug`,
     ],
-    titleTag: 'Schatzsuche-Arbeitsblätter erstellen — Anleitung',
+    titleTag: `Schatzsuche-Arbeitsblätter erstellen — Anleitung`,
     metaDescription: `Schatzsuche-Arbeitsblätter auf 5×5-Raster mit zwei Richtungstypen erstellen. 6 Orientierungsbilder, Lösungsschlüssel, 11 Sprachen. Verkaufen auf Etsy, KDP.`,
   },
 
   hero: {
-    title: 'So erstellen Sie Schatzsuche-Arbeitsblätter',
+    title: `So erstellen Sie Schatzsuche-Arbeitsblätter`,
     tagline: `Eine Schritt-für-Schritt-Anleitung zur Erstellung von Pfadfindungs-Schatzsuche-Arbeitsblättern auf einem 5×5-Koordinatenraster mit zwei Richtungstypen (Grundrichtungen oben/unten/links/rechts und Himmelsrichtungen Norden/Süden/Osten/Westen), genau 4 Richtungsbewegungen pro Rätsel, 6 thematischen Orientierungsbildern, automatisch generierten Lösungsschlüsseln mit blassgelb hervorgehobener Schatzzelle und vollständig lokalisierten Richtungshinweisen in 11 Sprachen, die Sie weltweit auf Etsy, Amazon KDP und Gumroad verkaufen können`,
     description: `Schatzsuche-Arbeitsblätter sind eine einzigartig ansprechende Pfadfindungs-Aktivität, bei der Nutzer sequenziellen Richtungshinweisen folgen, um einen versteckten Schatz auf einem 5×5-Koordinatenraster zu finden, das mit Buchstabenzeilen (A–E) und Zahlenspalten (1–5) beschriftet ist. Das Format verbindet Koordinatenkompetenz mit Richtungswortschatz — Nutzer lesen eine Startposition, folgen genau 4 Richtungsbewegungen über das Raster und bestimmen, welche Zelle den Schatz enthält. Da der Schatzsuche-Ersteller zwei Richtungstypen bietet — Grundrichtungen (oben/unten/links/rechts) für jüngere Lernende und Himmelsrichtungen (Norden/Süden/Osten/Westen) für ältere Nutzer — gestuft jedes Rätsel natürlich nach Altersgruppe. Eltern nutzen sie für räumliches Denken zu Hause. Käufer nutzen sie zur Einführung von Koordinatenrastern und Richtungswortschatz-Lektionen. Selbststudiumzentren nutzen sie für sequenzielle Anleitungs-Aktivitäten. Diese Anleitung führt Sie durch den gesamten Erstellungsprozess mit dem Schatzsuche-Ersteller — von der Wahl eines Richtungstyps und dem Befüllen des Rasters mit 6 thematischen Bildern bis zur Überprüfung des automatisch generierten Lösungsschlüssels mit seiner blassgelb hervorgehobenen Schatzzelle, der Nutzung vollständig lokalisierter Richtungshinweise in 11 Sprachen für mehrsprachige Produktlinien und dem Export druckfertiger Dateien. Ob Sie Ihr erstes Pfadfindungs-Produkt erstellen oder einen bestehenden Arbeitsblatt-Katalog mit Koordinatenraster-Aktivitäten erweitern — am Ende dieser Anleitung haben Sie ein fertiges Produkt zum Einstellen.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Den Schatzsuche-Ersteller öffnen',
+      heading: `Den Schatzsuche-Ersteller öffnen`,
       content: `Navigieren Sie zur Schatzsuche-Ersteller-Seite und klicken Sie auf die Startschaltfläche, um den Generator in Ihrem Browser zu öffnen. Das Werkzeug lädt sofort mit einer Einstellungsseitenleiste links und einer Doppel-Tab-Leinwand rechts — ein Tab für das Schatzsuche-Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich.\n\nDie Doppel-Tab-Leinwand ist das Herzstück des Schatzsuche-Generators. Der Arbeitsblatt-Tab zeigt das 5×5-Koordinatenraster mit verteilten thematischen Bildern, die Richtungshinweis-Anweisungen und den schatzsuchthematischen Header. Der Lösungsschlüssel-Tab zeigt das identische Raster-Layout mit der Schatzzelle, die in blassgelb zur sofortigen Überprüfung hervorgehoben ist. Beide Tabs werden gleichzeitig generiert, wenn Sie auf Generieren klicken, sodass Lösungsschlüssel immer perfekt mit dem Arbeitsblatt synchronisiert sind.\n\nNehmen Sie sich einen Moment, um die Seitenleisten-Panels zu erkunden. Das Rätsel-Einrichtungspanel steuert Ihren Richtungstyp und die Inhaltssprache. Das Bildbibliothek-Panel bietet Zugriff auf 104 thematische Sammlungen mit über 3.100 Illustrationen. Das Seiten-Einrichtungspanel handhabt Layout- und Dekorationsoptionen. Diese drei Panels enthalten alles, was Sie zur Konfiguration eines vollständigen Schatzsuche-Arbeitsblatts benötigen.`,
     },
     {
@@ -39,19 +39,19 @@ const content: GuideContent = {
       content: `Der Schatzsuche-Ersteller bietet zwei Richtungstypen, und die Auswahl des richtigen bestimmt den Wortschatz und die Alterseignung Ihres Arbeitsblatts.\n\nDer Grundrichtungen-Modus verwendet oben, unten, links und rechts. Diese vertrauten Richtungswörter sind ideal für Vorschulkinder bis zur 1. Klasse, die grundlegenden räumlichen Wortschatz aufbauen. Junge Nutzer verstehen diese Begriffe bereits aus der täglichen Erfahrung, sodass sich die kognitive Herausforderung auf das Befolgen sequenzieller Anweisungen auf einem Raster konzentriert, anstatt neue Richtungswörter zu lernen. Grundrichtungs-Schatzsuchen sind ausgezeichnete einführende Pfadfindungs-Aktivitäten für frühkindliche Bildungsmarkt und Homeschool-Familien.\n\nDer Himmelsrichtungen-Modus verwendet Norden, Süden, Osten und Westen. Diese Kompassrichtungen führen Kartenlesefähigkeiten und geografische Orientierung ein und eignen sich ab der 2. Klasse. Die Nutzer müssen Kompassrichtungen mental auf das Raster abbilden — Norden ist oben, Süden ist unten, Osten ist rechts, Westen ist links — was eine Wortschatz-Übersetzungsschicht über die Pfadfindungs-Herausforderung hinzufügt. Himmelsrichtungs-Schatzsuchen eignen sich für Geografie-Einheiten, naturwissenschaftliche Kartenaktivitäten und jeden Produktkatalog, der Kompassfähigkeiten beinhaltet.\n\nBeide Richtungstypen erzeugen die gleiche 4-Bewegungen-Rätselstruktur auf dem gleichen 5×5-Koordinatenraster. Diese Konsistenz ist ein Produktdesign-Vorteil: Sie können progressive Schwierigkeitssätze erstellen, indem Sie mit Grundrichtungs-Arbeitsblättern beginnen und zu Himmelsrichtungs-Versionen mit identischen Themen und Bildern übergehen. Ein einzelnes thematisches Paket, das beide Richtungstypen enthält, bedient eine breitere Altersgruppe und bietet mehr Wert pro Kauf.`,
     },
     {
-      heading: 'Rätselraster und Sprache konfigurieren',
+      heading: `Rätselraster und Sprache konfigurieren`,
       content: `Jedes Schatzsuche-Rätsel verwendet ein festes 5×5-Koordinatenraster mit Zeilen von A bis E und Spalten von 1 bis 5. Dieses Buchstaben-Zahlen-Koordinatensystem lehrt die gleichen Rasterreferenz-Fähigkeiten, die in Geografie, Mathematik und Kartenlesen verwendet werden. Nutzer üben das Lesen von Koordinaten wie „Starte bei B3" oder „Gehe nach D1" und bauen Vertrautheit mit dem Zeilen-Spalten-Referenzformat auf, dem sie in späteren akademischen Kontexten begegnen werden.\n\nJedes Rätsel enthält genau 4 Richtungsbewegungen. Der Generator wählt eine zufällige Startzelle und erstellt 4 sequenzielle Bewegungen, die innerhalb der Rastergrenzen bleiben, und produziert jedes Mal ein gültiges, lösbares Rätsel. Das Arbeitsblatt zeigt 5 Anweisungszeilen: „Starte bei [Zelle]" gefolgt von 4 „Gehe [Richtung] [Anzahl] Feld(er)"-Hinweisen, endend mit „Wo ist der Schatz?" Diese konsistente Struktur macht Arbeitsblätter vorhersehbar für Nutzer und einfach in strukturierte Aktivitätssätze zu verpacken.\n\nWählen Sie die Inhaltssprache, um den Richtungshinweis-Text zu steuern. Der Schatzsuche-Ersteller ist sprachsensitiv — alle Richtungen werden vollständig in 11 unterstützte Sprachen übersetzt: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. „Starte bei", „Gehe", Richtungswortschatz für sowohl Grundrichtungen als auch Himmelsrichtungen, „Feld(er)" und „Wo ist der Schatz?" werden alle vollständig lokalisiert. Dies produziert authentische muttersprachliche Schatzsuche-Arbeitsblätter, keine englischen Rätsel mit übersetzten Überschriften. Für Verkäufer, die internationale Märkte ansprechen, erzeugt das Wechseln der Sprache ein völlig neues verkaufbares Produkt aus dem gleichen Rätseldesign.`,
     },
     {
-      heading: 'Thematische Bilder zum Raster hinzufügen',
+      heading: `Thematische Bilder zum Raster hinzufügen`,
       content: `Öffnen Sie das Bildbibliothek-Panel und wählen Sie, wie das Koordinatenraster mit 6 thematischen Orientierungsbildern bestückt werden soll. Drei Eingabemethoden geben Ihnen unterschiedliche Kontrolle über den visuellen Inhalt.\n\nAus Thema generieren ist die Standard- und schnellste Methode. Wählen Sie ein Thema aus den 104 verfügbaren Sammlungen und der Generator wählt automatisch 6 zufällige Bilder aus und verteilt sie über das 25-Zellen-Raster als visuelle Orientierungspunkte. Jeder Klick auf Generieren erzeugt eine völlig andere Anordnung mit verschiedenen Bildern aus dem gleichen Thema. Diese Methode ist ideal für die schnelle Massenproduktion, wenn Sie viele einzigartige Rätsel schnell benötigen.\n\nManuelle Bildauswahl lässt Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen durchsuchen — Tiere, Essen, Fahrzeuge, Natur, Feiertage, Berufe, Sport, Jahreszeiten und Dutzende mehr. Klicken Sie, um genau 6 Bilder für präzise Kontrolle über die Orientierungspunkte auf dem Raster auszuwählen. Diese Methode ist ideal, wenn Sie bestimmte visuelle Inhalte wünschen, z. B. sicherstellen, dass ein Dinosaurier-Thema die bekanntesten Arten zeigt.\n\nEigene Bilder hochladen ermöglicht Ihnen, eigene JPEG-, PNG-, GIF- oder WebP-Dateien neben Bibliotheksinhalten hinzuzufügen. Eigene Uploads schaffen einzigartige Produkte, die kein Wettbewerber replizieren kann. Klassenmaskottchen-Schatzsuchen, markenspezifische Bildungsrätsel und personalisierte Familien-Aktivitätsblätter werden exklusive Produkte, die anderswo nicht zu finden sind.\n\nBilder mit farbenfrohen, markanten Illustrationen funktionieren am besten als Raster-Orientierungspunkte, da sie Nutzern helfen, sich visuell zu orientieren, während sie den Richtungshinweisen folgen. Die 6 verteilten Bilder dienen als Wegpunkte, die das Raster ansprechend gestalten und jüngeren Lernenden helfen, ihre Position über die Bewegungen hinweg zu verfolgen.`,
     },
     {
-      heading: 'Seitenlayout und Dekorationen einstellen',
+      heading: `Seitenlayout und Dekorationen einstellen`,
       content: `Wählen Sie im Bereich Seiten-Einrichtung Ihre Seitengröße. Optionen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200 mal 1200 Pixel) und benutzerdefinierte Abmessungen. Letter ist Standard für nordamerikanische Käufer. A4 ist Standard für europäische und internationale Märkte. Beide Versionen zu erstellen verdoppelt Ihre Marktreichweite mit minimalem Zusatzaufwand.\n\nDie Seitenausrichtung beeinflusst das Rätsellayout. Der Hochformat-Modus zeigt einen vollständigen schatzsuchthematischen Header mit 100 Pixel Höhe mit dem Koordinatenraster und den Hinweisen darunter. Der Querformat-Modus verwendet einen kompakten Header mit 70 Pixel Höhe, um den Rasterplatz zu maximieren. Wählen Sie die Ausrichtung, die das Raster am besten präsentiert und den Richtungshinweisen ausreichend Anzeigeplatz gibt.\n\nHintergrund- und Rahmenthemen arbeiten unabhängig voneinander, jeweils mit eigenem Deckkraft-Regler von 0 bis 1 in Schritten von 0,05. Wenden Sie ein dezentes Hintergrundmuster bei 15 bis 25 Prozent Deckkraft für visuelle Wärme an, ohne vom Koordinatenraster und den Richtungshinweisen abzulenken. Überlagern Sie einen dekorativen Rahmen bei 80 bis 100 Prozent Deckkraft für eine polierte Einrahmung. Konsistente Hintergrund- und Rahmenkombinationen innerhalb eines Pakets erzeugen ein zusammenhängendes Produktaussehen, das Käufer mit Qualität verbinden.\n\nPassen Sie den Text mit 7 Schriftoptionen an, darunter Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Fügen Sie eine Textumrandung von 0 bis 10 für zusätzliche Gestaltung hinzu. Schalten Sie Name- und Datumsfelder für die Bildungsmarkt-Zuordnung um. Die Fabric.js-Leinwand bietet 6 Ausrichtungsoptionen plus Seitenmitte, Ebenen mit Sperren und Entsperren, Zoom von 25 bis 300 Prozent und Rückgängig/Wiederherstellen mit 50 Zuständen.`,
     },
     {
-      heading: 'Das Schatzsuche-Arbeitsblatt generieren',
+      heading: `Das Schatzsuche-Arbeitsblatt generieren`,
       content: `Klicken Sie auf Generieren, um das Pfadfindungs-Rätsel auf dem 5×5-Koordinatenraster zu erstellen. Der Generator verteilt Ihre 6 ausgewählten Bilder über die 25 Zellen als visuelle Orientierungspunkte, wählt eine zufällige Startzelle und erstellt genau 4 Richtungsbewegungen, die innerhalb der Rastergrenzen bleiben. Das Arbeitsblatt zeigt 5 Anweisungszeilen: „Starte bei [Zelle]" gefolgt von 4 „Gehe [Richtung] [Anzahl] Feld(er)"-Hinweisen in Ihrem gewählten Richtungstyp, endend mit „Wo ist der Schatz?"\n\nDer schatzsuchthematische Header wird automatisch oben auf dem Arbeitsblatt gerendert mit einem blaugrünen Hintergrund (#2C8C7C), bernsteinfarbenem äußeren Rahmen (#D4A574), sandig-beigem inneren Rahmen (#F4E4C1) und goldenem Titel (#D4A017) in Fredoka-Schrift bei 700 Stärke mit adaptiver 36 bis 48 Pixel Größe. Die Beschreibung erscheint in Dunkelbraun (#5C4033) mit Quicksand bei 500 Stärke. Diese professionelle Einrahmung steigert die wahrgenommene Qualität in Marktplatz-Angeboten.\n\nÜberprüfen Sie die Vorschau sorgfältig: Kontrollieren Sie, dass die Bilder gut über das Raster verteilt sind, die Richtungshinweise lesbar sind und den korrekten Richtungstyp (Grundrichtungen oder Himmelsrichtungen) verwenden und der Header-Text Ihrer gewählten Sprache entspricht. Wenn etwas angepasst werden muss, ändern Sie Ihre Einstellungen und generieren Sie sofort neu. Klicken Sie erneut auf Generieren, um ein völlig anderes Rätsel mit neuer zufälliger Bildplatzierung, neuer Startposition und neuer Bewegungssequenz zu erstellen — selbst bei gleichem Thema und Richtungstyp. Diese Zufallsgenerierung ermöglicht eine schnelle Massenproduktion einzigartiger Rätsel.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Das identische Rätsellayout erscheint — gleiches 5×5-Raster, gleiche verteilte Bilder, gleicher Header — mit der finalen Schatzzelle, die in blassgelb (rgba(255, 250, 205, 0.8)) hervorgehoben und mit einem dunkelgrauen Rahmen versehen ist. Die Hervorhebung macht das Schatzziel sofort ohne jede Mehrdeutigkeit sichtbar.\n\nWechseln Sie zwischen den Arbeitsblatt- und Lösungsschlüssel-Tabs, um den korrekten Schatzort zu vergleichen und zu verifizieren. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manueller Markierungsschritt, kein separater Designprozess, keine Möglichkeit nicht übereinstimmender Antworten. Diese gleichzeitige Generierung spart erheblich Zeit bei der Erstellung großer Schatzsuche-Pakete, bei denen manuelles Markieren von Lösungsschlüsseln unzumutbar langsam wäre.\n\nFür Produktangebote ist der Lösungsschlüssel ein starkes Verkaufsargument. Produkte, die Lösungsschlüssel mit klaren visuellen Markierungen enthalten, übertreffen konsequent Nur-Rätsel-Angebote, da Käufer und Eltern selbstüberprüfbare Materialien wünschen. Die blassgelb hervorgehobene Schatzzelle ist sofort erkennbar und macht die Überprüfung augenblicklich — Nutzer oder Eltern können die Antwort ohne jede Mehrdeutigkeit überprüfen. Erwähnen Sie immer „enthält automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle" in Ihren Angebotstiteln und -beschreibungen, um sich von Wettbewerbern abzuheben, die Pfadfindungs-Rätsel ohne Lösungen verkaufen.`,
     },
     {
-      heading: 'Alle vier Dateien herunterladen',
+      heading: `Alle vier Dateien herunterladen`,
       content: `Der Schatzsuche-Ersteller produziert 4 Dateien pro Sitzung: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Jeder Tab hat sein eigenes Paar von Download-Schaltflächen. Alle Dateien werden bei 300 DPI mit einem 6-fach-Multiplikator für JPEG und einem 3-fach-Multiplikator für PDF gerendert und produzieren druckfertige Ausgabe.\n\nSchalten Sie Graustufen vor dem Herunterladen um für tintenfreundliche Versionen, die ideal für Bildungsmarktdruck und Amazon KDP-Innenteile sind. Graustufen-Schatzsuche-Arbeitsblätter behalten die volle Lösbarkeit, da die Rätsel auf Richtungstext-Hinweisen und Rasterkoordinaten basieren, nicht auf Farbidentifikation. Sowohl Farb- als auch Graustufen-Versionen exportieren in identischer Auflösung.\n\nFür Marktplatz-Angebote exportieren Sie sowohl das PDF (als Ihr Verkaufsprodukt) als auch ein JPEG (für Angebots-Vorschaubilder). Zeigen Sie sowohl das Arbeitsblatt mit dem Koordinatenraster und den Richtungshinweisen als auch den Lösungsschlüssel mit der blassgelb hervorgehobenen Schatzzelle in Ihren Angebotsbildern, damit Käufer genau sehen können, was sie kaufen.\n\nUm ein vollständiges Produktpaket aufzubauen, wechseln Sie Themen, ändern Sie Richtungstypen, wählen Sie verschiedene Sprachen und generieren Sie neu. Jede Generierung produziert einen neuen Satz von 4 Dateien mit neuer Bildplatzierung, Startposition und Bewegungssequenz. Zehn Generierungssitzungen geben Ihnen 40 druckfertige Dateien — ein vollständiges Schatzsuche-Paket, bereit zum Einstellen.\n\nWichtig: Die kostenlose Testversion mit Wasserzeichen produziert voll funktionsfähige Exporte mit einem sichtbaren Wasserzeichen-Overlay. So können Sie die Druckqualität beurteilen, die Formatierung verifizieren und Testdrucke erstellen, bevor Sie eine kommerzielle Lizenz erwerben. Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Exporten und produziert saubere, verkaufsfertige Dateien.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Schatzsuche-Arbeitsblätter auf Etsy verkaufen',
+      heading: `Schatzsuche-Arbeitsblätter auf Etsy verkaufen`,
       content: `Etsy ist ein starker Marktplatz für Schatzsuche-Arbeitsblätter, da Eltern und Käufer nach spezifischen Pfadfindungs- und Koordinatenraster-Aktivitätstypen suchen. Titel wie „Schatzsuche-Arbeitsblätter — Koordinatenraster-Aktivitäten — Richtungs-Pfadfindungs-Rätsel — Mit Lösungsschlüsseln" erfassen gezielten Suchverkehr.\n\nBenennen Sie Ihre Produkte nach Richtungstyp und Thema statt mit generischen Titeln. „Himmelsrichtungs-Schatzsuche-Arbeitsblätter — 20 Kompass-Rätsel mit Lösungsschlüsseln — Tier-Thema" übertrifft „Schatzsuche-Aktivitäten für Kinder", weil es spezifische Käufer-Suchanfragen trifft und genau kommuniziert, was das Produkt enthält.\n\nTags: Nutzen Sie alle 13 Etsy-Tags. Kombinieren Sie breite und spezifische Begriffe: „Schatzsuche-Arbeitsblätter", „Koordinatenraster-Aktivitäten", „Richtungsrätsel für Kinder", „Pfadfindungs-Arbeitsblätter", „Kompassrichtungs-Aktivitäten", „druckbare Schatzsuche-Rätsel", „räumliches Denken Arbeitsblätter", „Kartenfähigkeiten-Aktivitäten" und Variationen passend zu Ihrem spezifischen Richtungstyp und Thema.\n\nAngebotsbilder: Zeigen Sie das vollständige Arbeitsblatt mit dem 5×5-Koordinatenraster, verteilten thematischen Bildern und deutlich sichtbaren Richtungshinweisen, eine Nahaufnahme des schatzsuchthematischen blaugrünen und goldenen Headers, den Lösungsschlüssel mit der blassgelb hervorgehobenen Schatzzelle und ein Mockup des ausgedruckten Arbeitsblatts im Einsatz. Das Koordinatenraster-Format ist visuell markant und erzeugt starke Vorschaubilder.\n\nPreisgestaltung: Einzelne Schatzsuche-Sets mit 10 bis 15 Arbeitsblättern und Lösungsschlüsseln verkaufen sich für 2,99 bis 5,99 $. Richtungstyp-Pakete mit 20 bis 30 Arbeitsblättern, die sowohl Grundrichtungen als auch Himmelsrichtungen abdecken, verkaufen sich für 6,99 bis 12,99 $. Komplette thematische Sammlungen über beide Richtungstypen, mehrere Themen und mehrere Sprachen verkaufen sich für 14,99 bis 24,99 $.`,
     },
     {
@@ -74,7 +74,7 @@ const content: GuideContent = {
       content: `Amazon KDP bedient den Markt für Pfadfindungs-Aktivitätsarbeitsbücher. Stellen Sie 50 bis 80 Schatzsuche-Arbeitsblätter in einem gebundenen Aktivitätsbuch-Format mit progressiver Schwierigkeit zusammen, strukturiert nach Richtungstyp.\n\nStrukturieren Sie Ihr Arbeitsbuch in Kapitel nach Richtungstyp und Thema: Frühe Kapitel verwenden Grundrichtungen (oben, unten, links, rechts) mit vertrauten Tier- oder Essensthemen für zugängliche Einführungsrätsel, mittlere Kapitel verwenden Grundrichtungen mit abwechslungsreicheren Themen zum Aufbau von Sicherheit, und fortgeschrittene Kapitel verwenden Himmelsrichtungen (Norden, Süden, Osten, Westen) zur Einführung von Kompasswortschatz und Kartenlesefähigkeiten. Fügen Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels ein, die die blassgelb hervorgehobene Schatzzelle zeigen.\n\nTitel und Untertitel: Beispieltitel: „Schatzsuche-Rätsel für Kinder." Beispieluntertitel: „80 Koordinatenraster-Pfadfindungs-Arbeitsblätter mit Lösungsschlüsseln für Kinder von 3–8 Jahren — Folge den Hinweisen, Zwei Richtungstypen, 5×5-Raster-Aktivitäten mit progressiver Schwierigkeit."\n\nSchlüsselwörter: KDP bietet 7 Schlüsselwort-Plätze. Verwenden Sie spezifische Phrasen: „Schatzsuche-Arbeitsblätter", „Koordinatenraster-Aktivitätsbuch", „Richtungsrätsel für Kinder", „Pfadfindungs-Arbeitsbuch", „Kompassrichtungs-Aktivitäten", „Folge-den-Hinweisen-Arbeitsblätter", „räumliches Denken Rätsel für Kinder."\n\nSchalten Sie Graustufen um für tintenfreundliche Ausgabe, die sauber in Schwarzweiß druckt und die KDP-Druckkosten niedrig hält. Das Koordinatenraster, die Richtungshinweise und die thematischen Bilder werden alle klar in Graustufen gerendert.`,
     },
     {
-      heading: 'Schatzsuche-Arbeitsblätter auf Gumroad verkaufen',
+      heading: `Schatzsuche-Arbeitsblätter auf Gumroad verkaufen`,
       content: `Gumroad ist ideal für Schatzsuche-Arbeitsblätter, da Koordinatenraster-Fähigkeiten und Richtungswortschatz fächerübergreifende Kompetenzen sind, die über alle Altersgruppen geschätzt werden. Mathematikkäufer nutzen Schatzsuchen zur Einführung von Koordinatenpaaren. Geografiekäufer nutzen Himmelsrichtungs-Versionen für Kompassfähigkeiten-Übungen. Allgemeinbildungskäufer nutzen sie für sequenzielle Anleitungsaktivitäten und Morgenaufwärm-Übungen.\n\nProduktbeschreibungen auf Gumroad sollten enthalten: Altersgruppe und Richtungstyp, spezifisch geübte Fähigkeiten (Koordinatenraster-Lesen, Richtungswortschatz, sequenzielle Anleitungsbefolgung, räumliches Denken), Anzahl der Arbeitsblätter, ob Lösungsschlüssel mit hervorgehobenen Schatzzellen enthalten sind, verwendeter Richtungstyp (Grundrichtungen oder Himmelsrichtungen oder beide), abgedeckte Themen und Sprachverfügbarkeit. Erwähnen Sie, dass Arbeitsblätter Name- und Datumsfelder für die Bildungsmarkt-Zuordnung enthalten.\n\nVorschaudateien: Gumroad erlaubt Ihnen, eine Vorschaudatei hochzuladen. Fügen Sie 2 bis 3 Beispiel-Schatzsuche-Arbeitsblätter ein, die verschiedene Themen und beide Richtungstypen zeigen, plus eine Lösungsschlüssel-Seite mit der blassgelb hervorgehobenen Schatzzelle. Zeigen Sie den Fortschritt von Grundrichtungen (vertrauter Wortschatz) zu Himmelsrichtungen (Kompassfähigkeiten).\n\nPaketierung auf Gumroad: Käufer kaufen Pakete für ganze Produktpakete. Ein „Komplettes räumliche Fähigkeiten-Paket" mit Schatzsuchen plus Labyrinth-Aktivitäten, Zuordnungs-Arbeitsblättern und Suchbild-Rätseln gibt Käufern Ressourcen für mehrere Produktpakete zum räumlichen Denken. Erstellen Sie gestufte Versionen innerhalb jedes Sets — Grundrichtungs-Schatzsuchen für jüngere Lernende und Himmelsrichtungs-Versionen für fortgeschrittene Nutzer.\n\nGumroad-spezifische Schlüsselwörter: „Schatzsuche-Arbeitsblätter", „Koordinatenraster-Aktivitäten", „Richtungswortschatz", „Kompassrichtungs-Rätsel", „Pfadfindungs-Aktivitäten", „Morgenarbeit räumlich", „Frühfertiger Richtungsbefolgung." Diese Begriffe entsprechen der Art, wie Käufer nach Ressourcen für räumliches Denken und Richtungen suchen.`,
     },
   ],
@@ -111,7 +111,7 @@ const content: GuideContent = {
       answer: `Der Generator bietet den Grundrichtungen-Modus (oben, unten, links, rechts) und den Himmelsrichtungen-Modus (Norden, Süden, Osten, Westen). Grundrichtungen verwenden vertrauten räumlichen Wortschatz, ideal für Vorschulkinder bis zur 1. Klasse. Himmelsrichtungen führen Kompasswortschatz ein, geeignet ab der 2. Klasse, und bauen Kartenlesefähigkeiten und geografische Orientierung auf. Beide Richtungstypen erzeugen die gleiche 4-Bewegungen-Rätselstruktur auf dem gleichen 5×5-Koordinatenraster (Zeilen A–E, Spalten 1–5), sodass Sie progressive Schwierigkeitssätze erstellen können, indem Sie mit Grundrichtungen beginnen und zu Himmelsrichtungen übergehen.`,
     },
     {
-      question: 'Wie funktioniert das 5×5-Koordinatenraster?',
+      question: `Wie funktioniert das 5×5-Koordinatenraster?`,
       answer: `Das Raster verwendet ein Buchstaben-Zahlen-Koordinatensystem mit Zeilen von A bis E und Spalten von 1 bis 5, was 25 Zellen ergibt. Sechs thematische Bilder verteilen sich über das Raster als visuelle Orientierungspunkte. Der Generator wählt eine zufällige Startzelle und erstellt genau 4 Richtungsbewegungen, die innerhalb der Rastergrenzen bleiben. Das Arbeitsblatt zeigt 5 Anweisungszeilen: „Starte bei [Zelle]" gefolgt von 4 „Gehe [Richtung] [Anzahl] Feld(er)"-Hinweisen, endend mit „Wo ist der Schatz?" Diese feste Struktur produziert jedes Mal gültige, lösbare Rätsel.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Schatzsuche-Arbeitsblätter sind sprachsensitiv, was ein wesentlicher Unterschied zu rein visuellen Formaten wie Schattenabgleich oder Fehlersuche ist. Der gesamte Richtungshinweis-Text — „Starte bei", „Gehe", Richtungswortschatz für sowohl Grundrichtungen als auch Himmelsrichtungen, „Feld(er)" und „Wo ist der Schatz?" — wird vollständig in alle 11 unterstützten Sprachen übersetzt. Bildinhalte aktualisieren sich ebenfalls pro Spracheinstellung. Dies produziert authentische muttersprachliche Schatzsuche-Arbeitsblätter, keine englischen Rätsel mit übersetzten Überschriften. Das lokalisierte Format ermöglicht mehrsprachige Produktlinien, bei denen ein Rätseldesign 11 verkaufbare Sprachversionen erzeugt.`,
     },
     {
-      question: 'Welche drei Bildeingabe-Methoden gibt es?',
+      question: `Welche drei Bildeingabe-Methoden gibt es?`,
       answer: `Aus Thema generieren (Standard) wählt automatisch 6 zufällige Bilder aus dem gewählten Thema und verteilt sie über das Raster als visuelle Orientierungspunkte. Manuelle Bildauswahl lässt Sie 104 thematische Sammlungen mit über 3.100 Illustrationen durchsuchen und per Klick genau 6 Bilder auswählen. Eigene Bilder hochladen ermöglicht Ihnen, eigene JPEG-, PNG-, GIF- oder WebP-Dateien hinzuzufügen. Alle drei Methoden bestücken das gleiche 5×5-Koordinatenraster mit 6 Orientierungsbildern, die Nutzern helfen, sich visuell zu orientieren, während sie den Richtungshinweisen folgen.`,
     },
     {
@@ -138,13 +138,13 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'suchbilder-arbeitsblaetter-erstellen',
-      title: 'Suchbilder-Arbeitsblätter erstellen',
+      slug: `suchbilder-arbeitsblaetter-erstellen`,
+      title: `Suchbilder-Arbeitsblätter erstellen`,
       description: `Ein Such- und Finde-Begleiter zu Schatzsuchen. Suchbilder-Arbeitsblätter fordern Nutzer auf, Szenen nach bestimmten Gegenständen zu durchsuchen und trainieren verwandte visuelle Such- und Beobachtungsfähigkeiten.`,
     },
     {
-      slug: 'labyrinth-arbeitsblaetter-erstellen',
-      title: 'Labyrinth-Arbeitsblätter erstellen',
+      slug: `labyrinth-arbeitsblaetter-erstellen`,
+      title: `Labyrinth-Arbeitsblätter erstellen`,
       description: `Ein Pfadfindungs-Verwandter der Schatzsuche. Labyrinth-Arbeitsblätter entwickeln verwandte räumliche Navigationsfähigkeiten, bei denen Nutzer Routen durch Gänge verfolgen und die rasterbasierte Richtungsbewegung bei Schatzsuchen ergänzen.`,
     },
     {
@@ -155,56 +155,56 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung für ein Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbücher Business-Anleitung' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
-    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Suchbilder-Arbeitsblatt-Generator — Alle Details' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für ein Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbücher Business-Anleitung` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
+    { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: `Schatzsuche-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: `Suchbilder-Arbeitsblatt-Generator — Alle Details` },
     { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: `Den Schatzsuche-Arbeitsblatt-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'treasure-hunt',
-      title: 'Schatzsuche-Arbeitsblatt-Generator',
+      title: `Schatzsuche-Arbeitsblatt-Generator`,
       description: `Das Hauptwerkzeug für diese Anleitung. Erstellen Sie Pfadfindungs-Schatzsuche-Arbeitsblätter auf einem 5×5-Koordinatenraster mit zwei Richtungstypen (Grundrichtungen und Himmelsrichtungen), 6 thematischen Orientierungsbildern, genau 4 Richtungsbewegungen pro Rätsel und automatisch generierten Lösungsschlüsseln mit blassgelb hervorgehobenen Schatzzellen.`,
     },
     {
       appId: 'hidden-objects',
-      title: 'Suchbilder-Arbeitsblatt-Generator',
+      title: `Suchbilder-Arbeitsblatt-Generator`,
       description: `Ein Such- und Finde-Begleiter, der Szenen-Durchsuch-Aktivitäten erstellt. Suchbilder-Arbeitsblätter entwickeln verwandte visuelle Suchfähigkeiten, bei denen Nutzer Raster nach versteckten Gegenständen durchsuchen und die Koordinatenraster-Erkundung bei Schatzsuchen ergänzen.`,
     },
     {
       appId: 'maze',
-      title: 'Labyrinth-Arbeitsblatt-Generator',
+      title: `Labyrinth-Arbeitsblatt-Generator`,
       description: `Ein Pfadfindungs-Verwandter, der navigierbare Gangrätsel erstellt. Labyrinth-Arbeitsblätter entwickeln verwandte räumliche Navigationsfähigkeiten, die die Richtungsbewegung und rasterbasierte Pfadfindung ergänzen, die bei Schatzsuche-Aktivitäten geübt werden.`,
     },
     {
       appId: 'grid-match',
-      title: 'Rasterabgleich-Arbeitsblatt-Generator',
+      title: `Rasterabgleich-Arbeitsblatt-Generator`,
       description: `Ein rasterbasierter Begleiter, der räumliche Zuordnungsrätsel erstellt. Rasterabgleich-Übungen entwickeln räumliches Bewusstsein auf Rasterlayouts, das die Koordinatenraster-Kompetenz direkt ergänzt, die bei Schatzsuche-Arbeitsblättern geübt wird.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/treasure hunt/worksheet.webp', alt: `Schatzsuche-Pfadfindungs-Arbeitsblatt mit 5 mal 5 Koordinatenraster, 6 verteilten thematischen Orientierungsbildern, Richtungshinweisen und schatzsuchthematischem blaugrünen Header mit goldenem Fredoka-Titel` },
+    heroImage: { src: `/samples/german/treasure hunt/worksheet.webp`, alt: `Schatzsuche-Pfadfindungs-Arbeitsblatt mit 5 mal 5 Koordinatenraster, 6 verteilten thematischen Orientierungsbildern, Richtungshinweisen und schatzsuchthematischem blaugrünen Header mit goldenem Fredoka-Titel` },
     samples: [
-      { src: '/samples/german/treasure hunt/worksheet.webp', alt: `Schatzsuche-Arbeitsblatt mit 5 mal 5 Koordinatenraster mit verteilten thematischen Bildern und Richtungshinweis-Anweisungen unter dem schatzsuchthematischen Header`, caption: 'Schatzsuche-Arbeitsblatt mit Grundrichtungs-Hinweisen auf einem 5 mal 5 Koordinatenraster mit 6 thematischen Orientierungsbildern' },
-      { src: '/samples/german/treasure hunt/worksheet (1).webp', alt: `Schatzsuche-Arbeitsblatt mit Himmelsrichtungs-Hinweisen unter Verwendung von Norden Süden Osten und Westen auf dem 5 mal 5 Koordinatenraster`, caption: 'Himmelsrichtungen-Modus mit Kompasswortschatz für fortgeschrittenes räumliches Denken und Kartenlesefähigkeiten' },
-      { src: '/samples/german/treasure hunt/answer_key.webp', alt: `Automatisch generierter Lösungsschlüssel mit finaler Schatzzelle in blassgelb hervorgehoben auf dem 5 mal 5 Koordinatenraster`, caption: 'Automatisch generierter Lösungsschlüssel mit blassgelb hervorgehobener Schatzzelle zur sofortigen Überprüfung' },
+      { src: `/samples/german/treasure hunt/worksheet.webp`, alt: `Schatzsuche-Arbeitsblatt mit 5 mal 5 Koordinatenraster mit verteilten thematischen Bildern und Richtungshinweis-Anweisungen unter dem schatzsuchthematischen Header`, caption: `Schatzsuche-Arbeitsblatt mit Grundrichtungs-Hinweisen auf einem 5 mal 5 Koordinatenraster mit 6 thematischen Orientierungsbildern` },
+      { src: `/samples/german/treasure hunt/worksheet (1).webp`, alt: `Schatzsuche-Arbeitsblatt mit Himmelsrichtungs-Hinweisen unter Verwendung von Norden Süden Osten und Westen auf dem 5 mal 5 Koordinatenraster`, caption: `Himmelsrichtungen-Modus mit Kompasswortschatz für fortgeschrittenes räumliches Denken und Kartenlesefähigkeiten` },
+      { src: `/samples/german/treasure hunt/answer_key.webp`, alt: `Automatisch generierter Lösungsschlüssel mit finaler Schatzzelle in blassgelb hervorgehoben auf dem 5 mal 5 Koordinatenraster`, caption: `Automatisch generierter Lösungsschlüssel mit blassgelb hervorgehobener Schatzzelle zur sofortigen Überprüfung` },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: `So erstellen Sie Schatzsuche-Arbeitsblätter — Komplettes Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/camping/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Fernglas — thematisches Lernbild', caption: 'Fernglas' },
-    { src: '/image-library/camping/boots.webp', alt: 'Stiefel — thematisches Lernbild', caption: 'Stiefel' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/camping/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Fernglas — thematisches Lernbild`, caption: 'Fernglas' },
+    { src: `/image-library/camping/boots.webp`, alt: `Stiefel — thematisches Lernbild`, caption: 'Stiefel' },
+    { src: `/image-library/camping/cabin.webp`, alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
   ],
 };
 

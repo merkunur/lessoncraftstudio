@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy Arbeitsblatt-Pakete erstellen',
+    primaryKeyword: `Etsy Arbeitsblatt-Pakete erstellen`,
     secondaryKeywords: [
-      'Etsy Arbeitsblatt-Pakete erstellen Anleitung',
-      'Etsy Druckvorlagen-Paket Angebotsstrategie',
-      'Arbeitsblatt-Pakete auf Etsy verkaufen',
-      'Etsy digitaler Download Paket erstellen',
+      `Etsy Arbeitsblatt-Pakete erstellen Anleitung`,
+      `Etsy Druckvorlagen-Paket Angebotsstrategie`,
+      `Arbeitsblatt-Pakete auf Etsy verkaufen`,
+      `Etsy digitaler Download Paket erstellen`,
     ],
     lsiKeywords: [
       `Etsy Paket-Angebot Optimierung Dateiorganisation Strategie`,
       `Arbeitsblatt-Paket Preisgestaltung Ankerrabatt Wertstapelung`,
-      'Etsy Paket Vorschaubilder Thumbnail Mockup Layout',
+      `Etsy Paket Vorschaubilder Thumbnail Mockup Layout`,
       `Fach Klasse Thema saisonale Pakettypen praktische Druckvorlagen`,
       `Etsy digitale Lieferung mehrere Dateien Paketstruktur`,
       `Paket vs Einzelangebot Kannibalisierung Etsy-Shop Strategie`,
     ],
-    titleTag: 'Etsy Arbeitsblatt-Pakete erstellen — Leitfaden',
+    titleTag: `Etsy Arbeitsblatt-Pakete erstellen — Leitfaden`,
     metaDescription: `Etsy-Arbeitsblatt-Pakete erstellen und den Bestellwert steigern. Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung.`,
   },
 
   hero: {
-    title: 'Etsy Arbeitsblatt-Pakete erstellen',
+    title: `Etsy Arbeitsblatt-Pakete erstellen`,
     tagline: `Ein umfassender Leitfaden zum Erstellen, Strukturieren, Einstellen und Optimieren von Arbeitsblatt-Paketen für Etsy — einschließlich Pakettypauswahl über Fach-, Altersgruppen-, Themen-, Saison- und Formatkategorien, Produktauswahl für maximalen wahrgenommenen Wert, Dateiorganisation innerhalb der Etsy-Liefergrenzen, paketspezifische Vorschaubilder und Thumbnail-Design, Angebotstitel und Tags optimiert für Paket-Suchbegriffe, Wertstapelungs-Preisstrategien mit Ankerrabatten sowie Leistungsverfolgung zur Identifikation Ihrer erfolgreichsten Paketkombinationen`,
     description: `Arbeitsblatt-Pakete gehören zu den umsatzstärksten Angeboten auf Etsy für Verkäufer praktischer Druckvorlagen. Dieser Leitfaden führt Sie durch den gesamten Paket-Erstellungsprozess — von der Auswahl der zu kombinierenden Produkte über das Schreiben von Angeboten, die den Paketwert kommunizieren, bis zur Leistungsverfolgung über die Zeit.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Nicht alle Pakete sind gleich strukturiert. Der Pakettyp, den Sie erstellen, bestimmt, welche Käufer Sie ansprechen und wie Sie das Angebot positionieren. Es gibt fünf Hauptpakettypen für praktische Druckvorlagen, die jeweils ein unterschiedliches Käuferbedürfnis bedienen.\n\n**Fachpakete:** Kombinieren Sie Arbeitsblätter aus dem gleichen Fachbereich. Ein „Mathe-Arbeitsblatt-Paket" könnte Additions-, Subtraktions-, Vergleichs-, Zahlenrätsel- und Gitterlogik-Arbeitsblätter enthalten. Fachpakete sprechen Käufer und Eltern an, die eine umfassende Abdeckung eines Themas suchen. Dies sind Ihre volumenstärksten Pakettypen, da fachbasiertes Suchen das häufigste Verhalten auf Etsy ist.\n\n**Altersgruppen-Pakete:** Kombinieren Sie Arbeitsblätter aus verschiedenen Fächern, die alle für die gleiche Altersgruppe geeignet sind. Ein „Kindergarten-Aktivitätspaket" könnte einfache Addition, Buchstaben-Nachzeichnen, Malvorlagen und Wortsuche-Rätsel enthalten. Altersgruppen-Pakete sprechen Eltern und Homeschool-Käufer an, die mit einem Kauf mehrere Fachbereiche für das Niveau ihres Kindes abdecken möchten.\n\n**Themenpakete:** Kombinieren Sie Arbeitsblätter, die ein visuelles Thema über verschiedene Fächer und Formate teilen. Ein „Tier-Themen-Arbeitsblatt-Paket" könnte tierbasierte Addition, Tier-Wortsuchen, Tier-Malvorlagen und Tier-Vokabel-Arbeitsblätter enthalten. Themenpakete sprechen Käufer an, die zusammenhängende Klassen- oder Homeschool-Materialien mit einem einheitlichen visuellen Stil möchten.\n\n**Saisonale Pakete:** Kombinieren Sie Arbeitsblätter, die auf bestimmte Jahreszeiten oder Anlässe abgestimmt sind. Ein „Schulstart-Arbeitsblatt-Set" zielt auf den Kaufhöhepunkt August–September. Ein „Winter-Feiertags-Aktivitätspaket" zielt auf November–Dezember. Saisonale Pakete nutzen vorhersehbare Nachfragespitzen und können das ganze Jahr über rotiert werden.\n\n**Formatpakete:** Kombinieren Sie Arbeitsblätter des gleichen Formattyps über Fächer und Themen hinweg. Ein „Rätsel-Aktivitätspaket" könnte Wortsuchspiele, Sudoku, Mathe-Rätsel und Gitterlogik-Arbeitsblätter enthalten. Formatpakete sprechen Käufer an, die wissen, dass ihre Nutzer einen bestimmten Aktivitätstyp mögen, und Abwechslung innerhalb dieses Formats wünschen.\n\n**Den richtigen Typ wählen:** Beginnen Sie mit Fachpaketen — sie haben die breiteste Anziehungskraft und die klarste Keyword-Ausrichtung. Sobald Sie zwei oder drei gut laufende Fachpakete haben, erweitern Sie auf Altersgruppen- und Themenpakete mit vielen der gleichen Komponentenarbeitsblätter. So können Sie mehrere Pakete aus überlappenden Beständen erstellen, ohne komplett neue Inhalte produzieren zu müssen.`,
     },
     {
-      heading: 'Produkte für maximalen Paketwert auswählen',
+      heading: `Produkte für maximalen Paketwert auswählen`,
       content: `Die Produkte, die Sie in ein Paket aufnehmen, bestimmen seinen wahrgenommenen Wert, seine Attraktivität für bestimmte Käufersegmente und seine Konversionsrate. Zufällige Auswahl produziert schwache Pakete. Strategische Auswahl produziert Pakete, die konstant verkaufen.\n\n**Optimale Stückzahl:** Für praktische Druckvorlagen-Pakete auf Etsy liegt der optimale Bereich bei 5 bis 10 Einzelartikeln pro Paket. Weniger als fünf Artikel fühlen sich unzureichend an, um ein Paket-Label zu rechtfertigen — Käufer erwarten bedeutende Ersparnisse, und ein Drei-Artikel-„Paket" kommuniziert selten genug Wert. Mehr als 10 Artikel können überwältigend wirken und machen es schwieriger, alles effektiv in Angebotsfotos darzustellen. Der optimale Bereich für die meisten Verkäufer liegt bei 6 bis 8 Artikeln.\n\n**Vielfalt innerhalb der Kohärenz:** Jeder Artikel im Paket sollte zum Paketthema passen und gleichzeitig etwas Eigenständiges bieten. Ein Mathe-Paket mit acht nahezu identischen Additions-Arbeitsblättern wirkt repetitiv. Ein Mathe-Paket mit Addition, Subtraktion, Vergleich, Zahlenerkennung, Zählen, Zählen in Sprüngen, Gitterrätseln und Code-Rätseln bietet echte Vielfalt bei gleichzeitiger Fachkohärenz. Jeder Artikel sollte dem Käufer einen Grund geben, froh zu sein, dass er enthalten ist.\n\n**Schwierigkeitsgrade mischen:** Nehmen Sie Arbeitsblätter mit unterschiedlichen Schwierigkeitsgraden in das Paket auf. Dies verlängert die Nutzungsdauer des Pakets — ein Kindergarten-Mathe-Paket mit Arbeitsblättern von einfachem Zählen bis zur mehrstelligen Addition begleitet Nutzer das ganze Schuljahr, während sich ihre Fähigkeiten entwickeln. Die Schwierigkeitsstufen explizit in Ihrer Angebotsbeschreibung zu erwähnen, erhöht den wahrgenommenen Wert.\n\n**Immer Lösungsschlüssel einschließen:** Jedes Arbeitsblatt im Paket sollte mit einem entsprechenden Lösungsschlüssel geliefert werden. Fehlende Lösungsschlüssel sind eine der häufigsten Beschwerden in negativen Bewertungen für praktische Druckvorlagen-Pakete. Lösungsschlüssel erhöhen auch die Seitenanzahl, die Sie bewerben können, und steigern so den wahrgenommenen Wert.\n\n**Mehrere Generatoren verwenden:** Ein Paket, das aus einem einzelnen Generator erstellt wurde, mangelt oft an Vielfalt. Verwenden Sie den Additions-Arbeitsblatt-Generator und den Subtraktions-Arbeitsblatt-Generator zusammen für ein Mathe-Paket. Kombinieren Sie den Wortsuche-Generator und den Malvorlagen-Generator für ein Themenpaket. Generator-übergreifende Pakete wirken kuratierter und wertvoller als Einzelgenerator-Sammlungen.\n\n**Testen vor dem Bündeln:** Bevor Sie ein Arbeitsblatt in ein Paket aufnehmen, generieren und überprüfen Sie es. Stellen Sie sicher, dass der Schwierigkeitsgrad für die Zielaltersgruppe angemessen ist, dass visuelle Themen konsistent sind und dass Lösungsschlüssel korrekt sind. Ein einziger qualitativ minderwertiger Artikel in einem Paket beeinflusst die Wahrnehmung der gesamten Sammlung durch den Käufer.`,
     },
     {
@@ -47,19 +47,19 @@ const content: GuideContent = {
       content: `Dateiorganisation ist der Bereich, in dem viele Paketverkäufer an Glaubwürdigkeit verlieren. Ein Paket, das als unorganisierte Dateisammlung mit inkonsistenter Benennung geliefert wird, schafft ein schlechtes Käufererlebnis und lädt zu negativen Bewertungen ein. Professionelle Dateiorganisation signalisiert Qualität und rechtfertigt Ihren Paketpreis.\n\n**Etsys Grenzen für digitale Lieferung:** Etsy erlaubt bis zu 5 digitale Dateien pro Angebot, mit maximal 20 MB pro Datei. Für Pakete mit vielen Arbeitsblättern bedeutet das, dass Sie mehrere Arbeitsblätter zu kombinierten PDFs zusammenfassen müssen, anstatt jedes Arbeitsblatt als separate Datei hochzuladen. Planen Sie Ihre Dateistruktur von Anfang an um diese Einschränkung herum.\n\n**Dateibenennungskonvention:** Verwenden Sie klare, beschreibende Dateinamen, die Käufern genau sagen, was sie herunterladen. Ein Dateiname wie „paket-mathe-k.pdf" kommuniziert nichts. Ein Dateiname wie „Kindergarten-Mathe-Paket-Additions-Arbeitsblaetter.pdf" sagt dem Käufer genau, was drin ist. Fügen Sie den Paketnamen, das Fach oder die Kategorie und den Inhaltstyp in jeden Dateinamen ein.\n\n**Empfohlene Dateistruktur für ein 5-Dateien-Paket:**\n\nDatei 1: Paket-Deckblatt und Inhaltsverzeichnis (1–2 Seiten mit allem Enthaltenen)\nDatei 2: Primäres Arbeitsblatt-Set mit Lösungsschlüsseln (z. B. Additions-Arbeitsblätter + Lösungen)\nDatei 3: Sekundäres Arbeitsblatt-Set mit Lösungsschlüsseln (z. B. Subtraktions-Arbeitsblätter + Lösungen)\nDatei 4: Ergänzendes Arbeitsblatt-Set mit Lösungsschlüsseln (z. B. Rätsel und Aktivitäten + Lösungen)\nDatei 5: Bonusinhalt oder Nutzungsleitfaden (Tipps für Käufer, empfohlener Zeitplan, zusätzliche Aktivitäten)\n\n**Paket-Deckblatt erstellen:** Gestalten Sie ein professionelles Deckblatt, das jeden im Paket enthaltenen Artikel auflistet. Dies dient sowohl als Referenzdokument für Käufer als auch als Qualitätssignal. Fügen Sie den Paketnamen, die Gesamtseitenzahl, die Altersgruppe und eine visuelle Vorschau jedes enthaltenen Arbeitsblatttyps ein.\n\n**Inhaltsverzeichnis:** Für Pakete mit vielen Arbeitsblättern fügen Sie ein einseitiges Inhaltsverzeichnis mit Seitennummern hinzu. Dies hilft Käufern und Eltern, direkt zum benötigten Inhalt zu navigieren, und kommuniziert die Breite des Enthaltenen.\n\n**PDF-Zusammenstellung:** Fassen Sie verwandte Arbeitsblätter zu einzelnen PDF-Dateien mit einheitlicher Formatierung zusammen. Jedes Arbeitsblatt sollte auf einer neuen Seite beginnen, und Lösungsschlüssel sollten direkt nach dem entsprechenden Arbeitsblatt folgen. Verwenden Sie einheitliche Seitenränder, Ausrichtung und Größe im gesamten Paket.\n\n**Dateigrößenoptimierung:** Wenn Ihre kombinierten PDFs Etsys 20-MB-Limit pro Datei überschreiten, reduzieren Sie die Bildauflösung leicht oder verwenden Sie PDF-Komprimierungstools. Streben Sie ein Gleichgewicht zwischen Dateigröße und Druckqualität an — 300 DPI ist ideal für druckbare Arbeitsblätter, aber 200 DPI ist akzeptabel, wenn die Dateigröße eine Einschränkung darstellt.`,
     },
     {
-      heading: 'Paket-Vorschaubilder erstellen, die verkaufen',
+      heading: `Paket-Vorschaubilder erstellen, die verkaufen`,
       content: `Paket-Angebotsfotos erfordern eine andere Behandlung als Einzelproduktfotos. Ein Einzelarbeitsblatt-Angebot kann das vollständige Arbeitsblatt klar in einem Bild zeigen. Ein Paket muss den Umfang und die Vielfalt seines Inhalts kommunizieren — und Käufern zeigen, dass sie erheblichen Wert erhalten.\n\n**Das Fächer-Layout:** Ordnen Sie gedruckte Arbeitsblätter in einem gefächerten Muster an, sodass jede Seite teilweise sichtbar ist und einen visuellen Eindruck von Fülle erzeugt. Dies ist das effektivste Layout, um die Paketgröße auf einen Blick zu kommunizieren. Selbst in einem kleinen Thumbnail liest sich ein Fächer von 8 Arbeitsblättern sofort als „mehr Wert als ein einzelnes Blatt".\n\n**Das Raster-Layout:** Zeigen Sie einzelne Arbeitsblätter in einer Rasteranordnung (2x3 oder 3x3) mit jedem klar sichtbaren Arbeitsblatt. Dieses Layout funktioniert gut, wenn jeder Artikel im Paket visuell eigenständig ist und Sie möchten, dass Käufer die Vielfalt sehen. Verwenden Sie einheitliche Abstände und Ausrichtung für ein professionelles Erscheinungsbild.\n\n**Die „Was enthalten ist"-Infografik:** Erstellen Sie ein spezielles Bild, das jeden Artikel im Paket mit kleinen Thumbnail-Vorschauen neben jedem Artikelnamen auflistet. Fügen Sie die Gesamtseitenzahl, die Anzahl der Arbeitsblätter und eventuelle Bonusartikel ein. Dieses Bild funktioniert typischerweise gut als zweites oder drittes Angebotsfoto.\n\n**Thumbnail-Strategie für Pakete:** Ihr erstes Bild (Thumbnail in den Suchergebnissen) muss auf einen Blick „Paket" kommunizieren. Verwenden Sie Textüberlagerung mit der Artikelanzahl („8 Arbeitsblätter", „50+ Seiten") in gut lesbarer Schriftgröße. Kombinieren Sie dies mit einem Fächer- oder Raster-Layout, das mehrere Arbeitsblätter zeigt. Das Ziel ist, dass ein Käufer, der Suchergebnisse durchscrollt, Ihr Paket sofort von Einzelangeboten unterscheiden kann.\n\n**Lifestyle-Mockups:** Zeigen Sie den Paketinhalt gedruckt und auf einem Schreibtisch, Tisch oder in einem Bildungsmarkt arrangiert. Fügen Sie Requisiten wie Stifte, Buntstifte, Scheren oder einen Schulranzen hinzu, um Kontext zu schaffen. Lifestyle-Fotos helfen Käufern, die Nutzung des Produkts zu visualisieren, was emotionale Bindung und Konversionsrate erhöht.\n\n**Fotoreihenfolge für Pakete:** Bild 1: Fächer- oder Rasterlayout mit allen Artikeln (Thumbnail). Bild 2: Was-enthalten-ist-Infografik. Bild 3–5: Einzelarbeitsblatt-Nahaufnahmen für Qualität und Detail. Bild 6–7: Lösungsschlüssel-Seiten. Bild 8: Lifestyle-Mockup in Verwendung. Bild 9–10: Größenreferenz oder Druckanleitung.\n\n**Konsistenz über Paketangebote hinweg:** Wenn Sie mehrere Pakete verkaufen, verwenden Sie konsistenten Fotostil — gleiche Hintergrundfarbe, gleiche Schrift für Textüberlagerungen, gleiche Layoutstruktur. Dies schafft Markenwiedererkennung, wenn Käufer Ihren Shop durchstöbern, und signalisiert professionelle Qualität.`,
     },
     {
-      heading: 'Paket-Angebote für die Etsy-Suche optimieren',
+      heading: `Paket-Angebote für die Etsy-Suche optimieren`,
       content: `Paketangebote erfordern andere Keyword-Strategien und Beschreibungsstrukturen als Einzelproduktangebote. Käufer, die nach Paketen suchen, verwenden andere Suchbegriffe und bewerten Angebote anders.\n\n**Pakettitel-Formel:** [Fach/Thema] [Produkttyp] Paket | [Klasse/Alter] [Format-Qualifizierer] | [Inhaltssignal]\n\nBeispiele:\n• „Mathe-Arbeitsblatt-Paket Kindergarten | Addition Subtraktion Druckvorlagen-Set | 50 Seiten Digitaler Download"\n• „Tier-Themen-Aktivitätspaket | Malvorlagen Wortsuche Mathe-Arbeitsblätter | Druckbares Klassen-Set"\n• „Schulstart-Arbeitsblatt-Paket 1. Klasse | Mathe Lesen Aktivitäten-Set | Digitaler Download PDF"\n\nFügen Sie „Paket" oder „Set" in die erste Hälfte Ihres Titels ein. Käufer, die Ergebnisse nach Paketen filtern, schließen diese Wörter oft in ihre Suche ein, und Etsy gewichtet Wörter stärker, die früher im Titel erscheinen.\n\n**Tag-Strategie für Pakete:** Ihre 13 Tags sollten paketspezifische Begriffe abdecken, die Einzelangebote nicht verwenden würden. Verteilen Sie Tags über diese Kategorien:\n\n1. **Paketbegriffe** (3 Tags): „Arbeitsblatt-Paket", „Druckvorlagen-Set", „Aktivitäten-Sammlung"\n2. **Fach/Thema** (3 Tags): „Mathe-Arbeitsblätter", „Additionsübungen", „Subtraktionsaktivitäten"\n3. **Klasse/Alter** (2 Tags): „Kindergarten Mathe", „Erste Klasse"\n4. **Anwendungsfall** (2 Tags): „Homeschool-Paket", „Klassenmaterialien"\n5. **Format** (1 Tag): „Digitaler Download"\n6. **Saisonal oder Käufer** (2 Tags): „Käuferressourcen", „Schulanfang"\n\n**Beschreibungsstruktur für Pakete:** Paketbeschreibungen müssen klar alles Enthaltene kommunizieren. Strukturieren Sie Ihre Beschreibung in dieser Reihenfolge:\n\n1. Eröffnung (erste 160 Zeichen): Primäres Keyword, Artikelanzahl, Altersgruppe und sofortige Wertaussage\n2. Was enthalten ist: Nummerierte Liste jedes Artikels im Paket mit Seitenanzahl\n3. Paketdetails: Gesamtseitenzahl, Dateiformat, Schwierigkeitsbereich, Bestätigung der Lösungsschlüssel\n4. Zielgruppe: Spezifische Käufer-Personas (Käufer, Homeschool-Eltern, Selbststudium-Käufer)\n5. Verwendung: Druckanweisungen, empfohlene Zeiteinteilung oder Zeitplan\n6. Technische Details: Dateiformat, Dateianzahl, Auflösung, Papiergrößen-Kompatibilität\n\nFür detaillierte Etsy-SEO-Techniken einschließlich Tag-Recherche-Methoden und Angebotsoptimierung sehen Sie unseren vollständigen Leitfaden zu Etsy SEO für praktische Druckvorlagen.`,
     },
     {
-      heading: 'Pakete für maximalen Umsatz bepreisen',
+      heading: `Pakete für maximalen Umsatz bepreisen`,
       content: `Paketpreisgestaltung ist sowohl Kunst als auch Wissenschaft. Das Ziel ist, einen Preis festzulegen, der sich wie ein bedeutender Rabatt gegenüber dem Einzelkauf anfühlt und gleichzeitig Ihren Umsatz pro Transaktion maximiert.\n\n**Das Ankerpreis-Prinzip:** Paketpreise funktionieren nur, wenn Käufer den Paketpreis mit den Einzelartikelpreisen vergleichen können. Das bedeutet, Sie sollten Einzelangebote für mindestens einige der Artikel in Ihrem Paket haben, die zu ihrem Einzelpreis angeboten werden. Der sichtbare Preisunterschied zwischen Einzelkauf und Paketkauf erzeugt die wahrgenommene Ersparnis, die Paketkäufe antreibt.\n\n**Rabattbereich:** Die meisten erfolgreichen praktischen Druckvorlagen-Pakete auf Etsy bieten 25 % bis 40 % Rabatt auf die Summe der Einzelpreise. Weniger als 25 % fühlt sich wie ein unbedeutender Rabatt an. Mehr als 40 % kann Käufer dazu bringen, den Wert Ihrer Einzelangebote oder die Qualität des Paketinhalts in Frage zu stellen. Der optimale Bereich für die meisten Verkäufer liegt bei 30 % bis 35 % Rabatt.\n\n**Gestaffelte Paketstrategie:** Bieten Sie Pakete in mehreren Größenstufen an, um verschiedene Käufersegmente anzusprechen:\n\n• **Starterpaket** (3–4 Artikel): Einstiegspreis, zieht vorsichtige Käufer an, 20–25 % Rabatt\n• **Standardpaket** (6–8 Artikel): Ihr Hauptpaket, bestes Preis-Leistungs-Verhältnis, 30–35 % Rabatt\n• **Megapaket** (12–15+ Artikel): Premiumpreis, maximaler wahrgenommener Wert, 35–40 % Rabatt\n\nDieser gestaffelte Ansatz erzeugt seine eigene Ankerpreisbildung — das Megapaket lässt das Standardpaket erschwinglich erscheinen, und das Standardpaket lässt das Starterpaket wie einen vernünftigen Erstkauf aussehen.\n\n**Wann kein Rabatt:** Einige Pakettypen rechtfertigen den vollen Preis oder minimale Rabatte. Saisonale Pakete, die während der Spitzennachfrage veröffentlicht werden (Schulstart-Sets im August), erzielen höhere Preise, weil das Timing Dringlichkeit erzeugt. Exklusive Pakete mit Artikeln, die nicht einzeln verkauft werden, können ohne Bezug auf Einzelartikelwerte bepreist werden.\n\n**Preiskommunikation in Angeboten:** Geben Sie die Ersparnisse explizit in Ihrer Angebotsbeschreibung und Ihren Fotos an. „Dieses Paket enthält 8 Arbeitsblätter im Einzelwert von 24 $ — sparen Sie 50 % mit dem Paketpreis." Machen Sie die Rechnung für Käufer leicht nachvollziehbar. Für eine umfassende Aufschlüsselung der Preisstrategien sehen Sie unseren Leitfaden Etsy-Druckvorlagen richtig bepreisen.`,
     },
     {
-      heading: 'Paket-Leistung verfolgen und iterieren',
+      heading: `Paket-Leistung verfolgen und iterieren`,
       content: `Das Erstellen von Paketen ist keine einmalige Aktivität. Die erfolgreichsten Druckvorlagen-Verkäufer überwachen die Paketleistung kontinuierlich und passen ihre Strategie basierend auf Daten an.\n\n**Etsy Stats für Pakete:** Verwenden Sie Ihr Etsy Stats Dashboard, um die Paketleistung mit Einzelangeboten zu vergleichen. Wichtige Kennzahlen: Aufrufe (wie oft das Angebot in der Suche erscheint), Besuche (wie oft Käufer durchklicken), Konversionsrate (Prozentsatz der Besucher, die kaufen) und Umsatz. Vergleichen Sie diese Kennzahlen monatlich, um Trends zu identifizieren.\n\n**Paket- vs. Einzelkannibalisierung:** Eine Sorge bei Paketen ist, ob sie die Einzelangebotsverkäufe reduzieren. Beobachten Sie, ob das Hinzufügen eines Pakets die Verkäufe der darin enthaltenen Einzelartikel verringert. Eine gewisse Kannibalisierung ist normal und akzeptabel — wenn ein Käufer ein 12-$-Paket anstelle eines 3-$-Einzelarbeitsblatts kauft, haben Sie den Umsatz um 9 $ pro Transaktion gesteigert. Die Sorge gilt dem Fall, dass die Paketverfügbarkeit den Gesamtumsatz verringert, was bei korrekter Bepreisung selten ist.\n\n**Top-Performer identifizieren:** Nach zwei oder drei Monaten mit mehreren Pakettypen kristallisieren sich Muster heraus. Sie könnten entdecken, dass Fachpakete Themenpakete übertreffen oder dass Kindergarten-Pakete besser abschneiden als Erstklassmarkt-Pakete. Verdoppeln Sie bei dem, was funktioniert — erstellen Sie zusätzliche Pakete in Ihrer Gewinnerkategorie mit unterschiedlichen Themen oder Inhaltsvariationen.\n\n**Saisonale Paketrotation:** Erstellen Sie einen Kalender für saisonale Paket-Einführungen. Bereiten Sie Schulstart-Pakete bis Mitte Juli vor (listen Sie sie vier bis sechs Wochen vor der Spitzennachfrage, um Suchranking aufzubauen). Bereiten Sie Feiertagsaktivitäten-Pakete bis Anfang Oktober vor. Bereiten Sie Sommerlernen-Pakete bis Ende April vor. Saisonale Pakete können jährlich mit kleinen Inhalts-Updates erneut eingestellt werden.\n\n**Erfolgreiche Pakete erweitern:** Wenn ein Paket gut verkauft, erwägen Sie eine erweiterte Version. Ein beliebtes „Kindergarten-Mathe-Paket" mit 6 Artikeln könnte zu einem „Kindergarten-Mathe-Megapaket" mit 15 Artikeln zu einem höheren Preis werden. Der Erfolg des bestehenden Pakets validiert die Nachfrage nach dieser Kombination.\n\n**Schlechtleister aussortieren:** Pakete, die nach 60 Tagen Aufrufe aber keine Verkäufe erhalten, brauchen eine Überprüfung. Das Problem ist typischerweise eines von dreien: falscher Preispunkt, schlechte Vorschaubilder oder nicht passende Inhalte für die Zielgruppe. Ändern Sie eine Variable nach der anderen und geben Sie jeder Änderung 30 Tage, bevor Sie erneut bewerten. Wenn ein Paket nach drei Anpassungen immer noch underperformt, archivieren Sie es und lenken Sie Ihre Energie auf Ihre bewährten Pakettypen.\n\n**Bewertungsanalyse:** Achten Sie auf Bewertungen zu Ihren Paketen. Käufer erwähnen oft, welche Artikel sie am wertvollsten fanden und welche sie sich anders gewünscht hätten. Dieses Feedback fließt direkt in die Produktauswahl Ihres nächsten Pakets ein.`,
     },
   ],
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Gestaffelte Paketpreise als Upsell-Leiter',
+      heading: `Gestaffelte Paketpreise als Upsell-Leiter`,
       content: `Strukturieren Sie Ihren Paketkatalog als Upsell-Leiter mit drei Stufen. Ein Starterpaket für 7–9 $ dient als Einstiegspunkt für vorsichtige Käufer. Ein Standardpaket für 12–15 $ bietet das beste Preis-Leistungs-Verhältnis und wird Ihre empfohlene Option. Ein Megapaket für 20–25 $ erfasst Käufer, die alles möchten. Zeigen Sie alle drei Stufen in Ihren Shop-Sektionen, damit Käufer natürlich vergleichen und sich selbst einordnen. Der meiste Umsatz konzentriert sich auf die Standardstufe, aber die Existenz der Megastufe lässt die Standardstufe wie ein kluger Mittelweg-Kauf erscheinen — ein klassischer Preispsychologie-Effekt, der die Konversion der Standardstufe erhöht.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Erstellen Sie einen saisonalen Paketkalender, der auf die Kaufzyklen im Bildungsbereich abgestimmt ist. Veröffentlichen Sie Schulstart-Pakete Mitte Juli, Herbstaktivitäten-Pakete Anfang September, Feiertagspakete Ende Oktober, Winterlernpakete Anfang Dezember, Frühlingspakete im Februar und Sommervorbereitungspakete Ende April. Jede saisonale Veröffentlichung erzeugt einen Umsatzhöhepunkt, weil saisonale Keywords konzentrierte Nachfrage erleben. Stellen Sie aktualisierte Versionen der saisonalen Pakete des Vorjahres mit frischen Inhaltszusätzen erneut ein, um vom Interesse wiederkehrender Käufer zu profitieren und gleichzeitig auf der bestehenden Bewertungshistorie des Angebots aufzubauen.`,
     },
     {
-      heading: 'Paketexklusive Inhalte als Konversionstreiber',
+      heading: `Paketexklusive Inhalte als Konversionstreiber`,
       content: `Nehmen Sie ein oder zwei Artikel in Ihr Paket auf, die nicht als Einzelangebote verfügbar sind. Dieser „paketexklusive" Inhalt eliminiert die Möglichkeit des Käufers, nur die gewünschten Artikel einzeln herauszupicken und separat zu kaufen. Es gibt Ihnen auch ein echtes Verkaufsargument in der Angebotsbeschreibung: „Enthält 2 exklusive Arbeitsblätter, die nur in diesem Paket erhältlich sind." Die exklusiven Artikel müssen nicht Ihre komplexesten Produkte sein — ein thematisches Deckblatt, ein Fortschrittsverfolgungsblatt oder eine Bonusaktivitätsseite verleihen wahrgenommene Exklusivität ohne erheblichen zusätzlichen Produktionsaufwand.`,
     },
   ],
@@ -115,11 +115,11 @@ const content: GuideContent = {
       answer: `Etsy erlaubt maximal 5 digitale Dateien pro Angebot, wobei jede Datei auf 20 MB begrenzt ist. Für größere Pakete fassen Sie verwandte Arbeitsblätter zu konsolidierten PDF-Dateien zusammen. Gruppieren Sie beispielsweise alle Mathe-Arbeitsblätter in ein PDF und alle Lese-Arbeitsblätter in ein anderes. Jedes PDF sollte einen klaren Dateinamen haben, der seinen Inhalt angibt. Wenn ein einzelnes PDF 20 MB überschreitet, reduzieren Sie die Bildauflösung leicht (200 DPI ist immer noch Druckqualität für Arbeitsblätter) oder teilen Sie den Inhalt in zusätzliche PDF-Dateien innerhalb des 5-Dateien-Limits auf. Fügen Sie immer ein Inhaltsverzeichnis oder eine Leitfadendatei bei, damit Käufer das Paket einfach navigieren können.`,
     },
     {
-      question: 'Sollte ich Paketartikel auch einzeln verkaufen?',
+      question: `Sollte ich Paketartikel auch einzeln verkaufen?`,
       answer: `Ja, der Verkauf von Artikeln sowohl einzeln als auch im Paket ist die empfohlene Strategie. Einzelangebote dienen zwei Zwecken: Sie liefern eine Ankerpreisbildung, die den Paketrabatt sichtbar macht, und sie ziehen Käufer über Einzelprodukt-Keywords an, die dann Ihr Paket über Ihren Shop entdecken können. Der Schlüssel ist die Verwendung unterschiedlicher primärer Keywords für Einzelangebote gegenüber Paketangeboten, um Selbstkonkurrenz in den Suchergebnissen zu vermeiden. Einige Verkäufer nehmen ein oder zwei paketexklusive Artikel auf, um Käufern einen Grund zu geben, das Paket zu wählen, auch wenn sie nur einige der enthaltenen Artikel möchten.`,
     },
     {
-      question: 'Wie bepreise ich ein Arbeitsblatt-Paket auf Etsy?',
+      question: `Wie bepreise ich ein Arbeitsblatt-Paket auf Etsy?`,
       answer: `Bepreisen Sie Ihr Paket 25 % bis 40 % unter den kombinierten Einzelartikelpreisen. Berechnen Sie die Summe aller Einzelartikelpreise und wenden Sie dann Ihren Rabatt an. Zum Beispiel: 8 Arbeitsblätter zu je 3 $ ergeben 24 $ einzeln. Ein 35-%-Rabatt setzt das Paket bei etwa 15,60 $ — runden Sie auf 14,99 $ oder 15,99 $. Der Rabatt muss groß genug sein, um bedeutsam zu wirken (mindestens 25 %), aber nicht so groß, dass er Ihre Einzelangebotspreise untergräbt (über 40 %). Zeigen Sie die Einzelsumme und den Sparprozentsatz in Ihrer Angebotsbeschreibung an, um das Wertversprechen explizit zu machen. Für detaillierte Preisstrategien sehen Sie unseren Leitfaden Etsy-Druckvorlagen richtig bepreisen.`,
     },
     {
@@ -139,44 +139,44 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'etsy-druckvorlagen-preise',
-      title: 'Etsy-Druckvorlagen richtig bepreisen',
+      title: `Etsy-Druckvorlagen richtig bepreisen`,
       description: `Detaillierte Preisstrategien für einzelne Arbeitsblätter und Pakete, einschließlich Kostenanalyse, Wettbewerbspositionierung und psychologischer Preistechniken, die die Paketpreis-Übersicht in diesem Leitfaden ergänzen.`,
     },
     {
       slug: 'etsy-seo-lernmaterial',
-      title: 'Etsy SEO für praktische Druckvorlagen',
+      title: `Etsy SEO für praktische Druckvorlagen`,
       description: `Der vollständige Etsy-SEO-Leitfaden zu Keyword-Recherche, Titeloptimierung, allen 13 Tags und Rankingfaktoren. Wenden Sie diese Techniken an, um Ihre Paketangebote für maximale Suchsichtbarkeit zu optimieren.`,
     },
     {
       slug: 'lernmaterial-verkaufen-etsy',
-      title: 'Lernmaterial auf Etsy verkaufen',
+      title: `Lernmaterial auf Etsy verkaufen`,
       description: `Der umfassende Etsy-Verkaufsleitfaden zu Shop-Einrichtung, Produktfotografie, Kundenservice und Katalogplanung — wesentliche Abläufe für einen erfolgreichen paketfokussierten Shop.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: 'Wortsuche-Rätsel auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'lernmaterial-verkaufen-etsy', anchorText: 'Lernmaterial auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: 'Etsy-Druckvorlagen richtig bepreisen' },
-    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für praktische Druckvorlagen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: 'Etsy-Druckvorlagen-Shop von Grund auf starten' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung zum Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
-    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: 'Additions-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: `Wortsuche-Rätsel auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'lernmaterial-verkaufen-etsy', anchorText: `Lernmaterial auf Etsy verkaufen` },
+    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: `Etsy-Druckvorlagen richtig bepreisen` },
+    { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: `Etsy SEO für praktische Druckvorlagen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
+    { pageType: 'app', slug: 'addition-arbeitsblaetter', anchorText: `Additions-Arbeitsblatt-Generator — Alle Details` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'tool', slug: `additions-arbeitsblatt-ersteller`, anchorText: `Additions-Arbeitsblatt-Ersteller ausprobieren` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erstellt thematische Additions-Arbeitsblätter — die meistgefragte Komponente für Mathe-Pakete. Verwenden Sie mehrere Themen aus einem Generator, um vielfältige Paketinhalte zu produzieren. Verfügbar als kostenlose Testversion mit Wasserzeichen zum Testen Ihrer Paketzusammenstellungen vor dem Lizenzkauf.`,
     },
     {
       appId: 'subtraction',
-      title: 'Subtraktions-Arbeitsblatt-Generator',
+      title: `Subtraktions-Arbeitsblatt-Generator`,
       description: `Produziert thematische Subtraktions-Arbeitsblätter, die Addition in Fachpaketen natürlich ergänzen. Die Kombination von Addition und Subtraktion aus separaten Generatoren erzeugt vielfältigere und wertvollere Mathe-Pakete als die Verwendung eines einzelnen Generators allein.`,
     },
     {
@@ -192,22 +192,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: `Additions-Arbeitsblatt als Kernkomponente praktischer Druckvorlagen-Pakete für Etsy-Verkäufer` },
+    heroImage: { src: `/samples/german/addition/addition_worksheet.webp`, alt: `Additions-Arbeitsblatt als Kernkomponente praktischer Druckvorlagen-Pakete für Etsy-Verkäufer` },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Tier-thematisiertes Additions-Arbeitsblatt als Mathe-Paket-Komponente für Etsy`, caption: 'Additions-Arbeitsblatt mit Tier-Thema — eine Kernkomponente für Mathe-Fachpakete auf Etsy' },
-      { src: '/samples/german/subtraction/worksheet.webp', alt: `Tier-thematisiertes Subtraktions-Arbeitsblatt als Ergänzung zur Addition in Etsy-Mathe-Paketen`, caption: 'Subtraktions-Arbeitsblatt mit Tier-Thema — ergänzt Additions-Arbeitsblätter für komplette Mathe-Pakete' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Tier-Wortsuche-Rätsel für kategorieübergreifende Vielfalt in Etsy-Arbeitsblatt-Paketen`, caption: 'Wortsuche-Rätsel mit Tier-Thema — fügt Lese-Wert zu kategorieübergreifenden Themenpaketen hinzu' },
+      { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Tier-thematisiertes Additions-Arbeitsblatt als Mathe-Paket-Komponente für Etsy`, caption: `Additions-Arbeitsblatt mit Tier-Thema — eine Kernkomponente für Mathe-Fachpakete auf Etsy` },
+      { src: `/samples/german/subtraction/worksheet.webp`, alt: `Tier-thematisiertes Subtraktions-Arbeitsblatt als Ergänzung zur Addition in Etsy-Mathe-Paketen`, caption: `Subtraktions-Arbeitsblatt mit Tier-Thema — ergänzt Additions-Arbeitsblätter für komplette Mathe-Pakete` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Tier-Wortsuche-Rätsel für kategorieübergreifende Vielfalt in Etsy-Arbeitsblatt-Paketen`, caption: `Wortsuche-Rätsel mit Tier-Thema — fügt Lese-Wert zu kategorieübergreifenden Themenpaketen hinzu` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Additions-Arbeitsblätter für Etsy-Pakete erstellen — Multi-Produkt-Paket-Strategie`,
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
+    { src: `/image-library/flowers/aster.webp`, alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalee — thematisches Lernbild`, caption: 'Azalee' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonie — thematisches Lernbild`, caption: 'Begonie' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Glockenblume — thematisches Lernbild`, caption: 'Glockenblume' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Butterblume — thematisches Lernbild`, caption: 'Butterblume' },
   ],
 };
 

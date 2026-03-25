@@ -5,17 +5,17 @@ const content: GuideContent = {
     primaryKeyword: 'skapa labyrintarbetsblad',
     secondaryKeywords: [
       'labyrintarbetsblad generator',
-      'utskriftsklara labyrintaktivitetsblad',
-      'labyrintpussel för barn att sälja',
-      'anpassade labyrintarbetsblad med facit',
+      `utskriftsklara labyrintaktivitetsblad`,
+      `labyrintpussel för barn att sälja`,
+      `anpassade labyrintarbetsblad med facit`,
     ],
     lsiKeywords: [
       'bildväg arbetsblad',
-      'rumsligt resonerande aktiviteter för barn',
-      'utskriftsklara pusselarbetsblad Etsy',
-      'Amazon KDP labyrintaktivitetsböcker',
-      'labyrintarbetsblad med tematiska bilder',
-      'kommersiell licens labyrintgenerator',
+      `rumsligt resonerande aktiviteter för barn`,
+      `utskriftsklara pusselarbetsblad Etsy`,
+      `Amazon KDP labyrintaktivitetsböcker`,
+      `labyrintarbetsblad med tematiska bilder`,
+      `kommersiell licens labyrintgenerator`,
     ],
     titleTag: `Hur du skapar labyrintarbetsblad — Steg-för-steg-guide`,
     metaDescription: `Hur du skapar labyrintarbetsblad med 3 spellägen, tematiska bilder och facit. Generera utskriftsklara labyrintaktivitetsblad att sälja på Etsy och Amazon KDP.`,
@@ -35,27 +35,27 @@ const content: GuideContent = {
       content: `Tre spellägen som skapar fundamentalt olika produkter.\n\nBildväg är standardläget och det mest visuella. Barn följer en väg från en startbild till en slutbild, navigerar genom dekorativa bilder och undviker distraktioner. Fungerar bäst för yngre barn (3–6 år) — vägen definieras av bilder snarare än väggar. Visuellt rikt.\n\nKlassisk labyrint genererar traditionella väggbaserade labyrinter med korridorer och återvändsgränder. Det unika är samlarbildmekaniken: tematiska bilder är utspridda i labyrinten och barn räknar hur många av varje typ de hittar längs rätt väg. Facit visar totalantal per samlarbild. Denna dubbelskicklighetmetod — navigering plus räkning — gör Classic Maze-produkter särskilt attraktiva.\n\nVälj rätt väg presenterar en riktningslabyrint med flera vägval som förgrenar sig. Bara en väg leder till rätt mål. Stöder fyra riktningar: nedifrån-uppåt, uppifrån-nedåt, vänster-till-höger och höger-till-vänster. Riktningsvariationen utmanar barn att tänka rumsligt i olika orienteringar.\n\nFör produktstrategi, överväg separata produktlinjer per läge. "Bildväg Djur" riktar sig mot förskolebarn, "Klassisk Labyrint Äventyr" mot förskoleklass till årskurs 2, och "Välj Vägen Utmaningar" mot årskurs 1–3.`,
     },
     {
-      heading: 'Ställ in rutnätsstorlek och svårighet',
+      heading: `Ställ in rutnätsstorlek och svårighet`,
       content: `Rutnätsstorlek är den primära svårighetskontrollen. Sex storlekar: 15×15, 16×16, 17×17, 18×18, 19×19 och 20×20.\n\nFör yngre barn (3–5 år): 15×15 eller 16×16. Kortare vägar, enklare struktur.\n\nFör grundskoleåldern (6–8 år): 17×17 till 19×19. Fler förgreningspunkter och längre korridorer.\n\nFör äldre barn eller avancerade (8+): 20×20. Mest komplexa labyrinterna.\n\nKlassisk labyrint och Välj rätt väg erbjuder ytterligare kontroller: Antal vägar (1, 2 eller 3) — fler vägar ökar beslutskraven. Väglängd min och max (4–30 celler).\n\nVälj rätt väg lägger till en Riktningsväljare med fyra orienteringar. Varierande riktning över arbetsblad i ett paket skapar ytterligare utmaning.\n\nFör produktpaket, inkludera en progression av rutnätsstorlekar. En "Labyrintaktivitetsbok" som börjar vid 15×15 och arbetar uppåt till 20×20 ger köpare en inbyggd svårighetskurva.`,
     },
     {
-      heading: 'Välj ett tema och tilldela bildroller',
+      heading: `Välj ett tema och tilldela bildroller`,
       content: `Temabiblioteket har över 100 uppsättningar. Det som gör bildval mer nyanserat är de fem distinkta bildrollerna:\n\nStartbild markerar labyrintens ingång. Välj en bild som signalerar "början" — ett hus, ett skepp, en raket.\n\nSlutbild markerar labyrintens mål. Välj ett mål — en skatt, en målflagga, ett hem.\n\nVägbilder är samlarföremål i Klassisk labyrint. De visas längs korridorer och barn räknar dem. Du kan tilldela 1–4 unika samlarbilder med konfigurerbart antal (1–3 minimum, 1–10 maximum).\n\nDistraktionsbilder är felaktiga element eller visuellt brus. I Bildväg sitter de längs felaktiga vägar. I Klassisk labyrint i återvändsgränder.\n\nDekorationsbilder lägger till estetisk rikedom utan att påverka spelupplevelsen.\n\nTemaval är ett produktstrategibeslut. "Dinosaurie labyrintarbetsblad" och "Havsdjur labyrintarbetsblad" är separata produkter. Med 100+ teman kan du bygga en omfattande katalog.`,
     },
     {
-      heading: 'Konfigurera väggarnas utseende',
+      heading: `Konfigurera väggarnas utseende`,
       content: `Klassisk labyrint och Välj rätt väg använder väggar. Tre anpassningskontroller:\n\nVäggfärg med färgväljare (standard grön #4CAF50). Anpassad färg skapar tematiserade produkter: blå för havslabyrinter, brun för djungel, orange för Halloween.\n\nVäggtjocklek (1–10 pixlar). Tunnare (1–3 px) ger detaljerade labyrinter för äldre barn. Tjockare (5–10 px) ger djärva, lättsynta korridorer för yngre.\n\nVäggopacitet (10–100%). Reducerad opacitet skapar genomskinliga väggar.\n\nBildväg använder inte väggar — hoppa över detta steg.\n\nFör konsistens inom ett paket, behåll identiska vägginställningar genom alla arbetsblad.`,
     },
     {
-      heading: 'Ställ in sidstorlek och layout',
+      heading: `Ställ in sidstorlek och layout`,
       content: `Sidstorlek: US Letter stående, US Letter liggande, A4 stående, A4 liggande, kvadrat och anpassade dimensioner. Stående orientering fungerar typiskt bättre för labyrinter. Liggande kan fungera för Välj rätt väg med vänster-till-höger-riktning.\n\nNamn- och datumfält: Inkludera alltid för produktlinjesprodukter.\n\nSidfärg: vitt standard.\n\nFör Amazon KDP, använd konsekvent sidstorlek (8,5×11 tum eller A4).`,
     },
     {
-      heading: 'Generera och förhandsgranska labyrinten',
+      heading: `Generera och förhandsgranska labyrinten`,
       content: `Klicka Generera. Generatorn bygger labyrinten algoritmiskt — konstruerar väggar, beräknar vägar, placerar bilder i deras roller och positionerar samlarföremål.\n\nGranska:\n\nKontrollera lösbarheten: Generatorn garanterar minst en giltig väg. Visuellt verifiera att rätt väg är spårbar.\n\nKontrollera bildplacering: Är Start och Slut tydligt positionerade? Är samlarföremål fördelade längs korridorer? Är distraktioner i återvändsgränder?\n\nKontrollera svårigheten: Tillräckligt med återvändsgränder och förgreningspunkter?\n\nKontrollera utskriftsbarhet: Kommer väggar, bilder och text synas vid utskrift?\n\nVarje klick på Generera skapar en helt ny labyrint. Snabb massproduktion — iterera med ett klick.`,
     },
     {
-      heading: 'Anpassa med text, bakgrund och ramteman',
+      heading: `Anpassa med text, bakgrund och ramteman`,
       content: `Textverktyg: 7 typsnittsfamiljer, justerbar storlek och färg, textkontur. Lägg till titel som "Dinosaurie labyrintäventyr" eller instruktioner.\n\nBakgrundsteman med opacitetskontroll (20–40% för subtilitet).\n\nRamteman som matchar labyrinttemat. Rymdtematisk ram runt en rymdlabyrint.\n\nSpråkväljaren stöder 11 språk för automatisk rubriköversättning.\n\nArbetsyteverktyg: lager, justeringshjälpare, lås/upplåsning, ångra/gör om, gruppera/avgruppera.`,
     },
     {
@@ -66,22 +66,22 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Sälja labyrintarbetsblad på Etsy',
+      heading: `Sälja labyrintarbetsblad på Etsy`,
       content: `Labyrinter tilltalar både pedagogiska och underhållningsköpare. Föräldrar söker "labyrintarbetsblad för barn" och "utskriftsklara labyrintaktiviteter." säljare söker "labyrintpussel produktlinje" och "rumsligt resonerande arbetsblad."\n\nTiteloptimering: "Labyrintarbetsblad för barn 4–7 — Dinosaurietema — 30 utskriftsklara labyrinter med facit." Taggar: använd alla 13. Listningsbilder: visa labyrinten tydligt med en penna bredvid. Visa facit med lösningsväg markerad.\n\nPrissättning: enstaka labyrint $1,49–$2,49. Temapaket 10–15 labyrinter $3,99–$6,99. Kompletta aktivitetsböcker 30–50 labyrinter $7,99–$14,99. Flerlägespaket $16,99–$24,99.`,
     },
     {
-      heading: 'Sälja labyrintaktivitetsböcker på Amazon KDP',
+      heading: `Sälja labyrintaktivitetsböcker på Amazon KDP`,
       content: `Amazon KDP är idealiskt eftersom labyrinter naturligt samlas till aktivitetsböcker.\n\nProduktstruktur: Börja med enklare labyrinter (15×15, Bildväg) och progressera till svårare (20×20, Klassisk med flerväg). Placera facit i slutet. Inkludera en introduktionssida som förklarar varje labyrinttyp.\n\nTitel och undertitel: Exempeltitel "Maze Activity Book for Kids Ages 4–8." Exempel-undertitel "50 Themed Picture Mazes, Classic Mazes, and Path Puzzles with Answer Keys."\n\nNyckelord: "maze book for kids," "printable maze activity book," "picture maze puzzles," "kids puzzle book ages 4–8."\n\nInteriörformatering: 8,5×11 tum. Testa utskrift — tunna väggar med låg opacitet kanske inte reproduceras bra.\n\nPrissättning: KDP labyrintböcker 50–80 sidor $5,99–$8,99. 100+ sidor $9,99–$12,99.`,
     },
     {
-      heading: 'Sälja labyrintarbetsblad på Gumroad',
+      heading: `Sälja labyrintarbetsblad på Gumroad`,
       content: `Gumroad-köpare värderar labyrinter som rumsliga resoneringsaktiviteter och produktlinjeshjärnpauser.\n\nProduktbeskrivningar: årskurs, specifika färdigheter (rumsligt resonerande, räkning, riktningsmedvetenhet, problemlösning), antal labyrinter, lägen, om facit ingår.\n\nFörhandsgranskningsfiler: 2–3 exempelsidor med olika lägen.\n\nGumroad-positionering: "problemlösningscentra" eller "rumsliga resonerande stationer." säljare söker "tidiga slutare," "hjärnpauspussel," "inomhusrast," "vikariepåse."\n\nPaketering: Temapaket per säsong eller ämne. "Höstens labyrintaktivitetspaket" med skörd- och skogsteman.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Prissättning av labyrintprodukter',
+      heading: `Prissättning av labyrintprodukter`,
       content: `Labyrinter kommenderar konkurrenskraftig prissättning eftersom de uppfattas som premiumt pusselinnehåll.\n\nEnstaka labyrint med facit: $1,49–$2,49. Instegsprodukter.\n\nTemapaket (8–15 labyrinter): $3,99–$6,99. Gruppera efter tema med flera rutnätsstorlekar.\n\nLägesspecifika paket (20–30 labyrinter): $7,99–$12,99. Fokusera på ett spelläge.\n\nKompletta aktivitetsböcker (40–60+ labyrinter): $12,99–$24,99. Alla tre lägen, progressiv svårighet, flera teman.\n\nUnderprissätt inte — labyrinter med samlarräkning, riktningsvarianter och tematiska bilder är en premiumprodukt.`,
     },
     {
@@ -96,11 +96,11 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Förskole- och förskoleklassprodukter',
+      heading: `Förskole- och förskoleklassprodukter`,
       content: `Bildväg — Djur (3–5 år): 15×15, bondgårdsdjur-tema. Startbild: ladugård. Slutbild: bonde. Dekorationsbilder fyller utrymme. 10 labyrinter per tema. "Bondgårdsdjur labyrintkul för förskolebarn."\n\nBildväg — Fordon (4–6 år): 16×16, fordonstema. Startbild: garage. Slutbild: bensinstation.\n\nKlassisk labyrint — Enkel (5–6 år): 15×15, 1 väg, väglängd 4–8. 2 samlarbilder med 1–2 kopior. Väggtjocklek 5–7 px.\n\nVälj rätt väg — Introduktion (5–6 år): 15×15, 2 vägar, nedifrån-uppåt. 8–10 arbetsblad som "Vilken väg? Vägpussel."\n\nFör alla förskole/förskoleklassbprodukter: stora namnfält, tjocka väggar, 15×15 eller 16×16.`,
     },
     {
-      heading: 'Grundskole- och avancerade produkter',
+      heading: `Grundskole- och avancerade produkter`,
       content: `Klassisk labyrint — Mellannivå (6–8 år): 17×17 eller 18×18, 2 vägar, väglängd 10–20. 3 samlarbilder med 2–5 kopior. Väggtjocklek 3–4 px. "Havsutforskare labyrintbok — 20 klassiska labyrinter med samlarräkning."\n\nKlassisk labyrint — Avancerad (8+): 19×19 eller 20×20, 3 vägar, väglängd 15–30. 4 samlarbilder med 3–10 kopior. Tunna väggar (2–3 px).\n\nVälj rätt väg — Flerrikting (7–9 år): Varje arbetsblad använder en annorlunda riktning. 18×18, 3 vägar. Äventyrstema. "Riktningslabyrint utmaning — 4 orienteringar, 20 pussel."\n\nFlerläges aktivitetsböcker (5–9 år): Kombinera alla tre lägen. 10 Bildväg (enklast), 15 Klassisk labyrint (mellannivå), 10 Välj rätt väg (svårast). Facit i slutet. Premiumprissättning $12,99–$19,99.\n\nFör produktlinjesprodukter: 25–30 labyrinter vid samma svårighet som säljare kan dela ut — en per användare.`,
     },
   ],
@@ -119,11 +119,11 @@ const content: GuideContent = {
       answer: `Sex rutnätsstorlekar: 15×15 till 20×20. Större rutnät ger mer komplexa labyrinter. För Klassisk labyrint och Välj rätt väg kan du även konfigurera antal vägar (1–3) och väglängd (4–30 celler). Riktning kan ställas in i fyra orienteringar.`,
     },
     {
-      question: 'Kan jag anpassa väggutseendet?',
+      question: `Kan jag anpassa väggutseendet?`,
       answer: `Ja. Väggfärg (valfri färg), väggtjocklek (1–10 px) och väggopacitet (10–100%). Detta skapar tematiserade väggstilar som differentierar dina produkter visuellt.`,
     },
     {
-      question: 'Skapar generatorn facit för alla labyrintlägen?',
+      question: `Skapar generatorn facit för alla labyrintlägen?`,
       answer: `Ja. Varje läge genererar automatiskt facit med den korrekta lösningsvägen markerad. Klassisk labyrint-facit inkluderar dessutom samlarbildsantal. Facit exporteras som PDF och JPEG.`,
     },
     {
@@ -155,14 +155,14 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplett-guide-utskriftsbart-foeretag', anchorText: `Komplett guide till att starta utskriftsbart företag` },
+    { pageType: 'start', slug: `komplett-guide-utskriftsbart-foeretag`, anchorText: `Komplett guide till att starta utskriftsbart företag` },
     { pageType: 'start', slug: 'skapa-arbetsblad-som-saeljer', anchorText: `Hur du skapar professionella arbetsblad som säljer` },
-    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: 'Etsy utskriftsbart företag masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitetsboecker', anchorText: 'Amazon KDP aktivitetsboks-företagsguide' },
+    { pageType: 'start', slug: 'etsy-utskriftsbart-foeretag', anchorText: `Etsy utskriftsbart företag masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitetsboecker', anchorText: `Amazon KDP aktivitetsboks-företagsguide` },
     { pageType: 'start', slug: 'kommersiell-licensguide', anchorText: 'Kommersiell licensguide' },
     { pageType: 'app', slug: 'bildlabyrint-arbetsblad', anchorText: `Bildväg Labyrint Generator — Fullständig information` },
-    { pageType: 'app', slug: 'bildsudoku-arbetsblad', anchorText: 'Bildsudoku Generator — Fullständig information' },
-    { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: 'Prova Bildvägs Labyrint-skaparen' },
+    { pageType: 'app', slug: 'bildsudoku-arbetsblad', anchorText: `Bildsudoku Generator — Fullständig information` },
+    { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: `Prova Bildvägs Labyrint-skaparen` },
   ],
 
   toolsRecommended: [
@@ -178,32 +178,32 @@ const content: GuideContent = {
     },
     {
       appId: 'treasure-hunt',
-      title: 'Skattjakt Arbetsblad Generator',
+      title: `Skattjakt Arbetsblad Generator`,
       description: `Rutnätsbaserade vägfinnaraktiviteter med matteoperationer. Kombinerar navigeringsfärdigheter med aritmetikövning för en unik tvärkategoriprodukt.`,
     },
     {
       appId: 'find-objects',
-      title: 'Hitta föremålen Arbetsblad Generator',
+      title: `Hitta föremålen Arbetsblad Generator`,
       description: `Hitta dolda föremål-scenaktiviteter som utvecklar visuell sökförmåga. Paras med labyrinter för observationsfokuserade aktivitetspaket.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/swedish/picture%20path/Bildlabyrint%201.jpeg`, alt: 'Labyrintarbetsblad som visar en tematisk bildvägsaktivitet med start- och slutbilder' },
+    heroImage: { src: `/samples/swedish/picture%20path/Bildlabyrint%201.jpeg`, alt: `Labyrintarbetsblad som visar en tematisk bildvägsaktivitet med start- och slutbilder` },
     samples: [
-      { src: `/samples/swedish/picture%20path/Bildlabyrint%201.jpeg`, alt: 'Bildväg labyrintarbetsblad med tematiska bilder för förskola och förskoleklass', caption: 'Bildväg-läge: barn följer en visuell väg från startbild till slutbild genom tematiska dekorationer' },
-      { src: `/samples/swedish/picture%20path/Bildlabyrint%202.jpeg`, alt: 'Klassisk labyrint med samlarräkning och facit', caption: 'Klassisk labyrint med samlarbilder och automatiskt facit som visar lösningsväg och antal' },
+      { src: `/samples/swedish/picture%20path/Bildlabyrint%201.jpeg`, alt: `Bildväg labyrintarbetsblad med tematiska bilder för förskola och förskoleklass`, caption: `Bildväg-läge: barn följer en visuell väg från startbild till slutbild genom tematiska dekorationer` },
+      { src: `/samples/swedish/picture%20path/Bildlabyrint%202.jpeg`, alt: `Klassisk labyrint med samlarräkning och facit`, caption: `Klassisk labyrint med samlarbilder och automatiskt facit som visar lösningsväg och antal` },
     ],
     youtubeId: 'Sl1o0uPBDCg',
-    videoTitle: 'Hur du skapar labyrintarbetsblad — Komplett guide',
+    videoTitle: `Hur du skapar labyrintarbetsblad — Komplett guide`,
   },
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilop — tematisk pedagogisk bild', caption: 'Antilop' },
-    { src: '/image-library/animals/bat.webp', alt: 'Fladdermus — tematisk pedagogisk bild', caption: 'Fladdermus' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kamel — tematisk pedagogisk bild', caption: 'Kamel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — tematisk pedagogisk bild', caption: 'Hund' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilop — tematisk pedagogisk bild`, caption: 'Antilop' },
+    { src: `/image-library/animals/bat.webp`, alt: `Fladdermus — tematisk pedagogisk bild`, caption: 'Fladdermus' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kamel — tematisk pedagogisk bild`, caption: 'Kamel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hund — tematisk pedagogisk bild`, caption: 'Hund' },
   ],
 };
 

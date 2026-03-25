@@ -2,11 +2,11 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador fichas sopa de letras',
+    primaryKeyword: `generador fichas sopa de letras`,
     secondaryKeywords: [
       `fichas de sopa de letras imprimibles para vendedores Etsy`,
       `generador de cuadrículas de palabras ocultas para Amazon KDP`,
-      'vender fichas de sopa de letras en Gumroad',
+      `vender fichas de sopa de letras en Gumroad`,
       `fichas de sopa de letras con clave de respuesta código de colores licencia comercial`,
     ],
     lsiKeywords: [
@@ -14,7 +14,7 @@ const content: AppContent = {
       `negocio de fichas de búsqueda de palabras imprimibles en línea`,
       `generador de fichas de sopa de letras uso comercial`,
     ],
-    titleTag: 'Generador Fichas Sopa de Letras | Crear y Vender',
+    titleTag: `Generador Fichas Sopa de Letras | Crear y Vender`,
     metaDescription:
       `Crea fichas de sopa de letras para Etsy, KDP y Gumroad. Cuadrícula 5×5 a 30×30, direcciones diagonales, letras adaptadas al idioma.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Fichas de Sopa de Letras en 5 Pasos',
+    title: `Cómo Crear Fichas de Sopa de Letras en 5 Pasos`,
     steps: [
       {
         title: 'Configura el diseño de página',
@@ -104,49 +104,49 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Fichas de Sopa de Letras en Línea',
+    title: `Cómo Vender Fichas de Sopa de Letras en Línea`,
     cases: [
       {
-        title: 'Paquetes temáticos de sopa de letras en Etsy',
+        title: `Paquetes temáticos de sopa de letras en Etsy`,
         description:
           `Crea conjuntos de 10 a 20 fichas de sopa de letras agrupadas por tema y dificultad — animales de granja en una cuadrícula pequeña 8×8 sin diagonales, criaturas marinas en una cuadrícula 15×15 con diagonales activadas, dinosaurios en una cuadrícula 20×20 con palabras invertidas — y ofrécelos como descarga instantánea en Etsy. Incluye las claves de respuesta con código de colores como archivos extra. El formato de cuadrícula visual con pistas de imagen se destaca frente a las simples listas de palabras en los resultados de búsqueda de Etsy. Fija el precio de paquetes temáticos individuales entre $3–$5 y de mega-paquetes multi-tema con dificultad progresiva entre $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Libros de sopa de letras en Amazon KDP',
+        title: `Libros de sopa de letras en Amazon KDP`,
         description:
           `Compila de 50 a 100 puzzles de sopa de letras en un libro impreso en formato Amazon KDP. Usa tamaños de cuadrícula progresivos como curva de dificultad: comienza con cuadrículas 6×6 solo horizontal, avanza a través de cuadrículas 12×12 con diagonales y termina con cuadrículas 25×25 con palabras invertidas activadas. Agrupa los capítulos por tema (animales, comida, vehículos, naturaleza) para una variedad navegable. Añade una portada, una guía de dificultad y una sección de claves de respuesta con código de colores al final. Los libros de sopa de letras se venden de forma constante todo el año con mínima publicidad.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Centros de vocabulario diferenciados para Gumroad',
+        title: `Centros de vocabulario diferenciados para Gumroad`,
         description:
           `Construye conjuntos de práctica de sopa de letras por niveles usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación: Nivel 1 (8×8, solo horizontal, 4 palabras), Nivel 2 (12×12, horizontal y vertical, 6 palabras), Nivel 3 (16×16, diagonales activadas, 8 palabras) y Nivel 4 (20×20, diagonales e invertidas, 8 palabras). Acompaña cada nivel con claves de respuesta con código de colores y una hoja de seguimiento del progreso. Los compradores de Gumroad pagan precios premium por recursos de vocabulario diferenciados que pueden desplegar inmediatamente en múltiples niveles de capacidad.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Productos de sopa de letras multilingües con Acceso Completo`,
         description:
           `El Acceso Completo desbloquea los 11 idiomas, y como la Sopa de Letras es sensible al idioma, las palabras ocultas Y las letras de relleno de la cuadrícula cambian según el idioma. «Dog» en inglés se convierte en «Hund» en una cuadrícula rellena de caracteres alemanes como ä, ö, ü; «chien» en francés aparece en una cuadrícula con é, è, ç, à; «perro» en español aparece en una cuadrícula con ñ, á, é, í, ó, ú. Cada versión lingüística es un producto verdaderamente diferente con palabras diferentes, letras de relleno diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingüe)`,
       },
       {
         title: `Herramienta de vocabulario para venta en línea y tutoría`,
         description:
           `Usa el modo Lista de Palabras Personalizada para crear fichas de sopa de letras con cualquier lista de vocabulario — palabras del dictado semanal, términos de ciencias, vocabulario de estudios sociales o práctica de idiomas extranjeros. Escribe hasta 8 palabras directamente sin necesitar imágenes correspondientes. Ajusta el tamaño de cuadrícula y los activadores de dirección según la capacidad de cada usuario: cuadrículas pequeñas solo horizontal para lectores con dificultades, cuadrículas grandes con diagonales e inversiones para los más avanzados. Imprime series personalizadas en minutos para grupos pequeños o clases enteras. La clave de respuesta con código de colores ahorra valor percibido, y el formato clásico de sopa de letras mantiene el interés de los usuarios.`,
-        platform: 'Tienda / Tutoría / Educación en casa',
+        platform: `Tienda / Tutoría / Educación en casa`,
       },
     ],
   },
 
   faq: [
     {
-      question: '¿Cómo funciona el puzzle de sopa de letras?',
+      question: `¿Cómo funciona el puzzle de sopa de letras?`,
       answer:
         `Las palabras ocultas están incrustadas dentro de una cuadrícula de letras de relleno aleatorias. Los usuarios escanean filas, columnas y opcionalmente diagonales para encontrar cada palabra. Una vez encontrada, los usuarios rodean o resaltan la palabra en la cuadrícula. Las letras de relleno se generan aleatoriamente cada vez, así que cada puzzle es único incluso con la misma lista de palabras. Se pueden colocar hasta 8 palabras en una sola cuadrícula.`,
     },
     {
-      question: '¿Qué tamaños de cuadrícula están disponibles?',
+      question: `¿Qué tamaños de cuadrícula están disponibles?`,
       answer:
         `Puedes configurar filas y columnas de forma independiente de 5 a 30. El valor por defecto es 12×12. Una cuadrícula 5×5 crea un puzzle rápido y fácil con solo 25 casillas; una cuadrícula 30×30 crea una búsqueda densa y desafiante con 900 casillas. Ajustar el tamaño de cuadrícula es la forma principal de controlar la dificultad, junto con los ajustes de dirección de las palabras.`,
     },
@@ -156,12 +156,12 @@ const content: AppContent = {
         `El activador de diagonal permite que las palabras se coloquen a lo largo de ambos ejes diagonales además del horizontal y vertical. El activador de invertida permite que las palabras se coloquen al revés en cada dirección habilitada. Con ambas activadas, las palabras pueden aparecer en ocho direcciones posibles. Con ambas desactivadas, las palabras solo aparecen de izquierda a derecha horizontalmente y de arriba abajo verticalmente. Estos activadores te permiten afinar la dificultad desde cuadrículas simples de dos direcciones hasta puzzles complejos de ocho direcciones.`,
     },
     {
-      question: '¿Cuáles son las tres fuentes de contenido?',
+      question: `¿Cuáles son las tres fuentes de contenido?`,
       answer:
         `El modo Biblioteca de Imágenes usa ilustraciones temáticas donde el nombre de la imagen se convierte en una palabra oculta en la cuadrícula. El Modo Edición Manual te permite seleccionar imágenes y luego personalizar sus nombres de visualización antes de generar — perfecto para vocabulario alternativo u ortografías simplificadas. El modo Lista de Palabras Personalizada prescinde de las imágenes y te deja escribir hasta 8 palabras directamente, permitiendo fichas de sopa de letras para cualquier asignatura sin ilustraciones correspondientes.`,
     },
     {
-      question: '¿Cuáles son los tres modos de visualización?',
+      question: `¿Cuáles son los tres modos de visualización?`,
       answer:
         `Mostrar Palabras e Imágenes (por defecto) muestra tanto las pistas de imagen como las etiquetas de palabras junto a la cuadrícula. Mostrar Solo Imágenes muestra las pistas de imagen sin etiquetas de texto, requiriendo que los usuarios identifiquen la imagen y encuentren la palabra ellos mismos. Mostrar Solo Palabras muestra las etiquetas de texto sin imágenes, creando una experiencia de sopa de letras puramente textual. Cada modo controla qué aparece como referencia de pistas junto a la cuadrícula.`,
     },
@@ -176,7 +176,7 @@ const content: AppContent = {
         `La clave de respuesta resalta cada palabra encontrada en uno de seis colores alternados: rosa, azul, verde, dorado, coral y lavanda. Cada palabra recibe un color distinto para ser visualmente distinguible incluso cuando las palabras se cruzan o se superponen en la cuadrícula. Puedes activar la exportación en escala de grises para versiones de clave de respuesta económicas en tinta. La clave de respuesta se genera como un archivo descargable separado.`,
     },
     {
-      question: '¿Cuál es el número máximo de palabras por puzzle?',
+      question: `¿Cuál es el número máximo de palabras por puzzle?`,
       answer:
         `Puedes colocar hasta 8 palabras o imágenes en una sola cuadrícula de sopa de letras. Este límite garantiza que las palabras encajen limpiamente en la cuadrícula sin superposición excesiva. Para listas de palabras más largas, crea varias fichas y agrúpalas como conjunto — esto también aumenta el valor percibido de tus paquetes de productos.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus fichas de sopa de letras como descargas digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Gumroad o a través de cualquier otro canal de venta. Los tamaños de cuadrícula ajustables, los controles de dirección y la capacidad multilingüe te ofrecen una fuerte diferenciación en categorías de mercado competitivas.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar cada fuente de contenido, cada tamaño de cuadrícula, cada ajuste de dirección, cada modo de visualización, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'tren-alfabeto-fichas',
-      anchorText: 'Generador de Fichas de Tren Alfabeto',
+      anchorText: `Generador de Fichas de Tren Alfabeto`,
     },
     {
       pageType: 'app',
       slug: 'preposiciones-fichas',
-      anchorText: 'Generador de Fichas de Preposiciones',
+      anchorText: `Generador de Fichas de Preposiciones`,
     },
     {
       pageType: 'app',
       slug: 'adivinar-palabras-fichas',
-      anchorText: 'Generador de Fichas de Adivinar Palabras',
+      anchorText: `Generador de Fichas de Adivinar Palabras`,
     },
     {
       pageType: 'app',
       slug: 'letras-revueltas-fichas',
-      anchorText: 'Generador de Fichas de Letras Revueltas',
+      anchorText: `Generador de Fichas de Letras Revueltas`,
     },
     {
       pageType: 'app',
       slug: 'criptogramas-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Criptogramas con Imágenes',
+      anchorText: `Generador de Fichas de Criptogramas con Imágenes`,
     },
     {
       pageType: 'bundle',
@@ -235,12 +235,12 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'vender-material-educativo-etsy',
-      anchorText: 'Guía para Vender productos imprimibles en Etsy',
+      slug: `vender-material-educativo-etsy`,
+      anchorText: `Guía para Vender productos imprimibles en Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `La Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -250,34 +250,34 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'educacion-en-casa-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para trabajo desde casa',
+      slug: `educacion-en-casa-ideas-imprimibles`,
+      anchorText: `Ideas de imprimibles para trabajo desde casa`,
     },
     {
       pageType: 'guide',
       slug: 'crear-sopas-letras',
-      anchorText: 'Crear sopas de letras que se vendan',
+      anchorText: `Crear sopas de letras que se vendan`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      primary: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
       primaryAlt: `Ficha de sopa de letras con palabras ocultas en una cuadrícula de letras y pistas de imagen mostrando un puzzle de vocabulario`,
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Ficha de sopa de letras en formato vertical con cuadrícula 12×12 y pistas de imagen temáticas`,
         caption: `Formato vertical — cuadrícula 12×12 con pistas de imagen temáticas y lista de palabras`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 2.webp`,
         alt: `Ficha de sopa de letras en formato horizontal con cuadrícula más grande y palabras en diagonal activadas`,
         caption: `Formato horizontal — cuadrícula más amplia con palabras en diagonal e invertidas activadas`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 3.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 3.webp`,
         alt: `Ficha de sopa de letras usando el modo lista de palabras personalizada sin imágenes`,
         caption: `Modo Lista de Palabras Personalizada — sopa de letras de solo texto sin pistas de imagen`,
       },

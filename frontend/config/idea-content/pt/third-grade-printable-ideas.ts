@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Terceiro Ano — Guia de Nicho',
+    titleTag: `Ideias Imprimíveis Terceiro Ano — Guia de Nicho`,
     metaDescription: `Descubra ideias de imprimíveis de terceiro ano para vender no Etsy, Amazon KDP e Gumroad. Estratégias de nicho para vendedores no ano académico decisivo do 3.`,
-    primaryKeyword: 'ideias imprimíveis terceiro ano',
+    primaryKeyword: `ideias imprimíveis terceiro ano`,
     secondaryKeywords: [
-      'fichas terceiro ano para vender',
+      `fichas terceiro ano para vender`,
       'negócio imprimíveis 3.º ano',
-      'fichas atividades terceiro ano para vendedores',
-      'vender imprimíveis terceiro ano no Gumroad',
+      `fichas atividades terceiro ano para vendedores`,
+      `vender imprimíveis terceiro ano no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas ensino primário superior',
-      'imprimíveis catálogo de produtos 3.º ano',
-      'páginas atividades aprendizagem idades 8-9',
+      `fichas educativas ensino primário superior`,
+      `imprimíveis catálogo de produtos 3.º ano`,
+      `páginas atividades aprendizagem idades 8-9`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ O segmento de compradores pais atinge a sua motivação máxima durante o tercei
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Terceiro Ano no Etsy',
+      title: `Vender Imprimíveis de Terceiro Ano no Etsy`,
       description: `O Etsy capta o segmento de compradores pais de terceiro ano altamente motivado que pesquisa com termos urgentes de elevada intenção como «fichas multiplicação terceiro ano», «compreensão leitora 3.º ano», «fichas prática tabelas de multiplicar» e «preparação avaliações terceiro ano» durante todo o ano letivo com aumentos significativos de procura durante a época de avaliações da primavera e os períodos de transição de verão. Utiliza as treze etiquetas com variações que combinem objetivos de competências específicas, identificadores de ano e formatos de atividade para captar compradores motivados cuja precisão de pesquisa reflete a responsabilização de alto risco das avaliações de terceiro ano. Agrupa produtos por progressão de domínio de competências para aumentar o valor médio da encomenda: um pacote de domínio de factos de multiplicação organizado por fator das tabelas do dois até às do dez, um pacote de estratégias de compreensão leitora com passagens a múltiplos níveis de complexidade, e um pacote de preparação para avaliações servem cada um necessidades distintas dos pais enquanto incentivam múltiplas compras. A procura de meio do ano aumenta fortemente em janeiro quando os pais recebem os boletins do primeiro semestre, e o maior pico de compras ocorre em março e abril à medida que se aproximam as janelas de avaliações padronizadas e os pais procuram ativamente materiais de preparação para apoiar o seu filho durante as avaliações de alto risco que acarretam consequências de progressão e colocação.`,
     },
     {
@@ -139,18 +139,18 @@ O segmento de compradores pais atinge a sua motivação máxima durante o tercei
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -164,7 +164,7 @@ O segmento de compradores pais atinge a sua motivação máxima durante o tercei
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -174,28 +174,28 @@ O segmento de compradores pais atinge a sua motivação máxima durante o tercei
     },
     {
       pageType: 'idea',
-      slug: 'segundo-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Segundo Ano',
+      slug: `segundo-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Segundo Ano`,
     },
     {
       pageType: 'idea',
-      slug: 'primeiro-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Primeiro Ano',
+      slug: `primeiro-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Primeiro Ano`,
     },
     {
       pageType: 'idea',
-      slug: 'bases-matematica-ideias-imprimiveis',
+      slug: `bases-matematica-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Bases de Matemática`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Dossier — imagem educativa temática', caption: 'Dossier' },
-    { src: '/image-library/classroom/book.webp', alt: 'Livro — imagem educativa temática', caption: 'Livro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armário — imagem educativa temática', caption: 'Armário' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagem educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Dossier — imagem educativa temática`, caption: 'Dossier' },
+    { src: `/image-library/classroom/book.webp`, alt: `Livro — imagem educativa temática`, caption: 'Livro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armário — imagem educativa temática`, caption: 'Armário' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagem educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendário — imagem educativa temática`, caption: 'Calendário' },
   ],
 
 

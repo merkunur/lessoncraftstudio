@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Subscription Box Printable Ideas to Sell — Guide',
+    titleTag: `Subscription Box Printable Ideas to Sell — Guide`,
     metaDescription: `Worksheet subscription box ideas to sell on Etsy, Gumroad, and Patreon. Build recurring revenue with monthly curated worksheet packs and themed bundles.`,
 
-    primaryKeyword: 'subscription box printable ideas',
+    primaryKeyword: `subscription box printable ideas`,
     secondaryKeywords: [
-      'printable subscription box business',
-      'monthly worksheet subscription model',
-      'recurring printable delivery service',
-      'sell printable subscriptions online',
+      `printable subscription box business`,
+      `monthly worksheet subscription model`,
+      `recurring printable delivery service`,
+      `sell printable subscriptions online`,
     ],
     lsiKeywords: [
-      'monthly educational delivery products',
-      'recurring worksheet revenue model',
-      'curated printable package service',
+      `monthly educational delivery products`,
+      `recurring worksheet revenue model`,
+      `curated printable package service`,
     ],
   },
   hero: {
@@ -95,17 +95,17 @@ The subscription model works across multiple platforms including Gumroad which o
     },
     {
       platform: 'Patreon',
-      title: 'Running a Worksheet Subscription on Patreon',
+      title: `Running a Worksheet Subscription on Patreon`,
       description: `Patreon tier-based membership model maps naturally to printable worksheet subscriptions with multiple content levels that serve different subscriber needs and budget preferences while creating clear upgrade paths that increase average revenue per subscriber over time. Offer a basic tier with one monthly worksheet pack covering a single subject area, a mid tier with multiple packs spanning several subjects and grade levels, and a premium tier with exclusive content, early access to new materials, content request privileges, and behind-the-scenes creation process sharing that builds personal connection with subscribers. Patreon community features including posts, polls, comments, and direct messaging help build subscriber engagement beyond the monthly worksheet deliveries themselves, creating the relationship depth and sense of belonging that transforms passive subscribers into active community members invested in your continued success. The platform handles all billing, delivery notifications, payment processing, and subscriber management reducing the technical overhead for sellers who want to focus on content creation rather than subscription infrastructure. Use Patreon polls to let subscribers vote on upcoming monthly themes, creating participatory engagement that gives members ownership over the content direction and increases their investment in maintaining their subscription because they helped shape what comes next.`,
     },
     {
       platform: 'Etsy',
-      title: 'Creating Subscription-Style Sales on Etsy',
+      title: `Creating Subscription-Style Sales on Etsy`,
       description: `While Etsy lacks native subscription billing functionality, creative printable sellers build subscription-style businesses through monthly listing renewals, "subscribe and save" promotional bundles, and repeat customer cultivation programs that simulate recurring revenue within the platform constraints. List individual monthly worksheet packs as separate products while promoting the ongoing series prominently in each listing description, encouraging buyers who purchase one monthly pack to return for subsequent months by highlighting the thematic continuity and progressive difficulty that connects consecutive monthly deliveries into a coherent educational program. Use Etsy message-to-buyers automated messages to invite one-time purchasers to subscribe for future months through direct purchase links or by joining your email list where you can offer subscriber pricing and automatic monthly delivery outside the Etsy platform. Build an email list from Etsy customers to transition interested buyers to direct platforms like Gumroad or Shopify where recurring billing is automated and subscription management is seamless, using Etsy as a customer acquisition channel that feeds your subscription business with qualified buyers who have already demonstrated willingness to purchase your worksheet content. Create annual bundles at a discounted rate that function as prepaid subscriptions, delivering monthly content packs throughout the year while collecting full payment upfront for predictable revenue and reduced churn risk.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Building Subscription-Style Revenue on Gumroad',
+      title: `Building Subscription-Style Revenue on Gumroad`,
       description: `Gumroad supports growing bundles that function similarly to subscriptions where you create a year-long bundle priced at a premium that receives monthly additions throughout the school year, and early buyers get the best value as the bundle grows each month with new content additions they receive automatically through the platform notification system. The platform automatically alerts previous bundle purchasers when new content is added, creating subscription-like engagement where buyers receive monthly notifications about fresh materials added to their purchased bundle without any additional payment required after the initial purchase. Annual worksheet memberships aligned with the school year calendar from September through June create natural subscription cycles matching buyer purchasing patterns, with the growing bundle price increasing as more monthly content is added throughout the year, rewarding early purchasers who bought when the bundle was smaller and less expensive. Structure your growing bundle with a clear monthly content calendar published in the product description so buyers can see exactly what themes and subjects will be covered in each upcoming month, building anticipation and helping buyers plan their instructional schedules around your content delivery timeline. Include a subscriber-style community element by creating a dedicated feedback section in your store where bundle purchasers can request specific themes or subjects for upcoming monthly additions, building the participatory engagement that strengthens long-term customer relationships and encourages buyers to recommend your growing bundle to colleagues.`,
     },
   ],
@@ -145,32 +145,32 @@ The subscription model works across multiple platforms including Gumroad which o
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ The subscription model works across multiple platforms including Gumroad which o
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Business Ideas',
+      anchorText: `Math Facts Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

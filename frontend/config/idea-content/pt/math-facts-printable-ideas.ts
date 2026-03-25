@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideias Imprimíveis Bases Matemática — Guia de Nicho`,
     metaDescription: `Descobre ideias de imprimíveis de bases matemáticas para vender no Etsy, Amazon KDP e Gumroad. Estratégias de nicho para vendedores que servem vendedores.`,
-    primaryKeyword: 'ideias imprimíveis bases matemática',
+    primaryKeyword: `ideias imprimíveis bases matemática`,
     secondaryKeywords: [
-      'fichas operações matemáticas para vender',
-      'negócio imprimíveis exercícios matemáticos',
-      'fichas atividades aritmética para vendedores',
+      `fichas operações matemáticas para vender`,
+      `negócio imprimíveis exercícios matemáticos`,
+      `fichas atividades aritmética para vendedores`,
       `vender imprimíveis operações matemáticas no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas prática fluência numérica',
-      'páginas exercícios matemáticos cronometrados',
-      'recursos imprimíveis aritmética básica educativa',
+      `fichas prática fluência numérica`,
+      `páginas exercícios matemáticos cronometrados`,
+      `recursos imprimíveis aritmética básica educativa`,
     ],
   },
   hero: {
@@ -89,7 +89,7 @@ A concorrência existe no nicho de bases matemáticas mas a procura é tão cons
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Bases Matemáticas no Etsy',
+      title: `Vender Imprimíveis de Bases Matemáticas no Etsy`,
       description: `Os vendedores e pais pesquisam no Etsy com termos como «fichas de operações matemáticas», «prática de soma», «exercícios de multiplicação», «provas cronometradas de matemática», «fichas de fluência matemática», «atividades de famílias de operações» e «pacotes de trabalhos de casa de matemática» criando procura constante durante todo o ano com um modesto pico de regresso às aulas em agosto e setembro quando os vendedores abastecem as bibliotecas de recursos da loja para o próximo ano académico. Utiliza as treze etiquetas com variações que combinem operações específicas, níveis escolares, intervalos de operações e formatos de atividades para captar as consultas de pesquisa altamente específicas que os compradores de operações matemáticas usam quando sabem exatamente que operação, nível de dificuldade e formato de ficha precisam para o seu usuário ou loja em particular. Agrupa por operação criando pacotes integrais como «pacote de domínio de operações de soma» e «conjunto completo de tabuadas» que sirvam compradores que procuram cobertura exaustiva de uma única operação, e também agrupa por nível escolar criando coleções de «pacote de operações matemáticas de segundo ano» que abranjam múltiplas operações a níveis de dificuldade apropriados ao ano escolar. A natureza consumível da prática de operações matemáticas significa que os clientes regressam por fichas frescas durante todo o ano letivo, tornando a excelente qualidade do produto e a organização clara a base para construir uma base de clientes leais que gere receitas recorrentes dos mesmos compradores que adquirem materiais adicionais à medida que os seus usuários progridem através de intervalos de operações e tipos de operações.`,
     },
     {
@@ -143,18 +143,18 @@ A concorrência existe no nicho de bases matemáticas mas a procura é tão cons
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -168,7 +168,7 @@ A concorrência existe no nicho de bases matemáticas mas a procura é tão cons
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -178,18 +178,18 @@ A concorrência existe no nicho de bases matemáticas mas a procura é tão cons
     },
     {
       pageType: 'idea',
-      slug: 'primeiro-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Primeiro Ano',
+      slug: `primeiro-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Primeiro Ano`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagem educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cone — imagem educativa temática', caption: 'Cone' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagem educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagem educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — imagem educativa temática', caption: 'Diamante' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Coração — imagem educativa temática', caption: 'Coração' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagem educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cone — imagem educativa temática`, caption: 'Cone' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagem educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagem educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — imagem educativa temática`, caption: 'Diamante' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Coração — imagem educativa temática`, caption: 'Coração' },
   ],
 
 

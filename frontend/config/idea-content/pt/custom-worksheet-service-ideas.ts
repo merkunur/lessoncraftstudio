@@ -6,15 +6,15 @@ const content: IdeaContent = {
     metaDescription: `Ideias de negócio de serviço de fichas personalizadas para vendedores do Etsy e freelance. Oferece fichas educativas à medida com estratégias de preços.`,
     primaryKeyword: 'serviço fichas personalizadas',
     secondaryKeywords: [
-      'ideias negócio fichas personalizadas',
-      'serviço criação imprimíveis à medida',
+      `ideias negócio fichas personalizadas`,
+      `serviço criação imprimíveis à medida`,
       'negócio fichas por encomenda',
-      'vender fichas personalizadas online',
+      `vender fichas personalizadas online`,
     ],
     lsiKeywords: [
-      'imprimíveis educativos personalizados',
+      `imprimíveis educativos personalizados`,
       'criação fichas sob encomenda',
-      'serviço freelance design imprimíveis',
+      `serviço freelance design imprimíveis`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ O modelo de serviço personalizado funciona em paralelo com um catálogo de prod
       description: `A funcionalidade de encomendas personalizadas do Etsy permite aos vendedores de serviços de fichas criar listagens estilo serviço onde os compradores solicitam materiais personalizados, iniciam conversas de encomenda personalizada e recebem produtos à medida criados especificamente para as suas necessidades. Cria listagens que descrevam claramente as tuas capacidades de personalização, tempos de entrega, níveis de preços para diferentes graus de complexidade e exemplos de trabalhos personalizados anteriores que demonstrem a qualidade e abrangência de personalização que ofereces a potenciais clientes que navegam na tua loja. O sistema de mensagens do Etsy facilita consultas detalhadas com o cliente onde recolhes especificações, partilhas rascunhos para aprovação e entregas ficheiros finais através da infraestrutura de entrega digital segura da plataforma que trata do processamento de transações e distribuição de ficheiros automaticamente. Os vendedores de encomendas personalizadas no Etsy beneficiam do enorme tráfego orgânico da plataforma enquanto se diferenciam dos vendedores de produtos pré-fabricados através de personalização premium que justifica preços mais elevados do que as listagens padrão do mercado online. Posiciona as tuas listagens de serviço personalizado ao lado do teu catálogo de produtos pré-fabricados para que os compradores que descubram os teus produtos padrão possam encontrar e solicitar facilmente versões personalizadas adaptadas aos requisitos específicos da sua loja, escola ou programa.`,
     },
     {
-      platform: 'Fiverr e Plataformas Freelance',
+      platform: `Fiverr e Plataformas Freelance`,
       title: `Construir Serviços de Fichas Personalizadas no Fiverr e Mercados Freelance`,
       description: `O Fiverr, o Upwork e os mercados freelance ligam criadores de fichas personalizadas a clientes que procuram ativamente serviços de criação de conteúdo educativo, proporcionando um enquadramento estruturado baseado em gigs para fixar preços, entregar e construir avaliações para os teus serviços de produção de fichas personalizadas. Cria listagens de serviço com estruturas claras de níveis que ofereçam diferentes graus de personalização, quantidades de páginas e velocidades de entrega a pontos de preço progressivos que permitam aos clientes escolher o nível de investimento que corresponda às suas necessidades e restrições orçamentais. Os sistemas de avaliações de plataformas freelance constroem credibilidade através de comentários verificados de clientes que atraem encomendas de valor cada vez mais elevado à medida que a tua classificação e portfólio crescem, criando uma vantagem de reputação acumulativa que os prestadores de serviços estabelecidos aproveitam para obter preços premium pela sua experiência. O modelo freelance complementa as vendas de produtos em mercados online servindo clientes que necessitam de materiais verdadeiramente personalizados que nenhum produto pré-fabricado pode proporcionar, e muitos prestadores bem-sucedidos de serviços de fichas mantêm perfis ativos tanto no Etsy como em plataformas freelance para capturar a procura de diferentes segmentos de compradores que procuram criação de conteúdo educativo através de diferentes canais.`,
     },
@@ -101,7 +101,7 @@ O modelo de serviço personalizado funciona em paralelo com um catálogo de prod
       description: `O contacto direto com escolas, centros de explicações, cooperativas de ensino doméstico e organizações educativas constrói relações premium de serviço de fichas personalizadas com clientes institucionais que encomendam repetidamente e em volume durante cada ano letivo. Cria um portfólio profissional que mostre fichas personalizadas de exemplo em diferentes matérias, níveis escolares e tipos de personalização que demonstre a tua capacidade para produzir exatamente o que os clientes institucionais necessitam para os seus programas e populações estudantis específicos. Contacta diretamente escolas e centros de explicações locais com materiais de amostra e descrições de serviço, oferecendo preços introdutórios para primeiras encomendas que permitam aos potenciais clientes experimentar a tua qualidade e tempo de entrega antes de se comprometerem com relações de serviço contínuas. Os clientes institucionais proporcionam as receitas recorrentes mais previsíveis porque as escolas têm necessidades contínuas de materiais durante todo o ano letivo e regressam a prestadores de serviços fiáveis para cada nova unidade, tema ou ciclo de avaliação, criando relações comerciais a longo prazo que geram receitas mensais consistentes de encomendas repetidas.`,
     },
     {
-      platform: 'Redes Sociais e Comunidades de vendedores',
+      platform: `Redes Sociais e Comunidades de vendedores`,
       title: `Marketing de Serviços de Fichas Personalizadas Através de Comunidades de vendedores`,
       description: `As plataformas de redes sociais e comunidades online de vendedores proporcionam visibilidade para serviços de fichas personalizadas entre vendedores que discutem, partilham e recomendam recursos educativos com as suas redes profissionais. Partilha exemplos de antes e depois mostrando materiais genéricos transformados em versões personalizadas que demonstrem o valor dos teus serviços de personalização e ajudem potenciais clientes a visualizar como seriam materiais personalizados para as suas próprias salas de aula. Participa em grupos de Facebook para vendedores, comunidades educativas do Reddit e quadros de Pinterest para vendedores onde os vendedores discutem necessidades de materiais e recomendam prestadores de serviços, construindo reconhecimento como um especialista útil que compreende as necessidades dos vendedores antes de promoveres as tuas ofertas de serviço personalizado. Cria conteúdo que mostre o processo de personalização desde a solicitação do cliente até à entrega final que ajude potenciais clientes a compreender o que esperar e gere confiança no teu fluxo de trabalho profissional e qualidade de produção, reduzindo a hesitação que os clientes de primeiras encomendas personalizadas frequentemente experimentam ao considerar uma compra baseada em serviço em vez de uma transação de produto padrão.`,
     },
@@ -141,18 +141,18 @@ O modelo de serviço personalizado funciona em paralelo com um catálogo de prod
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -166,7 +166,7 @@ O modelo de serviço personalizado funciona em paralelo com um catálogo de prod
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -176,28 +176,28 @@ O modelo de serviço personalizado funciona em paralelo com um catálogo de prod
     },
     {
       pageType: 'idea',
-      slug: 'licencas-volume-ideias-imprimiveis',
+      slug: `licencas-volume-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Licenças de Volume de Imprimíveis`,
     },
     {
       pageType: 'idea',
-      slug: 'educacao-especial-ideias-imprimiveis',
+      slug: `educacao-especial-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Educação Especial`,
     },
     {
       pageType: 'idea',
-      slug: 'ensino-domestico-ideias-imprimiveis',
+      slug: `ensino-domestico-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Ensino Doméstico`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antílope — imagem educativa temática', caption: 'Antílope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Morcego — imagem educativa temática', caption: 'Morcego' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camelo — imagem educativa temática', caption: 'Camelo' },
-    { src: '/image-library/animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/animals/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antílope — imagem educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Morcego — imagem educativa temática`, caption: 'Morcego' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camelo — imagem educativa temática`, caption: 'Camelo' },
+    { src: `/image-library/animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/animals/dog.webp`, alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
   ],
 
 

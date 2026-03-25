@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Educación Especial — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de educación especial para vender en Etsy, KDP y Gumroad. Productos SPED para vendedores, terapeutas y padres de aprendices diversos.`,
-    primaryKeyword: 'ideas imprimibles educación especial',
+    primaryKeyword: `ideas imprimibles educación especial`,
     secondaryKeywords: [
-      'fichas educación especial para vender',
-      'ideas negocio imprimibles SPED',
+      `fichas educación especial para vender`,
+      `ideas negocio imprimibles SPED`,
       `fichas actividades necesidades especiales para vendedores`,
-      'vender imprimibles educación especial en Gumroad',
+      `vender imprimibles educación especial en Gumroad`,
     ],
     lsiKeywords: [
-      'fichas aprendizaje diferenciado',
-      'páginas actividades adaptadas para venta en línea',
-      'recursos imprimibles alineados con el IEP',
+      `fichas aprendizaje diferenciado`,
+      `páginas actividades adaptadas para venta en línea`,
+      `recursos imprimibles alineados con el IEP`,
     ],
   },
   hero: {
@@ -91,7 +91,7 @@ La publicación cruzada de imprimibles de educación especial en múltiples plat
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Educación Especial en Etsy',
+      title: `Vender Imprimibles de Educación Especial en Etsy`,
       description: `Etsy captura vendedores de educación especial, terapeutas y padres que buscan con términos altamente específicos como «fichas educación especial», «fichas adaptadas», «imprimibles SPED», «fichas autismo», «fichas habilidades para la vida», «apoyos visuales», «fichas matemáticas modificadas» y «actividades objetivos del IEP» durante los doce meses sin caída de demanda estacional. Utiliza las trece etiquetas con variaciones que combinen categorías de discapacidad, tipos de adaptación, áreas de objetivos del IEP y roles profesionales para captar los diversos segmentos de compradores dentro de la comunidad de educación especial que buscan de manera diferente según sus poblaciones específicas de usuarios y especialidades terapéuticas. Agrupa productos por área de objetivos del IEP o categoría de discapacidad para aumentar el valor promedio del pedido: un paquete de fundamentos de matemáticas adaptadas, un paquete de habilidades para la vida diaria y una colección de aprendizaje socioemocional sirven cada uno necesidades profesionales distintas mientras fomentan múltiples compras del mismo comprador. Los precios premium están justificados por el esfuerzo de diseño especializado porque los compradores de educación especial reconocen que los materiales debidamente adaptados requieren comprensión de los principios de adaptación que las fichas de educación general carecen. Las fuertes redes comunitarias profesionales entre los vendedores de educación especial y terapeutas impulsan el descubrimiento orgánico de boca a boca cuando los compradores satisfechos recomiendan productos en grupos de Facebook, comunidades de desarrollo profesional y discusiones de conferencias de educación especial.`,
     },
     {
@@ -101,7 +101,7 @@ La publicación cruzada de imprimibles de educación especial en múltiples plat
     },
     {
       platform: 'Gumroad',
-      title: 'Crear Recursos de Educación Especial para Gumroad',
+      title: `Crear Recursos de Educación Especial para Gumroad`,
       description: `Los vendedores de educación especial se encuentran entre las demografías que más gastan en Gumroad, comprando materiales adaptados que sus distritos no proporcionan porque los paquetes de productoses estándar consistentemente no incluyen recursos apropiados para usuarios con diversas adaptaciones relacionadas con discapacidades y niveles de habilidad. Etiqueta los productos con categorías específicas de discapacidad y áreas de objetivos del IEP para que los compradores puedan identificar rápidamente recursos que coincidan con los planes individualizados y requisitos de adaptación de sus usuarios. Incluye hojas de recopilación de datos y herramientas de monitoreo de progreso junto con las fichas porque los profesionales de educación especial deben documentar el rendimiento de los usuarios en los objetivos del IEP y valoran los recursos que integran materiales de práctica con documentación de evaluación. Los niveles diferenciados dentro de productos individuales sirven el amplio rango de habilidades en las tiendas de educación especial donde los usuarios en el mismo tienda de recursos pueden trabajar en niveles de habilidad vastamente diferentes en los dominios académicos. Los paquetes para tiendas de recursos y colecciones para tiendas autocontenidas obtienen precios premium porque abordan las necesidades integrales de materiales de los profesionales SPED que atienden a usuarios con múltiples tipos de adaptaciones simultáneamente durante todo el día instruccional.`,
     },
     {
@@ -145,18 +145,18 @@ La publicación cruzada de imprimibles de educación especial en múltiples plat
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -165,12 +165,12 @@ La publicación cruzada de imprimibles de educación especial en múltiples plat
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -180,18 +180,18 @@ La publicación cruzada de imprimibles de educación especial en múltiples plat
     },
     {
       pageType: 'idea',
-      slug: 'educacion-en-casa-ideas-imprimibles',
+      slug: `educacion-en-casa-ideas-imprimibles`,
       anchorText: `Ideas de Negocio de Imprimibles de Educación en Casa`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Círculo — imagen educativa temática', caption: 'Círculo' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Cono — imagen educativa temática', caption: 'Cono' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Cubo — imagen educativa temática', caption: 'Cubo' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cilindro — imagen educativa temática', caption: 'Cilindro' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamante — imagen educativa temática', caption: 'Diamante' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Corazón — imagen educativa temática', caption: 'Corazón' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Círculo — imagen educativa temática`, caption: 'Círculo' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Cono — imagen educativa temática`, caption: 'Cono' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Cubo — imagen educativa temática`, caption: 'Cubo' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cilindro — imagen educativa temática`, caption: 'Cilindro' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamante — imagen educativa temática`, caption: 'Diamante' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Corazón — imagen educativa temática`, caption: 'Corazón' },
   ],
 
 

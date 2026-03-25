@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear páginas para colorear Etsy',
+    primaryKeyword: `crear páginas para colorear Etsy`,
     secondaryKeywords: [
-      'cómo vender páginas para colorear en Etsy',
-      'configurar tienda Etsy de páginas para colorear',
+      `cómo vender páginas para colorear en Etsy`,
+      `configurar tienda Etsy de páginas para colorear`,
       `negocio de páginas para colorear imprimibles en Etsy`,
-      'vender láminas para colorear en Etsy',
+      `vender láminas para colorear en Etsy`,
     ],
     lsiKeywords: [
       `optimización de anuncios Etsy para descargas digitales de páginas para colorear`,
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Un catálogo de productos estratégico es la base de una tienda Etsy exitosa de páginas para colorear. El Generador de páginas para colorear te da acceso a 104 temas de imágenes — animales, alimentos, vehículos, naturaleza, festividades, fantasía, profesiones, deportes y docenas más. Cada tema produce páginas para colorear visualmente distintas, lo que significa que tu potencial de catálogo es enorme. El desafío es organizarlo eficazmente.\n\nComienza mapeando temas a segmentos de compradores. Los temas de animales, dinosaurios, vehículos y alimentos funcionan mejor para paquetes infantiles. Los temas de naturaleza, jardín, océano y composiciones estilo mandala atraen a compradores de coloreo para adultos. Los temas festivos (Navidad, Halloween, Pascua, San Valentín) sirven a todas las demografías y tienen picos predecibles de demanda estacional.\n\nEstructura tu catálogo en tres niveles de producto. Las páginas para colorear individuales (1 a 3 páginas) sirven como puntos de entrada de bajo precio que atraen compradores primerizos y generan reseñas. Los paquetes temáticos (10 a 20 páginas organizadas alrededor de un solo tema) son tus productos principales con la mejor relación margen-esfuerzo. Las mega colecciones (30 a 50+ páginas combinando temas relacionados) tienen precios premium y atraen a vendedores, terapeutas y padres que quieren material de actividades completo.\n\nPlanifica tu catálogo de lanzamiento inicial para incluir al menos 15 a 20 anuncios en 5 a 8 temas. Esto le da a Etsy suficientes datos para entender el enfoque de categoría de tu tienda y empezar a recomendar tus productos. Una tienda con 3 anuncios parece un hobby. Una tienda con 15+ anuncios enfocados en páginas para colorear parece un vendedor especializado que merece aparecer en los resultados de búsqueda.\n\nConsidera la segmentación por edad dentro de los temas. El mismo tema de animales puede producir una versión para niños pequeños (imágenes grandes individuales, contornos gruesos, mínimo detalle) y una versión detallada (múltiples imágenes más pequeñas, composiciones intrincadas, más superficie para colorear). Esto duplica tu número de anuncios del mismo tema sin duplicar contenido.\n\nCon una licencia comercial, obtienes acceso a 10 conjuntos de imágenes temáticas en los 11 idiomas de la interfaz. La licencia de Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones, dándote la profundidad de catálogo necesaria para dominar categorías de nicho de páginas para colorear en Etsy.`,
     },
     {
-      heading: 'Crea tu inventario de páginas para colorear',
+      heading: `Crea tu inventario de páginas para colorear`,
       content: `Con tu plan de catálogo en mano, abre el Generador de páginas para colorear y empieza a producir inventario. El flujo de trabajo para crear páginas para colorear vendibles es sencillo pero se beneficia de decisiones de diseño intencionales en cada paso.\n\nSelecciona tu tamaño de página primero. Carta EE. UU. vertical (8,5 × 11 pulgadas) es el estándar para compradores norteamericanos de Etsy. Crea versiones A4 de cada diseño para compradores internacionales — esto duplica tu mercado potencial con un esfuerzo extra mínimo ya que puedes reposicionar las mismas imágenes en un lienzo ligeramente diferente.\n\nNavega por la biblioteca de imágenes y selecciona tu tema objetivo. La biblioteca organiza más de 3.100 ilustraciones en 104 categorías. Haz clic en cualquier imagen para colocarla en el lienzo de composición libre. Para páginas para colorear infantiles, coloca de una a tres imágenes grandes con espaciado generoso entre ellas. Para páginas detalladas orientadas a adultos, coloca múltiples imágenes más pequeñas en composiciones complejas que llenen más de la página.\n\nUsa las herramientas de edición del lienzo para crear composiciones pulidas. Arrastra las imágenes para posicionarlas con precisión. Redimensiona usando las manijas de las esquinas para controlar el área de coloreo. Rota las imágenes ligeramente para crear diseños dinámicos y menos rígidos. Superpón imágenes usando los controles de profundidad para construir escenas con elementos en primer plano y fondo.\n\nLa herramienta de dibujo a mano alzada es tu arma secreta para crear productos únicos. Dibuja líneas de suelo debajo de animales, añade olas alrededor de criaturas marinas, esboza fondos simples detrás de las imágenes principales o crea bordes decorativos. Estas adiciones a mano alzada transforman colocaciones genéricas de imágenes en páginas para colorear distintivas que los competidores no pueden replicar fácilmente.\n\nActiva el modo escala de grises para convertir tu composición colorida en arte lineal limpio en B/N o escala de grises. Este es el paso crítico que transforma un diseño colorido en una página para colorear lista para imprimir. Previsualiza la salida en escala de grises cuidadosamente — asegúrate de que todos los contornos sean claros, los detalles sean visibles y la composición general se lea bien sin color.\n\nLa producción por lotes por tema es el enfoque más eficiente. Configura tu primera página con tema de animales, luego crea de 9 a 19 más usando diferentes imágenes de animales de la misma categoría temática. Esto produce un paquete temático completo en una sola sesión de trabajo. Exporta cada página como PDF de alta resolución a 300 DPI para calidad de impresión.`,
     },
     {
@@ -66,7 +66,7 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Estrategia SEO de Etsy para páginas para colorear',
+      heading: `Estrategia SEO de Etsy para páginas para colorear`,
       content: `El SEO de páginas para colorear difiere de otras categorías de imprimibles porque los compradores usan términos de búsqueda muy específicos que combinan sujeto, demografía y formato. Domina estos patrones para maximizar tu visibilidad.\n\nSiempre incluye la palabra «imprimible» en tu título y etiquetas. Los compradores de Etsy que buscan libros para colorear físicos rara vez convierten en anuncios digitales, así que «imprimible» filtra tu tráfico a compradores con intención digital que están listos para comprar y descargar.\n\nUsa las 13 etiquetas y haz que cada una sea única. Los patrones de etiquetas de alto rendimiento comunes para páginas para colorear incluyen: «[tema] páginas para colorear» (ej., «páginas para colorear dinosaurios»), «láminas para colorear imprimibles [demografía]» (ej., «láminas para colorear imprimibles niños pequeños»), «[caso de uso] actividad de coloreo» (ej., «actividad de coloreo tienda»), «[temporada] páginas para colorear imprimibles» (ej., «páginas para colorear Navidad imprimibles»), y «descarga digital coloreo [tema]». Evita desperdiciar etiquetas en palabras genéricas sueltas como «colorear» o «imprimible» — usa frases de varias palabras que coincidan con consultas de búsqueda reales.\n\nRenueva anuncios estratégicamente. Cuando renuevas un anuncio (manualmente o a través de renovación automática), Etsy le da un impulso temporal de visibilidad. Programa tus renovaciones para que coincidan con los picos de demanda de ese tema. Renueva tus páginas para colorear de Halloween a finales de septiembre, tus páginas navideñas a principios de noviembre, y tus páginas de vuelta al cole a finales de julio.`,
     },
     {
@@ -85,7 +85,7 @@ const content: GuideContent = {
       content: `Las tiendas de páginas para colorear más rentables en Etsy usan una escalera de precios deliberada que mueve a los compradores desde productos de entrada de bajo precio a colecciones de alto valor.\n\nTu escalera de precios debería incluir cuatro niveles. El nivel de entrada ($1,50 a $2,50) contiene páginas para colorear individuales o pequeños muestrarios de 2 a 3 páginas. Estos productos existen para generar reseñas y hacer que los compradores entren a tu tienda. El nivel estándar ($4,00 a $7,00) contiene paquetes temáticos de 10 a 15 páginas. Aquí es donde viene la mayor parte de tus ingresos. El nivel premium ($8,00 a $14,00) contiene grandes colecciones temáticas de 25 a 40 páginas. El nivel mega ($15,00 a $25,00) contiene paquetes completos de múltiples temas de 50 a 100+ páginas.\n\nCada anuncio debería referenciar el nivel superior en su descripción. La descripción de tu paquete de 10 páginas de animales debería mencionar: «¿Buscas más? Echa un vistazo a nuestra Colección Completa de Coloreo de Animales de 40 páginas para el mejor valor por página». Este enfoque de venta cruzada aumenta el valor medio del pedido sin ser invasivo.\n\nOfrece un «muestrario de tienda» que incluya 2 a 3 páginas de cada uno de tus 5 temas más populares. Ponle un precio de $2,00 a $3,00. Este producto permite a los nuevos compradores evaluar tu calidad de diseño en múltiples temas antes de comprometerse con un paquete completo. La tasa de conversión de compradores del muestrario a compradores de paquetes completos es significativamente mayor que la de navegantes orgánicos.`,
     },
     {
-      heading: 'Estrategia cruzada con libros para colorear KDP',
+      heading: `Estrategia cruzada con libros para colorear KDP`,
       content: `Los libros para colorear de Amazon KDP representan una oportunidad de ingresos significativa para vendedores de páginas para colorear de Etsy. Los mismos diseños que vendes como descargas digitales en Etsy pueden compilarse y publicarse como libros para colorear físicos en KDP, llegando a una audiencia de compradores completamente diferente.\n\nEl mercado de libros para colorear KDP tiene una economía diferente a Etsy. Los libros KDP típicamente contienen de 30 a 50 páginas para colorear a una cara. Los precios estándar de tapa blanda van de $5,99 a $9,99, con tu regalía típicamente entre $1,50 y $3,50 por venta dependiendo del número de páginas y el tamaño de recorte. Mientras que los ingresos por unidad son menores que las descargas digitales de Etsy, KDP proporciona exposición pasiva a la enorme base de compradores de Amazon.\n\nFormatea tus páginas para colorear específicamente para los requisitos de KDP. Usa un tamaño de recorte de 8,5 × 11 pulgadas (el estándar para libros para colorear). Coloca el contenido para colorear solo en páginas del lado derecho (con numeración impar), con páginas del lado izquierdo en blanco o con diseño ligero para prevenir el traspaso al colorear con rotuladores. Añade una página de título con tu marca, un índice listando los temas y una contraportada con la información de tu tienda y sitio web.\n\nUsa tus datos de ventas de Etsy para guiar las decisiones de publicación en KDP. Si tus páginas para colorear con tema de animales superan consistentemente a otros temas en Etsy, publica un libro para colorear de animales en KDP primero. Los datos reales de ventas de Etsy eliminan las conjeturas sobre qué temas funcionarán en Amazon.\n\nHaz promoción cruzada entre plataformas. Incluye una tarjeta en tu libro para colorear KDP que dirija a los lectores a tu tienda Etsy para descargas temáticas adicionales. Incluye una nota en tus anuncios de Etsy mencionando que una versión física del libro para colorear está disponible en Amazon. Cada plataforma alimenta tráfico a la otra.`,
     },
     {
@@ -100,7 +100,7 @@ const content: GuideContent = {
       content: `Un catálogo de Etsy de páginas para colorear bien estructurado demuestra cómo un solo vendedor puede construir una extensa variedad de productos a partir de bibliotecas de imágenes temáticas. Aquí tienes una estructura de catálogo realista para una tienda usando el Generador de páginas para colorear.\n\nAnuncios principales de animales (perennes): Paquete de coloreo animales de granja (15 páginas, $5,00), Paquete de coloreo animales del zoológico (15 páginas, $5,00), Paquete de coloreo criaturas marinas (15 páginas, $5,00), Páginas para colorear de dinosaurios (12 páginas, $4,50), Paquete de coloreo mascotas (10 páginas, $4,00), Páginas para colorear de insectos (10 páginas, $4,00). Total: 6 anuncios cubriendo el tema de mayor demanda en coloreo infantil.\n\nAnuncios principales de naturaleza y escenas (perennes): Paquete de coloreo flores del jardín (12 páginas, $4,50), Paquete de coloreo bosque (12 páginas, $4,50), Páginas para colorear espacio y planetas (10 páginas, $4,00), Paquete de coloreo mundo submarino (15 páginas, $5,00). Total: 4 anuncios con fuerte atractivo cruzado para niños y adultos.\n\nPaquetes y colecciones: Colección Completa de Animales (combina los 6 paquetes de animales, 77 páginas, $14,00), Colección Explorador de la Naturaleza (combina los 4 paquetes de naturaleza, 49 páginas, $10,00), Paquete Definitivo de Páginas para Colorear (todos los temas combinados, 126+ páginas, $22,00). Total: 3 anuncios premium a partir de contenido existente.\n\nProductos de entrada: Muestrario de páginas para colorear (3 páginas de 5 temas, 15 páginas, $2,50), Muestrarios de un solo tema (3 páginas cada uno, $1,50 cada uno). Total: 6+ anuncios de bajo precio para generación de reseñas.\n\nEsta estructura de catálogo produce 19+ anuncios con un esfuerzo de producción manejable, con rutas claras de mejora desde muestrarios hasta paquetes individuales y paquetes completos.`,
     },
     {
-      heading: 'Ejemplo de calendario estacional de productos',
+      heading: `Ejemplo de calendario estacional de productos`,
       content: `Planificar tu producción de páginas para colorear alrededor de la demanda estacional asegura que tengas productos publicados e indexados antes de cada pico de compras. Aquí tienes un calendario de producción y publicación mes a mes.\n\nEnero: Crea y publica paquetes de páginas para colorear de San Valentín (corazones, temas de amor, temas de amistad). Renueva y actualiza los anuncios de fiestas de invierno en oferta. Comienza a crear páginas temáticas de Pascua y primavera.\n\nFebrero: Publica paquetes de coloreo de Pascua y primavera. Crea páginas temáticas del Día de San Patricio. Revisa los datos de ventas de enero y refuerza los temas perennes de mejor rendimiento.\n\nMarzo: Publica paquetes de coloreo de naturaleza primaveral (flores, jardines, mariposas). Crea páginas temáticas del Día de la Madre. Comienza la producción de temas de verano y viajes.\n\nAbril a mayo: Publica paquetes de coloreo del Día de la Madre y el Día del Padre. Crea páginas para colorear de actividades de verano (playa, océano, camping, viajes). Prepara páginas para colorear educativas de vuelta al cole.\n\nJunio a julio: Publica paquetes de coloreo de actividades de verano y viajes. Comienza a publicar páginas para colorear de vuelta al cole. Crea contenido temático de otoño y Halloween.\n\nAgosto a septiembre: Período fuerte de publicación de vuelta al cole (paquetes de coloreo para venta en línea, temas educativos). Publica páginas para colorear de Halloween a principios de septiembre como máximo.\n\nOctubre: Halloween es tu mayor período de demanda de un solo evento. Asegúrate de que todos los productos de Halloween estén publicados y renovados. Comienza a publicar paquetes de coloreo de Navidad y fiestas de invierno.\n\nNoviembre a diciembre: La demanda de fiestas de invierno alcanza su máximo. Mantén los anuncios festivos renovados y visibles. Crea y publica páginas para colorear de Año Nuevo. Planifica el calendario de productos del próximo año basándote en los datos de ventas del año actual.\n\nEste calendario asegura que siempre estés de 4 a 6 semanas por delante de la demanda, dándole a Etsy tiempo para indexar tus anuncios estacionales antes de que los compradores empiecen a buscar.`,
     },
   ],
@@ -151,50 +151,50 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: `Cómo crear páginas para colorear a partir de imágenes temáticas` },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: 'Cómo vender sopas de letras en Etsy' },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: `Cómo vender sopas de letras en Etsy` },
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: `Cómo abrir una tienda Etsy de imprimibles desde cero` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'dibujos-colorear-fichas', anchorText: `Generador de páginas para colorear — Todos los detalles` },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el generador de páginas para colorear' },
+    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: `Prueba el generador de páginas para colorear` },
   ],
 
   toolsRecommended: [
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `La herramienta principal para crear páginas para colorear vendibles. Incluye un lienzo de composición libre con 104 temas de imágenes, composición arrastrando y soltando, dibujo a mano alzada y exportación en escala de grises con un clic para páginas B/N listas para imprimir.`,
     },
     {
       appId: 'draw-and-color',
-      title: 'Generador de actividades Dibujar y colorear',
+      title: `Generador de actividades Dibujar y colorear`,
       description: `Crea actividades de dibujo con cuadrícula que complementan las páginas para colorear en tu tienda Etsy. Los compradores que adquieren páginas para colorear frecuentemente compran actividades de dibujo del mismo vendedor, haciendo este generador ideal para venta cruzada.`,
     },
     {
       appId: 'big-small',
-      title: 'Generador de comparación Grande y pequeño',
+      title: `Generador de comparación Grande y pequeño`,
       description: `Produce fichas de actividades de comparación de tamaños usando la misma biblioteca de imágenes temáticas que el Generador de páginas para colorear. Una extensión natural de línea de productos para tiendas de páginas para colorear que se dirigen al mercado de actividades infantiles.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear con ilustraciones temáticas mostrando arte lineal B/N para vender en Etsy' },
+    heroImage: { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear con ilustraciones temáticas mostrando arte lineal B/N para vender en Etsy` },
     samples: [
-      { src: `/samples/spanish/coloring/coloring portrait 2.webp`, alt: 'Página para colorear temática de animales creada para anuncio de descarga digital en Etsy', caption: 'Página para colorear de animales de la biblioteca de imágenes temáticas — arte lineal B/N limpio que crea fotos de anuncios atractivas en Etsy' },
-      { src: `/samples/spanish/coloring/coloring portrait 4.webp`, alt: 'Página para colorear temática de naturaleza mostrando composiciones detalladas para mercados adultos e infantiles', caption: 'Página para colorear de naturaleza — tema versátil que atrae tanto a compradores infantiles como de coloreo para adultos en Etsy' },
-      { src: `/samples/spanish/coloring/coloring portrait 3.webp`, alt: 'Página para colorear temática festiva demostrando producto estacional para picos de demanda en Etsy', caption: 'Página para colorear festiva — los temas estacionales impulsan grandes picos de demanda en Etsy a lo largo del año' },
+      { src: `/samples/spanish/coloring/coloring portrait 2.webp`, alt: `Página para colorear temática de animales creada para anuncio de descarga digital en Etsy`, caption: `Página para colorear de animales de la biblioteca de imágenes temáticas — arte lineal B/N limpio que crea fotos de anuncios atractivas en Etsy` },
+      { src: `/samples/spanish/coloring/coloring portrait 4.webp`, alt: `Página para colorear temática de naturaleza mostrando composiciones detalladas para mercados adultos e infantiles`, caption: `Página para colorear de naturaleza — tema versátil que atrae tanto a compradores infantiles como de coloreo para adultos en Etsy` },
+      { src: `/samples/spanish/coloring/coloring portrait 3.webp`, alt: `Página para colorear temática festiva demostrando producto estacional para picos de demanda en Etsy`, caption: `Página para colorear festiva — los temas estacionales impulsan grandes picos de demanda en Etsy a lo largo del año` },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: `Cómo crear páginas para colorear para vender en Etsy — Tutorial paso a paso`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Hormiga — imagen educativa temática', caption: 'Hormiga' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Tejón — imagen educativa temática', caption: 'Tejón' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Castor — imagen educativa temática', caption: 'Castor' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Hormiga — imagen educativa temática`, caption: 'Hormiga' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: `Tejón — imagen educativa temática`, caption: 'Tejón' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: `Castor — imagen educativa temática`, caption: 'Castor' },
   ],
 };
 

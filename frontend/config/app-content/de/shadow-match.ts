@@ -7,14 +7,14 @@ const content: AppContent = {
       `druckbarer Silhouetten-Zuordnungs-Generator für Etsy-Verkäufer`,
       `Schattenbild-Rätsel-Arbeitsblatt-Generator für KDP-Verleger`,
       `Schattenbilder-Zuordnen-Ersteller kommerzielle Lizenz`,
-      'Silhouetten-Arbeitsblätter auf Gumroad verkaufen',
+      `Silhouetten-Arbeitsblätter auf Gumroad verkaufen`,
     ],
     lsiKeywords: [
       `digitale Schattenbilder-Zuordnung Druckvorlagen skalierbares Einkommen`,
       `kommerzieller Silhouetten-Rätsel-Generator mit Lösungsschlüssel`,
       `Druckvorlagen-Geschäft visuelle Wahrnehmung Werkzeuge`,
     ],
-    titleTag: 'Schattenbilder-Generator | Silhouetten-Zuordnung',
+    titleTag: `Schattenbilder-Generator | Silhouetten-Zuordnung`,
     metaDescription: `Schattenbilder-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Silhouetten-Zuordnung, Bild-Vervollständigung. Kostenlos testen mit Wasserzeichen.`,
   },
 
@@ -34,22 +34,22 @@ const content: AppContent = {
           `Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Dimension. Wählen Sie eine Seitenfarbe mit dem Farbwähler als Fallback-Hintergrund. Wählen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an (0–1, Schrittweite 0,05), dann wählen Sie ein Rahmenthema mit eigenem unabhängigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihr Schattenbilder-Zuordnungsblatt, bevor Sie Inhalte konfigurieren.`,
       },
       {
-        title: 'Übungsmodus wählen und Optionen konfigurieren',
+        title: `Übungsmodus wählen und Optionen konfigurieren`,
         description:
           `Öffnen Sie das Übungskonfigurations-Panel und wählen Sie Ihren Modus: Schattenbild-Zuordnung oder Bild Vervollständigen. Die Schattenbild-Zuordnung generiert schwarze Silhouetten aus Ihren ausgewählten Bildern durch pixelgenaue Verarbeitung. Bild Vervollständigen teilt Bilder in Hälften — wählen Sie horizontale (oben/unten) oder vertikale (links/rechts) Schnittrichtung über die Optionsfelder, die in diesem Modus erscheinen. Schalten Sie das Kontrollkästchen „Beschriftungen anzeigen" (Standard EIN) um, um A/B/C/D- und 1/2/3/4-Kennzeichnungen auf dem Arbeitsblatt anzuzeigen. Schalten Sie „Name-/Datumsfelder einfügen" um, um Zeilen für Name und Datum hinzuzufügen.`,
       },
       {
-        title: '4 Bilder aus der Bibliothek auswählen',
+        title: `4 Bilder aus der Bibliothek auswählen`,
         description:
           `Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort mit 300ms Verzögerung. Klicken Sie auf Bilder, um sie auszuwählen — der Zähler zeigt Ihren Fortschritt bis zu den erforderlichen 4 Bildern. Eine Auswahlvorschau bestätigt Ihre Auswahl vor der Generierung. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel „Eigene Bilder hochladen" verwenden.`,
       },
       {
-        title: 'Schattenbilder-Zuordnungsblatt generieren',
+        title: `Schattenbilder-Zuordnungsblatt generieren`,
         description:
           `Klicken Sie auf „Generieren", um das Zuordnungsblatt zu erstellen. Im Schattenbild-Zuordnungsmodus verarbeitet die App jedes Bild pixelgenau — lädt es auf eine Zeichenfläche, extrahiert Pixeldaten via getImageData und wandelt jeden Pixel mit Alpha > 10 in reines Schwarz (R=0, G=0, B=0, A=255) um, um präzise Silhouetten zu erzeugen. Im Modus Bild Vervollständigen werden Bilder entlang der gewählten Schnittrichtung geteilt. Beide Modi wenden Fisher-Yates-Derangement an, um zu garantieren, dass kein Element an seiner ursprünglichen Position erscheint. Eine gestaltete Überschrift erscheint mit bernsteinfarbenem Hintergrund (#FFC107), weißem Pillen-Container und 3px bernsteinfarbenem Rahmen mit „Schattenbilder-Zuordnung" und Anweisungen in der gewählten Sprache.`,
       },
       {
-        title: 'Lösungsschlüssel generieren und herunterladen',
+        title: `Lösungsschlüssel generieren und herunterladen`,
         description:
           `Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Im Schattenbild-Zuordnungsmodus zeigt jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie „A → 2", die die korrekte Zuordnung angibt. Im Modus Bild Vervollständigen zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.`,
       },
@@ -106,7 +106,7 @@ const content: AppContent = {
     title: `Schattenbilder-Zuordnungs-Arbeitsblätter online verkaufen`,
     cases: [
       {
-        title: 'Thematische Silhouetten-Zuordnungspakete auf Etsy',
+        title: `Thematische Silhouetten-Zuordnungspakete auf Etsy`,
         description:
           `Erstellen Sie thematische Schattenbilder-Zuordnungspakete mit den 104 Bildsammlungen — Tier-Silhouettenrätsel, Fahrzeug-Schattenbilder, Lebensmittel-Silhouetten und Dutzende mehr. Jedes Thema bietet Illustrationen mit unverwechselbaren Umrissen, die fesselnde Silhouetten-Aktivitäten erzeugen. Verpacken Sie 15–20 Schattenbilder-Zuordnungsblätter pro Thema mit beigelegten Lösungsschlüsseln und verkaufen Sie zu €3–€7 pro Paket. Mischen Sie beide Modi innerhalb eines einzelnen Pakets: Schattenbild-Zuordnungsblätter für Silhouettenerkennung und Bild-Vervollständigungsblätter für räumliches Denken. Die automatisch generierten Silhouetten und Lösungsschlüssel eliminieren die zeitaufwändigsten Teile der Produktion. Da die Arbeitsblatt-Ausgabe rein visuell ist, können Sie identische Pakete gleichzeitig auf Etsy.de und internationalen Etsy-Marktplätzen verkaufen — ein einziges Produkt bedient mehrere Märkte ohne zusätzlichen Aufwand.`,
         platform: 'Etsy (etsy.de)',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Schnellabschluss-Aktivitäten für den Gumroad',
+        title: `Schnellabschluss-Aktivitäten für den Gumroad`,
         description:
           `Erstellen Sie sofort einsatzfähige Schattenbilder-Zuordnungsaktivitäten mit Name-/Datumsfeldern und gedruckten Lösungsschlüsseln für die Produkterstellung. Verkäufer, die nach Übungen für visuelle Wahrnehmung suchen, schätzen Arbeitsblätter, die druckfertig mit Lösungsschlüsseln ankommen. Erstellen Sie lehrplanorientierte Sets: Tier-Silhouetten für den Sachunterricht, Berufe-Schattenbilder für Sozialkunde, Lebensmittel-Silhouetten für Ernährungslehre. Der Beschriftungs-Schalter ermöglicht die Erstellung von gerüsteten Versionen (mit A/B/C/D- und 1/2/3/4-Beschriftungen) und Herausforderungsversionen (Beschriftungen ausgeblendet) im selben Produkt für gestufte Produktpakete. Die automatisch generierten Lösungsschlüssel mit Buchstabe-zu-Nummer-Beschriftungen ermöglichen schnelle Selbstkontrolle durch Lernende oder effiziente Korrektur durch Verkäufer — ein wesentlicher Mehrwert gegenüber einfachen Silhouetten-Arbeitsblättern ohne Lösungshilfe. Da die Ausgabe rein visuell ist, können dieselben Arbeitsblätter ohne Änderung in deutschsprachigen und internationalen Geschäftskontexten eingesetzt werden.`,
         platform: 'Gumroad',
       },
       {
-        title: 'Saisonale Schattenbilder-Sammlungen',
+        title: `Saisonale Schattenbilder-Sammlungen`,
         description:
           `Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Silhouetten-Aktivitäten haben besondere Anziehungskraft während Halloween, wenn Schatten- und Geheimnis-Themen natürlich beliebt sind. Erstellen Sie aktuell verfügbare Schattenbilder-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Integrieren Sie sowohl Schattenbild-Zuordnungs- als auch Bild-Vervollständigungs-Arbeitsblätter in jedes saisonale Set für maximalen Wert und Vielfalt. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert. Veröffentlichen Sie Halloween-Silhouettenpakete im September, Weihnachts-Schattensammlungen im Oktober und Valentinstag-Pakete im Januar für maximale Sichtbarkeit während der jeweiligen Hochsaison.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (saisonal)`,
       },
       {
-        title: 'Gemischte-Modi-Rätselpakete als Premium-Bündel',
+        title: `Gemischte-Modi-Rätselpakete als Premium-Bündel`,
         description:
           `Kombinieren Sie beide Übungsmodi zu Premium-Rätselpaketen, die die Vielseitigkeit des Generators zeigen. Jedes Paket enthält Schattenbild-Zuordnungsblätter (Silhouettenerkennung), Bild-Vervollständigungsblätter mit horizontalem Schnitt (oben/unten Zusammenfügung) und Bild-Vervollständigungsblätter mit vertikalem Schnitt (links/rechts Zusammenfügung) — drei verschiedene Aktivitätstypen aus einem thematischen Bilderset. Dieser Drei-in-Eins-Ansatz rechtfertigt Premium-Preise von €7–€12 pro Paket. Lösungsschlüssel für jedes Arbeitsblatt sind automatisch enthalten und verleihen professionellen Schliff, der einen höheren wahrgenommenen Wert erzeugt. Die rein visuelle Ausgabe ermöglicht den gleichzeitigen Verkauf auf Etsy.de und internationalen Märkten ohne Übersetzungsaufwand. Verschiedene Rasterkombinationen aus drei Aktivitätstypen, verschiedenen Themen und variierenden Hintergrunddesigns erzeugen einzigartige Produktsets, die sich deutlich von Mitbewerbern abheben und wiederkehrende Kunden anziehen.`,
-        platform: 'Etsy / Amazon KDP (Premium-Bündel)',
+        platform: `Etsy / Amazon KDP (Premium-Bündel)`,
       },
     ],
   },
@@ -145,7 +145,7 @@ const content: AppContent = {
         `Der Generator bietet zwei verschiedene Modi. Der Schattenbild-Zuordnungsmodus platziert 4 farbige Bilder in der oberen Reihe und 4 automatisch generierte schwarze Silhouetten in der unteren Reihe — Lernende ordnen jedes Bild seinem Schatten zu, indem sie Buchstaben (A–D) mit Nummern (1–4) paaren. Der Modus Bild Vervollständigen teilt 4 Bilder in Hälften und präsentiert erste Hälften (A–D) und zweite Hälften (1–4) separat — Lernende ordnen die Hälften zu, um jedes Bild zu vervollständigen. Schattenbild-Zuordnung testet die Silhouettenerkennung, während Bild Vervollständigen räumliches Bewusstsein und Teil-zum-Ganzen-Denken fördert.`,
     },
     {
-      question: 'Wie werden die Silhouetten erzeugt?',
+      question: `Wie werden die Silhouetten erzeugt?`,
       answer:
         `Silhouetten werden durch echte pixelgenaue Bildverarbeitung erstellt, nicht durch CSS-Filter oder vorgefertigte Schattenelemente. Die App lädt jedes Bild auf eine Zeichenfläche, extrahiert jeden Pixel mittels getImageData und wandelt alle Pixel mit einem Alphawert größer als 10 in reines Schwarz (R=0, G=0, B=0, A=255) um. Dies bewahrt das exakte Transparenzprofil jedes Quellbildes und erzeugt präzise schwarze Silhouetten, die feine Details wie Tierohren, Schwänze, Fahrzeugrampen, Griffe und andere unverwechselbare Umrisse widerspiegeln. Die Qualität der Silhouetten hängt direkt von der Transparenz des Quellbildes ab — Illustrationen mit klaren Umrissen auf transparentem Hintergrund erzeugen die schärfsten und erkennbarsten Schattenbilder.`,
     },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `Der Modus Bild Vervollständigen bietet zwei Schnittrichtungs-Optionen über Optionsfelder: Horizontale Schnitte teilen Bilder in obere und untere Hälften, während vertikale Schnitte Bilder in linke und rechte Hälften teilen. Die Schnittrichtung gilt für alle 4 Bilder auf dem Arbeitsblatt. Das Layout passt sich automatisch basierend auf der Seitenausrichtung an — Querformat-Seiten ordnen Elemente in 2 Reihen × 4 Elemente an, während Hochformat-Seiten 2 Spalten × 4 Elemente für optimale visuelle Ausgewogenheit verwenden.`,
     },
     {
-      question: 'Wie funktioniert der Derangement-Algorithmus?',
+      question: `Wie funktioniert der Derangement-Algorithmus?`,
       answer:
         `Beide Modi verwenden einen Fisher-Yates-Derangement-Algorithmus, der garantiert, dass kein Element an seiner ursprünglichen Position erscheint. Im Schattenbild-Zuordnungsmodus befindet sich keine Silhouette direkt unter ihrem passenden Bild. Im Modus Bild Vervollständigen erscheint keine zweite Hälfte neben ihrer passenden ersten Hälfte. Dies stellt sicher, dass jedes Arbeitsblatt eine echte Zuordnungsherausforderung darstellt — Lernende können nicht allein durch die Position korrekt raten. Das Derangement berechnet sich bei jeder Generierung neu und erzeugt verschiedene Anordnungen aus denselben Bildern.`,
     },
@@ -170,7 +170,7 @@ const content: AppContent = {
         `Das Arbeitsblatt verwendet eine feste Anzahl von 4 Zuordnungsaufgaben (SELECT_COUNT = 4). Dies ist nicht konfigurierbar. Vier Elemente bieten die optimale Balance für Schatten- und Bildhälften-Zuordnung: genug Vielfalt, um mit dem Derangement-Algorithmus eine echte Zuordnungsherausforderung zu schaffen, während jedes Bild groß genug bleibt, damit Lernende feine Details in Silhouetten und geteilten Hälften studieren können. Das konsistente 4-Elemente-Format eignet sich auch gut für gebündelte Produkte, bei denen jede Seite eine vorhersehbare Inhaltsdichte hat.`,
     },
     {
-      question: 'Wie funktionieren die Name- und Datumsfelder?',
+      question: `Wie funktionieren die Name- und Datumsfelder?`,
       answer:
         `Schalten Sie das Kontrollkästchen „Name-/Datumsfelder einfügen" im Übungskonfigurations-Panel um, um Zeilen für Name und Datum am unteren Rand des Arbeitsblatts hinzuzufügen. Wenn aktiviert, können Lernende ihren Namen und das Datum direkt auf der gedruckten Seite eintragen — wesentlich für die Zuordnung in der Produkterstellung und organisierte Bewertung. Wenn deaktiviert, nutzt das Arbeitsblatt die gesamte Seitenfläche für Zuordnungsinhalte. Diese Option funktioniert sowohl mit dem Schattenbild-Zuordnungsmodus als auch mit dem Modus Bild Vervollständigen.`,
     },
@@ -180,7 +180,7 @@ const content: AppContent = {
         `Der Generator verwendet ein Doppel-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Im Schattenbild-Zuordnungsmodus zeigt der Lösungsschlüssel ein Raster, in dem jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie „A → 2" anzeigt. Im Modus Bild Vervollständigen zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung. Das Raster verwendet 4 Spalten mit einheitlichem Abstand. Beide Versionen werden über vier dedizierte Download-Buttons separat exportiert: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF.`,
     },
     {
-      question: 'Gibt es eine kostenlose Testversion?',
+      question: `Gibt es eine kostenlose Testversion?`,
       answer:
         `Ja. Sie können jede Funktion nutzen — beide Übungsmodi, automatisch generierte Silhouetten, Schnittrichtungs-Optionen, den Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Beschriftungs-Schalter, Name-/Datumsfelder, Textwerkzeuge und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.`,
     },
@@ -205,7 +205,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'zuordnungs-arbeitsblaetter',
-      anchorText: 'Zuordnungs-Arbeitsblatt-Generator',
+      anchorText: `Zuordnungs-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
@@ -215,22 +215,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'bilder-bingo-arbeitsblaetter',
-      anchorText: 'Bilder-Bingo-Arbeitsblatt-Generator',
+      anchorText: `Bilder-Bingo-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
-      slug: 'bilder-sortieren-arbeitsblaetter',
-      anchorText: 'Bilder-Sortieren-Arbeitsblatt-Generator',
+      slug: `bilder-sortieren-arbeitsblaetter`,
+      anchorText: `Bilder-Sortieren-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'malvorlagen-arbeitsblaetter',
-      anchorText: 'Ausmalbilder-Arbeitsblatt-Generator',
+      anchorText: `Ausmalbilder-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'app',
       slug: 'suchbilder-arbeitsblaetter',
-      anchorText: 'Suchbilder-Arbeitsblatt-Generator',
+      anchorText: `Suchbilder-Arbeitsblatt-Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,22 +240,22 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'vorschule-druckvorlagen-ideen',
-      anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung',
+      anchorText: `Vorschul-Druckvorlagen-Ideen für frühe Förderung`,
     },
     {
       pageType: 'idea',
-      slug: 'kindergarten-druckvorlagen-ideen',
-      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Nutzer',
+      slug: `kindergarten-druckvorlagen-ideen`,
+      anchorText: `Kindergarten-Druckvorlagen-Ideen für junge Nutzer`,
     },
     {
       pageType: 'start',
-      slug: 'druckvorlagen-geschaeft-bauplan',
-      anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan',
+      slug: `druckvorlagen-geschaeft-bauplan`,
+      anchorText: `Ihr Druckvorlagen-Geschäfts-Bauplan`,
     },
     {
       pageType: 'guide',
-      slug: 'schatten-zuordnung-arbeitsblaetter-erstellen',
-      anchorText: 'Schatten-Zuordnung Arbeitsblätter erstellen',
+      slug: `schatten-zuordnung-arbeitsblaetter-erstellen`,
+      anchorText: `Schatten-Zuordnung Arbeitsblätter erstellen`,
     },
   ],
 

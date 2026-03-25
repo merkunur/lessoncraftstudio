@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis Animais Marinhos — Guia de Nicho`,
     metaDescription: `Ideias lucrativas de imprimíveis de animais marinhos para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos, estratégias por plataforma e dicas.`,
 
-    primaryKeyword: 'ideias de imprimíveis animais marinhos',
+    primaryKeyword: `ideias de imprimíveis animais marinhos`,
     secondaryKeywords: [
-      'fichas animais marinhos para vender',
-      'negócio imprimíveis criaturas marinhas',
-      'fichas atividades oceano para vendedores',
-      'vender imprimíveis marinhos no Etsy',
+      `fichas animais marinhos para vender`,
+      `negócio imprimíveis criaturas marinhas`,
+      `fichas atividades oceano para vendedores`,
+      `vender imprimíveis marinhos no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas vida marinha',
-      'atividades temática submarina para crianças',
-      'imprimíveis escolares criaturas do mar',
+      `fichas educativas vida marinha`,
+      `atividades temática submarina para crianças`,
+      `imprimíveis escolares criaturas do mar`,
     ],
   },
   hero: {
@@ -94,7 +94,7 @@ As ligações com a educação em ciências tornam os imprimíveis de animais ma
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Animais Marinhos no Etsy',
+      title: `Vender Imprimíveis de Animais Marinhos no Etsy`,
       description: `O Etsy recompensa a especificidade nas listagens de imprimíveis de animais marinhos. Aponta para palavras-chave de cauda longa como «fichas contagem animais marinhos pré-escolar» ou «páginas colorir criaturas marinhas» em vez de títulos genéricos. Utiliza as treze etiquetas com combinações de tema, competência, faixa etária e estação do ano. As imagens de maqueta mostrando fichas oceânicas impressas junto a brinquedos de praia, fundos azuis ou ambientes de loja superam significativamente as pré-visualizações digitais planas. Agenda os novos anúncios para coincidir com os picos de procura de verão de maio a agosto quando o interesse oceânico dispara. Oferece tanto fichas individuais a dois ou quatro dólares como pacotes temáticos a oito ou quinze dólares, já que os compradores do Etsy frequentemente começam com uma compra de baixo custo e regressam por pacotes maiores após verificar a qualidade.`,
     },
     {
@@ -148,18 +148,18 @@ As ligações com a educação em ciências tornam os imprimíveis de animais ma
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -173,7 +173,7 @@ As ligações com a educação em ciências tornam os imprimíveis de animais ma
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -183,18 +183,18 @@ As ligações com a educação em ciências tornam os imprimíveis de animais ma
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
+      slug: `animais-fazenda-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais de Quinta`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Peixe-anjo — imagem educativa temática', caption: 'Peixe-anjo' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Peixe-palhaço — imagem educativa temática', caption: 'Peixe-palhaço' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagem educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Caranguejo — imagem educativa temática', caption: 'Caranguejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Golfinho — imagem educativa temática', caption: 'Golfinho' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Peixe — imagem educativa temática', caption: 'Peixe' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Peixe-anjo — imagem educativa temática`, caption: 'Peixe-anjo' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Peixe-palhaço — imagem educativa temática`, caption: 'Peixe-palhaço' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagem educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Caranguejo — imagem educativa temática`, caption: 'Caranguejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Golfinho — imagem educativa temática`, caption: 'Golfinho' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Peixe — imagem educativa temática`, caption: 'Peixe' },
   ],
 
 

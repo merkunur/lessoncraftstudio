@@ -6,12 +6,12 @@ const content: AppContent = {
     secondaryKeywords: [
       `generatore di pagine da colorare stampabili per venditori Etsy`,
       `creatore di schede da colorare per editori Amazon KDP`,
-      'vendere pagine da colorare su Gumroad',
+      `vendere pagine da colorare su Gumroad`,
       `generatore di pagine da colorare licenza commerciale`,
     ],
     lsiKeywords: [
       `prodotti digitali pagine da colorare per imprenditori`,
-      'libri da colorare stampabili uso commerciale',
+      `libri da colorare stampabili uso commerciale`,
       `generatore di pagine da colorare con canvas libero e disegno a mano libera`,
     ],
     titleTag: `Generatore Pagine da Colorare | Crea e Vendi Stampabili`,
@@ -23,14 +23,14 @@ const content: AppContent = {
     title: `Generatore di Pagine da Colorare per Schede da Colorare Personalizzate`,
     tagline: `Designer di pagine da colorare su canvas a forma libera — esplora 104 collezioni di immagini tematiche, aggiungi disegni a mano libera, includi strumenti per il negozio come campi nome e righe di scrittura, e attiva l'esportazione in scala di grigi per pagine da colorare economiche in inchiostro.`,
     description:
-      `Crea pagine da colorare professionali su un canvas a forma libera dove posizioni le immagini esattamente dove vuoi — nessuna griglia, nessun modello, libertà creativa totale. Esplora la Libreria di Immagini integrata con oltre 3100 illustrazioni a colori in 104 collezioni tematiche, clicca su qualsiasi immagine per aggiungerla al tuo canvas, poi organizza, ridimensiona, ruota e sovrapponi gli elementi finché la tua pagina non è perfetta. Lo strumento di disegno a mano libera ti permette di disegnare illustrazioni personalizzate direttamente sul canvas con colore e dimensione del pennello regolabili. Gli strumenti per il negozio aggiungono un campo nome e righe di pratica di scrittura con un solo clic — trasformando le pagine da colorare in attività pronte per il negozio. Quando hai finito, attiva l'opzione di esportazione in scala di grigi per convertire la tua composizione a colori in pagine da colorare economiche in inchiostro, perfette per la stampa. Aggiungi temi di cornici decorative, testo personalizzato con effetti di contorno e carica le tue immagini insieme al contenuto della libreria. Il Generatore di Pagine da Colorare non è sensibile alla lingua — l'output è puramente visivo, quindi le schede sono identiche in tutte le lingue. L'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell'interfaccia. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti di pagine da colorare su Etsy, compili libri da colorare per Amazon KDP o crei attività da colorare per il negozio su Gumroad, il Generatore di Pagine da Colorare offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.`,
+      `Crea pagine da colorare professionali su un canvas a forma libera dove posizioni le immagini esattamente dove vuoi — nessuna griglia, nessun modello, libertà creativa totale. Esplora la Libreria di Immagini integrata con oltre 3100 illustrazioni a colori in 104 collezioni tematiche, clicca su qualsiasi immagine per aggiungerla al tuo canvas, poi organizza, ridimensiona, ruota e sovrapponi gli elementi finché la tua pagina non è perfetta. Lo strumento di disegno a mano libera ti permette di disegnare illustrazioni personalizzate direttamente sul canvas con colore e dimensione del pennello regolabili. Gli strumenti per il negozio aggiungono un campo nome e righe di pratica di scrittura con un solo clic — trasformando le pagine da colorare in attività pronte per il negozio. Quando hai finito, attiva l`opzione di esportazione in scala di grigi per convertire la tua composizione a colori in pagine da colorare economiche in inchiostro, perfette per la stampa. Aggiungi temi di cornici decorative, testo personalizzato con effetti di contorno e carica le tue immagini insieme al contenuto della libreria. Il Generatore di Pagine da Colorare non è sensibile alla lingua — l`output è puramente visivo, quindi le schede sono identiche in tutte le lingue. L`Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia. Esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti di pagine da colorare su Etsy, compili libri da colorare per Amazon KDP o crei attività da colorare per il negozio su Gumroad, il Generatore di Pagine da Colorare offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.`,
   },
 
   howItWorks: {
     title: `Come Creare Pagine da Colorare Personalizzate in 5 Passaggi`,
     steps: [
       {
-        title: 'Configura il layout della pagina',
+        title: `Configura il layout della pagina`,
         description:
           `Apri il pannello Impostazioni Pagina e scegli un formato: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o qualsiasi dimensione personalizzata. Seleziona un colore di pagina con il selettore colori — il bianco è il valore predefinito per pagine da colorare pulite. Scegli un tema di cornice decorativa dalla libreria di cornici per incorniciare la tua pagina. Queste opzioni di layout stabiliscono la base della tua scheda da colorare prima di aggiungere contenuto.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Usa il pannello Strumenti di Testo per aggiungere titoli, istruzioni o etichette con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la dimensione del font, il colore e la larghezza del contorno del testo (da 0 a 10 con granularità di 0,5) per la massima leggibilità. Clicca sugli Strumenti per il negozio per aggiungere un campo nome («Nome: ____») o righe di pratica di scrittura con un solo clic. Passa allo Strumento di Disegno per disegnare illustrazioni a mano libera direttamente sul canvas — scegli un colore del pennello e regola la dimensione del pennello da 1 a 50 pixel.`,
       },
       {
-        title: 'Attiva la scala di grigi e scarica',
+        title: `Attiva la scala di grigi e scarica`,
         description:
           `Apri il pannello Scarica e attiva l'opzione scala di grigi per convertire la tua composizione a colori in pagine da colorare economiche in inchiostro — perfette per schede stampate e libri da colorare. Esporta come JPEG ad alta risoluzione o PDF pronto per la stampa a 300 DPI. I file vengono salvati come coloring_page.jpeg o coloring_page.pdf per una facile organizzazione. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file di prodotti Gumroad — senza necessità di post-elaborazione.`,
       },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: `Esportazione in scala di grigi per pagine da colorare economiche in inchiostro`,
         description:
-          `La Libreria di Immagini contiene oltre 3100 illustrazioni a colori — ma le pagine da colorare devono essere stampate in bianco e nero affinché gli utenti aggiungano i propri colori. L'esportazione in scala di grigi risolve questo convertendo l\'intera composizione in scala di grigi al momento dell\'esportazione. Disegna con immagini a colori per una facile identificazione visiva, poi attiva l\'opzione per produrre schede da colorare economiche in inchiostro. Questo flusso di lavoro è essenziale per gli interni dei libri da colorare di Amazon KDP dove le pagine devono essere in scala di grigi, e per la stampa in volume dove l'inchiostro a colori è costoso o non disponibile.`,
+          `La Libreria di Immagini contiene oltre 3100 illustrazioni a colori — ma le pagine da colorare devono essere stampate in bianco e nero affinché gli utenti aggiungano i propri colori. L`esportazione in scala di grigi risolve questo convertendo l'intera composizione in scala di grigi al momento dell'esportazione. Disegna con immagini a colori per una facile identificazione visiva, poi attiva l'opzione per produrre schede da colorare economiche in inchiostro. Questo flusso di lavoro è essenziale per gli interni dei libri da colorare di Amazon KDP dove le pagine devono essere in scala di grigi, e per la stampa in volume dove l`inchiostro a colori è costoso o non disponibile.`,
       },
       {
         title: `Libreria di Immagini con 104 collezioni tematiche e oltre 3100 illustrazioni`,
@@ -107,22 +107,22 @@ const content: AppContent = {
     title: `Come Vendere Pagine da Colorare Personalizzate Online`,
     cases: [
       {
-        title: 'Pacchetti tematici di pagine da colorare su Etsy',
+        title: `Pacchetti tematici di pagine da colorare su Etsy`,
         description:
           `Crea pacchetti di pagine da colorare tematiche usando le 104 collezioni di immagini — animali della fattoria, creature marine, dinosauri, fauna della giungla, celebrazioni festive e decine di altre. Ogni tema fornisce illustrazioni sufficienti per 10-20 pagine da colorare uniche. Attiva l'esportazione in scala di grigi per un output pronto per la stampa, aggiungi cornici decorative per un aspetto curato e includi pagine con righe di scrittura per valore educativo aggiuntivo. Offri i temi come pacchetti individuali a 3–5 € ciascuno, o combina più temi in megapacchetti a 12–18 €. Il canvas a forma libera garantisce che ogni pagina sia originale e impossibile da ricreare con generatori basati su modelli.`,
         platform: 'Etsy (etsy.it)',
       },
       {
-        title: 'Libri da colorare su Amazon KDP',
+        title: `Libri da colorare su Amazon KDP`,
         description:
-          `Compila 60-100 pagine da colorare in un libro stampato formattato per Amazon KDP. L'esportazione in scala di grigi produce pagine economiche in inchiostro pronte per interni di libri in bianco e nero. Struttura il tuo libro per tema: il capitolo 1 copre animali della fattoria, il capitolo 2 vita marina, il capitolo 3 veicoli, e così via. Usa lo strumento di disegno a mano libera per aggiungere pagine del titolo personalizzate e separatori di sezione. Il canvas a forma libera ti permette di controllare la densità delle immagini per pagina — un\'immagine grande per i più piccoli, più immagini piccole per i coloristi più grandi. I libri da colorare hanno domanda tutto l'anno con picchi stagionali durante le festività.`,
+          `Compila 60-100 pagine da colorare in un libro stampato formattato per Amazon KDP. L`esportazione in scala di grigi produce pagine economiche in inchiostro pronte per interni di libri in bianco e nero. Struttura il tuo libro per tema: il capitolo 1 copre animali della fattoria, il capitolo 2 vita marina, il capitolo 3 veicoli, e così via. Usa lo strumento di disegno a mano libera per aggiungere pagine del titolo personalizzate e separatori di sezione. Il canvas a forma libera ti permette di controllare la densità delle immagini per pagina — un'immagine grande per i più piccoli, più immagini piccole per i coloristi più grandi. I libri da colorare hanno domanda tutto l`anno con picchi stagionali durante le festività.`,
         platform: 'Amazon KDP (kdp.amazon.it)',
       },
       {
         title: `Schede di attività da colorare per il negozio su Gumroad`,
         description:
           `Costruisci schede da colorare pronte per il negozio con gli strumenti integrati. Aggiungi un campo nome perché gli utenti identifichino il proprio lavoro e includi righe di pratica di scrittura nella parte inferiore per la pratica di alfabetizzazione integrata. i venditori che cercano attività da colorare su Gumroad apprezzano schede che vanno oltre il semplice colorare — il campo nome e le righe di scrittura rendono il tuo prodotto una scheda di attività multi-competenze. Crea set tematici legati a unità curricolari: il clima, le stagioni, i mestieri della comunità, i gruppi alimentari e gli habitat. L'output puramente visivo funziona per ogni utente indipendentemente dalla lingua o dal livello di lettura.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
         title: `Pagine da colorare personalizzate con disegno a mano libera`,
@@ -134,7 +134,7 @@ const content: AppContent = {
         title: `Collezioni stagionali e festive di pagine da colorare`,
         description:
           `Le 104 collezioni di immagini tematiche coprono ogni occasione stagionale e festiva — Natale, Halloween, Pasqua, San Valentino, ritorno a scuola, vacanze estive, feste invernali e molto altro. Crea collezioni di pagine da colorare per stagione allineate con i picchi di acquisto. Lancia i pacchetti di Halloween a settembre, le collezioni di Natale a ottobre e i pacchetti di San Valentino a gennaio. I prodotti stagionali raggiungono prezzi più alti durante le loro finestre di massima domanda e creano motivi naturali per acquisti ricorrenti dalla stessa base di clienti.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (stagionale)',
+        platform: `Etsy / Amazon KDP / Gumroad (stagionale)`,
       },
     ],
   },
@@ -156,9 +156,9 @@ const content: AppContent = {
         `Due pulsanti con un solo clic nel pannello Strumenti per il negozio. Il pulsante Campo Nome aggiunge un blocco di testo formattato «Nome: ____________________» vicino alla parte superiore della pagina. Il pulsante Righe di Scrittura aggiunge un gruppo di tre righe uniformemente spaziate (continua, tratteggiata, continua) vicino alla parte inferiore della pagina per la pratica di scrittura. Entrambi gli strumenti creano oggetti standard del canvas che puoi riposizionare, ridimensionare o eliminare come qualsiasi altro elemento.`,
     },
     {
-      question: 'Come funziona l\'esportazione in scala di grigi?',
+      question: `Come funziona l'esportazione in scala di grigi?`,
       answer:
-        `L'opzione scala di grigi nel pannello Scarica converte l\'intera pagina da colorare in scala di grigi al momento dell\'esportazione. Il tuo canvas rimane a colori per una facile modifica visiva — la scala di grigi viene applicata solo al file esportato. Questo ti permette di disegnare con immagini a colori per l\'identificazione e poi produrre un output economico in inchiostro per la stampa. Essenziale per gli interni dei libri da colorare di Amazon KDP e la stampa in volume dove l'inchiostro a colori non è disponibile o è costoso.`,
+        `L`opzione scala di grigi nel pannello Scarica converte l'intera pagina da colorare in scala di grigi al momento dell'esportazione. Il tuo canvas rimane a colori per una facile modifica visiva — la scala di grigi viene applicata solo al file esportato. Questo ti permette di disegnare con immagini a colori per l'identificazione e poi produrre un output economico in inchiostro per la stampa. Essenziale per gli interni dei libri da colorare di Amazon KDP e la stampa in volume dove l`inchiostro a colori non è disponibile o è costoso.`,
     },
     {
       question: `Come esplorare e aggiungere immagini dalla libreria?`,
@@ -166,12 +166,12 @@ const content: AppContent = {
         `Apri il pannello Libreria di Immagini, seleziona un tema dal menu a tendina o digita un termine di ricerca nella barra di ricerca. Le immagini appaiono in una griglia — clicca su qualsiasi immagine per aggiungerla direttamente al tuo canvas. L'immagine appare come un oggetto del canvas mobile e ridimensionabile che puoi trascinare, ruotare e sovrapporre con altri elementi. La libreria contiene oltre 3100 illustrazioni a colori in 104 collezioni tematiche. Puoi anche caricare immagini personalizzate PNG, JPG o GIF.`,
     },
     {
-      question: 'Posso caricare le mie immagini?',
+      question: `Posso caricare le mie immagini?`,
       answer:
         `Sì. Il pannello Libreria di Immagini include un pulsante di importazione personalizzata che accetta file PNG, JPG e GIF. Le immagini caricate vengono aggiunte al canvas come le immagini della libreria — completamente mobili, ridimensionabili e ruotabili. Combina le tue creazioni con le illustrazioni della libreria per pagine da colorare completamente originali. Le immagini personalizzate sono particolarmente utili per pagine da colorare specifiche di un brand o temi non coperti dalle collezioni integrate.`,
     },
     {
-      question: 'Come funzionano i temi di cornici decorative?',
+      question: `Come funzionano i temi di cornici decorative?`,
       answer:
         `Nel pannello Impostazioni Pagina, seleziona un tema di cornice dalla libreria di cornici. La cornice incornicia il tuo canvas e aggiunge una finitura visiva alla pagina da colorare completata. Le cornici vengono applicate come elementi del canvas visibili nell'editor. Definiscono il confine visivo della pagina senza interferire con le tue immagini, testo o disegni. Diversi temi di cornici si adattano a diversi pubblici — cornici giocose per pagine da colorare per bambini, cornici eleganti per libri da colorare per adulti.`,
     },
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: `Il Generatore di Pagine da Colorare è sensibile alla lingua?`,
       answer:
-        `No. Il Generatore di Pagine da Colorare è un'applicazione puramente visiva — l'output consiste solo in immagini, disegni e qualsiasi testo aggiunto manualmente. Cambiare la lingua influisce solo sulle etichette dell'interfaccia del generatore e sulle etichette del contenuto della libreria di immagini, non sull'output della pagina da colorare. La Licenza Commerciale include 10 temi a colori; l'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell'interfaccia.`,
+        `No. Il Generatore di Pagine da Colorare è un`applicazione puramente visiva — l`output consiste solo in immagini, disegni e qualsiasi testo aggiunto manualmente. Cambiare la lingua influisce solo sulle etichette dell`interfaccia del generatore e sulle etichette del contenuto della libreria di immagini, non sull`output della pagina da colorare. La Licenza Commerciale include 10 temi a colori; l`Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell`interfaccia.`,
     },
     {
       question: `Posso vendere pagine da colorare create con questo strumento su Etsy e Amazon KDP?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue pagine da colorare come download digitali su Etsy, come libri da colorare stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il canvas a forma libera, lo strumento di disegno a mano libera e le 104 collezioni di immagini tematiche ti offrono gli strumenti creativi per produrre prodotti di pagine da colorare originali e vendibili.`,
     },
     {
-      question: 'Qual è la politica di rimborso?',
+      question: `Qual è la politica di rimborso?`,
       answer:
         `Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare il canvas a forma libera, ogni strumento di disegno, la libreria di immagini completa, gli strumenti per il negozio, i temi di cornici, l'esportazione in scala di grigi e tutti i formati di scaricamento prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.`,
     },
@@ -206,42 +206,42 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grande-piccolo-schede',
-      anchorText: 'Generatore di Schede Grande e Piccolo',
+      anchorText: `Generatore di Schede Grande e Piccolo`,
     },
     {
       pageType: 'app',
       slug: 'treno-sequenze-schede',
-      anchorText: 'Generatore di Schede Treno delle Sequenze',
+      anchorText: `Generatore di Schede Treno delle Sequenze`,
     },
     {
       pageType: 'app',
       slug: 'schede-pattern',
-      anchorText: 'Generatore di Schede di Pattern',
+      anchorText: `Generatore di Schede di Pattern`,
     },
     {
       pageType: 'app',
       slug: 'disegno-griglia-schede',
-      anchorText: 'Generatore di Schede Disegno su Griglia',
+      anchorText: `Generatore di Schede Disegno su Griglia`,
     },
     {
       pageType: 'app',
       slug: 'pregrafismo-schede',
-      anchorText: 'Generatore di Schede di Pregrafismo',
+      anchorText: `Generatore di Schede di Pregrafismo`,
     },
     {
       pageType: 'app',
       slug: 'grafici-immagini-schede',
-      anchorText: 'Generatore di Schede Grafici a Immagini',
+      anchorText: `Generatore di Schede Grafici a Immagini`,
     },
     {
       pageType: 'bundle',
-      slug: 'pacchetto-apprendimento-visivo',
+      slug: `pacchetto-apprendimento-visivo`,
       anchorText: `Pacchetto Apprendimento Visivo — Tutte le App Visive in un Pacchetto`,
     },
     {
       pageType: 'idea',
       slug: 'estate-idee-stampabili',
-      anchorText: 'Idee di stampabili estivi per bambini',
+      anchorText: `Idee di stampabili estivi per bambini`,
     },
     {
       pageType: 'idea',
@@ -251,12 +251,12 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'attivita-stampabili-etsy',
-      anchorText: 'Avvia la tua attività di stampabili su Etsy',
+      anchorText: `Avvia la tua attività di stampabili su Etsy`,
     },
     {
       pageType: 'guide',
       slug: 'creare-pagine-colorare',
-      anchorText: 'Creare pagine da colorare che vendono',
+      anchorText: `Creare pagine da colorare che vendono`,
     },
   ],
 

@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis Animais da Quinta — Guia de Nicho`,
     metaDescription: `Ideias rentáveis de imprimíveis de animais da quinta para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos, estratégias de preços e dicas por.`,
 
-    primaryKeyword: 'ideias de imprimíveis animais da quinta',
+    primaryKeyword: `ideias de imprimíveis animais da quinta`,
     secondaryKeywords: [
-      'fichas animais da quinta para vender',
-      'negócio imprimíveis tema quinta',
-      'fichas atividades quinta para vendedores',
-      'vender imprimíveis quinta no Etsy',
+      `fichas animais da quinta para vender`,
+      `negócio imprimíveis tema quinta`,
+      `fichas atividades quinta para vendedores`,
+      `vender imprimíveis quinta no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas tema animais do campo',
-      'atividades agricultura para crianças',
-      'imprimíveis escolares tema gado',
+      `fichas educativas tema animais do campo`,
+      `atividades agricultura para crianças`,
+      `imprimíveis escolares tema gado`,
     ],
   },
   hero: {
@@ -96,7 +96,7 @@ As oportunidades de marketing sazonal no nicho da quinta estendem-se para além 
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Animais da Quinta no Etsy',
+      title: `Vender Imprimíveis de Animais da Quinta no Etsy`,
       description: `O Etsy recompensa a especificidade nas listagens de imprimíveis de animais da quinta. Em vez de títulos genéricos como «Fichas da Quinta», aponta para palavras-chave de cauda longa como «fichas de contagem animais da quinta pré-escolar» ou «sopa de letras curral imprimível jardim de infância». Utiliza as treze etiquetas com variações que combinem o tema, a competência e o grupo etário. As imagens de maqueta mostrando fichas impressas num contexto escolar ou doméstico superam significativamente as pré-visualizações digitais planas. Programa as novas listagens para coincidir com os picos de procura sazonal de março a abril para as unidades de quinta de primavera e de setembro a outubro para os temas de colheita. Oferece tanto fichas individuais como pacotes, uma vez que os compradores do Etsy frequentemente começam com uma única compra de baixo custo antes de regressar para pacotes maiores quando já confiam na tua qualidade.`,
     },
     {
@@ -154,18 +154,18 @@ As oportunidades de marketing sazonal no nicho da quinta estendem-se para além 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -179,7 +179,7 @@ As oportunidades de marketing sazonal no nicho da quinta estendem-se para além 
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -189,18 +189,18 @@ As oportunidades de marketing sazonal no nicho da quinta estendem-se para além 
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
+      slug: `animais-marinhos-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais Marinhos`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Bezerro — imagem educativa temática', caption: 'Bezerro' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Pintainho — imagem educativa temática', caption: 'Pintainho' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Touro — imagem educativa temática`, caption: 'Touro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Bezerro — imagem educativa temática`, caption: 'Bezerro' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagem educativa temática`, caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/chick.webp`, alt: `Pintainho — imagem educativa temática`, caption: 'Pintainho' },
   ],
 
 

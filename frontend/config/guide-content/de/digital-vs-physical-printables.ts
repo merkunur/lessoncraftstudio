@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitale oder physische Druckvorlagen',
+    primaryKeyword: `digitale oder physische Druckvorlagen`,
     secondaryKeywords: [
-      'digitales Druckvorlagen-Geschäftsmodell',
-      'Print-on-Demand oder digitaler Download',
-      'physische Druckprodukte verkaufen',
-      'digitaler Download Druckvorlagen-Strategie',
+      `digitales Druckvorlagen-Geschäftsmodell`,
+      `Print-on-Demand oder digitaler Download`,
+      `physische Druckprodukte verkaufen`,
+      `digitaler Download Druckvorlagen-Strategie`,
     ],
     lsiKeywords: [
       `digitaler Download physisches Produkt Print-on-Demand Fulfillment-Modell`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Digitale oder physische Druckprodukte',
+    title: `Digitale oder physische Druckprodukte`,
     tagline: `Ein umfassender Leitfaden zu digitalen vs. physischen Druckvorlagen — mit Vergleich der Gewinnmargen, Bewertung der Skalierbarkeit, Analyse der Kundenerwartungen, Auswahl der richtigen Plattformen für jedes Format, Implementierung eines Hybridmodells, Planung von Produktionsworkflows und Strategien für den Formatwechsel im Laufe Ihres Geschäftswachstums`,
     description: `Jeder Druckvorlagen-Verkäufer steht vor einer grundlegenden Geschäftsmodell-Entscheidung: digitale Downloads verkaufen, die Käufer selbst ausdrucken, vorgedruckte physische Produkte versenden oder beide Formate anbieten. Jeder Ansatz bringt unterschiedliche Margenstrukturen, betriebliche Anforderungen, Skalierungseigenschaften und Kundenerwartungen mit sich. Dieser Leitfaden bietet ein gründliches Vergleichsrahmenwerk, das Ihnen hilft, beide Formate zu bewerten und den Ansatz zu wählen, der zu Ihren Ressourcen, Zielen und Ihrem Zielmarkt passt.`,
   },
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `Die Kundenerwartungen unterscheiden sich erheblich zwischen digitalen und physischen Käufern, und das Erfüllen oder Übertreffen dieser Erwartungen bestimmt Ihre Bewertungen, Wiederkaufraten und den langfristigen Geschäftsruf. Ein Missverständnis dessen, was jedes Kundensegment erwartet, ist eine häufige Quelle negativer Bewertungen und Rückgaben, die vollständig vermeidbar sind.\n\nKäufer digitaler Downloads erwarten sofortige Lieferung. Die Datei sollte innerhalb von Sekunden nach Kaufabschluss zum Download verfügbar sein. Sie erwarten, dass die Datei klar formatiert, druckfertig und mit Standard-Heimdruckern kompatibel ist. Sie erwarten klare Anweisungen, die empfohlenes Papierformat, Druckeinstellungen (Farbe vs. Graustufen, einseitig vs. doppelseitig) und eventuelle Montageschritte angeben. Sie akzeptieren, dass die Druckqualität von ihrem eigenen Drucker und Papier abhängt — aber sie akzeptieren keine schlecht formatierten Dateien mit abgeschnittenen Rändern oder die anders aussehen als die Vorschaubilder im Listing. Fügen Sie jedem digitalen Download eine „Druckanleitung"-Seite bei, um die häufigsten Supportfragen vorwegzunehmen.\n\nKäufer physischer Produkte erwarten professionelle Qualität ab dem Moment, in dem sie das Paket öffnen. Das Papier sollte sich substanziell anfühlen, nicht dünn. Farben sollten lebendig sein und den Listing-Fotos entsprechen. Seiten sollten ausgerichtet, sauber geschnitten und frei von Flecken oder Druckartefakten sein. Wenn das Produkt gebunden ist, sollte die Bindung sicher sein und ermöglichen, dass Seiten flach liegen. Die Verpackung sollte das Produkt während des Versands schützen — Ankunft mit geknickten Ecken oder Wasserschäden durch unzureichende Verpackung erzeugt sofortige negative Bewertungen. Physische Käufer zahlen einen Aufpreis speziell dafür, dass sie ein fertiges, professionelles Produkt erwarten, das das übertrifft, was sie zu Hause herstellen könnten.\n\nRückgabe- und Beschwerdemuster unterscheiden sich zwischen den Formaten. Digitale Käufer fordern selten Rückerstattungen wegen Qualitätsproblemen an, beschweren sich aber möglicherweise über Dateiformatkompatibilität, unerwartete Seitenzahlen oder Listing-Fotos, die den Produktinhalt nicht genau darstellen. Physische Käufer können Rückgaben wegen Versandschäden, Druckqualität unter den Erwartungen oder Produkten beantragen, die von den Listing-Fotografien abweichen. Digitale Rückgaben sind einfacher (kein Produkt zum Zurücksenden), aber manche Verkäufer kämpfen mit der Immaterialität — ein Käufer, der behauptet, die Datei „ließ sich nicht richtig herunterladen", stellt eine Support-Herausforderung dar, die physische Verkäufer nicht kennen.\n\nDas Wiederkaufverhalten variiert ebenfalls nach Format. Digitale Käufer, die einen Verkäufer finden, dessen Produkte durchgängig gut drucken und den Listing-Beschreibungen entsprechen, werden treue Stammkunden, weil sie der Qualität vertrauen. Physische Käufer, die ein wunderschön verpacktes, professionell gedrucktes Produkt erhalten, entwickeln eine Markentreue, die durch das greifbare Erlebnis verstärkt wird. Beide Formate können starke Stammkundenbeziehungen aufbauen, aber die Loyalitätsauslöser sind unterschiedlich: Digitale Loyalität entsteht durch zuverlässige Qualität und Katalogbreite, während physische Loyalität aus dem Premium-Erlebnis und der Bequemlichkeit sofort verwendbarer Produkte entsteht.`,
     },
     {
-      heading: 'Die richtigen Plattformen für Ihr Format wählen',
+      heading: `Die richtigen Plattformen für Ihr Format wählen`,
       content: `Plattformauswahl und Formatwahl sind eng miteinander verbunden, da verschiedene Marktplätze für unterschiedliche Fulfillment-Modelle konzipiert sind. Die falsche Plattform für Ihr Format zu wählen bedeutet, gegen die Infrastruktur der Plattform anzukämpfen, anstatt sie zu nutzen.\n\nEtsy ist der dominierende Marktplatz für digitale Druckvorlagen-Downloads. Das System für digitale Lieferung übernimmt das Hosting der Dateien und die automatische Zustellung an Käufer, was es Verkäufern mühelos macht, digitale Produkte zu listen und zu verkaufen. Etsy unterstützt auch physische Produktlistings mit integriertem Versandetikettenkauf und Tracking. Viele erfolgreiche Druckvorlagen-Verkäufer auf Etsy bieten beide Formate desselben Produkts als separate Listings an und lassen Käufer ihr bevorzugtes Erlebnis wählen. Das Etsy-Publikum sucht aktiv nach sowohl „druckbaren Arbeitsblättern" (digital) als auch „gedruckten Arbeitsblättern" (physisch), was beide Formate gangbar macht.\n\nAmazon KDP ist speziell für Print-on-Demand-Bücher und Arbeitsbücher konzipiert. Wenn Ihre Produkte als gebundene Bücher formatiert werden können — Malbücher, Aktivitäts-Arbeitsbücher, Rätselsammlungen, Lern-Arbeitsbücher — übernimmt KDP Druck, Bindung, Fulfillment und Kundenservice. Sie laden das Innen-PDF und das Cover-Design hoch, setzen Ihren Preis, und Amazon verwaltet alles andere. KDP-Tantiemen sind niedriger als Direktverkaufsmargen, aber die Plattform bietet Zugang zu Amazons riesigem Kundenstamm und vertrauenswürdigem Checkout-Erlebnis. KDP ist besonders stark für Produkte mit 50 oder mehr Innenseiten, die ein Buchformat rechtfertigen.\n\nShopify und ähnliche unabhängige Plattformen geben Ihnen vollständige Kontrolle über digitale und physische Verkäufe. Sie übernehmen Ihr eigenes Marketing und Ihre Traffic-Generierung, behalten aber höhere Margen und besitzen die Kundenbeziehung. Apps für digitale Lieferung automatisieren die Dateiverteilung, und Sie können Versandlösungen für physische Bestellungen integrieren. Eine unabhängige Plattform funktioniert am besten für Verkäufer, die bereits ein Publikum über Social Media, E-Mail-Listen oder andere Kanäle aufgebaut haben und die Margen maximieren möchten, indem sie Marktplatzgebühren eliminieren.\n\nKunsthandwerksmärkte und lokale Märkte sind ausschließlich physische Produktveranstaltungen, die hohe Margen pro Einheit und unmittelbares Kundenfeedback bieten. Verkäufer, die persönliche Interaktion genießen und Produkte haben, die sich gut persönlich präsentieren (laminierte Aktivitätssets, gebundene Arbeitsbücher, gerahmte praktische Poster), können bei lokalen Veranstaltungen erhebliche Einnahmen erzielen. Die Einschränkung ist die geografische Reichweite und Zeitinvestition — jede Veranstaltung erfordert persönliche Anwesenheit, Standaufbau und Bestandstransport.\n\nGumroad ist ein spezialisierter Marktplatz für Bildungsressourcen, der digitale Downloads unterstützt und von Käufern intensiv genutzt wird, die Druckprodukte suchen. Wenn Ihre Druckprodukte bildungsorientiert sind, bietet Gumroad Zugang zu einem konzentrierten Käuferpublikum von Käufern mit Einkaufsbudgets. Das Plattformpublikum erwartet digitale Lieferung und ist es gewohnt, Ressourcen herunterzuladen und auszudrucken, was es zu einer natürlichen Wahl für digitale Bildungs-Druckvorlagen macht.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'druckvorlagen-produktlinie-erstellen', anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie' },
-    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: 'Preisstrategien für Lernmaterialien' },
-    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen' },
-    { pageType: 'guide', slug: 'druckvorlagen-geschaeft-skalieren-anleitung', anchorText: 'So skalieren Sie Ihr Druckvorlagen-Geschäft' },
+    { pageType: 'guide', slug: `druckvorlagen-produktlinie-erstellen`, anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie` },
+    { pageType: 'guide', slug: 'preisgestaltung-lernmaterial', anchorText: `Preisstrategien für Lernmaterialien` },
+    { pageType: 'guide', slug: 'arbeitsblatt-pakete-erstellen', anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen` },
+    { pageType: 'guide', slug: `druckvorlagen-geschaeft-skalieren-anleitung`, anchorText: `So skalieren Sie Ihr Druckvorlagen-Geschäft` },
     { pageType: 'guide', slug: 'nischen-auswahl-druckvorlagen', anchorText: `Nischen-Auswahl-Leitfaden für Druckvorlagen-Geschäfte` },
     { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für Lernmaterialien' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'KDP oder Etsy für Druckvorlagen' },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'kundensupport-digitale-produkte', anchorText: 'Kundensupport für digitale Produkte' },
-    { pageType: 'guide', slug: 'urheberrecht-druckvorlagen-verkaeufer', anchorText: 'Urheberrecht für Druckvorlagen-Verkäufer' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung zum Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden für kommerzielle Lizenzen' },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `KDP oder Etsy für Druckvorlagen` },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `kundensupport-digitale-produkte`, anchorText: `Kundensupport für digitale Produkte` },
+    { pageType: 'guide', slug: `urheberrecht-druckvorlagen-verkaeufer`, anchorText: `Urheberrecht für Druckvorlagen-Verkäufer` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden für kommerzielle Lizenzen` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erstellt professionelle Mathe-Arbeitsblätter, die den digitalen Erstellungsprozess für sowohl digitale Download- als auch physische Druckformate demonstrieren. Additions-Arbeitsblätter sind Kernprodukte, die sich in digitalen und gedruckten Arbeitsbuchformaten gut verkaufen.`,
     },
     {
@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/Additionsspa 1.webp',
+      src: `/samples/german/addition/Additionsspa 1.webp`,
       alt: `Professionelles Additions-Arbeitsblatt, das die Erstellung digitaler Druckprodukte für sowohl digitale Downloads als auch physische Druckformate demonstriert`,
     },
     samples: [
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: `/samples/german/addition/Additionsspa 1.webp`,
         alt: `Additions-Arbeitsblatt als digitales Druckprodukt für Download und physischen Druck geeignet`,
         caption: `Mathe-Arbeitsblätter funktionieren gut als digitale Downloads und als Seiten in gedruckten Arbeitsbüchern`,
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: `/samples/german/coloring/coloring portrait 1.webp`,
         alt: `Ausmalbild als Produkttyp beliebt in digitalen und physischen Formaten`,
         caption: `Ausmalbilder sind Verkaufsschlager in digitalen Download- und Print-on-Demand-Buchformaten`,
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: `/samples/german/wordsearch/Worter suchen 1.webp`,
         alt: `Wörtersuche-Rätsel als Produkt ideal für hybrides digitales und physisches Verkaufsmodell`,
         caption: `Wörtersuchen verkaufen sich einzeln als digitale Downloads und zusammengestellt in physischen Rätselbüchern`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
+    { src: `/image-library/fruits/apple.webp`, alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Aprikose — thematisches Lernbild`, caption: 'Aprikose' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — thematisches Lernbild`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banane — thematisches Lernbild`, caption: 'Banane' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Brombeere — thematisches Lernbild`, caption: 'Brombeere' },
   ],
 };
 

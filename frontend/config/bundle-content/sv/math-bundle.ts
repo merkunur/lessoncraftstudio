@@ -4,16 +4,16 @@ const content: BundleContent = {
   seo: {
     primaryKeyword: 'matte arbetsblad paket',
     secondaryKeywords: [
-      'matte utskriftspaket för säljare',
+      `matte utskriftspaket för säljare`,
       `matte arbetsblad generator paket kommersiell användning`,
-      'utskrivbara matteaktiviteter paket för Etsy',
-      'matte arbetsblad verktygslåda för KDP-säljare',
+      `utskrivbara matteaktiviteter paket för Etsy`,
+      `matte arbetsblad verktygslåda för KDP-säljare`,
     ],
     lsiKeywords: [
-      'addition subtraktion arbetsblad paket',
-      'mattepussel utskriftsbar samling',
-      'kommersiell licens matte arbetsblad',
-      'bulkproduktion matte arbetsblad verktyg',
+      `addition subtraktion arbetsblad paket`,
+      `mattepussel utskriftsbar samling`,
+      `kommersiell licens matte arbetsblad`,
+      `bulkproduktion matte arbetsblad verktyg`,
     ],
     titleTag: `Matte Arbetsblad Paket — 6 Generatorer | Matematik Mästarpaket`,
     metaDescription: `Få 6 matte arbetsblad-generatorer i ett paket. Skapa additions-, subtraktions-, kodpussel-, jämförelse- och algebraarbetsblad att sälja på Etsy, KDP och Gumroad.`,
@@ -31,23 +31,23 @@ const content: BundleContent = {
       description: `Skapa bildbaserade additionsarbetsblad i fyra distinkta lägen: Bild + Bild räkning, Bild + Tal hybriduppgifter, Hitta Termen saknat-värde-utmaningar och Blandat läge som kombinerar alla tre på en enda sida. användare räknar tematiska bilder för att lösa varje ekvation, vilket gör abstrakt addition konkret och engagerande. Ställ in talområdet från 1 till 99, välj mellan 4, 6, 8 eller 12 uppgifter per sida och välj bilder från över 100 tematiska uppsättningar inklusive djur, mat, fordon och säsongskategorier. Varje arbetsblad genererar ett matchande facit automatiskt. Välj bland flera sidstorlekar, lägg till dekorativa ramar och tematiska bakgrunder, och ladda ner som utskriftsklar PDF eller JPEG.`,
     },
     {
-      title: 'Subtraktion Arbetsblad Generator',
+      title: `Subtraktion Arbetsblad Generator`,
       description: `Generera visuella subtraktionsarbetsblad med fyra lägen inklusive den unika Stryk Över-metoden — användare markerar fysiskt genom bilder för att hitta skillnaden, vilket bygger intuitiv förståelse av subtraktion som borttagning. Ytterligare lägen täcker Bild - Bild, Bild - Tal och Blandat format. Konfigurerbara talområden, antal uppgifter och tematiska bilduppsättningar ger dig samma flexibilitet som additionsgeneratorn, med subtraktionsspecifik pedagogik inbyggd. Stryk Över-läget är särskilt populärt bland förskolesäljare eftersom det förvandlar subtraktion till en praktisk aktivitet som användare fysiskt kan interagera med på den tryckta sidan.`,
     },
     {
-      title: 'Kodaddition Arbetsblad Generator',
+      title: `Kodaddition Arbetsblad Generator`,
       description: `Producera kryptaritmetiska kodknäckar-pussel där användare löser additionsekvationer för att avkoda bokstäver och avslöja gömda ord. Detta är den enda appen i paketet med en språkberoende funktion: Avslöja Ord-läge hämtar från ordlistor på alla 11 språk som stöds, så de avkodade orden matchar arbetsbladets språk. Standard Kodläge använder enkel bokstav-till-siffra-mappning och fungerar identiskt på alla språk. Ställ in svårighetsgrad med talområden och antal ekvationer per pussel. Kodknäckarformatet kombinerar mattepraktik med ordupptäckt, vilket gör det till en utmärkande produkt i alla matte arbetsblads-butiker — köpare betygsätter konsekvent pusselstils arbetsblad högre än standardövningsblad.`,
     },
     {
-      title: 'Mer eller Mindre Arbetsblad Generator',
+      title: `Mer eller Mindre Arbetsblad Generator`,
       description: `Bygg större-än, mindre-än och lika-med jämförelsearbetsblad i tre lägen. Jämför Grupper-läge visar två bildkluster för visuell räkningsjämförelse. Jämför Tal-läge presenterar bara siffror för snabbare, abstrakt övning. Det unika Markera och Stryk Grupper-läge ber användare att markera den större gruppen och stryka den mindre — en taktil, produktlinjesbeprövad övning som förstärker jämförelsebegrepp genom fysisk interaktion med sidan. Konfigurerbara talområden och tematiska bilder håller arbetsbladen varierade över produktannonser. Jämförelsearbetsblad är en grundprodukt för förskola och årskurs 1 som varje matte utskriftsbutik bör ha.`,
     },
     {
-      title: 'Mattepussel Arbetsblad Generator',
+      title: `Mattepussel Arbetsblad Generator`,
       description: `Skapa pusselrutnäts-bildpussel där användare löser en matteekvation på varje pusselbit för att montera ihop hela bilden. Rutnät skalas från 2x2 (4 bitar) för nybörjare upp till 4x4 (16 bitar) för avancerade användare. Varje bit visar en ekvation — svaret talar om för användarna var den ska placeras. Välj addition, subtraktion eller blandade operationer och ställ in talområdet för att matcha din målgrupp. Avslöjningsbilden kommer från det tematiska biblioteket eller dina egna uppladdningar. Pusselformatet gör matte till ett spel snarare än en övning — användare motiveras att lösa varje ekvation eftersom belöningen är att se den färdiga bilden.`,
     },
     {
-      title: 'Matematik Arbetsblad Generator',
+      title: `Matematik Arbetsblad Generator`,
       description: `Generera visuella algebra-bildpussel där tematiska bilder ersätter okända variabler i system av sammankopplade ekvationer. användare bestämmer det numeriska värdet varje bild representerar. Fyra svårighetsnivåer går från tvåsymbols enkel addition upp till fyra simultana okända med blandade operationer. En inbyggd algebraisk lösare garanterar att varje pussel har exakt en korrekt lösning — ingen tvetydighet, inga olösbara pussel. Välj Enbart Addition eller Addition och Subtraktion-lägen, växla negativa resultat för äldre användare och kontrollera pussel per sida från 1 till 6. Denna generator överbryggar klyftan mellan grundläggande aritmetik och algebraiskt tänkande, vilket gör den till en högvärdesprodukt för säljare som riktar sig mot årskurs 2 och uppåt.`,
     },
   ],
@@ -66,15 +66,15 @@ const content: BundleContent = {
       description: `Varje generator i paketet producerar ett motsvarande facit med varje arbetsblad. Facit är en topp-förväntning hos köpare på Etsy och Gumroad — detta paket levererar dem automatiskt, vilket sparar timmar av manuellt arbete.`,
     },
     {
-      title: 'Konsekvent professionell kvalitet',
+      title: `Konsekvent professionell kvalitet`,
       description: `Alla sex generatorer delar samma designmotor: matchande ramar, bakgrunder, typsnitt och layoutalternativ. Dina arbetsblad ser ut som att de tillhör ett sammanhängande varumärke, inte sex olika verktyg hopfogade.`,
     },
     {
-      title: 'Sälj världen runt utan översättning',
+      title: `Sälj världen runt utan översättning`,
       description: `Fem av de sex apparna producerar helt visuella arbetsblad — enbart bilder och siffror, inget språk på sidan. Sälj samma PDF till köpare i alla länder. Kodaddition lägger till valfritt språkmedvetet Avslöja Ord för säljare som riktar sig mot specifika språkmarknader.`,
     },
     {
-      title: '100+ tematiska bilduppsättningar',
+      title: `100+ tematiska bilduppsättningar`,
       description: `Tillgång till djur, mat, fordon, högtider, årstider och dussintals fler temakategorier över alla sex generatorer. Varje tema ger dig en ny produktvinkel — lista "Bondgårdsdjur Addition" bredvid "Rymd Subtraktion" för att fånga olika sökfrågor och köparintressen.`,
     },
     {
@@ -104,7 +104,7 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Privatundervisning och hemutskrivbara produkter',
+      title: `Privatundervisning och hemutskrivbara produkter`,
       description: `Generera nya arbetsblad för varje undervisningssession eller hemundervisningsvecka. Variera svårighetsgrad, tema och uppgiftstyp så att användare aldrig ser samma sida två gånger. Facit låter föräldrar och handledare kontrollera arbete direkt utan att manuellt räkna ut lösningar. Börja med enkel additionsräkning för yngre användare och gå vidare genom subtraktion, jämförelse och algebraiska bildpussel allteftersom färdigheterna utvecklas — allt från samma paket. Handledare som arbetar med flera användare kan generera personliga arbetsbladsset skräddarsydda för varje användares aktuella kompetensnivå och intressen. Hemundervisningsfamiljer drar nytta av variationen över sex generatorer eftersom det förhindrar den repetitiva arbetsbladströtthet som ofta spårar ur hemmamatteundervisning.`,
     },
     {
@@ -112,21 +112,21 @@ const content: BundleContent = {
       description: `Skolor och kommuner köper kompletterande mattematererial i bulk. Skapa årskursanpassade arbetsbladspaket och erbjud dem direkt via din webbplats eller utbildningsmarknadsplats. Den kommersiella licensen låter dig sälja till institutioner utan begränsningar per kopia. Paketera arbetsblad från alla sex generatorer till heltäckande årskurspaket som täcker hela omfånget av grundskolans mattestandarder. Kommunala försäljningar är särskilt lönsamma eftersom ett enda inköpsbeslut kan täcka flera produktlinje och årskurser, vilket genererar betydligt högre intäkter per transaktion.`,
     },
     {
-      title: 'Internationell marknadsexpansion',
+      title: `Internationell marknadsexpansion`,
       description: `Nå köpare på icke-engelskspråkiga marknader utan att översätta dina produkter. Fem av de sex generatorerna producerar arbetsblad med enbart bilder och siffror — inget språk på sidan. Lista samma PDF på internationella Etsy-butiker, lokaliserade KDP-marknadsplatser eller regionala utbildningsplattformar. Full Access-nivån lägger till 11 gränssnittsspråk för Kodadditionens Avslöja Ord, vilket låter dig skapa språkspecifika pusselprodukter för riktade marknader.`,
     },
   ],
 
   featureComparison: [
-    { feature: 'Alla 6 matte arbetsblad-generatorer', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Alla 6 matte arbetsblad-generatorer`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Tematiska bilduppsättningar', commercial: '10 teman', fullAccess: '104 teman' },
-    { feature: 'Uppladdning av egna bilder (PNG/JPEG)', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Uppladdning av egna bilder (PNG/JPEG)`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Automatiska facit', commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'PDF- och JPEG-nedladdning', commercial: 'Ja', fullAccess: 'Ja' },
-    { feature: 'Kommersiella försäljningsrättigheter', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Kommersiella försäljningsrättigheter`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Gränssnittsspråk', commercial: 'Enbart engelska', fullAccess: '11 språk' },
     { feature: 'Kodaddition Avslöja Ord-språk', commercial: 'Enbart engelska', fullAccess: '11 språk' },
-    { feature: 'Vattenstämpelfria nedladdningar', commercial: 'Ja', fullAccess: 'Ja' },
+    { feature: `Vattenstämpelfria nedladdningar`, commercial: 'Ja', fullAccess: 'Ja' },
     { feature: 'Livstidsuppdateringar', commercial: 'Ja', fullAccess: 'Ja' },
   ],
 
@@ -140,7 +140,7 @@ const content: BundleContent = {
       description: `Du skapar och säljer utbildningsresurser på Gumroad och behöver verktyg som matchar plattformens förväntningar. Varje generator producerar produktkatalogsanpassade arbetsblad med automatiska facit och flera svårighetsinställningar — exakt vad Gumroad-granskare och köpare förväntar sig av premium-matteresurser. De fyra svårighetsnivåerna per generator gör det enkelt att skapa nivågrupperade undervisningspaket som säljare söker efter per årskurs och färdighet. Gumroad-köpare förväntar sig polerade, användarklara produktlinjesmaterial med konsekvent visuell presentation över en produktlinje — den delade designmotorn över alla sex generatorer säkerställer att dina matteresurser bibehåller ett sammanhängande professionellt utseende.`,
     },
     {
-      title: 'Handledare och hemundervisningsföräldrar',
+      title: `Handledare och hemundervisningsföräldrar`,
       description: `Du behöver nya, varierade matteövningsmaterial varje vecka. Istället för att söka efter generiska arbetsblad som aldrig riktigt passar, generera exakt vad dina kunder behöver — rätt svårighetsgrad, rätt ämne, rätt tema — på under en minut. Varje generator erbjuder en gratis provversion med vattenstämpel så att du kan utvärdera innan du köper.`,
     },
     {
@@ -151,15 +151,15 @@ const content: BundleContent = {
 
   faq: [
     {
-      question: 'Kan jag prova generatorerna innan jag köper?',
+      question: `Kan jag prova generatorerna innan jag köper?`,
       answer: `Ja. Varje generator i paketet erbjuder en gratis provversion med full funktionalitet. Du kan konfigurera inställningar, förhandsgranska arbetsblad och ladda ner filer. Nedladdningar från provversionen inkluderar en vattenstämpel. Att köpa en licens tar bort vattenstämpeln så att du kan sälja kommersiellt.`,
     },
     {
-      question: 'Vilka format kan jag ladda ner?',
+      question: `Vilka format kan jag ladda ner?`,
       answer: `Varje generator producerar utskriftsklara PDF- och högupplösta JPEG-filer. Du kan välja mellan Letter stående, Letter liggande, A4 stående, A4 liggande, Kvadrat eller ange en anpassad storlek. PDF är idealiskt för arbetsbladspaket med flera sidor på Etsy och Gumroad. JPEG fungerar bra för KDP-interiörsidor och förhandsgranskningar på sociala medier. Alla filer laddas ner i utskriftsupplösning — ingen uppskalning eller efterbearbetning behövs.`,
     },
     {
-      question: 'Inkluderar arbetsbladen facit?',
+      question: `Inkluderar arbetsbladen facit?`,
       answer: `Ja. Alla sex generatorer skapar automatiskt ett motsvarande facit för varje arbetsblad. Facit är en topp-förväntning hos köpare på Etsy och Gumroad, och de sparar dig tiden att manuellt lösa varje uppgift.`,
     },
     {
@@ -167,7 +167,7 @@ const content: BundleContent = {
       answer: `Absolut. Varje generator stöder uppladdning av egna PNG- och JPEG-filer. Använd dina egna illustrationer, varumärkesmaskotar eller kundtillhandahållet konstverk för att skapa nischspecifika arbetsblad som ingen färdig mall kan matcha.`,
     },
     {
-      question: 'Fungerar arbetsbladen på andra språk än engelska?',
+      question: `Fungerar arbetsbladen på andra språk än engelska?`,
       answer: `Fem av de sex generatorerna producerar helt visuella arbetsblad — enbart bilder och siffror, inget språk på sidan. Dessa fungerar på alla språk världen över. Kodaddition har ett språkberoende Avslöja Ord-läge som stöder alla 11 gränssnittsspråk för avkodade ordförrådsord.`,
     },
     {
@@ -175,11 +175,11 @@ const content: BundleContent = {
       answer: `Båda nivåerna inkluderar alla sex generatorer med vattenstämpelfria nedladdningar och kommersiella försäljningsrättigheter. Commercial ger dig 10 tematiska bilduppsättningar och enbart engelskt gränssnitt. Full Access låser upp alla 104 tematiska bilduppsättningar och alla 11 gränssnittsspråk, inklusive Kodadditions ordförråd på alla språk som stöds.`,
     },
     {
-      question: 'Kan jag sälja arbetsbladen jag skapar?',
+      question: `Kan jag sälja arbetsbladen jag skapar?`,
       answer: `Ja. Både Commercial- och Full Access-licenserna inkluderar kommersiella försäljningsrättigheter. Du kan sälja arbetsbladen du genererar på Etsy, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Du säljer arbetsbladen — själva generatorverktyget är inte överlåtbart.`,
     },
     {
-      question: 'Hur många arbetsblad kan jag skapa?',
+      question: `Hur många arbetsblad kan jag skapa?`,
       answer: `Det finns ingen gräns. Med en licens kan du generera så många arbetsblad du vill över alla sex generatorer. Inga avgifter per nedladdning, inga månatliga tak eller användningsbegränsningar. Många säljare genererar dussintals arbetsblad per session för att bygga tematiska produktpaket. Med sex generatorer och 100+ bildteman är antalet unika arbetsbladskombinationer praktiskt taget obegränsat.`,
     },
     {
@@ -205,12 +205,12 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'subtraktion-arbetsblad', anchorText: `Subtraktion Arbetsblad Generator — Fullständig information` },
     { pageType: 'app', slug: 'kodaddition-arbetsblad', anchorText: `Kodaddition Arbetsblad Generator — Fullständig information` },
     { pageType: 'app', slug: 'jamforelse-arbetsblad', anchorText: `Mer eller Mindre Generator — Fullständig information` },
-    { pageType: 'app', slug: 'mattepussel-arbetsblad', anchorText: 'Mattepussel Generator — Fullständig information' },
+    { pageType: 'app', slug: 'mattepussel-arbetsblad', anchorText: `Mattepussel Generator — Fullständig information` },
     { pageType: 'app', slug: 'matematik-arbetsblad', anchorText: `Matematik Arbetsblad Generator — Fullständig information` },
-    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: 'Hur du säljer mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'matte-aktivitetsboecker-kdp', anchorText: 'Publicera matte-aktivitetsböcker på Amazon KDP' },
-    { pageType: 'start', slug: 'skapa-arbetsblad-som-saeljer', anchorText: 'Hur du skapar arbetsblad som säljer' },
-    { pageType: 'idea', slug: 'mattefakta-utskriftsbara-ideer', anchorText: `Mattefakta utskriftsbara idéer för säljare och säljare` },
+    { pageType: 'guide', slug: 'saelja-mattearbetsblad-etsy', anchorText: `Hur du säljer mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: 'matte-aktivitetsboecker-kdp', anchorText: `Publicera matte-aktivitetsböcker på Amazon KDP` },
+    { pageType: 'start', slug: 'skapa-arbetsblad-som-saeljer', anchorText: `Hur du skapar arbetsblad som säljer` },
+    { pageType: 'idea', slug: `mattefakta-utskriftsbara-ideer`, anchorText: `Mattefakta utskriftsbara idéer för säljare och säljare` },
   ],
 
   visuals: {
@@ -219,26 +219,26 @@ const content: BundleContent = {
       primaryAlt: `Additionsarbetsblad med tematiska bilder som visar visuella räkneuppgifter`,
     },
     sampleGallery: [
-      { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: 'Additionsarbetsblad med tematiska djurbilder', caption: 'Additionsarbetsblad' },
-      { src: `/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp`, alt: 'Subtraktionsarbetsblad med stryk-över-räkning', caption: 'Subtraktionsarbetsblad' },
-      { src: `/samples/swedish/code addition/image_addition_worksheet.webp`, alt: 'Kodadditionspussel med bokstavsavkodning', caption: 'Kodadditionspussel' },
-      { src: '/samples/swedish/more less/mer%20mindre%201.webp', alt: 'Större-än mindre-än jämförelsearbetsblad', caption: 'Mer eller Mindre Arbetsblad' },
-      { src: '/samples/swedish/math puzzle/Mattepussel%201.webp', alt: 'Pusselrutnäts mattepussel med ekvationer', caption: 'Mattepussel Arbetsblad' },
-      { src: `/samples/swedish/math worksheet/mattetal%20portrait.webp`, alt: 'Visuellt algebrapussel med bildvariabler', caption: 'Matematik Arbetsblad Pussel' },
+      { src: `/samples/swedish/addition/addition_%C3%B6vning.webp`, alt: `Additionsarbetsblad med tematiska djurbilder`, caption: 'Additionsarbetsblad' },
+      { src: `/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp`, alt: `Subtraktionsarbetsblad med stryk-över-räkning`, caption: 'Subtraktionsarbetsblad' },
+      { src: `/samples/swedish/code addition/image_addition_worksheet.webp`, alt: `Kodadditionspussel med bokstavsavkodning`, caption: 'Kodadditionspussel' },
+      { src: `/samples/swedish/more less/mer%20mindre%201.webp`, alt: `Större-än mindre-än jämförelsearbetsblad`, caption: 'Mer eller Mindre Arbetsblad' },
+      { src: `/samples/swedish/math puzzle/Mattepussel%201.webp`, alt: `Pusselrutnäts mattepussel med ekvationer`, caption: 'Mattepussel Arbetsblad' },
+      { src: `/samples/swedish/math worksheet/mattetal%20portrait.webp`, alt: `Visuellt algebrapussel med bildvariabler`, caption: 'Matematik Arbetsblad Pussel' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Matematik Mästarpaket — Se alla 6 generatorer i aktion`,
   },
 
   themeImages: [
-    { src: '/image-library/shapes/circle.webp', alt: 'Cirkel — tematisk pedagogisk bild', caption: 'Cirkel' },
-    { src: '/image-library/shapes/cone.webp', alt: 'Kon — tematisk pedagogisk bild', caption: 'Kon' },
-    { src: '/image-library/shapes/cube.webp', alt: 'Kub — tematisk pedagogisk bild', caption: 'Kub' },
-    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — tematisk pedagogisk bild', caption: 'Cylinder' },
-    { src: '/image-library/shapes/diamond.webp', alt: 'Diamant — tematisk pedagogisk bild', caption: 'Diamant' },
-    { src: '/image-library/shapes/heart.webp', alt: 'Hjärta — tematisk pedagogisk bild', caption: 'Hjärta' },
-    { src: '/image-library/shapes/heptagon.webp', alt: 'Heptagon — tematisk pedagogisk bild', caption: 'Heptagon' },
-    { src: '/image-library/shapes/hexagon.webp', alt: 'Hexagon — tematisk pedagogisk bild', caption: 'Hexagon' },
+    { src: `/image-library/shapes/circle.webp`, alt: `Cirkel — tematisk pedagogisk bild`, caption: 'Cirkel' },
+    { src: `/image-library/shapes/cone.webp`, alt: `Kon — tematisk pedagogisk bild`, caption: 'Kon' },
+    { src: `/image-library/shapes/cube.webp`, alt: `Kub — tematisk pedagogisk bild`, caption: 'Kub' },
+    { src: `/image-library/shapes/cylinder.webp`, alt: `Cylinder — tematisk pedagogisk bild`, caption: 'Cylinder' },
+    { src: `/image-library/shapes/diamond.webp`, alt: `Diamant — tematisk pedagogisk bild`, caption: 'Diamant' },
+    { src: `/image-library/shapes/heart.webp`, alt: `Hjärta — tematisk pedagogisk bild`, caption: 'Hjärta' },
+    { src: `/image-library/shapes/heptagon.webp`, alt: `Heptagon — tematisk pedagogisk bild`, caption: 'Heptagon' },
+    { src: `/image-library/shapes/hexagon.webp`, alt: `Hexagon — tematisk pedagogisk bild`, caption: 'Hexagon' },
   ],
 };
 

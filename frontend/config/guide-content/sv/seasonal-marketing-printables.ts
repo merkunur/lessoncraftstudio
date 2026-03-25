@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'säsongsmarknadsföring utskriftsbara produkter',
+    primaryKeyword: `säsongsmarknadsföring utskriftsbara produkter`,
     secondaryKeywords: [
-      'säsongsbetonad strategi utskriftsbart företag',
-      'högtidsarbetsblad marknadsföring',
-      'skolstart utskriftsbar försäljning',
-      'säsongsproduktkalender säljare',
+      `säsongsbetonad strategi utskriftsbart företag`,
+      `högtidsarbetsblad marknadsföring`,
+      `skolstart utskriftsbar försäljning`,
+      `säsongsproduktkalender säljare`,
     ],
     lsiKeywords: [
       `högtidsefterfrågan säsongsproduktplanering toppförsäljningsperioder`,
@@ -55,7 +55,7 @@ const content: GuideContent = {
     },
     {
       heading: `Analysera föregående års prestanda för att förfina din kalender`,
-      content: `Efter varje säsongscykel, genomför en strukturerad granskning som fångar prestandadata och genererar specifika förbättringar för följande år. Denna år-efter-år-förfiningsprocess är det enskilt mest värdefulla elementet i säsongsplanering eftersom den ersätter gissningar med historisk data specifik för dina produkter, publik och marknadsplatsposition.\n\nGranska fyra kategorier av säsongsprestanda. Först, produktprestanda: vilka säsongsprodukter genererade de högsta intäkterna, flest sålda enheter och bästa vinstmarginalerna? Vilka produkter underpresterade relativt den insats som investerades i att skapa dem? Sedan, timingprestanda: när började säsongstrafik, när toppade den och när avtog den? Lanserades dina produkter tillräckligt tidigt för att fånga hela efterfråganfönstret, eller missade du tidiga säsongsköpare? Tredje, marknadsföringsprestanda: vilka promotionella kanaler (e-post, sociala medier, marknadsplatsannonser) drev mest säsongstrafik och konverteringar? Vilka kampanjer genererade bäst avkastning på tidsinvestering? Fjärde, nyckelordsprestanda: vilka säsongssöktermer drev flest listningsvisningar och försäljningar? Vilka nyckelord missade du som konkurrenter fångade?\n\nDokumentera specifika, handlingsbara fynd snarare än vaga observationer. Istället för att notera "Halloween gick bra," dokumentera "Halloween-ordsökspussel genererade 340 USD i oktober och överpresterade halloweenmattearbetsblad med 3:1. Halloweenprodukter listade före 15 september genererade 60% mer intäkter än produkter listade efter 15 september. Nyckelordet 'halloween produktlinjesaktiviteter' drev mer trafik än 'halloween arbetsblad' — uppdatera titlar för nästa år." Dessa specifika fynd översätts direkt till förbättrade beslut för följande års säsongskalender.\n\nJämför faktisk prestanda mot din planerade kalender för att identifiera var planeringen var korrekt och var den behöver justeras. Fördelade du rätt mängd produktionstid till varje säsongstopp? Gav dina listningsdeadlines produkterna tillräcklig ledtid för indexering? Lanserades dina marknadsföringskampanjer vid rätt tidpunkt relativt efterfrågan? Dessa jämförelser avslöjar systematiska förbättringar: om du konsekvent missar tidig säsongsefterfrågan, flytta alla dina produktionsdeadlines framåt med två veckor. Om vissa säsongsteman konsekvent underpresterar, minska din investering i dessa teman och omdirigera insats mot bättre presterande säsonger.\n\nUnderhåll ett säsongsprestandaarkiv som ackumulerar data över åren. Första årets säsongsdata ger en baslinje. Andra årets data avslöjar om dina förbättringar fungerar. Tredje året och framåt blir din säsongskalender alltmer precis eftersom den är byggd på flera års faktisk prestandadata snarare än generiska branschråd. Denna ackumulerande datafördel är en betydande konkurrensbarriär som nyare säljare utan historiska register inte kan replikera.`,
+      content: `Efter varje säsongscykel, genomför en strukturerad granskning som fångar prestandadata och genererar specifika förbättringar för följande år. Denna år-efter-år-förfiningsprocess är det enskilt mest värdefulla elementet i säsongsplanering eftersom den ersätter gissningar med historisk data specifik för dina produkter, publik och marknadsplatsposition.\n\nGranska fyra kategorier av säsongsprestanda. Först, produktprestanda: vilka säsongsprodukter genererade de högsta intäkterna, flest sålda enheter och bästa vinstmarginalerna? Vilka produkter underpresterade relativt den insats som investerades i att skapa dem? Sedan, timingprestanda: när började säsongstrafik, när toppade den och när avtog den? Lanserades dina produkter tillräckligt tidigt för att fånga hela efterfråganfönstret, eller missade du tidiga säsongsköpare? Tredje, marknadsföringsprestanda: vilka promotionella kanaler (e-post, sociala medier, marknadsplatsannonser) drev mest säsongstrafik och konverteringar? Vilka kampanjer genererade bäst avkastning på tidsinvestering? Fjärde, nyckelordsprestanda: vilka säsongssöktermer drev flest listningsvisningar och försäljningar? Vilka nyckelord missade du som konkurrenter fångade?\n\nDokumentera specifika, handlingsbara fynd snarare än vaga observationer. Istället för att notera "Halloween gick bra," dokumentera "Halloween-ordsökspussel genererade 340 USD i oktober och överpresterade halloweenmattearbetsblad med 3:1. Halloweenprodukter listade före 15 september genererade 60% mer intäkter än produkter listade efter 15 september. Nyckelordet `halloween produktlinjesaktiviteter` drev mer trafik än 'halloween arbetsblad' — uppdatera titlar för nästa år." Dessa specifika fynd översätts direkt till förbättrade beslut för följande års säsongskalender.\n\nJämför faktisk prestanda mot din planerade kalender för att identifiera var planeringen var korrekt och var den behöver justeras. Fördelade du rätt mängd produktionstid till varje säsongstopp? Gav dina listningsdeadlines produkterna tillräcklig ledtid för indexering? Lanserades dina marknadsföringskampanjer vid rätt tidpunkt relativt efterfrågan? Dessa jämförelser avslöjar systematiska förbättringar: om du konsekvent missar tidig säsongsefterfrågan, flytta alla dina produktionsdeadlines framåt med två veckor. Om vissa säsongsteman konsekvent underpresterar, minska din investering i dessa teman och omdirigera insats mot bättre presterande säsonger.\n\nUnderhåll ett säsongsprestandaarkiv som ackumulerar data över åren. Första årets säsongsdata ger en baslinje. Andra årets data avslöjar om dina förbättringar fungerar. Tredje året och framåt blir din säsongskalender alltmer precis eftersom den är byggd på flera års faktisk prestandadata snarare än generiska branschråd. Denna ackumulerande datafördel är en betydande konkurrensbarriär som nyare säljare utan historiska register inte kan replikera.`,
     },
     {
       heading: `Upprätthåll vintergröna produkter vid sidan av säsongsreleaser`,
@@ -84,7 +84,7 @@ const content: GuideContent = {
       content: `Säsongsplanering förvandlar en statisk produktkatalog till en dynamisk intäktsmotor som fångar flera efterfrågetoppar genom hela året. En säljare med 30 vintergröna mattearbetsblad genererar konsekventa men platta månatliga intäkter. Samma säljare med dessa 30 vintergröna arbetsblad plus 20 säsongsvariationer av sina bäst presterande produkter fångar ytterligare intäkter under varje stor efterfrågetopp utan att avsevärt öka den totala produktionsinsatsen. Varje säsongsvariation är en ny listning med sin egen söksynlighet, riktad mot säsongsnyckelord som den vintergröna versionen inte rankar för. En enda vintergrönt additionsarbetsblademall som producerar halloween-, jul-, valentin-, påsk- och skolstartsvariationer skapar 5 ytterligare listningsmöjligheter, var och en som genererar intäkter under sitt respektive säsongsfönster. Produktionsinsatsen per variation är minimal när befintliga mallar och arbetsbladsgenratorer används, medan det kumulativa intäktsbidraget över alla säsongstoppar är betydande.`,
     },
     {
-      heading: 'Fånga premiumprissättning tidigt i säsongen',
+      heading: `Fånga premiumprissättning tidigt i säsongen`,
       content: `Säljare som listar säsongsprodukter tidigt — innan majoriteten av konkurrenter har skapat sina säsongserbjudanden — drar nytta av minskad konkurrens och högre intäkter per enhet under den tidiga efterfrågefasen. När en säljare söker efter halloweenmattearbetsblad i september och bara hittar en handfull kvalitetsalternativ fångar dessa tidigt listade produkter försäljning till fullt pris utan rabattpress. I oktober, när dussintals konkurrenter har listat sina halloweenprodukter, intensifieras priskonkurrensen och köpare har fler alternativ. Den tidiga listningsfördelen sträcker sig bortom prissättning: tidig försäljning genererar recensioner som förbättrar sökranking, och etablerade listningar med försäljningshistorik rankar högre än nyligen listade konkurrerande produkter. Att bygga din produktionskalender kring tidiga listningsdeadlines positionerar dig som ett etablerat alternativ när toppefterfrågan anländer snarare än en nykomling som konkurrerar mot säljare som förberett sig tidigare.`,
     },
     {
@@ -136,17 +136,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: `Marknadsföring i sociala medier för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'pinterest-marketing-worksheets', anchorText: 'Pinterest-marknadsföring för arbetsbladsföretag' },
+    { pageType: 'guide', slug: `social-media-printable-marketing`, anchorText: `Marknadsföring i sociala medier för säljare av utskriftsbara produkter` },
+    { pageType: 'guide', slug: `pinterest-marketing-worksheets`, anchorText: `Pinterest-marknadsföring för arbetsbladsföretag` },
     { pageType: 'guide', slug: 'email-marketing-printables', anchorText: `E-postmarknadsföring för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Så säljer du mattearbetsblad på Etsy' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Så säljer du mattearbetsblad på Etsy` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
@@ -175,12 +175,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: `/samples/english/bingo/bingo_card.webp`,
       alt: `Bingokort som demonstrerar en säsongsanpassad utskriftsbar produkt ideal för högtidsmarknadsföringskampanjer`,
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: `/samples/english/bingo/bingo_card.webp`,
         alt: `Bingokort som visar en säsongsanpassad utskriftsbar produkt för högtidsevenemang och firanden`,
         caption: `Bingokort anpassas till varje säsongstema, vilket gör dem ideala produkter för marknadsföring året runt`,
       },
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/christmas/angel.webp', alt: 'Ängel — tematisk pedagogisk bild', caption: 'Ängel' },
-    { src: '/image-library/christmas/bell.webp', alt: 'Klocka — tematisk pedagogisk bild', caption: 'Klocka' },
-    { src: '/image-library/christmas/candle.webp', alt: 'Ljus — tematisk pedagogisk bild', caption: 'Ljus' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Polkagris — tematisk pedagogisk bild', caption: 'Polkagris' },
-    { src: '/image-library/christmas/chimney.webp', alt: 'Skorsten — tematisk pedagogisk bild', caption: 'Skorsten' },
+    { src: `/image-library/christmas/angel.webp`, alt: `Ängel — tematisk pedagogisk bild`, caption: 'Ängel' },
+    { src: `/image-library/christmas/bell.webp`, alt: `Klocka — tematisk pedagogisk bild`, caption: 'Klocka' },
+    { src: `/image-library/christmas/candle.webp`, alt: `Ljus — tematisk pedagogisk bild`, caption: 'Ljus' },
+    { src: `/image-library/christmas/candy%20cane.webp`, alt: `Polkagris — tematisk pedagogisk bild`, caption: 'Polkagris' },
+    { src: `/image-library/christmas/chimney.webp`, alt: `Skorsten — tematisk pedagogisk bild`, caption: 'Skorsten' },
   ],
 };
 

@@ -2,10 +2,10 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tpt materialien erstellen und verkaufen',
+    primaryKeyword: `tpt materialien erstellen und verkaufen`,
     secondaryKeywords: [
       'wie auf Gumroad verkaufen',
-      'Gumroad Druckprodukte für Käufer erstellen',
+      `Gumroad Druckprodukte für Käufer erstellen`,
       `Gumroad Verkäufer Leitfaden für druckbare Arbeitsblätter`,
       'Gumroad Shop einrichten',
     ],
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Gumroad Materialien erstellen und verkaufen',
+    title: `Gumroad Materialien erstellen und verkaufen`,
     tagline: `Ein vollständiger Leitfaden zum Verkauf von Druckprodukte auf Gumroad — von Kontoeinrichtung und Shop-Konfiguration über die Erstellung Gumroad-gerechter Materialien mit korrekter Formatierung, das Verpacken von Dateien für den Upload, das Schreiben von Listings die in Käufersuchen ranken, die Erstellung effektiver Vorschauen und Miniaturansichten, Preisstrategien für den Gumroad bis hin zur Veröffentlichung Ihrer ersten Materialien zum Aufbau von Shop-Dynamik und konstanten Einnahmen`,
     description: `Gumroad (Gumroad) ist ein Käufer-zu-Käufer-Marktplatz, auf dem Käufer originale Druckprodukte kaufen und verkaufen. Im Gegensatz zu allgemeinen Marktplätzen wie Etsy oder Print-on-Demand-Plattformen wie Amazon KDP ist jeder Käufer auf Gumroad ein Käufer, der aktiv nach sofort einsetzbaren Materialien sucht. Das schafft eine einzigartig zielgerichtete Zielgruppe mit spezifischen Anforderungen: standardkonforme Inhalte, altersgruppengerechte Aktivitäten und Materialien, die mit minimalem Vorbereitungsaufwand im echten Produkterstellung funktionieren. Dieser Leitfaden begleitet Sie durch den gesamten Weg von der Einrichtung Ihres Gumroad-Verkäuferkontos bis zur Veröffentlichung Ihrer ersten Materialien und dem Aufbau der Dynamik, die einen neuen Shop in eine konstante Einnahmequelle verwandelt.`,
   },
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `Die Erstellung eines Gumroad-Verkäuferkontos beginnt auf der Gumroad-Website, wo Sie sich als Verkäufer registrieren. Sie benötigen eine gültige E-Mail-Adresse, einen Shop-Namen und grundlegende Profilinformationen. Wählen Sie Ihren Shop-Namen sorgfältig — er wird zu Ihrer Markenidentität auf der Plattform und erscheint bei jeder Ressource, die Sie verkaufen. Effektive Gumroad-Shop-Namen sind professionell, einprägsam und deuten oft auf Ihre Lehrspezialisierung oder Altersgruppenfokus hin. Vermeiden Sie zu generische Namen, die unter Tausenden anderer Shops untergehen, und vermeiden Sie Namen, die Ihre zukünftige Expansion einschränken (der Name „Erste-Klasse-Mathe-Shop" begrenzt Sie, wenn Sie später Materialien für andere Altersgruppen oder Fächer erstellen).\n\nIhr Shop-Profil ist Ihr erster Eindruck bei potenziellen Käufern. Schreiben Sie eine klare, professionelle Beschreibung, die Ihre praktischen Qualifikationen und Ihren Inhaltsschwerpunkt etabliert. Käufer, die auf Gumroad kaufen, möchten wissen, dass sie von jemandem kaufen, der die Anforderungen des Produkterstellungs versteht. Wenn Sie Käuferfahrung haben, erwähnen Sie sie. Wenn Sie sich auf einen bestimmten Altersgruppenbereich oder Fachbereich spezialisieren, machen Sie das deutlich. Beschreiben Sie, welche Arten von Materialien Käufer in Ihrem Shop erwarten können und was Ihre Materialien für den Bildungsmarkt-Einsatz effektiv macht.\n\nKonfigurieren Sie Ihre Shop-Richtlinien, einschließlich Ihrer Nutzungsbedingungen für gekaufte Materialien. Die meisten Gumroad-Verkäufer fügen in jeden Download eine Standard-Nutzungsbedingungen-Seite ein, die festlegt, dass die Ressource für die Nutzung in einer einzelnen Klasse durch den Käufer bestimmt ist, die Weiterverbreitung oder den Weiterverkauf untersagt und den Unterschied zwischen Einzel- und Schullizenzen erklärt. Das schützt Ihr geistiges Eigentum und setzt klare Erwartungen für Käufer.\n\nRichten Sie Ihre Zahlungsinformationen für den Empfang monatlicher Auszahlungen ein. Gumroad verarbeitet Zahlungen monatlich für die Einnahmen des Vormonats. Überprüfen Sie, dass Ihre Zahlungsdaten korrekt sind, bevor Sie mit dem Verkauf beginnen — Zahlungsprobleme sind leichter zu vermeiden als nach angesammelten Verkäufen zu lösen. Wenn Sie erwarten, mehr als $150 pro Jahr an Verkäufen zu erzielen (was wahrscheinlich ist, wenn Sie sich dem Aufbau Ihres Shops widmen), steigen Sie sofort auf den Premium-Plan um. Jeder Verkauf im Basic-Plan kostet Sie 35 % mehr an Provision im Vergleich zum Premium-Plan, und diese verlorenen Einnahmen summieren sich schnell, sobald Ihr Shop Fahrt aufnimmt.`,
     },
     {
-      heading: 'Gumroad-gerechte Druckprodukte erstellen',
+      heading: `Gumroad-gerechte Druckprodukte erstellen`,
       content: `Materialien, die auf Gumroad konstant verkauft werden, teilen bestimmte Eigenschaften, die sie von generischen druckbaren Arbeitsblättern abheben. Gumroad-Käufer sind Käufer, die Ihre Ressource durch eine professionelle Brille bewerten: Funktioniert das in meinem Produkterstellung? Stimmt es mit dem überein, was ich gerade lehre? Kann ich es mit minimalem Vorbereitungsaufwand einsetzen? Ihre Materialien müssen alle drei Fragen mit „Ja" beantworten.\n\nBeginnen Sie mit klaren Lernzielen. Jede Gumroad-Ressource sollte eine bestimmte Fertigkeit oder ein bestimmtes Konzept ansprechen, das Käufer aktiv einsetzen. „Additionsübung" ist zu vage. „Zweistellige Addition mit Zehnerübergang für die erste Klasse" zielt auf eine bestimmte Fertigkeit in einer bestimmten Altersgruppe ab, nach der Käufer suchen. Je präziser Ihre Ressource ein echtes Produktkatalogbedürfnis anspricht, desto wahrscheinlicher kaufen Käufer sie. Nutzen Sie die Arbeitsblatt-Generatoren, um Inhalte zu erstellen, die auf bestimmte Fertigkeiten ausgerichtet sind — der Additions-Generator lässt Sie beispielsweise exakte Zahlenbereiche, Operationstypen und Schwierigkeitsgrade konfigurieren, die den Altersgruppen-Standards entsprechen.\n\nFormatieren Sie Ihre Materialien mit professioneller Konsistenz. Jede Gumroad-Ressource sollte enthalten: ein Deckblatt mit Ressourcentitel, Altersgruppe, Fachbereich und Ihrem Shop-Branding; ein Inhaltsverzeichnis für mehrseitige Ressourcen; klare nutzergerechte Anweisungen auf jeder Aktivitätsseite; einen Lösungsschlüssel für alle Arbeitsblätter und Aktivitäten; sowie eine Nutzungsbedingungen-Seite. Die Arbeitsblatt-Generatoren produzieren Inhalte in 300 DPI Druckqualität mit sauberer, professioneller Formatierung, die den Gumroad-Käufererwartungen entspricht. Exportieren Sie Ihre generierten Arbeitsblätter als PDFs und kompilieren Sie sie dann mit Ihrem Deckblatt und ergänzenden Seiten zu einem vollständigen Ressourcenpaket.\n\nFügen Sie Käuferhinweise bei, die erklären, wie die Ressource im Produkterstellung eingesetzt werden kann. Ein einseitiger Abschnitt „So verwenden Sie diese Ressource" am Anfang steigert den wahrgenommenen Wert und die praktische Nützlichkeit dramatisch. Schlagen Sie Einsatzmöglichkeiten vor: als Morgenarbeit, Mathe-Stationen, Hausaufgaben, Aktivitäten für schnelle Nutzer oder Bewertungsinstrumente. Käufer schätzen Materialien, die mit Einsatzvorschlägen kommen, weil es ihre Planungszeit reduziert — und genau das ist der Grund, warum sie überhaupt Materialien auf Gumroad kaufen.\n\nErwägen Sie Abstufungsoptionen innerhalb einer einzelnen Ressource. Eine einfachere Version und eine anspruchsvollere Version derselben Aktivität einzuschließen ermöglicht es Käufern, Ihre Ressource mit Nutzern auf unterschiedlichen Niveaus einzusetzen. Dieser mehrstufige Ansatz erhöht den wahrgenommenen Wert der Ressource und macht sie für eine breitere Palette von Shops nützlich, was sich in größerer Anziehungskraft und mehr Verkäufen übersetzt.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Ihre Produkt-Miniaturansicht ist das, was Käufer in den Suchergebnissen sehen, und sie bestimmt, ob sie auf Ihr Listing klicken oder weiterscrollen. Gumroad-Suchergebnisse zeigen Miniaturansichten als primäres visuelles Element neben Titel und Preis an. Eine professionelle, klare Miniaturansicht, die sofort kommuniziert, was die Ressource ist und welche Altersgruppe sie anspricht, steigert Ihre Klickrate aus den Suchergebnissen dramatisch.\n\nGestalten Sie Miniaturansichten, die visuell sauber und in kleinen Größen lesbar sind. Fügen Sie den Ressourcentitel, die Altersgruppe und eine visuelle Vorschau einer Aktivitätsseite ein. Verwenden Sie konsistentes Branding (Farben, Schriftarten, Layout) über alle Ihre Miniaturansichten hinweg, damit Ihre Materialien als Zusammengehörigkeit erkennbar sind, wenn sie gemeinsam in Suchergebnissen erscheinen. Vermeiden Sie überladene Miniaturansichten mit zu viel Text oder zu vielen visuellen Elementen — in Miniaturansichtsgröße werden unruhige Designs zu unlesbaren Unschärfen, die Käufer überspringen.\n\nDie Produktvorschau ist Ihr wirkungsvollstes Konversionswerkzeug auf Gumroad. Käufer auf dieser Plattform sind besonders gründliche Bewerter — sie möchten genau sehen, was sie kaufen, bevor sie ihr Produkterstellungsbudget einsetzen. Ihr Vorschau-PDF sollte die Qualität und den Umfang Ihrer Ressource präsentieren, ohne das komplette Produkt preiszugeben. Fügen Sie Ihr Deckblatt ein, ein Beispiel von ein oder zwei Aktivitätsseiten, die die Qualität und das Format demonstrieren, eine Seite, die alles auflistet, was in der vollständigen Ressource enthalten ist, und optional eine Seite, die das Lösungsschlüssel-Format zeigt.\n\nVersehen Sie Ihre Vorschauseiten mit einem Wasserzeichen, wenn Sie verhindern möchten, dass sie ohne Kauf verwendet werden, aber halten Sie das Wasserzeichen dezent genug, dass Käufer die Inhaltsqualität trotzdem bewerten können. Ein diagonales „VORSCHAU"-Wasserzeichen bei 20 bis 30 % Deckkraft lässt Käufer den Inhalt lesen und macht gleichzeitig klar, dass dies nicht das finale Produkt ist. Manche Verkäufer entscheiden sich gegen Wasserzeichen auf Vorschauen, mit der Begründung, dass Käufer, die kostenlose Vorschauseiten nutzen, ohnehin keine zahlenden Kunden geworden wären, und eine saubere Vorschau besser konvertiert als eine mit Wasserzeichen.\n\nAktualisieren Sie Ihre Vorschauen, wenn Sie Ihre Materialien aktualisieren. Wenn Sie die Formatierung verbessern, Seiten hinzufügen oder den Inhalt einer Ressource verfeinern, aktualisieren Sie die Vorschau, um die aktuelle Version widerzuspiegeln. Veraltete Vorschauen, die nicht zum tatsächlichen Download passen, führen zu enttäuschten Käufern und negativen Bewertungen. Behandeln Sie Ihre Vorschau als ein lebendiges Verkaufsdokument, das immer den aktuellen Stand Ihrer Ressource korrekt repräsentiert.`,
     },
     {
-      heading: 'Gumroad-Materialien für Ihren Markt bepreisen',
+      heading: `Gumroad-Materialien für Ihren Markt bepreisen`,
       content: `Die Gumroad-Preisgestaltung erfordert ein Verständnis dafür, was Käufer für verschiedene Ressourcentypen zu zahlen erwarten. Recherchieren Sie vergleichbare Materialien in Ihrer Altersgruppe und Ihrem Fachbereich, bevor Sie Preise festlegen. Durchstöbern Sie Gumroad-Suchergebnisse für Ihre Ziel-Keywords und notieren Sie die Preisspanne von Materialien mit starken Verkaufsindikatoren (hohe Bewertungen, viele Rezensionen). Das gibt Ihnen ein realistisches Bild dessen, was der Markt akzeptiert.\n\nHäufige Gumroad-Preisbereiche nach Ressourcentyp folgen vorhersehbaren Mustern. Einzelne Arbeitsblätter und einseitige Aktivitäten verkaufen sich typischerweise zu $1 bis $3. Arbeitsblatt-Pakete von 5 bis 15 Seiten mit einem konsistenten Thema oder Fertigkeitsfokus verkaufen sich zu $3 bis $6. Aktivitätspakete mit 15 bis 30 Seiten verschiedener Aktivitäten zu einem Thema verkaufen sich zu $6 bis $12. Umfassende Produktkatalog-Einheiten mit 30 oder mehr Seiten an Lektionen, Aktivitäten, Bewertungen und Käuferleitfäden verkaufen sich zu $12 bis $25. Diese Bereiche sind keine starren Regeln, sondern spiegeln etablierte Käufererwartungen auf Gumroad wider. Preise deutlich außerhalb dieser Bereiche — ob zu hoch oder zu niedrig — können die Verkäufe verringern.\n\nVermeiden Sie es, Ihre Materialien zu günstig anzubieten. Neue Gumroad-Verkäufer setzen Preise oft zu niedrig an, in der Hoffnung, Käufer mit Schnäppchen anzulocken. Das geht aus zwei Gründen nach hinten los. Erstens signalisieren sehr niedrige Preise ($0,50 bis $1,00 für mehrseitige Materialien) erfahrenen Gumroad-Käufern niedrige Qualität, da sie den Preis mit dem Produktionswert assoziieren. Zweitens reduzieren niedrige Preise Ihre Pro-Verkauf-Einnahmen so weit, dass selbst starke Verkaufsvolumina minimale Einnahmen produzieren, besonders im Basic-Plan, in dem Gumroad 55 % nimmt. Ein 10-seitiges Arbeitsblatt-Paket zu $1 im Basic-Plan bringt Ihnen $0,45 pro Verkauf. Dasselbe Paket zu $4 im Premium-Plan bringt $3,20 pro Verkauf — über sieben Mal so viel Einnahmen pro Transaktion.\n\nGumroad bietet eine benutzerdefinierte Paketfunktion, die Käufern ermöglicht, mehrere Materialien aus Ihrem Shop zu einem reduzierten Preis auszuwählen. Das fördert größere Einkäufe durch Mengenrabatte. Sie legen den Rabattprozentsatz fest (typischerweise 15 bis 25 % Nachlass auf die kombinierten Einzelpreise), und Käufer können beliebige Ihrer Materialien zu einem benutzerdefinierten Paket zusammenstellen. Diese Funktion belohnt Stammkunden und erhöht Ihren durchschnittlichen Bestellwert, ohne dass Sie separate Paket-Listings erstellen müssen.\n\nErwägen Sie, einige Materialien als kostenlose Testversion mit Wasserzeichen anzubieten, um die Glaubwürdigkeit Ihres Shops aufzubauen und ersten Traffic zu generieren. Gumroad hat einen großen Bereich für kostenlose Testversionen, der erhebliche Downloads generiert. Käufer, die Ihren Shop über eine hochwertige kostenlose Testversion mit Wasserzeichen entdecken und mögen, was sie sehen, kehren oft zurück, um Ihre kostenpflichtigen Materialien zu kaufen. Das ist eine bewährte Kundengewinnungsstrategie auf Gumroad — nutzen Sie Ihre stärkste Arbeit als kostenlose Testversion mit Wasserzeichen, nicht Ihre schwächste.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Käuferkäufe auf Gumroad folgen vorhersehbaren saisonalen Mustern, die Sie planen können. Die Schuljahresbeginn-Periode im späten Juli bis September erzeugt das höchste Traffic- und Verkaufsvolumen, da Käufer ihre Bildungsmarkt für das neue Jahr vorbereiten. Thematische Feiertagsressourcen (Halloween-Aktivitäten im September und Oktober, Winterfeiertagsressourcen im November, Valentinstag-Aktivitäten im Januar) erleben konzentrierte Nachfrage in den Wochen vor jedem Feiertag. Schuljahresend-Wiederholungsmaterialien verkaufen sich stark im April und Mai. Planen Sie Ihren Materialerstellungs-Kalender so, dass saisonale Inhalte mindestens 3 bis 4 Wochen vor jedem Nachfragehöhepunkt veröffentlicht sind. Materialien, die während Spitzenperioden veröffentlicht werden, profitieren vom erhöhten Plattform-Traffic, selbst wenn sie nicht spezifisch saisonale Inhalte sind. Nutzen Sie die Arbeitsblatt-Generatoren, um thematische Variationen Ihrer Kern-Ressourcentypen für jedes große saisonale Zeitfenster zu erstellen.`,
     },
     {
-      heading: 'Gumroad-Verkaufsaktionen für Umsatzspitzen nutzen',
+      heading: `Gumroad-Verkaufsaktionen für Umsatzspitzen nutzen`,
       content: `Gumroad veranstaltet mehrmals im Jahr plattformweite Verkaufsaktionen, bei denen die Plattform einen zusätzlichen Rabatt anwendet und die Aktion bei ihrer gesamten Käuferbasis bewirbt. Diese Aktionen erzeugen massive Traffic-Spitzen und konzentrierte Käufe. Verkäufer können zusätzlich zum plattformweiten Sale einen weiteren Rabatt anbieten, typischerweise 20 bis 25 %, der sich mit dem Gumroad-Rabatt kombiniert und überzeugende Angebote für Käufer schafft. Während großer Gumroad-Verkaufsaktionen berichten viele Verkäufer, dass sie einen erheblichen Teil ihrer monatlichen Einnahmen in nur 2 bis 3 Tagen erzielen. Bereiten Sie sich auf diese Aktionen vor, indem Sie sicherstellen, dass Ihre Listings vollständig optimiert sind — mit aktuellen Vorschauen, korrekten Beschreibungen und vollständigem Tagging — bevor die Aktion beginnt. Ein größerer Katalog während Verkaufsaktionen bedeutet mehr potenzielle Käufe pro Käufer, der Ihren Shop über eine einzelne rabattierte Ressource entdeckt.`,
     },
   ],
@@ -107,11 +107,11 @@ const content: GuideContent = {
 
   faq: [
     {
-      question: 'Was kostet es, auf Gumroad zu verkaufen?',
+      question: `Was kostet es, auf Gumroad zu verkaufen?`,
       answer: `Die Erstellung eines Gumroad-Verkäuferkontos kostet nichts. Der Basic-Verkäuferplan hat keine Vorabkosten — Gumroad nimmt 55 % jedes Verkaufs als Provision. Der Premium-Plan kostet $59,95 pro Jahr und reduziert die Gumroad-Provision auf 20 %, sodass Sie 80 % jedes Verkaufs behalten. Der Premium-Plan amortisiert sich nach ungefähr $150 Gesamtumsatz. Die meisten Verkäufer, die planen, ihren Shop aktiv aufzubauen, finden den Premium-Plan von Anfang an lohnenswert, da die erhöhten Pro-Verkauf-Einnahmen sich mit jeder Transaktion summieren. Es gibt keine Einstellungsgebühren, keine Pro-Produkt-Upload-Gebühren und keine Kosten jenseits des optionalen Premium-Abonnements.`,
     },
     {
-      question: 'Welche Materialtypen verkaufen sich auf Gumroad?',
+      question: `Welche Materialtypen verkaufen sich auf Gumroad?`,
       answer: `Gumroad unterstützt praktisch jeden Typ von Druckprodukt: Arbeitsblätter, Aktivitätspakete, Produkterstellungspläne, Bewertungen, interaktive Notizbücher, Aufgabenkarten, Spiele, Materialien für Pinnwände, Bildungsmarktdeko und Produktkatalog-Einheiten. Unter den druckbaren Materialien rangieren Mathe-Arbeitsblätter, Lese- und Schreibaktivitäten, naturwissenschaftliche Materialien und saisonale Aktivitätspakete konstant unter den meistgekauften Kategorien. Materialien mit klaren Lernzielen, Standards-Ausrichtung, Lösungsschlüsseln und Käuferhinweisen zur Produkterstellungsumsetzung verkaufen sich besser als einzelne Arbeitsblätter ohne Kontext. Die Arbeitsblatt-Generatoren erstellen Inhalte in mehreren dieser nachfragestarken Kategorien, einschließlich Mathe-Arbeitsblätter, Wortsuchrätsel, Zuordnungsaktivitäten und Ausmalseiten.`,
     },
     {
@@ -144,45 +144,45 @@ const content: GuideContent = {
     },
     {
       slug: 'kdp-oder-etsy-druckvorlagen',
-      title: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen',
+      title: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen`,
       description: `Direkter Vergleich der beiden anderen großen Plattformen für Druckvorlagen-Verkäufer. Gebührenstrukturen, Produktformate, Traffic-Mechanismen und Multi-Plattform-Strategie.`,
     },
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      title: 'Komplettanleitung für das Druckvorlagen-Geschäft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
+      title: `Komplettanleitung für das Druckvorlagen-Geschäft`,
       description: `Der grundlegende Geschäftsleitfaden zu Inhaltserstellung, kommerzieller Lizenzierung, Multi-Plattform-Strategie und dem Aufbau eines nachhaltigen Druckvorlagen-Geschäfts von Grund auf.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'guide', slug: 'tpt-shop-optimierung', anchorText: `Gumroad-Shop-Einrichtung und Optimierungsleitfaden` },
-    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Mathe-Arbeitsblätter auf Etsy verkaufen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-shop-starten', anchorText: 'Etsy-Druckvorlagen-Shop von Grund auf starten' },
-    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: 'Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen' },
-    { pageType: 'guide', slug: 'etsy-arbeitsblatt-pakete-erstellen', anchorText: 'Etsy-Arbeitsblatt-Pakete erstellen' },
-    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: 'Etsy-Druckvorlagen richtig bepreisen' },
+    { pageType: 'guide', slug: `mathe-arbeitsblaetter-verkaufen-etsy`, anchorText: `Mathe-Arbeitsblätter auf Etsy verkaufen` },
+    { pageType: 'guide', slug: `etsy-druckvorlagen-shop-starten`, anchorText: `Etsy-Druckvorlagen-Shop von Grund auf starten` },
+    { pageType: 'guide', slug: 'kdp-oder-etsy-druckvorlagen', anchorText: `Amazon KDP oder Etsy: Wo Druckvorlagen verkaufen` },
+    { pageType: 'guide', slug: `etsy-arbeitsblatt-pakete-erstellen`, anchorText: `Etsy-Arbeitsblatt-Pakete erstellen` },
+    { pageType: 'guide', slug: 'etsy-druckvorlagen-preise', anchorText: `Etsy-Druckvorlagen richtig bepreisen` },
     { pageType: 'guide', slug: 'etsy-seo-lernmaterial', anchorText: 'Etsy SEO für Lernmaterialien' },
-    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen' },
-    { pageType: 'guide', slug: 'additions-arbeitsblaetter-erstellen', anchorText: 'Additions-Arbeitsblätter für Kinder erstellen' },
-    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'Wortsuchrätsel mit Bildern erstellen' },
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Komplettanleitung für das Druckvorlagen-Geschäft' },
-    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: 'Leitfaden zur kommerziellen Lizenz' },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: `Mathe-Aktivitätsbücher für Amazon KDP erstellen` },
+    { pageType: 'guide', slug: `additions-arbeitsblaetter-erstellen`, anchorText: `Additions-Arbeitsblätter für Kinder erstellen` },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: `Wortsuchrätsel mit Bildern erstellen` },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung für das Druckvorlagen-Geschäft` },
+    { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Leitfaden zur kommerziellen Lizenz` },
   ],
 
   toolsRecommended: [
     {
       appId: 'addition',
-      title: 'Additions-Arbeitsblatt-Generator',
+      title: `Additions-Arbeitsblatt-Generator`,
       description: `Erstellt Mathe-Additions-Arbeitsblätter, die auf Gumroad konstant nachgefragt werden. Konfigurieren Sie Zahlenbereiche, Schwierigkeitsgrade und Formate, um bestimmte Altersgruppen-Standards für den Bildungsmarkt-Einsatz anzusprechen.`,
     },
     {
       appId: 'wordsearch',
-      title: 'Wortsuch-Arbeitsblatt-Generator',
+      title: `Wortsuch-Arbeitsblatt-Generator`,
       description: `Generiert thematische Wortsuchrätsel, die über alle Altersgruppen auf Gumroad beliebt sind. Vokabel-aufbauende Aktivitäten, die Käufer für Stationen, schnelle Nutzer und ergänzende Übungen nutzen.`,
     },
     {
       appId: 'matching',
-      title: 'Zuordnungs-Arbeitsblatt-Generator',
+      title: `Zuordnungs-Arbeitsblatt-Generator`,
       description: `Erstellt vielseitige Zuordnungsaktivitäten für mehrere Fächer und Altersgruppen. Ein bewährter Produkterstellungs-Aktivitätstyp, den Gumroad-Käufer in jedem Fachbereich suchen.`,
     },
     {
@@ -193,22 +193,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: `Additions-Arbeitsblatt-Ressource geeignet zum Verkauf auf dem Gumroad Marktplatz` },
+    heroImage: { src: `/samples/german/addition/Additionsspa 1.webp`, alt: `Additions-Arbeitsblatt-Ressource geeignet zum Verkauf auf dem Gumroad Marktplatz` },
     samples: [
-      { src: '/samples/german/addition/addition_worksheet.webp', alt: `Mathe-Additions-Arbeitsblatt für Gumroad-Druckprodukt`, caption: 'Mathe-Arbeitsblätter gehören zu den meistgesuchten Ressourcentypen auf Gumroad — Käufer brauchen standardkonforme Übungen für jede Fertigkeit' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Aktivität für Gumroad-Shop-Listing', caption: `Wortsuchrätsel funktionieren auf Gumroad über alle Altersgruppen als Vokabel-Aufbau, Stationsaktivitäten und Arbeit für schnelle Nutzer` },
-      { src: '/samples/german/matching/Paare Finden 2.webp', alt: `Zuordnungsaktivitäts-Arbeitsblatt für Gumroad-Käufer`, caption: 'Zuordnungsaktivitäten sind vielseitige Gumroad-Ressourcen, die Käufer für Bewertung, Übung und Wiederholung über mehrere Fächer nutzen' },
+      { src: `/samples/german/addition/addition_worksheet.webp`, alt: `Mathe-Additions-Arbeitsblatt für Gumroad-Druckprodukt`, caption: `Mathe-Arbeitsblätter gehören zu den meistgesuchten Ressourcentypen auf Gumroad — Käufer brauchen standardkonforme Übungen für jede Fertigkeit` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuchrätsel-Aktivität für Gumroad-Shop-Listing`, caption: `Wortsuchrätsel funktionieren auf Gumroad über alle Altersgruppen als Vokabel-Aufbau, Stationsaktivitäten und Arbeit für schnelle Nutzer` },
+      { src: `/samples/german/matching/Paare Finden 2.webp`, alt: `Zuordnungsaktivitäts-Arbeitsblatt für Gumroad-Käufer`, caption: `Zuordnungsaktivitäten sind vielseitige Gumroad-Ressourcen, die Käufer für Bewertung, Übung und Wiederholung über mehrere Fächer nutzen` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Produkterstellungs-Arbeitsblätter für Gumroad erstellen — Schritt-für-Schritt-Anleitung`,
   },
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rucksack — thematisches Lernbild`, caption: 'Rucksack' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — thematisches Lernbild`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Schrank — thematisches Lernbild`, caption: 'Schrank' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Taschenrechner — thematisches Lernbild`, caption: 'Taschenrechner' },
   ],
 };
 

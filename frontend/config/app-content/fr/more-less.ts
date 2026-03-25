@@ -4,17 +4,17 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'générateur plus ou moins',
     secondaryKeywords: [
-      'fiches plus ou moins imprimables pour Etsy',
+      `fiches plus ou moins imprimables pour Etsy`,
       `créateur de fiches de comparaison de nombres pour Amazon KDP`,
       `vendre des fiches plus grand que moins que sur Gumroad`,
-      'fiches de comparaison licence commerciale',
+      `fiches de comparaison licence commerciale`,
     ],
     lsiKeywords: [
-      'produits numériques de comparaison de nombres',
-      'activité de fiches imprimables sens des nombres',
+      `produits numériques de comparaison de nombres`,
+      `activité de fiches imprimables sens des nombres`,
       `générateur de fiches de comparaison à usage commercial`,
     ],
-    titleTag: 'Générateur Plus ou Moins | Fiches de Comparaison',
+    titleTag: `Générateur Plus ou Moins | Fiches de Comparaison`,
     metaDescription:
       `Créez des fiches comparaison de quantités pour Etsy, KDP et Gumroad. 3 modes de comparaison, 104 thèmes, corrigés, export 400+ DPI. Essai gratuit avec filigrane.`,
   },
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: `Générateur de Fiches Plus ou Moins pour la Comparaison Visuelle de Nombres`,
     tagline: `Transformez la comparaison de nombres en découverte visuelle avec des fiches illustrées de plus grand et plus petit.`,
     description:
-      `Créez des fiches de comparaison attrayantes qui enseignent aux utilisateurs à identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d'exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d\'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d'images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.`,
+      `Créez des fiches de comparaison attrayantes qui enseignent aux utilisateurs à identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d`exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d`images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.`,
   },
 
   howItWorks: {
@@ -35,22 +35,22 @@ const content: AppContent = {
           `Ouvrez le panneau Mise en Page et choisissez un format : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou toute dimension personnalisée. Sélectionnez une couleur de fond, choisissez un thème de fond décoratif dans la bibliothèque d'images et ajustez l'opacité pour garder les exercices lisibles. Ajoutez un cadre de bordure assorti pour un aspect professionnel.`,
       },
       {
-        title: 'Choisir le mode de comparaison',
+        title: `Choisir le mode de comparaison`,
         description:
-          `Ouvrez la Configuration des Exercices et sélectionnez l'un des trois modes. Image contre Image présente deux groupes d'images côte à côte que les utilisateurs comptent et comparent. Image contre Nombre associe un groupe d'images à un chiffre pour faire le pont entre le sens visuel et abstrait des nombres. Cocher et Barrer les Groupes remplit une boîte de deux types d'images mélangées — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire. Les modes standards supportent 1–8 exercices par page ; Cocher et Barrer supporte 1–3 exercices avec 8–20 images par boîte.`,
+          `Ouvrez la Configuration des Exercices et sélectionnez l`un des trois modes. Image contre Image présente deux groupes d`images côte à côte que les utilisateurs comptent et comparent. Image contre Nombre associe un groupe d`images à un chiffre pour faire le pont entre le sens visuel et abstrait des nombres. Cocher et Barrer les Groupes remplit une boîte de deux types d`images mélangées — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire. Les modes standards supportent 1–8 exercices par page ; Cocher et Barrer supporte 1–3 exercices avec 8–20 images par boîte.`,
       },
       {
-        title: 'Configurer les paramètres d\'exercice',
+        title: `Configurer les paramètres d'exercice`,
         description:
-          `Définissez la plage de nombres pour chaque groupe (1–10) pour contrôler la difficulté. Choisissez la Variété d'Images — Images Identiques utilise les mêmes éléments dans les deux groupes (5 chats vs 7 chats) tandis qu\'Images Différentes utilise des éléments distincts (5 chats vs 7 chiens). Sélectionnez le Mode d'Affichage des Symboles : les Symboles Illustrés montrent des versions graphiques et colorées des signes plus grand, plus petit et égal, tandis que les Symboles Normaux utilisent les caractères standards (>, <, =).`,
+          `Définissez la plage de nombres pour chaque groupe (1–10) pour contrôler la difficulté. Choisissez la Variété d`Images — Images Identiques utilise les mêmes éléments dans les deux groupes (5 chats vs 7 chats) tandis qu'Images Différentes utilise des éléments distincts (5 chats vs 7 chiens). Sélectionnez le Mode d`Affichage des Symboles : les Symboles Illustrés montrent des versions graphiques et colorées des signes plus grand, plus petit et égal, tandis que les Symboles Normaux utilisent les caractères standards (>, <, =).`,
       },
       {
         title: `Parcourir la bibliothèque d'images et ajouter du texte`,
         description:
-          `Ouvrez le panneau Bibliothèque d'Images et explorez 104 thèmes — des animaux et la nourriture aux véhicules et aux fêtes. Utilisez la recherche pour trouver des images instantanément. Sélectionnez des images individuelles ou attribuez un thème pour l'ensemble de la fiche. Ajoutez un titre, des champs nom et date ou des consignes personnalisées avec le panneau Outils de Texte. Choisissez parmi des polices adaptées aux enfants et ajustez taille, couleur et contour.`,
+          `Ouvrez le panneau Bibliothèque d`Images et explorez 104 thèmes — des animaux et la nourriture aux véhicules et aux fêtes. Utilisez la recherche pour trouver des images instantanément. Sélectionnez des images individuelles ou attribuez un thème pour l`ensemble de la fiche. Ajoutez un titre, des champs nom et date ou des consignes personnalisées avec le panneau Outils de Texte. Choisissez parmi des polices adaptées aux enfants et ajustez taille, couleur et contour.`,
       },
       {
-        title: 'Générer le corrigé et télécharger',
+        title: `Générer le corrigé et télécharger`,
         description:
           `Passez à l'onglet Corrigé et cliquez sur Générer le Corrigé pour créer une version complétée avec tous les symboles de comparaison corrects. Activez le mode Niveaux de Gris pour un export noir et blanc économique en encre. Exportez la fiche et le corrigé en JPEG haute résolution ou PDF prêt à imprimer. Chaque export est rendu à plus de 400 DPI pour des résultats nets.`,
       },
@@ -58,37 +58,37 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Fonctionnalités Clés du Générateur Plus ou Moins',
+    title: `Fonctionnalités Clés du Générateur Plus ou Moins`,
     features: [
       {
-        title: 'Trois modes d\'exercice de comparaison',
+        title: `Trois modes d'exercice de comparaison`,
         description:
-          `Choisissez le mode adapté à votre objectif pédagogique. Le mode Image contre Image présente deux groupes d'images pour une comparaison purement visuelle — idéal pour introduire plus grand et plus petit. Le mode Image contre Nombre associe un groupe d'images à un chiffre, faisant le pont entre le comptage concret et la reconnaissance abstraite des nombres. Le mode Cocher et Barrer les Groupes remplit une boîte d'images mélangées de deux catégories, mettant les utilisateurs au défi d'identifier et marquer les groupes majoritaire et minoritaire.`,
+          `Choisissez le mode adapté à votre objectif pédagogique. Le mode Image contre Image présente deux groupes d`images pour une comparaison purement visuelle — idéal pour introduire plus grand et plus petit. Le mode Image contre Nombre associe un groupe d`images à un chiffre, faisant le pont entre le comptage concret et la reconnaissance abstraite des nombres. Le mode Cocher et Barrer les Groupes remplit une boîte d`images mélangées de deux catégories, mettant les utilisateurs au défi d`identifier et marquer les groupes majoritaire et minoritaire.`,
       },
       {
-        title: 'Mode unique Cocher et Barrer les Groupes',
+        title: `Mode unique Cocher et Barrer les Groupes`,
         description:
           `Ce mode est unique parmi les générateurs de fiches standards. Une seule boîte contient 8 à 20 images de deux catégories différentes mélangées ensemble. Les utilisateurs doivent trier visuellement les groupes, compter chacun, puis cocher le groupe avec plus et barrer celui avec moins. Cela développe simultanément la discrimination visuelle, la précision du comptage et les compétences de comparaison.`,
       },
       {
-        title: 'Contrôle de la variété d\'images',
+        title: `Contrôle de la variété d'images`,
         description:
           `Basculez entre Images Identiques et Images Différentes pour modifier la complexité visuelle de chaque exercice. Le mode Images Identiques utilise les mêmes éléments dans les deux groupes (ex. : 5 étoiles vs 7 étoiles), concentrant l'attention uniquement sur la quantité. Le mode Images Différentes utilise des éléments distincts (ex. : 5 chats vs 7 chiens), ajoutant une couche supplémentaire de traitement visuel.`,
       },
       {
-        title: 'Options d\'affichage des symboles',
+        title: `Options d'affichage des symboles`,
         description:
           `Choisissez entre les Symboles Illustrés — des versions colorées et graphiques des signes plus grand, plus petit et égal — et les Symboles Normaux qui utilisent les caractères textuels standards (>, <, =). Les symboles illustrés sont parfaits pour les jeunes apprenants qui bénéficient d'indices visuels, tandis que les symboles normaux préparent les utilisateurs à la notation mathématique conventionnelle.`,
       },
       {
-        title: '104 thèmes visuels avec plus de 3 100 images',
+        title: `104 thèmes visuels avec plus de 3 100 images`,
         description:
           `Parcourez une bibliothèque de plus de 3 100 illustrations dans 104 thèmes : animaux de la ferme, vie marine, véhicules, espace, nourriture, sport, dinosaures, fêtes et bien plus. Chaque image est en haute résolution et conçue pour une impression claire. Comme les fiches sont purement visuelles — pas de texte dans les exercices — elles fonctionnent parfaitement dans toutes les langues.`,
       },
       {
-        title: 'Génération automatique du corrigé',
+        title: `Génération automatique du corrigé`,
         description:
-          `Cliquez sur un bouton pour générer un corrigé complet qui reproduit la mise en page avec tous les symboles de comparaison corrects. L'onglet corrigé affiche un aperçu en direct pour vérifier l'exactitude. Exportez le corrigé en fichier JPEG ou PDF séparé pour les éditions vendeurs ou les packs produits Etsy.`,
+          `Cliquez sur un bouton pour générer un corrigé complet qui reproduit la mise en page avec tous les symboles de comparaison corrects. L`onglet corrigé affiche un aperçu en direct pour vérifier l`exactitude. Exportez le corrigé en fichier JPEG ou PDF séparé pour les éditions vendeurs ou les packs produits Etsy.`,
       },
       {
         title: `Export prêt à imprimer à 400+ DPI avec option niveaux de gris`,
@@ -98,7 +98,7 @@ const content: AppContent = {
       {
         title: `Édition complète du canevas avec annuler et rétablir`,
         description:
-          `Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément — texte, images, blocs d'exercice, bordures et fonds. Zoomez pour un placement précis et utilisez l'annulation et le rétablissement illimités pour expérimenter librement. Verrouillez les éléments ou déverrouillez tout pour un redesign spontané.`,
+          `Le canevas Fabric.js intégré vous permet de glisser, redimensionner, pivoter et repositionner chaque élément — texte, images, blocs d`exercice, bordures et fonds. Zoomez pour un placement précis et utilisez l`annulation et le rétablissement illimités pour expérimenter librement. Verrouillez les éléments ou déverrouillez tout pour un redesign spontané.`,
       },
     ],
   },
@@ -115,26 +115,26 @@ const content: AppContent = {
       {
         title: `Cahiers d'activités de comparaison sur Amazon KDP`,
         description:
-          `Compilez 50 à 100 fiches de comparaison dans un cahier d'activités au format Amazon KDP. Structurez avec une difficulté progressive — commencez avec Images Identiques en mode Image contre Image, passez à Images Différentes en mode Image contre Nombre, et terminez avec des défis Cocher et Barrer. Ajoutez une page de titre, une section consignes et un corrigé à la fin. Les cahiers de comparaison pour enfants de 3 à 7 ans se vendent régulièrement toute l'année.`,
+          `Compilez 50 à 100 fiches de comparaison dans un cahier d`activités au format Amazon KDP. Structurez avec une difficulté progressive — commencez avec Images Identiques en mode Image contre Image, passez à Images Différentes en mode Image contre Nombre, et terminez avec des défis Cocher et Barrer. Ajoutez une page de titre, une section consignes et un corrigé à la fin. Les cahiers de comparaison pour enfants de 3 à 7 ans se vendent régulièrement toute l`année.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Ateliers de maths différenciés pour Gumroad',
+        title: `Ateliers de maths différenciés pour Gumroad`,
         description:
           `Créez des ensembles à niveaux avec les trois modes comme paliers de difficulté naturels : Niveau 1 (Image contre Image avec Images Identiques), Niveau 2 (Image contre Nombre avec Images Différentes) et Niveau 3 (Cocher et Barrer les Groupes). Chaque niveau avec corrigés et fiche de suivi. Les acheteurs Gumroad paient des prix premium pour des ressources différenciées utilisables immédiatement dans plusieurs groupes de niveau.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Contenu d\'abonnement pour votre propre boutique',
+        title: `Contenu d'abonnement pour votre propre boutique`,
         description:
-          `Produisez des packs hebdomadaires de fiches de comparaison et distribuez-les via Shopify, Gumroad ou Payhip. Un modèle d'abonnement — nouveau pack thématique chaque semaine — génère des revenus récurrents et fidélise une clientèle de familles en instruction à domicile et centres de soutien. Les trois modes, deux paramètres de variété d'images et 104 thèmes offrent assez de variété pour des années de contenu unique.`,
+          `Produisez des packs hebdomadaires de fiches de comparaison et distribuez-les via Shopify, Gumroad ou Payhip. Un modèle d`abonnement — nouveau pack thématique chaque semaine — génère des revenus récurrents et fidélise une clientèle de familles en instruction à domicile et centres de soutien. Les trois modes, deux paramètres de variété d`images et 104 thèmes offrent assez de variété pour des années de contenu unique.`,
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
         title: `Pratique de comparaison pour la vente et le soutien scolaire`,
         description:
-          `Générez des fiches de comparaison personnalisées pour chaque niveau d'utilisateur. Imprimez des fiches Image contre Image avec Images Identiques pour les débutants et des fiches Cocher et Barrer pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue. Que vous dirigiez un centre de soutien, enseigniez en grande section ou fassiez l'école à la maison, le générateur remplace des heures de création manuelle.`,
-        platform: 'Classe / Soutien scolaire / École à la maison',
+          `Générez des fiches de comparaison personnalisées pour chaque niveau d`utilisateur. Imprimez des fiches Image contre Image avec Images Identiques pour les débutants et des fiches Cocher et Barrer pour les utilisateurs avancés — tout dans la même session. Le corrigé automatique fait gagner du valeur perçue. Que vous dirigiez un centre de soutien, enseigniez en grande section ou fassiez l`école à la maison, le générateur remplace des heures de création manuelle.`,
+        platform: `Classe / Soutien scolaire / École à la maison`,
       },
     ],
   },
@@ -143,22 +143,22 @@ const content: AppContent = {
     {
       question: `Quels modes de comparaison propose le Générateur Plus ou Moins ?`,
       answer:
-        `Le générateur comprend trois modes : Image contre Image (deux groupes d'images à compter et comparer), Image contre Nombre (un groupe d\'images associé à un chiffre) et Cocher et Barrer les Groupes (une boîte d'images mélangées où les utilisateurs cochent le groupe majoritaire et barrent le minoritaire). Chaque mode cible un niveau et un défi de comparaison différent. Les vendeurs regroupent souvent les trois modes dans une même fiche produit, offrant aux acheteurs un cursus complet de comparaison.`,
+        `Le générateur comprend trois modes : Image contre Image (deux groupes d`images à compter et comparer), Image contre Nombre (un groupe d'images associé à un chiffre) et Cocher et Barrer les Groupes (une boîte d`images mélangées où les utilisateurs cochent le groupe majoritaire et barrent le minoritaire). Chaque mode cible un niveau et un défi de comparaison différent. Les vendeurs regroupent souvent les trois modes dans une même fiche produit, offrant aux acheteurs un cursus complet de comparaison.`,
     },
     {
       question: `Qu'est-ce que le mode Cocher et Barrer les Groupes ?`,
       answer:
-        `Le mode Cocher et Barrer est un type d'exercice unique où une seule boîte contient 8 à 20 images de deux catégories différentes mélangées ensemble. Les utilisateurs trient visuellement les images, comptent chaque groupe, puis cochent celui avec plus et barrent celui avec moins. Vous pouvez inclure jusqu'à 3 exercices par fiche. Ce mode développe simultanément la discrimination visuelle et les compétences de comptage.`,
+        `Le mode Cocher et Barrer est un type d`exercice unique où une seule boîte contient 8 à 20 images de deux catégories différentes mélangées ensemble. Les utilisateurs trient visuellement les images, comptent chaque groupe, puis cochent celui avec plus et barrent celui avec moins. Vous pouvez inclure jusqu`à 3 exercices par fiche. Ce mode développe simultanément la discrimination visuelle et les compétences de comptage.`,
     },
     {
       question: `Quelles plages de nombres puis-je définir pour les exercices de comparaison ?`,
       answer:
-        `Vous pouvez définir le minimum et le maximum d'éléments par groupe de 1 à 10 pour les modes standards. Pour Cocher et Barrer, vous pouvez définir le nombre total d'images dans la boîte de 8 à 20. Ces contrôles permettent de créer des comparaisons faciles pour les enfants de maternelle ou des exercices plus difficiles pour le CP et le CE1.`,
+        `Vous pouvez définir le minimum et le maximum d`éléments par groupe de 1 à 10 pour les modes standards. Pour Cocher et Barrer, vous pouvez définir le nombre total d`images dans la boîte de 8 à 20. Ces contrôles permettent de créer des comparaisons faciles pour les enfants de maternelle ou des exercices plus difficiles pour le CP et le CE1.`,
     },
     {
-      question: 'Que fait le paramètre Variété d\'Images ?',
+      question: `Que fait le paramètre Variété d'Images ?`,
       answer:
-        `La Variété d'Images contrôle si les deux côtés d'une comparaison utilisent le même type d'image ou des types différents. Le mode Images Identiques compare des quantités d'éléments identiques (ex. : 5 chats vs 7 chats), se concentrant uniquement sur le sens des nombres. Le mode Images Différentes utilise des éléments distincts (ex. : 5 chats vs 7 chiens), ajoutant de la complexité visuelle.`,
+        `La Variété d`Images contrôle si les deux côtés d`une comparaison utilisent le même type d`image ou des types différents. Le mode Images Identiques compare des quantités d`éléments identiques (ex. : 5 chats vs 7 chats), se concentrant uniquement sur le sens des nombres. Le mode Images Différentes utilise des éléments distincts (ex. : 5 chats vs 7 chiens), ajoutant de la complexité visuelle.`,
     },
     {
       question: `Quelles sont les options d'affichage des symboles ?`,
@@ -178,27 +178,27 @@ const content: AppContent = {
     {
       question: `Puis-je exporter les fiches en niveaux de gris pour économiser l'encre ?`,
       answer:
-        `Oui. Activez l'option Niveaux de Gris dans le panneau Téléchargement pour convertir vos fiches colorées en noir et blanc avant l'export. Parfait pour l'impression en volume où vous souhaitez économiser l'encre tout en offrant une pratique de comparaison de qualité. Les exports JPEG et PDF supportent le mode niveaux de gris.`,
+        `Oui. Activez l`option Niveaux de Gris dans le panneau Téléchargement pour convertir vos fiches colorées en noir et blanc avant l`export. Parfait pour l`impression en volume où vous souhaitez économiser l`encre tout en offrant une pratique de comparaison de qualité. Les exports JPEG et PDF supportent le mode niveaux de gris.`,
     },
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        `Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois modes de comparaison, la bibliothèque d'images complète, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.`,
+        `Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois modes de comparaison, la bibliothèque d`images complète, la génération de corrigés et tous les formats d'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l`essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.`,
     },
     {
-      question: 'Que comprend la licence commerciale ?',
+      question: `Que comprend la licence commerciale ?`,
       answer:
         `La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite.`,
     },
     {
       question: `Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?`,
       answer:
-        `Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison en téléchargement numérique sur Etsy, en cahiers d'activités sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal. Vous pouvez aussi combiner des fiches de comparaison avec d'autres types de fiches de maths — addition ou soustraction — pour créer des packs complets à prix plus élevé. L'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l'outil convient à votre flux de production.`,
+        `Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison en téléchargement numérique sur Etsy, en cahiers d`activités sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal. Vous pouvez aussi combiner des fiches de comparaison avec d`autres types de fiches de maths — addition ou soustraction — pour créer des packs complets à prix plus élevé. L`essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l`outil convient à votre flux de production.`,
     },
     {
-      question: 'Quelle est la politique de remboursement ?',
+      question: `Quelle est la politique de remboursement ?`,
       answer:
-        `L'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d'export et taille de page avant d'acheter. L'essai gratuit est la politique de remboursement — assurez-vous que l'outil répond à vos besoins avant d'acheter. Cette approche vous permet d'évaluer chaque fonctionnalité, format d'exportation et combinaison de thèmes avant de prendre une décision d'achat, vous donnant une confiance totale dans votre investissement.`,
+        `L`essai gratuit vous donnant accès à toutes les fonctionnalités, nous n`offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d`export et taille de page avant d`acheter. L`essai gratuit est la politique de remboursement — assurez-vous que l`outil répond à vos besoins avant d`acheter. Cette approche vous permet d`évaluer chaque fonctionnalité, format d`exportation et combinaison de thèmes avant de prendre une décision d`achat, vous donnant une confiance totale dans votre investissement.`,
     },
   ],
 
@@ -206,17 +206,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'addition-fiches',
-      anchorText: 'Générateur de Fiches d\'Addition',
+      anchorText: `Générateur de Fiches d'Addition`,
     },
     {
       pageType: 'app',
       slug: 'soustraction-fiches',
-      anchorText: 'Générateur de Fiches de Soustraction',
+      anchorText: `Générateur de Fiches de Soustraction`,
     },
     {
       pageType: 'app',
       slug: 'puzzle-maths-fiches',
-      anchorText: 'Générateur de Puzzles Mathématiques',
+      anchorText: `Générateur de Puzzles Mathématiques`,
     },
     {
       pageType: 'bundle',
@@ -231,43 +231,43 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'vendre-fiches-maths-etsy',
-      anchorText: 'Guide pour Vendre des Fiches de Maths sur Etsy',
+      anchorText: `Guide pour Vendre des Fiches de Maths sur Etsy`,
     },
     {
       pageType: 'idea',
       slug: 'bases-maths-idees-imprimables',
-      anchorText: 'Idées d\'imprimables de faits mathématiques',
+      anchorText: `Idées d'imprimables de faits mathématiques`,
     },
     {
       pageType: 'idea',
-      slug: 'rentree-scolaire-idees-imprimables',
-      anchorText: 'Idées d\'imprimables rentrée scolaire',
+      slug: `rentree-scolaire-idees-imprimables`,
+      anchorText: `Idées d'imprimables rentrée scolaire`,
     },
     {
       pageType: 'start',
       slug: 'creer-fiches-qui-se-vendent',
-      anchorText: 'Créer des fiches qui se vendent',
+      anchorText: `Créer des fiches qui se vendent`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/more less/Plus Moins 1.webp',
+      primary: `/samples/french/more less/Plus Moins 1.webp`,
       primaryAlt: `Fiche Plus ou Moins avec des images colorées d'animaux en mode Image contre Image`,
     },
     sampleGallery: [
       {
-        src: '/samples/french/more less/Plus Moins 1.webp',
+        src: `/samples/french/more less/Plus Moins 1.webp`,
         alt: `Fiche de comparaison en mode Image contre Image avec thème animaux`,
         caption: `Mode Image contre Image — les utilisateurs comptent deux groupes d'images et comparent les quantités`,
       },
       {
-        src: '/samples/french/more less/Plus Moins 2.webp',
+        src: `/samples/french/more less/Plus Moins 2.webp`,
         alt: `Fiche de comparaison en mode Image contre Nombre avec thème nourriture`,
         caption: `Mode Image contre Nombre — associe des groupes d'images à des chiffres`,
       },
       {
-        src: '/samples/french/more less/Plus Moins 3.webp',
+        src: `/samples/french/more less/Plus Moins 3.webp`,
         alt: `Fiche Cocher et Barrer les Groupes avec images mélangées pour le tri visuel`,
         caption: `Mode Cocher et Barrer — les utilisateurs trouvent le groupe majoritaire dans une boîte d'images mélangées`,
       },

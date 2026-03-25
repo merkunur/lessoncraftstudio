@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador classificação de imagens',
+    primaryKeyword: `gerador classificação de imagens`,
     secondaryKeywords: [
       `criador de fichas de classificação para vendedores uso comercial`,
       `criar fichas de classificação para vender na Etsy e KDP`,
@@ -14,21 +14,21 @@ const content: ToolContent = {
       `criador de fichas de classificação com gabarito automático`,
       `atividades de classificação a duas categorias com imagens temáticas`,
     ],
-    titleTag: 'Gerador Classificação de Imagens | Criar e Vender',
+    titleTag: `Gerador Classificação de Imagens | Criar e Vender`,
     metaDescription: `Crie fichas de classificação com duas categorias, grelha de recortes misturada, gabarito autogerado e 104 temas com 4–12 imagens.`,
   },
 
   hero: {
-    title: 'Gerador de Classificação de Imagens',
+    title: `Gerador de Classificação de Imagens`,
     tagline: `Gerador de fichas de classificação a duas categorias com modos de seleção temático e manual, grelhas de recortes misturadas de 4–12 imagens em 3–4 colunas autoajustáveis, molduras de categoria com borda tracejada para destinos de classificação esquerdo e direito, gabaritos autogerados com imagens 6× maiores em caixas de categorias, cabeçalho localizado de Classificação de Imagens em 11 idiomas e 104 coleções temáticas de imagens para fichas de classificação que se vendem em todo o mundo`,
-    description: `Crie fichas de classificação profissionais onde os usuários recortam imagens de uma grelha misturada e classificam-nas em duas categorias — esquerda e direita. Escolha o modo de tema para preencher categorias automaticamente a partir da biblioteca de imagens: selecione um tema para a esquerda e outro para a direita, e a aplicação extrai 4–6 imagens aleatórias por tema. Ou mude para o modo manual para selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita. Cada ficha apresenta duas molduras de categoria com borda tracejada na parte superior com preenchimento #FAFAFA para destinos de classificação e uma grelha de recortes misturada por baixo com células brancas, bordas tracejadas #666, cantos arredondados de 4px e 3–4 colunas conforme o número total de imagens. Cada imagem ocupa 85% da sua célula. Configure de 4 a 12 imagens totais com 2–10 por categoria — menos imagens criam exercícios de classificação mais simples para os mais novos, mais imagens aumentam a dificuldade e a densidade de conteúdo. O sistema de canvas duplo gera simultaneamente um separador de ficha e um separador de gabarito. O gabarito mostra as imagens a 6× o tamanho das células da grelha de recortes, organizadas em caixas de categorias com um máximo de 2 colunas por caixa, preenchimento #FAFAFA, contorno #444 e raio de borda de 12px — sem necessidade de criar o gabarito manualmente. O Gerador de Classificação de Imagens é sensível ao idioma: as etiquetas de categoria utilizam nomes localizados de imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza o texto na ficha. Um cabeçalho localizado renderiza-se automaticamente com fundo verde-menta (#4DB6AC), contentor pílula branco, título verde-azulado (#00796B) em Fredoka Bold e descrição laranja (#FF7043) em Quicksand. As fichas verticais apresentam um cabeçalho de 100px com título de 28–48px; as fichas horizontais usam um cabeçalho de 70px com título de 24–36px. Uma borda exterior verde-azulada (#26A69A, 8px, raio 12px) emoldura toda a página. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione campos de nome e data para responsabilidade online. Adicione texto personalizado com 7 opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto 0–10. Exporte quatro ficheiros por sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 6 opções de alinhamento mais centrar na página, camadas, bloquear/desbloquear, zoom 25%–300% e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d'água nos downloads. Adquira uma licença para remover a marca d'água e vender com uso comercial.`,
+    description: `Crie fichas de classificação profissionais onde os usuários recortam imagens de uma grelha misturada e classificam-nas em duas categorias — esquerda e direita. Escolha o modo de tema para preencher categorias automaticamente a partir da biblioteca de imagens: selecione um tema para a esquerda e outro para a direita, e a aplicação extrai 4–6 imagens aleatórias por tema. Ou mude para o modo manual para selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita. Cada ficha apresenta duas molduras de categoria com borda tracejada na parte superior com preenchimento #FAFAFA para destinos de classificação e uma grelha de recortes misturada por baixo com células brancas, bordas tracejadas #666, cantos arredondados de 4px e 3–4 colunas conforme o número total de imagens. Cada imagem ocupa 85% da sua célula. Configure de 4 a 12 imagens totais com 2–10 por categoria — menos imagens criam exercícios de classificação mais simples para os mais novos, mais imagens aumentam a dificuldade e a densidade de conteúdo. O sistema de canvas duplo gera simultaneamente um separador de ficha e um separador de gabarito. O gabarito mostra as imagens a 6× o tamanho das células da grelha de recortes, organizadas em caixas de categorias com um máximo de 2 colunas por caixa, preenchimento #FAFAFA, contorno #444 e raio de borda de 12px — sem necessidade de criar o gabarito manualmente. O Gerador de Classificação de Imagens é sensível ao idioma: as etiquetas de categoria utilizam nomes localizados de imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza o texto na ficha. Um cabeçalho localizado renderiza-se automaticamente com fundo verde-menta (#4DB6AC), contentor pílula branco, título verde-azulado (#00796B) em Fredoka Bold e descrição laranja (#FF7043) em Quicksand. As fichas verticais apresentam um cabeçalho de 100px com título de 28–48px; as fichas horizontais usam um cabeçalho de 70px com título de 24–36px. Uma borda exterior verde-azulada (#26A69A, 8px, raio 12px) emoldura toda a página. Explore 104 coleções temáticas com mais de 3100 ilustrações ou carregue as suas próprias imagens PNG, JPG ou GIF. Aplique fundos temáticos e bordas temáticas com controlos de opacidade independentes (0–1, passo 0,05). Adicione campos de nome e data para responsabilidade online. Adicione texto personalizado com 7 opções de fontes (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) e contorno de texto 0–10. Exporte quatro ficheiros por sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Escolha Carta, A4, Quadrado (1200×1200) ou tamanhos personalizados com opção de escala de cinzentos para saída económica em tinta. Edite tudo no canvas de Fabric.js com 6 opções de alinhamento mais centrar na página, camadas, bloquear/desbloquear, zoom 25%–300% e desfazer/refazer 20 estados. O teste grátis inclui todas as funcionalidades com uma marca d`água nos downloads. Adquira uma licença para remover a marca d`água e vender com uso comercial.`,
   },
 
   tutorial: {
-    title: 'Como Criar Fichas de Classificação em 8 Passos',
+    title: `Como Criar Fichas de Classificação em 8 Passos`,
     steps: [
       {
-        title: 'Abra o Gerador de Classificação de Imagens',
+        title: `Abra o Gerador de Classificação de Imagens`,
         description: `Clique em «Testar Grátis» para abrir o gerador de fichas de classificação no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de separador duplo à direita — um separador para a ficha de classificação e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de classificação imediatamente.`,
       },
       {
@@ -44,7 +44,7 @@ const content: ToolContent = {
         description: `Abra o painel de Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique nas imagens para adicioná-las à sua ficha. No modo manual, atribua cada imagem selecionada à categoria esquerda ou direita. Alternativamente, carregue imagens personalizadas PNG, JPG ou GIF para criar fichas de classificação personalizadas com as suas próprias fotos, ilustrações ou conteúdo específico da loja.`,
       },
       {
-        title: 'Configure o Layout de Página e as Decorações',
+        title: `Configure o Layout de Página e as Decorações`,
         description: `Na secção Configuração de Página, selecione o seu tamanho de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou introduza uma dimensão personalizada. Escolha uma cor de fundo de página. Selecione um fundo decorativo temático e uma borda decorativa temática da biblioteca integrada, cada um com um controlo de opacidade independente (0–1, passo 0,05). Os fundos e bordas temáticas funcionam de forma independente, permitindo-lhe combinar um fundo subtil com uma borda decorativa pronunciada. Marque «Incluir Campos de Nome/Data» para adicionar linhas de nome e data para responsabilidade online.`,
       },
       {
@@ -56,7 +56,7 @@ const content: ToolContent = {
         description: `Clique no separador Gabarito para ver a solução autogerada. O gabarito mostra duas caixas de categorias (uma por categoria, largura igual) com as imagens classificadas no seu grupo correto — renderizadas a 6× o tamanho das células da grelha de recortes para verificação clara e fácil. Cada caixa de categoria usa um máximo de 2 colunas com preenchimento #FAFAFA, contorno tracejado #444 e raio de borda de 12px. Alterne entre os separadores de Ficha e Gabarito para comparar. O gabarito é gerado simultaneamente com a ficha — sem passo de criação manual, sem processo de design separado, sem possibilidade de respostas que não coincidam.`,
       },
       {
-        title: 'Descarregue os Quatro Ficheiros',
+        title: `Descarregue os Quatro Ficheiros`,
         description: `Ative a escala de cinzentos para versões económicas em tinta ideais para impressão online e interiores de KDP. Descarregue os quatro ficheiros de uma só sessão: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — tudo renderizado a 300 DPI (multiplicador 6×, qualidade JPEG 1,0). Cada separador tem o seu próprio par de botões de descarga. Os ficheiros estão prontos para produção em listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos do Gumroad sem necessidade de pós-processamento. Mude temas, ajuste o número de imagens ou alterne entre modos de tema e manual para criar rapidamente variedade no seu catálogo de fichas de classificação.`,
       },
     ],
@@ -91,12 +91,12 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Loja Etsy de Fichas de Classificação Temáticas',
+      title: `Loja Etsy de Fichas de Classificação Temáticas`,
       description: `Abra uma loja na Etsy especializada em pacotes de atividades de classificação organizados por emparelhamento de categorias usando as 104 coleções de imagens. Animais vs Alimentos, Terra vs Água, Frutas vs Legumes, Interior vs Exterior e dezenas mais — cada emparelhamento torna-se num listagem separada com 15–20 fichas de classificação e gabaritos incluídos. O seletor de categorias baseado em temas facilita a geração rápida de fichas com agrupamentos esquerda/direita naturais, e o gabarito autogerado com imagens 6× maiores em caixas de categorias elimina o maior estrangulamento da produção. Varie o número de imagens entre fichas (4–12) para dificuldade progressiva dentro de cada pacote. Preço de pacotes individuais por tema entre $3–$5 e pacotes premium multi-tema entre $8–$15.`,
       platform: 'Etsy',
     },
     {
-      title: 'Série de Cadernos de Classificação na Amazon KDP',
+      title: `Série de Cadernos de Classificação na Amazon KDP`,
       description: `Compile 50–80 fichas de classificação em cadernos temáticos de atividades para Amazon KDP. Estruture uma série por tema: «Puzzles de Classificação de Animais», «Atividades de Classificação de Alimentos», «Caderno de Classificação da Natureza» e «Classificação de Objetos do Quotidiano». Cada livro progride de classificações simples de 4 imagens até exercícios exigentes de 12 imagens. Inclua páginas de gabarito no final com imagens 6× maiores organizadas em caixas de categorias para verificação clara. Ative a escala de cinzentos para saída económica em tinta que mantém baixos os custos de impressão do KDP. Os cadernos de classificação servem um público amplo desde a primeira infância até ao ensino básico e vendem-se durante todo o ano na categoria de cadernos de atividades.`,
       platform: 'Amazon KDP',
     },
@@ -124,11 +124,11 @@ const content: ToolContent = {
 
   proTips: [
     {
-      title: 'Use o Modo de Tema para Produção em Massa Rápida',
+      title: `Use o Modo de Tema para Produção em Massa Rápida`,
       description: `O modo de tema seleciona automaticamente 4–6 imagens aleatórias por categoria a partir da biblioteca de imagens. Selecione um tema esquerdo e um tema direito, clique em Gerar e a aplicação produz uma ficha de classificação completa com grelha de recortes misturada e molduras de categoria em segundos. Como a seleção de imagens é aleatória, clicar em Gerar novamente com os mesmos temas cria uma ficha diferente com imagens diferentes. Use isto para preencher pacotes grandes rapidamente — gere 10–15 fichas únicas por emparelhamento de temas, depois multiplique através de dezenas de combinações naturais de categorias para catálogos em massa com esforço mínimo.`,
     },
     {
-      title: 'Use o Modo Manual para Precisão Curricular',
+      title: `Use o Modo Manual para Precisão Curricular`,
       description: `O modo manual permite-lhe selecionar imagens individualmente e atribuir cada uma à categoria esquerda ou direita. Isto é essencial para criar atividades de classificação específicas do catálogo de produtos onde as imagens exatas importam — selecione apenas os animais de um habitat específico, apenas os alimentos de uma unidade de nutrição ou apenas os objetos relevantes para uma lição de ciências. As fichas do modo manual conseguem preços mais altos no Gumroad porque demonstram alinhamento curricular intencional em vez de seleção aleatória de temas.`,
     },
     {
@@ -140,7 +140,7 @@ const content: ToolContent = {
       description: `As etiquetas de categoria nas fichas de classificação utilizam nomes localizados de imagens — ao mudar o idioma da aplicação atualiza-se o texto em cada ficha. Gere um conjunto temático de classificação em português, depois mude para alemão, francês, espanhol ou qualquer um dos 11 idiomas suportados e regenere o mesmo emparelhamento de categorias com etiquetas localizadas. Isto produz produtos de classificação multilingue a partir de imagens idênticas sem esforço de redesenho. Os pacotes de classificação multilingue estão subexplorados na maioria dos mercados, dando-lhe uma vantagem competitiva.`,
     },
     {
-      title: 'Inclua Ficha e Gabarito em Cada Listagem',
+      title: `Inclua Ficha e Gabarito em Cada Listagem`,
       description: `O gabarito autogerado com imagens 6× maiores organizadas em caixas de categorias é o que transforma as suas fichas de classificação num produto completo com autocorreção em vez de apenas uma atividade de classificação. Inclua sempre gabaritos nos seus pacotes de produtos e mostre-os nas imagens de pré-visualização da listagem. Os produtos que incluem gabaritos consistentemente superam em vendas as listagens de apenas fichas porque vendedores e pais querem materiais com autocorreção que não requeiram tempo adicional de preparação. O sistema de canvas duplo gera ambas as versões simultaneamente, pelo que incluir o gabarito não lhe custa nada extra.`,
     },
     {
@@ -156,10 +156,10 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Existe um teste grátis?',
-      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — ambos os modos de seleção (temático e manual), número configurável de imagens de 4 a 12, o gabarito autogerado com imagens 6× maiores em caixas de categorias, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, carregamento de imagens personalizadas, fundos e bordas temáticas com opacidade independente, campos de nome/data, o cabeçalho localizado de Classificação de Imagens em 11 idiomas, opção de escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d'água. Adquira uma licença comercial para remover a marca d'água e desbloquear os direitos de venda.`,
+      answer: `Sim. A ferramenta oferece um teste grátis com todas as funcionalidades — ambos os modos de seleção (temático e manual), número configurável de imagens de 4 a 12, o gabarito autogerado com imagens 6× maiores em caixas de categorias, as 104 coleções temáticas de imagens com mais de 3100 ilustrações, carregamento de imagens personalizadas, fundos e bordas temáticas com opacidade independente, campos de nome/data, o cabeçalho localizado de Classificação de Imagens em 11 idiomas, opção de escala de cinzentos e todos os formatos de descarga. Sem registo, sem cartão de crédito. Os downloads do teste grátis incluem uma marca d`água. Adquira uma licença comercial para remover a marca d`água e desbloquear os direitos de venda.`,
     },
     {
-      question: 'Quais são os dois modos de seleção?',
+      question: `Quais são os dois modos de seleção?`,
       answer: `O gerador oferece modo de tema e modo manual. O modo de tema permite-lhe escolher um tema para a categoria esquerda e outro tema para a categoria direita — a aplicação seleciona automaticamente 4–6 imagens aleatórias por tema a partir da biblioteca de imagens, criando fichas com 8–12 imagens no total. O modo manual dá-lhe controlo total: selecione imagens individualmente de qualquer tema e atribua cada uma à categoria esquerda ou direita. O modo de tema é mais rápido para produção em massa; o modo manual é ideal para criar atividades de classificação específicas e alinhadas com o catálogo de produtos com seleção precisa de imagens.`,
     },
     {
@@ -171,11 +171,11 @@ const content: ToolContent = {
       answer: `Cada ficha admite de 4 a 12 imagens totais, com cada categoria contendo entre 2 e 10 imagens. O modo de tema extrai automaticamente 4–6 imagens por tema, criando 8–12 imagens no total. O modo manual permite-lhe definir quantidades exatas por categoria. A grelha de recortes ajusta a sua disposição de colunas (3–4 colunas conforme o número total) para manter um espaçamento visual limpo. Menos imagens criam exercícios de classificação mais simples para os mais novos; mais imagens aumentam a dificuldade para desafios avançados de classificação.`,
     },
     {
-      question: 'Como funciona a grelha de recortes misturada?',
+      question: `Como funciona a grelha de recortes misturada?`,
       answer: `A grelha de recortes ocupa os 55% inferiores da área de conteúdo e apresenta todas as imagens selecionadas em ordem aleatória. As imagens aparecem em células brancas com bordas tracejadas #666 e cantos arredondados de 4px, dispostas em 3–4 colunas conforme o número total de imagens. Cada imagem ocupa 85% da sua célula. A mistura aleatória garante que os usuários classifiquem ativamente cada imagem em vez de copiar um padrão posicional. Os usuários recortam as imagens pelas linhas tracejadas e classificam-nas na moldura de categoria correta acima.`,
     },
     {
-      question: 'Como funciona o gabarito autogerado?',
+      question: `Como funciona o gabarito autogerado?`,
       answer: `O sistema de canvas duplo gera simultaneamente um separador de ficha e um separador de gabarito. O gabarito mostra duas caixas de categorias (uma por categoria, largura igual) com as imagens classificadas no seu grupo correto — renderizadas a 6× o tamanho das células da grelha de recortes para verificação clara e fácil. Cada caixa de categoria usa um máximo de 2 colunas com preenchimento #FAFAFA, contorno tracejado #444 e raio de borda de 12px. Descarregue cada versão de forma independente — ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF — obtendo quatro ficheiros prontos para produção de uma só geração.`,
     },
     {
@@ -183,7 +183,7 @@ const content: ToolContent = {
       answer: `Sim. As etiquetas de categoria utilizam nomes localizados de imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza o texto na ficha. Por exemplo, uma imagem de gato aparece como «Cat» em inglês mas «Katze» em alemão e «Chat» em francês. O cabeçalho localizado de «Classificação de Imagens» e a sua descrição também se traduzem automaticamente para os 11 idiomas suportados: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Isto facilita a criação de produtos de classificação multilingue a partir das mesmas imagens.`,
     },
     {
-      question: 'Como se apresenta o cabeçalho localizado?',
+      question: `Como se apresenta o cabeçalho localizado?`,
       answer: `Cada ficha gerada inclui um cabeçalho estilizado com fundo verde-menta (#4DB6AC), contentor pílula branco, título verde-azulado (#00796B) em fonte Fredoka Bold e descrição laranja (#FF7043) em fonte Quicksand. As fichas verticais apresentam um cabeçalho de 100px com tamanho de título dinâmico (28–48px); as fichas horizontais usam um cabeçalho compacto de 70px com título de 24–36px. O título «Classificação de Imagens» e a descrição traduzem-se automaticamente para os 11 idiomas suportados. Uma borda exterior verde-azulada (#26A69A, 8px, raio 12px) emoldura toda a página.`,
     },
     {
@@ -199,20 +199,20 @@ const content: ToolContent = {
       answer: `Sim. Com uma licença comercial, tem todos os direitos para vender fichas de classificação como descargas digitais na Etsy, cadernos de atividades impressos na Amazon KDP, recursos para a loja no Gumroad ou através de qualquer outro canal de venda. Os dois modos de seleção, o número configurável de imagens, os gabaritos autogerados com imagens 6× maiores, as etiquetas de categoria sensíveis ao idioma, o carregamento de imagens personalizadas e as 104 coleções temáticas de imagens dão-lhe tudo o necessário para criar produtos profissionais de classificação que competem em categorias de atividades de classificação em todos os principais mercados.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer: `Teste antes de comprar com o nosso teste grátis — todas as funcionalidades estão disponíveis para que possa avaliar completamente a ferramenta antes de comprar. Como o teste grátis lhe dá acesso completo a ambos os modos de seleção, número configurável de imagens de 4 a 12, o gabarito autogerado, os 104 temas, carregamento de imagens personalizadas, fundos e bordas temáticas, campos de nome/data, o cabeçalho localizado em 11 idiomas, exportação em escala de cinzentos e todos os formatos de descarga, não oferecemos reembolsos em compras de licenças. Certifique-se de que a ferramenta se adequa às suas necessidades usando o teste grátis antes de comprar.`,
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'classificacao-imagens-fichas', anchorText: `Fichas de Classificação de Imagens — Detalhes Completos do Produto` },
-    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
-    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: 'Gerador de Puzzle de Quadrícula' },
-    { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
+    { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: `Gerador de Fichas de Associação` },
+    { pageType: 'tool', slug: 'gerador-puzzle-quadricula', anchorText: `Gerador de Puzzle de Quadrícula` },
+    { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: `Gerador de Discriminação Visual` },
     { pageType: 'tool', slug: 'gerador-cartelas-bingo', anchorText: 'Gerador de Cartelas de Bingo' },
     { pageType: 'tool', slug: 'gerador-fichas-intruso', anchorText: 'Gerador de Fichas do Intruso' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: `Gerador de Páginas para Colorir` },
   ],
 
   visuals: {

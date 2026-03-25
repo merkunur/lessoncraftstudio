@@ -6,15 +6,15 @@ const content: IdeaContent = {
     metaDescription: `Idee di stampabili per la prima classe da vendere su Etsy, Amazon KDP e Gumroad. Concetti e strategie per venditori nel mercato della prima elementare online.`,
     primaryKeyword: 'idee stampabili prima classe',
     secondaryKeywords: [
-      'schede prima elementare da vendere',
-      'idee business stampabili prima classe',
-      'schede attività prima elementare per venditori',
-      'vendere stampabili prima classe su Gumroad',
+      `schede prima elementare da vendere`,
+      `idee business stampabili prima classe`,
+      `schede attività prima elementare per venditori`,
+      `vendere stampabili prima classe su Gumroad`,
     ],
     lsiKeywords: [
-      'schede educative scuola primaria primo anno',
-      'stampabili catalogo prodotti prima elementare',
-      'pagine attività apprendimento 6-7 anni',
+      `schede educative scuola primaria primo anno`,
+      `stampabili catalogo prodotti prima elementare`,
+      `pagine attività apprendimento 6-7 anni`,
     ],
   },
   hero: {
@@ -85,7 +85,7 @@ Il panorama competitivo nei stampabili per la prima classe premia i venditori ch
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vendere Stampabili per la Prima Classe su Etsy',
+      title: `Vendere Stampabili per la Prima Classe su Etsy`,
       description: "Etsy cattura il grande e motivato segmento di acquirenti genitori che cerca materiali per la pratica a casa della prima classe con termini ad alta intenzione come \"schede prima elementare,\" \"pratica matematica prima classe,\" \"attività parole a vista prima classe\" e \"comprensione del testo prima classe\" durante l\'intero anno scolastico. Usa tutti i tredici tag con variazioni che combinano obiettivi di competenza specifici, identificatori di livello scolastico e formati di attività per catturare acquirenti motivati che sanno esattamente quale competenza il loro bambino deve praticare. Raggruppa i prodotti per ambito disciplinare per aumentare il valore medio dell\'ordine: un pacchetto di fatti matematici per la prima classe che copre addizione e sottrazione entro il venti, un pacchetto di fluidità nella lettura con parole a vista, ricerche di parole e attività di comprensione, e un pacchetto di abilità di scrittura con costruzione di frasi ed esercizi di vocabolario servono ciascuno esigenze distinte dei genitori incoraggiando acquisti multipli dallo stesso negozio. La stagione del rientro a scuola in agosto e settembre crea il più grande picco di domanda, ma i picchi di acquisto di metà anno a gennaio e febbraio quando i genitori ricevono le pagelle del primo semestre che mostrano specifiche lacune di competenza creano un\'ondata secondaria di acquisti di materiali di pratica mirati che i venditori con titoli di prodotto specifici per competenza catturano efficacemente.",
     },
     {
@@ -95,7 +95,7 @@ Il panorama competitivo nei stampabili per la prima classe premia i venditori ch
     },
     {
       platform: 'Gumroad',
-      title: 'Creare Risorse per il negozio di Prima su Gumroad',
+      title: `Creare Risorse per il negozio di Prima su Gumroad`,
       description: "Gumroad è il marketplace più critico per i venditori di stampabili per la prima classe perché i venditori di prima qualità sono tra le demografiche che spendono di più sulla piattaforma, acquistando materiali supplementari in modo esteso a causa del drammatico aumento delle aspettative accademiche dalla scuola materna e dell\'ampia gamma di livelli di prontezza degli utenti che richiede un\'pacchetti scalati per livello in ogni area di competenza. I stampabili per la prima classe su Gumroad funzionano meglio quando confezionati come soluzioni didattiche pronte per il negozio: pacchetti di lavoro mattutino con pratica giornaliera differenziata di matematica e alfabetizzazione, rotazioni per centri di matematica che coprono fatti di addizione, fatti di sottrazione, valore posizionale e misurazione, attività per stazioni di alfabetizzazione mirate a parole a vista, schemi fonetici, comprensione del testo e convenzioni di scrittura, pacchetti settimanali per i compiti allineati alle guide di programmazione del Common Core, e materiali trimestrali di preparazione alle valutazioni che i venditori possono usare per il monitoraggio dei progressi e la documentazione delle pagelle. Includi obiettivi di apprendimento, codici di allineamento agli standard Common Core, chiavi di risposta e suggerimenti per la differenziazione per utenti sotto il livello, al livello e sopra il livello così i venditori possano giustificare gli acquisti con i dirigenti e dimostrare il rigore didattico nella loro documentazione di programmazione. La funzione di raggruppamento di Gumroad ti permette di offrire prodotti individuali per competenza insieme a mega-pacchetti scontati per la prima classe che coprono interi trimestri o semestri.",
     },
     {
@@ -139,18 +139,18 @@ Il panorama competitivo nei stampabili per la prima classe premia i venditori ch
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'creare-linea-prodotti-stampabili',
-      anchorText: 'Come Creare una Linea di Prodotti Stampabili',
+      slug: `creare-linea-prodotti-stampabili`,
+      anchorText: `Come Creare una Linea di Prodotti Stampabili`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-materiale-didattico',
-      anchorText: 'SEO Etsy per Stampabili Educativi',
+      anchorText: `SEO Etsy per Stampabili Educativi`,
     },
     {
       pageType: 'guide',
-      slug: 'creare-pacchetti-schede-esercizi',
-      anchorText: 'Come Creare Pacchetti di Schede che Vendono',
+      slug: `creare-pacchetti-schede-esercizi`,
+      anchorText: `Come Creare Pacchetti di Schede che Vendono`,
     },
     {
       pageType: 'guide',
@@ -159,33 +159,33 @@ Il panorama competitivo nei stampabili per la prima classe premia i venditori ch
     },
     {
       pageType: 'guide',
-      slug: 'marketing-stagionale-stampabili',
+      slug: `marketing-stagionale-stampabili`,
       anchorText: `Calendario di Marketing Stagionale per Venditori di Stampabili`,
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
+      slug: `guida-completa-attivita-stampabili`,
       anchorText: "Guida Completa per Avviare un\'Attività di Stampabili",
     },
     {
       pageType: 'start',
       slug: 'guida-licenza-commerciale',
-      anchorText: 'Guida alla Licenza Commerciale',
+      anchorText: `Guida alla Licenza Commerciale`,
     },
     {
       pageType: 'idea',
-      slug: 'scuola-infanzia-idee-stampabili',
+      slug: `scuola-infanzia-idee-stampabili`,
       anchorText: `Idee di Business con Stampabili per la Scuola Materna`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Zaino — immagine educativa tematica', caption: 'Zaino' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Raccoglitore — immagine educativa tematica', caption: 'Raccoglitore' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — immagine educativa tematica', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armadio — immagine educativa tematica', caption: 'Armadio' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calcolatrice — immagine educativa tematica', caption: 'Calcolatrice' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — immagine educativa tematica', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Zaino — immagine educativa tematica`, caption: 'Zaino' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Raccoglitore — immagine educativa tematica`, caption: 'Raccoglitore' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — immagine educativa tematica`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armadio — immagine educativa tematica`, caption: 'Armadio' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calcolatrice — immagine educativa tematica`, caption: 'Calcolatrice' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — immagine educativa tematica`, caption: 'Calendario' },
   ],
 
 

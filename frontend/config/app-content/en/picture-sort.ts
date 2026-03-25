@@ -4,14 +4,14 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'picture sort generator',
     secondaryKeywords: [
-      'printable sorting activity maker for Etsy sellers',
+      `printable sorting activity maker for Etsy sellers`,
       `two-category sorting worksheet generator for KDP publishers`,
       `picture classification worksheet creator commercial license`,
-      'sell sorting worksheets on Gumroad',
+      `sell sorting worksheets on Gumroad`,
     ],
     lsiKeywords: [
-      'digital sorting printables online business',
-      'commercial use classification worksheet generator',
+      `digital sorting printables online business`,
+      `commercial use classification worksheet generator`,
       `printable category sorting activity business tools`,
     ],
     titleTag: `Picture Sort Generator | Create Sorting Worksheets`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Picture Sort Worksheets in 5 Steps',
+    title: `How to Create Picture Sort Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -34,22 +34,22 @@ const content: AppContent = {
           `Open the Page Setup panel and choose a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Pick a page color using the color picker as a fallback background. Select a background theme and adjust its opacity (0–1 in 0.05 steps), then choose a border theme with its own independent opacity control. Check "Include Name/Date Fields" to add name and date lines. These layout choices frame your sorting worksheet before you configure any content.`,
       },
       {
-        title: 'Choose Your Sorting Categories',
+        title: `Choose Your Sorting Categories`,
         description:
           `Open the Sorting Categories panel and select two themes — one for the left category and one for the right category. The app auto-generates 4–6 random images per theme from the image library. For example, choose Animals on the left and Food on the right to create a sorting worksheet where users classify pictures into the correct group. Alternatively, switch to manual mode to hand-select individual images and assign each one to the left or right category.`,
       },
       {
-        title: 'Select Images from the Library or Upload Your Own',
+        title: `Select Images from the Library or Upload Your Own`,
         description:
           `Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, and dozens more. Filter by theme using the dropdown or search by keyword. Click images to add them to your worksheet and assign each to the left or right category. The total image count ranges from 4 to 12, with 2–10 images per category. You can also upload custom PNG, JPG, or GIF images to use alongside library content.`,
       },
       {
-        title: 'Generate the Sorting Worksheet',
+        title: `Generate the Sorting Worksheet`,
         description:
           `Click Generate to create the two-part sorting layout. The app arranges your content into category frames at the top (two side-by-side dashed-border frames with #FAFAFA fill) and a shuffled cutout grid below (white cells with dashed #666 borders). A styled "Picture Sort" header appears at the top with a mint green background (#4DB6AC), teal title (#00796B) in Fredoka font, and orange description (#FF7043) in Quicksand font. A teal outer border (#26A69A, 8px stroke) frames the entire page. The cutout grid displays all images in random order — users cut them out and sort into the correct category frame.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see the auto-generated solution with 6× larger images organized into their correct category boxes, displayed in a maximum of 2 columns per box. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF. Files export at 300 DPI with JPEG quality 1.0. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -85,7 +85,7 @@ const content: AppContent = {
           `Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides a coordinated set of colorful illustrations that work as sorting categories. Filter by theme using the dropdown or search for specific images by keyword. The theme-based category selection makes it easy to create sorting worksheets with natural category pairings — land animals vs sea animals, healthy food vs junk food, summer items vs winter items. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes for maximum creative variety.`,
       },
       {
-        title: 'Name and Date Fields for a Polished Layout',
+        title: `Name and Date Fields for a Polished Layout`,
         description:
           `Check the "Include Name/Date Fields" checkbox in the Page Setup panel to add name and date lines to the sorting worksheet. These fields give worksheets a polished, complete look and make your products more appealing to buyers on Etsy and Gumroad. The name/date option adds perceived value without any extra design work on your part.`,
       },
@@ -103,44 +103,44 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Sort Worksheets Online',
+    title: `How to Sell Picture Sort Worksheets Online`,
     cases: [
       {
-        title: 'Themed Sorting Worksheet Bundles on Etsy',
+        title: `Themed Sorting Worksheet Bundles on Etsy`,
         description:
           `Create themed sorting activity packs using natural category pairings from the 104 image collections — animals vs food, land vs water, fruits vs vegetables, indoor vs outdoor, and dozens more. Each theme pairing produces multiple unique sorting worksheets by varying image selections and counts. Package 10–20 sorting worksheets per bundle with answer keys included, and sell at $3–$7 per pack. The theme-based category selector makes it fast to generate worksheets with distinct left/right groupings, and the auto-generated answer key eliminates the biggest production bottleneck.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Classification Workbooks on Amazon KDP',
+        title: `Classification Workbooks on Amazon KDP`,
         description:
           `Compile 40–80 sorting worksheets into a printed workbook formatted for Amazon KDP. Structure by difficulty: early chapters use 4–6 images with obvious category differences (animals vs vehicles), middle chapters use 8–10 images with subtler distinctions (farm animals vs wild animals), and advanced chapters use 12 images with challenging categories. Include answer keys at the back of the book using the auto-generated answer key feature. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors. Sorting workbooks serve a broad audience from early childhood through elementary school.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Niche Sorting Activity Store on Gumroad',
+        title: `Niche Sorting Activity Store on Gumroad`,
         description:
           `Build ready-to-use sorting worksheets with name/date fields and printed answer keys, and sell them through your own Gumroad store. The name field gives each worksheet a polished look, the category frames provide clear sorting destinations, and the auto-generated answer key adds perceived value to every listing. Create themed sets: living vs nonliving, healthy vs unhealthy food, day vs night animals, hot vs cold weather clothing. Each set includes worksheets and answer keys in both PDF and JPEG formats.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal and Holiday Sorting Collections',
+        title: `Seasonal and Holiday Sorting Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create seasonal sorting worksheets where users classify holiday items into categories: Christmas decorations vs Christmas food, Halloween costumes vs Halloween treats, summer activities vs winter activities. Release Halloween sorting bundles in September, Christmas collections in October, and Valentine's Day packs in January. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine`s Day, back-to-school, summer vacation, and more. Create seasonal sorting worksheets where users classify holiday items into categories: Christmas decorations vs Christmas food, Halloween costumes vs Halloween treats, summer activities vs winter activities. Release Halloween sorting bundles in September, Christmas collections in October, and Valentine`s Day packs in January. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
         title: `Multilingual Sorting Worksheets for ESL and Bilingual Markets`,
         description:
           `Leverage the language-sensitive category labels to create sorting worksheets in 11 languages. The same images produce different category labels when you switch languages — image names and the "Picture Sort" header all update automatically. Create multilingual sorting bundles where each language version uses the same themed images but localized text. This is particularly valuable for international markets and bilingual product lines. Sell language-specific bundles or multilingual mega-packs at premium prices on Etsy and Gumroad.`,
-        platform: 'Etsy / Gumroad (multilingual market)',
+        platform: `Etsy / Gumroad (multilingual market)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'How does the two-category sorting mechanic work?',
+      question: `How does the two-category sorting mechanic work?`,
       answer:
         `Each sorting worksheet has exactly two categories — left and right. The worksheet displays two dashed-border category frames at the top where users sort their images, and a shuffled cutout grid below with all images mixed together. Users cut out the images from the grid and place each one into the correct category frame. The two-category format creates a clear binary classification task that works for any subject — animals vs food, land vs water, living vs nonliving, and thousands of other pairings.`,
     },
@@ -155,22 +155,22 @@ const content: AppContent = {
         `Each worksheet supports 4 to 12 total images, with each category holding between 2 and 10 images. Theme mode automatically pulls 4–6 images per theme. Manual mode lets you set exact counts per category. The cutout grid adjusts its column layout (3–4 columns based on count) to maintain clean visual spacing. Fewer images create simpler sorting tasks; more images increase difficulty.`,
     },
     {
-      question: 'How does the shuffled cutout grid work?',
+      question: `How does the shuffled cutout grid work?`,
       answer:
         `The cutout grid occupies the bottom 55% of the content area and displays all selected images in randomized order. Images appear in white cells with dashed #666 borders and 4px rounded corners, arranged in 3–4 columns based on the total image count. Each image fills 85% of its cell. Users cut out the images along the dashed lines and sort them into the correct category frame above. The shuffling ensures they must actually classify each image rather than copy a pattern.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key displays two category boxes (one per category, equal width) with images sorted into their correct group. Answer key images are rendered at 6× the size of the cutout grid cells for clear verification, with a maximum of 2 columns per category box. Each box uses #FAFAFA fill with #444 dashed stroke and 12px border radius. Both versions export separately using four dedicated download buttons.`,
     },
     {
-      question: 'How does the localized header work?',
+      question: `How does the localized header work?`,
       answer:
         `Every generated worksheet includes a styled "Picture Sort" header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold font, and orange description (#FF7043) in Quicksand font. Portrait worksheets display a 100px header; landscape worksheets use a compact 70px header. The title and description are automatically translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.`,
     },
     {
-      question: 'Is the Picture Sort Generator language-sensitive?',
+      question: `Is the Picture Sort Generator language-sensitive?`,
       answer:
         `Yes. Category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. For example, a cat image appears as "Cat" in English but "Katze" in German and "Chat" in French. The localized "Picture Sort" header also changes with the selected language. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized category labels.`,
     },
@@ -210,22 +210,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'grid-match-worksheets',
-      anchorText: 'Grid Match Worksheet Generator',
+      anchorText: `Grid Match Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
+      anchorText: `Shadow Match Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
+      anchorText: `Picture Bingo Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'find-and-count-worksheets',
-      anchorText: 'Find and Count Worksheet Generator',
+      anchorText: `Find and Count Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -240,28 +240,28 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'create-sorting-worksheets',
-      anchorText: 'How to Create Sorting Worksheets That Sell',
+      anchorText: `How to Create Sorting Worksheets That Sell`,
     },
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+      anchorText: `Camping Printable Ideas for Outdoor Learning`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+      anchorText: `Ocean Animals Printable Ideas for Marine Themes`,
     },
     {
       pageType: 'start',
       slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: `Marketing Your Printable Business`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture sort/Picture Sort.webp',
+      primary: `/samples/english/picture sort/Picture Sort.webp`,
       primaryAlt: `Two-category picture sorting worksheet with themed category frames, shuffled cutout grid, and localized Picture Sort header`,
     },
     sampleGallery: [

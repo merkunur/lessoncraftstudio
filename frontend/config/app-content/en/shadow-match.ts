@@ -6,13 +6,13 @@ const content: AppContent = {
     secondaryKeywords: [
       `printable silhouette matching activity maker for Etsy sellers`,
       `picture shadow puzzle worksheet generator for KDP publishers`,
-      'shadow match worksheet creator commercial license',
-      'sell shadow matching worksheets on Gumroad',
+      `shadow match worksheet creator commercial license`,
+      `sell shadow matching worksheets on Gumroad`,
     ],
     lsiKeywords: [
       `digital silhouette matching printables online business`,
-      'commercial use shadow puzzle worksheet generator',
-      'printable visual matching activity business tools',
+      `commercial use shadow puzzle worksheet generator`,
+      `printable visual matching activity business tools`,
     ],
     titleTag: `Shadow Match Generator | Create Silhouette Puzzles`,
     metaDescription: `Create shadow matching worksheets to sell on Etsy, KDP & Gumroad. Shadow match and make-it-whole modes, auto silhouettes, 104 themes.`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Shadow Match Worksheets in 5 Steps',
+    title: `How to Create Shadow Match Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -34,22 +34,22 @@ const content: AppContent = {
           `Open the Page Setup panel and choose a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Pick a page color using the color picker as a fallback background. Select a background theme and adjust its opacity (0–1 in 0.05 steps), then choose a border theme with its own independent opacity control. These layout choices frame your shadow matching worksheet before you configure any content.`,
       },
       {
-        title: 'Choose Exercise Mode and Configure Options',
+        title: `Choose Exercise Mode and Configure Options`,
         description:
           `Open the Exercise Configuration panel and select your mode: Shadow Match or Make It Whole. Shadow Match generates black silhouettes from your selected images using pixel-level processing. Make It Whole splits images into halves — choose horizontal (top/bottom) or vertical (left/right) cut direction using the radio buttons that appear in this mode. Toggle the "Show Labels" checkbox (default ON) to display A/B/C/D and 1/2/3/4 identifiers on the worksheet. Toggle "Include Name/Date Fields" to add name and date lines.`,
       },
       {
-        title: 'Select 4 Images from the Library',
+        title: `Select 4 Images from the Library`,
         description:
           `Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, and dozens more. Filter by theme using the dropdown or search by keyword with 300ms debounce. Click images to select them — the counter shows your progress toward the required 4 images. A selected images preview confirms your choices before generating. You can also upload custom PNG, JPG, or GIF images using the Upload Custom Images panel.`,
       },
       {
-        title: 'Generate the Shadow Match Worksheet',
+        title: `Generate the Shadow Match Worksheet`,
         description:
           `Click Generate to create the matching worksheet. In Shadow Match mode, the app processes each image at the pixel level — loading it to a canvas, extracting pixel data via getImageData, and converting every pixel with alpha > 10 to pure black (R=0, G=0, B=0, A=255) to produce accurate silhouettes. In Make It Whole mode, images are split along the chosen cut direction. Both modes apply Fisher-Yates derangement to guarantee no item appears in its original position. A styled header appears with an amber background (#FFC107), white pill container, and 3px amber border displaying "Shadow Match" and instructions in the selected language.`,
       },
       {
-        title: 'Generate the Answer Key and Download',
+        title: `Generate the Answer Key and Download`,
         description:
           `Switch to the Answer Key tab to see the auto-generated answer key. In Shadow Match mode, each cell shows the original image alongside its silhouette with a label like "A → 2" indicating the correct match. In Make It Whole mode, each cell shows the complete original image with its match label. Download both versions using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -70,7 +70,7 @@ const content: AppContent = {
           `One generator delivers two distinct visual matching activities. Shadow Match mode places 4 colored images in the top row and 4 auto-generated silhouettes in the bottom row — solvers identify each image by its outline shape alone. Make It Whole mode splits 4 images into halves and presents first halves and second halves separately — solvers reconnect the pieces to complete each picture. In Make It Whole mode, choose horizontal cut direction (top/bottom halves) or vertical cut direction (left/right halves). The layout adapts automatically: landscape pages use 2 rows × 4 items, portrait pages use 2 columns × 4 items.`,
       },
       {
-        title: 'Derangement Algorithm Ensuring No Trivial Matches',
+        title: `Derangement Algorithm Ensuring No Trivial Matches`,
         description:
           `Both exercise modes use a Fisher-Yates derangement algorithm that guarantees no item appears in its original position. In Shadow Match mode, no silhouette sits directly below its matching image. In Make It Whole mode, no second half appears adjacent to its matching first half. This eliminates the possibility of guessing correctly by position alone and ensures every worksheet presents a genuine matching challenge. The derangement recalculates on every generation, producing different arrangements from the same image set.`,
       },
@@ -85,7 +85,7 @@ const content: AppContent = {
           `Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides colorful illustrations that produce distinctive silhouettes with recognizable outlines — animal shapes, vehicle profiles, and object contours that challenge visual perception. Filter by theme using the dropdown or search for specific images by keyword. The Commercial tier includes 10 colorful themes for getting started; Full Access unlocks all 104 themes for maximum creative variety across both exercise modes.`,
       },
       {
-        title: 'Optional Labels and Name/Date Fields',
+        title: `Optional Labels and Name/Date Fields`,
         description:
           `Toggle the "Show Labels" checkbox (default ON) to display A, B, C, D identifiers on images or first halves and 1, 2, 3, 4 identifiers on silhouettes or second halves. When labels are hidden, the worksheet becomes a pure visual matching challenge without letter-number scaffolding — ideal for advanced activities or puzzle books where written answers aren't needed. The "Include Name/Date Fields" checkbox adds name and date lines at the bottom of the page for a polished, professional layout.`,
       },
@@ -103,37 +103,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Shadow Match Worksheets Online',
+    title: `How to Sell Shadow Match Worksheets Online`,
     cases: [
       {
-        title: 'Themed Shadow Matching Bundles on Etsy',
+        title: `Themed Shadow Matching Bundles on Etsy`,
         description:
           `Create themed shadow matching packs using the 104 image collections — animal shadow puzzles, vehicle silhouette matching, food shadow challenges, and dozens more. Each theme provides illustrations with distinctive outlines that make engaging silhouette activities. Package 15–20 shadow match worksheets per theme with answer keys included, and sell at $3–$7 per bundle. Mix both modes within a single bundle: Shadow Match worksheets for silhouette recognition and Make It Whole worksheets for spatial reasoning. The auto-generated silhouettes and answer keys eliminate the most time-consuming parts of production.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Visual Perception Workbooks on Amazon KDP',
+        title: `Visual Perception Workbooks on Amazon KDP`,
         description:
           `Compile 50–80 shadow matching worksheets into a printed workbook formatted for Amazon KDP. Structure your book with alternating chapters: Shadow Match chapters build silhouette recognition skills while Make It Whole chapters develop spatial awareness and part-to-whole reasoning. Include both horizontal and vertical cut directions in the Make It Whole sections for variety. Place answer keys at the back of the book using the auto-generated answer key feature. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors. Visual perception puzzle books perform well year-round in the activity book category.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Niche Shadow Matching Store on Gumroad',
+        title: `Niche Shadow Matching Store on Gumroad`,
         description:
           `Build a focused shadow matching product line with name/date fields and printed answer keys included. Buyers searching for visual discrimination activities value worksheets that arrive print-ready. Create niche-specific sets: animal shadow matching, community helper silhouettes, food shadow puzzles, and seasonal collections. The labels toggle lets you create tiered bundles — labeled versions (with A/B/C/D and 1/2/3/4) for the beginner-level market and label-free versions for advanced puzzle books.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal Shadow Matching Collections',
+        title: `Seasonal Shadow Matching Collections`,
         description:
           `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Silhouette activities have special appeal during Halloween when shadow and mystery themes are naturally popular. Create time-limited shadow matching collections that align with peak shopping periods. Include both Shadow Match and Make It Whole worksheets in each seasonal set for maximum value and variety. Seasonal products command higher prices during their peak windows.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
-        title: 'Mixed-Mode Puzzle Packs as Premium Bundles',
+        title: `Mixed-Mode Puzzle Packs as Premium Bundles`,
         description:
           `Combine both exercise modes into premium mixed-mode puzzle packs that showcase the generator's versatility. Each pack includes Shadow Match worksheets (silhouette recognition), Make It Whole worksheets with horizontal cuts (top/bottom reassembly), and Make It Whole worksheets with vertical cuts (left/right reassembly) — three distinct activity types from one themed image set. This three-in-one approach justifies premium pricing at $7–$12 per bundle. Answer keys for every worksheet are included automatically, adding professional polish that commands higher perceived value.`,
-        platform: 'Etsy / Amazon KDP (premium bundles)',
+        platform: `Etsy / Amazon KDP (premium bundles)`,
       },
     ],
   },
@@ -145,7 +145,7 @@ const content: AppContent = {
         `The generator offers two distinct modes. Shadow Match mode places 4 colored images in the top row and 4 auto-generated black silhouettes in the bottom row — solvers match each image to its shadow by pairing letters (A–D) with numbers (1–4). Make It Whole mode splits 4 images into halves and presents first halves (A–D) and second halves (1–4) separately — solvers match halves to complete each picture. Shadow Match tests silhouette recognition while Make It Whole develops spatial awareness and part-to-whole reasoning.`,
     },
     {
-      question: 'How are the silhouettes generated?',
+      question: `How are the silhouettes generated?`,
       answer:
         `Silhouettes are created through real pixel-level image processing, not CSS filters or pre-made shadow assets. The app loads each image onto a canvas, extracts every pixel using getImageData, and converts all pixels with an alpha value greater than 10 to pure black (R=0, G=0, B=0, A=255). This preserves the exact transparency profile of each source image, producing accurate black silhouettes that reflect fine details like ears, tails, handles, and other distinctive outlines.`,
     },
@@ -155,7 +155,7 @@ const content: AppContent = {
         `Make It Whole mode offers two cut direction options via radio buttons: Horizontal cuts split images into top and bottom halves, while Vertical cuts split images into left and right halves. The cut direction applies to all 4 images on the worksheet. The layout adapts automatically based on page orientation — landscape pages arrange items in 2 rows × 4 items, while portrait pages use 2 columns × 4 items for optimal visual balance.`,
     },
     {
-      question: 'How does the derangement algorithm work?',
+      question: `How does the derangement algorithm work?`,
       answer:
         `Both modes use a Fisher-Yates derangement algorithm that guarantees no item appears in its original position. In Shadow Match mode, no silhouette sits directly below its matching image. In Make It Whole mode, no second half appears adjacent to its matching first half. This ensures every worksheet presents a genuine matching challenge — solvers cannot guess correctly based on position alone. The derangement recalculates on every generation, producing different arrangements from the same images.`,
     },
@@ -170,12 +170,12 @@ const content: AppContent = {
         `The worksheet uses a fixed count of 4 matching problems (SELECT_COUNT = 4). This is not configurable. Four items provide the optimal balance for shadow and split-image matching: enough variety to create a genuine matching challenge with derangement, while keeping each image large enough to study fine details in silhouettes and split halves. The consistent 4-item format also works well for bundled products where every page has predictable content density.`,
     },
     {
-      question: 'How do the name and date fields work?',
+      question: `How do the name and date fields work?`,
       answer:
         `Toggle the "Include Name/Date Fields" checkbox in the Exercise Configuration panel to add name and date lines at the bottom of the worksheet. When enabled, the solver can write their name and the date directly on the printed page — adds perceived value and a polished look to your product. When disabled, the worksheet uses the full page area for matching content. This option works with both Shadow Match and Make It Whole modes.`,
     },
     {
-      question: 'How does the auto-generated answer key work?',
+      question: `How does the auto-generated answer key work?`,
       answer:
         `The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. In Shadow Match mode, the answer key shows a grid where each cell displays the original image alongside its silhouette with a label like "A → 2". In Make It Whole mode, each cell shows the complete original image with its match label. The grid uses 4 columns with consistent spacing. Both versions export separately using four dedicated download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.`,
     },
@@ -215,12 +215,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'picture-bingo-worksheets',
-      anchorText: 'Picture Bingo Worksheet Generator',
+      anchorText: `Picture Bingo Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
+      anchorText: `Picture Sort Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -230,7 +230,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
+      anchorText: `Find Objects Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -240,22 +240,22 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Sellers',
+      anchorText: `Preschool Printable Ideas for Sellers`,
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Sellers',
+      anchorText: `Kindergarten Printable Ideas for Sellers`,
     },
     {
       pageType: 'start',
       slug: 'printable-business-blueprint',
-      anchorText: 'Your Printable Business Blueprint',
+      anchorText: `Your Printable Business Blueprint`,
     },
     {
       pageType: 'guide',
-      slug: 'create-shadow-matching-worksheets',
-      anchorText: 'How to Create Shadow Matching Worksheets',
+      slug: `create-shadow-matching-worksheets`,
+      anchorText: `How to Create Shadow Matching Worksheets`,
     },
   ],
 

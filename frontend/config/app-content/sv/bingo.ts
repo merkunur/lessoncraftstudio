@@ -4,15 +4,15 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'bingokort generator',
     secondaryKeywords: [
-      'utskrivbar bingokort skapare för Etsy-säljare',
+      `utskrivbar bingokort skapare för Etsy-säljare`,
       `bildbingo arbetsblad generator för KDP-publicerare`,
-      'bingokort skapare kommersiell licens',
-      'sälja utskrivbara bingokort på Gumroad',
+      `bingokort skapare kommersiell licens`,
+      `sälja utskrivbara bingokort på Gumroad`,
     ],
     lsiKeywords: [
       `digitala bingo utskriftsbara produkter onlineföretag`,
-      'kommersiellt bruk bingokort generator',
-      'utskrivbar bildbingo affärsverktyg',
+      `kommersiellt bruk bingokort generator`,
+      `utskrivbar bildbingo affärsverktyg`,
     ],
     titleTag: `Bingokort Generator | Skapa och Sälj Bingo Utskriftsbara`,
     metaDescription:
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Bildbingokort i 5 Steg',
+    title: `Hur du Skapar Bildbingokort i 5 Steg`,
     steps: [
       {
         title: 'Ställ in sidlayouten',
@@ -35,7 +35,7 @@ const content: AppContent = {
           `Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Dessa layoutval ramar in ditt bingokort innan du konfigurerar något innehåll.`,
       },
       {
-        title: 'Konfigurera bingokortsinställningar',
+        title: `Konfigurera bingokortsinställningar`,
         description:
           `Öppna panelen Bingokortsinställningar och ställ in rader (3–5) och kolumner (3–5) för att definiera din rutnätsstorlek — standard är 4×4 med 16 celler. Ställ in antal kort från 1 till 10 för att batch-generera flera unika bingokort. Välj kortcellfyllning (Bild eller Ord) och brickfyllning (Bild eller Ord) oberoende — blanda bildkort med ordbrickor, ordkort med bildbrickor, eller matcha båda. Aktivera kryssrutan «Använd anpassat urval» för att handplocka specifika bilder för upprop istället för att använda automatiskt urval.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Klicka på Generera för att skapa dina bingokort. Appen fyller ditt konfigurerade rutnät med bilder eller ord från det valda temat, och skapar sedan cirkulära brickor med streckade kanter under kortet — brickorna blandas med Fisher-Yates-ordning så de aldrig matchar kortlayouten direkt. Om du begärde flera kort drar vart och ett ett annorlunda slumpmässigt urval från bildpoolen, vilket garanterar att varje kort i batchen är unikt. Det första kortet visas på arbetsytan omedelbart; alla kort inkluderas i batch-ZIP-exporten.`,
       },
       {
-        title: 'Ladda ner kort och uppropslista',
+        title: `Ladda ner kort och uppropslista`,
         description:
           `Växla mellan flikarna Kort + Brickor och Upprop för att förhandsgranska båda utmatningarna. Uppropslistan visar ett dynamiskt ordrutnät med enhetlig teckenstorlek och kolumner beräknade baserat på längsta ordlängden. Ladda ner enskilda kort som JPEG eller PDF med de dedikerade knapparna, eller batch-exportera alla genererade kort som individuella JPEG-bilder i en enda bingo_cards.zip-fil. Växla gråskala för bläckvänliga versioner. Varje export renderas med 300 DPI och är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.`,
       },
@@ -58,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nyckelfunktioner i Bildbingo Kort Generatorn',
+    title: `Nyckelfunktioner i Bildbingo Kort Generatorn`,
     features: [
       {
         title: `Konfigurerbart bingorutnät från 3×3 till 5×5 med oberoende rad- och kolumnkontroller`,
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Bildbingokort Online',
+    title: `Hur du Säljer Bildbingokort Online`,
     cases: [
       {
-        title: 'Tematiska bingokortpaket på Etsy',
+        title: `Tematiska bingokortpaket på Etsy`,
         description:
           `Skapa tematiska bingokortpaket med de 104 bildsamlingarna — djurbingo, matbingo, fordonsbingo, högtidsbingo och dussintals fler. Varje tema ger tillräckligt med illustrationer för unika kort över olika rutnätsstorlekar. Paketera 10–30 unika bingokort per tema med uppropslistor inkluderade, och sälj till 30–80 SEK per paket. Använd batch-genereringsfunktionen för att skapa 10 unika kort per set på sekunder, blanda sedan rutnätsstorlekar inom ett enda paket: 3×3 snabbspelskort, 4×4 standardkort och 5×5 förlängt spel-kort för variation. ZIP batch-exporten effektiviserar produktionen för högvolymssäljare.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Bingoaktivitetsböcker på Amazon KDP',
+        title: `Bingoaktivitetsböcker på Amazon KDP`,
         description:
           `Sammanställ 40–80 bingokort till en tryckt aktivitetsbok formaterad för Amazon KDP. Strukturera din bok efter temakapitel: djur, mat, fordon, högtider och fler. Inkludera uppropslistor efter varje uppsättning kort så att boken är självständig för spel. Använd gråskaleväxlingen för bläckvänliga interiörer som håller utskriftskostnaderna låga. Blanda rutnätsstorlekar för att erbjuda progressiv svårighetsgrad — börja med 3×3-kort för snabba omgångar och avancera till 5×5 för längre spel. Bingoaktivitetsböcker presterar bra året runt och toppar under högtidssäsonger när familjer söker gruppaktiviteter.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'produktlinjesbingo-aktiviteter för Gumroad',
+        title: `produktlinjesbingo-aktiviteter för Gumroad`,
         description:
           `Bygg spelfärdiga bingoset med unika spelarkort och spelledarblad. köpare som söker på Gumroad efter bingoaktiviteter värdesätter produkter som anländer produktlinjesfärdiga — skriv ut korten, dela ut dem och börja spela omedelbart. Skapa produktkatalogsanpassade set: vokabulärbingo med ordfyllningsläge, bildigenkänningsbingo med bildfyllning och blandat läge-bingo för nivågrupperade produktpaket. Inkludera 10 unika kort per set (tillräckligt för smågrupper) med en uppropslista. Ordfyllningsläget med lokaliserade bildnamn förvandlar bingo till en vokabulärrepetitionsaktivitet.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Säsongsbetonade och högtidsbingokort-samlingar',
+        title: `Säsongsbetonade och högtidsbingokort-samlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — jul, halloween, påsk, alla hjärtans dag, skolstart, sommarlov och fler. Bingo är ett naturligt socialt spel som toppar under högtider när familjer och produktlinje söker gruppaktiviteter. Släpp halloweenbingoset i september, julsamlingar i oktober och alla hjärtans dag-paket i januari. Varje säsongsset inkluderar flera rutnätsstorlekar, både bild- och ordfyllningsvarianter och uppropslistor. Säsongsbetonade bingoprodukter motiverar premiumpriser under sina toppfönster.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
       {
         title: `Eventbingokort för festspel och speciella tillfällen`,
         description:
           `Skapa bingokortset för fester, babyshowers, möhippor, teambuilding-event och utbildningsworkshops. De konfigurerbara rutnätsstorlekarna och det tematiska bildbiblioteket gör det enkelt att producera tillfällesspecifika bingospel — babysakerbingo för babyshowers, matbingo för matlagningskurser, djurbingo för djurparksutflykter. Batch-generera 10 unika kort per eventset med en uppropslista, paketera som ett direktnedladdningsbart PDF-paket och sälj på Etsy där eventplanerare aktivt söker efter utskrivbara festspel. Den anpassade uppropsvalsfunktionen låter dig kurera exakt vilka objekt som visas i spelet.`,
-        platform: 'Etsy (etsy.com / eventplanerare)',
+        platform: `Etsy (etsy.com / eventplanerare)`,
       },
     ],
   },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `Ställ in antal kort från 1 till 10 i panelen Bingokortsinställningar. Varje kort drar ett annorlunda slumpmässigt urval från bildpoolen, vilket garanterar att varje kort i batchen är unikt — väsentligt för bingo där varje spelare behöver ett annat kort. Det första kortet visas på arbetsytan omedelbart för förhandsgranskning. Alla genererade kort finns tillgängliga genom ZIP batch-exporten för nedladdning som individuella JPEG-filer.`,
     },
     {
-      question: 'Hur fungerar ZIP batch-exporten?',
+      question: `Hur fungerar ZIP batch-exporten?`,
       answer:
         `Efter att ha genererat flera bingokort, klicka på batch-exportknappen för att ladda ner alla kort som individuella högupplösta JPEG-filer paketerade i ett enda bingo_cards.zip-arkiv. Varje kort namnges sekventiellt inuti ZIP:en för enkel organisation. Detta eliminerar behovet att ladda ner kort ett i taget — generera en komplett uppsättning av 10 unika kort och exportera dem alla med ett enda klick med JSZip-komprimering.`,
     },
@@ -161,7 +161,7 @@ const content: AppContent = {
         `Kortceller och brickor har var sitt oberoende fyllningsläge: Bild eller Ord. Kortcellsfyllning bestämmer vad som visas i varje cell i bingorutnätet. Brickfyllning bestämmer vad som visas på de cirkulära brickorna under kortet som spelarna använder för matchning. Du kan blanda lägen — bildkort med ordbrickor, ordkort med bildbrickor, eller matcha båda — vilket skapar fyra distinkta bingokortsstilar från en uppsättning bilder.`,
     },
     {
-      question: 'Vad är uppropslistan och hur fungerar den?',
+      question: `Vad är uppropslistan och hur fungerar den?`,
       answer:
         `Uppropslistan är en separat sida (åtkomlig via fliken Upprop) som visar ett dynamiskt ordrutnät av alla unika objekt från bildpoolen. Spelledaren läser dessa ord högt medan spelarna markerar sina bingokort. Kolumner beräknas baserat på längsta ordlängden (2–6 kolumner) med enhetlig teckenstorlek. Rutnätet är centrerat på sidan och ärver sidramar och bakgrund från arbetsbladets arbetsyta. Detta är INTE ett facit — det är ett referensblad för personen som leder bingospelet.`,
     },
@@ -171,17 +171,17 @@ const content: AppContent = {
         `Aktivera kryssrutan «Använd anpassat urval» i panelen Bingokortsinställningar för att handplocka vilka specifika bilder som visas i uppropspoolen. När aktiverat klickar du på bilder i Bildbiblioteket för att lägga till dem i ditt anpassade uppropsurval — en levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Detta ger dig exakt kontroll över vilka objekt som visas i bingospelet, användbart för produktkatalogsanpassade aktiviteter eller tematiska event där du vill ha specifik vokabulär.`,
     },
     {
-      question: 'Är Bildbingo Kort Generatorn språkkänslig?',
+      question: `Är Bildbingo Kort Generatorn språkkänslig?`,
       answer:
         `Ja. När ordfyllningsläget används för kortceller eller brickor är de visade orden lokaliserade bildnamn från Bildbiblioteket. Att byta språk i Arbetsbladsinställningarna ändrar orden på kort, brickor och uppropslistan. Till exempel visar en kattbild «Katt» på svenska men «Cat» på engelska och «Katze» på tyska. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll.`,
     },
     {
-      question: 'Varför finns det inget facit för bingokort?',
+      question: `Varför finns det inget facit för bingokort?`,
       answer:
         `Bingokort använder en uppropslista istället för ett facit. I bingo läser spelledaren objekt från uppropslistan medan spelarna markerar matchande objekt på sina unika kort — det finns inget enda «korrekt svar» eftersom varje spelares kort har olika objekt i olika positioner. Uppropslistan fungerar som spelets referensdokument som listar alla möjliga objekt spelledaren kan annonsera under spelet.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — alla rutnätsstorlekar, batch-generering av upp till 10 kort, ZIP batch-export, både bild- och ordfyllningslägen, uppropslistan, hela bildbiblioteket, anpassat uppropsurval, bakgrunds- och ramteman, textverktyg och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bingokort som digitala nedladdningar på Etsy, som tryckta aktivitetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, batch-generering, ZIP-export, dubbla fyllningslägen, uppropslistor och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara bingoprodukter i stor skala.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla rutnätsstorlekar, batch-generering, ZIP-export, bild- och ordfyllningslägen, uppropslistan, hela bildbiblioteket, anpassat uppropsurval, bakgrunds- och ramteman, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,7 +206,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'matchnings-arbetsblad',
-      anchorText: 'Matchnings Arbetsblad Generator',
+      anchorText: `Matchnings Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -216,22 +216,22 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'skuggmatchning-arbetsblad',
-      anchorText: 'Skuggmatchning Arbetsblad Generator',
+      anchorText: `Skuggmatchning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'bildsortering-arbetsblad',
-      anchorText: 'Bildsortering Arbetsblad Generator',
+      anchorText: `Bildsortering Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'hitta-foremal-arbetsblad',
-      anchorText: 'Hitta Föremål Arbetsblad Generator',
+      anchorText: `Hitta Föremål Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'ordsokning-arbetsblad',
-      anchorText: 'Ordsökning Arbetsblad Generator',
+      anchorText: `Ordsökning Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -241,38 +241,38 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'skapa-bingokort',
-      anchorText: 'Hur du Skapar och Säljer Bingokort Online',
+      anchorText: `Hur du Skapar och Säljer Bingokort Online`,
     },
     {
       pageType: 'idea',
       slug: 'camping-utskriftsbara-ideer',
-      anchorText: 'Camping Utskriftsbara Idéer för Utomhuslärande',
+      anchorText: `Camping Utskriftsbara Idéer för Utomhuslärande`,
     },
     {
       pageType: 'idea',
       slug: 'havsdjur-utskriftsbara-ideer',
-      anchorText: 'Havsdjur Utskriftsbara Idéer för Marina Teman',
+      anchorText: `Havsdjur Utskriftsbara Idéer för Marina Teman`,
     },
     {
       pageType: 'start',
-      slug: 'marknadsforing-utskriftsbart-foeretag',
-      anchorText: 'Marknadsföring av Ditt Utskriftsbart Företag',
+      slug: `marknadsforing-utskriftsbart-foeretag`,
+      anchorText: `Marknadsföring av Ditt Utskriftsbart Företag`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/bingo/bildbingo%201.webp',
+      primary: `/samples/swedish/bingo/bildbingo%201.webp`,
       primaryAlt: `Bildbingokort med tematiska bilder i ett rutnät och cirkulära brickor med streckade kanter nedanför`,
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/bingo/bildbingo%202.webp',
+        src: `/samples/swedish/bingo/bildbingo%202.webp`,
         alt: `Bildbingokort med bildfyllning som visar färgglada tematiska illustrationer i rutnätsceller och cirkulära bildbrickor`,
         caption: `Bildfyllningsläge — färgglada illustrationer i både kortceller och cirkulära brickor`,
       },
       {
-        src: '/samples/swedish/bingo/bildbingo%203.webp',
+        src: `/samples/swedish/bingo/bildbingo%203.webp`,
         alt: `Bildbingokort med ordfyllning som visar lokaliserade bildnamn i rutnätsceller och ordbrickor`,
         caption: `Ordfyllningsläge — lokaliserade bildnamn för vokabulärbaserad bingo`,
       },

@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'suporte cliente produtos digitais',
+    primaryKeyword: `suporte cliente produtos digitais`,
     secondaryKeywords: [
-      'atendimento cliente produtos digitais',
+      `atendimento cliente produtos digitais`,
       'suporte negócio imprimíveis',
-      'gerir reclamações clientes fichas exercícios',
-      'suporte transferências digitais',
+      `gerir reclamações clientes fichas exercícios`,
+      `suporte transferências digitais`,
     ],
     lsiKeywords: [
       `gestão tickets suporte reembolso FAQ comunicação comprador modelos resposta`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `prevenção suporte problemas frequentes tempo resolução comunicação profissional`,
       `sistemas suporte escaláveis bibliotecas modelos rastreamento padrões ciclos retroalimentação`,
     ],
-    titleTag: 'Suporte cliente produtos digitais — Guia',
+    titleTag: `Suporte cliente produtos digitais — Guia`,
     metaDescription: `Estratégias de suporte ao cliente para vendedores de produtos digitais. Prevenção de problemas, modelos de resposta, gestão de reembolsos e escalabilidade.`,
   },
 
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para material educativo' },
-    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para material educativo' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'entender-licencas-comerciais', anchorText: 'Compreender as licenças de uso comercial' },
-    { pageType: 'guide', slug: 'direitos-autor-vendedores-imprimiveis', anchorText: `Fundamentos de direitos de autor para vendedores de imprimíveis` },
-    { pageType: 'guide', slug: 'obter-avaliacoes-produtos-imprimiveis', anchorText: 'Como obter avaliações para produtos imprimíveis' },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para material educativo` },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo` },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: 'entender-licencas-comerciais', anchorText: `Compreender as licenças de uso comercial` },
+    { pageType: 'guide', slug: `direitos-autor-vendedores-imprimiveis`, anchorText: `Fundamentos de direitos de autor para vendedores de imprimíveis` },
+    { pageType: 'guide', slug: `obter-avaliacoes-produtos-imprimiveis`, anchorText: `Como obter avaliações para produtos imprimíveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Gerador de fichas de associação',
+      title: `Gerador de fichas de associação`,
       description: `Crie fichas de associação versáteis que demonstram como descrições claras do produto e documentação abrangente previnem as questões comuns dos compradores sobre âmbito do conteúdo, nível de dificuldade e requisitos de impressão.`,
     },
     {
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'math-worksheet',
-      title: 'Gerador de fichas de matemática',
+      title: `Gerador de fichas de matemática`,
       description: `Gere fichas de matemática abrangentes com múltiplas opções de configuração, demonstrando por que razão a documentação detalhada do conteúdo incluído, os níveis de ano e a disponibilidade de chaves de respostas previne a confusão do comprador.`,
     },
   ],
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchila — imagem educativa temática', caption: 'Chinchila' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Caturra — imagem educativa temática', caption: 'Caturra' },
-    { src: '/image-library/pets/dog.webp', alt: 'Cão — imagem educativa temática', caption: 'Cão' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Furão — imagem educativa temática', caption: 'Furão' },
+    { src: '/image-library/pets/cat.webp', alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchila — imagem educativa temática`, caption: 'Chinchila' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Caturra — imagem educativa temática`, caption: 'Caturra' },
+    { src: '/image-library/pets/dog.webp', alt: `Cão — imagem educativa temática`, caption: 'Cão' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Furão — imagem educativa temática`, caption: 'Furão' },
   ],
 };
 

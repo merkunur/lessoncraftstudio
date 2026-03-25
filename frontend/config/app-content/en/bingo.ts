@@ -4,15 +4,15 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'bingo card generator',
     secondaryKeywords: [
-      'printable bingo card maker for Etsy sellers',
+      `printable bingo card maker for Etsy sellers`,
       `picture bingo worksheet generator for KDP publishers`,
-      'bingo card creator with commercial license',
-      'sell printable bingo cards on Gumroad',
+      `bingo card creator with commercial license`,
+      `sell printable bingo cards on Gumroad`,
     ],
     lsiKeywords: [
-      'digital bingo printables online business',
-      'commercial use bingo card generator',
-      'printable picture bingo business tools',
+      `digital bingo printables online business`,
+      `commercial use bingo card generator`,
+      `printable picture bingo business tools`,
     ],
     titleTag: `Bingo Card Generator | Create & Sell Bingo Printables`,
     metaDescription: `Create picture bingo cards to sell on Etsy, KDP & Gumroad. Batch-generate unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.`,
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Picture Bingo Cards in 5 Steps',
+    title: `How to Create Picture Bingo Cards in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -39,7 +39,7 @@ const content: AppContent = {
           `Open the Bingo Card Settings panel and set rows (3–5) and columns (3–5) to define your grid size — the default is 4×4 with 16 cells. Set the number of cards from 1 to 10 to batch-generate multiple unique bingo cards. Choose card cell fill (Image or Word) and chip fill (Image or Word) independently — mix image cards with word chips, word cards with image chips, or match both. Enable the "Use custom selection" checkbox to hand-pick specific images for call-outs rather than using automatic selection.`,
       },
       {
-        title: 'Select Images from the Library',
+        title: `Select Images from the Library`,
         description:
           `Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, and dozens more. Filter by theme using the dropdown or search by keyword. Click images to select them for your bingo cards. When custom call-out selection is enabled, chosen images appear in the call-out pool with a live counter showing your selection count. You can also upload custom PNG, JPG, or GIF images using the Upload Custom Images panel.`,
       },
@@ -49,7 +49,7 @@ const content: AppContent = {
           `Click Generate to create your bingo cards. The app fills your configured grid with images or words from the selected theme, then creates circular chips with dashed borders below the card — chips are shuffled using Fisher-Yates ordering so they never match the card layout directly. If you requested multiple cards, each one draws a different random selection from the image pool, guaranteeing every card in the batch is unique. The first card appears on the canvas immediately; all cards are included in the batch ZIP export.`,
       },
       {
-        title: 'Download Cards and Call-out Sheet',
+        title: `Download Cards and Call-out Sheet`,
         description:
           `Switch between the Cards + Chips tab and the Call-outs tab to preview both outputs. The call-out sheet displays a dynamic word grid with uniform font sizing and columns calculated based on the longest word length. Download individual cards as JPEG or PDF using the dedicated buttons, or batch export all generated cards as individual JPEGs in a single bingo_cards.zip file. Toggle grayscale for ink-friendly versions. Every export renders at 300 DPI and is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Key Features of the Picture Bingo Card Generator',
+    title: `Key Features of the Picture Bingo Card Generator`,
     features: [
       {
         title: `Configurable Bingo Grid from 3×3 to 5×5 with Independent Row and Column Controls`,
@@ -103,16 +103,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Picture Bingo Cards Online',
+    title: `How to Sell Picture Bingo Cards Online`,
     cases: [
       {
-        title: 'Themed Bingo Card Bundles on Etsy',
+        title: `Themed Bingo Card Bundles on Etsy`,
         description:
           `Create themed bingo card packs using the 104 image collections — animal bingo, food bingo, vehicle bingo, holiday bingo, and dozens more. Each theme provides enough illustrations for unique cards across different grid sizes. Package 10–30 unique bingo cards per theme with call-out sheets included, and sell at $3–$8 per bundle. Use the batch generation feature to create 10 unique cards per set in seconds, then mix grid sizes within a single bundle: 3×3 quick-play cards, 4×4 standard cards, and 5×5 extended-play cards for variety. The ZIP batch export streamlines production for high-volume sellers.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Bingo Activity Books on Amazon KDP',
+        title: `Bingo Activity Books on Amazon KDP`,
         description:
           `Compile 40–80 bingo cards into a printed activity book formatted for Amazon KDP. Structure your book by theme chapters: animals, food, vehicles, holidays, and more. Include call-out sheets after each set of cards so the book is self-contained for play. Use the grayscale toggle for ink-friendly interiors that keep printing costs low. Mix grid sizes to provide progressive difficulty — start with 3×3 cards for quick rounds and advance to 5×5 for longer games. Bingo activity books perform well year-round and spike during holiday seasons when families look for group activities.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -124,23 +124,23 @@ const content: AppContent = {
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Seasonal and Holiday Bingo Card Collections',
+        title: `Seasonal and Holiday Bingo Card Collections`,
         description:
-          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Bingo is a naturally social game that peaks during holidays when buyers look for group activities. Release Halloween bingo sets in September, Christmas collections in October, and Valentine's Day packs in January. Each seasonal set includes multiple grid sizes, both image and word fill variants, and call-out sheets. Seasonal bingo products command premium prices during their peak windows.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
+          `The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine`s Day, back-to-school, summer vacation, and more. Bingo is a naturally social game that peaks during holidays when buyers look for group activities. Release Halloween bingo sets in September, Christmas collections in October, and Valentine`s Day packs in January. Each seasonal set includes multiple grid sizes, both image and word fill variants, and call-out sheets. Seasonal bingo products command premium prices during their peak windows.`,
+        platform: `Etsy / Amazon KDP / Gumroad (seasonal)`,
       },
       {
         title: `Event Bingo Cards for Party Games and Special Occasions`,
         description:
           `Create bingo card sets for parties, baby showers, bridal showers, team building events, and educational workshops. The configurable grid sizes and themed image library make it easy to produce occasion-specific bingo games — baby items bingo for baby showers, food bingo for cooking classes, animal bingo for zoo trips. Batch generate 10 unique cards per event set with a call-out sheet, package as an instant-download PDF bundle, and sell on Etsy where event planners actively search for printable party games. The custom call-out selection feature lets you curate exactly which items appear in the game.`,
-        platform: 'Etsy (etsy.com / event planners)',
+        platform: `Etsy (etsy.com / event planners)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'What grid sizes are available for bingo cards?',
+      question: `What grid sizes are available for bingo cards?`,
       answer:
         `Rows and columns are independently configurable from 3 to 5, creating grids from 3×3 (9 cells) up to 5×5 (25 cells). The default is 4×4 with 16 cells. You can also create non-square grids like 3×5 (15 cells) or 5×3 (15 cells) for unique bingo card formats. Smaller grids work well for quick-play rounds, while 5×5 grids provide the classic bingo experience with more items to track.`,
     },
@@ -150,7 +150,7 @@ const content: AppContent = {
         `Set the number of cards from 1 to 10 in the Bingo Card Settings panel. Each card draws a different random selection from the image pool, guaranteeing every card in the batch is unique — essential for bingo where every player needs a different card. The first card appears on the canvas immediately for preview. All generated cards are available through the ZIP batch export for download as individual JPEG files.`,
     },
     {
-      question: 'How does the ZIP batch export work?',
+      question: `How does the ZIP batch export work?`,
       answer:
         `After generating multiple bingo cards, click the batch export button to download all cards as individual high-resolution JPEG files packaged in a single bingo_cards.zip archive. Each card is named sequentially inside the ZIP for easy organization. This eliminates the need to download cards one at a time — generate a complete set of 10 unique cards and export them all in one click using JSZip compression.`,
     },
@@ -160,12 +160,12 @@ const content: AppContent = {
         `Card cells and chips each have an independent fill mode: Image or Word. Card cell fill determines what appears in each cell of the bingo grid. Chip fill determines what appears on the circular chips below the card that players use for matching. You can mix modes — image cards with word chips, word cards with image chips, or match both — creating four distinct bingo card styles from one set of images.`,
     },
     {
-      question: 'What is the call-out sheet and how does it work?',
+      question: `What is the call-out sheet and how does it work?`,
       answer:
         `The call-out sheet is a separate page (accessed via the Call-outs tab) that displays a dynamic word grid of all unique items from the image pool. The caller reads these words aloud while players mark their bingo cards. Columns are calculated based on the longest word length (2–6 columns) with uniform font sizing. The grid is centered on the page and inherits page borders and background from the worksheet canvas. This is NOT an answer key — it is a reference sheet for the person running the bingo game.`,
     },
     {
-      question: 'What is custom call-out selection?',
+      question: `What is custom call-out selection?`,
       answer:
         `Enable the "Use custom selection" checkbox in the Bingo Card Settings panel to hand-pick which specific images appear in the call-out pool. When enabled, click images in the Image Library to add them to your custom call-out selection — a live counter shows "Selected for custom call-outs: X" as you pick. This gives you precise control over which items appear in the bingo game, useful for curriculum-aligned activities or themed events where you want specific vocabulary.`,
     },
@@ -175,9 +175,9 @@ const content: AppContent = {
         `Yes. When using Word fill mode for card cells or chips, the words displayed are localized image names from the Image Library. Switching the language in Worksheet Settings changes the words on cards, chips, and the call-out sheet. For example, a cat image shows "Cat" in English but "Katze" in German and "Chat" in French. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized word content.`,
     },
     {
-      question: 'Why is there no answer key for bingo cards?',
+      question: `Why is there no answer key for bingo cards?`,
       answer:
-        `Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single "correct answer" since every player's card has different items in different positions. The call-out sheet serves as the game's reference document, listing all possible items the caller can announce during the game.`,
+        `Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single "correct answer" since every player`s card has different items in different positions. The call-out sheet serves as the game`s reference document, listing all possible items the caller can announce during the game.`,
     },
     {
       question: 'Is there a free trial?',
@@ -215,17 +215,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'shadow-match-worksheets',
-      anchorText: 'Shadow Match Worksheet Generator',
+      anchorText: `Shadow Match Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'picture-sort-worksheets',
-      anchorText: 'Picture Sort Worksheet Generator',
+      anchorText: `Picture Sort Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'find-objects-worksheets',
-      anchorText: 'Find Objects Worksheet Generator',
+      anchorText: `Find Objects Worksheet Generator`,
     },
     {
       pageType: 'app',
@@ -240,43 +240,43 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'create-bingo-cards',
-      anchorText: 'How to Create and Sell Bingo Cards Online',
+      anchorText: `How to Create and Sell Bingo Cards Online`,
     },
     {
       pageType: 'idea',
       slug: 'camping-printable-ideas',
-      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+      anchorText: `Camping Printable Ideas for Outdoor Learning`,
     },
     {
       pageType: 'idea',
       slug: 'ocean-animals-printable-ideas',
-      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+      anchorText: `Ocean Animals Printable Ideas for Marine Themes`,
     },
     {
       pageType: 'start',
       slug: 'marketing-printable-business',
-      anchorText: 'Marketing Your Printable Business',
+      anchorText: `Marketing Your Printable Business`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/bingo/bingo_card.webp',
+      primary: `/samples/english/bingo/bingo_card.webp`,
       primaryAlt: `Picture bingo card with themed images in a grid layout and circular chips with dashed borders below`,
     },
     sampleGallery: [
       {
-        src: '/samples/english/bingo/bingo_card_1.webp',
+        src: `/samples/english/bingo/bingo_card_1.webp`,
         alt: `Picture bingo card with image fill showing colorful themed illustrations in grid cells and circular image chips`,
         caption: `Image fill mode — colorful illustrations in both card cells and circular chips`,
       },
       {
-        src: '/samples/english/bingo/bingo_card_1 word.webp',
+        src: `/samples/english/bingo/bingo_card_1 word.webp`,
         alt: `Picture bingo card with word fill showing localized image names in grid cells and word chips`,
         caption: `Word fill mode — localized image names for vocabulary-based bingo`,
       },
       {
-        src: '/samples/english/bingo/callout.webp',
+        src: `/samples/english/bingo/callout.webp`,
         alt: `Bingo call-out sheet with dynamic word grid showing all game items for the caller`,
         caption: `Call-out sheet — dynamic word grid for the person running the bingo game`,
       },

@@ -2,18 +2,18 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideas Imprimibles de Piratas — Guía de Nicho',
+    titleTag: `Ideas Imprimibles de Piratas — Guía de Nicho`,
     metaDescription: `Descubre ideas de imprimibles de piratas para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos con temática de aventuras y tesoros, estrategias.`,
     primaryKeyword: 'ideas imprimibles de piratas',
     secondaryKeywords: [
-      'fichas temáticas piratas para vender',
-      'negocio imprimibles temática piratas',
-      'fichas actividades piratas para vendedores',
-      'vender imprimibles de piratas en Etsy',
+      `fichas temáticas piratas para vender`,
+      `negocio imprimibles temática piratas`,
+      `fichas actividades piratas para vendedores`,
+      `vender imprimibles de piratas en Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas búsqueda del tesoro',
-      'actividades aventura náutica para niños',
+      `fichas educativas búsqueda del tesoro`,
+      `actividades aventura náutica para niños`,
       `imprimibles temáticos de bucaneros para venta en línea`,
     ],
   },
@@ -40,7 +40,7 @@ El mercado de intersección con fiestas de cumpleaños de piratas representa una
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Piratas para Vender en Línea',
+      title: `Sopas de Letras de Piratas para Vender en Línea`,
       description: `Las sopas de letras con vocabulario pirata atraen a vendedores enfocados en lectoescritura que planifican unidades de aventura y a padres que buscan entretenimiento educativo que canalice la fascinación natural de sus hijos por las búsquedas del tesoro y los barcos pirata en el desarrollo productivo de habilidades de vocabulario y ortografía en múltiples categorías de temática pirata. Crea puzzles con vocabulario específico de piratas como tesoro, brújula, ancla, cañón, telescopio, loro, isla, capitán, tablón y bandera pirata junto con términos más amplios de aventura como viaje, navegar, descubrir y explorar. El generador de Sopas de Letras te permite controlar el tamaño de la cuadrícula y la cantidad de palabras para producir versiones apropiadas por edad para diferentes niveles escolares. Ofrece cuadrículas fáciles de seis a ocho palabras para los más pequeños y cuadrículas desafiantes de quince o más términos piratas para usuarios mayores que exploran vocabulario de aventura y terminología náutica.`,
       appId: 'wordsearch',
     },
@@ -89,12 +89,12 @@ El mercado de intersección con fiestas de cumpleaños de piratas representa una
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Piratas en Etsy',
+      title: `Vender Imprimibles de Piratas en Etsy`,
       description: `Etsy recompensa el nicho pirata con un rendimiento consistente de listados durante todo el año porque la fascinación de los niños por las búsquedas del tesoro y las aventuras piratas nunca se detiene y los padres de niños amantes de la aventura buscan activamente productos imprimibles temáticos que apoyen la curiosidad imaginativa de sus hijos en todas las estaciones. Utiliza las trece etiquetas con variaciones que combinen elementos piratas, áreas de habilidad y grupos de edad: «fichas conteo piratas preescolar», «páginas colorear mapa del tesoro niños pequeños» y «sopa de letras piratas jardín de infantes» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas piratas». Posiciona tus productos tanto para búsquedas educativas como de compradores de regalos incluyendo términos como «actividad joven aventurero» e «imprimible amante de piratas» en tus títulos y descripciones. Las imágenes de listados que muestran fichas de piratas impresas junto a barcos de juguete, monedas de tesoro o parches en el ojo superan las vistas previas digitales planas y captan el entusiasmo práctico que trae a los padres de niños obsesionados con los piratas a Etsy buscando recursos educativos con temática de aventuras. Apunta a las búsquedas de fiestas de cumpleaños de piratas durante todo el año, ya que los piratas siguen siendo uno de los temas de cumpleaños más populares para niños pequeños que buscan actividades de celebración con búsqueda del tesoro.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Libros de Actividades de Piratas en KDP',
+      title: `Publicar Libros de Actividades de Piratas en KDP`,
       description: `Amazon KDP destaca para los imprimibles de piratas porque los padres y compradores de regalos naturalmente añaden libros de actividades a sus carritos de Amazon junto a libros infantiles de piratas, barcos de juguete, kits de búsqueda del tesoro y accesorios de disfraces piratas que alimentan la pasión de los jóvenes aventureros por la exploración imaginativa y el juego de descubrimiento de tesoros. Compila fichas de piratas individuales en libros de actividades cohesivos de cuarenta a sesenta páginas que combinen conteo, colorear, emparejamiento, sopas de letras y actividades de dibujo alrededor de temas de tesoros y aventuras. Utiliza los campos de palabras clave de KDP estratégicamente: incluye «libro actividades piratas para niños», «fichas búsqueda del tesoro preescolar» y términos de subtemas como «libro colorear barco pirata» o «actividades de cofre del tesoro para niños». Fija el precio entre cuatro y ocho dólares para márgenes de regalías óptimos, y posiciona tus libros como regalos para jóvenes aventureros, complementos a compras de juguetes piratas o suplementos a materiales de aprendizaje de océanos y geografía. Los libros de actividades de piratas se benefician de la demanda durante todo el año con picos notables durante las temporadas de regalos navideños, celebraciones de cumpleaños con temática pirata y el Día de Hablar como un Pirata en septiembre cuando el entusiasmo por la aventura alcanza su máxima visibilidad.`,
     },
     {
@@ -143,18 +143,18 @@ El mercado de intersección con fiestas de cumpleaños de piratas representa una
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -163,12 +163,12 @@ El mercado de intersección con fiestas de cumpleaños de piratas representa una
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -178,18 +178,18 @@ El mercado de intersección con fiestas de cumpleaños de piratas representa una
     },
     {
       pageType: 'idea',
-      slug: 'construccion-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de Construcción',
+      slug: `construccion-ideas-imprimibles`,
+      anchorText: `Ideas de Negocio de Imprimibles de Construcción`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pez Ángel — imagen educativa temática', caption: 'Pez Ángel' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pez Payaso — imagen educativa temática', caption: 'Pez Payaso' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagen educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Cangrejo — imagen educativa temática', caption: 'Cangrejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
-    { src: '/image-library/ocean%20life/fish.webp', alt: 'Pez — imagen educativa temática', caption: 'Pez' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pez Ángel — imagen educativa temática`, caption: 'Pez Ángel' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pez Payaso — imagen educativa temática`, caption: 'Pez Payaso' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagen educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Cangrejo — imagen educativa temática`, caption: 'Cangrejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
+    { src: `/image-library/ocean%20life/fish.webp`, alt: `Pez — imagen educativa temática`, caption: 'Pez' },
   ],
 
 

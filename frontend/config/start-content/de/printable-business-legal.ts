@@ -2,19 +2,19 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen verkaufen Steuerpflichten',
+    primaryKeyword: `Druckvorlagen verkaufen Steuerpflichten`,
     secondaryKeywords: [
-      'Druckvorlagen-Geschäft rechtliche Grundlagen',
-      'Steuerpflichten digitale Produkte',
-      'Unternehmensform für Druckvorlagen-Verkäufer',
-      'geistiges Eigentum druckbare Arbeitsblätter',
+      `Druckvorlagen-Geschäft rechtliche Grundlagen`,
+      `Steuerpflichten digitale Produkte`,
+      `Unternehmensform für Druckvorlagen-Verkäufer`,
+      `geistiges Eigentum druckbare Arbeitsblätter`,
     ],
     lsiKeywords: [
-      'Umsatzsteuer digitale Downloads nach Bundesland',
-      'Einzelunternehmen für Druckvorlagen-Geschäft',
-      'Buchführung für Etsy-Verkäufer',
-      'Plattform-Nutzungsbedingungen Einhaltung',
-      'grenzüberschreitende Steuer digitale Güter',
+      `Umsatzsteuer digitale Downloads nach Bundesland`,
+      `Einzelunternehmen für Druckvorlagen-Geschäft`,
+      `Buchführung für Etsy-Verkäufer`,
+      `Plattform-Nutzungsbedingungen Einhaltung`,
+      `grenzüberschreitende Steuer digitale Güter`,
       `absetzbare Betriebsausgaben Druckvorlagen-Geschäft`,
     ],
     titleTag: `Druckvorlagen verkaufen Steuerpflichten — Rechts-Leitfaden`,
@@ -35,11 +35,11 @@ const content: StartContent = {
       content: `Bevor wir in ein Thema dieses Leitfadens eintauchen, muss jeder Druckvorlagen-Verkäufer einen grundlegenden Unterschied verstehen: allgemeine Bildungsinformationen versus professionelle Beratung, die auf Ihre Situation zugeschnitten ist. Dieser Leitfaden bietet Ersteres. Nur ein qualifizierter Fachmann, der Ihre spezifischen Umstände versteht, kann Letzteres liefern.\n\nSteuergesetze variieren je nach Land, je nach Bundesland oder Kanton innerhalb von Ländern und manchmal je nach Gemeinde innerhalb von Bundesländern. Was für einen Verkäufer in Bayern gilt, gilt nicht unbedingt für einen Verkäufer in Nordrhein-Westfalen, geschweige denn für einen Verkäufer in Österreich oder der Schweiz. Die Besteuerung digitaler Produkte ist ein sich ständig weiterentwickelndes Rechtsgebiet, wobei neue Vorschriften und Gerichtsentscheidungen die Landschaft regelmäßig verändern. Informationen, die heute korrekt sind, können in sechs Monaten veraltet sein.\n\nIhre persönliche finanzielle Situation ist ebenfalls von enormer Bedeutung. Ihr Familienstand, andere Einkommensquellen, Investitionsaktivitäten, Unterhaltsberechtigte und Dutzende anderer Faktoren beeinflussen Ihre Steuerpflichten auf eine Weise, die kein allgemeiner Leitfaden berücksichtigen kann. Eine Strategie, die einem Verkäufer Geld spart, könnte einen anderen Verkäufer Geld kosten — abhängig von seinem vollständigen finanziellen Bild.\n\nDer Zweck dieses Leitfadens ist es, Ihnen zu helfen, die Themen und Fragen zu identifizieren, die Sie mit Ihren eigenen qualifizierten Fachleuten besprechen müssen. Betrachten Sie ihn als Checkliste für Gespräche, nicht als Anweisungen zum Befolgen. Wenn dieser Leitfaden sagt „viele Verkäufer setzen Arbeitszimmerkosten ab", bedeutet das nicht, dass Sie einen Arbeitszimmerabzug geltend machen sollten — es bedeutet, dass Sie Ihren Steuerberater fragen sollten, ob dies auf Ihre Situation zutrifft. Jede Empfehlung in diesem Leitfaden sollte durch professionelle Beratung gefiltert werden, bevor sie umgesetzt wird.`,
     },
     {
-      heading: 'Unternehmensformen für Druckvorlagen-Verkäufer',
+      heading: `Unternehmensformen für Druckvorlagen-Verkäufer`,
       content: `Die rechtliche Struktur Ihres Unternehmens beeinflusst Ihre Steuern, Ihre persönliche Haftung und Ihre administrativen Anforderungen. Das Verständnis der gängigen Optionen hilft Ihnen, ein informiertes Gespräch mit einem Fachmann darüber zu führen, welche Struktur zu Ihrer Situation passt.\n\nDas Einzelunternehmen ist die einfachste Struktur und in vielen Rechtsordnungen der Standard. Wenn Sie Druckvorlagen verkaufen, ohne eine separate juristische Person zu gründen, sind Sie wahrscheinlich als Einzelunternehmer tätig. Das Unternehmen ist rechtlich nicht von Ihnen persönlich getrennt, was einfache Steuererklärung bedeutet, aber auch, dass Ihr Privatvermögen nicht vor geschäftlichen Verbindlichkeiten geschützt ist. Viele Druckvorlagen-Verkäufer beginnen hier, weil der Einrichtungsaufwand minimal ist.\n\nEine Gesellschaft mit beschränkter Haftung (GmbH oder UG) bietet eine rechtliche Trennung zwischen Ihrem Privatvermögen und Ihrem Unternehmen. Wenn jemand Ihr Unternehmen verklagen würde, wären Ihr privates Eigenheim, Ihre Ersparnisse und andere Vermögenswerte grundsätzlich geschützt. GmbHs haben eigene steuerliche Auswirkungen, die je nach Rechtsordnung variieren — manche werden als Durchleitungsgesellschaften besteuert, andere können die Körperschaftsteuer wählen. Die administrativen Anforderungen und Kosten für die Gründung und den Unterhalt einer GmbH variieren erheblich je nach Standort.\n\nKapitalgesellschaften bieten den stärksten Haftungsschutz, bringen aber die meiste administrative Komplexität mit sich: separate Steuererklärungen, formale Aufzeichnungspflichten und höhere Gründungskosten. Sehr wenige Druckvorlagen-Verkäufer benötigen eine Kapitalgesellschaftsstruktur, besonders am Anfang. Die Komplexität und die Kosten sind selten gerechtfertigt, bis der Umsatz ein Niveau erreicht, das die Steuerplanungsvorteile lohnenswert macht.\n\nDer typische Übergangsweg für Druckvorlagen-Verkäufer ist, als Einzelunternehmer zu beginnen und dann eine GmbH oder UG zu gründen, wenn der Umsatz wächst und der Haftungsschutz die Verwaltungskosten rechtfertigt. Der richtige Zeitpunkt für diesen Übergang hängt von Ihrem Umsatz, Ihrer Rechtsordnung und Ihrer Risikobereitschaft ab — alles Faktoren, die Sie mit einem Fachmann besprechen sollten.`,
     },
     {
-      heading: 'Steuerpflichten beim Verkauf digitaler Produkte',
+      heading: `Steuerpflichten beim Verkauf digitaler Produkte`,
       content: `Ob Sie Umsatzsteuer, Mehrwertsteuer oder Güter- und Dienstleistungssteuer auf Ihre Druckvorlagen-Arbeitsblattverkäufe erheben müssen, hängt vollständig davon ab, wo Sie sich befinden und wo sich Ihre Käufer befinden. Die Besteuerung digitaler Produkte ist einer der komplexesten und sich am schnellsten ändernden Bereiche des Steuerrechts.\n\nIn der Europäischen Union gilt die Mehrwertsteuer für digitale Produkte, die an Verbraucher verkauft werden. Die Steuersätze und Regeln variieren je nach Mitgliedstaat. In Deutschland beträgt der reguläre Mehrwertsteuersatz 19 %, der ermäßigte Satz 7 %. Digitale Produkte wie herunterladbare Arbeitsblätter unterliegen in der Regel dem regulären Satz. Verkäufer müssen sich mit den Kleinunternehmerregelungen vertraut machen, die Umsatzsteuerbefreiungen unter bestimmten Umsatzschwellen ermöglichen.\n\nMarktplatz-Vermittlergesetze haben diese Situation für viele Verkäufer vereinfacht. In zahlreichen Rechtsordnungen sind Plattformen wie Etsy verpflichtet, die Umsatzsteuer im Namen ihrer Verkäufer zu erheben und abzuführen. Das bedeutet, die Plattform übernimmt die Umsatzsteuererhebung für Transaktionen, die über ihren Marktplatz stattfinden. Allerdings sind nicht alle Plattformen in allen Rechtsordnungen Marktplatzvermittler, und Direktverkäufe über Ihre eigene Website werden im Allgemeinen nicht von Marktplatzvermittlergesetzen abgedeckt.\n\nIn den Vereinigten Staaten variiert die Verkaufssteuer auf digitale Produkte von Bundesstaat zu Bundesstaat. Manche Bundesstaaten besteuern digitale Downloads genauso wie physische Waren. Andere befreien digitale Produkte vollständig. Wieder andere unterscheiden zwischen verschiedenen Arten digitaler Produkte. Dieses Flickwerk an Regeln bedeutet, dass ein Druckvorlagen-Verkäufer mit Käufern in mehreren Bundesstaaten eine wirklich komplexe Compliance-Landschaft vorfindet.\n\nDer entscheidende Handlungspunkt ist zu verstehen, wer was erhebt: Sie oder Ihre Plattform. Für jede Plattform, auf der Sie verkaufen, ermitteln Sie, ob sie als Marktplatzvermittler für die Steuererhebung in den Rechtsordnungen fungiert, in denen sich Ihre Käufer befinden. Für alle Situationen, die nicht durch Plattformerhebung abgedeckt sind, konsultieren Sie einen Steuerberater bezüglich Ihrer eigenen Erhebungs- und Abführungspflichten.`,
     },
     {
@@ -55,11 +55,11 @@ const content: StartContent = {
       content: `Das Verständnis des Rechts am geistigen Eigentum hilft Druckvorlagen-Verkäufern sowohl, ihre eigene Arbeit zu schützen als auch Verletzungen der Rechte anderer zu vermeiden. Die drei Hauptkategorien, die für Druckvorlagen-Geschäfte relevant sind, sind Urheberrecht, Markenrecht und Lizenzierung.\n\nDas Urheberrecht schützt automatisch originale kreative Werke in dem Moment, in dem sie geschaffen und in greifbarer Form fixiert werden. Die Arbeitsblätter, die Sie mit Generatoren gestalten, Ihre einzigartigen Produktbeschreibungen, Ihre Listing-Fotos und Ihre Markengrafiken sind alle ab dem Moment der Erstellung urheberrechtlich geschützt. Sie müssen kein Urheberrecht registrieren, damit der Schutz besteht, obwohl die Registrierung in einigen Rechtsordnungen zusätzliche rechtliche Vorteile bietet, insbesondere für Durchsetzungszwecke.\n\nAllerdings hat das Urheberrecht wichtige Einschränkungen. Es schützt keine Ideen, Fakten, mathematischen Konzepte oder gängigen Layouts. Sie können das Konzept eines Additionsarbeitsblattes oder die Idee eines Wortsuche-Rätsels nicht urheberrechtlich schützen. Was das Urheberrecht schützt, ist Ihr spezifischer kreativer Ausdruck — die besondere Anordnung, Designentscheidungen, Themenimplementierung und visuelle Präsentation, die Ihr Arbeitsblatt einzigartig machen. Das Verständnis dieser Unterscheidung verhindert sowohl Überansprüche als auch unzureichenden Schutz.\n\nDas Markenrecht schützt Markenidentifikatoren: Ihren Geschäftsnamen, Ihr Logo, Ihren Slogan und andere Elemente, die Ihre Marke auf dem Markt unterscheiden. Markenschutz ist vom Urheberrecht getrennt und erfordert andere Überlegungen. Wenn Sie eine erkennbare Marke für Ihr Druckvorlagen-Geschäft aufbauen, verhindert Markenschutz, dass andere eine verwechselnd ähnliche Markenpräsentation verwenden. Die Markenregistrierung ist ein Prozess, den es wert ist, mit einem Anwalt zu besprechen, wenn Ihre Marke wächst.\n\nKommerzielle Lizenzen definieren, was Käufer mit den Produkten tun dürfen, die sie von Ihnen erwerben. Klare Lizenzbedingungen schützen sowohl Sie als auch Ihre Kunden, indem sie explizite Erwartungen hinsichtlich erlaubter Nutzungen, Weiterverbreitungsbeschränkungen und Bearbeitungsrechten setzen. Jeder Druckvorlagen-Verkäufer sollte klare Lizenzbedingungen haben, die seinen Produkten beiliegen. Sehen Sie sich an, wie andere etablierte Verkäufer in Ihrer Nische ihre Lizenzbedingungen strukturieren, als Ausgangspunkt für die Formulierung Ihrer eigenen.`,
     },
     {
-      heading: 'Einhaltung der Plattform-Nutzungsbedingungen',
+      heading: `Einhaltung der Plattform-Nutzungsbedingungen`,
       content: `Jede Verkaufsplattform hat Nutzungsbedingungen, die als rechtlich bindende Vereinbarungen zwischen Ihnen und der Plattform fungieren. Ein Verstoß gegen diese Bedingungen kann zur Entfernung von Angeboten, Kontosperrung oder dauerhaftem Ausschluss führen — wodurch Sie potenziell Ihren gesamten Vertriebskanal und alle angesammelten Bewertungen und die Verkaufshistorie über Nacht verlieren.\n\nEtsy hat spezifische Regeln für digitale Produkte, einschließlich Anforderungen daran, was einen legitimen digitalen Download darstellt, wie Sie Ihre Produkte beschreiben und welche Darstellungen zum geistigen Eigentum Sie in Ihren Angeboten machen. Etsy hat auch Richtlinien zur Verwendung von Schlüsselwörtern in Titeln und Tags, die bei Verstoß Ihre Suchsichtbarkeit verringern oder die Entfernung von Angeboten auslösen können. Das Verstehen und Befolgen dieser Regeln ist nicht optional.\n\nAmazon KDP hat eigene Inhaltsrichtlinien für Aktivitätsbücher und druckbare Produkte. Diese umfassen Einschränkungen zur Inhaltsqualität, Anforderungen an die Innenformatierung und Regeln zum Cover-Design. Amazon hat auch strenge Richtlinien zu doppelten oder im Wesentlichen ähnlichen Inhalten — zu viele Produkte einzustellen, die nahezu identisch erscheinen, kann eine Inhaltsprüfung auslösen, die zur Entfernung von Angeboten führen kann.\n\nGumroad, Gumroad und andere Plattformen haben jeweils eigene Bedingungen zu Produktqualitätsstandards, Rückerstattungsrichtlinien und Anforderungen an geistiges Eigentum. Die Bedingungen unterscheiden sich zwischen Plattformen, was bedeutet, dass eine Praxis, die auf einer Plattform akzeptabel ist, die Regeln einer anderen verletzen kann.\n\nDer praktische Ansatz ist unkompliziert: Lesen Sie die Nutzungsbedingungen jeder Plattform, auf der Sie verkaufen. Konzentrieren Sie sich speziell auf Abschnitte über digitale Produkte, geistiges Eigentum, verbotene Inhalte und Kontodurchsetzung. Setzen Sie Lesezeichen für diese Abschnitte und prüfen Sie regelmäßig auf Aktualisierungen — Plattformen überarbeiten ihre Bedingungen regelmäßig. Im Zweifelsfall, ob ein Produkt oder eine Praxis den Plattformbedingungen entspricht, kontaktieren Sie direkt das Support-Team der Plattform, anstatt zu raten. Die Kosten des Fragens sind null. Die Kosten einer falschen Vermutung können Ihr gesamtes Geschäft auf dieser Plattform sein.`,
     },
     {
-      heading: 'Buchführung für steuerliche Compliance',
+      heading: `Buchführung für steuerliche Compliance`,
       content: `Gute Buchführung ist die wirkungsvollste Maßnahme, die Sie für Ihre steuerliche Compliance ergreifen können. Sie vereinfacht die Steuererklärung, stellt sicher, dass Sie alle berechtigten Abzüge geltend machen, und schützt Sie, falls Ihre Steuererklärung jemals hinterfragt oder geprüft wird.\n\nUmsatzaufzeichnungen sollten Einnahmen nach Plattform und Monat erfassen. Jede Plattform stellt Verkaufsberichte bereit, aber die Konsolidierung in einer einzigen Tabelle gibt Ihnen ein vollständiges Bild Ihres Geschäftseinkommens. Erfassen Sie den Bruttoumsatz, die von der Plattform abgezogenen Gebühren und die erhaltenen Nettoeinnahmen für jede Plattform jeden Monat. Dies dauert Minuten pro Monat und spart Stunden bei der Steuererklärung.\n\nAusgabenaufzeichnungen sollten jeden geschäftsbezogenen Einkauf mit Dokumentation enthalten. Erfassen Sie für jede Ausgabe das Datum, den Betrag, den Anbieter und den geschäftlichen Zweck. Speichern Sie digitale Belege — Screenshots von E-Mail-Bestätigungen, PDF-Rechnungen oder Fotos von Papierbelegen — in einem dedizierten Ordner, organisiert nach Jahr und Monat. Zu verfolgende Kategorien umfassen Software-Abonnements, Plattformgebühren, professionelle Dienstleistungen, Büromaterial, Ausrüstung, Internetkosten und alle anderen geschäftsbezogenen Ausgaben.\n\nEin dediziertes Geschäftskonto, selbst wenn Sie als Einzelunternehmer tätig sind, vereinfacht die Buchführung enorm. Wenn alle Geschäftseinnahmen auf ein einziges Konto eingehen und alle Geschäftsausgaben von diesem Konto bezahlt werden, werden Ihre Kontoauszüge zu einem vollständigen Nachweis der geschäftlichen Finanzaktivität. Die Vermischung persönlicher und geschäftlicher Transaktionen auf einem Konto macht die Nachverfolgung dramatisch schwieriger und erhöht das Risiko, Abzüge zu verpassen oder Einnahmen falsch zu melden.\n\nBewahren Sie alle Unterlagen für den von Ihrer Steuerrechtsordnung vorgeschriebenen Zeitraum auf. In vielen Rechtsordnungen sind dies drei bis zehn Jahre ab dem Abgabedatum. Digitale Aufzeichnungen, die sicher gespeichert werden — in Cloud-Speicher mit Backups — erfüllen die Aufbewahrungspflichten in den meisten Rechtsordnungen und sind tatsächlich zuverlässiger als Papierunterlagen, die verloren gehen oder beschädigt werden können.\n\nEine einfache monatliche Routine hält die Aufzeichnungen aktuell: Laden Sie Plattform-Verkaufsberichte herunter, kategorisieren Sie neue Ausgaben, aktualisieren Sie Ihre Umsatztabelle und legen Sie neue Belege ab. Fünfzehn Minuten pro Monat verhindern eine hektische mehrtägige Aktion zur Steuerzeit.`,
     },
     {
@@ -67,14 +67,14 @@ const content: StartContent = {
       content: `Der Verkauf digitaler Produkte auf internationaler Ebene bringt zusätzliche steuerliche Komplexität mit sich, die viele Druckvorlagen-Verkäufer unterschätzen. Wenn sich Ihre Käufer in verschiedenen Ländern befinden, können mehrere Steuerrechtsordnungen auf Ihre Transaktionen zutreffen, jede mit eigenen Regeln zur Besteuerung digitaler Produkte.\n\nDie Europäische Union verlangt von Verkäufern digitaler Produkte an Verbraucher die Erhebung und Abführung der Mehrwertsteuer basierend auf dem Standort des Käufers. Die Mehrwertsteuersätze variieren je nach Mitgliedstaat. Für Verkäufer außerhalb der EU vereinfacht das One-Stop-Shop-System (OSS) die Compliance, indem es Ihnen ermöglicht, sich in einem einzigen EU-Mitgliedstaat zu registrieren und die Mehrwertsteuer für alle EU-Verkäufe über diese eine Registrierung abzuführen. Viele Verkaufsplattformen übernehmen die EU-Mehrwertsteuererhebung als Marktplatzvermittler, aber nicht alle Transaktionen sind abgedeckt.\n\nAustralien erhebt eine Güter- und Dienstleistungssteuer (GST) auf digitale Produkte, die von nicht ansässigen Verkäufern über bestimmten Schwellenwerten an australische Verbraucher verkauft werden. Kanada hat regionale Verkaufssteuerregeln, die je nach Provinz für digitale Produkte variieren. Andere Länder haben ihre eigenen Steuerrahmen für digitale Produkte, und der globale Trend geht zu mehr Besteuerung digitaler Güter, nicht weniger.\n\nDer Verkauf auf Amazon KDP über mehrere Marktplätze hinweg veranschaulicht die Komplexität. Einnahmen von Amazon.com, Amazon.co.uk, Amazon.de, Amazon.fr und anderen Marktplätzen müssen möglicherweise unterschiedlich gemeldet und potenziell unterschiedlich besteuert werden — abhängig vom Netzwerk der Doppelbesteuerungsabkommen Ihres Heimatlandes und den Steuerregeln des jeweiligen Marktplatzlandes. Amazon behält in einigen Rechtsordnungen Steuern ein und stellt Steuerdokumente bereit, aber letztendlich sind Sie dafür verantwortlich, Ihre eigenen Steuerpflichten zu verstehen und einzuhalten.\n\nDie praktische Schwelle für die Inanspruchnahme professioneller internationaler Steuerberatung ist relativ niedrig. Wenn Sie an Käufer in mehreren Ländern verkaufen und Ihr gesamter internationaler Umsatz mehr als geringfügig ist, ist eine Beratung mit einem Steuerberater, der sich mit grenzüberschreitendem Verkauf digitaler Produkte auskennt, eine lohnende Investition. Die Kosten dieser Beratung sind selbst eine absetzbare Betriebsausgabe und sind mit ziemlicher Sicherheit geringer als die Kosten eines Compliance-Fehlers, der bei einer Prüfung entdeckt wird.`,
     },
     {
-      heading: 'Wann professionelle Hilfe holen',
+      heading: `Wann professionelle Hilfe holen`,
       content: `Jeder Druckvorlagen-Verkäufer profitiert irgendwann von professioneller Steuer- und Rechtsberatung. Die Frage ist nicht, ob Sie professionelle Hilfe brauchen, sondern wann. Bestimmte Auslöser sollten Sie dazu veranlassen, Beratung zu suchen, anstatt zu versuchen, die Dinge selbst herauszufinden.\n\nAnzeichen, dass Sie einen Steuerberater brauchen: Ihr Jahresumsatz aus dem Druckvorlagenverkauf übersteigt einige tausend Euro, Sie verkaufen an Käufer in mehreren Bundesländern oder Ländern, Sie möchten Ihre vierteljährlichen Steuervorauszahlungspflichten verstehen, Sie erwägen eine Änderung Ihrer Unternehmensform, Sie erhalten irgendeine Mitteilung von einer Steuerbehörde, oder Sie fühlen sich einfach unsicher, ob Sie Ihre Steuerpflichten korrekt handhaben. Steuerberater, die mit kleinen Unternehmen und Selbstständigen arbeiten, sehen Situationen wie Ihre regelmäßig und können effizient spezifische Beratung bieten.\n\nAnzeichen, dass Sie einen Rechtsanwalt brauchen: Sie möchten eine GmbH oder eine andere Unternehmensform gründen, Sie erhalten eine Abmahnung wegen Urheberrechtsverletzung oder einen Markenrechtsstreit, eine Plattform ergreift Durchsetzungsmaßnahmen gegen Ihr Konto, Sie möchten kommerzielle Lizenzbedingungen für Ihre Produkte erstellen oder überprüfen lassen, oder Sie gehen eine geschäftliche Partnerschaft oder Kooperationsvereinbarung ein. Wirtschaftsanwälte, die mit kleinen Unternehmen und Verkäufern digitaler Produkte arbeiten, können diese Situationen bewältigen, ohne dass die Kosten außer Kontrolle geraten.\n\nDie Kosten professioneller Beratung sind eine absetzbare Betriebsausgabe, was ihre effektiven Kosten reduziert. Noch wichtiger: Die Kosten professioneller Beratung sind fast immer geringer als die Kosten eines Compliance-Fehlers. Ein Steuerberater, der einige hundert Euro pro Jahr kostet, kann Ihnen Tausende an ordnungsgemäß geltend gemachten Abzügen und Strafvermeidung einsparen. Ein Anwalt, der einmalig Ihre Lizenzbedingungen überprüft, kann Streitigkeiten verhindern, deren Beilegung weit mehr kosten würde.\n\nDen richtigen Fachmann zu finden ist wichtig. Suchen Sie nach Steuerberatern und Anwälten, die speziell mit kleinen Unternehmen, Selbstständigen oder Verkäufern digitaler Produkte arbeiten. Fragen Sie nach ihrer Erfahrung mit Ihrer Art von Geschäft. Viele bieten Erstgespräche zu reduzierten Sätzen an. Ihre örtliche Industrie- und Handelskammer oder Gründerberatung kann ebenfalls Empfehlungen für Fachleute geben, die sich auf die Compliance kleiner Unternehmen spezialisiert haben.`,
     },
   ],
 
   actionSteps: [
     {
-      step: 'Ein dediziertes Geschäftskonto einrichten',
+      step: `Ein dediziertes Geschäftskonto einrichten`,
       description: `Eröffnen Sie ein separates Bankkonto für alle Einnahmen und Ausgaben Ihres Druckvorlagen-Geschäfts. Diese einzelne Maßnahme vereinfacht die Buchführung, erleichtert die Steuererklärung und bietet einen klaren Prüfungspfad. Selbst Einzelunternehmer profitieren von der Trennung geschäftlicher und persönlicher Finanzen.`,
     },
     {
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Erstellen Sie eine einfache Tabelle, die Bruttoumsatz, Plattformgebühren und Nettoeinnahmen nach Plattform und Monat erfasst. Laden Sie monatlich Plattform-Verkaufsberichte herunter und aktualisieren Sie die Tabelle. Dies dauert 15 Minuten pro Monat und verhindert eine hektische Rekonstruktion zur Steuerzeit.`,
     },
     {
-      step: 'Ein digitales Belegspeichersystem organisieren',
+      step: `Ein digitales Belegspeichersystem organisieren`,
       description: `Erstellen Sie einen Cloud-Ordner, organisiert nach Jahr und Monat, zur Speicherung geschäftlicher Ausgabenbelege. Speichern Sie Screenshots von E-Mail-Bestätigungen, PDF-Rechnungen und digitale Belege für jeden geschäftsbezogenen Einkauf. Erfassen Sie für jede Ausgabe das Datum, den Betrag, den Anbieter und den geschäftlichen Zweck.`,
     },
     {
@@ -102,7 +102,7 @@ const content: StartContent = {
       description: `Erstellen Sie ein Standard-Lizenzdokument, das definiert, was Käufer mit Ihren Produkten tun können und was nicht. Umfassen Sie erlaubte Nutzungen, Weiterverbreitungsbeschränkungen und Bearbeitungsrechte. Sehen Sie sich Lizenzbedingungen etablierter Verkäufer in Ihrer Nische als Ausgangspunkt an.`,
     },
     {
-      step: 'Eine Beratung mit einem Steuerberater vereinbaren',
+      step: `Eine Beratung mit einem Steuerberater vereinbaren`,
       description: `Finden Sie einen Steuerberater, der mit kleinen Unternehmen oder Selbstständigen arbeitet, und vereinbaren Sie ein Erstgespräch. Bringen Sie Ihre Umsatzaufzeichnungen, eine Liste Ihrer Verkaufsplattformen und eine Fragenliste aus diesem Leitfaden mit. Die Beratungskosten sind selbst eine absetzbare Betriebsausgabe.`,
     },
     {
@@ -181,7 +181,7 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       title: `Komplettanleitung zum Start Ihres Druckvorlagen-Geschäfts`,
       description: `Der umfassende Grundlagenleitfaden, der Nischenwahl, Produkterstellung, Plattformvergleich, Preisstrategie und Katalogaufbau für alle Druckvorlagen-Marktplätze abdeckt.`,
     },
@@ -191,50 +191,50 @@ const content: StartContent = {
       description: `Detaillierte Anleitung zur kommerziellen Lizenzierung für Druckvorlagen-Produkte, einschließlich was kommerzielle Lizenzen abdecken, wie man sie nutzt und wie man Lizenzbedingungen für die eigenen Kunden strukturiert.`,
     },
     {
-      slug: 'druckvorlagen-geschaeft-einkommen',
+      slug: `druckvorlagen-geschaeft-einkommen`,
       title: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen`,
       description: `Ehrliche Umsatzerwartungen und die betrieblichen Faktoren, die das Einkommen in jeder Wachstumsphase bestimmen, einschließlich des finanziellen Planungskontexts für Steuerpflichten.`,
     },
     {
-      slug: 'druckvorlagen-geschaeft-skalieren-anleitung',
+      slug: `druckvorlagen-geschaeft-skalieren-anleitung`,
       title: `Vom Nebenverdienst zum hauptberuflichen Druckvorlagen-Geschäft`,
       description: `Strategischer Wachstumsrahmen für jede Geschäftsphase, einschließlich der betrieblichen Meilensteine, die neue steuerliche und rechtliche Überlegungen auslösen, wenn Ihr Geschäft wächst.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: `Komplettanleitung zum Start Ihres Druckvorlagen-Geschäfts` },
-    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Druckvorlagen-Geschäft Bauplan' },
-    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Etsy Druckvorlagen-Geschäft Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Amazon KDP Aktivitätsbuch-Geschäft Leitfaden' },
+    { pageType: 'start', slug: `komplettanleitung-druckvorlagen-geschaeft`, anchorText: `Komplettanleitung zum Start Ihres Druckvorlagen-Geschäfts` },
+    { pageType: 'start', slug: `arbeitsblaetter-erstellen-die-verkaufen`, anchorText: `Professionelle Arbeitsblätter erstellen, die sich verkaufen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-bauplan`, anchorText: `Druckvorlagen-Geschäft Bauplan` },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: `Etsy Druckvorlagen-Geschäft Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: `Amazon KDP Aktivitätsbuch-Geschäft Leitfaden` },
     { pageType: 'start', slug: 'kommerzielle-lizenz-leitfaden', anchorText: `Kommerzielle Lizenz-Leitfaden für Druckvorlagen-Verkäufer` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-einkommen', anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
-    { pageType: 'start', slug: 'druckvorlagen-geschaeft-skalieren', anchorText: `Vom Nebenverdienst zum hauptberuflichen Druckvorlagen-Geschäft` },
-    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
-    { pageType: 'app', slug: 'schreibuebungen-arbeitsblaetter', anchorText: 'Schreibübungen-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller ausprobieren' },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-einkommen`, anchorText: `Druckvorlagen-Geschäft Einkommen: Realistische Erwartungen` },
+    { pageType: 'start', slug: `druckvorlagen-geschaeft-skalieren`, anchorText: `Vom Nebenverdienst zum hauptberuflichen Druckvorlagen-Geschäft` },
+    { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: `Wortsuche-Generator — Alle Details` },
+    { pageType: 'app', slug: `schreibuebungen-arbeitsblaetter`, anchorText: `Schreibübungen-Generator — Alle Details` },
+    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: `Wortsuche-Ersteller ausprobieren` },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: `Schreibübungen-Ersteller ausprobieren` },
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/writing/writing.webp', alt: `Schreibübungs-Arbeitsblatt als Beispiel für kommerziell lizenzierbare lehrreiche Inhalte für Druckvorlagen-Verkäufer` },
+    heroImage: { src: `/samples/german/writing/writing.webp`, alt: `Schreibübungs-Arbeitsblatt als Beispiel für kommerziell lizenzierbare lehrreiche Inhalte für Druckvorlagen-Verkäufer` },
     samples: [
-      { src: '/samples/german/writing/writing.webp', alt: `Schreibübungs-Arbeitsblatt mit kommerziell lizenzierbarem lehrreichem Inhalt`, caption: 'Schreibübungen — Kommerziell lizenzierbare lehrreiche Inhalte' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: `Wortsuche-Rätsel als Beispiel für kommerzielles Produktpotenzial bei hohem Volumen`, caption: 'Wortsuche — Beliebtester kommerzieller Rätseltyp' },
-      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: 'Kreuzworträtsel als Beispiel für mehrsprachige kommerzielle Produktfähigkeit', caption: 'Kreuzworträtsel — Mehrsprachige kommerzielle Produkte' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: `Mathe-Arbeitsblatt als Beispiel für zeitlose kommerzielle Produktgenerierung`, caption: 'Mathe — Zeitlose kommerzielle Produktgenerierung' },
+      { src: `/samples/german/writing/writing.webp`, alt: `Schreibübungs-Arbeitsblatt mit kommerziell lizenzierbarem lehrreichem Inhalt`, caption: `Schreibübungen — Kommerziell lizenzierbare lehrreiche Inhalte` },
+      { src: `/samples/german/wordsearch/Worter suchen 1.webp`, alt: `Wortsuche-Rätsel als Beispiel für kommerzielles Produktpotenzial bei hohem Volumen`, caption: `Wortsuche — Beliebtester kommerzieller Rätseltyp` },
+      { src: `/samples/german/crossword/crossword_worksheet.webp`, alt: `Kreuzworträtsel als Beispiel für mehrsprachige kommerzielle Produktfähigkeit`, caption: `Kreuzworträtsel — Mehrsprachige kommerzielle Produkte` },
+      { src: `/samples/german/math puzzle/Mathe-Rätsel 1.webp`, alt: `Mathe-Arbeitsblatt als Beispiel für zeitlose kommerzielle Produktgenerierung`, caption: `Mathe — Zeitlose kommerzielle Produktgenerierung` },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: `Schreibübungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
+    { src: `/image-library/forest%20creatures/ant.webp`, alt: `Ameise — thematisches Lernbild`, caption: 'Ameise' },
+    { src: `/image-library/forest%20creatures/badger.webp`, alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
+    { src: `/image-library/forest%20creatures/bat.webp`, alt: `Fledermaus — thematisches Lernbild`, caption: 'Fledermaus' },
+    { src: `/image-library/forest%20creatures/bear.webp`, alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: `/image-library/forest%20creatures/beaver.webp`, alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
   ],
 };
 

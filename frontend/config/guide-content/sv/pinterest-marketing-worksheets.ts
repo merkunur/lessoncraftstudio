@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pinterest marknadsföring arbetsblad',
+    primaryKeyword: `pinterest marknadsföring arbetsblad`,
     secondaryKeywords: [
-      'pinterest för utskriftsbara säljare',
-      'sälja arbetsblad med pinterest',
-      'pinterest strategi utskriftsbart företag',
-      'pinterest trafik arbetsbladsbutiker',
+      `pinterest för utskriftsbara säljare`,
+      `sälja arbetsblad med pinterest`,
+      `pinterest strategi utskriftsbart företag`,
+      `pinterest trafik arbetsbladsbutiker`,
     ],
     lsiKeywords: [
       `visuell sökmotor pin-design tavleoptimering nyckelordrika beskrivningar`,
@@ -22,7 +22,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Pinterest-marknadsföring för arbetsbladsföretag',
+    title: `Pinterest-marknadsföring för arbetsbladsföretag`,
     tagline: `En komplett guide till Pinterest-marknadsföring för arbetsbladsäljare — inklusive hur du sätter upp ett företagskonto, strukturerar tavlor för upptäckt, designar högkonverterande pins, skriver nyckelordrika beskrivningar, utvecklar ett pinningsschema, optimerar för Pinterest-SEO, utnyttjar säsongsinnehållscykler och analyserar prestandadata`,
     description: `Pinterest är inte en social medieplattform. Det är en visuell sökmotor där användare aktivt söker efter produkter och idéer att köpa. För säljare av utskriftsbara arbetsblad är denna distinktion avgörande — Pinterest-användare upptäcker, sparar och klickar sig vidare till köp av pedagogiska resurser månader efter att en pin publicerats. Denna guide ger ett komplett Pinterest-marknadsföringsramverk byggt specifikt för arbetsbladsföretag, från profiloptimering och tavlestrategi till pin-design, nyckelordsintegrering, säsongsplanering och analysdrivet förfinande.`,
   },
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Nej. Pinterests organiska räckvidd är tillräckligt betydande för att driva meningsfull trafik utan betald promotion. Många framgångsrika arbetsbladsäljare genererar tusentals månatliga butiksbesök helt genom organiska pins. Pinterest-annonser kan accelerera resultat för specifika produkter eller säsongskampanjer, men de krävs inte för en framgångsrik Pinterest-marknadsföringsstrategi. Fokusera på att bemästra organisk pinning först — optimerade profiler, nyckelordrika beskrivningar, strategisk tavleorganisation och konsekvent fräscht pin-skapande. När din organiska strategi genererar förutsägbara resultat kan du överväga att testa promotade pins på dina högst konverterande produkter för att förstärka bevisade vinnare snarare än att marknadsföra otestat innehåll.`,
     },
     {
-      question: 'Bör jag pinna samma produkt till flera tavlor?',
+      question: `Bör jag pinna samma produkt till flera tavlor?`,
       answer: `Ja, men gör det strategiskt och gradvis. Pinna varje produkt till den enskilt mest relevanta tavlan först, pinna den sedan till 2 till 3 ytterligare relevanta tavlor under den följande veckan, med ompinningarna utspridda flera dagar. Ett additionsarbetsblad för förskolan hör hemma på din tavla "Mattearbetsblad för förskolan," din tavla "Utskriftsbara additionsövningar" och din tavla "Hemundervisningens matteresurser." Varje tavla har en annorlunda publik och sökrelevans, så flertavlepinning ökar din totala exponering. Undvik dock att pinna samma bild till fler än 4 till 5 tavlor, och pinna aldrig till 10 eller fler tavlor samtidigt — detta kan utlösa skräppostdetektering. Använd olika pin-bildvarianter på tavlor när möjligt för att maximera fräscha innehållssignaler.`,
     },
     {
@@ -137,17 +137,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'social-media-printable-marketing', anchorText: `Marknadsföring i sociala medier för säljare av utskriftsbara produkter` },
+    { pageType: 'guide', slug: `social-media-printable-marketing`, anchorText: `Marknadsföring i sociala medier för säljare av utskriftsbara produkter` },
     { pageType: 'guide', slug: 'email-marketing-printables', anchorText: `E-postmarknadsföring för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Så säljer du mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Så säljer du mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
     { pageType: 'guide', slug: 'seasonal-marketing-printables', anchorText: `Säsongsmarknadsföringskalender för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'Så automatiserar du ditt utskriftsbara företag' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: `Så automatiserar du ditt utskriftsbara företag` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
@@ -169,7 +169,7 @@ const content: GuideContent = {
     },
     {
       appId: 'matching',
-      title: 'Matchningsarbetsblad-generator',
+      title: `Matchningsarbetsblad-generator`,
       description: `Skapar tematiska visuella matchningsaktiviteter som visas vackert i Pinterests vertikala format. Den bildrika layouten och färgglada designerna attraherar naturligt engagemang från Pinterest-användare.`,
     },
   ],
@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: `Visuellt slående arbetsblad skapar naturligt övertygande Pinterest-pin-bilder`,
       },
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: `/samples/english/bingo/bingo_card.webp`,
         alt: `Bingokort som demonstrerar färgglada pin-värdiga produktdesigner`,
         caption: `Färgglada, tematiska produkter genererar högre sparfrekvenser och klickfrekvenser på Pinterest`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Ryggsäck — tematisk pedagogisk bild', caption: 'Ryggsäck' },
-    { src: '/image-library/camping/bear.webp', alt: 'Björn — tematisk pedagogisk bild', caption: 'Björn' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Kikare — tematisk pedagogisk bild', caption: 'Kikare' },
-    { src: '/image-library/camping/boots.webp', alt: 'Stövlar — tematisk pedagogisk bild', caption: 'Stövlar' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Stuga — tematisk pedagogisk bild', caption: 'Stuga' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Ryggsäck — tematisk pedagogisk bild`, caption: 'Ryggsäck' },
+    { src: `/image-library/camping/bear.webp`, alt: `Björn — tematisk pedagogisk bild`, caption: 'Björn' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Kikare — tematisk pedagogisk bild`, caption: 'Kikare' },
+    { src: `/image-library/camping/boots.webp`, alt: `Stövlar — tematisk pedagogisk bild`, caption: 'Stövlar' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Stuga — tematisk pedagogisk bild`, caption: 'Stuga' },
   ],
 };
 

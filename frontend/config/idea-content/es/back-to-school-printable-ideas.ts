@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     titleTag: `Ideas Imprimibles Vuelta al Cole para Vender — Guía`,
     metaDescription: `Descubre ideas de imprimibles de vuelta al cole para vender en Etsy, Amazon KDP y Gumroad. Conceptos de productos escolares, estrategias julio-septiembre.`,
-    primaryKeyword: 'ideas imprimibles vuelta al cole',
+    primaryKeyword: `ideas imprimibles vuelta al cole`,
     secondaryKeywords: [
-      'fichas regreso a clases para vender',
-      'negocio imprimibles vuelta al cole',
-      'fichas actividades escolares para vendedores',
-      'vender imprimibles regreso a clases en línea',
+      `fichas regreso a clases para vender`,
+      `negocio imprimibles vuelta al cole`,
+      `fichas actividades escolares para vendedores`,
+      `vender imprimibles regreso a clases en línea`,
     ],
     lsiKeywords: [
-      'paquetes fichas temática tienda',
-      'imprimibles recursos para vendedores',
-      'actividades temática útiles escolares',
+      `paquetes fichas temática tienda`,
+      `imprimibles recursos para vendedores`,
+      `actividades temática útiles escolares`,
     ],
   },
   hero: {
@@ -97,7 +97,7 @@ Desde la perspectiva de la investigación de palabras clave, las búsquedas de i
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimibles de Vuelta al Cole en Etsy',
+      title: `Vender Imprimibles de Vuelta al Cole en Etsy`,
       description: `Etsy recompensa la publicación anticipada y la especificidad de palabras clave para los listados de imprimibles de vuelta al cole, y la temporada de compras de verano crea un enorme pico de tráfico para las descargas digitales educativas. Publica tus listados de vuelta al cole a finales de junio para dar tiempo a los algoritmos de búsqueda de Etsy de indexar y posicionar tus productos antes de que comience el aumento de demanda en julio. Utiliza las trece etiquetas con variaciones que combinen subtemas escolares, tipos de habilidad y grupos de edad: «fichas conteo vuelta al cole preescolar», «sopa de letras primer día de clases jardín de infantes» y «páginas colorear útiles escolares infantil» apuntan a búsquedas específicas de compradores mucho más efectivamente que etiquetas amplias como «fichas vuelta al cole». Crea listados orientados a paquetes posicionando las colecciones de actividades como paquetes para la primera semana de clases o kits de preparación escolar. Las imágenes de listados mostrando fichas impresas en entornos con temática escolar con accesorios estacionales como lápices, manzanas y mochilas superan las vistas previas digitales planas y captan la mentalidad de preparación que impulsa las compras educativas de verano a otoño.`,
     },
     {
@@ -155,18 +155,18 @@ Desde la perspectiva de la investigación de palabras clave, las búsquedas de i
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'crear-linea-productos-imprimibles',
-      anchorText: 'Cómo Crear una Línea de Productos Imprimibles',
+      slug: `crear-linea-productos-imprimibles`,
+      anchorText: `Cómo Crear una Línea de Productos Imprimibles`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO en Etsy para Imprimibles Educativos',
+      anchorText: `SEO en Etsy para Imprimibles Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'crear-paquetes-fichas-ejercicios',
-      anchorText: 'Cómo Crear Paquetes de Fichas que se Vendan',
+      slug: `crear-paquetes-fichas-ejercicios`,
+      anchorText: `Cómo Crear Paquetes de Fichas que se Vendan`,
     },
     {
       pageType: 'guide',
@@ -175,12 +175,12 @@ Desde la perspectiva de la investigación de palabras clave, las búsquedas de i
     },
     {
       pageType: 'guide',
-      slug: 'marketing-estacional-imprimibles',
+      slug: `marketing-estacional-imprimibles`,
       anchorText: `Calendario de Marketing Estacional para Vendedores de Imprimibles`,
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles`,
     },
     {
@@ -190,18 +190,18 @@ Desde la perspectiva de la investigación de palabras clave, las búsquedas de i
     },
     {
       pageType: 'idea',
-      slug: 'san-valentin-ideas-imprimibles',
-      anchorText: 'Ideas de Negocio de Imprimibles de San Valentín',
+      slug: `san-valentin-ideas-imprimibles`,
+      anchorText: `Ideas de Negocio de Imprimibles de San Valentín`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagen educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Carpeta — imagen educativa temática', caption: 'Carpeta' },
-    { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagen educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Carpeta — imagen educativa temática`, caption: 'Carpeta' },
+    { src: `/image-library/classroom/book.webp`, alt: `Libro — imagen educativa temática`, caption: 'Libro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armario — imagen educativa temática`, caption: 'Armario' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagen educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendario — imagen educativa temática`, caption: 'Calendario' },
   ],
 
 

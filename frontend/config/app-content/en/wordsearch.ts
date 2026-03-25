@@ -6,15 +6,15 @@ const content: AppContent = {
     secondaryKeywords: [
       `printable word search puzzle maker for Etsy sellers`,
       `custom word search worksheet generator for KDP publishers`,
-      'sell word search puzzles on Gumroad and Etsy',
-      'word search printables commercial license',
+      `sell word search puzzles on Gumroad and Etsy`,
+      `word search printables commercial license`,
     ],
     lsiKeywords: [
       `digital word search puzzle products online business`,
-      'printable hidden-word grid worksheet business',
-      'commercial use word search generator',
+      `printable hidden-word grid worksheet business`,
+      `commercial use word search generator`,
     ],
-    titleTag: 'Word Search Generator | Create & Sell Worksheets',
+    titleTag: `Word Search Generator | Create & Sell Worksheets`,
     metaDescription: `Create word search worksheets to sell on Etsy, KDP & Gumroad. Adjustable grid size 5-30, direction controls, locale-aware fillers. Try free — license available.`,
   },
 
@@ -26,7 +26,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'How to Create Word Search Worksheets in 5 Steps',
+    title: `How to Create Word Search Worksheets in 5 Steps`,
     steps: [
       {
         title: 'Set Your Page Layout',
@@ -39,17 +39,17 @@ const content: AppContent = {
           `Open the Content panel and select one of three sources. Image Library mode lets you browse 104 themes and select images — each image name becomes a hidden word in the grid. Use the Random Theme button to auto-select a surprise theme for quick variety. Manual Edit Mode lets you select images from the library then edit their display names before generating, perfect for simplified vocabulary or phonics-focused words. Custom Word List mode skips images entirely and lets you type up to 8 words directly, ideal for weekly spelling lists, subject-specific terms, or foreign language practice.`,
       },
       {
-        title: 'Configure Grid Size and Word Directions',
+        title: `Configure Grid Size and Word Directions`,
         description:
           `Set the grid dimensions by adjusting rows and columns independently from 5 to 30 (default 12×12). Small grids like 5×5 or 6×6 work well for beginners; large grids like 20×20 or 30×30 create serious challenges. Then toggle diagonal words on or off and reverse (backwards) words on or off. With both enabled, words can be placed in eight directions — horizontal, vertical, diagonal, and their reverses. Disabling diagonals limits placement to horizontal and vertical only, creating easier puzzles for younger or less experienced solvers.`,
       },
       {
-        title: 'Set Display Mode and Add Custom Touches',
+        title: `Set Display Mode and Add Custom Touches`,
         description:
           `Choose from three word/image display modes: Show Words and Images (default), Show Only Images, or Show Only Words. Each mode controls what appears alongside the grid as clues. Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Adjust font size, color, and outline for maximum readability. Use the full Fabric.js canvas to drag, resize, and reposition every element.`,
       },
       {
-        title: 'Generate the Color-Coded Answer Key and Download',
+        title: `Generate the Color-Coded Answer Key and Download`,
         description:
           `Switch to the Answer Key tab and click Generate Answer Key to create a solved version where each hidden word is highlighted in one of six cycling colors — pink, blue, green, gold, coral, and lavender — making every word visually distinct. Toggle grayscale export for ink-friendly versions. Then open the Download menu and export both the worksheet and its answer key as high-resolution JPEG or print-ready PDF. Every export renders at 400+ DPI so your word search worksheets look crisp whether printed at home, uploaded to Etsy, or included in an Amazon KDP puzzle book.`,
       },
@@ -60,12 +60,12 @@ const content: AppContent = {
     title: `Key Features of the Word Search Worksheet Generator`,
     features: [
       {
-        title: 'Hidden-Word Grid Puzzle with Image Clues',
+        title: `Hidden-Word Grid Puzzle with Image Clues`,
         description:
           `Each puzzle embeds hidden words inside a grid of random filler letters. Solvers scan rows, columns, and diagonals to find them — the classic word search format that engages visual scanning, pattern recognition, and vocabulary recall simultaneously. When using Image Library or Manual Edit mode, images appear alongside the grid as visual clues, bridging picture recognition and word identification. Custom Word List mode creates pure text-based word searches without images, expanding the format to any subject or vocabulary set.`,
       },
       {
-        title: 'Customizable Grid Size from 5×5 to 30×30',
+        title: `Customizable Grid Size from 5×5 to 30×30`,
         description:
           `Adjust rows and columns independently from 5 to 30, creating grids as compact as 5×5 (25 cells) or as expansive as 30×30 (900 cells). Small grids make quick, approachable puzzles ideal for the early-learner niche or warm-up activities. Large grids create dense, challenging searches that keep experienced solvers engaged for longer. The default 12×12 grid balances difficulty and page space for most audiences. This range lets you create progressive difficulty bundles — from tiny starter grids to massive expert-level challenges — all from the same tool.`,
       },
@@ -85,17 +85,17 @@ const content: AppContent = {
           `Grid filler characters automatically match the selected language's alphabet and character frequency. German grids include ä, ö, ü, and ß at weighted frequencies matching natural German text. French grids include à, â, é, è, ê, ë, î, ï, ô, ù, û, and ç. Swedish grids include å, ä, and ö. Every supported locale gets authentic filler characters, making puzzles linguistically genuine rather than obviously English-generated. This feature is unique to Word Search — it affects not just the hidden words but the entire grid background.`,
       },
       {
-        title: 'Color-Coded Answer Key with 6 Highlight Colors',
+        title: `Color-Coded Answer Key with 6 Highlight Colors`,
         description:
           `The answer key highlights each found word in one of six cycling colors: pink, blue, green, gold, coral, and lavender. Each word gets a distinct color for instant visual identification — professional answer keys add perceived value to your listings. The color-coded format is visually engaging and polished — a clear step above simple circle-the-word answer keys. Toggle grayscale export when you need ink-friendly versions for black-and-white printing.`,
       },
       {
-        title: 'Print-Ready PDF and JPEG Export at High DPI',
+        title: `Print-Ready PDF and JPEG Export at High DPI`,
         description:
           `Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for clear printing or black-and-white puzzle books. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.`,
       },
       {
-        title: 'Full Canvas Editing with Text and Image Tools',
+        title: `Full Canvas Editing with Text and Image Tools`,
         description:
           `The built-in Fabric.js canvas lets you drag, resize, rotate, and reposition every element on the page — text, puzzle grids, images, borders, and backgrounds. Add custom text with seven fonts, insert decorative elements, and use layer controls for precise stacking order. Alignment tools snap elements into position, and lock/unlock protects finished elements while you edit others. Unlimited undo and redo let you experiment freely, giving you the layout flexibility of a graphic design tool inside a word search generator.`,
       },
@@ -103,49 +103,49 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'How to Sell Word Search Worksheets Online',
+    title: `How to Sell Word Search Worksheets Online`,
     cases: [
       {
-        title: 'Themed Word Search Bundles on Etsy',
+        title: `Themed Word Search Bundles on Etsy`,
         description:
           `Create sets of 10–20 word search worksheets grouped by theme and difficulty — farm animals in a small 8×8 grid with no diagonals, ocean creatures in a 15×15 grid with diagonals enabled, dinosaurs in a 20×20 grid with reverse words turned on — and list them as instant-download bundles on Etsy. Include color-coded answer keys as bonus files. The visual grid format with image clues stands out from plain word lists in Etsy search results. Price individual theme packs at $3–$5 and multi-theme progressive-difficulty bundles at $12–$18.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Word Search Puzzle Books on Amazon KDP',
+        title: `Word Search Puzzle Books on Amazon KDP`,
         description:
           `Compile 50–100 word search puzzles into a printed puzzle book formatted for Amazon KDP. Use progressive grid sizes as the difficulty curve: start with 6×6 horizontal-only grids, advance through 12×12 grids with diagonals, and finish with 25×25 grids with reverse words enabled. Group chapters by theme (animals, food, vehicles, nature) for browsable variety. Add a title page, difficulty guide, and answer key section with color-coded highlights at the back. Word search puzzle books sell consistently year-round with minimal advertising.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Tiered Difficulty Bundles for Higher Price Points',
+        title: `Tiered Difficulty Bundles for Higher Price Points`,
         description:
           `Build leveled word search practice sets using grid size and direction controls as differentiation axes: Level 1 (8×8, horizontal only, 4 words), Level 2 (12×12, horizontal and vertical, 6 words), Level 3 (16×16, diagonals enabled, 8 words), and Level 4 (20×20, diagonals and reverse, 8 words). Package each level with color-coded answer keys and a progress tracking sheet. Buyers pay premium prices for tiered difficulty bundles they can use immediately across multiple skill levels.`,
-        platform: 'Etsy / Gumroad / Your Own Store',
+        platform: `Etsy / Gumroad / Your Own Store`,
       },
       {
         title: `Multilingual Word Search Products with Full Access`,
         description:
           `Full Access unlocks all 11 languages, and because Word Search is language-sensitive, both the hidden words and the grid filler letters change by language. "Dog" in English becomes "Hund" in a grid filled with German characters including ä, ö, ü; "chien" in French appears in a grid with é, è, ç, à. Each language version is a genuinely different product with different words, different filler characters, and a different solving experience. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
+        platform: `Etsy / Amazon KDP / Gumroad (multilingual)`,
       },
       {
-        title: 'Pinterest Lead Funnel for Word Search Products',
+        title: `Pinterest Lead Funnel for Word Search Products`,
         description:
           `Use Custom Word List mode to create free sample word search worksheets for any vocabulary niche — spelling words, science terms, seasonal vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Post eye-catching solved puzzles on Pinterest linking to your Etsy or Gumroad store. Offer a free sample PDF to build your email list, then upsell full themed bundles to repeat buyers. The color-coded answer key adds perceived value, and the classic word search format drives consistent engagement across all demographics.`,
-        platform: 'Pinterest / Email List / Etsy / Gumroad',
+        platform: `Pinterest / Email List / Etsy / Gumroad`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'How does the word search puzzle work?',
+      question: `How does the word search puzzle work?`,
       answer:
         `Hidden words are embedded inside a grid of random filler letters. Solvers scan rows, columns, and optionally diagonals to find each word. When found, they circle or highlight the word in the grid. The grid filler letters are randomized each time you generate, so every puzzle is unique even with the same word list. Up to 8 words can be placed in a single grid.`,
     },
     {
-      question: 'What grid sizes are available?',
+      question: `What grid sizes are available?`,
       answer:
         `You can set rows and columns independently from 5 to 30. The default is 12×12. A 5×5 grid creates a quick, easy puzzle with just 25 cells; a 30×30 grid creates a dense, challenging search with 900 cells. Adjusting grid size is the primary way to control difficulty alongside word direction settings.`,
     },
@@ -155,32 +155,32 @@ const content: AppContent = {
         `The diagonal toggle allows words to be placed along both diagonal axes in addition to horizontal and vertical. The reverse toggle allows words to be placed backwards in every enabled direction. With both enabled, words can appear in eight possible directions. With both disabled, words only appear left-to-right horizontally and top-to-bottom vertically. These toggles let you fine-tune difficulty from simple two-direction grids to complex eight-direction puzzles.`,
     },
     {
-      question: 'What are the three content sources?',
+      question: `What are the three content sources?`,
       answer:
         `Image Library mode uses themed illustrations where each image name becomes a hidden word. Manual Edit Mode lets you select images then customize their display names before generating — perfect for alternate vocabulary or simplified spellings. Custom Word List mode skips images entirely and lets you type up to 8 words directly, enabling word search worksheets for any subject without needing matching illustrations.`,
     },
     {
-      question: 'What are the three display modes?',
+      question: `What are the three display modes?`,
       answer:
         `Show Words and Images (default) displays both image clues and word labels alongside the grid. Show Only Images displays image clues without text labels, requiring solvers to identify the image and find the word themselves. Show Only Words displays text labels without images, creating a pure text-based word search experience. Each mode controls what appears as clue references beside the grid.`,
     },
     {
-      question: 'How does the locale-aware alphabet filler work?',
+      question: `How does the locale-aware alphabet filler work?`,
       answer:
         `When you select a language, the grid filler characters automatically switch to that language's alphabet with weighted frequency distributions. German grids include ä, ö, ü, and ß. French grids include é, è, ç, à, and other accented characters. Swedish grids include å, ä, and ö. This makes puzzles linguistically authentic — the filler letters look natural rather than obviously English-generated.`,
     },
     {
-      question: 'How does the color-coded answer key work?',
+      question: `How does the color-coded answer key work?`,
       answer:
         `The answer key highlights each found word in one of six cycling colors: pink, blue, green, gold, coral, and lavender. Each word gets a distinct color so they are visually distinguishable even when words cross or overlap in the grid. You can toggle grayscale export for ink-friendly answer key versions. The answer key is generated as a separate downloadable file.`,
     },
     {
-      question: 'What is the maximum number of words per puzzle?',
+      question: `What is the maximum number of words per puzzle?`,
       answer:
         `You can place up to 8 words or images in a single word search grid. This limit ensures words fit cleanly in the grid without excessive overlap. For larger word counts, create multiple worksheets and package them as a set — this also increases the perceived value of your product bundles.`,
     },
     {
-      question: 'Is the Word Search generator language-sensitive?',
+      question: `Is the Word Search generator language-sensitive?`,
       answer:
         `Yes. Because hidden words are image names in the selected language, changing the language changes the puzzle content entirely. Additionally, the grid filler letters change to match the target language's character set with proper frequency weights. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct product with different words and different filler characters.`,
     },
@@ -205,27 +205,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'alphabet-train-worksheets',
-      anchorText: 'Alphabet Train Worksheet Generator',
+      anchorText: `Alphabet Train Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'prepositions-worksheets',
-      anchorText: 'Preposition Worksheet Generator',
+      anchorText: `Preposition Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'word-guess-worksheets',
-      anchorText: 'Word Guess Worksheet Generator',
+      anchorText: `Word Guess Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'word-scramble-worksheets',
-      anchorText: 'Word Scramble Worksheet Generator',
+      anchorText: `Word Scramble Worksheet Generator`,
     },
     {
       pageType: 'app',
       slug: 'cryptogram-worksheets',
-      anchorText: 'Cryptogram Worksheet Generator',
+      anchorText: `Cryptogram Worksheet Generator`,
     },
     {
       pageType: 'bundle',
@@ -235,27 +235,27 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'sell-word-search-etsy',
-      anchorText: 'Guide to Selling Language Worksheets on Etsy',
+      anchorText: `Guide to Selling Language Worksheets on Etsy`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `The Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'idea',
       slug: 'esl-printable-ideas',
-      anchorText: 'ESL Printable Ideas for Language Learning',
+      anchorText: `ESL Printable Ideas for Language Learning`,
     },
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Parents & Sellers',
+      anchorText: `Homeschool Printable Ideas for Parents & Sellers`,
     },
     {
       pageType: 'guide',
       slug: 'create-word-search-puzzles',
-      anchorText: 'How to Create Word Search Puzzles That Sell',
+      anchorText: `How to Create Word Search Puzzles That Sell`,
     },
   ],
 
@@ -276,7 +276,7 @@ const content: AppContent = {
         caption: `Landscape layout — wider grid with diagonal and reverse words enabled`,
       },
       {
-        src: '/samples/english/wordsearch/custom word list.webp',
+        src: `/samples/english/wordsearch/custom word list.webp`,
         alt: `Word search worksheet using custom word list mode without images`,
         caption: `Custom Word List mode — text-only word search without image clues`,
       },

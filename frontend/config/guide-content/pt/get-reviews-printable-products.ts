@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'obter avaliações produtos imprimíveis',
+    primaryKeyword: `obter avaliações produtos imprimíveis`,
     secondaryKeywords: [
-      'estratégia avaliações produtos imprimíveis',
-      'avaliações etsy produtos digitais',
-      'avaliações clientes negócio fichas',
-      'aumentar avaliações loja imprimíveis',
+      `estratégia avaliações produtos imprimíveis`,
+      `avaliações etsy produtos digitais`,
+      `avaliações clientes negócio fichas`,
+      `aumentar avaliações loja imprimíveis`,
     ],
     lsiKeywords: [
       `classificação por estrelas comentários comprador pedido de avaliação geração de avaliações prova social`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `avaliações orgânicas comentários autênticos volume de avaliações posicionamento marketplace`,
       `otimização de anúncio definição de expectativas comunicação com comprador experiência pós-compra`,
     ],
-    titleTag: 'Obter Avaliações Produtos Imprimíveis — Guia',
+    titleTag: `Obter Avaliações Produtos Imprimíveis — Guia`,
     metaDescription: `Estratégias comprovadas para obter avaliações de produtos imprimíveis. Construa prova social, ganhe comentários autênticos e aumente a sua credibilidade.`,
   },
 
   hero: {
-    title: 'Como Obter Avaliações para Produtos Imprimíveis',
+    title: `Como Obter Avaliações para Produtos Imprimíveis`,
     tagline: `Um guia completo para obter avaliações autênticas de produtos imprimíveis — abrangendo como oferecer experiências de produto dignas de avaliação, otimizar a qualidade de download e utilização, incluir pedidos de avaliação profissionais, fazer seguimento com os compradores no momento certo, responder a todas as avaliações de forma construtiva, definir expectativas precisas nos anúncios, gerar volume de avaliações através do crescimento do catálogo e criar ciclos de feedback que melhorem os seus produtos ao longo do tempo`,
     description: `As avaliações são o sinal de confiança mais poderoso nos marketplaces de produtos digitais. Para os vendedores de imprimíveis, onde os compradores não podem examinar fisicamente o produto antes de comprar, as avaliações servem como a evidência principal de que as suas fichas cumprem o que prometem. Um produto com 50 avaliações positivas vende mais do que um produto idêntico com zero avaliações porque os compradores usam a prova social para reduzir o risco percebido de comprar a um vendedor desconhecido. Este guia mostra-lhe como obter sistematicamente avaliações autênticas que construam credibilidade, melhorem a visibilidade no marketplace e gerem um crescimento constante de vendas.`,
   },
@@ -47,7 +47,7 @@ const content: GuideContent = {
       content: `O timing é a variável mais importante na eficácia dos pedidos de avaliação. Um pedido que chega antes de o comprador ter usado o produto parece prematuro e é facilmente descartado. Um pedido que chega semanas após a compra, quando o comprador esqueceu os detalhes da sua experiência, carece do impulso emocional que motiva alguém a escrever uma avaliação. A janela de tempo ideal é quando o comprador teve tempo suficiente para descarregar, imprimir e usar o produto pelo menos uma vez — mas suficientemente recente para que a experiência continue fresca e as impressões positivas estejam presentes.\n\nPara a maioria dos produtos imprimíveis, esta janela ideal situa-se entre 5 e 10 dias após a compra. Este período permite o percurso típico do comprador: descarregar o ficheiro dentro de um dia ou dois da compra, imprimi-lo nos dias seguintes e usá-lo pelo menos uma vez online ou em casa antes de chegar o pedido de avaliação. Alguns tipos de produtos podem justificar janelas mais longas — um caderno de trabalho completo que um vendedor planeia usar durante várias semanas pode merecer um atraso de 14 dias para permitir uma utilização significativa, enquanto uma atividade de uma única página para colorir pode ser usada dentro de um dia da compra, tornando apropriado um seguimento de 3 dias.\n\nUse as funcionalidades de mensagens do marketplace para enviar mensagens de seguimento onde os termos da plataforma o permitam. Nem todas as plataformas permitem ou encorajam a comunicação pós-compra iniciada pelo vendedor, por isso verifique os termos de serviço atuais de cada marketplace antes de implementar mensagens de seguimento. Onde seja permitido, a sua mensagem de seguimento deve começar com valor em vez de um pedido de avaliação. Abra com uma verificação genuína: "Queria assegurar-me de que o seu [nome do produto] se descarregou corretamente e está a funcionar bem para a sua turma." Continue com uma dica de utilização específica ou sugestão relacionada com o produto. Feche com uma menção natural das avaliações: "Se tiver um momento, adoraria saber como as fichas funcionaram para os seus usuários — o seu feedback ajuda-me a criar melhores recursos e ajuda outros vendedores a encontrar o que precisam."\n\nO tom da sua comunicação de seguimento impacta diretamente se gera uma resposta positiva ou irritação. Escreva como uma pessoa real a ter uma conversa genuína, não como um negócio a executar um plano de marketing. Use o nome do comprador se estiver disponível. Faça referência ao produto específico que compraram em vez de usar um modelo genérico que parece produzido em massa. Expresse interesse genuíno em como o produto funcionou para a sua situação específica. Os compradores conseguem distinguir imediatamente entre um vendedor que se preocupa com a sua experiência e um vendedor que solicita avaliações mecanicamente — e respondem em conformidade.\n\nNunca envie mais do que uma mensagem de seguimento por compra. Um único seguimento bem cronometrado e orientado para o valor é profissional e apreciado. Uma segunda mensagem a repetir o pedido de avaliação cruza para o território da insistência e pode gerar sentimento negativo que resulte numa avaliação irritada ou num abandono da sua loja. Se o comprador não responder ao seu seguimento ou não deixar uma avaliação, aceite esse resultado com elegância. A maioria dos compradores nunca deixará avaliações independentemente de quão perfeitamente execute a sua estratégia de avaliações — o seu objetivo é aumentar a percentagem que o faz, não alcançar uma taxa de avaliações de 100%, que não é realista nem necessária para o sucesso do negócio.`,
     },
     {
-      heading: 'Responda a Cada Avaliação — Positiva e Negativa',
+      heading: `Responda a Cada Avaliação — Positiva e Negativa`,
       content: `As respostas às avaliações são visíveis não só para quem avaliou mas para cada comprador potencial que lê as avaliações do seu produto antes de tomar uma decisão de compra. Um vendedor que responde ponderadamente às avaliações demonstra envolvimento ativo, profissionalismo e atenção ao cliente — qualidades que reduzem a hesitação de compra para os compradores indecisos. A investigação mostra consistentemente que produtos com respostas do vendedor às avaliações convertem a taxas mais elevadas do que produtos com avaliações sem resposta, porque as respostas sinalizam que uma pessoa real está por trás do produto e estará disponível se o comprador precisar de ajuda.\n\nPara avaliações positivas, responda com gratidão específica que faça referência ao que o avaliador mencionou. Se um avaliador diz "Os meus usuários adoraram o tema dos animais," responda com algo como "Muito obrigado por partilhar isso — o tema dos animais é um dos nossos mais populares, e é maravilhoso saber que os seus usuários o apreciaram." Esta especificidade mostra que realmente leu a avaliação em vez de publicar uma resposta genérica de "Obrigado pela sua avaliação!" a cada comentário. As respostas específicas também criam conteúdo adicional que reforça os pontos fortes do produto para os compradores potenciais que estão a ler as avaliações para avaliar o produto.\n\nAs avaliações negativas requerem uma estratégia de resposta mais cuidadosa, mas são igualmente importantes de abordar — e em alguns aspetos mais valiosas como oportunidades de construção de confiança. Quando um comprador deixa uma avaliação negativa, os compradores potenciais observam como a gere. Uma resposta defensiva, desdenhosa ou argumentativa confirma a queixa do avaliador negativo e sinaliza que o vendedor é difícil de lidar. Uma resposta construtiva, empática e orientada para soluções pode realmente construir mais confiança do que a avaliação negativa prejudicou, porque demonstra responsabilidade e compromisso com o cliente.\n\nResponda a avaliações negativas seguindo uma estrutura consistente: reconheça a preocupação sem ficar na defensiva, assuma responsabilidade onde for apropriado, ofereça uma solução específica e expresse disposição para resolver a situação. Por exemplo: "Obrigado pelo seu feedback. Lamento que o nível de dificuldade não tenha correspondido ao que necessitava para a sua turma. Terei todo o gosto em recomendar-lhe um conjunto diferente que possa ser mais adequado para o nível dos seus usuários, ou posso dar-lhe sugestões para adaptar estas fichas. Não hesite em contactar-me diretamente para que possa ajudá-lo." Esta resposta valida a experiência do comprador, oferece assistência concreta e demonstra a todos os leitores que leva a satisfação do cliente a sério.\n\nUse os temas das avaliações negativas como dados de diagnóstico em vez de crítica pessoal. Se múltiplas avaliações mencionam o mesmo problema — instruções confusas, desajuste do nível de dificuldade, problemas de impressão em papel A4 — isso é feedback acionável que sinaliza uma oportunidade genuína de melhoria do produto. Aborde o problema recorrente no próprio produto (atualize instruções, adicione orientação sobre o nível de dificuldade, inclua formato compatível com A4), depois responda às avaliações mencionando que o problema foi resolvido. Este ciclo visível de melhoria demonstra aos compradores potenciais que os seus produtos melhoram ao longo do tempo com base em comentários reais de utilizadores, o que é um sinal de confiança poderoso que anúncios genéricos de produtos não conseguem transmitir.\n\nEstabeleça um horário para rever e responder a avaliações em todas as plataformas onde vende. Uma revisão diária de 5 minutos assegura que nunca deixa avaliações sem resposta por períodos prolongados. As respostas oportunas são mais impactantes do que as tardias porque o avaliador ainda está envolvido na interação, e os compradores potenciais veem participação ativa do vendedor em vez de comentários sem resposta há semanas. Muitos marketplaces também notificam os avaliadores quando um vendedor responde, criando um ponto de contacto adicional que reforça a associação positiva do comprador com a sua marca.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Não. Cada marketplace importante proíbe explicitamente as avaliações incentivadas, incluindo oferecer descontos, cupões, produtos futuros ou qualquer outro benefício em troca de uma avaliação. Violar esta política pode resultar na eliminação de avaliações, suspensão do anúncio ou encerramento permanente da conta. Para além do cumprimento de políticas, as avaliações incentivadas minam a confiança que torna as avaliações valiosas em primeiro lugar. Se os compradores suspeitarem que as avaliações positivas foram compradas ou incentivadas em vez de conquistadas, as avaliações perdem o seu poder persuasivo. Concentre-se exclusivamente em conquistar avaliações orgânicas através da qualidade do produto, expectativas claras, seguimento profissional e em tornar o processo de avaliação fácil. As avaliações autênticas de compradores genuinamente satisfeitos são mais persuasivas e sustentáveis do que qualquer quantidade de comentários incentivados.`,
     },
     {
-      question: 'Com que rapidez devo responder às avaliações?',
+      question: `Com que rapidez devo responder às avaliações?`,
       answer: `Responda a todas as avaliações dentro de 24 a 48 horas. As respostas oportunas demonstram envolvimento ativo do vendedor e mostram aos compradores potenciais que monitoriza e se preocupa com o feedback dos clientes. Para as avaliações negativas, as respostas oportunas são especialmente importantes porque limitam a janela durante a qual um comprador potencial vê uma queixa sem resposta. Uma avaliação negativa com uma resposta construtiva do vendedor publicada no mesmo dia lê-se de forma muito diferente de uma avaliação negativa que permaneceu sem resposta durante duas semanas. Estabeleça uma rotina diária de revisão de avaliações em todas as plataformas, não levando mais do que 5 minutos por dia. Este pequeno investimento de tempo gera retornos desproporcionais em confiança do comprador e credibilidade da loja.`,
     },
     {
@@ -137,29 +137,29 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'suporte-cliente-produtos-digitais', anchorText: `Suporte ao cliente para negócios de produtos digitais` },
-    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para material educativo imprimível' },
-    { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
+    { pageType: 'guide', slug: `suporte-cliente-produtos-digitais`, anchorText: `Suporte ao cliente para negócios de produtos digitais` },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: `Como vender fichas de matemática no Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO no Etsy para material educativo imprimível` },
+    { pageType: 'guide', slug: `criar-linha-produtos-imprimiveis`, anchorText: `Como criar uma linha de produtos imprimíveis` },
     { pageType: 'guide', slug: 'precos-material-educativo', anchorText: `Estratégias de preços para material educativo imprimível` },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas-exercicios', anchorText: 'Como criar pacotes de fichas que vendam' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
+    { pageType: 'guide', slug: `criar-pacotes-fichas-exercicios`, anchorText: `Como criar pacotes de fichas que vendam` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimiveis`, anchorText: `Como escalar o seu negócio de imprimíveis` },
     { pageType: 'guide', slug: 'email-marketing-imprimiveis', anchorText: `Email marketing para vendedores de produtos imprimíveis` },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: `Guia de seleção de nicho para negócios de imprimíveis` },
-    { pageType: 'guide', slug: 'padroes-qualidade-fichas-exercicios', anchorText: 'Padrões de qualidade para fichas profissionais' },
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'guide', slug: `padroes-qualidade-fichas-exercicios`, anchorText: `Padrões de qualidade para fichas profissionais` },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Gerador de Fichas de Emparelhamento',
+      title: `Gerador de Fichas de Emparelhamento`,
       description: `Tipo de produto visual e cativante que gera reações positivas fortes dos compradores e avaliações detalhadas. As fichas de emparelhamento demonstram qualidade através de temas coloridos e layouts intuitivos sobre os quais os compradores adoram dar o seu feedback.`,
     },
     {
       appId: 'coloring',
-      title: 'Gerador de Páginas para Colorir',
+      title: `Gerador de Páginas para Colorir`,
       description: `Produtos altamente visuais onde a qualidade é imediatamente aparente para os compradores. Os resultados profissionais de páginas para colorir impulsionam avaliações porque pais e vendedores podem ver e apreciar instantaneamente a qualidade do design.`,
     },
     {
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Áster — imagem educativa temática', caption: 'Áster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azálea — imagem educativa temática', caption: 'Azálea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begónia — imagem educativa temática', caption: 'Begónia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Campainha — imagem educativa temática', caption: 'Campainha' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Ranúnculo — imagem educativa temática', caption: 'Ranúnculo' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Áster — imagem educativa temática`, caption: 'Áster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azálea — imagem educativa temática`, caption: 'Azálea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begónia — imagem educativa temática`, caption: 'Begónia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Campainha — imagem educativa temática`, caption: 'Campainha' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Ranúnculo — imagem educativa temática`, caption: 'Ranúnculo' },
   ],
 };
 

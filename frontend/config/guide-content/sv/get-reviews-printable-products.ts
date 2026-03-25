@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'få recensioner utskriftsbara produkter',
+    primaryKeyword: `få recensioner utskriftsbara produkter`,
     secondaryKeywords: [
-      'strategi för recensioner utskriftsbara produkter',
-      'etsy recensioner digitala produkter',
-      'kundrecensioner arbetsbladsföretag',
-      'öka recensioner utskriftsbar butik',
+      `strategi för recensioner utskriftsbara produkter`,
+      `etsy recensioner digitala produkter`,
+      `kundrecensioner arbetsbladsföretag`,
+      `öka recensioner utskriftsbar butik`,
     ],
     lsiKeywords: [
       `stjärnbetyg köparfeedback produktrecension recensionsbegäran recensionsgenerering socialt bevis`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `organiska recensioner autentisk feedback recensionsvolym marknadsplatsranking`,
       `listningsoptimering förväntningssättning köparkommunikation efterköpsupplevelse`,
     ],
-    titleTag: 'Få recensioner utskriftsbara produkter — Guide',
+    titleTag: `Få recensioner utskriftsbara produkter — Guide`,
     metaDescription: `Beprövade strategier för att få recensioner för utskriftsbara produkter. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy-, KDP- och Gumroad-butik.`,
   },
 
   hero: {
-    title: 'Så får du recensioner för utskriftsbara produkter',
+    title: `Så får du recensioner för utskriftsbara produkter`,
     tagline: `En komplett guide till att tjäna autentiska recensioner för utskriftsbara produkter — inklusive hur du levererar recensionsvärda produktupplevelser, optimerar nedladdnings- och användningskvalitet, inkluderar professionella recensionsbegäranden, följer upp köpare vid rätt tidpunkt, svarar konstruktivt på alla recensioner, sätter korrekta listningsförväntningar, bygger recensionsvolym genom katalogtillväxt och skapar feedbackloopar som förbättrar dina produkter över tid`,
     description: `Recensioner är den mest kraftfulla förtroendesignalen på marknadsplatser för digitala produkter. För säljare av utskriftsbara produkter, där köpare inte fysiskt kan granska produkten före köp, fungerar recensioner som det primära beviset på att dina arbetsblad levererar vad de lovar. En produkt med 50 positiva recensioner säljer bättre än en identisk produkt med noll recensioner eftersom köpare använder socialt bevis för att minska den upplevda risken med att köpa från en okänd säljare. Denna guide visar dig hur du systematiskt tjänar autentiska recensioner som bygger trovärdighet, förbättrar marknadsplatssynlighet och driver konsekvent försäljningstillväxt.`,
   },
@@ -43,11 +43,11 @@ const content: GuideContent = {
       content: `En tack-infogssida är en varumärkt sida inom din digitala nedladdning som fyller tre syften: den tackar köparen för deras köp, den ger hjälpsam användningskontext och den inkluderar en artig recensionsbegäran. Denna infogssida är din mest tillförlitliga recensionsprompt eftersom den når varje enskild köpare i det ögonblick de engagerar sig med din produkt — till skillnad från uppföljningsmeddelanden som kan missas, filtreras eller ignoreras. En väldesignad infogssida känns som en naturlig del av produkten snarare än ett separat marknadsföringsmeddelande, vilket gör recensionsbegäran genuin snarare än transaktionell.\n\nDesigna din infogssida för att matcha den visuella kvaliteten och varumärket i resten av din produkt. Använd samma färgschema, typsnitt och designelement som dina arbetsblad så att infogssidan känns som en sammanhängande del av produkten snarare än ett eftermarknadstillägg. Inkludera din varumärkeslogotyp, ett varmt tackmeddelande och ett eller två specifika användningstips relevanta för produkttypen. En mattearbetsbladsinfogssida kan föreslå: "För bästa resultat, börja med de fem första sidorna som en uppvärmningsaktivitet och gå sedan vidare till de mer utmanande problemen." En målarboksinfogssida kan föreslå: "Dessa designer fungerar vackert med färgpennor, kritor eller tuschpennor — utskrift på tjockare papper förhindrar genomblödning med tuschpennor." Dessa tips demonstrerar expertis och omsorg samtidigt som de ger köparen handlingsbart värde.\n\nForma din recensionsbegäran kring att hjälpa andra köpare snarare än att hjälpa ditt företag. Köpare är betydligt mer mottagliga för "Din ärliga recension hjälper andra säljare hitta resurser som fungerar för deras produktlinje" än "Vänligen lämna en 5-stjärnig recension för att stödja vår butik." Den första formuleringen positionerar köparen som en hjälpsam communitymedlem som delar sin upplevelse. Den andra formuleringen positionerar dem som att de gör en tjänst åt ett företag — vilket känns transaktionellt och faktiskt kan minska recensionssannolikheten. Be aldrig specifikt om en positiv recension eller ett visst stjärnbetyg. Be om ärlig feedback och lita på att din produktkvalitet kommer att förtjäna det positiva sentimentet naturligt.\n\nInkludera en direktlänk eller tydliga instruktioner för hur man lämnar en recension på den specifika plattform där köparen handlade produkten. På Etsy innebär detta att dirigera dem till deras köphistorik där recensionsalternativet visas. På Amazon innebär detta att påminna dem om att de kan lämna en recension på produktsidan. På Gumroad innebär detta att peka dem till recensionssektionen av produktlistningen. Att minska den insats som krävs för att lämna en recension är ett av de mest effektiva sätten att öka recensionsfrekvensen — många köpare som avser att lämna en recension slutför aldrig handlingen helt enkelt för att de inte minns hur man navigerar till recensionsformuläret när impulsen infinner sig.\n\nPlacera din tack-infogssida strategiskt inom produktfilen. Att placera den som allra första sidan innebär att köpare ser den innan de engagerar sig med produkten, när de inte har någon upplevelse att recensera ännu. Att placera den som allra sista sidan innebär att köpare kanske aldrig når den om de bara skriver ut de sidor de behöver. Den mest effektiva placeringen är typiskt andra sidan — efter en förstasida men innan arbetsbladsinnehållet börjar. Denna placering säkerställer att köpare ser infogssidan tidigt, absorberar användningstipsen innan de börjar med arbetsbladen och stöter på recensionsbegäran medan de är i ett positivt, förväntansfullt sinne om produkten de just köpte.`,
     },
     {
-      heading: 'Följ upp med köpare vid rätt tidpunkt',
+      heading: `Följ upp med köpare vid rätt tidpunkt`,
       content: `Timing är den enskilt viktigaste variabeln i recensionsbegärans effektivitet. En begäran som anländer innan köparen har använt produkten känns för tidig och avfärdas lätt. En begäran som anländer veckor efter köp, när köparen har glömt detaljerna i sin upplevelse, saknar den emotionella drivkraft som motiverar någon att skriva en recension. Det optimala tidsfönstret är när köparen har haft tillräckligt med tid att ladda ner, skriva ut och använda produkten minst en gång — men tillräckligt nyligen för att upplevelsen fortfarande är fräsch och de positiva intrycken är högst i medvetandet.\n\nFör de flesta utskriftsbara produkter faller detta optimala fönster mellan 5 och 10 dagar efter köp. Denna tidsram tillåter den typiska köparresan: ladda ner filen inom en dag eller två efter köp, skriva ut den inom de följande dagarna och använda den minst en gång online eller hemma innan recensionsbegäran anländer. Vissa produkttyper kan motivera längre fönster — en heltäckande arbetsbok som en säljare planerar att använda under flera veckor kan förtjäna en 14-dagars fördröjning för att tillåta meningsfull användning, medan en ensidig målaraktivitet kan användas inom en dag efter köp, vilket gör en 3-dagars uppföljning lämplig.\n\nAnvänd marknadsplatsens meddelandefunktioner för att skicka uppföljningsmeddelanden där plattformens villkor tillåter. Inte alla plattformar tillåter eller uppmuntrar säljareinitierad efterköpskommunikation, så verifiera de aktuella användarvillkoren för varje marknadsplats innan du implementerar uppföljningsmeddelanden. Där det är tillåtet bör ditt uppföljningsmeddelande leda med värde snarare än en recensionsbegäran. Öppna med en genuin incheckning: "Jag ville försäkra mig om att dina [produktnamn] laddades ner korrekt och fungerar bra för din klass." Följ med ett specifikt användningstips eller förslag relaterat till produkten. Avsluta med ett naturligt omnämnande av recensioner: "Om du har ett ögonblick skulle jag gärna höra hur arbetsbladen fungerade för dina kunder — din feedback hjälper mig skapa bättre resurser och hjälper andra säljare hitta vad de behöver."\n\nTonen i din uppföljningskommunikation påverkar direkt om den genererar en positiv respons eller irritation. Skriv som en verklig person som har en genuin konversation, inte som ett företag som utför en marknadsföringsplan. Använd köparens förnamn om tillgängligt. Referera till den specifika produkten de köpte snarare än att använda en generisk mall som känns massproducerad. Uttryck genuint intresse för hur produkten fungerade för deras specifika situation. Köpare kan omedelbart skilja mellan en säljare som bryr sig om deras upplevelse och en säljare som mekaniskt begär recensioner — och de svarar därefter.\n\nSkicka aldrig mer än ett uppföljningsmeddelande per köp. En enda, väl tajmad, värdedrivet uppföljning är professionell och uppskattad. Ett andra meddelande som upprepar recensionsbegäran korsar gränsen till tjatande och kan generera negativt sentiment som resulterar i antingen en irriterad recension eller en avföljning från din butik. Om köparen inte svarar på din uppföljning eller inte lämnar en recension, acceptera det utfallet graciöst. Majoriteten av köpare kommer aldrig att lämna recensioner oavsett hur perfekt du utför din recensionsstrategi — ditt mål är att öka andelen som gör det, inte att uppnå en 100% recensionsfrekvens, vilket varken är realistiskt eller nödvändigt för företagsframgång.`,
     },
     {
-      heading: 'Svara på varje recension — positiv och negativ',
+      heading: `Svara på varje recension — positiv och negativ`,
       content: `Recensionssvar är synliga inte bara för recensenten utan för varje prospektiv köpare som läser dina produktrecensioner innan de fattar ett köpbeslut. En säljare som svarar genomtänkt på recensioner demonstrerar aktivt engagemang, professionalism och kundomsorg — egenskaper som minskar köptvekan för obeslutade köpare. Forskning visar konsekvent att produkter med säljarrespons på recensioner konverterar i högre grad än produkter med obesvarade recensioner, eftersom svaren signalerar att en riktig person står bakom produkten och kommer att vara tillgänglig om köparen behöver support.\n\nFör positiva recensioner, svara med specifik tacksamhet som refererar till vad recensenten nämnde. Om en recensent säger "Mina användare älskade djurtemat," svara med något som "Tack så mycket för att du delar det — djurtemat är ett av våra mest populära, och det är underbart att höra att dina kunder tyckte om det." Denna specificitet visar att du faktiskt läste recensionen snarare än att posta ett generiskt "Tack för din recension!"-svar på varje kommentar. Specifika svar skapar också ytterligare innehåll som förstärker produktens styrkor för prospektiva köpare som läser igenom recensioner för att utvärdera produkten.\n\nNegativa recensioner kräver en mer noggrann svarsstrategi, men de är lika viktiga att adressera — och på vissa sätt mer värdefulla som förtroendebyggande möjligheter. När en köpare lämnar en negativ recension tittar prospektiva köpare på hur du hanterar det. Ett defensivt, avfärdande eller argumenterande svar bekräftar den negativa recensentens klagomål och signalerar att säljaren är svår att arbeta med. Ett konstruktivt, empatiskt, lösningsorienterat svar kan faktiskt bygga mer förtroende än den negativa recensionen skadade, eftersom det demonstrerar ansvar och kundengagemang.\n\nSvara på negativa recensioner genom att följa en konsekvent struktur: erkänn oron utan defensivitet, ta ansvar där det är lämpligt, erbjud en specifik lösning och uttryck villighet att rätta till saker. Till exempel: "Tack för din feedback. Jag beklagar att svårighetsnivån inte matchade vad du behövde för din klass. Jag hjälper gärna till med att rekommendera en annan uppsättning som kan vara en bättre passform för dina köpares nivå, eller jag kan ge förslag på hur man anpassar dessa arbetsblad. Tveka inte att kontakta mig direkt så att jag kan hjälpa." Detta svar validerar köparens upplevelse, erbjuder konkret hjälp och demonstrerar för alla läsare att du tar kundnöjdhet på allvar.\n\nAnvänd negativa recensionsteman som diagnostisk data snarare än personlig kritik. Om flera recensioner nämner samma problem — förvirrande instruktioner, svårighetsnivåmissmatch, utskriftsproblem på A4-papper — är det handlingsbar feedback som pekar på en genuin produktförbättringsmöjlighet. Adressera det återkommande problemet i själva produkten (uppdatera instruktioner, lägg till svårighetsnivåvägledning, inkludera A4-kompatibel formatering), svara sedan på recensionerna och notera att problemet har åtgärdats. Denna synliga förbättringscykel demonstrerar för prospektiva köpare att dina produkter blir bättre över tid baserat på riktig användarfeedback, vilket är en kraftfull förtroendesignal som generiska produktlistningar inte kan förmedla.\n\nSätt ett schema för att kontrollera och svara på recensioner på alla plattformar där du säljer. En daglig 5-minuters recensionskontroll säkerställer att du aldrig lämnar recensioner oadresserade under längre perioder. Snabba svar har större effekt än fördröjda eftersom recensenten fortfarande är engagerad i interaktionen, och prospektiva köpare ser aktivt säljardeltagande snarare än veckor gammal obesvarad feedback. Många marknadsplatser meddelar också recensenter när en säljare svarar, vilket skapar en ytterligare kontaktpunkt som förstärker köparens positiva association med ditt varumärke.`,
     },
     {
@@ -74,14 +74,14 @@ const content: GuideContent = {
       content: `Amazon-recensioner bär enorm vikt eftersom plattformens recensionssystem är betrott av köpare i alla produktkategorier. För KDP-arbetsbladsutgivare är utmaningen att Amazons recensionsprocess kräver att köpare återvänder till produktsidan och navigerar till recensionssektionen — ett steg som skapar tillräcklig friktion för att avsevärt minska recensionsfrekvensen jämfört med plattformar med enklare recensionsflöden. Inom dina publicerade arbetsböcker, inkludera en recensionsbegäranssida som förklarar exakt hur man lämnar en Amazon-recension i enkla, steg-för-steg-termer. Placera denna sida nära slutet av arbetsboken där köpare stöter på den efter att ha använt innehållet. Amazons recensionsriktlinjer förbjuder att incitamentera recensioner, så din approach måste helt fokusera på att göra recensionsprocessen enkel och rama in den som att hjälpa andra säljare hitta kvalitetsresurser. Produktkvalitet och beskrivningsnoggrannhet är särskilt kritiska på Amazon eftersom köpare som känner sig vilseledda av listningen tenderar att använda recensionssystemet aggressivt för att varna andra.`,
     },
     {
-      heading: 'Gumroad recensionskultur och bästa praxis',
+      heading: `Gumroad recensionskultur och bästa praxis`,
       content: `Gumroad har den starkaste recensionskulturen bland marknadsplatser för pedagogiska utskriftsbara produkter eftersom säljare aktivt använder recensioner för att utvärdera resurser före köp. Gumroads recensionssystem inkluderar både ett stjärnbetyg och en detaljerad feedbacksektion, och många säljare skriver grundliga recensioner som utvärderar pedagogiskt värde, användarvänlighet och utskriftskvalitet. Utnyttja denna recensionskultur genom att skapa produkter som specifikt adresserar de utvärderingskriterier säljare bryr sig om: tydliga lärandemål, anpassning till pedagogiska standarder, differentieringsalternativ och heltäckande facit. Gumroad tillåter säljare att lämna feedback till köpare, vilket skapar ett ömsesidigt utbyte som uppmuntrar recensionsdeltagande. Inkludera ett kort meddelande i dina produktfiler specifikt riktat till kolleger: "Din recension hjälper andra säljare hitta resurser som sparar förberedelsetid och engagerar deras användare — jag läser varje recension och använder din feedback för att förbättra framtida resurser." Gumroads communityorientering gör denna kollegiala ram särskilt effektiv.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Hur recensioner direkt ökar din konverteringsgrad',
+      heading: `Hur recensioner direkt ökar din konverteringsgrad`,
       content: `Förhållandet mellan recensionsantal och konverteringsgrad följer en förutsägbar kurva. Produkter med noll recensioner konverterar i den lägsta graden eftersom köpare saknar socialt bevis för att validera sitt köpbeslut. De första 5 till 10 recensionerna producerar den mest dramatiska konverteringsförbättringen eftersom de skiftar produkten från "ovaliderad" till "köpargodkänd" i den prospektiva köparens uppfattning. Varje efterföljande recension fortsätter förbättra konverteringen, men med avtagande marginell påverkan — skillnaden mellan 50 recensioner och 55 recensioner är mindre än skillnaden mellan 0 recensioner och 5 recensioner. För säljare av utskriftsbara produkter innebär detta att den högst prioriterade recensionsgenereringsinsatsen bör fokusera på att få nya produkter förbi nollrecensionströskeln så snabbt som möjligt, eftersom det initiala recensionsmomentumet har den största proportionella påverkan på försäljningen.`,
     },
     {
@@ -119,7 +119,7 @@ const content: GuideContent = {
       answer: `Nej. Varje stor marknadsplats förbjuder uttryckligen incitamentrecensioner, inklusive att erbjuda rabatter, kuponger, framtida produkter eller någon annan förmån i utbyte mot en recension. Att bryta mot denna policy kan resultera i recensionsborttagning, listningssuspension eller permanent kontostängning. Utöver policyefterlevnad underminerar incitamentrecensioner det förtroende som gör recensioner värdefulla till att börja med. Om köpare misstänker att positiva recensioner köptes eller incitamenterades snarare än förtjänades, förlorar recensionerna sin övertygande kraft. Fokusera uteslutande på att förtjäna organiska recensioner genom produktkvalitet, tydliga förväntningar, professionell uppföljning och att göra recensionsprocessen enkel. Autentiska recensioner från genuint nöjda köpare är mer övertygande och hållbara än någon mängd incitamenterad feedback.`,
     },
     {
-      question: 'Hur snabbt bör jag svara på recensioner?',
+      question: `Hur snabbt bör jag svara på recensioner?`,
       answer: `Svara på alla recensioner inom 24 till 48 timmar. Snabba svar demonstrerar aktivt säljarengagemang och visar prospektiva köpare att du övervakar och bryr dig om kundfeedback. För negativa recensioner är snabba svar särskilt viktiga eftersom de begränsar fönstret under vilket en prospektiv köpare ser ett oadresserat klagomål. En negativ recension med ett konstruktivt säljarsvar postat samma dag läser helt annorlunda än en negativ recension som stått obesvarad i två veckor. Sätt en daglig rutin att kontrollera recensioner på alla plattformar, vilket inte tar mer än 5 minuter per dag. Denna lilla tidsinvestering ger oproportionerlig avkastning i köparförtroende och butiktrovärdighet.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Kundsupport för digitala produktföretag' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Så säljer du mattearbetsblad på Etsy' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
+    { pageType: 'guide', slug: `customer-support-digital-products`, anchorText: `Kundsupport för digitala produktföretag` },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: `Så säljer du mattearbetsblad på Etsy` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
     { pageType: 'guide', slug: 'email-marketing-printables', anchorText: `E-postmarknadsföring för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nischvalsguide för utskriftsbara företag' },
-    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'Kvalitetsstandarder för professionella arbetsblad' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: `Nischvalsguide för utskriftsbara företag` },
+    { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: `Kvalitetsstandarder för professionella arbetsblad` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
   toolsRecommended: [
     {
       appId: 'matching',
-      title: 'Matchningsarbetsblad-generator',
+      title: `Matchningsarbetsblad-generator`,
       description: `Visuell, engagerande produkttyp som genererar starka positiva köparreaktioner och detaljerade recensioner. Matchningsarbetsblad visar upp kvalitet genom färgglada teman och intuitiva layouter som köpare gärna ger feedback om.`,
     },
     {
@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/matching portrait.webp',
+      src: `/samples/english/matching/matching portrait.webp`,
       alt: `Professionellt matchningsarbetsblad som demonstrerar produktkvaliteten som förtjänar positiva köparrecensioner`,
     },
     samples: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: `/samples/english/matching/matching portrait.webp`,
         alt: `Matchningsarbetsblad som visar visuell kvalitet som driver positiva köparrecensioner`,
         caption: `Högkvalitativa matchningsarbetsblad förtjänar naturligt positiva recensioner genom visuell attraktionskraft och pedagogiskt värde`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/flowers/aster.webp', alt: 'Aster — tematisk pedagogisk bild', caption: 'Aster' },
-    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — tematisk pedagogisk bild', caption: 'Azalea' },
-    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — tematisk pedagogisk bild', caption: 'Begonia' },
-    { src: '/image-library/flowers/bluebell.webp', alt: 'Blåklocka — tematisk pedagogisk bild', caption: 'Blåklocka' },
-    { src: '/image-library/flowers/buttercup.webp', alt: 'Smörblomma — tematisk pedagogisk bild', caption: 'Smörblomma' },
+    { src: `/image-library/flowers/aster.webp`, alt: `Aster — tematisk pedagogisk bild`, caption: 'Aster' },
+    { src: `/image-library/flowers/azalea.webp`, alt: `Azalea — tematisk pedagogisk bild`, caption: 'Azalea' },
+    { src: `/image-library/flowers/begonia.webp`, alt: `Begonia — tematisk pedagogisk bild`, caption: 'Begonia' },
+    { src: `/image-library/flowers/bluebell.webp`, alt: `Blåklocka — tematisk pedagogisk bild`, caption: 'Blåklocka' },
+    { src: `/image-library/flowers/buttercup.webp`, alt: `Smörblomma — tematisk pedagogisk bild`, caption: 'Smörblomma' },
   ],
 };
 

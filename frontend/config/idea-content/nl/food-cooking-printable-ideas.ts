@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Eten & Koken Printables Verkopen — Nichegids',
+    titleTag: `Eten & Koken Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende eten en koken printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Voedingsthema productconcepten en platformtips voor verkopers.`,
 
-    primaryKeyword: 'eten en koken printable ideeën',
+    primaryKeyword: `eten en koken printable ideeën`,
     secondaryKeywords: [
-      'voedselthema werkbladen verkopen',
-      'koken printable business ideeën',
-      'keuken activiteiten voor verkopers',
-      'eten printables verkopen op Etsy',
+      `voedselthema werkbladen verkopen`,
+      `koken printable business ideeën`,
+      `keuken activiteiten voor verkopers`,
+      `eten printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'culinair thema educatieve werkbladen',
-      'voeding activiteiten voor kinderen',
-      'receptthema printbare producten printables',
+      `culinair thema educatieve werkbladen`,
+      `voeding activiteiten voor kinderen`,
+      `receptthema printbare producten printables`,
     ],
   },
   hero: {
@@ -38,28 +38,28 @@ Culturele inclusiviteit via internationale gerechten vertegenwoordigt een waarde
 
   productIdeas: [
     {
-      title: 'Voedsel Telwerkbladen voor Printable Verkopers',
+      title: `Voedsel Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen met fruit, groenten, koekjes, cupcakes en pizzapunten brengen keukenopwinding in vroege rekenoefeningen die verkopers en thuisonderwijzende ouders het hele schooljaar door kopen voor voedingsunits en dagelijkse rekenles. Gebruik de Zoek en Tel-generator om drukke voedselscènes te maken waarin kinderen specifieke items lokaliseren en tellen tussen keukentoonbanken, supermarktschappen, bakkerijdisplays, fruitkramen en oogstpanorama's. Bied sets aan op meerdere vaardigheidsniveaus: fruit tellen tot vijf voor peuters, getallen tot tien tellen en schrijven voor kleuters, en sprongtellen met rijen koekjes of groepjes groenten voor kinderen in groep 3. Probeer de gratis proefversie met watermerk om de kwaliteit te beoordelen.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Eten & Koken Woordzoekpuzzels Online Verkopen',
+      title: `Eten & Koken Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers met voedingsvocabulaire trekken verkopers aan die gezond-etenunits plannen en ouders die educatief vermaak zoeken dat aansluit bij dagelijkse keukenervaringen. Maak puzzels met voedingsnamen, keukentermen zoals recept, ingrediënt, maatbeker en oven, en gezond-eten vocabulaire. De Woordzoeker-generator laat je de rastergrootte en het aantal woorden bepalen om leeftijdsgeschikte versies te produceren. Bied eenvoudige rasters met zes tot acht woorden voor jongere gebruikers en uitdagende rasters met vijftien of meer voedingstermen voor oudere gebruikers. Variaties zoals fruitvocabulaire, groentennamen, bakkerijwoorden en internationale gerechten verbreden je catalogus het hele jaar door.`,
       appId: 'wordsearch',
     },
     {
       title: `Voedsel Koppelactiviteiten voor Educatieve Winkels`,
-      description: `Koppelwerkbladen met voedingsthema's werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede voedselkoperspubliek. Maak sets waarin kinderen fruit koppelen aan hun kleuren, groenten verbinden met de plant waaraan ze groeien, voedingsmiddelen matchen met hun voedingsgroep, of kookgerei koppelen aan het gerecht waarvoor het wordt gebruikt. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die voedingsunits plannen waar gestructureerde werkbladen gezond-eten concepten toegankelijk maken. Sets van acht tot twaalf koppelpagina's bundelen effectief in de prijsklasse van vijf tot acht euro.`,
+      description: `Koppelwerkbladen met voedingsthema`s werken in meerdere vaardigheidsgebieden, waardoor ze veelzijdige producten zijn voor het brede voedselkoperspubliek. Maak sets waarin kinderen fruit koppelen aan hun kleuren, groenten verbinden met de plant waaraan ze groeien, voedingsmiddelen matchen met hun voedingsgroep, of kookgerei koppelen aan het gerecht waarvoor het wordt gebruikt. De Koppelen-generator produceert schone, professionele lay-outs die prachtig printen op standaardpapier. Deze activiteiten spreken sterk peuter- en kleuterverkopers aan die voedingsunits plannen waar gestructureerde werkbladen gezond-eten concepten toegankelijk maken. Sets van acht tot twaalf koppelpagina`s bundelen effectief in de prijsklasse van vijf tot acht euro.`,
       appId: 'matching',
     },
     {
-      title: 'Voedselthema Optelwerkbladen voor Rekenverkopers',
+      title: `Voedselthema Optelwerkbladen voor Rekenverkopers`,
       description: `Rekenwerkbladen met voedselillustraties transformeren routinematige rekenoefeningen in keukenavonturen die ouders en verkopers verkiezen boven gewone getallenoefeningen. Gebruik de Optellen-generator om werkbladen te maken waarin kinderen groepen appels in een fruitmand optellen, koekjesthema verhaalopgaven oplossen of rekenopgaven invullen geïllustreerd met pizzapunten, cupcakes en groenten. Richt je op groep 1 tot en met groep 4 met opgaven variërend van enkelvoudige sommen tot tweecijferige optellingen met voedselvisuele context. Voedsel-rekenwerkbladen bedienen zowel rekendoelen als wetenschapsproductcatalogus over voeding tegelijkertijd.`,
       appId: 'addition',
     },
     {
-      title: 'Voedsel Kleurplaten voor Etsy en KDP Verkopers',
-      description: `Kleurplaten zijn een uitstekend instapproduct voor eten-en-koken printable-winkels omdat het voedingsthema universeel aanspreekt en vroege beoordelingen genereert die je winkelzichtbaarheid het hele jaar door verhogen. De Kleuren-generator maakt gedetailleerde contouren van fruit, groenten, taarten, pizza's, ijsjes, koekjes, koksuitrusting, keukengerei en internationale gerechten. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's gegroepeerd per subthema zoals fruit en groenten, gebak of internationaal eten. Voor KDP compileer je dertig tot vijftig kleurplaten in voedsel-activiteitenboeken gepositioneerd naast kinderkookboeken en keukenspeelsets.`,
+      title: `Voedsel Kleurplaten voor Etsy en KDP Verkopers`,
+      description: `Kleurplaten zijn een uitstekend instapproduct voor eten-en-koken printable-winkels omdat het voedingsthema universeel aanspreekt en vroege beoordelingen genereert die je winkelzichtbaarheid het hele jaar door verhogen. De Kleuren-generator maakt gedetailleerde contouren van fruit, groenten, taarten, pizza`s, ijsjes, koekjes, koksuitrusting, keukengerei en internationale gerechten. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina`s gegroepeerd per subthema zoals fruit en groenten, gebak of internationaal eten. Voor KDP compileer je dertig tot vijftig kleurplaten in voedsel-activiteitenboeken gepositioneerd naast kinderkookboeken en keukenspeelsets.`,
       appId: 'coloring',
     },
     {
@@ -69,7 +69,7 @@ Culturele inclusiviteit via internationale gerechten vertegenwoordigt een waarde
     },
     {
       title: `Voedsel Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en voedingsmiddelen zijn perfect geschikt omdat hun onderscheidende vormen zeer herkenbaar en visueel gevarieerd zijn. Gebruik de Schaduw Koppelen-generator om pagina's te maken waarin kinderen voedselitems koppelen aan hun silhouetten: appels, bananen, wortels, pizza's, cupcakes, koekjes en ijsjes hebben elk duidelijk verschillende contouren die boeiende puzzels maken zelfs voor zeer jonge gebruikers. Verhoog de moeilijkheid door voedingsmiddelen met vergelijkbare vormen op te nemen in gevorderde versies, zoals verschillende fruitsoorten of diverse groenten. Deze werkbladen printen prachtig in zowel kleur als grijstinten.`,
+      description: `Schaduwkoppelen ontwikkelt visuele discriminatievaardigheden die essentieel zijn voor leesgereedheid, en voedingsmiddelen zijn perfect geschikt omdat hun onderscheidende vormen zeer herkenbaar en visueel gevarieerd zijn. Gebruik de Schaduw Koppelen-generator om pagina`s te maken waarin kinderen voedselitems koppelen aan hun silhouetten: appels, bananen, wortels, pizza`s, cupcakes, koekjes en ijsjes hebben elk duidelijk verschillende contouren die boeiende puzzels maken zelfs voor zeer jonge gebruikers. Verhoog de moeilijkheid door voedingsmiddelen met vergelijkbare vormen op te nemen in gevorderde versies, zoals verschillende fruitsoorten of diverse groenten. Deze werkbladen printen prachtig in zowel kleur als grijstinten.`,
       appId: 'shadow-match',
     },
     {
@@ -92,13 +92,13 @@ Culturele inclusiviteit via internationale gerechten vertegenwoordigt een waarde
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Eten & Koken Printables Verkopen op Etsy',
+      title: `Eten & Koken Printables Verkopen op Etsy`,
       description: `Etsy beloont specificiteit in voedsel printable-vermeldingen, en het altijdgroene karakter van het eten-en-koken thema betekent dat je vermeldingen het hele jaar door verkopen genereren. Richt je op long-tail zoekwoorden zoals "fruit telwerkblad kleuters" of "groenten woordzoeker kleuterschool" in plaats van brede tags als "voedsel werkbladen." Gebruik alle dertien tags met variaties die voedseltypen, vaardigheidstypen en leeftijdsgroepen combineren. Vermeldingsafbeeldingen die geprinte voedselwerkbladen tonen in een keuken- of merkthema-setting met kleurrijke achtergronden presteren aanzienlijk beter dan platte digitale voorbeelden. Positioneer je producten als voedingseducatie in plaats van puur thematisch vermaak. De Nederlandse markt via Etsy.nl biedt kansen door de sterke Nederlandse aandacht voor gezonde voeding op scholen en het relatief beperkte Nederlandstalige voedingswerkblad-aanbod.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Eten & Koken Activiteitenboeken Publiceren op KDP',
-      description: `Amazon KDP werkt uitstekend voor voedingsprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast kinderkookboeken, keukenspeelsets en gezond-eten prentenboeken. Compileer individuele voedselwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond voedingsthema's combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "eten activiteitenboek voor kinderen," "fruit werkbladen kleuters" en subthematermen toe als "groenten kleurboek" of "keuken activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Voedselboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com.`,
+      title: `Eten & Koken Activiteitenboeken Publiceren op KDP`,
+      description: `Amazon KDP werkt uitstekend voor voedingsprintables omdat ouders op natuurlijke wijze activiteitenboeken toevoegen aan hun Amazon-winkelwagen naast kinderkookboeken, keukenspeelsets en gezond-eten prentenboeken. Compileer individuele voedselwerkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina`s die tel-, kleur-, koppel-, woordzoek- en tekenactiviteiten rond voedingsthema`s combineren. Gebruik KDP-zoekwoordvelden strategisch: voeg "eten activiteitenboek voor kinderen," "fruit werkbladen kleuters" en subthematermen toe als "groenten kleurboek" of "keuken activiteiten." Prijs tussen vier en acht euro voor optimale royaltymarges. Voedselboeken verkopen het hele jaar door consistent. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
       platform: 'Gumroad',
@@ -130,12 +130,12 @@ Culturele inclusiviteit via internationale gerechten vertegenwoordigt een waarde
       answer: `Ja, verkopen op meerdere platforms is bijzonder effectief voor de voedsel-niche omdat het altijdgroene karakter van het thema betekent dat je vermeldingen het hele jaar door verkopen genereren op elk platform. Etsy trekt ouders aan die keukenactiviteiten zoeken, Gumroad bereikt klasverkopers die voedingsunits en gezond-eten programma's plannen, KDP bedient gezinnen die de voorkeur geven aan fysieke activiteitenboeken naast kinderkookboeken en keukenspeelgoed. Gumroad en Shopify helpen je een eigen publiek op te bouwen. Cross-listing vermenigvuldigt je jaarronde zichtbaarheid. Vergeet ook Bol.com en Amazon.nl niet voor de Nederlandse markt.`,
     },
     {
-      question: 'Welke voedselsubthema\'s verkopen het beste?',
-      answer: `De bestverkopende voedselsubthema's zijn fruit, groenten, gebak en gezond eten. Fruit is het populairste voedselsubthema dankzij de levendige kleuren, diverse vormen en directe aansluiting bij het schoolfruitprogramma in Nederlandse scholen. Groenten profiteren van de sterke focus op gezonde voeding in het basisonderwijs en de Schijf van Vijf. Gebak inclusief koekjes, cupcakes en taarten trekt kopers aan die leuke keukenthema's zoeken voor feestdagen en vieringen. Gezond-eten activiteiten bedienen het groeiende segment van verkopers die de Gezonde School-principes integreren. In Nederland bieden pannenkoeken, stroopwafels en kaas unieke culturele aanknopingspunten voor Nederlandstalig voedingsmateriaal.`,
+      question: `Welke voedselsubthema's verkopen het beste?`,
+      answer: `De bestverkopende voedselsubthema`s zijn fruit, groenten, gebak en gezond eten. Fruit is het populairste voedselsubthema dankzij de levendige kleuren, diverse vormen en directe aansluiting bij het schoolfruitprogramma in Nederlandse scholen. Groenten profiteren van de sterke focus op gezonde voeding in het basisonderwijs en de Schijf van Vijf. Gebak inclusief koekjes, cupcakes en taarten trekt kopers aan die leuke keukenthema`s zoeken voor feestdagen en vieringen. Gezond-eten activiteiten bedienen het groeiende segment van verkopers die de Gezonde School-principes integreren. In Nederland bieden pannenkoeken, stroopwafels en kaas unieke culturele aanknopingspunten voor Nederlandstalig voedingsmateriaal.`,
     },
     {
       question: `Hoe maak ik efficiënt voedselwerkbladen met generator tools?`,
-      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe voedingscatalogus kunt opbouwen die meerdere voedselsubthema's omvat. Selecteer een generator die past bij je doelactiviteitstype, kies voedingsthema's en keukenvocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
+      answer: `Werkblad-generator tools verminderen de productietijd drastisch vergeleken met handmatig ontwerpen, waardoor je een diepe voedingscatalogus kunt opbouwen die meerdere voedselsubthema`s omvat. Selecteer een generator die past bij je doelactiviteitstype, kies voedingsthema`s en keukenvocabulaire, pas moeilijkheidsinstellingen aan, en genereer professionele werkbladen die klaar zijn voor verkoop. Onze generators bieden een gratis proefversie met watermerk zodat je de uitvoerkwaliteit kunt beoordelen voordat je een commerciële licentie aanschaft. Er is geen registratie nodig, geen creditcard, en alle functies zijn beschikbaar — het enige verschil is een watermerk op gedownloade bestanden.`,
     },
     {
       question: `Wat is het retourbeleid voor commerciële licenties?`,
@@ -147,62 +147,62 @@ Culturele inclusiviteit via internationale gerechten vertegenwoordigt een waarde
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-counting-worksheets',
-      anchorText: 'Professionele telwerkbladen maken',
+      anchorText: `Professionele telwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'farm-animals-printable-ideas',
-      anchorText: 'Boerderijdieren printable businessideeën',
+      anchorText: `Boerderijdieren printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'sports-printable-ideas',
-      anchorText: 'Sport printable businessideeën',
+      anchorText: `Sport printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Zomer printable businessideeën',
+      anchorText: `Zomer printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Appel — educatieve thema-afbeelding eten', caption: 'Appel' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Abrikoos — educatieve thema-afbeelding eten', caption: 'Abrikoos' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — educatieve thema-afbeelding eten', caption: 'Avocado' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banaan — educatieve thema-afbeelding eten', caption: 'Banaan' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Braam — educatieve thema-afbeelding eten', caption: 'Braam' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Bosbes — educatieve thema-afbeelding eten', caption: 'Bosbes' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Appel — educatieve thema-afbeelding eten`, caption: 'Appel' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Abrikoos — educatieve thema-afbeelding eten`, caption: 'Abrikoos' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Avocado — educatieve thema-afbeelding eten`, caption: 'Avocado' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banaan — educatieve thema-afbeelding eten`, caption: 'Banaan' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Braam — educatieve thema-afbeelding eten`, caption: 'Braam' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Bosbes — educatieve thema-afbeelding eten`, caption: 'Bosbes' },
   ],
 
   youtubeId: '0cOPi7eajLs',

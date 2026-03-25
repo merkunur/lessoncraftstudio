@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fichas de puzzles de peças faltantes',
+    primaryKeyword: `fichas de puzzles de peças faltantes`,
     secondaryKeywords: [
-      'criar puzzles de peças faltantes para vender',
-      'gerador de fichas de quebra-cabeças uso comercial',
+      `criar puzzles de peças faltantes para vender`,
+      `gerador de fichas de quebra-cabeças uso comercial`,
       `fichas imprimíveis de peças faltantes para Etsy e KDP`,
-      'fichas de puzzles visuais com chaves de respostas',
+      `fichas de puzzles visuais com chaves de respostas`,
     ],
     lsiKeywords: [
       `extração inteligente variância de brilho gerador de puzzles`,
       `seis formas de peça gerador de fichas com peças distratoras`,
       `chave de respostas automática realce amarelo criador de peças faltantes`,
-      'vender puzzles de peças faltantes no Etsy',
-      'Amazon KDP cadernos de puzzles de quebra-cabeças',
+      `vender puzzles de peças faltantes no Etsy`,
+      `Amazon KDP cadernos de puzzles de quebra-cabeças`,
       `ferramenta de peças faltantes com licença comercial`,
     ],
-    titleTag: 'Fichas de puzzles de peças faltantes — Guia',
+    titleTag: `Fichas de puzzles de peças faltantes — Guia`,
     metaDescription: `Crie fichas de puzzles de peças faltantes com 6 formas de peça, extração inteligente, peças distratoras e chaves de respostas automáticas. Guia completo.`,
   },
 
   hero: {
-    title: 'Como criar puzzles de peças faltantes',
+    title: `Como criar puzzles de peças faltantes`,
     tagline: `Um tutorial passo a passo para criar fichas de puzzles de quebra-cabeças com seis formas de peça, extração inteligente de peças mediante deteção de variância de brilho, peças distratoras para um desafio genuíno, dois controlos de dificuldade independentes, chaves de respostas autogeradas com realce amarelo e puzzles puramente visuais que pode vender em todo o mundo no Etsy, Amazon KDP e Gumroad`,
     description: `Os puzzles de peças faltantes são uma atividade visual singularmente cativante onde os usuários examinam uma imagem com buracos recortados e identificam que opção numerada preenche cada espaço. O formato combina raciocínio espacial com discriminação visual — os usuários devem analisar cores, padrões e detalhes para emparelhar as peças com as suas localizações corretas. Como o resultado da ficha contém apenas imagens, buracos e opções numeradas sem texto específico de um idioma, cada puzzle que cria pode ser vendido instantaneamente em todo o mundo sem tradução. Os pais usam-nos para atividades de desenvolvimento cognitivo em casa. Os vendedores usam-nos para exercícios de perceção visual e aquecimentos de pensamento crítico. Os centros de explicações usam-nos para a prática de raciocínio espacial. Este guia acompanha-o em todo o processo de criação usando o Gerador de puzzles de peças faltantes — desde selecionar formas de peça e configurar os controlos de dificuldade dupla até compreender o algoritmo de extração inteligente, gerar peças distratoras, rever as chaves de respostas automáticas com realce amarelo e exportar ficheiros prontos para produção. Quer esteja a criar o seu primeiro produto de puzzles de quebra-cabeças ou a ampliar um catálogo existente de fichas visuais, terá um produto terminado pronto para publicar no final deste tutorial.`,
   },
@@ -31,7 +31,7 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Abra o Gerador de puzzles de peças faltantes',
+      heading: `Abra o Gerador de puzzles de peças faltantes`,
       content: `Navegue até à página do Gerador de puzzles de peças faltantes e clique no botão de lançamento para abrir o gerador no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configuração à esquerda e uma tela de dupla aba à direita — uma aba para a ficha e outra para a chave de respostas. Sem criar conta, sem descarregar software, sem instalação necessária.\n\nA tela de dupla aba é o núcleo do gerador de peças faltantes. A aba da ficha mostra a imagem do puzzle com buracos recortados e opções de solução numeradas apresentadas abaixo (vertical) ou ao lado (horizontal) da imagem. A aba da chave de respostas mostra o mesmo puzzle com etiquetas numéricas realçadas a amarelo dentro de cada buraco indicando a opção correta. Ambas as abas são geradas simultaneamente ao clicar em Gerar, pelo que as chaves de respostas estão sempre perfeitamente sincronizadas com a ficha.\n\nDedique um momento a explorar os painéis da barra lateral. O painel de Configuração do puzzle controla a forma da peça, a quantidade de peças faltantes e a quantidade de opções de solução. O painel de Biblioteca de imagens dá acesso a cento e quatro coleções temáticas com mais de três mil e cem ilustrações. O painel de Configuração de página gere as opções de disposição e decoração. Estes três painéis contêm tudo o que precisa para configurar uma ficha completa de puzzle de quebra-cabeças.`,
     },
     {
@@ -39,7 +39,7 @@ const content: GuideContent = {
       content: `O Gerador de puzzles de peças faltantes oferece dois eixos de dificuldade independentes, e ajustá-los separadamente dá-lhe controlo preciso sobre o desafio cognitivo que a sua ficha apresenta.\n\nO primeiro controlo define a quantidade de peças faltantes de uma a cinco. Isto determina quantos buracos são recortados da imagem fonte. Uma peça faltante cria uma tarefa de identificação simples onde os usuários se concentram num único espaço. Cinco peças faltantes criam um desafio complexo de raciocínio espacial onde os usuários devem rastrear múltiplos buracos simultaneamente e comparar cada um com as opções de solução. Mais peças faltantes significa mais informação visual para processar e mais oportunidades de confusão entre espaços de aparência semelhante.\n\nO segundo controlo define a quantidade de opções de solução de duas a seis. Isto determina quantas opções numeradas os usuários avaliam para cada buraco. Quando as opções de solução excedem as peças faltantes, as opções adicionais são peças distratoras — fragmentos extraídos de áreas não sobrepostas da mesma imagem que parecem semelhantes mas não encaixam em nenhum buraco. As distratoras impedem que os usuários resolvam apenas por eliminação, forçando uma comparação visual cuidadosa de cores, padrões e detalhes.\n\nUm puzzle com uma peça faltante e duas opções é acessível para usuários pequenos que estão a desenvolver a discriminação visual. Três peças faltantes com quatro opções proporcionam um desafio intermédio adequado para o jardim de infância até ao ensino básico inicial. Cinco peças faltantes com seis opções incluindo distratoras criam uma tarefa de discriminação visual genuinamente exigente para usuários mais velhos. Ajuste ambos os eixos de forma independente para afinar a dificuldade para qualquer grupo etário ou nível de produto.`,
     },
     {
-      heading: 'Selecione uma forma de peça entre seis opções',
+      heading: `Selecione uma forma de peça entre seis opções`,
       content: `Escolha uma forma de peça que define o caráter visual de cada buraco e opção de solução no seu puzzle. O Gerador de puzzles de peças faltantes oferece seis formas distintas, cada uma criando um desafio visual diferente a partir da mesma imagem fonte.\n\nQuadrado é a forma predefinida, oferecendo cortes geométricos limpos com limites imediatamente reconhecíveis. As formas de círculo produzem buracos arredondados que interagem de maneira diferente com a imagem subjacente, revelando fragmentos circulares da ilustração. Retângulo vertical usa oitenta por cento da largura e cem por cento da altura, criando buracos altos e estreitos que mostram secções verticais da imagem. Retângulo horizontal usa cem por cento da largura e oitenta por cento da altura, produzindo buracos largos e baixos que enfatizam os detalhes horizontais. Elipse vertical e elipse horizontal proporcionam cortes curvos mais suaves com as mesmas proporções dimensionais que as suas contrapartes retangulares, acrescentando variedade visual orgânica.\n\nCada forma interage de maneira diferente com a ilustração fonte porque a região extraída captura proporções diferentes da arte circundante. Um corte quadrado de uma ilustração de personagem pode mostrar a cara da personagem, enquanto um corte de retângulo horizontal a partir da mesma posição revela mais do contexto do fundo. Isto significa que a mesma imagem produz seis experiências de puzzle genuinamente distintas em todas as formas disponíveis.\n\nPara a criação de produtos, a variedade de formas é um multiplicador de catálogo. Um único tema de vinte imagens produz até cento e vinte puzzles únicos nas seis formas e múltiplos níveis de dificuldade. Os clientes percecionam as diferentes formas como produtos distintos, pelo que variar a forma da peça é uma maneira eficiente de ampliar o seu catálogo de puzzles sem precisar de imagens fonte adicionais.`,
     },
     {
@@ -47,20 +47,20 @@ const content: GuideContent = {
       content: `Abra o painel de Biblioteca de imagens e navegue por cento e quatro coleções temáticas com mais de três mil e cem ilustrações coloridas — animais, comida, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique numa imagem para selecioná-la como fonte para o seu puzzle.\n\nImagens com cores variadas e regiões distintas produzem as fichas de puzzle de quebra-cabeças mais cativantes. O algoritmo de extração inteligente requer uma variância de brilho mínima de quinze por peça, pelo que ilustrações com múltiplas cores, padrões detalhados e regiões visualmente ricas geram melhores puzzles. Ilustrações coloridas de personagens, cenas detalhadas e composições de múltiplos elementos funcionam excecionalmente bem. Imagens com grandes áreas de cor uniforme produzem peças menos distintivas porque os fragmentos extraídos de regiões semelhantes parecem demasiado parecidos, tornando o puzzle menos desafiante.\n\nTambém pode carregar imagens personalizadas nos formatos PNG, JPG ou GIF para criar designs de puzzles personalizados. Os carregamentos personalizados abrem possibilidades de produto que as bibliotecas integradas não conseguem igualar. Os puzzles com fotografias familiares tornam-se presentes personalizados únicos — as crianças encontram as peças faltantes recortadas de imagens familiares de animais de estimação, membros da família ou lugares favoritos. Os puzzles com fotografias de turma, puzzles com imagens de marca e puzzles com arte personalizada tornam-se produtos únicos e impossíveis de replicar pela concorrência. O algoritmo de extração inteligente funciona com qualquer imagem carregada, encontrando áreas com suficiente variância de cor para puzzles resolvíveis independentemente da fonte.`,
     },
     {
-      heading: 'Configure a disposição de página e as decorações',
+      heading: `Configure a disposição de página e as decorações`,
       content: `Na secção de Configuração de página, selecione o seu tamanho de página. As opções incluem Carta vertical, Carta horizontal, A4 vertical, A4 horizontal, Quadrado (mil e duzentos por mil e duzentos píxeis) e dimensões personalizadas. Carta é o padrão para compradores norte-americanos. A4 é o padrão para mercados europeus e internacionais. Criar ambas as versões duplica o seu alcance no mercado com um esforço adicional mínimo.\n\nA orientação da página afeta significativamente a disposição do puzzle. As disposições verticais colocam a imagem do puzzle em cima com as opções de solução abaixo numa fila horizontal a setenta e cinco por cento do tamanho máximo. As disposições horizontais dividem a vista a cinquenta por cento com a imagem do puzzle à esquerda e as opções de solução organizadas no lado direito. Escolha a orientação que melhor apresente a sua imagem fonte e dê às opções de solução um espaço de visualização adequado.\n\nOs temas de fundo e moldura funcionam de forma independente, cada um com o seu próprio deslizador de opacidade que vai de zero a um em incrementos de zero vírgula zero cinco. Aplique um padrão de fundo subtil a quinze a vinte e cinco por cento de opacidade para calor visual sem distrair do conteúdo do puzzle. Sobreponha uma moldura decorativa a oitenta a cem por cento de opacidade para um enquadramento polido. As combinações consistentes de fundo e moldura em todo um pacote criam um aspeto de produto coeso que os compradores associam com qualidade.\n\nPersonalize o texto com sete opções de tipo de letra incluindo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Adicione um contorno de texto de zero a dez para estilização adicional. Ative ou desative os campos de nome e data para responsabilização online. A tela Fabric.js disponibiliza seis opções de alinhamento mais centrar na página, camadas com bloqueio e desbloqueio, zoom de vinte e cinco a trezentos por cento, e desfazer e refazer com cinquenta estados.`,
     },
     {
-      heading: 'Gere a ficha de puzzle de quebra-cabeças',
+      heading: `Gere a ficha de puzzle de quebra-cabeças`,
       content: `Clique em Gerar para criar o puzzle de peças faltantes. O algoritmo de extração inteligente de peças é ativado, tentando até cento e cinquenta tentativas de colocação para encontrar peças com suficiente variância de brilho (limiar mínimo de quinze). Cada localização candidata de peça é analisada para verificar a variedade de cor e assegurar que o fragmento extraído contém suficiente detalhe visual para ser identificável. As peças mantêm pelo menos duzentos e cinquenta píxeis de distância entre si para evitar agrupamento e assegurar que os buracos estejam bem distribuídos pela imagem. O tamanho da peça é calculado como doze por cento da largura da imagem com um mínimo de cinquenta píxeis.\n\nOs buracos brancos com contornos de traço preto (dois píxeis) aparecem nas localizações originais da imagem fonte, marcando claramente onde as peças foram extraídas. As opções de solução numeradas — peças corretas mais quaisquer peças distratoras — são apresentadas abaixo ou ao lado da imagem do puzzle conforme a orientação. Cada opção mostra uma etiqueta numérica realçada a amarelo para identificação.\n\nO cabeçalho autogerado renderiza «Peças faltantes» em turquesa com uma descrição em rosa, enquadrado pelo sistema de moldura dupla — uma moldura exterior teal com traço de oito píxeis, margens de trinta e quatro píxeis e raio de doze píxeis, mais uma moldura interior rosa intenso com traço de três píxeis, margens de quarenta e seis vírgula cinco píxeis, raio de oito píxeis e um ligeiro deslocamento. Este enquadramento profissional aumenta a qualidade percecionada nos listados de marketplaces.\n\nExamine a pré-visualização com cuidado: verifique que os buracos estejam bem distribuídos pela imagem, que as opções de solução mostrem variedade visual suficiente para serem distinguíveis e que as peças distratoras (se presentes) sejam desafiantes mas justas. Se algo precisar de ajuste, modifique as suas configurações e regenere instantaneamente. O algoritmo de extração recalcula em cada geração, pelo que regenerar com as mesmas configurações produz colocações de peças diferentes.`,
     },
     {
-      heading: 'Reveja a chave de respostas autogerada',
+      heading: `Reveja a chave de respostas autogerada`,
       content: `Clique na aba de Chave de respostas para ver a solução autogerada. A mesma imagem do puzzle aparece com buracos, e as etiquetas numéricas realçadas a amarelo são colocadas dentro de cada buraco mostrando o índice correto da opção com base um. O realce amarelo usa um fundo semitransparente a setenta por cento de opacidade, tornando o número claramente legível contra qualquer conteúdo de imagem. O tamanho do tipo de letra é escalado a sessenta por cento do tamanho da peça para uma legibilidade clara em todos os tamanhos de página.\n\nAlterne entre as abas de Ficha e Chave de respostas para comparar e verificar que a opção correta está marcada para cada buraco. A chave de respostas é gerada simultaneamente com a ficha — sem passo de criação manual, sem processo de design separado, sem possibilidade de respostas que não correspondam. Esta geração simultânea poupa tempo significativo ao criar grandes pacotes de puzzles de quebra-cabeças onde criar chaves de respostas manualmente seria proibitivamente lento.\n\nPara os listados de produtos, a chave de respostas é um argumento de venda poderoso. Os produtos que incluem chaves de respostas com marcadores visuais claros superam consistentemente em vendas os listados de apenas puzzles porque os vendedores e pais querem materiais de autoavaliação. As etiquetas numéricas realçadas a amarelo são imediatamente reconhecíveis e tornam a verificação instantânea — os usuários ou os pais podem verificar as respostas sem qualquer ambiguidade. Mencione sempre «inclui chave de respostas autogerada com realce amarelo» nos títulos e descrições dos seus listados para se diferenciar da concorrência que vende puzzles sem soluções.`,
     },
     {
-      heading: 'Descarregue os quatro ficheiros',
-      content: `O Gerador de puzzles de peças faltantes produz quatro ficheiros por sessão: ficha JPEG, ficha PDF, chave de respostas JPEG e chave de respostas PDF. Cada aba tem o seu próprio par de botões de descarga. Todos os ficheiros são renderizados a trezentos PPP usando um multiplicador de seis vezes com qualidade JPEG de um vírgula zero para uma saída pronta para impressão.\n\nAtive a escala de cinzentos antes de descarregar para versões económicas em tinta, ideais para a impressão online e interiores de Amazon KDP. As fichas de puzzles de quebra-cabeças em escala de cinzentos mantêm a resolubilidade visual porque os puzzles se baseiam em padrões de brilho e diferenças de detalhe em vez de apenas cor, embora as versões a cores produzam experiências visuais mais ricas para produtos de descarga digital.\n\nPara listados em marketplaces, exporte tanto o PDF (como o seu produto entregável) como um JPEG (para imagens de pré-visualização do listado). Mostre tanto a ficha com buracos visíveis e opções numeradas como a chave de respostas com etiquetas realçadas a amarelo nas imagens do seu listado para que os compradores vejam exatamente o que estão a adquirir.\n\nPara construir um pacote de produtos completo, mude as imagens, altere as formas de peça, ajuste os níveis de dificuldade e regenere. Cada geração produz um novo conjunto de quatro ficheiros com novas posições de extração. O algoritmo inteligente recalcula as colocações de peças de cada vez, pelo que pode gerar múltiplos puzzles únicos a partir da mesma imagem fonte simplesmente clicando em Gerar novamente. Dez sessões de geração dão-lhe quarenta ficheiros prontos para produção — um pacote completo de puzzles de quebra-cabeças pronto para publicar.\n\nImportante: o teste grátis com marca d'água produz exportações completamente funcionais com uma marca d'água sobreposta visível. Isto permite-lhe avaliar a qualidade de impressão, verificar a formatação e criar provas de impressão antes de comprar uma licença comercial. A licença comercial remove a marca d'água de todas as exportações, produzindo ficheiros limpos prontos para venda.`,
+      heading: `Descarregue os quatro ficheiros`,
+      content: `O Gerador de puzzles de peças faltantes produz quatro ficheiros por sessão: ficha JPEG, ficha PDF, chave de respostas JPEG e chave de respostas PDF. Cada aba tem o seu próprio par de botões de descarga. Todos os ficheiros são renderizados a trezentos PPP usando um multiplicador de seis vezes com qualidade JPEG de um vírgula zero para uma saída pronta para impressão.\n\nAtive a escala de cinzentos antes de descarregar para versões económicas em tinta, ideais para a impressão online e interiores de Amazon KDP. As fichas de puzzles de quebra-cabeças em escala de cinzentos mantêm a resolubilidade visual porque os puzzles se baseiam em padrões de brilho e diferenças de detalhe em vez de apenas cor, embora as versões a cores produzam experiências visuais mais ricas para produtos de descarga digital.\n\nPara listados em marketplaces, exporte tanto o PDF (como o seu produto entregável) como um JPEG (para imagens de pré-visualização do listado). Mostre tanto a ficha com buracos visíveis e opções numeradas como a chave de respostas com etiquetas realçadas a amarelo nas imagens do seu listado para que os compradores vejam exatamente o que estão a adquirir.\n\nPara construir um pacote de produtos completo, mude as imagens, altere as formas de peça, ajuste os níveis de dificuldade e regenere. Cada geração produz um novo conjunto de quatro ficheiros com novas posições de extração. O algoritmo inteligente recalcula as colocações de peças de cada vez, pelo que pode gerar múltiplos puzzles únicos a partir da mesma imagem fonte simplesmente clicando em Gerar novamente. Dez sessões de geração dão-lhe quarenta ficheiros prontos para produção — um pacote completo de puzzles de quebra-cabeças pronto para publicar.\n\nImportante: o teste grátis com marca d`água produz exportações completamente funcionais com uma marca d`água sobreposta visível. Isto permite-lhe avaliar a qualidade de impressão, verificar a formatação e criar provas de impressão antes de comprar uma licença comercial. A licença comercial remove a marca d'água de todas as exportações, produzindo ficheiros limpos prontos para venda.`,
     },
   ],
 
@@ -115,7 +115,7 @@ const content: GuideContent = {
       answer: `A dificuldade é controlada por duas configurações separadas que ajusta de forma independente. A quantidade de peças faltantes (uma a cinco) determina quantos buracos são recortados da imagem — mais peças significa mais exigência de raciocínio espacial enquanto os usuários rastreiam múltiplos espaços. A quantidade de opções de solução (duas a seis) determina quantas opções numeradas os usuários avaliam — quando as opções excedem as peças faltantes, as extras são peças distratoras que requerem comparação visual cuidadosa. Um puzzle com uma peça faltante e duas opções é fácil. Cinco peças faltantes com seis opções incluindo distratoras é genuinamente desafiante. Ajuste ambos os eixos de forma independente para criar níveis de dificuldade precisos para qualquer grupo etário.`,
     },
     {
-      question: 'O que são peças distratoras e como são geradas?',
+      question: `O que são peças distratoras e como são geradas?`,
       answer: `As peças distratoras são opções de solução adicionais que não correspondem a nenhum buraco do puzzle. São extraídas de áreas diferentes e não sobrepostas da mesma imagem fonte usando até duzentas tentativas de colocação cada uma, assegurando que não se sobreponham às peças corretas nem entre si. As distratoras impedem que os usuários resolvam apenas por eliminação — devem comparar cuidadosamente cores, padrões e detalhes visuais para distinguir as opções corretas das alternativas de aparência semelhante. A quantidade de distratoras é igual à diferença entre opções de solução e peças faltantes.`,
     },
     {
@@ -143,32 +143,32 @@ const content: GuideContent = {
       description: `Um complemento de discriminação visual para os puzzles de peças faltantes. As fichas de intruso pedem aos usuários que identifiquem o elemento diferente entre quatro imagens, exercitando competências de observação e comparação relacionadas.`,
     },
     {
-      slug: 'criar-fichas-discriminacao-visual',
-      title: 'Criar fichas de discriminação visual com sombras',
+      slug: `criar-fichas-discriminacao-visual`,
+      title: `Criar fichas de discriminação visual com sombras`,
       description: `Uma prima de perceção visual dos puzzles de peças faltantes. As fichas de associação de sombras desenvolvem competências de reconhecimento de silhuetas e análise espacial que complementam as atividades de puzzles de quebra-cabeças.`,
     },
     {
       slug: 'criar-fichas-caca-tesouro',
-      title: 'Criar fichas de caça ao tesouro',
+      title: `Criar fichas de caça ao tesouro`,
       description: `Um complemento de raciocínio espacial onde os usuários procuram objetos escondidos em cenas detalhadas. As fichas de caça ao tesouro desenvolvem competências de perceção visual e atenção ao detalhe relacionadas.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
-    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como criar fichas profissionais que vendem' },
-    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
+    { pageType: 'start', slug: `guia-completo-negocio-imprimiveis`, anchorText: `Guia completo para iniciar um negócio de imprimíveis` },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: `Como criar fichas profissionais que vendem` },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: `Masterclass de negócio de imprimíveis no Etsy` },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: `Guia de negócio de livros de atividades no Amazon KDP` },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
     { pageType: 'app', slug: 'pecas-faltantes-fichas', anchorText: `Gerador de puzzles de peças faltantes — Todos os detalhes` },
-    { pageType: 'app', slug: 'encontre-diferente-fichas', anchorText: 'Gerador de fichas de intruso — Todos os detalhes' },
+    { pageType: 'app', slug: 'encontre-diferente-fichas', anchorText: `Gerador de fichas de intruso — Todos os detalhes` },
     { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: `Experimente o Gerador de puzzles de peças faltantes` },
   ],
 
   toolsRecommended: [
     {
       appId: 'missing-pieces',
-      title: 'Gerador de puzzles de peças faltantes',
+      title: `Gerador de puzzles de peças faltantes`,
       description: `A ferramenta principal deste guia. Crie fichas de puzzles de quebra-cabeças com seis formas de peça, algoritmo de extração inteligente com deteção de variância de brilho, de uma a cinco peças faltantes com duas a seis opções de solução incluindo peças distratoras e chaves de respostas autogeradas com etiquetas numéricas realçadas a amarelo.`,
     },
     {
@@ -178,32 +178,32 @@ const content: GuideContent = {
     },
     {
       appId: 'shadow-match',
-      title: 'Gerador de fichas de discriminação visual',
+      title: `Gerador de fichas de discriminação visual`,
       description: `Uma prima de perceção visual que cria atividades de associação de silhuetas. A associação de sombras visa competências de análise espacial estreitamente relacionadas com a resolução de puzzles de quebra-cabeças, tornando estes dois formatos companheiros naturais em pacotes de raciocínio visual.`,
     },
     {
       appId: 'grid-match',
-      title: 'Gerador de fichas de correspondência em grelha',
+      title: `Gerador de fichas de correspondência em grelha`,
       description: `Um complemento de raciocínio espacial que cria puzzles de correspondência baseados em grelha. As fichas de correspondência em grelha desenvolvem consciência espacial de parte para o todo que complementa diretamente o raciocínio espacial praticado nas atividades de peças faltantes.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/portuguese/missing pieces/Peças em Falta 1.webp`, alt: 'Ficha de puzzle de quebra-cabeças com buracos recortados de uma ilustração colorida e opções de solução numeradas incluindo distratoras abaixo com cabeçalho turquesa Peças faltantes e enquadramento de moldura dupla teal-rosa' },
+    heroImage: { src: `/samples/portuguese/missing pieces/Peças em Falta 1.webp`, alt: `Ficha de puzzle de quebra-cabeças com buracos recortados de uma ilustração colorida e opções de solução numeradas incluindo distratoras abaixo com cabeçalho turquesa Peças faltantes e enquadramento de moldura dupla teal-rosa` },
     samples: [
-      { src: `/samples/portuguese/missing pieces/Peças em Falta 2.webp`, alt: 'Ficha de puzzle de peças faltantes mostrando uma imagem com buracos recortados e opções de solução numeradas apresentadas abaixo com cabeçalho de moldura dupla', caption: 'Ficha de puzzle de quebra-cabeças com peças extraídas inteligentemente e opções de solução numeradas incluindo distratoras' },
-      { src: `/samples/portuguese/missing pieces/Peças em Falta 3.webp`, alt: 'Chave de respostas autogerada com etiquetas numéricas realçadas a amarelo colocadas dentro de cada buraco mostrando o índice da opção correta', caption: 'Chave de respostas autogerada com etiquetas realçadas a amarelo mostrando a opção correta para cada buraco' },
+      { src: `/samples/portuguese/missing pieces/Peças em Falta 2.webp`, alt: `Ficha de puzzle de peças faltantes mostrando uma imagem com buracos recortados e opções de solução numeradas apresentadas abaixo com cabeçalho de moldura dupla`, caption: `Ficha de puzzle de quebra-cabeças com peças extraídas inteligentemente e opções de solução numeradas incluindo distratoras` },
+      { src: `/samples/portuguese/missing pieces/Peças em Falta 3.webp`, alt: `Chave de respostas autogerada com etiquetas numéricas realçadas a amarelo colocadas dentro de cada buraco mostrando o índice da opção correta`, caption: `Chave de respostas autogerada com etiquetas realçadas a amarelo mostrando a opção correta para cada buraco` },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: `Como criar puzzles de peças faltantes — Tutorial completo`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Abelha — imagem educativa temática', caption: 'Abelha' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Bezerro — imagem educativa temática', caption: 'Bezerro' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Abelha — imagem educativa temática`, caption: 'Abelha' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Touro — imagem educativa temática`, caption: 'Touro' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Bezerro — imagem educativa temática`, caption: 'Bezerro' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Gato — imagem educativa temática`, caption: 'Gato' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Gato 2 — imagem educativa temática`, caption: 'Gato 2' },
   ],
 };
 

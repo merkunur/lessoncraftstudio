@@ -4,10 +4,10 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'word search books KDP',
     secondaryKeywords: [
-      'how to create word search books for Amazon KDP',
-      'word search puzzle book publishing guide',
-      'large print word search books Amazon',
-      'themed word search books KDP publishing',
+      `how to create word search books for Amazon KDP`,
+      `word search puzzle book publishing guide`,
+      `large print word search books Amazon`,
+      `themed word search books KDP publishing`,
     ],
     lsiKeywords: [
       `word search grid size letter spacing puzzle difficulty`,
@@ -17,12 +17,12 @@ const content: GuideContent = {
       `word search book series volumes repeat purchase catalog`,
       `adult kids word search market audience grid formatting`,
     ],
-    titleTag: 'How to Create Word Search Books KDP — Guide',
+    titleTag: `How to Create Word Search Books KDP — Guide`,
     metaDescription: `Create word search books KDP with themed word lists, large print formats, and series strategy. Grid sizing, audience targeting, and Amazon optimization.`,
   },
 
   hero: {
-    title: 'How to Create Word Search Books for Amazon KDP',
+    title: `How to Create Word Search Books for Amazon KDP`,
     tagline: `A focused guide to creating and publishing word search books on Amazon KDP — the single most popular puzzle book subcategory on Amazon, covering themed word list curation for cohesive engaging content, grid size strategy across 12x12 easy through 20x20 expert formats, the large-print word search subcategory that commands premium prices and fierce buyer loyalty, adult versus kids word search market positioning, vocabulary selection that separates professional word search books from amateur compilations, word search-specific Amazon keyword optimization, and the volume-based series strategy that turns a single word search book into a catalog generating predictable monthly revenue`,
     description: `Word search books dominate Amazon KDP puzzle sales by volume, outselling crossword, sudoku, and all other puzzle types combined. The category serves a massive audience — adults seeking relaxation and brain exercise, seniors who prefer large-print formats, travelers wanting offline entertainment, and parents buying engaging unplugged activities for kids. This guide focuses specifically on what makes word search book publishing unique: curating themed word lists that create cohesive and engaging content, choosing grid sizes that match your target audience, formatting for the high-demand large-print subcategory, and building a multi-volume word search catalog that generates compounding revenue through repeat purchases.`,
   },
@@ -31,27 +31,27 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Understand the Word Search Book Market on KDP',
+      heading: `Understand the Word Search Book Market on KDP`,
       content: `Word search books hold a unique position on Amazon KDP — they have the highest demand of any puzzle book subcategory and also the most competition. Understanding the market segments within word search helps you target your publishing efforts where they will be most effective rather than competing head-on against thousands of generic titles.\n\nThe adult word search market is the largest segment by far. Adult buyers purchase word search books for several distinct reasons: daily entertainment and relaxation, travel and commute activities, brain exercise and cognitive maintenance, and stress relief. Each of these motivations maps to different Amazon search terms, which means a well-positioned word search book can rank for multiple buyer intents simultaneously. The adult market further divides into standard format and large-print format, with large-print commanding its own dedicated buyer base.\n\nLarge-print word search books deserve special attention because this subcategory operates almost as a separate market. Large-print buyers are intensely loyal — once they find a publisher whose formatting meets their needs, they purchase volume after volume. They search specifically for "large print word search" and rarely browse standard-format results. The large-print subcategory also supports higher retail prices because buyers associate the format with accessibility value and are less price-sensitive than standard-format buyers. Publishers who serve this subcategory well can build exceptionally stable revenue with strong repeat purchase rates.\n\nThe kids word search market is smaller but meaningfully less competitive. Parents search for age-specific terms like "word search for kids ages 8 to 10" or "word search puzzles for second graders." Kids word search books require fundamentally different content — age-appropriate vocabulary, simpler grid sizes, engaging themes that appeal to children, and larger letter spacing. The seasonal demand pattern for kids word search books differs from adults: summer activity buying, back-to-school, and holiday gift periods create predictable traffic spikes.\n\nBefore creating content, analyze the top 20 Amazon results for your target search terms. Note their puzzle counts, prices, page counts, and review scores. Pay close attention to recurring complaints in 1-star and 2-star reviews — these reveal exactly where existing word search books fail to meet buyer expectations. Common complaints include too-small grids, unthemed random word lists, missing answer keys, and poor print quality. Each complaint you address in your book becomes a competitive advantage.`,
     },
     {
-      heading: 'Choose Your Audience and Word Search Format',
+      heading: `Choose Your Audience and Word Search Format`,
       content: `Your audience choice determines every downstream decision — vocabulary complexity, grid dimensions, letter sizing, page count, pricing, and Amazon keywords. Trying to serve all audiences in a single book produces a product that satisfies none of them well. Commit to one specific audience segment for each title.\n\nAdult general word search books target the broadest audience. These use standard 8.5 by 11 inch formatting with grids ranging from 15x15 to 20x20, vocabulary that includes moderately challenging words, and puzzle counts of 80 to 120 per volume. Adult general books compete on puzzle quantity, theme quality, and price. This segment has the highest volume but also the most direct competition.\n\nAdult large-print word search books serve readers who need or prefer larger text. The key formatting requirement is minimum 16-point font size for grid letters, with 18 to 20 point preferred. This limits the practical grid size to 12x12 or 15x15 on an 8.5 by 11 page because each letter needs more physical space. Large-print books typically contain 60 to 80 puzzles per volume because the larger formatting uses more page space per puzzle. The trade-off is worthwhile — large-print books support retail prices 1 to 3 dollars higher than standard format because buyers perceive the accessible formatting as added value.\n\nAdult themed word search collections focus on a single theme throughout the entire book — "Word Search for Cat Lovers," "Travel Word Search Puzzles," "Word Search for Food Enthusiasts." Themed collections capture long-tail search traffic that generic books cannot reach. A buyer searching specifically for "word search animals" will choose a dedicated animal-themed book over a generic collection every time. Themed editions also make stronger gift purchases because the theme signals personal relevance to the recipient.\n\nKids word search books require age-specific vocabulary, larger grid letters (minimum 14-point, 16-point preferred), simpler grids (10x10 to 14x14), and themes that resonate with children (animals, dinosaurs, space, sports, cartoons). Vocabulary must match the reading level of your target age group — a word search book for ages 6 to 8 should use words a second grader can read. Inappropriate vocabulary difficulty is one of the most common complaints in kids word search book reviews.`,
     },
     {
-      heading: 'Curate Word Lists for Themed Collections',
+      heading: `Curate Word Lists for Themed Collections`,
       content: `The quality of your word lists is the single biggest factor separating word search books that earn strong reviews from those that receive mediocre ratings. Random, unthemed word selections feel lazy to solvers and generate the most common negative review complaint: "the words seem random and unrelated." Themed word lists transform each puzzle from a mechanical exercise into an engaging topical challenge.\n\nA themed word search puzzle uses a word list where every word relates to a single coherent topic. An "Ocean Life" puzzle might include words like WHALE, DOLPHIN, CORAL, STARFISH, OCTOPUS, JELLYFISH, SEAHORSE, LOBSTER, and PLANKTON. A "Kitchen" puzzle might include SPATULA, WHISK, OVEN, BLENDER, COLANDER, SKILLET, LADLE, and SAUCEPAN. The theme creates a discovery element beyond simply finding hidden words — solvers explore the vocabulary of a topic and may learn new words related to subjects they enjoy.\n\nOrganize your book into themed sections of 8 to 12 puzzles each. A 100-puzzle adult word search book might contain 10 themed sections: Animals, Travel Destinations, Food and Cooking, Sports, Nature, Music, Science, History, Movies, and Hobbies. Each section gets a divider page with the theme name and a brief thematic introduction. This sectional organization adds editorial structure that distinguishes your book from competitors who simply stack 100 unrelated puzzles in sequence.\n\nFor adult books, use vocabulary that is accessible but not elementary. Include a mix of common words that most solvers will find quickly (providing satisfaction and momentum) and less common words that require careful grid scanning (providing challenge). A well-balanced animal-themed puzzle might include obvious words like CAT, DOG, and HORSE alongside less common words like PANGOLIN, AXOLOTL, and PLATYPUS. Avoid obscure or archaic words that most solvers will not recognize — the goal is engaging challenge, not frustrating obscurity.\n\nFor kids books, vocabulary must be strictly age-appropriate. Cross-reference word lists against grade-level reading lists for your target age range. A word search book for ages 6 to 8 should use words a typical second grader can read and recognize. A book for ages 9 to 12 can include more complex vocabulary. When in doubt, err toward simpler words for younger audiences — parents leave negative reviews when their child cannot read the words in the puzzle.\n\nCreate word lists of 25 to 40 words per theme, then select 12 to 20 words per puzzle from that list. This ensures variety across multiple puzzles within the same theme section. If your Animals section has 10 puzzles, each puzzle should feature a different subset of animal-related words rather than repeating the same list. Keep a master word list document organized by theme to avoid accidental duplicates across your book.`,
     },
     {
-      heading: 'Configure Grid Size and Difficulty Progression',
+      heading: `Configure Grid Size and Difficulty Progression`,
       content: `Grid size directly affects puzzle difficulty, solving time, and physical usability. Choosing the right grid dimensions for each difficulty level and audience is essential for creating a word search book that solvers find satisfying rather than frustrating.\n\nFor standard adult word search books, use three grid sizes mapped to difficulty levels. Easy puzzles use 12x12 grids with 10 to 12 hidden words — these provide quick satisfaction and build solver confidence at the start of the book. Medium puzzles use 15x15 grids with 15 to 18 hidden words — the increased grid area and word count require more careful scanning and extend solving time. Hard puzzles use 18x18 or 20x20 grids with 20 to 25 hidden words — these create genuinely challenging puzzles that experienced word search solvers find rewarding.\n\nFor large-print word search books, grid sizes must be smaller because each letter occupies more physical space. Easy puzzles use 10x10 or 12x12 grids, medium use 12x12 or 14x14, and hard puzzles max out at 15x15. The reduced grid size is offset by the larger letter formatting that makes the book comfortable for its target audience. Attempting to fit a 20x20 grid at large-print letter sizes on an 8.5 by 11 page either produces cramped results or requires reducing the font size below large-print standards, defeating the purpose entirely.\n\nFor kids word search books, grid sizes depend on the target age range. Ages 5 to 7 work best with 8x8 to 10x10 grids with 6 to 8 hidden words. Ages 8 to 10 can handle 10x10 to 14x14 grids with 10 to 14 words. Ages 11 and up can solve grids similar to adult easy and medium levels. Always use larger letter sizing than adult books — children need more space to visually track rows and circle words.\n\nDifficulty progression goes beyond grid size alone. Word direction is a major difficulty lever. Easy puzzles should hide words only horizontally (left to right) and vertically (top to bottom). Medium puzzles add diagonal directions. Hard puzzles include backwards horizontal, backwards vertical, and backwards diagonal placements. Clearly note the allowed word directions in each section introduction so solvers know what to expect.\n\nStructure your book with a clear three-section layout: Easy (first third of puzzles), Medium (middle third), and Hard (final third). Include a section divider page between each difficulty level that states the grid size, word count range, and word direction rules for that section. This structure lets solvers start at their comfort level and progress naturally, extending the useful life of the book.`,
     },
     {
-      heading: 'Generate Word Search Content at Book Scale',
+      heading: `Generate Word Search Content at Book Scale`,
       content: `Creating 80 to 120 word search puzzles for a single book requires a systematic workflow to maintain consistent quality across every page. The Word Search generator handles the technical work of grid creation, word placement, and answer key generation, but you need an organized production process to manage content at book scale.\n\nStart by preparing your complete theme plan and word lists before generating any puzzles. For a 100-puzzle book with 10 themed sections, you need 10 curated word lists of 25 to 40 words each. Having all word lists ready before generation prevents the common mistake of starting production before content planning is complete, which leads to inconsistent quality between early and late sections.\n\nGenerate puzzles section by section, adjusting difficulty settings for each section. Use the Word Search generator to create all Easy-section puzzles first with your smaller grid size and simpler word direction settings. Then generate Medium-section puzzles with larger grids and more word directions. Finally generate Hard-section puzzles with the largest grids and all word directions enabled. This batch approach by difficulty level ensures consistent settings within each section.\n\nGenerate the answer key for every puzzle during the same session you create the puzzle itself. Answer keys are non-negotiable for word search books — missing solutions are the number-one driver of negative reviews in this category. The answer key should clearly show the grid with all hidden words highlighted and list the words found. Label each answer key with the corresponding puzzle page number for easy cross-reference.\n\nCreate 20 to 30 percent more puzzles than your target count. For a 100-puzzle book, generate 120 to 130 puzzles. This surplus lets you review all puzzles and select the strongest ones for each section while discarding any with awkward word placements, accidental inappropriate word formations in the fill letters, or other quality issues. Save surplus puzzles for future volumes — this gives you a head start on your next book with zero additional content creation effort.\n\nReview every generated puzzle manually before including it in your manuscript. Check that all listed words are actually findable in the grid. Verify that fill letters do not accidentally spell offensive or inappropriate words. Confirm that themed words are correctly spelled and age-appropriate for your target audience. This quality control step takes time but prevents the kind of errors that generate immediate negative reviews.`,
     },
     {
-      heading: 'Format Word Search Pages for KDP Print',
+      heading: `Format Word Search Pages for KDP Print`,
       content: `Word search books have specific formatting requirements that go beyond general KDP manuscript specifications. The core challenge is ensuring the letter grid prints clearly enough for comfortable solving — solvers need to read individual letters, scan rows and columns quickly, and physically circle words with a pen or pencil without overlapping adjacent letters.\n\nLetter spacing within the grid is the most critical formatting parameter. The minimum center-to-center distance between adjacent letters should be 0.3 inches for standard adult books and 0.4 inches for large-print editions. Spacing below these minimums makes it difficult to circle individual words without encroaching on surrounding letters, which is the most common usability complaint in word search book reviews. Test your spacing by printing a sample page and circling several words with a thick pen — if circles overlap adjacent letters, increase your spacing.\n\nThe word list placement on each puzzle page affects both usability and aesthetics. The most common and effective layout places the letter grid in the upper two-thirds of the page with the word list below. List words in 2 to 3 columns below the grid, alphabetized for easy scanning. Some publishers place the word list to the right of the grid on landscape-oriented pages, but portrait orientation with the list below is the market standard for word search books and what buyers expect.\n\nUse 8.5 by 11 inch trim size for all word search books. This is the standard format that word search buyers expect and provides maximum space for grids. For standard adult books, use at least 14-point font for grid letters. For large-print editions, use 18 to 20-point font for grid letters and 14 to 16-point for the word list. For kids books, use 16 to 18-point font for grid letters. These font sizes determine your maximum practical grid dimensions at each trim size.\n\nSet margins at 0.6 to 0.75 inches on all sides, with a full 0.75 inch gutter margin for binding clearance. Word search solvers write across the full page surface, so adequate margins prevent content from disappearing into the binding or getting cut during trimming. Use generous spacing between the page header (theme name and puzzle number), the grid, and the word list to create a clean, uncluttered page layout.\n\nFor comprehensive KDP formatting specifications including PDF export settings, page count requirements, bleed configuration, and manuscript assembly workflows, refer to the math activity books KDP guide and the KDP formatting guide, which cover these foundational technical requirements in detail.`,
     },
     {
@@ -59,14 +59,14 @@ const content: GuideContent = {
       content: `Word search buyers on Amazon use highly specific search terms, and your listing must match their language precisely. The term "word search" itself has multiple common variations — "word search," "word find," "word seek," "word hunt" — and your keywords should cover all of them to capture maximum search traffic.\n\nYour book title carries the most search weight on Amazon. Structure your title to include the puzzle type, audience, differentiating features, and puzzle count: "Word Search Puzzles for Adults: 100 Large Print Themed Puzzles with Full Solutions." The subtitle expands with secondary keywords: "Easy to Hard Difficulty — Animals, Travel, Food, Nature, and More — Volume 1." This title structure hits multiple high-traffic search terms naturally while remaining readable and professional.\n\nUse all 7 keyword fields strategically, with each field targeting a different buyer intent or search variation. Effective keyword fields for an adult word search book include: "word search puzzles for adults large print easy," "word find books for adults entertainment relaxation," "word search book for seniors easy to read large," "puzzle books for adults word games brain exercise," "large print word search travel activities offline," "word puzzle book stress relief themed word search," and "brain games word search adults easy medium hard." Each field uses a different combination of core terms and intent modifiers.\n\nFor kids word search books, keyword fields should emphasize age ranges and educational value: "word search for kids ages 8 10 12," "word search puzzles for kids activity book," "children word search book educational fun," "kids word find puzzles ages 6 8 easy," "word search book for second grade third grade." Parents include age ranges in their searches far more often than adult puzzle buyers, so age-specific keywords are essential for kids titles.\n\nCategory selection targets word search-specific subcategories. Start with Puzzle and Game Activity Books as your primary category, then request additional placements in Word Games, Word Search, and age-specific subcategories through KDP Support after publication. The "Word Search" subcategory has less competition than the parent "Puzzle Books" category, giving your book better visibility in the more targeted browsing path.\n\nYour book description should reinforce your Amazon keywords while selling the book to browsing buyers. Lead with the puzzle count and format: "100 themed word search puzzles organized into Easy, Medium, and Hard difficulty sections." Follow with specific selling points: themed content, solutions included, grid sizes, and the audience the book serves. Close with a call to action that emphasizes the book as a gift option or personal entertainment purchase.`,
     },
     {
-      heading: 'Scale with a Word Search Book Series',
+      heading: `Scale with a Word Search Book Series`,
       content: `Word search books have the strongest repeat purchase dynamic of any KDP category. Once a solver completes a word search book, every puzzle has been used — there is zero replay value in print. The solver must buy a new book for fresh content. This consumption cycle makes multi-volume series your most powerful revenue strategy.\n\nLaunch your series with a strong Volume 1 that establishes your formatting, quality standard, and brand identity. Volume 1 is your store window — it needs to be flawless because early reviews on Volume 1 determine whether buyers trust your series enough to purchase Volume 2. Invest extra time in quality control for your first volume: verify every puzzle, proofread every word list, and test the physical usability of your formatting by solving printed sample pages.\n\nPublish new volumes on a consistent schedule, ideally every 4 to 6 weeks. Consistent publishing builds buyer expectation and Amazon algorithmic favor. When Amazon detects that a publisher releases new titles on a regular cadence and those titles generate consistent sales, the recommendation engine promotes both new and existing titles more aggressively. Erratic publishing with months-long gaps between volumes weakens this algorithmic relationship.\n\nBuild themed spin-off series alongside your numbered volumes. While "Word Search Puzzles for Adults Volume 1 through 10" serves general word search buyers, themed collections capture entirely different search traffic. "Christmas Word Search Puzzles" captures holiday gift traffic for 6 to 8 weeks each year. "Word Search for Cat Lovers" targets interest-based buyers year-round. "Travel Word Search Book" sells strongly during vacation planning periods. Each themed title expands your catalog reach into search terms your numbered volumes cannot target.\n\nCreate age-segmented versions of your best-performing content. Your adult word search content can be reformatted into a large-print seniors edition by increasing letter size, reducing grid dimensions, and adjusting vocabulary toward more familiar words. It can become a kids edition by replacing sophisticated vocabulary with age-appropriate words and increasing letter sizing. Each version targets completely different Amazon search terms and serves a distinct audience segment. One content creation cycle can yield three separate books serving three markets.\n\nCross-promote between all your word search books and across any other puzzle types you publish. Include a "More Books by This Author" page in the back matter of every book listing all your titles organized by series and type. Reference your crossword and sudoku books in your word search back matter, and vice versa. Set up an Amazon Author Page that showcases your complete catalog. When a satisfied word search buyer discovers your crossword titles, the conversion rate is dramatically higher than acquiring a cold customer from search results.`,
     },
   ],
 
   platformTips: [
     {
-      heading: 'Master the Large-Print Word Search Subcategory',
+      heading: `Master the Large-Print Word Search Subcategory`,
       content: `Large-print word search books operate as a distinct market with dedicated buyers who search specifically for "large print word search" and rarely browse standard-format results. To compete effectively in this subcategory, your formatting must genuinely qualify as large print — minimum 16-point grid letters, with 18 to 20 point preferred. Buyers in this segment scrutinize font size immediately upon receiving the book, and undersized text generates instant returns and negative reviews. The reward for proper formatting is exceptional buyer loyalty — large-print word search readers who find a publisher they trust become consistent repeat buyers, often purchasing every new volume within days of publication. Price large-print editions 1 to 3 dollars above your standard format to reflect the formatting value and offset the lower puzzle count that larger text requires.`,
     },
     {
@@ -81,7 +81,7 @@ const content: GuideContent = {
 
   monetization: [
     {
-      heading: 'Build Revenue Through Numbered Volume Series',
+      heading: `Build Revenue Through Numbered Volume Series`,
       content: `The single most reliable revenue strategy for word search book publishers is the numbered volume series. A solver who finishes Volume 1 and enjoyed the experience is a near-certain buyer for Volume 2 — and every subsequent volume. This repeat purchase dynamic compounds over time as your series grows. Each new volume you publish generates immediate sales from existing fans while the complete series continues attracting new buyers through Amazon search. Structure your back matter to maximize this dynamic: include a full list of all available volumes on the final pages, make the volume number prominent on the cover and spine, and maintain absolutely consistent formatting and quality across every volume so buyers know exactly what to expect.`,
     },
     {
@@ -89,7 +89,7 @@ const content: GuideContent = {
       content: `Seasonal word search books generate intense short-term sales spikes that can exceed your numbered volumes during peak periods. Christmas word search books see strong sales from early November through late December. Halloween, Easter, Valentine's Day, and Thanksgiving editions each have 4 to 6 week windows of elevated demand. Summer activity word search books sell strongly from June through August as parents seek unplugged entertainment for children. Publish seasonal titles at least 6 weeks before the relevant holiday to give Amazon time to index and rank your listing. The content creation effort for a seasonal edition is identical to a standard volume — you simply use holiday-themed word lists — but the seasonal traffic spike can deliver a month of sales that matches 3 to 4 months of steady-state volume sales.`,
     },
     {
-      heading: 'Multiply Your Catalog with Age-Segmented Editions',
+      heading: `Multiply Your Catalog with Age-Segmented Editions`,
       content: `A single word search content creation cycle can produce three or more distinct books serving entirely different audiences. Your standard adult word search book becomes a large-print seniors edition by increasing letter size to 18 to 20 point, reducing grids to 12x12 or 14x14, and selecting familiar vocabulary from your word lists. It becomes a kids edition by swapping adult vocabulary for age-appropriate words, using 10x10 to 14x14 grids with large letters, and adding engaging theme introductions. Each version targets different Amazon search terms, appears in different category browsing paths, and serves a different buyer demographic. Three books from one content effort triples your catalog presence while keeping production costs low. This multiplication strategy is the primary mechanism through which word search publishers scale from a handful of titles to catalog sizes that generate substantial monthly revenue.`,
     },
   ],
@@ -139,39 +139,39 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'sudoku-books-kdp',
-      title: 'Create Sudoku Books for Amazon KDP',
+      title: `Create Sudoku Books for Amazon KDP`,
       description: `Explore the sudoku book niche on KDP. Covers picture sudoku for kids, number sudoku for adults, difficulty progression, and sudoku-specific formatting requirements for print publishing.`,
     },
     {
       slug: 'publish-puzzle-books-kdp',
-      title: 'Publish Puzzle Books on Amazon KDP',
+      title: `Publish Puzzle Books on Amazon KDP`,
       description: `The broader puzzle book publishing guide covering word search, crossword, sudoku, and variety books. Includes multi-type catalog strategy and cross-promotion between puzzle formats.`,
     },
     {
       slug: 'make-money-kdp-activity-books',
-      title: 'Make Money with KDP Activity Books',
+      title: `Make Money with KDP Activity Books`,
       description: `The comprehensive revenue guide for KDP publishers. Covers pricing strategy, catalog economics, seasonal publishing, and multi-platform approaches to maximizing activity book income.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'How to Create Math Activity Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
-    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: 'How to Create Sudoku Books for Amazon KDP' },
-    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: 'How to Make Money with KDP Activity Books' },
-    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP Formatting Guide for Worksheet Books' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: `How to Create Math Activity Books for Amazon KDP` },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: `How to Publish Puzzle Books on Amazon KDP` },
+    { pageType: 'guide', slug: 'sudoku-books-kdp', anchorText: `How to Create Sudoku Books for Amazon KDP` },
+    { pageType: 'guide', slug: 'make-money-kdp-activity-books', anchorText: `How to Make Money with KDP Activity Books` },
+    { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: `KDP Formatting Guide for Worksheet Books` },
     { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Top KDP Activity Book Niches' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Where to Sell Printables' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles with Images' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: `Amazon KDP vs Etsy: Where to Sell Printables` },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: `How to Create Word Search Puzzles with Images` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Worksheet Generator — Full Details' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: `Word Search Worksheet Generator — Full Details` },
   ],
 
   toolsRecommended: [
     {
       appId: 'wordsearch',
-      title: 'Word Search Worksheet Generator',
+      title: `Word Search Worksheet Generator`,
       description: `The essential tool for word search book publishing on KDP. Creates themed word search grids with customizable sizes, word lists, difficulty levels, and answer keys for both adult and kids books.`,
     },
     {
@@ -181,28 +181,28 @@ const content: GuideContent = {
     },
     {
       appId: 'math-puzzle',
-      title: 'Math Puzzle Worksheet Generator',
+      title: `Math Puzzle Worksheet Generator`,
       description: `Creates number-based grid puzzles that complement word search books in a broader puzzle catalog. Math puzzles serve buyers who enjoy both word and number challenges.`,
     },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP word search book interior pages' },
+    heroImage: { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Word search puzzle worksheet showing themed word grid suitable for Amazon KDP word search book interior pages` },
     samples: [
-      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: 'Animal themed word search puzzle formatted for KDP word search book', caption: 'Themed animal word search puzzle — themed word lists create engaging content that outperforms random word collections in buyer reviews' },
-      { src: '/samples/english/wordsearch/custom word list.webp', alt: 'Food themed word search puzzle for KDP book', caption: `Food themed word search — themed sections add editorial structure that distinguishes professional word search books from amateur compilations` },
-      { src: `/samples/english/crossword/crossword_worksheet.webp`, alt: 'Crossword puzzle for companion KDP puzzle catalog', caption: 'Crossword puzzle — companion puzzle type for catalog diversification and cross-promotion with word search titles' },
+      { src: `/samples/english/wordsearch/wordsearch portrait.webp`, alt: `Animal themed word search puzzle formatted for KDP word search book`, caption: `Themed animal word search puzzle — themed word lists create engaging content that outperforms random word collections in buyer reviews` },
+      { src: `/samples/english/wordsearch/custom word list.webp`, alt: `Food themed word search puzzle for KDP book`, caption: `Food themed word search — themed sections add editorial structure that distinguishes professional word search books from amateur compilations` },
+      { src: `/samples/english/crossword/crossword_worksheet.webp`, alt: `Crossword puzzle for companion KDP puzzle catalog`, caption: `Crossword puzzle — companion puzzle type for catalog diversification and cross-promotion with word search titles` },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: `How to Create Word Search Puzzles for Amazon KDP Books — Step-by-Step Tutorial`,
   },
 
   themeImages: [
-    { src: '/image-library/camping/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/camping/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/camping/binoculars.webp', alt: 'Binoculars — themed educational image', caption: 'Binoculars' },
-    { src: '/image-library/camping/boots.webp', alt: 'Boots — themed educational image', caption: 'Boots' },
-    { src: '/image-library/camping/cabin.webp', alt: 'Cabin — themed educational image', caption: 'Cabin' },
+    { src: `/image-library/camping/backpack.webp`, alt: `Backpack — themed educational image`, caption: 'Backpack' },
+    { src: `/image-library/camping/bear.webp`, alt: `Bear — themed educational image`, caption: 'Bear' },
+    { src: `/image-library/camping/binoculars.webp`, alt: `Binoculars — themed educational image`, caption: 'Binoculars' },
+    { src: `/image-library/camping/boots.webp`, alt: `Boots — themed educational image`, caption: 'Boots' },
+    { src: `/image-library/camping/cabin.webp`, alt: `Cabin — themed educational image`, caption: 'Cabin' },
   ],
 };
 

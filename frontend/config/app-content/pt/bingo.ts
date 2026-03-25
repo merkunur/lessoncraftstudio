@@ -2,19 +2,19 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador cartelas bingo com imagens',
+    primaryKeyword: `gerador cartelas bingo com imagens`,
     secondaryKeywords: [
       `gerador de cartelas de bingo imprimíveis para vendedores Etsy`,
       `criador de cartelas de bingo com imagens para editores Amazon KDP`,
       `gerador de cartelas de bingo com licença comercial`,
-      'vender cartelas de bingo imprimíveis no Gumroad',
+      `vender cartelas de bingo imprimíveis no Gumroad`,
     ],
     lsiKeywords: [
       `produtos digitais de cartelas de bingo para empreendedores`,
-      'gerador de cartelas de bingo uso comercial',
+      `gerador de cartelas de bingo uso comercial`,
       `atividades de bingo imprimíveis para negócio online`,
     ],
-    titleTag: 'Gerador Cartelas Bingo com Imagens | Criar',
+    titleTag: `Gerador Cartelas Bingo com Imagens | Criar`,
     metaDescription:
       `Crie cartelas de bingo com imagens para Etsy, KDP e Gumroad. Lotes de cartelas únicas, export ZIP, folhas de chamada, 104 temas. Teste grátis com marca d'água.`,
   },
@@ -35,12 +35,12 @@ const content: AppContent = {
           `Abra o painel Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de fundo com o seletor de cores. Escolha um tema de fundo decorativo e ajuste a sua opacidade (de 0 a 1 em passos de 0,05), depois selecione um tema de borda com o seu próprio controlo de opacidade independente. Estas opções de layout emolduram a sua cartela de bingo antes de configurar o conteúdo.`,
       },
       {
-        title: 'Configure as Definições da Cartela de Bingo',
+        title: `Configure as Definições da Cartela de Bingo`,
         description:
           `Abra o painel Definições da Cartela de Bingo e defina as linhas (3 a 5) e as colunas (3 a 5) para determinar o tamanho da grade — o valor predefinido é 4×4 com 16 células. Ajuste o número de cartelas de 1 a 10 para gerar em lote múltiplas cartelas de bingo únicas. Escolha o preenchimento das células (Imagem ou Palavra) e o preenchimento das fichas (Imagem ou Palavra) de forma independente — misture cartelas com imagens e fichas com palavras, cartelas com palavras e fichas com imagens, ou combine ambos. Ative a caixa «Usar seleção personalizada» para escolher manualmente as imagens específicas para a chamada em vez da seleção automática.`,
       },
       {
-        title: 'Selecione Imagens da Biblioteca',
+        title: `Selecione Imagens da Biblioteca`,
         description:
           `Abra o painel Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações coloridas — animais, alimentos, veículos, natureza, festividades e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique nas imagens para selecioná-las para as suas cartelas de bingo. Quando a seleção personalizada de chamada está ativa, as imagens escolhidas aparecem no banco de chamada com um contador em tempo real que mostra o número de seleções. Também pode carregar imagens personalizadas PNG, JPG ou GIF através do painel Carregar Imagens.`,
       },
@@ -50,7 +50,7 @@ const content: AppContent = {
           `Clique em Gerar para criar as suas cartelas de bingo. A aplicação preenche a grade configurada com imagens ou palavras do tema selecionado, depois cria fichas circulares com bordas tracejadas abaixo da cartela — as fichas são embaralhadas pelo algoritmo Fisher-Yates para que nunca correspondam diretamente ao layout da cartela. Se solicitou múltiplas cartelas, cada uma obtém uma seleção aleatória diferente do banco de imagens, garantindo que cada cartela do lote seja única. A primeira cartela aparece imediatamente no canvas; todas as cartelas são incluídas na exportação ZIP em lote.`,
       },
       {
-        title: 'Descarregue Cartelas e Folha de Chamada',
+        title: `Descarregue Cartelas e Folha de Chamada`,
         description:
           `Alterne entre o separador Cartelas + Fichas e o separador Chamada para pré-visualizar ambas as saídas. A folha de chamada apresenta uma grade dinâmica de palavras com tamanho de fonte uniforme e colunas calculadas com base no comprimento da palavra mais longa. Descarregue cartelas individuais como JPEG ou PDF com os botões dedicados, ou exporte em lote todas as cartelas geradas como ficheiros JPEG individuais num único ficheiro bingo_cards.zip. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação é renderizada a 300 DPI e está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.`,
       },
@@ -104,37 +104,37 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Como Vender Cartelas de Bingo com Imagens Online',
+    title: `Como Vender Cartelas de Bingo com Imagens Online`,
     cases: [
       {
-        title: 'Pacotes Temáticos de Cartelas de Bingo na Etsy',
+        title: `Pacotes Temáticos de Cartelas de Bingo na Etsy`,
         description:
           `Crie pacotes temáticos de cartelas de bingo usando as 104 coleções de imagens — bingo de animais, bingo de alimentos, bingo de veículos, bingo de festividades e dezenas mais. Cada tema fornece ilustrações suficientes para cartelas únicas em diferentes tamanhos de grade. Agrupe 10–30 cartelas de bingo únicas por tema com folhas de chamada incluídas e venda entre $3 e $8 por pacote. Utilize a geração em lote para criar 10 cartelas únicas por conjunto em segundos, depois misture tamanhos de grade num único pacote: cartelas 3×3 para partidas rápidas, cartelas 4×4 padrão e cartelas 5×5 para partidas longas. A exportação ZIP em lote agiliza a produção para vendedores de alto volume.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cadernos de Atividades de Bingo na Amazon KDP',
+        title: `Cadernos de Atividades de Bingo na Amazon KDP`,
         description:
           `Compile 40 a 80 cartelas de bingo num caderno de atividades impresso formatado para a Amazon KDP. Estruture o seu livro por capítulos temáticos: animais, alimentos, veículos, festividades e mais. Inclua as folhas de chamada após cada série de cartelas para que o livro seja autónomo e pronto para jogar. Utilize a escala de cinzentos para interiores económicos em tinta que mantêm os custos de impressão baixos. Misture tamanhos de grade para oferecer dificuldade progressiva — comece com cartelas 3×3 para partidas rápidas e avance para 5×5 para partidas mais longas. Os cadernos de atividades de bingo vendem-se bem durante todo o ano e têm picos durante as festividades quando as famílias procuram atividades em grupo.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Atividades de Bingo para a loja no Gumroad',
+        title: `Atividades de Bingo para a loja no Gumroad`,
         description:
           `Crie conjuntos de bingo prontos para jogar com cartelas únicas para cada jogador e folhas de chamada para o vendedor. Os vendedores que procuram atividades de bingo no Gumroad valorizam produtos prontos para usar — imprima as cartelas, distribua e comece a jogar imediatamente. Crie conjuntos alinhados com o catálogo de produtos: bingo de vocabulário com o modo preenchimento de palavras, bingo de reconhecimento de imagens com o modo preenchimento de imagens, e bingo em modo misto para pacotes escalonados por nível. Inclua 10 cartelas únicas por conjunto (suficiente para um grupo pequeno) com uma folha de chamada. O modo preenchimento de palavras com os nomes localizados das imagens transforma o bingo numa atividade de revisão de vocabulário.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Coleções de Bingo Sazonais e de Festividades',
+        title: `Coleções de Bingo Sazonais e de Festividades`,
         description:
           `As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. O bingo é um jogo naturalmente social que tem picos durante as festividades quando as famílias e as salas de aula procuram atividades em grupo. Publique conjuntos de bingo de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Cada conjunto sazonal inclui múltiplos tamanhos de grade, variantes de preenchimento de imagens e de palavras, e folhas de chamada. Os produtos de bingo sazonais alcançam preços mais altos durante as suas janelas de maior procura.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (sazonal)',
+        platform: `Etsy / Amazon KDP / Gumroad (sazonal)`,
       },
       {
         title: `Cartelas de Bingo para Eventos, Festas e Ocasiões Especiais`,
         description:
           `Crie conjuntos de cartelas de bingo para festas, chás de bebé, despedidas de solteira, atividades de equipa e workshops educativos. Os tamanhos de grade configuráveis e a biblioteca de imagens temáticas facilitam a produção de jogos de bingo específicos para cada ocasião — bingo de artigos de bebé para chás de bebé, bingo de alimentos para aulas de culinária, bingo de animais para visitas ao jardim zoológico. Gere em lote 10 cartelas únicas por evento com uma folha de chamada, empacote como download instantâneo em PDF e venda na Etsy onde os organizadores de eventos procuram ativamente jogos imprimíveis. A seleção personalizada de chamada permite-lhe escolher exatamente quais elementos aparecem no jogo.`,
-        platform: 'Etsy (etsy.com / organizadores de eventos)',
+        platform: `Etsy (etsy.com / organizadores de eventos)`,
       },
     ],
   },
@@ -151,7 +151,7 @@ const content: AppContent = {
         `Ajuste o número de cartelas de 1 a 10 no painel Definições da Cartela de Bingo. Cada cartela obtém uma seleção aleatória diferente do banco de imagens, garantindo que cada cartela do lote seja única — essencial para o bingo onde cada jogador precisa de uma cartela diferente. A primeira cartela aparece imediatamente no canvas para pré-visualização. Todas as cartelas geradas estão disponíveis através da exportação ZIP em lote para descarga como ficheiros JPEG individuais.`,
     },
     {
-      question: 'Como funciona a exportação ZIP em lote?',
+      question: `Como funciona a exportação ZIP em lote?`,
       answer:
         `Após gerar múltiplas cartelas de bingo, clique no botão de exportação em lote para descarregar todas as cartelas como ficheiros JPEG individuais de alta resolução empacotados num único ficheiro bingo_cards.zip. Cada cartela é nomeada sequencialmente dentro do ZIP para organização fácil. Isto elimina a necessidade de descarregar cartelas uma por uma — gere um conjunto completo de 10 cartelas únicas e exporte-as todas com um único clique usando a compressão JSZip.`,
     },
@@ -161,12 +161,12 @@ const content: AppContent = {
         `As células da cartela e as fichas têm cada uma um modo de preenchimento independente: Imagem ou Palavra. O preenchimento das células determina o que aparece em cada célula da grade de bingo. O preenchimento das fichas determina o que aparece nas fichas circulares abaixo da cartela que os jogadores usam para a associação. Pode misturar os modos — cartelas com imagens e fichas com palavras, cartelas com palavras e fichas com imagens, ou combinar ambos — criando quatro estilos de cartelas de bingo distintos a partir de um mesmo conjunto de imagens.`,
     },
     {
-      question: 'O que é a folha de chamada e como funciona?',
+      question: `O que é a folha de chamada e como funciona?`,
       answer:
         `A folha de chamada é uma página separada (acessível através do separador Chamada) que apresenta uma grade dinâmica de todos os elementos únicos do banco de imagens. O chamador lê estas palavras em voz alta enquanto os jogadores marcam as suas cartelas de bingo. As colunas são calculadas com base no comprimento da palavra mais longa (2 a 6 colunas) com um tamanho de fonte uniforme. A grade é centrada na página e herda as bordas e o fundo do canvas. Isto NÃO é um gabarito — é uma folha de referência para a pessoa que dirige o jogo de bingo.`,
     },
     {
-      question: 'O que é a seleção personalizada de chamada?',
+      question: `O que é a seleção personalizada de chamada?`,
       answer:
         `Ative a caixa «Usar seleção personalizada» no painel Definições da Cartela de Bingo para escolher manualmente quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens na Biblioteca de Imagens para adicioná-las à sua seleção personalizada — um contador em tempo real mostra «Selecionados para chamada personalizada: X» à medida que escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o catálogo de produtos ou eventos temáticos que requerem vocabulário específico.`,
     },
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Existe um teste grátis?',
       answer:
-        `Sim. Pode aceder a todas as funcionalidades — todos os tamanhos de grade, a geração em lote de até 10 cartelas, a exportação ZIP em lote, os modos de preenchimento de imagens e de palavras, a folha de chamada, a biblioteca de imagens completa, a seleção personalizada de chamada, os temas de fundo e de borda, as ferramentas de texto e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d'água. Uma licença comercial remove a marca d'água e concede direitos completos de venda.`,
+        `Sim. Pode aceder a todas as funcionalidades — todos os tamanhos de grade, a geração em lote de até 10 cartelas, a exportação ZIP em lote, os modos de preenchimento de imagens e de palavras, a folha de chamada, a biblioteca de imagens completa, a seleção personalizada de chamada, os temas de fundo e de borda, as ferramentas de texto e todos os formatos de descarga — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d`água. Uma licença comercial remove a marca d`água e concede direitos completos de venda.`,
     },
     {
       question: `Podem-se adicionar temas de fundo e de borda às cartelas de bingo?`,
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sim. Com uma licença comercial, tem todos os direitos para vender as suas cartelas de bingo como downloads digitais na Etsy, como cadernos de atividades impressos na Amazon KDP, como recursos educativos no Gumroad ou através de qualquer outro canal de venda. Os tamanhos de grade configuráveis, a geração em lote, a exportação ZIP, os duplos modos de preenchimento, as folhas de chamada e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de bingo originais e vendáveis em escala.`,
     },
     {
-      question: 'Qual é a política de reembolso?',
+      question: `Qual é a política de reembolso?`,
       answer:
         `Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar todos os tamanhos de grade, a geração em lote, a exportação ZIP, os modos de preenchimento de imagens e de palavras, a folha de chamada, a biblioteca de imagens completa, a seleção personalizada de chamada, os temas de fundo e de borda, as ferramentas de texto e todos os formatos de descarga antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.`,
     },
@@ -206,27 +206,27 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'ligar-fichas',
-      anchorText: 'Gerador de Fichas de Associação',
+      anchorText: `Gerador de Fichas de Associação`,
     },
     {
       pageType: 'app',
       slug: 'quebra-cabeca-grade-fichas',
-      anchorText: 'Gerador de Puzzles de Quadrícula',
+      anchorText: `Gerador de Puzzles de Quadrícula`,
     },
     {
       pageType: 'app',
       slug: 'combinar-sombras-fichas',
-      anchorText: 'Gerador de Fichas de Associação de Sombras',
+      anchorText: `Gerador de Fichas de Associação de Sombras`,
     },
     {
       pageType: 'app',
       slug: 'classificacao-imagens-fichas',
-      anchorText: 'Gerador de Fichas de Classificação de Imagens',
+      anchorText: `Gerador de Fichas de Classificação de Imagens`,
     },
     {
       pageType: 'app',
       slug: 'encontrar-objetos-fichas',
-      anchorText: 'Gerador de Fichas de Encontrar Objetos',
+      anchorText: `Gerador de Fichas de Encontrar Objetos`,
     },
     {
       pageType: 'app',
@@ -235,28 +235,28 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'pacote-associacao-classificacao',
+      slug: `pacote-associacao-classificacao`,
       anchorText: `Pacote Associação e Classificação — Todas as Aplicações de Associação num Pacote`,
     },
     {
       pageType: 'guide',
       slug: 'criar-cartelas-bingo',
-      anchorText: 'Como Criar e Vender Cartelas de Bingo Online',
+      anchorText: `Como Criar e Vender Cartelas de Bingo Online`,
     },
     {
       pageType: 'idea',
       slug: 'campismo-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+      anchorText: `Ideias de imprimíveis de camping e ar livre`,
     },
     {
       pageType: 'idea',
-      slug: 'animais-marinhos-ideias-imprimiveis',
-      anchorText: 'Ideias de imprimíveis de animais marinhos',
+      slug: `animais-marinhos-ideias-imprimiveis`,
+      anchorText: `Ideias de imprimíveis de animais marinhos`,
     },
     {
       pageType: 'start',
       slug: 'marketing-negocio-imprimiveis',
-      anchorText: 'Marketing para seu negócio de imprimíveis',
+      anchorText: `Marketing para seu negócio de imprimíveis`,
     },
   ],
 

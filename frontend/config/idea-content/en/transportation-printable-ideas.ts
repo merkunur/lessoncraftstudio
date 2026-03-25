@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Transportation Printable Ideas to Sell — Niche Guide`,
     metaDescription: `Explore transportation printable ideas to sell on Etsy, Amazon KDP, and Gumroad. Vehicle-themed product concepts, platform strategies, and tips for sellers.`,
 
-    primaryKeyword: 'transportation printable ideas',
+    primaryKeyword: `transportation printable ideas`,
     secondaryKeywords: [
-      'transportation worksheets to sell',
-      'vehicle themed printable business',
-      'transportation activity sheets for sellers',
-      'sell transportation printables on Etsy',
+      `transportation worksheets to sell`,
+      `vehicle themed printable business`,
+      `transportation activity sheets for sellers`,
+      `sell transportation printables on Etsy`,
     ],
     lsiKeywords: [
-      'car and truck educational worksheets',
+      `car and truck educational worksheets`,
       'vehicle themed activity pages',
-      'travel and transport themed printables',
+      `travel and transport themed printables`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ Gender-neutral positioning is an important strategic consideration for transport
       appId: 'find-count',
     },
     {
-      title: 'Transportation Word Search Puzzles to Sell Online',
+      title: `Transportation Word Search Puzzles to Sell Online`,
       description: `Vehicle vocabulary word searches attract buyers planning transportation units and parents seeking educational entertainment that channels their child's vehicle obsession into productive literacy skill development. Create puzzles featuring transportation-specific vocabulary like car, truck, train, plane, boat, bus, helicopter, ambulance, tractor, engine, and wheel alongside broader transportation terms. The Word Search generator lets you control grid size and word count to produce age-appropriate versions for different grade levels. Offer easy grids with six to eight words for younger learners and challenging grids with fifteen or more transportation terms for older children. Variations like emergency vehicle searches, construction equipment vocabulary, and air transportation terminology expand your catalog to capture diverse buyer interests.`,
       appId: 'wordsearch',
     },
@@ -61,7 +61,7 @@ Gender-neutral positioning is an important strategic consideration for transport
       appId: 'coloring',
     },
     {
-      title: 'Transportation Bingo Cards for Group Activities',
+      title: `Transportation Bingo Cards for Group Activities`,
       description: `Transportation bingo cards serve buyers planning vehicle units and community helper lessons where interactive group activities reinforce transportation vocabulary and vehicle identification more effectively than individual worksheets alone. The Bingo generator creates unique card variations from your transportation vocabulary list, ensuring no two cards are identical for group play. Sell group sets of twenty-five to thirty cards with a caller sheet and vehicle vocabulary reference guide included. For the family market, create bingo kits featuring cars, trucks, trains, planes, boats, and emergency vehicles that families can play during road trips or vehicle-themed learning activities at home. Bingo products generate reliable demand because every transportation unit benefits from structured review games.`,
       appId: 'bingo',
     },
@@ -90,12 +90,12 @@ Gender-neutral positioning is an important strategic consideration for transport
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Transportation Printables on Etsy',
+      title: `Selling Transportation Printables on Etsy`,
       description: `Etsy rewards the transportation niche with consistent year-round listing performance because vehicle-obsessed children drive continuous parental searches for engaging educational activities regardless of season or holiday calendar. Use all thirteen tags with variations combining vehicle sub-themes, skill types, and age groups: "transportation counting worksheets preschool," "fire truck coloring pages toddler," and "construction vehicle word search kindergarten" target specific buyer searches far more effectively than broad tags like "vehicle worksheets." Position your products for both educational and gift-buyer searches by including terms like "things that go activity" and "vehicle lover gift" in your titles and descriptions. Listing images showing printed transportation worksheets alongside toy vehicles, construction sets, or car-themed room decor outperform flat digital previews and capture the enthusiasm-driven mindset that brings parents of vehicle-loving children to Etsy.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publishing Transportation Activity Books on KDP',
+      title: `Publishing Transportation Activity Books on KDP`,
       description: `Amazon KDP excels for transportation printables because parents and gift buyers naturally add activity books to their Amazon carts alongside toy cars, construction vehicles, train sets, and transportation picture books for vehicle-fascinated children. Compile individual transportation worksheets into cohesive forty to sixty page activity books combining counting, coloring, matching, word searches, and drawing activities around vehicle themes. Use KDP keyword fields strategically: include "transportation activity book for kids," "vehicle worksheets preschool," and sub-theme terms like "truck coloring book" or "train activities for children." Price between four and eight dollars for optimal royalty margins, and position your books as gifts for kids who love things that go, companions to vehicle toy collections, or supplements to transportation units. Transportation activity books benefit from year-round demand with modest gift-buying spikes during birthdays and winter holidays.`,
     },
     {
@@ -117,7 +117,7 @@ Gender-neutral positioning is an important strategic consideration for transport
     },
     {
       question: `Is the transportation printable niche seasonal or year-round?`,
-      answer: `The transportation printable niche is fundamentally year-round, which is one of its strongest advantages for printable sellers building sustainable businesses. Unlike holiday themes that concentrate sales into narrow windows, transportation printables sell consistently across all twelve months because children's fascination with vehicles has no seasonal dependency. Toddlers, preschool-age children, and kindergarten-age children maintain their vehicle obsession regardless of the calendar. Buyers explore transportation units, community helper lessons, and vehicle-themed activities at various points throughout the academic year depending on their content scheduling. Homeschool families pursue transportation themes whenever their children's interest peaks, which for vehicle-loving kids can be any time of year. You may notice modest demand increases during back-to-school season when buyers stock up on unit materials and during the winter gift-buying period when parents purchase activity books for vehicle-obsessed children, but the baseline demand remains reliably strong throughout the year.`,
+      answer: `The transportation printable niche is fundamentally year-round, which is one of its strongest advantages for printable sellers building sustainable businesses. Unlike holiday themes that concentrate sales into narrow windows, transportation printables sell consistently across all twelve months because children`s fascination with vehicles has no seasonal dependency. Toddlers, preschool-age children, and kindergarten-age children maintain their vehicle obsession regardless of the calendar. Buyers explore transportation units, community helper lessons, and vehicle-themed activities at various points throughout the academic year depending on their content scheduling. Homeschool families pursue transportation themes whenever their children`s interest peaks, which for vehicle-loving kids can be any time of year. You may notice modest demand increases during back-to-school season when buyers stock up on unit materials and during the winter gift-buying period when parents purchase activity books for vehicle-obsessed children, but the baseline demand remains reliably strong throughout the year.`,
     },
     {
       question: `What age groups buy transportation-themed printables most frequently?`,
@@ -145,32 +145,32 @@ Gender-neutral positioning is an important strategic consideration for transport
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -180,17 +180,17 @@ Gender-neutral positioning is an important strategic consideration for transport
     {
       pageType: 'idea',
       slug: 'space-printable-ideas',
-      anchorText: 'Space Printable Business Ideas',
+      anchorText: `Space Printable Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/vehicles/airplane.webp', alt: 'Airplane — themed educational image', caption: 'Airplane' },
-    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulance — themed educational image', caption: 'Ambulance' },
-    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
-    { src: '/image-library/vehicles/boat.webp', alt: 'Boat — themed educational image', caption: 'Boat' },
-    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — themed educational image', caption: 'Bulldozer' },
-    { src: '/image-library/vehicles/bus.webp', alt: 'Bus — themed educational image', caption: 'Bus' },
+    { src: `/image-library/vehicles/airplane.webp`, alt: `Airplane — themed educational image`, caption: 'Airplane' },
+    { src: `/image-library/vehicles/ambulance.webp`, alt: `Ambulance — themed educational image`, caption: 'Ambulance' },
+    { src: `/image-library/vehicles/bicycle.webp`, alt: `Bicycle — themed educational image`, caption: 'Bicycle' },
+    { src: `/image-library/vehicles/boat.webp`, alt: `Boat — themed educational image`, caption: 'Boat' },
+    { src: `/image-library/vehicles/bulldozer.webp`, alt: `Bulldozer — themed educational image`, caption: 'Bulldozer' },
+    { src: `/image-library/vehicles/bus.webp`, alt: `Bus — themed educational image`, caption: 'Bus' },
   ],
 
 

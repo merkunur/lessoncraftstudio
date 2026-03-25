@@ -4,15 +4,15 @@ const content: AppContent = {
   seo: {
     primaryKeyword: 'bilddiagram generator',
     secondaryKeywords: [
-      'utskrivbara bilddiagram arbetsblad sälja på Etsy',
-      'bilddiagram generator för Amazon KDP-publicerare',
-      'sälja bilddiagram aktiviteter på Gumroad',
+      `utskrivbara bilddiagram arbetsblad sälja på Etsy`,
+      `bilddiagram generator för Amazon KDP-publicerare`,
+      `sälja bilddiagram aktiviteter på Gumroad`,
       `datarepresentation arbetsblad skapare kommersiell licens`,
     ],
     lsiKeywords: [
       `digitala piktogram utskriftsbara produkter onlineföretag`,
       `utskrivbara diagramräkning arbetsblad affärsverktyg`,
-      'kommersiellt bruk bilddiagram generator med facit',
+      `kommersiellt bruk bilddiagram generator med facit`,
     ],
     titleTag: `Bilddiagram Generator | Skapa Diagramräkning Arbetsblad`,
     metaDescription:
@@ -27,10 +27,10 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Hur du Skapar Bilddiagram Arbetsblad i 5 Steg',
+    title: `Hur du Skapar Bilddiagram Arbetsblad i 5 Steg`,
     steps: [
       {
-        title: 'Ställ in sidlayout och namnfält',
+        title: `Ställ in sidlayout och namnfält`,
         description:
           `Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren — vitt är standard för rena arbetsblad. Kryssa i rutan Inkludera Namn/Datum för att lägga till formaterade «Namn: ____» och «Datum: ____» fält längst ner på sidan, så att användarna identifierar sitt arbete. Välj ett bakgrundstema och ett ramtema från det inbyggda biblioteket, vart och ett med ett oberoende opacitetsreglage (0–1, steg 0,05) för subtil eller djärv dekorativ inramning.`,
       },
@@ -40,17 +40,17 @@ const content: AppContent = {
           `Öppna panelen Bildbibliotek och välj en bildkälla från dropdownmenyn Arbetsbladets bildkälla. Välj ett tema som Djur, Mat eller Fordon för automatiskt urval — appen väljer slumpmässigt 6 bilder från det temat. Alternativt, växla till manuellt läge: bläddra i Bildbiblioteket efter tema eller sök, och klicka sedan på exakt 6 bilder för att välja dem. Valda bilder visas i en förhandsvisningsrad där du kan klicka för att ta bort och ersätta enskilda val. Utan valt tema väljer appen 6 slumpmässiga bilder från alla tillgängliga samlingar.`,
       },
       {
-        title: 'Generera bilddiagram-arbetsbladet',
+        title: `Generera bilddiagram-arbetsbladet`,
         description:
           `Klicka på Generera för att skapa arbetsbladet. Appen arrangerar 20 spridda ikoner från dina 6 valda bildtyper i ett 4×5-rutnät med en streckad ram längst upp på sidan. Under rutnätet visas ett stapeldiagram med 6 kolumner × 5 rader där varje kolumn är märkt med en av de 6 bildtyperna. Raderna är numrerade 1–5 nedifrån och upp. En automatiskt genererad rubrik visar en lokaliserad «Bilddiagram»-titel och räkningsinstruktioner i en stiliserad gul piller med orange ramkant. Arbetsytans arbetsblad visar tomma diagramceller redo för användarna att fylla i.`,
       },
       {
-        title: 'Anpassa med textverktyg och arbetsyteredigering',
+        title: `Anpassa med textverktyg och arbetsyteredigering`,
         description:
           `Använd panelen Textverktyg för att lägga till titlar, etiketter eller instruktioner med sju typsnittsval: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Justera teckenstorlek, textfärg, konturfärg och konturbredd (0–10 med 0,5-stegs granularitet) för läsbara rubriker. Dra, ändra storlek, rotera och flytta element var som helst på Fabric.js-arbetsytan. Använd lagerkontroller för att hantera staplingsordning, lås färdiga element och zooma från 25% till 300% för precision. Ångra och gör om upp till 20 historiksteg med Ctrl+Z och Ctrl+Y.`,
       },
       {
-        title: 'Generera facit och ladda ner allt',
+        title: `Generera facit och ladda ner allt`,
         description:
           `Växla till fliken Facit för att se den automatiskt genererade lösningen — stapeldiagrammets celler är fyllda med gul (#FFC857) markering som visar det korrekta antalet för varje bildtyp. Växla gråskalealternativet för bläckvänliga versioner. Ladda ner alla fyra filer: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla renderade med 300 DPI. Filerna heter worksheet.jpeg, worksheet.pdf, answer_key.jpeg och answer_key.pdf för enkel organisation. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-resursfiler.`,
       },
@@ -71,7 +71,7 @@ const content: AppContent = {
           `Varje arbetsblad genererar ett matchande facit samtidigt på en separat arbetsyteflik. Facit visar samma bildsrutnät och stapeldiagram, men med de korrekta cellerna fyllda med gul (#FFC857) markering. säljare ser med en blick hur många av varje bildtyp som ska finnas i diagrammet. Växla mellan flikarna Arbetsblad och Facit för att jämföra. Ladda ner båda versionerna oberoende — arbetsblad-JPEG/PDF och facit-JPEG/PDF — vilket ger dig fyra produktionsklara filer från en enda generering. Det automatiska facit eliminerar manuell räkning och säkerställer noggrannhet över stora arbetsbladspaket.`,
       },
       {
-        title: 'Automatiskt och manuellt bildvalsläge',
+        title: `Automatiskt och manuellt bildvalsläge`,
         description:
           `Dropdownmenyn Arbetsbladets bildkälla erbjuder två metoder för att välja de 6 bilderna som visas på varje arbetsblad. I automatiskt läge väljer du ett tema (Djur, Mat, Fordon och 101 fler) och appen väljer slumpmässigt 6 bilder från den samlingen. I manuellt läge bläddrar du i Bildbiblioteket efter tema eller söker med nyckelord, och klickar sedan på exakt 6 bilder för att välja dem — en förhandsvisningsrad visar dina val med klicka-för-att-ta-bort funktionalitet. Utan valt tema hämtar appen 6 slumpmässiga bilder från alla tillgängliga samlingar. Båda lägena garanterar exakt 6 bildtyper per arbetsblad för konsekvent diagramformatering.`,
       },
@@ -104,54 +104,54 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Hur du Säljer Bilddiagram Arbetsblad Online',
+    title: `Hur du Säljer Bilddiagram Arbetsblad Online`,
     cases: [
       {
-        title: 'Tematiska bilddiagram-paket på Etsy',
+        title: `Tematiska bilddiagram-paket på Etsy`,
         description:
           `Skapa tematiska bilddiagram-paket med de 104 bildsamlingarna — djurräkning diagram, matdata diagram, fordonsräkning blad, naturobservation diagram och dussintals fler. Varje tema ger tillräckligt med bilder för 10–20 unika arbetsblad med olika slumpmässiga fördelningar. Inkludera det automatiskt genererade facit med varje arbetsblad för lärarbekvämlighet. Paketera teman som enskilda paket till 30–50 SEK vardera, eller kombinera flera teman till megapaket till 120–180 SEK. Det spridda bildsrutnätet med 6 typer per blad säkerställer att varje arbetsblad är unikt och omöjligt att återskapa manuellt, vilket ger dina produkter äkta originalitet.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Datafärdighets-arbetsböcker på Amazon KDP',
+        title: `Datafärdighets-arbetsböcker på Amazon KDP`,
         description:
           `Sammanställ 60–100 bilddiagram arbetsblad till en tryckt datafärdighets-arbetsbok formaterad för Amazon KDP. Strukturera kapitel efter tema: Kapitel 1 täcker djurräkning, Kapitel 2 matdiagram, Kapitel 3 fordonsdata och så vidare. Växla gråskaleexport för bläckvänliga sidor redo för svartvita bokinteriörer. Inkludera facitsidor i slutet av varje kapitel för föräldra- och lärarreferens. Dubbelarbetsyta-genereringen producerar både arbetsblad och facit automatiskt, så att bygga en 100-sidig arbetsbok med kompletta lösningar tar en bråkdel av tiden jämfört med manuellt skapande.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Mattestationsaktiviteter för Gumroad',
+        title: `Mattestationsaktiviteter för Gumroad`,
         description:
           `Bygg färdiga mattestationsaktiviteter med bilddiagram som inkluderar namn- och datumfält. köpare som söker på Gumroad efter diagramaktiviteter värdesätter arbetsblad med inbyggd identifiering — kryssrutan för namn/datum gör din produkt omedelbart produktlinjesfärdig utan ytterligare formatering. Skapa temaspecifika set knutna till produktkatalogsenheter: räkna bondgårdsdjur för livsvetenskap, diagram av väderikoner för geovetenskap, eller räkna samhällshjälparfordon för samhällskunskap. Varje arbetsblad levereras med sitt eget facit, vilket eliminerar säljarens förberedelsetid.`,
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Ämnesövergripande dataaktiviteter',
+        title: `Ämnesövergripande dataaktiviteter`,
         description:
           `Bilddiagram överbryggar matematik och andra ämnen naturligt. Använd djurteman för naturvetenskapliga enheter om livsmiljöer och klassificering. Använd matteman för hälso- och näringslektioner. Använd fordonstemanför samhälls- och transportämnen. De 104 tematiska samlingarna täcker praktiskt taget varje grundskoleämnesområde, vilket låter dig skapa datarepresentation arbetsblad som förstärker ämnesvokabulär samtidigt som de lär ut diagramfärdigheter. Sälj ämnesövergripande paket som tilltalar köpare som vill ha integrerade aktiviteter — en växande nisch på alla tre stora plattformar.`,
         platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
-        title: 'Säsongsbetonade räkne- och diagramsamlingar',
+        title: `Säsongsbetonade räkne- och diagramsamlingar`,
         description:
           `De 104 tematiska bildsamlingarna täcker varje säsongs- och högtidstillfälle — julprydnader, halloween-ikoner, påskföremål, alla hjärtans dag-hjärtan, skolstartstillbehör, sommaraktiviteter och vinterscener. Skapa tidsbegränsade bilddiagram-samlingar som sammanfaller med toppshoppingperioder. Släpp halloweenräkning-paket i september, juldiagram-paket i oktober och alla hjärtans dag-dataaktiviteter i januari. Inkludera facit med varje set för kompletta lärarpaket. Säsongsprodukter motiverar högre priser under sina toppfönster och skapar naturliga skäl till återköp.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (säsongsbetonat)',
+        platform: `Etsy / Amazon KDP / Gumroad (säsongsbetonat)`,
       },
     ],
   },
 
   faq: [
     {
-      question: 'Hur fungerar bilddiagram-arbetsbladet?',
+      question: `Hur fungerar bilddiagram-arbetsbladet?`,
       answer:
         `Varje arbetsblad har två delar. Den övre sektionen visar ett 4×5-rutnät med 20 spridda ikoner från 6 olika bildtyper — varje typ förekommer 1–5 gånger, slumpmässigt fördelade. Den nedre sektionen visar ett stapeldiagram med 6 kolumner × 5 rader med kolumner märkta med varje bildtyp och rader numrerade 1–5 nedifrån och upp. användarna räknar hur många av varje bildtyp som finns i rutnätet, och färglägger eller fyller sedan motsvarande antal celler i den matchande kolumnen. Detta lär ut både datainsamling (räkning) och datarepresentation (diagram) i en enda aktivitet.`,
     },
     {
-      question: 'Hur fungerar det automatiska bildvalet?',
+      question: `Hur fungerar det automatiska bildvalet?`,
       answer:
         `Öppna panelen Bildbibliotek och använd dropdownmenyn Arbetsbladets bildkälla för att välja ett tema. Appen väljer slumpmässigt 6 bilder från det temats samling. Om du föredrar manuell kontroll, växla till manuellt läge: bläddra bland teman eller sök med nyckelord, och klicka sedan på exakt 6 bilder. Valda bilder visas i en förhandsvisningsrad där du kan klicka på valfri bild för att ta bort den och välja en ersättare. Utan valt tema hämtar appen 6 slumpmässiga bilder från alla tillgängliga samlingar. Varje läge garanterar exakt 6 bildtyper per arbetsblad.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer:
         `När du genererar ett arbetsblad skapar appen samtidigt ett matchande facit på en separat arbetsyteflik. Facit visar samma bildsrutnät och stapeldiagram, men de korrekta cellerna i diagrammet är fyllda med gul (#FFC857) markering. Växla mellan flikarna Arbetsblad och Facit för att jämföra. Ladda ner varje version oberoende med de fyra nedladdningsknapparna: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF. Facit genereras automatiskt — ingen manuell räkning krävs.`,
     },
@@ -161,32 +161,32 @@ const content: AppContent = {
         `Varje genererat arbetsblad inkluderar en stiliserad rubrik med en gul pillerbakgrund (#FFD93D), vit inre piller och orange ramkant. Rubriken visar en «Bilddiagram»-titel och räkningsinstruktioner som automatiskt översätts till det aktiva gränssnittsspråket — engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska eller finska. Rubriken anpassas för liggande läge med en kompakt layout. Du behöver inte skapa eller formatera rubriken manuellt.`,
     },
     {
-      question: 'Hur fungerar namn- och datumfälten?',
+      question: `Hur fungerar namn- och datumfälten?`,
       answer:
         `I panelen Sidinställningar kryssar du i rutan Inkludera Namn/Datum för att lägga till formaterade «Namn: ____» och «Datum: ____» fält längst ner på arbetsbladssidan. Fälten använder typsnittet Fredoka i 18px med #333-färg. användarna skriver sitt namn och datum innan de börjar räkneaktiviteten. Detta gör arbetsbladen omedelbart produktlinjesfärdiga utan ytterligare formatering. Avmarkera rutan för att ta bort fälten för produkter som inte behöver identifiering.`,
     },
     {
-      question: 'Hur fungerar bakgrunds- och ramteman?',
+      question: `Hur fungerar bakgrunds- och ramteman?`,
       answer:
         `Panelen Sidinställningar erbjuder både bakgrundsteman och ramteman laddade från det inbyggda temabiblioteket. Vardera har ett oberoende opacitetsreglage (0–1, steg 0,05), så du kan ställa in en subtil bakgrund på låg opacitet medan du behåller en djärv ram på full styrka, eller valfri kombination du föredrar. Bakgrundsteman fyller sidytan bakom bildsrutnätet och diagrammet, medan ramteman ramar in den yttre kanten. Tillsammans lägger de till dekorativ polish utan att störa arbetsbladets innehåll.`,
     },
     {
-      question: 'Hur fungerar gråskaleväxlingen?',
+      question: `Hur fungerar gråskaleväxlingen?`,
       answer:
         `Gråskaleväxlingen i panelen Nedladdning konverterar hela ditt arbetsblad eller facit till gråskala vid exporttillfället. Din arbetsyta förblir i fullfärg för enkel visuell redigering — gråskala appliceras bara på den exporterade filen. Detta producerar bläckvänligt resultat för volymutskrift där färgbläck är dyrt eller otillgängligt, och för Amazon KDP-bokinteriörer som kräver svartvita sidor. Gråskaleväxlingen fungerar oberoende för både arbetsblad- och facitexporter.`,
     },
     {
-      question: 'Hur växlar jag mellan arbetsbladet och facit?',
+      question: `Hur växlar jag mellan arbetsbladet och facit?`,
       answer:
         `Arbetsytans område har två flikar: Arbetsblad och Facit. Klicka på fliken Facit för att visa den automatiskt genererade lösningen med gulfyllda diagramceller. Klicka på fliken Arbetsblad för att återgå till övningsversionen med tomma celler. Varje flik har sitt eget par nedladdningsknappar (JPEG och PDF), vilket ger dig fyra totala nedladdningsalternativ. Redigeringar av arbetsyteelement som text, bakgrund och ramar gäller för båda flikarna — den enda skillnaden mellan dem är stapeldiagrammets fyllnadsläge.`,
     },
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer:
         `Ja. Du kan använda alla funktioner — dubbelarbetsytan, bildsrutnätsgenerering, stapeldiagramskapande, automatiskt facit, bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, gråskaleexport och alla nedladdningsformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.`,
     },
     {
-      question: 'Är Diagramräkning Generatorn språkkänslig?',
+      question: `Är Diagramräkning Generatorn språkkänslig?`,
       answer:
         `Nej. Diagramräkning Generatorn producerar visuella räknearbetsblad där användarna räknar bilder och fyller i stapeldiagramceller — siffror och bilder är universella. Att byta språk påverkar bara gränssnittsetiketterna i generatorn, den automatiskt genererade rubrikens titel och instruktioner, samt bildbiblioteksets innehållsetiketter. Arbetsbladets resultat i sig fungerar identiskt på varje språk. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk för gränssnittet.`,
     },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bilddiagram arbetsblad som digitala nedladdningar på Etsy, som tryckta datafärdighets-arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. Dubbelarbetsyta-genereringen, automatiskt facit och 104 tematiska bildsamlingar ger dig verktygen för att producera originella, säljbara bilddiagram-produkter i stor skala.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer:
         `Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa dubbelarbetsytan, bildsrutnätsgenerering, automatiskt facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.`,
     },
@@ -206,12 +206,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'stort-litet-arbetsblad',
-      anchorText: 'Stort och Litet Arbetsblad Generator',
+      anchorText: `Stort och Litet Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'monster-tag-arbetsblad',
-      anchorText: 'Mönstertåg Arbetsblad Generator',
+      anchorText: `Mönstertåg Arbetsblad Generator`,
     },
     {
       pageType: 'app',
@@ -221,17 +221,17 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'rutritning-arbetsblad',
-      anchorText: 'Rutritning Arbetsblad Generator',
+      anchorText: `Rutritning Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'rita-linjer-arbetsblad',
-      anchorText: 'Rita Linjer Arbetsblad Generator',
+      anchorText: `Rita Linjer Arbetsblad Generator`,
     },
     {
       pageType: 'app',
       slug: 'malarbilder-arbetsblad',
-      anchorText: 'Målarbilder Arbetsblad Generator',
+      anchorText: `Målarbilder Arbetsblad Generator`,
     },
     {
       pageType: 'bundle',
@@ -241,28 +241,28 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'sommar-utskriftsbara-ideer',
-      anchorText: 'Sommar Utskriftsbara Idéer för Säsongsförsäljning',
+      anchorText: `Sommar Utskriftsbara Idéer för Säsongsförsäljning`,
     },
     {
       pageType: 'idea',
       slug: 'jul-utskriftsbara-ideer',
-      anchorText: 'Jul Utskriftsbara Idéer för Säsongsförsäljning',
+      anchorText: `Jul Utskriftsbara Idéer för Säsongsförsäljning`,
     },
     {
       pageType: 'start',
       slug: 'etsy-utskriftsbart-foeretag',
-      anchorText: 'Bygg Ditt Etsy Utskriftsbart Företag',
+      anchorText: `Bygg Ditt Etsy Utskriftsbart Företag`,
     },
     {
       pageType: 'guide',
-      slug: 'skapa-diagram-rakning-arbetsblad',
+      slug: `skapa-diagram-rakning-arbetsblad`,
       anchorText: `Hur du Skapar Diagramräkning Arbetsblad som Säljer`,
     },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/chart%20count/worksheet.webp',
+      primary: `/samples/swedish/chart%20count/worksheet.webp`,
       primaryAlt: `Bilddiagram arbetsblad med spritt bildsrutnät och stapeldiagram för användarna att räkna och diagram 6 bildtyper`,
     },
     sampleGallery: [
@@ -277,7 +277,7 @@ const content: AppContent = {
         caption: `Automatiskt genererat facit — gulfyllda celler visar det korrekta antalet för varje bildtyp`,
       },
       {
-        src: '/samples/swedish/chart%20count/answer_key.webp',
+        src: `/samples/swedish/chart%20count/answer_key.webp`,
         alt: `Bilddiagram arbetsblad med dekorativt bakgrundstema och ramkant applicerad`,
         caption: `Dekorerat bilddiagram — bakgrunds- och ramteman med oberoende opacitetskontroller`,
       },

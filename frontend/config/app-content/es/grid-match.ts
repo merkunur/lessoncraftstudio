@@ -14,7 +14,7 @@ const content: AppContent = {
       `generador de puzzles de casillas de imágenes uso comercial`,
       `actividades de percepción visual imprimibles para negocio en línea`,
     ],
-    titleTag: 'Generador Puzzles Cuadrícula | Crear y Vender',
+    titleTag: `Generador Puzzles Cuadrícula | Crear y Vender`,
     metaDescription:
       `Crea puzzles de cuadrícula para Etsy, KDP y Gumroad. Cuadrícula configurable, casillas-pista, clave de respuesta auto, 104 temas. Prueba gratis con marca de agua.`,
   },
@@ -27,7 +27,7 @@ const content: AppContent = {
   },
 
   howItWorks: {
-    title: 'Cómo Crear Puzzles de Cuadrícula en 5 Pasos',
+    title: `Cómo Crear Puzzles de Cuadrícula en 5 Pasos`,
     steps: [
       {
         title: 'Define el Diseño de Página',
@@ -45,12 +45,12 @@ const content: AppContent = {
           `Abre el panel de Biblioteca de Imágenes y explora 104 colecciones temáticas con más de 3100 ilustraciones coloridas — animales, comida, vehículos, naturaleza, fiestas y muchas más. Filtra por tema con el menú desplegable o busca por palabra clave. Haz clic en una imagen para seleccionarla para tu puzzle. La vista previa de la imagen seleccionada muestra tu elección antes de generar. También puedes subir imágenes personalizadas PNG, JPG o GIF a través del panel Subir Imágenes Personalizadas para crear puzzles de cuadrícula a partir de tus propias fotos o ilustraciones.`,
       },
       {
-        title: 'Genera la Ficha de Puzzle de Cuadrícula',
+        title: `Genera la Ficha de Puzzle de Cuadrícula`,
         description:
           `Haz clic en Generar para crear el puzzle de cuadrícula. La aplicación divide la imagen seleccionada en la cuadrícula configurada, revela las casillas-pista con las piezas de imagen reales visibles y marca las celdas restantes con indicadores «?». Todas las casillas se mezclan mediante el algoritmo Fisher-Yates y se muestran como paleta numerada. Los diseños verticales colocan la cuadrícula arriba con la paleta abajo; los diseños horizontales posicionan la cuadrícula a la izquierda con la paleta a la derecha. Un encabezado estilizado aparece con fondo cian (#00BCD4), título violeta profundo (#6A1B9A) y marco naranja (#FF8C42) mostrando «Puzzle Cuadrícula» e instrucciones en el idioma seleccionado.`,
       },
       {
-        title: 'Genera la Clave de Respuesta y Descarga',
+        title: `Genera la Clave de Respuesta y Descarga`,
         description:
           `Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta generada automáticamente. Muestra la imagen completa, sin recortar, con círculos numerados superpuestos en cada celda de la cuadrícula — círculos con fondo amarillo (#ffffe0) y contorno negro que indican qué número de la paleta corresponde a cada posición. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa el modo escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.`,
       },
@@ -104,16 +104,16 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Cómo Vender Puzzles de Cuadrícula en Línea',
+    title: `Cómo Vender Puzzles de Cuadrícula en Línea`,
     cases: [
       {
-        title: 'Packs de Puzzles de Cuadrícula Temáticos en Etsy',
+        title: `Packs de Puzzles de Cuadrícula Temáticos en Etsy`,
         description:
           `Crea packs de puzzles de cuadrícula temáticos usando las 104 colecciones de imágenes — puzzles de cuadrícula de animales, puzzles de cuadrícula de vehículos, puzzles de imágenes de fiestas y muchos más. Cada tema proporciona suficientes ilustraciones para 20–30 fichas de puzzles únicas con tamaños de cuadrícula y cantidades de pistas variados. Agrupa 15–25 puzzles de cuadrícula por tema con claves de respuesta incluidas, y vende entre $3 y $7 por pack. Incluye una mezcla de puzzles fáciles (2×2 con 3 pistas), medios (3×3 con 2 pistas) y difíciles (4×4 con 1 pista) en cada pack para amplio atractivo. La clave de respuesta generada automáticamente con los círculos numerados elimina la parte más laboriosa de la creación de puzzles.`,
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Cuadernos de Puzzles de Imágenes en Amazon KDP',
+        title: `Cuadernos de Puzzles de Imágenes en Amazon KDP`,
         description:
           `Compila 50–100 puzzles de cuadrícula en un cuaderno impreso formateado para Amazon KDP. Estructura tu libro por dificultad progresiva: el Capítulo 1 usa cuadrículas 2×2 con 3 pistas para principiantes, el Capítulo 2 usa cuadrículas 3×3 con 2 pistas para nivel intermedio, y el Capítulo 3 usa cuadrículas 4×4 con 1 pista para nivel avanzado. Incluye las claves de respuesta al final del libro usando los círculos numerados generados automáticamente. El modo escala de grises produce páginas que ahorran tinta listas para interiores de libros en blanco y negro. Los cuadernos de puzzles de percepción visual se venden bien en la categoría de libros de actividades todo el año.`,
         platform: 'Amazon KDP (kdp.amazon.com)',
@@ -122,19 +122,19 @@ const content: AppContent = {
         title: `Actividades de Puzzles para venta en línea en Gumroad`,
         description:
           `Diseña actividades de puzzles de cuadrícula listas para usar en rellenos de fin de clase, trabajo matutino o centros de enriquecimiento. Los vendedores que buscan en Gumroad actividades de percepción visual valoran los puzzles que llegan listos para imprimir con claves de respuesta. Crea conjuntos vinculados al catálogo de productos: puzzles de imágenes de animales para ciencias, puzzles de monumentos para estudios sociales, puzzles de alimentos para nutrición. La dificultad configurable te permite diferenciar dentro de un mismo producto — incluye versiones fáciles, medias y difíciles de los mismos puzzles temáticos para que los vendedores puedan asignar según el nivel del usuario.`,
-        platform: 'Gumroad (teacherspayteachers.com)',
+        platform: `Gumroad (teacherspayteachers.com)`,
       },
       {
-        title: 'Colecciones de Puzzles de Cuadrícula de Temporada',
+        title: `Colecciones de Puzzles de Cuadrícula de Temporada`,
         description:
           `Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de cuadrícula por disponible ahora alineadas con los períodos de mayor demanda. Lanza packs de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye múltiples tamaños de cuadrícula y niveles de dificultad en cada conjunto estacional para máximo valor. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.`,
-        platform: 'Etsy / Amazon KDP / Gumroad (estacional)',
+        platform: `Etsy / Amazon KDP / Gumroad (estacional)`,
       },
       {
         title: `Puzzles de Cuadrícula con Fotos Personalizadas para Productos a Medida`,
         description:
           `Usa la función Subir Imágenes Personalizadas para crear puzzles de cuadrícula a partir de cualquier foto o ilustración. Los puzzles con fotos familiares son regalos personalizados únicos. Los vendedores pueden subir fotos de clase para actividades de fin de curso. Los puzzles con fotos de mascotas, de vacaciones y de equipo crean productos irrepetibles. Ofrece la creación de puzzles de cuadrícula personalizados como servicio premium en Etsy donde los clientes envían sus fotos y tú entregas fichas de puzzles impresas con claves de respuesta — un producto personalizado de alto margen con tiempo de producción mínimo.`,
-        platform: 'Etsy (productos personalizados)',
+        platform: `Etsy (productos personalizados)`,
       },
     ],
   },
@@ -196,7 +196,7 @@ const content: AppContent = {
         `Sí. Con una licencia comercial, tienes todos los derechos para vender tus puzzles de cuadrícula como descargas digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Gumroad, o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las casillas-pista ajustables, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas te dan las herramientas creativas para producir productos de puzzles de cuadrícula originales y vendibles.`,
     },
     {
-      question: '¿Cuál es la política de reembolso?',
+      question: `¿Cuál es la política de reembolso?`,
       answer:
         `Como la prueba gratis te da acceso a todas las funciones, no ofrecemos reembolsos en las compras de licencia comercial. Puedes probar todos los tamaños de cuadrícula, las configuraciones de casillas-pista, la clave de respuesta generada automáticamente con los círculos numerados, la biblioteca de imágenes completa, los temas de fondo y de borde, la subida de imágenes personalizadas, las herramientas de texto y todos los formatos de descarga antes de comprar. La prueba gratis es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.`,
     },
@@ -206,52 +206,52 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'relacionar-fichas',
-      anchorText: 'Generador de Fichas de Asociación',
+      anchorText: `Generador de Fichas de Asociación`,
     },
     {
       pageType: 'app',
       slug: 'asociacion-sombras-fichas',
-      anchorText: 'Generador de Fichas de Asociación de Sombras',
+      anchorText: `Generador de Fichas de Asociación de Sombras`,
     },
     {
       pageType: 'app',
       slug: 'bingo-fichas',
-      anchorText: 'Generador de Fichas de Bingo de Imágenes',
+      anchorText: `Generador de Fichas de Bingo de Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'clasificar-imagenes-fichas',
-      anchorText: 'Generador de Fichas de Clasificar Imágenes',
+      anchorText: `Generador de Fichas de Clasificar Imágenes`,
     },
     {
       pageType: 'app',
       slug: 'piezas-faltantes-fichas',
-      anchorText: 'Generador de Fichas de Piezas Faltantes',
+      anchorText: `Generador de Fichas de Piezas Faltantes`,
     },
     {
       pageType: 'app',
       slug: 'buscar-objetos-fichas',
-      anchorText: 'Generador de Fichas de Buscar Objetos',
+      anchorText: `Generador de Fichas de Buscar Objetos`,
     },
     {
       pageType: 'bundle',
-      slug: 'paquete-asociacion-clasificacion',
+      slug: `paquete-asociacion-clasificacion`,
       anchorText: `Paquete Asociación y Clasificación — Todas las Apps de Asociación en Un Solo Paquete`,
     },
     {
       pageType: 'idea',
       slug: 'preescolar-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para preescolar',
+      anchorText: `Ideas de imprimibles para preescolar`,
     },
     {
       pageType: 'idea',
       slug: 'infantil-ideas-imprimibles',
-      anchorText: 'Ideas de imprimibles para jardín de infancia',
+      anchorText: `Ideas de imprimibles para jardín de infancia`,
     },
     {
       pageType: 'start',
       slug: 'plan-negocio-imprimibles',
-      anchorText: 'Plan de negocio de imprimibles',
+      anchorText: `Plan de negocio de imprimibles`,
     },
     {
       pageType: 'guide',

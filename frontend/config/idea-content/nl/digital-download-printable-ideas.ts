@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digitale Download Printables Verkopen — Nichegids',
+    titleTag: `Digitale Download Printables Verkopen — Nichegids`,
     metaDescription: `Digitale download werkblad ideeën voor Etsy, Gumroad en Gumroad verkopers. Bouw een voorraadrij printable business op met direct leverbare educatieve PDF's.`,
 
-    primaryKeyword: 'digitale download printable ideeën',
+    primaryKeyword: `digitale download printable ideeën`,
     secondaryKeywords: [
-      'digitale download printable business',
-      'digitale werkbladen verkopen online',
-      'digitale printable productideeën',
-      'downloadbare werkblad businessmodel',
+      `digitale download printable business`,
+      `digitale werkbladen verkopen online`,
+      `digitale printable productideeën`,
+      `downloadbare werkblad businessmodel`,
     ],
     lsiKeywords: [
-      'direct download educatieve producten',
-      'PDF werkblad marktplaats verkopen',
-      'geautomatiseerde digitale productlevering',
+      `direct download educatieve producten`,
+      `PDF werkblad marktplaats verkopen`,
+      `geautomatiseerde digitale productlevering`,
     ],
   },
   hero: {
     title: `Digitale Download Werkblad Businessideeën voor Verkopers`,
-    description: `Digitale downloads vertegenwoordigen de zuiverste vorm van printable business waarin verkopers werkblad-PDF's eenmalig creëren en onbeperkte exemplaren verkopen via directe digitale levering met nul voorraad, nul verzendkosten en nul fulfilment-overhead, waardoor elke verkoop na de eerste in feite pure winst is omdat de productiekosten per extra exemplaar nihil zijn. Kopers ontvangen bestanden direct na aankoop en printen thuis, online of bij een lokale drukkerij, waardoor ze precies de materialen krijgen die ze nodig hebben binnen seconden na het afronden van hun bestelling in plaats van dagen te wachten op fysieke levering. Het digitale-downloadmodel biedt de hoogste winstmarges van elk printable businessformat omdat er geen drukkosten, verpakkingsmaterialen, verzendkosten of fulfilmentarbeid zijn die van elke verkoop worden afgetrokken. verkopers, ouders, thuisonderwijzende gezinnen, bijlescentra, kinderdagverblijven en educatieve therapeuten vertegenwoordigen de primaire koopsegmenten die actief marktplaatsplatforms doorzoeken naar downloadbare werkblad-PDF's. Het model werkt op elke grote digitale marktplaats inclusief Etsy, Gumroad, Gumroad en Shopify. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
+    description: `Digitale downloads vertegenwoordigen de zuiverste vorm van printable business waarin verkopers werkblad-PDF`s eenmalig creëren en onbeperkte exemplaren verkopen via directe digitale levering met nul voorraad, nul verzendkosten en nul fulfilment-overhead, waardoor elke verkoop na de eerste in feite pure winst is omdat de productiekosten per extra exemplaar nihil zijn. Kopers ontvangen bestanden direct na aankoop en printen thuis, online of bij een lokale drukkerij, waardoor ze precies de materialen krijgen die ze nodig hebben binnen seconden na het afronden van hun bestelling in plaats van dagen te wachten op fysieke levering. Het digitale-downloadmodel biedt de hoogste winstmarges van elk printable businessformat omdat er geen drukkosten, verpakkingsmaterialen, verzendkosten of fulfilmentarbeid zijn die van elke verkoop worden afgetrokken. verkopers, ouders, thuisonderwijzende gezinnen, bijlescentra, kinderdagverblijven en educatieve therapeuten vertegenwoordigen de primaire koopsegmenten die actief marktplaatsplatforms doorzoeken naar downloadbare werkblad-PDF`s. Het model werkt op elke grote digitale marktplaats inclusief Etsy, Gumroad, Gumroad en Shopify. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De digitale-downloadmarkt voor educatieve werkbladen blijft uitbreiden naarmate meer verkopers, ouders en thuisonderwijzende gezinnen het gemak ontdekken van het kopen van direct toegankelijke PDF-werkbladpakketten die ze precies wanneer nodig kunnen printen, in precies de benodigde hoeveelheden, op hun voorkeurssoort papier en -formaat. Het directe-leveringsmodel voldoet aan de moderne kopersverwachtingen voor onmiddellijke toegang tot gekochte producten, waardoor de frustratie van wachten op fysieke zendingen wordt geëlimineerd wanneer gebruikers oefenmateriaal nodig hebben voor de les van morgen of het oefenmateriaal van vanavond. Digitale downloads zijn het standaardformat geworden voor educatieve printable-aankopen op grote marktplaatsplatforms omdat kopers hebben geleerd dat de combinatie van directe toegang, onbeperkte herprintmogelijkheid en lagere prijzen vergeleken met fysieke producten downloads de meest praktische en kosteneffectieve manier maakt om werkbladmateriaal te verwerven.
 
@@ -38,37 +38,37 @@ De schaalbaarheid van digitale downloads is ongeëvenaard in de educatieve produ
 
   productIdeas: [
     {
-      title: 'Digitale Download Telwerkbladen voor Verkopers',
+      title: `Digitale Download Telwerkbladen voor Verkopers`,
       description: `Telwerkbladen als digitale downloads zijn een van de hoogste-volume productcategorieën op elke educatieve marktplaats. Gebruik de Zoek en Tel-generator om thematische telscènes te produceren die kopers direct kunnen downloaden en printen. Bied sets aan van vijf tot tien werkbladen per thema en moeilijkheidsniveau — voldoende waarde om de prijzen van twee tot vier euro te rechtvaardigen terwijl kopers het gevoel krijgen een complete oefenset te ontvangen. Thematische organisatie per seizoen of dierenthema maximaliseert de zoekwoorddekking op marktplaatsen. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Digitale Download Woordzoekpuzzels Verkopen',
+      title: `Digitale Download Woordzoekpuzzels Verkopen`,
       description: `Woordzoekpuzzels als digitale downloads zijn bijzonder populair vanwege hun brede leeftijdsaantrekkingskracht en hun geschiktheid als zelfstandige activiteit die kinderen individueel kunnen invullen. Gebruik de Woordzoeker-generator om sets van acht tot twaalf thematische puzzels te produceren per vermelding. Bied meerdere moeilijkheidsniveaus aan binnen één vermelding — eenvoudige rasters voor jongere kinderen en uitdagende rasters voor oudere kinderen — zodat ouders met meerdere kinderen de set breder kunnen inzetten. Thematische bundels per seizoen verkopen bijzonder sterk als directe downloads.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Digitale Download Koppelactiviteiten voor Winkels',
+      title: `Digitale Download Koppelactiviteiten voor Winkels`,
       description: `Koppelwerkbladen als digitale downloads spreken een breed koperspubliek aan van peuter- tot basisschoolleeftijd. Maak sets van acht tot twaalf koppelpagina's georganiseerd per thema en moeilijkheidsniveau. De Koppelen-generator produceert professionele lay-outs die kopers direct kunnen downloaden en printen op standaardpapier. Positioneer je koppelsets als "direct printbare activiteiten" — dit communiceert het gemak van onmiddellijke beschikbaarheid dat digitale-downloadkopers waarderen. Sets bundelen effectief in de prijsklasse van drie tot zes euro.`,
       appId: 'matching',
     },
     {
-      title: 'Digitale Download Optelwerkbladen voor Verkopers',
+      title: `Digitale Download Optelwerkbladen voor Verkopers`,
       description: `Optelwerkbladen als digitale downloads zijn een kernproduct voor elke educatieve printable-winkel dankzij de universele en dagelijkse vraag naar rekenoefening. Gebruik de Optellen-generator om sets van tien tot vijftien werkbladen te produceren per moeilijkheidsniveau — sommen tot tien, sommen tot twintig, sommen tot honderd — zodat verkopers en ouders het passende niveau direct kunnen downloaden en inzetten. De automatische antwoordsleutelgeneratie is een premium kenmerk dat professionele kwaliteit signaleert en je product onderscheidt van amateuristische alternatieven.`,
       appId: 'addition',
     },
     {
-      title: 'Digitale Download Kleurplaten voor Etsy Verkopers',
+      title: `Digitale Download Kleurplaten voor Etsy Verkopers`,
       description: `Kleurplaten als digitale downloads zijn het hoogste-volume instapproduct op Etsy dankzij de lage prijsdrempel en de brede aantrekkingskracht. De Kleuren-generator maakt gedetailleerde contouren die kopers direct downloaden en printen — het meest intuïtieve digitale-downloadproduct voor kopers die nieuw zijn met printable aankopen. Verkoop sets van tien tot vijftien kleurplaten per thema voor twee tot vier euro. De sleutel tot succes is thematische specificiteit — "dinosaurus kleurplaten set" verkoopt beter dan generieke "kleurplaten bundel" omdat thematische kopers weten precies wat ze krijgen.`,
       appId: 'coloring',
     },
     {
-      title: 'Digitale Download Bingokaarten voor Verkopers',
+      title: `Digitale Download Bingokaarten voor Verkopers`,
       description: `Bingokaarten als digitale downloads bedienen verkopers en ouders die snel een groepsactiviteit nodig hebben die ze direct kunnen printen en gebruiken. De Plaatjesbingo-generator maakt sets van vijfentwintig tot dertig unieke kaarten die kopers downloaden en printen voor hun klas of feestje. Positioneer je bingosets als "direct printbare klasactiviteiten" met nadruk op het gemak van onmiddellijke beschikbaarheid. Thematische bingosets per seizoen of per vakgebied verkopen consistent als digitale downloads.`,
       appId: 'bingo',
     },
     {
-      title: 'Digitale Download Schaduwkoppelwerkbladen',
+      title: `Digitale Download Schaduwkoppelwerkbladen`,
       description: `Schaduwkoppelwerkbladen als digitale downloads bieden een gespecialiseerd producttype dat zich onderscheidt van de massa generieke werkbladen op marktplaatsen. Gebruik de Schaduw Koppelen-generator om sets van tien tot vijftien pagina's per thema te produceren op meerdere moeilijkheidsniveaus. De nichespecificiteit van schaduwkoppelen — minder concurrenten dan generieke reken- of kleurwerkbladen — betekent betere zoekrangschikkingen met minder marketinginspanning. Sets verkopen voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
@@ -78,7 +78,7 @@ De schaalbaarheid van digitale downloads is ongeëvenaard in de educatieve produ
       appId: 'pattern-worksheet',
     },
     {
-      title: 'Digitale Download Letterpuzzelactiviteiten',
+      title: `Digitale Download Letterpuzzelactiviteiten`,
       description: `Letterpuzzels als digitale downloads trekken kopers aan die spelling- en vocabulairemateriaal zoeken dat kinderen zelfstandig kunnen invullen. Gebruik de Letterpuzzel-generator om sets van tien tot vijftien puzzels per thema te produceren op meerdere moeilijkheidsniveaus. Thematische letterpuzzelsets — "dieren letterpuzzels," "seizoenen woordkrakers" — verkopen sterker dan generieke sets omdat thematische kopers specifiekere zoektermen gebruiken met minder concurrentie. Voeg altijd antwoordsleutels toe als PDF-bijlage.`,
       appId: 'word-scramble',
     },
@@ -92,22 +92,22 @@ De schaalbaarheid van digitale downloads is ongeëvenaard in de educatieve produ
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Digitale Downloads Verkopen op Etsy',
+      title: `Digitale Downloads Verkopen op Etsy`,
       description: `Etsy is het dominante platform voor digitale download werkbladen dankzij het enorme organische zoekverkeer van ouders en verkopers die "printable" en "werkbladen" als zoekterm gebruiken. Configureer je producten als "instant download" in Etsy's productinstellingen zodat bestanden automatisch worden geleverd na aankoop zonder handmatige tussenkomst. Gebruik alle dertien tags met variaties die thema, vaardigheid, leeftijd en format combineren. Vermeldingsafbeeldingen die de werkbladen tonen in een realistische setting — geprint op papier naast kleurpotloden — presteren aanzienlijk beter dan platte digitale voorbeelden. De Nederlandse markt via Etsy.nl groeit snel voor Nederlandstalige educatieve downloads.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Digitale Downloads Verkopen op Gumroad',
-      description: `Gumroad is het sterkste platform voor verkopergerichte digitale downloads dankzij het ingebouwde publiek van miljoenen actieve verkoperkopers. Upload je werkbladen als PDF-bestanden met duidelijke productbeschrijvingen die productdoelen, niveaucategorie en opties voor getrapte productpakketten specificeren. Gumroad kopers waarderen gedetailleerde voorbeeldpagina's die vier tot zes werkbladen uit de set tonen zodat ze de kwaliteit kunnen beoordelen voor aankoop. De bundelfunctie laat je individuele producten en verzamelbundels gelijktijdig aanbieden. Gumroad's winstdeling is gunstiger voor basis-sellers (zestig procent) en premium-sellers (tachtig procent).`,
+      title: `Digitale Downloads Verkopen op Gumroad`,
+      description: `Gumroad is het sterkste platform voor verkopergerichte digitale downloads dankzij het ingebouwde publiek van miljoenen actieve verkoperkopers. Upload je werkbladen als PDF-bestanden met duidelijke productbeschrijvingen die productdoelen, niveaucategorie en opties voor getrapte productpakketten specificeren. Gumroad kopers waarderen gedetailleerde voorbeeldpagina`s die vier tot zes werkbladen uit de set tonen zodat ze de kwaliteit kunnen beoordelen voor aankoop. De bundelfunctie laat je individuele producten en verzamelbundels gelijktijdig aanbieden. Gumroad`s winstdeling is gunstiger voor basis-sellers (zestig procent) en premium-sellers (tachtig procent).`,
     },
     {
       platform: 'Gumroad',
-      title: 'Digitale Downloads Verkopen op Gumroad',
+      title: `Digitale Downloads Verkopen op Gumroad`,
       description: `Gumroad biedt de eenvoudigste opstartvaring voor nieuwe digitale-downloadverkopers met minimale technische kennis. Upload je PDF-werkbladen, stel een prijs in, en deel je productlink — Gumroad handelt betaling, levering en klanttoegang af. De "pay what you want" optie is bijzonder effectief voor het opbouwen van een e-maillijst: bied een gratis werkbladset aan waarvoor kopers alleen hun e-mailadres opgeven, en markt premium producten naar die lijst. Gumroad's commissiestructuur is transparant — tien procent per transactie zonder maandelijkse kosten — waardoor het ideaal is voor verkopers die hun digitale-downloadbusiness testen voordat ze investeren in een eigen webwinkel.`,
     },
     {
       platform: 'Shopify',
-      title: 'Een Digitale Download Merk Opbouwen op Shopify',
+      title: `Een Digitale Download Merk Opbouwen op Shopify`,
       description: `Shopify met een digitale-downloadapp als Digital Downloads, SendOwl of Sky Pilot laat je een volledig eigen educatief printable-merk opbouwen met professionele webwinkel, eigen branding en volledige controle over je klantrelatie en prijsstrategie. De integratie met iDEAL maakt Shopify bijzonder geschikt voor de Nederlandse markt. Bouw een samenhangende productcatalogus op georganiseerd per vaardigheidsgebied, niveaucategorie en thema. Gebruik e-mailmarketing om bestaande kopers te informeren over nieuwe producten — directe-verkoop-klanten hebben de hoogste levenslange klantwaarde omdat er geen platformcommissies zijn en je de klantrelatie volledig bezit. De maandelijkse Shopify-kosten (vanaf negenentwintig euro) worden snel terugverdiend bij regelmatige verkopen.`,
     },
   ],
@@ -123,7 +123,7 @@ De schaalbaarheid van digitale downloads is ongeëvenaard in de educatieve produ
     },
     {
       question: `Hoeveel werkbladen moet ik per digitale download product opnemen?`,
-      answer: `De optimale hoeveelheid werkbladen per digitale download product hangt af van de prijsstelling en het producttype. Individuele werkbladsets van vijf tot tien pagina's verkopen effectief voor twee tot vier euro als instapproducten die eerste beoordelingen genereren. Thematische bundels van vijftien tot twintig pagina's bereiken vijf tot tien euro als middenproducten met sterke prijskwaliteitperceptie. Uitgebreide pakketten van vijfentwintig tot vijftig pagina's brengen tien tot twintig euro op als premium producten die kopers die de kwaliteit al kennen uit eerdere aankopen bereid zijn te kopen. De sleutel is waardecommunicatie — het aantal pagina's, de inclusie van antwoordsleutels, en de opties voor getrapte productpakketten moeten duidelijk in de productbeschrijving staan.`,
+      answer: `De optimale hoeveelheid werkbladen per digitale download product hangt af van de prijsstelling en het producttype. Individuele werkbladsets van vijf tot tien pagina`s verkopen effectief voor twee tot vier euro als instapproducten die eerste beoordelingen genereren. Thematische bundels van vijftien tot twintig pagina`s bereiken vijf tot tien euro als middenproducten met sterke prijskwaliteitperceptie. Uitgebreide pakketten van vijfentwintig tot vijftig pagina`s brengen tien tot twintig euro op als premium producten die kopers die de kwaliteit al kennen uit eerdere aankopen bereid zijn te kopen. De sleutel is waardecommunicatie — het aantal pagina`s, de inclusie van antwoordsleutels, en de opties voor getrapte productpakketten moeten duidelijk in de productbeschrijving staan.`,
     },
     {
       question: `Hoe maak ik digitale downloads die opvallen tussen de concurrentie?`,
@@ -147,62 +147,62 @@ De schaalbaarheid van digitale downloads is ongeëvenaard in de educatieve produ
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'price-etsy-printables',
-      anchorText: 'Hoe je Etsy printables juist prijst',
+      anchorText: `Hoe je Etsy printables juist prijst`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
-      slug: 'print-on-demand-printable-ideas',
-      anchorText: 'Print-on-demand printable businessideeën',
+      slug: `print-on-demand-printable-ideas`,
+      anchorText: `Print-on-demand printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
-      anchorText: 'Abonnementbox printable businessideeën',
+      slug: `subscription-box-printable-ideas`,
+      anchorText: `Abonnementbox printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'bulk-licensing-printable-ideas',
-      anchorText: 'Bulklicenties printable businessideeën',
+      slug: `bulk-licensing-printable-ideas`,
+      anchorText: `Bulklicenties printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

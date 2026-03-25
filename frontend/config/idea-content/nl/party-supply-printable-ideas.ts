@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Feestartikelen Printables Verkopen — Nichegids',
+    titleTag: `Feestartikelen Printables Verkopen — Nichegids`,
     metaDescription: `Feestartikelen printable businessideeën voor Etsy verkopers. Maak thematische feestpakketten, verjaardagsspelletjes en seizoensgebonden evenement printables.`,
 
-    primaryKeyword: 'feestartikelen printable ideeën',
+    primaryKeyword: `feestartikelen printable ideeën`,
     secondaryKeywords: [
-      'printable feestartikelen verkopen',
-      'feestdecoratie printable business',
-      'verjaardagsfeest printable ideeën',
-      'feest printables verkopen op Etsy',
+      `printable feestartikelen verkopen`,
+      `feestdecoratie printable business`,
+      `verjaardagsfeest printable ideeën`,
+      `feest printables verkopen op Etsy`,
     ],
     lsiKeywords: [
-      'viering thema printable producten',
-      'feest uitnodiging en banner templates',
-      'evenement decoratie digitale downloads',
+      `viering thema printable producten`,
+      `feest uitnodiging en banner templates`,
+      `evenement decoratie digitale downloads`,
     ],
   },
   hero: {
@@ -44,27 +44,27 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
 
   productIdeas: [
     {
-      title: 'Thematische Feest Telactiviteiten voor Verkopers',
+      title: `Thematische Feest Telactiviteiten voor Verkopers`,
       description: `Telactiviteiten voor feestpakketten combineren feestthema visuele beelden met educatieve teloefening die ouders waarderen als zinvolle feestactiviteit. Gebruik de Zoek en Tel-generator om thematische feestscènes te maken — piratentelactiviteiten voor piratenfeestjes, prinsessentelactiviteiten voor prinsessenfeestjes, dinosaurustelactiviteiten voor dinofeestjes. Bied per feestthema drie tot vijf telactiviteiten op verschillende moeilijkheidsniveaus zodat kinderen van drie tot acht jaar allemaal mee kunnen doen op een gemengd feestje. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Feestthema Woordzoekpuzzels Verkopen',
+      title: `Feestthema Woordzoekpuzzels Verkopen`,
       description: `Woordzoekers zijn een van de meest populaire feestactiviteiten omdat kinderen ze zelfstandig kunnen invullen terwijl ouders andere feestonderdelen voorbereiden. Gebruik de Woordzoeker-generator om thematische woordzoekers te maken per feestthema — piratenwoordzoekers, prinsessenwoordzoekers, ruimtewoordzoekers. Bied per thema twee versies aan: een eenvoudige versie voor jongere kinderen en een uitdagende versie voor oudere kinderen. Feestwoordzoekers verkopen sterk als onderdeel van complete feestpakketten en als individuele feestactiviteiten.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Feest Koppelspelletjes voor Educatieve Winkels',
+      title: `Feest Koppelspelletjes voor Educatieve Winkels`,
       description: `Koppelactiviteiten functioneren als een rustige feestactiviteit die kinderen aan tafel kunnen doen terwijl ze wachten op de volgende feestactiviteit of de taart. Maak thematische koppelsets per feestthema waarin kinderen feestartikelen koppelen aan hun functie, feestpersonages verbinden met hun attributen, of feestsnoepjes matchen met hun kleuren. De Koppelen-generator produceert professionele lay-outs die je bundelt in feestpakketten. Feestkoppelactiviteiten verkopen zelden individueel maar zijn bijzonder waardevol als onderdeel van complete feestactiviteitenpakketten.`,
       appId: 'matching',
     },
     {
-      title: 'Feestthema Rekenspelletjes voor Verkopers',
+      title: `Feestthema Rekenspelletjes voor Verkopers`,
       description: `Rekenspelletjes met feestthema bieden educatief vermaak dat ouders waarderen als alternatief voor puur vermaakactiviteiten. Gebruik de Optellen-generator om werkbladen te maken met feestthema sommen — "hoeveel taartpunten plus hoeveel ballonnen" — die rekenen combineren met feestsfeer. Bied per feestthema twee tot drie rekenactiviteiten op verschillende moeilijkheidsniveaus. Educatieve feestactiviteiten spreken vooral verkopers aan die klasfeestjes organiseren waarbij ze de activiteiten educatief moeten kunnen verantwoorden.`,
       appId: 'addition',
     },
     {
-      title: 'Feest Kleurplaten Pakketten voor Etsy Verkopers',
+      title: `Feest Kleurplaten Pakketten voor Etsy Verkopers`,
       description: `Kleurplaten zijn het populairste onderdeel van elk feestactiviteitenpakket omdat ze voor elke leeftijd geschikt zijn en kinderen rustig bezig houden. De Kleuren-generator maakt thematische kleurplaten per feestthema — piraten, prinsessen, dinosaurussen, dieren, ruimte. Bied sets van acht tot twaalf thematische kleurplaten per feestthema. Feestkleurplaten verkopen zowel als individuele producten als als onderdelen van complete feestpakketten. Op Etsy zijn feestthema kleurplatenpakketten een van de sterkste instapproducten voor de feestprintable-markt.`,
       appId: 'coloring',
     },
@@ -74,8 +74,8 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
       appId: 'bingo',
     },
     {
-      title: 'Feest Schaduwkoppel Spelletjes voor Winkels',
-      description: `Schaduwkoppelactiviteiten bieden een rustige feestactiviteit die kinderen zelfstandig kunnen invullen als aanvulling op actievere feestonderdelen. Gebruik de Schaduw Koppelen-generator om thematische pagina's te maken met feestobjecten en hun silhouetten — ballonnen, taarten, cadeaus, feestmutsen, slingers. Bied drie tot vijf schaduwkoppelpagina's per feestthema. Schaduwkoppelactiviteiten zijn bijzonder waardevol voor jongere feestgangers (drie tot vijf jaar) die nog niet kunnen lezen maar wel kunnen koppelen.`,
+      title: `Feest Schaduwkoppel Spelletjes voor Winkels`,
+      description: `Schaduwkoppelactiviteiten bieden een rustige feestactiviteit die kinderen zelfstandig kunnen invullen als aanvulling op actievere feestonderdelen. Gebruik de Schaduw Koppelen-generator om thematische pagina`s te maken met feestobjecten en hun silhouetten — ballonnen, taarten, cadeaus, feestmutsen, slingers. Bied drie tot vijf schaduwkoppelpagina`s per feestthema. Schaduwkoppelactiviteiten zijn bijzonder waardevol voor jongere feestgangers (drie tot vijf jaar) die nog niet kunnen lezen maar wel kunnen koppelen.`,
       appId: 'shadow-match',
     },
     {
@@ -84,12 +84,12 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
       appId: 'pattern-worksheet',
     },
     {
-      title: 'Feest Letterpuzzel Spelletjes voor Verkopers',
+      title: `Feest Letterpuzzel Spelletjes voor Verkopers`,
       description: `Letterpuzzels met feestthema bieden een uitdagende taalactiviteit voor feestgangers die al kunnen lezen. Gebruik de Letterpuzzel-generator om puzzels te maken met feestgerelateerde woorden per thema — piratenvocabulaire, prinsessenwoorden, ruimtetermen. Bied twee tot vier puzzels per feestthema op leeftijdsgeschikte moeilijkheid. Letterpuzzels spreken vooral oudere feestgangers (zeven tot tien jaar) aan en worden vaak gecombineerd met woordzoekers in een "puzzelhoek" op het feestje.`,
       appId: 'word-scramble',
     },
     {
-      title: 'Feest Tekenactiviteiten voor Creatieve Verkopers',
+      title: `Feest Tekenactiviteiten voor Creatieve Verkopers`,
       description: `Begeleide tekenactiviteiten op feestjes bieden een creatieve pauze waarin kinderen iets maken dat ze mee naar huis nemen — een tastbare herinnering aan het feestje. De Tekenen en Kleuren-generator maakt stapsgewijze tekenwerkbladen per feestthema — leer een piraat tekenen, leer een prinses tekenen, leer een dinosaurus tekenen. Bied twee tot vier tekenactiviteiten per feestthema. De voltooide tekening functioneert als aandenken aan het feestje, wat dit activiteitstype bijzonder populair maakt bij ouders die een "maak en meeneem" element in hun feestprogramma willen.`,
       appId: 'draw-and-color',
     },
@@ -98,17 +98,17 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Feestartikelen Printables Verkopen op Etsy',
+      title: `Feestartikelen Printables Verkopen op Etsy`,
       description: `Etsy is het dominante platform voor feestartikelen printables dankzij de sterke feest- en vierings-koopcultuur die het platform kenmerkt. Richt je op zoekwoorden die specifieke feestthema's en activiteitstypen combineren: "piratenfeest activiteiten printable," "verjaardagsfeest bingo download" of "Sinterklaas spelletjes printen." Gebruik alle dertien tags. Vermeldingsafbeeldingen die het complete feestpakket tonen in een feestelijke setting — geprint op tafel met feestdecoratie — presteren dramatisch beter dan platte digitale voorbeelden. De Nederlandse markt via Etsy.nl is bijzonder sterk voor feestprintables dankzij de sterke Nederlandse feestcultuur en de groeiende DIY-feesttrend.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Feest Activiteitenboeken Publiceren op KDP',
+      title: `Feest Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP biedt mogelijkheden voor feest-gerelateerde activiteitenboeken die ouders kopen als feestcadeaus of als onderdeel van feestvoorbereiding. Compileer dertig tot vijftig thematische feestactiviteiten — kleurplaten, woordzoekers, letterpuzzels, patronen — tot gebonden activiteitenboeken per feestthema. Gebruik KDP-zoekwoordvelden strategisch: "piraten activiteitenboek verjaardagsfeest," "dinosaurus feestboek voor kinderen." Prijs tussen vijf en acht euro — lager dan educatieve werkboeken omdat feestboeken als eenmalig gebruik worden beschouwd. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
-      platform: 'Pinterest en Instagram Marketing',
-      title: 'Feest Printables Promoten via Sociale Media',
+      platform: `Pinterest en Instagram Marketing`,
+      title: `Feest Printables Promoten via Sociale Media`,
       description: `Pinterest en Instagram zijn de krachtigste marketingkanalen voor feestartikelen printables omdat feestplanning inherent visueel en inspiratiegericht is. Maak aantrekkelijke pins en posts die je feestactiviteitenpakketten tonen in gestileerde feestsettings — kleurplaten op tafel naast feestslingers en taart. Pinterest-gebruikers zoeken actief naar "kinderfeestje ideeën," "DIY verjaardagsfeest activiteiten" en specifieke thema's als "piratenfeest spelletjes" — zoektermen die direct verkeer naar je Etsy- of Shopify-vermeldingen leiden. De visuele aard van feestprintables maakt ze bijzonder deelbaar op sociale media, wat organisch bereik genereert dat betaalde reclame niet kan evenaren.`,
     },
     {
@@ -125,7 +125,7 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
     },
     {
       question: `Welke feestthema's verkopen het beste als printable activiteitenpakketten?`,
-      answer: `De bestverkopende feestthema's zijn piraten, dinosaurussen, prinsessen, dieren, ruimte en eenhoorns — de klassieke kinderverjaardagsthema's die jaarlijks miljoenen feestjes inspireren. Seizoensgebonden feestthema's — Sinterklaas, Kerst, Halloween, Pasen, Koningsdag — genereren voorspelbare pieken die je productieschema kunt plannen. Schoolfeestthema's — begin-schooljaar, seizoenswisselingen, einde-schooljaar — bedienen het verkopersegment. In Nederland is het Sinterklaasfeestthema bijzonder winstgevend vanwege de universele Nederlandse viering en de vele activiteiten die ermee gepaard gaan — pepernoten bingo, Pietenwerkbladen, surprisekleurplaten.`,
+      answer: `De bestverkopende feestthema`s zijn piraten, dinosaurussen, prinsessen, dieren, ruimte en eenhoorns — de klassieke kinderverjaardagsthema`s die jaarlijks miljoenen feestjes inspireren. Seizoensgebonden feestthema`s — Sinterklaas, Kerst, Halloween, Pasen, Koningsdag — genereren voorspelbare pieken die je productieschema kunt plannen. Schoolfeestthema`s — begin-schooljaar, seizoenswisselingen, einde-schooljaar — bedienen het verkopersegment. In Nederland is het Sinterklaasfeestthema bijzonder winstgevend vanwege de universele Nederlandse viering en de vele activiteiten die ermee gepaard gaan — pepernoten bingo, Pietenwerkbladen, surprisekleurplaten.`,
     },
     {
       question: `Hoe structureer ik een compleet feestactiviteitenpakket?`,
@@ -136,7 +136,7 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
       answer: `Ja, verkopen op meerdere platforms is effectief voor feestprintables. Etsy is het sterkste platform voor de feestmarkt — ouders zoeken hier actief naar "verjaardagsfeest printables" en "feest activiteiten." Amazon KDP bedient het fysieke feestactiviteitenboek segment. Pinterest en Instagram functioneren als krachtige marketingkanalen die verkeer naar je verkoopplatforms leiden. Shopify biedt de mogelijkheid om een eigen feestprintable merk op te bouwen. Voor de Nederlandse markt zijn Etsy.nl en Pinterest bijzonder effectief. Vergeet Bol.com niet voor fysieke feestactiviteitenboeken.`,
     },
     {
-      question: 'Hoe bereik ik feestplanners als kopers?',
+      question: `Hoe bereik ik feestplanners als kopers?`,
       answer: `Feestplanners bereik je het effectiefst via drie kanalen. Ten eerste via Etsy met feestspecifieke zoekwoorden — "kinderfeestje activiteiten," "verjaardagsfeest spelletjes," en themaspecifieke termen als "piratenfeest printables." Ten tweede via Pinterest waar feestplanning een van de populairste zoekcategorieën is — maak visueel aantrekkelijke pins die je feestpakketten tonen in gestileerde feestsettings. Ten derde via Instagram waar DIY-feestplanners inspiratie zoeken — deel foto's van je feestprintables in gebruik, tag met feestgerelateerde hashtags. De sleutel is het bereiken van ouders in hun planningsfase — zes tot twee weken voor het feest — wanneer ze actief zoeken naar activiteitenmateriaal.`,
     },
     {
@@ -153,62 +153,62 @@ De mogelijkheid om feestpakketten aan te bieden als zowel digitale downloads als
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-bingo-cards',
-      anchorText: 'Professionele bingokaarten maken',
+      anchorText: `Professionele bingokaarten maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'christmas-printable-ideas',
-      anchorText: 'Kerst printable businessideeën',
+      anchorText: `Kerst printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'halloween-printable-ideas',
-      anchorText: 'Halloween printable businessideeën',
+      anchorText: `Halloween printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'pirates-printable-ideas',
-      anchorText: 'Piraten printable businessideeën',
+      anchorText: `Piraten printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — educatieve thema-afbeelding', caption: 'Antilope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — educatieve thema-afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/animals/camel.webp', alt: 'Kameel — educatieve thema-afbeelding', caption: 'Kameel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Kat — educatieve thema-afbeelding', caption: 'Kat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hond — educatieve thema-afbeelding', caption: 'Hond' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolfijn — educatieve thema-afbeelding', caption: 'Dolfijn' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antilope — educatieve thema-afbeelding`, caption: 'Antilope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Vleermuis — educatieve thema-afbeelding`, caption: 'Vleermuis' },
+    { src: `/image-library/animals/camel.webp`, alt: `Kameel — educatieve thema-afbeelding`, caption: 'Kameel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Kat — educatieve thema-afbeelding`, caption: 'Kat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Hond — educatieve thema-afbeelding`, caption: 'Hond' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolfijn — educatieve thema-afbeelding`, caption: 'Dolfijn' },
   ],
 
   youtubeId: '36keBFzJbPo',

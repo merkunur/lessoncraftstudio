@@ -1,24 +1,24 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'creare schede addizione per il negozio',
+    primaryKeyword: `creare schede addizione per il negozio`,
     secondaryKeywords: [
-      'creatore di schede addizione per venditori',
-      'schede addizione matematica per bambini',
-      'esercizi di addizione stampabili',
+      `creatore di schede addizione per venditori`,
+      `schede addizione matematica per bambini`,
+      `esercizi di addizione stampabili`,
       `schede addizione con immagini per la scuola materna`,
     ],
     lsiKeywords: [
-      'schede matematiche visive per il negozio',
-      'esercizi di addizione con immagini per bambini',
-      'schede matematiche scuola materna per venditori',
+      `schede matematiche visive per il negozio`,
+      `esercizi di addizione con immagini per bambini`,
+      `schede matematiche scuola materna per venditori`,
     ],
-    titleTag: 'Creare Schede Addizione — Per venditori',
+    titleTag: `Creare Schede Addizione — Per venditori`,
     metaDescription: `Crea schede di addizione con immagini tematiche per il negozio. 104 temi, 4 modalità, chiave di valore percepito e PDF stampabili. Prova gratuita con filigrana.`,
     },
 
   hero: {
-    title: 'Generatore di Schede di Addizione',
+    title: `Generatore di Schede di Addizione`,
     tagline: `Crea schede di addizione illustrate e professionali in meno di 60 secondi`,
     description: `Trasforma gli esercizi di matematica in un'avventura visuale che entusiasma i bambini e genera entrate solide per i venditori. Con questo potente strumento crei schede di addizione personalizzate con immagini tematiche che i bambini vogliono davvero completare. Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta il livello di difficoltà attraverso quattro modalità di esercizio, definisci il layout della pagina in ogni dettaglio e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano prodotti stampabili di matematica, editori Amazon KDP che compilano libri di attività e venditori che necessitano di materiali differenziati per vari livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.`,
   },
@@ -28,22 +28,22 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Apri il generatore di schede',
-        description: `Clicca su "Prova gratis" per avviare il generatore di schede di addizione. Lo strumento si apre istantaneamente nel tuo browser con una barra laterale scura a sinistra per tutte le impostazioni e un'area di lavoro luminosa a destra per l'anteprima in tempo reale della tua scheda. Non servono account o download — tutto funziona direttamente nel browser.`,
+        description: `Clicca su "Prova gratis" per avviare il generatore di schede di addizione. Lo strumento si apre istantaneamente nel tuo browser con una barra laterale scura a sinistra per tutte le impostazioni e un`area di lavoro luminosa a destra per l`anteprima in tempo reale della tua scheda. Non servono account o download — tutto funziona direttamente nel browser.`,
       },
       {
-        title: 'Scegli la modalità di esercizio',
+        title: `Scegli la modalità di esercizio`,
         description: `Apri il pannello "Configurazione esercizi" e seleziona tra quattro potenti modalità: Immagine + Immagine mostra entrambi gli addendi come gruppi di immagini, permettendo agli utenti di contare e sommare in modo puramente visuale. Immagine + Numero combina un gruppo di immagini con una cifra, creando il ponte tra pensiero concreto e astratto. Trova il Sommando mostra la somma e un gruppo — la parte mancante deve essere individuata, stimolando il pensiero pre-algebrico. La Modalità Mista combina casualmente tutti e tre gli stili su un unico foglio per la massima varietà.`,
       },
       {
-        title: 'Imposta il livello di difficoltà',
-        description: `Regola i cursori "Numero minimo per gruppo" e "Numero massimo per gruppo" per controllare con precisione l'intervallo numerico. Per i bambini della scuola dell'infanzia si consigliano intervalli da 1 a 3, per la prima elementare da 1 a 5 e per la seconda elementare da 1 a 10. Imposta inoltre il numero di esercizi per scheda — da un singolo esercizio grande fino a 10 esercizi compatti per pagina. Così crei rapidamente materiali differenziati per diversi livelli di competenza.`,
+        title: `Imposta il livello di difficoltà`,
+        description: `Regola i cursori "Numero minimo per gruppo" e "Numero massimo per gruppo" per controllare con precisione l`intervallo numerico. Per i bambini della scuola dell`infanzia si consigliano intervalli da 1 a 3, per la prima elementare da 1 a 5 e per la seconda elementare da 1 a 10. Imposta inoltre il numero di esercizi per scheda — da un singolo esercizio grande fino a 10 esercizi compatti per pagina. Così crei rapidamente materiali differenziati per diversi livelli di competenza.`,
       },
       {
-        title: 'Seleziona un tema dalla libreria di immagini',
+        title: `Seleziona un tema dalla libreria di immagini`,
         description: `Apri il pannello "Libreria immagini" e sfoglia oltre 100 collezioni tematiche con più di 3.100 illustrazioni in totale: animali, cibo, veicoli, creature marine, spazio, sport, dinosauri, festività e molto altro. Usa la barra di ricerca integrata per trovare temi specifici istantaneamente. Clicca sulle singole immagini per scegliere esattamente quali illustrazioni appariranno sulla tua scheda.`,
       },
       {
-        title: 'Personalizza il layout della pagina',
+        title: `Personalizza il layout della pagina`,
         description: `Nella sezione "Impostazione pagina" scegli tra Letter verticale, Letter orizzontale, A4 verticale, A4 orizzontale, Quadrato (1200×1200 pixel) o una dimensione completamente personalizzata. Imposta il colore della pagina, aggiungi uno sfondo tematico con opacità regolabile e scegli una cornice decorativa dalla ricca libreria di cornici. Il formato quadrato è ideale per libri di attività Amazon KDP e contenuti per i social media.`,
       },
       {
@@ -51,19 +51,19 @@ const content: ToolContent = {  seo: {
         description: `Usa il pannello "Strumenti testo" per aggiungere un titolo efficace, un campo nome per l'utente, un campo data o istruzioni personalizzate. Scegli tra caratteri accattivanti come Fredoka, Baloo 2, Quicksand e Nunito. Regola dimensione del carattere, colore e contorno opzionale del testo per una migliore leggibilità sugli sfondi. Aggiungi il nome del tuo negozio o un avviso di copyright per rendere il tuo marchio visibile su ogni scheda.`,
       },
       {
-        title: 'Perfeziona le opzioni della scheda',
+        title: `Perfeziona le opzioni della scheda`,
         description: `Ottimizza la tua scheda con pratiche caselle di controllo: attiva i campi Nome e Data in cima alla pagina, mostra o nascondi il segno più tra i gruppi di immagini, aggiungi numeri progressivi agli esercizi e attiva o disattiva lo stile chiaro e leggibile per le caselle delle risposte. Ogni singola modifica aggiorna l'anteprima in tempo reale sull'area di lavoro, permettendoti di valutare il risultato istantaneamente.`,
       },
       {
         title: 'Genera e scarica',
-        description: `Clicca il pulsante "Genera" per creare la tua scheda completata. L'anteprima si aggiorna in tempo reale sull'area di lavoro. Quando sei soddisfatto del risultato, usa il menu a tendina "Scarica" per salvare come JPEG (immagine singola per mockup e social media) o PDF (ottimizzato per la stampa e la vendita). Genera e scarica anche una chiave di valore percepito corrispondente con tutte le soluzioni inserite — indispensabile per pacchetti di prodotti professionali.`,
+        description: `Clicca il pulsante "Genera" per creare la tua scheda completata. L`anteprima si aggiorna in tempo reale sull`area di lavoro. Quando sei soddisfatto del risultato, usa il menu a tendina "Scarica" per salvare come JPEG (immagine singola per mockup e social media) o PDF (ottimizzato per la stampa e la vendita). Genera e scarica anche una chiave di valore percepito corrispondente con tutte le soluzioni inserite — indispensabile per pacchetti di prodotti professionali.`,
       },
     ],
   },
 
   whatYouCanCreate: [
     {
-      title: 'Pacchetti di attività di addizione tematici',
+      title: `Pacchetti di attività di addizione tematici`,
       description: `Crea un set di 10–20 schede attorno a un singolo tema — dinosauri, animali della fattoria o creature marine. Raggruppale come pacchetto di attività PDF e vendile su Etsy o Gumroad. I pacchetti tematici sono particolarmente apprezzati da genitori e venditori perché mantengono i bambini motivati più a lungo e offrono un quadro contenutistico chiaro. I pacchetti singoli si vendono a 3–5 €, i mega-pacchetti con più temi a 12–18 €.`,
     },
     {
@@ -71,26 +71,26 @@ const content: ToolContent = {  seo: {
       description: `Genera tre versioni della stessa scheda a diversi livelli di difficoltà: facile (intervallo 1–3), medio (1–5) e difficile (1–10). i venditori possono assegnare il livello giusto a ogni utente senza dedicare tempo extra alla preparazione. I set differenziati ottengono prezzi più alti sulle piattaforme educative perché gli acquirenti riconoscono subito il valore aggiunto e possono utilizzare i materiali direttamente in negozi eterogenee.`,
     },
     {
-      title: 'Pacchetti matematici stagionali',
+      title: `Pacchetti matematici stagionali`,
       description: `Usa temi festivi e stagionali come Natale, Halloween, Pasqua, fiori primaverili e vacanze estive per creare pacchetti a disponibilità limitata. I prodotti stagionali si vendono particolarmente bene su Etsy perché gli acquirenti li cercano in finestre temporali specifiche. Pubblica i tuoi pacchetti di addizione stagionali 2–3 settimane prima dell'occasione per raggiungere gli acquirenti anticipati e massimizzare la visibilità organica nella ricerca Etsy.`,
     },
     {
-      title: 'Libri di attività matematica per KDP',
+      title: `Libri di attività matematica per KDP`,
       description: `Genera 50–100 pagine di schede di addizione in Modalità Mista con difficoltà progressiva, esporta come PDF ad alta risoluzione e pubblica come libro di attività low-content su Amazon KDP. Il formato quadrato (1200×1200 pixel) è ideale per i libri di attività KDP. Aggiungi una copertina accattivante, una pagina di istruzioni e una sezione soluzioni alla fine. I libri di attività KDP per bambini dai 3 ai 7 anni si vendono con costanza durante tutto l'anno.`,
     },
     {
-      title: 'Pacchetti per il lavoro mattutino online',
-      description: `Crea un mese di esercizi di riscaldamento quotidiani sull'addizione con 20–25 schede. Ogni scheda richiede 5–10 minuti ed è perfetta come attività d'ingresso o come lavoro autonomo durante le supplenze. Includi la chiave di valore percepito affinché gli utenti possano autocontrollarsi. I pacchetti mensili possono essere commercializzati come prodotto in abbonamento e generare entrate ricorrenti.`,
+      title: `Pacchetti per il lavoro mattutino online`,
+      description: `Crea un mese di esercizi di riscaldamento quotidiani sull`addizione con 20–25 schede. Ogni scheda richiede 5–10 minuti ed è perfetta come attività d`ingresso o come lavoro autonomo durante le supplenze. Includi la chiave di valore percepito affinché gli utenti possano autocontrollarsi. I pacchetti mensili possono essere commercializzati come prodotto in abbonamento e generare entrate ricorrenti.`,
     },
     {
-      title: 'Schede di matematica multilingue',
+      title: `Schede di matematica multilingue`,
       description: `Cambia la lingua del contenuto per creare schede con etichette delle immagini in italiano, tedesco, francese, spagnolo, portoghese o una delle 11 lingue supportate. Ideale per negozi di italiano L2, famiglie bilingui che praticano l'istruzione a casa o venditori internazionali che desiderano offrire lo stesso contenuto in più lingue e moltiplicare così il proprio mercato raggiungibile.`,
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Negozio Etsy di stampabili matematici',
+      title: `Negozio Etsy di stampabili matematici`,
       description: `Apri un negozio Etsy specializzato in schede di addizione stampabili. Crea 15–20 pacchetti tematici (animali, veicoli, cibo, dinosauri, festività ecc.) al prezzo di 3–5 € ciascuno. Senza magazzino, senza costi di spedizione e con consegna digitale istantanea, i tuoi margini di profitto dopo le commissioni Etsy sono quasi al 100%. Ottimizza le tue inserzioni con termini di ricerca italiani pertinenti come "schede addizione" e "esercizi matematica stampabili" per massimizzare la visibilità.`,
       platform: 'Etsy',
     },
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Gumroad',
     },
     {
-      title: 'Libri di attività su Amazon KDP',
+      title: `Libri di attività su Amazon KDP`,
       description: `Compila oltre 50 pagine di esercizi di addizione con immagini in un quaderno di attività fisico. Usa diverse modalità di esercizio e molteplici temi per la massima varietà. Inizia con semplici esercizi Immagine + Immagine e aumenta gradualmente la difficoltà fino alla Modalità Mista. Imposta il prezzo tra 6,99 € e 9,99 € e lascia che Amazon gestisca stampa e spedizione — senza investimento iniziale in inventario.`,
       platform: 'Amazon KDP',
     },
     {
-      title: 'Materiale integrativo per l\'istruzione a casa',
-      description: `Crea un catalogo prodotti strutturato di addizione di 12 settimane con difficoltà progressiva, partendo da semplici esercizi Immagine + Immagine nell'intervallo 1–3 fino ad arrivare a esercizi complessi Trova il Sommando nell\'intervallo 1–10. Vendi il catalogo prodotti completo come download digitale sul tuo sito web o tramite Gumroad. Le famiglie che praticano l'istruzione a casa cercano attivamente materiali matematici visivi e pratici.`,
+      title: `Materiale integrativo per l'istruzione a casa`,
+      description: `Crea un catalogo prodotti strutturato di addizione di 12 settimane con difficoltà progressiva, partendo da semplici esercizi Immagine + Immagine nell`intervallo 1–3 fino ad arrivare a esercizi complessi Trova il Sommando nell'intervallo 1–10. Vendi il catalogo prodotti completo come download digitale sul tuo sito web o tramite Gumroad. Le famiglie che praticano l`istruzione a casa cercano attivamente materiali matematici visivi e pratici.`,
       platform: 'Gumroad',
     },
     {
@@ -121,15 +121,15 @@ const content: ToolContent = {  seo: {
 
   proTips: [
     {
-      title: 'Usa la Modalità Mista per il massimo valore',
+      title: `Usa la Modalità Mista per il massimo valore`,
       description: `Quando crei prodotti da vendere, includi sempre almeno alcune schede in Modalità Mista nei tuoi pacchetti. La Modalità Mista combina Immagine + Immagine, Immagine + Numero e Trova il Sommando su un'unica pagina, offrendo agli acquirenti una varietà decisamente maggiore. Il tuo prodotto si distingue dai concorrenti che offrono un solo stile di esercizio e giustifica un prezzo di vendita più alto.`,
     },
     {
-      title: 'Abbina i temi alle stagioni per vendere meglio',
+      title: `Abbina i temi alle stagioni per vendere meglio`,
       description: `I prodotti stagionali superano quelli evergreen nei periodi di punta. Crea pacchetti di addizione con zucche a settembre, pupazzi di neve a novembre, coniglietti pasquali a febbraio e fiori a marzo. Pubblica i tuoi prodotti stagionali 2–3 settimane prima dell'inizio della stagione per raggiungere gli acquirenti anticipati e costruire rilevanza nella ricerca Etsy con largo anticipo.`,
     },
     {
-      title: 'Includi sempre la chiave di valore percepito',
+      title: `Includi sempre la chiave di valore percepito`,
       description: `Clicca su "Genera chiave di valore percepito" prima di scaricare la tua scheda. Gli acquirenti su Etsy e Gumroad valutano sistematicamente meglio i prodotti che includono una chiave di valore percepito. Ci vogliono solo 10 secondi in più e migliora significativamente le tue valutazioni, gli acquisti ripetuti e il tasso di raccomandazione.`,
     },
     {
@@ -137,11 +137,11 @@ const content: ToolContent = {  seo: {
       description: `Il PDF è il formato migliore per la stampa diretta e come formato di consegna per gli acquirenti, mentre il JPEG permette di creare immagini mockup professionali per le inserzioni del tuo negozio e i canali social. Scarica sempre entrambi i formati. Usa la versione JPEG per le anteprime dei prodotti, i pin su Pinterest e i post su Instagram, e consegna la versione PDF come prodotto digitale effettivo ai tuoi acquirenti.`,
     },
     {
-      title: 'Inizia con intervalli numerici bassi',
+      title: `Inizia con intervalli numerici bassi`,
       description: `Per i prodotti destinati alla scuola dell'infanzia e alla prima elementare, mantieni il numero massimo per gruppo tra 3 e 5. I bambini piccoli si sentono sopraffatti dai numeri grandi e perdono la motivazione. Crea versioni separate "Facile" e "Sfida" di ogni scheda affinché genitori e venditori possano scegliere con flessibilità il livello appropriato.`,
     },
     {
-      title: 'Aggiungi testo personalizzato per il branding',
+      title: `Aggiungi testo personalizzato per il branding`,
       description: `Usa gli strumenti testo per aggiungere il nome del tuo negozio, un avviso di copyright o un messaggio motivazionale in fondo a ogni scheda. Questo branding discreto rafforza notevolmente il riconoscimento del tuo marchio quando un cliente condivide la tua scheda con altri genitori, venditori o sui social media. Un branding coerente su tutti i prodotti crea fiducia e favorisce gli acquisti ripetuti.`,
     },
     {
@@ -152,19 +152,19 @@ const content: ToolContent = {  seo: {
 
   faq: [
     {
-      question: 'È disponibile una prova gratuita?',
+      question: `È disponibile una prova gratuita?`,
       answer: `Sì. Lo strumento offre una prova gratuita con tutte le funzionalità — senza registrazione, senza carta di credito. Puoi creare, visualizzare in anteprima e scaricare tutte le schede che desideri. I download della prova gratuita includono una filigrana. Acquista una licenza commerciale per rimuovere la filigrana e sbloccare i pieni diritti di vendita.`,
     },
     {
-      question: 'Quali formati di file posso scaricare?',
+      question: `Quali formati di file posso scaricare?`,
       answer: `Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che la chiave di valore percepito corrispondente sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta e come formato di consegna per i prodotti digitali. I JPEG sono perfetti per mockup dei prodotti, post sui social media e anteprime per il negozio.`,
     },
     {
-      question: 'Posso usare le schede per scopi commerciali?',
+      question: `Posso usare le schede per scopi commerciali?`,
       answer: `La prova gratuita con filigrana è destinata esclusivamente all'uso personale e didattico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per tutte le schede da te create, senza royalty o canoni mensili.`,
     },
     {
-      question: 'Quanti temi di immagini sono disponibili?',
+      question: `Quanti temi di immagini sono disponibili?`,
       answer: `La libreria di immagini comprende oltre 100 collezioni tematiche con più di 3.100 illustrazioni in totale. I temi spaziano da animali, cibo e veicoli a sport, natura e festività, fino a materiale scolastico, spazio e molto altro. Ogni tema contiene molteplici immagini individuali, così le tue schede risultano sempre variate — anche all'interno di un singolo tema. Nuovi temi vengono aggiunti periodicamente alla libreria per mantenere la collezione fresca e allineata alle tendenze stagionali e didattiche attuali.`,
     },
     {
@@ -180,15 +180,15 @@ const content: ToolContent = {  seo: {
       answer: `No. Il generatore funziona interamente nel tuo browser web su qualsiasi dispositivo moderno — Windows, Mac, Chromebook, iPad o tablet Android. Non c'è nulla da installare, nessun plugin richiesto e nessun account da creare. Apri semplicemente la pagina e inizia subito.`,
     },
     {
-      question: 'Posso generare una chiave di valore percepito?',
+      question: `Posso generare una chiave di valore percepito?`,
       answer: `Sì. Dopo aver generato una scheda, clicca su "Genera chiave di valore percepito" per creare un foglio di soluzioni corrispondente con tutte le risposte compilate. Puoi scaricare la chiave di valore percepito come file JPEG o PDF separato. Particolarmente utile per venditori che necessitano di valore percepito rapida e per venditori che vogliono includere le chiavi di valore percepito come valore aggiunto nei loro pacchetti di prodotti.`,
     },
     {
-      question: 'Quali dimensioni di pagina sono supportate?',
+      question: `Quali dimensioni di pagina sono supportate?`,
       answer: `Il generatore supporta US Letter (verticale e orizzontale), A4 (verticale e orizzontale), Quadrato (1200×1200 pixel) e dimensioni completamente personalizzate. Il formato quadrato è ideale per contenuti social media e libri di attività Amazon KDP. Le dimensioni personalizzate permettono formati speciali per prodotti di nicchia.`,
     },
     {
-      question: 'Qual è la vostra politica di rimborso?',
+      question: `Qual è la vostra politica di rimborso?`,
       answer: `Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile affinché tu possa valutare completamente lo strumento prima di decidere l'acquisto. Poiché la prova gratuita ti offre accesso completo a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze utilizzando ampiamente la prova gratuita prima di acquistare una licenza.`,
     },
   ],
@@ -196,8 +196,8 @@ const content: ToolContent = {  seo: {
   internalLinks: [
     { pageType: 'app', slug: 'addizione-schede', anchorText: `Schede di Addizione — Dettagli completi del prodotto` },
     { pageType: 'tool', slug: 'generatore-schede-sottrazione', anchorText: 'Generatore Schede Sottrazione' },
-    { pageType: 'tool', slug: 'generatore-esercizi-matematica', anchorText: 'Generatore Esercizi Matematica' },
-    { pageType: 'tool', slug: 'generatore-addizione-codificata', anchorText: 'Generatore Addizione Codificata' },
+    { pageType: 'tool', slug: `generatore-esercizi-matematica`, anchorText: `Generatore Esercizi Matematica` },
+    { pageType: 'tool', slug: `generatore-addizione-codificata`, anchorText: `Generatore Addizione Codificata` },
     { pageType: 'tool', slug: 'generatore-confronto-quantita', anchorText: 'Generatore Confronto Quantità' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-cerca-e-conta', anchorText: 'Generatore Cerca e Conta' },
@@ -213,21 +213,21 @@ const content: ToolContent = {  seo: {
       {
         src: `/samples/italian/addition/Addizione Divertente 1.webp`,
         alt: `Scheda di addizione con immagini a tema animali nella modalità Immagine + Immagine`,
-        caption: 'Modalità Immagine + Immagine con tema animali',
+        caption: `Modalità Immagine + Immagine con tema animali`,
       },
       {
         src: `/samples/italian/addition/Addizione Divertente 2.webp`,
         alt: `Scheda di addizione con immagini di cibo nella modalità Trova il Sommando`,
-        caption: 'Modalità Trova il Sommando con tema cibo',
+        caption: `Modalità Trova il Sommando con tema cibo`,
       },
       {
         src: `/samples/italian/addition/Addizione Divertente 3.webp`,
         alt: `Scheda di addizione in Modalità Mista con immagini di veicoli e cornice decorativa`,
-        caption: 'Modalità Mista con veicoli e cornice decorativa',
+        caption: `Modalità Mista con veicoli e cornice decorativa`,
       },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'Come creare schede di addizione — Video tutorial',
+    videoTitle: `Come creare schede di addizione — Video tutorial`,
   },
 };
 

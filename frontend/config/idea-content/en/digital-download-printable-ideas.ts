@@ -2,20 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digital Download Worksheet Ideas to Sell — Guide',
+    titleTag: `Digital Download Worksheet Ideas to Sell — Guide`,
     metaDescription: `Digital download worksheet ideas for Etsy, Gumroad, and Gumroad sellers. Build a zero-inventory printable business with instant-delivery educational PDFs.`,
 
-    primaryKeyword: 'digital download worksheet ideas',
+    primaryKeyword: `digital download worksheet ideas`,
     secondaryKeywords: [
-      'digital download printable business',
-      'sell digital worksheets online',
-      'digital printable product ideas',
-      'downloadable worksheet business model',
+      `digital download printable business`,
+      `sell digital worksheets online`,
+      `digital printable product ideas`,
+      `downloadable worksheet business model`,
     ],
     lsiKeywords: [
-      'instant download educational products',
-      'PDF worksheet marketplace selling',
-      'automated digital product delivery',
+      `instant download educational products`,
+      `PDF worksheet marketplace selling`,
+      `automated digital product delivery`,
     ],
   },
   hero: {
@@ -88,17 +88,17 @@ Digital products also offer unique post-sale value through the ability to update
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Selling Digital Download Worksheets on Etsy',
+      title: `Selling Digital Download Worksheets on Etsy`,
       description: `Etsy is the dominant marketplace for digital download printables with massive organic search traffic from buyers and parents actively looking for educational worksheet PDFs they can purchase and print immediately. Etsy handles payment processing and instant file delivery through its built-in digital download system, meaning buyers receive their purchased files automatically within seconds of completing checkout without any manual intervention from the seller. Optimize every listing with specific keywords matching buyer search intent including grade level, subject, activity type, and seasonal context to capture the exact queries your target buyers type into the Etsy search bar. Use all ten listing photo slots to showcase worksheet previews that demonstrate content quality, variety, and professional formatting because buyers evaluate digital products entirely through preview images before making purchase decisions. Seasonal listings aligned with the academic calendar and holiday search trends drive consistent sales throughout the year as buyers and parents search for timely materials matching their current instructional needs. The Etsy Star Seller program rewards consistent digital download sellers who maintain high review ratings, fast response times, and order completion rates with enhanced visibility in search results and a trust badge that increases buyer confidence and conversion rates.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Digital Download Worksheets on Gumroad',
+      title: `Selling Digital Download Worksheets on Gumroad`,
       description: `Gumroad offers the simplest setup for digital download worksheet businesses with clean product pages, instant file delivery, flexible pricing including pay-what-you-want options, and built-in email marketing tools that help sellers build direct customer relationships outside of marketplace algorithms. The platform charges per-transaction fees rather than monthly subscriptions, making it accessible for new sellers who want to start selling without fixed overhead costs eating into early revenue before sales volume builds. Create tiered product offerings from individual worksheet packs at lower price points to comprehensive bundles at premium prices, letting buyers choose the scope and investment level that matches their needs. Gumroad analytics track conversion rates, traffic sources, and revenue trends helping sellers optimize pricing strategies and identify which products and marketing channels generate the strongest returns. The platform also supports discount codes for promotional campaigns, affiliate programs that incentivize other creators to promote your products for commission, and bundle pricing for strategic product combinations that increase average order value. Gumroad product pages are independently indexable by search engines, giving your worksheet products organic Google visibility beyond what marketplace-only sellers can achieve through platform search alone.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Selling Digital Download Worksheets on Gumroad',
+      title: `Selling Digital Download Worksheets on Gumroad`,
       description: `Gumroad provides direct access to the largest community of buyer-buyers who specifically search for educational worksheet downloads organized by grade level, subject, and standard alignment, making it the most targeted marketplace for sellers creating group-focused materials. The platform review system builds social proof through verified buyer ratings and detailed written reviews that drive organic discovery and increase conversion rates because buyers trust peer recommendations from other buyers who have used the materials in real group settings. The Gumroad search algorithm rewards complete product descriptions with specific grade levels, subjects, standards alignment information, and detailed content descriptions that match the precise search queries buyers use when looking for materials to support specific lessons and learning objectives. Digital downloads on Gumroad benefit from the platform credibility and trust that buyers have built through years of purchasing from the marketplace, reducing the buyer hesitation that new sellers on less specialized platforms often face when trying to establish credibility. Gumroad also offers a premium seller program with reduced commission rates for high-volume sellers, improving profit margins as your sales grow and your product catalog expands across multiple grade levels and subject areas.`,
     },
     {
@@ -143,32 +143,32 @@ Digital products also offer unique post-sale value through the ability to update
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'How to Create a Printable Product Line',
+      anchorText: `How to Create a Printable Product Line`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO for Educational Printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO for Educational Printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'How to Create Worksheet Bundles That Sell',
+      anchorText: `How to Create Worksheet Bundles That Sell`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Niche Selection Guide for Printable Businesses',
+      anchorText: `Niche Selection Guide for Printable Businesses`,
     },
     {
       pageType: 'guide',
       slug: 'seasonal-marketing-printables',
-      anchorText: 'Seasonal Marketing Calendar for Printable Sellers',
+      anchorText: `Seasonal Marketing Calendar for Printable Sellers`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'Complete Guide to Starting a Printable Business',
+      slug: `complete-guide-printable-business`,
+      anchorText: `Complete Guide to Starting a Printable Business`,
     },
     {
       pageType: 'start',
@@ -177,18 +177,18 @@ Digital products also offer unique post-sale value through the ability to update
     },
     {
       pageType: 'idea',
-      slug: 'print-on-demand-printable-ideas',
-      anchorText: 'Print-on-Demand Worksheet Business Ideas',
+      slug: `print-on-demand-printable-ideas`,
+      anchorText: `Print-on-Demand Worksheet Business Ideas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
-    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
-    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: `/image-library/animals/antelope.webp`, alt: `Antelope — themed educational image`, caption: 'Antelope' },
+    { src: `/image-library/animals/bat.webp`, alt: `Bat — themed educational image`, caption: 'Bat' },
+    { src: `/image-library/animals/camel.webp`, alt: `Camel — themed educational image`, caption: 'Camel' },
+    { src: `/image-library/animals/cat.webp`, alt: `Cat — themed educational image`, caption: 'Cat' },
+    { src: `/image-library/animals/dog.webp`, alt: `Dog — themed educational image`, caption: 'Dog' },
+    { src: `/image-library/animals/dolphin.webp`, alt: `Dolphin — themed educational image`, caption: 'Dolphin' },
   ],
 
 

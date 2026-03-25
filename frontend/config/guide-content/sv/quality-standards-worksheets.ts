@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kvalitetsstandarder arbetsblad säljare',
+    primaryKeyword: `kvalitetsstandarder arbetsblad säljare`,
     secondaryKeywords: [
-      'utskriftsbar kvalitetschecklista',
-      'professionella arbetsbladsdesignstandarder',
-      'arbetsblad kvalitetskontroll försäljning',
-      'tryckfärdig arbetsbladsformatering',
+      `utskriftsbar kvalitetschecklista`,
+      `professionella arbetsbladsdesignstandarder`,
+      `arbetsblad kvalitetskontroll försäljning`,
+      `tryckfärdig arbetsbladsformatering`,
     ],
     lsiKeywords: [
       `utskriftskvalitet upplösning DPI-inställningar marginaljustering typsnittsläsbarhet`,
@@ -21,7 +21,7 @@ const content: GuideContent = {
   },
 
   hero: {
-    title: 'Kvalitetsstandarder för arbetsblad',
+    title: `Kvalitetsstandarder för arbetsblad`,
     tagline: `En komplett guide till kvalitetsstandarder som säljare av arbetsblad behöver för professionell output — inklusive upplösnings- och filformatstandarder, sidlayout- och marginalkrav, typografi- och läsbarhetsregler, färg- och visuell konsekvens, facitverifiering, kvalitetskontrollchecklistor före publicering, testning på flera skrivare och kvalitetsunderhåll över hela katalogen`,
     description: `Kvalitet är den enda faktorn som separerar arbetsbladsäljare som bygger hållbara företag från de som kämpar med dåliga recensioner, återbetalningsförfrågningar och sjunkande försäljning. Ett arbetsblad som ser professionellt ut på skärmen men skrivs ut med avklippta marginaler, suddig text eller feljusterade element skapar en negativ köparupplevelse som skadar ditt butiksrykte permanent. Denna guide ger en komplett kvalitetsstandardschecklista designad specifikt för säljare av utskriftsbara arbetsblad — från upplösnings- och formateringsstandarder genom typografi, facitnoggrannhet, utskriftstestning och kvalitetsunderhåll när din katalog skalas.`,
   },
@@ -73,7 +73,7 @@ const content: GuideContent = {
       content: `Amazon KDP har specifika tekniska krav som skiljer sig från andra marknadsplatser för utskriftsbara produkter. KDP kräver PDF-filer med inbäddade typsnitt, specifika utfallsinställningar (3 mm om utfall används) och exakta siddimensioner som matchar den valda trimstorleken. KDP:s automatiserade granskningsprocess avvisar filer som inte uppfyller tekniska standarder, inklusive lågupplösta bilder, saknade typsnitt och felaktiga sidantal. Innan du skickar in till KDP, använd deras förhandsgranskningsverktyg för att verifiera exakt hur din arbetsbok kommer att framstå i tryck. Var särskilt uppmärksam på ryggradsområdet för bundna arbetsböcker och säkerställ att inget väsentligt innehåll hamnar i fålsmarginalen där sidor möter bindningen.`,
     },
     {
-      heading: 'Gumroad kvalitetsförväntningar',
+      heading: `Gumroad kvalitetsförväntningar`,
       content: `Gumroad-köpare är övervägande professionella säljare som ställer höga kvalitetskrav på utskriftsbara produkter. säljare förväntar sig produktkatalogsanpassat innehåll med korrekta facit, åldersanpassad formatering och tydlig instruktionsttext. Gumroad:s betygssystem väger tungt på produktkvalitet, och produkter med kvalitetsproblem får låga betyg som avsevärt minskar söksynligheten. Inkludera en detaljerad produktbeskrivning som listar varje sida och komponent som ingår. Tillhandahåll både US Letter- och A4-versioner när möjligt, eftersom Gumroad betjänar en internationell säljarepublik. Gumroad-köpare nämner ofta utskriftskvalitet och facitnoggrannhet i recensioner, vilket gör dessa två områden till kritiska kvalitetsprioriteringar för plattformen.`,
     },
   ],
@@ -84,7 +84,7 @@ const content: GuideContent = {
       content: `Recensionsbetyg är den enskilt mest inflytelserika faktorn i konverteringsgrader på marknadsplatser för utskriftsbara produkter, och produktkvalitet är den primära drivkraften för recensionsbetyg. Ett arbetsblad som skrivs ut perfekt, innehåller korrekt innehåll och matchar listningsbeskrivningen genererar positiva recensioner som förbättrar din sökranking, ökar klickfrekvenser på sökresultat och bygger det sociala bevis som övertygar nya köpare att handla. Den ackumulerande effekten är betydande: högre kvalitet leder till bättre recensioner, bättre recensioner leder till högre sökplacering, högre placering leder till fler försäljningar och fler försäljningar genererar ytterligare recensioner. Säljare med konsekvent höga betyg genom hela sin katalog förtjänar köparförtroende som sträcker sig till nya listningar — en köpare som har handlat tre kvalitetsarbetsblad från din butik kommer att handla ett fjärde utan omfattande utvärdering eftersom din kvalitetshistorik minskar deras upplevda risk.`,
     },
     {
-      heading: 'Premiumprissättning genom demonstrerad kvalitet',
+      heading: `Premiumprissättning genom demonstrerad kvalitet`,
       content: `Kvalitetsstandarder möjliggör premiumprissättning genom att ge konkret motivering för högre prisintervall. Ett arbetsblad prissatt till 40–50 kr som levererar professionell formatering, verifierat facit, dubbla pappersstorleksversioner och en polerad visuell design uppfattas som bättre värde än ett arbetsblad för 20 kr med grundläggande formatering och osäker innehållsnoggrannhet. Köpare på pedagogiska marknadsplatser för utskriftsbara produkter är villiga att betala mer för produkter de litar på kommer att fungera korrekt utan ytterligare insats från deras sida. säljare värderar särskilt tillförlitlighet — de har inte råd att upptäcka facitfel medan användare arbetar igenom uppgifter. Genom att dokumentera din kvalitetsprocess (nämna "verifierade facit" och "utskriftstestat på flera enheter" i dina listningar) kommunicerar du kvalitetsstandarder som motiverar premiumpositionering på en konkurrensutsatt marknad.`,
     },
     {
@@ -136,17 +136,17 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Så skapar du en utskriftsbar produktlinje' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Så skapar du arbetsbladspaket som säljer' },
-    { pageType: 'guide', slug: 'scale-printable-business-guide', anchorText: 'Så skalar du ditt utskriftsbara företag' },
-    { pageType: 'guide', slug: 'digital-vs-physical-printables', anchorText: 'Digitala kontra fysiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'etsy-seo-educational-printables', anchorText: 'Etsy SEO för pedagogiska utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Kundsupport för digitala produkter' },
+    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: `Så skapar du en utskriftsbar produktlinje` },
+    { pageType: 'guide', slug: `pricing-educational-printables`, anchorText: `Prissättningsstrategier för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: `Så skapar du arbetsbladspaket som säljer` },
+    { pageType: 'guide', slug: `scale-printable-business-guide`, anchorText: `Så skalar du ditt utskriftsbara företag` },
+    { pageType: 'guide', slug: `digital-vs-physical-printables`, anchorText: `Digitala kontra fysiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: `etsy-seo-educational-printables`, anchorText: `Etsy SEO för pedagogiska utskriftsbara produkter` },
+    { pageType: 'guide', slug: `customer-support-digital-products`, anchorText: `Kundsupport för digitala produkter` },
     { pageType: 'guide', slug: 'copyright-printable-sellers', anchorText: `Upphovsrättsguide för säljare av utskriftsbara produkter` },
-    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'Så får du recensioner för utskriftsbara produkter' },
-    { pageType: 'guide', slug: 'automate-printable-business', anchorText: 'Så automatiserar du ditt utskriftsbara företag' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
+    { pageType: 'guide', slug: `get-reviews-printable-products`, anchorText: `Så får du recensioner för utskriftsbara produkter` },
+    { pageType: 'guide', slug: 'automate-printable-business', anchorText: `Så automatiserar du ditt utskriftsbara företag` },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Komplett guide till att starta ett utskriftsbart företag` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide för kommersiell licens' },
   ],
 
@@ -185,7 +185,7 @@ const content: GuideContent = {
         caption: `Professionell ordsöksoutput demonstrerar ren layout, läsbar typografi och precis rutmjustering`,
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: `/samples/english/addition/Addition Fun 1.webp`,
         alt: `Additionsarbetsblad som visar kvalitetsstandarder för sifferjustering och facitnoggrannhet`,
         caption: `Mattearbetsblad kräver precis justering, tydlig typografi och verifierade facit för professionell kvalitet`,
       },
@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/pets/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — tematisk pedagogisk bild', caption: 'Chinchilla' },
-    { src: '/image-library/pets/cockatiel.webp', alt: 'Nymfparakit — tematisk pedagogisk bild', caption: 'Nymfparakit' },
-    { src: '/image-library/pets/dog.webp', alt: 'Hund — tematisk pedagogisk bild', caption: 'Hund' },
-    { src: '/image-library/pets/ferret.webp', alt: 'Iller — tematisk pedagogisk bild', caption: 'Iller' },
+    { src: '/image-library/pets/cat.webp', alt: `Katt — tematisk pedagogisk bild`, caption: 'Katt' },
+    { src: `/image-library/pets/chinchilla.webp`, alt: `Chinchilla — tematisk pedagogisk bild`, caption: 'Chinchilla' },
+    { src: `/image-library/pets/cockatiel.webp`, alt: `Nymfparakit — tematisk pedagogisk bild`, caption: 'Nymfparakit' },
+    { src: '/image-library/pets/dog.webp', alt: `Hund — tematisk pedagogisk bild`, caption: 'Hund' },
+    { src: `/image-library/pets/ferret.webp`, alt: `Iller — tematisk pedagogisk bild`, caption: 'Iller' },
   ],
 };
 

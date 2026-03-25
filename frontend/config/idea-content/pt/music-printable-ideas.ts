@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias de Imprimíveis de Música — Guia de Nicho',
+    titleTag: `Ideias de Imprimíveis de Música — Guia de Nicho`,
     metaDescription: `Descobre ideias de imprimíveis de música para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos com temática musical, estratégias por plataforma.`,
-    primaryKeyword: 'ideias de imprimíveis de música',
+    primaryKeyword: `ideias de imprimíveis de música`,
     secondaryKeywords: [
-      'fichas temáticas musicais para vender',
-      'negócio imprimíveis temática musical',
-      'fichas atividades música para vendedores',
-      'vender imprimíveis de música no Etsy',
+      `fichas temáticas musicais para vender`,
+      `negócio imprimíveis temática musical`,
+      `fichas atividades música para vendedores`,
+      `vender imprimíveis de música no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas instrumentos musicais',
-      'atividades ritmo e notas musicais para crianças',
-      'imprimíveis teoria musical para a loja',
+      `fichas educativas instrumentos musicais`,
+      `atividades ritmo e notas musicais para crianças`,
+      `imprimíveis teoria musical para a loja`,
     ],
   },
   hero: {
@@ -40,7 +40,7 @@ O segmento de compradores de vendedores de música representa uma audiência par
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Música para Vender Online',
+      title: `Sopas de Letras de Música para Vender Online`,
       description: `As sopas de letras com vocabulário musical atraem vendedores de música que planeiam unidades sobre instrumentos e pais que procuram entretenimento educativo que canalize o entusiasmo natural dos seus filhos pelas canções e pelo ritmo no desenvolvimento produtivo de competências de literacia e expansão do vocabulário em múltiplas categorias musicais. Cria puzzles com vocabulário específico de música como piano, guitarra, bateria, violino, trompete, flauta, ukelele, xilofone, pandeireta e maracas juntamente com termos musicais mais amplos como melodia, ritmo, tempo, harmonia e concerto. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos musicais para compradores mais velhos que exploram famílias de instrumentos e terminologia de notação musical.`,
       appId: 'wordsearch',
     },
@@ -60,7 +60,7 @@ O segmento de compradores de vendedores de música representa uma audiência par
       appId: 'coloring',
     },
     {
-      title: 'Cartões de Bingo de Música para Atividades online',
+      title: `Cartões de Bingo de Música para Atividades online`,
       description: `Os cartões de bingo de música servem vendedores de música que conduzem lições de vocabulário de instrumentos e vendedores online que procuram atividades interativas de grupo que reforcem a terminologia musical e a identificação de instrumentos de forma mais eficaz do que as fichas individuais por si só em ambientes participativos de loja e sala de música. O gerador de Bingo cria variações únicas de cartões a partir da tua lista de vocabulário musical, garantindo que nenhum cartão seja idêntico para o jogo em grupo ou online. Vende conjuntos para a loja de vinte e cinco a trinta cartões com uma folha de chamada e guia de referência de vocabulário musical incluídos. Para o mercado familiar, cria kits de bingo com diferentes instrumentos, símbolos musicais, nomes de notas e categorias de género que as famílias possam utilizar durante noites de apreciação musical ou atividades de interior em dias de chuva quando a brincadeira ao ar livre não é possível.`,
       appId: 'bingo',
     },
@@ -89,17 +89,17 @@ O segmento de compradores de vendedores de música representa uma audiência par
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Música no Etsy',
+      title: `Vender Imprimíveis de Música no Etsy`,
       description: `O Etsy recompensa o nicho de música com um desempenho consistente de listagens durante todo o ano porque a educação musical nunca para e os pais de crianças com inclinação musical procuram ativamente materiais educativos temáticos que apoiem o desenvolvimento criativo dos seus filhos em todas as estações. Utiliza as treze etiquetas com variações que combinem tipos de instrumentos, áreas de competência e grupos etários: «fichas contagem piano pré-escolar», «páginas colorir guitarra crianças pequenas» e «sopa de letras música jardim de infância» apontam a pesquisas específicas de compradores muito mais eficazmente do que etiquetas amplas como «fichas música». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade jovem músico» e «imprimível amante de música» nos teus títulos e descrições. As imagens de listagens que mostram fichas musicais impressas junto a instrumentos, auscultadores ou decoração de loja de música superam as pré-visualizações digitais planas e captam o entusiasmo criativo que traz os pais de crianças interessadas em música ao Etsy à procura de recursos educativos com temática de instrumentos. Aponta às pesquisas de temporada de recitais e concertos na primavera e no inverno quando os pais procuram atividades musicais para complementar a preparação dos seus filhos para as atuações.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Publicar Livros de Atividades Musicais no KDP',
+      title: `Publicar Livros de Atividades Musicais no KDP`,
       description: `A Amazon KDP destaca-se para os imprimíveis de música porque os pais e compradores de prendas naturalmente adicionam livros de atividades aos seus carrinhos da Amazon junto a livros infantis de música, guias para principiantes de instrumentos, brinquedos musicais e auscultadores adaptados para crianças que alimentam a paixão dos jovens músicos pela expressão criativa e exploração musical. Compila fichas musicais individuais em livros de atividades coesos de quarenta a sessenta páginas que combinem contagem, colorir, emparelhamento, sopas de letras e atividades de desenho em torno de temas de instrumentos e música. Utiliza os campos de palavras-chave do KDP estrategicamente: inclui «livro atividades música para crianças», «fichas instrumentos pré-escolar» e termos de subtemas como «livro colorir piano» ou «atividades tambor para crianças». Fixa o preço entre quatro e oito dólares para margens de royalties ótimas, e posiciona os teus livros como prendas para jovens músicos, complementos à compra do primeiro instrumento ou suplementos a materiais de aulas de música. Os livros de atividades musicais beneficiam da procura durante todo o ano com picos notáveis durante as temporadas de prendas natalícias e os períodos de regresso às aulas quando aumentam as inscrições em aulas de música.`,
     },
     {
       platform: 'Gumroad',
-      title: 'Criar Recursos Musicais para a loja no Gumroad',
+      title: `Criar Recursos Musicais para a loja no Gumroad`,
       description: `Os compradores do Gumroad são vendedores online e vendedores de música que procuram material complementar educativo com temática de instrumentos, atividades de vocabulário musical e recursos multicurriculares que integrem conceitos musicais na instrução de matemática, literacia e artes com um tempo mínimo de preparação. Os imprimíveis de música no Gumroad funcionam melhor quando empacotados como soluções prontas a usar online: pacotes de trabalho matinal com temática musical, estações de atividades de vocabulário de instrumentos ou fichas complementares de apreciação musical com objetivos de aprendizagem claros que conectem os conceitos de artes criativas com o desenvolvimento de competências académicas. Inclui objetivos de aprendizagem vinculados aos padrões de artes, matemática, literacia e desenvolvimento da motricidade fina para que os vendedores possam justificar as atividades com temática musical perante os administradores e coordenadores de catálogo de produtos que reveem os materiais de instrução. A função de agrupamento do Gumroad permite-te oferecer produtos individuais de famílias de instrumentos e um mega-pacote musical com desconto simultaneamente, captando tanto os vendedores com orçamento limitado que compram artigos individuais como os que investem em recursos completos de unidades musicais para todo o ano letivo.`,
     },
     {
@@ -143,18 +143,18 @@ O segmento de compradores de vendedores de música representa uma audiência par
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -168,7 +168,7 @@ O segmento de compradores de vendedores de música representa uma audiência par
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -178,18 +178,18 @@ O segmento de compradores de vendedores de música representa uma audiência par
     },
     {
       pageType: 'idea',
-      slug: 'contos-fadas-ideias-imprimiveis',
+      slug: `contos-fadas-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Contos de Fadas`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/music/accordion.webp', alt: 'Acordeão — imagem educativa temática', caption: 'Acordeão' },
-    { src: '/image-library/music/cymbals.webp', alt: 'Pratos — imagem educativa temática', caption: 'Pratos' },
-    { src: '/image-library/music/drum.webp', alt: 'Tambor — imagem educativa temática', caption: 'Tambor' },
-    { src: '/image-library/music/flute.webp', alt: 'Flauta — imagem educativa temática', caption: 'Flauta' },
-    { src: '/image-library/music/guitar.webp', alt: 'Guitarra — imagem educativa temática', caption: 'Guitarra' },
-    { src: '/image-library/music/harp.webp', alt: 'Harpa — imagem educativa temática', caption: 'Harpa' },
+    { src: `/image-library/music/accordion.webp`, alt: `Acordeão — imagem educativa temática`, caption: 'Acordeão' },
+    { src: `/image-library/music/cymbals.webp`, alt: `Pratos — imagem educativa temática`, caption: 'Pratos' },
+    { src: `/image-library/music/drum.webp`, alt: `Tambor — imagem educativa temática`, caption: 'Tambor' },
+    { src: `/image-library/music/flute.webp`, alt: `Flauta — imagem educativa temática`, caption: 'Flauta' },
+    { src: `/image-library/music/guitar.webp`, alt: `Guitarra — imagem educativa temática`, caption: 'Guitarra' },
+    { src: `/image-library/music/harp.webp`, alt: `Harpa — imagem educativa temática`, caption: 'Harpa' },
   ],
 
 

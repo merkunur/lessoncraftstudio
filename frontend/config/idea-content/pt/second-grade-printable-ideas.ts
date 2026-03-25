@@ -2,19 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ideias Imprimíveis Segundo Ano — Guia de Nicho',
+    titleTag: `Ideias Imprimíveis Segundo Ano — Guia de Nicho`,
     metaDescription: `Descubra ideias de imprimíveis de segundo ano para vender no Etsy, Amazon KDP e Gumroad. Produtos educativos de segundo ano e estratégias de nicho para.`,
-    primaryKeyword: 'ideias imprimíveis segundo ano',
+    primaryKeyword: `ideias imprimíveis segundo ano`,
     secondaryKeywords: [
-      'fichas segundo ano para vender',
-      'negócio imprimíveis segundo ano',
-      'fichas atividades segundo ano para vendedores',
-      'vender imprimíveis segundo ano no Gumroad',
+      `fichas segundo ano para vender`,
+      `negócio imprimíveis segundo ano`,
+      `fichas atividades segundo ano para vendedores`,
+      `vender imprimíveis segundo ano no Gumroad`,
     ],
     lsiKeywords: [
-      'fichas educativas matemática e leitura primária',
-      'imprimíveis catálogo de produtos segundo ano',
-      'páginas atividades aprendizagem idades 7-8',
+      `fichas educativas matemática e leitura primária`,
+      `imprimíveis catálogo de produtos segundo ano`,
+      `páginas atividades aprendizagem idades 7-8`,
     ],
   },
   hero: {
@@ -36,7 +36,7 @@ O segmento de compradores pais cresce significativamente durante o segundo ano p
       appId: 'addition',
     },
     {
-      title: 'Sopas de Letras de Segundo Ano para Vender Online',
+      title: `Sopas de Letras de Segundo Ano para Vender Online`,
       description: `As sopas de letras concebidas para leitores de segundo ano atraem vendedores e pais que procuram atividades atrativas de literacia que reforcem o vocabulário expandido, os padrões ortográficos avançados e a terminologia de áreas de conteúdo que os usuários de segundo ano encontram no seu catálogo de produtos académico cada vez mais complexo. Cria puzzles com vocabulário de unidades de leitura de segundo ano incluindo palavras com prefixos como des-, re-, pre- e in- e sufixos como -ção, -mente, -vel e -oso, palavras de ortografia organizadas por padrões fonéticos e famílias de palavras, e vocabulário de áreas de conteúdo de unidades de ciências e estudo do meio cobrindo habitats, comunidades, sistemas meteorológicos e temas históricos. O gerador de Sopas de Letras permite-te criar grelhas apropriadas ao nível escolar com quinze a vinte palavras em tamanhos adaptados para leitores confiantes de segundo ano que conseguem rastrear letras em múltiplas direções enquanto desenvolvem as competências de varrimento visual e reconhecimento de vocabulário que apoiam o desenvolvimento da fluência leitora.`,
       appId: 'wordsearch',
     },
@@ -85,7 +85,7 @@ O segmento de compradores pais cresce significativamente durante o segundo ano p
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Segundo Ano no Etsy',
+      title: `Vender Imprimíveis de Segundo Ano no Etsy`,
       description: `O Etsy capta o segmento grande e cada vez mais motivado de compradores pais que procuram materiais de prática de segundo ano com termos de alta intenção como «fichas matemática segundo ano», «compreensão leitora segundo ano», «fichas prática 2.º ano» e «ajuda trabalhos de casa segundo ano» durante todo o ano letivo. Utiliza as treze etiquetas com variações que combinem objetivos de competências específicas, identificadores de nível escolar e formatos de atividade para captar compradores motivados que pesquisam com precisão porque os boletins escolares de segundo ano identificam lacunas específicas de competências que querem abordar. Agrupa produtos por progressão de competências para aumentar o valor médio da encomenda: um pacote de domínio de reagrupamento cobrindo soma e subtração de dois dígitos com e sem reagrupamento, um pacote de fluência leitora com passagens de compreensão a múltiplos níveis de texto, e um pacote de competências de gramática e escrita servem cada um necessidades distintas dos pais enquanto encorajam múltiplas compras. A procura de meio do ano aumenta fortemente em janeiro e fevereiro quando os pais recebem os boletins escolares do primeiro semestre mostrando níveis específicos de competência, e a preparação para avaliações padronizadas impulsiona um pico de compras secundário em março e abril quando os pais procuram materiais de revisão dirigidos para as avaliações que os usuários de segundo ano enfrentam cada vez mais.`,
     },
     {
@@ -139,18 +139,18 @@ O segmento de compradores pais cresce significativamente durante o segundo ano p
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendem',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendem`,
     },
     {
       pageType: 'guide',
@@ -164,7 +164,7 @@ O segmento de compradores pais cresce significativamente durante o segundo ano p
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -174,18 +174,18 @@ O segmento de compradores pais cresce significativamente durante o segundo ano p
     },
     {
       pageType: 'idea',
-      slug: 'primeiro-ano-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Primeiro Ano',
+      slug: `primeiro-ano-ideias-imprimiveis`,
+      anchorText: `Ideias de Negócio de Imprimíveis de Primeiro Ano`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Mochila — imagem educativa temática', caption: 'Mochila' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Dossier — imagem educativa temática', caption: 'Dossier' },
-    { src: '/image-library/classroom/book.webp', alt: 'Livro — imagem educativa temática', caption: 'Livro' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Armário — imagem educativa temática', caption: 'Armário' },
-    { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagem educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Mochila — imagem educativa temática`, caption: 'Mochila' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Dossier — imagem educativa temática`, caption: 'Dossier' },
+    { src: `/image-library/classroom/book.webp`, alt: `Livro — imagem educativa temática`, caption: 'Livro' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Armário — imagem educativa temática`, caption: 'Armário' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Calculadora — imagem educativa temática`, caption: 'Calculadora' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Calendário — imagem educativa temática`, caption: 'Calendário' },
   ],
 
 

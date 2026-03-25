@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Groep 3 Printables Verkopen — Nichegids',
+    titleTag: `Groep 3 Printables Verkopen — Nichegids`,
     metaDescription: `Ontdek winstgevende groep 3 printable ideeën om te verkopen op Etsy, Amazon KDP en Gumroad. Basisschool productconcepten en nichestrategieën voor verkopers.`,
 
     primaryKeyword: 'groep 3 printable ideeën',
     secondaryKeywords: [
       'groep 3 werkbladen verkopen',
-      'basisschool printable business',
-      'groep 3 activiteiten voor verkopers',
-      'groep 3 printables verkopen op Gumroad',
+      `basisschool printable business`,
+      `groep 3 activiteiten voor verkopers`,
+      `groep 3 printables verkopen op Gumroad`,
     ],
     lsiKeywords: [
-      'vroege basisschool educatieve werkbladen',
-      'groep 3 productcatalogus printables',
+      `vroege basisschool educatieve werkbladen`,
+      `groep 3 productcatalogus printables`,
       'leeftijd 6-7 leeractiviteiten',
     ],
   },
   hero: {
-    title: 'Groep 3 Printable Businessideeën voor Verkopers',
+    title: `Groep 3 Printable Businessideeën voor Verkopers`,
     description: `Groep 3 printables vertegenwoordigen een van de meest gevraagde en academisch intensieve niches op de educatieve printable-markt omdat groep 3 het cruciale jaar is waarin kinderen de overgang maken van fundamentele gereedheidsvaardigheden naar echte academische beheersing, wat buitengewone vraag creëert van verkopers die gedifferentieerd oefenmateriaal nodig hebben voor productlijnen met brede vaardigheidsniveaus en ouders die zwaar investeren in aanvullende leermiddelen omdat groep 3 het jaar is waarin leesvloeiendheid, rekenautomatisering en schriftelijke communicatie meetbare ijkpunten moeten bereiken. De academische vaardigheden die het groep-3-productcatalogus definiëren omvatten een kritisch scala aan competenties waaronder optellen en aftrekken tot twintig, positiewaardebegrip met tientallen en eenheden, zichtwoordvloeiendheid, klank-letterkoppeling en woordopbouw, leesbegrip van eenvoudige teksten, complete zinnen schrijven met correct taalgebruik, klokkijken op het hele en halve uur, en meten en vergelijken. Probeer elke generator met de gratis proefversie met watermerk — geen registratie nodig.`,
   },
   marketOverview: `De groep 3 printable-niche neemt een premiumpositie in op de educatieve markt omdat het het niveaucategorie bedient waar academische verwachtingen het meest dramatisch toenemen, wat de hoogste uitgaven per verkoper aan aanvullend materiaal stimuleert van elk basisschoolniveau. In tegenstelling tot de kleuterjaren waar productdoelen gericht zijn op blootstelling en gereedheid, vereist het groep 3 productcatalogus meetbare beheersing van specifieke vaardigheden waaronder leesvloeiendheid, rekenautomatisering bij optellen en aftrekken, en schrijfvaardigheid met correcte zinsopbouw. Deze beheersingsoriëntatie betekent dat verkopers en ouders printbare oefenmaterialen kopen met duidelijk academisch doel en urgentie die zich direct vertaalt in gemotiveerd koopgedrag op elke marktplaats.
@@ -38,12 +38,12 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
 
   productIdeas: [
     {
-      title: 'Groep 3 Telwerkbladen voor Printable Verkopers',
+      title: `Groep 3 Telwerkbladen voor Printable Verkopers`,
       description: `Telwerkbladen voor groep 3 richten zich op het uitbreiden van getalbegrip naar grotere aantallen en het introduceren van rekenkundige structuren. Gebruik de Zoek en Tel-generator om scènes te maken waarin kinderen specifieke voorwerpen lokaliseren en tellen tot twintig of dertig, met steeds complexere visuele omgevingen. Bied sets aan op progressieve moeilijkheidsniveaus die het schooljaar volgen: tellen en schrijven tot tien in september, tellen tot twintig met tientallenstructuur in december, en tellen en groeperen in vijf- en tientallen in maart. Combineer met thema's die aansluiten bij de seizoenen van het schooljaar voor maximale zoekwoorddekking. Probeer de gratis proefversie met watermerk.`,
       appId: 'find-and-count',
     },
     {
-      title: 'Groep 3 Woordzoekpuzzels Online Verkopen',
+      title: `Groep 3 Woordzoekpuzzels Online Verkopen`,
       description: `Woordzoekers voor groep 3 trekken verkopers en ouders aan die woordherkenning en spellingvaardigheden willen versterken op het niveau van het aanvankelijk leesonderwijs. Maak puzzels met woorden die aansluiten bij de leeskernen van gangbare leesmethodes — drielettergrepige woorden, medeklinker-klinker-medeklinker structuren en veelvoorkomende zichtwoorden. De Woordzoeker-generator laat je rasters maken met woorden van drie tot zes letters die passen bij het leesontwikkelingsniveau van groep 3. Bied eenvoudige rasters met vijf tot acht woorden voor het begin van het schooljaar en uitdagendere rasters met tien tot vijftien woorden voor het tweede halfjaar.`,
       appId: 'wordsearch',
     },
@@ -53,13 +53,13 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
       appId: 'matching',
     },
     {
-      title: 'Groep 3 Optelwerkbladen voor Rekenverkopers',
+      title: `Groep 3 Optelwerkbladen voor Rekenverkopers`,
       description: `Optelwerkbladen voor groep 3 zijn een van de meest gevraagde producttypes omdat optellen tot twintig een kerndoel is dat het hele schooljaar door oefening vereist. Gebruik de Optellen-generator om werkbladen te maken met sommen tot tien voor het eerste halfjaar en sommen tot twintig met splitsen en tientallenstructuur voor het tweede halfjaar. Combineer met thematische illustraties die de oefening visueel aantrekkelijk maken. De automatisering van basis-optelfeiten is een cruciaal groep-3-doel dat verkopers en ouders bijzonder serieus nemen, wat deze productcategorie tot een van de meest stabiele omzetgeneratoren maakt.`,
       appId: 'addition',
     },
     {
-      title: 'Groep 3 Kleurplaten voor Etsy en KDP Verkopers',
-      description: `Kleurplaten voor groep 3 zijn complexer dan kleuterversies en bevatten vaak educatieve elementen zoals kleur-bij-getal, kleur-bij-som of kleur-bij-woord instructies die de kleuractiviteit transformeren in een reken- of leesoefening. De Kleuren-generator maakt gedetailleerde contouren die het juiste complexiteitsniveau bieden voor zes- tot zevenjarigen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina's met educatieve kleurinstructies. Voor KDP compileer je dertig tot vijftig pagina's in groep-3-activiteitenboeken die kleuren combineren met reken- en taalvaardigheidsoefeningen.`,
+      title: `Groep 3 Kleurplaten voor Etsy en KDP Verkopers`,
+      description: `Kleurplaten voor groep 3 zijn complexer dan kleuterversies en bevatten vaak educatieve elementen zoals kleur-bij-getal, kleur-bij-som of kleur-bij-woord instructies die de kleuractiviteit transformeren in een reken- of leesoefening. De Kleuren-generator maakt gedetailleerde contouren die het juiste complexiteitsniveau bieden voor zes- tot zevenjarigen. Voor Etsy verkoop je samengestelde sets van tien tot vijftien pagina`s met educatieve kleurinstructies. Voor KDP compileer je dertig tot vijftig pagina`s in groep-3-activiteitenboeken die kleuren combineren met reken- en taalvaardigheidsoefeningen.`,
       appId: 'coloring',
     },
     {
@@ -69,7 +69,7 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
     },
     {
       title: `Groep 3 Schaduwkoppelwerkbladen voor Printable Winkels`,
-      description: `Schaduwkoppelwerkbladen voor groep 3 ontwikkelen visuele discriminatievaardigheden op een niveau dat aansluit bij de leesgereedheids- en lettervormherkenningseisen van dit niveaucategorie. Gebruik de Schaduw Koppelen-generator om pagina's te maken met complexere vormen en subtielere verschillen dan kleuterversies — geschikt voor zes- tot zevenjarigen die hun visuele waarnemingsvaardigheden verfijnen. Combineer met thematische beelden die aansluiten bij seizoensgebonden of productcatalogusgebonden thema\'s. Schaduwkoppelsets van tien tot vijftien pagina's verkopen consistent voor drie tot vijf euro.`,
+      description: `Schaduwkoppelwerkbladen voor groep 3 ontwikkelen visuele discriminatievaardigheden op een niveau dat aansluit bij de leesgereedheids- en lettervormherkenningseisen van dit niveaucategorie. Gebruik de Schaduw Koppelen-generator om pagina`s te maken met complexere vormen en subtielere verschillen dan kleuterversies — geschikt voor zes- tot zevenjarigen die hun visuele waarnemingsvaardigheden verfijnen. Combineer met thematische beelden die aansluiten bij seizoensgebonden of productcatalogusgebonden thema's. Schaduwkoppelsets van tien tot vijftien pagina`s verkopen consistent voor drie tot vijf euro.`,
       appId: 'shadow-match',
     },
     {
@@ -92,12 +92,12 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Groep 3 Printables Verkopen op Etsy',
+      title: `Groep 3 Printables Verkopen op Etsy`,
       description: `Etsy is effectief voor groep-3-printables omdat ouders — die zich zorgen maken over de academische voortgang van hun kind in dit cruciale leesjaar — actief zoeken naar aanvullend oefeningsmateriaal. Richt je op long-tail zoekwoorden die specifieke vaardigheden en het niveaucategorie combineren: "groep 3 rekenwerkblad optellen tot 20," "zichtwoorden oefenen groep 3," of "leesbegrip werkblad AVI." Gebruik alle dertien tags met variaties die vaardigheidsgebieden, moeilijkheidsniveaus en seizoensthema's combineren. Positioneer je producten als "aanvullend oefenmateriaal" of "oefenmateriaal-ondersteuning" — dit resoneert bij ouders die willen helpen maar niet weten hoe. De Nederlandse markt via Etsy.nl biedt sterke kansen door de enorme ouderlijke bezorgdheid rond het leren lezen in groep 3.`,
     },
     {
       platform: 'Amazon KDP',
-      title: 'Groep 3 Activiteitenboeken Publiceren op KDP',
+      title: `Groep 3 Activiteitenboeken Publiceren op KDP`,
       description: `Amazon KDP is effectief voor groep-3-printables omdat ouders en familieleden activiteitenboeken kopen als thuisoefen- en vakantiemateriaal. Compileer groep-3-werkbladen tot samenhangende activiteitenboeken van veertig tot zestig pagina's die reken-, taal-, lees- en schrijfactiviteiten combineren op progressieve moeilijkheidsniveaus. Gebruik KDP-zoekwoordvelden strategisch: voeg "groep 3 oefenboek," "leren lezen werkbladen," en vaardigheidsspecifieke termen toe als "optellen tot 20 oefenboek" of "zichtwoorden werkbladen." Prijs tussen vier en acht euro. Groep-3-boeken verkopen bijzonder goed als vakantiewerkmaterial omdat ouders leerverlies tijdens vakanties willen voorkomen. Overweeg ook Amazon.nl en Bol.com.`,
     },
     {
@@ -147,62 +147,62 @@ Het jaarronde karakter van de vraag naar groep-3-materiaal is bijzonder sterk om
     {
       pageType: 'guide',
       slug: 'create-printable-product-line',
-      anchorText: 'Hoe je een printable productlijn opbouwt',
+      anchorText: `Hoe je een printable productlijn opbouwt`,
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
-      anchorText: 'Etsy SEO voor educatieve printables',
+      slug: `etsy-seo-educational-printables`,
+      anchorText: `Etsy SEO voor educatieve printables`,
     },
     {
       pageType: 'guide',
       slug: 'create-worksheet-bundles',
-      anchorText: 'Werkbladbundels maken die verkopen',
+      anchorText: `Werkbladbundels maken die verkopen`,
     },
     {
       pageType: 'guide',
       slug: 'niche-selection-printables',
-      anchorText: 'Nicheselectiegids voor printable bedrijven',
+      anchorText: `Nicheselectiegids voor printable bedrijven`,
     },
     {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
-      anchorText: 'Professionele optelwerkbladen maken',
+      anchorText: `Professionele optelwerkbladen maken`,
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: `complete-guide-printable-business`,
       anchorText: `Complete gids voor het starten van een printable business`,
     },
     {
       pageType: 'start',
       slug: 'commercial-license-guide',
-      anchorText: 'Gids voor commerciële licenties',
+      anchorText: `Gids voor commerciële licenties`,
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kleuterschool printable businessideeën',
+      anchorText: `Kleuterschool printable businessideeën`,
     },
     {
       pageType: 'idea',
       slug: 'second-grade-printable-ideas',
-      anchorText: 'Groep 4 printable businessideeën',
+      anchorText: `Groep 4 printable businessideeën`,
     },
     {
       pageType: 'idea',
-      slug: 'back-to-school-printable-ideas',
-      anchorText: 'Terug naar school printable businessideeën',
+      slug: `back-to-school-printable-ideas`,
+      anchorText: `Terug naar school printable businessideeën`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/classroom/backpack.webp', alt: 'Rugzak — educatieve thema-afbeelding groep 3', caption: 'Rugzak' },
-    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — educatieve thema-afbeelding groep 3', caption: 'Ordner' },
-    { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding groep 3', caption: 'Boek' },
-    { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding groep 3', caption: 'Kast' },
-    { src: '/image-library/classroom/calculator.webp', alt: `Rekenmachine — educatieve thema-afbeelding groep 3`, caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding groep 3', caption: 'Kalender' },
+    { src: `/image-library/classroom/backpack.webp`, alt: `Rugzak — educatieve thema-afbeelding groep 3`, caption: 'Rugzak' },
+    { src: `/image-library/classroom/binder.webp`, alt: `Ordner — educatieve thema-afbeelding groep 3`, caption: 'Ordner' },
+    { src: `/image-library/classroom/book.webp`, alt: `Boek — educatieve thema-afbeelding groep 3`, caption: 'Boek' },
+    { src: `/image-library/classroom/cabinet.webp`, alt: `Kast — educatieve thema-afbeelding groep 3`, caption: 'Kast' },
+    { src: `/image-library/classroom/calculator.webp`, alt: `Rekenmachine — educatieve thema-afbeelding groep 3`, caption: 'Rekenmachine' },
+    { src: `/image-library/classroom/calender.webp`, alt: `Kalender — educatieve thema-afbeelding groep 3`, caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

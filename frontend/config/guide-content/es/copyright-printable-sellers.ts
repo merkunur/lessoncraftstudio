@@ -2,12 +2,12 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'derechos autor vendedores imprimibles',
+    primaryKeyword: `derechos autor vendedores imprimibles`,
     secondaryKeywords: [
-      'protección derechos autor fichas',
-      'derechos autor negocio imprimibles',
-      'proteger fichas contra la copia',
-      'derechos autor productos digitales',
+      `protección derechos autor fichas`,
+      `derechos autor negocio imprimibles`,
+      `proteger fichas contra la copia`,
+      `derechos autor productos digitales`,
     ],
     lsiKeywords: [
       `propiedad intelectual obra original protección registro derechos autor retiro DMCA`,
@@ -17,7 +17,7 @@ const content: GuideContent = {
       `titularidad derechos autor protección automática beneficios registro daños estatutarios`,
       `elecciones creativas expresión versus ideas hechos métodos estándar contenido imprimible`,
     ],
-    titleTag: 'Derechos autor vendedores imprimibles — Guía',
+    titleTag: `Derechos autor vendedores imprimibles — Guía`,
     metaDescription: `Derechos de autor para vendedores de imprimibles: qué elementos de fichas son protegibles, registro, aplicación y cómo evitar la infracción de derechos.`,
   },
 
@@ -39,11 +39,11 @@ const content: GuideContent = {
       content: `Las fichas educativas existen en una zona particular de derechos de autor donde gran parte del contenido es factual o metodológico, pero la presentación creativa de ese contenido puede ser altamente original. Aprender a identificar qué elementos de tus fichas representan expresión creativa protegible te ayuda tanto a proteger tu trabajo eficazmente como a comprender los límites de esa protección.\n\nLos elementos que NO son protegibles en fichas educativas incluyen problemas matemáticos básicos y sus respuestas, guías estándar de formación de letras, reglas comunes de fonética y patrones de ortografía, formatos de evaluación educativa estándar como opción múltiple o completar espacios en blanco, palabras de vocabulario básico en cualquier nivel escolar, instrucciones educativas comunes como «rodea la respuesta correcta» o «escribe el número que falta», y cualquier contenido extraído de marcos de productoses estándar que son obras gubernamentales en el dominio público.\n\nLos elementos que SÍ son protegibles incluyen tu combinación específica y arreglo creativo de problemas en una página, contenido temático original donde seleccionas y organizas contenido imprimible alrededor de un concepto creativo (animales en un bosque resolviendo problemas matemáticos, por ejemplo), texto instructivo único que va más allá de las instrucciones estándar, ilustraciones originales, elementos decorativos y diseños de personajes, diseños de página creativos que reflejan elecciones estéticas en lugar de pura funcionalidad, y líneas argumentales o contextos narrativos originales que creas para enmarcar ejercicios educativos.\n\nEl principio de arreglo creativo es particularmente importante para vendedores de fichas. Incluso cuando los elementos individuales (problemas matemáticos, palabras de vocabulario, guías de trazado de letras) no son protegibles por sí solos, una selección y arreglo suficientemente creativos de esos elementos sí pueden serlo. Una ficha que organiza 20 problemas específicos de suma en un orden particular, los combina con ilustraciones temáticas específicas, los enmarca dentro de un contexto narrativo original y los presenta en un diseño visual distintivo refleja suficientes elecciones creativas para merecer protección de derechos de autor — aunque cada problema individual de suma sea un hecho no protegible.\n\nPor esto los generadores de fichas que producen diseños profesionales con imágenes temáticas y arreglos creativos producen resultados con protección significativa de derechos de autor. El generador te ayuda a tomar elecciones creativas — selección de tema, rangos de problemas, opciones de diseño, combinaciones de imágenes — que resultan en expresión creativa original. El resultado refleja tus decisiones creativas implementadas a través de la herramienta, de forma similar a como una fotografía refleja las elecciones creativas del fotógrafo implementadas a través de una cámara. Puedes probar cualquier generador como prueba gratis con marca de agua para ver cómo las elecciones de arreglo creativo producen diseños de fichas originales y protegibles.`,
     },
     {
-      heading: 'Protege tus diseños originales de fichas',
+      heading: `Protege tus diseños originales de fichas`,
       content: `La protección de derechos de autor existe automáticamente en el momento en que creas una obra original y la fijas en forma tangible — guardar una ficha como archivo PDF es fijación suficiente. No necesitas registrar, presentar documentos ni añadir un aviso de derechos de autor para que se aplique la protección básica. Sin embargo, varios pasos prácticos fortalecen significativamente tu posición legal y facilitan la aplicación si ocurre una infracción.\n\nIncluye un aviso de derechos de autor en cada producto que crees. El formato estándar es el símbolo de copyright seguido del año de creación y tu nombre o nombre comercial. Aunque un aviso de derechos de autor no es necesario para la protección, elimina la defensa de «infracción inocente» — un infractor no puede alegar que no sabía que la obra estaba protegida si aparece un aviso claro en el producto. Coloca el aviso en cada página de la ficha o en una página dedicada de derechos de autor incluida en el PDF.\n\nConsidera registrar tus obras más valiosas en la Oficina de Derechos de Autor de EE. UU. (Copyright Office) o en la autoridad de registro equivalente en tu país. El registro no es necesario para que existan los derechos de autor, pero proporciona ventajas legales críticas. En Estados Unidos, el registro antes de que ocurra la infracción (o dentro de los tres meses posteriores a la publicación) te permite solicitar daños estatutarios y honorarios de abogados en una demanda por infracción. Sin registro, solo puedes solicitar daños reales, que para un paquete de fichas de $5 a menudo son demasiado pequeños para justificar una acción legal. El registro efectivamente hace que tus derechos de autor sean aplicables en términos prácticos. La tarifa de registro es modesta en relación con la protección que proporciona para tus productos más importantes comercialmente.\n\nMantén registros organizados de tu proceso de creación. Guarda archivos de diseño originales, documentos fuente, configuraciones del generador y marcas de tiempo de creación. Si alguna vez necesitas probar que creaste una obra antes que un infractor, tener registros documentados de creación es invaluable. Los servicios de almacenamiento en la nube como Google Drive y Dropbox marcan automáticamente archivos con fecha y hora, proporcionando verificación de terceros de las fechas de creación sin ningún esfuerzo adicional de tu parte.\n\nDocumenta el valor comercial de tus productos rastreando datos de ventas por producto. Si ocurre una infracción, demostrar el valor comercial de la obra infringida fortalece cualquier solicitud de retiro o reclamación legal. Un producto que ha generado ventas sustanciales y reseñas positivas es más fácil de defender que uno sin historial de ventas, porque puedes demostrar tanto el daño comercial como el valor de mercado de tu trabajo creativo.`,
     },
     {
-      heading: 'Comprende el uso legítimo y sus límites',
+      heading: `Comprende el uso legítimo y sus límites`,
       content: `El uso legítimo (fair use) es uno de los conceptos más malinterpretados en la ley de derechos de autor, y malinterpretarlo crea un riesgo significativo para los vendedores de imprimibles. El uso legítimo es una defensa legal que permite el uso limitado de material protegido sin permiso para propósitos como crítica, comentario, reportaje, enseñanza, estudio e investigación. No es un permiso general para usar contenido protegido en productos comerciales.\n\nEl punto crítico para vendedores de imprimibles es que el uso legítimo es una defensa, no una licencia. No otorga permiso por adelantado — es un argumento que puedes hacer en un tribunal si te demandan por infracción de derechos de autor. Los tribunales evalúan el uso legítimo caso por caso usando cuatro factores: el propósito y carácter del uso (los usos comerciales tienen menos probabilidad de calificar), la naturaleza de la obra protegida, la cantidad de la obra protegida utilizada, y el efecto del uso en el mercado de la obra original.\n\nPara vendedores de imprimibles, el uso legítimo rara vez se aplica a las formas típicas en que podrías querer usar contenido protegido. Crear fichas que incorporen personajes protegidos, ilustraciones o texto sustancial de obras protegidas es casi con certeza no uso legítimo, incluso cuando el producto final es educativo. El factor de propósito educativo no anula la naturaleza comercial de vender las fichas resultantes. Una ficha que presenta personajes de dibujos animados protegidos vendida en Etsy fallaría en el análisis de uso legítimo en múltiples factores: es un uso comercial, usa el corazón creativo de los personajes protegidos, y potencialmente compite con productos educativos oficialmente licenciados que presentan esos personajes.\n\nLa excepción de «propósito educativo» que muchos vendedores creen que existe no funciona como piensan. Los vendedores del mercado tienen derechos de uso legítimo más amplios para materiales usados dentro de sus propias tiendas para instrucción presencial. Pero crear productos imprimibles para venta comercial no es lo mismo que uso comercial. Cuando creas fichas para vender, estás realizando una actividad comercial independientemente de la naturaleza educativa del contenido. La defensa educativa protege a un vendedor que fotocopia un poema para discusión en línea, no a un vendedor que incorpora contenido protegido en productos para la venta.\n\nLa regla práctica para vendedores de imprimibles es directa: no incorpores contenido protegido de otras fuentes en productos que pretendas vender. Usa contenido original que crees tú mismo, materiales de dominio público o recursos con licencias explícitas de uso comercial. Este enfoque elimina las cuestiones de uso legítimo por completo porque no estás usando el material protegido de nadie en primer lugar.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Cuando alguien copia tus fichas y las vende como propias, tienes varias opciones de aplicación que van desde el contacto informal hasta procesos legales formales. Tener un enfoque claro de aplicación ahorra tiempo y energía emocional cuando ocurre la infracción — y en un mercado digital, eventualmente ocurrirá.\n\nAntes de tomar acción, verifica que haya ocurrido una infracción real. Dos fichas que cubren el mismo tema educativo con contenido similar no necesariamente infringen — recuerda que los hechos, ideas y métodos estándar no son protegibles. Busca la copia de tu expresión creativa específica: diseños idénticos o casi idénticos, ilustraciones originales copiadas, texto instructivo duplicado o elementos de diseño reproducidos que reflejan tus elecciones creativas particulares. La ficha de suma de un competidor que usa los mismos problemas matemáticos no es infracción. La ficha de un competidor que reproduce tu diseño específico, ilustraciones y arreglos de texto sí lo es.\n\nDocumenta la infracción exhaustivamente antes de tomar cualquier acción. Toma capturas de pantalla con marca de tiempo del listado infractor, incluyendo el nombre del vendedor, URL del listado, imágenes del producto y cualquier contenido visible del producto. Compara estos con tu propio producto original, señalando los elementos específicos que fueron copiados. Descarga cualquier vista previa disponible del producto infractor. Esta documentación sirve como evidencia para cualquier acción de aplicación que tomes y te protege en caso de que el listado infractor sea modificado o eliminado posteriormente.\n\nComienza con un mensaje directo al vendedor infractor. Muchos casos de infracción involucran a vendedores que no comprenden los derechos de autor o que compraron tu producto y lo revendieron sin darse cuenta de que comprar un producto digital no incluye el derecho a revenderlo. Un mensaje cortés pero firme identificando la obra infringida, explicando que el contenido es tu material protegido y solicitando su retiro a menudo resuelve el problema sin más escalada. Incluye enlaces a tu listado original y señala la fecha de creación que es anterior al listado infractor.\n\nSi el contacto directo falla o no es posible, presenta un aviso de retiro DMCA a la plataforma que aloja el contenido infractor. Cada plataforma importante — Etsy, Amazon, Gumroad, Creative Fabrica, Gumroad — tiene un proceso de presentación DMCA, típicamente accesible a través de su centro de ayuda o página de reporte de propiedad intelectual. Un aviso DMCA válido requiere: identificación de la obra protegida, identificación del material infractor, tu información de contacto, una declaración de que crees de buena fe que el uso no está autorizado, y una declaración bajo pena de perjurio de que tu aviso es exacto. La plataforma está legalmente obligada a responder a los avisos DMCA válidos retirando o deshabilitando el acceso al contenido infractor.\n\nPara infracciones persistentes o a gran escala, consulta a un abogado de derechos de autor. Si el mismo vendedor continúa infringiendo después de retiros DMCA, o si tus productos están siendo copiados sistemáticamente en múltiples plataformas, la asistencia legal profesional puede estar justificada. Haber registrado tus derechos de autor de antemano fortalece significativamente tu posición legal en estas situaciones, ya que el registro permite daños estatutarios que hacen la acción legal económicamente viable incluso para productos digitales de precio relativamente bajo.`,
     },
     {
-      heading: 'Evita infringir los derechos de autor de otros',
+      heading: `Evita infringir los derechos de autor de otros`,
       content: `Los errores de derechos de autor más comunes en la industria de imprimibles no son piratería intencional — son vendedores bien intencionados que no se dan cuenta de que están usando contenido protegido sin autorización. Comprender los patrones de error más frecuentes te ayuda a evitarlos por completo.\n\nUsar personajes protegidos es el error más común y más grave en el mercado de imprimibles. Personajes populares de dibujos animados, películas, videojuegos y libros están todos protegidos por derechos de autor (y a menudo también por marca registrada). Crear fichas que presenten estos personajes sin una licencia del titular de los derechos es infracción independientemente de si dibujas los personajes tú mismo, los calcas de imágenes existentes o usas una versión «similar pero diferente». El titular de los derechos no necesita probar que copiaste su imagen exacta — cualquier representación sustancialmente similar de su personaje infringe sus derechos de autor. Las plataformas aplican activamente estos derechos y retirarán listados y emitirán advertencias o suspensiones de cuenta por infracción de personajes.\n\nUsar imágenes encontradas a través de búsquedas web es el segundo error más común. Cada imagen en internet está protegida por derechos de autor por defecto a menos que se haya colocado explícitamente en el dominio público o se ofrezca bajo una licencia permisiva. Encontrar una imagen a través de Google Image Search no otorga ninguna licencia para usarla. La frase «la encontré en Google» no es una defensa legal. Incluso las imágenes que aparecen en sitios web sin avisos visibles de derechos de autor están protegidas — los derechos de autor existen automáticamente al momento de la creación y no requieren un aviso. Si necesitas imágenes para tus fichas, usa fuentes con licencia adecuada: servicios de imágenes de stock con licencias comerciales verificadas, colecciones de dominio público, repositorios con licencia CC0 o generadores de fichas que incluyen imágenes con licencia comercial en su resultado.\n\nCopiar diseños de fichas de competidores demasiado de cerca es un riesgo más sutil pero real. Aunque puedes crear fichas sobre los mismos temas que tus competidores, reproducir su expresión creativa específica cruza la línea. Si un competidor tiene un diseño de ficha distintivo con un arreglo particular de elementos, bordes decorativos originales y formato instructivo único, crear una ficha que imite de cerca estas elecciones creativas específicas puede constituir infracción incluso si recreas los elementos tú mismo en lugar de copiar archivos directamente. Estudia los productos de competidores para investigación de mercado, pero asegúrate de que tus propios productos reflejen tus propias decisiones creativas en lugar de replicar las de otra persona.\n\nUsar fuentes tipográficas sin licencias apropiadas es un problema de derechos de autor a menudo pasado por alto. Las fuentes son obras creativas protegibles, y usar una fuente con licencia comercial en productos que vendes típicamente requiere una licencia comercial o extendida más allá de la licencia básica de escritorio. Muchas descargas de fuentes gratuitas incluyen licencias que restringen el uso comercial o requieren atribución. Siempre verifica los términos de licencia de las fuentes antes de incrustarlas en productos de fichas que pretendas vender. Las fuentes del sistema y las fuentes explícitamente licenciadas para incrustación comercial (muchas Google Fonts, por ejemplo) son generalmente opciones seguras.`,
     },
     {
@@ -137,24 +137,24 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'entender-licencias-comerciales', anchorText: 'Entender las licencias de uso comercial' },
-    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Cómo crear una línea de productos imprimibles' },
-    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Cómo escalar tu negocio de imprimibles' },
-    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Cómo vender fichas de matemáticas en Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para productos imprimibles' },
-    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Cómo crear paquetes de fichas que vendan' },
-    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: 'Guía de selección de nicho para imprimibles' },
-    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Estrategias de precios para productos imprimibles' },
-    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: 'Cómo investigar nichos rentables de imprimibles' },
+    { pageType: 'guide', slug: `entender-licencias-comerciales`, anchorText: `Entender las licencias de uso comercial` },
+    { pageType: 'guide', slug: `crear-linea-productos-imprimibles`, anchorText: `Cómo crear una línea de productos imprimibles` },
+    { pageType: 'guide', slug: `guia-escalar-negocio-imprimibles`, anchorText: `Cómo escalar tu negocio de imprimibles` },
+    { pageType: 'guide', slug: `vender-fichas-matematicas-etsy`, anchorText: `Cómo vender fichas de matemáticas en Etsy` },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: `SEO en Etsy para productos imprimibles` },
+    { pageType: 'guide', slug: `crear-paquetes-fichas-ejercicios`, anchorText: `Cómo crear paquetes de fichas que vendan` },
+    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: `Guía de selección de nicho para imprimibles` },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: `Estrategias de precios para productos imprimibles` },
+    { pageType: 'guide', slug: 'investigar-nichos-rentables', anchorText: `Cómo investigar nichos rentables de imprimibles` },
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: `Cómo crear páginas para colorear con imágenes temáticas` },
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía completa para iniciar un negocio de imprimibles` },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía completa para iniciar un negocio de imprimibles` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
     {
       appId: 'writing',
-      title: 'Generador de fichas de escritura',
+      title: `Generador de fichas de escritura`,
       description: `Crea fichas educativas de escritura originales que demuestran el arreglo creativo y las elecciones de diseño instructivo que hacen las fichas protegibles por derechos de autor. Las fichas de escritura involucran texto original sustancial y decisiones creativas de formato.`,
     },
     {
@@ -164,29 +164,29 @@ const content: GuideContent = {
     },
     {
       appId: 'coloring',
-      title: 'Generador de páginas para colorear',
+      title: `Generador de páginas para colorear`,
       description: `Produce productos visuales donde las elecciones de diseño originales y los arreglos artísticos son claramente protegibles. Las páginas para colorear representan algunas de las posiciones más fuertes de derechos de autor en el mercado de imprimibles debido a su originalidad visual.`,
     },
     {
       appId: 'math-worksheet',
-      title: 'Generador de fichas de matemáticas',
+      title: `Generador de fichas de matemáticas`,
       description: `Crea fichas profesionales de matemáticas que demuestran cómo el arreglo creativo, la presentación temática y las elecciones de diseño originales transforman hechos matemáticos no protegibles en productos educativos protegibles.`,
     },
   ],
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/writing/writing.webp',
+      src: `/samples/spanish/writing/writing.webp`,
       alt: `Ficha profesional de escritura demostrando elementos de diseño creativo original protegibles por derechos de autor`,
     },
     samples: [
       {
-        src: '/samples/spanish/writing/writing.webp',
+        src: `/samples/spanish/writing/writing.webp`,
         alt: `Ficha de escritura mostrando texto instructivo original y elecciones creativas de diseño`,
         caption: `Las fichas de escritura contienen expresión creativa original sustancial en su texto instructivo y diseño`,
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`,
         alt: `Puzle de sopa de letras con imágenes temáticas demostrando arreglo creativo de contenido imprimible`,
         caption: `Los puzles de sopa de letras demuestran arreglo creativo protegible de elementos de vocabulario`,
       },
@@ -201,11 +201,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antílope — imagen educativa temática', caption: 'Antílope' },
-    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — imagen educativa temática', caption: 'Armadillo' },
-    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Murciélago — imagen educativa temática', caption: 'Murciélago' },
-    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Oso — imagen educativa temática', caption: 'Oso' },
-    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bisonte — imagen educativa temática', caption: 'Bisonte' },
+    { src: `/image-library/zoo%20animals/antelope.webp`, alt: `Antílope — imagen educativa temática`, caption: 'Antílope' },
+    { src: `/image-library/zoo%20animals/armadillo.webp`, alt: `Armadillo — imagen educativa temática`, caption: 'Armadillo' },
+    { src: `/image-library/zoo%20animals/bat.webp`, alt: `Murciélago — imagen educativa temática`, caption: 'Murciélago' },
+    { src: `/image-library/zoo%20animals/bear.webp`, alt: `Oso — imagen educativa temática`, caption: 'Oso' },
+    { src: `/image-library/zoo%20animals/bison.webp`, alt: `Bisonte — imagen educativa temática`, caption: 'Bisonte' },
   ],
 };
 

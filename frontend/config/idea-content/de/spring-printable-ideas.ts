@@ -4,17 +4,17 @@ const content: IdeaContent = {
   seo: {
     primaryKeyword: 'frühling-druckvorlagen-ideen',
     secondaryKeywords: [
-      'Frühlings-Arbeitsblätter auf Etsy erstellen',
-      'März-Mai-Druckvorlagen auf KDP verkaufen',
-      'saisonale Frühlings-Aktivitätsblätter Gumroad',
-      'Blumen-Schmetterling-Lernmaterialien für Shops',
+      `Frühlings-Arbeitsblätter auf Etsy erstellen`,
+      `März-Mai-Druckvorlagen auf KDP verkaufen`,
+      `saisonale Frühlings-Aktivitätsblätter Gumroad`,
+      `Blumen-Schmetterling-Lernmaterialien für Shops`,
     ],
     lsiKeywords: [
-      'Frühjahrssaison Druckvorlagen-Nachfrage',
-      'saisonale Natur-Thema Arbeitsblätter Etsy',
-      'Frühling-Garten Lernmaterialien Verkauf',
+      `Frühjahrssaison Druckvorlagen-Nachfrage`,
+      `saisonale Natur-Thema Arbeitsblätter Etsy`,
+      `Frühling-Garten Lernmaterialien Verkauf`,
     ],
-    titleTag: 'Frühling-Druckvorlagen-Ideen — Verkäufer-Guide',
+    titleTag: `Frühling-Druckvorlagen-Ideen — Verkäufer-Guide`,
     metaDescription: `Frühling-Druckvorlagen-Ideen für Etsy, KDP und Gumroad. Saisonale Produktkonzepte, März-Mai-Strategien und Plattformtipps für erfolgreiche.`,
   },
   hero: {
@@ -42,12 +42,12 @@ Um den Frühlingsumsatz zu maximieren, beginnen Sie mit der Veröffentlichung Ih
       appId: 'find-count',
     },
     {
-      title: 'Frühlings-Wortsuchrätsel zum Online-Verkauf',
+      title: `Frühlings-Wortsuchrätsel zum Online-Verkauf`,
       description: `Frühlingsvokabular-Wortsuchrätsel ziehen Käufer an, die Shopaktivitäten von März bis Mai planen, und Eltern, die Bildungsunterhaltung während der Jahreszeit suchen, in der Kinder Natur und Outdoor-Themen erkunden möchten. Erstellen Sie Rätsel mit frühlingsspezifischem Vokabular wie Schmetterling, Garten, Regenbogen, Raupe, Marienkäfer, Blüte und Regenschirm sowie breiteren Natur- und Wetterbegriffen. Der Wortsuchrätsel-Generator lässt Sie Rastergröße und Wortanzahl steuern, um altersgerechte Versionen für verschiedene Altersstufen zu erstellen. Bieten Sie einfache Raster mit sechs bis acht Wörtern für jüngere Lerner und anspruchsvolle Raster mit 15 oder mehr Frühlingsbegriffen für ältere Nutzer an. Varianten wie Gartenvokabular, Wetterwörter und Frühlingstierbegriffe erweitern Ihren Katalog, um verschiedene Käuferinteressen über das verlängerte saisonale Fenster hinweg zu erfassen.`,
       appId: 'wordsearch',
     },
     {
-      title: 'Frühlings-Zuordnungsaktivitäten für Bildungsshops',
+      title: `Frühlings-Zuordnungsaktivitäten für Bildungsshops`,
       description: `Zuordnungsarbeitsblätter mit Frühlingsthemen funktionieren über mehrere Kompetenzbereiche hinweg und machen sie zu vielseitigen Produkten, die ein breites Käuferpublikum während des Nachfragefensters März bis Mai ansprechen. Erstellen Sie Sets, in denen Kinder Raupen Schmetterlingen zuordnen, Jungvögel mit Nestern verbinden, Blumen ihren Farben zuordnen oder Regenkleidung mit Wetterbedingungen verbinden. Der Zuordnungs-Generator erstellt saubere, professionelle Layouts, die auf Standardpapier schön gedruckt werden. Diese Aktivitäten sprechen besonders Vorschul- und Kindergartenlehrkräfte an, die naturthematische Einheiten planen, in denen Zuordnung visuelle Unterscheidung und Klassifizierungsfähigkeiten aufbaut. Sets von 8 bis 12 Zuordnungsseiten lassen sich effektiv zum Preispunkt von 5 bis 8 Euro bündeln, und das fröhliche Frühlingsthema treibt Käufe während der gesamten verlängerten saisonalen Verkaufsperiode an.`,
       appId: 'matching',
     },
@@ -91,7 +91,7 @@ Um den Frühlingsumsatz zu maximieren, beginnen Sie mit der Veröffentlichung Ih
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Frühlings-Druckvorlagen auf Etsy verkaufen',
+      title: `Frühlings-Druckvorlagen auf Etsy verkaufen`,
       description: `Etsy belohnt frühes Veröffentlichen und Keyword-Spezifität für Frühlings-Druckvorlagen-Angebote, und das verlängerte März-Mai-Saisonfenster schafft nachhaltigen Traffic für digitale Bildungsdownloads, der einzelne Feiertags-Spitzen überdauert. Veröffentlichen Sie Ihre Frühlingsangebote bis Ende Januar, damit Etsys Suchalgorithmen Zeit haben, Ihre Produkte zu indexieren und zu ranken, bevor die Februar-Nachfrage beginnt, wenn Käufer mit der Frühlings-Produktkatalogplanung anfangen. Nutzen Sie alle 13 Tags mit Variationen, die Frühlings-Unterthemen, Fähigkeitstypen und Altersgruppen kombinieren: „Frühling Zählarbeitsblätter Vorschule", „Schmetterling Wortsuchrätsel Kindergarten" und „Garten Ausmalseiten Kleinkind" zielen auf spezifische Käufersuchen viel effektiver als breite Tags wie „Frühlings-Arbeitsblätter". Positionieren Sie Frühlingsprodukte als Naturlern-Ressourcen und Outdoor-Aktivitätsbegleiter statt als rein saisonale Dekoration. Angebotsbilder, die gedruckte Frühlingsarbeitsblätter in naturthematischen Umgebungen mit saisonalen Requisiten wie Topfpflanzen, Gartenwerkzeugen und bunten Blumen zeigen, übertreffen flache digitale Vorschauen und fangen die frische saisonale Energie ein, die den Frühlingsverkehr über die verlängerte Verkaufsperiode antreibt.`,
     },
     {
@@ -145,18 +145,18 @@ Um den Frühlingsumsatz zu maximieren, beginnen Sie mit der Veröffentlichung Ih
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'druckvorlagen-produktlinie-erstellen',
-      anchorText: 'So erstellen Sie eine Druckvorlagen-Produktlinie',
+      slug: `druckvorlagen-produktlinie-erstellen`,
+      anchorText: `So erstellen Sie eine Druckvorlagen-Produktlinie`,
     },
     {
       pageType: 'guide',
       slug: 'etsy-seo-lernmaterial',
-      anchorText: 'Etsy SEO für Bildungs-Druckvorlagen',
+      anchorText: `Etsy SEO für Bildungs-Druckvorlagen`,
     },
     {
       pageType: 'guide',
       slug: 'arbeitsblatt-pakete-erstellen',
-      anchorText: 'Arbeitsblatt-Pakete erstellen, die sich verkaufen',
+      anchorText: `Arbeitsblatt-Pakete erstellen, die sich verkaufen`,
     },
     {
       pageType: 'guide',
@@ -165,33 +165,33 @@ Um den Frühlingsumsatz zu maximieren, beginnen Sie mit der Veröffentlichung Ih
     },
     {
       pageType: 'guide',
-      slug: 'saisonales-marketing-druckvorlagen',
+      slug: `saisonales-marketing-druckvorlagen`,
       anchorText: `Saisonaler Marketing-Kalender für Druckvorlagen-Verkäufer`,
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
+      slug: `komplettanleitung-druckvorlagen-geschaeft`,
       anchorText: `Komplettanleitung zum Start eines Druckvorlagen-Geschäfts`,
     },
     {
       pageType: 'start',
       slug: 'kommerzielle-lizenz-leitfaden',
-      anchorText: 'Leitfaden für kommerzielle Lizenzen',
+      anchorText: `Leitfaden für kommerzielle Lizenzen`,
     },
     {
       pageType: 'idea',
       slug: 'winter-druckvorlagen-ideen',
-      anchorText: 'Winter Druckvorlagen-Geschäftsideen',
+      anchorText: `Winter Druckvorlagen-Geschäftsideen`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/spring/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
-    { src: '/image-library/spring/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
-    { src: '/image-library/spring/bird.webp', alt: 'Vogel — thematisches Lernbild', caption: 'Vogel' },
-    { src: '/image-library/spring/birdhouse.webp', alt: 'Vogelhaus — thematisches Lernbild', caption: 'Vogelhaus' },
-    { src: '/image-library/spring/bud.webp', alt: 'Knospe — thematisches Lernbild', caption: 'Knospe' },
-    { src: '/image-library/spring/bunny.webp', alt: 'Häschen — thematisches Lernbild', caption: 'Häschen' },
+    { src: `/image-library/spring/bee.webp`, alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: `/image-library/spring/bicycle.webp`, alt: `Fahrrad — thematisches Lernbild`, caption: 'Fahrrad' },
+    { src: `/image-library/spring/bird.webp`, alt: 'Vogel — thematisches Lernbild', caption: 'Vogel' },
+    { src: `/image-library/spring/birdhouse.webp`, alt: `Vogelhaus — thematisches Lernbild`, caption: 'Vogelhaus' },
+    { src: `/image-library/spring/bud.webp`, alt: `Knospe — thematisches Lernbild`, caption: 'Knospe' },
+    { src: `/image-library/spring/bunny.webp`, alt: `Häschen — thematisches Lernbild`, caption: 'Häschen' },
   ],
 
 

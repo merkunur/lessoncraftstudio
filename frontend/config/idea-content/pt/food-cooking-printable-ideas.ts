@@ -5,17 +5,17 @@ const content: IdeaContent = {
     titleTag: `Ideias de Imprimíveis de Culinária — Guia de Nicho`,
     metaDescription: `Ideias lucrativas de imprimíveis de culinária e alimentação para vender no Etsy, Amazon KDP e Gumroad. Conceitos de produtos temáticos de comida e estratégias.`,
 
-    primaryKeyword: 'ideias de imprimíveis de culinária',
+    primaryKeyword: `ideias de imprimíveis de culinária`,
     secondaryKeywords: [
-      'fichas temática comida para vender',
-      'negócio imprimíveis temática culinária',
-      'fichas atividades cozinha para vendedores',
-      'vender imprimíveis de alimentação no Etsy',
+      `fichas temática comida para vender`,
+      `negócio imprimíveis temática culinária`,
+      `fichas atividades cozinha para vendedores`,
+      `vender imprimíveis de alimentação no Etsy`,
     ],
     lsiKeywords: [
-      'fichas educativas temáticas culinárias',
-      'atividades de nutrição para crianças',
-      'imprimíveis de receitas para a loja',
+      `fichas educativas temáticas culinárias`,
+      `atividades de nutrição para crianças`,
+      `imprimíveis de receitas para a loja`,
     ],
   },
   hero: {
@@ -41,7 +41,7 @@ A inclusividade cultural através das comidas internacionais representa um difer
       appId: 'find-count',
     },
     {
-      title: 'Sopas de Letras de Comida para Vender Online',
+      title: `Sopas de Letras de Comida para Vender Online`,
       description: `As sopas de letras com vocabulário alimentar atraem vendedores que planeiam unidades de nutrição e pais que procuram entretenimento educativo que canalize a curiosidade natural dos seus filhos pelas refeições, os lanches e a culinária para o desenvolvimento produtivo de competências de literacia e expansão do vocabulário. Cria puzzles com vocabulário específico de alimentos como maçã, pão, pizza, bolacha, cenoura, queijo, banana, tomate, bolo e salada juntamente com termos mais amplos de culinária como receita, cozinha e ingrediente. O gerador de Sopas de Letras permite-te controlar o tamanho da grelha e a quantidade de palavras para produzir versões adequadas à idade para diferentes níveis escolares. Oferece grelhas fáceis de seis a oito palavras para os mais novos e grelhas desafiantes de quinze ou mais termos alimentares para compradores mais velhos. As variações como pesquisas de frutas, vocabulário de legumes, terminologia de pastelaria e identificação de utensílios de cozinha expandem o teu catálogo.`,
       appId: 'wordsearch',
     },
@@ -90,7 +90,7 @@ A inclusividade cultural através das comidas internacionais representa um difer
   platformTips: [
     {
       platform: 'Etsy',
-      title: 'Vender Imprimíveis de Comida e Culinária no Etsy',
+      title: `Vender Imprimíveis de Comida e Culinária no Etsy`,
       description: `O Etsy recompensa o nicho de comida e culinária com um desempenho consistente de listagens durante todo o ano porque todas as crianças comem, assegurando pesquisas parentais contínuas de atividades educativas envolventes ligadas às refeições, à nutrição e à exploração na cozinha independentemente da estação ou do calendário de festividades. Utiliza as treze etiquetas com variações que combinem subtemas de alimentos, tipos de competência e grupos etários: «fichas contagem alimentos pré-escolar», «páginas colorir frutas crianças pequenas» e «sopa de letras alimentação saudável jardim de infância» apontam a pesquisas específicas de compradores de forma muito mais eficaz do que etiquetas amplas como «fichas comida». Posiciona os teus produtos tanto para pesquisas educativas como de compradores de prendas incluindo termos como «atividade pequeno cozinheiro» e «imprimível temática culinária» nos teus títulos e descrições. As imagens de listagens que mostram fichas de comida impressas junto a cozinhas de brinquedo, frutas de brinquedo ou decoração com temática de cozinha superam as pré-visualizações digitais planas e captam a mentalidade impulsionada pelo entusiasmo que traz os pais que procuram recursos educativos de nutrição e culinária ao Etsy.`,
     },
     {
@@ -144,18 +144,18 @@ A inclusividade cultural através das comidas internacionais representa um difer
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'criar-linha-produtos-imprimiveis',
-      anchorText: 'Como Criar uma Linha de Produtos Imprimíveis',
+      slug: `criar-linha-produtos-imprimiveis`,
+      anchorText: `Como Criar uma Linha de Produtos Imprimíveis`,
     },
     {
       pageType: 'guide',
       slug: 'seo-etsy-material-educativo',
-      anchorText: 'SEO no Etsy para Imprimíveis Educativos',
+      anchorText: `SEO no Etsy para Imprimíveis Educativos`,
     },
     {
       pageType: 'guide',
-      slug: 'criar-pacotes-fichas-exercicios',
-      anchorText: 'Como Criar Pacotes de Fichas que Vendam',
+      slug: `criar-pacotes-fichas-exercicios`,
+      anchorText: `Como Criar Pacotes de Fichas que Vendam`,
     },
     {
       pageType: 'guide',
@@ -169,7 +169,7 @@ A inclusividade cultural através das comidas internacionais representa um difer
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
+      slug: `guia-completo-negocio-imprimiveis`,
       anchorText: `Guia Completo para Iniciar um Negócio de Imprimíveis`,
     },
     {
@@ -179,28 +179,28 @@ A inclusividade cultural através das comidas internacionais representa um difer
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
+      slug: `animais-fazenda-ideias-imprimiveis`,
       anchorText: `Ideias de Negócio de Imprimíveis de Animais da Quinta`,
     },
     {
       pageType: 'idea',
       slug: 'natal-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Natal',
+      anchorText: `Ideias de Negócio de Imprimíveis de Natal`,
     },
     {
       pageType: 'idea',
       slug: 'campismo-ideias-imprimiveis',
-      anchorText: 'Ideias de Negócio de Imprimíveis de Campismo',
+      anchorText: `Ideias de Negócio de Imprimíveis de Campismo`,
     },
   ],
 
   themeImages: [
-    { src: '/image-library/fruits/apple.webp', alt: 'Maçã — imagem educativa temática', caption: 'Maçã' },
-    { src: '/image-library/fruits/apricot.webp', alt: 'Alperce — imagem educativa temática', caption: 'Alperce' },
-    { src: '/image-library/fruits/avocado.webp', alt: 'Abacate — imagem educativa temática', caption: 'Abacate' },
-    { src: '/image-library/fruits/banana.webp', alt: 'Banana — imagem educativa temática', caption: 'Banana' },
-    { src: '/image-library/fruits/blackberry.webp', alt: 'Amora — imagem educativa temática', caption: 'Amora' },
-    { src: '/image-library/fruits/blueberry.webp', alt: 'Mirtilo — imagem educativa temática', caption: 'Mirtilo' },
+    { src: `/image-library/fruits/apple.webp`, alt: `Maçã — imagem educativa temática`, caption: 'Maçã' },
+    { src: `/image-library/fruits/apricot.webp`, alt: `Alperce — imagem educativa temática`, caption: 'Alperce' },
+    { src: `/image-library/fruits/avocado.webp`, alt: `Abacate — imagem educativa temática`, caption: 'Abacate' },
+    { src: `/image-library/fruits/banana.webp`, alt: `Banana — imagem educativa temática`, caption: 'Banana' },
+    { src: `/image-library/fruits/blackberry.webp`, alt: `Amora — imagem educativa temática`, caption: 'Amora' },
+    { src: `/image-library/fruits/blueberry.webp`, alt: `Mirtilo — imagem educativa temática`, caption: 'Mirtilo' },
   ],
 
 

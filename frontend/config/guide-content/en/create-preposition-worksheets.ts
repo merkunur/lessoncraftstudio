@@ -4,8 +4,8 @@ const content: GuideContent = {
   seo: {
     primaryKeyword: 'preposition worksheets',
     secondaryKeywords: [
-      'create preposition worksheets to sell',
-      'preposition worksheet generator commercial use',
+      `create preposition worksheets to sell`,
+      `preposition worksheet generator commercial use`,
       `printable spatial language worksheets for Etsy and KDP`,
       `language-sensitive preposition worksheets with answer keys`,
     ],
@@ -13,16 +13,16 @@ const content: GuideContent = {
       `two exercise modes fill-in-the-blank multiple choice preposition maker`,
       `shape replacement separate image layer scene combinations generator`,
       `preposition checkbox grid seven position words targeted practice creator`,
-      'sell preposition worksheets on Etsy',
-      'Amazon KDP spatial language activity books',
-      'commercial license preposition worksheet tool',
+      `sell preposition worksheets on Etsy`,
+      `Amazon KDP spatial language activity books`,
+      `commercial license preposition worksheet tool`,
     ],
-    titleTag: 'Preposition Worksheets — Guide',
+    titleTag: `Preposition Worksheets — Guide`,
     metaDescription: `Create preposition worksheets with two exercise modes, Shape Replacement for scene variety, 7-preposition checkbox, native position words across 11 languages.`,
   },
 
   hero: {
-    title: 'How to Create Preposition Worksheets',
+    title: `How to Create Preposition Worksheets`,
     tagline: `A step-by-step tutorial for creating spatial language worksheets with two exercise modes (Fill-in-the-Blank for active recall and Multiple Choice for scaffolded practice), Shape Replacement that multiplies scene combinations through a separate image layer, a preposition checkbox grid for selecting exactly which position words to include, configurable 1 to 8 exercises per page, language-sensitive preposition words that translate to native equivalents across 11 languages, and auto-generated answer keys you can sell worldwide on Etsy, Amazon KDP, and Gumroad`,
     description: `Preposition worksheets are a visually engaging spatial language activity where solvers identify the correct position word by studying image scenes showing objects in spatial relationships. Unlike abstract grammar exercises that rely on text-only fill-in-the-blank sentences, the scene-based format gives solvers concrete visual context — a cat sitting on a box, a ball under a table, a bird above a fence — making the spatial concept immediately understandable. The Prepositions Worksheet Maker offers two exercise modes that serve different learner levels: Fill-in-the-Blank mode presents a scene with a blank line where solvers write the correct preposition from memory, testing active recall suited to older solvers and intermediate ESL learners. Multiple Choice mode shows the same scene with selectable options, providing scaffolded practice for beginners and younger learners, with a customizable instruction line that sellers can edit to match their product style. The standout feature is Shape Replacement — a separate image layer for scene shapes (box, table, shelf, basket) that you can swap independently from the main images. Combining 10 main images with 10 different shapes produces 100 unique exercise scenes, multiplying your product variety without needing additional source images. The preposition checkbox grid lets you select exactly which of the 7 position words to include: on, under, above, beside, between, inside, and outside. Select all for comprehensive practice or focus on a subset for targeted lessons addressing specific spatial concepts. Configure 1 to 8 exercises per page to control worksheet density, with fewer exercises giving each scene more visual space for younger learners and more exercises creating denser worksheets for timed practice. The real competitive advantage is language-sensitive preposition words: switching languages does not just translate the UI — every position word on the worksheet updates to its native equivalent. English "on" becomes German "auf," French "sur," Spanish "sobre," and Swedish "på." This means one worksheet design produces 11 genuinely different language products with authentically localized position words. Parents use preposition worksheets for spatial vocabulary practice at home. Sellers list them for grammar instruction and spatial language practice. ESL programs use them as core materials where prepositions are a notoriously difficult topic for language learners. This guide walks you through the entire creation process — from choosing an exercise mode and configuring the preposition grid to leveraging Shape Replacement for visual variety and exporting production-ready files. Whether you are building your first literacy product or expanding an existing grammar worksheet catalog, you will have a finished product ready to list by the end of this tutorial.`,
   },
@@ -31,11 +31,11 @@ const content: GuideContent = {
 
   tutorial: [
     {
-      heading: 'Open the Prepositions Worksheet Maker',
+      heading: `Open the Prepositions Worksheet Maker`,
       content: `Navigate to the Prepositions Worksheet Maker page and click the launch button to open the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required.\n\nThe canvas shows the preposition worksheet preview that updates as you change settings. The settings sidebar contains all the controls you need: exercise mode selection, preposition checkbox grid, image and shape configuration, page layout options, exercise count, font and text settings, and export controls. Take a moment to explore the sidebar panels to familiarize yourself with the available options before starting your first worksheet.\n\nThe Prepositions Worksheet Maker uses a Fabric.js canvas that provides professional layout tools including alignment options plus center-on-page, layers with lock and unlock for individual elements, zoom from 25 to 300 percent, and undo/redo. These tools give you precise control over the final worksheet layout without needing external design software.`,
     },
     {
-      heading: 'Set the Page Layout and Template',
+      heading: `Set the Page Layout and Template`,
       content: `In the Page Setup section, select your page size. Options include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200 by 1200 pixels), and custom dimensions. Letter is standard for North American buyers on Etsy and Gumroad. A4 is standard for European and international markets. Creating both versions doubles your addressable market with minimal additional effort.\n\nChoose a worksheet template from the template selector. Each template arranges exercises differently on the page, giving you visual variety across worksheets without changing the underlying content. Different templates suit different exercise counts — some arrangements work better with 2 to 3 exercises while others accommodate 6 to 8 exercises cleanly.\n\nSet your page background color for the base canvas. Then add a themed background pattern from the background library with an adjustable opacity slider. A subtle background at 15 to 25 percent opacity adds visual warmth without competing with the image scenes. Layer a decorative border from the border library for a polished frame. Background and border themes work independently, so you can mix and match combinations freely. Consistent background and border pairings across a product bundle create a cohesive look that buyers associate with quality.`,
     },
     {
@@ -55,7 +55,7 @@ const content: GuideContent = {
       content: `Shape Replacement is the feature that sets the Prepositions Worksheet Maker apart from any competing spatial language tool. It adds a separate image layer for scene shapes — the objects that define the spatial context of each exercise. While the main image is the subject (a cat, a ball, a book), the shape is the reference object that establishes the spatial relationship (a box, a table, a shelf, a basket).\n\nSwap shapes independently from main images to multiply your visual variety. A cat on a box, a cat on a table, a cat on a shelf, and a cat on a basket are four visually distinct exercise scenes from the same cat image. Scale this across your full image set: 10 main images combined with 10 different shapes produce 100 unique exercise scenes. This multiplication effect is the key to creating large product bundles and comprehensive workbooks without needing a proportionally large source image library.\n\nChoose shapes via Manual Selection from a specific theme for curated scene combinations, or select All Themes to access the full shape library. The shape layer uses the same 104 themed collections as the main image library, giving you thousands of possible combinations. You can also upload custom shape images in PNG or JPEG format for branded scene elements.\n\nFor product creation, strategic shape selection amplifies your bundle sizes significantly. A "Household Prepositions" pack might use furniture shapes (table, chair, shelf, bed) with various object images. A "Nature Prepositions" pack might use outdoor shapes (tree, rock, pond, fence) with animal images. Each thematic combination of main images and shapes creates a distinct product with its own visual identity, even though the underlying preposition exercises and educational value remain consistent.`,
     },
     {
-      heading: 'Customize Text, Fonts, and Exercise Count',
+      heading: `Customize Text, Fonts, and Exercise Count`,
       content: `Set the exercise count from 1 to 8 exercises per page. This is your primary density control that creates natural product tiers. Setting 2 to 3 exercises per page gives each scene generous visual space with large, clear images — ideal for the preschool-age market and kindergartners who need prominent visuals to identify spatial relationships. Setting 4 to 5 exercises provides moderate density suitable for elementary-age solvers. Setting 7 to 8 exercises creates dense worksheets for timed practice, assessment contexts, or older learners comfortable processing multiple spatial scenes quickly. The layout adapts automatically to the selected count and page size.\n\nChoose from 7 font families to match your product's visual style and target age group. Lexend Deca offers clean, modern readability optimized for emerging readers. Baloo 2 provides a rounded, friendly appearance popular with early childhood materials. Nunito is a balanced sans-serif that works across age groups. Quicksand adds a geometric, modern feel. Fredoka delivers a playful, rounded look ideal for preschool products. Arial and Verdana provide classic, widely-recognized clarity.\n\nToggle name and date fields on or off depending on your target market. Worksheets with name/date fields add a professional touch for structured use. Digital download products sold to parents often look cleaner without them.\n\nUse the Fabric.js canvas tools to fine-tune element placement. Alignment options plus center-on-page let you position text and elements precisely. Lock individual elements to prevent accidental movement while adjusting others. The layer system controls which elements appear in front of or behind others. Zoom in for pixel-level precision, then zoom out to review the full worksheet. Undo and redo let you experiment freely without risk.`,
     },
     {
@@ -66,26 +66,26 @@ const content: GuideContent = {
 
   platformTips: [
     {
-      heading: 'Selling Preposition Worksheets on Etsy',
+      heading: `Selling Preposition Worksheets on Etsy`,
       content: `Etsy is an excellent marketplace for preposition worksheets because parents, buyers, and ESL instructors actively search for spatial language activities with visual formats. Titles like "Preposition Worksheets — Spatial Language Activities — Fill in the Blank and Multiple Choice — With Answer Keys" capture targeted search traffic and describe exactly what the buyer receives.\n\nName your products using the specific exercise mode, preposition focus, and theme rather than generic titles. "Animal Preposition Worksheets — 15 Fill-in-the-Blank Spatial Language Activities — On Under Above Beside Between — Printable with Answer Keys" outperforms "Grammar Worksheets for Kids" because it matches specific buyer search queries and communicates the visual scene-based format.\n\nTags: use all 13 Etsy tags. Combine broad and specific terms: "preposition worksheets," "spatial language activities," "position words printables," "preposition fill in the blank," "multiple choice grammar worksheets," "where is it worksheets," "ESL preposition activities," "spatial awareness printables," and variations matching your specific theme, exercise mode, and preposition focus.\n\nListing images: show the full worksheet with image scenes clearly visible, a close-up of individual exercises showing the spatial relationship, both Fill-in-the-Blank and Multiple Choice versions if your product includes both, the answer key, and a mockup of the worksheet printed and in use. The scene-based visual format makes scroll-stopping thumbnails that stand out from plain text grammar listings.\n\nPricing: individual themed sets of 10 to 15 worksheets with answer keys in a single exercise mode sell at $2.99 to $5.99. Differentiated sets with both Fill-in-the-Blank and Multiple Choice versions of the same themes sell at $6.99 to $9.99. Complete themed collections across multiple exercise modes, preposition subsets, and languages sell at $14.99 to $24.99.`,
     },
     {
-      heading: 'Selling Preposition Worksheets on Amazon KDP',
+      heading: `Selling Preposition Worksheets on Amazon KDP`,
       content: `Amazon KDP serves the spatial language activity workbook market. Compile 50 to 80 preposition worksheets into a bound activity book format with progressive difficulty structured by exercise mode and preposition complexity.\n\nStructure your workbook in chapters by difficulty progression: opening chapters use Multiple Choice mode with basic prepositions (on, under, inside) and 2 to 3 exercises per page for gentle introduction. Middle chapters increase to Fill-in-the-Blank mode with expanded prepositions (above, beside, between, outside) and 4 to 5 exercises per page. Final chapters use Fill-in-the-Blank with all 7 prepositions and 6 to 8 exercises per page for comprehensive spatial language challenges. Include answer key pages at the back of each chapter showing correct prepositions. This progressive structure creates a workbook that grows with the learner, justifying the physical book price point.\n\nTitle and subtitle: example title: "Preposition Activity Book for Kids." Example subtitle: "80 Spatial Language Worksheets with Answer Keys for Ages 4–8 — Fill in the Blank and Multiple Choice, Seven Position Words, Image Scene Exercises."\n\nKeywords: KDP provides 7 keyword slots. Use specific phrases: "preposition worksheets," "spatial language activity book," "position words exercises for kids," "preposition fill in the blank," "where is it grammar workbook," "spatial awareness activities," "preposition activities with answer keys."\n\nToggle grayscale for ink-friendly output that prints cleanly in black and white and keeps KDP printing costs low. The scene-based format with objects in spatial relationships renders clearly in grayscale because the exercise relies on object positioning, not color.`,
     },
     {
-      heading: 'Selling Preposition Worksheets on Gumroad',
+      heading: `Selling Preposition Worksheets on Gumroad`,
       content: `Gumroad is ideal for preposition worksheets because spatial language instruction is a recurring need in the preschool through elementary niche and a core component of every ESL content library. The scene-based visual format adds engagement value that text-only grammar worksheets lack — solvers study actual image scenes rather than abstract sentences, making spatial concepts concrete and memorable.\n\nProduct descriptions on Gumroad should include: target age and grade level, specific skills practiced (spatial preposition identification, position word vocabulary, visual spatial reasoning, grammar in context), number of worksheets in each exercise mode, whether answer keys are included, which prepositions are covered, themes used, and language availability. Mention the two exercise modes (Fill-in-the-Blank and Multiple Choice) and explain how they create differentiated difficulty.\n\nPreview files: Gumroad allows you to upload a preview file. Include 2 to 3 sample preposition worksheets showing both exercise modes (one Fill-in-the-Blank, one Multiple Choice), one answer key page, and a visual comparison explaining the two modes. Buyers want to see exactly how the differentiation works before purchasing.\n\nBundling on Gumroad: buyers purchase bundles for entire grammar units. A "Complete Prepositions Bundle" with worksheets covering all 7 position words in both exercise modes at multiple density levels gives buyers resources for weeks of spatial language practice. Create preposition-grouped sets (vertical prepositions, proximity prepositions, containment prepositions) that match how spatial concepts are typically taught in sequence.\n\nGumroad-specific keywords: "preposition worksheets," "spatial language activities," "position words grammar," "where is it worksheets," "preposition fill in the blank," "ESL preposition activities," "differentiated grammar worksheets," "spatial awareness printables." These terms match how buyers search for grammar and spatial language resources.`,
     },
   ],
 
   monetization: [
     {
-      heading: 'Pricing Your Preposition Worksheet Products',
+      heading: `Pricing Your Preposition Worksheet Products`,
       content: `Preposition worksheet pricing follows predictable patterns across marketplaces. Here are the ranges that perform well:\n\nSingle-mode themed sets with 10 to 15 worksheets and answer keys in one exercise mode: $2.99 to $5.99. These serve as entry-point products. Each set focuses on one theme and one exercise mode, like Fill-in-the-Blank animal preposition worksheets or Multiple Choice household preposition worksheets. The focused scope makes them ideal for buyers who need materials for a specific instructional context.\n\nDifferentiated sets with both Fill-in-the-Blank and Multiple Choice versions of the same themed worksheets: $6.99 to $12.99. Buyers perceive strong value because they get two exercise modes with answer keys for every worksheet. The dual-mode format serves mixed-ability settings where some solvers need scaffolded Multiple Choice while others are ready for independent Fill-in-the-Blank recall.\n\nComplete collections with 40 to 60 worksheets covering both exercise modes, multiple preposition subsets, multiple themes from the 104 available collections, and multiple density levels: $14.99 to $24.99. Position these as comprehensive spatial language activity libraries for a full unit of preposition instruction.\n\nDo not undercut the market. Preposition worksheets with scene-based visual exercises, two exercise modes for differentiated instruction, Shape Replacement for multiplied visual variety, a 7-preposition checkbox grid for targeted practice, configurable 1-to-8 exercise density, language-sensitive position words across 11 languages, and auto-generated answer keys are a premium product. The visual scene format alone differentiates your listings from text-only grammar sheets. The dual exercise modes and Shape Replacement create genuine variety that competitors using simpler tools cannot replicate. Price accordingly.`,
     },
     {
-      heading: 'Bundling Strategies by Exercise Mode and Theme',
+      heading: `Bundling Strategies by Exercise Mode and Theme`,
       content: `Bundles are where revenue scales for preposition products. The two exercise modes, 7-preposition checkbox grid, Shape Replacement, and 104 themed image collections create natural bundling opportunities that multiply your product variety.\n\nExercise-mode bundles: group worksheets by mode. A "Fill-in-the-Blank Prepositions" pack targets older solvers and assessment contexts. A "Multiple Choice Prepositions" pack targets beginners and scaffolded practice. Each mode targets a different learner level with clear product positioning that buyers can assign based on user readiness.\n\nDifferentiated bundles: combine both exercise modes for the same theme into one product. A "Differentiated Animal Prepositions Pack" includes 10 Fill-in-the-Blank worksheets and 10 Multiple Choice worksheets with answer keys for all 20. This format commands premium pricing because it serves mixed-ability needs and eliminates the need to create leveled materials separately.\n\nPreposition-grouped bundles: organize by spatial concept. A "Vertical Prepositions Pack" covers on, under, and above. A "Proximity Pack" covers beside and between. A "Containment Pack" covers inside and outside. A "Complete Set" includes all 7. This pedagogical grouping matches how spatial concepts are typically introduced in sequence.\n\nShape Replacement variety packs: leverage the multiplication effect. Combine 10 main images with 10 different shapes to produce 100 unique exercise scenes. Sell these as "100-Page Preposition Mega Packs" where the sheer volume and visual variety justify premium pricing. The Shape Replacement feature makes this scale achievable from a manageable source image set.\n\nMultilingual bundles: the language-sensitive preposition words enable multilingual product packs with genuinely different content. Create a themed set in English, then regenerate the same themes in German, French, Spanish, and other supported languages. Because every preposition word changes to its native equivalent, each version is a legitimately different product. A "Multilingual Prepositions" bundle with worksheets in 5 or more languages commands premium pricing and serves ESL buyers, bilingual families, and international education programs.`,
     },
     {
@@ -96,7 +96,7 @@ const content: GuideContent = {
 
   examples: [
     {
-      heading: 'Product Variations by Exercise Mode and Density',
+      heading: `Product Variations by Exercise Mode and Density`,
       content: `Here are concrete product examples you can create with the Prepositions Worksheet Maker, organized by exercise mode and exercise count.\n\nPreschool spatial starter pack — Multiple Choice with 2 to 3 exercises per page: use Multiple Choice mode with animal or toy themes, select basic prepositions (on, under, inside), and set 2 to 3 exercises per page. The large, clear scenes with selectable options give young learners a gentle introduction to spatial vocabulary. The scaffolded format reduces frustration because children recognize the correct answer rather than producing it. Generate 10 to 12 unique worksheets per theme using Shape Replacement to vary the scenes. Package with answer keys and sell as "Easy Preposition Activities for Preschool" at $3.99 to $5.99.\n\nElementary differentiated set — both modes with 4 to 5 exercises: create two versions of each themed worksheet at moderate density. The Multiple Choice version serves solvers who need scaffolding; the Fill-in-the-Blank version challenges solvers ready for independent recall. Use all 7 prepositions for comprehensive practice. A pack of 20 worksheets (10 Multiple Choice, 10 Fill-in-the-Blank) with answer keys sells as a premium differentiated product at $7.99 to $9.99 on Gumroad.\n\nESL assessment pack — Fill-in-the-Blank with 6 to 8 exercises per page: use Fill-in-the-Blank mode with diverse themes and set 6 to 8 exercises per page. The dense format with active-recall requirements creates assessment-grade worksheets where buyers verify whether solvers can produce correct prepositions independently. Focus on commonly confused preposition pairs (beside versus between, above versus on) for diagnostic assessment. Package 15 to 20 worksheets across multiple themes at $5.99 to $8.99.\n\nMultilingual product set — same theme across languages: generate identical themed preposition worksheets in 3 to 5 languages using the language-sensitive system. Because every preposition word changes to its native equivalent, each version is linguistically authentic. A "Multilingual Prepositions" pack with English, German, French, Spanish, and Italian versions serves bilingual programs and international schools at $12.99 to $19.99.`,
     },
     {
@@ -111,11 +111,11 @@ const content: GuideContent = {
       answer: `Fill-in-the-Blank mode presents an image scene with a blank line where solvers write the correct preposition from memory — this active-recall format suits older solvers and intermediate ESL learners. Multiple Choice mode shows the same scene with selectable options so solvers pick the correct answer — this scaffolded format works best for beginners and younger learners. Multiple Choice mode also includes a customizable instruction line you can edit to match your product context.`,
     },
     {
-      question: 'What is Shape Replacement and how does it work?',
+      question: `What is Shape Replacement and how does it work?`,
       answer: `Shape Replacement is a feature unique to the prepositions tool. It adds a separate image layer for scene shapes — the objects that create spatial context (a box, a table, a shelf, a basket). You can swap shapes independently from main images, multiplying visual variety. Combining 10 main images with 10 different shapes produces 100 unique exercise scenes from just 20 source images. Shapes can come from the 104 themed collections or from your own custom uploads.`,
     },
     {
-      question: 'How does the preposition checkbox grid work?',
+      question: `How does the preposition checkbox grid work?`,
       answer: `The tool displays a checkbox grid with all 7 available prepositions for the selected language: on, under, above, beside, between, inside, and outside. Check the ones you want to include in the worksheet. Select all for comprehensive practice or focus on a specific subset for targeted lessons addressing particular spatial concepts. The grid updates automatically when you switch languages, showing native preposition words.`,
     },
     {
@@ -123,7 +123,7 @@ const content: GuideContent = {
       answer: `When you switch languages, every preposition word on the worksheet updates to its native equivalent. English "on, under, above, beside, between, inside, outside" becomes German "auf, unter, über, neben, zwischen, drinnen, draußen," French "sur, sous, au-dessus, à côté, entre, dedans, dehors," Spanish "sobre, debajo, encima, al lado, entre, dentro, fuera," and so on across all 11 supported languages. The exercise format stays identical — only the position words change.`,
     },
     {
-      question: 'How many exercises can I put on one page?',
+      question: `How many exercises can I put on one page?`,
       answer: `You can set 1 to 8 exercises per worksheet page. Fewer exercises (1 to 3) give each scene more visual space, ideal for younger learners who need large clear images. More exercises (6 to 8) create denser worksheets suitable for older solvers or timed practice. The layout adapts automatically to your selected exercise count and page size.`,
     },
     {
@@ -139,7 +139,7 @@ const content: GuideContent = {
   nextSteps: [
     {
       slug: 'create-alphabet-worksheets',
-      title: 'Create Alphabet Train Worksheets',
+      title: `Create Alphabet Train Worksheets`,
       description: `A literacy companion to preposition worksheets. Alphabet train worksheets use letter-image matching pairs with spatial arrangements, building both letter recognition and spatial vocabulary together.`,
     },
     {
@@ -155,30 +155,30 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Complete Guide to Starting a Printable Business' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Professional Worksheets That Sell' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Etsy Printable Business Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
+    { pageType: 'start', slug: `complete-guide-printable-business`, anchorText: `Complete Guide to Starting a Printable Business` },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: `How to Create Professional Worksheets That Sell` },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: `Etsy Printable Business Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: `Amazon KDP Activity Book Business Guide` },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
-    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositions Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Train Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Try the Prepositions Worksheet Maker' },
+    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: `Prepositions Worksheet Generator — Full Details` },
+    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: `Alphabet Train Worksheet Generator — Full Details` },
+    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: `Try the Prepositions Worksheet Maker` },
   ],
 
   toolsRecommended: [
     {
       appId: 'prepositions',
-      title: 'Prepositions Worksheet Generator',
+      title: `Prepositions Worksheet Generator`,
       description: `The primary tool for this guide. Create spatial language worksheets with two exercise modes (Fill-in-the-Blank and Multiple Choice), Shape Replacement for multiplied scene combinations, a 7-preposition checkbox grid for targeted practice, configurable 1-to-8 exercises per page, and language-sensitive position words across 11 languages with auto-generated answer keys.`,
     },
     {
       appId: 'alphabet-train',
-      title: 'Alphabet Train Worksheet Generator',
+      title: `Alphabet Train Worksheet Generator`,
       description: `A literacy companion that creates letter-image matching worksheets with spatial train-wagon layouts. Users who practice spatial prepositions benefit from alphabet trains that reinforce both letter recognition and spatial vocabulary in an engaging visual format.`,
     },
     {
       appId: 'word-guess',
-      title: 'Word Guess Worksheet Generator',
+      title: `Word Guess Worksheet Generator`,
       description: `A language companion that creates vocabulary-building puzzles. Users who master spatial prepositions can expand their vocabulary further with word guess activities that test word knowledge through image-based clues.`,
     },
     {
@@ -189,22 +189,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: `/samples/english/prepositions/prepositions_worksheet (1).webp`, alt: 'Preposition worksheet showing image scenes with spatial relationship exercises for position word practice' },
+    heroImage: { src: `/samples/english/prepositions/prepositions_worksheet (1).webp`, alt: `Preposition worksheet showing image scenes with spatial relationship exercises for position word practice` },
     samples: [
-      { src: `/samples/english/prepositions/prepositions_worksheet (1).webp`, alt: 'Preposition worksheet with fill-in-the-blank exercises using colorful image scenes showing spatial relationships', caption: 'Fill-in-the-blank preposition exercises with image scenes' },
-      { src: `/samples/english/prepositions/prepositions_worksheet (5).webp`, alt: 'Preposition worksheet with multiple choice spatial relationship exercises for scaffolded practice', caption: 'Multiple choice mode for scaffolded beginner-friendly practice' },
-      { src: `/samples/english/prepositions/prepositions_worksheet (10).webp`, alt: 'Advanced preposition worksheet with shape replacement creating unique scene combinations', caption: 'Shape replacement multiplies visual combinations for product variety' },
+      { src: `/samples/english/prepositions/prepositions_worksheet (1).webp`, alt: `Preposition worksheet with fill-in-the-blank exercises using colorful image scenes showing spatial relationships`, caption: `Fill-in-the-blank preposition exercises with image scenes` },
+      { src: `/samples/english/prepositions/prepositions_worksheet (5).webp`, alt: `Preposition worksheet with multiple choice spatial relationship exercises for scaffolded practice`, caption: `Multiple choice mode for scaffolded beginner-friendly practice` },
+      { src: `/samples/english/prepositions/prepositions_worksheet (10).webp`, alt: `Advanced preposition worksheet with shape replacement creating unique scene combinations`, caption: `Shape replacement multiplies visual combinations for product variety` },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: `How to Create Preposition Worksheets — Complete Tutorial`,
   },
 
   themeImages: [
-    { src: `/image-library/around%20the%20house/alarm%20clock.webp`, alt: 'Alarm Clock — themed educational image', caption: 'Alarm Clock' },
-    { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Armchair — themed educational image', caption: 'Armchair' },
-    { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Bathtub — themed educational image', caption: 'Bathtub' },
-    { src: '/image-library/around%20the%20house/bed.webp', alt: 'Bed — themed educational image', caption: 'Bed' },
-    { src: '/image-library/around%20the%20house/blender.webp', alt: 'Blender — themed educational image', caption: 'Blender' },
+    { src: `/image-library/around%20the%20house/alarm%20clock.webp`, alt: `Alarm Clock — themed educational image`, caption: 'Alarm Clock' },
+    { src: `/image-library/around%20the%20house/armchair.webp`, alt: `Armchair — themed educational image`, caption: 'Armchair' },
+    { src: `/image-library/around%20the%20house/bathtub.webp`, alt: `Bathtub — themed educational image`, caption: 'Bathtub' },
+    { src: `/image-library/around%20the%20house/bed.webp`, alt: `Bed — themed educational image`, caption: 'Bed' },
+    { src: `/image-library/around%20the%20house/blender.webp`, alt: `Blender — themed educational image`, caption: 'Blender' },
   ],
 };
 

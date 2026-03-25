@@ -4,20 +4,20 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'vender imprimibles',
     secondaryKeywords: [
-      'expectativas de ingresos negocio de imprimibles',
-      'ingresos realistas vendiendo fichas imprimibles',
-      'vender fichas en línea cuánto se gana',
-      'factores de ingresos negocio de imprimibles',
+      `expectativas de ingresos negocio de imprimibles`,
+      `ingresos realistas vendiendo fichas imprimibles`,
+      `vender fichas en línea cuánto se gana`,
+      `factores de ingresos negocio de imprimibles`,
     ],
     lsiKeywords: [
       `factores de ganancias vendedor Etsy de imprimibles`,
       `variables de ingresos libros actividades Amazon KDP`,
-      'tamaño de catálogo ingresos negocio de fichas',
+      `tamaño de catálogo ingresos negocio de fichas`,
       `estrategia de precios imprimibles comisiones marketplace`,
       `inversión de tiempo negocio de descargas digitales`,
       `múltiples fuentes de ingresos productos imprimibles`,
     ],
-    titleTag: 'Vender Imprimibles: ¿Cuánto Se Gana en Etsy?',
+    titleTag: `Vender Imprimibles: ¿Cuánto Se Gana en Etsy?`,
     metaDescription: `¿Cuánto se gana vendiendo imprimibles? Expectativas realistas de ingresos, estructura de comisiones, estrategias de precios y las variables que determinan.`,
   },
 
@@ -43,7 +43,7 @@ const content: StartContent = {
       content: `Cada marketplace se queda con una parte de tus ventas. Comprender las estructuras reales de comisiones te permite calcular tus ingresos reales por venta — no el precio de publicación, sino la cantidad que llega a tu cuenta.\n\nEtsy cobra una tarifa de publicación de 0,20 $ por artículo (renovada cada cuatro meses o tras cada venta), una comisión por transacción del 6,5 % sobre el precio de venta incluyendo envío, y tarifas de procesamiento de pago de aproximadamente un 3 % más 0,25 $ por transacción. Si participas en los anuncios externos de Etsy, se aplica una comisión adicional del 12–15 % a las ventas generadas a través de esos anuncios. Para una descarga digital de 4,99 $, el neto aproximado después de todas las comisiones es de unos 4,15–4,30 $, dependiendo de tu situación específica de comisiones. Estas son las tarifas publicadas por Etsy a principios de 2026.\n\nAmazon KDP usa un modelo de regalías para libros en papel: el 60 % del precio de lista menos los costes de impresión. Los costes de impresión dependen del número de páginas, el tipo de tinta (blanco y negro vs color) y el marketplace. Un libro de actividades de 100 páginas en blanco y negro listado a 6,99 $ en Amazon.com tiene un coste de impresión de aproximadamente 2,15 $ (tarifa actual de la calculadora de KDP), lo que produce una regalía de aproximadamente 2,04 $ por venta. Los interiores a color cuestan significativamente más de imprimir, reduciendo la regalía. KDP proporciona una calculadora de regalías para que puedas modelar cifras exactas para las especificaciones de tu libro.\n\nGumroad ofrece una tasa de regalía del 55 % en su plan básico y del 80 % en el plan premium (59,95 $ al año). Para un producto de 4,99 $, eso se traduce en aproximadamente 2,74 $ (plan básico) o 3,99 $ (plan premium) por venta.\n\nGumroad, Payhip y plataformas similares cobran comisiones variables según el nivel del plan. Las ventas directas a través de tu propia web (Shopify, WooCommerce) implican tarifas de procesamiento de pago de aproximadamente un 2,9 % más 0,30 $ por transacción, pero sin comisión de marketplace.\n\nEstas son tarifas de plataforma factuales y públicas. No son predicciones de ingresos — son las estructuras de costes que determinan tus ingresos reales por venta en cada plataforma.`,
     },
     {
-      heading: 'Estrategias de precios para fichas imprimibles',
+      heading: `Estrategias de precios para fichas imprimibles`,
       content: `El precio es una de las pocas variables de ingresos que controlas directamente, y observar cómo el mercado de imprimibles fija precios te ayuda a posicionar tus propias publicaciones de manera competitiva.\n\nEn Etsy, las descargas individuales de fichas suelen publicarse en el rango de 1,99–5,99 $. Las fichas de una sola página tienden al extremo inferior. Los paquetes de varias páginas de 5–10 fichas a menudo se publican a 3,99–5,99 $. Los paquetes más grandes de 20–50 páginas frecuentemente se publican a 6,99–14,99 $. Estos son rangos observacionales basados en publicaciones del marketplace, no recomendaciones ni garantías de ventas a ningún precio específico.\n\nEn Amazon KDP, los libros de actividades en papel suelen publicarse entre 4,99 y 9,99 $. El precio debe tener en cuenta los costes de impresión, que reducen tu regalía. Un mayor número de páginas significa mayores costes de impresión pero también justifica precios de lista más altos. La calculadora de regalías de KDP es la herramienta definitiva para modelar tus ingresos específicos por libro a diferentes precios.\n\nAgrupar productos es la estrategia de precios más común para aumentar el valor medio por pedido. En lugar de vender diez fichas individuales a 2,99 $ cada una, los vendedores a menudo las agrupan en un paquete temático a 9,99 $. El comprador percibe mayor valor, y el vendedor gana más por transacción sin coste de producción adicional.\n\nLos precios escalonados te permiten servir a diferentes segmentos de compradores. Ofrece un pequeño paquete de muestra a un precio bajo para compradores sensibles al precio, un paquete estándar a un precio medio para la mayoría de los compradores y un mega-paquete integral a un precio premium para compradores que quieren todo. Cada nivel captura un segmento diferente de la demanda.\n\nLa investigación competitiva es esencial antes de fijar precios. Busca tus palabras clave objetivo en Etsy y Amazon, anota los rangos de precios de las publicaciones más vendidas y posiciona tus productos dentro de ese rango según la calidad de tu contenido y el número de páginas. Fijar precios significativamente por encima o por debajo de la norma del mercado requiere una justificación clara — más páginas, mejor calidad, temas únicos o una marca más sólida.`,
     },
     {
@@ -82,7 +82,7 @@ const content: StartContent = {
       description: `Busca tus palabras clave objetivo en Etsy y Amazon. Cuenta cuántas publicaciones competidoras existen, anota sus rangos de precios, lee sus reseñas e identifica huecos donde la demanda existe pero la oferta es débil. La selección de nicho afecta directamente la rapidez con la que tus publicaciones ganan tracción.`,
     },
     {
-      step: 'Calcula tus ingresos por venta',
+      step: `Calcula tus ingresos por venta`,
       description: `Usa las calculadoras de comisiones de las plataformas (calculadora de tarifas de Etsy, calculadora de regalías de KDP) para determinar tu monto neto real a diferentes precios. Conocer tus ingresos reales por venta te permite fijar precios y metas de producción informadas.`,
     },
     {
@@ -90,15 +90,15 @@ const content: StartContent = {
       description: `Selecciona una plataforma principal para comenzar: Etsy para descargas digitales, Amazon KDP para libros de actividades o Gumroad para recursos del mercado. Domina una plataforma antes de expandirte a otras. Cada plataforma tiene requisitos únicos de publicación y prácticas de SEO.`,
     },
     {
-      step: 'Establece una meta de catálogo para 30 días',
+      step: `Establece una meta de catálogo para 30 días`,
       description: `Comprométete con un número específico de nuevas publicaciones para tu primer mes — de 15 a 20 es un objetivo inicial realista. Concéntrate en una producción semanal constante en lugar de una sola ráfaga. Cada publicación es una nueva oportunidad de descubrimiento para compradores potenciales.`,
     },
     {
-      step: 'Crea tu primer lote de productos',
+      step: `Crea tu primer lote de productos`,
       description: `Genera tu primer conjunto de fichas cubriendo de 3 a 5 temas con 2–3 niveles de dificultad. Esto crea de 6 a 15 variaciones de producto únicas de un solo generador — suficiente para una presencia inicial significativa en tu plataforma elegida.`,
     },
     {
-      step: 'Publica en una segunda plataforma',
+      step: `Publica en una segunda plataforma`,
       description: `Después de establecer tu presencia en una plataforma, adapta tus productos para una segunda. Una descarga digital de Etsy puede convertirse en un libro en papel de KDP o un recurso de Gumroad con un trabajo adicional mínimo. Múltiples plataformas significan múltiples fuentes de ingresos del mismo contenido.`,
     },
     {
@@ -106,7 +106,7 @@ const content: StartContent = {
       description: `Registra tu actividad semanal: publicaciones creadas, productos generados, plataformas utilizadas. Revisa los ingresos mensualmente en lugar de diariamente. El seguimiento semanal de inputs te mantiene enfocado en las variables de esfuerzo que controlas. El seguimiento mensual de ingresos evita obsesionarte con fluctuaciones a corto plazo.`,
     },
     {
-      step: 'Revisa y optimiza a los 90 días',
+      step: `Revisa y optimiza a los 90 días`,
       description: `Después de tres meses de esfuerzo constante, analiza tus datos. ¿Qué productos reciben más visitas? ¿Cuáles convierten en ventas? ¿Qué nichos muestran potencial? Usa estos datos para enfocar tu tiempo de producción en tipos de producto probados y expandir tu catálogo estratégicamente.`,
     },
   ],
@@ -114,7 +114,7 @@ const content: StartContent = {
   toolsRecommended: [
     {
       appId: 'math-worksheet',
-      title: 'Generador de Fichas de Matemáticas',
+      title: `Generador de Fichas de Matemáticas`,
       description: `Generador versátil de contenido matemático que cubre múltiples tipos de operaciones y niveles de dificultad. Las fichas de matemáticas se venden todo el año en todas las plataformas, y la variedad de opciones de personalización te permite crear docenas de variaciones de producto únicas con una sola herramienta.`,
     },
     {
@@ -124,12 +124,12 @@ const content: StartContent = {
     },
     {
       appId: 'coloring-worksheets',
-      title: 'Generador de Páginas para Colorear',
+      title: `Generador de Páginas para Colorear`,
       description: `Los libros para colorear son una de las categorías de libros de actividades de mayor volumen en Amazon KDP. La salida exclusivamente visual significa que cada página funciona en cualquier mercado lingüístico sin traducción, maximizando tu audiencia potencial con una sola licencia.`,
     },
     {
       appId: 'sudoku-worksheets',
-      title: 'Generador de Puzzles de Sudoku',
+      title: `Generador de Puzzles de Sudoku`,
       description: `Puzzles basados en números sin barreras lingüísticas. Los libros de Sudoku se venden de manera idéntica en todos los marketplaces de Amazon a nivel mundial, haciendo de este el generador más versátil internacionalmente para vendedores que apuntan a múltiples mercados.`,
     },
     {
@@ -181,18 +181,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'guia-completa-negocio-imprimibles',
+      slug: `guia-completa-negocio-imprimibles`,
       title: `Guía Completa para Iniciar un Negocio de Imprimibles`,
       description: `La guía base integral que cubre selección de nicho, creación de productos, comparación de plataformas, estrategia de precios y construcción de catálogo para todos los marketplaces de imprimibles.`,
     },
     {
       slug: 'crear-fichas-que-se-venden',
-      title: 'Cómo Crear Fichas que Se Venden',
+      title: `Cómo Crear Fichas que Se Venden`,
       description: `Inmersión profunda en la calidad del producto: estándares de diseño, técnicas de diferenciación y los métodos que hacen que las fichas destaquen de la competencia en cada marketplace.`,
     },
     {
       slug: 'negocio-imprimibles-etsy',
-      title: 'Masterclass de Negocio de Imprimibles en Etsy',
+      title: `Masterclass de Negocio de Imprimibles en Etsy`,
       description: `La guía específica de Etsy para descargas digitales de imprimibles. Cubre la configuración de la tienda, optimización de publicaciones, estrategia de precios y cómo construir un negocio rentable de fichas en Etsy.`,
     },
     {
@@ -203,37 +203,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo Crear Fichas Profesionales que Se Venden' },
-    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de Negocio de Imprimibles' },
-    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Masterclass de Negocio de Imprimibles en Etsy' },
+    { pageType: 'start', slug: `guia-completa-negocio-imprimibles`, anchorText: `Guía Completa para Iniciar un Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: `Cómo Crear Fichas Profesionales que Se Venden` },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: `Plan de Negocio de Imprimibles` },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: `Masterclass de Negocio de Imprimibles en Etsy` },
     { pageType: 'start', slug: 'libros-actividades-amazon-kdp', anchorText: `Guía de Negocio de Libros de Actividades en Amazon KDP` },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: `Guía de Licencia Comercial para Vendedores de Imprimibles` },
-    { pageType: 'start', slug: 'crear-fichas-multilingues', anchorText: 'Cómo Crear Fichas en 11 Idiomas' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Detalles Completos' },
+    { pageType: 'start', slug: 'crear-fichas-multilingues', anchorText: `Cómo Crear Fichas en 11 Idiomas` },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: `Generador de Sopa de Letras — Detalles Completos` },
     { pageType: 'app', slug: 'acertijos-matematicos-fichas', anchorText: `Generador de Fichas de Matemáticas — Detalles Completos` },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-ejercicios-matematicas', anchorText: 'Prueba el Generador de Fichas de Matemáticas' },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: `Prueba el Generador de Sopa de Letras` },
+    { pageType: 'tool', slug: `generador-ejercicios-matematicas`, anchorText: `Prueba el Generador de Fichas de Matemáticas` },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp`, alt: 'Ficha de matemáticas que demuestra la calidad profesional de salida de los generadores de fichas' },
+    heroImage: { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp`, alt: `Ficha de matemáticas que demuestra la calidad profesional de salida de los generadores de fichas` },
     samples: [
-      { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp`, alt: 'Ficha de matemáticas con diseño profesional y calidad de impresión de 300 PPP', caption: 'Ficha de Matemáticas — Constructor de Ingresos Versátil' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: `Ficha de sopa de letras para ventas en Etsy y Amazon KDP`, caption: 'Sopa de Letras — Categoría de Puzzles Más Vendida' },
-      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: 'Página para colorear para publicación de libros de actividades en KDP', caption: 'Colorear — Categoría de Gran Volumen en KDP' },
-      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: `Ficha de Sudoku con atractivo universal internacional`, caption: 'Sudoku — Atractivo Universal en el Mercado' },
+      { src: `/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp`, alt: `Ficha de matemáticas con diseño profesional y calidad de impresión de 300 PPP`, caption: `Ficha de Matemáticas — Constructor de Ingresos Versátil` },
+      { src: `/samples/spanish/wordsearch/Sopa de Letras 1.webp`, alt: `Ficha de sopa de letras para ventas en Etsy y Amazon KDP`, caption: `Sopa de Letras — Categoría de Puzzles Más Vendida` },
+      { src: `/samples/spanish/coloring/coloring portrait 1.webp`, alt: `Página para colorear para publicación de libros de actividades en KDP`, caption: `Colorear — Categoría de Gran Volumen en KDP` },
+      { src: `/samples/spanish/sudoku/Sudoku de Imágenes 1.webp`, alt: `Ficha de Sudoku con atractivo universal internacional`, caption: `Sudoku — Atractivo Universal en el Mercado` },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: `Cómo Crear Fichas de Matemáticas para Tu Negocio de Imprimibles — Demo de LessonCraftStudio`,
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Pez ángel — imagen educativa temática', caption: 'Pez ángel' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Pez payaso — imagen educativa temática', caption: 'Pez payaso' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — imagen educativa temática', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Cangrejo — imagen educativa temática', caption: 'Cangrejo' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfín — imagen educativa temática', caption: 'Delfín' },
+    { src: `/image-library/ocean%20life/angelfish.webp`, alt: `Pez ángel — imagen educativa temática`, caption: 'Pez ángel' },
+    { src: `/image-library/ocean%20life/clownfish.webp`, alt: `Pez payaso — imagen educativa temática`, caption: 'Pez payaso' },
+    { src: `/image-library/ocean%20life/coral.webp`, alt: `Coral — imagen educativa temática`, caption: 'Coral' },
+    { src: `/image-library/ocean%20life/crab.webp`, alt: `Cangrejo — imagen educativa temática`, caption: 'Cangrejo' },
+    { src: `/image-library/ocean%20life/dolphin.webp`, alt: `Delfín — imagen educativa temática`, caption: 'Delfín' },
   ],
 };
 

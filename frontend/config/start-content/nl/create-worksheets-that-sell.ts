@@ -2,19 +2,19 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'werkbladen maken om te verkopen',
+    primaryKeyword: `werkbladen maken om te verkopen`,
     secondaryKeywords: [
-      'professionele werkbladen maken',
-      'werkbladen maken om op Etsy te verkopen',
-      'werkblad creatie voor verkopers',
-      'printbare werkblad ontwerp tips',
+      `professionele werkbladen maken`,
+      `werkbladen maken om op Etsy te verkopen`,
+      `werkblad creatie voor verkopers`,
+      `printbare werkblad ontwerp tips`,
     ],
     lsiKeywords: [
       'werkblad kwaliteitsnormen',
       'antwoordblad generatie',
-      'printbare product creatie workflow',
+      `printbare product creatie workflow`,
       'werkblad bundel strategie',
-      'thematische werkblad afbeeldingen',
+      `thematische werkblad afbeeldingen`,
       'printklare PDF werkbladen',
     ],
     titleTag: `Werkbladen Maken om te Verkopen — Professionele Gids`,
@@ -44,11 +44,11 @@ const content: StartContent = {
     },
     {
       heading: `Hoe Werkblad Generators Ontwerpbarrières Elimineren voor Verkopers`,
-      content: `De traditionele aanpak voor het maken van printbare werkbladen omvat grafisch ontwerp software, handmatig indelingswerk, clipart licenties en uren opmaak. Voor verkopers zonder ontwerpachtergrond is deze barrière vaak wat hen ervan weerhoudt ooit te lanceren.\n\nWerkblad generators verwijderen deze barrière volledig. Een generator verwerkt de indelingsmotor, de rekenlogica, de antwoordbladgeneratie, de afbeeldingsplaatsing en de printopmaak automatisch. Jij maakt de creatieve beslissingen — moeilijkheidsniveau, thema, beeldset, paginaformaat, aantal opgaven — en de generator verwerkt de technische uitvoering.\n\nDit is geen compromis op kwaliteit. Generatoruitvoer voldoet aan of overtreft wat de meeste verkopers handmatig produceren, omdat de indelingen algoritmisch geoptimaliseerd zijn voor druk. Marges zijn berekend voor standaard printers. Afstanden passen zich aan inhoudsdichtheid aan. Antwoordbladen worden gegenereerd met wiskundige zekerheid in plaats van handmatige controle.\n\nLessonCraftStudio biedt 33 gespecialiseerde generators over zes categorieën. Elke generator bevat instelbare moeilijkheidsniveaus, meer dan 100 thematische beeldsets, meerdere paginaformaten (US Letter, A4 en meer) en automatische antwoordbladgeneratie. De generators ondersteunen 11 talen, waardoor meertalige productcreatie mogelijk is zonder vertaalwerk.\n\nDe praktische impact op productiviteit is aanzienlijk. Een verkoper die werkbladen handmatig maakt in ontwerpsoftware produceert mogelijk 3–5 afgewerkte pagina's per uur. Met een generator kan dezelfde verkoper 30–50 pagina's per uur produceren bij gelijke of hogere kwaliteit. Dat snelheidsvoordeel is wat het soort grote catalogusopbouw mogelijk maakt dat consistente marktplaatsverkoop aandrijft.\n\nElke generator biedt een gratis proefversie met watermerk, zodat je de uitvoerkwaliteit en workflow kunt evalueren voordat je een commerciële licentie aanschaft.`,
+      content: `De traditionele aanpak voor het maken van printbare werkbladen omvat grafisch ontwerp software, handmatig indelingswerk, clipart licenties en uren opmaak. Voor verkopers zonder ontwerpachtergrond is deze barrière vaak wat hen ervan weerhoudt ooit te lanceren.\n\nWerkblad generators verwijderen deze barrière volledig. Een generator verwerkt de indelingsmotor, de rekenlogica, de antwoordbladgeneratie, de afbeeldingsplaatsing en de printopmaak automatisch. Jij maakt de creatieve beslissingen — moeilijkheidsniveau, thema, beeldset, paginaformaat, aantal opgaven — en de generator verwerkt de technische uitvoering.\n\nDit is geen compromis op kwaliteit. Generatoruitvoer voldoet aan of overtreft wat de meeste verkopers handmatig produceren, omdat de indelingen algoritmisch geoptimaliseerd zijn voor druk. Marges zijn berekend voor standaard printers. Afstanden passen zich aan inhoudsdichtheid aan. Antwoordbladen worden gegenereerd met wiskundige zekerheid in plaats van handmatige controle.\n\nLessonCraftStudio biedt 33 gespecialiseerde generators over zes categorieën. Elke generator bevat instelbare moeilijkheidsniveaus, meer dan 100 thematische beeldsets, meerdere paginaformaten (US Letter, A4 en meer) en automatische antwoordbladgeneratie. De generators ondersteunen 11 talen, waardoor meertalige productcreatie mogelijk is zonder vertaalwerk.\n\nDe praktische impact op productiviteit is aanzienlijk. Een verkoper die werkbladen handmatig maakt in ontwerpsoftware produceert mogelijk 3–5 afgewerkte pagina`s per uur. Met een generator kan dezelfde verkoper 30–50 pagina`s per uur produceren bij gelijke of hogere kwaliteit. Dat snelheidsvoordeel is wat het soort grote catalogusopbouw mogelijk maakt dat consistente marktplaatsverkoop aandrijft.\n\nElke generator biedt een gratis proefversie met watermerk, zodat je de uitvoerkwaliteit en workflow kunt evalueren voordat je een commerciële licentie aanschaft.`,
     },
     {
-      heading: 'Stapsgewijs Werkblad Creatieproces voor Verkopers',
-      content: `Hier is de concrete workflow voor het maken van een verkoopbaar werkbladproduct, met de Optelling generator als voorbeeld. Hetzelfde proces is van toepassing op elke generator met kleine variaties.\n\nStap 1: Definieer je productconcept. Voordat je de generator opent, bepaal wat je maakt: "Kleuterschool Optelwerkbladen met Dierenthema, Gemakkelijke Moeilijkheid, 10 Pagina's met Antwoordbladen." Een helder concept voorkomt doelloos experimenteren.\n\nStap 2: Open de generator en configureer je instellingen. Selecteer het moeilijkheidsniveau (éénciferige optelling voor de kleuterschool), kies de dieren beeldset, stel het paginaformaat in op US Letter en schakel antwoordbladgeneratie in. Selecteer hoeveel opgaven per pagina verschijnen.\n\nStap 3: Genereer je eerste pagina. Bekijk de uitvoer zorgvuldig. Controleer of de indeling schoon is, afbeeldingen correct gepositioneerd zijn, de moeilijkheid past bij je doelleeftijdsgroep en het antwoordblad correct is. Deze beoordelingsstap is cruciaal — het kost 30 seconden en voorkomt kwaliteitsproblemen in je eindproduct.\n\nStap 4: Genereer variaties. Maak 9 meer pagina's met dezelfde instellingen. Elke generatie produceert een unieke rangschikking van opgaven en afbeeldingen, zodat elke pagina in je bundel anders is terwijl een consistent uiterlijk en moeilijkheidsniveau behouden blijft.\n\nStap 5: Download alle bestanden. Sla zowel PDF- als JPEG-versies op. PDF is standaard voor Etsy en Gumroad vermeldingen. JPEG is nodig voor Amazon KDP binnenwerkpagina's en voor het maken van vermeldingsminiaturen.\n\nStap 6: Stel je bundel samen. Combineer de individuele pagina's in een enkele PDF-bundel. Voeg een omslagpagina toe met de bundeltitel, leeftijdsbereik en inhoudslijst. Neem de antwoordbladen op aan het eind.\n\nStap 7: Maak je vermeldingsmateriaal. Gebruik een van je gegenereerde werkbladen als basis voor je miniatuurafbeelding. Een schone, goed bijgesneden screenshot van een daadwerkelijke werkbladpagina presteert beter dan generieke mockups.`,
+      heading: `Stapsgewijs Werkblad Creatieproces voor Verkopers`,
+      content: `Hier is de concrete workflow voor het maken van een verkoopbaar werkbladproduct, met de Optelling generator als voorbeeld. Hetzelfde proces is van toepassing op elke generator met kleine variaties.\n\nStap 1: Definieer je productconcept. Voordat je de generator opent, bepaal wat je maakt: "Kleuterschool Optelwerkbladen met Dierenthema, Gemakkelijke Moeilijkheid, 10 Pagina`s met Antwoordbladen." Een helder concept voorkomt doelloos experimenteren.\n\nStap 2: Open de generator en configureer je instellingen. Selecteer het moeilijkheidsniveau (éénciferige optelling voor de kleuterschool), kies de dieren beeldset, stel het paginaformaat in op US Letter en schakel antwoordbladgeneratie in. Selecteer hoeveel opgaven per pagina verschijnen.\n\nStap 3: Genereer je eerste pagina. Bekijk de uitvoer zorgvuldig. Controleer of de indeling schoon is, afbeeldingen correct gepositioneerd zijn, de moeilijkheid past bij je doelleeftijdsgroep en het antwoordblad correct is. Deze beoordelingsstap is cruciaal — het kost 30 seconden en voorkomt kwaliteitsproblemen in je eindproduct.\n\nStap 4: Genereer variaties. Maak 9 meer pagina`s met dezelfde instellingen. Elke generatie produceert een unieke rangschikking van opgaven en afbeeldingen, zodat elke pagina in je bundel anders is terwijl een consistent uiterlijk en moeilijkheidsniveau behouden blijft.\n\nStap 5: Download alle bestanden. Sla zowel PDF- als JPEG-versies op. PDF is standaard voor Etsy en Gumroad vermeldingen. JPEG is nodig voor Amazon KDP binnenwerkpagina`s en voor het maken van vermeldingsminiaturen.\n\nStap 6: Stel je bundel samen. Combineer de individuele pagina`s in een enkele PDF-bundel. Voeg een omslagpagina toe met de bundeltitel, leeftijdsbereik en inhoudslijst. Neem de antwoordbladen op aan het eind.\n\nStap 7: Maak je vermeldingsmateriaal. Gebruik een van je gegenereerde werkbladen als basis voor je miniatuurafbeelding. Een schone, goed bijgesneden screenshot van een daadwerkelijke werkbladpagina presteert beter dan generieke mockups.`,
     },
     {
       heading: `Kwaliteitsnormen Die Verkoopbare Werkbladen Onderscheiden`,
@@ -60,7 +60,7 @@ const content: StartContent = {
     },
     {
       heading: `Thematische Afbeeldingen Gebruiken om Unieke Werkblad Producten te Maken`,
-      content: `Thematische afbeeldingen zijn de meest effectieve manier om je werkbladen te onderscheiden van concurrenten. Twee optelwerkbladen met identieke rekenopgaven voelen als compleet verschillende producten wanneer het ene dinosaurusafbeeldingen toont en het andere oceaandieren.\n\nLessonCraftStudio generators bevatten meer dan 100 thematische beeldsets die categorieën als dieren, voertuigen, eten, natuur, seizoenen, feestdagen en meer bestrijken. Elke beeldset bevat meerdere individuele afbeeldingen, waardoor je variatie binnen een thema krijgt en repetitief-ogende bundels voorkomt.\n\nSeizoenthema's creëren voorspelbare omzetmogelijkheden. Terug-naar-school thema\'s verkopen in augustus en september. Halloween-afbeeldingen stimuleren oktoberverkoop. Kerst- en winterfeestdagenthema\'s pieken in november en december. Valentijnsdag, Pasen en zomerthema\'s hebben elk hun vensters. Verkopers die seizoensproducten vooraf voorbereiden vangen vraag op die elk jaar op schema arriveert.\n\nNichethema\'s helpen je specifieke koperssegmenten bereiken. Dinosaurus-thema werkbladen spreken een toegewijd publiek aan van ouders wiens kinderen in een dinosaurusfase zitten. Ruimtethema producten trekken wetenschapsgerichte gezinnen aan. Boerderij- en tuinthema\'s spreken plattelandsgemeenschappen en thuisonderwijs aan. Hoe specifieker je thema, hoe minder directe concurrentie je ondervindt.\n\nEen praktische strategie: maak je kernwerkblad-inhoud met 3–5 verschillende thema's. Dit vermenigvuldigt je productcatalogus zonder je inspanning te vermenigvuldigen. Dezelfde 10-pagina optel bundel wordt 5 verschillende producten (dieren, dinosaurussen, oceaan, voertuigen, eten), elk gericht op een andere zoekopdracht en een andere kopersemotie.`,
+      content: `Thematische afbeeldingen zijn de meest effectieve manier om je werkbladen te onderscheiden van concurrenten. Twee optelwerkbladen met identieke rekenopgaven voelen als compleet verschillende producten wanneer het ene dinosaurusafbeeldingen toont en het andere oceaandieren.\n\nLessonCraftStudio generators bevatten meer dan 100 thematische beeldsets die categorieën als dieren, voertuigen, eten, natuur, seizoenen, feestdagen en meer bestrijken. Elke beeldset bevat meerdere individuele afbeeldingen, waardoor je variatie binnen een thema krijgt en repetitief-ogende bundels voorkomt.\n\nSeizoenthema`s creëren voorspelbare omzetmogelijkheden. Terug-naar-school thema's verkopen in augustus en september. Halloween-afbeeldingen stimuleren oktoberverkoop. Kerst- en winterfeestdagenthema's pieken in november en december. Valentijnsdag, Pasen en zomerthema's hebben elk hun vensters. Verkopers die seizoensproducten vooraf voorbereiden vangen vraag op die elk jaar op schema arriveert.\n\nNichethema's helpen je specifieke koperssegmenten bereiken. Dinosaurus-thema werkbladen spreken een toegewijd publiek aan van ouders wiens kinderen in een dinosaurusfase zitten. Ruimtethema producten trekken wetenschapsgerichte gezinnen aan. Boerderij- en tuinthema's spreken plattelandsgemeenschappen en thuisonderwijs aan. Hoe specifieker je thema, hoe minder directe concurrentie je ondervindt.\n\nEen praktische strategie: maak je kernwerkblad-inhoud met 3–5 verschillende thema`s. Dit vermenigvuldigt je productcatalogus zonder je inspanning te vermenigvuldigen. Dezelfde 10-pagina optel bundel wordt 5 verschillende producten (dieren, dinosaurussen, oceaan, voertuigen, eten), elk gericht op een andere zoekopdracht en een andere kopersemotie.`,
     },
     {
       heading: `Antwoordbladen en verkopervriendelijke Functies Die Verkopen`,
@@ -68,49 +68,49 @@ const content: StartContent = {
     },
     {
       heading: `Werkbladen Testen en Verfijnen Voordat Je Vermeldt`,
-      content: `De snelste manier om een negatieve beoordeling te verdienen is een werkblad vermelden dat je nooit hebt geprint, nooit hebt opgelost en nooit aan een ander persoon hebt laten zien. Testen kost minuten en voorkomt problemen die maanden kosten om te herstellen.\n\nDe printtest is niet-onderhandelbaar. Print elk werkblad op een standaard thuisprinter voordat je vermeldt. Controleer dat geen inhoud is afgesneden door marges, dat afbeeldingen scherp en helder zijn op papier, en dat de algehele indeling er op print net zo goed uitziet als op het scherm. Als je zowel US Letter als A4 formaten aanbiedt, print beide.\n\nDe oplostest vangt fouten op die visuele beoordeling mist. Ga zitten en voltooi je eigen werkblad. Los elke rekenopgave op. Vind elk woord in de woordzoeker. Koppel elk paar in de koppelactiviteit. Vergelijk dan je antwoorden met het antwoordblad. Als iets niet overeenkomt, repareer het voordat je vermeldt. Werkblad generators produceren geverifieerde antwoordbladen, maar de oplostest vangt ook problemen op als opgaven die te gemakkelijk, te moeilijk of dubbelzinnig geformuleerd zijn.\n\nDe leeftijdsgeschiktheidsbeoordeling verifieert dat je moeilijkheidslabels nauwkeurig zijn. Als je een werkblad labelt als "kleuter," laat het dan zien aan een kind van kleuterleeftijd (of een ouder van zo'n kind) en observeer of de moeilijkheid geschikt is. Een werkblad dat zijn doelpubliek frustreert genereert retouren en negatieve beoordelingen.\n\nDe peerbeoordeling voegt een tweede paar ogen toe. Laat je afgewerkte product zien aan een vriend, familielid of mede-verkoper en vraag: "Zou je dit kopen?" Hun eerlijke reactie onthult problemen waar je blind voor bent geworden na het staren naar je eigen werk.\n\nDe vermeldingspreviewtest wordt vaak overgeslagen maar is cruciaal. Nadat je je marktplaatsvermelding hebt gemaakt, bekijk het als een koper. Laat de miniatuur duidelijk zien wat het product is? Bevat de titel relevante zoektermen? Beantwoordt de beschrijving de voor de hand liggende vragen (aantal pagina's, leeftijdsbereik, bestandsformaat, wat is inbegrepen)? Zou je dit product kopen op basis van de vermelding alleen?\n\nTesten voegt 15–20 minuten toe aan je productcreatieproces. Die investering voorkomt de negatieve beoordelingen, restitutieaanvragen en beschadigde reputatie die maanden kunnen kosten om te overwinnen. Professionele verkopers testen elk product. Amateurverkopers vermelden en hopen. Het verschil toont zich in hun beoordelingsscores en hun verkoopnummers.`,
+      content: `De snelste manier om een negatieve beoordeling te verdienen is een werkblad vermelden dat je nooit hebt geprint, nooit hebt opgelost en nooit aan een ander persoon hebt laten zien. Testen kost minuten en voorkomt problemen die maanden kosten om te herstellen.\n\nDe printtest is niet-onderhandelbaar. Print elk werkblad op een standaard thuisprinter voordat je vermeldt. Controleer dat geen inhoud is afgesneden door marges, dat afbeeldingen scherp en helder zijn op papier, en dat de algehele indeling er op print net zo goed uitziet als op het scherm. Als je zowel US Letter als A4 formaten aanbiedt, print beide.\n\nDe oplostest vangt fouten op die visuele beoordeling mist. Ga zitten en voltooi je eigen werkblad. Los elke rekenopgave op. Vind elk woord in de woordzoeker. Koppel elk paar in de koppelactiviteit. Vergelijk dan je antwoorden met het antwoordblad. Als iets niet overeenkomt, repareer het voordat je vermeldt. Werkblad generators produceren geverifieerde antwoordbladen, maar de oplostest vangt ook problemen op als opgaven die te gemakkelijk, te moeilijk of dubbelzinnig geformuleerd zijn.\n\nDe leeftijdsgeschiktheidsbeoordeling verifieert dat je moeilijkheidslabels nauwkeurig zijn. Als je een werkblad labelt als "kleuter," laat het dan zien aan een kind van kleuterleeftijd (of een ouder van zo`n kind) en observeer of de moeilijkheid geschikt is. Een werkblad dat zijn doelpubliek frustreert genereert retouren en negatieve beoordelingen.\n\nDe peerbeoordeling voegt een tweede paar ogen toe. Laat je afgewerkte product zien aan een vriend, familielid of mede-verkoper en vraag: "Zou je dit kopen?" Hun eerlijke reactie onthult problemen waar je blind voor bent geworden na het staren naar je eigen werk.\n\nDe vermeldingspreviewtest wordt vaak overgeslagen maar is cruciaal. Nadat je je marktplaatsvermelding hebt gemaakt, bekijk het als een koper. Laat de miniatuur duidelijk zien wat het product is? Bevat de titel relevante zoektermen? Beantwoordt de beschrijving de voor de hand liggende vragen (aantal pagina`s, leeftijdsbereik, bestandsformaat, wat is inbegrepen)? Zou je dit product kopen op basis van de vermelding alleen?\n\nTesten voegt 15–20 minuten toe aan je productcreatieproces. Die investering voorkomt de negatieve beoordelingen, restitutieaanvragen en beschadigde reputatie die maanden kunnen kosten om te overwinnen. Professionele verkopers testen elk product. Amateurverkopers vermelden en hopen. Het verschil toont zich in hun beoordelingsscores en hun verkoopnummers.`,
     },
   ],
 
   actionSteps: [
     {
-      step: 'Kies Je Werkbladtype en Doelmarkt',
+      step: `Kies Je Werkbladtype en Doelmarkt`,
       description: `Selecteer één werkbladcategorie (rekenen, geletterdheid, kleuren, puzzels) en definieer je doelkoper (verkopers, thuisonderwijsouders, bijlescentra). Onderzoek bestaande producten in je gekozen niche op Etsy om kwaliteitsverwachtingen te begrijpen.`,
     },
     {
-      step: 'Verken Generators met Gratis Proefversies',
+      step: `Verken Generators met Gratis Proefversies`,
       description: `Open 2–3 generators relevant voor je niche en maak voorbeeldwerkbladen met de gratis proefversie met watermerk. Evalueer indelingskwaliteit, beeldsets, moeilijkheidsopties en antwoordbladgeneratie voordat je een licentie aanschaft.`,
     },
     {
-      step: 'Definieer Je Eerste Productconcept',
+      step: `Definieer Je Eerste Productconcept`,
       description: `Schrijf precies op wat je maakt voordat je de generator opent: werkbladtype, thema, moeilijkheidsniveau, aantal pagina's, doelleeftijdsgroep en bundelnaam. Een helder concept voorkomt doelloos experimenteren.`,
     },
     {
-      step: 'Genereer en Beoordeel Je Eerste Werkblad',
+      step: `Genereer en Beoordeel Je Eerste Werkblad`,
       description: `Configureer de generator met je gekozen instellingen en maak je eerste pagina. Beoordeel de uitvoer op indelingskwaliteit, afbeeldingsplaatsing, moeilijkheidsnauwkeurigheid en antwoordblad correctheid voordat je extra pagina's genereert.`,
     },
     {
-      step: 'Bouw een 10-Pagina Thematische Bundel',
-      description: `Genereer 9 meer pagina's met dezelfde thema- en moeilijkheidsinstellingen. Elke generatie produceert unieke inhoud terwijl visuele consistentie behouden blijft. Download zowel PDF- als JPEG-formaten voor alle pagina's.`,
+      step: `Bouw een 10-Pagina Thematische Bundel`,
+      description: `Genereer 9 meer pagina`s met dezelfde thema- en moeilijkheidsinstellingen. Elke generatie produceert unieke inhoud terwijl visuele consistentie behouden blijft. Download zowel PDF- als JPEG-formaten voor alle pagina`s.`,
     },
     {
-      step: 'Stel Samen en Voeg Bundelverpakking Toe',
+      step: `Stel Samen en Voeg Bundelverpakking Toe`,
       description: `Combineer individuele pagina's in een enkele PDF. Voeg een omslagpagina toe met de bundeltitel, leeftijdsbereik, inhoudslijst en je winkelnaam. Plaats antwoordbladen aan het einde van de bundel.`,
     },
     {
-      step: 'Voer de Vierpunts Kwaliteitstest Uit',
+      step: `Voer de Vierpunts Kwaliteitstest Uit`,
       description: `Printtest (controleer marges en beeldscherpte), oplostest (voltooi elke activiteit en verifieer antwoordbladen), leeftijdsgeschiktheidsbeoordeling (bevestig dat moeilijkheid overeenkomt met het label) en vermeldingspreview (bekijk je vermelding als koper).`,
     },
     {
       step: 'Maak 3–5 Themavariaties',
-      description: `Herhaal het creatieproces met verschillende afbeeldingsthema's. Hetzelfde werkbladtype met dieren, dinosaurussen, oceaan, voertuigen en eten thema's geeft je 5 unieke producten vanuit één workflow.`,
+      description: `Herhaal het creatieproces met verschillende afbeeldingsthema`s. Hetzelfde werkbladtype met dieren, dinosaurussen, oceaan, voertuigen en eten thema`s geeft je 5 unieke producten vanuit één workflow.`,
     },
     {
-      step: 'Bouw een Moeilijkheidsprogressie Bundel',
+      step: `Bouw een Moeilijkheidsprogressie Bundel`,
       description: `Maak een tweede productlijn met hetzelfde thema maar variërende moeilijkheid: gemakkelijk, gemiddeld en moeilijk versies. Verpak ze als een "Beginner tot Gevorderd" progressiebundel tegen een hoger prijspunt.`,
     },
     {
-      step: 'Vermeld en Optimaliseer Je Eerste Producten',
+      step: `Vermeld en Optimaliseer Je Eerste Producten`,
       description: `Maak vermeldingen op je gekozen platform met zoekwoordrijke titels, volledig taggebruik, schone miniatuurafbeeldingen en beschrijvingen die duidelijk het aantal pagina's, leeftijdsbereik, formaat en wat inbegrepen is vermelden.`,
     },
   ],
@@ -163,7 +163,7 @@ const content: StartContent = {
     },
     {
       question: `Wat maakt werkbladen professioneel versus amateuristisch?`,
-      answer: `Professionele werkbladen hebben consistente marges (minimaal 1,25 cm), uniforme afstanden tussen elementen, schone leesbare lettertypen afgestemd op de doelleeftijdsgroep, scherpe hoge-resolutie afbeeldingen, nauwkeurige antwoordbladen en een samenhangende visuele stijl over alle pagina's in een bundel. Amateuristische werkbladen hebben doorgaans inconsistente indelingen, ontbrekende antwoordbladen, lage-resolutie afbeeldingen en niet-overeenkomende styling tussen pagina's.`,
+      answer: `Professionele werkbladen hebben consistente marges (minimaal 1,25 cm), uniforme afstanden tussen elementen, schone leesbare lettertypen afgestemd op de doelleeftijdsgroep, scherpe hoge-resolutie afbeeldingen, nauwkeurige antwoordbladen en een samenhangende visuele stijl over alle pagina`s in een bundel. Amateuristische werkbladen hebben doorgaans inconsistente indelingen, ontbrekende antwoordbladen, lage-resolutie afbeeldingen en niet-overeenkomende styling tussen pagina`s.`,
     },
     {
       question: `Moet ik individuele werkbladen of bundels verkopen?`,
@@ -174,7 +174,7 @@ const content: StartContent = {
       answer: `Ja. Alle generators ondersteunen 11 talen: Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Puur visuele werkbladen als kleurplaten, koppelen en patroonactiviteiten werken in elke taal zonder aanpassing. Niet-Engelstalige markten zijn aanzienlijk ondervertegenwoordigd, wat minder concurrentie biedt voor meertalige verkopers.`,
     },
     {
-      question: 'Welke bestandsformaten produceren de generators?',
+      question: `Welke bestandsformaten produceren de generators?`,
       answer: `Elke generator produceert printklare PDF- en hoge-resolutie JPEG-bestanden. PDF is het standaardformaat voor printbare producten op Etsy en Gumroad. JPEG is nodig voor Amazon KDP binnenwerkpagina's en voor het maken van vermeldingsminiaturen en mockups. Beide formaten zijn inbegrepen bij elke download op 300 DPI printresolutie.`,
     },
     {
@@ -185,18 +185,18 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-gids-printable-bedrijf',
+      slug: `complete-gids-printable-bedrijf`,
       title: `Complete Gids voor het Starten van een Printable Bedrijf`,
       description: `De fundamentele gids over nicheselectie, platformstrategie, prijzen en catalogusopbouw. Begin hier als je je printable bedrijf nog niet hebt gelanceerd.`,
     },
     {
       slug: 'etsy-printable-bedrijf',
-      title: 'Etsy Printable Bedrijf Masterclass',
+      title: `Etsy Printable Bedrijf Masterclass`,
       description: `Platformspecifieke strategieën voor Etsy-verkopers: winkelopzet, vermeldings-SEO, tag-optimalisatie, miniatuur best practices en opschaaltechnieken afgestemd op de Etsy-marktplaats.`,
     },
     {
       slug: 'amazon-kdp-activiteitenboeken',
-      title: 'Amazon KDP Activiteitenboeken Gids',
+      title: `Amazon KDP Activiteitenboeken Gids`,
       description: `Formateer je werkbladen voor Amazon KDP publicatie. Behandelt binnenwerk-opmaak, omslagontwerp vereisten, zoekwoordonderzoek en categorieselectie voor activiteitenboeken.`,
     },
     {
@@ -207,37 +207,37 @@ const content: StartContent = {
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
-    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
-    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboeken Bedrijfsgids' },
+    { pageType: 'start', slug: `complete-gids-printable-bedrijf`, anchorText: `Complete Gids voor het Starten van een Printable Bedrijf` },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: `Etsy Printable Bedrijf Masterclass` },
+    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: `Amazon KDP Activiteitenboeken Bedrijfsgids` },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: `Commerciële Licentie Gids voor Printable Verkopers` },
     { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk Printable Bedrijf' },
-    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optelling Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optelling Werkblad Maker' },
+    { pageType: 'app', slug: 'optellen-werkbladen', anchorText: `Optelling Werkblad Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: `Aftrekken Werkblad Generator — Volledig Overzicht` },
+    { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: `Woordzoeker Generator — Volledig Overzicht` },
+    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: `Probeer de Optelling Werkblad Maker` },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
   ],
 
   visuals: {
-    heroImage: { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: 'Professioneel optelwerkblad gemaakt met LessonCraftStudio generator' },
+    heroImage: { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: `Professioneel optelwerkblad gemaakt met LessonCraftStudio generator` },
     samples: [
-      { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: 'Optelwerkblad met thematische afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
-      { src: `/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp`, alt: 'Aftrekwerkblad met visuele getalopgaven', caption: 'Aftrekken — Visuele Rekenoefening' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: `Woordzoeker puzzelwerkblad met thematische woordenlijst`, caption: 'Woordzoeker — Thematische Puzzel' },
-      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
+      { src: `/samples/dutch/addition/Optellen%20is%20Leuk%201.webp`, alt: `Optelwerkblad met thematische afbeeldingsgebaseerde rekenopgaven`, caption: `Optelling — Afbeeldingsgebaseerde Opgaven` },
+      { src: `/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp`, alt: `Aftrekwerkblad met visuele getalopgaven`, caption: `Aftrekken — Visuele Rekenoefening` },
+      { src: `/samples/dutch/wordsearch/Woordzoeker%201.webp`, alt: `Woordzoeker puzzelwerkblad met thematische woordenlijst`, caption: `Woordzoeker — Thematische Puzzel` },
+      { src: `/samples/dutch/coloring/coloring%20portrait%201.webp`, alt: `Kleurplaat werkblad met thematische illustraties`, caption: `Kleurplaat — Thematische Illustraties` },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: `Hoe Optelling Werkbladen te Maken — LessonCraftStudio Demo`,
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bij — thematische educatieve afbeelding', caption: 'Bij' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematische educatieve afbeelding', caption: 'Stier' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalf — thematische educatieve afbeelding', caption: 'Kalf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
+    { src: `/image-library/farm%20animals/bee.webp`, alt: `Bij — thematische educatieve afbeelding`, caption: 'Bij' },
+    { src: `/image-library/farm%20animals/bull.webp`, alt: `Stier — thematische educatieve afbeelding`, caption: 'Stier' },
+    { src: `/image-library/farm%20animals/calf.webp`, alt: `Kalf — thematische educatieve afbeelding`, caption: 'Kalf' },
+    { src: `/image-library/farm%20animals/cat.webp`, alt: `Kat — thematische educatieve afbeelding`, caption: 'Kat' },
+    { src: `/image-library/farm%20animals/cat%202.webp`, alt: `Kat 2 — thematische educatieve afbeelding`, caption: 'Kat 2' },
   ],
 };
 

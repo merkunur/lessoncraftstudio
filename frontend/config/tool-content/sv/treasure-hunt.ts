@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skattjakt arbetsblad skapare för utskrift',
+    primaryKeyword: `skattjakt arbetsblad skapare för utskrift`,
     secondaryKeywords: [
-      'skattjakt arbetsblad skapare för säljare',
-      'skapa riktningspussel att sälja',
+      `skattjakt arbetsblad skapare för säljare`,
+      `skapa riktningspussel att sälja`,
       `utskrivbar skattjakt generator kommersiell användning`,
-      'skattjakt pussel skapare för KDP och Etsy',
+      `skattjakt pussel skapare för KDP och Etsy`,
     ],
     lsiKeywords: [
       `två riktningstyper grundläggande kardinal koordinatrutnät skapare`,
@@ -25,7 +25,7 @@ const content: ToolContent = {
   },
 
   tutorial: {
-    title: 'Hur du skapar skattjakt arbetsblad i 8 steg',
+    title: `Hur du skapar skattjakt arbetsblad i 8 steg`,
     steps: [
       {
         title: 'Öppna Skattjakt Skaparen',
@@ -52,7 +52,7 @@ const content: ToolContent = {
         description: `Klicka på Generera för att skapa vägfinnande pusslet på 5×5 koordinatrutnätet (A–E rader, 1–5 kolumner). Generatorn sprider dina 6 valda bilder över de 25 cellerna som visuella landmärken, väljer en slumpmässig startcell och skapar exakt 4 riktningsrörelser som stannar inom rutnätets gränser. Arbetsbladet visar 5 instruktionsrader: "Börja vid [cell]" följt av 4 "Flytta [riktning] [antal] ruta(or)" ledtrådar, avslutande med "Var är skatten?" En skattjakt-tematiserad rubrik visas överst med teal bakgrund (#2C8C7C), gyllene titel (#D4A017) i Fredoka och mörkbrun beskrivning (#5C4033) i Quicksand. Klicka på Generera igen för att producera ett nytt pussel med annorlunda slumpmässig bildplacering, startposition och rörelsesekvens.`,
       },
       {
-        title: 'Granska det automatiskt genererade facit',
+        title: `Granska det automatiskt genererade facit`,
         description: `Klicka på fliken Facit för att se lösningen med den slutliga skattcellen markerad i ljusgult (rgba(255, 250, 205, 0.8)) och en mörkgrå ram. Facit återger den exakta pussellayouten — samma rutnät, samma spridda bilder, samma rubrik — och markerar skattdestinationen tydligt. Ingen manuell markering, inget separat filskapande, ingen risk för felmatchade lösningar. Växla mellan flikarna Arbetsblad och Facit för att jämföra. Facit genereras samtidigt med pusslet, så varje skattjakt du skapar kommer med sin utskriftsklara lösningssida.`,
       },
       {
@@ -64,11 +64,11 @@ const content: ToolContent = {
 
   whatYouCanCreate: [
     {
-      title: 'Tematiska skattjaktspaket per bildsamling',
+      title: `Tematiska skattjaktspaket per bildsamling`,
       description: `Skapa skattjaktspaket organiserade efter tema med de 104 bildsamlingarna — djurskattjakter, havsskattjakter, rymdskattjakter, dinosaurieskattjakter, högtidsskattjakter och dussintals fler. Generera från tema auto-väljer 6 slumpmässiga bilder och skapar unika startpositioner och rörelsesekvenser per generering, så varje klick producerar ett helt annorlunda pussel från samma tema. Paketera 10–20 skattjakt arbetsblad per tema med automatiskt genererade facit inkluderade. Blanda grundläggande och kardinala riktningstyper inom varje paket för progressiv svårighet som växer med inläraren.`,
     },
     {
-      title: 'Progressiva riktningsfärdighetsarbetsböcker',
+      title: `Progressiva riktningsfärdighetsarbetsböcker`,
       description: `Bygg strukturerade arbetsböcker som lär ut riktningsordförråd genom skattjaktspussel. Börja med grundläggande riktningsblad (upp, ner, vänster, höger) för grundläggande rumsligt ordförråd, avancera sedan till kardinala riktningsblad (norr, söder, öster, väster) för kompassläsningsberedskap. Samma 5×5 rutnät och 4-rörelses pusselformat förblir konsekvent över båda riktningstyper, så användare bygger på bekant mekanik medan de lär sig nytt riktningsordförråd. Organisera kapitel efter riktningstyp och tema för en komplett riktningsfärdighetsproduktkatalog som föräldrar och säljare värdesätter.`,
     },
     {
@@ -76,11 +76,11 @@ const content: ToolContent = {
       description: `Utnyttja de fullt lokaliserade riktningsledtrådarna för att skapa skattjakt arbetsblad på alla 11 språk som stöds från samma pusselstrukturer. Att byta språk ändrar all riktningstext — "Börja vid", "Flytta", "ruta(or)", riktningsordförråd och "Var är skatten?" — till autentiskt modersmålsinnehåll. Bildinnehåll uppdateras också per språk. Skapa språkspecifika skattjaktspaket för ESL/EFL-produktlinje som undervisar riktningsordförråd, tvåspråkiga familjer som övar kompassriktningar och internationella hemundervisningsprogram. En pusseldesign genererar 11 säljbara språkversioner.`,
     },
     {
-      title: 'KDP koordinatrutnät aktivitetsarbetsböcker',
+      title: `KDP koordinatrutnät aktivitetsarbetsböcker`,
       description: `Sammanställ 40–80 skattjakt arbetsblad till tryckta arbetsböcker för Amazon KDP. Det 5×5 bokstav-nummer koordinatrutnätet (A–E rader, 1–5 kolumner) introducerar användare till rutnätsreferensfärdigheter som används i geografi, matematik och naturvetenskap. Strukturera kapitel efter progression: tidiga kapitel använder grundläggande riktningar med välbekanta teman, avancerade kapitel använder kardinala riktningar med varierade samlingar. Inkludera facitsidor bak med ljusgult markerade skattceller. Växla gråskala för bläckvänlig utskrift optimerad för svartvita bokinteriörer. Vägfinnande arbetsböcker fyller en unik nisch på KDP-aktivitetsboksmarknaden.`,
     },
     {
-      title: 'Säsongsbetonade skattjaktssamlingar',
+      title: `Säsongsbetonade skattjaktssamlingar`,
       description: `Bygg roterande säsongssamlingar med högtids- och naturteman från 104-temabiblioteket. Julskattjakter, halloweenvägfinnande pussel, påskskattjaktsaktiviteter, alla hjärtans dag koordinatutmaningar, skolstartsriktningsblad och sommartemaset stöder var och en dedikerade säsongspaket. Inkludera både grundläggande och kardinala riktningstyper i varje säsongssamling för maximal variation. Släpp varje samling 4–6 veckor före högtiden för maximal marknadsplatssynlighet. Skattjaktsformatet lägger till ett övertygande narrativt element till säsongsbetonade arbetsblads-produkter.`,
     },
     {
@@ -91,12 +91,12 @@ const content: ToolContent = {
 
   businessIdeas: [
     {
-      title: 'Tematisk skattjakts aktivitetsbutik på Etsy',
+      title: `Tematisk skattjakts aktivitetsbutik på Etsy`,
       description: `Öppna en Etsy-butik specialiserad på skattjaktspaket organiserade efter tema med de 104 bildsamlingarna. Djurskattjakter, högtidsvägfinnande pussel, havskoordinatutmaningar — varje tema blir en separat annons med 10–20 unika pussel inklusive både grundläggande och kardinala riktningstyper. Varje paket inkluderar automatiskt genererade facit med ljusgult markerade skattceller. Generera från tema producerar unika pussel vid varje klick, vilket gör batchproduktion snabb. Prissätt enskilda temapaket till $3–$5 och premium multitemapaket till $7–$12.`,
       platform: 'Etsy',
     },
     {
-      title: 'Amazon KDP riktningsfärdighets arbetsbok-serie',
+      title: `Amazon KDP riktningsfärdighets arbetsbok-serie`,
       description: `Sammanställ 40–80 skattjakt arbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression och ämne: "Grundläggande riktningsskattjakter" med upp/ner/vänster/höger för nybörjare, "Kardinala riktningsäventyr" med norr/söder/öster/väster för avancerade användare och "Ultimata skattjaktsutmaningen" som blandar båda riktningstyper över tematiska kapitel. Inkludera facitsidor bak med markerade skattceller. Växla gråskala för bläckvänlig utskrift. De två riktningstyper och 104 teman ger tillräcklig variation för en utökad arbetsbok-serie.`,
       platform: 'Amazon KDP',
     },
@@ -106,17 +106,17 @@ const content: ToolContent = {
       platform: 'Gumroad',
     },
     {
-      title: 'Flerspråkig riktningsordförråds verksamhet',
+      title: `Flerspråkig riktningsordförråds verksamhet`,
       description: `De fullt lokaliserade riktningsledtrådarna skapar autentiska skattjaktspussel på modersmål när du byter språk. All instruktionstext — "Börja vid", "Flytta", riktningsord, "ruta(or)" och "Var är skatten?" — översätts till 11 språk som stöds. Skapa språkspecifika skattjaktspaket för ESL/EFL-köpare som övar riktningsordförråd, tvåspråkiga utbildningsprogram och internationella hemundervisningsfamiljer. Sälj på Etsy-butiker som riktar sig mot specifika länder, lista på Gumroad för internationella säljare, eller bygg flerspråkiga megapaket till premiumprissättning. En pusseldesign genererar 11 säljbara språkversioner.`,
       platform: 'Etsy / Gumroad',
     },
     {
-      title: 'Pinterest skattjakt arbetsblads trafiktratt',
+      title: `Pinterest skattjakt arbetsblads trafiktratt`,
       description: `Skattjakt arbetsblad med färgglada koordinatrutnät och spridda tematiska bilder skapar visuellt övertygande Pinterest-pins som föräldrar och säljare känner igen som pedagogiska aktiviteter. Fäst exempelarbetsblad som visar 5×5 rutnätet med riktningsledtrådar och tematiska landmärken. Skapa separata pin-serier för "skattjakt arbetsblad för barn", "utskrivbara riktningsaktiviteter" och "koordinatrutnätspussel". Inkludera förhandsgranskningsbilder av facit som visar den ljusgult markerade skattcellen. Länka varje pin till dina Etsy- eller Gumroad-produktannonser för direkt konvertering.`,
       platform: 'Pinterest',
     },
     {
-      title: 'Gumroad komplett skattjakts pussel-verktygslåda',
+      title: `Gumroad komplett skattjakts pussel-verktygslåda`,
       description: `Paketera skattjaktspussel över alla 104 teman, båda riktningstyper och flera språk till en heltäckande verktygslåda på Gumroad. Inkludera 200+ skattjakt arbetsblad som spänner över grundläggande och kardinala riktningslägen med progressiv svårighet över temasamlingar. Varje arbetsblad inkluderar sitt automatiskt genererade facit med markerad skattcell, vilket fördubblar ditt filantal till 400+ totala filer. De två riktningstyper, lokaliserade ledtrådar på 11 språk och 104 temasamlingar producerar mer variation än någon konkurrent som erbjuder enkla riktningsarbetsblad. Verktygslådeformatet motiverar premiumprissättning eftersom köpare får ett komplett skattjaktspussel-bibliotek.`,
       platform: 'Gumroad',
     },
@@ -155,7 +155,7 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Finns det en gratis provversion?',
+      question: `Finns det en gratis provversion?`,
       answer: `Ja. Verktyget erbjuder en gratis provversion med alla funktioner upplåsta — båda riktningstyper (grundläggande och kardinal), 5×5 koordinatrutnätet, 6-bilds pusselgenerering med exakt 4 riktningsrörelser, det automatiskt genererade facit med ljusgul markerad skattcell, hela bildbiblioteket med 104 temasamlingar och 3 100+ illustrationer, tre bildinmatningsmetoder, bakgrunds- och ramteman med oberoende opacitet, språkval för 11 lokaliserade riktningsset, gråskaleväxling och alla nedladdningsformat. Ingen registrering, inget kreditkort krävs. Nedladdningar från den kostnadsfria provversionen inkluderar en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.`,
     },
     {
@@ -167,11 +167,11 @@ const content: ToolContent = {
       answer: `Grundläggande läge använder upp, ner, vänster och höger — välbekanta riktningsord som är idealiska för förskola till årskurs 1 som bygger grundläggande rumsligt ordförråd. Kardinalläge använder norr, söder, öster och väster — kompassriktningar anpassade för årskurs 2 och uppåt, som introducerar kartläsningsfärdigheter och geografisk orientering. Båda riktningstyper genererar samma 4-rörelses pusselstruktur på samma 5×5 rutnät. Riktningstypsväxlaren låter dig skapa progressiv svårighet: börja med grundläggande riktningsskattjakter och avancera till kardinala riktningsversioner med identiska teman och bilder.`,
     },
     {
-      question: 'Hur fungerar det automatiskt genererade facit?',
+      question: `Hur fungerar det automatiskt genererade facit?`,
       answer: `Generatorn använder ett dubbelt canvas-system med en Arbetsblads-flik och en Facit-flik. Arbetsbladet visar 5×5 rutnätet med spridda bilder och riktningsledtrådar — redo för användare att följa. Facit återger den identiska layouten och markerar den slutliga skattcellen i ljusgult (rgba(255, 250, 205, 0.8)) med en mörkgrå ram, vilket gör destinationen omedelbart synlig. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: arbetsblad-JPEG, facit-JPEG, arbetsblad-PDF och facit-PDF. Facit genereras samtidigt med pusslet, så det finns inget manuellt markeringssteg och ingen risk för felmatchade lösningar.`,
     },
     {
-      question: 'Är Skattjakt Skaparen språkberoende?',
+      question: `Är Skattjakt Skaparen språkberoende?`,
       answer: `Ja, på två sätt. Först är all riktningstext — "Börja vid", "Flytta", riktningsordförråd (både grundläggande och kardinal), "ruta(or)" och "Var är skatten?" — fullständigt översatt till alla 11 språk som stöds: engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska. Sedan uppdateras bildinnehåll från biblioteket baserat på valt språk. Att byta språk producerar autentiska skattjakt arbetsblad på modersmål med lokaliserade riktningar och bilder — inte engelska pussel med översatta rubriker. Commercial-nivån inkluderar engelska; Full Access låser upp alla 11 språk.`,
     },
     {
@@ -179,11 +179,11 @@ const content: ToolContent = {
       answer: `Den konsekventa 4-rörelses strukturen på ett fast 5×5 rutnät (A–E rader, 1–5 kolumner) skapar ett standardiserat pusselformat som fungerar pålitligt för vägfinnande aktiviteter. Fyra rörelser ger tillräcklig komplexitet för meningsfulla riktningsutmaningar utan att överväldiga yngre inlärare. Varje pussel följer samma 5-rads instruktionsformat: startposition, 4 sekventiella rörelser och frågan "Var är skatten?" Denna konsekvens gör skattjakt arbetsblad förutsägbara för användare och enkla att paketera till strukturerade aktivitetsset för säljare.`,
     },
     {
-      question: 'Vilka är de tre bildinmatningsmetoderna?',
+      question: `Vilka är de tre bildinmatningsmetoderna?`,
       answer: `Generera från tema (standard) auto-väljer 6 slumpmässiga bilder från det valda temat och sprider dem över 5×5 rutnätet som visuella landmärken — den snabbaste vägen till ett färdigt pussel. Manuellt bildval låter dig bläddra bland 104 temasamlingar med 3 100+ illustrationer och klicka för att välja exakt 6 bilder för exakt kontroll över rutnätsinnehållet. Ladda upp egna bilder låter dig lägga till egna JPEG-, PNG-, GIF- eller WebP-filer tillsammans med biblioteksinnehåll. Alla tre metoder fyller samma 5×5 koordinatrutnät med 6 landmärkesbilder.`,
     },
     {
-      question: 'Hur fungerar den skattjakt-tematiserade rubriken?',
+      question: `Hur fungerar den skattjakt-tematiserade rubriken?`,
       answer: `Varje genererat arbetsblad inkluderar en skattjakt-tematiserad rubrik med teal bakgrund (#2C8C7C), bärnstens yttre ram (#D4A574), sandig beige inre ram (#F4E4C1) och gyllene titel (#D4A017) i Fredoka-typsnitt (vikt 700, adaptiv 36–48px storlek). Beskrivningen renderas i mörkbrun (#5C4033) med Quicksand (vikt 500). Stående läge visar en fullständig rubrik (100px höjd); liggande läge använder en kompakt layout (70px höjd). Titeln "Skattjakt" och beskrivningen "Följ ledtrådarna och hitta skatten!" översätts automatiskt till alla 11 språk som stöds.`,
     },
     {
@@ -195,13 +195,13 @@ const content: ToolContent = {
       answer: `Ja. Med en kommersiell licens har du fulla rättigheter att sälja skattjakt arbetsblad som digitala nedladdningar på Etsy, tryckta arbetsböcker på Amazon KDP, produktlinjesresurser på Gumroad eller genom vilken annan försäljningskanal som helst. De två riktningstyper, 5×5 koordinatrutnätet, fullt lokaliserade riktningsledtrådar på 11 språk, automatiskt genererade facit med markerade skattceller, tre bildinmatningsmetoder och 104 tematiska bildsamlingar ger dig allt du behöver för att skapa professionella skattjaktsprodukter som konkurrerar i aktivitetsbladskategorier på varje stor marknadsplats.`,
     },
     {
-      question: 'Vad är er återbetalningspolicy?',
+      question: `Vad är er återbetalningspolicy?`,
       answer: `Prova innan du köper med vår kostnadsfria provversion — alla funktioner finns tillgängliga så att du kan utvärdera verktyget fullt ut innan du köper. Eftersom den kostnadsfria provversionen ger dig fullständig tillgång till båda riktningstyper, 5×5 koordinatrutnätet, 6-bilds pusselgenerering med 4 riktningsrörelser, det automatiskt genererade facit med markerad skattcell, alla 104 teman, tre bildinmatningsmetoder, bakgrunds- och ramteman, språkval för 11 lokaliserade riktningsset, gråskaleexport och alla nedladdningsformat erbjuder vi inga återbetalningar på licensköp. Se till att verktyget passar dina behov med den kostnadsfria provversionen innan du köper.`,
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'skattjakt-arbetsblad', anchorText: 'Skattjakt — Fullständig produktinformation' },
+    { pageType: 'app', slug: 'skattjakt-arbetsblad', anchorText: `Skattjakt — Fullständig produktinformation` },
     { pageType: 'tool', slug: 'bildkorsord-skapare', anchorText: 'Bildkorsord Skapare' },
     { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Skapare' },
     { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Hitta Föremålen Skapare' },
@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/treasure hunt/Skattjakt%201.webp',
+      primary: `/samples/swedish/treasure hunt/Skattjakt%201.webp`,
       primaryAlt: `Skattjakt vägfinnande arbetsblad med 5 gånger 5 koordinatrutnät, 6 spridda tematiska bilder som landmärken, riktningsledtrådar och skattjakt-tematiserad tealrubrik med gyllene titel`,
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%202.webp',
+        src: `/samples/swedish/treasure hunt/Skattjakt%202.webp`,
         alt: `Skattjakt pussel arbetsblad med riktningsledtrådar på ett 5 gånger 5 koordinatrutnät med tematiska landmärken`,
         caption: `Riktningsledtrådar — sekventiella rörelseinstruktioner leder till den gömda skatten`,
       },
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%203.webp',
+        src: `/samples/swedish/treasure hunt/Skattjakt%203.webp`,
         alt: `Skattjakt arbetsblad med kardinala riktningar norr söder öster väster på 5 gånger 5 rutnät`,
         caption: `Kardinalläge — kompassriktningar för avancerat rumsligt resonemang och kartfärdigheter`,
       },
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%204.webp',
+        src: `/samples/swedish/treasure hunt/Skattjakt%204.webp`,
         alt: `Skattjakt pussel med djurtema och spridda landmärkesbilder på koordinatrutnät`,
         caption: `Tematiskt pussel — djurbilder som landmärken gör rutnätet engagerande för unga lösare`,
       },

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur d\'Addition Codée | Puzzles Mathématiques',
     metaDescription:
-      `Créez des puzzles d'addition codée pour Etsy, KDP et Gumroad. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, export 400+ DPI. Essai gratuit avec filigrane.`,
+      'Créez des puzzles d’addition codée pour Etsy, KDP et Gumroad. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
   },
 
   hero: {

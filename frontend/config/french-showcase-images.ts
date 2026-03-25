@@ -35,12 +35,12 @@ export const frenchImages: Record<string, FrenchImageSet> = {
   subtraction: {
     folder: 'subtraction',
     imgs: [
-      "Soustractions Amusantes 1.webp",
-      "Soustractions Amusantes 2.webp",
-      "Soustractions Amusantes 3.webp",
-      "Soustractions Amusantes 4.webp",
+      'Soustractions Amusantes 1.webp',
+      'Soustractions Amusantes 2.webp',
+      'Soustractions Amusantes 3.webp',
+      'Soustractions Amusantes 4.webp',
       'worksheet.webp',
-      "Soustractions Amusantes 1.webp",
+      'Soustractions Amusantes 1.webp',
     ],
     answerKey: 'answer_key.webp',
   },
@@ -54,7 +54,7 @@ export const frenchImages: Record<string, FrenchImageSet> = {
       'image_addition_worksheet.webp',
       'Code Secret Addition 1.webp',
     ],
-    answerKey: "image_addition_answer_key.webp",
+    answerKey: 'image_addition_answer_key.webp',
   },
   'more-less': {
     folder: 'more less',
@@ -126,7 +126,7 @@ export const frenchImages: Record<string, FrenchImageSet> = {
       'Devine le Mot 5.webp',
       'Devine le Mot 1.webp',
     ],
-    answerKey: "Devine le Mot 1 answer-key.webp",
+    answerKey: 'Devine le Mot 1 answer-key.webp',
   },
   'word-scramble': {
     folder: 'word scramble',
@@ -162,7 +162,7 @@ export const frenchImages: Record<string, FrenchImageSet> = {
       'Cryptogramme en Images 5.webp',
       'Cryptogramme en Images 1.webp',
     ],
-    answerKey: "Cryptogramme en Images 1 answer_key.webp",
+    answerKey: 'Cryptogramme en Images 1 answer_key.webp',
   },
   crossword: {
     folder: 'crossword',
@@ -195,10 +195,10 @@ export const frenchImages: Record<string, FrenchImageSet> = {
       'Grand ou Petit 2.webp',
       'Grand ou Petit 3.webp',
       'Grand ou Petit 4.webp',
-      "big-small-worksheet_worksheet.webp",
+      'big-small-worksheet_worksheet.webp',
       'Grand ou Petit 1.webp',
     ],
-    answerKey: "big-small-worksheet_answer_key.webp",
+    answerKey: 'big-small-worksheet_answer_key.webp',
   },
   'pattern-train': {
     folder: 'pattern train',
@@ -210,7 +210,7 @@ export const frenchImages: Record<string, FrenchImageSet> = {
       'Train à Motifs 5.webp',
       'Train à Motifs 1.webp',
     ],
-    answerKey: "Train à Motifs 2 answer_key (2).webp",
+    answerKey: 'Train à Motifs 2 answer_key (2).webp',
   },
   'pattern-worksheet': {
     folder: 'pattern worksheet',
@@ -239,14 +239,14 @@ export const frenchImages: Record<string, FrenchImageSet> = {
   'drawing-lines': {
     folder: 'drawing lines',
     imgs: [
-      "Pratique de Tracer des Lignes 1.webp",
-      "Pratique de Tracer des Lignes 2.webp",
-      "Pratique de Tracer des Lignes 3.webp",
-      "Pratique de Tracer des Lignes 4.webp",
-      "Pratique de Tracer des Lignes 5.webp",
-      "Pratique de Tracer des Lignes 6.webp",
+      'Pratique de Tracer des Lignes 1.webp',
+      'Pratique de Tracer des Lignes 2.webp',
+      'Pratique de Tracer des Lignes 3.webp',
+      'Pratique de Tracer des Lignes 4.webp',
+      'Pratique de Tracer des Lignes 5.webp',
+      'Pratique de Tracer des Lignes 6.webp',
     ],
-    answerKey: "Pratique de Tracer des Lignes 1.webp",
+    answerKey: 'Pratique de Tracer des Lignes 1.webp',
   },
   coloring: {
     folder: 'coloring',
@@ -294,7 +294,7 @@ export const frenchImages: Record<string, FrenchImageSet> = {
       'Puzzle Grille 5.webp',
       'Puzzle Grille 1.webp',
     ],
-    answerKey: "Puzzle Grille 1 answer_key.webp",
+    answerKey: 'Puzzle Grille 1 answer_key.webp',
   },
   'shadow-match': {
     folder: 'shadow match',

@@ -36,9 +36,9 @@ export interface CompareSlugConfig {
  * English-only for now; add localized slugs as translations are created.
  */
 export const comparePageSlugs: CompareSlugConfig[] = [
-  { compareId: 'lcs-vs-book-bolt', slugs: { en: "lessoncraftstudio-vs-book-bolt" } },
-  { compareId: 'best-puzzle-book-software', slugs: { en: "best-puzzle-book-software-2026" } },
-  { compareId: 'lcs-vs-canva', slugs: { en: "lessoncraftstudio-vs-canva-printables" } },
+  { compareId: 'lcs-vs-book-bolt', slugs: { en: 'lessoncraftstudio-vs-book-bolt' } },
+  { compareId: 'best-puzzle-book-software', slugs: { en: 'best-puzzle-book-software-2026' } },
+  { compareId: 'lcs-vs-canva', slugs: { en: 'lessoncraftstudio-vs-canva-printables' } },
 ];
 
 /**
@@ -84,7 +84,7 @@ export function getAllComparePageSlugs(): { locale: SupportedLocale; slug: strin
 /**
  * Get alternate language URLs for hreflang tags
  */
-export function getCompareAlternateUrls(compareId: string, baseUrl: string = "https://www.lessoncraftstudio.com"): Record<string, string> {
+export function getCompareAlternateUrls(compareId: string, baseUrl: string = 'https://www.lessoncraftstudio.com'): Record<string, string> {
   const config = comparePageSlugs.find(c => c.compareId === compareId);
   if (!config) return {};
 

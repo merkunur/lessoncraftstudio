@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Multi-Word Phrase Support for Complex Vocabulary',
         description:
-          'Image names and custom entries that contain spaces render as separate word groups on the puzzle grid, with clear spacing between each word. This means compound terms like "polar bear" or "fire truck" display naturally as two connected word grids rather than one long string. Solvers work through each word independently while understanding they form a single concept. This feature expands your vocabulary scope far beyond single nouns, enabling animal species, food dishes, place names, and descriptive phrases.',
+          'Image names and custom entries that contain spaces render as separate word groups on the puzzle grid, with clear spacing between each word. This means compound terms like “polar bear” or “fire truck” display naturally as two connected word grids rather than one long string. Solvers work through each word independently while understanding they form a single concept. This feature expands your vocabulary scope far beyond single nouns, enabling animal species, food dishes, place names, and descriptive phrases.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
@@ -126,14 +126,14 @@ const content: AppContent = {
       {
         title: 'Multilingual Vocabulary Products with Full Access',
         description:
-          'Full Access unlocks all 11 languages, and because Word Guess is language-sensitive, the target word changes by language. "Dog" in English becomes "Hund" in German, "chien" in French, "perro" in Spanish. Each language version is a genuinely different product with different words, different letter counts, and different puzzle solutions. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
+          'Full Access unlocks all 11 languages, and because Word Guess is language-sensitive, the target word changes by language. “Dog” in English becomes “Hund” in German, “chien” in French, “perro” in Spanish. Each language version is a genuinely different product with different words, different letter counts, and different puzzle solutions. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: 'Custom Vocabulary Packs for Your Own Store',
+        title: ‘Custom Vocabulary Packs for Your Own Store’,
         description:
-          'Use Custom Word List mode to create word guess worksheets for any vocabulary list — spelling words, science terms, geography vocabulary, or foreign language practice. Type your words directly without needing matching images. Adjust difficulty level to target different skill tiers: Easy for beginners, No Clues for advanced solvers. Generate complete sets in minutes and list them on your own website or storefront. The automatic answer key adds professional value, and the hangman-style format drives repeat purchases compared to plain word-list printables.',
-        platform: 'Your Own Store / Shopify / WooCommerce',
+          ‘Use Custom Word List mode to create word guess worksheets for any vocabulary list — spelling words, science terms, geography vocabulary, or foreign language practice. Type your words directly without needing matching images. Adjust difficulty level to target different skill tiers: Easy for beginners, No Clues for advanced solvers. Generate complete sets in minutes and list them on your own website or storefront. The automatic answer key adds professional value, and the hangman-style format drives repeat purchases compared to plain word-list printables.’,
+        platform: ‘Your Own Store / Shopify / WooCommerce’,
       },
     ],
   },
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'How does Multi-Word Phrase Support work?',
       answer:
-        'Words or image names that contain spaces (like "polar bear" or "fire truck") render as separate word groups on the puzzle grid with clear spacing between them. Solvers work through each word independently while understanding they form a single concept. This works with all three content sources and all four difficulty levels.',
+        'Words or image names that contain spaces (like “polar bear” or “fire truck”) render as separate word groups on the puzzle grid with clear spacing between them. Solvers work through each word independently while understanding they form a single concept. This works with all three content sources and all four difficulty levels.',
     },
     {
       question: 'Can I choose between uppercase and lowercase letters?',
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does Manual Edit Mode differ from the Image Library?',
       answer:
-        `In standard Image Library mode, the word to guess is the image's built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.`,
+        ‘In standard Image Library mode, the word to guess is the image’s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.’,
     },
     {
       question: 'What can I do with Custom Word List mode?',
@@ -182,7 +182,7 @@ const content: AppContent = {
     {
       question: 'Is the Word Guess generator language-sensitive?',
       answer:
-        'Yes. Because the word to guess is the image name in the selected language, changing the language changes the puzzle content entirely. "Dog" in English becomes "Hund" in German, "chien" in French, "perro" in Spanish — each with different letters and different letter counts. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
+        'Yes. Because the word to guess is the image name in the selected language, changing the language changes the puzzle content entirely. “Dog” in English becomes “Hund” in German, “chien” in French, “perro” in Spanish — each with different letters and different letter counts. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
     },
     {
       question: 'Is there a free trial?',

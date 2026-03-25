@@ -26,7 +26,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'addition_worksheet.webp',
       'Additionsspa 1.webp',
     ],
-    answerKey: "Additionsspa 1 answer_key.webp",
+    answerKey: 'Additionsspa 1 answer_key.webp',
   },
   subtraction: {
     folder: 'subtraction',
@@ -50,7 +50,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'image_addition_worksheet.webp',
       'Code-Knacker Addition 1.webp',
     ],
-    answerKey: "Code-Knacker Addition 1 answer_key.webp",
+    answerKey: 'Code-Knacker Addition 1 answer_key.webp',
   },
   'more-less': {
     folder: 'more less',
@@ -62,7 +62,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Mehr Weniger 1.webp',
     ],
-    answerKey: "Mehr Weniger 1 answer_key.webp",
+    answerKey: 'Mehr Weniger 1 answer_key.webp',
   },
   'math-puzzle': {
     folder: 'math puzzle',
@@ -74,7 +74,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Mathe-Rätsel 1.webp',
     ],
-    answerKey: "Mathe-Rätsel 1 answer_key.webp",
+    answerKey: 'Mathe-Rätsel 1 answer_key.webp',
   },
   'math-worksheet': {
     folder: 'math worksheet',
@@ -134,7 +134,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'word-scramble_worksheet.webp',
       'Buchstabensala 1.webp',
     ],
-    answerKey: "Buchstabensala 1 answer-key.webp",
+    answerKey: 'Buchstabensala 1 answer-key.webp',
   },
   wordsearch: {
     folder: 'wordsearch',
@@ -158,7 +158,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'Bilder-Kryptogramm 5.webp',
       'Bilder-Kryptogramm 1.webp',
     ],
-    answerKey: "Bilder-Kryptogramm 1 answer_key.webp",
+    answerKey: 'Bilder-Kryptogramm 1 answer_key.webp',
   },
   crossword: {
     folder: 'crossword',
@@ -187,14 +187,14 @@ export const germanImages: Record<string, GermanImageSet> = {
   'big-small': {
     folder: 'big small',
     imgs: [
-      "big-small-worksheet_worksheet.webp",
-      "big-small-worksheet_answer_key.webp",
-      "big-small-worksheet_worksheet.webp",
-      "big-small-worksheet_answer_key.webp",
-      "big-small-worksheet_worksheet.webp",
-      "big-small-worksheet_answer_key.webp",
+      'big-small-worksheet_worksheet.webp',
+      'big-small-worksheet_answer_key.webp',
+      'big-small-worksheet_worksheet.webp',
+      'big-small-worksheet_answer_key.webp',
+      'big-small-worksheet_worksheet.webp',
+      'big-small-worksheet_answer_key.webp',
     ],
-    answerKey: "big-small-worksheet_answer_key.webp",
+    answerKey: 'big-small-worksheet_answer_key.webp',
   },
   'pattern-train': {
     folder: 'pattern train',
@@ -266,7 +266,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Bilddiagramm 1.webp',
     ],
-    answerKey: "Bilddiagramm 1 answer_key.webp",
+    answerKey: 'Bilddiagramm 1 answer_key.webp',
   },
   matching: {
     folder: 'matching',
@@ -278,7 +278,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Paare Finden 1.webp',
     ],
-    answerKey: "Paare Finden 1 answer_key.webp",
+    answerKey: 'Paare Finden 1 answer_key.webp',
   },
   'grid-match': {
     folder: 'grid match',
@@ -290,7 +290,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'Raster-Puzzle 5.webp',
       'Raster-Puzzle 1.webp',
     ],
-    answerKey: "Raster-Puzzle 1 answer_key.webp",
+    answerKey: 'Raster-Puzzle 1 answer_key.webp',
   },
   'shadow-match': {
     folder: 'shadow match',
@@ -300,9 +300,9 @@ export const germanImages: Record<string, GermanImageSet> = {
       'Schatten Zuordnen 3.webp',
       'Schatten Zuordnen 4.webp',
       'shadow-match-worksheet.webp',
-      "shadow-match-worksheet (1).webp",
+      'shadow-match-worksheet (1).webp',
     ],
-    answerKey: "Schatten Zuordnen 1 answer-key.webp",
+    answerKey: 'Schatten Zuordnen 1 answer-key.webp',
   },
   bingo: {
     folder: 'bingo',
@@ -326,7 +326,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet_2026-01-15.webp',
       'Bilder Sortieren 1.webp',
     ],
-    answerKey: "Bilder Sortieren 1 answer_key.webp",
+    answerKey: 'Bilder Sortieren 1 answer_key.webp',
   },
   'missing-pieces': {
     folder: 'missing pieces',
@@ -338,7 +338,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Fehlende Teile 1.webp',
     ],
-    answerKey: "Fehlende Teile 1 answer_key.webp",
+    answerKey: 'Fehlende Teile 1 answer_key.webp',
   },
   'odd-one-out': {
     folder: 'odd one out',
@@ -350,7 +350,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Finde das Andere 1.webp',
     ],
-    answerKey: "Finde das Andere 1 answer-key.webp",
+    answerKey: 'Finde das Andere 1 answer-key.webp',
   },
   sudoku: {
     folder: 'sudoku',
@@ -362,7 +362,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'sudoku_worksheet.webp',
       'Bilder-Sudoku 1.webp',
     ],
-    answerKey: "Bilder-Sudoku 1 answer_key.webp",
+    answerKey: 'Bilder-Sudoku 1 answer_key.webp',
   },
   'picture-path': {
     folder: 'picture path',
@@ -374,7 +374,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'Bilderpfad 5.webp',
       'Bilderpfad 1.webp',
     ],
-    answerKey: "Bilderpfad 1 answer_key (1).webp",
+    answerKey: 'Bilderpfad 1 answer_key (1).webp',
   },
   'find-and-count': {
     folder: 'find and count',
@@ -386,7 +386,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'worksheet.webp',
       'Ich sehe was 1.webp',
     ],
-    answerKey: "Ich sehe was 1 answer_key.webp",
+    answerKey: 'Ich sehe was 1 answer_key.webp',
   },
   'find-objects': {
     folder: 'find objects',
@@ -398,7 +398,7 @@ export const germanImages: Record<string, GermanImageSet> = {
       'Finde das Unpassende (3).webp',
       'Finde das Unpassende.webp',
     ],
-    answerKey: "Finde das Unpassende 1 answer_key.webp",
+    answerKey: 'Finde das Unpassende 1 answer_key.webp',
   },
   'treasure-hunt': {
     folder: 'treasure hunt',

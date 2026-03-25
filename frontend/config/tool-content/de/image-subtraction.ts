@@ -29,27 +29,27 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Subtraktions-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Subtraktions-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
       },
       {
         title: 'Den Übungsmodus wählen',
-        description: 'Öffnen Sie das Panel „Übungskonfiguration“ und wählen Sie aus vier leistungsstarken Modi: Durchstreichen zeigt eine vollständige Bildergruppe und zeichnet diagonale X-Markierungen durch die abgezogenen Elemente — der intuitivste Modus für junge Lernende, um Abziehen visuell zu begreifen. Bild − Zahl kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkretem und abstraktem Denken. Subtrahend finden zeigt den Minuenden und das Ergebnis — das Kind muss herausfinden, wie viele weggenommen wurden, was frühes algebraisches Denken fördert. Der Gemischte Modus kombiniert alle drei Stile zufällig auf einem einzigen Blatt für maximale Abwechslung.',
+        description: 'Öffnen Sie das Panel \"Übungskonfiguration\" und wählen Sie aus vier leistungsstarken Modi: Durchstreichen zeigt eine vollständige Bildergruppe und zeichnet diagonale X-Markierungen durch die abgezogenen Elemente — der intuitivste Modus für junge Lernende, um Abziehen visuell zu begreifen. Bild − Zahl kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkretem und abstraktem Denken. Subtrahend finden zeigt den Minuenden und das Ergebnis — das Kind muss herausfinden, wie viele weggenommen wurden, was frühes algebraisches Denken fördert. Der Gemischte Modus kombiniert alle drei Stile zufällig auf einem einzigen Blatt für maximale Abwechslung.',
       },
       {
         title: 'Den Schwierigkeitsgrad einstellen',
-        description: 'Passen Sie den Regler für den „Maximalen Minuenden“ an, um die größte Ausgangszahl in jeder Subtraktionsaufgabe zu steuern (Bereich: 2–20). Für Vorschul-Nische empfiehlt sich ein Maximum von 5, für den Kindergarten bis 10 und für Erstklassen der volle Bereich bis 20. Der Generator stellt automatisch sicher, dass der Subtrahend immer kleiner als der Minuend ist, sodass jede Aufgabe ein gültiges Ergebnis liefert. Legen Sie außerdem die Anzahl der Aufgaben pro Arbeitsblatt fest — von einer einzelnen großen Aufgabe bis zu 10 kompakten Übungen pro Seite.',
+        description: 'Passen Sie den Regler für den \"Maximalen Minuenden\" an, um die größte Ausgangszahl in jeder Subtraktionsaufgabe zu steuern (Bereich: 2–20). Für Vorschul-Nische empfiehlt sich ein Maximum von 5, für den Kindergarten bis 10 und für Erstklassen der volle Bereich bis 20. Der Generator stellt automatisch sicher, dass der Subtrahend immer kleiner als der Minuend ist, sodass jede Aufgabe ein gültiges Ergebnis liefert. Legen Sie außerdem die Anzahl der Aufgaben pro Arbeitsblatt fest — von einer einzelnen großen Aufgabe bis zu 10 kompakten Übungen pro Seite.',
       },
       {
         title: 'Ein Thema aus der Bildbibliothek auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen mit insgesamt mehr als 3.100 Illustrationen: Tiere, Essen, Fahrzeuge, Meerestiere, Weltraum, Sport, Dinosaurier, Feiertage und vieles mehr. Nutzen Sie die integrierte Suchleiste, um bestimmte Themen sofort zu finden. Klicken Sie auf einzelne Bilder, um genau festzulegen, welche Illustrationen auf Ihrem Arbeitsblatt erscheinen sollen.',
+        description: 'Öffnen Sie das Panel \"Bildbibliothek\" und durchstöbern Sie über 100 thematische Bildersammlungen mit insgesamt mehr als 3.100 Illustrationen: Tiere, Essen, Fahrzeuge, Meerestiere, Weltraum, Sport, Dinosaurier, Feiertage und vieles mehr. Nutzen Sie die integrierte Suchleiste, um bestimmte Themen sofort zu finden. Klicken Sie auf einzelne Bilder, um genau festzulegen, welche Illustrationen auf Ihrem Arbeitsblatt erscheinen sollen.',
       },
       {
         title: 'Das Seitenlayout anpassen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie aus Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer vollständig benutzerdefinierten Größe. Legen Sie Ihre Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit stufenlos einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der umfangreichen Rahmenbibliothek. Passen Sie die Hintergrund-Deckkraft so an, dass die Durchstreich-Aufgaben perfekt lesbar bleiben.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie aus Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer vollständig benutzerdefinierten Größe. Legen Sie Ihre Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit stufenlos einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der umfangreichen Rahmenbibliothek. Passen Sie die Hintergrund-Deckkraft so an, dass die Durchstreich-Aufgaben perfekt lesbar bleiben.',
       },
       {
         title: 'Text und Titel hinzufügen',
-        description: 'Verwenden Sie das Panel „Textwerkzeuge“, um einen aussagekräftigen Titel wie „Durchstreichen — Subtraktionsübung“ oder „Abziehen lernen“ hinzuzufügen. Wählen Sie aus ansprechenden Schriftarten wie Fredoka, Baloo 2, Quicksand und Nunito. Passen Sie Schriftgröße, Farbe und optionale Textkontur für bessere Lesbarkeit über Hintergründen präzise an. Fügen Sie Ihren Shopnamen oder einen Urheberrechtshinweis hinzu, um Ihre Marke auf jedem Arbeitsblatt sichtbar zu machen.',
+        description: 'Verwenden Sie das Panel \"Textwerkzeuge\", um einen aussagekräftigen Titel wie \"Durchstreichen — Subtraktionsübung\" oder \"Abziehen lernen\" hinzuzufügen. Wählen Sie aus ansprechenden Schriftarten wie Fredoka, Baloo 2, Quicksand und Nunito. Passen Sie Schriftgröße, Farbe und optionale Textkontur für bessere Lesbarkeit über Hintergründen präzise an. Fügen Sie Ihren Shopnamen oder einen Urheberrechtshinweis hinzu, um Ihre Marke auf jedem Arbeitsblatt sichtbar zu machen.',
       },
       {
         title: 'Arbeitsblatt-Optionen feinabstimmen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf den „Generieren“-Button, um Ihr fertiges Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich in Echtzeit auf der Arbeitsfläche. Wenn Sie mit dem Ergebnis zufrieden sind, nutzen Sie das Dropdown-Menü „Herunterladen“, um als JPEG (Einzelbild für Mockups und Social Media) oder PDF (druckoptimiert für den Verkauf) zu speichern. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter — bei Durchstreich-Aufgaben sind die durchgestrichenen Bilder im Lösungsschlüssel deutlich markiert. Aktivieren Sie das Graustufen-Kästchen für tintenfreundliche Schwarz-Weiß-Exporte.',
+        description: 'Klicken Sie auf den \"Generieren\"-Button, um Ihr fertiges Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich in Echtzeit auf der Arbeitsfläche. Wenn Sie mit dem Ergebnis zufrieden sind, nutzen Sie das Dropdown-Menü \"Herunterladen\", um als JPEG (Einzelbild für Mockups und Social Media) oder PDF (druckoptimiert für den Verkauf) zu speichern. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter — bei Durchstreich-Aufgaben sind die durchgestrichenen Bilder im Lösungsschlüssel deutlich markiert. Aktivieren Sie das Graustufen-Kästchen für tintenfreundliche Schwarz-Weiß-Exporte.',
       },
     ],
   },
@@ -77,11 +77,11 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Subtraktions-Bündel',
-      description: 'Nutzen Sie Feiertags- und Saisonthemen wie Weihnachten, Halloween, Ostern, Frühlingsblumen und Sommerurlaub für aktuell verfügbare Bündel. Saisonale Produkte verkaufen sich auf Etsy.de besonders gut, weil Käufer in bestimmten Zeitfenstern gezielt danach suchen. Ein „Halloween-Durchstreich-Subtraktionspaket“ mit gruseligen Bildern ist ein garantierter Blickfang in den Suchergebnissen.',
+      description: 'Nutzen Sie Feiertags- und Saisonthemen wie Weihnachten, Halloween, Ostern, Frühlingsblumen und Sommerurlaub für aktuell verfügbare Bündel. Saisonale Produkte verkaufen sich auf Etsy.de besonders gut, weil Käufer in bestimmten Zeitfenstern gezielt danach suchen. Ein \"Halloween-Durchstreich-Subtraktionspaket\" mit gruseligen Bildern ist ein garantierter Blickfang in den Suchergebnissen.',
     },
     {
       title: 'Fehlende-Zahl-Arbeitsblätter',
-      description: 'Verwenden Sie den Subtrahend-finden-Modus exklusiv, um „Fehlende Zahl finden“-Subtraktionsblätter zu erstellen. Dieses Format ist bei Verkäufern der ersten und zweiten Klasse besonders beliebt, weil es frühes algebraisches Denken entwickelt. Verpacken Sie diese als separate Produktlinie neben Ihren Standard-Subtraktionspaketen für maximale Sortimentstiefe.',
+      description: 'Verwenden Sie den Subtrahend-finden-Modus exklusiv, um \"Fehlende Zahl finden\"-Subtraktionsblätter zu erstellen. Dieses Format ist bei Verkäufern der ersten und zweiten Klasse besonders beliebt, weil es frühes algebraisches Denken entwickelt. Verpacken Sie diese als separate Produktlinie neben Ihren Standard-Subtraktionspaketen für maximale Sortimentstiefe.',
     },
     {
       title: 'Mehrsprachige Subtraktions-Arbeitsblätter',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Lehrmaterial-Anbieter auf Gumroad',
-      description: 'Laden Sie gestufte Subtraktions-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer im deutschsprachigen Raum suchen ständig nach „Durchstreichen Subtraktion“ und „Abziehen Übungsblätter“. Fügen Sie alle vier Übungsmodi, Lösungsschlüssel und eine Verkäuferanleitung zu jeder Datei hinzu, um den wahrgenommenen Wert deutlich zu erhöhen und bessere Bewertungen sowie Wiederholungskäufe zu erzielen.',
+      description: 'Laden Sie gestufte Subtraktions-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer im deutschsprachigen Raum suchen ständig nach \"Durchstreichen Subtraktion\" und \"Abziehen Übungsblätter\". Fügen Sie alle vier Übungsmodi, Lösungsschlüssel und eine Verkäuferanleitung zu jeder Datei hinzu, um den wahrgenommenen Wert deutlich zu erhöhen und bessere Bewertungen sowie Wiederholungskäufe zu erzielen.',
       platform: 'Gumroad',
     },
     {
@@ -123,19 +123,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Mit dem Durchstreich-Modus für junge Lernende beginnen',
-      description: 'Durchstreichen ist das intuitivste Subtraktionsformat für Vorschul-Nische und Kindergartenkinder. Kinder sehen eine Bildergruppe, streichen einige durch und zählen, was übrig bleibt. Starten Sie jedes neue Produkt oder jede Produktlinie mit dem Durchstreich-Modus, bevor Sie andere Modi einführen — so wird das grundlegende Verständnis aufgebaut, dass Subtraktion „Wegnehmen“ bedeutet.',
+      description: 'Durchstreichen ist das intuitivste Subtraktionsformat für Vorschul-Nische und Kindergartenkinder. Kinder sehen eine Bildergruppe, streichen einige durch und zählen, was übrig bleibt. Starten Sie jedes neue Produkt oder jede Produktlinie mit dem Durchstreich-Modus, bevor Sie andere Modi einführen — so wird das grundlegende Verständnis aufgebaut, dass Subtraktion \"Wegnehmen\" bedeutet.',
     },
     {
       title: 'Den maximalen Minuenden niedrig halten für Einsteiger',
-      description: 'Stellen Sie den Regler für den maximalen Minuenden auf 5 für Vorschulprodukte und 10 für den Kindergarten. Kleine Kinder werden von großen Bildergruppen schnell überfordert. Erstellen Sie separate „Leicht“- (maximaler Minuend 5), „Mittel“- (maximaler Minuend 10) und „Herausforderung“-Versionen (maximaler Minuend 20), damit Käufer das passende Niveau flexibel wählen können.',
+      description: 'Stellen Sie den Regler für den maximalen Minuenden auf 5 für Vorschulprodukte und 10 für den Kindergarten. Kleine Kinder werden von großen Bildergruppen schnell überfordert. Erstellen Sie separate \"Leicht\"- (maximaler Minuend 5), \"Mittel\"- (maximaler Minuend 10) und \"Herausforderung\"-Versionen (maximaler Minuend 20), damit Käufer das passende Niveau flexibel wählen können.',
     },
     {
       title: 'Subtrahend finden für fortgeschrittene Nutzer einsetzen',
-      description: 'Der Subtrahend-finden-Modus zeigt die Ausgangsmenge und das Ergebnis, und das Kind muss herausfinden, wie viele weggenommen wurden. Das ist deutlich schwieriger und fördert frühes algebraisches Denken. Reservieren Sie diesen Modus für Erstklassen und darüber oder vermarkten Sie ihn als separate „Herausforderung“-Produktstufe in Ihrem Shop.',
+      description: 'Der Subtrahend-finden-Modus zeigt die Ausgangsmenge und das Ergebnis, und das Kind muss herausfinden, wie viele weggenommen wurden. Das ist deutlich schwieriger und fördert frühes algebraisches Denken. Reservieren Sie diesen Modus für Erstklassen und darüber oder vermarkten Sie ihn als separate \"Herausforderung\"-Produktstufe in Ihrem Shop.',
     },
     {
       title: 'Immer den Lösungsschlüssel beilegen',
-      description: 'Klicken Sie auf „Lösungsschlüssel generieren“, bevor Sie Ihr Arbeitsblatt herunterladen. Bei Durchstreich-Arbeitsblättern zeigt der Lösungsschlüssel, welche Bilder durchgestrichen sind, was die Korrektur sofort ermöglicht. Käufer auf Etsy.de und Gumroad bewerten Produkte durchgängig besser, wenn ein Lösungsschlüssel enthalten ist.',
+      description: 'Klicken Sie auf \"Lösungsschlüssel generieren\", bevor Sie Ihr Arbeitsblatt herunterladen. Bei Durchstreich-Arbeitsblättern zeigt der Lösungsschlüssel, welche Bilder durchgestrichen sind, was die Korrektur sofort ermöglicht. Käufer auf Etsy.de und Gumroad bewerten Produkte durchgängig besser, wenn ein Lösungsschlüssel enthalten ist.',
     },
     {
       title: 'Sowohl PDF als auch JPEG exportieren',
@@ -143,7 +143,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit Additions-Paketen zu Komplett-Bündeln kombinieren',
-      description: 'Erstellen Sie passende Additions- und Subtraktions-Arbeitsblatt-Sets mit demselben Thema und Schwierigkeitsgrad. Verkaufen Sie diese einzeln und als kombiniertes „Addition & Subtraktion“-Mega-Bündel mit leichtem Rabatt. Bündel-Produkte erzielen auf jedem Marktplatz höhere durchschnittliche Bestellwerte und steigern Ihren Umsatz pro Kunde erheblich.',
+      description: 'Erstellen Sie passende Additions- und Subtraktions-Arbeitsblatt-Sets mit demselben Thema und Schwierigkeitsgrad. Verkaufen Sie diese einzeln und als kombiniertes \"Addition & Subtraktion\"-Mega-Bündel mit leichtem Rabatt. Bündel-Produkte erzielen auf jedem Marktplatz höhere durchschnittliche Bestellwerte und steigern Ihren Umsatz pro Kunde erheblich.',
     },
     {
       title: 'Thematische Rahmen für Premium-Preise einsetzen',
@@ -173,7 +173,7 @@ const content: ToolContent = {
       answer: 'Im Durchstreich-Modus zeigt das Arbeitsblatt eine Bildergruppe, die den Minuenden darstellt. Diagonale X-Markierungen werden durch die abgezogene Anzahl von Bildern gezeichnet, und das Kind zählt die verbleibenden unmarkierten Bilder, um die Antwort zu finden. Das ist die visuellste und intuitivste Methode, um jungen Lernenden Subtraktion beizubringen. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
-      question: 'Was steuert die Einstellung „Maximaler Minuend“?',
+      question: 'Was steuert die Einstellung \"Maximaler Minuend\"?',
       answer: 'Der Regler für den maximalen Minuenden (Bereich 2–20) legt die größte Ausgangszahl in jeder Subtraktionsaufgabe fest. Wenn der maximale Minuend beispielsweise auf 10 eingestellt ist, zeigen die Aufgaben bis zu 10 Bilder. Niedrigere Werte sind einfacher für jüngere Kinder; höhere Werte bieten mehr Herausforderung für Fortgeschrittene. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
@@ -186,7 +186,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
-      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Bei Durchstreich-Arbeitsblättern zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass die Korrektur auf einen Blick möglich ist. Laden Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunter. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf \"Lösungsschlüssel generieren\", um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Bei Durchstreich-Arbeitsblättern zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass die Korrektur auf einen Blick möglich ist. Laden Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunter. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

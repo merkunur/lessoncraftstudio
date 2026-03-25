@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Alfabetståg Arbetsblad Generator',
     tagline: 'Skapa färgglada bokstavståg-arbetsblad med bild-till-bokstav matchning på 11 språk',
-    description: 'Bygg alfabet arbetsblad som inte ser ut som vanliga bokstavsspårningssidor. Detta verktyg arrangerar 11 livfulla tågvagnar över sidan, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget — användarna identifierar vilken bokstav varje bild börjar på och matchar den med rätt vagn. Välj mellan Autoskapa-läge (verktyget väljer slumpmässigt 11 bokstäver och tilldelar matchande bilder) eller Manuellt Val (handplocka varje bokstav från ett fullständigt alfabetsrutnät och tilldela varje bild själv). Justera svårigheten med ledtrådsräknaren: 3 ledtrådar för nybörjare, 5–7 för mellannivå, och 9–11 för avancerade användare som måste matcha nästan varje vagn. Den verkliga styrkan är språkkänslighet — välj bland 11 inhemska alfabet inklusive svenska (Å/Ä/Ö), tyska (Ä/Ö/Ü), spanska (Ñ) och fler. Samma bild paras med olika bokstäver på varje språk: «hund» matchar H på svenska men D på engelska (Dog). En arbetsbladsdesign blir 11 unika produkter. Bläddra bland mer än 3 100 bilder i 104 teman, eller ladda upp egna för varumärkta designer. Välj bland 7 typsnittsfamiljer och exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Bygg alfabet arbetsblad som inte ser ut som vanliga bokstavsspårningssidor. Detta verktyg arrangerar 11 livfulla tågvagnar över sidan, var och en med en bokstav och en matchande illustration. Spridda ledtrådsbilder visas bredvid tåget — användarna identifierar vilken bokstav varje bild börjar på och matchar den med rätt vagn. Välj mellan Autoskapa-läge (verktyget väljer slumpmässigt 11 bokstäver och tilldelar matchande bilder) eller Manuellt Val (handplocka varje bokstav från ett fullständigt alfabetsrutnät och tilldela varje bild själv). Justera svårigheten med ledtrådsräknaren: 3 ledtrådar för nybörjare, 5–7 för mellannivå, och 9–11 för avancerade användare som måste matcha nästan varje vagn. Den verkliga styrkan är språkkänslighet — välj bland 11 inhemska alfabet inklusive svenska (Å/Ä/Ö), tyska (Ä/Ö/Ü), spanska (Ñ) och fler. Samma bild paras med olika bokstäver på varje språk: \"hund\" matchar H på svenska men D på engelska (Dog). En arbetsbladsdesign blir 11 unika produkter. Bläddra bland mer än 3 100 bilder i 104 teman, eller ladda upp egna för varumärkta designer. Välj bland 7 typsnittsfamiljer och exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Alfabetståg Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
       },
       {
         title: 'Ställ in sidlayouten',
-        description: 'I avsnittet «Sidinställningar» väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket. Stående orientering fungerar bäst för tåglayouten.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket. Stående orientering fungerar bäst för tåglayouten.',
       },
       {
         title: 'Välj ditt skapandeläge',
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj bilder och tema',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 3 100 bilder i 104 tematiska samlingar: djur, mat, fordon, natur, högtider och fler. Använd sökfältet för att hitta specifika teman. Varje bild paras automatiskt med rätt bokstav baserat på det valda språket — samma kattbild paras med K på svenska men C på engelska (Cat). Ladda upp din egen PNG eller JPEG för varumärkta arbetsblad.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 3 100 bilder i 104 tematiska samlingar: djur, mat, fordon, natur, högtider och fler. Använd sökfältet för att hitta specifika teman. Varje bild paras automatiskt med rätt bokstav baserat på det valda språket — samma kattbild paras med K på svenska men C på engelska (Cat). Ladda upp din egen PNG eller JPEG för varumärkta arbetsblad.',
       },
       {
         title: 'Konfigurera ledtrådsantal och namn/datum-fält',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt alfabetståg arbetsblad. Förhandsvisningen uppdateras på arbetsytan. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Generera ett matchande facit som visar varje ledtrådsbild kopplad till sin korrekta vagn.',
+        description: 'Klicka på \"Generera\" för att bygga ditt alfabetståg arbetsblad. Förhandsvisningen uppdateras på arbetsytan. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Generera ett matchande facit som visar varje ledtrådsbild kopplad till sin korrekta vagn.',
       },
     ],
   },
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade alfabetståg-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Alfabetståg»-paket med festliga illustrationer säljer starkt i november–december. Skolstart, halloween, alla hjärtans dag och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett \"Jul Alfabetståg\"-paket med festliga illustrationer säljer starkt i november–december. Skolstart, halloween, alla hjärtans dag och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad litteracitetspaket',
-      description: 'Ladda upp nivågrupperade alfabetståg-paket till Gumroad. Inkludera arbetsblad på tre ledtrådsnivåer, en lärarguide som förklarar tågformatet och facit för varje sida. säljare söker ständigt efter «alfabet aktiviteter» och «bokstavsigenkänning arbetsblad». Det visuella tågformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Erbjud Autoskapa-paket för variation och Manuellt Val-paket för produktkatalogsanpassade bokstavsgrupper.',
+      description: 'Ladda upp nivågrupperade alfabetståg-paket till Gumroad. Inkludera arbetsblad på tre ledtrådsnivåer, en lärarguide som förklarar tågformatet och facit för varje sida. säljare söker ständigt efter \"alfabet aktiviteter\" och \"bokstavsigenkänning arbetsblad\". Det visuella tågformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Erbjud Autoskapa-paket för variation och Manuellt Val-paket för produktkatalogsanpassade bokstavsgrupper.',
       platform: 'Gumroad',
     },
     {
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med andra litteracitetsverktyg',
-      description: 'Kombinera alfabetståg arbetsblad med skrivövningar, ordsökningspussel och ordpussel aktiviteter för att skapa omfattande litteracitetspaket. Ett «Komplett Bokstavsinlärning»-paket med flera aktivitetstyper motiverar ett högre pris än något enskilt arbetsbladsformat.',
+      description: 'Kombinera alfabetståg arbetsblad med skrivövningar, ordsökningspussel och ordpussel aktiviteter för att skapa omfattande litteracitetspaket. Ett \"Komplett Bokstavsinlärning\"-paket med flera aktivitetstyper motiverar ett högre pris än något enskilt arbetsbladsformat.',
     },
     {
       title: 'Para ihop med Mönstertåg för ett tågtema-paket',
-      description: 'Mönstertåg-skaparen använder samma tågvagns visuella format men fokuserar på mönsterigenkänning istället för bokstäver. Paketera båda verktygens utmatning till ett «Tågaktiviteter» megapaket som täcker litteracitet och logikfärdigheter. Den matchande visuella stilen skapar en sammanhängande produktlinje.',
+      description: 'Mönstertåg-skaparen använder samma tågvagns visuella format men fokuserar på mönsterigenkänning istället för bokstäver. Paketera båda verktygens utmatning till ett \"Tågaktiviteter\" megapaket som täcker litteracitet och logikfärdigheter. Den matchande visuella stilen skapar en sammanhängande produktlinje.',
     },
   ],
 
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild»-knappen för att använda dina egna PNG- eller JPEG-filer. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer, skolmaskotbilder eller licensierat konstverk som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på \"Ladda Upp Bild\"-knappen för att använda dina egna PNG- eller JPEG-filer. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer, skolmaskotbilder eller licensierat konstverk som ingen annan säljare kan replikera.',
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',

@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Gere a Ficha de Puzzle de Quadrícula',
         description:
-          'Clique em Gerar para criar o puzzle de quadrícula. A aplicação divide a imagem selecionada na grelha configurada, revela as caselas-dica com as peças de imagem reais visíveis e marca as células restantes com marcadores «?». Todas as peças são misturadas usando o algoritmo Fisher-Yates e apresentadas como paleta numerada. Os layouts verticais colocam a grelha no topo com a paleta abaixo; os layouts horizontais posicionam a grelha à esquerda com a paleta à direita. Um cabeçalho estilizado aparece com fundo ciano (#00BCD4), título violeta profundo (#6A1B9A) e moldura laranja (#FF8C42) mostrando «Puzzle Quadrícula» e instruções no idioma selecionado.',
+          'Clique em Gerar para criar o puzzle de quadrícula. A aplicação divide a imagem selecionada na grelha configurada, revela as caselas-dica com as peças de imagem reais visíveis e marca as células restantes com marcadores \"?\". Todas as peças são misturadas usando o algoritmo Fisher-Yates e apresentadas como paleta numerada. Os layouts verticais colocam a grelha no topo com a paleta abaixo; os layouts horizontais posicionam a grelha à esquerda com a paleta à direita. Um cabeçalho estilizado aparece com fundo ciano (#00BCD4), título violeta profundo (#6A1B9A) e moldura laranja (#FF8C42) mostrando \"Puzzle Quadrícula\" e instruções no idioma selecionado.',
       },
       {
         title: 'Gere o Gabarito e Descarregue',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Como funciona o puzzle de quadrícula para os usuários?',
       answer:
-        'A ficha de trabalho mostra uma grelha onde algumas células apresentam a peça de imagem real (caselas-dica) e as células restantes mostram marcadores «?». Abaixo ou ao lado da grelha, uma paleta numerada apresenta todas as peças ocultas em ordem aleatória. Os usuários examinam as caselas-dica, estudam as peças numeradas e determinam qual número corresponde a cada posição vazia da grelha. O exercício requer raciocínio espacial — associar o conteúdo da peça à sua localização correta na imagem completa.',
+        'A ficha de trabalho mostra uma grelha onde algumas células apresentam a peça de imagem real (caselas-dica) e as células restantes mostram marcadores \"?\". Abaixo ou ao lado da grelha, uma paleta numerada apresenta todas as peças ocultas em ordem aleatória. Os usuários examinam as caselas-dica, estudam as peças numeradas e determinam qual número corresponde a cada posição vazia da grelha. O exercício requer raciocínio espacial — associar o conteúdo da peça à sua localização correta na imagem completa.',
     },
     {
       question: 'Como funciona o gabarito gerado automaticamente?',

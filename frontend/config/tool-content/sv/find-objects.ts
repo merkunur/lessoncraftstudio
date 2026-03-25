@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Dolda Objekt Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn. Verktyget laddas direkt med dubbelfliks arbetsyta. Inget konto, ingen nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget laddas direkt med dubbelfliks arbetsyta. Inget konto, ingen nedladdning krävs.',
       },
       {
         title: 'Ställ in sidlayouten',

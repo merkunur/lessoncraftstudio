@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Aprire il generatore',
-        description: 'Fai clic su «Prova gratuita» per avviare il generatore di addizione codificata nel browser. La barra laterale scura a sinistra contiene tutte le impostazioni; l\'area luminosa a destra mostra l\'anteprima in tempo reale. Nessun account, nessun download, nessun plugin necessario.',
+        description: 'Fai clic su \"Prova gratuita\" per avviare il generatore di addizione codificata nel browser. La barra laterale scura a sinistra contiene tutte le impostazioni; l\'area luminosa a destra mostra l\'anteprima in tempo reale. Nessun account, nessun download, nessun plugin necessario.',
       },
       {
         title: 'Impostare il numero di simboli',
-        description: 'Nel pannello «Configurazione esercizio» usa il menu a tendina Numero di simboli per scegliere quanti simboli-immagine compaiono nel codice. Meno simboli (3–4) sono più facili per i principianti; più simboli (6–8) creano una sfida logica più impegnativa. Nella Modalità Normale ogni simbolo nasconde un numero segreto unico.',
+        description: 'Nel pannello \"Configurazione esercizio\" usa il menu a tendina Numero di simboli per scegliere quanti simboli-immagine compaiono nel codice. Meno simboli (3–4) sono più facili per i principianti; più simboli (6–8) creano una sfida logica più impegnativa. Nella Modalità Normale ogni simbolo nasconde un numero segreto unico.',
       },
       {
         title: 'Scegliere gli addendi per equazione',
@@ -44,19 +44,19 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Selezionare le immagini dalla libreria tematica',
-        description: 'Apri il pannello «Libreria immagini» e sfoglia oltre 100 collezioni tematiche: animali, cibo, veicoli, spazio, festività e molto altro. Ogni immagine diventa un simbolo nel codice. Usa la barra di ricerca per trovare temi specifici oppure clicca sulle singole immagini per scegliere esattamente i simboli desiderati.',
+        description: 'Apri il pannello \"Libreria immagini\" e sfoglia oltre 100 collezioni tematiche: animali, cibo, veicoli, spazio, festività e molto altro. Ogni immagine diventa un simbolo nel codice. Usa la barra di ricerca per trovare temi specifici oppure clicca sulle singole immagini per scegliere esattamente i simboli desiderati.',
       },
       {
         title: 'Personalizzare il layout della pagina',
-        description: 'Nella sezione «Impostazioni pagina» scegli il formato (Letter, A4, Quadrato o dimensioni personalizzate), imposta il colore di sfondo, aggiungi un\'immagine di sfondo tematica con opacità regolabile e seleziona un bordo decorativo dalla libreria bordi. Il formato quadrato è ideale per i libri di attività Amazon KDP.',
+        description: 'Nella sezione \"Impostazioni pagina\" scegli il formato (Letter, A4, Quadrato o dimensioni personalizzate), imposta il colore di sfondo, aggiungi un\'immagine di sfondo tematica con opacità regolabile e seleziona un bordo decorativo dalla libreria bordi. Il formato quadrato è ideale per i libri di attività Amazon KDP.',
       },
       {
         title: 'Aggiungere testo e branding',
-        description: 'Usa il pannello «Strumenti testo» per aggiungere un titolo come «Decifra il codice!» o «Sfida del codice segreto». Aggiungi un campo per il nome dell\'utente, istruzioni o il logo del tuo negozio. Scegli tra font accattivanti (Fredoka, Baloo 2, Quicksand, Nunito) e regola dimensione, colore e contorno del testo.',
+        description: 'Usa il pannello \"Strumenti testo\" per aggiungere un titolo come \"Decifra il codice!\" o \"Sfida del codice segreto\". Aggiungi un campo per il nome dell\'utente, istruzioni o il logo del tuo negozio. Scegli tra font accattivanti (Fredoka, Baloo 2, Quicksand, Nunito) e regola dimensione, colore e contorno del testo.',
       },
       {
         title: 'Generare e scaricare',
-        description: 'Fai clic su «Genera» per creare il tuo puzzle. L\'anteprima si aggiorna istantaneamente nell\'area di lavoro. Scarica come JPEG per i mockup dei prodotti o come PDF per i materiali pronti per la stampa. Genera e scarica anche la chiave di valore percepito corrispondente che mostra tutti i numeri segreti (o le lettere e la parola nella Modalità Rivela Parola).',
+        description: 'Fai clic su \"Genera\" per creare il tuo puzzle. L\'anteprima si aggiorna istantaneamente nell\'area di lavoro. Scarica come JPEG per i mockup dei prodotti o come PDF per i materiali pronti per la stampa. Genera e scarica anche la chiave di valore percepito corrispondente che mostra tutti i numeri segreti (o le lettere e la parola nella Modalità Rivela Parola).',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Libri di attività Rivela Parola',
-      description: 'Usa la Modalità Rivela Parola per creare libri di puzzle in cui gli utenti risolvono equazioni di addizione per svelare parole nascoste. Scegli parole di vocabolario, parole ad alta frequenza o termini stagionali come segreti. Le lettere distratrici integrate aggiungono un livello extra di sfida che mantiene gli utenti concentrati. Per gli editori KDP, un libro Rivela Parola con vocaboli per la scuola primaria è un prodotto di nicchia forte — i genitori che cercano «attività parole segrete» su Amazon trovano raramente puzzle crittaritmetici, il che significa meno concorrenza diretta.',
+      description: 'Usa la Modalità Rivela Parola per creare libri di puzzle in cui gli utenti risolvono equazioni di addizione per svelare parole nascoste. Scegli parole di vocabolario, parole ad alta frequenza o termini stagionali come segreti. Le lettere distratrici integrate aggiungono un livello extra di sfida che mantiene gli utenti concentrati. Per gli editori KDP, un libro Rivela Parola con vocaboli per la scuola primaria è un prodotto di nicchia forte — i genitori che cercano \"attività parole segrete\" su Amazon trovano raramente puzzle crittaritmetici, il che significa meno concorrenza diretta.',
     },
     {
       title: 'Quaderni crittaritmetici per KDP',
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Serie di libri puzzle su Amazon KDP',
-      description: 'Pubblica una serie di libri crittaritmetici su KDP: «Codice Segreto Matematica: Edizione Animali», «Codice Segreto Matematica: Edizione Spazio» e così via. Ogni libro contiene 80–100 puzzle con difficoltà progressiva. Prezzo a 7,99–9,99 € e lascia che Amazon gestisca stampa e spedizione. I libri di puzzle hanno ottime margini su KDP.',
+      description: 'Pubblica una serie di libri crittaritmetici su KDP: \"Codice Segreto Matematica: Edizione Animali\", \"Codice Segreto Matematica: Edizione Spazio\" e così via. Ogni libro contiene 80–100 puzzle con difficoltà progressiva. Prezzo a 7,99–9,99 € e lascia che Amazon gestisca stampa e spedizione. I libri di puzzle hanno ottime margini su KDP.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Pacchetto catalogo prodotti digitale su Gumroad',
-      description: 'Crea un programma strutturato di 8 settimane «Codice Segreto Matematica» con set di puzzle settimanali. La settimana 1 inizia con 3 simboli, la settimana 8 finisce con addendi misti e sfide Rivela Parola. Vendi come download premium (12–15 €) su Gumroad. I genitori homeschooler pagano volentieri per programmi completi e strutturati. Includi una guida di una pagina che spiega come usare i puzzle di ogni settimana, quali competenze sviluppa ogni livello di difficoltà e come valutare i progressi degli utenti.',
+      description: 'Crea un programma strutturato di 8 settimane \"Codice Segreto Matematica\" con set di puzzle settimanali. La settimana 1 inizia con 3 simboli, la settimana 8 finisce con addendi misti e sfide Rivela Parola. Vendi come download premium (12–15 €) su Gumroad. I genitori homeschooler pagano volentieri per programmi completi e strutturati. Includi una guida di una pagina che spiega come usare i puzzle di ogni settimana, quali competenze sviluppa ogni livello di difficoltà e come valutare i progressi degli utenti.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Iniziare con pochi simboli per i principianti',
-      description: 'Tre o quattro simboli sono il punto ideale per gli utenti più piccoli e per chi affronta puzzle di decrittazione per la prima volta. Con meno incognite gli utenti possono applicare la logica di eliminazione più facilmente. Riserva i puzzle con 6+ simboli per i più grandi o per le sezioni di sfida avanzata nei tuoi pacchetti. Quando costruisci un annuncio prodotto, menziona il numero di simboli nella descrizione così gli acquirenti sanno quale livello di difficoltà stanno acquistando. Frasi come «puzzle da 3 simboli per principianti» o «sfide avanzate da 7 simboli» aiutano gli acquirenti a scegliere il prodotto giusto.',
+      description: 'Tre o quattro simboli sono il punto ideale per gli utenti più piccoli e per chi affronta puzzle di decrittazione per la prima volta. Con meno incognite gli utenti possono applicare la logica di eliminazione più facilmente. Riserva i puzzle con 6+ simboli per i più grandi o per le sezioni di sfida avanzata nei tuoi pacchetti. Quando costruisci un annuncio prodotto, menziona il numero di simboli nella descrizione così gli acquirenti sanno quale livello di difficoltà stanno acquistando. Frasi come \"puzzle da 3 simboli per principianti\" o \"sfide avanzate da 7 simboli\" aiutano gli acquirenti a scegliere il prodotto giusto.',
     },
     {
       title: 'Usare addendi Mix per la massima varietà',

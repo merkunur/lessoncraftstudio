@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Picture Path Maze Worksheet Generator for Pathway and Maze Activities',
     tagline: 'Three game modes in one generator — Picture Pathway, Classic Maze, and Choose the Right Path — powered by an LPF (Longest Path First) maze algorithm with auto-generated answer keys, wall customization, and visual-only design that works globally without translation.',
     description:
-      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout — configure grid sizes from 15×15 to 20×20, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where solvers identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab — solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a “✓ CORRECT PATH” label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated “Picture Pathway” header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Picture Path is completely visual — mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout — configure grid sizes from 15×15 to 20×20, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where solvers identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab — solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a \"✓ CORRECT PATH\" label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated \"Picture Pathway\" header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Picture Path is completely visual — mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Choose Your Game Mode and Configure Settings',
         description:
-          'Open the Pathway Configuration panel and select one of three game modes. Picture Pathway creates a grid of images with a single correct path from start to finish. Classic Maze generates wall-based mazes with the LPF algorithm — set grid size (15×15 to 20×20), number of paths (1, 2, or 3), collectible image count and copies, wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path creates three-path mazes with four directional options. Toggle “Include Name/Date Fields” to add name and date lines.',
+          'Open the Pathway Configuration panel and select one of three game modes. Picture Pathway creates a grid of images with a single correct path from start to finish. Classic Maze generates wall-based mazes with the LPF algorithm — set grid size (15×15 to 20×20), number of paths (1, 2, or 3), collectible image count and copies, wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path creates three-path mazes with four directional options. Toggle \"Include Name/Date Fields\" to add name and date lines.',
       },
       {
         title: 'Select Images by Role from the Library',
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Generate the Maze or Pathway Worksheet',
         description:
-          'Click Generate to create the maze layout for your selected game mode. Picture Pathway arranges images in a grid with one correct path marked by path images among distractors. Classic Maze builds wall-based corridors with collectible images placed along paths. Choose the Right Path constructs three distinct routes with one correct path and decoy alternatives. The auto-generated “Picture Pathway” header appears at the top with an orange outer border, localized title, and instructions in the selected language.',
+          'Click Generate to create the maze layout for your selected game mode. Picture Pathway arranges images in a grid with one correct path marked by path images among distractors. Classic Maze builds wall-based corridors with collectible images placed along paths. Choose the Right Path constructs three distinct routes with one correct path and decoy alternatives. The auto-generated \"Picture Pathway\" header appears at the top with an orange outer border, localized title, and instructions in the selected language.',
       },
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the auto-generated solution. The answer key highlights the correct path with pink circles along the route. Choose Path mode adds a “✓ CORRECT PATH” label on the correct path. Classic Maze includes a collectible legend showing image counts. Download using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
+          'Switch to the Answer Key tab to see the auto-generated solution. The answer key highlights the correct path with pink circles along the route. Choose Path mode adds a \"✓ CORRECT PATH\" label on the correct path. Classic Maze includes a collectible legend showing image counts. Download using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Auto-Generated Answer Key with Solution Path Highlighting',
         description:
-          'Every maze worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a “✓ CORRECT PATH” label identifying the correct route among the three options. Classic Maze mode includes a collectible legend showing the count of each collectible image found along the path. Start and end arrows appear in the appropriate cells. Download the answer key separately as answer_key.jpeg or answer_key.pdf alongside the puzzle worksheet.',
+          'Every maze worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a \"✓ CORRECT PATH\" label identifying the correct route among the three options. Classic Maze mode includes a collectible legend showing the count of each collectible image found along the path. Start and end arrows appear in the appropriate cells. Download the answer key separately as answer_key.jpeg or answer_key.pdf alongside the puzzle worksheet.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'How does the auto-generated answer key work?',
       answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a “✓ CORRECT PATH” label on the correct route. Classic Maze includes a collectible legend. Download both versions separately using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.',
+        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a \"✓ CORRECT PATH\" label on the correct route. Classic Maze includes a collectible legend. Download both versions separately using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.',
     },
     {
       question: 'How does the auto-generated header work?',
       answer:
-        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title “Picture Pathway” and description “Follow the path from start to finish!” are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d\'Images), Spanish (Camino de Imágenes), and all other supported languages.',
+        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title \"Picture Pathway\" and description \"Follow the path from start to finish!\" are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d\'Images), Spanish (Camino de Imágenes), and all other supported languages.',
     },
     {
       question: 'Is there a free trial?',

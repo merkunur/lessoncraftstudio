@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Campos de Nome e Data com Controlo de Ativação',
         description:
-          'Uma caixa de verificação no painel Texto e Conteúdo adiciona campos de «Nome:» e «Data:» à ficha. Estas linhas de identificação do usuário asseguram a responsabilidade para uso online e conferem às fichas um aspeto profissional para listagens em marketplaces. Ative-os para produtos prontos para loja ou desative-os para páginas de cadernos de atividades onde a informação do usuário aparece na capa. Os campos integram-se de forma limpa com o cabeçalho autogerado e a legenda.',
+          'Uma caixa de verificação no painel Texto e Conteúdo adiciona campos de \"Nome:\" e \"Data:\" à ficha. Estas linhas de identificação do usuário asseguram a responsabilidade para uso online e conferem às fichas um aspeto profissional para listagens em marketplaces. Ative-os para produtos prontos para loja ou desative-os para páginas de cadernos de atividades onde a informação do usuário aparece na capa. Os campos integram-se de forma limpa com o cabeçalho autogerado e a legenda.',
       },
       {
         title: 'Biblioteca de Imagens com 104 Coleções Temáticas e Mais de 3100 Ilustrações',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Posso adicionar campos de nome e data à ficha?',
       answer:
-        'Sim. Uma caixa de verificação no painel Texto e Conteúdo adiciona campos de «Nome:» e «Data:» à ficha. Estas linhas de identificação do usuário asseguram a responsabilidade para uso online e conferem às suas fichas um aspeto profissional para listagens em marketplaces. Ative-os para produtos prontos para loja ou desative-os para páginas de cadernos de atividades.',
+        'Sim. Uma caixa de verificação no painel Texto e Conteúdo adiciona campos de \"Nome:\" e \"Data:\" à ficha. Estas linhas de identificação do usuário asseguram a responsabilidade para uso online e conferem às suas fichas um aspeto profissional para listagens em marketplaces. Ative-os para produtos prontos para loja ou desative-os para páginas de cadernos de atividades.',
     },
     {
       question: 'Como funciona o cabeçalho autogerado?',

@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Generador de Tren del Abecedario',
     tagline: 'Crea fichas de tren de letras con asociación imagen-letra en 11 idiomas',
-    description: 'Diseña fichas del abecedario que no se parecen a ninguna página estándar de trazado de letras. Esta herramienta dispone 11 vagones de tren coloridos a lo largo de la página, cada uno con una letra y una ilustración correspondiente. Imágenes pista dispersas aparecen junto al tren — los usuarios identifican con qué letra empieza cada imagen y la asocian al vagón correcto. Elige entre el modo Creación Automática (la herramienta selecciona aleatoriamente 11 letras y asigna imágenes correspondientes) o Selección Manual (elige cada letra desde una cuadrícula del alfabeto completo y asigna cada imagen tú mismo). Ajusta la dificultad con el control de número de pistas: 3 pistas para principiantes, 5–7 para nivel intermedio y 9–11 para usuarios avanzados que deben asociar casi todos los vagones. La verdadera potencia es la sensibilidad lingüística — selecciona entre 11 alfabetos nativos incluyendo alemán (Ä/Ö/Ü), sueco (Å/Ä/Ö), español (Ñ) y más. La misma imagen se asocia con letras diferentes en cada idioma: «perro» se asocia con P en español pero con D en inglés (dog) y H en alemán (Hund). Una sola plantilla se convierte en 11 productos únicos. Explora más de 3.100 imágenes en 104 temas, o sube las tuyas para diseños personalizados. Elige entre 7 familias tipográficas y exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Diseña fichas del abecedario que no se parecen a ninguna página estándar de trazado de letras. Esta herramienta dispone 11 vagones de tren coloridos a lo largo de la página, cada uno con una letra y una ilustración correspondiente. Imágenes pista dispersas aparecen junto al tren — los usuarios identifican con qué letra empieza cada imagen y la asocian al vagón correcto. Elige entre el modo Creación Automática (la herramienta selecciona aleatoriamente 11 letras y asigna imágenes correspondientes) o Selección Manual (elige cada letra desde una cuadrícula del alfabeto completo y asigna cada imagen tú mismo). Ajusta la dificultad con el control de número de pistas: 3 pistas para principiantes, 5–7 para nivel intermedio y 9–11 para usuarios avanzados que deben asociar casi todos los vagones. La verdadera potencia es la sensibilidad lingüística — selecciona entre 11 alfabetos nativos incluyendo alemán (Ä/Ö/Ü), sueco (Å/Ä/Ö), español (Ñ) y más. La misma imagen se asocia con letras diferentes en cada idioma: \"perro\" se asocia con P en español pero con D en inglés (dog) y H en alemán (Hund). Una sola plantilla se convierte en 11 productos únicos. Explora más de 3.100 imágenes en 104 temas, o sube las tuyas para diseños personalizados. Elige entre 7 familias tipográficas y exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir el Generador de Tren del Abecedario',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador. La herramienta se abre al instante en tu navegador con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas cuenta, descarga ni instalación.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador. La herramienta se abre al instante en tu navegador con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas cuenta, descarga ni instalación.',
       },
       {
         title: 'Configurar el Diseño de Página',
-        description: 'En la sección «Configuración de Página», selecciona el tamaño: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y elige un marco decorativo de la biblioteca de bordes. La orientación vertical funciona mejor para el formato del tren.',
+        description: 'En la sección \"Configuración de Página\", selecciona el tamaño: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y elige un marco decorativo de la biblioteca de bordes. La orientación vertical funciona mejor para el formato del tren.',
       },
       {
         title: 'Elegir el Modo de Creación',
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Seleccionar Imágenes y Tema',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 3.100 imágenes en 104 colecciones temáticas: animales, comida, vehículos, naturaleza, festividades y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Cada imagen se asocia automáticamente con la letra correcta según el idioma seleccionado — la misma imagen de gato se asocia con G en español (gato) pero con C en inglés (cat) y K en alemán (Katze). Sube tus propias imágenes PNG o JPEG para fichas personalizadas.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 3.100 imágenes en 104 colecciones temáticas: animales, comida, vehículos, naturaleza, festividades y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Cada imagen se asocia automáticamente con la letra correcta según el idioma seleccionado — la misma imagen de gato se asocia con G en español (gato) pero con C en inglés (cat) y K en alemán (Katze). Sube tus propias imágenes PNG o JPEG para fichas personalizadas.',
       },
       {
         title: 'Configurar Número de Pistas y Campos de Nombre/Fecha',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en «Generar» para crear tu ficha de tren del abecedario. La vista previa se actualiza en el lienzo. Activa el modo Escala de Grises para fichas en blanco y negro con ahorro de tinta, ideales para interiores KDP. Descarga como PDF listo para imprimir o JPEG de alta resolución. Genera una clave de respuestas que muestra cada imagen pista conectada a su vagón correcto.',
+        description: 'Haz clic en \"Generar\" para crear tu ficha de tren del abecedario. La vista previa se actualiza en el lienzo. Activa el modo Escala de Grises para fichas en blanco y negro con ahorro de tinta, ideales para interiores KDP. Descarga como PDF listo para imprimir o JPEG de alta resolución. Genera una clave de respuestas que muestra cada imagen pista conectada a su vagón correcto.',
       },
     ],
   },
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs Estacionales de Tren del Abecedario',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack «Tren del Abecedario de Navidad» con ilustraciones navideñas se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween, San Valentín y los temas de primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack \"Tren del Abecedario de Navidad\" con ilustraciones navideñas se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween, San Valentín y los temas de primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs de Lectoescritura en Gumroad',
-      description: 'Sube packs diferenciados de tren del abecedario a Gumroad. Incluye fichas a tres niveles de pistas, una guía vendedor explicando el formato del tren y claves de respuestas para cada página. Los vendedores buscan constantemente «actividades del abecedario» y «fichas de reconocimiento de letras». El formato visual del tren añade valor percibido porque se siente como un juego, no como un ejercicio. Ofrece packs de Creación Automática para variedad y packs de Selección Manual para grupos de letras alineados con el catálogo de productos.',
+      description: 'Sube packs diferenciados de tren del abecedario a Gumroad. Incluye fichas a tres niveles de pistas, una guía vendedor explicando el formato del tren y claves de respuestas para cada página. Los vendedores buscan constantemente \"actividades del abecedario\" y \"fichas de reconocimiento de letras\". El formato visual del tren añade valor percibido porque se siente como un juego, no como un ejercicio. Ofrece packs de Creación Automática para variedad y packs de Selección Manual para grupos de letras alineados con el catálogo de productos.',
       platform: 'Gumroad',
     },
     {
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Combina con Otras Herramientas de Lectoescritura',
-      description: 'Combina fichas de tren del abecedario con fichas de escritura, sopas de letras y actividades de palabras desordenadas para crear packs completos de lectoescritura. Un pack «Aprendizaje Completo de Letras» con múltiples tipos de actividades tiene un precio más alto que cualquier formato individual. Vincular productos individuales con el pack combinado en las descripciones de tu tienda genera tráfico interno y fomenta compras de múltiples artículos, aumentando tu valor promedio de pedido.',
+      description: 'Combina fichas de tren del abecedario con fichas de escritura, sopas de letras y actividades de palabras desordenadas para crear packs completos de lectoescritura. Un pack \"Aprendizaje Completo de Letras\" con múltiples tipos de actividades tiene un precio más alto que cualquier formato individual. Vincular productos individuales con el pack combinado en las descripciones de tu tienda genera tráfico interno y fomenta compras de múltiples artículos, aumentando tu valor promedio de pedido.',
     },
     {
       title: 'Combina con el Tren de Patrones para un Pack Temático',
-      description: 'El generador de Tren de Patrones usa el mismo formato visual de vagones pero se centra en el reconocimiento de patrones en lugar de letras. Agrupa los resultados de ambas herramientas en un mega-pack «Actividades de Tren» que cubre lectoescritura y lógica. El estilo visual coherente crea una línea de productos cohesiva.',
+      description: 'El generador de Tren de Patrones usa el mismo formato visual de vagones pero se centra en el reconocimiento de patrones en lugar de letras. Agrupa los resultados de ambas herramientas en un mega-pack \"Actividades de Tren\" que cubre lectoescritura y lógica. El estilo visual coherente crea una línea de productos cohesiva.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
-      answer: 'Sí. Haz clic en el botón «Subir Imagen» para usar tus propios archivos PNG o JPEG. Las imágenes personalizadas te permiten crear fichas con tu marca usando tus propias ilustraciones, mascotas escolares o arte con licencia que ningún otro vendedor puede replicar.',
+      answer: 'Sí. Haz clic en el botón \"Subir Imagen\" para usar tus propios archivos PNG o JPEG. Las imágenes personalizadas te permiten crear fichas con tu marca usando tus propias ilustraciones, mascotas escolares o arte con licencia que ningún otro vendedor puede replicar.',
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',

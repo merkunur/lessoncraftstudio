@@ -31,7 +31,7 @@ const content: AppContent = {
       {
         title: 'Set Your Page Layout',
         description:
-          'Open the Page Setup panel and pick a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension you need. Choose a page color, select a decorative background theme from the image library and adjust its opacity, and add a matching border frame with independent opacity control. The auto-generated header displays a vibrant green banner with the title “Line Drawing Practice” and subtitle “Draw lines to connect the matching pictures!” — both localized in 11 languages. A coral outer border and sunny yellow inner border frame the page automatically.',
+          'Open the Page Setup panel and pick a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension you need. Choose a page color, select a decorative background theme from the image library and adjust its opacity, and add a matching border frame with independent opacity control. The auto-generated header displays a vibrant green banner with the title \"Line Drawing Practice\" and subtitle \"Draw lines to connect the matching pictures!\" — both localized in 11 languages. A coral outer border and sunny yellow inner border frame the page automatically.',
       },
       {
         title: 'Select a Line Template',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Auto-Generated Localized Header with Vibrant Page Borders',
         description:
-          'Every worksheet includes an auto-generated header with a vibrant green background (#51CF66) and deep forest green title (#2D5016). The default title “Line Drawing Practice” and subtitle “Draw lines to connect the matching pictures!” are localized in all 11 languages. Portrait mode displays a full-width header; landscape mode uses a compact centered format. A coral outer border (#FF6B6B, 8px stroke) and sunny yellow inner border (#FFD93D, 3px stroke) frame every page with rounded corners. Header elements are fully editable — select, move, and resize to match your brand.',
+          'Every worksheet includes an auto-generated header with a vibrant green background (#51CF66) and deep forest green title (#2D5016). The default title \"Line Drawing Practice\" and subtitle \"Draw lines to connect the matching pictures!\" are localized in all 11 languages. Portrait mode displays a full-width header; landscape mode uses a compact centered format. A coral outer border (#FF6B6B, 8px stroke) and sunny yellow inner border (#FFD93D, 3px stroke) frame every page with rounded corners. Header elements are fully editable — select, move, and resize to match your brand.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI',

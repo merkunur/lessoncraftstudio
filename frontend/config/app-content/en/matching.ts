@@ -20,9 +20,9 @@ const content: AppContent = {
 
   hero: {
     title: 'Matching Worksheet Generator for Draw-a-Line Matching Activities',
-    tagline: 'Four matching modes in one generator — Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word — with auto-generated answer keys, configurable pair counts, and a localized “Match Up!” header across 104 themed image collections.',
+    tagline: 'Four matching modes in one generator — Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word — with auto-generated answer keys, configurable pair counts, and a localized \"Match Up!\" header across 104 themed image collections.',
     description:
-      'Build professional draw-a-line matching worksheets where solvers connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image ↔ Beginning Letter matches images to their first letter, Image+Word ↔ Image+Word pairs labeled images on both sides, Image/Word ↔ Image/Word mixes images and words per row with dropdown controls, and Image ↔ Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized “Match Up!” header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or list matching center activities on Gumroad, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional draw-a-line matching worksheets where solvers connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image ↔ Beginning Letter matches images to their first letter, Image+Word ↔ Image+Word pairs labeled images on both sides, Image/Word ↔ Image/Word mixes images and words per row with dropdown controls, and Image ↔ Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized \"Match Up!\" header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or list matching center activities on Gumroad, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,17 +36,17 @@ const content: AppContent = {
       {
         title: 'Configure Worksheet Settings',
         description:
-          'Open the Worksheet Configuration panel and select your matching mode: Beginning Letter, Image+Word, Image/Word Mixed, or Custom Word. Set the maximum number of pairs to 4, 5, or 6 (default is 6). Toggle the “Include Name/Date Fields” checkbox to add name and date lines at the bottom of the page. Toggle “Include Item Numbers” (default ON) to add numerals before each pair, and “Show Bullets/Dots” (default ON) to display decorative dots next to items. For Beginning Letter mode, choose between uppercase and lowercase letter display and select a sub-mode: Random Theme & Images, Random from Chosen Theme, or Select Specific Images.',
+          'Open the Worksheet Configuration panel and select your matching mode: Beginning Letter, Image+Word, Image/Word Mixed, or Custom Word. Set the maximum number of pairs to 4, 5, or 6 (default is 6). Toggle the \"Include Name/Date Fields\" checkbox to add name and date lines at the bottom of the page. Toggle \"Include Item Numbers\" (default ON) to add numerals before each pair, and \"Show Bullets/Dots\" (default ON) to display decorative dots next to items. For Beginning Letter mode, choose between uppercase and lowercase letter display and select a sub-mode: Random Theme & Images, Random from Chosen Theme, or Select Specific Images.',
       },
       {
         title: 'Select Images from the Library',
         description:
-          'Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, and dozens more. Filter by theme using the dropdown or search by keyword. Click images to select them for your worksheet. In Beginning Letter mode with “Select Specific Images,” you manually pick exactly 6 images. In Image+Word and Custom Word modes, use the Item Configuration panel to set per-row options. You can also upload custom PNG, JPG, or GIF images to use alongside library content.',
+          'Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, and dozens more. Filter by theme using the dropdown or search by keyword. Click images to select them for your worksheet. In Beginning Letter mode with \"Select Specific Images,\" you manually pick exactly 6 images. In Image+Word and Custom Word modes, use the Item Configuration panel to set per-row options. You can also upload custom PNG, JPG, or GIF images to use alongside library content.',
       },
       {
         title: 'Generate the Matching Worksheet',
         description:
-          'Click Generate to create the two-column matching layout. The app arranges your selected images and text into left and right columns with the configured pair count. A styled “Match Up!” header appears at the top with a yellow pill background (#FFD700), coral border frame (#FF7F50), and localized title and instructions rendered in Fredoka and Quicksand fonts. Item numbers and bullet dots appear based on your toggle settings. The worksheet tab shows the solver version with no connecting lines — ready for users to draw their own.',
+          'Click Generate to create the two-column matching layout. The app arranges your selected images and text into left and right columns with the configured pair count. A styled \"Match Up!\" header appears at the top with a yellow pill background (#FFD700), coral border frame (#FF7F50), and localized title and instructions rendered in Fredoka and Quicksand fonts. Item numbers and bullet dots appear based on your toggle settings. The worksheet tab shows the solver version with no connecting lines — ready for users to draw their own.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -75,9 +75,9 @@ const content: AppContent = {
           'Set the number of matching pairs to 4, 5, or 6 using the dropdown in the Worksheet Configuration panel. The default is 6 pairs, which works well for standard worksheets. Reduce to 4 or 5 pairs for beginner-level products that need larger images and more spacing, or for worksheets with longer custom words that require extra room. The pair count applies consistently across all four matching modes, giving you control over worksheet difficulty and visual density without redesigning the layout.',
       },
       {
-        title: 'Localized “Match Up!” Header with Title and Instructions in 11 Languages',
+        title: 'Localized \"Match Up!\" Header with Title and Instructions in 11 Languages',
         description:
-          'Every generated worksheet includes a styled header with a yellow pill background (#FFD700), white inner pill, and coral border frame (#FF7F50, 8px stroke). The title “Match Up!” and the description “Draw lines to connect the matching pairs!” are automatically translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The title renders in Fredoka (weight 700) and the description in Quicksand (weight 500). Portrait worksheets display a large centered header; landscape worksheets use a compact centered layout.',
+          'Every generated worksheet includes a styled header with a yellow pill background (#FFD700), white inner pill, and coral border frame (#FF7F50, 8px stroke). The title \"Match Up!\" and the description \"Draw lines to connect the matching pairs!\" are automatically translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The title renders in Fredoka (weight 700) and the description in Quicksand (weight 500). Portrait worksheets display a large centered header; landscape worksheets use a compact centered layout.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Item Numbers and Decorative Bullets with Toggle Controls',
         description:
-          'Two formatting toggles in the Worksheet Configuration panel control the visual structure of each matching column. “Include Item Numbers” (default ON) adds numerals before each pair — numbered items make answer checking straightforward and add perceived value. “Show Bullets/Dots” (default ON) adds decorative bullet dots next to items for visual clarity. Both options can be toggled independently, letting you create clean numbered worksheets, dotted lists, both, or neither depending on your target audience and product style.',
+          'Two formatting toggles in the Worksheet Configuration panel control the visual structure of each matching column. \"Include Item Numbers\" (default ON) adds numerals before each pair — numbered items make answer checking straightforward and add perceived value. \"Show Bullets/Dots\" (default ON) adds decorative bullet dots next to items for visual clarity. Both options can be toggled independently, letting you create clean numbered worksheets, dotted lists, both, or neither depending on your target audience and product style.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'What are the Beginning Letter sub-modes?',
       answer:
-        'Beginning Letter mode offers three sub-modes for image selection. “Random Theme & Images” picks a random theme and 6 random images from it. “Random from Chosen Theme” lets you select a specific theme and then picks random images from that theme. “Select Specific Images” opens the Image Library so you can manually pick exactly 6 images. You can also choose between uppercase and lowercase letter display using the letter type radio buttons.',
+        'Beginning Letter mode offers three sub-modes for image selection. \"Random Theme & Images\" picks a random theme and 6 random images from it. \"Random from Chosen Theme\" lets you select a specific theme and then picks random images from that theme. \"Select Specific Images\" opens the Image Library so you can manually pick exactly 6 images. You can also choose between uppercase and lowercase letter display using the letter type radio buttons.',
     },
     {
       question: 'What is the Item Configuration panel?',
@@ -167,17 +167,17 @@ const content: AppContent = {
     {
       question: 'How do item numbers and bullet dots work?',
       answer:
-        'Two toggles in the Worksheet Configuration panel control formatting. “Include Item Numbers” (default ON) adds numerals before each pair — useful for structured answer checking and adds perceived value. “Show Bullets/Dots” (default ON) adds decorative bullet dots next to items for visual clarity. Both options are independent: you can have numbers only, dots only, both, or neither depending on your worksheet style and target audience.',
+        'Two toggles in the Worksheet Configuration panel control formatting. \"Include Item Numbers\" (default ON) adds numerals before each pair — useful for structured answer checking and adds perceived value. \"Show Bullets/Dots\" (default ON) adds decorative bullet dots next to items for visual clarity. Both options are independent: you can have numbers only, dots only, both, or neither depending on your worksheet style and target audience.',
     },
     {
       question: 'How does the localized header work?',
       answer:
-        'Every generated worksheet includes a styled “Match Up!” header with a yellow pill background (#FFD700), white inner pill, and coral border frame (#FF7F50, 8px stroke). The title and description text are automatically translated into the selected language — all 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The title uses Fredoka font (weight 700) and the description uses Quicksand (weight 500).',
+        'Every generated worksheet includes a styled \"Match Up!\" header with a yellow pill background (#FFD700), white inner pill, and coral border frame (#FF7F50, 8px stroke). The title and description text are automatically translated into the selected language — all 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The title uses Fredoka font (weight 700) and the description uses Quicksand (weight 500).',
     },
     {
       question: 'Is the Matching Worksheet Generator language-sensitive?',
       answer:
-        'Yes. Beginning Letter and Image+Word modes use localized image names from the Image Library, so switching languages changes the words and first letters that appear on the worksheet. For example, a cat image shows “C” in English Beginning Letter mode but “K” in German (Katze) and “C” in French (Chat). The localized “Match Up!” header also changes with the selected language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
+        'Yes. Beginning Letter and Image+Word modes use localized image names from the Image Library, so switching languages changes the words and first letters that appear on the worksheet. For example, a cat image shows \"C\" in English Beginning Letter mode but \"K\" in German (Katze) and \"C\" in French (Chat). The localized \"Match Up!\" header also changes with the selected language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
     },
     {
       question: 'Is there a free trial?',

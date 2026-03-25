@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Scegli la Modalità di Esercizio e Configura le Opzioni',
         description:
-          'Apri il pannello Configurazione Esercizio e seleziona la tua modalità: Abbinamento Ombre o Completa l\'Immagine. La modalità Abbinamento Ombre genera silhouette nere dalle immagini selezionate tramite elaborazione a livello di pixel. La modalità Completa l\'Immagine divide le immagini in metà — scegli la direzione di taglio orizzontale (sopra/sotto) o verticale (sinistra/destra) con i pulsanti radio che appaiono in questa modalità. Attiva o disattiva la casella «Mostra Etichette» (attiva per impostazione predefinita) per visualizzare gli identificativi A/B/C/D e 1/2/3/4 nella scheda. Attiva «Includi Campi Nome/Data» per aggiungere righe per nome e data dell'utente.',
+          'Apri il pannello Configurazione Esercizio e seleziona la tua modalità: Abbinamento Ombre o Completa l\'Immagine. La modalità Abbinamento Ombre genera silhouette nere dalle immagini selezionate tramite elaborazione a livello di pixel. La modalità Completa l\'Immagine divide le immagini in metà — scegli la direzione di taglio orizzontale (sopra/sotto) o verticale (sinistra/destra) con i pulsanti radio che appaiono in questa modalità. Attiva o disattiva la casella \"Mostra Etichette\" (attiva per impostazione predefinita) per visualizzare gli identificativi A/B/C/D e 1/2/3/4 nella scheda. Attiva \"Includi Campi Nome/Data\" per aggiungere righe per nome e data dell'utente.',
       },
       {
         title: 'Seleziona 4 Immagini dalla Libreria',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Genera la Scheda di Abbinamento Ombre',
         description:
-          'Clicca su Genera per creare la scheda di corrispondenza. Nella modalità Abbinamento Ombre, l\'app elabora ogni immagine a livello di pixel — la carica su un canvas, estrae i dati dei pixel tramite getImageData e converte ogni pixel con alpha > 10 in nero puro (R=0, G=0, B=0, A=255) per produrre silhouette precise. Nella modalità Completa l\'Immagine, le immagini vengono divise lungo la direzione di taglio scelta. Entrambe le modalità applicano un derangement Fisher-Yates per garantire che nessun elemento appaia nella sua posizione originale. Un\'intestazione stilizzata appare con sfondo ambra (#FFC107), contenitore bianco a pillola e bordo ambra di 3 px mostrando «Abbinamento Ombre» e istruzioni nella lingua selezionata.',
+          'Clicca su Genera per creare la scheda di corrispondenza. Nella modalità Abbinamento Ombre, l\'app elabora ogni immagine a livello di pixel — la carica su un canvas, estrae i dati dei pixel tramite getImageData e converte ogni pixel con alpha > 10 in nero puro (R=0, G=0, B=0, A=255) per produrre silhouette precise. Nella modalità Completa l\'Immagine, le immagini vengono divise lungo la direzione di taglio scelta. Entrambe le modalità applicano un derangement Fisher-Yates per garantire che nessun elemento appaia nella sua posizione originale. Un\'intestazione stilizzata appare con sfondo ambra (#FFC107), contenitore bianco a pillola e bordo ambra di 3 px mostrando \"Abbinamento Ombre\" e istruzioni nella lingua selezionata.',
       },
       {
         title: 'Genera le Risposte e Scarica',
         description:
-          'Passa alla scheda Risposte per visualizzare le risposte auto-generate. Nella modalità Abbinamento Ombre, ogni cella mostra l\'immagine originale accanto alla sua silhouette con un\'etichetta come «A → 2» che indica la corrispondenza corretta. Nella modalità Completa l\'Immagine, ogni cella mostra l\'immagine originale completa con la sua etichetta di corrispondenza. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
+          'Passa alla scheda Risposte per visualizzare le risposte auto-generate. Nella modalità Abbinamento Ombre, ogni cella mostra l\'immagine originale accanto alla sua silhouette con un\'etichetta come \"A → 2\" che indica la corrispondenza corretta. Nella modalità Completa l\'Immagine, ogni cella mostra l\'immagine originale completa con la sua etichetta di corrispondenza. Scarica entrambe le versioni con i quattro pulsanti dedicati: Scheda JPEG, Risposte JPEG, Scheda PDF e Risposte PDF a 300 DPI. Attiva la scala di grigi per versioni a risparmio d\'inchiostro. Ogni esportazione è pronta per la produzione: inserzioni Etsy, interni Amazon KDP e file prodotto Gumroad.',
       },
     ],
   },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Risposte Auto-Generate con Etichette di Corrispondenza Lettera-Numero',
         description:
-          'Ogni scheda di abbinamento ombre genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte usa un layout a griglia dove ogni cella mostra l\'immagine originale accanto alla sua silhouette o immagine completa, etichettata con la corrispondenza corretta come «A → 2». La griglia usa 4 colonne con uno spazio di 50 px prima della seconda riga e 15 px di spaziatura verticale tra gli elementi. Nessuna creazione manuale delle risposte — il foglio risposte rimane sincronizzato con la scheda. Scaricalo separatamente come answer_key.jpeg o answer_key.pdf insieme alla scheda dell'utente.',
+          'Ogni scheda di abbinamento ombre genera automaticamente un foglio risposte complementare in una scheda canvas separata. Il foglio risposte usa un layout a griglia dove ogni cella mostra l\'immagine originale accanto alla sua silhouette o immagine completa, etichettata con la corrispondenza corretta come \"A → 2\". La griglia usa 4 colonne con uno spazio di 50 px prima della seconda riga e 15 px di spaziatura verticale tra gli elementi. Nessuna creazione manuale delle risposte — il foglio risposte rimane sincronizzato con la scheda. Scaricalo separatamente come answer_key.jpeg o answer_key.pdf insieme alla scheda dell'utente.',
       },
       {
         title: 'Libreria Immagini con 104 Collezioni Tematiche e Oltre 3100 Illustrazioni',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Etichette Opzionali e Campi Nome/Data per utenti',
         description:
-          'Attiva o disattiva la casella «Mostra Etichette» (attiva per impostazione predefinita) per visualizzare gli identificativi A, B, C, D sulle immagini o prime metà e 1, 2, 3, 4 sulle silhouette o seconde metà. Quando le etichette sono nascoste, la scheda diventa una sfida di corrispondenza puramente visiva senza supporto alfanumerico — ideale per attività avanzate o quaderni di puzzle dove non servono risposte scritte. La casella «Includi Campi Nome/Data» aggiunge righe per nome e data nella parte inferiore della pagina per responsabilità e organizzazione online.',
+          'Attiva o disattiva la casella \"Mostra Etichette\" (attiva per impostazione predefinita) per visualizzare gli identificativi A, B, C, D sulle immagini o prime metà e 1, 2, 3, 4 sulle silhouette o seconde metà. Quando le etichette sono nascoste, la scheda diventa una sfida di corrispondenza puramente visiva senza supporto alfanumerico — ideale per attività avanzate o quaderni di puzzle dove non servono risposte scritte. La casella \"Includi Campi Nome/Data\" aggiunge righe per nome e data nella parte inferiore della pagina per responsabilità e organizzazione online.',
       },
       {
         title: 'Esportazione PDF e JPEG Pronta per la Stampa a 300 DPI con Modalità Scala di Grigi',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Posso attivare o disattivare le etichette A/B/C/D e 1/2/3/4?',
       answer:
-        'Sì. La casella «Mostra Etichette» nel pannello Configurazione Esercizio (attiva per impostazione predefinita) controlla se le etichette A, B, C, D appaiono sulle immagini o prime metà e se le etichette 1, 2, 3, 4 appaiono sulle silhouette o seconde metà. Quando le etichette sono attive, gli utenti scrivono coppie lettera-numero come risposte. Quando le etichette sono disattivate, la scheda diventa una sfida di corrispondenza puramente visiva senza supporto alfanumerico — utile per quaderni di puzzle o attività avanzate.',
+        'Sì. La casella \"Mostra Etichette\" nel pannello Configurazione Esercizio (attiva per impostazione predefinita) controlla se le etichette A, B, C, D appaiono sulle immagini o prime metà e se le etichette 1, 2, 3, 4 appaiono sulle silhouette o seconde metà. Quando le etichette sono attive, gli utenti scrivono coppie lettera-numero come risposte. Quando le etichette sono disattivate, la scheda diventa una sfida di corrispondenza puramente visiva senza supporto alfanumerico — utile per quaderni di puzzle o attività avanzate.',
     },
     {
       question: 'Perché ci sono sempre esattamente 4 problemi per scheda?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Come funzionano i campi nome e data?',
       answer:
-        'Attiva la casella «Includi Campi Nome/Data» nel pannello Configurazione Esercizio per aggiungere righe per nome e data nella parte inferiore della scheda. Quando attiva, gli utenti possono scrivere il loro nome e la data direttamente sulla pagina stampata — essenziale per la responsabilità online e l\'organizzazione delle valutazioni. Quando disattivata, la scheda utilizza l\'intera area della pagina per il contenuto di corrispondenza. Questa opzione funziona con entrambe le modalità, Abbinamento Ombre e Completa l\'Immagine.',
+        'Attiva la casella \"Includi Campi Nome/Data\" nel pannello Configurazione Esercizio per aggiungere righe per nome e data nella parte inferiore della scheda. Quando attiva, gli utenti possono scrivere il loro nome e la data direttamente sulla pagina stampata — essenziale per la responsabilità online e l\'organizzazione delle valutazioni. Quando disattivata, la scheda utilizza l\'intera area della pagina per il contenuto di corrispondenza. Questa opzione funziona con entrambe le modalità, Abbinamento Ombre e Completa l\'Immagine.',
     },
     {
       question: 'Come funzionano le risposte auto-generate?',
       answer:
-        'Il generatore usa un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Risposte. Nella modalità Abbinamento Ombre, le risposte mostrano una griglia dove ogni cella presenta l\'immagine originale accanto alla sua silhouette con un\'etichetta come «A → 2». Nella modalità Completa l\'Immagine, ogni cella mostra l\'immagine originale completa con la sua etichetta di corrispondenza. La griglia usa 4 colonne con spaziatura uniforme. Entrambe le versioni si esportano separatamente con i quattro pulsanti di download dedicati: scheda JPEG, scheda PDF, risposte JPEG e risposte PDF.',
+        'Il generatore usa un sistema a doppio canvas con una scheda Scheda di Lavoro e una scheda Risposte. Nella modalità Abbinamento Ombre, le risposte mostrano una griglia dove ogni cella presenta l\'immagine originale accanto alla sua silhouette con un\'etichetta come \"A → 2\". Nella modalità Completa l\'Immagine, ogni cella mostra l\'immagine originale completa con la sua etichetta di corrispondenza. La griglia usa 4 colonne con spaziatura uniforme. Entrambe le versioni si esportano separatamente con i quattro pulsanti di download dedicati: scheda JPEG, scheda PDF, risposte JPEG e risposte PDF.',
     },
     {
       question: 'Esiste una prova gratuita?',

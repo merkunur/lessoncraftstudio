@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Bildsudoku Skapare',
     tagline: '4×4 bildbaserad sudoku pussel generator med tre svårighetsnivåer (Lätt 4 tomma, Medel 6 tomma, Svår 8 tomma), automatiskt genererade facit med kompletta fyllda rutnät, temabaserat och manuellt bildval över 104 samlingar med mer än 3 100 illustrationer, premiumrutnätsdesign med alternerande blockfärger och flerskiktsade skuggor, och rent visuella pussel som säljer globalt utan översättning',
-    description: 'Skapa professionella bildsudoku för barn där användarna fyller tomma celler med rätt bilder med rad-och-kolumn-logik på ett 4×4 rutnät. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6, Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från 104 tematiska samlingar, eller manuellt val. Premiumrutnätsdesignen har alternerande 2×2-blockfärger i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7), feta mittdelare (#7C8DB5, 3px), lättare inre linjer (#D1D9E6, 1,5px), indigoblå yttre ram (#667EEA) med 18px rundade hörn, och tre flerskiktsade skuggor. Bilder visas med 65% av cellstorleken. Varje pussel genererar en stiliserad «Bildsudoku»-rubrik med lila bakgrund (#5E35B1). Dubbelarbetsyte-systemet skapar samtidigt arbetsblad och facit — facit visar det kompletta fyllda 4×4-rutnätet med alla 16 celler. Eftersom bildsudoku är helt visuellt — inga ord på pusselrutnätet — fungerar varje arbetsblad identiskt på alla språk, universellt säljbart. Exportera PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Växla gråskala. 50-stegs ångra/gör om. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    description: 'Skapa professionella bildsudoku för barn där användarna fyller tomma celler med rätt bilder med rad-och-kolumn-logik på ett 4×4 rutnät. Varje pussel använder exakt 4 unika bilder som måste visas en gång i varje rad och en gång i varje kolumn — samma regler som klassiskt sudoku, men med färgglada illustrationer istället för siffror. Tre svårighetsnivåer: Lätt tar bort 4 celler, Medel tar bort 6, Svår tar bort 8 — halva rutnätet. Välj bilder genom temabaserat autoval som slumpmässigt väljer 4 bilder från 104 tematiska samlingar, eller manuellt val. Premiumrutnätsdesignen har alternerande 2×2-blockfärger i ljusblått (#F8F9FC) och ljusrosa (#FFF5F7), feta mittdelare (#7C8DB5, 3px), lättare inre linjer (#D1D9E6, 1,5px), indigoblå yttre ram (#667EEA) med 18px rundade hörn, och tre flerskiktsade skuggor. Bilder visas med 65% av cellstorleken. Varje pussel genererar en stiliserad \"Bildsudoku\"-rubrik med lila bakgrund (#5E35B1). Dubbelarbetsyte-systemet skapar samtidigt arbetsblad och facit — facit visar det kompletta fyllda 4×4-rutnätet med alla 16 celler. Eftersom bildsudoku är helt visuellt — inga ord på pusselrutnätet — fungerar varje arbetsblad identiskt på alla språk, universellt säljbart. Exportera PDF:er och JPEG-bilder med 300 DPI i Letter, A4 eller anpassade storlekar. Växla gråskala. 50-stegs ångra/gör om. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Bildsudoku Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta bildsudoku generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta bildsudoku generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Ställ in sidlayouten',
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera bildsudoku pusslet',
-        description: 'Klicka på Generera. Appen placerar dina 4 bilder i ett giltigt sudokuarrangemang och tar sedan bort celler baserat på svårighet. Premiumrutnätet visar alternerande blockfärger i ljusblått och ljusrosa, feta mittdelare, indigoblå yttre ram med rundade hörn och flerskiktsade skuggor. En stiliserad «Bildsudoku»-rubrik med lila bakgrund (#5E35B1) visas.',
+        description: 'Klicka på Generera. Appen placerar dina 4 bilder i ett giltigt sudokuarrangemang och tar sedan bort celler baserat på svårighet. Premiumrutnätet visar alternerande blockfärger i ljusblått och ljusrosa, feta mittdelare, indigoblå yttre ram med rundade hörn och flerskiktsade skuggor. En stiliserad \"Bildsudoku\"-rubrik med lila bakgrund (#5E35B1) visas.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP tidig logik arbetsboksserie',
-      description: 'Sammanställ 50–80 pussel till tematiska arbetsböcker. Strukturera efter svårighet: «Enkla Bildsudoku», «Mellannivå Bildsudoku», «Avancerade Bildlogikpussel». Facitsidor i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt globalt.',
+      description: 'Sammanställ 50–80 pussel till tematiska arbetsböcker. Strukturera efter svårighet: \"Enkla Bildsudoku\", \"Mellannivå Bildsudoku\", \"Avancerade Bildlogikpussel\". Facitsidor i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt globalt.',
       platform: 'Amazon KDP',
     },
     {
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Är Bildsudoku Skaparen språkkänslig?',
-      answer: 'Nej. Rent visuellt — pusselrutnätet innehåller bara bilder. Det enda lokaliserade elementet är «Bildsudoku»-rubriken med lila bakgrund (#5E35B1), som översätts automatiskt. Pusslet i sig kräver noll modifiering. Universellt säljbart.',
+      answer: 'Nej. Rent visuellt — pusselrutnätet innehåller bara bilder. Det enda lokaliserade elementet är \"Bildsudoku\"-rubriken med lila bakgrund (#5E35B1), som översätts automatiskt. Pusslet i sig kräver noll modifiering. Universellt säljbart.',
     },
     {
       question: 'Vilka sidstorlekar och exportformat finns?',

@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Genera la Scheda Puzzle a Griglia',
         description:
-          'Clicca su Genera per creare il puzzle a griglia. L\'app divide l\'immagine selezionata nella griglia configurata, rivela le caselle-indizio con i pezzi di immagine reali visibili e segna le celle rimanenti con marcatori «?». Tutti i pezzi vengono mescolati usando l\'algoritmo Fisher-Yates e presentati come palette numerata. I layout verticali posizionano la griglia in alto con la palette sotto; i layout orizzontali posizionano la griglia a sinistra con la palette a destra. Un\'intestazione stilizzata appare con sfondo ciano (#00BCD4), titolo viola intenso (#6A1B9A) e cornice arancione (#FF8C42) mostrando «Puzzle Griglia» e istruzioni nella lingua selezionata.',
+          'Clicca su Genera per creare il puzzle a griglia. L\'app divide l\'immagine selezionata nella griglia configurata, rivela le caselle-indizio con i pezzi di immagine reali visibili e segna le celle rimanenti con marcatori \"?\". Tutti i pezzi vengono mescolati usando l\'algoritmo Fisher-Yates e presentati come palette numerata. I layout verticali posizionano la griglia in alto con la palette sotto; i layout orizzontali posizionano la griglia a sinistra con la palette a destra. Un\'intestazione stilizzata appare con sfondo ciano (#00BCD4), titolo viola intenso (#6A1B9A) e cornice arancione (#FF8C42) mostrando \"Puzzle Griglia\" e istruzioni nella lingua selezionata.',
       },
       {
         title: 'Genera le Risposte e Scarica',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Come funziona il puzzle a griglia per gli utenti?',
       answer:
-        'La scheda di lavoro mostra una griglia dove alcune celle presentano il pezzo di immagine reale (caselle-indizio) e le celle rimanenti mostrano marcatori «?». Sotto o accanto alla griglia, una palette numerata presenta tutti i pezzi nascosti in ordine casuale. gli utenti esaminano le caselle-indizio, studiano i pezzi numerati e determinano quale numero corrisponde a ciascuna posizione vuota della griglia. L\'esercizio richiede ragionamento spaziale — abbinare il contenuto del pezzo alla sua posizione corretta nell\'immagine completa.',
+        'La scheda di lavoro mostra una griglia dove alcune celle presentano il pezzo di immagine reale (caselle-indizio) e le celle rimanenti mostrano marcatori \"?\". Sotto o accanto alla griglia, una palette numerata presenta tutti i pezzi nascosti in ordine casuale. gli utenti esaminano le caselle-indizio, studiano i pezzi numerati e determinano quale numero corrisponde a ciascuna posizione vuota della griglia. L\'esercizio richiede ragionamento spaziale — abbinare il contenuto del pezzo alla sua posizione corretta nell\'immagine completa.',
     },
     {
       question: 'Come funziona il foglio risposte generato automaticamente?',

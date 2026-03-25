@@ -28,27 +28,27 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador de fichas de suma. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador de fichas de suma. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
       },
       {
         title: 'Elegir el Modo de Ejercicio',
-        description: 'Abre el panel «Configuración de Ejercicios» y selecciona entre cuatro modos: Imagen + Imagen (ambos sumandos como grupos de imágenes), Imagen + Número (un grupo de imágenes más un número), Encontrar el Sumando (uno de los sumandos está oculto y el niño debe adivinarlo), o Modo Mixto (combina los tres estilos de forma aleatoria en una misma ficha).',
+        description: 'Abre el panel \"Configuración de Ejercicios\" y selecciona entre cuatro modos: Imagen + Imagen (ambos sumandos como grupos de imágenes), Imagen + Número (un grupo de imágenes más un número), Encontrar el Sumando (uno de los sumandos está oculto y el niño debe adivinarlo), o Modo Mixto (combina los tres estilos de forma aleatoria en una misma ficha).',
       },
       {
         title: 'Ajustar el Rango de Dificultad',
-        description: 'Ajusta los controles «Mínimo de elementos por grupo» y «Máximo de elementos por grupo» para controlar los números utilizados. Para preescolar, prueba con 1–3. Para infantil, usa 1–5. Los usuarios de 1.º de primaria pueden manejar 1–10. También puedes definir el número de ejercicios por ficha (de 1 a 10).',
+        description: 'Ajusta los controles \"Mínimo de elementos por grupo\" y \"Máximo de elementos por grupo\" para controlar los números utilizados. Para preescolar, prueba con 1–3. Para infantil, usa 1–5. Los usuarios de 1.º de primaria pueden manejar 1–10. También puedes definir el número de ejercicios por ficha (de 1 a 10).',
       },
       {
         title: 'Seleccionar un Tema de la Biblioteca de Imágenes',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.',
       },
       {
         title: 'Personalizar el Diseño de Página',
-        description: 'En la sección «Configuración de Página», elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
+        description: 'En la sección \"Configuración de Página\", elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
       },
       {
         title: 'Añadir Texto y Títulos',
-        description: 'Usa el panel «Herramientas de Texto» para añadir un título, un campo de nombre o instrucciones. Elige entre fuentes adaptadas para niños como Fredoka, Baloo 2, Quicksand y Nunito. Ajusta el tamaño, color y contorno opcional del texto para mejorar la legibilidad sobre los fondos.',
+        description: 'Usa el panel \"Herramientas de Texto\" para añadir un título, un campo de nombre o instrucciones. Elige entre fuentes adaptadas para niños como Fredoka, Baloo 2, Quicksand y Nunito. Ajusta el tamaño, color y contorno opcional del texto para mejorar la legibilidad sobre los fondos.',
       },
       {
         title: 'Ajustar las Opciones de la Ficha',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en el botón «Generar» para crear tu ficha. La vista previa se actualiza en el lienzo en tiempo real. Cuando estés satisfecho, usa el menú «Descargar» para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). También puedes generar y descargar una clave de respuestas con todas las soluciones completadas.',
+        description: 'Haz clic en el botón \"Generar\" para crear tu ficha. La vista previa se actualiza en el lienzo en tiempo real. Cuando estés satisfecho, usa el menú \"Descargar\" para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). También puedes generar y descargar una clave de respuestas con todas las soluciones completadas.',
       },
     ],
   },
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Vendedor en Gumroad',
-      description: 'Sube packs de fichas de suma diferenciadas a Gumroad. Los vendedores buscan constantemente «fichas de suma con imágenes». Incluye la clave de respuestas y una guía vendedor en cada listing para una mayor percepción de valor. Al crear tus listings de Gumroad, invierte tiempo adicional en las imágenes de vista previa porque los vendedores toman sus decisiones de compra casi exclusivamente a partir de las miniaturas visuales. Genera fichas de ejemplo con los temas más coloridos e incluye capturas de pantalla anotadas mostrando las opciones de dificultad y los modos de ejercicio disponibles.',
+      description: 'Sube packs de fichas de suma diferenciadas a Gumroad. Los vendedores buscan constantemente \"fichas de suma con imágenes\". Incluye la clave de respuestas y una guía vendedor en cada listing para una mayor percepción de valor. Al crear tus listings de Gumroad, invierte tiempo adicional en las imágenes de vista previa porque los vendedores toman sus decisiones de compra casi exclusivamente a partir de las miniaturas visuales. Genera fichas de ejemplo con los temas más coloridos e incluye capturas de pantalla anotadas mostrando las opciones de dificultad y los modos de ejercicio disponibles.',
       platform: 'Gumroad',
     },
     {
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Haz clic en «Generar Clave de Respuestas» antes de descargar. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Toma solo 10 segundos adicionales y mejora significativamente tus reseñas y las compras repetidas. Una clave de respuestas también hace que tu producto sea adecuado para emprendedores donde los padres necesitan verificar el trabajo rápidamente.',
+      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Toma solo 10 segundos adicionales y mejora significativamente tus reseñas y las compras repetidas. Una clave de respuestas también hace que tu producto sea adecuado para emprendedores donde los padres necesitan verificar el trabajo rápidamente.',
     },
     {
       title: 'Exporta en PDF y en JPEG',
@@ -138,7 +138,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Comienza con Rangos de Números Bajos',
-      description: 'Para productos destinados a preescolar e infantil, mantén el máximo de elementos por grupo en 3–5. Los niños pequeños se abruman con números grandes. Crea versiones separadas «fácil» y «desafío» de cada ficha para que los padres y vendedores puedan elegir el nivel adecuado.',
+      description: 'Para productos destinados a preescolar e infantil, mantén el máximo de elementos por grupo en 3–5. Los niños pequeños se abruman con números grandes. Crea versiones separadas \"fácil\" y \"desafío\" de cada ficha para que los padres y vendedores puedan elegir el nivel adecuado.',
     },
     {
       title: 'Añade Texto Personalizado para tu Marca',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo generar una clave de respuestas?',
-      answer: 'Sí. Después de generar una ficha, haz clic en «Generar Clave de Respuestas» para crear una hoja de soluciones con todas las respuestas completadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente. Esto es especialmente útil para vendedores y para vendedores que quieren incluir claves de respuestas en sus productos. Los compradores en Etsy y Gumroad dejan sistemáticamente mejores calificaciones en listings que incluyen claves de respuestas.',
+      answer: 'Sí. Después de generar una ficha, haz clic en \"Generar Clave de Respuestas\" para crear una hoja de soluciones con todas las respuestas completadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente. Esto es especialmente útil para vendedores y para vendedores que quieren incluir claves de respuestas en sus productos. Los compradores en Etsy y Gumroad dejan sistemáticamente mejores calificaciones en listings que incluyen claves de respuestas.',
     },
     {
       question: '¿Qué tamaños de página son compatibles?',

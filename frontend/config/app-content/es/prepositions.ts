@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Generador de Fichas de Preposiciones para la Práctica del Vocabulario Espacial',
     tagline: 'Ocho preposiciones espaciales combinadas con ejercicios de imágenes y formas — construyendo el vocabulario espacial frase a frase.',
     description:
-      'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Selecciona qué preposiciones incluir desde la lista integrada y configura de 1 a 8 ejercicios por ficha. Explora más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como „im" y „am", francés con reglas de elisión para « l\' » ante vocales, español con artículos con género (el/la) — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Gumroad, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Selecciona qué preposiciones incluir desde la lista integrada y configura de 1 a 8 ejercicios por ficha. Explora más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elige entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como \"im" y \"am", francés con reglas de elisión para \" l\' \" ante vocales, español con artículos con género (el/la) — multiplicando tu catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puedes exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Gumroad, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — prueba gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Elige el modo y el número de ejercicios',
         description:
-          'Abre el panel de Configuración de Ejercicios y selecciona uno de los dos modos. El modo Completar el Hueco presenta frases como «[Imagen] está ____ el [forma]» donde los usuarios escriben la preposición correcta en el espacio en blanco. El modo Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Establece el número de ejercicios por ficha de 1 a 8 para controlar la densidad y la dificultad.',
+          'Abre el panel de Configuración de Ejercicios y selecciona uno de los dos modos. El modo Completar el Hueco presenta frases como \"[Imagen] está ____ el [forma]\" donde los usuarios escriben la preposición correcta en el espacio en blanco. El modo Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Establece el número de ejercicios por ficha de 1 a 8 para controlar la densidad y la dificultad.',
       },
       {
         title: 'Selecciona las preposiciones de la lista',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Gramática adaptada a cada idioma con dativo, elisión y reglas de artículos',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas soportados, y cada uno aplica sus propias reglas gramaticales a las frases de preposiciones. El alemán usa contracciones dativas como „im" (in dem) y „am" (an dem) con artículos con género (dem/der). El francés aplica reglas de elisión, reemplazando «le» por «l\'» ante vocales o h muda. El español y el portugués usan artículos con género (el/la, o/a). Cada frase generada es gramaticalmente correcta en el idioma de destino — no una traducción palabra por palabra — haciendo de cada versión lingüística un producto genuinamente comercializable.',
+          'El Acceso Completo desbloquea los 11 idiomas soportados, y cada uno aplica sus propias reglas gramaticales a las frases de preposiciones. El alemán usa contracciones dativas como \"im" (in dem) y \"am" (an dem) con artículos con género (dem/der). El francés aplica reglas de elisión, reemplazando \"le\" por \"l\'\" ante vocales o h muda. El español y el portugués usan artículos con género (el/la, o/a). Cada frase generada es gramaticalmente correcta en el idioma de destino — no una traducción palabra por palabra — haciendo de cada versión lingüística un producto genuinamente comercializable.',
       },
       {
         title: 'Objetos + Formas: dos tipos de imagen para el contexto espacial',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Productos multilingües de preposiciones con Acceso Completo',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con „im" y „am", fichas en francés con la elisión «l\'», fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
+          'El Acceso Completo desbloquea los 11 idiomas con preposiciones gramaticalmente correctas, artículos con género, contracciones dativas y reglas de elisión. Crea fichas de preposiciones en alemán con \"im" y \"am", fichas en francés con la elisión \"l\'\", fichas en español con los artículos el/la, y más. Cada versión lingüística es un producto distinto que puedes listar en Etsy, Gumroad o Amazon KDP — multiplicando efectivamente tu catálogo por once desde el mismo flujo de trabajo. Los productos multilingües de vocabulario espacial enfrentan menos competencia y atraen compradores internacionales que buscan en su idioma nativo.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: '¿Qué modos de ejercicio ofrece el Generador de Fichas de Preposiciones?',
       answer:
-        'El generador incluye dos modos: Completar el Hueco y Opción Múltiple. Completar el Hueco presenta frases con una preposición que falta que los usuarios completan (por ejemplo, «El gato está ____ el círculo»). Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Ambos modos funcionan con las ocho preposiciones y todos los temas.',
+        'El generador incluye dos modos: Completar el Hueco y Opción Múltiple. Completar el Hueco presenta frases con una preposición que falta que los usuarios completan (por ejemplo, \"El gato está ____ el círculo\"). Opción Múltiple muestra una descripción espacial y pide a los usuarios que marquen la imagen correspondiente. Ambos modos funcionan con las ocho preposiciones y todos los temas.',
     },
     {
       question: '¿Cuáles son las 8 preposiciones disponibles?',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: '¿Cuál es la diferencia entre los objetos y las formas?',
       answer:
-        'Los objetos son ilustraciones temáticas de la biblioteca de imágenes — animales, vehículos, comida y más — que representan el elemento posicionado. Las formas son figuras geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) que sirven como punto de referencia espacial. Cada ejercicio posiciona un objeto en relación con una forma, creando relaciones espaciales claras como «El gato está debajo del cubo.»',
+        'Los objetos son ilustraciones temáticas de la biblioteca de imágenes — animales, vehículos, comida y más — que representan el elemento posicionado. Las formas son figuras geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) que sirven como punto de referencia espacial. Cada ejercicio posiciona un objeto en relación con una forma, creando relaciones espaciales claras como \"El gato está debajo del cubo.\"',
     },
     {
       question: '¿Cuántos ejercicios puedo poner en cada ficha?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: '¿El Generador de Fichas de Preposiciones es sensible al idioma?',
       answer:
-        'Sí. A diferencia de las aplicaciones de matemáticas puramente visuales, las fichas de preposiciones cambian fundamentalmente según el idioma seleccionado. Cada idioma tiene sus propias preposiciones, reglas de artículos y estructuras gramaticales. El alemán usa contracciones dativas («im», «am») y artículos con género (dem/der). El francés aplica la elisión («l\'» ante vocales). El español usa artículos con género (el/la). Cada frase generada es gramaticalmente correcta — no una traducción palabra por palabra. La Licencia Comercial es solo en inglés; el Acceso Completo desbloquea los 11 idiomas.',
+        'Sí. A diferencia de las aplicaciones de matemáticas puramente visuales, las fichas de preposiciones cambian fundamentalmente según el idioma seleccionado. Cada idioma tiene sus propias preposiciones, reglas de artículos y estructuras gramaticales. El alemán usa contracciones dativas (\"im\", \"am\") y artículos con género (dem/der). El francés aplica la elisión (\"l\'\" ante vocales). El español usa artículos con género (el/la). Cada frase generada es gramaticalmente correcta — no una traducción palabra por palabra. La Licencia Comercial es solo en inglés; el Acceso Completo desbloquea los 11 idiomas.',
     },
     {
       question: '¿Cómo funciona la gestión gramatical en los diferentes idiomas?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona la lista de preposiciones?',
       answer:
-        'El panel de Lista de Preposiciones te permite activar o desactivar cada una de las ocho preposiciones. Solo las preposiciones marcadas aparecen en los ejercicios generados. Esto te da un control preciso sobre el contenido de la lección — marca solo «en» y «encima de» para una ficha introductoria, o marca las ocho para una revisión completa. La lista se reinicia cada vez que generas una nueva ficha.',
+        'El panel de Lista de Preposiciones te permite activar o desactivar cada una de las ocho preposiciones. Solo las preposiciones marcadas aparecen en los ejercicios generados. Esto te da un control preciso sobre el contenido de la lección — marca solo \"en\" y \"encima de\" para una ficha introductoria, o marca las ocho para una revisión completa. La lista se reinicia cada vez que generas una nueva ficha.',
     },
     {
       question: '¿El generador crea claves de respuesta automáticamente?',

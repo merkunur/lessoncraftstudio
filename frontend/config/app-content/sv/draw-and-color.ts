@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Automatiskt genererad responsiv rubrik med lokaliserad text',
         description:
-          'Varje arbetsblad inkluderar en automatiskt genererad rubrik som anpassar sig efter sidorienteringen. Stående format visar en stor centrerad rubrik. Liggande format använder en kompakt centrerad rubrik. Rubriktexten lokaliseras automatiskt till alla 11 språk som stöds — «Rita och Färglägg» på svenska, «Draw and Color» på engelska, «Zeichnen & Ausmalen» på tyska och så vidare. Rubriker kan redigeras fritt på arbetsytan: välj, flytta, ändra storlek eller radera dem. Denna automatiska lokalisering låter säljare skapa flerspråkiga produkter utan manuell rubriköversättning.',
+          'Varje arbetsblad inkluderar en automatiskt genererad rubrik som anpassar sig efter sidorienteringen. Stående format visar en stor centrerad rubrik. Liggande format använder en kompakt centrerad rubrik. Rubriktexten lokaliseras automatiskt till alla 11 språk som stöds — \"Rita och Färglägg\" på svenska, \"Draw and Color\" på engelska, \"Zeichnen & Ausmalen\" på tyska och så vidare. Rubriker kan redigeras fritt på arbetsytan: välj, flytta, ändra storlek eller radera dem. Denna automatiska lokalisering låter säljare skapa flerspråkiga produkter utan manuell rubriköversättning.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI',

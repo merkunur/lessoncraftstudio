@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Fichas de Adivinar Palabras',
     tagline: 'Crea fichas de ortografía con imágenes, 4 niveles de pista y 11 idiomas',
-    description: 'Convierte la práctica de vocabulario en un puzzle visual que los usuarios disfrutan resolver. Esta herramienta genera fichas de adivinar palabras donde una pista con imagen se combina con una cuadrícula de letras con espacios en blanco — los usuarios observan la imagen y completan las letras que faltan para deletrear la palabra que representa. La función estrella es un sistema progresivo de 4 niveles de pista: Sin Pistas no revela ninguna letra para recuerdo puro, Fácil revela la mitad de las letras para aprendices principiantes, Normal revela un cuarto para un desafío equilibrado, y Difícil revela solo un sexto para usuarios seguros de su ortografía. Elige entre dos modos de entrada: el modo Pista con Imagen extrae vocabulario de más de 3.100 imágenes en 104 colecciones temáticas con generación automática de cuadrículas de letras, o el modo Lista de Palabras Personalizada te permite escribir cualquier palabra directamente para práctica de vocabulario específica sin imágenes. La función Excluir Letras elimina letras específicas de las cuadrículas — excluye vocales para ejercicios centrados en fonética o excluye letras comunes para un desafío mayor. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas disponibles y la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés. Un solo diseño de ficha se convierte en 11 productos lingüísticos únicos con respuestas genuinamente diferentes. Configura la salida en mayúsculas o minúsculas, activa la numeración de ejercicios, añade superposiciones de texto personalizadas y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación opcional de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Convierte la práctica de vocabulario en un puzzle visual que los usuarios disfrutan resolver. Esta herramienta genera fichas de adivinar palabras donde una pista con imagen se combina con una cuadrícula de letras con espacios en blanco — los usuarios observan la imagen y completan las letras que faltan para deletrear la palabra que representa. La función estrella es un sistema progresivo de 4 niveles de pista: Sin Pistas no revela ninguna letra para recuerdo puro, Fácil revela la mitad de las letras para aprendices principiantes, Normal revela un cuarto para un desafío equilibrado, y Difícil revela solo un sexto para usuarios seguros de su ortografía. Elige entre dos modos de entrada: el modo Pista con Imagen extrae vocabulario de más de 3.100 imágenes en 104 colecciones temáticas con generación automática de cuadrículas de letras, o el modo Lista de Palabras Personalizada te permite escribir cualquier palabra directamente para práctica de vocabulario específica sin imágenes. La función Excluir Letras elimina letras específicas de las cuadrículas — excluye vocales para ejercicios centrados en fonética o excluye letras comunes para un desafío mayor. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas disponibles y la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés. Un solo diseño de ficha se convierte en 11 productos lingüísticos únicos con respuestas genuinamente diferentes. Configura la salida en mayúsculas o minúsculas, activa la numeración de ejercicios, añade superposiciones de texto personalizadas y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación opcional de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Adivinar Palabras',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador. La herramienta se abre al instante en tu navegador con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas cuenta, descarga ni instalación.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador. La herramienta se abre al instante en tu navegador con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas cuenta, descarga ni instalación.',
       },
       {
         title: 'Configurar el Diseño de Página y la Plantilla',
-        description: 'En la sección «Configuración de Página», selecciona tu tamaño de página: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha desde el selector de plantillas. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo.',
+        description: 'En la sección \"Configuración de Página\", selecciona tu tamaño de página: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha desde el selector de plantillas. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo.',
       },
       {
         title: 'Elegir el Modo de Entrada',
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Seleccionar Imágenes y Tema',
-        description: 'Si usas el modo Pista con Imagen, abre el panel «Biblioteca de Imágenes» y explora más de 3.100 imágenes en 104 colecciones temáticas: animales, comida, vehículos, naturaleza, festividades y muchas más. Usa la Selección Manual para elegir imágenes específicas o selecciona Todos los Temas para que la herramienta elija automáticamente. Cada imagen genera automáticamente su cuadrícula de letras correspondiente en el idioma seleccionado. Sube tus propias imágenes PNG o JPEG para fichas personalizadas.',
+        description: 'Si usas el modo Pista con Imagen, abre el panel \"Biblioteca de Imágenes\" y explora más de 3.100 imágenes en 104 colecciones temáticas: animales, comida, vehículos, naturaleza, festividades y muchas más. Usa la Selección Manual para elegir imágenes específicas o selecciona Todos los Temas para que la herramienta elija automáticamente. Cada imagen genera automáticamente su cuadrícula de letras correspondiente en el idioma seleccionado. Sube tus propias imágenes PNG o JPEG para fichas personalizadas.',
       },
       {
         title: 'Configurar Excluir Letras, Mayúsculas y Numeración',
-        description: 'Usa la función Excluir Letras para eliminar letras específicas de las cuadrículas — por ejemplo, excluye todas las vocales para que los usuarios deban completarlas, creando un ejercicio centrado en fonética. Configura las letras en mayúsculas o minúsculas. Activa o desactiva la numeración de ejercicios. Añade una superposición de texto personalizada con instrucciones como «¡Completa las letras que faltan!» para guiar claramente a los usuarios.',
+        description: 'Usa la función Excluir Letras para eliminar letras específicas de las cuadrículas — por ejemplo, excluye todas las vocales para que los usuarios deban completarlas, creando un ejercicio centrado en fonética. Configura las letras en mayúsculas o minúsculas. Activa o desactiva la numeración de ejercicios. Añade una superposición de texto personalizada con instrucciones como \"¡Completa las letras que faltan!\" para guiar claramente a los usuarios.',
       },
       {
         title: 'Personalizar Fuentes, Texto y Lienzo',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en «Generar» para crear tu ficha de adivinar palabras. La vista previa se actualiza en el lienzo. Activa el interruptor de Escala de Grises para una salida en blanco y negro con ahorro de tinta, ideal para interiores de KDP. Descarga como PDF listo para imprimir o JPEG de alta resolución. Genera una clave de respuestas que muestra la ortografía correcta de cada ejercicio. Para páginas horizontales con más de 5 ejercicios, la herramienta cambia automáticamente a un diseño inteligente de dos columnas.',
+        description: 'Haz clic en \"Generar\" para crear tu ficha de adivinar palabras. La vista previa se actualiza en el lienzo. Activa el interruptor de Escala de Grises para una salida en blanco y negro con ahorro de tinta, ideal para interiores de KDP. Descarga como PDF listo para imprimir o JPEG de alta resolución. Genera una clave de respuestas que muestra la ortografía correcta de cada ejercicio. Para páginas horizontales con más de 5 ejercicios, la herramienta cambia automáticamente a un diseño inteligente de dos columnas.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Productos de Ortografía Multilingüe',
-      description: 'Cambia el idioma y regenera el mismo diseño de ficha en los 11 idiomas disponibles. La misma imagen de perro produce «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés — cada una con cuadrículas de letras y respuestas genuinamente diferentes. Una sesión de diseño produce 11 productos distintos, cada uno listo para publicar en su marketplace local.',
+      description: 'Cambia el idioma y regenera el mismo diseño de ficha en los 11 idiomas disponibles. La misma imagen de perro produce \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés — cada una con cuadrículas de letras y respuestas genuinamente diferentes. Una sesión de diseño produce 11 productos distintos, cada uno listo para publicar en su marketplace local.',
     },
     {
       title: 'Fichas de Vocabulario con Lista Personalizada',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Estacionales de Ortografía',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Adivinar Palabras de Navidad» con vocabulario festivo — RENO, NIEVE, REGALO — se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween y primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato de puzzle visual hace que los productos estacionales se sientan frescos y atractivos.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Adivinar Palabras de Navidad\" con vocabulario festivo — RENO, NIEVE, REGALO — se vende muy bien en noviembre y diciembre. Vuelta al cole, Halloween y primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato de puzzle visual hace que los productos estacionales se sientan frescos y atractivos.',
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Diferenciados en Gumroad',
-      description: 'Sube packs de fichas de adivinar palabras a Gumroad organizados por tema y nivel de dificultad. Incluye los cuatro niveles de pista para cada tema, más claves de respuestas para cada página. Los vendedores buscan frecuentemente «fichas de ortografía» y «actividades de deletreo». La diferenciación de 4 niveles significa que un solo producto sirve para toda un tienda de habilidades mixtas, algo que los vendedores valoran mucho en las reseñas.',
+      description: 'Sube packs de fichas de adivinar palabras a Gumroad organizados por tema y nivel de dificultad. Incluye los cuatro niveles de pista para cada tema, más claves de respuestas para cada página. Los vendedores buscan frecuentemente \"fichas de ortografía\" y \"actividades de deletreo\". La diferenciación de 4 niveles significa que un solo producto sirve para toda un tienda de habilidades mixtas, algo que los vendedores valoran mucho en las reseñas.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Vocabulario de Doble Modo en Etsy',
-      description: 'Aprovecha ambos modos de entrada para crear packs de vocabulario completos. Usa el modo Pista con Imagen para construcción visual de vocabulario y el modo Lista de Palabras Personalizada para palabras de ortografía alineadas con el catálogo de productos. Combina ambos en un solo producto: «Kit Completo de Práctica de Ortografía — Visual + Escrita». El enfoque de doble modo justifica un precio premium y sirve tanto a usuarios visuales como a los tradicionales.',
+      description: 'Aprovecha ambos modos de entrada para crear packs de vocabulario completos. Usa el modo Pista con Imagen para construcción visual de vocabulario y el modo Lista de Palabras Personalizada para palabras de ortografía alineadas con el catálogo de productos. Combina ambos en un solo producto: \"Kit Completo de Práctica de Ortografía — Visual + Escrita\". El enfoque de doble modo justifica un precio premium y sirve tanto a usuarios visuales como a los tradicionales.',
       platform: 'Etsy',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa Sin Pistas para Usuarios Avanzados',
-      description: 'El modo Sin Pistas deja toda la cuadrícula de letras en blanco — los usuarios deben recordar la ortografía completa solo a partir de la imagen. Es una evaluación genuina de ortografía, no reconocimiento. Úsalo para usuarios mayores, exámenes de dictado o la sección final de «desafío» de un cuaderno progresivo.',
+      description: 'El modo Sin Pistas deja toda la cuadrícula de letras en blanco — los usuarios deben recordar la ortografía completa solo a partir de la imagen. Es una evaluación genuina de ortografía, no reconocimiento. Úsalo para usuarios mayores, exámenes de dictado o la sección final de \"desafío\" de un cuaderno progresivo.',
     },
     {
       title: 'Usa el Modo Fácil para Principiantes',
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Multilingüe para 11 Veces Más Productos',
-      description: 'Cada ficha de adivinar palabras que diseñes puede convertirse en 11 productos cambiando el idioma. La misma imagen de gato produce «GATO», «CAT», «KATZE», «CHAT», «GATTO» y más — cada una con cuadrículas de letras diferentes y respuestas correctas diferentes. Las fichas de ortografía en idiomas específicos son un nicho dramáticamente desatendido fuera del inglés.',
+      description: 'Cada ficha de adivinar palabras que diseñes puede convertirse en 11 productos cambiando el idioma. La misma imagen de gato produce \"GATO\", \"CAT\", \"KATZE\", \"CHAT\", \"GATTO\" y más — cada una con cuadrículas de letras diferentes y respuestas correctas diferentes. Las fichas de ortografía en idiomas específicos son un nicho dramáticamente desatendido fuera del inglés.',
     },
     {
       title: 'Usa Listas Personalizadas para Vocabulario de Nicho',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combina con Otras Herramientas de Lectoescritura',
-      description: 'Combina fichas de adivinar palabras con generadores de palabras desordenadas, sopas de letras, fichas de escritura a mano y fichas de asociación para crear packs de ortografía completos. Un pack «Práctica Completa de Ortografía» con múltiples tipos de actividad se vende por más que cualquier formato individual y da a los usuarios práctica variada con el mismo vocabulario. Reutilizar las mismas imágenes temáticas en diferentes tipos de actividad también mantiene tu marca visual coherente, lo que refuerza el reconocimiento del comprador cuando navega por tu tienda.',
+      description: 'Combina fichas de adivinar palabras con generadores de palabras desordenadas, sopas de letras, fichas de escritura a mano y fichas de asociación para crear packs de ortografía completos. Un pack \"Práctica Completa de Ortografía\" con múltiples tipos de actividad se vende por más que cualquier formato individual y da a los usuarios práctica variada con el mismo vocabulario. Reutilizar las mismas imágenes temáticas en diferentes tipos de actividad también mantiene tu marca visual coherente, lo que refuerza el reconocimiento del comprador cuando navega por tu tienda.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funciona la sensibilidad lingüística?',
-      answer: 'Cuando cambias de idioma, la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés, «CANE» en italiano, y así sucesivamente en los 11 idiomas disponibles. La cuadrícula de letras, los espacios en blanco y la clave de respuestas se actualizan para coincidir con la ortografía del nuevo idioma.',
+      answer: 'Cuando cambias de idioma, la misma imagen produce una ortografía correcta diferente. Una imagen de perro genera \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés, \"CANE\" en italiano, y así sucesivamente en los 11 idiomas disponibles. La cuadrícula de letras, los espacios en blanco y la clave de respuestas se actualizan para coincidir con la ortografía del nuevo idioma.',
     },
     {
       question: '¿Qué idiomas están disponibles?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
-      answer: 'Sí. Haz clic en el botón «Subir Imagen» para usar tus propios archivos PNG o JPEG como pistas con imagen. Las imágenes personalizadas te permiten crear fichas de marca con tus propias ilustraciones o arte con licencia que ningún otro vendedor puede replicar. Esto es especialmente valioso para vendedores que construyen una marca reconocible, ya que tu arte único hace que tus listings sean imposibles de duplicar exactamente para la competencia.',
+      answer: 'Sí. Haz clic en el botón \"Subir Imagen\" para usar tus propios archivos PNG o JPEG como pistas con imagen. Las imágenes personalizadas te permiten crear fichas de marca con tus propias ilustraciones o arte con licencia que ningún otro vendedor puede replicar. Esto es especialmente valioso para vendedores que construyen una marca reconocible, ya que tu arte único hace que tus listings sean imposibles de duplicar exactamente para la competencia.',
     },
     {
       question: '¿La herramienta genera claves de respuestas?',

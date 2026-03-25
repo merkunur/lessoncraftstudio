@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Add Text, Titles, and Puzzle Numbering',
         description:
-          'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Customize puzzle numbering with your own label text (e.g., “Puzzle”, “Problem”, “Challenge”) and set the starting number. Use the full Fabric.js canvas to drag, resize, and reposition every element — with layer controls, alignment guides, lock/unlock, and unlimited undo and redo.',
+          'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Customize puzzle numbering with your own label text (e.g., \"Puzzle\", \"Problem\", \"Challenge\") and set the starting number. Use the full Fabric.js canvas to drag, resize, and reposition every element — with layer controls, alignment guides, lock/unlock, and unlimited undo and redo.',
       },
       {
         title: 'Generate the Answer Key and Download',

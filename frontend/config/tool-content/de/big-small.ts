@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Groß-Klein-Arbeitsblatt-Generator öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Größenvergleich-Arbeitsblättern.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Größenvergleich-Arbeitsblättern.',
       },
       {
         title: 'Seitenlayout und Hintergrund einstellen',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Thematische Größenvergleich-Pakete',
-      description: 'Erstellen Sie Sets mit 10–20 Größenvergleich-Arbeitsblättern gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Fahrzeuge, Lebensmittel und mehr. Variieren Sie den Fragetyp im Set für progressive Schwierigkeit: Beginnen Sie mit 2-Bilder-Übungen „Kreise das Große ein“ im Identische-Bilder-Modus, steigern Sie zu 3-Bilder-Übungen „Kreise das Mittlere ein“ im Verschiedene-Bilder-Modus und schließen Sie mit Nummerierung-1–2–3-Sortierübungen ab. Inklusive automatisch generierter Lösungsschlüssel für jedes Arbeitsblatt. Das vollständig visuelle textfreie Format bedeutet, dass jedes Paket weltweit ohne Übersetzung verkaufbar ist — ein Angebot bedient jeden Markt auf Etsy.',
+      description: 'Erstellen Sie Sets mit 10–20 Größenvergleich-Arbeitsblättern gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Fahrzeuge, Lebensmittel und mehr. Variieren Sie den Fragetyp im Set für progressive Schwierigkeit: Beginnen Sie mit 2-Bilder-Übungen \"Kreise das Große ein\" im Identische-Bilder-Modus, steigern Sie zu 3-Bilder-Übungen \"Kreise das Mittlere ein\" im Verschiedene-Bilder-Modus und schließen Sie mit Nummerierung-1–2–3-Sortierübungen ab. Inklusive automatisch generierter Lösungsschlüssel für jedes Arbeitsblatt. Das vollständig visuelle textfreie Format bedeutet, dass jedes Paket weltweit ohne Übersetzung verkaufbar ist — ein Angebot bedient jeden Markt auf Etsy.',
     },
     {
       title: 'KDP-Frühförderung-Arbeitshefte',
-      description: 'Stellen Sie 60–100 Größenvergleich-Übungen zu einem gedruckten Arbeitsheft für Amazon KDP zusammen. Strukturieren Sie Kapitel als Kompetenzprogression: Kapitel 1 behandelt 2-Bilder-Übungen „Kreise das Große ein“ mit identischen Bildern, Kapitel 2 wechselt zu verschiedenen Bildern, Kapitel 3 führt „Kreise das Kleine ein“ ein, Kapitel 4 ergänzt „Kreise das Mittlere ein“ mit 3 Bildern und Kapitel 5 steigert zu Nummerierungsübungen. Lösungsschlüssel im Anhang. Das textfreie visuelle Format benötigt keine Übersetzung für internationale KDP-Marktplätze — veröffentlichen Sie dasselbe Innenteil überall.',
+      description: 'Stellen Sie 60–100 Größenvergleich-Übungen zu einem gedruckten Arbeitsheft für Amazon KDP zusammen. Strukturieren Sie Kapitel als Kompetenzprogression: Kapitel 1 behandelt 2-Bilder-Übungen \"Kreise das Große ein\" mit identischen Bildern, Kapitel 2 wechselt zu verschiedenen Bildern, Kapitel 3 führt \"Kreise das Kleine ein\" ein, Kapitel 4 ergänzt \"Kreise das Mittlere ein\" mit 3 Bildern und Kapitel 5 steigert zu Nummerierungsübungen. Lösungsschlüssel im Anhang. Das textfreie visuelle Format benötigt keine Übersetzung für internationale KDP-Marktplätze — veröffentlichen Sie dasselbe Innenteil überall.',
     },
     {
       title: 'Gestufte visuelle Lernpakete',
@@ -80,28 +80,28 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Bildmodus-Vergleichspakete',
-      description: 'Verdoppeln Sie Ihr Produktangebot, indem Sie jedes Thema in beiden Bildmodi erstellen. Ein „Identische-Bilder“-Paket zeigt dasselbe Tier, Fahrzeug oder Lebensmittel in verschiedenen Größen für reine Größenwahrnehmungs-Übungen. Ein „Verschiedene-Bilder“-Paket zeigt unterschiedliche Objekte in verschiedenen Größen für Herausforderungen im relativen Größendenken. Verkaufen Sie sie einzeln oder bündeln Sie beide Modi zusammen zum Premiumpreis. Zwei grundsätzlich verschiedene Übungserfahrungen aus demselben Thema ohne zusätzliche Inhaltserstellung.',
+      description: 'Verdoppeln Sie Ihr Produktangebot, indem Sie jedes Thema in beiden Bildmodi erstellen. Ein \"Identische-Bilder\"-Paket zeigt dasselbe Tier, Fahrzeug oder Lebensmittel in verschiedenen Größen für reine Größenwahrnehmungs-Übungen. Ein \"Verschiedene-Bilder\"-Paket zeigt unterschiedliche Objekte in verschiedenen Größen für Herausforderungen im relativen Größendenken. Verkaufen Sie sie einzeln oder bündeln Sie beide Modi zusammen zum Premiumpreis. Zwei grundsätzlich verschiedene Übungserfahrungen aus demselben Thema ohne zusätzliche Inhaltserstellung.',
     },
     {
       title: 'Saisonale und Feiertags-Größenvergleich-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Größenvergleich-Pakete. Ein „Halloween-Größensortierung“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und Gumroad. Kombinieren Sie einfache „Kreise das Große ein“-Aufwärmübungen mit anspruchsvollen Nummerierung-1–2–3-Sortierübungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Größenvergleich-Pakete. Ein \"Halloween-Größensortierung\"-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und Gumroad. Kombinieren Sie einfache \"Kreise das Große ein\"-Aufwärmübungen mit anspruchsvollen Nummerierung-1–2–3-Sortierübungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Fragetyp-gestufter Größenvergleich-Shop auf Etsy',
-      description: 'Eröffnen Sie einen Etsy-Shop spezialisiert auf Größenvergleich-Arbeitsblätter nach Fragetyp-Schwierigkeit geordnet. Einsteiger-Pakete bieten „Kreise das Große ein“ mit 2 identischen Bildern — die einfachste Größenunterscheidungsaufgabe. Fortgeschrittenen-Pakete nutzen „Kreise das Kleine ein“ und „Kreise das Mittlere ein“ mit 3 verschiedenen Bildern. Experten-Pakete bieten Nummerierung-1–2–3-Sortierübungen für mehrstufige Reihenfolgebestimmung. Die meisten Arbeitsblatt-Verkäufer bieten generische Ein-Schwierigkeitsgrad-Produkte. Fragetyp-Staffelung ermöglicht Käufern, exakt das Herausforderungsniveau für ihre Nutzer zu finden, verbessert Bewertungen und fördert Wiederkäufe.',
+      description: 'Eröffnen Sie einen Etsy-Shop spezialisiert auf Größenvergleich-Arbeitsblätter nach Fragetyp-Schwierigkeit geordnet. Einsteiger-Pakete bieten \"Kreise das Große ein\" mit 2 identischen Bildern — die einfachste Größenunterscheidungsaufgabe. Fortgeschrittenen-Pakete nutzen \"Kreise das Kleine ein\" und \"Kreise das Mittlere ein\" mit 3 verschiedenen Bildern. Experten-Pakete bieten Nummerierung-1–2–3-Sortierübungen für mehrstufige Reihenfolgebestimmung. Die meisten Arbeitsblatt-Verkäufer bieten generische Ein-Schwierigkeitsgrad-Produkte. Fragetyp-Staffelung ermöglicht Käufern, exakt das Herausforderungsniveau für ihre Nutzer zu finden, verbessert Bewertungen und fördert Wiederkäufe.',
       platform: 'Etsy',
     },
     {
       title: 'Amazon-KDP-Größenunterscheidungs-Arbeitsheft-Serie',
-      description: 'Stellen Sie 80+ Größenvergleich-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Thema: „Tier-Größensortierung“, „Fahrzeuge Groß & Klein“, „Lebensmittel-Größenordnung“. Jedes Buch steigert sich von einfacher 2-Bilder-Identifikation zu komplexer 3-Bilder-Sortierung mit Lösungsschlüsseln im Anhang. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung. Größenvergleich-Arbeitshefte füllen eine spezifische Frühförderungs-Nische mit ganzjähriger Nachfrage von Eltern und Vorschulpädagogen.',
+      description: 'Stellen Sie 80+ Größenvergleich-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Thema: \"Tier-Größensortierung\", \"Fahrzeuge Groß & Klein\", \"Lebensmittel-Größenordnung\". Jedes Buch steigert sich von einfacher 2-Bilder-Identifikation zu komplexer 3-Bilder-Sortierung mit Lösungsschlüsseln im Anhang. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung. Größenvergleich-Arbeitshefte füllen eine spezifische Frühförderungs-Nische mit ganzjähriger Nachfrage von Eltern und Vorschulpädagogen.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Visuelle-Unterscheidung-Lernstationen',
-      description: 'Laden Sie Größenvergleich-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe und Thema. Fügen Sie vier Schwierigkeitsgrade pro Thema mit dem Fragetyp als Differenzierungsachse hinzu. Paketieren Sie mit automatisch generierten Lösungsschlüsseln, Nutzerfortschritts-Trackern und Verkäuferanweisungskarten. Das textfreie Format funktioniert in jedem Shop unabhängig vom sprachlichen Hintergrund der Nutzer — besonders wertvoll für mehrsprachige und inklusive Settings. Verkäufer suchen nach „Größenvergleich-Aktivitäten“ und „Groß-und-Klein-Arbeitsblätter“ und finden begrenzte Qualitätsoptionen.',
+      description: 'Laden Sie Größenvergleich-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe und Thema. Fügen Sie vier Schwierigkeitsgrade pro Thema mit dem Fragetyp als Differenzierungsachse hinzu. Paketieren Sie mit automatisch generierten Lösungsschlüsseln, Nutzerfortschritts-Trackern und Verkäuferanweisungskarten. Das textfreie Format funktioniert in jedem Shop unabhängig vom sprachlichen Hintergrund der Nutzer — besonders wertvoll für mehrsprachige und inklusive Settings. Verkäufer suchen nach \"Größenvergleich-Aktivitäten\" und \"Groß-und-Klein-Arbeitsblätter\" und finden begrenzte Qualitätsoptionen.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Fragetyp als primäre Schwierigkeitsachse nutzen',
-      description: 'Die fünf Fragetypen erzeugen eine natürliche Schwierigkeitsprogression. „Kreise das Große ein“ ist am einfachsten — Nutzer erkennen das offensichtlich größte Bild. „Kreise das Kleine ein“ ist etwas schwieriger, weil „das Kleinste“ sorgfältigeren Vergleich erfordert. „Kreise das Mittlere ein“ ist die schwierigste Identifikationsaufgabe, weil Nutzer beide Extreme ausschließen müssen. Nummerierung 1–2–3-Sortierung erfordert mehrstufige Reihenfolgebestimmung. Nutzen Sie diese Progression für gestufte Produktpakete aus einer Gestaltungssitzung.',
+      description: 'Die fünf Fragetypen erzeugen eine natürliche Schwierigkeitsprogression. \"Kreise das Große ein\" ist am einfachsten — Nutzer erkennen das offensichtlich größte Bild. \"Kreise das Kleine ein\" ist etwas schwieriger, weil \"das Kleinste\" sorgfältigeren Vergleich erfordert. \"Kreise das Mittlere ein\" ist die schwierigste Identifikationsaufgabe, weil Nutzer beide Extreme ausschließen müssen. Nummerierung 1–2–3-Sortierung erfordert mehrstufige Reihenfolgebestimmung. Nutzen Sie diese Progression für gestufte Produktpakete aus einer Gestaltungssitzung.',
     },
     {
       title: 'Identisch vs. Verschieden für doppelte Produkte nutzen',
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Textfreiheit für globale Verkaufbarkeit betonen',
-      description: 'Groß-Klein-Arbeitsblätter enthalten keinen Text auf der Ausgabe — nur Bilder und visuelle Indikatoren. Dies ist Ihr stärkster Wettbewerbsvorteil für Marktplatz-Angebote. Geben Sie in jeder Produktbeschreibung explizit an: „Keine Übersetzung nötig — funktioniert weltweit.“ Käufer aus jedem Land können kaufen, ohne sich um Sprachkompatibilität zu sorgen. Listen Sie dasselbe Produkt in mehreren internationalen Etsy-Shops mit identischen Dateien.',
+      description: 'Groß-Klein-Arbeitsblätter enthalten keinen Text auf der Ausgabe — nur Bilder und visuelle Indikatoren. Dies ist Ihr stärkster Wettbewerbsvorteil für Marktplatz-Angebote. Geben Sie in jeder Produktbeschreibung explizit an: \"Keine Übersetzung nötig — funktioniert weltweit.\" Käufer aus jedem Land können kaufen, ohne sich um Sprachkompatibilität zu sorgen. Listen Sie dasselbe Produkt in mehreren internationalen Etsy-Shops mit identischen Dateien.',
     },
     {
       title: 'Übungsanzahl auf Ziel-Altersgruppe abstimmen',
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Was sind die fünf Fragetypen?',
-      answer: '„Kreise das Große ein“ fordert Nutzer auf, das größte Bild zu finden. „Kreise das Kleine ein“ zielt auf das kleinste. „Kreise das Mittlere ein“ erfordert die Identifikation des mittelgroßen Bildes (benötigt 3 Bilder pro Übung). „Nummeriere 1–2–3 Klein nach Groß“ lässt Nutzer Bilder in aufsteigender Größenreihenfolge beschriften. „Nummeriere 1–2–3 Groß nach Klein“ kehrt die Reihenfolge um. Die Einkreis-Fragen prüfen Identifikation; die Nummerierungsfragen prüfen mehrstufige Reihenfolgebestimmung.',
+      answer: '\"Kreise das Große ein\" fordert Nutzer auf, das größte Bild zu finden. \"Kreise das Kleine ein\" zielt auf das kleinste. \"Kreise das Mittlere ein\" erfordert die Identifikation des mittelgroßen Bildes (benötigt 3 Bilder pro Übung). \"Nummeriere 1–2–3 Klein nach Groß\" lässt Nutzer Bilder in aufsteigender Größenreihenfolge beschriften. \"Nummeriere 1–2–3 Groß nach Klein\" kehrt die Reihenfolge um. Die Einkreis-Fragen prüfen Identifikation; die Nummerierungsfragen prüfen mehrstufige Reihenfolgebestimmung.',
     },
     {
       question: 'Was ist der Unterschied zwischen Identische-Bilder- und Verschiedene-Bilder-Modus?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich 2 oder 3 Bilder pro Übung einstellen?',
-      answer: 'Ja. Mit 2 Bildern machen Nutzer einen einfachen Größer/Kleiner-Vergleich. Mit 3 Bildern wird eine Mittlere-Option eingeführt, die den Fragetyp „Kreise das Mittlere ein“ ermöglicht und Nummerierungsübungen mit drei zu sortierenden Elementen anspruchsvoller macht. Beginnen Sie mit 2 Bildern für jüngere Lernende und steigern Sie auf 3 für fortgeschrittenere Übung. Sie können auch 1–10 Übungen pro Seite für flexible Arbeitsblatt-Dichte einstellen.',
+      answer: 'Ja. Mit 2 Bildern machen Nutzer einen einfachen Größer/Kleiner-Vergleich. Mit 3 Bildern wird eine Mittlere-Option eingeführt, die den Fragetyp \"Kreise das Mittlere ein\" ermöglicht und Nummerierungsübungen mit drei zu sortierenden Elementen anspruchsvoller macht. Beginnen Sie mit 2 Bildern für jüngere Lernende und steigern Sie auf 3 für fortgeschrittenere Übung. Sie können auch 1–10 Übungen pro Seite für flexible Arbeitsblatt-Dichte einstellen.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',

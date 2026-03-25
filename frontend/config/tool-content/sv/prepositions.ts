@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Prepositioner Arbetsblad Generator',
     tagline: 'Skapa rumsliga prepositioner arbetsblad med två övningslägen på 11 språk',
-    description: 'Lär ut lägesord genom bildbaserade övningar som användarna verkligen tycker om. Detta verktyg genererar prepositioner arbetsblad där användarna identifierar rumsliga relationer — på, under, ovanför, bredvid, mellan, inuti, utanför — genom att studera bildscener och fylla i eller välja rätt preposition. Välj mellan två övningslägen: Fyll-i-Luckan, där användarna skriver rätt preposition själva, eller Flerval, där de väljer bland alternativ med en anpassningsbar instruktionsrad. Ställ in 1–8 övningar per arbetsblad och välj exakt vilka prepositioner som ska inkluderas med kryssrutrutnätet. Verktygets utmärkande funktion är Formersättning — ett separat bildlager som låter dig byta scenformer oberoende, vilket skapar långt fler visuella kombinationer än en enda bilduppsättning kan erbjuda. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och varje prepositionsord uppdateras till sin inhemska motsvarighet. Engelska använder «on, under, above, beside, between, inside, outside»; tyska använder «auf, unter, über, neben, zwischen, drinnen, draußen». En arbetsbladsdesign blir 11 unika språkprodukter. Bläddra bland mer än 3 100 bilder i 104 teman, ladda upp din egen PNG eller JPEG för varumärkta designer, och välj bland flera mallar och 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Lär ut lägesord genom bildbaserade övningar som användarna verkligen tycker om. Detta verktyg genererar prepositioner arbetsblad där användarna identifierar rumsliga relationer — på, under, ovanför, bredvid, mellan, inuti, utanför — genom att studera bildscener och fylla i eller välja rätt preposition. Välj mellan två övningslägen: Fyll-i-Luckan, där användarna skriver rätt preposition själva, eller Flerval, där de väljer bland alternativ med en anpassningsbar instruktionsrad. Ställ in 1–8 övningar per arbetsblad och välj exakt vilka prepositioner som ska inkluderas med kryssrutrutnätet. Verktygets utmärkande funktion är Formersättning — ett separat bildlager som låter dig byta scenformer oberoende, vilket skapar långt fler visuella kombinationer än en enda bilduppsättning kan erbjuda. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och varje prepositionsord uppdateras till sin inhemska motsvarighet. Engelska använder \"on, under, above, beside, between, inside, outside\"; tyska använder \"auf, unter, über, neben, zwischen, drinnen, draußen\". En arbetsbladsdesign blir 11 unika språkprodukter. Bläddra bland mer än 3 100 bilder i 104 teman, ladda upp din egen PNG eller JPEG för varumärkta designer, och välj bland flera mallar och 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Prepositioner Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
       },
       {
         title: 'Ställ in sidlayout och mall',
-        description: 'I avsnittet «Sidinställningar» väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren — varje mall arrangerar övningar annorlunda på sidan. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren — varje mall arrangerar övningar annorlunda på sidan. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram.',
       },
       {
         title: 'Välj ditt övningsläge',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Välj prepositioner',
-        description: 'Prepositions-kryssrutrutnätet visar alla tillgängliga lägesord för det valda språket. Kryssa i de prepositioner du vill inkludera i arbetsbladet: på, under, ovanför, bredvid, mellan, inuti, utanför. Du kan välja alla eller fokusera på en delmängd för riktad övning. Rutnätet uppdateras automatiskt när du byter språk — tyska visar «auf, unter, über, neben, zwischen, drinnen, draußen» och så vidare.',
+        description: 'Prepositions-kryssrutrutnätet visar alla tillgängliga lägesord för det valda språket. Kryssa i de prepositioner du vill inkludera i arbetsbladet: på, under, ovanför, bredvid, mellan, inuti, utanför. Du kan välja alla eller fokusera på en delmängd för riktad övning. Rutnätet uppdateras automatiskt när du byter språk — tyska visar \"auf, unter, über, neben, zwischen, drinnen, draußen\" och så vidare.',
       },
       {
         title: 'Välj bilder och tema',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 3 100 bilder i 104 tematiska samlingar: djur, mat, fordon, natur, högtider och fler. Använd Manuellt Val för att välja specifika bilder eller välj Alla Teman för att låta verktyget välja automatiskt. Varje bild visas i ett scenkontext som demonstrerar det valda rumsliga förhållandet. Ladda upp din egen PNG eller JPEG för varumärkta arbetsblad.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 3 100 bilder i 104 tematiska samlingar: djur, mat, fordon, natur, högtider och fler. Använd Manuellt Val för att välja specifika bilder eller välj Alla Teman för att låta verktyget välja automatiskt. Varje bild visas i ett scenkontext som demonstrerar det valda rumsliga förhållandet. Ladda upp din egen PNG eller JPEG för varumärkta arbetsblad.',
       },
       {
         title: 'Konfigurera formersättning',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt prepositioner arbetsblad. Förhandsvisningen uppdateras på arbetsytan. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Generera ett matchande facit som visar rätt preposition för varje övning.',
+        description: 'Klicka på \"Generera\" för att bygga ditt prepositioner arbetsblad. Förhandsvisningen uppdateras på arbetsytan. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Generera ett matchande facit som visar rätt preposition för varje övning.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga prepositionsprodukter',
-      description: 'Byt språkinställningen och regenerera samma arbetsbladsmall på alla 11 stödda språk. Varje prepositionsord uppdateras till sin inhemska motsvarighet — «på» förblir «på» på svenska, men blir «on» på engelska, «auf» på tyska, «sur» på franska, «sobre» på spanska. En designsession producerar 11 distinkta produkter, var och en redo att listas på sin lokala marknadsplats. Språkspecifika prepositioner arbetsblad är dramatiskt underbetjänade utanför engelska.',
+      description: 'Byt språkinställningen och regenerera samma arbetsbladsmall på alla 11 stödda språk. Varje prepositionsord uppdateras till sin inhemska motsvarighet — \"på\" förblir \"på\" på svenska, men blir \"on\" på engelska, \"auf\" på tyska, \"sur\" på franska, \"sobre\" på spanska. En designsession producerar 11 distinkta produkter, var och en redo att listas på sin lokala marknadsplats. Språkspecifika prepositioner arbetsblad är dramatiskt underbetjänade utanför engelska.',
     },
     {
       title: 'Anpassade bildvarumärkta arbetsblad',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade prepositionspaket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Prepositioner»-paket med festliga scener — julklappar under granen, stjärnor ovanför huset, godis inuti strumpan — säljer starkt i november–december. Skolstart, halloween och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett \"Jul Prepositioner\"-paket med festliga scener — julklappar under granen, stjärnor ovanför huset, godis inuti strumpan — säljer starkt i november–december. Skolstart, halloween och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP rumsligt språk arbetsböcker',
-      description: 'Sammanställ 60+ prepositionssidor till en fysisk aktivitetsbok för Amazon KDP. Strukturera kapitel efter preposition: «på»-övningar först, sedan «under», sedan blandade prepositioner för utmaningssektionen. Inkludera båda övningslägena så boken erbjuder variation. Använd gråskaleläge för lägre utskriftskostnader. Publicera separata utgåvor för varje språk för att multiplicera din katalog med genuint olika produkter.',
+      description: 'Sammanställ 60+ prepositionssidor till en fysisk aktivitetsbok för Amazon KDP. Strukturera kapitel efter preposition: \"på\"-övningar först, sedan \"under\", sedan blandade prepositioner för utmaningssektionen. Inkludera båda övningslägena så boken erbjuder variation. Använd gråskaleläge för lägre utskriftskostnader. Publicera separata utgåvor för varje språk för att multiplicera din katalog med genuint olika produkter.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad grammatikpaket',
-      description: 'Ladda upp prepositioner arbetsbladspaket till Gumroad organiserade efter svårighet och övningsläge. Inkludera Fyll-i-Luckan-set, Flerval-set och blandade läges-paket med facit för varje sida. säljare söker ständigt efter «prepositioner arbetsblad» och «rumsligt språk aktiviteter». Bildscenformatet lägger till upplevt värde eftersom användarna engagerar sig med visuellt sammanhang snarare än abstrakta fyll-i-luckan-meningar.',
+      description: 'Ladda upp prepositioner arbetsbladspaket till Gumroad organiserade efter svårighet och övningsläge. Inkludera Fyll-i-Luckan-set, Flerval-set och blandade läges-paket med facit för varje sida. säljare söker ständigt efter \"prepositioner arbetsblad\" och \"rumsligt språk aktiviteter\". Bildscenformatet lägger till upplevt värde eftersom användarna engagerar sig med visuellt sammanhang snarare än abstrakta fyll-i-luckan-meningar.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Formersättning variationspaket på Etsy',
-      description: 'Utnyttja Formersättningsfunktionen för att skapa massiva variationspaket. Kombinera 10 huvudbilder med 10 olika former för att producera 100 unika övningsscener från bara 20 källbilder. Sälj dessa som «100-Sidor Prepositioner Megapaket» på Etsy — den stora volymen motiverar ett premiumpris, och den visuella variationen håller användarna engagerade genom hela arbetsboken.',
+      description: 'Utnyttja Formersättningsfunktionen för att skapa massiva variationspaket. Kombinera 10 huvudbilder med 10 olika former för att producera 100 unika övningsscener från bara 20 källbilder. Sälj dessa som \"100-Sidor Prepositioner Megapaket\" på Etsy — den stora volymen motiverar ett premiumpris, och den visuella variationen håller användarna engagerade genom hela arbetsboken.',
       platform: 'Etsy',
     },
   ],
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
-      description: 'Varje prepositionsarbetsblad du designar kan bli 11 produkter genom att byta språk. Prepositionsord uppdateras automatiskt: «på» förblir «på» på svenska men blir «on» på engelska, «auf» på tyska, «sur» på franska, «sobre» på spanska. Språkspecifika prepositioner arbetsblad är en dramatiskt underbetjänad nisch utanför engelska.',
+      description: 'Varje prepositionsarbetsblad du designar kan bli 11 produkter genom att byta språk. Prepositionsord uppdateras automatiskt: \"på\" förblir \"på\" på svenska men blir \"on\" på engelska, \"auf\" på tyska, \"sur\" på franska, \"sobre\" på spanska. Språkspecifika prepositioner arbetsblad är en dramatiskt underbetjänad nisch utanför engelska.',
     },
     {
       title: 'Paketera båda lägena i en produkt',
-      description: 'Kombinera Fyll-i-Luckan och Flerval arbetsblad i ett enda paket. säljare älskar nivågrupperade paket de kan ge till användare på olika nivåer. Ett «Komplett Prepositionspaket» med båda lägen, facit och en lärarguide motiverar ett högre pris än något enskilt läge sålt separat.',
+      description: 'Kombinera Fyll-i-Luckan och Flerval arbetsblad i ett enda paket. säljare älskar nivågrupperade paket de kan ge till användare på olika nivåer. Ett \"Komplett Prepositionspaket\" med båda lägen, facit och en lärarguide motiverar ett högre pris än något enskilt läge sålt separat.',
     },
     {
       title: 'Använd gråskala för KDP och bulkutskrift',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med andra litteracitetsverktyg',
-      description: 'Kombinera prepositioner arbetsblad med ordsökningspussel, skrivövningar, matchningsarbetsblad och alfabet aktiviteter för att skapa omfattande språkpaket. Ett «Komplett Rumsligt Språk»-paket med flera aktivitetstyper säljer för mer än något enskilt arbetsbladsformat ensamt.',
+      description: 'Kombinera prepositioner arbetsblad med ordsökningspussel, skrivövningar, matchningsarbetsblad och alfabet aktiviteter för att skapa omfattande språkpaket. Ett \"Komplett Rumsligt Språk\"-paket med flera aktivitetstyper säljer för mer än något enskilt arbetsbladsformat ensamt.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar språkkänsligheten?',
-      answer: 'När du byter språk uppdateras varje prepositionsord på arbetsbladet till sin inhemska motsvarighet. Svenska «på, under, ovanför» blir engelska «on, under, above», tyska «auf, unter, über», franska «sur, sous, au-dessus», spanska «sobre, debajo, encima» och så vidare på alla 11 stödda språk. Övningsformatet förblir identiskt — bara lägesorden ändras.',
+      answer: 'När du byter språk uppdateras varje prepositionsord på arbetsbladet till sin inhemska motsvarighet. Svenska \"på, under, ovanför\" blir engelska \"on, under, above\", tyska \"auf, unter, über\", franska \"sur, sous, au-dessus\", spanska \"sobre, debajo, encima\" och så vidare på alla 11 stödda språk. Övningsformatet förblir identiskt — bara lägesorden ändras.',
     },
     {
       question: 'Vilka språk stöds?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild»-knappen för att använda dina egna PNG- eller JPEG-filer för både huvudbilder och formersättningar. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer eller licensierat konstverk som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på \"Ladda Upp Bild\"-knappen för att använda dina egna PNG- eller JPEG-filer för både huvudbilder och formersättningar. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer eller licensierat konstverk som ingen annan säljare kan replikera.',
     },
     {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',

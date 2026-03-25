@@ -28,27 +28,27 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Ouvrir le Générateur de Fiches',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches d\'addition. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches d\'addition. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
       },
       {
         title: 'Choisir le Mode d\'Exercice',
-        description: 'Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi quatre modes : Image + Image (les deux termes sont représentés par des groupes d\'images), Image + Nombre (un groupe d\'images plus un chiffre), Trouver le Terme Manquant (un terme est caché et l\'enfant doit le deviner), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).',
+        description: 'Ouvrez le panneau \" Configuration des Exercices \" et sélectionnez parmi quatre modes : Image + Image (les deux termes sont représentés par des groupes d\'images), Image + Nombre (un groupe d\'images plus un chiffre), Trouver le Terme Manquant (un terme est caché et l\'enfant doit le deviner), ou Mode Mixte (combine aléatoirement les trois styles sur une même fiche).',
       },
       {
         title: 'Régler la Plage de Difficulté',
-        description: 'Ajustez les curseurs « Nombre minimum par groupe » et « Nombre maximum par groupe » pour contrôler les chiffres utilisés. Pour les tout-petits, essayez 1–3. Pour la maternelle, utilisez 1–5. Les utilisateurs de CP peuvent gérer 1–10. Vous pouvez aussi définir le nombre d\'exercices par fiche (de 1 à 10).',
+        description: 'Ajustez les curseurs \" Nombre minimum par groupe \" et \" Nombre maximum par groupe \" pour contrôler les chiffres utilisés. Pour les tout-petits, essayez 1–3. Pour la maternelle, utilisez 1–5. Les utilisateurs de CP peuvent gérer 1–10. Vous pouvez aussi définir le nombre d\'exercices par fiche (de 1 à 10).',
       },
       {
         title: 'Sélectionner un Thème dans la Bibliothèque d\'Images',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, créatures marines, espace, sport et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Cliquez sur les images individuelles pour choisir exactement lesquelles apparaîtront sur votre fiche.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, créatures marines, espace, sport et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Cliquez sur les images individuelles pour choisir exactement lesquelles apparaîtront sur votre fiche.',
       },
       {
         title: 'Personnaliser la Mise en Page',
-        description: 'Dans la section « Mise en Page », choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures.',
+        description: 'Dans la section \" Mise en Page \", choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures.',
       },
       {
         title: 'Ajouter du Texte et des Titres',
-        description: 'Utilisez le panneau « Outils Texte » pour ajouter un titre, un champ nom d\'utilisateur ou des consignes. Choisissez parmi des polices adaptées aux enfants comme Fredoka, Baloo 2, Quicksand et Nunito. Ajustez la taille, la couleur et le contour optionnel du texte pour une meilleure lisibilité sur les fonds.',
+        description: 'Utilisez le panneau \" Outils Texte \" pour ajouter un titre, un champ nom d\'utilisateur ou des consignes. Choisissez parmi des polices adaptées aux enfants comme Fredoka, Baloo 2, Quicksand et Nunito. Ajustez la taille, la couleur et le contour optionnel du texte pour une meilleure lisibilité sur les fonds.',
       },
       {
         title: 'Affiner les Options de la Fiche',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur le bouton « Générer » pour créer votre fiche. L\'aperçu se met à jour sur le canevas en temps réel. Quand vous êtes satisfait, utilisez le menu « Télécharger » pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Vous pouvez aussi générer et télécharger un corrigé assorti avec toutes les solutions remplies.',
+        description: 'Cliquez sur le bouton \" Générer \" pour créer votre fiche. L\'aperçu se met à jour sur le canevas en temps réel. Quand vous êtes satisfait, utilisez le menu \" Télécharger \" pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Vous pouvez aussi générer et télécharger un corrigé assorti avec toutes les solutions remplies.',
       },
     ],
   },
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Vendeur sur Gumroad',
-      description: 'Téléchargez des packs de fiches d\'addition différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d\'addition avec images ». Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d\'aperçu car les vendeurs prennent leurs décisions d\'achat presque entièrement sur les vignettes visuelles. Générez des fiches d\'exemple avec les thèmes les plus colorés et incluez des captures d\'écran annotées montrant les options de difficulté et les modes d\'exercice.',
+      description: 'Téléchargez des packs de fiches d\'addition différenciés sur Gumroad. Les vendeurs recherchent constamment \" fiches d\'addition avec images \". Incluez les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée. Lors de la création de vos listings Gumroad, investissez du temps dans les images d\'aperçu car les vendeurs prennent leurs décisions d\'achat presque entièrement sur les vignettes visuelles. Générez des fiches d\'exemple avec les thèmes les plus colorés et incluez des captures d\'écran annotées montrant les options de difficulté et les modes d\'exercice.',
       platform: 'Gumroad',
     },
     {
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Les acheteurs sur Etsy.fr et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Cela prend 10 secondes supplémentaires et améliore considérablement vos évaluations et vos achats répétés. Un corrigé rend aussi votre produit adapté aux familles faisant l\'instruction à domicile où les parents doivent vérifier le travail rapidement.',
+      description: 'Cliquez sur \" Générer le Corrigé \" avant de télécharger. Les acheteurs sur Etsy.fr et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Cela prend 10 secondes supplémentaires et améliore considérablement vos évaluations et vos achats répétés. Un corrigé rend aussi votre produit adapté aux familles faisant l\'instruction à domicile où les parents doivent vérifier le travail rapidement.',
     },
     {
       title: 'Exportez en PDF et en JPEG',
@@ -138,7 +138,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Commencez avec des Plages de Nombres Basses',
-      description: 'Pour les produits destinés à la maternelle, gardez le maximum par groupe à 3–5. Les jeunes enfants sont submergés par les grands nombres. Créez des versions séparées « facile » et « défi » de chaque fiche pour que les parents et vendeurs puissent choisir le bon niveau.',
+      description: 'Pour les produits destinés à la maternelle, gardez le maximum par groupe à 3–5. Les jeunes enfants sont submergés par les grands nombres. Créez des versions séparées \" facile \" et \" défi \" de chaque fiche pour que les parents et vendeurs puissent choisir le bon niveau.',
     },
     {
       title: 'Ajoutez du Texte Personnalisé pour le Branding',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je générer un corrigé ?',
-      answer: 'Oui. Après avoir généré une fiche, cliquez sur « Générer le Corrigé » pour créer une fiche de solutions assortie avec toutes les réponses remplies. Vous pouvez télécharger le corrigé en fichier JPEG ou PDF séparé. C\'est particulièrement utile pour les vendeurs et pour les vendeurs qui souhaitent inclure des corrigés dans leurs produits. Les acheteurs sur Etsy et Gumroad laissent systématiquement de meilleures évaluations pour les listings incluant des corrigés.',
+      answer: 'Oui. Après avoir généré une fiche, cliquez sur \" Générer le Corrigé \" pour créer une fiche de solutions assortie avec toutes les réponses remplies. Vous pouvez télécharger le corrigé en fichier JPEG ou PDF séparé. C\'est particulièrement utile pour les vendeurs et pour les vendeurs qui souhaitent inclure des corrigés dans leurs produits. Les acheteurs sur Etsy et Gumroad laissent systématiquement de meilleures évaluations pour les listings incluant des corrigés.',
     },
     {
       question: 'Quels formats de page sont pris en charge ?',

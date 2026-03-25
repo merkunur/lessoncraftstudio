@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Lägg till text, produktlinjeshjälpare och frihandsritningar',
         description:
-          'Använd panelen Textverktyg för att lägga till titlar, instruktioner eller etiketter med typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Justera teckenstorlek, färg och textkonturbredd (0–10 med 0,5-stegs granularitet) för maximal läsbarhet. Klicka på produktlinjeshjälparna för att lägga till ett namnfält («Namn: ____») eller skrivövningslinjer med ett enda klick. Växla till Ritverktyget för att skissa frihandsillustrationer direkt på arbetsytan — välj penselfärg och justera penselstorleken från 1 till 50 pixlar.',
+          'Använd panelen Textverktyg för att lägga till titlar, instruktioner eller etiketter med typsnitt inklusive Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana. Justera teckenstorlek, färg och textkonturbredd (0–10 med 0,5-stegs granularitet) för maximal läsbarhet. Klicka på produktlinjeshjälparna för att lägga till ett namnfält (\"Namn: ____\") eller skrivövningslinjer med ett enda klick. Växla till Ritverktyget för att skissa frihandsillustrationer direkt på arbetsytan — välj penselfärg och justera penselstorleken från 1 till 50 pixlar.',
       },
       {
         title: 'Växla gråskala och ladda ner',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'produktlinjeshjälpare: namnfält och skrivövningslinjer',
         description:
-          'Två ettklicksproduktlinjeshjälpare förvandlar målarbilder till färdiga produktlinjesaktiviteter. Namnfältsknappen lägger till ett formaterat «Namn: ____________________» textblock placerat längst upp på sidan — användarna skriver sitt namn innan de börjar. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Tillsammans gör dessa hjälpare dina målararbetsblad produktlinjesfärdiga utan manuell textformatering. Gumroad-säljare kan lyfta fram dessa funktioner som inbyggd differentiering från generiska målarbilder.',
+          'Två ettklicksproduktlinjeshjälpare förvandlar målarbilder till färdiga produktlinjesaktiviteter. Namnfältsknappen lägger till ett formaterat \"Namn: ____________________\" textblock placerat längst upp på sidan — användarna skriver sitt namn innan de börjar. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Tillsammans gör dessa hjälpare dina målararbetsblad produktlinjesfärdiga utan manuell textformatering. Gumroad-säljare kan lyfta fram dessa funktioner som inbyggd differentiering från generiska målarbilder.',
       },
       {
         title: 'Gråskaleexportväxling för bläckvänliga målarbilder',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Vad är produktlinjeshjälparna och hur använder jag dem?',
       answer:
-        'Två ettklicksknappar i panelen produktlinjeshjälpare. Namnfältsknappen lägger till ett formaterat «Namn: ____________________» textblock nära toppen av sidan. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Båda hjälparna skapar standardarbetsyteobjekt som du kan flytta, ändra storlek eller radera precis som alla andra element.',
+        'Två ettklicksknappar i panelen produktlinjeshjälpare. Namnfältsknappen lägger till ett formaterat \"Namn: ____________________\" textblock nära toppen av sidan. Skrivövningslinjer-knappen lägger till en grupp med tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten av sidan för skrivövning. Båda hjälparna skapar standardarbetsyteobjekt som du kan flytta, ändra storlek eller radera precis som alla andra element.',
     },
     {
       question: 'Hur fungerar gråskaleexportväxlingen?',

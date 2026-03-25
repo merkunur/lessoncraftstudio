@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Flerspråkiga ordletarprodukter med Full Access',
         description:
-          'Full Access låser upp alla 11 språk, och eftersom Ordletar är språkkänsligt ändras både de gömda orden och rutnätets fyllnadsbokstäver efter språk. «Dog» på engelska blir «Hund» i ett rutnät fyllt med tyska tecken inklusive ä, ö, ü; «chien» på franska visas i ett rutnät med é, è, ç, à. Svenska rutnät inkluderar å, ä och ö vid naturliga frekvenser. Varje språkversion är en genuint annorlunda produkt med olika ord, olika fyllnadstecken och en annorlunda lösarupplevelse. Skapa identiska temaserier på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde.',
+          'Full Access låser upp alla 11 språk, och eftersom Ordletar är språkkänsligt ändras både de gömda orden och rutnätets fyllnadsbokstäver efter språk. \"Dog\" på engelska blir \"Hund\" i ett rutnät fyllt med tyska tecken inklusive ä, ö, ü; \"chien\" på franska visas i ett rutnät med é, è, ç, à. Svenska rutnät inkluderar å, ä och ö vid naturliga frekvenser. Varje språkversion är en genuint annorlunda produkt med olika ord, olika fyllnadstecken och en annorlunda lösarupplevelse. Skapa identiska temaserier på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde.',
         platform: 'Etsy / Amazon KDP / Gumroad (flerspråkigt)',
       },
       {

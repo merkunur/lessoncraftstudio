@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abra o Gerador de Classificação de Imagens',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de fichas de classificação no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de separador duplo à direita — um separador para a ficha de classificação e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de classificação imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de fichas de classificação no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de separador duplo à direita — um separador para a ficha de classificação e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de classificação imediatamente.',
       },
       {
         title: 'Escolha o Seu Modo de Seleção',
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configure o Layout de Página e as Decorações',
-        description: 'Na secção Configuração de Página, selecione o seu tamanho de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou introduza uma dimensão personalizada. Escolha uma cor de fundo de página. Selecione um fundo decorativo temático e uma borda decorativa temática da biblioteca integrada, cada um com um controlo de opacidade independente (0–1, passo 0,05). Os fundos e bordas temáticas funcionam de forma independente, permitindo-lhe combinar um fundo subtil com uma borda decorativa pronunciada. Marque «Incluir Campos de Nome/Data» para adicionar linhas de nome e data para responsabilidade online.',
+        description: 'Na secção Configuração de Página, selecione o seu tamanho de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou introduza uma dimensão personalizada. Escolha uma cor de fundo de página. Selecione um fundo decorativo temático e uma borda decorativa temática da biblioteca integrada, cada um com um controlo de opacidade independente (0–1, passo 0,05). Os fundos e bordas temáticas funcionam de forma independente, permitindo-lhe combinar um fundo subtil com uma borda decorativa pronunciada. Marque \"Incluir Campos de Nome/Data\" para adicionar linhas de nome e data para responsabilidade online.',
       },
       {
         title: 'Gere a Ficha de Classificação',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fichas de Classificação com Fotografias Personalizadas',
-      description: 'Use a função de Carregar Imagens Personalizadas para criar fichas de classificação com as suas próprias fotos ou ilustrações. Atividades de classificação familiares onde as crianças classificam fotos em categorias como «Pessoas» vs «Lugares», exercícios de classificação específicos da loja usando fotos tiradas pelos usuários, atividades de classificação com marca para empresas educativas ou fichas personalizadas para educação especial com imagens familiares. O modo manual permite-lhe atribuir cada imagem carregada à categoria esquerda ou direita. Combinadas com o gabarito autogerado, as fichas de classificação com fotos personalizadas tornam-se produtos únicos e impossíveis de replicar pela concorrência.',
+      description: 'Use a função de Carregar Imagens Personalizadas para criar fichas de classificação com as suas próprias fotos ou ilustrações. Atividades de classificação familiares onde as crianças classificam fotos em categorias como \"Pessoas\" vs \"Lugares\", exercícios de classificação específicos da loja usando fotos tiradas pelos usuários, atividades de classificação com marca para empresas educativas ou fichas personalizadas para educação especial com imagens familiares. O modo manual permite-lhe atribuir cada imagem carregada à categoria esquerda ou direita. Combinadas com o gabarito autogerado, as fichas de classificação com fotos personalizadas tornam-se produtos únicos e impossíveis de replicar pela concorrência.',
     },
     {
       title: 'Coleções de Classificação Sazonais e de Festividades',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Classificação na Amazon KDP',
-      description: 'Compile 50–80 fichas de classificação em cadernos temáticos de atividades para Amazon KDP. Estruture uma série por tema: «Puzzles de Classificação de Animais», «Atividades de Classificação de Alimentos», «Caderno de Classificação da Natureza» e «Classificação de Objetos do Quotidiano». Cada livro progride de classificações simples de 4 imagens até exercícios exigentes de 12 imagens. Inclua páginas de gabarito no final com imagens 6× maiores organizadas em caixas de categorias para verificação clara. Ative a escala de cinzentos para saída económica em tinta que mantém baixos os custos de impressão do KDP. Os cadernos de classificação servem um público amplo desde a primeira infância até ao ensino básico e vendem-se durante todo o ano na categoria de cadernos de atividades.',
+      description: 'Compile 50–80 fichas de classificação em cadernos temáticos de atividades para Amazon KDP. Estruture uma série por tema: \"Puzzles de Classificação de Animais\", \"Atividades de Classificação de Alimentos\", \"Caderno de Classificação da Natureza\" e \"Classificação de Objetos do Quotidiano\". Cada livro progride de classificações simples de 4 imagens até exercícios exigentes de 12 imagens. Inclua páginas de gabarito no final com imagens 6× maiores organizadas em caixas de categorias para verificação clara. Ative a escala de cinzentos para saída económica em tinta que mantém baixos os custos de impressão do KDP. Os cadernos de classificação servem um público amplo desde a primeira infância até ao ensino básico e vendem-se durante todo o ano na categoria de cadernos de atividades.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funil de Tráfego com Fichas de Classificação no Pinterest',
-      description: 'As fichas de classificação criam pins visualmente impactantes no Pinterest — o layout de duas categorias com molduras lado a lado e uma grelha de recortes misturada por baixo cria um formato educativo imediatamente reconhecível que pais e vendedores adoram. Publique fichas de amostra mostrando diferentes emparelhamentos de categorias: classificação de animais para quadros de pré-escolar, classificação de alimentos para quadros de nutrição e classificação sazonal para quadros de festividades. Crie séries de pins separadas para «fichas de classificação para pré-escolar», «atividades de classificação para jardim de infância» e «fichas de classificação de categorias imprimíveis». Ligue cada pin às suas listagens de produtos na Etsy ou no Gumroad.',
+      description: 'As fichas de classificação criam pins visualmente impactantes no Pinterest — o layout de duas categorias com molduras lado a lado e uma grelha de recortes misturada por baixo cria um formato educativo imediatamente reconhecível que pais e vendedores adoram. Publique fichas de amostra mostrando diferentes emparelhamentos de categorias: classificação de animais para quadros de pré-escolar, classificação de alimentos para quadros de nutrição e classificação sazonal para quadros de festividades. Crie séries de pins separadas para \"fichas de classificação para pré-escolar\", \"atividades de classificação para jardim de infância\" e \"fichas de classificação de categorias imprimíveis\". Ligue cada pin às suas listagens de produtos na Etsy ou no Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Aponte a Emparelhamentos Naturais de Categorias para Máxima Visibilidade',
-      description: 'Os produtos de fichas de classificação mais bem-sucedidos usam emparelhamentos de categorias que correspondem à forma como vendedores e pais pensam sobre classificação: animais vs alimentos, terra vs água, vivo vs não vivo, saudável vs não saudável, grande vs pequeno, quente vs frio, dia vs noite. Estas oposições binárias naturais são os termos que os compradores pesquisam na Etsy, no Gumroad e na Amazon. Nomeie as suas listagens usando o emparelhamento real de categorias (por exemplo, «Fichas de Classificação Animais vs Alimentos») em vez de títulos genéricos, e crie listagens separadas para cada emparelhamento principal para captar tráfego de pesquisa segmentado.',
+      description: 'Os produtos de fichas de classificação mais bem-sucedidos usam emparelhamentos de categorias que correspondem à forma como vendedores e pais pensam sobre classificação: animais vs alimentos, terra vs água, vivo vs não vivo, saudável vs não saudável, grande vs pequeno, quente vs frio, dia vs noite. Estas oposições binárias naturais são os termos que os compradores pesquisam na Etsy, no Gumroad e na Amazon. Nomeie as suas listagens usando o emparelhamento real de categorias (por exemplo, \"Fichas de Classificação Animais vs Alimentos\") em vez de títulos genéricos, e crie listagens separadas para cada emparelhamento principal para captar tráfego de pesquisa segmentado.',
     },
   ],
 
@@ -180,15 +180,15 @@ const content: ToolContent = {
     },
     {
       question: 'O Gerador de Classificação de Imagens é sensível ao idioma?',
-      answer: 'Sim. As etiquetas de categoria utilizam nomes localizados de imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza o texto na ficha. Por exemplo, uma imagem de gato aparece como «Cat» em inglês mas «Katze» em alemão e «Chat» em francês. O cabeçalho localizado de «Classificação de Imagens» e a sua descrição também se traduzem automaticamente para os 11 idiomas suportados: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Isto facilita a criação de produtos de classificação multilingue a partir das mesmas imagens.',
+      answer: 'Sim. As etiquetas de categoria utilizam nomes localizados de imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza o texto na ficha. Por exemplo, uma imagem de gato aparece como \"Cat\" em inglês mas \"Katze\" em alemão e \"Chat\" em francês. O cabeçalho localizado de \"Classificação de Imagens\" e a sua descrição também se traduzem automaticamente para os 11 idiomas suportados: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Isto facilita a criação de produtos de classificação multilingue a partir das mesmas imagens.',
     },
     {
       question: 'Como se apresenta o cabeçalho localizado?',
-      answer: 'Cada ficha gerada inclui um cabeçalho estilizado com fundo verde-menta (#4DB6AC), contentor pílula branco, título verde-azulado (#00796B) em fonte Fredoka Bold e descrição laranja (#FF7043) em fonte Quicksand. As fichas verticais apresentam um cabeçalho de 100px com tamanho de título dinâmico (28–48px); as fichas horizontais usam um cabeçalho compacto de 70px com título de 24–36px. O título «Classificação de Imagens» e a descrição traduzem-se automaticamente para os 11 idiomas suportados. Uma borda exterior verde-azulada (#26A69A, 8px, raio 12px) emoldura toda a página.',
+      answer: 'Cada ficha gerada inclui um cabeçalho estilizado com fundo verde-menta (#4DB6AC), contentor pílula branco, título verde-azulado (#00796B) em fonte Fredoka Bold e descrição laranja (#FF7043) em fonte Quicksand. As fichas verticais apresentam um cabeçalho de 100px com tamanho de título dinâmico (28–48px); as fichas horizontais usam um cabeçalho compacto de 70px com título de 24–36px. O título \"Classificação de Imagens\" e a descrição traduzem-se automaticamente para os 11 idiomas suportados. Uma borda exterior verde-azulada (#26A69A, 8px, raio 12px) emoldura toda a página.',
     },
     {
       question: 'Posso incluir campos de nome e data nas fichas de classificação?',
-      answer: 'Sim. Marque a caixa «Incluir Campos de Nome/Data» no painel de Configuração de Página para adicionar linhas de nome e data à ficha. Estes campos asseguram a responsabilidade do usuário online e tornam as suas fichas de classificação prontas para recolha e avaliação sem qualquer preparação adicional. Os campos de nome/data são um ponto de venda principal para produtos de loja no Gumroad onde os vendedores esperam fichas que cheguem prontas para usar.',
+      answer: 'Sim. Marque a caixa \"Incluir Campos de Nome/Data\" no painel de Configuração de Página para adicionar linhas de nome e data à ficha. Estes campos asseguram a responsabilidade do usuário online e tornam as suas fichas de classificação prontas para recolha e avaliação sem qualquer preparação adicional. Os campos de nome/data são um ponto de venda principal para produtos de loja no Gumroad onde os vendedores esperam fichas que cheguem prontas para usar.',
     },
     {
       question: 'Que tamanhos de página e formatos de exportação estão disponíveis?',

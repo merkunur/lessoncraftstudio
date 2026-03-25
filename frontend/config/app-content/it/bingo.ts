@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configura le Impostazioni della Cartella di Bingo',
         description:
-          'Apri il pannello Impostazioni Cartella di Bingo e imposta le righe (da 3 a 5) e le colonne (da 3 a 5) per definire la dimensione della griglia — il valore predefinito è 4×4 con 16 celle. Imposta il numero di cartelle da 1 a 10 per generare in lotto multiple cartelle di bingo uniche. Scegli il riempimento delle celle (Immagine o Parola) e il riempimento delle fiches (Immagine o Parola) in modo indipendente — mescola cartelle con immagini e fiches con parole, cartelle con parole e fiches con immagini, o combina entrambi. Attiva la casella «Usa selezione personalizzata» per scegliere manualmente le immagini specifiche per il richiamo invece della selezione automatica.',
+          'Apri il pannello Impostazioni Cartella di Bingo e imposta le righe (da 3 a 5) e le colonne (da 3 a 5) per definire la dimensione della griglia — il valore predefinito è 4×4 con 16 celle. Imposta il numero di cartelle da 1 a 10 per generare in lotto multiple cartelle di bingo uniche. Scegli il riempimento delle celle (Immagine o Parola) e il riempimento delle fiches (Immagine o Parola) in modo indipendente — mescola cartelle con immagini e fiches con parole, cartelle con parole e fiches con immagini, o combina entrambi. Attiva la casella \"Usa selezione personalizzata\" per scegliere manualmente le immagini specifiche per il richiamo invece della selezione automatica.',
       },
       {
         title: 'Seleziona le Immagini dalla Libreria',
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: 'Cos\'è la selezione personalizzata di richiamo?',
       answer:
-        'Attiva la casella «Usa selezione personalizzata» nel pannello Impostazioni Cartella di Bingo per scegliere manualmente quali immagini specifiche appaiono nel pool di richiamo. Quando è attiva, clicca sulle immagini nella Libreria Immagini per aggiungerle alla tua selezione personalizzata — un contatore in tempo reale mostra «Selezionati per richiamo personalizzato: X» man mano che scegli. Questo ti dà un controllo preciso su quali elementi appaiono nel gioco di bingo, utile per attività allineate al mercato o eventi tematici che richiedono un vocabolario specifico.',
+        'Attiva la casella \"Usa selezione personalizzata\" nel pannello Impostazioni Cartella di Bingo per scegliere manualmente quali immagini specifiche appaiono nel pool di richiamo. Quando è attiva, clicca sulle immagini nella Libreria Immagini per aggiungerle alla tua selezione personalizzata — un contatore in tempo reale mostra \"Selezionati per richiamo personalizzato: X\" man mano che scegli. Questo ti dà un controllo preciso su quali elementi appaiono nel gioco di bingo, utile per attività allineate al mercato o eventi tematici che richiedono un vocabolario specifico.',
     },
     {
       question: 'Il Generatore di Cartelle di Bingo con Immagini è sensibile alla lingua?',
       answer:
-        'Sì. Nella modalità riempimento parole per le celle o le fiches, le parole visualizzate sono i nomi localizzati delle immagini dalla Libreria Immagini. Cambiare la lingua nelle Impostazioni della Scheda modifica le parole sulle cartelle, sulle fiches e sul foglio di richiamo. Ad esempio, un\'immagine di un gatto mostra «Gatto» in italiano ma «Katze» in tedesco e «Cat» in inglese. La Licenza Commerciale include 10 temi colorati solo in inglese; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue per contenuto testuale localizzato.',
+        'Sì. Nella modalità riempimento parole per le celle o le fiches, le parole visualizzate sono i nomi localizzati delle immagini dalla Libreria Immagini. Cambiare la lingua nelle Impostazioni della Scheda modifica le parole sulle cartelle, sulle fiches e sul foglio di richiamo. Ad esempio, un\'immagine di un gatto mostra \"Gatto\" in italiano ma \"Katze\" in tedesco e \"Cat\" in inglese. La Licenza Commerciale include 10 temi colorati solo in inglese; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue per contenuto testuale localizzato.',
     },
     {
       question: 'Perché non c\'è un foglio risposte per le cartelle di bingo?',
       answer:
-        'Le cartelle di bingo utilizzano un foglio di richiamo invece di un foglio risposte. Nel bingo, il conduttore legge gli elementi dal foglio di richiamo mentre i giocatori contrassegnano gli elementi corrispondenti sulle loro cartelle uniche — non esiste una singola «risposta corretta» poiché la cartella di ogni giocatore ha elementi diversi in posizioni diverse. Il foglio di richiamo serve come documento di riferimento del gioco, elencando tutti gli elementi possibili che il conduttore può annunciare durante la partita.',
+        'Le cartelle di bingo utilizzano un foglio di richiamo invece di un foglio risposte. Nel bingo, il conduttore legge gli elementi dal foglio di richiamo mentre i giocatori contrassegnano gli elementi corrispondenti sulle loro cartelle uniche — non esiste una singola \"risposta corretta\" poiché la cartella di ogni giocatore ha elementi diversi in posizioni diverse. Il foglio di richiamo serve come documento di riferimento del gioco, elencando tutti gli elementi possibili che il conduttore può annunciare durante la partita.',
     },
     {
       question: 'Esiste una prova gratuita?',

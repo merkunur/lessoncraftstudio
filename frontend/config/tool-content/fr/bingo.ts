@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Ouvrir le Créateur de Cartes Bingo',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur de cartes bingo à images dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la carte bingo avec les jetons, un pour la feuille d\'appel. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des cartes bingo immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de cartes bingo à images dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la carte bingo avec les jetons, un pour la feuille d\'appel. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des cartes bingo immédiatement.',
       },
       {
         title: 'Configurer la Taille de Grille et le Nombre de Cartes',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Sélectionner les Images dans la Bibliothèque',
-        description: 'Ouvrez le panneau Bibliothèque d\'Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes, métiers et bien d\'autres. Filtrez par thème via le menu déroulant ou recherchez par mot-clé. Cliquez sur les images pour les sélectionner pour vos cartes bingo. Activez la case « Utiliser la sélection personnalisée » pour choisir manuellement les images spécifiques pour la banque d\'appels — un compteur en temps réel affiche votre nombre de sélections au fur et à mesure. La sélection personnalisée des appels vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme ou les événements thématiques.',
+        description: 'Ouvrez le panneau Bibliothèque d\'Images et parcourez 104 collections thématiques avec plus de 3 100 illustrations colorées — animaux, nourriture, véhicules, nature, fêtes, métiers et bien d\'autres. Filtrez par thème via le menu déroulant ou recherchez par mot-clé. Cliquez sur les images pour les sélectionner pour vos cartes bingo. Activez la case \" Utiliser la sélection personnalisée \" pour choisir manuellement les images spécifiques pour la banque d\'appels — un compteur en temps réel affiche votre nombre de sélections au fur et à mesure. La sélection personnalisée des appels vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme ou les événements thématiques.',
       },
       {
         title: 'Définir la Mise en Page et les Décorations',
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Produits de Bingo Vocabulaire Multilingues',
-      description: 'Le Créateur de Cartes Bingo est sensible à la langue — le mode remplissage par mots affiche les noms localisés des images de la Bibliothèque d\'Images, donc changer de langue modifie les mots sur les cartes, les jetons et la feuille d\'appel. Créez des ensembles bingo en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois à partir des mêmes images sans rien reconstruire. Une image de chat affiche « Chat » en français, « Cat » en anglais et « Katze » en allemand. Vendez des produits de bingo vocabulaire sur les places de marché internationales en générant chaque version linguistique en quelques minutes. Les cartes à mots avec jetons à images font des outils de révision de vocabulaire particulièrement efficaces.',
+      description: 'Le Créateur de Cartes Bingo est sensible à la langue — le mode remplissage par mots affiche les noms localisés des images de la Bibliothèque d\'Images, donc changer de langue modifie les mots sur les cartes, les jetons et la feuille d\'appel. Créez des ensembles bingo en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois à partir des mêmes images sans rien reconstruire. Une image de chat affiche \" Chat \" en français, \" Cat \" en anglais et \" Katze \" en allemand. Vendez des produits de bingo vocabulaire sur les places de marché internationales en générant chaque version linguistique en quelques minutes. Les cartes à mots avec jetons à images font des outils de révision de vocabulaire particulièrement efficaces.',
     },
     {
       title: 'Cahiers d\'Activités Bingo pour KDP avec Feuilles d\'Appel',
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Série de Cahiers d\'Activités Bingo sur Amazon KDP',
-      description: 'Compilez 40 à 80 cartes bingo dans des cahiers thématiques pour Amazon KDP. Structurez une série par sujet : « Bingo Animaux », « Bingo des Fêtes », « Bingo Nourriture » et « Bingo Objets du Quotidien ». Incluez les feuilles d\'appel après chaque ensemble de cartes pour que le livre soit autonome et prêt à jouer. Mélangez les tailles de grille pour une difficulté progressive au sein de chaque livre — commencez avec des cartes 3×3 et progressez vers 5×5. Activez les niveaux de gris pour une sortie économique en encre parfaite en noir et blanc. Les cahiers d\'activités bingo se vendent bien toute l\'année et connaissent des pics pendant les fêtes quand les familles recherchent des activités de groupe.',
+      description: 'Compilez 40 à 80 cartes bingo dans des cahiers thématiques pour Amazon KDP. Structurez une série par sujet : \" Bingo Animaux \", \" Bingo des Fêtes \", \" Bingo Nourriture \" et \" Bingo Objets du Quotidien \". Incluez les feuilles d\'appel après chaque ensemble de cartes pour que le livre soit autonome et prêt à jouer. Mélangez les tailles de grille pour une difficulté progressive au sein de chaque livre — commencez avec des cartes 3×3 et progressez vers 5×5. Activez les niveaux de gris pour une sortie économique en encre parfaite en noir et blanc. Les cahiers d\'activités bingo se vendent bien toute l\'année et connaissent des pics pendant les fêtes quand les familles recherchent des activités de groupe.',
       platform: 'Amazon KDP',
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Tunnel de Vente Pinterest pour Cartes Bingo',
-      description: 'Les cartes bingo font des épingles Pinterest visuellement saisissantes — la disposition en grille colorée avec des images thématiques et des jetons circulaires crée un format de jeu immédiatement reconnaissable que les parents et les vendeurs adorent. Épinglez des exemples de cartes bingo montrant différents thèmes : bingo animaux pour les tableaux préscolaires, bingo des fêtes pour les tableaux saisonniers, et bingo vocabulaire pour les tableaux éducatifs. Créez des séries d\'épingles distinctes pour « cartes bingo imprimables », « jeux bingo pour la vente » et « activités bingo de fêtes ». Le bingo est un jeu universellement reconnu, les épingles attirent donc des audiences de tous les pays et langues. Reliez chaque épingle à vos listings Etsy ou Gumroad.',
+      description: 'Les cartes bingo font des épingles Pinterest visuellement saisissantes — la disposition en grille colorée avec des images thématiques et des jetons circulaires crée un format de jeu immédiatement reconnaissable que les parents et les vendeurs adorent. Épinglez des exemples de cartes bingo montrant différents thèmes : bingo animaux pour les tableaux préscolaires, bingo des fêtes pour les tableaux saisonniers, et bingo vocabulaire pour les tableaux éducatifs. Créez des séries d\'épingles distinctes pour \" cartes bingo imprimables \", \" jeux bingo pour la vente \" et \" activités bingo de fêtes \". Le bingo est un jeu universellement reconnu, les épingles attirent donc des audiences de tous les pays et langues. Reliez chaque épingle à vos listings Etsy ou Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Exploitez la Sélection Personnalisée des Appels pour l\'Alignement au Programme',
-      description: 'Activez la case « Utiliser la sélection personnalisée » pour choisir manuellement quelles images apparaissent dans la banque d\'appels. Le compteur en temps réel affiche votre nombre de sélections au fur et à mesure que vous choisissez dans la Bibliothèque d\'Images. Cette fonctionnalité est essentielle pour créer des jeux bingo alignés sur le programme — sélectionnez uniquement les mots de vocabulaire couverts par votre leçon, uniquement les animaux d\'un habitat spécifique, ou uniquement les aliments d\'une unité nutrition. La sélection personnalisée des appels transforme le bingo d\'un jeu aléatoire en un outil pédagogique ciblé, ce qui est l\'argument de vente clé pour les produits Gumroad destinés à la classe.',
+      description: 'Activez la case \" Utiliser la sélection personnalisée \" pour choisir manuellement quelles images apparaissent dans la banque d\'appels. Le compteur en temps réel affiche votre nombre de sélections au fur et à mesure que vous choisissez dans la Bibliothèque d\'Images. Cette fonctionnalité est essentielle pour créer des jeux bingo alignés sur le programme — sélectionnez uniquement les mots de vocabulaire couverts par votre leçon, uniquement les animaux d\'un habitat spécifique, ou uniquement les aliments d\'une unité nutrition. La sélection personnalisée des appels transforme le bingo d\'un jeu aléatoire en un outil pédagogique ciblé, ce qui est l\'argument de vente clé pour les produits Gumroad destinés à la classe.',
     },
     {
       title: 'Exploitez le Remplissage par Mots Sensible à la Langue pour des Produits Multilingues',
@@ -179,11 +179,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Qu\'est-ce que la sélection personnalisée des appels ?',
-      answer: 'Activez la case « Utiliser la sélection personnalisée » dans le panneau Paramètres de la Carte Bingo pour choisir manuellement quelles images spécifiques apparaissent dans la banque d\'appels. Lorsqu\'elle est activée, cliquez sur les images dans la Bibliothèque d\'Images pour les ajouter à votre sélection personnalisée — un compteur en temps réel affiche votre nombre de sélections au fur et à mesure. Cela vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme, les événements thématiques ou toute situation où vous souhaitez choisir exactement les éléments que les joueurs rencontreront pendant la partie.',
+      answer: 'Activez la case \" Utiliser la sélection personnalisée \" dans le panneau Paramètres de la Carte Bingo pour choisir manuellement quelles images spécifiques apparaissent dans la banque d\'appels. Lorsqu\'elle est activée, cliquez sur les images dans la Bibliothèque d\'Images pour les ajouter à votre sélection personnalisée — un compteur en temps réel affiche votre nombre de sélections au fur et à mesure. Cela vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme, les événements thématiques ou toute situation où vous souhaitez choisir exactement les éléments que les joueurs rencontreront pendant la partie.',
     },
     {
       question: 'Le Créateur de Cartes Bingo est-il sensible à la langue ?',
-      answer: 'Oui. En mode remplissage par mots pour les cases ou les jetons, les mots affichés sont les noms localisés des images de la Bibliothèque d\'Images. Changer la langue dans les Paramètres de la Fiche modifie les mots sur les cartes, les jetons et la feuille d\'appel. Par exemple, une image de chat affiche « Chat » en français mais « Katze » en allemand et « Cat » en anglais. Cela facilite la création de produits bingo vocabulaire multilingues à partir des mêmes images. Le mode remplissage par images n\'est pas sensible à la langue puisqu\'il affiche des illustrations plutôt que des mots.',
+      answer: 'Oui. En mode remplissage par mots pour les cases ou les jetons, les mots affichés sont les noms localisés des images de la Bibliothèque d\'Images. Changer la langue dans les Paramètres de la Fiche modifie les mots sur les cartes, les jetons et la feuille d\'appel. Par exemple, une image de chat affiche \" Chat \" en français mais \" Katze \" en allemand et \" Cat \" en anglais. Cela facilite la création de produits bingo vocabulaire multilingues à partir des mêmes images. Le mode remplissage par images n\'est pas sensible à la langue puisqu\'il affiche des illustrations plutôt que des mots.',
     },
     {
       question: 'Comment fonctionne l\'export ZIP par lot ?',

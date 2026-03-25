@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Clave de respuesta generada automáticamente con respuestas resaltadas',
         description:
-          'La clave de respuesta generada automáticamente resalta y rodea las respuestas correctas para cada ejercicio de la ficha. Para las preguntas de tipo «rodea», la imagen correcta está visualmente marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha, ofreciendo a los compradores un producto completo. Incluir claves de respuesta aumenta el valor percibido y justifica precios más altos en Etsy y Gumroad — los compradores esperan soluciones verificadas con cada producto de fichas.',
+          'La clave de respuesta generada automáticamente resalta y rodea las respuestas correctas para cada ejercicio de la ficha. Para las preguntas de tipo \"rodea\", la imagen correcta está visualmente marcada. Para las preguntas de numeración, el orden correcto de tamaño se muestra. La clave de respuesta se descarga como archivo separado junto con la ficha, ofreciendo a los compradores un producto completo. Incluir claves de respuesta aumenta el valor percibido y justifica precios más altos en Etsy y Gumroad — los compradores esperan soluciones verificadas con cada producto de fichas.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',

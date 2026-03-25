@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abra o Gerador de Objetos Ocultos',
-        description: 'Clique em «Teste Grátis Agora» para abrir o gerador de fichas de objetos ocultos no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configuração à esquerda e um canvas de duplo separador à direita — um separador para a ficha e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação necessária — comece a criar fichas de objetos ocultos de imediato.',
+        description: 'Clique em \"Teste Grátis Agora\" para abrir o gerador de fichas de objetos ocultos no seu navegador. A ferramenta carrega instantaneamente com uma barra lateral de configuração à esquerda e um canvas de duplo separador à direita — um separador para a ficha e outro para o gabarito. Sem criar conta, sem descarregar software, sem instalação necessária — comece a criar fichas de objetos ocultos de imediato.',
       },
       {
         title: 'Configure o Layout de Página',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Atividades de Objetos Ocultos na Amazon KDP',
-      description: 'Compile de 50 a 80 fichas de objetos ocultos em cadernos temáticos para Amazon KDP. Estruture uma série por dificuldade e modo: «Eu Vejo Fácil para Iniciantes» com 1–2 objetos ocultos e 8 distratores, «Aventuras de Busca Eu Vejo» aumentando para 3–4 objetos ocultos com 10 distratores, «Desafios Avançados de Objetos Ocultos» com 5 objetos ocultos entre 12 distratores, e «Fichas Visuais de Encontra o Diferente» usando o modo de imagens emparelhadas. Inclua gabaritos no final com anotações de círculos vermelhos. Ative escala de cinzentos para impressão que poupa tinta. O formato puramente visual publica-se de forma idêntica em todos os mercados internacionais de KDP sem tradução — um único interior serve para todos os países.',
+      description: 'Compile de 50 a 80 fichas de objetos ocultos em cadernos temáticos para Amazon KDP. Estruture uma série por dificuldade e modo: \"Eu Vejo Fácil para Iniciantes\" com 1–2 objetos ocultos e 8 distratores, \"Aventuras de Busca Eu Vejo\" aumentando para 3–4 objetos ocultos com 10 distratores, \"Desafios Avançados de Objetos Ocultos\" com 5 objetos ocultos entre 12 distratores, e \"Fichas Visuais de Encontra o Diferente\" usando o modo de imagens emparelhadas. Inclua gabaritos no final com anotações de círculos vermelhos. Ative escala de cinzentos para impressão que poupa tinta. O formato puramente visual publica-se de forma idêntica em todos os mercados internacionais de KDP sem tradução — um único interior serve para todos os países.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funil de Tráfego no Pinterest com Fichas de Objetos Ocultos',
-      description: 'As fichas de objetos ocultos criam pins visualmente impactantes no Pinterest — cenas coloridas de imagens dispersas com objetos para encontrar criam conteúdo educativo imediatamente atrativo que pais e vendedores clicam. Publique fichas de amostra mostrando ambos os modos: Eu Vejo com objetos ocultos dispersos e a legenda inferior, e Encontra o Diferente com imagens emparelhadas em linhas. Crie séries de pins separadas para «fichas de objetos ocultos para crianças», «atividades imprimíveis eu vejo» e «fichas visuais encontra o diferente». As imagens de pré-visualização do gabarito com anotações de círculos vermelhos demonstram qualidade profissional. Ligue cada pin às suas listagens da Etsy ou Gumroad para conversão direta.',
+      description: 'As fichas de objetos ocultos criam pins visualmente impactantes no Pinterest — cenas coloridas de imagens dispersas com objetos para encontrar criam conteúdo educativo imediatamente atrativo que pais e vendedores clicam. Publique fichas de amostra mostrando ambos os modos: Eu Vejo com objetos ocultos dispersos e a legenda inferior, e Encontra o Diferente com imagens emparelhadas em linhas. Crie séries de pins separadas para \"fichas de objetos ocultos para crianças\", \"atividades imprimíveis eu vejo\" e \"fichas visuais encontra o diferente\". As imagens de pré-visualização do gabarito com anotações de círculos vermelhos demonstram qualidade profissional. Ligue cada pin às suas listagens da Etsy ou Gumroad para conversão direta.',
       platform: 'Pinterest',
     },
     {

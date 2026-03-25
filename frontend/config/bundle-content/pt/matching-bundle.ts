@@ -71,7 +71,7 @@ const content: BundleContent = {
     },
     {
       title: 'Mais de 100 conjuntos de imagens temáticas',
-      description: 'Aceda a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos cinco geradores. Cada tema dá-lhe um ângulo de produto único — publique «Pacote de Associação Animais do Oceano» junto a «Sombras de Animais da Quinta» e «Cartelas de Bingo de Dinossauros» para captar diferentes consultas de pesquisa, interesses de compradores e faixas etárias simultaneamente. O nível Acesso Completo desbloqueia os 104 temas para a máxima variedade de produtos.',
+      description: 'Aceda a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos cinco geradores. Cada tema dá-lhe um ângulo de produto único — publique \"Pacote de Associação Animais do Oceano\" junto a \"Sombras de Animais da Quinta\" e \"Cartelas de Bingo de Dinossauros\" para captar diferentes consultas de pesquisa, interesses de compradores e faixas etárias simultaneamente. O nível Acesso Completo desbloqueia os 104 temas para a máxima variedade de produtos.',
     },
     {
       title: 'Carregar imagens personalizadas',
@@ -91,7 +91,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cadernos de atividades de associação no Amazon KDP',
-      description: 'Combine fichas de múltiplos geradores em cadernos temáticos para KDP: «Caderno de Associação e Classificação para Pré-Escolar» com páginas de associação, exercícios de sombras e atividades de classificação, ou «Coleção de Bingo e Associação para a loja» misturando cartelas de bingo com puzzles de grelha. O motor de design consistente assegura que cada página tenha um aspeto profissionalmente uniforme. Gere de 50 a 100 páginas por caderno numa única sessão, transfira como PDF e carregue diretamente no KDP. Os dois geradores puramente visuais produzem páginas independentes do idioma que se vendem em todos os mercados da Amazon do mundo.',
+      description: 'Combine fichas de múltiplos geradores em cadernos temáticos para KDP: \"Caderno de Associação e Classificação para Pré-Escolar\" com páginas de associação, exercícios de sombras e atividades de classificação, ou \"Coleção de Bingo e Associação para a loja\" misturando cartelas de bingo com puzzles de grelha. O motor de design consistente assegura que cada página tenha um aspeto profissionalmente uniforme. Gere de 50 a 100 páginas por caderno numa única sessão, transfira como PDF e carregue diretamente no KDP. Os dois geradores puramente visuais produzem páginas independentes do idioma que se vendem em todos os mercados da Amazon do mundo.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {

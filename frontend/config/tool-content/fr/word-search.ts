@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Mots Cachés',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots cachés immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots cachés immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et le Modèle',
-        description: 'Dans la section « Mise en Page », sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable depuis la bibliothèque de 104 thèmes et choisissez un cadre décoratif.',
+        description: 'Dans la section \" Mise en Page \", sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable depuis la bibliothèque de 104 thèmes et choisissez un cadre décoratif.',
       },
       {
         title: 'Choisir Votre Source de Contenu',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Générer le Corrigé et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre fiche mots cachés avec les mots dissimulés dans la grille. Passez à l\'onglet Corrigé et générez une version résolue avec code couleur où chaque mot est mis en évidence dans l\'une de six couleurs alternées — rose, bleu, vert, doré, corail et lavande. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre. Téléchargez la fiche et le corrigé en PDF prêt à imprimer ou en JPEG haute résolution à plus de 400 DPI.',
+        description: 'Cliquez sur \" Générer \" pour créer votre fiche mots cachés avec les mots dissimulés dans la grille. Passez à l\'onglet Corrigé et générez une version résolue avec code couleur où chaque mot est mis en évidence dans l\'une de six couleurs alternées — rose, bleu, vert, doré, corail et lavande. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre. Téléchargez la fiche et le corrigé en PDF prêt à imprimer ou en JPEG haute résolution à plus de 400 DPI.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Produits Mots Cachés Multilingues',
-      description: 'Changez la langue et régénérez le même design de fiche dans les 11 langues prises en charge. Les mots cachés et les lettres de remplissage de la grille changent selon la langue — « Dog » en anglais devient « Hund » dans une grille remplie avec ä, ö, ü, « chien » en français dans une grille avec é, è, ç. Chaque version linguistique est un produit véritablement différent avec des mots différents, des lettres de remplissage différentes et une expérience de résolution différente. Une seule session de création produit 11 produits distincts.',
+      description: 'Changez la langue et régénérez le même design de fiche dans les 11 langues prises en charge. Les mots cachés et les lettres de remplissage de la grille changent selon la langue — \" Dog \" en anglais devient \" Hund \" dans une grille remplie avec ä, ö, ü, \" chien \" en français dans une grille avec é, è, ç. Chaque version linguistique est un produit véritablement différent avec des mots différents, des lettres de remplissage différentes et une expérience de résolution différente. Une seule session de création produit 11 produits distincts.',
     },
     {
       title: 'Mots Cachés avec Vocabulaire Personnalisé',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Puzzles Saisonniers et Festifs',
-      description: 'Utilisez les thèmes images saisonniers et festifs pour créer des packs à durée limitée. Un pack « Mots Cachés Halloween » avec du vocabulaire effrayant dans des grilles progressivement plus grandes se vend fortement en octobre. Noël, rentrée scolaire, printemps et été ont chacun leur propre pic de ventes sur Etsy.fr et Gumroad. Combinez des petites grilles faciles pour les plus jeunes avec des grandes grilles exigeantes pour les plus grands dans un seul pack saisonnier pour maximiser votre audience d\'acheteurs.',
+      description: 'Utilisez les thèmes images saisonniers et festifs pour créer des packs à durée limitée. Un pack \" Mots Cachés Halloween \" avec du vocabulaire effrayant dans des grilles progressivement plus grandes se vend fortement en octobre. Noël, rentrée scolaire, printemps et été ont chacun leur propre pic de ventes sur Etsy.fr et Gumroad. Combinez des petites grilles faciles pour les plus jeunes avec des grandes grilles exigeantes pour les plus grands dans un seul pack saisonnier pour maximiser votre audience d\'acheteurs.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers de Puzzles Thématiques sur Amazon KDP',
-      description: 'Compilez plus de 80 puzzles mots cachés dans un cahier d\'activités thématique pour Amazon KDP. Structurez une série autour de thèmes populaires : « Mots Cachés Animaux », « Mots Cachés Nourriture et Cuisine », « Mots Cachés Nature et Sciences ». Chaque cahier utilise des tailles de grille progressives de 6×6 à 25×25 avec corrigés à la fin. Utilisez le mode niveaux de gris pour réduire les coûts d\'impression. Les cahiers de mots cachés se vendent régulièrement toute l\'année sur Amazon. Publiez des éditions séparées par langue grâce aux lettres de remplissage adaptées pour multiplier votre catalogue.',
+      description: 'Compilez plus de 80 puzzles mots cachés dans un cahier d\'activités thématique pour Amazon KDP. Structurez une série autour de thèmes populaires : \" Mots Cachés Animaux \", \" Mots Cachés Nourriture et Cuisine \", \" Mots Cachés Nature et Sciences \". Chaque cahier utilise des tailles de grille progressives de 6×6 à 25×25 avec corrigés à la fin. Utilisez le mode niveaux de gris pour réduire les coûts d\'impression. Les cahiers de mots cachés se vendent régulièrement toute l\'année sur Amazon. Publiez des éditions séparées par langue grâce aux lettres de remplissage adaptées pour multiplier votre catalogue.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Ateliers de Vocabulaire sur Gumroad',
-      description: 'Téléchargez des packs de fiches mots cachés sur Gumroad organisés par thème et difficulté. Incluez quatre niveaux de difficulté par thème en utilisant la taille de grille et les contrôles de direction comme axes de différenciation. Accompagnez de corrigés avec code couleur et de fiches de suivi de progression. Les vendeurs recherchent fréquemment « activités de vocabulaire » et « fiches mots cachés ». La difficulté ajustable signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs apprécient fortement et mentionnent dans les avis.',
+      description: 'Téléchargez des packs de fiches mots cachés sur Gumroad organisés par thème et difficulté. Incluez quatre niveaux de difficulté par thème en utilisant la taille de grille et les contrôles de direction comme axes de différenciation. Accompagnez de corrigés avec code couleur et de fiches de suivi de progression. Les vendeurs recherchent fréquemment \" activités de vocabulaire \" et \" fiches mots cachés \". La difficulté ajustable signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs apprécient fortement et mentionnent dans les avis.',
       platform: 'Gumroad',
     },
     {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Les Corrigés avec Code Couleur Ajoutent une Valeur Professionnelle',
-      description: 'Le corrigé à six couleurs — rose, bleu, vert, doré, corail, lavande — met en évidence chaque mot distinctement, même quand les mots se croisent ou se chevauchent dans la grille. Incluez toujours les corrigés dans vos packs de produits. Les vendeurs les exigent, les parents les apprécient, et le format avec code couleur paraît professionnel dans vos aperçus de listing comparé aux simples corrigés « entourez le mot ».',
+      description: 'Le corrigé à six couleurs — rose, bleu, vert, doré, corail, lavande — met en évidence chaque mot distinctement, même quand les mots se croisent ou se chevauchent dans la grille. Incluez toujours les corrigés dans vos packs de produits. Les vendeurs les exigent, les parents les apprécient, et le format avec code couleur paraît professionnel dans vos aperçus de listing comparé aux simples corrigés \" entourez le mot \".',
     },
     {
       title: 'Associez avec d\'Autres Outils de Lecture pour des Packs Premium',

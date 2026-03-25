@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Picture Cipher with Image-to-Letter Mapping',
         description:
-          'Every alphabet letter is mapped to a unique image, and the secret phrase is rendered as a sequence of images replacing each letter. Solvers identify each image, deduce which letter it represents, and reconstruct the original text — a fundamentally different challenge from word-finding or letter-rearranging puzzles. The image-to-letter cipher engages deduction, pattern recognition, and contextual reasoning as solvers build a mental decryption key one mapping at a time. This code-breaking mechanic creates puzzles with genuine “aha” moments as each decoded letter unlocks multiple words simultaneously.',
+          'Every alphabet letter is mapped to a unique image, and the secret phrase is rendered as a sequence of images replacing each letter. Solvers identify each image, deduce which letter it represents, and reconstruct the original text — a fundamentally different challenge from word-finding or letter-rearranging puzzles. The image-to-letter cipher engages deduction, pattern recognition, and contextual reasoning as solvers build a mental decryption key one mapping at a time. This code-breaking mechanic creates puzzles with genuine \"aha\" moments as each decoded letter unlocks multiple words simultaneously.',
       },
       {
         title: 'Phrase-Level Encoding for Complete Message Decryption',
         description:
-          'Unlike puzzles that encode individual words, the Cryptogram generator encodes entire phrases and sentences. Solvers decode a complete readable message — a motivational quote, a vocabulary sentence, a fun fact, or a custom instruction — giving them the satisfaction of revealing meaningful content rather than isolated words. Phrase-level encoding also provides contextual clues: common short words like “the”, “and”, and “is” help solvers crack the cipher faster, creating a natural scaffolding effect that rewards language intuition.',
+          'Unlike puzzles that encode individual words, the Cryptogram generator encodes entire phrases and sentences. Solvers decode a complete readable message — a motivational quote, a vocabulary sentence, a fun fact, or a custom instruction — giving them the satisfaction of revealing meaningful content rather than isolated words. Phrase-level encoding also provides contextual clues: common short words like \"the\", \"and\", and \"is\" help solvers crack the cipher faster, creating a natural scaffolding effect that rewards language intuition.',
       },
       {
         title: 'Adjustable Difficulty with Letters to Reveal (0–10)',

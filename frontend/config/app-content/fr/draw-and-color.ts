@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'En-tête auto-généré réactif avec texte localisé',
         description:
-          'Chaque fiche inclut un en-tête auto-généré qui s\'adapte à l\'orientation de la page. Le mode Portrait affiche un grand en-tête centré avec une bordure extérieure magenta et une bordure intérieure rose. Le mode Paysage utilise un en-tête compact centré avec un fond vert lime et une pastille blanche. Le texte de l\'en-tête est automatiquement localisé dans les 11 langues prises en charge — « Dessiner et Colorier » en français, « Draw and Color » en anglais, « Zeichnen & Ausmalen » en allemand, et ainsi de suite. Les en-têtes sont entièrement éditables sur le canevas : sélectionnez, déplacez, redimensionnez ou supprimez-les. Cette localisation automatique permet aux vendeurs de créer des produits multilingues sans traduction manuelle des en-têtes.',
+          'Chaque fiche inclut un en-tête auto-généré qui s\'adapte à l\'orientation de la page. Le mode Portrait affiche un grand en-tête centré avec une bordure extérieure magenta et une bordure intérieure rose. Le mode Paysage utilise un en-tête compact centré avec un fond vert lime et une pastille blanche. Le texte de l\'en-tête est automatiquement localisé dans les 11 langues prises en charge — \" Dessiner et Colorier \" en français, \" Draw and Color \" en anglais, \" Zeichnen & Ausmalen \" en allemand, et ainsi de suite. Les en-têtes sont entièrement éditables sur le canevas : sélectionnez, déplacez, redimensionnez ou supprimez-les. Cette localisation automatique permet aux vendeurs de créer des produits multilingues sans traduction manuelle des en-têtes.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI',

@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Fichas',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de fichas de maior que menor que. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de fichas de maior que menor que. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
       },
       {
         title: 'Escolher o Modo de Exercício',
-        description: 'Abra o painel «Configuração de Exercícios» e selecione entre três modos: Imagem contra Imagem (dois grupos de imagens lado a lado — os usuários contam e comparam quantidades), Imagem contra Número (um grupo de imagens junto a um número — liga o reconhecimento visual ao abstrato) ou Marcar e Riscar Grupos (uma caixa com 8–20 imagens misturadas de duas categorias — os usuários marcam o grupo maioritário e riscam o grupo minoritário). Marcar e Riscar é exclusivo desta ferramenta e permite-lhe criar produtos que nenhum concorrente consegue igualar.',
+        description: 'Abra o painel \"Configuração de Exercícios\" e selecione entre três modos: Imagem contra Imagem (dois grupos de imagens lado a lado — os usuários contam e comparam quantidades), Imagem contra Número (um grupo de imagens junto a um número — liga o reconhecimento visual ao abstrato) ou Marcar e Riscar Grupos (uma caixa com 8–20 imagens misturadas de duas categorias — os usuários marcam o grupo maioritário e riscam o grupo minoritário). Marcar e Riscar é exclusivo desta ferramenta e permite-lhe criar produtos que nenhum concorrente consegue igualar.',
       },
       {
         title: 'Ajustar o Intervalo Numérico',
@@ -49,15 +49,15 @@ const content: ToolContent = {
       },
       {
         title: 'Selecionar Imagens da Biblioteca Temática',
-        description: 'Abra o painel «Biblioteca de Imagens» e explore mais de 100 coleções temáticas: animais, alimentos, veículos, criaturas marinhas, espaço, desportos e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Clique nas imagens individuais para escolher exatamente quais aparecerão na sua ficha.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 100 coleções temáticas: animais, alimentos, veículos, criaturas marinhas, espaço, desportos e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Clique nas imagens individuais para escolher exatamente quais aparecerão na sua ficha.',
       },
       {
         title: 'Personalizar o Layout da Página',
-        description: 'Na secção «Configuração de Página», escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
+        description: 'Na secção \"Configuração de Página\", escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
       },
       {
         title: 'Gerar e Descarregar',
-        description: 'Clique no botão «Gerar» para criar a sua ficha. A pré-visualização atualiza-se no canvas em tempo real. Quando estiver satisfeito, use o menu «Descarregar» para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Também pode gerar e descarregar um gabarito com todos os símbolos de comparação corretos preenchidos.',
+        description: 'Clique no botão \"Gerar\" para criar a sua ficha. A pré-visualização atualiza-se no canvas em tempo real. Quando estiver satisfeito, use o menu \"Descarregar\" para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Também pode gerar e descarregar um gabarito com todos os símbolos de comparação corretos preenchidos.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacotes de Comparação Sazonais',
-      description: 'Use temas de festividades e estações (Natal, Halloween, flores de primavera, praia de verão) para criar pacotes de edição limitada. Os produtos sazonais vendem-se especialmente bem na Etsy porque os compradores procuram-nos em janelas específicas. Um pacote de «Maior e Menor de Halloween» com imagens temáticas é um íman de atenção garantido em outubro.',
+      description: 'Use temas de festividades e estações (Natal, Halloween, flores de primavera, praia de verão) para criar pacotes de edição limitada. Os produtos sazonais vendem-se especialmente bem na Etsy porque os compradores procuram-nos em janelas específicas. Um pacote de \"Maior e Menor de Halloween\" com imagens temáticas é um íman de atenção garantido em outubro.',
     },
     {
       title: 'Pacotes de Fichas Visuais para o Mercado Global',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Vendedor de Pacotes de Matemática no Gumroad',
-      description: 'Carregue pacotes de fichas de comparação diferenciadas no Gumroad. Os vendedores procuram constantemente «fichas de maior que menor que» e «fichas de comparação de números». Inclua os três modos de exercício, versões com símbolos ilustrados e padrão, gabaritos e um guia vendedor em cada anúncio para uma maior perceção de valor.',
+      description: 'Carregue pacotes de fichas de comparação diferenciadas no Gumroad. Os vendedores procuram constantemente \"fichas de maior que menor que\" e \"fichas de comparação de números\". Inclua os três modos de exercício, versões com símbolos ilustrados e padrão, gabaritos e um guia vendedor em cada anúncio para uma maior perceção de valor.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use os Símbolos Ilustrados para os Mais Novos',
-      description: 'Os símbolos de comparação ilustrados são coloridos e adaptados para crianças, ideais para produtos de pré-escola e jardim de infância. Mude para Símbolos Normais para o primeiro ano em diante, ou inclua ambas as versões no seu pacote para que os vendedores escolham a mais adequada. Incluir ambos os estilos de símbolos num mesmo anúncio também amplia o seu alcance de palavras-chave na Etsy porque os compradores pesquisam tanto «fichas de comparação com imagens» como «fichas de símbolos maior que menor que» — cobrir ambas as versões significa que o seu anúncio corresponde a uma gama mais ampla de consultas de pesquisa.',
+      description: 'Os símbolos de comparação ilustrados são coloridos e adaptados para crianças, ideais para produtos de pré-escola e jardim de infância. Mude para Símbolos Normais para o primeiro ano em diante, ou inclua ambas as versões no seu pacote para que os vendedores escolham a mais adequada. Incluir ambos os estilos de símbolos num mesmo anúncio também amplia o seu alcance de palavras-chave na Etsy porque os compradores pesquisam tanto \"fichas de comparação com imagens\" como \"fichas de símbolos maior que menor que\" — cobrir ambas as versões significa que o seu anúncio corresponde a uma gama mais ampla de consultas de pesquisa.',
     },
     {
       title: 'Escale a Dificuldade com a Variação de Imagens',
@@ -136,7 +136,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combine com Adição e Subtração para Mega-Pacotes de Matemática',
-      description: 'Crie conjuntos coordenados de fichas de comparação, adição e subtração usando o mesmo tema e intervalo numérico. Venda-os individualmente e como um «Mega-Pacote de Matemática para Primeiros Anos» combinado com um ligeiro desconto. Os produtos agrupados têm valores médios de encomenda mais altos em todos os marketplaces. Quando usa o mesmo tema de animais ou sazonal nas três competências matemáticas, o pacote parece coeso e profissionalmente concebido. Os compradores percebem os pacotes temáticos como significativamente mais valiosos do que coleções aleatórias de fichas, o que se traduz diretamente em melhores taxas de conversão.',
+      description: 'Crie conjuntos coordenados de fichas de comparação, adição e subtração usando o mesmo tema e intervalo numérico. Venda-os individualmente e como um \"Mega-Pacote de Matemática para Primeiros Anos\" combinado com um ligeiro desconto. Os produtos agrupados têm valores médios de encomenda mais altos em todos os marketplaces. Quando usa o mesmo tema de animais ou sazonal nas três competências matemáticas, o pacote parece coeso e profissionalmente concebido. Os compradores percebem os pacotes temáticos como significativamente mais valiosos do que coleções aleatórias de fichas, o que se traduz diretamente em melhores taxas de conversão.',
     },
     {
       title: 'Limite Marcar e Riscar a 1–3 Exercícios por Página',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inclua Sempre o Gabarito',
-      description: 'Clique em «Gerar Gabarito» antes de descarregar. Para fichas de comparação, o gabarito mostra o símbolo correto (>, < ou =) para cada exercício. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem gabarito. Para o modo Marcar e Riscar, o gabarito indica claramente qual grupo de imagens é o maioritário e qual é o minoritário, poupando valor percebido aos vendedores. Incluir gabaritos também torna os seus produtos adequados para aprendizagem autónoma e trabalhos de casa onde os pais precisam de verificar o valor percebido sem conhecimentos matemáticos avançados.',
+      description: 'Clique em \"Gerar Gabarito\" antes de descarregar. Para fichas de comparação, o gabarito mostra o símbolo correto (>, < ou =) para cada exercício. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem gabarito. Para o modo Marcar e Riscar, o gabarito indica claramente qual grupo de imagens é o maioritário e qual é o minoritário, poupando valor percebido aos vendedores. Incluir gabaritos também torna os seus produtos adequados para aprendizagem autónoma e trabalhos de casa onde os pais precisam de verificar o valor percebido sem conhecimentos matemáticos avançados.',
     },
   ],
 

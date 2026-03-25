@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir el Generador de Puzzles',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador de puzzles matemáticos. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador de puzzles matemáticos. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
       },
       {
         title: 'Configurar el Tamaño de la Cuadrícula',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Seleccionar o Subir una Imagen',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, espacio, festividades y muchos más. Usa la barra de búsqueda para encontrar temas específicos. También puedes hacer clic en «Subir Imagen» para usar tu propia imagen PNG o JPEG — perfecto para puzzles personalizados, diseños estacionales o temas de nicho que coincidan con la identidad de tu tienda.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 100 colecciones temáticas: animales, comida, vehículos, espacio, festividades y muchos más. Usa la barra de búsqueda para encontrar temas específicos. También puedes hacer clic en \"Subir Imagen\" para usar tu propia imagen PNG o JPEG — perfecto para puzzles personalizados, diseños estacionales o temas de nicho que coincidan con la identidad de tu tienda.',
       },
       {
         title: 'Explorar la Biblioteca de Imágenes',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Personalizar el Diseño de Página',
-        description: 'En la sección «Configuración de Página», elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
+        description: 'En la sección \"Configuración de Página\", elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
       },
       {
         title: 'Activar el Modo Escala de Grises',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en el botón «Generar» para crear tu ficha de puzzle. La vista previa se actualiza en el lienzo. Cuando estés satisfecho, usa el menú «Descargar» para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). Genera y descarga una clave de respuestas que muestra cada pieza colocada en su posición correcta de la cuadrícula.',
+        description: 'Haz clic en el botón \"Generar\" para crear tu ficha de puzzle. La vista previa se actualiza en el lienzo. Cuando estés satisfecho, usa el menú \"Descargar\" para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). Genera y descarga una clave de respuestas que muestra cada pieza colocada en su posición correcta de la cuadrícula.',
       },
     ],
   },
@@ -80,18 +80,18 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs de Puzzles Estacionales y Festivos',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Puzzles Matemáticos de Navidad» con imágenes navideñas se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Puzzles Matemáticos de Navidad\" con imágenes navideñas se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
     },
     {
       title: 'Puzzles de Calentamiento para venta en línea',
-      description: 'Genera puzzles rápidos de 2×2 o 2×3 para calentamientos diarios de matemáticas. Los usuarios resuelven de 4 a 6 ecuaciones y reconstruyen una imagen divertida en menos de cinco minutos. Crea un conjunto de 30 puzzles (uno por día escolar) y véndelo como un pack «Un Mes de Puzzles Matemáticos de Calentamiento». El formato lúdico mantiene a los usuarios motivados desde el primer momento.',
+      description: 'Genera puzzles rápidos de 2×2 o 2×3 para calentamientos diarios de matemáticas. Los usuarios resuelven de 4 a 6 ecuaciones y reconstruyen una imagen divertida en menos de cinco minutos. Crea un conjunto de 30 puzzles (uno por día escolar) y véndelo como un pack \"Un Mes de Puzzles Matemáticos de Calentamiento\". El formato lúdico mantiene a los usuarios motivados desde el primer momento.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Tienda de Puzzles Matemáticos Visuales en Etsy',
-      description: 'Abre una tienda Etsy especializada en puzzles matemáticos tipo rompecabezas. El formato visual es genuinamente único — la mayoría de los imprimibles de matemáticas en Etsy son fichas de texto. Tus coloridos puzzles de cuadrícula de imágenes destacarán en los resultados de búsqueda y atraerán clics. Crea de 15 a 20 packs temáticos con precios de 3 $ a 5 $ cada uno. Sube imágenes personalizadas para construir una identidad de marca que ningún competidor pueda copiar. Usa etiquetas de Etsy como «puzzle matemático imprimible», «ficha rompecabezas de mates» y «actividad visual de matemáticas» para posicionarte en palabras clave que los vendedores de fichas de texto ignoran completamente. Renueva tu tienda estacionalmente lanzando packs temáticos de festividades vinculados a tendencias de búsqueda — vuelta al cole en agosto, Halloween en octubre, Navidad en noviembre.',
+      description: 'Abre una tienda Etsy especializada en puzzles matemáticos tipo rompecabezas. El formato visual es genuinamente único — la mayoría de los imprimibles de matemáticas en Etsy son fichas de texto. Tus coloridos puzzles de cuadrícula de imágenes destacarán en los resultados de búsqueda y atraerán clics. Crea de 15 a 20 packs temáticos con precios de 3 $ a 5 $ cada uno. Sube imágenes personalizadas para construir una identidad de marca que ningún competidor pueda copiar. Usa etiquetas de Etsy como \"puzzle matemático imprimible\", \"ficha rompecabezas de mates\" y \"actividad visual de matemáticas\" para posicionarte en palabras clave que los vendedores de fichas de texto ignoran completamente. Renueva tu tienda estacionalmente lanzando packs temáticos de festividades vinculados a tendencias de búsqueda — vuelta al cole en agosto, Halloween en octubre, Navidad en noviembre.',
       platform: 'Etsy',
     },
     {
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs Premium en Gumroad',
-      description: 'Sube packs de puzzles matemáticos diferenciados a Gumroad. Los vendedores buscan constantemente «puzzles de matemáticas» y «juegos de matemáticas». Incluye los tres modos de operación, tres niveles de dificultad, claves de respuestas y una guía vendedor en cada listing. El formato rompecabezas añade valor percibido porque se siente como un juego, no como un ejercicio. Añade una hoja de instrucciones «Cómo Usar» explicando los niveles de dificultad de la cuadrícula, rangos de grado sugeridos y consejos para uso comercial. Los compradores de Gumroad dejan sistemáticamente mejores calificaciones en recursos que incluyen documentación para el vendedor, lo que a su vez mejora la visibilidad de tu listing en los resultados de búsqueda de Gumroad.',
+      description: 'Sube packs de puzzles matemáticos diferenciados a Gumroad. Los vendedores buscan constantemente \"puzzles de matemáticas\" y \"juegos de matemáticas\". Incluye los tres modos de operación, tres niveles de dificultad, claves de respuestas y una guía vendedor en cada listing. El formato rompecabezas añade valor percibido porque se siente como un juego, no como un ejercicio. Añade una hoja de instrucciones \"Cómo Usar\" explicando los niveles de dificultad de la cuadrícula, rangos de grado sugeridos y consejos para uso comercial. Los compradores de Gumroad dejan sistemáticamente mejores calificaciones en recursos que incluyen documentación para el vendedor, lo que a su vez mejora la visibilidad de tu listing en los resultados de búsqueda de Gumroad.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Comienza con 2×2 para los Más Pequeños',
-      description: 'Una cuadrícula 2×2 tiene solo 4 piezas y 4 ecuaciones — manejable para preescolar e infantil que recién aprenden a sumar. Aumenta a 3×3 para primer grado y 4×4 para segundo grado en adelante. Adaptar el tamaño de cuadrícula a la edad es la forma más sencilla de crear productos diferenciados. Al vender en marketplaces, indica claramente la edad o grado recomendado en el título y la descripción del producto. Los compradores filtran por nivel de grado, así que un listing titulado «Puzzles Matemáticos Infantil — Cuadrícula 2×2 Suma» llegará al público correcto más rápido que un genérico «Puzzles Matemáticos».',
+      description: 'Una cuadrícula 2×2 tiene solo 4 piezas y 4 ecuaciones — manejable para preescolar e infantil que recién aprenden a sumar. Aumenta a 3×3 para primer grado y 4×4 para segundo grado en adelante. Adaptar el tamaño de cuadrícula a la edad es la forma más sencilla de crear productos diferenciados. Al vender en marketplaces, indica claramente la edad o grado recomendado en el título y la descripción del producto. Los compradores filtran por nivel de grado, así que un listing titulado \"Puzzles Matemáticos Infantil — Cuadrícula 2×2 Suma\" llegará al público correcto más rápido que un genérico \"Puzzles Matemáticos\".',
     },
     {
       title: 'Usa el Modo Mixto para Máxima Variedad',
-      description: 'El modo «Suma y Resta» mezcla aleatoriamente ambas operaciones en un solo puzzle. Esto crea fichas de repaso que evalúan ambas habilidades simultáneamente y evita que los usuarios caigan en un patrón repetitivo. Los puzzles en modo mixto también tienen mayor valor percibido en los listings de marketplaces. Los compradores de Etsy y Gumroad que buscan «repaso de matemáticas» o «evaluación de unidad» buscan específicamente recursos de operaciones mixtas, así que etiquetar tus listings con estos términos captura un segmento de compradores que los vendedores de una sola operación pasan por alto.',
+      description: 'El modo \"Suma y Resta\" mezcla aleatoriamente ambas operaciones en un solo puzzle. Esto crea fichas de repaso que evalúan ambas habilidades simultáneamente y evita que los usuarios caigan en un patrón repetitivo. Los puzzles en modo mixto también tienen mayor valor percibido en los listings de marketplaces. Los compradores de Etsy y Gumroad que buscan \"repaso de matemáticas\" o \"evaluación de unidad\" buscan específicamente recursos de operaciones mixtas, así que etiquetar tus listings con estos términos captura un segmento de compradores que los vendedores de una sola operación pasan por alto.',
     },
     {
       title: 'Sube Imágenes Propias para Reconocimiento de Marca',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Combina con Fichas de Matemáticas Estándar',
-      description: 'Crea conjuntos de puzzles y fichas estándar usando los generadores de Suma y Resta con el mismo rango numérico y tema. Véndelos individualmente y como un pack combinado «Práctica de Matemáticas + Puzzle». El puzzle añade un elemento lúdico que hace el pack más atractivo que las fichas solas. Esta estrategia de productos cruzados también aumenta el valor promedio de pedido — los compradores que encuentran tu listing de puzzle pueden visitar tu listing de fichas estándar y comprar ambos. En Etsy, vincular productos relacionados en las descripciones de tus listings genera tráfico interno en tu tienda y fomenta carritos con múltiples artículos.',
+      description: 'Crea conjuntos de puzzles y fichas estándar usando los generadores de Suma y Resta con el mismo rango numérico y tema. Véndelos individualmente y como un pack combinado \"Práctica de Matemáticas + Puzzle\". El puzzle añade un elemento lúdico que hace el pack más atractivo que las fichas solas. Esta estrategia de productos cruzados también aumenta el valor promedio de pedido — los compradores que encuentran tu listing de puzzle pueden visitar tu listing de fichas estándar y comprar ambos. En Etsy, vincular productos relacionados en las descripciones de tus listings genera tráfico interno en tu tienda y fomenta carritos con múltiples artículos.',
     },
     {
       title: 'Destaca el Formato Puzzle en las Miniaturas',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
-      answer: 'Sí. Haz clic en el botón «Subir Imagen» para usar tu propio archivo PNG o JPEG como imagen del puzzle. Esto te permite crear puzzles personalizados con tus propias ilustraciones, logotipos, diseños estacionales o arte de nicho que ningún otro vendedor puede replicar.',
+      answer: 'Sí. Haz clic en el botón \"Subir Imagen\" para usar tu propio archivo PNG o JPEG como imagen del puzzle. Esto te permite crear puzzles personalizados con tus propias ilustraciones, logotipos, diseños estacionales o arte de nicho que ningún otro vendedor puede replicar.',
     },
     {
       question: '¿Qué hace el modo escala de grises?',

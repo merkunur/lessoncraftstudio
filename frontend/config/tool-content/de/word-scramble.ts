@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Buchstabensalat-Arbeitsblatt-Generator',
     tagline: 'Buchstaben-Umstell-Rätsel mit gemischten Plättchen, Vokal-Konsonanten-Farbcodierung und 4 Schwierigkeitsstufen in 11 Sprachen erstellen',
-    description: 'Verwandeln Sie Wortschatzübungen in aktive Buchstaben-Umstell-Rätsel, bei denen Nutzer durcheinander gemischte Buchstabenplättchen in die richtige Reihenfolge bringen. Dieses Tool erstellt Buchstabensalat-Arbeitsblätter, bei denen ein Bild-Hinweis neben einem Satz gemischter Plättchen erscheint — Nutzer betrachten das Bild, erkennen was es darstellt, und ordnen die Buchstaben zur korrekten Schreibweise. Im Gegensatz zu Lückentext-Übungen gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Umstellübung, die Rechtschreibgenauigkeit durch handlungsorientierte Manipulation aufbaut. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Aktivieren Sie sie, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Plättchen darzustellen — eine visuelle Phonik-Hilfe, die Buchstabentypen-Erkennung während des Entwirrens fördert. Umlaute ä, ö, ü werden als Vokale erkannt und entsprechend eingefärbt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind: Keine Hinweise mischt jedes Plättchen für maximale Herausforderung, Leicht platziert die Hälfte für unterstütztes Lernen, Normal platziert ein Viertel für ausgewogene Übung und Schwer platziert nur ein Sechstel für selbstsichere Rechtschreiber. Wählen Sie zwischen drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Die Sprachsensitivität ist integriert: Wechseln Sie zu einer der 11 Sprachen, und dasselbe Bild erzeugt ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Deutsche Wörter bieten einen besonderen Vorteil: Zusammengesetzte Substantive wie Schmetterling (13 Plättchen), Feuerwehrauto (13 Plättchen) oder Krankenhaus (11 Plättchen) erzeugen deutlich längere Plättchenreihen als ihre englischen Äquivalente — und Umlaute auf farbcodierten Plättchen sind visuell besonders auffällig. Stellen Sie 1–10 Rätsel pro Seite ein, wechseln Sie zwischen Groß- und Kleinbuchstaben, schalten Sie die Übungsnummerierung ein und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit automatischer Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Wortschatzübungen in aktive Buchstaben-Umstell-Rätsel, bei denen Nutzer durcheinander gemischte Buchstabenplättchen in die richtige Reihenfolge bringen. Dieses Tool erstellt Buchstabensalat-Arbeitsblätter, bei denen ein Bild-Hinweis neben einem Satz gemischter Plättchen erscheint — Nutzer betrachten das Bild, erkennen was es darstellt, und ordnen die Buchstaben zur korrekten Schreibweise. Im Gegensatz zu Lückentext-Übungen gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Umstellübung, die Rechtschreibgenauigkeit durch handlungsorientierte Manipulation aufbaut. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Aktivieren Sie sie, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Plättchen darzustellen — eine visuelle Phonik-Hilfe, die Buchstabentypen-Erkennung während des Entwirrens fördert. Umlaute ä, ö, ü werden als Vokale erkannt und entsprechend eingefärbt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind: Keine Hinweise mischt jedes Plättchen für maximale Herausforderung, Leicht platziert die Hälfte für unterstütztes Lernen, Normal platziert ein Viertel für ausgewogene Übung und Schwer platziert nur ein Sechstel für selbstsichere Rechtschreiber. Wählen Sie zwischen drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Die Sprachsensitivität ist integriert: Wechseln Sie zu einer der 11 Sprachen, und dasselbe Bild erzeugt ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert \"HUND\" auf Deutsch, \"DOG\" auf Englisch, \"CHIEN\" auf Französisch, \"PERRO\" auf Spanisch. Deutsche Wörter bieten einen besonderen Vorteil: Zusammengesetzte Substantive wie Schmetterling (13 Plättchen), Feuerwehrauto (13 Plättchen) oder Krankenhaus (11 Plättchen) erzeugen deutlich längere Plättchenreihen als ihre englischen Äquivalente — und Umlaute auf farbcodierten Plättchen sind visuell besonders auffällig. Stellen Sie 1–10 Rätsel pro Seite ein, wechseln Sie zwischen Groß- und Kleinbuchstaben, schalten Sie die Übungsnummerierung ein und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit automatischer Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Buchstabensalat-Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Buchstabensalat-Rätseln.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Buchstabensalat-Rätseln.',
       },
       {
         title: 'Seitenlayout und Vorlage festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Wählen Sie eine Arbeitsblatt-Vorlage aus dem Vorlagen-Selektor. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft aus der 104-Themen-Bildbibliothek hinzu und wählen Sie einen dekorativen Rahmen.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Wählen Sie eine Arbeitsblatt-Vorlage aus dem Vorlagen-Selektor. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft aus der 104-Themen-Bildbibliothek hinzu und wählen Sie einen dekorativen Rahmen.',
       },
       {
         title: 'Die Inhaltsquelle wählen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Buchstabensalat-Arbeitsblatt zu erstellen. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Wechseln Sie zum Lösungsschlüssel-Tab und generieren Sie eine gelöste Version, die das korrekt entworrene Wort für jedes Rätsel zeigt. Laden Sie Arbeitsblatt und Lösungsschlüssel als druckfertiges PDF oder hochauflösendes JPEG mit über 300 DPI herunter.',
+        description: 'Klicken Sie auf \"Generieren\", um Ihr Buchstabensalat-Arbeitsblatt zu erstellen. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Wechseln Sie zum Lösungsschlüssel-Tab und generieren Sie eine gelöste Version, die das korrekt entworrene Wort für jedes Rätsel zeigt. Laden Sie Arbeitsblatt und Lösungsschlüssel als druckfertiges PDF oder hochauflösendes JPEG mit über 300 DPI herunter.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Buchstaben-Umstell-Rätsel-Pakete',
-      description: 'Erstellen Sie Sets mit 10–15 Buchstabensalat-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Naturszenen, Feiertage, Sport und mehr. Jedes Rätsel kombiniert einen Bild-Hinweis mit durcheinander gemischten Buchstabenplättchen, die Nutzer in die richtige Reihenfolge bringen. Aktivieren Sie die Farbcodierung bei der Hälfte des Sets für eine „Phonics-Edition“ als Zusatzvariante. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das Format mit gemischten Plättchen und farbenfrohen Bild-Hinweisen macht Ihre Listing-Vorschaubilder sofort auffälliger als schlichte Rechtschreib-Arbeitsblätter.',
+      description: 'Erstellen Sie Sets mit 10–15 Buchstabensalat-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Naturszenen, Feiertage, Sport und mehr. Jedes Rätsel kombiniert einen Bild-Hinweis mit durcheinander gemischten Buchstabenplättchen, die Nutzer in die richtige Reihenfolge bringen. Aktivieren Sie die Farbcodierung bei der Hälfte des Sets für eine \"Phonics-Edition\" als Zusatzvariante. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das Format mit gemischten Plättchen und farbenfrohen Bild-Hinweisen macht Ihre Listing-Vorschaubilder sofort auffälliger als schlichte Rechtschreib-Arbeitsblätter.',
     },
     {
       title: 'KDP-Buchstabensalat-Aktivitätsbücher',
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Farbcodierte Phonik-Rätsel-Sets',
-      description: 'Nutzen Sie die Vokal-Konsonanten-Farbcodierung, um phonikfokussierte Buchstabensalat-Rätsel zu erstellen, die kein anderer Generator produzieren kann. Farbcodierte Plättchen zeigen Vokale in einer Farbe und Konsonanten in einer anderen — eine zusätzliche visuelle Lernebene, die schlichten Buchstabensalat-Arbeitsblättern fehlt. Erstellen Sie separate „Farbcodiert-Edition“ und „Klassisch-Schwarz-Edition“ Versionen jedes Themas, um Ihren Produktkatalog mit minimalem Mehraufwand zu verdoppeln.',
+      description: 'Nutzen Sie die Vokal-Konsonanten-Farbcodierung, um phonikfokussierte Buchstabensalat-Rätsel zu erstellen, die kein anderer Generator produzieren kann. Farbcodierte Plättchen zeigen Vokale in einer Farbe und Konsonanten in einer anderen — eine zusätzliche visuelle Lernebene, die schlichten Buchstabensalat-Arbeitsblättern fehlt. Erstellen Sie separate \"Farbcodiert-Edition\" und \"Klassisch-Schwarz-Edition\" Versionen jedes Themas, um Ihren Produktkatalog mit minimalem Mehraufwand zu verdoppeln.',
     },
     {
       title: 'Mehrsprachige Rechtschreib-Produkte',
-      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dasselbe Arbeitsblatt-Design in allen 11 unterstützten Sprachen. Dasselbe Hundebild erzeugt „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch — jeweils mit unterschiedlichen Buchstaben, unterschiedlichen Plättchenzahlen und völlig anderen Mischungen. Eine Designsitzung erzeugt 11 verschiedene Produkte, jedes bereit für den lokalen Marktplatz.',
+      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dasselbe Arbeitsblatt-Design in allen 11 unterstützten Sprachen. Dasselbe Hundebild erzeugt \"HUND\" auf Deutsch, \"DOG\" auf Englisch, \"CHIEN\" auf Französisch, \"PERRO\" auf Spanisch — jeweils mit unterschiedlichen Buchstaben, unterschiedlichen Plättchenzahlen und völlig anderen Mischungen. Eine Designsitzung erzeugt 11 verschiedene Produkte, jedes bereit für den lokalen Marktplatz.',
     },
     {
       title: 'Benutzerdefinierte Vokabel-Buchstabensalat-Arbeitsblätter',
@@ -125,15 +125,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Farbcodierung für Phonik-Differenzierung nutzen',
-      description: 'Aktivieren Sie die Vokal-Konsonanten-Farbcodierung, um Vokale in einer Farbe und Konsonanten in einer anderen darzustellen. Diese visuelle Phonik-Hilfe ist einzigartig beim Buchstabensalat und hilft Nutzern, Buchstabentypen während des Entwirrens zu erkennen. Deutsche Umlaute (ä, ö, ü) werden als Vokale eingefärbt — besonders auffällig bei Wörtern wie „Löwe“. Erstellen Sie eine „Farbcodiert-Edition“ neben einer „Klassisch-Edition“ jedes Themas, um Ihre Produktpalette zu verdoppeln.',
+      description: 'Aktivieren Sie die Vokal-Konsonanten-Farbcodierung, um Vokale in einer Farbe und Konsonanten in einer anderen darzustellen. Diese visuelle Phonik-Hilfe ist einzigartig beim Buchstabensalat und hilft Nutzern, Buchstabentypen während des Entwirrens zu erkennen. Deutsche Umlaute (ä, ö, ü) werden als Vokale eingefärbt — besonders auffällig bei Wörtern wie \"Löwe\". Erstellen Sie eine \"Farbcodiert-Edition\" neben einer \"Klassisch-Edition\" jedes Themas, um Ihre Produktpalette zu verdoppeln.',
     },
     {
       title: 'Keine Hinweise für Rechtschreibtests einsetzen',
-      description: 'Der Keine-Hinweise-Modus mischt jedes Plättchen ohne vorplatzierte Positionen und erzeugt eine echte Rechtschreibüberprüfung anhand eines Bild-Hinweises. Nutzer müssen die vollständige Schreibweise erinnern und alle Plättchen eigenständig ordnen. Nutzen Sie ihn für Tests, finale Herausforderungs-Abschnitte in Arbeitsbüchern oder Premium-„Experten-Edition“-Produkte.',
+      description: 'Der Keine-Hinweise-Modus mischt jedes Plättchen ohne vorplatzierte Positionen und erzeugt eine echte Rechtschreibüberprüfung anhand eines Bild-Hinweises. Nutzer müssen die vollständige Schreibweise erinnern und alle Plättchen eigenständig ordnen. Nutzen Sie ihn für Tests, finale Herausforderungs-Abschnitte in Arbeitsbüchern oder Premium-\"Experten-Edition\"-Produkte.',
     },
     {
       title: 'Mehrsprachig für 11-fache Produktpalette',
-      description: 'Jedes Buchstabensalat-Arbeitsblatt kann durch Wechseln der Sprache zu 11 Produkten werden. Dasselbe Katzenbild erzeugt „KATZE“, „CAT“, „CHAT“, „GATO“, „GATTO“ und mehr — jeweils mit unterschiedlichen Plättchenzahlen, unterschiedlichen Buchstaben und völlig anderen Mischungen. Sprachspezifische Buchstabensalat-Rätsel sind eine dramatisch unterversorgte Nische außerhalb von Englisch.',
+      description: 'Jedes Buchstabensalat-Arbeitsblatt kann durch Wechseln der Sprache zu 11 Produkten werden. Dasselbe Katzenbild erzeugt \"KATZE\", \"CAT\", \"CHAT\", \"GATO\", \"GATTO\" und mehr — jeweils mit unterschiedlichen Plättchenzahlen, unterschiedlichen Buchstaben und völlig anderen Mischungen. Sprachspezifische Buchstabensalat-Rätsel sind eine dramatisch unterversorgte Nische außerhalb von Englisch.',
     },
     {
       title: 'Manuellen Bearbeitungsmodus für individuelles Vokabular nutzen',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Schwierigkeitsstufen in Bündeln mischen',
-      description: 'Erstellen Sie Arbeitsblatt-Bündel, die vom selben Thema Leicht bis Keine Hinweise fortschreiten. Ein „Bauernhoftiere-Buchstabensalat“-Paket mit 5 Leicht-Seiten, 5 Normal, 5 Schwer und 5 Keine-Hinweise-Seiten gibt Verkäufern ein fertiges gestuftes Set. Fügen Sie Lösungsschlüssel für jede Stufe bei. Progressive Bündel erzielen Premiumpreise auf Gumroad und Etsy.de.',
+      description: 'Erstellen Sie Arbeitsblatt-Bündel, die vom selben Thema Leicht bis Keine Hinweise fortschreiten. Ein \"Bauernhoftiere-Buchstabensalat\"-Paket mit 5 Leicht-Seiten, 5 Normal, 5 Schwer und 5 Keine-Hinweise-Seiten gibt Verkäufern ein fertiges gestuftes Set. Fügen Sie Lösungsschlüssel für jede Stufe bei. Progressive Bündel erzielen Premiumpreise auf Gumroad und Etsy.de.',
     },
     {
       title: 'Mit Wörter-Raten für umfassende Pakete kombinieren',
-      description: 'Buchstabensalat (Buchstaben-Umstellung) und Wörter-Raten (Lückentext) trainieren unterschiedliche kognitive Fähigkeiten mit ähnlichem Wortschatz. Bündeln Sie beide Formate zu einem „Kompletten Rechtschreibübungs-Paket“, bei dem Nutzer zuerst Plättchen umstellen und dann fehlende Buchstaben ergänzen. Mehformat-Bündel verkaufen sich besser als Einzelformat-Pakete und bieten gründlichere Rechtschreibübung.',
+      description: 'Buchstabensalat (Buchstaben-Umstellung) und Wörter-Raten (Lückentext) trainieren unterschiedliche kognitive Fähigkeiten mit ähnlichem Wortschatz. Bündeln Sie beide Formate zu einem \"Kompletten Rechtschreibübungs-Paket\", bei dem Nutzer zuerst Plättchen umstellen und dann fehlende Buchstaben ergänzen. Mehformat-Bündel verkaufen sich besser als Einzelformat-Pakete und bieten gründlichere Rechtschreibübung.',
     },
   ],
 
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktioniert die Sprachsensitivität?',
-      answer: 'Beim Sprachwechsel erzeugt dasselbe Bild ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Das Tool unterstützt 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.',
+      answer: 'Beim Sprachwechsel erzeugt dasselbe Bild ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert \"HUND\" auf Deutsch, \"DOG\" auf Englisch, \"CHIEN\" auf Französisch, \"PERRO\" auf Spanisch. Das Tool unterstützt 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien als Bild-Hinweise zu verwenden. Sie können einen benutzerdefinierten Anzeigenamen für jedes hochgeladene Bild eingeben, um das Wort zu bestimmen, dessen Buchstaben gemischt werden. Eigene Bilder ermöglichen markenspezifische Arbeitsblätter mit Ihren eigenen Illustrationen, die kein anderer Verkäufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf \"Eigenes Bild hochladen\", um eigene PNG- oder JPEG-Dateien als Bild-Hinweise zu verwenden. Sie können einen benutzerdefinierten Anzeigenamen für jedes hochgeladene Bild eingeben, um das Wort zu bestimmen, dessen Buchstaben gemischt werden. Eigene Bilder ermöglichen markenspezifische Arbeitsblätter mit Ihren eigenen Illustrationen, die kein anderer Verkäufer kopieren kann.',
     },
     {
       question: 'Werden Lösungsschlüssel generiert?',

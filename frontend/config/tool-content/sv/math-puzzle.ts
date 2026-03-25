@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna pusselgeneratorn',
-        description: 'Klicka på «Prova gratis nu» för att starta mattepussel-skaparen. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta mattepussel-skaparen. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
       },
       {
         title: 'Ställ in rutnätsstorleken',
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj eller ladda upp en bild',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, rymden, högtider och många fler. Använd sökfältet för att hitta specifika teman. Alternativt klicka på «Ladda Upp Bild» för att använda din egen PNG eller JPEG — perfekt för varumärkta pussel, säsongsdesigner eller nischämnen som matchar din butiksidentitet.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, rymden, högtider och många fler. Använd sökfältet för att hitta specifika teman. Alternativt klicka på \"Ladda Upp Bild\" för att använda din egen PNG eller JPEG — perfekt för varumärkta pussel, säsongsdesigner eller nischämnen som matchar din butiksidentitet.',
       },
       {
         title: 'Bläddra i bildbiblioteket',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Anpassa sidlayouten',
-        description: 'I avsnittet «Sidinställningar» väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket.',
       },
       {
         title: 'Växla gråskaleläge',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera»-knappen för att bygga ditt pusselarbetsblad. Förhandsvisningen uppdateras på arbetsytan. När du är nöjd, använd «Nedladdning»-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Generera och ladda ner ett matchande facit som visar varje bit placerad i sin korrekta rutnätsposition.',
+        description: 'Klicka på \"Generera\"-knappen för att bygga ditt pusselarbetsblad. Förhandsvisningen uppdateras på arbetsytan. När du är nöjd, använd \"Nedladdning\"-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Generera och ladda ner ett matchande facit som visar varje bit placerad i sin korrekta rutnätsposition.',
       },
     ],
   },
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade och högtidspussel-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Mattepussel»-paket med festliga bilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett \"Jul Mattepussel\"-paket med festliga bilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och Gumroad.',
     },
     {
       title: 'produktlinjes uppvärmningspussel',
-      description: 'Generera snabba 2×2 eller 2×3 pussel för dagliga matteuppvärmningar. användarna löser 4–6 ekvationer och sätter ihop en rolig bild på under fem minuter. Skapa en uppsättning av 30 pussel (ett per skoldag) och sälj som ett «Månadens Mattepussel Uppvärmningar»-paket. Det spelliknande formatet håller användarna engagerade från första klockan.',
+      description: 'Generera snabba 2×2 eller 2×3 pussel för dagliga matteuppvärmningar. användarna löser 4–6 ekvationer och sätter ihop en rolig bild på under fem minuter. Skapa en uppsättning av 30 pussel (ett per skoldag) och sälj som ett \"Månadens Mattepussel Uppvärmningar\"-paket. Det spelliknande formatet håller användarna engagerade från första klockan.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Etsy visuell mattepussel-butik',
-      description: 'Öppna en Etsy-butik specialiserad på pusselstils mattepussel. Det visuella formatet är genuint unikt — de flesta matteutskriftsbara på Etsy är texttunga arbetsblad. Dina färgglada bildrutnätspussel sticker ut i sökresultaten och lockar klick. Skapa 15–20 tematiska paket prissatta till 30–50 SEK vardera. Ladda upp anpassade bilder för att bygga en varumärkesidentitet ingen konkurrent kan kopiera. Använd Etsy-taggar som «mattepussel utskriftsbar», «pussel mattearbetsblad» och «visuell matteaktivitet» för att rankas på nyckelord som enbart textbaserade arbetsbladsäljare missar.',
+      description: 'Öppna en Etsy-butik specialiserad på pusselstils mattepussel. Det visuella formatet är genuint unikt — de flesta matteutskriftsbara på Etsy är texttunga arbetsblad. Dina färgglada bildrutnätspussel sticker ut i sökresultaten och lockar klick. Skapa 15–20 tematiska paket prissatta till 30–50 SEK vardera. Ladda upp anpassade bilder för att bygga en varumärkesidentitet ingen konkurrent kan kopiera. Använd Etsy-taggar som \"mattepussel utskriftsbar\", \"pussel mattearbetsblad\" och \"visuell matteaktivitet\" för att rankas på nyckelord som enbart textbaserade arbetsbladsäljare missar.',
       platform: 'Etsy',
     },
     {
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad premiumpaket',
-      description: 'Ladda upp nivågrupperade mattepussel-paket till Gumroad. säljare söker ständigt efter «mattepussel» och «mattespel». Inkludera alla tre operationslägen, tre svårighetsnivåer, facit och en lärarguide i varje annons. Pusselformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Lägg till ett ensidigt «Hur man använder»-instruktionsblad.',
+      description: 'Ladda upp nivågrupperade mattepussel-paket till Gumroad. säljare söker ständigt efter \"mattepussel\" och \"mattespel\". Inkludera alla tre operationslägen, tre svårighetsnivåer, facit och en lärarguide i varje annons. Pusselformatet lägger till upplevt värde eftersom det känns som ett spel, inte en övning. Lägg till ett ensidigt \"Hur man använder\"-instruktionsblad.',
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Använd Blandat Läge för maximal variation',
-      description: 'Läget «Addition och Subtraktion» blandar slumpmässigt båda operationerna i ett enda pussel. Detta skapar repetitionsarbetsblad som testar båda färdigheterna samtidigt och förhindrar användarna från att falla in i ett repetitivt mönster. Blandat läge-pussel har också högre upplevt värde i marknadsplatsannonser.',
+      description: 'Läget \"Addition och Subtraktion\" blandar slumpmässigt båda operationerna i ett enda pussel. Detta skapar repetitionsarbetsblad som testar båda färdigheterna samtidigt och förhindrar användarna från att falla in i ett repetitivt mönster. Blandat läge-pussel har också högre upplevt värde i marknadsplatsannonser.',
     },
     {
       title: 'Ladda upp anpassade bilder för varumärkesigenkänning',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med vanliga mattearbetsblad',
-      description: 'Skapa matchande pussel- och standardarbetsbladsuppsättningar med Additions- och Subtraktionsgeneratorerna med samma talområde och tema. Sälj dem individuellt och som ett kombinerat «Matteövning + Pussel»-paket. Pusslet lägger till ett spelelement som gör paketet mer attraktivt än enbart arbetsblad.',
+      description: 'Skapa matchande pussel- och standardarbetsbladsuppsättningar med Additions- och Subtraktionsgeneratorerna med samma talområde och tema. Sälj dem individuellt och som ett kombinerat \"Matteövning + Pussel\"-paket. Pusslet lägger till ett spelelement som gör paketet mer attraktivt än enbart arbetsblad.',
     },
     {
       title: 'Visa pusselformatet i miniatyrer',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild»-knappen för att använda din egen PNG- eller JPEG-fil som pusselbild. Detta låter dig skapa varumärkta pussel med egna illustrationer, logotyper, säsongsdesigner eller nischkonstverk som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på \"Ladda Upp Bild\"-knappen för att använda din egen PNG- eller JPEG-fil som pusselbild. Detta låter dig skapa varumärkta pussel med egna illustrationer, logotyper, säsongsdesigner eller nischkonstverk som ingen annan säljare kan replikera.',
     },
     {
       question: 'Vad gör gråskaleväxlingen?',

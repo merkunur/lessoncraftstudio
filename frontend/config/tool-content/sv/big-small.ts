@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Stor och Liten Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga storleksjämförelse arbetsblad omedelbart.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga storleksjämförelse arbetsblad omedelbart.',
       },
       {
         title: 'Ställ in sidlayout och bakgrund',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Bildläges jämförelsepaket',
-      description: 'Fördubbla ditt produktutbud genom att skapa varje tema i båda bildlägena. Ett «Identiska Bilder»-paket visar samma djur, fordon eller matföremål i olika storlekar för rena storleksuppfattningsövningar. Ett «Olika Bilder»-paket visar distinkta objekt i olika storlekar för relativt storleksresonemangsutmaningar. Sälj dem separat eller paketera båda lägena tillsammans till ett premiumpris.',
+      description: 'Fördubbla ditt produktutbud genom att skapa varje tema i båda bildlägena. Ett \"Identiska Bilder\"-paket visar samma djur, fordon eller matföremål i olika storlekar för rena storleksuppfattningsövningar. Ett \"Olika Bilder\"-paket visar distinkta objekt i olika storlekar för relativt storleksresonemangsutmaningar. Sälj dem separat eller paketera båda lägena tillsammans till ett premiumpris.',
     },
     {
       title: 'Säsongsbetonade och högtids storleksaktivitetsset',
-      description: 'Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade storleksjämförelsepaket. Ett «Halloween Storlekssortering»-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla Ringa in den Stora uppvärmningar med avancerade Numrera 1–2–3 ordningsövningar i varje säsongsset.',
+      description: 'Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade storleksjämförelsepaket. Ett \"Halloween Storlekssortering\"-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla Ringa in den Stora uppvärmningar med avancerade Numrera 1–2–3 ordningsövningar i varje säsongsset.',
     },
   ],
 
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP storleksdiskriminering arbetsboksserie',
-      description: 'Sammanställ 80+ storleksjämförelseövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter tema: «Djur Storlekssortering», «Fordon Stor och Liten», «Mat Storleksordning». Varje bok avancerar från enkel 2-bilds identifiering till komplex 3-bilds ordning med facit i slutet. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.',
+      description: 'Sammanställ 80+ storleksjämförelseövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter tema: \"Djur Storlekssortering\", \"Fordon Stor och Liten\", \"Mat Storleksordning\". Varje bok avancerar från enkel 2-bilds identifiering till komplex 3-bilds ordning med facit i slutet. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.',
       platform: 'Amazon KDP',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Framhäv textfrihet för global säljbarhet',
-      description: 'Stor och Liten arbetsblad innehåller ingen text på utmatningen — bara bilder och visuella indikatorer. Detta är din starkaste konkurrensfördel. Ange uttryckligen «ingen översättning behövs — fungerar globalt» i varje produktbeskrivning. Köpare från alla länder kan köpa utan att oroa sig för språkkompatibilitet.',
+      description: 'Stor och Liten arbetsblad innehåller ingen text på utmatningen — bara bilder och visuella indikatorer. Detta är din starkaste konkurrensfördel. Ange uttryckligen \"ingen översättning behövs — fungerar globalt\" i varje produktbeskrivning. Köpare från alla länder kan köpa utan att oroa sig för språkkompatibilitet.',
     },
     {
       title: 'Matcha övningsantal till din målåldersgrupp',

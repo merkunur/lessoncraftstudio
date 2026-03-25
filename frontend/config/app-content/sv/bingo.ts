@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurera bingokortsinställningar',
         description:
-          'Öppna panelen Bingokortsinställningar och ställ in rader (3–5) och kolumner (3–5) för att definiera din rutnätsstorlek — standard är 4×4 med 16 celler. Ställ in antal kort från 1 till 10 för att batch-generera flera unika bingokort. Välj kortcellfyllning (Bild eller Ord) och brickfyllning (Bild eller Ord) oberoende — blanda bildkort med ordbrickor, ordkort med bildbrickor, eller matcha båda. Aktivera kryssrutan «Använd anpassat urval» för att handplocka specifika bilder för upprop istället för att använda automatiskt urval.',
+          'Öppna panelen Bingokortsinställningar och ställ in rader (3–5) och kolumner (3–5) för att definiera din rutnätsstorlek — standard är 4×4 med 16 celler. Ställ in antal kort från 1 till 10 för att batch-generera flera unika bingokort. Välj kortcellfyllning (Bild eller Ord) och brickfyllning (Bild eller Ord) oberoende — blanda bildkort med ordbrickor, ordkort med bildbrickor, eller matcha båda. Aktivera kryssrutan \"Använd anpassat urval\" för att handplocka specifika bilder för upprop istället för att använda automatiskt urval.',
       },
       {
         title: 'Välj bilder från biblioteket',
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: 'Vad är anpassat uppropsurval?',
       answer:
-        'Aktivera kryssrutan «Använd anpassat urval» i panelen Bingokortsinställningar för att handplocka vilka specifika bilder som visas i uppropspoolen. När aktiverat klickar du på bilder i Bildbiblioteket för att lägga till dem i ditt anpassade uppropsurval — en levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Detta ger dig exakt kontroll över vilka objekt som visas i bingospelet, användbart för produktkatalogsanpassade aktiviteter eller tematiska event där du vill ha specifik vokabulär.',
+        'Aktivera kryssrutan \"Använd anpassat urval\" i panelen Bingokortsinställningar för att handplocka vilka specifika bilder som visas i uppropspoolen. När aktiverat klickar du på bilder i Bildbiblioteket för att lägga till dem i ditt anpassade uppropsurval — en levande räknare visar \"Valda för anpassade upprop: X\" medan du väljer. Detta ger dig exakt kontroll över vilka objekt som visas i bingospelet, användbart för produktkatalogsanpassade aktiviteter eller tematiska event där du vill ha specifik vokabulär.',
     },
     {
       question: 'Är Bildbingo Kort Generatorn språkkänslig?',
       answer:
-        'Ja. När ordfyllningsläget används för kortceller eller brickor är de visade orden lokaliserade bildnamn från Bildbiblioteket. Att byta språk i Arbetsbladsinställningarna ändrar orden på kort, brickor och uppropslistan. Till exempel visar en kattbild «Katt» på svenska men «Cat» på engelska och «Katze» på tyska. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll.',
+        'Ja. När ordfyllningsläget används för kortceller eller brickor är de visade orden lokaliserade bildnamn från Bildbiblioteket. Att byta språk i Arbetsbladsinställningarna ändrar orden på kort, brickor och uppropslistan. Till exempel visar en kattbild \"Katt\" på svenska men \"Cat\" på engelska och \"Katze\" på tyska. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll.',
     },
     {
       question: 'Varför finns det inget facit för bingokort?',
       answer:
-        'Bingokort använder en uppropslista istället för ett facit. I bingo läser spelledaren objekt från uppropslistan medan spelarna markerar matchande objekt på sina unika kort — det finns inget enda «korrekt svar» eftersom varje spelares kort har olika objekt i olika positioner. Uppropslistan fungerar som spelets referensdokument som listar alla möjliga objekt spelledaren kan annonsera under spelet.',
+        'Bingokort använder en uppropslista istället för ett facit. I bingo läser spelledaren objekt från uppropslistan medan spelarna markerar matchande objekt på sina unika kort — det finns inget enda \"korrekt svar\" eftersom varje spelares kort har olika objekt i olika positioner. Uppropslistan fungerar som spelets referensdokument som listar alla möjliga objekt spelledaren kan annonsera under spelet.',
     },
     {
       question: 'Finns det en gratis provversion?',

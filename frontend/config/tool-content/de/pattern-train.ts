@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Muster-Zug-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Muster-Zug-Arbeitsblättern.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Muster-Zug-Arbeitsblättern.',
       },
       {
         title: 'Seitenlayout und Hintergrund einstellen',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Muster-Zug-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Muster-Zug-Pakete. Ein „Halloween-Muster-Zug“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Gumroad. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen AABB-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Muster-Zug-Pakete. Ein \"Halloween-Muster-Zug\"-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Gumroad. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen AABB-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon-KDP-Frühmathe-Arbeitsheft-Serie',
-      description: 'Stellen Sie 80+ Muster-Zug-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Thema: „Tier-Muster-Züge“, „Fahrzeug-Sequenz-Züge“, „Lebensmittel-Mustererkennung“. Jedes Buch steigert sich von einfachen AB-Mustern zu komplexen AABB-Sequenzen mit Lösungsschlüsseln im Anhang. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung. Muster-Zug-Arbeitshefte füllen eine spezifische Frühförderungs-Nische mit ganzjähriger Nachfrage von Eltern und Vorschulpädagogen.',
+      description: 'Stellen Sie 80+ Muster-Zug-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Thema: \"Tier-Muster-Züge\", \"Fahrzeug-Sequenz-Züge\", \"Lebensmittel-Mustererkennung\". Jedes Buch steigert sich von einfachen AB-Mustern zu komplexen AABB-Sequenzen mit Lösungsschlüsseln im Anhang. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung. Muster-Zug-Arbeitshefte füllen eine spezifische Frühförderungs-Nische mit ganzjähriger Nachfrage von Eltern und Vorschulpädagogen.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Mustererkennungs-Lernstationen',
-      description: 'Laden Sie Muster-Zug-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe und Thema. Fügen Sie vier Schwierigkeitsgrade pro Thema mit Mustertyp und Hinweisanzahl als Differenzierungsachsen hinzu. Verpacken Sie mit automatisch generierten Lösungsschlüsseln und Nutzerfortschritts-Trackern. Das Zugwaggon-Format erzeugt ein ansprechendes visuelles Thema, das als Shop-Lernstation funktioniert. Verkäufer suchen nach „Mustererkennungs-Aktivitäten“ und „Musterfolge-Arbeitsblätter“ und finden begrenzte Zug-Format-Optionen — Ihre Produkte füllen eine echte Lücke.',
+      description: 'Laden Sie Muster-Zug-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe und Thema. Fügen Sie vier Schwierigkeitsgrade pro Thema mit Mustertyp und Hinweisanzahl als Differenzierungsachsen hinzu. Verpacken Sie mit automatisch generierten Lösungsschlüsseln und Nutzerfortschritts-Trackern. Das Zugwaggon-Format erzeugt ein ansprechendes visuelles Thema, das als Shop-Lernstation funktioniert. Verkäufer suchen nach \"Mustererkennungs-Aktivitäten\" und \"Musterfolge-Arbeitsblätter\" und finden begrenzte Zug-Format-Optionen — Ihre Produkte füllen eine echte Lücke.',
       platform: 'Gumroad',
     },
     {
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Das Zug-Format als Ihren Marktplatz-Differenzierer betonen',
-      description: 'Die meisten Muster-Arbeitsblätter auf Etsy und dem Gumroad verwenden Standard-Gitterlayouts mit Zeilen und Spalten. Das 11-Waggon-Zugwaggon-Format ist visuell unverwechselbar und in Suchergebnissen sofort wiedererkennbar. Erwähnen Sie „Zugwaggon-Format“ und „11-Waggon-Layout“ in Ihren Produkttiteln und -beschreibungen, um hervorzuheben, was Ihre Angebote von gitterbasierten Konkurrenzprodukten unterscheidet.',
+      description: 'Die meisten Muster-Arbeitsblätter auf Etsy und dem Gumroad verwenden Standard-Gitterlayouts mit Zeilen und Spalten. Das 11-Waggon-Zugwaggon-Format ist visuell unverwechselbar und in Suchergebnissen sofort wiedererkennbar. Erwähnen Sie \"Zugwaggon-Format\" und \"11-Waggon-Layout\" in Ihren Produkttiteln und -beschreibungen, um hervorzuheben, was Ihre Angebote von gitterbasierten Konkurrenzprodukten unterscheidet.',
     },
     {
       title: 'Textfreiheit für globale Verkaufbarkeit hervorheben',
-      description: 'Muster-Zug-Arbeitsblätter enthalten keinen Text auf der Ausgabe — nur Bilder auf Zugwaggons. Dies ist Ihr stärkster Wettbewerbsvorteil für Marktplatz-Angebote. Geben Sie in jeder Produktbeschreibung explizit an: „Keine Übersetzung nötig — funktioniert weltweit.“ Käufer aus jedem Land können kaufen, ohne sich um Sprachkompatibilität zu sorgen.',
+      description: 'Muster-Zug-Arbeitsblätter enthalten keinen Text auf der Ausgabe — nur Bilder auf Zugwaggons. Dies ist Ihr stärkster Wettbewerbsvorteil für Marktplatz-Angebote. Geben Sie in jeder Produktbeschreibung explizit an: \"Keine Übersetzung nötig — funktioniert weltweit.\" Käufer aus jedem Land können kaufen, ohne sich um Sprachkompatibilität zu sorgen.',
     },
     {
       title: 'Zug- und Gitter-Muster-Produkte parallel erstellen',
-      description: 'Der Muster-Zug-Ersteller und der Muster-Arbeitsblatt-Ersteller erzeugen grundsätzlich verschiedene visuelle Formate für dieselbe Fähigkeit — Mustererkennung. Das Zug-Format nutzt 11 Waggons mit einer einzelnen fehlenden Position. Das Gitter-Format nutzt Zeilen und Spalten zur Musterergänzung. Verkaufen Sie beide Formate einzeln oder bündeln Sie sie als „Komplett-Paket Mustererkennung“ für einen Premium-Preis.',
+      description: 'Der Muster-Zug-Ersteller und der Muster-Arbeitsblatt-Ersteller erzeugen grundsätzlich verschiedene visuelle Formate für dieselbe Fähigkeit — Mustererkennung. Das Zug-Format nutzt 11 Waggons mit einer einzelnen fehlenden Position. Das Gitter-Format nutzt Zeilen und Spalten zur Musterergänzung. Verkaufen Sie beide Formate einzeln oder bündeln Sie sie als \"Komplett-Paket Mustererkennung\" für einen Premium-Preis.',
     },
     {
       title: 'Hinweisanzahl auf die Ziel-Altersgruppe abstimmen',

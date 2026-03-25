@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Gissa Ordet Arbetsblad Generator för Bildbaserade Vokabulärpussel',
     tagline: 'Hänga gubbe-stil möter bildledtrådar — fyra svårighetsnivåer förvandlar varje ord till ett engagerande pussel.',
     description:
-      'Designa professionella gissa ordet-arbetsblad där användarna ser en bildledtråd och gissar det dolda ordet genom att fylla i tomma bokstavsceller — ett hänga gubbe-liknande pussel som bygger stavning, ordförråd och deduktivt tänkande samtidigt. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med valfritt ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga ledtrådar alls till enkelt läge som visar hälften av bokstäverna — och skapar naturlig progression från nybörjare till avancerad. Placera 1 till 10 pussel per arbetsblad och växla mellan versaler och gemener i bokstavsrutnätet. Full Access låser upp alla 11 språk som stöds, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk — «dog» på engelska blir «Hund» på tyska, «chien» på franska och «hund» på svenska — vilket gör varje språkversion till en unik, säljbar produkt. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska vokabulärpaket på Etsy.se, sammanställer ordpusselböcker för Amazon KDP eller skapar nivågrupperade lässtationar för Gumroad — Gissa Ordet Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Designa professionella gissa ordet-arbetsblad där användarna ser en bildledtråd och gissar det dolda ordet genom att fylla i tomma bokstavsceller — ett hänga gubbe-liknande pussel som bygger stavning, ordförråd och deduktivt tänkande samtidigt. Välj mellan tre innehållskällor: det inbyggda bildbiblioteket med mer än 3 100 illustrationer i 104 teman, Manuellt Redigeringsläge där du väljer bilder och sedan anpassar visningsnamnen, eller Egen Ordlista för textbaserade pussel med valfritt ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga ledtrådar alls till enkelt läge som visar hälften av bokstäverna — och skapar naturlig progression från nybörjare till avancerad. Placera 1 till 10 pussel per arbetsblad och växla mellan versaler och gemener i bokstavsrutnätet. Full Access låser upp alla 11 språk som stöds, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk — \"dog\" på engelska blir \"Hund\" på tyska, \"chien\" på franska och \"hund\" på svenska — vilket gör varje språkversion till en unik, säljbar produkt. Varje arbetsblad genererar ett automatiskt facit, och du kan exportera tryckfärdiga PDF:er och JPEG-bilder med mer än 400 DPI i Letter-, A4-, Kvadrat- eller anpassat format. Oavsett om du säljer tematiska vokabulärpaket på Etsy.se, sammanställer ordpusselböcker för Amazon KDP eller skapar nivågrupperade lässtationar för Gumroad — Gissa Ordet Arbetsblad Generatorn levererar professionella resultat på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Stöd för flerordiga fraser och sammansatta ord',
         description:
-          'Bildnamn och egna inmatningar som innehåller mellanslag renderas som separata ordgrupper på pusselrutnätet, med tydligt avstånd mellan varje ord. Det innebär att sammansatta termer som «isbjörn» eller «brandbil» visas naturligt som sammankopplade ordrutnät snarare än en enda lång sträng. användarna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Denna funktion utökar ditt ordförrådsspektrum långt bortom enskilda substantiv och möjliggör djurarter, maträtter, platsnamn och beskrivande fraser i dina pussel.',
+          'Bildnamn och egna inmatningar som innehåller mellanslag renderas som separata ordgrupper på pusselrutnätet, med tydligt avstånd mellan varje ord. Det innebär att sammansatta termer som \"isbjörn\" eller \"brandbil\" visas naturligt som sammankopplade ordrutnät snarare än en enda lång sträng. användarna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Denna funktion utökar ditt ordförrådsspektrum långt bortom enskilda substantiv och möjliggör djurarter, maträtter, platsnamn och beskrivande fraser i dina pussel.',
       },
       {
         title: '104 visuella teman med mer än 3 100 bilder',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Flerspråkiga ordförrådsprodukter med Full Access',
         description:
-          'Full Access låser upp alla 11 språk, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk. «Dog» på engelska blir «Hund» på tyska, «chien» på franska, «perro» på spanska och «hund» på svenska. Varje språkversion är en genuint annorlunda produkt med andra ord, andra bokstavsantal och andra pussellösningar. Skapa identiska temauppsättningar på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde. Denna flerspråkiga fördel är särskilt värdefull för gissa ordet-arbetsblad eftersom ordlängder och stavning varierar dramatiskt mellan språk, vilket ger helt unika pusselupplevelser.',
+          'Full Access låser upp alla 11 språk, och eftersom Gissa Ordet är språkkänsligt ändras själva målordet efter språk. \"Dog\" på engelska blir \"Hund\" på tyska, \"chien\" på franska, \"perro\" på spanska och \"hund\" på svenska. Varje språkversion är en genuint annorlunda produkt med andra ord, andra bokstavsantal och andra pussellösningar. Skapa identiska temauppsättningar på flera språk och lista varje som en separat Etsy-produkt eller KDP-bok — elva intäktsströmmar från ett enda arbetsflöde. Denna flerspråkiga fördel är särskilt värdefull för gissa ordet-arbetsblad eftersom ordlängder och stavning varierar dramatiskt mellan språk, vilket ger helt unika pusselupplevelser.',
         platform: 'Etsy / Amazon KDP / Gumroad (flerspråkig)',
       },
       {
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar stödet för flerordiga fraser?',
       answer:
-        'Ord eller bildnamn som innehåller mellanslag (som «isbjörn» eller «brandbil») renderas som separata ordgrupper på pusselrutnätet med tydligt avstånd emellan. användarna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Detta fungerar med alla tre innehållskällor och alla fyra svårighetsnivåer, och utökar ditt ordförrådsspektrum till djurarter, maträtter, platsnamn och beskrivande fraser.',
+        'Ord eller bildnamn som innehåller mellanslag (som \"isbjörn\" eller \"brandbil\") renderas som separata ordgrupper på pusselrutnätet med tydligt avstånd emellan. användarna löser varje ord oberoende medan de förstår att de bildar ett enda begrepp. Detta fungerar med alla tre innehållskällor och alla fyra svårighetsnivåer, och utökar ditt ordförrådsspektrum till djurarter, maträtter, platsnamn och beskrivande fraser.',
     },
     {
       question: 'Kan jag välja mellan versaler och gemener?',
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Är Gissa Ordet-generatorn språkkänslig?',
       answer:
-        'Ja. Eftersom ordet att gissa är bildnamnet på det valda språket ändrar ett byte av språk hela pusselinnehållet. «Dog» på engelska blir «Hund» på tyska, «chien» på franska, «perro» på spanska — var och en med olika bokstäver och olika bokstavsantal. Kommersiellt Paket är enbart engelska; Full Access låser upp alla 11 språk, vilket gör varje språkversion till en unik, säljbar produkt med helt annorlunda pussellösningar.',
+        'Ja. Eftersom ordet att gissa är bildnamnet på det valda språket ändrar ett byte av språk hela pusselinnehållet. \"Dog\" på engelska blir \"Hund\" på tyska, \"chien\" på franska, \"perro\" på spanska — var och en med olika bokstäver och olika bokstavsantal. Kommersiellt Paket är enbart engelska; Full Access låser upp alla 11 språk, vilket gör varje språkversion till en unik, säljbar produkt med helt annorlunda pussellösningar.',
     },
     {
       question: 'Finns det en gratis provversion?',

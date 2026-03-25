@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Textdekorationen hinzufügen und Arbeitsfläche anpassen',
         description:
-          'Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Name- und Datumsfelder oder Zeichenanweisungen hinzuzufügen mit Schriftarten wie Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Die automatisch generierte Kopfzeile erscheint mit lokalisiertem Text in der gewählten Sprache — auf Deutsch „Zeichnen & Ausmalen“. Verschieben, skalieren, drehen und positionieren Sie jedes Element auf der vollständigen Fabric.js-Arbeitsfläche. Nutzen Sie Ebenensteuerung, Sperren/Entsperren, Ausrichtungswerkzeuge und Zoom von 25% bis 300% für Präzisionsplatzierung. Aktivieren Sie die Option Name/Datum-Felder einblenden für Identifikationsbereiche.',
+          'Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Name- und Datumsfelder oder Zeichenanweisungen hinzuzufügen mit Schriftarten wie Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Die automatisch generierte Kopfzeile erscheint mit lokalisiertem Text in der gewählten Sprache — auf Deutsch \"Zeichnen & Ausmalen\". Verschieben, skalieren, drehen und positionieren Sie jedes Element auf der vollständigen Fabric.js-Arbeitsfläche. Nutzen Sie Ebenensteuerung, Sperren/Entsperren, Ausrichtungswerkzeuge und Zoom von 25% bis 300% für Präzisionsplatzierung. Aktivieren Sie die Option Name/Datum-Felder einblenden für Identifikationsbereiche.',
       },
       {
         title: 'Übungsraster und Hinweisraster herunterladen',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Automatisch generierte responsive Kopfzeile mit lokalisiertem Text',
         description:
-          'Jedes Arbeitsblatt enthält eine automatisch generierte Kopfzeile, die sich an die Seitenausrichtung anpasst. Im Hochformat erscheint eine große zentrierte Kopfzeile mit Magenta-Außenrahmen und rosa Innenrahmen. Im Querformat verwendet sie eine kompakte zentrierte Kopfzeile mit limegrünem Hintergrund und weißer Kapsel. Der Kopfzeilentext wird automatisch in alle 11 unterstützten Sprachen lokalisiert — „Zeichnen & Ausmalen“ auf Deutsch, „Draw and Color“ auf Englisch und so weiter. Kopfzeilen sind auf der Arbeitsfläche vollständig bearbeitbar: Auswählen, Verschieben, Skalieren oder Löschen. Diese automatische Lokalisierung ermöglicht Verkäufern mehrsprachige Produkte ohne manuelle Kopfzeilen-Übersetzung.',
+          'Jedes Arbeitsblatt enthält eine automatisch generierte Kopfzeile, die sich an die Seitenausrichtung anpasst. Im Hochformat erscheint eine große zentrierte Kopfzeile mit Magenta-Außenrahmen und rosa Innenrahmen. Im Querformat verwendet sie eine kompakte zentrierte Kopfzeile mit limegrünem Hintergrund und weißer Kapsel. Der Kopfzeilentext wird automatisch in alle 11 unterstützten Sprachen lokalisiert — \"Zeichnen & Ausmalen\" auf Deutsch, \"Draw and Color\" auf Englisch und so weiter. Kopfzeilen sind auf der Arbeitsfläche vollständig bearbeitbar: Auswählen, Verschieben, Skalieren oder Löschen. Diese automatische Lokalisierung ermöglicht Verkäufern mehrsprachige Produkte ohne manuelle Kopfzeilen-Übersetzung.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI',

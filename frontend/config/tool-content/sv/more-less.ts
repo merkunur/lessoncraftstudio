@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna arbetsblad-generatorn',
-        description: 'Klicka på «Prova gratis nu» för att starta mer eller mindre arbetsblad-generatorn. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta mer eller mindre arbetsblad-generatorn. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
       },
       {
         title: 'Välj ditt övningsläge',
-        description: 'Öppna panelen «Övningskonfiguration» och välj bland tre lägen: Bild mot Bild (två bildgrupper sida vid sida — användarna räknar och jämför kvantiteter), Bild mot Tal (en bildgrupp parad med en siffra — överbryggar visuell och abstrakt taligenkänning), eller Pricka och Kryssa Grupper (en enda ruta med 8–20 blandade bilder från två kategorier blandade tillsammans — användarna prickar majoritetsgruppen och kryssar minoritetsgruppen). Pricka och Kryssa är unikt för detta verktyg och skapar produkter som ingen konkurrent kan matcha.',
+        description: 'Öppna panelen \"Övningskonfiguration\" och välj bland tre lägen: Bild mot Bild (två bildgrupper sida vid sida — användarna räknar och jämför kvantiteter), Bild mot Tal (en bildgrupp parad med en siffra — överbryggar visuell och abstrakt taligenkänning), eller Pricka och Kryssa Grupper (en enda ruta med 8–20 blandade bilder från två kategorier blandade tillsammans — användarna prickar majoritetsgruppen och kryssar minoritetsgruppen). Pricka och Kryssa är unikt för detta verktyg och skapar produkter som ingen konkurrent kan matcha.',
       },
       {
         title: 'Ställ in talområdet',
@@ -49,15 +49,15 @@ const content: ToolContent = {
       },
       {
         title: 'Välj bilder från temabiblioteket',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, havsdjur, rymden, sport och många fler. Använd sökfältet för att hitta specifika teman. Klicka på enskilda bilder för att välja exakt vilka som visas på ditt arbetsblad.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, havsdjur, rymden, sport och många fler. Använd sökfältet för att hitta specifika teman. Klicka på enskilda bilder för att välja exakt vilka som visas på ditt arbetsblad.',
       },
       {
         title: 'Anpassa sidlayouten',
-        description: 'I avsnittet «Sidinställningar» väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket.',
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera»-knappen för att bygga ditt arbetsblad. Förhandsvisningen uppdateras på arbetsytan i realtid. När du är nöjd, använd «Nedladdning»-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Generera och ladda ner ett matchande facit med alla korrekta jämförelsesymboler ifyllda.',
+        description: 'Klicka på \"Generera\"-knappen för att bygga ditt arbetsblad. Förhandsvisningen uppdateras på arbetsytan i realtid. När du är nöjd, använd \"Nedladdning\"-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Generera och ladda ner ett matchande facit med alla korrekta jämförelsesymboler ifyllda.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade jämförelsepaket',
-      description: 'Använd högtids- och säsongsteman (jul, halloween, vårblommor, sommarstrand) för att skapa tidsbegränsade paket. Säsongsprodukter säljer särskilt bra på Etsy eftersom köpare söker under specifika fönster. Ett «Halloween Mer eller Mindre»-paket med kusliga bilder fångar garanterat uppmärksamhet i oktober.',
+      description: 'Använd högtids- och säsongsteman (jul, halloween, vårblommor, sommarstrand) för att skapa tidsbegränsade paket. Säsongsprodukter säljer särskilt bra på Etsy eftersom köpare söker under specifika fönster. Ett \"Halloween Mer eller Mindre\"-paket med kusliga bilder fångar garanterat uppmärksamhet i oktober.',
     },
     {
       title: 'Visuella globala arbetsbladspaket',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad matte paket-säljare',
-      description: 'Ladda upp nivågrupperade jämförelsearbetsbladspaket till Gumroad. säljare söker ständigt efter «större än mindre än arbetsblad» och «taljämförelse utskriftsbara». Inkludera alla tre övningslägen, illustrerade och vanliga symbolversioner, facit och en lärarguide i varje annons för högre upplevt värde.',
+      description: 'Ladda upp nivågrupperade jämförelsearbetsbladspaket till Gumroad. säljare söker ständigt efter \"större än mindre än arbetsblad\" och \"taljämförelse utskriftsbara\". Inkludera alla tre övningslägen, illustrerade och vanliga symbolversioner, facit och en lärarguide i varje annons för högre upplevt värde.',
       platform: 'Gumroad',
     },
     {
@@ -136,7 +136,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med addition och subtraktion för mattepaket',
-      description: 'Skapa matchande jämförelse-, additions- och subtraktions arbetsbladsuppsättningar med samma tema och talområde. Sälj dem individuellt och som ett kombinerat «Tidig Matte Megapaket» till en liten rabatt. Paketerade produkter har högre genomsnittliga ordervärden på varje marknadsplats. När du använder samma djur- eller säsongstema över alla tre mattefärdigheter känns paketet sammanhängande och professionellt designat.',
+      description: 'Skapa matchande jämförelse-, additions- och subtraktions arbetsbladsuppsättningar med samma tema och talområde. Sälj dem individuellt och som ett kombinerat \"Tidig Matte Megapaket\" till en liten rabatt. Paketerade produkter har högre genomsnittliga ordervärden på varje marknadsplats. När du använder samma djur- eller säsongstema över alla tre mattefärdigheter känns paketet sammanhängande och professionellt designat.',
     },
     {
       title: 'Håll Pricka och Kryssa övningar vid 1–3 per sida',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Klicka på «Generera Facit» innan du laddar ner. För jämförelsearbetsblad visar facit den korrekta symbolen (>, < eller =) för varje övning. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit. För Pricka och Kryssa-läget markerar facit tydligt vilken bildgrupp som är majoritet och vilken som är minoritet, vilket sparar säljare värdefull bedömningstid.',
+      description: 'Klicka på \"Generera Facit\" innan du laddar ner. För jämförelsearbetsblad visar facit den korrekta symbolen (>, < eller =) för varje övning. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit. För Pricka och Kryssa-läget markerar facit tydligt vilken bildgrupp som är majoritet och vilken som är minoritet, vilket sparar säljare värdefull bedömningstid.',
     },
   ],
 

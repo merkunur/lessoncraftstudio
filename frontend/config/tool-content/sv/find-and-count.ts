@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Hitta och Räkna Skapare',
     tagline: 'Dubbelläges sökarbetsblad generator med Dolda Objekt-läge (spritt bildrutnät med upp till 4 målobjekt) och Bokstavsletning-läge (lokalspecifikt alfabet med svenska ÅÄÖ), fyra mixbara uppgiftstyper (ringa in, ruta, stryk över, räkna), lokaliserade bildnamnsetiketter på 11 språk och konfigurerbar rutnätsdensitet 5×5 till 10×10',
-    description: 'Skapa professionella sök- och räknearbetsblad med två aktivitetslägen. Dolda Objekt sprider bilder i ett konfigurerbart rutnät (5–10 rader × 5–10 kolumner, standard 6×6) med upp till 4 målobjekt med individuella uppgiftstyper — ringa in, ruta, stryk över eller räkna. Bokstavsletning visar ett lokalspecifikt alfabet med svenska A–Ö inklusive Å, Ä och Ö (29 bokstäver) och genererar sökscener med bilder som börjar på den valda bokstaven. Språkkänslig: bildnamnsetiketter renderas på det valda språket via bildvokabulärsystemet — «Katt» på svenska, «Cat» på engelska, «Katze» på tyska. Dubbelarbetsyte-systemet genererar facit med röda visuella annoteringer: cirklar, rutor, kors och kvantitetsvisningar. En automatiskt genererad rubrik visar «Hitta och räkna» eller «Bokstavsletning» med blå ram (#2196F3) lokaliserad på alla 11 språk. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    description: 'Skapa professionella sök- och räknearbetsblad med två aktivitetslägen. Dolda Objekt sprider bilder i ett konfigurerbart rutnät (5–10 rader × 5–10 kolumner, standard 6×6) med upp till 4 målobjekt med individuella uppgiftstyper — ringa in, ruta, stryk över eller räkna. Bokstavsletning visar ett lokalspecifikt alfabet med svenska A–Ö inklusive Å, Ä och Ö (29 bokstäver) och genererar sökscener med bilder som börjar på den valda bokstaven. Språkkänslig: bildnamnsetiketter renderas på det valda språket via bildvokabulärsystemet — \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Dubbelarbetsyte-systemet genererar facit med röda visuella annoteringer: cirklar, rutor, kors och kvantitetsvisningar. En automatiskt genererad rubrik visar \"Hitta och räkna\" eller \"Bokstavsletning\" med blå ram (#2196F3) lokaliserad på alla 11 språk. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Hitta och Räkna Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta sökarbetsblad generatorn. Appen autogenererar ett komplett sökarbetsblad vid sidladdning med djurtemat, 4 slumpmässiga bilder och slumpmässiga uppgiftstyper på ett 6×6-rutnät — en direkt förhandsgranskning. Inget konto, ingen nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta sökarbetsblad generatorn. Appen autogenererar ett komplett sökarbetsblad vid sidladdning med djurtemat, 4 slumpmässiga bilder och slumpmässiga uppgiftstyper på ett 6×6-rutnät — en direkt förhandsgranskning. Inget konto, ingen nedladdning krävs.',
       },
       {
         title: 'Ställ in sidlayouten',
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj ditt aktivitetsläge',
-        description: 'Dolda Objekt (standard) — klassiska sökscener med spridda bilder. Bokstavsletning — aktiverar ett lokalspecifikt alfabet (svenska 29 bokstäver inklusive Å, Ä, Ö) och genererar scener med bilder som börjar på den valda bokstaven. Rubriken växlar automatiskt mellan «Hitta och räkna» och «Bokstavsletning» lokaliserad på alla 11 språk.',
+        description: 'Dolda Objekt (standard) — klassiska sökscener med spridda bilder. Bokstavsletning — aktiverar ett lokalspecifikt alfabet (svenska 29 bokstäver inklusive Å, Ä, Ö) och genererar scener med bilder som börjar på den valda bokstaven. Rubriken växlar automatiskt mellan \"Hitta och räkna\" och \"Bokstavsletning\" lokaliserad på alla 11 språk.',
       },
       {
         title: 'Konfigurera rutnätsdensitet för svårighetskontroll',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga söksamlingar för globala marknader',
-      description: 'Utnyttja de språkkänsliga bildnamnsetiketterna för att skapa sökarbetsblad på alla 11 språk. Samma bilder producerar annorlunda etikettering. «Katt» på svenska, «Cat» på engelska, «Katze» på tyska. Sälj flerspråkiga paket till premiumpriser.',
+      description: 'Utnyttja de språkkänsliga bildnamnsetiketterna för att skapa sökarbetsblad på alla 11 språk. Samma bilder producerar annorlunda etikettering. \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Sälj flerspråkiga paket till premiumpriser.',
     },
     {
       title: 'produktlinjes observations- och räkneaktivitetspaket',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP sökaktivitets arbetsboksserie',
-      description: 'Sammanställ 50–80 arbetsblad till tematiska arbetsböcker. Strukturera efter svårighet: «Enkla Sökövningar» med 5×5 och 2 mål, «Räkna och Hitta Äventyr» med räkna-uppgifter, «Avancerade Sökutmaningar» med 10×10, «A–Ö Bokstavsletning» med foniks. Facitsidor. Lokaliserade utgåvor möjliga.',
+      description: 'Sammanställ 50–80 arbetsblad till tematiska arbetsböcker. Strukturera efter svårighet: \"Enkla Sökövningar\" med 5×5 och 2 mål, \"Räkna och Hitta Äventyr\" med räkna-uppgifter, \"Avancerade Sökutmaningar\" med 10×10, \"A–Ö Bokstavsletning\" med foniks. Facitsidor. Lokaliserade utgåvor möjliga.',
       platform: 'Amazon KDP',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Utnyttja de språkkänsliga etiketterna för lokaliserade produktlinjer',
-      description: 'Bildnamnsetiketter ändras per lokal — «Katt» (sv), «Cat» (en), «Katze» (de), «Chat» (fr). Identiska teman producerar genuint annorlunda produkter. Skapa separata annonser per språk.',
+      description: 'Bildnamnsetiketter ändras per lokal — \"Katt\" (sv), \"Cat\" (en), \"Katze\" (de), \"Chat\" (fr). Identiska teman producerar genuint annorlunda produkter. Skapa separata annonser per språk.',
     },
     {
       title: 'Inkludera facit i varje annonseringsförhandsvisning',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Använd räkna-uppgiftstypen för matteangränsande produkter',
-      description: 'Räkna-uppgiften förvandlar sökövning till räknings- och observationsövning. användarna söker och skriver totalt antal. Positionera i både «visuell sökning» och «räkning» kategorier.',
+      description: 'Räkna-uppgiften förvandlar sökövning till räknings- och observationsövning. användarna söker och skriver totalt antal. Positionera i både \"visuell sökning\" och \"räkning\" kategorier.',
     },
     {
       title: 'Använd gråskala för budgetvänliga produkter',
@@ -168,11 +168,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar Bokstavsletning med olika språk?',
-      answer: 'Lokalspecifikt alfabet per språk. Svenska/finska A–Ö (29 bokstäver inklusive Å, Ä, Ö). Tyska A–Z + ÄÖÜ (29). Spanska A–Z + Ñ (27). Danska/norska A–Z + ÆØÅ (29). Rutnätet renderas i 7 kolumner. En katt börjar med «K» på svenska men «C» på engelska.',
+      answer: 'Lokalspecifikt alfabet per språk. Svenska/finska A–Ö (29 bokstäver inklusive Å, Ä, Ö). Tyska A–Z + ÄÖÜ (29). Spanska A–Z + Ñ (27). Danska/norska A–Z + ÆØÅ (29). Rutnätet renderas i 7 kolumner. En katt börjar med \"K\" på svenska men \"C\" på engelska.',
     },
     {
       question: 'Hur fungerar lokaliserade bildnamnsetiketter?',
-      answer: 'Bildnamnsetiketter renderas via bildvokabulärsystemet. «Katt» (sv), «Cat» (en), «Katze» (de), «Chat» (fr), «Gato» (es). I Bokstavsletning ändras begynnelsebokstäver. Kommersiellt Paket stöder engelska; Full Access låser upp alla 11 språk.',
+      answer: 'Bildnamnsetiketter renderas via bildvokabulärsystemet. \"Katt\" (sv), \"Cat\" (en), \"Katze\" (de), \"Chat\" (fr), \"Gato\" (es). I Bokstavsletning ändras begynnelsebokstäver. Kommersiellt Paket stöder engelska; Full Access låser upp alla 11 språk.',
     },
     {
       question: 'Hur kontrollerar rutnätsdensiteten svårigheten?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur ser den automatiskt genererade rubriken ut?',
-      answer: 'Växlar mellan «Hitta och räkna» och «Bokstavsletning» beroende på läge. Blå ram (#2196F3) med gul inre accent. Fredoka och Quicksand typsnitt. Lokaliseras till alla 11 stödda språk.',
+      answer: 'Växlar mellan \"Hitta och räkna\" och \"Bokstavsletning\" beroende på läge. Blå ram (#2196F3) med gul inre accent. Fredoka och Quicksand typsnitt. Lokaliseras till alla 11 stödda språk.',
     },
     {
       question: 'Vilka sidstorlekar och exportformat finns?',

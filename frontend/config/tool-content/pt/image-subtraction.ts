@@ -29,27 +29,27 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Fichas',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de fichas de subtração. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de fichas de subtração. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
       },
       {
         title: 'Escolher o Modo de Exercício',
-        description: 'Abra o painel «Configuração de Exercícios» e selecione entre quatro modos: Riscar Imagens (os usuários riscam desenhos para visualizar a subtração — o modo mais intuitivo para os mais pequenos), Imagem − Número (um grupo de imagens menos um número), Encontrar o Subtraendo (mostra-se o minuendo e o resultado; a criança deve descobrir quanto se tirou), ou Modo Misto (combina aleatoriamente os três estilos na mesma ficha).',
+        description: 'Abra o painel \"Configuração de Exercícios\" e selecione entre quatro modos: Riscar Imagens (os usuários riscam desenhos para visualizar a subtração — o modo mais intuitivo para os mais pequenos), Imagem − Número (um grupo de imagens menos um número), Encontrar o Subtraendo (mostra-se o minuendo e o resultado; a criança deve descobrir quanto se tirou), ou Modo Misto (combina aleatoriamente os três estilos na mesma ficha).',
       },
       {
         title: 'Ajustar o Intervalo de Dificuldade',
-        description: 'Ajuste o controlo «Minuendo Máximo» para controlar o número mais alto utilizado nos exercícios (intervalo: 2–20). Para a pré-escola, mantenha-o em 5 ou menos. Os usuários do jardim de infância lidam bem com até 10. Os do 1.º ano podem trabalhar com o intervalo completo até 20. Também pode definir o número de exercícios por ficha (de 1 a 10).',
+        description: 'Ajuste o controlo \"Minuendo Máximo\" para controlar o número mais alto utilizado nos exercícios (intervalo: 2–20). Para a pré-escola, mantenha-o em 5 ou menos. Os usuários do jardim de infância lidam bem com até 10. Os do 1.º ano podem trabalhar com o intervalo completo até 20. Também pode definir o número de exercícios por ficha (de 1 a 10).',
       },
       {
         title: 'Selecionar um Tema da Biblioteca de Imagens',
-        description: 'Abra o painel «Biblioteca de Imagens» e explore mais de 100 coleções temáticas: animais, alimentos, veículos, criaturas marinhas, espaço, desportos e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Clique nas imagens individuais para escolher exatamente quais aparecerão na sua ficha.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 100 coleções temáticas: animais, alimentos, veículos, criaturas marinhas, espaço, desportos e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Clique nas imagens individuais para escolher exatamente quais aparecerão na sua ficha.',
       },
       {
         title: 'Personalizar o Layout da Página',
-        description: 'Na secção «Configuração de Página», escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
+        description: 'Na secção \"Configuração de Página\", escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
       },
       {
         title: 'Adicionar Texto e Títulos',
-        description: 'Use o painel «Ferramentas de Texto» para adicionar um título como «Subtração a Riscar» ou «Prática de Tirar». Escolha entre fontes adequadas para crianças como Fredoka, Baloo 2, Quicksand e Nunito. Ajuste o tamanho, cor e contorno opcional do texto para melhorar a legibilidade sobre os fundos.',
+        description: 'Use o painel \"Ferramentas de Texto\" para adicionar um título como \"Subtração a Riscar\" ou \"Prática de Tirar\". Escolha entre fontes adequadas para crianças como Fredoka, Baloo 2, Quicksand e Nunito. Ajuste o tamanho, cor e contorno opcional do texto para melhorar a legibilidade sobre os fundos.',
       },
       {
         title: 'Ajustar as Opções da Ficha',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Gerar e Descarregar',
-        description: 'Clique no botão «Gerar» para criar a sua ficha. A pré-visualização atualiza-se no canvas em tempo real. Quando estiver satisfeito, use o menu «Descarregar» para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Também pode gerar e descarregar um gabarito com todas as soluções preenchidas — as imagens riscadas claramente assinaladas.',
+        description: 'Clique no botão \"Gerar\" para criar a sua ficha. A pré-visualização atualiza-se no canvas em tempo real. Quando estiver satisfeito, use o menu \"Descarregar\" para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Também pode gerar e descarregar um gabarito com todas as soluções preenchidas — as imagens riscadas claramente assinaladas.',
       },
     ],
   },
@@ -77,11 +77,11 @@ const content: ToolContent = {
     },
     {
       title: 'Pacotes de Subtração Sazonais',
-      description: 'Use temas de festas e estações (Natal, Halloween, flores de primavera, praia de verão) para criar pacotes de edição limitada. Os produtos sazonais vendem-se especialmente bem na Etsy porque os compradores procuram-nos em janelas específicas. Um pacote de «Subtração de Halloween» com imagens assustadoras é um íman de atenção garantido. Publique os pacotes de Halloween em meados de setembro, os de Natal no início de novembro e os de primavera em meados de fevereiro. Publicar com antecedência constrói autoridade no ranking de pesquisa antes de chegar o pico de procura. Defina o preço dos pacotes sazonais entre 5 $ e 8 $ e promova-os com pins do Pinterest que mostrem as suas fichas mais coloridas.',
+      description: 'Use temas de festas e estações (Natal, Halloween, flores de primavera, praia de verão) para criar pacotes de edição limitada. Os produtos sazonais vendem-se especialmente bem na Etsy porque os compradores procuram-nos em janelas específicas. Um pacote de \"Subtração de Halloween\" com imagens assustadoras é um íman de atenção garantido. Publique os pacotes de Halloween em meados de setembro, os de Natal no início de novembro e os de primavera em meados de fevereiro. Publicar com antecedência constrói autoridade no ranking de pesquisa antes de chegar o pico de procura. Defina o preço dos pacotes sazonais entre 5 $ e 8 $ e promova-os com pins do Pinterest que mostrem as suas fichas mais coloridas.',
     },
     {
       title: 'Fichas de Encontrar o Número que Falta',
-      description: 'Use o modo Encontrar o Subtraendo exclusivamente para criar fichas de subtração com «o número que falta». Este formato é popular entre os vendedores do 1.º e 2.º ano porque desenvolve o pensamento algébrico precoce. Empacote-as como uma linha de produtos separada juntamente com os seus pacotes de subtração padrão.',
+      description: 'Use o modo Encontrar o Subtraendo exclusivamente para criar fichas de subtração com \"o número que falta\". Este formato é popular entre os vendedores do 1.º e 2.º ano porque desenvolve o pensamento algébrico precoce. Empacote-as como uma linha de produtos separada juntamente com os seus pacotes de subtração padrão.',
     },
     {
       title: 'Fichas de Subtração Bilingues',
@@ -92,12 +92,12 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Loja de Fichas de Matemática Visuais na Etsy',
-      description: 'Abra uma loja Etsy especializada em fichas de subtração visuais. O formato Riscar Imagens é muito procurado por pais e vendedores porque transforma a subtração abstrata em algo concreto. Crie de 15 a 20 pacotes temáticos com um preço de 3 $ a 5 $ cada. Sem inventário e com entrega digital instantânea, as margens são praticamente de 100 % após as comissões da Etsy. Concentre o SEO da sua loja em palavras-chave de cauda longa como «fichas de subtração para riscar imprimíveis» e «atividades de tirar com imagens» para se diferenciar dos listings genéricos de fichas de matemática. Renove as miniaturas das suas imagens conforme a estação e adicione novos pacotes temáticos todos os meses para manter a sua loja ativa no algoritmo de pesquisa da Etsy.',
+      description: 'Abra uma loja Etsy especializada em fichas de subtração visuais. O formato Riscar Imagens é muito procurado por pais e vendedores porque transforma a subtração abstrata em algo concreto. Crie de 15 a 20 pacotes temáticos com um preço de 3 $ a 5 $ cada. Sem inventário e com entrega digital instantânea, as margens são praticamente de 100 % após as comissões da Etsy. Concentre o SEO da sua loja em palavras-chave de cauda longa como \"fichas de subtração para riscar imprimíveis\" e \"atividades de tirar com imagens\" para se diferenciar dos listings genéricos de fichas de matemática. Renove as miniaturas das suas imagens conforme a estação e adicione novos pacotes temáticos todos os meses para manter a sua loja ativa no algoritmo de pesquisa da Etsy.',
       platform: 'Etsy',
     },
     {
       title: 'Vendedor de Pacotes de Matemática no Gumroad',
-      description: 'Carregue pacotes de fichas de subtração diferenciadas no Gumroad. Os vendedores procuram constantemente «fichas de subtração com riscar imagens» e «atividades de tirar para imprimir». Inclua os quatro modos de exercício, gabaritos e um guia vendedor em cada listing para uma maior perceção de valor e melhores avaliações.',
+      description: 'Carregue pacotes de fichas de subtração diferenciadas no Gumroad. Os vendedores procuram constantemente \"fichas de subtração com riscar imagens\" e \"atividades de tirar para imprimir\". Inclua os quatro modos de exercício, gabaritos e um guia vendedor em cada listing para uma maior perceção de valor e melhores avaliações.',
       platform: 'Gumroad',
     },
     {
@@ -123,19 +123,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Comece com o Modo Riscar Imagens para os Mais Pequenos',
-      description: 'Riscar Imagens é o formato de subtração mais intuitivo para a pré-escola e o jardim de infância. As crianças veem um grupo de imagens, riscam algumas e contam as que restam. Comece cada novo usuário ou linha de produtos com Riscar Imagens antes de introduzir outros modos — constrói a compreensão fundamental de que subtrair significa «tirar». As investigações demonstram consistentemente que a progressão do concreto para o abstrato produz melhores resultados em matemática, e as fichas de Riscar Imagens situam-se perfeitamente na fase concreto-representacional. Os pais e vendedores preferem esmagadoramente este formato para crianças dos 3 aos 6 anos porque elimina a intimidação de trabalhar apenas com números.',
+      description: 'Riscar Imagens é o formato de subtração mais intuitivo para a pré-escola e o jardim de infância. As crianças veem um grupo de imagens, riscam algumas e contam as que restam. Comece cada novo usuário ou linha de produtos com Riscar Imagens antes de introduzir outros modos — constrói a compreensão fundamental de que subtrair significa \"tirar\". As investigações demonstram consistentemente que a progressão do concreto para o abstrato produz melhores resultados em matemática, e as fichas de Riscar Imagens situam-se perfeitamente na fase concreto-representacional. Os pais e vendedores preferem esmagadoramente este formato para crianças dos 3 aos 6 anos porque elimina a intimidação de trabalhar apenas com números.',
     },
     {
       title: 'Mantenha o Minuendo Máximo Baixo para Principiantes',
-      description: 'Ajuste o controlo de minuendo máximo para 5 em produtos de pré-escola e para 10 no jardim de infância. As crianças pequenas ficam sobrecarregadas com grupos grandes de imagens. Crie versões separadas «fácil» (minuendo máximo 5), «médio» (minuendo máximo 10) e «desafio» (minuendo máximo 20) para que os compradores possam escolher o nível adequado. Oferecer os três níveis de dificuldade como um pacote diferenciado na Etsy ou no Gumroad permite cobrar um preço mais alto do que os pacotes individuais, porque os vendedores valorizam os recursos nivelados que lhes poupam tempo de planificação.',
+      description: 'Ajuste o controlo de minuendo máximo para 5 em produtos de pré-escola e para 10 no jardim de infância. As crianças pequenas ficam sobrecarregadas com grupos grandes de imagens. Crie versões separadas \"fácil\" (minuendo máximo 5), \"médio\" (minuendo máximo 10) e \"desafio\" (minuendo máximo 20) para que os compradores possam escolher o nível adequado. Oferecer os três níveis de dificuldade como um pacote diferenciado na Etsy ou no Gumroad permite cobrar um preço mais alto do que os pacotes individuais, porque os vendedores valorizam os recursos nivelados que lhes poupam tempo de planificação.',
     },
     {
       title: 'Use Encontrar o Subtraendo para usuários Avançados',
-      description: 'O modo Encontrar o Subtraendo mostra a quantidade inicial e o resultado, pedindo à criança que descubra quanto se tirou. Isto é significativamente mais difícil e desenvolve o pensamento algébrico precoce. Reserve-o para o 1.º ano em diante, ou comercialize-o como um nível «desafio» separado. Na Etsy e no Gumroad, as fichas de subtração com «o número que falta» atraem um segmento de compradores distinto — vendedores que preparam usuários para avaliações padronizadas onde as operações inversas aparecem frequentemente. Etiquetar o seu listing com termos como «encontrar o número que falta» e «subtração desafio» capta este tráfego de pesquisa de forma eficaz.',
+      description: 'O modo Encontrar o Subtraendo mostra a quantidade inicial e o resultado, pedindo à criança que descubra quanto se tirou. Isto é significativamente mais difícil e desenvolve o pensamento algébrico precoce. Reserve-o para o 1.º ano em diante, ou comercialize-o como um nível \"desafio\" separado. Na Etsy e no Gumroad, as fichas de subtração com \"o número que falta\" atraem um segmento de compradores distinto — vendedores que preparam usuários para avaliações padronizadas onde as operações inversas aparecem frequentemente. Etiquetar o seu listing com termos como \"encontrar o número que falta\" e \"subtração desafio\" capta este tráfego de pesquisa de forma eficaz.',
     },
     {
       title: 'Inclua Sempre o Gabarito',
-      description: 'Clique em «Gerar Gabarito» antes de descarregar. Para as fichas de Riscar Imagens, o gabarito mostra quais imagens estão riscadas, tornando o valor percebido instantânea. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem um gabarito. Incluir gabaritos também reduz as perguntas de apoio ao cliente e os pedidos de reembolso, porque os pais que trabalham com crianças em casa podem verificar as respostas sem terem de resolver cada exercício eles próprios.',
+      description: 'Clique em \"Gerar Gabarito\" antes de descarregar. Para as fichas de Riscar Imagens, o gabarito mostra quais imagens estão riscadas, tornando o valor percebido instantânea. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem um gabarito. Incluir gabaritos também reduz as perguntas de apoio ao cliente e os pedidos de reembolso, porque os pais que trabalham com crianças em casa podem verificar as respostas sem terem de resolver cada exercício eles próprios.',
     },
     {
       title: 'Exporte em PDF e em JPEG',
@@ -143,7 +143,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combine com Adição para Pacotes Completos de Matemática',
-      description: 'Crie conjuntos de fichas de adição e subtração correspondentes usando o mesmo tema e intervalo de dificuldade. Venda-os individualmente e como mega-pacote combinado «Adição e Subtração» com um ligeiro desconto. Os produtos em pacotes têm valores de encomenda média mais elevados em todos os marketplaces. Os mega-pacotes combinados de adição e subtração atingem preços significativamente mais altos do que os pacotes de operação individual porque oferecem cobertura completa de famílias de operações. Crie conjuntos temáticos onde as mesmas imagens aparecem tanto nas fichas de adição como nas de subtração, reforçando a relação inversa entre as operações. Defina o preço dos mega-pacotes entre 7 $ e 9 $ para maximizar as receitas por transação.',
+      description: 'Crie conjuntos de fichas de adição e subtração correspondentes usando o mesmo tema e intervalo de dificuldade. Venda-os individualmente e como mega-pacote combinado \"Adição e Subtração\" com um ligeiro desconto. Os produtos em pacotes têm valores de encomenda média mais elevados em todos os marketplaces. Os mega-pacotes combinados de adição e subtração atingem preços significativamente mais altos do que os pacotes de operação individual porque oferecem cobertura completa de famílias de operações. Crie conjuntos temáticos onde as mesmas imagens aparecem tanto nas fichas de adição como nas de subtração, reforçando a relação inversa entre as operações. Defina o preço dos mega-pacotes entre 7 $ e 9 $ para maximizar as receitas por transação.',
     },
     {
       title: 'Adicione Molduras Temáticas para Preços Premium',
@@ -174,7 +174,7 @@ const content: ToolContent = {
     },
     {
       question: 'O que controla a definição de minuendo máximo?',
-      answer: 'O controlo de minuendo máximo (intervalo 2–20) define o número inicial mais alto em cada exercício de subtração. Por exemplo, se o minuendo máximo estiver em 10, os exercícios mostrarão até 10 imagens. Valores mais baixos são mais fáceis para crianças pequenas; valores mais altos oferecem mais desafio para usuários mais velhos. Para vendedores de produtos, esta definição é o controlo de dificuldade principal. Um listing bem estruturado pode incluir três níveis etiquetados como «fácil», «médio» e «difícil» com base no valor do minuendo máximo, dando aos vendedores a flexibilidade de atribuir o nível apropriado a cada usuário sem trabalho de design adicional.',
+      answer: 'O controlo de minuendo máximo (intervalo 2–20) define o número inicial mais alto em cada exercício de subtração. Por exemplo, se o minuendo máximo estiver em 10, os exercícios mostrarão até 10 imagens. Valores mais baixos são mais fáceis para crianças pequenas; valores mais altos oferecem mais desafio para usuários mais velhos. Para vendedores de produtos, esta definição é o controlo de dificuldade principal. Um listing bem estruturado pode incluir três níveis etiquetados como \"fácil\", \"médio\" e \"difícil\" com base no valor do minuendo máximo, dando aos vendedores a flexibilidade de atribuir o nível apropriado a cada usuário sem trabalho de design adicional.',
     },
     {
       question: 'Posso criar fichas noutros idiomas além do português?',
@@ -186,7 +186,7 @@ const content: ToolContent = {
     },
     {
       question: 'Posso gerar um gabarito?',
-      answer: 'Sim. Após gerar uma ficha, clique em «Gerar Gabarito» para criar uma folha de soluções com todas as respostas preenchidas. Para as fichas de Riscar Imagens, o gabarito mostra claramente quais imagens estão riscadas. Pode descarregar o gabarito como um ficheiro JPEG ou PDF independente.',
+      answer: 'Sim. Após gerar uma ficha, clique em \"Gerar Gabarito\" para criar uma folha de soluções com todas as respostas preenchidas. Para as fichas de Riscar Imagens, o gabarito mostra claramente quais imagens estão riscadas. Pode descarregar o gabarito como um ficheiro JPEG ou PDF independente.',
     },
     {
       question: 'Qual é a política de reembolso?',

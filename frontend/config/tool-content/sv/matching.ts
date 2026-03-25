@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Matchnings Arbetsblad Skapare',
     tagline: 'Fyrläges dra-ett-streck matchnings arbetsblad generator med Begynnelsebokstav, Bild+Ord, Blandat och Anpassat Ord-lägen, automatiskt genererade facit med kopplingslinjer, konfigurerbara parantal, lokaliserad Para ihop-rubrik på 11 språk och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella dra-ett-streck matchnings arbetsblad där användarna kopplar ihop par genom att dra linjer mellan två kolumner — med fyra distinkta matchningslägen i en enda generator. Begynnelsebokstav-läget placerar bilder till vänster och deras första bokstäver till höger, med tre underlägen: Slumpmässigt Tema och Bilder, Slumpmässigt från Valt Tema, och Välj Specifika Bilder. Växla versaler eller gemener. Bild+Ord-läget visar märkta bildpar på båda sidor för vokabulärförstärkning. Bild/Ord Blandat-läget använder per-rad dropdown-väljare. Anpassat Ord-läget parar bilder med dina egna inskrivna matchningstermer. Konfigurera 4, 5 eller 6 par per arbetsblad (standard 6). Växla artikelnummer (standard PÅ) och punktmarkeringar (standard PÅ) oberoende. Varje arbetsblad inkluderar en automatiskt genererad lokaliserad «Para ihop!»-rubrik med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50, 8px streck), lokaliserad titel i Fredoka (700) och beskrivning i Quicksand (500), automatiskt översatt till alla 11 stödda språk. Dubbelarbetsyte-systemet genererar samtidigt en arbetsbladsflik och en facitflik — facit ritar horisontella kopplingslinjer (#555, streckbredd 2) mellan korrekta matchningar. Denna generator är språkkänslig: Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn, så att byta språk ändrar orden och begynnelsebokstäverna — samma kattbild visar K på svenska men C på engelska (Cat) och K på tyska (Katze). Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Välj Letter, A4, Kvadrat eller anpassade sidstorlekar med gråskaleväxling. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella dra-ett-streck matchnings arbetsblad där användarna kopplar ihop par genom att dra linjer mellan två kolumner — med fyra distinkta matchningslägen i en enda generator. Begynnelsebokstav-läget placerar bilder till vänster och deras första bokstäver till höger, med tre underlägen: Slumpmässigt Tema och Bilder, Slumpmässigt från Valt Tema, och Välj Specifika Bilder. Växla versaler eller gemener. Bild+Ord-läget visar märkta bildpar på båda sidor för vokabulärförstärkning. Bild/Ord Blandat-läget använder per-rad dropdown-väljare. Anpassat Ord-läget parar bilder med dina egna inskrivna matchningstermer. Konfigurera 4, 5 eller 6 par per arbetsblad (standard 6). Växla artikelnummer (standard PÅ) och punktmarkeringar (standard PÅ) oberoende. Varje arbetsblad inkluderar en automatiskt genererad lokaliserad \"Para ihop!\"-rubrik med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50, 8px streck), lokaliserad titel i Fredoka (700) och beskrivning i Quicksand (500), automatiskt översatt till alla 11 stödda språk. Dubbelarbetsyte-systemet genererar samtidigt en arbetsbladsflik och en facitflik — facit ritar horisontella kopplingslinjer (#555, streckbredd 2) mellan korrekta matchningar. Denna generator är språkkänslig: Begynnelsebokstav och Bild+Ord-lägen använder lokaliserade bildnamn, så att byta språk ändrar orden och begynnelsebokstäverna — samma kattbild visar K på svenska men C på engelska (Cat) och K på tyska (Katze). Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Applicera bakgrunds- och ramteman med oberoende opacitetsreglage. Lägg till namn- och datumfält. Exportera fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Välj Letter, A4, Kvadrat eller anpassade sidstorlekar med gråskaleväxling. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Matchnings Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta matchnings arbetsblad generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta matchnings arbetsblad generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Välj ditt matchningsläge',
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera par, nummer och formatering',
-        description: 'Ställ in antal matchningspar till 4, 5 eller 6 med dropdownen (standard 6). Färre par skapar arbetsblad med större bilder och mer avstånd för yngre användare; fler par ökar svårighet och innehållsdensitet. Växla «Inkludera artikelnummer» (standard PÅ) för att lägga till siffror före varje par. Växla «Visa punktmarkeringar» (standard PÅ) för dekorativa punkter bredvid objekt. Kryssa i «Inkludera Namn/Datum-fält» för namn och datumlinjer.',
+        description: 'Ställ in antal matchningspar till 4, 5 eller 6 med dropdownen (standard 6). Färre par skapar arbetsblad med större bilder och mer avstånd för yngre användare; fler par ökar svårighet och innehållsdensitet. Växla \"Inkludera artikelnummer\" (standard PÅ) för att lägga till siffror före varje par. Växla \"Visa punktmarkeringar\" (standard PÅ) för dekorativa punkter bredvid objekt. Kryssa i \"Inkludera Namn/Datum-fält\" för namn och datumlinjer.',
       },
       {
         title: 'Välj bilder från biblioteket',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera matchnings arbetsbladet',
-        description: 'Klicka på Generera för att skapa den tvåkolumniga matchningslayouten. En stiliserad «Para ihop!»-rubrik visas överst med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50) och lokaliserad titel i Fredoka och Quicksand. Artikelnummer och punktmarkeringar visas baserat på dina växlingsinställningar. Arbetsbladfliken visar övningsversionen utan kopplingslinjer.',
+        description: 'Klicka på Generera för att skapa den tvåkolumniga matchningslayouten. En stiliserad \"Para ihop!\"-rubrik visas överst med gul pillerbakgrund (#FFD700), korall ramkant (#FF7F50) och lokaliserad titel i Fredoka och Quicksand. Artikelnummer och punktmarkeringar visas baserat på dina växlingsinställningar. Arbetsbladfliken visar övningsversionen utan kopplingslinjer.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera namn/datum-fält för produktlinjesfärdiga produkter',
-      description: 'Kryssrutan som lägger till «Namn: ____» och «Datum: ____» fält förvandlar matchnings arbetsblad till strukturerade produktlinjesaktiviteter. säljare på Gumroad söker specifikt efter «produktlinjesfärdiga» matchningsresurser med identifieringsområden. Kombinerat med artikelnummer för effektiv ficitkontroll.',
+      description: 'Kryssrutan som lägger till \"Namn: ____\" och \"Datum: ____\" fält förvandlar matchnings arbetsblad till strukturerade produktlinjesaktiviteter. säljare på Gumroad söker specifikt efter \"produktlinjesfärdiga\" matchningsresurser med identifieringsområden. Kombinerat med artikelnummer för effektiv ficitkontroll.',
     },
   ],
 
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad är den lokaliserade Para ihop-rubriken?',
-      answer: 'Varje genererat arbetsblad inkluderar en stiliserad rubrik med gul pillerbakgrund (#FFD700), vit inre piller och korall ramkant (#FF7F50, 8px streck). Titeln «Para ihop!» och beskrivningen översätts automatiskt till alla 11 stödda språk. Titeln använder Fredoka (vikt 700) och beskrivningen Quicksand (vikt 500).',
+      answer: 'Varje genererat arbetsblad inkluderar en stiliserad rubrik med gul pillerbakgrund (#FFD700), vit inre piller och korall ramkant (#FF7F50, 8px streck). Titeln \"Para ihop!\" och beskrivningen översätts automatiskt till alla 11 stödda språk. Titeln använder Fredoka (vikt 700) och beskrivningen Quicksand (vikt 500).',
     },
     {
       question: 'Vilka bildteman och filformat finns tillgängliga?',

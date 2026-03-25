@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'I Spy Worksheet Generator for Find and Count Activities',
     tagline: 'Two activity modes in one generator — Hidden Object I Spy and Letter Spotting — with four mixable task types (circle, square, cross out, count), locale-specific alphabets with accented letters, localized image name labels in 11 languages, and auto-generated answer keys with visual annotations.',
     description:
-      'Build professional I Spy and find-and-count worksheets where solvers search a scattered image scene to find, circle, cross out, or count specific objects. Choose between two activity modes: Hidden Object mode scatters images across a configurable grid (5–10 rows × 5–10 columns) and lets you assign up to 4 target objects with individual task types — circle the object, put a square around it, cross it out, or count how many appear. Letter Spotting mode displays a locale-specific alphabet grid with accented letters (German ÄÖÜ, Spanish Ñ, Swedish ÅÄÖ, Danish/Norwegian ÆØÅ) and generates I Spy scenes using images that start with the selected letter. Every worksheet includes an auto-generated header — “I Spy” or “Letter Spotting” — localized in all 11 supported languages with a blue border (#2196F3). The dual-canvas system generates both a worksheet tab and an answer key tab with red circle, square, and cross annotations plus quantity count displays. The Find & Count Generator is language-sensitive: image name labels on the worksheet are rendered in the selected language via the Image Vocabulary system. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized labels. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell I Spy activity bundles on Etsy, compile hidden object workbooks for Amazon KDP, or create counting activities for your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional I Spy and find-and-count worksheets where solvers search a scattered image scene to find, circle, cross out, or count specific objects. Choose between two activity modes: Hidden Object mode scatters images across a configurable grid (5–10 rows × 5–10 columns) and lets you assign up to 4 target objects with individual task types — circle the object, put a square around it, cross it out, or count how many appear. Letter Spotting mode displays a locale-specific alphabet grid with accented letters (German ÄÖÜ, Spanish Ñ, Swedish ÅÄÖ, Danish/Norwegian ÆØÅ) and generates I Spy scenes using images that start with the selected letter. Every worksheet includes an auto-generated header — \"I Spy\" or \"Letter Spotting\" — localized in all 11 supported languages with a blue border (#2196F3). The dual-canvas system generates both a worksheet tab and an answer key tab with red circle, square, and cross annotations plus quantity count displays. The Find & Count Generator is language-sensitive: image name labels on the worksheet are rendered in the selected language via the Image Vocabulary system. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized labels. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell I Spy activity bundles on Etsy, compile hidden object workbooks for Amazon KDP, or create counting activities for your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Choose Your Activity Mode',
         description:
-          'Select between two modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a grid where solvers search for specific objects. Letter Spotting mode activates a locale-specific alphabet grid with accented letters and generates scenes using images that begin with the selected letter. The header automatically switches between “I Spy” and “Letter Spotting” (localized in all 11 languages) based on your selection.',
+          'Select between two modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a grid where solvers search for specific objects. Letter Spotting mode activates a locale-specific alphabet grid with accented letters and generates scenes using images that begin with the selected letter. The header automatically switches between \"I Spy\" and \"Letter Spotting\" (localized in all 11 languages) based on your selection.',
       },
       {
         title: 'Select Images and Assign Task Types',
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Two Activity Modes: Hidden Object I Spy and Letter Spotting',
         description:
-          'One generator covers two distinct activity formats. Hidden Object mode creates classic I Spy scenes where solvers search a scattered image grid to find specific objects. Letter Spotting mode activates a locale-specific alphabet grid — English A–Z (26 letters), German A–Z + ÄÖÜ (29 letters), Spanish A–Z + Ñ (27 letters), Swedish/Finnish A–Z + ÅÄÖ (29 letters), Danish/Norwegian A–Z + ÆØÅ (29 letters) — and generates scenes using images that start with the selected letter. The header automatically switches between “I Spy” and “Letter Spotting” (localized in all 11 languages) based on the active mode.',
+          'One generator covers two distinct activity formats. Hidden Object mode creates classic I Spy scenes where solvers search a scattered image grid to find specific objects. Letter Spotting mode activates a locale-specific alphabet grid — English A–Z (26 letters), German A–Z + ÄÖÜ (29 letters), Spanish A–Z + Ñ (27 letters), Swedish/Finnish A–Z + ÅÄÖ (29 letters), Danish/Norwegian A–Z + ÆØÅ (29 letters) — and generates scenes using images that start with the selected letter. The header automatically switches between \"I Spy\" and \"Letter Spotting\" (localized in all 11 languages) based on the active mode.',
       },
       {
         title: 'Four Task Types: Circle, Square, Cross Out, and Count — Mixable on One Worksheet',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Localized Image Name Labels in 11 Languages via Image Vocabulary',
         description:
-          'The Find & Count Generator is language-sensitive. Image name labels on the worksheet are rendered in the selected language using the Image Vocabulary system (image-vocabulary.js). Switching from English to German changes “cat” to “Katze,” “dog” to “Hund,” and first letters update accordingly in Letter Spotting mode. All 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Commercial tier includes English only; Full Access unlocks all 11 languages for localized labels.',
+          'The Find & Count Generator is language-sensitive. Image name labels on the worksheet are rendered in the selected language using the Image Vocabulary system (image-vocabulary.js). Switching from English to German changes \"cat\" to \"Katze,\" \"dog\" to \"Hund,\" and first letters update accordingly in Letter Spotting mode. All 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Commercial tier includes English only; Full Access unlocks all 11 languages for localized labels.',
       },
       {
         title: 'Auto-Generated Answer Key with Visual Annotations and Count Displays',
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What are the two activity modes and how do they differ?',
       answer:
-        'The generator offers two distinct modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a configurable grid where solvers search for up to 4 specific objects and perform assigned tasks (circle, square, cross out, or count). Letter Spotting mode activates a locale-specific alphabet grid and generates I Spy scenes using images that begin with the selected letter. The worksheet header automatically switches between “I Spy” and “Letter Spotting” (localized in all 11 languages) based on the active mode.',
+        'The generator offers two distinct modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a configurable grid where solvers search for up to 4 specific objects and perform assigned tasks (circle, square, cross out, or count). Letter Spotting mode activates a locale-specific alphabet grid and generates I Spy scenes using images that begin with the selected letter. The worksheet header automatically switches between \"I Spy\" and \"Letter Spotting\" (localized in all 11 languages) based on the active mode.',
     },
     {
       question: 'What are the four task types and can I mix them on one worksheet?',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'How do localized image name labels work?',
       answer:
-        'The Find & Count Generator is language-sensitive. Image name labels are rendered in the selected language via the Image Vocabulary system (image-vocabulary.js). For example, a cat image displays “Cat” in English, “Katze” in German, “Chat” in French, and “Gato” in Spanish. In Letter Spotting mode, first letters also change with the language — a cat starts with “C” in English but “K” in German and “G” in Spanish. The Commercial tier supports English only; Full Access unlocks all 11 languages.',
+        'The Find & Count Generator is language-sensitive. Image name labels are rendered in the selected language via the Image Vocabulary system (image-vocabulary.js). For example, a cat image displays \"Cat\" in English, \"Katze\" in German, \"Chat\" in French, and \"Gato\" in Spanish. In Letter Spotting mode, first letters also change with the language — a cat starts with \"C\" in English but \"K\" in German and \"G\" in Spanish. The Commercial tier supports English only; Full Access unlocks all 11 languages.',
     },
     {
       question: 'How does the configurable grid density work?',

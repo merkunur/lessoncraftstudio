@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Définir la mise en page',
         description:
-          'Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou toute dimension personnalisée. Sélectionnez une couleur de page, choisissez un thème de fond décoratif depuis la bibliothèque d\'images et ajustez son opacité, puis ajoutez un cadre de bordure assorti avec un contrôle d\'opacité indépendant. L\'en-tête auto-généré affiche un bandeau vert vif avec le titre « Exercice de Tracé de Lignes » et le sous-titre « Trace des lignes pour relier les images qui vont ensemble ! » — le tout localisé dans 11 langues. Une bordure extérieure corail et une bordure intérieure jaune soleil encadrent automatiquement la page.',
+          'Ouvrez le panneau Mise en Page et choisissez un format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré (1200×1200) ou toute dimension personnalisée. Sélectionnez une couleur de page, choisissez un thème de fond décoratif depuis la bibliothèque d\'images et ajustez son opacité, puis ajoutez un cadre de bordure assorti avec un contrôle d\'opacité indépendant. L\'en-tête auto-généré affiche un bandeau vert vif avec le titre \" Exercice de Tracé de Lignes \" et le sous-titre \" Trace des lignes pour relier les images qui vont ensemble ! \" — le tout localisé dans 11 langues. Une bordure extérieure corail et une bordure intérieure jaune soleil encadrent automatiquement la page.',
       },
       {
         title: 'Sélectionner un modèle de ligne',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'En-tête auto-généré localisé avec bordures de page vibrantes',
         description:
-          'Chaque fiche inclut un en-tête auto-généré avec un fond vert vif (#51CF66) et un titre vert forêt profond (#2D5016). Le titre par défaut « Exercice de Tracé de Lignes » et le sous-titre « Trace des lignes pour relier les images qui vont ensemble ! » sont localisés dans les 11 langues. Le mode portrait affiche un en-tête pleine largeur ; le mode paysage utilise un format compact centré. Une bordure extérieure corail (#FF6B6B, trait de 8px) et une bordure intérieure jaune soleil (#FFD93D, trait de 3px) encadrent chaque page avec des coins arrondis. Les éléments de l\'en-tête sont entièrement éditables — sélectionnez, déplacez et redimensionnez pour correspondre à votre marque.',
+          'Chaque fiche inclut un en-tête auto-généré avec un fond vert vif (#51CF66) et un titre vert forêt profond (#2D5016). Le titre par défaut \" Exercice de Tracé de Lignes \" et le sous-titre \" Trace des lignes pour relier les images qui vont ensemble ! \" sont localisés dans les 11 langues. Le mode portrait affiche un en-tête pleine largeur ; le mode paysage utilise un format compact centré. Une bordure extérieure corail (#FF6B6B, trait de 8px) et une bordure intérieure jaune soleil (#FFD93D, trait de 3px) encadrent chaque page avec des coins arrondis. Les éléments de l\'en-tête sont entièrement éditables — sélectionnez, déplacez et redimensionnez pour correspondre à votre marque.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI',

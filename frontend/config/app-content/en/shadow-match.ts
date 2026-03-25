@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Choose Exercise Mode and Configure Options',
         description:
-          'Open the Exercise Configuration panel and select your mode: Shadow Match or Make It Whole. Shadow Match generates black silhouettes from your selected images using pixel-level processing. Make It Whole splits images into halves — choose horizontal (top/bottom) or vertical (left/right) cut direction using the radio buttons that appear in this mode. Toggle the “Show Labels” checkbox (default ON) to display A/B/C/D and 1/2/3/4 identifiers on the worksheet. Toggle “Include Name/Date Fields” to add name and date lines.',
+          'Open the Exercise Configuration panel and select your mode: Shadow Match or Make It Whole. Shadow Match generates black silhouettes from your selected images using pixel-level processing. Make It Whole splits images into halves — choose horizontal (top/bottom) or vertical (left/right) cut direction using the radio buttons that appear in this mode. Toggle the \"Show Labels\" checkbox (default ON) to display A/B/C/D and 1/2/3/4 identifiers on the worksheet. Toggle \"Include Name/Date Fields\" to add name and date lines.',
       },
       {
         title: 'Select 4 Images from the Library',
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Generate the Shadow Match Worksheet',
         description:
-          'Click Generate to create the matching worksheet. In Shadow Match mode, the app processes each image at the pixel level — loading it to a canvas, extracting pixel data via getImageData, and converting every pixel with alpha > 10 to pure black (R=0, G=0, B=0, A=255) to produce accurate silhouettes. In Make It Whole mode, images are split along the chosen cut direction. Both modes apply Fisher-Yates derangement to guarantee no item appears in its original position. A styled header appears with an amber background (#FFC107), white pill container, and 3px amber border displaying “Shadow Match” and instructions in the selected language.',
+          'Click Generate to create the matching worksheet. In Shadow Match mode, the app processes each image at the pixel level — loading it to a canvas, extracting pixel data via getImageData, and converting every pixel with alpha > 10 to pure black (R=0, G=0, B=0, A=255) to produce accurate silhouettes. In Make It Whole mode, images are split along the chosen cut direction. Both modes apply Fisher-Yates derangement to guarantee no item appears in its original position. A styled header appears with an amber background (#FFC107), white pill container, and 3px amber border displaying \"Shadow Match\" and instructions in the selected language.',
       },
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the auto-generated answer key. In Shadow Match mode, each cell shows the original image alongside its silhouette with a label like “A → 2” indicating the correct match. In Make It Whole mode, each cell shows the complete original image with its match label. Download both versions using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
+          'Switch to the Answer Key tab to see the auto-generated answer key. In Shadow Match mode, each cell shows the original image alongside its silhouette with a label like \"A → 2\" indicating the correct match. In Make It Whole mode, each cell shows the complete original image with its match label. Download both versions using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Auto-Generated Answer Key with Letter-to-Number Match Labels',
         description:
-          'Every shadow match worksheet automatically generates a companion answer key on a separate canvas tab. The answer key uses a grid layout where each cell displays the original image alongside its silhouette or complete image, labeled with the correct match like “A → 2”. The grid uses 4 columns with 50px gap before the second row and 15px vertical spacing between elements. No manual answer key creation — the answer key stays synchronized with the worksheet. Download it separately as answer_key.jpeg or answer_key.pdf alongside the puzzle worksheet.',
+          'Every shadow match worksheet automatically generates a companion answer key on a separate canvas tab. The answer key uses a grid layout where each cell displays the original image alongside its silhouette or complete image, labeled with the correct match like \"A → 2\". The grid uses 4 columns with 50px gap before the second row and 15px vertical spacing between elements. No manual answer key creation — the answer key stays synchronized with the worksheet. Download it separately as answer_key.jpeg or answer_key.pdf alongside the puzzle worksheet.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Optional Labels and Name/Date Fields',
         description:
-          'Toggle the “Show Labels” checkbox (default ON) to display A, B, C, D identifiers on images or first halves and 1, 2, 3, 4 identifiers on silhouettes or second halves. When labels are hidden, the worksheet becomes a pure visual matching challenge without letter-number scaffolding — ideal for advanced activities or puzzle books where written answers aren\'t needed. The “Include Name/Date Fields” checkbox adds name and date lines at the bottom of the page for a polished, professional layout.',
+          'Toggle the \"Show Labels\" checkbox (default ON) to display A, B, C, D identifiers on images or first halves and 1, 2, 3, 4 identifiers on silhouettes or second halves. When labels are hidden, the worksheet becomes a pure visual matching challenge without letter-number scaffolding — ideal for advanced activities or puzzle books where written answers aren\'t needed. The \"Include Name/Date Fields\" checkbox adds name and date lines at the bottom of the page for a polished, professional layout.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'Can I toggle the A/B/C/D and 1/2/3/4 labels on and off?',
       answer:
-        'Yes. The “Show Labels” checkbox in the Exercise Configuration panel (default ON) controls whether A, B, C, D labels appear on images or first halves and 1, 2, 3, 4 labels appear on silhouettes or second halves. When labels are ON, solvers write letter-number pairs as answers. When labels are OFF, the worksheet becomes a pure visual matching challenge without alphanumeric scaffolding — useful for puzzle books or advanced activities.',
+        'Yes. The \"Show Labels\" checkbox in the Exercise Configuration panel (default ON) controls whether A, B, C, D labels appear on images or first halves and 1, 2, 3, 4 labels appear on silhouettes or second halves. When labels are ON, solvers write letter-number pairs as answers. When labels are OFF, the worksheet becomes a pure visual matching challenge without alphanumeric scaffolding — useful for puzzle books or advanced activities.',
     },
     {
       question: 'Why are there always exactly 4 problems per worksheet?',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'How do the name and date fields work?',
       answer:
-        'Toggle the “Include Name/Date Fields” checkbox in the Exercise Configuration panel to add name and date lines at the bottom of the worksheet. When enabled, the solver can write their name and the date directly on the printed page — adds perceived value and a polished look to your product. When disabled, the worksheet uses the full page area for matching content. This option works with both Shadow Match and Make It Whole modes.',
+        'Toggle the \"Include Name/Date Fields\" checkbox in the Exercise Configuration panel to add name and date lines at the bottom of the worksheet. When enabled, the solver can write their name and the date directly on the printed page — adds perceived value and a polished look to your product. When disabled, the worksheet uses the full page area for matching content. This option works with both Shadow Match and Make It Whole modes.',
     },
     {
       question: 'How does the auto-generated answer key work?',
       answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. In Shadow Match mode, the answer key shows a grid where each cell displays the original image alongside its silhouette with a label like “A → 2”. In Make It Whole mode, each cell shows the complete original image with its match label. The grid uses 4 columns with consistent spacing. Both versions export separately using four dedicated download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
+        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. In Shadow Match mode, the answer key shows a grid where each cell displays the original image alongside its silhouette with a label like \"A → 2\". In Make It Whole mode, each cell shows the complete original image with its match label. The grid uses 4 columns with consistent spacing. Both versions export separately using four dedicated download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
     },
     {
       question: 'Is there a free trial?',

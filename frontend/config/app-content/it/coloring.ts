@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi testo, strumenti per il negozio e disegni a mano libera',
         description:
-          'Usa il pannello Strumenti di Testo per aggiungere titoli, istruzioni o etichette con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la dimensione del font, il colore e la larghezza del contorno del testo (da 0 a 10 con granularità di 0,5) per la massima leggibilità. Clicca sugli Strumenti per il negozio per aggiungere un campo nome («Nome: ____») o righe di pratica di scrittura con un solo clic. Passa allo Strumento di Disegno per disegnare illustrazioni a mano libera direttamente sul canvas — scegli un colore del pennello e regola la dimensione del pennello da 1 a 50 pixel.',
+          'Usa il pannello Strumenti di Testo per aggiungere titoli, istruzioni o etichette con font come Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Regola la dimensione del font, il colore e la larghezza del contorno del testo (da 0 a 10 con granularità di 0,5) per la massima leggibilità. Clicca sugli Strumenti per il negozio per aggiungere un campo nome (\"Nome: ____\") o righe di pratica di scrittura con un solo clic. Passa allo Strumento di Disegno per disegnare illustrazioni a mano libera direttamente sul canvas — scegli un colore del pennello e regola la dimensione del pennello da 1 a 50 pixel.',
       },
       {
         title: 'Attiva la scala di grigi e scarica',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Strumenti per il negozio: campo nome e righe di scrittura',
         description:
-          'Due strumenti per il negozio con un solo clic trasformano le pagine da colorare in attività pronte per il negozio. Il pulsante Campo Nome aggiunge un blocco di testo formattato «Nome: ____________________» posizionato in alto nella pagina — gli utenti scrivono il loro nome prima di iniziare. Il pulsante Righe di Scrittura aggiunge un gruppo di tre righe uniformemente spaziate (continua, tratteggiata, continua) nella parte inferiore della pagina per la pratica di scrittura. Insieme, questi strumenti rendono le tue schede da colorare pronte per il negozio senza formattazione manuale del testo. I venditori Gumroad possono evidenziare queste funzionalità come differenziazione integrata rispetto alle pagine da colorare generiche.',
+          'Due strumenti per il negozio con un solo clic trasformano le pagine da colorare in attività pronte per il negozio. Il pulsante Campo Nome aggiunge un blocco di testo formattato \"Nome: ____________________\" posizionato in alto nella pagina — gli utenti scrivono il loro nome prima di iniziare. Il pulsante Righe di Scrittura aggiunge un gruppo di tre righe uniformemente spaziate (continua, tratteggiata, continua) nella parte inferiore della pagina per la pratica di scrittura. Insieme, questi strumenti rendono le tue schede da colorare pronte per il negozio senza formattazione manuale del testo. I venditori Gumroad possono evidenziare queste funzionalità come differenziazione integrata rispetto alle pagine da colorare generiche.',
       },
       {
         title: 'Esportazione in scala di grigi per pagine da colorare economiche in inchiostro',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Cosa sono gli strumenti per il negozio e come si usano?',
       answer:
-        'Due pulsanti con un solo clic nel pannello Strumenti per il negozio. Il pulsante Campo Nome aggiunge un blocco di testo formattato «Nome: ____________________» vicino alla parte superiore della pagina. Il pulsante Righe di Scrittura aggiunge un gruppo di tre righe uniformemente spaziate (continua, tratteggiata, continua) vicino alla parte inferiore della pagina per la pratica di scrittura. Entrambi gli strumenti creano oggetti standard del canvas che puoi riposizionare, ridimensionare o eliminare come qualsiasi altro elemento.',
+        'Due pulsanti con un solo clic nel pannello Strumenti per il negozio. Il pulsante Campo Nome aggiunge un blocco di testo formattato \"Nome: ____________________\" vicino alla parte superiore della pagina. Il pulsante Righe di Scrittura aggiunge un gruppo di tre righe uniformemente spaziate (continua, tratteggiata, continua) vicino alla parte inferiore della pagina per la pratica di scrittura. Entrambi gli strumenti creano oggetti standard del canvas che puoi riposizionare, ridimensionare o eliminare come qualsiasi altro elemento.',
     },
     {
       question: 'Come funziona l\'esportazione in scala di grigi?',

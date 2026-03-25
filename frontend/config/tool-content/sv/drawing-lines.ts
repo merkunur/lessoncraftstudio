@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Rita Linjer Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Ställ in sidlayout och bakgrund',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text och växla namn/datum-fält',
-        description: 'Använd panelen Textverktyg för att lägga till en arbetsblads-titel, instruktioner eller dekorativ text. Välj bland typsnitt som Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand. Växla namn- och datumfält för identifieringsområden. Den autogenererade rubriken visar en livfull grön banner med «Rita Linjer Övning» lokaliserad på alla 11 stödda språk.',
+        description: 'Använd panelen Textverktyg för att lägga till en arbetsblads-titel, instruktioner eller dekorativ text. Välj bland typsnitt som Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito och Quicksand. Växla namn- och datumfält för identifieringsområden. Den autogenererade rubriken visar en livfull grön banner med \"Rita Linjer Övning\" lokaliserad på alla 11 stödda språk.',
       },
       {
         title: 'Förhandsgranska och justera linjesvårighet',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Förskrivnings handskriftsberedskapsset',
-      description: 'Bygg linjespårnings arbetsblad specifikt designade som förskrivningsförberedelse. Horisontella linjer övar vänster-till-höger spårningsriktningen som används vid läsning och skrivning. Vertikala linjer utvecklar uppifrån-och-ner strecken som är väsentliga för bokstavsformation. Kurvor efterliknar de rundade rörelserna som behövs för bokstäver som c, o, s och e. Diagonaler bygger de vinklade strecken som används i bokstäver som k, v och z. Paketera dessa som «Handskriftsberedskap»-paket.',
+      description: 'Bygg linjespårnings arbetsblad specifikt designade som förskrivningsförberedelse. Horisontella linjer övar vänster-till-höger spårningsriktningen som används vid läsning och skrivning. Vertikala linjer utvecklar uppifrån-och-ner strecken som är väsentliga för bokstavsformation. Kurvor efterliknar de rundade rörelserna som behövs för bokstäver som c, o, s och e. Diagonaler bygger de vinklade strecken som används i bokstäver som k, v och z. Paketera dessa som \"Handskriftsberedskap\"-paket.',
     },
     {
       title: 'Tematiska bildpar matchningsaktivitetsset',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP linjespårning arbetsboksserie',
-      description: 'Sammanställ 80+ linjespårningsövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression: «Nybörjar Linjespårning» täcker horisontella och vertikala mallar. «Mellannivå Linjespårning» introducerar alla fyra kurvvarianter. «Avancerad Linjespårning» presenterar diagonala mallar blandade med kurvor. De färgglada bilderna skrivs ut livfullt. Det textfria formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
+      description: 'Sammanställ 80+ linjespårningsövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression: \"Nybörjar Linjespårning\" täcker horisontella och vertikala mallar. \"Mellannivå Linjespårning\" introducerar alla fyra kurvvarianter. \"Avancerad Linjespårning\" presenterar diagonala mallar blandade med kurvor. De färgglada bilderna skrivs ut livfullt. Det textfria formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
       platform: 'Amazon KDP',
     },
     {

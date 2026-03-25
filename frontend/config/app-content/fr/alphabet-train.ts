@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Le générateur crée-t-il des corrigés automatiquement ?',
       answer:
-        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue montrant chaque wagon avec son association lettre-image correcte et tous les indices résolus. Vous pouvez le prévisualiser à l\'écran et le télécharger en fichier JPEG ou PDF séparé à inclure dans les éditions vendeurs ou les packs produits. Disposer d\'un corrigé prêt à l\'emploi ajoute de la valeur perçue à vos annonces et vous permet d\'indiquer « corrigé inclus » — un détail que les acheteurs Etsy et Gumroad filtrent spécifiquement lorsqu\'ils comparent les produits concurrents.',
+        'Oui. Cliquez sur le bouton Générer le Corrigé pour créer une version résolue montrant chaque wagon avec son association lettre-image correcte et tous les indices résolus. Vous pouvez le prévisualiser à l\'écran et le télécharger en fichier JPEG ou PDF séparé à inclure dans les éditions vendeurs ou les packs produits. Disposer d\'un corrigé prêt à l\'emploi ajoute de la valeur perçue à vos annonces et vous permet d\'indiquer \" corrigé inclus \" — un détail que les acheteurs Etsy et Gumroad filtrent spécifiquement lorsqu\'ils comparent les produits concurrents.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',

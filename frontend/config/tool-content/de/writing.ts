@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Schreibübungen-Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Handschrift-Übungsblättern.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Handschrift-Übungsblättern.',
       },
       {
         title: 'Seitenlayout und Vorlage festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierte Abmessungen. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft aus der 104-Themen-Bildbibliothek hinzu und wählen Sie einen dekorativen Rahmen mit unabhängiger Deckkraftsteuerung. Diese Layout-Entscheidungen verleihen Ihren Arbeitsblättern ein professionelles Erscheinungsbild, bevor Sie eine einzige Übungszeile hinzufügen.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierte Abmessungen. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft aus der 104-Themen-Bildbibliothek hinzu und wählen Sie einen dekorativen Rahmen mit unabhängiger Deckkraftsteuerung. Diese Layout-Entscheidungen verleihen Ihren Arbeitsblättern ein professionelles Erscheinungsbild, bevor Sie eine einzige Übungszeile hinzufügen.',
       },
       {
         title: 'Zeilen hinzufügen und Übungsmodus pro Zeile wählen',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Handschrift-Arbeitsbuch-Serie auf Amazon KDP',
-      description: 'Veröffentlichen Sie eine Serie von Handschrift-Arbeitsbüchern auf Amazon KDP, die jeweils eine bestimmte Phase abdecken: „Vorübungen für die Feinmotorik-Entwicklung“, „Druckbuchstaben mit Pfeil-Strichrichtung“, „Verblassendes Nachspuren zur Buchstabenübung“, „Schreibschrift für Einsteiger“. Jedes Buch umfasst 80–120 Seiten mit progressiver Schwierigkeitsstruktur. Nutzen Sie den Graustufen-Modus für geringere Druckkosten. Handschrift-Arbeitsbücher verkaufen sich ganzjährig konstant, und die drei Übungsmodi plus fünf Schriftstile bieten genug Vielfalt für eine Mehrbuch-Serie ohne sich wiederholende Inhalte.',
+      description: 'Veröffentlichen Sie eine Serie von Handschrift-Arbeitsbüchern auf Amazon KDP, die jeweils eine bestimmte Phase abdecken: \"Vorübungen für die Feinmotorik-Entwicklung\", \"Druckbuchstaben mit Pfeil-Strichrichtung\", \"Verblassendes Nachspuren zur Buchstabenübung\", \"Schreibschrift für Einsteiger\". Jedes Buch umfasst 80–120 Seiten mit progressiver Schwierigkeitsstruktur. Nutzen Sie den Graustufen-Modus für geringere Druckkosten. Handschrift-Arbeitsbücher verkaufen sich ganzjährig konstant, und die drei Übungsmodi plus fünf Schriftstile bieten genug Vielfalt für eine Mehrbuch-Serie ohne sich wiederholende Inhalte.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Schreibstationen-Ressourcen auf Gumroad',
-      description: 'Laden Sie gestufte Schreibübungspakete auf den Gumroad hoch, organisiert nach Modus und Schwierigkeitsstufe. Fügen Sie vier Stufen pro Thema hinzu, die die drei Übungsmodi plus Leere Linien als Differenzierungsachse nutzen. Verpacken Sie mit thematischer Bildintegration für Motivation. Die zeilenweise Unabhängigkeit ermöglicht Arbeitsblätter mit gemischten Modi, bei denen jede Zeile eine andere Fähigkeitsstufe anspricht — ein echtes Verkaufsargument, das vorlagenbasierte Wettbewerber nicht bieten können. Verkäufer suchen häufig nach „gestufte Schreibübungen“ und „Schreibstationen“ und zahlen Premiumpreise für Ressourcen, die mehrere Leistungsgruppen bedienen.',
+      description: 'Laden Sie gestufte Schreibübungspakete auf den Gumroad hoch, organisiert nach Modus und Schwierigkeitsstufe. Fügen Sie vier Stufen pro Thema hinzu, die die drei Übungsmodi plus Leere Linien als Differenzierungsachse nutzen. Verpacken Sie mit thematischer Bildintegration für Motivation. Die zeilenweise Unabhängigkeit ermöglicht Arbeitsblätter mit gemischten Modi, bei denen jede Zeile eine andere Fähigkeitsstufe anspricht — ein echtes Verkaufsargument, das vorlagenbasierte Wettbewerber nicht bieten können. Verkäufer suchen häufig nach \"gestufte Schreibübungen\" und \"Schreibstationen\" und zahlen Premiumpreise für Ressourcen, die mehrere Leistungsgruppen bedienen.',
       platform: 'Gumroad',
     },
     {
       title: 'Feinmotorik-Entwicklung-Nischen-Shop',
-      description: 'Erstellen Sie eine fokussierte Produktlinie rund um Vorübungen und frühe Handschrift-Entwicklung. Senkrechte Linien, waagerechte Linien, Kreise und Zickzacklinien sprechen Ergotherapeuten, Frühpädagogen und Eltern von Vorschulkindern an. Das ist eine eigenständige Käufergruppe im Vergleich zur Grundschul-Handschrift — sie suchen nach „Feinmotorik-Arbeitsblätter“ und „Vorübungen zum Schreiben“ statt nach „Buchstaben-Nachspuren“. Geringere Konkurrenz und eine engagierte Käuferbasis machen diese Nische mit weniger Produkten profitabel.',
+      description: 'Erstellen Sie eine fokussierte Produktlinie rund um Vorübungen und frühe Handschrift-Entwicklung. Senkrechte Linien, waagerechte Linien, Kreise und Zickzacklinien sprechen Ergotherapeuten, Frühpädagogen und Eltern von Vorschulkindern an. Das ist eine eigenständige Käufergruppe im Vergleich zur Grundschul-Handschrift — sie suchen nach \"Feinmotorik-Arbeitsblätter\" und \"Vorübungen zum Schreiben\" statt nach \"Buchstaben-Nachspuren\". Geringere Konkurrenz und eine engagierte Käuferbasis machen diese Nische mit weniger Produkten profitabel.',
       platform: 'Etsy.de',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit Vorübungen für junge Lernende beginnen',
-      description: 'Platzieren Sie Vorübungszeilen (senkrechte Linien, waagerechte Linien, Kreise, Zickzack) am Anfang von Arbeitsblättern für Vorschulkinder und Erstklasskässler. Diese Aufwärmübungen bauen Stiftgriff und motorische Kontrolle auf, bevor Nutzer mit der Buchstabenbildung beginnen. Vorübungen schaffen auch eine eigenständige Produktnische — vermarkten Sie sie separat als „Feinmotorik-Entwicklung“-Ressourcen, um Ergotherapeuten und Frühpädagogen zu erreichen.',
+      description: 'Platzieren Sie Vorübungszeilen (senkrechte Linien, waagerechte Linien, Kreise, Zickzack) am Anfang von Arbeitsblättern für Vorschulkinder und Erstklasskässler. Diese Aufwärmübungen bauen Stiftgriff und motorische Kontrolle auf, bevor Nutzer mit der Buchstabenbildung beginnen. Vorübungen schaffen auch eine eigenständige Produktnische — vermarkten Sie sie separat als \"Feinmotorik-Entwicklung\"-Ressourcen, um Ergotherapeuten und Frühpädagogen zu erreichen.',
     },
     {
       title: 'Graustufen für KDP und Shopdruck',

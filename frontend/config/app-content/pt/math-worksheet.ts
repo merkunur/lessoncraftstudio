@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Adicione texto, títulos e numeração dos puzzles',
         description:
-          'Use o painel de Ferramentas de Texto para adicionar um título à ficha, campos de nome e data do usuário, instruções ou qualquer texto personalizado. Escolha entre sete fontes, incluindo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Personalize a numeração dos puzzles com o seu próprio texto de etiqueta (por exemplo, «Puzzle», «Problema», «Desafio») e defina o número inicial. Use o canvas Fabric.js para arrastar, redimensionar e reposicionar cada elemento — com controlos de camadas, guias de alinhamento, bloquear/desbloquear e desfazer e refazer ilimitados.',
+          'Use o painel de Ferramentas de Texto para adicionar um título à ficha, campos de nome e data do usuário, instruções ou qualquer texto personalizado. Escolha entre sete fontes, incluindo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Personalize a numeração dos puzzles com o seu próprio texto de etiqueta (por exemplo, \"Puzzle\", \"Problema\", \"Desafio\") e defina o número inicial. Use o canvas Fabric.js para arrastar, redimensionar e reposicionar cada elemento — com controlos de camadas, guias de alinhamento, bloquear/desbloquear e desfazer e refazer ilimitados.',
       },
       {
         title: 'Gere o gabarito e descarregue',

@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Configura il layout della pagina',
         description:
-          'Apri il pannello Configurazione Pagina e scegli un formato: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o qualsiasi dimensione personalizzata. Seleziona un colore di pagina, scegli un tema decorativo di sfondo dalla libreria di immagini e regola l\'opacità, poi aggiungi una cornice coordinata con controllo di opacità indipendente. L\'intestazione autogenerata presenta un banner verde vivace con il titolo «Pratica di Tracciamento Linee» e il sottotitolo «Traccia le linee per collegare le immagini che corrispondono!» — entrambi localizzati in 11 lingue. Un bordo esterno corallo e un bordo interno giallo sole incorniciano automaticamente la pagina.',
+          'Apri il pannello Configurazione Pagina e scegli un formato: Lettera Verticale, Lettera Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato (1200×1200) o qualsiasi dimensione personalizzata. Seleziona un colore di pagina, scegli un tema decorativo di sfondo dalla libreria di immagini e regola l\'opacità, poi aggiungi una cornice coordinata con controllo di opacità indipendente. L\'intestazione autogenerata presenta un banner verde vivace con il titolo \"Pratica di Tracciamento Linee\" e il sottotitolo \"Traccia le linee per collegare le immagini che corrispondono!\" — entrambi localizzati in 11 lingue. Un bordo esterno corallo e un bordo interno giallo sole incorniciano automaticamente la pagina.',
       },
       {
         title: 'Seleziona un modello di linee',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Intestazione autogenerata localizzata con bordi di pagina vivaci',
         description:
-          'Ogni scheda include un\'intestazione autogenerata con uno sfondo verde vivace (#51CF66) e un titolo verde foresta intenso (#2D5016). Il titolo predefinito «Pratica di Tracciamento Linee» e il sottotitolo «Traccia le linee per collegare le immagini che corrispondono!» sono localizzati in tutte le 11 lingue. La modalità verticale presenta un\'intestazione a larghezza piena; la modalità orizzontale usa un formato compatto centrato. Un bordo esterno corallo (#FF6B6B, tratto 8px) e un bordo interno giallo sole (#FFD93D, tratto 3px) incorniciano ogni pagina con angoli arrotondati. Gli elementi dell\'intestazione sono completamente modificabili — seleziona, sposta e ridimensiona per adattarli al tuo marchio.',
+          'Ogni scheda include un\'intestazione autogenerata con uno sfondo verde vivace (#51CF66) e un titolo verde foresta intenso (#2D5016). Il titolo predefinito \"Pratica di Tracciamento Linee\" e il sottotitolo \"Traccia le linee per collegare le immagini che corrispondono!\" sono localizzati in tutte le 11 lingue. La modalità verticale presenta un\'intestazione a larghezza piena; la modalità orizzontale usa un formato compatto centrato. Un bordo esterno corallo (#FF6B6B, tratto 8px) e un bordo interno giallo sole (#FFD93D, tratto 3px) incorniciano ogni pagina con angoli arrotondati. Gli elementi dell\'intestazione sono completamente modificabili — seleziona, sposta e ridimensiona per adattarli al tuo marchio.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa a 300 DPI',

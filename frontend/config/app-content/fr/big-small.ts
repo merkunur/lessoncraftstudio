@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Corrigé généré automatiquement avec réponses mises en évidence',
         description:
-          'Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour chaque exercice de la fiche. Pour les questions de type « entoure », l\'image correcte est visuellement marquée. Pour les questions de numérotation, l\'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche, offrant aux acheteurs un produit complet. Inclure des corrigés augmente la valeur perçue et justifie des prix plus élevés sur Etsy et Gumroad — les acheteurs attendent des solutions vérifiées avec chaque produit de fiches.',
+          'Le corrigé généré automatiquement met en évidence et entoure les réponses correctes pour chaque exercice de la fiche. Pour les questions de type \" entoure \", l\'image correcte est visuellement marquée. Pour les questions de numérotation, l\'ordre correct de taille est affiché. Le corrigé se télécharge en fichier séparé accompagnant la fiche, offrant aux acheteurs un produit complet. Inclure des corrigés augmente la valeur perçue et justifie des prix plus élevés sur Etsy et Gumroad — les acheteurs attendent des solutions vérifiées avec chaque produit de fiches.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer à 300 DPI',

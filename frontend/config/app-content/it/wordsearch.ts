@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Foglio risposte con codice colori a 6 colori di evidenziazione',
         description:
-          'Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un\'identificazione visiva istantanea, facilitando l\'autoverifica da parte degli utenti o il valore percepito rapida da parte dei venditori. Il formato con codice colori è visivamente attraente e professionale — un passo avanti rispetto ai semplici fogli risposte con «cerchia la parola». Attiva l\'esportazione in scala di grigi quando necessiti di versioni economiche in inchiostro per la stampa in bianco e nero.',
+          'Il foglio risposte evidenzia ogni parola trovata in uno di sei colori alternati: rosa, blu, verde, oro, corallo e lavanda. Ogni parola riceve un colore distinto per un\'identificazione visiva istantanea, facilitando l\'autoverifica da parte degli utenti o il valore percepito rapida da parte dei venditori. Il formato con codice colori è visivamente attraente e professionale — un passo avanti rispetto ai semplici fogli risposte con \"cerchia la parola\". Attiva l\'esportazione in scala di grigi quando necessiti di versioni economiche in inchiostro per la stampa in bianco e nero.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa a oltre 400 DPI',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Prodotti cerca parole multilingue con Accesso Completo',
         description:
-          'L\'Accesso Completo sblocca tutte le 11 lingue, e poiché Cerca Parole è sensibile alla lingua, le parole nascoste E le lettere di riempimento della griglia cambiano in base alla lingua. «Dog» in inglese diventa «cane» in italiano in una griglia riempita con caratteri italiani come à, è, é, ì, ò, ù; «Hund» in tedesco in una griglia con ä, ö, ü; «chien» in francese in una griglia con é, è, ç, à. Ogni versione linguistica è un prodotto genuinamente diverso con parole diverse, lettere di riempimento diverse e un\'esperienza di risoluzione diversa. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy o libro KDP separato — undici flussi di entrate da un unico flusso di lavoro.',
+          'L\'Accesso Completo sblocca tutte le 11 lingue, e poiché Cerca Parole è sensibile alla lingua, le parole nascoste E le lettere di riempimento della griglia cambiano in base alla lingua. \"Dog\" in inglese diventa \"cane\" in italiano in una griglia riempita con caratteri italiani come à, è, é, ì, ò, ù; \"Hund\" in tedesco in una griglia con ä, ö, ü; \"chien\" in francese in una griglia con é, è, ç, à. Ogni versione linguistica è un prodotto genuinamente diverso con parole diverse, lettere di riempimento diverse e un\'esperienza di risoluzione diversa. Crea serie tematiche identiche in più lingue e pubblica ciascuna come prodotto Etsy o libro KDP separato — undici flussi di entrate da un unico flusso di lavoro.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Il generatore di Cerca Parole è sensibile alla lingua?',
       answer:
-        'Sì. Poiché le parole nascoste sono i nomi delle immagini nella lingua selezionata, cambiare lingua altera completamente il contenuto del puzzle. Inoltre, le lettere di riempimento della griglia cambiano per corrispondere al set di caratteri della lingua con frequenze ponderate appropriate. «Dog» in inglese diventa «cane» in italiano in una griglia con à, è, é, ì, ò, ù. La Licenza Commerciale è solo in inglese; l\'Accesso Completo sblocca tutte le 11 lingue, rendendo ogni versione linguistica un prodotto distinto con parole diverse e lettere di riempimento diverse.',
+        'Sì. Poiché le parole nascoste sono i nomi delle immagini nella lingua selezionata, cambiare lingua altera completamente il contenuto del puzzle. Inoltre, le lettere di riempimento della griglia cambiano per corrispondere al set di caratteri della lingua con frequenze ponderate appropriate. \"Dog\" in inglese diventa \"cane\" in italiano in una griglia con à, è, é, ì, ò, ù. La Licenza Commerciale è solo in inglese; l\'Accesso Completo sblocca tutte le 11 lingue, rendendo ogni versione linguistica un prodotto distinto con parole diverse e lettere di riempimento diverse.',
     },
     {
       question: 'È disponibile una prova gratuita?',

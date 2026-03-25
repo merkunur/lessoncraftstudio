@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Skrivövnings Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga skrivövnings arbetsblad omedelbart.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga skrivövnings arbetsblad omedelbart.',
       },
       {
         title: 'Ställ in sidlayout och mall',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP skrivövnings arbetsboksserie',
-      description: 'Publicera en serie skrivövnings arbetsböcker på Amazon KDP, var och en riktad mot ett specifikt stadium: «Förskrivningsstreck för Finmotorisk Utveckling», «Tryckbokstäver med Pilstreckordning», «Tonande Spårning Bokstavsövning», «Kursiv Skrivövning för Nybörjare». Varje bok använder 80–120 sidor med progressiv svårighetsstruktur. Använd gråskaleläge för lägre utskriftskostnader.',
+      description: 'Publicera en serie skrivövnings arbetsböcker på Amazon KDP, var och en riktad mot ett specifikt stadium: \"Förskrivningsstreck för Finmotorisk Utveckling\", \"Tryckbokstäver med Pilstreckordning\", \"Tonande Spårning Bokstavsövning\", \"Kursiv Skrivövning för Nybörjare\". Varje bok använder 80–120 sidor med progressiv svårighetsstruktur. Använd gråskaleläge för lägre utskriftskostnader.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Finmotorisk utveckling nischbutik',
-      description: 'Skapa en fokuserad produktlinje kring förskrivningsstreck och tidig skrivutveckling. Vertikala linjer, horisontella linjer, cirklar och sicksack-linjer riktar sig mot arbetsterapeuter, förskolesäljare och föräldrar till förskolebarn. Detta är en distinkt köpargrupp från grundskoleskrivning — de söker efter «finmotoriska arbetsblad» och «förskrivningsaktiviteter».',
+      description: 'Skapa en fokuserad produktlinje kring förskrivningsstreck och tidig skrivutveckling. Vertikala linjer, horisontella linjer, cirklar och sicksack-linjer riktar sig mot arbetsterapeuter, förskolesäljare och föräldrar till förskolebarn. Detta är en distinkt köpargrupp från grundskoleskrivning — de söker efter \"finmotoriska arbetsblad\" och \"förskrivningsaktiviteter\".',
       platform: 'Etsy',
     },
     {

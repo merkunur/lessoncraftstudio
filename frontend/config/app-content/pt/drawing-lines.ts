@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Configure o layout da página',
         description:
-          'Abra o painel de Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de página, escolha um tema decorativo de fundo a partir da biblioteca de imagens e ajuste a opacidade, depois adicione uma moldura de borda combinante com controlo de opacidade independente. O cabeçalho autogerado apresenta um banner verde vibrante com o título «Prática de Traçado de Linhas» e o subtítulo «Traça linhas para ligar as imagens que combinam!» — ambos localizados em 11 idiomas. Uma borda exterior coral e uma borda interior amarelo sol emolduram a página automaticamente.',
+          'Abra o painel de Configuração de Página e escolha um formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado (1200×1200) ou qualquer dimensão personalizada. Selecione uma cor de página, escolha um tema decorativo de fundo a partir da biblioteca de imagens e ajuste a opacidade, depois adicione uma moldura de borda combinante com controlo de opacidade independente. O cabeçalho autogerado apresenta um banner verde vibrante com o título \"Prática de Traçado de Linhas\" e o subtítulo \"Traça linhas para ligar as imagens que combinam!\" — ambos localizados em 11 idiomas. Uma borda exterior coral e uma borda interior amarelo sol emolduram a página automaticamente.',
       },
       {
         title: 'Selecione um modelo de linhas',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Cabeçalho autogerado localizado com bordas de página vibrantes',
         description:
-          'Cada ficha inclui um cabeçalho autogerado com um fundo verde vibrante (#51CF66) e um título verde floresta profundo (#2D5016). O título predefinido «Prática de Traçado de Linhas» e o subtítulo «Traça linhas para ligar as imagens que combinam!» estão localizados nos 11 idiomas. O modo vertical apresenta um cabeçalho de largura total; o modo horizontal usa um formato compacto centrado. Uma borda exterior coral (#FF6B6B, traço de 8px) e uma borda interior amarelo sol (#FFD93D, traço de 3px) emolduram cada página com cantos arredondados. Os elementos do cabeçalho são completamente editáveis — selecione, mova e redimensione para adaptar à sua marca.',
+          'Cada ficha inclui um cabeçalho autogerado com um fundo verde vibrante (#51CF66) e um título verde floresta profundo (#2D5016). O título predefinido \"Prática de Traçado de Linhas\" e o subtítulo \"Traça linhas para ligar as imagens que combinam!\" estão localizados nos 11 idiomas. O modo vertical apresenta um cabeçalho de largura total; o modo horizontal usa um formato compacto centrado. Uma borda exterior coral (#FF6B6B, traço de 8px) e uma borda interior amarelo sol (#FFD93D, traço de 3px) emolduram cada página com cantos arredondados. Os elementos do cabeçalho são completamente editáveis — selecione, mova e redimensione para adaptar à sua marca.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a 300 DPI',

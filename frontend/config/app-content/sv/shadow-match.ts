@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Välj övningsläge och konfigurera alternativ',
         description:
-          'Öppna panelen Övningskonfiguration och välj ditt läge: Skuggmatchning eller Gör Den Hel. Skuggmatchning genererar svarta siluetter från dina valda bilder med bildbearbetning på pixelnivå. Gör Den Hel delar bilder i halvor — välj horisontell (övre/undre) eller vertikal (vänster/höger) klippriktning med radioknapparna som visas i detta läge. Växla kryssrutan «Visa Etiketter» (standard PÅ) för att visa A/B/C/D och 1/2/3/4 identifierare på arbetsbladet. Växla «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer.',
+          'Öppna panelen Övningskonfiguration och välj ditt läge: Skuggmatchning eller Gör Den Hel. Skuggmatchning genererar svarta siluetter från dina valda bilder med bildbearbetning på pixelnivå. Gör Den Hel delar bilder i halvor — välj horisontell (övre/undre) eller vertikal (vänster/höger) klippriktning med radioknapparna som visas i detta läge. Växla kryssrutan \"Visa Etiketter\" (standard PÅ) för att visa A/B/C/D och 1/2/3/4 identifierare på arbetsbladet. Växla \"Inkludera Namn/Datum-fält\" för att lägga till namn och datumlinjer.',
       },
       {
         title: 'Välj 4 bilder från biblioteket',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Generera skuggmatchnings arbetsbladet',
         description:
-          'Klicka på Generera för att skapa matchningsarbetsbladet. I Skuggmatchning-läget bearbetar appen varje bild på pixelnivå — laddar den till en arbetsyta, extraherar pixeldata via getImageData och konverterar varje pixel med alfa > 10 till rent svart (R=0, G=0, B=0, A=255) för att producera korrekta siluetter. I Gör Den Hel-läget delas bilderna längs den valda klippriktningen. Båda lägena tillämpar Fisher-Yates-derangering för att garantera att inget objekt visas i sin ursprungliga position. En stiliserad rubrik visas med bärnstensfärgad bakgrund (#FFC107), vit pillercontainer och 3px bärnstensfärgad ram som visar «Skuggmatchning» och instruktioner på det valda språket.',
+          'Klicka på Generera för att skapa matchningsarbetsbladet. I Skuggmatchning-läget bearbetar appen varje bild på pixelnivå — laddar den till en arbetsyta, extraherar pixeldata via getImageData och konverterar varje pixel med alfa > 10 till rent svart (R=0, G=0, B=0, A=255) för att producera korrekta siluetter. I Gör Den Hel-läget delas bilderna längs den valda klippriktningen. Båda lägena tillämpar Fisher-Yates-derangering för att garantera att inget objekt visas i sin ursprungliga position. En stiliserad rubrik visas med bärnstensfärgad bakgrund (#FFC107), vit pillercontainer och 3px bärnstensfärgad ram som visar \"Skuggmatchning\" och instruktioner på det valda språket.',
       },
       {
         title: 'Generera facit och ladda ner',
         description:
-          'Växla till fliken Facit för att se det automatiskt genererade facit. I Skuggmatchning-läget visar varje cell originalbilden bredvid dess siluett med en etikett som «A → 2» som anger den korrekta matchningen. I Gör Den Hel-läget visar varje cell den kompletta originalbilden med sin matchningsetikett. Ladda ner båda versionerna med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
+          'Växla till fliken Facit för att se det automatiskt genererade facit. I Skuggmatchning-läget visar varje cell originalbilden bredvid dess siluett med en etikett som \"A → 2\" som anger den korrekta matchningen. I Gör Den Hel-läget visar varje cell den kompletta originalbilden med sin matchningsetikett. Ladda ner båda versionerna med fyra dedikerade knappar: Arbetsblad-JPEG, Facit-JPEG, Arbetsblad-PDF och Facit-PDF med 300 DPI. Växla gråskala för bläckvänliga versioner. Varje export är produktionsklar för Etsy-annonser, Amazon KDP-interiörer och Gumroad-produktfiler.',
       },
     ],
   },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Automatiskt genererat facit med bokstav-till-nummer matchningsetiketter',
         description:
-          'Varje skuggmatchnings arbetsblad genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit använder en rutnätslayout där varje cell visar originalbilden bredvid dess siluett eller kompletta bild, märkt med den korrekta matchningen som «A → 2». Rutnätet använder 4 kolumner med 50px mellanrum före den andra raden och 15px vertikalt avstånd mellan element. Inget manuellt facitskapande — facit förblir synkroniserat med arbetsbladet. Ladda ner det separat som answer_key.jpeg eller answer_key.pdf bredvid arbetsbladet.',
+          'Varje skuggmatchnings arbetsblad genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit använder en rutnätslayout där varje cell visar originalbilden bredvid dess siluett eller kompletta bild, märkt med den korrekta matchningen som \"A → 2\". Rutnätet använder 4 kolumner med 50px mellanrum före den andra raden och 15px vertikalt avstånd mellan element. Inget manuellt facitskapande — facit förblir synkroniserat med arbetsbladet. Ladda ner det separat som answer_key.jpeg eller answer_key.pdf bredvid arbetsbladet.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Valfria etiketter och namn/datum namnfält',
         description:
-          'Växla kryssrutan «Visa Etiketter» (standard PÅ) för att visa A, B, C, D identifierare på bilder eller första halvor och 1, 2, 3, 4 identifierare på siluetter eller andra halvor. När etiketterna är dolda blir arbetsbladet en ren visuell matchningsutmaning utan bokstavs-/sifferstöd — idealiskt för avancerade aktiviteter eller pusselböcker där skriftliga svar inte behövs. Kryssrutan «Inkludera Namn/Datum-fält» lägger till namn och datumlinjer längst ner på sidan för produktlinjesansvar och organisation.',
+          'Växla kryssrutan \"Visa Etiketter\" (standard PÅ) för att visa A, B, C, D identifierare på bilder eller första halvor och 1, 2, 3, 4 identifierare på siluetter eller andra halvor. När etiketterna är dolda blir arbetsbladet en ren visuell matchningsutmaning utan bokstavs-/sifferstöd — idealiskt för avancerade aktiviteter eller pusselböcker där skriftliga svar inte behövs. Kryssrutan \"Inkludera Namn/Datum-fält\" lägger till namn och datumlinjer längst ner på sidan för produktlinjesansvar och organisation.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Kan jag växla A/B/C/D och 1/2/3/4 etiketterna på och av?',
       answer:
-        'Ja. Kryssrutan «Visa Etiketter» i panelen Övningskonfiguration (standard PÅ) kontrollerar om A, B, C, D etiketter visas på bilder eller första halvor och 1, 2, 3, 4 etiketter visas på siluetter eller andra halvor. När etiketterna är PÅ skriver användarna bokstav-nummer-par som svar. När etiketterna är AV blir arbetsbladet en ren visuell matchningsutmaning utan alfanumeriskt stöd — användbart för pusselböcker eller avancerade aktiviteter.',
+        'Ja. Kryssrutan \"Visa Etiketter\" i panelen Övningskonfiguration (standard PÅ) kontrollerar om A, B, C, D etiketter visas på bilder eller första halvor och 1, 2, 3, 4 etiketter visas på siluetter eller andra halvor. När etiketterna är PÅ skriver användarna bokstav-nummer-par som svar. När etiketterna är AV blir arbetsbladet en ren visuell matchningsutmaning utan alfanumeriskt stöd — användbart för pusselböcker eller avancerade aktiviteter.',
     },
     {
       question: 'Varför finns det alltid exakt 4 uppgifter per arbetsblad?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Hur fungerar namn- och datumfälten?',
       answer:
-        'Växla kryssrutan «Inkludera Namn/Datum-fält» i panelen Övningskonfiguration för att lägga till namn och datumlinjer längst ner på arbetsbladet. När aktiverat kan användarna skriva sitt namn och datum direkt på den utskrivna sidan — väsentligt för produktlinjesansvar och organiserad bedömning. När avaktiverat använder arbetsbladet hela sidytan för matchningsinnehåll. Detta alternativ fungerar med både Skuggmatchning och Gör Den Hel-lägen.',
+        'Växla kryssrutan \"Inkludera Namn/Datum-fält\" i panelen Övningskonfiguration för att lägga till namn och datumlinjer längst ner på arbetsbladet. När aktiverat kan användarna skriva sitt namn och datum direkt på den utskrivna sidan — väsentligt för produktlinjesansvar och organiserad bedömning. När avaktiverat använder arbetsbladet hela sidytan för matchningsinnehåll. Detta alternativ fungerar med både Skuggmatchning och Gör Den Hel-lägen.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
       answer:
-        'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. I Skuggmatchning-läget visar facit ett rutnät där varje cell visar originalbilden bredvid dess siluett med en etikett som «A → 2». I Gör Den Hel-läget visar varje cell den kompletta originalbilden med sin matchningsetikett. Rutnätet använder 4 kolumner med konsekvent avstånd. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF.',
+        'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik och en Facitflik. I Skuggmatchning-läget visar facit ett rutnät där varje cell visar originalbilden bredvid dess siluett med en etikett som \"A → 2\". I Gör Den Hel-läget visar varje cell den kompletta originalbilden med sin matchningsetikett. Rutnätet använder 4 kolumner med konsekvent avstånd. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF.',
     },
     {
       question: 'Finns det en gratis provversion?',

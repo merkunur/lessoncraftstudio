@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Fichas de Padrões',
-        description: 'Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de reconhecimento de padrões imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de reconhecimento de padrões imediatamente.',
       },
       {
         title: 'Configurar o Layout da Página e o Fundo',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Sazonais e de Festividades de Padrões',
-      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de padrões de edição limitada. Um pacote de «Padrões de Halloween» com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no Gumroad. Combine aquecimentos simples de AB com desafios avançados de ABCD em cada conjunto sazonal para cobrir múltiplos níveis de competência. Dois modos de pergunta multiplicam a variedade dentro de cada tema.',
+      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de padrões de edição limitada. Um pacote de \"Padrões de Halloween\" com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no Gumroad. Combine aquecimentos simples de AB com desafios avançados de ABCD em cada conjunto sazonal para cobrir múltiplos níveis de competência. Dois modos de pergunta multiplicam a variedade dentro de cada tema.',
     },
     {
       title: 'Pacotes de Aprendizagem Visual Multiformato',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Padrões para Amazon KDP',
-      description: 'Compile mais de 80 exercícios de padrões em cadernos temáticos para Amazon KDP. Estruture uma série por progressão: «Padrões para Principiantes» cobre AB até ABB em modo caixa em branco. «Padrões Intermédios» introduz ABC e AABB com ambos os modos de pergunta. «Padrões Avançados» apresenta ABBC até ABCD com início aleatório e posição aleatória do espaço em branco. Gabaritos no final de cada livro. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução, maximizando o seu alcance geográfico a partir de um único interior.',
+      description: 'Compile mais de 80 exercícios de padrões em cadernos temáticos para Amazon KDP. Estruture uma série por progressão: \"Padrões para Principiantes\" cobre AB até ABB em modo caixa em branco. \"Padrões Intermédios\" introduz ABC e AABB com ambos os modos de pergunta. \"Padrões Avançados\" apresenta ABBC até ABCD com início aleatório e posição aleatória do espaço em branco. Gabaritos no final de cada livro. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução, maximizando o seu alcance geográfico a partir de um único interior.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros por Níveis no Gumroad',
-      description: 'Carregue pacotes de fichas de padrões no Gumroad organizados por nível de competência usando a configuração por exercício como diferenciador. As páginas do Nível 1 apresentam todos os exercícios AB em caixa em branco. O Nível 2 mistura AB e AAB com ambos os modos. O Nível 3 introduz ABC com escolha múltipla junto a aquecimentos em caixa em branco. O Nível 4 combina desafios ABCD com início aleatório. Cada nível usa exercícios temáticos com gabaritos separados. A independência por exercício significa que uma página serve como atividade completa de centro. Os vendedores procuram «fichas de reconhecimento de padrões» e encontram opções limitadas com nove tipos.',
+      description: 'Carregue pacotes de fichas de padrões no Gumroad organizados por nível de competência usando a configuração por exercício como diferenciador. As páginas do Nível 1 apresentam todos os exercícios AB em caixa em branco. O Nível 2 mistura AB e AAB com ambos os modos. O Nível 3 introduz ABC com escolha múltipla junto a aquecimentos em caixa em branco. O Nível 4 combina desafios ABCD com início aleatório. Cada nível usa exercícios temáticos com gabaritos separados. A independência por exercício significa que uma página serve como atividade completa de centro. Os vendedores procuram \"fichas de reconhecimento de padrões\" e encontram opções limitadas com nove tipos.',
       platform: 'Gumroad',
     },
     {
       title: 'Funil Visual de Fichas de Padrões no Pinterest',
-      description: 'As fichas de padrões com imagens temáticas coloridas num layout de grelha limpo são excelentes pins para o Pinterest. Publique fichas de exemplo mostrando diferentes tipos de padrões com marca d\'água, faça ligação à sua loja ou página de destino e recolha endereços de email para a sua lista de subscritores. Crie pins para cada modo de pergunta separadamente — «fichas de padrões para completar» e «fichas de padrões de escolha múltipla» apontam a pesquisas diferentes. O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
+      description: 'As fichas de padrões com imagens temáticas coloridas num layout de grelha limpo são excelentes pins para o Pinterest. Publique fichas de exemplo mostrando diferentes tipos de padrões com marca d\'água, faça ligação à sua loja ou página de destino e recolha endereços de email para a sua lista de subscritores. Crie pins para cada modo de pergunta separadamente — \"fichas de padrões para completar\" e \"fichas de padrões de escolha múltipla\" apontam a pesquisas diferentes. O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Diferencie o Formato de Grelha do Formato de Trem',
-      description: 'As Fichas de Padrões (grelha) e o Trem de Padrões (vagões de trem) produzem formatos visuais completamente diferentes para a mesma competência. Venda ambos os formatos separadamente ou combine-os como um «Pacote Completo de Reconhecimento de Padrões». Nas descrições dos seus produtos, indique claramente «linhas e colunas em grelha» face a «layout único de trem de 11 vagões» para que os compradores entendam que recebem dois tipos de atividade distintos, não duplicados.',
+      description: 'As Fichas de Padrões (grelha) e o Trem de Padrões (vagões de trem) produzem formatos visuais completamente diferentes para a mesma competência. Venda ambos os formatos separadamente ou combine-os como um \"Pacote Completo de Reconhecimento de Padrões\". Nas descrições dos seus produtos, indique claramente \"linhas e colunas em grelha\" face a \"layout único de trem de 11 vagões\" para que os compradores entendam que recebem dois tipos de atividade distintos, não duplicados.',
     },
     {
       title: 'Ative Início Aleatório e Posição Aleatória para Fichas Únicas',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Destaque o Resultado Sem Texto para Vendas Globais',
-      description: 'As fichas de padrões contêm zero texto na saída — apenas imagens em filas de grelha. Esta é a sua maior vantagem competitiva para listagens em marketplaces. Indique explicitamente «não precisa de tradução — funciona em todo o mundo» em cada descrição de produto. Compradores de qualquer país podem comprar sem se preocupar com a compatibilidade de idioma. Um único ficheiro de produto serve todos os mercados.',
+      description: 'As fichas de padrões contêm zero texto na saída — apenas imagens em filas de grelha. Esta é a sua maior vantagem competitiva para listagens em marketplaces. Indique explicitamente \"não precisa de tradução — funciona em todo o mundo\" em cada descrição de produto. Compradores de qualquer país podem comprar sem se preocupar com a compatibilidade de idioma. Um único ficheiro de produto serve todos os mercados.',
     },
     {
       title: 'Ajuste a Complexidade do Padrão à Idade Alvo',

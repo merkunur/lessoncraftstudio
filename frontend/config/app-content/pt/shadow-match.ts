@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Escolha o Modo de Exercício e Configure as Opções',
         description:
-          'Abra o painel Configuração do Exercício e selecione o seu modo: Associação de Sombras ou Complete a Imagem. O modo Associação de Sombras gera siluetas negras a partir das suas imagens selecionadas mediante processamento a nível de píxel. O modo Complete a Imagem divide as imagens em metades — escolha a direção de corte horizontal (cima/baixo) ou vertical (esquerda/direita) com os botões de rádio que aparecem neste modo. Ative ou desative a caixa «Mostrar Etiquetas» (ativa por predefinição) para mostrar os identificadores A/B/C/D e 1/2/3/4 na ficha. Ative «Incluir Campos Nome/Data» para adicionar linhas de nome e data para os usuários.',
+          'Abra o painel Configuração do Exercício e selecione o seu modo: Associação de Sombras ou Complete a Imagem. O modo Associação de Sombras gera siluetas negras a partir das suas imagens selecionadas mediante processamento a nível de píxel. O modo Complete a Imagem divide as imagens em metades — escolha a direção de corte horizontal (cima/baixo) ou vertical (esquerda/direita) com os botões de rádio que aparecem neste modo. Ative ou desative a caixa \"Mostrar Etiquetas\" (ativa por predefinição) para mostrar os identificadores A/B/C/D e 1/2/3/4 na ficha. Ative \"Incluir Campos Nome/Data\" para adicionar linhas de nome e data para os usuários.',
       },
       {
         title: 'Selecione 4 Imagens da Biblioteca',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Gere a Ficha de Associação de Sombras',
         description:
-          'Clique em Gerar para criar a ficha de correspondência. No modo Associação de Sombras, a aplicação processa cada imagem a nível de píxel — carrega-a num canvas, extrai os dados de píxeis via getImageData e converte cada píxel com alpha > 10 em preto puro (R=0, G=0, B=0, A=255) para produzir siluetas precisas. No modo Complete a Imagem, as imagens são divididas conforme a direção de corte escolhida. Ambos os modos aplicam um derangement Fisher-Yates para garantir que nenhum elemento aparece na sua posição original. Um cabeçalho estilizado aparece com fundo âmbar (#FFC107), contentor branco em forma de cápsula e borda âmbar de 3 px mostrando «Associação de Sombras» e instruções no idioma selecionado.',
+          'Clique em Gerar para criar a ficha de correspondência. No modo Associação de Sombras, a aplicação processa cada imagem a nível de píxel — carrega-a num canvas, extrai os dados de píxeis via getImageData e converte cada píxel com alpha > 10 em preto puro (R=0, G=0, B=0, A=255) para produzir siluetas precisas. No modo Complete a Imagem, as imagens são divididas conforme a direção de corte escolhida. Ambos os modos aplicam um derangement Fisher-Yates para garantir que nenhum elemento aparece na sua posição original. Um cabeçalho estilizado aparece com fundo âmbar (#FFC107), contentor branco em forma de cápsula e borda âmbar de 3 px mostrando \"Associação de Sombras\" e instruções no idioma selecionado.',
       },
       {
         title: 'Gere o Gabarito e Descarregue',
         description:
-          'Mude para o separador Gabarito para ver o gabarito autogerado. No modo Associação de Sombras, cada célula mostra a imagem original junto à sua silueta com uma etiqueta como «A → 2» indicando a correspondência correta. No modo Complete a Imagem, cada célula mostra a imagem original completa com a sua etiqueta de correspondência. Descarregue ambas as versões com os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF a 300 DPI. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
+          'Mude para o separador Gabarito para ver o gabarito autogerado. No modo Associação de Sombras, cada célula mostra a imagem original junto à sua silueta com uma etiqueta como \"A → 2\" indicando a correspondência correta. No modo Complete a Imagem, cada célula mostra a imagem original completa com a sua etiqueta de correspondência. Descarregue ambas as versões com os quatro botões dedicados: Ficha JPEG, Gabarito JPEG, Ficha PDF e Gabarito PDF a 300 DPI. Ative a escala de cinzentos para versões económicas em tinta. Cada exportação está pronta para produção: listagens da Etsy, interiores da Amazon KDP e ficheiros de produtos Gumroad.',
       },
     ],
   },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Gabarito Autogerado com Etiquetas de Correspondência Letra-Número',
         description:
-          'Cada ficha de associação de sombras gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito usa um layout de grelha onde cada célula mostra a imagem original junto à sua silueta ou imagem completa, etiquetada com a correspondência correta como «A → 2». A grelha usa 4 colunas com um espaço de 50 px antes da segunda linha e 15 px de espaçamento vertical entre elementos. Sem criação manual de gabarito — o gabarito mantém-se sincronizado com a ficha. Descarregue-o separadamente como answer_key.jpeg ou answer_key.pdf junto à ficha do usuário.',
+          'Cada ficha de associação de sombras gera automaticamente um gabarito complementar num separador de canvas separado. O gabarito usa um layout de grelha onde cada célula mostra a imagem original junto à sua silueta ou imagem completa, etiquetada com a correspondência correta como \"A → 2\". A grelha usa 4 colunas com um espaço de 50 px antes da segunda linha e 15 px de espaçamento vertical entre elementos. Sem criação manual de gabarito — o gabarito mantém-se sincronizado com a ficha. Descarregue-o separadamente como answer_key.jpeg ou answer_key.pdf junto à ficha do usuário.',
       },
       {
         title: 'Biblioteca de Imagens com 104 Coleções Temáticas e Mais de 3100 Ilustrações',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Etiquetas Opcionais e Campos Nome/Data para usuários',
         description:
-          'Ative ou desative a caixa «Mostrar Etiquetas» (ativa por predefinição) para mostrar os identificadores A, B, C, D nas imagens ou primeiras metades e 1, 2, 3, 4 nas siluetas ou segundas metades. Quando as etiquetas estão ocultas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — ideal para atividades avançadas ou cadernos de puzzles onde não são necessárias respostas escritas. A caixa «Incluir Campos Nome/Data» adiciona linhas de nome e data na parte inferior da página para responsabilidade e organização online.',
+          'Ative ou desative a caixa \"Mostrar Etiquetas\" (ativa por predefinição) para mostrar os identificadores A, B, C, D nas imagens ou primeiras metades e 1, 2, 3, 4 nas siluetas ou segundas metades. Quando as etiquetas estão ocultas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — ideal para atividades avançadas ou cadernos de puzzles onde não são necessárias respostas escritas. A caixa \"Incluir Campos Nome/Data\" adiciona linhas de nome e data na parte inferior da página para responsabilidade e organização online.',
       },
       {
         title: 'Exportação PDF e JPEG Pronta para Impressão a 300 DPI com Modo Escala de Cinzentos',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Posso ativar ou desativar as etiquetas A/B/C/D e 1/2/3/4?',
       answer:
-        'Sim. A caixa «Mostrar Etiquetas» no painel Configuração do Exercício (ativa por predefinição) controla se as etiquetas A, B, C, D aparecem nas imagens ou primeiras metades e se as etiquetas 1, 2, 3, 4 aparecem nas siluetas ou segundas metades. Quando as etiquetas estão ativas, os usuários escrevem pares letra-número como respostas. Quando as etiquetas estão desativas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — útil para cadernos de puzzles ou atividades avançadas.',
+        'Sim. A caixa \"Mostrar Etiquetas\" no painel Configuração do Exercício (ativa por predefinição) controla se as etiquetas A, B, C, D aparecem nas imagens ou primeiras metades e se as etiquetas 1, 2, 3, 4 aparecem nas siluetas ou segundas metades. Quando as etiquetas estão ativas, os usuários escrevem pares letra-número como respostas. Quando as etiquetas estão desativas, a ficha torna-se um desafio de correspondência puramente visual sem apoio alfanumérico — útil para cadernos de puzzles ou atividades avançadas.',
     },
     {
       question: 'Por que há sempre exatamente 4 problemas por ficha?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Como funcionam os campos de nome e data?',
       answer:
-        'Ative a caixa «Incluir Campos Nome/Data» no painel Configuração do Exercício para adicionar linhas de nome e data na parte inferior da ficha. Quando ativa, os usuários podem escrever o seu nome e a data diretamente na página impressa — essencial para a responsabilidade online e a organização das avaliações. Quando desativa, a ficha utiliza toda a área da página para o conteúdo de correspondência. Esta opção funciona com ambos os modos, Associação de Sombras e Complete a Imagem.',
+        'Ative a caixa \"Incluir Campos Nome/Data\" no painel Configuração do Exercício para adicionar linhas de nome e data na parte inferior da ficha. Quando ativa, os usuários podem escrever o seu nome e a data diretamente na página impressa — essencial para a responsabilidade online e a organização das avaliações. Quando desativa, a ficha utiliza toda a área da página para o conteúdo de correspondência. Esta opção funciona com ambos os modos, Associação de Sombras e Complete a Imagem.',
     },
     {
       question: 'Como funciona o gabarito autogerado?',
       answer:
-        'O gerador usa um sistema de canvas duplo com um separador de Ficha de Trabalho e um separador de Gabarito. No modo Associação de Sombras, o gabarito mostra uma grelha onde cada célula apresenta a imagem original junto à sua silueta com uma etiqueta como «A → 2». No modo Complete a Imagem, cada célula mostra a imagem original completa com a sua etiqueta de correspondência. A grelha usa 4 colunas com espaçamento consistente. Ambas as versões exportam-se separadamente com os quatro botões de descarga dedicados: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF.',
+        'O gerador usa um sistema de canvas duplo com um separador de Ficha de Trabalho e um separador de Gabarito. No modo Associação de Sombras, o gabarito mostra uma grelha onde cada célula apresenta a imagem original junto à sua silueta com uma etiqueta como \"A → 2\". No modo Complete a Imagem, cada célula mostra a imagem original completa com a sua etiqueta de correspondência. A grelha usa 4 colunas com espaçamento consistente. Ambas as versões exportam-se separadamente com os quatro botões de descarga dedicados: ficha JPEG, ficha PDF, gabarito JPEG e gabarito PDF.',
     },
     {
       question: 'Existe um teste grátis?',

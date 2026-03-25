@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Add Text, Layout Helpers, and Freehand Drawings',
         description:
-          'Use the Text Tools panel to add titles, instructions, or labels with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, color, and text outline width (0–10 with 0.5-step granularity) for maximum readability. Click the Layout Helpers to add a name field (“Name: ____”) or handwriting practice lines with a single click. Switch to the Drawing Tool to sketch freehand illustrations directly on the canvas — pick a brush color and adjust the brush size from 1 to 50 pixels.',
+          'Use the Text Tools panel to add titles, instructions, or labels with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, color, and text outline width (0–10 with 0.5-step granularity) for maximum readability. Click the Layout Helpers to add a name field (\"Name: ____\") or handwriting practice lines with a single click. Switch to the Drawing Tool to sketch freehand illustrations directly on the canvas — pick a brush color and adjust the brush size from 1 to 50 pixels.',
       },
       {
         title: 'Toggle Grayscale and Download',
@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Layout Helpers: Name Field and Handwriting Lines',
         description:
-          'Two one-click layout helpers transform coloring pages into ready-to-use printable activities. The Name Field button adds a formatted “Name: ____________________” text block positioned at the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Together, these helpers make your coloring worksheets print-ready without manual text formatting. Sellers can highlight these features as built-in differentiation from generic coloring pages.',
+          'Two one-click layout helpers transform coloring pages into ready-to-use printable activities. The Name Field button adds a formatted \"Name: ____________________\" text block positioned at the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Together, these helpers make your coloring worksheets print-ready without manual text formatting. Sellers can highlight these features as built-in differentiation from generic coloring pages.',
       },
       {
         title: 'Grayscale Export Toggle for Ink-Friendly Coloring Pages',
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'What are the layout helpers and how do I use them?',
       answer:
-        'Two one-click buttons in the Layout Helpers panel. The Name Field button adds a formatted “Name: ____________________” text block near the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Both helpers create standard canvas objects you can reposition, resize, or delete like any other element.',
+        'Two one-click buttons in the Layout Helpers panel. The Name Field button adds a formatted \"Name: ____________________\" text block near the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Both helpers create standard canvas objects you can reposition, resize, or delete like any other element.',
     },
     {
       question: 'How does the grayscale export toggle work?',

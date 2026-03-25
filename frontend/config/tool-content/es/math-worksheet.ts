@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador de acertijos algebraicos. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador de acertijos algebraicos. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
       },
       {
         title: 'Configurar el Diseño y Tamaño de Página',
-        description: 'En la sección «Configuración de Página», elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes. Estos ajustes definen el aspecto general de tu ficha terminada.',
+        description: 'En la sección \"Configuración de Página\", elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes. Estos ajustes definen el aspecto general de tu ficha terminada.',
       },
       {
         title: 'Elegir Dificultad y Operación',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Configurar Rango Numérico y Opciones',
-        description: 'Establece los valores mínimo y máximo para las ecuaciones (por defecto 0–20). Para usuarios avanzados, activa el interruptor «Permitir Resultados Negativos» para que las ecuaciones de resta puedan producir valores bajo cero. Estos controles te permiten ajustar cada ficha con precisión al grupo de edad y nivel de productos objetivo.',
+        description: 'Establece los valores mínimo y máximo para las ecuaciones (por defecto 0–20). Para usuarios avanzados, activa el interruptor \"Permitir Resultados Negativos\" para que las ecuaciones de resta puedan producir valores bajo cero. Estos controles te permiten ajustar cada ficha con precisión al grupo de edad y nivel de productos objetivo.',
       },
       {
         title: 'Seleccionar las Imágenes',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, espacio, festividades y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Puedes elegir imágenes individuales, cargar un tema completo para llenar todos los espacios de símbolos o hacer clic en «Subir Imagen» para usar tu propio PNG o JPEG para puzzles personalizados y de nicho.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 100 colecciones temáticas: animales, comida, vehículos, espacio, festividades y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Puedes elegir imágenes individuales, cargar un tema completo para llenar todos los espacios de símbolos o hacer clic en \"Subir Imagen\" para usar tu propio PNG o JPEG para puzzles personalizados y de nicho.',
       },
       {
         title: 'Explorar la Biblioteca de Imágenes',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Añadir Texto, Numeración y Puzzles por Página',
-        description: 'Añade un título, subtítulo o bloque de texto personalizado a tu ficha. Activa la numeración automática entre páginas. Usa el control «Puzzles por Página» para colocar de 1 a 6 puzzles en cada hoja — el diseño se ajusta automáticamente. Menos puzzles por página dan más espacio de trabajo; más puzzles por página crean fichas de práctica compactas.',
+        description: 'Añade un título, subtítulo o bloque de texto personalizado a tu ficha. Activa la numeración automática entre páginas. Usa el control \"Puzzles por Página\" para colocar de 1 a 6 puzzles en cada hoja — el diseño se ajusta automáticamente. Menos puzzles por página dan más espacio de trabajo; más puzzles por página crean fichas de práctica compactas.',
       },
       {
         title: 'Generar, Revisar y Descargar',
-        description: 'Haz clic en «Generar» para crear tu ficha de acertijos algebraicos. El solucionador integrado verifica que cada puzzle tenga exactamente una solución antes de renderizarlo. Previsualiza en el lienzo y luego usa el menú «Descargar» para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). Genera siempre la clave de respuestas — muestra el valor numérico de cada símbolo para corrección rápida.',
+        description: 'Haz clic en \"Generar\" para crear tu ficha de acertijos algebraicos. El solucionador integrado verifica que cada puzzle tenga exactamente una solución antes de renderizarlo. Previsualiza en el lienzo y luego usa el menú \"Descargar\" para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). Genera siempre la clave de respuestas — muestra el valor numérico de cada símbolo para corrección rápida.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Álgebra Estacionales',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Puzzles de Álgebra de Navidad» con símbolos navideños se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato algebraico añade dificultad percibida y valor sobre la aritmética simple.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Puzzles de Álgebra de Navidad\" con símbolos navideños se vende muy bien en noviembre y diciembre. Halloween, San Valentín y la vuelta al cole tienen sus propias ventanas de ventas pico en Etsy y Gumroad. El formato algebraico añade dificultad percibida y valor sobre la aritmética simple.',
     },
     {
       title: 'Packs de Muestrario con Dificultad Mixta',
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Premium de Álgebra en Gumroad',
-      description: 'Sube packs diferenciados de puzzles de álgebra a Gumroad. Los vendedores buscan constantemente «fichas de álgebra» y «puzzles de matemáticas». Incluye los cuatro niveles de dificultad, ambos modos de operación, claves de respuestas y una guía vendedor explicando cómo funciona el formato de álgebra visual. La función de solución única garantizada añade credibilidad que los vendedores valoran al elegir materiales para venta en línea. Incluir una guía de uso que mapee cada nivel de dificultad a estándares de grado específicos ayuda a los vendedores a justificar la compra y aumenta las reseñas positivas.',
+      description: 'Sube packs diferenciados de puzzles de álgebra a Gumroad. Los vendedores buscan constantemente \"fichas de álgebra\" y \"puzzles de matemáticas\". Incluye los cuatro niveles de dificultad, ambos modos de operación, claves de respuestas y una guía vendedor explicando cómo funciona el formato de álgebra visual. La función de solución única garantizada añade credibilidad que los vendedores valoran al elegir materiales para venta en línea. Incluir una guía de uso que mapee cada nivel de dificultad a estándares de grado específicos ayuda a los vendedores a justificar la compra y aumenta las reseñas positivas.',
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Usa Operaciones Mixtas para Mayor Variedad',
-      description: 'El modo Suma y Resta crea puzzles que requieren estrategias de resolución diferentes dentro de la misma ficha. Esto evita que los usuarios caigan en un patrón repetitivo y evalúa ambas habilidades simultáneamente. Los puzzles con operaciones mixtas también tienen mayor valor percibido en los listings de marketplaces porque cubren más contenido de productos. En Etsy y Gumroad, etiquetar tu listing como «operaciones mixtas» captura tráfico de búsqueda de vendedores que buscan específicamente materiales de repaso que abarquen varias habilidades matemáticas en una sola actividad.',
+      description: 'El modo Suma y Resta crea puzzles que requieren estrategias de resolución diferentes dentro de la misma ficha. Esto evita que los usuarios caigan en un patrón repetitivo y evalúa ambas habilidades simultáneamente. Los puzzles con operaciones mixtas también tienen mayor valor percibido en los listings de marketplaces porque cubren más contenido de productos. En Etsy y Gumroad, etiquetar tu listing como \"operaciones mixtas\" captura tráfico de búsqueda de vendedores que buscan específicamente materiales de repaso que abarquen varias habilidades matemáticas en una sola actividad.',
     },
     {
       title: 'Sube Imágenes Propias para Reconocimiento de Marca',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combina con Herramientas de Matemáticas Estándar',
-      description: 'Crea conjuntos combinados usando los generadores de Suma, Resta y Suma Codificada junto con el generador de puzzles de álgebra. Véndelos individualmente y como un pack combinado «Práctica de Matemáticas + Puzzle de Álgebra». El componente de álgebra visual añade un elemento de desafío que hace el pack más atractivo que las fichas solas.',
+      description: 'Crea conjuntos combinados usando los generadores de Suma, Resta y Suma Codificada junto con el generador de puzzles de álgebra. Véndelos individualmente y como un pack combinado \"Práctica de Matemáticas + Puzzle de Álgebra\". El componente de álgebra visual añade un elemento de desafío que hace el pack más atractivo que las fichas solas.',
     },
     {
       title: 'Exporta en Ambos Formatos',
@@ -180,11 +180,11 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo subir mis propias imágenes como símbolos variables?',
-      answer: 'Sí. Haz clic en «Subir Imagen» para usar tus propios archivos PNG o JPEG como símbolos variables en las ecuaciones. Esto te permite crear puzzles personalizados con tus propias ilustraciones, mascotas de clase, diseños estacionales o arte de nicho que ningún otro vendedor puede replicar.',
+      answer: 'Sí. Haz clic en \"Subir Imagen\" para usar tus propios archivos PNG o JPEG como símbolos variables en las ecuaciones. Esto te permite crear puzzles personalizados con tus propias ilustraciones, mascotas de clase, diseños estacionales o arte de nicho que ningún otro vendedor puede replicar.',
     },
     {
       question: '¿Cuántos puzzles puedo colocar en una página?',
-      answer: 'Puedes colocar de 1 a 6 puzzles por página usando el control «Puzzles por Página». El diseño se ajusta automáticamente para encajar el número seleccionado. Usa 1–2 puzzles por página para usuarios más pequeños que necesitan más espacio, o 4–6 por página para fichas de práctica compactas y productos tipo cuaderno.',
+      answer: 'Puedes colocar de 1 a 6 puzzles por página usando el control \"Puzzles por Página\". El diseño se ajusta automáticamente para encajar el número seleccionado. Usa 1–2 puzzles por página para usuarios más pequeños que necesitan más espacio, o 4–6 por página para fichas de práctica compactas y productos tipo cuaderno.',
     },
     {
       question: '¿Los puzzles funcionan en todos los idiomas?',

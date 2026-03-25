@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Generatore di Schede di Preposizioni per la Pratica del Vocabolario Spaziale',
     tagline: 'Otto preposizioni spaziali combinate con esercizi di immagini e forme — costruendo il vocabolario spaziale frase dopo frase.',
     description:
-      'Crea schede di preposizioni professionali che insegnano le relazioni spaziali attraverso esercizi pratici con immagini e forme. gli utenti praticano otto preposizioni fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due modalità di esercizio distinte: Completa la Frase, dove gli utenti scrivono la preposizione mancante, e Scelta Multipla, dove identificano l\'immagine che corrisponde a una descrizione spaziale. Seleziona quali preposizioni includere dalla lista integrata e configura da 1 a 8 esercizi per scheda. Esplora oltre 3100 illustrazioni selezionate in 104 temi per gli oggetti posizionati, e scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. L\'Accesso Completo sblocca tutte le 11 lingue supportate con preposizioni grammaticalmente corrette — tedesco con le preposizioni articolate come „im" e „am", francese con le regole di elisione per « l\' » davanti a vocali, italiano con le preposizioni articolate (nel, nella, sul, sulla, nello, nell\') — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. Ogni scheda genera una chiave di risposta automatica, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di preposizioni su Etsy, compili libri di vocabolario spaziale per Amazon KDP o crei centri linguistici differenziati per il Gumroad, il Generatore di Schede di Preposizioni offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede di preposizioni professionali che insegnano le relazioni spaziali attraverso esercizi pratici con immagini e forme. gli utenti praticano otto preposizioni fondamentali — in/dentro, su/sopra, sotto, accanto a, dietro, tra/fra, sopra e davanti a — attraverso due modalità di esercizio distinte: Completa la Frase, dove gli utenti scrivono la preposizione mancante, e Scelta Multipla, dove identificano l\'immagine che corrisponde a una descrizione spaziale. Seleziona quali preposizioni includere dalla lista integrata e configura da 1 a 8 esercizi per scheda. Esplora oltre 3100 illustrazioni selezionate in 104 temi per gli oggetti posizionati, e scegli tra 8 forme geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) come punti di riferimento spaziale. L\'Accesso Completo sblocca tutte le 11 lingue supportate con preposizioni grammaticalmente corrette — tedesco con le preposizioni articolate come \"im" e \"am", francese con le regole di elisione per \" l\' \" davanti a vocali, italiano con le preposizioni articolate (nel, nella, sul, sulla, nello, nell\') — moltiplicando il tuo catalogo prodotti per undici da un unico flusso di lavoro. Ogni scheda genera una chiave di risposta automatica, e puoi esportare PDF pronti per la stampa e JPEG a oltre 400 DPI nei formati Lettera, A4, Quadrato o dimensioni personalizzate. Che tu venda pacchetti tematici di preposizioni su Etsy, compili libri di vocabolario spaziale per Amazon KDP o crei centri linguistici differenziati per il Gumroad, il Generatore di Schede di Preposizioni offre risultati professionali in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Scegli la modalità e il numero di esercizi',
         description:
-          'Apri il pannello di Impostazione Esercizi e seleziona una delle due modalità. La modalità Completa la Frase presenta frasi come «[Immagine] è ____ il [forma]» dove gli utenti scrivono la preposizione corretta nello spazio vuoto. La modalità Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di indicare l\'immagine corrispondente. Imposta il numero di esercizi per scheda da 1 a 8 per controllare la densità e la difficoltà.',
+          'Apri il pannello di Impostazione Esercizi e seleziona una delle due modalità. La modalità Completa la Frase presenta frasi come \"[Immagine] è ____ il [forma]\" dove gli utenti scrivono la preposizione corretta nello spazio vuoto. La modalità Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di indicare l\'immagine corrispondente. Imposta il numero di esercizi per scheda da 1 a 8 per controllare la densità e la difficoltà.',
       },
       {
         title: 'Seleziona le preposizioni dalla lista',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Grammatica adattata per ogni lingua con preposizioni articolate, elisione e regole degli articoli',
         description:
-          'L\'Accesso Completo sblocca tutte le 11 lingue supportate, e ciascuna applica le proprie regole grammaticali alle frasi di preposizioni. Il tedesco usa le contrazioni dative come „im" (in dem) e „am" (an dem) con articoli di genere (dem/der). Il francese applica le regole di elisione, sostituendo «le» con «l\'» davanti a vocali o h muta. L\'italiano usa le preposizioni articolate — nel (in + il), nella (in + la), sul (su + il), sulla (su + la), nello (in + lo), nell\' (in + l\') — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta nella lingua di destinazione — non una traduzione parola per parola — rendendo ogni versione linguistica un prodotto genuinamente commercializzabile.',
+          'L\'Accesso Completo sblocca tutte le 11 lingue supportate, e ciascuna applica le proprie regole grammaticali alle frasi di preposizioni. Il tedesco usa le contrazioni dative come \"im" (in dem) e \"am" (an dem) con articoli di genere (dem/der). Il francese applica le regole di elisione, sostituendo \"le\" con \"l\'\" davanti a vocali o h muta. L\'italiano usa le preposizioni articolate — nel (in + il), nella (in + la), sul (su + il), sulla (su + la), nello (in + lo), nell\' (in + l\') — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta nella lingua di destinazione — non una traduzione parola per parola — rendendo ogni versione linguistica un prodotto genuinamente commercializzabile.',
       },
       {
         title: 'Oggetti + Forme: due tipi di immagine per il contesto spaziale',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Prodotti multilingue di preposizioni con Accesso Completo',
         description:
-          'L\'Accesso Completo sblocca tutte le 11 lingue con preposizioni grammaticalmente corrette, preposizioni articolate, contrazioni dative e regole di elisione. Crea schede di preposizioni in tedesco con „im" e „am", schede in francese con l\'elisione «l\'», schede in italiano con le preposizioni articolate (nel, nella, sul, sulla), schede in spagnolo con gli articoli el/la, e altro ancora. Ogni versione linguistica è un prodotto distinto che puoi pubblicare su Etsy, Gumroad o Amazon KDP — moltiplicando effettivamente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti multilingue di vocabolario spaziale incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.',
+          'L\'Accesso Completo sblocca tutte le 11 lingue con preposizioni grammaticalmente corrette, preposizioni articolate, contrazioni dative e regole di elisione. Crea schede di preposizioni in tedesco con \"im" e \"am", schede in francese con l\'elisione \"l\'\", schede in italiano con le preposizioni articolate (nel, nella, sul, sulla), schede in spagnolo con gli articoli el/la, e altro ancora. Ogni versione linguistica è un prodotto distinto che puoi pubblicare su Etsy, Gumroad o Amazon KDP — moltiplicando effettivamente il tuo catalogo per undici dallo stesso flusso di lavoro. I prodotti multilingue di vocabolario spaziale incontrano meno concorrenza e attraggono acquirenti internazionali che cercano nella loro lingua madre.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quali modalità di esercizio offre il Generatore di Schede di Preposizioni?',
       answer:
-        'Il generatore include due modalità: Completa la Frase e Scelta Multipla. Completa la Frase presenta frasi con una preposizione mancante che gli utenti completano (ad esempio, «Il gatto è ____ il cerchio»). Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di indicare l\'immagine corrispondente. Entrambe le modalità funzionano con le otto preposizioni e tutti i temi.',
+        'Il generatore include due modalità: Completa la Frase e Scelta Multipla. Completa la Frase presenta frasi con una preposizione mancante che gli utenti completano (ad esempio, \"Il gatto è ____ il cerchio\"). Scelta Multipla mostra una descrizione spaziale e chiede agli utenti di indicare l\'immagine corrispondente. Entrambe le modalità funzionano con le otto preposizioni e tutti i temi.',
     },
     {
       question: 'Quali sono le 8 preposizioni disponibili?',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Qual è la differenza tra gli oggetti e le forme?',
       answer:
-        'Gli oggetti sono illustrazioni tematiche dalla libreria di immagini — animali, veicoli, alimenti e altro — che rappresentano l\'elemento posizionato. Le forme sono figure geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) che servono come punto di riferimento spaziale. Ogni esercizio posiziona un oggetto in relazione a una forma, creando relazioni spaziali chiare come «Il gatto è sotto il cubo.»',
+        'Gli oggetti sono illustrazioni tematiche dalla libreria di immagini — animali, veicoli, alimenti e altro — che rappresentano l\'elemento posizionato. Le forme sono figure geometriche (cerchio, cubo, cilindro, cuore, esagono, quadrato, stella, triangolo) che servono come punto di riferimento spaziale. Ogni esercizio posiziona un oggetto in relazione a una forma, creando relazioni spaziali chiare come \"Il gatto è sotto il cubo.\"',
     },
     {
       question: 'Quanti esercizi posso inserire in ogni scheda?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Il Generatore di Schede di Preposizioni dipende dalla lingua?',
       answer:
-        'Sì. A differenza delle applicazioni di matematica puramente visive, le schede di preposizioni cambiano fondamentalmente in base alla lingua selezionata. Ogni lingua ha le proprie preposizioni, regole degli articoli e strutture grammaticali. Il tedesco usa le contrazioni dative («im», «am») e gli articoli di genere (dem/der). Il francese applica l\'elisione («l\'» davanti a vocali). L\'italiano usa le preposizioni articolate — nel, nella, sul, sulla, nello, nell\' — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta — non una traduzione parola per parola. La Licenza Commerciale è solo in inglese; l\'Accesso Completo sblocca tutte le 11 lingue.',
+        'Sì. A differenza delle applicazioni di matematica puramente visive, le schede di preposizioni cambiano fondamentalmente in base alla lingua selezionata. Ogni lingua ha le proprie preposizioni, regole degli articoli e strutture grammaticali. Il tedesco usa le contrazioni dative (\"im\", \"am\") e gli articoli di genere (dem/der). Il francese applica l\'elisione (\"l\'\" davanti a vocali). L\'italiano usa le preposizioni articolate — nel, nella, sul, sulla, nello, nell\' — formando contrazioni uniche con gli articoli determinativi. Ogni frase generata è grammaticalmente corretta — non una traduzione parola per parola. La Licenza Commerciale è solo in inglese; l\'Accesso Completo sblocca tutte le 11 lingue.',
     },
     {
       question: 'Come funziona la gestione grammaticale nelle diverse lingue?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Come funziona la lista delle preposizioni?',
       answer:
-        'Il pannello Lista delle Preposizioni ti permette di attivare o disattivare ciascuna delle otto preposizioni. Solo le preposizioni selezionate appaiono negli esercizi generati. Questo ti dà un controllo preciso sul contenuto della lezione — seleziona solo «in» e «su» per una scheda introduttiva, o seleziona tutte e otto per un ripasso completo. La lista si reimposta ogni volta che generi una nuova scheda.',
+        'Il pannello Lista delle Preposizioni ti permette di attivare o disattivare ciascuna delle otto preposizioni. Solo le preposizioni selezionate appaiono negli esercizi generati. Questo ti dà un controllo preciso sul contenuto della lezione — seleziona solo \"in\" e \"su\" per una scheda introduttiva, o seleziona tutte e otto per un ripasso completo. La lista si reimposta ogni volta che generi una nuova scheda.',
     },
     {
       question: 'Il generatore crea chiavi di risposta automaticamente?',

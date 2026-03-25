@@ -29,27 +29,27 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador de fichas de resta. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador de fichas de resta. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
       },
       {
         title: 'Elegir el Modo de Ejercicio',
-        description: 'Abre el panel «Configuración de Ejercicios» y selecciona entre cuatro modos: Tachar Imágenes (los usuarios tachan dibujos para visualizar la resta — el modo más intuitivo para los más pequeños), Imagen − Número (un grupo de imágenes menos un número), Encontrar el Sustraendo (se muestra el minuendo y el resultado; el niño debe averiguar cuánto se quitó), o Modo Mixto (combina aleatoriamente los tres estilos en una misma ficha).',
+        description: 'Abre el panel \"Configuración de Ejercicios\" y selecciona entre cuatro modos: Tachar Imágenes (los usuarios tachan dibujos para visualizar la resta — el modo más intuitivo para los más pequeños), Imagen − Número (un grupo de imágenes menos un número), Encontrar el Sustraendo (se muestra el minuendo y el resultado; el niño debe averiguar cuánto se quitó), o Modo Mixto (combina aleatoriamente los tres estilos en una misma ficha).',
       },
       {
         title: 'Ajustar el Rango de Dificultad',
-        description: 'Ajusta el control «Minuendo Máximo» para controlar el número más grande utilizado en los ejercicios (rango: 2–20). Para preescolar, mantenlo en 5 o menos. Los usuarios de infantil manejan bien hasta 10. Los de 1.º de primaria pueden trabajar con el rango completo hasta 20. También puedes definir el número de ejercicios por ficha (de 1 a 10).',
+        description: 'Ajusta el control \"Minuendo Máximo\" para controlar el número más grande utilizado en los ejercicios (rango: 2–20). Para preescolar, mantenlo en 5 o menos. Los usuarios de infantil manejan bien hasta 10. Los de 1.º de primaria pueden trabajar con el rango completo hasta 20. También puedes definir el número de ejercicios por ficha (de 1 a 10).',
       },
       {
         title: 'Seleccionar un Tema de la Biblioteca de Imágenes',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.',
       },
       {
         title: 'Personalizar el Diseño de Página',
-        description: 'En la sección «Configuración de Página», elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
+        description: 'En la sección \"Configuración de Página\", elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
       },
       {
         title: 'Añadir Texto y Títulos',
-        description: 'Usa el panel «Herramientas de Texto» para añadir un título como «Resta Tachando» o «Práctica de Quitar». Elige entre fuentes adaptadas para niños como Fredoka, Baloo 2, Quicksand y Nunito. Ajusta el tamaño, color y contorno opcional del texto para mejorar la legibilidad sobre los fondos.',
+        description: 'Usa el panel \"Herramientas de Texto\" para añadir un título como \"Resta Tachando\" o \"Práctica de Quitar\". Elige entre fuentes adaptadas para niños como Fredoka, Baloo 2, Quicksand y Nunito. Ajusta el tamaño, color y contorno opcional del texto para mejorar la legibilidad sobre los fondos.',
       },
       {
         title: 'Ajustar las Opciones de la Ficha',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en el botón «Generar» para crear tu ficha. La vista previa se actualiza en el lienzo en tiempo real. Cuando estés satisfecho, usa el menú «Descargar» para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). También puedes generar y descargar una clave de respuestas con todas las soluciones completadas — las imágenes tachadas claramente marcadas.',
+        description: 'Haz clic en el botón \"Generar\" para crear tu ficha. La vista previa se actualiza en el lienzo en tiempo real. Cuando estés satisfecho, usa el menú \"Descargar\" para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). También puedes generar y descargar una clave de respuestas con todas las soluciones completadas — las imágenes tachadas claramente marcadas.',
       },
     ],
   },
@@ -77,11 +77,11 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Resta Estacionales',
-      description: 'Usa temas de fiestas y temporadas (Navidad, Halloween, flores de primavera, playa de verano) para crear packs de edición limitada. Los productos estacionales se venden especialmente bien en Etsy porque los compradores los buscan en ventanas específicas. Un pack de «Resta de Halloween» con imágenes terroríficas es un imán de atención garantizado. Publica los packs de Halloween a mediados de septiembre, los de Navidad a principios de noviembre y los de primavera a mediados de febrero. Publicar con antelación construye autoridad en el ranking de búsqueda antes de que llegue la demanda pico. Pon el precio de los packs estacionales entre 5 $ y 8 $ y promuévelos con pines de Pinterest que muestren tus fichas más coloridas.',
+      description: 'Usa temas de fiestas y temporadas (Navidad, Halloween, flores de primavera, playa de verano) para crear packs de edición limitada. Los productos estacionales se venden especialmente bien en Etsy porque los compradores los buscan en ventanas específicas. Un pack de \"Resta de Halloween\" con imágenes terroríficas es un imán de atención garantizado. Publica los packs de Halloween a mediados de septiembre, los de Navidad a principios de noviembre y los de primavera a mediados de febrero. Publicar con antelación construye autoridad en el ranking de búsqueda antes de que llegue la demanda pico. Pon el precio de los packs estacionales entre 5 $ y 8 $ y promuévelos con pines de Pinterest que muestren tus fichas más coloridas.',
     },
     {
       title: 'Fichas de Encontrar el Número que Falta',
-      description: 'Usa el modo Encontrar el Sustraendo exclusivamente para crear fichas de resta con «el número que falta». Este formato es popular entre los vendedores de 1.º y 2.º de primaria porque desarrolla el pensamiento algebraico temprano. Empaquétalas como una línea de productos separada junto a tus packs de resta estándar.',
+      description: 'Usa el modo Encontrar el Sustraendo exclusivamente para crear fichas de resta con \"el número que falta\". Este formato es popular entre los vendedores de 1.º y 2.º de primaria porque desarrolla el pensamiento algebraico temprano. Empaquétalas como una línea de productos separada junto a tus packs de resta estándar.',
     },
     {
       title: 'Fichas de Resta Bilingües',
@@ -92,12 +92,12 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Tienda de Fichas de Matemáticas Visuales en Etsy',
-      description: 'Abre una tienda Etsy especializada en fichas de resta visuales. El formato Tachar Imágenes es muy buscado por padres y vendedores porque convierte la resta abstracta en algo concreto. Crea de 15 a 20 packs temáticos con un precio de 3 $ a 5 $ cada uno. Sin inventario y con entrega digital instantánea, los márgenes son prácticamente del 100 % después de las comisiones de Etsy. Enfoca el SEO de tu tienda en palabras clave de cola larga como «fichas de resta para tachar imprimibles» y «actividades de quitar con imágenes» para diferenciarte de los listings genéricos de fichas de matemáticas. Renueva las miniaturas de tus imágenes según la temporada y añade nuevos packs temáticos cada mes para mantener tu tienda activa en el algoritmo de búsqueda de Etsy.',
+      description: 'Abre una tienda Etsy especializada en fichas de resta visuales. El formato Tachar Imágenes es muy buscado por padres y vendedores porque convierte la resta abstracta en algo concreto. Crea de 15 a 20 packs temáticos con un precio de 3 $ a 5 $ cada uno. Sin inventario y con entrega digital instantánea, los márgenes son prácticamente del 100 % después de las comisiones de Etsy. Enfoca el SEO de tu tienda en palabras clave de cola larga como \"fichas de resta para tachar imprimibles\" y \"actividades de quitar con imágenes\" para diferenciarte de los listings genéricos de fichas de matemáticas. Renueva las miniaturas de tus imágenes según la temporada y añade nuevos packs temáticos cada mes para mantener tu tienda activa en el algoritmo de búsqueda de Etsy.',
       platform: 'Etsy',
     },
     {
       title: 'Vendedor de Packs de Matemáticas en Gumroad',
-      description: 'Sube packs de fichas de resta diferenciadas a Gumroad. Los vendedores buscan constantemente «fichas de resta con tachar imágenes» y «actividades de quitar para imprimir». Incluye los cuatro modos de ejercicio, claves de respuestas y una guía vendedor en cada listing para una mayor percepción de valor y mejores reseñas.',
+      description: 'Sube packs de fichas de resta diferenciadas a Gumroad. Los vendedores buscan constantemente \"fichas de resta con tachar imágenes\" y \"actividades de quitar para imprimir\". Incluye los cuatro modos de ejercicio, claves de respuestas y una guía vendedor en cada listing para una mayor percepción de valor y mejores reseñas.',
       platform: 'Gumroad',
     },
     {
@@ -123,19 +123,19 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Comienza con el Modo Tachar Imágenes para los Más Pequeños',
-      description: 'Tachar Imágenes es el formato de resta más intuitivo para preescolar e infantil. Los niños ven un grupo de imágenes, tachan algunas y cuentan las que quedan. Comienza cada nuevo usuario o línea de productos con Tachar Imágenes antes de introducir otros modos — construye la comprensión fundamental de que restar significa «quitar». Las investigaciones demuestran consistentemente que la progresión de lo concreto a lo abstracto produce mejores resultados en matemáticas, y las fichas de Tachar Imágenes se sitúan perfectamente en la etapa concreto-representacional. Los padres y vendedores prefieren abrumadoramente este formato para niños de 3 a 6 años porque elimina la intimidación de trabajar con números solos.',
+      description: 'Tachar Imágenes es el formato de resta más intuitivo para preescolar e infantil. Los niños ven un grupo de imágenes, tachan algunas y cuentan las que quedan. Comienza cada nuevo usuario o línea de productos con Tachar Imágenes antes de introducir otros modos — construye la comprensión fundamental de que restar significa \"quitar\". Las investigaciones demuestran consistentemente que la progresión de lo concreto a lo abstracto produce mejores resultados en matemáticas, y las fichas de Tachar Imágenes se sitúan perfectamente en la etapa concreto-representacional. Los padres y vendedores prefieren abrumadoramente este formato para niños de 3 a 6 años porque elimina la intimidación de trabajar con números solos.',
     },
     {
       title: 'Mantén el Minuendo Máximo Bajo para Principiantes',
-      description: 'Ajusta el control de minuendo máximo a 5 para productos de preescolar y a 10 para infantil. Los niños pequeños se abruman con grupos grandes de imágenes. Crea versiones separadas «fácil» (minuendo máximo 5), «medio» (minuendo máximo 10) y «desafío» (minuendo máximo 20) para que los compradores puedan elegir el nivel adecuado. Ofrecer los tres niveles de dificultad como un pack diferenciado en Etsy o Gumroad permite cobrar un precio más alto que los packs individuales, porque los vendedores valoran los recursos nivelados que les ahorran tiempo de producción.',
+      description: 'Ajusta el control de minuendo máximo a 5 para productos de preescolar y a 10 para infantil. Los niños pequeños se abruman con grupos grandes de imágenes. Crea versiones separadas \"fácil\" (minuendo máximo 5), \"medio\" (minuendo máximo 10) y \"desafío\" (minuendo máximo 20) para que los compradores puedan elegir el nivel adecuado. Ofrecer los tres niveles de dificultad como un pack diferenciado en Etsy o Gumroad permite cobrar un precio más alto que los packs individuales, porque los vendedores valoran los recursos nivelados que les ahorran tiempo de producción.',
     },
     {
       title: 'Usa Encontrar el Sustraendo para Usuarios Avanzados',
-      description: 'El modo Encontrar el Sustraendo muestra la cantidad inicial y el resultado, pidiendo al niño que averigüe cuánto se quitó. Esto es significativamente más difícil y desarrolla el pensamiento algebraico temprano. Resérvalo para 1.º de primaria en adelante, o comercialízalo como un nivel «desafío» separado. En Etsy y Gumroad, las fichas de resta con «el número que falta» atraen a un segmento de compradores distinto — vendedores que preparan usuarios para evaluaciones estandarizadas donde las operaciones inversas aparecen frecuentemente. Etiquetar tu listing con términos como «encontrar el número que falta» y «resta desafío» captura este tráfico de búsqueda de forma efectiva.',
+      description: 'El modo Encontrar el Sustraendo muestra la cantidad inicial y el resultado, pidiendo al niño que averigüe cuánto se quitó. Esto es significativamente más difícil y desarrolla el pensamiento algebraico temprano. Resérvalo para 1.º de primaria en adelante, o comercialízalo como un nivel \"desafío\" separado. En Etsy y Gumroad, las fichas de resta con \"el número que falta\" atraen a un segmento de compradores distinto — vendedores que preparan usuarios para evaluaciones estandarizadas donde las operaciones inversas aparecen frecuentemente. Etiquetar tu listing con términos como \"encontrar el número que falta\" y \"resta desafío\" captura este tráfico de búsqueda de forma efectiva.',
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Haz clic en «Generar Clave de Respuestas» antes de descargar. Para las fichas de Tachar Imágenes, la clave de respuestas muestra qué imágenes están tachadas, haciendo la corrección instantánea. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Incluir claves de respuestas también reduce las preguntas de soporte al cliente y las solicitudes de reembolso, porque los padres que trabajan con niños en casa pueden verificar las respuestas sin tener que resolver cada ejercicio ellos mismos.',
+      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Para las fichas de Tachar Imágenes, la clave de respuestas muestra qué imágenes están tachadas, haciendo la corrección instantánea. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen una clave de respuestas. Incluir claves de respuestas también reduce las preguntas de soporte al cliente y las solicitudes de reembolso, porque los padres que trabajan con niños en casa pueden verificar las respuestas sin tener que resolver cada ejercicio ellos mismos.',
     },
     {
       title: 'Exporta en PDF y en JPEG',
@@ -143,7 +143,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combina con Suma para Packs Completos de Matemáticas',
-      description: 'Crea conjuntos de fichas de suma y resta a juego usando el mismo tema y rango de dificultad. Véndelos individualmente y como mega-pack combinado «Suma y Resta» con un ligero descuento. Los productos en packs tienen valores de pedido promedio más altos en todos los marketplaces. Los mega-packs combinados de suma y resta alcanzan precios significativamente más altos que los packs de operación individual porque ofrecen cobertura completa de familias de operaciones. Crea conjuntos temáticos donde las mismas imágenes aparecen tanto en las fichas de suma como en las de resta, reforzando la relación inversa entre las operaciones. Pon el precio de los mega-packs entre 7 $ y 9 $ para maximizar los ingresos por transacción.',
+      description: 'Crea conjuntos de fichas de suma y resta a juego usando el mismo tema y rango de dificultad. Véndelos individualmente y como mega-pack combinado \"Suma y Resta\" con un ligero descuento. Los productos en packs tienen valores de pedido promedio más altos en todos los marketplaces. Los mega-packs combinados de suma y resta alcanzan precios significativamente más altos que los packs de operación individual porque ofrecen cobertura completa de familias de operaciones. Crea conjuntos temáticos donde las mismas imágenes aparecen tanto en las fichas de suma como en las de resta, reforzando la relación inversa entre las operaciones. Pon el precio de los mega-packs entre 7 $ y 9 $ para maximizar los ingresos por transacción.',
     },
     {
       title: 'Añade Bordes Temáticos para Precios Premium',
@@ -174,7 +174,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Qué controla el ajuste de minuendo máximo?',
-      answer: 'El control de minuendo máximo (rango 2–20) establece el número inicial más grande en cada ejercicio de resta. Por ejemplo, si el minuendo máximo está en 10, los ejercicios mostrarán hasta 10 imágenes. Valores más bajos son más fáciles para niños pequeños; valores más altos ofrecen más desafío para usuarios mayores. Para vendedores de productos, este ajuste es el control de dificultad principal. Un listing bien estructurado podría incluir tres niveles etiquetados como «fácil», «medio» y «difícil» según el valor del minuendo máximo, dando a los vendedores la flexibilidad de asignar el nivel apropiado a cada usuario sin trabajo de diseño adicional.',
+      answer: 'El control de minuendo máximo (rango 2–20) establece el número inicial más grande en cada ejercicio de resta. Por ejemplo, si el minuendo máximo está en 10, los ejercicios mostrarán hasta 10 imágenes. Valores más bajos son más fáciles para niños pequeños; valores más altos ofrecen más desafío para usuarios mayores. Para vendedores de productos, este ajuste es el control de dificultad principal. Un listing bien estructurado podría incluir tres niveles etiquetados como \"fácil\", \"medio\" y \"difícil\" según el valor del minuendo máximo, dando a los vendedores la flexibilidad de asignar el nivel apropiado a cada usuario sin trabajo de diseño adicional.',
     },
     {
       question: '¿Puedo crear fichas en otros idiomas además del español?',
@@ -186,7 +186,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo generar una clave de respuestas?',
-      answer: 'Sí. Después de generar una ficha, haz clic en «Generar Clave de Respuestas» para crear una hoja de soluciones con todas las respuestas completadas. Para las fichas de Tachar Imágenes, la clave de respuestas muestra claramente qué imágenes están tachadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente.',
+      answer: 'Sí. Después de generar una ficha, haz clic en \"Generar Clave de Respuestas\" para crear una hoja de soluciones con todas las respuestas completadas. Para las fichas de Tachar Imágenes, la clave de respuestas muestra claramente qué imágenes están tachadas. Puedes descargar la clave de respuestas como un archivo JPEG o PDF independiente.',
     },
     {
       question: '¿Cuál es su política de reembolso?',

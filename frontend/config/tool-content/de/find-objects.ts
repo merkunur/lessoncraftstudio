@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Suchbilder-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Suchbilder-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Canvas rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit dem Erstellen von Suchbild-Arbeitsblättern.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Suchbilder-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungs-Seitenleiste links und einer Dual-Tab-Canvas rechts — ein Tab für das Arbeitsblatt, einer für den Lösungsschlüssel. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit dem Erstellen von Suchbild-Arbeitsblättern.',
       },
       {
         title: 'Seitenlayout festlegen',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon-KDP-Suchbild-Arbeitsbuch-Serie',
-      description: 'Stellen Sie 50–80 Suchbild-Arbeitsblätter zu thematischen Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Schwierigkeitsgrad und Modus: „Einfache Suchbilder für Einsteiger“ mit 1–2 versteckten Objekten und 8 Ablenkungsbildern, „Suchbild-Abenteuer“ mit 3–4 versteckten Objekten und 10 Ablenkungsbildern, „Suchbild-Profi-Herausforderungen“ mit 5 versteckten Objekten unter 12 Ablenkungsbildern und „Welches-passt-nicht-Visuellrätsel“ im gepaarten Bildmodus. Lösungsschlüssel-Seiten am Ende mit roten Kreis-Markierungen. Graustufen für tintenschonende Ausgabe. Das rein visuelle Format veröffentlicht identisch auf allen internationalen KDP-Märkten ohne Übersetzung — ein Buchinhalt für jedes Land.',
+      description: 'Stellen Sie 50–80 Suchbild-Arbeitsblätter zu thematischen Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Schwierigkeitsgrad und Modus: \"Einfache Suchbilder für Einsteiger\" mit 1–2 versteckten Objekten und 8 Ablenkungsbildern, \"Suchbild-Abenteuer\" mit 3–4 versteckten Objekten und 10 Ablenkungsbildern, \"Suchbild-Profi-Herausforderungen\" mit 5 versteckten Objekten unter 12 Ablenkungsbildern und \"Welches-passt-nicht-Visuellrätsel\" im gepaarten Bildmodus. Lösungsschlüssel-Seiten am Ende mit roten Kreis-Markierungen. Graustufen für tintenschonende Ausgabe. Das rein visuelle Format veröffentlicht identisch auf allen internationalen KDP-Märkten ohne Übersetzung — ein Buchinhalt für jedes Land.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest-Suchbild-Arbeitsblatt-Traffic-Funnel',
-      description: 'Suchbild-Arbeitsblätter ergeben visuell ansprechende Pinterest-Pins — farbenfrohe verteilte Bilderszenen mit zu suchenden Objekten erzeugen sofort ansprechenden Bildungsinhalt, den Eltern und Verkäufer anklicken. Pinnen Sie Beispiel-Arbeitsblätter beider Modi: Ich-sehe-was mit verteilten versteckten Objekten und Legende am unteren Rand sowie Welches-passt-nicht mit gepaarten Bildern in Reihen. Erstellen Sie separate Pin-Serien für „Suchbilder für Kinder“, „druckbare Ich-sehe-was-Aktivitäten“ und „Welches-passt-nicht-Rätsel“. Lösungsschlüssel-Vorschaubilder mit roten Kreis-Markierungen demonstrieren professionelle Qualität. Verlinken Sie jeden Pin zu Ihren Etsy- oder Gumroad-Listings für direkte Konversion.',
+      description: 'Suchbild-Arbeitsblätter ergeben visuell ansprechende Pinterest-Pins — farbenfrohe verteilte Bilderszenen mit zu suchenden Objekten erzeugen sofort ansprechenden Bildungsinhalt, den Eltern und Verkäufer anklicken. Pinnen Sie Beispiel-Arbeitsblätter beider Modi: Ich-sehe-was mit verteilten versteckten Objekten und Legende am unteren Rand sowie Welches-passt-nicht mit gepaarten Bildern in Reihen. Erstellen Sie separate Pin-Serien für \"Suchbilder für Kinder\", \"druckbare Ich-sehe-was-Aktivitäten\" und \"Welches-passt-nicht-Rätsel\". Lösungsschlüssel-Vorschaubilder mit roten Kreis-Markierungen demonstrieren professionelle Qualität. Verlinken Sie jeden Pin zu Ihren Etsy- oder Gumroad-Listings für direkte Konversion.',
       platform: 'Pinterest',
     },
     {

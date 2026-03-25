@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Kryptogramm-Arbeitsblatt-Generator',
     tagline: 'Bilder-Chiffre-Rätsel erstellen, bei denen jeder Buchstabe einem Bild zugeordnet ist und Nutzer ganze Geheimtexte durch Mustererkennung und Deduktion entschlüsseln',
-    description: 'Erstellen Sie professionelle Kryptogramm-Arbeitsblätter auf Basis einer Bilder-Chiffre-Mechanik: Jeder Buchstabe des Alphabets wird einem einzigartigen Bild zugeordnet, und Ihr Geheimtext wird als Bildfolge dargestellt, die Nutzer zurück in lesbaren Text entschlüsseln müssen. Anders als Wortsuche oder Buchstabensalat, die mit einzelnen Wörtern arbeiten, verschlüsselt der Kryptogramm-Generator ganze Sätze und Redewendungen — Nutzer knacken die Chiffre, indem sie durch Deduktion herausfinden, welches Bild welchen Buchstaben darstellt, und nutzen dabei kontextuelle Hinweise aus häufigen Wörtern wie „der“, „und“ und „ist“, um das Code-Knacken zu beschleunigen. Der Regler „Buchstaben aufdecken“ (0–10) ist die primäre Schwierigkeitssteuerung: Bei null eine reine Codeknacker-Herausforderung ohne Startinformationen, bei zehn umfangreiche Hilfestellung mit vielen vorausgelösten Bild-Buchstaben-Zuordnungen. Auto-Zuordnung zieht zufällige Bilder aus einer der 104 thematischen Sammlungen (mehr als 3.100 Illustrationen) und füllt die gesamte Chiffre mit einem Klick, während die manuelle Zuordnung es ermöglicht, gezielt Bilder für bestimmte Buchstaben auszuwählen — mit einer visuellen Vorschau aller Zuordnungen. Laden Sie eigene Bilder hoch für vollständige kreative Kontrolle. Der Lösungsschlüssel enthält eine vollständige Buchstabenlegende, die jeden Buchstaben des Alphabets mit seinem zugeordneten Bild in sortierter Reihenfolge zeigt — die definitive Lösungsreferenz. Die Sprachabhängigkeit ist integriert: Beim Sprachwechsel ändern sich sowohl der Geheimtext als auch der Zeichensatz. Deutsche Kryptogramme verschlüsseln deutsche Sätze mit einem erweiterten 30-Buchstaben-Alphabet einschließlich ä, ö, ü und ß — vier zusätzliche Bild-Buchstaben-Zuordnungen erzeugen visuell reichere und komplexere Chiffren als die englische 26-Buchstaben-Version. Das Eszett (ß) ist ein einzigartig deutscher Buchstabe, der die Chiffre unverwechselbar macht. Der Farb- und Schwarzweiß-Themenfilter wechselt zwischen farbigen Illustrationen und Strichzeichnungen für tintenschonende Ausgabe. Deutsche zusammengesetzte Substantive in den Geheimtexten erzeugen längere Wörter mit mehr einzigartigen Buchstaben, was die Komplexität der Chiffre weiter erhöht. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Wählen Sie aus 5 Schriftfamilien, schalten Sie den Graustufen-Export für tintenschonende Ausgabe ein und nutzen Sie die Fabric.js-Arbeitsfläche zum Neupositionieren jedes Elements. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie professionelle Kryptogramm-Arbeitsblätter auf Basis einer Bilder-Chiffre-Mechanik: Jeder Buchstabe des Alphabets wird einem einzigartigen Bild zugeordnet, und Ihr Geheimtext wird als Bildfolge dargestellt, die Nutzer zurück in lesbaren Text entschlüsseln müssen. Anders als Wortsuche oder Buchstabensalat, die mit einzelnen Wörtern arbeiten, verschlüsselt der Kryptogramm-Generator ganze Sätze und Redewendungen — Nutzer knacken die Chiffre, indem sie durch Deduktion herausfinden, welches Bild welchen Buchstaben darstellt, und nutzen dabei kontextuelle Hinweise aus häufigen Wörtern wie \"der\", \"und\" und \"ist\", um das Code-Knacken zu beschleunigen. Der Regler \"Buchstaben aufdecken\" (0–10) ist die primäre Schwierigkeitssteuerung: Bei null eine reine Codeknacker-Herausforderung ohne Startinformationen, bei zehn umfangreiche Hilfestellung mit vielen vorausgelösten Bild-Buchstaben-Zuordnungen. Auto-Zuordnung zieht zufällige Bilder aus einer der 104 thematischen Sammlungen (mehr als 3.100 Illustrationen) und füllt die gesamte Chiffre mit einem Klick, während die manuelle Zuordnung es ermöglicht, gezielt Bilder für bestimmte Buchstaben auszuwählen — mit einer visuellen Vorschau aller Zuordnungen. Laden Sie eigene Bilder hoch für vollständige kreative Kontrolle. Der Lösungsschlüssel enthält eine vollständige Buchstabenlegende, die jeden Buchstaben des Alphabets mit seinem zugeordneten Bild in sortierter Reihenfolge zeigt — die definitive Lösungsreferenz. Die Sprachabhängigkeit ist integriert: Beim Sprachwechsel ändern sich sowohl der Geheimtext als auch der Zeichensatz. Deutsche Kryptogramme verschlüsseln deutsche Sätze mit einem erweiterten 30-Buchstaben-Alphabet einschließlich ä, ö, ü und ß — vier zusätzliche Bild-Buchstaben-Zuordnungen erzeugen visuell reichere und komplexere Chiffren als die englische 26-Buchstaben-Version. Das Eszett (ß) ist ein einzigartig deutscher Buchstabe, der die Chiffre unverwechselbar macht. Der Farb- und Schwarzweiß-Themenfilter wechselt zwischen farbigen Illustrationen und Strichzeichnungen für tintenschonende Ausgabe. Deutsche zusammengesetzte Substantive in den Geheimtexten erzeugen längere Wörter mit mehr einzigartigen Buchstaben, was die Komplexität der Chiffre weiter erhöht. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Wählen Sie aus 5 Schriftfamilien, schalten Sie den Graustufen-Export für tintenschonende Ausgabe ein und nutzen Sie die Fabric.js-Arbeitsfläche zum Neupositionieren jedes Elements. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Kryptogramm-Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bilder-Chiffre-Rätseln.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool öffnet sich sofort mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bilder-Chiffre-Rätseln.',
       },
       {
         title: 'Seitenlayout und Vorlage festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierte Abmessungen. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft aus der 104-Themen-Bildbibliothek hinzu und wählen Sie einen dekorativen Rahmen mit unabhängiger Deckkraftsteuerung.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat oder benutzerdefinierte Abmessungen. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft aus der 104-Themen-Bildbibliothek hinzu und wählen Sie einen dekorativen Rahmen mit unabhängiger Deckkraftsteuerung.',
       },
       {
         title: 'Geheimtext eingeben und Sprache wählen',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Schwierigkeit mit Buchstaben aufdecken einstellen',
-        description: 'Stellen Sie den Regler „Buchstaben aufdecken“ von 0 bis 10 ein, um zu bestimmen, wie viele Bild-Buchstaben-Zuordnungen als Hinweise auf dem Arbeitsblatt vorausgelöst sind. Null aufgedeckte Buchstaben erzeugen eine reine Codeknacker-Herausforderung. Zehn aufgedeckte Buchstaben bieten umfangreiche Hilfestellung für Einsteiger. Diese einzige Steuerung erzeugt einen gleichmäßigen Schwierigkeitsgradienten und dient als primäre Differenzierungsachse für gestufte Produktpakete.',
+        description: 'Stellen Sie den Regler \"Buchstaben aufdecken\" von 0 bis 10 ein, um zu bestimmen, wie viele Bild-Buchstaben-Zuordnungen als Hinweise auf dem Arbeitsblatt vorausgelöst sind. Null aufgedeckte Buchstaben erzeugen eine reine Codeknacker-Herausforderung. Zehn aufgedeckte Buchstaben bieten umfangreiche Hilfestellung für Einsteiger. Diese einzige Steuerung erzeugt einen gleichmäßigen Schwierigkeitsgradienten und dient als primäre Differenzierungsachse für gestufte Produktpakete.',
       },
       {
         title: 'Schriften, Text und Arbeitsfläche anpassen',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Bilder-Chiffre-Rätsel-Pakete',
-      description: 'Erstellen Sie Sets mit 10–20 Kryptogramm-Arbeitsblättern, gruppiert nach Bildthema — Bauernhoftiere, Meerestiere, Fahrzeuge, Lebensmittel, Feiertage und mehr. Nutzen Sie Auto-Zuordnung, um thematische Bilder dem Alphabet zuzuweisen, und variieren Sie die Einstellung „Buchstaben aufdecken“ über das Set für progressive Schwierigkeit: Beginnen Sie bei 8 aufgedeckten Buchstaben für Aufwärmrätsel und steigern Sie bis 0 für Experten-Herausforderungen. Fügen Sie Buchstabenlegenden-Lösungsschlüssel für jedes Rätsel bei. Das visuelle Chiffre-Format mit thematischen Bildern hebt sich deutlich von Standard-Kreuzworträtsel- oder Wortsuche-Angeboten auf Etsy.de und Gumroad ab.',
+      description: 'Erstellen Sie Sets mit 10–20 Kryptogramm-Arbeitsblättern, gruppiert nach Bildthema — Bauernhoftiere, Meerestiere, Fahrzeuge, Lebensmittel, Feiertage und mehr. Nutzen Sie Auto-Zuordnung, um thematische Bilder dem Alphabet zuzuweisen, und variieren Sie die Einstellung \"Buchstaben aufdecken\" über das Set für progressive Schwierigkeit: Beginnen Sie bei 8 aufgedeckten Buchstaben für Aufwärmrätsel und steigern Sie bis 0 für Experten-Herausforderungen. Fügen Sie Buchstabenlegenden-Lösungsschlüssel für jedes Rätsel bei. Das visuelle Chiffre-Format mit thematischen Bildern hebt sich deutlich von Standard-Kreuzworträtsel- oder Wortsuche-Angeboten auf Etsy.de und Gumroad ab.',
     },
     {
       title: 'KDP-Kryptogramm-Rätselbücher',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differenzierte Codeknacker-Stationen',
-      description: 'Erstellen Sie gestufte Kryptogramm-Übungssets mit „Buchstaben aufdecken“ als Differenzierungsachse. Stufe 1: 8 aufgedeckte Buchstaben, kurze Sätze, thematische Bilder für Leseanfänger. Stufe 2: 5 aufgedeckte Buchstaben, mittellange Sätze für fortschreitende Entschlüssler. Stufe 3: 2 aufgedeckte Buchstaben, längere Sätze für sichere Löser. Stufe 4: 0 aufgedeckte Buchstaben, vollständige Codeknacker-Herausforderung für Fortgeschrittene. Verpacken Sie jede Stufe mit Buchstabenlegenden-Lösungsschlüsseln und einem Fortschrittsbogen. Verkäufer zahlen Premiumpreise für gestufte Ressourcen, die sofort über mehrere Leistungsgruppen einsetzbar sind.',
+      description: 'Erstellen Sie gestufte Kryptogramm-Übungssets mit \"Buchstaben aufdecken\" als Differenzierungsachse. Stufe 1: 8 aufgedeckte Buchstaben, kurze Sätze, thematische Bilder für Leseanfänger. Stufe 2: 5 aufgedeckte Buchstaben, mittellange Sätze für fortschreitende Entschlüssler. Stufe 3: 2 aufgedeckte Buchstaben, längere Sätze für sichere Löser. Stufe 4: 0 aufgedeckte Buchstaben, vollständige Codeknacker-Herausforderung für Fortgeschrittene. Verpacken Sie jede Stufe mit Buchstabenlegenden-Lösungsschlüsseln und einem Fortschrittsbogen. Verkäufer zahlen Premiumpreise für gestufte Ressourcen, die sofort über mehrere Leistungsgruppen einsetzbar sind.',
     },
     {
       title: 'Mehrsprachige Chiffre-Produkte',
@@ -85,24 +85,24 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Chiffre-Bündel',
-      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um aktuell verfügbare Kryptogramm-Bündel zu erstellen. Ein „Halloween-Geheimtexte“-Paket mit gruselig thematisierten Chiffre-Bildern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Gumroad. Kombinieren Sie Hilfestellung-Rätsel bei 6–8 aufgedeckten Buchstaben für Einsteiger mit Null-Hinweis-Experten-Rätseln für ältere Kinder in einem einzigen saisonalen Bündel.',
+      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um aktuell verfügbare Kryptogramm-Bündel zu erstellen. Ein \"Halloween-Geheimtexte\"-Paket mit gruselig thematisierten Chiffre-Bildern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Gumroad. Kombinieren Sie Hilfestellung-Rätsel bei 6–8 aufgedeckten Buchstaben für Einsteiger mit Null-Hinweis-Experten-Rätseln für ältere Kinder in einem einzigen saisonalen Bündel.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Schwierigkeitsgestufter Chiffre-Shop auf Etsy.de',
-      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf Kryptogramm-Arbeitsblätter spezialisiert, organisiert nach Schwierigkeitsstufe mit „Buchstaben aufdecken“ als Stufungsachse. Anfänger-Pakete (7–10 aufgedeckte Buchstaben) bieten umfangreiche Hilfestellung für junge Codeknacker. Fortgeschrittenen-Pakete (3–6 aufgedeckte Buchstaben) fordern sich entwickelnde Löser. Experten-Pakete (0–2 aufgedeckte Buchstaben) bieten reine Codeknacker-Herausforderungen. Die meisten Rätsel-Verkäufer bieten generische Einheitsschwierigkeit an — schwierigkeitsgestufte Kryptogramme lassen Käufer genau die richtige Herausforderungsstufe für ihre Nutzer finden, was zu besseren Bewertungen und Wiederkäufen führt.',
+      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf Kryptogramm-Arbeitsblätter spezialisiert, organisiert nach Schwierigkeitsstufe mit \"Buchstaben aufdecken\" als Stufungsachse. Anfänger-Pakete (7–10 aufgedeckte Buchstaben) bieten umfangreiche Hilfestellung für junge Codeknacker. Fortgeschrittenen-Pakete (3–6 aufgedeckte Buchstaben) fordern sich entwickelnde Löser. Experten-Pakete (0–2 aufgedeckte Buchstaben) bieten reine Codeknacker-Herausforderungen. Die meisten Rätsel-Verkäufer bieten generische Einheitsschwierigkeit an — schwierigkeitsgestufte Kryptogramme lassen Käufer genau die richtige Herausforderungsstufe für ihre Nutzer finden, was zu besseren Bewertungen und Wiederkäufen führt.',
       platform: 'Etsy.de',
     },
     {
       title: 'Thematische Chiffre-Buchserie auf Amazon KDP',
-      description: 'Stellen Sie über 80 Bildkryptogramm-Rätsel zu einem thematischen Rätselbuch für Amazon KDP zusammen. Strukturieren Sie eine Serie um beliebte Themen: „Tier-Geheimtexte“, „Essen-und-Küche-Chiffre-Rätsel“, „Natur-Codeknacker-Abenteuer“. Jedes Buch verwendet progressive Buchstaben-aufdecken-Schwierigkeit von stark gestützten Rätseln bis zu null Hinweisen, mit Buchstabenlegenden-Lösungsschlüsseln am Ende. Kryptogramm-Rätselbücher sind eine dramatisch unterversorgte Nische auf KDP im Vergleich zu Wortsuche und Kreuzworträtsel — das verschafft Ihnen einen Erstanbieter-Vorteil.',
+      description: 'Stellen Sie über 80 Bildkryptogramm-Rätsel zu einem thematischen Rätselbuch für Amazon KDP zusammen. Strukturieren Sie eine Serie um beliebte Themen: \"Tier-Geheimtexte\", \"Essen-und-Küche-Chiffre-Rätsel\", \"Natur-Codeknacker-Abenteuer\". Jedes Buch verwendet progressive Buchstaben-aufdecken-Schwierigkeit von stark gestützten Rätseln bis zu null Hinweisen, mit Buchstabenlegenden-Lösungsschlüsseln am Ende. Kryptogramm-Rätselbücher sind eine dramatisch unterversorgte Nische auf KDP im Vergleich zu Wortsuche und Kreuzworträtsel — das verschafft Ihnen einen Erstanbieter-Vorteil.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Codeknacker-Stationen auf Gumroad',
-      description: 'Laden Sie Kryptogramm-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema und Schwierigkeit. Fügen Sie vier Schwierigkeitsstufen pro Thema hinzu, die „Buchstaben aufdecken“ als Differenzierungsachse nutzen. Verpacken Sie mit Buchstabenlegenden-Lösungsschlüsseln und Fortschrittsbögen. Der Chiffre-Mechanismus ist von Natur aus fesselnd — Nutzer erleben echte Codeknacker-Spannung, wenn jeder entschlüsselte Buchstabe mehr der geheimen Nachricht freigibt. Verkäufer suchen nach „Cracking-Code-Aktivitäten“ und „Chiffre-Arbeitsblätter“ und finden sehr wenige qualitativ hochwertige Optionen.',
+      description: 'Laden Sie Kryptogramm-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema und Schwierigkeit. Fügen Sie vier Schwierigkeitsstufen pro Thema hinzu, die \"Buchstaben aufdecken\" als Differenzierungsachse nutzen. Verpacken Sie mit Buchstabenlegenden-Lösungsschlüsseln und Fortschrittsbögen. Der Chiffre-Mechanismus ist von Natur aus fesselnd — Nutzer erleben echte Codeknacker-Spannung, wenn jeder entschlüsselte Buchstabe mehr der geheimen Nachricht freigibt. Verkäufer suchen nach \"Cracking-Code-Aktivitäten\" und \"Chiffre-Arbeitsblätter\" und finden sehr wenige qualitativ hochwertige Optionen.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Buchstaben aufdecken als primäre Schwierigkeitssteuerung nutzen',
-      description: '„Buchstaben aufdecken“ ist die wirkungsvollste Einstellung zur Steuerung der Kryptogramm-Schwierigkeit. Bei 0 stehen Nutzer einer reinen Codeknacker-Herausforderung ohne Startinformationen gegenüber. Bei 5 ist etwa die Hälfte der Chiffre vorausgelöst für eine ausgewogene Herausforderung. Bei 10 wird das Rätsel zu einer geführten Übung für Einsteiger. Nutzen Sie diesen Regler, um aus einem einzigen Design ganze schwierigkeitsgestufte Produktlinien zu erstellen.',
+      description: '\"Buchstaben aufdecken\" ist die wirkungsvollste Einstellung zur Steuerung der Kryptogramm-Schwierigkeit. Bei 0 stehen Nutzer einer reinen Codeknacker-Herausforderung ohne Startinformationen gegenüber. Bei 5 ist etwa die Hälfte der Chiffre vorausgelöst für eine ausgewogene Herausforderung. Bei 10 wird das Rätsel zu einer geführten Übung für Einsteiger. Nutzen Sie diesen Regler, um aus einem einzigen Design ganze schwierigkeitsgestufte Produktlinien zu erstellen.',
     },
     {
       title: 'Ganze Sätze verschlüsseln für kontextuelle Hilfestellung',
-      description: 'Der Kryptogramm-Generator verschlüsselt ganze Sätze, nicht einzelne Wörter. Längere Sätze bieten natürlich mehr kontextuelle Hinweise — häufige kurze Wörter wie „der“, „und“ und „ist“ helfen Lösern, die Chiffre schneller zu knacken. Nutzen Sie kurze Zwei-Wort-Sätze für maximale Schwierigkeit und lange Sätze mit häufigen Wörtern für ein zugänglicheres Rätsel. Die Satzlänge ist ein zusätzlicher Schwierigkeitshebel neben „Buchstaben aufdecken“.',
+      description: 'Der Kryptogramm-Generator verschlüsselt ganze Sätze, nicht einzelne Wörter. Längere Sätze bieten natürlich mehr kontextuelle Hinweise — häufige kurze Wörter wie \"der\", \"und\" und \"ist\" helfen Lösern, die Chiffre schneller zu knacken. Nutzen Sie kurze Zwei-Wort-Sätze für maximale Schwierigkeit und lange Sätze mit häufigen Wörtern für ein zugänglicheres Rätsel. Die Satzlänge ist ein zusätzlicher Schwierigkeitshebel neben \"Buchstaben aufdecken\".',
     },
     {
       title: 'Auto-Zuordnung für schnelle Massenproduktion nutzen',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Farb- und Schwarzweiß-Filter für doppelte Produktpalette',
-      description: 'Jede Themensammlung ist in farbigen und Schwarzweiß-Varianten verfügbar. Erstellen Sie eine „Farb-Edition“ für digitale Downloads und lebendige Etsy-Listings, dann generieren Sie dasselbe Design in Schwarzweiß für tintenschonenden Shopdruck und KDP-Rätselbuch-Inhalte. Zwei Produktvarianten aus einer einzigen Designsitzung ohne zusätzliche Inhaltsarbeit.',
+      description: 'Jede Themensammlung ist in farbigen und Schwarzweiß-Varianten verfügbar. Erstellen Sie eine \"Farb-Edition\" für digitale Downloads und lebendige Etsy-Listings, dann generieren Sie dasselbe Design in Schwarzweiß für tintenschonenden Shopdruck und KDP-Rätselbuch-Inhalte. Zwei Produktvarianten aus einer einzigen Designsitzung ohne zusätzliche Inhaltsarbeit.',
     },
     {
       title: 'Mehrsprachig für 11-fache Produktpalette',
@@ -163,8 +163,8 @@ const content: ToolContent = {
       answer: 'Jedem Buchstaben des Alphabets wird ein einzigartiges Bild zugeordnet. Ihr Geheimtext wird als Bildfolge dargestellt, die jeden Buchstaben ersetzt. Nutzer betrachten die Bildfolge, folgern durch Mustererkennung und kontextuelle Hinweise, welches Bild welchen Buchstaben darstellt, und schreiben die entschlüsselten Buchstaben, um die ursprüngliche Nachricht zu rekonstruieren. Leerzeichen und Satzzeichen bleiben sichtbar, sodass Wortgrenzen erkennbar sind.',
     },
     {
-      question: 'Was bewirkt der Regler „Buchstaben aufdecken“ (0–10)?',
-      answer: '„Buchstaben aufdecken“ steuert, wie viele Bild-Buchstaben-Zuordnungen als Hinweise auf dem Arbeitsblatt vorausgelöst sind. Bei 0 beginnen Nutzer ohne Informationen und müssen die gesamte Chiffre von Grund auf knacken. Bei 10 sind zehn Zuordnungen bereits entschlüsselt, was erhebliche Hilfestellung bietet. Diese Einstellung ist die primäre Schwierigkeitssteuerung und die natürliche Differenzierungsachse für gestufte Produktpakete.',
+      question: 'Was bewirkt der Regler \"Buchstaben aufdecken\" (0–10)?',
+      answer: '\"Buchstaben aufdecken\" steuert, wie viele Bild-Buchstaben-Zuordnungen als Hinweise auf dem Arbeitsblatt vorausgelöst sind. Bei 0 beginnen Nutzer ohne Informationen und müssen die gesamte Chiffre von Grund auf knacken. Bei 10 sind zehn Zuordnungen bereits entschlüsselt, was erhebliche Hilfestellung bietet. Diese Einstellung ist die primäre Schwierigkeitssteuerung und die natürliche Differenzierungsachse für gestufte Produktpakete.',
     },
     {
       question: 'Was ist der Unterschied zwischen Auto-Zuordnung und manueller Zuordnung?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich ganze Sätze verschlüsseln, nicht nur einzelne Wörter?',
-      answer: 'Ja. Der Kryptogramm-Generator verschlüsselt ganze Sätze und Redewendungen. Nutzer entschlüsseln eine vollständige lesbare Nachricht, was kontextuelle Hinweise liefert — häufige kurze Wörter wie „der“, „und“ und „ist“ helfen Lösern, die Chiffre schneller zu knacken. Die Satzebenen-Verschlüsselung macht Rätsel befriedigender und lehrreicher als Einzelwort-Herausforderungen.',
+      answer: 'Ja. Der Kryptogramm-Generator verschlüsselt ganze Sätze und Redewendungen. Nutzer entschlüsseln eine vollständige lesbare Nachricht, was kontextuelle Hinweise liefert — häufige kurze Wörter wie \"der\", \"und\" und \"ist\" helfen Lösern, die Chiffre schneller zu knacken. Die Satzebenen-Verschlüsselung macht Rätsel befriedigender und lehrreicher als Einzelwort-Herausforderungen.',
     },
     {
       question: 'Wie unterscheidet sich Kryptogramm von Wortsuche, Buchstabensalat und Wörter-Raten?',

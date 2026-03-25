@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches de Séquences Logiques',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de séquences logiques immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de séquences logiques immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et l\'Arrière-Plan',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles Saisonniers et de Fêtes',
-      description: 'Utilisez les thèmes d\'images saisonniers et de fêtes pour créer des lots de séquences logiques à durée limitée. Un pack « Séquences Logiques Halloween » avec des images effrayantes se vend en octobre. Noël, rentrée scolaire, Saint-Valentin et été ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Combinez des échauffements AB simples avec des défis ABCD avancés dans chaque ensemble saisonnier pour couvrir plusieurs niveaux de compétence. Les deux modes de question multiplient la variété au sein de chaque thème.',
+      description: 'Utilisez les thèmes d\'images saisonniers et de fêtes pour créer des lots de séquences logiques à durée limitée. Un pack \" Séquences Logiques Halloween \" avec des images effrayantes se vend en octobre. Noël, rentrée scolaire, Saint-Valentin et été ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Combinez des échauffements AB simples avec des défis ABCD avancés dans chaque ensemble saisonnier pour couvrir plusieurs niveaux de compétence. Les deux modes de question multiplient la variété au sein de chaque thème.',
     },
     {
       title: 'Lots Multi-Formats d\'Apprentissage Visuel',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers de Motifs sur Amazon KDP',
-      description: 'Compilez plus de 80 exercices de complétion de motifs dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Motifs Débutants » couvre AB jusqu\'à ABB en mode case vide. « Motifs Intermédiaires » introduit ABC et AABB avec les deux modes de question. « Motifs Avancés » présente ABBC jusqu\'à ABCD avec début aléatoire et position vide aléatoire. Corrigés à la fin de chaque cahier. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction, maximisant votre portée géographique à partir d\'un seul fichier intérieur.',
+      description: 'Compilez plus de 80 exercices de complétion de motifs dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : \" Motifs Débutants \" couvre AB jusqu\'à ABB en mode case vide. \" Motifs Intermédiaires \" introduit ABC et AABB avec les deux modes de question. \" Motifs Avancés \" présente ABBC jusqu\'à ABCD avec début aléatoire et position vide aléatoire. Corrigés à la fin de chaque cahier. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction, maximisant votre portée géographique à partir d\'un seul fichier intérieur.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Ateliers par Niveaux sur Gumroad',
-      description: 'Téléchargez des packs de fiches de séquences logiques sur Gumroad organisés par niveau de compétence en utilisant la configuration par exercice comme différenciateur. Le Niveau 1 propose des pages entièrement AB en case vide. Le Niveau 2 mélange AB et AAB avec les deux modes. Le Niveau 3 introduit ABC en choix multiple avec des échauffements en case vide. Le Niveau 4 combine des défis ABCD avec début aléatoire activé. Chaque niveau utilise des exercices thématiques avec corrigés séparés. L\'indépendance par exercice signifie qu\'une page sert d\'activité d\'atelier complète. Les vendeurs recherchent « fiches de reconnaissance de motifs » et trouvent peu d\'options avec neuf types de motifs.',
+      description: 'Téléchargez des packs de fiches de séquences logiques sur Gumroad organisés par niveau de compétence en utilisant la configuration par exercice comme différenciateur. Le Niveau 1 propose des pages entièrement AB en case vide. Le Niveau 2 mélange AB et AAB avec les deux modes. Le Niveau 3 introduit ABC en choix multiple avec des échauffements en case vide. Le Niveau 4 combine des défis ABCD avec début aléatoire activé. Chaque niveau utilise des exercices thématiques avec corrigés séparés. L\'indépendance par exercice signifie qu\'une page sert d\'activité d\'atelier complète. Les vendeurs recherchent \" fiches de reconnaissance de motifs \" et trouvent peu d\'options avec neuf types de motifs.',
       platform: 'Gumroad',
     },
     {
       title: 'Tunnel de Vente Pinterest pour Fiches de Motifs',
-      description: 'Les fiches de séquences logiques avec des images colorées dans une mise en page en grille soignée font d\'excellentes épingles Pinterest. Épinglez des fiches d\'exemple avec filigrane, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des épingles pour chaque mode de question séparément — « fiches de motifs à compléter » et « fiches de motifs à choix multiple » ciblent des requêtes de recherche différentes. Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
+      description: 'Les fiches de séquences logiques avec des images colorées dans une mise en page en grille soignée font d\'excellentes épingles Pinterest. Épinglez des fiches d\'exemple avec filigrane, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des épingles pour chaque mode de question séparément — \" fiches de motifs à compléter \" et \" fiches de motifs à choix multiple \" ciblent des requêtes de recherche différentes. Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Différenciez le Format Grille du Format Train',
-      description: 'Les Fiches de Séquences Logiques (grille) et le Train de Suites Logiques (wagons) produisent des formats visuels complètement différents pour la même compétence. Vendez les deux formats séparément ou regroupez-les en « Pack Complet de Reconnaissance de Motifs ». Dans les descriptions de produits, indiquez clairement « lignes et colonnes en grille » vs. « disposition unique à 11 wagons » pour que les acheteurs comprennent qu\'ils obtiennent deux types d\'activités distincts, pas des doublons.',
+      description: 'Les Fiches de Séquences Logiques (grille) et le Train de Suites Logiques (wagons) produisent des formats visuels complètement différents pour la même compétence. Vendez les deux formats séparément ou regroupez-les en \" Pack Complet de Reconnaissance de Motifs \". Dans les descriptions de produits, indiquez clairement \" lignes et colonnes en grille \" vs. \" disposition unique à 11 wagons \" pour que les acheteurs comprennent qu\'ils obtiennent deux types d\'activités distincts, pas des doublons.',
     },
     {
       title: 'Activez le Début Aléatoire et la Position Vide Aléatoire pour des Fiches Uniques',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Soulignez la Sortie Sans Texte pour la Vendabilité Mondiale',
-      description: 'Les fiches de séquences logiques contiennent zéro texte sur la sortie — uniquement des images en lignes de grille. C\'est votre avantage concurrentiel le plus fort pour les listings de places de marché. Indiquez explicitement « aucune traduction nécessaire — fonctionne dans le monde entier » dans chaque description de produit. Les acheteurs de n\'importe quel pays peuvent acheter sans se soucier de la compatibilité linguistique. Un seul fichier produit sert tous les marchés.',
+      description: 'Les fiches de séquences logiques contiennent zéro texte sur la sortie — uniquement des images en lignes de grille. C\'est votre avantage concurrentiel le plus fort pour les listings de places de marché. Indiquez explicitement \" aucune traduction nécessaire — fonctionne dans le monde entier \" dans chaque description de produit. Les acheteurs de n\'importe quel pays peuvent acheter sans se soucier de la compatibilité linguistique. Un seul fichier produit sert tous les marchés.',
     },
     {
       title: 'Adaptez la Complexité du Motif à la Tranche d\'Âge Cible',

@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Train de Suites Logiques',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches train de suites logiques immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches train de suites logiques immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et l\'Arrière-Plan',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles Saisonniers et de Fêtes de Trains de Suites Logiques',
-      description: 'Utilisez les thèmes d\'images saisonniers et de fêtes pour créer des lots de trains de suites logiques à durée limitée. Un pack « Train de Suites Logiques Halloween » avec des images effrayantes se vend en octobre. Noël, rentrée scolaire, Saint-Valentin et été ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Combinez des échauffements AB simples avec des défis AABB avancés dans chaque ensemble saisonnier pour couvrir plusieurs niveaux de compétence et maximiser votre audience d\'acheteurs.',
+      description: 'Utilisez les thèmes d\'images saisonniers et de fêtes pour créer des lots de trains de suites logiques à durée limitée. Un pack \" Train de Suites Logiques Halloween \" avec des images effrayantes se vend en octobre. Noël, rentrée scolaire, Saint-Valentin et été ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Combinez des échauffements AB simples avec des défis AABB avancés dans chaque ensemble saisonnier pour couvrir plusieurs niveaux de compétence et maximiser votre audience d\'acheteurs.',
     },
     {
       title: 'Lots Multi-Formats d\'Apprentissage Visuel',
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers de Mathématiques Précoces sur Amazon KDP',
-      description: 'Compilez plus de 80 exercices de trains de suites logiques dans des cahiers thématiques pour Amazon KDP. Structurez une série par thème : « Trains de Suites Logiques Animaux », « Trains de Séquences Véhicules », « Reconnaissance de Motifs Nourriture ». Chaque livre progresse des motifs AB simples aux séquences AABB complexes avec corrigés à la fin. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction. Les cahiers de trains de suites logiques remplissent une niche spécifique d\'apprentissage précoce avec une demande constante toute l\'année.',
+      description: 'Compilez plus de 80 exercices de trains de suites logiques dans des cahiers thématiques pour Amazon KDP. Structurez une série par thème : \" Trains de Suites Logiques Animaux \", \" Trains de Séquences Véhicules \", \" Reconnaissance de Motifs Nourriture \". Chaque livre progresse des motifs AB simples aux séquences AABB complexes avec corrigés à la fin. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction. Les cahiers de trains de suites logiques remplissent une niche spécifique d\'apprentissage précoce avec une demande constante toute l\'année.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Ateliers de Motifs sur Gumroad',
-      description: 'Téléchargez des packs de fiches train de suites logiques sur Gumroad organisés par niveau de compétence et thème. Incluez quatre paliers de difficulté par thème en utilisant le type de motif et le nombre d\'indices comme axes de différenciation. Accompagnez de corrigés auto-générés et de fiches de suivi de progression. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d\'atelier en ligne. Les vendeurs recherchent « activités de reconnaissance de motifs » et « fiches de séquences répétitives » et trouvent peu d\'options au format train — vos produits comblent un véritable manque.',
+      description: 'Téléchargez des packs de fiches train de suites logiques sur Gumroad organisés par niveau de compétence et thème. Incluez quatre paliers de difficulté par thème en utilisant le type de motif et le nombre d\'indices comme axes de différenciation. Accompagnez de corrigés auto-générés et de fiches de suivi de progression. Le format en wagons de train crée un thème visuel engageant qui fonctionne comme activité d\'atelier en ligne. Les vendeurs recherchent \" activités de reconnaissance de motifs \" et \" fiches de séquences répétitives \" et trouvent peu d\'options au format train — vos produits comblent un véritable manque.',
       platform: 'Gumroad',
     },
     {
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Mettez en Avant le Format Train comme Votre Différenciateur de Place de Marché',
-      description: 'La plupart des fiches de motifs sur Etsy.fr et Gumroad utilisent des mises en page en grille standard avec des lignes et colonnes. Le format en wagons de train à 11 wagons est visuellement distinctif et immédiatement reconnaissable dans les résultats de recherche. Mentionnez « format wagons de train » et « disposition à 11 wagons » dans vos titres et descriptions de produits pour souligner ce qui distingue vos listings des concurrents en grille.',
+      description: 'La plupart des fiches de motifs sur Etsy.fr et Gumroad utilisent des mises en page en grille standard avec des lignes et colonnes. Le format en wagons de train à 11 wagons est visuellement distinctif et immédiatement reconnaissable dans les résultats de recherche. Mentionnez \" format wagons de train \" et \" disposition à 11 wagons \" dans vos titres et descriptions de produits pour souligner ce qui distingue vos listings des concurrents en grille.',
     },
     {
       title: 'Soulignez le Format Sans Texte pour la Vendabilité Mondiale',
-      description: 'Les fiches train de suites logiques ne contiennent aucun texte sur la sortie — uniquement des images sur les wagons. C\'est votre avantage concurrentiel le plus fort pour les listings de places de marché. Indiquez explicitement « aucune traduction nécessaire — fonctionne dans le monde entier » dans chaque description de produit. Les acheteurs de n\'importe quel pays peuvent acheter sans se soucier de la compatibilité linguistique.',
+      description: 'Les fiches train de suites logiques ne contiennent aucun texte sur la sortie — uniquement des images sur les wagons. C\'est votre avantage concurrentiel le plus fort pour les listings de places de marché. Indiquez explicitement \" aucune traduction nécessaire — fonctionne dans le monde entier \" dans chaque description de produit. Les acheteurs de n\'importe quel pays peuvent acheter sans se soucier de la compatibilité linguistique.',
     },
     {
       title: 'Créez des Produits Train et Grille de Motifs Complémentaires',
-      description: 'Le Créateur de Fiches Train de Suites Logiques et le Créateur de Fiches Séquences Logiques produisent des formats visuels fondamentalement différents pour la même compétence — la reconnaissance de motifs. Le format train utilise 11 wagons avec une seule position manquante. Le format grille utilise des lignes et colonnes standard pour la complétion de motifs. Vendez les deux formats séparément ou regroupez-les en « Pack Complet de Reconnaissance de Motifs » pour un prix premium.',
+      description: 'Le Créateur de Fiches Train de Suites Logiques et le Créateur de Fiches Séquences Logiques produisent des formats visuels fondamentalement différents pour la même compétence — la reconnaissance de motifs. Le format train utilise 11 wagons avec une seule position manquante. Le format grille utilise des lignes et colonnes standard pour la complétion de motifs. Vendez les deux formats séparément ou regroupez-les en \" Pack Complet de Reconnaissance de Motifs \" pour un prix premium.',
     },
     {
       title: 'Adaptez le Nombre d\'Indices à Votre Tranche d\'Âge Cible',

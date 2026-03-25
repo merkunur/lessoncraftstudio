@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Corrigé avec code couleur et 6 couleurs de surlignage',
         description:
-          'Le corrigé met en évidence chaque mot trouvé dans l\'une de six couleurs alternées : rose, bleu, vert, doré, corail et lavande. Chaque mot reçoit une couleur distincte pour une identification visuelle instantanée, facilitant l\'auto-vérification par les utilisateurs ou la correction rapide par les vendeurs. Le format avec code couleur est visuellement attrayant et professionnel — un net progrès par rapport aux simples corrigés « entourez le mot ». Activez l\'export en niveaux de gris quand vous avez besoin de versions économiques en encre pour l\'impression en noir et blanc.',
+          'Le corrigé met en évidence chaque mot trouvé dans l\'une de six couleurs alternées : rose, bleu, vert, doré, corail et lavande. Chaque mot reçoit une couleur distincte pour une identification visuelle instantanée, facilitant l\'auto-vérification par les utilisateurs ou la correction rapide par les vendeurs. Le format avec code couleur est visuellement attrayant et professionnel — un net progrès par rapport aux simples corrigés \" entourez le mot \". Activez l\'export en niveaux de gris quand vous avez besoin de versions économiques en encre pour l\'impression en noir et blanc.',
       },
       {
         title: 'Export PDF et JPEG prêt à imprimer à 400+ DPI',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Produits de mots cachés multilingues avec Accès Complet',
         description:
-          'L\'Accès Complet déverrouille les 11 langues, et comme les Mots Cachés sont sensibles à la langue, les mots dissimulés ET les lettres de remplissage de la grille changent selon la langue. « Dog » en anglais devient « Hund » dans une grille remplie de caractères allemands dont ä, ö, ü ; « chien » en français apparaît dans une grille avec é, è, ç, à. Chaque version linguistique est un produit véritablement différent avec des mots différents, des lettres de remplissage différentes et une expérience de résolution différente. Créez des séries thématiques identiques dans plusieurs langues et listez chacune comme un produit Etsy ou un cahier KDP séparé — onze flux de revenus à partir d\'un seul flux de travail.',
+          'L\'Accès Complet déverrouille les 11 langues, et comme les Mots Cachés sont sensibles à la langue, les mots dissimulés ET les lettres de remplissage de la grille changent selon la langue. \" Dog \" en anglais devient \" Hund \" dans une grille remplie de caractères allemands dont ä, ö, ü ; \" chien \" en français apparaît dans une grille avec é, è, ç, à. Chaque version linguistique est un produit véritablement différent avec des mots différents, des lettres de remplissage différentes et une expérience de résolution différente. Créez des séries thématiques identiques dans plusieurs langues et listez chacune comme un produit Etsy ou un cahier KDP séparé — onze flux de revenus à partir d\'un seul flux de travail.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {

@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Coloring Page Maker',
     tagline: 'Free-form canvas coloring page generator with freehand drawing, grayscale export, name and date helpers, and 104 themed image collections for professional coloring pages that sell worldwide without translation',
-    description: 'Design professional coloring pages on a completely open canvas where you place images exactly where you want them — no grids, no templates, no slots, pure creative freedom. This free-form approach is the core differentiator: every coloring page you create is unique and impossible to replicate with template-based tools. Browse 104 themed image collections with 3,100+ colorful illustrations, click to add images, then arrange, resize, rotate, and layer elements anywhere on the canvas. The freehand drawing tool lets you sketch original illustrations directly alongside library images with adjustable brush color and size (1–50 pixels), creating hybrid coloring pages that blend curated artwork with your own drawings. One-click name and date helpers add a name field (“Name: ____”) and handwriting practice lines (solid, dashed, solid) — turning coloring pages into structured activity sheets that sell on Etsy and Gumroad. When finished, toggle grayscale export to convert your colorful composition into ink-friendly coloring pages perfect for KDP interiors and bulk printing. Add decorative border themes from the border library, custom text with outline effects using fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, and upload your own PNG, JPG, or GIF images. This is a purely visual app — output contains no text, making coloring pages universally sellable without translation. No answer key exists because coloring is a creative activity with no correct answer. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Design professional coloring pages on a completely open canvas where you place images exactly where you want them — no grids, no templates, no slots, pure creative freedom. This free-form approach is the core differentiator: every coloring page you create is unique and impossible to replicate with template-based tools. Browse 104 themed image collections with 3,100+ colorful illustrations, click to add images, then arrange, resize, rotate, and layer elements anywhere on the canvas. The freehand drawing tool lets you sketch original illustrations directly alongside library images with adjustable brush color and size (1–50 pixels), creating hybrid coloring pages that blend curated artwork with your own drawings. One-click name and date helpers add a name field (\"Name: ____\") and handwriting practice lines (solid, dashed, solid) — turning coloring pages into structured activity sheets that sell on Etsy and Gumroad. When finished, toggle grayscale export to convert your colorful composition into ink-friendly coloring pages perfect for KDP interiors and bulk printing. Add decorative border themes from the border library, custom text with outline effects using fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, and upload your own PNG, JPG, or GIF images. This is a purely visual app — output contains no text, making coloring pages universally sellable without translation. No answer key exists because coloring is a creative activity with no correct answer. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Open the Coloring Page Maker',
-        description: 'Click “Try Free Now” to launch the coloring page generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building coloring pages immediately on the free-form canvas.',
+        description: 'Click \"Try Free Now\" to launch the coloring page generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building coloring pages immediately on the free-form canvas.',
       },
       {
         title: 'Set Your Page Layout and Border',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Add Layout Helpers and Text',
-        description: 'Click the Name Field button to add a formatted “Name: ____” text block at the top of the page for identification. Click the Handwriting Lines button to add a group of three evenly spaced lines (solid, dashed, solid) near the bottom for handwriting practice. These one-click name and date helpers transform coloring pages into ready-to-use activity sheets. Add titles, instructions, or labels using the Text Tools panel with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust text outline width from 0 to 10 with 0.5-step granularity.',
+        description: 'Click the Name Field button to add a formatted \"Name: ____\" text block at the top of the page for identification. Click the Handwriting Lines button to add a group of three evenly spaced lines (solid, dashed, solid) near the bottom for handwriting practice. These one-click name and date helpers transform coloring pages into ready-to-use activity sheets. Add titles, instructions, or labels using the Text Tools panel with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust text outline width from 0 to 10 with 0.5-step granularity.',
       },
       {
         title: 'Toggle Grayscale and Export',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Structured Coloring Activity Sheets',
-      description: 'Use the one-click name and date helpers to create coloring pages with built-in name fields and handwriting practice lines. The name field adds “Name: ____” at the top for identification. The handwriting lines add solid-dashed-solid practice lines at the bottom. These two additions transform standard coloring pages into structured structured activities that Gumroad buyers specifically search for. Create themed sets aligned with curriculum topics — farm animals for science, community helpers for social studies, seasonal themes for holiday activities — each pack with name and date helpers pre-built.',
+      description: 'Use the one-click name and date helpers to create coloring pages with built-in name fields and handwriting practice lines. The name field adds \"Name: ____\" at the top for identification. The handwriting lines add solid-dashed-solid practice lines at the bottom. These two additions transform standard coloring pages into structured structured activities that Gumroad buyers specifically search for. Create themed sets aligned with curriculum topics — farm animals for science, community helpers for social studies, seasonal themes for holiday activities — each pack with name and date helpers pre-built.',
     },
     {
       title: 'Hybrid Illustration Coloring Pages',
@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pinterest Coloring Page Traffic Funnel',
-      description: 'Coloring pages make visually striking Pinterest pins that drive traffic to your Etsy shop or landing page. Pin sample coloring pages with watermark showing the free-form compositions, themed image arrangements, and name and date helpers. Create separate pin series for “animal coloring pages,” “holiday coloring worksheets,” and “coloring activity worksheets.” The purely visual format appeals to parents and buyers in every country. Link each pin to your product listings and build an email list of coloring page buyers for new release announcements.',
+      description: 'Coloring pages make visually striking Pinterest pins that drive traffic to your Etsy shop or landing page. Pin sample coloring pages with watermark showing the free-form compositions, themed image arrangements, and name and date helpers. Create separate pin series for \"animal coloring pages,\" \"holiday coloring worksheets,\" and \"coloring activity worksheets.\" The purely visual format appeals to parents and buyers in every country. Link each pin to your product listings and build an email list of coloring page buyers for new release announcements.',
       platform: 'Pinterest',
     },
     {
@@ -132,11 +132,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Add Layout Helpers to Command Higher Prices',
-      description: 'Coloring pages with name fields and handwriting lines sell for more than generic coloring pages because they serve a functional practical purpose. Buyers on Gumroad specifically search for “structured” coloring activities with identification areas. Adding these one-click helpers takes seconds but transforms your product from a simple coloring page into a structured learning activity that justifies premium pricing.',
+      description: 'Coloring pages with name fields and handwriting lines sell for more than generic coloring pages because they serve a functional practical purpose. Buyers on Gumroad specifically search for \"structured\" coloring activities with identification areas. Adding these one-click helpers takes seconds but transforms your product from a simple coloring page into a structured learning activity that justifies premium pricing.',
     },
     {
       title: 'Combine Freehand Drawing with Library Images',
-      description: 'Use the freehand drawing tool to add original sketches alongside library images. Draw custom borders, connecting elements, decorative doodles, or entirely original illustrations. This hybrid approach creates coloring pages that no other seller can exactly duplicate — your freehand additions are unique intellectual property. Highlight “hand-drawn elements” in product descriptions to appeal to buyers who value artisan quality over mass-produced templates.',
+      description: 'Use the freehand drawing tool to add original sketches alongside library images. Draw custom borders, connecting elements, decorative doodles, or entirely original illustrations. This hybrid approach creates coloring pages that no other seller can exactly duplicate — your freehand additions are unique intellectual property. Highlight \"hand-drawn elements\" in product descriptions to appeal to buyers who value artisan quality over mass-produced templates.',
     },
     {
       title: 'Build Seasonal Collections for Recurring Revenue',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What are the name and date helpers?',
-      answer: 'Two one-click buttons add structured elements. The Name Field button places a formatted “Name: ____” text block at the top of the page for identification. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom for handwriting practice. These helpers transform coloring pages into structured structured activities without manual text formatting — a key selling point for Gumroad resources.',
+      answer: 'Two one-click buttons add structured elements. The Name Field button places a formatted \"Name: ____\" text block at the top of the page for identification. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom for handwriting practice. These helpers transform coloring pages into structured structured activities without manual text formatting — a key selling point for Gumroad resources.',
     },
     {
       question: 'How does the freehand drawing tool work?',

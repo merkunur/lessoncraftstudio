@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Cabeçalho autogerado e adaptável com texto localizado',
         description:
-          'Cada ficha inclui um cabeçalho autogerado que se adapta à orientação da página. O modo Vertical apresenta um cabeçalho grande centrado com uma borda exterior magenta e uma borda interior rosa. O modo Horizontal usa um cabeçalho compacto centrado com fundo verde lima e uma pastilha branca. O texto do cabeçalho é automaticamente localizado nos 11 idiomas suportados — «Desenhar e Colorir» em português, «Draw and Color» em inglês, «Zeichnen & Ausmalen» em alemão, etc. Os cabeçalhos são completamente editáveis no canvas: selecione, mova, redimensione ou elimine-os. Esta localização automática permite aos vendedores criar produtos multilingues sem tradução manual de cabeçalhos.',
+          'Cada ficha inclui um cabeçalho autogerado que se adapta à orientação da página. O modo Vertical apresenta um cabeçalho grande centrado com uma borda exterior magenta e uma borda interior rosa. O modo Horizontal usa um cabeçalho compacto centrado com fundo verde lima e uma pastilha branca. O texto do cabeçalho é automaticamente localizado nos 11 idiomas suportados — \"Desenhar e Colorir\" em português, \"Draw and Color\" em inglês, \"Zeichnen & Ausmalen\" em alemão, etc. Os cabeçalhos são completamente editáveis no canvas: selecione, mova, redimensione ou elimine-os. Esta localização automática permite aos vendedores criar produtos multilingues sem tradução manual de cabeçalhos.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a 300 DPI',

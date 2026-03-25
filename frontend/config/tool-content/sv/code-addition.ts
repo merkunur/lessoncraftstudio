@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna arbetsblad-generatorn',
-        description: 'Klicka på «Prova gratis nu» för att starta kodadditions-generatorn i din webbläsare. Det mörka sidofältet till vänster håller alla dina inställningar; den ljusa arbetsytan till höger visar din liveförhandsvisning. Inget konto, ingen nedladdning, inga tillägg krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta kodadditions-generatorn i din webbläsare. Det mörka sidofältet till vänster håller alla dina inställningar; den ljusa arbetsytan till höger visar din liveförhandsvisning. Inget konto, ingen nedladdning, inga tillägg krävs.',
       },
       {
         title: 'Ställ in symbolantalet',
-        description: 'I panelen «Övningskonfiguration» använder du dropdownen Symbolantal för att välja hur många bildsymboler som visas i din kod. Färre symboler (3–4) är lättare för nybörjare; fler symboler (6–8) skapar en tuffare logikutmaning. Varje symbol gömmer en unik hemlig siffra i Vanligt Läge.',
+        description: 'I panelen \"Övningskonfiguration\" använder du dropdownen Symbolantal för att välja hur många bildsymboler som visas i din kod. Färre symboler (3–4) är lättare för nybörjare; fler symboler (6–8) skapar en tuffare logikutmaning. Varje symbol gömmer en unik hemlig siffra i Vanligt Läge.',
       },
       {
         title: 'Välj addender per fråga',
@@ -45,19 +45,19 @@ const content: ToolContent = {
       },
       {
         title: 'Välj bilder från temabiblioteket',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, rymden, högtider och fler. Varje bild blir en symbol i koden. Använd sökfältet för att hitta specifika teman, eller klicka på enskilda bilder för att handplocka exakt de symboler du vill ha.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, rymden, högtider och fler. Varje bild blir en symbol i koden. Använd sökfältet för att hitta specifika teman, eller klicka på enskilda bilder för att handplocka exakt de symboler du vill ha.',
       },
       {
         title: 'Anpassa sidlayouten',
-        description: 'I avsnittet «Sidinställningar» väljer du sidstorlek (Letter, A4, Kvadrat eller anpassade dimensioner), ställer in bakgrundsfärg, lägger till en tematisk bakgrund med justerbar opacitet och väljer en dekorativ ram från rambiblioteket. Kvadratformat fungerar utmärkt för KDP-aktivitetsböcker.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du sidstorlek (Letter, A4, Kvadrat eller anpassade dimensioner), ställer in bakgrundsfärg, lägger till en tematisk bakgrund med justerbar opacitet och väljer en dekorativ ram från rambiblioteket. Kvadratformat fungerar utmärkt för KDP-aktivitetsböcker.',
       },
       {
         title: 'Lägg till text och varumärkning',
-        description: 'Använd panelen «Textverktyg» för att lägga till en titel som «Knäck Koden!» eller «Hemlig Sifferutmaning». Lägg till ett namnsfält, instruktioner eller din butiksvarumärkning. Välj bland tydliga typsnitt (Fredoka, Baloo 2, Quicksand, Nunito) och justera storlek, färg och textkontur.',
+        description: 'Använd panelen \"Textverktyg\" för att lägga till en titel som \"Knäck Koden!\" eller \"Hemlig Sifferutmaning\". Lägg till ett namnsfält, instruktioner eller din butiksvarumärkning. Välj bland tydliga typsnitt (Fredoka, Baloo 2, Quicksand, Nunito) och justera storlek, färg och textkontur.',
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt pussel. Förhandsvisningen uppdateras direkt på arbetsytan. Ladda ner som JPEG för produktmockups eller PDF för tryckfärdiga leveranser. Generera och ladda ner ett matchande facit som avslöjar alla hemliga siffror (eller bokstäver i Ord Avslöjande-läget).',
+        description: 'Klicka på \"Generera\" för att bygga ditt pussel. Förhandsvisningen uppdateras direkt på arbetsytan. Ladda ner som JPEG för produktmockups eller PDF för tryckfärdiga leveranser. Generera och ladda ner ett matchande facit som avslöjar alla hemliga siffror (eller bokstäver i Ord Avslöjande-läget).',
       },
     ],
   },
@@ -102,12 +102,12 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP pusselbokserie',
-      description: 'Publicera en serie kryptaritmetik-pusselböcker på KDP: «Kodknäckar Matte: Djurutgåvan», «Kodknäckar Matte: Rymdutgåvan» och så vidare. Varje bok innehåller 80–100 pussel med progressiv svårighet. Prissätt till 79–99 SEK och låt Amazon hantera utskrift. Pusselböcker har starka KDP-marginaler.',
+      description: 'Publicera en serie kryptaritmetik-pusselböcker på KDP: \"Kodknäckar Matte: Djurutgåvan\", \"Kodknäckar Matte: Rymdutgåvan\" och så vidare. Varje bok innehåller 80–100 pussel med progressiv svårighet. Prissätt till 79–99 SEK och låt Amazon hantera utskrift. Pusselböcker har starka KDP-marginaler.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad digital produktkatalogspaket',
-      description: 'Skapa ett strukturerat 8-veckors «Kodknäckar Matte»-produktkatalogspaket med veckovisa pusselset. Vecka 1 börjar med 3 symboler, Vecka 8 avslutar med blandade addender och Ord Avslöjande-utmaningar. Sälj som en premium digital nedladdning (120–150 SEK) på Gumroad. Hemundervisande föräldrar betalar bra för kompletta, strukturerade program.',
+      description: 'Skapa ett strukturerat 8-veckors \"Kodknäckar Matte\"-produktkatalogspaket med veckovisa pusselset. Vecka 1 börjar med 3 symboler, Vecka 8 avslutar med blandade addender och Ord Avslöjande-utmaningar. Sälj som en premium digital nedladdning (120–150 SEK) på Gumroad. Hemundervisande föräldrar betalar bra för kompletta, strukturerade program.',
       platform: 'Gumroad',
     },
     {

@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador de fichas de mayor que menor que. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador de fichas de mayor que menor que. La herramienta se abre al instante en tu navegador con una barra lateral oscura a la izquierda para los ajustes y un lienzo luminoso a la derecha para la vista previa en tiempo real. No necesitas cuenta ni descargar nada.',
       },
       {
         title: 'Elegir el Modo de Ejercicio',
-        description: 'Abre el panel «Configuración de Ejercicios» y selecciona entre tres modos: Imagen a Imagen (dos grupos de imágenes lado a lado — los usuarios cuentan y comparan cantidades), Imagen a Número (un grupo de imágenes junto a un número — conecta el reconocimiento visual con el abstracto), o Marca y Tacha Grupos (una caja con 8–20 imágenes mezcladas de dos categorías — los usuarios marcan el grupo mayoritario y tachan el grupo minoritario). Marca y Tacha es exclusivo de esta herramienta y te permite crear productos que ningún competidor puede igualar.',
+        description: 'Abre el panel \"Configuración de Ejercicios\" y selecciona entre tres modos: Imagen a Imagen (dos grupos de imágenes lado a lado — los usuarios cuentan y comparan cantidades), Imagen a Número (un grupo de imágenes junto a un número — conecta el reconocimiento visual con el abstracto), o Marca y Tacha Grupos (una caja con 8–20 imágenes mezcladas de dos categorías — los usuarios marcan el grupo mayoritario y tachan el grupo minoritario). Marca y Tacha es exclusivo de esta herramienta y te permite crear productos que ningún competidor puede igualar.',
       },
       {
         title: 'Ajustar el Rango Numérico',
@@ -49,15 +49,15 @@ const content: ToolContent = {
       },
       {
         title: 'Seleccionar Imágenes de la Biblioteca Temática',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 100 colecciones temáticas: animales, comida, vehículos, criaturas marinas, espacio, deportes y muchos más. Usa la barra de búsqueda para encontrar temas específicos. Haz clic en las imágenes individuales para elegir exactamente cuáles aparecerán en tu ficha.',
       },
       {
         title: 'Personalizar el Diseño de Página',
-        description: 'En la sección «Configuración de Página», elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
+        description: 'En la sección \"Configuración de Página\", elige entre Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes.',
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en el botón «Generar» para crear tu ficha. La vista previa se actualiza en el lienzo en tiempo real. Cuando estés satisfecho, usa el menú «Descargar» para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). También puedes generar y descargar una clave de respuestas con todos los símbolos de comparación correctos completados.',
+        description: 'Haz clic en el botón \"Generar\" para crear tu ficha. La vista previa se actualiza en el lienzo en tiempo real. Cuando estés satisfecho, usa el menú \"Descargar\" para guardar como JPEG (imagen individual) o PDF (optimizado para impresión). También puedes generar y descargar una clave de respuestas con todos los símbolos de comparación correctos completados.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Comparación Estacionales',
-      description: 'Usa temas de fiestas y temporadas (Navidad, Halloween, flores de primavera, playa de verano) para crear packs de edición limitada. Los productos estacionales se venden especialmente bien en Etsy porque los compradores los buscan en ventanas específicas. Un pack de «Mayor y Menor de Halloween» con imágenes temáticas es un imán de atención garantizado en octubre.',
+      description: 'Usa temas de fiestas y temporadas (Navidad, Halloween, flores de primavera, playa de verano) para crear packs de edición limitada. Los productos estacionales se venden especialmente bien en Etsy porque los compradores los buscan en ventanas específicas. Un pack de \"Mayor y Menor de Halloween\" con imágenes temáticas es un imán de atención garantizado en octubre.',
     },
     {
       title: 'Packs de Fichas Visuales para el Mercado Global',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Vendedor de Packs de Matemáticas en Gumroad',
-      description: 'Sube packs de fichas de comparación diferenciadas a Gumroad. Los vendedores buscan constantemente «fichas de mayor que menor que» y «fichas de comparación de números». Incluye los tres modos de ejercicio, versiones con símbolos ilustrados y estándar, claves de respuestas y una guía vendedor en cada listing para una mayor percepción de valor.',
+      description: 'Sube packs de fichas de comparación diferenciadas a Gumroad. Los vendedores buscan constantemente \"fichas de mayor que menor que\" y \"fichas de comparación de números\". Incluye los tres modos de ejercicio, versiones con símbolos ilustrados y estándar, claves de respuestas y una guía vendedor en cada listing para una mayor percepción de valor.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa las Ilustraciones para los Más Pequeños',
-      description: 'Los símbolos de comparación ilustrados son coloridos y adaptados para niños, ideales para productos de preescolar e infantil. Cambia a Símbolos Normales para primer curso en adelante, o incluye ambas versiones en tu pack para que los vendedores elijan la más adecuada. Incluir ambos estilos de símbolos en un mismo listing también amplía tu alcance de palabras clave en Etsy porque los compradores buscan tanto «fichas de comparación con imágenes» como «fichas de símbolos mayor que menor que» — cubrir ambas versiones significa que tu listing coincide con una gama más amplia de consultas de búsqueda.',
+      description: 'Los símbolos de comparación ilustrados son coloridos y adaptados para niños, ideales para productos de preescolar e infantil. Cambia a Símbolos Normales para primer curso en adelante, o incluye ambas versiones en tu pack para que los vendedores elijan la más adecuada. Incluir ambos estilos de símbolos en un mismo listing también amplía tu alcance de palabras clave en Etsy porque los compradores buscan tanto \"fichas de comparación con imágenes\" como \"fichas de símbolos mayor que menor que\" — cubrir ambas versiones significa que tu listing coincide con una gama más amplia de consultas de búsqueda.',
     },
     {
       title: 'Escala la Dificultad con la Variedad de Imágenes',
@@ -136,7 +136,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combina con Suma y Resta para Mega-Packs de Matemáticas',
-      description: 'Crea conjuntos coordinados de fichas de comparación, suma y resta usando el mismo tema y rango numérico. Véndelos individualmente y como un «Mega-Pack de Matemáticas para Primeros Años» combinado con un ligero descuento. Los productos agrupados tienen valores de pedido promedio más altos en todos los marketplaces. Cuando usas el mismo tema de animales o estacional en las tres habilidades matemáticas, el pack se siente cohesivo y profesionalmente diseñado. Los compradores perciben los packs temáticos como significativamente más valiosos que las colecciones aleatorias de fichas, lo que se traduce directamente en mejores tasas de conversión.',
+      description: 'Crea conjuntos coordinados de fichas de comparación, suma y resta usando el mismo tema y rango numérico. Véndelos individualmente y como un \"Mega-Pack de Matemáticas para Primeros Años\" combinado con un ligero descuento. Los productos agrupados tienen valores de pedido promedio más altos en todos los marketplaces. Cuando usas el mismo tema de animales o estacional en las tres habilidades matemáticas, el pack se siente cohesivo y profesionalmente diseñado. Los compradores perciben los packs temáticos como significativamente más valiosos que las colecciones aleatorias de fichas, lo que se traduce directamente en mejores tasas de conversión.',
     },
     {
       title: 'Limita Marca y Tacha a 1–3 Ejercicios por Página',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Incluye Siempre la Clave de Respuestas',
-      description: 'Haz clic en «Generar Clave de Respuestas» antes de descargar. Para fichas de comparación, la clave muestra el símbolo correcto (>, < o =) para cada ejercicio. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen clave de respuestas. Para el modo Marca y Tacha, la clave indica claramente qué grupo de imágenes es el mayoritario y cuál el minoritario, ahorrando valor percibido a los vendedores. Incluir claves de respuestas también hace que tus productos sean adecuados para aprendizaje independiente y tareas para casa donde los padres necesitan verificar la corrección sin conocimientos matemáticos avanzados.',
+      description: 'Haz clic en \"Generar Clave de Respuestas\" antes de descargar. Para fichas de comparación, la clave muestra el símbolo correcto (>, < o =) para cada ejercicio. Los compradores en Etsy y Gumroad califican sistemáticamente mejor los productos que incluyen clave de respuestas. Para el modo Marca y Tacha, la clave indica claramente qué grupo de imágenes es el mayoritario y cuál el minoritario, ahorrando valor percibido a los vendedores. Incluir claves de respuestas también hace que tus productos sean adecuados para aprendizaje independiente y tareas para casa donde los padres necesitan verificar la corrección sin conocimientos matemáticos avanzados.',
     },
   ],
 

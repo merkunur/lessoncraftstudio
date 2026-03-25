@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Fichas de Desenhar e Colorir',
-        description: 'Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de desenho em grelha imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de desenho em grelha imediatamente.',
       },
       {
         title: 'Configurar o Layout da Página e o Fundo',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fichas de Simetria e Raciocínio Espacial',
-      description: 'Use os modos Horizontal e Vertical para criar fichas que combinam arte e matemática. Os usuários veem as células de pistas num lado da grelha e devem reconstruir a imagem espelhada no lado oposto. Um pacote de simetria horizontal ensina simetria bilateral — fundamental em geometria e biologia. Um pacote de simetria vertical aborda o reconhecimento do reflexo de cima para baixo. Combine ambos os modos num pacote de «Desenho de Simetria Completa». Estes recursos vendem-se excecionalmente bem tanto nas categorias de arte como de matemática no Gumroad porque servem duas áreas temáticas a partir de um só formato de ficha.',
+      description: 'Use os modos Horizontal e Vertical para criar fichas que combinam arte e matemática. Os usuários veem as células de pistas num lado da grelha e devem reconstruir a imagem espelhada no lado oposto. Um pacote de simetria horizontal ensina simetria bilateral — fundamental em geometria e biologia. Um pacote de simetria vertical aborda o reconhecimento do reflexo de cima para baixo. Combine ambos os modos num pacote de \"Desenho de Simetria Completa\". Estes recursos vendem-se excecionalmente bem tanto nas categorias de arte como de matemática no Gumroad porque servem duas áreas temáticas a partir de um só formato de ficha.',
     },
     {
       title: 'Conjuntos Temáticos de Colorir Depois de Desenhar',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Desenho em Grelha para Amazon KDP',
-      description: 'Compile mais de 80 exercícios de desenho em grelha em cadernos temáticos para Amazon KDP. Estruture uma série por progressão: «Desenho em Grelha para Principiantes» cobre grelhas 3×3 a 5×5 a 50–75 % de pistas. «Desenho em Grelha Intermédio» avança para grelhas 6×6 e 7×7 a 25–50 % de pistas. «Desenho em Grelha Avançado» apresenta grelhas 8×8 a 10×10 a 10–25 % de pistas. As imagens de contornos a preto e branco imprimem-se perfeitamente em impressão monocromática, mantendo os custos de produção do KDP baixos. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução.',
+      description: 'Compile mais de 80 exercícios de desenho em grelha em cadernos temáticos para Amazon KDP. Estruture uma série por progressão: \"Desenho em Grelha para Principiantes\" cobre grelhas 3×3 a 5×5 a 50–75 % de pistas. \"Desenho em Grelha Intermédio\" avança para grelhas 6×6 e 7×7 a 25–50 % de pistas. \"Desenho em Grelha Avançado\" apresenta grelhas 8×8 a 10×10 a 10–25 % de pistas. As imagens de contornos a preto e branco imprimem-se perfeitamente em impressão monocromática, mantendo os custos de produção do KDP baixos. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros de Simetria no Gumroad',
-      description: 'Carregue pacotes de fichas de desenho em grelha no Gumroad organizados por modo de simetria como enfoque didático. O Nível 1 usa distribuição Aleatória de pistas para a prática geral do desenho. O Nível 2 introduz o modo Horizontal onde os usuários veem um lado e desenham a imagem espelhada. O Nível 3 usa o modo Vertical para simetria de cima para baixo. O Nível 4 combina percentagem de pistas baixa com modo espelho para o máximo desafio de raciocínio espacial. Estes recursos combinam os padrões de arte e matemática, tornando-os valiosos tanto para vendedores de arte como de matemática que procuram «atividades de simetria» e «fichas de raciocínio espacial».',
+      description: 'Carregue pacotes de fichas de desenho em grelha no Gumroad organizados por modo de simetria como enfoque didático. O Nível 1 usa distribuição Aleatória de pistas para a prática geral do desenho. O Nível 2 introduz o modo Horizontal onde os usuários veem um lado e desenham a imagem espelhada. O Nível 3 usa o modo Vertical para simetria de cima para baixo. O Nível 4 combina percentagem de pistas baixa com modo espelho para o máximo desafio de raciocínio espacial. Estes recursos combinam os padrões de arte e matemática, tornando-os valiosos tanto para vendedores de arte como de matemática que procuram \"atividades de simetria\" e \"fichas de raciocínio espacial\".',
       platform: 'Gumroad',
     },
     {
       title: 'Funil Visual de Desenho em Grelha no Pinterest',
-      description: 'As fichas de desenho em grelha com o seu distintivo design de grelha dupla criam pins apelativos no Pinterest que se destacam das fichas com muito texto. Publique fichas de exemplo mostrando diferentes percentagens de pistas e modos de simetria com marca d\'água, faça ligação à sua loja Etsy ou página de destino e recolha endereços de email. Crie séries de pins separadas para «desenho em grelha para crianças», «fichas de simetria para desenhar» e «reprodução célula por célula». O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
+      description: 'As fichas de desenho em grelha com o seu distintivo design de grelha dupla criam pins apelativos no Pinterest que se destacam das fichas com muito texto. Publique fichas de exemplo mostrando diferentes percentagens de pistas e modos de simetria com marca d\'água, faça ligação à sua loja Etsy ou página de destino e recolha endereços de email. Crie séries de pins separadas para \"desenho em grelha para crianças\", \"fichas de simetria para desenhar\" e \"reprodução célula por célula\". O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Destaque a Grelha Dupla como Formato Premium',
-      description: 'O design de grelha de prática mais grelha de pistas é o diferenciador central face às simples páginas para colorir. Descreva explicitamente o sistema de grelha dupla em cada listagem de produto: «Duas grelhas complementares por imagem — uma grelha de prática em branco para desenhar e uma grelha de pistas que mostra pistas de referência parciais.» Este formato premium alcança preços mais altos porque oferece uma atividade de aprendizagem estruturada em vez de apenas uma imagem para colorir.',
+      description: 'O design de grelha de prática mais grelha de pistas é o diferenciador central face às simples páginas para colorir. Descreva explicitamente o sistema de grelha dupla em cada listagem de produto: \"Duas grelhas complementares por imagem — uma grelha de prática em branco para desenhar e uma grelha de pistas que mostra pistas de referência parciais.\" Este formato premium alcança preços mais altos porque oferece uma atividade de aprendizagem estruturada em vez de apenas uma imagem para colorir.',
     },
     {
       title: 'Crie Cadernos Progressivos Usando Capítulos por Percentagem de Pistas',

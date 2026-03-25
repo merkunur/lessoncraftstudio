@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Hitta Udda Bilden Arbetsblad Generator för Hitta-den-Annorlunda Pussel',
     tagline: 'Två genereringslägen — Identisk och Liknande — med överskridning per övning, 5–10 konfigurerbara övningar, automatiskt genererade facit med röda cirkelmarkeringar och visuella pussel som fungerar på alla 11 språk utan översättning.',
     description:
-      'Bygg professionella hitta-den-annorlunda arbetsblad där användarna identifierar och ringar in det udda objektet i varje rad av fyra bilder. Välj mellan två genereringslägen: Identiskt läge placerar tre kloner av samma bild bredvid en annorlunda bild från samma tema för hitta-skillnaden-utmaningar, medan Liknande läge hämtar tre bilder från Tema A och en bild från Tema B för temaövergripande diskrimineringspussel. Överskrid läget per övning för att blanda svårighetsnivåer inom ett enda arbetsblad. Konfigurera 5 till 10 övningar per sida med standard satt till 6, och växla valfria namn- och datumfält och övningsnummer för produktlinjesfärdig formatering. Varje arbetsblad genererar ett medföljande facit på en separat arbetsyteflik — facit ritar en röd cirkel runt det udda objektet i varje rad så du aldrig behöver markera svar manuellt. Den automatiskt genererade rubriken har en korallfärgad yttre ram, bärnstensfärgad inre ram och turkos bakgrund med den lokaliserade titeln «Hitta den som inte hör hemma» renderad i Fredoka och instruktioner i Quicksand på alla 11 språk. Eftersom pusslen är helt visuella — inga ord visas på själva arbetsbladet — är de inte språkkänsliga och fungerar identiskt i varje lokal. Samma arbetsblad kan säljas globalt utan översättning — ett enda skapandeflöde betjänar varje marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer visuella pusselpaket på Etsy, sammanställer kritiskt tänkande-arbetsböcker för Amazon KDP eller skapar produktlinjesaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella hitta-den-annorlunda arbetsblad där användarna identifierar och ringar in det udda objektet i varje rad av fyra bilder. Välj mellan två genereringslägen: Identiskt läge placerar tre kloner av samma bild bredvid en annorlunda bild från samma tema för hitta-skillnaden-utmaningar, medan Liknande läge hämtar tre bilder från Tema A och en bild från Tema B för temaövergripande diskrimineringspussel. Överskrid läget per övning för att blanda svårighetsnivåer inom ett enda arbetsblad. Konfigurera 5 till 10 övningar per sida med standard satt till 6, och växla valfria namn- och datumfält och övningsnummer för produktlinjesfärdig formatering. Varje arbetsblad genererar ett medföljande facit på en separat arbetsyteflik — facit ritar en röd cirkel runt det udda objektet i varje rad så du aldrig behöver markera svar manuellt. Den automatiskt genererade rubriken har en korallfärgad yttre ram, bärnstensfärgad inre ram och turkos bakgrund med den lokaliserade titeln \"Hitta den som inte hör hemma\" renderad i Fredoka och instruktioner i Quicksand på alla 11 språk. Eftersom pusslen är helt visuella — inga ord visas på själva arbetsbladet — är de inte språkkänsliga och fungerar identiskt i varje lokal. Samma arbetsblad kan säljas globalt utan översättning — ett enda skapandeflöde betjänar varje marknad. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman för maximal kreativ variation. Oavsett om du säljer visuella pusselpaket på Etsy, sammanställer kritiskt tänkande-arbetsböcker för Amazon KDP eller skapar produktlinjesaktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Konfigurera dina övningar',
         description:
-          'Öppna panelen Övningskonfiguration och ställ in övningsantalet från 5 till 10 (standard 6). Välj ett globalt genereringsläge: Identiskt läge använder tre kloner av samma bild plus en annorlunda bild från samma tema, medan Liknande läge hämtar tre bilder från Tema A och en bild från Tema B. Överskrid läget per övning med dropdown-väljare på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. Växla kryssrutan «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer, och växla «Inkludera Övningsnummer» för att visa siffror på vänster sida av varje övningskort.',
+          'Öppna panelen Övningskonfiguration och ställ in övningsantalet från 5 till 10 (standard 6). Välj ett globalt genereringsläge: Identiskt läge använder tre kloner av samma bild plus en annorlunda bild från samma tema, medan Liknande läge hämtar tre bilder från Tema A och en bild från Tema B. Överskrid läget per övning med dropdown-väljare på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. Växla kryssrutan \"Inkludera Namn/Datum-fält\" för att lägga till namn och datumlinjer, och växla \"Inkludera Övningsnummer\" för att visa siffror på vänster sida av varje övningskort.',
       },
       {
         title: 'Välj teman och bilder',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Generera hitta udda bilden arbetsbladet',
         description:
-          'Klicka på Generera för att skapa övningskorten. Varje kort visar fyra bilder i en horisontell rad — tre vanliga objekt och ett udda objekt med sin position slumpmässigt blandad. Appen arrangerar kort i 1–2 kolumner beroende på sidorientering och övningsantal (2 kolumner för liggande eller stående med 7+ övningar). En stiliserad «Hitta den som inte hör hemma»-rubrik visas överst med korallfärgad yttre ram (#FF6B6B, 8px streck), bärnstensfärgad inre ram (#FFB84D, 3px streck) och turkos bakgrund (#4ECDC4) — med titeln i mörkblågrön Fredoka (#1A535C) och instruktioner i röd Quicksand (#E63946).',
+          'Klicka på Generera för att skapa övningskorten. Varje kort visar fyra bilder i en horisontell rad — tre vanliga objekt och ett udda objekt med sin position slumpmässigt blandad. Appen arrangerar kort i 1–2 kolumner beroende på sidorientering och övningsantal (2 kolumner för liggande eller stående med 7+ övningar). En stiliserad \"Hitta den som inte hör hemma\"-rubrik visas överst med korallfärgad yttre ram (#FF6B6B, 8px streck), bärnstensfärgad inre ram (#FFB84D, 3px streck) och turkos bakgrund (#4ECDC4) — med titeln i mörkblågrön Fredoka (#1A535C) och instruktioner i röd Quicksand (#E63946).',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Lägesöverskridning per övning för arbetsblad med blandad svårighet',
         description:
-          'Varje övningsrad inkluderar sin egen läges-dropdown, vilket låter dig överskriva det globala läget per övning. Börja med enkla Identiska övningar överst och övergå till svårare Liknande övningar mot botten — eller alternera lägen genom hela arbetsbladet för varierad utmaning. En «Rensa Val»-knapp återställer alla per-övning-överskridningar till den globala inställningen. Denna detaljerade kontroll låter säljare skapa arbetsblad med progressiv svårighet som betjänar flera färdighetsnivåer på en enda sida, vilket ökar det upplevda värdet av varje utskriftsbar produkt.',
+          'Varje övningsrad inkluderar sin egen läges-dropdown, vilket låter dig överskriva det globala läget per övning. Börja med enkla Identiska övningar överst och övergå till svårare Liknande övningar mot botten — eller alternera lägen genom hela arbetsbladet för varierad utmaning. En \"Rensa Val\"-knapp återställer alla per-övning-överskridningar till den globala inställningen. Denna detaljerade kontroll låter säljare skapa arbetsblad med progressiv svårighet som betjänar flera färdighetsnivåer på en enda sida, vilket ökar det upplevda värdet av varje utskriftsbar produkt.',
       },
       {
         title: 'Konfigurerbart övningsantal från 5 till 10 per arbetsblad',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar lägesöverskridning per övning?',
       answer:
-        'Varje övningsrad inkluderar sin egen läges-dropdown som låter dig överskriva den globala lägesinställningen. Ställ in det globala läget till Liknande, sedan växla enskilda övningar till Identiskt — eller tvärtom. Detta skapar arbetsblad med blandad svårighet där vissa övningar är lättare (Identiskt) och andra är svårare (Liknande) på samma sida. En «Rensa Val»-knapp återställer alla per-övning-överskridningar till den globala inställningen.',
+        'Varje övningsrad inkluderar sin egen läges-dropdown som låter dig överskriva den globala lägesinställningen. Ställ in det globala läget till Liknande, sedan växla enskilda övningar till Identiskt — eller tvärtom. Detta skapar arbetsblad med blandad svårighet där vissa övningar är lättare (Identiskt) och andra är svårare (Liknande) på samma sida. En \"Rensa Val\"-knapp återställer alla per-övning-överskridningar till den globala inställningen.',
     },
     {
       question: 'Hur många övningar kan jag inkludera på ett arbetsblad?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Kan jag lägga till namn- och datumfält på hitta udda bilden arbetsblad?',
       answer:
-        'Ja. Växla kryssrutan «Inkludera Namn/Datum-fält» i panelen Övningskonfiguration för att lägga till namn och datumlinjer. Dessa fält positioneras responsivt baserat på sidlayouten. Namn- och datumfält gör arbetsbladen produktlinjesfärdiga — säljare kan spåra ifyllda blad och föräldrar kan organisera avslutade aktiviteter efter datum.',
+        'Ja. Växla kryssrutan \"Inkludera Namn/Datum-fält\" i panelen Övningskonfiguration för att lägga till namn och datumlinjer. Dessa fält positioneras responsivt baserat på sidlayouten. Namn- och datumfält gör arbetsbladen produktlinjesfärdiga — säljare kan spåra ifyllda blad och föräldrar kan organisera avslutade aktiviteter efter datum.',
     },
     {
       question: 'Hur fungerar övningsnummer?',
       answer:
-        'Växla kryssrutan «Inkludera Övningsnummer» i panelen Övningskonfiguration för att visa siffror på vänster sida av varje övningskort. Nummer använder 25px bredd med 15px gap från kortinnehållet. Övningsnummer hjälper under produktlinjesgenomgång och gör det enkelt för säljare att referera till specifika övningar under diskussion.',
+        'Växla kryssrutan \"Inkludera Övningsnummer\" i panelen Övningskonfiguration för att visa siffror på vänster sida av varje övningskort. Nummer använder 25px bredd med 15px gap från kortinnehållet. Övningsnummer hjälper under produktlinjesgenomgång och gör det enkelt för säljare att referera till specifika övningar under diskussion.',
     },
     {
       question: 'Finns det en gratis provversion?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'Är hitta udda bilden arbetsblad språkkänsliga?',
       answer:
-        'Nej. Till skillnad från appar som visar ord på arbetsbladet är hitta udda bilden-pussel helt visuella — ingen text visas på själva pusselinnehållet. Den automatiskt genererade rubriken («Hitta den som inte hör hemma») översätts till alla 11 stödda språk, men de faktiska övningarna innehåller bara bilder. Detta innebär att varje arbetsblad fungerar på vilket språk som helst utan modifiering, vilket gör hitta udda bilden-pussel idealiska för global marknadsplatsförsäljning.',
+        'Nej. Till skillnad från appar som visar ord på arbetsbladet är hitta udda bilden-pussel helt visuella — ingen text visas på själva pusselinnehållet. Den automatiskt genererade rubriken (\"Hitta den som inte hör hemma\") översätts till alla 11 stödda språk, men de faktiska övningarna innehåller bara bilder. Detta innebär att varje arbetsblad fungerar på vilket språk som helst utan modifiering, vilket gör hitta udda bilden-pussel idealiska för global marknadsplatsförsäljning.',
     },
     {
       question: 'Kan jag sälja hitta udda bilden arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',

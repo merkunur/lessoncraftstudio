@@ -59,7 +59,7 @@ const content: BundleContent = {
     },
     {
       title: 'Línea completa de productos de matemáticas',
-      description: 'Cubre cada habilidad matemática básica que buscan los compradores — suma, resta, comparación, puzzles de código, actividades de cuadrícula y ecuaciones algebraicas con imágenes. Publica docenas de productos distintos desde un solo kit de herramientas sin vacíos en tu catálogo. Combina diferentes generadores con diferentes temas para crear listados únicos de productos: «Paquete de Suma Animales del Océano», «Colección de Resta Espacio», «Pack de Puzzles Matemáticos Granja» — cada uno apuntando a una consulta de búsqueda y necesidad de comprador diferente.',
+      description: 'Cubre cada habilidad matemática básica que buscan los compradores — suma, resta, comparación, puzzles de código, actividades de cuadrícula y ecuaciones algebraicas con imágenes. Publica docenas de productos distintos desde un solo kit de herramientas sin vacíos en tu catálogo. Combina diferentes generadores con diferentes temas para crear listados únicos de productos: \"Paquete de Suma Animales del Océano\", \"Colección de Resta Espacio\", \"Pack de Puzzles Matemáticos Granja\" — cada uno apuntando a una consulta de búsqueda y necesidad de comprador diferente.',
     },
     {
       title: 'Claves de respuesta automáticas',
@@ -75,7 +75,7 @@ const content: BundleContent = {
     },
     {
       title: 'Más de 100 conjuntos de imágenes temáticas',
-      description: 'Accede a animales, comida, vehículos, festividades, estaciones y docenas de categorías temáticas más en los seis generadores. Cada tema te da un nuevo ángulo de producto — publica «Suma Animales de Granja» junto a «Resta Espacio» para capturar diferentes consultas de búsqueda e intereses de compradores.',
+      description: 'Accede a animales, comida, vehículos, festividades, estaciones y docenas de categorías temáticas más en los seis generadores. Cada tema te da un nuevo ángulo de producto — publica \"Suma Animales de Granja\" junto a \"Resta Espacio\" para capturar diferentes consultas de búsqueda e intereses de compradores.',
     },
     {
       title: 'Subir imágenes personalizadas',
@@ -95,7 +95,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cuadernos de matemáticas en Amazon KDP',
-      description: 'Combina fichas de múltiples generadores en cuadernos temáticos para KDP: «Cuaderno de Actividades de Matemáticas Primer Grado» con páginas de suma, resta y comparación, o «Colección de Puzzles Matemáticos» mezclando puzzles de cuadrícula y álgebra. El motor de diseño consistente asegura que cada página se vea profesionalmente uniforme. Genera de 50 a 100 páginas por cuaderno en una sola sesión, descarga como PDF y sube directamente a KDP. Como cinco de los seis generadores producen fichas independientes del idioma, el mismo cuaderno se vende globalmente sin traducción.',
+      description: 'Combina fichas de múltiples generadores en cuadernos temáticos para KDP: \"Cuaderno de Actividades de Matemáticas Primer Grado\" con páginas de suma, resta y comparación, o \"Colección de Puzzles Matemáticos\" mezclando puzzles de cuadrícula y álgebra. El motor de diseño consistente asegura que cada página se vea profesionalmente uniforme. Genera de 50 a 100 páginas por cuaderno en una sola sesión, descarga como PDF y sube directamente a KDP. Como cinco de los seis generadores producen fichas independientes del idioma, el mismo cuaderno se vende globalmente sin traducción.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {

@@ -21,9 +21,9 @@ const content: AppContent = {
 
   hero: {
     title: 'Bildsortering Arbetsblad Generator för Tvåkategori Sorteringsaktiviteter',
-    tagline: 'Tvåkategorisortering i en kraftfull generator — temabaserat eller manuellt bildval — med automatiskt genererade facit, 4–12 konfigurerbara bilder, en lokaliserad «Sortera bilder»-rubrik på 11 språk och 104 tematiska bildsamlingar.',
+    tagline: 'Tvåkategorisortering i en kraftfull generator — temabaserat eller manuellt bildval — med automatiskt genererade facit, 4–12 konfigurerbara bilder, en lokaliserad \"Sortera bilder\"-rubrik på 11 språk och 104 tematiska bildsamlingar.',
     description:
-      'Bygg professionella sorteringsarbetsblad där användarna klassificerar bilder i två kategorier genom att sortera utklippta bilder i rätt vänster eller höger grupp. Välj temaläge för att automatiskt fylla kategorier från bildbiblioteket — välj ett vänster tema och ett höger tema, och appen hämtar 4–6 slumpmässiga bilder per tema — eller växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till en kategori. Varje arbetsblad har två streckade kategoriramar överst för sorteringsmål och ett blandat utklippsrutnät nedanför med blandade bilder redo att klippas ut och sorteras. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med 6× större bilder organiserade i kategorirutor, så du aldrig behöver skapa facit manuellt. Bildsortering Generatorn är språkkänslig: kategorietiketter använder lokaliserade bildnamn, så att byta språk ändrar texten på arbetsbladet. Det innebär att samma bildteman kan generera unika sorteringsarbetsblad på 11 olika språk — varje språkversion har lokaliserade kategorietiketter, vilket gör varje version till en separat produkt. En lokaliserad «Sortera bilder»-rubrik med mintgrön bakgrund och blågrön titel renderas automatiskt på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade kategorietiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält för produktlinjesansvar, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer sorteringsaktivitets-paket på Etsy, sammanställer klassificerings-arbetsböcker för Amazon KDP eller skapar sorteringsstations-aktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
+      'Bygg professionella sorteringsarbetsblad där användarna klassificerar bilder i två kategorier genom att sortera utklippta bilder i rätt vänster eller höger grupp. Välj temaläge för att automatiskt fylla kategorier från bildbiblioteket — välj ett vänster tema och ett höger tema, och appen hämtar 4–6 slumpmässiga bilder per tema — eller växla till manuellt läge för att handvälja enskilda bilder och tilldela var och en till en kategori. Varje arbetsblad har två streckade kategoriramar överst för sorteringsmål och ett blandat utklippsrutnät nedanför med blandade bilder redo att klippas ut och sorteras. Dubbelarbetsyte-systemet genererar både en arbetsbladsflik och en facitflik med 6× större bilder organiserade i kategorirutor, så du aldrig behöver skapa facit manuellt. Bildsortering Generatorn är språkkänslig: kategorietiketter använder lokaliserade bildnamn, så att byta språk ändrar texten på arbetsbladet. Det innebär att samma bildteman kan generera unika sorteringsarbetsblad på 11 olika språk — varje språkversion har lokaliserade kategorietiketter, vilket gör varje version till en separat produkt. En lokaliserad \"Sortera bilder\"-rubrik med mintgrön bakgrund och blågrön titel renderas automatiskt på alla 11 stödda språk. Full Access låser upp alla 104 teman med mer än 3 100 illustrationer och alla 11 gränssnittsspråk för lokaliserade kategorietiketter. Lägg till bakgrundsteman och ramteman med oberoende opacitetskontroller, inkludera namn- och datumfält för produktlinjesansvar, och exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller anpassade storlekar. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserat ordinnehåll. Oavsett om du säljer sorteringsaktivitets-paket på Etsy, sammanställer klassificerings-arbetsböcker för Amazon KDP eller skapar sorteringsstations-aktiviteter för Gumroad — denna generator levererar produktionsfärdiga arbetsblad på några minuter. Gratis provversion med alla funktioner — ingen registrering, inget kreditkort. Nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
   howItWorks: {
@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Ställ in sidlayouten',
         description:
-          'Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Kryssa i «Inkludera Namn/Datum-fält» för att lägga till namn och datumlinjer. Dessa layoutval ramar in ditt sorteringsarbetsblad innan du konfigurerar något innehåll.',
+          'Öppna panelen Sidinställningar och välj en sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad dimension. Välj en sidfärg med färgväljaren som reservbakgrund. Välj ett bakgrundstema och justera dess opacitet (0–1 i 0,05-steg), välj sedan ett ramtema med sin egen oberoende opacitetskontroll. Kryssa i \"Inkludera Namn/Datum-fält\" för att lägga till namn och datumlinjer. Dessa layoutval ramar in ditt sorteringsarbetsblad innan du konfigurerar något innehåll.',
       },
       {
         title: 'Välj dina sorteringskategorier',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Generera sorteringsarbetsbladet',
         description:
-          'Klicka på Generera för att skapa den tvådelade sorteringslayouten. Appen arrangerar ditt innehåll i kategoriramar överst (två sida vid sida streckade ramar med #FAFAFA-fyllning) och ett blandat utklippsrutnät nedanför (vita celler med streckade #666-kanter). En stiliserad «Sortera bilder»-rubrik visas överst med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. En blågrön yttre ram (#26A69A, 8px streck) ramar in hela sidan. Utklippsrutnätet visar alla bilder i slumpmässig ordning — användarna klipper ut dem och sorterar i rätt kategoriruta.',
+          'Klicka på Generera för att skapa den tvådelade sorteringslayouten. Appen arrangerar ditt innehåll i kategoriramar överst (två sida vid sida streckade ramar med #FAFAFA-fyllning) och ett blandat utklippsrutnät nedanför (vita celler med streckade #666-kanter). En stiliserad \"Sortera bilder\"-rubrik visas överst med mintgrön bakgrund (#4DB6AC), blågrön titel (#00796B) i Fredoka-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. En blågrön yttre ram (#26A69A, 8px streck) ramar in hela sidan. Utklippsrutnätet visar alla bilder i slumpmässig ordning — användarna klipper ut dem och sorterar i rätt kategoriruta.',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -76,9 +76,9 @@ const content: AppContent = {
           'Varje sorteringsarbetsblad genererar automatiskt ett medföljande facit på en separat arbetsyteflik. Facit visar två kategorirutor (en per kategori, lika breda) med bilder sorterade i sin korrekta grupp — renderade med 6× storleken på utklippsrutnätets celler för tydlig, lättavläst verifiering. Varje kategoriruta använder maximalt 2 kolumner och behåller samma streckade ram-stil (#FAFAFA-fyllning, #444-streck, 12px kantradie). Ingen manuell sortering, ingen separat filskapning — facit förblir perfekt synkroniserat med arbetsbladets innehåll.',
       },
       {
-        title: 'Lokaliserad «Sortera bilder»-rubrik med blågrön design på 11 språk',
+        title: 'Lokaliserad \"Sortera bilder\"-rubrik med blågrön design på 11 språk',
         description:
-          'Varje genererat arbetsblad inkluderar en stiliserad rubrik med mintgrön bakgrund (#4DB6AC), vit pillercontainer, blågrön titel (#00796B) i Fredoka Bold och orange beskrivning (#FF7043) i Quicksand. Stående arbetsblad visar en 100px rubrik med dynamisk titelstorlek (28–48px); liggande arbetsblad använder en kompakt 70px rubrik med 24–36px titel. Titeln «Sortera bilder» och beskrivningen «Sortera bilderna i rätt grupper!» översätts automatiskt till alla 11 stödda språk. En blågrön yttre ram (#26A69A, 8px streck, 12px radie) ramar in hela sidan.',
+          'Varje genererat arbetsblad inkluderar en stiliserad rubrik med mintgrön bakgrund (#4DB6AC), vit pillercontainer, blågrön titel (#00796B) i Fredoka Bold och orange beskrivning (#FF7043) i Quicksand. Stående arbetsblad visar en 100px rubrik med dynamisk titelstorlek (28–48px); liggande arbetsblad använder en kompakt 70px rubrik med 24–36px titel. Titeln \"Sortera bilder\" och beskrivningen \"Sortera bilderna i rätt grupper!\" översätts automatiskt till alla 11 stödda språk. En blågrön yttre ram (#26A69A, 8px streck, 12px radie) ramar in hela sidan.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Namn- och datumfält för produktlinjesansvar',
         description:
-          'Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till namn och datumlinjer på sorteringsarbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör arbetsbladen redo för säljarens insamling och bedömning utan ytterligare förberedelse. köpare som söker efter sorteringsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga, och namn/datum-alternativet gör dina produkter mer attraktiva för utbildningsmarknaden på Gumroad och Etsy.',
+          'Kryssa i kryssrutan \"Inkludera Namn/Datum-fält\" i panelen Sidinställningar för att lägga till namn och datumlinjer på sorteringsarbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör arbetsbladen redo för säljarens insamling och bedömning utan ytterligare förberedelse. köpare som söker efter sorteringsaktiviteter värdesätter arbetsblad som anländer produktlinjesfärdiga, och namn/datum-alternativet gör dina produkter mer attraktiva för utbildningsmarknaden på Gumroad och Etsy.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI och gråskaleväxling',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Flerspråkiga sorteringsarbetsblad för ESL och tvåspråkiga marknader',
         description:
-          'Utnyttja de språkkänsliga kategorietiketterna för att skapa sorteringsarbetsblad på 11 språk. Samma bilder producerar olika kategorietiketter när du byter språk — bildnamn och «Sortera bilder»-rubriken uppdateras alla automatiskt. Skapa flerspråkiga sorteringspaket där varje språkversion använder samma tematiska bilder men lokaliserad text. Detta är särskilt värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser på Etsy och Gumroad.',
+          'Utnyttja de språkkänsliga kategorietiketterna för att skapa sorteringsarbetsblad på 11 språk. Samma bilder producerar olika kategorietiketter när du byter språk — bildnamn och \"Sortera bilder\"-rubriken uppdateras alla automatiskt. Skapa flerspråkiga sorteringspaket där varje språkversion använder samma tematiska bilder men lokaliserad text. Detta är särskilt värdefullt för ESL/EFL-säljare, tvåspråkiga produktlinje och internationella hemundervisningsfamiljer. Sälj språkspecifika paket eller flerspråkiga megapaket till premiumpriser på Etsy och Gumroad.',
         platform: 'Etsy / Gumroad (flerspråkig marknad)',
       },
     ],
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: 'Hur fungerar den lokaliserade rubriken?',
       answer:
-        'Varje genererat arbetsblad inkluderar en stiliserad «Sortera bilder»-rubrik med mintgrön bakgrund (#4DB6AC), vit pillercontainer, blågrön titel (#00796B) i Fredoka Bold-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. Stående arbetsblad visar en 100px rubrik; liggande arbetsblad använder en kompakt 70px rubrik. Titeln och beskrivningen översätts automatiskt till alla 11 stödda språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.',
+        'Varje genererat arbetsblad inkluderar en stiliserad \"Sortera bilder\"-rubrik med mintgrön bakgrund (#4DB6AC), vit pillercontainer, blågrön titel (#00796B) i Fredoka Bold-typsnitt och orange beskrivning (#FF7043) i Quicksand-typsnitt. Stående arbetsblad visar en 100px rubrik; liggande arbetsblad använder en kompakt 70px rubrik. Titeln och beskrivningen översätts automatiskt till alla 11 stödda språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.',
     },
     {
       question: 'Är Bildsortering Generatorn språkkänslig?',
       answer:
-        'Ja. Kategorietiketter använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar texten på arbetsbladet. Till exempel visas en kattbild som «Katt» på svenska men «Cat» på engelska och «Katze» på tyska. Den lokaliserade «Sortera bilder»-rubriken ändras också med det valda språket. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserade kategorietiketter.',
+        'Ja. Kategorietiketter använder lokaliserade bildnamn från Bildbiblioteket, så att byta språk ändrar texten på arbetsbladet. Till exempel visas en kattbild som \"Katt\" på svenska men \"Cat\" på engelska och \"Katze\" på tyska. Den lokaliserade \"Sortera bilder\"-rubriken ändras också med det valda språket. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 språk för lokaliserade kategorietiketter.',
     },
     {
       question: 'Kan jag inkludera namn- och datumfält på sorteringsarbetsblad?',
       answer:
-        'Ja. Kryssa i kryssrutan «Inkludera Namn/Datum-fält» i panelen Sidinställningar för att lägga till namn och datumlinjer på arbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör dina sorteringsarbetsblad redo för säljarens insamling och bedömning utan ytterligare förberedelse.',
+        'Ja. Kryssa i kryssrutan \"Inkludera Namn/Datum-fält\" i panelen Sidinställningar för att lägga till namn och datumlinjer på arbetsbladet. Dessa fält säkerställer spårbarhet i produktlinjesmiljöer och gör dina sorteringsarbetsblad redo för säljarens insamling och bedömning utan ytterligare förberedelse.',
     },
     {
       question: 'Finns det en gratis provversion?',

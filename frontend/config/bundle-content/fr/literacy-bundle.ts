@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Plus de 100 ensembles d\'images thématiques',
-      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les sept générateurs. Chaque thème combiné avec chaque langue offre un nouvel angle produit — proposez « Mots Cachés Animaux Marins en Français » aux côtés de « Train Alphabet Ferme en Allemand » pour capter différentes requêtes de recherche, différents intérêts des acheteurs et différents marchés linguistiques simultanément.',
+      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les sept générateurs. Chaque thème combiné avec chaque langue offre un nouvel angle produit — proposez \" Mots Cachés Animaux Marins en Français \" aux côtés de \" Train Alphabet Ferme en Allemand \" pour capter différentes requêtes de recherche, différents intérêts des acheteurs et différents marchés linguistiques simultanément.',
     },
     {
       title: 'Import d\'images personnalisées',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cahiers de vocabulaire Amazon KDP',
-      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers thématiques KDP organisés par langue et niveau : « Cahier d\'Activités Lecture Français » avec trains alphabet, mots cachés et cryptogrammes, ou « Cahier Vocabulaire Allemand CP » mélangeant mots mélangés, prépositions et devinettes de mots. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Chaque version linguistique est un livre distinct avec son propre ISBN et son propre marché.',
+      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers thématiques KDP organisés par langue et niveau : \" Cahier d\'Activités Lecture Français \" avec trains alphabet, mots cachés et cryptogrammes, ou \" Cahier Vocabulaire Allemand CP \" mélangeant mots mélangés, prépositions et devinettes de mots. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Chaque version linguistique est un livre distinct avec son propre ISBN et son propre marché.',
       platform: 'Amazon KDP',
     },
     {

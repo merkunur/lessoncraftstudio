@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: '¿El generador crea claves de respuesta automáticamente?',
       answer:
-        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta mostrando cada vagón con su asociación letra-imagen correcta y todas las pistas resueltas. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluir en ediciones del vendedor o paquetes de productos. Tener una clave de respuesta lista añade valor percibido a tus anuncios y te permite indicar «clave de respuesta incluida» — un detalle que los compradores de Etsy y Gumroad filtran específicamente al comparar productos de la competencia.',
+        'Sí. Haz clic en el botón Generar Clave de Respuesta para crear una versión resuelta mostrando cada vagón con su asociación letra-imagen correcta y todas las pistas resueltas. Puedes previsualizarla en pantalla y descargarla como archivo JPEG o PDF separado para incluir en ediciones del vendedor o paquetes de productos. Tener una clave de respuesta lista añade valor percibido a tus anuncios y te permite indicar \"clave de respuesta incluida\" — un detalle que los compradores de Etsy y Gumroad filtran específicamente al comparar productos de la competencia.',
     },
     {
       question: '¿Hay una prueba gratuita?',

@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Genera la Ficha de Puzzle de Cuadrícula',
         description:
-          'Haz clic en Generar para crear el puzzle de cuadrícula. La aplicación divide la imagen seleccionada en la cuadrícula configurada, revela las casillas-pista con las piezas de imagen reales visibles y marca las celdas restantes con indicadores «?». Todas las casillas se mezclan mediante el algoritmo Fisher-Yates y se muestran como paleta numerada. Los diseños verticales colocan la cuadrícula arriba con la paleta abajo; los diseños horizontales posicionan la cuadrícula a la izquierda con la paleta a la derecha. Un encabezado estilizado aparece con fondo cian (#00BCD4), título violeta profundo (#6A1B9A) y marco naranja (#FF8C42) mostrando «Puzzle Cuadrícula» e instrucciones en el idioma seleccionado.',
+          'Haz clic en Generar para crear el puzzle de cuadrícula. La aplicación divide la imagen seleccionada en la cuadrícula configurada, revela las casillas-pista con las piezas de imagen reales visibles y marca las celdas restantes con indicadores \"?\". Todas las casillas se mezclan mediante el algoritmo Fisher-Yates y se muestran como paleta numerada. Los diseños verticales colocan la cuadrícula arriba con la paleta abajo; los diseños horizontales posicionan la cuadrícula a la izquierda con la paleta a la derecha. Un encabezado estilizado aparece con fondo cian (#00BCD4), título violeta profundo (#6A1B9A) y marco naranja (#FF8C42) mostrando \"Puzzle Cuadrícula\" e instrucciones en el idioma seleccionado.',
       },
       {
         title: 'Genera la Clave de Respuesta y Descarga',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el puzzle de cuadrícula para los usuarios?',
       answer:
-        'La ficha de trabajo muestra una cuadrícula donde algunas celdas muestran la pieza de imagen real (casillas-pista) y las celdas restantes muestran indicadores «?». Debajo o junto a la cuadrícula, una paleta numerada muestra todas las casillas ocultas en orden aleatorio. Los usuarios examinan las casillas-pista, estudian las casillas numeradas y determinan qué número corresponde a cada posición vacía de la cuadrícula. El ejercicio requiere razonamiento espacial — asociar el contenido de la casilla con su ubicación correcta en la imagen completa.',
+        'La ficha de trabajo muestra una cuadrícula donde algunas celdas muestran la pieza de imagen real (casillas-pista) y las celdas restantes muestran indicadores \"?\". Debajo o junto a la cuadrícula, una paleta numerada muestra todas las casillas ocultas en orden aleatorio. Los usuarios examinan las casillas-pista, estudian las casillas numeradas y determinan qué número corresponde a cada posición vacía de la cuadrícula. El ejercicio requiere razonamiento espacial — asociar el contenido de la casilla con su ubicación correcta en la imagen completa.',
     },
     {
       question: '¿Cómo funciona la clave de respuesta generada automáticamente?',

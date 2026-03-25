@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Ouvrir le Générateur de Puzzles',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le créateur de puzzles maths. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le créateur de puzzles maths. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
       },
       {
         title: 'Définir la Taille de la Grille',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Sélectionner ou Télécharger une Image',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, espace, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Vous pouvez aussi cliquer sur « Télécharger une Image » pour utiliser votre propre PNG ou JPEG — idéal pour des puzzles de marque, des designs saisonniers ou des sujets de niche qui correspondent à l\'identité de votre boutique.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, espace, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Vous pouvez aussi cliquer sur \" Télécharger une Image \" pour utiliser votre propre PNG ou JPEG — idéal pour des puzzles de marque, des designs saisonniers ou des sujets de niche qui correspondent à l\'identité de votre boutique.',
       },
       {
         title: 'Parcourir la Bibliothèque d\'Images',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Personnaliser la Mise en Page',
-        description: 'Dans la section « Mise en Page », choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures.',
+        description: 'Dans la section \" Mise en Page \", choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures.',
       },
       {
         title: 'Basculer en Mode Niveaux de Gris',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur le bouton « Générer » pour créer votre fiche de puzzle. L\'aperçu se met à jour sur le canevas. Quand vous êtes satisfait, utilisez le menu « Télécharger » pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Générez et téléchargez également un corrigé assorti qui montre chaque pièce placée dans sa position correcte sur la grille.',
+        description: 'Cliquez sur le bouton \" Générer \" pour créer votre fiche de puzzle. L\'aperçu se met à jour sur le canevas. Quand vous êtes satisfait, utilisez le menu \" Télécharger \" pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Générez et téléchargez également un corrigé assorti qui montre chaque pièce placée dans sa position correcte sur la grille.',
       },
     ],
   },
@@ -80,18 +80,18 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs de Puzzles Saisonniers et de Fêtes',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Puzzles Maths de Noël » avec des images festives se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et Gumroad.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack \" Puzzles Maths de Noël \" avec des images festives se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et Gumroad.',
     },
     {
       title: 'Puzzles d\'Échauffement pour la vente',
-      description: 'Générez des puzzles rapides en 2×2 ou 2×3 pour les échauffements quotidiens en maths. Les utilisateurs résolvent 4–6 équations et assemblent une image amusante en moins de cinq minutes. Créez un ensemble de 30 puzzles (un par jour d\'école) et vendez comme pack « Un Mois de Puzzles Maths d\'Échauffement ». Le format ludique maintient les utilisateurs engagés dès la première sonnerie.',
+      description: 'Générez des puzzles rapides en 2×2 ou 2×3 pour les échauffements quotidiens en maths. Les utilisateurs résolvent 4–6 équations et assemblent une image amusante en moins de cinq minutes. Créez un ensemble de 30 puzzles (un par jour d\'école) et vendez comme pack \" Un Mois de Puzzles Maths d\'Échauffement \". Le format ludique maintient les utilisateurs engagés dès la première sonnerie.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Boutique Etsy de Puzzles Maths Visuels',
-      description: 'Ouvrez une boutique Etsy spécialisée dans les puzzles maths style jigsaw. Le format visuel est véritablement unique — la plupart des imprimables de maths sur Etsy sont des fiches d\'exercices textuelles. Vos puzzles images colorés se démarquent dans les résultats de recherche et attirent les clics. Créez 15–20 packs thématiques entre 3 € et 5 € chacun. Téléchargez des images personnalisées pour construire une identité de marque qu\'aucun concurrent ne peut copier. Utilisez des tags Etsy comme « puzzle maths imprimable », « fiche puzzle jigsaw maths » et « activité maths visuelle » pour vous positionner sur des mots-clés que les vendeurs de fiches textuelles manquent complètement. Rafraîchissez votre boutique en publiant des packs saisonniers liés aux tendances de recherche — rentrée en août, Halloween en octobre, Noël en novembre.',
+      description: 'Ouvrez une boutique Etsy spécialisée dans les puzzles maths style jigsaw. Le format visuel est véritablement unique — la plupart des imprimables de maths sur Etsy sont des fiches d\'exercices textuelles. Vos puzzles images colorés se démarquent dans les résultats de recherche et attirent les clics. Créez 15–20 packs thématiques entre 3 € et 5 € chacun. Téléchargez des images personnalisées pour construire une identité de marque qu\'aucun concurrent ne peut copier. Utilisez des tags Etsy comme \" puzzle maths imprimable \", \" fiche puzzle jigsaw maths \" et \" activité maths visuelle \" pour vous positionner sur des mots-clés que les vendeurs de fiches textuelles manquent complètement. Rafraîchissez votre boutique en publiant des packs saisonniers liés aux tendances de recherche — rentrée en août, Halloween en octobre, Noël en novembre.',
       platform: 'Etsy.fr',
     },
     {
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs Premium sur Gumroad',
-      description: 'Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment « puzzles maths » et « jeux de maths ». Incluez les trois modes d\'opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d\'instructions « Comment Utiliser » expliquant les niveaux de difficulté par grille, les tranches d\'âge suggérées et des conseils pour l\'utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l\'vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.',
+      description: 'Téléchargez des packs de puzzles maths différenciés sur Gumroad. Les vendeurs recherchent constamment \" puzzles maths \" et \" jeux de maths \". Incluez les trois modes d\'opération, trois niveaux de difficulté, les corrigés et un guide vendeur dans chaque listing. Le format jigsaw ajoute une valeur perçue car il ressemble à un jeu, pas à un exercice. Ajoutez une page d\'instructions \" Comment Utiliser \" expliquant les niveaux de difficulté par grille, les tranches d\'âge suggérées et des conseils pour l\'utilisation en ligne. Les acheteurs Gumroad laissent systématiquement de meilleures notes aux ressources qui incluent de la documentation pour l\'vendeur, ce qui améliore la visibilité de votre listing dans les résultats de recherche Gumroad.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Commencez avec 2×2 pour les Jeunes Apprenants',
-      description: 'Une grille 2×2 ne comporte que 4 pièces de puzzle et 4 équations — gérable pour les enfants de maternelle qui apprennent l\'addition. Passez à 3×3 pour le CP et 4×4 pour le CE1 et au-delà. Adapter la taille de grille à l\'âge est le moyen le plus simple de créer des produits différenciés. Quand vous vendez sur les marketplaces, indiquez clairement la tranche d\'âge ou le niveau recommandé dans le titre et la description de votre produit. Les acheteurs filtrent par niveau scolaire, donc un listing intitulé « Puzzles Maths Maternelle — Grille 2×2 Addition » atteindra le bon public plus vite qu\'un titre générique « Puzzles Maths ».',
+      description: 'Une grille 2×2 ne comporte que 4 pièces de puzzle et 4 équations — gérable pour les enfants de maternelle qui apprennent l\'addition. Passez à 3×3 pour le CP et 4×4 pour le CE1 et au-delà. Adapter la taille de grille à l\'âge est le moyen le plus simple de créer des produits différenciés. Quand vous vendez sur les marketplaces, indiquez clairement la tranche d\'âge ou le niveau recommandé dans le titre et la description de votre produit. Les acheteurs filtrent par niveau scolaire, donc un listing intitulé \" Puzzles Maths Maternelle — Grille 2×2 Addition \" atteindra le bon public plus vite qu\'un titre générique \" Puzzles Maths \".',
     },
     {
       title: 'Utilisez le Mode Mixte pour un Maximum de Variété',
-      description: 'Le mode « Addition et Soustraction » mélange aléatoirement les deux opérations dans un seul puzzle. Cela crée des fiches de révision qui testent les deux compétences simultanément et empêche les utilisateurs de tomber dans un schéma répétitif. Les puzzles en mode mixte ont aussi une valeur perçue plus élevée dans les listings de marketplace. Les acheteurs Etsy et Gumroad qui cherchent « révision maths » ou « évaluation fin de chapitre » recherchent spécifiquement des ressources à opérations mixtes, donc tagger vos listings avec ces termes capture un segment d\'acheteurs distinct que les vendeurs d\'opérations uniques manquent complètement.',
+      description: 'Le mode \" Addition et Soustraction \" mélange aléatoirement les deux opérations dans un seul puzzle. Cela crée des fiches de révision qui testent les deux compétences simultanément et empêche les utilisateurs de tomber dans un schéma répétitif. Les puzzles en mode mixte ont aussi une valeur perçue plus élevée dans les listings de marketplace. Les acheteurs Etsy et Gumroad qui cherchent \" révision maths \" ou \" évaluation fin de chapitre \" recherchent spécifiquement des ressources à opérations mixtes, donc tagger vos listings avec ces termes capture un segment d\'acheteurs distinct que les vendeurs d\'opérations uniques manquent complètement.',
     },
     {
       title: 'Téléchargez des Images Personnalisées pour la Reconnaissance de Marque',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Associez avec des Fiches de Maths Classiques',
-      description: 'Créez des ensembles assortis de puzzles et de fiches d\'exercices standards en utilisant les générateurs d\'Addition et de Soustraction avec la même plage de nombres et le même thème. Vendez-les individuellement et en pack combiné « Exercices Maths + Puzzle ». Le puzzle ajoute un élément ludique qui rend le pack plus attractif que les fiches seules. Cette stratégie de produits croisés augmente aussi votre valeur de commande moyenne — les acheteurs qui trouvent votre listing de puzzle peuvent cliquer sur votre listing de fiches classiques et acheter les deux. Sur Etsy, lier des produits associés dans vos descriptions crée du trafic interne dans votre boutique et encourage les paniers multi-articles.',
+      description: 'Créez des ensembles assortis de puzzles et de fiches d\'exercices standards en utilisant les générateurs d\'Addition et de Soustraction avec la même plage de nombres et le même thème. Vendez-les individuellement et en pack combiné \" Exercices Maths + Puzzle \". Le puzzle ajoute un élément ludique qui rend le pack plus attractif que les fiches seules. Cette stratégie de produits croisés augmente aussi votre valeur de commande moyenne — les acheteurs qui trouvent votre listing de puzzle peuvent cliquer sur votre listing de fiches classiques et acheter les deux. Sur Etsy, lier des produits associés dans vos descriptions crée du trafic interne dans votre boutique et encourage les paniers multi-articles.',
     },
     {
       title: 'Mettez en Avant le Format Puzzle dans les Vignettes',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
-      answer: 'Oui. Cliquez sur le bouton « Télécharger une Image » pour utiliser votre propre fichier PNG ou JPEG comme image du puzzle. Cela vous permet de créer des puzzles de marque avec vos propres illustrations, logos, designs saisonniers ou œuvres de niche qu\'aucun autre vendeur ne peut reproduire.',
+      answer: 'Oui. Cliquez sur le bouton \" Télécharger une Image \" pour utiliser votre propre fichier PNG ou JPEG comme image du puzzle. Cela vous permet de créer des puzzles de marque avec vos propres illustrations, logos, designs saisonniers ou œuvres de niche qu\'aucun autre vendeur ne peut reproduire.',
     },
     {
       question: 'Que fait le mode niveaux de gris ?',

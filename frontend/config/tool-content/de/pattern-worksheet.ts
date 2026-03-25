@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Muster-Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Mustervervollständigungs-Arbeitsblättern.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Mustervervollständigungs-Arbeitsblättern.',
       },
       {
         title: 'Seitenlayout und Hintergrund einstellen',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Muster-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Mustervervollständigungs-Pakete. Ein „Halloween-Muster“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Gumroad. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen ABCD-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken. Zwei Fragemodi multiplizieren die Vielfalt innerhalb jedes Themas.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Mustervervollständigungs-Pakete. Ein \"Halloween-Muster\"-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Gumroad. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen ABCD-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken. Zwei Fragemodi multiplizieren die Vielfalt innerhalb jedes Themas.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon-KDP-Mustererkennungs-Arbeitsheft-Serie',
-      description: 'Stellen Sie 80+ Mustervervollständigungs-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Progression: „Anfänger-Muster“ behandelt AB bis ABB im Lückenfeld-Modus. „Fortgeschrittene Muster“ führt ABC und AABB mit beiden Fragemodi ein. „Experten-Muster“ bietet ABBC bis ABCD mit Zufälligem Start und Zufälliger Lückenposition. Lösungsschlüssel im Anhang jedes Buches. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung und maximiert Ihre geografische Reichweite aus einer einzigen Inhaltsdatei.',
+      description: 'Stellen Sie 80+ Mustervervollständigungs-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Progression: \"Anfänger-Muster\" behandelt AB bis ABB im Lückenfeld-Modus. \"Fortgeschrittene Muster\" führt ABC und AABB mit beiden Fragemodi ein. \"Experten-Muster\" bietet ABBC bis ABCD mit Zufälligem Start und Zufälliger Lückenposition. Lösungsschlüssel im Anhang jedes Buches. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung und maximiert Ihre geografische Reichweite aus einer einzigen Inhaltsdatei.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Gestufte Muster-Lernstationen',
-      description: 'Laden Sie Muster-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe mit Pro-Übung-Konfiguration als Differenzierungsmerkmal. Stufe 1 enthält ausschließlich AB-Lückenfeld-Übungen. Stufe 2 mischt AB und AAB mit beiden Modi. Stufe 3 führt ABC-Multiple-Choice neben Lückenfeld-Aufwärmübungen ein. Stufe 4 kombiniert ABCD-Herausforderungen mit Zufälligem Start. Jede Stufe nutzt thematische Übungen mit separaten Lösungsschlüsseln. Die Pro-Übung-Unabhängigkeit bedeutet, dass eine gedruckte Seite als vollständige Lernstation dient. Verkäufer suchen nach „Mustererkennungs-Arbeitsblätter“ und finden wenige Angebote mit neun Mustertypen.',
+      description: 'Laden Sie Muster-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe mit Pro-Übung-Konfiguration als Differenzierungsmerkmal. Stufe 1 enthält ausschließlich AB-Lückenfeld-Übungen. Stufe 2 mischt AB und AAB mit beiden Modi. Stufe 3 führt ABC-Multiple-Choice neben Lückenfeld-Aufwärmübungen ein. Stufe 4 kombiniert ABCD-Herausforderungen mit Zufälligem Start. Jede Stufe nutzt thematische Übungen mit separaten Lösungsschlüsseln. Die Pro-Übung-Unabhängigkeit bedeutet, dass eine gedruckte Seite als vollständige Lernstation dient. Verkäufer suchen nach \"Mustererkennungs-Arbeitsblätter\" und finden wenige Angebote mit neun Mustertypen.',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visueller Muster-Trichter',
-      description: 'Muster-Arbeitsblätter mit farbenfrohen Themenbildern im übersichtlichen Rasterlayout eignen sich hervorragend als Pinterest-Pins. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Mustertypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie Pins für jeden Fragemodus separat — „Lückenfeld-Muster-Arbeitsblätter“ und „Multiple-Choice-Muster-Arbeitsblätter“ sprechen verschiedene Suchanfragen an. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
+      description: 'Muster-Arbeitsblätter mit farbenfrohen Themenbildern im übersichtlichen Rasterlayout eignen sich hervorragend als Pinterest-Pins. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Mustertypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie Pins für jeden Fragemodus separat — \"Lückenfeld-Muster-Arbeitsblätter\" und \"Multiple-Choice-Muster-Arbeitsblätter\" sprechen verschiedene Suchanfragen an. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Rasterformat klar vom Zugformat differenzieren',
-      description: 'Muster-Arbeitsblatt (Raster) und Muster-Zug (Zugwaggons) erzeugen grundsätzlich verschiedene visuelle Formate für dieselbe Fähigkeit. Verkaufen Sie beide Formate einzeln oder bündeln Sie sie als „Komplett-Paket Mustererkennung“. Beschreiben Sie in Produktbeschreibungen klar „rasterbasierte Zeilen und Spalten“ versus „unverwechselbares 11-Waggon-Zug-Layout“, damit Käufer verstehen, dass sie zwei verschiedene Aktivitätstypen erhalten und keine Duplikate.',
+      description: 'Muster-Arbeitsblatt (Raster) und Muster-Zug (Zugwaggons) erzeugen grundsätzlich verschiedene visuelle Formate für dieselbe Fähigkeit. Verkaufen Sie beide Formate einzeln oder bündeln Sie sie als \"Komplett-Paket Mustererkennung\". Beschreiben Sie in Produktbeschreibungen klar \"rasterbasierte Zeilen und Spalten\" versus \"unverwechselbares 11-Waggon-Zug-Layout\", damit Käufer verstehen, dass sie zwei verschiedene Aktivitätstypen erhalten und keine Duplikate.',
     },
     {
       title: 'Zufälliger Start und Zufällige Lückenposition für einzigartige Blätter aktivieren',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Textfreiheit für globale Verkaufbarkeit hervorheben',
-      description: 'Muster-Arbeitsblätter enthalten null Text auf der Ausgabe — ausschließlich Bilder in Rasterzeilen. Dies ist Ihr stärkster Wettbewerbsvorteil für Marktplatz-Angebote. Geben Sie in jeder Produktbeschreibung explizit an: „Keine Übersetzung nötig — funktioniert weltweit.“ Käufer aus jedem Land können kaufen, ohne sich um Sprachkompatibilität zu sorgen. Eine Produktdatei bedient jeden Markt.',
+      description: 'Muster-Arbeitsblätter enthalten null Text auf der Ausgabe — ausschließlich Bilder in Rasterzeilen. Dies ist Ihr stärkster Wettbewerbsvorteil für Marktplatz-Angebote. Geben Sie in jeder Produktbeschreibung explizit an: \"Keine Übersetzung nötig — funktioniert weltweit.\" Käufer aus jedem Land können kaufen, ohne sich um Sprachkompatibilität zu sorgen. Eine Produktdatei bedient jeden Markt.',
     },
     {
       title: 'Musterkomplexität auf die Ziel-Altersgruppe abstimmen',

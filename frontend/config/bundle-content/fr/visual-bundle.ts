@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Plus de 100 ensembles d\'images thématiques',
-      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les sept générateurs. Chaque thème offre un nouvel angle produit — proposez « Pages de Coloriage Animaux Marins » aux côtés de « Fiches Motifs Ferme » et « Activités Graphiques Espace » pour capter différentes requêtes de recherche, intérêts des acheteurs et catégories de produits simultanément.',
+      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les sept générateurs. Chaque thème offre un nouvel angle produit — proposez \" Pages de Coloriage Animaux Marins \" aux côtés de \" Fiches Motifs Ferme \" et \" Activités Graphiques Espace \" pour capter différentes requêtes de recherche, intérêts des acheteurs et catégories de produits simultanément.',
     },
     {
       title: 'Import d\'images personnalisées',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cahiers d\'activités Amazon KDP',
-      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers d\'activités thématiques KDP : « Cahier d\'Apprentissage Visuel Préscolaire » mélangeant pages de coloriage, suites logiques, comparaison de tailles et tracé de lignes, ou « Activités Graphiques et Motifs Préscolaire » combinant comptage sur graphiques avec fiches de séquences logiques. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Comme les sept générateurs produisent du contenu indépendant du texte, le même cahier se vend dans chaque place de marché Amazon mondiale — seuls la couverture et le titre nécessitent une traduction.',
+      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers d\'activités thématiques KDP : \" Cahier d\'Apprentissage Visuel Préscolaire \" mélangeant pages de coloriage, suites logiques, comparaison de tailles et tracé de lignes, ou \" Activités Graphiques et Motifs Préscolaire \" combinant comptage sur graphiques avec fiches de séquences logiques. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Comme les sept générateurs produisent du contenu indépendant du texte, le même cahier se vend dans chaque place de marché Amazon mondiale — seuls la couverture et le titre nécessitent une traduction.',
       platform: 'Amazon KDP',
     },
     {
@@ -160,7 +160,7 @@ const content: BundleContent = {
       answer: 'Oui. Chaque générateur du pack propose un essai gratuit avec filigrane et toutes les fonctionnalités. Vous pouvez configurer les paramètres, prévisualiser les fiches et télécharger les fichiers. Les téléchargements d\'essai incluent un filigrane. L\'achat d\'une licence supprime le filigrane pour que vous puissiez vendre à titre commercial. Nous recommandons de tester chacun des sept générateurs avant l\'achat pour confirmer qu\'ils répondent à vos besoins.',
     },
     {
-      question: 'Qu\'est-ce qui rend ces fiches « 100 % visuelles » et pourquoi est-ce important ?',
+      question: 'Qu\'est-ce qui rend ces fiches \" 100 % visuelles \" et pourquoi est-ce important ?',
       answer: 'Chaque fiche produite par les sept générateurs de ce pack contient uniquement des images, des formes, des couleurs et des nombres — aucun mot ni phrase n\'apparaît sur la page finie. Cela signifie qu\'une page de coloriage, une fiche de motifs ou une activité de comptage sur graphique que vous créez fonctionne identiquement pour des acheteurs de n\'importe quel pays et dans n\'importe quelle langue. Vous n\'avez jamais besoin de traduire ni de créer des versions linguistiques séparées. Une seule annonce dessert chaque marché mondial, vous donnant un avantage structurel sur les vendeurs dont les fiches nécessitent une traduction textuelle.',
     },
     {

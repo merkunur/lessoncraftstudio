@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Gerador de Fichas do Intruso para Puzzles de Discriminação Visual',
     tagline: 'Dois modos de geração — Idêntico e Similar — com substituição por exercício, de 5 a 10 exercícios configuráveis, gabaritos autogerados com marcadores de círculo vermelho e puzzles puramente visuais que funcionam nos 11 idiomas sem tradução.',
     description:
-      'Crie fichas profissionais de encontre o diferente onde os usuários identificam e rodeiam o elemento intruso em cada fila de quatro imagens. Escolha entre dois modos de geração: o modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema para desafios de encontrar a diferença, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B para puzzles de discriminação entre categorias. Substitua o modo por exercício para misturar níveis de dificuldade numa única ficha. Configure de 5 a 10 exercícios por página com um valor predefinido de 6, e ative ou desative os campos opcionais de nome e data e os números de exercício para um formato pronto para a loja. Cada ficha gera um gabarito complementar num separador de canvas separado — o gabarito desenha um círculo vermelho à volta do elemento intruso em cada fila para que nunca marque as respostas manualmente. O cabeçalho autogerado apresenta uma moldura exterior coral, uma moldura interior âmbar e um fundo turquesa com o título localizado «Encontra o Diferente» em Fredoka e as instruções em Quicksand nos 11 idiomas. Como os puzzles são totalmente visuais — não aparece nenhuma palavra na ficha — não são sensíveis ao idioma e funcionam identicamente em qualquer localização. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4, Quadrado ou dimensões personalizadas. Quer venda packs de puzzles visuais na Etsy, compile cadernos de pensamento crítico para Amazon KDP ou crie atividades para a loja no Gumroad, este gerador produz fichas do intruso prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
+      'Crie fichas profissionais de encontre o diferente onde os usuários identificam e rodeiam o elemento intruso em cada fila de quatro imagens. Escolha entre dois modos de geração: o modo Idêntico coloca três clones da mesma imagem junto a uma imagem diferente do mesmo tema para desafios de encontrar a diferença, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B para puzzles de discriminação entre categorias. Substitua o modo por exercício para misturar níveis de dificuldade numa única ficha. Configure de 5 a 10 exercícios por página com um valor predefinido de 6, e ative ou desative os campos opcionais de nome e data e os números de exercício para um formato pronto para a loja. Cada ficha gera um gabarito complementar num separador de canvas separado — o gabarito desenha um círculo vermelho à volta do elemento intruso em cada fila para que nunca marque as respostas manualmente. O cabeçalho autogerado apresenta uma moldura exterior coral, uma moldura interior âmbar e um fundo turquesa com o título localizado \"Encontra o Diferente\" em Fredoka e as instruções em Quicksand nos 11 idiomas. Como os puzzles são totalmente visuais — não aparece nenhuma palavra na ficha — não são sensíveis ao idioma e funcionam identicamente em qualquer localização. O Acesso Completo desbloqueia todos os 104 temas com mais de 3100 ilustrações e os 11 idiomas de interface. Adicione temas de fundo e de moldura com controlos de opacidade independentes, e exporte PDF e JPEG prontos para impressão a 300 DPI em formato Carta, A4, Quadrado ou dimensões personalizadas. Quer venda packs de puzzles visuais na Etsy, compile cadernos de pensamento crítico para Amazon KDP ou crie atividades para a loja no Gumroad, este gerador produz fichas do intruso prontas para produção em minutos — teste grátis com todas as funcionalidades, sem registo, sem cartão de crédito. Os downloads incluem uma marca d\'água; adquira uma licença para removê-la.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configure os Exercícios',
         description:
-          'Abra o painel de Configuração de Exercícios e defina a quantidade de exercícios de 5 a 10 (predefinido 6). Selecione um modo de geração global: o modo Idêntico usa três clones da mesma imagem mais uma imagem diferente do mesmo tema, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B. Substitua o modo por exercício usando seletores suspensos em cada fila — misture exercícios Idênticos e Similares numa única ficha para dificuldade progressiva. Ative a opção «Incluir Campos de Nome/Data» para adicionar linhas de nome e data do usuário, e ative «Incluir Números de Exercício» para mostrar numerais no lado esquerdo de cada cartão de exercício.',
+          'Abra o painel de Configuração de Exercícios e defina a quantidade de exercícios de 5 a 10 (predefinido 6). Selecione um modo de geração global: o modo Idêntico usa três clones da mesma imagem mais uma imagem diferente do mesmo tema, enquanto o modo Similar utiliza três imagens do Tema A e uma imagem do Tema B. Substitua o modo por exercício usando seletores suspensos em cada fila — misture exercícios Idênticos e Similares numa única ficha para dificuldade progressiva. Ative a opção \"Incluir Campos de Nome/Data\" para adicionar linhas de nome e data do usuário, e ative \"Incluir Números de Exercício\" para mostrar numerais no lado esquerdo de cada cartão de exercício.',
       },
       {
         title: 'Selecione Temas e Imagens',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Gere a Ficha do Intruso',
         description:
-          'Clique em Gerar para criar os cartões de exercício. Cada cartão mostra quatro imagens numa fila horizontal — três elementos comuns e um elemento intruso com a posição aleatoriamente baralhada. A aplicação organiza os cartões em 1–2 colunas conforme a orientação da página e a quantidade de exercícios (2 colunas para horizontal ou vertical com 7+ exercícios). Um cabeçalho estilizado «Encontra o Diferente» aparece no topo com uma moldura exterior coral (#FF6B6B, traço de 8px), uma moldura interior âmbar (#FFB84D, traço de 3px) e um fundo turquesa (#4ECDC4) — com o título em Fredoka verde-azulado escuro (#1A535C) e as instruções em Quicksand vermelho (#E63946).',
+          'Clique em Gerar para criar os cartões de exercício. Cada cartão mostra quatro imagens numa fila horizontal — três elementos comuns e um elemento intruso com a posição aleatoriamente baralhada. A aplicação organiza os cartões em 1–2 colunas conforme a orientação da página e a quantidade de exercícios (2 colunas para horizontal ou vertical com 7+ exercícios). Um cabeçalho estilizado \"Encontra o Diferente\" aparece no topo com uma moldura exterior coral (#FF6B6B, traço de 8px), uma moldura interior âmbar (#FFB84D, traço de 3px) e um fundo turquesa (#4ECDC4) — com o título em Fredoka verde-azulado escuro (#1A535C) e as instruções em Quicksand vermelho (#E63946).',
       },
       {
         title: 'Gere o Gabarito e Descarregue',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Substituição por Exercício para Fichas de Dificuldade Mista',
         description:
-          'Cada fila de exercício inclui o seu próprio seletor suspenso de modo, permitindo-lhe substituir o modo global por exercício individual. Comece com exercícios fáceis em modo Idêntico no topo e transite para exercícios mais difíceis em modo Similar na parte inferior — ou alterne modos ao longo da ficha para um desafio variado. Um botão «Limpar Seleções» repõe todas as substituições por exercício ao modo global. Este controlo granular permite aos vendedores criar fichas de dificuldade progressiva que servem múltiplos níveis de competência numa única página, aumentando o valor percebido de cada imprimível.',
+          'Cada fila de exercício inclui o seu próprio seletor suspenso de modo, permitindo-lhe substituir o modo global por exercício individual. Comece com exercícios fáceis em modo Idêntico no topo e transite para exercícios mais difíceis em modo Similar na parte inferior — ou alterne modos ao longo da ficha para um desafio variado. Um botão \"Limpar Seleções\" repõe todas as substituições por exercício ao modo global. Este controlo granular permite aos vendedores criar fichas de dificuldade progressiva que servem múltiplos níveis de competência numa única página, aumentando o valor percebido de cada imprimível.',
       },
       {
         title: 'Quantidade de Exercícios Configurável de 5 a 10 por Ficha',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Como funciona a substituição de modo por exercício?',
       answer:
-        'Cada fila de exercício inclui o seu próprio menu suspenso de modo que lhe permite substituir o modo global. Defina o modo global como Similar, depois mude exercícios individuais para Idêntico — ou vice-versa. Isto cria fichas de dificuldade mista onde alguns exercícios são mais fáceis (Idêntico) e outros mais difíceis (Similar) na mesma página. Um botão «Limpar Seleções» repõe todas as substituições por exercício ao modo global.',
+        'Cada fila de exercício inclui o seu próprio menu suspenso de modo que lhe permite substituir o modo global. Defina o modo global como Similar, depois mude exercícios individuais para Idêntico — ou vice-versa. Isto cria fichas de dificuldade mista onde alguns exercícios são mais fáceis (Idêntico) e outros mais difíceis (Similar) na mesma página. Um botão \"Limpar Seleções\" repõe todas as substituições por exercício ao modo global.',
     },
     {
       question: 'Quantos exercícios posso incluir numa ficha?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Posso adicionar campos de nome e data às fichas do intruso?',
       answer:
-        'Sim. Ative a opção «Incluir Campos de Nome/Data» no painel de Configuração de Exercícios para adicionar linhas de nome e data do usuário. Estes campos posicionam-se de forma adaptável conforme o layout da página. Os campos de nome e data tornam as fichas prontas para a loja — os vendedores podem acompanhar o trabalho do usuário e os pais podem organizar as atividades concluídas por data.',
+        'Sim. Ative a opção \"Incluir Campos de Nome/Data\" no painel de Configuração de Exercícios para adicionar linhas de nome e data do usuário. Estes campos posicionam-se de forma adaptável conforme o layout da página. Os campos de nome e data tornam as fichas prontas para a loja — os vendedores podem acompanhar o trabalho do usuário e os pais podem organizar as atividades concluídas por data.',
     },
     {
       question: 'Como funcionam os números de exercício?',
       answer:
-        'Ative a opção «Incluir Números de Exercício» no painel de Configuração de Exercícios para mostrar numerais no lado esquerdo de cada cartão de exercício. Os números usam uma largura de 25px com um espaçamento de 15px em relação ao conteúdo do cartão. Os números de exercício ajudam durante a revisão em aula e facilitam que os vendedores façam referência a exercícios específicos durante a discussão.',
+        'Ative a opção \"Incluir Números de Exercício\" no painel de Configuração de Exercícios para mostrar numerais no lado esquerdo de cada cartão de exercício. Os números usam uma largura de 25px com um espaçamento de 15px em relação ao conteúdo do cartão. Os números de exercício ajudam durante a revisão em aula e facilitam que os vendedores façam referência a exercícios específicos durante a discussão.',
     },
     {
       question: 'Existe um teste grátis?',
@@ -188,7 +188,7 @@ const content: AppContent = {
     {
       question: 'As fichas do intruso são sensíveis ao idioma?',
       answer:
-        'Não. Ao contrário de aplicações que mostram palavras na ficha, os puzzles do intruso são totalmente visuais — não aparece nenhum texto no conteúdo do puzzle. O cabeçalho autogerado («Encontra o Diferente») traduz-se para os 11 idiomas suportados, mas os exercícios contêm apenas imagens. Isto significa que cada ficha funciona em qualquer idioma sem modificação, tornando os puzzles do intruso uma escolha ideal para vendas em marketplaces globais.',
+        'Não. Ao contrário de aplicações que mostram palavras na ficha, os puzzles do intruso são totalmente visuais — não aparece nenhum texto no conteúdo do puzzle. O cabeçalho autogerado (\"Encontra o Diferente\") traduz-se para os 11 idiomas suportados, mas os exercícios contêm apenas imagens. Isto significa que cada ficha funciona em qualquer idioma sem modificação, tornando os puzzles do intruso uma escolha ideal para vendas em marketplaces globais.',
     },
     {
       question: 'Posso vender fichas do intruso criadas com esta ferramenta na Etsy e Amazon KDP?',

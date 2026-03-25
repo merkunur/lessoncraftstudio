@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Champs nom et date avec contrôle d\'activation',
         description:
-          'Une case à cocher dans le panneau Texte & Contenu ajoute des champs « Nom : » et « Date : » à la fiche. Ces lignes d\'identification garantissent la traçabilité en ligne et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la vente ou désactivez-les pour des pages de cahier d\'activités où l\'identification de l\'utilisateur apparaît en couverture. Les champs s\'affichent proprement aux côtés de l\'en-tête et de la légende auto-générés.',
+          'Une case à cocher dans le panneau Texte & Contenu ajoute des champs \" Nom : \" et \" Date : \" à la fiche. Ces lignes d\'identification garantissent la traçabilité en ligne et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la vente ou désactivez-les pour des pages de cahier d\'activités où l\'identification de l\'utilisateur apparaît en couverture. Les champs s\'affichent proprement aux côtés de l\'en-tête et de la légende auto-générés.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 collections thématiques et plus de 3 100 illustrations',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Peut-on ajouter des champs nom et date à la fiche ?',
       answer:
-        'Oui. Une case à cocher dans le panneau Texte & Contenu ajoute des champs « Nom : » et « Date : » à la fiche. Ces lignes d\'identification garantissent la traçabilité en ligne et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la vente ou désactivez-les pour des pages de cahier d\'activités.',
+        'Oui. Une case à cocher dans le panneau Texte & Contenu ajoute des champs \" Nom : \" et \" Date : \" à la fiche. Ces lignes d\'identification garantissent la traçabilité en ligne et donnent un aspect professionnel aux fiches pour les listages de marketplace. Activez-les pour des produits prêts pour la vente ou désactivez-les pour des pages de cahier d\'activités.',
     },
     {
       question: 'Comment fonctionne l\'en-tête auto-généré ?',

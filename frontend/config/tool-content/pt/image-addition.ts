@@ -28,27 +28,27 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir o Gerador de Fichas',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de fichas de adição. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de fichas de adição. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
       },
       {
         title: 'Escolher o Modo de Exercício',
-        description: 'Abra o painel «Configuração de Exercícios» e selecione entre quatro modos: Imagem + Imagem (ambos os parcelas como grupos de imagens), Imagem + Número (um grupo de imagens mais um número), Encontrar o Parcela (um dos parcelas está oculto e a criança deve adivinhar) ou Modo Misto (combina os três estilos de forma aleatória na mesma ficha).',
+        description: 'Abra o painel \"Configuração de Exercícios\" e selecione entre quatro modos: Imagem + Imagem (ambos os parcelas como grupos de imagens), Imagem + Número (um grupo de imagens mais um número), Encontrar o Parcela (um dos parcelas está oculto e a criança deve adivinhar) ou Modo Misto (combina os três estilos de forma aleatória na mesma ficha).',
       },
       {
         title: 'Ajustar o Intervalo de Dificuldade',
-        description: 'Ajuste os controlos «Mínimo de elementos por grupo» e «Máximo de elementos por grupo» para controlar os números utilizados. Para a pré-escola, experimente 1–3. Para o jardim de infância, use 1–5. Os usuários do 1.º ano podem trabalhar com 1–10. Também pode definir o número de exercícios por ficha (de 1 a 10).',
+        description: 'Ajuste os controlos \"Mínimo de elementos por grupo\" e \"Máximo de elementos por grupo\" para controlar os números utilizados. Para a pré-escola, experimente 1–3. Para o jardim de infância, use 1–5. Os usuários do 1.º ano podem trabalhar com 1–10. Também pode definir o número de exercícios por ficha (de 1 a 10).',
       },
       {
         title: 'Selecionar um Tema da Biblioteca de Imagens',
-        description: 'Abra o painel «Biblioteca de Imagens» e explore mais de 100 coleções temáticas: animais, alimentos, veículos, criaturas marinhas, espaço, desportos e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Clique nas imagens individuais para escolher exatamente quais aparecerão na sua ficha.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 100 coleções temáticas: animais, alimentos, veículos, criaturas marinhas, espaço, desportos e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Clique nas imagens individuais para escolher exatamente quais aparecerão na sua ficha.',
       },
       {
         title: 'Personalizar o Layout da Página',
-        description: 'Na secção «Configuração de Página», escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
+        description: 'Na secção \"Configuração de Página\", escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
       },
       {
         title: 'Adicionar Texto e Títulos',
-        description: 'Use o painel «Ferramentas de Texto» para adicionar um título, um campo de nome ou instruções. Escolha entre fontes adequadas para crianças como Fredoka, Baloo 2, Quicksand e Nunito. Ajuste o tamanho, cor e contorno opcional do texto para melhorar a legibilidade sobre os fundos.',
+        description: 'Use o painel \"Ferramentas de Texto\" para adicionar um título, um campo de nome ou instruções. Escolha entre fontes adequadas para crianças como Fredoka, Baloo 2, Quicksand e Nunito. Ajuste o tamanho, cor e contorno opcional do texto para melhorar a legibilidade sobre os fundos.',
       },
       {
         title: 'Ajustar as Opções da Ficha',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Gerar e Descarregar',
-        description: 'Clique no botão «Gerar» para criar a sua ficha. A pré-visualização atualiza-se no canvas em tempo real. Quando estiver satisfeito, use o menu «Descarregar» para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Também pode gerar e descarregar um gabarito com todas as soluções preenchidas.',
+        description: 'Clique no botão \"Gerar\" para criar a sua ficha. A pré-visualização atualiza-se no canvas em tempo real. Quando estiver satisfeito, use o menu \"Descarregar\" para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Também pode gerar e descarregar um gabarito com todas as soluções preenchidas.',
       },
     ],
   },
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Vendedor no Gumroad',
-      description: 'Carregue pacotes de fichas de adição diferenciadas no Gumroad. Os vendedores procuram constantemente «fichas de adição com imagens». Inclua o gabarito e um guia vendedor em cada listing para uma maior perceção de valor. Ao criar os seus listings de Gumroad, invista tempo adicional nas imagens de pré-visualização porque os vendedores tomam as suas decisões de compra quase exclusivamente a partir das miniaturas visuais. Gere fichas de exemplo com os temas mais coloridos e inclua capturas de ecrã anotadas mostrando as opções de dificuldade e os modos de exercício disponíveis.',
+      description: 'Carregue pacotes de fichas de adição diferenciadas no Gumroad. Os vendedores procuram constantemente \"fichas de adição com imagens\". Inclua o gabarito e um guia vendedor em cada listing para uma maior perceção de valor. Ao criar os seus listings de Gumroad, invista tempo adicional nas imagens de pré-visualização porque os vendedores tomam as suas decisões de compra quase exclusivamente a partir das miniaturas visuais. Gere fichas de exemplo com os temas mais coloridos e inclua capturas de ecrã anotadas mostrando as opções de dificuldade e os modos de exercício disponíveis.',
       platform: 'Gumroad',
     },
     {
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Inclua Sempre o Gabarito',
-      description: 'Clique em «Gerar Gabarito» antes de descarregar. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem um gabarito. Demora apenas 10 segundos adicionais e melhora significativamente as suas avaliações e as compras repetidas. Um gabarito também torna o seu produto adequado para famílias que educam em casa, onde os pais precisam de verificar o trabalho rapidamente.',
+      description: 'Clique em \"Gerar Gabarito\" antes de descarregar. Os compradores na Etsy e no Gumroad classificam sistematicamente melhor os produtos que incluem um gabarito. Demora apenas 10 segundos adicionais e melhora significativamente as suas avaliações e as compras repetidas. Um gabarito também torna o seu produto adequado para famílias que educam em casa, onde os pais precisam de verificar o trabalho rapidamente.',
     },
     {
       title: 'Exporte em PDF e em JPEG',
@@ -138,7 +138,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Comece com Intervalos de Números Baixos',
-      description: 'Para produtos destinados à pré-escola e ao jardim de infância, mantenha o máximo de elementos por grupo em 3–5. As crianças pequenas ficam sobrecarregadas com números grandes. Crie versões separadas «fácil» e «desafio» de cada ficha para que os pais e vendedores possam escolher o nível adequado.',
+      description: 'Para produtos destinados à pré-escola e ao jardim de infância, mantenha o máximo de elementos por grupo em 3–5. As crianças pequenas ficam sobrecarregadas com números grandes. Crie versões separadas \"fácil\" e \"desafio\" de cada ficha para que os pais e vendedores possam escolher o nível adequado.',
     },
     {
       title: 'Adicione Texto Personalizado para a Sua Marca',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso gerar um gabarito?',
-      answer: 'Sim. Após gerar uma ficha, clique em «Gerar Gabarito» para criar uma folha de soluções com todas as respostas preenchidas. Pode descarregar o gabarito como um ficheiro JPEG ou PDF independente. Isto é especialmente útil para vendedores e para vendedores que querem incluir gabaritos nos seus produtos. Os compradores na Etsy e no Gumroad deixam sistematicamente melhores classificações em listings que incluem gabaritos.',
+      answer: 'Sim. Após gerar uma ficha, clique em \"Gerar Gabarito\" para criar uma folha de soluções com todas as respostas preenchidas. Pode descarregar o gabarito como um ficheiro JPEG ou PDF independente. Isto é especialmente útil para vendedores e para vendedores que querem incluir gabaritos nos seus produtos. Os compradores na Etsy e no Gumroad deixam sistematicamente melhores classificações em listings que incluem gabaritos.',
     },
     {
       question: 'Que tamanhos de página são compatíveis?',

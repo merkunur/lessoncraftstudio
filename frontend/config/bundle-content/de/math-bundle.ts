@@ -59,7 +59,7 @@ const content: BundleContent = {
     },
     {
       title: 'Komplette Mathe-Produktlinie',
-      description: 'Decken Sie jede grundlegende Mathe-Fähigkeit ab, nach der Käufer suchen — Addition, Subtraktion, Vergleich, Code-Rätsel, Puzzle-Aktivitäten und Bildalgebra-Gleichungen. Listen Sie Dutzende verschiedener Produkte aus einem einzigen Toolkit, ohne Lücken in Ihrem Katalog. Kombinieren Sie verschiedene Generatoren mit verschiedenen Themen, um einzigartige Produktangebote zu erstellen: „Meertiere-Additions-Paket“, „Weltraum-Subtraktions-Bündel“, „Bauernhof-Mathe-Rätsel-Sammlung“ — jedes zielt auf eine andere Suchanfrage und Käuferbedarf ab.',
+      description: 'Decken Sie jede grundlegende Mathe-Fähigkeit ab, nach der Käufer suchen — Addition, Subtraktion, Vergleich, Code-Rätsel, Puzzle-Aktivitäten und Bildalgebra-Gleichungen. Listen Sie Dutzende verschiedener Produkte aus einem einzigen Toolkit, ohne Lücken in Ihrem Katalog. Kombinieren Sie verschiedene Generatoren mit verschiedenen Themen, um einzigartige Produktangebote zu erstellen: \"Meertiere-Additions-Paket\", \"Weltraum-Subtraktions-Bündel\", \"Bauernhof-Mathe-Rätsel-Sammlung\" — jedes zielt auf eine andere Suchanfrage und Käuferbedarf ab.',
     },
     {
       title: 'Automatische Lösungsschlüssel',
@@ -75,7 +75,7 @@ const content: BundleContent = {
     },
     {
       title: 'Über 100 thematische Bildsets',
-      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle sechs Generatoren zu. Jedes Thema bietet einen frischen Produktwinkel — listen Sie „Bauernhoftiere-Addition“ neben „Weltraum-Subtraktion“, um verschiedene Suchanfragen und Käuferinteressen abzudecken.',
+      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle sechs Generatoren zu. Jedes Thema bietet einen frischen Produktwinkel — listen Sie \"Bauernhoftiere-Addition\" neben \"Weltraum-Subtraktion\", um verschiedene Suchanfragen und Käuferinteressen abzudecken.',
     },
     {
       title: 'Eigene Bilder hochladen',
@@ -95,7 +95,7 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP Mathe-Arbeitsbuch',
-      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Arbeitsbüchern: „Erste-Klasse-Mathe-Aktivitätsbuch“ mit Additions-, Subtraktions- und Vergleichsseiten, oder „Mathe-Rätsel-Sammlung“ mit Puzzle- und Algebra-Rätseln. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Da fünf von sechs Generatoren sprachunabhängige Arbeitsblätter erzeugen, verkauft sich dasselbe Arbeitsbuch weltweit ohne Übersetzung.',
+      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Arbeitsbüchern: \"Erste-Klasse-Mathe-Aktivitätsbuch\" mit Additions-, Subtraktions- und Vergleichsseiten, oder \"Mathe-Rätsel-Sammlung\" mit Puzzle- und Algebra-Rätseln. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Da fünf von sechs Generatoren sprachunabhängige Arbeitsblätter erzeugen, verkauft sich dasselbe Arbeitsbuch weltweit ohne Übersetzung.',
       platform: 'Amazon KDP',
     },
     {

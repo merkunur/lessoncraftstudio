@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Codificação ao nível de frase para decifração de mensagens completas',
         description:
-          'Ao contrário dos puzzles que codificam palavras individuais, o Gerador de Criptograma codifica frases e orações inteiras. Os usuários descodificam uma mensagem completa e legível — uma citação motivadora, uma oração de vocabulário, uma curiosidade ou uma instrução personalizada — obtendo a satisfação de revelar um conteúdo significativo em vez de palavras isoladas. A codificação ao nível de frase também fornece pistas contextuais: as palavras curtas comuns como «o», «e» e «é» ajudam os resolvedores a decifrar o código mais rapidamente, criando um efeito de orientação natural que recompensa a intuição linguística.',
+          'Ao contrário dos puzzles que codificam palavras individuais, o Gerador de Criptograma codifica frases e orações inteiras. Os usuários descodificam uma mensagem completa e legível — uma citação motivadora, uma oração de vocabulário, uma curiosidade ou uma instrução personalizada — obtendo a satisfação de revelar um conteúdo significativo em vez de palavras isoladas. A codificação ao nível de frase também fornece pistas contextuais: as palavras curtas comuns como \"o\", \"e\" e \"é\" ajudam os resolvedores a decifrar o código mais rapidamente, criando um efeito de orientação natural que recompensa a intuição linguística.',
       },
       {
         title: 'Dificuldade ajustável com Letras a Revelar (0–10)',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Ferramenta de vocabulário para loja e explicações',
         description:
-          'Codifique orações de vocabulário personalizadas, frases de revisão de ortografia ou definições específicas de uma disciplina como puzzles de criptograma. Escreva qualquer frase como mensagem secreta — «A mitocôndria é a central energética da célula» para biologia, «A Declaração de Independência foi assinada em 1776» para história, ou as palavras do ditado semanal organizadas numa oração. Ajuste as Letras a Revelar conforme o nível de capacidade de cada usuário para uma diferenciação instantânea. O formato de decifração transforma a revisão de vocabulário memorística numa atividade de puzzle motivadora, e a legenda de letras do gabarito poupa valor percebido.',
+          'Codifique orações de vocabulário personalizadas, frases de revisão de ortografia ou definições específicas de uma disciplina como puzzles de criptograma. Escreva qualquer frase como mensagem secreta — \"A mitocôndria é a central energética da célula\" para biologia, \"A Declaração de Independência foi assinada em 1776\" para história, ou as palavras do ditado semanal organizadas numa oração. Ajuste as Letras a Revelar conforme o nível de capacidade de cada usuário para uma diferenciação instantânea. O formato de decifração transforma a revisão de vocabulário memorística numa atividade de puzzle motivadora, e a legenda de letras do gabarito poupa valor percebido.',
         platform: 'loja / Explicações / Ensino doméstico',
       },
     ],

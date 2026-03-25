@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Campos de Nombre y Fecha con Control de Activación',
         description:
-          'Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a las fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades donde la información del usuario aparece en la portada. Los campos se integran limpiamente con el encabezado autogenerado y la leyenda.',
+          'Una casilla de verificación en el panel Texto y Contenido añade campos de \"Nombre:\" y \"Fecha:\" a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a las fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades donde la información del usuario aparece en la portada. Los campos se integran limpiamente con el encabezado autogenerado y la leyenda.',
       },
       {
         title: 'Biblioteca de Imágenes con 104 Colecciones Temáticas y Más de 3100 Ilustraciones',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: '¿Puedo añadir campos de nombre y fecha a la ficha?',
       answer:
-        'Sí. Una casilla de verificación en el panel Texto y Contenido añade campos de «Nombre:» y «Fecha:» a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a tus fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades.',
+        'Sí. Una casilla de verificación en el panel Texto y Contenido añade campos de \"Nombre:\" y \"Fecha:\" a la ficha. Estas líneas de identificación del usuario aseguran la responsabilidad para uso comercial y dan a tus fichas un aspecto profesional para listados en marketplaces. Actívalos para productos listos para vender o desactívalos para páginas de cuadernos de actividades.',
     },
     {
       question: '¿Cómo funciona el encabezado autogenerado?',

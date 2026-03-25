@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Mönstertåg Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga mönstertåg arbetsblad omedelbart.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga mönstertåg arbetsblad omedelbart.',
       },
       {
         title: 'Ställ in sidlayout och bakgrund',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade och högtids mönstertågsset',
-      description: 'Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade mönstertågpaket. Ett «Halloween Mönstertåg»-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla AB-uppvärmningar med avancerade AABB-utmaningar i varje säsongsset.',
+      description: 'Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade mönstertågpaket. Ett \"Halloween Mönstertåg\"-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla AB-uppvärmningar med avancerade AABB-utmaningar i varje säsongsset.',
     },
     {
       title: 'Korsformats visuella inlärningspaket',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP tidig matte arbetsboksserie',
-      description: 'Sammanställ 80+ mönstertåg övningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter tema: «Djur Mönstertåg», «Fordon Sekvenståg», «Mat Mönsterigenkänning». Varje bok avancerar från enkla AB-mönster till komplexa AABB-sekvenser med facit i slutet. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.',
+      description: 'Sammanställ 80+ mönstertåg övningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter tema: \"Djur Mönstertåg\", \"Fordon Sekvenståg\", \"Mat Mönsterigenkänning\". Varje bok avancerar från enkla AB-mönster till komplexa AABB-sekvenser med facit i slutet. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.',
       platform: 'Amazon KDP',
     },
     {
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Framhäv tågformatet som din marknadsplatsdifferentiator',
-      description: 'De flesta mönsterarbetsblad på Etsy och Gumroad använder standard rutnätslayouter med rader och kolumner. 11-vagns tågvagnsformatet är visuellt distinkt och direkt igenkännbart i sökresultaten. Nämn «tågvagnsformat» och «11-vagns layout» i dina produkttitlar och beskrivningar.',
+      description: 'De flesta mönsterarbetsblad på Etsy och Gumroad använder standard rutnätslayouter med rader och kolumner. 11-vagns tågvagnsformatet är visuellt distinkt och direkt igenkännbart i sökresultaten. Nämn \"tågvagnsformat\" och \"11-vagns layout\" i dina produkttitlar och beskrivningar.',
     },
     {
       title: 'Framhäv textfrihet för global säljbarhet',
-      description: 'Mönstertåg arbetsblad innehåller ingen text på utmatningen — bara bilder på tågvagnar. Detta är din starkaste konkurrensfördel. Ange uttryckligen «ingen översättning behövs — fungerar globalt» i varje produktbeskrivning.',
+      description: 'Mönstertåg arbetsblad innehåller ingen text på utmatningen — bara bilder på tågvagnar. Detta är din starkaste konkurrensfördel. Ange uttryckligen \"ingen översättning behövs — fungerar globalt\" i varje produktbeskrivning.',
     },
     {
       title: 'Skapa både tåg- och rutnätsmönsterprodukter',
-      description: 'Mönstertåg Skaparen och Mönster Arbetsblad Skaparen producerar fundamentalt olika visuella format för samma färdighet — mönsterigenkänning. Tågformat använder 11 vagnar med en enda saknad position. Rutnätsformat använder standard rader och kolumner. Sälj båda formaten separat eller paketera dem som ett «Komplett Mönsterigenkänningspaket» till ett premiumpris.',
+      description: 'Mönstertåg Skaparen och Mönster Arbetsblad Skaparen producerar fundamentalt olika visuella format för samma färdighet — mönsterigenkänning. Tågformat använder 11 vagnar med en enda saknad position. Rutnätsformat använder standard rader och kolumner. Sälj båda formaten separat eller paketera dem som ett \"Komplett Mönsterigenkänningspaket\" till ett premiumpris.',
     },
     {
       title: 'Matcha ledtrådsantal till din målåldersgrupp',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Diagramräkning Arbetsblad Skapare',
     tagline: 'Bilddiagram arbetsblad generator med spridda bildsrutnät, automatiskt genererade stapeldiagram-facit, lokaliserade rubriker på 11 språk och 104 tematiska bildsamlingar för datarepresentation arbetsblad som säljer globalt',
-    description: 'Skapa professionella bilddiagram arbetsblad där användarna räknar spridda bilder och fyller i ett stapeldiagram nedanför — lär ut datainsamling och datarepresentation i en enda aktivitet. Varje arbetsblad har ett 4×5-rutnät med 20 ikoner från 6 olika bildtyper, varje typ förekommer 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Under rutnätet visar ett stapeldiagram med 6 kolumner × 5 rader var användarna registrerar sina räkningar. Appen genererar samtidigt ett facit på en separat arbetsyteflik med gulmarkerade (#FFC857) celler som visar de korrekta antalen. Välj bilder automatiskt genom att välja ett tema från dropdownen — appen väljer slumpmässigt 6 bilder — eller bläddra manuellt i Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar och klicka exakt 6 bilder. Varje arbetsblad inkluderar en automatiskt genererad rubrik med en lokaliserad «Bilddiagram»-titel som anpassas till alla 11 stödda språk. Lägg till namn- och datumfält med en enda kryssruta. Applicera både bakgrundsteman och ramteman med oberoende opacitetsreglage (0–1, steg 0,05). Diagramräkning Generatorn är inte språkkänslig — visuell räkning med universella siffror och bilder gör arbetsbladen identiskt användbara på alla språk. Ladda ner fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Exportera i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar med gråskaleväxling för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella bilddiagram arbetsblad där användarna räknar spridda bilder och fyller i ett stapeldiagram nedanför — lär ut datainsamling och datarepresentation i en enda aktivitet. Varje arbetsblad har ett 4×5-rutnät med 20 ikoner från 6 olika bildtyper, varje typ förekommer 1–5 gånger i en slumpmässig fördelning som gör varje generering unik. Under rutnätet visar ett stapeldiagram med 6 kolumner × 5 rader var användarna registrerar sina räkningar. Appen genererar samtidigt ett facit på en separat arbetsyteflik med gulmarkerade (#FFC857) celler som visar de korrekta antalen. Välj bilder automatiskt genom att välja ett tema från dropdownen — appen väljer slumpmässigt 6 bilder — eller bläddra manuellt i Bildbiblioteket med mer än 3 100 illustrationer i 104 tematiska samlingar och klicka exakt 6 bilder. Varje arbetsblad inkluderar en automatiskt genererad rubrik med en lokaliserad \"Bilddiagram\"-titel som anpassas till alla 11 stödda språk. Lägg till namn- och datumfält med en enda kryssruta. Applicera både bakgrundsteman och ramteman med oberoende opacitetsreglage (0–1, steg 0,05). Diagramräkning Generatorn är inte språkkänslig — visuell räkning med universella siffror och bilder gör arbetsbladen identiskt användbara på alla språk. Ladda ner fyra filer per session: arbetsblad-JPEG, arbetsblad-PDF, facit-JPEG och facit-PDF — alla med 300 DPI. Exportera i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar med gråskaleväxling för bläckvänlig utmatning. Den gratis provversionen innehåller alla funktioner med en vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Diagramräkning Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta bilddiagram generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta bilddiagram generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Ställ in sidlayout och dekorationer',
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera bilddiagram arbetsbladet',
-        description: 'Klicka på Generera för att skapa arbetsbladet. Appen arrangerar 20 spridda ikoner i ett 4×5-rutnät — varje typ förekommer 1–5 gånger i en slumpmässig fördelning. Under rutnätet visas ett stapeldiagram med 6 kolumner × 5 rader med kolumner märkta per bildtyp och rader numrerade 1–5. En automatiskt genererad rubrik visar en lokaliserad «Bilddiagram»-titel i en stiliserad gul piller med orange ramkant.',
+        description: 'Klicka på Generera för att skapa arbetsbladet. Appen arrangerar 20 spridda ikoner i ett 4×5-rutnät — varje typ förekommer 1–5 gånger i en slumpmässig fördelning. Under rutnätet visas ett stapeldiagram med 6 kolumner × 5 rader med kolumner märkta per bildtyp och rader numrerade 1–5. En automatiskt genererad rubrik visar en lokaliserad \"Bilddiagram\"-titel i en stiliserad gul piller med orange ramkant.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till namnfält och lokaliserad rubrik',
-        description: 'Kryssa i Inkludera Namn/Datum för att lägga till formaterade «Namn: ____» och «Datum: ____» fält längst ner (Fredoka 18px #333). Den automatiskt genererade rubriken visar «Bilddiagram»-titel och räkningsinstruktioner på det aktiva gränssnittsspråket — alla 11 språk stöds. Arbetsbladen blir produktlinjesfärdiga i alla lokaler utan manuell textredigering.',
+        description: 'Kryssa i Inkludera Namn/Datum för att lägga till formaterade \"Namn: ____\" och \"Datum: ____\" fält längst ner (Fredoka 18px #333). Den automatiskt genererade rubriken visar \"Bilddiagram\"-titel och räkningsinstruktioner på det aktiva gränssnittsspråket — alla 11 språk stöds. Arbetsbladen blir produktlinjesfärdiga i alla lokaler utan manuell textredigering.',
       },
       {
         title: 'Anpassa med textverktyg och arbetsyteredigering',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP datafärdighets arbetsboksserie',
-      description: 'Sammanställ 80+ bilddiagram arbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter ämne: «Djur Räkningsdiagram», «Vardags Datadiagram». Inkludera facitsidor i slutet av varje kapitel. Växla gråskala för bläckvänlig utmatning. Det visuella räkningsformatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.',
+      description: 'Sammanställ 80+ bilddiagram arbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter ämne: \"Djur Räkningsdiagram\", \"Vardags Datadiagram\". Inkludera facitsidor i slutet av varje kapitel. Växla gråskala för bläckvänlig utmatning. Det visuella räkningsformatet publiceras identiskt på alla internationella KDP-marknadsplatser utan översättning.',
       platform: 'Amazon KDP',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Rikta in dig på datarepresentation produktkatalogs-nischen',
-      description: 'Bilddiagram är en specifik mattestandard i tidiga grundskoleproduktkataloger globalt. säljare söker aktivt efter diagram- och datarepresentationsresurser. Positionera dina produkter med produktkatalogsanpassade nyckelord: «bilddiagram», «stapeldiagram arbetsblad», «datarepresentation aktivitet» och «räkning och diagram».',
+      description: 'Bilddiagram är en specifik mattestandard i tidiga grundskoleproduktkataloger globalt. säljare söker aktivt efter diagram- och datarepresentationsresurser. Positionera dina produkter med produktkatalogsanpassade nyckelord: \"bilddiagram\", \"stapeldiagram arbetsblad\", \"datarepresentation aktivitet\" och \"räkning och diagram\".',
     },
     {
       title: 'Bygg säsongssamlingar för återkommande intäkter',
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera namn/datum-fält för produktlinjesfärdiga produkter',
-      description: 'Den enda kryssrutan som lägger till «Namn: ____» och «Datum: ____» fält förvandlar bilddiagram arbetsblad från generiska utskriftsbara till strukturerade produktlinjesaktiviteter. säljare på Gumroad söker specifikt efter «produktlinjesfärdiga» och «print-and-go» resurser med identifieringsområden.',
+      description: 'Den enda kryssrutan som lägger till \"Namn: ____\" och \"Datum: ____\" fält förvandlar bilddiagram arbetsblad från generiska utskriftsbara till strukturerade produktlinjesaktiviteter. säljare på Gumroad söker specifikt efter \"produktlinjesfärdiga\" och \"print-and-go\" resurser med identifieringsområden.',
     },
     {
       title: 'Sälj globalt med noll översättningsarbete',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad är den lokaliserade rubriken på varje arbetsblad?',
-      answer: 'Varje genererat arbetsblad inkluderar en stiliserad rubrik med gul pillerbakgrund (#FFD93D), vit inre piller och orange ramkant. Rubriken visar en «Bilddiagram»-titel och räkningsinstruktioner som automatiskt översätts till det aktiva gränssnittsspråket — alla 11 språk stöds.',
+      answer: 'Varje genererat arbetsblad inkluderar en stiliserad rubrik med gul pillerbakgrund (#FFD93D), vit inre piller och orange ramkant. Rubriken visar en \"Bilddiagram\"-titel och räkningsinstruktioner som automatiskt översätts till det aktiva gränssnittsspråket — alla 11 språk stöds.',
     },
     {
       question: 'Hur fungerar bakgrunds- och ramteman?',

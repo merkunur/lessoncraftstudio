@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Más de 100 conjuntos de imágenes temáticas',
-      description: 'Accede a animales, comida, vehículos, festividades, estaciones y docenas de categorías temáticas más en los siete generadores. Cada tema te da un ángulo de producto nuevo — publica «Páginas para Colorear Animales del Océano» junto a «Fichas de Patrones Granja» y «Actividades de Gráficos de Conteo Espacio» para capturar diferentes consultas de búsqueda, intereses de compradores y categorías de productos simultáneamente.',
+      description: 'Accede a animales, comida, vehículos, festividades, estaciones y docenas de categorías temáticas más en los siete generadores. Cada tema te da un ángulo de producto nuevo — publica \"Páginas para Colorear Animales del Océano\" junto a \"Fichas de Patrones Granja\" y \"Actividades de Gráficos de Conteo Espacio\" para capturar diferentes consultas de búsqueda, intereses de compradores y categorías de productos simultáneamente.',
     },
     {
       title: 'Subir imágenes personalizadas',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Libros de actividades en Amazon KDP',
-      description: 'Combina fichas de múltiples generadores en libros de actividades temáticos para KDP: «Cuaderno de Aprendizaje Visual Preescolar» mezclando páginas para colorear, secuencias de patrones, comparación de tamaños y trazado de líneas, o «Actividades de Gráficos y Patrones para Jardín de Infantes» combinando conteo con gráficos con fichas de patrones. El motor de diseño consistente asegura que cada página se vea profesionalmente uniforme. Genera de 50 a 100 páginas por libro en una sola sesión, descarga como PDF y sube directamente a KDP. Como los siete generadores producen contenido independiente del texto, el mismo interior de libro se vende en todos los marketplaces de Amazon del mundo con solo la portada y el título necesitando traducción.',
+      description: 'Combina fichas de múltiples generadores en libros de actividades temáticos para KDP: \"Cuaderno de Aprendizaje Visual Preescolar\" mezclando páginas para colorear, secuencias de patrones, comparación de tamaños y trazado de líneas, o \"Actividades de Gráficos y Patrones para Jardín de Infantes\" combinando conteo con gráficos con fichas de patrones. El motor de diseño consistente asegura que cada página se vea profesionalmente uniforme. Genera de 50 a 100 páginas por libro en una sola sesión, descarga como PDF y sube directamente a KDP. Como los siete generadores producen contenido independiente del texto, el mismo interior de libro se vende en todos los marketplaces de Amazon del mundo con solo la portada y el título necesitando traducción.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
@@ -160,7 +160,7 @@ const content: BundleContent = {
       answer: 'Sí. Cada generador del paquete ofrece una prueba gratis con funcionalidad completa. Puedes configurar todos los ajustes, previsualizar fichas y descargar archivos. Las descargas de prueba incluyen una marca de agua. Comprar una licencia elimina la marca de agua para que puedas vender comercialmente. Recomendamos probar cada uno de los siete generadores antes de comprar para confirmar que cubren tus necesidades.',
     },
     {
-      question: '¿Qué hace que estas fichas sean «solo visuales» y por qué importa?',
+      question: '¿Qué hace que estas fichas sean \"solo visuales\" y por qué importa?',
       answer: 'Cada ficha producida por los siete generadores de este paquete contiene solo imágenes, formas, colores y números — no aparecen palabras ni oraciones en la página terminada. Esto significa que una página para colorear, ficha de patrones o actividad de conteo con gráficos que crees funciona idénticamente para compradores de cualquier país y cualquier idioma. Nunca necesitas traducir ni crear versiones en diferentes idiomas. Un solo listado de producto sirve a todos los mercados del mundo, dándote una ventaja estructural sobre los vendedores cuyas fichas requieren traducción de texto.',
     },
     {

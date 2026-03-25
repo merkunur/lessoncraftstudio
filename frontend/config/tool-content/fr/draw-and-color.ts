@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Dessin sur Quadrillage',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de dessin sur quadrillage immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de dessin sur quadrillage immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et l\'Arrière-Plan',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Fiches de Symétrie et Raisonnement Spatial',
-      description: 'Utilisez les modes miroir Horizontal et Vertical pour créer des fiches qui font le pont entre art et mathématiques. Les utilisateurs voient les cellules d\'indices d\'un côté de la grille et doivent reconstruire l\'image miroir du côté opposé. Un pack de symétrie horizontale enseigne la symétrie bilatérale — fondamentale en géométrie et en biologie. Un pack de symétrie verticale cible la reconnaissance du miroir haut-bas. Combinez les deux modes dans un lot « Dessin Symétrie Complet ». Ces ressources se vendent exceptionnellement bien dans les catégories art et mathématiques sur Gumroad car elles servent deux matières à partir d\'un seul format de fiche.',
+      description: 'Utilisez les modes miroir Horizontal et Vertical pour créer des fiches qui font le pont entre art et mathématiques. Les utilisateurs voient les cellules d\'indices d\'un côté de la grille et doivent reconstruire l\'image miroir du côté opposé. Un pack de symétrie horizontale enseigne la symétrie bilatérale — fondamentale en géométrie et en biologie. Un pack de symétrie verticale cible la reconnaissance du miroir haut-bas. Combinez les deux modes dans un lot \" Dessin Symétrie Complet \". Ces ressources se vendent exceptionnellement bien dans les catégories art et mathématiques sur Gumroad car elles servent deux matières à partir d\'un seul format de fiche.',
     },
     {
       title: 'Ensembles Thématiques Dessiner-Puis-Colorier',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers de Dessin sur Grille pour Amazon KDP',
-      description: 'Compilez plus de 80 exercices de dessin sur grille dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Dessin sur Grille Débutant » couvre les grilles 3×3 à 5×5 à 50–75 % d\'indices. « Dessin sur Grille Intermédiaire » avance aux grilles 6×6 et 7×7 à 25–50 % d\'indices. « Dessin sur Grille Avancé » présente les grilles 8×8 à 10×10 à 10–25 % d\'indices. Les images de contours N&B s\'impriment parfaitement en noir et blanc standard, maintenant les coûts de production KDP bas. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction.',
+      description: 'Compilez plus de 80 exercices de dessin sur grille dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : \" Dessin sur Grille Débutant \" couvre les grilles 3×3 à 5×5 à 50–75 % d\'indices. \" Dessin sur Grille Intermédiaire \" avance aux grilles 6×6 et 7×7 à 25–50 % d\'indices. \" Dessin sur Grille Avancé \" présente les grilles 8×8 à 10×10 à 10–25 % d\'indices. Les images de contours N&B s\'impriment parfaitement en noir et blanc standard, maintenant les coûts de production KDP bas. Le format visuel sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Ateliers de Symétrie sur Gumroad',
-      description: 'Téléchargez des packs de fiches de dessin sur grille sur Gumroad organisés par mode de symétrie comme focus pédagogique. Le Niveau 1 utilise le placement Aléatoire des indices pour la pratique générale du dessin. Le Niveau 2 introduit le mode Miroir Horizontal où les utilisateurs voient un côté et dessinent l\'image miroir. Le Niveau 3 utilise le mode Miroir Vertical pour la symétrie haut-bas. Le Niveau 4 combine un faible pourcentage d\'indices avec le mode miroir pour le défi ultime de raisonnement spatial. Ces ressources font le pont entre les standards d\'art et de mathématiques, les rendant précieuses tant pour les vendeurs d\'art que pour les spécialistes de mathématiques recherchant « activités de symétrie » et « fiches de raisonnement spatial ».',
+      description: 'Téléchargez des packs de fiches de dessin sur grille sur Gumroad organisés par mode de symétrie comme focus pédagogique. Le Niveau 1 utilise le placement Aléatoire des indices pour la pratique générale du dessin. Le Niveau 2 introduit le mode Miroir Horizontal où les utilisateurs voient un côté et dessinent l\'image miroir. Le Niveau 3 utilise le mode Miroir Vertical pour la symétrie haut-bas. Le Niveau 4 combine un faible pourcentage d\'indices avec le mode miroir pour le défi ultime de raisonnement spatial. Ces ressources font le pont entre les standards d\'art et de mathématiques, les rendant précieuses tant pour les vendeurs d\'art que pour les spécialistes de mathématiques recherchant \" activités de symétrie \" et \" fiches de raisonnement spatial \".',
       platform: 'Gumroad',
     },
     {
       title: 'Tunnel de Vente Pinterest pour Dessin sur Grille',
-      description: 'Les fiches de dessin sur grille avec leur mise en page distinctive à double grille font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d\'exemple avec filigrane montrant différents pourcentages d\'indices et modes de symétrie, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des séries d\'épingles distinctes pour « dessin sur grille pour enfants », « fiches de symétrie » et « reproduction cellule par cellule ». Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
+      description: 'Les fiches de dessin sur grille avec leur mise en page distinctive à double grille font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d\'exemple avec filigrane montrant différents pourcentages d\'indices et modes de symétrie, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des séries d\'épingles distinctes pour \" dessin sur grille pour enfants \", \" fiches de symétrie \" et \" reproduction cellule par cellule \". Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Soulignez la Double Grille comme Format Premium',
-      description: 'La mise en page grille de pratique plus grille d\'indices est le différenciateur principal par rapport aux simples pages de coloriage. Décrivez explicitement le système de double grille dans chaque listing : « Deux grilles compagnons par image — une grille de pratique vierge pour le dessin et une grille d\'indices montrant des indices de référence partiels. » Ce format premium commande des prix plus élevés car il livre une activité d\'apprentissage structurée plutôt qu\'une simple image à colorier.',
+      description: 'La mise en page grille de pratique plus grille d\'indices est le différenciateur principal par rapport aux simples pages de coloriage. Décrivez explicitement le système de double grille dans chaque listing : \" Deux grilles compagnons par image — une grille de pratique vierge pour le dessin et une grille d\'indices montrant des indices de référence partiels. \" Ce format premium commande des prix plus élevés car il livre une activité d\'apprentissage structurée plutôt qu\'une simple image à colorier.',
     },
     {
       title: 'Créez des Cahiers Progressifs par Chapitres de Pourcentage d\'Indices',

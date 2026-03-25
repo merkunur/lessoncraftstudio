@@ -59,7 +59,7 @@ const content: BundleContent = {
     },
     {
       title: 'Gamme complète de produits maths',
-      description: 'Couvrez chaque compétence mathématique fondamentale recherchée par les acheteurs — addition, soustraction, comparaison, puzzles codés, activités puzzle et équations algébriques illustrées. Proposez des dizaines de produits distincts depuis un seul kit sans lacune dans votre catalogue. Combinez différents générateurs avec différents thèmes pour créer des fiches produits uniques : « Pack Addition Animaux Marins », « Collection Soustraction Espace », « Ensemble Puzzles Maths Ferme » — chacune ciblant une requête de recherche et un besoin acheteur différents.',
+      description: 'Couvrez chaque compétence mathématique fondamentale recherchée par les acheteurs — addition, soustraction, comparaison, puzzles codés, activités puzzle et équations algébriques illustrées. Proposez des dizaines de produits distincts depuis un seul kit sans lacune dans votre catalogue. Combinez différents générateurs avec différents thèmes pour créer des fiches produits uniques : \" Pack Addition Animaux Marins \", \" Collection Soustraction Espace \", \" Ensemble Puzzles Maths Ferme \" — chacune ciblant une requête de recherche et un besoin acheteur différents.',
     },
     {
       title: 'Corrigés automatiques',
@@ -75,7 +75,7 @@ const content: BundleContent = {
     },
     {
       title: 'Plus de 100 ensembles d\'images thématiques',
-      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les six générateurs. Chaque thème offre un nouvel angle produit — proposez « Addition Animaux de la Ferme » aux côtés de « Soustraction Espace » pour capter différentes requêtes de recherche et différents intérêts des acheteurs.',
+      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les six générateurs. Chaque thème offre un nouvel angle produit — proposez \" Addition Animaux de la Ferme \" aux côtés de \" Soustraction Espace \" pour capter différentes requêtes de recherche et différents intérêts des acheteurs.',
     },
     {
       title: 'Import d\'images personnalisées',
@@ -95,7 +95,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cahier de maths Amazon KDP',
-      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers thématiques KDP : « Cahier d\'Activités Maths CP » avec des pages d\'addition, soustraction et comparaison, ou « Collection de Puzzles Maths » mélangeant puzzles-grilles et puzzles algébriques. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Comme cinq des six générateurs produisent des fiches indépendantes de la langue, le même cahier se vend dans le monde entier sans traduction.',
+      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers thématiques KDP : \" Cahier d\'Activités Maths CP \" avec des pages d\'addition, soustraction et comparaison, ou \" Collection de Puzzles Maths \" mélangeant puzzles-grilles et puzzles algébriques. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Comme cinq des six générateurs produisent des fiches indépendantes de la langue, le même cahier se vend dans le monde entier sans traduction.',
       platform: 'Amazon KDP',
     },
     {

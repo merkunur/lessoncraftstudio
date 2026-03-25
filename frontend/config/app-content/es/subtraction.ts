@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Generador de Fichas de Resta con Visualización de Tachado',
     tagline: 'Haz que la resta sea intuitiva con fichas donde los niños tachan imágenes para encontrar la respuesta.',
     description:
-      'Crea fichas de resta basadas en imágenes que enseñan el concepto de «quitar» mediante un método visual poderoso: las imágenes tachadas. Los usuarios ven un grupo de imágenes y observan cruces diagonales trazadas sobre los elementos restados — convirtiendo el concepto abstracto de la resta en algo concreto e intuitivo. Elige entre cuatro modos de ejercicio — Tachar, Imagen − Número, Encontrar el Sustraendo y Modo Mixto — para acompañar el aprendizaje desde preescolar hasta segundo grado. Explora más de 3100 ilustraciones seleccionadas en 104 temas como dinosaurios, vida marina y vehículos. Cada ficha incluye una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Un modo de escala de grises integrado permite crear versiones en blanco y negro con un solo clic. Ya sea que vendas paquetes temáticos en Etsy, publiques libros de actividades en Amazon KDP o imprimas fichas de práctica para tus usuarios, el Generador de Fichas de Resta produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
+      'Crea fichas de resta basadas en imágenes que enseñan el concepto de \"quitar\" mediante un método visual poderoso: las imágenes tachadas. Los usuarios ven un grupo de imágenes y observan cruces diagonales trazadas sobre los elementos restados — convirtiendo el concepto abstracto de la resta en algo concreto e intuitivo. Elige entre cuatro modos de ejercicio — Tachar, Imagen − Número, Encontrar el Sustraendo y Modo Mixto — para acompañar el aprendizaje desde preescolar hasta segundo grado. Explora más de 3100 ilustraciones seleccionadas en 104 temas como dinosaurios, vida marina y vehículos. Cada ficha incluye una clave de respuesta automática, y puedes exportar PDF listos para imprimir en formato Carta, A4 o personalizado a más de 400 DPI. Un modo de escala de grises integrado permite crear versiones en blanco y negro con un solo clic. Ya sea que vendas paquetes temáticos en Etsy, publiques libros de actividades en Amazon KDP o imprimas fichas de práctica para tus usuarios, el Generador de Fichas de Resta produce resultados profesionales en minutos. Prueba gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compra una licencia para eliminarla.',
   },
 
   howItWorks: {
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Visualización de tachado',
         description:
-          'La función característica que distingue a este generador. En el modo Tachar, se muestra un grupo completo de imágenes y se trazan cruces diagonales sobre los últimos N elementos para mostrar la resta visualmente. Esto transforma la idea abstracta de «quitar» en algo que los usuarios pueden ver y comprender de inmediato. Un niño que observa ocho manzanas con tres tachadas entiende «8 menos 3» mucho más intuitivamente que mirando solo números. Las marcas de tachado se muestran claramente en el lienzo y aparecen tanto en la ficha como en la clave de respuesta.',
+          'La función característica que distingue a este generador. En el modo Tachar, se muestra un grupo completo de imágenes y se trazan cruces diagonales sobre los últimos N elementos para mostrar la resta visualmente. Esto transforma la idea abstracta de \"quitar\" en algo que los usuarios pueden ver y comprender de inmediato. Un niño que observa ocho manzanas con tres tachadas entiende \"8 menos 3\" mucho más intuitivamente que mirando solo números. Las marcas de tachado se muestran claramente en el lienzo y aparecen tanto en la ficha como en la clave de respuesta.',
       },
       {
         title: 'Cuatro modos de ejercicio distintos',
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona la visualización de tachado?',
       answer:
-        'En el modo Tachar, la ficha muestra el grupo de inicio completo — por ejemplo, ocho mariposas. Luego se trazan cruces diagonales sobre las últimas N imágenes para representar la cantidad restada. Los usuarios cuentan las imágenes sin marcar para encontrar la respuesta. Esto convierte el concepto abstracto de «quitar» en algo visible y concreto, especialmente eficaz para niños de preescolar e infantil que comienzan a aprender la resta.',
+        'En el modo Tachar, la ficha muestra el grupo de inicio completo — por ejemplo, ocho mariposas. Luego se trazan cruces diagonales sobre las últimas N imágenes para representar la cantidad restada. Los usuarios cuentan las imágenes sin marcar para encontrar la respuesta. Esto convierte el concepto abstracto de \"quitar\" en algo visible y concreto, especialmente eficaz para niños de preescolar e infantil que comienzan a aprender la resta.',
     },
     {
       question: '¿Qué rangos de números puedo configurar para los problemas de resta?',

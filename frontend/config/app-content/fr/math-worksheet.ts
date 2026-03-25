@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Ajouter du texte, des titres et la numérotation des puzzles',
         description:
-          'Utilisez le panneau Outils de Texte pour ajouter un titre de fiche, des champs nom et date, des consignes ou tout texte personnalisé. Choisissez parmi sept polices dont Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Personnalisez la numérotation des puzzles avec votre propre libellé (par exemple « Puzzle », « Problème », « Défi ») et définissez le numéro de départ. Utilisez le canevas Fabric.js pour glisser, redimensionner et repositionner chaque élément — avec contrôle des calques, guides d\'alignement, verrouillage et annulation/rétablissement illimités.',
+          'Utilisez le panneau Outils de Texte pour ajouter un titre de fiche, des champs nom et date, des consignes ou tout texte personnalisé. Choisissez parmi sept polices dont Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Personnalisez la numérotation des puzzles avec votre propre libellé (par exemple \" Puzzle \", \" Problème \", \" Défi \") et définissez le numéro de départ. Utilisez le canevas Fabric.js pour glisser, redimensionner et repositionner chaque élément — avec contrôle des calques, guides d\'alignement, verrouillage et annulation/rétablissement illimités.',
       },
       {
         title: 'Générer le corrigé et télécharger',

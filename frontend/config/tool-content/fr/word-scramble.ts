@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches Mots Mélangés',
     tagline: 'Créez des puzzles d\'orthographe par réarrangement de lettres avec indices images, code couleur et 4 niveaux de difficulté dans 11 langues',
-    description: 'Transformez la pratique du vocabulaire en un puzzle d\'orthographe pratique que les utilisateurs résolvent en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les utilisateurs étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Transformez la pratique du vocabulaire en un puzzle d\'orthographe pratique que les utilisateurs résolvent en réarrangeant des tuiles de lettres mélangées. Cet outil génère des fiches mots mélangés où un indice image est associé à un ensemble de tuiles contenant toutes les lettres du mot — mais dans le mauvais ordre. Les utilisateurs étudient l\'image, identifient ce qu\'elle représente et replacent les lettres dans le bon ordre pour épeler le mot correct. Contrairement aux exercices deviner les mots où les utilisateurs remplissent des cases vides, les mots mélangés donnent TOUTES les lettres mais mélangées, ce qui en fait un défi de réarrangement qui développe la précision orthographique par la manipulation active. La fonctionnalité phare est le code couleur voyelles-consonnes : activez-le pour afficher les voyelles dans une couleur et les consonnes dans une autre sur les tuiles, ajoutant une dimension phonique visuelle qui aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-placées dans leur position correcte : Sans Indices mélange toutes les lettres pour un défi maximal, Facile pré-place la moitié pour un étayage adapté aux débutants, Normal place un quart pour une pratique équilibrée, et Difficile place seulement un sixième pour les orthographeurs confirmés. Choisissez entre trois sources de contenu : la Bibliothèque d\'Images tire le vocabulaire de plus de 3 100 illustrations réparties dans 104 collections thématiques, le Mode Édition Manuelle vous permet de sélectionner des images puis de personnaliser leurs noms d\'affichage, et le mode Liste de Mots Personnalisée vous permet de taper jusqu\'à 8 mots directement pour des puzzles textuels. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design devient 11 produits uniques. Définissez 1 à 10 puzzles par page, choisissez des tuiles en majuscules ou minuscules, ajoutez la numérotation des exercices et sélectionnez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération automatique de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Mots Mélangés',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots mélangés immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des puzzles mots mélangés immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et le Modèle',
-        description: 'Dans la section « Mise en Page », sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable depuis la bibliothèque de 104 thèmes et choisissez un cadre décoratif.',
+        description: 'Dans la section \" Mise en Page \", sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable depuis la bibliothèque de 104 thèmes et choisissez un cadre décoratif.',
       },
       {
         title: 'Choisir Votre Source de Contenu',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Générer le Corrigé et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre fiche mots mélangés. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Passez à l\'onglet Corrigé et générez une version résolue montrant le mot correctement reconstitué pour chaque puzzle. Téléchargez la fiche et le corrigé en PDF prêt à imprimer ou en JPEG haute résolution à plus de 300 DPI.',
+        description: 'Cliquez sur \" Générer \" pour créer votre fiche mots mélangés. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Passez à l\'onglet Corrigé et générez une version résolue montrant le mot correctement reconstitué pour chaque puzzle. Téléchargez la fiche et le corrigé en PDF prêt à imprimer ou en JPEG haute résolution à plus de 300 DPI.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs Thématiques de Puzzles Mots Mélangés',
-      description: 'Créez des ensembles de 10 à 15 fiches mots mélangés avec des collections d\'images thématiques — animaux, nourriture, véhicules, scènes de nature, fêtes, sport et plus encore. Chaque puzzle présente un indice image accompagné de tuiles de lettres mélangées que les utilisateurs réarrangent pour épeler le mot correct. Activez le code couleur sur la moitié du pack pour une variante « édition phonique » qui met en évidence les schémas voyelles-consonnes. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format tuiles mélangées avec indices images colorés rend vos vignettes de listing visuellement accrocheuses comparées aux fiches d\'orthographe classiques.',
+      description: 'Créez des ensembles de 10 à 15 fiches mots mélangés avec des collections d\'images thématiques — animaux, nourriture, véhicules, scènes de nature, fêtes, sport et plus encore. Chaque puzzle présente un indice image accompagné de tuiles de lettres mélangées que les utilisateurs réarrangent pour épeler le mot correct. Activez le code couleur sur la moitié du pack pour une variante \" édition phonique \" qui met en évidence les schémas voyelles-consonnes. Regroupez par thème et vendez sur Etsy.fr ou Gumroad. Le format tuiles mélangées avec indices images colorés rend vos vignettes de listing visuellement accrocheuses comparées aux fiches d\'orthographe classiques.',
     },
     {
       title: 'Cahiers d\'Activités Mots Mélangés pour KDP',
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles de Puzzles Phoniques avec Code Couleur',
-      description: 'Exploitez le code couleur voyelles-consonnes pour créer des puzzles d\'orthographe axés phonique qu\'aucun autre générateur ne peut produire. Les tuiles colorées affichent les voyelles dans une couleur et les consonnes dans une autre, ajoutant une couche d\'apprentissage visuel que les mots mélangés classiques n\'offrent pas. Créez des versions séparées « Édition Code Couleur » et « Édition Noir Classique » de chaque thème pour doubler votre catalogue de produits avec un minimum de travail supplémentaire.',
+      description: 'Exploitez le code couleur voyelles-consonnes pour créer des puzzles d\'orthographe axés phonique qu\'aucun autre générateur ne peut produire. Les tuiles colorées affichent les voyelles dans une couleur et les consonnes dans une autre, ajoutant une couche d\'apprentissage visuel que les mots mélangés classiques n\'offrent pas. Créez des versions séparées \" Édition Code Couleur \" et \" Édition Noir Classique \" de chaque thème pour doubler votre catalogue de produits avec un minimum de travail supplémentaire.',
     },
     {
       title: 'Produits d\'Orthographe Multilingues',
-      description: 'Changez le paramètre de langue et régénérez le même design de fiche dans les 11 langues prises en charge. La même image de chien produit « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol — chacun avec des lettres différentes, un nombre de lettres différent et des arrangements mélangés complètement différents. Une seule session de création produit 11 produits distincts, chacun prêt à être listé sur sa marketplace locale.',
+      description: 'Changez le paramètre de langue et régénérez le même design de fiche dans les 11 langues prises en charge. La même image de chien produit \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol — chacun avec des lettres différentes, un nombre de lettres différent et des arrangements mélangés complètement différents. Une seule session de création produit 11 produits distincts, chacun prêt à être listé sur sa marketplace locale.',
     },
     {
       title: 'Fiches de Vocabulaire Personnalisé',
@@ -125,15 +125,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utilisez le Code Couleur pour la Différenciation Phonique',
-      description: 'Activez le code couleur voyelles-consonnes pour afficher les voyelles dans une couleur et les consonnes dans une autre. Cette aide phonique visuelle est unique aux Mots Mélangés et aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Créez une « Édition Code Couleur » aux côtés d\'une « Édition Classique » de chaque thème pour doubler votre gamme de produits.',
+      description: 'Activez le code couleur voyelles-consonnes pour afficher les voyelles dans une couleur et les consonnes dans une autre. Cette aide phonique visuelle est unique aux Mots Mélangés et aide les utilisateurs à identifier les types de lettres tout en reconstituant le mot. Créez une \" Édition Code Couleur \" aux côtés d\'une \" Édition Classique \" de chaque thème pour doubler votre gamme de produits.',
     },
     {
       title: 'Utilisez Sans Indices pour les Évaluations d\'Orthographe',
-      description: 'Le mode Sans Indices mélange toutes les lettres sans aucune position pré-placée, créant une véritable évaluation d\'orthographe à partir d\'un indice image. Les utilisateurs doivent retrouver l\'orthographe complète et réarranger toutes les tuiles de manière autonome. Utilisez-le pour les contrôles, les sections finales de défi dans les cahiers ou les produits premium « édition expert ».',
+      description: 'Le mode Sans Indices mélange toutes les lettres sans aucune position pré-placée, créant une véritable évaluation d\'orthographe à partir d\'un indice image. Les utilisateurs doivent retrouver l\'orthographe complète et réarranger toutes les tuiles de manière autonome. Utilisez-le pour les contrôles, les sections finales de défi dans les cahiers ou les produits premium \" édition expert \".',
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
-      description: 'Chaque fiche mots mélangés que vous créez peut devenir 11 produits en changeant la langue. La même image de chat produit « CHAT », « CAT », « KATZE », « GATO », « GATTO » et plus — chacun avec des nombres de lettres différents, des tuiles différentes et des arrangements mélangés différents. Les puzzles d\'orthographe spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
+      description: 'Chaque fiche mots mélangés que vous créez peut devenir 11 produits en changeant la langue. La même image de chat produit \" CHAT \", \" CAT \", \" KATZE \", \" GATO \", \" GATTO \" et plus — chacun avec des nombres de lettres différents, des tuiles différentes et des arrangements mélangés différents. Les puzzles d\'orthographe spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
     },
     {
       title: 'Utilisez le Mode Édition Manuelle pour du Vocabulaire Personnalisé',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Mélangez les Niveaux de Difficulté dans les Packs',
-      description: 'Créez des packs de fiches qui progressent de Facile à Sans Indices sur le même thème. Un pack « Puzzles d\'Orthographe Animaux de la Ferme » avec 5 pages Facile, 5 Normal, 5 Difficile et 5 Sans Indices donne aux vendeurs un ensemble différencié prêt à l\'emploi. Incluez les corrigés pour chaque niveau. Les packs progressifs commandent des prix premium sur Gumroad et Etsy.fr.',
+      description: 'Créez des packs de fiches qui progressent de Facile à Sans Indices sur le même thème. Un pack \" Puzzles d\'Orthographe Animaux de la Ferme \" avec 5 pages Facile, 5 Normal, 5 Difficile et 5 Sans Indices donne aux vendeurs un ensemble différencié prêt à l\'emploi. Incluez les corrigés pour chaque niveau. Les packs progressifs commandent des prix premium sur Gumroad et Etsy.fr.',
     },
     {
       title: 'Associez avec Deviner les Mots pour des Packs Complets',
-      description: 'Mots Mélangés (réarrangement de lettres) et Deviner les Mots (remplir les cases vides) exercent des compétences cognitives différentes avec un vocabulaire similaire. Regroupez les deux formats dans un pack « Pratique d\'Orthographe Complète » où les utilisateurs reconstituent d\'abord les tuiles, puis remplissent les lettres manquantes. Les packs multi-format se vendent plus cher que les packs à format unique et offrent une pratique orthographique plus complète.',
+      description: 'Mots Mélangés (réarrangement de lettres) et Deviner les Mots (remplir les cases vides) exercent des compétences cognitives différentes avec un vocabulaire similaire. Regroupez les deux formats dans un pack \" Pratique d\'Orthographe Complète \" où les utilisateurs reconstituent d\'abord les tuiles, puis remplissent les lettres manquantes. Les packs multi-format se vendent plus cher que les packs à format unique et offrent une pratique orthographique plus complète.',
     },
   ],
 
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: 'Comment fonctionne la sensibilité linguistique ?',
-      answer: 'Lorsque vous changez de langue, la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. L\'outil prend en charge 11 langues : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.',
+      answer: 'Lorsque vous changez de langue, la même image produit un mot cible différent avec des lettres différentes et un arrangement mélangé complètement différent. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. L\'outil prend en charge 11 langues : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.',
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
-      answer: 'Oui. Cliquez sur le bouton « Télécharger une Image » pour utiliser vos propres fichiers PNG ou JPEG comme indices images. Vous pouvez taper un nom d\'affichage personnalisé pour chaque image téléchargée afin de contrôler le mot qui sera mélangé. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations qu\'aucun autre vendeur ne peut reproduire.',
+      answer: 'Oui. Cliquez sur le bouton \" Télécharger une Image \" pour utiliser vos propres fichiers PNG ou JPEG comme indices images. Vous pouvez taper un nom d\'affichage personnalisé pour chaque image téléchargée afin de contrôler le mot qui sera mélangé. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations qu\'aucun autre vendeur ne peut reproduire.',
     },
     {
       question: 'L\'outil génère-t-il des corrigés ?',

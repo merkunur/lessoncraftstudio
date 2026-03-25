@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir el Generador de Fichas',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador de suma codificada en tu navegador. La barra lateral oscura a la izquierda contiene todos los ajustes; el lienzo luminoso a la derecha muestra la vista previa en tiempo real. No necesitas cuenta, ni descargar nada, ni instalar plugins.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador de suma codificada en tu navegador. La barra lateral oscura a la izquierda contiene todos los ajustes; el lienzo luminoso a la derecha muestra la vista previa en tiempo real. No necesitas cuenta, ni descargar nada, ni instalar plugins.',
       },
       {
         title: 'Definir la Cantidad de Símbolos',
-        description: 'En el panel «Configuración de Ejercicios», usa el menú desplegable Cantidad de Símbolos para elegir cuántos símbolos-imagen aparecen en tu código. Menos símbolos (3–4) son más fáciles para principiantes; más símbolos (6–8) crean un desafío lógico más complejo. Cada símbolo esconde un número secreto único en Modo Regular.',
+        description: 'En el panel \"Configuración de Ejercicios\", usa el menú desplegable Cantidad de Símbolos para elegir cuántos símbolos-imagen aparecen en tu código. Menos símbolos (3–4) son más fáciles para principiantes; más símbolos (6–8) crean un desafío lógico más complejo. Cada símbolo esconde un número secreto único en Modo Regular.',
       },
       {
         title: 'Elegir Sumandos por Ecuación',
@@ -44,19 +44,19 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Seleccionar Imágenes de la Biblioteca Temática',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 100 colecciones temáticas: animales, comida, vehículos, espacio, festividades y mucho más. Cada imagen se convierte en un símbolo del código. Usa la barra de búsqueda para encontrar temas específicos, o haz clic en imágenes individuales para seleccionar exactamente los símbolos que quieras.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 100 colecciones temáticas: animales, comida, vehículos, espacio, festividades y mucho más. Cada imagen se convierte en un símbolo del código. Usa la barra de búsqueda para encontrar temas específicos, o haz clic en imágenes individuales para seleccionar exactamente los símbolos que quieras.',
       },
       {
         title: 'Personalizar el Diseño de Página',
-        description: 'En la sección «Configuración de Página», elige tu formato (Letter, A4, Cuadrado o dimensiones personalizadas), define el color de fondo, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes. El formato cuadrado es ideal para cuadernos de actividades de Amazon KDP.',
+        description: 'En la sección \"Configuración de Página\", elige tu formato (Letter, A4, Cuadrado o dimensiones personalizadas), define el color de fondo, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo de la biblioteca de bordes. El formato cuadrado es ideal para cuadernos de actividades de Amazon KDP.',
       },
       {
         title: 'Añadir Texto y Marca',
-        description: 'Usa el panel «Herramientas de Texto» para añadir un título como «¡Descifra el Código!» o «Desafío del Número Secreto». Añade un campo de nombre, instrucciones o la marca de tu tienda. Elige entre fuentes adaptadas para niños (Fredoka, Baloo 2, Quicksand, Nunito) y ajusta tamaño, color y contorno del texto.',
+        description: 'Usa el panel \"Herramientas de Texto\" para añadir un título como \"¡Descifra el Código!\" o \"Desafío del Número Secreto\". Añade un campo de nombre, instrucciones o la marca de tu tienda. Elige entre fuentes adaptadas para niños (Fredoka, Baloo 2, Quicksand, Nunito) y ajusta tamaño, color y contorno del texto.',
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en «Generar» para crear tu puzzle. La vista previa se actualiza al instante en el lienzo. Descarga como JPEG para maquetas de productos o PDF para material listo para imprimir. Genera y descarga una clave de respuestas que revela todos los números secretos (o las letras en Modo Descubrir Palabra).',
+        description: 'Haz clic en \"Generar\" para crear tu puzzle. La vista previa se actualiza al instante en el lienzo. Descarga como JPEG para maquetas de productos o PDF para material listo para imprimir. Genera y descarga una clave de respuestas que revela todos los números secretos (o las letras en Modo Descubrir Palabra).',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Cuadernos de Actividades Descubrir Palabra',
-      description: 'Usa el Modo Descubrir Palabra para crear cuadernos donde los usuarios resuelven ecuaciones de suma para deletrear palabras ocultas. Elige palabras de vocabulario, palabras de uso frecuente o términos estacionales como secreto. Las letras distractoras integradas añaden un nivel extra de desafío que mantiene a los usuarios motivados. Para editores de KDP, un cuaderno Descubrir Palabra enfocado en palabras de uso frecuente para usuarios de infantil a segundo de primaria es un producto de nicho sólido. Los padres que buscan «actividades de palabras frecuentes» en Amazon rara vez encuentran puzzles de tipo criptaritmético, lo que significa menos competencia directa que los formatos clásicos de sopa de letras o crucigramas.',
+      description: 'Usa el Modo Descubrir Palabra para crear cuadernos donde los usuarios resuelven ecuaciones de suma para deletrear palabras ocultas. Elige palabras de vocabulario, palabras de uso frecuente o términos estacionales como secreto. Las letras distractoras integradas añaden un nivel extra de desafío que mantiene a los usuarios motivados. Para editores de KDP, un cuaderno Descubrir Palabra enfocado en palabras de uso frecuente para usuarios de infantil a segundo de primaria es un producto de nicho sólido. Los padres que buscan \"actividades de palabras frecuentes\" en Amazon rara vez encuentran puzzles de tipo criptaritmético, lo que significa menos competencia directa que los formatos clásicos de sopa de letras o crucigramas.',
     },
     {
       title: 'Cuadernos de Criptaritmética para KDP',
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Serie de Cuadernos de Puzzles en Amazon KDP',
-      description: 'Publica una serie de cuadernos criptaritméticos en KDP: «Descifra el Código: Edición Animales», «Descifra el Código: Edición Espacio», y así sucesivamente. Cada cuaderno contiene de 80 a 100 puzzles con dificultad progresiva. Fija el precio entre 7,99 $ y 9,99 $ y deja que Amazon se encargue de la impresión. Los cuadernos de puzzles tienen excelentes márgenes en KDP.',
+      description: 'Publica una serie de cuadernos criptaritméticos en KDP: \"Descifra el Código: Edición Animales\", \"Descifra el Código: Edición Espacio\", y así sucesivamente. Cada cuaderno contiene de 80 a 100 puzzles con dificultad progresiva. Fija el precio entre 7,99 $ y 9,99 $ y deja que Amazon se encargue de la impresión. Los cuadernos de puzzles tienen excelentes márgenes en KDP.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Pack de productos Digital en Gumroad',
-      description: 'Crea un programa estructurado de 8 semanas «Descifra el Código Matemático» con conjuntos de puzzles semanales. La semana 1 empieza con 3 símbolos, la semana 8 termina con sumandos mixtos y desafíos de Descubrir Palabra. Vende como descarga digital premium (de 12 $ a 15 $) en Gumroad. Los emprendedores pagan con gusto por programas completos y estructurados. Incluye una guía vendedor de una página al principio explicando cómo usar los puzzles de cada semana, qué habilidades trabaja cada nivel de dificultad y cómo evaluar el progreso del usuario.',
+      description: 'Crea un programa estructurado de 8 semanas \"Descifra el Código Matemático\" con conjuntos de puzzles semanales. La semana 1 empieza con 3 símbolos, la semana 8 termina con sumandos mixtos y desafíos de Descubrir Palabra. Vende como descarga digital premium (de 12 $ a 15 $) en Gumroad. Los emprendedores pagan con gusto por programas completos y estructurados. Incluye una guía vendedor de una página al principio explicando cómo usar los puzzles de cada semana, qué habilidades trabaja cada nivel de dificultad y cómo evaluar el progreso del usuario.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Empieza con Menos Símbolos para Principiantes',
-      description: 'Tres o cuatro símbolos es el punto ideal para usuarios jóvenes y principiantes en descifrado. Con menos incógnitas, los usuarios pueden usar la lógica de eliminación más fácilmente. Reserva los puzzles de 6 o más símbolos para usuarios mayores o secciones de desafío avanzado en tus packs de productos. Al crear un listing de producto, menciona la cantidad de símbolos en tu descripción para que los compradores sepan qué nivel de dificultad están obteniendo. Frases como «puzzles para principiantes con 3 símbolos» o «desafíos avanzados con 7 símbolos» ayudan a los compradores a elegir el producto adecuado y reducen las solicitudes de reembolso por expectativas no coincidentes.',
+      description: 'Tres o cuatro símbolos es el punto ideal para usuarios jóvenes y principiantes en descifrado. Con menos incógnitas, los usuarios pueden usar la lógica de eliminación más fácilmente. Reserva los puzzles de 6 o más símbolos para usuarios mayores o secciones de desafío avanzado en tus packs de productos. Al crear un listing de producto, menciona la cantidad de símbolos en tu descripción para que los compradores sepan qué nivel de dificultad están obteniendo. Frases como \"puzzles para principiantes con 3 símbolos\" o \"desafíos avanzados con 7 símbolos\" ayudan a los compradores a elegir el producto adecuado y reducen las solicitudes de reembolso por expectativas no coincidentes.',
     },
     {
       title: 'Usa Sumandos Mixtos para Máxima Variedad',

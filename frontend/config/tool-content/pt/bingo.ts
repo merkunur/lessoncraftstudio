@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abra o Gerador de Cartelas de Bingo',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de cartelas de bingo no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de separador duplo à direita — um separador para a cartela de bingo com fichas e outro para a folha de chamada. Sem criar conta, sem descarregar software, sem instalação — comece a criar cartelas de bingo imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de cartelas de bingo no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de separador duplo à direita — um separador para a cartela de bingo com fichas e outro para a folha de chamada. Sem criar conta, sem descarregar software, sem instalação — comece a criar cartelas de bingo imediatamente.',
       },
       {
         title: 'Configure o Tamanho da Grelha e a Quantidade de Cartelas',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Selecione Imagens da Biblioteca',
-        description: 'Abra o painel de Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique nas imagens para selecioná-las para as suas cartelas de bingo. Ative a caixa «Usar seleção personalizada» para escolher imagens específicas para o banco de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. A seleção personalizada de chamada dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o catálogo de produtos ou eventos temáticos.',
+        description: 'Abra o painel de Biblioteca de Imagens e explore 104 coleções temáticas com mais de 3100 ilustrações a cores — animais, alimentos, veículos, natureza, festividades, profissões e dezenas mais. Filtre por tema usando o menu suspenso ou pesquise por palavra-chave. Clique nas imagens para selecioná-las para as suas cartelas de bingo. Ative a caixa \"Usar seleção personalizada\" para escolher imagens específicas para o banco de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. A seleção personalizada de chamada dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o catálogo de produtos ou eventos temáticos.',
       },
       {
         title: 'Configure o Layout de Página e as Decorações',
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Produtos de Bingo de Vocabulário Multilingue',
-      description: 'O Gerador de Cartelas de Bingo é sensível ao idioma — o modo de preenchimento de Palavra mostra nomes localizados das imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza as palavras nas cartelas, fichas e folha de chamada. Crie conjuntos de bingo em inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês e finlandês a partir das mesmas imagens sem reconstruir nada. Uma imagem de gato mostra «Gato» em português, «Katze» em alemão e «Chat» em francês. Venda produtos de bingo de vocabulário em mercados internacionais gerando cada versão de idioma em minutos. As cartelas com palavras e fichas com imagens são ferramentas de revisão de vocabulário especialmente eficazes.',
+      description: 'O Gerador de Cartelas de Bingo é sensível ao idioma — o modo de preenchimento de Palavra mostra nomes localizados das imagens da Biblioteca de Imagens, pelo que mudar de idioma atualiza as palavras nas cartelas, fichas e folha de chamada. Crie conjuntos de bingo em inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês e finlandês a partir das mesmas imagens sem reconstruir nada. Uma imagem de gato mostra \"Gato\" em português, \"Katze\" em alemão e \"Chat\" em francês. Venda produtos de bingo de vocabulário em mercados internacionais gerando cada versão de idioma em minutos. As cartelas com palavras e fichas com imagens são ferramentas de revisão de vocabulário especialmente eficazes.',
     },
     {
       title: 'Cadernos de Atividades de Bingo para KDP com Folhas de Chamada',
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Série de Cadernos de Atividades de Bingo na Amazon KDP',
-      description: 'Compile 40–80 cartelas de bingo em cadernos temáticos de atividades para Amazon KDP. Estruture uma série por tema: «Bingo de Animais», «Bingo de Festividades», «Bingo de Alimentos» e «Bingo de Objetos do Quotidiano». Inclua folhas de chamada após cada conjunto de cartelas para que o livro seja autossuficiente para jogar. Misture tamanhos de grelha para dificuldade progressiva dentro de cada livro — comece com cartelas de 3×3 e avance até 5×5. Ative a escala de cinzentos para saída económica em tinta que se imprime perfeitamente a preto e branco. Os cadernos de atividades de bingo vendem-se durante todo o ano e aumentam durante as temporadas de festividades quando as famílias procuram atividades em grupo.',
+      description: 'Compile 40–80 cartelas de bingo em cadernos temáticos de atividades para Amazon KDP. Estruture uma série por tema: \"Bingo de Animais\", \"Bingo de Festividades\", \"Bingo de Alimentos\" e \"Bingo de Objetos do Quotidiano\". Inclua folhas de chamada após cada conjunto de cartelas para que o livro seja autossuficiente para jogar. Misture tamanhos de grelha para dificuldade progressiva dentro de cada livro — comece com cartelas de 3×3 e avance até 5×5. Ative a escala de cinzentos para saída económica em tinta que se imprime perfeitamente a preto e branco. Os cadernos de atividades de bingo vendem-se durante todo o ano e aumentam durante as temporadas de festividades quando as famílias procuram atividades em grupo.',
       platform: 'Amazon KDP',
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Funil de Tráfego com Cartelas de Bingo no Pinterest',
-      description: 'As cartelas de bingo criam pins visualmente impactantes no Pinterest — a grelha colorida com imagens temáticas e fichas circulares cria um formato de jogo imediatamente reconhecível que pais e vendedores adoram. Publique cartelas de bingo de amostra mostrando diferentes temas: bingo de animais para quadros de pré-escolar, bingo de festividades para quadros sazonais e bingo de vocabulário para quadros educativos. Crie séries de pins separadas para «bingo imprimível com imagens», «jogos de bingo para a loja» e «atividades de bingo para festividades». O bingo é um jogo universalmente reconhecido, pelo que os pins atraem audiências de todos os países e idiomas. Ligue cada pin às suas listagens de produtos na Etsy ou no Gumroad.',
+      description: 'As cartelas de bingo criam pins visualmente impactantes no Pinterest — a grelha colorida com imagens temáticas e fichas circulares cria um formato de jogo imediatamente reconhecível que pais e vendedores adoram. Publique cartelas de bingo de amostra mostrando diferentes temas: bingo de animais para quadros de pré-escolar, bingo de festividades para quadros sazonais e bingo de vocabulário para quadros educativos. Crie séries de pins separadas para \"bingo imprimível com imagens\", \"jogos de bingo para a loja\" e \"atividades de bingo para festividades\". O bingo é um jogo universalmente reconhecido, pelo que os pins atraem audiências de todos os países e idiomas. Ligue cada pin às suas listagens de produtos na Etsy ou no Gumroad.',
       platform: 'Pinterest',
     },
     {
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Aproveite a Seleção Personalizada de Chamada para Alinhamento Curricular',
-      description: 'Ative a caixa «Usar seleção personalizada» para escolher exatamente quais imagens aparecem no banco de chamada. O contador em tempo real mostra o número de seleções enquanto escolhe da Biblioteca de Imagens. Esta função é fundamental para criar jogos de bingo alinhados com o catálogo de produtos — selecione apenas as palavras de vocabulário que a sua lição cobre, apenas os animais de um habitat específico ou apenas os alimentos de uma unidade de nutrição. A seleção personalizada de chamada transforma o bingo de um jogo aleatório numa ferramenta de ensino dirigida, que é o ponto de venda principal para produtos de loja no Gumroad.',
+      description: 'Ative a caixa \"Usar seleção personalizada\" para escolher exatamente quais imagens aparecem no banco de chamada. O contador em tempo real mostra o número de seleções enquanto escolhe da Biblioteca de Imagens. Esta função é fundamental para criar jogos de bingo alinhados com o catálogo de produtos — selecione apenas as palavras de vocabulário que a sua lição cobre, apenas os animais de um habitat específico ou apenas os alimentos de uma unidade de nutrição. A seleção personalizada de chamada transforma o bingo de um jogo aleatório numa ferramenta de ensino dirigida, que é o ponto de venda principal para produtos de loja no Gumroad.',
     },
     {
       title: 'Explore o Preenchimento de Palavra Sensível ao Idioma para Produtos Multilingues',
@@ -179,11 +179,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'O que é a seleção personalizada de chamada?',
-      answer: 'Ative a caixa «Usar seleção personalizada» no painel de Definições da Cartela de Bingo para escolher quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens da Biblioteca de Imagens para adicioná-las à sua seleção personalizada de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades de vocabulário alinhadas com o catálogo de produtos, eventos temáticos ou qualquer situação onde queira escolher os elementos exatos que os jogadores encontrarão durante o jogo.',
+      answer: 'Ative a caixa \"Usar seleção personalizada\" no painel de Definições da Cartela de Bingo para escolher quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens da Biblioteca de Imagens para adicioná-las à sua seleção personalizada de chamada — um contador em tempo real mostra o número de seleções enquanto escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades de vocabulário alinhadas com o catálogo de produtos, eventos temáticos ou qualquer situação onde queira escolher os elementos exatos que os jogadores encontrarão durante o jogo.',
     },
     {
       question: 'O Gerador de Cartelas de Bingo é sensível ao idioma?',
-      answer: 'Sim. Quando usa o modo de preenchimento de Palavra para células ou fichas, as palavras apresentadas são nomes localizados de imagens da Biblioteca de Imagens. Ao mudar o idioma nas Definições da Ficha atualizam-se as palavras nas cartelas, fichas e folha de chamada. Por exemplo, uma imagem de gato mostra «Gato» em português mas «Katze» em alemão e «Chat» em francês. Isto facilita a criação de produtos de bingo de vocabulário multilingue a partir das mesmas imagens. O modo de preenchimento de Imagem não é sensível ao idioma pois mostra ilustrações em vez de palavras.',
+      answer: 'Sim. Quando usa o modo de preenchimento de Palavra para células ou fichas, as palavras apresentadas são nomes localizados de imagens da Biblioteca de Imagens. Ao mudar o idioma nas Definições da Ficha atualizam-se as palavras nas cartelas, fichas e folha de chamada. Por exemplo, uma imagem de gato mostra \"Gato\" em português mas \"Katze\" em alemão e \"Chat\" em francês. Isto facilita a criação de produtos de bingo de vocabulário multilingue a partir das mesmas imagens. O modo de preenchimento de Imagem não é sensível ao idioma pois mostra ilustrações em vez de palavras.',
     },
     {
       question: 'Como funciona a exportação ZIP em lote?',

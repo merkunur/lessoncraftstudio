@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Générateur de Fiches Train Alphabet',
     tagline: 'Créez des fiches colorées avec association lettre-image dans 11 langues — des wagons de train uniques pour chaque lettre',
-    description: 'Créez des fiches alphabet qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les utilisateurs identifient par quelle lettre chaque image commence et l\'associent au bon wagon. Choisissez entre le mode Création Automatique (l\'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l\'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d\'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l\'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l\'espagnol (Ñ) et bien d\'autres. La même image s\'associe à des lettres différentes selon la langue : « chien » correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Créez des fiches alphabet qui ne ressemblent en rien aux exercices de traçage classiques. Cet outil dispose 11 wagons de train colorés sur la page, chacun portant une lettre et une illustration correspondante. Des images-indices sont dispersées autour du train — les utilisateurs identifient par quelle lettre chaque image commence et l\'associent au bon wagon. Choisissez entre le mode Création Automatique (l\'outil sélectionne aléatoirement 11 lettres et assigne les images correspondantes) ou la Sélection Manuelle (choisissez chaque lettre dans l\'alphabet complet et assignez chaque image vous-même). Ajustez la difficulté avec le curseur d\'indices : 3 indices pour les débutants, 5–7 pour le niveau intermédiaire, et 9–11 pour les utilisateurs avancés qui doivent associer presque chaque wagon. La vraie puissance réside dans la sensibilité linguistique — sélectionnez parmi 11 alphabets natifs dont l\'allemand (Ä/Ö/Ü), le suédois (Å/Ä/Ö), l\'espagnol (Ñ) et bien d\'autres. La même image s\'associe à des lettres différentes selon la langue : \" chien \" correspond à C en français mais à H en allemand (Hund). Un seul modèle de fiche devient 11 produits uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, ou téléchargez les vôtres pour des créations personnalisées. Choisissez parmi 7 familles de polices et exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Train Alphabet',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
       },
       {
         title: 'Définir la Mise en Page',
-        description: 'Dans la section « Mise en Page », sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures. L\'orientation Portrait fonctionne le mieux pour la disposition du train.',
+        description: 'Dans la section \" Mise en Page \", sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures. L\'orientation Portrait fonctionne le mieux pour la disposition du train.',
       },
       {
         title: 'Choisir Votre Mode de Création',
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Sélectionner les Images et le Thème',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Chaque image s\'associe automatiquement à la bonne lettre selon la langue sélectionnée — la même image de chat s\'associe à C en français mais à K en allemand (Katze). Téléchargez vos propres PNG ou JPEG pour des fiches personnalisées.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Chaque image s\'associe automatiquement à la bonne lettre selon la langue sélectionnée — la même image de chat s\'associe à C en français mais à K en allemand (Katze). Téléchargez vos propres PNG ou JPEG pour des fiches personnalisées.',
       },
       {
         title: 'Configurer le Nombre d\'Indices et les Champs Nom/Date',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre fiche train alphabet. L\'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant chaque image-indice connectée à son wagon correct.',
+        description: 'Cliquez sur \" Générer \" pour créer votre fiche train alphabet. L\'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant chaque image-indice connectée à son wagon correct.',
       },
     ],
   },
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs Saisonniers de Train Alphabet',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Train Alphabet de Noël » avec des illustrations festives se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween, la Saint-Valentin et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack \" Train Alphabet de Noël \" avec des illustrations festives se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween, la Saint-Valentin et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad.',
     },
   ],
 
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs d\'Alphabétisation pour Gumroad',
-      description: 'Téléchargez des packs de trains alphabet différenciés sur Gumroad. Incluez des fiches à trois niveaux d\'indices, un guide vendeur expliquant le format train et des corrigés pour chaque page. Les vendeurs recherchent constamment « activités alphabet » et « fiches reconnaissance des lettres ». Le format train visuel ajoute une valeur perçue car il ressemble à un jeu plutôt qu\'à un exercice. Proposez des packs en Création Automatique pour la variété et des packs en Sélection Manuelle pour des groupes de lettres alignés sur le programme.',
+      description: 'Téléchargez des packs de trains alphabet différenciés sur Gumroad. Incluez des fiches à trois niveaux d\'indices, un guide vendeur expliquant le format train et des corrigés pour chaque page. Les vendeurs recherchent constamment \" activités alphabet \" et \" fiches reconnaissance des lettres \". Le format train visuel ajoute une valeur perçue car il ressemble à un jeu plutôt qu\'à un exercice. Proposez des packs en Création Automatique pour la variété et des packs en Sélection Manuelle pour des groupes de lettres alignés sur le programme.',
       platform: 'Gumroad',
     },
     {
       title: 'Kits Alphabet Multilingues sur Gumroad',
-      description: 'Créez des kits alphabet premium sur Gumroad incluant les mêmes designs de fiches dans 5 à 11 langues. Ciblez les familles bilingues, les écoles internationales et les vendeurs de FLE qui ont besoin de supports de reconnaissance des lettres dans plusieurs langues. L\'approche « langue comme multiplicateur » signifie que chaque kit a 5 à 11 fois plus de contenu qu\'un concurrent monolingue, justifiant un prix plus élevé.',
+      description: 'Créez des kits alphabet premium sur Gumroad incluant les mêmes designs de fiches dans 5 à 11 langues. Ciblez les familles bilingues, les écoles internationales et les vendeurs de FLE qui ont besoin de supports de reconnaissance des lettres dans plusieurs langues. L\'approche \" langue comme multiplicateur \" signifie que chaque kit a 5 à 11 fois plus de contenu qu\'un concurrent monolingue, justifiant un prix plus élevé.',
       platform: 'Gumroad',
     },
     {
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Associez avec d\'Autres Outils d\'Alphabétisation',
-      description: 'Combinez les fiches train alphabet avec des fiches d\'écriture, des mots cachés, des mots mélangés et des activités de devinettes pour créer des packs d\'alphabétisation complets. Un pack « Apprentissage Complet des Lettres » avec plusieurs types d\'activités commande un prix plus élevé qu\'un seul format de fiche. Les liens croisés entre les listings de produits individuels et le pack combiné dans les descriptions de votre boutique génèrent du trafic interne et encouragent les achats multi-articles, augmentant votre valeur de panier moyenne.',
+      description: 'Combinez les fiches train alphabet avec des fiches d\'écriture, des mots cachés, des mots mélangés et des activités de devinettes pour créer des packs d\'alphabétisation complets. Un pack \" Apprentissage Complet des Lettres \" avec plusieurs types d\'activités commande un prix plus élevé qu\'un seul format de fiche. Les liens croisés entre les listings de produits individuels et le pack combiné dans les descriptions de votre boutique génèrent du trafic interne et encouragent les achats multi-articles, augmentant votre valeur de panier moyenne.',
     },
     {
       title: 'Associez avec le Train de Suites Logiques pour un Pack Train',
-      description: 'Le créateur de Train de Suites Logiques utilise le même format visuel de wagons mais se concentre sur la reconnaissance de patterns au lieu des lettres. Regroupez les productions des deux outils dans un méga-pack « Activités Train » couvrant alphabétisation et logique. Le style visuel harmonieux crée une gamme de produits cohérente.',
+      description: 'Le créateur de Train de Suites Logiques utilise le même format visuel de wagons mais se concentre sur la reconnaissance de patterns au lieu des lettres. Regroupez les productions des deux outils dans un méga-pack \" Activités Train \" couvrant alphabétisation et logique. Le style visuel harmonieux crée une gamme de produits cohérente.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
-      answer: 'Oui. Cliquez sur le bouton « Télécharger une Image » pour utiliser vos propres fichiers PNG ou JPEG. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations, mascottes d\'école ou œuvres sous licence qu\'aucun autre vendeur ne peut reproduire.',
+      answer: 'Oui. Cliquez sur le bouton \" Télécharger une Image \" pour utiliser vos propres fichiers PNG ou JPEG. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations, mascottes d\'école ou œuvres sous licence qu\'aucun autre vendeur ne peut reproduire.',
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',

@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Générateur de Fiches d\'Écriture',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches d\'écriture immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches d\'écriture immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et le Modèle',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers d\'Écriture sur Amazon KDP',
-      description: 'Publiez une série de cahiers d\'écriture sur Amazon KDP, chacun ciblant une étape spécifique : « Tracés de Pré-écriture pour le Développement Moteur », « Lettres Bâtons avec Ordre des Traits Fléché », « Pratique d\'Écriture en Tracé Progressif », « Écriture Cursive pour Débutants ». Chaque livre contient 80 à 120 pages avec une structure de difficulté progressive. Utilisez les niveaux de gris pour réduire les coûts d\'impression. Les cahiers d\'écriture se vendent régulièrement toute l\'année et les trois modes de pratique plus les cinq styles de police vous donnent assez de variété pour maintenir une série multi-livres sans contenu répétitif.',
+      description: 'Publiez une série de cahiers d\'écriture sur Amazon KDP, chacun ciblant une étape spécifique : \" Tracés de Pré-écriture pour le Développement Moteur \", \" Lettres Bâtons avec Ordre des Traits Fléché \", \" Pratique d\'Écriture en Tracé Progressif \", \" Écriture Cursive pour Débutants \". Chaque livre contient 80 à 120 pages avec une structure de difficulté progressive. Utilisez les niveaux de gris pour réduire les coûts d\'impression. Les cahiers d\'écriture se vendent régulièrement toute l\'année et les trois modes de pratique plus les cinq styles de police vous donnent assez de variété pour maintenir une série multi-livres sans contenu répétitif.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Ressources d\'Ateliers d\'Écriture sur Gumroad',
-      description: 'Téléchargez des packs de pratique d\'écriture différenciés sur Gumroad organisés par mode et niveau de difficulté. Incluez quatre paliers par thème en utilisant les trois modes de pratique plus les lignes vierges comme axe de différenciation. Accompagnez d\'une intégration d\'images thématiques pour l\'engagement. L\'indépendance ligne par ligne vous permet de créer des fiches multi-modes où chaque ligne cible un niveau de compétence différent — un véritable argument de vente que les concurrents basés sur des modèles ne peuvent pas égaler. Les vendeurs recherchent « écriture différenciée » et « ateliers d\'écriture » fréquemment et paient des prix premium pour les ressources qui servent plusieurs groupes de niveaux.',
+      description: 'Téléchargez des packs de pratique d\'écriture différenciés sur Gumroad organisés par mode et niveau de difficulté. Incluez quatre paliers par thème en utilisant les trois modes de pratique plus les lignes vierges comme axe de différenciation. Accompagnez d\'une intégration d\'images thématiques pour l\'engagement. L\'indépendance ligne par ligne vous permet de créer des fiches multi-modes où chaque ligne cible un niveau de compétence différent — un véritable argument de vente que les concurrents basés sur des modèles ne peuvent pas égaler. Les vendeurs recherchent \" écriture différenciée \" et \" ateliers d\'écriture \" fréquemment et paient des prix premium pour les ressources qui servent plusieurs groupes de niveaux.',
       platform: 'Gumroad',
     },
     {
       title: 'Boutique de Niche en Développement Moteur Fin',
-      description: 'Créez une gamme de produits centrée sur les tracés de pré-écriture et le développement précoce de l\'écriture. Lignes verticales, lignes horizontales, cercles et lignes en zigzag ciblent les ergothérapeutes, les entrepreneurs de la petite enfance et les parents de préscolaires. C\'est un public d\'acheteurs distinct de l\'écriture en élémentaire — ils cherchent « fiches motricité fine » et « activités de pré-écriture » plutôt que « tracé de lettres ». Moins de concurrence et un public passionné rendent cette niche rentable avec moins de produits.',
+      description: 'Créez une gamme de produits centrée sur les tracés de pré-écriture et le développement précoce de l\'écriture. Lignes verticales, lignes horizontales, cercles et lignes en zigzag ciblent les ergothérapeutes, les entrepreneurs de la petite enfance et les parents de préscolaires. C\'est un public d\'acheteurs distinct de l\'écriture en élémentaire — ils cherchent \" fiches motricité fine \" et \" activités de pré-écriture \" plutôt que \" tracé de lettres \". Moins de concurrence et un public passionné rendent cette niche rentable avec moins de produits.',
       platform: 'Etsy.fr',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Commencez par les Tracés de Pré-écriture pour les Jeunes Apprenants',
-      description: 'Placez les lignes de tracés de pré-écriture (lignes verticales, lignes horizontales, cercles, zigzag) en haut des fiches ciblant les préscolaires et les maternelles. Ces exercices d\'échauffement développent la prise du crayon et le contrôle moteur avant que les utilisateurs ne tentent la formation des lettres. Les tracés de pré-écriture créent aussi une niche produit distincte — commercialisez-les séparément comme ressources de « développement de la motricité fine » pour toucher les ergothérapeutes et les entrepreneurs de la petite enfance.',
+      description: 'Placez les lignes de tracés de pré-écriture (lignes verticales, lignes horizontales, cercles, zigzag) en haut des fiches ciblant les préscolaires et les maternelles. Ces exercices d\'échauffement développent la prise du crayon et le contrôle moteur avant que les utilisateurs ne tentent la formation des lettres. Les tracés de pré-écriture créent aussi une niche produit distincte — commercialisez-les séparément comme ressources de \" développement de la motricité fine \" pour toucher les ergothérapeutes et les entrepreneurs de la petite enfance.',
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'impression en volume',

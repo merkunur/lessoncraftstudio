@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Pattern Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building pattern recognition worksheets immediately.',
+        description: 'Click \"Try Free Now\" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building pattern recognition worksheets immediately.',
       },
       {
         title: 'Set the Page Layout and Background',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Pattern Sets',
-      description: 'Use seasonal and holiday image themes to create time-limited pattern bundles. A “Halloween Pattern” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine\'s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced ABCD challenges in each seasonal set to cover multiple skill levels. Two question modes multiply variety within every theme.',
+      description: 'Use seasonal and holiday image themes to create time-limited pattern bundles. A \"Halloween Pattern\" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine\'s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced ABCD challenges in each seasonal set to cover multiple skill levels. Two question modes multiply variety within every theme.',
     },
     {
       title: 'Cross-Format Visual Learning Bundles',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Pattern Workbook Series',
-      description: 'Compile 80+ pattern exercises into themed workbooks for Amazon KDP. Structure a series by progression: “Beginner Patterns” covers AB through ABB with blank-box mode. “Intermediate Patterns” introduces ABC and AABB with both question modes. “Advanced Patterns” features ABBC through ABCD with random start and random blank position. Answer keys at the back of each book. The zero-text visual format publishes identically across all international KDP marketplaces without translation, maximizing your geographic reach from a single interior file.',
+      description: 'Compile 80+ pattern exercises into themed workbooks for Amazon KDP. Structure a series by progression: \"Beginner Patterns\" covers AB through ABB with blank-box mode. \"Intermediate Patterns\" introduces ABC and AABB with both question modes. \"Advanced Patterns\" features ABBC through ABCD with random start and random blank position. Answer keys at the back of each book. The zero-text visual format publishes identically across all international KDP marketplaces without translation, maximizing your geographic reach from a single interior file.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Leveled Pattern Packs',
-      description: 'Upload pattern worksheet packs to Gumroad organized by skill level using per-exercise configuration as the differentiator. Level 1 pages feature all AB blank-box exercises. Level 2 mixes AB and AAB with both modes. Level 3 introduces ABC multiple-choice alongside blank-box warm-ups. Level 4 combines ABCD challenges with random start enabled. Each level uses themed exercises with separate answer keys. The per-exercise independence means one page serves as a complete activity. Buyers search for “pattern recognition worksheets” and find limited options with nine pattern types.',
+      description: 'Upload pattern worksheet packs to Gumroad organized by skill level using per-exercise configuration as the differentiator. Level 1 pages feature all AB blank-box exercises. Level 2 mixes AB and AAB with both modes. Level 3 introduces ABC multiple-choice alongside blank-box warm-ups. Level 4 combines ABCD challenges with random start enabled. Each level uses themed exercises with separate answer keys. The per-exercise independence means one page serves as a complete activity. Buyers search for \"pattern recognition worksheets\" and find limited options with nine pattern types.',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visual Pattern Funnel',
-      description: 'Pattern worksheets with colorful themed images in a clean grid layout make excellent Pinterest pins. Pin sample worksheets showing different pattern types with watermark, link to your Etsy shop or landing page, and build your email list. Create pins for each question mode separately — “fill-in-the-blank pattern worksheets” and “multiple-choice pattern worksheets” target different search queries. The zero-text format means pins appeal to buyers in every country worldwide.',
+      description: 'Pattern worksheets with colorful themed images in a clean grid layout make excellent Pinterest pins. Pin sample worksheets showing different pattern types with watermark, link to your Etsy shop or landing page, and build your email list. Create pins for each question mode separately — \"fill-in-the-blank pattern worksheets\" and \"multiple-choice pattern worksheets\" target different search queries. The zero-text format means pins appeal to buyers in every country worldwide.',
       platform: 'Pinterest',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differentiate Grid Format from Train Format',
-      description: 'Pattern Worksheet (grid) and Pattern Train (train wagons) produce completely different visual formats for the same skill. Sell both formats separately or bundle them as a “Complete Pattern Recognition Pack.” In product descriptions, clearly state “grid-based rows and columns” vs. “unique 11-wagon train layout” so buyers understand they are getting two distinct activity types, not duplicates.',
+      description: 'Pattern Worksheet (grid) and Pattern Train (train wagons) produce completely different visual formats for the same skill. Sell both formats separately or bundle them as a \"Complete Pattern Recognition Pack.\" In product descriptions, clearly state \"grid-based rows and columns\" vs. \"unique 11-wagon train layout\" so buyers understand they are getting two distinct activity types, not duplicates.',
     },
     {
       title: 'Enable Random Start and Random Blank Position for Unique Sheets',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Highlight Zero-Text Output for Global Sellability',
-      description: 'Pattern worksheets contain zero text on the output — only images in grid rows. This is your strongest competitive advantage for marketplace listings. Explicitly state “no translation needed — works worldwide” in every product description. Buyers from any country can purchase without worrying about language compatibility. One product file serves every market.',
+      description: 'Pattern worksheets contain zero text on the output — only images in grid rows. This is your strongest competitive advantage for marketplace listings. Explicitly state \"no translation needed — works worldwide\" in every product description. Buyers from any country can purchase without worrying about language compatibility. One product file serves every market.',
     },
     {
       title: 'Match Pattern Complexity to Target Age Group',

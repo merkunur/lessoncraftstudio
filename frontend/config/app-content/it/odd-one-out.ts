@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Generatore di Schede Trova l\'Intruso per Puzzle di Discriminazione Visiva',
     tagline: 'Due modalità di generazione — Identica e Simile — con sostituzione per esercizio, da 3 a 8 esercizi configurabili, fogli risposte autogenerati con marcatori a cerchio rosso e puzzle puramente visivi che funzionano in tutte le 11 lingue senza traduzione.',
     description:
-      'Crea schede professionali trova il diverso dove gli utenti identificano e cerchiano l\'elemento intruso in ogni riga di quattro immagini. Scegli tra due modalità di generazione: la modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema per sfide di individuazione della differenza, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B per puzzle di discriminazione tra categorie. Sostituisci la modalità per esercizio per mescolare livelli di difficoltà in un\'unica scheda. Configura da 3 a 8 esercizi per pagina con un valore predefinito di 6, e attiva o disattiva i campi opzionali di nome e data e i numeri di esercizio per un formato pronto per il negozio. Ogni scheda genera un foglio risposte complementare in una scheda canvas separata — il foglio risposte traccia un cerchio rosso attorno all\'elemento intruso in ogni riga così non devi mai segnare le risposte manualmente. L\'intestazione autogenerata presenta un bordo esterno corallo, un bordo interno ambra e uno sfondo turchese con il titolo localizzato «Trova l\'Intruso» in Fredoka e le istruzioni in Quicksand nelle 11 lingue. Poiché i puzzle sono interamente visivi — non compare alcuna parola sulla scheda stessa — non dipendono dalla lingua e funzionano in modo identico in qualsiasi localizzazione. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di pensiero critico per Amazon KDP o crei attività per il negozio su Gumroad, questo generatore produce schede trova l\'intruso pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
+      'Crea schede professionali trova il diverso dove gli utenti identificano e cerchiano l\'elemento intruso in ogni riga di quattro immagini. Scegli tra due modalità di generazione: la modalità Identica posiziona tre cloni della stessa immagine accanto a un\'immagine diversa dello stesso tema per sfide di individuazione della differenza, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B per puzzle di discriminazione tra categorie. Sostituisci la modalità per esercizio per mescolare livelli di difficoltà in un\'unica scheda. Configura da 3 a 8 esercizi per pagina con un valore predefinito di 6, e attiva o disattiva i campi opzionali di nome e data e i numeri di esercizio per un formato pronto per il negozio. Ogni scheda genera un foglio risposte complementare in una scheda canvas separata — il foglio risposte traccia un cerchio rosso attorno all\'elemento intruso in ogni riga così non devi mai segnare le risposte manualmente. L\'intestazione autogenerata presenta un bordo esterno corallo, un bordo interno ambra e uno sfondo turchese con il titolo localizzato \"Trova l\'Intruso\" in Fredoka e le istruzioni in Quicksand nelle 11 lingue. Poiché i puzzle sono interamente visivi — non compare alcuna parola sulla scheda stessa — non dipendono dalla lingua e funzionano in modo identico in qualsiasi localizzazione. L\'Accesso Completo sblocca tutti i 104 temi con oltre 3100 illustrazioni e le 11 lingue di interfaccia. Aggiungi temi di sfondo e temi di bordo con controlli di opacità indipendenti, ed esporta PDF e JPEG pronti per la stampa a 300 DPI nei formati Lettera, A4, Quadrato o personalizzato. Che tu venda pacchetti di puzzle visivi su Etsy, compili quaderni di pensiero critico per Amazon KDP o crei attività per il negozio su Gumroad, questo generatore produce schede trova l\'intruso pronte per la produzione in pochi minuti — prova gratuita con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configura gli Esercizi',
         description:
-          'Apri il pannello Configurazione Esercizi e imposta il numero di esercizi da 3 a 8 (predefinito 6). Seleziona una modalità di generazione globale: la modalità Identica usa tre cloni della stessa immagine più un\'immagine diversa dello stesso tema, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B. Sostituisci la modalità per esercizio usando i selettori a tendina su ogni riga — mescola esercizi Identici e Simili in un\'unica scheda per difficoltà progressiva. Attiva l\'opzione «Includi Campi Nome/Data» per aggiungere righe di nome e data dell'utente, e attiva «Includi Numeri di Esercizio» per mostrare i numeri sul lato sinistro di ogni scheda esercizio.',
+          'Apri il pannello Configurazione Esercizi e imposta il numero di esercizi da 3 a 8 (predefinito 6). Seleziona una modalità di generazione globale: la modalità Identica usa tre cloni della stessa immagine più un\'immagine diversa dello stesso tema, mentre la modalità Simile utilizza tre immagini dal Tema A e un\'immagine dal Tema B. Sostituisci la modalità per esercizio usando i selettori a tendina su ogni riga — mescola esercizi Identici e Simili in un\'unica scheda per difficoltà progressiva. Attiva l\'opzione \"Includi Campi Nome/Data\" per aggiungere righe di nome e data dell'utente, e attiva \"Includi Numeri di Esercizio\" per mostrare i numeri sul lato sinistro di ogni scheda esercizio.',
       },
       {
         title: 'Seleziona Temi e Immagini',
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Genera la Scheda Trova l\'Intruso',
         description:
-          'Clicca su Genera per creare le schede esercizio. Ogni scheda mostra quattro immagini in una riga orizzontale — tre elementi comuni e un elemento intruso con la posizione mescolata casualmente. L\'app organizza le schede in 1–2 colonne in base all\'orientamento della pagina e al numero di esercizi (2 colonne per orizzontale o verticale con 7+ esercizi). Un\'intestazione stilizzata «Trova l\'Intruso» appare in alto con un bordo esterno turchese (#14B8A6, tratto da 8px) e un bordo interno viola (#8B5CF6, tratto da 3px) — con il titolo in turchese Fredoka (#0D9488) e le istruzioni in ambra Quicksand (#F59E0B).',
+          'Clicca su Genera per creare le schede esercizio. Ogni scheda mostra quattro immagini in una riga orizzontale — tre elementi comuni e un elemento intruso con la posizione mescolata casualmente. L\'app organizza le schede in 1–2 colonne in base all\'orientamento della pagina e al numero di esercizi (2 colonne per orizzontale o verticale con 7+ esercizi). Un\'intestazione stilizzata \"Trova l\'Intruso\" appare in alto con un bordo esterno turchese (#14B8A6, tratto da 8px) e un bordo interno viola (#8B5CF6, tratto da 3px) — con il titolo in turchese Fredoka (#0D9488) e le istruzioni in ambra Quicksand (#F59E0B).',
       },
       {
         title: 'Genera il Foglio Risposte e Scarica',
@@ -67,7 +67,7 @@ const content: AppContent = {
       {
         title: 'Sostituzione per Esercizio per Schede a Difficoltà Mista',
         description:
-          'Ogni riga di esercizio include il proprio selettore a tendina di modalità, che consente di sostituire la modalità globale per ogni singolo esercizio. Inizia con esercizi facili in modalità Identica in alto e passa a esercizi più difficili in modalità Simile verso il basso — oppure alterna le modalità lungo tutta la scheda per una sfida variata. Un pulsante «Cancella Selezioni» ripristina tutte le sostituzioni per esercizio all\'impostazione globale. Questo controllo granulare consente ai venditori di creare schede a difficoltà progressiva che servono molteplici livelli di abilità su un\'unica pagina, aumentando il valore percepito di ogni stampabile.',
+          'Ogni riga di esercizio include il proprio selettore a tendina di modalità, che consente di sostituire la modalità globale per ogni singolo esercizio. Inizia con esercizi facili in modalità Identica in alto e passa a esercizi più difficili in modalità Simile verso il basso — oppure alterna le modalità lungo tutta la scheda per una sfida variata. Un pulsante \"Cancella Selezioni\" ripristina tutte le sostituzioni per esercizio all\'impostazione globale. Questo controllo granulare consente ai venditori di creare schede a difficoltà progressiva che servono molteplici livelli di abilità su un\'unica pagina, aumentando il valore percepito di ogni stampabile.',
       },
       {
         title: 'Numero di Esercizi Configurabile da 3 a 8 per Scheda',
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'Come funziona la sostituzione di modalità per esercizio?',
       answer:
-        'Ogni riga di esercizio include il proprio menu a tendina di modalità che consente di sostituire l\'impostazione di modalità globale. Imposta la modalità globale su Simile, poi cambia singoli esercizi a Identica — o viceversa. Questo crea schede a difficoltà mista dove alcuni esercizi sono più facili (Identica) e altri più difficili (Simile) sulla stessa pagina. Un pulsante «Cancella Selezioni» ripristina tutte le sostituzioni per esercizio all\'impostazione globale.',
+        'Ogni riga di esercizio include il proprio menu a tendina di modalità che consente di sostituire l\'impostazione di modalità globale. Imposta la modalità globale su Simile, poi cambia singoli esercizi a Identica — o viceversa. Questo crea schede a difficoltà mista dove alcuni esercizi sono più facili (Identica) e altri più difficili (Simile) sulla stessa pagina. Un pulsante \"Cancella Selezioni\" ripristina tutte le sostituzioni per esercizio all\'impostazione globale.',
     },
     {
       question: 'Quanti esercizi posso includere in una scheda?',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Posso aggiungere campi di nome e data alle schede trova l\'intruso?',
       answer:
-        'Sì. Attiva l\'opzione «Includi Campi Nome/Data» nel pannello Configurazione Esercizi per aggiungere righe di nome e data dell'utente. Questi campi si posizionano in modo adattivo in base al layout della pagina. I campi di nome e data rendono le schede pronte per il negozio — i venditori possono monitorare il lavoro degli utenti e i genitori possono organizzare le attività completate per data.',
+        'Sì. Attiva l\'opzione \"Includi Campi Nome/Data\" nel pannello Configurazione Esercizi per aggiungere righe di nome e data dell'utente. Questi campi si posizionano in modo adattivo in base al layout della pagina. I campi di nome e data rendono le schede pronte per il negozio — i venditori possono monitorare il lavoro degli utenti e i genitori possono organizzare le attività completate per data.',
     },
     {
       question: 'Come funzionano i numeri di esercizio?',
       answer:
-        'Attiva l\'opzione «Includi Numeri di Esercizio» nel pannello Configurazione Esercizi per mostrare i numeri sul lato sinistro di ogni scheda esercizio. I numeri usano una larghezza di 25px con una spaziatura di 15px dal contenuto della scheda. I numeri di esercizio aiutano durante la revisione online e rendono facile per i venditori fare riferimento a esercizi specifici durante la discussione.',
+        'Attiva l\'opzione \"Includi Numeri di Esercizio\" nel pannello Configurazione Esercizi per mostrare i numeri sul lato sinistro di ogni scheda esercizio. I numeri usano una larghezza di 25px con una spaziatura di 15px dal contenuto della scheda. I numeri di esercizio aiutano durante la revisione online e rendono facile per i venditori fare riferimento a esercizi specifici durante la discussione.',
     },
     {
       question: 'Esiste una prova gratuita?',
@@ -187,7 +187,7 @@ const content: AppContent = {
     {
       question: 'Le schede trova l\'intruso dipendono dalla lingua?',
       answer:
-        'No. A differenza delle app che mostrano parole sulla scheda, i puzzle trova l\'intruso sono interamente visivi — non compare alcun testo nel contenuto del puzzle. L\'intestazione autogenerata («Trova l\'Intruso») si traduce nelle 11 lingue supportate, ma gli esercizi contengono solo immagini. Questo significa che ogni scheda funziona in qualsiasi lingua senza modifiche, rendendo i puzzle trova l\'intruso ideali per le vendite sui marketplace globali.',
+        'No. A differenza delle app che mostrano parole sulla scheda, i puzzle trova l\'intruso sono interamente visivi — non compare alcun testo nel contenuto del puzzle. L\'intestazione autogenerata (\"Trova l\'Intruso\") si traduce nelle 11 lingue supportate, ma gli esercizi contengono solo immagini. Questo significa che ogni scheda funziona in qualsiasi lingua senza modifiche, rendendo i puzzle trova l\'intruso ideali per le vendite sui marketplace globali.',
     },
     {
       question: 'Posso vendere schede trova l\'intruso create con questo strumento su Etsy e Amazon KDP?',

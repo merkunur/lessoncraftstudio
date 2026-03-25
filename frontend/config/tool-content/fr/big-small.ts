@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Grand & Petit',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de comparaison de tailles immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de comparaison de tailles immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et le Fond',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Packs Comparatifs par Mode d\'Images',
-      description: 'Doublez votre gamme de produits en créant chaque thème dans les deux modes d\'images. Un pack « Images Identiques » montre le même animal, véhicule ou aliment à différentes tailles pour des exercices de perception pure. Un pack « Images Différentes » montre des objets distincts à différentes tailles pour des défis de raisonnement de taille relative. Vendez-les séparément ou regroupez les deux modes ensemble à un prix premium. Deux expériences d\'exercices fondamentalement différentes à partir du même thème sans création de contenu supplémentaire.',
+      description: 'Doublez votre gamme de produits en créant chaque thème dans les deux modes d\'images. Un pack \" Images Identiques \" montre le même animal, véhicule ou aliment à différentes tailles pour des exercices de perception pure. Un pack \" Images Différentes \" montre des objets distincts à différentes tailles pour des défis de raisonnement de taille relative. Vendez-les séparément ou regroupez les deux modes ensemble à un prix premium. Deux expériences d\'exercices fondamentalement différentes à partir du même thème sans création de contenu supplémentaire.',
     },
     {
       title: 'Packs Saisonniers et Festifs de Comparaison de Tailles',
-      description: 'Utilisez les thèmes images saisonniers et festifs pour créer des packs de comparaison de tailles à durée limitée. Un pack « Halloween lignement par Taille » avec des images thématiques effrayantes se vend en octobre. Noël, rentrée scolaire, Saint-Valentin et thèmes estivaux ont chacun leur propre pic de ventes sur Etsy.fr et Gumroad. Combinez des échauffements simples Entoure le Plus Grand avec des exercices avancés de Numérotation 1–2–3 dans chaque pack saisonnier pour couvrir plusieurs niveaux et maximiser votre audience d\'acheteurs.',
+      description: 'Utilisez les thèmes images saisonniers et festifs pour créer des packs de comparaison de tailles à durée limitée. Un pack \" Halloween lignement par Taille \" avec des images thématiques effrayantes se vend en octobre. Noël, rentrée scolaire, Saint-Valentin et thèmes estivaux ont chacun leur propre pic de ventes sur Etsy.fr et Gumroad. Combinez des échauffements simples Entoure le Plus Grand avec des exercices avancés de Numérotation 1–2–3 dans chaque pack saisonnier pour couvrir plusieurs niveaux et maximiser votre audience d\'acheteurs.',
     },
   ],
 
@@ -96,12 +96,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Série de Cahiers de Discrimination de Tailles sur Amazon KDP',
-      description: 'Compilez plus de 80 exercices de comparaison de tailles dans des cahiers thématiques pour Amazon KDP. Structurez une série par thème : « Classement par Taille des Animaux », « Grand & Petit des Véhicules », « Ordre de Taille des Aliments ». Chaque cahier progresse de l\'identification simple à 2 images jusqu\'au classement complexe à 3 images avec corrigés à la fin. Le format visuel sans texte se publie identiquement sur tous les marchés KDP internationaux sans traduction. Les cahiers de comparaison de tailles occupent un créneau spécifique d\'apprentissage précoce avec une demande constante toute l\'année.',
+      description: 'Compilez plus de 80 exercices de comparaison de tailles dans des cahiers thématiques pour Amazon KDP. Structurez une série par thème : \" Classement par Taille des Animaux \", \" Grand & Petit des Véhicules \", \" Ordre de Taille des Aliments \". Chaque cahier progresse de l\'identification simple à 2 images jusqu\'au classement complexe à 3 images avec corrigés à la fin. Le format visuel sans texte se publie identiquement sur tous les marchés KDP internationaux sans traduction. Les cahiers de comparaison de tailles occupent un créneau spécifique d\'apprentissage précoce avec une demande constante toute l\'année.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Ateliers de Discrimination Visuelle sur Gumroad',
-      description: 'Téléchargez des packs de fiches de comparaison de tailles sur Gumroad organisés par niveau et thème. Incluez quatre niveaux de difficulté par thème en utilisant le type de question comme axe de différenciation. Accompagnez de corrigés générés automatiquement et de fiches de suivi de progression. Le format visuel sans texte fonctionne dans n\'importe quelle classe quelle que soit la langue des utilisateurs — particulièrement précieux pour les contextes multilingues et inclusifs. Les vendeurs recherchent « activités de comparaison de tailles » et « fiches grand et petit » et trouvent peu d\'options de qualité.',
+      description: 'Téléchargez des packs de fiches de comparaison de tailles sur Gumroad organisés par niveau et thème. Incluez quatre niveaux de difficulté par thème en utilisant le type de question comme axe de différenciation. Accompagnez de corrigés générés automatiquement et de fiches de suivi de progression. Le format visuel sans texte fonctionne dans n\'importe quelle classe quelle que soit la langue des utilisateurs — particulièrement précieux pour les contextes multilingues et inclusifs. Les vendeurs recherchent \" activités de comparaison de tailles \" et \" fiches grand et petit \" et trouvent peu d\'options de qualité.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Utilisez le Type de Question comme Axe Principal de Difficulté',
-      description: 'Les cinq types de questions créent une progression de difficulté naturelle. Entoure le Plus Grand est le plus facile — les utilisateurs repèrent l\'image la plus grande. Entoure le Plus Petit est légèrement plus difficile car « le plus petit » demande une comparaison plus attentive. Entoure le Moyen est la tâche d\'identification la plus dure car les utilisateurs doivent éliminer les deux extrêmes. Numéroter 1–2–3 nécessite un séquençage en plusieurs étapes. Utilisez cette progression pour créer des packs de produits à niveaux à partir d\'une seule session de création.',
+      description: 'Les cinq types de questions créent une progression de difficulté naturelle. Entoure le Plus Grand est le plus facile — les utilisateurs repèrent l\'image la plus grande. Entoure le Plus Petit est légèrement plus difficile car \" le plus petit \" demande une comparaison plus attentive. Entoure le Moyen est la tâche d\'identification la plus dure car les utilisateurs doivent éliminer les deux extrêmes. Numéroter 1–2–3 nécessite un séquençage en plusieurs étapes. Utilisez cette progression pour créer des packs de produits à niveaux à partir d\'une seule session de création.',
     },
     {
       title: 'Exploitez les Modes Identique vs Différent pour Doubler vos Produits',
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mettez en Avant l\'Absence de Texte pour la Vendabilité Mondiale',
-      description: 'Les fiches Grand & Petit ne contiennent aucun texte sur la sortie — uniquement des images et des indicateurs visuels. C\'est votre avantage concurrentiel le plus fort pour les listings de marketplace. Indiquez explicitement « aucune traduction nécessaire — fonctionne dans le monde entier » dans chaque description de produit. Les acheteurs de tous les pays peuvent acheter sans se soucier de la compatibilité linguistique. Listez le même produit sur plusieurs boutiques Etsy internationales avec des fichiers identiques.',
+      description: 'Les fiches Grand & Petit ne contiennent aucun texte sur la sortie — uniquement des images et des indicateurs visuels. C\'est votre avantage concurrentiel le plus fort pour les listings de marketplace. Indiquez explicitement \" aucune traduction nécessaire — fonctionne dans le monde entier \" dans chaque description de produit. Les acheteurs de tous les pays peuvent acheter sans se soucier de la compatibilité linguistique. Listez le même produit sur plusieurs boutiques Etsy internationales avec des fichiers identiques.',
     },
     {
       title: 'Adaptez le Nombre d\'Exercices à la Tranche d\'Âge Cible',

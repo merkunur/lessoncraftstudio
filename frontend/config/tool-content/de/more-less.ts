@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Mehr-oder-Weniger-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Mehr-oder-Weniger-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Den Übungsmodus wählen',
-        description: 'Öffnen Sie das Panel „Übungskonfiguration“ und wählen Sie aus drei Modi: Bild zu Bild (zwei Bildergruppen nebeneinander — Nutzer zählen und vergleichen Mengen), Bild zu Zahl (eine Bildergruppe gepaart mit einer Ziffer — verbindet visuelles Zählen mit abstraktem Zahlenverständnis) oder Ankreuzen und Durchstreichen (eine einzelne Box mit 8–20 gemischten Bildern aus zwei Kategorien durcheinander gewürfelt — Nutzer kreuzen die Mehrheitsgruppe an und streichen die Minderheitsgruppe durch). Der Ankreuzen-und-Durchstreichen-Modus ist einzigartig für dieses Tool und schafft Produkte, die kein Wettbewerber bieten kann.',
+        description: 'Öffnen Sie das Panel \"Übungskonfiguration\" und wählen Sie aus drei Modi: Bild zu Bild (zwei Bildergruppen nebeneinander — Nutzer zählen und vergleichen Mengen), Bild zu Zahl (eine Bildergruppe gepaart mit einer Ziffer — verbindet visuelles Zählen mit abstraktem Zahlenverständnis) oder Ankreuzen und Durchstreichen (eine einzelne Box mit 8–20 gemischten Bildern aus zwei Kategorien durcheinander gewürfelt — Nutzer kreuzen die Mehrheitsgruppe an und streichen die Minderheitsgruppe durch). Der Ankreuzen-und-Durchstreichen-Modus ist einzigartig für dieses Tool und schafft Produkte, die kein Wettbewerber bieten kann.',
       },
       {
         title: 'Den Zahlenbereich festlegen',
@@ -49,15 +49,15 @@ const content: ToolContent = {
       },
       {
         title: 'Bilder aus der Themenbibliothek auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Meeresbewohner, Weltraum, Sport und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Klicken Sie auf einzelne Bilder, um genau auszuwählen, welche auf Ihrem Arbeitsblatt erscheinen.',
+        description: 'Öffnen Sie das Panel \"Bildbibliothek\" und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Meeresbewohner, Weltraum, Sport und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Klicken Sie auf einzelne Bilder, um genau auszuwählen, welche auf Ihrem Arbeitsblatt erscheinen.',
       },
       {
         title: 'Das Seitenlayout anpassen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek.',
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich sofort auf der Arbeitsfläche. Laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter, in dem alle korrekten Vergleichszeichen bereits eingetragen sind.',
+        description: 'Klicken Sie auf \"Generieren\", um Ihr Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich sofort auf der Arbeitsfläche. Laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter, in dem alle korrekten Vergleichszeichen bereits eingetragen sind.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Vergleichs-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen (Weihnachten, Halloween, Frühlingsblumen, Sommerstrand), um aktuell verfügbare Bündel zu erstellen. Saisonale Produkte verkaufen sich besonders gut auf Etsy, weil Käufer während bestimmter Zeiträume danach suchen. Ein „Halloween Mehr-oder-Weniger“-Paket mit gruseligen Bildern ist im Oktober ein garantierter Blickfang.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen (Weihnachten, Halloween, Frühlingsblumen, Sommerstrand), um aktuell verfügbare Bündel zu erstellen. Saisonale Produkte verkaufen sich besonders gut auf Etsy, weil Käufer während bestimmter Zeiträume danach suchen. Ein \"Halloween Mehr-oder-Weniger\"-Paket mit gruseligen Bildern ist im Oktober ein garantierter Blickfang.',
     },
     {
       title: 'Sprachunabhängige globale Arbeitsblatt-Pakete',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mathe-Bündel auf Gumroad',
-      description: 'Laden Sie gestufte Vergleichs-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach „Größer-Kleiner-Arbeitsblätter“ und „Zahlenvergleich-Druckvorlagen“. Fügen Sie alle drei Übungsmodi, illustrierte und Standard-Symbolversionen, Lösungsschlüssel und eine Verkäuferanleitung in jedes Listing ein für höheren wahrgenommenen Wert.',
+      description: 'Laden Sie gestufte Vergleichs-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach \"Größer-Kleiner-Arbeitsblätter\" und \"Zahlenvergleich-Druckvorlagen\". Fügen Sie alle drei Übungsmodi, illustrierte und Standard-Symbolversionen, Lösungsschlüssel und eine Verkäuferanleitung in jedes Listing ein für höheren wahrgenommenen Wert.',
       platform: 'Gumroad',
     },
     {
@@ -136,7 +136,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit Addition und Subtraktion zu Mathe-Bündeln kombinieren',
-      description: 'Erstellen Sie passende Vergleichs-, Additions- und Subtraktions-Arbeitsblatt-Sets mit demselben Thema und Zahlenbereich. Verkaufen Sie sie einzeln und als kombiniertes „Frühes-Mathe-Mega-Bündel“ mit leichtem Rabatt. Gebündelte Produkte erzielen einen höheren durchschnittlichen Bestellwert auf jedem Marktplatz.',
+      description: 'Erstellen Sie passende Vergleichs-, Additions- und Subtraktions-Arbeitsblatt-Sets mit demselben Thema und Zahlenbereich. Verkaufen Sie sie einzeln und als kombiniertes \"Frühes-Mathe-Mega-Bündel\" mit leichtem Rabatt. Gebündelte Produkte erzielen einen höheren durchschnittlichen Bestellwert auf jedem Marktplatz.',
     },
     {
       title: 'Ankreuzen-und-Durchstreichen-Aufgaben auf 1–3 pro Seite beschränken',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Immer den Lösungsschlüssel beilegen',
-      description: 'Klicken Sie auf „Lösungsschlüssel generieren“ vor dem Herunterladen. Für Vergleichs-Arbeitsblätter zeigt der Lösungsschlüssel das korrekte Symbol (>, < oder =) für jede Aufgabe. Käufer auf Etsy und Gumroad bewerten Produkte durchgehend höher, wenn ein Lösungsschlüssel enthalten ist.',
+      description: 'Klicken Sie auf \"Lösungsschlüssel generieren\" vor dem Herunterladen. Für Vergleichs-Arbeitsblätter zeigt der Lösungsschlüssel das korrekte Symbol (>, < oder =) für jede Aufgabe. Käufer auf Etsy und Gumroad bewerten Produkte durchgehend höher, wenn ein Lösungsschlüssel enthalten ist.',
     },
   ],
 

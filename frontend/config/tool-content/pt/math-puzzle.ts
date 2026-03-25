@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir o Gerador de Puzzles',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de puzzles matemáticos. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de puzzles matemáticos. A ferramenta abre-se instantaneamente no seu navegador com uma barra lateral escura à esquerda para as definições e um canvas luminoso à direita para a pré-visualização em tempo real. Não precisa de conta nem de descarregar nada.',
       },
       {
         title: 'Configurar o Tamanho da Quadrícula',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Selecionar ou Carregar uma Imagem',
-        description: 'Abra o painel «Biblioteca de Imagens» e explore mais de 100 coleções temáticas: animais, alimentos, veículos, espaço, festividades e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Também pode clicar em «Carregar Imagem» para usar a sua própria imagem PNG ou JPEG — perfeito para puzzles personalizados, designs sazonais ou temas de nicho que combinem com a identidade da sua loja.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 100 coleções temáticas: animais, alimentos, veículos, espaço, festividades e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Também pode clicar em \"Carregar Imagem\" para usar a sua própria imagem PNG ou JPEG — perfeito para puzzles personalizados, designs sazonais ou temas de nicho que combinem com a identidade da sua loja.',
       },
       {
         title: 'Explorar a Biblioteca de Imagens',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Personalizar o Layout da Página',
-        description: 'Na secção «Configuração de Página», escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
+        description: 'Na secção \"Configuração de Página\", escolha entre Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas.',
       },
       {
         title: 'Ativar o Modo Escala de Cinzentos',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Gerar e Descarregar',
-        description: 'Clique no botão «Gerar» para criar a sua ficha de puzzle. A pré-visualização atualiza-se no canvas. Quando estiver satisfeito, use o menu «Descarregar» para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Gere e descarregue um gabarito que mostra cada peça colocada na sua posição correta da quadrícula.',
+        description: 'Clique no botão \"Gerar\" para criar a sua ficha de puzzle. A pré-visualização atualiza-se no canvas. Quando estiver satisfeito, use o menu \"Descarregar\" para guardar como JPEG (imagem individual) ou PDF (otimizado para impressão). Gere e descarregue um gabarito que mostra cada peça colocada na sua posição correta da quadrícula.',
       },
     ],
   },
@@ -80,18 +80,18 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pacotes de Puzzles Sazonais e Festivos',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote de «Puzzles Matemáticos de Natal» com imagens natalícias vende-se muito bem em novembro e dezembro. Halloween, Dia dos Namorados e regresso às aulas têm as suas próprias janelas de vendas de pico na Etsy e no Gumroad.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote de \"Puzzles Matemáticos de Natal\" com imagens natalícias vende-se muito bem em novembro e dezembro. Halloween, Dia dos Namorados e regresso às aulas têm as suas próprias janelas de vendas de pico na Etsy e no Gumroad.',
     },
     {
       title: 'Puzzles de Aquecimento para a loja',
-      description: 'Gere puzzles rápidos de 2×2 ou 2×3 para aquecimentos diários de matemática. Os usuários resolvem de 4 a 6 equações e reconstroem uma imagem divertida em menos de cinco minutos. Crie um conjunto de 30 puzzles (um por dia letivo) e venda-o como um pacote «Um Mês de Puzzles Matemáticos de Aquecimento». O formato lúdico mantém os usuários motivados desde o primeiro momento.',
+      description: 'Gere puzzles rápidos de 2×2 ou 2×3 para aquecimentos diários de matemática. Os usuários resolvem de 4 a 6 equações e reconstroem uma imagem divertida em menos de cinco minutos. Crie um conjunto de 30 puzzles (um por dia letivo) e venda-o como um pacote \"Um Mês de Puzzles Matemáticos de Aquecimento\". O formato lúdico mantém os usuários motivados desde o primeiro momento.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Loja de Puzzles Matemáticos Visuais na Etsy',
-      description: 'Abra uma loja Etsy especializada em puzzles matemáticos tipo quebra-cabeça. O formato visual é genuinamente único — a maioria dos imprimíveis de matemática na Etsy são fichas de texto. Os seus coloridos puzzles de quadrícula de imagens vão destacar-se nos resultados de pesquisa e atrair cliques. Crie de 15 a 20 pacotes temáticos com preços de 3 $ a 5 $ cada. Carregue imagens personalizadas para construir uma identidade de marca que nenhum concorrente possa copiar. Use etiquetas da Etsy como «puzzle matemático imprimível», «ficha quebra-cabeça de matemática» e «atividade visual de matemática» para se posicionar em palavras-chave que os vendedores de fichas de texto ignoram completamente. Renove a sua loja sazonalmente lançando pacotes temáticos de festividades vinculados a tendências de pesquisa — regresso às aulas em agosto, Halloween em outubro, Natal em novembro.',
+      description: 'Abra uma loja Etsy especializada em puzzles matemáticos tipo quebra-cabeça. O formato visual é genuinamente único — a maioria dos imprimíveis de matemática na Etsy são fichas de texto. Os seus coloridos puzzles de quadrícula de imagens vão destacar-se nos resultados de pesquisa e atrair cliques. Crie de 15 a 20 pacotes temáticos com preços de 3 $ a 5 $ cada. Carregue imagens personalizadas para construir uma identidade de marca que nenhum concorrente possa copiar. Use etiquetas da Etsy como \"puzzle matemático imprimível\", \"ficha quebra-cabeça de matemática\" e \"atividade visual de matemática\" para se posicionar em palavras-chave que os vendedores de fichas de texto ignoram completamente. Renove a sua loja sazonalmente lançando pacotes temáticos de festividades vinculados a tendências de pesquisa — regresso às aulas em agosto, Halloween em outubro, Natal em novembro.',
       platform: 'Etsy',
     },
     {
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pacotes Premium no Gumroad',
-      description: 'Carregue pacotes de puzzles matemáticos diferenciados no Gumroad. Os vendedores procuram constantemente «puzzles de matemática» e «jogos de matemática». Inclua os três modos de operação, três níveis de dificuldade, gabaritos e um guia vendedor em cada listing. O formato quebra-cabeça acrescenta valor percebido porque se sente como um jogo, não como um exercício. Adicione uma folha de instruções «Como Usar» explicando os níveis de dificuldade da quadrícula, anos escolares sugeridos e dicas para uso online. Os compradores do Gumroad deixam sistematicamente melhores classificações em recursos que incluem documentação para o vendedor, o que por sua vez melhora a visibilidade do seu listing nos resultados de pesquisa do Gumroad.',
+      description: 'Carregue pacotes de puzzles matemáticos diferenciados no Gumroad. Os vendedores procuram constantemente \"puzzles de matemática\" e \"jogos de matemática\". Inclua os três modos de operação, três níveis de dificuldade, gabaritos e um guia vendedor em cada listing. O formato quebra-cabeça acrescenta valor percebido porque se sente como um jogo, não como um exercício. Adicione uma folha de instruções \"Como Usar\" explicando os níveis de dificuldade da quadrícula, anos escolares sugeridos e dicas para uso online. Os compradores do Gumroad deixam sistematicamente melhores classificações em recursos que incluem documentação para o vendedor, o que por sua vez melhora a visibilidade do seu listing nos resultados de pesquisa do Gumroad.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Comece com 2×2 para os Mais Pequenos',
-      description: 'Uma quadrícula 2×2 tem apenas 4 peças e 4 equações — manejável para a pré-escola e o jardim de infância que estão a aprender a somar. Aumente para 3×3 no 1.º ano e 4×4 no 2.º ano em diante. Adaptar o tamanho da quadrícula à idade é a forma mais simples de criar produtos diferenciados. Ao vender em marketplaces, indique claramente a idade ou ano escolar recomendado no título e na descrição do produto. Os compradores filtram por nível escolar, por isso um listing intitulado «Puzzles Matemáticos Pré-escola — Quadrícula 2×2 Adição» vai chegar ao público correto mais rapidamente do que um genérico «Puzzles Matemáticos».',
+      description: 'Uma quadrícula 2×2 tem apenas 4 peças e 4 equações — manejável para a pré-escola e o jardim de infância que estão a aprender a somar. Aumente para 3×3 no 1.º ano e 4×4 no 2.º ano em diante. Adaptar o tamanho da quadrícula à idade é a forma mais simples de criar produtos diferenciados. Ao vender em marketplaces, indique claramente a idade ou ano escolar recomendado no título e na descrição do produto. Os compradores filtram por nível escolar, por isso um listing intitulado \"Puzzles Matemáticos Pré-escola — Quadrícula 2×2 Adição\" vai chegar ao público correto mais rapidamente do que um genérico \"Puzzles Matemáticos\".',
     },
     {
       title: 'Use o Modo Misto para Máxima Variedade',
-      description: 'O modo «Adição e Subtração» mistura aleatoriamente ambas as operações num único puzzle. Isto cria fichas de revisão que avaliam ambas as competências simultaneamente e evita que os usuários caiam num padrão repetitivo. Os puzzles em modo misto também têm maior valor percebido nos listings de marketplaces. Os compradores da Etsy e do Gumroad que procuram «revisão de matemática» ou «avaliação de unidade» procuram especificamente recursos de operações mistas, pelo que etiquetar os seus listings com estes termos capta um segmento de compradores que os vendedores de uma única operação ignoram.',
+      description: 'O modo \"Adição e Subtração\" mistura aleatoriamente ambas as operações num único puzzle. Isto cria fichas de revisão que avaliam ambas as competências simultaneamente e evita que os usuários caiam num padrão repetitivo. Os puzzles em modo misto também têm maior valor percebido nos listings de marketplaces. Os compradores da Etsy e do Gumroad que procuram \"revisão de matemática\" ou \"avaliação de unidade\" procuram especificamente recursos de operações mistas, pelo que etiquetar os seus listings com estes termos capta um segmento de compradores que os vendedores de uma única operação ignoram.',
     },
     {
       title: 'Carregue Imagens Próprias para Reconhecimento de Marca',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Combine com Fichas de Matemática Convencionais',
-      description: 'Crie conjuntos de puzzles e fichas convencionais usando os geradores de Adição e Subtração com o mesmo intervalo numérico e tema. Venda-os individualmente e como um pacote combinado «Prática de Matemática + Puzzle». O puzzle acrescenta um elemento lúdico que torna o pacote mais atrativo do que as fichas sozinhas. Esta estratégia de produtos cruzados também aumenta o valor médio do pedido — os compradores que encontram o seu listing de puzzle podem visitar o seu listing de fichas convencionais e comprar ambos. Na Etsy, vincular produtos relacionados nas descrições dos seus listings gera tráfego interno na sua loja e incentiva carrinhos com múltiplos artigos.',
+      description: 'Crie conjuntos de puzzles e fichas convencionais usando os geradores de Adição e Subtração com o mesmo intervalo numérico e tema. Venda-os individualmente e como um pacote combinado \"Prática de Matemática + Puzzle\". O puzzle acrescenta um elemento lúdico que torna o pacote mais atrativo do que as fichas sozinhas. Esta estratégia de produtos cruzados também aumenta o valor médio do pedido — os compradores que encontram o seu listing de puzzle podem visitar o seu listing de fichas convencionais e comprar ambos. Na Etsy, vincular produtos relacionados nas descrições dos seus listings gera tráfego interno na sua loja e incentiva carrinhos com múltiplos artigos.',
     },
     {
       title: 'Destaque o Formato Puzzle nas Miniaturas',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso carregar as minhas próprias imagens?',
-      answer: 'Sim. Clique no botão «Carregar Imagem» para usar o seu próprio ficheiro PNG ou JPEG como imagem do puzzle. Isto permite-lhe criar puzzles personalizados com as suas próprias ilustrações, logótipos, designs sazonais ou arte de nicho que nenhum outro vendedor pode replicar.',
+      answer: 'Sim. Clique no botão \"Carregar Imagem\" para usar o seu próprio ficheiro PNG ou JPEG como imagem do puzzle. Isto permite-lhe criar puzzles personalizados com as suas próprias ilustrações, logótipos, designs sazonais ou arte de nicho que nenhum outro vendedor pode replicar.',
     },
     {
       question: 'O que faz o modo escala de cinzentos?',

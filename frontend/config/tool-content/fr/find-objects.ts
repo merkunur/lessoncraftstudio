@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Cherche Objets',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches objets cachés dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des fiches objets cachés immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches objets cachés dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas à double onglet à droite — un onglet pour la fiche, un pour le corrigé. Aucun compte, aucun téléchargement de logiciel, aucune installation requis — commencez à créer des fiches objets cachés immédiatement.',
       },
       {
         title: 'Définir Votre Mise en Page',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers d\'Activités Objets Cachés sur Amazon KDP',
-      description: 'Compilez 50–80 fiches d\'objets cachés dans des cahiers thématiques pour Amazon KDP. Structurez une série par difficulté et mode : « Je Vois Je Vois Facile pour Débutants » utilisant 1–2 objets cachés avec 8 distracteurs, « Aventures Je Vois Je Vois » augmentant à 3–4 objets cachés avec 10 distracteurs, « Défis Avancés Objets Cachés » utilisant 5 objets cachés parmi 12 distracteurs, et « Puzzles Visuels Trouve l\'Intrus » utilisant le mode images appariées. Incluez les pages de corrigés à la fin avec les annotations en cercles rouges. Activez les niveaux de gris pour une sortie économique en encre. Le format uniquement visuel se publie de manière identique sur tous les marchés internationaux KDP sans traduction — un seul intérieur fonctionne pour tous les pays.',
+      description: 'Compilez 50–80 fiches d\'objets cachés dans des cahiers thématiques pour Amazon KDP. Structurez une série par difficulté et mode : \" Je Vois Je Vois Facile pour Débutants \" utilisant 1–2 objets cachés avec 8 distracteurs, \" Aventures Je Vois Je Vois \" augmentant à 3–4 objets cachés avec 10 distracteurs, \" Défis Avancés Objets Cachés \" utilisant 5 objets cachés parmi 12 distracteurs, et \" Puzzles Visuels Trouve l\'Intrus \" utilisant le mode images appariées. Incluez les pages de corrigés à la fin avec les annotations en cercles rouges. Activez les niveaux de gris pour une sortie économique en encre. Le format uniquement visuel se publie de manière identique sur tous les marchés internationaux KDP sans traduction — un seul intérieur fonctionne pour tous les pays.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tunnel de Vente Pinterest pour Fiches Objets Cachés',
-      description: 'Les fiches d\'objets cachés font des épingles Pinterest visuellement saisissantes — les scènes d\'images colorées dispersées avec des objets à trouver créent un contenu éducatif immédiatement engageant sur lequel parents et vendeurs cliquent. Épinglez des exemples de fiches montrant les deux modes : Je Vois Je Vois avec des objets cachés dispersés et la légende en bas, et Trouve l\'Intrus avec des images appariées en rangées. Créez des séries d\'épingles distinctes pour « fiches objets cachés pour enfants », « activités Je Vois Je Vois imprimables » et « puzzles visuels Trouve l\'Intrus ». Les images d\'aperçu du corrigé avec les annotations en cercles rouges démontrent une qualité professionnelle. Reliez chaque épingle à vos listings Etsy ou Gumroad pour une conversion directe.',
+      description: 'Les fiches d\'objets cachés font des épingles Pinterest visuellement saisissantes — les scènes d\'images colorées dispersées avec des objets à trouver créent un contenu éducatif immédiatement engageant sur lequel parents et vendeurs cliquent. Épinglez des exemples de fiches montrant les deux modes : Je Vois Je Vois avec des objets cachés dispersés et la légende en bas, et Trouve l\'Intrus avec des images appariées en rangées. Créez des séries d\'épingles distinctes pour \" fiches objets cachés pour enfants \", \" activités Je Vois Je Vois imprimables \" et \" puzzles visuels Trouve l\'Intrus \". Les images d\'aperçu du corrigé avec les annotations en cercles rouges démontrent une qualité professionnelle. Reliez chaque épingle à vos listings Etsy ou Gumroad pour une conversion directe.',
       platform: 'Pinterest',
     },
     {

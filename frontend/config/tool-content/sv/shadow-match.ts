@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Skuggmatchning Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta skuggmatchnings arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta skuggmatchnings arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Välj ditt övningsläge',
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera etiketter och namn/datum-fält',
-        description: 'Växla «Visa Etiketter» (standard PÅ) för A/B/C/D och 1/2/3/4 identifierare. Etiketter PÅ — användarna skriver bokstav-nummer-par som svar. Etiketter AV — ren visuell matchningsutmaning idealisk för pusselböcker och avancerade aktiviteter. Kryssa i «Inkludera Namn/Datum-fält» för identifiering.',
+        description: 'Växla \"Visa Etiketter\" (standard PÅ) för A/B/C/D och 1/2/3/4 identifierare. Etiketter PÅ — användarna skriver bokstav-nummer-par som svar. Etiketter AV — ren visuell matchningsutmaning idealisk för pusselböcker och avancerade aktiviteter. Kryssa i \"Inkludera Namn/Datum-fält\" för identifiering.',
       },
       {
         title: 'Välj 4 bilder från biblioteket eller ladda upp egna',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Granska det automatiskt genererade facit',
-        description: 'Klicka på fliken Facit. I Skuggmatchning-läget visar varje cell originalbilden bredvid dess siluett med en etikett som «A → 2». I Gör Den Hel-läget visar varje cell den kompletta originalbilden med sin matchningsetikett. Facit genereras samtidigt med arbetsbladet.',
+        description: 'Klicka på fliken Facit. I Skuggmatchning-läget visar varje cell originalbilden bredvid dess siluett med en etikett som \"A → 2\". I Gör Den Hel-läget visar varje cell den kompletta originalbilden med sin matchningsetikett. Facit genereras samtidigt med arbetsbladet.',
       },
       {
         title: 'Ladda ner alla fyra filer',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP visuell perception arbetsboksserie',
-      description: 'Sammanställ 50–80 skuggmatchnings arbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera efter aktivitetstyp: «Skuggmatchningspussel» för siluettigenkänning, «Gör Den Hel Pussel» för delad-bild återmontering, «Komplett Visuell Matchning» med båda lägena. Facitsidor i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
+      description: 'Sammanställ 50–80 skuggmatchnings arbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera efter aktivitetstyp: \"Skuggmatchningspussel\" för siluettigenkänning, \"Gör Den Hel Pussel\" för delad-bild återmontering, \"Komplett Visuell Matchning\" med båda lägena. Facitsidor i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
       platform: 'Amazon KDP',
     },
     {
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
-      answer: 'Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit. I Skuggmatchning visar facit originalbilder bredvid siluetter med «A → 2»-etiketter. I Gör Den Hel visar varje cell den kompletta bilden med sin matchningsetikett. Ladda ner varje version oberoende — fyra produktionsklara filer.',
+      answer: 'Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit. I Skuggmatchning visar facit originalbilder bredvid siluetter med \"A → 2\"-etiketter. I Gör Den Hel visar varje cell den kompletta bilden med sin matchningsetikett. Ladda ner varje version oberoende — fyra produktionsklara filer.',
     },
     {
       question: 'Kan jag växla A/B/C/D och 1/2/3/4 etiketterna?',
-      answer: 'Ja. «Visa Etiketter» (standard PÅ) kontrollerar etiketterna. PÅ — strukturerat stöd med bokstav-nummer-par. AV — ren visuell matchningsutmaning utan alfanumeriska cues, idealiskt för pusselböcker.',
+      answer: 'Ja. \"Visa Etiketter\" (standard PÅ) kontrollerar etiketterna. PÅ — strukturerat stöd med bokstav-nummer-par. AV — ren visuell matchningsutmaning utan alfanumeriska cues, idealiskt för pusselböcker.',
     },
     {
       question: 'Varför finns det alltid exakt 4 objekt?',

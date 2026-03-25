@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Caça-Palavras',
-        description: 'Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de caça-palavras imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de caça-palavras imediatamente.',
       },
       {
         title: 'Configurar o Layout da Página e o Modelo',
-        description: 'Na secção «Configuração de Página», selecione o tamanho de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Escolha um modelo de ficha do seletor. Defina a cor da página, adicione um fundo temático com opacidade ajustável da biblioteca de 104 temas e selecione uma moldura decorativa.',
+        description: 'Na secção \"Configuração de Página\", selecione o tamanho de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou introduza um tamanho personalizado. Escolha um modelo de ficha do seletor. Defina a cor da página, adicione um fundo temático com opacidade ajustável da biblioteca de 104 temas e selecione uma moldura decorativa.',
       },
       {
         title: 'Escolher a Fonte de Conteúdo',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Gerar o Gabarito e Descarregar',
-        description: 'Clique em «Gerar» para criar a sua ficha de caça-palavras com as palavras ocultas incorporadas na grelha. Mude para o separador de Gabarito e gere uma versão resolvida com código de cores onde cada palavra é destacada numa de seis cores alternadas — rosa, azul, verde, dourado, coral e lavanda. Ative o modo Escala de Cinzentos para impressão económica. Descarregue tanto a ficha como o gabarito como PDF pronto para impressão ou JPEG de alta resolução a mais de 400 DPI.',
+        description: 'Clique em \"Gerar\" para criar a sua ficha de caça-palavras com as palavras ocultas incorporadas na grelha. Mude para o separador de Gabarito e gere uma versão resolvida com código de cores onde cada palavra é destacada numa de seis cores alternadas — rosa, azul, verde, dourado, coral e lavanda. Ative o modo Escala de Cinzentos para impressão económica. Descarregue tanto a ficha como o gabarito como PDF pronto para impressão ou JPEG de alta resolução a mais de 400 DPI.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Produtos de Caça-Palavras Multilingues',
-      description: 'Mude o idioma e regenere o mesmo design de ficha nos 11 idiomas disponíveis. Tanto as palavras ocultas como as letras de preenchimento da grelha mudam por idioma — «cão» em português aparece numa grelha preenchida com ã, õ, ç, â, á, «Hund» numa grelha alemã com ä, ö, ü, «chien» numa grelha francesa com é, è, ç. Cada versão linguística é um produto genuinamente diferente com palavras distintas, caracteres de preenchimento diferentes e uma experiência de resolução diferente. Uma sessão de design produz 11 produtos distintos.',
+      description: 'Mude o idioma e regenere o mesmo design de ficha nos 11 idiomas disponíveis. Tanto as palavras ocultas como as letras de preenchimento da grelha mudam por idioma — \"cão\" em português aparece numa grelha preenchida com ã, õ, ç, â, á, \"Hund\" numa grelha alemã com ä, ö, ü, \"chien\" numa grelha francesa com é, è, ç. Cada versão linguística é um produto genuinamente diferente com palavras distintas, caracteres de preenchimento diferentes e uma experiência de resolução diferente. Uma sessão de design produz 11 produtos distintos.',
     },
     {
       title: 'Caça-Palavras com Vocabulário Personalizado',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacotes Sazonais e de Festividades',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote de «Caça-Palavras de Halloween» com vocabulário assustador em grelhas progressivamente maiores vende-se muito bem em outubro. Natal, regresso às aulas, primavera e verão têm as suas próprias janelas de vendas pico na Etsy e Gumroad. Combine grelhas fáceis para usuários mais novos com grelhas difíceis para mais velhos num único pacote sazonal para maximizar a sua audiência de compradores.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote de \"Caça-Palavras de Halloween\" com vocabulário assustador em grelhas progressivamente maiores vende-se muito bem em outubro. Natal, regresso às aulas, primavera e verão têm as suas próprias janelas de vendas pico na Etsy e Gumroad. Combine grelhas fáceis para usuários mais novos com grelhas difíceis para mais velhos num único pacote sazonal para maximizar a sua audiência de compradores.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Livros Temáticos para Amazon KDP',
-      description: 'Compile mais de 80 caça-palavras num livro temático para Amazon KDP. Estruture uma série em torno de temas populares: «Caça-Palavras de Animais», «Caça-Palavras de Alimentos e Cozinha», «Caça-Palavras de Natureza e Ciência». Cada livro usa tamanhos de grelha progressivos de 6×6 a 25×25 com gabaritos no final. Use o modo escala de cinzentos para reduzir custos de impressão. Os livros de caça-palavras vendem-se de forma constante durante todo o ano na Amazon. Publique edições separadas por idioma usando a função de preenchimento adaptado ao idioma para multiplicar o seu catálogo.',
+      description: 'Compile mais de 80 caça-palavras num livro temático para Amazon KDP. Estruture uma série em torno de temas populares: \"Caça-Palavras de Animais\", \"Caça-Palavras de Alimentos e Cozinha\", \"Caça-Palavras de Natureza e Ciência\". Cada livro usa tamanhos de grelha progressivos de 6×6 a 25×25 com gabaritos no final. Use o modo escala de cinzentos para reduzir custos de impressão. Os livros de caça-palavras vendem-se de forma constante durante todo o ano na Amazon. Publique edições separadas por idioma usando a função de preenchimento adaptado ao idioma para multiplicar o seu catálogo.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros de Vocabulário no Gumroad',
-      description: 'Carregue pacotes de caça-palavras na Gumroad organizados por tema e dificuldade. Inclua quatro níveis de dificuldade por tema usando o tamanho da grelha e os controlos de direção como eixos de diferenciação. Acompanhe com gabaritos com código de cores e folhas de acompanhamento do progresso do usuário. Os vendedores procuram «atividades de vocabulário» e «caça-palavras» com frequência. A dificuldade ajustável significa que um único produto serve para uma turma inteira com capacidades mistas, algo que os vendedores valorizam muito e mencionam nas avaliações.',
+      description: 'Carregue pacotes de caça-palavras na Gumroad organizados por tema e dificuldade. Inclua quatro níveis de dificuldade por tema usando o tamanho da grelha e os controlos de direção como eixos de diferenciação. Acompanhe com gabaritos com código de cores e folhas de acompanhamento do progresso do usuário. Os vendedores procuram \"atividades de vocabulário\" e \"caça-palavras\" com frequência. A dificuldade ajustável significa que um único produto serve para uma turma inteira com capacidades mistas, algo que os vendedores valorizam muito e mencionam nas avaliações.',
       platform: 'Gumroad',
     },
     {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Os Gabaritos com Código de Cores Acrescentam Valor Profissional',
-      description: 'O gabarito em seis cores — rosa, azul, verde, dourado, coral, lavanda — destaca cada palavra de forma distinta, mesmo quando as palavras se cruzam ou sobrepõem na grelha. Inclua sempre gabaritos nos seus pacotes de produtos. Os vendedores esperam-nos, os pais agradecem-nos, e o formato com código de cores tem um aspeto profissional nas pré-visualizações dos seus listings em comparação com gabaritos simples do tipo «rodeie a palavra».',
+      description: 'O gabarito em seis cores — rosa, azul, verde, dourado, coral, lavanda — destaca cada palavra de forma distinta, mesmo quando as palavras se cruzam ou sobrepõem na grelha. Inclua sempre gabaritos nos seus pacotes de produtos. Os vendedores esperam-nos, os pais agradecem-nos, e o formato com código de cores tem um aspeto profissional nas pré-visualizações dos seus listings em comparação com gabaritos simples do tipo \"rodeie a palavra\".',
     },
     {
       title: 'Combine com Outras Ferramentas de Vocabulário para Pacotes Premium',

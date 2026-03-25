@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Adicione texto, auxiliares de loja e desenhos à mão livre',
         description:
-          'Use o painel Ferramentas de Texto para adicionar títulos, instruções ou etiquetas com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste o tamanho da fonte, a cor e a largura do contorno de texto (0 a 10 com granularidade de 0,5) para máxima legibilidade. Clique nos Auxiliares de loja para adicionar um campo de nome («Nome: ____») ou linhas de prática de caligrafia com um único clique. Mude para a Ferramenta de Desenho para desenhar ilustrações à mão livre diretamente no canvas — escolha uma cor de pincel e ajuste o tamanho do pincel de 1 a 50 píxeis.',
+          'Use o painel Ferramentas de Texto para adicionar títulos, instruções ou etiquetas com fontes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ajuste o tamanho da fonte, a cor e a largura do contorno de texto (0 a 10 com granularidade de 0,5) para máxima legibilidade. Clique nos Auxiliares de loja para adicionar um campo de nome (\"Nome: ____\") ou linhas de prática de caligrafia com um único clique. Mude para a Ferramenta de Desenho para desenhar ilustrações à mão livre diretamente no canvas — escolha uma cor de pincel e ajuste o tamanho do pincel de 1 a 50 píxeis.',
       },
       {
         title: 'Ative a escala de cinzentos e descarregue',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Auxiliares de loja: campo de nome e linhas de caligrafia',
         description:
-          'Dois auxiliares de loja com um único clique transformam as páginas para colorir em atividades prontas para a loja. O botão Campo de Nome adiciona um bloco de texto formatado «Nome: ____________________» posicionado no topo da página — os usuários escrevem o seu nome antes de começar. O botão Linhas de Caligrafia adiciona um grupo de três linhas uniformemente espaçadas (contínua, tracejada, contínua) perto da parte inferior da página para prática de escrita. Juntos, estes auxiliares tornam as suas fichas para colorir prontas para a loja sem formatação manual de texto. Os vendedores de Gumroad podem destacar estas funcionalidades como diferenciação integrada face às páginas para colorir genéricas.',
+          'Dois auxiliares de loja com um único clique transformam as páginas para colorir em atividades prontas para a loja. O botão Campo de Nome adiciona um bloco de texto formatado \"Nome: ____________________\" posicionado no topo da página — os usuários escrevem o seu nome antes de começar. O botão Linhas de Caligrafia adiciona um grupo de três linhas uniformemente espaçadas (contínua, tracejada, contínua) perto da parte inferior da página para prática de escrita. Juntos, estes auxiliares tornam as suas fichas para colorir prontas para a loja sem formatação manual de texto. Os vendedores de Gumroad podem destacar estas funcionalidades como diferenciação integrada face às páginas para colorir genéricas.',
       },
       {
         title: 'Exportação em escala de cinzentos para páginas para colorir económicas em tinta',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'O que são os auxiliares de loja e como se utilizam?',
       answer:
-        'Dois botões com um único clique no painel Auxiliares de loja. O botão Campo de Nome adiciona um bloco de texto formatado «Nome: ____________________» perto do topo da página. O botão Linhas de Caligrafia adiciona um grupo de três linhas uniformemente espaçadas (contínua, tracejada, contínua) perto da parte inferior da página para prática de escrita. Ambos os auxiliares criam objetos padrão do canvas que pode reposicionar, redimensionar ou eliminar como qualquer outro elemento.',
+        'Dois botões com um único clique no painel Auxiliares de loja. O botão Campo de Nome adiciona um bloco de texto formatado \"Nome: ____________________\" perto do topo da página. O botão Linhas de Caligrafia adiciona um grupo de três linhas uniformemente espaçadas (contínua, tracejada, contínua) perto da parte inferior da página para prática de escrita. Ambos os auxiliares criam objetos padrão do canvas que pode reposicionar, redimensionar ou eliminar como qualquer outro elemento.',
     },
     {
       question: 'Como funciona a exportação em escala de cinzentos?',

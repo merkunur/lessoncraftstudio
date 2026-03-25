@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Bildchiffer med bild-till-bokstav-koppling',
         description:
-          'Varje alfabetsbokstav mappas till en unik bild, och den hemliga frasen renderas som en sekvens av bilder som ersätter varje bokstav. användarna identifierar varje bild, härleder vilken bokstav den representerar och rekonstruerar originaltexten — en fundamentalt annorlunda utmaning jämfört med ordsöknings- eller bokstavsomflyttningspussel. Bild-till-bokstav-chiffret engagerar deduktion, mönsterigenkänning och kontextuellt resonemang när användarna bygger en mental dekrypteringsnyckel en koppling i taget. Denna kodknäckningsmekanik skapar pussel med genuina «aha-ögonblick» när varje avkodad bokstav låser upp flera ord samtidigt.',
+          'Varje alfabetsbokstav mappas till en unik bild, och den hemliga frasen renderas som en sekvens av bilder som ersätter varje bokstav. användarna identifierar varje bild, härleder vilken bokstav den representerar och rekonstruerar originaltexten — en fundamentalt annorlunda utmaning jämfört med ordsöknings- eller bokstavsomflyttningspussel. Bild-till-bokstav-chiffret engagerar deduktion, mönsterigenkänning och kontextuellt resonemang när användarna bygger en mental dekrypteringsnyckel en koppling i taget. Denna kodknäckningsmekanik skapar pussel med genuina \"aha-ögonblick\" när varje avkodad bokstav låser upp flera ord samtidigt.',
       },
       {
         title: 'Frasnivåkodning för komplett meddelandeavkodning',
         description:
-          'Till skillnad från pussel som kodar enskilda ord kodar Kryptogram-generatorn hela fraser och meningar. användarna avkodar ett komplett läsbart meddelande — ett motiverande citat, en ordförrådsmeming, ett roligt faktum eller en anpassad instruktion — vilket ger dem tillfredsställelsen av att avslöja meningsfullt innehåll snarare än isolerade ord. Frasnivåkodning ger också kontextuella ledtrådar: vanliga korta ord som «och», «den» och «är» hjälper lösare att knäcka chiffret snabbare, vilket skapar en naturlig scaffoldingseffekt som belönar språkintuition.',
+          'Till skillnad från pussel som kodar enskilda ord kodar Kryptogram-generatorn hela fraser och meningar. användarna avkodar ett komplett läsbart meddelande — ett motiverande citat, en ordförrådsmeming, ett roligt faktum eller en anpassad instruktion — vilket ger dem tillfredsställelsen av att avslöja meningsfullt innehåll snarare än isolerade ord. Frasnivåkodning ger också kontextuella ledtrådar: vanliga korta ord som \"och\", \"den\" och \"är\" hjälper lösare att knäcka chiffret snabbare, vilket skapar en naturlig scaffoldingseffekt som belönar språkintuition.',
       },
       {
         title: 'Justerbar svårighet med Bokstäver att Avslöja (0–10)',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'produktlinjes- och privatundervisning i ordförråd',
         description:
-          'Koda anpassade ordförrådsmeningar, stavningsrepetitionsfraser eller ämnesspecifika definitioner som kryptogrampussel. Skriv valfri fras som hemligt meddelande — «Mitokondrien är cellens kraftverk» för biologi, «Riksdagen är Sveriges lagstiftande församling» för samhällskunskap, eller veckans stavningsord arrangerade i en mening. Ställ in Bokstäver att Avslöja baserat på varje användares förmågenivå för direkt differentiering. Kodknäckarformatet förvandlar mekanisk ordförrådsrepetition till en engagerande pusselaktivitet, och bokstavslegendsfacit sparar upplevt värde.',
+          'Koda anpassade ordförrådsmeningar, stavningsrepetitionsfraser eller ämnesspecifika definitioner som kryptogrampussel. Skriv valfri fras som hemligt meddelande — \"Mitokondrien är cellens kraftverk\" för biologi, \"Riksdagen är Sveriges lagstiftande församling\" för samhällskunskap, eller veckans stavningsord arrangerade i en mening. Ställ in Bokstäver att Avslöja baserat på varje användares förmågenivå för direkt differentiering. Kodknäckarformatet förvandlar mekanisk ordförrådsrepetition till en engagerande pusselaktivitet, och bokstavslegendsfacit sparar upplevt värde.',
         platform: 'Online / Privatundervisning / Hemundervisning',
       },
     ],

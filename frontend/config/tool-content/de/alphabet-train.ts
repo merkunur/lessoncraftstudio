@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Alphabet-Zug-Arbeitsblatt-Generator',
     tagline: 'Farbenfrohe Buchstabenzug-Arbeitsblätter mit Bild-Buchstabe-Zuordnung in 11 Sprachen erstellen',
-    description: 'Erstellen Sie Alphabet-Arbeitsblätter, die sich grundlegend von Standard-Buchstaben-Nachschreibseiten unterscheiden. Dieses Tool ordnet 11 farbenfrohe Zugwaggons über die Seite an, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug — Nutzer erkennen, mit welchem Buchstaben jedes Bild beginnt, und ordnen es dem richtigen Waggon zu. Wählen Sie zwischen Auto-Erstellen (das Tool wählt zufällig 11 Buchstaben und weist passende Bilder zu) oder Manuellem Modus (wählen Sie jeden Buchstaben einzeln aus dem vollständigen Alphabet-Raster). Passen Sie die Schwierigkeit mit dem Hinweisanzahl-Regler an: 3 Hinweise für Anfänger, 5–7 für Fortgeschrittene und 9–11 für erfahrene Lernende, die fast jeden Waggon zuordnen müssen. Die besondere Stärke ist die Sprachsensitivität — wählen Sie aus 11 nativen Alphabeten einschließlich Deutsch (30 Buchstaben mit Ä/Ö/Ü/ß), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und weiteren. Dasselbe Bild wird in jeder Sprache einem anderen Buchstaben zugeordnet: „Hund“ passt zu H auf Deutsch, aber zu D auf Englisch (Dog). Eine Arbeitsblatt-Vorlage wird zu 11 einzigartigen Produkten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene Grafiken für markentypische Designs hoch. Wählen Sie aus 7 Schriftfamilien und exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie Alphabet-Arbeitsblätter, die sich grundlegend von Standard-Buchstaben-Nachschreibseiten unterscheiden. Dieses Tool ordnet 11 farbenfrohe Zugwaggons über die Seite an, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug — Nutzer erkennen, mit welchem Buchstaben jedes Bild beginnt, und ordnen es dem richtigen Waggon zu. Wählen Sie zwischen Auto-Erstellen (das Tool wählt zufällig 11 Buchstaben und weist passende Bilder zu) oder Manuellem Modus (wählen Sie jeden Buchstaben einzeln aus dem vollständigen Alphabet-Raster). Passen Sie die Schwierigkeit mit dem Hinweisanzahl-Regler an: 3 Hinweise für Anfänger, 5–7 für Fortgeschrittene und 9–11 für erfahrene Lernende, die fast jeden Waggon zuordnen müssen. Die besondere Stärke ist die Sprachsensitivität — wählen Sie aus 11 nativen Alphabeten einschließlich Deutsch (30 Buchstaben mit Ä/Ö/Ü/ß), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und weiteren. Dasselbe Bild wird in jeder Sprache einem anderen Buchstaben zugeordnet: \"Hund\" passt zu H auf Deutsch, aber zu D auf Englisch (Dog). Eine Arbeitsblatt-Vorlage wird zu 11 einzigartigen Produkten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene Grafiken für markentypische Designs hoch. Wählen Sie aus 7 Schriftfamilien und exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Alphabet-Zug-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
         title: 'Das Seitenlayout festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Hochformat eignet sich am besten für das Zug-Layout.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Hochformat eignet sich am besten für das Zug-Layout.',
       },
       {
         title: 'Den Erstellungsmodus wählen',
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Bilder und Thema auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Jedes Bild wird automatisch dem richtigen Buchstaben basierend auf der gewählten Sprache zugeordnet — dasselbe Katzenbild passt zu K auf Deutsch, aber zu C auf Englisch (Cat). Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
+        description: 'Öffnen Sie das Panel \"Bildbibliothek\" und durchstöbern Sie über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Jedes Bild wird automatisch dem richtigen Buchstaben basierend auf der gewählten Sprache zugeordnet — dasselbe Katzenbild passt zu K auf Deutsch, aber zu C auf Englisch (Cat). Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
       },
       {
         title: 'Hinweisanzahl und Name/Datum konfigurieren',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Alphabet-Zug-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der jedes Hinweisbild mit seinem richtigen Waggon verbindet.',
+        description: 'Klicken Sie auf \"Generieren\", um Ihr Alphabet-Zug-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der jedes Hinweisbild mit seinem richtigen Waggon verbindet.',
       },
     ],
   },
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Saisonale Alphabet-Zug-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Alphabet-Zug“-Paket mit festlichen Illustrationen verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween, Valentinstag und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein \"Weihnachts-Alphabet-Zug\"-Paket mit festlichen Illustrationen verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween, Valentinstag und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Literacy-Bündel auf Gumroad',
-      description: 'Laden Sie gestufte Alphabet-Zug-Pakete auf den Gumroad hoch. Fügen Sie Arbeitsblätter auf drei Hinweisstufen, eine Verkäuferanleitung zum Zugformat und Lösungsschlüssel für jede Seite ein. Verkäufer suchen ständig nach „Alphabet-Aktivitäten“ und „Buchstabenerkennung-Arbeitsblätter“. Das visuelle Zugformat bietet erhöhten wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung. Bieten Sie Auto-Erstellen-Bündel für Vielfalt und Manuelle-Auswahl-Bündel für lehrplanbezogene Buchstabengruppen an.',
+      description: 'Laden Sie gestufte Alphabet-Zug-Pakete auf den Gumroad hoch. Fügen Sie Arbeitsblätter auf drei Hinweisstufen, eine Verkäuferanleitung zum Zugformat und Lösungsschlüssel für jede Seite ein. Verkäufer suchen ständig nach \"Alphabet-Aktivitäten\" und \"Buchstabenerkennung-Arbeitsblätter\". Das visuelle Zugformat bietet erhöhten wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung. Bieten Sie Auto-Erstellen-Bündel für Vielfalt und Manuelle-Auswahl-Bündel für lehrplanbezogene Buchstabengruppen an.',
       platform: 'Gumroad',
     },
     {
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mit anderen Literacy-Tools kombinieren',
-      description: 'Kombinieren Sie Alphabet-Zug-Arbeitsblätter mit Schreibübungen, Wortsuche-Rätseln und Buchstabensalat-Aktivitäten zu umfassenden Literacy-Bündeln. Ein „Komplettes Buchstaben-Lernpaket“ mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format.',
+      description: 'Kombinieren Sie Alphabet-Zug-Arbeitsblätter mit Schreibübungen, Wortsuche-Rätseln und Buchstabensalat-Aktivitäten zu umfassenden Literacy-Bündeln. Ein \"Komplettes Buchstaben-Lernpaket\" mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format.',
     },
     {
       title: 'Mit Muster-Zug für ein Zug-Themen-Bündel kombinieren',
-      description: 'Der Muster-Zug-Ersteller verwendet dasselbe Zugwaggon-Format, konzentriert sich aber auf Mustererkennung statt auf Buchstaben. Bündeln Sie die Ausgaben beider Tools zu einem „Zug-Aktivitäten“-Mega-Paket, das Literacy- und Logik-Fähigkeiten abdeckt. Der einheitliche visuelle Stil erzeugt eine zusammenhängende Produktlinie.',
+      description: 'Der Muster-Zug-Ersteller verwendet dasselbe Zugwaggon-Format, konzentriert sich aber auf Mustererkennung statt auf Buchstaben. Bündeln Sie die Ausgaben beider Tools zu einem \"Zug-Aktivitäten\"-Mega-Paket, das Literacy- und Logik-Fähigkeiten abdeckt. Der einheitliche visuelle Stil erzeugt eine zusammenhängende Produktlinie.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen, Schulmaskottchen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
+      answer: 'Ja. Klicken Sie auf \"Eigenes Bild hochladen\", um eigene PNG- oder JPEG-Dateien zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen, Schulmaskottchen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',

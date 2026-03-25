@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Fichas de Preposiciones',
     tagline: 'Crea fichas de preposiciones espaciales con dos modos de ejercicio en 11 idiomas',
-    description: 'Enseña palabras de posición mediante ejercicios basados en imágenes que los usuarios realmente disfrutan. Esta herramienta genera fichas de preposiciones donde los usuarios identifican relaciones espaciales — sobre, debajo, encima, al lado, entre, dentro, fuera — estudiando escenas con imágenes y completando o seleccionando la preposición correcta. Elige entre dos modos de ejercicio: Rellenar Espacios en Blanco, donde los usuarios escriben la preposición correcta, u Opción Múltiple, donde eligen entre varias opciones con una línea de instrucción personalizable. Configura de 1 a 8 ejercicios por ficha y selecciona exactamente qué preposiciones incluir usando la cuadrícula de casillas. La función destacada de la herramienta es el Reemplazo de Formas — una capa de imagen independiente te permite intercambiar las formas de la escena de manera autónoma, creando muchas más combinaciones visuales de lo que un solo conjunto de imágenes podría ofrecer. La sensibilidad idiomática está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y cada palabra de preposición se actualiza a su equivalente nativo. El alemán usa «auf, unter, über, neben, zwischen, drinnen, draußen»; el francés usa «sur, sous, au-dessus, à côté, entre, dedans, dehors». Un solo diseño de ficha se convierte en 11 productos únicos en diferentes idiomas. Explora más de 3.100 imágenes en 104 temas, sube tus propias imágenes PNG o JPEG para diseños personalizados y elige entre múltiples plantillas y 7 familias de fuentes. Exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Enseña palabras de posición mediante ejercicios basados en imágenes que los usuarios realmente disfrutan. Esta herramienta genera fichas de preposiciones donde los usuarios identifican relaciones espaciales — sobre, debajo, encima, al lado, entre, dentro, fuera — estudiando escenas con imágenes y completando o seleccionando la preposición correcta. Elige entre dos modos de ejercicio: Rellenar Espacios en Blanco, donde los usuarios escriben la preposición correcta, u Opción Múltiple, donde eligen entre varias opciones con una línea de instrucción personalizable. Configura de 1 a 8 ejercicios por ficha y selecciona exactamente qué preposiciones incluir usando la cuadrícula de casillas. La función destacada de la herramienta es el Reemplazo de Formas — una capa de imagen independiente te permite intercambiar las formas de la escena de manera autónoma, creando muchas más combinaciones visuales de lo que un solo conjunto de imágenes podría ofrecer. La sensibilidad idiomática está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y cada palabra de preposición se actualiza a su equivalente nativo. El alemán usa \"auf, unter, über, neben, zwischen, drinnen, draußen\"; el francés usa \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Un solo diseño de ficha se convierte en 11 productos únicos en diferentes idiomas. Explora más de 3.100 imágenes en 104 temas, sube tus propias imágenes PNG o JPEG para diseños personalizados y elige entre múltiples plantillas y 7 familias de fuentes. Exporta como PDF listo para imprimir o JPEG de alta resolución. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Preposiciones',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador. La herramienta se abre al instante en tu navegador con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas cuenta, descarga ni instalación.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador. La herramienta se abre al instante en tu navegador con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas cuenta, descarga ni instalación.',
       },
       {
         title: 'Configurar el Diseño de Página y la Plantilla',
-        description: 'En la sección «Configuración de Página», selecciona el tamaño: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha del selector — cada plantilla organiza los ejercicios de forma diferente en la página. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo.',
+        description: 'En la sección \"Configuración de Página\", selecciona el tamaño: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha del selector — cada plantilla organiza los ejercicios de forma diferente en la página. Define el color de la página, añade un fondo temático con opacidad ajustable y selecciona un marco decorativo.',
       },
       {
         title: 'Elegir el Modo de Ejercicio',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Seleccionar Preposiciones',
-        description: 'La cuadrícula de casillas muestra todas las palabras de posición disponibles para el idioma seleccionado. Marca las preposiciones que quieres incluir en la ficha: sobre, debajo, encima, al lado, entre, dentro, fuera. Puedes seleccionar todas o centrarte en un subconjunto para práctica específica. La cuadrícula se actualiza automáticamente al cambiar de idioma — el alemán muestra «auf, unter, über, neben, zwischen, drinnen, draußen» y así sucesivamente.',
+        description: 'La cuadrícula de casillas muestra todas las palabras de posición disponibles para el idioma seleccionado. Marca las preposiciones que quieres incluir en la ficha: sobre, debajo, encima, al lado, entre, dentro, fuera. Puedes seleccionar todas o centrarte en un subconjunto para práctica específica. La cuadrícula se actualiza automáticamente al cambiar de idioma — el alemán muestra \"auf, unter, über, neben, zwischen, drinnen, draußen\" y así sucesivamente.',
       },
       {
         title: 'Seleccionar Imágenes y Tema',
-        description: 'Abre el panel «Biblioteca de Imágenes» y explora más de 3.100 imágenes en 104 colecciones temáticas: animales, comida, vehículos, naturaleza, festividades y más. Usa la Selección Manual para elegir imágenes específicas o selecciona Todos los Temas para que la herramienta elija automáticamente. Cada imagen aparece en un contexto de escena que demuestra la relación espacial seleccionada. Sube tus propias imágenes PNG o JPEG para fichas personalizadas.',
+        description: 'Abre el panel \"Biblioteca de Imágenes\" y explora más de 3.100 imágenes en 104 colecciones temáticas: animales, comida, vehículos, naturaleza, festividades y más. Usa la Selección Manual para elegir imágenes específicas o selecciona Todos los Temas para que la herramienta elija automáticamente. Cada imagen aparece en un contexto de escena que demuestra la relación espacial seleccionada. Sube tus propias imágenes PNG o JPEG para fichas personalizadas.',
       },
       {
         title: 'Configurar el Reemplazo de Formas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generar y Descargar',
-        description: 'Haz clic en «Generar» para crear tu ficha de preposiciones. La vista previa se actualiza en el lienzo. Activa el interruptor de Escala de Grises para una salida en blanco y negro ideal para interiores KDP. Descarga como PDF listo para imprimir o JPEG de alta resolución. Genera una clave de respuestas que muestra la preposición correcta para cada ejercicio.',
+        description: 'Haz clic en \"Generar\" para crear tu ficha de preposiciones. La vista previa se actualiza en el lienzo. Activa el interruptor de Escala de Grises para una salida en blanco y negro ideal para interiores KDP. Descarga como PDF listo para imprimir o JPEG de alta resolución. Genera una clave de respuestas que muestra la preposición correcta para cada ejercicio.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Productos de Preposiciones Multilingües',
-      description: 'Cambia el idioma y regenera la misma plantilla de ficha en los 11 idiomas compatibles. Cada palabra de preposición se actualiza a su equivalente nativo — «on» se convierte en «auf» en alemán, «sur» en francés, «sobre» en español. Una sesión de diseño produce 11 productos distintos, cada uno listo para publicar en su marketplace local. Las fichas de preposiciones en idiomas específicos están dramáticamente desatendidas fuera del inglés.',
+      description: 'Cambia el idioma y regenera la misma plantilla de ficha en los 11 idiomas compatibles. Cada palabra de preposición se actualiza a su equivalente nativo — \"on\" se convierte en \"auf\" en alemán, \"sur\" en francés, \"sobre\" en español. Una sesión de diseño produce 11 productos distintos, cada uno listo para publicar en su marketplace local. Las fichas de preposiciones en idiomas específicos están dramáticamente desatendidas fuera del inglés.',
     },
     {
       title: 'Fichas Personalizadas con Imagen Propia',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Preposiciones Estacionales',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Preposiciones de Navidad» con escenas festivas — regalos debajo del árbol, estrellas encima de la casa, dulces dentro del calcetín — se vende muy bien en noviembre y diciembre. La vuelta al cole, Halloween y la primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Preposiciones de Navidad\" con escenas festivas — regalos debajo del árbol, estrellas encima de la casa, dulces dentro del calcetín — se vende muy bien en noviembre y diciembre. La vuelta al cole, Halloween y la primavera tienen sus propias ventanas de ventas pico en Etsy y Gumroad.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Cuadernos de Lenguaje Espacial en Amazon KDP',
-      description: 'Compila más de 60 páginas de preposiciones en un cuaderno de actividades físico para Amazon KDP. Estructura los capítulos por preposición: ejercicios de «sobre» primero, luego «debajo», después preposiciones mixtas para la sección de desafío. Incluye ambos modos de ejercicio para variedad. Usa el modo escala de grises para costes de impresión más bajos. Publica ediciones separadas para cada idioma para multiplicar tu catálogo con productos genuinamente diferentes.',
+      description: 'Compila más de 60 páginas de preposiciones en un cuaderno de actividades físico para Amazon KDP. Estructura los capítulos por preposición: ejercicios de \"sobre\" primero, luego \"debajo\", después preposiciones mixtas para la sección de desafío. Incluye ambos modos de ejercicio para variedad. Usa el modo escala de grises para costes de impresión más bajos. Publica ediciones separadas para cada idioma para multiplicar tu catálogo con productos genuinamente diferentes.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Packs de Gramática en Gumroad',
-      description: 'Sube packs de fichas de preposiciones a Gumroad organizados por dificultad y modo de ejercicio. Incluye conjuntos de Rellenar Espacios en Blanco, conjuntos de Opción Múltiple y packs de modo mixto con claves de respuestas para cada página. Los vendedores buscan «fichas de preposiciones» y «actividades de lenguaje espacial» con frecuencia. El formato de escena con imágenes añade valor percibido porque los usuarios interactúan con contexto visual en lugar de frases abstractas para completar.',
+      description: 'Sube packs de fichas de preposiciones a Gumroad organizados por dificultad y modo de ejercicio. Incluye conjuntos de Rellenar Espacios en Blanco, conjuntos de Opción Múltiple y packs de modo mixto con claves de respuestas para cada página. Los vendedores buscan \"fichas de preposiciones\" y \"actividades de lenguaje espacial\" con frecuencia. El formato de escena con imágenes añade valor percibido porque los usuarios interactúan con contexto visual en lugar de frases abstractas para completar.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Variedad con Reemplazo de Formas en Etsy',
-      description: 'Aprovecha la función de Reemplazo de Formas para crear packs de gran volumen. Combina 10 imágenes principales con 10 formas diferentes para producir 100 escenas de ejercicio únicas a partir de solo 20 imágenes de origen. Véndelos como «Mega Packs de Preposiciones de 100 Páginas» en Etsy — el volumen justifica un precio premium, y la variedad visual mantiene a los usuarios motivados durante todo el cuaderno.',
+      description: 'Aprovecha la función de Reemplazo de Formas para crear packs de gran volumen. Combina 10 imágenes principales con 10 formas diferentes para producir 100 escenas de ejercicio únicas a partir de solo 20 imágenes de origen. Véndelos como \"Mega Packs de Preposiciones de 100 Páginas\" en Etsy — el volumen justifica un precio premium, y la variedad visual mantiene a los usuarios motivados durante todo el cuaderno.',
       platform: 'Etsy',
     },
   ],
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Multiplica por 11 con el Modo Multilingüe',
-      description: 'Cada ficha de preposiciones que diseñes puede convertirse en 11 productos cambiando el idioma. Las palabras de preposición se actualizan automáticamente: «sobre» se convierte en «auf» (alemán), «sur» (francés), «on» (inglés), «på» (sueco). Las fichas de preposiciones en idiomas específicos son un nicho dramáticamente desatendido fuera del inglés.',
+      description: 'Cada ficha de preposiciones que diseñes puede convertirse en 11 productos cambiando el idioma. Las palabras de preposición se actualizan automáticamente: \"sobre\" se convierte en \"auf\" (alemán), \"sur\" (francés), \"on\" (inglés), \"på\" (sueco). Las fichas de preposiciones en idiomas específicos son un nicho dramáticamente desatendido fuera del inglés.',
     },
     {
       title: 'Agrupa Ambos Modos en un Solo Producto',
-      description: 'Combina fichas de Rellenar Espacios en Blanco y Opción Múltiple en un solo pack. Los vendedores adoran los packs diferenciados que pueden entregar a usuarios de diferentes niveles. Un «Pack Completo de Preposiciones» con ambos modos, claves de respuestas y una guía vendedor alcanza un precio más alto que cualquier modo vendido por separado. Los packs de doble modo también reducen las solicitudes de reembolso porque los compradores sienten que obtienen cobertura completa, y las claves de respuestas incluidas ahorran valor percibido a los vendedores — un punto de venta que vale la pena destacar en tu texto de listing.',
+      description: 'Combina fichas de Rellenar Espacios en Blanco y Opción Múltiple en un solo pack. Los vendedores adoran los packs diferenciados que pueden entregar a usuarios de diferentes niveles. Un \"Pack Completo de Preposiciones\" con ambos modos, claves de respuestas y una guía vendedor alcanza un precio más alto que cualquier modo vendido por separado. Los packs de doble modo también reducen las solicitudes de reembolso porque los compradores sienten que obtienen cobertura completa, y las claves de respuestas incluidas ahorran valor percibido a los vendedores — un punto de venta que vale la pena destacar en tu texto de listing.',
     },
     {
       title: 'Usa Escala de Grises para KDP e Impresión Masiva',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combina con Otras Herramientas de Lectoescritura',
-      description: 'Combina fichas de preposiciones con sopas de letras, práctica de caligrafía, fichas de asociación y actividades de alfabeto para crear packs de lenguaje completos. Un pack de «Lenguaje Espacial Completo» con múltiples tipos de actividad se vende por más que cualquier formato de ficha individual.',
+      description: 'Combina fichas de preposiciones con sopas de letras, práctica de caligrafía, fichas de asociación y actividades de alfabeto para crear packs de lenguaje completos. Un pack de \"Lenguaje Espacial Completo\" con múltiples tipos de actividad se vende por más que cualquier formato de ficha individual.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funciona la sensibilidad idiomática?',
-      answer: 'Cuando cambias de idioma, cada palabra de preposición en la ficha se actualiza a su equivalente nativo. «Sobre, debajo, encima» en español se convierte en «auf, unter, über» en alemán, «sur, sous, au-dessus» en francés, «on, under, above» en inglés, y así sucesivamente en los 11 idiomas compatibles. El formato del ejercicio permanece idéntico — solo cambian las palabras de posición.',
+      answer: 'Cuando cambias de idioma, cada palabra de preposición en la ficha se actualiza a su equivalente nativo. \"Sobre, debajo, encima\" en español se convierte en \"auf, unter, über\" en alemán, \"sur, sous, au-dessus\" en francés, \"on, under, above\" en inglés, y así sucesivamente en los 11 idiomas compatibles. El formato del ejercicio permanece idéntico — solo cambian las palabras de posición.',
     },
     {
       question: '¿Qué idiomas son compatibles?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
-      answer: 'Sí. Haz clic en el botón «Subir Imagen» para usar tus propios archivos PNG o JPEG tanto para las imágenes principales como para los reemplazos de formas. Las imágenes personalizadas te permiten crear fichas con tus propias ilustraciones o arte con licencia que ningún otro vendedor puede replicar.',
+      answer: 'Sí. Haz clic en el botón \"Subir Imagen\" para usar tus propios archivos PNG o JPEG tanto para las imágenes principales como para los reemplazos de formas. Las imágenes personalizadas te permiten crear fichas con tus propias ilustraciones o arte con licencia que ningún otro vendedor puede replicar.',
     },
     {
       question: '¿Puedo usar las fichas con fines comerciales?',

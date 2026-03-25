@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Grande y Pequeño',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas crear cuenta, descargar software ni instalar nada — empieza a crear fichas de comparación de tamaños de inmediato.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas crear cuenta, descargar software ni instalar nada — empieza a crear fichas de comparación de tamaños de inmediato.',
       },
       {
         title: 'Configurar el Diseño de Página y el Fondo',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Paquetes de Comparación por Modo de Imagen',
-      description: 'Duplica tu gama de productos creando cada tema en ambos modos de imagen. Un paquete de «Imágenes Idénticas» muestra el mismo animal, vehículo o alimento en diferentes tamaños para ejercicios de percepción de tamaño pura. Un paquete de «Imágenes Diferentes» muestra objetos distintos en diferentes tamaños para desafíos de razonamiento de tamaño relativo. Véndelos por separado o empaqueta ambos modos juntos a un precio premium. Dos experiencias de ejercicio fundamentalmente diferentes del mismo tema sin creación de contenido adicional.',
+      description: 'Duplica tu gama de productos creando cada tema en ambos modos de imagen. Un paquete de \"Imágenes Idénticas\" muestra el mismo animal, vehículo o alimento en diferentes tamaños para ejercicios de percepción de tamaño pura. Un paquete de \"Imágenes Diferentes\" muestra objetos distintos en diferentes tamaños para desafíos de razonamiento de tamaño relativo. Véndelos por separado o empaqueta ambos modos juntos a un precio premium. Dos experiencias de ejercicio fundamentalmente diferentes del mismo tema sin creación de contenido adicional.',
     },
     {
       title: 'Conjuntos de Actividades de Tamaños por Temporada y Festividades',
-      description: 'Usa temas de imágenes estacionales y de festividades para crear paquetes de comparación de tamaños de temporada limitada. Un paquete de «Ordenar Tamaños de Halloween» con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias temporadas altas de ventas en Etsy y Gumroad. Combina calentamientos sencillos de Rodea el Grande con ejercicios avanzados de Numera 1–2–3 en cada conjunto estacional para cubrir múltiples niveles de habilidad y maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes estacionales y de festividades para crear paquetes de comparación de tamaños de temporada limitada. Un paquete de \"Ordenar Tamaños de Halloween\" con imágenes temáticas de terror se vende en octubre. Navidad, vuelta al cole, San Valentín y temas de verano tienen cada uno sus propias temporadas altas de ventas en Etsy y Gumroad. Combina calentamientos sencillos de Rodea el Grande con ejercicios avanzados de Numera 1–2–3 en cada conjunto estacional para cubrir múltiples niveles de habilidad y maximizar tu audiencia de compradores.',
     },
   ],
 
@@ -96,12 +96,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Serie de Cuadernos de Discriminación de Tamaños para Amazon KDP',
-      description: 'Compila más de 80 ejercicios de comparación de tamaños en cuadernos temáticos para Amazon KDP. Estructura una serie por tema: «Ordenar Tamaños de Animales», «Grande y Pequeño de Vehículos», «Ordenar Tamaños de Alimentos». Cada libro progresa de la identificación simple con 2 imágenes a la ordenación compleja con 3 imágenes con claves de respuestas al final. El formato visual sin texto se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción. Los cuadernos de comparación de tamaños llenan un nicho específico de aprendizaje temprano con demanda durante todo el año de padres y vendedores de preescolar.',
+      description: 'Compila más de 80 ejercicios de comparación de tamaños en cuadernos temáticos para Amazon KDP. Estructura una serie por tema: \"Ordenar Tamaños de Animales\", \"Grande y Pequeño de Vehículos\", \"Ordenar Tamaños de Alimentos\". Cada libro progresa de la identificación simple con 2 imágenes a la ordenación compleja con 3 imágenes con claves de respuestas al final. El formato visual sin texto se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción. Los cuadernos de comparación de tamaños llenan un nicho específico de aprendizaje temprano con demanda durante todo el año de padres y vendedores de preescolar.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros de Discriminación Visual en Gumroad',
-      description: 'Sube paquetes de fichas de comparación de tamaños a Gumroad organizados por nivel de habilidad y tema. Incluye cuatro niveles de dificultad por tema usando el tipo de ejercicio como eje de diferenciación. Incluye claves de respuestas autogeneradas, hojas de seguimiento del progreso del usuario y tarjetas de instrucciones para el vendedor. El formato sin texto funciona en cualquier tienda independientemente del idioma de los usuarios — especialmente valioso en entornos multilingües e inclusivos. Los vendedores buscan «actividades de comparación de tamaños» y «fichas de grande y pequeño» y encuentran opciones de calidad limitadas.',
+      description: 'Sube paquetes de fichas de comparación de tamaños a Gumroad organizados por nivel de habilidad y tema. Incluye cuatro niveles de dificultad por tema usando el tipo de ejercicio como eje de diferenciación. Incluye claves de respuestas autogeneradas, hojas de seguimiento del progreso del usuario y tarjetas de instrucciones para el vendedor. El formato sin texto funciona en cualquier tienda independientemente del idioma de los usuarios — especialmente valioso en entornos multilingües e inclusivos. Los vendedores buscan \"actividades de comparación de tamaños\" y \"fichas de grande y pequeño\" y encuentran opciones de calidad limitadas.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Usa el Tipo de Ejercicio como Tu Eje Principal de Dificultad',
-      description: 'Los cinco tipos de ejercicio crean una progresión de dificultad natural. Rodea el Grande es el más fácil — los usuarios detectan la imagen obviamente más grande. Rodea el Pequeño es ligeramente más difícil porque «el más pequeño» requiere una comparación más cuidadosa. Rodea el Mediano es la tarea de identificación más difícil porque los usuarios deben eliminar ambos extremos. Numera 1–2–3 de ordenación requiere secuenciación de múltiples pasos. Usa esta progresión para crear paquetes de productos graduados desde una sola sesión de diseño.',
+      description: 'Los cinco tipos de ejercicio crean una progresión de dificultad natural. Rodea el Grande es el más fácil — los usuarios detectan la imagen obviamente más grande. Rodea el Pequeño es ligeramente más difícil porque \"el más pequeño\" requiere una comparación más cuidadosa. Rodea el Mediano es la tarea de identificación más difícil porque los usuarios deben eliminar ambos extremos. Numera 1–2–3 de ordenación requiere secuenciación de múltiples pasos. Usa esta progresión para crear paquetes de productos graduados desde una sola sesión de diseño.',
     },
     {
       title: 'Aprovecha los Modos Idéntico vs. Diferente para Duplicar Productos',
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Destaca el Formato Sin Texto para Venta Global',
-      description: 'Las fichas de Grande y Pequeño no contienen texto en el resultado — solo imágenes e indicadores visuales. Esta es tu mayor ventaja competitiva para listados en marketplaces. Indica explícitamente «no necesita traducción — funciona en todo el mundo» en cada descripción de producto. Compradores de cualquier país pueden comprar sin preocuparse por la compatibilidad de idioma. Publica el mismo producto en múltiples tiendas internacionales de Etsy con archivos idénticos.',
+      description: 'Las fichas de Grande y Pequeño no contienen texto en el resultado — solo imágenes e indicadores visuales. Esta es tu mayor ventaja competitiva para listados en marketplaces. Indica explícitamente \"no necesita traducción — funciona en todo el mundo\" en cada descripción de producto. Compradores de cualquier país pueden comprar sin preocuparse por la compatibilidad de idioma. Publica el mismo producto en múltiples tiendas internacionales de Etsy con archivos idénticos.',
     },
     {
       title: 'Ajusta el Número de Ejercicios a Tu Grupo de Edad Objetivo',

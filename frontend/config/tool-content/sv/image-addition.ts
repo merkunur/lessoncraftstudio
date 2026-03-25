@@ -29,27 +29,27 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna arbetsblad-generatorn',
-        description: 'Klicka på «Prova gratis nu» för att starta additions arbetsblad-generatorn. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta additions arbetsblad-generatorn. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
       },
       {
         title: 'Välj ditt övningsläge',
-        description: 'Öppna panelen «Övningskonfiguration» och välj bland fyra lägen: Bild + Bild (båda termerna visas som bildgrupper), Bild + Tal (en bildgrupp plus en siffra), Hitta Term (en term saknas och barnet måste räkna ut den), eller Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett blad).',
+        description: 'Öppna panelen \"Övningskonfiguration\" och välj bland fyra lägen: Bild + Bild (båda termerna visas som bildgrupper), Bild + Tal (en bildgrupp plus en siffra), Hitta Term (en term saknas och barnet måste räkna ut den), eller Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett blad).',
       },
       {
         title: 'Ställ in svårighetsgraden',
-        description: 'Justera «Min antal per grupp» och «Max antal per grupp» reglagen för att kontrollera de siffror som används. För förskolebarn, prova 1–3. För dagis, använd 1–5. Första klass-användare klarar 1–10. Du kan också ställa in antalet övningar per arbetsblad (1 till 10).',
+        description: 'Justera \"Min antal per grupp\" och \"Max antal per grupp\" reglagen för att kontrollera de siffror som används. För förskolebarn, prova 1–3. För dagis, använd 1–5. Första klass-användare klarar 1–10. Du kan också ställa in antalet övningar per arbetsblad (1 till 10).',
       },
       {
         title: 'Välj ett tema från bildbiblioteket',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, havsdjur, rymden, sport och många fler. Använd sökfältet för att hitta specifika teman. Klicka på enskilda bilder för att välja exakt vilka som visas på ditt arbetsblad.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, havsdjur, rymden, sport och många fler. Använd sökfältet för att hitta specifika teman. Klicka på enskilda bilder för att välja exakt vilka som visas på ditt arbetsblad.',
       },
       {
         title: 'Anpassa sidlayouten',
-        description: 'I avsnittet «Sidinställningar» väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket.',
       },
       {
         title: 'Lägg till text och titlar',
-        description: 'Använd panelen «Textverktyg» för att lägga till en titel, namnsfält eller instruktioner. Välj bland tydliga typsnitt som Fredoka, Baloo 2, Quicksand och Nunito. Justera teckenstorlek, färg och valfri textkontur för bättre läsbarhet över bakgrunder.',
+        description: 'Använd panelen \"Textverktyg\" för att lägga till en titel, namnsfält eller instruktioner. Välj bland tydliga typsnitt som Fredoka, Baloo 2, Quicksand och Nunito. Justera teckenstorlek, färg och valfri textkontur för bättre läsbarhet över bakgrunder.',
       },
       {
         title: 'Växla arbetsbladsalternativ',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera»-knappen för att bygga ditt arbetsblad. Förhandsvisningen uppdateras på arbetsytan i realtid. När du är nöjd, använd «Nedladdning»-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Du kan också generera och ladda ner ett matchande facit med alla lösningar ifyllda.',
+        description: 'Klicka på \"Generera\"-knappen för att bygga ditt arbetsblad. Förhandsvisningen uppdateras på arbetsytan i realtid. När du är nöjd, använd \"Nedladdning\"-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Du kan också generera och ladda ner ett matchande facit med alla lösningar ifyllda.',
       },
     ],
   },
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad-säljare',
-      description: 'Ladda upp nivågrupperade additions arbetsbladspaket till Gumroad. säljare söker ständigt efter «additions arbetsblad med bilder». Inkludera facit och en lärarguide i varje annons för högre upplevt värde. När du skapar Gumroad-annonser, investera extra tid i dina produktförhandsvisningsbilder eftersom säljare fattar köpbeslut nästan helt baserat på de visuella miniatyrerna.',
+      description: 'Ladda upp nivågrupperade additions arbetsbladspaket till Gumroad. säljare söker ständigt efter \"additions arbetsblad med bilder\". Inkludera facit och en lärarguide i varje annons för högre upplevt värde. När du skapar Gumroad-annonser, investera extra tid i dina produktförhandsvisningsbilder eftersom säljare fattar köpbeslut nästan helt baserat på de visuella miniatyrerna.',
       platform: 'Gumroad',
     },
     {
@@ -131,7 +131,7 @@ const content: ToolContent = {
     },
     {
       title: 'Inkludera alltid facit',
-      description: 'Klicka på «Generera Facit» innan du laddar ner. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit. Det tar 10 extra sekunder och ökar betydligt dina recensionspoäng och återköp. Ett facit gör också din produkt lämplig för hemundervisningsfamiljer där föräldrar behöver verifiera arbete snabbt.',
+      description: 'Klicka på \"Generera Facit\" innan du laddar ner. Köpare på Etsy och Gumroad ger konsekvent högre betyg till produkter som inkluderar facit. Det tar 10 extra sekunder och ökar betydligt dina recensionspoäng och återköp. Ett facit gör också din produkt lämplig för hemundervisningsfamiljer där föräldrar behöver verifiera arbete snabbt.',
     },
     {
       title: 'Exportera både PDF och JPEG',
@@ -139,7 +139,7 @@ const content: ToolContent = {
     },
     {
       title: 'Börja med låga talområden',
-      description: 'För förskole- och dagisprodukter, håll max antal per grupp vid 3–5. Små barn överväldigas av stora tal. Skapa separata «lätt» och «utmaning» versioner av varje arbetsblad så föräldrar och säljare kan välja rätt nivå.',
+      description: 'För förskole- och dagisprodukter, håll max antal per grupp vid 3–5. Små barn överväldigas av stora tal. Skapa separata \"lätt\" och \"utmaning\" versioner av varje arbetsblad så föräldrar och säljare kan välja rätt nivå.',
     },
     {
       title: 'Lägg till anpassad text för varumärkning',
@@ -182,7 +182,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag generera ett facit?',
-      answer: 'Ja. Efter att ha genererat ett arbetsblad, klicka på «Generera Facit» för att skapa ett matchande lösningsblad med alla svar ifyllda. Du kan ladda ner facit som en separat JPEG- eller PDF-fil. Detta är särskilt användbart för säljare och för säljare som vill inkludera facit i sina produkter.',
+      answer: 'Ja. Efter att ha genererat ett arbetsblad, klicka på \"Generera Facit\" för att skapa ett matchande lösningsblad med alla svar ifyllda. Du kan ladda ner facit som en separat JPEG- eller PDF-fil. Detta är särskilt användbart för säljare och för säljare som vill inkludera facit i sina produkter.',
     },
     {
       question: 'Vilka sidstorlekar stöds?',

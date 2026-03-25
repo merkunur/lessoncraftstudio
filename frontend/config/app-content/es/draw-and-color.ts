@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Encabezado autogenerado y adaptable con texto localizado',
         description:
-          'Cada ficha incluye un encabezado autogenerado que se adapta a la orientación de la página. El modo Vertical muestra un encabezado grande centrado con un borde exterior magenta y un borde interior rosa. El modo Horizontal usa un encabezado compacto centrado con fondo verde lima y una pastilla blanca. El texto del encabezado se localiza automáticamente en los 11 idiomas soportados — «Dibuja y Colorea» en español, «Draw and Color» en inglés, «Zeichnen & Ausmalen» en alemán, etc. Los encabezados son completamente editables en el lienzo: selecciona, mueve, redimensiona o elimínalos. Esta localización automática permite a los vendedores crear productos multilingües sin traducción manual de encabezados.',
+          'Cada ficha incluye un encabezado autogenerado que se adapta a la orientación de la página. El modo Vertical muestra un encabezado grande centrado con un borde exterior magenta y un borde interior rosa. El modo Horizontal usa un encabezado compacto centrado con fondo verde lima y una pastilla blanca. El texto del encabezado se localiza automáticamente en los 11 idiomas soportados — \"Dibuja y Colorea\" en español, \"Draw and Color\" en inglés, \"Zeichnen & Ausmalen\" en alemán, etc. Los encabezados son completamente editables en el lienzo: selecciona, mueve, redimensiona o elimínalos. Esta localización automática permite a los vendedores crear productos multilingües sin traducción manual de encabezados.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generador de Fichas de Letras Revueltas',
     tagline: 'Crea puzzles de ortografía con fichas de letras mezcladas, imágenes, código de colores y 4 niveles de dificultad en 11 idiomas',
-    description: 'Convierte la práctica de vocabulario en un puzzle de ortografía que los usuarios resuelven reordenando fichas de letras mezcladas. Esta herramienta genera fichas de letras revueltas donde una imagen aparece junto a un conjunto de fichas desordenadas — los usuarios observan la imagen, identifican lo que representa y colocan las letras en el orden correcto. A diferencia de los ejercicios de completar huecos, las letras revueltas proporcionan TODAS las letras pero en el orden incorrecto, convirtiendo la actividad en un desafío de reordenación que fortalece la precisión ortográfica mediante manipulación activa. La característica estrella es el código de colores vocales-consonantes: actívalo para mostrar las vocales en un color y las consonantes en otro, añadiendo una dimensión visual de fonética que ayuda a los usuarios a identificar tipos de letras mientras descifran. Cuatro niveles de dificultad controlan cuántas letras aparecen pre-colocadas en sus posiciones correctas: Sin Pistas desordena todas las letras para máximo desafío, Fácil pre-coloca la mitad para principiantes, Normal coloca un cuarto para práctica equilibrada y Difícil coloca solo un sexto para usuarios avanzados. Elige entre tres fuentes de contenido: el modo Biblioteca de Imágenes usa más de 3.100 ilustraciones en 104 colecciones temáticas, el Modo de Edición Manual permite seleccionar imágenes y personalizar los nombres mostrados, y el modo Lista de Palabras Personalizada permite escribir hasta 8 palabras directamente para puzzles solo de texto. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y la misma imagen produce una palabra objetivo diferente con letras diferentes y una disposición completamente distinta. Una imagen de perro genera «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés. Un diseño se convierte en 11 productos únicos. Configura de 1 a 10 puzzles por página, alterna entre mayúsculas y minúsculas, añade numeración de ejercicios y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación automática de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
+    description: 'Convierte la práctica de vocabulario en un puzzle de ortografía que los usuarios resuelven reordenando fichas de letras mezcladas. Esta herramienta genera fichas de letras revueltas donde una imagen aparece junto a un conjunto de fichas desordenadas — los usuarios observan la imagen, identifican lo que representa y colocan las letras en el orden correcto. A diferencia de los ejercicios de completar huecos, las letras revueltas proporcionan TODAS las letras pero en el orden incorrecto, convirtiendo la actividad en un desafío de reordenación que fortalece la precisión ortográfica mediante manipulación activa. La característica estrella es el código de colores vocales-consonantes: actívalo para mostrar las vocales en un color y las consonantes en otro, añadiendo una dimensión visual de fonética que ayuda a los usuarios a identificar tipos de letras mientras descifran. Cuatro niveles de dificultad controlan cuántas letras aparecen pre-colocadas en sus posiciones correctas: Sin Pistas desordena todas las letras para máximo desafío, Fácil pre-coloca la mitad para principiantes, Normal coloca un cuarto para práctica equilibrada y Difícil coloca solo un sexto para usuarios avanzados. Elige entre tres fuentes de contenido: el modo Biblioteca de Imágenes usa más de 3.100 ilustraciones en 104 colecciones temáticas, el Modo de Edición Manual permite seleccionar imágenes y personalizar los nombres mostrados, y el modo Lista de Palabras Personalizada permite escribir hasta 8 palabras directamente para puzzles solo de texto. La sensibilidad lingüística está integrada: cambia del español a cualquiera de los 11 idiomas compatibles y la misma imagen produce una palabra objetivo diferente con letras diferentes y una disposición completamente distinta. Una imagen de perro genera \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés. Un diseño se convierte en 11 productos únicos. Configura de 1 a 10 puzzles por página, alterna entre mayúsculas y minúsculas, añade numeración de ejercicios y elige entre 7 familias tipográficas. Exporta como PDF listo para imprimir o JPEG de alta resolución con generación automática de clave de respuestas. La prueba gratuita incluye una marca de agua en las descargas. Compra una licencia para eliminar la marca de agua y vender con uso comercial.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Letras Revueltas',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear puzzles de letras revueltas inmediatamente.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. Sin crear cuenta, sin descargar software, sin instalación — empieza a crear puzzles de letras revueltas inmediatamente.',
       },
       {
         title: 'Configurar el Diseño de Página y la Plantilla',
-        description: 'En la sección «Configuración de Página», selecciona el tamaño de página: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha desde el selector de plantillas. Define el color de la página, añade un fondo temático con opacidad ajustable de la biblioteca de 104 temas y selecciona un marco decorativo de bordes.',
+        description: 'En la sección \"Configuración de Página\", selecciona el tamaño de página: Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha desde el selector de plantillas. Define el color de la página, añade un fondo temático con opacidad ajustable de la biblioteca de 104 temas y selecciona un marco decorativo de bordes.',
       },
       {
         title: 'Elegir la Fuente de Contenido',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generar Clave de Respuestas y Descargar',
-        description: 'Haz clic en «Generar» para crear tu ficha de letras revueltas. Activa el interruptor de Escala de Grises para producir fichas en blanco y negro con ahorro de tinta, ideales para interiores KDP. Cambia a la pestaña Clave de Respuestas y genera una versión resuelta que muestra la palabra correctamente descifrada para cada puzzle. Descarga tanto la ficha como la clave de respuestas como PDF listo para imprimir o JPEG de alta resolución a más de 300 PPP.',
+        description: 'Haz clic en \"Generar\" para crear tu ficha de letras revueltas. Activa el interruptor de Escala de Grises para producir fichas en blanco y negro con ahorro de tinta, ideales para interiores KDP. Cambia a la pestaña Clave de Respuestas y genera una versión resuelta que muestra la palabra correctamente descifrada para cada puzzle. Descarga tanto la ficha como la clave de respuestas como PDF listo para imprimir o JPEG de alta resolución a más de 300 PPP.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Packs de Puzzles de Reordenación de Letras Temáticos',
-      description: 'Crea conjuntos de 10 a 15 fichas de letras revueltas usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de naturaleza, festividades, deportes y más. Cada puzzle presenta una imagen junto a fichas de letras mezcladas que los usuarios reordenan para formar la ortografía correcta. Activa el código de colores en la mitad del conjunto para una variante «edición fonética» que resalta los patrones vocales-consonantes. Agrupa por tema y vende en Etsy o Gumroad. El formato de fichas mezcladas con imágenes coloridas hace que las miniaturas de tu listing destaquen instantáneamente frente a fichas de ortografía simples.',
+      description: 'Crea conjuntos de 10 a 15 fichas de letras revueltas usando colecciones temáticas de imágenes — animales, comida, vehículos, escenas de naturaleza, festividades, deportes y más. Cada puzzle presenta una imagen junto a fichas de letras mezcladas que los usuarios reordenan para formar la ortografía correcta. Activa el código de colores en la mitad del conjunto para una variante \"edición fonética\" que resalta los patrones vocales-consonantes. Agrupa por tema y vende en Etsy o Gumroad. El formato de fichas mezcladas con imágenes coloridas hace que las miniaturas de tu listing destaquen instantáneamente frente a fichas de ortografía simples.',
     },
     {
       title: 'Cuadernos de Letras Revueltas para KDP',
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos de Puzzles Fonéticos con Código de Colores',
-      description: 'Aprovecha la función de código de colores vocales-consonantes para crear puzzles de ortografía enfocados en fonética que ningún otro generador puede producir. Las fichas con código de colores muestran las vocales en un color y las consonantes en otro, añadiendo una capa de aprendizaje visual que las letras revueltas simples no ofrecen. Crea versiones separadas «Edición con Código de Colores» y «Edición Clásica en Negro» de cada tema para duplicar tu catálogo de productos con mínimo trabajo adicional.',
+      description: 'Aprovecha la función de código de colores vocales-consonantes para crear puzzles de ortografía enfocados en fonética que ningún otro generador puede producir. Las fichas con código de colores muestran las vocales en un color y las consonantes en otro, añadiendo una capa de aprendizaje visual que las letras revueltas simples no ofrecen. Crea versiones separadas \"Edición con Código de Colores\" y \"Edición Clásica en Negro\" de cada tema para duplicar tu catálogo de productos con mínimo trabajo adicional.',
     },
     {
       title: 'Productos de Ortografía Multilingües',
-      description: 'Cambia el ajuste de idioma y regenera el mismo diseño de ficha en los 11 idiomas compatibles. La misma imagen de perro produce «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés — cada uno con letras diferentes, cantidades de letras diferentes y disposiciones completamente distintas. Una sesión de diseño produce 11 productos distintos, cada uno listo para publicar en su marketplace local.',
+      description: 'Cambia el ajuste de idioma y regenera el mismo diseño de ficha en los 11 idiomas compatibles. La misma imagen de perro produce \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés — cada uno con letras diferentes, cantidades de letras diferentes y disposiciones completamente distintas. Una sesión de diseño produce 11 productos distintos, cada uno listo para publicar en su marketplace local.',
     },
     {
       title: 'Fichas de Vocabulario Personalizado con Letras Revueltas',
@@ -125,15 +125,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa el Código de Colores para Diferenciación Fonética',
-      description: 'Activa el código de colores vocales-consonantes para mostrar las vocales en un color y las consonantes en otro. Esta ayuda visual fonética es exclusiva de Letras Revueltas y ayuda a los usuarios a identificar tipos de letras mientras descifran. Crea una «Edición con Código de Colores» junto a una «Edición Clásica» de cada tema para duplicar tu gama de productos.',
+      description: 'Activa el código de colores vocales-consonantes para mostrar las vocales en un color y las consonantes en otro. Esta ayuda visual fonética es exclusiva de Letras Revueltas y ayuda a los usuarios a identificar tipos de letras mientras descifran. Crea una \"Edición con Código de Colores\" junto a una \"Edición Clásica\" de cada tema para duplicar tu gama de productos.',
     },
     {
       title: 'Usa Sin Pistas para Evaluaciones de Ortografía',
-      description: 'El modo Sin Pistas desordena todas las letras sin posiciones pre-colocadas, creando una evaluación genuina de ortografía a partir de una imagen. Los usuarios deben recordar la ortografía completa y reordenar todas las fichas de forma independiente. Úsalo para exámenes, secciones de desafío final en cuadernos o productos premium «edición experto».',
+      description: 'El modo Sin Pistas desordena todas las letras sin posiciones pre-colocadas, creando una evaluación genuina de ortografía a partir de una imagen. Los usuarios deben recordar la ortografía completa y reordenar todas las fichas de forma independiente. Úsalo para exámenes, secciones de desafío final en cuadernos o productos premium \"edición experto\".',
     },
     {
       title: 'Hazlo Multilingüe para 11 Veces Más Productos',
-      description: 'Cada ficha de letras revueltas que diseñes puede convertirse en 11 productos cambiando el idioma. La misma imagen de gato produce «GATO», «CAT», «KATZE», «CHAT», «GATTO» y más — cada uno con diferente cantidad de letras, diferentes fichas y diferentes disposiciones. Los puzzles de ortografía en idiomas específicos son un nicho dramáticamente desatendido fuera del inglés.',
+      description: 'Cada ficha de letras revueltas que diseñes puede convertirse en 11 productos cambiando el idioma. La misma imagen de gato produce \"GATO\", \"CAT\", \"KATZE\", \"CHAT\", \"GATTO\" y más — cada uno con diferente cantidad de letras, diferentes fichas y diferentes disposiciones. Los puzzles de ortografía en idiomas específicos son un nicho dramáticamente desatendido fuera del inglés.',
     },
     {
       title: 'Usa el Modo de Edición Manual para Vocabulario Personalizado',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Mezcla Niveles de Dificultad en los Packs',
-      description: 'Crea packs de fichas que progresen de Fácil a Sin Pistas dentro del mismo tema. Un pack «Puzzles de Ortografía de Animales de Granja» con 5 páginas Fáciles, 5 Normal, 5 Difícil y 5 Sin Pistas proporciona a los vendedores un conjunto diferenciado listo para usar. Incluye claves de respuestas para cada nivel. Los packs progresivos tienen precios premium en Gumroad y Etsy.',
+      description: 'Crea packs de fichas que progresen de Fácil a Sin Pistas dentro del mismo tema. Un pack \"Puzzles de Ortografía de Animales de Granja\" con 5 páginas Fáciles, 5 Normal, 5 Difícil y 5 Sin Pistas proporciona a los vendedores un conjunto diferenciado listo para usar. Incluye claves de respuestas para cada nivel. Los packs progresivos tienen precios premium en Gumroad y Etsy.',
     },
     {
       title: 'Combina con Adivinar Palabras para Packs Completos',
-      description: 'Letras Revueltas (reordenación de letras) y Adivinar Palabras (completar huecos) ejercitan habilidades cognitivas diferentes con vocabulario similar. Agrupa ambos formatos en un pack «Práctica Completa de Ortografía» donde los usuarios primero reordenan fichas y luego completan letras faltantes. Los packs multiformato se venden por más que los de formato único y proporcionan práctica ortográfica más completa.',
+      description: 'Letras Revueltas (reordenación de letras) y Adivinar Palabras (completar huecos) ejercitan habilidades cognitivas diferentes con vocabulario similar. Agrupa ambos formatos en un pack \"Práctica Completa de Ortografía\" donde los usuarios primero reordenan fichas y luego completan letras faltantes. Los packs multiformato se venden por más que los de formato único y proporcionan práctica ortográfica más completa.',
     },
   ],
 
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: '¿Cómo funciona la sensibilidad lingüística?',
-      answer: 'Al cambiar de idioma, la misma imagen produce una palabra objetivo diferente con letras distintas y una disposición completamente nueva. Una imagen de perro genera «PERRO» en español, «DOG» en inglés, «HUND» en alemán, «CHIEN» en francés. La herramienta admite 11 idiomas: español, inglés, alemán, francés, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés.',
+      answer: 'Al cambiar de idioma, la misma imagen produce una palabra objetivo diferente con letras distintas y una disposición completamente nueva. Una imagen de perro genera \"PERRO\" en español, \"DOG\" en inglés, \"HUND\" en alemán, \"CHIEN\" en francés. La herramienta admite 11 idiomas: español, inglés, alemán, francés, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés.',
     },
     {
       question: '¿Puedo subir mis propias imágenes?',
-      answer: 'Sí. Haz clic en el botón «Subir Imagen» para usar tus propios archivos PNG o JPEG como pistas visuales. Puedes escribir un nombre personalizado para cada imagen subida para controlar la palabra que se mezclará. Las imágenes personalizadas te permiten crear fichas exclusivas con tus propias ilustraciones que ningún otro vendedor puede replicar.',
+      answer: 'Sí. Haz clic en el botón \"Subir Imagen\" para usar tus propios archivos PNG o JPEG como pistas visuales. Puedes escribir un nombre personalizado para cada imagen subida para controlar la palabra que se mezclará. Las imágenes personalizadas te permiten crear fichas exclusivas con tus propias ilustraciones que ningún otro vendedor puede replicar.',
     },
     {
       question: '¿La herramienta genera claves de respuestas?',

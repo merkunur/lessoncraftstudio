@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Bilder-Additions-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Bilder-Additions-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Die Symbolanzahl festlegen',
-        description: 'Im Panel „Übungskonfiguration“ verwenden Sie das Dropdown-Menü für die Symbolanzahl, um festzulegen, wie viele Bildsymbole in Ihrem Code erscheinen. Weniger Symbole (2–3) sind leichter für Anfänger; mehr Symbole (4–5) erzeugen eine anspruchsvollere Logik-Herausforderung. Im Regulären Modus verbirgt jedes Symbol eine einzigartige geheime Zahl.',
+        description: 'Im Panel \"Übungskonfiguration\" verwenden Sie das Dropdown-Menü für die Symbolanzahl, um festzulegen, wie viele Bildsymbole in Ihrem Code erscheinen. Weniger Symbole (2–3) sind leichter für Anfänger; mehr Symbole (4–5) erzeugen eine anspruchsvollere Logik-Herausforderung. Im Regulären Modus verbirgt jedes Symbol eine einzigartige geheime Zahl.',
       },
       {
         title: 'Summanden pro Gleichung wählen',
@@ -44,19 +44,19 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Bilder aus der Themenbibliothek auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Jedes Bild wird zum Code-Symbol in Ihrem Rätsel. Nutzen Sie die Suchleiste, um bestimmte Themen sofort zu finden, oder klicken Sie auf einzelne Bilder, um genau die gewünschten Symbole auszuwählen.',
+        description: 'Öffnen Sie das Panel \"Bildbibliothek\" und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Jedes Bild wird zum Code-Symbol in Ihrem Rätsel. Nutzen Sie die Suchleiste, um bestimmte Themen sofort zu finden, oder klicken Sie auf einzelne Bilder, um genau die gewünschten Symbole auszuwählen.',
       },
       {
         title: 'Das Seitenlayout anpassen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße (Letter, A4, Quadrat oder benutzerdefinierte Abmessungen), legen die Hintergrundfarbe fest, fügen ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen einen dekorativen Rahmen aus der Rahmenbibliothek. Das Quadratformat eignet sich hervorragend für Amazon-KDP-Aktivitätsbücher.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße (Letter, A4, Quadrat oder benutzerdefinierte Abmessungen), legen die Hintergrundfarbe fest, fügen ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen einen dekorativen Rahmen aus der Rahmenbibliothek. Das Quadratformat eignet sich hervorragend für Amazon-KDP-Aktivitätsbücher.',
       },
       {
         title: 'Text und Branding hinzufügen',
-        description: 'Verwenden Sie das Panel „Textwerkzeuge“, um einen Titel wie „Knack den Code!“ oder „Geheimzahl-Herausforderung“ hinzuzufügen. Fügen Sie ein Namensfeld für Nutzer, Anweisungen oder Ihr Shop-Branding ein. Wählen Sie aus ansprechenden Schriftarten (Fredoka, Baloo 2, Quicksand, Nunito) und passen Sie Größe, Farbe und Textkontur an.',
+        description: 'Verwenden Sie das Panel \"Textwerkzeuge\", um einen Titel wie \"Knack den Code!\" oder \"Geheimzahl-Herausforderung\" hinzuzufügen. Fügen Sie ein Namensfeld für Nutzer, Anweisungen oder Ihr Shop-Branding ein. Wählen Sie aus ansprechenden Schriftarten (Fredoka, Baloo 2, Quicksand, Nunito) und passen Sie Größe, Farbe und Textkontur an.',
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Rätsel zu erstellen. Die Vorschau aktualisiert sich sofort auf der Arbeitsfläche. Laden Sie als JPEG für Produkt-Mockups oder als PDF für druckfertige Lieferungen herunter. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter, der alle geheimen Zahlen auf den Bildern einblendet (oder im Wort-Entschlüsselungs-Modus das entschlüsselte Wort zeigt).',
+        description: 'Klicken Sie auf \"Generieren\", um Ihr Rätsel zu erstellen. Die Vorschau aktualisiert sich sofort auf der Arbeitsfläche. Laden Sie als JPEG für Produkt-Mockups oder als PDF für druckfertige Lieferungen herunter. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter, der alle geheimen Zahlen auf den Bildern einblendet (oder im Wort-Entschlüsselungs-Modus das entschlüsselte Wort zeigt).',
       },
     ],
   },
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Rätselbuch-Serie auf Amazon KDP',
-      description: 'Veröffentlichen Sie eine Serie von Kryptarithmetik-Rätselbüchern auf KDP: „Code-Knacker Mathe: Tiere-Edition“, „Code-Knacker Mathe: Weltraum-Edition“ usw. Jedes Buch enthält 80–100 Rätsel mit progressiver Schwierigkeit. Setzen Sie den Preis bei 7,99–9,99 € an und lassen Sie Amazon den Druck und Versand übernehmen. Rätselbücher erzielen auf KDP starke Margen.',
+      description: 'Veröffentlichen Sie eine Serie von Kryptarithmetik-Rätselbüchern auf KDP: \"Code-Knacker Mathe: Tiere-Edition\", \"Code-Knacker Mathe: Weltraum-Edition\" usw. Jedes Buch enthält 80–100 Rätsel mit progressiver Schwierigkeit. Setzen Sie den Preis bei 7,99–9,99 € an und lassen Sie Amazon den Druck und Versand übernehmen. Rätselbücher erzielen auf KDP starke Margen.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Digitales Produktkatalog-Paket auf Gumroad',
-      description: 'Erstellen Sie ein strukturiertes 8-Wochen-Programm „Code-Knacker Mathe“ mit wöchentlichen Rätsel-Sets. Woche 1 beginnt mit 2 Symbolen, Woche 8 endet mit Mischungs-Summanden und Wort-Entschlüsselungs-Herausforderungen. Verkaufen Sie als Premium-Download (12–15 €) auf Gumroad. Homeschool-Familien zahlen gerne für vollständige, strukturierte Lernprogramme.',
+      description: 'Erstellen Sie ein strukturiertes 8-Wochen-Programm \"Code-Knacker Mathe\" mit wöchentlichen Rätsel-Sets. Woche 1 beginnt mit 2 Symbolen, Woche 8 endet mit Mischungs-Summanden und Wort-Entschlüsselungs-Herausforderungen. Verkaufen Sie als Premium-Download (12–15 €) auf Gumroad. Homeschool-Familien zahlen gerne für vollständige, strukturierte Lernprogramme.',
       platform: 'Gumroad',
     },
     {

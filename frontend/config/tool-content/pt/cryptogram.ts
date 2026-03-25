@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Gerador de Criptogramas com Imagens',
     tagline: 'Crie puzzles de cifra onde cada letra do alfabeto se associa a uma imagem e os usuários decifram frases secretas completas através do reconhecimento de padrões',
-    description: 'Desenhe fichas profissionais de criptogramas baseadas numa cifra por imagens: cada letra do alfabeto se associa a uma imagem única, e a sua frase secreta é apresentada como uma sequência de imagens que os usuários devem decifrar para converter em texto legível. Ao contrário das caça-palavras ou das palavras embaralhadas que trabalham com palavras individuais, o gerador de criptogramas codifica frases e orações completas — os usuários decifram o código deduzindo qual imagem representa cada letra, usando pistas contextuais de palavras comuns como «o», «e», «é» para acelerar a decifração. O controlo Letras a Revelar (0–10) é o ajuste principal de dificuldade: defina zero para um desafio puro de decifração sem informação inicial, ou suba até dez para orientação progressiva intensa onde muitas correspondências letra-imagem já estão resolvidas como pistas. A Atribuição Automática extrai imagens aleatórias de qualquer uma das 104 coleções temáticas (mais de 3100 ilustrações) para preencher toda a cifra com um único clique, enquanto a Atribuição Manual permite escolher manualmente qual imagem específica representa cada letra específica com uma pré-visualização visual completa de todas as correspondências. Carregue imagens próprias para controlo criativo total. O gabarito inclui uma legenda de letras que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética — a referência definitiva para a solução. A sensibilidade linguística está integrada: mude de idioma e tanto o texto da mensagem secreta como o alfabeto mudam. Os criptogramas em alemão codificam frases alemãs com ä, ö, ü, ß no alfabeto; os criptogramas em francês usam é, è, ç, à; os criptogramas em português incluem ã, õ, ç, â, á, é, í, ó, ú. Cada versão linguística é um produto de cifra genuinamente diferente. Exporte PDFs e imagens JPEG prontos para impressão a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Escolha entre 5 fontes, ative a escala de cinzentos para economia de tinta e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Desenhe fichas profissionais de criptogramas baseadas numa cifra por imagens: cada letra do alfabeto se associa a uma imagem única, e a sua frase secreta é apresentada como uma sequência de imagens que os usuários devem decifrar para converter em texto legível. Ao contrário das caça-palavras ou das palavras embaralhadas que trabalham com palavras individuais, o gerador de criptogramas codifica frases e orações completas — os usuários decifram o código deduzindo qual imagem representa cada letra, usando pistas contextuais de palavras comuns como \"o\", \"e\", \"é\" para acelerar a decifração. O controlo Letras a Revelar (0–10) é o ajuste principal de dificuldade: defina zero para um desafio puro de decifração sem informação inicial, ou suba até dez para orientação progressiva intensa onde muitas correspondências letra-imagem já estão resolvidas como pistas. A Atribuição Automática extrai imagens aleatórias de qualquer uma das 104 coleções temáticas (mais de 3100 ilustrações) para preencher toda a cifra com um único clique, enquanto a Atribuição Manual permite escolher manualmente qual imagem específica representa cada letra específica com uma pré-visualização visual completa de todas as correspondências. Carregue imagens próprias para controlo criativo total. O gabarito inclui uma legenda de letras que mostra cada letra do alfabeto emparelhada com a sua imagem atribuída em ordem alfabética — a referência definitiva para a solução. A sensibilidade linguística está integrada: mude de idioma e tanto o texto da mensagem secreta como o alfabeto mudam. Os criptogramas em alemão codificam frases alemãs com ä, ö, ü, ß no alfabeto; os criptogramas em francês usam é, è, ç, à; os criptogramas em português incluem ã, õ, ç, â, á, é, í, ó, ú. Cada versão linguística é um produto de cifra genuinamente diferente. Exporte PDFs e imagens JPEG prontos para impressão a mais de 400 DPI nos formatos Carta, A4 ou dimensões personalizadas. Escolha entre 5 fontes, ative a escala de cinzentos para economia de tinta e use o canvas completo Fabric.js para reposicionar cada elemento. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Criptogramas',
-        description: 'Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar puzzles de cifra por imagens imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar puzzles de cifra por imagens imediatamente.',
       },
       {
         title: 'Configurar o Layout da Página e o Modelo',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacotes de Cifra Sazonais e Festivos',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de criptogramas de edição limitada. Um pacote de «Mensagens Secretas de Halloween» com imagens de cifra temáticas vende-se muito bem em outubro. Natal, regresso às aulas, São Valentim e temas de verão têm as suas próprias janelas de vendas pico na Etsy e Gumroad. Combine puzzles com orientação de 6 a 8 revelações para usuários mais novos com puzzles de especialista de zero revelações para mais velhos num único pacote sazonal para maximizar a sua audiência de compradores.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de criptogramas de edição limitada. Um pacote de \"Mensagens Secretas de Halloween\" com imagens de cifra temáticas vende-se muito bem em outubro. Natal, regresso às aulas, São Valentim e temas de verão têm as suas próprias janelas de vendas pico na Etsy e Gumroad. Combine puzzles com orientação de 6 a 8 revelações para usuários mais novos com puzzles de especialista de zero revelações para mais velhos num único pacote sazonal para maximizar a sua audiência de compradores.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Livros de Cifra Temáticos na Amazon KDP',
-      description: 'Compile mais de 80 puzzles de criptogramas com imagens num livro temático para Amazon KDP. Estruture uma série em torno de temas populares: «Mensagens Secretas de Animais», «Puzzles de Cifra de Cozinha», «Aventuras de Decifração na Natureza». Cada livro usa dificuldade progressiva de Letras a Revelar desde muita orientação até zero pistas com legendas de letras no final. Os livros de puzzles de criptogramas são um nicho dramaticamente pouco explorado na KDP em comparação com caça-palavras e palavras cruzadas, dando-lhe vantagem de primeiro a chegar na categoria.',
+      description: 'Compile mais de 80 puzzles de criptogramas com imagens num livro temático para Amazon KDP. Estruture uma série em torno de temas populares: \"Mensagens Secretas de Animais\", \"Puzzles de Cifra de Cozinha\", \"Aventuras de Decifração na Natureza\". Cada livro usa dificuldade progressiva de Letras a Revelar desde muita orientação até zero pistas com legendas de letras no final. Os livros de puzzles de criptogramas são um nicho dramaticamente pouco explorado na KDP em comparação com caça-palavras e palavras cruzadas, dando-lhe vantagem de primeiro a chegar na categoria.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros de Decifração no Gumroad',
-      description: 'Carregue pacotes de fichas de criptogramas na Gumroad organizados por tema e nível de dificuldade. Inclua quatro níveis de dificuldade por tema usando Letras a Revelar como eixo de diferenciação. Acompanhe com legendas de letras e folhas de acompanhamento do progresso do usuário. A mecânica da cifra é intrinsecamente motivadora — os usuários experimentam uma verdadeira emoção de decifração quando cada letra descodificada desbloqueia mais da mensagem secreta. Os vendedores procuram «atividades de decifração de códigos» e «fichas de cifra» e encontram muito poucas opções de qualidade.',
+      description: 'Carregue pacotes de fichas de criptogramas na Gumroad organizados por tema e nível de dificuldade. Inclua quatro níveis de dificuldade por tema usando Letras a Revelar como eixo de diferenciação. Acompanhe com legendas de letras e folhas de acompanhamento do progresso do usuário. A mecânica da cifra é intrinsecamente motivadora — os usuários experimentam uma verdadeira emoção de decifração quando cada letra descodificada desbloqueia mais da mensagem secreta. Os vendedores procuram \"atividades de decifração de códigos\" e \"fichas de cifra\" e encontram muito poucas opções de qualidade.',
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Codifique Frases Completas para Orientação com Pistas Contextuais',
-      description: 'O gerador de criptogramas codifica frases completas, não palavras individuais. As orações mais longas fornecem naturalmente mais pistas contextuais — palavras curtas comuns como «o», «e», «é» ajudam os usuários a decifrar o código mais rapidamente. Use frases curtas de duas palavras para máxima dificuldade e orações longas com palavras comuns para um puzzle mais acessível. O comprimento da frase é uma alavanca de dificuldade adicional sobre Letras a Revelar.',
+      description: 'O gerador de criptogramas codifica frases completas, não palavras individuais. As orações mais longas fornecem naturalmente mais pistas contextuais — palavras curtas comuns como \"o\", \"e\", \"é\" ajudam os usuários a decifrar o código mais rapidamente. Use frases curtas de duas palavras para máxima dificuldade e orações longas com palavras comuns para um puzzle mais acessível. O comprimento da frase é uma alavanca de dificuldade adicional sobre Letras a Revelar.',
     },
     {
       title: 'Use a Atribuição Automática para Produção Rápida em Lote',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Alterne entre Cor e Preto e Branco para Duplicar Produtos',
-      description: 'Cada coleção temática está disponível em variantes a cores e em preto e branco. Crie uma «Edição a Cores» para downloads digitais e listings vibrantes da Etsy, depois regenere o mesmo design em preto e branco para impressão económica online e interiores de livros KDP. Duas variantes de produto a partir de uma sessão de design sem trabalho adicional de conteúdo.',
+      description: 'Cada coleção temática está disponível em variantes a cores e em preto e branco. Crie uma \"Edição a Cores\" para downloads digitais e listings vibrantes da Etsy, depois regenere o mesmo design em preto e branco para impressão económica online e interiores de livros KDP. Duas variantes de produto a partir de uma sessão de design sem trabalho adicional de conteúdo.',
     },
     {
       title: 'Multiplique por 11 o Seu Catálogo com o Modo Multilingue',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Podem-se codificar frases completas, não apenas palavras isoladas?',
-      answer: 'Sim. O gerador de criptogramas codifica frases e orações completas. Os usuários descodificam uma mensagem completa e legível, o que fornece pistas contextuais naturais — palavras curtas comuns como «o» e «e» ajudam os usuários a decifrar o código mais rapidamente. A codificação ao nível de frase torna os puzzles mais satisfatórios e mais educativos do que os desafios de palavras individuais.',
+      answer: 'Sim. O gerador de criptogramas codifica frases e orações completas. Os usuários descodificam uma mensagem completa e legível, o que fornece pistas contextuais naturais — palavras curtas comuns como \"o\" e \"e\" ajudam os usuários a decifrar o código mais rapidamente. A codificação ao nível de frase torna os puzzles mais satisfatórios e mais educativos do que os desafios de palavras individuais.',
     },
     {
       question: 'Em que se diferencia o criptograma do caça-palavras, das palavras embaralhadas e de adivinhar palavras?',

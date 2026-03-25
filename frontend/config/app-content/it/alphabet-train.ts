@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Il generatore crea automaticamente i fogli delle risposte?',
       answer:
-        'Sì. Clicca il pulsante Genera Foglio Risposte per creare una versione risolta che mostra ogni vagone con il suo abbinamento lettera-immagine corretto e tutti gli indizi risolti. Puoi visualizzarlo in anteprima sullo schermo e scaricarlo come file JPEG o PDF separato da includere nelle edizioni per venditori o nei pacchetti di prodotti. Avere un foglio delle risposte pronto aggiunge valore percepito alle tue inserzioni e ti permette di indicare «risposte incluse» — un dettaglio che gli acquirenti di Etsy e Gumroad filtrano specificamente quando confrontano i prodotti concorrenti.',
+        'Sì. Clicca il pulsante Genera Foglio Risposte per creare una versione risolta che mostra ogni vagone con il suo abbinamento lettera-immagine corretto e tutti gli indizi risolti. Puoi visualizzarlo in anteprima sullo schermo e scaricarlo come file JPEG o PDF separato da includere nelle edizioni per venditori o nei pacchetti di prodotti. Avere un foglio delle risposte pronto aggiunge valore percepito alle tue inserzioni e ti permette di indicare \"risposte incluse\" — un dettaglio che gli acquirenti di Etsy e Gumroad filtrano specificamente quando confrontano i prodotti concorrenti.',
     },
     {
       question: 'Esiste una prova gratuita?',

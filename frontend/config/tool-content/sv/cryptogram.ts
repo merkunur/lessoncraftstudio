@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Kryptogram Arbetsblad Generator',
     tagline: 'Skapa bildchiffer pussel där varje bokstav mappas till en bild och användarna avkodar hela hemliga fraser genom mönsterigenkänning',
-    description: 'Designa professionella kryptogram arbetsblad byggda på en bildchiffermekanik: varje alfabetsbokstav mappas till en unik bild, och din hemliga fras renderas som en sekvens av bilder som användarna måste avkoda tillbaka till läsbar text. Till skillnad från ordsökningar eller ordmixar som arbetar med enskilda ord kodar Kryptogram-generatorn hela meningar och fraser — användarna knäcker chiffret genom att deducera vilken bild som representerar vilken bokstav, med kontextuella ledtrådar från vanliga ord som «och», «den» och «är» för att påskynda sin kodknäckning. Reglaget Bokstäver att Avslöja (0–10) är den primära svårighetskontrollen: ställ in det på noll för en ren kodknäckningsutmaning utan startinformation, eller skjut upp det till tio för tung stöttning där många bokstav-till-bild-mappningar är förlösta som tips. Autotilldelning hämtar slumpmässiga bilder från valfri av 104 tematiska samlingar (mer än 3 100 illustrationer) för att fylla hela chiffret med ett klick, medan Manuell Tilldelning låter dig handplocka specifika bilder för specifika bokstäver med en fullständig visuell förhandsgranskning av alla mappningar. Ladda upp anpassade bilder för komplett kreativ kontroll. Facit inkluderar en bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning — den definitiva lösningsreferensen. Språkkänslighet är inbyggd: byt språk och både den hemliga meddelandetexten och alfabetet ändras. Svenska kryptogram kodar svenska fraser med å, ä, ö i alfabetet; tyska kryptogram inkluderar ä, ö, ü, ß; franska kryptogram använder é, è, ç, à. Varje språkversion är en genuint annorlunda chifferprodukt. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 5 typsnitt, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Designa professionella kryptogram arbetsblad byggda på en bildchiffermekanik: varje alfabetsbokstav mappas till en unik bild, och din hemliga fras renderas som en sekvens av bilder som användarna måste avkoda tillbaka till läsbar text. Till skillnad från ordsökningar eller ordmixar som arbetar med enskilda ord kodar Kryptogram-generatorn hela meningar och fraser — användarna knäcker chiffret genom att deducera vilken bild som representerar vilken bokstav, med kontextuella ledtrådar från vanliga ord som \"och\", \"den\" och \"är\" för att påskynda sin kodknäckning. Reglaget Bokstäver att Avslöja (0–10) är den primära svårighetskontrollen: ställ in det på noll för en ren kodknäckningsutmaning utan startinformation, eller skjut upp det till tio för tung stöttning där många bokstav-till-bild-mappningar är förlösta som tips. Autotilldelning hämtar slumpmässiga bilder från valfri av 104 tematiska samlingar (mer än 3 100 illustrationer) för att fylla hela chiffret med ett klick, medan Manuell Tilldelning låter dig handplocka specifika bilder för specifika bokstäver med en fullständig visuell förhandsgranskning av alla mappningar. Ladda upp anpassade bilder för komplett kreativ kontroll. Facit inkluderar en bokstavslegend som visar varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning — den definitiva lösningsreferensen. Språkkänslighet är inbyggd: byt språk och både den hemliga meddelandetexten och alfabetet ändras. Svenska kryptogram kodar svenska fraser med å, ä, ö i alfabetet; tyska kryptogram inkluderar ä, ö, ü, ß; franska kryptogram använder é, è, ç, à. Varje språkversion är en genuint annorlunda chifferprodukt. Exportera tryckfärdiga PDF:er och JPEG-bilder med 400+ DPI i Letter, A4 eller anpassade storlekar. Välj bland 5 typsnitt, växla gråskala för bläckvänlig utmatning, och använd hela Fabric.js arbetsytan för att flytta varje element. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Kryptogram Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga bildchiffer pussel omedelbart.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga bildchiffer pussel omedelbart.',
       },
       {
         title: 'Ställ in sidlayout och mall',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade och högtidschiffer-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade kryptogrampaket. Ett «Halloween Hemliga Meddelanden»-paket med kusligt tematiserade chifferbilder säljer starkt i oktober. Jul, skolstart, alla hjärtans dag och sommar-teman har alla sina egna toppförsäljningsfönster. Kombinera stöttade pussel vid 6–8 avslöjanden för yngre användare med nollavslöjande expertpussel för äldre barn i ett enda säsongspaket.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade kryptogrampaket. Ett \"Halloween Hemliga Meddelanden\"-paket med kusligt tematiserade chifferbilder säljer starkt i oktober. Jul, skolstart, alla hjärtans dag och sommar-teman har alla sina egna toppförsäljningsfönster. Kombinera stöttade pussel vid 6–8 avslöjanden för yngre användare med nollavslöjande expertpussel för äldre barn i ett enda säsongspaket.',
     },
   ],
 
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP tematisk chifferboksserie',
-      description: 'Sammanställ 80+ bildkryptogrampussel till en tematisk pusselbok för Amazon KDP. Strukturera en serie kring populära teman: «Djur Hemliga Meddelanden», «Mat och Kök Chifferpussel», «Natur Kodknäckningsäventyr». Varje bok använder progressiv Bokstäver att Avslöja-svårighet från tungt stöttad till noll tips med bokstavslegend facit i slutet. Kryptogram pusselböcker är en dramatiskt underbetjänad nisch på KDP.',
+      description: 'Sammanställ 80+ bildkryptogrampussel till en tematisk pusselbok för Amazon KDP. Strukturera en serie kring populära teman: \"Djur Hemliga Meddelanden\", \"Mat och Kök Chifferpussel\", \"Natur Kodknäckningsäventyr\". Varje bok använder progressiv Bokstäver att Avslöja-svårighet från tungt stöttad till noll tips med bokstavslegend facit i slutet. Kryptogram pusselböcker är en dramatiskt underbetjänad nisch på KDP.',
       platform: 'Amazon KDP',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Koda hela meningar för kontextuell ledtrådsstöttning',
-      description: 'Kryptogram-generatorn kodar hela fraser, inte enskilda ord. Längre meningar ger naturligt fler kontextuella ledtrådar — vanliga korta ord som «och», «den» och «är» hjälper lösare knäcka chiffret snabbare. Använd korta tvåordsfraserför maximal svårighet och långa meningar med vanliga ord för ett mer tillgängligt pussel. Fraslängd är en ytterligare svårighetshävstång utöver Bokstäver att Avslöja.',
+      description: 'Kryptogram-generatorn kodar hela fraser, inte enskilda ord. Längre meningar ger naturligt fler kontextuella ledtrådar — vanliga korta ord som \"och\", \"den\" och \"är\" hjälper lösare knäcka chiffret snabbare. Använd korta tvåordsfraserför maximal svårighet och långa meningar med vanliga ord för ett mer tillgängligt pussel. Fraslängd är en ytterligare svårighetshävstång utöver Bokstäver att Avslöja.',
     },
     {
       title: 'Använd Autotilldelning för snabb batchproduktion',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Växla mellan färg och svartvitt för dubbla produkter',
-      description: 'Varje temasamling finns tillgänglig i fullfärg och svartvitt-varianter. Skapa en «Färgutgåva» för digitala nedladdningar och livfulla Etsy-annonser, regenerera sedan samma design i svartvitt för bläckvänlig volymutskrift och KDP-pusselboks interiörer. Två produktvarianter från en designsession utan extra innehållsarbete.',
+      description: 'Varje temasamling finns tillgänglig i fullfärg och svartvitt-varianter. Skapa en \"Färgutgåva\" för digitala nedladdningar och livfulla Etsy-annonser, regenerera sedan samma design i svartvitt för bläckvänlig volymutskrift och KDP-pusselboks interiörer. Två produktvarianter från en designsession utan extra innehållsarbete.',
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag koda hela meningar, inte bara enskilda ord?',
-      answer: 'Ja. Kryptogram-generatorn kodar hela fraser och meningar. användarna avkodar ett komplett läsbart meddelande, vilket ger naturliga kontextuella ledtrådar — vanliga korta ord som «och» och «den» hjälper lösare knäcka chiffret snabbare. Frasnivå-kodning gör pussel mer tillfredsställande och mer lärorika än enordsutmaningar.',
+      answer: 'Ja. Kryptogram-generatorn kodar hela fraser och meningar. användarna avkodar ett komplett läsbart meddelande, vilket ger naturliga kontextuella ledtrådar — vanliga korta ord som \"och\" och \"den\" hjälper lösare knäcka chiffret snabbare. Frasnivå-kodning gör pussel mer tillfredsställande och mer lärorika än enordsutmaningar.',
     },
     {
       question: 'Hur skiljer sig kryptogram från ordsökning, ordmix och gissa ordet?',

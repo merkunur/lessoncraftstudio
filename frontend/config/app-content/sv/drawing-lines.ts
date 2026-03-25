@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Ställ in sidlayouten',
         description:
-          'Öppna panelen Sidinställningar och välj ett format: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad storlek. Välj en sidfärg, välj ett dekorativt bakgrundstema från bildbiblioteket och justera genomskinligheten, och lägg till en matchande dekorativ ram med oberoende genomskinlighetskontroll. Den automatiskt genererade rubriken visar en livfull grön banner med titeln «Linjespårningsövning» och undertexten «Rita linjer för att koppla samman de matchande bilderna!» — båda lokaliserade på 11 språk.',
+          'Öppna panelen Sidinställningar och välj ett format: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat (1200×1200) eller valfri anpassad storlek. Välj en sidfärg, välj ett dekorativt bakgrundstema från bildbiblioteket och justera genomskinligheten, och lägg till en matchande dekorativ ram med oberoende genomskinlighetskontroll. Den automatiskt genererade rubriken visar en livfull grön banner med titeln \"Linjespårningsövning\" och undertexten \"Rita linjer för att koppla samman de matchande bilderna!\" — båda lokaliserade på 11 språk.',
       },
       {
         title: 'Välj en linjemall',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Automatiskt genererad lokaliserad rubrik med livfulla sidramar',
         description:
-          'Varje arbetsblad inkluderar en automatiskt genererad rubrik med en livfull grön bakgrund och djupt skogsgrön titel. Standardtiteln «Linjespårningsövning» och undertexten «Rita linjer för att koppla samman de matchande bilderna!» lokaliseras på alla 11 språk. Stående format visar en fullbredd rubrik; liggande format använder ett kompakt centrerat format. En korallröd yttre ram och solguld inre ram ramar in varje sida med rundade hörn. Rubrikelement kan redigeras fritt — välj, flytta och ändra storlek för att matcha ditt varumärke.',
+          'Varje arbetsblad inkluderar en automatiskt genererad rubrik med en livfull grön bakgrund och djupt skogsgrön titel. Standardtiteln \"Linjespårningsövning\" och undertexten \"Rita linjer för att koppla samman de matchande bilderna!\" lokaliseras på alla 11 språk. Stående format visar en fullbredd rubrik; liggande format använder ett kompakt centrerat format. En korallröd yttre ram och solguld inre ram ramar in varje sida med rundade hörn. Rubrikelement kan redigeras fritt — välj, flytta och ändra storlek för att matcha ditt varumärke.',
       },
       {
         title: 'Tryckfärdig PDF- och JPEG-export med 300 DPI',

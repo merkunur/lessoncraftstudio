@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Ajouter du texte, des aides pour la vente et des dessins à main levée',
         description:
-          'Utilisez le panneau Outils Texte pour ajouter des titres, des consignes ou des étiquettes avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et la largeur du contour de texte (0 à 10 avec une granularité de 0,5) pour une lisibilité maximale. Cliquez sur les Aides pour la vente pour ajouter un champ nom d\'utilisateur (« Nom : ____ ») ou des lignes de pratique d\'écriture en un seul clic. Passez à l\'Outil de Dessin pour dessiner des illustrations à main levée directement sur le canevas — choisissez une couleur de pinceau et réglez la taille du pinceau de 1 à 50 pixels.',
+          'Utilisez le panneau Outils Texte pour ajouter des titres, des consignes ou des étiquettes avec des polices incluant Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial et Verdana. Ajustez la taille de police, la couleur et la largeur du contour de texte (0 à 10 avec une granularité de 0,5) pour une lisibilité maximale. Cliquez sur les Aides pour la vente pour ajouter un champ nom d\'utilisateur (\" Nom : ____ \") ou des lignes de pratique d\'écriture en un seul clic. Passez à l\'Outil de Dessin pour dessiner des illustrations à main levée directement sur le canevas — choisissez une couleur de pinceau et réglez la taille du pinceau de 1 à 50 pixels.',
       },
       {
         title: 'Activer les niveaux de gris et télécharger',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Aides pour la vente : champ nom et lignes d\'écriture',
         description:
-          'Deux aides pour la vente en un clic transforment les pages de coloriage en activités prêtes pour la vente. Le bouton Champ Nom ajoute un bloc de texte formaté « Nom : ____________________ » positionné en haut de la page — les utilisateurs écrivent leur nom avant de commencer. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Ensemble, ces aides rendent vos fiches de coloriage prêtes pour la vente sans mise en forme manuelle du texte. Les vendeurs Gumroad peuvent mettre en avant ces fonctionnalités comme différenciation intégrée par rapport aux pages de coloriage génériques.',
+          'Deux aides pour la vente en un clic transforment les pages de coloriage en activités prêtes pour la vente. Le bouton Champ Nom ajoute un bloc de texte formaté \" Nom : ____________________ \" positionné en haut de la page — les utilisateurs écrivent leur nom avant de commencer. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Ensemble, ces aides rendent vos fiches de coloriage prêtes pour la vente sans mise en forme manuelle du texte. Les vendeurs Gumroad peuvent mettre en avant ces fonctionnalités comme différenciation intégrée par rapport aux pages de coloriage génériques.',
       },
       {
         title: 'Export en niveaux de gris pour des pages de coloriage économiques en encre',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Que sont les aides pour la vente et comment les utiliser ?',
       answer:
-        'Deux boutons en un clic dans le panneau Aides pour la vente. Le bouton Champ Nom ajoute un bloc de texte formaté « Nom : ____________________ » près du haut de la page. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Les deux aides créent des objets de canevas standard que vous pouvez repositionner, redimensionner ou supprimer comme n\'importe quel autre élément.',
+        'Deux boutons en un clic dans le panneau Aides pour la vente. Le bouton Champ Nom ajoute un bloc de texte formaté \" Nom : ____________________ \" près du haut de la page. Le bouton Lignes d\'Écriture ajoute un groupe de trois lignes régulièrement espacées (pleine, pointillée, pleine) près du bas de la page pour la pratique de l\'écriture. Les deux aides créent des objets de canevas standard que vous pouvez repositionner, redimensionner ou supprimer comme n\'importe quel autre élément.',
     },
     {
       question: 'Comment fonctionne l\'option d\'export en niveaux de gris ?',

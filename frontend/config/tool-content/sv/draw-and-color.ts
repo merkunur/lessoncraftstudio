@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Rita och Färglägg Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Ställ in sidlayout och bakgrund',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP rutnätsritning arbetsboksserie',
-      description: 'Sammanställ 80+ rutnätsritningsövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression: «Nybörjar Rutnätsritning» täcker 3×3 till 5×5 rutnät vid 50–75% ledtrådar. «Mellannivå Rutnätsritning» avancerar till 6×6 och 7×7 rutnät vid 25–50% ledtrådar. «Avancerad Rutnätsritning» presenterar 8×8 till 10×10 rutnät vid 10–25% ledtrådar. Svartvita konturbilderna skrivs ut perfekt i standard svartvitt.',
+      description: 'Sammanställ 80+ rutnätsritningsövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression: \"Nybörjar Rutnätsritning\" täcker 3×3 till 5×5 rutnät vid 50–75% ledtrådar. \"Mellannivå Rutnätsritning\" avancerar till 6×6 och 7×7 rutnät vid 25–50% ledtrådar. \"Avancerad Rutnätsritning\" presenterar 8×8 till 10×10 rutnät vid 10–25% ledtrådar. Svartvita konturbilderna skrivs ut perfekt i standard svartvitt.',
       platform: 'Amazon KDP',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Framhäv dubbelrutnätet som premiumformat',
-      description: 'Övningsrutnät plus ledtrådsrutnät-layouten är kärndifferentiatorn från enkla målarsidor. Beskriv uttryckligen dubbelrutnätssystemet i varje produktannons: «Två kompanjonrutnät per bild — ett tomt övningsrutnät för ritning och ett ledtrådsrutnät som visar partiella referenstips.»',
+      description: 'Övningsrutnät plus ledtrådsrutnät-layouten är kärndifferentiatorn från enkla målarsidor. Beskriv uttryckligen dubbelrutnätssystemet i varje produktannons: \"Två kompanjonrutnät per bild — ett tomt övningsrutnät för ritning och ett ledtrådsrutnät som visar partiella referenstips.\"',
     },
     {
       title: 'Skapa progressiva arbetsböcker med ledtrådsprocentkapitel',

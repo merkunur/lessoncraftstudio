@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches Deviner les Mots',
     tagline: 'Créez des fiches d\'orthographe par images avec 4 niveaux d\'indices dans 11 langues',
-    description: 'Transformez la pratique du vocabulaire en un puzzle visuel que les utilisateurs adorent résoudre. Cet outil génère des fiches deviner les mots où un indice image est associé à une grille de lettres contenant des cases vides — les utilisateurs étudient l\'image et remplissent les lettres manquantes pour épeler le mot qu\'elle représente. La fonctionnalité phare est un système progressif à 4 niveaux d\'indices : Sans Indices ne révèle aucune lettre pour un rappel pur, Facile révèle la moitié des lettres pour un étayage adapté aux débutants, Normal révèle un quart pour un défi équilibré, et Difficile révèle seulement un sixième pour les orthographeurs confirmés. Choisissez entre deux modes de saisie : le mode Indice Image tire le vocabulaire de plus de 3 100 images réparties dans 104 collections thématiques avec génération automatique de la grille de lettres, ou le mode Liste de Mots Personnalisée vous permet de taper n\'importe quels mots directement pour une pratique de vocabulaire ciblée sans images. La fonctionnalité Exclure des Lettres retire des lettres spécifiques des grilles — excluez les voyelles pour des exercices axés sur la phonétique ou excluez les lettres courantes pour un défi accru. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit une orthographe correcte différente. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol. Un seul design de fiche devient 11 produits linguistiques uniques avec des réponses véritablement différentes. Définissez la casse en majuscules ou minuscules, activez la numérotation des exercices, ajoutez des superpositions de texte personnalisées et choisissez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération optionnelle de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Transformez la pratique du vocabulaire en un puzzle visuel que les utilisateurs adorent résoudre. Cet outil génère des fiches deviner les mots où un indice image est associé à une grille de lettres contenant des cases vides — les utilisateurs étudient l\'image et remplissent les lettres manquantes pour épeler le mot qu\'elle représente. La fonctionnalité phare est un système progressif à 4 niveaux d\'indices : Sans Indices ne révèle aucune lettre pour un rappel pur, Facile révèle la moitié des lettres pour un étayage adapté aux débutants, Normal révèle un quart pour un défi équilibré, et Difficile révèle seulement un sixième pour les orthographeurs confirmés. Choisissez entre deux modes de saisie : le mode Indice Image tire le vocabulaire de plus de 3 100 images réparties dans 104 collections thématiques avec génération automatique de la grille de lettres, ou le mode Liste de Mots Personnalisée vous permet de taper n\'importe quels mots directement pour une pratique de vocabulaire ciblée sans images. La fonctionnalité Exclure des Lettres retire des lettres spécifiques des grilles — excluez les voyelles pour des exercices axés sur la phonétique ou excluez les lettres courantes pour un défi accru. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et la même image produit une orthographe correcte différente. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol. Un seul design de fiche devient 11 produits linguistiques uniques avec des réponses véritablement différentes. Définissez la casse en majuscules ou minuscules, activez la numérotation des exercices, ajoutez des superpositions de texte personnalisées et choisissez parmi 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution avec génération optionnelle de corrigé. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches Deviner les Mots',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
       },
       {
         title: 'Définir la Mise en Page et le Modèle',
-        description: 'Dans la section « Mise en Page », sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif.',
+        description: 'Dans la section \" Mise en Page \", sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif.',
       },
       {
         title: 'Choisir Votre Mode de Saisie',
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Sélectionner les Images et le Thème',
-        description: 'Si vous utilisez le mode Indice Image, ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la Sélection Manuelle pour choisir des images spécifiques ou sélectionnez Tous les Thèmes pour laisser l\'outil choisir automatiquement. Chaque image génère automatiquement sa grille de lettres correspondante dans la langue sélectionnée. Téléchargez vos propres PNG ou JPEG pour des fiches de marque.',
+        description: 'Si vous utilisez le mode Indice Image, ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la Sélection Manuelle pour choisir des images spécifiques ou sélectionnez Tous les Thèmes pour laisser l\'outil choisir automatiquement. Chaque image génère automatiquement sa grille de lettres correspondante dans la langue sélectionnée. Téléchargez vos propres PNG ou JPEG pour des fiches de marque.',
       },
       {
         title: 'Configurer Exclure des Lettres, la Casse et la Numérotation',
-        description: 'Utilisez la fonctionnalité Exclure des Lettres pour retirer des lettres spécifiques des grilles — par exemple, excluez toutes les voyelles pour que les utilisateurs doivent les fournir, créant un exercice axé sur la phonétique. Définissez la casse des lettres en majuscules ou minuscules. Activez ou désactivez la numérotation des exercices. Ajoutez une superposition de texte personnalisée avec des consignes comme « Remplissez les lettres manquantes ! » pour guider clairement les utilisateurs.',
+        description: 'Utilisez la fonctionnalité Exclure des Lettres pour retirer des lettres spécifiques des grilles — par exemple, excluez toutes les voyelles pour que les utilisateurs doivent les fournir, créant un exercice axé sur la phonétique. Définissez la casse des lettres en majuscules ou minuscules. Activez ou désactivez la numérotation des exercices. Ajoutez une superposition de texte personnalisée avec des consignes comme \" Remplissez les lettres manquantes ! \" pour guider clairement les utilisateurs.',
       },
       {
         title: 'Personnaliser les Polices, le Texte et le Canevas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre fiche deviner les mots. L\'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant l\'orthographe correcte pour chaque exercice. Pour les pages en paysage avec 5 exercices ou plus, l\'outil bascule automatiquement vers une mise en page intelligente à deux colonnes.',
+        description: 'Cliquez sur \" Générer \" pour créer votre fiche deviner les mots. L\'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant l\'orthographe correcte pour chaque exercice. Pour les pages en paysage avec 5 exercices ou plus, l\'outil bascule automatiquement vers une mise en page intelligente à deux colonnes.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Produits d\'Orthographe Multilingues',
-      description: 'Changez le paramètre de langue et régénérez le même design de fiche dans les 11 langues prises en charge. La même image de chien produit « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol — chacun avec des grilles de lettres et des réponses correctes véritablement différentes. Une seule session de création produit 11 produits distincts, chacun prêt à être listé sur sa marketplace locale.',
+      description: 'Changez le paramètre de langue et régénérez le même design de fiche dans les 11 langues prises en charge. La même image de chien produit \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol — chacun avec des grilles de lettres et des réponses correctes véritablement différentes. Une seule session de création produit 11 produits distincts, chacun prêt à être listé sur sa marketplace locale.',
     },
     {
       title: 'Fiches de Vocabulaire avec Liste de Mots Personnalisée',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Saisonniers de Devinettes Orthographiques',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Deviner les Mots de Noël » avec du vocabulaire festif — RENNE, FLOCON, CADEAU — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Le format puzzle visuel rend les produits saisonniers frais et engageants.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack \" Deviner les Mots de Noël \" avec du vocabulaire festif — RENNE, FLOCON, CADEAU — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad. Le format puzzle visuel rend les produits saisonniers frais et engageants.',
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Différenciés pour Gumroad',
-      description: 'Téléchargez des packs de fiches deviner les mots sur Gumroad organisés par thème et niveau de difficulté. Incluez les quatre niveaux d\'indices pour chaque thème, plus les corrigés pour chaque page. Les vendeurs recherchent fréquemment « fiches d\'orthographe » et « activités de construction de mots ». La différenciation à 4 niveaux signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs valorisent hautement dans leurs avis.',
+      description: 'Téléchargez des packs de fiches deviner les mots sur Gumroad organisés par thème et niveau de difficulté. Incluez les quatre niveaux d\'indices pour chaque thème, plus les corrigés pour chaque page. Les vendeurs recherchent fréquemment \" fiches d\'orthographe \" et \" activités de construction de mots \". La différenciation à 4 niveaux signifie qu\'un seul produit sert une classe entière de niveaux mixtes, ce que les vendeurs valorisent hautement dans leurs avis.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Vocabulaire Bimodaux sur Etsy',
-      description: 'Exploitez les deux modes de saisie pour créer des packs de vocabulaire complets. Utilisez le mode Indice Image pour la construction de vocabulaire visuel et le mode Liste de Mots Personnalisée pour les mots d\'orthographe alignés au programme. Regroupez les deux dans un seul produit : « Kit Complet de Pratique d\'Orthographe — Visuel + Écrit ». L\'approche bimodale justifie un prix premium et sert à la fois les apprenants visuels et traditionnels.',
+      description: 'Exploitez les deux modes de saisie pour créer des packs de vocabulaire complets. Utilisez le mode Indice Image pour la construction de vocabulaire visuel et le mode Liste de Mots Personnalisée pour les mots d\'orthographe alignés au programme. Regroupez les deux dans un seul produit : \" Kit Complet de Pratique d\'Orthographe — Visuel + Écrit \". L\'approche bimodale justifie un prix premium et sert à la fois les apprenants visuels et traditionnels.',
       platform: 'Etsy.fr',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utilisez Sans Indices pour les Orthographeurs Avancés',
-      description: 'Le mode Sans Indices laisse la grille de lettres entièrement vide — les utilisateurs doivent retrouver l\'orthographe complète à partir de l\'image seule. C\'est une véritable évaluation d\'orthographe, pas de la reconnaissance. Utilisez-le pour les utilisateurs plus âgés, les contrôles d\'orthographe ou la section finale « défi » d\'un cahier progressif.',
+      description: 'Le mode Sans Indices laisse la grille de lettres entièrement vide — les utilisateurs doivent retrouver l\'orthographe complète à partir de l\'image seule. C\'est une véritable évaluation d\'orthographe, pas de la reconnaissance. Utilisez-le pour les utilisateurs plus âgés, les contrôles d\'orthographe ou la section finale \" défi \" d\'un cahier progressif.',
     },
     {
       title: 'Utilisez le Mode Facile pour les Jeunes Débutants',
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
-      description: 'Chaque fiche deviner les mots que vous créez peut devenir 11 produits en changeant la langue. La même image de chat produit « CHAT », « CAT », « KATZE », « GATO », « GATTO » et plus — chacun avec des grilles de lettres et des réponses correctes différentes. Les fiches d\'orthographe spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
+      description: 'Chaque fiche deviner les mots que vous créez peut devenir 11 produits en changeant la langue. La même image de chat produit \" CHAT \", \" CAT \", \" KATZE \", \" GATO \", \" GATTO \" et plus — chacun avec des grilles de lettres et des réponses correctes différentes. Les fiches d\'orthographe spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
     },
     {
       title: 'Utilisez les Listes de Mots Personnalisées pour du Vocabulaire de Niche',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Associez avec d\'Autres Outils d\'Alphabétisation',
-      description: 'Combinez les fiches deviner les mots avec des mots mélangés, des mots cachés, des fiches d\'écriture et des fiches d\'association pour créer des packs d\'orthographe complets. Un « Kit Complet de Pratique d\'Orthographe » avec plusieurs types d\'activités se vend plus cher qu\'un seul format de fiche et offre aux utilisateurs une pratique variée avec le même vocabulaire. Réutiliser les mêmes images thématiques à travers différents types d\'activités maintient aussi la cohérence visuelle de votre marque, ce qui renforce la reconnaissance des acheteurs lorsqu\'ils parcourent votre boutique.',
+      description: 'Combinez les fiches deviner les mots avec des mots mélangés, des mots cachés, des fiches d\'écriture et des fiches d\'association pour créer des packs d\'orthographe complets. Un \" Kit Complet de Pratique d\'Orthographe \" avec plusieurs types d\'activités se vend plus cher qu\'un seul format de fiche et offre aux utilisateurs une pratique variée avec le même vocabulaire. Réutiliser les mêmes images thématiques à travers différents types d\'activités maintient aussi la cohérence visuelle de votre marque, ce qui renforce la reconnaissance des acheteurs lorsqu\'ils parcourent votre boutique.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Comment fonctionne la sensibilité linguistique ?',
-      answer: 'Lorsque vous changez de langue, la même image produit une orthographe correcte différente. Une image de chien génère « CHIEN » en français, « DOG » en anglais, « HUND » en allemand, « PERRO » en espagnol, « CANE » en italien et ainsi de suite pour les 11 langues prises en charge. La grille de lettres, les cases vides et le corrigé se mettent tous à jour pour correspondre à l\'orthographe de la nouvelle langue.',
+      answer: 'Lorsque vous changez de langue, la même image produit une orthographe correcte différente. Une image de chien génère \" CHIEN \" en français, \" DOG \" en anglais, \" HUND \" en allemand, \" PERRO \" en espagnol, \" CANE \" en italien et ainsi de suite pour les 11 langues prises en charge. La grille de lettres, les cases vides et le corrigé se mettent tous à jour pour correspondre à l\'orthographe de la nouvelle langue.',
     },
     {
       question: 'Quelles langues sont prises en charge ?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
-      answer: 'Oui. Cliquez sur le bouton « Télécharger une Image » pour utiliser vos propres fichiers PNG ou JPEG comme indices images. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations ou œuvres sous licence qu\'aucun autre vendeur ne peut reproduire. C\'est particulièrement précieux pour les vendeurs construisant une marque reconnaissable, car vos œuvres uniques rendent vos listings impossibles à dupliquer exactement par les concurrents.',
+      answer: 'Oui. Cliquez sur le bouton \" Télécharger une Image \" pour utiliser vos propres fichiers PNG ou JPEG comme indices images. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations ou œuvres sous licence qu\'aucun autre vendeur ne peut reproduire. C\'est particulièrement précieux pour les vendeurs construisant une marque reconnaissable, car vos œuvres uniques rendent vos listings impossibles à dupliquer exactement par les concurrents.',
     },
     {
       question: 'L\'outil génère-t-il des corrigés ?',

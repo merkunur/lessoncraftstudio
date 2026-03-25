@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisissez le Mode d\'Exercice et Configurez les Options',
         description:
-          'Ouvrez le panneau Configuration de l\'Exercice et sélectionnez votre mode : Trouve l\'Ombre ou Reconstitue l\'Image. Le mode Trouve l\'Ombre génère des silhouettes noires à partir de vos images sélectionnées par traitement au niveau des pixels. Le mode Reconstitue l\'Image divise les images en moitiés — choisissez la coupe horizontale (haut/bas) ou verticale (gauche/droite) à l\'aide des boutons radio qui apparaissent dans ce mode. Activez ou désactivez la case « Afficher les Étiquettes » (activée par défaut) pour afficher les identifiants A/B/C/D et 1/2/3/4 sur la fiche. Activez « Inclure les Champs Nom/Date » pour ajouter des lignes nom et date pour les utilisateurs.',
+          'Ouvrez le panneau Configuration de l\'Exercice et sélectionnez votre mode : Trouve l\'Ombre ou Reconstitue l\'Image. Le mode Trouve l\'Ombre génère des silhouettes noires à partir de vos images sélectionnées par traitement au niveau des pixels. Le mode Reconstitue l\'Image divise les images en moitiés — choisissez la coupe horizontale (haut/bas) ou verticale (gauche/droite) à l\'aide des boutons radio qui apparaissent dans ce mode. Activez ou désactivez la case \" Afficher les Étiquettes \" (activée par défaut) pour afficher les identifiants A/B/C/D et 1/2/3/4 sur la fiche. Activez \" Inclure les Champs Nom/Date \" pour ajouter des lignes nom et date pour les utilisateurs.',
       },
       {
         title: 'Sélectionnez 4 Images dans la Bibliothèque',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Générez la Fiche de Discrimination Visuelle',
         description:
-          'Cliquez sur Générer pour créer la fiche de correspondance. En mode Trouve l\'Ombre, l\'application traite chaque image au niveau des pixels — elle la charge sur un canevas, extrait les données de pixels via getImageData, et convertit chaque pixel avec un alpha > 10 en noir pur (R=0, G=0, B=0, A=255) pour produire des silhouettes fidèles. En mode Reconstitue l\'Image, les images sont divisées selon la direction de coupe choisie. Les deux modes appliquent un dérangement Fisher-Yates pour garantir qu\'aucun élément n\'apparaît à sa position d\'origine. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant « Trouve l\'Ombre » et les instructions dans la langue sélectionnée.',
+          'Cliquez sur Générer pour créer la fiche de correspondance. En mode Trouve l\'Ombre, l\'application traite chaque image au niveau des pixels — elle la charge sur un canevas, extrait les données de pixels via getImageData, et convertit chaque pixel avec un alpha > 10 en noir pur (R=0, G=0, B=0, A=255) pour produire des silhouettes fidèles. En mode Reconstitue l\'Image, les images sont divisées selon la direction de coupe choisie. Les deux modes appliquent un dérangement Fisher-Yates pour garantir qu\'aucun élément n\'apparaît à sa position d\'origine. Un en-tête stylisé apparaît avec un fond ambre (#FFC107), un conteneur pilule blanc et une bordure ambre de 3 px affichant \" Trouve l\'Ombre \" et les instructions dans la langue sélectionnée.',
       },
       {
         title: 'Générez le Corrigé et Téléchargez',
         description:
-          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré. En mode Trouve l\'Ombre, chaque cellule affiche l\'image originale à côté de sa silhouette avec une étiquette comme « A → 2 » indiquant la correspondance correcte. En mode Reconstitue l\'Image, chaque cellule affiche l\'image originale complète avec son étiquette de correspondance. Téléchargez les deux versions à l\'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers Gumroad.',
+          'Passez à l\'onglet Corrigé pour voir le corrigé auto-généré. En mode Trouve l\'Ombre, chaque cellule affiche l\'image originale à côté de sa silhouette avec une étiquette comme \" A → 2 \" indiquant la correspondance correcte. En mode Reconstitue l\'Image, chaque cellule affiche l\'image originale complète avec son étiquette de correspondance. Téléchargez les deux versions à l\'aide de quatre boutons dédiés : Fiche JPEG, Corrigé JPEG, Fiche PDF et Corrigé PDF à 300 DPI. Activez le mode niveaux de gris pour des versions économiques en encre. Chaque export est prêt pour la production pour les boutiques Etsy, les intérieurs Amazon KDP et les fichiers Gumroad.',
       },
     ],
   },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Corrigé Auto-Généré avec Étiquettes de Correspondance Lettre-Numéro',
         description:
-          'Chaque fiche de discrimination visuelle génère automatiquement un corrigé compagnon sur un onglet canevas séparé. Le corrigé utilise une disposition en grille où chaque cellule affiche l\'image originale à côté de sa silhouette ou de l\'image complète, étiquetée avec la correspondance correcte comme « A → 2 ». La grille utilise 4 colonnes avec un écart de 50 px avant la deuxième rangée et un espacement vertical de 15 px entre les éléments. Aucune création manuelle de corrigé nécessaire — le corrigé reste synchronisé avec la fiche. Téléchargez-le séparément en answer_key.jpeg ou answer_key.pdf aux côtés de la fiche utilisateur.',
+          'Chaque fiche de discrimination visuelle génère automatiquement un corrigé compagnon sur un onglet canevas séparé. Le corrigé utilise une disposition en grille où chaque cellule affiche l\'image originale à côté de sa silhouette ou de l\'image complète, étiquetée avec la correspondance correcte comme \" A → 2 \". La grille utilise 4 colonnes avec un écart de 50 px avant la deuxième rangée et un espacement vertical de 15 px entre les éléments. Aucune création manuelle de corrigé nécessaire — le corrigé reste synchronisé avec la fiche. Téléchargez-le séparément en answer_key.jpeg ou answer_key.pdf aux côtés de la fiche utilisateur.',
       },
       {
         title: 'Bibliothèque d\'Images avec 104 Collections Thématiques et Plus de 3 100 Illustrations',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Étiquettes Optionnelles et Champs Nom/Date pour utilisateurs',
         description:
-          'Activez ou désactivez la case « Afficher les Étiquettes » (activée par défaut) pour afficher les identifiants A, B, C, D sur les images ou premières moitiés et 1, 2, 3, 4 sur les silhouettes ou secondes moitiés. Quand les étiquettes sont masquées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — idéal pour les activités avancées ou les cahiers de puzzles où les réponses écrites ne sont pas nécessaires. La case « Inclure les Champs Nom/Date » ajoute des lignes nom et date en bas de page pour la responsabilité en ligne et l\'organisation.',
+          'Activez ou désactivez la case \" Afficher les Étiquettes \" (activée par défaut) pour afficher les identifiants A, B, C, D sur les images ou premières moitiés et 1, 2, 3, 4 sur les silhouettes ou secondes moitiés. Quand les étiquettes sont masquées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — idéal pour les activités avancées ou les cahiers de puzzles où les réponses écrites ne sont pas nécessaires. La case \" Inclure les Champs Nom/Date \" ajoute des lignes nom et date en bas de page pour la responsabilité en ligne et l\'organisation.',
       },
       {
         title: 'Export PDF et JPEG Prêts à Imprimer à 300 DPI avec Bascule Niveaux de Gris',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Peut-on activer ou désactiver les étiquettes A/B/C/D et 1/2/3/4 ?',
       answer:
-        'Oui. La case « Afficher les Étiquettes » dans le panneau Configuration de l\'Exercice (activée par défaut) contrôle si les étiquettes A, B, C, D apparaissent sur les images ou premières moitiés et si les étiquettes 1, 2, 3, 4 apparaissent sur les silhouettes ou secondes moitiés. Quand les étiquettes sont activées, les utilisateurs écrivent des paires lettre-numéro comme réponses. Quand les étiquettes sont désactivées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — utile pour les cahiers de puzzles ou les activités avancées.',
+        'Oui. La case \" Afficher les Étiquettes \" dans le panneau Configuration de l\'Exercice (activée par défaut) contrôle si les étiquettes A, B, C, D apparaissent sur les images ou premières moitiés et si les étiquettes 1, 2, 3, 4 apparaissent sur les silhouettes ou secondes moitiés. Quand les étiquettes sont activées, les utilisateurs écrivent des paires lettre-numéro comme réponses. Quand les étiquettes sont désactivées, la fiche devient un défi de correspondance purement visuel sans aide alphanumérique — utile pour les cahiers de puzzles ou les activités avancées.',
     },
     {
       question: 'Pourquoi y a-t-il toujours exactement 4 problèmes par fiche ?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Comment fonctionnent les champs nom et date ?',
       answer:
-        'Activez la case « Inclure les Champs Nom/Date » dans le panneau Configuration de l\'Exercice pour ajouter des lignes nom et date en bas de la fiche. Quand cette option est activée, les utilisateurs peuvent écrire leur nom et la date directement sur la page imprimée — essentiel pour la responsabilité en ligne et la notation organisée. Quand elle est désactivée, la fiche utilise toute la surface de la page pour le contenu de correspondance. Cette option fonctionne avec les deux modes Trouve l\'Ombre et Reconstitue l\'Image.',
+        'Activez la case \" Inclure les Champs Nom/Date \" dans le panneau Configuration de l\'Exercice pour ajouter des lignes nom et date en bas de la fiche. Quand cette option est activée, les utilisateurs peuvent écrire leur nom et la date directement sur la page imprimée — essentiel pour la responsabilité en ligne et la notation organisée. Quand elle est désactivée, la fiche utilise toute la surface de la page pour le contenu de correspondance. Cette option fonctionne avec les deux modes Trouve l\'Ombre et Reconstitue l\'Image.',
     },
     {
       question: 'Comment fonctionne le corrigé auto-généré ?',
       answer:
-        'Le générateur utilise un système à double canevas avec un onglet Fiche de Travail et un onglet Corrigé. En mode Trouve l\'Ombre, le corrigé affiche une grille où chaque cellule présente l\'image originale à côté de sa silhouette avec une étiquette comme « A → 2 ». En mode Reconstitue l\'Image, chaque cellule affiche l\'image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Les deux versions s\'exportent séparément via quatre boutons de téléchargement dédiés : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF.',
+        'Le générateur utilise un système à double canevas avec un onglet Fiche de Travail et un onglet Corrigé. En mode Trouve l\'Ombre, le corrigé affiche une grille où chaque cellule présente l\'image originale à côté de sa silhouette avec une étiquette comme \" A → 2 \". En mode Reconstitue l\'Image, chaque cellule affiche l\'image originale complète avec son étiquette de correspondance. La grille utilise 4 colonnes avec un espacement constant. Les deux versions s\'exportent séparément via quatre boutons de téléchargement dédiés : fiche JPEG, fiche PDF, corrigé JPEG et corrigé PDF.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',

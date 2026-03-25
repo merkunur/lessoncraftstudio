@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Mönster Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Ställ in sidlayout och bakgrund',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade och högtidsmönsterset',
-      description: 'Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade mönsterpaket. Ett «Halloween Mönster»-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla AB-uppvärmningar med avancerade ABCD-utmaningar i varje säsongsset. Två frågelägen multiplicerar variationen inom varje tema.',
+      description: 'Använd säsongsbetonade och högtidsbildteman för att skapa tidsbegränsade mönsterpaket. Ett \"Halloween Mönster\"-paket med kusligt tematiserade bilder säljer i oktober. Jul, skolstart, alla hjärtans dag och sommarteman har alla sina egna toppförsäljningsfönster. Kombinera enkla AB-uppvärmningar med avancerade ABCD-utmaningar i varje säsongsset. Två frågelägen multiplicerar variationen inom varje tema.',
     },
     {
       title: 'Korsformats visuella inlärningspaket',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP mönster arbetsboksserie',
-      description: 'Sammanställ 80+ mönsterövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression: «Nybörjarmönster» täcker AB genom ABB med tom-ruta läge. «Mellannivå Mönster» introducerar ABC och AABB med båda frågelägena. «Avancerade Mönster» presenterar ABBC genom ABCD med slumpmässig start och slumpmässig lucka. Facit i slutet av varje bok. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
+      description: 'Sammanställ 80+ mönsterövningar till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter progression: \"Nybörjarmönster\" täcker AB genom ABB med tom-ruta läge. \"Mellannivå Mönster\" introducerar ABC och AABB med båda frågelägena. \"Avancerade Mönster\" presenterar ABBC genom ABCD med slumpmässig start och slumpmässig lucka. Facit i slutet av varje bok. Det textfria visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
       platform: 'Amazon KDP',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differensitera rutnätsformat från tågformat',
-      description: 'Mönster Arbetsblad (rutnät) och Mönstertåg (tågvagnar) producerar helt olika visuella format för samma färdighet. Sälj båda formaten separat eller paketera dem som ett «Komplett Mönsterigenkänningspaket». I produktbeskrivningar, ange tydligt «rutnätsbaserade rader och kolumner» vs. «unik 11-vagns tåglayout» så köpare förstår att de får två distinkta aktivitetstyper.',
+      description: 'Mönster Arbetsblad (rutnät) och Mönstertåg (tågvagnar) producerar helt olika visuella format för samma färdighet. Sälj båda formaten separat eller paketera dem som ett \"Komplett Mönsterigenkänningspaket\". I produktbeskrivningar, ange tydligt \"rutnätsbaserade rader och kolumner\" vs. \"unik 11-vagns tåglayout\" så köpare förstår att de får två distinkta aktivitetstyper.',
     },
     {
       title: 'Aktivera Slumpmässig Start och Slumpmässig Lucka för unika blad',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Framhäv textfri utmatning för global säljbarhet',
-      description: 'Mönsterarbetsblad innehåller noll text på utmatningen — enbart bilder i rutnätsrader. Detta är din starkaste konkurrensfördel. Ange uttryckligen «ingen översättning behövs — fungerar globalt» i varje produktbeskrivning. En produktfil betjänar varje marknad.',
+      description: 'Mönsterarbetsblad innehåller noll text på utmatningen — enbart bilder i rutnätsrader. Detta är din starkaste konkurrensfördel. Ange uttryckligen \"ingen översättning behövs — fungerar globalt\" i varje produktbeskrivning. En produktfil betjänar varje marknad.',
     },
     {
       title: 'Matcha mönsterkomplexitet till målåldersgrupp',

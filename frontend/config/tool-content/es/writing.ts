@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Fichas de Escritura',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas crear cuenta, descargar software ni instalar nada — empieza a crear fichas de práctica de escritura de inmediato.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas crear cuenta, descargar software ni instalar nada — empieza a crear fichas de práctica de escritura de inmediato.',
       },
       {
         title: 'Configurar el Diseño de Página y la Plantilla',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Serie de Cuadernos de Caligrafía en Amazon KDP',
-      description: 'Publica una serie de cuadernos de escritura en Amazon KDP, cada uno dirigido a una etapa específica: «Trazos de Preescritura para Desarrollo de Motricidad Fina», «Letras en Imprenta con Orden de Trazos con Flechas», «Práctica de Trazo Progresivo», «Escritura Cursiva para Principiantes». Cada libro usa de 80 a 120 páginas con estructura de dificultad progresiva. Usa el modo escala de grises para costes de impresión más bajos. Los cuadernos de caligrafía se venden consistentemente todo el año y los tres modos de práctica más los cinco estilos de fuente te dan suficiente variedad para sostener una serie de varios libros sin contenido repetitivo.',
+      description: 'Publica una serie de cuadernos de escritura en Amazon KDP, cada uno dirigido a una etapa específica: \"Trazos de Preescritura para Desarrollo de Motricidad Fina\", \"Letras en Imprenta con Orden de Trazos con Flechas\", \"Práctica de Trazo Progresivo\", \"Escritura Cursiva para Principiantes\". Cada libro usa de 80 a 120 páginas con estructura de dificultad progresiva. Usa el modo escala de grises para costes de impresión más bajos. Los cuadernos de caligrafía se venden consistentemente todo el año y los tres modos de práctica más los cinco estilos de fuente te dan suficiente variedad para sostener una serie de varios libros sin contenido repetitivo.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Recursos para Centros de Escritura en Gumroad',
-      description: 'Sube packs de práctica de escritura diferenciados a Gumroad organizados por modo y nivel de dificultad. Incluye cuatro niveles por tema usando los tres modos de práctica más líneas vacías como eje de diferenciación. Empaqueta con integración de imágenes temáticas para mayor engagement. La independencia por fila te permite crear fichas de modos mixtos donde cada fila se dirige a un nivel de habilidad diferente — un argumento de venta genuino que los competidores con herramientas basadas en plantillas no pueden igualar. Los vendedores buscan «escritura diferenciada» y «centros de escritura» con frecuencia y pagan precios premium por recursos que sirven a múltiples grupos de nivel.',
+      description: 'Sube packs de práctica de escritura diferenciados a Gumroad organizados por modo y nivel de dificultad. Incluye cuatro niveles por tema usando los tres modos de práctica más líneas vacías como eje de diferenciación. Empaqueta con integración de imágenes temáticas para mayor engagement. La independencia por fila te permite crear fichas de modos mixtos donde cada fila se dirige a un nivel de habilidad diferente — un argumento de venta genuino que los competidores con herramientas basadas en plantillas no pueden igualar. Los vendedores buscan \"escritura diferenciada\" y \"centros de escritura\" con frecuencia y pagan precios premium por recursos que sirven a múltiples grupos de nivel.',
       platform: 'Gumroad',
     },
     {
       title: 'Tienda de Nicho en Motricidad Fina',
-      description: 'Crea una línea de productos enfocada en trazos de preescritura y desarrollo de escritura temprana. Líneas verticales, líneas horizontales, círculos y líneas en zigzag se dirigen a terapeutas ocupacionales, emprendedores de primera infancia y padres de preescolares. Esta es una audiencia de compradores distinta de la caligrafía de primaria — buscan «fichas de motricidad fina» y «actividades de preescritura» en lugar de «trazado de letras». Menor competencia y una base de compradores apasionada hacen este nicho rentable con menos productos.',
+      description: 'Crea una línea de productos enfocada en trazos de preescritura y desarrollo de escritura temprana. Líneas verticales, líneas horizontales, círculos y líneas en zigzag se dirigen a terapeutas ocupacionales, emprendedores de primera infancia y padres de preescolares. Esta es una audiencia de compradores distinta de la caligrafía de primaria — buscan \"fichas de motricidad fina\" y \"actividades de preescritura\" en lugar de \"trazado de letras\". Menor competencia y una base de compradores apasionada hacen este nicho rentable con menos productos.',
       platform: 'Etsy',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Comienza con Trazos de Preescritura para Usuarios Más Pequeños',
-      description: 'Coloca filas de trazos de preescritura (líneas verticales, líneas horizontales, círculos, zigzag) en la parte superior de las fichas dirigidas a preescolares y usuarios de infantil. Estos ejercicios de calentamiento desarrollan el agarre del lápiz y el control motor antes de que los usuarios intenten la formación de letras. Los trazos de preescritura también crean un nicho de producto diferenciado — comercialízalos por separado como recursos de «desarrollo de motricidad fina» para llegar a terapeutas ocupacionales y emprendedores de primera infancia.',
+      description: 'Coloca filas de trazos de preescritura (líneas verticales, líneas horizontales, círculos, zigzag) en la parte superior de las fichas dirigidas a preescolares y usuarios de infantil. Estos ejercicios de calentamiento desarrollan el agarre del lápiz y el control motor antes de que los usuarios intenten la formación de letras. Los trazos de preescritura también crean un nicho de producto diferenciado — comercialízalos por separado como recursos de \"desarrollo de motricidad fina\" para llegar a terapeutas ocupacionales y emprendedores de primera infancia.',
     },
     {
       title: 'Usa Escala de Grises para KDP e impresión en volumen',

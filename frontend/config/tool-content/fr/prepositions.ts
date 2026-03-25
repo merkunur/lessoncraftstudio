@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Générateur de Fiches de Prépositions',
     tagline: 'Créez des fiches de prépositions spatiales avec deux modes d\'exercice dans 11 langues',
-    description: 'Enseignez les mots de position à travers des exercices basés sur des images que les utilisateurs apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise « auf, unter, über, neben, zwischen, drinnen, draußen » ; l\'espagnol utilise « sobre, debajo, encima, al lado, entre, dentro, fuera ». Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
+    description: 'Enseignez les mots de position à travers des exercices basés sur des images que les utilisateurs apprécient réellement. Cet outil génère des fiches de prépositions où les apprenants identifient les relations spatiales — dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant — en utilisateur des scènes imagées et en complétant ou en sélectionnant la préposition correcte. Choisissez entre deux modes d\'exercice : le Texte à Trous, où les utilisateurs écrivent eux-mêmes la préposition correcte, ou le Choix Multiple, où ils choisissent parmi un ensemble d\'options avec une ligne d\'instruction personnalisable. Définissez de 1 à 8 exercices par fiche et sélectionnez exactement quelles prépositions inclure grâce à la liste de prépositions. La fonctionnalité phare de l\'outil est le Remplacement de Formes — une couche d\'image séparée vous permet de remplacer les formes des scènes indépendamment, créant bien plus de combinaisons visuelles qu\'un seul jeu d\'images ne pourrait offrir. La sensibilité linguistique est intégrée : passez du français à l\'une des 11 langues prises en charge et chaque mot de préposition se met à jour dans son équivalent natif. L\'allemand utilise \" auf, unter, über, neben, zwischen, drinnen, draußen \" ; l\'espagnol utilise \" sobre, debajo, encima, al lado, entre, dentro, fuera \". Un seul design de fiche devient 11 produits linguistiques uniques. Parcourez plus de 3 100 images réparties dans 104 thèmes, téléchargez vos propres PNG ou JPEG pour des designs de marque, et choisissez parmi plusieurs modèles et 7 familles de polices. Exportez en PDF prêt à imprimer ou en JPEG haute résolution. L\'essai gratuit inclut un filigrane sur les téléchargements. Achetez une licence pour supprimer le filigrane et vendre à usage commercial.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches de Prépositions',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis.',
       },
       {
         title: 'Définir la Mise en Page et le Modèle',
-        description: 'Dans la section « Mise en Page », sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles — chaque modèle dispose les exercices différemment sur la page. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif.',
+        description: 'Dans la section \" Mise en Page \", sélectionnez votre format de page : Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Choisissez un modèle de fiche dans le sélecteur de modèles — chaque modèle dispose les exercices différemment sur la page. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif.',
       },
       {
         title: 'Choisir Votre Mode d\'Exercice',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Sélectionner les Prépositions',
-        description: 'La liste de prépositions affiche tous les mots de position disponibles pour la langue sélectionnée. Cochez les prépositions que vous souhaitez inclure dans la fiche : dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant. Vous pouvez toutes les sélectionner ou vous concentrer sur un sous-ensemble pour une pratique ciblée. La liste se met à jour automatiquement lorsque vous changez de langue — l\'allemand affiche « auf, unter, über, neben, zwischen, drinnen, draußen » et ainsi de suite.',
+        description: 'La liste de prépositions affiche tous les mots de position disponibles pour la langue sélectionnée. Cochez les prépositions que vous souhaitez inclure dans la fiche : dans, sur, sous, à côté de, derrière, entre, au-dessus de, devant. Vous pouvez toutes les sélectionner ou vous concentrer sur un sous-ensemble pour une pratique ciblée. La liste se met à jour automatiquement lorsque vous changez de langue — l\'allemand affiche \" auf, unter, über, neben, zwischen, drinnen, draußen \" et ainsi de suite.',
       },
       {
         title: 'Sélectionner les Images et le Thème',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la Sélection Manuelle pour choisir des images spécifiques ou sélectionnez Tous les Thèmes pour laisser l\'outil choisir automatiquement. Chaque image apparaît dans un contexte de scène démontrant la relation spatiale sélectionnée. Téléchargez vos propres PNG ou JPEG pour des fiches de marque.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 3 100 images réparties dans 104 collections thématiques : animaux, nourriture, véhicules, nature, fêtes et bien plus. Utilisez la Sélection Manuelle pour choisir des images spécifiques ou sélectionnez Tous les Thèmes pour laisser l\'outil choisir automatiquement. Chaque image apparaît dans un contexte de scène démontrant la relation spatiale sélectionnée. Téléchargez vos propres PNG ou JPEG pour des fiches de marque.',
       },
       {
         title: 'Configurer le Remplacement de Formes',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre fiche de prépositions. L\'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant la préposition correcte pour chaque exercice.',
+        description: 'Cliquez sur \" Générer \" pour créer votre fiche de prépositions. L\'aperçu se met à jour sur le canevas. Activez le mode Niveaux de Gris pour un rendu noir et blanc économique en encre, idéal pour les intérieurs KDP. Téléchargez en PDF prêt à imprimer ou en JPEG haute résolution. Générez un corrigé assorti montrant la préposition correcte pour chaque exercice.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Produits de Prépositions Multilingues',
-      description: 'Changez le paramètre de langue et régénérez le même modèle de fiche dans les 11 langues prises en charge. Chaque mot de préposition se met à jour dans son équivalent natif — « sur » devient « auf » en allemand, « on » en anglais, « sobre » en espagnol. Une seule session de création produit 11 produits distincts, chacun prêt à être listé sur sa marketplace locale. Les fiches de prépositions spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
+      description: 'Changez le paramètre de langue et régénérez le même modèle de fiche dans les 11 langues prises en charge. Chaque mot de préposition se met à jour dans son équivalent natif — \" sur \" devient \" auf \" en allemand, \" on \" en anglais, \" sobre \" en espagnol. Une seule session de création produit 11 produits distincts, chacun prêt à être listé sur sa marketplace locale. Les fiches de prépositions spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
     },
     {
       title: 'Fiches Personnalisées avec Images de Marque',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Saisonniers de Prépositions',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Prépositions de Noël » avec des scènes festives — des cadeaux sous le sapin, des étoiles au-dessus de la maison, des bonbons dans la chaussette — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack \" Prépositions de Noël \" avec des scènes festives — des cadeaux sous le sapin, des étoiles au-dessus de la maison, des bonbons dans la chaussette — se vend particulièrement bien en novembre–décembre. La rentrée scolaire, Halloween et le printemps ont chacun leurs propres pics de ventes sur Etsy.fr et Gumroad.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Cahiers de Vocabulaire Spatial sur Amazon KDP',
-      description: 'Compilez plus de 60 pages de prépositions dans un cahier d\'activités physique pour Amazon KDP. Structurez les chapitres par préposition : exercices « dans » en premier, puis « sur », puis des prépositions mixtes pour la section défi. Incluez les deux modes d\'exercice pour varier la pratique. Utilisez le mode niveaux de gris pour réduire les coûts d\'impression. Publiez des éditions séparées pour chaque langue afin de multiplier votre catalogue avec des produits véritablement différents.',
+      description: 'Compilez plus de 60 pages de prépositions dans un cahier d\'activités physique pour Amazon KDP. Structurez les chapitres par préposition : exercices \" dans \" en premier, puis \" sur \", puis des prépositions mixtes pour la section défi. Incluez les deux modes d\'exercice pour varier la pratique. Utilisez le mode niveaux de gris pour réduire les coûts d\'impression. Publiez des éditions séparées pour chaque langue afin de multiplier votre catalogue avec des produits véritablement différents.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Packs de Grammaire Spatiale pour Gumroad',
-      description: 'Téléchargez des packs de fiches de prépositions sur Gumroad organisés par difficulté et mode d\'exercice. Incluez des ensembles Texte à Trous, des ensembles Choix Multiple et des packs mixtes avec des corrigés pour chaque page. Les vendeurs recherchent fréquemment « fiches prépositions » et « activités vocabulaire spatial ». Le format scènes imagées ajoute une valeur perçue car les utilisateurs s\'engagent avec un contexte visuel plutôt que des phrases de grammaire abstraites.',
+      description: 'Téléchargez des packs de fiches de prépositions sur Gumroad organisés par difficulté et mode d\'exercice. Incluez des ensembles Texte à Trous, des ensembles Choix Multiple et des packs mixtes avec des corrigés pour chaque page. Les vendeurs recherchent fréquemment \" fiches prépositions \" et \" activités vocabulaire spatial \". Le format scènes imagées ajoute une valeur perçue car les utilisateurs s\'engagent avec un contexte visuel plutôt que des phrases de grammaire abstraites.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Méga-Packs Remplacement de Formes sur Etsy',
-      description: 'Exploitez la fonctionnalité Remplacement de Formes pour créer des packs de variété massifs. Combinez 10 images principales avec 10 formes différentes pour produire 100 scènes d\'exercice uniques à partir de seulement 20 images source. Vendez-les comme « Méga-Pack 100 Pages de Prépositions » sur Etsy.fr — le volume impressionnant justifie un prix premium, et la variété visuelle maintient l\'engagement des utilisateurs à travers tout le cahier.',
+      description: 'Exploitez la fonctionnalité Remplacement de Formes pour créer des packs de variété massifs. Combinez 10 images principales avec 10 formes différentes pour produire 100 scènes d\'exercice uniques à partir de seulement 20 images source. Vendez-les comme \" Méga-Pack 100 Pages de Prépositions \" sur Etsy.fr — le volume impressionnant justifie un prix premium, et la variété visuelle maintient l\'engagement des utilisateurs à travers tout le cahier.',
       platform: 'Etsy.fr',
     },
   ],
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Passez au Multilingue pour 11x Votre Gamme de Produits',
-      description: 'Chaque fiche de prépositions que vous créez peut devenir 11 produits en changeant la langue. Les mots de préposition se mettent à jour automatiquement : « sur » devient « auf » (allemand), « on » (anglais), « sobre » (espagnol), « på » (suédois). Les fiches de prépositions spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
+      description: 'Chaque fiche de prépositions que vous créez peut devenir 11 produits en changeant la langue. Les mots de préposition se mettent à jour automatiquement : \" sur \" devient \" auf \" (allemand), \" on \" (anglais), \" sobre \" (espagnol), \" på \" (suédois). Les fiches de prépositions spécifiques à chaque langue sont une niche dramatiquement sous-exploitée en dehors de l\'anglais.',
     },
     {
       title: 'Combinez les Deux Modes dans un Seul Produit',
-      description: 'Regroupez les fiches Texte à Trous et Choix Multiple dans un seul pack. Les vendeurs adorent les packs différenciés qu\'ils peuvent distribuer aux utilisateurs de niveaux différents. Un « Pack Complet de Prépositions » avec les deux modes, les corrigés et un guide d\'utilisation commande un prix plus élevé que l\'un ou l\'autre mode vendu séparément. Les packs bimodaux réduisent aussi les demandes de remboursement car les acheteurs sentent qu\'ils obtiennent une couverture complète, et les corrigés inclus font gagner du temps de préparation aux vendeurs — un argument de vente à souligner dans vos descriptions.',
+      description: 'Regroupez les fiches Texte à Trous et Choix Multiple dans un seul pack. Les vendeurs adorent les packs différenciés qu\'ils peuvent distribuer aux utilisateurs de niveaux différents. Un \" Pack Complet de Prépositions \" avec les deux modes, les corrigés et un guide d\'utilisation commande un prix plus élevé que l\'un ou l\'autre mode vendu séparément. Les packs bimodaux réduisent aussi les demandes de remboursement car les acheteurs sentent qu\'ils obtiennent une couverture complète, et les corrigés inclus font gagner du temps de préparation aux vendeurs — un argument de vente à souligner dans vos descriptions.',
     },
     {
       title: 'Utilisez les Niveaux de Gris pour KDP et l\'Impression en Volume',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Associez avec d\'Autres Outils d\'Alphabétisation',
-      description: 'Combinez les fiches de prépositions avec des mots cachés, des fiches d\'écriture, des fiches d\'association et des activités alphabet pour créer des packs de langage complets. Un pack « Vocabulaire Spatial Complet » avec plusieurs types d\'activités se vend plus cher qu\'un seul format de fiche.',
+      description: 'Combinez les fiches de prépositions avec des mots cachés, des fiches d\'écriture, des fiches d\'association et des activités alphabet pour créer des packs de langage complets. Un pack \" Vocabulaire Spatial Complet \" avec plusieurs types d\'activités se vend plus cher qu\'un seul format de fiche.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Comment fonctionne la sensibilité linguistique ?',
-      answer: 'Lorsque vous changez de langue, chaque mot de préposition sur la fiche se met à jour dans son équivalent natif. Le français « dans, sur, sous » devient l\'allemand « auf, unter, über », l\'espagnol « sobre, debajo, encima » et ainsi de suite pour les 11 langues prises en charge. Le format d\'exercice reste identique — seuls les mots de position changent.',
+      answer: 'Lorsque vous changez de langue, chaque mot de préposition sur la fiche se met à jour dans son équivalent natif. Le français \" dans, sur, sous \" devient l\'allemand \" auf, unter, über \", l\'espagnol \" sobre, debajo, encima \" et ainsi de suite pour les 11 langues prises en charge. Le format d\'exercice reste identique — seuls les mots de position changent.',
     },
     {
       question: 'Quelles langues sont prises en charge ?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je télécharger mes propres images ?',
-      answer: 'Oui. Cliquez sur le bouton « Télécharger une Image » pour utiliser vos propres fichiers PNG ou JPEG pour les images principales et les formes de remplacement. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations ou œuvres sous licence qu\'aucun autre vendeur ne peut reproduire.',
+      answer: 'Oui. Cliquez sur le bouton \" Télécharger une Image \" pour utiliser vos propres fichiers PNG ou JPEG pour les images principales et les formes de remplacement. Les images personnalisées vous permettent de créer des fiches de marque avec vos propres illustrations ou œuvres sous licence qu\'aucun autre vendeur ne peut reproduire.',
     },
     {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',

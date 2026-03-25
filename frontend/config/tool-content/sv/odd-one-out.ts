@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Hitta Udda Bilden Skapare',
     tagline: 'Dubbelläges hitta udda bilden arbetsblad generator med Identiskt läge (3 kloner + 1 annorlunda) och Liknande läge (3 från Tema A + 1 från Tema B), per-övning lägesöverskridning, 5–10 konfigurerbara övningar, automatiskt genererade facit med röda cirkelmarkeringar och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella hitta udda bilden arbetsblad där användarna identifierar och ringar in bilden som inte hör hemma i varje rad av fyra bilder. Två distinkta lägen: Identiskt läge placerar tre kloner bredvid en annorlunda bild från samma tema — användarna hittar den som inte är dubblett. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användarna identifierar den tematiska avvikaren. Per-övning lägesöverskridning med dropdown på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. «Rensa Val»-knapp återställer alla överskridningar. Konfigurera 5–10 övningar (standard 6) med 4 bilder per övning — den uddas position blandas slumpmässigt. Layouten anpassas automatiskt med 2-kolumner för liggande sidor och stående med 7+ övningar. Tvåtemasystem för korsande kategoridiskrimineringspussel. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit ritar röda cirkelkonturer runt det udda objektet med dynamiskt skalad streckbredd (max(imageSize × 0,04, 3px)). En stiliserad rubrik med korall yttre ram (#FF6B6B), bärnstensfärgad inre ram (#FFB84D) och turkos bakgrund (#4ECDC4) visar «Hitta den som inte hör hemma» lokaliserad på alla 11 språk. INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella hitta udda bilden arbetsblad där användarna identifierar och ringar in bilden som inte hör hemma i varje rad av fyra bilder. Två distinkta lägen: Identiskt läge placerar tre kloner bredvid en annorlunda bild från samma tema — användarna hittar den som inte är dubblett. Liknande läge hämtar tre bilder från Tema A och en från Tema B — användarna identifierar den tematiska avvikaren. Per-övning lägesöverskridning med dropdown på varje rad — blanda Identiska och Liknande övningar på ett enda arbetsblad för progressiv svårighet. \"Rensa Val\"-knapp återställer alla överskridningar. Konfigurera 5–10 övningar (standard 6) med 4 bilder per övning — den uddas position blandas slumpmässigt. Layouten anpassas automatiskt med 2-kolumner för liggande sidor och stående med 7+ övningar. Tvåtemasystem för korsande kategoridiskrimineringspussel. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit ritar röda cirkelkonturer runt det udda objektet med dynamiskt skalad streckbredd (max(imageSize × 0,04, 3px)). En stiliserad rubrik med korall yttre ram (#FF6B6B), bärnstensfärgad inre ram (#FFB84D) och turkos bakgrund (#4ECDC4) visar \"Hitta den som inte hör hemma\" lokaliserad på alla 11 språk. INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Hitta Udda Bilden Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Välj ditt genereringsläge',
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ställ in övningsantal och per-övning överskridningar',
-        description: 'Ställ in övningsantalet 5–10 (standard 6). Varje övning innehåller alltid 4 bilder. För blandsvårighets arbetsblad, använd per-övning läges-dropdown på varje rad — börja med enkla Identiska övningar, övergå till svårare Liknande. «Rensa Val»-knappen återställer alla överskridningar. Växla namn/datum-fält och övningsnummer (25px bredd, 15px gap).',
+        description: 'Ställ in övningsantalet 5–10 (standard 6). Varje övning innehåller alltid 4 bilder. För blandsvårighets arbetsblad, använd per-övning läges-dropdown på varje rad — börja med enkla Identiska övningar, övergå till svårare Liknande. \"Rensa Val\"-knappen återställer alla överskridningar. Växla namn/datum-fält och övningsnummer (25px bredd, 15px gap).',
       },
       {
         title: 'Välj teman och bilder från biblioteket',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP visuell diskriminering arbetsboksserie',
-      description: 'Sammanställ 50–80 arbetsblad till tematiska arbetsböcker. Strukturera efter svårighet: «Enkla Hitta Udda Bilden» med Identiskt läge, «Mellannivå Hitta den Annorlunda» med Liknande läge med uppenbara kontraster, «Avancerad Visuell Diskriminering» med per-övning blandade lägen. Facitsidor med röda cirklar i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt globalt.',
+      description: 'Sammanställ 50–80 arbetsblad till tematiska arbetsböcker. Strukturera efter svårighet: \"Enkla Hitta Udda Bilden\" med Identiskt läge, \"Mellannivå Hitta den Annorlunda\" med Liknande läge med uppenbara kontraster, \"Avancerad Visuell Diskriminering\" med per-övning blandade lägen. Facitsidor med röda cirklar i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt globalt.',
       platform: 'Amazon KDP',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Använd per-övning överskridningar för premium progressiv svårighet',
-      description: 'Per-övning läges-dropdown skapar progressiva arbetsblad som betjänar flera nivåer på en sida. Börja med 2–3 Identiska övningar, övergå till 3–4 Liknande. Märk dina annonser som «progressiv svårighet» eller «nivågrupperad utmaning». «Rensa Val»-knappen gör experiment snabbt.',
+      description: 'Per-övning läges-dropdown skapar progressiva arbetsblad som betjänar flera nivåer på en sida. Börja med 2–3 Identiska övningar, övergå till 3–4 Liknande. Märk dina annonser som \"progressiv svårighet\" eller \"nivågrupperad utmaning\". \"Rensa Val\"-knappen gör experiment snabbt.',
     },
     {
       title: 'Utnyttja det rent visuella formatet för global försäljning',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar per-övning lägesöverskridning?',
-      answer: 'Varje övningsrad har en dropdown som överskriver det globala läget. Ställ in globalt till Liknande, sedan växla enskilda övningar till Identiskt. «Rensa Val» återställer alla. Detta skapar blandsvårighets arbetsblad.',
+      answer: 'Varje övningsrad har en dropdown som överskriver det globala läget. Ställ in globalt till Liknande, sedan växla enskilda övningar till Identiskt. \"Rensa Val\" återställer alla. Detta skapar blandsvårighets arbetsblad.',
     },
     {
       question: 'Hur fungerar tvåtemasystemet i Liknande läge?',

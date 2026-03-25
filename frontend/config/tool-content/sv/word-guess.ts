@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Gissa Ordet Arbetsblad Generator',
     tagline: 'Skapa bildbaserade stavningsarbetsblad med 4 ledtrådsnivåer på 11 språk',
-    description: 'Förvandla vokabulärövning till ett visuellt pussel som användarna älskar att lösa. Detta verktyg genererar gissa ordet arbetsblad där en bildledtråd paras med ett bokstavsrutnät med luckor — användarna studerar bilden och fyller i de saknade bokstäverna för att stava ordet den representerar. Den utmärkande funktionen är ett 4-nivå progressivt ledtrådssystem: Inga Ledtrådar avslöjar noll bokstäver för ren åtekallelse, Lätt avslöjar hälften av bokstäverna för stöttade nybörjare, Normal avslöjar en fjärdedel för balanserad utmaning, och Svår avslöjar bara en sjättedel för självsäkra stavare. Välj mellan två inmatningslägen: Bildledtråd hämtar vokabulär från mer än 3 100 bilder i 104 tematiska samlingar med automatisk bokstavsrutnätsgenerering, eller Anpassad Ordlista låter dig skriva in valfria ord direkt för riktad vokabulärövning utan bilder. Exkludera Bokstäver-funktionen tar bort specifika bokstäver från rutnät — exkludera vokaler för fonics-fokuserade övningar eller exkludera vanliga bokstäver för en tuffare utmaning. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar en annorlunda korrekt stavning. En hundbild genererar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska. En arbetsbladsdesign blir 11 unika språkprodukter med genuint olika svar. Ställ in versaler eller gemener, växla övningsnumrering, lägg till anpassade textöverlägg, och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med valfri facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Förvandla vokabulärövning till ett visuellt pussel som användarna älskar att lösa. Detta verktyg genererar gissa ordet arbetsblad där en bildledtråd paras med ett bokstavsrutnät med luckor — användarna studerar bilden och fyller i de saknade bokstäverna för att stava ordet den representerar. Den utmärkande funktionen är ett 4-nivå progressivt ledtrådssystem: Inga Ledtrådar avslöjar noll bokstäver för ren åtekallelse, Lätt avslöjar hälften av bokstäverna för stöttade nybörjare, Normal avslöjar en fjärdedel för balanserad utmaning, och Svår avslöjar bara en sjättedel för självsäkra stavare. Välj mellan två inmatningslägen: Bildledtråd hämtar vokabulär från mer än 3 100 bilder i 104 tematiska samlingar med automatisk bokstavsrutnätsgenerering, eller Anpassad Ordlista låter dig skriva in valfria ord direkt för riktad vokabulärövning utan bilder. Exkludera Bokstäver-funktionen tar bort specifika bokstäver från rutnät — exkludera vokaler för fonics-fokuserade övningar eller exkludera vanliga bokstäver för en tuffare utmaning. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar en annorlunda korrekt stavning. En hundbild genererar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska. En arbetsbladsdesign blir 11 unika språkprodukter med genuint olika svar. Ställ in versaler eller gemener, växla övningsnumrering, lägg till anpassade textöverlägg, och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med valfri facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Gissa Ordet Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn. Verktyget öppnas direkt i din webbläsare med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, nedladdning eller installation krävs.',
       },
       {
         title: 'Ställ in sidlayout och mall',
-        description: 'I avsnittet «Sidinställningar» väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram.',
       },
       {
         title: 'Välj ditt inmatningsläge',
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Välj bilder och tema',
-        description: 'Om du använder Bildledtråd-läget, öppna panelen «Bildbibliotek» och bläddra bland mer än 3 100 bilder i 104 tematiska samlingar: djur, mat, fordon, natur, högtider och fler. Använd Manuellt Val för att välja specifika bilder eller välj Alla Teman för automatiskt val. Varje bild genererar automatiskt sitt motsvarande bokstavsrutnät på det valda språket. Ladda upp din egen PNG eller JPEG för varumärkta arbetsblad.',
+        description: 'Om du använder Bildledtråd-läget, öppna panelen \"Bildbibliotek\" och bläddra bland mer än 3 100 bilder i 104 tematiska samlingar: djur, mat, fordon, natur, högtider och fler. Använd Manuellt Val för att välja specifika bilder eller välj Alla Teman för automatiskt val. Varje bild genererar automatiskt sitt motsvarande bokstavsrutnät på det valda språket. Ladda upp din egen PNG eller JPEG för varumärkta arbetsblad.',
       },
       {
         title: 'Konfigurera Exkludera Bokstäver, versaler och numrering',
-        description: 'Använd Exkludera Bokstäver-funktionen för att ta bort specifika bokstäver från rutnäten — till exempel exkludera alla vokaler så användarna måste fylla i dem, vilket skapar en fonics-fokuserad övning. Ställ in bokstavsläge till versaler eller gemener. Växla övningsnumrering på eller av. Lägg till en anpassad textöverlägg med instruktioner som «Fyll i de saknade bokstäverna!» för tydlig vägledning.',
+        description: 'Använd Exkludera Bokstäver-funktionen för att ta bort specifika bokstäver från rutnäten — till exempel exkludera alla vokaler så användarna måste fylla i dem, vilket skapar en fonics-fokuserad övning. Ställ in bokstavsläge till versaler eller gemener. Växla övningsnumrering på eller av. Lägg till en anpassad textöverlägg med instruktioner som \"Fyll i de saknade bokstäverna!\" för tydlig vägledning.',
       },
       {
         title: 'Anpassa typsnitt, text och arbetsyta',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt gissa ordet arbetsblad. Förhandsvisningen uppdateras på arbetsytan. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Generera ett matchande facit som visar rätt stavning för varje övning. För liggande sidor med 5+ övningar växlar verktyget automatiskt till en smart tvåkolumnslayout.',
+        description: 'Klicka på \"Generera\" för att bygga ditt gissa ordet arbetsblad. Förhandsvisningen uppdateras på arbetsytan. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Ladda ner som tryckfärdig PDF eller högupplöst JPEG. Generera ett matchande facit som visar rätt stavning för varje övning. För liggande sidor med 5+ övningar växlar verktyget automatiskt till en smart tvåkolumnslayout.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga stavningsprodukter',
-      description: 'Byt språkinställningen och regenerera samma arbetsbladsdesign på alla 11 stödda språk. Samma hundbild producerar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska — var och en med genuint olika bokstavsrutnät och korrekta svar. En designsession producerar 11 distinkta produkter, var och en redo att listas på sin lokala marknadsplats.',
+      description: 'Byt språkinställningen och regenerera samma arbetsbladsdesign på alla 11 stödda språk. Samma hundbild producerar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska — var och en med genuint olika bokstavsrutnät och korrekta svar. En designsession producerar 11 distinkta produkter, var och en redo att listas på sin lokala marknadsplats.',
     },
     {
       title: 'Anpassad ordlista vokabulärarbetsblad',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade stavningspaket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Gissa Ordet»-paket med festlig vokabulär — TOMTE, SNÖFLINGA, JULKLAPP — säljer starkt i november–december. Skolstart, halloween och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Det visuella pusselformatet gör säsongsprodukter fräscha och engagerande.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett \"Jul Gissa Ordet\"-paket med festlig vokabulär — TOMTE, SNÖFLINGA, JULKLAPP — säljer starkt i november–december. Skolstart, halloween och vårteman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Det visuella pusselformatet gör säsongsprodukter fräscha och engagerande.',
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad nivågrupperade paket',
-      description: 'Ladda upp gissa ordet arbetsbladspaket till Gumroad organiserade efter tema och svårighetsnivå. Inkludera alla fyra ledtrådsnivåer för varje tema, plus facit för varje sida. säljare söker ständigt efter «stavningsarbetsblad» och «ordbyggande aktiviteter». 4-nivå differentieringen innebär att en produkt betjänar ett helt produktlinje med blandade förmågor, vilket säljare värderar högt i recensioner.',
+      description: 'Ladda upp gissa ordet arbetsbladspaket till Gumroad organiserade efter tema och svårighetsnivå. Inkludera alla fyra ledtrådsnivåer för varje tema, plus facit för varje sida. säljare söker ständigt efter \"stavningsarbetsblad\" och \"ordbyggande aktiviteter\". 4-nivå differentieringen innebär att en produkt betjänar ett helt produktlinje med blandade förmågor, vilket säljare värderar högt i recensioner.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Dubbelläges vokabulärpaket på Etsy',
-      description: 'Utnyttja båda inmatningslägena för att skapa omfattande vokabulärpaket. Använd Bildledtråd-läget för visuellt vokabulärbyggande och Anpassad Ordlista-läget för produktkatalogsanpassade stavningsord. Paketera båda till en enda produkt: «Komplett Stavningsövningskit — Visuellt + Skriftligt». Dubbelläges-metoden motiverar ett premiumpris och betjänar både visuella och traditionella användare.',
+      description: 'Utnyttja båda inmatningslägena för att skapa omfattande vokabulärpaket. Använd Bildledtråd-läget för visuellt vokabulärbyggande och Anpassad Ordlista-läget för produktkatalogsanpassade stavningsord. Paketera båda till en enda produkt: \"Komplett Stavningsövningskit — Visuellt + Skriftligt\". Dubbelläges-metoden motiverar ett premiumpris och betjänar både visuella och traditionella användare.',
       platform: 'Etsy',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Använd Inga Ledtrådar för avancerade stavare',
-      description: 'Inga Ledtrådar-läget lämnar hela bokstavsrutnätet blankt — användarna måste minnas den kompletta stavningen från enbart bilden. Detta är äkta stavningsbedömning, inte igenkänning. Använd det för äldre användare, stavningsprov eller den slutliga «utmaning»-sektionen i en progressiv arbetsbok.',
+      description: 'Inga Ledtrådar-läget lämnar hela bokstavsrutnätet blankt — användarna måste minnas den kompletta stavningen från enbart bilden. Detta är äkta stavningsbedömning, inte igenkänning. Använd det för äldre användare, stavningsprov eller den slutliga \"utmaning\"-sektionen i en progressiv arbetsbok.',
     },
     {
       title: 'Använd Lätt-läge för unga nybörjare',
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
-      description: 'Varje gissa ordet arbetsblad du designar kan bli 11 produkter genom att byta språk. Samma kattbild producerar «KATT», «CAT», «KATZE», «CHAT», «GATO», «GATTO» och fler — var och en med olika bokstavsrutnät och olika korrekta svar. Språkspecifika stavningsarbetsblad är en dramatiskt underbetjänad nisch utanför engelska.',
+      description: 'Varje gissa ordet arbetsblad du designar kan bli 11 produkter genom att byta språk. Samma kattbild producerar \"KATT\", \"CAT\", \"KATZE\", \"CHAT\", \"GATO\", \"GATTO\" och fler — var och en med olika bokstavsrutnät och olika korrekta svar. Språkspecifika stavningsarbetsblad är en dramatiskt underbetjänad nisch utanför engelska.',
     },
     {
       title: 'Använd Anpassade Ordlistor för nischvokabulär',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med andra litteracitetsverktyg',
-      description: 'Kombinera gissa ordet arbetsblad med ordpussel, ordsökningar, skrivövningar och matchningsarbetsblad för att skapa omfattande stavningspaket. Ett «Komplett Stavningsövning»-paket med flera aktivitetstyper säljer för mer än något enskilt arbetsbladsformat ensamt och ger användarna varierad övning med samma vokabulär.',
+      description: 'Kombinera gissa ordet arbetsblad med ordpussel, ordsökningar, skrivövningar och matchningsarbetsblad för att skapa omfattande stavningspaket. Ett \"Komplett Stavningsövning\"-paket med flera aktivitetstyper säljer för mer än något enskilt arbetsbladsformat ensamt och ger användarna varierad övning med samma vokabulär.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar språkkänsligheten?',
-      answer: 'När du byter språk producerar samma bild en annorlunda korrekt stavning. En hundbild genererar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska, «CANE» på italienska och så vidare på alla 11 stödda språk. Bokstavsrutnätet, luckorna och facit uppdateras alla för att matcha det nya språkets stavning.',
+      answer: 'När du byter språk producerar samma bild en annorlunda korrekt stavning. En hundbild genererar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska, \"CANE\" på italienska och så vidare på alla 11 stödda språk. Bokstavsrutnätet, luckorna och facit uppdateras alla för att matcha det nya språkets stavning.',
     },
     {
       question: 'Vilka språk stöds?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild»-knappen för att använda dina egna PNG- eller JPEG-filer som bildledtrådar. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer eller licensierat konstverk som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på \"Ladda Upp Bild\"-knappen för att använda dina egna PNG- eller JPEG-filer som bildledtrådar. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer eller licensierat konstverk som ingen annan säljare kan replikera.',
     },
     {
       question: 'Genererar verktyget facit?',

@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Gerador de Trem do Alfabeto',
     tagline: 'Crie fichas de trem de letras com associação letra-imagem em 11 idiomas',
-    description: 'Desenhe fichas do alfabeto que não se parecem com nenhuma página tradicional de traçado de letras. Esta ferramenta dispõe 11 vagões de trem coloridos ao longo da página, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem — os usuários identificam com que letra começa cada imagem e associam-na ao vagão correto. Escolha entre o modo Criação Automática (a ferramenta seleciona aleatoriamente 11 letras e atribui imagens correspondentes) ou Modo Manual (escolha cada letra a partir de uma grelha do alfabeto completo e atribua cada imagem individualmente). Ajuste a dificuldade com o controlo de número de pistas: 3 pistas para principiantes, 5–7 para nível intermédio e 9–11 para usuários avançados que devem associar quase todos os vagões. A verdadeira potência é a sensibilidade linguística — selecione entre 11 alfabetos nativos incluindo alemão (Ä/Ö/Ü), sueco (Å/Ä/Ö), espanhol (Ñ) e mais. A mesma imagem associa-se com letras diferentes em cada idioma: «cão» associa-se com C em português mas com D em inglês (dog) e H em alemão (Hund). Um único modelo transforma-se em 11 produtos únicos. Explore mais de 3100 imagens em 104 temas, ou carregue as suas para designs personalizados. Escolha entre 7 famílias tipográficas e exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
+    description: 'Desenhe fichas do alfabeto que não se parecem com nenhuma página tradicional de traçado de letras. Esta ferramenta dispõe 11 vagões de trem coloridos ao longo da página, cada um com uma letra e uma ilustração correspondente. Imagens-pista dispersas aparecem junto ao trem — os usuários identificam com que letra começa cada imagem e associam-na ao vagão correto. Escolha entre o modo Criação Automática (a ferramenta seleciona aleatoriamente 11 letras e atribui imagens correspondentes) ou Modo Manual (escolha cada letra a partir de uma grelha do alfabeto completo e atribua cada imagem individualmente). Ajuste a dificuldade com o controlo de número de pistas: 3 pistas para principiantes, 5–7 para nível intermédio e 9–11 para usuários avançados que devem associar quase todos os vagões. A verdadeira potência é a sensibilidade linguística — selecione entre 11 alfabetos nativos incluindo alemão (Ä/Ö/Ü), sueco (Å/Ä/Ö), espanhol (Ñ) e mais. A mesma imagem associa-se com letras diferentes em cada idioma: \"cão\" associa-se com C em português mas com D em inglês (dog) e H em alemão (Hund). Um único modelo transforma-se em 11 produtos únicos. Explore mais de 3100 imagens em 104 temas, ou carregue as suas para designs personalizados. Escolha entre 7 famílias tipográficas e exporte como PDF pronto para imprimir ou JPEG de alta resolução. O teste grátis inclui uma marca d\'água nos downloads. Adquira uma licença para remover a marca d\'água e vender com uso comercial.',
   },
 
   tutorial: {
@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir o Gerador de Trem do Alfabeto',
-        description: 'Clique em «Testar Grátis» para abrir o gerador. A ferramenta abre instantaneamente no seu navegador com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador. A ferramenta abre instantaneamente no seu navegador com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação.',
       },
       {
         title: 'Configurar o Layout da Página',
-        description: 'Na secção «Configuração de Página», selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e escolha uma moldura decorativa da biblioteca de bordas. A orientação vertical funciona melhor para o formato do trem.',
+        description: 'Na secção \"Configuração de Página\", selecione o tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou um tamanho personalizado. Defina a cor da página, adicione um fundo temático com opacidade ajustável e escolha uma moldura decorativa da biblioteca de bordas. A orientação vertical funciona melhor para o formato do trem.',
       },
       {
         title: 'Escolher o Modo de Criação',
@@ -44,7 +44,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Selecionar Imagens e Tema',
-        description: 'Abra o painel «Biblioteca de Imagens» e explore mais de 3100 imagens em 104 coleções temáticas: animais, alimentos, veículos, natureza, festividades e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Cada imagem associa-se automaticamente com a letra correta conforme o idioma selecionado — a mesma imagem de cão associa-se com C em português (cão) mas com D em inglês (dog) e K em alemão (Katze). Carregue as suas próprias imagens PNG ou JPEG para fichas personalizadas.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 3100 imagens em 104 coleções temáticas: animais, alimentos, veículos, natureza, festividades e muitos mais. Use a barra de pesquisa para encontrar temas específicos. Cada imagem associa-se automaticamente com a letra correta conforme o idioma selecionado — a mesma imagem de cão associa-se com C em português (cão) mas com D em inglês (dog) e K em alemão (Katze). Carregue as suas próprias imagens PNG ou JPEG para fichas personalizadas.',
       },
       {
         title: 'Configurar Número de Pistas e Campos de Nome/Data',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Gerar e Descarregar',
-        description: 'Clique em «Gerar» para criar a sua ficha de trem do alfabeto. A pré-visualização atualiza-se no canvas. Ative o modo Escala de Cinzentos para fichas a preto e branco com poupança de tinta, ideais para interiores KDP. Descarregue como PDF pronto para imprimir ou JPEG de alta resolução. Gere um gabarito que mostra cada imagem-pista associada ao seu vagão correto.',
+        description: 'Clique em \"Gerar\" para criar a sua ficha de trem do alfabeto. A pré-visualização atualiza-se no canvas. Ative o modo Escala de Cinzentos para fichas a preto e branco com poupança de tinta, ideais para interiores KDP. Descarregue como PDF pronto para imprimir ou JPEG de alta resolução. Gere um gabarito que mostra cada imagem-pista associada ao seu vagão correto.',
       },
     ],
   },
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pacotes Sazonais de Trem do Alfabeto',
-      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote «Trem do Alfabeto de Natal» com ilustrações natalícias vende-se muito bem em novembro e dezembro. Regresso às aulas, Halloween, Dia dos Namorados e os temas de primavera têm as suas próprias janelas de vendas de pico na Etsy e Gumroad.',
+      description: 'Use temas de imagens festivas e sazonais para criar pacotes de edição limitada. Um pacote \"Trem do Alfabeto de Natal\" com ilustrações natalícias vende-se muito bem em novembro e dezembro. Regresso às aulas, Halloween, Dia dos Namorados e os temas de primavera têm as suas próprias janelas de vendas de pico na Etsy e Gumroad.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pacotes de Alfabetização no Gumroad',
-      description: 'Carregue pacotes diferenciados de trem do alfabeto na Gumroad. Inclua fichas a três níveis de pistas, um guia para o vendedor explicando o formato do trem e gabaritos para cada página. Os vendedores procuram constantemente «atividades do alfabeto» e «fichas de reconhecimento de letras». O formato visual do trem acrescenta valor percebido porque parece um jogo, não um exercício. Ofereça pacotes de Criação Automática para variedade e pacotes de Modo Manual para grupos de letras alinhados com o catálogo de produtos.',
+      description: 'Carregue pacotes diferenciados de trem do alfabeto na Gumroad. Inclua fichas a três níveis de pistas, um guia para o vendedor explicando o formato do trem e gabaritos para cada página. Os vendedores procuram constantemente \"atividades do alfabeto\" e \"fichas de reconhecimento de letras\". O formato visual do trem acrescenta valor percebido porque parece um jogo, não um exercício. Ofereça pacotes de Criação Automática para variedade e pacotes de Modo Manual para grupos de letras alinhados com o catálogo de produtos.',
       platform: 'Gumroad',
     },
     {
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Combine com Outras Ferramentas de Alfabetização',
-      description: 'Combine fichas de trem do alfabeto com fichas de escrita, caça-palavras e atividades de palavras embaralhadas para criar pacotes completos de alfabetização. Um pacote «Aprendizagem Completa de Letras» com múltiplos tipos de atividades tem um preço mais elevado do que qualquer formato individual. Vincular produtos individuais ao pacote combinado nas descrições da sua loja gera tráfego interno e fomenta compras de múltiplos artigos, aumentando o seu valor médio de encomenda.',
+      description: 'Combine fichas de trem do alfabeto com fichas de escrita, caça-palavras e atividades de palavras embaralhadas para criar pacotes completos de alfabetização. Um pacote \"Aprendizagem Completa de Letras\" com múltiplos tipos de atividades tem um preço mais elevado do que qualquer formato individual. Vincular produtos individuais ao pacote combinado nas descrições da sua loja gera tráfego interno e fomenta compras de múltiplos artigos, aumentando o seu valor médio de encomenda.',
     },
     {
       title: 'Combine com o Trem de Padrões para um Pacote Temático',
-      description: 'O gerador de Trem de Padrões usa o mesmo formato visual de vagões mas foca-se no reconhecimento de padrões em vez de letras. Agrupe os resultados de ambas as ferramentas num mega-pacote «Atividades de Trem» que cobre alfabetização e lógica. O estilo visual coerente cria uma linha de produtos coesa.',
+      description: 'O gerador de Trem de Padrões usa o mesmo formato visual de vagões mas foca-se no reconhecimento de padrões em vez de letras. Agrupe os resultados de ambas as ferramentas num mega-pacote \"Atividades de Trem\" que cobre alfabetização e lógica. O estilo visual coerente cria uma linha de produtos coesa.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Posso carregar as minhas próprias imagens?',
-      answer: 'Sim. Clique no botão «Carregar Imagem» para usar os seus próprios ficheiros PNG ou JPEG. As imagens personalizadas permitem-lhe criar fichas com a sua marca usando as suas próprias ilustrações, mascotes escolares ou arte com licença que nenhum outro vendedor pode replicar.',
+      answer: 'Sim. Clique no botão \"Carregar Imagem\" para usar os seus próprios ficheiros PNG ou JPEG. As imagens personalizadas permitem-lhe criar fichas com a sua marca usando as suas próprias ilustrações, mascotes escolares ou arte com licença que nenhum outro vendedor pode replicar.',
     },
     {
       question: 'Posso usar as fichas para fins comerciais?',

@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Codifica a livello di frase per decrittazione di messaggi completi',
         description:
-          'A differenza dei puzzle che codificano singole parole, il Generatore di Crittogramma codifica frasi e periodi interi. gli utenti decodificano un messaggio completo e leggibile — una citazione motivazionale, un periodo di vocabolario, una curiosità o un\'istruzione personalizzata — ottenendo la soddisfazione di rivelare un contenuto significativo anziché parole isolate. La codifica a livello di frase fornisce anche indizi contestuali: le parole brevi comuni come «il», «e» e «è» aiutano i risolutori a decifrare il codice più rapidamente, creando un effetto di guida naturale che premia l\'intuizione linguistica.',
+          'A differenza dei puzzle che codificano singole parole, il Generatore di Crittogramma codifica frasi e periodi interi. gli utenti decodificano un messaggio completo e leggibile — una citazione motivazionale, un periodo di vocabolario, una curiosità o un\'istruzione personalizzata — ottenendo la soddisfazione di rivelare un contenuto significativo anziché parole isolate. La codifica a livello di frase fornisce anche indizi contestuali: le parole brevi comuni come \"il\", \"e\" e \"è\" aiutano i risolutori a decifrare il codice più rapidamente, creando un effetto di guida naturale che premia l\'intuizione linguistica.',
       },
       {
         title: 'Difficoltà regolabile con Lettere da Rivelare (0–10)',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Strumento di vocabolario per il negozio e le ripetizioni',
         description:
-          'Codifica periodi di vocabolario personalizzati, frasi di ripasso ortografico o definizioni specifiche di una materia come puzzle crittogramma. Scrivi qualsiasi frase come messaggio segreto — «I mitocondri sono la centrale energetica della cellula» per biologia, «La Dichiarazione di Indipendenza fu firmata nel 1776» per storia, o le parole del dettato settimanale organizzate in un periodo. Regola le Lettere da Rivelare in base al livello di capacità di ogni utente per una differenziazione istantanea. Il formato di decrittazione trasforma il ripasso di vocabolario mnemonico in un\'attività puzzle motivante, e la legenda delle lettere del foglio risposte fa risparmiare valore percepito.',
+          'Codifica periodi di vocabolario personalizzati, frasi di ripasso ortografico o definizioni specifiche di una materia come puzzle crittogramma. Scrivi qualsiasi frase come messaggio segreto — \"I mitocondri sono la centrale energetica della cellula\" per biologia, \"La Dichiarazione di Indipendenza fu firmata nel 1776\" per storia, o le parole del dettato settimanale organizzate in un periodo. Regola le Lettere da Rivelare in base al livello di capacità di ogni utente per una differenziazione istantanea. Il formato di decrittazione trasforma il ripasso di vocabolario mnemonico in un\'attività puzzle motivante, e la legenda delle lettere del foglio risposte fa risparmiare valore percepito.',
         platform: 'Vendita Online / Marketplace / Uso Personale',
       },
     ],

@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Abrir o Gerador de Fichas',
-        description: 'Clique em «Testar Grátis» para abrir o gerador de adição codificada no seu navegador. A barra lateral escura à esquerda contém todas as definições; o canvas luminoso à direita mostra a pré-visualização em tempo real. Não precisa de conta, nem de descarregar nada, nem de instalar plugins.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador de adição codificada no seu navegador. A barra lateral escura à esquerda contém todas as definições; o canvas luminoso à direita mostra a pré-visualização em tempo real. Não precisa de conta, nem de descarregar nada, nem de instalar plugins.',
       },
       {
         title: 'Definir a Quantidade de Símbolos',
-        description: 'No painel «Configuração de Exercícios», use o menu da Quantidade de Símbolos para escolher quantos símbolos-imagem aparecem no seu código. Menos símbolos (3–4) são mais fáceis para principiantes; mais símbolos (6–8) criam um desafio lógico mais complexo. Cada símbolo esconde um número secreto único no Modo Clássico.',
+        description: 'No painel \"Configuração de Exercícios\", use o menu da Quantidade de Símbolos para escolher quantos símbolos-imagem aparecem no seu código. Menos símbolos (3–4) são mais fáceis para principiantes; mais símbolos (6–8) criam um desafio lógico mais complexo. Cada símbolo esconde um número secreto único no Modo Clássico.',
       },
       {
         title: 'Escolher Parcelas por Equação',
@@ -44,19 +44,19 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Selecionar Imagens da Biblioteca Temática',
-        description: 'Abra o painel «Biblioteca de Imagens» e explore mais de 100 coleções temáticas: animais, alimentos, veículos, espaço, festividades e muito mais. Cada imagem torna-se um símbolo do código. Use a barra de pesquisa para encontrar temas específicos, ou clique em imagens individuais para selecionar exatamente os símbolos que pretende.',
+        description: 'Abra o painel \"Biblioteca de Imagens\" e explore mais de 100 coleções temáticas: animais, alimentos, veículos, espaço, festividades e muito mais. Cada imagem torna-se um símbolo do código. Use a barra de pesquisa para encontrar temas específicos, ou clique em imagens individuais para selecionar exatamente os símbolos que pretende.',
       },
       {
         title: 'Personalizar o Layout da Página',
-        description: 'Na secção «Configuração de Página», escolha o seu formato (Carta, A4, Quadrado ou dimensões personalizadas), defina a cor de fundo, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas. O formato quadrado é ideal para cadernos de atividades da Amazon KDP.',
+        description: 'Na secção \"Configuração de Página\", escolha o seu formato (Carta, A4, Quadrado ou dimensões personalizadas), defina a cor de fundo, adicione um fundo temático com opacidade ajustável e selecione uma moldura decorativa da biblioteca de bordas. O formato quadrado é ideal para cadernos de atividades da Amazon KDP.',
       },
       {
         title: 'Adicionar Texto e Marca',
-        description: 'Use o painel «Ferramentas de Texto» para adicionar um título como «Decifra o Código!» ou «Desafio do Número Secreto». Adicione um campo de nome, instruções ou a marca da sua loja. Escolha entre fontes adequadas para crianças (Fredoka, Baloo 2, Quicksand, Nunito) e ajuste tamanho, cor e contorno do texto.',
+        description: 'Use o painel \"Ferramentas de Texto\" para adicionar um título como \"Decifra o Código!\" ou \"Desafio do Número Secreto\". Adicione um campo de nome, instruções ou a marca da sua loja. Escolha entre fontes adequadas para crianças (Fredoka, Baloo 2, Quicksand, Nunito) e ajuste tamanho, cor e contorno do texto.',
       },
       {
         title: 'Gerar e Descarregar',
-        description: 'Clique em «Gerar» para criar o seu puzzle. A pré-visualização atualiza-se instantaneamente no canvas. Descarregue como JPEG para maquetes de produtos ou PDF para material pronto para imprimir. Gere e descarregue um gabarito que revela todos os números secretos (ou as letras no Modo Palavra Revelada).',
+        description: 'Clique em \"Gerar\" para criar o seu puzzle. A pré-visualização atualiza-se instantaneamente no canvas. Descarregue como JPEG para maquetes de produtos ou PDF para material pronto para imprimir. Gere e descarregue um gabarito que revela todos os números secretos (ou as letras no Modo Palavra Revelada).',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Cadernos de Atividades Palavra Revelada',
-      description: 'Use o Modo Palavra Revelada para criar cadernos onde os usuários resolvem equações de adição para soletrar palavras ocultas. Escolha palavras de vocabulário, palavras de uso frequente ou termos sazonais como segredo. As letras distratoras integradas acrescentam um nível extra de desafio que mantém os usuários motivados. Para editores de KDP, um caderno Palavra Revelada focado em palavras de uso frequente para usuários da pré-escola ao segundo ano é um produto de nicho sólido. Os pais que procuram «atividades de palavras frequentes» na Amazon raramente encontram puzzles de tipo criptaritmético, o que significa menos concorrência direta do que os formatos clássicos de sopa de letras ou palavras cruzadas.',
+      description: 'Use o Modo Palavra Revelada para criar cadernos onde os usuários resolvem equações de adição para soletrar palavras ocultas. Escolha palavras de vocabulário, palavras de uso frequente ou termos sazonais como segredo. As letras distratoras integradas acrescentam um nível extra de desafio que mantém os usuários motivados. Para editores de KDP, um caderno Palavra Revelada focado em palavras de uso frequente para usuários da pré-escola ao segundo ano é um produto de nicho sólido. Os pais que procuram \"atividades de palavras frequentes\" na Amazon raramente encontram puzzles de tipo criptaritmético, o que significa menos concorrência direta do que os formatos clássicos de sopa de letras ou palavras cruzadas.',
     },
     {
       title: 'Cadernos de Criptaritmética para KDP',
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Série de Cadernos de Puzzles na Amazon KDP',
-      description: 'Publique uma série de cadernos criptaritméticos na KDP: «Decifra o Código: Edição Animais», «Decifra o Código: Edição Espaço», e assim por diante. Cada caderno contém de 80 a 100 puzzles com dificuldade progressiva. Defina o preço entre 7,99 $ e 9,99 $ e deixe a Amazon tratar da impressão. Os cadernos de puzzles têm excelentes margens na KDP.',
+      description: 'Publique uma série de cadernos criptaritméticos na KDP: \"Decifra o Código: Edição Animais\", \"Decifra o Código: Edição Espaço\", e assim por diante. Cada caderno contém de 80 a 100 puzzles com dificuldade progressiva. Defina o preço entre 7,99 $ e 9,99 $ e deixe a Amazon tratar da impressão. Os cadernos de puzzles têm excelentes margens na KDP.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Pacote Curricular Digital no Gumroad',
-      description: 'Crie um programa estruturado de 8 semanas «Decifra o Código Matemático» com conjuntos de puzzles semanais. A semana 1 começa com 3 símbolos, a semana 8 termina com parcelas mistas e desafios de Palavra Revelada. Venda como download digital premium (de 12 $ a 15 $) no Gumroad. Os pais que educam em casa pagam com gosto por programas completos e estruturados. Inclua um guia vendedor de uma página no início explicando como usar os puzzles de cada semana, que competências trabalha cada nível de dificuldade e como avaliar o progresso do usuário.',
+      description: 'Crie um programa estruturado de 8 semanas \"Decifra o Código Matemático\" com conjuntos de puzzles semanais. A semana 1 começa com 3 símbolos, a semana 8 termina com parcelas mistas e desafios de Palavra Revelada. Venda como download digital premium (de 12 $ a 15 $) no Gumroad. Os pais que educam em casa pagam com gosto por programas completos e estruturados. Inclua um guia vendedor de uma página no início explicando como usar os puzzles de cada semana, que competências trabalha cada nível de dificuldade e como avaliar o progresso do usuário.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Comece com Menos Símbolos para Principiantes',
-      description: 'Três ou quatro símbolos é o ponto ideal para usuários jovens e principiantes em descodificação. Com menos incógnitas, os usuários podem usar a lógica de eliminação mais facilmente. Reserve os puzzles de 6 ou mais símbolos para usuários mais velhos ou secções de desafio avançado nos seus pacotes de produtos. Ao criar um listing de produto, mencione a quantidade de símbolos na sua descrição para que os compradores saibam que nível de dificuldade estão a obter. Frases como «puzzles para principiantes com 3 símbolos» ou «desafios avançados com 7 símbolos» ajudam os compradores a escolher o produto certo e reduzem os pedidos de reembolso por expectativas não correspondidas.',
+      description: 'Três ou quatro símbolos é o ponto ideal para usuários jovens e principiantes em descodificação. Com menos incógnitas, os usuários podem usar a lógica de eliminação mais facilmente. Reserve os puzzles de 6 ou mais símbolos para usuários mais velhos ou secções de desafio avançado nos seus pacotes de produtos. Ao criar um listing de produto, mencione a quantidade de símbolos na sua descrição para que os compradores saibam que nível de dificuldade estão a obter. Frases como \"puzzles para principiantes com 3 símbolos\" ou \"desafios avançados com 7 símbolos\" ajudam os compradores a escolher o produto certo e reduzem os pedidos de reembolso por expectativas não correspondidas.',
     },
     {
       title: 'Use Parcelas Mistas para Máxima Variedade',

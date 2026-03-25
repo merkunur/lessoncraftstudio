@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Mais de 100 conjuntos de imagens temáticas',
-      description: 'Aceda a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos sete geradores. Cada tema combinado com cada idioma dá-lhe um ângulo de produto único — publique «Caça-Palavras Animais do Oceano em Francês» junto a «Comboio do Alfabeto Quinta em Alemão» para captar diferentes consultas de pesquisa, interesses de compradores e mercados linguísticos simultaneamente.',
+      description: 'Aceda a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos sete geradores. Cada tema combinado com cada idioma dá-lhe um ângulo de produto único — publique \"Caça-Palavras Animais do Oceano em Francês\" junto a \"Comboio do Alfabeto Quinta em Alemão\" para captar diferentes consultas de pesquisa, interesses de compradores e mercados linguísticos simultaneamente.',
     },
     {
       title: 'Carregar imagens personalizadas',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cadernos de idiomas na Amazon KDP',
-      description: 'Combine fichas de múltiplos geradores em cadernos temáticos para KDP organizados por idioma e nível de competência: «Caderno de Atividades de Leitura em Francês» com comboios do alfabeto, caça-palavras e criptogramas, ou «Competências de Palavras 1.º Ano em Alemão» misturando palavras embaralhadas, preposições e adivinhar palavras. O motor de design consistente assegura que cada página tenha um aspeto profissionalmente uniforme. Gere de 50 a 100 páginas por caderno numa única sessão, descarregue como PDF e carregue diretamente no KDP. Cada versão de idioma é um livro separado com o seu próprio ISBN e mercado.',
+      description: 'Combine fichas de múltiplos geradores em cadernos temáticos para KDP organizados por idioma e nível de competência: \"Caderno de Atividades de Leitura em Francês\" com comboios do alfabeto, caça-palavras e criptogramas, ou \"Competências de Palavras 1.º Ano em Alemão\" misturando palavras embaralhadas, preposições e adivinhar palavras. O motor de design consistente assegura que cada página tenha um aspeto profissionalmente uniforme. Gere de 50 a 100 páginas por caderno numa única sessão, descarregue como PDF e carregue diretamente no KDP. Cada versão de idioma é um livro separado com o seu próprio ISBN e mercado.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {

@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Générateur d\'Exercices',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le créateur d\'exercices de maths. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le créateur d\'exercices de maths. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
       },
       {
         title: 'Définir la Mise en Page et le Format',
-        description: 'Dans la section « Mise en Page », choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures. Ces réglages définissent l\'apparence globale de votre fiche.',
+        description: 'Dans la section \" Mise en Page \", choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures. Ces réglages définissent l\'apparence globale de votre fiche.',
       },
       {
         title: 'Choisir la Difficulté et l\'Opération',
@@ -41,19 +41,19 @@ const content: ToolContent = {
       },
       {
         title: 'Configurer la Plage de Nombres et les Options',
-        description: 'Définissez les valeurs minimale et maximale pour les équations (par défaut 0–20). Pour les utilisateurs avancés, activez l\'option « Autoriser les Résultats Négatifs » afin que les équations de soustraction puissent produire des valeurs négatives. Ces contrôles vous permettent d\'adapter chaque fiche précisément à la tranche d\'âge et au niveau scolaire visés.',
+        description: 'Définissez les valeurs minimale et maximale pour les équations (par défaut 0–20). Pour les utilisateurs avancés, activez l\'option \" Autoriser les Résultats Négatifs \" afin que les équations de soustraction puissent produire des valeurs négatives. Ces contrôles vous permettent d\'adapter chaque fiche précisément à la tranche d\'âge et au niveau scolaire visés.',
       },
       {
         title: 'Sélectionner Vos Images',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, espace, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Choisissez des images individuellement, chargez un thème complet pour remplir tous les emplacements de symboles, ou cliquez sur « Télécharger une Image » pour utiliser vos propres PNG ou JPEG pour des puzzles de marque personnalisés.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, espace, fêtes et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Choisissez des images individuellement, chargez un thème complet pour remplir tous les emplacements de symboles, ou cliquez sur \" Télécharger une Image \" pour utiliser vos propres PNG ou JPEG pour des puzzles de marque personnalisés.',
       },
       {
         title: 'Ajouter du Texte, la Numérotation et Définir les Puzzles Par Page',
-        description: 'Ajoutez un titre, un sous-titre ou un bloc de texte personnalisé à votre fiche. Activez la numérotation automatique sur plusieurs pages. Utilisez le contrôle « Puzzles Par Page » pour placer de 1 à 6 puzzles sur chaque feuille — la mise en page s\'ajuste automatiquement. Moins de puzzles par page offrent plus d\'espace de travail ; plus de puzzles par page créent des fiches de pratique compactes.',
+        description: 'Ajoutez un titre, un sous-titre ou un bloc de texte personnalisé à votre fiche. Activez la numérotation automatique sur plusieurs pages. Utilisez le contrôle \" Puzzles Par Page \" pour placer de 1 à 6 puzzles sur chaque feuille — la mise en page s\'ajuste automatiquement. Moins de puzzles par page offrent plus d\'espace de travail ; plus de puzzles par page créent des fiches de pratique compactes.',
       },
       {
         title: 'Générer, Vérifier et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre fiche de puzzles algébriques. Le solveur intégré vérifie que chaque puzzle a exactement une solution avant le rendu. Prévisualisez sur le canevas, puis utilisez le menu « Télécharger » pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Générez toujours le corrigé assorti — il affiche la valeur numérique de chaque symbole-image pour une correction rapide.',
+        description: 'Cliquez sur \" Générer \" pour créer votre fiche de puzzles algébriques. Le solveur intégré vérifie que chaque puzzle a exactement une solution avant le rendu. Prévisualisez sur le canevas, puis utilisez le menu \" Télécharger \" pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Générez toujours le corrigé assorti — il affiche la valeur numérique de chaque symbole-image pour une correction rapide.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Saisonniers d\'Algèbre',
-      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack « Puzzles Algébriques de Noël » avec des symboles-images festifs se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et Gumroad. Le format algébrique ajoute une difficulté perçue et une valeur supérieure par rapport aux simples exercices d\'arithmétique.',
+      description: 'Utilisez les thèmes d\'images de fêtes et de saisons pour créer des packs limités dans le temps. Un pack \" Puzzles Algébriques de Noël \" avec des symboles-images festifs se vend particulièrement bien en novembre–décembre. Halloween, Saint-Valentin et rentrée scolaire ont chacun leurs propres pics de ventes sur Etsy et Gumroad. Le format algébrique ajoute une difficulté perçue et une valeur supérieure par rapport aux simples exercices d\'arithmétique.',
     },
     {
       title: 'Packs Échantillons Multi-Niveaux',
@@ -98,7 +98,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs d\'Algèbre Premium sur Gumroad',
-      description: 'Téléchargez des packs de puzzles algébriques différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches d\'algèbre » et « puzzles maths ». Incluez les quatre niveaux de difficulté, les deux modes d\'opération, les corrigés et un guide vendeur expliquant le fonctionnement du format d\'algèbre visuelle. La fonction de solution garantie ajoute une crédibilité que les vendeurs valorisent pour les supports pédagogiques. Un guide d\'utilisation associant chaque niveau de difficulté à des standards de programme aide les vendeurs à justifier l\'achat auprès de leur administration.',
+      description: 'Téléchargez des packs de puzzles algébriques différenciés sur Gumroad. Les vendeurs recherchent constamment \" fiches d\'algèbre \" et \" puzzles maths \". Incluez les quatre niveaux de difficulté, les deux modes d\'opération, les corrigés et un guide vendeur expliquant le fonctionnement du format d\'algèbre visuelle. La fonction de solution garantie ajoute une crédibilité que les vendeurs valorisent pour les supports pédagogiques. Un guide d\'utilisation associant chaque niveau de difficulté à des standards de programme aide les vendeurs à justifier l\'achat auprès de leur administration.',
       platform: 'Gumroad',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
     },
     {
       title: 'Utilisez les Opérations Mixtes pour la Variété',
-      description: 'Le mode Addition et Soustraction crée des puzzles nécessitant des stratégies de résolution différentes au sein de la même fiche. Cela empêche les utilisateurs de tomber dans un schéma répétitif et teste les deux compétences opérationnelles simultanément. Les puzzles en mode mixte ont aussi une valeur perçue plus élevée dans les listings de marketplace car ils couvrent plus de programme. Sur Etsy et Gumroad, étiqueter votre listing comme « opérations mixtes » capture le trafic de recherche des vendeurs cherchant spécifiquement des supports de révision couvrant plusieurs compétences en une seule activité.',
+      description: 'Le mode Addition et Soustraction crée des puzzles nécessitant des stratégies de résolution différentes au sein de la même fiche. Cela empêche les utilisateurs de tomber dans un schéma répétitif et teste les deux compétences opérationnelles simultanément. Les puzzles en mode mixte ont aussi une valeur perçue plus élevée dans les listings de marketplace car ils couvrent plus de programme. Sur Etsy et Gumroad, étiqueter votre listing comme \" opérations mixtes \" capture le trafic de recherche des vendeurs cherchant spécifiquement des supports de révision couvrant plusieurs compétences en une seule activité.',
     },
     {
       title: 'Téléchargez des Images Personnalisées pour le Branding',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Associez avec des Outils de Fiches de Maths Classiques',
-      description: 'Créez des ensembles assortis en utilisant les générateurs d\'Addition, de Soustraction et d\'Addition Codée aux côtés du créateur de puzzles algébriques. Vendez-les individuellement et en pack combiné « Exercices de Maths + Puzzles Algébriques ». Le composant d\'algèbre visuelle ajoute un élément de défi qui rend le pack plus attractif que les fiches d\'exercices seules.',
+      description: 'Créez des ensembles assortis en utilisant les générateurs d\'Addition, de Soustraction et d\'Addition Codée aux côtés du créateur de puzzles algébriques. Vendez-les individuellement et en pack combiné \" Exercices de Maths + Puzzles Algébriques \". Le composant d\'algèbre visuelle ajoute un élément de défi qui rend le pack plus attractif que les fiches d\'exercices seules.',
     },
     {
       title: 'Exportez les Deux Formats',
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: 'Puis-je télécharger mes propres images comme symboles de variables ?',
-      answer: 'Oui. Cliquez sur « Télécharger une Image » pour utiliser vos propres fichiers PNG ou JPEG comme symboles de variables dans les équations. Cela vous permet de créer des puzzles de marque avec des illustrations personnalisées, des mascottes de classe, des designs saisonniers ou des œuvres de niche qu\'aucun autre vendeur ne peut reproduire.',
+      answer: 'Oui. Cliquez sur \" Télécharger une Image \" pour utiliser vos propres fichiers PNG ou JPEG comme symboles de variables dans les équations. Cela vous permet de créer des puzzles de marque avec des illustrations personnalisées, des mascottes de classe, des designs saisonniers ou des œuvres de niche qu\'aucun autre vendeur ne peut reproduire.',
     },
     {
       question: 'Combien de puzzles puis-je mettre sur une page ?',
-      answer: 'Vous pouvez placer de 1 à 6 puzzles par page grâce au contrôle « Puzzles Par Page ». La mise en page s\'ajuste automatiquement au nombre sélectionné. Utilisez 1–2 puzzles par page pour les jeunes apprenants qui ont besoin de plus d\'espace, ou 4–6 par page pour des fiches de pratique compactes et des produits de type cahier d\'activités.',
+      answer: 'Vous pouvez placer de 1 à 6 puzzles par page grâce au contrôle \" Puzzles Par Page \". La mise en page s\'ajuste automatiquement au nombre sélectionné. Utilisez 1–2 puzzles par page pour les jeunes apprenants qui ont besoin de plus d\'espace, ou 4–6 par page pour des fiches de pratique compactes et des produits de type cahier d\'activités.',
     },
     {
       question: 'Les puzzles fonctionnent-ils dans toutes les langues ?',

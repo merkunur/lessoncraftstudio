@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Rutmatchning Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta rutnätsmatchnings arbetsblad generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta rutnätsmatchnings arbetsblad generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Konfigurera rutnätsstorleken',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera rutmatchningspusslet',
-        description: 'Klicka på Generera. Appen delar upp din valda bild i det konfigurerade rutnätet, visar ledtrådscellerna med faktiska bildplattor synliga och markerar återstående celler med «?»-platshållare. Alla dolda plattor blandas med Fisher-Yates-randomisering och visas som en numrerad palett. Den responsiva layouten anpassas automatiskt efter sidorientering. En stiliserad rubrik med cyan bakgrund (#00BCD4), djuplila titel (#6A1B9A) och orange ramkant (#FF8C42) visar «Rutmatchning» och instruktioner.',
+        description: 'Klicka på Generera. Appen delar upp din valda bild i det konfigurerade rutnätet, visar ledtrådscellerna med faktiska bildplattor synliga och markerar återstående celler med \"?\"-platshållare. Alla dolda plattor blandas med Fisher-Yates-randomisering och visas som en numrerad palett. Den responsiva layouten anpassas automatiskt efter sidorientering. En stiliserad rubrik med cyan bakgrund (#00BCD4), djuplila titel (#6A1B9A) och orange ramkant (#FF8C42) visar \"Rutmatchning\" och instruktioner.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP visuell perception arbetsboksserie',
-      description: 'Sammanställ 60–80 rutnätsmatchningspussel till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter svårighetsprogression: «Enkla Rutnätspussel» använder 2×2-rutnät med 3 ledtrådar, «Medel Rutnätspussel» använder 3×3-rutnät med 2 ledtrådar, «Avancerade Rutnätspussel» använder 4×4-rutnät med 1 ledtråd. Facitsidor med numrerade cirkelöverlägg i slutet. Det rent visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
+      description: 'Sammanställ 60–80 rutnätsmatchningspussel till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter svårighetsprogression: \"Enkla Rutnätspussel\" använder 2×2-rutnät med 3 ledtrådar, \"Medel Rutnätspussel\" använder 3×3-rutnät med 2 ledtrådar, \"Avancerade Rutnätspussel\" använder 4×4-rutnät med 1 ledtråd. Facitsidor med numrerade cirkelöverlägg i slutet. Det rent visuella formatet publiceras identiskt på alla internationella KDP-marknadsplatser.',
       platform: 'Amazon KDP',
     },
     {
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar rutnätsmatchningspusslet?',
-      answer: 'Arbetsbladet visar en enda bild uppdelad i ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar «?»-platshållare. Bredvid eller under rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. användarna granskar de synliga ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör i varje tom rutnätsposition. Konfigurera rutnätet från 2×2 (4 plattor) till 4×4 (16 plattor) och ställ in 1–5 ledtrådsceller.',
+      answer: 'Arbetsbladet visar en enda bild uppdelad i ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar \"?\"-platshållare. Bredvid eller under rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. användarna granskar de synliga ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör i varje tom rutnätsposition. Konfigurera rutnätet från 2×2 (4 plattor) till 4×4 (16 plattor) och ställ in 1–5 ledtrådsceller.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',

@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Intestazione autogenerata e adattabile con testo localizzato',
         description:
-          'Ogni scheda include un\'intestazione autogenerata che si adatta all\'orientamento della pagina. La modalità Verticale presenta un\'intestazione grande centrata con un bordo esterno magenta e un bordo interno rosa. La modalità Orizzontale usa un\'intestazione compatta centrata con sfondo verde lime e un riquadro bianco. Il testo dell\'intestazione è automaticamente localizzato nelle 11 lingue supportate — «Disegna e Colora» in italiano, «Draw and Color» in inglese, «Zeichnen & Ausmalen» in tedesco, ecc. Le intestazioni sono completamente modificabili sul canvas: seleziona, sposta, ridimensiona o eliminale. Questa localizzazione automatica permette ai venditori di creare prodotti multilingue senza traduzione manuale delle intestazioni.',
+          'Ogni scheda include un\'intestazione autogenerata che si adatta all\'orientamento della pagina. La modalità Verticale presenta un\'intestazione grande centrata con un bordo esterno magenta e un bordo interno rosa. La modalità Orizzontale usa un\'intestazione compatta centrata con sfondo verde lime e un riquadro bianco. Il testo dell\'intestazione è automaticamente localizzato nelle 11 lingue supportate — \"Disegna e Colora\" in italiano, \"Draw and Color\" in inglese, \"Zeichnen & Ausmalen\" in tedesco, ecc. Le intestazioni sono completamente modificabili sul canvas: seleziona, sposta, ridimensiona o eliminale. Questa localizzazione automatica permette ai venditori di creare prodotti multilingue senza traduzione manuale delle intestazioni.',
       },
       {
         title: 'Esportazione PDF e JPEG pronta per la stampa a 300 DPI',

@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Odd One Out Worksheet Generator for Find-the-Different Puzzles',
     tagline: 'Two generation modes — Identical and Similar — with per-exercise difficulty override, 5–10 configurable exercises, auto-generated answer keys with red circle markers, and visual-only puzzles that work across all 11 languages without translation.',
     description:
-      'Build professional find-the-different worksheets where solvers identify and circle the odd item in each row of four pictures. Choose between two generation modes: Identical mode places three clones of the same image alongside one different image from the same theme for spot-the-difference challenges, while Similar mode draws three images from Theme A and one image from Theme B for cross-theme discrimination puzzles. Override the mode per exercise to mix difficulty levels within a single worksheet. Configure 5 to 10 exercises per page with the default set to 6, and toggle optional name and date fields and exercise numbers for polished formatting. Every worksheet generates a companion answer key on a separate canvas tab — the answer key draws a red circle around the odd item in each row so you never mark answers manually. The auto-generated header features a coral outer border, amber inner border, and turquoise background with the localized title “Find the Odd One Out” rendered in Fredoka and instructions in Quicksand across all 11 languages. Because the puzzles are entirely visual — no words appear on the worksheet itself — they are not language-sensitive and work identically in every locale. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile critical thinking workbooks for Amazon KDP, or list products on Gumroad, this generator delivers production-ready odd one out worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional find-the-different worksheets where solvers identify and circle the odd item in each row of four pictures. Choose between two generation modes: Identical mode places three clones of the same image alongside one different image from the same theme for spot-the-difference challenges, while Similar mode draws three images from Theme A and one image from Theme B for cross-theme discrimination puzzles. Override the mode per exercise to mix difficulty levels within a single worksheet. Configure 5 to 10 exercises per page with the default set to 6, and toggle optional name and date fields and exercise numbers for polished formatting. Every worksheet generates a companion answer key on a separate canvas tab — the answer key draws a red circle around the odd item in each row so you never mark answers manually. The auto-generated header features a coral outer border, amber inner border, and turquoise background with the localized title \"Find the Odd One Out\" rendered in Fredoka and instructions in Quicksand across all 11 languages. Because the puzzles are entirely visual — no words appear on the worksheet itself — they are not language-sensitive and work identically in every locale. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile critical thinking workbooks for Amazon KDP, or list products on Gumroad, this generator delivers production-ready odd one out worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configure Your Exercises',
         description:
-          'Open the Exercise Configuration panel and set the exercise count from 5 to 10 (default 6). Select a global generation mode: Identical mode uses three clones of the same image plus one different image from the same theme, while Similar mode draws three images from Theme A and one image from Theme B. Override the mode per exercise using dropdown selectors on each row — mix Identical and Similar exercises on a single worksheet for progressive difficulty. Toggle the “Include Name/Date Fields” checkbox to add name and date lines, and toggle “Include Exercise Numbers” to display numerals on the left side of each exercise card.',
+          'Open the Exercise Configuration panel and set the exercise count from 5 to 10 (default 6). Select a global generation mode: Identical mode uses three clones of the same image plus one different image from the same theme, while Similar mode draws three images from Theme A and one image from Theme B. Override the mode per exercise using dropdown selectors on each row — mix Identical and Similar exercises on a single worksheet for progressive difficulty. Toggle the \"Include Name/Date Fields\" checkbox to add name and date lines, and toggle \"Include Exercise Numbers\" to display numerals on the left side of each exercise card.',
       },
       {
         title: 'Select Themes and Images',
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Generate the Odd One Out Worksheet',
         description:
-          'Click Generate to create the exercise cards. Each card displays four images in a horizontal row — three common items and one odd item with its position randomly shuffled. The app arranges cards in 1–2 columns depending on page orientation and exercise count (2 columns for landscape or portrait with 7+ exercises). A styled “Find the Odd One Out” header appears at the top with a coral outer border (#FF6B6B, 8px stroke), amber inner border (#FFB84D, 3px stroke), and turquoise background (#4ECDC4) — with the title in dark teal Fredoka (#1A535C) and instructions in red Quicksand (#E63946).',
+          'Click Generate to create the exercise cards. Each card displays four images in a horizontal row — three common items and one odd item with its position randomly shuffled. The app arranges cards in 1–2 columns depending on page orientation and exercise count (2 columns for landscape or portrait with 7+ exercises). A styled \"Find the Odd One Out\" header appears at the top with a coral outer border (#FF6B6B, 8px stroke), amber inner border (#FFB84D, 3px stroke), and turquoise background (#4ECDC4) — with the title in dark teal Fredoka (#1A535C) and instructions in red Quicksand (#E63946).',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -67,7 +67,7 @@ const content: AppContent = {
       {
         title: 'Per-Exercise Mode Override for Mixed-Difficulty Worksheets',
         description:
-          'Each exercise row includes its own mode dropdown selector, letting you override the global mode on a per-exercise basis. Start with easy Identical exercises at the top and transition to harder Similar exercises toward the bottom — or alternate modes throughout for varied challenge. A “Clear Selections” button resets all per-exercise overrides back to the global setting. This granular control lets sellers create progressive-difficulty worksheets that serve multiple skill levels on a single page, increasing the perceived value of each printable.',
+          'Each exercise row includes its own mode dropdown selector, letting you override the global mode on a per-exercise basis. Start with easy Identical exercises at the top and transition to harder Similar exercises toward the bottom — or alternate modes throughout for varied challenge. A \"Clear Selections\" button resets all per-exercise overrides back to the global setting. This granular control lets sellers create progressive-difficulty worksheets that serve multiple skill levels on a single page, increasing the perceived value of each printable.',
       },
       {
         title: 'Configurable Exercise Count from 5 to 10 Per Worksheet',
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'How does the per-exercise mode override work?',
       answer:
-        'Each exercise row includes its own mode dropdown that lets you override the global mode setting. Set the global mode to Similar, then switch individual exercises to Identical — or vice versa. This creates mixed-difficulty worksheets where some exercises are easier (Identical) and others are harder (Similar) on the same page. A “Clear Selections” button resets all per-exercise overrides back to the global setting.',
+        'Each exercise row includes its own mode dropdown that lets you override the global mode setting. Set the global mode to Similar, then switch individual exercises to Identical — or vice versa. This creates mixed-difficulty worksheets where some exercises are easier (Identical) and others are harder (Similar) on the same page. A \"Clear Selections\" button resets all per-exercise overrides back to the global setting.',
     },
     {
       question: 'How many exercises can I include on one worksheet?',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Can I add name and date fields to odd one out worksheets?',
       answer:
-        'Yes. Toggle the “Include Name/Date Fields” checkbox in the Exercise Configuration panel to add name and date lines. These fields position responsively based on the page layout. Name and date fields give worksheets a polished, professional look that buyers expect from premium printable products.',
+        'Yes. Toggle the \"Include Name/Date Fields\" checkbox in the Exercise Configuration panel to add name and date lines. These fields position responsively based on the page layout. Name and date fields give worksheets a polished, professional look that buyers expect from premium printable products.',
     },
     {
       question: 'How do exercise numbers work?',
       answer:
-        'Toggle the “Include Exercise Numbers” checkbox in the Exercise Configuration panel to display numerals on the left side of each exercise card. Numbers use a 25px width with a 15px gap from the card content. Exercise numbers add a professional touch and make it easy to reference specific exercises in product descriptions.',
+        'Toggle the \"Include Exercise Numbers\" checkbox in the Exercise Configuration panel to display numerals on the left side of each exercise card. Numbers use a 25px width with a 15px gap from the card content. Exercise numbers add a professional touch and make it easy to reference specific exercises in product descriptions.',
     },
     {
       question: 'Is there a free trial?',
@@ -187,7 +187,7 @@ const content: AppContent = {
     {
       question: 'Are odd one out worksheets language-sensitive?',
       answer:
-        'No. Unlike apps that display words on the worksheet, odd one out puzzles are entirely visual — no text appears on the puzzle content itself. The auto-generated header (“Find the Odd One Out”) translates into all 11 supported languages, but the actual exercises contain only images. This means every worksheet works in any language without modification, making odd one out puzzles ideal for global marketplace sales.',
+        'No. Unlike apps that display words on the worksheet, odd one out puzzles are entirely visual — no text appears on the puzzle content itself. The auto-generated header (\"Find the Odd One Out\") translates into all 11 supported languages, but the actual exercises contain only images. This means every worksheet works in any language without modification, making odd one out puzzles ideal for global marketplace sales.',
     },
     {
       question: 'Can I sell odd one out worksheets made with this tool on Etsy and Amazon KDP?',

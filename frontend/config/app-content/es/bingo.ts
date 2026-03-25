@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configurar los ajustes de la tarjeta de bingo',
         description:
-          'Abre el panel Ajustes de la Tarjeta de Bingo y establece las filas (3 a 5) y las columnas (3 a 5) para definir el tamaño de tu cuadrícula — el valor predeterminado es 4×4 con 16 celdas. Ajusta el número de tarjetas de 1 a 10 para generar por lotes múltiples tarjetas de bingo únicas. Elige el relleno de las celdas (Imagen o Palabra) y el relleno de las fichas (Imagen o Palabra) de forma independiente — mezcla tarjetas con imágenes y fichas con palabras, tarjetas con palabras y fichas con imágenes, o combina ambos. Activa la casilla «Usar selección personalizada» para elegir manualmente las imágenes específicas para el cantado en lugar de la selección automática.',
+          'Abre el panel Ajustes de la Tarjeta de Bingo y establece las filas (3 a 5) y las columnas (3 a 5) para definir el tamaño de tu cuadrícula — el valor predeterminado es 4×4 con 16 celdas. Ajusta el número de tarjetas de 1 a 10 para generar por lotes múltiples tarjetas de bingo únicas. Elige el relleno de las celdas (Imagen o Palabra) y el relleno de las fichas (Imagen o Palabra) de forma independiente — mezcla tarjetas con imágenes y fichas con palabras, tarjetas con palabras y fichas con imágenes, o combina ambos. Activa la casilla \"Usar selección personalizada\" para elegir manualmente las imágenes específicas para el cantado en lugar de la selección automática.',
       },
       {
         title: 'Seleccionar imágenes de la biblioteca',
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: '¿Qué es la selección personalizada de cantado?',
       answer:
-        'Activa la casilla «Usar selección personalizada» en el panel Ajustes de la Tarjeta de Bingo para elegir manualmente qué imágenes específicas aparecen en el banco de cantado. Cuando está activada, haz clic en las imágenes en la Biblioteca de Imágenes para añadirlas a tu selección personalizada — un contador en tiempo real muestra «Seleccionados para cantado personalizado: X» a medida que eliges. Esto te da un control preciso sobre qué elementos aparecen en el juego de bingo, útil para actividades alineadas con el catálogo de productos o eventos temáticos que requieren vocabulario específico.',
+        'Activa la casilla \"Usar selección personalizada\" en el panel Ajustes de la Tarjeta de Bingo para elegir manualmente qué imágenes específicas aparecen en el banco de cantado. Cuando está activada, haz clic en las imágenes en la Biblioteca de Imágenes para añadirlas a tu selección personalizada — un contador en tiempo real muestra \"Seleccionados para cantado personalizado: X\" a medida que eliges. Esto te da un control preciso sobre qué elementos aparecen en el juego de bingo, útil para actividades alineadas con el catálogo de productos o eventos temáticos que requieren vocabulario específico.',
     },
     {
       question: '¿Es el Generador de Tarjetas de Bingo con Imágenes sensible al idioma?',
       answer:
-        'Sí. En modo relleno de palabras para las celdas o las fichas, las palabras mostradas son los nombres localizados de las imágenes de la Biblioteca de Imágenes. Cambiar el idioma en los Ajustes de la Ficha modifica las palabras en las tarjetas, las fichas y la hoja de cantado. Por ejemplo, una imagen de gato muestra «Gato» en español pero «Katze» en alemán y «Cat» en inglés. La Licencia Comercial incluye 10 temas en color con inglés únicamente; el Acceso Completo desbloquea los 104 temas y los 11 idiomas para contenido textual localizado.',
+        'Sí. En modo relleno de palabras para las celdas o las fichas, las palabras mostradas son los nombres localizados de las imágenes de la Biblioteca de Imágenes. Cambiar el idioma en los Ajustes de la Ficha modifica las palabras en las tarjetas, las fichas y la hoja de cantado. Por ejemplo, una imagen de gato muestra \"Gato\" en español pero \"Katze\" en alemán y \"Cat\" en inglés. La Licencia Comercial incluye 10 temas en color con inglés únicamente; el Acceso Completo desbloquea los 104 temas y los 11 idiomas para contenido textual localizado.',
     },
     {
       question: '¿Por qué no hay clave de respuestas para las tarjetas de bingo?',
       answer:
-        'Las tarjetas de bingo utilizan una hoja de cantado en lugar de una clave de respuestas. En el bingo, el cantador lee los elementos de la hoja de cantado mientras los jugadores marcan los elementos correspondientes en sus tarjetas únicas — no hay una única «respuesta correcta» ya que la tarjeta de cada jugador tiene elementos diferentes en posiciones diferentes. La hoja de cantado sirve como documento de referencia del juego, listando todos los elementos posibles que el cantador puede anunciar durante la partida.',
+        'Las tarjetas de bingo utilizan una hoja de cantado en lugar de una clave de respuestas. En el bingo, el cantador lee los elementos de la hoja de cantado mientras los jugadores marcan los elementos correspondientes en sus tarjetas únicas — no hay una única \"respuesta correcta\" ya que la tarjeta de cada jugador tiene elementos diferentes en posiciones diferentes. La hoja de cantado sirve como documento de referencia del juego, listando todos los elementos posibles que el cantador puede anunciar durante la partida.',
     },
     {
       question: '¿Hay una prueba gratis?',

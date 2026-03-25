@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir el Generador de Sopa de Letras',
-        description: 'Haz clic en «Probar Gratis» para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas crear cuenta, descargar software ni instalar nada — empieza a crear sopas de letras inmediatamente.',
+        description: 'Haz clic en \"Probar Gratis\" para abrir el generador en tu navegador. La herramienta se carga al instante con una barra lateral de ajustes a la izquierda y un lienzo de vista previa en tiempo real a la derecha. No necesitas crear cuenta, descargar software ni instalar nada — empieza a crear sopas de letras inmediatamente.',
       },
       {
         title: 'Configurar el Diseño de Página y la Plantilla',
-        description: 'En la sección «Configuración de Página», selecciona tu tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha del selector. Define el color de página, añade un fondo temático con opacidad ajustable de la biblioteca de 104 temas y selecciona un marco decorativo.',
+        description: 'En la sección \"Configuración de Página\", selecciona tu tamaño de página: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado o introduce un tamaño personalizado. Elige una plantilla de ficha del selector. Define el color de página, añade un fondo temático con opacidad ajustable de la biblioteca de 104 temas y selecciona un marco decorativo.',
       },
       {
         title: 'Elegir la Fuente de Contenido',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generar la Clave de Respuestas y Descargar',
-        description: 'Haz clic en «Generar» para crear tu ficha de sopa de letras con las palabras ocultas incrustadas en la cuadrícula. Cambia a la pestaña Clave de Respuestas y genera una versión resuelta codificada por colores donde cada palabra se resalta en uno de seis colores cíclicos — rosa, azul, verde, dorado, coral y lavanda. Activa el modo Escala de Grises para impresión con ahorro de tinta. Descarga tanto la ficha como la clave de respuestas como PDF listo para imprimir o JPEG de alta resolución a más de 400 DPI.',
+        description: 'Haz clic en \"Generar\" para crear tu ficha de sopa de letras con las palabras ocultas incrustadas en la cuadrícula. Cambia a la pestaña Clave de Respuestas y genera una versión resuelta codificada por colores donde cada palabra se resalta en uno de seis colores cíclicos — rosa, azul, verde, dorado, coral y lavanda. Activa el modo Escala de Grises para impresión con ahorro de tinta. Descarga tanto la ficha como la clave de respuestas como PDF listo para imprimir o JPEG de alta resolución a más de 400 DPI.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Productos de Sopa de Letras Multilingüe',
-      description: 'Cambia el idioma y regenera el mismo diseño de ficha en los 11 idiomas disponibles. Tanto las palabras ocultas como las letras de relleno de la cuadrícula cambian por idioma — «Perro» en español aparece en una cuadrícula rellenada con ñ, á, é, «Hund» en una cuadrícula alemana con ä, ö, ü, «chien» en una cuadrícula francesa con é, è, ç. Cada versión lingüística es un producto genuinamente diferente con palabras distintas, caracteres de relleno diferentes y una experiencia de resolución diferente. Una sesión de diseño produce 11 productos distintos.',
+      description: 'Cambia el idioma y regenera el mismo diseño de ficha en los 11 idiomas disponibles. Tanto las palabras ocultas como las letras de relleno de la cuadrícula cambian por idioma — \"Perro\" en español aparece en una cuadrícula rellenada con ñ, á, é, \"Hund\" en una cuadrícula alemana con ä, ö, ü, \"chien\" en una cuadrícula francesa con é, è, ç. Cada versión lingüística es un producto genuinamente diferente con palabras distintas, caracteres de relleno diferentes y una experiencia de resolución diferente. Una sesión de diseño produce 11 productos distintos.',
     },
     {
       title: 'Sopas de Letras con Vocabulario Personalizado',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs Estacionales y de Festividades',
-      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de «Sopa de Letras de Halloween» con vocabulario espeluznante en cuadrículas progresivamente más grandes se vende muy bien en octubre. Navidad, vuelta al cole, primavera y verano tienen sus propias ventanas de ventas pico en Etsy y Gumroad. Combina cuadrículas fáciles para usuarios pequeños con cuadrículas difíciles para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
+      description: 'Usa temas de imágenes festivas y estacionales para crear packs de edición limitada. Un pack de \"Sopa de Letras de Halloween\" con vocabulario espeluznante en cuadrículas progresivamente más grandes se vende muy bien en octubre. Navidad, vuelta al cole, primavera y verano tienen sus propias ventanas de ventas pico en Etsy y Gumroad. Combina cuadrículas fáciles para usuarios pequeños con cuadrículas difíciles para mayores en un solo pack estacional para maximizar tu audiencia de compradores.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Serie de Cuadernos Temáticos para Amazon KDP',
-      description: 'Compila más de 80 sopas de letras en un cuaderno temático para Amazon KDP. Estructura una serie alrededor de temas populares: «Sopa de Letras de Animales», «Sopa de Letras de Comida y Cocina», «Sopa de Letras de Naturaleza y Ciencia». Cada cuaderno usa tamaños de cuadrícula progresivos de 6×6 a 25×25 con claves de respuestas al final. Usa el modo escala de grises para reducir costes de impresión. Los cuadernos de sopa de letras se venden consistentemente todo el año en Amazon. Publica ediciones separadas por idioma usando la función de relleno adaptado al idioma para multiplicar tu catálogo.',
+      description: 'Compila más de 80 sopas de letras en un cuaderno temático para Amazon KDP. Estructura una serie alrededor de temas populares: \"Sopa de Letras de Animales\", \"Sopa de Letras de Comida y Cocina\", \"Sopa de Letras de Naturaleza y Ciencia\". Cada cuaderno usa tamaños de cuadrícula progresivos de 6×6 a 25×25 con claves de respuestas al final. Usa el modo escala de grises para reducir costes de impresión. Los cuadernos de sopa de letras se venden consistentemente todo el año en Amazon. Publica ediciones separadas por idioma usando la función de relleno adaptado al idioma para multiplicar tu catálogo.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros de Vocabulario en Gumroad',
-      description: 'Sube packs de sopas de letras a Gumroad organizados por tema y dificultad. Incluye cuatro niveles de dificultad por tema usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Empaqueta con claves de respuestas codificadas por colores y hojas de seguimiento del progreso del usuario. Los vendedores buscan «actividades de vocabulario» y «sopa de letras» frecuentemente. La dificultad ajustable significa que un solo producto sirve para un tienda completa con habilidades mixtas, algo que los vendedores valoran mucho y mencionan en las reseñas.',
+      description: 'Sube packs de sopas de letras a Gumroad organizados por tema y dificultad. Incluye cuatro niveles de dificultad por tema usando el tamaño de cuadrícula y los controles de dirección como ejes de diferenciación. Empaqueta con claves de respuestas codificadas por colores y hojas de seguimiento del progreso del usuario. Los vendedores buscan \"actividades de vocabulario\" y \"sopa de letras\" frecuentemente. La dificultad ajustable significa que un solo producto sirve para un tienda completa con habilidades mixtas, algo que los vendedores valoran mucho y mencionan en las reseñas.',
       platform: 'Gumroad',
     },
     {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Las Claves de Respuestas Codificadas por Colores Añaden Valor Profesional',
-      description: 'La clave de respuestas en seis colores — rosa, azul, verde, dorado, coral, lavanda — resalta cada palabra de forma distinta, incluso cuando las palabras se cruzan o superponen en la cuadrícula. Incluye siempre claves de respuestas en tus packs de productos. Los vendedores las esperan, los padres las agradecen, y el formato codificado por colores luce profesional en las vistas previas de tus listings en comparación con claves de respuestas simples de tipo «rodea la palabra».',
+      description: 'La clave de respuestas en seis colores — rosa, azul, verde, dorado, coral, lavanda — resalta cada palabra de forma distinta, incluso cuando las palabras se cruzan o superponen en la cuadrícula. Incluye siempre claves de respuestas en tus packs de productos. Los vendedores las esperan, los padres las agradecen, y el formato codificado por colores luce profesional en las vistas previas de tus listings en comparación con claves de respuestas simples de tipo \"rodea la palabra\".',
     },
     {
       title: 'Combina con Otras Herramientas de Vocabulario para Packs Premium',

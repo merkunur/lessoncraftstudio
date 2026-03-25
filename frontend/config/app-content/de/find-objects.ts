@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Namens- und Datumsfelder mit Schalter-Steuerung',
         description:
-          'Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:“ und „Datum:“-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten, bei denen Nutzerinformationen auf dem Umschlag stehen. Die Felder werden sauber neben dem automatisch generierten Header und der Legende gerendert.',
+          'Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt \"Name:\" und \"Datum:\"-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten, bei denen Nutzerinformationen auf dem Umschlag stehen. Die Felder werden sauber neben dem automatisch generierten Header und der Legende gerendert.',
       },
       {
         title: 'Bildbibliothek mit 104 thematischen Sammlungen und über 3.100 Illustrationen',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Kann ich Namens- und Datumsfelder zum Arbeitsblatt hinzufügen?',
       answer:
-        'Ja. Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:“ und „Datum:“-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Ihre Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten.',
+        'Ja. Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt \"Name:\" und \"Datum:\"-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Ihre Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten.',
     },
     {
       question: 'Wie funktioniert der automatisch angepasste Header?',

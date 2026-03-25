@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Multilingual Word Search Products with Full Access',
         description:
-          'Full Access unlocks all 11 languages, and because Word Search is language-sensitive, both the hidden words and the grid filler letters change by language. “Dog” in English becomes “Hund” in a grid filled with German characters including ä, ö, ü; “chien” in French appears in a grid with é, è, ç, à. Each language version is a genuinely different product with different words, different filler characters, and a different solving experience. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
+          'Full Access unlocks all 11 languages, and because Word Search is language-sensitive, both the hidden words and the grid filler letters change by language. \"Dog\" in English becomes \"Hund\" in a grid filled with German characters including ä, ö, ü; \"chien\" in French appears in a grid with é, è, ç, à. Each language version is a genuinely different product with different words, different filler characters, and a different solving experience. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {

@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'O gerador cria gabaritos automaticamente?',
       answer:
-        'Sim. Clique no botão Gerar Gabarito para criar uma versão resolvida mostrando cada vagão com a sua associação letra-imagem correta e todas as pistas resolvidas. Pode pré-visualizá-lo no ecrã e descarregá-lo como ficheiro JPEG ou PDF separado para incluir em edições do vendedor ou pacotes de produtos. Ter um gabarito pronto acrescenta valor percebido às suas listagens e permite-lhe indicar «gabarito incluído» — um detalhe que os compradores da Etsy e do Gumroad filtram especificamente ao comparar produtos concorrentes.',
+        'Sim. Clique no botão Gerar Gabarito para criar uma versão resolvida mostrando cada vagão com a sua associação letra-imagem correta e todas as pistas resolvidas. Pode pré-visualizá-lo no ecrã e descarregá-lo como ficheiro JPEG ou PDF separado para incluir em edições do vendedor ou pacotes de produtos. Ter um gabarito pronto acrescenta valor percebido às suas listagens e permite-lhe indicar \"gabarito incluído\" — um detalhe que os compradores da Etsy e do Gumroad filtram especificamente ao comparar produtos concorrentes.',
     },
     {
       question: 'Existe um teste grátis?',

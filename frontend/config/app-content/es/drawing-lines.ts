@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Configurar el diseño de página',
         description:
-          'Abre el panel Diseño de Página y elige un formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página, elige un tema decorativo de fondo desde la biblioteca de imágenes y ajusta su opacidad, luego añade un marco de borde a juego con control de opacidad independiente. El encabezado autogenerado muestra un banner verde vibrante con el título «Práctica de Trazado de Líneas» y el subtítulo «¡Traza líneas para conectar las imágenes que van juntas!» — todo localizado en 11 idiomas. Un borde exterior coral y un borde interior amarillo sol enmarcan la página automáticamente.',
+          'Abre el panel Diseño de Página y elige un formato: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Cuadrado (1200×1200) o cualquier dimensión personalizada. Selecciona un color de página, elige un tema decorativo de fondo desde la biblioteca de imágenes y ajusta su opacidad, luego añade un marco de borde a juego con control de opacidad independiente. El encabezado autogenerado muestra un banner verde vibrante con el título \"Práctica de Trazado de Líneas\" y el subtítulo \"¡Traza líneas para conectar las imágenes que van juntas!\" — todo localizado en 11 idiomas. Un borde exterior coral y un borde interior amarillo sol enmarcan la página automáticamente.',
       },
       {
         title: 'Seleccionar una plantilla de líneas',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Encabezado autogenerado localizado con bordes de página vibrantes',
         description:
-          'Cada ficha incluye un encabezado autogenerado con un fondo verde vibrante (#51CF66) y un título verde bosque profundo (#2D5016). El título predeterminado «Práctica de Trazado de Líneas» y el subtítulo «¡Traza líneas para conectar las imágenes que van juntas!» están localizados en los 11 idiomas. El modo vertical muestra un encabezado a ancho completo; el modo horizontal usa un formato compacto centrado. Un borde exterior coral (#FF6B6B, trazo de 8px) y un borde interior amarillo sol (#FFD93D, trazo de 3px) enmarcan cada página con esquinas redondeadas. Los elementos del encabezado son completamente editables — selecciona, mueve y redimensiona para adaptarlos a tu marca.',
+          'Cada ficha incluye un encabezado autogenerado con un fondo verde vibrante (#51CF66) y un título verde bosque profundo (#2D5016). El título predeterminado \"Práctica de Trazado de Líneas\" y el subtítulo \"¡Traza líneas para conectar las imágenes que van juntas!\" están localizados en los 11 idiomas. El modo vertical muestra un encabezado a ancho completo; el modo horizontal usa un formato compacto centrado. Un borde exterior coral (#FF6B6B, trazo de 8px) y un borde interior amarillo sol (#FFD93D, trazo de 3px) enmarcan cada página con esquinas redondeadas. Los elementos del encabezado son completamente editables — selecciona, mueve y redimensiona para adaptarlos a tu marca.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a 300 DPI',

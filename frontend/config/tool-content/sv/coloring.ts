@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Målarsida Skapare',
     tagline: 'Fri arbetsyta målarsida generator med frihandsritning, gråskaleexport, produktlinjeshjälpare och 104 tematiska bildsamlingar för professionella målarsidor som säljer globalt utan översättning',
-    description: 'Designa professionella målarsidor på en helt öppen arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, inga fack, ren kreativ frihet. Denna fria metod är kärndifferentiatorn: varje målarsida du skapar är unik och omöjlig att replikera med mallbaserade verktyg. Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer, klicka för att lägga till bilder, arrangera sedan, ändra storlek, rotera och lagra element var som helst på arbetsytan. Frihandsritningsverktyget låter dig skissa originella illustrationer direkt bredvid biblioteksbilder med justerbar penselfärg och storlek (1–50 pixlar), vilket skapar hybridmålarsidor som blandar kurerat konstverk med dina egna ritningar. Ettklicks produktlinjeshjälpare lägger till ett namnfält («Namn: ____») och skrivövningslinjer (heldragen, streckad, heldragen) — förvandlar målarsidor till produktlinjesfärdiga aktivitetsblad som säljer på Gumroad. Växla gråskaleexport för att konvertera din färgglada komposition till bläckvänliga målarsidor perfekta för KDP-interiörer och volymutskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter, och ladda upp egna PNG-, JPG- eller GIF-bilder. Detta är en helt visuell app — utmatningen innehåller ingen text, vilket gör målarsidor universellt säljbara utan översättning. Inget facit existerar eftersom färgläggning är en kreativ aktivitet utan korrekt svar. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Designa professionella målarsidor på en helt öppen arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, inga fack, ren kreativ frihet. Denna fria metod är kärndifferentiatorn: varje målarsida du skapar är unik och omöjlig att replikera med mallbaserade verktyg. Bläddra bland 104 tematiska bildsamlingar med mer än 3 100 färgglada illustrationer, klicka för att lägga till bilder, arrangera sedan, ändra storlek, rotera och lagra element var som helst på arbetsytan. Frihandsritningsverktyget låter dig skissa originella illustrationer direkt bredvid biblioteksbilder med justerbar penselfärg och storlek (1–50 pixlar), vilket skapar hybridmålarsidor som blandar kurerat konstverk med dina egna ritningar. Ettklicks produktlinjeshjälpare lägger till ett namnfält (\"Namn: ____\") och skrivövningslinjer (heldragen, streckad, heldragen) — förvandlar målarsidor till produktlinjesfärdiga aktivitetsblad som säljer på Gumroad. Växla gråskaleexport för att konvertera din färgglada komposition till bläckvänliga målarsidor perfekta för KDP-interiörer och volymutskrift. Lägg till dekorativa ramteman, anpassad text med kontureffekter, och ladda upp egna PNG-, JPG- eller GIF-bilder. Detta är en helt visuell app — utmatningen innehåller ingen text, vilket gör målarsidor universellt säljbara utan översättning. Inget facit existerar eftersom färgläggning är en kreativ aktivitet utan korrekt svar. Exportera tryckfärdiga PDF:er och JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller anpassade storlekar. Den gratis provversionen innehåller alla funktioner med en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Målarsida Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta målarsidegeneratorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga målarsidor omedelbart på den fria arbetsytan.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta målarsidegeneratorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga målarsidor omedelbart på den fria arbetsytan.',
       },
       {
         title: 'Ställ in sidlayout och ram',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till produktlinjeshjälpare och text',
-        description: 'Klicka på Namnfältsknappen för att lägga till ett formaterat «Namn: ____» textblock överst på sidan. Klicka på Skrivövningslinjer-knappen för att lägga till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten för skrivövning. Dessa ettklicks produktlinjeshjälpare förvandlar målarsidor till färdiga aktivitetsblad. Lägg till titlar, instruktioner eller etiketter med Textverktygen med typsnitt som Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana.',
+        description: 'Klicka på Namnfältsknappen för att lägga till ett formaterat \"Namn: ____\" textblock överst på sidan. Klicka på Skrivövningslinjer-knappen för att lägga till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nära botten för skrivövning. Dessa ettklicks produktlinjeshjälpare förvandlar målarsidor till färdiga aktivitetsblad. Lägg till titlar, instruktioner eller etiketter med Textverktygen med typsnitt som Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial och Verdana.',
       },
       {
         title: 'Växla gråskala och exportera',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'produktlinjes målaraktivitetsblad',
-      description: 'Använd ettklicks produktlinjeshjälparna för att skapa målarsidor med inbyggda namnfält och skrivövningslinjer. Namnfältet lägger till «Namn: ____» överst. Skrivövningslinjerna lägger till heldragen-streckad-heldragen övningslinjer nertill. Dessa två tillägg förvandlar vanliga målarsidor till strukturerade produktlinjesaktiviteter som Gumroad-köpare specifikt söker efter. Skapa tematiska set anpassade till produktkatalogsämnen.',
+      description: 'Använd ettklicks produktlinjeshjälparna för att skapa målarsidor med inbyggda namnfält och skrivövningslinjer. Namnfältet lägger till \"Namn: ____\" överst. Skrivövningslinjerna lägger till heldragen-streckad-heldragen övningslinjer nertill. Dessa två tillägg förvandlar vanliga målarsidor till strukturerade produktlinjesaktiviteter som Gumroad-köpare specifikt söker efter. Skapa tematiska set anpassade till produktkatalogsämnen.',
     },
     {
       title: 'Hybridillustration målarsidor',
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Lägg till produktlinjeshjälpare för att motivera högre priser',
-      description: 'Målarsidor med namnfält och skrivövningslinjer säljer för mer än generiska målarsidor eftersom de tjänar ett funktionellt produktlinjessyfte. säljare på Gumroad söker specifikt efter «produktlinjesfärdiga» målaraktiviteter med identifieringsområden. Att lägga till dessa ettklickshjälpare tar sekunder men förvandlar din produkt.',
+      description: 'Målarsidor med namnfält och skrivövningslinjer säljer för mer än generiska målarsidor eftersom de tjänar ett funktionellt produktlinjessyfte. säljare på Gumroad söker specifikt efter \"produktlinjesfärdiga\" målaraktiviteter med identifieringsområden. Att lägga till dessa ettklickshjälpare tar sekunder men förvandlar din produkt.',
     },
     {
       title: 'Kombinera frihandsritning med biblioteksbilder',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Vad är produktlinjeshjälparna?',
-      answer: 'Två ettklicksknappar lägger till produktlinjesfärdiga element. Namnfältsknappen placerar ett formaterat «Namn: ____» textblock överst på sidan. Skrivövningslinjer-knappen lägger till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nertill för skrivövning. Dessa hjälpare förvandlar målarsidor till strukturerade produktlinjesaktiviteter utan manuell textformatering.',
+      answer: 'Två ettklicksknappar lägger till produktlinjesfärdiga element. Namnfältsknappen placerar ett formaterat \"Namn: ____\" textblock överst på sidan. Skrivövningslinjer-knappen lägger till tre jämnt fördelade linjer (heldragen, streckad, heldragen) nertill för skrivövning. Dessa hjälpare förvandlar målarsidor till strukturerade produktlinjesaktiviteter utan manuell textformatering.',
     },
     {
       question: 'Hur fungerar frihandsritningsverktyget?',

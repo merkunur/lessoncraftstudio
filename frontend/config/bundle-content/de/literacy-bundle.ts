@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Über 100 thematische Bildsets',
-      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle sieben Generatoren zu. Jedes Thema kombiniert mit jeder Sprache ergibt einen einzigartigen Produktwinkel — listen Sie „Französische Meerestiere Wortsuche“ neben „Deutscher Bauernhof Alphabet-Zug“, um verschiedene Suchanfragen, Käuferinteressen und Sprachmärkte gleichzeitig abzudecken.',
+      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle sieben Generatoren zu. Jedes Thema kombiniert mit jeder Sprache ergibt einen einzigartigen Produktwinkel — listen Sie \"Französische Meerestiere Wortsuche\" neben \"Deutscher Bauernhof Alphabet-Zug\", um verschiedene Suchanfragen, Käuferinteressen und Sprachmärkte gleichzeitig abzudecken.',
     },
     {
       title: 'Eigene Bilder hochladen',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP Sprach-Arbeitsbücher',
-      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Arbeitsbüchern, geordnet nach Sprache und Fähigkeitsstufe: „Französisches Lese-Aktivitätsbuch“ mit Alphabet-Zug, Wortsuche und Kryptogrammen, oder „Deutsches Erste-Klasse-Wortschatzbuch“ mit Buchstabensalat, Präpositionen und Wörter-Raten. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Jede Sprachversion ist ein separates Buch-Angebot mit eigener ISBN und eigenem Markt.',
+      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Arbeitsbüchern, geordnet nach Sprache und Fähigkeitsstufe: \"Französisches Lese-Aktivitätsbuch\" mit Alphabet-Zug, Wortsuche und Kryptogrammen, oder \"Deutsches Erste-Klasse-Wortschatzbuch\" mit Buchstabensalat, Präpositionen und Wörter-Raten. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Jede Sprachversion ist ein separates Buch-Angebot mit eigener ISBN und eigenem Markt.',
       platform: 'Amazon KDP',
     },
     {

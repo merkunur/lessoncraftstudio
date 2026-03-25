@@ -28,11 +28,11 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Ouvrir le Générateur de Fiches',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur d\'addition codée dans votre navigateur. La barre latérale sombre à gauche contient tous vos réglages ; le canevas lumineux à droite affiche l\'aperçu en temps réel. Aucun compte, aucun téléchargement, aucun plugin requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur d\'addition codée dans votre navigateur. La barre latérale sombre à gauche contient tous vos réglages ; le canevas lumineux à droite affiche l\'aperçu en temps réel. Aucun compte, aucun téléchargement, aucun plugin requis.',
       },
       {
         title: 'Définir le Nombre de Symboles',
-        description: 'Dans le panneau « Configuration des Exercices », utilisez le menu déroulant Nombre de Symboles pour choisir combien de symboles-images apparaissent dans votre code. Moins de symboles (3–4) sont plus faciles pour les débutants ; plus de symboles (6–8) créent un défi logique plus complexe. Chaque symbole cache un nombre secret unique en Mode Classique.',
+        description: 'Dans le panneau \" Configuration des Exercices \", utilisez le menu déroulant Nombre de Symboles pour choisir combien de symboles-images apparaissent dans votre code. Moins de symboles (3–4) sont plus faciles pour les débutants ; plus de symboles (6–8) créent un défi logique plus complexe. Chaque symbole cache un nombre secret unique en Mode Classique.',
       },
       {
         title: 'Choisir les Opérandes par Équation',
@@ -44,19 +44,19 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Sélectionner des Images dans la Bibliothèque Thématique',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, espace, fêtes et bien plus. Chaque image devient un symbole dans le code. Utilisez la barre de recherche pour trouver des thèmes spécifiques, ou cliquez sur des images individuelles pour choisir exactement les symboles souhaités.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, espace, fêtes et bien plus. Chaque image devient un symbole dans le code. Utilisez la barre de recherche pour trouver des thèmes spécifiques, ou cliquez sur des images individuelles pour choisir exactement les symboles souhaités.',
       },
       {
         title: 'Personnaliser la Mise en Page',
-        description: 'Dans la section « Mise en Page », choisissez votre format de page (Letter, A4, Carré ou dimensions personnalisées), définissez la couleur de fond, ajoutez un fond thématique avec opacité réglable et sélectionnez un cadre décoratif dans la bibliothèque de bordures. Le format carré est idéal pour les cahiers d\'activités Amazon KDP.',
+        description: 'Dans la section \" Mise en Page \", choisissez votre format de page (Letter, A4, Carré ou dimensions personnalisées), définissez la couleur de fond, ajoutez un fond thématique avec opacité réglable et sélectionnez un cadre décoratif dans la bibliothèque de bordures. Le format carré est idéal pour les cahiers d\'activités Amazon KDP.',
       },
       {
         title: 'Ajouter du Texte et du Branding',
-        description: 'Utilisez le panneau « Outils de Texte » pour ajouter un titre comme « Déchiffre le Code ! » ou « Défi du Nombre Secret ». Ajoutez un champ nom d\'utilisateur, des consignes ou le branding de votre boutique. Choisissez parmi des polices adaptées aux enfants (Fredoka, Baloo 2, Quicksand, Nunito) et ajustez la taille, la couleur et le contour du texte.',
+        description: 'Utilisez le panneau \" Outils de Texte \" pour ajouter un titre comme \" Déchiffre le Code ! \" ou \" Défi du Nombre Secret \". Ajoutez un champ nom d\'utilisateur, des consignes ou le branding de votre boutique. Choisissez parmi des polices adaptées aux enfants (Fredoka, Baloo 2, Quicksand, Nunito) et ajustez la taille, la couleur et le contour du texte.',
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur « Générer » pour créer votre puzzle. L\'aperçu se met à jour instantanément sur le canevas. Téléchargez en JPEG pour les maquettes de produits ou en PDF pour les livrables prêts à imprimer. Générez et téléchargez un corrigé assorti qui révèle tous les nombres secrets (ou les lettres en Mode Mot Mystère).',
+        description: 'Cliquez sur \" Générer \" pour créer votre puzzle. L\'aperçu se met à jour instantanément sur le canevas. Téléchargez en JPEG pour les maquettes de produits ou en PDF pour les livrables prêts à imprimer. Générez et téléchargez un corrigé assorti qui révèle tous les nombres secrets (ou les lettres en Mode Mot Mystère).',
       },
     ],
   },
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Cahiers d\'Activités Mot Mystère',
-      description: 'Utilisez le Mode Mot Mystère pour créer des cahiers de puzzles où les utilisateurs résolvent des équations d\'addition pour épeler des mots cachés. Choisissez des mots de vocabulaire, des mots courants ou des termes saisonniers comme secrets. Les lettres de distraction intégrées ajoutent un niveau de défi supplémentaire qui maintient l\'engagement des utilisateurs. Pour les éditeurs KDP, un cahier Mot Mystère ciblant les mots courants pour le CP et le CE1 est un produit de niche solide. Les parents qui cherchent « activités mots courants » sur Amazon trouvent rarement des puzzles de type cryptarithmétique, ce qui signifie moins de concurrence directe que les formats classiques de mots mêlés ou mots croisés.',
+      description: 'Utilisez le Mode Mot Mystère pour créer des cahiers de puzzles où les utilisateurs résolvent des équations d\'addition pour épeler des mots cachés. Choisissez des mots de vocabulaire, des mots courants ou des termes saisonniers comme secrets. Les lettres de distraction intégrées ajoutent un niveau de défi supplémentaire qui maintient l\'engagement des utilisateurs. Pour les éditeurs KDP, un cahier Mot Mystère ciblant les mots courants pour le CP et le CE1 est un produit de niche solide. Les parents qui cherchent \" activités mots courants \" sur Amazon trouvent rarement des puzzles de type cryptarithmétique, ce qui signifie moins de concurrence directe que les formats classiques de mots mêlés ou mots croisés.',
     },
     {
       title: 'Cahiers de Cryptarithmétique pour KDP',
@@ -101,12 +101,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Série de Cahiers de Puzzles sur Amazon KDP',
-      description: 'Publiez une série de cahiers cryptarithmétiques sur KDP : « Code Maths : Édition Animaux », « Code Maths : Édition Espace », etc. Chaque cahier contient 80 à 100 puzzles avec difficulté progressive. Fixez le prix entre 7,99 € et 9,99 € et laissez Amazon gérer l\'impression. Les cahiers de puzzles ont d\'excellentes marges sur KDP.',
+      description: 'Publiez une série de cahiers cryptarithmétiques sur KDP : \" Code Maths : Édition Animaux \", \" Code Maths : Édition Espace \", etc. Chaque cahier contient 80 à 100 puzzles avec difficulté progressive. Fixez le prix entre 7,99 € et 9,99 € et laissez Amazon gérer l\'impression. Les cahiers de puzzles ont d\'excellentes marges sur KDP.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Pack catalogue de produits Numérique sur Gumroad',
-      description: 'Créez un programme structuré de 8 semaines « Code Maths » avec des ensembles de puzzles hebdomadaires. La semaine 1 commence avec 3 symboles, la semaine 8 se termine avec des opérandes mixtes et des défis Mot Mystère. Vendez en téléchargement numérique premium (12 € à 15 €) sur Gumroad. Les familles qui font l\'instruction à domicile paient volontiers pour des programmes complets et structurés. Incluez un guide vendeur d\'une page en introduction expliquant comment utiliser les puzzles de chaque semaine, quelles compétences chaque niveau de difficulté cible et comment évaluer la progression.',
+      description: 'Créez un programme structuré de 8 semaines \" Code Maths \" avec des ensembles de puzzles hebdomadaires. La semaine 1 commence avec 3 symboles, la semaine 8 se termine avec des opérandes mixtes et des défis Mot Mystère. Vendez en téléchargement numérique premium (12 € à 15 €) sur Gumroad. Les familles qui font l\'instruction à domicile paient volontiers pour des programmes complets et structurés. Incluez un guide vendeur d\'une page en introduction expliquant comment utiliser les puzzles de chaque semaine, quelles compétences chaque niveau de difficulté cible et comment évaluer la progression.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Commencez avec Moins de Symboles pour les Débutants',
-      description: 'Trois ou quatre symboles est le point idéal pour les jeunes utilisateurs et les novices en décodage. Avec moins d\'inconnues, les utilisateurs peuvent utiliser la logique d\'élimination plus facilement. Réservez les puzzles à 6 symboles ou plus pour les utilisateurs plus âgés ou les sections de défis avancés dans vos packs de produits. Lors de la création d\'un listing produit, mentionnez le nombre de symboles dans votre description pour que les acheteurs sachent quel niveau de difficulté ils obtiennent. Des phrases comme « puzzles débutants à 3 symboles » ou « défis avancés à 7 symboles » aident les acheteurs à choisir le bon produit et réduisent les demandes de remboursement.',
+      description: 'Trois ou quatre symboles est le point idéal pour les jeunes utilisateurs et les novices en décodage. Avec moins d\'inconnues, les utilisateurs peuvent utiliser la logique d\'élimination plus facilement. Réservez les puzzles à 6 symboles ou plus pour les utilisateurs plus âgés ou les sections de défis avancés dans vos packs de produits. Lors de la création d\'un listing produit, mentionnez le nombre de symboles dans votre description pour que les acheteurs sachent quel niveau de difficulté ils obtiennent. Des phrases comme \" puzzles débutants à 3 symboles \" ou \" défis avancés à 7 symboles \" aident les acheteurs à choisir le bon produit et réduisent les demandes de remboursement.',
     },
     {
       title: 'Utilisez les Opérandes Mixtes pour une Variété Maximale',

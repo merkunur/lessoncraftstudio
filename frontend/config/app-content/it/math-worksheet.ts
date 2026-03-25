@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi testo, titoli e numerazione dei puzzle',
         description:
-          'Usa il pannello degli Strumenti di Testo per aggiungere un titolo alla scheda, campi per nome e data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Personalizza la numerazione dei puzzle con il tuo testo di etichetta (ad esempio, «Puzzle», «Problema», «Sfida») e imposta il numero iniziale. Usa il canvas Fabric.js per trascinare, ridimensionare e riposizionare ogni elemento — con controlli di livello, guide di allineamento, blocco/sblocco e annulla e ripristina illimitati.',
+          'Usa il pannello degli Strumenti di Testo per aggiungere un titolo alla scheda, campi per nome e data dell\'utente, istruzioni o qualsiasi testo personalizzato. Scegli tra sette font, tra cui Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Personalizza la numerazione dei puzzle con il tuo testo di etichetta (ad esempio, \"Puzzle\", \"Problema\", \"Sfida\") e imposta il numero iniziale. Usa il canvas Fabric.js per trascinare, ridimensionare e riposizionare ogni elemento — con controlli di livello, guide di allineamento, blocco/sblocco e annulla e ripristina illimitati.',
       },
       {
         title: 'Genera il foglio delle soluzioni e scarica',

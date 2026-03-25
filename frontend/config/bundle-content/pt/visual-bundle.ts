@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Mais de 100 conjuntos de imagens temáticas',
-      description: 'Acede a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos sete geradores. Cada tema dá-te um ângulo de produto novo — publica «Páginas para Colorir Animais do Oceano» junto a «Fichas de Padrões Quinta» e «Atividades de Gráficos de Contagem Espaço» para capturares diferentes pesquisas, interesses de compradores e categorias de produtos simultaneamente.',
+      description: 'Acede a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos sete geradores. Cada tema dá-te um ângulo de produto novo — publica \"Páginas para Colorir Animais do Oceano\" junto a \"Fichas de Padrões Quinta\" e \"Atividades de Gráficos de Contagem Espaço\" para capturares diferentes pesquisas, interesses de compradores e categorias de produtos simultaneamente.',
     },
     {
       title: 'Carregar imagens personalizadas',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Livros de atividades na Amazon KDP',
-      description: 'Combina fichas de múltiplos geradores em livros de atividades temáticos para KDP: «Caderno de Aprendizagem Visual Pré-Escolar» misturando páginas para colorir, sequências de padrões, comparação de tamanhos e traçado de linhas, ou «Atividades de Gráficos e Padrões para Jardim de Infância» combinando contagem com gráficos com fichas de padrões. O motor de design consistente assegura que cada página tenha um aspeto profissionalmente uniforme. Gera de 50 a 100 páginas por livro numa única sessão, descarrega como PDF e carrega diretamente no KDP. Como os sete geradores produzem conteúdo independente de texto, o mesmo interior de livro vende-se em todos os marketplaces da Amazon do mundo com apenas a capa e o título a necessitarem de tradução.',
+      description: 'Combina fichas de múltiplos geradores em livros de atividades temáticos para KDP: \"Caderno de Aprendizagem Visual Pré-Escolar\" misturando páginas para colorir, sequências de padrões, comparação de tamanhos e traçado de linhas, ou \"Atividades de Gráficos e Padrões para Jardim de Infância\" combinando contagem com gráficos com fichas de padrões. O motor de design consistente assegura que cada página tenha um aspeto profissionalmente uniforme. Gera de 50 a 100 páginas por livro numa única sessão, descarrega como PDF e carrega diretamente no KDP. Como os sete geradores produzem conteúdo independente de texto, o mesmo interior de livro vende-se em todos os marketplaces da Amazon do mundo com apenas a capa e o título a necessitarem de tradução.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {
@@ -160,7 +160,7 @@ const content: BundleContent = {
       answer: 'Sim. Cada gerador do pacote oferece um teste grátis com funcionalidade completa. Podes configurar todos os ajustes, pré-visualizar fichas e descarregar ficheiros. Os descarregamentos de teste incluem uma marca de água. Comprar uma licença remove a marca de água para que possas vender comercialmente. Recomendamos experimentar cada um dos sete geradores antes de comprares para confirmares que cobrem as tuas necessidades.',
     },
     {
-      question: 'O que torna estas fichas «só visuais» e porque é que isso importa?',
+      question: 'O que torna estas fichas \"só visuais\" e porque é que isso importa?',
       answer: 'Cada ficha produzida pelos sete geradores deste pacote contém apenas imagens, formas, cores e números — não aparecem palavras nem frases na página terminada. Isto significa que uma página para colorir, ficha de padrões ou atividade de contagem com gráficos que cries funciona identicamente para compradores de qualquer país e qualquer idioma. Nunca precisas de traduzir nem criar versões em diferentes idiomas. Um único anúncio de produto serve todos os mercados do mundo, dando-te uma vantagem estrutural sobre os vendedores cujas fichas requerem tradução de texto.',
     },
     {

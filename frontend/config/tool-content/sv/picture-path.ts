@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Bildväg Labyrint Skapare',
     tagline: 'Treläges labyrint arbetsblad generator med Bildväg (bildrutnät vägföljande), Klassisk Labyrint (LPF väggbaserad algoritm med samlingsbilder och återvändsgränd-blockering) och Välj Rätt Väg (trevägs riktningslabyrinter), fem bildroller, anpassningsbar väggdesign och helt visuella labyrinter som säljer globalt utan översättning',
-    description: 'Skapa professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar bildrutnät där användarna följer rätt väg. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen, konfigurerbara rutnätsstorlekar 15×15 till 20×20, 1–3 vägar med återvändsgränd-blockering, och anpassningsbar väggfärg/tjocklek/opacitet. Samlingsbilder sprids genom korridorer. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ. Fem bildroller: Start, Mål, Väg, Distraktor och Dekoration. Varje läge genererar facit med rosa cirklar längs lösningsvägen. Välj Väg lägger till «✓ KORREKT VÄG». Klassisk Labyrint inkluderar samlingslegend. Helt visuella labyrinter — universellt säljbara utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
+    description: 'Skapa professionella labyrint- och vägarbetsblad med tre distinkta spellägen. Bildväg skapar bildrutnät där användarna följer rätt väg. Klassisk Labyrint genererar väggbaserade labyrinter med LPF-algoritmen, konfigurerbara rutnätsstorlekar 15×15 till 20×20, 1–3 vägar med återvändsgränd-blockering, och anpassningsbar väggfärg/tjocklek/opacitet. Samlingsbilder sprids genom korridorer. Välj Rätt Väg presenterar trevägs-labyrinter med fyra riktningsalternativ. Fem bildroller: Start, Mål, Väg, Distraktor och Dekoration. Varje läge genererar facit med rosa cirklar längs lösningsvägen. Välj Väg lägger till \"✓ KORREKT VÄG\". Klassisk Labyrint inkluderar samlingslegend. Helt visuella labyrinter — universellt säljbara utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Bildväg Labyrint Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta labyrint arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta labyrint arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Ställ in sidlayouten',
@@ -49,11 +49,11 @@ const content: ToolContent = {
       },
       {
         title: 'Generera labyrintarbetsbladet',
-        description: 'Klicka på Generera. Bildväg arrangerar bilder med en korrekt väg bland distraktorer. Klassisk Labyrint bygger väggbaserade korridorer med LPF-algoritmen. Välj Rätt Väg konstruerar tre rutter. Den automatiskt genererade «Bildväg»-rubriken visas med orange yttre ram och lokaliserad titel.',
+        description: 'Klicka på Generera. Bildväg arrangerar bilder med en korrekt väg bland distraktorer. Klassisk Labyrint bygger väggbaserade korridorer med LPF-algoritmen. Välj Rätt Väg konstruerar tre rutter. Den automatiskt genererade \"Bildväg\"-rubriken visas med orange yttre ram och lokaliserad titel.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
-        description: 'Klicka på fliken Facit. Facit markerar den korrekta lösningsvägen med rosa cirklar. Välj Rätt Väg lägger till «✓ KORREKT VÄG». Klassisk Labyrint inkluderar samlingslegend med bildantal. Facit genereras samtidigt med labyrinten.',
+        description: 'Klicka på fliken Facit. Facit markerar den korrekta lösningsvägen med rosa cirklar. Välj Rätt Väg lägger till \"✓ KORREKT VÄG\". Klassisk Labyrint inkluderar samlingslegend med bildantal. Facit genereras samtidigt med labyrinten.',
       },
       {
         title: 'Ladda ner alla fyra filer',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP labyrintaktivitets arbetsboksserie',
-      description: 'Sammanställ 50–80 labyrinter till tematiska arbetsböcker. Strukturera efter svårighet: «Enkla Bildväglabyrinter», «Klassiska Vägglabyrinter med Samlingar», «Avancerade Flervägs Labyrintutmaningar». Facitsidor med rosa cirklar och samlingslegender. Växla gråskala. Det visuella formatet publiceras identiskt globalt.',
+      description: 'Sammanställ 50–80 labyrinter till tematiska arbetsböcker. Strukturera efter svårighet: \"Enkla Bildväglabyrinter\", \"Klassiska Vägglabyrinter med Samlingar\", \"Avancerade Flervägs Labyrintutmaningar\". Facitsidor med rosa cirklar och samlingslegender. Växla gråskala. Det visuella formatet publiceras identiskt globalt.',
       platform: 'Amazon KDP',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Utnyttja samlingsbilder för dubbelfärdighets premiumprodukter',
-      description: 'Klassisk Labyrint samlingsbilder förvandlar vägfinnande till en dubbelfärdighetsövning — lösa labyrinten OCH räkna. Konfigurera 1–4 typer med 1–10 kopior. Facit inkluderar samlingslegend. Marknadsför som «labyrint + räkning».',
+      description: 'Klassisk Labyrint samlingsbilder förvandlar vägfinnande till en dubbelfärdighetsövning — lösa labyrinten OCH räkna. Konfigurera 1–4 typer med 1–10 kopior. Facit inkluderar samlingslegend. Marknadsför som \"labyrint + räkning\".',
     },
     {
       title: 'Inkludera facit i varje annonseringsförhandsvisning',
@@ -180,11 +180,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',
-      answer: 'Dubbelarbetsyte-system. Facit återskapar labyrintlayouten och markerar lösningsvägen med rosa cirklar. Välj Rätt Väg lägger till «✓ KORREKT VÄG». Klassisk Labyrint inkluderar samlingslegend. Fyra nedladdningsfiler per generering.',
+      answer: 'Dubbelarbetsyte-system. Facit återskapar labyrintlayouten och markerar lösningsvägen med rosa cirklar. Välj Rätt Väg lägger till \"✓ KORREKT VÄG\". Klassisk Labyrint inkluderar samlingslegend. Fyra nedladdningsfiler per generering.',
     },
     {
       question: 'Hur ser den automatiskt genererade rubriken ut?',
-      answer: 'Orange yttre ram (8px streck) med 34px marginaler. Titeln «Bildväg» och «Följ vägen från start till mål!» översätts till alla 11 stödda språk. Stående 240px rubrik; liggande 165px kompakt layout.',
+      answer: 'Orange yttre ram (8px streck) med 34px marginaler. Titeln \"Bildväg\" och \"Följ vägen från start till mål!\" översätts till alla 11 stödda språk. Stående 240px rubrik; liggande 165px kompakt layout.',
     },
     {
       question: 'Är Bildväg Labyrint Skaparen språkkänslig?',

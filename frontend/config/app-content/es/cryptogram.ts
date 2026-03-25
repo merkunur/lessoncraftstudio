@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Codificación a nivel de frase para el descifrado de mensajes completos',
         description:
-          'A diferencia de los puzzles que codifican palabras individuales, el Generador de Criptograma codifica frases y oraciones enteras. Los usuarios decodifican un mensaje completo y legible — una cita motivadora, una oración de vocabulario, un dato curioso o una instrucción personalizada — obteniendo la satisfacción de revelar un contenido significativo en lugar de palabras aisladas. La codificación a nivel de frase también proporciona pistas contextuales: las palabras cortas comunes como «el», «y» y «es» ayudan a los resolvedores a descifrar el código más rápido, creando un efecto de andamiaje natural que recompensa la intuición lingüística.',
+          'A diferencia de los puzzles que codifican palabras individuales, el Generador de Criptograma codifica frases y oraciones enteras. Los usuarios decodifican un mensaje completo y legible — una cita motivadora, una oración de vocabulario, un dato curioso o una instrucción personalizada — obteniendo la satisfacción de revelar un contenido significativo en lugar de palabras aisladas. La codificación a nivel de frase también proporciona pistas contextuales: las palabras cortas comunes como \"el\", \"y\" y \"es\" ayudan a los resolvedores a descifrar el código más rápido, creando un efecto de andamiaje natural que recompensa la intuición lingüística.',
       },
       {
         title: 'Dificultad ajustable con Letras a Revelar (0–10)',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Herramienta de vocabulario para venta en línea y tutoría',
         description:
-          'Codifica oraciones de vocabulario personalizadas, frases de repaso de ortografía o definiciones específicas de una asignatura como puzzles de criptograma. Escribe cualquier frase como mensaje secreto — «La mitocondria es la central energética de la célula» para biología, «La Declaración de Independencia se firmó en 1776» para historia, o las palabras del dictado semanal organizadas en una oración. Ajusta las Letras a Revelar según el nivel de capacidad de cada usuario para una diferenciación instantánea. El formato de descifrado transforma el repaso de vocabulario memorístico en una actividad de puzzle motivadora, y la leyenda de letras de la clave de respuesta ahorra valor percibido.',
+          'Codifica oraciones de vocabulario personalizadas, frases de repaso de ortografía o definiciones específicas de una asignatura como puzzles de criptograma. Escribe cualquier frase como mensaje secreto — \"La mitocondria es la central energética de la célula\" para biología, \"La Declaración de Independencia se firmó en 1776\" para historia, o las palabras del dictado semanal organizadas en una oración. Ajusta las Letras a Revelar según el nivel de capacidad de cada usuario para una diferenciación instantánea. El formato de descifrado transforma el repaso de vocabulario memorístico en una actividad de puzzle motivadora, y la leyenda de letras de la clave de respuesta ahorra valor percibido.',
         platform: 'Tienda / Tutoría / Educación en casa',
       },
     ],

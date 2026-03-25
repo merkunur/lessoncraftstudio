@@ -83,7 +83,7 @@ const content: AppContent = {
       {
         title: 'Namn- och datumfält med växlingskontroll',
         description:
-          'En kryssruteväxling i panelen Text och Innehåll lägger till «Namn:» och «Datum:»-fält på arbetsbladet. Dessa identifieringslinjer säkerställer ansvar för produktlinjesanvändning och gör arbetsbladen professionellt formaterade för marknadsplatsannonser. Växla dem på för produktlinjesfärdiga produkter eller av för aktivitetsboksidor där namnuppgifter visas på omslaget. Fälten renderas rent tillsammans med den automatiskt genererade rubriken och legenden.',
+          'En kryssruteväxling i panelen Text och Innehåll lägger till \"Namn:\" och \"Datum:\"-fält på arbetsbladet. Dessa identifieringslinjer säkerställer ansvar för produktlinjesanvändning och gör arbetsbladen professionellt formaterade för marknadsplatsannonser. Växla dem på för produktlinjesfärdiga produkter eller av för aktivitetsboksidor där namnuppgifter visas på omslaget. Fälten renderas rent tillsammans med den automatiskt genererade rubriken och legenden.',
       },
       {
         title: 'Bildbibliotek med 104 tematiska samlingar och mer än 3 100 illustrationer',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Kan jag lägga till namn- och datumfält på arbetsbladet?',
       answer:
-        'Ja. En kryssruteväxling i panelen Text och Innehåll lägger till «Namn:» och «Datum:»-fält på arbetsbladet. Dessa identifieringslinjer säkerställer ansvar för produktlinjesanvändning och gör dina arbetsblad professionellt formaterade för marknadsplatsannonser. Växla dem på för produktlinjesfärdiga produkter eller av för aktivitetsboksidor.',
+        'Ja. En kryssruteväxling i panelen Text och Innehåll lägger till \"Namn:\" och \"Datum:\"-fält på arbetsbladet. Dessa identifieringslinjer säkerställer ansvar för produktlinjesanvändning och gör dina arbetsblad professionellt formaterade för marknadsplatsannonser. Växla dem på för produktlinjesfärdiga produkter eller av för aktivitetsboksidor.',
     },
     {
       question: 'Hur fungerar den automatiskt genererade rubriken?',

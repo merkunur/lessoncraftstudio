@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Bildsortering Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta sorterings arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta sorterings arbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för arbetsbladet, en för facit. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Välj ditt valläge',
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ställ in sidlayout och dekorationer',
-        description: 'Välj sidstorlek: Letter, A4, Kvadrat (1200×1200) eller anpassad. Välj dekorativt bakgrundstema och ramtema med oberoende opacitetsreglage (0–1, steg 0,05). Kryssa i «Inkludera Namn/Datum-fält» för produktlinjesansvar.',
+        description: 'Välj sidstorlek: Letter, A4, Kvadrat (1200×1200) eller anpassad. Välj dekorativt bakgrundstema och ramtema med oberoende opacitetsreglage (0–1, steg 0,05). Kryssa i \"Inkludera Namn/Datum-fält\" för produktlinjesansvar.',
       },
       {
         title: 'Generera sorteringsarbetsbladet',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP klassificeringsarbetsboksserie',
-      description: 'Sammanställ 50–80 sorteringsarbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter ämne: «Djursortering», «Matklassificering», «Natursortering». Varje bok avancerar från enkla 4-bilds sorteringar till utmanande 12-bilds klassificering. Facitsidor i slutet. Växla gråskala.',
+      description: 'Sammanställ 50–80 sorteringsarbetsblad till tematiska arbetsböcker för Amazon KDP. Strukturera en serie efter ämne: \"Djursortering\", \"Matklassificering\", \"Natursortering\". Varje bok avancerar från enkla 4-bilds sorteringar till utmanande 12-bilds klassificering. Facitsidor i slutet. Växla gråskala.',
       platform: 'Amazon KDP',
     },
     {
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Är Bildsortering Skaparen språkkänslig?',
-      answer: 'Ja. Kategorietiketter använder lokaliserade bildnamn — att byta språk ändrar texten. En kattbild visas som «Katt» på svenska, «Cat» på engelska, «Katze» på tyska. Den lokaliserade Sortera bilder-rubriken översätts automatiskt till alla 11 stödda språk.',
+      answer: 'Ja. Kategorietiketter använder lokaliserade bildnamn — att byta språk ändrar texten. En kattbild visas som \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Den lokaliserade Sortera bilder-rubriken översätts automatiskt till alla 11 stödda språk.',
     },
     {
       question: 'Hur ser den lokaliserade rubriken ut?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag inkludera namn- och datumfält?',
-      answer: 'Ja. Kryssa i «Inkludera Namn/Datum-fält» i Sidinställningar för att lägga till namn och datumlinjer. Dessa fält säkerställer produktlinjesansvar och gör arbetsbladen redo för säljarens insamling utan extra förberedelse.',
+      answer: 'Ja. Kryssa i \"Inkludera Namn/Datum-fält\" i Sidinställningar för att lägga till namn och datumlinjer. Dessa fält säkerställer produktlinjesansvar och gör arbetsbladen redo för säljarens insamling utan extra förberedelse.',
     },
     {
       question: 'Vilka sidstorlekar och exportformat finns?',

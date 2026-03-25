@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Elige el Modo de Ejercicio y Configura las Opciones',
         description:
-          'Abre el panel de Configuración del Ejercicio y selecciona tu modo: Asociación de Sombras o Completa la Imagen. El modo Asociación de Sombras genera siluetas negras a partir de tus imágenes seleccionadas mediante procesamiento a nivel de píxeles. El modo Completa la Imagen divide las imágenes en mitades — elige la dirección de corte horizontal (arriba/abajo) o vertical (izquierda/derecha) con los botones de radio que aparecen en este modo. Activa o desactiva la casilla «Mostrar Etiquetas» (activada por defecto) para mostrar los identificadores A/B/C/D y 1/2/3/4 en la ficha. Activa «Incluir Campos Nombre/Fecha» para añadir líneas de nombre y fecha para los usuarios.',
+          'Abre el panel de Configuración del Ejercicio y selecciona tu modo: Asociación de Sombras o Completa la Imagen. El modo Asociación de Sombras genera siluetas negras a partir de tus imágenes seleccionadas mediante procesamiento a nivel de píxeles. El modo Completa la Imagen divide las imágenes en mitades — elige la dirección de corte horizontal (arriba/abajo) o vertical (izquierda/derecha) con los botones de radio que aparecen en este modo. Activa o desactiva la casilla \"Mostrar Etiquetas\" (activada por defecto) para mostrar los identificadores A/B/C/D y 1/2/3/4 en la ficha. Activa \"Incluir Campos Nombre/Fecha\" para añadir líneas de nombre y fecha para los usuarios.',
       },
       {
         title: 'Selecciona 4 Imágenes de la Biblioteca',
@@ -47,12 +47,12 @@ const content: AppContent = {
       {
         title: 'Genera la Ficha de Asociación de Sombras',
         description:
-          'Haz clic en Generar para crear la ficha de correspondencia. En el modo Asociación de Sombras, la aplicación procesa cada imagen a nivel de píxeles — la carga en un lienzo, extrae los datos de píxeles vía getImageData, y convierte cada píxel con alpha > 10 en negro puro (R=0, G=0, B=0, A=255) para producir siluetas precisas. En el modo Completa la Imagen, las imágenes se dividen según la dirección de corte elegida. Ambos modos aplican un derangement Fisher-Yates para garantizar que ningún elemento aparece en su posición original. Un encabezado estilizado aparece con fondo ámbar (#FFC107), contenedor blanco tipo cápsula y borde ámbar de 3 px mostrando «Asociación de Sombras» e instrucciones en el idioma seleccionado.',
+          'Haz clic en Generar para crear la ficha de correspondencia. En el modo Asociación de Sombras, la aplicación procesa cada imagen a nivel de píxeles — la carga en un lienzo, extrae los datos de píxeles vía getImageData, y convierte cada píxel con alpha > 10 en negro puro (R=0, G=0, B=0, A=255) para producir siluetas precisas. En el modo Completa la Imagen, las imágenes se dividen según la dirección de corte elegida. Ambos modos aplican un derangement Fisher-Yates para garantizar que ningún elemento aparece en su posición original. Un encabezado estilizado aparece con fondo ámbar (#FFC107), contenedor blanco tipo cápsula y borde ámbar de 3 px mostrando \"Asociación de Sombras\" e instrucciones en el idioma seleccionado.',
       },
       {
         title: 'Genera la Clave de Respuesta y Descarga',
         description:
-          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta auto-generada. En el modo Asociación de Sombras, cada celda muestra la imagen original junto a su silueta con una etiqueta como «A → 2» indicando la correspondencia correcta. En el modo Completa la Imagen, cada celda muestra la imagen original completa con su etiqueta de correspondencia. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
+          'Cambia a la pestaña Clave de Respuesta para ver la clave de respuesta auto-generada. En el modo Asociación de Sombras, cada celda muestra la imagen original junto a su silueta con una etiqueta como \"A → 2\" indicando la correspondencia correcta. En el modo Completa la Imagen, cada celda muestra la imagen original completa con su etiqueta de correspondencia. Descarga ambas versiones con los cuatro botones dedicados: JPEG Ficha de Trabajo, JPEG Clave de Respuesta, PDF Ficha de Trabajo y PDF Clave de Respuesta a 300 DPI. Activa la escala de grises para versiones que ahorran tinta. Cada exportación está lista para la producción en anuncios de Etsy, interiores de Amazon KDP y archivos de productos Gumroad.',
       },
     ],
   },
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Clave de Respuesta Auto-Generada con Etiquetas de Correspondencia Letra-Número',
         description:
-          'Cada ficha de asociación de sombras genera automáticamente una clave de respuesta complementaria en una pestaña de lienzo separada. La clave de respuesta usa un diseño de cuadrícula donde cada celda muestra la imagen original junto a su silueta o imagen completa, etiquetada con la correspondencia correcta como «A → 2». La cuadrícula usa 4 columnas con un espacio de 50 px antes de la segunda fila y 15 px de espaciado vertical entre elementos. Sin creación manual de clave de respuesta — la clave de respuesta se mantiene sincronizada con la ficha. Descárgala por separado como answer_key.jpeg o answer_key.pdf junto a la ficha del usuario.',
+          'Cada ficha de asociación de sombras genera automáticamente una clave de respuesta complementaria en una pestaña de lienzo separada. La clave de respuesta usa un diseño de cuadrícula donde cada celda muestra la imagen original junto a su silueta o imagen completa, etiquetada con la correspondencia correcta como \"A → 2\". La cuadrícula usa 4 columnas con un espacio de 50 px antes de la segunda fila y 15 px de espaciado vertical entre elementos. Sin creación manual de clave de respuesta — la clave de respuesta se mantiene sincronizada con la ficha. Descárgala por separado como answer_key.jpeg o answer_key.pdf junto a la ficha del usuario.',
       },
       {
         title: 'Biblioteca de Imágenes con 104 Colecciones Temáticas y Más de 3100 Ilustraciones',
@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Etiquetas Opcionales y Campos Nombre/Fecha para Usuarios',
         description:
-          'Activa o desactiva la casilla «Mostrar Etiquetas» (activada por defecto) para mostrar los identificadores A, B, C, D en las imágenes o primeras mitades y 1, 2, 3, 4 en las siluetas o segundas mitades. Cuando las etiquetas están ocultas, la ficha se convierte en un desafío de correspondencia puramente visual sin ayuda alfanumérica — ideal para actividades avanzadas o cuadernos de puzzles donde no se necesitan respuestas escritas. La casilla «Incluir Campos Nombre/Fecha» añade líneas de nombre y fecha en la parte inferior de la página para la responsabilidad en línea y la organización.',
+          'Activa o desactiva la casilla \"Mostrar Etiquetas\" (activada por defecto) para mostrar los identificadores A, B, C, D en las imágenes o primeras mitades y 1, 2, 3, 4 en las siluetas o segundas mitades. Cuando las etiquetas están ocultas, la ficha se convierte en un desafío de correspondencia puramente visual sin ayuda alfanumérica — ideal para actividades avanzadas o cuadernos de puzzles donde no se necesitan respuestas escritas. La casilla \"Incluir Campos Nombre/Fecha\" añade líneas de nombre y fecha en la parte inferior de la página para la responsabilidad en línea y la organización.',
       },
       {
         title: 'Exportación PDF y JPEG Lista para Imprimir a 300 DPI con Modo Escala de Grises',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: '¿Se pueden activar o desactivar las etiquetas A/B/C/D y 1/2/3/4?',
       answer:
-        'Sí. La casilla «Mostrar Etiquetas» en el panel de Configuración del Ejercicio (activada por defecto) controla si las etiquetas A, B, C, D aparecen en las imágenes o primeras mitades y si las etiquetas 1, 2, 3, 4 aparecen en las siluetas o segundas mitades. Cuando las etiquetas están activadas, los usuarios escriben pares letra-número como respuestas. Cuando las etiquetas están desactivadas, la ficha se convierte en un desafío de correspondencia puramente visual sin ayuda alfanumérica — útil para cuadernos de puzzles o actividades avanzadas.',
+        'Sí. La casilla \"Mostrar Etiquetas\" en el panel de Configuración del Ejercicio (activada por defecto) controla si las etiquetas A, B, C, D aparecen en las imágenes o primeras mitades y si las etiquetas 1, 2, 3, 4 aparecen en las siluetas o segundas mitades. Cuando las etiquetas están activadas, los usuarios escriben pares letra-número como respuestas. Cuando las etiquetas están desactivadas, la ficha se convierte en un desafío de correspondencia puramente visual sin ayuda alfanumérica — útil para cuadernos de puzzles o actividades avanzadas.',
     },
     {
       question: '¿Por qué siempre hay exactamente 4 problemas por ficha?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: '¿Cómo funcionan los campos de nombre y fecha?',
       answer:
-        'Activa la casilla «Incluir Campos Nombre/Fecha» en el panel de Configuración del Ejercicio para añadir líneas de nombre y fecha en la parte inferior de la ficha. Cuando está activada, los usuarios pueden escribir su nombre y la fecha directamente en la página impresa — esencial para la responsabilidad en línea y la valor percibido organizada. Cuando está desactivada, la ficha usa toda la superficie de la página para el contenido de correspondencia. Esta opción funciona con ambos modos, Asociación de Sombras y Completa la Imagen.',
+        'Activa la casilla \"Incluir Campos Nombre/Fecha\" en el panel de Configuración del Ejercicio para añadir líneas de nombre y fecha en la parte inferior de la ficha. Cuando está activada, los usuarios pueden escribir su nombre y la fecha directamente en la página impresa — esencial para la responsabilidad en línea y la valor percibido organizada. Cuando está desactivada, la ficha usa toda la superficie de la página para el contenido de correspondencia. Esta opción funciona con ambos modos, Asociación de Sombras y Completa la Imagen.',
     },
     {
       question: '¿Cómo funciona la clave de respuesta auto-generada?',
       answer:
-        'El generador usa un sistema de doble lienzo con una pestaña de Ficha de Trabajo y una pestaña de Clave de Respuesta. En el modo Asociación de Sombras, la clave de respuesta muestra una cuadrícula donde cada celda presenta la imagen original junto a su silueta con una etiqueta como «A → 2». En el modo Completa la Imagen, cada celda muestra la imagen original completa con su etiqueta de correspondencia. La cuadrícula usa 4 columnas con espaciado constante. Ambas versiones se exportan por separado mediante los cuatro botones de descarga dedicados: ficha JPEG, ficha PDF, clave de respuesta JPEG y clave de respuesta PDF.',
+        'El generador usa un sistema de doble lienzo con una pestaña de Ficha de Trabajo y una pestaña de Clave de Respuesta. En el modo Asociación de Sombras, la clave de respuesta muestra una cuadrícula donde cada celda presenta la imagen original junto a su silueta con una etiqueta como \"A → 2\". En el modo Completa la Imagen, cada celda muestra la imagen original completa con su etiqueta de correspondencia. La cuadrícula usa 4 columnas con espaciado constante. Ambas versiones se exportan por separado mediante los cuatro botones de descarga dedicados: ficha JPEG, ficha PDF, clave de respuesta JPEG y clave de respuesta PDF.',
     },
     {
       question: '¿Hay una prueba gratis?',

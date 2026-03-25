@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore di Schede di Sottrazione',
     tagline: 'Crea schede di sottrazione con modalità Cancella in meno di 60 secondi',
-    description: 'Rendi la sottrazione concreta con la modalità Cancella che i bambini capiscono istintivamente. Questo strumento genera schede di sottrazione basate su immagini in cui gli utenti barrano le figure per trovare la risposta — il modo più naturale per imparare il concetto di «togliere». Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta l\'intervallo del minuendo massimo, seleziona una delle quattro modalità di esercizio inclusa l\'esclusiva modalità Cancella e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano linee di prodotti matematici differenziati, editori Amazon KDP che compilano libri di attività sulla sottrazione e venditori che necessitano di materiali visivi per diversi livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
+    description: 'Rendi la sottrazione concreta con la modalità Cancella che i bambini capiscono istintivamente. Questo strumento genera schede di sottrazione basate su immagini in cui gli utenti barrano le figure per trovare la risposta — il modo più naturale per imparare il concetto di \"togliere\". Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta l\'intervallo del minuendo massimo, seleziona una delle quattro modalità di esercizio inclusa l\'esclusiva modalità Cancella e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano linee di prodotti matematici differenziati, editori Amazon KDP che compilano libri di attività sulla sottrazione e venditori che necessitano di materiali visivi per diversi livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
   },
 
   tutorial: {
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Scegli la modalità di esercizio',
-        description: 'Apri il pannello "Configurazione esercizi" e seleziona tra quattro modalità: Cancella mostra un gruppo completo di immagini e il bambino barra quelle da sottrarre — la modalità più intuitiva per visualizzare il concetto di «togliere». Immagine − Numero combina un gruppo di immagini con una cifra. Trova il Sottraendo mostra il minuendo e il risultato; il bambino deve capire quante immagini sono state tolte, stimolando il pensiero pre-algebrico. La Modalità Mista combina casualmente tutti e tre gli stili su un unico foglio per la massima varietà.',
+        description: 'Apri il pannello "Configurazione esercizi" e seleziona tra quattro modalità: Cancella mostra un gruppo completo di immagini e il bambino barra quelle da sottrarre — la modalità più intuitiva per visualizzare il concetto di \"togliere\". Immagine − Numero combina un gruppo di immagini con una cifra. Trova il Sottraendo mostra il minuendo e il risultato; il bambino deve capire quante immagini sono state tolte, stimolando il pensiero pre-algebrico. La Modalità Mista combina casualmente tutti e tre gli stili su un unico foglio per la massima varietà.',
       },
       {
         title: 'Imposta il livello di difficoltà',
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Risorse per ripetizioni e doposcuola',
-      description: 'Se gestisci un centro di ripetizioni o doposcuola, genera schede individuali di sottrazione per ogni sessione. Inizia con le schede Cancella per costruire la comprensione concettuale del «togliere», poi passa alla modalità Trova il Sottraendo quando l\'utente è pronto. La chiave di valore percepito automatica con le immagini barrate contrassegnate permette una verifica istantanea tra le sessioni.',
+      description: 'Se gestisci un centro di ripetizioni o doposcuola, genera schede individuali di sottrazione per ogni sessione. Inizia con le schede Cancella per costruire la comprensione concettuale del \"togliere\", poi passa alla modalità Trova il Sottraendo quando l\'utente è pronto. La chiave di valore percepito automatica con le immagini barrate contrassegnate permette una verifica istantanea tra le sessioni.',
     },
     {
       title: 'Lead magnet sui social media per acquisire clienti',
@@ -123,7 +123,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Inizia con la modalità Cancella per i più piccoli',
-      description: 'La modalità Cancella è il formato di sottrazione più intuitivo per bambini della scuola dell\'infanzia e della prima elementare. I bambini vedono un gruppo di immagini, ne barrano alcune e contano quelle rimaste. Inizia ogni nuovo prodotto o linea di prodotti con la modalità Cancella prima di introdurre altre modalità — costruisce la comprensione fondamentale che sottrarre significa «togliere». Genitori e venditori preferiscono nettamente questo formato per bambini dai 3 ai 6 anni perché elimina l\'intimidazione dei numeri puri.',
+      description: 'La modalità Cancella è il formato di sottrazione più intuitivo per bambini della scuola dell\'infanzia e della prima elementare. I bambini vedono un gruppo di immagini, ne barrano alcune e contano quelle rimaste. Inizia ogni nuovo prodotto o linea di prodotti con la modalità Cancella prima di introdurre altre modalità — costruisce la comprensione fondamentale che sottrarre significa \"togliere\". Genitori e venditori preferiscono nettamente questo formato per bambini dai 3 ai 6 anni perché elimina l\'intimidazione dei numeri puri.',
     },
     {
       title: 'Mantieni il minuendo massimo basso per i principianti',

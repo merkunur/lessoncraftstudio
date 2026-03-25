@@ -41,12 +41,12 @@ const content: AppContent = {
       {
         title: 'Bild auswählen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf ein Bild, um es für Ihr Rätsel auszuwählen. Die Bildvorschau zeigt Ihre Auswahl vor der Generierung an. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel „Eigene Bilder hochladen“ verwenden, um personalisierte Raster-Puzzle aus eigenen Fotos oder Kunstwerken zu erstellen.',
+          'Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf ein Bild, um es für Ihr Rätsel auszuwählen. Die Bildvorschau zeigt Ihre Auswahl vor der Generierung an. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel \"Eigene Bilder hochladen\" verwenden, um personalisierte Raster-Puzzle aus eigenen Fotos oder Kunstwerken zu erstellen.',
       },
       {
         title: 'Raster-Puzzle-Arbeitsblatt generieren',
         description:
-          'Klicken Sie auf „Generieren“, um das Raster-Puzzle zu erstellen. Die App teilt Ihr ausgewähltes Bild in das konfigurierte Raster auf, zeigt die Hinweiszellen mit den tatsächlichen Bildkacheln sichtbar an und markiert die übrigen Zellen mit „?“-Platzhaltern. Alle Kacheln werden mittels Fisher-Yates-Zufallsverteilung gemischt und als nummerierte Palette angezeigt. Bei Hochformat-Layouts erscheint das Raster oben mit der Palette darunter; bei Querformat-Layouts steht das Raster links mit der Palette rechts. Eine gestaltete Überschrift erscheint mit cyanfarbenem Hintergrund (#00BCD4), tiefviolettem Titel (#6A1B9A) und orangefarbenem Rahmen (#FF8C42) mit „Grid Match“ und Anweisungen in der gewählten Sprache.',
+          'Klicken Sie auf \"Generieren\", um das Raster-Puzzle zu erstellen. Die App teilt Ihr ausgewähltes Bild in das konfigurierte Raster auf, zeigt die Hinweiszellen mit den tatsächlichen Bildkacheln sichtbar an und markiert die übrigen Zellen mit \"?\"-Platzhaltern. Alle Kacheln werden mittels Fisher-Yates-Zufallsverteilung gemischt und als nummerierte Palette angezeigt. Bei Hochformat-Layouts erscheint das Raster oben mit der Palette darunter; bei Querformat-Layouts steht das Raster links mit der Palette rechts. Eine gestaltete Überschrift erscheint mit cyanfarbenem Hintergrund (#00BCD4), tiefviolettem Titel (#6A1B9A) und orangefarbenem Rahmen (#FF8C42) mit \"Grid Match\" und Anweisungen in der gewählten Sprache.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Personalisierte Foto-Rasterpuzzle als Premium-Produkte',
         description:
-          'Nutzen Sie die Funktion „Eigene Bilder hochladen“, um Rasterpuzzle aus beliebigen Fotos oder Kunstwerken zu erstellen. Familienfoto-Rätsel sind einzigartige personalisierte Geschenke für Geburtstage, Jubiläen oder Weihnachten. Verkäufer können Klassenfotos für Schuljahresend-Aktivitäten hochladen oder Ausflugfotos als Erinnerungsprojekte verwenden. Haustier-Foto-Rätsel, Urlaubsfoto-Rätsel und Teamfoto-Rätsel erzeugen einzigartige Produkte, die in keinem Katalog zu finden sind. Bieten Sie individuelle Rasterpuzzle-Erstellung als Premium-Service auf Etsy.de an, bei dem Kunden ihre Fotos einsenden und Sie gedruckte Rätsel-Arbeitsblätter mit Lösungsschlüsseln liefern — ein margenstarkes personalisiertes Produkt mit minimaler Produktionszeit. Verschiedene Rastergrößen ermöglichen Ihnen, aus einem einzigen Kundenfoto mehrere Rätselversionen in verschiedenen Schwierigkeitsgraden zu erstellen und als Set anzubieten.',
+          'Nutzen Sie die Funktion \"Eigene Bilder hochladen\", um Rasterpuzzle aus beliebigen Fotos oder Kunstwerken zu erstellen. Familienfoto-Rätsel sind einzigartige personalisierte Geschenke für Geburtstage, Jubiläen oder Weihnachten. Verkäufer können Klassenfotos für Schuljahresend-Aktivitäten hochladen oder Ausflugfotos als Erinnerungsprojekte verwenden. Haustier-Foto-Rätsel, Urlaubsfoto-Rätsel und Teamfoto-Rätsel erzeugen einzigartige Produkte, die in keinem Katalog zu finden sind. Bieten Sie individuelle Rasterpuzzle-Erstellung als Premium-Service auf Etsy.de an, bei dem Kunden ihre Fotos einsenden und Sie gedruckte Rätsel-Arbeitsblätter mit Lösungsschlüsseln liefern — ein margenstarkes personalisiertes Produkt mit minimaler Produktionszeit. Verschiedene Rastergrößen ermöglichen Ihnen, aus einem einzigen Kundenfoto mehrere Rätselversionen in verschiedenen Schwierigkeitsgraden zu erstellen und als Set anzubieten.',
         platform: 'Etsy (personalisierte Produkte)',
       },
     ],
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert das Rasterpuzzle für Lernende?',
       answer:
-        'Das Arbeitsblatt zeigt ein Raster, bei dem einige Zellen die tatsächliche Bildkachel anzeigen (Hinweiszellen) und die übrigen Zellen „?“-Platzhalter zeigen. Unter oder neben dem Raster zeigt eine nummerierte Palette alle verdeckten Kacheln in gemischter Reihenfolge. Lernende untersuchen die Hinweiszellen, studieren die nummerierten Kacheln und bestimmen, welche Nummer in jede leere Rasterposition gehört. Die Lösung erfordert räumliches Denken und visuelle Wahrnehmung — den Kachelinhalt anhand von Farbverläufen, Motivfortsetzungen und Kantenabgleich dem korrekten Platz im Gesamtbild zuzuordnen. Das fördert analytische Fähigkeiten auf eine spielerische, motivierende Weise.',
+        'Das Arbeitsblatt zeigt ein Raster, bei dem einige Zellen die tatsächliche Bildkachel anzeigen (Hinweiszellen) und die übrigen Zellen \"?\"-Platzhalter zeigen. Unter oder neben dem Raster zeigt eine nummerierte Palette alle verdeckten Kacheln in gemischter Reihenfolge. Lernende untersuchen die Hinweiszellen, studieren die nummerierten Kacheln und bestimmen, welche Nummer in jede leere Rasterposition gehört. Die Lösung erfordert räumliches Denken und visuelle Wahrnehmung — den Kachelinhalt anhand von Farbverläufen, Motivfortsetzungen und Kantenabgleich dem korrekten Platz im Gesamtbild zuzuordnen. Das fördert analytische Fähigkeiten auf eine spielerische, motivierende Weise.',
     },
     {
       question: 'Wie funktioniert der automatisch generierte Lösungsschlüssel?',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'Kann ich eigene Bilder für Rasterpuzzle verwenden?',
       answer:
-        'Ja. Das Panel „Eigene Bilder hochladen“ ermöglicht das Hochladen von PNG-, JPG- oder GIF-Dateien von Ihrem Computer. Hochgeladene Bilder erscheinen in einer Galerie unterhalb des Upload-Bereichs. Klicken Sie auf ein hochgeladenes Bild, um es als Rätselquelle auszuwählen. Diese Funktion eignet sich ideal für personalisierte Rätsel aus Fotos, eigenen Kunstwerken oder Markenbildern. Sie können hochgeladene Bilder neben der eingebauten Bibliothek verwenden — wechseln Sie frei zwischen beiden. Eigene Bilder werden lokal in Ihrem Browser verarbeitet und nicht auf einen Server hochgeladen, was sowohl den Datenschutz als auch die Verarbeitungsgeschwindigkeit gewährleistet.',
+        'Ja. Das Panel \"Eigene Bilder hochladen\" ermöglicht das Hochladen von PNG-, JPG- oder GIF-Dateien von Ihrem Computer. Hochgeladene Bilder erscheinen in einer Galerie unterhalb des Upload-Bereichs. Klicken Sie auf ein hochgeladenes Bild, um es als Rätselquelle auszuwählen. Diese Funktion eignet sich ideal für personalisierte Rätsel aus Fotos, eigenen Kunstwerken oder Markenbildern. Sie können hochgeladene Bilder neben der eingebauten Bibliothek verwenden — wechseln Sie frei zwischen beiden. Eigene Bilder werden lokal in Ihrem Browser verarbeitet und nicht auf einen Server hochgeladen, was sowohl den Datenschutz als auch die Verarbeitungsgeschwindigkeit gewährleistet.',
     },
     {
       question: 'Wie passt sich das Layout an Hoch- und Querformat an?',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mehrere einzigartige Rätsel aus demselben Bild generieren?',
       answer:
-        'Ja. Jedes Mal, wenn Sie auf „Generieren“ klicken, mischt die App die Kacheln mittels Fisher-Yates-Zufallsverteilung und erzeugt eine andere nummerierte Kachelreihenfolge. Auch die Hinweiszellen-Positionen ändern sich zwischen den Generierungen. Das bedeutet, Sie können mehrere verschiedene Rätsel-Arbeitsblätter aus einem einzigen Bild erstellen, ohne Einstellungen zu ändern — jedes hat andere Kachelnummern und Hinweispositionen, was sie zu einzigartigen Rätselerlebnissen macht. Diese Funktion ist besonders wertvoll für die Erstellung von Varietätenpaketen: generieren Sie 5–10 verschiedene Versionen desselben Tierbilds und verpacken Sie sie als abwechslungsreiches Rätselset, ohne verschiedene Quellbilder zu benötigen.',
+        'Ja. Jedes Mal, wenn Sie auf \"Generieren\" klicken, mischt die App die Kacheln mittels Fisher-Yates-Zufallsverteilung und erzeugt eine andere nummerierte Kachelreihenfolge. Auch die Hinweiszellen-Positionen ändern sich zwischen den Generierungen. Das bedeutet, Sie können mehrere verschiedene Rätsel-Arbeitsblätter aus einem einzigen Bild erstellen, ohne Einstellungen zu ändern — jedes hat andere Kachelnummern und Hinweispositionen, was sie zu einzigartigen Rätselerlebnissen macht. Diese Funktion ist besonders wertvoll für die Erstellung von Varietätenpaketen: generieren Sie 5–10 verschiedene Versionen desselben Tierbilds und verpacken Sie sie als abwechslungsreiches Rätselset, ohne verschiedene Quellbilder zu benötigen.',
     },
     {
       question: 'Wie funktioniert die Schwierigkeitsskalierung über Rastergrößen und Hinweiszahlen?',

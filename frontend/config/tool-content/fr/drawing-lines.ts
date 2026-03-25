@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Créateur de Fiches de Graphisme',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de graphisme immédiatement.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur dans votre navigateur. L\'outil s\'ouvre instantanément avec une barre latérale de réglages à gauche et un canevas d\'aperçu en temps réel à droite. Aucun compte, téléchargement ni installation requis — commencez à créer des fiches de graphisme immédiatement.',
       },
       {
         title: 'Définir la Mise en Page et l\'Arrière-Plan',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Ajouter du Texte et Personnaliser les Champs',
-        description: 'Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d\'identification de l\'utilisateur. L\'en-tête auto-généré affiche un bandeau vert vif avec « Exercice de Tracé de Lignes » localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d\'alignement, les contrôles de verrouillage/déverrouillage et l\'annulation et le rétablissement illimités.',
+        description: 'Utilisez le panneau Outils Texte pour ajouter un titre de fiche, des consignes ou du texte décoratif. Choisissez parmi des polices incluant Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito et Quicksand. Activez les champs nom et date pour les zones d\'identification de l\'utilisateur. L\'en-tête auto-généré affiche un bandeau vert vif avec \" Exercice de Tracé de Lignes \" localisé dans les 11 langues prises en charge. Glissez, redimensionnez, pivotez et repositionnez chaque élément sur le canevas complet Fabric.js avec les outils d\'alignement, les contrôles de verrouillage/déverrouillage et l\'annulation et le rétablissement illimités.',
       },
       {
         title: 'Prévisualiser et Ajuster la Difficulté des Lignes',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Ensembles de Préparation à l\'Écriture',
-      description: 'Construisez des fiches de graphisme spécifiquement conçues comme préparation à l\'écriture. Les lignes horizontales pratiquent le suivi gauche-droite utilisé en lecture et en écriture. Les lignes verticales développent les tracés de haut en bas essentiels à la formation des lettres. Les courbes imitent les mouvements arrondis nécessaires pour les lettres comme c, o, s et e. Les diagonales construisent les tracés angulaires utilisés dans les lettres comme k, v, w et z. Proposez ces fiches comme des lots « Préparation à l\'écriture » qui font le pont entre le développement de la motricité fine et les compétences de littéracie — une catégorie de produits avec une forte demande toute l\'année auprès des vendeurs de maternelle et des parents.',
+      description: 'Construisez des fiches de graphisme spécifiquement conçues comme préparation à l\'écriture. Les lignes horizontales pratiquent le suivi gauche-droite utilisé en lecture et en écriture. Les lignes verticales développent les tracés de haut en bas essentiels à la formation des lettres. Les courbes imitent les mouvements arrondis nécessaires pour les lettres comme c, o, s et e. Les diagonales construisent les tracés angulaires utilisés dans les lettres comme k, v, w et z. Proposez ces fiches comme des lots \" Préparation à l\'écriture \" qui font le pont entre le développement de la motricité fine et les compétences de littéracie — une catégorie de produits avec une forte demande toute l\'année auprès des vendeurs de maternelle et des parents.',
     },
     {
       title: 'Ensembles Thématiques d\'Association de Paires d\'Images',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cahiers de Tracé de Lignes pour Amazon KDP',
-      description: 'Compilez plus de 80 exercices de tracé de lignes dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : « Graphisme Débutant » couvre les modèles horizontaux et verticaux. « Graphisme Intermédiaire » introduit les quatre variantes de courbes. « Graphisme Avancé » présente les modèles de diagonales mélangés aux courbes. Les images colorées s\'impriment de manière vibrante pour des intérieurs engageants et attrayants pour les enfants. Le format sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction. Les cahiers de motricité fine remplissent une niche spécifique d\'apprentissage précoce avec une demande constante toute l\'année.',
+      description: 'Compilez plus de 80 exercices de tracé de lignes dans des cahiers thématiques pour Amazon KDP. Structurez une série par progression : \" Graphisme Débutant \" couvre les modèles horizontaux et verticaux. \" Graphisme Intermédiaire \" introduit les quatre variantes de courbes. \" Graphisme Avancé \" présente les modèles de diagonales mélangés aux courbes. Les images colorées s\'impriment de manière vibrante pour des intérieurs engageants et attrayants pour les enfants. Le format sans texte se publie de manière identique sur toutes les places de marché KDP internationales sans traduction. Les cahiers de motricité fine remplissent une niche spécifique d\'apprentissage précoce avec une demande constante toute l\'année.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tunnel de Vente Pinterest pour Fiches de Graphisme',
-      description: 'Les fiches de graphisme avec des paires d\'images colorées et des tracés SVG distinctifs font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d\'exemple avec filigrane montrant différents types de lignes, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des séries d\'épingles distinctes pour « tracé de lignes pour enfants », « fiches de motricité fine » et « préparation à l\'écriture ». Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
+      description: 'Les fiches de graphisme avec des paires d\'images colorées et des tracés SVG distinctifs font des épingles Pinterest accrocheuses qui se démarquent des épingles de fiches classiques. Épinglez des fiches d\'exemple avec filigrane montrant différents types de lignes, renvoyez vers votre boutique Etsy.fr ou page d\'atterrissage, et collectez des adresses e-mail pour votre liste d\'abonnés. Créez des séries d\'épingles distinctes pour \" tracé de lignes pour enfants \", \" fiches de motricité fine \" et \" préparation à l\'écriture \". Le format sans texte signifie que les épingles attirent les parents et vendeurs de tous les pays.',
       platform: 'Pinterest',
     },
     {

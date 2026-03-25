@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Añade texto, títulos y numeración de puzzles',
         description:
-          'Usa el panel de Herramientas de Texto para añadir un título a la ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Personaliza la numeración de los puzzles con tu propio texto de etiqueta (por ejemplo, «Puzzle», «Problema», «Desafío») y establece el número de inicio. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento — con controles de capas, guías de alineación, bloqueo/desbloqueo, y deshacer y rehacer ilimitados.',
+          'Usa el panel de Herramientas de Texto para añadir un título a la ficha, campos de nombre y fecha, instrucciones o cualquier texto personalizado. Elige entre siete fuentes, incluyendo Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Personaliza la numeración de los puzzles con tu propio texto de etiqueta (por ejemplo, \"Puzzle\", \"Problema\", \"Desafío\") y establece el número de inicio. Usa el lienzo Fabric.js para arrastrar, redimensionar y reposicionar cada elemento — con controles de capas, guías de alineación, bloqueo/desbloqueo, y deshacer y rehacer ilimitados.',
       },
       {
         title: 'Genera la clave de respuesta y descarga',

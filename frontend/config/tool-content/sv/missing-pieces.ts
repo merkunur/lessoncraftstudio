@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Saknade Bitar Skapare',
     tagline: 'Pusselarbetsblad generator med 6 bitformer (fyrkant, cirkel, rektangel stående/liggande, ellips stående/liggande), 1–5 saknade bitar med 2–6 lösningsalternativ inklusive distraktorer, smart bitextraktion med färgvariansdetektering och 250px minimavstånd, automatiskt genererade facit med gulmarkerade nummertiketter, dubbelramssystem i blågrön och het rosa, och 104 tematiska bildsamlingar',
-    description: 'Skapa professionella pusselarbetsblad där en bild har hål utklippta och användarna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen testar upp till 150 placeringsförsök för att hitta bitar med tillräcklig färgvarians (minsta ljusstyrkavarians 15) med minst 250 pixlars avstånd mellan bitar. Bitstorlek beräknas som 12% av bildens bredd med minimum 50 pixlar. Välj bland 6 bitformer: fyrkant (standard) och cirkel för rena geometriska klipp, rektangel stående/liggande för avlånga hål, ellips stående/liggande för mjukare kurvade klipp. Konfigurera svårigheten med två oberoende kontroller: 1–5 saknade bitar och 2–6 lösningsalternativ. Distraktorbitar extraheras från icke-överlappande områden. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål. En automatiskt genererad rubrik renderar «Saknade bitar» i turkos (#06B6D4) med rosarosa beskrivning (#DB2777) och dubbelramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px). Saknade Bitar är INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Skapa professionella pusselarbetsblad där en bild har hål utklippta och användarna identifierar vilket numrerat alternativ som fyller varje lucka. Den smarta bitextraktions-algoritmen testar upp till 150 placeringsförsök för att hitta bitar med tillräcklig färgvarians (minsta ljusstyrkavarians 15) med minst 250 pixlars avstånd mellan bitar. Bitstorlek beräknas som 12% av bildens bredd med minimum 50 pixlar. Välj bland 6 bitformer: fyrkant (standard) och cirkel för rena geometriska klipp, rektangel stående/liggande för avlånga hål, ellips stående/liggande för mjukare kurvade klipp. Konfigurera svårigheten med två oberoende kontroller: 1–5 saknade bitar och 2–6 lösningsalternativ. Distraktorbitar extraheras från icke-överlappande områden. Dubbelarbetsyte-systemet genererar samtidigt arbetsblad och facit — facit visar gulmarkerade nummertiketter (rgba(255,255,0,0.7)) inuti varje hål. En automatiskt genererad rubrik renderar \"Saknade bitar\" i turkos (#06B6D4) med rosarosa beskrivning (#DB2777) och dubbelramsystem — blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px). Saknade Bitar är INTE språkkänsligt — rent visuellt, universellt säljbart utan översättning. Bläddra bland 104 tematiska samlingar med mer än 3 100 illustrationer eller ladda upp egna bilder. Exportera fyra filer per session med 300 DPI. Den gratis provversionen innehåller alla funktioner med vattenstämpel. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Saknade Bitar Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta pusselarbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta pusselarbetsblad generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Konfigurera pusselsvårighet med två oberoende kontroller',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera pusselarbetsbladet',
-        description: 'Klicka på Generera. Den smarta bitextraktions-algoritmen hittar bitar med tillräcklig färgvarians och minst 250 pixlars avstånd. Vita hål med svart kontur (2px) visas. Numrerade lösningsalternativ — korrekta bitar plus distraktorer — visas med gulmarkerade nummertiketter. Stående layouter placerar pusslet överst med alternativ nedanför; liggande delar vyn 50/50. Rubriken renderar «Saknade bitar» i turkos med dubbelram i blågrön och het rosa.',
+        description: 'Klicka på Generera. Den smarta bitextraktions-algoritmen hittar bitar med tillräcklig färgvarians och minst 250 pixlars avstånd. Vita hål med svart kontur (2px) visas. Numrerade lösningsalternativ — korrekta bitar plus distraktorer — visas med gulmarkerade nummertiketter. Stående layouter placerar pusslet överst med alternativ nedanför; liggande delar vyn 50/50. Rubriken renderar \"Saknade bitar\" i turkos med dubbelram i blågrön och het rosa.',
       },
       {
         title: 'Granska det automatiskt genererade facit',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP visuellt pussel arbetsboksserie',
-      description: 'Sammanställ 50–100 pussel till tematiska arbetsböcker. Strukturera efter svårighet: «Enkla Saknade Bitar» (1–2 bitar, 2–3 alternativ), «Mellannivå Pusselutmaningar» (3 bitar, 4 alternativ), «Avancerad Visuell Diskriminering» (4–5 bitar, 5–6 alternativ med distraktorer). Facitsidor i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt globalt.',
+      description: 'Sammanställ 50–100 pussel till tematiska arbetsböcker. Strukturera efter svårighet: \"Enkla Saknade Bitar\" (1–2 bitar, 2–3 alternativ), \"Mellannivå Pusselutmaningar\" (3 bitar, 4 alternativ), \"Avancerad Visuell Diskriminering\" (4–5 bitar, 5–6 alternativ med distraktorer). Facitsidor i slutet. Växla gråskala. Det rent visuella formatet publiceras identiskt globalt.',
       platform: 'Amazon KDP',
     },
     {
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar dubbelramsystemet?',
-      answer: 'Varje pussel har en stiliserad rubrik med «Saknade bitar» i turkos (#06B6D4) och rosarosa beskrivning (#DB2777), inramat av blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px) ramar med en lätt förskjutning.',
+      answer: 'Varje pussel har en stiliserad rubrik med \"Saknade bitar\" i turkos (#06B6D4) och rosarosa beskrivning (#DB2777), inramat av blågrön yttre (#14B8A6, 8px) och het rosa inre (#EC4899, 3px) ramar med en lätt förskjutning.',
     },
     {
       question: 'Är Saknade Bitar Skaparen språkkänslig?',

@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Gabarito com código de cores e 6 cores de destaque',
         description:
-          'O gabarito destaca cada palavra encontrada numa de seis cores alternadas: rosa, azul, verde, dourado, coral e lavanda. Cada palavra recebe uma cor distinta para identificação visual instantânea, facilitando a autoverificação pelos usuários ou o valor percebido rápida pelos vendedores. O formato com código de cores é visualmente atrativo e profissional — um passo acima dos simples gabaritos de «circule a palavra». Ative a exportação em escala de cinzentos quando necessitar de versões económicas em tinta para impressão a preto e branco.',
+          'O gabarito destaca cada palavra encontrada numa de seis cores alternadas: rosa, azul, verde, dourado, coral e lavanda. Cada palavra recebe uma cor distinta para identificação visual instantânea, facilitando a autoverificação pelos usuários ou o valor percebido rápida pelos vendedores. O formato com código de cores é visualmente atrativo e profissional — um passo acima dos simples gabaritos de \"circule a palavra\". Ative a exportação em escala de cinzentos quando necessitar de versões económicas em tinta para impressão a preto e branco.',
       },
       {
         title: 'Exportação PDF e JPEG pronta para impressão a mais de 400 DPI',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Produtos de caça-palavras multilingues com Acesso Completo',
         description:
-          'O Acesso Completo desbloqueia os 11 idiomas, e como Caça-Palavras é sensível ao idioma, as palavras ocultas E as letras de preenchimento da grelha mudam conforme o idioma. «Dog» em inglês torna-se «cão» em português numa grelha preenchida com caracteres portugueses como ã, õ, ç, â, á; «Hund» em alemão numa grelha com ä, ö, ü; «chien» em francês numa grelha com é, è, ç, à. Cada versão linguística é um produto genuinamente diferente com palavras diferentes, letras de preenchimento diferentes e uma experiência de resolução diferente. Crie séries temáticas idênticas em múltiplos idiomas e publique cada uma como um produto de Etsy ou um livro de KDP separado — onze fluxos de receita a partir de um único fluxo de trabalho.',
+          'O Acesso Completo desbloqueia os 11 idiomas, e como Caça-Palavras é sensível ao idioma, as palavras ocultas E as letras de preenchimento da grelha mudam conforme o idioma. \"Dog\" em inglês torna-se \"cão\" em português numa grelha preenchida com caracteres portugueses como ã, õ, ç, â, á; \"Hund\" em alemão numa grelha com ä, ö, ü; \"chien\" em francês numa grelha com é, è, ç, à. Cada versão linguística é um produto genuinamente diferente com palavras diferentes, letras de preenchimento diferentes e uma experiência de resolução diferente. Crie séries temáticas idênticas em múltiplos idiomas e publique cada uma como um produto de Etsy ou um livro de KDP separado — onze fluxos de receita a partir de um único fluxo de trabalho.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'O gerador de Caça-Palavras é sensível ao idioma?',
       answer:
-        'Sim. Como as palavras ocultas são os nomes das imagens no idioma selecionado, mudar o idioma altera completamente o conteúdo do puzzle. Além disso, as letras de preenchimento da grelha mudam para corresponder ao conjunto de caracteres do idioma-alvo com frequências ponderadas adequadas. «Dog» em inglês torna-se «cão» em português numa grelha com ã, õ, ç, â, á. A Licença Comercial é apenas em inglês; o Acesso Completo desbloqueia os 11 idiomas, fazendo de cada versão linguística um produto distinto com palavras diferentes e letras de preenchimento diferentes.',
+        'Sim. Como as palavras ocultas são os nomes das imagens no idioma selecionado, mudar o idioma altera completamente o conteúdo do puzzle. Além disso, as letras de preenchimento da grelha mudam para corresponder ao conjunto de caracteres do idioma-alvo com frequências ponderadas adequadas. \"Dog\" em inglês torna-se \"cão\" em português numa grelha com ã, õ, ç, â, á. A Licença Comercial é apenas em inglês; o Acesso Completo desbloqueia os 11 idiomas, fazendo de cada versão linguística um produto distinto com palavras diferentes e letras de preenchimento diferentes.',
     },
     {
       question: 'Existe um teste grátis?',

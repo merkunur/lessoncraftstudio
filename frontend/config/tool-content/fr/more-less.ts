@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Ouvrir le Générateur de Fiches',
-        description: 'Cliquez sur « Essayer maintenant » pour lancer le générateur de fiches Plus ou Moins. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
+        description: 'Cliquez sur \" Essayer maintenant \" pour lancer le générateur de fiches Plus ou Moins. L\'outil s\'ouvre instantanément dans votre navigateur avec une barre latérale sombre à gauche pour les réglages et un canevas lumineux à droite pour l\'aperçu en temps réel. Aucun compte ni téléchargement requis.',
       },
       {
         title: 'Choisir le Mode d\'Exercice',
-        description: 'Ouvrez le panneau « Configuration des Exercices » et sélectionnez parmi trois modes : Image contre Image (deux groupes d\'images côte à côte — les utilisateurs comptent et comparent les quantités), Image contre Nombre (un groupe d\'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) ou Cocher et Barrer les Groupes (une boîte contenant 8–20 images mélangées de deux catégories — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire). Le mode Cocher et Barrer est unique à cet outil et permet de créer des produits qu\'aucun concurrent ne peut égaler.',
+        description: 'Ouvrez le panneau \" Configuration des Exercices \" et sélectionnez parmi trois modes : Image contre Image (deux groupes d\'images côte à côte — les utilisateurs comptent et comparent les quantités), Image contre Nombre (un groupe d\'images associé à un chiffre — fait le pont entre le comptage visuel et la reconnaissance abstraite des nombres) ou Cocher et Barrer les Groupes (une boîte contenant 8–20 images mélangées de deux catégories — les utilisateurs cochent le groupe majoritaire et barrent le groupe minoritaire). Le mode Cocher et Barrer est unique à cet outil et permet de créer des produits qu\'aucun concurrent ne peut égaler.',
       },
       {
         title: 'Définir la Plage de Nombres',
@@ -49,15 +49,15 @@ const content: ToolContent = {
       },
       {
         title: 'Sélectionner des Images dans la Bibliothèque de Thèmes',
-        description: 'Ouvrez le panneau « Bibliothèque d\'Images » et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, créatures marines, espace, sport et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Cliquez sur les images individuelles pour choisir exactement lesquelles apparaîtront sur votre fiche.',
+        description: 'Ouvrez le panneau \" Bibliothèque d\'Images \" et parcourez plus de 100 collections thématiques : animaux, nourriture, véhicules, créatures marines, espace, sport et bien plus. Utilisez la barre de recherche pour trouver des thèmes spécifiques. Cliquez sur les images individuelles pour choisir exactement lesquelles apparaîtront sur votre fiche.',
       },
       {
         title: 'Personnaliser la Mise en Page',
-        description: 'Dans la section « Mise en Page », choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures.',
+        description: 'Dans la section \" Mise en Page \", choisissez parmi Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré ou entrez une taille personnalisée. Définissez la couleur de page, ajoutez un fond thématique avec opacité réglable et choisissez un cadre décoratif dans la bibliothèque de bordures.',
       },
       {
         title: 'Générer et Télécharger',
-        description: 'Cliquez sur le bouton « Générer » pour créer votre fiche. L\'aperçu se met à jour sur le canevas en temps réel. Quand vous êtes satisfait, utilisez le menu « Télécharger » pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Générez et téléchargez également un corrigé assorti avec tous les symboles de comparaison corrects déjà remplis.',
+        description: 'Cliquez sur le bouton \" Générer \" pour créer votre fiche. L\'aperçu se met à jour sur le canevas en temps réel. Quand vous êtes satisfait, utilisez le menu \" Télécharger \" pour enregistrer en JPEG (image unique) ou PDF (optimisé pour l\'impression). Générez et téléchargez également un corrigé assorti avec tous les symboles de comparaison corrects déjà remplis.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Packs de Comparaison Saisonniers',
-      description: 'Utilisez les thèmes de fêtes et de saisons (Noël, Halloween, fleurs de printemps, plage d\'été) pour créer des packs limités dans le temps. Les produits saisonniers se vendent particulièrement bien sur Etsy car les acheteurs les recherchent dans des fenêtres spécifiques. Un pack « Halloween Plus ou Moins » avec des images effrayantes est un accroche-regard garanti en octobre.',
+      description: 'Utilisez les thèmes de fêtes et de saisons (Noël, Halloween, fleurs de printemps, plage d\'été) pour créer des packs limités dans le temps. Les produits saisonniers se vendent particulièrement bien sur Etsy car les acheteurs les recherchent dans des fenêtres spécifiques. Un pack \" Halloween Plus ou Moins \" avec des images effrayantes est un accroche-regard garanti en octobre.',
     },
     {
       title: 'Packs de Fiches Visuelles pour le Marché International',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Vendeur de Packs de Maths sur Gumroad',
-      description: 'Téléchargez des packs de fiches de comparaison différenciés sur Gumroad. Les vendeurs recherchent constamment « fiches plus grand que plus petit que » et « fiches de comparaison de nombres imprimables ». Incluez les trois modes d\'exercice, les versions avec symboles illustrés et standards, les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée.',
+      description: 'Téléchargez des packs de fiches de comparaison différenciés sur Gumroad. Les vendeurs recherchent constamment \" fiches plus grand que plus petit que \" et \" fiches de comparaison de nombres imprimables \". Incluez les trois modes d\'exercice, les versions avec symboles illustrés et standards, les corrigés et un guide vendeur dans chaque listing pour une valeur perçue plus élevée.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Utilisez les Symboles Illustrés pour les Jeunes Apprenants',
-      description: 'Les symboles de comparaison illustrés sont colorés et adaptés aux enfants, idéaux pour les produits maternelle et grande section. Passez aux Symboles Normaux pour le CP et au-delà, ou incluez les deux versions dans votre pack pour que les vendeurs choisissent ce qui convient à leur classe. Inclure les deux styles de symboles dans un même listing augmente aussi votre portée de mots-clés sur Etsy car les acheteurs cherchent à la fois « fiches de comparaison illustrées » et « fiches de symboles plus grand que plus petit que » — couvrir les deux versions signifie que votre listing correspond à un éventail plus large de requêtes de recherche.',
+      description: 'Les symboles de comparaison illustrés sont colorés et adaptés aux enfants, idéaux pour les produits maternelle et grande section. Passez aux Symboles Normaux pour le CP et au-delà, ou incluez les deux versions dans votre pack pour que les vendeurs choisissent ce qui convient à leur classe. Inclure les deux styles de symboles dans un même listing augmente aussi votre portée de mots-clés sur Etsy car les acheteurs cherchent à la fois \" fiches de comparaison illustrées \" et \" fiches de symboles plus grand que plus petit que \" — couvrir les deux versions signifie que votre listing correspond à un éventail plus large de requêtes de recherche.',
     },
     {
       title: 'Modulez la Difficulté avec la Variété d\'Images',
@@ -136,7 +136,7 @@ const content: ToolContent = {
     },
     {
       title: 'Combinez avec Addition et Soustraction pour des Packs de Maths',
-      description: 'Créez des ensembles assortis de comparaison, addition et soustraction avec le même thème et la même plage de nombres. Vendez-les individuellement et en « Méga-Pack Maths pour Débutants » combiné avec un léger rabais. Les produits groupés ont une valeur de commande moyenne plus élevée sur chaque place de marché. Quand vous utilisez le même thème animalier ou saisonnier pour les trois compétences, le pack paraît cohérent et professionnellement conçu. Les acheteurs perçoivent les packs thématiques comme significativement plus précieux que des collections aléatoires de fiches, ce qui se traduit directement par de meilleurs taux de conversion sur vos listings.',
+      description: 'Créez des ensembles assortis de comparaison, addition et soustraction avec le même thème et la même plage de nombres. Vendez-les individuellement et en \" Méga-Pack Maths pour Débutants \" combiné avec un léger rabais. Les produits groupés ont une valeur de commande moyenne plus élevée sur chaque place de marché. Quand vous utilisez le même thème animalier ou saisonnier pour les trois compétences, le pack paraît cohérent et professionnellement conçu. Les acheteurs perçoivent les packs thématiques comme significativement plus précieux que des collections aléatoires de fiches, ce qui se traduit directement par de meilleurs taux de conversion sur vos listings.',
     },
     {
       title: 'Limitez les Exercices Cocher et Barrer à 1–3 par Page',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Incluez Toujours le Corrigé',
-      description: 'Cliquez sur « Générer le Corrigé » avant de télécharger. Pour les fiches de comparaison, le corrigé montre le symbole correct (>, < ou =) pour chaque exercice. Les acheteurs sur Etsy et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Pour le mode Cocher et Barrer, le corrigé indique clairement quel groupe d\'images est le majoritaire et lequel est le minoritaire, faisant gagner un temps précieux de correction aux vendeurs. Inclure des corrigés rend aussi vos produits adaptés à l\'apprentissage autonome et aux devoirs où les parents doivent vérifier l\'exactitude sans expertise en maths.',
+      description: 'Cliquez sur \" Générer le Corrigé \" avant de télécharger. Pour les fiches de comparaison, le corrigé montre le symbole correct (>, < ou =) pour chaque exercice. Les acheteurs sur Etsy et Gumroad attribuent systématiquement de meilleures notes aux produits incluant un corrigé. Pour le mode Cocher et Barrer, le corrigé indique clairement quel groupe d\'images est le majoritaire et lequel est le minoritaire, faisant gagner un temps précieux de correction aux vendeurs. Inclure des corrigés rend aussi vos produits adaptés à l\'apprentissage autonome et aux devoirs où les parents doivent vérifier l\'exactitude sans expertise en maths.',
     },
   ],
 

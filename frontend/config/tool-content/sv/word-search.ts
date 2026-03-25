@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Ordsökning Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga ordsökningspussel omedelbart.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja bygga ordsökningspussel omedelbart.',
       },
       {
         title: 'Ställ in sidlayout och mall',
-        description: 'I avsnittet «Sidinställningar» väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet från 104-tema bildbiblioteket och välj en dekorativ ramkant.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet från 104-tema bildbiblioteket och välj en dekorativ ramkant.',
       },
       {
         title: 'Välj din innehållskälla',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera facit och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt ordsökning arbetsblad med de dolda orden inbäddade i rutnätet. Växla till fliken Facit och generera en färgkodad löst version där varje ord markeras i en av sex cyklande färger — rosa, blå, grön, guld, korall och lavendel. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning. Ladda ner både arbetsbladet och facit som tryckfärdig PDF eller högupplöst JPEG med 400+ DPI.',
+        description: 'Klicka på \"Generera\" för att bygga ditt ordsökning arbetsblad med de dolda orden inbäddade i rutnätet. Växla till fliken Facit och generera en färgkodad löst version där varje ord markeras i en av sex cyklande färger — rosa, blå, grön, guld, korall och lavendel. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning. Ladda ner både arbetsbladet och facit som tryckfärdig PDF eller högupplöst JPEG med 400+ DPI.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga ordsökningsprodukter',
-      description: 'Byt språk och regenerera samma arbetsbladsdesign på alla 11 stödda språk. Både de dolda orden och rutnätets fyllnadsbokstäver ändras efter språk — «hund» på svenska blir «dog» i ett engelskt rutnät, «Hund» i ett tyskt rutnät fyllt med ä, ö, ü, «chien» i ett franskt rutnät med é, è, ç. Varje språkversion är en genuint annorlunda produkt med olika ord, olika fyllnadstecken och en annorlunda lösningsupplevelse.',
+      description: 'Byt språk och regenerera samma arbetsbladsdesign på alla 11 stödda språk. Både de dolda orden och rutnätets fyllnadsbokstäver ändras efter språk — \"hund\" på svenska blir \"dog\" i ett engelskt rutnät, \"Hund\" i ett tyskt rutnät fyllt med ä, ö, ü, \"chien\" i ett franskt rutnät med é, è, ç. Varje språkversion är en genuint annorlunda produkt med olika ord, olika fyllnadstecken och en annorlunda lösningsupplevelse.',
     },
     {
       title: 'Anpassad vokabulär ordsökningar',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade och högtidspussel-paket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Halloween Ordsökning»-paket med kuslig vokabulär i progressivt större rutnät säljer starkt i oktober. Jul, skolstart, vår och sommar-teman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Kombinera små enkla rutnät för yngre användare med stora utmanande rutnät för äldre barn i ett enda säsongspaket.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett \"Halloween Ordsökning\"-paket med kuslig vokabulär i progressivt större rutnät säljer starkt i oktober. Jul, skolstart, vår och sommar-teman har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Kombinera små enkla rutnät för yngre användare med stora utmanande rutnät för äldre barn i ett enda säsongspaket.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP tematisk pusselboksserie',
-      description: 'Sammanställ 80+ ordsökningspussel till en tematisk pusselbok för Amazon KDP. Strukturera en serie kring populära teman: «Djur Ordsökning», «Mat och Matlagning Ordsökning», «Natur och Vetenskap Ordsökning». Varje bok använder progressiva rutnätsstorlekar från 6×6 till 25×25 med facit i slutet. Använd gråskaleläge för lägre utskriftskostnader. Publicera separata utgåvor per språk med den lokalmedvetna fyllnadsfunktionen.',
+      description: 'Sammanställ 80+ ordsökningspussel till en tematisk pusselbok för Amazon KDP. Strukturera en serie kring populära teman: \"Djur Ordsökning\", \"Mat och Matlagning Ordsökning\", \"Natur och Vetenskap Ordsökning\". Varje bok använder progressiva rutnätsstorlekar från 6×6 till 25×25 med facit i slutet. Använd gråskaleläge för lägre utskriftskostnader. Publicera separata utgåvor per språk med den lokalmedvetna fyllnadsfunktionen.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad vokabulärstationer',
-      description: 'Ladda upp ordsökning arbetsbladspaket till Gumroad organiserade efter tema och svårighet. Inkludera fyra svårighetsnivåer per tema med rutnätsstorlek och riktningskontroller som differentieringsaxlar. Paketera med färgkodade facit och framstegsspårningsblad. säljare söker ständigt efter «vokabuläraktiviteter» och «ordsökning arbetsblad». Den justerbara svårigheten innebär att en produkt betjänar ett helt produktlinje med blandade förmågor.',
+      description: 'Ladda upp ordsökning arbetsbladspaket till Gumroad organiserade efter tema och svårighet. Inkludera fyra svårighetsnivåer per tema med rutnätsstorlek och riktningskontroller som differentieringsaxlar. Paketera med färgkodade facit och framstegsspårningsblad. säljare söker ständigt efter \"vokabuläraktiviteter\" och \"ordsökning arbetsblad\". Den justerbara svårigheten innebär att en produkt betjänar ett helt produktlinje med blandade förmågor.',
       platform: 'Gumroad',
     },
     {

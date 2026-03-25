@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Präpositionen-Arbeitsblatt-Generator',
     tagline: 'Räumliche Präpositionen-Arbeitsblätter mit zwei Übungsmodi in 11 Sprachen erstellen',
-    description: 'Vermitteln Sie Positionswörter durch bildbasierte Übungen, die Nutzern wirklich Spaß machen. Dieses Tool erstellt Präpositionen-Arbeitsblätter, bei denen Lernende räumliche Beziehungen erkennen — auf, unter, über, neben, zwischen, drinnen, draußen — indem sie Bildszenen studieren und die richtige Präposition einsetzen oder auswählen. Wählen Sie zwischen zwei Übungsmodi: Lückentext, bei dem Nutzer die korrekte Präposition selbst schreiben, oder Multiple Choice, bei dem sie aus vorgegebenen Optionen mit einer anpassbaren Aufgabenstellung auswählen. Stellen Sie 1–8 Übungen pro Arbeitsblatt ein und wählen Sie über das Kontrollkästchen-Raster genau aus, welche Präpositionen enthalten sein sollen. Die besondere Stärke des Tools ist der Formenaustausch — eine separate Bildebene ermöglicht den unabhängigen Austausch von Szenenformen und erzeugt deutlich mehr visuelle Kombinationen als ein einzelner Bildsatz bieten könnte. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und jedes Präpositionswört wird in sein natives Äquivalent aktualisiert. Englisch verwendet „on, under, above, beside, between, inside, outside“; Französisch verwendet «sur, sous, au-dessus, à côté, entre, dedans, dehors». Ein Arbeitsblatt-Design wird zu 11 einzigartigen Sprachprodukten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Designs hoch. Wählen Sie aus mehreren Vorlagen und 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Vermitteln Sie Positionswörter durch bildbasierte Übungen, die Nutzern wirklich Spaß machen. Dieses Tool erstellt Präpositionen-Arbeitsblätter, bei denen Lernende räumliche Beziehungen erkennen — auf, unter, über, neben, zwischen, drinnen, draußen — indem sie Bildszenen studieren und die richtige Präposition einsetzen oder auswählen. Wählen Sie zwischen zwei Übungsmodi: Lückentext, bei dem Nutzer die korrekte Präposition selbst schreiben, oder Multiple Choice, bei dem sie aus vorgegebenen Optionen mit einer anpassbaren Aufgabenstellung auswählen. Stellen Sie 1–8 Übungen pro Arbeitsblatt ein und wählen Sie über das Kontrollkästchen-Raster genau aus, welche Präpositionen enthalten sein sollen. Die besondere Stärke des Tools ist der Formenaustausch — eine separate Bildebene ermöglicht den unabhängigen Austausch von Szenenformen und erzeugt deutlich mehr visuelle Kombinationen als ein einzelner Bildsatz bieten könnte. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und jedes Präpositionswört wird in sein natives Äquivalent aktualisiert. Englisch verwendet \"on, under, above, beside, between, inside, outside\"; Französisch verwendet \"sur, sous, au-dessus, à côté, entre, dedans, dehors\". Ein Arbeitsblatt-Design wird zu 11 einzigartigen Sprachprodukten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Designs hoch. Wählen Sie aus mehreren Vorlagen und 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Präpositionen-Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
         title: 'Das Seitenlayout und die Vorlage festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Wählen Sie eine Arbeitsblatt-Vorlage aus dem Vorlagen-Selektor — jede Vorlage ordnet die Übungen unterschiedlich auf der Seite an. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Wählen Sie eine Arbeitsblatt-Vorlage aus dem Vorlagen-Selektor — jede Vorlage ordnet die Übungen unterschiedlich auf der Seite an. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen.',
       },
       {
         title: 'Den Übungsmodus wählen',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Präpositionen auswählen',
-        description: 'Das Präpositions-Kontrollkästchen-Raster zeigt alle verfügbaren Positionswörter für die gewählte Sprache an. Markieren Sie die Präpositionen, die im Arbeitsblatt enthalten sein sollen: auf, unter, über, neben, zwischen, drinnen, draußen. Sie können alle auswählen für umfassende Übung oder sich auf eine Teilmenge für gezieltes Training konzentrieren. Das Raster aktualisiert sich automatisch beim Sprachwechsel — Englisch zeigt „on, under, above, beside, between, inside, outside“ und so weiter.',
+        description: 'Das Präpositions-Kontrollkästchen-Raster zeigt alle verfügbaren Positionswörter für die gewählte Sprache an. Markieren Sie die Präpositionen, die im Arbeitsblatt enthalten sein sollen: auf, unter, über, neben, zwischen, drinnen, draußen. Sie können alle auswählen für umfassende Übung oder sich auf eine Teilmenge für gezieltes Training konzentrieren. Das Raster aktualisiert sich automatisch beim Sprachwechsel — Englisch zeigt \"on, under, above, beside, between, inside, outside\" und so weiter.',
       },
       {
         title: 'Bilder und Thema auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Manuelle Auswahl, um bestimmte Bilder auszuwählen, oder wählen Sie Alle Themen, damit das Tool automatisch auswählt. Jedes Bild erscheint in einem Szenenkontext, der die gewählte räumliche Beziehung demonstriert. Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
+        description: 'Öffnen Sie das Panel \"Bildbibliothek\" und durchstöbern Sie über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Manuelle Auswahl, um bestimmte Bilder auszuwählen, oder wählen Sie Alle Themen, damit das Tool automatisch auswählt. Jedes Bild erscheint in einem Szenenkontext, der die gewählte räumliche Beziehung demonstriert. Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
       },
       {
         title: 'Den Formenaustausch konfigurieren',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Präpositionen-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der die korrekte Präposition für jede Übung zeigt.',
+        description: 'Klicken Sie auf \"Generieren\", um Ihr Präpositionen-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der die korrekte Präposition für jede Übung zeigt.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachige Präpositions-Produkte',
-      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dieselbe Arbeitsblatt-Vorlage in allen 11 unterstützten Sprachen. Jedes Präpositionswört wird automatisch in sein natives Äquivalent aktualisiert — „auf“ wird zu „on“ auf Englisch, „sur“ auf Französisch, „sobre“ auf Spanisch. Eine Designsitzung erzeugt 11 verschiedene Produkte, jedes bereit für den lokalen Marktplatz. Sprachspezifische Präpositionen-Arbeitsblätter sind außerhalb von Englisch dramatisch unterversorgt.',
+      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dieselbe Arbeitsblatt-Vorlage in allen 11 unterstützten Sprachen. Jedes Präpositionswört wird automatisch in sein natives Äquivalent aktualisiert — \"auf\" wird zu \"on\" auf Englisch, \"sur\" auf Französisch, \"sobre\" auf Spanisch. Eine Designsitzung erzeugt 11 verschiedene Produkte, jedes bereit für den lokalen Marktplatz. Sprachspezifische Präpositionen-Arbeitsblätter sind außerhalb von Englisch dramatisch unterversorgt.',
     },
     {
       title: 'Eigene-Bilder-Marken-Arbeitsblätter',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Präpositions-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Präpositionen“-Paket mit festlichen Szenen — Geschenke unter dem Baum, Sterne über dem Haus, Süßigkeiten im Strumpf — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein \"Weihnachts-Präpositionen\"-Paket mit festlichen Szenen — Geschenke unter dem Baum, Sterne über dem Haus, Süßigkeiten im Strumpf — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Räumliche Sprach-Arbeitsbücher auf Amazon KDP',
-      description: 'Stellen Sie über 60 Präpositions-Seiten zu einem physischen Aktivitätsbuch für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Präposition: zuerst „auf“-Übungen, dann „unter“, dann gemischte Präpositionen für den Herausforderungsteil. Bieten Sie beide Übungsmodi für Abwechslung an. Nutzen Sie den Graustufen-Modus für geringere Druckkosten. Veröffentlichen Sie separate Ausgaben für jede Sprache, um Ihren Katalog mit wirklich unterschiedlichen Produkten zu vervielfachen.',
+      description: 'Stellen Sie über 60 Präpositions-Seiten zu einem physischen Aktivitätsbuch für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Präposition: zuerst \"auf\"-Übungen, dann \"unter\", dann gemischte Präpositionen für den Herausforderungsteil. Bieten Sie beide Übungsmodi für Abwechslung an. Nutzen Sie den Graustufen-Modus für geringere Druckkosten. Veröffentlichen Sie separate Ausgaben für jede Sprache, um Ihren Katalog mit wirklich unterschiedlichen Produkten zu vervielfachen.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Grammatik-Bündel auf Gumroad',
-      description: 'Laden Sie Präpositions-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Schwierigkeit und Übungsmodus. Fügen Sie Lückentext-Sets, Multiple-Choice-Sets und gemischte Bündel mit Lösungsschlüsseln für jede Seite ein. Verkäufer suchen häufig nach „Präpositionen-Arbeitsblätter“ und „räumliches Sprachverständnis-Aktivitäten“. Das bildbasierte Szenenformat bietet erhöhten wahrgenommenen Wert, weil Nutzer mit visuellem Kontext arbeiten statt mit abstrakten Lückentext-Sätzen.',
+      description: 'Laden Sie Präpositions-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Schwierigkeit und Übungsmodus. Fügen Sie Lückentext-Sets, Multiple-Choice-Sets und gemischte Bündel mit Lösungsschlüsseln für jede Seite ein. Verkäufer suchen häufig nach \"Präpositionen-Arbeitsblätter\" und \"räumliches Sprachverständnis-Aktivitäten\". Das bildbasierte Szenenformat bietet erhöhten wahrgenommenen Wert, weil Nutzer mit visuellem Kontext arbeiten statt mit abstrakten Lückentext-Sätzen.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Formenaustausch-Vielfaltspakete auf Etsy',
-      description: 'Nutzen Sie den Formenaustausch, um massive Vielfaltspakete zu erstellen. Kombinieren Sie 10 Hauptbilder mit 10 verschiedenen Formen, um 100 einzigartige Übungsszenen aus nur 20 Quellbildern zu erzeugen. Verkaufen Sie diese als „100-Seiten-Präpositionen-Mega-Paket“ auf Etsy.de — das schiere Volumen rechtfertigt einen Premium-Preis, und die visuelle Vielfalt hält Nutzer über das gesamte Arbeitsbuch engagiert.',
+      description: 'Nutzen Sie den Formenaustausch, um massive Vielfaltspakete zu erstellen. Kombinieren Sie 10 Hauptbilder mit 10 verschiedenen Formen, um 100 einzigartige Übungsszenen aus nur 20 Quellbildern zu erzeugen. Verkaufen Sie diese als \"100-Seiten-Präpositionen-Mega-Paket\" auf Etsy.de — das schiere Volumen rechtfertigt einen Premium-Preis, und die visuelle Vielfalt hält Nutzer über das gesamte Arbeitsbuch engagiert.',
       platform: 'Etsy',
     },
   ],
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachig für 11-fache Produktpalette',
-      description: 'Jedes Präpositions-Arbeitsblatt, das Sie gestalten, kann durch Wechseln der Spracheinstellung zu 11 Produkten werden. Präpositionswörter aktualisieren sich automatisch: „auf“ wird zu „on“ (Englisch), „sur“ (Französisch), „sobre“ (Spanisch), „på“ (Schwedisch). Sprachspezifische Präpositions-Arbeitsblätter sind eine dramatisch unterversorgte Nische außerhalb von Englisch.',
+      description: 'Jedes Präpositions-Arbeitsblatt, das Sie gestalten, kann durch Wechseln der Spracheinstellung zu 11 Produkten werden. Präpositionswörter aktualisieren sich automatisch: \"auf\" wird zu \"on\" (Englisch), \"sur\" (Französisch), \"sobre\" (Spanisch), \"på\" (Schwedisch). Sprachspezifische Präpositions-Arbeitsblätter sind eine dramatisch unterversorgte Nische außerhalb von Englisch.',
     },
     {
       title: 'Beide Modi in einem Produkt bündeln',
-      description: 'Kombinieren Sie Lückentext- und Multiple-Choice-Arbeitsblätter in einem einzigen Bündel. Verkäufer lieben gestufte Pakete, die sie Nutzern auf verschiedenen Niveaus zuteilen können. Ein „Komplettes Präpositions-Paket“ mit beiden Modi, Lösungsschlüsseln und Verkäuferanleitung erzielt einen höheren Preis als jeder Modus einzeln verkauft.',
+      description: 'Kombinieren Sie Lückentext- und Multiple-Choice-Arbeitsblätter in einem einzigen Bündel. Verkäufer lieben gestufte Pakete, die sie Nutzern auf verschiedenen Niveaus zuteilen können. Ein \"Komplettes Präpositions-Paket\" mit beiden Modi, Lösungsschlüsseln und Verkäuferanleitung erzielt einen höheren Preis als jeder Modus einzeln verkauft.',
     },
     {
       title: 'Graustufen für KDP und Massendruck nutzen',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit anderen Literacy-Tools kombinieren',
-      description: 'Kombinieren Sie Präpositions-Arbeitsblätter mit Wortsuche-Rätseln, Schreibübungen, Zuordnungs-Arbeitsblättern und Alphabet-Aktivitäten zu umfassenden Sprachbündeln. Ein „Komplettes räumliches Sprachpaket“ mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format.',
+      description: 'Kombinieren Sie Präpositions-Arbeitsblätter mit Wortsuche-Rätseln, Schreibübungen, Zuordnungs-Arbeitsblättern und Alphabet-Aktivitäten zu umfassenden Sprachbündeln. Ein \"Komplettes räumliches Sprachpaket\" mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktioniert die Sprachsensitivität?',
-      answer: 'Beim Sprachwechsel wird jedes Präpositionswört auf dem Arbeitsblatt in sein natives Äquivalent aktualisiert. Deutsch „auf, unter, über“ wird zu Englisch „on, under, above“, Französisch „sur, sous, au-dessus“, Spanisch „sobre, debajo, encima“ und so weiter über alle 11 unterstützten Sprachen. Das Übungsformat bleibt identisch — nur die Positionswörter ändern sich. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
+      answer: 'Beim Sprachwechsel wird jedes Präpositionswört auf dem Arbeitsblatt in sein natives Äquivalent aktualisiert. Deutsch \"auf, unter, über\" wird zu Englisch \"on, under, above\", Französisch \"sur, sous, au-dessus\", Spanisch \"sobre, debajo, encima\" und so weiter über alle 11 unterstützten Sprachen. Das Übungsformat bleibt identisch — nur die Positionswörter ändern sich. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Welche Sprachen werden unterstützt?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien sowohl für Hauptbilder als auch für Formenaustausch-Formen zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Ja. Klicken Sie auf \"Eigenes Bild hochladen\", um eigene PNG- oder JPEG-Dateien sowohl für Hauptbilder als auch für Formenaustausch-Formen zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',

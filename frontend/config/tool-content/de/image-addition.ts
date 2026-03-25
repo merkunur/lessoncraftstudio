@@ -28,27 +28,27 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Additions-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
+        description: 'Klicken Sie auf \"Kostenlos testen\", um den Additions-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau Ihres Arbeitsblatts. Kein Benutzerkonto und kein Software-Download erforderlich — alles läuft direkt im Browser.',
       },
       {
         title: 'Den Übungsmodus wählen',
-        description: 'Öffnen Sie das Panel „Übungskonfiguration“ und wählen Sie aus vier leistungsstarken Modi: Bild + Bild zeigt beide Summanden als Bildergruppen, sodass Nutzer rein visuell zählen und addieren. Bild + Zahl kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkretem und abstraktem Denken. Summand finden zeigt die Summe und eine Gruppe — der fehlende Teil muss ermittelt werden, was frühes algebraisches Denken fördert. Der Gemischte Modus kombiniert alle drei Stile zufällig auf einem einzigen Blatt für maximale Abwechslung.',
+        description: 'Öffnen Sie das Panel \"Übungskonfiguration\" und wählen Sie aus vier leistungsstarken Modi: Bild + Bild zeigt beide Summanden als Bildergruppen, sodass Nutzer rein visuell zählen und addieren. Bild + Zahl kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkretem und abstraktem Denken. Summand finden zeigt die Summe und eine Gruppe — der fehlende Teil muss ermittelt werden, was frühes algebraisches Denken fördert. Der Gemischte Modus kombiniert alle drei Stile zufällig auf einem einzigen Blatt für maximale Abwechslung.',
       },
       {
         title: 'Den Schwierigkeitsgrad einstellen',
-        description: 'Passen Sie die Regler für „Minimale Anzahl pro Gruppe“ und „Maximale Anzahl pro Gruppe“ an, um den Zahlenbereich präzise zu steuern. Für Vorschul-Nische empfehlen sich Zahlenbereiche von 1–3, für den Kindergarten 1–5 und für Erstklassen 1–10. Legen Sie außerdem die Anzahl der Aufgaben pro Arbeitsblatt fest — von einer einzelnen großen Aufgabe bis zu 10 kompakten Übungen pro Seite. So erstellen Sie schnell gestufte Materialien für verschiedene Leistungsstufen.',
+        description: 'Passen Sie die Regler für \"Minimale Anzahl pro Gruppe\" und \"Maximale Anzahl pro Gruppe\" an, um den Zahlenbereich präzise zu steuern. Für Vorschul-Nische empfehlen sich Zahlenbereiche von 1–3, für den Kindergarten 1–5 und für Erstklassen 1–10. Legen Sie außerdem die Anzahl der Aufgaben pro Arbeitsblatt fest — von einer einzelnen großen Aufgabe bis zu 10 kompakten Übungen pro Seite. So erstellen Sie schnell gestufte Materialien für verschiedene Leistungsstufen.',
       },
       {
         title: 'Ein Thema aus der Bildbibliothek auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen mit insgesamt mehr als 3.100 Illustrationen: Tiere, Essen, Fahrzeuge, Meerestiere, Weltraum, Sport, Dinosaurier, Feiertage und vieles mehr. Nutzen Sie die integrierte Suchleiste, um bestimmte Themen sofort zu finden. Klicken Sie auf einzelne Bilder, um genau festzulegen, welche Illustrationen auf Ihrem Arbeitsblatt erscheinen sollen. Sie können auch eigene Bilder hochladen, um markenspezifische oder saisonale Grafiken zu verwenden.',
+        description: 'Öffnen Sie das Panel \"Bildbibliothek\" und durchstöbern Sie über 100 thematische Bildersammlungen mit insgesamt mehr als 3.100 Illustrationen: Tiere, Essen, Fahrzeuge, Meerestiere, Weltraum, Sport, Dinosaurier, Feiertage und vieles mehr. Nutzen Sie die integrierte Suchleiste, um bestimmte Themen sofort zu finden. Klicken Sie auf einzelne Bilder, um genau festzulegen, welche Illustrationen auf Ihrem Arbeitsblatt erscheinen sollen. Sie können auch eigene Bilder hochladen, um markenspezifische oder saisonale Grafiken zu verwenden.',
       },
       {
         title: 'Das Seitenlayout anpassen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie aus Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200 Pixel) oder einer vollständig benutzerdefinierten Größe. Legen Sie Ihre Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit stufenlos einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der umfangreichen Rahmenbibliothek. Das Quadratformat eignet sich hervorragend für Amazon-KDP-Aktivitätsbücher und Social-Media-Inhalte.',
+        description: 'Im Bereich \"Seiten-Setup\" wählen Sie aus Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200 Pixel) oder einer vollständig benutzerdefinierten Größe. Legen Sie Ihre Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit stufenlos einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der umfangreichen Rahmenbibliothek. Das Quadratformat eignet sich hervorragend für Amazon-KDP-Aktivitätsbücher und Social-Media-Inhalte.',
       },
       {
         title: 'Text und Titel hinzufügen',
-        description: 'Verwenden Sie das Panel „Textwerkzeuge“, um einen aussagekräftigen Titel, ein Namensfeld für Nutzer, ein Datumsfeld oder individuelle Anweisungen hinzuzufügen. Wählen Sie aus ansprechenden Schriftarten wie Fredoka, Baloo 2, Quicksand und Nunito. Passen Sie Schriftgröße, Farbe und optionale Textkontur für bessere Lesbarkeit über Hintergründen präzise an. Fügen Sie Ihren Shopnamen oder einen Urheberrechtshinweis hinzu, um Ihre Marke auf jedem Arbeitsblatt sichtbar zu machen.',
+        description: 'Verwenden Sie das Panel \"Textwerkzeuge\", um einen aussagekräftigen Titel, ein Namensfeld für Nutzer, ein Datumsfeld oder individuelle Anweisungen hinzuzufügen. Wählen Sie aus ansprechenden Schriftarten wie Fredoka, Baloo 2, Quicksand und Nunito. Passen Sie Schriftgröße, Farbe und optionale Textkontur für bessere Lesbarkeit über Hintergründen präzise an. Fügen Sie Ihren Shopnamen oder einen Urheberrechtshinweis hinzu, um Ihre Marke auf jedem Arbeitsblatt sichtbar zu machen.',
       },
       {
         title: 'Arbeitsblatt-Optionen feinabstimmen',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf den „Generieren“-Button, um Ihr fertiges Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich in Echtzeit auf der Arbeitsfläche. Wenn Sie mit dem Ergebnis zufrieden sind, nutzen Sie das Dropdown-Menü „Herunterladen“, um als JPEG (Einzelbild für Mockups und Social Media) oder PDF (druckoptimiert für den Verkauf) zu speichern. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel mit allen eingetragenen Lösungen herunter — ein Muss für professionelle Produktpakete.',
+        description: 'Klicken Sie auf den \"Generieren\"-Button, um Ihr fertiges Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich in Echtzeit auf der Arbeitsfläche. Wenn Sie mit dem Ergebnis zufrieden sind, nutzen Sie das Dropdown-Menü \"Herunterladen\", um als JPEG (Einzelbild für Mockups und Social Media) oder PDF (druckoptimiert für den Verkauf) zu speichern. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel mit allen eingetragenen Lösungen herunter — ein Muss für professionelle Produktpakete.',
       },
     ],
   },
@@ -91,12 +91,12 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: 'Druckvorlagen-Mathe-Shop auf Etsy.de',
-      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf druckbare Additions-Arbeitsblätter spezialisiert. Erstellen Sie 15–20 thematische Bündel (Tiere, Fahrzeuge, Essen, Dinosaurier, Feiertage usw.) zum Preis von 3–5 € pro Stück. Ohne Lagerhaltung, ohne Versandkosten und mit sofortiger digitaler Lieferung liegen Ihre Gewinnmargen nach Etsy-Gebühren bei fast 100 %. Optimieren Sie Ihre Listings mit relevanten deutschen Suchbegriffen wie „Additions-Arbeitsblätter“ und „Mathe-Druckvorlagen“ für maximale Sichtbarkeit.',
+      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf druckbare Additions-Arbeitsblätter spezialisiert. Erstellen Sie 15–20 thematische Bündel (Tiere, Fahrzeuge, Essen, Dinosaurier, Feiertage usw.) zum Preis von 3–5 € pro Stück. Ohne Lagerhaltung, ohne Versandkosten und mit sofortiger digitaler Lieferung liegen Ihre Gewinnmargen nach Etsy-Gebühren bei fast 100 %. Optimieren Sie Ihre Listings mit relevanten deutschen Suchbegriffen wie \"Additions-Arbeitsblätter\" und \"Mathe-Druckvorlagen\" für maximale Sichtbarkeit.',
       platform: 'Etsy.de',
     },
     {
       title: 'Lehrmaterial-Anbieter auf Gumroad',
-      description: 'Laden Sie gestufte Additions-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer im deutschsprachigen Raum suchen ständig nach „Additionsaufgaben mit Bildern“ und „visuelle Mathe-Übungen“. Fügen Sie Lösungsschlüssel, eine kurze Verkäuferanleitung und Differenzierungshinweise zu jeder Datei hinzu, um den wahrgenommenen Wert deutlich zu erhöhen und bessere Bewertungen sowie Wiederholungskäufe zu erzielen.',
+      description: 'Laden Sie gestufte Additions-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer im deutschsprachigen Raum suchen ständig nach \"Additionsaufgaben mit Bildern\" und \"visuelle Mathe-Übungen\". Fügen Sie Lösungsschlüssel, eine kurze Verkäuferanleitung und Differenzierungshinweise zu jeder Datei hinzu, um den wahrgenommenen Wert deutlich zu erhöhen und bessere Bewertungen sowie Wiederholungskäufe zu erzielen.',
       platform: 'Gumroad',
     },
     {
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Immer den Lösungsschlüssel beilegen',
-      description: 'Klicken Sie auf „Lösungsschlüssel generieren“, bevor Sie Ihr Arbeitsblatt herunterladen. Käufer auf Etsy.de und Gumroad bewerten Produkte durchgängig besser, wenn ein Lösungsschlüssel enthalten ist. Es dauert nur 10 zusätzliche Sekunden und steigert Ihre Bewertungen, Wiederholungskäufe und die Weiterempfehlungsrate erheblich.',
+      description: 'Klicken Sie auf \"Lösungsschlüssel generieren\", bevor Sie Ihr Arbeitsblatt herunterladen. Käufer auf Etsy.de und Gumroad bewerten Produkte durchgängig besser, wenn ein Lösungsschlüssel enthalten ist. Es dauert nur 10 zusätzliche Sekunden und steigert Ihre Bewertungen, Wiederholungskäufe und die Weiterempfehlungsrate erheblich.',
     },
     {
       title: 'Sowohl PDF als auch JPEG exportieren',
@@ -138,7 +138,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mit niedrigen Zahlenbereichen starten',
-      description: 'Für Vorschul- und Kindergartenprodukte halten Sie die maximale Anzahl pro Gruppe bei 3–5. Kleine Kinder werden von großen Zahlen schnell überfordert und verlieren die Motivation. Erstellen Sie separate „Leicht“- und „Herausforderung“-Versionen jedes Arbeitsblatts, damit Eltern und Verkäufer das passende Niveau flexibel wählen können. Differenzierte Schwierigkeitsgrade erhöhen den wahrgenommenen Produktwert.',
+      description: 'Für Vorschul- und Kindergartenprodukte halten Sie die maximale Anzahl pro Gruppe bei 3–5. Kleine Kinder werden von großen Zahlen schnell überfordert und verlieren die Motivation. Erstellen Sie separate \"Leicht\"- und \"Herausforderung\"-Versionen jedes Arbeitsblatts, damit Eltern und Verkäufer das passende Niveau flexibel wählen können. Differenzierte Schwierigkeitsgrade erhöhen den wahrgenommenen Produktwert.',
     },
     {
       title: 'Eigenen Text für Branding einsetzen',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
-      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Sie können den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunterladen. Besonders nützlich für Verkäufer, die schnelle Korrektur benötigen, und für Verkäufer, die Lösungsschlüssel als Mehrwert in ihre Produktpakete aufnehmen möchten. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
+      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf \"Lösungsschlüssel generieren\", um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Sie können den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunterladen. Besonders nützlich für Verkäufer, die schnelle Korrektur benötigen, und für Verkäufer, die Lösungsschlüssel als Mehrwert in ihre Produktpakete aufnehmen möchten. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Welche Seitengrößen werden unterstützt?',

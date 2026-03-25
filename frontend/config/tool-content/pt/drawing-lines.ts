@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abra o Gerador de Fichas de Grafomotricidade',
-        description: 'Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de traçado de linhas imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Sem criar conta, sem descarregar software, sem instalação — comece a criar fichas de traçado de linhas imediatamente.',
       },
       {
         title: 'Configure o Layout da Página e o Fundo',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Adicione Texto e Ative os Campos de Nome e Data',
-        description: 'Use o painel de Ferramentas de Texto para adicionar um título à ficha, instruções ou texto decorativo. Escolha entre fontes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Ative os campos de nome e data para identificação do usuário. O cabeçalho autogerado apresenta um banner verde vibrante com «Prática de Traçado de Linhas» localizado nos 11 idiomas suportados. Arraste, redimensione, rode e reposicione cada elemento no canvas completo Fabric.js com ferramentas de alinhamento, controlos de bloquear e desbloquear, e desfazer e refazer ilimitados.',
+        description: 'Use o painel de Ferramentas de Texto para adicionar um título à ficha, instruções ou texto decorativo. Escolha entre fontes como Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. Ative os campos de nome e data para identificação do usuário. O cabeçalho autogerado apresenta um banner verde vibrante com \"Prática de Traçado de Linhas\" localizado nos 11 idiomas suportados. Arraste, redimensione, rode e reposicione cada elemento no canvas completo Fabric.js com ferramentas de alinhamento, controlos de bloquear e desbloquear, e desfazer e refazer ilimitados.',
       },
       {
         title: 'Pré-visualize e Ajuste a Dificuldade das Linhas',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos de Preparação para a Escrita e Pré-Escrita',
-      description: 'Crie fichas de traçado de linhas concebidas especificamente como preparação para a escrita. As linhas horizontais praticam o acompanhamento da esquerda para a direita usado na leitura e na escrita. As linhas verticais desenvolvem os traços de cima para baixo essenciais para a formação de letras. As curvas imitam os movimentos arredondados necessários para letras como c, o, s e e. As diagonais constroem os traços angulares usados em letras como k, v, w e z. Empacote estes como conjuntos de «Preparação para a Escrita» que ligam o desenvolvimento da motricidade fina às competências de literacia — uma categoria de produtos com forte procura durante todo o ano entre vendedores de infância e pais.',
+      description: 'Crie fichas de traçado de linhas concebidas especificamente como preparação para a escrita. As linhas horizontais praticam o acompanhamento da esquerda para a direita usado na leitura e na escrita. As linhas verticais desenvolvem os traços de cima para baixo essenciais para a formação de letras. As curvas imitam os movimentos arredondados necessários para letras como c, o, s e e. As diagonais constroem os traços angulares usados em letras como k, v, w e z. Empacote estes como conjuntos de \"Preparação para a Escrita\" que ligam o desenvolvimento da motricidade fina às competências de literacia — uma categoria de produtos com forte procura durante todo o ano entre vendedores de infância e pais.',
     },
     {
       title: 'Conjuntos Temáticos de Emparelhamento de Pares de Imagens',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Traçado de Linhas para Amazon KDP',
-      description: 'Compile mais de 80 exercícios de traçado de linhas em cadernos temáticos para Amazon KDP. Estruture uma série por progressão: «Traçado de Linhas para Principiantes» cobre modelos horizontais e verticais. «Traçado de Linhas Intermédio» introduz as quatro variantes de curvas. «Traçado de Linhas Avançado» apresenta modelos de diagonais misturados com curvas. As imagens a cores imprimem-se vividamente para interiores atrativos e adaptados a crianças. O formato sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução. Os cadernos de motricidade fina preenchem um nicho específico de aprendizagem precoce com procura constante durante todo o ano.',
+      description: 'Compile mais de 80 exercícios de traçado de linhas em cadernos temáticos para Amazon KDP. Estruture uma série por progressão: \"Traçado de Linhas para Principiantes\" cobre modelos horizontais e verticais. \"Traçado de Linhas Intermédio\" introduz as quatro variantes de curvas. \"Traçado de Linhas Avançado\" apresenta modelos de diagonais misturados com curvas. As imagens a cores imprimem-se vividamente para interiores atrativos e adaptados a crianças. O formato sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução. Os cadernos de motricidade fina preenchem um nicho específico de aprendizagem precoce com procura constante durante todo o ano.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funil Visual de Traçado de Linhas no Pinterest',
-      description: 'As fichas de traçado de linhas com pares de imagens a cores e traçados SVG distintivos criam pins apelativos no Pinterest que se destacam das fichas com muito texto. Publique fichas de exemplo mostrando diferentes tipos de linhas com marca d\'água, faça ligação à sua loja Etsy ou página de destino e recolha endereços de email. Crie séries de pins separadas para «traçado de linhas para crianças», «fichas de motricidade fina» e «prática de pré-escrita». O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
+      description: 'As fichas de traçado de linhas com pares de imagens a cores e traçados SVG distintivos criam pins apelativos no Pinterest que se destacam das fichas com muito texto. Publique fichas de exemplo mostrando diferentes tipos de linhas com marca d\'água, faça ligação à sua loja Etsy ou página de destino e recolha endereços de email. Crie séries de pins separadas para \"traçado de linhas para crianças\", \"fichas de motricidade fina\" e \"prática de pré-escrita\". O formato sem texto significa que os pins atraem pais e vendedores de todos os países do mundo.',
       platform: 'Pinterest',
     },
     {

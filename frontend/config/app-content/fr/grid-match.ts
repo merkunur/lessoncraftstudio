@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Générez la Fiche de Puzzle Grille',
         description:
-          'Cliquez sur Générer pour créer le puzzle grille. L\'application divise l\'image sélectionnée dans la grille configurée, révèle les cases-indices avec les tuiles d\'image réelles visibles, et marque les cellules restantes avec des indicateurs « ? ». Toutes les tuiles sont mélangées à l\'aide de l\'algorithme Fisher-Yates et affichées comme palette numérotée. Les mises en page portrait placent la grille en haut avec la palette en dessous ; les mises en page paysage positionnent la grille à gauche avec la palette à droite. Un en-tête stylisé apparaît avec un fond cyan (#00BCD4), un titre violet profond (#6A1B9A) et un cadre orange (#FF8C42) affichant « Puzzle Grille » et les instructions dans la langue sélectionnée.',
+          'Cliquez sur Générer pour créer le puzzle grille. L\'application divise l\'image sélectionnée dans la grille configurée, révèle les cases-indices avec les tuiles d\'image réelles visibles, et marque les cellules restantes avec des indicateurs \" ? \". Toutes les tuiles sont mélangées à l\'aide de l\'algorithme Fisher-Yates et affichées comme palette numérotée. Les mises en page portrait placent la grille en haut avec la palette en dessous ; les mises en page paysage positionnent la grille à gauche avec la palette à droite. Un en-tête stylisé apparaît avec un fond cyan (#00BCD4), un titre violet profond (#6A1B9A) et un cadre orange (#FF8C42) affichant \" Puzzle Grille \" et les instructions dans la langue sélectionnée.',
       },
       {
         title: 'Générez le Corrigé et Téléchargez',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne le puzzle grille pour les utilisateurs ?',
       answer:
-        'La fiche de travail affiche une grille où certaines cellules montrent la tuile d\'image réelle (cases-indices) et les cellules restantes affichent des indicateurs « ? ». En dessous ou à côté de la grille, une palette numérotée affiche toutes les tuiles masquées dans un ordre mélangé. Les utilisateurs examinent les cases-indices, étudient les tuiles numérotées et déterminent quel numéro correspond à chaque position vide de la grille. L\'exercice nécessite un raisonnement spatial — associer le contenu de la tuile à son emplacement correct dans l\'image globale.',
+        'La fiche de travail affiche une grille où certaines cellules montrent la tuile d\'image réelle (cases-indices) et les cellules restantes affichent des indicateurs \" ? \". En dessous ou à côté de la grille, une palette numérotée affiche toutes les tuiles masquées dans un ordre mélangé. Les utilisateurs examinent les cases-indices, étudient les tuiles numérotées et déterminent quel numéro correspond à chaque position vide de la grille. L\'exercice nécessite un raisonnement spatial — associer le contenu de la tuile à son emplacement correct dans l\'image globale.',
     },
     {
       question: 'Comment fonctionne le corrigé généré automatiquement ?',

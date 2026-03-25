@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configurer les paramètres de la carte bingo',
         description:
-          'Ouvrez le panneau Paramètres de la Carte Bingo et définissez les lignes (3 à 5) et les colonnes (3 à 5) pour déterminer la taille de votre grille — le défaut est 4×4 avec 16 cases. Réglez le nombre de cartes de 1 à 10 pour générer par lot plusieurs cartes bingo uniques. Choisissez le remplissage des cases (Image ou Mot) et le remplissage des jetons (Image ou Mot) indépendamment — mélangez cartes à images avec jetons à mots, cartes à mots avec jetons à images, ou combinez les deux. Activez la case « Utiliser la sélection personnalisée » pour choisir manuellement les images spécifiques pour les appels plutôt que la sélection automatique.',
+          'Ouvrez le panneau Paramètres de la Carte Bingo et définissez les lignes (3 à 5) et les colonnes (3 à 5) pour déterminer la taille de votre grille — le défaut est 4×4 avec 16 cases. Réglez le nombre de cartes de 1 à 10 pour générer par lot plusieurs cartes bingo uniques. Choisissez le remplissage des cases (Image ou Mot) et le remplissage des jetons (Image ou Mot) indépendamment — mélangez cartes à images avec jetons à mots, cartes à mots avec jetons à images, ou combinez les deux. Activez la case \" Utiliser la sélection personnalisée \" pour choisir manuellement les images spécifiques pour les appels plutôt que la sélection automatique.',
       },
       {
         title: 'Sélectionner les images de la bibliothèque',
@@ -163,17 +163,17 @@ const content: AppContent = {
     {
       question: 'Qu\'est-ce que la sélection personnalisée des appels ?',
       answer:
-        'Activez la case « Utiliser la sélection personnalisée » dans le panneau Paramètres de la Carte Bingo pour choisir manuellement quelles images spécifiques apparaissent dans la banque d\'appels. Lorsqu\'elle est activée, cliquez sur les images dans la Bibliothèque d\'Images pour les ajouter à votre sélection personnalisée — un compteur en temps réel affiche « Sélectionnés pour les appels personnalisés : X » au fur et à mesure de votre choix. Cela vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme ou les événements thématiques nécessitant un vocabulaire spécifique.',
+        'Activez la case \" Utiliser la sélection personnalisée \" dans le panneau Paramètres de la Carte Bingo pour choisir manuellement quelles images spécifiques apparaissent dans la banque d\'appels. Lorsqu\'elle est activée, cliquez sur les images dans la Bibliothèque d\'Images pour les ajouter à votre sélection personnalisée — un compteur en temps réel affiche \" Sélectionnés pour les appels personnalisés : X \" au fur et à mesure de votre choix. Cela vous donne un contrôle précis sur les éléments qui apparaissent dans le jeu de bingo, utile pour les activités alignées sur le programme ou les événements thématiques nécessitant un vocabulaire spécifique.',
     },
     {
       question: 'Le Générateur de Cartes Bingo à Images est-il sensible à la langue ?',
       answer:
-        'Oui. En mode remplissage par mots pour les cases ou les jetons, les mots affichés sont les noms localisés des images de la Bibliothèque d\'Images. Changer la langue dans les Paramètres de la Fiche modifie les mots sur les cartes, les jetons et la feuille d\'appel. Par exemple, une image de chat affiche « Chat » en français mais « Katze » en allemand et « Cat » en anglais. La Licence Commerciale inclut 10 thèmes en couleur avec l\'anglais uniquement ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues pour du contenu textuel localisé.',
+        'Oui. En mode remplissage par mots pour les cases ou les jetons, les mots affichés sont les noms localisés des images de la Bibliothèque d\'Images. Changer la langue dans les Paramètres de la Fiche modifie les mots sur les cartes, les jetons et la feuille d\'appel. Par exemple, une image de chat affiche \" Chat \" en français mais \" Katze \" en allemand et \" Cat \" en anglais. La Licence Commerciale inclut 10 thèmes en couleur avec l\'anglais uniquement ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues pour du contenu textuel localisé.',
     },
     {
       question: 'Pourquoi n\'y a-t-il pas de corrigé pour les cartes bingo ?',
       answer:
-        'Les cartes bingo utilisent une feuille d\'appel au lieu d\'un corrigé. Au bingo, le meneur de jeu lit les éléments de la feuille d\'appel pendant que les joueurs marquent les éléments correspondants sur leurs cartes uniques — il n\'y a pas de « bonne réponse » unique puisque chaque carte de joueur contient des éléments différents à des positions différentes. La feuille d\'appel sert de document de référence du jeu, listant tous les éléments possibles que le meneur peut annoncer pendant la partie.',
+        'Les cartes bingo utilisent une feuille d\'appel au lieu d\'un corrigé. Au bingo, le meneur de jeu lit les éléments de la feuille d\'appel pendant que les joueurs marquent les éléments correspondants sur leurs cartes uniques — il n\'y a pas de \" bonne réponse \" unique puisque chaque carte de joueur contient des éléments différents à des positions différentes. La feuille d\'appel sert de document de référence du jeu, listant tous les éléments possibles que le meneur peut annoncer pendant la partie.',
     },
     {
       question: 'Y a-t-il un essai gratuit ?',

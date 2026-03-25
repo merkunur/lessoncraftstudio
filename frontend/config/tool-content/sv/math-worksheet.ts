@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna arbetsblad-generatorn',
-        description: 'Klicka på «Prova gratis nu» för att starta matte arbetsblad-skaparen. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta matte arbetsblad-skaparen. Verktyget öppnas direkt i din webbläsare med ett mörkt sidofält till vänster för inställningar och en ljus arbetsyta till höger för din liveförhandsvisning. Inget konto eller nedladdning krävs.',
       },
       {
         title: 'Ställ in sidlayout och storlek',
-        description: 'I avsnittet «Sidinställningar» väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket. Dessa inställningar definierar det övergripande utseendet på ditt färdiga arbetsblad.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du bland Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Ställ in din sidfärg, lägg till en tematisk bakgrund med justerbar opacitet och välj en dekorativ ram från rambiblioteket. Dessa inställningar definierar det övergripande utseendet på ditt färdiga arbetsblad.',
       },
       {
         title: 'Välj svårighet och operation',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Konfigurera talområde och alternativ',
-        description: 'Ställ in minimi- och maxvärden för ekvationerna (standard 0–20). För avancerade användare, aktivera «Tillåt Negativa Resultat»-växlingen så subtraktionsekvationer kan producera värden under noll. Dessa kontroller låter dig matcha varje arbetsblad exakt efter din målgrupps ålder och produktkatalogsnivå.',
+        description: 'Ställ in minimi- och maxvärden för ekvationerna (standard 0–20). För avancerade användare, aktivera \"Tillåt Negativa Resultat\"-växlingen så subtraktionsekvationer kan producera värden under noll. Dessa kontroller låter dig matcha varje arbetsblad exakt efter din målgrupps ålder och produktkatalogsnivå.',
       },
       {
         title: 'Välj dina bilder',
-        description: 'Öppna panelen «Bildbibliotek» och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, rymden, högtider och många fler. Använd sökfältet för att hitta specifika teman. Du kan välja enskilda bilder, ladda en hel temauppsättning för att fylla alla symbolplatser, eller klicka på «Ladda Upp Bild» för att använda din egen PNG eller JPEG för varumärkta nischpussel.',
+        description: 'Öppna panelen \"Bildbibliotek\" och bläddra bland mer än 100 tematiska bilduppsättningar: djur, mat, fordon, rymden, högtider och många fler. Använd sökfältet för att hitta specifika teman. Du kan välja enskilda bilder, ladda en hel temauppsättning för att fylla alla symbolplatser, eller klicka på \"Ladda Upp Bild\" för att använda din egen PNG eller JPEG för varumärkta nischpussel.',
       },
       {
         title: 'Bläddra i bildbiblioteket',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Lägg till text, numrering och ställ in pussel per sida',
-        description: 'Lägg till en titel, undertitel eller anpassat textblock på ditt arbetsblad. Aktivera automatisk numrering över sidor. Använd kontrollen «Pussel Per Sida» för att placera 1 till 6 pussel på varje blad — layouten justeras automatiskt. Färre pussel per sida ger användarna mer arbetsutrymme; fler pussel per sida skapar kompakta övningsblad.',
+        description: 'Lägg till en titel, undertitel eller anpassat textblock på ditt arbetsblad. Aktivera automatisk numrering över sidor. Använd kontrollen \"Pussel Per Sida\" för att placera 1 till 6 pussel på varje blad — layouten justeras automatiskt. Färre pussel per sida ger användarna mer arbetsutrymme; fler pussel per sida skapar kompakta övningsblad.',
       },
       {
         title: 'Generera, granska och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt algebra pusselarbetsblad. Den inbyggda lösaren verifierar att varje pussel har exakt en lösning innan rendering. Förhandsgranska på arbetsytan, använd sedan «Nedladdning»-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Generera alltid det matchande facit — det visar varje symbols numeriska värde för snabb bedömning.',
+        description: 'Klicka på \"Generera\" för att bygga ditt algebra pusselarbetsblad. Den inbyggda lösaren verifierar att varje pussel har exakt en lösning innan rendering. Förhandsgranska på arbetsytan, använd sedan \"Nedladdning\"-dropdownen för att spara som JPEG (enskild bild) eller PDF (utskriftsoptimerad). Generera alltid det matchande facit — det visar varje symbols numeriska värde för snabb bedömning.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Säsongsbetonade algebrapaket',
-      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett «Jul Algebrapussel»-paket med festliga symbolbilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Algebraformatet lägger till upplevd svårighet och värde utöver enkel aritmetik.',
+      description: 'Använd högtids- och säsongsbetonade bildteman för att skapa tidsbegränsade paket. Ett \"Jul Algebrapussel\"-paket med festliga symbolbilder säljer starkt i november–december. Halloween, alla hjärtans dag och skolstarts-pussel har alla sina egna toppförsäljningsfönster på Etsy och Gumroad. Algebraformatet lägger till upplevd svårighet och värde utöver enkel aritmetik.',
     },
     {
       title: 'Blandad svårighets-provpaket',
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad premium algebrapaket',
-      description: 'Ladda upp nivågrupperade algebrapussel-paket till Gumroad. säljare söker ständigt efter «algebra arbetsblad» och «mattepussel». Inkludera alla fyra svårighetsnivåer, båda operationslägena, facit och en lärarguide som förklarar hur det visuella algebraformatet fungerar. Den garanterade lösningsfunktionen lägger till trovärdighet som säljare värdesätter.',
+      description: 'Ladda upp nivågrupperade algebrapussel-paket till Gumroad. säljare söker ständigt efter \"algebra arbetsblad\" och \"mattepussel\". Inkludera alla fyra svårighetsnivåer, båda operationslägena, facit och en lärarguide som förklarar hur det visuella algebraformatet fungerar. Den garanterade lösningsfunktionen lägger till trovärdighet som säljare värdesätter.',
       platform: 'Gumroad',
     },
     {
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Para ihop med vanliga matteverktyg',
-      description: 'Skapa matchande set med Additions-, Subtraktions- och Kodadditionsgeneratorerna bredvid algebrapussel-skaparen. Sälj dem individuellt och som ett kombinerat «Matteövning + Algebrapussel»-paket. Den visuella algebrakomponenten lägger till en utmaning som gör paketet mer attraktivt än enbart arbetsblad.',
+      description: 'Skapa matchande set med Additions-, Subtraktions- och Kodadditionsgeneratorerna bredvid algebrapussel-skaparen. Sälj dem individuellt och som ett kombinerat \"Matteövning + Algebrapussel\"-paket. Den visuella algebrakomponenten lägger till en utmaning som gör paketet mer attraktivt än enbart arbetsblad.',
     },
     {
       title: 'Exportera båda formaten',
@@ -180,11 +180,11 @@ const content: ToolContent = {
     },
     {
       question: 'Kan jag ladda upp egna bilder som variabelsymboler?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild» för att använda dina egna PNG- eller JPEG-filer som variabelsymboler i ekvationerna. Detta låter dig skapa varumärkta pussel med anpassade illustrationer, produktlinjesmaskotbilder, säsongsdesigner eller nischkonstverk som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på \"Ladda Upp Bild\" för att använda dina egna PNG- eller JPEG-filer som variabelsymboler i ekvationerna. Detta låter dig skapa varumärkta pussel med anpassade illustrationer, produktlinjesmaskotbilder, säsongsdesigner eller nischkonstverk som ingen annan säljare kan replikera.',
     },
     {
       question: 'Hur många pussel kan jag lägga på en sida?',
-      answer: 'Du kan placera 1 till 6 pussel per sida med kontrollen «Pussel Per Sida». Layouten justeras automatiskt för att passa det valda antalet. Använd 1–2 pussel per sida för yngre användare som behöver mer utrymme, eller 4–6 per sida för kompakta övningsblad och arbetsboksstils produkter.',
+      answer: 'Du kan placera 1 till 6 pussel per sida med kontrollen \"Pussel Per Sida\". Layouten justeras automatiskt för att passa det valda antalet. Använd 1–2 pussel per sida för yngre användare som behöver mer utrymme, eller 4–6 per sida för kompakta övningsblad och arbetsboksstils produkter.',
     },
     {
       question: 'Fungerar pusslen på alla språk?',

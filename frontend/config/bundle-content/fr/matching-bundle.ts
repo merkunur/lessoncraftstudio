@@ -71,7 +71,7 @@ const content: BundleContent = {
     },
     {
       title: 'Plus de 100 ensembles d\'images thématiques',
-      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les cinq générateurs. Chaque thème offre un nouvel angle produit — proposez « Pack Association Animaux Marins » aux côtés de « Discrimination Visuelle Ferme » et « Cartes Bingo Dinosaures » pour capter simultanément différentes requêtes de recherche, intérêts des acheteurs et tranches d\'âge. Le niveau Accès Complet débloque les 104 thèmes pour une variété maximale de produits.',
+      description: 'Accédez à des thèmes animaux, nourriture, véhicules, fêtes, saisons et des dizaines d\'autres catégories à travers les cinq générateurs. Chaque thème offre un nouvel angle produit — proposez \" Pack Association Animaux Marins \" aux côtés de \" Discrimination Visuelle Ferme \" et \" Cartes Bingo Dinosaures \" pour capter simultanément différentes requêtes de recherche, intérêts des acheteurs et tranches d\'âge. Le niveau Accès Complet débloque les 104 thèmes pour une variété maximale de produits.',
     },
     {
       title: 'Import d\'images personnalisées',
@@ -91,7 +91,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cahiers d\'activités d\'association Amazon KDP',
-      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers KDP thématiques : « Cahier Association et Tri Préscolaire » avec des pages d\'association, des exercices de discrimination visuelle et des activités de tri d\'images, ou « Collection Bingo et Association Premium » mélangeant cartes de bingo et puzzles grille. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Les deux générateurs purement visuels produisent des pages indépendantes de la langue qui se vendent sur tous les marchés Amazon du monde entier.',
+      description: 'Combinez des fiches de plusieurs générateurs dans des cahiers KDP thématiques : \" Cahier Association et Tri Préscolaire \" avec des pages d\'association, des exercices de discrimination visuelle et des activités de tri d\'images, ou \" Collection Bingo et Association Premium \" mélangeant cartes de bingo et puzzles grille. Le moteur de design uniforme garantit que chaque page a un aspect professionnel cohérent. Générez 50 à 100 pages par cahier en une seule session, téléchargez en PDF et envoyez directement sur KDP. Les deux générateurs purement visuels produisent des pages indépendantes de la langue qui se vendent sur tous les marchés Amazon du monde entier.',
       platform: 'Amazon KDP',
     },
     {

@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Más de 100 conjuntos de imágenes temáticas',
-      description: 'Accede a animales, comida, vehículos, festividades, estaciones y docenas de categorías temáticas más en los siete generadores. Cada tema combinado con cada idioma te da un ángulo de producto único — publica «Sopa de Letras Animales del Océano en Francés» junto a «Tren del Abecedario Granja en Alemán» para capturar diferentes consultas de búsqueda, intereses de compradores y mercados lingüísticos simultáneamente.',
+      description: 'Accede a animales, comida, vehículos, festividades, estaciones y docenas de categorías temáticas más en los siete generadores. Cada tema combinado con cada idioma te da un ángulo de producto único — publica \"Sopa de Letras Animales del Océano en Francés\" junto a \"Tren del Abecedario Granja en Alemán\" para capturar diferentes consultas de búsqueda, intereses de compradores y mercados lingüísticos simultáneamente.',
     },
     {
       title: 'Subir imágenes personalizadas',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cuadernos de idiomas en Amazon KDP',
-      description: 'Combina fichas de múltiples generadores en cuadernos temáticos para KDP organizados por idioma y nivel de habilidad: «Cuaderno de Actividades de Lectura en Francés» con trenes del abecedario, sopas de letras y criptogramas, o «Habilidades de Palabras Primer Grado en Alemán» mezclando letras revueltas, preposiciones y adivinanza de palabras. El motor de diseño consistente asegura que cada página se vea profesionalmente uniforme. Genera de 50 a 100 páginas por cuaderno en una sola sesión, descarga como PDF y sube directamente a KDP. Cada versión de idioma es un libro separado con su propio ISBN y mercado.',
+      description: 'Combina fichas de múltiples generadores en cuadernos temáticos para KDP organizados por idioma y nivel de habilidad: \"Cuaderno de Actividades de Lectura en Francés\" con trenes del abecedario, sopas de letras y criptogramas, o \"Habilidades de Palabras Primer Grado en Alemán\" mezclando letras revueltas, preposiciones y adivinanza de palabras. El motor de diseño consistente asegura que cada página se vea profesionalmente uniforme. Genera de 50 a 100 páginas por cuaderno en una sola sesión, descarga como PDF y sube directamente a KDP. Cada versión de idioma es un libro separado con su propio ISBN y mercado.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {

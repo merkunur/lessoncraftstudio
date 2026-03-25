@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abre el Generador de Objetos Ocultos',
-        description: 'Haz clic en «Prueba Gratis Ahora» para abrir el generador de fichas de objetos ocultos en tu navegador. La herramienta carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación necesaria — empieza a crear fichas de objetos ocultos de inmediato.',
+        description: 'Haz clic en \"Prueba Gratis Ahora\" para abrir el generador de fichas de objetos ocultos en tu navegador. La herramienta carga instantáneamente con una barra lateral de configuración a la izquierda y un lienzo de doble pestaña a la derecha — una pestaña para la ficha y otra para la clave de respuestas. Sin crear cuenta, sin descargar software, sin instalación necesaria — empieza a crear fichas de objetos ocultos de inmediato.',
       },
       {
         title: 'Configura el Diseño de Página',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Serie de Cuadernos de Actividades de Objetos Ocultos en Amazon KDP',
-      description: 'Compila de 50 a 80 fichas de objetos ocultos en cuadernos temáticos para Amazon KDP. Estructura una serie por dificultad y modo: «Yo Espío Fácil para Principiantes» con 1–2 objetos ocultos y 8 distractores, «Aventuras de Búsqueda Yo Espío» aumentando a 3–4 objetos ocultos con 10 distractores, «Retos Avanzados de Objetos Ocultos» con 5 objetos ocultos entre 12 distractores, y «Fichas Visuales de Encuentra el Diferente» usando el modo de imágenes emparejadas. Incluye claves de respuestas al final con anotaciones de círculos rojos. Activa escala de grises para impresión que ahorra tinta. El formato puramente visual se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción — un solo interior sirve para todos los países.',
+      description: 'Compila de 50 a 80 fichas de objetos ocultos en cuadernos temáticos para Amazon KDP. Estructura una serie por dificultad y modo: \"Yo Espío Fácil para Principiantes\" con 1–2 objetos ocultos y 8 distractores, \"Aventuras de Búsqueda Yo Espío\" aumentando a 3–4 objetos ocultos con 10 distractores, \"Retos Avanzados de Objetos Ocultos\" con 5 objetos ocultos entre 12 distractores, y \"Fichas Visuales de Encuentra el Diferente\" usando el modo de imágenes emparejadas. Incluye claves de respuestas al final con anotaciones de círculos rojos. Activa escala de grises para impresión que ahorra tinta. El formato puramente visual se publica de forma idéntica en todos los mercados internacionales de KDP sin traducción — un solo interior sirve para todos los países.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Embudo de Tráfico en Pinterest con Fichas de Objetos Ocultos',
-      description: 'Las fichas de objetos ocultos crean pins visualmente impactantes en Pinterest — escenas coloridas de imágenes dispersas con objetos para encontrar crean contenido imprimible inmediatamente atractivo que padres y vendedores hacen clic. Pinea fichas de muestra mostrando ambos modos: Yo Espío con objetos ocultos dispersos y la leyenda inferior, y Encuentra el Diferente con imágenes emparejadas en filas. Crea series de pins separadas para «fichas de objetos ocultos para niños», «actividades imprimibles yo espío» y «fichas visuales encuentra el diferente». Las imágenes de vista previa de la clave de respuestas con anotaciones de círculos rojos demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Gumroad para conversión directa.',
+      description: 'Las fichas de objetos ocultos crean pins visualmente impactantes en Pinterest — escenas coloridas de imágenes dispersas con objetos para encontrar crean contenido imprimible inmediatamente atractivo que padres y vendedores hacen clic. Pinea fichas de muestra mostrando ambos modos: Yo Espío con objetos ocultos dispersos y la leyenda inferior, y Encuentra el Diferente con imágenes emparejadas en filas. Crea series de pins separadas para \"fichas de objetos ocultos para niños\", \"actividades imprimibles yo espío\" y \"fichas visuales encuentra el diferente\". Las imágenes de vista previa de la clave de respuestas con anotaciones de círculos rojos demuestran calidad profesional. Enlaza cada pin a tus listados de Etsy o Gumroad para conversión directa.',
       platform: 'Pinterest',
     },
     {

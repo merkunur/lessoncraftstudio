@@ -88,7 +88,7 @@ const content: AppContent = {
       {
         title: 'Clave de respuesta con código de colores y 6 colores de resaltado',
         description:
-          'La clave de respuesta resalta cada palabra encontrada en uno de seis colores alternados: rosa, azul, verde, dorado, coral y lavanda. Cada palabra recibe un color distinto para identificación visual instantánea, facilitando la auto-verificación por los usuarios o la corrección rápida por los vendedores. El formato con código de colores es visualmente atractivo y profesional — un claro paso adelante frente a las simples claves de «rodea la palabra». Activa la exportación en escala de grises cuando necesites versiones económicas en tinta para impresión en blanco y negro.',
+          'La clave de respuesta resalta cada palabra encontrada en uno de seis colores alternados: rosa, azul, verde, dorado, coral y lavanda. Cada palabra recibe un color distinto para identificación visual instantánea, facilitando la auto-verificación por los usuarios o la corrección rápida por los vendedores. El formato con código de colores es visualmente atractivo y profesional — un claro paso adelante frente a las simples claves de \"rodea la palabra\". Activa la exportación en escala de grises cuando necesites versiones económicas en tinta para impresión en blanco y negro.',
       },
       {
         title: 'Exportación PDF y JPEG lista para imprimir a más de 400 DPI',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Productos de sopa de letras multilingües con Acceso Completo',
         description:
-          'El Acceso Completo desbloquea los 11 idiomas, y como la Sopa de Letras es sensible al idioma, las palabras ocultas Y las letras de relleno de la cuadrícula cambian según el idioma. «Dog» en inglés se convierte en «Hund» en una cuadrícula rellena de caracteres alemanes como ä, ö, ü; «chien» en francés aparece en una cuadrícula con é, è, ç, à; «perro» en español aparece en una cuadrícula con ñ, á, é, í, ó, ú. Cada versión lingüística es un producto verdaderamente diferente con palabras diferentes, letras de relleno diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
+          'El Acceso Completo desbloquea los 11 idiomas, y como la Sopa de Letras es sensible al idioma, las palabras ocultas Y las letras de relleno de la cuadrícula cambian según el idioma. \"Dog\" en inglés se convierte en \"Hund\" en una cuadrícula rellena de caracteres alemanes como ä, ö, ü; \"chien\" en francés aparece en una cuadrícula con é, è, ç, à; \"perro\" en español aparece en una cuadrícula con ñ, á, é, í, ó, ú. Cada versión lingüística es un producto verdaderamente diferente con palabras diferentes, letras de relleno diferentes y una experiencia de resolución diferente. Crea series temáticas idénticas en múltiples idiomas y lista cada una como un producto de Etsy o un libro de KDP separado — once flujos de ingresos desde un solo flujo de trabajo.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingüe)',
       },
       {

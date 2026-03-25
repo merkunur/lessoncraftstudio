@@ -20,9 +20,9 @@ const content: AppContent = {
 
   hero: {
     title: 'Picture Sort Worksheet Generator for Two-Category Sorting Activities',
-    tagline: 'Two-category sorting in one powerful generator — theme-based or manual image selection — with auto-generated answer keys, 4–12 configurable images, a localized “Picture Sort” header in 11 languages, and 104 themed image collections.',
+    tagline: 'Two-category sorting in one powerful generator — theme-based or manual image selection — with auto-generated answer keys, 4–12 configurable images, a localized \"Picture Sort\" header in 11 languages, and 104 themed image collections.',
     description:
-      'Build professional sorting worksheets where users classify images into two categories by sorting cut-out pictures into the correct left or right group. Choose theme mode to auto-populate categories from the image library — select a left theme and a right theme, and the app pulls 4–6 random images per theme — or switch to manual mode to hand-select individual images and assign each to a category. Every worksheet features two dashed-border category frames at the top for sorting destinations and a shuffled cutout grid below with mixed images ready to be cut and sorted. The dual-canvas system generates both a worksheet tab and an answer key tab with 6× larger images organized into category boxes, so you never create answer keys manually. The Picture Sort Generator is language-sensitive: category labels use localized image names, so switching languages changes the text on the worksheet. A localized “Picture Sort” header with mint green background and teal title renders automatically in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized category labels. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell sorting activity bundles on Etsy, compile classification workbooks for Amazon KDP, or create sorting products for your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional sorting worksheets where users classify images into two categories by sorting cut-out pictures into the correct left or right group. Choose theme mode to auto-populate categories from the image library — select a left theme and a right theme, and the app pulls 4–6 random images per theme — or switch to manual mode to hand-select individual images and assign each to a category. Every worksheet features two dashed-border category frames at the top for sorting destinations and a shuffled cutout grid below with mixed images ready to be cut and sorted. The dual-canvas system generates both a worksheet tab and an answer key tab with 6× larger images organized into category boxes, so you never create answer keys manually. The Picture Sort Generator is language-sensitive: category labels use localized image names, so switching languages changes the text on the worksheet. A localized \"Picture Sort\" header with mint green background and teal title renders automatically in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized category labels. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell sorting activity bundles on Etsy, compile classification workbooks for Amazon KDP, or create sorting products for your own store, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -31,7 +31,7 @@ const content: AppContent = {
       {
         title: 'Set Your Page Layout',
         description:
-          'Open the Page Setup panel and choose a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Pick a page color using the color picker as a fallback background. Select a background theme and adjust its opacity (0–1 in 0.05 steps), then choose a border theme with its own independent opacity control. Check “Include Name/Date Fields” to add name and date lines. These layout choices frame your sorting worksheet before you configure any content.',
+          'Open the Page Setup panel and choose a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Pick a page color using the color picker as a fallback background. Select a background theme and adjust its opacity (0–1 in 0.05 steps), then choose a border theme with its own independent opacity control. Check \"Include Name/Date Fields\" to add name and date lines. These layout choices frame your sorting worksheet before you configure any content.',
       },
       {
         title: 'Choose Your Sorting Categories',
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Generate the Sorting Worksheet',
         description:
-          'Click Generate to create the two-part sorting layout. The app arranges your content into category frames at the top (two side-by-side dashed-border frames with #FAFAFA fill) and a shuffled cutout grid below (white cells with dashed #666 borders). A styled “Picture Sort” header appears at the top with a mint green background (#4DB6AC), teal title (#00796B) in Fredoka font, and orange description (#FF7043) in Quicksand font. A teal outer border (#26A69A, 8px stroke) frames the entire page. The cutout grid displays all images in random order — users cut them out and sort into the correct category frame.',
+          'Click Generate to create the two-part sorting layout. The app arranges your content into category frames at the top (two side-by-side dashed-border frames with #FAFAFA fill) and a shuffled cutout grid below (white cells with dashed #666 borders). A styled \"Picture Sort\" header appears at the top with a mint green background (#4DB6AC), teal title (#00796B) in Fredoka font, and orange description (#FF7043) in Quicksand font. A teal outer border (#26A69A, 8px stroke) frames the entire page. The cutout grid displays all images in random order — users cut them out and sort into the correct category frame.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -75,9 +75,9 @@ const content: AppContent = {
           'Every sorting worksheet automatically generates a companion answer key on a separate canvas tab. The answer key displays two category boxes (one per category, equal width) with images sorted into their correct group — rendered at 6× the size of the cutout grid cells for clear, easy-to-read verification. Each category box uses a maximum of 2 columns and maintains the same dashed-border frame styling (#FAFAFA fill, #444 stroke, 12px border radius). No manual sorting, no separate file creation — the answer key stays perfectly synchronized with the worksheet content.',
       },
       {
-        title: 'Localized “Picture Sort” Header with Teal Design in 11 Languages',
+        title: 'Localized \"Picture Sort\" Header with Teal Design in 11 Languages',
         description:
-          'Every generated worksheet includes a styled header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold, and orange description (#FF7043) in Quicksand. Portrait worksheets display a 100px header with dynamic title sizing (28–48px); landscape worksheets use a compact 70px header with 24–36px title. The title “Picture Sort” and description “Sort the pictures into the correct groups!” are automatically translated into all 11 supported languages. A teal outer border (#26A69A, 8px stroke, 12px radius) frames the entire page.',
+          'Every generated worksheet includes a styled header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold, and orange description (#FF7043) in Quicksand. Portrait worksheets display a 100px header with dynamic title sizing (28–48px); landscape worksheets use a compact 70px header with 24–36px title. The title \"Picture Sort\" and description \"Sort the pictures into the correct groups!\" are automatically translated into all 11 supported languages. A teal outer border (#26A69A, 8px stroke, 12px radius) frames the entire page.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Name and Date Fields for a Polished Layout',
         description:
-          'Check the “Include Name/Date Fields” checkbox in the Page Setup panel to add name and date lines to the sorting worksheet. These fields give worksheets a polished, complete look and make your products more appealing to buyers on Etsy and Gumroad. The name/date option adds perceived value without any extra design work on your part.',
+          'Check the \"Include Name/Date Fields\" checkbox in the Page Setup panel to add name and date lines to the sorting worksheet. These fields give worksheets a polished, complete look and make your products more appealing to buyers on Etsy and Gumroad. The name/date option adds perceived value without any extra design work on your part.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Multilingual Sorting Worksheets for ESL and Bilingual Markets',
         description:
-          'Leverage the language-sensitive category labels to create sorting worksheets in 11 languages. The same images produce different category labels when you switch languages — image names and the “Picture Sort” header all update automatically. Create multilingual sorting bundles where each language version uses the same themed images but localized text. This is particularly valuable for international markets and bilingual product lines. Sell language-specific bundles or multilingual mega-packs at premium prices on Etsy and Gumroad.',
+          'Leverage the language-sensitive category labels to create sorting worksheets in 11 languages. The same images produce different category labels when you switch languages — image names and the \"Picture Sort\" header all update automatically. Create multilingual sorting bundles where each language version uses the same themed images but localized text. This is particularly valuable for international markets and bilingual product lines. Sell language-specific bundles or multilingual mega-packs at premium prices on Etsy and Gumroad.',
         platform: 'Etsy / Gumroad (multilingual market)',
       },
     ],
@@ -167,17 +167,17 @@ const content: AppContent = {
     {
       question: 'How does the localized header work?',
       answer:
-        'Every generated worksheet includes a styled “Picture Sort” header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold font, and orange description (#FF7043) in Quicksand font. Portrait worksheets display a 100px header; landscape worksheets use a compact 70px header. The title and description are automatically translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+        'Every generated worksheet includes a styled \"Picture Sort\" header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold font, and orange description (#FF7043) in Quicksand font. Portrait worksheets display a 100px header; landscape worksheets use a compact 70px header. The title and description are automatically translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
     },
     {
       question: 'Is the Picture Sort Generator language-sensitive?',
       answer:
-        'Yes. Category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. For example, a cat image appears as “Cat” in English but “Katze” in German and “Chat” in French. The localized “Picture Sort” header also changes with the selected language. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized category labels.',
+        'Yes. Category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. For example, a cat image appears as \"Cat\" in English but \"Katze\" in German and \"Chat\" in French. The localized \"Picture Sort\" header also changes with the selected language. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized category labels.',
     },
     {
       question: 'Can I include name and date fields on sorting worksheets?',
       answer:
-        'Yes. Check the “Include Name/Date Fields” checkbox in the Page Setup panel to add name and date lines to the worksheet. These fields give worksheets a polished, complete appearance and add perceived value to your product listings.',
+        'Yes. Check the \"Include Name/Date Fields\" checkbox in the Page Setup panel to add name and date lines to the worksheet. These fields give worksheets a polished, complete appearance and add perceived value to your product listings.',
     },
     {
       question: 'Is there a free trial?',

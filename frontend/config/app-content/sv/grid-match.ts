@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Generera rutnätspussel-arbetsbladet',
         description:
-          'Klicka på Generera för att skapa rutmatchningspusslet. Appen delar upp din valda bild i det konfigurerade rutnätet, visar ledtrådscellerna med de faktiska bildplattorna synliga, och markerar återstående celler med «?»-platshållare. Alla plattor blandas med Fisher-Yates-randomisering och visas som en numrerad palett. Stående layouter placerar rutnätet överst med paletten nedanför; liggande layouter positionerar rutnätet till vänster med paletten till höger. En stiliserad rubrik visas med cyan bakgrund (#00BCD4), djuplila titel (#6A1B9A) och orange ramkant (#FF8C42) som visar «Rutmatchning» och instruktioner på det valda språket.',
+          'Klicka på Generera för att skapa rutmatchningspusslet. Appen delar upp din valda bild i det konfigurerade rutnätet, visar ledtrådscellerna med de faktiska bildplattorna synliga, och markerar återstående celler med \"?\"-platshållare. Alla plattor blandas med Fisher-Yates-randomisering och visas som en numrerad palett. Stående layouter placerar rutnätet överst med paletten nedanför; liggande layouter positionerar rutnätet till vänster med paletten till höger. En stiliserad rubrik visas med cyan bakgrund (#00BCD4), djuplila titel (#6A1B9A) och orange ramkant (#FF8C42) som visar \"Rutmatchning\" och instruktioner på det valda språket.',
       },
       {
         title: 'Generera facit och ladda ner',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Hur fungerar rutmatchningspusslet för användarna?',
       answer:
-        'Arbetsbladet visar ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar «?»-platshållare. Under eller bredvid rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. användarna granskar ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör hemma i varje tom rutnätsposition. Svaret kräver rumsligt resonemang — matchning av plattinnehåll till dess korrekta plats i den övergripande bilden.',
+        'Arbetsbladet visar ett rutnät där vissa celler visar den faktiska bildplattan (ledtrådsceller) och återstående celler visar \"?\"-platshållare. Under eller bredvid rutnätet visar en numrerad palett alla dolda plattor i blandad ordning. användarna granskar ledtrådscellerna, studerar de numrerade plattorna och avgör vilket nummer som hör hemma i varje tom rutnätsposition. Svaret kräver rumsligt resonemang — matchning av plattinnehåll till dess korrekta plats i den övergripande bilden.',
     },
     {
       question: 'Hur fungerar det automatiskt genererade facit?',

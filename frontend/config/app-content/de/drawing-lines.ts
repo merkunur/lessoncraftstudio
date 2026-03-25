@@ -31,7 +31,7 @@ const content: AppContent = {
       {
         title: 'Seitenlayout festlegen',
         description:
-          'Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Größe. Wählen Sie eine Seitenfarbe, ein dekoratives Hintergrundthema aus der Bildbibliothek und passen Sie die Deckkraft an. Fügen Sie einen passenden Rahmen mit unabhängiger Deckkraftsteuerung hinzu. Die automatisch generierte Kopfzeile zeigt ein kräftiges grünes Banner mit dem Titel „Linien-Zeichenübung“ und dem Untertitel „Ziehe Linien, um die passenden Bilder zu verbinden!“ — beides lokalisiert in 11 Sprachen. Ein korallenroter Außenrahmen und ein sonnengelber Innenrahmen umgeben die Seite automatisch.',
+          'Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Größe. Wählen Sie eine Seitenfarbe, ein dekoratives Hintergrundthema aus der Bildbibliothek und passen Sie die Deckkraft an. Fügen Sie einen passenden Rahmen mit unabhängiger Deckkraftsteuerung hinzu. Die automatisch generierte Kopfzeile zeigt ein kräftiges grünes Banner mit dem Titel \"Linien-Zeichenübung\" und dem Untertitel \"Ziehe Linien, um die passenden Bilder zu verbinden!\" — beides lokalisiert in 11 Sprachen. Ein korallenroter Außenrahmen und ein sonnengelber Innenrahmen umgeben die Seite automatisch.',
       },
       {
         title: 'Linienvorlage auswählen',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Automatisch generierte lokalisierte Kopfzeile mit lebhaften Seitenrahmen',
         description:
-          'Jedes Arbeitsblatt enthält eine automatisch generierte Kopfzeile mit kräftig grünem Hintergrund (#51CF66) und tiefem Waldgrün-Titel (#2D5016). Der Standardtitel „Linien-Zeichenübung“ und der Untertitel „Ziehe Linien, um die passenden Bilder zu verbinden!“ werden in alle 11 Sprachen lokalisiert. Im Hochformat erscheint eine Kopfzeile über die volle Breite; im Querformat eine kompakte zentrierte Variante. Ein korallenroter Außenrahmen (#FF6B6B, 8px Strichstärke) und ein sonnengelber Innenrahmen (#FFD93D, 3px Strichstärke) umgeben jede Seite mit abgerundeten Ecken. Kopfzeilen sind vollständig bearbeitbar — auswählen, verschieben und skalieren nach Ihrem Branding.',
+          'Jedes Arbeitsblatt enthält eine automatisch generierte Kopfzeile mit kräftig grünem Hintergrund (#51CF66) und tiefem Waldgrün-Titel (#2D5016). Der Standardtitel \"Linien-Zeichenübung\" und der Untertitel \"Ziehe Linien, um die passenden Bilder zu verbinden!\" werden in alle 11 Sprachen lokalisiert. Im Hochformat erscheint eine Kopfzeile über die volle Breite; im Querformat eine kompakte zentrierte Variante. Ein korallenroter Außenrahmen (#FF6B6B, 8px Strichstärke) und ein sonnengelber Innenrahmen (#FFD93D, 3px Strichstärke) umgeben jede Seite mit abgerundeten Ecken. Kopfzeilen sind vollständig bearbeitbar — auswählen, verschieben und skalieren nach Ihrem Branding.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI',

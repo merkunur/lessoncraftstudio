@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Añadir texto, ayudas para venta en línea y dibujos a mano alzada',
         description:
-          'Usa el panel Herramientas de Texto para añadir títulos, instrucciones o etiquetas con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5) para máxima legibilidad. Haz clic en las Ayudas para venta en línea para añadir un campo de nombre («Nombre: ____») o líneas de práctica de caligrafía con un solo clic. Cambia a la Herramienta de Dibujo para dibujar ilustraciones a mano alzada directamente en el lienzo — elige un color de pincel y ajusta el tamaño del pincel de 1 a 50 píxeles.',
+          'Usa el panel Herramientas de Texto para añadir títulos, instrucciones o etiquetas con fuentes como Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial y Verdana. Ajusta el tamaño de fuente, color y ancho del contorno de texto (0 a 10 con granularidad de 0,5) para máxima legibilidad. Haz clic en las Ayudas para venta en línea para añadir un campo de nombre (\"Nombre: ____\") o líneas de práctica de caligrafía con un solo clic. Cambia a la Herramienta de Dibujo para dibujar ilustraciones a mano alzada directamente en el lienzo — elige un color de pincel y ajusta el tamaño del pincel de 1 a 50 píxeles.',
       },
       {
         title: 'Activar la escala de grises y descargar',
@@ -73,7 +73,7 @@ const content: AppContent = {
       {
         title: 'Ayudas para venta en línea: campo de nombre y líneas de caligrafía',
         description:
-          'Dos ayudas para venta en línea con un solo clic transforman las páginas para colorear en actividades listas para la clase. El botón Campo de Nombre añade un bloque de texto formateado «Nombre: ____________________» posicionado en la parte superior de la página — los usuarios escriben su nombre antes de empezar. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Juntas, estas ayudas hacen que tus fichas para colorear estén listas para venta en línea sin formato manual de texto. Los vendedores de Gumroad pueden destacar estas funcionalidades como diferenciación integrada frente a las páginas para colorear genéricas.',
+          'Dos ayudas para venta en línea con un solo clic transforman las páginas para colorear en actividades listas para la clase. El botón Campo de Nombre añade un bloque de texto formateado \"Nombre: ____________________\" posicionado en la parte superior de la página — los usuarios escriben su nombre antes de empezar. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Juntas, estas ayudas hacen que tus fichas para colorear estén listas para venta en línea sin formato manual de texto. Los vendedores de Gumroad pueden destacar estas funcionalidades como diferenciación integrada frente a las páginas para colorear genéricas.',
       },
       {
         title: 'Exportación en escala de grises para páginas para colorear de ahorro de tinta',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: '¿Qué son las ayudas para venta en línea y cómo se usan?',
       answer:
-        'Dos botones con un solo clic en el panel Ayudas para venta en línea. El botón Campo de Nombre añade un bloque de texto formateado «Nombre: ____________________» cerca de la parte superior de la página. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Ambas ayudas crean objetos estándar del lienzo que puedes reposicionar, redimensionar o eliminar como cualquier otro elemento.',
+        'Dos botones con un solo clic en el panel Ayudas para venta en línea. El botón Campo de Nombre añade un bloque de texto formateado \"Nombre: ____________________\" cerca de la parte superior de la página. El botón Líneas de Caligrafía añade un grupo de tres líneas uniformemente espaciadas (continua, discontinua, continua) cerca de la parte inferior de la página para práctica de escritura. Ambas ayudas crean objetos estándar del lienzo que puedes reposicionar, redimensionar o eliminar como cualquier otro elemento.',
     },
     {
       question: '¿Cómo funciona la exportación en escala de grises?',

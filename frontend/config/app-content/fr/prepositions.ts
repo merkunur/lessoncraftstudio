@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Générateur de Fiches de Prépositions pour la Pratique du Vocabulaire Spatial',
     tagline: 'Huit prépositions spatiales combinées à des exercices images-et-formes — construisant le vocabulaire spatial phrase après phrase.',
     description:
-      'Concevez des fiches de prépositions professionnelles qui enseignent les relations spatiales à travers des exercices pratiques images-et-formes. Les utilisateurs pratiquent huit prépositions fondamentales — dans, sur, sous, à côté de, derrière, entre, au-dessus de et devant — grâce à deux modes d\'exercice distincts : le Texte à Trous où les utilisateurs complètent la préposition manquante, et le Choix Multiple où les utilisateurs identifient l\'image correspondant à une description spatiale. Sélectionnez les prépositions à inclure depuis la liste de prépositions intégrée et configurez de 1 à 8 exercices par fiche. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour les objets positionnés, et choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. L\'Accès Complet déverrouille les 11 langues prises en charge avec des prépositions grammaticalement correctes — l\'allemand avec les contractions datives comme « im » et « am », le français avec les règles d\'élision pour « l\' » devant les voyelles, l\'espagnol avec les articles genrés — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de prépositions thématiques sur Etsy, compiliez des cahiers de vocabulaire spatial pour Amazon KDP ou créiez des ateliers de langage différenciés pour Gumroad, le Générateur de Fiches de Prépositions produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Concevez des fiches de prépositions professionnelles qui enseignent les relations spatiales à travers des exercices pratiques images-et-formes. Les utilisateurs pratiquent huit prépositions fondamentales — dans, sur, sous, à côté de, derrière, entre, au-dessus de et devant — grâce à deux modes d\'exercice distincts : le Texte à Trous où les utilisateurs complètent la préposition manquante, et le Choix Multiple où les utilisateurs identifient l\'image correspondant à une description spatiale. Sélectionnez les prépositions à inclure depuis la liste de prépositions intégrée et configurez de 1 à 8 exercices par fiche. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour les objets positionnés, et choisissez parmi 8 formes géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) comme points de référence spatiale. L\'Accès Complet déverrouille les 11 langues prises en charge avec des prépositions grammaticalement correctes — l\'allemand avec les contractions datives comme \" im \" et \" am \", le français avec les règles d\'élision pour \" l\' \" devant les voyelles, l\'espagnol avec les articles genrés — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de prépositions thématiques sur Etsy, compiliez des cahiers de vocabulaire spatial pour Amazon KDP ou créiez des ateliers de langage différenciés pour Gumroad, le Générateur de Fiches de Prépositions produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Choisir le mode et le nombre d\'exercices',
         description:
-          'Ouvrez le panneau Configuration des Exercices et sélectionnez l\'un des deux modes. Le mode Texte à Trous présente des phrases comme « [Image] est ____ le [forme] » où les utilisateurs écrivent la préposition correcte dans le blanc. Le mode Choix Multiple affiche une description spatiale et demande aux utilisateurs d\'entourer l\'image correspondante. Définissez le nombre d\'exercices par fiche de 1 à 8 pour contrôler la densité et la difficulté.',
+          'Ouvrez le panneau Configuration des Exercices et sélectionnez l\'un des deux modes. Le mode Texte à Trous présente des phrases comme \" [Image] est ____ le [forme] \" où les utilisateurs écrivent la préposition correcte dans le blanc. Le mode Choix Multiple affiche une description spatiale et demande aux utilisateurs d\'entourer l\'image correspondante. Définissez le nombre d\'exercices par fiche de 1 à 8 pour contrôler la densité et la difficulté.',
       },
       {
         title: 'Sélectionner les prépositions dans la liste',
@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Grammaire adaptée à chaque langue avec datif, élision et règles d\'articles',
         description:
-          'L\'Accès Complet déverrouille les 11 langues prises en charge, et chacune applique ses propres règles grammaticales aux phrases de prépositions. L\'allemand utilise les contractions datives comme « im » (in dem) et « am » (an dem) avec des articles genrés (dem/der). Le français applique les règles d\'élision, remplaçant « le » par « l\' » devant les voyelles ou le h muet. L\'espagnol et le portugais utilisent des articles genrés (el/la, o/a). Chaque phrase générée est grammaticalement correcte dans la langue cible — pas une traduction mot à mot — faisant de chaque version linguistique un produit véritablement commercialisable.',
+          'L\'Accès Complet déverrouille les 11 langues prises en charge, et chacune applique ses propres règles grammaticales aux phrases de prépositions. L\'allemand utilise les contractions datives comme \" im \" (in dem) et \" am \" (an dem) avec des articles genrés (dem/der). Le français applique les règles d\'élision, remplaçant \" le \" par \" l\' \" devant les voyelles ou le h muet. L\'espagnol et le portugais utilisent des articles genrés (el/la, o/a). Chaque phrase générée est grammaticalement correcte dans la langue cible — pas une traduction mot à mot — faisant de chaque version linguistique un produit véritablement commercialisable.',
       },
       {
         title: 'Objets + Formes : deux types d\'images pour le contexte spatial',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Produits multilingues de prépositions avec Accès Complet',
         description:
-          'L\'Accès Complet déverrouille les 11 langues avec des prépositions grammaticalement correctes, des articles genrés, des contractions datives et des règles d\'élision. Créez des fiches de prépositions allemandes avec « im » et « am », des fiches françaises avec l\'élision « l\' », des fiches espagnoles avec les articles el/la, et plus encore. Chaque version linguistique est un produit distinct que vous pouvez lister sur Etsy, Gumroad ou Amazon KDP — multipliant effectivement votre catalogue par onze à partir du même flux de travail. Les produits multilingues de vocabulaire spatial rencontrent moins de concurrence et attirent des acheteurs internationaux cherchant dans leur langue maternelle.',
+          'L\'Accès Complet déverrouille les 11 langues avec des prépositions grammaticalement correctes, des articles genrés, des contractions datives et des règles d\'élision. Créez des fiches de prépositions allemandes avec \" im \" et \" am \", des fiches françaises avec l\'élision \" l\' \", des fiches espagnoles avec les articles el/la, et plus encore. Chaque version linguistique est un produit distinct que vous pouvez lister sur Etsy, Gumroad ou Amazon KDP — multipliant effectivement votre catalogue par onze à partir du même flux de travail. Les produits multilingues de vocabulaire spatial rencontrent moins de concurrence et attirent des acheteurs internationaux cherchant dans leur langue maternelle.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingue)',
       },
       {
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Quels modes d\'exercice propose le Générateur de Fiches de Prépositions ?',
       answer:
-        'Le générateur inclut deux modes : Texte à Trous et Choix Multiple. Le Texte à Trous présente des phrases avec une préposition manquante que les utilisateurs complètent (par exemple, « Le chat est ____ le cercle »). Le Choix Multiple affiche une description spatiale et demande aux utilisateurs d\'entourer l\'image correspondante. Les deux modes fonctionnent avec les huit prépositions et tous les thèmes.',
+        'Le générateur inclut deux modes : Texte à Trous et Choix Multiple. Le Texte à Trous présente des phrases avec une préposition manquante que les utilisateurs complètent (par exemple, \" Le chat est ____ le cercle \"). Le Choix Multiple affiche une description spatiale et demande aux utilisateurs d\'entourer l\'image correspondante. Les deux modes fonctionnent avec les huit prépositions et tous les thèmes.',
     },
     {
       question: 'Quelles sont les 8 prépositions disponibles ?',
@@ -153,7 +153,7 @@ const content: AppContent = {
     {
       question: 'Quelle est la différence entre les objets et les formes ?',
       answer:
-        'Les objets sont des illustrations thématiques de la bibliothèque d\'images — animaux, véhicules, nourriture et plus — qui représentent l\'élément positionné. Les formes sont des figures géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) qui servent de point de référence spatiale. Chaque exercice positionne un objet par rapport à une forme, créant des relations spatiales claires comme « Le chat est sous le cube. »',
+        'Les objets sont des illustrations thématiques de la bibliothèque d\'images — animaux, véhicules, nourriture et plus — qui représentent l\'élément positionné. Les formes sont des figures géométriques (cercle, cube, cylindre, cœur, hexagone, carré, étoile, triangle) qui servent de point de référence spatiale. Chaque exercice positionne un objet par rapport à une forme, créant des relations spatiales claires comme \" Le chat est sous le cube. \"',
     },
     {
       question: 'Combien d\'exercices puis-je mettre sur chaque fiche ?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Le Générateur de Fiches de Prépositions est-il sensible à la langue ?',
       answer:
-        'Oui. Contrairement aux applications de maths purement visuelles, les fiches de prépositions changent fondamentalement selon la langue sélectionnée. Chaque langue a ses propres prépositions, règles d\'articles et structures grammaticales. L\'allemand utilise les contractions datives (« im », « am ») et les articles genrés (dem/der). Le français applique l\'élision (« l\' » devant les voyelles). L\'espagnol utilise les articles genrés (el/la). Chaque phrase générée est grammaticalement correcte — pas une traduction mot à mot. La Licence Commerciale est en anglais uniquement ; l\'Accès Complet déverrouille les 11 langues.',
+        'Oui. Contrairement aux applications de maths purement visuelles, les fiches de prépositions changent fondamentalement selon la langue sélectionnée. Chaque langue a ses propres prépositions, règles d\'articles et structures grammaticales. L\'allemand utilise les contractions datives (\" im \", \" am \") et les articles genrés (dem/der). Le français applique l\'élision (\" l\' \" devant les voyelles). L\'espagnol utilise les articles genrés (el/la). Chaque phrase générée est grammaticalement correcte — pas une traduction mot à mot. La Licence Commerciale est en anglais uniquement ; l\'Accès Complet déverrouille les 11 langues.',
     },
     {
       question: 'Comment fonctionne la gestion grammaticale dans les différentes langues ?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne la liste de prépositions ?',
       answer:
-        'Le panneau Liste de Prépositions vous permet d\'activer ou de désactiver chacune des huit prépositions. Seules les prépositions cochées apparaissent dans les exercices générés. Cela vous donne un contrôle précis sur le contenu de la leçon — cochez seulement « dans » et « sur » pour une fiche d\'introduction, ou cochez les huit pour une révision complète. La liste se réinitialise à chaque génération de nouvelle fiche.',
+        'Le panneau Liste de Prépositions vous permet d\'activer ou de désactiver chacune des huit prépositions. Seules les prépositions cochées apparaissent dans les exercices générés. Cela vous donne un contrôle précis sur le contenu de la leçon — cochez seulement \" dans \" et \" sur \" pour une fiche d\'introduction, ou cochez les huit pour une révision complète. La liste se réinitialise à chaque génération de nouvelle fiche.',
     },
     {
       question: 'Le générateur crée-t-il des corrigés automatiquement ?',

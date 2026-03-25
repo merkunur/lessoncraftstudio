@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configure as Definições da Cartela de Bingo',
         description:
-          'Abra o painel Definições da Cartela de Bingo e defina as linhas (3 a 5) e as colunas (3 a 5) para determinar o tamanho da grade — o valor predefinido é 4×4 com 16 células. Ajuste o número de cartelas de 1 a 10 para gerar em lote múltiplas cartelas de bingo únicas. Escolha o preenchimento das células (Imagem ou Palavra) e o preenchimento das fichas (Imagem ou Palavra) de forma independente — misture cartelas com imagens e fichas com palavras, cartelas com palavras e fichas com imagens, ou combine ambos. Ative a caixa «Usar seleção personalizada» para escolher manualmente as imagens específicas para a chamada em vez da seleção automática.',
+          'Abra o painel Definições da Cartela de Bingo e defina as linhas (3 a 5) e as colunas (3 a 5) para determinar o tamanho da grade — o valor predefinido é 4×4 com 16 células. Ajuste o número de cartelas de 1 a 10 para gerar em lote múltiplas cartelas de bingo únicas. Escolha o preenchimento das células (Imagem ou Palavra) e o preenchimento das fichas (Imagem ou Palavra) de forma independente — misture cartelas com imagens e fichas com palavras, cartelas com palavras e fichas com imagens, ou combine ambos. Ative a caixa \"Usar seleção personalizada\" para escolher manualmente as imagens específicas para a chamada em vez da seleção automática.',
       },
       {
         title: 'Selecione Imagens da Biblioteca',
@@ -168,17 +168,17 @@ const content: AppContent = {
     {
       question: 'O que é a seleção personalizada de chamada?',
       answer:
-        'Ative a caixa «Usar seleção personalizada» no painel Definições da Cartela de Bingo para escolher manualmente quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens na Biblioteca de Imagens para adicioná-las à sua seleção personalizada — um contador em tempo real mostra «Selecionados para chamada personalizada: X» à medida que escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o catálogo de produtos ou eventos temáticos que requerem vocabulário específico.',
+        'Ative a caixa \"Usar seleção personalizada\" no painel Definições da Cartela de Bingo para escolher manualmente quais imagens específicas aparecem no banco de chamada. Quando ativa, clique nas imagens na Biblioteca de Imagens para adicioná-las à sua seleção personalizada — um contador em tempo real mostra \"Selecionados para chamada personalizada: X\" à medida que escolhe. Isto dá-lhe controlo preciso sobre quais elementos aparecem no jogo de bingo, útil para atividades alinhadas com o catálogo de produtos ou eventos temáticos que requerem vocabulário específico.',
     },
     {
       question: 'O Gerador de Cartelas de Bingo com Imagens é sensível ao idioma?',
       answer:
-        'Sim. No modo preenchimento de palavras para as células ou as fichas, as palavras apresentadas são os nomes localizados das imagens da Biblioteca de Imagens. Mudar o idioma nas Definições da Ficha altera as palavras nas cartelas, nas fichas e na folha de chamada. Por exemplo, uma imagem de gato mostra «Gato» em português mas «Katze» em alemão e «Cat» em inglês. A Licença Comercial inclui 10 temas coloridos com inglês apenas; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas para conteúdo textual localizado.',
+        'Sim. No modo preenchimento de palavras para as células ou as fichas, as palavras apresentadas são os nomes localizados das imagens da Biblioteca de Imagens. Mudar o idioma nas Definições da Ficha altera as palavras nas cartelas, nas fichas e na folha de chamada. Por exemplo, uma imagem de gato mostra \"Gato\" em português mas \"Katze\" em alemão e \"Cat\" em inglês. A Licença Comercial inclui 10 temas coloridos com inglês apenas; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas para conteúdo textual localizado.',
     },
     {
       question: 'Por que não há gabarito para as cartelas de bingo?',
       answer:
-        'As cartelas de bingo utilizam uma folha de chamada em vez de um gabarito. No bingo, o chamador lê os elementos da folha de chamada enquanto os jogadores marcam os elementos correspondentes nas suas cartelas únicas — não existe uma única «resposta correta» pois a cartela de cada jogador tem elementos diferentes em posições diferentes. A folha de chamada serve como documento de referência do jogo, listando todos os elementos possíveis que o chamador pode anunciar durante a partida.',
+        'As cartelas de bingo utilizam uma folha de chamada em vez de um gabarito. No bingo, o chamador lê os elementos da folha de chamada enquanto os jogadores marcam os elementos correspondentes nas suas cartelas únicas — não existe uma única \"resposta correta\" pois a cartela de cada jogador tem elementos diferentes em posições diferentes. A folha de chamada serve como documento de referência do jogo, listando todos os elementos possíveis que o chamador pode anunciar durante a partida.',
     },
     {
       question: 'Existe um teste grátis?',

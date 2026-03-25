@@ -59,7 +59,7 @@ const content: BundleContent = {
     },
     {
       title: 'Linha completa de produtos de matemática',
-      description: 'Cobre cada competência matemática básica que os compradores procuram — adição, subtração, comparação, puzzles de código, atividades de grelha e equações algébricas com imagens. Publique dezenas de produtos distintos a partir de um único kit de ferramentas sem lacunas no seu catálogo. Combine diferentes geradores com diferentes temas para criar listagens únicas de produtos: «Pacote de Adição Animais do Oceano», «Coleção de Subtração Espaço», «Pack de Puzzles Matemáticos Quinta» — cada uma visando uma consulta de pesquisa e necessidade de comprador diferente.',
+      description: 'Cobre cada competência matemática básica que os compradores procuram — adição, subtração, comparação, puzzles de código, atividades de grelha e equações algébricas com imagens. Publique dezenas de produtos distintos a partir de um único kit de ferramentas sem lacunas no seu catálogo. Combine diferentes geradores com diferentes temas para criar listagens únicas de produtos: \"Pacote de Adição Animais do Oceano\", \"Coleção de Subtração Espaço\", \"Pack de Puzzles Matemáticos Quinta\" — cada uma visando uma consulta de pesquisa e necessidade de comprador diferente.',
     },
     {
       title: 'Gabaritos automáticos',
@@ -75,7 +75,7 @@ const content: BundleContent = {
     },
     {
       title: 'Mais de 100 conjuntos de imagens temáticas',
-      description: 'Aceda a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos seis geradores. Cada tema dá-lhe um novo ângulo de produto — publique «Adição Animais da Quinta» ao lado de «Subtração Espaço» para captar diferentes consultas de pesquisa e interesses de compradores.',
+      description: 'Aceda a animais, comida, veículos, festividades, estações e dezenas de categorias temáticas mais nos seis geradores. Cada tema dá-lhe um novo ângulo de produto — publique \"Adição Animais da Quinta\" ao lado de \"Subtração Espaço\" para captar diferentes consultas de pesquisa e interesses de compradores.',
     },
     {
       title: 'Carregar imagens personalizadas',
@@ -95,7 +95,7 @@ const content: BundleContent = {
     },
     {
       title: 'Cadernos de matemática no Amazon KDP',
-      description: 'Combine fichas de múltiplos geradores em cadernos temáticos para KDP: «Caderno de Atividades de Matemática 1.º Ano» com páginas de adição, subtração e comparação, ou «Coleção de Puzzles Matemáticos» misturando puzzles de grelha e álgebra. O motor de design consistente assegura que cada página pareça profissionalmente uniforme. Gere de 50 a 100 páginas por caderno numa única sessão, descarregue como PDF e carregue diretamente no KDP. Como cinco dos seis geradores produzem fichas independentes do idioma, o mesmo caderno vende-se globalmente sem tradução.',
+      description: 'Combine fichas de múltiplos geradores em cadernos temáticos para KDP: \"Caderno de Atividades de Matemática 1.º Ano\" com páginas de adição, subtração e comparação, ou \"Coleção de Puzzles Matemáticos\" misturando puzzles de grelha e álgebra. O motor de design consistente assegura que cada página pareça profissionalmente uniforme. Gere de 50 a 100 páginas por caderno numa única sessão, descarregue como PDF e carregue diretamente no KDP. Como cinco dos seis geradores produzem fichas independentes do idioma, o mesmo caderno vende-se globalmente sem tradução.',
       platform: 'Amazon KDP (kdp.amazon.com)',
     },
     {

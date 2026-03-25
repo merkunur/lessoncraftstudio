@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Ordmix Arbetsblad Generator',
     tagline: 'Skapa blandade bokstavsbrickor stavningspussel med bildledtrådar, färgkodning och 4 svårighetsnivåer på 11 språk',
-    description: 'Förvandla vokabulärövning till ett praktiskt stavningspussel som användarna löser genom att omordna blandade bokstavsbrickor. Detta verktyg genererar ordmix arbetsblad där en bildledtråd paras med en uppsättning blandade brickor — användarna studerar bilden, identifierar vad den föreställer och placerar bokstäverna i rätt ordning. Till skillnad från fyll-i-luckan-övningar ger ordmix användarna ALLA bokstäverna men i fel ordning, vilket gör det till en bokstavsomflyttning som bygger stavningsnoggrannhet genom aktiv manipulation. Den utmärkande funktionen är vokal-konsonant färgkodning: aktivera den för att visa vokaler i en färg och konsonanter i en annan, vilket lägger till en visuell foniksdimension som hjälper användarna identifiera bokstavstyper medan de löser pussel. Fyra svårighetsnivåer kontrollerar hur många bokstäver som är förplacerade i rätt position: Inga Ledtrådar blandar varje bokstav för maximal utmaning, Lätt förplacerar hälften för stöttade nybörjare, Normal placerar en fjärdedel för balanserad övning, och Svår placerar bara en sjättedel för självsäkra stavare. Välj mellan tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska. En design blir 11 unika produkter. Ställ in 1–10 pussel per sida, växla versaler eller gemener, lägg till övningsnumrering och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med automatisk facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
+    description: 'Förvandla vokabulärövning till ett praktiskt stavningspussel som användarna löser genom att omordna blandade bokstavsbrickor. Detta verktyg genererar ordmix arbetsblad där en bildledtråd paras med en uppsättning blandade brickor — användarna studerar bilden, identifierar vad den föreställer och placerar bokstäverna i rätt ordning. Till skillnad från fyll-i-luckan-övningar ger ordmix användarna ALLA bokstäverna men i fel ordning, vilket gör det till en bokstavsomflyttning som bygger stavningsnoggrannhet genom aktiv manipulation. Den utmärkande funktionen är vokal-konsonant färgkodning: aktivera den för att visa vokaler i en färg och konsonanter i en annan, vilket lägger till en visuell foniksdimension som hjälper användarna identifiera bokstavstyper medan de löser pussel. Fyra svårighetsnivåer kontrollerar hur många bokstäver som är förplacerade i rätt position: Inga Ledtrådar blandar varje bokstav för maximal utmaning, Lätt förplacerar hälften för stöttade nybörjare, Normal placerar en fjärdedel för balanserad övning, och Svår placerar bara en sjättedel för självsäkra stavare. Välj mellan tre innehållskällor: Bildbibliotek hämtar från mer än 3 100 illustrationer i 104 tematiska samlingar, Manuellt Redigeringsläge låter dig välja bilder och anpassa visningsnamn, och Anpassad Ordlista låter dig skriva upp till 8 ord direkt för textbaserade pussel. Språkkänslighet är inbyggd: byt från svenska till något av de 11 stödda språken och samma bild producerar ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska. En design blir 11 unika produkter. Ställ in 1–10 pussel per sida, växla versaler eller gemener, lägg till övningsnumrering och välj bland 7 typsnittsfamiljer. Exportera som tryckfärdig PDF eller högupplöst JPEG med automatisk facitgenerering. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Köp en licens för att ta bort vattenstämpeln och sälja kommersiellt.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Ordmix Arbetsblad Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja skapa ordmixpussel omedelbart.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta generatorn i din webbläsare. Verktyget laddas direkt med ett inställningssidofält till vänster och en liveförhandsvisnings arbetsyta till höger. Inget konto, ingen nedladdning, ingen installation krävs — börja skapa ordmixpussel omedelbart.',
       },
       {
         title: 'Ställ in sidlayout och mall',
-        description: 'I avsnittet «Sidinställningar» väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet från 104-tema bildbiblioteket och välj en dekorativ ramkant.',
+        description: 'I avsnittet \"Sidinställningar\" väljer du sidstorlek: Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat, eller ange en anpassad storlek. Välj en arbetsbladsmall från mallväljaren. Ställ in sidfärg, lägg till en tematisk bakgrund med justerbar opacitet från 104-tema bildbiblioteket och välj en dekorativ ramkant.',
       },
       {
         title: 'Välj din innehållskälla',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generera facit och ladda ner',
-        description: 'Klicka på «Generera» för att bygga ditt ordmix arbetsblad. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Växla till fliken Facit och generera en löst version som visar det korrekt omordnade ordet för varje pussel. Ladda ner både arbetsbladet och facit som tryckfärdig PDF eller högupplöst JPEG med 300+ DPI.',
+        description: 'Klicka på \"Generera\" för att bygga ditt ordmix arbetsblad. Aktivera gråskaleväxlingen för bläckvänlig svartvit utmatning idealisk för KDP-interiörer. Växla till fliken Facit och generera en löst version som visar det korrekt omordnade ordet för varje pussel. Ladda ner både arbetsbladet och facit som tryckfärdig PDF eller högupplöst JPEG med 300+ DPI.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Tematiska bokstavsomflyttning pusselpaket',
-      description: 'Skapa uppsättningar av 10–15 ordmix arbetsblad med tematiska bildsamlingar — djur, mat, fordon, naturscener, högtider, sport och fler. Varje pussel presenterar en bildledtråd bredvid blandade bokstavsbrickor som användarna omordnar till rätt stavning. Växla färgkodning på hälften av setet för en «fonicsutgåva»-variant som markerar vokal-konsonant-mönster. Paketera efter tema och sälj på Etsy eller Gumroad.',
+      description: 'Skapa uppsättningar av 10–15 ordmix arbetsblad med tematiska bildsamlingar — djur, mat, fordon, naturscener, högtider, sport och fler. Varje pussel presenterar en bildledtråd bredvid blandade bokstavsbrickor som användarna omordnar till rätt stavning. Växla färgkodning på hälften av setet för en \"fonicsutgåva\"-variant som markerar vokal-konsonant-mönster. Paketera efter tema och sälj på Etsy eller Gumroad.',
     },
     {
       title: 'KDP ordmix aktivitetsböcker',
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Färgkodade fonics pusselset',
-      description: 'Utnyttja vokal-konsonant färgkodningsfunktionen för att skapa fonics-fokuserade stavningspussel som ingen annan generator kan producera. Färgkodade brickor visar vokaler i en färg och konsonanter i en annan, vilket lägger till ett visuellt inlärningslager som vanliga ordmix saknar. Skapa separata «Färgkodad Utgåva» och «Klassisk Svart Utgåva» versioner av varje tema för att fördubbla din produktkatalog med minimalt extra arbete.',
+      description: 'Utnyttja vokal-konsonant färgkodningsfunktionen för att skapa fonics-fokuserade stavningspussel som ingen annan generator kan producera. Färgkodade brickor visar vokaler i en färg och konsonanter i en annan, vilket lägger till ett visuellt inlärningslager som vanliga ordmix saknar. Skapa separata \"Färgkodad Utgåva\" och \"Klassisk Svart Utgåva\" versioner av varje tema för att fördubbla din produktkatalog med minimalt extra arbete.',
     },
     {
       title: 'Flerspråkiga stavningsprodukter',
-      description: 'Byt språkinställningen och regenerera samma arbetsbladsdesign på alla 11 stödda språk. Samma hundbild producerar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska — var och en med olika bokstavsantal, olika brickor och helt olika blandade arrangemang. En designsession producerar 11 distinkta produkter.',
+      description: 'Byt språkinställningen och regenerera samma arbetsbladsdesign på alla 11 stödda språk. Samma hundbild producerar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska — var och en med olika bokstavsantal, olika brickor och helt olika blandade arrangemang. En designsession producerar 11 distinkta produkter.',
     },
     {
       title: 'Anpassad vokabulär mixarbetsblad',
@@ -125,15 +125,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Använd färgkodning för foniksdifferentiering',
-      description: 'Växla vokal-konsonant färgkodning för att visa vokaler i en färg och konsonanter i en annan. Detta visuella fonicshjälpmedel är unikt för Ordmix och hjälper användarna identifiera bokstavstyper medan de löser pussel. Skapa en «Färgkodad Utgåva» bredvid en «Klassisk Utgåva» av varje tema för att fördubbla ditt produktutbud.',
+      description: 'Växla vokal-konsonant färgkodning för att visa vokaler i en färg och konsonanter i en annan. Detta visuella fonicshjälpmedel är unikt för Ordmix och hjälper användarna identifiera bokstavstyper medan de löser pussel. Skapa en \"Färgkodad Utgåva\" bredvid en \"Klassisk Utgåva\" av varje tema för att fördubbla ditt produktutbud.',
     },
     {
       title: 'Använd Inga Ledtrådar för stavningsbedömning',
-      description: 'Inga Ledtrådar-läge blandar varje bokstav med noll förplacerade positioner, vilket skapar en genuin stavningsbedömning från en bildprompt. användarna måste minnas den kompletta stavningen och omordna alla brickor självständigt. Använd det för prov, slutliga utmaningssektioner i arbetsböcker eller premium «expertutgåva»-produkter.',
+      description: 'Inga Ledtrådar-läge blandar varje bokstav med noll förplacerade positioner, vilket skapar en genuin stavningsbedömning från en bildprompt. användarna måste minnas den kompletta stavningen och omordna alla brickor självständigt. Använd det för prov, slutliga utmaningssektioner i arbetsböcker eller premium \"expertutgåva\"-produkter.',
     },
     {
       title: 'Gå flerspråkigt för 11× produktutbud',
-      description: 'Varje ordmix arbetsblad du designar kan bli 11 produkter genom att byta språk. Samma kattbild producerar «KATT», «CAT», «KATZE», «CHAT», «GATO», «GATTO» och fler — var och en med olika bokstavsantal, olika brickor och olika blandade arrangemang. Språkspecifika stavningspussel är en dramatiskt underbetjänad nisch utanför engelska.',
+      description: 'Varje ordmix arbetsblad du designar kan bli 11 produkter genom att byta språk. Samma kattbild producerar \"KATT\", \"CAT\", \"KATZE\", \"CHAT\", \"GATO\", \"GATTO\" och fler — var och en med olika bokstavsantal, olika brickor och olika blandade arrangemang. Språkspecifika stavningspussel är en dramatiskt underbetjänad nisch utanför engelska.',
     },
     {
       title: 'Använd Manuellt Redigeringsläge för anpassad vokabulär',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Blanda svårighetsnivåer i paket',
-      description: 'Skapa arbetsbladspaket som avancerar från Lätt till Inga Ledtrådar över samma tema. Ett «Bondgårdsdjur Stavningspussel»-paket med 5 Lätt-sidor, 5 Normal, 5 Svår och 5 Inga Ledtrådar ger säljare en färdig nivågrupperad uppsättning. Inkludera facit för varje nivå. Progressiva paket motiverar premiumpriser på Gumroad och Etsy.',
+      description: 'Skapa arbetsbladspaket som avancerar från Lätt till Inga Ledtrådar över samma tema. Ett \"Bondgårdsdjur Stavningspussel\"-paket med 5 Lätt-sidor, 5 Normal, 5 Svår och 5 Inga Ledtrådar ger säljare en färdig nivågrupperad uppsättning. Inkludera facit för varje nivå. Progressiva paket motiverar premiumpriser på Gumroad och Etsy.',
     },
     {
       title: 'Para ihop med Gissa Ordet för omfattande paket',
-      description: 'Ordmix (bokstavsomflyttning) och Gissa Ordet (fyll-i-luckan) övar olika kognitiva färdigheter med liknande vokabulär. Paketera båda formaten till ett «Komplett Stavningsövning»-paket där användarna först mixar brickor och sedan fyller i saknade bokstäver. Flerformatspaket säljer för mer och ger mer grundlig stavningsövning.',
+      description: 'Ordmix (bokstavsomflyttning) och Gissa Ordet (fyll-i-luckan) övar olika kognitiva färdigheter med liknande vokabulär. Paketera båda formaten till ett \"Komplett Stavningsövning\"-paket där användarna först mixar brickor och sedan fyller i saknade bokstäver. Flerformatspaket säljer för mer och ger mer grundlig stavningsövning.',
     },
   ],
 
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: 'Hur fungerar språkkänsligheten?',
-      answer: 'När du byter språk producerar samma bild ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar «HUND» på svenska, «DOG» på engelska, «CHIEN» på franska, «PERRO» på spanska. Verktyget stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.',
+      answer: 'När du byter språk producerar samma bild ett annorlunda målord med annorlunda bokstäver och ett helt annorlunda blandat arrangemang. En hundbild genererar \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska, \"PERRO\" på spanska. Verktyget stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.',
     },
     {
       question: 'Kan jag ladda upp egna bilder?',
-      answer: 'Ja. Klicka på «Ladda Upp Bild»-knappen för att använda dina egna PNG- eller JPEG-filer som bildledtrådar. Du kan skriva ett anpassat visningsnamn för varje uppladdad bild för att kontrollera ordet som mixas. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer som ingen annan säljare kan replikera.',
+      answer: 'Ja. Klicka på \"Ladda Upp Bild\"-knappen för att använda dina egna PNG- eller JPEG-filer som bildledtrådar. Du kan skriva ett anpassat visningsnamn för varje uppladdad bild för att kontrollera ordet som mixas. Anpassade bilder låter dig skapa varumärkta arbetsblad med egna illustrationer som ingen annan säljare kan replikera.',
     },
     {
       question: 'Genererar verktyget facit?',

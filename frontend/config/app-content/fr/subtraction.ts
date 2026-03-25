@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Générateur de Fiches de Soustraction avec Visualisation Barrée',
     tagline: 'Rendez la soustraction intuitive grâce à des fiches où les enfants barrent les images pour trouver la réponse.',
     description:
-      'Créez des fiches de soustraction basées sur les images qui enseignent le concept de « retirer » grâce à une méthode visuelle puissante : les images barrées. Les utilisateurs voient un groupe d\'images, puis observent des croix diagonales tracées sur les éléments soustraits — rendant le concept abstrait de la soustraction concret et intuitif. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos utilisateurs, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
+      'Créez des fiches de soustraction basées sur les images qui enseignent le concept de \" retirer \" grâce à une méthode visuelle puissante : les images barrées. Les utilisateurs voient un groupe d\'images, puis observent des croix diagonales tracées sur les éléments soustraits — rendant le concept abstrait de la soustraction concret et intuitif. Choisissez parmi quatre modes d\'exercice — Barrer, Image − Nombre, Trouver le Nombre à Soustraire et Mode Mixte — pour accompagner l\'apprentissage de la maternelle au CE1. Parcourez plus de 3 100 illustrations dans 104 thèmes comme les dinosaures, la vie marine et les véhicules. Chaque fiche inclut un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Un mode niveaux de gris intégré permet de créer des versions noir et blanc économiques en un clic. Que vous vendiez des packs thématiques sur Etsy, publiiez des cahiers d\'activités sur Amazon KDP ou imprimiez des fiches de pratique pour vos utilisateurs, le Générateur de Fiches de Soustraction produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
   howItWorks: {
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Visualisation par barrage',
         description:
-          'La fonctionnalité signature qui distingue ce générateur. En mode Barrer, un groupe complet d\'images est affiché et des croix diagonales sont tracées sur les N derniers éléments pour montrer visuellement la soustraction. Cela transforme l\'idée abstraite de « retirer » en quelque chose que les utilisateurs peuvent voir et comprendre immédiatement. Un enfant regardant huit pommes dont trois sont barrées saisit « 8 moins 3 » bien plus intuitivement qu\'en fixant des chiffres nus.',
+          'La fonctionnalité signature qui distingue ce générateur. En mode Barrer, un groupe complet d\'images est affiché et des croix diagonales sont tracées sur les N derniers éléments pour montrer visuellement la soustraction. Cela transforme l\'idée abstraite de \" retirer \" en quelque chose que les utilisateurs peuvent voir et comprendre immédiatement. Un enfant regardant huit pommes dont trois sont barrées saisit \" 8 moins 3 \" bien plus intuitivement qu\'en fixant des chiffres nus.',
       },
       {
         title: 'Quatre modes d\'exercice distincts',
@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'Comment fonctionne la visualisation barrée ?',
       answer:
-        'En mode Barrer, la fiche affiche le groupe de départ complet — par exemple, huit papillons. Des croix diagonales sont ensuite tracées sur les N dernières images pour représenter la quantité soustraite. Les utilisateurs comptent les images non marquées pour trouver la réponse. Cela rend le concept abstrait de « retirer » visible et concret, particulièrement efficace pour les enfants de maternelle et grande section qui commencent à apprendre la soustraction.',
+        'En mode Barrer, la fiche affiche le groupe de départ complet — par exemple, huit papillons. Des croix diagonales sont ensuite tracées sur les N dernières images pour représenter la quantité soustraite. Les utilisateurs comptent les images non marquées pour trouver la réponse. Cela rend le concept abstrait de \" retirer \" visible et concret, particulièrement efficace pour les enfants de maternelle et grande section qui commencent à apprendre la soustraction.',
     },
     {
       question: 'Quelles plages de nombres puis-je définir pour les problèmes de soustraction ?',

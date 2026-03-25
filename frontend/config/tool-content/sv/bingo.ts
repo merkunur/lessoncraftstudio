@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Öppna Bingokort Skaparen',
-        description: 'Klicka på «Prova gratis nu» för att starta bildbingo kort generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för bingokortet med brickor, en för uppropslistan. Inget konto, ingen nedladdning, ingen installation krävs.',
+        description: 'Klicka på \"Prova gratis nu\" för att starta bildbingo kort generatorn. Verktyget laddas direkt med ett inställningssidofält till vänster och en dubbelfliks arbetsyta till höger — en flik för bingokortet med brickor, en för uppropslistan. Inget konto, ingen nedladdning, ingen installation krävs.',
       },
       {
         title: 'Konfigurera rutnätsstorlek och kortantal',
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Välj bilder från biblioteket',
-        description: 'Bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer. Filtrera efter tema eller sök med nyckelord. Aktivera «Använd anpassat urval» för att handplocka specifika bilder för uppropspoolen — en levande räknare visar ditt urval. Anpassat uppropsurval ger exakt kontroll över vilka objekt som visas i bingospelet.',
+        description: 'Bläddra bland 104 tematiska samlingar med mer än 3 100 färgglada illustrationer. Filtrera efter tema eller sök med nyckelord. Aktivera \"Använd anpassat urval\" för att handplocka specifika bilder för uppropspoolen — en levande räknare visar ditt urval. Anpassat uppropsurval ger exakt kontroll över vilka objekt som visas i bingospelet.',
       },
       {
         title: 'Ställ in sidlayout och dekorationer',
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: 'Flerspråkiga vokabulärbingoprodukter',
-      description: 'Bingokort Skaparen är språkkänslig — Ordfyllning visar lokaliserade bildnamn. Skapa bingoset på alla 11 stödda språk från samma bilder. En kattbild visar «Katt» på svenska, «Cat» på engelska, «Katze» på tyska. Ordkort med bildbrickor skapar särskilt effektiva vokabulärrepetitionsverktyg.',
+      description: 'Bingokort Skaparen är språkkänslig — Ordfyllning visar lokaliserade bildnamn. Skapa bingoset på alla 11 stödda språk från samma bilder. En kattbild visar \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Ordkort med bildbrickor skapar särskilt effektiva vokabulärrepetitionsverktyg.',
     },
     {
       title: 'KDP bingoaktivitetsböcker med uppropslistor',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP bingoaktivitets boksserie',
-      description: 'Sammanställ 40–80 bingokort till tematiska aktivitetsböcker för Amazon KDP. Strukturera en serie: «Djurbingo», «Högtidsbingo», «Matbingo». Inkludera uppropslistor efter varje kortset. Blanda rutnätsstorlekar för progressiv svårighet. Växla gråskala. Bingoaktivitetsböcker säljer året runt och toppar under högtider.',
+      description: 'Sammanställ 40–80 bingokort till tematiska aktivitetsböcker för Amazon KDP. Strukturera en serie: \"Djurbingo\", \"Högtidsbingo\", \"Matbingo\". Inkludera uppropslistor efter varje kortset. Blanda rutnätsstorlekar för progressiv svårighet. Växla gråskala. Bingoaktivitetsböcker säljer året runt och toppar under högtider.',
       platform: 'Amazon KDP',
     },
     {
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Utnyttja anpassat uppropsurval för produktkatalogsanpassning',
-      description: 'Aktivera «Använd anpassat urval» för att handplocka exakt vilka bilder som visas i uppropspoolen. Levande räknaren visar ditt urval. Denna funktion är kritisk för produktkatalogsanpassade bingospel — välj bara de vokabulärord din lektion täcker.',
+      description: 'Aktivera \"Använd anpassat urval\" för att handplocka exakt vilka bilder som visas i uppropspoolen. Levande räknaren visar ditt urval. Denna funktion är kritisk för produktkatalogsanpassade bingospel — välj bara de vokabulärord din lektion täcker.',
     },
     {
       title: 'Utnyttja det språkkänsliga Ordfyllningsläget för flerspråkiga produkter',
@@ -180,11 +180,11 @@ const content: ToolContent = {
     },
     {
       question: 'Vad är anpassat uppropsurval?',
-      answer: 'Aktivera «Använd anpassat urval» för att handplocka vilka specifika bilder som visas i uppropspoolen. En levande räknare visar «Valda för anpassade upprop: X» medan du väljer. Ger exakt kontroll för produktkatalogsanpassade bingospel.',
+      answer: 'Aktivera \"Använd anpassat urval\" för att handplocka vilka specifika bilder som visas i uppropspoolen. En levande räknare visar \"Valda för anpassade upprop: X\" medan du väljer. Ger exakt kontroll för produktkatalogsanpassade bingospel.',
     },
     {
       question: 'Är Bingokort Skaparen språkkänslig?',
-      answer: 'Ja. Ordfyllning visar lokaliserade bildnamn. Att byta språk ändrar ord på kort, brickor och uppropslista. En kattbild visar «Katt» på svenska, «Cat» på engelska, «Katze» på tyska. Bildfyllning är inte språkkänslig.',
+      answer: 'Ja. Ordfyllning visar lokaliserade bildnamn. Att byta språk ändrar ord på kort, brickor och uppropslista. En kattbild visar \"Katt\" på svenska, \"Cat\" på engelska, \"Katze\" på tyska. Bildfyllning är inte språkkänslig.',
     },
     {
       question: 'Hur fungerar ZIP batch-exporten?',

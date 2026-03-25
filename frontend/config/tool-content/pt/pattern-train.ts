@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Abrir o Gerador de Trem de Padrões',
-        description: 'Clique em «Testar Grátis» para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de trem de padrões imediatamente.',
+        description: 'Clique em \"Testar Grátis\" para abrir o gerador no seu navegador. A ferramenta abre instantaneamente com uma barra lateral de definições à esquerda e um canvas de pré-visualização em tempo real à direita. Não precisa de conta, download nem instalação — comece a criar fichas de trem de padrões imediatamente.',
       },
       {
         title: 'Configurar o Layout da Página e o Fundo',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Conjuntos Sazonais e de Festividades de Trem de Padrões',
-      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de trem de padrões de edição limitada. Um pacote de «Trem de Padrões de Halloween» com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no Gumroad. Combine aquecimentos simples de AB com desafios avançados de AABB em cada conjunto sazonal para cobrir múltiplos níveis de competência e maximizar a sua audiência de compradores.',
+      description: 'Use temas de imagens sazonais e de festividades para criar pacotes de trem de padrões de edição limitada. Um pacote de \"Trem de Padrões de Halloween\" com imagens temáticas de terror vende-se em outubro. Natal, regresso às aulas, Dia dos Namorados e temas de verão têm cada um as suas próprias épocas de pico de vendas na Etsy e no Gumroad. Combine aquecimentos simples de AB com desafios avançados de AABB em cada conjunto sazonal para cobrir múltiplos níveis de competência e maximizar a sua audiência de compradores.',
     },
     {
       title: 'Pacotes de Aprendizagem Visual Multiformato',
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Série de Cadernos de Matemática Precoce para Amazon KDP',
-      description: 'Compile mais de 80 exercícios de trem de padrões em cadernos temáticos para Amazon KDP. Estruture uma série por tema: «Trens de Padrões de Animais», «Trens de Sequências de Veículos», «Reconhecimento de Padrões com Alimentos». Cada livro progride desde padrões simples AB até sequências complexas AABB, com gabaritos no final. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução. Os cadernos de trem de padrões preenchem um nicho específico de aprendizagem precoce com procura constante ao longo do ano por parte de pais e vendedores de pré-escolar.',
+      description: 'Compile mais de 80 exercícios de trem de padrões em cadernos temáticos para Amazon KDP. Estruture uma série por tema: \"Trens de Padrões de Animais\", \"Trens de Sequências de Veículos\", \"Reconhecimento de Padrões com Alimentos\". Cada livro progride desde padrões simples AB até sequências complexas AABB, com gabaritos no final. O formato visual sem texto publica-se de forma idêntica em todos os mercados internacionais do KDP sem tradução. Os cadernos de trem de padrões preenchem um nicho específico de aprendizagem precoce com procura constante ao longo do ano por parte de pais e vendedores de pré-escolar.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Centros de Padrões no Gumroad',
-      description: 'Carregue pacotes de fichas de trem de padrões no Gumroad organizados por nível de competência e tema. Inclua quatro níveis de dificuldade por tema usando o tipo de padrão e o número de pistas como eixos de diferenciação. Inclua gabaritos gerados automaticamente e folhas de acompanhamento do progresso do usuário. O formato de vagões de trem cria um tema visual atrativo que funciona como atividade de centro online. Os vendedores procuram «atividades de reconhecimento de padrões» e «fichas de padrões repetitivos» e encontram opções de qualidade limitadas no formato de trem — os seus produtos preenchem essa lacuna.',
+      description: 'Carregue pacotes de fichas de trem de padrões no Gumroad organizados por nível de competência e tema. Inclua quatro níveis de dificuldade por tema usando o tipo de padrão e o número de pistas como eixos de diferenciação. Inclua gabaritos gerados automaticamente e folhas de acompanhamento do progresso do usuário. O formato de vagões de trem cria um tema visual atrativo que funciona como atividade de centro online. Os vendedores procuram \"atividades de reconhecimento de padrões\" e \"fichas de padrões repetitivos\" e encontram opções de qualidade limitadas no formato de trem — os seus produtos preenchem essa lacuna.',
       platform: 'Gumroad',
     },
     {
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Destaque o Formato de Trem como o Seu Diferenciador no Mercado',
-      description: 'A maioria das fichas de padrões na Etsy e no Gumroad usa formatos de grelha padrão com linhas e colunas. O formato de 11 vagões de trem é visualmente distintivo e imediatamente reconhecível nos resultados de pesquisa. Mencione «formato de vagões de trem» e «disposição de 11 vagões» nos títulos e descrições dos seus produtos para realçar o que diferencia as suas listagens dos concorrentes baseados em grelha.',
+      description: 'A maioria das fichas de padrões na Etsy e no Gumroad usa formatos de grelha padrão com linhas e colunas. O formato de 11 vagões de trem é visualmente distintivo e imediatamente reconhecível nos resultados de pesquisa. Mencione \"formato de vagões de trem\" e \"disposição de 11 vagões\" nos títulos e descrições dos seus produtos para realçar o que diferencia as suas listagens dos concorrentes baseados em grelha.',
     },
     {
       title: 'Destaque o Formato Sem Texto para Venda Global',
-      description: 'As fichas de trem de padrões não contêm texto na saída — apenas imagens nos vagões. Esta é a sua maior vantagem competitiva para listagens em marketplaces. Indique explicitamente «não precisa de tradução — funciona em todo o mundo» em cada descrição de produto. Compradores de qualquer país podem comprar sem se preocupar com a compatibilidade de idioma.',
+      description: 'As fichas de trem de padrões não contêm texto na saída — apenas imagens nos vagões. Esta é a sua maior vantagem competitiva para listagens em marketplaces. Indique explicitamente \"não precisa de tradução — funciona em todo o mundo\" em cada descrição de produto. Compradores de qualquer país podem comprar sem se preocupar com a compatibilidade de idioma.',
     },
     {
       title: 'Crie Produtos de Padrões Tanto em Trem como em Grelha',
-      description: 'O Gerador de Trem de Padrões e o Gerador de Fichas de Padrões produzem formatos visuais fundamentalmente diferentes para a mesma competência — reconhecimento de padrões. O formato de trem usa 11 vagões com uma única posição em falta. O formato de grelha usa linhas e colunas padrão para completar padrões. Venda ambos os formatos separadamente ou combine-os como um «Pacote Completo de Reconhecimento de Padrões» a um preço premium.',
+      description: 'O Gerador de Trem de Padrões e o Gerador de Fichas de Padrões produzem formatos visuais fundamentalmente diferentes para a mesma competência — reconhecimento de padrões. O formato de trem usa 11 vagões com uma única posição em falta. O formato de grelha usa linhas e colunas padrão para completar padrões. Venda ambos os formatos separadamente ou combine-os como um \"Pacote Completo de Reconhecimento de Padrões\" a um preço premium.',
     },
     {
       title: 'Ajuste o Número de Pistas Conforme a Idade Alvo',
